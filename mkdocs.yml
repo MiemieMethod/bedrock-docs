@@ -1,0 +1,79 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: 基岩文档
+site_url: https://miemiemethod.github.io/bedrock-docs/
+repo_name: bedrock-docs
+repo_url: https://github.com/MiemieMethod/bedrock-docs
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: 切换至浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off
+        name: 切换至系统偏好
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+extra:
+  consent:
+    title: 同意Cookie
+    description: >- 
+      我们利用Cookie来记住您的访问记录和喜好，同时也用来评估我们的文档是否有效，以及用户是否能找到他们想要的信息。如果您同意，那么您就是在帮助我
+      们不断优化我们的文档，非常感谢！<small>您随时可以在页面底部更改您的Cookie设置。</small>
+    cookies:
+      analytics:
+        name: Google分析
+        checked: true
+      github:
+        name: GitHub
+        checked: true
+    actions:
+      - accept
+      - manage
+      - reject
+copyright: >
+  Copyright &copy; 2024 Miemie Method –
+  <a href="#__consent">更改Cookie设置</a>
+extra_css:
+  - stylesheets/fonts.css
+plugins:
+  - search
+  - social
+  - blog
+  - rss
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: MiemieMethod/bedrock-docs
+      branch: main
