@@ -30,4 +30,4 @@ jobs:
           mkdocs-git-revision-date-localized-plugin \
           mkdocs-git-committers-plugin-2 \
           mkdocs-minify-plugin
-      - run: mkdocs gh-deploy --force
+      - run:  python -m mkdocs gh-deploy --force
