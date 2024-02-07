@@ -51,8 +51,7 @@ extra:
   consent:
     title: 同意Cookie
     description: >- 
-      我们利用Cookie来记住您的访问记录和喜好，同时也用来评估我们的文档是否有效，以及用户是否能找到他们想要的信息。如果您同意，那么您就是在帮助我
-      们不断优化我们的文档，非常感谢！<small>您随时可以在页面底部更改您的Cookie设置。</small>
+      我们利用Cookie来记住您的访问记录和喜好，同时也用来评估我们的文档是否有效，以及用户是否能找到他们想要的信息。如果您同意，那么您就是在帮助我们不断优化我们的文档，非常感谢！<small>您随时可以在页面底部更改您的Cookie设置。</small>
     cookies:
       analytics:
         name: Google分析
