@@ -1,9 +1,10 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: 基岩文档
 site_url: https://miemiemethod.github.io/bedrock-docs/
-repo_name: bedrock-docs
+repo_name: GitHub
 repo_url: https://github.com/MiemieMethod/bedrock-docs
 edit_uri: edit/main/docs/
+site_description: Minecraft基岩版开发文档
 theme:
   name: material
   language: zh
@@ -36,6 +37,7 @@ theme:
     - navigation.prune
     - navigation.indexes
     - navigation.top
+    - navigation.footer
     - toc.follow
     - search.suggest
     - search.highlight
@@ -44,6 +46,7 @@ theme:
     - content.action.edit
     - content.action.view
     - content.tooltips
+    - content.code.copy
 extra:
   consent:
     title: 同意Cookie
@@ -66,14 +69,82 @@ copyright: >
   <a href="#__consent">更改Cookie设置</a>
 extra_css:
   - stylesheets/fonts.css
+  - stylesheets/collapse.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js
 plugins:
   - search
   - social
   - blog
   - rss
   - tags
+  - minify:
+      minify_html: true
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true
   - git-committers:
       repository: MiemieMethod/bedrock-docs
       branch: main
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      permalink_title: 该段落的引用链接
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+      block_tag: 'pre'
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      pygments_lang_class: true
+      # auto_title: true
+      linenums_style: pymdownx-inline
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite:
+      custom_inline:
+        - name: math
+          class: arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_inline_format {kwds: {mode: generic}}
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        # Mermaid diagrams
+        - name: diagram
+          class: diagram
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: math
+          class: arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_fenced_format {kwds: {mode: generic, tag: pre}}
+        - name: md-render
+          class: md-render
+          format: !!python/name:tools.pymdownx_md_render.md_sub_render
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tools.collapse_code:
+      expand_text: ''
+      collapse_text: ''
+      expand_title: '展开'
+      collapse_title: '收起'
