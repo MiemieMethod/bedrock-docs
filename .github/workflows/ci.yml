@@ -25,8 +25,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install \
-          mkdocs-material \
-          .[recommended,git,imaging] \
+          mkdocs-material[recommended,git,imaging] \
           mkdocs-rss-plugin \
           mkdocs-git-revision-date-localized-plugin \
           mkdocs-git-committers-plugin-2
