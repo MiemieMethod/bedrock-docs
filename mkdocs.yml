@@ -1,10 +1,21 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+# Project information
 site_name: 基岩文档
 site_url: https://miemiemethod.github.io/bedrock-docs/
-repo_name: GitHub
-repo_url: https://github.com/MiemieMethod/bedrock-docs
 edit_uri: edit/main/docs/
 site_description: Minecraft基岩版开发文档
+
+# Repository
+repo_name: GitHub
+repo_url: https://github.com/MiemieMethod/bedrock-docs
+
+# Copyright
+copyright: >
+  Copyright &copy; 2024 Miemie Method <!-- & LPaicen --> –
+  <a href="#__consent">更改Cookie设置</a>
+
+# Configuration
 theme:
   name: material
   language: zh
@@ -47,7 +58,17 @@ theme:
     - content.action.view
     - content.tooltips
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+# Additional configuration
 extra:
+  status:
+    new: 最近添加
+    deprecated: 已弃用
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
   consent:
     title: 同意Cookie
     description: >- 
@@ -63,9 +84,9 @@ extra:
       - accept
       - manage
       - reject
-copyright: >
-  Copyright &copy; 2024 Miemie Method –
-  <a href="#__consent">更改Cookie设置</a>
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MiemieMethod/bedrock-docs
 extra_css:
   - stylesheets/fonts.css
   - stylesheets/collapse.css
@@ -74,6 +95,10 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+# Plugins
 plugins:
   - search
   - social
@@ -88,17 +113,26 @@ plugins:
   - git-committers:
       repository: MiemieMethod/bedrock-docs
       branch: main
+  - glightbox:
+       skip_classes:
+         - skip-image
+       auto_caption: true
+       background: gainsboro
+
+# Extensions
 markdown_extensions:
   - abbr
-  - admonition
+  # - admonition
   - attr_list
-  - def_list
+  # - def_list
   - footnotes
   - md_in_html
   - toc:
       permalink: true
       permalink_title: 该段落的引用链接
   - tables
+  - smarty:
+      smart_quotes: false
   - pymdownx.arithmatex:
       generic: true
       block_tag: 'pre'
@@ -107,7 +141,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.critic
-  - pymdownx.details
+  # - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -135,11 +169,13 @@ markdown_extensions:
         - name: md-render
           class: md-render
           format: !!python/name:tools.pymdownx_md_render.md_sub_render
-  - pymdownx.keys
+  - pymdownx.keys:
+      separator: "\uff0b"
   - pymdownx.smartsymbols
-  - pymdownx.snippets
-  - pymdownx.tabbed:
-      alternate_style: true
+  - pymdownx.snippets:
+      check_paths: true
+  # - pymdownx.tabbed:
+  #     alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - tools.collapse_code:
@@ -147,3 +183,83 @@ markdown_extensions:
       collapse_text: ''
       expand_title: '展开'
       collapse_title: '收起'
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      social_url_shortener: true
+      user: facelessuser
+      repo: pymdown-extensions
+      normalize_issue_symbols: true
+  - pymdownx.smartsymbols
+  - pymdownx.escapeall:
+      hardbreak: true
+      nbsp: true
+  - pymdownx.progressbar
+  - pymdownx.striphtml
+  - pymdownx.saneheaders
+  - pymdownx.blocks.admonition:
+      types:
+      - new
+      - settings
+      - note
+      - abstract
+      - info
+      - tip
+      - success
+      - question
+      - warning
+      - failure
+      - danger
+      - bug
+      - example
+      - quote
+  - pymdownx.blocks.details:
+      types:
+      - name: details-new
+        class: new
+      - name: details-settings
+        class: settings
+      - name: details-note
+        class: note
+      - name: details-abstract
+        class: abstract
+      - name: details-info
+        class: info
+      - name: details-tip
+        class: tip
+      - name: details-success
+        class: success
+      - name: details-question
+        class: question
+      - name: details-warning
+        class: warning
+      - name: details-failure
+        class: failure
+      - name: details-danger
+        class: danger
+      - name: details-bug
+        class: bug
+      - name: details-example
+        class: example
+      - name: details-quote
+        class: quote
+  - pymdownx.blocks.html:
+  - pymdownx.blocks.definition:
+  - pymdownx.blocks.tab:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+
+# Page tree
+nav:
+  - 首页:
+    - 欢迎: index.md
+  - 文档:
+    - docs/index.md
+  - 教程:
+    - guides/index.md
+  - 参考:
+    - refs/index.md
+  - 专栏:
+    - blog/index.md
