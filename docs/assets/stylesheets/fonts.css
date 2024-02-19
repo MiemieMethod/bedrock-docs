@@ -3,35 +3,35 @@
     font-family: "ChillDuanHeiSong";
     font-style: normal;
     font-weight: normal;
-    src: url("../assets/fonts/ChillDuanHeiSongRegular.otf") format("truetype");
+    src: url("../fonts/ChillDuanHeiSongRegular.otf") format("truetype");
 }
 
 @font-face {
     font-family: "ChillDuanHeiSong";
     font-style: normal;
     font-weight: bold;
-    src: url("../assets/fonts/ChillDuanHeiSongBold.otf") format("truetype");
+    src: url("../fonts/ChillDuanHeiSongBold.otf") format("truetype");
 }
 
 @font-face {
     font-family: "ChillDuanHeiSong";
     font-style: normal;
     font-weight: 900;
-    src: url("../assets/fonts/ChillDuanHeiSongHeavy.otf") format("truetype");
+    src: url("../fonts/ChillDuanHeiSongHeavy.otf") format("truetype");
 }
 
 @font-face {
     font-family: "ChillDuanHeiSong";
     font-style: normal;
     font-weight: 100;
-    src: url("../assets/fonts/ChillDuanHeiSongLight.otf") format("truetype");
+    src: url("../fonts/ChillDuanHeiSongLight.otf") format("truetype");
 }
 
 @font-face {
     font-family: "ChillDuanHeiSongPro";
     font-style: normal;
     font-weight: normal;
-    src: url("../assets/fonts/ChillDuanHeiSongPro_Regular.otf") format("truetype");
+    src: url("../fonts/ChillDuanHeiSongPro_Regular.otf") format("truetype");
 }
 
 :root {

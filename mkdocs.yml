@@ -12,13 +12,13 @@ repo_url: https://github.com/MiemieMethod/bedrock-docs
 
 # Copyright
 copyright: >
-  Copyright &copy; 2024 Miemie Method <!-- & LPaicen --> –
-  <a href="#__consent">更改Cookie设置</a>
+  Copyright &copy; 2024 Miemie Method <!-- & LPaicen --> – <a href="#__consent">更改Cookie设置</a> – 除非另有声明，本站内容采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align: text-bottom;" src="./assets/images/by-nc-sa.svg" />知识共享署名-非商业性使用-相同方式共享</a>授权，附加条款亦可能应用。
 
 # Configuration
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -66,9 +66,22 @@ extra:
   status:
     new: 最近添加
     deprecated: 已弃用
-  # analytics:
-  #   provider: google
-  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  analytics:
+    provider: google
+    property: G-5E7Q5MKZZ8
+    feedback:
+      title: 本页是否有帮助？
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 帮大忙了
+          data: 1
+          note: >-
+            感谢您的反馈！
+        - icon: material/emoticon-sad-outline
+          name: 改需改进
+          data: 0
+          note: >- 
+            感谢您的反馈！或许您可以通过进一步填写<a href="..." target="_blank" rel="noopener">反馈问卷</a>来帮助我们改进。
   consent:
     title: 同意Cookie
     description: >- 
@@ -88,15 +101,16 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/MiemieMethod/bedrock-docs
 extra_css:
-  - stylesheets/fonts.css
-  - stylesheets/collapse.css
+  - assets/stylesheets/fonts.css
+  - assets/stylesheets/collapse.css
+  - assets/stylesheets/banner.css
 extra_javascript:
-  - javascripts/mathjax.js
+  - assets/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js
+  - assets/javascripts/tablesort.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - javascripts/tablesort.js
 
 # Plugins
 plugins:
