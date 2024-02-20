@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 # Project information
 site_name: 基岩文档
@@ -12,7 +12,7 @@ repo_url: https://github.com/MiemieMethod/bedrock-docs
 
 # Copyright
 copyright: >
-  Copyright &copy; 2024 Miemie Method <!-- & LPaicen --> – <a href="#__consent">更改Cookie设置</a> – 除非另有声明，本站内容采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align: text-bottom;" src="./assets/images/by-nc-sa.svg" />知识共享署名-非商业性使用-相同方式共享</a>授权，附加条款亦可能应用。
+  Copyright &copy; 2024 Miemie Method <!-- & LPaicen --> – <a href="#__consent">更改Cookie设置</a> – 除非另有声明，本站内容采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;vertical-align: text-bottom;" src="/bedrock-docs/assets/images/by-nc-sa.svg" />知识共享署名-非商业性使用-相同方式共享</a>授权，附加条款亦可能应用。
 
 # Configuration
 theme:
