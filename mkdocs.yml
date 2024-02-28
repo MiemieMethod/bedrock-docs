@@ -269,6 +269,7 @@ markdown_extensions:
 nav:
   - 首页:
     - 欢迎: index.md
+    - 贡献: contributing.md
   - 文档:
     - docs/index.md
   - 教程:
