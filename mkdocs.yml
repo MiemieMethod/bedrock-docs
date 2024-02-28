@@ -144,13 +144,17 @@ markdown_extensions:
   - toc:
       permalink: true
       permalink_title: 该段落的引用链接
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - tables
   - smarty:
       smart_quotes: false
   - pymdownx.arithmatex:
       generic: true
       block_tag: 'pre'
-  - pymdownx.betterem
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -188,6 +192,7 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
+      dedent_subsections: true
   # - pymdownx.tabbed:
   #     alternate_style: true
   - pymdownx.tasklist:
@@ -202,8 +207,8 @@ markdown_extensions:
       repo_url_shorthand: true
       social_url_shorthand: true
       social_url_shortener: true
-      user: facelessuser
-      repo: pymdown-extensions
+      user: MiemieMethod
+      repo: bedrock-docs
       normalize_issue_symbols: true
   - pymdownx.smartsymbols
   - pymdownx.escapeall:
