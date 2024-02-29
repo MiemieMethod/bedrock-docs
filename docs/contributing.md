@@ -53,7 +53,7 @@ pip install mkdocs-glightbox
 | 快捷键  | `++ctrl+alt+delete++`                           | ++ctrl+alt+delete++ |
 | 进度条  | `[=85% "85%"]`                                  | [=85% "85%"]        |
 
-值得注意的是，如果上下标中含有空格，空格需要转义，即使用<code>\\ </code>代替单纯的<code> </code>。快捷键语法中的各键位标识符详见[Keys扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)。进度条允许[注入](#注入特性)一些类使其变成糖衣色、动态糖衣色或窄进度条，具体详见[Progress扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#overview)。
+值得注意的是，如果上下标中含有空格，空格需要转义，即使用<code>\\ </code>代替单纯的<code> </code>。快捷键语法中的各键位标识符详见[Keys扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)。进度条允许[注入](#注入特性)一些类使其变成糖衣色、动态糖衣色或窄进度条，具体详见[ProgressBar扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#overview)。
 
 ### 注入特性
 
@@ -78,13 +78,341 @@ pip install mkdocs-glightbox
 
 ### 围栏
 
-围栏语法即代码块语法。
+围栏语法即代码块语法，可以使用三个或三个以上的`~`或<code>\`</code>作为包装字面量。为了规范，我们要求在本站点贡献时，只可使用三个<code>\`</code>的包装语法。本站围栏使用[Pygments](https://pygments.org/)进行代码高亮，并通过[SuperFences扩展](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/)进行了封装。你可以使用`title`、`linenums`、`hl_lines`三个参数来定制围栏。
+
+`linenums`的第一个参数是起始行号，第二个参数是显示行号的步长，第三个参数是特殊行号的步长；如不指定该参数，则不显示行号。`hl_lines`代表高亮的行。可以用单个行号或用短横杠`-`表示从第几行至第几行，之间用空格隔开。
+
+围栏也可以使用上述[注入](#注入特性)的方式指定参数，例如以下两种格式的输出是等价的：
+
+/// tab | 常规
+````markdown
+```python title="示例" linenums="1 2 3" hl_lines="1-2 5 7-8"
+import foo
+import boo.baz
+import foo.bar.baz
+
+class Foo:
+   def __init__(self):
+       self.foo = None
+       self.bar = None
+       self.baz = None
+```
+````
+
+//// html | div.result
+```python title="示例" linenums="1 2 3" hl_lines="1-2 5 7-8"
+import foo
+import boo.baz
+import foo.bar.baz
+
+class Foo:
+   def __init__(self):
+       self.foo = None
+       self.bar = None
+       self.baz = None
+```
+////
+///
+/// tab | 注入
+````markdown
+```{.python title="示例" linenums="1 2 3" hl_lines="1-2 5 7-8"}
+import foo
+import boo.baz
+import foo.bar.baz
+
+class Foo:
+   def __init__(self):
+       self.foo = None
+       self.bar = None
+       self.baz = None
+```
+````
+
+//// html | div.result
+```{.python title="示例" linenums="1 2 3" hl_lines="1-2 5 7-8"}
+import foo
+import boo.baz
+import foo.bar.baz
+
+class Foo:
+   def __init__(self):
+       self.foo = None
+       self.bar = None
+       self.baz = None
+```
+////
+///
+
+关于更多的注入相关信息，可以参考[SuperFences扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/#injecting-classes-ids-and-attributes)。
 
 ### 内容块
 
+内容块是一种特殊的块级元素，通过三个或三个以上的`/`包装。大致语法如下：
+
+```markdown
+/// name | argument
+    options1: value
+    options2: value
+    ...
+这是一个内容块，此处是正常Markdown内容。
+///
+```
+
+内容块嵌套时，可以使用`///`和`////`等来表示不同级别的嵌套。往往越深的嵌套级别越多个`/`。
+
 #### 警告
 
+警告是一种特殊的内容块，用于强调一些需要注意的内容。最简单的语法如下：
+
+```markdown
+/// admonition | 标题
+内容。
+///
+```
+
+/// html | div.result
+//// admonition | 标题
+内容。
+////
+///
+
+实际上，警告有多种类型，可以通过`type`选项来指定。若没有指定，默认为`note`。此外，可以用类型标识符替换`admonition`实现快速给出该类型的警告。例如。以下两种格式的输出是一致的：
+
+/// tab | 常规
+```markdown
+/// admonition | 标题
+    type: warning
+内容。
+///
+```
+
+//// html | div.result
+///// admonition | 标题
+    type: warning
+内容。
+/////
+////
+///
+/// tab | 快捷
+```markdown
+/// warning | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// warning | 标题
+内容。
+/////
+////
+///
+
+下面给出了本站所有可用的警告类型：
+
+/// tab | `new`
+```markdown
+/// new | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// new | 标题
+内容。
+/////
+////
+///
+/// tab | `settings`
+```markdown
+/// settings | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// settings | 标题
+内容。
+/////
+////
+///
+/// tab | `note`
+```markdown
+/// note | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// note | 标题
+内容。
+/////
+////
+///
+/// tab | `abstract`
+```markdown
+/// abstract | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// abstract | 标题
+内容。
+/////
+////
+///
+/// tab | `info`
+```markdown
+/// info | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// info | 标题
+内容。
+/////
+////
+///
+/// tab | `tip`
+```markdown
+/// tip | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// tip | 标题
+内容。
+/////
+////
+///
+/// tab | `success`
+```markdown
+/// success | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// success | 标题
+内容。
+/////
+////
+///
+/// tab | `question`
+```markdown
+/// question | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// question | 标题
+内容。
+/////
+////
+///
+/// tab | `warning`
+```markdown
+/// warning | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// warning | 标题
+内容。
+/////
+////
+///
+/// tab | `failure`
+```markdown
+/// failure | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// failure | 标题
+内容。
+/////
+////
+///
+/// tab | `danger`
+```markdown
+/// danger | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// danger | 标题
+内容。
+/////
+////
+///
+/// tab | `bug`
+```markdown
+/// bug | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// bug | 标题
+内容。
+/////
+////
+///
+/// tab | `example`
+```markdown
+/// example | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// example | 标题
+内容。
+/////
+////
+///
+/// tab | `quote`
+```markdown
+/// quote | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// quote | 标题
+内容。
+/////
+////
+///
+
+此外，你可以使用`attrs`选项来更改类、ID和其他特性。更多的功能可以参考[Admonition扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/)。
+
+将`admonition`替换为`details`可以将警告转换为详情。详情是一种特殊的警告，用于隐藏一些内容。例如：
+
+```markdown
+/// details | 标题
+    type: warning
+内容。
+///
+```
+
+/// html | div.result
+//// details | 标题
+    type: warning
+内容。
+////
+///
+
 #### HTML
+
+
 
 #### 定义
 
@@ -217,8 +545,8 @@ print("Hello, World!") # 这是一个注释。(1)!
 这是一个段落(1)。
 {.annotate}
 
-1.  这是一个注解。在注解底部缩进对齐使用`{ .annotate }`以在注解中添加注解。(1)
-    { .annotate }
+1.  这是一个注解。在注解底部缩进对齐使用`{.annotate}`以在注解中添加注解。(1)
+    {.annotate}
 
     1.  这里是第二个注解。
 ```
@@ -227,8 +555,8 @@ print("Hello, World!") # 这是一个注释。(1)!
 这是一个段落(1)。
 {.annotate}
 
-1.  这是一个注解。在注解底部缩进对齐使用`{ .annotate }`以在注解中添加注解。(1)
-    { .annotate }
+1.  这是一个注解。在注解底部缩进对齐使用`{.annotate}`以在注解中添加注解。(1)
+    {.annotate}
 
     1.  这里是第二个注解。
 ///

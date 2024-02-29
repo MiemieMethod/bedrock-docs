@@ -9,6 +9,17 @@
     --md-progress-0:hsl(0, 100%, 67%);
 }
 
+:root>[data-md-color-scheme=slate]{
+    --md-text-color:var(--md-default-fg-color);
+    --md-progress-stripe:var(--md-default-bg-color--lightest);
+    --md-progress-100:hsl(135, 94%, 65%);
+    --md-progress-80:hsl(135, 92%, 79%);
+    --md-progress-60:hsl(65, 92%, 76%);
+    --md-progress-40:hsl(31, 100%, 71%);
+    --md-progress-20:hsl(326, 100%, 74%);
+    --md-progress-0:hsl(0, 100%, 67%);
+}
+
 .md-typeset .progress-label{
     position:absolute;
     width:100%;
