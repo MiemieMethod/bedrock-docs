@@ -34,20 +34,20 @@ pip install mkdocs-glightbox
 
 本文档使用Markdown语法编写。如果您不熟悉Markdown语法，可以参考[这篇文章](https://www.markdownguide.org/basic-syntax/)，或这篇[中文文章](https://markdown-zh.readthedocs.io/en/latest/)。此外，您还可以参考[Material for MkDocs的文档](https://squidfunk.github.io/mkdocs-material/reference/)以了解更多关于Material for MkDocs的独有语法，以及参考[PyMdown Extensions的文档](https://facelessuser.github.io/pymdown-extensions/)以了解更多关于PyMdown Extensions提供的额外语法。本站加载有所有PyMdown Extensions提供的扩展，请编者放心使用。
 
-此外，此处也以中文语言重新记录了一些上述的额外语法：
+此外，此处也以中文语言重新记录了一些上述提供的额外语法：
 
 ### 一般内联语法
 
 | 描述   | 语法                                              | 效果                  |
 |------|-------------------------------------------------|---------------------|
-| 删除   | `~~删除~~`                                        | ~~删除~~              |
+| 删除线  | `~~删除~~`                                        | ~~删除~~              |
 | 下划线  | `^^插入^^`                                        | ^^插入^^              |
 | 下标   | `~下标~`                                          | ~下标~                |
 | 上标   | `^上标^`                                          | ^上标^                |
 | 插入   | <code>{\++插入++}</code>                          | {++插入++}            |
 | 移除   | <code>{\--移除-\-}</code>                         | {--移除--}            |
 | 替换   | <code>{\~\~A\~>B~~}</code>                      | {~~A~>B~~}          |
-| 高亮   | <code>{\==高亮==}</code><br/><code>\==高亮==</code> | {==高亮==}            |
+| 文本高亮 | <code>{\==高亮==}</code><br/><code>\==高亮==</code> | {==高亮==}            |
 | 注释   | <code>{\>>注释<<}</code>                          | {>>注释<<}            |
 | 代码高亮 | <code>\`#!js foo = 1 / 2;\`</code>              | `#!js foo = 1 / 2;` |
 | 快捷键  | `++ctrl+alt+delete++`                           | ++ctrl+alt+delete++ |
