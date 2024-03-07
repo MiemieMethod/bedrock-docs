@@ -61,6 +61,10 @@ theme:
     - content.code.annotate
     - content.tabs.link
 
+# Hooks
+hooks:
+  - overrides/hooks/shortcodes.py
+
 # Additional configuration
 extra:
   status:
@@ -108,6 +112,7 @@ extra_css:
   - assets/stylesheets/magiclink.css
   - assets/stylesheets/progressbar.css
   - assets/stylesheets/admonition.css
+  - assets/stylesheets/badge.css
 extra_javascript:
   - assets/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6

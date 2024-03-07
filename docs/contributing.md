@@ -577,3 +577,76 @@ print("Hello, World!") # 这是一个注释。(1)!
 ### 网格
 
 ### 工具提示
+
+### 符号
+
+仿照[Material for MkDocs的约定](https://squidfunk.github.io/mkdocs-material/conventions/)，本站支持了一些符号。可用符号如下：
+
+| 名称  | 语法                                                                                                                 | 效果                                                                                                       |
+|-----|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| 版本  | `<!-/- md:version 1.20.0 -->`                                                                                      | <!-- md:version 1.20.0 -->  { #version }                                                                 |
+| 可选  | `<!-/- md:optional 注释 -->`                                                                                         | <!-- md:optional 注释 -->  { #optional }                                                                   |
+| 默认  | `<!-/- md:default none -->`<br/>`<!-/- md:default computed -->`<br/><code><!-\- md:default \`default\` -\-></code> | <!-- md:default none --><br/><!-- md:default computed --><br/><!-- md:default `default` --> { #default } |
+| 必选  | `<!-/- md:flag required -->`                                                                                       | <!-- md:flag required --> { #flag }                                                                      |
+| 实验性 | `<!-/- md:flag experimental -->`                                                                                   | <!-- md:flag experimental -->                                                                            |
+
+此外，还有两种快捷输出参数名的符号：
+
+/// tab | 定义
+```markdown
+/// define
+<!-/- md:option a.arg1 -->
+
+- `arg1`的描述。你可以用`[arg1](#+a.arg1)`来链接到这个参数。
+
+<!-/- md:option b.arg2 -->
+
+- `arg2`的描述。你可以用`[arg2](#+b.arg2)`来链接到这个参数。
+
+///
+```
+
+//// html | div.result
+///// define
+<!-- md:option a.arg1 -->
+
+- `arg1`的描述。你可以用`[arg1](#+a.arg1)`来链接到这个参数。
+
+<!-- md:option b.arg2 -->
+
+- `arg2`的描述。你可以用`[arg2](#+b.arg2)`来链接到这个参数。
+
+/////
+////
+///
+/// tab | 标题
+```markdown
+#### <!-/- md:setting a.arg1 -->
+
+- `arg1`的描述。你可以用`[arg1][a.arg1]`来链接到这个参数。
+
+#### <!-/- md:setting b.arg2 -->
+
+- `arg2`的描述。你可以用`[arg2][b.arg2]`来链接到这个参数。
+```
+
+//// html | div.result
+#### <!-- md:setting a.arg1 -->
+
+- `arg1`的描述。你可以用`[arg1][a.arg1]`来链接到这个参数。
+
+#### <!-- md:setting b.arg2 -->
+
+- `arg2`的描述。你可以用`[arg2][b.arg2]`来链接到这个参数。
+////
+///
+
+还可以通过`example`符号指定示例的页面链接和下载链接：
+
+```markdown
+<!-/- md:version 1.20.0 --> <!-/- md:optional 注释 --> <!-/- md:example example -->
+```
+
+/// html | div.result
+<!-- md:version 1.20.0 --> <!-- md:optional 注释 --> <!-- md:example example -->
+///
