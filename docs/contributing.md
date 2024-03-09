@@ -650,3 +650,27 @@ print("Hello, World!") # 这是一个注释。(1)!
 /// html | div.result
 <!-- md:version 1.20.0 --> <!-- md:optional 注释 --> <!-- md:example example -->
 ///
+
+默认的表格是不可排序的。使用`sortable`符号可以指定表格为可排序表格：
+
+```markdown
+| 方法       | 描述                        |
+|----------|---------------------------|
+| `GET`    | :material-check:     获取资源 |
+| `PUT`    | :material-check-all: 更新资源 |
+| `DELETE` | :material-close:     删除资源 |
+
+<!-/- md:sortable -->
+```
+
+/// html | div.result
+| 方法       | 描述                        |
+|----------|---------------------------|
+| `GET`    | :material-check:     获取资源 |
+| `PUT`    | :material-check-all: 更新资源 |
+| `DELETE` | :material-close:     删除资源 |
+
+<!-- md:sortable -->
+///
+
+注意，强烈建议`<!-/- md:sortable -->`放在表格紧挨着的下一行，或至少放在下一个表格出现之前，否则当前表格将无法变更为可排序表格，取而代之的是其他表格会应用该功能。
