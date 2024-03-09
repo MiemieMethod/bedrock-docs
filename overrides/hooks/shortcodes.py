@@ -50,6 +50,7 @@ def on_page_markdown(
         elif type == "flag":         return flag(args, page, files)
         elif type == "option":       return option(args)
         elif type == "setting":      return setting(args)
+        elif type == "sortable":     return sortable(args)
         elif type == "optional":     return _badge_for_optional(args, page, files)
         # elif type == "plugin":       return _badge_for_plugin(args, page, files)
         # elif type == "extension":    return _badge_for_extension(args, page, files)
@@ -67,7 +68,7 @@ def on_page_markdown(
     return re.sub(
         r"<!-- md:(\w+)(.*?) -->",
         replace, markdown, flags = re.I | re.M
-    ).replace(r"<!-/-", r"<!--")
+    ).replace(r"<!-/- md:", r"<!-- md:")
 
 # -----------------------------------------------------------------------------
 # Helper functions
@@ -92,6 +93,9 @@ def option(type: str):
 def setting(type: str):
     _, *_, name = re.split(r"[.*]", type)
     return f"`{name}` {{ #{type} }}\n\n[{type}]: #{type}\n\n"
+
+def sortable(type: str):
+    return f'<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script><script>var tables = document.querySelectorAll("article table");new Tablesort(tables.item(tables.length - 1));</script>'
 
 # -----------------------------------------------------------------------------
 
