@@ -298,12 +298,35 @@ nav:
     - guides/index.md
     - 附加包:
         - guides/addons/index.md
-        - guides/addons/understanding-addons.md
+        - 认识附加包: guides/addons/understanding-addons.md
         - 数据驱动:
           - guides/addons/data-driven/index.md
         - 脚本API:
           - guides/addons/script-api/index.md
           - guides/addons/script-api/building-your-first-scripts.md
+        - 模组SDK:
+          - guides/addons/modsdk/index.md
+    - 社区模组:
+      - guides/community-mods/index.md
+      - ICMod:
+        - guides/community-mods/icmod/index.md
+      - ModPE:
+        - guides/community-mods/modpe/index.md
+    - 软件工具:
+      - guides/tools/index.md
+      - Blockbench:
+        - guides/tools/blockbench/index.md
+      - 编辑器:
+        - guides/tools/editor.md
+    - 服务端:
+      - guides/servers/index.md
+    - 着色器:
+      - guides/shaders/index.md
+      - 认识着色器: guides/shaders/understanding-shaders.md
+      - 中国版着色器:
+        - guides/shaders/netease-shader/index.md
+    - 过时教程:
+      - guides/outdated/index.md
   - 参考:
     - refs/index.md
   - 专栏:
