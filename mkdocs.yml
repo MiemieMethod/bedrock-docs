@@ -296,6 +296,14 @@ nav:
     - docs/index.md
   - 教程:
     - guides/index.md
+    - 附加包:
+        - guides/addons/index.md
+        - guides/addons/understanding-addons.md
+        - 数据驱动:
+          - guides/addons/data-driven/index.md
+        - 脚本API:
+          - guides/addons/script-api/index.md
+          - guides/addons/script-api/building-your-first-scripts.md
   - 参考:
     - refs/index.md
   - 专栏:
