@@ -23,7 +23,7 @@ pip install mkdocs-glightbox
 
 这将安装MkDocs和Material for MkDocs以及其他必要的插件。然后，您可以在本项目的根目录于控制台中使用`python -m mkdocs serve --dirtyreload`命令，此后即可在`localhost:8000`实时看到做出的更改。
 
-注意，如果发生错误，请将`tools`文件夹复制(1)到`docs`文件夹内再重新执行命令。如果报错显示找不到`cario`库和`libcario-2`库，请安装[GTK](https://www.gtk.org/)；如果你在使用Windows系统，请至@tschoonj/GTK-for-Windows-Runtime-Environment-Installer 安装最新的GTK Windows安装程序。
+注意，如果发生错误，请将`tools`文件夹复制(1)到`docs`文件夹内再重新执行命令。如果报错显示找不到`cairo`库和`libcairo-2`库，请安装[GTK](https://www.gtk.org/)；如果你在使用Windows系统，请至@tschoonj/GTK-for-Windows-Runtime-Environment-Installer 安装最新的GTK Windows安装程序。
 { .annotate }
 
 1.  注意：不是移动。
