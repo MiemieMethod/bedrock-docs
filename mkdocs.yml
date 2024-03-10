@@ -202,6 +202,10 @@ markdown_extensions:
   - pymdownx.snippets:
       check_paths: true
       dedent_subsections: true
+      base_path: 'includes/'
+      auto_append:
+        - abbreviations.md
+        - glossaries.md
   # - pymdownx.tabbed:
   #     alternate_style: true
   - pymdownx.tasklist:
@@ -236,50 +240,92 @@ markdown_extensions:
   - pymdownx.saneheaders
   - pymdownx.blocks.admonition:
       types:
-      - new
-      - settings
-      - note
-      - abstract
-      - info
-      - tip
-      - success
-      - question
-      - warning
-      - failure
-      - danger
-      - bug
-      - example
-      - quote
+      - name: new
+        class: new
+        title: 新功能
+      - name: settings
+        class: settings
+        title: 设置
+      - name: note
+        class: note
+        title: 注意
+      - name: abstract
+        class: abstract
+        title: 摘要
+      - name: info
+        class: info
+        title: 信息
+      - name: tip
+        class: tip
+        title: 提示
+      - name: success
+        class: success
+        title: 成功
+      - name: question
+        class: question
+        title: 问题
+      - name: warning
+        class: warning
+        title: 警告
+      - name: failure
+        class: failure
+        title: 失败
+      - name: danger
+        class: danger
+        title: 危险
+      - name: bug
+        class: bug
+        title: 漏洞
+      - name: example
+        class: example
+        title: 示例
+      - name: quote
+        class: quote
+        title: 引用
   - pymdownx.blocks.details:
       types:
       - name: details-new
         class: new
+        title: 新功能
       - name: details-settings
         class: settings
+        title: 设置
       - name: details-note
         class: note
+        title: 注意
       - name: details-abstract
         class: abstract
+        title: 摘要
       - name: details-info
         class: info
+        title: 信息
       - name: details-tip
         class: tip
+        title: 提示
       - name: details-success
         class: success
+        title: 成功
       - name: details-question
         class: question
+        title: 问题
       - name: details-warning
         class: warning
+        title: 警告
       - name: details-failure
         class: failure
+        title: 失败
       - name: details-danger
         class: danger
+        title: 危险
       - name: details-bug
         class: bug
+        title: 漏洞
       - name: details-example
         class: example
+        title: 示例
       - name: details-quote
         class: quote
+        title: 引用
   - pymdownx.blocks.html:
   - pymdownx.blocks.definition:
   - pymdownx.blocks.tab:
@@ -329,5 +375,11 @@ nav:
       - guides/outdated/index.md
   - 参考:
     - refs/index.md
+    - 附表:
+        - refs/tables/index.md
+        - 方块:
+          - 原版方块标签: refs/tables/blocks/vanilla_tags.md
+        - 物品:
+          - 原版物品标签: refs/tables/items/vanilla_tags.md
   - 专栏:
     - blog/index.md

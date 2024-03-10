@@ -160,9 +160,9 @@ class Foo:
 
 内容块嵌套时，可以使用`///`和`////`等来表示不同级别的嵌套。往往越深的嵌套级别越多个`/`。
 
-#### 警告
+#### 警告块
 
-警告是一种特殊的内容块，用于强调一些需要注意的内容。最简单的语法如下：
+警告块是一种特殊的内容块，用于强调一些需要注意的内容。最简单的语法如下：
 
 ```markdown
 /// admonition | 标题
@@ -176,7 +176,7 @@ class Foo:
 ////
 ///
 
-实际上，警告有多种类型，可以通过`type`选项来指定。若没有指定，默认为`note`。此外，可以用类型标识符替换`admonition`实现快速给出该类型的警告。例如。以下两种格式的输出是一致的：
+实际上，警告块有多种类型，可以通过`type`选项来指定。若没有指定，默认为`note`。此外，可以用类型标识符替换`admonition`实现快速给出该类型的警告块。例如。以下两种格式的输出是一致的：
 
 /// tab | 常规
 ```markdown
@@ -207,7 +207,7 @@ class Foo:
 ////
 ///
 
-下面给出了本站所有可用的警告类型：
+下面给出了本站所有可用的警告块类型：
 
 /// tab | `new`
 ```markdown
@@ -394,8 +394,9 @@ class Foo:
 
 此外，你可以使用`attrs`选项来更改类、ID和其他特性。更多的功能可以参考[Admonition扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/)。
 
-将`admonition`替换为`details`可以将警告转换为详情。详情是一种特殊的警告，用于隐藏一些内容。例如：
+将`admonition`替换为`details`可以将警告块转换为详情块。详情块是一种特殊的警告块，用于隐藏一些内容。例如：
 
+/// tab | 常规
 ```markdown
 /// details | 标题
     type: warning
@@ -403,20 +404,34 @@ class Foo:
 ///
 ```
 
-/// html | div.result
-//// details | 标题
-    type: warning
+//// html | div.result
+///// details | 标题
+      type: warning
 内容。
+/////
+////
+///
+/// tab | 快捷
+```markdown
+/// details-warning | 标题
+内容。
+///
+```
+
+//// html | div.result
+///// details-warning | 标题
+内容。
+/////
 ////
 ///
 
-#### HTML
+#### HTML块
 
 
 
-#### 定义
+#### 定义列表
 
-#### 标签
+#### 标签组
 
 ### 注解
 
@@ -475,7 +490,7 @@ print("Hello, World!") # 这是一个注释。(1)!
 
 有些地方虽然不支持注入语法，但是支持自定义类，因此也可以使用注解。例如，在内容块中使用注解：
 
-/// tab | 警告
+/// tab | 警告块
 ```markdown
 /// note | 注
     attrs: { class: annotate }
@@ -494,7 +509,7 @@ print("Hello, World!") # 这是一个注释。(1)!
 1.  这是一个注解。
 ////
 ///
-/// tab | HTML
+/// tab | HTML块
 ```markdown
 /// html | div.annotate
 这是一个内容块(1)。
@@ -511,7 +526,7 @@ print("Hello, World!") # 这是一个注释。(1)!
 1.  这是一个注解。
 ////
 ///
-/// tab | 标签
+/// tab | 标签组
 ```markdown
 /// tab | 标签1
 这是一个内容块(1)。
@@ -592,7 +607,7 @@ print("Hello, World!") # 这是一个注释。(1)!
 
 此外，还有两种快捷输出参数名的符号：
 
-/// tab | 定义
+/// tab | 定义列表
 ```markdown
 /// define
 <!-/- md:option a.arg1 -->
@@ -674,3 +689,17 @@ print("Hello, World!") # 这是一个注释。(1)!
 ///
 
 注意，强烈建议`<!-/- md:sortable -->`放在表格紧挨着的下一行，或至少放在下一个表格出现之前，否则当前表格将无法变更为可排序表格，取而代之的是其他表格会应用该功能。
+
+### 嵌入文件
+
+可以使用`--8<--`在文章中任意位置嵌入Markdown文件。例如：
+
+```markdown
+;--8<-- "example.md"
+```
+
+/// html | div.result
+--8<-- "example.md"
+///
+
+更多关于嵌入文件的信息可以参考[Snippets扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/)。本站嵌入文件的默认基路径是`includes/`。
