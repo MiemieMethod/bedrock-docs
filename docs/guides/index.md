@@ -44,7 +44,7 @@
 
     [:octicons-arrow-right-24: 试着接触着色器](shaders/)
 
--   :material-clock-time-nine:{ .lg .middle } __杂项教程__
+-   :material-shape-plus:{ .lg .middle } __杂项教程__
 
     ---
 
