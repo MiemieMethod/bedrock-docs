@@ -10,7 +10,7 @@
 
     附加包可以通过数据驱动向游戏中加入新内容或修改原有内容，实现内容的基础定义。
 
-    [:octicons-arrow-right-24: 制作第一个附加包](#)
+    [:octicons-arrow-right-24: 制作第一个附加包](addons/)
 
 -   :material-script-text:{ .lg .middle } __社区模组__
 
@@ -18,7 +18,7 @@
 
     玩家社区开发出了许多模组格式，使得我们可以对原版游戏以另一种方式修改。
 
-    [:octicons-arrow-right-24: 开始学习社区模组](#)
+    [:octicons-arrow-right-24: 开始学习社区模组](community-mods/)
 
 -   :material-tools:{ .lg .middle } __软件工具__
 
@@ -26,7 +26,7 @@
 
     各种各样的软件工具可以使你在开发过程中更加轻松地创作丰富的内容。
 
-    [:octicons-arrow-right-24: 尝试使用这些软件](#)
+    [:octicons-arrow-right-24: 尝试使用这些软件](tools/)
 
 -   :material-server:{ .lg .middle } __服务端__
 
@@ -34,7 +34,7 @@
 
     构建服务端内容，让来自各地的玩家一同体验Minecraft游戏世界。
 
-    [:octicons-arrow-right-24: 了解服务端内容](#)
+    [:octicons-arrow-right-24: 了解服务端内容](servers/)
 
 -   :material-brush-variant:{ .lg .middle } __着色器__
 
@@ -42,15 +42,15 @@
 
     编写着色器可以使你的游戏世界更加色彩斑斓，体验不一样的游戏氛围。
 
-    [:octicons-arrow-right-24: 试着接触着色器](#)
+    [:octicons-arrow-right-24: 试着接触着色器](shaders/)
 
--   :material-clock-time-nine:{ .lg .middle } __过时教程__
+-   :material-clock-time-nine:{ .lg .middle } __杂项教程__
 
     ---
 
-    随着时间推移某些教程已经不再适用，这里记录了各个板块曾经适用的教程。
+    Minecraft基岩版技术开发除了以上几个大板块外，还有一些分散独立的内容。
 
-    [:octicons-arrow-right-24: 查看过时教程](#)
+    [:octicons-arrow-right-24: 查看杂项教程](misc/)
 
 </div>
 
@@ -78,11 +78,15 @@
 
 ## 规范
 
+/// note
+“规则”是必须遵守的，“规范”可以遵守也可以不遵守，但规范是社区约定俗成的良好习惯，这意味着记住并保持规范更有利于社区交流和减少错误。
+///
+
 在开发过程中我们会经常与各种代码和文本标记打交道，也会创建许多文件和文件夹，为了使它们更整洁美观、便于维护，养成良好的开发习惯是至关重要的。
 
 ### 命名格式
 
-对文件或标识符等命名时，最基本应使用英文、下划线和数字来命名，而避免使用中文等其他特殊字符，这些特殊字符可能会因为编码错误造成无法正常读取等异常情况，即使某些地方允许使用它们，也请保持良好的命名习惯。另外，不同地方对命名的要求和规范略有不同，虽然一般在遵守要求的前提下不按照规范来命名也不影响程序运行，但规范是社区约定俗成的，这意味着符合规范的命名更有利于社区交流和阅读。
+对文件或标识符等命名时，最基本应使用英文、下划线和数字来命名，而避免使用中文等其他特殊字符，这些特殊字符可能会因为编码错误造成无法正常读取等异常情况，即使某些地方允许使用它们，也请保持良好的命名习惯。
 
 好的命名即是注释，不管对什么东西命名，遵循“见名知义”的原则总是不会错的，也就是说命名要有实际意义。我们一般希望能够通过一个东西的名字来知道它是干什么的，所以名字应该是对命名对象的总结。如果命名对象是个角色，或者你不知道它的英文名是什么，也可以使用拼音来命名。下面列举了一些命名案例：
 
@@ -107,6 +111,10 @@
 
 我们通常约定一些命名法来保持命名风格的统一，这不仅能增加代码整洁性，还能提高交流和阅读效率。
 
+/// tip
+不同编程语言的命名风格可自行在网上查阅。
+///
+
 以下是一些常用的命名法：
 
 - __帕斯卡命名法（Pascal Case）__：所有单词首字母大写，单词之间不添加任何字符，例如“BlockStateType”。
@@ -119,7 +127,70 @@
 
 #### 命名空间与标识符
 
-命名空间与标识符是我们在开发过程中经常遇到的概念，当你向游戏中添加一个新的实体、方块或者物品时，你就需要拟定一个 __赋命名空间标识符（Namespaced Identifier）__。在保证命名合法的前提下，命名空间的命名需要其保证唯一性，我们一般使用项目名称，不宜使用过于简单和常见的单词或字母组合，因为这容易导致撞命名空间。对于标识符，一般为命名对象的名称，在有变种或不同状态的情况下使用形容词加以描述。
+命名空间与标识符是我们在开发过程中经常遇到的概念，当你向游戏中添加一个实体、方块或者物品时，你就需要为它拟定一个 __赋命名空间标识符（Namespaced Identifier）__。在保证命名合法的前提下，命名空间的命名需要其保证唯一性，我们一般使用项目名称，不宜使用过于简单和常见的单词或字母组合，因为这容易导致撞命名空间。对于标识符，一般为命名对象的名称，在有变种或不同状态的情况下使用形容词加以描述。
 
 ### 缩进
 缩进指对文本与边界之间距离的调整，正确的缩进能够直观地展示出文本内容的层级关系。在开发时应为代码添加合适的缩进，并且单位缩进的宽度应保持一致。标准单位缩进宽度为四个空格或一个制表符，有些时候也使用两个空格宽度的单位缩进。
+
+下面是一些正确缩进示范：
+
+/// tab | JSON
+```{.json}
+{
+    "format_version": 2,
+    "header": {
+        "description": "This is my pack.",
+        "name": "My Pack",
+        "uuid": "d803ad87-f59f-4c9c-b679-612fc5703732",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "test",
+            "type": "resources",
+            "uuid": "dd2dbed5-ce3d-47b7-b09b-6bd20174de09",
+            "version": [1, 0, 0]
+        }
+    ]
+}
+```
+///
+/// tab | TypeScript
+```{.typescript}
+import { EntityQueryOptions, DimensionLocation } from '@minecraft/server';
+
+function mobParty(targetLocation: DimensionLocation) {
+    const mobs = ['creeper', 'skeleton', 'sheep'];
+
+    // create some sample mob data
+    for (let i = 0; i < 10; i++) {
+        const mobTypeId = mobs[i % mobs.length];
+        const entity = targetLocation.dimension.spawnEntity(mobTypeId, targetLocation);
+        entity.addTag('mobparty.' + mobTypeId);
+    }
+
+    const eqo: EntityQueryOptions = {
+        tags: ['mobparty.skeleton'],
+    };
+
+    for (const entity of targetLocation.dimension.getEntities(eqo)) {
+        entity.kill();
+    }
+}
+```
+///
+
+## 过时教程
+
+<div class="grid cards" markdown>
+
+-   :material-clock-time-nine:{ .lg .middle } __过时教程__
+
+    ---
+
+    随着时间推移某些教程已经不再适用，这里记录了各个板块曾经适用的教程。如果你需要在旧版本进行技术开发，可以在此参考对应版本的教程。
+
+    [:octicons-arrow-right-24: 查看过时教程](outdated/)
+
+</div>

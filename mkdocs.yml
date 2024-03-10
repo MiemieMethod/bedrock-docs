@@ -345,11 +345,43 @@ nav:
     - 附加包:
         - guides/addons/index.md
         - 认识附加包: guides/addons/understanding-addons.md
+        - 制作纹理包: guides/addons/creating-texture-packs.md
+        - 本地化: guides/addons/localization.md
+        - 使用子包: guides/addons/utilizing-sub-packs.md
         - 数据驱动:
           - guides/addons/data-driven/index.md
+          - 制作模型: guides/addons/data-driven/creating-models.md
+          - 认识Molang: guides/addons/data-driven/understanding-molang.md
+          - 自定义实体:
+            - guides/addons/data-driven/entities/index.md
+            - 第一个实体: guides/addons/data-driven/entities/adding-custom-entities.md
+            - 动画与动画控制器: guides/addons/data-driven/entities/animations-and-animation-controllers.md
+            - 添加附着物: guides/addons/data-driven/entities/adding-attachables.md
+            - 创建NPC: guides/addons/data-driven/entities/adding-npc.md
+          - 自定义方块:
+            - guides/addons/data-driven/blocks/index.md
+            - 第一个方块: guides/addons/data-driven/blocks/adding-custom-blocks.md
+            - 自定义工作台: guides/addons/data-driven/blocks/adding-custom-crafting-table.md
+          - 自定义物品:
+            - guides/addons/data-driven/items/index.md
+            - 第一个物品: guides/addons/data-driven/items/adding-custom-items.md
+          - 自定义粒子: guides/addons/data-driven/adding-custom-particles.md
+          - 自定义声音: guides/addons/data-driven/adding-custom-sounds.md
+          - 自定义配方: guides/addons/data-driven/adding-custom-recipes.md
+          - 自定义战利品表: guides/addons/data-driven/adding-custom-loot-tables.md
+          - 自定义迷雾: guides/addons/data-driven/adding-custom-fogs.md
+          - 自定义地物: guides/addons/data-driven/adding-custom-features.md
+          - 自定义生物群系: guides/addons/data-driven/adding-custom-biomes.md
+          - 自定义维度: guides/addons/data-driven/adding-custom-dimensions.md
+          - 自定义功能域: guides/addons/data-driven/adding-custom-volumes.md
+        - 使用函数: guides/addons/utilizing-functions.md
+        - 创建世界模板: guides/addons/create-a-world-template.md
+        - 制作皮肤包: guides/addons/creating-skin-packs.md
+        - 制作结构包: guides/addons/creating-structure-packs.md
         - 脚本API:
           - guides/addons/script-api/index.md
-          - guides/addons/script-api/building-your-first-scripts.md
+          - 构建第一个脚本: guides/addons/script-api/building-your-first-scripts.md
+          - 使用TypeScript构建包: guides/addons/script-api/building-packs-with-typescript.md
         - 模组SDK:
           - guides/addons/modsdk/index.md
     - 社区模组:
@@ -362,17 +394,27 @@ nav:
       - guides/tools/index.md
       - Blockbench:
         - guides/tools/blockbench/index.md
-      - 编辑器:
-        - guides/tools/editor.md
+        - 使用指南: guides/tools/blockbench/how-to-use.md
+        - 制作Minecraft风格标题: guides/tools/blockbench/creating-minecraft-style-title.md
+      - 编辑器: guides/tools/editor.md
     - 服务端:
       - guides/servers/index.md
     - 着色器:
       - guides/shaders/index.md
       - 认识着色器: guides/shaders/understanding-shaders.md
+      - 使用并自定义延迟渲染: guides/shaders/getting-started-with-deferred-lighting.md
+      - 启用光线追踪并制作PBR包: guides/shaders/getting-started-with-ray-tracing.md
       - 中国版着色器:
         - guides/shaders/netease-shader/index.md
+      - BetterRTX: guides/shaders/betterrtx.md
+    - 杂项教程:
+      - guides/misc/index.md
     - 过时教程:
       - guides/outdated/index.md
+      - '1.16.100': 
+        - guides/outdated/1.16.100/index.md
+      - '1.10':
+        - guides/outdated/1.10/index.md
   - 参考:
     - refs/index.md
     - 附表:
