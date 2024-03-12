@@ -64,6 +64,7 @@ theme:
 # Hooks
 hooks:
   - overrides/hooks/shortcodes.py
+  - overrides/hooks/wikilink.py
 
 # Additional configuration
 extra:
@@ -159,6 +160,9 @@ markdown_extensions:
   - tables
   - smarty:
       smart_quotes: false
+  # - wikilinks:
+  #     base_url: https://wiki.mcbe-dev.net/p/
+  #     build_url: !!python/name:tools.wikilink_parser.wiki_url_builder
   - pymdownx.arithmatex:
       generic: true
       block_tag: 'pre'

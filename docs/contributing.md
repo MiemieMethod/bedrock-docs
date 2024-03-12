@@ -31,6 +31,8 @@ pip install mkdocs-glightbox
 
 1.  注意：不是移动。
 
+在第一次运行时，MkDocs会自动联网获取各文件的贡献者，可能会稍加缓慢，请耐心等待；之后再次运行时，只会重新获取已改动文件的贡献者，不会再耗费太多时间。
+
 在完成编辑后，您可以提交并推送更改。GitHub Actions会自动构建并将文档推送至GitHub Pages。然后，您可以在[https://miemiemethod.github.io/bedrock-docs/](https://miemiemethod.github.io/bedrock-docs/)查看更改后的效果。
 
 ## 文档语法
@@ -41,20 +43,21 @@ pip install mkdocs-glightbox
 
 ### 一般内联语法
 
-| 描述   | 语法                                              | 效果                  |
-|------|-------------------------------------------------|---------------------|
-| 删除线  | `~~删除~~`                                        | ~~删除~~              |
-| 下划线  | `^^插入^^`                                        | ^^插入^^              |
-| 下标   | `~下标~`                                          | ~下标~                |
-| 上标   | `^上标^`                                          | ^上标^                |
-| 插入   | <code>{\++插入++}</code>                          | {++插入++}            |
-| 移除   | <code>{\--移除-\-}</code>                         | {--移除--}            |
-| 替换   | <code>{\~\~A\~>B~~}</code>                      | {~~A~>B~~}          |
-| 文本高亮 | <code>{\==高亮==}</code><br/><code>\==高亮==</code> | {==高亮==}            |
-| 注释   | <code>{\>>注释<<}</code>                          | {>>注释<<}            |
-| 代码高亮 | <code>\`#!js foo = 1 / 2;\`</code>              | `#!js foo = 1 / 2;` |
-| 快捷键  | `++ctrl+alt+delete++`                           | ++ctrl+alt+delete++ |
-| 进度条  | `[=85% "85%"]`                                  | [=85% "85%"]        |
+| 描述     | 语法                                                                   | 效果                                                          |
+|--------|----------------------------------------------------------------------|-------------------------------------------------------------|
+| 删除线    | `~~删除~~`                                                             | ~~删除~~                                                      |
+| 下划线    | `^^插入^^`                                                             | ^^插入^^                                                      |
+| 下标     | `~下标~`                                                               | ~下标~                                                        |
+| 上标     | `^上标^`                                                               | ^上标^                                                        |
+| 插入     | <code>{\++插入++}</code>                                               | {++插入++}                                                    |
+| 移除     | <code>{\--移除-\-}</code>                                              | {--移除--}                                                    |
+| 替换     | <code>{\~\~A\~>B~~}</code>                                           | {~~A~>B~~}                                                  |
+| 文本高亮   | <code>{\==高亮==}</code><br/><code>\==高亮==</code>                      | {==高亮==}                                                    |
+| 注释     | <code>{\>>注释<<}</code>                                               | {>>注释<<}                                                    |
+| 代码高亮   | <code>\`#!js foo = 1 / 2;\`</code>                                   | `#!js foo = 1 / 2;`                                         |
+| 快捷键    | `++ctrl+alt+delete++`                                                | ++ctrl+alt+delete++                                         |
+| 进度条    | `[=85% "85%"]`                                                       | [=85% "85%"]                                                |
+| Wiki链接 | `[|[方块]]`<br/>`[|[mcwzh:方块|]]`<br/>`[|[mcwzh:方块|Minecraft Wiki:方块]]` | [[方块]]<br/>[[mcwzh:方块|]]<br/>[[mcwzh:方块|Minecraft Wiki:方块]] |
 
 值得注意的是，如果上下标中含有空格，空格需要转义，即使用<code>\\ </code>代替单纯的<code> </code>。快捷键语法中的各键位标识符详见[Keys扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)。进度条允许[注入](#注入特性)一些类使其变成糖衣色、动态糖衣色或窄进度条，具体详见[ProgressBar扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#overview)。
 
