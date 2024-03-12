@@ -10,7 +10,7 @@
 
     附加包可以通过数据驱动向游戏中加入新内容或修改原有内容，实现内容的基础定义。
 
-    [:octicons-arrow-right-24: 制作第一个附加包](addons/)
+    [:octicons-arrow-right-24: 制作第一个附加包](addons/index.md)
 
 -   :material-script-text:{ .lg .middle } __社区模组__
 
@@ -18,7 +18,7 @@
 
     玩家社区开发出了许多模组格式，使得我们可以对原版游戏以另一种方式修改。
 
-    [:octicons-arrow-right-24: 开始学习社区模组](community-mods/)
+    [:octicons-arrow-right-24: 开始学习社区模组](community-mods/index.md)
 
 -   :material-tools:{ .lg .middle } __软件工具__
 
@@ -26,7 +26,7 @@
 
     各种各样的软件工具可以使你在开发过程中更加轻松地创作丰富的内容。
 
-    [:octicons-arrow-right-24: 尝试使用这些软件](tools/)
+    [:octicons-arrow-right-24: 尝试使用这些软件](tools/index.md)
 
 -   :material-server:{ .lg .middle } __服务端__
 
@@ -34,7 +34,7 @@
 
     构建服务端内容，让来自各地的玩家一同体验Minecraft游戏世界。
 
-    [:octicons-arrow-right-24: 了解服务端内容](servers/)
+    [:octicons-arrow-right-24: 了解服务端内容](servers/index.md)
 
 -   :material-brush-variant:{ .lg .middle } __着色器__
 
@@ -42,7 +42,7 @@
 
     编写着色器可以使你的游戏世界更加色彩斑斓，体验不一样的游戏氛围。
 
-    [:octicons-arrow-right-24: 试着接触着色器](shaders/)
+    [:octicons-arrow-right-24: 试着接触着色器](shaders/index.md)
 
 -   :material-shape-plus:{ .lg .middle } __杂项教程__
 
@@ -50,7 +50,7 @@
 
     Minecraft基岩版技术开发除了以上几个大板块外，还有一些分散独立的内容。
 
-    [:octicons-arrow-right-24: 查看杂项教程](misc/)
+    [:octicons-arrow-right-24: 查看杂项教程](misc/index.md)
 
 </div>
 
@@ -191,6 +191,6 @@ function mobParty(targetLocation: DimensionLocation) {
 
     随着时间推移某些教程已经不再适用，这里记录了各个板块曾经适用的教程。如果你需要在旧版本进行技术开发，可以在此参考对应版本的教程。
 
-    [:octicons-arrow-right-24: 查看过时教程](outdated/)
+    [:octicons-arrow-right-24: 查看过时教程](outdated/index.md)
 
 </div>
