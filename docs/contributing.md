@@ -7,8 +7,11 @@
 本网站文档使用[Material for MkDocs](https://squidfunk.github.io/)软件提供支持。要在本地构建和编辑文档，您需要安装以下软件：
 
 - [Python](https://www.python.org/downloads/)
+- [GTK](https://www.gtk.org/)
 - [MkDocs](https://www.mkdocs.org/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+在一切开始之前，请务必保证自身设备中安装有`cairo`库和`libcairo-2`库。要做到这一点，只需要安装GTK；如果你在使用Windows系统，请至@tschoonj/GTK-for-Windows-Runtime-Environment-Installer 安装最新的GTK Windows安装程序。
 
 在安装完成Python后，您可以在控制台中运行如下命令以安装依赖：
 
@@ -21,9 +24,9 @@ pip install mkdocs-minify-plugin
 pip install mkdocs-glightbox
 ```
 
-这将安装MkDocs和Material for MkDocs以及其他必要的插件。然后，您可以在本项目的根目录于控制台中使用`python -m mkdocs serve --dirtyreload`命令，此后即可在`localhost:8000`实时看到做出的更改。
+这将安装MkDocs和Material for MkDocs以及其他必要的插件。然后，您可以在本项目的根目录于控制台中使用`python -m mkdocs serve --dirtyreload`命令，此命令会开启实时托管，此后即可在`localhost:8000`实时看到做出的更改。
 
-注意，如果发生错误，请将`tools`文件夹复制(1)到`docs`文件夹内再重新执行命令。如果报错显示找不到`cairo`库和`libcairo-2`库，请安装[GTK](https://www.gtk.org/)；如果你在使用Windows系统，请至@tschoonj/GTK-for-Windows-Runtime-Environment-Installer 安装最新的GTK Windows安装程序。
+注意，如果发生错误，请将`tools`文件夹复制(1)到`docs`文件夹内再重新执行托管命令。
 { .annotate }
 
 1.  注意：不是移动。

@@ -27,8 +27,8 @@
     font-family: "ChillDuanHeiSong";
     font-style: normal;
     font-weight: 100;
-    src: url('../fonts/ChillDuanHeiSongLight.woff2') format('woff2'),
-         url('../fonts/ChillDuanHeiSongLight.woff') format('woff');
+    src: url('../fonts/ChillDuanHeiSongExtraLight.woff2') format('woff2'),
+         url('../fonts/ChillDuanHeiSongExtraLight.woff') format('woff');
 }
 
 @font-face {
