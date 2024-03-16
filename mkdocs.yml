@@ -118,9 +118,12 @@ extra_javascript:
   - assets/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js
+  - assets/javascripts/uml.js
+  - https://unpkg.com/mermaid@10.9.0/dist/mermaid.min.js
   # - assets/javascripts/tablesort.js
   # - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/javascripts/viz-standalone.js
+  - assets/javascripts/viz.js
 
 # Plugins
 plugins:
@@ -191,8 +194,8 @@ markdown_extensions:
       preserve_tabs: true
       custom_fences:
         # Mermaid diagrams
-        - name: diagram
-          class: diagram
+        - name: mermaid
+          class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
         - name: math
           class: arithmatex
@@ -200,6 +203,9 @@ markdown_extensions:
         - name: md-render
           class: md-render
           format: !!python/name:tools.pymdownx_md_render.md_sub_render
+        - name: viz
+          class: viz
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.keys:
       separator: "\uff0b"
   - pymdownx.smartsymbols

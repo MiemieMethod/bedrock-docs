@@ -11,7 +11,7 @@
 - [MkDocs](https://www.mkdocs.org/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
-在一切开始之前，请务必保证自身设备中安装有`cairo`库和`libcairo-2`库。要做到这一点，只需要安装GTK；如果你在使用Windows系统，请至@tschoonj/GTK-for-Windows-Runtime-Environment-Installer 安装最新的GTK Windows安装程序。
+在一切开始之前，请务必保证自身设备中安装有`cairo`库和`libcairo-2`库。要做到这一点，只需要安装GTK；如果您在使用Windows系统，请至@tschoonj/GTK-for-Windows-Runtime-Environment-Installer 安装最新的GTK Windows安装程序。
 
 在安装完成Python后，您可以在控制台中运行如下命令以安装依赖：
 
@@ -84,7 +84,7 @@ pip install mkdocs-glightbox
 
 ### 围栏
 
-围栏语法即代码块语法，可以使用三个或三个以上的`~`或<code>\`</code>作为包装字面量。为了规范，我们要求在本站点贡献时，只可使用三个<code>\`</code>的包装语法。本站围栏使用[Pygments](https://pygments.org/)进行代码高亮，并通过[SuperFences扩展](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/)进行了封装。你可以使用`title`、`linenums`、`hl_lines`三个参数来定制围栏。
+围栏语法即代码块语法，可以使用三个或三个以上的`~`或<code>\`</code>作为包装字面量。为了规范，我们要求在本站点贡献时，只可使用三个<code>\`</code>的包装语法。本站围栏使用[Pygments](https://pygments.org/)进行代码高亮，并通过[SuperFences扩展](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/)进行了封装。您可以使用`title`、`linenums`、`hl_lines`三个参数来定制围栏。
 
 `linenums`的第一个参数是起始行号，第二个参数是显示行号的步长，第三个参数是特殊行号的步长；如不指定该参数，则不显示行号。`hl_lines`代表高亮的行。可以用单个行号或用短横杠`-`表示从第几行至第几行，之间用空格隔开。
 
@@ -398,7 +398,7 @@ class Foo:
 ////
 ///
 
-此外，你可以使用`attrs`选项来更改类、ID和其他特性。更多的功能可以参考[Admonition扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/)。
+此外，您可以使用`attrs`选项来更改类、ID和其他特性。更多的功能可以参考[Admonition扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/admonition/)。
 
 将`admonition`替换为`details`可以将警告块转换为详情块。详情块是一种特殊的警告块，用于隐藏一些内容。例如：
 
@@ -560,7 +560,7 @@ print("Hello, World!") # 这是一个注释。(1)!
 ////
 ///
 
-你可以在注解中使用[内联语法](#一般内联语法)，以及使用另一个注解。例如：
+您可以在注解中使用[内联语法](#一般内联语法)，以及使用另一个注解。例如：
 
 ```markdown
 这是一个段落(1)。
@@ -593,6 +593,443 @@ print("Hello, World!") # 这是一个注释。(1)!
 
 ### 图表
 
+本站通过自定义围栏支持了不同的图标格式，包括Mermaid和GraphViz。这些图表用围栏语法包装，然后在围栏的第一行指定图表类型。围栏的内容则为图表本身的定义。
+
+#### Mermaid
+
+Mermaid是一种流程图、序列图和甘特图的描述语言。我们使用`mermaid`作为围栏的第一行来指定图表类型。例如：
+
+
+/// success | 可以使用的Mermaid图表类型
+//// tab | 流程图
+
+````markdown
+```mermaid
+graph TD
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
+```
+````
+
+///// html | div.result
+```mermaid
+graph TD
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
+```
+/////
+////
+
+//// tab | 序列图
+````markdown
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+````
+
+///// html | div.result
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+/////
+////
+
+//// tab | 类图
+````markdown
+```mermaid
+classDiagram
+    Class01 <|-- AveryLongClass : Cool
+    Class03 *-- Class04
+    Class05 o-- Class06
+    Class07 .. Class08
+    Class09 --> C2 : Where am i?
+    Class09 --* C3
+    Class09 --|> Class07
+    Class07 : equals()
+    Class07 : Object[] elementData
+    Class01 : size()
+    Class01 : int chimp
+    Class01 : int gorilla
+    Class08 <--> C2: Cool label
+```
+````
+
+///// html | div.result
+```mermaid
+classDiagram
+    Class01 <|-- AveryLongClass : Cool
+    Class03 *-- Class04
+    Class05 o-- Class06
+    Class07 .. Class08
+    Class09 --> C2 : Where am i?
+    Class09 --* C3
+    Class09 --|> Class07
+    Class07 : equals()
+    Class07 : Object[] elementData
+    Class01 : size()
+    Class01 : int chimp
+    Class01 : int gorilla
+    Class08 <--> C2: Cool label
+```
+/////
+////
+
+//// tab | 实体关系
+````markdown
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+````
+
+///// html | div.result
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+/////
+////
+
+//// tab | 状态图
+````markdown
+```mermaid
+stateDiagram
+    [*] --> First
+    First --> Second
+    First --> Third
+
+    state First {
+        [*] --> fir
+        fir --> [*]
+    }
+    state Second {
+        [*] --> sec
+        sec --> [*]
+    }
+    state Third {
+        [*] --> thi
+        thi --> [*]
+    }
+```
+````
+
+///// html | div.result
+```mermaid
+stateDiagram
+    [*] --> First
+    First --> Second
+    First --> Third
+
+    state First {
+        [*] --> fir
+        fir --> [*]
+    }
+    state Second {
+        [*] --> sec
+        sec --> [*]
+    }
+    state Third {
+        [*] --> thi
+        thi --> [*]
+    }
+```
+/////
+////
+
+//// tab | Git图
+
+````markdown
+```mermaid
+gitGraph
+    commit
+    branch hotfix
+    checkout hotfix
+    commit
+    branch develop
+    checkout develop
+    commit id:"ash" tag:"abc"
+    branch featureB
+    checkout featureB
+    commit type:HIGHLIGHT
+    checkout main
+    checkout hotfix
+    commit type:NORMAL
+    checkout develop
+    commit type:REVERSE
+    checkout featureB
+    commit
+    checkout main
+    merge hotfix
+    checkout featureB
+    commit
+    checkout develop
+    branch featureA
+    commit
+    checkout develop
+    merge hotfix
+    checkout featureA
+    commit
+    checkout featureB
+    commit
+    checkout develop
+    merge featureA
+    branch release
+    checkout release
+    commit
+    checkout main
+    commit
+    checkout release
+    merge main
+    checkout develop
+    merge release
+```
+````
+
+///// html | div.result
+```mermaid
+gitGraph
+    commit
+    branch hotfix
+    checkout hotfix
+    commit
+    branch develop
+    checkout develop
+    commit id:"ash" tag:"abc"
+    branch featureB
+    checkout featureB
+    commit type:HIGHLIGHT
+    checkout main
+    checkout hotfix
+    commit type:NORMAL
+    checkout develop
+    commit type:REVERSE
+    checkout featureB
+    commit
+    checkout main
+    merge hotfix
+    checkout featureB
+    commit
+    checkout develop
+    branch featureA
+    commit
+    checkout develop
+    merge hotfix
+    checkout featureA
+    commit
+    checkout featureB
+    commit
+    checkout develop
+    merge featureA
+    branch release
+    checkout release
+    commit
+    checkout main
+    commit
+    checkout release
+    merge main
+    checkout develop
+    merge release
+```
+/////
+////
+
+//// tab | 日程表
+
+````markdown
+```mermaid
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+```
+````
+
+///// html | div.result
+```mermaid
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+```
+/////
+////
+///
+
+/// failure | 无法使用的Mermaid图表类型
+//// tab | 甘特图
+
+甘特图通常太大而无法在页面中正确渲染。如果元素足够大以容纳它，并且图表很大，它们会渲染得太小而无法看到。如果元素的宽度不够，图表有时会渲染得很挤，很难阅读。
+
+````markdown
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title Adding GANTT diagram to mermaid
+    excludes weekdays 2014-01-10
+
+    section A section
+    Completed task            :done,    des1, 2014-01-06,2014-01-08
+    Active task               :active,  des2, 2014-01-09, 3d
+    Future task               :         des3, after des2, 5d
+    Future task2               :         des4, after des3, 5d
+```
+````
+
+///// html | div.result
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title Adding GANTT diagram to mermaid
+    excludes weekdays 2014-01-10
+
+    section A section
+    Completed task            :done,    des1, 2014-01-06,2014-01-08
+    Active task               :active,  des2, 2014-01-09, 3d
+    Future task               :         des3, after des2, 5d
+    Future task2               :         des4, after des3, 5d
+```
+/////
+
+////
+
+//// tab | 饼状图
+
+饼状图有时看起来效果很好，但有时很难阅读，或者完全缺少标签。与此列表中的其他图表一样，它与大小和缩放有关。例如，如果您在移动设备上查看，您可能会看到饼图的关键部分缺失。
+
+````markdown
+```mermaid
+pie
+    title Key elements in Product X
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
+```
+````
+
+///// html | div.result
+```mermaid
+pie
+    title Key elements in Product X
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
+```
+/////
+
+////
+///
+
+
+#### GraphViz
+
+GraphViz是一种图形描述语言。我们使用`viz`作为围栏的第一行来指定图表类型。例如：
+
+````markdown
+```viz
+digraph "ActorLink" {
+rankdir = LR
+110
+110 -> 111
+111 -> 112
+110 -> 113
+113 -> 114
+110 -> 115
+115 -> 116
+110 -> 117
+117 -> 118
+110 -> 119
+119 -> 120
+
+110 [label="ActorLink",comment="name: \"ActorLink\", typeName: \"\", id: 110, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+111 [label="Actor Unique ID - A",comment="name: \"Actor Unique ID - A\", typeName: \"ActorUniqueID\", id: 111, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+112 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 112, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+113 [label="Actor Unique ID - B",comment="name: \"Actor Unique ID - B\", typeName: \"ActorUniqueID\", id: 113, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+114 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+115 [label="Link Type",comment="name: \"Link Type\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorLinkType\""];
+116 [label="byte",comment="name: \"byte\", typeName: \"\", id: 116, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+117 [label="Immediate",comment="name: \"Immediate\", typeName: \"\", id: 117, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+118 [label="bool",comment="name: \"bool\", typeName: \"\", id: 118, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+119 [label="Passenger Initiated",comment="name: \"Passenger Initiated\", typeName: \"\", id: 119, branchId: 0, recurseId: -1, attributes: 0, notes: \"Whether the link was changed by the passenger\""];
+120 [label="bool",comment="name: \"bool\", typeName: \"\", id: 120, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;112;114;116;118;120}
+
+}
+```
+````
+
+/// html | div.result
+```viz
+digraph "ActorLink" {
+rankdir = LR
+110
+110 -> 111
+111 -> 112
+110 -> 113
+113 -> 114
+110 -> 115
+115 -> 116
+110 -> 117
+117 -> 118
+110 -> 119
+119 -> 120
+
+110 [label="ActorLink",comment="name: \"ActorLink\", typeName: \"\", id: 110, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+111 [label="Actor Unique ID - A",comment="name: \"Actor Unique ID - A\", typeName: \"ActorUniqueID\", id: 111, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+112 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 112, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+113 [label="Actor Unique ID - B",comment="name: \"Actor Unique ID - B\", typeName: \"ActorUniqueID\", id: 113, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+114 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+115 [label="Link Type",comment="name: \"Link Type\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorLinkType\""];
+116 [label="byte",comment="name: \"byte\", typeName: \"\", id: 116, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+117 [label="Immediate",comment="name: \"Immediate\", typeName: \"\", id: 117, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+118 [label="bool",comment="name: \"bool\", typeName: \"\", id: 118, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+119 [label="Passenger Initiated",comment="name: \"Passenger Initiated\", typeName: \"\", id: 119, branchId: 0, recurseId: -1, attributes: 0, notes: \"Whether the link was changed by the passenger\""];
+120 [label="bool",comment="name: \"bool\", typeName: \"\", id: 120, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;112;114;116;118;120}
+
+}
+```
+///
+
 ### 脚注
 
 ### 网格
@@ -618,11 +1055,11 @@ print("Hello, World!") # 这是一个注释。(1)!
 /// define
 <!-/- md:option a.arg1 -->
 
-- `arg1`的描述。你可以用`[arg1](#+a.arg1)`来链接到这个参数。
+- `arg1`的描述。您可以用`[arg1](#+a.arg1)`来链接到这个参数。
 
 <!-/- md:option b.arg2 -->
 
-- `arg2`的描述。你可以用`[arg2](#+b.arg2)`来链接到这个参数。
+- `arg2`的描述。您可以用`[arg2](#+b.arg2)`来链接到这个参数。
 
 ///
 ```
@@ -631,11 +1068,11 @@ print("Hello, World!") # 这是一个注释。(1)!
 ///// define
 <!-- md:option a.arg1 -->
 
-- `arg1`的描述。你可以用`[arg1](#+a.arg1)`来链接到这个参数。
+- `arg1`的描述。您可以用`[arg1](#+a.arg1)`来链接到这个参数。
 
 <!-- md:option b.arg2 -->
 
-- `arg2`的描述。你可以用`[arg2](#+b.arg2)`来链接到这个参数。
+- `arg2`的描述。您可以用`[arg2](#+b.arg2)`来链接到这个参数。
 
 /////
 ////
@@ -644,21 +1081,21 @@ print("Hello, World!") # 这是一个注释。(1)!
 ```markdown
 #### <!-/- md:setting a.arg1 -->
 
-- `arg1`的描述。你可以用`[arg1][a.arg1]`来链接到这个参数。
+- `arg1`的描述。您可以用`[arg1][a.arg1]`来链接到这个参数。
 
 #### <!-/- md:setting b.arg2 -->
 
-- `arg2`的描述。你可以用`[arg2][b.arg2]`来链接到这个参数。
+- `arg2`的描述。您可以用`[arg2][b.arg2]`来链接到这个参数。
 ```
 
 //// html | div.result
 #### <!-- md:setting a.arg1 -->
 
-- `arg1`的描述。你可以用`[arg1][a.arg1]`来链接到这个参数。
+- `arg1`的描述。您可以用`[arg1][a.arg1]`来链接到这个参数。
 
 #### <!-- md:setting b.arg2 -->
 
-- `arg2`的描述。你可以用`[arg2][b.arg2]`来链接到这个参数。
+- `arg2`的描述。您可以用`[arg2][b.arg2]`来链接到这个参数。
 ////
 ///
 
