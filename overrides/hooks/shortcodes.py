@@ -51,6 +51,7 @@ def on_page_markdown(
         elif type == "option":       return option(args)
         elif type == "setting":      return setting(args)
         elif type == "sortable":     return sortable(args)
+        elif type == "samp":     return samp(args)
         elif type == "optional":     return _badge_for_optional(args, page, files)
         # elif type == "plugin":       return _badge_for_plugin(args, page, files)
         # elif type == "extension":    return _badge_for_extension(args, page, files)
@@ -96,6 +97,9 @@ def setting(type: str):
 
 def sortable(type: str):
     return f'<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script><script>var tables = document.querySelectorAll("article table");new Tablesort(tables.item(tables.length - 1));</script>'
+
+def samp(type: str):
+    return f'<samp>{type}</samp>'
 
 # -----------------------------------------------------------------------------
 

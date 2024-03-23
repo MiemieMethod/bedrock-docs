@@ -24,7 +24,7 @@ pip install mkdocs-minify-plugin
 pip install mkdocs-glightbox
 ```
 
-这将安装MkDocs和Material for MkDocs以及其他必要的插件。然后，您可以在本项目的根目录于控制台中使用`python -m mkdocs serve --dirtyreload`命令，此命令会开启实时托管，此后即可在`localhost:8000`实时看到做出的更改。
+这将安装MkDocs和Material for MkDocs以及其他必要的插件。然后，您可以在本项目的根目录于控制台中使用`python -m mkdocs serve --dirtyreload`命令，此命令会开启实时托管，此后即可在<!-- md:samp localhost:8000 -->实时看到做出的更改。
 
 注意，如果发生错误，请将`tools`文件夹复制(1)到`docs`文件夹内再重新执行托管命令。
 { .annotate }
@@ -33,7 +33,7 @@ pip install mkdocs-glightbox
 
 在第一次运行时，MkDocs会自动联网获取各文件的贡献者，可能会稍加缓慢，请耐心等待；之后再次运行时，只会重新获取已改动文件的贡献者，不会再耗费太多时间。
 
-在完成编辑后，您可以提交并推送更改。GitHub Actions会自动构建并将文档推送至GitHub Pages。然后，您可以在[https://miemiemethod.github.io/bedrock-docs/](https://miemiemethod.github.io/bedrock-docs/)查看更改后的效果。
+在完成编辑后，您可以提交并推送更改。GitHub Actions会自动构建并将文档推送至GitHub Pages。然后，您可以在[<!-- md:samp https://miemiemethod.github.io/bedrock-docs/ -->](https://miemiemethod.github.io/bedrock-docs/)查看更改后的效果。
 
 ## 文档语法
 
@@ -1132,6 +1132,16 @@ rankdir = LR
 ///
 
 注意，强烈建议`<!-/- md:sortable -->`放在表格紧挨着的下一行，或至少放在下一个表格出现之前，否则当前表格将无法变更为可排序表格，取而代之的是其他表格会应用该功能。
+
+你可以使用`samp`符号来表示需要等宽显示但其本身不是代码的文本：
+
+```markdown
+<!-/- md:samp typewriter_text -->和`code_text`皆是等宽的。
+```
+
+/// html | div.result
+<!-- md:samp typewriter_text -->和`code_text`皆是等宽的。
+///
 
 ### 嵌入文件
 

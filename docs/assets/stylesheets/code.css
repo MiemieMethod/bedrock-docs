@@ -210,3 +210,17 @@
         left:.8rem
     }
 }
+
+samp {
+    font-feature-settings: "kern";
+    font-family: var(--md-code-font-family);
+    margin: 0;
+    padding: 0 0.2941176471em;
+    border-radius: 0.1rem;
+    box-shadow: none;
+    font-size: .85em;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    direction: ltr;
+    font-variant-ligatures: none;
+}
