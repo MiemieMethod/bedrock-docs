@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: "ChillDuanHeiSong";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ChillDuanHeiSongRegular.woff2') format('woff2'),
+         url('../fonts/ChillDuanHeiSongRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "ChillDuanHeiSong";
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/ChillDuanHeiSongBold.woff2') format('woff2'),
+         url('../fonts/ChillDuanHeiSongBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: "ChillDuanHeiSong";
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/ChillDuanHeiSongHeavy.woff2') format('woff2'),
+         url('../fonts/ChillDuanHeiSongHeavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: "ChillDuanHeiSong";
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/ChillDuanHeiSongExtraLight.woff2') format('woff2'),
+         url('../fonts/ChillDuanHeiSongExtraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: "ChillDuanHeiSongPro";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ChillDuanHeiSongPro_Regular.woff2') format('woff2'),
+         url('../fonts/ChillDuanHeiSongPro_Regular.woff') format('woff');
+}
+
+:root {
+  --md-text-font: ChillDuanHeiSong, ChillDuanHeiSongPro;
+}

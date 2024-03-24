@@ -1,0 +1,44 @@
+
+.md-typeset .bilibili {
+    color: #FB7299
+}
+
+.md-banner {
+    color: var(--md-footer-fg-color--lighter)
+}
+
+.md-banner strong {
+    white-space: nowrap
+}
+
+.md-banner a,
+.md-banner strong {
+    color: var(--md-footer-fg-color)
+}
+
+.md-banner a:focus,
+.md-banner a:hover {
+    color: currentcolor
+}
+
+.md-banner a:focus .twemoji,
+.md-banner a:hover .twemoji {
+    background-color: var(--md-footer-bg-color);
+    box-shadow: none
+}
+
+.md-banner .twemoji {
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 .05rem currentcolor;
+    display: inline-block;
+    height: 1.2rem;
+    padding: .25rem;
+    transition: all .25s;
+    vertical-align: bottom;
+    width: 1.2rem
+}
+
+.md-banner .twemoji svg {
+    display: block;
+    max-height: none
+}
