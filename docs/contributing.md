@@ -11,7 +11,7 @@
 - [MkDocs](https://www.mkdocs.org/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
-在一切开始之前，请务必保证自身设备中安装有`cairo`库和`libcairo-2`库。要做到这一点，只需要安装GTK；如果您在使用Windows系统，请至@tschoonj/GTK-for-Windows-Runtime-Environment-Installer 安装最新的GTK Windows安装程序。
+在一切开始之前，请务必保证自身设备中安装有`cairo`库和`libcairo-2`库。要做到这一点，只需要安装GTK；如果您在使用Windows系统，请至<!-- md:samp @tschoonj/GTK-for-Windows-Runtime-Environment-Installer -->安装最新的GTK Windows安装程序。
 
 在安装完成Python后，您可以在控制台中运行如下命令以安装依赖：
 
