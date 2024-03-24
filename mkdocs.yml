@@ -65,6 +65,7 @@ theme:
 hooks:
   - overrides/hooks/shortcodes.py
   - overrides/hooks/wikilink.py
+  - overrides/hooks/abbr.py
 
 # Additional configuration
 extra:
