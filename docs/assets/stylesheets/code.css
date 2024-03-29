@@ -237,3 +237,7 @@ nav code {
     direction: ltr;
     font-variant-ligatures: none;
 }
+
+footer nav code {
+    background-color: unset;
+}
