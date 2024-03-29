@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /ability <player:target> <ability:Ability> <value:Boolean>
 ```
@@ -49,7 +49,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /ability <player:target> [ability:Ability]
 ```

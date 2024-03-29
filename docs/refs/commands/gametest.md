@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /gametest runthis
 ```
@@ -33,7 +33,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /gametest run <testName:GameTestName> [rotationSteps:int]
 ```
@@ -64,7 +64,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /gametest run <testName:GameTestName> <stopOnFailure:Boolean> <repeatCount:int> [rotationSteps:int]
 ```
@@ -109,7 +109,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /gametest runset [tag:GameTestTag] [rotationSteps:int]
 ```
@@ -140,7 +140,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /gametest runsetuntilfail [tag:GameTestTag] [rotationSteps:int]
 ```
@@ -171,7 +171,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /gametest clearall
 ```
@@ -194,7 +194,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /gametest pos
 ```
@@ -217,7 +217,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /gametest create <testName:string> [width:int] [height:int] [depth:int]
 ```
@@ -256,7 +256,7 @@
 
 ///
 
-/// tab | `重载9`
+/// tab | 重载9
 ```mcfunction
 /gametest runthese
 ```
@@ -279,7 +279,7 @@
 
 ///
 
-/// tab | `重载10`
+/// tab | 重载10
 ```mcfunction
 /gametest stopall
 ```

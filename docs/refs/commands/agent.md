@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /agent <command:AgentDirectionCommand> <direction:AgentDirection>
 ```
@@ -53,7 +53,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /agent turn <direction:AgentTurnDirection>
 ```
@@ -86,7 +86,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /agent <command:AgentItemCommand> <slotNum:int>
 ```
@@ -115,7 +115,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /agent <command:AgentCommand>
 ```
@@ -139,7 +139,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /agent transfer <slotNum:int> <quantity:int> <dstSlotNum:int>
 ```
@@ -174,7 +174,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /agent drop <slotNum:int> <quantity:int> <direction:AgentDirection>
 ```
@@ -219,7 +219,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /agent collect <item:Item>
 ```
@@ -3051,7 +3051,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /agent collect all
 ```
@@ -3083,7 +3083,7 @@
 
 ///
 
-/// tab | `重载9`
+/// tab | 重载9
 ```mcfunction
 /agent place <slotNum:int> <direction:AgentDirection>
 ```
@@ -3124,7 +3124,7 @@
 
 ///
 
-/// tab | `重载10`
+/// tab | 重载10
 ```mcfunction
 /agent setitem <slotNum:int> <item:Item> <count:int> <aux:int>
 ```
@@ -5968,7 +5968,7 @@
 
 ///
 
-/// tab | `重载11`
+/// tab | 重载11
 ```mcfunction
 /agent tp [destination:x y z] [y-rot:float]
 ```
@@ -5999,7 +5999,7 @@
 
 ///
 
-/// tab | `重载12`
+/// tab | 重载12
 ```mcfunction
 /agent tp <destination:x y z> facing <lookAtPosition:x y z>
 ```
@@ -6039,7 +6039,7 @@
 
 ///
 
-/// tab | `重载13`
+/// tab | 重载13
 ```mcfunction
 /agent destroy <direction:AgentDirection>
 ```
@@ -6076,7 +6076,7 @@
 
 ///
 
-/// tab | `重载14`
+/// tab | 重载14
 ```mcfunction
 /agent inspect <direction:AgentDirection>
 ```
@@ -6113,7 +6113,7 @@
 
 ///
 
-/// tab | `重载15`
+/// tab | 重载15
 ```mcfunction
 /agent interact <direction:AgentDirection>
 ```

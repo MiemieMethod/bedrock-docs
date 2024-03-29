@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /recipe give <player:target> <recipe:UnlockableRecipeValues>
 ```
@@ -1897,7 +1897,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /recipe take <player:target> <recipe:UnlockableRecipeValues>
 ```

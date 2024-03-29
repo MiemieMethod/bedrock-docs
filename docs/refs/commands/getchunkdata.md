@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /getchunkdata <dimension:Dimension> <chunkX:int> <chunkZ:int> <height:int>
 ```

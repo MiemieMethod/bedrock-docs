@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /enableencryption <publicKey:string> <salt:string> [ciper_mode:EncryptionCommandCipher]
 ```

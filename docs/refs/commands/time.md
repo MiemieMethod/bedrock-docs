@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /time add <amount:int>
 ```
@@ -37,7 +37,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /time set <amount:int>
 ```
@@ -64,7 +64,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /time set <time:TimeSpec>
 ```
@@ -101,7 +101,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /time query <time:TimeQuery>
 ```

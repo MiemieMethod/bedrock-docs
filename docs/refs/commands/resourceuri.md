@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /resourceuri
 ```
@@ -24,7 +24,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /resourceuri clear
 ```
@@ -47,7 +47,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /resourceuri default [uri:text]
 ```
@@ -74,7 +74,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /resourceuri named <name:string> [uri:text]
 ```

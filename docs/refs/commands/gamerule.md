@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /gamerule
 ```
@@ -24,7 +24,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /gamerule <rule:BoolGameRule> [value:Boolean]
 ```
@@ -86,7 +86,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /gamerule <rule:IntGameRule> [value:int]
 ```

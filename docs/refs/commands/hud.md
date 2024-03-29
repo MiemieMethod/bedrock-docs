@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /hud <target:target> <visible:HudVisibility> [hud_element:HudElement]
 ```

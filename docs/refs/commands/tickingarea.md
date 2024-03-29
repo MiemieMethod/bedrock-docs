@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /tickingarea add <from:x y z> <to:x y z> [name:string] [preload:Boolean]
 ```
@@ -55,7 +55,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /tickingarea add circle <center:x y z> <radius:int> [name:string] [preload:Boolean]
 ```
@@ -109,7 +109,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /tickingarea remove <position:x y z>
 ```
@@ -136,7 +136,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /tickingarea remove <name:string>
 ```
@@ -163,7 +163,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /tickingarea remove_all
 ```
@@ -186,7 +186,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /tickingarea list all-dimensions
 ```
@@ -218,7 +218,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /tickingarea preload <position:x y z> [preload:Boolean]
 ```
@@ -255,7 +255,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /tickingarea preload <name:string> [preload:Boolean]
 ```

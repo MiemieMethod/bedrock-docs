@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /changesetting allow-cheats <value:Boolean>
 ```
@@ -43,7 +43,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /changesetting difficulty <value:Difficulty>
 ```
@@ -82,7 +82,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /changesetting difficulty <value:int>
 ```

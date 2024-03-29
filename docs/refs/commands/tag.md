@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /tag <entity:target> <action:TagChangeAction> <name:TagValues>
 ```
@@ -42,7 +42,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /tag <entity:target> list
 ```

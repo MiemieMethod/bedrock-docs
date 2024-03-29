@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /gamemode <gameMode:GameMode> [player:target]
 ```
@@ -45,7 +45,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /gamemode <gameMode:int> [player:target]
 ```

@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /xp <amount:int> [player:target]
 ```
@@ -32,7 +32,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /xp <amount:postfix_l>L [player:target]
 ```

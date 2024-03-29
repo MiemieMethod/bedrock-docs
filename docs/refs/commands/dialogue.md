@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /dialogue open <npc:target> <player:target> [sceneName:string]
 ```
@@ -45,7 +45,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /dialogue change <npc:target> <sceneName:string> [players:target]
 ```

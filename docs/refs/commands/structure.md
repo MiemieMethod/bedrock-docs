@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /structure save <name:string> <from:x y z> <to:x y z> [saveMode:StructureSaveMode]
 ```
@@ -55,7 +55,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /structure save <name:string> <from:x y z> <to:x y z> [includeEntities:Boolean] [saveMode:StructureSaveMode] [includeBlocks:Boolean]
 ```
@@ -120,7 +120,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /structure delete <name:string>
 ```
@@ -147,7 +147,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /structure load <name:string> <to:x y z> [rotation:Rotation] [mirror:Mirror] [includeEntities:Boolean] [includeBlocks:Boolean] [waterlogged:Boolean] [integrity:float] [seed:string]
 ```
@@ -240,7 +240,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /structure load <name:string> <to:x y z> [rotation:Rotation] [mirror:Mirror] [animationMode:StructureAnimationMode] [animationSeconds:float] [includeEntities:Boolean] [includeBlocks:Boolean] [waterlogged:Boolean] [integrity:float] [seed:string]
 ```

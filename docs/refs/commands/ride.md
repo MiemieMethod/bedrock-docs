@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /ride <riders:target> start_riding <ride:target> [teleportRules:TeleportRules] [howToFill:FillType]
 ```
@@ -61,7 +61,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /ride <riders:target> stop_riding
 ```
@@ -88,7 +88,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /ride <rides:target> evict_riders
 ```
@@ -115,7 +115,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /ride <rides:target> summon_rider <entityType:EntityType> [spawnEvent:string] [nameTag:string]
 ```
@@ -363,7 +363,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /ride <riders:target> summon_ride <entityType:EntityType> [rideRules:RideRules] [spawnEvent:string] [nameTag:string]
 ```

@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /loot spawn <position:x y z> loot <loot_table:string> [<tool>|mainhand|offhand:Tool]
 ```
@@ -1629,7 +1629,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /loot spawn <position:x y z> kill <entity:target> [<tool>|mainhand|offhand:Tool]
 ```
@@ -3248,7 +3248,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /loot give <players:target> loot <loot_table:string> [<tool>|mainhand|offhand:Tool]
 ```
@@ -4867,7 +4867,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /loot give <players:target> kill <entity:target> [<tool>|mainhand|offhand:Tool]
 ```
@@ -6486,7 +6486,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /loot insert <position:x y z> loot <loot_table:string> [<tool>|mainhand|offhand:Tool]
 ```
@@ -8105,7 +8105,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /loot insert <position:x y z> kill <entity:target> [<tool>|mainhand|offhand:Tool]
 ```
@@ -9724,7 +9724,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /loot replace entity <entity:target> <slotType:EntityEquipmentSlot> <slotId:int> <count:int> loot <loot_table:string> [<tool>|mainhand|offhand:Tool]
 ```
@@ -11381,7 +11381,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /loot replace entity <entity:target> <slotType:EntityEquipmentSlot> <slotId:int> loot <loot_table:string> [<tool>|mainhand|offhand:Tool]
 ```
@@ -13034,7 +13034,7 @@
 
 ///
 
-/// tab | `重载9`
+/// tab | 重载9
 ```mcfunction
 /loot replace entity <entity:target> <slotType:EntityEquipmentSlot> <slotId:int> <count:int> kill <entity:target> [<tool>|mainhand|offhand:Tool]
 ```
@@ -14687,7 +14687,7 @@
 
 ///
 
-/// tab | `重载10`
+/// tab | 重载10
 ```mcfunction
 /loot replace entity <entity:target> <slotType:EntityEquipmentSlot> <slotId:int> kill <entity:target> [<tool>|mainhand|offhand:Tool]
 ```
@@ -16336,7 +16336,7 @@
 
 ///
 
-/// tab | `重载11`
+/// tab | 重载11
 ```mcfunction
 /loot replace block <position:x y z> slot.container <slotId:int> <count:int> loot <loot_table:string> [<tool>|mainhand|offhand:Tool]
 ```
@@ -17981,7 +17981,7 @@
 
 ///
 
-/// tab | `重载12`
+/// tab | 重载12
 ```mcfunction
 /loot replace block <position:x y z> slot.container <slotId:int> loot <loot_table:string> [<tool>|mainhand|offhand:Tool]
 ```
@@ -19622,7 +19622,7 @@
 
 ///
 
-/// tab | `重载13`
+/// tab | 重载13
 ```mcfunction
 /loot replace block <position:x y z> slot.container <slotId:int> <count:int> kill <entity:target> [<tool>|mainhand|offhand:Tool]
 ```
@@ -21267,7 +21267,7 @@
 
 ///
 
-/// tab | `重载14`
+/// tab | 重载14
 ```mcfunction
 /loot replace block <position:x y z> slot.container <slotId:int> kill <entity:target> [<tool>|mainhand|offhand:Tool]
 ```

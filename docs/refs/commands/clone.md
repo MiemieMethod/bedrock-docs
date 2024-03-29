@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /clone <begin:x y z> <end:x y z> <destination:x y z> [maskMode:MaskMode] [cloneMode:CloneMode]
 ```
@@ -57,7 +57,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /clone <begin:x y z> <end:x y z> <destination:x y z> filtered <cloneMode:CloneMode> <tileName:Block> [blockStates:block states]
 ```

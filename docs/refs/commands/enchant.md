@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /enchant <player:target> <enchantmentName:Enchant> [level:int]
 ```
@@ -78,7 +78,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /enchant <player:target> <enchantmentId:int> [level:int]
 ```

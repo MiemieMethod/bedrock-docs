@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /execute as <origin:target> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -41,7 +41,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /execute at <origin:target> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -72,7 +72,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /execute in <dimension:Dimension> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -110,7 +110,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /execute positioned <position:x y z> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -141,7 +141,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /execute positioned as <origin:target> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -181,7 +181,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /execute rotated <yaw:value> <pitch:value> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -216,7 +216,7 @@
 
 ///
 
-/// tab | `重载9`
+/// tab | 重载9
 ```mcfunction
 /execute rotated as <origin:target> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -256,7 +256,7 @@
 
 ///
 
-/// tab | `重载10`
+/// tab | 重载10
 ```mcfunction
 /execute facing <position:x y z> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -287,7 +287,7 @@
 
 ///
 
-/// tab | `重载11`
+/// tab | 重载11
 ```mcfunction
 /execute facing entity <origin:target> <anchor:ActorLocation> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -337,7 +337,7 @@
 
 ///
 
-/// tab | `重载12`
+/// tab | 重载12
 ```mcfunction
 /execute align <axes:string> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -368,7 +368,7 @@
 
 ///
 
-/// tab | `重载13`
+/// tab | 重载13
 ```mcfunction
 /execute anchored <anchored:ActorLocation> <chainedCommand:EXECUTECHAINEDOPTION_0>
 ```
@@ -405,7 +405,7 @@
 
 ///
 
-/// tab | `重载14`
+/// tab | 重载14
 ```mcfunction
 /execute <subcommand:Option_If_Unless> block <position:x y z> <block:Block> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
@@ -2590,7 +2590,7 @@
 
 ///
 
-/// tab | `重载15`
+/// tab | 重载15
 ```mcfunction
 /execute <subcommand:Option_If_Unless> block <position:x y z> <block:Block> <blockStates:block states> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
@@ -4779,7 +4779,7 @@
 
 ///
 
-/// tab | `重载17`
+/// tab | 重载17
 ```mcfunction
 /execute <subcommand:Option_If_Unless> blocks <begin:x y z> <end:x y z> <destination:x y z> <scan mode:BlocksScanMode> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
@@ -4838,7 +4838,7 @@
 
 ///
 
-/// tab | `重载18`
+/// tab | 重载18
 ```mcfunction
 /execute <subcommand:Option_If_Unless> entity <target:target> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
@@ -4879,7 +4879,7 @@
 
 ///
 
-/// tab | `重载19`
+/// tab | 重载19
 ```mcfunction
 /execute <subcommand:Option_If_Unless> score <target:target> <objective:ScoreboardObjectives> <operation:compare operator> <source:target> <objective:ScoreboardObjectives> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
@@ -4932,7 +4932,7 @@
 
 ///
 
-/// tab | `重载20`
+/// tab | 重载20
 ```mcfunction
 /execute <subcommand:Option_If_Unless> score <target:target> <objective:ScoreboardObjectives> matches <range:integer range> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
@@ -4990,7 +4990,7 @@
 
 ///
 
-/// tab | `重载21`
+/// tab | 重载21
 ```mcfunction
 /execute run <command:command>
 ```

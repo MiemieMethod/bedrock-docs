@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /volumearea add <identifier:string> <from:x y z> <to:x y z> [name:string]
 ```
@@ -49,7 +49,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /volumearea remove <name:string>
 ```
@@ -76,7 +76,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /volumearea remove <position:x y z>
 ```
@@ -103,7 +103,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /volumearea remove_all
 ```
@@ -126,7 +126,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /volumearea list all-dimensions
 ```

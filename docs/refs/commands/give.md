@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /give <player:target> <itemName:Item> [amount:int] [data:int] [components:json]
 ```

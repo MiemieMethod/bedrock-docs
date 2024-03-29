@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /setblock <position:x y z> <tileName:Block> <blockStates:block states> [oldBlockHandling:SetBlockMode]
 ```
@@ -2187,7 +2187,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /setblock <position:x y z> <tileName:Block> [oldBlockHandling:SetBlockMode]
 ```

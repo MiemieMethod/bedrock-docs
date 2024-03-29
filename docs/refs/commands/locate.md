@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /locate structure <structure:Structure> [useNewChunksOnly:Boolean]
 ```
@@ -74,7 +74,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /locate biome <biome:Biome>
 ```

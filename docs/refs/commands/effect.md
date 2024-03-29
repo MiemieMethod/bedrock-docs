@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /effect <player:target> clear
 ```
@@ -37,7 +37,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /effect <player:target> <effect:Effect> [seconds:int] [amplifier:int] [hideParticles:Boolean]
 ```

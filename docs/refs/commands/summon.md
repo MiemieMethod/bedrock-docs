@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /summon <entityType:EntityType> [spawnPos:x y z] [yRot:value] [xRot:value] [spawnEvent:EntityEvents] [nameTag:string]
 ```
@@ -619,7 +619,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /summon <entityType:EntityType> <nameTag:string> [spawnPos:x y z]
 ```
@@ -854,7 +854,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /summon <entityType:EntityType> [spawnPos:x y z] facing <lookAtPosition:x y z> [spawnEvent:EntityEvents] [nameTag:string]
 ```
@@ -1468,7 +1468,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /summon <entityType:EntityType> [spawnPos:x y z] facing <lookAtEntity:target> [spawnEvent:EntityEvents] [nameTag:string]
 ```

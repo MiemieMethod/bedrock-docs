@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /inputpermission set <targets:target> <permission:permission> <state:state>
 ```
@@ -57,7 +57,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /inputpermission query <targets:target> <permission:permission> [state:state]
 ```

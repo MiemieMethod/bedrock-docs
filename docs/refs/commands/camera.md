@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> pos <position:x y z> rot <xRot:value> <yRot:value>
 ```
@@ -135,7 +135,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> pos <position:x y z> facing <lookAtEntity:target>
 ```
@@ -256,7 +256,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> pos <position:x y z> facing <lookAtPosition:x y z>
 ```
@@ -377,7 +377,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> pos <position:x y z>
 ```
@@ -485,7 +485,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> rot <xRot:value> <yRot:value>
 ```
@@ -597,7 +597,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> facing <lookAtEntity:target>
 ```
@@ -705,7 +705,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> facing <lookAtPosition:x y z>
 ```
@@ -813,7 +813,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> ease <easeTime:float> <easeType:Easing> default
 ```
@@ -917,7 +917,7 @@
 
 ///
 
-/// tab | `重载9`
+/// tab | 重载9
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> pos <position:x y z> rot <xRot:value> <yRot:value>
 ```
@@ -989,7 +989,7 @@
 
 ///
 
-/// tab | `重载10`
+/// tab | 重载10
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> pos <position:x y z> facing <lookAtEntity:target>
 ```
@@ -1057,7 +1057,7 @@
 
 ///
 
-/// tab | `重载11`
+/// tab | 重载11
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> pos <position:x y z> facing <lookAtPosition:x y z>
 ```
@@ -1125,7 +1125,7 @@
 
 ///
 
-/// tab | `重载12`
+/// tab | 重载12
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> pos <position:x y z>
 ```
@@ -1180,7 +1180,7 @@
 
 ///
 
-/// tab | `重载13`
+/// tab | 重载13
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> rot <xRot:value> <yRot:value>
 ```
@@ -1239,7 +1239,7 @@
 
 ///
 
-/// tab | `重载14`
+/// tab | 重载14
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> facing <lookAtEntity:target>
 ```
@@ -1294,7 +1294,7 @@
 
 ///
 
-/// tab | `重载15`
+/// tab | 重载15
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> facing <lookAtPosition:x y z>
 ```
@@ -1349,7 +1349,7 @@
 
 ///
 
-/// tab | `重载16`
+/// tab | 重载16
 ```mcfunction
 /camera <players:target> set <preset:CameraPresets> default
 ```
@@ -1400,7 +1400,7 @@
 
 ///
 
-/// tab | `重载17`
+/// tab | 重载17
 ```mcfunction
 /camera <players:target> clear
 ```
@@ -1427,7 +1427,7 @@
 
 ///
 
-/// tab | `重载18`
+/// tab | 重载18
 ```mcfunction
 /camera <players:target> fade time <fadeInSeconds:float> <holdSeconds:float> <fadeOutSeconds:float> color <red:int> <green:int> <blue:int>
 ```
@@ -1496,7 +1496,7 @@
 
 ///
 
-/// tab | `重载19`
+/// tab | 重载19
 ```mcfunction
 /camera <players:target> fade time <fadeInSeconds:float> <holdSeconds:float> <fadeOutSeconds:float>
 ```
@@ -1544,7 +1544,7 @@
 
 ///
 
-/// tab | `重载20`
+/// tab | 重载20
 ```mcfunction
 /camera <players:target> fade color <red:int> <green:int> <blue:int>
 ```
@@ -1592,7 +1592,7 @@
 
 ///
 
-/// tab | `重载21`
+/// tab | 重载21
 ```mcfunction
 /camera <players:target> fade
 ```

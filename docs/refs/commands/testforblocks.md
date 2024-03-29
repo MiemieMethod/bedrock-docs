@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /testforblocks <begin:x y z> <end:x y z> <destination:x y z> [mode:TestForBlocksMode]
 ```

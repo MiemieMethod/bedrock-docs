@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /playanimation <entity:target> <animation:string> [next_state:string] [blend_out_time:float] [stop_expression:string] [controller:string]
 ```

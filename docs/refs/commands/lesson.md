@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /lesson <player:target>
 ```
@@ -28,7 +28,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /lesson <player:target> lesson <action:LessonAction> [score:int]
 ```
@@ -69,7 +69,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /lesson <player:target> activity <id:string> <action:LessonAction> [score:int]
 ```

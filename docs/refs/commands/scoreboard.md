@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /scoreboard objectives add <objective:ScoreboardObjectives> dummy [displayName:string]
 ```
@@ -59,7 +59,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /scoreboard objectives remove <objective:ScoreboardObjectives>
 ```
@@ -95,7 +95,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /scoreboard objectives list
 ```
@@ -127,7 +127,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /scoreboard objectives setdisplay <displaySlot:ScoreboardDisplaySlotSortable> [objective:ScoreboardObjectives] [sortOrder:ScoreboardSortOrder]
 ```
@@ -183,7 +183,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /scoreboard objectives setdisplay belowname [objective:ScoreboardObjectives]
 ```
@@ -228,7 +228,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /scoreboard players list [playername:target]
 ```
@@ -264,7 +264,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /scoreboard players reset <player:target> [objective:ScoreboardObjectives]
 ```
@@ -304,7 +304,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /scoreboard players test <player:target> <objective:ScoreboardObjectives> <min:wildcard int> [max:wildcard int]
 ```
@@ -352,7 +352,7 @@
 
 ///
 
-/// tab | `重载9`
+/// tab | 重载9
 ```mcfunction
 /scoreboard players random <player:target> <objective:ScoreboardObjectives> <min:int> <max:int>
 ```
@@ -400,7 +400,7 @@
 
 ///
 
-/// tab | `重载10`
+/// tab | 重载10
 ```mcfunction
 /scoreboard players <action:ScoreboardPlayersNumAction> <player:target> <objective:ScoreboardObjectives> <count:int>
 ```
@@ -446,7 +446,7 @@
 
 ///
 
-/// tab | `重载11`
+/// tab | 重载11
 ```mcfunction
 /scoreboard players operation <targetName:target> <targetObjective:ScoreboardObjectives> <operation:operator> <selector:target> <objective:ScoreboardObjectives>
 ```

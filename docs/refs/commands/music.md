@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /music queue <trackName:string> [volume:float] [fadeSeconds:float] [repeatMode:MusicRepeatMode]
 ```
@@ -55,7 +55,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /music play <trackName:string> [volume:float] [fadeSeconds:float] [repeatMode:MusicRepeatMode]
 ```
@@ -100,7 +100,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /music stop [fadeSeconds:float]
 ```
@@ -127,7 +127,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /music volume <volume:float>
 ```

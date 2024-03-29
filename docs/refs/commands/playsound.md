@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /playsound <sound:string> [player:target] [position:x y z] [volume:float] [pitch:float] [minimumVolume:float]
 ```

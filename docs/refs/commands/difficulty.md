@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /difficulty <difficulty:Difficulty>
 ```
@@ -40,7 +40,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /difficulty <difficulty:int>
 ```

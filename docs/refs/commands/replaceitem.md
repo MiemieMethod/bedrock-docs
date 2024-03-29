@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /replaceitem block <position:x y z> slot.container <slotId:int> <itemName:Item> [amount:int] [data:int] [components:json]
 ```
@@ -2871,7 +2871,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /replaceitem entity <target:target> <slotType:EntityEquipmentSlot> <slotId:int> <itemName:Item> [amount:int] [data:int] [components:json]
 ```
@@ -5744,7 +5744,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /replaceitem block <position:x y z> slot.container <slotId:int> <oldItemHandling:ReplaceMode> <itemName:Item> [amount:int] [data:int] [components:json]
 ```
@@ -8615,7 +8615,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /replaceitem entity <target:target> <slotType:EntityEquipmentSlot> <slotId:int> <oldItemHandling:ReplaceMode> <itemName:Item> [amount:int] [data:int] [components:json]
 ```

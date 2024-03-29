@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /takepicture <targetCamera:target> <targetPlayer:target>
 ```
@@ -32,7 +32,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /takepicture <cameraSpawnLocation:x y z> <targetPlayer:target>
 ```
@@ -54,7 +54,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /takepicture <targetPlayer:target>
 ```

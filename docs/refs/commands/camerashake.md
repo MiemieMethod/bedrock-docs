@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /camerashake add <player:target> [intensity:float] [seconds:float] [shakeType:CameraShakeType]
 ```
@@ -55,7 +55,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /camerashake stop [player:target]
 ```

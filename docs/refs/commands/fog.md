@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /fog <victim:target> push <fogId:string> <userProvidedId:string>
 ```
@@ -45,7 +45,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /fog <victim:target> <mode:delete> <userProvidedId:string>
 ```

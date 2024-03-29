@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /titleraw <player:target> clear
 ```
@@ -37,7 +37,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /titleraw <player:target> reset
 ```
@@ -64,7 +64,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /titleraw <player:target> <titleLocation:TitleRawSet> <raw json titleText:json>
 ```
@@ -97,7 +97,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /titleraw <player:target> times <fadeIn:int> <stay:int> <fadeOut:int>
 ```

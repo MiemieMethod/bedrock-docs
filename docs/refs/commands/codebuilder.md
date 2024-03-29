@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /codebuilder navigate <player:target> <openCodeBuilderWindow:Boolean> <URL:text>
 ```
@@ -51,7 +51,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /codebuilder reset <player:target>
 ```
@@ -78,7 +78,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /codebuilder subscribe scoreboard <player:target> <objective:string>
 ```
@@ -118,7 +118,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /codebuilder unsubscribe scoreboard <player:target> <objective:string>
 ```
@@ -158,7 +158,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /codebuilder code check code_status <status:CodeBuilderCodeStatus> <player:target>
 ```
@@ -216,7 +216,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /codebuilder runtime <action:CodeBuilderRuntime> <player:target>
 ```

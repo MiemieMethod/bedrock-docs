@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /schedule on_area_loaded add <from:x y z> <to:x y z> <function:filepath>
 ```
@@ -54,7 +54,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /schedule on_area_loaded add circle <center:x y z> <radius:int> <function:filepath>
 ```
@@ -107,7 +107,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /schedule on_area_loaded add tickingarea <name:string> <function:filepath>
 ```

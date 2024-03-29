@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /damage <target:target> <amount:int> [cause:DamageCause]
 ```
@@ -75,7 +75,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /damage <target:target> <amount:int> <cause:DamageCause> entity <damager:target>
 ```

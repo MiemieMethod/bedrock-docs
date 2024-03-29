@@ -10,7 +10,7 @@
 
 ## 用法
 
-/// tab | `重载1`
+/// tab | 重载1
 ```mcfunction
 /teleport <destination:x y z> [checkForBlocks:Boolean]
 ```
@@ -38,7 +38,7 @@
 
 ///
 
-/// tab | `重载2`
+/// tab | 重载2
 ```mcfunction
 /teleport <destination:x y z> [yRot:value] [xRot:value] [checkForBlocks:Boolean]
 ```
@@ -74,7 +74,7 @@
 
 ///
 
-/// tab | `重载3`
+/// tab | 重载3
 ```mcfunction
 /teleport <destination:x y z> facing <lookAtPosition:x y z> [checkForBlocks:Boolean]
 ```
@@ -115,7 +115,7 @@
 
 ///
 
-/// tab | `重载4`
+/// tab | 重载4
 ```mcfunction
 /teleport <destination:x y z> facing <lookAtEntity:target> [checkForBlocks:Boolean]
 ```
@@ -156,7 +156,7 @@
 
 ///
 
-/// tab | `重载5`
+/// tab | 重载5
 ```mcfunction
 /teleport <victim:target> <destination:x y z> [yRot:value] [xRot:value] [checkForBlocks:Boolean]
 ```
@@ -196,7 +196,7 @@
 
 ///
 
-/// tab | `重载6`
+/// tab | 重载6
 ```mcfunction
 /teleport <victim:target> <destination:x y z> [checkForBlocks:Boolean]
 ```
@@ -228,7 +228,7 @@
 
 ///
 
-/// tab | `重载7`
+/// tab | 重载7
 ```mcfunction
 /teleport <victim:target> <destination:x y z> facing <lookAtPosition:x y z> [checkForBlocks:Boolean]
 ```
@@ -273,7 +273,7 @@
 
 ///
 
-/// tab | `重载8`
+/// tab | 重载8
 ```mcfunction
 /teleport <victim:target> <destination:x y z> facing <lookAtEntity:target> [checkForBlocks:Boolean]
 ```
@@ -318,7 +318,7 @@
 
 ///
 
-/// tab | `重载9`
+/// tab | 重载9
 ```mcfunction
 /teleport <destination:target>
 ```
@@ -336,7 +336,7 @@
 
 ///
 
-/// tab | `重载10`
+/// tab | 重载10
 ```mcfunction
 /teleport <victim:target> <destination:target> [checkForBlocks:Boolean]
 ```
