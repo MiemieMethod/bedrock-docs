@@ -224,3 +224,16 @@ samp {
     direction: ltr;
     font-variant-ligatures: none;
 }
+
+nav code {
+    background-color: var(--md-code-inline-bg-color);
+    margin: 0;
+    padding: 0 0.2941176471em;
+    border-radius: 0.1rem;
+    box-shadow: none;
+    font-size: .85em;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    direction: ltr;
+    font-variant-ligatures: none;
+}
