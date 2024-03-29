@@ -1,4 +1,4 @@
-# /codebuilder_actorinfo
+# `/codebuilder_actorinfo`
 
 > 文档版本：1.20.80.24
 
