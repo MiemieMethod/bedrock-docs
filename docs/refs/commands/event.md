@@ -19,12 +19,7 @@
 ///// define
 `entity`: <!-- md:samp EventEntityAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `target`: <!-- md:samp target -->
 

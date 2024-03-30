@@ -19,12 +19,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_As -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`as`||
-
+- 枚举类型。单值枚举，请直接使用`as`。
 
 `origin`: <!-- md:samp target -->
 
@@ -50,12 +45,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_At -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`at`||
-
+- 枚举类型。单值枚举，请直接使用`at`。
 
 `origin`: <!-- md:samp target -->
 
@@ -81,12 +71,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_In -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`in`||
-
+- 枚举类型。单值枚举，请直接使用`in`。
 
 `dimension`: <!-- md:samp Dimension -->
 
@@ -119,12 +104,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Positioned -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`positioned`||
-
+- 枚举类型。单值枚举，请直接使用`positioned`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -150,21 +130,11 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Positioned -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`positioned`||
-
+- 枚举类型。单值枚举，请直接使用`positioned`。
 
 `secondary subcommand`: <!-- md:samp Option_As -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`as`||
-
+- 枚举类型。单值枚举，请直接使用`as`。
 
 `origin`: <!-- md:samp target -->
 
@@ -190,12 +160,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Rotated -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`rotated`||
-
+- 枚举类型。单值枚举，请直接使用`rotated`。
 
 `yaw`: <!-- md:samp value -->
 
@@ -225,21 +190,11 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Rotated -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`rotated`||
-
+- 枚举类型。单值枚举，请直接使用`rotated`。
 
 `secondary subcommand`: <!-- md:samp Option_As -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`as`||
-
+- 枚举类型。单值枚举，请直接使用`as`。
 
 `origin`: <!-- md:samp target -->
 
@@ -265,12 +220,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Facing -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`facing`||
-
+- 枚举类型。单值枚举，请直接使用`facing`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -296,21 +246,11 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Facing -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`facing`||
-
+- 枚举类型。单值枚举，请直接使用`facing`。
 
 `secondary subcommand`: <!-- md:samp Option_Entity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `origin`: <!-- md:samp target -->
 
@@ -346,12 +286,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Align -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`align`||
-
+- 枚举类型。单值枚举，请直接使用`align`。
 
 `axes`: <!-- md:samp string -->
 
@@ -377,12 +312,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Anchored -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`anchored`||
-
+- 枚举类型。单值枚举，请直接使用`anchored`。
 
 `anchored`: <!-- md:samp ActorLocation -->
 
@@ -424,12 +354,7 @@
 
 `secondary subcommand`: <!-- md:samp Option_Condition_Block -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -2609,12 +2534,7 @@
 
 `secondary subcommand`: <!-- md:samp Option_Condition_Block -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -4798,12 +4718,7 @@
 
 `secondary subcommand`: <!-- md:samp Option_Condition_Blocks -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`blocks`||
-
+- 枚举类型。单值枚举，请直接使用`blocks`。
 
 `begin`: <!-- md:samp x y z -->
 
@@ -4857,12 +4772,7 @@
 
 `secondary subcommand`: <!-- md:samp Option_Condition_Entity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `target`: <!-- md:samp target -->
 
@@ -4898,12 +4808,7 @@
 
 `secondary subcommand`: <!-- md:samp Option_Condition_Score -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`score`||
-
+- 枚举类型。单值枚举，请直接使用`score`。
 
 `target`: <!-- md:samp target -->
 
@@ -4951,12 +4856,7 @@
 
 `secondary subcommand`: <!-- md:samp Option_Condition_Score -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`score`||
-
+- 枚举类型。单值枚举，请直接使用`score`。
 
 `target`: <!-- md:samp target -->
 
@@ -4968,12 +4868,7 @@
 
 `matches`: <!-- md:samp ScoreRangeMode -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`matches`||
-
+- 枚举类型。单值枚举，请直接使用`matches`。
 
 `range`: <!-- md:samp integer range -->
 
@@ -4999,12 +4894,7 @@
 ///// define
 `subcommand`: <!-- md:samp Option_Run -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`run`||
-
+- 枚举类型。单值枚举，请直接使用`run`。
 
 `command`: <!-- md:samp command -->
 

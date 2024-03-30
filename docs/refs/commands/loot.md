@@ -19,12 +19,7 @@
 ///// define
 `target`: <!-- md:samp TargetSpawn -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`spawn`||
-
+- 枚举类型。单值枚举，请直接使用`spawn`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -32,12 +27,7 @@
 
 `source`: <!-- md:samp SourceLoot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`loot`||
-
+- 枚举类型。单值枚举，请直接使用`loot`。
 
 `loot_table`: <!-- md:samp string -->
 
@@ -1638,12 +1628,7 @@
 ///// define
 `target`: <!-- md:samp TargetSpawn -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`spawn`||
-
+- 枚举类型。单值枚举，请直接使用`spawn`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -1651,12 +1636,7 @@
 
 `source`: <!-- md:samp SourceKill -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`kill`||
-
+- 枚举类型。单值枚举，请直接使用`kill`。
 
 `entity`: <!-- md:samp target -->
 
@@ -3257,12 +3237,7 @@
 ///// define
 `target`: <!-- md:samp TargetGive -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`give`||
-
+- 枚举类型。单值枚举，请直接使用`give`。
 
 `players`: <!-- md:samp target -->
 
@@ -3270,12 +3245,7 @@
 
 `source`: <!-- md:samp SourceLoot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`loot`||
-
+- 枚举类型。单值枚举，请直接使用`loot`。
 
 `loot_table`: <!-- md:samp string -->
 
@@ -4876,12 +4846,7 @@
 ///// define
 `target`: <!-- md:samp TargetGive -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`give`||
-
+- 枚举类型。单值枚举，请直接使用`give`。
 
 `players`: <!-- md:samp target -->
 
@@ -4889,12 +4854,7 @@
 
 `source`: <!-- md:samp SourceKill -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`kill`||
-
+- 枚举类型。单值枚举，请直接使用`kill`。
 
 `entity`: <!-- md:samp target -->
 
@@ -6495,12 +6455,7 @@
 ///// define
 `target`: <!-- md:samp TargetInsert -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`insert`||
-
+- 枚举类型。单值枚举，请直接使用`insert`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -6508,12 +6463,7 @@
 
 `source`: <!-- md:samp SourceLoot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`loot`||
-
+- 枚举类型。单值枚举，请直接使用`loot`。
 
 `loot_table`: <!-- md:samp string -->
 
@@ -8114,12 +8064,7 @@
 ///// define
 `target`: <!-- md:samp TargetInsert -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`insert`||
-
+- 枚举类型。单值枚举，请直接使用`insert`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -8127,12 +8072,7 @@
 
 `source`: <!-- md:samp SourceKill -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`kill`||
-
+- 枚举类型。单值枚举，请直接使用`kill`。
 
 `entity`: <!-- md:samp target -->
 
@@ -9733,21 +9673,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `entity`: <!-- md:samp TargetEntity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `entity`: <!-- md:samp target -->
 
@@ -9784,12 +9714,7 @@
 
 `source`: <!-- md:samp SourceLoot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`loot`||
-
+- 枚举类型。单值枚举，请直接使用`loot`。
 
 `loot_table`: <!-- md:samp string -->
 
@@ -11390,21 +11315,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `entity`: <!-- md:samp TargetEntity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `entity`: <!-- md:samp target -->
 
@@ -11437,12 +11352,7 @@
 
 `source`: <!-- md:samp SourceLoot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`loot`||
-
+- 枚举类型。单值枚举，请直接使用`loot`。
 
 `loot_table`: <!-- md:samp string -->
 
@@ -13043,21 +12953,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `entity`: <!-- md:samp TargetEntity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `entity`: <!-- md:samp target -->
 
@@ -13094,12 +12994,7 @@
 
 `source`: <!-- md:samp SourceKill -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`kill`||
-
+- 枚举类型。单值枚举，请直接使用`kill`。
 
 `<tool>|mainhand|offhand`: <!-- md:samp Tool -->
 
@@ -14696,21 +14591,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `entity`: <!-- md:samp TargetEntity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `entity`: <!-- md:samp target -->
 
@@ -14743,12 +14628,7 @@
 
 `source`: <!-- md:samp SourceKill -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`kill`||
-
+- 枚举类型。单值枚举，请直接使用`kill`。
 
 `<tool>|mainhand|offhand`: <!-- md:samp Tool -->
 
@@ -16345,21 +16225,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `block`: <!-- md:samp TargetBlock -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -16367,12 +16237,7 @@
 
 `slotType`: <!-- md:samp BlockEquipmentSlot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`slot.container`||
-
+- 枚举类型。单值枚举，请直接使用`slot.container`。
 
 `slotId`: <!-- md:samp int -->
 
@@ -16384,12 +16249,7 @@
 
 `source`: <!-- md:samp SourceLoot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`loot`||
-
+- 枚举类型。单值枚举，请直接使用`loot`。
 
 `loot_table`: <!-- md:samp string -->
 
@@ -17990,21 +17850,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `block`: <!-- md:samp TargetBlock -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -18012,12 +17862,7 @@
 
 `slotType`: <!-- md:samp BlockEquipmentSlot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`slot.container`||
-
+- 枚举类型。单值枚举，请直接使用`slot.container`。
 
 `slotId`: <!-- md:samp int -->
 
@@ -18025,12 +17870,7 @@
 
 `source`: <!-- md:samp SourceLoot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`loot`||
-
+- 枚举类型。单值枚举，请直接使用`loot`。
 
 `loot_table`: <!-- md:samp string -->
 
@@ -19631,21 +19471,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `block`: <!-- md:samp TargetBlock -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -19653,12 +19483,7 @@
 
 `slotType`: <!-- md:samp BlockEquipmentSlot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`slot.container`||
-
+- 枚举类型。单值枚举，请直接使用`slot.container`。
 
 `slotId`: <!-- md:samp int -->
 
@@ -19670,12 +19495,7 @@
 
 `source`: <!-- md:samp SourceKill -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`kill`||
-
+- 枚举类型。单值枚举，请直接使用`kill`。
 
 `entity`: <!-- md:samp target -->
 
@@ -21276,21 +21096,11 @@
 ///// define
 `target`: <!-- md:samp TargetReplace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `block`: <!-- md:samp TargetBlock -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -21298,12 +21108,7 @@
 
 `slotType`: <!-- md:samp BlockEquipmentSlot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`slot.container`||
-
+- 枚举类型。单值枚举，请直接使用`slot.container`。
 
 `slotId`: <!-- md:samp int -->
 
@@ -21311,12 +21116,7 @@
 
 `source`: <!-- md:samp SourceKill -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`kill`||
-
+- 枚举类型。单值枚举，请直接使用`kill`。
 
 `entity`: <!-- md:samp target -->
 

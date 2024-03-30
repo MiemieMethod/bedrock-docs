@@ -19,21 +19,11 @@
 ///// define
 `mode`: <!-- md:samp ScriptDebugModeProfiler -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`profiler`||
-
+- 枚举类型。单值枚举，请直接使用`profiler`。
 
 `action`: <!-- md:samp ScriptProfilerStart -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`start`||
-
+- 枚举类型。单值枚举，请直接使用`start`。
 
 
 /////
@@ -51,21 +41,11 @@
 ///// define
 `mode`: <!-- md:samp ScriptDebugModeProfiler -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`profiler`||
-
+- 枚举类型。单值枚举，请直接使用`profiler`。
 
 `action`: <!-- md:samp ScriptProfilerStop -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`stop`||
-
+- 枚举类型。单值枚举，请直接使用`stop`。
 
 
 /////
@@ -83,21 +63,11 @@
 ///// define
 `mode`: <!-- md:samp ScriptDebugModeWatchdog -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`watchdog`||
-
+- 枚举类型。单值枚举，请直接使用`watchdog`。
 
 `action`: <!-- md:samp ScriptWatchdogDumpMemory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`exportstats`||
-
+- 枚举类型。单值枚举，请直接使用`exportstats`。
 
 
 /////

@@ -33,12 +33,7 @@
 ///// define
 `cmd`: <!-- md:samp ResourceActionClear -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`clear`||
-
+- 枚举类型。单值枚举，请直接使用`clear`。
 
 
 /////
@@ -56,12 +51,7 @@
 ///// define
 `cmd`: <!-- md:samp ResourceActionDefault -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`default`||
-
+- 枚举类型。单值枚举，请直接使用`default`。
 
 `uri`: <!-- md:samp text -->
 
@@ -83,12 +73,7 @@
 ///// define
 `cmd`: <!-- md:samp ResourceActionNamed -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`named`||
-
+- 枚举类型。单值枚举，请直接使用`named`。
 
 `name`: <!-- md:samp string -->
 

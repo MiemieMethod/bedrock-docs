@@ -19,12 +19,7 @@
 ///// define
 `block`: <!-- md:samp ReplaceItemBlock -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -32,12 +27,7 @@
 
 `slotType`: <!-- md:samp BlockEquipmentSlot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`slot.container`||
-
+- 枚举类型。单值枚举，请直接使用`slot.container`。
 
 `slotId`: <!-- md:samp int -->
 
@@ -2880,12 +2870,7 @@
 ///// define
 `entity`: <!-- md:samp ReplaceItemEntity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `target`: <!-- md:samp target -->
 
@@ -5753,12 +5738,7 @@
 ///// define
 `block`: <!-- md:samp ReplaceItemBlock -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`block`||
-
+- 枚举类型。单值枚举，请直接使用`block`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -5766,12 +5746,7 @@
 
 `slotType`: <!-- md:samp BlockEquipmentSlot -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`slot.container`||
-
+- 枚举类型。单值枚举，请直接使用`slot.container`。
 
 `slotId`: <!-- md:samp int -->
 
@@ -8624,12 +8599,7 @@
 ///// define
 `entity`: <!-- md:samp ReplaceItemEntity -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `target`: <!-- md:samp target -->
 

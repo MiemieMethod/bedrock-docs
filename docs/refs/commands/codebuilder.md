@@ -19,12 +19,7 @@
 ///// define
 `navigate`: <!-- md:samp CodeBuilderNavigateAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`navigate`||
-
+- 枚举类型。单值枚举，请直接使用`navigate`。
 
 `player`: <!-- md:samp target -->
 
@@ -60,12 +55,7 @@
 ///// define
 `reset`: <!-- md:samp CodeBuilderResetAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`reset`||
-
+- 枚举类型。单值枚举，请直接使用`reset`。
 
 `player`: <!-- md:samp target -->
 
@@ -87,21 +77,11 @@
 ///// define
 `subscribe`: <!-- md:samp CodeBuilderSubscribeAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`subscribe`||
-
+- 枚举类型。单值枚举，请直接使用`subscribe`。
 
 `type`: <!-- md:samp CodeBuilderEventTypeScoreboard -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`scoreboard`||
-
+- 枚举类型。单值枚举，请直接使用`scoreboard`。
 
 `player`: <!-- md:samp target -->
 
@@ -127,21 +107,11 @@
 ///// define
 `unsubscribe`: <!-- md:samp CodeBuilderUnsubscribeAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`unsubscribe`||
-
+- 枚举类型。单值枚举，请直接使用`unsubscribe`。
 
 `type`: <!-- md:samp CodeBuilderEventTypeScoreboard -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`scoreboard`||
-
+- 枚举类型。单值枚举，请直接使用`scoreboard`。
 
 `player`: <!-- md:samp target -->
 
@@ -167,30 +137,15 @@
 ///// define
 `code`: <!-- md:samp CodeBuilderCodeStateCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`code`||
-
+- 枚举类型。单值枚举，请直接使用`code`。
 
 `check`: <!-- md:samp CodeBuilderCheckAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`check`||
-
+- 枚举类型。单值枚举，请直接使用`check`。
 
 `codeStatus`: <!-- md:samp CodeBuilderCodeStatusProperty -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`code_status`||
-
+- 枚举类型。单值枚举，请直接使用`code_status`。
 
 `status`: <!-- md:samp CodeBuilderCodeStatus -->
 
@@ -225,12 +180,7 @@
 ///// define
 `runtime`: <!-- md:samp CodeBuilderRuntimeAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`runtime`||
-
+- 枚举类型。单值枚举，请直接使用`runtime`。
 
 `action`: <!-- md:samp CodeBuilderRuntime -->
 

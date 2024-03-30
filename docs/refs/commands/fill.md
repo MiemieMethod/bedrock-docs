@@ -6535,12 +6535,7 @@
 
 `oldBlockHandling`: <!-- md:samp Replace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `replaceTileName`: <!-- md:samp Block -->
 
@@ -10858,12 +10853,7 @@
 
 `oldBlockHandling`: <!-- md:samp Replace -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`replace`||
-
+- 枚举类型。单值枚举，请直接使用`replace`。
 
 `replaceTileName`: <!-- md:samp Block -->
 

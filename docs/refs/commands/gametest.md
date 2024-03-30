@@ -19,12 +19,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeRunThis -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`runthis`||
-
+- 枚举类型。单值枚举，请直接使用`runthis`。
 
 
 /////
@@ -42,12 +37,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeRun -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`run`||
-
+- 枚举类型。单值枚举，请直接使用`run`。
 
 `testName`: <!-- md:samp GameTestName -->
 
@@ -73,12 +63,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeRun -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`run`||
-
+- 枚举类型。单值枚举，请直接使用`run`。
 
 `testName`: <!-- md:samp GameTestName -->
 
@@ -118,12 +103,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeRunSet -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`runset`||
-
+- 枚举类型。单值枚举，请直接使用`runset`。
 
 `tag`: <!-- md:samp GameTestTag -->
 
@@ -149,12 +129,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeRunSetUntilFail -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`runsetuntilfail`||
-
+- 枚举类型。单值枚举，请直接使用`runsetuntilfail`。
 
 `tag`: <!-- md:samp GameTestTag -->
 
@@ -180,12 +155,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeClearAll -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`clearall`||
-
+- 枚举类型。单值枚举，请直接使用`clearall`。
 
 
 /////
@@ -203,12 +173,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeShowPosition -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`pos`||
-
+- 枚举类型。单值枚举，请直接使用`pos`。
 
 
 /////
@@ -226,12 +191,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestModeCreateTest -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`create`||
-
+- 枚举类型。单值枚举，请直接使用`create`。
 
 `testName`: <!-- md:samp string -->
 
@@ -265,12 +225,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestRunNearbyTests -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`runthese`||
-
+- 枚举类型。单值枚举，请直接使用`runthese`。
 
 
 /////
@@ -288,12 +243,7 @@
 ///// define
 `mode`: <!-- md:samp GameTestStopTests -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`stopall`||
-
+- 枚举类型。单值枚举，请直接使用`stopall`。
 
 
 /////

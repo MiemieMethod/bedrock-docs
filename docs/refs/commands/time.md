@@ -19,12 +19,7 @@
 ///// define
 `mode`: <!-- md:samp TimeModeAdd -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `amount`: <!-- md:samp int -->
 
@@ -46,12 +41,7 @@
 ///// define
 `mode`: <!-- md:samp TimeModeSet -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`set`||
-
+- 枚举类型。单值枚举，请直接使用`set`。
 
 `amount`: <!-- md:samp int -->
 
@@ -73,12 +63,7 @@
 ///// define
 `mode`: <!-- md:samp TimeModeSet -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`set`||
-
+- 枚举类型。单值枚举，请直接使用`set`。
 
 `time`: <!-- md:samp TimeSpec -->
 
@@ -110,12 +95,7 @@
 ///// define
 `mode`: <!-- md:samp TimeModeQuery -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`query`||
-
+- 枚举类型。单值枚举，请直接使用`query`。
 
 `time`: <!-- md:samp TimeQuery -->
 

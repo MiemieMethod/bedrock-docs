@@ -19,12 +19,7 @@
 ///// define
 `action`: <!-- md:samp MusicQueueAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`queue`||
-
+- 枚举类型。单值枚举，请直接使用`queue`。
 
 `trackName`: <!-- md:samp string -->
 
@@ -64,12 +59,7 @@
 ///// define
 `action`: <!-- md:samp MusicPlayAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`play`||
-
+- 枚举类型。单值枚举，请直接使用`play`。
 
 `trackName`: <!-- md:samp string -->
 
@@ -109,12 +99,7 @@
 ///// define
 `action`: <!-- md:samp MusicStopAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`stop`||
-
+- 枚举类型。单值枚举，请直接使用`stop`。
 
 `fadeSeconds`: <!-- md:samp float -->
 
@@ -136,12 +121,7 @@
 ///// define
 `action`: <!-- md:samp MusicVolumeAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`volume`||
-
+- 枚举类型。单值枚举，请直接使用`volume`。
 
 `volume`: <!-- md:samp float -->
 

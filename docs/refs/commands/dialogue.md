@@ -19,12 +19,7 @@
 ///// define
 `open`: <!-- md:samp DialogueOpenAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`open`||
-
+- 枚举类型。单值枚举，请直接使用`open`。
 
 `npc`: <!-- md:samp target -->
 
@@ -54,12 +49,7 @@
 ///// define
 `change`: <!-- md:samp DialogueChangeAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`change`||
-
+- 枚举类型。单值枚举，请直接使用`change`。
 
 `npc`: <!-- md:samp target -->
 

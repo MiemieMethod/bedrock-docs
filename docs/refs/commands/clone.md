@@ -78,12 +78,7 @@
 
 `maskMode`: <!-- md:samp MaskModeFiltered -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`filtered`||
-
+- 枚举类型。单值枚举，请直接使用`filtered`。
 
 `cloneMode`: <!-- md:samp CloneMode -->
 

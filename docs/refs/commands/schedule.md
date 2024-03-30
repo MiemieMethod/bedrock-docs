@@ -19,21 +19,11 @@
 ///// define
 `mode`: <!-- md:samp ScheduleActionOnAreaLoaded -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`on_area_loaded`||
-
+- 枚举类型。单值枚举，请直接使用`on_area_loaded`。
 
 `condition`: <!-- md:samp RequestAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `from`: <!-- md:samp x y z -->
 
@@ -63,30 +53,15 @@
 ///// define
 `mode`: <!-- md:samp ScheduleActionOnAreaLoaded -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`on_area_loaded`||
-
+- 枚举类型。单值枚举，请直接使用`on_area_loaded`。
 
 `condition`: <!-- md:samp RequestAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `type`: <!-- md:samp CircleArea -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`circle`||
-
+- 枚举类型。单值枚举，请直接使用`circle`。
 
 `center`: <!-- md:samp x y z -->
 
@@ -116,30 +91,15 @@
 ///// define
 `mode`: <!-- md:samp ScheduleActionOnAreaLoaded -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`on_area_loaded`||
-
+- 枚举类型。单值枚举，请直接使用`on_area_loaded`。
 
 `condition`: <!-- md:samp RequestAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `type`: <!-- md:samp TickingArea -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`tickingarea`||
-
+- 枚举类型。单值枚举，请直接使用`tickingarea`。
 
 `name`: <!-- md:samp string -->
 

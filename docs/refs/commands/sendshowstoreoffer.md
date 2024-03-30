@@ -55,12 +55,7 @@
 
 `redirectType`: <!-- md:samp 3PServerOfferList -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`server`||
-
+- 枚举类型。单值枚举，请直接使用`server`。
 
 
 /////

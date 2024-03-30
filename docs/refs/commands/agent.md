@@ -62,12 +62,7 @@
 ///// define
 `command`: <!-- md:samp AgentTurnCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`turn`||
-
+- 枚举类型。单值枚举，请直接使用`turn`。
 
 `direction`: <!-- md:samp AgentTurnDirection -->
 
@@ -148,12 +143,7 @@
 ///// define
 `command`: <!-- md:samp AgentTransferCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`transfer`||
-
+- 枚举类型。单值枚举，请直接使用`transfer`。
 
 `slotNum`: <!-- md:samp int -->
 
@@ -183,12 +173,7 @@
 ///// define
 `command`: <!-- md:samp AgentDropCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`drop`||
-
+- 枚举类型。单值枚举，请直接使用`drop`。
 
 `slotNum`: <!-- md:samp int -->
 
@@ -228,12 +213,7 @@
 ///// define
 `command`: <!-- md:samp AgentCollectCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`collect`||
-
+- 枚举类型。单值枚举，请直接使用`collect`。
 
 `item`: <!-- md:samp Item -->
 
@@ -3060,21 +3040,11 @@
 ///// define
 `command`: <!-- md:samp AgentCollectCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`collect`||
-
+- 枚举类型。单值枚举，请直接使用`collect`。
 
 `item`: <!-- md:samp AgentCollectAllItems -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`all`||
-
+- 枚举类型。单值枚举，请直接使用`all`。
 
 
 /////
@@ -3092,12 +3062,7 @@
 ///// define
 `command`: <!-- md:samp AgentPlaceCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`place`||
-
+- 枚举类型。单值枚举，请直接使用`place`。
 
 `slotNum`: <!-- md:samp int -->
 
@@ -3133,12 +3098,7 @@
 ///// define
 `command`: <!-- md:samp AgentSetItemCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`setitem`||
-
+- 枚举类型。单值枚举，请直接使用`setitem`。
 
 `slotNum`: <!-- md:samp int -->
 
@@ -5977,12 +5937,7 @@
 ///// define
 `command`: <!-- md:samp AgentTPCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`tp`||
-
+- 枚举类型。单值枚举，请直接使用`tp`。
 
 `destination`: <!-- md:samp x y z -->
 
@@ -6008,12 +5963,7 @@
 ///// define
 `command`: <!-- md:samp AgentTPCommand -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`tp`||
-
+- 枚举类型。单值枚举，请直接使用`tp`。
 
 `destination`: <!-- md:samp x y z -->
 
@@ -6021,12 +5971,7 @@
 
 `facing`: <!-- md:samp AgentTeleportFacing -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`facing`||
-
+- 枚举类型。单值枚举，请直接使用`facing`。
 
 `lookAtPosition`: <!-- md:samp x y z -->
 
@@ -6048,12 +5993,7 @@
 ///// define
 `destroy`: <!-- md:samp AGENT_DESTROY -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`destroy`||
-
+- 枚举类型。单值枚举，请直接使用`destroy`。
 
 `direction`: <!-- md:samp AgentDirection -->
 
@@ -6085,12 +6025,7 @@
 ///// define
 `inspect`: <!-- md:samp AGENT_INSPECT -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`inspect`||
-
+- 枚举类型。单值枚举，请直接使用`inspect`。
 
 `direction`: <!-- md:samp AgentDirection -->
 
@@ -6122,12 +6057,7 @@
 ///// define
 `interact`: <!-- md:samp AGENT_INTERACT -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`interact`||
-
+- 枚举类型。单值枚举，请直接使用`interact`。
 
 `direction`: <!-- md:samp AgentDirection -->
 

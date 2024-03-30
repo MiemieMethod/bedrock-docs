@@ -19,12 +19,7 @@
 ///// define
 `option`: <!-- md:samp Option_Set -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`set`||
-
+- 枚举类型。单值枚举，请直接使用`set`。
 
 `targets`: <!-- md:samp target -->
 
@@ -66,12 +61,7 @@
 ///// define
 `option`: <!-- md:samp Option_Query -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`query`||
-
+- 枚举类型。单值枚举，请直接使用`query`。
 
 `targets`: <!-- md:samp target -->
 

@@ -41,12 +41,7 @@
 
 `resource`: <!-- md:samp LessonType -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`lesson`||
-
+- 枚举类型。单值枚举，请直接使用`lesson`。
 
 `action`: <!-- md:samp LessonAction -->
 
@@ -82,12 +77,7 @@
 
 `resource`: <!-- md:samp LessonActivityType -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`activity`||
-
+- 枚举类型。单值枚举，请直接使用`activity`。
 
 `id`: <!-- md:samp string -->
 

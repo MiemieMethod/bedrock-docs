@@ -19,12 +19,7 @@
 ///// define
 `action`: <!-- md:samp CameraShakeActionAdd -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `player`: <!-- md:samp target -->
 
@@ -64,12 +59,7 @@
 ///// define
 `action`: <!-- md:samp CameraShakeActionStop -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`stop`||
-
+- 枚举类型。单值枚举，请直接使用`stop`。
 
 `player`: <!-- md:samp target -->
 

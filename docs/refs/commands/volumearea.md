@@ -19,12 +19,7 @@
 ///// define
 `mode`: <!-- md:samp VolumeAreaAdd -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `identifier`: <!-- md:samp string -->
 
@@ -58,12 +53,7 @@
 ///// define
 `mode`: <!-- md:samp VolumeAreaRemove -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`remove`||
-
+- 枚举类型。单值枚举，请直接使用`remove`。
 
 `name`: <!-- md:samp string -->
 
@@ -85,12 +75,7 @@
 ///// define
 `mode`: <!-- md:samp VolumeAreaRemove -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`remove`||
-
+- 枚举类型。单值枚举，请直接使用`remove`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -112,12 +97,7 @@
 ///// define
 `mode`: <!-- md:samp VolumeAreaRemoveAll -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`remove_all`||
-
+- 枚举类型。单值枚举，请直接使用`remove_all`。
 
 
 /////
@@ -135,21 +115,11 @@
 ///// define
 `mode`: <!-- md:samp VolumeAreaList -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`list`||
-
+- 枚举类型。单值枚举，请直接使用`list`。
 
 `all-dimensions`: <!-- md:samp VolumeAreaAllDimensions -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`all-dimensions`||
-
+- 枚举类型。单值枚举，请直接使用`all-dimensions`。
 
 
 /////

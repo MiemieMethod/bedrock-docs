@@ -1080,12 +1080,7 @@
 
 `facing`: <!-- md:samp TeleportFacing -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`facing`||
-
+- 枚举类型。单值枚举，请直接使用`facing`。
 
 `lookAtPosition`: <!-- md:samp x y z -->
 
@@ -1694,12 +1689,7 @@
 
 `facing`: <!-- md:samp TeleportFacing -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`facing`||
-
+- 枚举类型。单值枚举，请直接使用`facing`。
 
 `lookAtEntity`: <!-- md:samp target -->
 

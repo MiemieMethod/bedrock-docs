@@ -19,12 +19,7 @@
 ///// define
 `action`: <!-- md:samp StructureSaveAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`save`||
-
+- 枚举类型。单值枚举，请直接使用`save`。
 
 `name`: <!-- md:samp string -->
 
@@ -64,12 +59,7 @@
 ///// define
 `action`: <!-- md:samp StructureSaveAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`save`||
-
+- 枚举类型。单值枚举，请直接使用`save`。
 
 `name`: <!-- md:samp string -->
 
@@ -129,12 +119,7 @@
 ///// define
 `action`: <!-- md:samp StructureDeleteAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`delete`||
-
+- 枚举类型。单值枚举，请直接使用`delete`。
 
 `name`: <!-- md:samp string -->
 
@@ -156,12 +141,7 @@
 ///// define
 `action`: <!-- md:samp StructureLoadAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`load`||
-
+- 枚举类型。单值枚举，请直接使用`load`。
 
 `name`: <!-- md:samp string -->
 
@@ -249,12 +229,7 @@
 ///// define
 `action`: <!-- md:samp StructureLoadAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`load`||
-
+- 枚举类型。单值枚举，请直接使用`load`。
 
 `name`: <!-- md:samp string -->
 

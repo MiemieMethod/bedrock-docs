@@ -19,12 +19,7 @@
 ///// define
 `subcommand`: <!-- md:samp SubcommandExport -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`export`||
-
+- 枚举类型。单值枚举，请直接使用`export`。
 
 `exportType`: <!-- md:samp ExportTypes -->
 

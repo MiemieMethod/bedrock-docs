@@ -135,12 +135,7 @@
 
 `origin`: <!-- md:samp DamageOriginActor -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`entity`||
-
+- 枚举类型。单值枚举，请直接使用`entity`。
 
 `damager`: <!-- md:samp target -->
 

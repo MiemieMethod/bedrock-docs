@@ -19,12 +19,7 @@
 ///// define
 `setting`: <!-- md:samp BoolSettingName -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`allow-cheats`||
-
+- 枚举类型。单值枚举，请直接使用`allow-cheats`。
 
 `value`: <!-- md:samp Boolean -->
 
@@ -52,12 +47,7 @@
 ///// define
 `setting`: <!-- md:samp DifficultySettingName -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`difficulty`||
-
+- 枚举类型。单值枚举，请直接使用`difficulty`。
 
 `value`: <!-- md:samp Difficulty -->
 
@@ -91,12 +81,7 @@
 ///// define
 `setting`: <!-- md:samp DifficultySettingName -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`difficulty`||
-
+- 枚举类型。单值枚举，请直接使用`difficulty`。
 
 `value`: <!-- md:samp int -->
 

@@ -23,12 +23,7 @@
 
 `mode`: <!-- md:samp RideModeStart -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`start_riding`||
-
+- 枚举类型。单值枚举，请直接使用`start_riding`。
 
 `ride`: <!-- md:samp target -->
 
@@ -74,12 +69,7 @@
 
 `mode`: <!-- md:samp RideModeStop -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`stop_riding`||
-
+- 枚举类型。单值枚举，请直接使用`stop_riding`。
 
 
 /////
@@ -101,12 +91,7 @@
 
 `mode`: <!-- md:samp RideModeEvict -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`evict_riders`||
-
+- 枚举类型。单值枚举，请直接使用`evict_riders`。
 
 
 /////
@@ -128,12 +113,7 @@
 
 `mode`: <!-- md:samp RideModeSummonRider -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`summon_rider`||
-
+- 枚举类型。单值枚举，请直接使用`summon_rider`。
 
 `entityType`: <!-- md:samp EntityType -->
 
@@ -376,12 +356,7 @@
 
 `mode`: <!-- md:samp RideModeSummonRide -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`summon_ride`||
-
+- 枚举类型。单值枚举，请直接使用`summon_ride`。
 
 `entityType`: <!-- md:samp EntityType -->
 

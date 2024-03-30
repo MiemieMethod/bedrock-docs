@@ -19,21 +19,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardObjectivesCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`objectives`||
-
+- 枚举类型。单值枚举，请直接使用`objectives`。
 
 `action`: <!-- md:samp ScoreboardAddAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
@@ -41,12 +31,7 @@
 
 `criteria`: <!-- md:samp ScoreboardCriteria -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`dummy`||
-
+- 枚举类型。单值枚举，请直接使用`dummy`。
 
 `displayName`: <!-- md:samp string -->
 
@@ -68,21 +53,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardObjectivesCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`objectives`||
-
+- 枚举类型。单值枚举，请直接使用`objectives`。
 
 `action`: <!-- md:samp ScoreboardRemoveAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`remove`||
-
+- 枚举类型。单值枚举，请直接使用`remove`。
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
@@ -104,21 +79,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardObjectivesCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`objectives`||
-
+- 枚举类型。单值枚举，请直接使用`objectives`。
 
 `action`: <!-- md:samp ScoreboardListAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`list`||
-
+- 枚举类型。单值枚举，请直接使用`list`。
 
 
 /////
@@ -136,21 +101,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardObjectivesCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`objectives`||
-
+- 枚举类型。单值枚举，请直接使用`objectives`。
 
 `action`: <!-- md:samp ScoreboardSetDisplayAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`setdisplay`||
-
+- 枚举类型。单值枚举，请直接使用`setdisplay`。
 
 `displaySlot`: <!-- md:samp ScoreboardDisplaySlotSortable -->
 
@@ -192,30 +147,15 @@
 ///// define
 `category`: <!-- md:samp ScoreboardObjectivesCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`objectives`||
-
+- 枚举类型。单值枚举，请直接使用`objectives`。
 
 `action`: <!-- md:samp ScoreboardSetDisplayAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`setdisplay`||
-
+- 枚举类型。单值枚举，请直接使用`setdisplay`。
 
 `displaySlot`: <!-- md:samp ScoreboardDisplaySlotNonSortable -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`belowname`||
-
+- 枚举类型。单值枚举，请直接使用`belowname`。
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
@@ -237,21 +177,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardPlayersCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`players`||
-
+- 枚举类型。单值枚举，请直接使用`players`。
 
 `action`: <!-- md:samp ScoreboardListAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`list`||
-
+- 枚举类型。单值枚举，请直接使用`list`。
 
 `playername`: <!-- md:samp target -->
 
@@ -273,21 +203,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardPlayersCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`players`||
-
+- 枚举类型。单值枚举，请直接使用`players`。
 
 `action`: <!-- md:samp ScoreboardResetAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`reset`||
-
+- 枚举类型。单值枚举，请直接使用`reset`。
 
 `player`: <!-- md:samp target -->
 
@@ -313,21 +233,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardPlayersCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`players`||
-
+- 枚举类型。单值枚举，请直接使用`players`。
 
 `action`: <!-- md:samp ScoreboardTestAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`test`||
-
+- 枚举类型。单值枚举，请直接使用`test`。
 
 `player`: <!-- md:samp target -->
 
@@ -361,21 +271,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardPlayersCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`players`||
-
+- 枚举类型。单值枚举，请直接使用`players`。
 
 `action`: <!-- md:samp ScoreboardRandomAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`random`||
-
+- 枚举类型。单值枚举，请直接使用`random`。
 
 `player`: <!-- md:samp target -->
 
@@ -409,12 +309,7 @@
 ///// define
 `category`: <!-- md:samp ScoreboardPlayersCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`players`||
-
+- 枚举类型。单值枚举，请直接使用`players`。
 
 `action`: <!-- md:samp ScoreboardPlayersNumAction -->
 
@@ -455,21 +350,11 @@
 ///// define
 `category`: <!-- md:samp ScoreboardPlayersCategory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`players`||
-
+- 枚举类型。单值枚举，请直接使用`players`。
 
 `action`: <!-- md:samp ScoreboardOperationAction -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`operation`||
-
+- 枚举类型。单值枚举，请直接使用`operation`。
 
 `targetName`: <!-- md:samp target -->
 

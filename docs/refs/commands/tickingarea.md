@@ -19,12 +19,7 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModeAdd -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `from`: <!-- md:samp x y z -->
 
@@ -64,21 +59,11 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModeAdd -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`add`||
-
+- 枚举类型。单值枚举，请直接使用`add`。
 
 `circle`: <!-- md:samp AddTickingAreaType -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`circle`||
-
+- 枚举类型。单值枚举，请直接使用`circle`。
 
 `center`: <!-- md:samp x y z -->
 
@@ -118,12 +103,7 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModeRemove -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`remove`||
-
+- 枚举类型。单值枚举，请直接使用`remove`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -145,12 +125,7 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModeRemove -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`remove`||
-
+- 枚举类型。单值枚举，请直接使用`remove`。
 
 `name`: <!-- md:samp string -->
 
@@ -172,12 +147,7 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModeRemoveAll -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`remove_all`||
-
+- 枚举类型。单值枚举，请直接使用`remove_all`。
 
 
 /////
@@ -195,21 +165,11 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModeList -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`list`||
-
+- 枚举类型。单值枚举，请直接使用`list`。
 
 `all-dimensions`: <!-- md:samp AllDimensions -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`all-dimensions`||
-
+- 枚举类型。单值枚举，请直接使用`all-dimensions`。
 
 
 /////
@@ -227,12 +187,7 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModePreload -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`preload`||
-
+- 枚举类型。单值枚举，请直接使用`preload`。
 
 `position`: <!-- md:samp x y z -->
 
@@ -264,12 +219,7 @@
 ///// define
 `mode`: <!-- md:samp TickingAreaModePreload -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`preload`||
-
+- 枚举类型。单值枚举，请直接使用`preload`。
 
 `name`: <!-- md:samp string -->
 

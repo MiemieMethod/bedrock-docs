@@ -19,12 +19,7 @@
 ///// define
 `give`: <!-- md:samp Give -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`give`||
-
+- 枚举类型。单值枚举，请直接使用`give`。
 
 `player`: <!-- md:samp target -->
 
@@ -1906,12 +1901,7 @@
 ///// define
 `take`: <!-- md:samp Take -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`take`||
-
+- 枚举类型。单值枚举，请直接使用`take`。
 
 `player`: <!-- md:samp target -->
 

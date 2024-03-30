@@ -19,12 +19,7 @@
 ///// define
 `inventory`: <!-- md:samp CodeBuilderActionInventory -->
 
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`inventory`||
-
+- 枚举类型。单值枚举，请直接使用`inventory`。
 
 `targets`: <!-- md:samp target -->
 
