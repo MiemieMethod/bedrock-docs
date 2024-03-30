@@ -4,7 +4,7 @@
 
 `/hud`命令Changes the visibility of hud elements.
 
-/// note | 执行条件
+/// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
 ///
 

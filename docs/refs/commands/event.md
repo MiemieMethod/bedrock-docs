@@ -4,7 +4,7 @@
 
 `/event`命令Triggers an event for the specified object(s)
 
-/// note | 执行条件
+/// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
 ///
 

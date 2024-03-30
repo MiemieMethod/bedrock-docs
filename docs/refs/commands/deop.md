@@ -4,8 +4,8 @@
 
 `/deop`命令Revokes operator status from a player.
 
-/// note | 执行条件
-该命令需要权限等级：`admin,host`|`2`。
+/// settings | 执行条件
+该命令需要权限等级：`admin`|`2`。
 ///
 
 ## 用法

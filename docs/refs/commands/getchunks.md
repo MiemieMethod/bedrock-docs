@@ -4,8 +4,8 @@
 
 `/getchunks`命令Gets list of chunks that are loaded.
 
-/// note | 执行条件
-该命令需要权限等级：`owner`|`3`。该命令需要开启作弊。
+/// settings | 执行条件
+该命令需要权限等级：`host`|`3`。该命令需要开启作弊。
 ///
 
 ## 用法

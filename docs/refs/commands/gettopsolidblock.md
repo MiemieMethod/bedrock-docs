@@ -4,7 +4,7 @@
 
 `/gettopsolidblock`命令Gets the position of the top non-air block below the specified position
 
-/// note | 执行条件
+/// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
 ///
 

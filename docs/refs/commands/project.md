@@ -4,7 +4,7 @@
 
 `/project`命令Manipulate the currently loaded project
 
-/// note | 执行条件
+/// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。
 ///
 
