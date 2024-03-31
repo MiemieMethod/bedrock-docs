@@ -175,7 +175,7 @@ def _badge_for_version_range(args: str, page: Page, files: Files):
     else:
         text1 = f"`{text1}`＜"
     if right == "true":
-        text2 = f"≤`{text2}"
+        text2 = f"≤`{text2}`"
     else:
         text2 = f"＜`{text2}`"
 
