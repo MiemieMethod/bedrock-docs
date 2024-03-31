@@ -135,6 +135,10 @@
 |`closewebsocket`||
 |`enableencryption`||
 |`script`||
+|`closechat`||
+|`geteduclientinfo`||
+|`getlocalplayername`||
+|`gametips`||
 
 
 

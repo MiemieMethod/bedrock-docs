@@ -132,6 +132,176 @@
 
 ///
 
+/// tab | 重载4
+```mcfunction
+/structure load <name:string> <to:x y z> [rotation:Rotation] [mirror:Mirror] [includeEntities:Boolean] [includeBlocks:Boolean] [integrity:float] [seed:string]
+```
+
+//// html | div.result
+///// define
+`action`: <!-- md:samp StructureLoadAction -->
+
+- 枚举类型。单值枚举，请直接使用`load`。
+
+`name`: <!-- md:samp string -->
+
+- 基本类型。
+
+`to`: <!-- md:samp x y z -->
+
+- 基本类型。
+
+`rotation`: <!-- md:samp Rotation -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`0_degrees`||
+|`90_degrees`||
+|`180_degrees`||
+|`270_degrees`||
+
+
+`mirror`: <!-- md:samp Mirror -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`x`||
+|`z`||
+|`none`||
+|`xz`||
+
+
+`includeEntities`: <!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`true`||
+|`false`||
+
+
+`includeBlocks`: <!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`true`||
+|`false`||
+
+
+`integrity`: <!-- md:samp float -->
+
+- 基本类型。
+
+`seed`: <!-- md:samp string -->
+
+- 基本类型。
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载5
+```mcfunction
+/structure load <name:string> <to:x y z> [rotation:Rotation] [mirror:Mirror] [animationMode:StructureAnimationMode] [animationSeconds:float] [includeEntities:Boolean] [includeBlocks:Boolean] [integrity:float] [seed:string]
+```
+
+//// html | div.result
+///// define
+`action`: <!-- md:samp StructureLoadAction -->
+
+- 枚举类型。单值枚举，请直接使用`load`。
+
+`name`: <!-- md:samp string -->
+
+- 基本类型。
+
+`to`: <!-- md:samp x y z -->
+
+- 基本类型。
+
+`rotation`: <!-- md:samp Rotation -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`0_degrees`||
+|`90_degrees`||
+|`180_degrees`||
+|`270_degrees`||
+
+
+`mirror`: <!-- md:samp Mirror -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`x`||
+|`z`||
+|`none`||
+|`xz`||
+
+
+`animationMode`: <!-- md:samp StructureAnimationMode -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`block_by_block`||
+|`layer_by_layer`||
+
+
+`animationSeconds`: <!-- md:samp float -->
+
+- 基本类型。
+
+`includeEntities`: <!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`true`||
+|`false`||
+
+
+`includeBlocks`: <!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`true`||
+|`false`||
+
+
+`integrity`: <!-- md:samp float -->
+
+- 基本类型。
+
+`seed`: <!-- md:samp string -->
+
+- 基本类型。
+
+
+/////
+
+////
+
+///
+
 /// tab | 重载6
 ```mcfunction
 /structure load <name:string> <to:x y z> [rotation:Rotation] [mirror:Mirror] [includeEntities:Boolean] [includeBlocks:Boolean] [waterlogged:Boolean] [integrity:float] [seed:string]

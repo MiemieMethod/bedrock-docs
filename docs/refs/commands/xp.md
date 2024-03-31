@@ -34,14 +34,14 @@
 
 /// tab | 重载2
 ```mcfunction
-/xp <amount:postfix_l>L [player:target]
+/xp <amount:int>L [player:target]
 ```
 
 //// html | div.result
 ///// define
-`amount`: <!-- md:samp postfix_l -->
+`amount`: <!-- md:samp int -->
 
-- 后固定类型。
+- 后缀类型。后缀为`L`。
 
 `player`: <!-- md:samp target -->
 

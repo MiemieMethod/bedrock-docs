@@ -442,6 +442,7 @@ nav:
         - <code>clearrealmevents</code>: refs/commands/clearrealmevents.md
         - <code>clearspawnpoint</code>: refs/commands/clearspawnpoint.md
         - <code>clone</code>: refs/commands/clone.md
+        - <code>closechat</code>: refs/commands/closechat.md
         - <code>closewebsocket</code>: refs/commands/closewebsocket.md
         - <code>codebuilder</code>: refs/commands/codebuilder.md
         - <code>codebuilder_actorinfo</code>: refs/commands/codebuilder_actorinfo.md
@@ -462,9 +463,12 @@ nav:
         - <code>gamemode</code>: refs/commands/gamemode.md
         - <code>gamerule</code>: refs/commands/gamerule.md
         - <code>gametest</code>: refs/commands/gametest.md
+        - <code>gametips</code>: refs/commands/gametips.md
         - <code>getchunkdata</code>: refs/commands/getchunkdata.md
         - <code>getchunks</code>: refs/commands/getchunks.md
+        - <code>geteduclientinfo</code>: refs/commands/geteduclientinfo.md
         - <code>geteduserverinfo</code>: refs/commands/geteduserverinfo.md
+        - <code>getlocalplayername</code>: refs/commands/getlocalplayername.md
         - <code>getspawnpoint</code>: refs/commands/getspawnpoint.md
         - <code>gettopsolidblock</code>: refs/commands/gettopsolidblock.md
         - <code>give</code>: refs/commands/give.md

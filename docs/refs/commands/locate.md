@@ -10,6 +10,61 @@
 
 ## 用法
 
+/// tab | 重载1
+```mcfunction
+/locate <feature:Structure> [useNewChunksOnly:Boolean]
+```
+
+//// html | div.result
+///// define
+`feature`: <!-- md:samp Structure -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`end_city`||
+|`fortress`||
+|`mineshaft`||
+|`monument`||
+|`stronghold`||
+|`temple`||
+|`village`||
+|`mansion`||
+|`shipwreck`||
+|`buried_treasure`||
+|`ruins`||
+|`pillager_outpost`||
+|`ruined_portal`||
+|`bastion_remnant`||
+|`ancient_city`||
+|`trail_ruins`||
+|`trial_chambers`||
+|`ancientcity`||
+|`bastionremnant`||
+|`buriedtreasure`||
+|`endcity`||
+|`pillageroutpost`||
+|`ruinedportal`||
+
+
+`useNewChunksOnly`: <!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`true`||
+|`false`||
+
+
+
+/////
+
+////
+
+///
+
 /// tab | 重载2
 ```mcfunction
 /locate structure <structure:Structure> [useNewChunksOnly:Boolean]

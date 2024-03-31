@@ -57,6 +57,53 @@
 
 ///
 
+/// tab | 重载2
+```mcfunction
+/clone <begin:x y z> <end:x y z> <destination:x y z> [maskMode:MaskMode] [cloneMode:CloneMode]
+```
+
+//// html | div.result
+///// define
+`begin`: <!-- md:samp x y z -->
+
+- 基本类型。
+
+`end`: <!-- md:samp x y z -->
+
+- 基本类型。
+
+`destination`: <!-- md:samp x y z -->
+
+- 基本类型。
+
+`maskMode`: <!-- md:samp MaskMode -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`replace`||
+|`masked`||
+
+
+`cloneMode`: <!-- md:samp CloneMode -->
+
+- 枚举类型。枚举值如下：
+
+|值|描述|
+|---|---|
+|`normal`||
+|`force`||
+|`move`||
+
+
+
+/////
+
+////
+
+///
+
 /// tab | 重载3
 ```mcfunction
 /clone <begin:x y z> <end:x y z> <destination:x y z> filtered <cloneMode:CloneMode> <tileName:Block> [blockStates:block states]

@@ -41,7 +41,7 @@
 
 `testName`: <!-- md:samp GameTestName -->
 
-- 基本类型。
+- 软枚举类型。
 
 `rotationSteps`: <!-- md:samp int -->
 
@@ -67,7 +67,7 @@
 
 `testName`: <!-- md:samp GameTestName -->
 
-- 基本类型。
+- 软枚举类型。
 
 `stopOnFailure`: <!-- md:samp Boolean -->
 
@@ -107,7 +107,7 @@
 
 `tag`: <!-- md:samp GameTestTag -->
 
-- 基本类型。
+- 软枚举类型。
 
 `rotationSteps`: <!-- md:samp int -->
 
@@ -133,7 +133,7 @@
 
 `tag`: <!-- md:samp GameTestTag -->
 
-- 基本类型。
+- 软枚举类型。
 
 `rotationSteps`: <!-- md:samp int -->
 

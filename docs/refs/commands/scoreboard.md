@@ -27,7 +27,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 `criteria`: <!-- md:samp ScoreboardCriteria -->
 
@@ -61,7 +61,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 
 /////
@@ -119,7 +119,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 `sortOrder`: <!-- md:samp ScoreboardSortOrder -->
 
@@ -159,7 +159,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 
 /////
@@ -215,7 +215,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 
 /////
@@ -245,7 +245,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 `min`: <!-- md:samp wildcard int -->
 
@@ -283,7 +283,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 `min`: <!-- md:samp int -->
 
@@ -328,7 +328,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 `count`: <!-- md:samp int -->
 
@@ -362,7 +362,7 @@
 
 `targetObjective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 `operation`: <!-- md:samp operator -->
 
@@ -374,7 +374,7 @@
 
 `objective`: <!-- md:samp ScoreboardObjectives -->
 
-- 基本类型。
+- 软枚举类型。
 
 
 /////
