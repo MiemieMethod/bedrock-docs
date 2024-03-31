@@ -39,7 +39,7 @@
 
 //// html | div.result
 ///// define
-`amount`: <!-- md:samp int -->
+`amount`: <!-- md:samp l -->
 
 - 后缀类型。后缀为`L`。
 

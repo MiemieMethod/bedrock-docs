@@ -9201,7 +9201,7 @@
 
 /// tab | 重载19
 ```mcfunction
-/execute <subcommand:Option_If_Unless> score <target:target> <objective:ScoreboardObjectives> <operation:compare operator> <source:target> <objective:ScoreboardObjectives> [chainedCommand:EXECUTECHAINEDOPTION_0]
+/execute <subcommand:Option_If_Unless> score <target:target> <objective:string> <operation:compare operator> <source:target> <objective:string> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
 
 //// html | div.result
@@ -9250,7 +9250,7 @@
 
 /// tab | 重载20
 ```mcfunction
-/execute <subcommand:Option_If_Unless> score <target:target> <objective:ScoreboardObjectives> matches <range:integer range> [chainedCommand:EXECUTECHAINEDOPTION_0]
+/execute <subcommand:Option_If_Unless> score <target:target> <objective:string> matches <range:integer range> [chainedCommand:EXECUTECHAINEDOPTION_0]
 ```
 
 //// html | div.result

@@ -12,7 +12,7 @@
 
 /// tab | 重载1
 ```mcfunction
-/scoreboard objectives add <objective:ScoreboardObjectives> dummy [displayName:string]
+/scoreboard objectives add <objective:string> dummy [displayName:string]
 ```
 
 //// html | div.result
@@ -46,7 +46,7 @@
 
 /// tab | 重载2
 ```mcfunction
-/scoreboard objectives remove <objective:ScoreboardObjectives>
+/scoreboard objectives remove <objective:string>
 ```
 
 //// html | div.result
@@ -94,7 +94,7 @@
 
 /// tab | 重载4
 ```mcfunction
-/scoreboard objectives setdisplay <displaySlot:ScoreboardDisplaySlotSortable> [objective:ScoreboardObjectives] [sortOrder:ScoreboardSortOrder]
+/scoreboard objectives setdisplay <displaySlot:ScoreboardDisplaySlotSortable> [objective:string] [sortOrder:ScoreboardSortOrder]
 ```
 
 //// html | div.result
@@ -140,7 +140,7 @@
 
 /// tab | 重载5
 ```mcfunction
-/scoreboard objectives setdisplay belowname [objective:ScoreboardObjectives]
+/scoreboard objectives setdisplay belowname [objective:string]
 ```
 
 //// html | div.result
@@ -196,7 +196,7 @@
 
 /// tab | 重载7
 ```mcfunction
-/scoreboard players reset <player:target> [objective:ScoreboardObjectives]
+/scoreboard players reset <player:target> [objective:string]
 ```
 
 //// html | div.result
@@ -226,7 +226,7 @@
 
 /// tab | 重载8
 ```mcfunction
-/scoreboard players test <player:target> <objective:ScoreboardObjectives> <min:wildcard int> [max:wildcard int]
+/scoreboard players test <player:target> <objective:string> <min:wildcard int> [max:wildcard int]
 ```
 
 //// html | div.result
@@ -264,7 +264,7 @@
 
 /// tab | 重载9
 ```mcfunction
-/scoreboard players random <player:target> <objective:ScoreboardObjectives> <min:int> <max:int>
+/scoreboard players random <player:target> <objective:string> <min:int> <max:int>
 ```
 
 //// html | div.result
@@ -302,7 +302,7 @@
 
 /// tab | 重载10
 ```mcfunction
-/scoreboard players <action:ScoreboardPlayersNumAction> <player:target> <objective:ScoreboardObjectives> <count:int>
+/scoreboard players <action:ScoreboardPlayersNumAction> <player:target> <objective:string> <count:int>
 ```
 
 //// html | div.result
@@ -343,7 +343,7 @@
 
 /// tab | 重载11
 ```mcfunction
-/scoreboard players operation <targetName:target> <targetObjective:ScoreboardObjectives> <operation:operator> <selector:target> <objective:ScoreboardObjectives>
+/scoreboard players operation <targetName:target> <targetObjective:string> <operation:operator> <selector:target> <objective:string>
 ```
 
 //// html | div.result

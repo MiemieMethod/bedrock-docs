@@ -30,7 +30,7 @@
 
 /// tab | 重载2
 ```mcfunction
-/gametest run <testName:GameTestName> [rotationSteps:int]
+/gametest run <testName:string> [rotationSteps:int]
 ```
 
 //// html | div.result
@@ -56,7 +56,7 @@
 
 /// tab | 重载3
 ```mcfunction
-/gametest run <testName:GameTestName> <stopOnFailure:Boolean> <repeatCount:int> [rotationSteps:int]
+/gametest run <testName:string> <stopOnFailure:Boolean> <repeatCount:int> [rotationSteps:int]
 ```
 
 //// html | div.result
@@ -96,7 +96,7 @@
 
 /// tab | 重载4
 ```mcfunction
-/gametest runset [tag:GameTestTag] [rotationSteps:int]
+/gametest runset [tag:string] [rotationSteps:int]
 ```
 
 //// html | div.result
@@ -122,7 +122,7 @@
 
 /// tab | 重载5
 ```mcfunction
-/gametest runsetuntilfail [tag:GameTestTag] [rotationSteps:int]
+/gametest runsetuntilfail [tag:string] [rotationSteps:int]
 ```
 
 //// html | div.result

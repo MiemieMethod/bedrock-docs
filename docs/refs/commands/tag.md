@@ -12,7 +12,7 @@
 
 /// tab | 重载1
 ```mcfunction
-/tag <entity:target> <action:TagChangeAction> <name:TagValues>
+/tag <entity:target> <action:TagChangeAction> <name:string>
 ```
 
 //// html | div.result
