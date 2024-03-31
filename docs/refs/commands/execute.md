@@ -16,6 +16,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange * 24 true true -->
 ///// define
 `origin`: <!-- md:samp target -->
 
@@ -42,6 +43,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange * 24 true true -->
 ///// define
 `origin`: <!-- md:samp target -->
 
@@ -2224,6 +2226,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_As -->
 
@@ -2250,6 +2253,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_At -->
 
@@ -2276,6 +2280,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_In -->
 
@@ -2309,6 +2314,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Positioned -->
 
@@ -2335,6 +2341,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Positioned -->
 
@@ -2365,6 +2372,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Rotated -->
 
@@ -2395,6 +2403,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Rotated -->
 
@@ -2425,6 +2434,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Facing -->
 
@@ -2451,6 +2461,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Facing -->
 
@@ -2491,6 +2502,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Align -->
 
@@ -2517,6 +2529,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Anchored -->
 
@@ -2549,6 +2562,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_If_Unless -->
 
@@ -4729,6 +4743,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_If_Unless -->
 
@@ -6913,6 +6928,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 28 true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_If_Unless -->
 
@@ -9097,6 +9113,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_If_Unless -->
 
@@ -9151,6 +9168,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_If_Unless -->
 
@@ -9187,6 +9205,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_If_Unless -->
 
@@ -9235,6 +9254,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_If_Unless -->
 
@@ -9283,6 +9303,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange 25 * true true -->
 ///// define
 `subcommand`: <!-- md:samp Option_Run -->
 

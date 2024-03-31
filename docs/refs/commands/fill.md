@@ -16,6 +16,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange * 28 true true -->
 ///// define
 `from`: <!-- md:samp x y z -->
 
@@ -2198,6 +2199,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange * 28 true true -->
 ///// define
 `from`: <!-- md:samp x y z -->
 

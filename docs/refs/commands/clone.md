@@ -63,6 +63,7 @@
 ```
 
 //// html | div.result
+<!-- md:versionrange * 28 true true -->
 ///// define
 `begin`: <!-- md:samp x y z -->
 

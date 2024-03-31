@@ -46,6 +46,7 @@ def on_page_markdown(
                 return _badge_for_version_insiders(args, page, files)
             else:
                 return _badge_for_version(args, page, files)
+        elif type == "versionrange":         return _badge_for_version_range(args, page, files)
         # elif type == "sponsors":     return _badge_for_sponsors(page, files)
         elif type == "flag":         return flag(args, page, files)
         elif type == "option":       return option(args)
@@ -128,6 +129,16 @@ def _badge(icon: str, text: str = "", type: str = ""):
         f"</span>",
     ])
 
+def _double_badge(icon: str, text1: str = "", text2: str = "", type: str = ""):
+    classes = f"mdx-badge mdx-badge--{type}" if type else "mdx-badge"
+    return "".join([
+        f"<span class=\"{classes}\">",
+        *([f"<span class=\"mdx-badge__text\">{text1}</span>"] if text1 else []),
+        *([f"<span class=\"mdx-badge__icon\">{icon}</span>"] if icon else []),
+        *([f"<span class=\"mdx-badge__text\">{text2}</span>"] if text2 else []),
+        f"</span>",
+    ])
+
 # Create sponsors badge
 def _badge_for_sponsors(page: Page, files: Files):
     icon = "material-heart"
@@ -148,6 +159,33 @@ def _badge_for_version(text: str, page: Page, files: Files):
     return _badge(
         icon = f"[:{icon}:]({href} '最小版本')",
         text = f"[{text}]({_resolve_path(path, page, files)})" if spec else ""
+    )
+
+def _badge_for_version_range(args: str, page: Page, files: Files):
+    text1, text2, left, right, *_ = args.split(" ")
+    spec1 = True
+    spec2 = True
+    if text1 == '*':
+        spec1 = False
+    if text2 == '*':
+        spec2 = False
+
+    if left == "true":
+        text1 = f"`{text1}`≤"
+    else:
+        text1 = f"`{text1}`＜"
+    if right == "true":
+        text2 = f"≤`{text2}"
+    else:
+        text2 = f"＜`{text2}`"
+
+    # Return badge
+    icon = "material-tag-check-outline"
+    href = _resolve_path("contributing.md#version", page, files)
+    return _double_badge(
+        icon = f"[:{icon}:]({href} '版本区间')",
+        text1 = f"{text1}" if spec1 else "",
+        text2 = f"{text2}" if spec2 else ""
     )
 
 # Create badge for version of Insiders
