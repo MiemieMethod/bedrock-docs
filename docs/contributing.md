@@ -1040,13 +1040,13 @@ rankdir = LR
 
 仿照[Material for MkDocs的约定](https://squidfunk.github.io/mkdocs-material/conventions/)，本站支持了一些符号。可用符号如下：
 
-| 名称  | 语法                                                                                                                | 效果                                                                                                      |
-|-----|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 版本  | `<!-/- md:version 1.20.0 -->`<br/>`<!-/- md:versionrange 1.12.0 1.20.0 true false -->`                            | <!-- md:version 1.20.0 --><br/><!-- md:versionrange 1.12.0 1.20.0 true false -->  { #version }          |
-| 可选  | `<!-/- md:optional 注释 -->`                                                                                        | <!-- md:optional 注释 -->  { #optional }                                                                  |
+| 名称  | 语法                                                                                                                 | 效果                                                                                                       |
+|-----|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| 版本  | `<!-/- md:version 1.20.0 -->`<br/>`<!-/- md:version range 1.12.0 1.20.0 true false -->`                            | <!-- md:version 1.20.0 --><br/><!-- md:version range 1.12.0 1.20.0 true false -->  { #version }          |
+| 可选  | `<!-/- md:optional 注释 -->`                                                                                         | <!-- md:optional 注释 -->  { #optional }                                                                   |
 | 默认  | `<!-/- md:default none -->`<br/>`<!-/- md:default computed -->`<br/><code><!-\- md:default \`default\` -\-></code> | <!-- md:default none --><br/><!-- md:default computed --><br/><!-- md:default `default` --> { #default } |
-| 必选  | `<!-/- md:flag required -->`                                                                                      | <!-- md:flag required --> { #flag }                                                                     |
-| 实验性 | `<!-/- md:flag experimental -->`                                                                                  | <!-- md:flag experimental -->                                                                           |
+| 必选  | `<!-/- md:flag required -->`                                                                                       | <!-- md:flag required --> { #flag }                                                                      |
+| 实验性 | `<!-/- md:flag experimental -->`                                                                                   | <!-- md:flag experimental -->                                                                            |
 
 此外，还有两种快捷输出参数名的符号：
 

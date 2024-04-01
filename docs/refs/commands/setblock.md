@@ -16,7 +16,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange * 28 true true -->
+<!-- md:version command * 28 true true -->
 ///// define
 `position`: <!-- md:samp x y z -->
 

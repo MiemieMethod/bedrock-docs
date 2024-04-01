@@ -16,7 +16,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange * 21 true true -->
+<!-- md:version command * 21 true true -->
 ///// define
 `feature`: <!-- md:samp Structure -->
 
@@ -72,7 +72,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange 21 * true true -->
+<!-- md:version command 21 * true true -->
 ///// define
 `subcommand`: <!-- md:samp LocateSubcommandStructure -->
 
@@ -132,7 +132,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange 21 * true true -->
+<!-- md:version command 21 * true true -->
 ///// define
 `subcommand`: <!-- md:samp LocateSubcommandBiome -->
 

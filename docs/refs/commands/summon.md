@@ -16,7 +16,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange * 30 true true -->
+<!-- md:version command * 30 true true -->
 ///// define
 `entityType`: <!-- md:samp EntityType -->
 
@@ -618,7 +618,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange 31 * true true -->
+<!-- md:version command 31 * true true -->
 ///// define
 `entityType`: <!-- md:samp EntityType -->
 
@@ -1463,7 +1463,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange 31 * true true -->
+<!-- md:version command 31 * true true -->
 ///// define
 `entityType`: <!-- md:samp EntityType -->
 
@@ -2073,7 +2073,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange 31 * true true -->
+<!-- md:version command 31 * true true -->
 ///// define
 `entityType`: <!-- md:samp EntityType -->
 

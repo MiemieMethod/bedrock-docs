@@ -41,12 +41,7 @@ def on_page_markdown(
     def replace(match: Match):
         type, args = match.groups()
         args = args.strip()
-        if type == "version":
-            if args.startswith("insiders-"):
-                return _badge_for_version_insiders(args, page, files)
-            else:
-                return _badge_for_version(args, page, files)
-        elif type == "versionrange":         return _badge_for_version_range(args, page, files)
+        if type == "version":        return version(args, page, files)
         # elif type == "sponsors":     return _badge_for_sponsors(page, files)
         elif type == "flag":         return flag(args, page, files)
         elif type == "option":       return option(args)
@@ -149,6 +144,17 @@ def _badge_for_sponsors(page: Page, files: Files):
     )
 
 # Create badge for version
+def version(args: str, page: Page, files: Files):
+    if len(args.split(" ")) == 1:
+        return _badge_for_version(args, page, files)
+    type, *nextArgs = args.split(" ")
+    nextArgs = " ".join(nextArgs)
+    if   type == "range":   return _badge_for_version_range(nextArgs, page, files)
+    elif type == "command": return _badge_for_version_range(nextArgs, page, files, '命令版本')
+    elif type == "engine":  return _badge_for_version_range(nextArgs, page, files, '最低引擎版本')
+    elif type == "format":  return _badge_for_version_range(nextArgs, page, files, '格式版本')
+    raise RuntimeError(f"Unknown type: {type}")
+
 def _badge_for_version(text: str, page: Page, files: Files):
     spec = text
     path = f"index.md#{spec}"
@@ -161,7 +167,7 @@ def _badge_for_version(text: str, page: Page, files: Files):
         text = f"[{text}]({_resolve_path(path, page, files)})" if spec else ""
     )
 
-def _badge_for_version_range(args: str, page: Page, files: Files):
+def _badge_for_version_range(args: str, page: Page, files: Files, iconText: str = "版本区间"):
     text1, text2, left, right, *_ = args.split(" ")
     spec1 = True
     spec2 = True
@@ -183,7 +189,7 @@ def _badge_for_version_range(args: str, page: Page, files: Files):
     icon = "material-tag-check-outline"
     href = _resolve_path("contributing.md#version", page, files)
     return _double_badge(
-        icon = f"[:{icon}:]({href} '版本区间')",
+        icon = f"[:{icon}:]({href} '{iconText}')",
         text1 = f"{text1}" if spec1 else "",
         text2 = f"{text2}" if spec2 else ""
     )

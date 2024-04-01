@@ -138,7 +138,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange * 21 true true -->
+<!-- md:version command * 21 true true -->
 ///// define
 `action`: <!-- md:samp StructureLoadAction -->
 
@@ -217,7 +217,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange * 21 true true -->
+<!-- md:version command * 21 true true -->
 ///// define
 `action`: <!-- md:samp StructureLoadAction -->
 
@@ -310,7 +310,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange 22 * true true -->
+<!-- md:version command 22 * true true -->
 ///// define
 `action`: <!-- md:samp StructureLoadAction -->
 
@@ -399,7 +399,7 @@
 ```
 
 //// html | div.result
-<!-- md:versionrange 22 * true true -->
+<!-- md:version command 22 * true true -->
 ///// define
 `action`: <!-- md:samp StructureLoadAction -->
 
