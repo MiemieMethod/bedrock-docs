@@ -153,6 +153,7 @@ def version(args: str, page: Page, files: Files):
     elif type == "command": return _badge_for_version_range(nextArgs, page, files, '命令版本')
     elif type == "engine":  return _badge_for_version_range(nextArgs, page, files, '最低引擎版本')
     elif type == "format":  return _badge_for_version_range(nextArgs, page, files, '格式版本')
+    elif type == "game":    return _badge_for_version_range(nextArgs, page, files, '基游戏版本')
     raise RuntimeError(f"Unknown type: {type}")
 
 def _badge_for_version(text: str, page: Page, files: Files):
