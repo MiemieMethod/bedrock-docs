@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph DataItem {
 	graph [rankdir=LR];
 	{

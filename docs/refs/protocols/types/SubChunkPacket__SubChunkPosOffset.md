@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "SubChunkPacket::SubChunkPosOffset" {
 	graph [rankdir=LR];
 	{

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_\
 ptr<class DataItem,struct std::default_delete<class DataItem> > > >" {
 	graph [rankdir=LR];

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph SetTitlePacket {
 	graph [rankdir=LR];
 	{

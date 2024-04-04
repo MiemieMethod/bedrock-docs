@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "std::optional<enum CameraPreset::AudioListener>" {
 	graph [rankdir=LR];
 	{

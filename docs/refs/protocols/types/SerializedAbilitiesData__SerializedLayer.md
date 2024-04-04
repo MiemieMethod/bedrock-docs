@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "SerializedAbilitiesData::SerializedLayer" {
 	graph [rankdir=LR];
 	{

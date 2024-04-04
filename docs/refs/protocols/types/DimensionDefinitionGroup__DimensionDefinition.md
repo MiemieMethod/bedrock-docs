@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "DimensionDefinitionGroup::DimensionDefinition" {
 	graph [rankdir=LR];
 	{

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph LevelSoundEventPacketV2 {
 	graph [rankdir=LR];
 	{

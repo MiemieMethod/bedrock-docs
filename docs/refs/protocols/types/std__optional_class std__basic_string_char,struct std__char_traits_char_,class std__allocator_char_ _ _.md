@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >" {
 	graph [rankdir=LR];
 	{

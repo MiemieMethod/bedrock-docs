@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph Vec3 {
 	graph [rankdir=LR];
 	{

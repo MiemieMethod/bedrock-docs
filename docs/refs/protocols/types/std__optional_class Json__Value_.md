@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "std::optional<class Json::Value>" {
 	graph [rankdir=LR];
 	{

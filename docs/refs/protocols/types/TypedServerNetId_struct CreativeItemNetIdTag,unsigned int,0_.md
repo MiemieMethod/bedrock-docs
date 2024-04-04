@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph "TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>" {
 	graph [rankdir=LR];
 	{

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph EditorNetworkPacket {
 	graph [rankdir=LR];
 	{

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph PlayerBlockActions {
 	graph [rankdir=LR];
 	{
