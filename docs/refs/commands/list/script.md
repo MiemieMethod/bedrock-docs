@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp ScriptDebugModeProfiler -->
+`mode`：<!-- md:samp ScriptDebugModeProfiler -->
 
 - 枚举类型。单值枚举，请直接使用`profiler`。
 
-`action`: <!-- md:samp ScriptProfilerStart -->
+`action`：<!-- md:samp ScriptProfilerStart -->
 
 - 枚举类型。单值枚举，请直接使用`start`。
 
@@ -39,11 +39,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp ScriptDebugModeProfiler -->
+`mode`：<!-- md:samp ScriptDebugModeProfiler -->
 
 - 枚举类型。单值枚举，请直接使用`profiler`。
 
-`action`: <!-- md:samp ScriptProfilerStop -->
+`action`：<!-- md:samp ScriptProfilerStop -->
 
 - 枚举类型。单值枚举，请直接使用`stop`。
 
@@ -61,11 +61,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp ScriptDebugModeWatchdog -->
+`mode`：<!-- md:samp ScriptDebugModeWatchdog -->
 
 - 枚举类型。单值枚举，请直接使用`watchdog`。
 
-`action`: <!-- md:samp ScriptWatchdogDumpMemory -->
+`action`：<!-- md:samp ScriptWatchdogDumpMemory -->
 
 - 枚举类型。单值枚举，请直接使用`exportstats`。
 

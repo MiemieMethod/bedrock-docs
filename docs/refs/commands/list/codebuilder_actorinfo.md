@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`inventory`: <!-- md:samp CodeBuilderActionInventory -->
+`inventory`：<!-- md:samp CodeBuilderActionInventory -->
 
 - 枚举类型。单值枚举，请直接使用`inventory`。
 
-`targets`: <!-- md:samp target -->
+`targets`：<!-- md:samp target -->
 
 - 基本类型。
 

@@ -31,7 +31,7 @@
 
 //// html | div.result
 ///// define
-`cmd`: <!-- md:samp ResourceActionClear -->
+`cmd`：<!-- md:samp ResourceActionClear -->
 
 - 枚举类型。单值枚举，请直接使用`clear`。
 
@@ -49,11 +49,11 @@
 
 //// html | div.result
 ///// define
-`cmd`: <!-- md:samp ResourceActionDefault -->
+`cmd`：<!-- md:samp ResourceActionDefault -->
 
 - 枚举类型。单值枚举，请直接使用`default`。
 
-`uri`: <!-- md:samp text -->
+`uri`：<!-- md:samp text -->
 
 - 基本类型。
 
@@ -71,15 +71,15 @@
 
 //// html | div.result
 ///// define
-`cmd`: <!-- md:samp ResourceActionNamed -->
+`cmd`：<!-- md:samp ResourceActionNamed -->
 
 - 枚举类型。单值枚举，请直接使用`named`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`uri`: <!-- md:samp text -->
+`uri`：<!-- md:samp text -->
 
 - 基本类型。
 

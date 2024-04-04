@@ -17,40 +17,40 @@
 
 //// html | div.result
 ///// define
-`target`: <!-- md:samp target -->
+`target`：<!-- md:samp target -->
 
 - 基本类型。
 
-`visible`: <!-- md:samp HudVisibility -->
+`visible`：<!-- md:samp HudVisibility -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`hide`||
-|`reset`||
+  |值|描述|
+  |---|---|
+  |`hide`||
+  |`reset`||
 
 
-`hud_element`: <!-- md:samp HudElement -->
+`hud_element`：<!-- md:samp HudElement -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`hunger`||
-|`all`||
-|`paperdoll`||
-|`armor`||
-|`tooltips`||
-|`touch_controls`||
-|`crosshair`||
-|`hotbar`||
-|`health`||
-|`progress_bar`||
-|`air_bubbles`||
-|`horse_health`||
-|`status_effects`||
-|`item_text`||
+  |值|描述|
+  |---|---|
+  |`hunger`||
+  |`all`||
+  |`paperdoll`||
+  |`armor`||
+  |`tooltips`||
+  |`touch_controls`||
+  |`crosshair`||
+  |`hotbar`||
+  |`health`||
+  |`progress_bar`||
+  |`air_bubbles`||
+  |`horse_health`||
+  |`status_effects`||
+  |`item_text`||
 
 
 

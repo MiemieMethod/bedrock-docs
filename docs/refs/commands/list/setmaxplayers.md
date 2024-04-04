@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`maxPlayers`: <!-- md:samp int -->
+`maxPlayers`：<!-- md:samp int -->
 
 - 基本类型。
 

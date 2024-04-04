@@ -17,15 +17,15 @@
 
 //// html | div.result
 ///// define
-`pfidOrMSA`: <!-- md:samp string -->
+`pfidOrMSA`：<!-- md:samp string -->
 
 - 基本类型。
 
-`server`: <!-- md:samp string -->
+`server`：<!-- md:samp string -->
 
 - 基本类型。
 
-`port`: <!-- md:samp int -->
+`port`：<!-- md:samp int -->
 
 - 基本类型。
 

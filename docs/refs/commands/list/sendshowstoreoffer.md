@@ -17,21 +17,21 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`redirectType`: <!-- md:samp RedirectLocation -->
+`redirectType`：<!-- md:samp RedirectLocation -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`marketplace`||
-|`character`||
+  |值|描述|
+  |---|---|
+  |`marketplace`||
+  |`character`||
 
 
-`offerId`: <!-- md:samp string -->
+`offerId`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -49,11 +49,11 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`redirectType`: <!-- md:samp 3PServerOfferList -->
+`redirectType`：<!-- md:samp 3PServerOfferList -->
 
 - 枚举类型。单值枚举，请直接使用`server`。
 

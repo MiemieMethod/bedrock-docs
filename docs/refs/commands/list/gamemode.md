@@ -17,24 +17,24 @@
 
 //// html | div.result
 ///// define
-`gameMode`: <!-- md:samp GameMode -->
+`gameMode`：<!-- md:samp GameMode -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`default`||
-|`creative`||
-|`spectator`||
-|`survival`||
-|`adventure`||
-|`d`||
-|`c`||
-|`s`||
-|`a`||
+  |值|描述|
+  |---|---|
+  |`default`||
+  |`creative`||
+  |`spectator`||
+  |`survival`||
+  |`adventure`||
+  |`d`||
+  |`c`||
+  |`s`||
+  |`a`||
 
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -52,11 +52,11 @@
 
 //// html | div.result
 ///// define
-`gameMode`: <!-- md:samp int -->
+`gameMode`：<!-- md:samp int -->
 
 - 基本类型。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 

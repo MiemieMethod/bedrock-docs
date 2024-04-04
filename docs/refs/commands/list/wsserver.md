@@ -21,7 +21,7 @@
 
 //// html | div.result
 ///// define
-`serverUri`: <!-- md:samp text -->
+`serverUri`：<!-- md:samp text -->
 
 - 基本类型。
 

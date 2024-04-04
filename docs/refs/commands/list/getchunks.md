@@ -17,15 +17,15 @@
 
 //// html | div.result
 ///// define
-`dimension`: <!-- md:samp Dimension -->
+`dimension`：<!-- md:samp Dimension -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`overworld`||
-|`nether`||
-|`the_end`||
+  |值|描述|
+  |---|---|
+  |`overworld`||
+  |`nether`||
+  |`the_end`||
 
 
 

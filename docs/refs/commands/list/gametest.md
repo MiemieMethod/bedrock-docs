@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeRunThis -->
+`mode`：<!-- md:samp GameTestModeRunThis -->
 
 - 枚举类型。单值枚举，请直接使用`runthis`。
 
@@ -35,15 +35,15 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeRun -->
+`mode`：<!-- md:samp GameTestModeRun -->
 
 - 枚举类型。单值枚举，请直接使用`run`。
 
-`testName`: <!-- md:samp GameTestName -->
+`testName`：<!-- md:samp GameTestName -->
 
 - 软枚举类型。
 
-`rotationSteps`: <!-- md:samp int -->
+`rotationSteps`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -61,29 +61,29 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeRun -->
+`mode`：<!-- md:samp GameTestModeRun -->
 
 - 枚举类型。单值枚举，请直接使用`run`。
 
-`testName`: <!-- md:samp GameTestName -->
+`testName`：<!-- md:samp GameTestName -->
 
 - 软枚举类型。
 
-`stopOnFailure`: <!-- md:samp Boolean -->
+`stopOnFailure`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`repeatCount`: <!-- md:samp int -->
+`repeatCount`：<!-- md:samp int -->
 
 - 基本类型。
 
-`rotationSteps`: <!-- md:samp int -->
+`rotationSteps`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -101,15 +101,15 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeRunSet -->
+`mode`：<!-- md:samp GameTestModeRunSet -->
 
 - 枚举类型。单值枚举，请直接使用`runset`。
 
-`tag`: <!-- md:samp GameTestTag -->
+`tag`：<!-- md:samp GameTestTag -->
 
 - 软枚举类型。
 
-`rotationSteps`: <!-- md:samp int -->
+`rotationSteps`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -127,15 +127,15 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeRunSetUntilFail -->
+`mode`：<!-- md:samp GameTestModeRunSetUntilFail -->
 
 - 枚举类型。单值枚举，请直接使用`runsetuntilfail`。
 
-`tag`: <!-- md:samp GameTestTag -->
+`tag`：<!-- md:samp GameTestTag -->
 
 - 软枚举类型。
 
-`rotationSteps`: <!-- md:samp int -->
+`rotationSteps`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -153,7 +153,7 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeClearAll -->
+`mode`：<!-- md:samp GameTestModeClearAll -->
 
 - 枚举类型。单值枚举，请直接使用`clearall`。
 
@@ -171,7 +171,7 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeShowPosition -->
+`mode`：<!-- md:samp GameTestModeShowPosition -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
@@ -189,23 +189,23 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestModeCreateTest -->
+`mode`：<!-- md:samp GameTestModeCreateTest -->
 
 - 枚举类型。单值枚举，请直接使用`create`。
 
-`testName`: <!-- md:samp string -->
+`testName`：<!-- md:samp string -->
 
 - 基本类型。
 
-`width`: <!-- md:samp int -->
+`width`：<!-- md:samp int -->
 
 - 基本类型。
 
-`height`: <!-- md:samp int -->
+`height`：<!-- md:samp int -->
 
 - 基本类型。
 
-`depth`: <!-- md:samp int -->
+`depth`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -223,7 +223,7 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestRunNearbyTests -->
+`mode`：<!-- md:samp GameTestRunNearbyTests -->
 
 - 枚举类型。单值枚举，请直接使用`runthese`。
 
@@ -241,7 +241,7 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp GameTestStopTests -->
+`mode`：<!-- md:samp GameTestStopTests -->
 
 - 枚举类型。单值枚举，请直接使用`stopall`。
 

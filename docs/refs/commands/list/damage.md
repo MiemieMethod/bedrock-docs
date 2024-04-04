@@ -17,55 +17,55 @@
 
 //// html | div.result
 ///// define
-`target`: <!-- md:samp target -->
+`target`：<!-- md:samp target -->
 
 - 基本类型。
 
-`amount`: <!-- md:samp int -->
+`amount`：<!-- md:samp int -->
 
 - 基本类型。
 
-`cause`: <!-- md:samp DamageCause -->
+`cause`：<!-- md:samp DamageCause -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`piston`||
-|`lava`||
-|`campfire`||
-|`fire`||
-|`anvil`||
-|`magma`||
-|`soul_campfire`||
-|`wither`||
-|`falling_block`||
-|`fireworks`||
-|`thorns`||
-|`none`||
-|`sonic_boom`||
-|`contact`||
-|`override`||
-|`entity_attack`||
-|`projectile`||
-|`suffocation`||
-|`fall`||
-|`starve`||
-|`ram_attack`||
-|`fire_tick`||
-|`stalactite`||
-|`drowning`||
-|`block_explosion`||
-|`entity_explosion`||
-|`void`||
-|`self_destruct`||
-|`magic`||
-|`charging`||
-|`stalagmite`||
-|`fly_into_wall`||
-|`lightning`||
-|`freezing`||
-|`temperature`||
+  |值|描述|
+  |---|---|
+  |`piston`||
+  |`lava`||
+  |`campfire`||
+  |`fire`||
+  |`anvil`||
+  |`magma`||
+  |`soul_campfire`||
+  |`wither`||
+  |`falling_block`||
+  |`fireworks`||
+  |`thorns`||
+  |`none`||
+  |`sonic_boom`||
+  |`contact`||
+  |`override`||
+  |`entity_attack`||
+  |`projectile`||
+  |`suffocation`||
+  |`fall`||
+  |`starve`||
+  |`ram_attack`||
+  |`fire_tick`||
+  |`stalactite`||
+  |`drowning`||
+  |`block_explosion`||
+  |`entity_explosion`||
+  |`void`||
+  |`self_destruct`||
+  |`magic`||
+  |`charging`||
+  |`stalagmite`||
+  |`fly_into_wall`||
+  |`lightning`||
+  |`freezing`||
+  |`temperature`||
 
 
 
@@ -82,62 +82,62 @@
 
 //// html | div.result
 ///// define
-`target`: <!-- md:samp target -->
+`target`：<!-- md:samp target -->
 
 - 基本类型。
 
-`amount`: <!-- md:samp int -->
+`amount`：<!-- md:samp int -->
 
 - 基本类型。
 
-`cause`: <!-- md:samp DamageCause -->
+`cause`：<!-- md:samp DamageCause -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`piston`||
-|`lava`||
-|`campfire`||
-|`fire`||
-|`anvil`||
-|`magma`||
-|`soul_campfire`||
-|`wither`||
-|`falling_block`||
-|`fireworks`||
-|`thorns`||
-|`none`||
-|`sonic_boom`||
-|`contact`||
-|`override`||
-|`entity_attack`||
-|`projectile`||
-|`suffocation`||
-|`fall`||
-|`starve`||
-|`ram_attack`||
-|`fire_tick`||
-|`stalactite`||
-|`drowning`||
-|`block_explosion`||
-|`entity_explosion`||
-|`void`||
-|`self_destruct`||
-|`magic`||
-|`charging`||
-|`stalagmite`||
-|`fly_into_wall`||
-|`lightning`||
-|`freezing`||
-|`temperature`||
+  |值|描述|
+  |---|---|
+  |`piston`||
+  |`lava`||
+  |`campfire`||
+  |`fire`||
+  |`anvil`||
+  |`magma`||
+  |`soul_campfire`||
+  |`wither`||
+  |`falling_block`||
+  |`fireworks`||
+  |`thorns`||
+  |`none`||
+  |`sonic_boom`||
+  |`contact`||
+  |`override`||
+  |`entity_attack`||
+  |`projectile`||
+  |`suffocation`||
+  |`fall`||
+  |`starve`||
+  |`ram_attack`||
+  |`fire_tick`||
+  |`stalactite`||
+  |`drowning`||
+  |`block_explosion`||
+  |`entity_explosion`||
+  |`void`||
+  |`self_destruct`||
+  |`magic`||
+  |`charging`||
+  |`stalagmite`||
+  |`fly_into_wall`||
+  |`lightning`||
+  |`freezing`||
+  |`temperature`||
 
 
-`origin`: <!-- md:samp DamageOriginActor -->
+`origin`：<!-- md:samp DamageOriginActor -->
 
 - 枚举类型。单值枚举，请直接使用`entity`。
 
-`damager`: <!-- md:samp target -->
+`damager`：<!-- md:samp target -->
 
 - 基本类型。
 

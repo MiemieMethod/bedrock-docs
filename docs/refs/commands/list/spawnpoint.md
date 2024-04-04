@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`spawnPos`: <!-- md:samp x y z -->
+`spawnPos`：<!-- md:samp x y z -->
 
 - 基本类型。
 

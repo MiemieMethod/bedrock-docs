@@ -17,26 +17,26 @@
 
 //// html | div.result
 ///// define
-`dimension`: <!-- md:samp Dimension -->
+`dimension`：<!-- md:samp Dimension -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`overworld`||
-|`nether`||
-|`the_end`||
+  |值|描述|
+  |---|---|
+  |`overworld`||
+  |`nether`||
+  |`the_end`||
 
 
-`chunkX`: <!-- md:samp int -->
-
-- 基本类型。
-
-`chunkZ`: <!-- md:samp int -->
+`chunkX`：<!-- md:samp int -->
 
 - 基本类型。
 
-`height`: <!-- md:samp int -->
+`chunkZ`：<!-- md:samp int -->
+
+- 基本类型。
+
+`height`：<!-- md:samp int -->
 
 - 基本类型。
 

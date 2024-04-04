@@ -21,21 +21,21 @@
 
 //// html | div.result
 ///// define
-`action`: <!-- md:samp AllowListAction -->
+`action`：<!-- md:samp AllowListAction -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`add`||
-|`remove`||
-|`list`||
-|`reload`||
-|`on`||
-|`off`||
+  |值|描述|
+  |---|---|
+  |`add`||
+  |`remove`||
+  |`list`||
+  |`reload`||
+  |`on`||
+  |`off`||
 
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 

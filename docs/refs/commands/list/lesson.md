@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -35,25 +35,25 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`resource`: <!-- md:samp LessonType -->
+`resource`：<!-- md:samp LessonType -->
 
 - 枚举类型。单值枚举，请直接使用`lesson`。
 
-`action`: <!-- md:samp LessonAction -->
+`action`：<!-- md:samp LessonAction -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`complete`||
-|`restart`||
+  |值|描述|
+  |---|---|
+  |`complete`||
+  |`restart`||
 
 
-`score`: <!-- md:samp int -->
+`score`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -71,29 +71,29 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`resource`: <!-- md:samp LessonActivityType -->
+`resource`：<!-- md:samp LessonActivityType -->
 
 - 枚举类型。单值枚举，请直接使用`activity`。
 
-`id`: <!-- md:samp string -->
+`id`：<!-- md:samp string -->
 
 - 基本类型。
 
-`action`: <!-- md:samp LessonAction -->
+`action`：<!-- md:samp LessonAction -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`complete`||
-|`restart`||
+  |值|描述|
+  |---|---|
+  |`complete`||
+  |`restart`||
 
 
-`score`: <!-- md:samp int -->
+`score`：<!-- md:samp int -->
 
 - 基本类型。
 

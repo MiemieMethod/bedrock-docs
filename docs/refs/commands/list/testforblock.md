@@ -18,2155 +18,2155 @@
 //// html | div.result
 <!-- md:version command * 28 true true -->
 ///// define
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`tileName`: <!-- md:samp Block -->
+`tileName`：<!-- md:samp Block -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:cyan_terracotta`||
-|`cyan_terracotta`||
-|`minecraft:blue_candle`||
-|`blue_candle`||
-|`minecraft:dark_oak_wood`||
-|`dark_oak_wood`||
-|`minecraft:birch_standing_sign`||
-|`birch_standing_sign`||
-|`minecraft:polished_basalt`||
-|`polished_basalt`||
-|`minecraft:nether_gold_ore`||
-|`nether_gold_ore`||
-|`minecraft:warped_door`||
-|`warped_door`||
-|`minecraft:light_blue_concrete_powder`||
-|`light_blue_concrete_powder`||
-|`minecraft:bamboo_block`||
-|`bamboo_block`||
-|`minecraft:piston_arm_collision`||
-|`piston_arm_collision`||
-|`minecraft:waxed_oxidized_chiseled_copper`||
-|`waxed_oxidized_chiseled_copper`||
-|`minecraft:granite`||
-|`granite`||
-|`minecraft:blue_stained_glass_pane`||
-|`blue_stained_glass_pane`||
-|`minecraft:fence_gate`||
-|`fence_gate`||
-|`minecraft:powder_snow`||
-|`powder_snow`||
-|`minecraft:dark_oak_button`||
-|`dark_oak_button`||
-|`minecraft:deepslate_copper_ore`||
-|`deepslate_copper_ore`||
-|`minecraft:nether_brick_stairs`||
-|`nether_brick_stairs`||
-|`minecraft:yellow_shulker_box`||
-|`yellow_shulker_box`||
-|`minecraft:blackstone_double_slab`||
-|`blackstone_double_slab`||
-|`minecraft:lime_stained_glass`||
-|`lime_stained_glass`||
-|`minecraft:red_wool`||
-|`red_wool`||
-|`minecraft:jungle_button`||
-|`jungle_button`||
-|`minecraft:spruce_stairs`||
-|`spruce_stairs`||
-|`minecraft:diorite`||
-|`diorite`||
-|`minecraft:gray_candle_cake`||
-|`gray_candle_cake`||
-|`minecraft:polished_tuff_slab`||
-|`polished_tuff_slab`||
-|`minecraft:cherry_pressure_plate`||
-|`cherry_pressure_plate`||
-|`minecraft:cherry_hanging_sign`||
-|`cherry_hanging_sign`||
-|`minecraft:yellow_wool`||
-|`yellow_wool`||
-|`minecraft:crimson_wall_sign`||
-|`crimson_wall_sign`||
-|`minecraft:yellow_stained_glass_pane`||
-|`yellow_stained_glass_pane`||
-|`minecraft:azure_bluet`||
-|`azure_bluet`||
-|`minecraft:beacon`||
-|`beacon`||
-|`minecraft:red_nether_brick`||
-|`red_nether_brick`||
-|`minecraft:cobbled_deepslate_stairs`||
-|`cobbled_deepslate_stairs`||
-|`minecraft:snow_layer`||
-|`snow_layer`||
-|`minecraft:black_candle`||
-|`black_candle`||
-|`minecraft:blue_carpet`||
-|`blue_carpet`||
-|`minecraft:glow_frame`||
-|`glow_frame`||
-|`minecraft:mud_brick_double_slab`||
-|`mud_brick_double_slab`||
-|`minecraft:hanging_roots`||
-|`hanging_roots`||
-|`minecraft:prismarine_bricks_stairs`||
-|`prismarine_bricks_stairs`||
-|`minecraft:waxed_oxidized_cut_copper`||
-|`waxed_oxidized_cut_copper`||
-|`minecraft:calcite`||
-|`calcite`||
-|`minecraft:stripped_dark_oak_log`||
-|`stripped_dark_oak_log`||
-|`minecraft:dead_bubble_coral_fan`||
-|`dead_bubble_coral_fan`||
-|`minecraft:jungle_log`||
-|`jungle_log`||
-|`minecraft:bubble_coral_fan`||
-|`bubble_coral_fan`||
-|`minecraft:sculk_shrieker`||
-|`sculk_shrieker`||
-|`minecraft:gray_wool`||
-|`gray_wool`||
-|`minecraft:orange_stained_glass_pane`||
-|`orange_stained_glass_pane`||
-|`minecraft:gray_carpet`||
-|`gray_carpet`||
-|`minecraft:lily_of_the_valley`||
-|`lily_of_the_valley`||
-|`minecraft:lime_glazed_terracotta`||
-|`lime_glazed_terracotta`||
-|`minecraft:trapdoor`||
-|`trapdoor`||
-|`minecraft:dead_brain_coral_fan`||
-|`dead_brain_coral_fan`||
-|`minecraft:seagrass`||
-|`seagrass`||
-|`minecraft:tube_coral_fan`||
-|`tube_coral_fan`||
-|`minecraft:waxed_exposed_cut_copper_slab`||
-|`waxed_exposed_cut_copper_slab`||
-|`minecraft:redstone_lamp`||
-|`redstone_lamp`||
-|`minecraft:mossy_cobblestone`||
-|`mossy_cobblestone`||
-|`minecraft:deepslate`||
-|`deepslate`||
-|`minecraft:magenta_carpet`||
-|`magenta_carpet`||
-|`minecraft:pitcher_crop`||
-|`pitcher_crop`||
-|`minecraft:brown_wool`||
-|`brown_wool`||
-|`minecraft:waxed_exposed_chiseled_copper`||
-|`waxed_exposed_chiseled_copper`||
-|`minecraft:tuff_slab`||
-|`tuff_slab`||
-|`minecraft:warped_pressure_plate`||
-|`warped_pressure_plate`||
-|`minecraft:stripped_acacia_wood`||
-|`stripped_acacia_wood`||
-|`minecraft:diamond_block`||
-|`diamond_block`||
-|`minecraft:oak_stairs`||
-|`oak_stairs`||
-|`minecraft:oak_log`||
-|`oak_log`||
-|`minecraft:brown_stained_glass_pane`||
-|`brown_stained_glass_pane`||
-|`minecraft:end_bricks`||
-|`end_bricks`||
-|`minecraft:magenta_shulker_box`||
-|`magenta_shulker_box`||
-|`minecraft:packed_ice`||
-|`packed_ice`||
-|`minecraft:packed_mud`||
-|`packed_mud`||
-|`minecraft:light_blue_candle_cake`||
-|`light_blue_candle_cake`||
-|`minecraft:moss_carpet`||
-|`moss_carpet`||
-|`minecraft:warped_fungus`||
-|`warped_fungus`||
-|`minecraft:polished_deepslate_slab`||
-|`polished_deepslate_slab`||
-|`minecraft:bamboo_door`||
-|`bamboo_door`||
-|`minecraft:amethyst_block`||
-|`amethyst_block`||
-|`minecraft:gold_block`||
-|`gold_block`||
-|`minecraft:flower_pot`||
-|`flower_pot`||
-|`minecraft:chiseled_bookshelf`||
-|`chiseled_bookshelf`||
-|`minecraft:polished_deepslate_stairs`||
-|`polished_deepslate_stairs`||
-|`minecraft:yellow_flower`||
-|`yellow_flower`||
-|`minecraft:lime_shulker_box`||
-|`lime_shulker_box`||
-|`minecraft:weathered_chiseled_copper`||
-|`weathered_chiseled_copper`||
-|`minecraft:small_amethyst_bud`||
-|`small_amethyst_bud`||
-|`minecraft:activator_rail`||
-|`activator_rail`||
-|`minecraft:iron_trapdoor`||
-|`iron_trapdoor`||
-|`minecraft:potatoes`||
-|`potatoes`||
-|`minecraft:muddy_mangrove_roots`||
-|`muddy_mangrove_roots`||
-|`minecraft:stripped_jungle_wood`||
-|`stripped_jungle_wood`||
-|`minecraft:noteblock`||
-|`noteblock`||
-|`minecraft:tuff`||
-|`tuff`||
-|`minecraft:mangrove_log`||
-|`mangrove_log`||
-|`minecraft:oxidized_cut_copper_stairs`||
-|`oxidized_cut_copper_stairs`||
-|`minecraft:deepslate_tile_double_slab`||
-|`deepslate_tile_double_slab`||
-|`minecraft:raw_gold_block`||
-|`raw_gold_block`||
-|`minecraft:allium`||
-|`allium`||
-|`minecraft:white_shulker_box`||
-|`white_shulker_box`||
-|`minecraft:copper_grate`||
-|`copper_grate`||
-|`minecraft:black_wool`||
-|`black_wool`||
-|`minecraft:orange_candle`||
-|`orange_candle`||
-|`minecraft:powered_comparator`||
-|`powered_comparator`||
-|`minecraft:jungle_fence`||
-|`jungle_fence`||
-|`minecraft:warped_wall_sign`||
-|`warped_wall_sign`||
-|`minecraft:spruce_fence`||
-|`spruce_fence`||
-|`minecraft:dark_oak_sapling`||
-|`dark_oak_sapling`||
-|`minecraft:melon_block`||
-|`melon_block`||
-|`minecraft:black_concrete_powder`||
-|`black_concrete_powder`||
-|`minecraft:waxed_cut_copper_stairs`||
-|`waxed_cut_copper_stairs`||
-|`minecraft:mob_spawner`||
-|`mob_spawner`||
-|`minecraft:polished_granite`||
-|`polished_granite`||
-|`minecraft:soul_fire`||
-|`soul_fire`||
-|`minecraft:magenta_candle`||
-|`magenta_candle`||
-|`minecraft:mangrove_double_slab`||
-|`mangrove_double_slab`||
-|`minecraft:light_gray_stained_glass`||
-|`light_gray_stained_glass`||
-|`minecraft:obsidian`||
-|`obsidian`||
-|`minecraft:light_gray_stained_glass_pane`||
-|`light_gray_stained_glass_pane`||
-|`minecraft:dark_oak_slab`||
-|`dark_oak_slab`||
-|`minecraft:deepslate_brick_wall`||
-|`deepslate_brick_wall`||
-|`minecraft:waxed_exposed_copper_grate`||
-|`waxed_exposed_copper_grate`||
-|`minecraft:oxidized_double_cut_copper_slab`||
-|`oxidized_double_cut_copper_slab`||
-|`minecraft:exposed_copper`||
-|`exposed_copper`||
-|`minecraft:polished_deepslate_double_slab`||
-|`polished_deepslate_double_slab`||
-|`minecraft:stone_button`||
-|`stone_button`||
-|`minecraft:waxed_copper_bulb`||
-|`waxed_copper_bulb`||
-|`minecraft:sponge`||
-|`sponge`||
-|`minecraft:exposed_double_cut_copper_slab`||
-|`exposed_double_cut_copper_slab`||
-|`minecraft:bamboo_fence`||
-|`bamboo_fence`||
-|`minecraft:normal_stone_stairs`||
-|`normal_stone_stairs`||
-|`minecraft:hardened_clay`||
-|`hardened_clay`||
-|`minecraft:birch_hanging_sign`||
-|`birch_hanging_sign`||
-|`minecraft:stripped_jungle_log`||
-|`stripped_jungle_log`||
-|`minecraft:oak_sapling`||
-|`oak_sapling`||
-|`minecraft:polished_blackstone_double_slab`||
-|`polished_blackstone_double_slab`||
-|`minecraft:light_gray_terracotta`||
-|`light_gray_terracotta`||
-|`minecraft:smoker`||
-|`smoker`||
-|`minecraft:brown_stained_glass`||
-|`brown_stained_glass`||
-|`minecraft:andesite`||
-|`andesite`||
-|`minecraft:fire_coral`||
-|`fire_coral`||
-|`minecraft:stone`||
-|`stone`||
-|`minecraft:birch_log`||
-|`birch_log`||
-|`minecraft:tuff_brick_wall`||
-|`tuff_brick_wall`||
-|`minecraft:brain_coral`||
-|`brain_coral`||
-|`minecraft:stripped_spruce_wood`||
-|`stripped_spruce_wood`||
-|`minecraft:orange_wool`||
-|`orange_wool`||
-|`minecraft:polished_blackstone_brick_double_slab`||
-|`polished_blackstone_brick_double_slab`||
-|`minecraft:crimson_double_slab`||
-|`crimson_double_slab`||
-|`minecraft:respawn_anchor`||
-|`respawn_anchor`||
-|`minecraft:light_gray_concrete`||
-|`light_gray_concrete`||
-|`minecraft:green_candle`||
-|`green_candle`||
-|`minecraft:waxed_exposed_copper`||
-|`waxed_exposed_copper`||
-|`minecraft:birch_wood`||
-|`birch_wood`||
-|`minecraft:hay_block`||
-|`hay_block`||
-|`minecraft:jungle_wood`||
-|`jungle_wood`||
-|`minecraft:waxed_weathered_copper`||
-|`waxed_weathered_copper`||
-|`minecraft:waxed_oxidized_cut_copper_slab`||
-|`waxed_oxidized_cut_copper_slab`||
-|`minecraft:oak_leaves`||
-|`oak_leaves`||
-|`minecraft:brain_coral_fan`||
-|`brain_coral_fan`||
-|`minecraft:cyan_candle_cake`||
-|`cyan_candle_cake`||
-|`minecraft:polished_tuff_wall`||
-|`polished_tuff_wall`||
-|`minecraft:bamboo_stairs`||
-|`bamboo_stairs`||
-|`minecraft:torch`||
-|`torch`||
-|`minecraft:mud_brick_wall`||
-|`mud_brick_wall`||
-|`minecraft:honey_block`||
-|`honey_block`||
-|`minecraft:dripstone_block`||
-|`dripstone_block`||
-|`minecraft:vine`||
-|`vine`||
-|`minecraft:cherry_trapdoor`||
-|`cherry_trapdoor`||
-|`minecraft:blackstone_slab`||
-|`blackstone_slab`||
-|`minecraft:gold_ore`||
-|`gold_ore`||
-|`minecraft:yellow_glazed_terracotta`||
-|`yellow_glazed_terracotta`||
-|`minecraft:warped_planks`||
-|`warped_planks`||
-|`minecraft:piston`||
-|`piston`||
-|`minecraft:brown_carpet`||
-|`brown_carpet`||
-|`minecraft:tallgrass`||
-|`tallgrass`||
-|`minecraft:stone_brick_stairs`||
-|`stone_brick_stairs`||
-|`minecraft:gray_candle`||
-|`gray_candle`||
-|`minecraft:cherry_fence`||
-|`cherry_fence`||
-|`minecraft:mangrove_planks`||
-|`mangrove_planks`||
-|`minecraft:red_terracotta`||
-|`red_terracotta`||
-|`minecraft:oxidized_copper_bulb`||
-|`oxidized_copper_bulb`||
-|`minecraft:magenta_wool`||
-|`magenta_wool`||
-|`minecraft:magenta_glazed_terracotta`||
-|`magenta_glazed_terracotta`||
-|`minecraft:polished_blackstone_brick_wall`||
-|`polished_blackstone_brick_wall`||
-|`minecraft:mangrove_slab`||
-|`mangrove_slab`||
-|`minecraft:orange_glazed_terracotta`||
-|`orange_glazed_terracotta`||
-|`minecraft:smooth_basalt`||
-|`smooth_basalt`||
-|`minecraft:waterlily`||
-|`waterlily`||
-|`minecraft:emerald_block`||
-|`emerald_block`||
-|`minecraft:suspicious_sand`||
-|`suspicious_sand`||
-|`minecraft:heavy_weighted_pressure_plate`||
-|`heavy_weighted_pressure_plate`||
-|`minecraft:purple_stained_glass`||
-|`purple_stained_glass`||
-|`minecraft:lightning_rod`||
-|`lightning_rod`||
-|`minecraft:acacia_leaves`||
-|`acacia_leaves`||
-|`minecraft:black_stained_glass_pane`||
-|`black_stained_glass_pane`||
-|`minecraft:cobblestone_wall`||
-|`cobblestone_wall`||
-|`minecraft:deepslate_brick_double_slab`||
-|`deepslate_brick_double_slab`||
-|`minecraft:spruce_double_slab`||
-|`spruce_double_slab`||
-|`minecraft:bamboo_mosaic_slab`||
-|`bamboo_mosaic_slab`||
-|`minecraft:dark_oak_log`||
-|`dark_oak_log`||
-|`minecraft:acacia_hanging_sign`||
-|`acacia_hanging_sign`||
-|`minecraft:ochre_froglight`||
-|`ochre_froglight`||
-|`minecraft:tuff_wall`||
-|`tuff_wall`||
-|`minecraft:observer`||
-|`observer`||
-|`minecraft:redstone_torch`||
-|`redstone_torch`||
-|`minecraft:silver_glazed_terracotta`||
-|`silver_glazed_terracotta`||
-|`minecraft:granite_stairs`||
-|`granite_stairs`||
-|`minecraft:pink_concrete`||
-|`pink_concrete`||
-|`minecraft:dark_oak_hanging_sign`||
-|`dark_oak_hanging_sign`||
-|`minecraft:brown_mushroom`||
-|`brown_mushroom`||
-|`minecraft:cyan_concrete_powder`||
-|`cyan_concrete_powder`||
-|`minecraft:brown_glazed_terracotta`||
-|`brown_glazed_terracotta`||
-|`minecraft:waxed_copper_trapdoor`||
-|`waxed_copper_trapdoor`||
-|`minecraft:oxidized_copper`||
-|`oxidized_copper`||
-|`minecraft:copper_ore`||
-|`copper_ore`||
-|`minecraft:dark_oak_planks`||
-|`dark_oak_planks`||
-|`minecraft:birch_pressure_plate`||
-|`birch_pressure_plate`||
-|`minecraft:scaffolding`||
-|`scaffolding`||
-|`minecraft:sandstone_stairs`||
-|`sandstone_stairs`||
-|`minecraft:green_candle_cake`||
-|`green_candle_cake`||
-|`minecraft:stripped_bamboo_block`||
-|`stripped_bamboo_block`||
-|`minecraft:red_mushroom_block`||
-|`red_mushroom_block`||
-|`minecraft:sculk_catalyst`||
-|`sculk_catalyst`||
-|`minecraft:cobblestone`||
-|`cobblestone`||
-|`minecraft:horn_coral`||
-|`horn_coral`||
-|`minecraft:yellow_concrete`||
-|`yellow_concrete`||
-|`minecraft:cyan_carpet`||
-|`cyan_carpet`||
-|`minecraft:oak_double_slab`||
-|`oak_double_slab`||
-|`minecraft:smooth_sandstone_stairs`||
-|`smooth_sandstone_stairs`||
-|`minecraft:jungle_pressure_plate`||
-|`jungle_pressure_plate`||
-|`minecraft:double_cut_copper_slab`||
-|`double_cut_copper_slab`||
-|`minecraft:blue_terracotta`||
-|`blue_terracotta`||
-|`minecraft:sandstone`||
-|`sandstone`||
-|`minecraft:brown_candle_cake`||
-|`brown_candle_cake`||
-|`minecraft:acacia_wall_sign`||
-|`acacia_wall_sign`||
-|`minecraft:light_weighted_pressure_plate`||
-|`light_weighted_pressure_plate`||
-|`minecraft:undyed_shulker_box`||
-|`undyed_shulker_box`||
-|`minecraft:polished_blackstone`||
-|`polished_blackstone`||
-|`minecraft:mycelium`||
-|`mycelium`||
-|`minecraft:bamboo`||
-|`bamboo`||
-|`minecraft:quartz_block`||
-|`quartz_block`||
-|`minecraft:stone_stairs`||
-|`stone_stairs`||
-|`minecraft:waxed_weathered_chiseled_copper`||
-|`waxed_weathered_chiseled_copper`||
-|`minecraft:gray_stained_glass`||
-|`gray_stained_glass`||
-|`minecraft:green_terracotta`||
-|`green_terracotta`||
-|`minecraft:deepslate_brick_slab`||
-|`deepslate_brick_slab`||
-|`minecraft:warped_stairs`||
-|`warped_stairs`||
-|`minecraft:smithing_table`||
-|`smithing_table`||
-|`minecraft:weathered_copper_grate`||
-|`weathered_copper_grate`||
-|`minecraft:poppy`||
-|`poppy`||
-|`minecraft:tuff_brick_slab`||
-|`tuff_brick_slab`||
-|`minecraft:green_wool`||
-|`green_wool`||
-|`minecraft:green_carpet`||
-|`green_carpet`||
-|`minecraft:wooden_door`||
-|`wooden_door`||
-|`minecraft:pitcher_plant`||
-|`pitcher_plant`||
-|`minecraft:spruce_pressure_plate`||
-|`spruce_pressure_plate`||
-|`minecraft:netherite_block`||
-|`netherite_block`||
-|`minecraft:pink_wool`||
-|`pink_wool`||
-|`minecraft:redstone_block`||
-|`redstone_block`||
-|`minecraft:birch_fence_gate`||
-|`birch_fence_gate`||
-|`minecraft:redstone_wire`||
-|`redstone_wire`||
-|`minecraft:waxed_exposed_cut_copper`||
-|`waxed_exposed_cut_copper`||
-|`minecraft:lava`||
-|`lava`||
-|`minecraft:jungle_hanging_sign`||
-|`jungle_hanging_sign`||
-|`minecraft:birch_slab`||
-|`birch_slab`||
-|`minecraft:loom`||
-|`loom`||
-|`minecraft:end_stone`||
-|`end_stone`||
-|`minecraft:polished_tuff_double_slab`||
-|`polished_tuff_double_slab`||
-|`minecraft:crimson_door`||
-|`crimson_door`||
-|`minecraft:mangrove_pressure_plate`||
-|`mangrove_pressure_plate`||
-|`minecraft:jungle_slab`||
-|`jungle_slab`||
-|`minecraft:light_blue_stained_glass_pane`||
-|`light_blue_stained_glass_pane`||
-|`minecraft:glowstone`||
-|`glowstone`||
-|`minecraft:stone_pressure_plate`||
-|`stone_pressure_plate`||
-|`minecraft:waxed_exposed_cut_copper_stairs`||
-|`waxed_exposed_cut_copper_stairs`||
-|`minecraft:mud_brick_slab`||
-|`mud_brick_slab`||
-|`minecraft:farmland`||
-|`farmland`||
-|`minecraft:rail`||
-|`rail`||
-|`minecraft:blackstone_wall`||
-|`blackstone_wall`||
-|`minecraft:mossy_cobblestone_stairs`||
-|`mossy_cobblestone_stairs`||
-|`minecraft:coral_fan_hang2`||
-|`coral_fan_hang2`||
-|`minecraft:coral_fan_hang3`||
-|`coral_fan_hang3`||
-|`minecraft:detector_rail`||
-|`detector_rail`||
-|`minecraft:monster_egg`||
-|`monster_egg`||
-|`minecraft:blue_orchid`||
-|`blue_orchid`||
-|`minecraft:green_stained_glass_pane`||
-|`green_stained_glass_pane`||
-|`minecraft:polished_granite_stairs`||
-|`polished_granite_stairs`||
-|`minecraft:birch_leaves`||
-|`birch_leaves`||
-|`minecraft:pink_terracotta`||
-|`pink_terracotta`||
-|`minecraft:dark_oak_double_slab`||
-|`dark_oak_double_slab`||
-|`minecraft:pink_candle_cake`||
-|`pink_candle_cake`||
-|`minecraft:cracked_deepslate_tiles`||
-|`cracked_deepslate_tiles`||
-|`minecraft:mangrove_wood`||
-|`mangrove_wood`||
-|`minecraft:red_glazed_terracotta`||
-|`red_glazed_terracotta`||
-|`minecraft:dark_oak_fence_gate`||
-|`dark_oak_fence_gate`||
-|`minecraft:bamboo_mosaic_double_slab`||
-|`bamboo_mosaic_double_slab`||
-|`minecraft:crimson_nylium`||
-|`crimson_nylium`||
-|`minecraft:structure_void`||
-|`structure_void`||
-|`minecraft:purple_concrete`||
-|`purple_concrete`||
-|`minecraft:waxed_exposed_copper_bulb`||
-|`waxed_exposed_copper_bulb`||
-|`minecraft:polished_blackstone_brick_slab`||
-|`polished_blackstone_brick_slab`||
-|`minecraft:spruce_sapling`||
-|`spruce_sapling`||
-|`minecraft:yellow_terracotta`||
-|`yellow_terracotta`||
-|`minecraft:snow`||
-|`snow`||
-|`minecraft:sand`||
-|`sand`||
-|`minecraft:daylight_detector`||
-|`daylight_detector`||
-|`minecraft:mangrove_standing_sign`||
-|`mangrove_standing_sign`||
-|`minecraft:stripped_mangrove_wood`||
-|`stripped_mangrove_wood`||
-|`minecraft:conduit`||
-|`conduit`||
-|`minecraft:slime`||
-|`slime`||
-|`minecraft:bone_block`||
-|`bone_block`||
-|`minecraft:frame`||
-|`frame`||
-|`minecraft:spruce_log`||
-|`spruce_log`||
-|`minecraft:stone_block_slab`||
-|`stone_block_slab`||
-|`minecraft:lapis_block`||
-|`lapis_block`||
-|`minecraft:coal_ore`||
-|`coal_ore`||
-|`minecraft:redstone_ore`||
-|`redstone_ore`||
-|`minecraft:bamboo_double_slab`||
-|`bamboo_double_slab`||
-|`minecraft:green_stained_glass`||
-|`green_stained_glass`||
-|`minecraft:nether_brick_fence`||
-|`nether_brick_fence`||
-|`minecraft:pink_tulip`||
-|`pink_tulip`||
-|`minecraft:oak_slab`||
-|`oak_slab`||
-|`minecraft:deepslate_tile_slab`||
-|`deepslate_tile_slab`||
-|`minecraft:pink_concrete_powder`||
-|`pink_concrete_powder`||
-|`minecraft:dead_tube_coral`||
-|`dead_tube_coral`||
-|`minecraft:nether_wart_block`||
-|`nether_wart_block`||
-|`minecraft:cherry_door`||
-|`cherry_door`||
-|`minecraft:crimson_hyphae`||
-|`crimson_hyphae`||
-|`minecraft:polished_blackstone_stairs`||
-|`polished_blackstone_stairs`||
-|`minecraft:weathered_cut_copper_stairs`||
-|`weathered_cut_copper_stairs`||
-|`minecraft:small_dripleaf_block`||
-|`small_dripleaf_block`||
-|`minecraft:pink_stained_glass`||
-|`pink_stained_glass`||
-|`minecraft:waxed_weathered_copper_grate`||
-|`waxed_weathered_copper_grate`||
-|`minecraft:spruce_button`||
-|`spruce_button`||
-|`minecraft:acacia_log`||
-|`acacia_log`||
-|`minecraft:crimson_trapdoor`||
-|`crimson_trapdoor`||
-|`minecraft:basalt`||
-|`basalt`||
-|`minecraft:light_blue_terracotta`||
-|`light_blue_terracotta`||
-|`minecraft:lit_redstone_lamp`||
-|`lit_redstone_lamp`||
-|`minecraft:diamond_ore`||
-|`diamond_ore`||
-|`minecraft:warped_roots`||
-|`warped_roots`||
-|`minecraft:magenta_concrete`||
-|`magenta_concrete`||
-|`minecraft:sticky_piston`||
-|`sticky_piston`||
-|`minecraft:ender_chest`||
-|`ender_chest`||
-|`minecraft:medium_amethyst_bud`||
-|`medium_amethyst_bud`||
-|`minecraft:pink_shulker_box`||
-|`pink_shulker_box`||
-|`minecraft:warped_double_slab`||
-|`warped_double_slab`||
-|`minecraft:jungle_wall_sign`||
-|`jungle_wall_sign`||
-|`minecraft:sculk_sensor`||
-|`sculk_sensor`||
-|`minecraft:copper_bulb`||
-|`copper_bulb`||
-|`minecraft:diorite_stairs`||
-|`diorite_stairs`||
-|`minecraft:spruce_leaves`||
-|`spruce_leaves`||
-|`minecraft:frog_spawn`||
-|`frog_spawn`||
-|`minecraft:acacia_door`||
-|`acacia_door`||
-|`minecraft:red_shulker_box`||
-|`red_shulker_box`||
-|`minecraft:stripped_cherry_log`||
-|`stripped_cherry_log`||
-|`minecraft:crimson_button`||
-|`crimson_button`||
-|`minecraft:acacia_planks`||
-|`acacia_planks`||
-|`minecraft:magenta_concrete_powder`||
-|`magenta_concrete_powder`||
-|`minecraft:iron_door`||
-|`iron_door`||
-|`minecraft:honeycomb_block`||
-|`honeycomb_block`||
-|`minecraft:polished_blackstone_brick_stairs`||
-|`polished_blackstone_brick_stairs`||
-|`minecraft:mangrove_trapdoor`||
-|`mangrove_trapdoor`||
-|`minecraft:quartz_ore`||
-|`quartz_ore`||
-|`minecraft:daylight_detector_inverted`||
-|`daylight_detector_inverted`||
-|`minecraft:barrel`||
-|`barrel`||
-|`minecraft:chorus_flower`||
-|`chorus_flower`||
-|`minecraft:coral_fan_hang`||
-|`coral_fan_hang`||
-|`minecraft:orange_stained_glass`||
-|`orange_stained_glass`||
-|`minecraft:white_stained_glass_pane`||
-|`white_stained_glass_pane`||
-|`minecraft:stripped_birch_wood`||
-|`stripped_birch_wood`||
-|`minecraft:cracked_nether_bricks`||
-|`cracked_nether_bricks`||
-|`minecraft:powered_repeater`||
-|`powered_repeater`||
-|`minecraft:light_blue_candle`||
-|`light_blue_candle`||
-|`minecraft:pumpkin`||
-|`pumpkin`||
-|`minecraft:deepslate_tiles`||
-|`deepslate_tiles`||
-|`minecraft:smooth_stone`||
-|`smooth_stone`||
-|`minecraft:gray_terracotta`||
-|`gray_terracotta`||
-|`minecraft:oxidized_copper_trapdoor`||
-|`oxidized_copper_trapdoor`||
-|`minecraft:white_tulip`||
-|`white_tulip`||
-|`minecraft:lime_concrete`||
-|`lime_concrete`||
-|`minecraft:black_candle_cake`||
-|`black_candle_cake`||
-|`minecraft:red_mushroom`||
-|`red_mushroom`||
-|`minecraft:gilded_blackstone`||
-|`gilded_blackstone`||
-|`minecraft:magenta_terracotta`||
-|`magenta_terracotta`||
-|`minecraft:exposed_cut_copper_stairs`||
-|`exposed_cut_copper_stairs`||
-|`minecraft:mangrove_stairs`||
-|`mangrove_stairs`||
-|`minecraft:cut_copper_stairs`||
-|`cut_copper_stairs`||
-|`minecraft:cherry_button`||
-|`cherry_button`||
-|`minecraft:yellow_candle_cake`||
-|`yellow_candle_cake`||
-|`minecraft:mangrove_fence_gate`||
-|`mangrove_fence_gate`||
-|`minecraft:pink_petals`||
-|`pink_petals`||
-|`minecraft:bamboo_hanging_sign`||
-|`bamboo_hanging_sign`||
-|`minecraft:infested_deepslate`||
-|`infested_deepslate`||
-|`minecraft:soul_torch`||
-|`soul_torch`||
-|`minecraft:podzol`||
-|`podzol`||
-|`minecraft:copper_block`||
-|`copper_block`||
-|`minecraft:lit_redstone_ore`||
-|`lit_redstone_ore`||
-|`minecraft:deepslate_tile_stairs`||
-|`deepslate_tile_stairs`||
-|`minecraft:crimson_fence_gate`||
-|`crimson_fence_gate`||
-|`minecraft:deadbush`||
-|`deadbush`||
-|`minecraft:waxed_weathered_double_cut_copper_slab`||
-|`waxed_weathered_double_cut_copper_slab`||
-|`minecraft:polished_blackstone_bricks`||
-|`polished_blackstone_bricks`||
-|`minecraft:red_candle`||
-|`red_candle`||
-|`minecraft:cut_copper`||
-|`cut_copper`||
-|`minecraft:iron_ore`||
-|`iron_ore`||
-|`minecraft:spruce_door`||
-|`spruce_door`||
-|`minecraft:frosted_ice`||
-|`frosted_ice`||
-|`minecraft:large_amethyst_bud`||
-|`large_amethyst_bud`||
-|`minecraft:exposed_copper_door`||
-|`exposed_copper_door`||
-|`minecraft:suspicious_gravel`||
-|`suspicious_gravel`||
-|`minecraft:warped_trapdoor`||
-|`warped_trapdoor`||
-|`minecraft:flowing_water`||
-|`flowing_water`||
-|`minecraft:brick_block`||
-|`brick_block`||
-|`minecraft:waxed_weathered_copper_trapdoor`||
-|`waxed_weathered_copper_trapdoor`||
-|`minecraft:quartz_stairs`||
-|`quartz_stairs`||
-|`minecraft:cave_vines`||
-|`cave_vines`||
-|`minecraft:magenta_stained_glass_pane`||
-|`magenta_stained_glass_pane`||
-|`minecraft:iron_bars`||
-|`iron_bars`||
-|`minecraft:white_terracotta`||
-|`white_terracotta`||
-|`minecraft:stripped_oak_wood`||
-|`stripped_oak_wood`||
-|`minecraft:light_blue_carpet`||
-|`light_blue_carpet`||
-|`minecraft:oak_hanging_sign`||
-|`oak_hanging_sign`||
-|`minecraft:white_concrete_powder`||
-|`white_concrete_powder`||
-|`minecraft:melon_stem`||
-|`melon_stem`||
-|`minecraft:crimson_planks`||
-|`crimson_planks`||
-|`minecraft:stripped_dark_oak_wood`||
-|`stripped_dark_oak_wood`||
-|`minecraft:waxed_weathered_cut_copper`||
-|`waxed_weathered_cut_copper`||
-|`minecraft:white_stained_glass`||
-|`white_stained_glass`||
-|`minecraft:oak_wood`||
-|`oak_wood`||
-|`minecraft:purple_stained_glass_pane`||
-|`purple_stained_glass_pane`||
-|`minecraft:waxed_oxidized_copper_trapdoor`||
-|`waxed_oxidized_copper_trapdoor`||
-|`minecraft:wall_sign`||
-|`wall_sign`||
-|`minecraft:jukebox`||
-|`jukebox`||
-|`minecraft:stripped_cherry_wood`||
-|`stripped_cherry_wood`||
-|`minecraft:border_block`||
-|`border_block`||
-|`minecraft:shroomlight`||
-|`shroomlight`||
-|`minecraft:bamboo_fence_gate`||
-|`bamboo_fence_gate`||
-|`minecraft:cornflower`||
-|`cornflower`||
-|`minecraft:chiseled_polished_blackstone`||
-|`chiseled_polished_blackstone`||
-|`minecraft:dark_oak_stairs`||
-|`dark_oak_stairs`||
-|`minecraft:deepslate_tile_wall`||
-|`deepslate_tile_wall`||
-|`minecraft:glass_pane`||
-|`glass_pane`||
-|`minecraft:chiseled_deepslate`||
-|`chiseled_deepslate`||
-|`minecraft:cut_copper_slab`||
-|`cut_copper_slab`||
-|`minecraft:coral_block`||
-|`coral_block`||
-|`minecraft:red_stained_glass`||
-|`red_stained_glass`||
-|`minecraft:acacia_pressure_plate`||
-|`acacia_pressure_plate`||
-|`minecraft:bamboo_trapdoor`||
-|`bamboo_trapdoor`||
-|`minecraft:oxidized_chiseled_copper`||
-|`oxidized_chiseled_copper`||
-|`minecraft:mangrove_wall_sign`||
-|`mangrove_wall_sign`||
-|`minecraft:raw_copper_block`||
-|`raw_copper_block`||
-|`minecraft:oxidized_cut_copper_slab`||
-|`oxidized_cut_copper_slab`||
-|`minecraft:beetroot`||
-|`beetroot`||
-|`minecraft:skull`||
-|`skull`||
-|`minecraft:light_gray_candle_cake`||
-|`light_gray_candle_cake`||
-|`minecraft:white_candle`||
-|`white_candle`||
-|`minecraft:andesite_stairs`||
-|`andesite_stairs`||
-|`minecraft:birch_planks`||
-|`birch_planks`||
-|`minecraft:golden_rail`||
-|`golden_rail`||
-|`minecraft:cyan_wool`||
-|`cyan_wool`||
-|`minecraft:darkoak_wall_sign`||
-|`darkoak_wall_sign`||
-|`minecraft:jungle_leaves`||
-|`jungle_leaves`||
-|`minecraft:gray_shulker_box`||
-|`gray_shulker_box`||
-|`minecraft:red_sandstone_stairs`||
-|`red_sandstone_stairs`||
-|`minecraft:cyan_glazed_terracotta`||
-|`cyan_glazed_terracotta`||
-|`minecraft:cracked_deepslate_bricks`||
-|`cracked_deepslate_bricks`||
-|`minecraft:jungle_fence_gate`||
-|`jungle_fence_gate`||
-|`minecraft:exposed_copper_grate`||
-|`exposed_copper_grate`||
-|`minecraft:waxed_copper_grate`||
-|`waxed_copper_grate`||
-|`minecraft:jungle_trapdoor`||
-|`jungle_trapdoor`||
-|`minecraft:dirt_with_roots`||
-|`dirt_with_roots`||
-|`minecraft:coal_block`||
-|`coal_block`||
-|`minecraft:white_wool`||
-|`white_wool`||
-|`minecraft:warped_fence_gate`||
-|`warped_fence_gate`||
-|`minecraft:composter`||
-|`composter`||
-|`minecraft:waxed_double_cut_copper_slab`||
-|`waxed_double_cut_copper_slab`||
-|`minecraft:kelp`||
-|`kelp`||
-|`minecraft:double_plant`||
-|`double_plant`||
-|`minecraft:waxed_exposed_copper_door`||
-|`waxed_exposed_copper_door`||
-|`minecraft:deepslate_bricks`||
-|`deepslate_bricks`||
-|`minecraft:blue_glazed_terracotta`||
-|`blue_glazed_terracotta`||
-|`minecraft:light_blue_glazed_terracotta`||
-|`light_blue_glazed_terracotta`||
-|`minecraft:flowering_azalea`||
-|`flowering_azalea`||
-|`minecraft:oxidized_cut_copper`||
-|`oxidized_cut_copper`||
-|`minecraft:blue_wool`||
-|`blue_wool`||
-|`minecraft:weeping_vines`||
-|`weeping_vines`||
-|`minecraft:chorus_plant`||
-|`chorus_plant`||
-|`minecraft:water`||
-|`water`||
-|`minecraft:mud_brick_stairs`||
-|`mud_brick_stairs`||
-|`minecraft:unpowered_repeater`||
-|`unpowered_repeater`||
-|`minecraft:smooth_red_sandstone_stairs`||
-|`smooth_red_sandstone_stairs`||
-|`minecraft:element_100`||
-|`element_100`||
-|`minecraft:element_101`||
-|`element_101`||
-|`minecraft:element_102`||
-|`element_102`||
-|`minecraft:element_103`||
-|`element_103`||
-|`minecraft:element_104`||
-|`element_104`||
-|`minecraft:element_105`||
-|`element_105`||
-|`minecraft:element_106`||
-|`element_106`||
-|`minecraft:element_107`||
-|`element_107`||
-|`minecraft:element_108`||
-|`element_108`||
-|`minecraft:element_109`||
-|`element_109`||
-|`minecraft:element_113`||
-|`element_113`||
-|`minecraft:element_112`||
-|`element_112`||
-|`minecraft:element_111`||
-|`element_111`||
-|`minecraft:element_110`||
-|`element_110`||
-|`minecraft:element_117`||
-|`element_117`||
-|`minecraft:element_116`||
-|`element_116`||
-|`minecraft:element_115`||
-|`element_115`||
-|`minecraft:element_114`||
-|`element_114`||
-|`minecraft:element_118`||
-|`element_118`||
-|`minecraft:white_glazed_terracotta`||
-|`white_glazed_terracotta`||
-|`minecraft:stripped_warped_hyphae`||
-|`stripped_warped_hyphae`||
-|`minecraft:trapped_chest`||
-|`trapped_chest`||
-|`minecraft:acacia_trapdoor`||
-|`acacia_trapdoor`||
-|`minecraft:standing_sign`||
-|`standing_sign`||
-|`minecraft:bamboo_planks`||
-|`bamboo_planks`||
-|`minecraft:glow_lichen`||
-|`glow_lichen`||
-|`minecraft:wall_banner`||
-|`wall_banner`||
-|`minecraft:twisting_vines`||
-|`twisting_vines`||
-|`minecraft:chiseled_copper`||
-|`chiseled_copper`||
-|`minecraft:acacia_double_slab`||
-|`acacia_double_slab`||
-|`minecraft:dark_oak_door`||
-|`dark_oak_door`||
-|`minecraft:oak_fence`||
-|`oak_fence`||
-|`minecraft:soul_lantern`||
-|`soul_lantern`||
-|`minecraft:dirt`||
-|`dirt`||
-|`minecraft:blue_stained_glass`||
-|`blue_stained_glass`||
-|`minecraft:deny`||
-|`deny`||
-|`minecraft:bee_nest`||
-|`bee_nest`||
-|`minecraft:bubble_column`||
-|`bubble_column`||
-|`minecraft:campfire`||
-|`campfire`||
-|`minecraft:light_blue_stained_glass`||
-|`light_blue_stained_glass`||
-|`minecraft:stone_block_slab2`||
-|`stone_block_slab2`||
-|`minecraft:stone_block_slab3`||
-|`stone_block_slab3`||
-|`minecraft:stone_block_slab4`||
-|`stone_block_slab4`||
-|`minecraft:soul_soil`||
-|`soul_soil`||
-|`minecraft:soul_sand`||
-|`soul_sand`||
-|`minecraft:spruce_hanging_sign`||
-|`spruce_hanging_sign`||
-|`minecraft:polished_diorite`||
-|`polished_diorite`||
-|`minecraft:reinforced_deepslate`||
-|`reinforced_deepslate`||
-|`minecraft:fletching_table`||
-|`fletching_table`||
-|`minecraft:cherry_leaves`||
-|`cherry_leaves`||
-|`minecraft:black_glazed_terracotta`||
-|`black_glazed_terracotta`||
-|`minecraft:waxed_oxidized_cut_copper_stairs`||
-|`waxed_oxidized_cut_copper_stairs`||
-|`minecraft:waxed_weathered_copper_bulb`||
-|`waxed_weathered_copper_bulb`||
-|`minecraft:calibrated_sculk_sensor`||
-|`calibrated_sculk_sensor`||
-|`minecraft:copper_trapdoor`||
-|`copper_trapdoor`||
-|`minecraft:stripped_acacia_log`||
-|`stripped_acacia_log`||
-|`minecraft:cobbled_deepslate_double_slab`||
-|`cobbled_deepslate_double_slab`||
-|`minecraft:warped_fence`||
-|`warped_fence`||
-|`minecraft:crafting_table`||
-|`crafting_table`||
-|`minecraft:sea_pickle`||
-|`sea_pickle`||
-|`minecraft:cherry_standing_sign`||
-|`cherry_standing_sign`||
-|`minecraft:brown_concrete_powder`||
-|`brown_concrete_powder`||
-|`minecraft:mangrove_hanging_sign`||
-|`mangrove_hanging_sign`||
-|`minecraft:waxed_exposed_copper_trapdoor`||
-|`waxed_exposed_copper_trapdoor`||
-|`minecraft:brown_candle`||
-|`brown_candle`||
-|`minecraft:mossy_stone_brick_stairs`||
-|`mossy_stone_brick_stairs`||
-|`minecraft:end_rod`||
-|`end_rod`||
-|`minecraft:crimson_stem`||
-|`crimson_stem`||
-|`minecraft:green_concrete`||
-|`green_concrete`||
-|`minecraft:tuff_brick_double_slab`||
-|`tuff_brick_double_slab`||
-|`minecraft:crimson_slab`||
-|`crimson_slab`||
-|`minecraft:warped_hyphae`||
-|`warped_hyphae`||
-|`minecraft:warped_wart_block`||
-|`warped_wart_block`||
-|`minecraft:light_gray_shulker_box`||
-|`light_gray_shulker_box`||
-|`minecraft:carrots`||
-|`carrots`||
-|`minecraft:tuff_stairs`||
-|`tuff_stairs`||
-|`minecraft:yellow_carpet`||
-|`yellow_carpet`||
-|`minecraft:cyan_stained_glass`||
-|`cyan_stained_glass`||
-|`minecraft:black_stained_glass`||
-|`black_stained_glass`||
-|`minecraft:waxed_oxidized_copper_door`||
-|`waxed_oxidized_copper_door`||
-|`minecraft:dead_horn_coral`||
-|`dead_horn_coral`||
-|`minecraft:grass_block`||
-|`grass_block`||
-|`minecraft:tripwire_hook`||
-|`tripwire_hook`||
-|`minecraft:cave_vines_body_with_berries`||
-|`cave_vines_body_with_berries`||
-|`minecraft:dark_oak_pressure_plate`||
-|`dark_oak_pressure_plate`||
-|`minecraft:copper_door`||
-|`copper_door`||
-|`minecraft:stripped_birch_log`||
-|`stripped_birch_log`||
-|`minecraft:tinted_glass`||
-|`tinted_glass`||
-|`minecraft:big_dripleaf`||
-|`big_dripleaf`||
-|`minecraft:warped_hanging_sign`||
-|`warped_hanging_sign`||
-|`minecraft:lime_wool`||
-|`lime_wool`||
-|`minecraft:blue_candle_cake`||
-|`blue_candle_cake`||
-|`minecraft:sweet_berry_bush`||
-|`sweet_berry_bush`||
-|`minecraft:polished_blackstone_slab`||
-|`polished_blackstone_slab`||
-|`minecraft:reeds`||
-|`reeds`||
-|`minecraft:black_shulker_box`||
-|`black_shulker_box`||
-|`minecraft:jungle_sapling`||
-|`jungle_sapling`||
-|`minecraft:barrier`||
-|`barrier`||
-|`minecraft:torchflower_crop`||
-|`torchflower_crop`||
-|`minecraft:black_carpet`||
-|`black_carpet`||
-|`minecraft:jungle_standing_sign`||
-|`jungle_standing_sign`||
-|`minecraft:cherry_double_slab`||
-|`cherry_double_slab`||
-|`minecraft:weathered_cut_copper_slab`||
-|`weathered_cut_copper_slab`||
-|`minecraft:dark_oak_leaves`||
-|`dark_oak_leaves`||
-|`minecraft:fire`||
-|`fire`||
-|`minecraft:torchflower`||
-|`torchflower`||
-|`minecraft:end_portal_frame`||
-|`end_portal_frame`||
-|`minecraft:bamboo_pressure_plate`||
-|`bamboo_pressure_plate`||
-|`minecraft:prismarine`||
-|`prismarine`||
-|`minecraft:magenta_candle_cake`||
-|`magenta_candle_cake`||
-|`minecraft:exposed_copper_trapdoor`||
-|`exposed_copper_trapdoor`||
-|`minecraft:black_terracotta`||
-|`black_terracotta`||
-|`minecraft:deepslate_gold_ore`||
-|`deepslate_gold_ore`||
-|`minecraft:ancient_debris`||
-|`ancient_debris`||
-|`minecraft:vault`||
-|`vault`||
-|`minecraft:beehive`||
-|`beehive`||
-|`minecraft:jungle_door`||
-|`jungle_door`||
-|`minecraft:glass`||
-|`glass`||
-|`minecraft:wither_rose`||
-|`wither_rose`||
-|`minecraft:exposed_cut_copper`||
-|`exposed_cut_copper`||
-|`minecraft:waxed_weathered_cut_copper_stairs`||
-|`waxed_weathered_cut_copper_stairs`||
-|`minecraft:mangrove_roots`||
-|`mangrove_roots`||
-|`minecraft:yellow_candle`||
-|`yellow_candle`||
-|`minecraft:acacia_stairs`||
-|`acacia_stairs`||
-|`minecraft:bamboo_mosaic_stairs`||
-|`bamboo_mosaic_stairs`||
-|`minecraft:brown_concrete`||
-|`brown_concrete`||
-|`minecraft:cherry_slab`||
-|`cherry_slab`||
-|`minecraft:bubble_coral`||
-|`bubble_coral`||
-|`minecraft:orange_shulker_box`||
-|`orange_shulker_box`||
-|`minecraft:light_gray_candle`||
-|`light_gray_candle`||
-|`minecraft:polished_blackstone_pressure_plate`||
-|`polished_blackstone_pressure_plate`||
-|`minecraft:acacia_standing_sign`||
-|`acacia_standing_sign`||
-|`minecraft:tuff_brick_stairs`||
-|`tuff_brick_stairs`||
-|`minecraft:blue_shulker_box`||
-|`blue_shulker_box`||
-|`minecraft:exposed_copper_bulb`||
-|`exposed_copper_bulb`||
-|`minecraft:dead_fire_coral`||
-|`dead_fire_coral`||
-|`minecraft:crimson_stairs`||
-|`crimson_stairs`||
-|`minecraft:stripped_spruce_log`||
-|`stripped_spruce_log`||
-|`minecraft:waxed_oxidized_copper_bulb`||
-|`waxed_oxidized_copper_bulb`||
-|`minecraft:pumpkin_stem`||
-|`pumpkin_stem`||
-|`minecraft:azalea_leaves_flowered`||
-|`azalea_leaves_flowered`||
-|`minecraft:sticky_piston_arm_collision`||
-|`sticky_piston_arm_collision`||
-|`minecraft:warped_nylium`||
-|`warped_nylium`||
-|`minecraft:deepslate_emerald_ore`||
-|`deepslate_emerald_ore`||
-|`minecraft:acacia_sapling`||
-|`acacia_sapling`||
-|`minecraft:quartz_bricks`||
-|`quartz_bricks`||
-|`minecraft:unpowered_comparator`||
-|`unpowered_comparator`||
-|`minecraft:lime_candle`||
-|`lime_candle`||
-|`minecraft:structure_block`||
-|`structure_block`||
-|`minecraft:end_brick_stairs`||
-|`end_brick_stairs`||
-|`minecraft:purple_terracotta`||
-|`purple_terracotta`||
-|`minecraft:target`||
-|`target`||
-|`minecraft:wooden_button`||
-|`wooden_button`||
-|`minecraft:mangrove_door`||
-|`mangrove_door`||
-|`minecraft:weathered_copper_door`||
-|`weathered_copper_door`||
-|`minecraft:pearlescent_froglight`||
-|`pearlescent_froglight`||
-|`minecraft:double_stone_block_slab2`||
-|`double_stone_block_slab2`||
-|`minecraft:double_stone_block_slab3`||
-|`double_stone_block_slab3`||
-|`minecraft:double_stone_block_slab4`||
-|`double_stone_block_slab4`||
-|`minecraft:bamboo_button`||
-|`bamboo_button`||
-|`minecraft:nether_sprouts`||
-|`nether_sprouts`||
-|`minecraft:cyan_stained_glass_pane`||
-|`cyan_stained_glass_pane`||
-|`minecraft:verdant_froglight`||
-|`verdant_froglight`||
-|`minecraft:warped_slab`||
-|`warped_slab`||
-|`minecraft:warped_stem`||
-|`warped_stem`||
-|`minecraft:horn_coral_fan`||
-|`horn_coral_fan`||
-|`minecraft:green_shulker_box`||
-|`green_shulker_box`||
-|`minecraft:stripped_crimson_hyphae`||
-|`stripped_crimson_hyphae`||
-|`minecraft:cocoa`||
-|`cocoa`||
-|`minecraft:lever`||
-|`lever`||
-|`minecraft:bamboo_slab`||
-|`bamboo_slab`||
-|`minecraft:brick_stairs`||
-|`brick_stairs`||
-|`minecraft:weathered_copper_trapdoor`||
-|`weathered_copper_trapdoor`||
-|`minecraft:moss_block`||
-|`moss_block`||
-|`minecraft:purple_concrete_powder`||
-|`purple_concrete_powder`||
-|`minecraft:pink_glazed_terracotta`||
-|`pink_glazed_terracotta`||
-|`minecraft:waxed_weathered_cut_copper_slab`||
-|`waxed_weathered_cut_copper_slab`||
-|`minecraft:stonebrick`||
-|`stonebrick`||
-|`minecraft:fire_coral_fan`||
-|`fire_coral_fan`||
-|`minecraft:spruce_trapdoor`||
-|`spruce_trapdoor`||
-|`minecraft:chain_command_block`||
-|`chain_command_block`||
-|`minecraft:red_sandstone`||
-|`red_sandstone`||
-|`minecraft:exposed_chiseled_copper`||
-|`exposed_chiseled_copper`||
-|`minecraft:spruce_fence_gate`||
-|`spruce_fence_gate`||
-|`minecraft:exposed_cut_copper_slab`||
-|`exposed_cut_copper_slab`||
-|`minecraft:red_nether_brick_stairs`||
-|`red_nether_brick_stairs`||
-|`minecraft:green_glazed_terracotta`||
-|`green_glazed_terracotta`||
-|`minecraft:jungle_planks`||
-|`jungle_planks`||
-|`minecraft:deepslate_redstone_ore`||
-|`deepslate_redstone_ore`||
-|`minecraft:double_stone_block_slab`||
-|`double_stone_block_slab`||
-|`minecraft:mangrove_fence`||
-|`mangrove_fence`||
-|`minecraft:oxidized_copper_grate`||
-|`oxidized_copper_grate`||
-|`minecraft:anvil`||
-|`anvil`||
-|`minecraft:birch_trapdoor`||
-|`birch_trapdoor`||
-|`minecraft:tuff_bricks`||
-|`tuff_bricks`||
-|`minecraft:mangrove_leaves`||
-|`mangrove_leaves`||
-|`minecraft:cobbled_deepslate`||
-|`cobbled_deepslate`||
-|`minecraft:bookshelf`||
-|`bookshelf`||
-|`minecraft:mud`||
-|`mud`||
-|`minecraft:lit_pumpkin`||
-|`lit_pumpkin`||
-|`minecraft:ice`||
-|`ice`||
-|`minecraft:air`||
-|`air`||
-|`minecraft:bed`||
-|`bed`||
-|`minecraft:black_concrete`||
-|`black_concrete`||
-|`minecraft:tnt`||
-|`tnt`||
-|`minecraft:purple_candle_cake`||
-|`purple_candle_cake`||
-|`minecraft:web`||
-|`web`||
-|`minecraft:dead_tube_coral_fan`||
-|`dead_tube_coral_fan`||
-|`minecraft:polished_diorite_stairs`||
-|`polished_diorite_stairs`||
-|`minecraft:blue_concrete_powder`||
-|`blue_concrete_powder`||
-|`minecraft:orange_concrete`||
-|`orange_concrete`||
-|`minecraft:crying_obsidian`||
-|`crying_obsidian`||
-|`minecraft:lime_carpet`||
-|`lime_carpet`||
-|`minecraft:dead_fire_coral_fan`||
-|`dead_fire_coral_fan`||
-|`minecraft:decorated_pot`||
-|`decorated_pot`||
-|`minecraft:enchanting_table`||
-|`enchanting_table`||
-|`minecraft:polished_blackstone_wall`||
-|`polished_blackstone_wall`||
-|`minecraft:waxed_exposed_double_cut_copper_slab`||
-|`waxed_exposed_double_cut_copper_slab`||
-|`minecraft:orange_tulip`||
-|`orange_tulip`||
-|`minecraft:brown_shulker_box`||
-|`brown_shulker_box`||
-|`minecraft:azalea`||
-|`azalea`||
-|`minecraft:mud_bricks`||
-|`mud_bricks`||
-|`minecraft:birch_wall_sign`||
-|`birch_wall_sign`||
-|`minecraft:bamboo_wall_sign`||
-|`bamboo_wall_sign`||
-|`minecraft:acacia_wood`||
-|`acacia_wood`||
-|`minecraft:gray_stained_glass_pane`||
-|`gray_stained_glass_pane`||
-|`minecraft:hopper`||
-|`hopper`||
-|`minecraft:bell`||
-|`bell`||
-|`minecraft:lectern`||
-|`lectern`||
-|`minecraft:stripped_crimson_stem`||
-|`stripped_crimson_stem`||
-|`minecraft:standing_banner`||
-|`standing_banner`||
-|`minecraft:light_blue_shulker_box`||
-|`light_blue_shulker_box`||
-|`minecraft:jungle_stairs`||
-|`jungle_stairs`||
-|`minecraft:mangrove_propagule`||
-|`mangrove_propagule`||
-|`minecraft:cactus`||
-|`cactus`||
-|`minecraft:budding_amethyst`||
-|`budding_amethyst`||
-|`minecraft:sniffer_egg`||
-|`sniffer_egg`||
-|`minecraft:birch_stairs`||
-|`birch_stairs`||
-|`minecraft:purple_glazed_terracotta`||
-|`purple_glazed_terracotta`||
-|`minecraft:green_concrete_powder`||
-|`green_concrete_powder`||
-|`minecraft:bedrock`||
-|`bedrock`||
-|`minecraft:spruce_slab`||
-|`spruce_slab`||
-|`minecraft:blackstone_stairs`||
-|`blackstone_stairs`||
-|`minecraft:blue_ice`||
-|`blue_ice`||
-|`minecraft:cyan_shulker_box`||
-|`cyan_shulker_box`||
-|`minecraft:polished_andesite_stairs`||
-|`polished_andesite_stairs`||
-|`minecraft:sculk`||
-|`sculk`||
-|`minecraft:netherrack`||
-|`netherrack`||
-|`minecraft:purple_candle`||
-|`purple_candle`||
-|`minecraft:spruce_standing_sign`||
-|`spruce_standing_sign`||
-|`minecraft:mangrove_button`||
-|`mangrove_button`||
-|`minecraft:orange_carpet`||
-|`orange_carpet`||
-|`minecraft:dead_horn_coral_fan`||
-|`dead_horn_coral_fan`||
-|`minecraft:lantern`||
-|`lantern`||
-|`minecraft:waxed_weathered_copper_door`||
-|`waxed_weathered_copper_door`||
-|`minecraft:red_stained_glass_pane`||
-|`red_stained_glass_pane`||
-|`minecraft:lit_blast_furnace`||
-|`lit_blast_furnace`||
-|`minecraft:pink_stained_glass_pane`||
-|`pink_stained_glass_pane`||
-|`minecraft:light_blue_wool`||
-|`light_blue_wool`||
-|`minecraft:allow`||
-|`allow`||
-|`minecraft:dark_oak_fence`||
-|`dark_oak_fence`||
-|`minecraft:birch_door`||
-|`birch_door`||
-|`minecraft:chest`||
-|`chest`||
-|`minecraft:cherry_wood`||
-|`cherry_wood`||
-|`minecraft:chain`||
-|`chain`||
-|`minecraft:clay`||
-|`clay`||
-|`minecraft:cherry_stairs`||
-|`cherry_stairs`||
-|`minecraft:cake`||
-|`cake`||
-|`minecraft:crimson_hanging_sign`||
-|`crimson_hanging_sign`||
-|`minecraft:sculk_vein`||
-|`sculk_vein`||
-|`minecraft:dead_brain_coral`||
-|`dead_brain_coral`||
-|`minecraft:deepslate_coal_ore`||
-|`deepslate_coal_ore`||
-|`minecraft:weathered_cut_copper`||
-|`weathered_cut_copper`||
-|`minecraft:warped_standing_sign`||
-|`warped_standing_sign`||
-|`minecraft:cracked_polished_blackstone_bricks`||
-|`cracked_polished_blackstone_bricks`||
-|`minecraft:bamboo_standing_sign`||
-|`bamboo_standing_sign`||
-|`minecraft:flowing_lava`||
-|`flowing_lava`||
-|`minecraft:polished_tuff`||
-|`polished_tuff`||
-|`minecraft:magenta_stained_glass`||
-|`magenta_stained_glass`||
-|`minecraft:acacia_button`||
-|`acacia_button`||
-|`minecraft:lit_furnace`||
-|`lit_furnace`||
-|`minecraft:chiseled_nether_bricks`||
-|`chiseled_nether_bricks`||
-|`minecraft:warped_button`||
-|`warped_button`||
-|`minecraft:red_concrete_powder`||
-|`red_concrete_powder`||
-|`minecraft:light_gray_concrete_powder`||
-|`light_gray_concrete_powder`||
-|`minecraft:deepslate_lapis_ore`||
-|`deepslate_lapis_ore`||
-|`minecraft:dead_bubble_coral`||
-|`dead_bubble_coral`||
-|`minecraft:cherry_sapling`||
-|`cherry_sapling`||
-|`minecraft:cherry_log`||
-|`cherry_log`||
-|`minecraft:prismarine_stairs`||
-|`prismarine_stairs`||
-|`minecraft:white_carpet`||
-|`white_carpet`||
-|`minecraft:cyan_concrete`||
-|`cyan_concrete`||
-|`minecraft:polished_tuff_stairs`||
-|`polished_tuff_stairs`||
-|`minecraft:dragon_egg`||
-|`dragon_egg`||
-|`minecraft:blue_concrete`||
-|`blue_concrete`||
-|`minecraft:nether_brick`||
-|`nether_brick`||
-|`minecraft:deepslate_iron_ore`||
-|`deepslate_iron_ore`||
-|`minecraft:element_1`||
-|`element_1`||
-|`minecraft:element_0`||
-|`element_0`||
-|`minecraft:element_3`||
-|`element_3`||
-|`minecraft:element_2`||
-|`element_2`||
-|`minecraft:element_5`||
-|`element_5`||
-|`minecraft:element_4`||
-|`element_4`||
-|`minecraft:element_7`||
-|`element_7`||
-|`minecraft:element_6`||
-|`element_6`||
-|`minecraft:element_9`||
-|`element_9`||
-|`minecraft:element_8`||
-|`element_8`||
-|`minecraft:oxeye_daisy`||
-|`oxeye_daisy`||
-|`minecraft:wheat`||
-|`wheat`||
-|`minecraft:waxed_cut_copper`||
-|`waxed_cut_copper`||
-|`minecraft:chemistry_table`||
-|`chemistry_table`||
-|`minecraft:heavy_core`||
-|`heavy_core`||
-|`minecraft:cobbled_deepslate_slab`||
-|`cobbled_deepslate_slab`||
-|`minecraft:spore_blossom`||
-|`spore_blossom`||
-|`minecraft:crimson_standing_sign`||
-|`crimson_standing_sign`||
-|`minecraft:darkoak_standing_sign`||
-|`darkoak_standing_sign`||
-|`minecraft:weathered_double_cut_copper_slab`||
-|`weathered_double_cut_copper_slab`||
-|`minecraft:emerald_ore`||
-|`emerald_ore`||
-|`minecraft:brown_mushroom_block`||
-|`brown_mushroom_block`||
-|`minecraft:gray_concrete_powder`||
-|`gray_concrete_powder`||
-|`minecraft:gray_concrete`||
-|`gray_concrete`||
-|`minecraft:pink_candle`||
-|`pink_candle`||
-|`minecraft:purple_shulker_box`||
-|`purple_shulker_box`||
-|`minecraft:carved_pumpkin`||
-|`carved_pumpkin`||
-|`minecraft:dropper`||
-|`dropper`||
-|`minecraft:spruce_wall_sign`||
-|`spruce_wall_sign`||
-|`minecraft:stripped_warped_stem`||
-|`stripped_warped_stem`||
-|`minecraft:candle`||
-|`candle`||
-|`minecraft:pointed_dripstone`||
-|`pointed_dripstone`||
-|`minecraft:red_carpet`||
-|`red_carpet`||
-|`minecraft:deepslate_brick_stairs`||
-|`deepslate_brick_stairs`||
-|`minecraft:dark_prismarine_stairs`||
-|`dark_prismarine_stairs`||
-|`minecraft:chiseled_tuff_bricks`||
-|`chiseled_tuff_bricks`||
-|`minecraft:light_blue_concrete`||
-|`light_blue_concrete`||
-|`minecraft:red_tulip`||
-|`red_tulip`||
-|`minecraft:trip_wire`||
-|`trip_wire`||
-|`minecraft:cauldron`||
-|`cauldron`||
-|`minecraft:cave_vines_head_with_berries`||
-|`cave_vines_head_with_berries`||
-|`minecraft:birch_sapling`||
-|`birch_sapling`||
-|`minecraft:dark_oak_trapdoor`||
-|`dark_oak_trapdoor`||
-|`minecraft:orange_terracotta`||
-|`orange_terracotta`||
-|`minecraft:waxed_oxidized_copper`||
-|`waxed_oxidized_copper`||
-|`minecraft:oak_planks`||
-|`oak_planks`||
-|`minecraft:stripped_oak_log`||
-|`stripped_oak_log`||
-|`minecraft:polished_andesite`||
-|`polished_andesite`||
-|`minecraft:sea_lantern`||
-|`sea_lantern`||
-|`minecraft:brewing_stand`||
-|`brewing_stand`||
-|`minecraft:bamboo_sapling`||
-|`bamboo_sapling`||
-|`minecraft:weathered_copper_bulb`||
-|`weathered_copper_bulb`||
-|`minecraft:blast_furnace`||
-|`blast_furnace`||
-|`minecraft:crimson_roots`||
-|`crimson_roots`||
-|`minecraft:acacia_slab`||
-|`acacia_slab`||
-|`minecraft:stonecutter_block`||
-|`stonecutter_block`||
-|`minecraft:yellow_concrete_powder`||
-|`yellow_concrete_powder`||
-|`minecraft:white_candle_cake`||
-|`white_candle_cake`||
-|`minecraft:candle_cake`||
-|`candle_cake`||
-|`minecraft:lime_stained_glass_pane`||
-|`lime_stained_glass_pane`||
-|`minecraft:end_portal`||
-|`end_portal`||
-|`minecraft:yellow_stained_glass`||
-|`yellow_stained_glass`||
-|`minecraft:jungle_double_slab`||
-|`jungle_double_slab`||
-|`minecraft:spruce_wood`||
-|`spruce_wood`||
-|`minecraft:blackstone`||
-|`blackstone`||
-|`minecraft:acacia_fence_gate`||
-|`acacia_fence_gate`||
-|`minecraft:lit_deepslate_redstone_ore`||
-|`lit_deepslate_redstone_ore`||
-|`minecraft:element_10`||
-|`element_10`||
-|`minecraft:element_11`||
-|`element_11`||
-|`minecraft:element_12`||
-|`element_12`||
-|`minecraft:element_13`||
-|`element_13`||
-|`minecraft:element_14`||
-|`element_14`||
-|`minecraft:element_15`||
-|`element_15`||
-|`minecraft:element_16`||
-|`element_16`||
-|`minecraft:element_17`||
-|`element_17`||
-|`minecraft:element_18`||
-|`element_18`||
-|`minecraft:element_19`||
-|`element_19`||
-|`minecraft:element_36`||
-|`element_36`||
-|`minecraft:element_37`||
-|`element_37`||
-|`minecraft:element_34`||
-|`element_34`||
-|`minecraft:element_35`||
-|`element_35`||
-|`minecraft:element_32`||
-|`element_32`||
-|`minecraft:element_33`||
-|`element_33`||
-|`minecraft:element_30`||
-|`element_30`||
-|`minecraft:element_31`||
-|`element_31`||
-|`minecraft:element_38`||
-|`element_38`||
-|`minecraft:element_39`||
-|`element_39`||
-|`minecraft:element_29`||
-|`element_29`||
-|`minecraft:element_28`||
-|`element_28`||
-|`minecraft:element_21`||
-|`element_21`||
-|`minecraft:element_20`||
-|`element_20`||
-|`minecraft:element_23`||
-|`element_23`||
-|`minecraft:element_22`||
-|`element_22`||
-|`minecraft:element_25`||
-|`element_25`||
-|`minecraft:element_24`||
-|`element_24`||
-|`minecraft:element_27`||
-|`element_27`||
-|`minecraft:element_26`||
-|`element_26`||
-|`minecraft:element_58`||
-|`element_58`||
-|`minecraft:element_59`||
-|`element_59`||
-|`minecraft:element_54`||
-|`element_54`||
-|`minecraft:element_55`||
-|`element_55`||
-|`minecraft:element_56`||
-|`element_56`||
-|`minecraft:element_57`||
-|`element_57`||
-|`minecraft:element_50`||
-|`element_50`||
-|`minecraft:element_51`||
-|`element_51`||
-|`minecraft:element_52`||
-|`element_52`||
-|`minecraft:element_53`||
-|`element_53`||
-|`minecraft:element_49`||
-|`element_49`||
-|`minecraft:element_48`||
-|`element_48`||
-|`minecraft:element_47`||
-|`element_47`||
-|`minecraft:element_46`||
-|`element_46`||
-|`minecraft:element_45`||
-|`element_45`||
-|`minecraft:element_44`||
-|`element_44`||
-|`minecraft:element_43`||
-|`element_43`||
-|`minecraft:element_42`||
-|`element_42`||
-|`minecraft:element_41`||
-|`element_41`||
-|`minecraft:element_40`||
-|`element_40`||
-|`minecraft:element_72`||
-|`element_72`||
-|`minecraft:element_73`||
-|`element_73`||
-|`minecraft:element_70`||
-|`element_70`||
-|`minecraft:element_71`||
-|`element_71`||
-|`minecraft:element_76`||
-|`element_76`||
-|`minecraft:element_77`||
-|`element_77`||
-|`minecraft:element_74`||
-|`element_74`||
-|`minecraft:element_75`||
-|`element_75`||
-|`minecraft:element_78`||
-|`element_78`||
-|`minecraft:element_79`||
-|`element_79`||
-|`minecraft:element_65`||
-|`element_65`||
-|`minecraft:element_64`||
-|`element_64`||
-|`minecraft:element_67`||
-|`element_67`||
-|`minecraft:element_66`||
-|`element_66`||
-|`minecraft:element_61`||
-|`element_61`||
-|`minecraft:element_60`||
-|`element_60`||
-|`minecraft:element_63`||
-|`element_63`||
-|`minecraft:element_62`||
-|`element_62`||
-|`minecraft:element_69`||
-|`element_69`||
-|`minecraft:element_68`||
-|`element_68`||
-|`minecraft:element_98`||
-|`element_98`||
-|`minecraft:element_99`||
-|`element_99`||
-|`minecraft:element_90`||
-|`element_90`||
-|`minecraft:element_91`||
-|`element_91`||
-|`minecraft:element_92`||
-|`element_92`||
-|`minecraft:element_93`||
-|`element_93`||
-|`minecraft:element_94`||
-|`element_94`||
-|`minecraft:element_95`||
-|`element_95`||
-|`minecraft:element_96`||
-|`element_96`||
-|`minecraft:element_97`||
-|`element_97`||
-|`minecraft:element_89`||
-|`element_89`||
-|`minecraft:element_88`||
-|`element_88`||
-|`minecraft:element_83`||
-|`element_83`||
-|`minecraft:element_82`||
-|`element_82`||
-|`minecraft:element_81`||
-|`element_81`||
-|`minecraft:element_80`||
-|`element_80`||
-|`minecraft:element_87`||
-|`element_87`||
-|`minecraft:element_86`||
-|`element_86`||
-|`minecraft:element_85`||
-|`element_85`||
-|`minecraft:element_84`||
-|`element_84`||
-|`minecraft:lit_smoker`||
-|`lit_smoker`||
-|`minecraft:lapis_ore`||
-|`lapis_ore`||
-|`minecraft:red_concrete`||
-|`red_concrete`||
-|`minecraft:pink_carpet`||
-|`pink_carpet`||
-|`minecraft:smooth_quartz_stairs`||
-|`smooth_quartz_stairs`||
-|`minecraft:red_candle_cake`||
-|`red_candle_cake`||
-|`minecraft:azalea_leaves`||
-|`azalea_leaves`||
-|`minecraft:purpur_block`||
-|`purpur_block`||
-|`minecraft:cherry_wall_sign`||
-|`cherry_wall_sign`||
-|`minecraft:cyan_candle`||
-|`cyan_candle`||
-|`minecraft:waxed_copper`||
-|`waxed_copper`||
-|`minecraft:repeating_command_block`||
-|`repeating_command_block`||
-|`minecraft:nether_wart`||
-|`nether_wart`||
-|`minecraft:purple_carpet`||
-|`purple_carpet`||
-|`minecraft:waxed_oxidized_double_cut_copper_slab`||
-|`waxed_oxidized_double_cut_copper_slab`||
-|`minecraft:crimson_fungus`||
-|`crimson_fungus`||
-|`minecraft:cherry_planks`||
-|`cherry_planks`||
-|`minecraft:polished_deepslate`||
-|`polished_deepslate`||
-|`minecraft:tuff_double_slab`||
-|`tuff_double_slab`||
-|`minecraft:purpur_stairs`||
-|`purpur_stairs`||
-|`minecraft:tube_coral`||
-|`tube_coral`||
-|`minecraft:waxed_copper_door`||
-|`waxed_copper_door`||
-|`minecraft:portal`||
-|`portal`||
-|`minecraft:birch_button`||
-|`birch_button`||
-|`minecraft:command_block`||
-|`command_block`||
-|`minecraft:polished_blackstone_button`||
-|`polished_blackstone_button`||
-|`minecraft:crafter`||
-|`crafter`||
-|`minecraft:spruce_planks`||
-|`spruce_planks`||
-|`minecraft:furnace`||
-|`furnace`||
-|`minecraft:amethyst_cluster`||
-|`amethyst_cluster`||
-|`minecraft:waxed_chiseled_copper`||
-|`waxed_chiseled_copper`||
-|`minecraft:waxed_cut_copper_slab`||
-|`waxed_cut_copper_slab`||
-|`minecraft:polished_deepslate_wall`||
-|`polished_deepslate_wall`||
-|`minecraft:dried_kelp_block`||
-|`dried_kelp_block`||
-|`minecraft:light_block`||
-|`light_block`||
-|`minecraft:crimson_fence`||
-|`crimson_fence`||
-|`minecraft:chiseled_tuff`||
-|`chiseled_tuff`||
-|`minecraft:lime_concrete_powder`||
-|`lime_concrete_powder`||
-|`minecraft:turtle_egg`||
-|`turtle_egg`||
-|`minecraft:magma`||
-|`magma`||
-|`minecraft:dispenser`||
-|`dispenser`||
-|`minecraft:brown_terracotta`||
-|`brown_terracotta`||
-|`minecraft:deepslate_diamond_ore`||
-|`deepslate_diamond_ore`||
-|`minecraft:grindstone`||
-|`grindstone`||
-|`minecraft:light_gray_wool`||
-|`light_gray_wool`||
-|`minecraft:soul_campfire`||
-|`soul_campfire`||
-|`minecraft:wooden_pressure_plate`||
-|`wooden_pressure_plate`||
-|`minecraft:birch_fence`||
-|`birch_fence`||
-|`minecraft:lime_candle_cake`||
-|`lime_candle_cake`||
-|`minecraft:waxed_oxidized_copper_grate`||
-|`waxed_oxidized_copper_grate`||
-|`minecraft:birch_double_slab`||
-|`birch_double_slab`||
-|`minecraft:white_concrete`||
-|`white_concrete`||
-|`minecraft:trial_spawner`||
-|`trial_spawner`||
-|`minecraft:acacia_fence`||
-|`acacia_fence`||
-|`minecraft:grass_path`||
-|`grass_path`||
-|`minecraft:cobbled_deepslate_wall`||
-|`cobbled_deepslate_wall`||
-|`minecraft:orange_concrete_powder`||
-|`orange_concrete_powder`||
-|`minecraft:orange_candle_cake`||
-|`orange_candle_cake`||
-|`minecraft:weathered_copper`||
-|`weathered_copper`||
-|`minecraft:unlit_redstone_torch`||
-|`unlit_redstone_torch`||
-|`minecraft:lime_terracotta`||
-|`lime_terracotta`||
-|`minecraft:cherry_fence_gate`||
-|`cherry_fence_gate`||
-|`minecraft:gray_glazed_terracotta`||
-|`gray_glazed_terracotta`||
-|`minecraft:lodestone`||
-|`lodestone`||
-|`minecraft:bamboo_mosaic`||
-|`bamboo_mosaic`||
-|`minecraft:raw_iron_block`||
-|`raw_iron_block`||
-|`minecraft:light_gray_carpet`||
-|`light_gray_carpet`||
-|`minecraft:purple_wool`||
-|`purple_wool`||
-|`minecraft:iron_block`||
-|`iron_block`||
-|`minecraft:ladder`||
-|`ladder`||
-|`minecraft:crimson_pressure_plate`||
-|`crimson_pressure_plate`||
-|`minecraft:stripped_mangrove_log`||
-|`stripped_mangrove_log`||
-|`minecraft:gravel`||
-|`gravel`||
-|`minecraft:cartography_table`||
-|`cartography_table`||
-|`minecraft:oxidized_copper_door`||
-|`oxidized_copper_door`||
-|`grass`||
-|`minecraft:grass`||
-|`concretepowder`||
-|`minecraft:concretepowder`||
-|`pistonarmcollision`||
-|`minecraft:pistonarmcollision`||
-|`stone_slab4`||
-|`minecraft:stone_slab4`||
-|`stone_slab`||
-|`minecraft:stone_slab`||
-|`tripwire`||
-|`minecraft:tripwire`||
-|`sealantern`||
-|`minecraft:sealantern`||
-|`movingblock`||
-|`minecraft:movingblock`||
-|`invisiblebedrock`||
-|`minecraft:invisiblebedrock`||
-|`stone_slab2`||
-|`minecraft:stone_slab2`||
-|`stickypistonarmcollision`||
-|`minecraft:stickypistonarmcollision`||
-|`stone_slab3`||
-|`minecraft:stone_slab3`||
-|`double_stone_slab`||
-|`minecraft:double_stone_slab`||
-|`double_stone_slab2`||
-|`minecraft:double_stone_slab2`||
-|`double_stone_slab3`||
-|`minecraft:double_stone_slab3`||
-|`double_stone_slab4`||
-|`minecraft:double_stone_slab4`||
-|`wool`||
-|`minecraft:wool`||
-|`log`||
-|`minecraft:log`||
-|`log2`||
-|`minecraft:log2`||
-|`coral`||
-|`minecraft:coral`||
-|`fence`||
-|`minecraft:fence`||
-|`carpet`||
-|`minecraft:carpet`||
-|`shulker_box`||
-|`minecraft:shulker_box`||
-|`concrete`||
-|`minecraft:concrete`||
-|`stained_hardened_clay`||
-|`minecraft:stained_hardened_clay`||
-|`concrete_powder`||
-|`minecraft:concrete_powder`||
-|`stained_glass`||
-|`minecraft:stained_glass`||
-|`stained_glass_pane`||
-|`minecraft:stained_glass_pane`||
-|`planks`||
-|`minecraft:planks`||
-|`hard_stained_glass`||
-|`minecraft:hard_stained_glass`||
-|`hard_stained_glass_pane`||
-|`minecraft:hard_stained_glass_pane`||
-|`wooden_slab`||
-|`minecraft:wooden_slab`||
-|`double_wooden_slab`||
-|`minecraft:double_wooden_slab`||
-|`leaves`||
-|`minecraft:leaves`||
-|`leaves2`||
-|`minecraft:leaves2`||
-|`wood`||
-|`minecraft:wood`||
-|`sapling`||
-|`minecraft:sapling`||
-|`coral_fan`||
-|`minecraft:coral_fan`||
-|`coral_fan_dead`||
-|`minecraft:coral_fan_dead`||
-|`red_flower`||
-|`minecraft:red_flower`||
-|`lava_cauldron`||
-|`minecraft:lava_cauldron`||
+  |值|描述|
+  |---|---|
+  |`minecraft:cyan_terracotta`||
+  |`cyan_terracotta`||
+  |`minecraft:blue_candle`||
+  |`blue_candle`||
+  |`minecraft:dark_oak_wood`||
+  |`dark_oak_wood`||
+  |`minecraft:birch_standing_sign`||
+  |`birch_standing_sign`||
+  |`minecraft:polished_basalt`||
+  |`polished_basalt`||
+  |`minecraft:nether_gold_ore`||
+  |`nether_gold_ore`||
+  |`minecraft:warped_door`||
+  |`warped_door`||
+  |`minecraft:light_blue_concrete_powder`||
+  |`light_blue_concrete_powder`||
+  |`minecraft:bamboo_block`||
+  |`bamboo_block`||
+  |`minecraft:piston_arm_collision`||
+  |`piston_arm_collision`||
+  |`minecraft:waxed_oxidized_chiseled_copper`||
+  |`waxed_oxidized_chiseled_copper`||
+  |`minecraft:granite`||
+  |`granite`||
+  |`minecraft:blue_stained_glass_pane`||
+  |`blue_stained_glass_pane`||
+  |`minecraft:fence_gate`||
+  |`fence_gate`||
+  |`minecraft:powder_snow`||
+  |`powder_snow`||
+  |`minecraft:dark_oak_button`||
+  |`dark_oak_button`||
+  |`minecraft:deepslate_copper_ore`||
+  |`deepslate_copper_ore`||
+  |`minecraft:nether_brick_stairs`||
+  |`nether_brick_stairs`||
+  |`minecraft:yellow_shulker_box`||
+  |`yellow_shulker_box`||
+  |`minecraft:blackstone_double_slab`||
+  |`blackstone_double_slab`||
+  |`minecraft:lime_stained_glass`||
+  |`lime_stained_glass`||
+  |`minecraft:red_wool`||
+  |`red_wool`||
+  |`minecraft:jungle_button`||
+  |`jungle_button`||
+  |`minecraft:spruce_stairs`||
+  |`spruce_stairs`||
+  |`minecraft:diorite`||
+  |`diorite`||
+  |`minecraft:gray_candle_cake`||
+  |`gray_candle_cake`||
+  |`minecraft:polished_tuff_slab`||
+  |`polished_tuff_slab`||
+  |`minecraft:cherry_pressure_plate`||
+  |`cherry_pressure_plate`||
+  |`minecraft:cherry_hanging_sign`||
+  |`cherry_hanging_sign`||
+  |`minecraft:yellow_wool`||
+  |`yellow_wool`||
+  |`minecraft:crimson_wall_sign`||
+  |`crimson_wall_sign`||
+  |`minecraft:yellow_stained_glass_pane`||
+  |`yellow_stained_glass_pane`||
+  |`minecraft:azure_bluet`||
+  |`azure_bluet`||
+  |`minecraft:beacon`||
+  |`beacon`||
+  |`minecraft:red_nether_brick`||
+  |`red_nether_brick`||
+  |`minecraft:cobbled_deepslate_stairs`||
+  |`cobbled_deepslate_stairs`||
+  |`minecraft:snow_layer`||
+  |`snow_layer`||
+  |`minecraft:black_candle`||
+  |`black_candle`||
+  |`minecraft:blue_carpet`||
+  |`blue_carpet`||
+  |`minecraft:glow_frame`||
+  |`glow_frame`||
+  |`minecraft:mud_brick_double_slab`||
+  |`mud_brick_double_slab`||
+  |`minecraft:hanging_roots`||
+  |`hanging_roots`||
+  |`minecraft:prismarine_bricks_stairs`||
+  |`prismarine_bricks_stairs`||
+  |`minecraft:waxed_oxidized_cut_copper`||
+  |`waxed_oxidized_cut_copper`||
+  |`minecraft:calcite`||
+  |`calcite`||
+  |`minecraft:stripped_dark_oak_log`||
+  |`stripped_dark_oak_log`||
+  |`minecraft:dead_bubble_coral_fan`||
+  |`dead_bubble_coral_fan`||
+  |`minecraft:jungle_log`||
+  |`jungle_log`||
+  |`minecraft:bubble_coral_fan`||
+  |`bubble_coral_fan`||
+  |`minecraft:sculk_shrieker`||
+  |`sculk_shrieker`||
+  |`minecraft:gray_wool`||
+  |`gray_wool`||
+  |`minecraft:orange_stained_glass_pane`||
+  |`orange_stained_glass_pane`||
+  |`minecraft:gray_carpet`||
+  |`gray_carpet`||
+  |`minecraft:lily_of_the_valley`||
+  |`lily_of_the_valley`||
+  |`minecraft:lime_glazed_terracotta`||
+  |`lime_glazed_terracotta`||
+  |`minecraft:trapdoor`||
+  |`trapdoor`||
+  |`minecraft:dead_brain_coral_fan`||
+  |`dead_brain_coral_fan`||
+  |`minecraft:seagrass`||
+  |`seagrass`||
+  |`minecraft:tube_coral_fan`||
+  |`tube_coral_fan`||
+  |`minecraft:waxed_exposed_cut_copper_slab`||
+  |`waxed_exposed_cut_copper_slab`||
+  |`minecraft:redstone_lamp`||
+  |`redstone_lamp`||
+  |`minecraft:mossy_cobblestone`||
+  |`mossy_cobblestone`||
+  |`minecraft:deepslate`||
+  |`deepslate`||
+  |`minecraft:magenta_carpet`||
+  |`magenta_carpet`||
+  |`minecraft:pitcher_crop`||
+  |`pitcher_crop`||
+  |`minecraft:brown_wool`||
+  |`brown_wool`||
+  |`minecraft:waxed_exposed_chiseled_copper`||
+  |`waxed_exposed_chiseled_copper`||
+  |`minecraft:tuff_slab`||
+  |`tuff_slab`||
+  |`minecraft:warped_pressure_plate`||
+  |`warped_pressure_plate`||
+  |`minecraft:stripped_acacia_wood`||
+  |`stripped_acacia_wood`||
+  |`minecraft:diamond_block`||
+  |`diamond_block`||
+  |`minecraft:oak_stairs`||
+  |`oak_stairs`||
+  |`minecraft:oak_log`||
+  |`oak_log`||
+  |`minecraft:brown_stained_glass_pane`||
+  |`brown_stained_glass_pane`||
+  |`minecraft:end_bricks`||
+  |`end_bricks`||
+  |`minecraft:magenta_shulker_box`||
+  |`magenta_shulker_box`||
+  |`minecraft:packed_ice`||
+  |`packed_ice`||
+  |`minecraft:packed_mud`||
+  |`packed_mud`||
+  |`minecraft:light_blue_candle_cake`||
+  |`light_blue_candle_cake`||
+  |`minecraft:moss_carpet`||
+  |`moss_carpet`||
+  |`minecraft:warped_fungus`||
+  |`warped_fungus`||
+  |`minecraft:polished_deepslate_slab`||
+  |`polished_deepslate_slab`||
+  |`minecraft:bamboo_door`||
+  |`bamboo_door`||
+  |`minecraft:amethyst_block`||
+  |`amethyst_block`||
+  |`minecraft:gold_block`||
+  |`gold_block`||
+  |`minecraft:flower_pot`||
+  |`flower_pot`||
+  |`minecraft:chiseled_bookshelf`||
+  |`chiseled_bookshelf`||
+  |`minecraft:polished_deepslate_stairs`||
+  |`polished_deepslate_stairs`||
+  |`minecraft:yellow_flower`||
+  |`yellow_flower`||
+  |`minecraft:lime_shulker_box`||
+  |`lime_shulker_box`||
+  |`minecraft:weathered_chiseled_copper`||
+  |`weathered_chiseled_copper`||
+  |`minecraft:small_amethyst_bud`||
+  |`small_amethyst_bud`||
+  |`minecraft:activator_rail`||
+  |`activator_rail`||
+  |`minecraft:iron_trapdoor`||
+  |`iron_trapdoor`||
+  |`minecraft:potatoes`||
+  |`potatoes`||
+  |`minecraft:muddy_mangrove_roots`||
+  |`muddy_mangrove_roots`||
+  |`minecraft:stripped_jungle_wood`||
+  |`stripped_jungle_wood`||
+  |`minecraft:noteblock`||
+  |`noteblock`||
+  |`minecraft:tuff`||
+  |`tuff`||
+  |`minecraft:mangrove_log`||
+  |`mangrove_log`||
+  |`minecraft:oxidized_cut_copper_stairs`||
+  |`oxidized_cut_copper_stairs`||
+  |`minecraft:deepslate_tile_double_slab`||
+  |`deepslate_tile_double_slab`||
+  |`minecraft:raw_gold_block`||
+  |`raw_gold_block`||
+  |`minecraft:allium`||
+  |`allium`||
+  |`minecraft:white_shulker_box`||
+  |`white_shulker_box`||
+  |`minecraft:copper_grate`||
+  |`copper_grate`||
+  |`minecraft:black_wool`||
+  |`black_wool`||
+  |`minecraft:orange_candle`||
+  |`orange_candle`||
+  |`minecraft:powered_comparator`||
+  |`powered_comparator`||
+  |`minecraft:jungle_fence`||
+  |`jungle_fence`||
+  |`minecraft:warped_wall_sign`||
+  |`warped_wall_sign`||
+  |`minecraft:spruce_fence`||
+  |`spruce_fence`||
+  |`minecraft:dark_oak_sapling`||
+  |`dark_oak_sapling`||
+  |`minecraft:melon_block`||
+  |`melon_block`||
+  |`minecraft:black_concrete_powder`||
+  |`black_concrete_powder`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`waxed_cut_copper_stairs`||
+  |`minecraft:mob_spawner`||
+  |`mob_spawner`||
+  |`minecraft:polished_granite`||
+  |`polished_granite`||
+  |`minecraft:soul_fire`||
+  |`soul_fire`||
+  |`minecraft:magenta_candle`||
+  |`magenta_candle`||
+  |`minecraft:mangrove_double_slab`||
+  |`mangrove_double_slab`||
+  |`minecraft:light_gray_stained_glass`||
+  |`light_gray_stained_glass`||
+  |`minecraft:obsidian`||
+  |`obsidian`||
+  |`minecraft:light_gray_stained_glass_pane`||
+  |`light_gray_stained_glass_pane`||
+  |`minecraft:dark_oak_slab`||
+  |`dark_oak_slab`||
+  |`minecraft:deepslate_brick_wall`||
+  |`deepslate_brick_wall`||
+  |`minecraft:waxed_exposed_copper_grate`||
+  |`waxed_exposed_copper_grate`||
+  |`minecraft:oxidized_double_cut_copper_slab`||
+  |`oxidized_double_cut_copper_slab`||
+  |`minecraft:exposed_copper`||
+  |`exposed_copper`||
+  |`minecraft:polished_deepslate_double_slab`||
+  |`polished_deepslate_double_slab`||
+  |`minecraft:stone_button`||
+  |`stone_button`||
+  |`minecraft:waxed_copper_bulb`||
+  |`waxed_copper_bulb`||
+  |`minecraft:sponge`||
+  |`sponge`||
+  |`minecraft:exposed_double_cut_copper_slab`||
+  |`exposed_double_cut_copper_slab`||
+  |`minecraft:bamboo_fence`||
+  |`bamboo_fence`||
+  |`minecraft:normal_stone_stairs`||
+  |`normal_stone_stairs`||
+  |`minecraft:hardened_clay`||
+  |`hardened_clay`||
+  |`minecraft:birch_hanging_sign`||
+  |`birch_hanging_sign`||
+  |`minecraft:stripped_jungle_log`||
+  |`stripped_jungle_log`||
+  |`minecraft:oak_sapling`||
+  |`oak_sapling`||
+  |`minecraft:polished_blackstone_double_slab`||
+  |`polished_blackstone_double_slab`||
+  |`minecraft:light_gray_terracotta`||
+  |`light_gray_terracotta`||
+  |`minecraft:smoker`||
+  |`smoker`||
+  |`minecraft:brown_stained_glass`||
+  |`brown_stained_glass`||
+  |`minecraft:andesite`||
+  |`andesite`||
+  |`minecraft:fire_coral`||
+  |`fire_coral`||
+  |`minecraft:stone`||
+  |`stone`||
+  |`minecraft:birch_log`||
+  |`birch_log`||
+  |`minecraft:tuff_brick_wall`||
+  |`tuff_brick_wall`||
+  |`minecraft:brain_coral`||
+  |`brain_coral`||
+  |`minecraft:stripped_spruce_wood`||
+  |`stripped_spruce_wood`||
+  |`minecraft:orange_wool`||
+  |`orange_wool`||
+  |`minecraft:polished_blackstone_brick_double_slab`||
+  |`polished_blackstone_brick_double_slab`||
+  |`minecraft:crimson_double_slab`||
+  |`crimson_double_slab`||
+  |`minecraft:respawn_anchor`||
+  |`respawn_anchor`||
+  |`minecraft:light_gray_concrete`||
+  |`light_gray_concrete`||
+  |`minecraft:green_candle`||
+  |`green_candle`||
+  |`minecraft:waxed_exposed_copper`||
+  |`waxed_exposed_copper`||
+  |`minecraft:birch_wood`||
+  |`birch_wood`||
+  |`minecraft:hay_block`||
+  |`hay_block`||
+  |`minecraft:jungle_wood`||
+  |`jungle_wood`||
+  |`minecraft:waxed_weathered_copper`||
+  |`waxed_weathered_copper`||
+  |`minecraft:waxed_oxidized_cut_copper_slab`||
+  |`waxed_oxidized_cut_copper_slab`||
+  |`minecraft:oak_leaves`||
+  |`oak_leaves`||
+  |`minecraft:brain_coral_fan`||
+  |`brain_coral_fan`||
+  |`minecraft:cyan_candle_cake`||
+  |`cyan_candle_cake`||
+  |`minecraft:polished_tuff_wall`||
+  |`polished_tuff_wall`||
+  |`minecraft:bamboo_stairs`||
+  |`bamboo_stairs`||
+  |`minecraft:torch`||
+  |`torch`||
+  |`minecraft:mud_brick_wall`||
+  |`mud_brick_wall`||
+  |`minecraft:honey_block`||
+  |`honey_block`||
+  |`minecraft:dripstone_block`||
+  |`dripstone_block`||
+  |`minecraft:vine`||
+  |`vine`||
+  |`minecraft:cherry_trapdoor`||
+  |`cherry_trapdoor`||
+  |`minecraft:blackstone_slab`||
+  |`blackstone_slab`||
+  |`minecraft:gold_ore`||
+  |`gold_ore`||
+  |`minecraft:yellow_glazed_terracotta`||
+  |`yellow_glazed_terracotta`||
+  |`minecraft:warped_planks`||
+  |`warped_planks`||
+  |`minecraft:piston`||
+  |`piston`||
+  |`minecraft:brown_carpet`||
+  |`brown_carpet`||
+  |`minecraft:tallgrass`||
+  |`tallgrass`||
+  |`minecraft:stone_brick_stairs`||
+  |`stone_brick_stairs`||
+  |`minecraft:gray_candle`||
+  |`gray_candle`||
+  |`minecraft:cherry_fence`||
+  |`cherry_fence`||
+  |`minecraft:mangrove_planks`||
+  |`mangrove_planks`||
+  |`minecraft:red_terracotta`||
+  |`red_terracotta`||
+  |`minecraft:oxidized_copper_bulb`||
+  |`oxidized_copper_bulb`||
+  |`minecraft:magenta_wool`||
+  |`magenta_wool`||
+  |`minecraft:magenta_glazed_terracotta`||
+  |`magenta_glazed_terracotta`||
+  |`minecraft:polished_blackstone_brick_wall`||
+  |`polished_blackstone_brick_wall`||
+  |`minecraft:mangrove_slab`||
+  |`mangrove_slab`||
+  |`minecraft:orange_glazed_terracotta`||
+  |`orange_glazed_terracotta`||
+  |`minecraft:smooth_basalt`||
+  |`smooth_basalt`||
+  |`minecraft:waterlily`||
+  |`waterlily`||
+  |`minecraft:emerald_block`||
+  |`emerald_block`||
+  |`minecraft:suspicious_sand`||
+  |`suspicious_sand`||
+  |`minecraft:heavy_weighted_pressure_plate`||
+  |`heavy_weighted_pressure_plate`||
+  |`minecraft:purple_stained_glass`||
+  |`purple_stained_glass`||
+  |`minecraft:lightning_rod`||
+  |`lightning_rod`||
+  |`minecraft:acacia_leaves`||
+  |`acacia_leaves`||
+  |`minecraft:black_stained_glass_pane`||
+  |`black_stained_glass_pane`||
+  |`minecraft:cobblestone_wall`||
+  |`cobblestone_wall`||
+  |`minecraft:deepslate_brick_double_slab`||
+  |`deepslate_brick_double_slab`||
+  |`minecraft:spruce_double_slab`||
+  |`spruce_double_slab`||
+  |`minecraft:bamboo_mosaic_slab`||
+  |`bamboo_mosaic_slab`||
+  |`minecraft:dark_oak_log`||
+  |`dark_oak_log`||
+  |`minecraft:acacia_hanging_sign`||
+  |`acacia_hanging_sign`||
+  |`minecraft:ochre_froglight`||
+  |`ochre_froglight`||
+  |`minecraft:tuff_wall`||
+  |`tuff_wall`||
+  |`minecraft:observer`||
+  |`observer`||
+  |`minecraft:redstone_torch`||
+  |`redstone_torch`||
+  |`minecraft:silver_glazed_terracotta`||
+  |`silver_glazed_terracotta`||
+  |`minecraft:granite_stairs`||
+  |`granite_stairs`||
+  |`minecraft:pink_concrete`||
+  |`pink_concrete`||
+  |`minecraft:dark_oak_hanging_sign`||
+  |`dark_oak_hanging_sign`||
+  |`minecraft:brown_mushroom`||
+  |`brown_mushroom`||
+  |`minecraft:cyan_concrete_powder`||
+  |`cyan_concrete_powder`||
+  |`minecraft:brown_glazed_terracotta`||
+  |`brown_glazed_terracotta`||
+  |`minecraft:waxed_copper_trapdoor`||
+  |`waxed_copper_trapdoor`||
+  |`minecraft:oxidized_copper`||
+  |`oxidized_copper`||
+  |`minecraft:copper_ore`||
+  |`copper_ore`||
+  |`minecraft:dark_oak_planks`||
+  |`dark_oak_planks`||
+  |`minecraft:birch_pressure_plate`||
+  |`birch_pressure_plate`||
+  |`minecraft:scaffolding`||
+  |`scaffolding`||
+  |`minecraft:sandstone_stairs`||
+  |`sandstone_stairs`||
+  |`minecraft:green_candle_cake`||
+  |`green_candle_cake`||
+  |`minecraft:stripped_bamboo_block`||
+  |`stripped_bamboo_block`||
+  |`minecraft:red_mushroom_block`||
+  |`red_mushroom_block`||
+  |`minecraft:sculk_catalyst`||
+  |`sculk_catalyst`||
+  |`minecraft:cobblestone`||
+  |`cobblestone`||
+  |`minecraft:horn_coral`||
+  |`horn_coral`||
+  |`minecraft:yellow_concrete`||
+  |`yellow_concrete`||
+  |`minecraft:cyan_carpet`||
+  |`cyan_carpet`||
+  |`minecraft:oak_double_slab`||
+  |`oak_double_slab`||
+  |`minecraft:smooth_sandstone_stairs`||
+  |`smooth_sandstone_stairs`||
+  |`minecraft:jungle_pressure_plate`||
+  |`jungle_pressure_plate`||
+  |`minecraft:double_cut_copper_slab`||
+  |`double_cut_copper_slab`||
+  |`minecraft:blue_terracotta`||
+  |`blue_terracotta`||
+  |`minecraft:sandstone`||
+  |`sandstone`||
+  |`minecraft:brown_candle_cake`||
+  |`brown_candle_cake`||
+  |`minecraft:acacia_wall_sign`||
+  |`acacia_wall_sign`||
+  |`minecraft:light_weighted_pressure_plate`||
+  |`light_weighted_pressure_plate`||
+  |`minecraft:undyed_shulker_box`||
+  |`undyed_shulker_box`||
+  |`minecraft:polished_blackstone`||
+  |`polished_blackstone`||
+  |`minecraft:mycelium`||
+  |`mycelium`||
+  |`minecraft:bamboo`||
+  |`bamboo`||
+  |`minecraft:quartz_block`||
+  |`quartz_block`||
+  |`minecraft:stone_stairs`||
+  |`stone_stairs`||
+  |`minecraft:waxed_weathered_chiseled_copper`||
+  |`waxed_weathered_chiseled_copper`||
+  |`minecraft:gray_stained_glass`||
+  |`gray_stained_glass`||
+  |`minecraft:green_terracotta`||
+  |`green_terracotta`||
+  |`minecraft:deepslate_brick_slab`||
+  |`deepslate_brick_slab`||
+  |`minecraft:warped_stairs`||
+  |`warped_stairs`||
+  |`minecraft:smithing_table`||
+  |`smithing_table`||
+  |`minecraft:weathered_copper_grate`||
+  |`weathered_copper_grate`||
+  |`minecraft:poppy`||
+  |`poppy`||
+  |`minecraft:tuff_brick_slab`||
+  |`tuff_brick_slab`||
+  |`minecraft:green_wool`||
+  |`green_wool`||
+  |`minecraft:green_carpet`||
+  |`green_carpet`||
+  |`minecraft:wooden_door`||
+  |`wooden_door`||
+  |`minecraft:pitcher_plant`||
+  |`pitcher_plant`||
+  |`minecraft:spruce_pressure_plate`||
+  |`spruce_pressure_plate`||
+  |`minecraft:netherite_block`||
+  |`netherite_block`||
+  |`minecraft:pink_wool`||
+  |`pink_wool`||
+  |`minecraft:redstone_block`||
+  |`redstone_block`||
+  |`minecraft:birch_fence_gate`||
+  |`birch_fence_gate`||
+  |`minecraft:redstone_wire`||
+  |`redstone_wire`||
+  |`minecraft:waxed_exposed_cut_copper`||
+  |`waxed_exposed_cut_copper`||
+  |`minecraft:lava`||
+  |`lava`||
+  |`minecraft:jungle_hanging_sign`||
+  |`jungle_hanging_sign`||
+  |`minecraft:birch_slab`||
+  |`birch_slab`||
+  |`minecraft:loom`||
+  |`loom`||
+  |`minecraft:end_stone`||
+  |`end_stone`||
+  |`minecraft:polished_tuff_double_slab`||
+  |`polished_tuff_double_slab`||
+  |`minecraft:crimson_door`||
+  |`crimson_door`||
+  |`minecraft:mangrove_pressure_plate`||
+  |`mangrove_pressure_plate`||
+  |`minecraft:jungle_slab`||
+  |`jungle_slab`||
+  |`minecraft:light_blue_stained_glass_pane`||
+  |`light_blue_stained_glass_pane`||
+  |`minecraft:glowstone`||
+  |`glowstone`||
+  |`minecraft:stone_pressure_plate`||
+  |`stone_pressure_plate`||
+  |`minecraft:waxed_exposed_cut_copper_stairs`||
+  |`waxed_exposed_cut_copper_stairs`||
+  |`minecraft:mud_brick_slab`||
+  |`mud_brick_slab`||
+  |`minecraft:farmland`||
+  |`farmland`||
+  |`minecraft:rail`||
+  |`rail`||
+  |`minecraft:blackstone_wall`||
+  |`blackstone_wall`||
+  |`minecraft:mossy_cobblestone_stairs`||
+  |`mossy_cobblestone_stairs`||
+  |`minecraft:coral_fan_hang2`||
+  |`coral_fan_hang2`||
+  |`minecraft:coral_fan_hang3`||
+  |`coral_fan_hang3`||
+  |`minecraft:detector_rail`||
+  |`detector_rail`||
+  |`minecraft:monster_egg`||
+  |`monster_egg`||
+  |`minecraft:blue_orchid`||
+  |`blue_orchid`||
+  |`minecraft:green_stained_glass_pane`||
+  |`green_stained_glass_pane`||
+  |`minecraft:polished_granite_stairs`||
+  |`polished_granite_stairs`||
+  |`minecraft:birch_leaves`||
+  |`birch_leaves`||
+  |`minecraft:pink_terracotta`||
+  |`pink_terracotta`||
+  |`minecraft:dark_oak_double_slab`||
+  |`dark_oak_double_slab`||
+  |`minecraft:pink_candle_cake`||
+  |`pink_candle_cake`||
+  |`minecraft:cracked_deepslate_tiles`||
+  |`cracked_deepslate_tiles`||
+  |`minecraft:mangrove_wood`||
+  |`mangrove_wood`||
+  |`minecraft:red_glazed_terracotta`||
+  |`red_glazed_terracotta`||
+  |`minecraft:dark_oak_fence_gate`||
+  |`dark_oak_fence_gate`||
+  |`minecraft:bamboo_mosaic_double_slab`||
+  |`bamboo_mosaic_double_slab`||
+  |`minecraft:crimson_nylium`||
+  |`crimson_nylium`||
+  |`minecraft:structure_void`||
+  |`structure_void`||
+  |`minecraft:purple_concrete`||
+  |`purple_concrete`||
+  |`minecraft:waxed_exposed_copper_bulb`||
+  |`waxed_exposed_copper_bulb`||
+  |`minecraft:polished_blackstone_brick_slab`||
+  |`polished_blackstone_brick_slab`||
+  |`minecraft:spruce_sapling`||
+  |`spruce_sapling`||
+  |`minecraft:yellow_terracotta`||
+  |`yellow_terracotta`||
+  |`minecraft:snow`||
+  |`snow`||
+  |`minecraft:sand`||
+  |`sand`||
+  |`minecraft:daylight_detector`||
+  |`daylight_detector`||
+  |`minecraft:mangrove_standing_sign`||
+  |`mangrove_standing_sign`||
+  |`minecraft:stripped_mangrove_wood`||
+  |`stripped_mangrove_wood`||
+  |`minecraft:conduit`||
+  |`conduit`||
+  |`minecraft:slime`||
+  |`slime`||
+  |`minecraft:bone_block`||
+  |`bone_block`||
+  |`minecraft:frame`||
+  |`frame`||
+  |`minecraft:spruce_log`||
+  |`spruce_log`||
+  |`minecraft:stone_block_slab`||
+  |`stone_block_slab`||
+  |`minecraft:lapis_block`||
+  |`lapis_block`||
+  |`minecraft:coal_ore`||
+  |`coal_ore`||
+  |`minecraft:redstone_ore`||
+  |`redstone_ore`||
+  |`minecraft:bamboo_double_slab`||
+  |`bamboo_double_slab`||
+  |`minecraft:green_stained_glass`||
+  |`green_stained_glass`||
+  |`minecraft:nether_brick_fence`||
+  |`nether_brick_fence`||
+  |`minecraft:pink_tulip`||
+  |`pink_tulip`||
+  |`minecraft:oak_slab`||
+  |`oak_slab`||
+  |`minecraft:deepslate_tile_slab`||
+  |`deepslate_tile_slab`||
+  |`minecraft:pink_concrete_powder`||
+  |`pink_concrete_powder`||
+  |`minecraft:dead_tube_coral`||
+  |`dead_tube_coral`||
+  |`minecraft:nether_wart_block`||
+  |`nether_wart_block`||
+  |`minecraft:cherry_door`||
+  |`cherry_door`||
+  |`minecraft:crimson_hyphae`||
+  |`crimson_hyphae`||
+  |`minecraft:polished_blackstone_stairs`||
+  |`polished_blackstone_stairs`||
+  |`minecraft:weathered_cut_copper_stairs`||
+  |`weathered_cut_copper_stairs`||
+  |`minecraft:small_dripleaf_block`||
+  |`small_dripleaf_block`||
+  |`minecraft:pink_stained_glass`||
+  |`pink_stained_glass`||
+  |`minecraft:waxed_weathered_copper_grate`||
+  |`waxed_weathered_copper_grate`||
+  |`minecraft:spruce_button`||
+  |`spruce_button`||
+  |`minecraft:acacia_log`||
+  |`acacia_log`||
+  |`minecraft:crimson_trapdoor`||
+  |`crimson_trapdoor`||
+  |`minecraft:basalt`||
+  |`basalt`||
+  |`minecraft:light_blue_terracotta`||
+  |`light_blue_terracotta`||
+  |`minecraft:lit_redstone_lamp`||
+  |`lit_redstone_lamp`||
+  |`minecraft:diamond_ore`||
+  |`diamond_ore`||
+  |`minecraft:warped_roots`||
+  |`warped_roots`||
+  |`minecraft:magenta_concrete`||
+  |`magenta_concrete`||
+  |`minecraft:sticky_piston`||
+  |`sticky_piston`||
+  |`minecraft:ender_chest`||
+  |`ender_chest`||
+  |`minecraft:medium_amethyst_bud`||
+  |`medium_amethyst_bud`||
+  |`minecraft:pink_shulker_box`||
+  |`pink_shulker_box`||
+  |`minecraft:warped_double_slab`||
+  |`warped_double_slab`||
+  |`minecraft:jungle_wall_sign`||
+  |`jungle_wall_sign`||
+  |`minecraft:sculk_sensor`||
+  |`sculk_sensor`||
+  |`minecraft:copper_bulb`||
+  |`copper_bulb`||
+  |`minecraft:diorite_stairs`||
+  |`diorite_stairs`||
+  |`minecraft:spruce_leaves`||
+  |`spruce_leaves`||
+  |`minecraft:frog_spawn`||
+  |`frog_spawn`||
+  |`minecraft:acacia_door`||
+  |`acacia_door`||
+  |`minecraft:red_shulker_box`||
+  |`red_shulker_box`||
+  |`minecraft:stripped_cherry_log`||
+  |`stripped_cherry_log`||
+  |`minecraft:crimson_button`||
+  |`crimson_button`||
+  |`minecraft:acacia_planks`||
+  |`acacia_planks`||
+  |`minecraft:magenta_concrete_powder`||
+  |`magenta_concrete_powder`||
+  |`minecraft:iron_door`||
+  |`iron_door`||
+  |`minecraft:honeycomb_block`||
+  |`honeycomb_block`||
+  |`minecraft:polished_blackstone_brick_stairs`||
+  |`polished_blackstone_brick_stairs`||
+  |`minecraft:mangrove_trapdoor`||
+  |`mangrove_trapdoor`||
+  |`minecraft:quartz_ore`||
+  |`quartz_ore`||
+  |`minecraft:daylight_detector_inverted`||
+  |`daylight_detector_inverted`||
+  |`minecraft:barrel`||
+  |`barrel`||
+  |`minecraft:chorus_flower`||
+  |`chorus_flower`||
+  |`minecraft:coral_fan_hang`||
+  |`coral_fan_hang`||
+  |`minecraft:orange_stained_glass`||
+  |`orange_stained_glass`||
+  |`minecraft:white_stained_glass_pane`||
+  |`white_stained_glass_pane`||
+  |`minecraft:stripped_birch_wood`||
+  |`stripped_birch_wood`||
+  |`minecraft:cracked_nether_bricks`||
+  |`cracked_nether_bricks`||
+  |`minecraft:powered_repeater`||
+  |`powered_repeater`||
+  |`minecraft:light_blue_candle`||
+  |`light_blue_candle`||
+  |`minecraft:pumpkin`||
+  |`pumpkin`||
+  |`minecraft:deepslate_tiles`||
+  |`deepslate_tiles`||
+  |`minecraft:smooth_stone`||
+  |`smooth_stone`||
+  |`minecraft:gray_terracotta`||
+  |`gray_terracotta`||
+  |`minecraft:oxidized_copper_trapdoor`||
+  |`oxidized_copper_trapdoor`||
+  |`minecraft:white_tulip`||
+  |`white_tulip`||
+  |`minecraft:lime_concrete`||
+  |`lime_concrete`||
+  |`minecraft:black_candle_cake`||
+  |`black_candle_cake`||
+  |`minecraft:red_mushroom`||
+  |`red_mushroom`||
+  |`minecraft:gilded_blackstone`||
+  |`gilded_blackstone`||
+  |`minecraft:magenta_terracotta`||
+  |`magenta_terracotta`||
+  |`minecraft:exposed_cut_copper_stairs`||
+  |`exposed_cut_copper_stairs`||
+  |`minecraft:mangrove_stairs`||
+  |`mangrove_stairs`||
+  |`minecraft:cut_copper_stairs`||
+  |`cut_copper_stairs`||
+  |`minecraft:cherry_button`||
+  |`cherry_button`||
+  |`minecraft:yellow_candle_cake`||
+  |`yellow_candle_cake`||
+  |`minecraft:mangrove_fence_gate`||
+  |`mangrove_fence_gate`||
+  |`minecraft:pink_petals`||
+  |`pink_petals`||
+  |`minecraft:bamboo_hanging_sign`||
+  |`bamboo_hanging_sign`||
+  |`minecraft:infested_deepslate`||
+  |`infested_deepslate`||
+  |`minecraft:soul_torch`||
+  |`soul_torch`||
+  |`minecraft:podzol`||
+  |`podzol`||
+  |`minecraft:copper_block`||
+  |`copper_block`||
+  |`minecraft:lit_redstone_ore`||
+  |`lit_redstone_ore`||
+  |`minecraft:deepslate_tile_stairs`||
+  |`deepslate_tile_stairs`||
+  |`minecraft:crimson_fence_gate`||
+  |`crimson_fence_gate`||
+  |`minecraft:deadbush`||
+  |`deadbush`||
+  |`minecraft:waxed_weathered_double_cut_copper_slab`||
+  |`waxed_weathered_double_cut_copper_slab`||
+  |`minecraft:polished_blackstone_bricks`||
+  |`polished_blackstone_bricks`||
+  |`minecraft:red_candle`||
+  |`red_candle`||
+  |`minecraft:cut_copper`||
+  |`cut_copper`||
+  |`minecraft:iron_ore`||
+  |`iron_ore`||
+  |`minecraft:spruce_door`||
+  |`spruce_door`||
+  |`minecraft:frosted_ice`||
+  |`frosted_ice`||
+  |`minecraft:large_amethyst_bud`||
+  |`large_amethyst_bud`||
+  |`minecraft:exposed_copper_door`||
+  |`exposed_copper_door`||
+  |`minecraft:suspicious_gravel`||
+  |`suspicious_gravel`||
+  |`minecraft:warped_trapdoor`||
+  |`warped_trapdoor`||
+  |`minecraft:flowing_water`||
+  |`flowing_water`||
+  |`minecraft:brick_block`||
+  |`brick_block`||
+  |`minecraft:waxed_weathered_copper_trapdoor`||
+  |`waxed_weathered_copper_trapdoor`||
+  |`minecraft:quartz_stairs`||
+  |`quartz_stairs`||
+  |`minecraft:cave_vines`||
+  |`cave_vines`||
+  |`minecraft:magenta_stained_glass_pane`||
+  |`magenta_stained_glass_pane`||
+  |`minecraft:iron_bars`||
+  |`iron_bars`||
+  |`minecraft:white_terracotta`||
+  |`white_terracotta`||
+  |`minecraft:stripped_oak_wood`||
+  |`stripped_oak_wood`||
+  |`minecraft:light_blue_carpet`||
+  |`light_blue_carpet`||
+  |`minecraft:oak_hanging_sign`||
+  |`oak_hanging_sign`||
+  |`minecraft:white_concrete_powder`||
+  |`white_concrete_powder`||
+  |`minecraft:melon_stem`||
+  |`melon_stem`||
+  |`minecraft:crimson_planks`||
+  |`crimson_planks`||
+  |`minecraft:stripped_dark_oak_wood`||
+  |`stripped_dark_oak_wood`||
+  |`minecraft:waxed_weathered_cut_copper`||
+  |`waxed_weathered_cut_copper`||
+  |`minecraft:white_stained_glass`||
+  |`white_stained_glass`||
+  |`minecraft:oak_wood`||
+  |`oak_wood`||
+  |`minecraft:purple_stained_glass_pane`||
+  |`purple_stained_glass_pane`||
+  |`minecraft:waxed_oxidized_copper_trapdoor`||
+  |`waxed_oxidized_copper_trapdoor`||
+  |`minecraft:wall_sign`||
+  |`wall_sign`||
+  |`minecraft:jukebox`||
+  |`jukebox`||
+  |`minecraft:stripped_cherry_wood`||
+  |`stripped_cherry_wood`||
+  |`minecraft:border_block`||
+  |`border_block`||
+  |`minecraft:shroomlight`||
+  |`shroomlight`||
+  |`minecraft:bamboo_fence_gate`||
+  |`bamboo_fence_gate`||
+  |`minecraft:cornflower`||
+  |`cornflower`||
+  |`minecraft:chiseled_polished_blackstone`||
+  |`chiseled_polished_blackstone`||
+  |`minecraft:dark_oak_stairs`||
+  |`dark_oak_stairs`||
+  |`minecraft:deepslate_tile_wall`||
+  |`deepslate_tile_wall`||
+  |`minecraft:glass_pane`||
+  |`glass_pane`||
+  |`minecraft:chiseled_deepslate`||
+  |`chiseled_deepslate`||
+  |`minecraft:cut_copper_slab`||
+  |`cut_copper_slab`||
+  |`minecraft:coral_block`||
+  |`coral_block`||
+  |`minecraft:red_stained_glass`||
+  |`red_stained_glass`||
+  |`minecraft:acacia_pressure_plate`||
+  |`acacia_pressure_plate`||
+  |`minecraft:bamboo_trapdoor`||
+  |`bamboo_trapdoor`||
+  |`minecraft:oxidized_chiseled_copper`||
+  |`oxidized_chiseled_copper`||
+  |`minecraft:mangrove_wall_sign`||
+  |`mangrove_wall_sign`||
+  |`minecraft:raw_copper_block`||
+  |`raw_copper_block`||
+  |`minecraft:oxidized_cut_copper_slab`||
+  |`oxidized_cut_copper_slab`||
+  |`minecraft:beetroot`||
+  |`beetroot`||
+  |`minecraft:skull`||
+  |`skull`||
+  |`minecraft:light_gray_candle_cake`||
+  |`light_gray_candle_cake`||
+  |`minecraft:white_candle`||
+  |`white_candle`||
+  |`minecraft:andesite_stairs`||
+  |`andesite_stairs`||
+  |`minecraft:birch_planks`||
+  |`birch_planks`||
+  |`minecraft:golden_rail`||
+  |`golden_rail`||
+  |`minecraft:cyan_wool`||
+  |`cyan_wool`||
+  |`minecraft:darkoak_wall_sign`||
+  |`darkoak_wall_sign`||
+  |`minecraft:jungle_leaves`||
+  |`jungle_leaves`||
+  |`minecraft:gray_shulker_box`||
+  |`gray_shulker_box`||
+  |`minecraft:red_sandstone_stairs`||
+  |`red_sandstone_stairs`||
+  |`minecraft:cyan_glazed_terracotta`||
+  |`cyan_glazed_terracotta`||
+  |`minecraft:cracked_deepslate_bricks`||
+  |`cracked_deepslate_bricks`||
+  |`minecraft:jungle_fence_gate`||
+  |`jungle_fence_gate`||
+  |`minecraft:exposed_copper_grate`||
+  |`exposed_copper_grate`||
+  |`minecraft:waxed_copper_grate`||
+  |`waxed_copper_grate`||
+  |`minecraft:jungle_trapdoor`||
+  |`jungle_trapdoor`||
+  |`minecraft:dirt_with_roots`||
+  |`dirt_with_roots`||
+  |`minecraft:coal_block`||
+  |`coal_block`||
+  |`minecraft:white_wool`||
+  |`white_wool`||
+  |`minecraft:warped_fence_gate`||
+  |`warped_fence_gate`||
+  |`minecraft:composter`||
+  |`composter`||
+  |`minecraft:waxed_double_cut_copper_slab`||
+  |`waxed_double_cut_copper_slab`||
+  |`minecraft:kelp`||
+  |`kelp`||
+  |`minecraft:double_plant`||
+  |`double_plant`||
+  |`minecraft:waxed_exposed_copper_door`||
+  |`waxed_exposed_copper_door`||
+  |`minecraft:deepslate_bricks`||
+  |`deepslate_bricks`||
+  |`minecraft:blue_glazed_terracotta`||
+  |`blue_glazed_terracotta`||
+  |`minecraft:light_blue_glazed_terracotta`||
+  |`light_blue_glazed_terracotta`||
+  |`minecraft:flowering_azalea`||
+  |`flowering_azalea`||
+  |`minecraft:oxidized_cut_copper`||
+  |`oxidized_cut_copper`||
+  |`minecraft:blue_wool`||
+  |`blue_wool`||
+  |`minecraft:weeping_vines`||
+  |`weeping_vines`||
+  |`minecraft:chorus_plant`||
+  |`chorus_plant`||
+  |`minecraft:water`||
+  |`water`||
+  |`minecraft:mud_brick_stairs`||
+  |`mud_brick_stairs`||
+  |`minecraft:unpowered_repeater`||
+  |`unpowered_repeater`||
+  |`minecraft:smooth_red_sandstone_stairs`||
+  |`smooth_red_sandstone_stairs`||
+  |`minecraft:element_100`||
+  |`element_100`||
+  |`minecraft:element_101`||
+  |`element_101`||
+  |`minecraft:element_102`||
+  |`element_102`||
+  |`minecraft:element_103`||
+  |`element_103`||
+  |`minecraft:element_104`||
+  |`element_104`||
+  |`minecraft:element_105`||
+  |`element_105`||
+  |`minecraft:element_106`||
+  |`element_106`||
+  |`minecraft:element_107`||
+  |`element_107`||
+  |`minecraft:element_108`||
+  |`element_108`||
+  |`minecraft:element_109`||
+  |`element_109`||
+  |`minecraft:element_113`||
+  |`element_113`||
+  |`minecraft:element_112`||
+  |`element_112`||
+  |`minecraft:element_111`||
+  |`element_111`||
+  |`minecraft:element_110`||
+  |`element_110`||
+  |`minecraft:element_117`||
+  |`element_117`||
+  |`minecraft:element_116`||
+  |`element_116`||
+  |`minecraft:element_115`||
+  |`element_115`||
+  |`minecraft:element_114`||
+  |`element_114`||
+  |`minecraft:element_118`||
+  |`element_118`||
+  |`minecraft:white_glazed_terracotta`||
+  |`white_glazed_terracotta`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`stripped_warped_hyphae`||
+  |`minecraft:trapped_chest`||
+  |`trapped_chest`||
+  |`minecraft:acacia_trapdoor`||
+  |`acacia_trapdoor`||
+  |`minecraft:standing_sign`||
+  |`standing_sign`||
+  |`minecraft:bamboo_planks`||
+  |`bamboo_planks`||
+  |`minecraft:glow_lichen`||
+  |`glow_lichen`||
+  |`minecraft:wall_banner`||
+  |`wall_banner`||
+  |`minecraft:twisting_vines`||
+  |`twisting_vines`||
+  |`minecraft:chiseled_copper`||
+  |`chiseled_copper`||
+  |`minecraft:acacia_double_slab`||
+  |`acacia_double_slab`||
+  |`minecraft:dark_oak_door`||
+  |`dark_oak_door`||
+  |`minecraft:oak_fence`||
+  |`oak_fence`||
+  |`minecraft:soul_lantern`||
+  |`soul_lantern`||
+  |`minecraft:dirt`||
+  |`dirt`||
+  |`minecraft:blue_stained_glass`||
+  |`blue_stained_glass`||
+  |`minecraft:deny`||
+  |`deny`||
+  |`minecraft:bee_nest`||
+  |`bee_nest`||
+  |`minecraft:bubble_column`||
+  |`bubble_column`||
+  |`minecraft:campfire`||
+  |`campfire`||
+  |`minecraft:light_blue_stained_glass`||
+  |`light_blue_stained_glass`||
+  |`minecraft:stone_block_slab2`||
+  |`stone_block_slab2`||
+  |`minecraft:stone_block_slab3`||
+  |`stone_block_slab3`||
+  |`minecraft:stone_block_slab4`||
+  |`stone_block_slab4`||
+  |`minecraft:soul_soil`||
+  |`soul_soil`||
+  |`minecraft:soul_sand`||
+  |`soul_sand`||
+  |`minecraft:spruce_hanging_sign`||
+  |`spruce_hanging_sign`||
+  |`minecraft:polished_diorite`||
+  |`polished_diorite`||
+  |`minecraft:reinforced_deepslate`||
+  |`reinforced_deepslate`||
+  |`minecraft:fletching_table`||
+  |`fletching_table`||
+  |`minecraft:cherry_leaves`||
+  |`cherry_leaves`||
+  |`minecraft:black_glazed_terracotta`||
+  |`black_glazed_terracotta`||
+  |`minecraft:waxed_oxidized_cut_copper_stairs`||
+  |`waxed_oxidized_cut_copper_stairs`||
+  |`minecraft:waxed_weathered_copper_bulb`||
+  |`waxed_weathered_copper_bulb`||
+  |`minecraft:calibrated_sculk_sensor`||
+  |`calibrated_sculk_sensor`||
+  |`minecraft:copper_trapdoor`||
+  |`copper_trapdoor`||
+  |`minecraft:stripped_acacia_log`||
+  |`stripped_acacia_log`||
+  |`minecraft:cobbled_deepslate_double_slab`||
+  |`cobbled_deepslate_double_slab`||
+  |`minecraft:warped_fence`||
+  |`warped_fence`||
+  |`minecraft:crafting_table`||
+  |`crafting_table`||
+  |`minecraft:sea_pickle`||
+  |`sea_pickle`||
+  |`minecraft:cherry_standing_sign`||
+  |`cherry_standing_sign`||
+  |`minecraft:brown_concrete_powder`||
+  |`brown_concrete_powder`||
+  |`minecraft:mangrove_hanging_sign`||
+  |`mangrove_hanging_sign`||
+  |`minecraft:waxed_exposed_copper_trapdoor`||
+  |`waxed_exposed_copper_trapdoor`||
+  |`minecraft:brown_candle`||
+  |`brown_candle`||
+  |`minecraft:mossy_stone_brick_stairs`||
+  |`mossy_stone_brick_stairs`||
+  |`minecraft:end_rod`||
+  |`end_rod`||
+  |`minecraft:crimson_stem`||
+  |`crimson_stem`||
+  |`minecraft:green_concrete`||
+  |`green_concrete`||
+  |`minecraft:tuff_brick_double_slab`||
+  |`tuff_brick_double_slab`||
+  |`minecraft:crimson_slab`||
+  |`crimson_slab`||
+  |`minecraft:warped_hyphae`||
+  |`warped_hyphae`||
+  |`minecraft:warped_wart_block`||
+  |`warped_wart_block`||
+  |`minecraft:light_gray_shulker_box`||
+  |`light_gray_shulker_box`||
+  |`minecraft:carrots`||
+  |`carrots`||
+  |`minecraft:tuff_stairs`||
+  |`tuff_stairs`||
+  |`minecraft:yellow_carpet`||
+  |`yellow_carpet`||
+  |`minecraft:cyan_stained_glass`||
+  |`cyan_stained_glass`||
+  |`minecraft:black_stained_glass`||
+  |`black_stained_glass`||
+  |`minecraft:waxed_oxidized_copper_door`||
+  |`waxed_oxidized_copper_door`||
+  |`minecraft:dead_horn_coral`||
+  |`dead_horn_coral`||
+  |`minecraft:grass_block`||
+  |`grass_block`||
+  |`minecraft:tripwire_hook`||
+  |`tripwire_hook`||
+  |`minecraft:cave_vines_body_with_berries`||
+  |`cave_vines_body_with_berries`||
+  |`minecraft:dark_oak_pressure_plate`||
+  |`dark_oak_pressure_plate`||
+  |`minecraft:copper_door`||
+  |`copper_door`||
+  |`minecraft:stripped_birch_log`||
+  |`stripped_birch_log`||
+  |`minecraft:tinted_glass`||
+  |`tinted_glass`||
+  |`minecraft:big_dripleaf`||
+  |`big_dripleaf`||
+  |`minecraft:warped_hanging_sign`||
+  |`warped_hanging_sign`||
+  |`minecraft:lime_wool`||
+  |`lime_wool`||
+  |`minecraft:blue_candle_cake`||
+  |`blue_candle_cake`||
+  |`minecraft:sweet_berry_bush`||
+  |`sweet_berry_bush`||
+  |`minecraft:polished_blackstone_slab`||
+  |`polished_blackstone_slab`||
+  |`minecraft:reeds`||
+  |`reeds`||
+  |`minecraft:black_shulker_box`||
+  |`black_shulker_box`||
+  |`minecraft:jungle_sapling`||
+  |`jungle_sapling`||
+  |`minecraft:barrier`||
+  |`barrier`||
+  |`minecraft:torchflower_crop`||
+  |`torchflower_crop`||
+  |`minecraft:black_carpet`||
+  |`black_carpet`||
+  |`minecraft:jungle_standing_sign`||
+  |`jungle_standing_sign`||
+  |`minecraft:cherry_double_slab`||
+  |`cherry_double_slab`||
+  |`minecraft:weathered_cut_copper_slab`||
+  |`weathered_cut_copper_slab`||
+  |`minecraft:dark_oak_leaves`||
+  |`dark_oak_leaves`||
+  |`minecraft:fire`||
+  |`fire`||
+  |`minecraft:torchflower`||
+  |`torchflower`||
+  |`minecraft:end_portal_frame`||
+  |`end_portal_frame`||
+  |`minecraft:bamboo_pressure_plate`||
+  |`bamboo_pressure_plate`||
+  |`minecraft:prismarine`||
+  |`prismarine`||
+  |`minecraft:magenta_candle_cake`||
+  |`magenta_candle_cake`||
+  |`minecraft:exposed_copper_trapdoor`||
+  |`exposed_copper_trapdoor`||
+  |`minecraft:black_terracotta`||
+  |`black_terracotta`||
+  |`minecraft:deepslate_gold_ore`||
+  |`deepslate_gold_ore`||
+  |`minecraft:ancient_debris`||
+  |`ancient_debris`||
+  |`minecraft:vault`||
+  |`vault`||
+  |`minecraft:beehive`||
+  |`beehive`||
+  |`minecraft:jungle_door`||
+  |`jungle_door`||
+  |`minecraft:glass`||
+  |`glass`||
+  |`minecraft:wither_rose`||
+  |`wither_rose`||
+  |`minecraft:exposed_cut_copper`||
+  |`exposed_cut_copper`||
+  |`minecraft:waxed_weathered_cut_copper_stairs`||
+  |`waxed_weathered_cut_copper_stairs`||
+  |`minecraft:mangrove_roots`||
+  |`mangrove_roots`||
+  |`minecraft:yellow_candle`||
+  |`yellow_candle`||
+  |`minecraft:acacia_stairs`||
+  |`acacia_stairs`||
+  |`minecraft:bamboo_mosaic_stairs`||
+  |`bamboo_mosaic_stairs`||
+  |`minecraft:brown_concrete`||
+  |`brown_concrete`||
+  |`minecraft:cherry_slab`||
+  |`cherry_slab`||
+  |`minecraft:bubble_coral`||
+  |`bubble_coral`||
+  |`minecraft:orange_shulker_box`||
+  |`orange_shulker_box`||
+  |`minecraft:light_gray_candle`||
+  |`light_gray_candle`||
+  |`minecraft:polished_blackstone_pressure_plate`||
+  |`polished_blackstone_pressure_plate`||
+  |`minecraft:acacia_standing_sign`||
+  |`acacia_standing_sign`||
+  |`minecraft:tuff_brick_stairs`||
+  |`tuff_brick_stairs`||
+  |`minecraft:blue_shulker_box`||
+  |`blue_shulker_box`||
+  |`minecraft:exposed_copper_bulb`||
+  |`exposed_copper_bulb`||
+  |`minecraft:dead_fire_coral`||
+  |`dead_fire_coral`||
+  |`minecraft:crimson_stairs`||
+  |`crimson_stairs`||
+  |`minecraft:stripped_spruce_log`||
+  |`stripped_spruce_log`||
+  |`minecraft:waxed_oxidized_copper_bulb`||
+  |`waxed_oxidized_copper_bulb`||
+  |`minecraft:pumpkin_stem`||
+  |`pumpkin_stem`||
+  |`minecraft:azalea_leaves_flowered`||
+  |`azalea_leaves_flowered`||
+  |`minecraft:sticky_piston_arm_collision`||
+  |`sticky_piston_arm_collision`||
+  |`minecraft:warped_nylium`||
+  |`warped_nylium`||
+  |`minecraft:deepslate_emerald_ore`||
+  |`deepslate_emerald_ore`||
+  |`minecraft:acacia_sapling`||
+  |`acacia_sapling`||
+  |`minecraft:quartz_bricks`||
+  |`quartz_bricks`||
+  |`minecraft:unpowered_comparator`||
+  |`unpowered_comparator`||
+  |`minecraft:lime_candle`||
+  |`lime_candle`||
+  |`minecraft:structure_block`||
+  |`structure_block`||
+  |`minecraft:end_brick_stairs`||
+  |`end_brick_stairs`||
+  |`minecraft:purple_terracotta`||
+  |`purple_terracotta`||
+  |`minecraft:target`||
+  |`target`||
+  |`minecraft:wooden_button`||
+  |`wooden_button`||
+  |`minecraft:mangrove_door`||
+  |`mangrove_door`||
+  |`minecraft:weathered_copper_door`||
+  |`weathered_copper_door`||
+  |`minecraft:pearlescent_froglight`||
+  |`pearlescent_froglight`||
+  |`minecraft:double_stone_block_slab2`||
+  |`double_stone_block_slab2`||
+  |`minecraft:double_stone_block_slab3`||
+  |`double_stone_block_slab3`||
+  |`minecraft:double_stone_block_slab4`||
+  |`double_stone_block_slab4`||
+  |`minecraft:bamboo_button`||
+  |`bamboo_button`||
+  |`minecraft:nether_sprouts`||
+  |`nether_sprouts`||
+  |`minecraft:cyan_stained_glass_pane`||
+  |`cyan_stained_glass_pane`||
+  |`minecraft:verdant_froglight`||
+  |`verdant_froglight`||
+  |`minecraft:warped_slab`||
+  |`warped_slab`||
+  |`minecraft:warped_stem`||
+  |`warped_stem`||
+  |`minecraft:horn_coral_fan`||
+  |`horn_coral_fan`||
+  |`minecraft:green_shulker_box`||
+  |`green_shulker_box`||
+  |`minecraft:stripped_crimson_hyphae`||
+  |`stripped_crimson_hyphae`||
+  |`minecraft:cocoa`||
+  |`cocoa`||
+  |`minecraft:lever`||
+  |`lever`||
+  |`minecraft:bamboo_slab`||
+  |`bamboo_slab`||
+  |`minecraft:brick_stairs`||
+  |`brick_stairs`||
+  |`minecraft:weathered_copper_trapdoor`||
+  |`weathered_copper_trapdoor`||
+  |`minecraft:moss_block`||
+  |`moss_block`||
+  |`minecraft:purple_concrete_powder`||
+  |`purple_concrete_powder`||
+  |`minecraft:pink_glazed_terracotta`||
+  |`pink_glazed_terracotta`||
+  |`minecraft:waxed_weathered_cut_copper_slab`||
+  |`waxed_weathered_cut_copper_slab`||
+  |`minecraft:stonebrick`||
+  |`stonebrick`||
+  |`minecraft:fire_coral_fan`||
+  |`fire_coral_fan`||
+  |`minecraft:spruce_trapdoor`||
+  |`spruce_trapdoor`||
+  |`minecraft:chain_command_block`||
+  |`chain_command_block`||
+  |`minecraft:red_sandstone`||
+  |`red_sandstone`||
+  |`minecraft:exposed_chiseled_copper`||
+  |`exposed_chiseled_copper`||
+  |`minecraft:spruce_fence_gate`||
+  |`spruce_fence_gate`||
+  |`minecraft:exposed_cut_copper_slab`||
+  |`exposed_cut_copper_slab`||
+  |`minecraft:red_nether_brick_stairs`||
+  |`red_nether_brick_stairs`||
+  |`minecraft:green_glazed_terracotta`||
+  |`green_glazed_terracotta`||
+  |`minecraft:jungle_planks`||
+  |`jungle_planks`||
+  |`minecraft:deepslate_redstone_ore`||
+  |`deepslate_redstone_ore`||
+  |`minecraft:double_stone_block_slab`||
+  |`double_stone_block_slab`||
+  |`minecraft:mangrove_fence`||
+  |`mangrove_fence`||
+  |`minecraft:oxidized_copper_grate`||
+  |`oxidized_copper_grate`||
+  |`minecraft:anvil`||
+  |`anvil`||
+  |`minecraft:birch_trapdoor`||
+  |`birch_trapdoor`||
+  |`minecraft:tuff_bricks`||
+  |`tuff_bricks`||
+  |`minecraft:mangrove_leaves`||
+  |`mangrove_leaves`||
+  |`minecraft:cobbled_deepslate`||
+  |`cobbled_deepslate`||
+  |`minecraft:bookshelf`||
+  |`bookshelf`||
+  |`minecraft:mud`||
+  |`mud`||
+  |`minecraft:lit_pumpkin`||
+  |`lit_pumpkin`||
+  |`minecraft:ice`||
+  |`ice`||
+  |`minecraft:air`||
+  |`air`||
+  |`minecraft:bed`||
+  |`bed`||
+  |`minecraft:black_concrete`||
+  |`black_concrete`||
+  |`minecraft:tnt`||
+  |`tnt`||
+  |`minecraft:purple_candle_cake`||
+  |`purple_candle_cake`||
+  |`minecraft:web`||
+  |`web`||
+  |`minecraft:dead_tube_coral_fan`||
+  |`dead_tube_coral_fan`||
+  |`minecraft:polished_diorite_stairs`||
+  |`polished_diorite_stairs`||
+  |`minecraft:blue_concrete_powder`||
+  |`blue_concrete_powder`||
+  |`minecraft:orange_concrete`||
+  |`orange_concrete`||
+  |`minecraft:crying_obsidian`||
+  |`crying_obsidian`||
+  |`minecraft:lime_carpet`||
+  |`lime_carpet`||
+  |`minecraft:dead_fire_coral_fan`||
+  |`dead_fire_coral_fan`||
+  |`minecraft:decorated_pot`||
+  |`decorated_pot`||
+  |`minecraft:enchanting_table`||
+  |`enchanting_table`||
+  |`minecraft:polished_blackstone_wall`||
+  |`polished_blackstone_wall`||
+  |`minecraft:waxed_exposed_double_cut_copper_slab`||
+  |`waxed_exposed_double_cut_copper_slab`||
+  |`minecraft:orange_tulip`||
+  |`orange_tulip`||
+  |`minecraft:brown_shulker_box`||
+  |`brown_shulker_box`||
+  |`minecraft:azalea`||
+  |`azalea`||
+  |`minecraft:mud_bricks`||
+  |`mud_bricks`||
+  |`minecraft:birch_wall_sign`||
+  |`birch_wall_sign`||
+  |`minecraft:bamboo_wall_sign`||
+  |`bamboo_wall_sign`||
+  |`minecraft:acacia_wood`||
+  |`acacia_wood`||
+  |`minecraft:gray_stained_glass_pane`||
+  |`gray_stained_glass_pane`||
+  |`minecraft:hopper`||
+  |`hopper`||
+  |`minecraft:bell`||
+  |`bell`||
+  |`minecraft:lectern`||
+  |`lectern`||
+  |`minecraft:stripped_crimson_stem`||
+  |`stripped_crimson_stem`||
+  |`minecraft:standing_banner`||
+  |`standing_banner`||
+  |`minecraft:light_blue_shulker_box`||
+  |`light_blue_shulker_box`||
+  |`minecraft:jungle_stairs`||
+  |`jungle_stairs`||
+  |`minecraft:mangrove_propagule`||
+  |`mangrove_propagule`||
+  |`minecraft:cactus`||
+  |`cactus`||
+  |`minecraft:budding_amethyst`||
+  |`budding_amethyst`||
+  |`minecraft:sniffer_egg`||
+  |`sniffer_egg`||
+  |`minecraft:birch_stairs`||
+  |`birch_stairs`||
+  |`minecraft:purple_glazed_terracotta`||
+  |`purple_glazed_terracotta`||
+  |`minecraft:green_concrete_powder`||
+  |`green_concrete_powder`||
+  |`minecraft:bedrock`||
+  |`bedrock`||
+  |`minecraft:spruce_slab`||
+  |`spruce_slab`||
+  |`minecraft:blackstone_stairs`||
+  |`blackstone_stairs`||
+  |`minecraft:blue_ice`||
+  |`blue_ice`||
+  |`minecraft:cyan_shulker_box`||
+  |`cyan_shulker_box`||
+  |`minecraft:polished_andesite_stairs`||
+  |`polished_andesite_stairs`||
+  |`minecraft:sculk`||
+  |`sculk`||
+  |`minecraft:netherrack`||
+  |`netherrack`||
+  |`minecraft:purple_candle`||
+  |`purple_candle`||
+  |`minecraft:spruce_standing_sign`||
+  |`spruce_standing_sign`||
+  |`minecraft:mangrove_button`||
+  |`mangrove_button`||
+  |`minecraft:orange_carpet`||
+  |`orange_carpet`||
+  |`minecraft:dead_horn_coral_fan`||
+  |`dead_horn_coral_fan`||
+  |`minecraft:lantern`||
+  |`lantern`||
+  |`minecraft:waxed_weathered_copper_door`||
+  |`waxed_weathered_copper_door`||
+  |`minecraft:red_stained_glass_pane`||
+  |`red_stained_glass_pane`||
+  |`minecraft:lit_blast_furnace`||
+  |`lit_blast_furnace`||
+  |`minecraft:pink_stained_glass_pane`||
+  |`pink_stained_glass_pane`||
+  |`minecraft:light_blue_wool`||
+  |`light_blue_wool`||
+  |`minecraft:allow`||
+  |`allow`||
+  |`minecraft:dark_oak_fence`||
+  |`dark_oak_fence`||
+  |`minecraft:birch_door`||
+  |`birch_door`||
+  |`minecraft:chest`||
+  |`chest`||
+  |`minecraft:cherry_wood`||
+  |`cherry_wood`||
+  |`minecraft:chain`||
+  |`chain`||
+  |`minecraft:clay`||
+  |`clay`||
+  |`minecraft:cherry_stairs`||
+  |`cherry_stairs`||
+  |`minecraft:cake`||
+  |`cake`||
+  |`minecraft:crimson_hanging_sign`||
+  |`crimson_hanging_sign`||
+  |`minecraft:sculk_vein`||
+  |`sculk_vein`||
+  |`minecraft:dead_brain_coral`||
+  |`dead_brain_coral`||
+  |`minecraft:deepslate_coal_ore`||
+  |`deepslate_coal_ore`||
+  |`minecraft:weathered_cut_copper`||
+  |`weathered_cut_copper`||
+  |`minecraft:warped_standing_sign`||
+  |`warped_standing_sign`||
+  |`minecraft:cracked_polished_blackstone_bricks`||
+  |`cracked_polished_blackstone_bricks`||
+  |`minecraft:bamboo_standing_sign`||
+  |`bamboo_standing_sign`||
+  |`minecraft:flowing_lava`||
+  |`flowing_lava`||
+  |`minecraft:polished_tuff`||
+  |`polished_tuff`||
+  |`minecraft:magenta_stained_glass`||
+  |`magenta_stained_glass`||
+  |`minecraft:acacia_button`||
+  |`acacia_button`||
+  |`minecraft:lit_furnace`||
+  |`lit_furnace`||
+  |`minecraft:chiseled_nether_bricks`||
+  |`chiseled_nether_bricks`||
+  |`minecraft:warped_button`||
+  |`warped_button`||
+  |`minecraft:red_concrete_powder`||
+  |`red_concrete_powder`||
+  |`minecraft:light_gray_concrete_powder`||
+  |`light_gray_concrete_powder`||
+  |`minecraft:deepslate_lapis_ore`||
+  |`deepslate_lapis_ore`||
+  |`minecraft:dead_bubble_coral`||
+  |`dead_bubble_coral`||
+  |`minecraft:cherry_sapling`||
+  |`cherry_sapling`||
+  |`minecraft:cherry_log`||
+  |`cherry_log`||
+  |`minecraft:prismarine_stairs`||
+  |`prismarine_stairs`||
+  |`minecraft:white_carpet`||
+  |`white_carpet`||
+  |`minecraft:cyan_concrete`||
+  |`cyan_concrete`||
+  |`minecraft:polished_tuff_stairs`||
+  |`polished_tuff_stairs`||
+  |`minecraft:dragon_egg`||
+  |`dragon_egg`||
+  |`minecraft:blue_concrete`||
+  |`blue_concrete`||
+  |`minecraft:nether_brick`||
+  |`nether_brick`||
+  |`minecraft:deepslate_iron_ore`||
+  |`deepslate_iron_ore`||
+  |`minecraft:element_1`||
+  |`element_1`||
+  |`minecraft:element_0`||
+  |`element_0`||
+  |`minecraft:element_3`||
+  |`element_3`||
+  |`minecraft:element_2`||
+  |`element_2`||
+  |`minecraft:element_5`||
+  |`element_5`||
+  |`minecraft:element_4`||
+  |`element_4`||
+  |`minecraft:element_7`||
+  |`element_7`||
+  |`minecraft:element_6`||
+  |`element_6`||
+  |`minecraft:element_9`||
+  |`element_9`||
+  |`minecraft:element_8`||
+  |`element_8`||
+  |`minecraft:oxeye_daisy`||
+  |`oxeye_daisy`||
+  |`minecraft:wheat`||
+  |`wheat`||
+  |`minecraft:waxed_cut_copper`||
+  |`waxed_cut_copper`||
+  |`minecraft:chemistry_table`||
+  |`chemistry_table`||
+  |`minecraft:heavy_core`||
+  |`heavy_core`||
+  |`minecraft:cobbled_deepslate_slab`||
+  |`cobbled_deepslate_slab`||
+  |`minecraft:spore_blossom`||
+  |`spore_blossom`||
+  |`minecraft:crimson_standing_sign`||
+  |`crimson_standing_sign`||
+  |`minecraft:darkoak_standing_sign`||
+  |`darkoak_standing_sign`||
+  |`minecraft:weathered_double_cut_copper_slab`||
+  |`weathered_double_cut_copper_slab`||
+  |`minecraft:emerald_ore`||
+  |`emerald_ore`||
+  |`minecraft:brown_mushroom_block`||
+  |`brown_mushroom_block`||
+  |`minecraft:gray_concrete_powder`||
+  |`gray_concrete_powder`||
+  |`minecraft:gray_concrete`||
+  |`gray_concrete`||
+  |`minecraft:pink_candle`||
+  |`pink_candle`||
+  |`minecraft:purple_shulker_box`||
+  |`purple_shulker_box`||
+  |`minecraft:carved_pumpkin`||
+  |`carved_pumpkin`||
+  |`minecraft:dropper`||
+  |`dropper`||
+  |`minecraft:spruce_wall_sign`||
+  |`spruce_wall_sign`||
+  |`minecraft:stripped_warped_stem`||
+  |`stripped_warped_stem`||
+  |`minecraft:candle`||
+  |`candle`||
+  |`minecraft:pointed_dripstone`||
+  |`pointed_dripstone`||
+  |`minecraft:red_carpet`||
+  |`red_carpet`||
+  |`minecraft:deepslate_brick_stairs`||
+  |`deepslate_brick_stairs`||
+  |`minecraft:dark_prismarine_stairs`||
+  |`dark_prismarine_stairs`||
+  |`minecraft:chiseled_tuff_bricks`||
+  |`chiseled_tuff_bricks`||
+  |`minecraft:light_blue_concrete`||
+  |`light_blue_concrete`||
+  |`minecraft:red_tulip`||
+  |`red_tulip`||
+  |`minecraft:trip_wire`||
+  |`trip_wire`||
+  |`minecraft:cauldron`||
+  |`cauldron`||
+  |`minecraft:cave_vines_head_with_berries`||
+  |`cave_vines_head_with_berries`||
+  |`minecraft:birch_sapling`||
+  |`birch_sapling`||
+  |`minecraft:dark_oak_trapdoor`||
+  |`dark_oak_trapdoor`||
+  |`minecraft:orange_terracotta`||
+  |`orange_terracotta`||
+  |`minecraft:waxed_oxidized_copper`||
+  |`waxed_oxidized_copper`||
+  |`minecraft:oak_planks`||
+  |`oak_planks`||
+  |`minecraft:stripped_oak_log`||
+  |`stripped_oak_log`||
+  |`minecraft:polished_andesite`||
+  |`polished_andesite`||
+  |`minecraft:sea_lantern`||
+  |`sea_lantern`||
+  |`minecraft:brewing_stand`||
+  |`brewing_stand`||
+  |`minecraft:bamboo_sapling`||
+  |`bamboo_sapling`||
+  |`minecraft:weathered_copper_bulb`||
+  |`weathered_copper_bulb`||
+  |`minecraft:blast_furnace`||
+  |`blast_furnace`||
+  |`minecraft:crimson_roots`||
+  |`crimson_roots`||
+  |`minecraft:acacia_slab`||
+  |`acacia_slab`||
+  |`minecraft:stonecutter_block`||
+  |`stonecutter_block`||
+  |`minecraft:yellow_concrete_powder`||
+  |`yellow_concrete_powder`||
+  |`minecraft:white_candle_cake`||
+  |`white_candle_cake`||
+  |`minecraft:candle_cake`||
+  |`candle_cake`||
+  |`minecraft:lime_stained_glass_pane`||
+  |`lime_stained_glass_pane`||
+  |`minecraft:end_portal`||
+  |`end_portal`||
+  |`minecraft:yellow_stained_glass`||
+  |`yellow_stained_glass`||
+  |`minecraft:jungle_double_slab`||
+  |`jungle_double_slab`||
+  |`minecraft:spruce_wood`||
+  |`spruce_wood`||
+  |`minecraft:blackstone`||
+  |`blackstone`||
+  |`minecraft:acacia_fence_gate`||
+  |`acacia_fence_gate`||
+  |`minecraft:lit_deepslate_redstone_ore`||
+  |`lit_deepslate_redstone_ore`||
+  |`minecraft:element_10`||
+  |`element_10`||
+  |`minecraft:element_11`||
+  |`element_11`||
+  |`minecraft:element_12`||
+  |`element_12`||
+  |`minecraft:element_13`||
+  |`element_13`||
+  |`minecraft:element_14`||
+  |`element_14`||
+  |`minecraft:element_15`||
+  |`element_15`||
+  |`minecraft:element_16`||
+  |`element_16`||
+  |`minecraft:element_17`||
+  |`element_17`||
+  |`minecraft:element_18`||
+  |`element_18`||
+  |`minecraft:element_19`||
+  |`element_19`||
+  |`minecraft:element_36`||
+  |`element_36`||
+  |`minecraft:element_37`||
+  |`element_37`||
+  |`minecraft:element_34`||
+  |`element_34`||
+  |`minecraft:element_35`||
+  |`element_35`||
+  |`minecraft:element_32`||
+  |`element_32`||
+  |`minecraft:element_33`||
+  |`element_33`||
+  |`minecraft:element_30`||
+  |`element_30`||
+  |`minecraft:element_31`||
+  |`element_31`||
+  |`minecraft:element_38`||
+  |`element_38`||
+  |`minecraft:element_39`||
+  |`element_39`||
+  |`minecraft:element_29`||
+  |`element_29`||
+  |`minecraft:element_28`||
+  |`element_28`||
+  |`minecraft:element_21`||
+  |`element_21`||
+  |`minecraft:element_20`||
+  |`element_20`||
+  |`minecraft:element_23`||
+  |`element_23`||
+  |`minecraft:element_22`||
+  |`element_22`||
+  |`minecraft:element_25`||
+  |`element_25`||
+  |`minecraft:element_24`||
+  |`element_24`||
+  |`minecraft:element_27`||
+  |`element_27`||
+  |`minecraft:element_26`||
+  |`element_26`||
+  |`minecraft:element_58`||
+  |`element_58`||
+  |`minecraft:element_59`||
+  |`element_59`||
+  |`minecraft:element_54`||
+  |`element_54`||
+  |`minecraft:element_55`||
+  |`element_55`||
+  |`minecraft:element_56`||
+  |`element_56`||
+  |`minecraft:element_57`||
+  |`element_57`||
+  |`minecraft:element_50`||
+  |`element_50`||
+  |`minecraft:element_51`||
+  |`element_51`||
+  |`minecraft:element_52`||
+  |`element_52`||
+  |`minecraft:element_53`||
+  |`element_53`||
+  |`minecraft:element_49`||
+  |`element_49`||
+  |`minecraft:element_48`||
+  |`element_48`||
+  |`minecraft:element_47`||
+  |`element_47`||
+  |`minecraft:element_46`||
+  |`element_46`||
+  |`minecraft:element_45`||
+  |`element_45`||
+  |`minecraft:element_44`||
+  |`element_44`||
+  |`minecraft:element_43`||
+  |`element_43`||
+  |`minecraft:element_42`||
+  |`element_42`||
+  |`minecraft:element_41`||
+  |`element_41`||
+  |`minecraft:element_40`||
+  |`element_40`||
+  |`minecraft:element_72`||
+  |`element_72`||
+  |`minecraft:element_73`||
+  |`element_73`||
+  |`minecraft:element_70`||
+  |`element_70`||
+  |`minecraft:element_71`||
+  |`element_71`||
+  |`minecraft:element_76`||
+  |`element_76`||
+  |`minecraft:element_77`||
+  |`element_77`||
+  |`minecraft:element_74`||
+  |`element_74`||
+  |`minecraft:element_75`||
+  |`element_75`||
+  |`minecraft:element_78`||
+  |`element_78`||
+  |`minecraft:element_79`||
+  |`element_79`||
+  |`minecraft:element_65`||
+  |`element_65`||
+  |`minecraft:element_64`||
+  |`element_64`||
+  |`minecraft:element_67`||
+  |`element_67`||
+  |`minecraft:element_66`||
+  |`element_66`||
+  |`minecraft:element_61`||
+  |`element_61`||
+  |`minecraft:element_60`||
+  |`element_60`||
+  |`minecraft:element_63`||
+  |`element_63`||
+  |`minecraft:element_62`||
+  |`element_62`||
+  |`minecraft:element_69`||
+  |`element_69`||
+  |`minecraft:element_68`||
+  |`element_68`||
+  |`minecraft:element_98`||
+  |`element_98`||
+  |`minecraft:element_99`||
+  |`element_99`||
+  |`minecraft:element_90`||
+  |`element_90`||
+  |`minecraft:element_91`||
+  |`element_91`||
+  |`minecraft:element_92`||
+  |`element_92`||
+  |`minecraft:element_93`||
+  |`element_93`||
+  |`minecraft:element_94`||
+  |`element_94`||
+  |`minecraft:element_95`||
+  |`element_95`||
+  |`minecraft:element_96`||
+  |`element_96`||
+  |`minecraft:element_97`||
+  |`element_97`||
+  |`minecraft:element_89`||
+  |`element_89`||
+  |`minecraft:element_88`||
+  |`element_88`||
+  |`minecraft:element_83`||
+  |`element_83`||
+  |`minecraft:element_82`||
+  |`element_82`||
+  |`minecraft:element_81`||
+  |`element_81`||
+  |`minecraft:element_80`||
+  |`element_80`||
+  |`minecraft:element_87`||
+  |`element_87`||
+  |`minecraft:element_86`||
+  |`element_86`||
+  |`minecraft:element_85`||
+  |`element_85`||
+  |`minecraft:element_84`||
+  |`element_84`||
+  |`minecraft:lit_smoker`||
+  |`lit_smoker`||
+  |`minecraft:lapis_ore`||
+  |`lapis_ore`||
+  |`minecraft:red_concrete`||
+  |`red_concrete`||
+  |`minecraft:pink_carpet`||
+  |`pink_carpet`||
+  |`minecraft:smooth_quartz_stairs`||
+  |`smooth_quartz_stairs`||
+  |`minecraft:red_candle_cake`||
+  |`red_candle_cake`||
+  |`minecraft:azalea_leaves`||
+  |`azalea_leaves`||
+  |`minecraft:purpur_block`||
+  |`purpur_block`||
+  |`minecraft:cherry_wall_sign`||
+  |`cherry_wall_sign`||
+  |`minecraft:cyan_candle`||
+  |`cyan_candle`||
+  |`minecraft:waxed_copper`||
+  |`waxed_copper`||
+  |`minecraft:repeating_command_block`||
+  |`repeating_command_block`||
+  |`minecraft:nether_wart`||
+  |`nether_wart`||
+  |`minecraft:purple_carpet`||
+  |`purple_carpet`||
+  |`minecraft:waxed_oxidized_double_cut_copper_slab`||
+  |`waxed_oxidized_double_cut_copper_slab`||
+  |`minecraft:crimson_fungus`||
+  |`crimson_fungus`||
+  |`minecraft:cherry_planks`||
+  |`cherry_planks`||
+  |`minecraft:polished_deepslate`||
+  |`polished_deepslate`||
+  |`minecraft:tuff_double_slab`||
+  |`tuff_double_slab`||
+  |`minecraft:purpur_stairs`||
+  |`purpur_stairs`||
+  |`minecraft:tube_coral`||
+  |`tube_coral`||
+  |`minecraft:waxed_copper_door`||
+  |`waxed_copper_door`||
+  |`minecraft:portal`||
+  |`portal`||
+  |`minecraft:birch_button`||
+  |`birch_button`||
+  |`minecraft:command_block`||
+  |`command_block`||
+  |`minecraft:polished_blackstone_button`||
+  |`polished_blackstone_button`||
+  |`minecraft:crafter`||
+  |`crafter`||
+  |`minecraft:spruce_planks`||
+  |`spruce_planks`||
+  |`minecraft:furnace`||
+  |`furnace`||
+  |`minecraft:amethyst_cluster`||
+  |`amethyst_cluster`||
+  |`minecraft:waxed_chiseled_copper`||
+  |`waxed_chiseled_copper`||
+  |`minecraft:waxed_cut_copper_slab`||
+  |`waxed_cut_copper_slab`||
+  |`minecraft:polished_deepslate_wall`||
+  |`polished_deepslate_wall`||
+  |`minecraft:dried_kelp_block`||
+  |`dried_kelp_block`||
+  |`minecraft:light_block`||
+  |`light_block`||
+  |`minecraft:crimson_fence`||
+  |`crimson_fence`||
+  |`minecraft:chiseled_tuff`||
+  |`chiseled_tuff`||
+  |`minecraft:lime_concrete_powder`||
+  |`lime_concrete_powder`||
+  |`minecraft:turtle_egg`||
+  |`turtle_egg`||
+  |`minecraft:magma`||
+  |`magma`||
+  |`minecraft:dispenser`||
+  |`dispenser`||
+  |`minecraft:brown_terracotta`||
+  |`brown_terracotta`||
+  |`minecraft:deepslate_diamond_ore`||
+  |`deepslate_diamond_ore`||
+  |`minecraft:grindstone`||
+  |`grindstone`||
+  |`minecraft:light_gray_wool`||
+  |`light_gray_wool`||
+  |`minecraft:soul_campfire`||
+  |`soul_campfire`||
+  |`minecraft:wooden_pressure_plate`||
+  |`wooden_pressure_plate`||
+  |`minecraft:birch_fence`||
+  |`birch_fence`||
+  |`minecraft:lime_candle_cake`||
+  |`lime_candle_cake`||
+  |`minecraft:waxed_oxidized_copper_grate`||
+  |`waxed_oxidized_copper_grate`||
+  |`minecraft:birch_double_slab`||
+  |`birch_double_slab`||
+  |`minecraft:white_concrete`||
+  |`white_concrete`||
+  |`minecraft:trial_spawner`||
+  |`trial_spawner`||
+  |`minecraft:acacia_fence`||
+  |`acacia_fence`||
+  |`minecraft:grass_path`||
+  |`grass_path`||
+  |`minecraft:cobbled_deepslate_wall`||
+  |`cobbled_deepslate_wall`||
+  |`minecraft:orange_concrete_powder`||
+  |`orange_concrete_powder`||
+  |`minecraft:orange_candle_cake`||
+  |`orange_candle_cake`||
+  |`minecraft:weathered_copper`||
+  |`weathered_copper`||
+  |`minecraft:unlit_redstone_torch`||
+  |`unlit_redstone_torch`||
+  |`minecraft:lime_terracotta`||
+  |`lime_terracotta`||
+  |`minecraft:cherry_fence_gate`||
+  |`cherry_fence_gate`||
+  |`minecraft:gray_glazed_terracotta`||
+  |`gray_glazed_terracotta`||
+  |`minecraft:lodestone`||
+  |`lodestone`||
+  |`minecraft:bamboo_mosaic`||
+  |`bamboo_mosaic`||
+  |`minecraft:raw_iron_block`||
+  |`raw_iron_block`||
+  |`minecraft:light_gray_carpet`||
+  |`light_gray_carpet`||
+  |`minecraft:purple_wool`||
+  |`purple_wool`||
+  |`minecraft:iron_block`||
+  |`iron_block`||
+  |`minecraft:ladder`||
+  |`ladder`||
+  |`minecraft:crimson_pressure_plate`||
+  |`crimson_pressure_plate`||
+  |`minecraft:stripped_mangrove_log`||
+  |`stripped_mangrove_log`||
+  |`minecraft:gravel`||
+  |`gravel`||
+  |`minecraft:cartography_table`||
+  |`cartography_table`||
+  |`minecraft:oxidized_copper_door`||
+  |`oxidized_copper_door`||
+  |`grass`||
+  |`minecraft:grass`||
+  |`concretepowder`||
+  |`minecraft:concretepowder`||
+  |`pistonarmcollision`||
+  |`minecraft:pistonarmcollision`||
+  |`stone_slab4`||
+  |`minecraft:stone_slab4`||
+  |`stone_slab`||
+  |`minecraft:stone_slab`||
+  |`tripwire`||
+  |`minecraft:tripwire`||
+  |`sealantern`||
+  |`minecraft:sealantern`||
+  |`movingblock`||
+  |`minecraft:movingblock`||
+  |`invisiblebedrock`||
+  |`minecraft:invisiblebedrock`||
+  |`stone_slab2`||
+  |`minecraft:stone_slab2`||
+  |`stickypistonarmcollision`||
+  |`minecraft:stickypistonarmcollision`||
+  |`stone_slab3`||
+  |`minecraft:stone_slab3`||
+  |`double_stone_slab`||
+  |`minecraft:double_stone_slab`||
+  |`double_stone_slab2`||
+  |`minecraft:double_stone_slab2`||
+  |`double_stone_slab3`||
+  |`minecraft:double_stone_slab3`||
+  |`double_stone_slab4`||
+  |`minecraft:double_stone_slab4`||
+  |`wool`||
+  |`minecraft:wool`||
+  |`log`||
+  |`minecraft:log`||
+  |`log2`||
+  |`minecraft:log2`||
+  |`coral`||
+  |`minecraft:coral`||
+  |`fence`||
+  |`minecraft:fence`||
+  |`carpet`||
+  |`minecraft:carpet`||
+  |`shulker_box`||
+  |`minecraft:shulker_box`||
+  |`concrete`||
+  |`minecraft:concrete`||
+  |`stained_hardened_clay`||
+  |`minecraft:stained_hardened_clay`||
+  |`concrete_powder`||
+  |`minecraft:concrete_powder`||
+  |`stained_glass`||
+  |`minecraft:stained_glass`||
+  |`stained_glass_pane`||
+  |`minecraft:stained_glass_pane`||
+  |`planks`||
+  |`minecraft:planks`||
+  |`hard_stained_glass`||
+  |`minecraft:hard_stained_glass`||
+  |`hard_stained_glass_pane`||
+  |`minecraft:hard_stained_glass_pane`||
+  |`wooden_slab`||
+  |`minecraft:wooden_slab`||
+  |`double_wooden_slab`||
+  |`minecraft:double_wooden_slab`||
+  |`leaves`||
+  |`minecraft:leaves`||
+  |`leaves2`||
+  |`minecraft:leaves2`||
+  |`wood`||
+  |`minecraft:wood`||
+  |`sapling`||
+  |`minecraft:sapling`||
+  |`coral_fan`||
+  |`minecraft:coral_fan`||
+  |`coral_fan_dead`||
+  |`minecraft:coral_fan_dead`||
+  |`red_flower`||
+  |`minecraft:red_flower`||
+  |`lava_cauldron`||
+  |`minecraft:lava_cauldron`||
 
 
-`dataValue`: <!-- md:samp int -->
+`dataValue`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -2184,2155 +2184,2155 @@
 
 //// html | div.result
 ///// define
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`tileName`: <!-- md:samp Block -->
+`tileName`：<!-- md:samp Block -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:cyan_terracotta`||
-|`cyan_terracotta`||
-|`minecraft:blue_candle`||
-|`blue_candle`||
-|`minecraft:dark_oak_wood`||
-|`dark_oak_wood`||
-|`minecraft:birch_standing_sign`||
-|`birch_standing_sign`||
-|`minecraft:polished_basalt`||
-|`polished_basalt`||
-|`minecraft:nether_gold_ore`||
-|`nether_gold_ore`||
-|`minecraft:warped_door`||
-|`warped_door`||
-|`minecraft:light_blue_concrete_powder`||
-|`light_blue_concrete_powder`||
-|`minecraft:bamboo_block`||
-|`bamboo_block`||
-|`minecraft:piston_arm_collision`||
-|`piston_arm_collision`||
-|`minecraft:waxed_oxidized_chiseled_copper`||
-|`waxed_oxidized_chiseled_copper`||
-|`minecraft:granite`||
-|`granite`||
-|`minecraft:blue_stained_glass_pane`||
-|`blue_stained_glass_pane`||
-|`minecraft:fence_gate`||
-|`fence_gate`||
-|`minecraft:powder_snow`||
-|`powder_snow`||
-|`minecraft:dark_oak_button`||
-|`dark_oak_button`||
-|`minecraft:deepslate_copper_ore`||
-|`deepslate_copper_ore`||
-|`minecraft:nether_brick_stairs`||
-|`nether_brick_stairs`||
-|`minecraft:yellow_shulker_box`||
-|`yellow_shulker_box`||
-|`minecraft:blackstone_double_slab`||
-|`blackstone_double_slab`||
-|`minecraft:lime_stained_glass`||
-|`lime_stained_glass`||
-|`minecraft:red_wool`||
-|`red_wool`||
-|`minecraft:jungle_button`||
-|`jungle_button`||
-|`minecraft:spruce_stairs`||
-|`spruce_stairs`||
-|`minecraft:diorite`||
-|`diorite`||
-|`minecraft:gray_candle_cake`||
-|`gray_candle_cake`||
-|`minecraft:polished_tuff_slab`||
-|`polished_tuff_slab`||
-|`minecraft:cherry_pressure_plate`||
-|`cherry_pressure_plate`||
-|`minecraft:cherry_hanging_sign`||
-|`cherry_hanging_sign`||
-|`minecraft:yellow_wool`||
-|`yellow_wool`||
-|`minecraft:crimson_wall_sign`||
-|`crimson_wall_sign`||
-|`minecraft:yellow_stained_glass_pane`||
-|`yellow_stained_glass_pane`||
-|`minecraft:azure_bluet`||
-|`azure_bluet`||
-|`minecraft:beacon`||
-|`beacon`||
-|`minecraft:red_nether_brick`||
-|`red_nether_brick`||
-|`minecraft:cobbled_deepslate_stairs`||
-|`cobbled_deepslate_stairs`||
-|`minecraft:snow_layer`||
-|`snow_layer`||
-|`minecraft:black_candle`||
-|`black_candle`||
-|`minecraft:blue_carpet`||
-|`blue_carpet`||
-|`minecraft:glow_frame`||
-|`glow_frame`||
-|`minecraft:mud_brick_double_slab`||
-|`mud_brick_double_slab`||
-|`minecraft:hanging_roots`||
-|`hanging_roots`||
-|`minecraft:prismarine_bricks_stairs`||
-|`prismarine_bricks_stairs`||
-|`minecraft:waxed_oxidized_cut_copper`||
-|`waxed_oxidized_cut_copper`||
-|`minecraft:calcite`||
-|`calcite`||
-|`minecraft:stripped_dark_oak_log`||
-|`stripped_dark_oak_log`||
-|`minecraft:dead_bubble_coral_fan`||
-|`dead_bubble_coral_fan`||
-|`minecraft:jungle_log`||
-|`jungle_log`||
-|`minecraft:bubble_coral_fan`||
-|`bubble_coral_fan`||
-|`minecraft:sculk_shrieker`||
-|`sculk_shrieker`||
-|`minecraft:gray_wool`||
-|`gray_wool`||
-|`minecraft:orange_stained_glass_pane`||
-|`orange_stained_glass_pane`||
-|`minecraft:gray_carpet`||
-|`gray_carpet`||
-|`minecraft:lily_of_the_valley`||
-|`lily_of_the_valley`||
-|`minecraft:lime_glazed_terracotta`||
-|`lime_glazed_terracotta`||
-|`minecraft:trapdoor`||
-|`trapdoor`||
-|`minecraft:dead_brain_coral_fan`||
-|`dead_brain_coral_fan`||
-|`minecraft:seagrass`||
-|`seagrass`||
-|`minecraft:tube_coral_fan`||
-|`tube_coral_fan`||
-|`minecraft:waxed_exposed_cut_copper_slab`||
-|`waxed_exposed_cut_copper_slab`||
-|`minecraft:redstone_lamp`||
-|`redstone_lamp`||
-|`minecraft:mossy_cobblestone`||
-|`mossy_cobblestone`||
-|`minecraft:deepslate`||
-|`deepslate`||
-|`minecraft:magenta_carpet`||
-|`magenta_carpet`||
-|`minecraft:pitcher_crop`||
-|`pitcher_crop`||
-|`minecraft:brown_wool`||
-|`brown_wool`||
-|`minecraft:waxed_exposed_chiseled_copper`||
-|`waxed_exposed_chiseled_copper`||
-|`minecraft:tuff_slab`||
-|`tuff_slab`||
-|`minecraft:warped_pressure_plate`||
-|`warped_pressure_plate`||
-|`minecraft:stripped_acacia_wood`||
-|`stripped_acacia_wood`||
-|`minecraft:diamond_block`||
-|`diamond_block`||
-|`minecraft:oak_stairs`||
-|`oak_stairs`||
-|`minecraft:oak_log`||
-|`oak_log`||
-|`minecraft:brown_stained_glass_pane`||
-|`brown_stained_glass_pane`||
-|`minecraft:end_bricks`||
-|`end_bricks`||
-|`minecraft:magenta_shulker_box`||
-|`magenta_shulker_box`||
-|`minecraft:packed_ice`||
-|`packed_ice`||
-|`minecraft:packed_mud`||
-|`packed_mud`||
-|`minecraft:light_blue_candle_cake`||
-|`light_blue_candle_cake`||
-|`minecraft:moss_carpet`||
-|`moss_carpet`||
-|`minecraft:warped_fungus`||
-|`warped_fungus`||
-|`minecraft:polished_deepslate_slab`||
-|`polished_deepslate_slab`||
-|`minecraft:bamboo_door`||
-|`bamboo_door`||
-|`minecraft:amethyst_block`||
-|`amethyst_block`||
-|`minecraft:gold_block`||
-|`gold_block`||
-|`minecraft:flower_pot`||
-|`flower_pot`||
-|`minecraft:chiseled_bookshelf`||
-|`chiseled_bookshelf`||
-|`minecraft:polished_deepslate_stairs`||
-|`polished_deepslate_stairs`||
-|`minecraft:yellow_flower`||
-|`yellow_flower`||
-|`minecraft:lime_shulker_box`||
-|`lime_shulker_box`||
-|`minecraft:weathered_chiseled_copper`||
-|`weathered_chiseled_copper`||
-|`minecraft:small_amethyst_bud`||
-|`small_amethyst_bud`||
-|`minecraft:activator_rail`||
-|`activator_rail`||
-|`minecraft:iron_trapdoor`||
-|`iron_trapdoor`||
-|`minecraft:potatoes`||
-|`potatoes`||
-|`minecraft:muddy_mangrove_roots`||
-|`muddy_mangrove_roots`||
-|`minecraft:stripped_jungle_wood`||
-|`stripped_jungle_wood`||
-|`minecraft:noteblock`||
-|`noteblock`||
-|`minecraft:tuff`||
-|`tuff`||
-|`minecraft:mangrove_log`||
-|`mangrove_log`||
-|`minecraft:oxidized_cut_copper_stairs`||
-|`oxidized_cut_copper_stairs`||
-|`minecraft:deepslate_tile_double_slab`||
-|`deepslate_tile_double_slab`||
-|`minecraft:raw_gold_block`||
-|`raw_gold_block`||
-|`minecraft:allium`||
-|`allium`||
-|`minecraft:white_shulker_box`||
-|`white_shulker_box`||
-|`minecraft:copper_grate`||
-|`copper_grate`||
-|`minecraft:black_wool`||
-|`black_wool`||
-|`minecraft:orange_candle`||
-|`orange_candle`||
-|`minecraft:powered_comparator`||
-|`powered_comparator`||
-|`minecraft:jungle_fence`||
-|`jungle_fence`||
-|`minecraft:warped_wall_sign`||
-|`warped_wall_sign`||
-|`minecraft:spruce_fence`||
-|`spruce_fence`||
-|`minecraft:dark_oak_sapling`||
-|`dark_oak_sapling`||
-|`minecraft:melon_block`||
-|`melon_block`||
-|`minecraft:black_concrete_powder`||
-|`black_concrete_powder`||
-|`minecraft:waxed_cut_copper_stairs`||
-|`waxed_cut_copper_stairs`||
-|`minecraft:mob_spawner`||
-|`mob_spawner`||
-|`minecraft:polished_granite`||
-|`polished_granite`||
-|`minecraft:soul_fire`||
-|`soul_fire`||
-|`minecraft:magenta_candle`||
-|`magenta_candle`||
-|`minecraft:mangrove_double_slab`||
-|`mangrove_double_slab`||
-|`minecraft:light_gray_stained_glass`||
-|`light_gray_stained_glass`||
-|`minecraft:obsidian`||
-|`obsidian`||
-|`minecraft:light_gray_stained_glass_pane`||
-|`light_gray_stained_glass_pane`||
-|`minecraft:dark_oak_slab`||
-|`dark_oak_slab`||
-|`minecraft:deepslate_brick_wall`||
-|`deepslate_brick_wall`||
-|`minecraft:waxed_exposed_copper_grate`||
-|`waxed_exposed_copper_grate`||
-|`minecraft:oxidized_double_cut_copper_slab`||
-|`oxidized_double_cut_copper_slab`||
-|`minecraft:exposed_copper`||
-|`exposed_copper`||
-|`minecraft:polished_deepslate_double_slab`||
-|`polished_deepslate_double_slab`||
-|`minecraft:stone_button`||
-|`stone_button`||
-|`minecraft:waxed_copper_bulb`||
-|`waxed_copper_bulb`||
-|`minecraft:sponge`||
-|`sponge`||
-|`minecraft:exposed_double_cut_copper_slab`||
-|`exposed_double_cut_copper_slab`||
-|`minecraft:bamboo_fence`||
-|`bamboo_fence`||
-|`minecraft:normal_stone_stairs`||
-|`normal_stone_stairs`||
-|`minecraft:hardened_clay`||
-|`hardened_clay`||
-|`minecraft:birch_hanging_sign`||
-|`birch_hanging_sign`||
-|`minecraft:stripped_jungle_log`||
-|`stripped_jungle_log`||
-|`minecraft:oak_sapling`||
-|`oak_sapling`||
-|`minecraft:polished_blackstone_double_slab`||
-|`polished_blackstone_double_slab`||
-|`minecraft:light_gray_terracotta`||
-|`light_gray_terracotta`||
-|`minecraft:smoker`||
-|`smoker`||
-|`minecraft:brown_stained_glass`||
-|`brown_stained_glass`||
-|`minecraft:andesite`||
-|`andesite`||
-|`minecraft:fire_coral`||
-|`fire_coral`||
-|`minecraft:stone`||
-|`stone`||
-|`minecraft:birch_log`||
-|`birch_log`||
-|`minecraft:tuff_brick_wall`||
-|`tuff_brick_wall`||
-|`minecraft:brain_coral`||
-|`brain_coral`||
-|`minecraft:stripped_spruce_wood`||
-|`stripped_spruce_wood`||
-|`minecraft:orange_wool`||
-|`orange_wool`||
-|`minecraft:polished_blackstone_brick_double_slab`||
-|`polished_blackstone_brick_double_slab`||
-|`minecraft:crimson_double_slab`||
-|`crimson_double_slab`||
-|`minecraft:respawn_anchor`||
-|`respawn_anchor`||
-|`minecraft:light_gray_concrete`||
-|`light_gray_concrete`||
-|`minecraft:green_candle`||
-|`green_candle`||
-|`minecraft:waxed_exposed_copper`||
-|`waxed_exposed_copper`||
-|`minecraft:birch_wood`||
-|`birch_wood`||
-|`minecraft:hay_block`||
-|`hay_block`||
-|`minecraft:jungle_wood`||
-|`jungle_wood`||
-|`minecraft:waxed_weathered_copper`||
-|`waxed_weathered_copper`||
-|`minecraft:waxed_oxidized_cut_copper_slab`||
-|`waxed_oxidized_cut_copper_slab`||
-|`minecraft:oak_leaves`||
-|`oak_leaves`||
-|`minecraft:brain_coral_fan`||
-|`brain_coral_fan`||
-|`minecraft:cyan_candle_cake`||
-|`cyan_candle_cake`||
-|`minecraft:polished_tuff_wall`||
-|`polished_tuff_wall`||
-|`minecraft:bamboo_stairs`||
-|`bamboo_stairs`||
-|`minecraft:torch`||
-|`torch`||
-|`minecraft:mud_brick_wall`||
-|`mud_brick_wall`||
-|`minecraft:honey_block`||
-|`honey_block`||
-|`minecraft:dripstone_block`||
-|`dripstone_block`||
-|`minecraft:vine`||
-|`vine`||
-|`minecraft:cherry_trapdoor`||
-|`cherry_trapdoor`||
-|`minecraft:blackstone_slab`||
-|`blackstone_slab`||
-|`minecraft:gold_ore`||
-|`gold_ore`||
-|`minecraft:yellow_glazed_terracotta`||
-|`yellow_glazed_terracotta`||
-|`minecraft:warped_planks`||
-|`warped_planks`||
-|`minecraft:piston`||
-|`piston`||
-|`minecraft:brown_carpet`||
-|`brown_carpet`||
-|`minecraft:tallgrass`||
-|`tallgrass`||
-|`minecraft:stone_brick_stairs`||
-|`stone_brick_stairs`||
-|`minecraft:gray_candle`||
-|`gray_candle`||
-|`minecraft:cherry_fence`||
-|`cherry_fence`||
-|`minecraft:mangrove_planks`||
-|`mangrove_planks`||
-|`minecraft:red_terracotta`||
-|`red_terracotta`||
-|`minecraft:oxidized_copper_bulb`||
-|`oxidized_copper_bulb`||
-|`minecraft:magenta_wool`||
-|`magenta_wool`||
-|`minecraft:magenta_glazed_terracotta`||
-|`magenta_glazed_terracotta`||
-|`minecraft:polished_blackstone_brick_wall`||
-|`polished_blackstone_brick_wall`||
-|`minecraft:mangrove_slab`||
-|`mangrove_slab`||
-|`minecraft:orange_glazed_terracotta`||
-|`orange_glazed_terracotta`||
-|`minecraft:smooth_basalt`||
-|`smooth_basalt`||
-|`minecraft:waterlily`||
-|`waterlily`||
-|`minecraft:emerald_block`||
-|`emerald_block`||
-|`minecraft:suspicious_sand`||
-|`suspicious_sand`||
-|`minecraft:heavy_weighted_pressure_plate`||
-|`heavy_weighted_pressure_plate`||
-|`minecraft:purple_stained_glass`||
-|`purple_stained_glass`||
-|`minecraft:lightning_rod`||
-|`lightning_rod`||
-|`minecraft:acacia_leaves`||
-|`acacia_leaves`||
-|`minecraft:black_stained_glass_pane`||
-|`black_stained_glass_pane`||
-|`minecraft:cobblestone_wall`||
-|`cobblestone_wall`||
-|`minecraft:deepslate_brick_double_slab`||
-|`deepslate_brick_double_slab`||
-|`minecraft:spruce_double_slab`||
-|`spruce_double_slab`||
-|`minecraft:bamboo_mosaic_slab`||
-|`bamboo_mosaic_slab`||
-|`minecraft:dark_oak_log`||
-|`dark_oak_log`||
-|`minecraft:acacia_hanging_sign`||
-|`acacia_hanging_sign`||
-|`minecraft:ochre_froglight`||
-|`ochre_froglight`||
-|`minecraft:tuff_wall`||
-|`tuff_wall`||
-|`minecraft:observer`||
-|`observer`||
-|`minecraft:redstone_torch`||
-|`redstone_torch`||
-|`minecraft:silver_glazed_terracotta`||
-|`silver_glazed_terracotta`||
-|`minecraft:granite_stairs`||
-|`granite_stairs`||
-|`minecraft:pink_concrete`||
-|`pink_concrete`||
-|`minecraft:dark_oak_hanging_sign`||
-|`dark_oak_hanging_sign`||
-|`minecraft:brown_mushroom`||
-|`brown_mushroom`||
-|`minecraft:cyan_concrete_powder`||
-|`cyan_concrete_powder`||
-|`minecraft:brown_glazed_terracotta`||
-|`brown_glazed_terracotta`||
-|`minecraft:waxed_copper_trapdoor`||
-|`waxed_copper_trapdoor`||
-|`minecraft:oxidized_copper`||
-|`oxidized_copper`||
-|`minecraft:copper_ore`||
-|`copper_ore`||
-|`minecraft:dark_oak_planks`||
-|`dark_oak_planks`||
-|`minecraft:birch_pressure_plate`||
-|`birch_pressure_plate`||
-|`minecraft:scaffolding`||
-|`scaffolding`||
-|`minecraft:sandstone_stairs`||
-|`sandstone_stairs`||
-|`minecraft:green_candle_cake`||
-|`green_candle_cake`||
-|`minecraft:stripped_bamboo_block`||
-|`stripped_bamboo_block`||
-|`minecraft:red_mushroom_block`||
-|`red_mushroom_block`||
-|`minecraft:sculk_catalyst`||
-|`sculk_catalyst`||
-|`minecraft:cobblestone`||
-|`cobblestone`||
-|`minecraft:horn_coral`||
-|`horn_coral`||
-|`minecraft:yellow_concrete`||
-|`yellow_concrete`||
-|`minecraft:cyan_carpet`||
-|`cyan_carpet`||
-|`minecraft:oak_double_slab`||
-|`oak_double_slab`||
-|`minecraft:smooth_sandstone_stairs`||
-|`smooth_sandstone_stairs`||
-|`minecraft:jungle_pressure_plate`||
-|`jungle_pressure_plate`||
-|`minecraft:double_cut_copper_slab`||
-|`double_cut_copper_slab`||
-|`minecraft:blue_terracotta`||
-|`blue_terracotta`||
-|`minecraft:sandstone`||
-|`sandstone`||
-|`minecraft:brown_candle_cake`||
-|`brown_candle_cake`||
-|`minecraft:acacia_wall_sign`||
-|`acacia_wall_sign`||
-|`minecraft:light_weighted_pressure_plate`||
-|`light_weighted_pressure_plate`||
-|`minecraft:undyed_shulker_box`||
-|`undyed_shulker_box`||
-|`minecraft:polished_blackstone`||
-|`polished_blackstone`||
-|`minecraft:mycelium`||
-|`mycelium`||
-|`minecraft:bamboo`||
-|`bamboo`||
-|`minecraft:quartz_block`||
-|`quartz_block`||
-|`minecraft:stone_stairs`||
-|`stone_stairs`||
-|`minecraft:waxed_weathered_chiseled_copper`||
-|`waxed_weathered_chiseled_copper`||
-|`minecraft:gray_stained_glass`||
-|`gray_stained_glass`||
-|`minecraft:green_terracotta`||
-|`green_terracotta`||
-|`minecraft:deepslate_brick_slab`||
-|`deepslate_brick_slab`||
-|`minecraft:warped_stairs`||
-|`warped_stairs`||
-|`minecraft:smithing_table`||
-|`smithing_table`||
-|`minecraft:weathered_copper_grate`||
-|`weathered_copper_grate`||
-|`minecraft:poppy`||
-|`poppy`||
-|`minecraft:tuff_brick_slab`||
-|`tuff_brick_slab`||
-|`minecraft:green_wool`||
-|`green_wool`||
-|`minecraft:green_carpet`||
-|`green_carpet`||
-|`minecraft:wooden_door`||
-|`wooden_door`||
-|`minecraft:pitcher_plant`||
-|`pitcher_plant`||
-|`minecraft:spruce_pressure_plate`||
-|`spruce_pressure_plate`||
-|`minecraft:netherite_block`||
-|`netherite_block`||
-|`minecraft:pink_wool`||
-|`pink_wool`||
-|`minecraft:redstone_block`||
-|`redstone_block`||
-|`minecraft:birch_fence_gate`||
-|`birch_fence_gate`||
-|`minecraft:redstone_wire`||
-|`redstone_wire`||
-|`minecraft:waxed_exposed_cut_copper`||
-|`waxed_exposed_cut_copper`||
-|`minecraft:lava`||
-|`lava`||
-|`minecraft:jungle_hanging_sign`||
-|`jungle_hanging_sign`||
-|`minecraft:birch_slab`||
-|`birch_slab`||
-|`minecraft:loom`||
-|`loom`||
-|`minecraft:end_stone`||
-|`end_stone`||
-|`minecraft:polished_tuff_double_slab`||
-|`polished_tuff_double_slab`||
-|`minecraft:crimson_door`||
-|`crimson_door`||
-|`minecraft:mangrove_pressure_plate`||
-|`mangrove_pressure_plate`||
-|`minecraft:jungle_slab`||
-|`jungle_slab`||
-|`minecraft:light_blue_stained_glass_pane`||
-|`light_blue_stained_glass_pane`||
-|`minecraft:glowstone`||
-|`glowstone`||
-|`minecraft:stone_pressure_plate`||
-|`stone_pressure_plate`||
-|`minecraft:waxed_exposed_cut_copper_stairs`||
-|`waxed_exposed_cut_copper_stairs`||
-|`minecraft:mud_brick_slab`||
-|`mud_brick_slab`||
-|`minecraft:farmland`||
-|`farmland`||
-|`minecraft:rail`||
-|`rail`||
-|`minecraft:blackstone_wall`||
-|`blackstone_wall`||
-|`minecraft:mossy_cobblestone_stairs`||
-|`mossy_cobblestone_stairs`||
-|`minecraft:coral_fan_hang2`||
-|`coral_fan_hang2`||
-|`minecraft:coral_fan_hang3`||
-|`coral_fan_hang3`||
-|`minecraft:detector_rail`||
-|`detector_rail`||
-|`minecraft:monster_egg`||
-|`monster_egg`||
-|`minecraft:blue_orchid`||
-|`blue_orchid`||
-|`minecraft:green_stained_glass_pane`||
-|`green_stained_glass_pane`||
-|`minecraft:polished_granite_stairs`||
-|`polished_granite_stairs`||
-|`minecraft:birch_leaves`||
-|`birch_leaves`||
-|`minecraft:pink_terracotta`||
-|`pink_terracotta`||
-|`minecraft:dark_oak_double_slab`||
-|`dark_oak_double_slab`||
-|`minecraft:pink_candle_cake`||
-|`pink_candle_cake`||
-|`minecraft:cracked_deepslate_tiles`||
-|`cracked_deepslate_tiles`||
-|`minecraft:mangrove_wood`||
-|`mangrove_wood`||
-|`minecraft:red_glazed_terracotta`||
-|`red_glazed_terracotta`||
-|`minecraft:dark_oak_fence_gate`||
-|`dark_oak_fence_gate`||
-|`minecraft:bamboo_mosaic_double_slab`||
-|`bamboo_mosaic_double_slab`||
-|`minecraft:crimson_nylium`||
-|`crimson_nylium`||
-|`minecraft:structure_void`||
-|`structure_void`||
-|`minecraft:purple_concrete`||
-|`purple_concrete`||
-|`minecraft:waxed_exposed_copper_bulb`||
-|`waxed_exposed_copper_bulb`||
-|`minecraft:polished_blackstone_brick_slab`||
-|`polished_blackstone_brick_slab`||
-|`minecraft:spruce_sapling`||
-|`spruce_sapling`||
-|`minecraft:yellow_terracotta`||
-|`yellow_terracotta`||
-|`minecraft:snow`||
-|`snow`||
-|`minecraft:sand`||
-|`sand`||
-|`minecraft:daylight_detector`||
-|`daylight_detector`||
-|`minecraft:mangrove_standing_sign`||
-|`mangrove_standing_sign`||
-|`minecraft:stripped_mangrove_wood`||
-|`stripped_mangrove_wood`||
-|`minecraft:conduit`||
-|`conduit`||
-|`minecraft:slime`||
-|`slime`||
-|`minecraft:bone_block`||
-|`bone_block`||
-|`minecraft:frame`||
-|`frame`||
-|`minecraft:spruce_log`||
-|`spruce_log`||
-|`minecraft:stone_block_slab`||
-|`stone_block_slab`||
-|`minecraft:lapis_block`||
-|`lapis_block`||
-|`minecraft:coal_ore`||
-|`coal_ore`||
-|`minecraft:redstone_ore`||
-|`redstone_ore`||
-|`minecraft:bamboo_double_slab`||
-|`bamboo_double_slab`||
-|`minecraft:green_stained_glass`||
-|`green_stained_glass`||
-|`minecraft:nether_brick_fence`||
-|`nether_brick_fence`||
-|`minecraft:pink_tulip`||
-|`pink_tulip`||
-|`minecraft:oak_slab`||
-|`oak_slab`||
-|`minecraft:deepslate_tile_slab`||
-|`deepslate_tile_slab`||
-|`minecraft:pink_concrete_powder`||
-|`pink_concrete_powder`||
-|`minecraft:dead_tube_coral`||
-|`dead_tube_coral`||
-|`minecraft:nether_wart_block`||
-|`nether_wart_block`||
-|`minecraft:cherry_door`||
-|`cherry_door`||
-|`minecraft:crimson_hyphae`||
-|`crimson_hyphae`||
-|`minecraft:polished_blackstone_stairs`||
-|`polished_blackstone_stairs`||
-|`minecraft:weathered_cut_copper_stairs`||
-|`weathered_cut_copper_stairs`||
-|`minecraft:small_dripleaf_block`||
-|`small_dripleaf_block`||
-|`minecraft:pink_stained_glass`||
-|`pink_stained_glass`||
-|`minecraft:waxed_weathered_copper_grate`||
-|`waxed_weathered_copper_grate`||
-|`minecraft:spruce_button`||
-|`spruce_button`||
-|`minecraft:acacia_log`||
-|`acacia_log`||
-|`minecraft:crimson_trapdoor`||
-|`crimson_trapdoor`||
-|`minecraft:basalt`||
-|`basalt`||
-|`minecraft:light_blue_terracotta`||
-|`light_blue_terracotta`||
-|`minecraft:lit_redstone_lamp`||
-|`lit_redstone_lamp`||
-|`minecraft:diamond_ore`||
-|`diamond_ore`||
-|`minecraft:warped_roots`||
-|`warped_roots`||
-|`minecraft:magenta_concrete`||
-|`magenta_concrete`||
-|`minecraft:sticky_piston`||
-|`sticky_piston`||
-|`minecraft:ender_chest`||
-|`ender_chest`||
-|`minecraft:medium_amethyst_bud`||
-|`medium_amethyst_bud`||
-|`minecraft:pink_shulker_box`||
-|`pink_shulker_box`||
-|`minecraft:warped_double_slab`||
-|`warped_double_slab`||
-|`minecraft:jungle_wall_sign`||
-|`jungle_wall_sign`||
-|`minecraft:sculk_sensor`||
-|`sculk_sensor`||
-|`minecraft:copper_bulb`||
-|`copper_bulb`||
-|`minecraft:diorite_stairs`||
-|`diorite_stairs`||
-|`minecraft:spruce_leaves`||
-|`spruce_leaves`||
-|`minecraft:frog_spawn`||
-|`frog_spawn`||
-|`minecraft:acacia_door`||
-|`acacia_door`||
-|`minecraft:red_shulker_box`||
-|`red_shulker_box`||
-|`minecraft:stripped_cherry_log`||
-|`stripped_cherry_log`||
-|`minecraft:crimson_button`||
-|`crimson_button`||
-|`minecraft:acacia_planks`||
-|`acacia_planks`||
-|`minecraft:magenta_concrete_powder`||
-|`magenta_concrete_powder`||
-|`minecraft:iron_door`||
-|`iron_door`||
-|`minecraft:honeycomb_block`||
-|`honeycomb_block`||
-|`minecraft:polished_blackstone_brick_stairs`||
-|`polished_blackstone_brick_stairs`||
-|`minecraft:mangrove_trapdoor`||
-|`mangrove_trapdoor`||
-|`minecraft:quartz_ore`||
-|`quartz_ore`||
-|`minecraft:daylight_detector_inverted`||
-|`daylight_detector_inverted`||
-|`minecraft:barrel`||
-|`barrel`||
-|`minecraft:chorus_flower`||
-|`chorus_flower`||
-|`minecraft:coral_fan_hang`||
-|`coral_fan_hang`||
-|`minecraft:orange_stained_glass`||
-|`orange_stained_glass`||
-|`minecraft:white_stained_glass_pane`||
-|`white_stained_glass_pane`||
-|`minecraft:stripped_birch_wood`||
-|`stripped_birch_wood`||
-|`minecraft:cracked_nether_bricks`||
-|`cracked_nether_bricks`||
-|`minecraft:powered_repeater`||
-|`powered_repeater`||
-|`minecraft:light_blue_candle`||
-|`light_blue_candle`||
-|`minecraft:pumpkin`||
-|`pumpkin`||
-|`minecraft:deepslate_tiles`||
-|`deepslate_tiles`||
-|`minecraft:smooth_stone`||
-|`smooth_stone`||
-|`minecraft:gray_terracotta`||
-|`gray_terracotta`||
-|`minecraft:oxidized_copper_trapdoor`||
-|`oxidized_copper_trapdoor`||
-|`minecraft:white_tulip`||
-|`white_tulip`||
-|`minecraft:lime_concrete`||
-|`lime_concrete`||
-|`minecraft:black_candle_cake`||
-|`black_candle_cake`||
-|`minecraft:red_mushroom`||
-|`red_mushroom`||
-|`minecraft:gilded_blackstone`||
-|`gilded_blackstone`||
-|`minecraft:magenta_terracotta`||
-|`magenta_terracotta`||
-|`minecraft:exposed_cut_copper_stairs`||
-|`exposed_cut_copper_stairs`||
-|`minecraft:mangrove_stairs`||
-|`mangrove_stairs`||
-|`minecraft:cut_copper_stairs`||
-|`cut_copper_stairs`||
-|`minecraft:cherry_button`||
-|`cherry_button`||
-|`minecraft:yellow_candle_cake`||
-|`yellow_candle_cake`||
-|`minecraft:mangrove_fence_gate`||
-|`mangrove_fence_gate`||
-|`minecraft:pink_petals`||
-|`pink_petals`||
-|`minecraft:bamboo_hanging_sign`||
-|`bamboo_hanging_sign`||
-|`minecraft:infested_deepslate`||
-|`infested_deepslate`||
-|`minecraft:soul_torch`||
-|`soul_torch`||
-|`minecraft:podzol`||
-|`podzol`||
-|`minecraft:copper_block`||
-|`copper_block`||
-|`minecraft:lit_redstone_ore`||
-|`lit_redstone_ore`||
-|`minecraft:deepslate_tile_stairs`||
-|`deepslate_tile_stairs`||
-|`minecraft:crimson_fence_gate`||
-|`crimson_fence_gate`||
-|`minecraft:deadbush`||
-|`deadbush`||
-|`minecraft:waxed_weathered_double_cut_copper_slab`||
-|`waxed_weathered_double_cut_copper_slab`||
-|`minecraft:polished_blackstone_bricks`||
-|`polished_blackstone_bricks`||
-|`minecraft:red_candle`||
-|`red_candle`||
-|`minecraft:cut_copper`||
-|`cut_copper`||
-|`minecraft:iron_ore`||
-|`iron_ore`||
-|`minecraft:spruce_door`||
-|`spruce_door`||
-|`minecraft:frosted_ice`||
-|`frosted_ice`||
-|`minecraft:large_amethyst_bud`||
-|`large_amethyst_bud`||
-|`minecraft:exposed_copper_door`||
-|`exposed_copper_door`||
-|`minecraft:suspicious_gravel`||
-|`suspicious_gravel`||
-|`minecraft:warped_trapdoor`||
-|`warped_trapdoor`||
-|`minecraft:flowing_water`||
-|`flowing_water`||
-|`minecraft:brick_block`||
-|`brick_block`||
-|`minecraft:waxed_weathered_copper_trapdoor`||
-|`waxed_weathered_copper_trapdoor`||
-|`minecraft:quartz_stairs`||
-|`quartz_stairs`||
-|`minecraft:cave_vines`||
-|`cave_vines`||
-|`minecraft:magenta_stained_glass_pane`||
-|`magenta_stained_glass_pane`||
-|`minecraft:iron_bars`||
-|`iron_bars`||
-|`minecraft:white_terracotta`||
-|`white_terracotta`||
-|`minecraft:stripped_oak_wood`||
-|`stripped_oak_wood`||
-|`minecraft:light_blue_carpet`||
-|`light_blue_carpet`||
-|`minecraft:oak_hanging_sign`||
-|`oak_hanging_sign`||
-|`minecraft:white_concrete_powder`||
-|`white_concrete_powder`||
-|`minecraft:melon_stem`||
-|`melon_stem`||
-|`minecraft:crimson_planks`||
-|`crimson_planks`||
-|`minecraft:stripped_dark_oak_wood`||
-|`stripped_dark_oak_wood`||
-|`minecraft:waxed_weathered_cut_copper`||
-|`waxed_weathered_cut_copper`||
-|`minecraft:white_stained_glass`||
-|`white_stained_glass`||
-|`minecraft:oak_wood`||
-|`oak_wood`||
-|`minecraft:purple_stained_glass_pane`||
-|`purple_stained_glass_pane`||
-|`minecraft:waxed_oxidized_copper_trapdoor`||
-|`waxed_oxidized_copper_trapdoor`||
-|`minecraft:wall_sign`||
-|`wall_sign`||
-|`minecraft:jukebox`||
-|`jukebox`||
-|`minecraft:stripped_cherry_wood`||
-|`stripped_cherry_wood`||
-|`minecraft:border_block`||
-|`border_block`||
-|`minecraft:shroomlight`||
-|`shroomlight`||
-|`minecraft:bamboo_fence_gate`||
-|`bamboo_fence_gate`||
-|`minecraft:cornflower`||
-|`cornflower`||
-|`minecraft:chiseled_polished_blackstone`||
-|`chiseled_polished_blackstone`||
-|`minecraft:dark_oak_stairs`||
-|`dark_oak_stairs`||
-|`minecraft:deepslate_tile_wall`||
-|`deepslate_tile_wall`||
-|`minecraft:glass_pane`||
-|`glass_pane`||
-|`minecraft:chiseled_deepslate`||
-|`chiseled_deepslate`||
-|`minecraft:cut_copper_slab`||
-|`cut_copper_slab`||
-|`minecraft:coral_block`||
-|`coral_block`||
-|`minecraft:red_stained_glass`||
-|`red_stained_glass`||
-|`minecraft:acacia_pressure_plate`||
-|`acacia_pressure_plate`||
-|`minecraft:bamboo_trapdoor`||
-|`bamboo_trapdoor`||
-|`minecraft:oxidized_chiseled_copper`||
-|`oxidized_chiseled_copper`||
-|`minecraft:mangrove_wall_sign`||
-|`mangrove_wall_sign`||
-|`minecraft:raw_copper_block`||
-|`raw_copper_block`||
-|`minecraft:oxidized_cut_copper_slab`||
-|`oxidized_cut_copper_slab`||
-|`minecraft:beetroot`||
-|`beetroot`||
-|`minecraft:skull`||
-|`skull`||
-|`minecraft:light_gray_candle_cake`||
-|`light_gray_candle_cake`||
-|`minecraft:white_candle`||
-|`white_candle`||
-|`minecraft:andesite_stairs`||
-|`andesite_stairs`||
-|`minecraft:birch_planks`||
-|`birch_planks`||
-|`minecraft:golden_rail`||
-|`golden_rail`||
-|`minecraft:cyan_wool`||
-|`cyan_wool`||
-|`minecraft:darkoak_wall_sign`||
-|`darkoak_wall_sign`||
-|`minecraft:jungle_leaves`||
-|`jungle_leaves`||
-|`minecraft:gray_shulker_box`||
-|`gray_shulker_box`||
-|`minecraft:red_sandstone_stairs`||
-|`red_sandstone_stairs`||
-|`minecraft:cyan_glazed_terracotta`||
-|`cyan_glazed_terracotta`||
-|`minecraft:cracked_deepslate_bricks`||
-|`cracked_deepslate_bricks`||
-|`minecraft:jungle_fence_gate`||
-|`jungle_fence_gate`||
-|`minecraft:exposed_copper_grate`||
-|`exposed_copper_grate`||
-|`minecraft:waxed_copper_grate`||
-|`waxed_copper_grate`||
-|`minecraft:jungle_trapdoor`||
-|`jungle_trapdoor`||
-|`minecraft:dirt_with_roots`||
-|`dirt_with_roots`||
-|`minecraft:coal_block`||
-|`coal_block`||
-|`minecraft:white_wool`||
-|`white_wool`||
-|`minecraft:warped_fence_gate`||
-|`warped_fence_gate`||
-|`minecraft:composter`||
-|`composter`||
-|`minecraft:waxed_double_cut_copper_slab`||
-|`waxed_double_cut_copper_slab`||
-|`minecraft:kelp`||
-|`kelp`||
-|`minecraft:double_plant`||
-|`double_plant`||
-|`minecraft:waxed_exposed_copper_door`||
-|`waxed_exposed_copper_door`||
-|`minecraft:deepslate_bricks`||
-|`deepslate_bricks`||
-|`minecraft:blue_glazed_terracotta`||
-|`blue_glazed_terracotta`||
-|`minecraft:light_blue_glazed_terracotta`||
-|`light_blue_glazed_terracotta`||
-|`minecraft:flowering_azalea`||
-|`flowering_azalea`||
-|`minecraft:oxidized_cut_copper`||
-|`oxidized_cut_copper`||
-|`minecraft:blue_wool`||
-|`blue_wool`||
-|`minecraft:weeping_vines`||
-|`weeping_vines`||
-|`minecraft:chorus_plant`||
-|`chorus_plant`||
-|`minecraft:water`||
-|`water`||
-|`minecraft:mud_brick_stairs`||
-|`mud_brick_stairs`||
-|`minecraft:unpowered_repeater`||
-|`unpowered_repeater`||
-|`minecraft:smooth_red_sandstone_stairs`||
-|`smooth_red_sandstone_stairs`||
-|`minecraft:element_100`||
-|`element_100`||
-|`minecraft:element_101`||
-|`element_101`||
-|`minecraft:element_102`||
-|`element_102`||
-|`minecraft:element_103`||
-|`element_103`||
-|`minecraft:element_104`||
-|`element_104`||
-|`minecraft:element_105`||
-|`element_105`||
-|`minecraft:element_106`||
-|`element_106`||
-|`minecraft:element_107`||
-|`element_107`||
-|`minecraft:element_108`||
-|`element_108`||
-|`minecraft:element_109`||
-|`element_109`||
-|`minecraft:element_113`||
-|`element_113`||
-|`minecraft:element_112`||
-|`element_112`||
-|`minecraft:element_111`||
-|`element_111`||
-|`minecraft:element_110`||
-|`element_110`||
-|`minecraft:element_117`||
-|`element_117`||
-|`minecraft:element_116`||
-|`element_116`||
-|`minecraft:element_115`||
-|`element_115`||
-|`minecraft:element_114`||
-|`element_114`||
-|`minecraft:element_118`||
-|`element_118`||
-|`minecraft:white_glazed_terracotta`||
-|`white_glazed_terracotta`||
-|`minecraft:stripped_warped_hyphae`||
-|`stripped_warped_hyphae`||
-|`minecraft:trapped_chest`||
-|`trapped_chest`||
-|`minecraft:acacia_trapdoor`||
-|`acacia_trapdoor`||
-|`minecraft:standing_sign`||
-|`standing_sign`||
-|`minecraft:bamboo_planks`||
-|`bamboo_planks`||
-|`minecraft:glow_lichen`||
-|`glow_lichen`||
-|`minecraft:wall_banner`||
-|`wall_banner`||
-|`minecraft:twisting_vines`||
-|`twisting_vines`||
-|`minecraft:chiseled_copper`||
-|`chiseled_copper`||
-|`minecraft:acacia_double_slab`||
-|`acacia_double_slab`||
-|`minecraft:dark_oak_door`||
-|`dark_oak_door`||
-|`minecraft:oak_fence`||
-|`oak_fence`||
-|`minecraft:soul_lantern`||
-|`soul_lantern`||
-|`minecraft:dirt`||
-|`dirt`||
-|`minecraft:blue_stained_glass`||
-|`blue_stained_glass`||
-|`minecraft:deny`||
-|`deny`||
-|`minecraft:bee_nest`||
-|`bee_nest`||
-|`minecraft:bubble_column`||
-|`bubble_column`||
-|`minecraft:campfire`||
-|`campfire`||
-|`minecraft:light_blue_stained_glass`||
-|`light_blue_stained_glass`||
-|`minecraft:stone_block_slab2`||
-|`stone_block_slab2`||
-|`minecraft:stone_block_slab3`||
-|`stone_block_slab3`||
-|`minecraft:stone_block_slab4`||
-|`stone_block_slab4`||
-|`minecraft:soul_soil`||
-|`soul_soil`||
-|`minecraft:soul_sand`||
-|`soul_sand`||
-|`minecraft:spruce_hanging_sign`||
-|`spruce_hanging_sign`||
-|`minecraft:polished_diorite`||
-|`polished_diorite`||
-|`minecraft:reinforced_deepslate`||
-|`reinforced_deepslate`||
-|`minecraft:fletching_table`||
-|`fletching_table`||
-|`minecraft:cherry_leaves`||
-|`cherry_leaves`||
-|`minecraft:black_glazed_terracotta`||
-|`black_glazed_terracotta`||
-|`minecraft:waxed_oxidized_cut_copper_stairs`||
-|`waxed_oxidized_cut_copper_stairs`||
-|`minecraft:waxed_weathered_copper_bulb`||
-|`waxed_weathered_copper_bulb`||
-|`minecraft:calibrated_sculk_sensor`||
-|`calibrated_sculk_sensor`||
-|`minecraft:copper_trapdoor`||
-|`copper_trapdoor`||
-|`minecraft:stripped_acacia_log`||
-|`stripped_acacia_log`||
-|`minecraft:cobbled_deepslate_double_slab`||
-|`cobbled_deepslate_double_slab`||
-|`minecraft:warped_fence`||
-|`warped_fence`||
-|`minecraft:crafting_table`||
-|`crafting_table`||
-|`minecraft:sea_pickle`||
-|`sea_pickle`||
-|`minecraft:cherry_standing_sign`||
-|`cherry_standing_sign`||
-|`minecraft:brown_concrete_powder`||
-|`brown_concrete_powder`||
-|`minecraft:mangrove_hanging_sign`||
-|`mangrove_hanging_sign`||
-|`minecraft:waxed_exposed_copper_trapdoor`||
-|`waxed_exposed_copper_trapdoor`||
-|`minecraft:brown_candle`||
-|`brown_candle`||
-|`minecraft:mossy_stone_brick_stairs`||
-|`mossy_stone_brick_stairs`||
-|`minecraft:end_rod`||
-|`end_rod`||
-|`minecraft:crimson_stem`||
-|`crimson_stem`||
-|`minecraft:green_concrete`||
-|`green_concrete`||
-|`minecraft:tuff_brick_double_slab`||
-|`tuff_brick_double_slab`||
-|`minecraft:crimson_slab`||
-|`crimson_slab`||
-|`minecraft:warped_hyphae`||
-|`warped_hyphae`||
-|`minecraft:warped_wart_block`||
-|`warped_wart_block`||
-|`minecraft:light_gray_shulker_box`||
-|`light_gray_shulker_box`||
-|`minecraft:carrots`||
-|`carrots`||
-|`minecraft:tuff_stairs`||
-|`tuff_stairs`||
-|`minecraft:yellow_carpet`||
-|`yellow_carpet`||
-|`minecraft:cyan_stained_glass`||
-|`cyan_stained_glass`||
-|`minecraft:black_stained_glass`||
-|`black_stained_glass`||
-|`minecraft:waxed_oxidized_copper_door`||
-|`waxed_oxidized_copper_door`||
-|`minecraft:dead_horn_coral`||
-|`dead_horn_coral`||
-|`minecraft:grass_block`||
-|`grass_block`||
-|`minecraft:tripwire_hook`||
-|`tripwire_hook`||
-|`minecraft:cave_vines_body_with_berries`||
-|`cave_vines_body_with_berries`||
-|`minecraft:dark_oak_pressure_plate`||
-|`dark_oak_pressure_plate`||
-|`minecraft:copper_door`||
-|`copper_door`||
-|`minecraft:stripped_birch_log`||
-|`stripped_birch_log`||
-|`minecraft:tinted_glass`||
-|`tinted_glass`||
-|`minecraft:big_dripleaf`||
-|`big_dripleaf`||
-|`minecraft:warped_hanging_sign`||
-|`warped_hanging_sign`||
-|`minecraft:lime_wool`||
-|`lime_wool`||
-|`minecraft:blue_candle_cake`||
-|`blue_candle_cake`||
-|`minecraft:sweet_berry_bush`||
-|`sweet_berry_bush`||
-|`minecraft:polished_blackstone_slab`||
-|`polished_blackstone_slab`||
-|`minecraft:reeds`||
-|`reeds`||
-|`minecraft:black_shulker_box`||
-|`black_shulker_box`||
-|`minecraft:jungle_sapling`||
-|`jungle_sapling`||
-|`minecraft:barrier`||
-|`barrier`||
-|`minecraft:torchflower_crop`||
-|`torchflower_crop`||
-|`minecraft:black_carpet`||
-|`black_carpet`||
-|`minecraft:jungle_standing_sign`||
-|`jungle_standing_sign`||
-|`minecraft:cherry_double_slab`||
-|`cherry_double_slab`||
-|`minecraft:weathered_cut_copper_slab`||
-|`weathered_cut_copper_slab`||
-|`minecraft:dark_oak_leaves`||
-|`dark_oak_leaves`||
-|`minecraft:fire`||
-|`fire`||
-|`minecraft:torchflower`||
-|`torchflower`||
-|`minecraft:end_portal_frame`||
-|`end_portal_frame`||
-|`minecraft:bamboo_pressure_plate`||
-|`bamboo_pressure_plate`||
-|`minecraft:prismarine`||
-|`prismarine`||
-|`minecraft:magenta_candle_cake`||
-|`magenta_candle_cake`||
-|`minecraft:exposed_copper_trapdoor`||
-|`exposed_copper_trapdoor`||
-|`minecraft:black_terracotta`||
-|`black_terracotta`||
-|`minecraft:deepslate_gold_ore`||
-|`deepslate_gold_ore`||
-|`minecraft:ancient_debris`||
-|`ancient_debris`||
-|`minecraft:vault`||
-|`vault`||
-|`minecraft:beehive`||
-|`beehive`||
-|`minecraft:jungle_door`||
-|`jungle_door`||
-|`minecraft:glass`||
-|`glass`||
-|`minecraft:wither_rose`||
-|`wither_rose`||
-|`minecraft:exposed_cut_copper`||
-|`exposed_cut_copper`||
-|`minecraft:waxed_weathered_cut_copper_stairs`||
-|`waxed_weathered_cut_copper_stairs`||
-|`minecraft:mangrove_roots`||
-|`mangrove_roots`||
-|`minecraft:yellow_candle`||
-|`yellow_candle`||
-|`minecraft:acacia_stairs`||
-|`acacia_stairs`||
-|`minecraft:bamboo_mosaic_stairs`||
-|`bamboo_mosaic_stairs`||
-|`minecraft:brown_concrete`||
-|`brown_concrete`||
-|`minecraft:cherry_slab`||
-|`cherry_slab`||
-|`minecraft:bubble_coral`||
-|`bubble_coral`||
-|`minecraft:orange_shulker_box`||
-|`orange_shulker_box`||
-|`minecraft:light_gray_candle`||
-|`light_gray_candle`||
-|`minecraft:polished_blackstone_pressure_plate`||
-|`polished_blackstone_pressure_plate`||
-|`minecraft:acacia_standing_sign`||
-|`acacia_standing_sign`||
-|`minecraft:tuff_brick_stairs`||
-|`tuff_brick_stairs`||
-|`minecraft:blue_shulker_box`||
-|`blue_shulker_box`||
-|`minecraft:exposed_copper_bulb`||
-|`exposed_copper_bulb`||
-|`minecraft:dead_fire_coral`||
-|`dead_fire_coral`||
-|`minecraft:crimson_stairs`||
-|`crimson_stairs`||
-|`minecraft:stripped_spruce_log`||
-|`stripped_spruce_log`||
-|`minecraft:waxed_oxidized_copper_bulb`||
-|`waxed_oxidized_copper_bulb`||
-|`minecraft:pumpkin_stem`||
-|`pumpkin_stem`||
-|`minecraft:azalea_leaves_flowered`||
-|`azalea_leaves_flowered`||
-|`minecraft:sticky_piston_arm_collision`||
-|`sticky_piston_arm_collision`||
-|`minecraft:warped_nylium`||
-|`warped_nylium`||
-|`minecraft:deepslate_emerald_ore`||
-|`deepslate_emerald_ore`||
-|`minecraft:acacia_sapling`||
-|`acacia_sapling`||
-|`minecraft:quartz_bricks`||
-|`quartz_bricks`||
-|`minecraft:unpowered_comparator`||
-|`unpowered_comparator`||
-|`minecraft:lime_candle`||
-|`lime_candle`||
-|`minecraft:structure_block`||
-|`structure_block`||
-|`minecraft:end_brick_stairs`||
-|`end_brick_stairs`||
-|`minecraft:purple_terracotta`||
-|`purple_terracotta`||
-|`minecraft:target`||
-|`target`||
-|`minecraft:wooden_button`||
-|`wooden_button`||
-|`minecraft:mangrove_door`||
-|`mangrove_door`||
-|`minecraft:weathered_copper_door`||
-|`weathered_copper_door`||
-|`minecraft:pearlescent_froglight`||
-|`pearlescent_froglight`||
-|`minecraft:double_stone_block_slab2`||
-|`double_stone_block_slab2`||
-|`minecraft:double_stone_block_slab3`||
-|`double_stone_block_slab3`||
-|`minecraft:double_stone_block_slab4`||
-|`double_stone_block_slab4`||
-|`minecraft:bamboo_button`||
-|`bamboo_button`||
-|`minecraft:nether_sprouts`||
-|`nether_sprouts`||
-|`minecraft:cyan_stained_glass_pane`||
-|`cyan_stained_glass_pane`||
-|`minecraft:verdant_froglight`||
-|`verdant_froglight`||
-|`minecraft:warped_slab`||
-|`warped_slab`||
-|`minecraft:warped_stem`||
-|`warped_stem`||
-|`minecraft:horn_coral_fan`||
-|`horn_coral_fan`||
-|`minecraft:green_shulker_box`||
-|`green_shulker_box`||
-|`minecraft:stripped_crimson_hyphae`||
-|`stripped_crimson_hyphae`||
-|`minecraft:cocoa`||
-|`cocoa`||
-|`minecraft:lever`||
-|`lever`||
-|`minecraft:bamboo_slab`||
-|`bamboo_slab`||
-|`minecraft:brick_stairs`||
-|`brick_stairs`||
-|`minecraft:weathered_copper_trapdoor`||
-|`weathered_copper_trapdoor`||
-|`minecraft:moss_block`||
-|`moss_block`||
-|`minecraft:purple_concrete_powder`||
-|`purple_concrete_powder`||
-|`minecraft:pink_glazed_terracotta`||
-|`pink_glazed_terracotta`||
-|`minecraft:waxed_weathered_cut_copper_slab`||
-|`waxed_weathered_cut_copper_slab`||
-|`minecraft:stonebrick`||
-|`stonebrick`||
-|`minecraft:fire_coral_fan`||
-|`fire_coral_fan`||
-|`minecraft:spruce_trapdoor`||
-|`spruce_trapdoor`||
-|`minecraft:chain_command_block`||
-|`chain_command_block`||
-|`minecraft:red_sandstone`||
-|`red_sandstone`||
-|`minecraft:exposed_chiseled_copper`||
-|`exposed_chiseled_copper`||
-|`minecraft:spruce_fence_gate`||
-|`spruce_fence_gate`||
-|`minecraft:exposed_cut_copper_slab`||
-|`exposed_cut_copper_slab`||
-|`minecraft:red_nether_brick_stairs`||
-|`red_nether_brick_stairs`||
-|`minecraft:green_glazed_terracotta`||
-|`green_glazed_terracotta`||
-|`minecraft:jungle_planks`||
-|`jungle_planks`||
-|`minecraft:deepslate_redstone_ore`||
-|`deepslate_redstone_ore`||
-|`minecraft:double_stone_block_slab`||
-|`double_stone_block_slab`||
-|`minecraft:mangrove_fence`||
-|`mangrove_fence`||
-|`minecraft:oxidized_copper_grate`||
-|`oxidized_copper_grate`||
-|`minecraft:anvil`||
-|`anvil`||
-|`minecraft:birch_trapdoor`||
-|`birch_trapdoor`||
-|`minecraft:tuff_bricks`||
-|`tuff_bricks`||
-|`minecraft:mangrove_leaves`||
-|`mangrove_leaves`||
-|`minecraft:cobbled_deepslate`||
-|`cobbled_deepslate`||
-|`minecraft:bookshelf`||
-|`bookshelf`||
-|`minecraft:mud`||
-|`mud`||
-|`minecraft:lit_pumpkin`||
-|`lit_pumpkin`||
-|`minecraft:ice`||
-|`ice`||
-|`minecraft:air`||
-|`air`||
-|`minecraft:bed`||
-|`bed`||
-|`minecraft:black_concrete`||
-|`black_concrete`||
-|`minecraft:tnt`||
-|`tnt`||
-|`minecraft:purple_candle_cake`||
-|`purple_candle_cake`||
-|`minecraft:web`||
-|`web`||
-|`minecraft:dead_tube_coral_fan`||
-|`dead_tube_coral_fan`||
-|`minecraft:polished_diorite_stairs`||
-|`polished_diorite_stairs`||
-|`minecraft:blue_concrete_powder`||
-|`blue_concrete_powder`||
-|`minecraft:orange_concrete`||
-|`orange_concrete`||
-|`minecraft:crying_obsidian`||
-|`crying_obsidian`||
-|`minecraft:lime_carpet`||
-|`lime_carpet`||
-|`minecraft:dead_fire_coral_fan`||
-|`dead_fire_coral_fan`||
-|`minecraft:decorated_pot`||
-|`decorated_pot`||
-|`minecraft:enchanting_table`||
-|`enchanting_table`||
-|`minecraft:polished_blackstone_wall`||
-|`polished_blackstone_wall`||
-|`minecraft:waxed_exposed_double_cut_copper_slab`||
-|`waxed_exposed_double_cut_copper_slab`||
-|`minecraft:orange_tulip`||
-|`orange_tulip`||
-|`minecraft:brown_shulker_box`||
-|`brown_shulker_box`||
-|`minecraft:azalea`||
-|`azalea`||
-|`minecraft:mud_bricks`||
-|`mud_bricks`||
-|`minecraft:birch_wall_sign`||
-|`birch_wall_sign`||
-|`minecraft:bamboo_wall_sign`||
-|`bamboo_wall_sign`||
-|`minecraft:acacia_wood`||
-|`acacia_wood`||
-|`minecraft:gray_stained_glass_pane`||
-|`gray_stained_glass_pane`||
-|`minecraft:hopper`||
-|`hopper`||
-|`minecraft:bell`||
-|`bell`||
-|`minecraft:lectern`||
-|`lectern`||
-|`minecraft:stripped_crimson_stem`||
-|`stripped_crimson_stem`||
-|`minecraft:standing_banner`||
-|`standing_banner`||
-|`minecraft:light_blue_shulker_box`||
-|`light_blue_shulker_box`||
-|`minecraft:jungle_stairs`||
-|`jungle_stairs`||
-|`minecraft:mangrove_propagule`||
-|`mangrove_propagule`||
-|`minecraft:cactus`||
-|`cactus`||
-|`minecraft:budding_amethyst`||
-|`budding_amethyst`||
-|`minecraft:sniffer_egg`||
-|`sniffer_egg`||
-|`minecraft:birch_stairs`||
-|`birch_stairs`||
-|`minecraft:purple_glazed_terracotta`||
-|`purple_glazed_terracotta`||
-|`minecraft:green_concrete_powder`||
-|`green_concrete_powder`||
-|`minecraft:bedrock`||
-|`bedrock`||
-|`minecraft:spruce_slab`||
-|`spruce_slab`||
-|`minecraft:blackstone_stairs`||
-|`blackstone_stairs`||
-|`minecraft:blue_ice`||
-|`blue_ice`||
-|`minecraft:cyan_shulker_box`||
-|`cyan_shulker_box`||
-|`minecraft:polished_andesite_stairs`||
-|`polished_andesite_stairs`||
-|`minecraft:sculk`||
-|`sculk`||
-|`minecraft:netherrack`||
-|`netherrack`||
-|`minecraft:purple_candle`||
-|`purple_candle`||
-|`minecraft:spruce_standing_sign`||
-|`spruce_standing_sign`||
-|`minecraft:mangrove_button`||
-|`mangrove_button`||
-|`minecraft:orange_carpet`||
-|`orange_carpet`||
-|`minecraft:dead_horn_coral_fan`||
-|`dead_horn_coral_fan`||
-|`minecraft:lantern`||
-|`lantern`||
-|`minecraft:waxed_weathered_copper_door`||
-|`waxed_weathered_copper_door`||
-|`minecraft:red_stained_glass_pane`||
-|`red_stained_glass_pane`||
-|`minecraft:lit_blast_furnace`||
-|`lit_blast_furnace`||
-|`minecraft:pink_stained_glass_pane`||
-|`pink_stained_glass_pane`||
-|`minecraft:light_blue_wool`||
-|`light_blue_wool`||
-|`minecraft:allow`||
-|`allow`||
-|`minecraft:dark_oak_fence`||
-|`dark_oak_fence`||
-|`minecraft:birch_door`||
-|`birch_door`||
-|`minecraft:chest`||
-|`chest`||
-|`minecraft:cherry_wood`||
-|`cherry_wood`||
-|`minecraft:chain`||
-|`chain`||
-|`minecraft:clay`||
-|`clay`||
-|`minecraft:cherry_stairs`||
-|`cherry_stairs`||
-|`minecraft:cake`||
-|`cake`||
-|`minecraft:crimson_hanging_sign`||
-|`crimson_hanging_sign`||
-|`minecraft:sculk_vein`||
-|`sculk_vein`||
-|`minecraft:dead_brain_coral`||
-|`dead_brain_coral`||
-|`minecraft:deepslate_coal_ore`||
-|`deepslate_coal_ore`||
-|`minecraft:weathered_cut_copper`||
-|`weathered_cut_copper`||
-|`minecraft:warped_standing_sign`||
-|`warped_standing_sign`||
-|`minecraft:cracked_polished_blackstone_bricks`||
-|`cracked_polished_blackstone_bricks`||
-|`minecraft:bamboo_standing_sign`||
-|`bamboo_standing_sign`||
-|`minecraft:flowing_lava`||
-|`flowing_lava`||
-|`minecraft:polished_tuff`||
-|`polished_tuff`||
-|`minecraft:magenta_stained_glass`||
-|`magenta_stained_glass`||
-|`minecraft:acacia_button`||
-|`acacia_button`||
-|`minecraft:lit_furnace`||
-|`lit_furnace`||
-|`minecraft:chiseled_nether_bricks`||
-|`chiseled_nether_bricks`||
-|`minecraft:warped_button`||
-|`warped_button`||
-|`minecraft:red_concrete_powder`||
-|`red_concrete_powder`||
-|`minecraft:light_gray_concrete_powder`||
-|`light_gray_concrete_powder`||
-|`minecraft:deepslate_lapis_ore`||
-|`deepslate_lapis_ore`||
-|`minecraft:dead_bubble_coral`||
-|`dead_bubble_coral`||
-|`minecraft:cherry_sapling`||
-|`cherry_sapling`||
-|`minecraft:cherry_log`||
-|`cherry_log`||
-|`minecraft:prismarine_stairs`||
-|`prismarine_stairs`||
-|`minecraft:white_carpet`||
-|`white_carpet`||
-|`minecraft:cyan_concrete`||
-|`cyan_concrete`||
-|`minecraft:polished_tuff_stairs`||
-|`polished_tuff_stairs`||
-|`minecraft:dragon_egg`||
-|`dragon_egg`||
-|`minecraft:blue_concrete`||
-|`blue_concrete`||
-|`minecraft:nether_brick`||
-|`nether_brick`||
-|`minecraft:deepslate_iron_ore`||
-|`deepslate_iron_ore`||
-|`minecraft:element_1`||
-|`element_1`||
-|`minecraft:element_0`||
-|`element_0`||
-|`minecraft:element_3`||
-|`element_3`||
-|`minecraft:element_2`||
-|`element_2`||
-|`minecraft:element_5`||
-|`element_5`||
-|`minecraft:element_4`||
-|`element_4`||
-|`minecraft:element_7`||
-|`element_7`||
-|`minecraft:element_6`||
-|`element_6`||
-|`minecraft:element_9`||
-|`element_9`||
-|`minecraft:element_8`||
-|`element_8`||
-|`minecraft:oxeye_daisy`||
-|`oxeye_daisy`||
-|`minecraft:wheat`||
-|`wheat`||
-|`minecraft:waxed_cut_copper`||
-|`waxed_cut_copper`||
-|`minecraft:chemistry_table`||
-|`chemistry_table`||
-|`minecraft:heavy_core`||
-|`heavy_core`||
-|`minecraft:cobbled_deepslate_slab`||
-|`cobbled_deepslate_slab`||
-|`minecraft:spore_blossom`||
-|`spore_blossom`||
-|`minecraft:crimson_standing_sign`||
-|`crimson_standing_sign`||
-|`minecraft:darkoak_standing_sign`||
-|`darkoak_standing_sign`||
-|`minecraft:weathered_double_cut_copper_slab`||
-|`weathered_double_cut_copper_slab`||
-|`minecraft:emerald_ore`||
-|`emerald_ore`||
-|`minecraft:brown_mushroom_block`||
-|`brown_mushroom_block`||
-|`minecraft:gray_concrete_powder`||
-|`gray_concrete_powder`||
-|`minecraft:gray_concrete`||
-|`gray_concrete`||
-|`minecraft:pink_candle`||
-|`pink_candle`||
-|`minecraft:purple_shulker_box`||
-|`purple_shulker_box`||
-|`minecraft:carved_pumpkin`||
-|`carved_pumpkin`||
-|`minecraft:dropper`||
-|`dropper`||
-|`minecraft:spruce_wall_sign`||
-|`spruce_wall_sign`||
-|`minecraft:stripped_warped_stem`||
-|`stripped_warped_stem`||
-|`minecraft:candle`||
-|`candle`||
-|`minecraft:pointed_dripstone`||
-|`pointed_dripstone`||
-|`minecraft:red_carpet`||
-|`red_carpet`||
-|`minecraft:deepslate_brick_stairs`||
-|`deepslate_brick_stairs`||
-|`minecraft:dark_prismarine_stairs`||
-|`dark_prismarine_stairs`||
-|`minecraft:chiseled_tuff_bricks`||
-|`chiseled_tuff_bricks`||
-|`minecraft:light_blue_concrete`||
-|`light_blue_concrete`||
-|`minecraft:red_tulip`||
-|`red_tulip`||
-|`minecraft:trip_wire`||
-|`trip_wire`||
-|`minecraft:cauldron`||
-|`cauldron`||
-|`minecraft:cave_vines_head_with_berries`||
-|`cave_vines_head_with_berries`||
-|`minecraft:birch_sapling`||
-|`birch_sapling`||
-|`minecraft:dark_oak_trapdoor`||
-|`dark_oak_trapdoor`||
-|`minecraft:orange_terracotta`||
-|`orange_terracotta`||
-|`minecraft:waxed_oxidized_copper`||
-|`waxed_oxidized_copper`||
-|`minecraft:oak_planks`||
-|`oak_planks`||
-|`minecraft:stripped_oak_log`||
-|`stripped_oak_log`||
-|`minecraft:polished_andesite`||
-|`polished_andesite`||
-|`minecraft:sea_lantern`||
-|`sea_lantern`||
-|`minecraft:brewing_stand`||
-|`brewing_stand`||
-|`minecraft:bamboo_sapling`||
-|`bamboo_sapling`||
-|`minecraft:weathered_copper_bulb`||
-|`weathered_copper_bulb`||
-|`minecraft:blast_furnace`||
-|`blast_furnace`||
-|`minecraft:crimson_roots`||
-|`crimson_roots`||
-|`minecraft:acacia_slab`||
-|`acacia_slab`||
-|`minecraft:stonecutter_block`||
-|`stonecutter_block`||
-|`minecraft:yellow_concrete_powder`||
-|`yellow_concrete_powder`||
-|`minecraft:white_candle_cake`||
-|`white_candle_cake`||
-|`minecraft:candle_cake`||
-|`candle_cake`||
-|`minecraft:lime_stained_glass_pane`||
-|`lime_stained_glass_pane`||
-|`minecraft:end_portal`||
-|`end_portal`||
-|`minecraft:yellow_stained_glass`||
-|`yellow_stained_glass`||
-|`minecraft:jungle_double_slab`||
-|`jungle_double_slab`||
-|`minecraft:spruce_wood`||
-|`spruce_wood`||
-|`minecraft:blackstone`||
-|`blackstone`||
-|`minecraft:acacia_fence_gate`||
-|`acacia_fence_gate`||
-|`minecraft:lit_deepslate_redstone_ore`||
-|`lit_deepslate_redstone_ore`||
-|`minecraft:element_10`||
-|`element_10`||
-|`minecraft:element_11`||
-|`element_11`||
-|`minecraft:element_12`||
-|`element_12`||
-|`minecraft:element_13`||
-|`element_13`||
-|`minecraft:element_14`||
-|`element_14`||
-|`minecraft:element_15`||
-|`element_15`||
-|`minecraft:element_16`||
-|`element_16`||
-|`minecraft:element_17`||
-|`element_17`||
-|`minecraft:element_18`||
-|`element_18`||
-|`minecraft:element_19`||
-|`element_19`||
-|`minecraft:element_36`||
-|`element_36`||
-|`minecraft:element_37`||
-|`element_37`||
-|`minecraft:element_34`||
-|`element_34`||
-|`minecraft:element_35`||
-|`element_35`||
-|`minecraft:element_32`||
-|`element_32`||
-|`minecraft:element_33`||
-|`element_33`||
-|`minecraft:element_30`||
-|`element_30`||
-|`minecraft:element_31`||
-|`element_31`||
-|`minecraft:element_38`||
-|`element_38`||
-|`minecraft:element_39`||
-|`element_39`||
-|`minecraft:element_29`||
-|`element_29`||
-|`minecraft:element_28`||
-|`element_28`||
-|`minecraft:element_21`||
-|`element_21`||
-|`minecraft:element_20`||
-|`element_20`||
-|`minecraft:element_23`||
-|`element_23`||
-|`minecraft:element_22`||
-|`element_22`||
-|`minecraft:element_25`||
-|`element_25`||
-|`minecraft:element_24`||
-|`element_24`||
-|`minecraft:element_27`||
-|`element_27`||
-|`minecraft:element_26`||
-|`element_26`||
-|`minecraft:element_58`||
-|`element_58`||
-|`minecraft:element_59`||
-|`element_59`||
-|`minecraft:element_54`||
-|`element_54`||
-|`minecraft:element_55`||
-|`element_55`||
-|`minecraft:element_56`||
-|`element_56`||
-|`minecraft:element_57`||
-|`element_57`||
-|`minecraft:element_50`||
-|`element_50`||
-|`minecraft:element_51`||
-|`element_51`||
-|`minecraft:element_52`||
-|`element_52`||
-|`minecraft:element_53`||
-|`element_53`||
-|`minecraft:element_49`||
-|`element_49`||
-|`minecraft:element_48`||
-|`element_48`||
-|`minecraft:element_47`||
-|`element_47`||
-|`minecraft:element_46`||
-|`element_46`||
-|`minecraft:element_45`||
-|`element_45`||
-|`minecraft:element_44`||
-|`element_44`||
-|`minecraft:element_43`||
-|`element_43`||
-|`minecraft:element_42`||
-|`element_42`||
-|`minecraft:element_41`||
-|`element_41`||
-|`minecraft:element_40`||
-|`element_40`||
-|`minecraft:element_72`||
-|`element_72`||
-|`minecraft:element_73`||
-|`element_73`||
-|`minecraft:element_70`||
-|`element_70`||
-|`minecraft:element_71`||
-|`element_71`||
-|`minecraft:element_76`||
-|`element_76`||
-|`minecraft:element_77`||
-|`element_77`||
-|`minecraft:element_74`||
-|`element_74`||
-|`minecraft:element_75`||
-|`element_75`||
-|`minecraft:element_78`||
-|`element_78`||
-|`minecraft:element_79`||
-|`element_79`||
-|`minecraft:element_65`||
-|`element_65`||
-|`minecraft:element_64`||
-|`element_64`||
-|`minecraft:element_67`||
-|`element_67`||
-|`minecraft:element_66`||
-|`element_66`||
-|`minecraft:element_61`||
-|`element_61`||
-|`minecraft:element_60`||
-|`element_60`||
-|`minecraft:element_63`||
-|`element_63`||
-|`minecraft:element_62`||
-|`element_62`||
-|`minecraft:element_69`||
-|`element_69`||
-|`minecraft:element_68`||
-|`element_68`||
-|`minecraft:element_98`||
-|`element_98`||
-|`minecraft:element_99`||
-|`element_99`||
-|`minecraft:element_90`||
-|`element_90`||
-|`minecraft:element_91`||
-|`element_91`||
-|`minecraft:element_92`||
-|`element_92`||
-|`minecraft:element_93`||
-|`element_93`||
-|`minecraft:element_94`||
-|`element_94`||
-|`minecraft:element_95`||
-|`element_95`||
-|`minecraft:element_96`||
-|`element_96`||
-|`minecraft:element_97`||
-|`element_97`||
-|`minecraft:element_89`||
-|`element_89`||
-|`minecraft:element_88`||
-|`element_88`||
-|`minecraft:element_83`||
-|`element_83`||
-|`minecraft:element_82`||
-|`element_82`||
-|`minecraft:element_81`||
-|`element_81`||
-|`minecraft:element_80`||
-|`element_80`||
-|`minecraft:element_87`||
-|`element_87`||
-|`minecraft:element_86`||
-|`element_86`||
-|`minecraft:element_85`||
-|`element_85`||
-|`minecraft:element_84`||
-|`element_84`||
-|`minecraft:lit_smoker`||
-|`lit_smoker`||
-|`minecraft:lapis_ore`||
-|`lapis_ore`||
-|`minecraft:red_concrete`||
-|`red_concrete`||
-|`minecraft:pink_carpet`||
-|`pink_carpet`||
-|`minecraft:smooth_quartz_stairs`||
-|`smooth_quartz_stairs`||
-|`minecraft:red_candle_cake`||
-|`red_candle_cake`||
-|`minecraft:azalea_leaves`||
-|`azalea_leaves`||
-|`minecraft:purpur_block`||
-|`purpur_block`||
-|`minecraft:cherry_wall_sign`||
-|`cherry_wall_sign`||
-|`minecraft:cyan_candle`||
-|`cyan_candle`||
-|`minecraft:waxed_copper`||
-|`waxed_copper`||
-|`minecraft:repeating_command_block`||
-|`repeating_command_block`||
-|`minecraft:nether_wart`||
-|`nether_wart`||
-|`minecraft:purple_carpet`||
-|`purple_carpet`||
-|`minecraft:waxed_oxidized_double_cut_copper_slab`||
-|`waxed_oxidized_double_cut_copper_slab`||
-|`minecraft:crimson_fungus`||
-|`crimson_fungus`||
-|`minecraft:cherry_planks`||
-|`cherry_planks`||
-|`minecraft:polished_deepslate`||
-|`polished_deepslate`||
-|`minecraft:tuff_double_slab`||
-|`tuff_double_slab`||
-|`minecraft:purpur_stairs`||
-|`purpur_stairs`||
-|`minecraft:tube_coral`||
-|`tube_coral`||
-|`minecraft:waxed_copper_door`||
-|`waxed_copper_door`||
-|`minecraft:portal`||
-|`portal`||
-|`minecraft:birch_button`||
-|`birch_button`||
-|`minecraft:command_block`||
-|`command_block`||
-|`minecraft:polished_blackstone_button`||
-|`polished_blackstone_button`||
-|`minecraft:crafter`||
-|`crafter`||
-|`minecraft:spruce_planks`||
-|`spruce_planks`||
-|`minecraft:furnace`||
-|`furnace`||
-|`minecraft:amethyst_cluster`||
-|`amethyst_cluster`||
-|`minecraft:waxed_chiseled_copper`||
-|`waxed_chiseled_copper`||
-|`minecraft:waxed_cut_copper_slab`||
-|`waxed_cut_copper_slab`||
-|`minecraft:polished_deepslate_wall`||
-|`polished_deepslate_wall`||
-|`minecraft:dried_kelp_block`||
-|`dried_kelp_block`||
-|`minecraft:light_block`||
-|`light_block`||
-|`minecraft:crimson_fence`||
-|`crimson_fence`||
-|`minecraft:chiseled_tuff`||
-|`chiseled_tuff`||
-|`minecraft:lime_concrete_powder`||
-|`lime_concrete_powder`||
-|`minecraft:turtle_egg`||
-|`turtle_egg`||
-|`minecraft:magma`||
-|`magma`||
-|`minecraft:dispenser`||
-|`dispenser`||
-|`minecraft:brown_terracotta`||
-|`brown_terracotta`||
-|`minecraft:deepslate_diamond_ore`||
-|`deepslate_diamond_ore`||
-|`minecraft:grindstone`||
-|`grindstone`||
-|`minecraft:light_gray_wool`||
-|`light_gray_wool`||
-|`minecraft:soul_campfire`||
-|`soul_campfire`||
-|`minecraft:wooden_pressure_plate`||
-|`wooden_pressure_plate`||
-|`minecraft:birch_fence`||
-|`birch_fence`||
-|`minecraft:lime_candle_cake`||
-|`lime_candle_cake`||
-|`minecraft:waxed_oxidized_copper_grate`||
-|`waxed_oxidized_copper_grate`||
-|`minecraft:birch_double_slab`||
-|`birch_double_slab`||
-|`minecraft:white_concrete`||
-|`white_concrete`||
-|`minecraft:trial_spawner`||
-|`trial_spawner`||
-|`minecraft:acacia_fence`||
-|`acacia_fence`||
-|`minecraft:grass_path`||
-|`grass_path`||
-|`minecraft:cobbled_deepslate_wall`||
-|`cobbled_deepslate_wall`||
-|`minecraft:orange_concrete_powder`||
-|`orange_concrete_powder`||
-|`minecraft:orange_candle_cake`||
-|`orange_candle_cake`||
-|`minecraft:weathered_copper`||
-|`weathered_copper`||
-|`minecraft:unlit_redstone_torch`||
-|`unlit_redstone_torch`||
-|`minecraft:lime_terracotta`||
-|`lime_terracotta`||
-|`minecraft:cherry_fence_gate`||
-|`cherry_fence_gate`||
-|`minecraft:gray_glazed_terracotta`||
-|`gray_glazed_terracotta`||
-|`minecraft:lodestone`||
-|`lodestone`||
-|`minecraft:bamboo_mosaic`||
-|`bamboo_mosaic`||
-|`minecraft:raw_iron_block`||
-|`raw_iron_block`||
-|`minecraft:light_gray_carpet`||
-|`light_gray_carpet`||
-|`minecraft:purple_wool`||
-|`purple_wool`||
-|`minecraft:iron_block`||
-|`iron_block`||
-|`minecraft:ladder`||
-|`ladder`||
-|`minecraft:crimson_pressure_plate`||
-|`crimson_pressure_plate`||
-|`minecraft:stripped_mangrove_log`||
-|`stripped_mangrove_log`||
-|`minecraft:gravel`||
-|`gravel`||
-|`minecraft:cartography_table`||
-|`cartography_table`||
-|`minecraft:oxidized_copper_door`||
-|`oxidized_copper_door`||
-|`grass`||
-|`minecraft:grass`||
-|`concretepowder`||
-|`minecraft:concretepowder`||
-|`pistonarmcollision`||
-|`minecraft:pistonarmcollision`||
-|`stone_slab4`||
-|`minecraft:stone_slab4`||
-|`stone_slab`||
-|`minecraft:stone_slab`||
-|`tripwire`||
-|`minecraft:tripwire`||
-|`sealantern`||
-|`minecraft:sealantern`||
-|`movingblock`||
-|`minecraft:movingblock`||
-|`invisiblebedrock`||
-|`minecraft:invisiblebedrock`||
-|`stone_slab2`||
-|`minecraft:stone_slab2`||
-|`stickypistonarmcollision`||
-|`minecraft:stickypistonarmcollision`||
-|`stone_slab3`||
-|`minecraft:stone_slab3`||
-|`double_stone_slab`||
-|`minecraft:double_stone_slab`||
-|`double_stone_slab2`||
-|`minecraft:double_stone_slab2`||
-|`double_stone_slab3`||
-|`minecraft:double_stone_slab3`||
-|`double_stone_slab4`||
-|`minecraft:double_stone_slab4`||
-|`wool`||
-|`minecraft:wool`||
-|`log`||
-|`minecraft:log`||
-|`log2`||
-|`minecraft:log2`||
-|`coral`||
-|`minecraft:coral`||
-|`fence`||
-|`minecraft:fence`||
-|`carpet`||
-|`minecraft:carpet`||
-|`shulker_box`||
-|`minecraft:shulker_box`||
-|`concrete`||
-|`minecraft:concrete`||
-|`stained_hardened_clay`||
-|`minecraft:stained_hardened_clay`||
-|`concrete_powder`||
-|`minecraft:concrete_powder`||
-|`stained_glass`||
-|`minecraft:stained_glass`||
-|`stained_glass_pane`||
-|`minecraft:stained_glass_pane`||
-|`planks`||
-|`minecraft:planks`||
-|`hard_stained_glass`||
-|`minecraft:hard_stained_glass`||
-|`hard_stained_glass_pane`||
-|`minecraft:hard_stained_glass_pane`||
-|`wooden_slab`||
-|`minecraft:wooden_slab`||
-|`double_wooden_slab`||
-|`minecraft:double_wooden_slab`||
-|`leaves`||
-|`minecraft:leaves`||
-|`leaves2`||
-|`minecraft:leaves2`||
-|`wood`||
-|`minecraft:wood`||
-|`sapling`||
-|`minecraft:sapling`||
-|`coral_fan`||
-|`minecraft:coral_fan`||
-|`coral_fan_dead`||
-|`minecraft:coral_fan_dead`||
-|`red_flower`||
-|`minecraft:red_flower`||
-|`lava_cauldron`||
-|`minecraft:lava_cauldron`||
+  |值|描述|
+  |---|---|
+  |`minecraft:cyan_terracotta`||
+  |`cyan_terracotta`||
+  |`minecraft:blue_candle`||
+  |`blue_candle`||
+  |`minecraft:dark_oak_wood`||
+  |`dark_oak_wood`||
+  |`minecraft:birch_standing_sign`||
+  |`birch_standing_sign`||
+  |`minecraft:polished_basalt`||
+  |`polished_basalt`||
+  |`minecraft:nether_gold_ore`||
+  |`nether_gold_ore`||
+  |`minecraft:warped_door`||
+  |`warped_door`||
+  |`minecraft:light_blue_concrete_powder`||
+  |`light_blue_concrete_powder`||
+  |`minecraft:bamboo_block`||
+  |`bamboo_block`||
+  |`minecraft:piston_arm_collision`||
+  |`piston_arm_collision`||
+  |`minecraft:waxed_oxidized_chiseled_copper`||
+  |`waxed_oxidized_chiseled_copper`||
+  |`minecraft:granite`||
+  |`granite`||
+  |`minecraft:blue_stained_glass_pane`||
+  |`blue_stained_glass_pane`||
+  |`minecraft:fence_gate`||
+  |`fence_gate`||
+  |`minecraft:powder_snow`||
+  |`powder_snow`||
+  |`minecraft:dark_oak_button`||
+  |`dark_oak_button`||
+  |`minecraft:deepslate_copper_ore`||
+  |`deepslate_copper_ore`||
+  |`minecraft:nether_brick_stairs`||
+  |`nether_brick_stairs`||
+  |`minecraft:yellow_shulker_box`||
+  |`yellow_shulker_box`||
+  |`minecraft:blackstone_double_slab`||
+  |`blackstone_double_slab`||
+  |`minecraft:lime_stained_glass`||
+  |`lime_stained_glass`||
+  |`minecraft:red_wool`||
+  |`red_wool`||
+  |`minecraft:jungle_button`||
+  |`jungle_button`||
+  |`minecraft:spruce_stairs`||
+  |`spruce_stairs`||
+  |`minecraft:diorite`||
+  |`diorite`||
+  |`minecraft:gray_candle_cake`||
+  |`gray_candle_cake`||
+  |`minecraft:polished_tuff_slab`||
+  |`polished_tuff_slab`||
+  |`minecraft:cherry_pressure_plate`||
+  |`cherry_pressure_plate`||
+  |`minecraft:cherry_hanging_sign`||
+  |`cherry_hanging_sign`||
+  |`minecraft:yellow_wool`||
+  |`yellow_wool`||
+  |`minecraft:crimson_wall_sign`||
+  |`crimson_wall_sign`||
+  |`minecraft:yellow_stained_glass_pane`||
+  |`yellow_stained_glass_pane`||
+  |`minecraft:azure_bluet`||
+  |`azure_bluet`||
+  |`minecraft:beacon`||
+  |`beacon`||
+  |`minecraft:red_nether_brick`||
+  |`red_nether_brick`||
+  |`minecraft:cobbled_deepslate_stairs`||
+  |`cobbled_deepslate_stairs`||
+  |`minecraft:snow_layer`||
+  |`snow_layer`||
+  |`minecraft:black_candle`||
+  |`black_candle`||
+  |`minecraft:blue_carpet`||
+  |`blue_carpet`||
+  |`minecraft:glow_frame`||
+  |`glow_frame`||
+  |`minecraft:mud_brick_double_slab`||
+  |`mud_brick_double_slab`||
+  |`minecraft:hanging_roots`||
+  |`hanging_roots`||
+  |`minecraft:prismarine_bricks_stairs`||
+  |`prismarine_bricks_stairs`||
+  |`minecraft:waxed_oxidized_cut_copper`||
+  |`waxed_oxidized_cut_copper`||
+  |`minecraft:calcite`||
+  |`calcite`||
+  |`minecraft:stripped_dark_oak_log`||
+  |`stripped_dark_oak_log`||
+  |`minecraft:dead_bubble_coral_fan`||
+  |`dead_bubble_coral_fan`||
+  |`minecraft:jungle_log`||
+  |`jungle_log`||
+  |`minecraft:bubble_coral_fan`||
+  |`bubble_coral_fan`||
+  |`minecraft:sculk_shrieker`||
+  |`sculk_shrieker`||
+  |`minecraft:gray_wool`||
+  |`gray_wool`||
+  |`minecraft:orange_stained_glass_pane`||
+  |`orange_stained_glass_pane`||
+  |`minecraft:gray_carpet`||
+  |`gray_carpet`||
+  |`minecraft:lily_of_the_valley`||
+  |`lily_of_the_valley`||
+  |`minecraft:lime_glazed_terracotta`||
+  |`lime_glazed_terracotta`||
+  |`minecraft:trapdoor`||
+  |`trapdoor`||
+  |`minecraft:dead_brain_coral_fan`||
+  |`dead_brain_coral_fan`||
+  |`minecraft:seagrass`||
+  |`seagrass`||
+  |`minecraft:tube_coral_fan`||
+  |`tube_coral_fan`||
+  |`minecraft:waxed_exposed_cut_copper_slab`||
+  |`waxed_exposed_cut_copper_slab`||
+  |`minecraft:redstone_lamp`||
+  |`redstone_lamp`||
+  |`minecraft:mossy_cobblestone`||
+  |`mossy_cobblestone`||
+  |`minecraft:deepslate`||
+  |`deepslate`||
+  |`minecraft:magenta_carpet`||
+  |`magenta_carpet`||
+  |`minecraft:pitcher_crop`||
+  |`pitcher_crop`||
+  |`minecraft:brown_wool`||
+  |`brown_wool`||
+  |`minecraft:waxed_exposed_chiseled_copper`||
+  |`waxed_exposed_chiseled_copper`||
+  |`minecraft:tuff_slab`||
+  |`tuff_slab`||
+  |`minecraft:warped_pressure_plate`||
+  |`warped_pressure_plate`||
+  |`minecraft:stripped_acacia_wood`||
+  |`stripped_acacia_wood`||
+  |`minecraft:diamond_block`||
+  |`diamond_block`||
+  |`minecraft:oak_stairs`||
+  |`oak_stairs`||
+  |`minecraft:oak_log`||
+  |`oak_log`||
+  |`minecraft:brown_stained_glass_pane`||
+  |`brown_stained_glass_pane`||
+  |`minecraft:end_bricks`||
+  |`end_bricks`||
+  |`minecraft:magenta_shulker_box`||
+  |`magenta_shulker_box`||
+  |`minecraft:packed_ice`||
+  |`packed_ice`||
+  |`minecraft:packed_mud`||
+  |`packed_mud`||
+  |`minecraft:light_blue_candle_cake`||
+  |`light_blue_candle_cake`||
+  |`minecraft:moss_carpet`||
+  |`moss_carpet`||
+  |`minecraft:warped_fungus`||
+  |`warped_fungus`||
+  |`minecraft:polished_deepslate_slab`||
+  |`polished_deepslate_slab`||
+  |`minecraft:bamboo_door`||
+  |`bamboo_door`||
+  |`minecraft:amethyst_block`||
+  |`amethyst_block`||
+  |`minecraft:gold_block`||
+  |`gold_block`||
+  |`minecraft:flower_pot`||
+  |`flower_pot`||
+  |`minecraft:chiseled_bookshelf`||
+  |`chiseled_bookshelf`||
+  |`minecraft:polished_deepslate_stairs`||
+  |`polished_deepslate_stairs`||
+  |`minecraft:yellow_flower`||
+  |`yellow_flower`||
+  |`minecraft:lime_shulker_box`||
+  |`lime_shulker_box`||
+  |`minecraft:weathered_chiseled_copper`||
+  |`weathered_chiseled_copper`||
+  |`minecraft:small_amethyst_bud`||
+  |`small_amethyst_bud`||
+  |`minecraft:activator_rail`||
+  |`activator_rail`||
+  |`minecraft:iron_trapdoor`||
+  |`iron_trapdoor`||
+  |`minecraft:potatoes`||
+  |`potatoes`||
+  |`minecraft:muddy_mangrove_roots`||
+  |`muddy_mangrove_roots`||
+  |`minecraft:stripped_jungle_wood`||
+  |`stripped_jungle_wood`||
+  |`minecraft:noteblock`||
+  |`noteblock`||
+  |`minecraft:tuff`||
+  |`tuff`||
+  |`minecraft:mangrove_log`||
+  |`mangrove_log`||
+  |`minecraft:oxidized_cut_copper_stairs`||
+  |`oxidized_cut_copper_stairs`||
+  |`minecraft:deepslate_tile_double_slab`||
+  |`deepslate_tile_double_slab`||
+  |`minecraft:raw_gold_block`||
+  |`raw_gold_block`||
+  |`minecraft:allium`||
+  |`allium`||
+  |`minecraft:white_shulker_box`||
+  |`white_shulker_box`||
+  |`minecraft:copper_grate`||
+  |`copper_grate`||
+  |`minecraft:black_wool`||
+  |`black_wool`||
+  |`minecraft:orange_candle`||
+  |`orange_candle`||
+  |`minecraft:powered_comparator`||
+  |`powered_comparator`||
+  |`minecraft:jungle_fence`||
+  |`jungle_fence`||
+  |`minecraft:warped_wall_sign`||
+  |`warped_wall_sign`||
+  |`minecraft:spruce_fence`||
+  |`spruce_fence`||
+  |`minecraft:dark_oak_sapling`||
+  |`dark_oak_sapling`||
+  |`minecraft:melon_block`||
+  |`melon_block`||
+  |`minecraft:black_concrete_powder`||
+  |`black_concrete_powder`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`waxed_cut_copper_stairs`||
+  |`minecraft:mob_spawner`||
+  |`mob_spawner`||
+  |`minecraft:polished_granite`||
+  |`polished_granite`||
+  |`minecraft:soul_fire`||
+  |`soul_fire`||
+  |`minecraft:magenta_candle`||
+  |`magenta_candle`||
+  |`minecraft:mangrove_double_slab`||
+  |`mangrove_double_slab`||
+  |`minecraft:light_gray_stained_glass`||
+  |`light_gray_stained_glass`||
+  |`minecraft:obsidian`||
+  |`obsidian`||
+  |`minecraft:light_gray_stained_glass_pane`||
+  |`light_gray_stained_glass_pane`||
+  |`minecraft:dark_oak_slab`||
+  |`dark_oak_slab`||
+  |`minecraft:deepslate_brick_wall`||
+  |`deepslate_brick_wall`||
+  |`minecraft:waxed_exposed_copper_grate`||
+  |`waxed_exposed_copper_grate`||
+  |`minecraft:oxidized_double_cut_copper_slab`||
+  |`oxidized_double_cut_copper_slab`||
+  |`minecraft:exposed_copper`||
+  |`exposed_copper`||
+  |`minecraft:polished_deepslate_double_slab`||
+  |`polished_deepslate_double_slab`||
+  |`minecraft:stone_button`||
+  |`stone_button`||
+  |`minecraft:waxed_copper_bulb`||
+  |`waxed_copper_bulb`||
+  |`minecraft:sponge`||
+  |`sponge`||
+  |`minecraft:exposed_double_cut_copper_slab`||
+  |`exposed_double_cut_copper_slab`||
+  |`minecraft:bamboo_fence`||
+  |`bamboo_fence`||
+  |`minecraft:normal_stone_stairs`||
+  |`normal_stone_stairs`||
+  |`minecraft:hardened_clay`||
+  |`hardened_clay`||
+  |`minecraft:birch_hanging_sign`||
+  |`birch_hanging_sign`||
+  |`minecraft:stripped_jungle_log`||
+  |`stripped_jungle_log`||
+  |`minecraft:oak_sapling`||
+  |`oak_sapling`||
+  |`minecraft:polished_blackstone_double_slab`||
+  |`polished_blackstone_double_slab`||
+  |`minecraft:light_gray_terracotta`||
+  |`light_gray_terracotta`||
+  |`minecraft:smoker`||
+  |`smoker`||
+  |`minecraft:brown_stained_glass`||
+  |`brown_stained_glass`||
+  |`minecraft:andesite`||
+  |`andesite`||
+  |`minecraft:fire_coral`||
+  |`fire_coral`||
+  |`minecraft:stone`||
+  |`stone`||
+  |`minecraft:birch_log`||
+  |`birch_log`||
+  |`minecraft:tuff_brick_wall`||
+  |`tuff_brick_wall`||
+  |`minecraft:brain_coral`||
+  |`brain_coral`||
+  |`minecraft:stripped_spruce_wood`||
+  |`stripped_spruce_wood`||
+  |`minecraft:orange_wool`||
+  |`orange_wool`||
+  |`minecraft:polished_blackstone_brick_double_slab`||
+  |`polished_blackstone_brick_double_slab`||
+  |`minecraft:crimson_double_slab`||
+  |`crimson_double_slab`||
+  |`minecraft:respawn_anchor`||
+  |`respawn_anchor`||
+  |`minecraft:light_gray_concrete`||
+  |`light_gray_concrete`||
+  |`minecraft:green_candle`||
+  |`green_candle`||
+  |`minecraft:waxed_exposed_copper`||
+  |`waxed_exposed_copper`||
+  |`minecraft:birch_wood`||
+  |`birch_wood`||
+  |`minecraft:hay_block`||
+  |`hay_block`||
+  |`minecraft:jungle_wood`||
+  |`jungle_wood`||
+  |`minecraft:waxed_weathered_copper`||
+  |`waxed_weathered_copper`||
+  |`minecraft:waxed_oxidized_cut_copper_slab`||
+  |`waxed_oxidized_cut_copper_slab`||
+  |`minecraft:oak_leaves`||
+  |`oak_leaves`||
+  |`minecraft:brain_coral_fan`||
+  |`brain_coral_fan`||
+  |`minecraft:cyan_candle_cake`||
+  |`cyan_candle_cake`||
+  |`minecraft:polished_tuff_wall`||
+  |`polished_tuff_wall`||
+  |`minecraft:bamboo_stairs`||
+  |`bamboo_stairs`||
+  |`minecraft:torch`||
+  |`torch`||
+  |`minecraft:mud_brick_wall`||
+  |`mud_brick_wall`||
+  |`minecraft:honey_block`||
+  |`honey_block`||
+  |`minecraft:dripstone_block`||
+  |`dripstone_block`||
+  |`minecraft:vine`||
+  |`vine`||
+  |`minecraft:cherry_trapdoor`||
+  |`cherry_trapdoor`||
+  |`minecraft:blackstone_slab`||
+  |`blackstone_slab`||
+  |`minecraft:gold_ore`||
+  |`gold_ore`||
+  |`minecraft:yellow_glazed_terracotta`||
+  |`yellow_glazed_terracotta`||
+  |`minecraft:warped_planks`||
+  |`warped_planks`||
+  |`minecraft:piston`||
+  |`piston`||
+  |`minecraft:brown_carpet`||
+  |`brown_carpet`||
+  |`minecraft:tallgrass`||
+  |`tallgrass`||
+  |`minecraft:stone_brick_stairs`||
+  |`stone_brick_stairs`||
+  |`minecraft:gray_candle`||
+  |`gray_candle`||
+  |`minecraft:cherry_fence`||
+  |`cherry_fence`||
+  |`minecraft:mangrove_planks`||
+  |`mangrove_planks`||
+  |`minecraft:red_terracotta`||
+  |`red_terracotta`||
+  |`minecraft:oxidized_copper_bulb`||
+  |`oxidized_copper_bulb`||
+  |`minecraft:magenta_wool`||
+  |`magenta_wool`||
+  |`minecraft:magenta_glazed_terracotta`||
+  |`magenta_glazed_terracotta`||
+  |`minecraft:polished_blackstone_brick_wall`||
+  |`polished_blackstone_brick_wall`||
+  |`minecraft:mangrove_slab`||
+  |`mangrove_slab`||
+  |`minecraft:orange_glazed_terracotta`||
+  |`orange_glazed_terracotta`||
+  |`minecraft:smooth_basalt`||
+  |`smooth_basalt`||
+  |`minecraft:waterlily`||
+  |`waterlily`||
+  |`minecraft:emerald_block`||
+  |`emerald_block`||
+  |`minecraft:suspicious_sand`||
+  |`suspicious_sand`||
+  |`minecraft:heavy_weighted_pressure_plate`||
+  |`heavy_weighted_pressure_plate`||
+  |`minecraft:purple_stained_glass`||
+  |`purple_stained_glass`||
+  |`minecraft:lightning_rod`||
+  |`lightning_rod`||
+  |`minecraft:acacia_leaves`||
+  |`acacia_leaves`||
+  |`minecraft:black_stained_glass_pane`||
+  |`black_stained_glass_pane`||
+  |`minecraft:cobblestone_wall`||
+  |`cobblestone_wall`||
+  |`minecraft:deepslate_brick_double_slab`||
+  |`deepslate_brick_double_slab`||
+  |`minecraft:spruce_double_slab`||
+  |`spruce_double_slab`||
+  |`minecraft:bamboo_mosaic_slab`||
+  |`bamboo_mosaic_slab`||
+  |`minecraft:dark_oak_log`||
+  |`dark_oak_log`||
+  |`minecraft:acacia_hanging_sign`||
+  |`acacia_hanging_sign`||
+  |`minecraft:ochre_froglight`||
+  |`ochre_froglight`||
+  |`minecraft:tuff_wall`||
+  |`tuff_wall`||
+  |`minecraft:observer`||
+  |`observer`||
+  |`minecraft:redstone_torch`||
+  |`redstone_torch`||
+  |`minecraft:silver_glazed_terracotta`||
+  |`silver_glazed_terracotta`||
+  |`minecraft:granite_stairs`||
+  |`granite_stairs`||
+  |`minecraft:pink_concrete`||
+  |`pink_concrete`||
+  |`minecraft:dark_oak_hanging_sign`||
+  |`dark_oak_hanging_sign`||
+  |`minecraft:brown_mushroom`||
+  |`brown_mushroom`||
+  |`minecraft:cyan_concrete_powder`||
+  |`cyan_concrete_powder`||
+  |`minecraft:brown_glazed_terracotta`||
+  |`brown_glazed_terracotta`||
+  |`minecraft:waxed_copper_trapdoor`||
+  |`waxed_copper_trapdoor`||
+  |`minecraft:oxidized_copper`||
+  |`oxidized_copper`||
+  |`minecraft:copper_ore`||
+  |`copper_ore`||
+  |`minecraft:dark_oak_planks`||
+  |`dark_oak_planks`||
+  |`minecraft:birch_pressure_plate`||
+  |`birch_pressure_plate`||
+  |`minecraft:scaffolding`||
+  |`scaffolding`||
+  |`minecraft:sandstone_stairs`||
+  |`sandstone_stairs`||
+  |`minecraft:green_candle_cake`||
+  |`green_candle_cake`||
+  |`minecraft:stripped_bamboo_block`||
+  |`stripped_bamboo_block`||
+  |`minecraft:red_mushroom_block`||
+  |`red_mushroom_block`||
+  |`minecraft:sculk_catalyst`||
+  |`sculk_catalyst`||
+  |`minecraft:cobblestone`||
+  |`cobblestone`||
+  |`minecraft:horn_coral`||
+  |`horn_coral`||
+  |`minecraft:yellow_concrete`||
+  |`yellow_concrete`||
+  |`minecraft:cyan_carpet`||
+  |`cyan_carpet`||
+  |`minecraft:oak_double_slab`||
+  |`oak_double_slab`||
+  |`minecraft:smooth_sandstone_stairs`||
+  |`smooth_sandstone_stairs`||
+  |`minecraft:jungle_pressure_plate`||
+  |`jungle_pressure_plate`||
+  |`minecraft:double_cut_copper_slab`||
+  |`double_cut_copper_slab`||
+  |`minecraft:blue_terracotta`||
+  |`blue_terracotta`||
+  |`minecraft:sandstone`||
+  |`sandstone`||
+  |`minecraft:brown_candle_cake`||
+  |`brown_candle_cake`||
+  |`minecraft:acacia_wall_sign`||
+  |`acacia_wall_sign`||
+  |`minecraft:light_weighted_pressure_plate`||
+  |`light_weighted_pressure_plate`||
+  |`minecraft:undyed_shulker_box`||
+  |`undyed_shulker_box`||
+  |`minecraft:polished_blackstone`||
+  |`polished_blackstone`||
+  |`minecraft:mycelium`||
+  |`mycelium`||
+  |`minecraft:bamboo`||
+  |`bamboo`||
+  |`minecraft:quartz_block`||
+  |`quartz_block`||
+  |`minecraft:stone_stairs`||
+  |`stone_stairs`||
+  |`minecraft:waxed_weathered_chiseled_copper`||
+  |`waxed_weathered_chiseled_copper`||
+  |`minecraft:gray_stained_glass`||
+  |`gray_stained_glass`||
+  |`minecraft:green_terracotta`||
+  |`green_terracotta`||
+  |`minecraft:deepslate_brick_slab`||
+  |`deepslate_brick_slab`||
+  |`minecraft:warped_stairs`||
+  |`warped_stairs`||
+  |`minecraft:smithing_table`||
+  |`smithing_table`||
+  |`minecraft:weathered_copper_grate`||
+  |`weathered_copper_grate`||
+  |`minecraft:poppy`||
+  |`poppy`||
+  |`minecraft:tuff_brick_slab`||
+  |`tuff_brick_slab`||
+  |`minecraft:green_wool`||
+  |`green_wool`||
+  |`minecraft:green_carpet`||
+  |`green_carpet`||
+  |`minecraft:wooden_door`||
+  |`wooden_door`||
+  |`minecraft:pitcher_plant`||
+  |`pitcher_plant`||
+  |`minecraft:spruce_pressure_plate`||
+  |`spruce_pressure_plate`||
+  |`minecraft:netherite_block`||
+  |`netherite_block`||
+  |`minecraft:pink_wool`||
+  |`pink_wool`||
+  |`minecraft:redstone_block`||
+  |`redstone_block`||
+  |`minecraft:birch_fence_gate`||
+  |`birch_fence_gate`||
+  |`minecraft:redstone_wire`||
+  |`redstone_wire`||
+  |`minecraft:waxed_exposed_cut_copper`||
+  |`waxed_exposed_cut_copper`||
+  |`minecraft:lava`||
+  |`lava`||
+  |`minecraft:jungle_hanging_sign`||
+  |`jungle_hanging_sign`||
+  |`minecraft:birch_slab`||
+  |`birch_slab`||
+  |`minecraft:loom`||
+  |`loom`||
+  |`minecraft:end_stone`||
+  |`end_stone`||
+  |`minecraft:polished_tuff_double_slab`||
+  |`polished_tuff_double_slab`||
+  |`minecraft:crimson_door`||
+  |`crimson_door`||
+  |`minecraft:mangrove_pressure_plate`||
+  |`mangrove_pressure_plate`||
+  |`minecraft:jungle_slab`||
+  |`jungle_slab`||
+  |`minecraft:light_blue_stained_glass_pane`||
+  |`light_blue_stained_glass_pane`||
+  |`minecraft:glowstone`||
+  |`glowstone`||
+  |`minecraft:stone_pressure_plate`||
+  |`stone_pressure_plate`||
+  |`minecraft:waxed_exposed_cut_copper_stairs`||
+  |`waxed_exposed_cut_copper_stairs`||
+  |`minecraft:mud_brick_slab`||
+  |`mud_brick_slab`||
+  |`minecraft:farmland`||
+  |`farmland`||
+  |`minecraft:rail`||
+  |`rail`||
+  |`minecraft:blackstone_wall`||
+  |`blackstone_wall`||
+  |`minecraft:mossy_cobblestone_stairs`||
+  |`mossy_cobblestone_stairs`||
+  |`minecraft:coral_fan_hang2`||
+  |`coral_fan_hang2`||
+  |`minecraft:coral_fan_hang3`||
+  |`coral_fan_hang3`||
+  |`minecraft:detector_rail`||
+  |`detector_rail`||
+  |`minecraft:monster_egg`||
+  |`monster_egg`||
+  |`minecraft:blue_orchid`||
+  |`blue_orchid`||
+  |`minecraft:green_stained_glass_pane`||
+  |`green_stained_glass_pane`||
+  |`minecraft:polished_granite_stairs`||
+  |`polished_granite_stairs`||
+  |`minecraft:birch_leaves`||
+  |`birch_leaves`||
+  |`minecraft:pink_terracotta`||
+  |`pink_terracotta`||
+  |`minecraft:dark_oak_double_slab`||
+  |`dark_oak_double_slab`||
+  |`minecraft:pink_candle_cake`||
+  |`pink_candle_cake`||
+  |`minecraft:cracked_deepslate_tiles`||
+  |`cracked_deepslate_tiles`||
+  |`minecraft:mangrove_wood`||
+  |`mangrove_wood`||
+  |`minecraft:red_glazed_terracotta`||
+  |`red_glazed_terracotta`||
+  |`minecraft:dark_oak_fence_gate`||
+  |`dark_oak_fence_gate`||
+  |`minecraft:bamboo_mosaic_double_slab`||
+  |`bamboo_mosaic_double_slab`||
+  |`minecraft:crimson_nylium`||
+  |`crimson_nylium`||
+  |`minecraft:structure_void`||
+  |`structure_void`||
+  |`minecraft:purple_concrete`||
+  |`purple_concrete`||
+  |`minecraft:waxed_exposed_copper_bulb`||
+  |`waxed_exposed_copper_bulb`||
+  |`minecraft:polished_blackstone_brick_slab`||
+  |`polished_blackstone_brick_slab`||
+  |`minecraft:spruce_sapling`||
+  |`spruce_sapling`||
+  |`minecraft:yellow_terracotta`||
+  |`yellow_terracotta`||
+  |`minecraft:snow`||
+  |`snow`||
+  |`minecraft:sand`||
+  |`sand`||
+  |`minecraft:daylight_detector`||
+  |`daylight_detector`||
+  |`minecraft:mangrove_standing_sign`||
+  |`mangrove_standing_sign`||
+  |`minecraft:stripped_mangrove_wood`||
+  |`stripped_mangrove_wood`||
+  |`minecraft:conduit`||
+  |`conduit`||
+  |`minecraft:slime`||
+  |`slime`||
+  |`minecraft:bone_block`||
+  |`bone_block`||
+  |`minecraft:frame`||
+  |`frame`||
+  |`minecraft:spruce_log`||
+  |`spruce_log`||
+  |`minecraft:stone_block_slab`||
+  |`stone_block_slab`||
+  |`minecraft:lapis_block`||
+  |`lapis_block`||
+  |`minecraft:coal_ore`||
+  |`coal_ore`||
+  |`minecraft:redstone_ore`||
+  |`redstone_ore`||
+  |`minecraft:bamboo_double_slab`||
+  |`bamboo_double_slab`||
+  |`minecraft:green_stained_glass`||
+  |`green_stained_glass`||
+  |`minecraft:nether_brick_fence`||
+  |`nether_brick_fence`||
+  |`minecraft:pink_tulip`||
+  |`pink_tulip`||
+  |`minecraft:oak_slab`||
+  |`oak_slab`||
+  |`minecraft:deepslate_tile_slab`||
+  |`deepslate_tile_slab`||
+  |`minecraft:pink_concrete_powder`||
+  |`pink_concrete_powder`||
+  |`minecraft:dead_tube_coral`||
+  |`dead_tube_coral`||
+  |`minecraft:nether_wart_block`||
+  |`nether_wart_block`||
+  |`minecraft:cherry_door`||
+  |`cherry_door`||
+  |`minecraft:crimson_hyphae`||
+  |`crimson_hyphae`||
+  |`minecraft:polished_blackstone_stairs`||
+  |`polished_blackstone_stairs`||
+  |`minecraft:weathered_cut_copper_stairs`||
+  |`weathered_cut_copper_stairs`||
+  |`minecraft:small_dripleaf_block`||
+  |`small_dripleaf_block`||
+  |`minecraft:pink_stained_glass`||
+  |`pink_stained_glass`||
+  |`minecraft:waxed_weathered_copper_grate`||
+  |`waxed_weathered_copper_grate`||
+  |`minecraft:spruce_button`||
+  |`spruce_button`||
+  |`minecraft:acacia_log`||
+  |`acacia_log`||
+  |`minecraft:crimson_trapdoor`||
+  |`crimson_trapdoor`||
+  |`minecraft:basalt`||
+  |`basalt`||
+  |`minecraft:light_blue_terracotta`||
+  |`light_blue_terracotta`||
+  |`minecraft:lit_redstone_lamp`||
+  |`lit_redstone_lamp`||
+  |`minecraft:diamond_ore`||
+  |`diamond_ore`||
+  |`minecraft:warped_roots`||
+  |`warped_roots`||
+  |`minecraft:magenta_concrete`||
+  |`magenta_concrete`||
+  |`minecraft:sticky_piston`||
+  |`sticky_piston`||
+  |`minecraft:ender_chest`||
+  |`ender_chest`||
+  |`minecraft:medium_amethyst_bud`||
+  |`medium_amethyst_bud`||
+  |`minecraft:pink_shulker_box`||
+  |`pink_shulker_box`||
+  |`minecraft:warped_double_slab`||
+  |`warped_double_slab`||
+  |`minecraft:jungle_wall_sign`||
+  |`jungle_wall_sign`||
+  |`minecraft:sculk_sensor`||
+  |`sculk_sensor`||
+  |`minecraft:copper_bulb`||
+  |`copper_bulb`||
+  |`minecraft:diorite_stairs`||
+  |`diorite_stairs`||
+  |`minecraft:spruce_leaves`||
+  |`spruce_leaves`||
+  |`minecraft:frog_spawn`||
+  |`frog_spawn`||
+  |`minecraft:acacia_door`||
+  |`acacia_door`||
+  |`minecraft:red_shulker_box`||
+  |`red_shulker_box`||
+  |`minecraft:stripped_cherry_log`||
+  |`stripped_cherry_log`||
+  |`minecraft:crimson_button`||
+  |`crimson_button`||
+  |`minecraft:acacia_planks`||
+  |`acacia_planks`||
+  |`minecraft:magenta_concrete_powder`||
+  |`magenta_concrete_powder`||
+  |`minecraft:iron_door`||
+  |`iron_door`||
+  |`minecraft:honeycomb_block`||
+  |`honeycomb_block`||
+  |`minecraft:polished_blackstone_brick_stairs`||
+  |`polished_blackstone_brick_stairs`||
+  |`minecraft:mangrove_trapdoor`||
+  |`mangrove_trapdoor`||
+  |`minecraft:quartz_ore`||
+  |`quartz_ore`||
+  |`minecraft:daylight_detector_inverted`||
+  |`daylight_detector_inverted`||
+  |`minecraft:barrel`||
+  |`barrel`||
+  |`minecraft:chorus_flower`||
+  |`chorus_flower`||
+  |`minecraft:coral_fan_hang`||
+  |`coral_fan_hang`||
+  |`minecraft:orange_stained_glass`||
+  |`orange_stained_glass`||
+  |`minecraft:white_stained_glass_pane`||
+  |`white_stained_glass_pane`||
+  |`minecraft:stripped_birch_wood`||
+  |`stripped_birch_wood`||
+  |`minecraft:cracked_nether_bricks`||
+  |`cracked_nether_bricks`||
+  |`minecraft:powered_repeater`||
+  |`powered_repeater`||
+  |`minecraft:light_blue_candle`||
+  |`light_blue_candle`||
+  |`minecraft:pumpkin`||
+  |`pumpkin`||
+  |`minecraft:deepslate_tiles`||
+  |`deepslate_tiles`||
+  |`minecraft:smooth_stone`||
+  |`smooth_stone`||
+  |`minecraft:gray_terracotta`||
+  |`gray_terracotta`||
+  |`minecraft:oxidized_copper_trapdoor`||
+  |`oxidized_copper_trapdoor`||
+  |`minecraft:white_tulip`||
+  |`white_tulip`||
+  |`minecraft:lime_concrete`||
+  |`lime_concrete`||
+  |`minecraft:black_candle_cake`||
+  |`black_candle_cake`||
+  |`minecraft:red_mushroom`||
+  |`red_mushroom`||
+  |`minecraft:gilded_blackstone`||
+  |`gilded_blackstone`||
+  |`minecraft:magenta_terracotta`||
+  |`magenta_terracotta`||
+  |`minecraft:exposed_cut_copper_stairs`||
+  |`exposed_cut_copper_stairs`||
+  |`minecraft:mangrove_stairs`||
+  |`mangrove_stairs`||
+  |`minecraft:cut_copper_stairs`||
+  |`cut_copper_stairs`||
+  |`minecraft:cherry_button`||
+  |`cherry_button`||
+  |`minecraft:yellow_candle_cake`||
+  |`yellow_candle_cake`||
+  |`minecraft:mangrove_fence_gate`||
+  |`mangrove_fence_gate`||
+  |`minecraft:pink_petals`||
+  |`pink_petals`||
+  |`minecraft:bamboo_hanging_sign`||
+  |`bamboo_hanging_sign`||
+  |`minecraft:infested_deepslate`||
+  |`infested_deepslate`||
+  |`minecraft:soul_torch`||
+  |`soul_torch`||
+  |`minecraft:podzol`||
+  |`podzol`||
+  |`minecraft:copper_block`||
+  |`copper_block`||
+  |`minecraft:lit_redstone_ore`||
+  |`lit_redstone_ore`||
+  |`minecraft:deepslate_tile_stairs`||
+  |`deepslate_tile_stairs`||
+  |`minecraft:crimson_fence_gate`||
+  |`crimson_fence_gate`||
+  |`minecraft:deadbush`||
+  |`deadbush`||
+  |`minecraft:waxed_weathered_double_cut_copper_slab`||
+  |`waxed_weathered_double_cut_copper_slab`||
+  |`minecraft:polished_blackstone_bricks`||
+  |`polished_blackstone_bricks`||
+  |`minecraft:red_candle`||
+  |`red_candle`||
+  |`minecraft:cut_copper`||
+  |`cut_copper`||
+  |`minecraft:iron_ore`||
+  |`iron_ore`||
+  |`minecraft:spruce_door`||
+  |`spruce_door`||
+  |`minecraft:frosted_ice`||
+  |`frosted_ice`||
+  |`minecraft:large_amethyst_bud`||
+  |`large_amethyst_bud`||
+  |`minecraft:exposed_copper_door`||
+  |`exposed_copper_door`||
+  |`minecraft:suspicious_gravel`||
+  |`suspicious_gravel`||
+  |`minecraft:warped_trapdoor`||
+  |`warped_trapdoor`||
+  |`minecraft:flowing_water`||
+  |`flowing_water`||
+  |`minecraft:brick_block`||
+  |`brick_block`||
+  |`minecraft:waxed_weathered_copper_trapdoor`||
+  |`waxed_weathered_copper_trapdoor`||
+  |`minecraft:quartz_stairs`||
+  |`quartz_stairs`||
+  |`minecraft:cave_vines`||
+  |`cave_vines`||
+  |`minecraft:magenta_stained_glass_pane`||
+  |`magenta_stained_glass_pane`||
+  |`minecraft:iron_bars`||
+  |`iron_bars`||
+  |`minecraft:white_terracotta`||
+  |`white_terracotta`||
+  |`minecraft:stripped_oak_wood`||
+  |`stripped_oak_wood`||
+  |`minecraft:light_blue_carpet`||
+  |`light_blue_carpet`||
+  |`minecraft:oak_hanging_sign`||
+  |`oak_hanging_sign`||
+  |`minecraft:white_concrete_powder`||
+  |`white_concrete_powder`||
+  |`minecraft:melon_stem`||
+  |`melon_stem`||
+  |`minecraft:crimson_planks`||
+  |`crimson_planks`||
+  |`minecraft:stripped_dark_oak_wood`||
+  |`stripped_dark_oak_wood`||
+  |`minecraft:waxed_weathered_cut_copper`||
+  |`waxed_weathered_cut_copper`||
+  |`minecraft:white_stained_glass`||
+  |`white_stained_glass`||
+  |`minecraft:oak_wood`||
+  |`oak_wood`||
+  |`minecraft:purple_stained_glass_pane`||
+  |`purple_stained_glass_pane`||
+  |`minecraft:waxed_oxidized_copper_trapdoor`||
+  |`waxed_oxidized_copper_trapdoor`||
+  |`minecraft:wall_sign`||
+  |`wall_sign`||
+  |`minecraft:jukebox`||
+  |`jukebox`||
+  |`minecraft:stripped_cherry_wood`||
+  |`stripped_cherry_wood`||
+  |`minecraft:border_block`||
+  |`border_block`||
+  |`minecraft:shroomlight`||
+  |`shroomlight`||
+  |`minecraft:bamboo_fence_gate`||
+  |`bamboo_fence_gate`||
+  |`minecraft:cornflower`||
+  |`cornflower`||
+  |`minecraft:chiseled_polished_blackstone`||
+  |`chiseled_polished_blackstone`||
+  |`minecraft:dark_oak_stairs`||
+  |`dark_oak_stairs`||
+  |`minecraft:deepslate_tile_wall`||
+  |`deepslate_tile_wall`||
+  |`minecraft:glass_pane`||
+  |`glass_pane`||
+  |`minecraft:chiseled_deepslate`||
+  |`chiseled_deepslate`||
+  |`minecraft:cut_copper_slab`||
+  |`cut_copper_slab`||
+  |`minecraft:coral_block`||
+  |`coral_block`||
+  |`minecraft:red_stained_glass`||
+  |`red_stained_glass`||
+  |`minecraft:acacia_pressure_plate`||
+  |`acacia_pressure_plate`||
+  |`minecraft:bamboo_trapdoor`||
+  |`bamboo_trapdoor`||
+  |`minecraft:oxidized_chiseled_copper`||
+  |`oxidized_chiseled_copper`||
+  |`minecraft:mangrove_wall_sign`||
+  |`mangrove_wall_sign`||
+  |`minecraft:raw_copper_block`||
+  |`raw_copper_block`||
+  |`minecraft:oxidized_cut_copper_slab`||
+  |`oxidized_cut_copper_slab`||
+  |`minecraft:beetroot`||
+  |`beetroot`||
+  |`minecraft:skull`||
+  |`skull`||
+  |`minecraft:light_gray_candle_cake`||
+  |`light_gray_candle_cake`||
+  |`minecraft:white_candle`||
+  |`white_candle`||
+  |`minecraft:andesite_stairs`||
+  |`andesite_stairs`||
+  |`minecraft:birch_planks`||
+  |`birch_planks`||
+  |`minecraft:golden_rail`||
+  |`golden_rail`||
+  |`minecraft:cyan_wool`||
+  |`cyan_wool`||
+  |`minecraft:darkoak_wall_sign`||
+  |`darkoak_wall_sign`||
+  |`minecraft:jungle_leaves`||
+  |`jungle_leaves`||
+  |`minecraft:gray_shulker_box`||
+  |`gray_shulker_box`||
+  |`minecraft:red_sandstone_stairs`||
+  |`red_sandstone_stairs`||
+  |`minecraft:cyan_glazed_terracotta`||
+  |`cyan_glazed_terracotta`||
+  |`minecraft:cracked_deepslate_bricks`||
+  |`cracked_deepslate_bricks`||
+  |`minecraft:jungle_fence_gate`||
+  |`jungle_fence_gate`||
+  |`minecraft:exposed_copper_grate`||
+  |`exposed_copper_grate`||
+  |`minecraft:waxed_copper_grate`||
+  |`waxed_copper_grate`||
+  |`minecraft:jungle_trapdoor`||
+  |`jungle_trapdoor`||
+  |`minecraft:dirt_with_roots`||
+  |`dirt_with_roots`||
+  |`minecraft:coal_block`||
+  |`coal_block`||
+  |`minecraft:white_wool`||
+  |`white_wool`||
+  |`minecraft:warped_fence_gate`||
+  |`warped_fence_gate`||
+  |`minecraft:composter`||
+  |`composter`||
+  |`minecraft:waxed_double_cut_copper_slab`||
+  |`waxed_double_cut_copper_slab`||
+  |`minecraft:kelp`||
+  |`kelp`||
+  |`minecraft:double_plant`||
+  |`double_plant`||
+  |`minecraft:waxed_exposed_copper_door`||
+  |`waxed_exposed_copper_door`||
+  |`minecraft:deepslate_bricks`||
+  |`deepslate_bricks`||
+  |`minecraft:blue_glazed_terracotta`||
+  |`blue_glazed_terracotta`||
+  |`minecraft:light_blue_glazed_terracotta`||
+  |`light_blue_glazed_terracotta`||
+  |`minecraft:flowering_azalea`||
+  |`flowering_azalea`||
+  |`minecraft:oxidized_cut_copper`||
+  |`oxidized_cut_copper`||
+  |`minecraft:blue_wool`||
+  |`blue_wool`||
+  |`minecraft:weeping_vines`||
+  |`weeping_vines`||
+  |`minecraft:chorus_plant`||
+  |`chorus_plant`||
+  |`minecraft:water`||
+  |`water`||
+  |`minecraft:mud_brick_stairs`||
+  |`mud_brick_stairs`||
+  |`minecraft:unpowered_repeater`||
+  |`unpowered_repeater`||
+  |`minecraft:smooth_red_sandstone_stairs`||
+  |`smooth_red_sandstone_stairs`||
+  |`minecraft:element_100`||
+  |`element_100`||
+  |`minecraft:element_101`||
+  |`element_101`||
+  |`minecraft:element_102`||
+  |`element_102`||
+  |`minecraft:element_103`||
+  |`element_103`||
+  |`minecraft:element_104`||
+  |`element_104`||
+  |`minecraft:element_105`||
+  |`element_105`||
+  |`minecraft:element_106`||
+  |`element_106`||
+  |`minecraft:element_107`||
+  |`element_107`||
+  |`minecraft:element_108`||
+  |`element_108`||
+  |`minecraft:element_109`||
+  |`element_109`||
+  |`minecraft:element_113`||
+  |`element_113`||
+  |`minecraft:element_112`||
+  |`element_112`||
+  |`minecraft:element_111`||
+  |`element_111`||
+  |`minecraft:element_110`||
+  |`element_110`||
+  |`minecraft:element_117`||
+  |`element_117`||
+  |`minecraft:element_116`||
+  |`element_116`||
+  |`minecraft:element_115`||
+  |`element_115`||
+  |`minecraft:element_114`||
+  |`element_114`||
+  |`minecraft:element_118`||
+  |`element_118`||
+  |`minecraft:white_glazed_terracotta`||
+  |`white_glazed_terracotta`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`stripped_warped_hyphae`||
+  |`minecraft:trapped_chest`||
+  |`trapped_chest`||
+  |`minecraft:acacia_trapdoor`||
+  |`acacia_trapdoor`||
+  |`minecraft:standing_sign`||
+  |`standing_sign`||
+  |`minecraft:bamboo_planks`||
+  |`bamboo_planks`||
+  |`minecraft:glow_lichen`||
+  |`glow_lichen`||
+  |`minecraft:wall_banner`||
+  |`wall_banner`||
+  |`minecraft:twisting_vines`||
+  |`twisting_vines`||
+  |`minecraft:chiseled_copper`||
+  |`chiseled_copper`||
+  |`minecraft:acacia_double_slab`||
+  |`acacia_double_slab`||
+  |`minecraft:dark_oak_door`||
+  |`dark_oak_door`||
+  |`minecraft:oak_fence`||
+  |`oak_fence`||
+  |`minecraft:soul_lantern`||
+  |`soul_lantern`||
+  |`minecraft:dirt`||
+  |`dirt`||
+  |`minecraft:blue_stained_glass`||
+  |`blue_stained_glass`||
+  |`minecraft:deny`||
+  |`deny`||
+  |`minecraft:bee_nest`||
+  |`bee_nest`||
+  |`minecraft:bubble_column`||
+  |`bubble_column`||
+  |`minecraft:campfire`||
+  |`campfire`||
+  |`minecraft:light_blue_stained_glass`||
+  |`light_blue_stained_glass`||
+  |`minecraft:stone_block_slab2`||
+  |`stone_block_slab2`||
+  |`minecraft:stone_block_slab3`||
+  |`stone_block_slab3`||
+  |`minecraft:stone_block_slab4`||
+  |`stone_block_slab4`||
+  |`minecraft:soul_soil`||
+  |`soul_soil`||
+  |`minecraft:soul_sand`||
+  |`soul_sand`||
+  |`minecraft:spruce_hanging_sign`||
+  |`spruce_hanging_sign`||
+  |`minecraft:polished_diorite`||
+  |`polished_diorite`||
+  |`minecraft:reinforced_deepslate`||
+  |`reinforced_deepslate`||
+  |`minecraft:fletching_table`||
+  |`fletching_table`||
+  |`minecraft:cherry_leaves`||
+  |`cherry_leaves`||
+  |`minecraft:black_glazed_terracotta`||
+  |`black_glazed_terracotta`||
+  |`minecraft:waxed_oxidized_cut_copper_stairs`||
+  |`waxed_oxidized_cut_copper_stairs`||
+  |`minecraft:waxed_weathered_copper_bulb`||
+  |`waxed_weathered_copper_bulb`||
+  |`minecraft:calibrated_sculk_sensor`||
+  |`calibrated_sculk_sensor`||
+  |`minecraft:copper_trapdoor`||
+  |`copper_trapdoor`||
+  |`minecraft:stripped_acacia_log`||
+  |`stripped_acacia_log`||
+  |`minecraft:cobbled_deepslate_double_slab`||
+  |`cobbled_deepslate_double_slab`||
+  |`minecraft:warped_fence`||
+  |`warped_fence`||
+  |`minecraft:crafting_table`||
+  |`crafting_table`||
+  |`minecraft:sea_pickle`||
+  |`sea_pickle`||
+  |`minecraft:cherry_standing_sign`||
+  |`cherry_standing_sign`||
+  |`minecraft:brown_concrete_powder`||
+  |`brown_concrete_powder`||
+  |`minecraft:mangrove_hanging_sign`||
+  |`mangrove_hanging_sign`||
+  |`minecraft:waxed_exposed_copper_trapdoor`||
+  |`waxed_exposed_copper_trapdoor`||
+  |`minecraft:brown_candle`||
+  |`brown_candle`||
+  |`minecraft:mossy_stone_brick_stairs`||
+  |`mossy_stone_brick_stairs`||
+  |`minecraft:end_rod`||
+  |`end_rod`||
+  |`minecraft:crimson_stem`||
+  |`crimson_stem`||
+  |`minecraft:green_concrete`||
+  |`green_concrete`||
+  |`minecraft:tuff_brick_double_slab`||
+  |`tuff_brick_double_slab`||
+  |`minecraft:crimson_slab`||
+  |`crimson_slab`||
+  |`minecraft:warped_hyphae`||
+  |`warped_hyphae`||
+  |`minecraft:warped_wart_block`||
+  |`warped_wart_block`||
+  |`minecraft:light_gray_shulker_box`||
+  |`light_gray_shulker_box`||
+  |`minecraft:carrots`||
+  |`carrots`||
+  |`minecraft:tuff_stairs`||
+  |`tuff_stairs`||
+  |`minecraft:yellow_carpet`||
+  |`yellow_carpet`||
+  |`minecraft:cyan_stained_glass`||
+  |`cyan_stained_glass`||
+  |`minecraft:black_stained_glass`||
+  |`black_stained_glass`||
+  |`minecraft:waxed_oxidized_copper_door`||
+  |`waxed_oxidized_copper_door`||
+  |`minecraft:dead_horn_coral`||
+  |`dead_horn_coral`||
+  |`minecraft:grass_block`||
+  |`grass_block`||
+  |`minecraft:tripwire_hook`||
+  |`tripwire_hook`||
+  |`minecraft:cave_vines_body_with_berries`||
+  |`cave_vines_body_with_berries`||
+  |`minecraft:dark_oak_pressure_plate`||
+  |`dark_oak_pressure_plate`||
+  |`minecraft:copper_door`||
+  |`copper_door`||
+  |`minecraft:stripped_birch_log`||
+  |`stripped_birch_log`||
+  |`minecraft:tinted_glass`||
+  |`tinted_glass`||
+  |`minecraft:big_dripleaf`||
+  |`big_dripleaf`||
+  |`minecraft:warped_hanging_sign`||
+  |`warped_hanging_sign`||
+  |`minecraft:lime_wool`||
+  |`lime_wool`||
+  |`minecraft:blue_candle_cake`||
+  |`blue_candle_cake`||
+  |`minecraft:sweet_berry_bush`||
+  |`sweet_berry_bush`||
+  |`minecraft:polished_blackstone_slab`||
+  |`polished_blackstone_slab`||
+  |`minecraft:reeds`||
+  |`reeds`||
+  |`minecraft:black_shulker_box`||
+  |`black_shulker_box`||
+  |`minecraft:jungle_sapling`||
+  |`jungle_sapling`||
+  |`minecraft:barrier`||
+  |`barrier`||
+  |`minecraft:torchflower_crop`||
+  |`torchflower_crop`||
+  |`minecraft:black_carpet`||
+  |`black_carpet`||
+  |`minecraft:jungle_standing_sign`||
+  |`jungle_standing_sign`||
+  |`minecraft:cherry_double_slab`||
+  |`cherry_double_slab`||
+  |`minecraft:weathered_cut_copper_slab`||
+  |`weathered_cut_copper_slab`||
+  |`minecraft:dark_oak_leaves`||
+  |`dark_oak_leaves`||
+  |`minecraft:fire`||
+  |`fire`||
+  |`minecraft:torchflower`||
+  |`torchflower`||
+  |`minecraft:end_portal_frame`||
+  |`end_portal_frame`||
+  |`minecraft:bamboo_pressure_plate`||
+  |`bamboo_pressure_plate`||
+  |`minecraft:prismarine`||
+  |`prismarine`||
+  |`minecraft:magenta_candle_cake`||
+  |`magenta_candle_cake`||
+  |`minecraft:exposed_copper_trapdoor`||
+  |`exposed_copper_trapdoor`||
+  |`minecraft:black_terracotta`||
+  |`black_terracotta`||
+  |`minecraft:deepslate_gold_ore`||
+  |`deepslate_gold_ore`||
+  |`minecraft:ancient_debris`||
+  |`ancient_debris`||
+  |`minecraft:vault`||
+  |`vault`||
+  |`minecraft:beehive`||
+  |`beehive`||
+  |`minecraft:jungle_door`||
+  |`jungle_door`||
+  |`minecraft:glass`||
+  |`glass`||
+  |`minecraft:wither_rose`||
+  |`wither_rose`||
+  |`minecraft:exposed_cut_copper`||
+  |`exposed_cut_copper`||
+  |`minecraft:waxed_weathered_cut_copper_stairs`||
+  |`waxed_weathered_cut_copper_stairs`||
+  |`minecraft:mangrove_roots`||
+  |`mangrove_roots`||
+  |`minecraft:yellow_candle`||
+  |`yellow_candle`||
+  |`minecraft:acacia_stairs`||
+  |`acacia_stairs`||
+  |`minecraft:bamboo_mosaic_stairs`||
+  |`bamboo_mosaic_stairs`||
+  |`minecraft:brown_concrete`||
+  |`brown_concrete`||
+  |`minecraft:cherry_slab`||
+  |`cherry_slab`||
+  |`minecraft:bubble_coral`||
+  |`bubble_coral`||
+  |`minecraft:orange_shulker_box`||
+  |`orange_shulker_box`||
+  |`minecraft:light_gray_candle`||
+  |`light_gray_candle`||
+  |`minecraft:polished_blackstone_pressure_plate`||
+  |`polished_blackstone_pressure_plate`||
+  |`minecraft:acacia_standing_sign`||
+  |`acacia_standing_sign`||
+  |`minecraft:tuff_brick_stairs`||
+  |`tuff_brick_stairs`||
+  |`minecraft:blue_shulker_box`||
+  |`blue_shulker_box`||
+  |`minecraft:exposed_copper_bulb`||
+  |`exposed_copper_bulb`||
+  |`minecraft:dead_fire_coral`||
+  |`dead_fire_coral`||
+  |`minecraft:crimson_stairs`||
+  |`crimson_stairs`||
+  |`minecraft:stripped_spruce_log`||
+  |`stripped_spruce_log`||
+  |`minecraft:waxed_oxidized_copper_bulb`||
+  |`waxed_oxidized_copper_bulb`||
+  |`minecraft:pumpkin_stem`||
+  |`pumpkin_stem`||
+  |`minecraft:azalea_leaves_flowered`||
+  |`azalea_leaves_flowered`||
+  |`minecraft:sticky_piston_arm_collision`||
+  |`sticky_piston_arm_collision`||
+  |`minecraft:warped_nylium`||
+  |`warped_nylium`||
+  |`minecraft:deepslate_emerald_ore`||
+  |`deepslate_emerald_ore`||
+  |`minecraft:acacia_sapling`||
+  |`acacia_sapling`||
+  |`minecraft:quartz_bricks`||
+  |`quartz_bricks`||
+  |`minecraft:unpowered_comparator`||
+  |`unpowered_comparator`||
+  |`minecraft:lime_candle`||
+  |`lime_candle`||
+  |`minecraft:structure_block`||
+  |`structure_block`||
+  |`minecraft:end_brick_stairs`||
+  |`end_brick_stairs`||
+  |`minecraft:purple_terracotta`||
+  |`purple_terracotta`||
+  |`minecraft:target`||
+  |`target`||
+  |`minecraft:wooden_button`||
+  |`wooden_button`||
+  |`minecraft:mangrove_door`||
+  |`mangrove_door`||
+  |`minecraft:weathered_copper_door`||
+  |`weathered_copper_door`||
+  |`minecraft:pearlescent_froglight`||
+  |`pearlescent_froglight`||
+  |`minecraft:double_stone_block_slab2`||
+  |`double_stone_block_slab2`||
+  |`minecraft:double_stone_block_slab3`||
+  |`double_stone_block_slab3`||
+  |`minecraft:double_stone_block_slab4`||
+  |`double_stone_block_slab4`||
+  |`minecraft:bamboo_button`||
+  |`bamboo_button`||
+  |`minecraft:nether_sprouts`||
+  |`nether_sprouts`||
+  |`minecraft:cyan_stained_glass_pane`||
+  |`cyan_stained_glass_pane`||
+  |`minecraft:verdant_froglight`||
+  |`verdant_froglight`||
+  |`minecraft:warped_slab`||
+  |`warped_slab`||
+  |`minecraft:warped_stem`||
+  |`warped_stem`||
+  |`minecraft:horn_coral_fan`||
+  |`horn_coral_fan`||
+  |`minecraft:green_shulker_box`||
+  |`green_shulker_box`||
+  |`minecraft:stripped_crimson_hyphae`||
+  |`stripped_crimson_hyphae`||
+  |`minecraft:cocoa`||
+  |`cocoa`||
+  |`minecraft:lever`||
+  |`lever`||
+  |`minecraft:bamboo_slab`||
+  |`bamboo_slab`||
+  |`minecraft:brick_stairs`||
+  |`brick_stairs`||
+  |`minecraft:weathered_copper_trapdoor`||
+  |`weathered_copper_trapdoor`||
+  |`minecraft:moss_block`||
+  |`moss_block`||
+  |`minecraft:purple_concrete_powder`||
+  |`purple_concrete_powder`||
+  |`minecraft:pink_glazed_terracotta`||
+  |`pink_glazed_terracotta`||
+  |`minecraft:waxed_weathered_cut_copper_slab`||
+  |`waxed_weathered_cut_copper_slab`||
+  |`minecraft:stonebrick`||
+  |`stonebrick`||
+  |`minecraft:fire_coral_fan`||
+  |`fire_coral_fan`||
+  |`minecraft:spruce_trapdoor`||
+  |`spruce_trapdoor`||
+  |`minecraft:chain_command_block`||
+  |`chain_command_block`||
+  |`minecraft:red_sandstone`||
+  |`red_sandstone`||
+  |`minecraft:exposed_chiseled_copper`||
+  |`exposed_chiseled_copper`||
+  |`minecraft:spruce_fence_gate`||
+  |`spruce_fence_gate`||
+  |`minecraft:exposed_cut_copper_slab`||
+  |`exposed_cut_copper_slab`||
+  |`minecraft:red_nether_brick_stairs`||
+  |`red_nether_brick_stairs`||
+  |`minecraft:green_glazed_terracotta`||
+  |`green_glazed_terracotta`||
+  |`minecraft:jungle_planks`||
+  |`jungle_planks`||
+  |`minecraft:deepslate_redstone_ore`||
+  |`deepslate_redstone_ore`||
+  |`minecraft:double_stone_block_slab`||
+  |`double_stone_block_slab`||
+  |`minecraft:mangrove_fence`||
+  |`mangrove_fence`||
+  |`minecraft:oxidized_copper_grate`||
+  |`oxidized_copper_grate`||
+  |`minecraft:anvil`||
+  |`anvil`||
+  |`minecraft:birch_trapdoor`||
+  |`birch_trapdoor`||
+  |`minecraft:tuff_bricks`||
+  |`tuff_bricks`||
+  |`minecraft:mangrove_leaves`||
+  |`mangrove_leaves`||
+  |`minecraft:cobbled_deepslate`||
+  |`cobbled_deepslate`||
+  |`minecraft:bookshelf`||
+  |`bookshelf`||
+  |`minecraft:mud`||
+  |`mud`||
+  |`minecraft:lit_pumpkin`||
+  |`lit_pumpkin`||
+  |`minecraft:ice`||
+  |`ice`||
+  |`minecraft:air`||
+  |`air`||
+  |`minecraft:bed`||
+  |`bed`||
+  |`minecraft:black_concrete`||
+  |`black_concrete`||
+  |`minecraft:tnt`||
+  |`tnt`||
+  |`minecraft:purple_candle_cake`||
+  |`purple_candle_cake`||
+  |`minecraft:web`||
+  |`web`||
+  |`minecraft:dead_tube_coral_fan`||
+  |`dead_tube_coral_fan`||
+  |`minecraft:polished_diorite_stairs`||
+  |`polished_diorite_stairs`||
+  |`minecraft:blue_concrete_powder`||
+  |`blue_concrete_powder`||
+  |`minecraft:orange_concrete`||
+  |`orange_concrete`||
+  |`minecraft:crying_obsidian`||
+  |`crying_obsidian`||
+  |`minecraft:lime_carpet`||
+  |`lime_carpet`||
+  |`minecraft:dead_fire_coral_fan`||
+  |`dead_fire_coral_fan`||
+  |`minecraft:decorated_pot`||
+  |`decorated_pot`||
+  |`minecraft:enchanting_table`||
+  |`enchanting_table`||
+  |`minecraft:polished_blackstone_wall`||
+  |`polished_blackstone_wall`||
+  |`minecraft:waxed_exposed_double_cut_copper_slab`||
+  |`waxed_exposed_double_cut_copper_slab`||
+  |`minecraft:orange_tulip`||
+  |`orange_tulip`||
+  |`minecraft:brown_shulker_box`||
+  |`brown_shulker_box`||
+  |`minecraft:azalea`||
+  |`azalea`||
+  |`minecraft:mud_bricks`||
+  |`mud_bricks`||
+  |`minecraft:birch_wall_sign`||
+  |`birch_wall_sign`||
+  |`minecraft:bamboo_wall_sign`||
+  |`bamboo_wall_sign`||
+  |`minecraft:acacia_wood`||
+  |`acacia_wood`||
+  |`minecraft:gray_stained_glass_pane`||
+  |`gray_stained_glass_pane`||
+  |`minecraft:hopper`||
+  |`hopper`||
+  |`minecraft:bell`||
+  |`bell`||
+  |`minecraft:lectern`||
+  |`lectern`||
+  |`minecraft:stripped_crimson_stem`||
+  |`stripped_crimson_stem`||
+  |`minecraft:standing_banner`||
+  |`standing_banner`||
+  |`minecraft:light_blue_shulker_box`||
+  |`light_blue_shulker_box`||
+  |`minecraft:jungle_stairs`||
+  |`jungle_stairs`||
+  |`minecraft:mangrove_propagule`||
+  |`mangrove_propagule`||
+  |`minecraft:cactus`||
+  |`cactus`||
+  |`minecraft:budding_amethyst`||
+  |`budding_amethyst`||
+  |`minecraft:sniffer_egg`||
+  |`sniffer_egg`||
+  |`minecraft:birch_stairs`||
+  |`birch_stairs`||
+  |`minecraft:purple_glazed_terracotta`||
+  |`purple_glazed_terracotta`||
+  |`minecraft:green_concrete_powder`||
+  |`green_concrete_powder`||
+  |`minecraft:bedrock`||
+  |`bedrock`||
+  |`minecraft:spruce_slab`||
+  |`spruce_slab`||
+  |`minecraft:blackstone_stairs`||
+  |`blackstone_stairs`||
+  |`minecraft:blue_ice`||
+  |`blue_ice`||
+  |`minecraft:cyan_shulker_box`||
+  |`cyan_shulker_box`||
+  |`minecraft:polished_andesite_stairs`||
+  |`polished_andesite_stairs`||
+  |`minecraft:sculk`||
+  |`sculk`||
+  |`minecraft:netherrack`||
+  |`netherrack`||
+  |`minecraft:purple_candle`||
+  |`purple_candle`||
+  |`minecraft:spruce_standing_sign`||
+  |`spruce_standing_sign`||
+  |`minecraft:mangrove_button`||
+  |`mangrove_button`||
+  |`minecraft:orange_carpet`||
+  |`orange_carpet`||
+  |`minecraft:dead_horn_coral_fan`||
+  |`dead_horn_coral_fan`||
+  |`minecraft:lantern`||
+  |`lantern`||
+  |`minecraft:waxed_weathered_copper_door`||
+  |`waxed_weathered_copper_door`||
+  |`minecraft:red_stained_glass_pane`||
+  |`red_stained_glass_pane`||
+  |`minecraft:lit_blast_furnace`||
+  |`lit_blast_furnace`||
+  |`minecraft:pink_stained_glass_pane`||
+  |`pink_stained_glass_pane`||
+  |`minecraft:light_blue_wool`||
+  |`light_blue_wool`||
+  |`minecraft:allow`||
+  |`allow`||
+  |`minecraft:dark_oak_fence`||
+  |`dark_oak_fence`||
+  |`minecraft:birch_door`||
+  |`birch_door`||
+  |`minecraft:chest`||
+  |`chest`||
+  |`minecraft:cherry_wood`||
+  |`cherry_wood`||
+  |`minecraft:chain`||
+  |`chain`||
+  |`minecraft:clay`||
+  |`clay`||
+  |`minecraft:cherry_stairs`||
+  |`cherry_stairs`||
+  |`minecraft:cake`||
+  |`cake`||
+  |`minecraft:crimson_hanging_sign`||
+  |`crimson_hanging_sign`||
+  |`minecraft:sculk_vein`||
+  |`sculk_vein`||
+  |`minecraft:dead_brain_coral`||
+  |`dead_brain_coral`||
+  |`minecraft:deepslate_coal_ore`||
+  |`deepslate_coal_ore`||
+  |`minecraft:weathered_cut_copper`||
+  |`weathered_cut_copper`||
+  |`minecraft:warped_standing_sign`||
+  |`warped_standing_sign`||
+  |`minecraft:cracked_polished_blackstone_bricks`||
+  |`cracked_polished_blackstone_bricks`||
+  |`minecraft:bamboo_standing_sign`||
+  |`bamboo_standing_sign`||
+  |`minecraft:flowing_lava`||
+  |`flowing_lava`||
+  |`minecraft:polished_tuff`||
+  |`polished_tuff`||
+  |`minecraft:magenta_stained_glass`||
+  |`magenta_stained_glass`||
+  |`minecraft:acacia_button`||
+  |`acacia_button`||
+  |`minecraft:lit_furnace`||
+  |`lit_furnace`||
+  |`minecraft:chiseled_nether_bricks`||
+  |`chiseled_nether_bricks`||
+  |`minecraft:warped_button`||
+  |`warped_button`||
+  |`minecraft:red_concrete_powder`||
+  |`red_concrete_powder`||
+  |`minecraft:light_gray_concrete_powder`||
+  |`light_gray_concrete_powder`||
+  |`minecraft:deepslate_lapis_ore`||
+  |`deepslate_lapis_ore`||
+  |`minecraft:dead_bubble_coral`||
+  |`dead_bubble_coral`||
+  |`minecraft:cherry_sapling`||
+  |`cherry_sapling`||
+  |`minecraft:cherry_log`||
+  |`cherry_log`||
+  |`minecraft:prismarine_stairs`||
+  |`prismarine_stairs`||
+  |`minecraft:white_carpet`||
+  |`white_carpet`||
+  |`minecraft:cyan_concrete`||
+  |`cyan_concrete`||
+  |`minecraft:polished_tuff_stairs`||
+  |`polished_tuff_stairs`||
+  |`minecraft:dragon_egg`||
+  |`dragon_egg`||
+  |`minecraft:blue_concrete`||
+  |`blue_concrete`||
+  |`minecraft:nether_brick`||
+  |`nether_brick`||
+  |`minecraft:deepslate_iron_ore`||
+  |`deepslate_iron_ore`||
+  |`minecraft:element_1`||
+  |`element_1`||
+  |`minecraft:element_0`||
+  |`element_0`||
+  |`minecraft:element_3`||
+  |`element_3`||
+  |`minecraft:element_2`||
+  |`element_2`||
+  |`minecraft:element_5`||
+  |`element_5`||
+  |`minecraft:element_4`||
+  |`element_4`||
+  |`minecraft:element_7`||
+  |`element_7`||
+  |`minecraft:element_6`||
+  |`element_6`||
+  |`minecraft:element_9`||
+  |`element_9`||
+  |`minecraft:element_8`||
+  |`element_8`||
+  |`minecraft:oxeye_daisy`||
+  |`oxeye_daisy`||
+  |`minecraft:wheat`||
+  |`wheat`||
+  |`minecraft:waxed_cut_copper`||
+  |`waxed_cut_copper`||
+  |`minecraft:chemistry_table`||
+  |`chemistry_table`||
+  |`minecraft:heavy_core`||
+  |`heavy_core`||
+  |`minecraft:cobbled_deepslate_slab`||
+  |`cobbled_deepslate_slab`||
+  |`minecraft:spore_blossom`||
+  |`spore_blossom`||
+  |`minecraft:crimson_standing_sign`||
+  |`crimson_standing_sign`||
+  |`minecraft:darkoak_standing_sign`||
+  |`darkoak_standing_sign`||
+  |`minecraft:weathered_double_cut_copper_slab`||
+  |`weathered_double_cut_copper_slab`||
+  |`minecraft:emerald_ore`||
+  |`emerald_ore`||
+  |`minecraft:brown_mushroom_block`||
+  |`brown_mushroom_block`||
+  |`minecraft:gray_concrete_powder`||
+  |`gray_concrete_powder`||
+  |`minecraft:gray_concrete`||
+  |`gray_concrete`||
+  |`minecraft:pink_candle`||
+  |`pink_candle`||
+  |`minecraft:purple_shulker_box`||
+  |`purple_shulker_box`||
+  |`minecraft:carved_pumpkin`||
+  |`carved_pumpkin`||
+  |`minecraft:dropper`||
+  |`dropper`||
+  |`minecraft:spruce_wall_sign`||
+  |`spruce_wall_sign`||
+  |`minecraft:stripped_warped_stem`||
+  |`stripped_warped_stem`||
+  |`minecraft:candle`||
+  |`candle`||
+  |`minecraft:pointed_dripstone`||
+  |`pointed_dripstone`||
+  |`minecraft:red_carpet`||
+  |`red_carpet`||
+  |`minecraft:deepslate_brick_stairs`||
+  |`deepslate_brick_stairs`||
+  |`minecraft:dark_prismarine_stairs`||
+  |`dark_prismarine_stairs`||
+  |`minecraft:chiseled_tuff_bricks`||
+  |`chiseled_tuff_bricks`||
+  |`minecraft:light_blue_concrete`||
+  |`light_blue_concrete`||
+  |`minecraft:red_tulip`||
+  |`red_tulip`||
+  |`minecraft:trip_wire`||
+  |`trip_wire`||
+  |`minecraft:cauldron`||
+  |`cauldron`||
+  |`minecraft:cave_vines_head_with_berries`||
+  |`cave_vines_head_with_berries`||
+  |`minecraft:birch_sapling`||
+  |`birch_sapling`||
+  |`minecraft:dark_oak_trapdoor`||
+  |`dark_oak_trapdoor`||
+  |`minecraft:orange_terracotta`||
+  |`orange_terracotta`||
+  |`minecraft:waxed_oxidized_copper`||
+  |`waxed_oxidized_copper`||
+  |`minecraft:oak_planks`||
+  |`oak_planks`||
+  |`minecraft:stripped_oak_log`||
+  |`stripped_oak_log`||
+  |`minecraft:polished_andesite`||
+  |`polished_andesite`||
+  |`minecraft:sea_lantern`||
+  |`sea_lantern`||
+  |`minecraft:brewing_stand`||
+  |`brewing_stand`||
+  |`minecraft:bamboo_sapling`||
+  |`bamboo_sapling`||
+  |`minecraft:weathered_copper_bulb`||
+  |`weathered_copper_bulb`||
+  |`minecraft:blast_furnace`||
+  |`blast_furnace`||
+  |`minecraft:crimson_roots`||
+  |`crimson_roots`||
+  |`minecraft:acacia_slab`||
+  |`acacia_slab`||
+  |`minecraft:stonecutter_block`||
+  |`stonecutter_block`||
+  |`minecraft:yellow_concrete_powder`||
+  |`yellow_concrete_powder`||
+  |`minecraft:white_candle_cake`||
+  |`white_candle_cake`||
+  |`minecraft:candle_cake`||
+  |`candle_cake`||
+  |`minecraft:lime_stained_glass_pane`||
+  |`lime_stained_glass_pane`||
+  |`minecraft:end_portal`||
+  |`end_portal`||
+  |`minecraft:yellow_stained_glass`||
+  |`yellow_stained_glass`||
+  |`minecraft:jungle_double_slab`||
+  |`jungle_double_slab`||
+  |`minecraft:spruce_wood`||
+  |`spruce_wood`||
+  |`minecraft:blackstone`||
+  |`blackstone`||
+  |`minecraft:acacia_fence_gate`||
+  |`acacia_fence_gate`||
+  |`minecraft:lit_deepslate_redstone_ore`||
+  |`lit_deepslate_redstone_ore`||
+  |`minecraft:element_10`||
+  |`element_10`||
+  |`minecraft:element_11`||
+  |`element_11`||
+  |`minecraft:element_12`||
+  |`element_12`||
+  |`minecraft:element_13`||
+  |`element_13`||
+  |`minecraft:element_14`||
+  |`element_14`||
+  |`minecraft:element_15`||
+  |`element_15`||
+  |`minecraft:element_16`||
+  |`element_16`||
+  |`minecraft:element_17`||
+  |`element_17`||
+  |`minecraft:element_18`||
+  |`element_18`||
+  |`minecraft:element_19`||
+  |`element_19`||
+  |`minecraft:element_36`||
+  |`element_36`||
+  |`minecraft:element_37`||
+  |`element_37`||
+  |`minecraft:element_34`||
+  |`element_34`||
+  |`minecraft:element_35`||
+  |`element_35`||
+  |`minecraft:element_32`||
+  |`element_32`||
+  |`minecraft:element_33`||
+  |`element_33`||
+  |`minecraft:element_30`||
+  |`element_30`||
+  |`minecraft:element_31`||
+  |`element_31`||
+  |`minecraft:element_38`||
+  |`element_38`||
+  |`minecraft:element_39`||
+  |`element_39`||
+  |`minecraft:element_29`||
+  |`element_29`||
+  |`minecraft:element_28`||
+  |`element_28`||
+  |`minecraft:element_21`||
+  |`element_21`||
+  |`minecraft:element_20`||
+  |`element_20`||
+  |`minecraft:element_23`||
+  |`element_23`||
+  |`minecraft:element_22`||
+  |`element_22`||
+  |`minecraft:element_25`||
+  |`element_25`||
+  |`minecraft:element_24`||
+  |`element_24`||
+  |`minecraft:element_27`||
+  |`element_27`||
+  |`minecraft:element_26`||
+  |`element_26`||
+  |`minecraft:element_58`||
+  |`element_58`||
+  |`minecraft:element_59`||
+  |`element_59`||
+  |`minecraft:element_54`||
+  |`element_54`||
+  |`minecraft:element_55`||
+  |`element_55`||
+  |`minecraft:element_56`||
+  |`element_56`||
+  |`minecraft:element_57`||
+  |`element_57`||
+  |`minecraft:element_50`||
+  |`element_50`||
+  |`minecraft:element_51`||
+  |`element_51`||
+  |`minecraft:element_52`||
+  |`element_52`||
+  |`minecraft:element_53`||
+  |`element_53`||
+  |`minecraft:element_49`||
+  |`element_49`||
+  |`minecraft:element_48`||
+  |`element_48`||
+  |`minecraft:element_47`||
+  |`element_47`||
+  |`minecraft:element_46`||
+  |`element_46`||
+  |`minecraft:element_45`||
+  |`element_45`||
+  |`minecraft:element_44`||
+  |`element_44`||
+  |`minecraft:element_43`||
+  |`element_43`||
+  |`minecraft:element_42`||
+  |`element_42`||
+  |`minecraft:element_41`||
+  |`element_41`||
+  |`minecraft:element_40`||
+  |`element_40`||
+  |`minecraft:element_72`||
+  |`element_72`||
+  |`minecraft:element_73`||
+  |`element_73`||
+  |`minecraft:element_70`||
+  |`element_70`||
+  |`minecraft:element_71`||
+  |`element_71`||
+  |`minecraft:element_76`||
+  |`element_76`||
+  |`minecraft:element_77`||
+  |`element_77`||
+  |`minecraft:element_74`||
+  |`element_74`||
+  |`minecraft:element_75`||
+  |`element_75`||
+  |`minecraft:element_78`||
+  |`element_78`||
+  |`minecraft:element_79`||
+  |`element_79`||
+  |`minecraft:element_65`||
+  |`element_65`||
+  |`minecraft:element_64`||
+  |`element_64`||
+  |`minecraft:element_67`||
+  |`element_67`||
+  |`minecraft:element_66`||
+  |`element_66`||
+  |`minecraft:element_61`||
+  |`element_61`||
+  |`minecraft:element_60`||
+  |`element_60`||
+  |`minecraft:element_63`||
+  |`element_63`||
+  |`minecraft:element_62`||
+  |`element_62`||
+  |`minecraft:element_69`||
+  |`element_69`||
+  |`minecraft:element_68`||
+  |`element_68`||
+  |`minecraft:element_98`||
+  |`element_98`||
+  |`minecraft:element_99`||
+  |`element_99`||
+  |`minecraft:element_90`||
+  |`element_90`||
+  |`minecraft:element_91`||
+  |`element_91`||
+  |`minecraft:element_92`||
+  |`element_92`||
+  |`minecraft:element_93`||
+  |`element_93`||
+  |`minecraft:element_94`||
+  |`element_94`||
+  |`minecraft:element_95`||
+  |`element_95`||
+  |`minecraft:element_96`||
+  |`element_96`||
+  |`minecraft:element_97`||
+  |`element_97`||
+  |`minecraft:element_89`||
+  |`element_89`||
+  |`minecraft:element_88`||
+  |`element_88`||
+  |`minecraft:element_83`||
+  |`element_83`||
+  |`minecraft:element_82`||
+  |`element_82`||
+  |`minecraft:element_81`||
+  |`element_81`||
+  |`minecraft:element_80`||
+  |`element_80`||
+  |`minecraft:element_87`||
+  |`element_87`||
+  |`minecraft:element_86`||
+  |`element_86`||
+  |`minecraft:element_85`||
+  |`element_85`||
+  |`minecraft:element_84`||
+  |`element_84`||
+  |`minecraft:lit_smoker`||
+  |`lit_smoker`||
+  |`minecraft:lapis_ore`||
+  |`lapis_ore`||
+  |`minecraft:red_concrete`||
+  |`red_concrete`||
+  |`minecraft:pink_carpet`||
+  |`pink_carpet`||
+  |`minecraft:smooth_quartz_stairs`||
+  |`smooth_quartz_stairs`||
+  |`minecraft:red_candle_cake`||
+  |`red_candle_cake`||
+  |`minecraft:azalea_leaves`||
+  |`azalea_leaves`||
+  |`minecraft:purpur_block`||
+  |`purpur_block`||
+  |`minecraft:cherry_wall_sign`||
+  |`cherry_wall_sign`||
+  |`minecraft:cyan_candle`||
+  |`cyan_candle`||
+  |`minecraft:waxed_copper`||
+  |`waxed_copper`||
+  |`minecraft:repeating_command_block`||
+  |`repeating_command_block`||
+  |`minecraft:nether_wart`||
+  |`nether_wart`||
+  |`minecraft:purple_carpet`||
+  |`purple_carpet`||
+  |`minecraft:waxed_oxidized_double_cut_copper_slab`||
+  |`waxed_oxidized_double_cut_copper_slab`||
+  |`minecraft:crimson_fungus`||
+  |`crimson_fungus`||
+  |`minecraft:cherry_planks`||
+  |`cherry_planks`||
+  |`minecraft:polished_deepslate`||
+  |`polished_deepslate`||
+  |`minecraft:tuff_double_slab`||
+  |`tuff_double_slab`||
+  |`minecraft:purpur_stairs`||
+  |`purpur_stairs`||
+  |`minecraft:tube_coral`||
+  |`tube_coral`||
+  |`minecraft:waxed_copper_door`||
+  |`waxed_copper_door`||
+  |`minecraft:portal`||
+  |`portal`||
+  |`minecraft:birch_button`||
+  |`birch_button`||
+  |`minecraft:command_block`||
+  |`command_block`||
+  |`minecraft:polished_blackstone_button`||
+  |`polished_blackstone_button`||
+  |`minecraft:crafter`||
+  |`crafter`||
+  |`minecraft:spruce_planks`||
+  |`spruce_planks`||
+  |`minecraft:furnace`||
+  |`furnace`||
+  |`minecraft:amethyst_cluster`||
+  |`amethyst_cluster`||
+  |`minecraft:waxed_chiseled_copper`||
+  |`waxed_chiseled_copper`||
+  |`minecraft:waxed_cut_copper_slab`||
+  |`waxed_cut_copper_slab`||
+  |`minecraft:polished_deepslate_wall`||
+  |`polished_deepslate_wall`||
+  |`minecraft:dried_kelp_block`||
+  |`dried_kelp_block`||
+  |`minecraft:light_block`||
+  |`light_block`||
+  |`minecraft:crimson_fence`||
+  |`crimson_fence`||
+  |`minecraft:chiseled_tuff`||
+  |`chiseled_tuff`||
+  |`minecraft:lime_concrete_powder`||
+  |`lime_concrete_powder`||
+  |`minecraft:turtle_egg`||
+  |`turtle_egg`||
+  |`minecraft:magma`||
+  |`magma`||
+  |`minecraft:dispenser`||
+  |`dispenser`||
+  |`minecraft:brown_terracotta`||
+  |`brown_terracotta`||
+  |`minecraft:deepslate_diamond_ore`||
+  |`deepslate_diamond_ore`||
+  |`minecraft:grindstone`||
+  |`grindstone`||
+  |`minecraft:light_gray_wool`||
+  |`light_gray_wool`||
+  |`minecraft:soul_campfire`||
+  |`soul_campfire`||
+  |`minecraft:wooden_pressure_plate`||
+  |`wooden_pressure_plate`||
+  |`minecraft:birch_fence`||
+  |`birch_fence`||
+  |`minecraft:lime_candle_cake`||
+  |`lime_candle_cake`||
+  |`minecraft:waxed_oxidized_copper_grate`||
+  |`waxed_oxidized_copper_grate`||
+  |`minecraft:birch_double_slab`||
+  |`birch_double_slab`||
+  |`minecraft:white_concrete`||
+  |`white_concrete`||
+  |`minecraft:trial_spawner`||
+  |`trial_spawner`||
+  |`minecraft:acacia_fence`||
+  |`acacia_fence`||
+  |`minecraft:grass_path`||
+  |`grass_path`||
+  |`minecraft:cobbled_deepslate_wall`||
+  |`cobbled_deepslate_wall`||
+  |`minecraft:orange_concrete_powder`||
+  |`orange_concrete_powder`||
+  |`minecraft:orange_candle_cake`||
+  |`orange_candle_cake`||
+  |`minecraft:weathered_copper`||
+  |`weathered_copper`||
+  |`minecraft:unlit_redstone_torch`||
+  |`unlit_redstone_torch`||
+  |`minecraft:lime_terracotta`||
+  |`lime_terracotta`||
+  |`minecraft:cherry_fence_gate`||
+  |`cherry_fence_gate`||
+  |`minecraft:gray_glazed_terracotta`||
+  |`gray_glazed_terracotta`||
+  |`minecraft:lodestone`||
+  |`lodestone`||
+  |`minecraft:bamboo_mosaic`||
+  |`bamboo_mosaic`||
+  |`minecraft:raw_iron_block`||
+  |`raw_iron_block`||
+  |`minecraft:light_gray_carpet`||
+  |`light_gray_carpet`||
+  |`minecraft:purple_wool`||
+  |`purple_wool`||
+  |`minecraft:iron_block`||
+  |`iron_block`||
+  |`minecraft:ladder`||
+  |`ladder`||
+  |`minecraft:crimson_pressure_plate`||
+  |`crimson_pressure_plate`||
+  |`minecraft:stripped_mangrove_log`||
+  |`stripped_mangrove_log`||
+  |`minecraft:gravel`||
+  |`gravel`||
+  |`minecraft:cartography_table`||
+  |`cartography_table`||
+  |`minecraft:oxidized_copper_door`||
+  |`oxidized_copper_door`||
+  |`grass`||
+  |`minecraft:grass`||
+  |`concretepowder`||
+  |`minecraft:concretepowder`||
+  |`pistonarmcollision`||
+  |`minecraft:pistonarmcollision`||
+  |`stone_slab4`||
+  |`minecraft:stone_slab4`||
+  |`stone_slab`||
+  |`minecraft:stone_slab`||
+  |`tripwire`||
+  |`minecraft:tripwire`||
+  |`sealantern`||
+  |`minecraft:sealantern`||
+  |`movingblock`||
+  |`minecraft:movingblock`||
+  |`invisiblebedrock`||
+  |`minecraft:invisiblebedrock`||
+  |`stone_slab2`||
+  |`minecraft:stone_slab2`||
+  |`stickypistonarmcollision`||
+  |`minecraft:stickypistonarmcollision`||
+  |`stone_slab3`||
+  |`minecraft:stone_slab3`||
+  |`double_stone_slab`||
+  |`minecraft:double_stone_slab`||
+  |`double_stone_slab2`||
+  |`minecraft:double_stone_slab2`||
+  |`double_stone_slab3`||
+  |`minecraft:double_stone_slab3`||
+  |`double_stone_slab4`||
+  |`minecraft:double_stone_slab4`||
+  |`wool`||
+  |`minecraft:wool`||
+  |`log`||
+  |`minecraft:log`||
+  |`log2`||
+  |`minecraft:log2`||
+  |`coral`||
+  |`minecraft:coral`||
+  |`fence`||
+  |`minecraft:fence`||
+  |`carpet`||
+  |`minecraft:carpet`||
+  |`shulker_box`||
+  |`minecraft:shulker_box`||
+  |`concrete`||
+  |`minecraft:concrete`||
+  |`stained_hardened_clay`||
+  |`minecraft:stained_hardened_clay`||
+  |`concrete_powder`||
+  |`minecraft:concrete_powder`||
+  |`stained_glass`||
+  |`minecraft:stained_glass`||
+  |`stained_glass_pane`||
+  |`minecraft:stained_glass_pane`||
+  |`planks`||
+  |`minecraft:planks`||
+  |`hard_stained_glass`||
+  |`minecraft:hard_stained_glass`||
+  |`hard_stained_glass_pane`||
+  |`minecraft:hard_stained_glass_pane`||
+  |`wooden_slab`||
+  |`minecraft:wooden_slab`||
+  |`double_wooden_slab`||
+  |`minecraft:double_wooden_slab`||
+  |`leaves`||
+  |`minecraft:leaves`||
+  |`leaves2`||
+  |`minecraft:leaves2`||
+  |`wood`||
+  |`minecraft:wood`||
+  |`sapling`||
+  |`minecraft:sapling`||
+  |`coral_fan`||
+  |`minecraft:coral_fan`||
+  |`coral_fan_dead`||
+  |`minecraft:coral_fan_dead`||
+  |`red_flower`||
+  |`minecraft:red_flower`||
+  |`lava_cauldron`||
+  |`minecraft:lava_cauldron`||
 
 
-`blockStates`: <!-- md:samp block states -->
+`blockStates`：<!-- md:samp block states -->
 
 - 基本类型。
 

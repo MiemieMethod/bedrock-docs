@@ -17,16 +17,16 @@
 
 //// html | div.result
 ///// define
-`status`: <!-- md:samp Status -->
+`status`：<!-- md:samp Status -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`enable`||
-|`disable`||
-|`e`||
-|`d`||
+  |值|描述|
+  |---|---|
+  |`enable`||
+  |`disable`||
+  |`e`||
+  |`d`||
 
 
 

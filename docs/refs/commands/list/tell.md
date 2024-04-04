@@ -21,11 +21,11 @@
 
 //// html | div.result
 ///// define
-`target`: <!-- md:samp target -->
+`target`：<!-- md:samp target -->
 
 - 基本类型。
 
-`message`: <!-- md:samp message -->
+`message`：<!-- md:samp message -->
 
 - 基本类型。
 

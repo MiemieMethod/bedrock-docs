@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`spawnPoint`: <!-- md:samp x y z -->
+`spawnPoint`：<!-- md:samp x y z -->
 
 - 基本类型。
 

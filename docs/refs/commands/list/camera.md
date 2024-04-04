@@ -17,94 +17,94 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`rot`: <!-- md:samp rot -->
+`rot`：<!-- md:samp rot -->
 
 - 枚举类型。单值枚举，请直接使用`rot`。
 
-`xRot`: <!-- md:samp value -->
+`xRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`yRot`: <!-- md:samp value -->
+`yRot`：<!-- md:samp value -->
 
 - 基本类型。
 
@@ -122,90 +122,90 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtEntity`: <!-- md:samp target -->
+`lookAtEntity`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -223,90 +223,90 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtPosition`: <!-- md:samp x y z -->
+`lookAtPosition`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -324,82 +324,82 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -417,86 +417,86 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`rot`: <!-- md:samp rot -->
+`rot`：<!-- md:samp rot -->
 
 - 枚举类型。单值枚举，请直接使用`rot`。
 
-`xRot`: <!-- md:samp value -->
+`xRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`yRot`: <!-- md:samp value -->
+`yRot`：<!-- md:samp value -->
 
 - 基本类型。
 
@@ -514,82 +514,82 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtEntity`: <!-- md:samp target -->
+`lookAtEntity`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -607,82 +607,82 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtPosition`: <!-- md:samp x y z -->
+`lookAtPosition`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -700,78 +700,78 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`ease`: <!-- md:samp ease -->
+`ease`：<!-- md:samp ease -->
 
 - 枚举类型。单值枚举，请直接使用`ease`。
 
-`easeTime`: <!-- md:samp float -->
+`easeTime`：<!-- md:samp float -->
 
 - 基本类型。
 
-`easeType`: <!-- md:samp Easing -->
+`easeType`：<!-- md:samp Easing -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`linear`||
-|`spring`||
-|`in_quad`||
-|`out_quad`||
-|`in_out_quad`||
-|`in_cubic`||
-|`out_cubic`||
-|`in_out_cubic`||
-|`in_quart`||
-|`out_quart`||
-|`in_out_quart`||
-|`in_quint`||
-|`out_quint`||
-|`in_out_quint`||
-|`in_sine`||
-|`out_sine`||
-|`in_out_sine`||
-|`in_expo`||
-|`out_expo`||
-|`in_out_expo`||
-|`in_circ`||
-|`out_circ`||
-|`in_out_circ`||
-|`in_bounce`||
-|`out_bounce`||
-|`in_out_bounce`||
-|`in_back`||
-|`out_back`||
-|`in_out_back`||
-|`in_elastic`||
-|`out_elastic`||
-|`in_out_elastic`||
+  |值|描述|
+  |---|---|
+  |`linear`||
+  |`spring`||
+  |`in_quad`||
+  |`out_quad`||
+  |`in_out_quad`||
+  |`in_cubic`||
+  |`out_cubic`||
+  |`in_out_cubic`||
+  |`in_quart`||
+  |`out_quart`||
+  |`in_out_quart`||
+  |`in_quint`||
+  |`out_quint`||
+  |`in_out_quint`||
+  |`in_sine`||
+  |`out_sine`||
+  |`in_out_sine`||
+  |`in_expo`||
+  |`out_expo`||
+  |`in_out_expo`||
+  |`in_circ`||
+  |`out_circ`||
+  |`in_out_circ`||
+  |`in_bounce`||
+  |`out_bounce`||
+  |`in_out_bounce`||
+  |`in_back`||
+  |`out_back`||
+  |`in_out_back`||
+  |`in_elastic`||
+  |`out_elastic`||
+  |`in_out_elastic`||
 
 
-`default`: <!-- md:samp default -->
+`default`：<!-- md:samp default -->
 
 - 枚举类型。单值枚举，请直接使用`default`。
 
@@ -789,46 +789,46 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`rot`: <!-- md:samp rot -->
+`rot`：<!-- md:samp rot -->
 
 - 枚举类型。单值枚举，请直接使用`rot`。
 
-`xRot`: <!-- md:samp value -->
+`xRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`yRot`: <!-- md:samp value -->
+`yRot`：<!-- md:samp value -->
 
 - 基本类型。
 
@@ -846,42 +846,42 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtEntity`: <!-- md:samp target -->
+`lookAtEntity`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -899,42 +899,42 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtPosition`: <!-- md:samp x y z -->
+`lookAtPosition`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -952,34 +952,34 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`pos`: <!-- md:samp pos -->
+`pos`：<!-- md:samp pos -->
 
 - 枚举类型。单值枚举，请直接使用`pos`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -997,38 +997,38 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`rot`: <!-- md:samp rot -->
+`rot`：<!-- md:samp rot -->
 
 - 枚举类型。单值枚举，请直接使用`rot`。
 
-`xRot`: <!-- md:samp value -->
+`xRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`yRot`: <!-- md:samp value -->
+`yRot`：<!-- md:samp value -->
 
 - 基本类型。
 
@@ -1046,34 +1046,34 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtEntity`: <!-- md:samp target -->
+`lookAtEntity`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -1091,34 +1091,34 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`facing`: <!-- md:samp facing -->
+`facing`：<!-- md:samp facing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtPosition`: <!-- md:samp x y z -->
+`lookAtPosition`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -1136,30 +1136,30 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`set`: <!-- md:samp set -->
+`set`：<!-- md:samp set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`preset`: <!-- md:samp CameraPresets -->
+`preset`：<!-- md:samp CameraPresets -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:first_person`||
-|`minecraft:free`||
-|`minecraft:third_person`||
-|`minecraft:third_person_front`||
-|`example:example_free`||
-|`example:example_player_effects`||
-|`example:example_player_listener`||
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`||
+  |`minecraft:free`||
+  |`minecraft:third_person`||
+  |`minecraft:third_person_front`||
+  |`example:example_free`||
+  |`example:example_player_effects`||
+  |`example:example_player_listener`||
 
 
-`default`: <!-- md:samp default -->
+`default`：<!-- md:samp default -->
 
 - 枚举类型。单值枚举，请直接使用`default`。
 
@@ -1177,11 +1177,11 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`clear`: <!-- md:samp clear -->
+`clear`：<!-- md:samp clear -->
 
 - 枚举类型。单值枚举，请直接使用`clear`。
 
@@ -1199,43 +1199,43 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`fade`: <!-- md:samp fade -->
+`fade`：<!-- md:samp fade -->
 
 - 枚举类型。单值枚举，请直接使用`fade`。
 
-`time`: <!-- md:samp time -->
+`time`：<!-- md:samp time -->
 
 - 枚举类型。单值枚举，请直接使用`time`。
 
-`fadeInSeconds`: <!-- md:samp float -->
+`fadeInSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`holdSeconds`: <!-- md:samp float -->
+`holdSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`fadeOutSeconds`: <!-- md:samp float -->
+`fadeOutSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`color`: <!-- md:samp color -->
+`color`：<!-- md:samp color -->
 
 - 枚举类型。单值枚举，请直接使用`color`。
 
-`red`: <!-- md:samp int -->
+`red`：<!-- md:samp int -->
 
 - 基本类型。
 
-`green`: <!-- md:samp int -->
+`green`：<!-- md:samp int -->
 
 - 基本类型。
 
-`blue`: <!-- md:samp int -->
+`blue`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -1253,27 +1253,27 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`fade`: <!-- md:samp fade -->
+`fade`：<!-- md:samp fade -->
 
 - 枚举类型。单值枚举，请直接使用`fade`。
 
-`time`: <!-- md:samp time -->
+`time`：<!-- md:samp time -->
 
 - 枚举类型。单值枚举，请直接使用`time`。
 
-`fadeInSeconds`: <!-- md:samp float -->
+`fadeInSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`holdSeconds`: <!-- md:samp float -->
+`holdSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`fadeOutSeconds`: <!-- md:samp float -->
+`fadeOutSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
@@ -1291,27 +1291,27 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`fade`: <!-- md:samp fade -->
+`fade`：<!-- md:samp fade -->
 
 - 枚举类型。单值枚举，请直接使用`fade`。
 
-`color`: <!-- md:samp color -->
+`color`：<!-- md:samp color -->
 
 - 枚举类型。单值枚举，请直接使用`color`。
 
-`red`: <!-- md:samp int -->
+`red`：<!-- md:samp int -->
 
 - 基本类型。
 
-`green`: <!-- md:samp int -->
+`green`：<!-- md:samp int -->
 
 - 基本类型。
 
-`blue`: <!-- md:samp int -->
+`blue`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -1329,11 +1329,11 @@
 
 //// html | div.result
 ///// define
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 
-`fade`: <!-- md:samp fade -->
+`fade`：<!-- md:samp fade -->
 
 - 枚举类型。单值枚举，请直接使用`fade`。
 

@@ -17,25 +17,25 @@
 
 //// html | div.result
 ///// define
-`navigate`: <!-- md:samp CodeBuilderNavigateAction -->
+`navigate`：<!-- md:samp CodeBuilderNavigateAction -->
 
 - 枚举类型。单值枚举，请直接使用`navigate`。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`openCodeBuilderWindow`: <!-- md:samp Boolean -->
+`openCodeBuilderWindow`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`URL`: <!-- md:samp text -->
+`URL`：<!-- md:samp text -->
 
 - 基本类型。
 
@@ -53,11 +53,11 @@
 
 //// html | div.result
 ///// define
-`reset`: <!-- md:samp CodeBuilderResetAction -->
+`reset`：<!-- md:samp CodeBuilderResetAction -->
 
 - 枚举类型。单值枚举，请直接使用`reset`。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -75,19 +75,19 @@
 
 //// html | div.result
 ///// define
-`subscribe`: <!-- md:samp CodeBuilderSubscribeAction -->
+`subscribe`：<!-- md:samp CodeBuilderSubscribeAction -->
 
 - 枚举类型。单值枚举，请直接使用`subscribe`。
 
-`type`: <!-- md:samp CodeBuilderEventTypeScoreboard -->
+`type`：<!-- md:samp CodeBuilderEventTypeScoreboard -->
 
 - 枚举类型。单值枚举，请直接使用`scoreboard`。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`objective`: <!-- md:samp string -->
+`objective`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -105,19 +105,19 @@
 
 //// html | div.result
 ///// define
-`unsubscribe`: <!-- md:samp CodeBuilderUnsubscribeAction -->
+`unsubscribe`：<!-- md:samp CodeBuilderUnsubscribeAction -->
 
 - 枚举类型。单值枚举，请直接使用`unsubscribe`。
 
-`type`: <!-- md:samp CodeBuilderEventTypeScoreboard -->
+`type`：<!-- md:samp CodeBuilderEventTypeScoreboard -->
 
 - 枚举类型。单值枚举，请直接使用`scoreboard`。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`objective`: <!-- md:samp string -->
+`objective`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -135,32 +135,32 @@
 
 //// html | div.result
 ///// define
-`code`: <!-- md:samp CodeBuilderCodeStateCategory -->
+`code`：<!-- md:samp CodeBuilderCodeStateCategory -->
 
 - 枚举类型。单值枚举，请直接使用`code`。
 
-`check`: <!-- md:samp CodeBuilderCheckAction -->
+`check`：<!-- md:samp CodeBuilderCheckAction -->
 
 - 枚举类型。单值枚举，请直接使用`check`。
 
-`codeStatus`: <!-- md:samp CodeBuilderCodeStatusProperty -->
+`codeStatus`：<!-- md:samp CodeBuilderCodeStatusProperty -->
 
 - 枚举类型。单值枚举，请直接使用`code_status`。
 
-`status`: <!-- md:samp CodeBuilderCodeStatus -->
+`status`：<!-- md:samp CodeBuilderCodeStatus -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`not_started`||
-|`in_progress`||
-|`paused`||
-|`error`||
-|`succeeded`||
+  |值|描述|
+  |---|---|
+  |`not_started`||
+  |`in_progress`||
+  |`paused`||
+  |`error`||
+  |`succeeded`||
 
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -178,22 +178,22 @@
 
 //// html | div.result
 ///// define
-`runtime`: <!-- md:samp CodeBuilderRuntimeAction -->
+`runtime`：<!-- md:samp CodeBuilderRuntimeAction -->
 
 - 枚举类型。单值枚举，请直接使用`runtime`。
 
-`action`: <!-- md:samp CodeBuilderRuntime -->
+`action`：<!-- md:samp CodeBuilderRuntime -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`stop`||
-|`start`||
-|`pause`||
+  |值|描述|
+  |---|---|
+  |`stop`||
+  |`start`||
+  |`pause`||
 
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 

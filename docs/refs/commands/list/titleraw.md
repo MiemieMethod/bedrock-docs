@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`clear`: <!-- md:samp TitleRawClear -->
+`clear`：<!-- md:samp TitleRawClear -->
 
 - 枚举类型。单值枚举，请直接使用`clear`。
 
@@ -39,11 +39,11 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`reset`: <!-- md:samp TitleRawReset -->
+`reset`：<!-- md:samp TitleRawReset -->
 
 - 枚举类型。单值枚举，请直接使用`reset`。
 
@@ -61,22 +61,22 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`titleLocation`: <!-- md:samp TitleRawSet -->
+`titleLocation`：<!-- md:samp TitleRawSet -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`title`||
-|`subtitle`||
-|`actionbar`||
+  |值|描述|
+  |---|---|
+  |`title`||
+  |`subtitle`||
+  |`actionbar`||
 
 
-`raw json titleText`: <!-- md:samp json -->
+`raw json titleText`：<!-- md:samp json -->
 
 - 基本类型。
 
@@ -94,23 +94,23 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`times`: <!-- md:samp TitleRawTimes -->
+`times`：<!-- md:samp TitleRawTimes -->
 
 - 枚举类型。单值枚举，请直接使用`times`。
 
-`fadeIn`: <!-- md:samp int -->
+`fadeIn`：<!-- md:samp int -->
 
 - 基本类型。
 
-`stay`: <!-- md:samp int -->
+`stay`：<!-- md:samp int -->
 
 - 基本类型。
 
-`fadeOut`: <!-- md:samp int -->
+`fadeOut`：<!-- md:samp int -->
 
 - 基本类型。
 

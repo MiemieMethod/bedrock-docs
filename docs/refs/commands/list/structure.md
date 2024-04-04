@@ -17,30 +17,30 @@
 
 //// html | div.result
 ///// define
-`action`: <!-- md:samp StructureSaveAction -->
+`action`：<!-- md:samp StructureSaveAction -->
 
 - 枚举类型。单值枚举，请直接使用`save`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`from`: <!-- md:samp x y z -->
+`from`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`saveMode`: <!-- md:samp StructureSaveMode -->
+`saveMode`：<!-- md:samp StructureSaveMode -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`disk`||
-|`memory`||
+  |值|描述|
+  |---|---|
+  |`disk`||
+  |`memory`||
 
 
 
@@ -57,50 +57,50 @@
 
 //// html | div.result
 ///// define
-`action`: <!-- md:samp StructureSaveAction -->
+`action`：<!-- md:samp StructureSaveAction -->
 
 - 枚举类型。单值枚举，请直接使用`save`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`from`: <!-- md:samp x y z -->
+`from`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`includeEntities`: <!-- md:samp Boolean -->
+`includeEntities`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`saveMode`: <!-- md:samp StructureSaveMode -->
-
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`disk`||
-|`memory`||
-
-
-`includeBlocks`: <!-- md:samp Boolean -->
+`saveMode`：<!-- md:samp StructureSaveMode -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`disk`||
+  |`memory`||
+
+
+`includeBlocks`：<!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -117,11 +117,11 @@
 
 //// html | div.result
 ///// define
-`action`: <!-- md:samp StructureDeleteAction -->
+`action`：<!-- md:samp StructureDeleteAction -->
 
 - 枚举类型。单值枚举，请直接使用`delete`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -140,67 +140,67 @@
 //// html | div.result
 <!-- md:version command * 21 true true -->
 ///// define
-`action`: <!-- md:samp StructureLoadAction -->
+`action`：<!-- md:samp StructureLoadAction -->
 
 - 枚举类型。单值枚举，请直接使用`load`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`rotation`: <!-- md:samp Rotation -->
+`rotation`：<!-- md:samp Rotation -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`0_degrees`||
-|`90_degrees`||
-|`180_degrees`||
-|`270_degrees`||
+  |值|描述|
+  |---|---|
+  |`0_degrees`||
+  |`90_degrees`||
+  |`180_degrees`||
+  |`270_degrees`||
 
 
-`mirror`: <!-- md:samp Mirror -->
-
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`x`||
-|`z`||
-|`none`||
-|`xz`||
-
-
-`includeEntities`: <!-- md:samp Boolean -->
+`mirror`：<!-- md:samp Mirror -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`x`||
+  |`z`||
+  |`none`||
+  |`xz`||
 
 
-`includeBlocks`: <!-- md:samp Boolean -->
+`includeEntities`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`integrity`: <!-- md:samp float -->
+`includeBlocks`：<!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
+
+
+`integrity`：<!-- md:samp float -->
 
 - 基本类型。
 
-`seed`: <!-- md:samp string -->
+`seed`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -219,81 +219,81 @@
 //// html | div.result
 <!-- md:version command * 21 true true -->
 ///// define
-`action`: <!-- md:samp StructureLoadAction -->
+`action`：<!-- md:samp StructureLoadAction -->
 
 - 枚举类型。单值枚举，请直接使用`load`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`rotation`: <!-- md:samp Rotation -->
+`rotation`：<!-- md:samp Rotation -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`0_degrees`||
-|`90_degrees`||
-|`180_degrees`||
-|`270_degrees`||
+  |值|描述|
+  |---|---|
+  |`0_degrees`||
+  |`90_degrees`||
+  |`180_degrees`||
+  |`270_degrees`||
 
 
-`mirror`: <!-- md:samp Mirror -->
-
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`x`||
-|`z`||
-|`none`||
-|`xz`||
-
-
-`animationMode`: <!-- md:samp StructureAnimationMode -->
+`mirror`：<!-- md:samp Mirror -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`block_by_block`||
-|`layer_by_layer`||
+  |值|描述|
+  |---|---|
+  |`x`||
+  |`z`||
+  |`none`||
+  |`xz`||
 
 
-`animationSeconds`: <!-- md:samp float -->
+`animationMode`：<!-- md:samp StructureAnimationMode -->
+
+- 枚举类型。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`block_by_block`||
+  |`layer_by_layer`||
+
+
+`animationSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`includeEntities`: <!-- md:samp Boolean -->
+`includeEntities`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`includeBlocks`: <!-- md:samp Boolean -->
+`includeBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`integrity`: <!-- md:samp float -->
+`integrity`：<!-- md:samp float -->
 
 - 基本类型。
 
-`seed`: <!-- md:samp string -->
+`seed`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -312,77 +312,77 @@
 //// html | div.result
 <!-- md:version command 22 * true true -->
 ///// define
-`action`: <!-- md:samp StructureLoadAction -->
+`action`：<!-- md:samp StructureLoadAction -->
 
 - 枚举类型。单值枚举，请直接使用`load`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`rotation`: <!-- md:samp Rotation -->
+`rotation`：<!-- md:samp Rotation -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`0_degrees`||
-|`90_degrees`||
-|`180_degrees`||
-|`270_degrees`||
+  |值|描述|
+  |---|---|
+  |`0_degrees`||
+  |`90_degrees`||
+  |`180_degrees`||
+  |`270_degrees`||
 
 
-`mirror`: <!-- md:samp Mirror -->
-
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`x`||
-|`z`||
-|`none`||
-|`xz`||
-
-
-`includeEntities`: <!-- md:samp Boolean -->
+`mirror`：<!-- md:samp Mirror -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`x`||
+  |`z`||
+  |`none`||
+  |`xz`||
 
 
-`includeBlocks`: <!-- md:samp Boolean -->
-
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
-
-
-`waterlogged`: <!-- md:samp Boolean -->
+`includeEntities`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`integrity`: <!-- md:samp float -->
+`includeBlocks`：<!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
+
+
+`waterlogged`：<!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
+
+
+`integrity`：<!-- md:samp float -->
 
 - 基本类型。
 
-`seed`: <!-- md:samp string -->
+`seed`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -401,91 +401,91 @@
 //// html | div.result
 <!-- md:version command 22 * true true -->
 ///// define
-`action`: <!-- md:samp StructureLoadAction -->
+`action`：<!-- md:samp StructureLoadAction -->
 
 - 枚举类型。单值枚举，请直接使用`load`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`rotation`: <!-- md:samp Rotation -->
+`rotation`：<!-- md:samp Rotation -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`0_degrees`||
-|`90_degrees`||
-|`180_degrees`||
-|`270_degrees`||
+  |值|描述|
+  |---|---|
+  |`0_degrees`||
+  |`90_degrees`||
+  |`180_degrees`||
+  |`270_degrees`||
 
 
-`mirror`: <!-- md:samp Mirror -->
-
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`x`||
-|`z`||
-|`none`||
-|`xz`||
-
-
-`animationMode`: <!-- md:samp StructureAnimationMode -->
+`mirror`：<!-- md:samp Mirror -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`block_by_block`||
-|`layer_by_layer`||
+  |值|描述|
+  |---|---|
+  |`x`||
+  |`z`||
+  |`none`||
+  |`xz`||
 
 
-`animationSeconds`: <!-- md:samp float -->
+`animationMode`：<!-- md:samp StructureAnimationMode -->
+
+- 枚举类型。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`block_by_block`||
+  |`layer_by_layer`||
+
+
+`animationSeconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`includeEntities`: <!-- md:samp Boolean -->
+`includeEntities`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`includeBlocks`: <!-- md:samp Boolean -->
-
-- 枚举类型。枚举值如下：
-
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
-
-
-`waterlogged`: <!-- md:samp Boolean -->
+`includeBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
-`integrity`: <!-- md:samp float -->
+`waterlogged`：<!-- md:samp Boolean -->
+
+- 枚举类型。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
+
+
+`integrity`：<!-- md:samp float -->
 
 - 基本类型。
 
-`seed`: <!-- md:samp string -->
+`seed`：<!-- md:samp string -->
 
 - 基本类型。
 

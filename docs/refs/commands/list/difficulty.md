@@ -17,20 +17,20 @@
 
 //// html | div.result
 ///// define
-`difficulty`: <!-- md:samp Difficulty -->
+`difficulty`：<!-- md:samp Difficulty -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`normal`||
-|`peaceful`||
-|`easy`||
-|`hard`||
-|`p`||
-|`e`||
-|`n`||
-|`h`||
+  |值|描述|
+  |---|---|
+  |`normal`||
+  |`peaceful`||
+  |`easy`||
+  |`hard`||
+  |`p`||
+  |`e`||
+  |`n`||
+  |`h`||
 
 
 
@@ -47,7 +47,7 @@
 
 //// html | div.result
 ///// define
-`difficulty`: <!-- md:samp int -->
+`difficulty`：<!-- md:samp int -->
 
 - 基本类型。
 

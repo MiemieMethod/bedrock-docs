@@ -17,27 +17,27 @@
 
 //// html | div.result
 ///// define
-`sound`: <!-- md:samp string -->
+`sound`：<!-- md:samp string -->
 
 - 基本类型。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`volume`: <!-- md:samp float -->
+`volume`：<!-- md:samp float -->
 
 - 基本类型。
 
-`pitch`: <!-- md:samp float -->
+`pitch`：<!-- md:samp float -->
 
 - 基本类型。
 
-`minimumVolume`: <!-- md:samp float -->
+`minimumVolume`：<!-- md:samp float -->
 
 - 基本类型。
 

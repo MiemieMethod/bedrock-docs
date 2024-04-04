@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TimeModeAdd -->
+`mode`：<!-- md:samp TimeModeAdd -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`amount`: <!-- md:samp int -->
+`amount`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -39,11 +39,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TimeModeSet -->
+`mode`：<!-- md:samp TimeModeSet -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`amount`: <!-- md:samp int -->
+`amount`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -61,22 +61,22 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TimeModeSet -->
+`mode`：<!-- md:samp TimeModeSet -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`time`: <!-- md:samp TimeSpec -->
+`time`：<!-- md:samp TimeSpec -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`day`||
-|`sunrise`||
-|`noon`||
-|`sunset`||
-|`night`||
-|`midnight`||
+  |值|描述|
+  |---|---|
+  |`day`||
+  |`sunrise`||
+  |`noon`||
+  |`sunset`||
+  |`night`||
+  |`midnight`||
 
 
 
@@ -93,19 +93,19 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TimeModeQuery -->
+`mode`：<!-- md:samp TimeModeQuery -->
 
 - 枚举类型。单值枚举，请直接使用`query`。
 
-`time`: <!-- md:samp TimeQuery -->
+`time`：<!-- md:samp TimeQuery -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`daytime`||
-|`gametime`||
-|`day`||
+  |值|描述|
+  |---|---|
+  |`daytime`||
+  |`gametime`||
+  |`day`||
 
 
 

@@ -21,18 +21,18 @@
 
 //// html | div.result
 ///// define
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -49,26 +49,26 @@
 
 //// html | div.result
 ///// define
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`yRot`: <!-- md:samp value -->
+`yRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`xRot`: <!-- md:samp value -->
+`xRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -85,26 +85,26 @@
 
 //// html | div.result
 ///// define
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp TeleportFacing -->
+`facing`：<!-- md:samp TeleportFacing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtPosition`: <!-- md:samp x y z -->
+`lookAtPosition`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -121,26 +121,26 @@
 
 //// html | div.result
 ///// define
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp TeleportFacing -->
+`facing`：<!-- md:samp TeleportFacing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtEntity`: <!-- md:samp target -->
+`lookAtEntity`：<!-- md:samp target -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -157,30 +157,30 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`yRot`: <!-- md:samp value -->
+`yRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`xRot`: <!-- md:samp value -->
+`xRot`：<!-- md:samp value -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -197,22 +197,22 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -229,30 +229,30 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp TeleportFacing -->
+`facing`：<!-- md:samp TeleportFacing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtPosition`: <!-- md:samp x y z -->
+`lookAtPosition`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -269,30 +269,30 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`facing`: <!-- md:samp TeleportFacing -->
+`facing`：<!-- md:samp TeleportFacing -->
 
 - 枚举类型。单值枚举，请直接使用`facing`。
 
-`lookAtEntity`: <!-- md:samp target -->
+`lookAtEntity`：<!-- md:samp target -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -309,7 +309,7 @@
 
 //// html | div.result
 ///// define
-`destination`: <!-- md:samp target -->
+`destination`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -327,22 +327,22 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 
-`destination`: <!-- md:samp target -->
+`destination`：<!-- md:samp target -->
 
 - 基本类型。
 
-`checkForBlocks`: <!-- md:samp Boolean -->
+`checkForBlocks`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 

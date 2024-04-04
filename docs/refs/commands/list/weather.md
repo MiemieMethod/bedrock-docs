@@ -17,18 +17,18 @@
 
 //// html | div.result
 ///// define
-`type`: <!-- md:samp WeatherType -->
+`type`：<!-- md:samp WeatherType -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`clear`||
-|`rain`||
-|`thunder`||
+  |值|描述|
+  |---|---|
+  |`clear`||
+  |`rain`||
+  |`thunder`||
 
 
-`duration`: <!-- md:samp int -->
+`duration`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -46,7 +46,7 @@
 
 //// html | div.result
 ///// define
-`query`: <!-- md:samp WeatherQuery -->
+`query`：<!-- md:samp WeatherQuery -->
 
 - 枚举类型。单值枚举，请直接使用`query`。
 

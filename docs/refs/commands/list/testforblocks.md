@@ -17,26 +17,26 @@
 
 //// html | div.result
 ///// define
-`begin`: <!-- md:samp x y z -->
+`begin`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`end`: <!-- md:samp x y z -->
+`end`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`destination`: <!-- md:samp x y z -->
+`destination`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`mode`: <!-- md:samp TestForBlocksMode -->
+`mode`：<!-- md:samp TestForBlocksMode -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`masked`||
-|`all`||
+  |值|描述|
+  |---|---|
+  |`masked`||
+  |`all`||
 
 
 

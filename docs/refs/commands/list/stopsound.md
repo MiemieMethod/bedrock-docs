@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`sound`: <!-- md:samp string -->
+`sound`：<!-- md:samp string -->
 
 - 基本类型。
 

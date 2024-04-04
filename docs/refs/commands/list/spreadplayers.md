@@ -17,23 +17,23 @@
 
 //// html | div.result
 ///// define
-`x`: <!-- md:samp value -->
+`x`：<!-- md:samp value -->
 
 - 基本类型。
 
-`z`: <!-- md:samp value -->
+`z`：<!-- md:samp value -->
 
 - 基本类型。
 
-`spreadDistance`: <!-- md:samp float -->
+`spreadDistance`：<!-- md:samp float -->
 
 - 基本类型。
 
-`maxRange`: <!-- md:samp float -->
+`maxRange`：<!-- md:samp float -->
 
 - 基本类型。
 
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 

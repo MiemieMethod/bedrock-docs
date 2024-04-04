@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`effect`: <!-- md:samp string -->
+`effect`：<!-- md:samp string -->
 
 - 基本类型。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 

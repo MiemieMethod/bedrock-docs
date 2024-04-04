@@ -17,21 +17,21 @@
 
 //// html | div.result
 ///// define
-`entity`: <!-- md:samp target -->
+`entity`：<!-- md:samp target -->
 
 - 基本类型。
 
-`action`: <!-- md:samp TagChangeAction -->
+`action`：<!-- md:samp TagChangeAction -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`add`||
-|`remove`||
+  |值|描述|
+  |---|---|
+  |`add`||
+  |`remove`||
 
 
-`name`: <!-- md:samp TagValues -->
+`name`：<!-- md:samp TagValues -->
 
 - 软枚举类型。
 
@@ -49,11 +49,11 @@
 
 //// html | div.result
 ///// define
-`entity`: <!-- md:samp target -->
+`entity`：<!-- md:samp target -->
 
 - 基本类型。
 
-`action`: <!-- md:samp TagListAction -->
+`action`：<!-- md:samp TagListAction -->
 
 - 枚举类型。单值枚举，请直接使用`list`。
 

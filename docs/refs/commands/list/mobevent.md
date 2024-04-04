@@ -17,26 +17,26 @@
 
 //// html | div.result
 ///// define
-`event`: <!-- md:samp MobEvent -->
+`event`：<!-- md:samp MobEvent -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`minecraft:pillager_patrols_event`||
-|`minecraft:wandering_trader_event`||
-|`minecraft:ender_dragon_event`||
-|`events_enabled`||
+  |值|描述|
+  |---|---|
+  |`minecraft:pillager_patrols_event`||
+  |`minecraft:wandering_trader_event`||
+  |`minecraft:ender_dragon_event`||
+  |`events_enabled`||
 
 
-`value`: <!-- md:samp Boolean -->
+`value`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 

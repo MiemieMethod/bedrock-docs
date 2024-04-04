@@ -17,57 +17,57 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`enchantmentName`: <!-- md:samp Enchant -->
+`enchantmentName`：<!-- md:samp Enchant -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`protection`||
-|`fire_protection`||
-|`feather_falling`||
-|`blast_protection`||
-|`projectile_protection`||
-|`thorns`||
-|`respiration`||
-|`depth_strider`||
-|`aqua_affinity`||
-|`sharpness`||
-|`smite`||
-|`bane_of_arthropods`||
-|`knockback`||
-|`fire_aspect`||
-|`looting`||
-|`efficiency`||
-|`silk_touch`||
-|`unbreaking`||
-|`fortune`||
-|`power`||
-|`punch`||
-|`flame`||
-|`infinity`||
-|`luck_of_the_sea`||
-|`lure`||
-|`frost_walker`||
-|`mending`||
-|`binding`||
-|`vanishing`||
-|`impaling`||
-|`riptide`||
-|`loyalty`||
-|`channeling`||
-|`multishot`||
-|`piercing`||
-|`quick_charge`||
-|`soul_speed`||
-|`swift_sneak`||
+  |值|描述|
+  |---|---|
+  |`protection`||
+  |`fire_protection`||
+  |`feather_falling`||
+  |`blast_protection`||
+  |`projectile_protection`||
+  |`thorns`||
+  |`respiration`||
+  |`depth_strider`||
+  |`aqua_affinity`||
+  |`sharpness`||
+  |`smite`||
+  |`bane_of_arthropods`||
+  |`knockback`||
+  |`fire_aspect`||
+  |`looting`||
+  |`efficiency`||
+  |`silk_touch`||
+  |`unbreaking`||
+  |`fortune`||
+  |`power`||
+  |`punch`||
+  |`flame`||
+  |`infinity`||
+  |`luck_of_the_sea`||
+  |`lure`||
+  |`frost_walker`||
+  |`mending`||
+  |`binding`||
+  |`vanishing`||
+  |`impaling`||
+  |`riptide`||
+  |`loyalty`||
+  |`channeling`||
+  |`multishot`||
+  |`piercing`||
+  |`quick_charge`||
+  |`soul_speed`||
+  |`swift_sneak`||
 
 
-`level`: <!-- md:samp int -->
+`level`：<!-- md:samp int -->
 
 - 基本类型。
 
@@ -85,15 +85,15 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`enchantmentId`: <!-- md:samp int -->
+`enchantmentId`：<!-- md:samp int -->
 
 - 基本类型。
 
-`level`: <!-- md:samp int -->
+`level`：<!-- md:samp int -->
 
 - 基本类型。
 

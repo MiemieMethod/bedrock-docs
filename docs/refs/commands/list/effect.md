@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`clear`: <!-- md:samp ClearEffects -->
+`clear`：<!-- md:samp ClearEffects -->
 
 - 枚举类型。单值枚举，请直接使用`clear`。
 
@@ -39,64 +39,64 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`effect`: <!-- md:samp Effect -->
+`effect`：<!-- md:samp Effect -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`wither`||
-|`speed`||
-|`slowness`||
-|`haste`||
-|`mining_fatigue`||
-|`strength`||
-|`instant_health`||
-|`instant_damage`||
-|`jump_boost`||
-|`nausea`||
-|`regeneration`||
-|`resistance`||
-|`fire_resistance`||
-|`water_breathing`||
-|`invisibility`||
-|`blindness`||
-|`night_vision`||
-|`hunger`||
-|`weakness`||
-|`poison`||
-|`health_boost`||
-|`absorption`||
-|`saturation`||
-|`levitation`||
-|`fatal_poison`||
-|`conduit_power`||
-|`slow_falling`||
-|`bad_omen`||
-|`village_hero`||
-|`darkness`||
+  |值|描述|
+  |---|---|
+  |`wither`||
+  |`speed`||
+  |`slowness`||
+  |`haste`||
+  |`mining_fatigue`||
+  |`strength`||
+  |`instant_health`||
+  |`instant_damage`||
+  |`jump_boost`||
+  |`nausea`||
+  |`regeneration`||
+  |`resistance`||
+  |`fire_resistance`||
+  |`water_breathing`||
+  |`invisibility`||
+  |`blindness`||
+  |`night_vision`||
+  |`hunger`||
+  |`weakness`||
+  |`poison`||
+  |`health_boost`||
+  |`absorption`||
+  |`saturation`||
+  |`levitation`||
+  |`fatal_poison`||
+  |`conduit_power`||
+  |`slow_falling`||
+  |`bad_omen`||
+  |`village_hero`||
+  |`darkness`||
 
 
-`seconds`: <!-- md:samp int -->
-
-- 基本类型。
-
-`amplifier`: <!-- md:samp int -->
+`seconds`：<!-- md:samp int -->
 
 - 基本类型。
 
-`hideParticles`: <!-- md:samp Boolean -->
+`amplifier`：<!-- md:samp int -->
+
+- 基本类型。
+
+`hideParticles`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 

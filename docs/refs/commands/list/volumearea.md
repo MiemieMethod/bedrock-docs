@@ -17,23 +17,23 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp VolumeAreaAdd -->
+`mode`：<!-- md:samp VolumeAreaAdd -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`identifier`: <!-- md:samp string -->
+`identifier`：<!-- md:samp string -->
 
 - 基本类型。
 
-`from`: <!-- md:samp x y z -->
+`from`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -51,11 +51,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp VolumeAreaRemove -->
+`mode`：<!-- md:samp VolumeAreaRemove -->
 
 - 枚举类型。单值枚举，请直接使用`remove`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -73,11 +73,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp VolumeAreaRemove -->
+`mode`：<!-- md:samp VolumeAreaRemove -->
 
 - 枚举类型。单值枚举，请直接使用`remove`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -95,7 +95,7 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp VolumeAreaRemoveAll -->
+`mode`：<!-- md:samp VolumeAreaRemoveAll -->
 
 - 枚举类型。单值枚举，请直接使用`remove_all`。
 
@@ -113,11 +113,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp VolumeAreaList -->
+`mode`：<!-- md:samp VolumeAreaList -->
 
 - 枚举类型。单值枚举，请直接使用`list`。
 
-`all-dimensions`: <!-- md:samp VolumeAreaAllDimensions -->
+`all-dimensions`：<!-- md:samp VolumeAreaAllDimensions -->
 
 - 枚举类型。单值枚举，请直接使用`all-dimensions`。
 

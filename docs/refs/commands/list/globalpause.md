@@ -17,14 +17,14 @@
 
 //// html | div.result
 ///// define
-`isPaused`: <!-- md:samp Boolean -->
+`isPaused`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 

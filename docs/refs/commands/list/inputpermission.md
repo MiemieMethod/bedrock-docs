@@ -17,32 +17,32 @@
 
 //// html | div.result
 ///// define
-`option`: <!-- md:samp Option_Set -->
+`option`：<!-- md:samp Option_Set -->
 
 - 枚举类型。单值枚举，请直接使用`set`。
 
-`targets`: <!-- md:samp target -->
+`targets`：<!-- md:samp target -->
 
 - 基本类型。
 
-`permission`: <!-- md:samp permission -->
+`permission`：<!-- md:samp permission -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`movement`||
-|`camera`||
+  |值|描述|
+  |---|---|
+  |`movement`||
+  |`camera`||
 
 
-`state`: <!-- md:samp state -->
+`state`：<!-- md:samp state -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`enabled`||
-|`disabled`||
+  |值|描述|
+  |---|---|
+  |`enabled`||
+  |`disabled`||
 
 
 
@@ -59,32 +59,32 @@
 
 //// html | div.result
 ///// define
-`option`: <!-- md:samp Option_Query -->
+`option`：<!-- md:samp Option_Query -->
 
 - 枚举类型。单值枚举，请直接使用`query`。
 
-`targets`: <!-- md:samp target -->
+`targets`：<!-- md:samp target -->
 
 - 基本类型。
 
-`permission`: <!-- md:samp permission -->
+`permission`：<!-- md:samp permission -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`movement`||
-|`camera`||
+  |值|描述|
+  |---|---|
+  |`movement`||
+  |`camera`||
 
 
-`state`: <!-- md:samp state -->
+`state`：<!-- md:samp state -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`enabled`||
-|`disabled`||
+  |值|描述|
+  |---|---|
+  |`enabled`||
+  |`disabled`||
 
 
 

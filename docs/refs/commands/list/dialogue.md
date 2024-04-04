@@ -17,19 +17,19 @@
 
 //// html | div.result
 ///// define
-`open`: <!-- md:samp DialogueOpenAction -->
+`open`：<!-- md:samp DialogueOpenAction -->
 
 - 枚举类型。单值枚举，请直接使用`open`。
 
-`npc`: <!-- md:samp target -->
+`npc`：<!-- md:samp target -->
 
 - 基本类型。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`sceneName`: <!-- md:samp string -->
+`sceneName`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -47,19 +47,19 @@
 
 //// html | div.result
 ///// define
-`change`: <!-- md:samp DialogueChangeAction -->
+`change`：<!-- md:samp DialogueChangeAction -->
 
 - 枚举类型。单值枚举，请直接使用`change`。
 
-`npc`: <!-- md:samp target -->
+`npc`：<!-- md:samp target -->
 
 - 基本类型。
 
-`sceneName`: <!-- md:samp string -->
+`sceneName`：<!-- md:samp string -->
 
 - 基本类型。
 
-`players`: <!-- md:samp target -->
+`players`：<!-- md:samp target -->
 
 - 基本类型。
 

@@ -17,27 +17,27 @@
 
 //// html | div.result
 ///// define
-`entity`: <!-- md:samp target -->
+`entity`：<!-- md:samp target -->
 
 - 基本类型。
 
-`animation`: <!-- md:samp string -->
+`animation`：<!-- md:samp string -->
 
 - 基本类型。
 
-`next_state`: <!-- md:samp string -->
+`next_state`：<!-- md:samp string -->
 
 - 基本类型。
 
-`blend_out_time`: <!-- md:samp float -->
+`blend_out_time`：<!-- md:samp float -->
 
 - 基本类型。
 
-`stop_expression`: <!-- md:samp string -->
+`stop_expression`：<!-- md:samp string -->
 
 - 基本类型。
 
-`controller`: <!-- md:samp string -->
+`controller`：<!-- md:samp string -->
 
 - 基本类型。
 

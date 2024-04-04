@@ -17,23 +17,23 @@
 
 //// html | div.result
 ///// define
-`publicKey`: <!-- md:samp string -->
+`publicKey`：<!-- md:samp string -->
 
 - 基本类型。
 
-`salt`: <!-- md:samp string -->
+`salt`：<!-- md:samp string -->
 
 - 基本类型。
 
-`ciper_mode`: <!-- md:samp EncryptionCommandCipher -->
+`ciper_mode`：<!-- md:samp EncryptionCommandCipher -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`cfb8`||
-|`cfb128`||
-|`cfb`||
+  |值|描述|
+  |---|---|
+  |`cfb8`||
+  |`cfb128`||
+  |`cfb`||
 
 
 

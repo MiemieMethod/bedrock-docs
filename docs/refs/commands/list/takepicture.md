@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`targetCamera`: <!-- md:samp target -->
+`targetCamera`：<!-- md:samp target -->
 
 - 基本类型。
 
-`targetPlayer`: <!-- md:samp target -->
+`targetPlayer`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -39,11 +39,11 @@
 
 //// html | div.result
 ///// define
-`cameraSpawnLocation`: <!-- md:samp x y z -->
+`cameraSpawnLocation`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`targetPlayer`: <!-- md:samp target -->
+`targetPlayer`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -61,7 +61,7 @@
 
 //// html | div.result
 ///// define
-`targetPlayer`: <!-- md:samp target -->
+`targetPlayer`：<!-- md:samp target -->
 
 - 基本类型。
 

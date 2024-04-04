@@ -17,18 +17,18 @@
 
 //// html | div.result
 ///// define
-`setting`: <!-- md:samp BoolSettingName -->
+`setting`：<!-- md:samp BoolSettingName -->
 
 - 枚举类型。单值枚举，请直接使用`allow-cheats`。
 
-`value`: <!-- md:samp Boolean -->
+`value`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -45,24 +45,24 @@
 
 //// html | div.result
 ///// define
-`setting`: <!-- md:samp DifficultySettingName -->
+`setting`：<!-- md:samp DifficultySettingName -->
 
 - 枚举类型。单值枚举，请直接使用`difficulty`。
 
-`value`: <!-- md:samp Difficulty -->
+`value`：<!-- md:samp Difficulty -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`normal`||
-|`peaceful`||
-|`easy`||
-|`hard`||
-|`p`||
-|`e`||
-|`n`||
-|`h`||
+  |值|描述|
+  |---|---|
+  |`normal`||
+  |`peaceful`||
+  |`easy`||
+  |`hard`||
+  |`p`||
+  |`e`||
+  |`n`||
+  |`h`||
 
 
 
@@ -79,11 +79,11 @@
 
 //// html | div.result
 ///// define
-`setting`: <!-- md:samp DifficultySettingName -->
+`setting`：<!-- md:samp DifficultySettingName -->
 
 - 枚举类型。单值枚举，请直接使用`difficulty`。
 
-`value`: <!-- md:samp int -->
+`value`：<!-- md:samp int -->
 
 - 基本类型。
 

@@ -17,19 +17,19 @@
 
 //// html | div.result
 ///// define
-`subcommand`: <!-- md:samp SubcommandExport -->
+`subcommand`：<!-- md:samp SubcommandExport -->
 
 - 枚举类型。单值枚举，请直接使用`export`。
 
-`exportType`: <!-- md:samp ExportTypes -->
+`exportType`：<!-- md:samp ExportTypes -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`project`||
-|`template`||
-|`world`||
+  |值|描述|
+  |---|---|
+  |`project`||
+  |`template`||
+  |`world`||
 
 
 

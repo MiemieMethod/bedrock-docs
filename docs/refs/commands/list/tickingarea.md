@@ -17,30 +17,30 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModeAdd -->
+`mode`：<!-- md:samp TickingAreaModeAdd -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`from`: <!-- md:samp x y z -->
+`from`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`preload`: <!-- md:samp Boolean -->
+`preload`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -57,34 +57,34 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModeAdd -->
+`mode`：<!-- md:samp TickingAreaModeAdd -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`circle`: <!-- md:samp AddTickingAreaType -->
+`circle`：<!-- md:samp AddTickingAreaType -->
 
 - 枚举类型。单值枚举，请直接使用`circle`。
 
-`center`: <!-- md:samp x y z -->
+`center`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`radius`: <!-- md:samp int -->
+`radius`：<!-- md:samp int -->
 
 - 基本类型。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`preload`: <!-- md:samp Boolean -->
+`preload`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -101,11 +101,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModeRemove -->
+`mode`：<!-- md:samp TickingAreaModeRemove -->
 
 - 枚举类型。单值枚举，请直接使用`remove`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
@@ -123,11 +123,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModeRemove -->
+`mode`：<!-- md:samp TickingAreaModeRemove -->
 
 - 枚举类型。单值枚举，请直接使用`remove`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -145,7 +145,7 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModeRemoveAll -->
+`mode`：<!-- md:samp TickingAreaModeRemoveAll -->
 
 - 枚举类型。单值枚举，请直接使用`remove_all`。
 
@@ -163,11 +163,11 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModeList -->
+`mode`：<!-- md:samp TickingAreaModeList -->
 
 - 枚举类型。单值枚举，请直接使用`list`。
 
-`all-dimensions`: <!-- md:samp AllDimensions -->
+`all-dimensions`：<!-- md:samp AllDimensions -->
 
 - 枚举类型。单值枚举，请直接使用`all-dimensions`。
 
@@ -185,22 +185,22 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModePreload -->
+`mode`：<!-- md:samp TickingAreaModePreload -->
 
 - 枚举类型。单值枚举，请直接使用`preload`。
 
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`preload`: <!-- md:samp Boolean -->
+`preload`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -217,22 +217,22 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp TickingAreaModePreload -->
+`mode`：<!-- md:samp TickingAreaModePreload -->
 
 - 枚举类型。单值枚举，请直接使用`preload`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`preload`: <!-- md:samp Boolean -->
+`preload`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 

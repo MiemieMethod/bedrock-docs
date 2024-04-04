@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`name`: <!-- md:samp target -->
+`name`：<!-- md:samp target -->
 
 - 基本类型。
 
-`reason`: <!-- md:samp message -->
+`reason`：<!-- md:samp message -->
 
 - 基本类型。
 

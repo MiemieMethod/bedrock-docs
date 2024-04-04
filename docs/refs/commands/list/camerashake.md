@@ -17,30 +17,30 @@
 
 //// html | div.result
 ///// define
-`action`: <!-- md:samp CameraShakeActionAdd -->
+`action`：<!-- md:samp CameraShakeActionAdd -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`intensity`: <!-- md:samp float -->
+`intensity`：<!-- md:samp float -->
 
 - 基本类型。
 
-`seconds`: <!-- md:samp float -->
+`seconds`：<!-- md:samp float -->
 
 - 基本类型。
 
-`shakeType`: <!-- md:samp CameraShakeType -->
+`shakeType`：<!-- md:samp CameraShakeType -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`positional`||
-|`rotational`||
+  |值|描述|
+  |---|---|
+  |`positional`||
+  |`rotational`||
 
 
 
@@ -57,11 +57,11 @@
 
 //// html | div.result
 ///// define
-`action`: <!-- md:samp CameraShakeActionStop -->
+`action`：<!-- md:samp CameraShakeActionStop -->
 
 - 枚举类型。单值枚举，请直接使用`stop`。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 

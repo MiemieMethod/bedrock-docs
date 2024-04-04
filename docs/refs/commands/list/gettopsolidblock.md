@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`position`: <!-- md:samp x y z -->
+`position`：<!-- md:samp x y z -->
 
 - 基本类型。
 

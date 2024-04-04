@@ -17,15 +17,15 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp SaveMode -->
+`mode`：<!-- md:samp SaveMode -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`query`||
-|`hold`||
-|`resume`||
+  |值|描述|
+  |---|---|
+  |`query`||
+  |`hold`||
+  |`resume`||
 
 
 

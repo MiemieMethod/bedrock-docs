@@ -21,14 +21,14 @@
 
 //// html | div.result
 ///// define
-`action`: <!-- md:samp PermissionsAction -->
+`action`：<!-- md:samp PermissionsAction -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`list`||
-|`reload`||
+  |值|描述|
+  |---|---|
+  |`list`||
+  |`reload`||
 
 
 

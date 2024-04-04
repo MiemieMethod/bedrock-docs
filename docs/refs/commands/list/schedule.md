@@ -17,23 +17,23 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp ScheduleActionOnAreaLoaded -->
+`mode`：<!-- md:samp ScheduleActionOnAreaLoaded -->
 
 - 枚举类型。单值枚举，请直接使用`on_area_loaded`。
 
-`condition`: <!-- md:samp RequestAction -->
+`condition`：<!-- md:samp RequestAction -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`from`: <!-- md:samp x y z -->
+`from`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`to`: <!-- md:samp x y z -->
+`to`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`function`: <!-- md:samp filepath -->
+`function`：<!-- md:samp filepath -->
 
 - 基本类型。
 
@@ -51,27 +51,27 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp ScheduleActionOnAreaLoaded -->
+`mode`：<!-- md:samp ScheduleActionOnAreaLoaded -->
 
 - 枚举类型。单值枚举，请直接使用`on_area_loaded`。
 
-`condition`: <!-- md:samp RequestAction -->
+`condition`：<!-- md:samp RequestAction -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`type`: <!-- md:samp CircleArea -->
+`type`：<!-- md:samp CircleArea -->
 
 - 枚举类型。单值枚举，请直接使用`circle`。
 
-`center`: <!-- md:samp x y z -->
+`center`：<!-- md:samp x y z -->
 
 - 基本类型。
 
-`radius`: <!-- md:samp int -->
+`radius`：<!-- md:samp int -->
 
 - 基本类型。
 
-`function`: <!-- md:samp filepath -->
+`function`：<!-- md:samp filepath -->
 
 - 基本类型。
 
@@ -89,23 +89,23 @@
 
 //// html | div.result
 ///// define
-`mode`: <!-- md:samp ScheduleActionOnAreaLoaded -->
+`mode`：<!-- md:samp ScheduleActionOnAreaLoaded -->
 
 - 枚举类型。单值枚举，请直接使用`on_area_loaded`。
 
-`condition`: <!-- md:samp RequestAction -->
+`condition`：<!-- md:samp RequestAction -->
 
 - 枚举类型。单值枚举，请直接使用`add`。
 
-`type`: <!-- md:samp TickingArea -->
+`type`：<!-- md:samp TickingArea -->
 
 - 枚举类型。单值枚举，请直接使用`tickingarea`。
 
-`name`: <!-- md:samp string -->
+`name`：<!-- md:samp string -->
 
 - 基本类型。
 
-`function`: <!-- md:samp filepath -->
+`function`：<!-- md:samp filepath -->
 
 - 基本类型。
 

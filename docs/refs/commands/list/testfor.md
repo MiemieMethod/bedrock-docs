@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 

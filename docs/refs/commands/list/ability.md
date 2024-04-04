@@ -17,29 +17,29 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`ability`: <!-- md:samp Ability -->
+`ability`：<!-- md:samp Ability -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`mayfly`||
-|`mute`||
-|`worldbuilder`||
+  |值|描述|
+  |---|---|
+  |`mayfly`||
+  |`mute`||
+  |`worldbuilder`||
 
 
-`value`: <!-- md:samp Boolean -->
+`value`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -56,19 +56,19 @@
 
 //// html | div.result
 ///// define
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
-`ability`: <!-- md:samp Ability -->
+`ability`：<!-- md:samp Ability -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`mayfly`||
-|`mute`||
-|`worldbuilder`||
+  |值|描述|
+  |---|---|
+  |`mayfly`||
+  |`mute`||
+  |`worldbuilder`||
 
 
 

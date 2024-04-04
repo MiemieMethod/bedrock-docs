@@ -17,19 +17,19 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 
-`mode`: <!-- md:samp add -->
+`mode`：<!-- md:samp add -->
 
 - 枚举类型。单值枚举，请直接使用`push`。
 
-`fogId`: <!-- md:samp string -->
+`fogId`：<!-- md:samp string -->
 
 - 基本类型。
 
-`userProvidedId`: <!-- md:samp string -->
+`userProvidedId`：<!-- md:samp string -->
 
 - 基本类型。
 
@@ -47,21 +47,21 @@
 
 //// html | div.result
 ///// define
-`victim`: <!-- md:samp target -->
+`victim`：<!-- md:samp target -->
 
 - 基本类型。
 
-`mode`: <!-- md:samp delete -->
+`mode`：<!-- md:samp delete -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`pop`||
-|`remove`||
+  |值|描述|
+  |---|---|
+  |`pop`||
+  |`remove`||
 
 
-`userProvidedId`: <!-- md:samp string -->
+`userProvidedId`：<!-- md:samp string -->
 
 - 基本类型。
 

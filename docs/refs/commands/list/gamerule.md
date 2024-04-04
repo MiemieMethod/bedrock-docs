@@ -31,52 +31,52 @@
 
 //// html | div.result
 ///// define
-`rule`: <!-- md:samp BoolGameRule -->
+`rule`：<!-- md:samp BoolGameRule -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`commandblockoutput`||
-|`dodaylightcycle`||
-|`doentitydrops`||
-|`dofiretick`||
-|`recipesunlock`||
-|`dolimitedcrafting`||
-|`domobloot`||
-|`domobspawning`||
-|`dotiledrops`||
-|`doweathercycle`||
-|`drowningdamage`||
-|`falldamage`||
-|`firedamage`||
-|`keepinventory`||
-|`mobgriefing`||
-|`pvp`||
-|`showcoordinates`||
-|`naturalregeneration`||
-|`tntexplodes`||
-|`sendcommandfeedback`||
-|`doinsomnia`||
-|`commandblocksenabled`||
-|`doimmediaterespawn`||
-|`showdeathmessages`||
-|`showtags`||
-|`freezedamage`||
-|`respawnblocksexplode`||
-|`showbordereffect`||
-|`showrecipemessages`||
-|`projectilescanbreakblocks`||
+  |值|描述|
+  |---|---|
+  |`commandblockoutput`||
+  |`dodaylightcycle`||
+  |`doentitydrops`||
+  |`dofiretick`||
+  |`recipesunlock`||
+  |`dolimitedcrafting`||
+  |`domobloot`||
+  |`domobspawning`||
+  |`dotiledrops`||
+  |`doweathercycle`||
+  |`drowningdamage`||
+  |`falldamage`||
+  |`firedamage`||
+  |`keepinventory`||
+  |`mobgriefing`||
+  |`pvp`||
+  |`showcoordinates`||
+  |`naturalregeneration`||
+  |`tntexplodes`||
+  |`sendcommandfeedback`||
+  |`doinsomnia`||
+  |`commandblocksenabled`||
+  |`doimmediaterespawn`||
+  |`showdeathmessages`||
+  |`showtags`||
+  |`freezedamage`||
+  |`respawnblocksexplode`||
+  |`showbordereffect`||
+  |`showrecipemessages`||
+  |`projectilescanbreakblocks`||
 
 
-`value`: <!-- md:samp Boolean -->
+`value`：<!-- md:samp Boolean -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`true`||
-|`false`||
+  |值|描述|
+  |---|---|
+  |`true`||
+  |`false`||
 
 
 
@@ -93,20 +93,20 @@
 
 //// html | div.result
 ///// define
-`rule`: <!-- md:samp IntGameRule -->
+`rule`：<!-- md:samp IntGameRule -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`maxcommandchainlength`||
-|`randomtickspeed`||
-|`functioncommandlimit`||
-|`spawnradius`||
-|`playerssleepingpercentage`||
+  |值|描述|
+  |---|---|
+  |`maxcommandchainlength`||
+  |`randomtickspeed`||
+  |`functioncommandlimit`||
+  |`spawnradius`||
+  |`playerssleepingpercentage`||
 
 
-`value`: <!-- md:samp int -->
+`value`：<!-- md:samp int -->
 
 - 基本类型。
 

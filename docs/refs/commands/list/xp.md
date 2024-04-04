@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`amount`: <!-- md:samp int -->
+`amount`：<!-- md:samp int -->
 
 - 基本类型。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 
@@ -39,11 +39,11 @@
 
 //// html | div.result
 ///// define
-`amount`: <!-- md:samp l -->
+`amount`：<!-- md:samp l -->
 
 - 后缀类型。后缀为`L`。
 
-`player`: <!-- md:samp target -->
+`player`：<!-- md:samp target -->
 
 - 基本类型。
 

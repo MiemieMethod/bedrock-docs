@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`name`: <!-- md:samp filepath -->
+`name`：<!-- md:samp filepath -->
 
 - 基本类型。
 

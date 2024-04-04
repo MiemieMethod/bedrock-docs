@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`target`: <!-- md:samp target -->
+`target`：<!-- md:samp target -->
 
 - 基本类型。
 
-`raw json message`: <!-- md:samp json -->
+`raw json message`：<!-- md:samp json -->
 
 - 基本类型。
 

@@ -17,7 +17,7 @@
 
 //// html | div.result
 ///// define
-`message`: <!-- md:samp message -->
+`message`：<!-- md:samp message -->
 
 - 基本类型。
 

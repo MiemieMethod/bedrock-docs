@@ -17,15 +17,15 @@
 
 //// html | div.result
 ///// define
-`details`: <!-- md:samp ListDetails -->
+`details`：<!-- md:samp ListDetails -->
 
 - 枚举类型。枚举值如下：
 
-|值|描述|
-|---|---|
-|`ids`||
-|`uuids`||
-|`stats`||
+  |值|描述|
+  |---|---|
+  |`ids`||
+  |`uuids`||
+  |`stats`||
 
 
 

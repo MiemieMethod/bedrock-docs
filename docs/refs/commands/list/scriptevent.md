@@ -17,11 +17,11 @@
 
 //// html | div.result
 ///// define
-`messageId`: <!-- md:samp string -->
+`messageId`：<!-- md:samp string -->
 
 - 基本类型。
 
-`message`: <!-- md:samp message -->
+`message`：<!-- md:samp message -->
 
 - 基本类型。
 
