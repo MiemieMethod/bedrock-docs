@@ -1,0 +1,8 @@
+:root>[data-md-color-scheme=slate]{
+    --md-typeset-kbd-color:var(--md-default-fg-color--lightest);
+    --md-typeset-kbd-border-color:#1a1c24;
+    --md-typeset-kbd-accent-color:var(--md-default-fg-color--lighter)
+}
+.md-typeset .keys span {
+    font-family: Roboto;
+}
