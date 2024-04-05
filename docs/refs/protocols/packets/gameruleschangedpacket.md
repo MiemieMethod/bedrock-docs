@@ -29,7 +29,7 @@ digraph GameRulesChangedPacket {
 /// define
 GameRulesChangedPacket
 
-Rules Data：[<!-- md:samp GameRulesChangedPacketData -->](refs/protocols/types/gameruleschangedpacketdata.md)
+Rules Data：[<!-- md:samp GameRulesChangedPacketData -->](../types/gameruleschangedpacketdata.md)
 
 - 类型：GameRulesChangedPacketData。
 

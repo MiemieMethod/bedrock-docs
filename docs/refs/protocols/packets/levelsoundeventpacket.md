@@ -63,7 +63,7 @@ Event ID：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。enumeration: Puv::Legacy::LevelSoundEvent
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 

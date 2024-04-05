@@ -40,7 +40,7 @@ Has Value：<!-- md:samp bool -->
 
 - 类型：bool。If true, follow with appropriate data type, otherwise nothing
 
-Value：[<!-- md:samp MolangVariableMap -->](refs/protocols/types/molangvariablemap.md)
+Value：[<!-- md:samp MolangVariableMap -->](../types/molangvariablemap.md)
 
 - 类型：MolangVariableMap。
 

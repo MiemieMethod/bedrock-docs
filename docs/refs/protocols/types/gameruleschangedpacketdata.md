@@ -76,10 +76,16 @@ GameRulesChangedPacketData
 
 Rules List
 
+//// define
 Rules List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Rules List的示例元素
 
 Rule Name：<!-- md:samp string -->
@@ -94,8 +100,8 @@ Rule Type
 
 Dependency on 'Rule Type'
 
-//// tab | if (1)
-///// define
+///// tab | if (1)
+////// define
 if (1)
 
 Rule Value：<!-- md:samp bool -->
@@ -103,7 +109,11 @@ Rule Value：<!-- md:samp bool -->
 - 类型：bool。
 
 
+//////
+
 /////
+
+
 
 ////
 

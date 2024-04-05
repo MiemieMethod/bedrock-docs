@@ -74,23 +74,47 @@ SubClientConnectionRequest
 
 Certificate Chain (JSON)
 
+//// define
 Certificate Chain (JSON)数组的大小：<!-- md:samp int -->
 
 - 类型：int。
 
+
+////
+
+
+//// define
 Certificate Chain (JSON)的示例元素
 
 String Data：<!-- md:samp byte -->
 
 - 类型：byte。
 
+
+////
+
+
 Raw Token
 
+//// define
 Raw Token数组的大小：<!-- md:samp int -->
 
 - 类型：int。
 
+
+////
+
+
+//// define
 Raw Token的示例元素
+
+String Data：<!-- md:samp byte -->
+
+- 类型：byte。
+
+
+////
+
 
 
 ///

@@ -1677,19 +1677,25 @@ Dimension Type：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Center Pos：[<!-- md:samp SubChunkPos -->](refs/protocols/types/subchunkpos.md)
+Center Pos：[<!-- md:samp SubChunkPos -->](../types/subchunkpos.md)
 
 - 类型：SubChunkPos。
 
 SubChunk Data List
 
+//// define
 SubChunk Pos Offsets Size：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
+
+////
+
+
+//// define
 SubChunk Data List的示例元素
 
-SubChunk Pos Offset：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](refs/protocols/types/subchunkpacket::subchunkposoffset.md)
+SubChunk Pos Offset：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../types/subchunkpacket::subchunkposoffset.md)
 
 - 类型：SubChunkPacket::SubChunkPosOffset。
 
@@ -1699,19 +1705,19 @@ SubChunk Request Result：<!-- md:samp byte -->
 
 Dependency on 'Is SubChunk Request Result SuccessAllAir? or Cache Enabled?'
 
-//// tab | if (0)
-///// define
+///// tab | if (0)
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
 - 类型：[No Data]。
 
 
+//////
+
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | if (1)
+////// define
 if (1)
 
 Serialized Sub Chunk：<!-- md:samp string -->
@@ -1719,9 +1725,9 @@ Serialized Sub Chunk：<!-- md:samp string -->
 - 类型：string。
 
 
-/////
+//////
 
-////
+/////
 
 
 Height Map Data Type：<!-- md:samp byte -->
@@ -1730,19 +1736,19 @@ Height Map Data Type：<!-- md:samp byte -->
 
 Dependency on 'Height Map Has Data'
 
-//// tab | if (0)
-///// define
+///// tab | if (0)
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
 - 类型：[No Data]。
 
 
+//////
+
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | if (1)
+////// define
 if (1)
 
 Subchunk Height Map[0][0]：<!-- md:samp byte -->
@@ -2770,26 +2776,26 @@ Subchunk Height Map[15][15]：<!-- md:samp byte -->
 - 类型：byte。
 
 
-/////
+//////
 
-////
+/////
 
 
 Dependency on 'Cache Enabled'
 
-//// tab | if (0)
-///// define
+///// tab | if (0)
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
 - 类型：[No Data]。
 
 
+//////
+
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | if (1)
+////// define
 if (1)
 
 Blob Id：<!-- md:samp unsigned int64 -->
@@ -2797,7 +2803,11 @@ Blob Id：<!-- md:samp unsigned int64 -->
 - 类型：unsigned int64。
 
 
+//////
+
 /////
+
+
 
 ////
 

@@ -70,7 +70,7 @@ to tell the Server map about terrain pixels it doesn't know about\"",
 /// define
 MapInfoRequestPacket
 
-Map Unique ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Map Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -97,6 +97,7 @@ if (1)
 
 Client Pixels List
 
+////// define
 Client Pixels List的示例元素
 
 pixel：<!-- md:samp unsigned int -->
@@ -106,6 +107,10 @@ pixel：<!-- md:samp unsigned int -->
 index：<!-- md:samp unsigned short -->
 
 - 类型：unsigned short。
+
+
+//////
+
 
 
 /////

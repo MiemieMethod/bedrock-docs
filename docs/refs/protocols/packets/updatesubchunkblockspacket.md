@@ -117,19 +117,25 @@ MessageId\"",
 /// define
 UpdateSubChunkBlocksPacket
 
-Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
 Blocks Changed - Standards
 
+//// define
 Blocks Changed - Standards数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Blocks Changed - Standards的示例元素
 
-Pos：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
@@ -149,13 +155,47 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。enumeration: ActorBlockSyncMessage::MessageId
 
+
+////
+
+
 Blocks Changed - Extras
 
+//// define
 Blocks Changed - Extras数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Blocks Changed - Extras的示例元素
+
+Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
+
+- 类型：NetworkBlockPosition。
+
+Runtime Id：<!-- md:samp unsigned varint -->
+
+- 类型：unsigned varint。
+
+Update Flags：<!-- md:samp unsigned varint -->
+
+- 类型：unsigned varint。
+
+Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
+
+- 类型：unsigned varint64。
+
+Sync Message - Message：<!-- md:samp unsigned varint -->
+
+- 类型：unsigned varint。enumeration: ActorBlockSyncMessage::MessageId
+
+
+////
+
 
 
 ///

@@ -37,11 +37,11 @@ have.\"",
 /// define
 MapCreateLockedCopyPacket
 
-Original Map Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Original Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。Id of the map being locked.
 
-New Map Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+New Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。Id that the new map should have.
 

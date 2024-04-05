@@ -29,7 +29,7 @@ digraph EditorNetworkPacket {
 /// define
 EditorNetworkPacket
 
-Binary Payload：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Binary Payload：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。
 

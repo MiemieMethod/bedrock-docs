@@ -134,7 +134,7 @@ the documentation for 1.12.0.2\"",
 /// define
 LevelChunkPacket
 
-Chunk Position：[<!-- md:samp ChunkPos -->](refs/protocols/types/chunkpos.md)
+Chunk Position：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
 - 类型：ChunkPos。
 
@@ -223,15 +223,25 @@ if (1)
 
 Cache Blobs
 
+////// define
 Blob Count：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。How many cache blobs make up this chunk.
 
+
+//////
+
+
+////// define
 Cache Blobs的示例元素
 
 Blob Id：<!-- md:samp unsigned int64 -->
 
 - 类型：unsigned int64。See ClientCacheProtocol.md, included with the documentation for 1.12.0.2
+
+
+//////
+
 
 
 /////

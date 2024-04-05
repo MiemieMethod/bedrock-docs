@@ -118,7 +118,7 @@ Dependency on 'Is Block?'
 ///// define
 if (0)
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
@@ -131,7 +131,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actor
 ///// define
 if (1)
 
-Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

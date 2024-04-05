@@ -60,15 +60,25 @@ Death Cause Attack Name：<!-- md:samp string -->
 
 Death Cause Message List
 
+//// define
 Death Cause Message List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Death Cause Message List的示例元素
 
 Death Cause Entity Name：<!-- md:samp string -->
 
 - 类型：string。
+
+
+////
+
 
 
 ///

@@ -44,15 +44,25 @@ PlayerBlockActions
 
 Player Block Actions
 
+//// define
 Player Block Actions count：<!-- md:samp varint -->
 
 - 类型：varint。
 
+
+////
+
+
+//// define
 Player Block Actions的示例元素
 
-Player Block Action：[<!-- md:samp PlayerBlockActionData -->](refs/protocols/types/playerblockactiondata.md)
+Player Block Action：[<!-- md:samp PlayerBlockActionData -->](../types/playerblockactiondata.md)
 
 - 类型：PlayerBlockActionData。
+
+
+////
+
 
 
 ///

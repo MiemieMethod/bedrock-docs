@@ -51,7 +51,7 @@ Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

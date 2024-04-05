@@ -29,7 +29,7 @@ digraph MoveActorDeltaPacket {
 /// define
 MoveActorDeltaPacket
 
-Move Data：[<!-- md:samp MoveActorDeltaData -->](refs/protocols/types/moveactordeltadata.md)
+Move Data：[<!-- md:samp MoveActorDeltaData -->](../types/moveactordeltadata.md)
 
 - 类型：MoveActorDeltaData。
 

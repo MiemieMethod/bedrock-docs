@@ -47,11 +47,11 @@ Action：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: PositionTrackingDBServerBroadcastPacket::Action
 
-Id：[<!-- md:samp PositionTrackingId -->](refs/protocols/types/positiontrackingid.md)
+Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
 - 类型：PositionTrackingId。
 
-Position tracking data：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Position tracking data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。CompoundTag for record key:version (byte)'id' (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)
 

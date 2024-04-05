@@ -121,10 +121,16 @@ if (1)
 
 Legacy Set Item Slots
 
+////// define
 Legacy Set Item Slots数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Legacy Set Item Slots的示例元素
 
 Container Enum：<!-- md:samp byte -->
@@ -133,15 +139,29 @@ Container Enum：<!-- md:samp byte -->
 
 Slot vector
 
+/////// define
 Slot vector数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+///////
+
+
+/////// define
 Slot vector的示例元素
 
 Slot：<!-- md:samp byte -->
 
 - 类型：byte。
+
+
+///////
+
+
+
+//////
+
 
 
 /////
@@ -153,7 +173,7 @@ Transaction Type：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。enumeration: ComplexInventoryTransaction::Type
 
-mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](refs/protocols/types/inventorytransaction.md)
+mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](../types/inventorytransaction.md)
 
 - 类型：InventoryTransaction。Our ComplexInventoryTransaction contains an InventoryTransaction within it
 

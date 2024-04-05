@@ -81,10 +81,16 @@ TrimDataPacket
 
 TrimPattern List
 
+//// define
 TrimPattern List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 TrimPattern List的示例元素
 
 Item Name：<!-- md:samp string -->
@@ -95,12 +101,22 @@ Pattern Id：<!-- md:samp string -->
 
 - 类型：string。
 
+
+////
+
+
 TrimMaterial List
 
+//// define
 TrimMaterial List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 TrimMaterial List的示例元素
 
 Material Id：<!-- md:samp string -->
@@ -110,6 +126,14 @@ Material Id：<!-- md:samp string -->
 Color：<!-- md:samp string -->
 
 - 类型：string。
+
+Item Name：<!-- md:samp string -->
+
+- 类型：string。
+
+
+////
+
 
 
 ///

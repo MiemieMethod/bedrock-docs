@@ -109,15 +109,25 @@ mBlendOutTime：<!-- md:samp float -->
 
 mRuntimeIds
 
+//// define
 mRuntimeIds数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 mRuntimeIds的示例元素
 
-runtimeId：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+runtimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
+
+
+////
+
 
 
 ///

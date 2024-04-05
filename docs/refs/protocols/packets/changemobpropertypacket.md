@@ -59,7 +59,7 @@ digraph ChangeMobPropertyPacket {
 /// define
 ChangeMobPropertyPacket
 
-Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

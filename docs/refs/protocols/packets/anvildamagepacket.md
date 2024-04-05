@@ -39,7 +39,7 @@ Damage Amount：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

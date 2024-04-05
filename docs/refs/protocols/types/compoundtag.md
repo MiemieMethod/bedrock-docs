@@ -358,15 +358,25 @@ if (7)
 
 Byte Array
 
+//////// define
 Byte Array数组的大小：<!-- md:samp varint -->
 
 - 类型：varint。
 
+
+////////
+
+
+//////// define
 Byte Array的示例元素
 
 Byte Data：<!-- md:samp byte -->
 
 - 类型：byte。
+
+
+////////
+
 
 
 ///////
@@ -421,15 +431,25 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 
 Tag Array
 
+//////// define
 Tag Array数组的大小：<!-- md:samp varint -->
 
 - 类型：varint。
 
+
+////////
+
+
+//////// define
 Tag Array的示例元素
 
-Tag (Recursive)：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。
+
+
+////////
+
 
 
 ///////
@@ -442,11 +462,16 @@ if (10)
 
 Tag Array
 
+//////// define
 Tag Array的示例元素
 
-Tag (Recursive)：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。
+
+
+////////
+
 
 End (must be 0)：<!-- md:samp byte -->
 
@@ -463,15 +488,25 @@ if (11)
 
 Int Array
 
+//////// define
 Int Array数组的大小：<!-- md:samp varint -->
 
 - 类型：varint。
 
+
+////////
+
+
+//////// define
 Int Array的示例元素
 
 Int Data：<!-- md:samp varint -->
 
 - 类型：varint。
+
+
+////////
+
 
 
 ///////

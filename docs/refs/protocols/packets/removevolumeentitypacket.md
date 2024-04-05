@@ -35,7 +35,7 @@ digraph RemoveVolumeEntityPacket {
 /// define
 RemoveVolumeEntityPacket
 
-Entity Network Id：[<!-- md:samp EntityNetId -->](refs/protocols/types/entitynetid.md)
+Entity Network Id：[<!-- md:samp EntityNetId -->](../types/entitynetid.md)
 
 - 类型：EntityNetId。
 

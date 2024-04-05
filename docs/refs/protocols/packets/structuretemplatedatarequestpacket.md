@@ -51,11 +51,11 @@ Structure Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Structure Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Structure Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Structure Settings：[<!-- md:samp StructureSettings -->](refs/protocols/types/structuresettings.md)
+Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresettings.md)
 
 - 类型：StructureSettings。
 

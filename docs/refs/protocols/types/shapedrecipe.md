@@ -101,6 +101,7 @@ Recipe Unique Id：<!-- md:samp string -->
 
 Ingredient Grid
 
+//// define
 Ingredient Grid数组的大小
 
 Recipe Width：<!-- md:samp varint -->
@@ -111,25 +112,44 @@ Recipe Height：<!-- md:samp varint -->
 
 - 类型：varint。
 
+
+////
+
+
+//// define
 Ingredient Grid的示例元素
 
-Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
+Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
+
+////
+
+
 Production List
 
+//// define
 Production List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Production List的示例元素
 
-Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/networkiteminstancedescriptor.md)
+Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
 - 类型：NetworkItemInstanceDescriptor。
 
-Recipe ID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
+
+////
+
+
+Recipe ID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
 
 - 类型：mce::UUID。
 

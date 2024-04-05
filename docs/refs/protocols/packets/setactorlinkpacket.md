@@ -29,7 +29,7 @@ digraph SetActorLinkPacket {
 /// define
 SetActorLinkPacket
 
-Link：[<!-- md:samp ActorLink -->](refs/protocols/types/actorlink.md)
+Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
 - 类型：ActorLink。
 

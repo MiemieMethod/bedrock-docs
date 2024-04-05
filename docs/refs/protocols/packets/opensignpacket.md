@@ -35,7 +35,7 @@ digraph OpenSignPacket {
 /// define
 OpenSignPacket
 
-Pos：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

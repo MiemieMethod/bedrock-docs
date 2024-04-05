@@ -110,10 +110,16 @@ Slot：<!-- md:samp int -->
 
 Item Enchants For Given Activation
 
+//// define
 Item Enchants For Given Activation数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Item Enchants For Given Activation的示例元素
 
 Enchant Type：<!-- md:samp byte -->
@@ -123,6 +129,10 @@ Enchant Type：<!-- md:samp byte -->
 Enchant Level：<!-- md:samp byte -->
 
 - 类型：byte。
+
+
+////
+
 
 
 ///

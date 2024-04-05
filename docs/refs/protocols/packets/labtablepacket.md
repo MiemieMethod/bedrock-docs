@@ -45,7 +45,7 @@ Type：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: LabTablePacket::Type
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 

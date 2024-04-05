@@ -39,7 +39,7 @@ Input Lock ComponentData：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
-Server Pos：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Server Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 

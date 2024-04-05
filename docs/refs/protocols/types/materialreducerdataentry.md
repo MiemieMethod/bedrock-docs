@@ -60,10 +60,16 @@ From Item (Key): Input：<!-- md:samp varint -->
 
 Item Ids and Counts
 
+//// define
 Item Ids and Counts数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Item Ids and Counts的示例元素
 
 Item Id：<!-- md:samp varint -->
@@ -73,6 +79,10 @@ Item Id：<!-- md:samp varint -->
 Item Count：<!-- md:samp varint -->
 
 - 类型：varint。
+
+
+////
+
 
 
 ///

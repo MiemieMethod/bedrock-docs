@@ -41,7 +41,7 @@ digraph RespawnPacket {
 /// define
 RespawnPacket
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
@@ -49,7 +49,7 @@ State：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: PlayerRespawnState
 
-Player Runtime Id：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Player Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

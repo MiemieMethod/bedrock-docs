@@ -53,23 +53,23 @@ digraph MobArmorEquipmentPacket {
 /// define
 MobArmorEquipmentPacket
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
-Head：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
+Head：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 
-Torso：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
+Torso：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 
-Legs：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
+Legs：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 
-Feet：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
+Feet：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 

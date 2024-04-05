@@ -70,7 +70,7 @@ Dependency on 'Type'
 ///// define
 if (0)
 
-Unique ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -83,7 +83,7 @@ Unique ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.
 ///// define
 if (1)
 
-Block position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Block position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

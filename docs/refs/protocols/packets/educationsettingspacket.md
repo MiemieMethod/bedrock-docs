@@ -29,7 +29,7 @@ digraph EducationSettingsPacket {
 /// define
 EducationSettingsPacket
 
-Education Level Settings：[<!-- md:samp EducationLevelSettings -->](refs/protocols/types/educationlevelsettings.md)
+Education Level Settings：[<!-- md:samp EducationLevelSettings -->](../types/educationlevelsettings.md)
 
 - 类型：EducationLevelSettings。
 

@@ -136,13 +136,19 @@ Score Packet Type：<!-- md:samp byte -->
 
 Score Packet Info
 
+//// define
 Score Packet Info数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Score Packet Info的示例元素
 
-Id：[<!-- md:samp ScoreboardId -->](refs/protocols/types/scoreboardid.md)
+Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
 - 类型：ScoreboardId。
 
@@ -156,25 +162,25 @@ Score Value：<!-- md:samp int -->
 
 Dependency on 'Is Change Type'
 
-//// tab | if (0)
-///// define
+///// tab | if (0)
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
 - 类型：[No Data]。
 
 
+//////
+
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | if (1)
+////// define
 if (1)
 
 Dependency on 'Identity Definition Type'
 
-////// tab | if (1)
-/////// define
+/////// tab | if (1)
+//////// define
 if (1)
 
 Identity Definition Type：<!-- md:samp byte -->
@@ -186,29 +192,29 @@ Player Unique Id：<!-- md:samp varint64 -->
 - 类型：varint64。
 
 
+////////
+
 ///////
 
-//////
-
-////// tab | if (2)
-/////// define
+/////// tab | if (2)
+//////// define
 if (2)
 
 Identity Definition Type：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: IdentityDefinition::Type
 
-Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
 
+////////
+
 ///////
 
-//////
-
-////// tab | if (3)
-/////// define
+/////// tab | if (3)
+//////// define
 if (3)
 
 Identity Definition Type：<!-- md:samp byte -->
@@ -220,13 +226,17 @@ Fake Player Name：<!-- md:samp string -->
 - 类型：string。
 
 
+////////
+
 ///////
+
+
 
 //////
 
-
-
 /////
+
+
 
 ////
 

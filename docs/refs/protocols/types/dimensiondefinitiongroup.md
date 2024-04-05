@@ -51,19 +51,29 @@ DimensionDefinitionGroup
 
 Definitions
 
+//// define
 Definitions数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Definitions的示例元素
 
 Name String：<!-- md:samp string -->
 
 - 类型：string。
 
-Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](refs/protocols/types/dimensiondefinitiongroup::dimensiondefinition.md)
+Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](../types/dimensiondefinitiongroup::dimensiondefinition.md)
 
 - 类型：DimensionDefinitionGroup::DimensionDefinition。
+
+
+////
+
 
 
 ///

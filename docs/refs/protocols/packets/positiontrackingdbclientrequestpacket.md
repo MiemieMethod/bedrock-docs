@@ -40,7 +40,7 @@ Action：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: PositionTrackingDBClientRequestPacket::Action
 
-Id：[<!-- md:samp PositionTrackingId -->](refs/protocols/types/positiontrackingid.md)
+Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
 - 类型：PositionTrackingId。
 

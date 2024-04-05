@@ -44,15 +44,25 @@ ItemStackResponsePacket
 
 Responses
 
+//// define
 Responses数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Responses的示例元素
 
-Response Info：[<!-- md:samp ItemStackResponseInfo -->](refs/protocols/types/itemstackresponseinfo.md)
+Response Info：[<!-- md:samp ItemStackResponseInfo -->](../types/itemstackresponseinfo.md)
 
 - 类型：ItemStackResponseInfo。
+
+
+////
+
 
 
 ///

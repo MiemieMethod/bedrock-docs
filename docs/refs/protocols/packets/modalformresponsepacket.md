@@ -46,11 +46,11 @@ Form ID：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
-JSON Response：[<!-- md:samp std::optional<class Json::Value> -->](refs/protocols/types/std::optional<class_json::value>.md)
+JSON Response：[<!-- md:samp std::optional<class Json::Value> -->](../types/std::optional<class_json::value>.md)
 
 - 类型：std::optional<class Json::Value>。
 
-Form Cancel Reason：[<!-- md:samp std::optional<enum ModalFormCancelReason> -->](refs/protocols/types/std::optional<enum_modalformcancelreason>.md)
+Form Cancel Reason：[<!-- md:samp std::optional<enum ModalFormCancelReason> -->](../types/std::optional<enum_modalformcancelreason>.md)
 
 - 类型：std::optional<enum ModalFormCancelReason>。
 

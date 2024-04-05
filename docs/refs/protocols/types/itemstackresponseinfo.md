@@ -75,7 +75,7 @@ Result：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: ItemStackNetResult
 
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](refs/protocols/types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
+Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
 
 - 类型：TypedClientNetId<struct ItemStackRequestIdTag,int,0>。
 
@@ -87,15 +87,25 @@ if (0)
 
 Containers
 
+////// define
 Containers数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Containers的示例元素
 
-Container Info：[<!-- md:samp ItemStackResponseContainerInfo -->](refs/protocols/types/itemstackresponsecontainerinfo.md)
+Container Info：[<!-- md:samp ItemStackResponseContainerInfo -->](../types/itemstackresponsecontainerinfo.md)
 
 - 类型：ItemStackResponseContainerInfo。
+
+
+//////
+
 
 
 /////

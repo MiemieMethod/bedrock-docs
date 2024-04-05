@@ -75,10 +75,16 @@ PropertySyncData
 
 Int Entries List
 
+//// define
 Int Entries List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Int Entries List的示例元素
 
 Property Index：<!-- md:samp unsigned varint -->
@@ -89,17 +95,35 @@ Data：<!-- md:samp varint -->
 
 - 类型：varint。
 
+
+////
+
+
 Float Entries List
 
+//// define
 Float Entries List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Float Entries List的示例元素
+
+Property Index：<!-- md:samp unsigned varint -->
+
+- 类型：unsigned varint。
 
 Data：<!-- md:samp float -->
 
 - 类型：float。
+
+
+////
+
 
 
 ///

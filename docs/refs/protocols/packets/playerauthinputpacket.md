@@ -271,15 +271,15 @@ checking\"",
 /// define
 PlayerAuthInputPacket
 
-Player Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
+Player Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
 - 类型：Vec2。
 
-Player Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Player Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
-Move Vector：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
+Move Vector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
 - 类型：Vec2。
 
@@ -320,7 +320,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///// define
 if (1)
 
-VR Gaze Direction：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+VR Gaze Direction：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
@@ -334,7 +334,7 @@ Client tick：<!-- md:samp unsigned varint64 -->
 
 - 类型：unsigned varint64。Which simulation frame client is on. Used to match corrections
 
-Pos Delta：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。Velocity
 
@@ -355,7 +355,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///// define
 if (1)
 
-Item Use Transaction：[<!-- md:samp PackedItemUseLegacyInventoryTransaction -->](refs/protocols/types/packeditemuselegacyinventorytransaction.md)
+Item Use Transaction：[<!-- md:samp PackedItemUseLegacyInventoryTransaction -->](../types/packeditemuselegacyinventorytransaction.md)
 
 - 类型：PackedItemUseLegacyInventoryTransaction。
 
@@ -382,16 +382,22 @@ if (0)：<!-- md:samp [No Data] -->
 ///// define
 if (1)
 
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](refs/protocols/types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
+Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
 
 - 类型：TypedClientNetId<struct ItemStackRequestIdTag,int,0>。
 
 Actions
 
+////// define
 Actions数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Actions的示例元素
 
 Action type：<!-- md:samp byte -->
@@ -402,25 +408,39 @@ Amount：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Source：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/itemstackrequestslotinfo.md)
+Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
 - 类型：ItemStackRequestSlotInfo。
 
-Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/itemstackrequestslotinfo.md)
+Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
 - 类型：ItemStackRequestSlotInfo。
+
+
+//////
+
 
 Strings To Filter
 
+////// define
 Strings To Filter数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Strings To Filter的示例元素
 
 String To Filter：<!-- md:samp string -->
 
 - 类型：string。Indivdiual string that needs checking
+
+
+//////
+
 
 StringsToFilterOrigin：<!-- md:samp int -->
 
@@ -449,7 +469,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///// define
 if (1)
 
-Player Block Actions：[<!-- md:samp PlayerBlockActions -->](refs/protocols/types/playerblockactions.md)
+Player Block Actions：[<!-- md:samp PlayerBlockActions -->](../types/playerblockactions.md)
 
 - 类型：PlayerBlockActions。
 
@@ -476,11 +496,11 @@ if (0)：<!-- md:samp [No Data] -->
 ///// define
 if (1)
 
-Vehicle Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
+Vehicle Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
 - 类型：Vec2。
 
-Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -490,7 +510,7 @@ Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](refs/protocols/types
 ////
 
 
-Analog MoveVector：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
+Analog MoveVector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
 - 类型：Vec2。
 

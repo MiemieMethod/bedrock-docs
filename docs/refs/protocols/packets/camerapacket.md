@@ -35,11 +35,11 @@ digraph CameraPacket {
 /// define
 CameraPacket
 
-Camera ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Camera ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Target Player ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Target Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

@@ -35,7 +35,7 @@ digraph SpawnExperienceOrbPacket {
 /// define
 SpawnExperienceOrbPacket
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 

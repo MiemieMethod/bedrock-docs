@@ -73,7 +73,7 @@ Amount：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Item Stack Net Id：[<!-- md:samp TypedServerNetId<struct ItemStackNetIdTag,int,0> -->](refs/protocols/types/typedservernetid<struct_itemstacknetidtag,int,0>.md)
+Item Stack Net Id：[<!-- md:samp TypedServerNetId<struct ItemStackNetIdTag,int,0> -->](../types/typedservernetid<struct_itemstacknetidtag,int,0>.md)
 
 - 类型：TypedServerNetId<struct ItemStackNetIdTag,int,0>。
 

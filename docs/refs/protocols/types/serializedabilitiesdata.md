@@ -74,15 +74,25 @@ mCommandPermissions：<!-- md:samp byte -->
 
 Layers
 
+//// define
 Layers数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Layers的示例元素
 
-layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](refs/protocols/types/serializedabilitiesdata::serializedlayer.md)
+layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](../types/serializedabilitiesdata::serializedlayer.md)
 
 - 类型：SerializedAbilitiesData::SerializedLayer。
+
+
+////
+
 
 
 ///

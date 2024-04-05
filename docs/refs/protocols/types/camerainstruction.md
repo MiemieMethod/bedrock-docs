@@ -45,15 +45,15 @@ notes: \"\"",
 /// define
 CameraInstruction
 
-Set：[<!-- md:samp std::optional<struct CameraInstruction::SetInstruction> -->](refs/protocols/types/std::optional<struct_camerainstruction::setinstruction>.md)
+Set：[<!-- md:samp std::optional<struct CameraInstruction::SetInstruction> -->](../types/std::optional<struct_camerainstruction::setinstruction>.md)
 
 - 类型：std::optional<struct CameraInstruction::SetInstruction>。
 
-Clear：[<!-- md:samp std::optional<bool> -->](refs/protocols/types/std::optional<bool>.md)
+Clear：[<!-- md:samp std::optional<bool> -->](../types/std::optional<bool>.md)
 
 - 类型：std::optional<bool>。
 
-Fade：[<!-- md:samp std::optional<struct CameraInstruction::FadeInstruction> -->](refs/protocols/types/std::optional<struct_camerainstruction::fadeinstruction>.md)
+Fade：[<!-- md:samp std::optional<struct CameraInstruction::FadeInstruction> -->](../types/std::optional<struct_camerainstruction::fadeinstruction>.md)
 
 - 类型：std::optional<struct CameraInstruction::FadeInstruction>。
 

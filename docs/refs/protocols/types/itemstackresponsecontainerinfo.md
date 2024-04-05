@@ -54,15 +54,25 @@ Open Container Net Id：<!-- md:samp byte -->
 
 Slots
 
+//// define
 Slots数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Slots的示例元素
 
-Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](refs/protocols/types/itemstackresponseslotinfo.md)
+Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](../types/itemstackresponseslotinfo.md)
 
 - 类型：ItemStackResponseSlotInfo。
+
+
+////
+
 
 
 ///

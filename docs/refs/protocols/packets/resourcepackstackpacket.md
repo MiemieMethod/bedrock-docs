@@ -111,10 +111,16 @@ Texture Pack Required：<!-- md:samp bool -->
 
 Add-On List
 
+//// define
 Add-On List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Add-On List的示例元素
 
 ID：<!-- md:samp string -->
@@ -129,19 +135,45 @@ Sub Pack Name：<!-- md:samp string -->
 
 - 类型：string。
 
+
+////
+
+
 Texture Pack List
 
+//// define
 Texture Pack List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Texture Pack List的示例元素
 
-Base Game Version：[<!-- md:samp BaseGameVersion -->](refs/protocols/types/basegameversion.md)
+ID：<!-- md:samp string -->
+
+- 类型：string。
+
+Version：<!-- md:samp string -->
+
+- 类型：string。
+
+Sub Pack Name：<!-- md:samp string -->
+
+- 类型：string。
+
+
+////
+
+
+Base Game Version：[<!-- md:samp BaseGameVersion -->](../types/basegameversion.md)
 
 - 类型：BaseGameVersion。For clients to be able to set their stack to the right version.
 
-Experiments：[<!-- md:samp Experiments -->](refs/protocols/types/experiments.md)
+Experiments：[<!-- md:samp Experiments -->](../types/experiments.md)
 
 - 类型：Experiments。Refer to the Experiments type for how to serialize
 

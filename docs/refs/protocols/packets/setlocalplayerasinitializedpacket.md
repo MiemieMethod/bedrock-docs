@@ -29,7 +29,7 @@ digraph SetLocalPlayerAsInitializedPacket {
 /// define
 SetLocalPlayerAsInitializedPacket
 
-Player ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Player ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

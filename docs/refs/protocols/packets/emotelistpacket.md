@@ -48,21 +48,31 @@ digraph EmoteListPacket {
 /// define
 EmoteListPacket
 
-Runtime id：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
 Emote piece ids
 
+//// define
 Emote piece ids数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Emote piece ids的示例元素
 
-Piece id：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
+Piece id：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
 
 - 类型：mce::UUID。
+
+
+////
+
 
 
 ///

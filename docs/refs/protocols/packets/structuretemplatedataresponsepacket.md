@@ -103,7 +103,7 @@ Success：<!-- md:samp bool -->
 
 - 类型：bool。Bool set to true, indicating success.
 
-Structure's NBT：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Structure's NBT：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。
 

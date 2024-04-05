@@ -206,11 +206,11 @@ key (component name):[label,value] } (Can be left empty.)\"",
 /// define
 StartGamePacket
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
@@ -218,15 +218,15 @@ Actor Game Type：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: GameType
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
-Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
+Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
 - 类型：Vec2。
 
-Settings：[<!-- md:samp LevelSettings -->](refs/protocols/types/levelsettings.md)
+Settings：[<!-- md:samp LevelSettings -->](../types/levelsettings.md)
 
 - 类型：LevelSettings。
 
@@ -246,7 +246,7 @@ Is Trial?：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Movement Settings：[<!-- md:samp SyncedPlayerMovementSettings -->](refs/protocols/types/syncedplayermovementsettings.md)
+Movement Settings：[<!-- md:samp SyncedPlayerMovementSettings -->](../types/syncedplayermovementsettings.md)
 
 - 类型：SyncedPlayerMovementSettings。
 
@@ -260,31 +260,51 @@ Enchantment Seed：<!-- md:samp varint -->
 
 Block Properties
 
+//// define
 Block Properties数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Block Properties的示例元素
 
 Block Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Block Definition：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。Map of block states. { key (component 'name'):[label,value] } (Can be left empty.)
 
+
+////
+
+
 Item List - every vanilla item must be present
 
+//// define
 Item List - every vanilla item must be present数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Item List - every vanilla item must be present的示例元素
 
-Item Info：[<!-- md:samp ItemData -->](refs/protocols/types/itemdata.md)
+Item Info：[<!-- md:samp ItemData -->](../types/itemdata.md)
 
 - 类型：ItemData。See: ItemData Type
+
+
+////
+
 
 Multiplayer Correlation Id：<!-- md:samp string -->
 
@@ -298,7 +318,7 @@ Server version：<!-- md:samp string -->
 
 - 类型：string。For telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
 
-Player Property Data：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Player Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。like SyncActorPropertyPacket, specifically for minecraft:player properties
 
@@ -306,7 +326,7 @@ Server Block Type Registry Checksum：<!-- md:samp unsigned int64 -->
 
 - 类型：unsigned int64。Checksum for detecting mismatches in block types between server and client.
 
-World Template ID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
+World Template ID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
 
 - 类型：mce::UUID。
 
@@ -318,7 +338,7 @@ BlockNetworkIds Are Hashes：<!-- md:samp bool -->
 
 - 类型：bool。
 
-NetworkPermissions：[<!-- md:samp NetworkPermissions -->](refs/protocols/types/networkpermissions.md)
+NetworkPermissions：[<!-- md:samp NetworkPermissions -->](../types/networkpermissions.md)
 
 - 类型：NetworkPermissions。
 

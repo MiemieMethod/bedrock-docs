@@ -71,15 +71,29 @@ Number of obtained blobs：<!-- md:samp unsigned varint -->
 
 Missing Blobs
 
+//// define
 Missing Blobs的示例元素
 
 Blob Id：<!-- md:samp unsigned int64 -->
 
 - 类型：unsigned int64。
 
+
+////
+
+
 Obtained Blobs
 
+//// define
 Obtained Blobs的示例元素
+
+Blob Id：<!-- md:samp unsigned int64 -->
+
+- 类型：unsigned int64。
+
+
+////
+
 
 
 ///

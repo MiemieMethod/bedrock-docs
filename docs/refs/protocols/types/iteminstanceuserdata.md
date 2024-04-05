@@ -90,29 +90,53 @@ User Data Serialization Version：<!-- md:samp byte -->
 
 - 类型：byte。Currently 1
 
-User Data Tag(s)：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。See: @CompoundTag.html#Compound Tag@ .
 
 Can Place On Blocks
 
+//// define
 Can Place On Blocks数组的大小：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
+
+////
+
+
+//// define
 Can Place On Blocks的示例元素
 
 Block Raw Name ID：<!-- md:samp string -->
 
 - 类型：string。
 
+
+////
+
+
 Can Destroy Blocks
 
+//// define
 Can Destroy Blocks数组的大小：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
+
+////
+
+
+//// define
 Can Destroy Blocks的示例元素
+
+Block Raw Name ID：<!-- md:samp string -->
+
+- 类型：string。
+
+
+////
+
 
 
 ///

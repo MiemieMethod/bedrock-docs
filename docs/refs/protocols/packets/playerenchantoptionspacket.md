@@ -64,17 +64,23 @@ PlayerEnchantOptionsPacket
 
 Options
 
+//// define
 Options数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Options的示例元素
 
 Cost：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
-Enchants：[<!-- md:samp ItemEnchants -->](refs/protocols/types/itemenchants.md)
+Enchants：[<!-- md:samp ItemEnchants -->](../types/itemenchants.md)
 
 - 类型：ItemEnchants。
 
@@ -82,9 +88,13 @@ Enchant Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Enchant Net Id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](refs/protocols/types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
+Enchant Net Id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
 - 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+
+
+////
+
 
 
 ///

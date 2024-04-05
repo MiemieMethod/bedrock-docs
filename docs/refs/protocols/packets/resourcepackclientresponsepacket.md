@@ -54,15 +54,25 @@ Response：<!-- md:samp byte -->
 
 Downloading Packs
 
+//// define
 Downloading Packs数组的大小：<!-- md:samp unsigned short -->
 
 - 类型：unsigned short。
 
+
+////
+
+
+//// define
 Downloading Packs的示例元素
 
 Pack Name：<!-- md:samp string -->
 
 - 类型：string。
+
+
+////
+
 
 
 ///

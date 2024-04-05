@@ -139,7 +139,7 @@ Dependency on 'Player Action Type'
 ///// define
 if (26)
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -156,7 +156,7 @@ Facing：<!-- md:samp varint -->
 ///// define
 if (0)
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -173,7 +173,7 @@ Facing：<!-- md:samp varint -->
 ///// define
 if (1)
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -190,7 +190,7 @@ Facing：<!-- md:samp varint -->
 ///// define
 if (18)
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -207,7 +207,7 @@ Facing：<!-- md:samp varint -->
 ///// define
 if (27)
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -224,7 +224,7 @@ Facing：<!-- md:samp varint -->
 ///// define
 if (2)
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 

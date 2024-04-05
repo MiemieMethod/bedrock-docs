@@ -130,7 +130,7 @@ Debug Marker Text：<!-- md:samp string -->
 
 - 类型：string。
 
-Debug Marker Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Debug Marker Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 

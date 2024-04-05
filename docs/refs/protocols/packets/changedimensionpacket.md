@@ -46,7 +46,7 @@ Dimension ID：<!-- md:samp varint -->
 
 - 类型：varint。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 

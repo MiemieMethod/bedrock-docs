@@ -206,10 +206,16 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 
 Behavior Packs
 
+//// define
 Behavior Packs数组的大小：<!-- md:samp unsigned short -->
 
 - 类型：unsigned short。
 
+
+////
+
+
+//// define
 Behavior Packs的示例元素
 
 ID：<!-- md:samp string -->
@@ -236,24 +242,76 @@ Content Identity：<!-- md:samp string -->
 
 - 类型：string。
 
+Has Scripts：<!-- md:samp bool -->
+
+- 类型：bool。
+
+
+////
+
+
 Resource Packs
 
+//// define
 Resource Packs数组的大小：<!-- md:samp unsigned short -->
 
 - 类型：unsigned short。
 
+
+////
+
+
+//// define
 Resource Packs的示例元素
+
+ID：<!-- md:samp string -->
+
+- 类型：string。
+
+Version：<!-- md:samp string -->
+
+- 类型：string。
+
+Size：<!-- md:samp unsigned int64 -->
+
+- 类型：unsigned int64。
+
+Content Key：<!-- md:samp string -->
+
+- 类型：string。
+
+Sub Pack Name：<!-- md:samp string -->
+
+- 类型：string。
+
+Content Identity：<!-- md:samp string -->
+
+- 类型：string。
+
+Has Scripts：<!-- md:samp bool -->
+
+- 类型：bool。
 
 Is Ray Tracing Capable：<!-- md:samp bool -->
 
 - 类型：bool。
 
+
+////
+
+
 CDN URLs
 
+//// define
 CDN URLs数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 CDN URLs的示例元素
 
 First：<!-- md:samp string -->
@@ -263,6 +321,10 @@ First：<!-- md:samp string -->
 Second：<!-- md:samp string -->
 
 - 类型：string。
+
+
+////
+
 
 
 ///

@@ -107,51 +107,91 @@ CraftingDataPacket
 
 Crafting Entries
 
+//// define
 Crafting Entries数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Crafting Entries的示例元素
 
-Crafting Entry：[<!-- md:samp CraftingDataEntry -->](refs/protocols/types/craftingdataentry.md)
+Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry.md)
 
 - 类型：CraftingDataEntry。
 
+
+////
+
+
 Potion Mixes
 
+//// define
 Potion Mixes数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Potion Mixes的示例元素
 
-Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](refs/protocols/types/potionmixdataentry.md)
+Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdataentry.md)
 
 - 类型：PotionMixDataEntry。
 
+
+////
+
+
 Container Mixes
 
+//// define
 Container Mixes数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Container Mixes的示例元素
 
-Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](refs/protocols/types/containermixdataentry.md)
+Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containermixdataentry.md)
 
 - 类型：ContainerMixDataEntry。
 
+
+////
+
+
 Material Reducers
 
+//// define
 Material Reducers数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Material Reducers的示例元素
 
-Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](refs/protocols/types/materialreducerdataentry.md)
+Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](../types/materialreducerdataentry.md)
 
 - 类型：MaterialReducerDataEntry。
+
+
+////
+
 
 Clear Recipes：<!-- md:samp bool -->
 

@@ -68,10 +68,16 @@ Experiments
 
 Experiments array
 
+//// define
 Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
+
+////
+
+
+//// define
 Experiments array的示例元素
 
 Toggle Name：<!-- md:samp string -->
@@ -85,6 +91,10 @@ Enabled：<!-- md:samp bool -->
 Always On Name：<!-- md:samp string -->
 
 - 类型：string。
+
+
+////
+
 
 Were Any Experiments Ever Toggled：<!-- md:samp bool -->
 

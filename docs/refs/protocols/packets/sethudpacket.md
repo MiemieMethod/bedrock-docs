@@ -50,15 +50,25 @@ SetHudPacket
 
 Hud Element List
 
+//// define
 Hud Element List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Hud Element List的示例元素
 
 Hud Element：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: HudElement
+
+
+////
+
 
 isHudVisible：<!-- md:samp varint -->
 

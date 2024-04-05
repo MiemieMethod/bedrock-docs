@@ -144,11 +144,11 @@ std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<c
 /// define
 AddActorPacket
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
@@ -156,15 +156,15 @@ Actor Type：<!-- md:samp string -->
 
 - 类型：string。
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
-Velocity：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
-Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
+Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
 - 类型：Vec2。
 
@@ -178,10 +178,16 @@ Y Body Rotation：<!-- md:samp float -->
 
 Attributes List
 
+//// define
 Attributes List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Attributes List的示例元素
 
 Attribute Name：<!-- md:samp string -->
@@ -200,25 +206,39 @@ Max Value：<!-- md:samp float -->
 
 - 类型：float。
 
-Actor Data：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](refs/protocols/types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
+
+////
+
+
+Actor Data：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
 
 - 类型：std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >。
 
-Synched Properties：[<!-- md:samp PropertySyncData -->](refs/protocols/types/propertysyncdata.md)
+Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
 - 类型：PropertySyncData。
 
 Actor Links
 
+//// define
 Actor Links数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Actor Links的示例元素
 
-Link：[<!-- md:samp ActorLink -->](refs/protocols/types/actorlink.md)
+Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
 - 类型：ActorLink。
+
+
+////
+
 
 
 ///

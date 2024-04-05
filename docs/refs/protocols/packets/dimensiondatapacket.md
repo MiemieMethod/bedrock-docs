@@ -29,7 +29,7 @@ digraph DimensionDataPacket {
 /// define
 DimensionDataPacket
 
-Dimension Definition Group：[<!-- md:samp DimensionDefinitionGroup -->](refs/protocols/types/dimensiondefinitiongroup.md)
+Dimension Definition Group：[<!-- md:samp DimensionDefinitionGroup -->](../types/dimensiondefinitiongroup.md)
 
 - 类型：DimensionDefinitionGroup。
 

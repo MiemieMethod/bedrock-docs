@@ -403,38 +403,71 @@ AvailableCommandsPacket
 
 Enum Values
 
+//// define
 Enum Values数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Enum Values的示例元素
 
 Value：<!-- md:samp string -->
 
 - 类型：string。
 
+
+////
+
+
+//// define
+Enum Values的示例元素
+
 Chained Subcommand Values：<!-- md:samp string -->
 
 - 类型：string。
 
+
+////
+
+
 Post Fixes
 
+//// define
 Post Fixes数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Post Fixes的示例元素
 
 Post Fix：<!-- md:samp string -->
 
 - 类型：string。
 
+
+////
+
+
 Enum Data
 
+//// define
 Enum Data数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Enum Data的示例元素
 
 Name：<!-- md:samp string -->
@@ -443,27 +476,52 @@ Name：<!-- md:samp string -->
 
 Values
 
+///// define
 Values数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Values的示例元素
 
 Dependency on 'Enum Values Size <= 256'
-
-//// tab | if (0)
-///// define
-if (0)
-
-Dependency on 'Enum Values Size <= 65536'
 
 ////// tab | if (0)
 /////// define
 if (0)
 
+Dependency on 'Enum Values Size <= 65536'
+
+//////// tab | if (0)
+///////// define
+if (0)
+
 Enum Value：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
+
+
+/////////
+
+////////
+
+//////// tab | if (1)
+///////// define
+if (1)
+
+Enum Value：<!-- md:samp unsigned short -->
+
+- 类型：unsigned short。
+
+
+/////////
+
+////////
+
 
 
 ///////
@@ -474,9 +532,9 @@ Enum Value：<!-- md:samp unsigned int -->
 /////// define
 if (1)
 
-Enum Value：<!-- md:samp unsigned short -->
+Enum Value：<!-- md:samp byte -->
 
-- 类型：unsigned short。
+- 类型：byte。
 
 
 ///////
@@ -487,28 +545,23 @@ Enum Value：<!-- md:samp unsigned short -->
 
 /////
 
-////
 
-//// tab | if (1)
-///// define
-if (1)
-
-Enum Value：<!-- md:samp byte -->
-
-- 类型：byte。
-
-
-/////
 
 ////
 
 
 Chained Subcommand Data
 
+//// define
 Chained Subcommand Data数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Chained Subcommand Data的示例元素
 
 SubCommand Name：<!-- md:samp string -->
@@ -517,10 +570,16 @@ SubCommand Name：<!-- md:samp string -->
 
 SubCommand values
 
+///// define
 SubCommand values数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 SubCommand values的示例元素
 
 SubCommand First Value：<!-- md:samp unsigned short -->
@@ -531,13 +590,31 @@ SubCommand Second Value：<!-- md:samp unsigned short -->
 
 - 类型：unsigned short。
 
+
+/////
+
+
+
+////
+
+
 Commands
 
+//// define
 Commands数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Commands的示例元素
+
+Name：<!-- md:samp string -->
+
+- 类型：string。
 
 Description：<!-- md:samp string -->
 
@@ -557,22 +634,38 @@ Alias Enum：<!-- md:samp int -->
 
 CommandData Chained Subcommand Indexes
 
+///// define
 CommandData Chained Subcommand Indexes数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 CommandData Chained Subcommand Indexes的示例元素
 
 Index：<!-- md:samp unsigned short -->
 
 - 类型：unsigned short。
 
+
+/////
+
+
 Overloads
 
+///// define
 Overloads数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Overloads的示例元素
 
 isChaining：<!-- md:samp bool -->
@@ -581,11 +674,21 @@ isChaining：<!-- md:samp bool -->
 
 Parameter Data
 
+////// define
 Parameter Data数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Parameter Data的示例元素
+
+Name：<!-- md:samp string -->
+
+- 类型：string。
 
 Parse Symbol：<!-- md:samp unsigned int -->
 
@@ -599,12 +702,30 @@ Options：<!-- md:samp byte -->
 
 - 类型：byte。
 
+
+//////
+
+
+
+/////
+
+
+
+////
+
+
 Soft Enums
 
+//// define
 Soft Enums数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Soft Enums的示例元素
 
 Enum Name：<!-- md:samp string -->
@@ -613,18 +734,42 @@ Enum Name：<!-- md:samp string -->
 
 Enum Options
 
+///// define
 Enum Options数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Enum Options的示例元素
+
+Value：<!-- md:samp string -->
+
+- 类型：string。
+
+
+/////
+
+
+
+////
+
 
 Constraints
 
+//// define
 Constraints数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Constraints的示例元素
 
 Enum Value Symbol：<!-- md:samp unsigned int -->
@@ -637,15 +782,29 @@ Enum Symbol：<!-- md:samp unsigned int -->
 
 Constraint Indices
 
+///// define
 Constraint Indices数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Constraint Indices的示例元素
 
 Semantic Constraint Index：<!-- md:samp byte -->
 
 - 类型：byte。Index of the semantic constraint within the command parser.
+
+
+/////
+
+
+
+////
+
 
 
 ///

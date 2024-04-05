@@ -65,7 +65,7 @@ if and only if it's a Mob type, stored as an integer\"",
 /// define
 MoveActorAbsoluteData
 
-ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。The runtime 'id' of the actor being moved
 
@@ -73,7 +73,7 @@ Header：<!-- md:samp byte -->
 
 - 类型：byte。Header bits describing the status of the actor, see additional documentation in the supplemental documentation folder
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。X/Y/Z coordinates of the position of the actor, each being a 4 byte float
 

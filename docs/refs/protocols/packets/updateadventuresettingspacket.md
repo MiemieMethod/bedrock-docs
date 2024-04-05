@@ -29,7 +29,7 @@ digraph UpdateAdventureSettingsPacket {
 /// define
 UpdateAdventureSettingsPacket
 
-Adventure Settings：[<!-- md:samp AdventureSettings -->](refs/protocols/types/adventuresettings.md)
+Adventure Settings：[<!-- md:samp AdventureSettings -->](../types/adventuresettings.md)
 
 - 类型：AdventureSettings。
 

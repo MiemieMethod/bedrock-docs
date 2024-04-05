@@ -328,10 +328,16 @@ Skin Image Image Bytes：<!-- md:samp string -->
 
 Animations
 
+//// define
 Skin Animated Images Size：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。Animation count
 
+
+////
+
+
+//// define
 Animations的示例元素
 
 Image Width：<!-- md:samp unsigned int -->
@@ -357,6 +363,10 @@ Frame Count：<!-- md:samp float -->
 Animation Expression：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。enumeration: persona::AnimationExpression
+
+
+////
+
 
 CapeImage Width：<!-- md:samp unsigned int -->
 
@@ -400,10 +410,16 @@ Skin color：<!-- md:samp string -->
 
 Persona Pieces
 
+//// define
 Persona pieces size：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
+
+////
+
+
+//// define
 Persona Pieces的示例元素
 
 Piece Id：<!-- md:samp string -->
@@ -426,21 +442,53 @@ Product Id：<!-- md:samp string -->
 
 - 类型：string。
 
+
+////
+
+
 Piece Tint Colors
 
+//// define
 Tint Colors Size：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
+
+////
+
+
+//// define
 Piece Tint Colors的示例元素
 
+Piece Type：<!-- md:samp string -->
+
+- 类型：string。
+
+Piece Tint Colors
+
+///// define
 Piece Type Tint Colors Size：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
+
+/////
+
+
+///// define
+Piece Tint Colors的示例元素
+
 Tint Color：<!-- md:samp string -->
 
 - 类型：string。To hex string
+
+
+/////
+
+
+
+////
+
 
 Is Premium Skin：<!-- md:samp bool -->
 

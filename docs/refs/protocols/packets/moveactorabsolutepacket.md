@@ -29,7 +29,7 @@ digraph MoveActorAbsolutePacket {
 /// define
 MoveActorAbsolutePacket
 
-Move Data：[<!-- md:samp MoveActorAbsoluteData -->](refs/protocols/types/moveactorabsolutedata.md)
+Move Data：[<!-- md:samp MoveActorAbsoluteData -->](../types/moveactorabsolutedata.md)
 
 - 类型：MoveActorAbsoluteData。
 

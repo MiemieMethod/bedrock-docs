@@ -54,15 +54,25 @@ Packet Type：<!-- md:samp unsigned int -->
 
 Unlocked Recipes List
 
+//// define
 Unlocked Recipes List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Unlocked Recipes List的示例元素
 
 Recipe：<!-- md:samp string -->
 
 - 类型：string。
+
+
+////
+
 
 
 ///

@@ -29,7 +29,7 @@ digraph EduUriResourcePacket {
 /// define
 EduUriResourcePacket
 
-Edu Shared URI Resource：[<!-- md:samp EduSharedUriResource -->](refs/protocols/types/edushareduriresource.md)
+Edu Shared URI Resource：[<!-- md:samp EduSharedUriResource -->](../types/edushareduriresource.md)
 
 - 类型：EduSharedUriResource。
 

@@ -44,15 +44,25 @@ InventoryTransaction
 
 Actions
 
+//// define
 Actions数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Actions的示例元素
 
-Action：[<!-- md:samp InventoryAction -->](refs/protocols/types/inventoryaction.md)
+Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 
 - 类型：InventoryAction。
+
+
+////
+
 
 
 ///

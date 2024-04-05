@@ -161,7 +161,7 @@ recurseId: -1, attributes: 256, notes: \"std::vector<std::unique_ptr<DataItem>>\
 /// define
 AddPlayerPacket
 
-UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
+UUID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
 
 - 类型：mce::UUID。
 
@@ -169,7 +169,7 @@ Player Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
@@ -177,15 +177,15 @@ Platform Chat Id：<!-- md:samp string -->
 
 - 类型：string。
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
-Velocity：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
-Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
+Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
 - 类型：Vec2。
 
@@ -193,7 +193,7 @@ Y-Head Rotation：<!-- md:samp float -->
 
 - 类型：float。
 
-Carried Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
+Carried Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 
@@ -207,7 +207,7 @@ Dependency on 'SynchedActorDataEntityWrapper exist?'
 ///// define
 if (0)
 
-Unpack：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](refs/protocols/types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
+Unpack：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
 
 - 类型：std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >。std::vector<std::unique_ptr<DataItem>>
 
@@ -220,7 +220,7 @@ Unpack：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct s
 ///// define
 if (1)
 
-Entity Data PackAll：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](refs/protocols/types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
+Entity Data PackAll：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
 
 - 类型：std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >。std::vector<std::unique_ptr<DataItem>>
 
@@ -230,25 +230,35 @@ Entity Data PackAll：[<!-- md:samp std::vector<class std::unique_ptr<class Data
 ////
 
 
-Synched Properties：[<!-- md:samp PropertySyncData -->](refs/protocols/types/propertysyncdata.md)
+Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
 - 类型：PropertySyncData。
 
-AbilitiesData：[<!-- md:samp SerializedAbilitiesData -->](refs/protocols/types/serializedabilitiesdata.md)
+AbilitiesData：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedabilitiesdata.md)
 
 - 类型：SerializedAbilitiesData。
 
 Actor Links
 
+//// define
 Actor Links数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Actor Links的示例元素
 
-Link：[<!-- md:samp ActorLink -->](refs/protocols/types/actorlink.md)
+Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
 - 类型：ActorLink。
+
+
+////
+
 
 Device Id：<!-- md:samp string -->
 

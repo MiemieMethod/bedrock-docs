@@ -43,7 +43,7 @@ Count：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
-Item：[<!-- md:samp DataItem -->](refs/protocols/types/dataitem.md)
+Item：[<!-- md:samp DataItem -->](../types/dataitem.md)
 
 - 类型：DataItem。
 

@@ -152,7 +152,7 @@ ActionType\"",
 /// define
 PackedItemUseLegacyInventoryTransaction
 
-ID：[<!-- md:samp TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0> -->](refs/protocols/types/typedclientnetid<struct_itemstacklegacyrequestidtag,int,0>.md)
+ID：[<!-- md:samp TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstacklegacyrequestidtag,int,0>.md)
 
 - 类型：TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>。
 
@@ -175,10 +175,16 @@ if (1)
 
 Container Slots
 
+////// define
 Container Slots数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Container Slots的示例元素
 
 Container Enum Name：<!-- md:samp byte -->
@@ -187,15 +193,29 @@ Container Enum Name：<!-- md:samp byte -->
 
 Slots
 
+/////// define
 Slots数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+///////
+
+
+/////// define
 Slots的示例元素
 
 Slot：<!-- md:samp byte -->
 
 - 类型：byte。
+
+
+///////
+
+
+
+//////
+
 
 
 /////
@@ -205,21 +225,31 @@ Slot：<!-- md:samp byte -->
 
 Actions
 
+//// define
 Actions数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Actions的示例元素
 
-Action：[<!-- md:samp InventoryAction -->](refs/protocols/types/inventoryaction.md)
+Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 
 - 类型：InventoryAction。
+
+
+////
+
 
 Action Type：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。enumeration: ItemUseInventoryTransaction::ActionType
 
-Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
@@ -231,15 +261,15 @@ Slot：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
+Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 
-From Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+From Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
-Click Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Click Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 

@@ -41,11 +41,11 @@ digraph SetActorMotionPacket {
 /// define
 SetActorMotionPacket
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
-Motion：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Motion：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 

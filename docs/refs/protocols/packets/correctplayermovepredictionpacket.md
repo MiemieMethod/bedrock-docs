@@ -54,11 +54,11 @@ the tick in the Player Auth Input packet\"",
 /// define
 CorrectPlayerMovePredictionPacket
 
-Pos：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。Corrected position
 
-Pos Delta：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。Corrected velocity
 

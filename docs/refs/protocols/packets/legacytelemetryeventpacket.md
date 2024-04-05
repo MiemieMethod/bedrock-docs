@@ -519,7 +519,7 @@ POIBlockInteractionType\"",
 /// define
 LegacyTelemetryEventPacket
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

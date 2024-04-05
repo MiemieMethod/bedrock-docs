@@ -29,7 +29,7 @@ digraph UpdateAbilitiesPacket {
 /// define
 UpdateAbilitiesPacket
 
-Data：[<!-- md:samp SerializedAbilitiesData -->](refs/protocols/types/serializedabilitiesdata.md)
+Data：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedabilitiesdata.md)
 
 - 类型：SerializedAbilitiesData。
 

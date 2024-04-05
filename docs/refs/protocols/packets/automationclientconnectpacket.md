@@ -29,7 +29,7 @@ digraph AutomationClientConnectPacket {
 /// define
 AutomationClientConnectPacket
 
-Web Socket Data：[<!-- md:samp WebSocketPacketData -->](refs/protocols/types/websocketpacketdata.md)
+Web Socket Data：[<!-- md:samp WebSocketPacketData -->](../types/websocketpacketdata.md)
 
 - 类型：WebSocketPacketData。
 

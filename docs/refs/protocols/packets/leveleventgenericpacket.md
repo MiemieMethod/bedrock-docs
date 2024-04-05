@@ -40,7 +40,7 @@ Event ID：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: LevelEvent
 
-Event Data：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
+Event Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 - 类型：CompoundTag。Note about Event ID: Legacy particles use the @enums.html#Particle Type@  enum |ed with ParticleLegacyEvent(0x4000)
 

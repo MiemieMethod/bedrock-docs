@@ -75,31 +75,37 @@ Scoreboard Identity Packet Type：<!-- md:samp byte -->
 
 Identity Info
 
+//// define
 Identity Info数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Identity Info的示例元素
 
-Scoreboard Id：[<!-- md:samp ScoreboardId -->](refs/protocols/types/scoreboardid.md)
+Scoreboard Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
 - 类型：ScoreboardId。
 
 Dependency on 'Is Update Type'
 
-//// tab | if (0)
-///// define
+///// tab | if (0)
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
 - 类型：[No Data]。
 
 
+//////
+
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | if (1)
+////// define
 if (1)
 
 Player Unique Id：<!-- md:samp varint64 -->
@@ -107,7 +113,11 @@ Player Unique Id：<!-- md:samp varint64 -->
 - 类型：varint64。
 
 
+//////
+
 /////
+
+
 
 ////
 

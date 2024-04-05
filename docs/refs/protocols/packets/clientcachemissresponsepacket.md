@@ -51,10 +51,16 @@ ClientCacheMissResponsePacket
 
 Missing Blobs
 
+//// define
 Number of missing blobs：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Missing Blobs的示例元素
 
 Blob Id：<!-- md:samp unsigned int64 -->
@@ -64,6 +70,10 @@ Blob Id：<!-- md:samp unsigned int64 -->
 Blob Data：<!-- md:samp string -->
 
 - 类型：string。Subchunk data (see https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37) plus biome data
+
+
+////
+
 
 
 ///

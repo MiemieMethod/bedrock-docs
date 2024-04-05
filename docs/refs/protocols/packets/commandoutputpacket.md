@@ -106,7 +106,7 @@ digraph CommandOutputPacket {
 /// define
 CommandOutputPacket
 
-Origin Data：[<!-- md:samp CommandOriginData -->](refs/protocols/types/commandorigindata.md)
+Origin Data：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
 - 类型：CommandOriginData。
 
@@ -120,10 +120,16 @@ Success Count：<!-- md:samp unsigned varint -->
 
 Output Messages
 
+//// define
 Output Messages数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Output Messages的示例元素
 
 Successful?：<!-- md:samp bool -->
@@ -136,15 +142,29 @@ Message ID：<!-- md:samp string -->
 
 Parameters
 
+///// define
 Parameters数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Parameters的示例元素
 
 Param：<!-- md:samp string -->
 
 - 类型：string。
+
+
+/////
+
+
+
+////
+
 
 Dependency on 'Output Type == DataSet'
 

@@ -111,22 +111,34 @@ ItemStackRequestPacket
 
 Requests
 
+//// define
 Requests数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Requests的示例元素
 
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](refs/protocols/types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
+Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
 
 - 类型：TypedClientNetId<struct ItemStackRequestIdTag,int,0>。
 
 Actions
 
+///// define
 Actions数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Actions的示例元素
 
 Action type：<!-- md:samp byte -->
@@ -137,29 +149,47 @@ Amount：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Source：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/itemstackrequestslotinfo.md)
+Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
 - 类型：ItemStackRequestSlotInfo。
 
-Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/itemstackrequestslotinfo.md)
+Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
 - 类型：ItemStackRequestSlotInfo。
+
+
+/////
+
 
 Strings To Filter
 
+///// define
 Strings To Filter数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Strings To Filter的示例元素
 
 String To Filter：<!-- md:samp string -->
 
 - 类型：string。Indivdiual string that needs checking
 
+
+/////
+
+
 StringsToFilterOrigin：<!-- md:samp int -->
 
 - 类型：int。enumeration: TextProcessingEventOrigin
+
+
+////
+
 
 
 ///

@@ -44,15 +44,25 @@ PurchaseReceiptPacket
 
 Purchase Receipts
 
+//// define
 Purchase Receipts数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Purchase Receipts的示例元素
 
 Proof of Purchase：<!-- md:samp string -->
 
 - 类型：string。
+
+
+////
+
 
 
 ///

@@ -127,16 +127,22 @@ digraph UpdateAttributesPacket {
 /// define
 UpdateAttributesPacket
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
 Attribute List
 
+//// define
 Attribute List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Attribute List的示例元素
 
 Min Value：<!-- md:samp float -->
@@ -161,10 +167,16 @@ Attribute Name：<!-- md:samp string -->
 
 Attribute Modifier
 
+///// define
 Attribute Modifier数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+/////
+
+
+///// define
 Attribute Modifier的示例元素
 
 ID：<!-- md:samp string -->
@@ -190,6 +202,14 @@ Operand：<!-- md:samp int -->
 isSerializable?：<!-- md:samp bool -->
 
 - 类型：bool。
+
+
+/////
+
+
+
+////
+
 
 Count of ticks since simulation started：<!-- md:samp unsigned varint64 -->
 

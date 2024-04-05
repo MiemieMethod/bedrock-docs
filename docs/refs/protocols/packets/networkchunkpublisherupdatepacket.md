@@ -60,7 +60,7 @@ digraph NetworkChunkPublisherUpdatePacket {
 /// define
 NetworkChunkPublisherUpdatePacket
 
-New position for view：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+New position for view：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -74,15 +74,25 @@ Server Built Chunks Size：<!-- md:samp unsigned int -->
 
 Server Built Chunks List
 
+//// define
 Server Built Chunks List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Server Built Chunks List的示例元素
 
-Chunk Pos：[<!-- md:samp ChunkPos -->](refs/protocols/types/chunkpos.md)
+Chunk Pos：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
 - 类型：ChunkPos。
+
+
+////
+
 
 
 ///

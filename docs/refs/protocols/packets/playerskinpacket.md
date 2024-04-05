@@ -53,11 +53,11 @@ digraph PlayerSkinPacket {
 /// define
 PlayerSkinPacket
 
-UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
+UUID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
 
 - 类型：mce::UUID。
 
-Serialized Skin：[<!-- md:samp SerializedSkin -->](refs/protocols/types/serializedskin.md)
+Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
 - 类型：SerializedSkin。
 

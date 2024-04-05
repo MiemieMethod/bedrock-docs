@@ -54,15 +54,25 @@ Inventory Id：<!-- md:samp unsigned varint -->
 
 Slots
 
+//// define
 Slots数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+////
+
+
+//// define
 Slots的示例元素
 
-Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
+Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
+
+
+////
+
 
 
 ///

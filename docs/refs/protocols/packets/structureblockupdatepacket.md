@@ -47,11 +47,11 @@ digraph StructureBlockUpdatePacket {
 /// define
 StructureBlockUpdatePacket
 
-Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Structure Data：[<!-- md:samp StructureEditorData -->](refs/protocols/types/structureeditordata.md)
+Structure Data：[<!-- md:samp StructureEditorData -->](../types/structureeditordata.md)
 
 - 类型：StructureEditorData。
 

@@ -248,7 +248,7 @@ notes: \"\"",
 /// define
 ClientboundMapItemDataPacket
 
-Map ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Map ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -264,7 +264,7 @@ Is Locked Map?：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Map Origin：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
+Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -276,15 +276,25 @@ if (8)
 
 Map ID List
 
+////// define
 Map ID List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Map ID List的示例元素
 
-Map ID entry：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
+Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
+
+
+//////
+
 
 
 /////
@@ -364,27 +374,47 @@ if (4)
 
 Actor IDs
 
+////// define
 Actor IDs数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Actor IDs的示例元素
 
-MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](refs/protocols/types/mapitemtrackedactor::uniqueid.md)
+MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../types/mapitemtrackedactor::uniqueid.md)
 
 - 类型：MapItemTrackedActor::UniqueId。
 
+
+//////
+
+
 Decoration List
 
+////// define
 Decoration List数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Decoration List的示例元素
 
-Map Decoration：[<!-- md:samp MapDecoration -->](refs/protocols/types/mapdecoration.md)
+Map Decoration：[<!-- md:samp MapDecoration -->](../types/mapdecoration.md)
 
 - 类型：MapDecoration。
+
+
+//////
+
 
 
 /////
@@ -427,15 +457,25 @@ Y-TexCoordinate：<!-- md:samp varint -->
 
 Pixels
 
+////// define
 Pixels数组的大小：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
+
+//////
+
+
+////// define
 Pixels的示例元素
 
 Pixel：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
+
+
+//////
+
 
 
 /////

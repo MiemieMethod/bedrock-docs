@@ -53,7 +53,7 @@ digraph PlayerActionPacket {
 /// define
 PlayerActionPacket
 
-Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
+Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
@@ -61,11 +61,11 @@ Action：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: PlayerActionType
 
-Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Result Pos：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
+Result Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

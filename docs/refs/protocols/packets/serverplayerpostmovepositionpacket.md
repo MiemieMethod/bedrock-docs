@@ -29,7 +29,7 @@ digraph ServerPlayerPostMovePositionPacket {
 /// define
 ServerPlayerPostMovePositionPacket
 
-Pos：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
+Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
 - 类型：Vec3。
 
