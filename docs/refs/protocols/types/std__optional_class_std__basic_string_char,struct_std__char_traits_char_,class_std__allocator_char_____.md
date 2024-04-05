@@ -8,20 +8,16 @@
 
 ```viz
 digraph "std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		23	[comment="name: \"bool\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	21	[comment="name: \"std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >\", typeName: \"\", id: \
-21, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >"];
-	22	[comment="name: \"Has Value\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data \
-type, otherwise nothing\"",
-		label="Has Value"];
-	21 -> 22;
-	22 -> 23;
+rankdir = LR
+21
+21 -> 22
+22 -> 23
+
+21 [label="std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >",comment="name: \"std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+22 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+23 [label="bool",comment="name: \"bool\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;23}
+
 }
 
 ```

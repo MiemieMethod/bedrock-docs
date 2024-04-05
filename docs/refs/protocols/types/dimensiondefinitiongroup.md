@@ -7,39 +7,29 @@
 ## 结构
 
 ```viz
-digraph DimensionDefinitionGroup {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		5	[comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		17	[comment="name: \"DimensionDefinitionGroup::DimensionDefinition\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="DimensionDefinitionGroup::DimensionDefinition"];
-	}
-	2	[comment="name: \"DimensionDefinitionGroup\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=DimensionDefinitionGroup];
-	3	[comment="name: \"Definitions\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label=Definitions];
-	2 -> 3;
-	4	[comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	3 -> 4;
-	6	[comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	3 -> 6;
-	4 -> 5;
-	7	[comment="name: \"Name String\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Name String"];
-	6 -> 7;
-	9	[comment="name: \"Dimension Definition\", typeName: \"DimensionDefinitionGroup::DimensionDefinition\", id: 9, branchId: 0, recurseId: -1, attributes: \
-256, notes: \"\"",
-		label="Dimension Definition"];
-	6 -> 9;
-	7 -> 8;
-	9 -> 17;
+digraph "DimensionDefinitionGroup" {
+rankdir = LR
+2
+2 -> 3
+3 -> 4
+4 -> 5
+3 -> 6
+6 -> 7
+7 -> 8
+6 -> 9
+9 -> 17
+
+2 [label="DimensionDefinitionGroup",comment="name: \"DimensionDefinitionGroup\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="Definitions",comment="name: \"Definitions\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+7 [label="Name String",comment="name: \"Name String\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Dimension Definition",comment="name: \"Dimension Definition\", typeName: \"DimensionDefinitionGroup::DimensionDefinition\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+17 [label="DimensionDefinitionGroup::DimensionDefinition",comment="name: \"DimensionDefinitionGroup::DimensionDefinition\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;5;8;17}
+
 }
 
 ```

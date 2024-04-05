@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph EducationSettingsPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		32	[comment="name: \"EducationLevelSettings\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=EducationLevelSettings];
-	}
-	0	[comment="name: \"EducationSettingsPacket\", typeName: \"\", id: 0, branchId: 137, recurseId: -1, attributes: 0, notes: \"\"",
-		label=EducationSettingsPacket];
-	1	[comment="name: \"Education Level Settings\", typeName: \"EducationLevelSettings\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Education Level Settings"];
-	0 -> 1;
-	1 -> 32;
+digraph "EducationSettingsPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 32
+
+0 [label="EducationSettingsPacket",comment="name: \"EducationSettingsPacket\", typeName: \"\", id: 0, branchId: 137, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Education Level Settings",comment="name: \"Education Level Settings\", typeName: \"EducationLevelSettings\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+32 [label="EducationLevelSettings",comment="name: \"EducationLevelSettings\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;32}
+
 }
 
 ```

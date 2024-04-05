@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph UpdateAdventureSettingsPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		13	[comment="name: \"AdventureSettings\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=AdventureSettings];
-	}
-	0	[comment="name: \"UpdateAdventureSettingsPacket\", typeName: \"\", id: 0, branchId: 188, recurseId: -1, attributes: 0, notes: \"\"",
-		label=UpdateAdventureSettingsPacket];
-	1	[comment="name: \"Adventure Settings\", typeName: \"AdventureSettings\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Adventure Settings"];
-	0 -> 1;
-	1 -> 13;
+digraph "UpdateAdventureSettingsPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 13
+
+0 [label="UpdateAdventureSettingsPacket",comment="name: \"UpdateAdventureSettingsPacket\", typeName: \"\", id: 0, branchId: 188, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Adventure Settings",comment="name: \"Adventure Settings\", typeName: \"AdventureSettings\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+13 [label="AdventureSettings",comment="name: \"AdventureSettings\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;13}
+
 }
 
 ```

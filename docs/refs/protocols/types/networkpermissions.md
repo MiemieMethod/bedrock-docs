@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph NetworkPermissions {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		199	[comment="name: \"bool\", typeName: \"\", id: 199, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	197	[comment="name: \"NetworkPermissions\", typeName: \"\", id: 197, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=NetworkPermissions];
-	198	[comment="name: \"serverAuthSoundEnabled\", typeName: \"\", id: 198, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=serverAuthSoundEnabled];
-	197 -> 198;
-	198 -> 199;
+digraph "NetworkPermissions" {
+rankdir = LR
+197
+197 -> 198
+198 -> 199
+
+197 [label="NetworkPermissions",comment="name: \"NetworkPermissions\", typeName: \"\", id: 197, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+198 [label="serverAuthSoundEnabled",comment="name: \"serverAuthSoundEnabled\", typeName: \"\", id: 198, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+199 [label="bool",comment="name: \"bool\", typeName: \"\", id: 199, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;199}
+
 }
 
 ```

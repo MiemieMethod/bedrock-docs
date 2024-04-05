@@ -7,43 +7,33 @@
 ## 结构
 
 ```viz
-digraph EmotePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorRuntimeID];
-		4	[comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		10	[comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	0	[comment="name: \"EmotePacket\", typeName: \"\", id: 0, branchId: 138, recurseId: -1, attributes: 0, notes: \"\"",
-		label=EmotePacket];
-	1	[comment="name: \"Actor Runtime Id\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Actor Runtime Id"];
-	0 -> 1;
-	3	[comment="name: \"Emote Id\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Emote Id"];
-	0 -> 3;
-	5	[comment="name: \"Xuid\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Xuid];
-	0 -> 5;
-	7	[comment="name: \"PlatformId\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PlatformId];
-	0 -> 7;
-	9	[comment="name: \"Flags\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: EmotePacket::Flags\"",
-		label=Flags];
-	0 -> 9;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
-	9 -> 10;
+digraph "EmotePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+0 -> 9
+9 -> 10
+
+0 [label="EmotePacket",comment="name: \"EmotePacket\", typeName: \"\", id: 0, branchId: 138, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Actor Runtime Id",comment="name: \"Actor Runtime Id\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Emote Id",comment="name: \"Emote Id\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Xuid",comment="name: \"Xuid\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="PlatformId",comment="name: \"PlatformId\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Flags",comment="name: \"Flags\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: EmotePacket::Flags\""];
+10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10}
+
 }
 
 ```

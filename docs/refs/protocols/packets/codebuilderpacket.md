@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph CodeBuilderPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		4	[comment="name: \"bool\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	0	[comment="name: \"CodeBuilderPacket\", typeName: \"\", id: 0, branchId: 150, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CodeBuilderPacket];
-	1	[comment="name: \"URL\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=URL];
-	0 -> 1;
-	3	[comment="name: \"Should open code builder\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Should open code builder"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "CodeBuilderPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="CodeBuilderPacket",comment="name: \"CodeBuilderPacket\", typeName: \"\", id: 0, branchId: 150, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="URL",comment="name: \"URL\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Should open code builder",comment="name: \"Should open code builder\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="bool",comment="name: \"bool\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

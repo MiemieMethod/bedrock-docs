@@ -7,76 +7,53 @@
 ## 结构
 
 ```viz
-digraph ShapelessRecipe {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		11	[comment="name: \"unsigned varint\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		19	[comment="name: \"RecipeIngredient\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=RecipeIngredient];
-		22	[comment="name: \"unsigned varint\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		41	[comment="name: \"NetworkItemInstanceDescriptor\", typeName: \"\", id: 41, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkItemInstanceDescriptor];
-		48	[comment="name: \"mce::UUID\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="mce::UUID"];
-		50	[comment="name: \"string\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		52	[comment="name: \"varint\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	6	[comment="name: \"ShapelessRecipe\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ShapelessRecipe];
-	7	[comment="name: \"Recipe Unique Id\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Recipe Unique Id"];
-	6 -> 7;
-	9	[comment="name: \"Ingredient List\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Ingredient List"];
-	6 -> 9;
-	20	[comment="name: \"Production List\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Production List"];
-	6 -> 20;
-	42	[comment="name: \"Recipe ID\", typeName: \"mce::UUID\", id: 42, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Recipe ID"];
-	6 -> 42;
-	49	[comment="name: \"Recipe Tag\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"Available ones: CARTOGRAPHY_TABLE, \
-CRAFTING_TABLE, SMITHING_TABLE, STONECUTTER, FURNACE_TAG, BLAST_FURNACE_TAG, SMOKER_TAG, CAMPFIRE_TAG, SOUL_CAMPFIRE_TAG\"",
-		label="Recipe Tag"];
-	6 -> 49;
-	51	[comment="name: \"Priority\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Priority];
-	6 -> 51;
-	7 -> 8;
-	10	[comment="name: \"Array Size\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	9 -> 10;
-	12	[comment="name: \"example element\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	9 -> 12;
-	10 -> 11;
-	13	[comment="name: \"Ingredient\", typeName: \"RecipeIngredient\", id: 13, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Ingredient];
-	12 -> 13;
-	13 -> 19;
-	21	[comment="name: \"Array Size\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	20 -> 21;
-	23	[comment="name: \"example element\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	20 -> 23;
-	21 -> 22;
-	24	[comment="name: \"Produced Item\", typeName: \"NetworkItemInstanceDescriptor\", id: 24, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Produced Item"];
-	23 -> 24;
-	24 -> 41;
-	42 -> 48;
-	49 -> 50;
-	51 -> 52;
+digraph "ShapelessRecipe" {
+rankdir = LR
+6
+6 -> 7
+7 -> 8
+6 -> 9
+9 -> 10
+10 -> 11
+9 -> 12
+12 -> 13
+13 -> 19
+6 -> 20
+20 -> 21
+21 -> 22
+20 -> 23
+23 -> 24
+24 -> 41
+6 -> 42
+42 -> 48
+6 -> 49
+49 -> 50
+6 -> 51
+51 -> 52
+
+6 [label="ShapelessRecipe",comment="name: \"ShapelessRecipe\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+7 [label="Recipe Unique Id",comment="name: \"Recipe Unique Id\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Ingredient List",comment="name: \"Ingredient List\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+10 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+11 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+12 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+13 [label="Ingredient",comment="name: \"Ingredient\", typeName: \"RecipeIngredient\", id: 13, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+19 [label="RecipeIngredient",comment="name: \"RecipeIngredient\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+20 [label="Production List",comment="name: \"Production List\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+21 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+22 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+23 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+24 [label="Produced Item",comment="name: \"Produced Item\", typeName: \"NetworkItemInstanceDescriptor\", id: 24, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+41 [label="NetworkItemInstanceDescriptor",comment="name: \"NetworkItemInstanceDescriptor\", typeName: \"\", id: 41, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+42 [label="Recipe ID",comment="name: \"Recipe ID\", typeName: \"mce::UUID\", id: 42, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+48 [label="mce::UUID",comment="name: \"mce::UUID\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+49 [label="Recipe Tag",comment="name: \"Recipe Tag\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"Available ones: CARTOGRAPHY_TABLE, CRAFTING_TABLE, SMITHING_TABLE, STONECUTTER, FURNACE_TAG, BLAST_FURNACE_TAG, SMOKER_TAG, CAMPFIRE_TAG, SOUL_CAMPFIRE_TAG\""];
+50 [label="string",comment="name: \"string\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+51 [label="Priority",comment="name: \"Priority\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+52 [label="varint",comment="name: \"varint\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;8;11;19;22;41;48;50;52}
+
 }
 
 ```

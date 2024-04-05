@@ -7,44 +7,33 @@
 ## 结构
 
 ```viz
-digraph UpdateSoftEnumPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		5	[comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		10	[comment="name: \"unsigned int\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-	}
-	0	[comment="name: \"UpdateSoftEnumPacket\", typeName: \"\", id: 0, branchId: 114, recurseId: -1, attributes: 0, notes: \"\"",
-		label=UpdateSoftEnumPacket];
-	1	[comment="name: \"Enum Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Enum Name"];
-	0 -> 1;
-	3	[comment="name: \"Values\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label=Values];
-	0 -> 3;
-	9	[comment="name: \"Update Type\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SoftEnumUpdateType\"",
-		label="Update Type"];
-	0 -> 9;
-	1 -> 2;
-	4	[comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	3 -> 4;
-	6	[comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	3 -> 6;
-	4 -> 5;
-	7	[comment="name: \"Enum Value\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Enum Value"];
-	6 -> 7;
-	7 -> 8;
-	9 -> 10;
+digraph "UpdateSoftEnumPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+4 -> 5
+3 -> 6
+6 -> 7
+7 -> 8
+0 -> 9
+9 -> 10
+
+0 [label="UpdateSoftEnumPacket",comment="name: \"UpdateSoftEnumPacket\", typeName: \"\", id: 0, branchId: 114, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Enum Name",comment="name: \"Enum Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Values",comment="name: \"Values\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+7 [label="Enum Value",comment="name: \"Enum Value\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Update Type",comment="name: \"Update Type\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SoftEnumUpdateType\""];
+10 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;5;8;10}
+
 }
 
 ```

@@ -7,55 +7,41 @@
 ## 结构
 
 ```viz
-digraph GameTestRequestPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		4	[comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		6	[comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		8	[comment="name: \"bool\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		10	[comment="name: \"BlockPos\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=BlockPos];
-		12	[comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		14	[comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"GameTestRequestPacket\", typeName: \"\", id: 0, branchId: 194, recurseId: -1, attributes: 0, notes: \"\"",
-		label=GameTestRequestPacket];
-	1	[comment="name: \"MaxTestsPerBatch\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=MaxTestsPerBatch];
-	0 -> 1;
-	3	[comment="name: \"RepeatCount\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=RepeatCount];
-	0 -> 3;
-	5	[comment="name: \"Rotation\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Rotation\"",
-		label=Rotation];
-	0 -> 5;
-	7	[comment="name: \"StopOnFailure\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=StopOnFailure];
-	0 -> 7;
-	9	[comment="name: \"TestPos\", typeName: \"BlockPos\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=TestPos];
-	0 -> 9;
-	11	[comment="name: \"TestsPerRow\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=TestsPerRow];
-	0 -> 11;
-	13	[comment="name: \"TestName\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=TestName];
-	0 -> 13;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
-	13 -> 14;
+digraph "GameTestRequestPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+0 -> 9
+9 -> 10
+0 -> 11
+11 -> 12
+0 -> 13
+13 -> 14
+
+0 [label="GameTestRequestPacket",comment="name: \"GameTestRequestPacket\", typeName: \"\", id: 0, branchId: 194, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="MaxTestsPerBatch",comment="name: \"MaxTestsPerBatch\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="RepeatCount",comment="name: \"RepeatCount\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="varint",comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Rotation",comment="name: \"Rotation\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Rotation\""];
+6 [label="byte",comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="StopOnFailure",comment="name: \"StopOnFailure\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="bool",comment="name: \"bool\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="TestPos",comment="name: \"TestPos\", typeName: \"BlockPos\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+10 [label="BlockPos",comment="name: \"BlockPos\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="TestsPerRow",comment="name: \"TestsPerRow\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="varint",comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="TestName",comment="name: \"TestName\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="string",comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10;12;14}
+
 }
 
 ```

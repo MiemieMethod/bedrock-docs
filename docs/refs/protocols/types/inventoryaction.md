@@ -7,37 +7,29 @@
 ## 结构
 
 ```viz
-digraph InventoryAction {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		44	[comment="name: \"InventorySource\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=InventorySource];
-		46	[comment="name: \"unsigned varint\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		48	[comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkItemStackDescriptor];
-		50	[comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkItemStackDescriptor];
-	}
-	28	[comment="name: \"InventoryAction\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=InventoryAction];
-	29	[comment="name: \"Source\", typeName: \"InventorySource\", id: 29, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Source];
-	28 -> 29;
-	45	[comment="name: \"Slot\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Slot];
-	28 -> 45;
-	47	[comment="name: \"From Item Descriptor\", typeName: \"NetworkItemStackDescriptor\", id: 47, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="From Item Descriptor"];
-	28 -> 47;
-	49	[comment="name: \"To Item Descriptor\", typeName: \"NetworkItemStackDescriptor\", id: 49, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="To Item Descriptor"];
-	28 -> 49;
-	29 -> 44;
-	45 -> 46;
-	47 -> 48;
-	49 -> 50;
+digraph "InventoryAction" {
+rankdir = LR
+28
+28 -> 29
+29 -> 44
+28 -> 45
+45 -> 46
+28 -> 47
+47 -> 48
+28 -> 49
+49 -> 50
+
+28 [label="InventoryAction",comment="name: \"InventoryAction\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+29 [label="Source",comment="name: \"Source\", typeName: \"InventorySource\", id: 29, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+44 [label="InventorySource",comment="name: \"InventorySource\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+45 [label="Slot",comment="name: \"Slot\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+46 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+47 [label="From Item Descriptor",comment="name: \"From Item Descriptor\", typeName: \"NetworkItemStackDescriptor\", id: 47, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+48 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+49 [label="To Item Descriptor",comment="name: \"To Item Descriptor\", typeName: \"NetworkItemStackDescriptor\", id: 49, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+50 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;44;46;48;50}
+
 }
 
 ```

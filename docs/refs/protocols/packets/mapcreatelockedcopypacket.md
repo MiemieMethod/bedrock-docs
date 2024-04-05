@@ -7,27 +7,21 @@
 ## 结构
 
 ```viz
-digraph MapCreateLockedCopyPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorUniqueID];
-		4	[comment="name: \"ActorUniqueID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorUniqueID];
-	}
-	0	[comment="name: \"MapCreateLockedCopyPacket\", typeName: \"\", id: 0, branchId: 131, recurseId: -1, attributes: 0, notes: \"\"",
-		label=MapCreateLockedCopyPacket];
-	1	[comment="name: \"Original Map Id\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"Id of the map being \
-locked.\"",
-		label="Original Map Id"];
-	0 -> 1;
-	3	[comment="name: \"New Map Id\", typeName: \"ActorUniqueID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"Id that the new map should \
-have.\"",
-		label="New Map Id"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "MapCreateLockedCopyPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="MapCreateLockedCopyPacket",comment="name: \"MapCreateLockedCopyPacket\", typeName: \"\", id: 0, branchId: 131, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Original Map Id",comment="name: \"Original Map Id\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"Id of the map being locked.\""];
+2 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="New Map Id",comment="name: \"New Map Id\", typeName: \"ActorUniqueID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"Id that the new map should have.\""];
+4 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph ShowStoreOfferPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		4	[comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	0	[comment="name: \"ShowStoreOfferPacket\", typeName: \"\", id: 0, branchId: 91, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ShowStoreOfferPacket];
-	1	[comment="name: \"Product ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Product ID"];
-	0 -> 1;
-	3	[comment="name: \"Redirect Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ShowStoreOfferRedirectType\"",
-		label="Redirect Type"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "ShowStoreOfferPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="ShowStoreOfferPacket",comment="name: \"ShowStoreOfferPacket\", typeName: \"\", id: 0, branchId: 91, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Product ID",comment="name: \"Product ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Redirect Type",comment="name: \"Redirect Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ShowStoreOfferRedirectType\""];
+4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

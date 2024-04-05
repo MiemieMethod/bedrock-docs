@@ -7,60 +7,41 @@
 ## 结构
 
 ```viz
-digraph MapInfoRequestPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorUniqueID];
-		4	[comment="name: \"unsigned int\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-		7	[comment="name: \"[No Data]\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="[No Data]"];
-		12	[comment="name: \"unsigned int\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-		14	[comment="name: \"unsigned short\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned short"];
-	}
-	0	[comment="name: \"MapInfoRequestPacket\", typeName: \"\", id: 0, branchId: 68, recurseId: -1, attributes: 0, notes: \"\"",
-		label=MapInfoRequestPacket];
-	1	[comment="name: \"Map Unique ID\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Map Unique ID"];
-	0 -> 1;
-	3	[comment="name: \"Client Pixels List Size\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Client Pixels List Size"];
-	0 -> 3;
-	5	[comment="name: \"Dependency on 'mClientPixels.size() > 0 ?'\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 2, notes: \"\"",
-		label="Dependency on 'mClientPixels.size() > 0 ?'",
-		shape=note];
-	0 -> 5;
-	1 -> 2;
-	3 -> 4;
-	6	[comment="name: \"if (0)\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (0)",
-		shape=diamond];
-	5 -> 6;
-	8	[comment="name: \"if (1)\", typeName: \"\", id: 8, branchId: 1, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (1)",
-		shape=diamond];
-	5 -> 8;
-	6 -> 7;
-	9	[comment="name: \"Client Pixels List\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 8, notes: \"These are sent from the client \
-to tell the Server map about terrain pixels it doesn't know about\"",
-		label="Client Pixels List"];
-	8 -> 9;
-	10	[comment="name: \"example element\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	9 -> 10;
-	11	[comment="name: \"pixel\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=pixel];
-	10 -> 11;
-	13	[comment="name: \"index\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=index];
-	10 -> 13;
-	11 -> 12;
-	13 -> 14;
+digraph "MapInfoRequestPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+6 -> 7
+5 -> 8
+8 -> 9
+9 -> 10
+10 -> 11
+11 -> 12
+10 -> 13
+13 -> 14
+
+0 [label="MapInfoRequestPacket",comment="name: \"MapInfoRequestPacket\", typeName: \"\", id: 0, branchId: 68, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Map Unique ID",comment="name: \"Map Unique ID\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Client Pixels List Size",comment="name: \"Client Pixels List Size\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Dependency on 'mClientPixels.size() > 0 ?'",shape=note,comment="name: \"Dependency on 'mClientPixels.size() > 0 ?'\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+6 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+7 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+8 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 8, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+9 [label="Client Pixels List",comment="name: \"Client Pixels List\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 8, notes: \"These are sent from the client to tell the Server map about terrain pixels it doesn't know about\""];
+10 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+11 [label="pixel",comment="name: \"pixel\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="index",comment="name: \"index\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;7;12;14}
+
 }
 
 ```

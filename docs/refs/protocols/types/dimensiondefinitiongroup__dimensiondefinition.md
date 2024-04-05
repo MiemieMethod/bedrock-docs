@@ -8,30 +8,24 @@
 
 ```viz
 digraph "DimensionDefinitionGroup::DimensionDefinition" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		12	[comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		14	[comment="name: \"varint\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		16	[comment="name: \"varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	10	[comment="name: \"DimensionDefinitionGroup::DimensionDefinition\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="DimensionDefinitionGroup::DimensionDefinition"];
-	11	[comment="name: \"Height Maximum\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Height Maximum"];
-	10 -> 11;
-	13	[comment="name: \"Height Minimum\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Height Minimum"];
-	10 -> 13;
-	15	[comment="name: \"Generator Type\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Generator Type"];
-	10 -> 15;
-	11 -> 12;
-	13 -> 14;
-	15 -> 16;
+rankdir = LR
+10
+10 -> 11
+11 -> 12
+10 -> 13
+13 -> 14
+10 -> 15
+15 -> 16
+
+10 [label="DimensionDefinitionGroup::DimensionDefinition",comment="name: \"DimensionDefinitionGroup::DimensionDefinition\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+11 [label="Height Maximum",comment="name: \"Height Maximum\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="varint",comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Height Minimum",comment="name: \"Height Minimum\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="varint",comment="name: \"varint\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="Generator Type",comment="name: \"Generator Type\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+16 [label="varint",comment="name: \"varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;12;14;16}
+
 }
 
 ```

@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph RequestChunkRadiusPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		4	[comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	0	[comment="name: \"RequestChunkRadiusPacket\", typeName: \"\", id: 0, branchId: 69, recurseId: -1, attributes: 0, notes: \"\"",
-		label=RequestChunkRadiusPacket];
-	1	[comment="name: \"Chunk Radius\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Chunk Radius"];
-	0 -> 1;
-	3	[comment="name: \"Max ChunkRadius\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Max ChunkRadius"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "RequestChunkRadiusPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="RequestChunkRadiusPacket",comment="name: \"RequestChunkRadiusPacket\", typeName: \"\", id: 0, branchId: 69, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Chunk Radius",comment="name: \"Chunk Radius\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Max ChunkRadius",comment="name: \"Max ChunkRadius\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

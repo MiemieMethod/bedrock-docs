@@ -8,43 +8,32 @@
 
 ```viz
 digraph "SerializedAbilitiesData::SerializedLayer" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		94	[comment="name: \"unsigned short\", typeName: \"\", id: 94, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned short"];
-		96	[comment="name: \"unsigned int\", typeName: \"\", id: 96, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-		98	[comment="name: \"unsigned int\", typeName: \"\", id: 98, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-		100	[comment="name: \"float\", typeName: \"\", id: 100, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		102	[comment="name: \"float\", typeName: \"\", id: 102, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-	}
-	92	[comment="name: \"SerializedAbilitiesData::SerializedLayer\", typeName: \"\", id: 92, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="SerializedAbilitiesData::SerializedLayer"];
-	93	[comment="name: \"SerializedLayer\", typeName: \"\", id: 93, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SerializedAbilitiesData::\
-SerializedAbilitiesLayer\"",
-		label=SerializedLayer];
-	92 -> 93;
-	95	[comment="name: \"AbilitiesSet\", typeName: \"\", id: 95, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=AbilitiesSet];
-	92 -> 95;
-	97	[comment="name: \"AbilityValues\", typeName: \"\", id: 97, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=AbilityValues];
-	92 -> 97;
-	99	[comment="name: \"FlySpeed\", typeName: \"\", id: 99, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=FlySpeed];
-	92 -> 99;
-	101	[comment="name: \"WalkSpeed\", typeName: \"\", id: 101, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=WalkSpeed];
-	92 -> 101;
-	93 -> 94;
-	95 -> 96;
-	97 -> 98;
-	99 -> 100;
-	101 -> 102;
+rankdir = LR
+92
+92 -> 93
+93 -> 94
+92 -> 95
+95 -> 96
+92 -> 97
+97 -> 98
+92 -> 99
+99 -> 100
+92 -> 101
+101 -> 102
+
+92 [label="SerializedAbilitiesData::SerializedLayer",comment="name: \"SerializedAbilitiesData::SerializedLayer\", typeName: \"\", id: 92, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+93 [label="SerializedLayer",comment="name: \"SerializedLayer\", typeName: \"\", id: 93, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SerializedAbilitiesData::SerializedAbilitiesLayer\""];
+94 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 94, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+95 [label="AbilitiesSet",comment="name: \"AbilitiesSet\", typeName: \"\", id: 95, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+96 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 96, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+97 [label="AbilityValues",comment="name: \"AbilityValues\", typeName: \"\", id: 97, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+98 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 98, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+99 [label="FlySpeed",comment="name: \"FlySpeed\", typeName: \"\", id: 99, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+100 [label="float",comment="name: \"float\", typeName: \"\", id: 100, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+101 [label="WalkSpeed",comment="name: \"WalkSpeed\", typeName: \"\", id: 101, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+102 [label="float",comment="name: \"float\", typeName: \"\", id: 102, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;94;96;98;100;102}
+
 }
 
 ```

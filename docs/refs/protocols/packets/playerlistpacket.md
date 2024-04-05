@@ -7,129 +7,87 @@
 ## 结构
 
 ```viz
-digraph PlayerListPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		7	[comment="name: \"unsigned varint\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		10	[comment="name: \"mce::UUID\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="mce::UUID"];
-		12	[comment="name: \"ActorUniqueID\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorUniqueID];
-		14	[comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		16	[comment="name: \"string\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		18	[comment="name: \"string\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		20	[comment="name: \"int\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=int];
-		113	[comment="name: \"SerializedSkin\", typeName: \"\", id: 113, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=SerializedSkin];
-		115	[comment="name: \"bool\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		117	[comment="name: \"bool\", typeName: \"\", id: 117, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		119	[comment="name: \"bool\", typeName: \"\", id: 119, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		121	[comment="name: \"bool\", typeName: \"\", id: 121, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		125	[comment="name: \"unsigned varint\", typeName: \"\", id: 125, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		128	[comment="name: \"mce::UUID\", typeName: \"\", id: 128, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="mce::UUID"];
-	}
-	0	[comment="name: \"PlayerListPacket\", typeName: \"\", id: 0, branchId: 63, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PlayerListPacket];
-	1	[comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PlayerListPacketType\"",
-		label=Action];
-	0 -> 1;
-	3	[comment="name: \"Dependency on 'Action'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\"",
-		label="Dependency on 'Action'",
-		shape=note];
-	0 -> 3;
-	1 -> 2;
-	4	[comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (0)",
-		shape=diamond];
-	3 -> 4;
-	122	[comment="name: \"if (1)\", typeName: \"\", id: 122, branchId: 1, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (1)",
-		shape=diamond];
-	3 -> 122;
-	5	[comment="name: \"Add Player List\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Add Player List"];
-	4 -> 5;
-	120	[comment="name: \"Is trusted skin\", typeName: \"\", id: 120, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is trusted skin"];
-	4 -> 120;
-	6	[comment="name: \"Array Size\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	5 -> 6;
-	8	[comment="name: \"example element\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	5 -> 8;
-	6 -> 7;
-	9	[comment="name: \"UUID\", typeName: \"mce::UUID\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=UUID];
-	8 -> 9;
-	11	[comment="name: \"Target Actor ID\", typeName: \"ActorUniqueID\", id: 11, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Target Actor ID"];
-	8 -> 11;
-	13	[comment="name: \"Player Name\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Player Name"];
-	8 -> 13;
-	15	[comment="name: \"XBL XUID\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="XBL XUID"];
-	8 -> 15;
-	17	[comment="name: \"Platform Chat Id\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Platform Chat Id"];
-	8 -> 17;
-	19	[comment="name: \"Build Platform\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: BuildPlatform\"",
-		label="Build Platform"];
-	8 -> 19;
-	21	[comment="name: \"Serialized Skin\", typeName: \"SerializedSkin\", id: 21, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Serialized Skin"];
-	8 -> 21;
-	114	[comment="name: \"Is Teacher?\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is Teacher?"];
-	8 -> 114;
-	116	[comment="name: \"Is Host?\", typeName: \"\", id: 116, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is Host?"];
-	8 -> 116;
-	118	[comment="name: \"Is SubClient\", typeName: \"\", id: 118, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is SubClient"];
-	8 -> 118;
-	9 -> 10;
-	11 -> 12;
-	13 -> 14;
-	15 -> 16;
-	17 -> 18;
-	19 -> 20;
-	21 -> 113;
-	114 -> 115;
-	116 -> 117;
-	118 -> 119;
-	120 -> 121;
-	123	[comment="name: \"Remove Player List\", typeName: \"\", id: 123, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Remove Player List"];
-	122 -> 123;
-	124	[comment="name: \"Array Size\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	123 -> 124;
-	126	[comment="name: \"example element\", typeName: \"\", id: 126, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	123 -> 126;
-	124 -> 125;
-	127	[comment="name: \"UUID\", typeName: \"mce::UUID\", id: 127, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=UUID];
-	126 -> 127;
-	127 -> 128;
+digraph "PlayerListPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+4 -> 5
+5 -> 6
+6 -> 7
+5 -> 8
+8 -> 9
+9 -> 10
+8 -> 11
+11 -> 12
+8 -> 13
+13 -> 14
+8 -> 15
+15 -> 16
+8 -> 17
+17 -> 18
+8 -> 19
+19 -> 20
+8 -> 21
+21 -> 113
+8 -> 114
+114 -> 115
+8 -> 116
+116 -> 117
+8 -> 118
+118 -> 119
+4 -> 120
+120 -> 121
+3 -> 122
+122 -> 123
+123 -> 124
+124 -> 125
+123 -> 126
+126 -> 127
+127 -> 128
+
+0 [label="PlayerListPacket",comment="name: \"PlayerListPacket\", typeName: \"\", id: 0, branchId: 63, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PlayerListPacketType\""];
+2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Dependency on 'Action'",shape=note,comment="name: \"Dependency on 'Action'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+4 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+5 [label="Add Player List",comment="name: \"Add Player List\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+6 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+7 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+8 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+9 [label="UUID",comment="name: \"UUID\", typeName: \"mce::UUID\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+10 [label="mce::UUID",comment="name: \"mce::UUID\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Target Actor ID",comment="name: \"Target Actor ID\", typeName: \"ActorUniqueID\", id: 11, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+12 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Player Name",comment="name: \"Player Name\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="string",comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="XBL XUID",comment="name: \"XBL XUID\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+16 [label="string",comment="name: \"string\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+17 [label="Platform Chat Id",comment="name: \"Platform Chat Id\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+18 [label="string",comment="name: \"string\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+19 [label="Build Platform",comment="name: \"Build Platform\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: BuildPlatform\""];
+20 [label="int",comment="name: \"int\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+21 [label="Serialized Skin",comment="name: \"Serialized Skin\", typeName: \"SerializedSkin\", id: 21, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+113 [label="SerializedSkin",comment="name: \"SerializedSkin\", typeName: \"\", id: 113, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+114 [label="Is Teacher?",comment="name: \"Is Teacher?\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+115 [label="bool",comment="name: \"bool\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+116 [label="Is Host?",comment="name: \"Is Host?\", typeName: \"\", id: 116, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+117 [label="bool",comment="name: \"bool\", typeName: \"\", id: 117, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+118 [label="Is SubClient",comment="name: \"Is SubClient\", typeName: \"\", id: 118, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+119 [label="bool",comment="name: \"bool\", typeName: \"\", id: 119, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+120 [label="Is trusted skin",comment="name: \"Is trusted skin\", typeName: \"\", id: 120, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+121 [label="bool",comment="name: \"bool\", typeName: \"\", id: 121, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+122 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 122, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+123 [label="Remove Player List",comment="name: \"Remove Player List\", typeName: \"\", id: 123, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+124 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+125 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 125, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+126 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 126, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+127 [label="UUID",comment="name: \"UUID\", typeName: \"mce::UUID\", id: 127, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+128 [label="mce::UUID",comment="name: \"mce::UUID\", typeName: \"\", id: 128, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;7;10;12;14;16;18;20;113;115;117;119;121;125;128}
+
 }
 
 ```

@@ -8,19 +8,16 @@
 
 ```viz
 digraph "std::optional<enum CameraPreset::AudioListener>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		29	[comment="name: \"bool\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	27	[comment="name: \"std::optional<enum CameraPreset::AudioListener>\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="std::optional<enum CameraPreset::AudioListener>"];
-	28	[comment="name: \"Has Value\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data \
-type, otherwise nothing\"",
-		label="Has Value"];
-	27 -> 28;
-	28 -> 29;
+rankdir = LR
+27
+27 -> 28
+28 -> 29
+
+27 [label="std::optional<enum CameraPreset::AudioListener>",comment="name: \"std::optional<enum CameraPreset::AudioListener>\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+28 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+29 [label="bool",comment="name: \"bool\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;29}
+
 }
 
 ```

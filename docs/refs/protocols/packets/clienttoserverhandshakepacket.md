@@ -7,13 +7,13 @@
 ## 结构
 
 ```viz
-digraph ClientToServerHandshakePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-	}
-	0	[comment="name: \"ClientToServerHandshakePacket\", typeName: \"\", id: 0, branchId: 4, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ClientToServerHandshakePacket];
+digraph "ClientToServerHandshakePacket" {
+rankdir = LR
+0
+
+0 [label="ClientToServerHandshakePacket",comment="name: \"ClientToServerHandshakePacket\", typeName: \"\", id: 0, branchId: 4, recurseId: -1, attributes: 0, notes: \"\""];
+{ rank = max}
+
 }
 
 ```

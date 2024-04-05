@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph PositionTrackingId {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		6	[comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	4	[comment="name: \"PositionTrackingId\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PositionTrackingId];
-	5	[comment="name: \"Value\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Value];
-	4 -> 5;
-	5 -> 6;
+digraph "PositionTrackingId" {
+rankdir = LR
+4
+4 -> 5
+5 -> 6
+
+4 [label="PositionTrackingId",comment="name: \"PositionTrackingId\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="Value",comment="name: \"Value\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="varint",comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;6}
+
 }
 
 ```

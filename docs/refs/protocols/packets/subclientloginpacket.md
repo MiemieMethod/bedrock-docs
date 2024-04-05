@@ -7,20 +7,17 @@
 ## 结构
 
 ```viz
-digraph SubClientLoginPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"SubClientLoginPacket\", typeName: \"\", id: 0, branchId: 94, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SubClientLoginPacket];
-	1	[comment="name: \"Sub Client Connection Request\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"see @subClientConnectionRequest.html#\
-diagram@\"",
-		label="Sub Client Connection Request"];
-	0 -> 1;
-	1 -> 2;
+digraph "SubClientLoginPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="SubClientLoginPacket",comment="name: \"SubClientLoginPacket\", typeName: \"\", id: 0, branchId: 94, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Sub Client Connection Request",comment="name: \"Sub Client Connection Request\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"see @subClientConnectionRequest.html#diagram@\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

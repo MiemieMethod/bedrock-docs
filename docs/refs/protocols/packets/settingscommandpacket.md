@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph SettingsCommandPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		4	[comment="name: \"bool\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	0	[comment="name: \"SettingsCommandPacket\", typeName: \"\", id: 0, branchId: 140, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SettingsCommandPacket];
-	1	[comment="name: \"Command\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Command to update setting.\"",
-		label=Command];
-	0 -> 1;
-	3	[comment="name: \"Suppress Output?\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Suppress Output?"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "SettingsCommandPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="SettingsCommandPacket",comment="name: \"SettingsCommandPacket\", typeName: \"\", id: 0, branchId: 140, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Command",comment="name: \"Command\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Command to update setting.\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Suppress Output?",comment="name: \"Suppress Output?\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="bool",comment="name: \"bool\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

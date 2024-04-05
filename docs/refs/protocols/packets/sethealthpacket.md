@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph SetHealthPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	0	[comment="name: \"SetHealthPacket\", typeName: \"\", id: 0, branchId: 42, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SetHealthPacket];
-	1	[comment="name: \"Health\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Health];
-	0 -> 1;
-	1 -> 2;
+digraph "SetHealthPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="SetHealthPacket",comment="name: \"SetHealthPacket\", typeName: \"\", id: 0, branchId: 42, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Health",comment="name: \"Health\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

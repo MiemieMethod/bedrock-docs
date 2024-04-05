@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph EntityNetId {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		4	[comment="name: \"unsigned varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-	}
-	2	[comment="name: \"EntityNetId\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=EntityNetId];
-	3	[comment="name: \"Raw Entity Id\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Raw Entity Id"];
-	2 -> 3;
-	3 -> 4;
+digraph "EntityNetId" {
+rankdir = LR
+2
+2 -> 3
+3 -> 4
+
+2 [label="EntityNetId",comment="name: \"EntityNetId\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="Raw Entity Id",comment="name: \"Raw Entity Id\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;4}
+
 }
 
 ```

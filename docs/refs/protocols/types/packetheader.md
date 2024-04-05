@@ -8,19 +8,16 @@
 
 ```viz
 digraph "Packet Header" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-	}
-	0	[comment="name: \"Packet Header\", typeName: \"\", id: 0, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Packet Header"];
-	1	[comment="name: \"Packet ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"The first 10 value bits are the packet \
-id, the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID\"",
-		label="Packet ID"];
-	0 -> 1;
-	1 -> 2;
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="Packet Header",comment="name: \"Packet Header\", typeName: \"\", id: 0, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Packet ID",comment="name: \"Packet ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"The first 10 value bits are the packet id, the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID\""];
+2 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

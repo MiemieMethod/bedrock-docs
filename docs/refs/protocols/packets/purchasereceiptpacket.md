@@ -7,32 +7,25 @@
 ## 结构
 
 ```viz
-digraph PurchaseReceiptPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		3	[comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"PurchaseReceiptPacket\", typeName: \"\", id: 0, branchId: 92, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PurchaseReceiptPacket];
-	1	[comment="name: \"Purchase Receipts\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Purchase Receipts"];
-	0 -> 1;
-	2	[comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	1 -> 2;
-	4	[comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	1 -> 4;
-	2 -> 3;
-	5	[comment="name: \"Proof of Purchase\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Proof of Purchase"];
-	4 -> 5;
-	5 -> 6;
+digraph "PurchaseReceiptPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+2 -> 3
+1 -> 4
+4 -> 5
+5 -> 6
+
+0 [label="PurchaseReceiptPacket",comment="name: \"PurchaseReceiptPacket\", typeName: \"\", id: 0, branchId: 92, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Purchase Receipts",comment="name: \"Purchase Receipts\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+2 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+4 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+5 [label="Proof of Purchase",comment="name: \"Proof of Purchase\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;3;6}
+
 }
 
 ```

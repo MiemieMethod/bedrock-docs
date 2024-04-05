@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph RemoveObjectivePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"RemoveObjectivePacket\", typeName: \"\", id: 0, branchId: 106, recurseId: -1, attributes: 0, notes: \"\"",
-		label=RemoveObjectivePacket];
-	1	[comment="name: \"Objective Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Objective Name"];
-	0 -> 1;
-	1 -> 2;
+digraph "RemoveObjectivePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="RemoveObjectivePacket",comment="name: \"RemoveObjectivePacket\", typeName: \"\", id: 0, branchId: 106, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Objective Name",comment="name: \"Objective Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

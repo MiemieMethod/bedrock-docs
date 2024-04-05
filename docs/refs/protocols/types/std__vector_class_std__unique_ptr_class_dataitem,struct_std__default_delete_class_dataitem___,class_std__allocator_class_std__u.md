@@ -7,29 +7,21 @@
 ## 结构
 
 ```viz
-digraph "std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_\
-ptr<class DataItem,struct std::default_delete<class DataItem> > > >" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		53	[comment="name: \"unsigned varint\", typeName: \"\", id: 53, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		55	[comment="name: \"DataItem\", typeName: \"\", id: 55, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=DataItem];
-	}
-	51	[comment="name: \"std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class \
-std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >\", typeName: \"\", id: 51, branchId: 0, recurseId: \
--1, attributes: 0, notes: \"\"",
-		label="std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_\
-ptr<class DataItem,struct std::default_delete<class DataItem> > > >"];
-	52	[comment="name: \"Count\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Count];
-	51 -> 52;
-	54	[comment="name: \"Item\", typeName: \"DataItem\", id: 54, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Item];
-	51 -> 54;
-	52 -> 53;
-	54 -> 55;
+digraph "std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >" {
+rankdir = LR
+51
+51 -> 52
+52 -> 53
+51 -> 54
+54 -> 55
+
+51 [label="std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >",comment="name: \"std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+52 [label="Count",comment="name: \"Count\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+53 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 53, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+54 [label="Item",comment="name: \"Item\", typeName: \"DataItem\", id: 54, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+55 [label="DataItem",comment="name: \"DataItem\", typeName: \"\", id: 55, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;53;55}
+
 }
 
 ```

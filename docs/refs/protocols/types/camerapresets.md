@@ -7,32 +7,25 @@
 ## 结构
 
 ```viz
-digraph CameraPresets {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		5	[comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		36	[comment="name: \"CameraPreset\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CameraPreset];
-	}
-	2	[comment="name: \"CameraPresets\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CameraPresets];
-	3	[comment="name: \"Presets\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label=Presets];
-	2 -> 3;
-	4	[comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	3 -> 4;
-	6	[comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	3 -> 6;
-	4 -> 5;
-	7	[comment="name: \"Camera Preset\", typeName: \"CameraPreset\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Camera Preset"];
-	6 -> 7;
-	7 -> 36;
+digraph "CameraPresets" {
+rankdir = LR
+2
+2 -> 3
+3 -> 4
+4 -> 5
+3 -> 6
+6 -> 7
+7 -> 36
+
+2 [label="CameraPresets",comment="name: \"CameraPresets\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="Presets",comment="name: \"Presets\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+7 [label="Camera Preset",comment="name: \"Camera Preset\", typeName: \"CameraPreset\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+36 [label="CameraPreset",comment="name: \"CameraPreset\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;5;36}
+
 }
 
 ```

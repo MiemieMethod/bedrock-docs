@@ -7,61 +7,45 @@
 ## 结构
 
 ```viz
-digraph AddVolumeEntityPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		5	[comment="name: \"EntityNetId\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=EntityNetId];
-		7	[comment="name: \"CompoundTag\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CompoundTag];
-		9	[comment="name: \"string\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		11	[comment="name: \"string\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		13	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		15	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		17	[comment="name: \"varint\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		19	[comment="name: \"string\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"AddVolumeEntityPacket\", typeName: \"\", id: 0, branchId: 166, recurseId: -1, attributes: 0, notes: \"\"",
-		label=AddVolumeEntityPacket];
-	1	[comment="name: \"Entity Network Id\", typeName: \"EntityNetId\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Entity Network Id"];
-	0 -> 1;
-	6	[comment="name: \"Components\", typeName: \"CompoundTag\", id: 6, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Components];
-	0 -> 6;
-	8	[comment="name: \"JSON Identifier\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="JSON Identifier"];
-	0 -> 8;
-	10	[comment="name: \"Instance Name\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Instance Name"];
-	0 -> 10;
-	12	[comment="name: \"Min Bounds\", typeName: \"NetworkBlockPosition\", id: 12, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Min Bounds"];
-	0 -> 12;
-	14	[comment="name: \"Max Bounds\", typeName: \"NetworkBlockPosition\", id: 14, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Max Bounds"];
-	0 -> 14;
-	16	[comment="name: \"Dimension Type\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Dimension Type"];
-	0 -> 16;
-	18	[comment="name: \"Engine Version\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"Semantic version string\"",
-		label="Engine Version"];
-	0 -> 18;
-	1 -> 5;
-	6 -> 7;
-	8 -> 9;
-	10 -> 11;
-	12 -> 13;
-	14 -> 15;
-	16 -> 17;
-	18 -> 19;
+digraph "AddVolumeEntityPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 5
+0 -> 6
+6 -> 7
+0 -> 8
+8 -> 9
+0 -> 10
+10 -> 11
+0 -> 12
+12 -> 13
+0 -> 14
+14 -> 15
+0 -> 16
+16 -> 17
+0 -> 18
+18 -> 19
+
+0 [label="AddVolumeEntityPacket",comment="name: \"AddVolumeEntityPacket\", typeName: \"\", id: 0, branchId: 166, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Entity Network Id",comment="name: \"Entity Network Id\", typeName: \"EntityNetId\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+5 [label="EntityNetId",comment="name: \"EntityNetId\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+6 [label="Components",comment="name: \"Components\", typeName: \"CompoundTag\", id: 6, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+7 [label="CompoundTag",comment="name: \"CompoundTag\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+8 [label="JSON Identifier",comment="name: \"JSON Identifier\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+9 [label="string",comment="name: \"string\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+10 [label="Instance Name",comment="name: \"Instance Name\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+11 [label="string",comment="name: \"string\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+12 [label="Min Bounds",comment="name: \"Min Bounds\", typeName: \"NetworkBlockPosition\", id: 12, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+13 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+14 [label="Max Bounds",comment="name: \"Max Bounds\", typeName: \"NetworkBlockPosition\", id: 14, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+15 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+16 [label="Dimension Type",comment="name: \"Dimension Type\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+17 [label="varint",comment="name: \"varint\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+18 [label="Engine Version",comment="name: \"Engine Version\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"Semantic version string\""];
+19 [label="string",comment="name: \"string\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;5;7;9;11;13;15;17;19}
+
 }
 
 ```

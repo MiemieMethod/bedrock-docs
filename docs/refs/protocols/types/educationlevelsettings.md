@@ -7,78 +7,53 @@
 ## 结构
 
 ```viz
-digraph EducationLevelSettings {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		4	[comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		8	[comment="name: \"bool\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		10	[comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		12	[comment="name: \"string\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		14	[comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		19	[comment="name: \"std::optional<struct AgentCapabilities>\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="std::optional<struct AgentCapabilities>"];
-		24	[comment="name: \"std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >\", typeName: \"\", id: \
-24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >"];
-		26	[comment="name: \"bool\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		31	[comment="name: \"std::optional<struct ExternalLinkSettings>\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="std::optional<struct ExternalLinkSettings>"];
-	}
-	2	[comment="name: \"EducationLevelSettings\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=EducationLevelSettings];
-	3	[comment="name: \"Code Builder Default URI\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Code Builder Default URI"];
-	2 -> 3;
-	5	[comment="name: \"Code Builder Title\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Code Builder Title"];
-	2 -> 5;
-	7	[comment="name: \"Can resize Code Builder\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Can resize Code Builder"];
-	2 -> 7;
-	9	[comment="name: \"Disable legacy title bar\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Disable legacy title bar"];
-	2 -> 9;
-	11	[comment="name: \"Post Process Filter\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Post Process Filter"];
-	2 -> 11;
-	13	[comment="name: \"Screenshot Border Resource Path\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Screenshot Border Resource Path"];
-	2 -> 13;
-	15	[comment="name: \"Agent Capabilities\", typeName: \"std::optional<struct AgentCapabilities>\", id: 15, branchId: 0, recurseId: -1, attributes: \
-256, notes: \"\"",
-		label="Agent Capabilities"];
-	2 -> 15;
-	20	[comment="name: \"Code Builder Override Uri\", typeName: \"std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::\
-allocator<char> > >\", id: 20, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Code Builder Override Uri"];
-	2 -> 20;
-	25	[comment="name: \"Indiciates if the world has a quiz attached to it\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\
-hasQuiz was only used by old JD China EDU and has been removed\"",
-		label="Indiciates if the world has a quiz attached to it"];
-	2 -> 25;
-	27	[comment="name: \"External Link Settings\", typeName: \"std::optional<struct ExternalLinkSettings>\", id: 27, branchId: 0, recurseId: -1, attributes: \
-256, notes: \"\"",
-		label="External Link Settings"];
-	2 -> 27;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
-	13 -> 14;
-	15 -> 19;
-	20 -> 24;
-	25 -> 26;
-	27 -> 31;
+digraph "EducationLevelSettings" {
+rankdir = LR
+2
+2 -> 3
+3 -> 4
+2 -> 5
+5 -> 6
+2 -> 7
+7 -> 8
+2 -> 9
+9 -> 10
+2 -> 11
+11 -> 12
+2 -> 13
+13 -> 14
+2 -> 15
+15 -> 19
+2 -> 20
+20 -> 24
+2 -> 25
+25 -> 26
+2 -> 27
+27 -> 31
+
+2 [label="EducationLevelSettings",comment="name: \"EducationLevelSettings\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="Code Builder Default URI",comment="name: \"Code Builder Default URI\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Code Builder Title",comment="name: \"Code Builder Title\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Can resize Code Builder",comment="name: \"Can resize Code Builder\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="bool",comment="name: \"bool\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Disable legacy title bar",comment="name: \"Disable legacy title bar\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="bool",comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Post Process Filter",comment="name: \"Post Process Filter\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="string",comment="name: \"string\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Screenshot Border Resource Path",comment="name: \"Screenshot Border Resource Path\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="string",comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="Agent Capabilities",comment="name: \"Agent Capabilities\", typeName: \"std::optional<struct AgentCapabilities>\", id: 15, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+19 [label="std::optional<struct AgentCapabilities>",comment="name: \"std::optional<struct AgentCapabilities>\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+20 [label="Code Builder Override Uri",comment="name: \"Code Builder Override Uri\", typeName: \"std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >\", id: 20, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+24 [label="std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >",comment="name: \"std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+25 [label="Indiciates if the world has a quiz attached to it",comment="name: \"Indiciates if the world has a quiz attached to it\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"hasQuiz was only used by old JD China EDU and has been removed\""];
+26 [label="bool",comment="name: \"bool\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+27 [label="External Link Settings",comment="name: \"External Link Settings\", typeName: \"std::optional<struct ExternalLinkSettings>\", id: 27, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+31 [label="std::optional<struct ExternalLinkSettings>",comment="name: \"std::optional<struct ExternalLinkSettings>\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;4;6;8;10;12;14;19;24;26;31}
+
 }
 
 ```

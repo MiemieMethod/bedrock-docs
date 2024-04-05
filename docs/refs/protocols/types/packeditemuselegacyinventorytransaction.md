@@ -7,142 +7,93 @@
 ## 结构
 
 ```viz
-digraph PackedItemUseLegacyInventoryTransaction {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		37	[comment="name: \"TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: \
-512, notes: \"\"",
-			label="TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>"];
-		40	[comment="name: \"[No Data]\", typeName: \"\", id: 40, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="[No Data]"];
-		44	[comment="name: \"unsigned varint\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		47	[comment="name: \"byte\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		50	[comment="name: \"unsigned varint\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		53	[comment="name: \"byte\", typeName: \"\", id: 53, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		56	[comment="name: \"unsigned varint\", typeName: \"\", id: 56, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		59	[comment="name: \"InventoryAction\", typeName: \"\", id: 59, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=InventoryAction];
-		61	[comment="name: \"unsigned varint\", typeName: \"\", id: 61, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		63	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 63, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		65	[comment="name: \"varint\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		67	[comment="name: \"varint\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		69	[comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 69, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkItemStackDescriptor];
-		71	[comment="name: \"Vec3\", typeName: \"\", id: 71, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=Vec3];
-		73	[comment="name: \"Vec3\", typeName: \"\", id: 73, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=Vec3];
-		75	[comment="name: \"unsigned varint\", typeName: \"\", id: 75, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-	}
-	32	[comment="name: \"PackedItemUseLegacyInventoryTransaction\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PackedItemUseLegacyInventoryTransaction];
-	33	[comment="name: \"ID\", typeName: \"TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>\", id: 33, branchId: 0, recurseId: -1, attributes: \
-256, notes: \"\"",
-		label=ID];
-	32 -> 33;
-	38	[comment="name: \"Dependency on 'valid ID'\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 2, notes: \"\"",
-		label="Dependency on 'valid ID'",
-		shape=note];
-	32 -> 38;
-	54	[comment="name: \"Actions\", typeName: \"\", id: 54, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label=Actions];
-	32 -> 54;
-	60	[comment="name: \"Action Type\", typeName: \"\", id: 60, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ItemUseInventoryTransaction::\
-ActionType\"",
-		label="Action Type"];
-	32 -> 60;
-	62	[comment="name: \"Position\", typeName: \"NetworkBlockPosition\", id: 62, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Position];
-	32 -> 62;
-	64	[comment="name: \"Face\", typeName: \"\", id: 64, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Face];
-	32 -> 64;
-	66	[comment="name: \"Slot\", typeName: \"\", id: 66, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Slot];
-	32 -> 66;
-	68	[comment="name: \"Item\", typeName: \"NetworkItemStackDescriptor\", id: 68, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Item];
-	32 -> 68;
-	70	[comment="name: \"From Position\", typeName: \"Vec3\", id: 70, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="From Position"];
-	32 -> 70;
-	72	[comment="name: \"Click Position\", typeName: \"Vec3\", id: 72, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Click Position"];
-	32 -> 72;
-	74	[comment="name: \"Target Block Id\", typeName: \"\", id: 74, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Target Block Id"];
-	32 -> 74;
-	33 -> 37;
-	39	[comment="name: \"if (0)\", typeName: \"\", id: 39, branchId: 0, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (0)",
-		shape=diamond];
-	38 -> 39;
-	41	[comment="name: \"if (1)\", typeName: \"\", id: 41, branchId: 1, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (1)",
-		shape=diamond];
-	38 -> 41;
-	39 -> 40;
-	42	[comment="name: \"Container Slots\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Container Slots"];
-	41 -> 42;
-	43	[comment="name: \"Array Size\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	42 -> 43;
-	45	[comment="name: \"example element\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	42 -> 45;
-	43 -> 44;
-	46	[comment="name: \"Container Enum Name\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ContainerEnumName\"",
-		label="Container Enum Name"];
-	45 -> 46;
-	48	[comment="name: \"Slots\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label=Slots];
-	45 -> 48;
-	46 -> 47;
-	49	[comment="name: \"Array Size\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	48 -> 49;
-	51	[comment="name: \"example element\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	48 -> 51;
-	49 -> 50;
-	52	[comment="name: \"Slot\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Slot];
-	51 -> 52;
-	52 -> 53;
-	55	[comment="name: \"Array Size\", typeName: \"\", id: 55, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	54 -> 55;
-	57	[comment="name: \"example element\", typeName: \"\", id: 57, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	54 -> 57;
-	55 -> 56;
-	58	[comment="name: \"Action\", typeName: \"InventoryAction\", id: 58, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Action];
-	57 -> 58;
-	58 -> 59;
-	60 -> 61;
-	62 -> 63;
-	64 -> 65;
-	66 -> 67;
-	68 -> 69;
-	70 -> 71;
-	72 -> 73;
-	74 -> 75;
+digraph "PackedItemUseLegacyInventoryTransaction" {
+rankdir = LR
+32
+32 -> 33
+33 -> 37
+32 -> 38
+38 -> 39
+39 -> 40
+38 -> 41
+41 -> 42
+42 -> 43
+43 -> 44
+42 -> 45
+45 -> 46
+46 -> 47
+45 -> 48
+48 -> 49
+49 -> 50
+48 -> 51
+51 -> 52
+52 -> 53
+32 -> 54
+54 -> 55
+55 -> 56
+54 -> 57
+57 -> 58
+58 -> 59
+32 -> 60
+60 -> 61
+32 -> 62
+62 -> 63
+32 -> 64
+64 -> 65
+32 -> 66
+66 -> 67
+32 -> 68
+68 -> 69
+32 -> 70
+70 -> 71
+32 -> 72
+72 -> 73
+32 -> 74
+74 -> 75
+
+32 [label="PackedItemUseLegacyInventoryTransaction",comment="name: \"PackedItemUseLegacyInventoryTransaction\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+33 [label="ID",comment="name: \"ID\", typeName: \"TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>\", id: 33, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+37 [label="TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>",comment="name: \"TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+38 [label="Dependency on 'valid ID'",shape=note,comment="name: \"Dependency on 'valid ID'\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+39 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 39, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+40 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 40, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+41 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 41, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+42 [label="Container Slots",comment="name: \"Container Slots\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+43 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+44 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+45 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+46 [label="Container Enum Name",comment="name: \"Container Enum Name\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ContainerEnumName\""];
+47 [label="byte",comment="name: \"byte\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+48 [label="Slots",comment="name: \"Slots\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+49 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+50 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+51 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+52 [label="Slot",comment="name: \"Slot\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+53 [label="byte",comment="name: \"byte\", typeName: \"\", id: 53, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+54 [label="Actions",comment="name: \"Actions\", typeName: \"\", id: 54, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+55 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 55, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+56 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 56, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+57 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 57, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+58 [label="Action",comment="name: \"Action\", typeName: \"InventoryAction\", id: 58, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+59 [label="InventoryAction",comment="name: \"InventoryAction\", typeName: \"\", id: 59, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+60 [label="Action Type",comment="name: \"Action Type\", typeName: \"\", id: 60, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ItemUseInventoryTransaction::ActionType\""];
+61 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 61, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+62 [label="Position",comment="name: \"Position\", typeName: \"NetworkBlockPosition\", id: 62, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+63 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 63, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+64 [label="Face",comment="name: \"Face\", typeName: \"\", id: 64, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+65 [label="varint",comment="name: \"varint\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+66 [label="Slot",comment="name: \"Slot\", typeName: \"\", id: 66, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+67 [label="varint",comment="name: \"varint\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+68 [label="Item",comment="name: \"Item\", typeName: \"NetworkItemStackDescriptor\", id: 68, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+69 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 69, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+70 [label="From Position",comment="name: \"From Position\", typeName: \"Vec3\", id: 70, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+71 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 71, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+72 [label="Click Position",comment="name: \"Click Position\", typeName: \"Vec3\", id: 72, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+73 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 73, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+74 [label="Target Block Id",comment="name: \"Target Block Id\", typeName: \"\", id: 74, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+75 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 75, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;37;40;44;47;50;53;56;59;61;63;65;67;69;71;73;75}
+
 }
 
 ```

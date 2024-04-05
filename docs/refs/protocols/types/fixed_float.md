@@ -8,19 +8,16 @@
 
 ```viz
 digraph "Fixed Float" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint64];
-	}
-	0	[comment="name: \"Fixed Float\", typeName: \"\", id: 0, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Fixed Float"];
-	1	[comment="name: \"Modified float value\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Float value multiplied by \
-32\"",
-		label="Modified float value"];
-	0 -> 1;
-	1 -> 2;
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="Fixed Float",comment="name: \"Fixed Float\", typeName: \"\", id: 0, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Modified float value",comment="name: \"Modified float value\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Float value multiplied by 32\""];
+2 [label="varint64",comment="name: \"varint64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

@@ -7,37 +7,29 @@
 ## 结构
 
 ```viz
-digraph StructureTemplateDataRequestPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		4	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		6	[comment="name: \"StructureSettings\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=StructureSettings];
-		8	[comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	0	[comment="name: \"StructureTemplateDataRequestPacket\", typeName: \"\", id: 0, branchId: 132, recurseId: -1, attributes: 0, notes: \"\"",
-		label=StructureTemplateDataRequestPacket];
-	1	[comment="name: \"Structure Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Structure Name"];
-	0 -> 1;
-	3	[comment="name: \"Structure Position\", typeName: \"NetworkBlockPosition\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Structure Position"];
-	0 -> 3;
-	5	[comment="name: \"Structure Settings\", typeName: \"StructureSettings\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Structure Settings"];
-	0 -> 5;
-	7	[comment="name: \"Requested Operation\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureTemplateRequestOperation\"",
-		label="Requested Operation"];
-	0 -> 7;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
+digraph "StructureTemplateDataRequestPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+
+0 [label="StructureTemplateDataRequestPacket",comment="name: \"StructureTemplateDataRequestPacket\", typeName: \"\", id: 0, branchId: 132, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Structure Name",comment="name: \"Structure Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Structure Position",comment="name: \"Structure Position\", typeName: \"NetworkBlockPosition\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Structure Settings",comment="name: \"Structure Settings\", typeName: \"StructureSettings\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+6 [label="StructureSettings",comment="name: \"StructureSettings\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Requested Operation",comment="name: \"Requested Operation\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureTemplateRequestOperation\""];
+8 [label="byte",comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8}
+
 }
 
 ```

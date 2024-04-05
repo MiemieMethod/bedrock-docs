@@ -7,31 +7,25 @@
 ## 结构
 
 ```viz
-digraph GameTestResultsPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"bool\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		4	[comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"GameTestResultsPacket\", typeName: \"\", id: 0, branchId: 195, recurseId: -1, attributes: 0, notes: \"\"",
-		label=GameTestResultsPacket];
-	1	[comment="name: \"Succeeded\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Succeeded];
-	0 -> 1;
-	3	[comment="name: \"Error\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Error];
-	0 -> 3;
-	5	[comment="name: \"TestName\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=TestName];
-	0 -> 5;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
+digraph "GameTestResultsPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+
+0 [label="GameTestResultsPacket",comment="name: \"GameTestResultsPacket\", typeName: \"\", id: 0, branchId: 195, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Succeeded",comment="name: \"Succeeded\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="bool",comment="name: \"bool\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Error",comment="name: \"Error\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="TestName",comment="name: \"TestName\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6}
+
 }
 
 ```

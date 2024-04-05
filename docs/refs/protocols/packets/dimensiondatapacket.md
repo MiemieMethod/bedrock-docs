@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph DimensionDataPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		18	[comment="name: \"DimensionDefinitionGroup\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=DimensionDefinitionGroup];
-	}
-	0	[comment="name: \"DimensionDataPacket\", typeName: \"\", id: 0, branchId: 180, recurseId: -1, attributes: 0, notes: \"\"",
-		label=DimensionDataPacket];
-	1	[comment="name: \"Dimension Definition Group\", typeName: \"DimensionDefinitionGroup\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Dimension Definition Group"];
-	0 -> 1;
-	1 -> 18;
+digraph "DimensionDataPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 18
+
+0 [label="DimensionDataPacket",comment="name: \"DimensionDataPacket\", typeName: \"\", id: 0, branchId: 180, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Dimension Definition Group",comment="name: \"Dimension Definition Group\", typeName: \"DimensionDefinitionGroup\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+18 [label="DimensionDefinitionGroup",comment="name: \"DimensionDefinitionGroup\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;18}
+
 }
 
 ```

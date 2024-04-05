@@ -7,31 +7,25 @@
 ## 结构
 
 ```viz
-digraph SubChunkPos {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		8	[comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		10	[comment="name: \"varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		12	[comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	6	[comment="name: \"SubChunkPos\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SubChunkPos];
-	7	[comment="name: \"X\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=X];
-	6 -> 7;
-	9	[comment="name: \"Y\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Y];
-	6 -> 9;
-	11	[comment="name: \"Z\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Z];
-	6 -> 11;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
+digraph "SubChunkPos" {
+rankdir = LR
+6
+6 -> 7
+7 -> 8
+6 -> 9
+9 -> 10
+6 -> 11
+11 -> 12
+
+6 [label="SubChunkPos",comment="name: \"SubChunkPos\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+7 [label="X",comment="name: \"X\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="varint",comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Y",comment="name: \"Y\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="varint",comment="name: \"varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Z",comment="name: \"Z\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="varint",comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;8;10;12}
+
 }
 
 ```

@@ -7,40 +7,29 @@
 ## 结构
 
 ```viz
-digraph CreativeContentPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		3	[comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		9	[comment="name: \"TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: \
-512, notes: \"\"",
-			label="TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>"];
-		11	[comment="name: \"NetworkItemInstanceDescriptor\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkItemInstanceDescriptor];
-	}
-	0	[comment="name: \"CreativeContentPacket\", typeName: \"\", id: 0, branchId: 145, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CreativeContentPacket];
-	1	[comment="name: \"Write Entries\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Write Entries"];
-	0 -> 1;
-	2	[comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	1 -> 2;
-	4	[comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	1 -> 4;
-	2 -> 3;
-	5	[comment="name: \"Creative Net Id\", typeName: \"TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>\", id: 5, branchId: 0, recurseId: \
--1, attributes: 256, notes: \"\"",
-		label="Creative Net Id"];
-	4 -> 5;
-	10	[comment="name: \"Item Instance\", typeName: \"NetworkItemInstanceDescriptor\", id: 10, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Item Instance"];
-	4 -> 10;
-	5 -> 9;
-	10 -> 11;
+digraph "CreativeContentPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+2 -> 3
+1 -> 4
+4 -> 5
+5 -> 9
+4 -> 10
+10 -> 11
+
+0 [label="CreativeContentPacket",comment="name: \"CreativeContentPacket\", typeName: \"\", id: 0, branchId: 145, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Write Entries",comment="name: \"Write Entries\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+2 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+4 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+5 [label="Creative Net Id",comment="name: \"Creative Net Id\", typeName: \"TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+9 [label="TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>",comment="name: \"TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+10 [label="Item Instance",comment="name: \"Item Instance\", typeName: \"NetworkItemInstanceDescriptor\", id: 10, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+11 [label="NetworkItemInstanceDescriptor",comment="name: \"NetworkItemInstanceDescriptor\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;3;9;11}
+
 }
 
 ```

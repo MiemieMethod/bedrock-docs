@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph MoveActorDeltaPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		19	[comment="name: \"MoveActorDeltaData\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=MoveActorDeltaData];
-	}
-	0	[comment="name: \"MoveActorDeltaPacket\", typeName: \"\", id: 0, branchId: 111, recurseId: -1, attributes: 0, notes: \"\"",
-		label=MoveActorDeltaPacket];
-	1	[comment="name: \"Move Data\", typeName: \"MoveActorDeltaData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Move Data"];
-	0 -> 1;
-	1 -> 19;
+digraph "MoveActorDeltaPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 19
+
+0 [label="MoveActorDeltaPacket",comment="name: \"MoveActorDeltaPacket\", typeName: \"\", id: 0, branchId: 111, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Move Data",comment="name: \"Move Data\", typeName: \"MoveActorDeltaData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+19 [label="MoveActorDeltaData",comment="name: \"MoveActorDeltaData\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;19}
+
 }
 
 ```

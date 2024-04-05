@@ -7,117 +7,81 @@
 ## 结构
 
 ```viz
-digraph UpdateAttributesPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorRuntimeID];
-		5	[comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		8	[comment="name: \"float\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		10	[comment="name: \"float\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		12	[comment="name: \"float\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		14	[comment="name: \"float\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		16	[comment="name: \"string\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		19	[comment="name: \"unsigned varint\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		22	[comment="name: \"string\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		24	[comment="name: \"string\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		26	[comment="name: \"float\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		28	[comment="name: \"int\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=int];
-		30	[comment="name: \"int\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=int];
-		32	[comment="name: \"bool\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		34	[comment="name: \"unsigned varint64\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint64"];
-	}
-	0	[comment="name: \"UpdateAttributesPacket\", typeName: \"\", id: 0, branchId: 29, recurseId: -1, attributes: 0, notes: \"\"",
-		label=UpdateAttributesPacket];
-	1	[comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Target Runtime ID"];
-	0 -> 1;
-	3	[comment="name: \"Attribute List\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"AttributeData - Helper Struct\"",
-		label="Attribute List"];
-	0 -> 3;
-	33	[comment="name: \"Count of ticks since simulation started\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Count of ticks since simulation started"];
-	0 -> 33;
-	1 -> 2;
-	4	[comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	3 -> 4;
-	6	[comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	3 -> 6;
-	4 -> 5;
-	7	[comment="name: \"Min Value\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Min Value"];
-	6 -> 7;
-	9	[comment="name: \"Max Value\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Max Value"];
-	6 -> 9;
-	11	[comment="name: \"Current Value\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Current Value"];
-	6 -> 11;
-	13	[comment="name: \"Default Value\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Default Value"];
-	6 -> 13;
-	15	[comment="name: \"Attribute Name\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Attribute Name"];
-	6 -> 15;
-	17	[comment="name: \"Attribute Modifier\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Attribute Modifier"];
-	6 -> 17;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
-	13 -> 14;
-	15 -> 16;
-	18	[comment="name: \"Array Size\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	17 -> 18;
-	20	[comment="name: \"example element\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	17 -> 20;
-	18 -> 19;
-	21	[comment="name: \"ID\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ID];
-	20 -> 21;
-	23	[comment="name: \"Name\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Name];
-	20 -> 23;
-	25	[comment="name: \"Amount\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Amount];
-	20 -> 25;
-	27	[comment="name: \"Operation\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AttributeModifierOperation\"",
-		label=Operation];
-	20 -> 27;
-	29	[comment="name: \"Operand\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AttributeOperands\"",
-		label=Operand];
-	20 -> 29;
-	31	[comment="name: \"isSerializable?\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="isSerializable?"];
-	20 -> 31;
-	21 -> 22;
-	23 -> 24;
-	25 -> 26;
-	27 -> 28;
-	29 -> 30;
-	31 -> 32;
-	33 -> 34;
+digraph "UpdateAttributesPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+4 -> 5
+3 -> 6
+6 -> 7
+7 -> 8
+6 -> 9
+9 -> 10
+6 -> 11
+11 -> 12
+6 -> 13
+13 -> 14
+6 -> 15
+15 -> 16
+6 -> 17
+17 -> 18
+18 -> 19
+17 -> 20
+20 -> 21
+21 -> 22
+20 -> 23
+23 -> 24
+20 -> 25
+25 -> 26
+20 -> 27
+27 -> 28
+20 -> 29
+29 -> 30
+20 -> 31
+31 -> 32
+0 -> 33
+33 -> 34
+
+0 [label="UpdateAttributesPacket",comment="name: \"UpdateAttributesPacket\", typeName: \"\", id: 0, branchId: 29, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Target Runtime ID",comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Attribute List",comment="name: \"Attribute List\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"AttributeData - Helper Struct\""];
+4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+7 [label="Min Value",comment="name: \"Min Value\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="float",comment="name: \"float\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Max Value",comment="name: \"Max Value\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="float",comment="name: \"float\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Current Value",comment="name: \"Current Value\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="float",comment="name: \"float\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Default Value",comment="name: \"Default Value\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="float",comment="name: \"float\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="Attribute Name",comment="name: \"Attribute Name\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+16 [label="string",comment="name: \"string\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+17 [label="Attribute Modifier",comment="name: \"Attribute Modifier\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+18 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+19 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+20 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+21 [label="ID",comment="name: \"ID\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+22 [label="string",comment="name: \"string\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+23 [label="Name",comment="name: \"Name\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+24 [label="string",comment="name: \"string\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+25 [label="Amount",comment="name: \"Amount\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+26 [label="float",comment="name: \"float\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+27 [label="Operation",comment="name: \"Operation\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AttributeModifierOperation\""];
+28 [label="int",comment="name: \"int\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+29 [label="Operand",comment="name: \"Operand\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AttributeOperands\""];
+30 [label="int",comment="name: \"int\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+31 [label="isSerializable?",comment="name: \"isSerializable?\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+32 [label="bool",comment="name: \"bool\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+33 [label="Count of ticks since simulation started",comment="name: \"Count of ticks since simulation started\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+34 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;5;8;10;12;14;16;19;22;24;26;28;30;32;34}
+
 }
 
 ```

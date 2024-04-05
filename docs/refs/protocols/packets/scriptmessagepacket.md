@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph ScriptMessagePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		4	[comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"ScriptMessagePacket\", typeName: \"\", id: 0, branchId: 177, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ScriptMessagePacket];
-	1	[comment="name: \"Message Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Message Id"];
-	0 -> 1;
-	3	[comment="name: \"Message Value\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Message Value"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "ScriptMessagePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="ScriptMessagePacket",comment="name: \"ScriptMessagePacket\", typeName: \"\", id: 0, branchId: 177, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Message Id",comment="name: \"Message Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Message Value",comment="name: \"Message Value\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph AddBehaviorTreePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"AddBehaviorTreePacket\", typeName: \"\", id: 0, branchId: 89, recurseId: -1, attributes: 0, notes: \"\"",
-		label=AddBehaviorTreePacket];
-	1	[comment="name: \"Behavior Tree Structure (JSON)\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Behavior Tree Structure (JSON)"];
-	0 -> 1;
-	1 -> 2;
+digraph "AddBehaviorTreePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="AddBehaviorTreePacket",comment="name: \"AddBehaviorTreePacket\", typeName: \"\", id: 0, branchId: 89, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Behavior Tree Structure (JSON)",comment="name: \"Behavior Tree Structure (JSON)\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

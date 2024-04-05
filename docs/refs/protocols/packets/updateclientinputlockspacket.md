@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph UpdateClientInputLocksPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		4	[comment="name: \"Vec3\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=Vec3];
-	}
-	0	[comment="name: \"UpdateClientInputLocksPacket\", typeName: \"\", id: 0, branchId: 196, recurseId: -1, attributes: 0, notes: \"\"",
-		label=UpdateClientInputLocksPacket];
-	1	[comment="name: \"Input Lock ComponentData\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Input Lock ComponentData"];
-	0 -> 1;
-	3	[comment="name: \"Server Pos\", typeName: \"Vec3\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Server Pos"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "UpdateClientInputLocksPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="UpdateClientInputLocksPacket",comment="name: \"UpdateClientInputLocksPacket\", typeName: \"\", id: 0, branchId: 196, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Input Lock ComponentData",comment="name: \"Input Lock ComponentData\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Server Pos",comment="name: \"Server Pos\", typeName: \"Vec3\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

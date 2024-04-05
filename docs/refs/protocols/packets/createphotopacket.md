@@ -7,31 +7,25 @@
 ## 结构
 
 ```viz
-digraph CreatePhotoPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned int64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int64"];
-		4	[comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"CreatePhotoPacket\", typeName: \"\", id: 0, branchId: 171, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CreatePhotoPacket];
-	1	[comment="name: \"Raw ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Raw ID"];
-	0 -> 1;
-	3	[comment="name: \"Photo Name\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Photo Name"];
-	0 -> 3;
-	5	[comment="name: \"Photo Item Name\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Photo Item Name"];
-	0 -> 5;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
+digraph "CreatePhotoPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+
+0 [label="CreatePhotoPacket",comment="name: \"CreatePhotoPacket\", typeName: \"\", id: 0, branchId: 171, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Raw ID",comment="name: \"Raw ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="unsigned int64",comment="name: \"unsigned int64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Photo Name",comment="name: \"Photo Name\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Photo Item Name",comment="name: \"Photo Item Name\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6}
+
 }
 
 ```

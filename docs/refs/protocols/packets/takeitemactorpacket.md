@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph TakeItemActorPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorRuntimeID];
-		4	[comment="name: \"ActorRuntimeID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorRuntimeID];
-	}
-	0	[comment="name: \"TakeItemActorPacket\", typeName: \"\", id: 0, branchId: 17, recurseId: -1, attributes: 0, notes: \"\"",
-		label=TakeItemActorPacket];
-	1	[comment="name: \"Item Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Item Runtime ID"];
-	0 -> 1;
-	3	[comment="name: \"Actor Runtime ID\", typeName: \"ActorRuntimeID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Actor Runtime ID"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "TakeItemActorPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="TakeItemActorPacket",comment="name: \"TakeItemActorPacket\", typeName: \"\", id: 0, branchId: 17, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Item Runtime ID",comment="name: \"Item Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Actor Runtime ID",comment="name: \"Actor Runtime ID\", typeName: \"ActorRuntimeID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

@@ -8,19 +8,16 @@
 
 ```viz
 digraph "TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		57	[comment="name: \"unsigned varint\", typeName: \"\", id: 57, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-	}
-	55	[comment="name: \"TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>\", typeName: \"\", id: 55, branchId: 0, recurseId: -1, attributes: 0, \
-notes: \"\"",
-		label="TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>"];
-	56	[comment="name: \"Raw Id (32 bit unsigned)\", typeName: \"\", id: 56, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Raw Id (32 bit unsigned)"];
-	55 -> 56;
-	56 -> 57;
+rankdir = LR
+55
+55 -> 56
+56 -> 57
+
+55 [label="TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>",comment="name: \"TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>\", typeName: \"\", id: 55, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+56 [label="Raw Id (32 bit unsigned)",comment="name: \"Raw Id (32 bit unsigned)\", typeName: \"\", id: 56, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+57 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 57, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;57}
+
 }
 
 ```

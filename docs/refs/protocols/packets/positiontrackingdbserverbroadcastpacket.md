@@ -7,33 +7,25 @@
 ## 结构
 
 ```viz
-digraph PositionTrackingDBServerBroadcastPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		7	[comment="name: \"PositionTrackingId\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=PositionTrackingId];
-		9	[comment="name: \"CompoundTag\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CompoundTag];
-	}
-	0	[comment="name: \"PositionTrackingDBServerBroadcastPacket\", typeName: \"\", id: 0, branchId: 153, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PositionTrackingDBServerBroadcastPacket];
-	1	[comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PositionTrackingDBServerBroadcastPacket::\
-Action\"",
-		label=Action];
-	0 -> 1;
-	3	[comment="name: \"Id\", typeName: \"PositionTrackingId\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Id];
-	0 -> 3;
-	8	[comment="name: \"Position tracking data\", typeName: \"CompoundTag\", id: 8, branchId: 0, recurseId: -1, attributes: 256, notes: \"CompoundTag \
-for record key:version (byte)id (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)\"",
-		label="Position tracking data"];
-	0 -> 8;
-	1 -> 2;
-	3 -> 7;
-	8 -> 9;
+digraph "PositionTrackingDBServerBroadcastPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 7
+0 -> 8
+8 -> 9
+
+0 [label="PositionTrackingDBServerBroadcastPacket",comment="name: \"PositionTrackingDBServerBroadcastPacket\", typeName: \"\", id: 0, branchId: 153, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PositionTrackingDBServerBroadcastPacket::Action\""];
+2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Id",comment="name: \"Id\", typeName: \"PositionTrackingId\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+7 [label="PositionTrackingId",comment="name: \"PositionTrackingId\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+8 [label="Position tracking data",comment="name: \"Position tracking data\", typeName: \"CompoundTag\", id: 8, branchId: 0, recurseId: -1, attributes: 256, notes: \"CompoundTag for record key:version (byte)id (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)\""];
+9 [label="CompoundTag",comment="name: \"CompoundTag\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;7;9}
+
 }
 
 ```

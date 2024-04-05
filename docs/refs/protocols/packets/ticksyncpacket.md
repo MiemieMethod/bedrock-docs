@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph TickSyncPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"int64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=int64];
-		4	[comment="name: \"int64\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=int64];
-	}
-	0	[comment="name: \"TickSyncPacket\", typeName: \"\", id: 0, branchId: 23, recurseId: -1, attributes: 0, notes: \"\"",
-		label=TickSyncPacket];
-	1	[comment="name: \"Client Request Timestamp\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Client Request Timestamp"];
-	0 -> 1;
-	3	[comment="name: \"Server Reception Response Timestamp\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Server Reception Response Timestamp"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "TickSyncPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="TickSyncPacket",comment="name: \"TickSyncPacket\", typeName: \"\", id: 0, branchId: 23, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Client Request Timestamp",comment="name: \"Client Request Timestamp\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="int64",comment="name: \"int64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Server Reception Response Timestamp",comment="name: \"Server Reception Response Timestamp\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="int64",comment="name: \"int64\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

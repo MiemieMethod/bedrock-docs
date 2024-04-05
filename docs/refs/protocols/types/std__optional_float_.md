@@ -8,19 +8,16 @@
 
 ```viz
 digraph "std::optional<float>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		16	[comment="name: \"bool\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	14	[comment="name: \"std::optional<float>\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="std::optional<float>"];
-	15	[comment="name: \"Has Value\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data \
-type, otherwise nothing\"",
-		label="Has Value"];
-	14 -> 15;
-	15 -> 16;
+rankdir = LR
+14
+14 -> 15
+15 -> 16
+
+14 [label="std::optional<float>",comment="name: \"std::optional<float>\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+15 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+16 [label="bool",comment="name: \"bool\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;16}
+
 }
 
 ```

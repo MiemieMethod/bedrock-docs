@@ -7,44 +7,33 @@
 ## 结构
 
 ```viz
-digraph DeathInfoPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		5	[comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		10	[comment="name: \"string\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"DeathInfoPacket\", typeName: \"\", id: 0, branchId: 189, recurseId: -1, attributes: 0, notes: \"\"",
-		label=DeathInfoPacket];
-	1	[comment="name: \"Death Cause Attack Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Death Cause Attack Name"];
-	0 -> 1;
-	3	[comment="name: \"Death Cause Message List\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Death Cause Message List"];
-	0 -> 3;
-	1 -> 2;
-	4	[comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	3 -> 4;
-	6	[comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	3 -> 6;
-	4 -> 5;
-	7	[comment="name: \"Death Cause Entity Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Death Cause Entity Name"];
-	6 -> 7;
-	9	[comment="name: \"Death Cause Entity Name\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Death Cause Entity Name"];
-	6 -> 9;
-	7 -> 8;
-	9 -> 10;
+digraph "DeathInfoPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+4 -> 5
+3 -> 6
+6 -> 7
+7 -> 8
+6 -> 9
+9 -> 10
+
+0 [label="DeathInfoPacket",comment="name: \"DeathInfoPacket\", typeName: \"\", id: 0, branchId: 189, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Death Cause Attack Name",comment="name: \"Death Cause Attack Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Death Cause Message List",comment="name: \"Death Cause Message List\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+7 [label="Death Cause Entity Name",comment="name: \"Death Cause Entity Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Death Cause Entity Name",comment="name: \"Death Cause Entity Name\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="string",comment="name: \"string\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;5;8;10}
+
 }
 
 ```

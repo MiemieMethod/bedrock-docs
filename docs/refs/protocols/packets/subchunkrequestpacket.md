@@ -7,45 +7,33 @@
 ## 结构
 
 ```viz
-digraph SubChunkRequestPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		4	[comment="name: \"SubChunkPos\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=SubChunkPos];
-		6	[comment="name: \"unsigned int\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-		10	[comment="name: \"SubChunkPacket::SubChunkPosOffset\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="SubChunkPacket::SubChunkPosOffset"];
-	}
-	0	[comment="name: \"SubChunkRequestPacket\", typeName: \"\", id: 0, branchId: 175, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SubChunkRequestPacket];
-	1	[comment="name: \"Dimension Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Dimension Type"];
-	0 -> 1;
-	3	[comment="name: \"Center Pos\", typeName: \"SubChunkPos\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Center Pos"];
-	0 -> 3;
-	5	[comment="name: \"Request Count\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Request Count"];
-	0 -> 5;
-	7	[comment="name: \"SubChunk Pos Offset List\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="SubChunk Pos Offset List"];
-	0 -> 7;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	8	[comment="name: \"example element\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	7 -> 8;
-	9	[comment="name: \"SubChunk Offset Pos\", typeName: \"SubChunkPacket::SubChunkPosOffset\", id: 9, branchId: 0, recurseId: -1, attributes: 256, \
-notes: \"\"",
-		label="SubChunk Offset Pos"];
-	8 -> 9;
-	9 -> 10;
+digraph "SubChunkRequestPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+8 -> 9
+9 -> 10
+
+0 [label="SubChunkRequestPacket",comment="name: \"SubChunkRequestPacket\", typeName: \"\", id: 0, branchId: 175, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Dimension Type",comment="name: \"Dimension Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Center Pos",comment="name: \"Center Pos\", typeName: \"SubChunkPos\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="SubChunkPos",comment="name: \"SubChunkPos\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Request Count",comment="name: \"Request Count\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="SubChunk Pos Offset List",comment="name: \"SubChunk Pos Offset List\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+8 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+9 [label="SubChunk Offset Pos",comment="name: \"SubChunk Offset Pos\", typeName: \"SubChunkPacket::SubChunkPosOffset\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+10 [label="SubChunkPacket::SubChunkPosOffset",comment="name: \"SubChunkPacket::SubChunkPosOffset\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;10}
+
 }
 
 ```

@@ -7,32 +7,25 @@
 ## 结构
 
 ```viz
-digraph ItemData {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		174	[comment="name: \"string\", typeName: \"\", id: 174, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		176	[comment="name: \"short\", typeName: \"\", id: 176, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=short];
-		178	[comment="name: \"bool\", typeName: \"\", id: 178, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	172	[comment="name: \"ItemData\", typeName: \"\", id: 172, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ItemData];
-	173	[comment="name: \"Item Name\", typeName: \"\", id: 173, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Item Name"];
-	172 -> 173;
-	175	[comment="name: \"Item Id\", typeName: \"\", id: 175, branchId: 0, recurseId: -1, attributes: 0, notes: \"Block id's < 256 (can be negative); Item \
-id's > 257\"",
-		label="Item Id"];
-	172 -> 175;
-	177	[comment="name: \"Is Component Based\", typeName: \"\", id: 177, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is Component Based"];
-	172 -> 177;
-	173 -> 174;
-	175 -> 176;
-	177 -> 178;
+digraph "ItemData" {
+rankdir = LR
+172
+172 -> 173
+173 -> 174
+172 -> 175
+175 -> 176
+172 -> 177
+177 -> 178
+
+172 [label="ItemData",comment="name: \"ItemData\", typeName: \"\", id: 172, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+173 [label="Item Name",comment="name: \"Item Name\", typeName: \"\", id: 173, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+174 [label="string",comment="name: \"string\", typeName: \"\", id: 174, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+175 [label="Item Id",comment="name: \"Item Id\", typeName: \"\", id: 175, branchId: 0, recurseId: -1, attributes: 0, notes: \"Block id's < 256 (can be negative); Item id's > 257\""];
+176 [label="short",comment="name: \"short\", typeName: \"\", id: 176, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+177 [label="Is Component Based",comment="name: \"Is Component Based\", typeName: \"\", id: 177, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+178 [label="bool",comment="name: \"bool\", typeName: \"\", id: 178, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;174;176;178}
+
 }
 
 ```

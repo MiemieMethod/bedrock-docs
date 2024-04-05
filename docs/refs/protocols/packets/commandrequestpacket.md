@@ -7,37 +7,29 @@
 ## 结构
 
 ```viz
-digraph CommandRequestPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		22	[comment="name: \"CommandOriginData\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CommandOriginData];
-		24	[comment="name: \"bool\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		26	[comment="name: \"varint\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	0	[comment="name: \"CommandRequestPacket\", typeName: \"\", id: 0, branchId: 77, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CommandRequestPacket];
-	1	[comment="name: \"Command\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Command];
-	0 -> 1;
-	3	[comment="name: \"Command Origin\", typeName: \"CommandOriginData\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Command Origin"];
-	0 -> 3;
-	23	[comment="name: \"Is Internal Source?\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is Internal Source?"];
-	0 -> 23;
-	25	[comment="name: \"Version\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Version];
-	0 -> 25;
-	1 -> 2;
-	3 -> 22;
-	23 -> 24;
-	25 -> 26;
+digraph "CommandRequestPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 22
+0 -> 23
+23 -> 24
+0 -> 25
+25 -> 26
+
+0 [label="CommandRequestPacket",comment="name: \"CommandRequestPacket\", typeName: \"\", id: 0, branchId: 77, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Command",comment="name: \"Command\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Command Origin",comment="name: \"Command Origin\", typeName: \"CommandOriginData\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+22 [label="CommandOriginData",comment="name: \"CommandOriginData\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+23 [label="Is Internal Source?",comment="name: \"Is Internal Source?\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+24 [label="bool",comment="name: \"bool\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+25 [label="Version",comment="name: \"Version\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+26 [label="varint",comment="name: \"varint\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;22;24;26}
+
 }
 
 ```

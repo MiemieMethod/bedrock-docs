@@ -7,43 +7,33 @@
 ## 结构
 
 ```viz
-digraph PlayerSkinPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"mce::UUID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="mce::UUID"];
-		4	[comment="name: \"SerializedSkin\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=SerializedSkin];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		10	[comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	0	[comment="name: \"PlayerSkinPacket\", typeName: \"\", id: 0, branchId: 93, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PlayerSkinPacket];
-	1	[comment="name: \"UUID\", typeName: \"mce::UUID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=UUID];
-	0 -> 1;
-	3	[comment="name: \"Serialized Skin\", typeName: \"SerializedSkin\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Serialized Skin"];
-	0 -> 3;
-	5	[comment="name: \"New Skin Name\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="New Skin Name"];
-	0 -> 5;
-	7	[comment="name: \"Old Skin Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Old Skin Name"];
-	0 -> 7;
-	9	[comment="name: \"Whether skin is trusted marketplace content\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Whether skin is trusted marketplace content"];
-	0 -> 9;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
-	9 -> 10;
+digraph "PlayerSkinPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+0 -> 9
+9 -> 10
+
+0 [label="PlayerSkinPacket",comment="name: \"PlayerSkinPacket\", typeName: \"\", id: 0, branchId: 93, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="UUID",comment="name: \"UUID\", typeName: \"mce::UUID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="mce::UUID",comment="name: \"mce::UUID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Serialized Skin",comment="name: \"Serialized Skin\", typeName: \"SerializedSkin\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="SerializedSkin",comment="name: \"SerializedSkin\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="New Skin Name",comment="name: \"New Skin Name\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Old Skin Name",comment="name: \"Old Skin Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Whether skin is trusted marketplace content",comment="name: \"Whether skin is trusted marketplace content\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="bool",comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10}
+
 }
 
 ```

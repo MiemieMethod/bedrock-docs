@@ -7,26 +7,21 @@
 ## 结构
 
 ```viz
-digraph LoginPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"big endian int\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="big endian int"];
-		4	[comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"LoginPacket\", typeName: \"\", id: 0, branchId: 1, recurseId: -1, attributes: 0, notes: \"\"",
-		label=LoginPacket];
-	1	[comment="name: \"Client Network Version\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Client Network Version"];
-	0 -> 1;
-	3	[comment="name: \"Connection Request\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"see @connectionRequest.html#\
-diagram@\"",
-		label="Connection Request"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "LoginPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="LoginPacket",comment="name: \"LoginPacket\", typeName: \"\", id: 0, branchId: 1, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Client Network Version",comment="name: \"Client Network Version\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="big endian int",comment="name: \"big endian int\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Connection Request",comment="name: \"Connection Request\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"see @connectionRequest.html#diagram@\""];
+4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

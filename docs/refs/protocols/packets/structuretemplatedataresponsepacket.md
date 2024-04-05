@@ -7,62 +7,43 @@
 ## 结构
 
 ```viz
-digraph StructureTemplateDataResponsePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		6	[comment="name: \"bool\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		8	[comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		11	[comment="name: \"bool\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		13	[comment="name: \"CompoundTag\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CompoundTag];
-		15	[comment="name: \"byte\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	0	[comment="name: \"StructureTemplateDataResponsePacket\", typeName: \"\", id: 0, branchId: 133, recurseId: -1, attributes: 0, notes: \"\"",
-		label=StructureTemplateDataResponsePacket];
-	1	[comment="name: \"Structure Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Structure Name"];
-	0 -> 1;
-	3	[comment="name: \"Dependency on 'Requested structure exists?'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\"",
-		label="Dependency on 'Requested structure exists?'",
-		shape=note];
-	0 -> 3;
-	1 -> 2;
-	4	[comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (0)",
-		shape=diamond];
-	3 -> 4;
-	9	[comment="name: \"if (1)\", typeName: \"\", id: 9, branchId: 1, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (1)",
-		shape=diamond];
-	3 -> 9;
-	5	[comment="name: \"Failure\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"Bool set to false, indicating the requested \
-structure didn't exist.\"",
-		label=Failure];
-	4 -> 5;
-	7	[comment="name: \"Response Type\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureTemplateResponseType\"",
-		label="Response Type"];
-	4 -> 7;
-	5 -> 6;
-	7 -> 8;
-	10	[comment="name: \"Success\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"Bool set to true, indicating success.\"",
-		label=Success];
-	9 -> 10;
-	12	[comment="name: \"Structure's NBT\", typeName: \"CompoundTag\", id: 12, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Structure's NBT"];
-	9 -> 12;
-	14	[comment="name: \"Response Type\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureTemplateResponseType\"",
-		label="Response Type"];
-	9 -> 14;
-	10 -> 11;
-	12 -> 13;
-	14 -> 15;
+digraph "StructureTemplateDataResponsePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+4 -> 5
+5 -> 6
+4 -> 7
+7 -> 8
+3 -> 9
+9 -> 10
+10 -> 11
+9 -> 12
+12 -> 13
+9 -> 14
+14 -> 15
+
+0 [label="StructureTemplateDataResponsePacket",comment="name: \"StructureTemplateDataResponsePacket\", typeName: \"\", id: 0, branchId: 133, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Structure Name",comment="name: \"Structure Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Dependency on 'Requested structure exists?'",shape=note,comment="name: \"Dependency on 'Requested structure exists?'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+4 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+5 [label="Failure",comment="name: \"Failure\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"Bool set to false, indicating the requested structure didn't exist.\""];
+6 [label="bool",comment="name: \"bool\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Response Type",comment="name: \"Response Type\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureTemplateResponseType\""];
+8 [label="byte",comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 9, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+10 [label="Success",comment="name: \"Success\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"Bool set to true, indicating success.\""];
+11 [label="bool",comment="name: \"bool\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+12 [label="Structure's NBT",comment="name: \"Structure's NBT\", typeName: \"CompoundTag\", id: 12, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+13 [label="CompoundTag",comment="name: \"CompoundTag\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+14 [label="Response Type",comment="name: \"Response Type\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureTemplateResponseType\""];
+15 [label="byte",comment="name: \"byte\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;6;8;11;13;15}
+
 }
 
 ```

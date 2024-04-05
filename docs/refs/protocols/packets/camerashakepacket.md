@@ -7,37 +7,29 @@
 ## 结构
 
 ```viz
-digraph CameraShakePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"float\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		4	[comment="name: \"float\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		6	[comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		8	[comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	0	[comment="name: \"CameraShakePacket\", typeName: \"\", id: 0, branchId: 159, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CameraShakePacket];
-	1	[comment="name: \"Intensity\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Camera shake intensity\"",
-		label=Intensity];
-	0 -> 1;
-	3	[comment="name: \"Seconds\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"Duration\"",
-		label=Seconds];
-	0 -> 3;
-	5	[comment="name: \"Shake Type\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CameraShakeType\"",
-		label="Shake Type"];
-	0 -> 5;
-	7	[comment="name: \"Shake action\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CameraShakeAction\"",
-		label="Shake action"];
-	0 -> 7;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
+digraph "CameraShakePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+
+0 [label="CameraShakePacket",comment="name: \"CameraShakePacket\", typeName: \"\", id: 0, branchId: 159, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Intensity",comment="name: \"Intensity\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Camera shake intensity\""];
+2 [label="float",comment="name: \"float\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Seconds",comment="name: \"Seconds\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"Duration\""];
+4 [label="float",comment="name: \"float\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Shake Type",comment="name: \"Shake Type\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CameraShakeType\""];
+6 [label="byte",comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Shake action",comment="name: \"Shake action\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CameraShakeAction\""];
+8 [label="byte",comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8}
+
 }
 
 ```

@@ -7,20 +7,17 @@
 ## 结构
 
 ```viz
-digraph AvailableActorIdentifiersPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"CompoundTag\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CompoundTag];
-	}
-	0	[comment="name: \"AvailableActorIdentifiersPacket\", typeName: \"\", id: 0, branchId: 119, recurseId: -1, attributes: 0, notes: \"\"",
-		label=AvailableActorIdentifiersPacket];
-	1	[comment="name: \"Actor Info List\", typeName: \"CompoundTag\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"CompoundTag containing \
-a list of ActorInfo:rid (RuntimeId - Int),id (string),bid (BaseId - string),hasspawnegg (bool),summonable (bool)\"",
-		label="Actor Info List"];
-	0 -> 1;
-	1 -> 2;
+digraph "AvailableActorIdentifiersPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="AvailableActorIdentifiersPacket",comment="name: \"AvailableActorIdentifiersPacket\", typeName: \"\", id: 0, branchId: 119, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Actor Info List",comment="name: \"Actor Info List\", typeName: \"CompoundTag\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"CompoundTag containing a list of ActorInfo:rid (RuntimeId - Int),id (string),bid (BaseId - string),hasspawnegg (bool),summonable (bool)\""];
+2 [label="CompoundTag",comment="name: \"CompoundTag\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

@@ -7,55 +7,41 @@
 ## 结构
 
 ```viz
-digraph StructureEditorData {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		10	[comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		12	[comment="name: \"bool\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		14	[comment="name: \"varint\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		45	[comment="name: \"StructureSettings\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=StructureSettings];
-		47	[comment="name: \"varint\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	4	[comment="name: \"StructureEditorData\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=StructureEditorData];
-	5	[comment="name: \"Structure Name\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Structure Name"];
-	4 -> 5;
-	7	[comment="name: \"Data Field\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Used for structure blocks in data mode.\"",
-		label="Data Field"];
-	4 -> 7;
-	9	[comment="name: \"Should players be included?\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Should players be included?"];
-	4 -> 9;
-	11	[comment="name: \"Should show bounding box?\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Should show bounding box?"];
-	4 -> 11;
-	13	[comment="name: \"Structure Block Type\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureBlockType\"",
-		label="Structure Block Type"];
-	4 -> 13;
-	15	[comment="name: \"Structure Settings\", typeName: \"StructureSettings\", id: 15, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Structure Settings"];
-	4 -> 15;
-	46	[comment="name: \"Redstone Save Mode\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureRedstoneSaveMode\"",
-		label="Redstone Save Mode"];
-	4 -> 46;
-	5 -> 6;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
-	13 -> 14;
-	15 -> 45;
-	46 -> 47;
+digraph "StructureEditorData" {
+rankdir = LR
+4
+4 -> 5
+5 -> 6
+4 -> 7
+7 -> 8
+4 -> 9
+9 -> 10
+4 -> 11
+11 -> 12
+4 -> 13
+13 -> 14
+4 -> 15
+15 -> 45
+4 -> 46
+46 -> 47
+
+4 [label="StructureEditorData",comment="name: \"StructureEditorData\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="Structure Name",comment="name: \"Structure Name\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Data Field",comment="name: \"Data Field\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Used for structure blocks in data mode.\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Should players be included?",comment="name: \"Should players be included?\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="bool",comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Should show bounding box?",comment="name: \"Should show bounding box?\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="bool",comment="name: \"bool\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Structure Block Type",comment="name: \"Structure Block Type\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureBlockType\""];
+14 [label="varint",comment="name: \"varint\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="Structure Settings",comment="name: \"Structure Settings\", typeName: \"StructureSettings\", id: 15, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+45 [label="StructureSettings",comment="name: \"StructureSettings\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+46 [label="Redstone Save Mode",comment="name: \"Redstone Save Mode\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureRedstoneSaveMode\""];
+47 [label="varint",comment="name: \"varint\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;6;8;10;12;14;45;47}
+
 }
 
 ```

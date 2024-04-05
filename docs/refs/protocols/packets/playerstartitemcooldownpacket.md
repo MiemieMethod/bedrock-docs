@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph PlayerStartItemCooldownPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		4	[comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	0	[comment="name: \"PlayerStartItemCooldownPacket\", typeName: \"\", id: 0, branchId: 176, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PlayerStartItemCooldownPacket];
-	1	[comment="name: \"Item Category\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Item Category"];
-	0 -> 1;
-	3	[comment="name: \"Duration Ticks\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Duration Ticks"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "PlayerStartItemCooldownPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="PlayerStartItemCooldownPacket",comment="name: \"PlayerStartItemCooldownPacket\", typeName: \"\", id: 0, branchId: 176, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Item Category",comment="name: \"Item Category\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Duration Ticks",comment="name: \"Duration Ticks\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="varint",comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

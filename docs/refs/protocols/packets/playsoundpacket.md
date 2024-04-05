@@ -7,37 +7,29 @@
 ## 结构
 
 ```viz
-digraph PlaySoundPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		4	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		6	[comment="name: \"float\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		8	[comment="name: \"float\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-	}
-	0	[comment="name: \"PlaySoundPacket\", typeName: \"\", id: 0, branchId: 86, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PlaySoundPacket];
-	1	[comment="name: \"Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Name];
-	0 -> 1;
-	3	[comment="name: \"Position\", typeName: \"NetworkBlockPosition\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Position];
-	0 -> 3;
-	5	[comment="name: \"Volume\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Volume];
-	0 -> 5;
-	7	[comment="name: \"Pitch\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Pitch];
-	0 -> 7;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
+digraph "PlaySoundPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+
+0 [label="PlaySoundPacket",comment="name: \"PlaySoundPacket\", typeName: \"\", id: 0, branchId: 86, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Name",comment="name: \"Name\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Position",comment="name: \"Position\", typeName: \"NetworkBlockPosition\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Volume",comment="name: \"Volume\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="float",comment="name: \"float\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Pitch",comment="name: \"Pitch\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="float",comment="name: \"float\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8}
+
 }
 
 ```

@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph SimpleEventPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned short\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned short"];
-	}
-	0	[comment="name: \"SimpleEventPacket\", typeName: \"\", id: 0, branchId: 64, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SimpleEventPacket];
-	1	[comment="name: \"Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SimpleEventPacket::Subtype\"",
-		label=Type];
-	0 -> 1;
-	1 -> 2;
+digraph "SimpleEventPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="SimpleEventPacket",comment="name: \"SimpleEventPacket\", typeName: \"\", id: 0, branchId: 64, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Type",comment="name: \"Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SimpleEventPacket::Subtype\""];
+2 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

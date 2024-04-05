@@ -8,19 +8,16 @@
 
 ```viz
 digraph "std::optional<enum ModalFormCancelReason>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		11	[comment="name: \"bool\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	9	[comment="name: \"std::optional<enum ModalFormCancelReason>\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="std::optional<enum ModalFormCancelReason>"];
-	10	[comment="name: \"Has Value\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data \
-type, otherwise nothing\"",
-		label="Has Value"];
-	9 -> 10;
-	10 -> 11;
+rankdir = LR
+9
+9 -> 10
+10 -> 11
+
+9 [label="std::optional<enum ModalFormCancelReason>",comment="name: \"std::optional<enum ModalFormCancelReason>\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+11 [label="bool",comment="name: \"bool\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;11}
+
 }
 
 ```

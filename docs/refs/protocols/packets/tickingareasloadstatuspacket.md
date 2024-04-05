@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph TickingAreasLoadStatusPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"bool\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	0	[comment="name: \"TickingAreasLoadStatusPacket\", typeName: \"\", id: 0, branchId: 179, recurseId: -1, attributes: 0, notes: \"\"",
-		label=TickingAreasLoadStatusPacket];
-	1	[comment="name: \"Waiting For Preload\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Waiting For Preload"];
-	0 -> 1;
-	1 -> 2;
+digraph "TickingAreasLoadStatusPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="TickingAreasLoadStatusPacket",comment="name: \"TickingAreasLoadStatusPacket\", typeName: \"\", id: 0, branchId: 179, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Waiting For Preload",comment="name: \"Waiting For Preload\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="bool",comment="name: \"bool\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

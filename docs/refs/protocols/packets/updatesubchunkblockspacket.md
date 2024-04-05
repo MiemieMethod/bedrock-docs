@@ -7,107 +7,73 @@
 ## 结构
 
 ```viz
-digraph UpdateSubChunkBlocksPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		5	[comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		8	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		10	[comment="name: \"unsigned varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		12	[comment="name: \"unsigned varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		14	[comment="name: \"unsigned varint64\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint64"];
-		16	[comment="name: \"unsigned varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		19	[comment="name: \"unsigned varint\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		22	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		24	[comment="name: \"unsigned varint\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		26	[comment="name: \"unsigned varint\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		28	[comment="name: \"unsigned varint64\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint64"];
-		30	[comment="name: \"unsigned varint\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-	}
-	0	[comment="name: \"UpdateSubChunkBlocksPacket\", typeName: \"\", id: 0, branchId: 172, recurseId: -1, attributes: 0, notes: \"\"",
-		label=UpdateSubChunkBlocksPacket];
-	1	[comment="name: \"Sub Chunk Block Position\", typeName: \"NetworkBlockPosition\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Sub Chunk Block Position"];
-	0 -> 1;
-	3	[comment="name: \"Blocks Changed - Standards\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Blocks Changed - Standards"];
-	0 -> 3;
-	17	[comment="name: \"Blocks Changed - Extras\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Blocks Changed - Extras"];
-	0 -> 17;
-	1 -> 2;
-	4	[comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	3 -> 4;
-	6	[comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	3 -> 6;
-	4 -> 5;
-	7	[comment="name: \"Pos\", typeName: \"NetworkBlockPosition\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Pos];
-	6 -> 7;
-	9	[comment="name: \"Runtime Id\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Runtime Id"];
-	6 -> 9;
-	11	[comment="name: \"Update Flags\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Update Flags"];
-	6 -> 11;
-	13	[comment="name: \"Sync Message - Entity Unique ID\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Sync Message - Entity Unique ID"];
-	6 -> 13;
-	15	[comment="name: \"Sync Message - Message\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorBlockSyncMessage::\
-MessageId\"",
-		label="Sync Message - Message"];
-	6 -> 15;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
-	13 -> 14;
-	15 -> 16;
-	18	[comment="name: \"Array Size\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	17 -> 18;
-	20	[comment="name: \"example element\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	17 -> 20;
-	18 -> 19;
-	21	[comment="name: \"Pos\", typeName: \"NetworkBlockPosition\", id: 21, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Pos];
-	20 -> 21;
-	23	[comment="name: \"Runtime Id\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Runtime Id"];
-	20 -> 23;
-	25	[comment="name: \"Update Flags\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Update Flags"];
-	20 -> 25;
-	27	[comment="name: \"Sync Message - Entity Unique ID\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Sync Message - Entity Unique ID"];
-	20 -> 27;
-	29	[comment="name: \"Sync Message - Message\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorBlockSyncMessage::\
-MessageId\"",
-		label="Sync Message - Message"];
-	20 -> 29;
-	21 -> 22;
-	23 -> 24;
-	25 -> 26;
-	27 -> 28;
-	29 -> 30;
+digraph "UpdateSubChunkBlocksPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+4 -> 5
+3 -> 6
+6 -> 7
+7 -> 8
+6 -> 9
+9 -> 10
+6 -> 11
+11 -> 12
+6 -> 13
+13 -> 14
+6 -> 15
+15 -> 16
+0 -> 17
+17 -> 18
+18 -> 19
+17 -> 20
+20 -> 21
+21 -> 22
+20 -> 23
+23 -> 24
+20 -> 25
+25 -> 26
+20 -> 27
+27 -> 28
+20 -> 29
+29 -> 30
+
+0 [label="UpdateSubChunkBlocksPacket",comment="name: \"UpdateSubChunkBlocksPacket\", typeName: \"\", id: 0, branchId: 172, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Sub Chunk Block Position",comment="name: \"Sub Chunk Block Position\", typeName: \"NetworkBlockPosition\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Blocks Changed - Standards",comment="name: \"Blocks Changed - Standards\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+7 [label="Pos",comment="name: \"Pos\", typeName: \"NetworkBlockPosition\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+8 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Runtime Id",comment="name: \"Runtime Id\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Update Flags",comment="name: \"Update Flags\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Sync Message - Entity Unique ID",comment="name: \"Sync Message - Entity Unique ID\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="Sync Message - Message",comment="name: \"Sync Message - Message\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorBlockSyncMessage::MessageId\""];
+16 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+17 [label="Blocks Changed - Extras",comment="name: \"Blocks Changed - Extras\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+18 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+19 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+20 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+21 [label="Pos",comment="name: \"Pos\", typeName: \"NetworkBlockPosition\", id: 21, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+22 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+23 [label="Runtime Id",comment="name: \"Runtime Id\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+24 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+25 [label="Update Flags",comment="name: \"Update Flags\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+26 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+27 [label="Sync Message - Entity Unique ID",comment="name: \"Sync Message - Entity Unique ID\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+28 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+29 [label="Sync Message - Message",comment="name: \"Sync Message - Message\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorBlockSyncMessage::MessageId\""];
+30 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;5;8;10;12;14;16;19;22;24;26;28;30}
+
 }
 
 ```

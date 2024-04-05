@@ -7,20 +7,17 @@
 ## 结构
 
 ```viz
-digraph OnScreenTextureAnimationPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned int\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-	}
-	0	[comment="name: \"OnScreenTextureAnimationPacket\", typeName: \"\", id: 0, branchId: 130, recurseId: -1, attributes: 0, notes: \"\"",
-		label=OnScreenTextureAnimationPacket];
-	1	[comment="name: \"Effect Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Id of the effect whose icon should be \
-shown on-screen.\"",
-		label="Effect Id"];
-	0 -> 1;
-	1 -> 2;
+digraph "OnScreenTextureAnimationPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="OnScreenTextureAnimationPacket",comment="name: \"OnScreenTextureAnimationPacket\", typeName: \"\", id: 0, branchId: 130, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Effect Id",comment="name: \"Effect Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Id of the effect whose icon should be shown on-screen.\""];
+2 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

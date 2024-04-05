@@ -7,13 +7,13 @@
 ## 结构
 
 ```viz
-digraph ServerSettingsRequestPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-	}
-	0	[comment="name: \"ServerSettingsRequestPacket\", typeName: \"\", id: 0, branchId: 102, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ServerSettingsRequestPacket];
+digraph "ServerSettingsRequestPacket" {
+rankdir = LR
+0
+
+0 [label="ServerSettingsRequestPacket",comment="name: \"ServerSettingsRequestPacket\", typeName: \"\", id: 0, branchId: 102, recurseId: -1, attributes: 0, notes: \"\""];
+{ rank = max}
+
 }
 
 ```

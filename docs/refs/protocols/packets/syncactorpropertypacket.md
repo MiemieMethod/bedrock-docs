@@ -7,20 +7,17 @@
 ## 结构
 
 ```viz
-digraph SyncActorPropertyPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"CompoundTag\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CompoundTag];
-	}
-	0	[comment="name: \"SyncActorPropertyPacket\", typeName: \"\", id: 0, branchId: 165, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SyncActorPropertyPacket];
-	1	[comment="name: \"Property Data\", typeName: \"CompoundTag\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"type: actor identifier \
-hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag\"",
-		label="Property Data"];
-	0 -> 1;
-	1 -> 2;
+digraph "SyncActorPropertyPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="SyncActorPropertyPacket",comment="name: \"SyncActorPropertyPacket\", typeName: \"\", id: 0, branchId: 165, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Property Data",comment="name: \"Property Data\", typeName: \"CompoundTag\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"type: actor identifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag\""];
+2 [label="CompoundTag",comment="name: \"CompoundTag\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

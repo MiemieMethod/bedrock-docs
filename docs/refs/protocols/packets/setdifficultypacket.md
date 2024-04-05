@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph SetDifficultyPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-	}
-	0	[comment="name: \"SetDifficultyPacket\", typeName: \"\", id: 0, branchId: 60, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SetDifficultyPacket];
-	1	[comment="name: \"Difficulty\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Difficulty\"",
-		label=Difficulty];
-	0 -> 1;
-	1 -> 2;
+digraph "SetDifficultyPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="SetDifficultyPacket",comment="name: \"SetDifficultyPacket\", typeName: \"\", id: 0, branchId: 60, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Difficulty",comment="name: \"Difficulty\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Difficulty\""];
+2 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

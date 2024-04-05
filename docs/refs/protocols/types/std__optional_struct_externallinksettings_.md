@@ -8,19 +8,16 @@
 
 ```viz
 digraph "std::optional<struct ExternalLinkSettings>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		30	[comment="name: \"bool\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	28	[comment="name: \"std::optional<struct ExternalLinkSettings>\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="std::optional<struct ExternalLinkSettings>"];
-	29	[comment="name: \"Has Value\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data \
-type, otherwise nothing\"",
-		label="Has Value"];
-	28 -> 29;
-	29 -> 30;
+rankdir = LR
+28
+28 -> 29
+29 -> 30
+
+28 [label="std::optional<struct ExternalLinkSettings>",comment="name: \"std::optional<struct ExternalLinkSettings>\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+29 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+30 [label="bool",comment="name: \"bool\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;30}
+
 }
 
 ```

@@ -7,63 +7,45 @@
 ## 结构
 
 ```viz
-digraph PropertySyncData {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		64	[comment="name: \"unsigned varint\", typeName: \"\", id: 64, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		67	[comment="name: \"unsigned varint\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		69	[comment="name: \"varint\", typeName: \"\", id: 69, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		72	[comment="name: \"unsigned varint\", typeName: \"\", id: 72, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		75	[comment="name: \"unsigned varint\", typeName: \"\", id: 75, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		77	[comment="name: \"float\", typeName: \"\", id: 77, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-	}
-	61	[comment="name: \"PropertySyncData\", typeName: \"\", id: 61, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PropertySyncData];
-	62	[comment="name: \"Int Entries List\", typeName: \"\", id: 62, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Int Entries List"];
-	61 -> 62;
-	70	[comment="name: \"Float Entries List\", typeName: \"\", id: 70, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Float Entries List"];
-	61 -> 70;
-	63	[comment="name: \"Array Size\", typeName: \"\", id: 63, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	62 -> 63;
-	65	[comment="name: \"example element\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	62 -> 65;
-	63 -> 64;
-	66	[comment="name: \"Property Index\", typeName: \"\", id: 66, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Property Index"];
-	65 -> 66;
-	68	[comment="name: \"Data\", typeName: \"\", id: 68, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Data];
-	65 -> 68;
-	66 -> 67;
-	68 -> 69;
-	71	[comment="name: \"Array Size\", typeName: \"\", id: 71, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	70 -> 71;
-	73	[comment="name: \"example element\", typeName: \"\", id: 73, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	70 -> 73;
-	71 -> 72;
-	74	[comment="name: \"Property Index\", typeName: \"\", id: 74, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Property Index"];
-	73 -> 74;
-	76	[comment="name: \"Data\", typeName: \"\", id: 76, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Data];
-	73 -> 76;
-	74 -> 75;
-	76 -> 77;
+digraph "PropertySyncData" {
+rankdir = LR
+61
+61 -> 62
+62 -> 63
+63 -> 64
+62 -> 65
+65 -> 66
+66 -> 67
+65 -> 68
+68 -> 69
+61 -> 70
+70 -> 71
+71 -> 72
+70 -> 73
+73 -> 74
+74 -> 75
+73 -> 76
+76 -> 77
+
+61 [label="PropertySyncData",comment="name: \"PropertySyncData\", typeName: \"\", id: 61, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+62 [label="Int Entries List",comment="name: \"Int Entries List\", typeName: \"\", id: 62, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+63 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 63, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+64 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 64, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+65 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+66 [label="Property Index",comment="name: \"Property Index\", typeName: \"\", id: 66, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+67 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+68 [label="Data",comment="name: \"Data\", typeName: \"\", id: 68, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+69 [label="varint",comment="name: \"varint\", typeName: \"\", id: 69, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+70 [label="Float Entries List",comment="name: \"Float Entries List\", typeName: \"\", id: 70, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+71 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 71, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+72 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 72, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+73 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 73, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+74 [label="Property Index",comment="name: \"Property Index\", typeName: \"\", id: 74, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+75 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 75, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+76 [label="Data",comment="name: \"Data\", typeName: \"\", id: 76, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+77 [label="float",comment="name: \"float\", typeName: \"\", id: 77, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;64;67;69;72;75;77}
+
 }
 
 ```

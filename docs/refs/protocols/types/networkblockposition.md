@@ -7,31 +7,25 @@
 ## 结构
 
 ```viz
-digraph NetworkBlockPosition {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		44	[comment="name: \"varint\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		46	[comment="name: \"unsigned varint\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		48	[comment="name: \"varint\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	42	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=NetworkBlockPosition];
-	43	[comment="name: \"X\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=X];
-	42 -> 43;
-	45	[comment="name: \"Y\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Y];
-	42 -> 45;
-	47	[comment="name: \"Z\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Z];
-	42 -> 47;
-	43 -> 44;
-	45 -> 46;
-	47 -> 48;
+digraph "NetworkBlockPosition" {
+rankdir = LR
+42
+42 -> 43
+43 -> 44
+42 -> 45
+45 -> 46
+42 -> 47
+47 -> 48
+
+42 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+43 [label="X",comment="name: \"X\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+44 [label="varint",comment="name: \"varint\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+45 [label="Y",comment="name: \"Y\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+46 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+47 [label="Z",comment="name: \"Z\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+48 [label="varint",comment="name: \"varint\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;44;46;48}
+
 }
 
 ```

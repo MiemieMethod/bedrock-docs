@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph ActorRuntimeID {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		9	[comment="name: \"unsigned varint64\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint64"];
-	}
-	7	[comment="name: \"ActorRuntimeID\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ActorRuntimeID];
-	8	[comment="name: \"Actor Runtime ID\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Actor Runtime ID"];
-	7 -> 8;
-	8 -> 9;
+digraph "ActorRuntimeID" {
+rankdir = LR
+7
+7 -> 8
+8 -> 9
+
+7 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="Actor Runtime ID",comment="name: \"Actor Runtime ID\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+9 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;9}
+
 }
 
 ```

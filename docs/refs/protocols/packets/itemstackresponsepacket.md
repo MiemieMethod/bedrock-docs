@@ -7,32 +7,25 @@
 ## 结构
 
 ```viz
-digraph ItemStackResponsePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		3	[comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		46	[comment="name: \"ItemStackResponseInfo\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ItemStackResponseInfo];
-	}
-	0	[comment="name: \"ItemStackResponsePacket\", typeName: \"\", id: 0, branchId: 148, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ItemStackResponsePacket];
-	1	[comment="name: \"Responses\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label=Responses];
-	0 -> 1;
-	2	[comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	1 -> 2;
-	4	[comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	1 -> 4;
-	2 -> 3;
-	5	[comment="name: \"Response Info\", typeName: \"ItemStackResponseInfo\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Response Info"];
-	4 -> 5;
-	5 -> 46;
+digraph "ItemStackResponsePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+2 -> 3
+1 -> 4
+4 -> 5
+5 -> 46
+
+0 [label="ItemStackResponsePacket",comment="name: \"ItemStackResponsePacket\", typeName: \"\", id: 0, branchId: 148, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Responses",comment="name: \"Responses\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+2 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+4 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+5 [label="Response Info",comment="name: \"Response Info\", typeName: \"ItemStackResponseInfo\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+46 [label="ItemStackResponseInfo",comment="name: \"ItemStackResponseInfo\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;3;46}
+
 }
 
 ```

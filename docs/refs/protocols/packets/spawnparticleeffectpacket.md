@@ -7,45 +7,33 @@
 ## 结构
 
 ```viz
-digraph SpawnParticleEffectPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		4	[comment="name: \"ActorUniqueID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorUniqueID];
-		6	[comment="name: \"Vec3\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=Vec3];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		18	[comment="name: \"std::optional<class MolangVariableMap>\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="std::optional<class MolangVariableMap>"];
-	}
-	0	[comment="name: \"SpawnParticleEffectPacket\", typeName: \"\", id: 0, branchId: 118, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SpawnParticleEffectPacket];
-	1	[comment="name: \"Dimension Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Dimension Id"];
-	0 -> 1;
-	3	[comment="name: \"Actor Id\", typeName: \"ActorUniqueID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Actor Id"];
-	0 -> 3;
-	5	[comment="name: \"Position\", typeName: \"Vec3\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Position];
-	0 -> 5;
-	7	[comment="name: \"Effect Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Should be an effect that exists on \
-the client. No-op if the effect doesn't exist.\"",
-		label="Effect Name"];
-	0 -> 7;
-	9	[comment="name: \"Molang Variables\", typeName: \"std::optional<class MolangVariableMap>\", id: 9, branchId: 0, recurseId: -1, attributes: 256, \
-notes: \"\"",
-		label="Molang Variables"];
-	0 -> 9;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
-	9 -> 18;
+digraph "SpawnParticleEffectPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+0 -> 9
+9 -> 18
+
+0 [label="SpawnParticleEffectPacket",comment="name: \"SpawnParticleEffectPacket\", typeName: \"\", id: 0, branchId: 118, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Dimension Id",comment="name: \"Dimension Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Actor Id",comment="name: \"Actor Id\", typeName: \"ActorUniqueID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Position",comment="name: \"Position\", typeName: \"Vec3\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+6 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Effect Name",comment="name: \"Effect Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Should be an effect that exists on the client. No-op if the effect doesn't exist.\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Molang Variables",comment="name: \"Molang Variables\", typeName: \"std::optional<class MolangVariableMap>\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+18 [label="std::optional<class MolangVariableMap>",comment="name: \"std::optional<class MolangVariableMap>\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;18}
+
 }
 
 ```

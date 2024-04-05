@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph CompressedBiomeDefinitionList {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"CompressedBiomeDefinitionList\", typeName: \"\", id: 0, branchId: 301, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CompressedBiomeDefinitionList];
-	1	[comment="name: \"Compressed BiomeData\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Compressed BiomeData"];
-	0 -> 1;
-	1 -> 2;
+digraph "CompressedBiomeDefinitionList" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="CompressedBiomeDefinitionList",comment="name: \"CompressedBiomeDefinitionList\", typeName: \"\", id: 0, branchId: 301, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Compressed BiomeData",comment="name: \"Compressed BiomeData\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

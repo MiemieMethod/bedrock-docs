@@ -7,32 +7,25 @@
 ## 结构
 
 ```viz
-digraph ModalFormResponsePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		7	[comment="name: \"std::optional<class Json::Value>\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="std::optional<class Json::Value>"];
-		12	[comment="name: \"std::optional<enum ModalFormCancelReason>\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="std::optional<enum ModalFormCancelReason>"];
-	}
-	0	[comment="name: \"ModalFormResponsePacket\", typeName: \"\", id: 0, branchId: 101, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ModalFormResponsePacket];
-	1	[comment="name: \"Form ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Form ID"];
-	0 -> 1;
-	3	[comment="name: \"JSON Response\", typeName: \"std::optional<class Json::Value>\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="JSON Response"];
-	0 -> 3;
-	8	[comment="name: \"Form Cancel Reason\", typeName: \"std::optional<enum ModalFormCancelReason>\", id: 8, branchId: 0, recurseId: -1, attributes: \
-256, notes: \"\"",
-		label="Form Cancel Reason"];
-	0 -> 8;
-	1 -> 2;
-	3 -> 7;
-	8 -> 12;
+digraph "ModalFormResponsePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 7
+0 -> 8
+8 -> 12
+
+0 [label="ModalFormResponsePacket",comment="name: \"ModalFormResponsePacket\", typeName: \"\", id: 0, branchId: 101, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Form ID",comment="name: \"Form ID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="JSON Response",comment="name: \"JSON Response\", typeName: \"std::optional<class Json::Value>\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+7 [label="std::optional<class Json::Value>",comment="name: \"std::optional<class Json::Value>\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+8 [label="Form Cancel Reason",comment="name: \"Form Cancel Reason\", typeName: \"std::optional<enum ModalFormCancelReason>\", id: 8, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+12 [label="std::optional<enum ModalFormCancelReason>",comment="name: \"std::optional<enum ModalFormCancelReason>\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;7;12}
+
 }
 
 ```

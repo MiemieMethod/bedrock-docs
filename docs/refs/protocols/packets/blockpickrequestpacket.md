@@ -7,31 +7,25 @@
 ## 结构
 
 ```viz
-digraph BlockPickRequestPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"BlockPos\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=BlockPos];
-		4	[comment="name: \"bool\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		6	[comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	0	[comment="name: \"BlockPickRequestPacket\", typeName: \"\", id: 0, branchId: 34, recurseId: -1, attributes: 0, notes: \"\"",
-		label=BlockPickRequestPacket];
-	1	[comment="name: \"Position\", typeName: \"BlockPos\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Position];
-	0 -> 1;
-	3	[comment="name: \"With Data?\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="With Data?"];
-	0 -> 3;
-	5	[comment="name: \"Max Slots\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Max Slots"];
-	0 -> 5;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
+digraph "BlockPickRequestPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+
+0 [label="BlockPickRequestPacket",comment="name: \"BlockPickRequestPacket\", typeName: \"\", id: 0, branchId: 34, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Position",comment="name: \"Position\", typeName: \"BlockPos\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="BlockPos",comment="name: \"BlockPos\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="With Data?",comment="name: \"With Data?\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="bool",comment="name: \"bool\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Max Slots",comment="name: \"Max Slots\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="byte",comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6}
+
 }
 
 ```

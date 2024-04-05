@@ -7,13 +7,13 @@
 ## 结构
 
 ```viz
-digraph RefreshEntitlementsPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-	}
-	0	[comment="name: \"RefreshEntitlementsPacket\", typeName: \"\", id: 0, branchId: 305, recurseId: -1, attributes: 0, notes: \"\"",
-		label=RefreshEntitlementsPacket];
+digraph "RefreshEntitlementsPacket" {
+rankdir = LR
+0
+
+0 [label="RefreshEntitlementsPacket",comment="name: \"RefreshEntitlementsPacket\", typeName: \"\", id: 0, branchId: 305, recurseId: -1, attributes: 0, notes: \"\""];
+{ rank = max}
+
 }
 
 ```

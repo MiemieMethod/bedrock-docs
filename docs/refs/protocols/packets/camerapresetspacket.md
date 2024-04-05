@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph CameraPresetsPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		37	[comment="name: \"CameraPresets\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CameraPresets];
-	}
-	0	[comment="name: \"CameraPresetsPacket\", typeName: \"\", id: 0, branchId: 198, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CameraPresetsPacket];
-	1	[comment="name: \"Camera Presets\", typeName: \"CameraPresets\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Camera Presets"];
-	0 -> 1;
-	1 -> 37;
+digraph "CameraPresetsPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 37
+
+0 [label="CameraPresetsPacket",comment="name: \"CameraPresetsPacket\", typeName: \"\", id: 0, branchId: 198, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Camera Presets",comment="name: \"Camera Presets\", typeName: \"CameraPresets\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+37 [label="CameraPresets",comment="name: \"CameraPresets\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;37}
+
 }
 
 ```

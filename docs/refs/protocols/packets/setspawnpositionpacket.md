@@ -7,37 +7,29 @@
 ## 结构
 
 ```viz
-digraph SetSpawnPositionPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		4	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		6	[comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		8	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-	}
-	0	[comment="name: \"SetSpawnPositionPacket\", typeName: \"\", id: 0, branchId: 43, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SetSpawnPositionPacket];
-	1	[comment="name: \"Spawn Position Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SpawnPositionType\"",
-		label="Spawn Position Type"];
-	0 -> 1;
-	3	[comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Block Position"];
-	0 -> 3;
-	5	[comment="name: \"Dimension type\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Dimension type"];
-	0 -> 5;
-	7	[comment="name: \"Spawn Block Pos\", typeName: \"NetworkBlockPosition\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Spawn Block Pos"];
-	0 -> 7;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
+digraph "SetSpawnPositionPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+
+0 [label="SetSpawnPositionPacket",comment="name: \"SetSpawnPositionPacket\", typeName: \"\", id: 0, branchId: 43, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Spawn Position Type",comment="name: \"Spawn Position Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SpawnPositionType\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Block Position",comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Dimension type",comment="name: \"Dimension type\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="varint",comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Spawn Block Pos",comment="name: \"Spawn Block Pos\", typeName: \"NetworkBlockPosition\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+8 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8}
+
 }
 
 ```

@@ -7,54 +7,37 @@
 ## 结构
 
 ```viz
-digraph NpcDialoguePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"unsigned int64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int64"];
-		4	[comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		6	[comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		10	[comment="name: \"string\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		12	[comment="name: \"string\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"NpcDialoguePacket\", typeName: \"\", id: 0, branchId: 169, recurseId: -1, attributes: 0, notes: \"\"",
-		label=NpcDialoguePacket];
-	1	[comment="name: \"Npc Id Raw Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"The ActorUniqueID of the NPC being \
-remote fired\"",
-		label="Npc Id Raw Id"];
-	0 -> 1;
-	3	[comment="name: \"Npc Dialogue Action Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: NpcDialoguePacket::\
-NpcDialogueActionType\"",
-		label="Npc Dialogue Action Type"];
-	0 -> 3;
-	5	[comment="name: \"Dialogue\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"The text to be displayed to the client\"",
-		label=Dialogue];
-	0 -> 5;
-	7	[comment="name: \"Scene Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"The scene the data has been pulled from \
-for the client to reference\"",
-		label="Scene Name"];
-	0 -> 7;
-	9	[comment="name: \"Npc Name\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"The name of the NPC to be displayed to \
-the client\"",
-		label="Npc Name"];
-	0 -> 9;
-	11	[comment="name: \"Action JSON\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"The JSON string of the buttons/actions \
-the server can perform. The server is still authoritative on what actions can be performed\"",
-		label="Action JSON"];
-	0 -> 11;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
+digraph "NpcDialoguePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+0 -> 9
+9 -> 10
+0 -> 11
+11 -> 12
+
+0 [label="NpcDialoguePacket",comment="name: \"NpcDialoguePacket\", typeName: \"\", id: 0, branchId: 169, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Npc Id Raw Id",comment="name: \"Npc Id Raw Id\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"The ActorUniqueID of the NPC being remote fired\""];
+2 [label="unsigned int64",comment="name: \"unsigned int64\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Npc Dialogue Action Type",comment="name: \"Npc Dialogue Action Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: NpcDialoguePacket::NpcDialogueActionType\""];
+4 [label="varint",comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Dialogue",comment="name: \"Dialogue\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"The text to be displayed to the client\""];
+6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Scene Name",comment="name: \"Scene Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"The scene the data has been pulled from for the client to reference\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Npc Name",comment="name: \"Npc Name\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"The name of the NPC to be displayed to the client\""];
+10 [label="string",comment="name: \"string\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Action JSON",comment="name: \"Action JSON\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"The JSON string of the buttons/actions the server can perform. The server is still authoritative on what actions can be performed\""];
+12 [label="string",comment="name: \"string\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10;12}
+
 }
 
 ```

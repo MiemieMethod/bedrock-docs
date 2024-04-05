@@ -7,31 +7,25 @@
 ## 结构
 
 ```viz
-digraph HurtArmorPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		4	[comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		6	[comment="name: \"unsigned varint64\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint64"];
-	}
-	0	[comment="name: \"HurtArmorPacket\", typeName: \"\", id: 0, branchId: 38, recurseId: -1, attributes: 0, notes: \"\"",
-		label=HurtArmorPacket];
-	1	[comment="name: \"Cause\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Cause];
-	0 -> 1;
-	3	[comment="name: \"Damage\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Damage];
-	0 -> 3;
-	5	[comment="name: \"Armor Slots\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"Bitset\"",
-		label="Armor Slots"];
-	0 -> 5;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
+digraph "HurtArmorPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+
+0 [label="HurtArmorPacket",comment="name: \"HurtArmorPacket\", typeName: \"\", id: 0, branchId: 38, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Cause",comment="name: \"Cause\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Damage",comment="name: \"Damage\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="varint",comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Armor Slots",comment="name: \"Armor Slots\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"Bitset\""];
+6 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6}
+
 }
 
 ```

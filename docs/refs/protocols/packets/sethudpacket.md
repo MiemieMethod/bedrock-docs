@@ -7,38 +7,29 @@
 ## 结构
 
 ```viz
-digraph SetHudPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		3	[comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		6	[comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		8	[comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	0	[comment="name: \"SetHudPacket\", typeName: \"\", id: 0, branchId: 308, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SetHudPacket];
-	1	[comment="name: \"Hud Element List\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Hud Element List"];
-	0 -> 1;
-	7	[comment="name: \"isHudVisible\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: HudVisibility\"",
-		label=isHudVisible];
-	0 -> 7;
-	2	[comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	1 -> 2;
-	4	[comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	1 -> 4;
-	2 -> 3;
-	5	[comment="name: \"Hud Element\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: HudElement\"",
-		label="Hud Element"];
-	4 -> 5;
-	5 -> 6;
-	7 -> 8;
+digraph "SetHudPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+2 -> 3
+1 -> 4
+4 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+
+0 [label="SetHudPacket",comment="name: \"SetHudPacket\", typeName: \"\", id: 0, branchId: 308, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Hud Element List",comment="name: \"Hud Element List\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+2 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+4 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+5 [label="Hud Element",comment="name: \"Hud Element\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: HudElement\""];
+6 [label="varint",comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="isHudVisible",comment="name: \"isHudVisible\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: HudVisibility\""];
+8 [label="varint",comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;3;6;8}
+
 }
 
 ```

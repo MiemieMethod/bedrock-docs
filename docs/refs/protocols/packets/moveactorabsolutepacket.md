@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph MoveActorAbsolutePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		15	[comment="name: \"MoveActorAbsoluteData\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=MoveActorAbsoluteData];
-	}
-	0	[comment="name: \"MoveActorAbsolutePacket\", typeName: \"\", id: 0, branchId: 18, recurseId: -1, attributes: 0, notes: \"\"",
-		label=MoveActorAbsolutePacket];
-	1	[comment="name: \"Move Data\", typeName: \"MoveActorAbsoluteData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Move Data"];
-	0 -> 1;
-	1 -> 15;
+digraph "MoveActorAbsolutePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 15
+
+0 [label="MoveActorAbsolutePacket",comment="name: \"MoveActorAbsolutePacket\", typeName: \"\", id: 0, branchId: 18, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Move Data",comment="name: \"Move Data\", typeName: \"MoveActorAbsoluteData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+15 [label="MoveActorAbsoluteData",comment="name: \"MoveActorAbsoluteData\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;15}
+
 }
 
 ```

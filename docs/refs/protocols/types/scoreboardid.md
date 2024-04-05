@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph ScoreboardId {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		10	[comment="name: \"varint64\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint64];
-	}
-	8	[comment="name: \"ScoreboardId\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ScoreboardId];
-	9	[comment="name: \"Id\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Id];
-	8 -> 9;
-	9 -> 10;
+digraph "ScoreboardId" {
+rankdir = LR
+8
+8 -> 9
+9 -> 10
+
+8 [label="ScoreboardId",comment="name: \"ScoreboardId\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+9 [label="Id",comment="name: \"Id\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="varint64",comment="name: \"varint64\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;10}
+
 }
 
 ```

@@ -7,67 +7,49 @@
 ## 结构
 
 ```viz
-digraph BaseDescription {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		4	[comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		6	[comment="name: \"unsigned short\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned short"];
-		9	[comment="name: \"string\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		11	[comment="name: \"byte\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		14	[comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		17	[comment="name: \"string\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		19	[comment="name: \"unsigned short\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned short"];
-	}
-	1	[comment="name: \"BaseDescription\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=BaseDescription];
-	2	[comment="name: \"Internal ItemDescriptor\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Internal ItemDescriptor"];
-	1 -> 2;
-	7	[comment="name: \"Molang Descriptor\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Molang Descriptor"];
-	1 -> 7;
-	12	[comment="name: \"ItemTag Descriptor\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="ItemTag Descriptor"];
-	1 -> 12;
-	15	[comment="name: \"Deferred Descriptor\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Deferred Descriptor"];
-	1 -> 15;
-	3	[comment="name: \"Full Name\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Full Name"];
-	2 -> 3;
-	5	[comment="name: \"Aux Value\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Aux Value"];
-	2 -> 5;
-	3 -> 4;
-	5 -> 6;
-	8	[comment="name: \"Full Name\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Full Name"];
-	7 -> 8;
-	10	[comment="name: \"Molang Version\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: MolangVersion\"",
-		label="Molang Version"];
-	7 -> 10;
-	8 -> 9;
-	10 -> 11;
-	13	[comment="name: \"Item Tag\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Item Tag"];
-	12 -> 13;
-	13 -> 14;
-	16	[comment="name: \"Full Name\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Full Name"];
-	15 -> 16;
-	18	[comment="name: \"Aux Value\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Aux Value"];
-	15 -> 18;
-	16 -> 17;
-	18 -> 19;
+digraph "BaseDescription" {
+rankdir = LR
+1
+1 -> 2
+2 -> 3
+3 -> 4
+2 -> 5
+5 -> 6
+1 -> 7
+7 -> 8
+8 -> 9
+7 -> 10
+10 -> 11
+1 -> 12
+12 -> 13
+13 -> 14
+1 -> 15
+15 -> 16
+16 -> 17
+15 -> 18
+18 -> 19
+
+1 [label="BaseDescription",comment="name: \"BaseDescription\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="Internal ItemDescriptor",comment="name: \"Internal ItemDescriptor\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="Full Name",comment="name: \"Full Name\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Aux Value",comment="name: \"Aux Value\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Molang Descriptor",comment="name: \"Molang Descriptor\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="Full Name",comment="name: \"Full Name\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+9 [label="string",comment="name: \"string\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+10 [label="Molang Version",comment="name: \"Molang Version\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: MolangVersion\""];
+11 [label="byte",comment="name: \"byte\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+12 [label="ItemTag Descriptor",comment="name: \"ItemTag Descriptor\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+13 [label="Item Tag",comment="name: \"Item Tag\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+14 [label="string",comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="Deferred Descriptor",comment="name: \"Deferred Descriptor\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+16 [label="Full Name",comment="name: \"Full Name\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+17 [label="string",comment="name: \"string\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+18 [label="Aux Value",comment="name: \"Aux Value\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+19 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;4;6;9;11;14;17;19}
+
 }
 
 ```

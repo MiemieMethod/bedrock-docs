@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph CameraInstructionPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		15	[comment="name: \"CameraInstruction\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=CameraInstruction];
-	}
-	0	[comment="name: \"CameraInstructionPacket\", typeName: \"\", id: 0, branchId: 300, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CameraInstructionPacket];
-	1	[comment="name: \"Camera Instruction\", typeName: \"CameraInstruction\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Camera Instruction"];
-	0 -> 1;
-	1 -> 15;
+digraph "CameraInstructionPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 15
+
+0 [label="CameraInstructionPacket",comment="name: \"CameraInstructionPacket\", typeName: \"\", id: 0, branchId: 300, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Camera Instruction",comment="name: \"Camera Instruction\", typeName: \"CameraInstruction\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+15 [label="CameraInstruction",comment="name: \"CameraInstruction\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;15}
+
 }
 
 ```

@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph GameRulesChangedPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"GameRulesChangedPacketData\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=GameRulesChangedPacketData];
-	}
-	0	[comment="name: \"GameRulesChangedPacket\", typeName: \"\", id: 0, branchId: 72, recurseId: -1, attributes: 0, notes: \"\"",
-		label=GameRulesChangedPacket];
-	1	[comment="name: \"Rules Data\", typeName: \"GameRulesChangedPacketData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Rules Data"];
-	0 -> 1;
-	1 -> 2;
+digraph "GameRulesChangedPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="GameRulesChangedPacket",comment="name: \"GameRulesChangedPacket\", typeName: \"\", id: 0, branchId: 72, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Rules Data",comment="name: \"Rules Data\", typeName: \"GameRulesChangedPacketData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="GameRulesChangedPacketData",comment="name: \"GameRulesChangedPacketData\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

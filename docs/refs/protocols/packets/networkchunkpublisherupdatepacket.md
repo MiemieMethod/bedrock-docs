@@ -7,50 +7,37 @@
 ## 结构
 
 ```viz
-digraph NetworkChunkPublisherUpdatePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"BlockPos\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=BlockPos];
-		4	[comment="name: \"unsigned varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		6	[comment="name: \"unsigned int\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-		9	[comment="name: \"unsigned varint\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		12	[comment="name: \"ChunkPos\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ChunkPos];
-	}
-	0	[comment="name: \"NetworkChunkPublisherUpdatePacket\", typeName: \"\", id: 0, branchId: 121, recurseId: -1, attributes: 0, notes: \"\"",
-		label=NetworkChunkPublisherUpdatePacket];
-	1	[comment="name: \"New position for view\", typeName: \"BlockPos\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="New position for view"];
-	0 -> 1;
-	3	[comment="name: \"New radius for view\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="New radius for view"];
-	0 -> 3;
-	5	[comment="name: \"Server Built Chunks Size\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Server Built Chunks Size"];
-	0 -> 5;
-	7	[comment="name: \"Server Built Chunks List\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Server Built Chunks List"];
-	0 -> 7;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	8	[comment="name: \"Array Size\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	7 -> 8;
-	10	[comment="name: \"example element\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	7 -> 10;
-	8 -> 9;
-	11	[comment="name: \"Chunk Pos\", typeName: \"ChunkPos\", id: 11, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Chunk Pos"];
-	10 -> 11;
-	11 -> 12;
+digraph "NetworkChunkPublisherUpdatePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+8 -> 9
+7 -> 10
+10 -> 11
+11 -> 12
+
+0 [label="NetworkChunkPublisherUpdatePacket",comment="name: \"NetworkChunkPublisherUpdatePacket\", typeName: \"\", id: 0, branchId: 121, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="New position for view",comment="name: \"New position for view\", typeName: \"BlockPos\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="BlockPos",comment="name: \"BlockPos\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="New radius for view",comment="name: \"New radius for view\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Server Built Chunks Size",comment="name: \"Server Built Chunks Size\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Server Built Chunks List",comment="name: \"Server Built Chunks List\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+8 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+9 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+10 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+11 [label="Chunk Pos",comment="name: \"Chunk Pos\", typeName: \"ChunkPos\", id: 11, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+12 [label="ChunkPos",comment="name: \"ChunkPos\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;9;12}
+
 }
 
 ```

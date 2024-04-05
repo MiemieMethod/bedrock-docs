@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph ServerStatsPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"float\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-		4	[comment="name: \"float\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=float];
-	}
-	0	[comment="name: \"ServerStatsPacket\", typeName: \"\", id: 0, branchId: 192, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ServerStatsPacket];
-	1	[comment="name: \"ServerTime\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ServerTime];
-	0 -> 1;
-	3	[comment="name: \"NetworkTime\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=NetworkTime];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "ServerStatsPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="ServerStatsPacket",comment="name: \"ServerStatsPacket\", typeName: \"\", id: 0, branchId: 192, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="ServerTime",comment="name: \"ServerTime\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="float",comment="name: \"float\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="NetworkTime",comment="name: \"NetworkTime\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="float",comment="name: \"float\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

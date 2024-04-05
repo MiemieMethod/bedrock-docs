@@ -7,43 +7,33 @@
 ## 结构
 
 ```viz
-digraph SetPlayerInventoryOptionsPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		4	[comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		6	[comment="name: \"bool\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		8	[comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-		10	[comment="name: \"varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	0	[comment="name: \"SetPlayerInventoryOptionsPacket\", typeName: \"\", id: 0, branchId: 307, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SetPlayerInventoryOptionsPacket];
-	1	[comment="name: \"Left Inventory Tab\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryLeftTabIndex\"",
-		label="Left Inventory Tab"];
-	0 -> 1;
-	3	[comment="name: \"Right Inventory Tab\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryRightTabIndex\"",
-		label="Right Inventory Tab"];
-	0 -> 3;
-	5	[comment="name: \"Filtering\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Filtering];
-	0 -> 5;
-	7	[comment="name: \"Layout Inv\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryLayout\"",
-		label="Layout Inv"];
-	0 -> 7;
-	9	[comment="name: \"Layout Craft\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryLayout\"",
-		label="Layout Craft"];
-	0 -> 9;
-	1 -> 2;
-	3 -> 4;
-	5 -> 6;
-	7 -> 8;
-	9 -> 10;
+digraph "SetPlayerInventoryOptionsPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+0 -> 5
+5 -> 6
+0 -> 7
+7 -> 8
+0 -> 9
+9 -> 10
+
+0 [label="SetPlayerInventoryOptionsPacket",comment="name: \"SetPlayerInventoryOptionsPacket\", typeName: \"\", id: 0, branchId: 307, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Left Inventory Tab",comment="name: \"Left Inventory Tab\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryLeftTabIndex\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Right Inventory Tab",comment="name: \"Right Inventory Tab\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryRightTabIndex\""];
+4 [label="varint",comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Filtering",comment="name: \"Filtering\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="bool",comment="name: \"bool\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Layout Inv",comment="name: \"Layout Inv\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryLayout\""];
+8 [label="varint",comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Layout Craft",comment="name: \"Layout Craft\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventoryLayout\""];
+10 [label="varint",comment="name: \"varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10}
+
 }
 
 ```

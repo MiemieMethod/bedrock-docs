@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph SetLocalPlayerAsInitializedPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorRuntimeID];
-	}
-	0	[comment="name: \"SetLocalPlayerAsInitializedPacket\", typeName: \"\", id: 0, branchId: 113, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SetLocalPlayerAsInitializedPacket];
-	1	[comment="name: \"Player ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Player ID"];
-	0 -> 1;
-	1 -> 2;
+digraph "SetLocalPlayerAsInitializedPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="SetLocalPlayerAsInitializedPacket",comment="name: \"SetLocalPlayerAsInitializedPacket\", typeName: \"\", id: 0, branchId: 113, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Player ID",comment="name: \"Player ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph UpdateAbilitiesPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"SerializedAbilitiesData\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=SerializedAbilitiesData];
-	}
-	0	[comment="name: \"UpdateAbilitiesPacket\", typeName: \"\", id: 0, branchId: 187, recurseId: -1, attributes: 0, notes: \"\"",
-		label=UpdateAbilitiesPacket];
-	1	[comment="name: \"Data\", typeName: \"SerializedAbilitiesData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Data];
-	0 -> 1;
-	1 -> 2;
+digraph "UpdateAbilitiesPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="UpdateAbilitiesPacket",comment="name: \"UpdateAbilitiesPacket\", typeName: \"\", id: 0, branchId: 187, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Data",comment="name: \"Data\", typeName: \"SerializedAbilitiesData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="SerializedAbilitiesData",comment="name: \"SerializedAbilitiesData\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph RecipeIngredient {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		16	[comment="name: \"byte\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		18	[comment="name: \"varint\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	14	[comment="name: \"RecipeIngredient\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=RecipeIngredient];
-	15	[comment="name: \"InternalType\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ItemDescriptor::InternalType\"",
-		label=InternalType];
-	14 -> 15;
-	17	[comment="name: \"StackSize\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=StackSize];
-	14 -> 17;
-	15 -> 16;
-	17 -> 18;
+digraph "RecipeIngredient" {
+rankdir = LR
+14
+14 -> 15
+15 -> 16
+14 -> 17
+17 -> 18
+
+14 [label="RecipeIngredient",comment="name: \"RecipeIngredient\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+15 [label="InternalType",comment="name: \"InternalType\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ItemDescriptor::InternalType\""];
+16 [label="byte",comment="name: \"byte\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+17 [label="StackSize",comment="name: \"StackSize\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+18 [label="varint",comment="name: \"varint\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;16;18}
+
 }
 
 ```

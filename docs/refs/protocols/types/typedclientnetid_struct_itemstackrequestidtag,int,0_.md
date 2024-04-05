@@ -8,18 +8,16 @@
 
 ```viz
 digraph "TypedClientNetId<struct ItemStackRequestIdTag,int,0>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		84	[comment="name: \"varint\", typeName: \"\", id: 84, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	82	[comment="name: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", typeName: \"\", id: 82, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="TypedClientNetId<struct ItemStackRequestIdTag,int,0>"];
-	83	[comment="name: \"Raw Id (32 bit signed)\", typeName: \"\", id: 83, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Raw Id (32 bit signed)"];
-	82 -> 83;
-	83 -> 84;
+rankdir = LR
+82
+82 -> 83
+83 -> 84
+
+82 [label="TypedClientNetId<struct ItemStackRequestIdTag,int,0>",comment="name: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", typeName: \"\", id: 82, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+83 [label="Raw Id (32 bit signed)",comment="name: \"Raw Id (32 bit signed)\", typeName: \"\", id: 83, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+84 [label="varint",comment="name: \"varint\", typeName: \"\", id: 84, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;84}
+
 }
 
 ```

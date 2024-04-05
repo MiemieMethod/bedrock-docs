@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph AutomationClientConnectPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		5	[comment="name: \"WebSocketPacketData\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=WebSocketPacketData];
-	}
-	0	[comment="name: \"AutomationClientConnectPacket\", typeName: \"\", id: 0, branchId: 95, recurseId: -1, attributes: 0, notes: \"\"",
-		label=AutomationClientConnectPacket];
-	1	[comment="name: \"Web Socket Data\", typeName: \"WebSocketPacketData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Web Socket Data"];
-	0 -> 1;
-	1 -> 5;
+digraph "AutomationClientConnectPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 5
+
+0 [label="AutomationClientConnectPacket",comment="name: \"AutomationClientConnectPacket\", typeName: \"\", id: 0, branchId: 95, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Web Socket Data",comment="name: \"Web Socket Data\", typeName: \"WebSocketPacketData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+5 [label="WebSocketPacketData",comment="name: \"WebSocketPacketData\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;5}
+
 }
 
 ```

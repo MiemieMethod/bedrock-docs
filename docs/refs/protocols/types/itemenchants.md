@@ -7,94 +7,65 @@
 ## 结构
 
 ```viz
-digraph ItemEnchants {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		10	[comment="name: \"int\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=int];
-		13	[comment="name: \"unsigned varint\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		16	[comment="name: \"byte\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		18	[comment="name: \"byte\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		21	[comment="name: \"unsigned varint\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		24	[comment="name: \"byte\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		26	[comment="name: \"byte\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		29	[comment="name: \"unsigned varint\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		32	[comment="name: \"byte\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		34	[comment="name: \"byte\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	8	[comment="name: \"ItemEnchants\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ItemEnchants];
-	9	[comment="name: \"Slot\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Slot];
-	8 -> 9;
-	11	[comment="name: \"Item Enchants For Given Activation\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Item Enchants For Given Activation"];
-	8 -> 11;
-	19	[comment="name: \"Item Enchants For Given Activation\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Item Enchants For Given Activation"];
-	8 -> 19;
-	27	[comment="name: \"Item Enchants For Given Activation\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 8, notes: \"\"",
-		label="Item Enchants For Given Activation"];
-	8 -> 27;
-	9 -> 10;
-	12	[comment="name: \"Array Size\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	11 -> 12;
-	14	[comment="name: \"example element\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	11 -> 14;
-	12 -> 13;
-	15	[comment="name: \"Enchant Type\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Enchant::Type\"",
-		label="Enchant Type"];
-	14 -> 15;
-	17	[comment="name: \"Enchant Level\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Enchant Level"];
-	14 -> 17;
-	15 -> 16;
-	17 -> 18;
-	20	[comment="name: \"Array Size\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	19 -> 20;
-	22	[comment="name: \"example element\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	19 -> 22;
-	20 -> 21;
-	23	[comment="name: \"Enchant Type\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Enchant::Type\"",
-		label="Enchant Type"];
-	22 -> 23;
-	25	[comment="name: \"Enchant Level\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Enchant Level"];
-	22 -> 25;
-	23 -> 24;
-	25 -> 26;
-	28	[comment="name: \"Array Size\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Array Size"];
-	27 -> 28;
-	30	[comment="name: \"example element\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 16, notes: \"\"",
-		label="example element",
-		style=dotted];
-	27 -> 30;
-	28 -> 29;
-	31	[comment="name: \"Enchant Type\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Enchant::Type\"",
-		label="Enchant Type"];
-	30 -> 31;
-	33	[comment="name: \"Enchant Level\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Enchant Level"];
-	30 -> 33;
-	31 -> 32;
-	33 -> 34;
+digraph "ItemEnchants" {
+rankdir = LR
+8
+8 -> 9
+9 -> 10
+8 -> 11
+11 -> 12
+12 -> 13
+11 -> 14
+14 -> 15
+15 -> 16
+14 -> 17
+17 -> 18
+8 -> 19
+19 -> 20
+20 -> 21
+19 -> 22
+22 -> 23
+23 -> 24
+22 -> 25
+25 -> 26
+8 -> 27
+27 -> 28
+28 -> 29
+27 -> 30
+30 -> 31
+31 -> 32
+30 -> 33
+33 -> 34
+
+8 [label="ItemEnchants",comment="name: \"ItemEnchants\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+9 [label="Slot",comment="name: \"Slot\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="int",comment="name: \"int\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Item Enchants For Given Activation",comment="name: \"Item Enchants For Given Activation\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+12 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+13 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+14 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+15 [label="Enchant Type",comment="name: \"Enchant Type\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Enchant::Type\""];
+16 [label="byte",comment="name: \"byte\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+17 [label="Enchant Level",comment="name: \"Enchant Level\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+18 [label="byte",comment="name: \"byte\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+19 [label="Item Enchants For Given Activation",comment="name: \"Item Enchants For Given Activation\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+20 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+21 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+22 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+23 [label="Enchant Type",comment="name: \"Enchant Type\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Enchant::Type\""];
+24 [label="byte",comment="name: \"byte\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+25 [label="Enchant Level",comment="name: \"Enchant Level\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+26 [label="byte",comment="name: \"byte\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+27 [label="Item Enchants For Given Activation",comment="name: \"Item Enchants For Given Activation\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
+28 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+29 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+30 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+31 [label="Enchant Type",comment="name: \"Enchant Type\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Enchant::Type\""];
+32 [label="byte",comment="name: \"byte\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+33 [label="Enchant Level",comment="name: \"Enchant Level\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+34 [label="byte",comment="name: \"byte\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;10;13;16;18;21;24;26;29;32;34}
+
 }
 
 ```

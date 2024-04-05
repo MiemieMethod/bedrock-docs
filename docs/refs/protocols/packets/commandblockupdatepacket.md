@@ -7,98 +7,67 @@
 ## 结构
 
 ```viz
-digraph CommandBlockUpdatePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"bool\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		6	[comment="name: \"ActorRuntimeID\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorRuntimeID];
-		9	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		11	[comment="name: \"unsigned varint\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned varint"];
-		13	[comment="name: \"bool\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		15	[comment="name: \"bool\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		17	[comment="name: \"string\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		19	[comment="name: \"string\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		21	[comment="name: \"string\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		23	[comment="name: \"bool\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		25	[comment="name: \"unsigned int\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label="unsigned int"];
-		27	[comment="name: \"bool\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	0	[comment="name: \"CommandBlockUpdatePacket\", typeName: \"\", id: 0, branchId: 78, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CommandBlockUpdatePacket];
-	1	[comment="name: \"Is Block?\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is Block?"];
-	0 -> 1;
-	3	[comment="name: \"Dependency on 'Is Block?'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\"",
-		label="Dependency on 'Is Block?'",
-		shape=note];
-	0 -> 3;
-	16	[comment="name: \"Command\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Command];
-	0 -> 16;
-	18	[comment="name: \"Last Output\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Last Output"];
-	0 -> 18;
-	20	[comment="name: \"Name\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Name];
-	0 -> 20;
-	22	[comment="name: \"Track Output?\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Track Output?"];
-	0 -> 22;
-	24	[comment="name: \"Tick Delay\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Tick Delay"];
-	0 -> 24;
-	26	[comment="name: \"Should execute on first tick?\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 0, notes: \"If a delay is set \
-on a repeating command block, should the command execute on first tick, or on first delay?\"",
-		label="Should execute on first tick?"];
-	0 -> 26;
-	1 -> 2;
-	4	[comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (0)",
-		shape=diamond];
-	3 -> 4;
-	7	[comment="name: \"if (1)\", typeName: \"\", id: 7, branchId: 1, recurseId: -1, attributes: 4, notes: \"\"",
-		label="if (1)",
-		shape=diamond];
-	3 -> 7;
-	5	[comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Target Runtime ID"];
-	4 -> 5;
-	5 -> 6;
-	8	[comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 8, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Block Position"];
-	7 -> 8;
-	10	[comment="name: \"Command Block Mode\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CommandBlockMode\"",
-		label="Command Block Mode"];
-	7 -> 10;
-	12	[comment="name: \"Redstone Mode\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Redstone Mode"];
-	7 -> 12;
-	14	[comment="name: \"Is Conditional?\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Is Conditional?"];
-	7 -> 14;
-	8 -> 9;
-	10 -> 11;
-	12 -> 13;
-	14 -> 15;
-	16 -> 17;
-	18 -> 19;
-	20 -> 21;
-	22 -> 23;
-	24 -> 25;
-	26 -> 27;
+digraph "CommandBlockUpdatePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+4 -> 5
+5 -> 6
+3 -> 7
+7 -> 8
+8 -> 9
+7 -> 10
+10 -> 11
+7 -> 12
+12 -> 13
+7 -> 14
+14 -> 15
+0 -> 16
+16 -> 17
+0 -> 18
+18 -> 19
+0 -> 20
+20 -> 21
+0 -> 22
+22 -> 23
+0 -> 24
+24 -> 25
+0 -> 26
+26 -> 27
+
+0 [label="CommandBlockUpdatePacket",comment="name: \"CommandBlockUpdatePacket\", typeName: \"\", id: 0, branchId: 78, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Is Block?",comment="name: \"Is Block?\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="bool",comment="name: \"bool\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Dependency on 'Is Block?'",shape=note,comment="name: \"Dependency on 'Is Block?'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+4 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+5 [label="Target Runtime ID",comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+6 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 7, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+8 [label="Block Position",comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 8, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+9 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+10 [label="Command Block Mode",comment="name: \"Command Block Mode\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CommandBlockMode\""];
+11 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+12 [label="Redstone Mode",comment="name: \"Redstone Mode\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+13 [label="bool",comment="name: \"bool\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+14 [label="Is Conditional?",comment="name: \"Is Conditional?\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+15 [label="bool",comment="name: \"bool\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+16 [label="Command",comment="name: \"Command\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+17 [label="string",comment="name: \"string\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+18 [label="Last Output",comment="name: \"Last Output\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+19 [label="string",comment="name: \"string\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+20 [label="Name",comment="name: \"Name\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+21 [label="string",comment="name: \"string\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+22 [label="Track Output?",comment="name: \"Track Output?\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+23 [label="bool",comment="name: \"bool\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+24 [label="Tick Delay",comment="name: \"Tick Delay\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+25 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+26 [label="Should execute on first tick?",comment="name: \"Should execute on first tick?\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 0, notes: \"If a delay is set on a repeating command block, should the command execute on first tick, or on first delay?\""];
+27 [label="bool",comment="name: \"bool\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;6;9;11;13;15;17;19;21;23;25;27}
+
 }
 
 ```

@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph ShowProfilePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	0	[comment="name: \"ShowProfilePacket\", typeName: \"\", id: 0, branchId: 104, recurseId: -1, attributes: 0, notes: \"\"",
-		label=ShowProfilePacket];
-	1	[comment="name: \"Player XUID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Player XUID"];
-	0 -> 1;
-	1 -> 2;
+digraph "ShowProfilePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="ShowProfilePacket",comment="name: \"ShowProfilePacket\", typeName: \"\", id: 0, branchId: 104, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Player XUID",comment="name: \"Player XUID\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="string",comment="name: \"string\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

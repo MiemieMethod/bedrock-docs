@@ -8,20 +8,16 @@
 
 ```viz
 digraph "std::optional<struct CameraInstruction::FadeInstruction>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		13	[comment="name: \"bool\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	11	[comment="name: \"std::optional<struct CameraInstruction::FadeInstruction>\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: \
-0, notes: \"\"",
-		label="std::optional<struct CameraInstruction::FadeInstruction>"];
-	12	[comment="name: \"Has Value\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data \
-type, otherwise nothing\"",
-		label="Has Value"];
-	11 -> 12;
-	12 -> 13;
+rankdir = LR
+11
+11 -> 12
+12 -> 13
+
+11 [label="std::optional<struct CameraInstruction::FadeInstruction>",comment="name: \"std::optional<struct CameraInstruction::FadeInstruction>\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+13 [label="bool",comment="name: \"bool\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;13}
+
 }
 
 ```

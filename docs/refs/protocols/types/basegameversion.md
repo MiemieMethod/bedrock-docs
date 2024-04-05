@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph BaseGameVersion {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		26	[comment="name: \"string\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	24	[comment="name: \"BaseGameVersion\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=BaseGameVersion];
-	25	[comment="name: \"Base Game Version\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"Format: 0.0.0 (i.e. Major.Minor.Patch)\"",
-		label="Base Game Version"];
-	24 -> 25;
-	25 -> 26;
+digraph "BaseGameVersion" {
+rankdir = LR
+24
+24 -> 25
+25 -> 26
+
+24 [label="BaseGameVersion",comment="name: \"BaseGameVersion\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+25 [label="Base Game Version",comment="name: \"Base Game Version\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"Format: 0.0.0 (i.e. Major.Minor.Patch)\""];
+26 [label="string",comment="name: \"string\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;26}
+
 }
 
 ```

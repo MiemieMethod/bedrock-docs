@@ -7,25 +7,21 @@
 ## 结构
 
 ```viz
-digraph CameraPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorUniqueID];
-		4	[comment="name: \"ActorUniqueID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=ActorUniqueID];
-	}
-	0	[comment="name: \"CameraPacket\", typeName: \"\", id: 0, branchId: 73, recurseId: -1, attributes: 0, notes: \"\"",
-		label=CameraPacket];
-	1	[comment="name: \"Camera ID\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Camera ID"];
-	0 -> 1;
-	3	[comment="name: \"Target Player ID\", typeName: \"ActorUniqueID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Target Player ID"];
-	0 -> 3;
-	1 -> 2;
-	3 -> 4;
+digraph "CameraPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 4
+
+0 [label="CameraPacket",comment="name: \"CameraPacket\", typeName: \"\", id: 0, branchId: 73, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Camera ID",comment="name: \"Camera ID\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Target Player ID",comment="name: \"Target Player ID\", typeName: \"ActorUniqueID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+4 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4}
+
 }
 
 ```

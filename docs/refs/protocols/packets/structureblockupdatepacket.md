@@ -7,37 +7,29 @@
 ## 结构
 
 ```viz
-digraph StructureBlockUpdatePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkBlockPosition];
-		48	[comment="name: \"StructureEditorData\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=StructureEditorData];
-		50	[comment="name: \"bool\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		52	[comment="name: \"bool\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-	}
-	0	[comment="name: \"StructureBlockUpdatePacket\", typeName: \"\", id: 0, branchId: 90, recurseId: -1, attributes: 0, notes: \"\"",
-		label=StructureBlockUpdatePacket];
-	1	[comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Block Position"];
-	0 -> 1;
-	3	[comment="name: \"Structure Data\", typeName: \"StructureEditorData\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Structure Data"];
-	0 -> 3;
-	49	[comment="name: \"Trigger?\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Trigger?"];
-	0 -> 49;
-	51	[comment="name: \"IsWaterlogged\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=IsWaterlogged];
-	0 -> 51;
-	1 -> 2;
-	3 -> 48;
-	49 -> 50;
-	51 -> 52;
+digraph "StructureBlockUpdatePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+0 -> 3
+3 -> 48
+0 -> 49
+49 -> 50
+0 -> 51
+51 -> 52
+
+0 [label="StructureBlockUpdatePacket",comment="name: \"StructureBlockUpdatePacket\", typeName: \"\", id: 0, branchId: 90, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Block Position",comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+2 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Structure Data",comment="name: \"Structure Data\", typeName: \"StructureEditorData\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+48 [label="StructureEditorData",comment="name: \"StructureEditorData\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+49 [label="Trigger?",comment="name: \"Trigger?\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+50 [label="bool",comment="name: \"bool\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+51 [label="IsWaterlogged",comment="name: \"IsWaterlogged\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+52 [label="bool",comment="name: \"bool\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;48;50;52}
+
 }
 
 ```

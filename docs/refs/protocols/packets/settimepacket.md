@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph SetTimePacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	0	[comment="name: \"SetTimePacket\", typeName: \"\", id: 0, branchId: 10, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SetTimePacket];
-	1	[comment="name: \"Time\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Time];
-	0 -> 1;
-	1 -> 2;
+digraph "SetTimePacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="SetTimePacket",comment="name: \"SetTimePacket\", typeName: \"\", id: 0, branchId: 10, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Time",comment="name: \"Time\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```

@@ -8,25 +8,20 @@
 
 ```viz
 digraph "std::optional<class MolangVariableMap>" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		12	[comment="name: \"bool\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=bool];
-		17	[comment="name: \"MolangVariableMap\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=MolangVariableMap];
-	}
-	10	[comment="name: \"std::optional<class MolangVariableMap>\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="std::optional<class MolangVariableMap>"];
-	11	[comment="name: \"Has Value\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data \
-type, otherwise nothing\"",
-		label="Has Value"];
-	10 -> 11;
-	13	[comment="name: \"Value\", typeName: \"MolangVariableMap\", id: 13, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Value];
-	10 -> 13;
-	11 -> 12;
-	13 -> 17;
+rankdir = LR
+10
+10 -> 11
+11 -> 12
+10 -> 13
+13 -> 17
+
+10 [label="std::optional<class MolangVariableMap>",comment="name: \"std::optional<class MolangVariableMap>\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+11 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+12 [label="bool",comment="name: \"bool\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Value",comment="name: \"Value\", typeName: \"MolangVariableMap\", id: 13, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+17 [label="MolangVariableMap",comment="name: \"MolangVariableMap\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;12;17}
+
 }
 
 ```

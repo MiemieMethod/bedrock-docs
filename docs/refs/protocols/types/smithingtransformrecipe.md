@@ -7,49 +7,37 @@
 ## 结构
 
 ```viz
-digraph SmithingTransformRecipe {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		8	[comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-		10	[comment="name: \"RecipeIngredient\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=RecipeIngredient];
-		12	[comment="name: \"RecipeIngredient\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=RecipeIngredient];
-		14	[comment="name: \"RecipeIngredient\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=RecipeIngredient];
-		16	[comment="name: \"NetworkItemInstanceDescriptor\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=NetworkItemInstanceDescriptor];
-		18	[comment="name: \"string\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=string];
-	}
-	6	[comment="name: \"SmithingTransformRecipe\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=SmithingTransformRecipe];
-	7	[comment="name: \"Recipe Id\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Recipe Id"];
-	6 -> 7;
-	9	[comment="name: \"Template Ingredien\", typeName: \"RecipeIngredient\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Template Ingredien"];
-	6 -> 9;
-	11	[comment="name: \"Base Ingredien\", typeName: \"RecipeIngredient\", id: 11, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Base Ingredien"];
-	6 -> 11;
-	13	[comment="name: \"Addition Ingredien\", typeName: \"RecipeIngredient\", id: 13, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label="Addition Ingredien"];
-	6 -> 13;
-	15	[comment="name: \"Result\", typeName: \"NetworkItemInstanceDescriptor\", id: 15, branchId: 0, recurseId: -1, attributes: 256, notes: \"\"",
-		label=Result];
-	6 -> 15;
-	17	[comment="name: \"Tag\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label=Tag];
-	6 -> 17;
-	7 -> 8;
-	9 -> 10;
-	11 -> 12;
-	13 -> 14;
-	15 -> 16;
-	17 -> 18;
+digraph "SmithingTransformRecipe" {
+rankdir = LR
+6
+6 -> 7
+7 -> 8
+6 -> 9
+9 -> 10
+6 -> 11
+11 -> 12
+6 -> 13
+13 -> 14
+6 -> 15
+15 -> 16
+6 -> 17
+17 -> 18
+
+6 [label="SmithingTransformRecipe",comment="name: \"SmithingTransformRecipe\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+7 [label="Recipe Id",comment="name: \"Recipe Id\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Template Ingredien",comment="name: \"Template Ingredien\", typeName: \"RecipeIngredient\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+10 [label="RecipeIngredient",comment="name: \"RecipeIngredient\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Base Ingredien",comment="name: \"Base Ingredien\", typeName: \"RecipeIngredient\", id: 11, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+12 [label="RecipeIngredient",comment="name: \"RecipeIngredient\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Addition Ingredien",comment="name: \"Addition Ingredien\", typeName: \"RecipeIngredient\", id: 13, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+14 [label="RecipeIngredient",comment="name: \"RecipeIngredient\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="Result",comment="name: \"Result\", typeName: \"NetworkItemInstanceDescriptor\", id: 15, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+16 [label="NetworkItemInstanceDescriptor",comment="name: \"NetworkItemInstanceDescriptor\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+17 [label="Tag",comment="name: \"Tag\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+18 [label="string",comment="name: \"string\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;8;10;12;14;16;18}
+
 }
 
 ```

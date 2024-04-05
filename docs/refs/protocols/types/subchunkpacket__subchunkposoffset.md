@@ -8,30 +8,24 @@
 
 ```viz
 digraph "SubChunkPacket::SubChunkPosOffset" {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		21	[comment="name: \"byte\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		23	[comment="name: \"byte\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-		25	[comment="name: \"byte\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=byte];
-	}
-	19	[comment="name: \"SubChunkPacket::SubChunkPosOffset\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="SubChunkPacket::SubChunkPosOffset"];
-	20	[comment="name: \"Offset X\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Offset X"];
-	19 -> 20;
-	22	[comment="name: \"Offset Y\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Offset Y"];
-	19 -> 22;
-	24	[comment="name: \"Offset Z\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Offset Z"];
-	19 -> 24;
-	20 -> 21;
-	22 -> 23;
-	24 -> 25;
+rankdir = LR
+19
+19 -> 20
+20 -> 21
+19 -> 22
+22 -> 23
+19 -> 24
+24 -> 25
+
+19 [label="SubChunkPacket::SubChunkPosOffset",comment="name: \"SubChunkPacket::SubChunkPosOffset\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+20 [label="Offset X",comment="name: \"Offset X\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+21 [label="byte",comment="name: \"byte\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+22 [label="Offset Y",comment="name: \"Offset Y\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+23 [label="byte",comment="name: \"byte\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+24 [label="Offset Z",comment="name: \"Offset Z\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+25 [label="byte",comment="name: \"byte\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;21;23;25}
+
 }
 
 ```

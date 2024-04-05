@@ -7,19 +7,17 @@
 ## 结构
 
 ```viz
-digraph PassengerJumpPacket {
-	graph [rankdir=LR];
-	{
-		graph [rank=max];
-		2	[comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\"",
-			label=varint];
-	}
-	0	[comment="name: \"PassengerJumpPacket\", typeName: \"\", id: 0, branchId: 20, recurseId: -1, attributes: 0, notes: \"\"",
-		label=PassengerJumpPacket];
-	1	[comment="name: \"Jump Scale\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\"",
-		label="Jump Scale"];
-	0 -> 1;
-	1 -> 2;
+digraph "PassengerJumpPacket" {
+rankdir = LR
+0
+0 -> 1
+1 -> 2
+
+0 [label="PassengerJumpPacket",comment="name: \"PassengerJumpPacket\", typeName: \"\", id: 0, branchId: 20, recurseId: -1, attributes: 0, notes: \"\""];
+1 [label="Jump Scale",comment="name: \"Jump Scale\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2}
+
 }
 
 ```
