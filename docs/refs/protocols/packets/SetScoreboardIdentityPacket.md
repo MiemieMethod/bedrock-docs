@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph SetScoreboardIdentityPacket {
 	graph [rankdir=LR];
 	{
@@ -81,7 +81,7 @@ Identity Info数组的大小：<!-- md:samp unsigned varint -->
 
 Identity Info的示例元素
 
-Scoreboard Id：[<!-- md:samp ScoreboardId -->](refs/protocols/types/ScoreboardId.md)
+Scoreboard Id：[<!-- md:samp ScoreboardId -->](refs/protocols/types/scoreboardid.md)
 
 - 类型：ScoreboardId。
 

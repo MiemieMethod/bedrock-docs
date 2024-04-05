@@ -79,7 +79,7 @@ then this will contain a head rotation of the actor if and only if it's a Mob ty
 /// define
 MoveActorDeltaData
 
-ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。The runtime 'id' of the actor being moved
 

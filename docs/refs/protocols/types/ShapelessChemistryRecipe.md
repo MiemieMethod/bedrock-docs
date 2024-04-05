@@ -97,7 +97,7 @@ Ingredients数组的大小：<!-- md:samp unsigned varint -->
 
 Ingredients的示例元素
 
-Entry：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Entry：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
@@ -109,11 +109,11 @@ Results数组的大小：<!-- md:samp unsigned varint -->
 
 Results的示例元素
 
-Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/NetworkItemInstanceDescriptor.md)
+Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/networkiteminstancedescriptor.md)
 
 - 类型：NetworkItemInstanceDescriptor。
 
-Id：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::UUID.md)
+Id：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
 
 - 类型：mce::UUID。
 

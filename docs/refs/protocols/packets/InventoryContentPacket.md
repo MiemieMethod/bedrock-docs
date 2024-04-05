@@ -60,7 +60,7 @@ Slots数组的大小：<!-- md:samp unsigned varint -->
 
 Slots的示例元素
 
-Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/NetworkItemStackDescriptor.md)
+Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 

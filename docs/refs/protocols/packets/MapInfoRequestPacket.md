@@ -70,7 +70,7 @@ to tell the Server map about terrain pixels it doesn't know about\"",
 /// define
 MapInfoRequestPacket
 
-Map Unique ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Map Unique ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

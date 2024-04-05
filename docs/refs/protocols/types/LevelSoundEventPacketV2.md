@@ -63,7 +63,7 @@ Event ID：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: Puv::Legacy::LevelSoundEvent
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 

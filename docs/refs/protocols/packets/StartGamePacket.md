@@ -206,11 +206,11 @@ key (component name):[label,value] } (Can be left empty.)\"",
 /// define
 StartGamePacket
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
@@ -218,15 +218,15 @@ Actor Game Type：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: GameType
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 
-Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/Vec2.md)
+Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
 
 - 类型：Vec2。
 
-Settings：[<!-- md:samp LevelSettings -->](refs/protocols/types/LevelSettings.md)
+Settings：[<!-- md:samp LevelSettings -->](refs/protocols/types/levelsettings.md)
 
 - 类型：LevelSettings。
 
@@ -246,7 +246,7 @@ Is Trial?：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Movement Settings：[<!-- md:samp SyncedPlayerMovementSettings -->](refs/protocols/types/SyncedPlayerMovementSettings.md)
+Movement Settings：[<!-- md:samp SyncedPlayerMovementSettings -->](refs/protocols/types/syncedplayermovementsettings.md)
 
 - 类型：SyncedPlayerMovementSettings。
 
@@ -270,7 +270,7 @@ Block Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Block Definition：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Block Definition：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。Map of block states. { key (component 'name'):[label,value] } (Can be left empty.)
 
@@ -282,7 +282,7 @@ Item List - every vanilla item must be present数组的大小：<!-- md:samp uns
 
 Item List - every vanilla item must be present的示例元素
 
-Item Info：[<!-- md:samp ItemData -->](refs/protocols/types/ItemData.md)
+Item Info：[<!-- md:samp ItemData -->](refs/protocols/types/itemdata.md)
 
 - 类型：ItemData。See: ItemData Type
 
@@ -298,7 +298,7 @@ Server version：<!-- md:samp string -->
 
 - 类型：string。For telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
 
-Player Property Data：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Player Property Data：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。like SyncActorPropertyPacket, specifically for minecraft:player properties
 
@@ -306,7 +306,7 @@ Server Block Type Registry Checksum：<!-- md:samp unsigned int64 -->
 
 - 类型：unsigned int64。Checksum for detecting mismatches in block types between server and client.
 
-World Template ID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::UUID.md)
+World Template ID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
 
 - 类型：mce::UUID。
 
@@ -318,7 +318,7 @@ BlockNetworkIds Are Hashes：<!-- md:samp bool -->
 
 - 类型：bool。
 
-NetworkPermissions：[<!-- md:samp NetworkPermissions -->](refs/protocols/types/NetworkPermissions.md)
+NetworkPermissions：[<!-- md:samp NetworkPermissions -->](refs/protocols/types/networkpermissions.md)
 
 - 类型：NetworkPermissions。
 

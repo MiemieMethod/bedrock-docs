@@ -106,7 +106,7 @@ digraph CommandOutputPacket {
 /// define
 CommandOutputPacket
 
-Origin Data：[<!-- md:samp CommandOriginData -->](refs/protocols/types/CommandOriginData.md)
+Origin Data：[<!-- md:samp CommandOriginData -->](refs/protocols/types/commandorigindata.md)
 
 - 类型：CommandOriginData。
 

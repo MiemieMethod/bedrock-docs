@@ -152,7 +152,7 @@ ActionType\"",
 /// define
 PackedItemUseLegacyInventoryTransaction
 
-ID：[<!-- md:samp TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0> -->](refs/protocols/types/TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>.md)
+ID：[<!-- md:samp TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0> -->](refs/protocols/types/typedclientnetid<struct_itemstacklegacyrequestidtag,int,0>.md)
 
 - 类型：TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>。
 
@@ -211,7 +211,7 @@ Actions数组的大小：<!-- md:samp unsigned varint -->
 
 Actions的示例元素
 
-Action：[<!-- md:samp InventoryAction -->](refs/protocols/types/InventoryAction.md)
+Action：[<!-- md:samp InventoryAction -->](refs/protocols/types/inventoryaction.md)
 
 - 类型：InventoryAction。
 
@@ -219,7 +219,7 @@ Action Type：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。enumeration: ItemUseInventoryTransaction::ActionType
 
-Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
@@ -231,15 +231,15 @@ Slot：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/NetworkItemStackDescriptor.md)
+Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 
-From Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+From Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 
-Click Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Click Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 

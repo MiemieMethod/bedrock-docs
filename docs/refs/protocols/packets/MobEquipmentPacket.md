@@ -53,11 +53,11 @@ digraph MobEquipmentPacket {
 /// define
 MobEquipmentPacket
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
-Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/NetworkItemStackDescriptor.md)
+Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 

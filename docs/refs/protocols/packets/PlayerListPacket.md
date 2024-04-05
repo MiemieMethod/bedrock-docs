@@ -157,11 +157,11 @@ Add Player List数组的大小：<!-- md:samp unsigned varint -->
 
 Add Player List的示例元素
 
-UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::UUID.md)
+UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
 
 - 类型：mce::UUID。
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -181,7 +181,7 @@ Build Platform：<!-- md:samp int -->
 
 - 类型：int。enumeration: BuildPlatform
 
-Serialized Skin：[<!-- md:samp SerializedSkin -->](refs/protocols/types/SerializedSkin.md)
+Serialized Skin：[<!-- md:samp SerializedSkin -->](refs/protocols/types/serializedskin.md)
 
 - 类型：SerializedSkin。
 
@@ -218,7 +218,7 @@ Remove Player List数组的大小：<!-- md:samp unsigned varint -->
 
 Remove Player List的示例元素
 
-UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::UUID.md)
+UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
 
 - 类型：mce::UUID。
 

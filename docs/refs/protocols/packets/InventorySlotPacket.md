@@ -49,7 +49,7 @@ Slot：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
-Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/NetworkItemStackDescriptor.md)
+Item：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 

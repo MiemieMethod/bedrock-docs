@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph RemoveVolumeEntityPacket {
 	graph [rankdir=LR];
 	{
@@ -35,7 +35,7 @@ digraph RemoveVolumeEntityPacket {
 /// define
 RemoveVolumeEntityPacket
 
-Entity Network Id：[<!-- md:samp EntityNetId -->](refs/protocols/types/EntityNetId.md)
+Entity Network Id：[<!-- md:samp EntityNetId -->](refs/protocols/types/entitynetid.md)
 
 - 类型：EntityNetId。
 

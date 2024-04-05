@@ -73,7 +73,7 @@ Action：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: InteractPacket::Action
 
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

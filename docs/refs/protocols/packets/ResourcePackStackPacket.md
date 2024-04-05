@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph ResourcePackStackPacket {
 	graph [rankdir=LR];
 	{
@@ -137,11 +137,11 @@ Texture Pack List数组的大小：<!-- md:samp unsigned varint -->
 
 Texture Pack List的示例元素
 
-Base Game Version：[<!-- md:samp BaseGameVersion -->](refs/protocols/types/BaseGameVersion.md)
+Base Game Version：[<!-- md:samp BaseGameVersion -->](refs/protocols/types/basegameversion.md)
 
 - 类型：BaseGameVersion。For clients to be able to set their stack to the right version.
 
-Experiments：[<!-- md:samp Experiments -->](refs/protocols/types/Experiments.md)
+Experiments：[<!-- md:samp Experiments -->](refs/protocols/types/experiments.md)
 
 - 类型：Experiments。Refer to the Experiments type for how to serialize
 

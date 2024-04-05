@@ -51,7 +51,7 @@ Spawn Position Type：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: SpawnPositionType
 
-Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
@@ -59,7 +59,7 @@ Dimension type：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Spawn Block Pos：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Spawn Block Pos：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

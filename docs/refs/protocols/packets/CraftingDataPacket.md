@@ -113,7 +113,7 @@ Crafting Entries数组的大小：<!-- md:samp unsigned varint -->
 
 Crafting Entries的示例元素
 
-Crafting Entry：[<!-- md:samp CraftingDataEntry -->](refs/protocols/types/CraftingDataEntry.md)
+Crafting Entry：[<!-- md:samp CraftingDataEntry -->](refs/protocols/types/craftingdataentry.md)
 
 - 类型：CraftingDataEntry。
 
@@ -125,7 +125,7 @@ Potion Mixes数组的大小：<!-- md:samp unsigned varint -->
 
 Potion Mixes的示例元素
 
-Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](refs/protocols/types/PotionMixDataEntry.md)
+Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](refs/protocols/types/potionmixdataentry.md)
 
 - 类型：PotionMixDataEntry。
 
@@ -137,7 +137,7 @@ Container Mixes数组的大小：<!-- md:samp unsigned varint -->
 
 Container Mixes的示例元素
 
-Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](refs/protocols/types/ContainerMixDataEntry.md)
+Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](refs/protocols/types/containermixdataentry.md)
 
 - 类型：ContainerMixDataEntry。
 
@@ -149,7 +149,7 @@ Material Reducers数组的大小：<!-- md:samp unsigned varint -->
 
 Material Reducers的示例元素
 
-Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](refs/protocols/types/MaterialReducerDataEntry.md)
+Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](refs/protocols/types/materialreducerdataentry.md)
 
 - 类型：MaterialReducerDataEntry。
 

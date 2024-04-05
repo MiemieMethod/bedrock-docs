@@ -84,7 +84,7 @@ Command Type：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。enumeration: CommandOriginType
 
-Command UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::UUID.md)
+Command UUID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
 
 - 类型：mce::UUID。Unique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.
 

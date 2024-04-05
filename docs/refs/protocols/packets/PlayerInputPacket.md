@@ -41,7 +41,7 @@ digraph PlayerInputPacket {
 /// define
 PlayerInputPacket
 
-Move Vector：[<!-- md:samp Vec2 -->](refs/protocols/types/Vec2.md)
+Move Vector：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
 
 - 类型：Vec2。
 

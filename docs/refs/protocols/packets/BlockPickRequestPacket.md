@@ -41,7 +41,7 @@ digraph BlockPickRequestPacket {
 /// define
 BlockPickRequestPacket
 
-Position：[<!-- md:samp BlockPos -->](refs/protocols/types/BlockPos.md)
+Position：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
 
 - 类型：BlockPos。
 

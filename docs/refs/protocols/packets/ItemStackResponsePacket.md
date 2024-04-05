@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph ItemStackResponsePacket {
 	graph [rankdir=LR];
 	{
@@ -50,7 +50,7 @@ Responses数组的大小：<!-- md:samp unsigned varint -->
 
 Responses的示例元素
 
-Response Info：[<!-- md:samp ItemStackResponseInfo -->](refs/protocols/types/ItemStackResponseInfo.md)
+Response Info：[<!-- md:samp ItemStackResponseInfo -->](refs/protocols/types/itemstackresponseinfo.md)
 
 - 类型：ItemStackResponseInfo。
 

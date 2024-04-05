@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph LegacyTelemetryEventPacket {
 	graph [rankdir=LR];
 	{
@@ -519,7 +519,7 @@ POIBlockInteractionType\"",
 /// define
 LegacyTelemetryEventPacket
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

@@ -115,7 +115,7 @@ mRuntimeIds数组的大小：<!-- md:samp unsigned varint -->
 
 mRuntimeIds的示例元素
 
-runtimeId：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+runtimeId：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

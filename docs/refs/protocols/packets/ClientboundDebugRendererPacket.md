@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph ClientboundDebugRendererPacket {
 	graph [rankdir=LR];
 	{
@@ -130,7 +130,7 @@ Debug Marker Text：<!-- md:samp string -->
 
 - 类型：string。
 
-Debug Marker Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Debug Marker Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 

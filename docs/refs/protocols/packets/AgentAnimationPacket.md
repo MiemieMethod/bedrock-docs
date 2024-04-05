@@ -39,7 +39,7 @@ Agent Animation：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Runtime Id：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Runtime Id：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

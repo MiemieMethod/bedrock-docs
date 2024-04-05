@@ -51,7 +51,7 @@ Command：<!-- md:samp string -->
 
 - 类型：string。
 
-Command Origin：[<!-- md:samp CommandOriginData -->](refs/protocols/types/CommandOriginData.md)
+Command Origin：[<!-- md:samp CommandOriginData -->](refs/protocols/types/commandorigindata.md)
 
 - 类型：CommandOriginData。
 

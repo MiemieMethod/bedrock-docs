@@ -35,7 +35,7 @@ digraph DebugInfoPacket {
 /// define
 DebugInfoPacket
 
-Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

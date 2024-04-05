@@ -60,7 +60,7 @@ Slots数组的大小：<!-- md:samp unsigned varint -->
 
 Slots的示例元素
 
-Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](refs/protocols/types/ItemStackResponseSlotInfo.md)
+Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](refs/protocols/types/itemstackresponseslotinfo.md)
 
 - 类型：ItemStackResponseSlotInfo。
 

@@ -55,11 +55,11 @@ Container Type：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: ContainerType
 
-Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

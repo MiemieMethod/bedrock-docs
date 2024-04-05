@@ -117,7 +117,7 @@ Requests数组的大小：<!-- md:samp unsigned varint -->
 
 Requests的示例元素
 
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](refs/protocols/types/TypedClientNetId<struct ItemStackRequestIdTag,int,0>.md)
+Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](refs/protocols/types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
 
 - 类型：TypedClientNetId<struct ItemStackRequestIdTag,int,0>。
 
@@ -137,11 +137,11 @@ Amount：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Source：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/ItemStackRequestSlotInfo.md)
+Source：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/itemstackrequestslotinfo.md)
 
 - 类型：ItemStackRequestSlotInfo。
 
-Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/ItemStackRequestSlotInfo.md)
+Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](refs/protocols/types/itemstackrequestslotinfo.md)
 
 - 类型：ItemStackRequestSlotInfo。
 

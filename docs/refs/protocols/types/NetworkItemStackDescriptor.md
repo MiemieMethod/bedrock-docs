@@ -152,7 +152,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 if (1)
 
-Net Id Variant：[<!-- md:samp ItemStackNetIdVariant -->](refs/protocols/types/ItemStackNetIdVariant.md)
+Net Id Variant：[<!-- md:samp ItemStackNetIdVariant -->](refs/protocols/types/itemstacknetidvariant.md)
 
 - 类型：ItemStackNetIdVariant。
 

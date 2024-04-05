@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph UpdateSubChunkBlocksPacket {
 	graph [rankdir=LR];
 	{
@@ -117,7 +117,7 @@ MessageId\"",
 /// define
 UpdateSubChunkBlocksPacket
 
-Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
@@ -129,7 +129,7 @@ Blocks Changed - Standards数组的大小：<!-- md:samp unsigned varint -->
 
 Blocks Changed - Standards的示例元素
 
-Pos：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Pos：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph SyncActorPropertyPacket {
 	graph [rankdir=LR];
 	{
@@ -30,7 +30,7 @@ hash; properties: properties of actor that have been flagged for client sync as 
 /// define
 SyncActorPropertyPacket
 
-Property Data：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Property Data：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。type: actor 'id'entifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag
 

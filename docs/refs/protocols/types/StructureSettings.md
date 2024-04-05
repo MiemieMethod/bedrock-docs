@@ -126,15 +126,15 @@ Should Allow Non Ticking Player and Ticking Area Chunks：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Structure Size：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Structure Size：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Structure Offset：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Structure Offset：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Last Edit Player：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Last Edit Player：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。Player who last edited the structure block.
 
@@ -162,7 +162,7 @@ Integrity Seed：<!-- md:samp unsigned int -->
 
 - 类型：unsigned int。
 
-Rotation Pivot：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Rotation Pivot：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。Pivot used to rotate a structure around.
 

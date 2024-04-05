@@ -35,11 +35,11 @@ digraph BlockActorDataPacket {
 /// define
 BlockActorDataPacket
 
-Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Actor Data Tags：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Actor Data Tags：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。
 

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph PositionTrackingDBClientRequestPacket {
 	graph [rankdir=LR];
 	{
@@ -40,7 +40,7 @@ Action：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: PositionTrackingDBClientRequestPacket::Action
 
-Id：[<!-- md:samp PositionTrackingId -->](refs/protocols/types/PositionTrackingId.md)
+Id：[<!-- md:samp PositionTrackingId -->](refs/protocols/types/positiontrackingid.md)
 
 - 类型：PositionTrackingId。
 

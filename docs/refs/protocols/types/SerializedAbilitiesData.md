@@ -80,7 +80,7 @@ Layers数组的大小：<!-- md:samp unsigned varint -->
 
 Layers的示例元素
 
-layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](refs/protocols/types/SerializedAbilitiesData::SerializedLayer.md)
+layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](refs/protocols/types/serializedabilitiesdata::serializedlayer.md)
 
 - 类型：SerializedAbilitiesData::SerializedLayer。
 

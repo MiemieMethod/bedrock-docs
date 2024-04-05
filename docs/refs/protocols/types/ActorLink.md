@@ -54,11 +54,11 @@ by the passenger\"",
 /// define
 ActorLink
 
-Actor Unique ID - A：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Actor Unique ID - A：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Actor Unique ID - B：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Actor Unique ID - B：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph AutomationClientConnectPacket {
 	graph [rankdir=LR];
 	{
@@ -29,7 +29,7 @@ digraph AutomationClientConnectPacket {
 /// define
 AutomationClientConnectPacket
 
-Web Socket Data：[<!-- md:samp WebSocketPacketData -->](refs/protocols/types/WebSocketPacketData.md)
+Web Socket Data：[<!-- md:samp WebSocketPacketData -->](refs/protocols/types/websocketpacketdata.md)
 
 - 类型：WebSocketPacketData。
 

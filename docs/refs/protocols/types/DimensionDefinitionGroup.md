@@ -61,7 +61,7 @@ Name String：<!-- md:samp string -->
 
 - 类型：string。
 
-Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](refs/protocols/types/DimensionDefinitionGroup::DimensionDefinition.md)
+Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](refs/protocols/types/dimensiondefinitiongroup::dimensiondefinition.md)
 
 - 类型：DimensionDefinitionGroup::DimensionDefinition。
 

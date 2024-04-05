@@ -35,7 +35,7 @@ digraph ShowCreditsPacket {
 /// define
 ShowCreditsPacket
 
-Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

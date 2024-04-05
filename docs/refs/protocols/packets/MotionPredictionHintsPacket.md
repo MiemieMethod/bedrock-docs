@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph MotionPredictionHintsPacket {
 	graph [rankdir=LR];
 	{
@@ -41,11 +41,11 @@ digraph MotionPredictionHintsPacket {
 /// define
 MotionPredictionHintsPacket
 
-mRuntimeId：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+mRuntimeId：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。Id of moving actor
 
-mMotion：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+mMotion：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。Position delta
 

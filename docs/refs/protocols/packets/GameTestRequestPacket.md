@@ -81,7 +81,7 @@ StopOnFailure：<!-- md:samp bool -->
 
 - 类型：bool。
 
-TestPos：[<!-- md:samp BlockPos -->](refs/protocols/types/BlockPos.md)
+TestPos：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
 
 - 类型：BlockPos。
 

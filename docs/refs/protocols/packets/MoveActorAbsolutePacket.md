@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph MoveActorAbsolutePacket {
 	graph [rankdir=LR];
 	{
@@ -29,7 +29,7 @@ digraph MoveActorAbsolutePacket {
 /// define
 MoveActorAbsolutePacket
 
-Move Data：[<!-- md:samp MoveActorAbsoluteData -->](refs/protocols/types/MoveActorAbsoluteData.md)
+Move Data：[<!-- md:samp MoveActorAbsoluteData -->](refs/protocols/types/moveactorabsolutedata.md)
 
 - 类型：MoveActorAbsoluteData。
 

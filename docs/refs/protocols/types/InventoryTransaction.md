@@ -50,7 +50,7 @@ Actions数组的大小：<!-- md:samp unsigned varint -->
 
 Actions的示例元素
 
-Action：[<!-- md:samp InventoryAction -->](refs/protocols/types/InventoryAction.md)
+Action：[<!-- md:samp InventoryAction -->](refs/protocols/types/inventoryaction.md)
 
 - 类型：InventoryAction。
 

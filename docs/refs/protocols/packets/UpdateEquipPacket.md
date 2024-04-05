@@ -65,11 +65,11 @@ Size：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Data Tags：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Data Tags：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。
 

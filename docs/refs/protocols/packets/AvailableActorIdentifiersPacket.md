@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph AvailableActorIdentifiersPacket {
 	graph [rankdir=LR];
 	{
@@ -30,7 +30,7 @@ a list of ActorInfo:rid (RuntimeId - Int),id (string),bid (BaseId - string),hass
 /// define
 AvailableActorIdentifiersPacket
 
-Actor Info List：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Actor Info List：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。CompoundTag containing a list of ActorInfo:r'id' (RuntimeId - Int),'id' (string),b'id' (BaseId - string),hasspawnegg (bool),summonable (bool)
 

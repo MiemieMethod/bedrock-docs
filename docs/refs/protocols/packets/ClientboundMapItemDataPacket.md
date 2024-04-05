@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph ClientboundMapItemDataPacket {
 	graph [rankdir=LR];
 	{
@@ -248,7 +248,7 @@ notes: \"\"",
 /// define
 ClientboundMapItemDataPacket
 
-Map ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Map ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -264,7 +264,7 @@ Is Locked Map?：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Map Origin：[<!-- md:samp BlockPos -->](refs/protocols/types/BlockPos.md)
+Map Origin：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -282,7 +282,7 @@ Map ID List数组的大小：<!-- md:samp unsigned varint -->
 
 Map ID List的示例元素
 
-Map ID entry：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Map ID entry：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -370,7 +370,7 @@ Actor IDs数组的大小：<!-- md:samp unsigned varint -->
 
 Actor IDs的示例元素
 
-MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](refs/protocols/types/MapItemTrackedActor::UniqueId.md)
+MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](refs/protocols/types/mapitemtrackedactor::uniqueid.md)
 
 - 类型：MapItemTrackedActor::UniqueId。
 
@@ -382,7 +382,7 @@ Decoration List数组的大小：<!-- md:samp unsigned varint -->
 
 Decoration List的示例元素
 
-Map Decoration：[<!-- md:samp MapDecoration -->](refs/protocols/types/MapDecoration.md)
+Map Decoration：[<!-- md:samp MapDecoration -->](refs/protocols/types/mapdecoration.md)
 
 - 类型：MapDecoration。
 

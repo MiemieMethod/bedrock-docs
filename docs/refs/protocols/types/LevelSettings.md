@@ -317,7 +317,7 @@ Seed：<!-- md:samp unsigned int64 -->
 
 - 类型：unsigned int64。
 
-Spawn Settings：[<!-- md:samp SpawnSettings -->](refs/protocols/types/SpawnSettings.md)
+Spawn Settings：[<!-- md:samp SpawnSettings -->](refs/protocols/types/spawnsettings.md)
 
 - 类型：SpawnSettings。
 
@@ -333,7 +333,7 @@ Game Difficulty：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: Difficulty
 
-Default Spawn Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Default Spawn Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
@@ -405,11 +405,11 @@ Texture Packs Required：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Rule Data：[<!-- md:samp GameRulesChangedPacketData -->](refs/protocols/types/GameRulesChangedPacketData.md)
+Rule Data：[<!-- md:samp GameRulesChangedPacketData -->](refs/protocols/types/gameruleschangedpacketdata.md)
 
 - 类型：GameRulesChangedPacketData。
 
-Experiments：[<!-- md:samp Experiments -->](refs/protocols/types/Experiments.md)
+Experiments：[<!-- md:samp Experiments -->](refs/protocols/types/experiments.md)
 
 - 类型：Experiments。
 
@@ -469,7 +469,7 @@ Emote Chat Muted：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Base Game Version：[<!-- md:samp BaseGameVersion -->](refs/protocols/types/BaseGameVersion.md)
+Base Game Version：[<!-- md:samp BaseGameVersion -->](refs/protocols/types/basegameversion.md)
 
 - 类型：BaseGameVersion。Version of vanilla gameplay that will be used with this world.
 
@@ -485,7 +485,7 @@ Nether type：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Edu Shared Uri Resource：[<!-- md:samp EduSharedUriResource -->](refs/protocols/types/EduSharedUriResource.md)
+Edu Shared Uri Resource：[<!-- md:samp EduSharedUriResource -->](refs/protocols/types/edushareduriresource.md)
 
 - 类型：EduSharedUriResource。
 

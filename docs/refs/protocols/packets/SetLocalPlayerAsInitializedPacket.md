@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph SetLocalPlayerAsInitializedPacket {
 	graph [rankdir=LR];
 	{
@@ -29,7 +29,7 @@ digraph SetLocalPlayerAsInitializedPacket {
 /// define
 SetLocalPlayerAsInitializedPacket
 
-Player ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Player ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

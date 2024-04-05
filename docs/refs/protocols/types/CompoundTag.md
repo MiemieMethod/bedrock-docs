@@ -427,7 +427,7 @@ Tag Array数组的大小：<!-- md:samp varint -->
 
 Tag Array的示例元素
 
-Tag (Recursive)：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Tag (Recursive)：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。
 
@@ -444,7 +444,7 @@ Tag Array
 
 Tag Array的示例元素
 
-Tag (Recursive)：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Tag (Recursive)：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。
 

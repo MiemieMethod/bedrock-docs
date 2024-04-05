@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph UpdatePlayerGameTypePacket {
 	graph [rankdir=LR];
 	{
@@ -39,7 +39,7 @@ Player game type：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: GameType
 
-Target player：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Target player：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

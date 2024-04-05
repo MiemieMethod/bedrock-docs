@@ -63,19 +63,19 @@ Recipe Id：<!-- md:samp string -->
 
 - 类型：string。
 
-Template Ingredien：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Template Ingredien：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
-Base Ingredien：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Base Ingredien：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
-Addition Ingredien：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Addition Ingredien：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
-Result：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/NetworkItemInstanceDescriptor.md)
+Result：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/networkiteminstancedescriptor.md)
 
 - 类型：NetworkItemInstanceDescriptor。
 

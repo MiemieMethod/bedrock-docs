@@ -29,7 +29,7 @@ digraph CameraInstructionPacket {
 /// define
 CameraInstructionPacket
 
-Camera Instruction：[<!-- md:samp CameraInstruction -->](refs/protocols/types/CameraInstruction.md)
+Camera Instruction：[<!-- md:samp CameraInstruction -->](refs/protocols/types/camerainstruction.md)
 
 - 类型：CameraInstruction。
 

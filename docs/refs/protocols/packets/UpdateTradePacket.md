@@ -100,11 +100,11 @@ Trade Tier：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Target Actor ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Last Trading Player ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Last Trading Player ID：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
@@ -120,7 +120,7 @@ Using Economy Trade：<!-- md:samp bool -->
 
 - 类型：bool。When set to false, it means the packet comes from the old Trade Component.
 
-Data Tags：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Data Tags：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。
 

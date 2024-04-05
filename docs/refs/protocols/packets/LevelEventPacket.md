@@ -46,7 +46,7 @@ Event ID：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: LevelEvent
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。Note about Event ID: Legacy particles use the @enums.html#Particle Type@  enum |ed with ParticleLegacyEvent(0x4000)
 

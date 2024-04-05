@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph InventoryTransactionPacket {
 	graph [rankdir=LR];
 	{
@@ -153,7 +153,7 @@ Transaction Type：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。enumeration: ComplexInventoryTransaction::Type
 
-mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](refs/protocols/types/InventoryTransaction.md)
+mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](refs/protocols/types/inventorytransaction.md)
 
 - 类型：InventoryTransaction。Our ComplexInventoryTransaction contains an InventoryTransaction within it
 

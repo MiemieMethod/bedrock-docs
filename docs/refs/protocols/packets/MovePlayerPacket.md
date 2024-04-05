@@ -100,15 +100,15 @@ PlayerAuthInputPacket or 0 if we're not doing server authoritative movement\"",
 /// define
 MovePlayerPacket
 
-Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 
-Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/Vec2.md)
+Rotation：[<!-- md:samp Vec2 -->](refs/protocols/types/vec2.md)
 
 - 类型：Vec2。
 
@@ -124,7 +124,7 @@ On Ground：<!-- md:samp bool -->
 
 - 类型：bool。
 
-Riding Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+Riding Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

@@ -113,7 +113,7 @@ Recipe Height：<!-- md:samp varint -->
 
 Ingredient Grid的示例元素
 
-Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
@@ -125,11 +125,11 @@ Production List数组的大小：<!-- md:samp unsigned varint -->
 
 Production List的示例元素
 
-Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/NetworkItemInstanceDescriptor.md)
+Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/networkiteminstancedescriptor.md)
 
 - 类型：NetworkItemInstanceDescriptor。
 
-Recipe ID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::UUID.md)
+Recipe ID：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
 
 - 类型：mce::UUID。
 

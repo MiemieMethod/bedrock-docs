@@ -134,7 +134,7 @@ the documentation for 1.12.0.2\"",
 /// define
 LevelChunkPacket
 
-Chunk Position：[<!-- md:samp ChunkPos -->](refs/protocols/types/ChunkPos.md)
+Chunk Position：[<!-- md:samp ChunkPos -->](refs/protocols/types/chunkpos.md)
 
 - 类型：ChunkPos。
 

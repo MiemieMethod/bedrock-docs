@@ -58,11 +58,11 @@ Write Entries数组的大小：<!-- md:samp unsigned varint -->
 
 Write Entries的示例元素
 
-Creative Net Id：[<!-- md:samp TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0> -->](refs/protocols/types/TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>.md)
+Creative Net Id：[<!-- md:samp TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0> -->](refs/protocols/types/typedservernetid<struct_creativeitemnetidtag,unsigned_int,0>.md)
 
 - 类型：TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>。
 
-Item Instance：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/NetworkItemInstanceDescriptor.md)
+Item Instance：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/networkiteminstancedescriptor.md)
 
 - 类型：NetworkItemInstanceDescriptor。
 

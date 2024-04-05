@@ -85,7 +85,7 @@ Structure Block Type：<!-- md:samp varint -->
 
 - 类型：varint。enumeration: StructureBlockType
 
-Structure Settings：[<!-- md:samp StructureSettings -->](refs/protocols/types/StructureSettings.md)
+Structure Settings：[<!-- md:samp StructureSettings -->](refs/protocols/types/structuresettings.md)
 
 - 类型：StructureSettings。
 

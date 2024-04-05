@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph StructureTemplateDataRequestPacket {
 	graph [rankdir=LR];
 	{
@@ -51,11 +51,11 @@ Structure Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Structure Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Structure Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Structure Settings：[<!-- md:samp StructureSettings -->](refs/protocols/types/StructureSettings.md)
+Structure Settings：[<!-- md:samp StructureSettings -->](refs/protocols/types/structuresettings.md)
 
 - 类型：StructureSettings。
 

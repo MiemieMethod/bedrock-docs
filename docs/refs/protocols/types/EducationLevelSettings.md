@@ -112,11 +112,11 @@ Screenshot Border Resource Path：<!-- md:samp string -->
 
 - 类型：string。
 
-Agent Capabilities：[<!-- md:samp std::optional<struct AgentCapabilities> -->](refs/protocols/types/std::optional<struct AgentCapabilities>.md)
+Agent Capabilities：[<!-- md:samp std::optional<struct AgentCapabilities> -->](refs/protocols/types/std::optional<struct_agentcapabilities>.md)
 
 - 类型：std::optional<struct AgentCapabilities>。
 
-Code Builder Override Uri：[<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->](refs/protocols/types/std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >.md)
+Code Builder Override Uri：[<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->](refs/protocols/types/std::optional<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_>.md)
 
 - 类型：std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >。
 
@@ -124,7 +124,7 @@ Indiciates if the world has a quiz attached to it：<!-- md:samp bool -->
 
 - 类型：bool。hasQuiz was only used by old JD China EDU and has been removed
 
-External Link Settings：[<!-- md:samp std::optional<struct ExternalLinkSettings> -->](refs/protocols/types/std::optional<struct ExternalLinkSettings>.md)
+External Link Settings：[<!-- md:samp std::optional<struct ExternalLinkSettings> -->](refs/protocols/types/std::optional<struct_externallinksettings>.md)
 
 - 类型：std::optional<struct ExternalLinkSettings>。
 

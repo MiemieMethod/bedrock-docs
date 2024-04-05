@@ -29,7 +29,7 @@ digraph CameraPresetsPacket {
 /// define
 CameraPresetsPacket
 
-Camera Presets：[<!-- md:samp CameraPresets -->](refs/protocols/types/CameraPresets.md)
+Camera Presets：[<!-- md:samp CameraPresets -->](refs/protocols/types/camerapresets.md)
 
 - 类型：CameraPresets。
 

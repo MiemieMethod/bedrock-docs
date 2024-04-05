@@ -53,7 +53,7 @@ digraph NpcRequestPacket {
 /// define
 NpcRequestPacket
 
-NPC Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/ActorRuntimeID.md)
+NPC Runtime ID：[<!-- md:samp ActorRuntimeID -->](refs/protocols/types/actorruntimeid.md)
 
 - 类型：ActorRuntimeID。
 

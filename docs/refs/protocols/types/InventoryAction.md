@@ -47,7 +47,7 @@ digraph InventoryAction {
 /// define
 InventoryAction
 
-Source：[<!-- md:samp InventorySource -->](refs/protocols/types/InventorySource.md)
+Source：[<!-- md:samp InventorySource -->](refs/protocols/types/inventorysource.md)
 
 - 类型：InventorySource。
 
@@ -55,11 +55,11 @@ Slot：<!-- md:samp unsigned varint -->
 
 - 类型：unsigned varint。
 
-From Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/NetworkItemStackDescriptor.md)
+From Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 
-To Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/NetworkItemStackDescriptor.md)
+To Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](refs/protocols/types/networkitemstackdescriptor.md)
 
 - 类型：NetworkItemStackDescriptor。
 

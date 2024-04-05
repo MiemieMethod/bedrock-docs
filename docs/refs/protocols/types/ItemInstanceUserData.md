@@ -90,7 +90,7 @@ User Data Serialization Version：<!-- md:samp byte -->
 
 - 类型：byte。Currently 1
 
-User Data Tag(s)：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+User Data Tag(s)：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。See: @CompoundTag.html#Compound Tag@ .
 

@@ -49,7 +49,7 @@ Total Pages：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Position of Lectern to update：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Position of Lectern to update：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

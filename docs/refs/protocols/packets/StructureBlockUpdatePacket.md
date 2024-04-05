@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph StructureBlockUpdatePacket {
 	graph [rankdir=LR];
 	{
@@ -47,11 +47,11 @@ digraph StructureBlockUpdatePacket {
 /// define
 StructureBlockUpdatePacket
 
-Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Block Position：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Structure Data：[<!-- md:samp StructureEditorData -->](refs/protocols/types/StructureEditorData.md)
+Structure Data：[<!-- md:samp StructureEditorData -->](refs/protocols/types/structureeditordata.md)
 
 - 类型：StructureEditorData。
 

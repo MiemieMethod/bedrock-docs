@@ -106,7 +106,7 @@ Rot Y：[<!-- md:samp std::optional<float> -->](refs/protocols/types/std::option
 
 - 类型：std::optional<float>。
 
-Listener：[<!-- md:samp std::optional<enum CameraPreset::AudioListener> -->](refs/protocols/types/std::optional<enum CameraPreset::AudioListener>.md)
+Listener：[<!-- md:samp std::optional<enum CameraPreset::AudioListener> -->](refs/protocols/types/std::optional<enum_camerapreset::audiolistener>.md)
 
 - 类型：std::optional<enum CameraPreset::AudioListener>。
 

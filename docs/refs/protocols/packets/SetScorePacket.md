@@ -142,7 +142,7 @@ Score Packet Info数组的大小：<!-- md:samp unsigned varint -->
 
 Score Packet Info的示例元素
 
-Id：[<!-- md:samp ScoreboardId -->](refs/protocols/types/ScoreboardId.md)
+Id：[<!-- md:samp ScoreboardId -->](refs/protocols/types/scoreboardid.md)
 
 - 类型：ScoreboardId。
 
@@ -198,7 +198,7 @@ Identity Definition Type：<!-- md:samp byte -->
 
 - 类型：byte。enumeration: IdentityDefinition::Type
 
-Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 

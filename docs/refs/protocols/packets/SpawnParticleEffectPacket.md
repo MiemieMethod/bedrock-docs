@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph SpawnParticleEffectPacket {
 	graph [rankdir=LR];
 	{
@@ -59,11 +59,11 @@ Dimension Id：<!-- md:samp byte -->
 
 - 类型：byte。
 
-Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/ActorUniqueID.md)
+Actor Id：[<!-- md:samp ActorUniqueID -->](refs/protocols/types/actoruniqueid.md)
 
 - 类型：ActorUniqueID。
 
-Position：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Position：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 
@@ -71,7 +71,7 @@ Effect Name：<!-- md:samp string -->
 
 - 类型：string。Should be an effect that exists on the client. No-op if the effect doesn't exist.
 
-Molang Variables：[<!-- md:samp std::optional<class MolangVariableMap> -->](refs/protocols/types/std::optional<class MolangVariableMap>.md)
+Molang Variables：[<!-- md:samp std::optional<class MolangVariableMap> -->](refs/protocols/types/std::optional<class_molangvariablemap>.md)
 
 - 类型：std::optional<class MolangVariableMap>。
 

@@ -6,7 +6,7 @@
 
 ## 结构
 
-```dot
+```viz
 digraph NetworkChunkPublisherUpdatePacket {
 	graph [rankdir=LR];
 	{
@@ -60,7 +60,7 @@ digraph NetworkChunkPublisherUpdatePacket {
 /// define
 NetworkChunkPublisherUpdatePacket
 
-New position for view：[<!-- md:samp BlockPos -->](refs/protocols/types/BlockPos.md)
+New position for view：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -80,7 +80,7 @@ Server Built Chunks List数组的大小：<!-- md:samp unsigned varint -->
 
 Server Built Chunks List的示例元素
 
-Chunk Pos：[<!-- md:samp ChunkPos -->](refs/protocols/types/ChunkPos.md)
+Chunk Pos：[<!-- md:samp ChunkPos -->](refs/protocols/types/chunkpos.md)
 
 - 类型：ChunkPos。
 

@@ -96,7 +96,7 @@ Height：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
@@ -108,11 +108,11 @@ Result Items数组的大小：<!-- md:samp unsigned varint -->
 
 Result Items的示例元素
 
-Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/NetworkItemInstanceDescriptor.md)
+Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](refs/protocols/types/networkiteminstancedescriptor.md)
 
 - 类型：NetworkItemInstanceDescriptor。
 
-Id：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::UUID.md)
+Id：[<!-- md:samp mce::UUID -->](refs/protocols/types/mce::uuid.md)
 
 - 类型：mce::UUID。
 

@@ -57,15 +57,15 @@ Recipe Id：<!-- md:samp string -->
 
 - 类型：string。
 
-Template Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Template Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
-Base Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Base Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 
-Addition Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/RecipeIngredient.md)
+Addition Ingredient：[<!-- md:samp RecipeIngredient -->](refs/protocols/types/recipeingredient.md)
 
 - 类型：RecipeIngredient。
 

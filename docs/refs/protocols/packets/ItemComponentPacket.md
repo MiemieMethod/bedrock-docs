@@ -61,7 +61,7 @@ ComponentItem name：<!-- md:samp string -->
 
 - 类型：string。
 
-Component data：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Component data：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。Compound tag members - item'name': string, item'id': short, itemcomponents: {[componentkey:string]: { ...component definition here... } } }
 

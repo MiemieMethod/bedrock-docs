@@ -71,11 +71,11 @@ digraph AddVolumeEntityPacket {
 /// define
 AddVolumeEntityPacket
 
-Entity Network Id：[<!-- md:samp EntityNetId -->](refs/protocols/types/EntityNetId.md)
+Entity Network Id：[<!-- md:samp EntityNetId -->](refs/protocols/types/entitynetid.md)
 
 - 类型：EntityNetId。
 
-Components：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Components：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。
 
@@ -87,11 +87,11 @@ Instance Name：<!-- md:samp string -->
 
 - 类型：string。
 
-Min Bounds：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Min Bounds：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 
-Max Bounds：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/NetworkBlockPosition.md)
+Max Bounds：[<!-- md:samp NetworkBlockPosition -->](refs/protocols/types/networkblockposition.md)
 
 - 类型：NetworkBlockPosition。
 

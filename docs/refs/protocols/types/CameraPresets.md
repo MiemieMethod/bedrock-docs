@@ -50,7 +50,7 @@ Presets数组的大小：<!-- md:samp unsigned varint -->
 
 Presets的示例元素
 
-Camera Preset：[<!-- md:samp CameraPreset -->](refs/protocols/types/CameraPreset.md)
+Camera Preset：[<!-- md:samp CameraPreset -->](refs/protocols/types/camerapreset.md)
 
 - 类型：CameraPreset。
 

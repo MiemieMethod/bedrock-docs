@@ -1677,7 +1677,7 @@ Dimension Type：<!-- md:samp varint -->
 
 - 类型：varint。
 
-Center Pos：[<!-- md:samp SubChunkPos -->](refs/protocols/types/SubChunkPos.md)
+Center Pos：[<!-- md:samp SubChunkPos -->](refs/protocols/types/subchunkpos.md)
 
 - 类型：SubChunkPos。
 
@@ -1689,7 +1689,7 @@ SubChunk Pos Offsets Size：<!-- md:samp unsigned int -->
 
 SubChunk Data List的示例元素
 
-SubChunk Pos Offset：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](refs/protocols/types/SubChunkPacket::SubChunkPosOffset.md)
+SubChunk Pos Offset：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](refs/protocols/types/subchunkpacket::subchunkposoffset.md)
 
 - 类型：SubChunkPacket::SubChunkPosOffset。
 

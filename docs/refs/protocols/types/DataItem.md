@@ -208,7 +208,7 @@ Value：<!-- md:samp string -->
 ///// define
 if (5)
 
-Value：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
+Value：[<!-- md:samp CompoundTag -->](refs/protocols/types/compoundtag.md)
 
 - 类型：CompoundTag。
 
@@ -221,7 +221,7 @@ Value：[<!-- md:samp CompoundTag -->](refs/protocols/types/CompoundTag.md)
 ///// define
 if (6)
 
-Value：[<!-- md:samp BlockPos -->](refs/protocols/types/BlockPos.md)
+Value：[<!-- md:samp BlockPos -->](refs/protocols/types/blockpos.md)
 
 - 类型：BlockPos。
 
@@ -247,7 +247,7 @@ Value：<!-- md:samp varint64 -->
 ///// define
 if (8)
 
-Value：[<!-- md:samp Vec3 -->](refs/protocols/types/Vec3.md)
+Value：[<!-- md:samp Vec3 -->](refs/protocols/types/vec3.md)
 
 - 类型：Vec3。
 
