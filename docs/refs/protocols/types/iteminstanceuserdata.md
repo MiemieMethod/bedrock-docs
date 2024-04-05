@@ -56,64 +56,88 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemInstanceUserData
+```title='ItemInstanceUserData'
+[user_data_serialization_marker][user_data_serialization_version][user_data_tag(s)][can_place_on_blocks][can_destroy_blocks]
+```
 
+/// html | div.result
+//// define
 User Data Serialization Marker：<!-- md:samp short -->
 
-- 类型：short。(-1) marking start of data
+- 类型：<!-- md:samp short -->。(-1) marking start of data
 
+
+////
+//// define
 User Data Serialization Version：<!-- md:samp byte -->
 
-- 类型：byte。Currently 1
+- 类型：<!-- md:samp byte -->。Currently 1
 
+
+////
+//// define
 User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。See: @CompoundTag.html#Compound Tag@ .
-
-Can Place On Blocks
-
-//// define
-Can Place On Blocks数组的大小：<!-- md:samp unsigned int -->
-
-- 类型：unsigned int。
+- 类型：<!-- md:samp CompoundTag -->。See: @CompoundTag.html#Compound Tag@ .
 
 
 ////
+```title='Can Place On Blocks'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned int -->
+
+- 类型：<!-- md:samp unsigned int -->。
 
 
-//// define
-Can Place On Blocks的示例元素
+/////
+```title='示例元素'
+[block_raw_name_id]
+```
 
+///// html | div.result
+////// define
 Block Raw Name ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
 
-////
+//////
 
-
-Can Destroy Blocks
-
-//// define
-Can Destroy Blocks数组的大小：<!-- md:samp unsigned int -->
-
-- 类型：unsigned int。
-
+/////
 
 ////
+```title='Can Destroy Blocks'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned int -->
+
+- 类型：<!-- md:samp unsigned int -->。
 
 
-//// define
-Can Destroy Blocks的示例元素
+/////
+```title='示例元素'
+[block_raw_name_id]
+```
 
+///// html | div.result
+////// define
 Block Raw Name ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
-
-
 
 ///
+

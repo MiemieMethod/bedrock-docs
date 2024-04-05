@@ -48,36 +48,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ResourcePackDataInfoPacket
+```title='ResourcePackDataInfoPacket'
+[resource_name][chunk_size][number_of_chunks][file_size][file_hash][is_premium_pack][pack_type]
+```
 
+/// html | div.result
+//// define
 Resource Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Chunk Size：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 Number of Chunks：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 File Size：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
+//// define
 File Hash：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Is Premium Pack：<!-- md:samp bool -->
 
-- 类型：bool。Do you need an entitlement to use this pack?
+- 类型：<!-- md:samp bool -->。Do you need an entitlement to use this pack?
 
+
+////
+//// define
 Pack Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PackType
+- 类型：<!-- md:samp byte -->。enumeration: PackType
 
+
+////
 
 ///
+

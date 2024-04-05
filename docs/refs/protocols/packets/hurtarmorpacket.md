@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-HurtArmorPacket
+```title='HurtArmorPacket'
+[cause][damage][armor_slots]
+```
 
+/// html | div.result
+//// define
 Cause：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Damage：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Armor Slots：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。Bitset
+- 类型：<!-- md:samp unsigned varint64 -->。Bitset
 
+
+////
 
 ///
+

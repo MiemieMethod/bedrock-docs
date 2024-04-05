@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ChangeDimensionPacket
+```title='ChangeDimensionPacket'
+[dimension_id][position][respawn]
+```
 
+/// html | div.result
+//// define
 Dimension ID：<!-- md:samp varint -->
 
-- 类型：varint。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 类型：<!-- md:samp varint -->。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Respawn：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

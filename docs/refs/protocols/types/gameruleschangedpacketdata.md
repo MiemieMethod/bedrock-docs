@@ -52,52 +52,93 @@ rankdir = LR
 
 ## 字段
 
-/// define
-GameRulesChangedPacketData
+```title='GameRulesChangedPacketData'
+[rules_list]
+```
 
-Rules List
+/// html | div.result
+```title='Rules List'
+[array_size][[example_element]..]
+```
 
-//// define
-Rules List数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Rules List的示例元素
+/////
+```title='示例元素'
+[rule_name][can_be_modified_by_player][rule_type][dependency_on_'rule_type']
+```
 
+///// html | div.result
+////// define
 Rule Name：<!-- md:samp string -->
 
-- 类型：string。
-
-Can Be Modified By Player：<!-- md:samp bool -->
-
-- 类型：bool。
-
-Rule Type
-
-Dependency on 'Rule Type'
-
-///// tab | if (1)
-////// define
-if (1)
-
-Rule Value：<!-- md:samp bool -->
-
-- 类型：bool。
+- 类型：<!-- md:samp string -->。
 
 
 //////
+////// define
+Can Be Modified By Player：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+//////
+```title='Rule Type'
+[unsigned_varint][unsigned_varint][unsigned_varint]
+```
+
+////// html | div.result
+```title='unsigned varint'
+
+```
+
+/////// html | div.result
+
+///////
+```title='unsigned varint'
+
+```
+
+/////// html | div.result
+
+///////
+```title='unsigned varint'
+
+```
+
+/////// html | div.result
+
+///////
+
+//////
+> 依赖于`Rule Type`
+
+/////// tab | `Rule Type`如果为`1`
+```title='if (1)'
+[rule_value]
+```
+
+//////// html | div.result
+///////// define
+Rule Value：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+/////////
+
+////////
+
+///////
 
 /////
 
-
-
 ////
 
-
-
 ///
+

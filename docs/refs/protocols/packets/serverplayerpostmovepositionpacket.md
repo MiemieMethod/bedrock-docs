@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ServerPlayerPostMovePositionPacket
+```title='ServerPlayerPostMovePositionPacket'
+[pos]
+```
 
+/// html | div.result
+//// define
 Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
 
 ///
+

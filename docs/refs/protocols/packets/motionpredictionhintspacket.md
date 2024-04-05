@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MotionPredictionHintsPacket
+```title='MotionPredictionHintsPacket'
+[mruntimeid][mmotion][monground]
+```
 
+/// html | div.result
+//// define
 mRuntimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。Id of moving actor
+- 类型：<!-- md:samp ActorRuntimeID -->。Id of moving actor
 
+
+////
+//// define
 mMotion：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。Position delta
+- 类型：<!-- md:samp Vec3 -->。Position delta
 
+
+////
+//// define
 mOnGround：<!-- md:samp bool -->
 
-- 类型：bool。Not falling / jumping
+- 类型：<!-- md:samp bool -->。Not falling / jumping
 
+
+////
 
 ///
+

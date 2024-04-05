@@ -20,6 +20,11 @@ rankdir = LR
 
 ## 字段
 
-/// define
+```title='RefreshEntitlementsPacket'
+
+```
+
+/// html | div.result
 
 ///
+

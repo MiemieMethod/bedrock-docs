@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ContainerClosePacket
+```title='ContainerClosePacket'
+[container_id][server_initiated_close]
+```
 
+/// html | div.result
+//// define
 Container ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerID
+- 类型：<!-- md:samp byte -->。enumeration: ContainerID
 
+
+////
+//// define
 Server Initiated Close：<!-- md:samp bool -->
 
-- 类型：bool。True if the server initiated the closing
+- 类型：<!-- md:samp bool -->。True if the server initiated the closing
 
+
+////
 
 ///
+

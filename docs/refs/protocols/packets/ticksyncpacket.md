@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TickSyncPacket
+```title='TickSyncPacket'
+[client_request_timestamp][server_reception_response_timestamp]
+```
 
+/// html | div.result
+//// define
 Client Request Timestamp：<!-- md:samp int64 -->
 
-- 类型：int64。
+- 类型：<!-- md:samp int64 -->。
 
+
+////
+//// define
 Server Reception Response Timestamp：<!-- md:samp int64 -->
 
-- 类型：int64。
+- 类型：<!-- md:samp int64 -->。
 
+
+////
 
 ///
+

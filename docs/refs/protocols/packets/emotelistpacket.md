@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-EmoteListPacket
+```title='EmoteListPacket'
+[runtime_id][emote_piece_ids]
+```
 
+/// html | div.result
+//// define
 Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
-
-Emote piece ids
-
-//// define
-Emote piece ids数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
 
 ////
+```title='Emote piece ids'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Emote piece ids的示例元素
+/////
+```title='示例元素'
+[piece_id]
+```
 
-Piece id：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
+///// html | div.result
+////// define
+Piece id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：mce::UUID。
+- 类型：<!-- md:samp mce::UUID -->。
 
+
+//////
+
+/////
 
 ////
-
-
 
 ///
+

@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlaySoundPacket
+```title='PlaySoundPacket'
+[name][position][volume][pitch]
+```
 
+/// html | div.result
+//// define
 Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Volume：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Pitch：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
 
 ///
+

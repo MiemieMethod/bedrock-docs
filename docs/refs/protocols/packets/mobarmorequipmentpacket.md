@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MobArmorEquipmentPacket
+```title='MobArmorEquipmentPacket'
+[target_runtime_id][head][torso][legs][feet]
+```
 
+/// html | div.result
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Head：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
+//// define
 Torso：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
+//// define
 Legs：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
+//// define
 Feet：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
 
 ///
+

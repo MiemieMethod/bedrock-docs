@@ -32,30 +32,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PurchaseReceiptPacket
+```title='PurchaseReceiptPacket'
+[purchase_receipts]
+```
 
-Purchase Receipts
+/// html | div.result
+```title='Purchase Receipts'
+[array_size][[example_element]..]
+```
 
-//// define
-Purchase Receipts数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Purchase Receipts的示例元素
+/////
+```title='示例元素'
+[proof_of_purchase]
+```
 
+///// html | div.result
+////// define
 Proof of Purchase：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

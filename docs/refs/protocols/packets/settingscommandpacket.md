@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SettingsCommandPacket
+```title='SettingsCommandPacket'
+[command][suppress_output?]
+```
 
+/// html | div.result
+//// define
 Command：<!-- md:samp string -->
 
-- 类型：string。Command to update setting.
+- 类型：<!-- md:samp string -->。Command to update setting.
 
+
+////
+//// define
 Suppress Output?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

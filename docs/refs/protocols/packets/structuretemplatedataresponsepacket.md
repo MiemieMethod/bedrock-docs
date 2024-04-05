@@ -50,53 +50,76 @@ rankdir = LR
 
 ## 字段
 
-/// define
-StructureTemplateDataResponsePacket
+```title='StructureTemplateDataResponsePacket'
+[structure_name][dependency_on_'requested_structure_exists?']
+```
 
+/// html | div.result
+//// define
 Structure Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Dependency on 'Requested structure exists?'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Requested structure exists?`
 
+///// tab | `Requested structure exists?`如果为`0`
+```title='if (0)'
+[failure][response_type]
+```
+
+////// html | div.result
+/////// define
 Failure：<!-- md:samp bool -->
 
-- 类型：bool。Bool set to false, indicating the requested structure d'id'n't exist.
+- 类型：<!-- md:samp bool -->。Bool set to false, indicating the requested structure d'id'n't exist.
 
+
+///////
+/////// define
 Response Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: StructureTemplateResponseType
+- 类型：<!-- md:samp byte -->。enumeration: StructureTemplateResponseType
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Requested structure exists?`如果为`1`
+```title='if (1)'
+[success][structure's_nbt][response_type]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Success：<!-- md:samp bool -->
 
-- 类型：bool。Bool set to true, indicating success.
+- 类型：<!-- md:samp bool -->。Bool set to true, indicating success.
 
+
+///////
+/////// define
 Structure's NBT：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
+
+///////
+/////// define
 Response Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: StructureTemplateResponseType
+- 类型：<!-- md:samp byte -->。enumeration: StructureTemplateResponseType
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

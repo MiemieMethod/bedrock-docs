@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetDifficultyPacket
+```title='SetDifficultyPacket'
+[difficulty]
+```
 
+/// html | div.result
+//// define
 Difficulty：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: Difficulty
+- 类型：<!-- md:samp unsigned varint -->。enumeration: Difficulty
 
+
+////
 
 ///
+

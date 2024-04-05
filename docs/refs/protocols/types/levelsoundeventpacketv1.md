@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LevelSoundEventPacketV1
+```title='LevelSoundEventPacketV1'
+[event_id][position][data][actor_type][baby_mob][global]
+```
 
+/// html | div.result
+//// define
 Event ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Puv::Legacy::LevelSoundEvent
+- 类型：<!-- md:samp byte -->。enumeration: Puv::Legacy::LevelSoundEvent
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Data：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Actor Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。enumeration: ActorType
 
+
+////
+//// define
 Baby Mob：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Global：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

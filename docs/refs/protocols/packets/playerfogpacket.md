@@ -32,30 +32,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerFogPacket
+```title='PlayerFogPacket'
+[fog_stack]
+```
 
-Fog Stack
+/// html | div.result
+```title='Fog Stack'
+[array_size][[example_element]..]
+```
 
-//// define
-Fog Stack数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Fog Stack的示例元素
+/////
+```title='示例元素'
+[fog_effect]
+```
 
+///// html | div.result
+////// define
 Fog Effect：<!-- md:samp string -->
 
-- 类型：string。Fog effect string from /fog command
+- 类型：<!-- md:samp string -->。Fog effect string from /fog command
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

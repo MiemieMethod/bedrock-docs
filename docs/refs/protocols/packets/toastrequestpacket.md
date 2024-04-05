@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ToastRequestPacket
+```title='ToastRequestPacket'
+[title][content]
+```
 
+/// html | div.result
+//// define
 Title：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Content：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

@@ -136,144 +136,228 @@ rankdir = LR
 
 ## 字段
 
-/// define
-StartGamePacket
+```title='StartGamePacket'
+[target_actor_id][target_runtime_id][actor_game_type][position][rotation][settings][level_id][level_name][template_content_identity][is_trial?][movement_settings][current_level_time][enchantment_seed][block_properties][item_list_-_every_vanilla_item_must_be_present][multiplayer_correlation_id][enable_item_stack_net_manager][server_version][player_property_data][server_block_type_registry_checksum][world_template_id][server_enabled_clientside_generation][blocknetworkids_are_hashes][networkpermissions]
+```
 
+/// html | div.result
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Actor Game Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: GameType
+- 类型：<!-- md:samp varint -->。enumeration: GameType
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+////
+//// define
 Settings：[<!-- md:samp LevelSettings -->](../types/levelsettings.md)
 
-- 类型：LevelSettings。
+- 类型：<!-- md:samp LevelSettings -->。
 
+
+////
+//// define
 Level ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Level Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Template Content Identity：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Is Trial?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Movement Settings：[<!-- md:samp SyncedPlayerMovementSettings -->](../types/syncedplayermovementsettings.md)
 
-- 类型：SyncedPlayerMovementSettings。
+- 类型：<!-- md:samp SyncedPlayerMovementSettings -->。
 
+
+////
+//// define
 Current Level Time：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
+//// define
 Enchantment Seed：<!-- md:samp varint -->
 
-- 类型：varint。
-
-Block Properties
-
-//// define
-Block Properties数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp varint -->。
 
 
 ////
+```title='Block Properties'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Block Properties的示例元素
+/////
+```title='示例元素'
+[block_name][block_definition]
+```
 
+///// html | div.result
+////// define
 Block Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。Map of block states. { key (component 'name'):[label,value] } (Can be left empty.)
+- 类型：<!-- md:samp CompoundTag -->。Map of block states. { key (component 'name'):[label,value] } (Can be left empty.)
 
 
-////
+//////
 
-
-Item List - every vanilla item must be present
-
-//// define
-Item List - every vanilla item must be present数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Item List - every vanilla item must be present'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Item List - every vanilla item must be present的示例元素
+/////
+```title='示例元素'
+[item_info]
+```
 
+///// html | div.result
+////// define
 Item Info：[<!-- md:samp ItemData -->](../types/itemdata.md)
 
-- 类型：ItemData。See: ItemData Type
+- 类型：<!-- md:samp ItemData -->。See: ItemData Type
+
+
+//////
+
+/////
+
+////
+//// define
+Multiplayer Correlation Id：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。A UUID to 'id'entify this multiplayer session.
+
+
+////
+//// define
+Enable Item Stack Net Manager：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。Whether the new item stack net manager is enabled for server authoritative inventory. This will eventually be required.
+
+
+////
+//// define
+Server version：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。For telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
+
+
+////
+//// define
+Player Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
+
+- 类型：<!-- md:samp CompoundTag -->。like SyncActorPropertyPacket, specifically for minecraft:player properties
+
+
+////
+//// define
+Server Block Type Registry Checksum：<!-- md:samp unsigned int64 -->
+
+- 类型：<!-- md:samp unsigned int64 -->。Checksum for detecting mismatches in block types between server and client.
+
+
+////
+//// define
+World Template ID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
+
+- 类型：<!-- md:samp mce::UUID -->。
+
+
+////
+//// define
+Server Enabled ClientSide Generation：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。BiomeComponentFactory needs to know about this toggle before we start parsing BiomeComponents
+
+
+////
+//// define
+BlockNetworkIds Are Hashes：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+////
+//// define
+NetworkPermissions：[<!-- md:samp NetworkPermissions -->](../types/networkpermissions.md)
+
+- 类型：<!-- md:samp NetworkPermissions -->。
 
 
 ////
 
-
-Multiplayer Correlation Id：<!-- md:samp string -->
-
-- 类型：string。A UUID to 'id'entify this multiplayer session.
-
-Enable Item Stack Net Manager：<!-- md:samp bool -->
-
-- 类型：bool。Whether the new item stack net manager is enabled for server authoritative inventory. This will eventually be required.
-
-Server version：<!-- md:samp string -->
-
-- 类型：string。For telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
-
-Player Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
-
-- 类型：CompoundTag。like SyncActorPropertyPacket, specifically for minecraft:player properties
-
-Server Block Type Registry Checksum：<!-- md:samp unsigned int64 -->
-
-- 类型：unsigned int64。Checksum for detecting mismatches in block types between server and client.
-
-World Template ID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
-
-- 类型：mce::UUID。
-
-Server Enabled ClientSide Generation：<!-- md:samp bool -->
-
-- 类型：bool。BiomeComponentFactory needs to know about this toggle before we start parsing BiomeComponents
-
-BlockNetworkIds Are Hashes：<!-- md:samp bool -->
-
-- 类型：bool。
-
-NetworkPermissions：[<!-- md:samp NetworkPermissions -->](../types/networkpermissions.md)
-
-- 类型：NetworkPermissions。
-
-
 ///
+

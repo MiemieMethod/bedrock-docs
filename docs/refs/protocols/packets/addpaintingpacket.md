@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AddPaintingPacket
+```title='AddPaintingPacket'
+[target_actor_id][target_runtime_id][position][direction][motif]
+```
 
+/// html | div.result
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Direction：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Motif：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

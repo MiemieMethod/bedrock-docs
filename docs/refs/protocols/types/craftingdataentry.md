@@ -138,197 +138,290 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CraftingDataEntry
+```title='CraftingDataEntry'
+[crafting_type][dependency_on_'crafting_type']
+```
 
+/// html | div.result
+//// define
 Crafting Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: CraftingDataEntryType
+- 类型：<!-- md:samp varint -->。enumeration: CraftingDataEntryType
 
-Dependency on 'Crafting Type'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Crafting Type`
 
+///// tab | `Crafting Type`如果为`0`
+```title='if (0)'
+[shapeless_recipe][net_id]
+```
+
+////// html | div.result
+/////// define
 Shapeless Recipe：[<!-- md:samp ShapelessRecipe -->](../types/shapelessrecipe.md)
 
-- 类型：ShapelessRecipe。
+- 类型：<!-- md:samp ShapelessRecipe -->。
 
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`1`
+```title='if (1)'
+[shaped_recipe][net_id]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Shaped Recipe：[<!-- md:samp ShapedRecipe -->](../types/shapedrecipe.md)
 
-- 类型：ShapedRecipe。
+- 类型：<!-- md:samp ShapedRecipe -->。
 
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`2`
+```title='if (2)'
+[item_data][result_item][recipe_tag]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Item Data：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Result Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：NetworkItemInstanceDescriptor。
+- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
 
+
+///////
+/////// define
 Recipe Tag：<!-- md:samp string -->
 
-- 类型：string。Available ones: crafting_table, cartography_table, stonecutter, furnace, blast_furnace, smoker, campfire
+- 类型：<!-- md:samp string -->。Available ones: crafting_table, cartography_table, stonecutter, furnace, blast_furnace, smoker, campfire
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`3`
+```title='if (3)'
+[item_data][auxiliary_item_data][result_item][recipe_tag]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Item Data：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Auxiliary Item Data：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Result Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：NetworkItemInstanceDescriptor。
+- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
 
+
+///////
+/////// define
 Recipe Tag：<!-- md:samp string -->
 
-- 类型：string。Available ones: crafting_table, cartography_table, stonecutter, furnace, blast_furnace, smoker, campfire
+- 类型：<!-- md:samp string -->。Available ones: crafting_table, cartography_table, stonecutter, furnace, blast_furnace, smoker, campfire
 
 
-/////
+///////
 
-////
-
-//// tab | if (4)
-///// define
-if (4)
-
-Multi-Recipe：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
-
-- 类型：mce::UUID。
-
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
-
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
-
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`4`
+```title='if (4)'
+[multi-recipe][net_id]
+```
 
-//// tab | if (5)
-///// define
-if (5)
+////// html | div.result
+/////// define
+Multi-Recipe：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
+- 类型：<!-- md:samp mce::UUID -->。
+
+
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
+
+/////
+
+///// tab | `Crafting Type`如果为`5`
+```title='if (5)'
+[shulker_box_recipe][net_id]
+```
+
+////// html | div.result
+/////// define
 Shulker Box Recipe：[<!-- md:samp ShulkerBoxRecipe -->](../types/shulkerboxrecipe.md)
 
-- 类型：ShulkerBoxRecipe。
+- 类型：<!-- md:samp ShulkerBoxRecipe -->。
 
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`6`
+```title='if (6)'
+[shapeless_chemistry_recipe][net_id]
+```
 
-//// tab | if (6)
-///// define
-if (6)
-
+////// html | div.result
+/////// define
 Shapeless Chemistry Recipe：[<!-- md:samp ShapelessChemistryRecipe -->](../types/shapelesschemistryrecipe.md)
 
-- 类型：ShapelessChemistryRecipe。
+- 类型：<!-- md:samp ShapelessChemistryRecipe -->。
 
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`7`
+```title='if (7)'
+[shaped_chemistry_recipe][net_id]
+```
 
-//// tab | if (7)
-///// define
-if (7)
-
+////// html | div.result
+/////// define
 Shaped Chemistry Recipe：[<!-- md:samp ShapedChemistryRecipe -->](../types/shapedchemistryrecipe.md)
 
-- 类型：ShapedChemistryRecipe。
+- 类型：<!-- md:samp ShapedChemistryRecipe -->。
 
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`8`
+```title='if (8)'
+[smithing_transform_recipe][net_id]
+```
 
-//// tab | if (8)
-///// define
-if (8)
-
+////// html | div.result
+/////// define
 Smithing Transform Recipe：[<!-- md:samp SmithingTransformRecipe -->](../types/smithingtransformrecipe.md)
 
-- 类型：SmithingTransformRecipe。
+- 类型：<!-- md:samp SmithingTransformRecipe -->。
 
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Crafting Type`如果为`9`
+```title='if (9)'
+[smithing_trim_recipe][net_id]
+```
 
-//// tab | if (9)
-///// define
-if (9)
-
+////// html | div.result
+/////// define
 Smithing Trim Recipe：[<!-- md:samp SmithingTrimRecipe -->](../types/smithingtrimrecipe.md)
 
-- 类型：SmithingTrimRecipe。
+- 类型：<!-- md:samp SmithingTrimRecipe -->。
 
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+///////
+/////// define
+Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

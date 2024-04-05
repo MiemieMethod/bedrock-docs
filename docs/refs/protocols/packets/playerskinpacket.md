@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerSkinPacket
+```title='PlayerSkinPacket'
+[uuid][serialized_skin][new_skin_name][old_skin_name][whether_skin_is_trusted_marketplace_content]
+```
 
-UUID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
+/// html | div.result
+//// define
+UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：mce::UUID。
+- 类型：<!-- md:samp mce::UUID -->。
 
+
+////
+//// define
 Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
-- 类型：SerializedSkin。
+- 类型：<!-- md:samp SerializedSkin -->。
 
+
+////
+//// define
 New Skin Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Old Skin Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Whether skin is trusted marketplace content：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ScriptMessagePacket
+```title='ScriptMessagePacket'
+[message_id][message_value]
+```
 
+/// html | div.result
+//// define
 Message Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Message Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

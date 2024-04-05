@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SimulationTypePacket
+```title='SimulationTypePacket'
+[sim_type]
+```
 
+/// html | div.result
+//// define
 Sim Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: SimulationType
+- 类型：<!-- md:samp byte -->。enumeration: SimulationType
 
+
+////
 
 ///
+

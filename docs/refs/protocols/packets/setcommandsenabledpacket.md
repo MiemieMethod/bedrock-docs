@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetCommandsEnabledPacket
+```title='SetCommandsEnabledPacket'
+[commands_enabled]
+```
 
+/// html | div.result
+//// define
 Commands Enabled：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

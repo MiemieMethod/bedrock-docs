@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-FilterTextPacket
+```title='FilterTextPacket'
+[text][from_server]
+```
 
+/// html | div.result
+//// define
 Text：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 From Server：<!-- md:samp bool -->
 
-- 类型：bool。Whether this message is a filtered string from the server or a string in need of filtering from the client
+- 类型：<!-- md:samp bool -->。Whether this message is a filtered string from the server or a string in need of filtering from the client
 
+
+////
 
 ///
+

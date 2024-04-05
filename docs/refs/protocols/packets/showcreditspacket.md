@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ShowCreditsPacket
+```title='ShowCreditsPacket'
+[player_runtime_id][credits_state]
+```
 
+/// html | div.result
+//// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Credits State：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ShowCreditsPacket::CreditsState
+- 类型：<!-- md:samp varint -->。enumeration: ShowCreditsPacket::CreditsState
 
+
+////
 
 ///
+

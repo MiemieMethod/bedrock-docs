@@ -96,104 +96,158 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AddActorPacket
+```title='AddActorPacket'
+[target_actor_id][target_runtime_id][actor_type][position][velocity][rotation][y_head_rotation][y_body_rotation][attributes_list][actor_data][synched_properties][actor_links]
+```
 
+/// html | div.result
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Actor Type：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+////
+//// define
 Y Head Rotation：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Y Body Rotation：<!-- md:samp float -->
 
-- 类型：float。
-
-Attributes List
-
-//// define
-Attributes List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp float -->。
 
 
 ////
+```title='Attributes List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Attributes List的示例元素
+/////
+```title='示例元素'
+[attribute_name][min_value][current_value][max_value]
+```
 
+///// html | div.result
+////// define
 Attribute Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Min Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+////// define
 Current Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+////// define
 Max Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
+
+
+//////
+
+/////
+
+////
+//// define
+Actor Data：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
+
+- 类型：<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->。
 
 
 ////
-
-
-Actor Data：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
-
-- 类型：std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >。
-
+//// define
 Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
-- 类型：PropertySyncData。
-
-Actor Links
-
-//// define
-Actor Links数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp PropertySyncData -->。
 
 
 ////
+```title='Actor Links'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Actor Links的示例元素
+/////
+```title='示例元素'
+[link]
+```
 
+///// html | div.result
+////// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- 类型：ActorLink。
+- 类型：<!-- md:samp ActorLink -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

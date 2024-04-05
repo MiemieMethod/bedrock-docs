@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateBlockPacket
+```title='UpdateBlockPacket'
+[block_position][block_runtime_id][flags][layer]
+```
 
+/// html | div.result
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Block Runtime ID：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Flags：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Layer：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
 
 ///
+

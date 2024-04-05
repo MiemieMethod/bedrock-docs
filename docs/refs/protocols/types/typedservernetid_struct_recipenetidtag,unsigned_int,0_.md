@@ -1,8 +1,8 @@
-# <!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->
+# <!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->类型。
+<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->类型。
 
 ## 结构
 
@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>
+```title='TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>'
+[raw_id_(32_bit_unsigned)]
+```
 
+/// html | div.result
+//// define
 Raw Id (32 bit unsigned)：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
 
 ///
+

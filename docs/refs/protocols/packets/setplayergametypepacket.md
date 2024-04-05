@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetPlayerGameTypePacket
+```title='SetPlayerGameTypePacket'
+[player_game_type]
+```
 
+/// html | div.result
+//// define
 Player Game Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: GameType
+- 类型：<!-- md:samp varint -->。enumeration: GameType
 
+
+////
 
 ///
+

@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PacketViolationWarningPacket
+```title='PacketViolationWarningPacket'
+[violation_type][violation_severity][violating_packet_id][violation_context]
+```
 
+/// html | div.result
+//// define
 Violation Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: PacketViolationType
+- 类型：<!-- md:samp varint -->。enumeration: PacketViolationType
 
+
+////
+//// define
 Violation Severity：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: PacketViolationSeverity
+- 类型：<!-- md:samp varint -->。enumeration: PacketViolationSeverity
 
+
+////
+//// define
 Violating packet id：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: MinecraftPacketIds
+- 类型：<!-- md:samp varint -->。enumeration: MinecraftPacketIds
 
+
+////
+//// define
 Violation context：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

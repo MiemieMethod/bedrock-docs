@@ -40,38 +40,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateSoftEnumPacket
+```title='UpdateSoftEnumPacket'
+[enum_name][values][update_type]
+```
 
+/// html | div.result
+//// define
 Enum Name：<!-- md:samp string -->
 
-- 类型：string。
-
-Values
-
-//// define
-Values数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
 ////
+```title='Values'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Values的示例元素
+/////
+```title='示例元素'
+[enum_value]
+```
 
+///// html | div.result
+////// define
 Enum Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
+
+
+//////
+
+/////
+
+////
+//// define
+Update Type：<!-- md:samp unsigned int -->
+
+- 类型：<!-- md:samp unsigned int -->。enumeration: SoftEnumUpdateType
 
 
 ////
 
-
-Update Type：<!-- md:samp unsigned int -->
-
-- 类型：unsigned int。enumeration: SoftEnumUpdateType
-
-
 ///
+

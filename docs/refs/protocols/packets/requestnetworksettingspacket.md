@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RequestNetworkSettingsPacket
+```title='RequestNetworkSettingsPacket'
+[clientnetworkversion]
+```
 
+/// html | div.result
+//// define
 ClientNetworkVersion：<!-- md:samp big endian int -->
 
-- 类型：big endian int。
+- 类型：<!-- md:samp big endian int -->。
 
+
+////
 
 ///
+

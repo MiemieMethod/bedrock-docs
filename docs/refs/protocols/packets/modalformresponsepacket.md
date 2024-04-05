@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ModalFormResponsePacket
+```title='ModalFormResponsePacket'
+[form_id][json_response][form_cancel_reason]
+```
 
+/// html | div.result
+//// define
 Form ID：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
-JSON Response：[<!-- md:samp std::optional<class Json::Value> -->](../types/std::optional<class_json::value>.md)
 
-- 类型：std::optional<class Json::Value>。
+////
+//// define
+JSON Response：[<!-- md:samp std::optional<class Json::Value> -->](../types/std__optional_class_json__value_.md)
 
-Form Cancel Reason：[<!-- md:samp std::optional<enum ModalFormCancelReason> -->](../types/std::optional<enum_modalformcancelreason>.md)
+- 类型：<!-- md:samp std::optional<class Json::Value> -->。
 
-- 类型：std::optional<enum ModalFormCancelReason>。
 
+////
+//// define
+Form Cancel Reason：[<!-- md:samp std::optional<enum ModalFormCancelReason> -->](../types/std__optional_enum_modalformcancelreason_.md)
+
+- 类型：<!-- md:samp std::optional<enum ModalFormCancelReason> -->。
+
+
+////
 
 ///
+

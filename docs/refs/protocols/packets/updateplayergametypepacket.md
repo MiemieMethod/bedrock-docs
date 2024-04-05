@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdatePlayerGameTypePacket
+```title='UpdatePlayerGameTypePacket'
+[player_game_type][target_player]
+```
 
+/// html | div.result
+//// define
 Player game type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: GameType
+- 类型：<!-- md:samp varint -->。enumeration: GameType
 
+
+////
+//// define
 Target player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
 
 ///
+

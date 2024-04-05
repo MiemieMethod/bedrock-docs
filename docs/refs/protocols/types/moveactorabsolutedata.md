@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MoveActorAbsoluteData
+```title='MoveActorAbsoluteData'
+[actorruntimeid][header][position][rotation_x][rotation_y][rotation_y_head]
+```
 
+/// html | div.result
+//// define
 ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。The runtime 'id' of the actor being moved
+- 类型：<!-- md:samp ActorRuntimeID -->。The runtime 'id' of the actor being moved
 
+
+////
+//// define
 Header：<!-- md:samp byte -->
 
-- 类型：byte。Header bits describing the status of the actor, see additional documentation in the supplemental documentation folder
+- 类型：<!-- md:samp byte -->。Header bits describing the status of the actor, see additional documentation in the supplemental documentation folder
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。X/Y/Z coordinates of the position of the actor, each being a 4 byte float
+- 类型：<!-- md:samp Vec3 -->。X/Y/Z coordinates of the position of the actor, each being a 4 byte float
 
+
+////
+//// define
 Rotation X：<!-- md:samp byte -->
 
-- 类型：byte。The X rotation of the actor stored as an integer
+- 类型：<!-- md:samp byte -->。The X rotation of the actor stored as an integer
 
+
+////
+//// define
 Rotation Y：<!-- md:samp byte -->
 
-- 类型：byte。The Y rotation of the actor stored as an integer
+- 类型：<!-- md:samp byte -->。The Y rotation of the actor stored as an integer
 
+
+////
+//// define
 Rotation Y Head：<!-- md:samp byte -->
 
-- 类型：byte。The head rotation of the actor if and only if it's a Mob type, stored as an integer
+- 类型：<!-- md:samp byte -->。The head rotation of the actor if and only if it's a Mob type, stored as an integer
 
+
+////
 
 ///
+

@@ -156,254 +156,328 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ClientboundMapItemDataPacket
+```title='ClientboundMapItemDataPacket'
+[map_id][type_flags][dimension][is_locked_map?][map_origin][dependency_on_'creation_bit_field'][dependency_on_'decorationupdate,_textureupdate,_or_creation_bit_field'][dependency_on_'decorationupdate_bit_field'][dependency_on_'textureupdate_bit_field']
+```
 
+/// html | div.result
+//// define
 Map ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Type Flags：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: ClientboundMapItemDataPacket::Type
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ClientboundMapItemDataPacket::Type
 
+
+////
+//// define
 Dimension：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Is Locked Map?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
-
-Dependency on 'Creation Bit Field'
-
-//// tab | if (8)
-///// define
-if (8)
-
-Map ID List
-
-////// define
-Map ID List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp BlockPos -->。
 
 
-//////
+////
+> 依赖于`Creation Bit Field`
+
+///// tab | `Creation Bit Field`如果为`8`
+```title='if (8)'
+[map_id_list]
+```
+
+////// html | div.result
+```title='Map ID List'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////// define
-Map ID List的示例元素
+////////
+```title='示例元素'
+[map_id_entry][map_id_entry]
+```
 
+//////// html | div.result
+///////// define
 Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+/////////
+///////// define
+Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
+
+- 类型：<!-- md:samp ActorUniqueID -->。
+
+
+/////////
+
+////////
+
+///////
 
 //////
 
-
-
 /////
 
-////
-
-//// tab | if (0)
-///// define
+///// tab | `Creation Bit Field`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
+> 依赖于`DecorationUpdate, TextureUpdate, or Creation Bit Field`
 
-////
+///// tab | `DecorationUpdate, TextureUpdate, or Creation Bit Field`如果为`2`
+```title='if (2)'
+[scale]
+```
 
-
-Dependency on 'DecorationUpdate, TextureUpdate, or Creation Bit Field'
-
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Scale：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `DecorationUpdate, TextureUpdate, or Creation Bit Field`如果为`4`
+```title='if (4)'
+[scale]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Scale：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `DecorationUpdate, TextureUpdate, or Creation Bit Field`如果为`8`
+```title='if (8)'
+[scale]
+```
 
-//// tab | if (8)
-///// define
-if (8)
-
+////// html | div.result
+/////// define
 Scale：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (0)
-///// define
+///// tab | `DecorationUpdate, TextureUpdate, or Creation Bit Field`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
+> 依赖于`DecorationUpdate Bit Field`
 
-////
+///// tab | `DecorationUpdate Bit Field`如果为`4`
+```title='if (4)'
+[actor_ids][decoration_list]
+```
 
+////// html | div.result
+```title='Actor IDs'
+[array_size][[example_element]..]
+```
 
-Dependency on 'DecorationUpdate Bit Field'
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
 
-//// tab | if (4)
-///// define
-if (4)
-
-Actor IDs
-
-////// define
-Actor IDs数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-//////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////// define
-Actor IDs的示例元素
+////////
+```title='示例元素'
+[mapitemtrackedactor_id]
+```
 
-MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../types/mapitemtrackedactor::uniqueid.md)
+//////// html | div.result
+///////// define
+MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../types/mapitemtrackedactor__uniqueid.md)
 
-- 类型：MapItemTrackedActor::UniqueId。
-
-
-//////
-
-
-Decoration List
-
-////// define
-Decoration List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp MapItemTrackedActor::UniqueId -->。
 
 
-//////
+/////////
+
+////////
+
+///////
+```title='Decoration List'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////// define
-Decoration List的示例元素
+////////
+```title='示例元素'
+[map_decoration]
+```
 
+//////// html | div.result
+///////// define
 Map Decoration：[<!-- md:samp MapDecoration -->](../types/mapdecoration.md)
 
-- 类型：MapDecoration。
+- 类型：<!-- md:samp MapDecoration -->。
+
+
+/////////
+
+////////
+
+///////
+
+//////
+
+/////
+
+///// tab | `DecorationUpdate Bit Field`如果为`0`
+////// define
+if (0)：<!-- md:samp [No Data] -->
+
+- 无数据。
 
 
 //////
 
-
-
 /////
+> 依赖于`TextureUpdate Bit Field`
 
-////
+///// tab | `TextureUpdate Bit Field`如果为`2`
+```title='if (2)'
+[texture_width][texture_height][x-texcoordinate][y-texcoordinate][pixels]
+```
 
-//// tab | if (0)
-///// define
-if (0)：<!-- md:samp [No Data] -->
-
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-
-Dependency on 'TextureUpdate Bit Field'
-
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Texture Width：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Texture Height：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 X-TexCoordinate：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Y-TexCoordinate：<!-- md:samp varint -->
 
-- 类型：varint。
-
-Pixels
-
-////// define
-Pixels数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp varint -->。
 
 
-//////
+///////
+```title='Pixels'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////// define
-Pixels的示例元素
+////////
+```title='示例元素'
+[pixel]
+```
 
+//////// html | div.result
+///////// define
 Pixel：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+/////////
+
+////////
+
+///////
+
+//////
+
+/////
+
+///// tab | `TextureUpdate Bit Field`如果为`0`
+////// define
+if (0)：<!-- md:samp [No Data] -->
+
+- 无数据。
 
 
 //////
 
-
-
 /////
-
-////
-
-//// tab | if (0)
-///// define
-if (0)：<!-- md:samp [No Data] -->
-
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-
 
 ///
+

@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PotionMixDataEntry
+```title='PotionMixDataEntry'
+[from_potion:_input_-_potion_id][from_item_aux][reagent_item_id][reagent_item_aux][to_potion:_output_-_potion_id][to_item_aux]
+```
 
+/// html | div.result
+//// define
 From Potion: Input - Potion Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 From Item Aux：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Reagent Item Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Reagent Item Aux：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 To Potion: Output - Potion Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 To Item Aux：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

@@ -56,54 +56,81 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AnimateEntityPacket
+```title='AnimateEntityPacket'
+[manimation][mnextstate][mstopexpression][stop_expression_molang_version][mcontroller][mblendouttime][mruntimeids]
+```
 
+/// html | div.result
+//// define
 mAnimation：<!-- md:samp string -->
 
-- 类型：string。The 'name' of the animation that the specified entities are to play.
+- 类型：<!-- md:samp string -->。The 'name' of the animation that the specified entities are to play.
 
+
+////
+//// define
 mNextState：<!-- md:samp string -->
 
-- 类型：string。The next state to transition to once the specified animation is finished playing.
+- 类型：<!-- md:samp string -->。The next state to transition to once the specified animation is finished playing.
 
+
+////
+//// define
 mStopExpression：<!-- md:samp string -->
 
-- 类型：string。The stop expression, the the condition that determines when to transition to the next state.
+- 类型：<!-- md:samp string -->。The stop expression, the the condition that determines when to transition to the next state.
 
+
+////
+//// define
 Stop expression molang version：<!-- md:samp int -->
 
-- 类型：int。enumeration: MolangVersion
+- 类型：<!-- md:samp int -->。enumeration: MolangVersion
 
+
+////
+//// define
 mController：<!-- md:samp string -->
 
-- 类型：string。The 'name' of an animation controller
+- 类型：<!-- md:samp string -->。The 'name' of an animation controller
 
+
+////
+//// define
 mBlendOutTime：<!-- md:samp float -->
 
-- 类型：float。The amount of time to blend out of this animation
-
-mRuntimeIds
-
-//// define
-mRuntimeIds数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp float -->。The amount of time to blend out of this animation
 
 
 ////
+```title='mRuntimeIds'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-mRuntimeIds的示例元素
+/////
+```title='示例元素'
+[runtimeid]
+```
 
+///// html | div.result
+////// define
 runtimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

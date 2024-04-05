@@ -72,95 +72,125 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CommandOutputPacket
+```title='CommandOutputPacket'
+[origin_data][output_type][success_count][output_messages][dependency_on_'output_type_==_dataset']
+```
 
+/// html | div.result
+//// define
 Origin Data：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
-- 类型：CommandOriginData。
+- 类型：<!-- md:samp CommandOriginData -->。
 
+
+////
+//// define
 Output Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: CommandOutputType
+- 类型：<!-- md:samp byte -->。enumeration: CommandOutputType
 
+
+////
+//// define
 Success Count：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-Output Messages
-
-//// define
-Output Messages数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
 
 ////
+```title='Output Messages'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Output Messages的示例元素
+/////
+```title='示例元素'
+[successful?][message_id][parameters]
+```
 
+///// html | div.result
+////// define
 Successful?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+//////
+////// define
 Message ID：<!-- md:samp string -->
 
-- 类型：string。
-
-Parameters
-
-///// define
-Parameters数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
-/////
+//////
+```title='Parameters'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-///// define
-Parameters的示例元素
+///////
+```title='示例元素'
+[param]
+```
 
+/////// html | div.result
+//////// define
 Param：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////////
+
+///////
+
+//////
 
 /////
 
-
-
 ////
+> 依赖于`Output Type == DataSet`
 
-
-Dependency on 'Output Type == DataSet'
-
-//// tab | if (0)
-///// define
+///// tab | `Output Type == DataSet`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Output Type == DataSet`如果为`1`
+```title='if (1)'
+[data_set]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Data Set：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

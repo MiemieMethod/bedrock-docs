@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetActorLinkPacket
+```title='SetActorLinkPacket'
+[link]
+```
 
+/// html | div.result
+//// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- 类型：ActorLink。
+- 类型：<!-- md:samp ActorLink -->。
 
+
+////
 
 ///
+

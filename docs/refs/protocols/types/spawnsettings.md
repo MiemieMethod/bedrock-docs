@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SpawnSettings
+```title='SpawnSettings'
+[type][user_defined_biome_name][dimension]
+```
 
+/// html | div.result
+//// define
 Type：<!-- md:samp short -->
 
-- 类型：short。enumeration: SpawnBiomeType
+- 类型：<!-- md:samp short -->。enumeration: SpawnBiomeType
 
+
+////
+//// define
 User Defined Biome Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Dimension：<!-- md:samp varint -->
 
-- 类型：varint。Currently 0 for Overworld, 1 for Nether, 2 for The End, 3 Undefined
+- 类型：<!-- md:samp varint -->。Currently 0 for Overworld, 1 for Nether, 2 for The End, 3 Undefined
 
+
+////
 
 ///
+

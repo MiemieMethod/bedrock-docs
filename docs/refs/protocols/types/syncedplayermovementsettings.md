@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SyncedPlayerMovementSettings
+```title='SyncedPlayerMovementSettings'
+[authority_mode][rewind_history_size][server_authoratative_block_breaking]
+```
 
+/// html | div.result
+//// define
 Authority Mode：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ServerAuthMovementMode
+- 类型：<!-- md:samp byte -->。enumeration: ServerAuthMovementMode
 
+
+////
+//// define
 Rewind History Size：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Server Authoratative Block Breaking：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

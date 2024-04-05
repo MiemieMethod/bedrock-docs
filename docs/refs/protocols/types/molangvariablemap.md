@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MolangVariableMap
+```title='MolangVariableMap'
+[serialized_variable_map]
+```
 
+/// html | div.result
+//// define
 Serialized Variable Map：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

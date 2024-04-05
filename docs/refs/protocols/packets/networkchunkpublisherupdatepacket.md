@@ -44,42 +44,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-NetworkChunkPublisherUpdatePacket
+```title='NetworkChunkPublisherUpdatePacket'
+[new_position_for_view][new_radius_for_view][server_built_chunks_size][server_built_chunks_list]
+```
 
+/// html | div.result
+//// define
 New position for view：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+////
+//// define
 New radius for view：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Server Built Chunks Size：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
-
-Server Built Chunks List
-
-//// define
-Server Built Chunks List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned int -->。
 
 
 ////
+```title='Server Built Chunks List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Server Built Chunks List的示例元素
+/////
+```title='示例元素'
+[chunk_pos]
+```
 
+///// html | div.result
+////// define
 Chunk Pos：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
-- 类型：ChunkPos。
+- 类型：<!-- md:samp ChunkPos -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

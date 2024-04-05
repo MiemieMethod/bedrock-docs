@@ -48,36 +48,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-GameTestRequestPacket
+```title='GameTestRequestPacket'
+[maxtestsperbatch][repeatcount][rotation][stoponfailure][testpos][testsperrow][testname]
+```
 
+/// html | div.result
+//// define
 MaxTestsPerBatch：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 RepeatCount：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Rotation：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Rotation
+- 类型：<!-- md:samp byte -->。enumeration: Rotation
 
+
+////
+//// define
 StopOnFailure：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 TestPos：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+////
+//// define
 TestsPerRow：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 TestName：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

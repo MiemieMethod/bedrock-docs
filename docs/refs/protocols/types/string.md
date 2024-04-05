@@ -32,30 +32,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-String
+```title='String'
+[byte_array]
+```
 
-Byte Array
+/// html | div.result
+```title='Byte Array'
+[array_size][[example_element]..]
+```
 
-//// define
-Byte Array数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Byte Array的示例元素
+/////
+```title='示例元素'
+[string_data]
+```
 
+///// html | div.result
+////// define
 String Data：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

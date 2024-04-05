@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetLocalPlayerAsInitializedPacket
+```title='SetLocalPlayerAsInitializedPacket'
+[player_id]
+```
 
+/// html | div.result
+//// define
 Player ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
 
 ///
+

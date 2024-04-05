@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CreativeContentPacket
+```title='CreativeContentPacket'
+[write_entries]
+```
 
-Write Entries
+/// html | div.result
+```title='Write Entries'
+[array_size][[example_element]..]
+```
 
-//// define
-Write Entries数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Write Entries的示例元素
+/////
+```title='示例元素'
+[creative_net_id][item_instance]
+```
 
-Creative Net Id：[<!-- md:samp TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_creativeitemnetidtag,unsigned_int,0>.md)
+///// html | div.result
+////// define
+Creative Net Id：[<!-- md:samp TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_creativeitemnetidtag,unsigned_int,0_.md)
 
-- 类型：TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0>。
+- 类型：<!-- md:samp TypedServerNetId<struct CreativeItemNetIdTag,unsigned int,0> -->。
 
+
+//////
+////// define
 Item Instance：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：NetworkItemInstanceDescriptor。
+- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

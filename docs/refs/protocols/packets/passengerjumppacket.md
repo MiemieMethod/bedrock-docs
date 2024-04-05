@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PassengerJumpPacket
+```title='PassengerJumpPacket'
+[jump_scale]
+```
 
+/// html | div.result
+//// define
 Jump Scale：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

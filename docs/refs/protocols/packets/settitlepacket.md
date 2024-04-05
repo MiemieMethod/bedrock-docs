@@ -48,36 +48,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetTitlePacket
+```title='SetTitlePacket'
+[title_type][title_text][fade_in_time][stay_time][fade_out_time][xuid][platform_online_id]
+```
 
+/// html | div.result
+//// define
 Title Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: SetTitlePacket::TitleType
+- 类型：<!-- md:samp varint -->。enumeration: SetTitlePacket::TitleType
 
+
+////
+//// define
 Title Text：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Fade In Time：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Stay Time：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Fade Out Time：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Xuid：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Platform Online Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

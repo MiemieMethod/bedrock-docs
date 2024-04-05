@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemStackRequestSlotInfo
+```title='ItemStackRequestSlotInfo'
+[open_container_net_id][slot][raw_id_(32_bit_signed)]
+```
 
+/// html | div.result
+//// define
 Open container net id：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerEnumName
+- 类型：<!-- md:samp byte -->。enumeration: ContainerEnumName
 
+
+////
+//// define
 Slot：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

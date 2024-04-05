@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BlockPickRequestPacket
+```title='BlockPickRequestPacket'
+[position][with_data?][max_slots]
+```
 
+/// html | div.result
+//// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+////
+//// define
 With Data?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Max Slots：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
 
 ///
+

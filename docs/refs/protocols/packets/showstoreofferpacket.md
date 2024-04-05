@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ShowStoreOfferPacket
+```title='ShowStoreOfferPacket'
+[product_id][redirect_type]
+```
 
+/// html | div.result
+//// define
 Product ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Redirect Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ShowStoreOfferRedirectType
+- 类型：<!-- md:samp byte -->。enumeration: ShowStoreOfferRedirectType
 
+
+////
 
 ///
+

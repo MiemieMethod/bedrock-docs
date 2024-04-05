@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemComponentPacket
+```title='ItemComponentPacket'
+[items]
+```
 
-Items
+/// html | div.result
+```title='Items'
+[array_size][[example_element]..]
+```
 
-//// define
-Items数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Items的示例元素
+/////
+```title='示例元素'
+[componentitem_name][component_data]
+```
 
+///// html | div.result
+////// define
 ComponentItem name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Component data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。Compound tag members - item'name': string, item'id': short, itemcomponents: {[componentkey:string]: { ...component definition here... } } }
+- 类型：<!-- md:samp CompoundTag -->。Compound tag members - item'name': string, item'id': short, itemcomponents: {[componentkey:string]: { ...component definition here... } } }
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

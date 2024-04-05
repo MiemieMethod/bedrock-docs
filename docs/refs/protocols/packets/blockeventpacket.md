@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BlockEventPacket
+```title='BlockEventPacket'
+[block_position][event_type][event_value]
+```
 
+/// html | div.result
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Event Type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Event Value：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

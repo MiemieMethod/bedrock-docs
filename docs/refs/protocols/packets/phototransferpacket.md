@@ -48,36 +48,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PhotoTransferPacket
+```title='PhotoTransferPacket'
+[photo_name][photo_data][book_id][type][source_type][owner_id][new_photo_name]
+```
 
+/// html | div.result
+//// define
 Photo Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Photo Data：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Book ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PhotoType
+- 类型：<!-- md:samp byte -->。enumeration: PhotoType
 
+
+////
+//// define
 Source Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PhotoType
+- 类型：<!-- md:samp byte -->。enumeration: PhotoType
 
+
+////
+//// define
 Owner ID：<!-- md:samp int64 -->
 
-- 类型：int64。
+- 类型：<!-- md:samp int64 -->。
 
+
+////
+//// define
 New Photo Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

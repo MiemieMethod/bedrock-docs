@@ -52,40 +52,67 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MoveActorDeltaData
+```title='MoveActorDeltaData'
+[actorruntimeid][header][new_position_x][new_position_y][new_position_z][rotation_x][rotation_y][rotation_y_head]
+```
 
+/// html | div.result
+//// define
 ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。The runtime 'id' of the actor being moved
+- 类型：<!-- md:samp ActorRuntimeID -->。The runtime 'id' of the actor being moved
 
+
+////
+//// define
 Header：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。Header containing 9 1-bit booleans describing the rest of the packet. Information prov'id'ed in supplemental documentation.
+- 类型：<!-- md:samp unsigned short -->。Header containing 9 1-bit booleans describing the rest of the packet. Information prov'id'ed in supplemental documentation.
 
+
+////
+//// define
 New position X：<!-- md:samp float -->
 
-- 类型：float。If position X bit is true, then this will contain the actor's X coordinate
+- 类型：<!-- md:samp float -->。If position X bit is true, then this will contain the actor's X coordinate
 
+
+////
+//// define
 New position Y：<!-- md:samp float -->
 
-- 类型：float。If position Y bit is true, then this will contain the actor's Y coordinate
+- 类型：<!-- md:samp float -->。If position Y bit is true, then this will contain the actor's Y coordinate
 
+
+////
+//// define
 New position Z：<!-- md:samp float -->
 
-- 类型：float。If position Z bit is true, then this will contain the actor's Z coordinate
+- 类型：<!-- md:samp float -->。If position Z bit is true, then this will contain the actor's Z coordinate
 
+
+////
+//// define
 Rotation X：<!-- md:samp byte -->
 
-- 类型：byte。If rotation X bit is true, then this will contain the X rotation of the actor
+- 类型：<!-- md:samp byte -->。If rotation X bit is true, then this will contain the X rotation of the actor
 
+
+////
+//// define
 Rotation Y：<!-- md:samp byte -->
 
-- 类型：byte。If rotation Y bit is true, then this will contain the Y rotation of the actor
+- 类型：<!-- md:samp byte -->。If rotation Y bit is true, then this will contain the Y rotation of the actor
 
+
+////
+//// define
 Rotation Y Head：<!-- md:samp byte -->
 
-- 类型：byte。If rotation Y Head bit is true, then this will contain a head rotation of the actor if and only if it's a Mob type
+- 类型：<!-- md:samp byte -->。If rotation Y Head bit is true, then this will contain a head rotation of the actor if and only if it's a Mob type
 
+
+////
 
 ///
+

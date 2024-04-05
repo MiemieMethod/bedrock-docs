@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-GuiDataPickItemPacket
+```title='GuiDataPickItemPacket'
+[item_name][item_effect_name][slot]
+```
 
+/// html | div.result
+//// define
 Item Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Item Effect Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Slot：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+////
 
 ///
+

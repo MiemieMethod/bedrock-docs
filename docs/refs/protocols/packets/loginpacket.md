@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LoginPacket
+```title='LoginPacket'
+[client_network_version][connection_request]
+```
 
+/// html | div.result
+//// define
 Client Network Version：<!-- md:samp big endian int -->
 
-- 类型：big endian int。
+- 类型：<!-- md:samp big endian int -->。
 
+
+////
+//// define
 Connection Request：<!-- md:samp string -->
 
-- 类型：string。see @connectionRequest.html#diagram@
+- 类型：<!-- md:samp string -->。see @connectionRequest.html#diagram@
 
+
+////
 
 ///
+

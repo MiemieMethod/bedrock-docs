@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-Vec3
+```title='Vec3'
+[x][y][z]
+```
 
+/// html | div.result
+//// define
 X：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Y：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Z：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
 
 ///
+

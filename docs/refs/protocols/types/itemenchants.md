@@ -72,38 +72,123 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemEnchants
+```title='ItemEnchants'
+[slot][item_enchants_for_given_activation][item_enchants_for_given_activation][item_enchants_for_given_activation]
+```
 
+/// html | div.result
+//// define
 Slot：<!-- md:samp int -->
 
-- 类型：int。
-
-Item Enchants For Given Activation
-
-//// define
-Item Enchants For Given Activation数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp int -->。
 
 
 ////
+```title='Item Enchants For Given Activation'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Item Enchants For Given Activation的示例元素
+/////
+```title='示例元素'
+[enchant_type][enchant_level]
+```
 
+///// html | div.result
+////// define
 Enchant Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Enchant::Type
+- 类型：<!-- md:samp byte -->。enumeration: Enchant::Type
 
+
+//////
+////// define
 Enchant Level：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+//////
+
+/////
+
+////
+```title='Item Enchants For Given Activation'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+/////
+```title='示例元素'
+[enchant_type][enchant_level]
+```
+
+///// html | div.result
+////// define
+Enchant Type：<!-- md:samp byte -->
+
+- 类型：<!-- md:samp byte -->。enumeration: Enchant::Type
+
+
+//////
+////// define
+Enchant Level：<!-- md:samp byte -->
+
+- 类型：<!-- md:samp byte -->。
+
+
+//////
+
+/////
+
+////
+```title='Item Enchants For Given Activation'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+/////
+```title='示例元素'
+[enchant_type][enchant_level]
+```
+
+///// html | div.result
+////// define
+Enchant Type：<!-- md:samp byte -->
+
+- 类型：<!-- md:samp byte -->。enumeration: Enchant::Type
+
+
+//////
+////// define
+Enchant Level：<!-- md:samp byte -->
+
+- 类型：<!-- md:samp byte -->。
+
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

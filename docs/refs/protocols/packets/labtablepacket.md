@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LabTablePacket
+```title='LabTablePacket'
+[type][position][reaction]
+```
 
+/// html | div.result
+//// define
 Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: LabTablePacket::Type
+- 类型：<!-- md:samp byte -->。enumeration: LabTablePacket::Type
 
+
+////
+//// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+////
+//// define
 Reaction：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: LabTableReactionType
+- 类型：<!-- md:samp byte -->。enumeration: LabTableReactionType
 
+
+////
 
 ///
+

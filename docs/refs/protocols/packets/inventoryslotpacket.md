@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-InventorySlotPacket
+```title='InventorySlotPacket'
+[container_id][slot][item]
+```
 
+/// html | div.result
+//// define
 Container ID：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: ContainerID
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ContainerID
 
+
+////
+//// define
 Slot：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
 
 ///
+

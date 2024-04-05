@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemStackResponseContainerInfo
+```title='ItemStackResponseContainerInfo'
+[open_container_net_id][slots]
+```
 
+/// html | div.result
+//// define
 Open Container Net Id：<!-- md:samp byte -->
 
-- 类型：byte。
-
-Slots
-
-//// define
-Slots数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。
 
 
 ////
+```title='Slots'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Slots的示例元素
+/////
+```title='示例元素'
+[slot_info]
+```
 
+///// html | div.result
+////// define
 Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](../types/itemstackresponseslotinfo.md)
 
-- 类型：ItemStackResponseSlotInfo。
+- 类型：<!-- md:samp ItemStackResponseSlotInfo -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

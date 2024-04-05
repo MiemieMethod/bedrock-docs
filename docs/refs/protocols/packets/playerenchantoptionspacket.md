@@ -44,42 +44,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerEnchantOptionsPacket
+```title='PlayerEnchantOptionsPacket'
+[options]
+```
 
-Options
+/// html | div.result
+```title='Options'
+[array_size][[example_element]..]
+```
 
-//// define
-Options数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Options的示例元素
+/////
+```title='示例元素'
+[cost][enchants][enchant_name][enchant_net_id]
+```
 
+///// html | div.result
+////// define
 Cost：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+//////
+////// define
 Enchants：[<!-- md:samp ItemEnchants -->](../types/itemenchants.md)
 
-- 类型：ItemEnchants。
+- 类型：<!-- md:samp ItemEnchants -->。
 
+
+//////
+////// define
 Enchant Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Enchant Net Id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid<struct_recipenetidtag,unsigned_int,0>.md)
 
-- 类型：TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>。
+//////
+////// define
+Enchant Net Id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ClientCacheStatusPacket
+```title='ClientCacheStatusPacket'
+[is_cache_supported?]
+```
 
+/// html | div.result
+//// define
 Is cache supported?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

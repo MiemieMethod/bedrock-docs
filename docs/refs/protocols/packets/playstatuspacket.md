@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayStatusPacket
+```title='PlayStatusPacket'
+[status]
+```
 
+/// html | div.result
+//// define
 Status：<!-- md:samp big endian int -->
 
-- 类型：big endian int。enumeration: PlayStatus
+- 类型：<!-- md:samp big endian int -->。enumeration: PlayStatus
 
+
+////
 
 ///
+

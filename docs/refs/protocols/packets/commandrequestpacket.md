@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CommandRequestPacket
+```title='CommandRequestPacket'
+[command][command_origin][is_internal_source?][version]
+```
 
+/// html | div.result
+//// define
 Command：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Command Origin：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
-- 类型：CommandOriginData。
+- 类型：<!-- md:samp CommandOriginData -->。
 
+
+////
+//// define
 Is Internal Source?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Version：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

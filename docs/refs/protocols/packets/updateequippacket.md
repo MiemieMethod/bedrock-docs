@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateEquipPacket
+```title='UpdateEquipPacket'
+[container_id][container_type][size][target_actor_id][data_tags]
+```
 
+/// html | div.result
+//// define
 Container ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerID
+- 类型：<!-- md:samp byte -->。enumeration: ContainerID
 
+
+////
+//// define
 Container Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerType
+- 类型：<!-- md:samp byte -->。enumeration: ContainerType
 
+
+////
+//// define
 Size：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Data Tags：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
+
+////
 
 ///
+

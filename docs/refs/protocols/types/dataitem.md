@@ -84,136 +84,188 @@ rankdir = LR
 
 ## 字段
 
-/// define
-DataItem
+```title='DataItem'
+[id][type][dependency_on_'type']
+```
 
+/// html | div.result
+//// define
 ID：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: DataItemType
+- 类型：<!-- md:samp byte -->。enumeration: DataItemType
 
-Dependency on 'Type'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Type`
 
+///// tab | `Type`如果为`0`
+```title='if (0)'
+[value]
+```
+
+////// html | div.result
+/////// define
 Value：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`1`
+```title='if (1)'
+[value]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Value：<!-- md:samp short -->
 
-- 类型：short。
+- 类型：<!-- md:samp short -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`2`
+```title='if (2)'
+[value]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Value：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`3`
+```title='if (3)'
+[value]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`4`
+```title='if (4)'
+[value]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`5`
+```title='if (5)'
+[value]
+```
 
-//// tab | if (5)
-///// define
-if (5)
-
+////// html | div.result
+/////// define
 Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`6`
+```title='if (6)'
+[value]
+```
 
-//// tab | if (6)
-///// define
-if (6)
-
+////// html | div.result
+/////// define
 Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`7`
+```title='if (7)'
+[value]
+```
 
-//// tab | if (7)
-///// define
-if (7)
-
+////// html | div.result
+/////// define
 Value：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`8`
+```title='if (8)'
+[value]
+```
 
-//// tab | if (8)
-///// define
-if (8)
-
+////// html | div.result
+/////// define
 Value：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

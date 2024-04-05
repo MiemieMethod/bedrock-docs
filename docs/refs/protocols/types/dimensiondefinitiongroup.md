@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-DimensionDefinitionGroup
+```title='DimensionDefinitionGroup'
+[definitions]
+```
 
-Definitions
+/// html | div.result
+```title='Definitions'
+[array_size][[example_element]..]
+```
 
-//// define
-Definitions数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Definitions的示例元素
+/////
+```title='示例元素'
+[name_string][dimension_definition]
+```
 
+///// html | div.result
+////// define
 Name String：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](../types/dimensiondefinitiongroup::dimensiondefinition.md)
 
-- 类型：DimensionDefinitionGroup::DimensionDefinition。
+//////
+////// define
+Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](../types/dimensiondefinitiongroup__dimensiondefinition.md)
 
+- 类型：<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->。
+
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

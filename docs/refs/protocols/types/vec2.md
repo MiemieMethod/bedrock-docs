@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-Vec2
+```title='Vec2'
+[x][y]
+```
 
+/// html | div.result
+//// define
 X：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Y：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
 
 ///
+

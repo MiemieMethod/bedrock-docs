@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-DimensionDataPacket
+```title='DimensionDataPacket'
+[dimension_definition_group]
+```
 
+/// html | div.result
+//// define
 Dimension Definition Group：[<!-- md:samp DimensionDefinitionGroup -->](../types/dimensiondefinitiongroup.md)
 
-- 类型：DimensionDefinitionGroup。
+- 类型：<!-- md:samp DimensionDefinitionGroup -->。
 
+
+////
 
 ///
+

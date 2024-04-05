@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerStartItemCooldownPacket
+```title='PlayerStartItemCooldownPacket'
+[item_category][duration_ticks]
+```
 
+/// html | div.result
+//// define
 Item Category：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Duration Ticks：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

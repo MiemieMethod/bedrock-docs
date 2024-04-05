@@ -86,117 +86,169 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerBlockActionData
+```title='PlayerBlockActionData'
+[player_action_type][dependency_on_'player_action_type']
+```
 
+/// html | div.result
+//// define
 Player Action Type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
-Dependency on 'Player Action Type'
 
-//// tab | if (26)
-///// define
-if (26)
+////
+> 依赖于`Player Action Type`
 
+///// tab | `Player Action Type`如果为`26`
+```title='if (26)'
+[position][facing]
+```
+
+////// html | div.result
+/////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+///////
+/////// define
 Facing：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Player Action Type`如果为`0`
+```title='if (0)'
+[position][facing]
+```
 
-//// tab | if (0)
-///// define
-if (0)
-
+////// html | div.result
+/////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+///////
+/////// define
 Facing：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Player Action Type`如果为`1`
+```title='if (1)'
+[position][facing]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+///////
+/////// define
 Facing：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Player Action Type`如果为`18`
+```title='if (18)'
+[position][facing]
+```
 
-//// tab | if (18)
-///// define
-if (18)
-
+////// html | div.result
+/////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+///////
+/////// define
 Facing：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Player Action Type`如果为`27`
+```title='if (27)'
+[position][facing]
+```
 
-//// tab | if (27)
-///// define
-if (27)
-
+////// html | div.result
+/////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+///////
+/////// define
 Facing：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Player Action Type`如果为`2`
+```title='if (2)'
+[position][facing]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：BlockPos。
+- 类型：<!-- md:samp BlockPos -->。
 
+
+///////
+/////// define
 Facing：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
-
-////
-
-
 
 ///
+

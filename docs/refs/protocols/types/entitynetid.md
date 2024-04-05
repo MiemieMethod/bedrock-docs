@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-EntityNetId
+```title='EntityNetId'
+[raw_entity_id]
+```
 
+/// html | div.result
+//// define
 Raw Entity Id：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
 
 ///
+

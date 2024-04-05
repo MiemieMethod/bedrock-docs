@@ -40,34 +40,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-DeathInfoPacket
+```title='DeathInfoPacket'
+[death_cause_attack_name][death_cause_message_list]
+```
 
+/// html | div.result
+//// define
 Death Cause Attack Name：<!-- md:samp string -->
 
-- 类型：string。
-
-Death Cause Message List
-
-//// define
-Death Cause Message List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
 ////
+```title='Death Cause Message List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Death Cause Message List的示例元素
+/////
+```title='示例元素'
+[death_cause_entity_name][death_cause_entity_name]
+```
 
+///// html | div.result
+////// define
 Death Cause Entity Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
+Death Cause Entity Name：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

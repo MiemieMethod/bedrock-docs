@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ResourcePackChunkDataPacket
+```title='ResourcePackChunkDataPacket'
+[resource_name][chunk_id][byte_offset][chunk_data]
+```
 
+/// html | div.result
+//// define
 Resource Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Chunk ID：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 Byte Offset：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
+//// define
 Chunk Data：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

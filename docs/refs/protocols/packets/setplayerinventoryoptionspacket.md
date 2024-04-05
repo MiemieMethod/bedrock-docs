@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetPlayerInventoryOptionsPacket
+```title='SetPlayerInventoryOptionsPacket'
+[left_inventory_tab][right_inventory_tab][filtering][layout_inv][layout_craft]
+```
 
+/// html | div.result
+//// define
 Left Inventory Tab：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: InventoryLeftTabIndex
+- 类型：<!-- md:samp varint -->。enumeration: InventoryLeftTabIndex
 
+
+////
+//// define
 Right Inventory Tab：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: InventoryRightTabIndex
+- 类型：<!-- md:samp varint -->。enumeration: InventoryRightTabIndex
 
+
+////
+//// define
 Filtering：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Layout Inv：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: InventoryLayout
+- 类型：<!-- md:samp varint -->。enumeration: InventoryLayout
 
+
+////
+//// define
 Layout Craft：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: InventoryLayout
+- 类型：<!-- md:samp varint -->。enumeration: InventoryLayout
 
+
+////
 
 ///
+

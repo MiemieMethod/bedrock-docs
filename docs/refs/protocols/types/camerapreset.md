@@ -56,44 +56,74 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CameraPreset
+```title='CameraPreset'
+[name][inherit_from][pos_x][pos_y][pos_z][rot_x][rot_y][listener][player_effects]
+```
 
+/// html | div.result
+//// define
 Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Inherit From：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Pos X：[<!-- md:samp std::optional<float> -->](../types/std::optional<float>.md)
 
-- 类型：std::optional<float>。
+////
+//// define
+Pos X：[<!-- md:samp std::optional<float> -->](../types/std__optional_float_.md)
 
-Pos Y：[<!-- md:samp std::optional<float> -->](../types/std::optional<float>.md)
+- 类型：<!-- md:samp std::optional<float> -->。
 
-- 类型：std::optional<float>。
 
-Pos Z：[<!-- md:samp std::optional<float> -->](../types/std::optional<float>.md)
+////
+//// define
+Pos Y：[<!-- md:samp std::optional<float> -->](../types/std__optional_float_.md)
 
-- 类型：std::optional<float>。
+- 类型：<!-- md:samp std::optional<float> -->。
 
-Rot X：[<!-- md:samp std::optional<float> -->](../types/std::optional<float>.md)
 
-- 类型：std::optional<float>。
+////
+//// define
+Pos Z：[<!-- md:samp std::optional<float> -->](../types/std__optional_float_.md)
 
-Rot Y：[<!-- md:samp std::optional<float> -->](../types/std::optional<float>.md)
+- 类型：<!-- md:samp std::optional<float> -->。
 
-- 类型：std::optional<float>。
 
-Listener：[<!-- md:samp std::optional<enum CameraPreset::AudioListener> -->](../types/std::optional<enum_camerapreset::audiolistener>.md)
+////
+//// define
+Rot X：[<!-- md:samp std::optional<float> -->](../types/std__optional_float_.md)
 
-- 类型：std::optional<enum CameraPreset::AudioListener>。
+- 类型：<!-- md:samp std::optional<float> -->。
 
-Player Effects：[<!-- md:samp std::optional<bool> -->](../types/std::optional<bool>.md)
 
-- 类型：std::optional<bool>。
+////
+//// define
+Rot Y：[<!-- md:samp std::optional<float> -->](../types/std__optional_float_.md)
 
+- 类型：<!-- md:samp std::optional<float> -->。
+
+
+////
+//// define
+Listener：[<!-- md:samp std::optional<enum CameraPreset::AudioListener> -->](../types/std__optional_enum_camerapreset__audiolistener_.md)
+
+- 类型：<!-- md:samp std::optional<enum CameraPreset::AudioListener> -->。
+
+
+////
+//// define
+Player Effects：[<!-- md:samp std::optional<bool> -->](../types/std__optional_bool_.md)
+
+- 类型：<!-- md:samp std::optional<bool> -->。
+
+
+////
 
 ///
+

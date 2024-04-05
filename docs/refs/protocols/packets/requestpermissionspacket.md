@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RequestPermissionsPacket
+```title='RequestPermissionsPacket'
+[target_player_id's_raw_id][player_permission_level][custom_permission_flags]
+```
 
+/// html | div.result
+//// define
 Target Player Id's Raw ID：<!-- md:samp int64 -->
 
-- 类型：int64。mTargetPlayerId is a ActorUniqueID
+- 类型：<!-- md:samp int64 -->。mTargetPlayerId is a ActorUniqueID
 
+
+////
+//// define
 Player Permission Level：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PlayerPermissionLevel
+- 类型：<!-- md:samp byte -->。enumeration: PlayerPermissionLevel
 
+
+////
+//// define
 Custom Permission Flags：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
+
+////
 
 ///
+

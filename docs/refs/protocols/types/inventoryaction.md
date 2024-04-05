@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-InventoryAction
+```title='InventoryAction'
+[source][slot][from_item_descriptor][to_item_descriptor]
+```
 
+/// html | div.result
+//// define
 Source：[<!-- md:samp InventorySource -->](../types/inventorysource.md)
 
-- 类型：InventorySource。
+- 类型：<!-- md:samp InventorySource -->。
 
+
+////
+//// define
 Slot：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 From Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
+//// define
 To Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
 
 ///
+

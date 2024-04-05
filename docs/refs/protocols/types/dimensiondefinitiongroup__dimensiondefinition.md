@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-DimensionDefinitionGroup::DimensionDefinition
+```title='DimensionDefinitionGroup::DimensionDefinition'
+[height_maximum][height_minimum][generator_type]
+```
 
+/// html | div.result
+//// define
 Height Maximum：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Height Minimum：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Generator Type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

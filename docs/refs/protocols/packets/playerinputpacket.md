@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerInputPacket
+```title='PlayerInputPacket'
+[move_vector][jumping][sneaking]
+```
 
+/// html | div.result
+//// define
 Move Vector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+////
+//// define
 Jumping：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Sneaking：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

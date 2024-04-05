@@ -94,117 +94,167 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerListPacket
+```title='PlayerListPacket'
+[action][dependency_on_'action']
+```
 
+/// html | div.result
+//// define
 Action：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PlayerListPacketType
-
-Dependency on 'Action'
-
-//// tab | if (0)
-///// define
-if (0)
-
-Add Player List
-
-////// define
-Add Player List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。enumeration: PlayerListPacketType
 
 
-//////
+////
+> 依赖于`Action`
+
+///// tab | `Action`如果为`0`
+```title='if (0)'
+[add_player_list][is_trusted_skin]
+```
+
+////// html | div.result
+```title='Add Player List'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////// define
-Add Player List的示例元素
+////////
+```title='示例元素'
+[uuid][target_actor_id][player_name][xbl_xuid][platform_chat_id][build_platform][serialized_skin][is_teacher?][is_host?][is_subclient]
+```
 
-UUID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
+//////// html | div.result
+///////// define
+UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：mce::UUID。
+- 类型：<!-- md:samp mce::UUID -->。
 
+
+/////////
+///////// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+/////////
+///////// define
 Player Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+/////////
+///////// define
 XBL XUID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+/////////
+///////// define
 Platform Chat Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+/////////
+///////// define
 Build Platform：<!-- md:samp int -->
 
-- 类型：int。enumeration: BuildPlatform
+- 类型：<!-- md:samp int -->。enumeration: BuildPlatform
 
+
+/////////
+///////// define
 Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
-- 类型：SerializedSkin。
+- 类型：<!-- md:samp SerializedSkin -->。
 
+
+/////////
+///////// define
 Is Teacher?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+/////////
+///////// define
 Is Host?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+/////////
+///////// define
 Is SubClient：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
 
-//////
+/////////
 
+////////
 
+///////
+/////// define
 Is trusted skin：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
 
-/////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)
-
-Remove Player List
-
-////// define
-Remove Player List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+///////
 
 //////
 
+/////
 
-////// define
-Remove Player List的示例元素
+///// tab | `Action`如果为`1`
+```title='if (1)'
+[remove_player_list]
+```
 
-UUID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
+////// html | div.result
+```title='Remove Player List'
+[array_size][[example_element]..]
+```
 
-- 类型：mce::UUID。
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
 
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+////////
+```title='示例元素'
+[uuid]
+```
+
+//////// html | div.result
+///////// define
+UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
+
+- 类型：<!-- md:samp mce::UUID -->。
+
+
+/////////
+
+////////
+
+///////
 
 //////
 
-
-
 /////
-
-////
-
-
 
 ///
+

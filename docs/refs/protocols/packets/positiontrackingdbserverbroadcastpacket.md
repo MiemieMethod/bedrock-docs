@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PositionTrackingDBServerBroadcastPacket
+```title='PositionTrackingDBServerBroadcastPacket'
+[action][id][position_tracking_data]
+```
 
+/// html | div.result
+//// define
 Action：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PositionTrackingDBServerBroadcastPacket::Action
+- 类型：<!-- md:samp byte -->。enumeration: PositionTrackingDBServerBroadcastPacket::Action
 
+
+////
+//// define
 Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
-- 类型：PositionTrackingId。
+- 类型：<!-- md:samp PositionTrackingId -->。
 
+
+////
+//// define
 Position tracking data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。CompoundTag for record key:version (byte)'id' (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)
+- 类型：<!-- md:samp CompoundTag -->。CompoundTag for record key:version (byte)'id' (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)
 
+
+////
 
 ///
+

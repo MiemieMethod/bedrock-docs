@@ -72,90 +72,123 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemStackRequestPacket
+```title='ItemStackRequestPacket'
+[requests]
+```
 
-Requests
+/// html | div.result
+```title='Requests'
+[array_size][[example_element]..]
+```
 
-//// define
-Requests数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-////
-
-
-//// define
-Requests的示例元素
-
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
-
-- 类型：TypedClientNetId<struct ItemStackRequestIdTag,int,0>。
-
-Actions
-
+//// html | div.result
 ///// define
-Actions数组的大小：<!-- md:samp unsigned varint -->
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
 
 /////
+```title='示例元素'
+[client_request_id][actions][strings_to_filter][stringstofilterorigin]
+```
+
+///// html | div.result
+////// define
+Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
+
+- 类型：<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->。
 
 
-///// define
-Actions的示例元素
+//////
+```title='Actions'
+[array_size][[example_element]..]
+```
 
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+///////
+```title='示例元素'
+[action_type][amount][source][destination]
+```
+
+/////// html | div.result
+//////// define
 Action type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ItemStackRequestActionType
+- 类型：<!-- md:samp byte -->。enumeration: ItemStackRequestActionType
 
+
+////////
+//////// define
 Amount：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////////
+//////// define
 Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 类型：ItemStackRequestSlotInfo。
+- 类型：<!-- md:samp ItemStackRequestSlotInfo -->。
 
+
+////////
+//////// define
 Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 类型：ItemStackRequestSlotInfo。
+- 类型：<!-- md:samp ItemStackRequestSlotInfo -->。
 
 
-/////
+////////
+
+///////
+
+//////
+```title='Strings To Filter'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-Strings To Filter
+///////
+```title='示例元素'
+[string_to_filter]
+```
 
-///// define
-Strings To Filter数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-/////
-
-
-///// define
-Strings To Filter的示例元素
-
+/////// html | div.result
+//////// define
 String To Filter：<!-- md:samp string -->
 
-- 类型：string。Indivdiual string that needs checking
+- 类型：<!-- md:samp string -->。Indivdiual string that needs checking
 
 
-/////
+////////
 
+///////
 
+//////
+////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 类型：int。enumeration: TextProcessingEventOrigin
+- 类型：<!-- md:samp int -->。enumeration: TextProcessingEventOrigin
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

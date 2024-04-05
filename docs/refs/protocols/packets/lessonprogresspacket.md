@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LessonProgressPacket
+```title='LessonProgressPacket'
+[lesson_action][score][activity_id]
+```
 
+/// html | div.result
+//// define
 Lesson Action：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: LessonAction
+- 类型：<!-- md:samp byte -->。enumeration: LessonAction
 
+
+////
+//// define
 Score：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Activity Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

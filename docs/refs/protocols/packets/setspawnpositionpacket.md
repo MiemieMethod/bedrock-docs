@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetSpawnPositionPacket
+```title='SetSpawnPositionPacket'
+[spawn_position_type][block_position][dimension_type][spawn_block_pos]
+```
 
+/// html | div.result
+//// define
 Spawn Position Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: SpawnPositionType
+- 类型：<!-- md:samp varint -->。enumeration: SpawnPositionType
 
+
+////
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Dimension type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Spawn Block Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
 
 ///
+

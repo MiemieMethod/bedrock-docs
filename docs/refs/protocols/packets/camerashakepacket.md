@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CameraShakePacket
+```title='CameraShakePacket'
+[intensity][seconds][shake_type][shake_action]
+```
 
+/// html | div.result
+//// define
 Intensity：<!-- md:samp float -->
 
-- 类型：float。Camera shake intensity
+- 类型：<!-- md:samp float -->。Camera shake intensity
 
+
+////
+//// define
 Seconds：<!-- md:samp float -->
 
-- 类型：float。Duration
+- 类型：<!-- md:samp float -->。Duration
 
+
+////
+//// define
 Shake Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: CameraShakeType
+- 类型：<!-- md:samp byte -->。enumeration: CameraShakeType
 
+
+////
+//// define
 Shake action：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: CameraShakeAction
+- 类型：<!-- md:samp byte -->。enumeration: CameraShakeAction
 
+
+////
 
 ///
+

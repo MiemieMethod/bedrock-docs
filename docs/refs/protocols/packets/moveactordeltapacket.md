@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MoveActorDeltaPacket
+```title='MoveActorDeltaPacket'
+[move_data]
+```
 
+/// html | div.result
+//// define
 Move Data：[<!-- md:samp MoveActorDeltaData -->](../types/moveactordeltadata.md)
 
-- 类型：MoveActorDeltaData。
+- 类型：<!-- md:samp MoveActorDeltaData -->。
 
+
+////
 
 ///
+

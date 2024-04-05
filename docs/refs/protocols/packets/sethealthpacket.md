@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetHealthPacket
+```title='SetHealthPacket'
+[health]
+```
 
+/// html | div.result
+//// define
 Health：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

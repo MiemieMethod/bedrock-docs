@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ActorEventPacket
+```title='ActorEventPacket'
+[target_runtime_id][event_id][data]
+```
 
+/// html | div.result
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Event ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ActorEvent
+- 类型：<!-- md:samp byte -->。enumeration: ActorEvent
 
+
+////
+//// define
 Data：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

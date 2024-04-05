@@ -64,74 +64,101 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ClientboundDebugRendererPacket
+```title='ClientboundDebugRendererPacket'
+[debug_marker_type][dependency_on_'debug_marker_type']
+```
 
+/// html | div.result
+//// define
 Debug Marker Type：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: ClientboundDebugRendererPacket::Type
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ClientboundDebugRendererPacket::Type
 
-Dependency on 'Debug Marker Type'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`Debug Marker Type`
+
+///// tab | `Debug Marker Type`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | `Debug Marker Type`如果为`1`
+////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Debug Marker Type`如果为`2`
+```title='if (2)'
+[debug_marker_text][debug_marker_position][debug_marker_color_red][debug_marker_color_green][debug_marker_color_blue][debug_marker_color_alpha][debug_marker_duration_milliseconds]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Debug Marker Text：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Debug Marker Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+///////
+/////// define
 Debug Marker Color red：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+/////// define
 Debug Marker Color green：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+/////// define
 Debug Marker Color blue：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+/////// define
 Debug Marker Color alpha：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+/////// define
 Debug Marker Duration Milliseconds：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

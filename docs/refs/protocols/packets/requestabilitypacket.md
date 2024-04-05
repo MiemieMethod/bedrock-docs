@@ -50,53 +50,76 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RequestAbilityPacket
+```title='RequestAbilityPacket'
+[ability][value_type][dependency_on_'value_type']
+```
 
+/// html | div.result
+//// define
 Ability：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: AbilitiesIndex
+- 类型：<!-- md:samp byte -->。enumeration: AbilitiesIndex
 
+
+////
+//// define
 Value Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: RequestAbilityPacket::Type
+- 类型：<!-- md:samp byte -->。enumeration: RequestAbilityPacket::Type
 
-Dependency on 'Value Type'
 
-//// tab | if (1)
-///// define
-if (1)
+////
+> 依赖于`Value Type`
 
+///// tab | `Value Type`如果为`1`
+```title='if (1)'
+[varible_value][default_value_=_0.0]
+```
+
+////// html | div.result
+/////// define
 Varible Value：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+///////
+/////// define
 Default Value = 0.0：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Value Type`如果为`2`
+```title='if (2)'
+[default_value_=_false][varible_value]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Default Value = false：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+///////
+/////// define
 Varible Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

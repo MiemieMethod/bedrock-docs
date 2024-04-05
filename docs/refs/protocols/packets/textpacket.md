@@ -158,261 +158,361 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TextPacket
+```title='TextPacket'
+[message_type][localize?][dependency_on_'message_type'][sender's_xuid][platform_id]
+```
 
+/// html | div.result
+//// define
 Message Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: TextPacketType
+- 类型：<!-- md:samp byte -->。enumeration: TextPacketType
 
+
+////
+//// define
 Localize?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
-Dependency on 'Message Type'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Message Type`
 
+///// tab | `Message Type`如果为`0`
+```title='if (0)'
+[message]
+```
+
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Message Type`如果为`1`
+```title='if (1)'
+[player_name][message]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Player Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
 
-/////
-
-////
-
-//// tab | if (2)
-///// define
-if (2)
-
-Message：<!-- md:samp string -->
-
-- 类型：string。
-
-Parameter List
-
-////// define
-Parameter List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+///////
 
 //////
 
+/////
 
-////// define
-Parameter List的示例元素
+///// tab | `Message Type`如果为`2`
+```title='if (2)'
+[message][parameter_list]
+```
 
+////// html | div.result
+/////// define
+Message：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+///////
+```title='Parameter List'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+////////
+```title='示例元素'
+[parameter]
+```
+
+//////// html | div.result
+///////// define
 Parameter：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+/////////
+
+////////
+
+///////
 
 //////
-
-
 
 /////
 
-////
+///// tab | `Message Type`如果为`3`
+```title='if (3)'
+[message][parameter_list]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
-
-Parameter List
-
-////// define
-Parameter List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
-//////
+///////
+```title='Parameter List'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////// define
-Parameter List的示例元素
+////////
+```title='示例元素'
+[parameter]
+```
 
+//////// html | div.result
+///////// define
 Parameter：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+/////////
+
+////////
+
+///////
 
 //////
-
-
 
 /////
 
-////
+///// tab | `Message Type`如果为`4`
+```title='if (4)'
+[message][parameter_list]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
-
-Parameter List
-
-////// define
-Parameter List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
-//////
+///////
+```title='Parameter List'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////// define
-Parameter List的示例元素
+////////
+```title='示例元素'
+[parameter]
+```
 
+//////// html | div.result
+///////// define
 Parameter：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+/////////
+
+////////
+
+///////
 
 //////
 
-
-
 /////
 
-////
+///// tab | `Message Type`如果为`5`
+```title='if (5)'
+[message]
+```
 
-//// tab | if (5)
-///// define
-if (5)
-
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Message Type`如果为`6`
+```title='if (6)'
+[message]
+```
 
-//// tab | if (6)
-///// define
-if (6)
-
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Message Type`如果为`7`
+```title='if (7)'
+[player_name][message]
+```
 
-//// tab | if (7)
-///// define
-if (7)
-
+////// html | div.result
+/////// define
 Player Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Message Type`如果为`8`
+```title='if (8)'
+[player_name][message]
+```
 
-//// tab | if (8)
-///// define
-if (8)
-
+////// html | div.result
+/////// define
 Player Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Message Type`如果为`9`
+```title='if (9)'
+[message]
+```
 
-//// tab | if (9)
-///// define
-if (9)
-
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Message Type`如果为`10`
+```title='if (10)'
+[message]
+```
 
-//// tab | if (10)
-///// define
-if (10)
-
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Message Type`如果为`11`
+```title='if (11)'
+[message]
+```
 
-//// tab | if (11)
-///// define
-if (11)
-
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
-
-////
-
-
+//// define
 Sender's XUID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Platform Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

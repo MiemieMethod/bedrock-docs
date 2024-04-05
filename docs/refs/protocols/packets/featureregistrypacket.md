@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-FeatureRegistryPacket
+```title='FeatureRegistryPacket'
+[featuresdatalist]
+```
 
-FeaturesDataList
+/// html | div.result
+```title='FeaturesDataList'
+[array_size][[example_element]..]
+```
 
-//// define
-FeaturesDataList数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-FeaturesDataList的示例元素
+/////
+```title='示例元素'
+[feature_name][binary_json_output]
+```
 
+///// html | div.result
+////// define
 feature Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Binary Json Output：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

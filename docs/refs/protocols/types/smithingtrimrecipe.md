@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SmithingTrimRecipe
+```title='SmithingTrimRecipe'
+[recipe_id][template_ingredient][base_ingredient][addition_ingredient][tag]
+```
 
+/// html | div.result
+//// define
 Recipe Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Template Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
+
+////
+//// define
 Base Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
+
+////
+//// define
 Addition Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
+
+////
+//// define
 Tag：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

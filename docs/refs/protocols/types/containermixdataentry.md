@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ContainerMixDataEntry
+```title='ContainerMixDataEntry'
+[from_item_(id):_input][re-agent_item_id][to_item_(id):_output]
+```
 
+/// html | div.result
+//// define
 From Item (Id): Input：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Re-agent Item Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 To Item (Id): Output：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

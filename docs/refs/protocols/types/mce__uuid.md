@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-mce::UUID
+```title='mce::UUID'
+[most_significant_bits][least_significant_bits]
+```
 
+/// html | div.result
+//// define
 Most Significant Bits：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
+//// define
 Least Significant Bits：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
 
 ///
+

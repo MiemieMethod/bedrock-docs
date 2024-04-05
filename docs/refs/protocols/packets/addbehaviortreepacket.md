@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AddBehaviorTreePacket
+```title='AddBehaviorTreePacket'
+[behavior_tree_structure_(json)]
+```
 
+/// html | div.result
+//// define
 Behavior Tree Structure (JSON)：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

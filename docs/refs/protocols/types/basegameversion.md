@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BaseGameVersion
+```title='BaseGameVersion'
+[base_game_version]
+```
 
+/// html | div.result
+//// define
 Base Game Version：<!-- md:samp string -->
 
-- 类型：string。Format: 0.0.0 (i.e. Major.Minor.Patch)
+- 类型：<!-- md:samp string -->。Format: 0.0.0 (i.e. Major.Minor.Patch)
 
+
+////
 
 ///
+

@@ -44,42 +44,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SerializedAbilitiesData
+```title='SerializedAbilitiesData'
+[targetplayer.rawid][mplayerpermissions][mcommandpermissions][layers]
+```
 
+/// html | div.result
+//// define
 TargetPlayer.rawID：<!-- md:samp int64 -->
 
-- 类型：int64。
+- 类型：<!-- md:samp int64 -->。
 
+
+////
+//// define
 mPlayerPermissions：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PlayerPermissionLevel
+- 类型：<!-- md:samp byte -->。enumeration: PlayerPermissionLevel
 
+
+////
+//// define
 mCommandPermissions：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: CommandPermissionLevel
-
-Layers
-
-//// define
-Layers数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。enumeration: CommandPermissionLevel
 
 
 ////
+```title='Layers'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Layers的示例元素
+/////
+```title='示例元素'
+[layers]
+```
 
-layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](../types/serializedabilitiesdata::serializedlayer.md)
+///// html | div.result
+////// define
+layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](../types/serializedabilitiesdata__serializedlayer.md)
 
-- 类型：SerializedAbilitiesData::SerializedLayer。
+- 类型：<!-- md:samp SerializedAbilitiesData::SerializedLayer -->。
 
+
+//////
+
+/////
 
 ////
-
-
 
 ///
+

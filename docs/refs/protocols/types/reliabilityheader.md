@@ -106,145 +106,202 @@ rankdir = LR
 
 ## 字段
 
-/// define
-Reliability Header
+```title='Reliability Header'
+[reliability_type_(3_bits),_is_packet_split?_(1_bit)][payload_bit_length][dependency_on_'reliability_type'][dependency_on_'is_packet_split?']
+```
 
+/// html | div.result
+//// define
 Reliability Type (3 bits), is packet split? (1 bit)：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Payload Bit Length：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
-Dependency on 'Reliability Type'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`Reliability Type`
+
+///// tab | `Reliability Type`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Reliability Type`如果为`1`
+```title='if (1)'
+[sequenced_index][ordering_index][ordering_channel]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Sequenced Index：<!-- md:samp unsigned int24 -->
 
-- 类型：unsigned int24。
+- 类型：<!-- md:samp unsigned int24 -->。
 
+
+///////
+/////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- 类型：unsigned int24。
+- 类型：<!-- md:samp unsigned int24 -->。
 
+
+///////
+/////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
 
-/////
+///////
 
-////
-
-//// tab | if (2)
-///// define
-if (2)
-
-Reliable Message：<!-- md:samp unsigned int24 -->
-
-- 类型：unsigned int24。
-
+//////
 
 /////
 
-////
+///// tab | `Reliability Type`如果为`2`
+```title='if (2)'
+[reliable_message]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- 类型：unsigned int24。
+- 类型：<!-- md:samp unsigned int24 -->。
 
+
+///////
+
+//////
+
+/////
+
+///// tab | `Reliability Type`如果为`3`
+```title='if (3)'
+[reliable_message][ordering_index][ordering_channel]
+```
+
+////// html | div.result
+/////// define
+Reliable Message：<!-- md:samp unsigned int24 -->
+
+- 类型：<!-- md:samp unsigned int24 -->。
+
+
+///////
+/////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- 类型：unsigned int24。
+- 类型：<!-- md:samp unsigned int24 -->。
 
+
+///////
+/////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Reliability Type`如果为`4`
+```title='if (4)'
+[reliable_message][sequenced_index][ordering_index][ordering_channel]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- 类型：unsigned int24。
+- 类型：<!-- md:samp unsigned int24 -->。
 
+
+///////
+/////// define
 Sequenced Index：<!-- md:samp unsigned int24 -->
 
-- 类型：unsigned int24。
+- 类型：<!-- md:samp unsigned int24 -->。
 
+
+///////
+/////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- 类型：unsigned int24。
+- 类型：<!-- md:samp unsigned int24 -->。
 
+
+///////
+/////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
+> 依赖于`Is Packet Split?`
 
-////
-
-
-Dependency on 'Is Packet Split?'
-
-//// tab | if (0)
-///// define
+///// tab | `Is Packet Split?`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Is Packet Split?`如果为`1`
+```title='if (1)'
+[split_packet_count][split_packet_id][split_packet_index]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Split Packet Count：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+///////
+/////// define
 Split Packet Id：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
+
+///////
+/////// define
 Split Packet Index：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

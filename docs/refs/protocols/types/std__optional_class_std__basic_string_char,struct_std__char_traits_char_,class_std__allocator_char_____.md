@@ -1,8 +1,8 @@
-# <!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->
+# <!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->类型。
+<!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->类型。
 
 ## 结构
 
@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >
+```title='std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >'
+[has_value]
+```
 
+/// html | div.result
+//// define
 Has Value：<!-- md:samp bool -->
 
-- 类型：bool。If true, follow with appropriate data type, otherwise nothing
+- 类型：<!-- md:samp bool -->。If true, follow with appropriate data type, otherwise nothing
 
+
+////
 
 ///
+

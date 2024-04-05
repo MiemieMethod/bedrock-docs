@@ -52,40 +52,67 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AddVolumeEntityPacket
+```title='AddVolumeEntityPacket'
+[entity_network_id][components][json_identifier][instance_name][min_bounds][max_bounds][dimension_type][engine_version]
+```
 
+/// html | div.result
+//// define
 Entity Network Id：[<!-- md:samp EntityNetId -->](../types/entitynetid.md)
 
-- 类型：EntityNetId。
+- 类型：<!-- md:samp EntityNetId -->。
 
+
+////
+//// define
 Components：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
+
+////
+//// define
 JSON Identifier：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Instance Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Min Bounds：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Max Bounds：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Dimension Type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Engine Version：<!-- md:samp string -->
 
-- 类型：string。Semantic version string
+- 类型：<!-- md:samp string -->。Semantic version string
 
+
+////
 
 ///
+

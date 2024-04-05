@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerToggleCrafterSlotRequestPacket
+```title='PlayerToggleCrafterSlotRequestPacket'
+[pos_x][pos_y][pos_z][slot_index][is_disabled]
+```
 
+/// html | div.result
+//// define
 Pos X：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+////
+//// define
 Pos Y：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+////
+//// define
 Pos Z：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+////
+//// define
 Slot Index：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Is Disabled：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

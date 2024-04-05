@@ -64,87 +64,111 @@ rankdir = LR
 
 ## 字段
 
-/// define
-InventoryTransactionPacket
+```title='InventoryTransactionPacket'
+[raw_id_(32_bit_signed)][dependency_on_'above_id_(the_legacy_request_id)_nonzero'][transaction_type][mtransaction->mtransaction]
+```
 
+/// html | div.result
+//// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
-Dependency on 'above ID (the legacy request ID) nonzero'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`above ID (the legacy request ID) nonzero`
+
+///// tab | `above ID (the legacy request ID) nonzero`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)
-
-Legacy Set Item Slots
-
-////// define
-Legacy Set Item Slots数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 无数据。
 
 
 //////
 
+/////
 
-////// define
-Legacy Set Item Slots的示例元素
+///// tab | `above ID (the legacy request ID) nonzero`如果为`1`
+```title='if (1)'
+[legacy_set_item_slots]
+```
 
+////// html | div.result
+```title='Legacy Set Item Slots'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+////////
+```title='示例元素'
+[container_enum][slot_vector]
+```
+
+//////// html | div.result
+///////// define
 Container Enum：<!-- md:samp byte -->
 
-- 类型：byte。
-
-Slot vector
-
-/////// define
-Slot vector数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。
 
 
-///////
+/////////
+```title='Slot vector'
+[array_size][[example_element]..]
+```
+
+///////// html | div.result
+////////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-/////// define
-Slot vector的示例元素
+//////////
+```title='示例元素'
+[slot]
+```
 
+////////// html | div.result
+/////////// define
 Slot：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////////
+
+//////////
+
+/////////
+
+////////
 
 ///////
-
-
 
 //////
 
-
-
 /////
+//// define
+Transaction Type：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ComplexInventoryTransaction::Type
+
+
+////
+//// define
+mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](../types/inventorytransaction.md)
+
+- 类型：<!-- md:samp InventoryTransaction -->。Our ComplexInventoryTransaction contains an InventoryTransaction within it
+
 
 ////
 
-
-Transaction Type：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。enumeration: ComplexInventoryTransaction::Type
-
-mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](../types/inventorytransaction.md)
-
-- 类型：InventoryTransaction。Our ComplexInventoryTransaction contains an InventoryTransaction within it
-
-
 ///
+

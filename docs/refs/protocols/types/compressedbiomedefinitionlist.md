@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CompressedBiomeDefinitionList
+```title='CompressedBiomeDefinitionList'
+[compressed_biomedata]
+```
 
+/// html | div.result
+//// define
 Compressed BiomeData：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

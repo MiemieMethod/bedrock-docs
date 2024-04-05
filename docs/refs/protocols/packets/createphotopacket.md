@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CreatePhotoPacket
+```title='CreatePhotoPacket'
+[raw_id][photo_name][photo_item_name]
+```
 
+/// html | div.result
+//// define
 Raw ID：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
+//// define
 Photo Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Photo Item Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

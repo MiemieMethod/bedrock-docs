@@ -1,8 +1,8 @@
-# <!-- md:samp TypedServerNetId<struct ItemStackNetIdTag,int,0> -->
+# <!-- md:samp TypedServerNetId&lt;struct ItemStackNetIdTag,int,0&gt; -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp TypedServerNetId<struct ItemStackNetIdTag,int,0> -->类型。
+<!-- md:samp TypedServerNetId&lt;struct ItemStackNetIdTag,int,0&gt; -->类型。
 
 ## 结构
 
@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TypedServerNetId<struct ItemStackNetIdTag,int,0>
+```title='TypedServerNetId<struct ItemStackNetIdTag,int,0>'
+[raw_id_(32_bit_signed)]
+```
 
+/// html | div.result
+//// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-OnScreenTextureAnimationPacket
+```title='OnScreenTextureAnimationPacket'
+[effect_id]
+```
 
+/// html | div.result
+//// define
 Effect Id：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。Id of the effect whose icon should be shown on-screen.
+- 类型：<!-- md:samp unsigned int -->。Id of the effect whose icon should be shown on-screen.
 
+
+////
 
 ///
+

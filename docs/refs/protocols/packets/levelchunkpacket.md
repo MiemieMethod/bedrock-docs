@@ -84,127 +84,164 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LevelChunkPacket
+```title='LevelChunkPacket'
+[chunk_position][dimension_id][dependency_on_'client_needs_to_request_subchunks?'][cache_enabled][dependency_on_'cache_enabled?'][serialized_chunk_data]
+```
 
+/// html | div.result
+//// define
 Chunk Position：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
-- 类型：ChunkPos。
+- 类型：<!-- md:samp ChunkPos -->。
 
+
+////
+//// define
 Dimension Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
-Dependency on 'Client Needs To Request Subchunks?'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Client Needs To Request Subchunks?`
 
+///// tab | `Client Needs To Request Subchunks?`如果为`0`
+```title='if (0)'
+[sub-chunks_count]
+```
+
+////// html | div.result
+/////// define
 Sub-chunks Count：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Client Needs To Request Subchunks?`如果为`1`
+```title='if (1)'
+[dependency_on_'client_request_subchunk_limit_<_0?']
+```
 
-//// tab | if (1)
-///// define
-if (1)
+////// html | div.result
+> 依赖于`Client Request SubChunk Limit < 0?`
 
-Dependency on 'Client Request SubChunk Limit < 0?'
+//////// tab | `Client Request SubChunk Limit < 0?`如果为`0`
+```title='if (0)'
+[partial_subchunk_count_when_client_requesting][client_request_subchunk_limit]
+```
 
-////// tab | if (0)
-/////// define
-if (0)
-
+///////// html | div.result
+////////// define
 Partial SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。Currently max unsigned 32-bit int
+- 类型：<!-- md:samp unsigned varint -->。Currently max unsigned 32-bit int
 
+
+//////////
+////////// define
 Client Request SubChunk Limit：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
 
-///////
+//////////
 
-//////
+/////////
 
-////// tab | if (1)
-/////// define
-if (1)
+////////
 
+//////// tab | `Client Request SubChunk Limit < 0?`如果为`1`
+```title='if (1)'
+[subchunk_count_when_client_requesting]
+```
+
+///////// html | div.result
+////////// define
 SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。Currently max unsigned 32-bit int
+- 类型：<!-- md:samp unsigned varint -->。Currently max unsigned 32-bit int
 
+
+//////////
+
+/////////
+
+////////
+
+//////
+
+/////
+//// define
+Cache Enabled：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。Lets the server turn off the cache for this chunk even if the Client signaled it supports it.
+
+
+////
+> 依赖于`Cache Enabled?`
+
+///// tab | `Cache Enabled?`如果为`0`
+////// define
+if (0)：<!-- md:samp [No Data] -->
+
+- 无数据。
+
+
+//////
+
+/////
+
+///// tab | `Cache Enabled?`如果为`1`
+```title='if (1)'
+[cache_blobs]
+```
+
+////// html | div.result
+```title='Cache Blobs'
+[blob_count][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+Blob Count：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。How many cache blobs make up this chunk.
+
+
+////////
+```title='示例元素'
+[blob_id]
+```
+
+//////// html | div.result
+///////// define
+Blob Id：<!-- md:samp unsigned int64 -->
+
+- 类型：<!-- md:samp unsigned int64 -->。See ClientCacheProtocol.md, included with the documentation for 1.12.0.2
+
+
+/////////
+
+////////
 
 ///////
 
 //////
 
-
-
 /////
-
-////
-
-
-Cache Enabled：<!-- md:samp bool -->
-
-- 类型：bool。Lets the server turn off the cache for this chunk even if the Client signaled it supports it.
-
-Dependency on 'Cache Enabled?'
-
-//// tab | if (0)
-///// define
-if (0)：<!-- md:samp [No Data] -->
-
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)
-
-Cache Blobs
-
-////// define
-Blob Count：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。How many cache blobs make up this chunk.
-
-
-//////
-
-
-////// define
-Cache Blobs的示例元素
-
-Blob Id：<!-- md:samp unsigned int64 -->
-
-- 类型：unsigned int64。See ClientCacheProtocol.md, included with the documentation for 1.12.0.2
-
-
-//////
-
-
-
-/////
-
-////
-
-
+//// define
 Serialized Chunk Data：<!-- md:samp string -->
 
-- 类型：string。See https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37
+- 类型：<!-- md:samp string -->。See https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37
 
+
+////
 
 ///
+

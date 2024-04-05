@@ -168,251 +168,329 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerAuthInputPacket
+```title='PlayerAuthInputPacket'
+[player_rotation][player_position][move_vector][player's_head_rotation][input_data][input_mode][play_mode][new_interaction_model][dependency_on_'play_mode_==_clientplaymode::reality'][client_tick][pos_delta][dependency_on_'itemusetransaction_and_performiteminteraction_bit_set'][dependency_on_'itemstackrequest_and_performitemstackrequest_bit_set'][dependency_on_'performblockactions_bit_set'][dependency_on_'isinclientpredictedvehicle_bit_set'][analog_movevector]
+```
 
+/// html | div.result
+//// define
 Player Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+////
+//// define
 Player Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Move Vector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+////
+//// define
 Player's Head Rotation：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Input Data：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。
+- 类型：<!-- md:samp unsigned varint64 -->。
 
+
+////
+//// define
 Input Mode：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: InputMode
+- 类型：<!-- md:samp unsigned varint -->。enumeration: InputMode
 
+
+////
+//// define
 Play Mode：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: ClientPlayMode
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ClientPlayMode
 
+
+////
+//// define
 New Interaction Model：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: NewInteractionModel
+- 类型：<!-- md:samp varint -->。enumeration: NewInteractionModel
 
-Dependency on 'Play Mode == ClientPlayMode::Reality'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`Play Mode == ClientPlayMode::Reality`
+
+///// tab | `Play Mode == ClientPlayMode::Reality`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Play Mode == ClientPlayMode::Reality`如果为`1`
+```title='if (1)'
+[vr_gaze_direction]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 VR Gaze Direction：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+///////
+
+//////
 
 /////
-
-////
-
-
+//// define
 Client tick：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。Which simulation frame client is on. Used to match corrections
+- 类型：<!-- md:samp unsigned varint64 -->。Which simulation frame client is on. Used to match corrections
 
+
+////
+//// define
 Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。Velocity
+- 类型：<!-- md:samp Vec3 -->。Velocity
 
-Dependency on 'ItemUseTransaction and PerformItemInteraction bit set'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`ItemUseTransaction and PerformItemInteraction bit set`
+
+///// tab | `ItemUseTransaction and PerformItemInteraction bit set`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `ItemUseTransaction and PerformItemInteraction bit set`如果为`1`
+```title='if (1)'
+[item_use_transaction]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Item Use Transaction：[<!-- md:samp PackedItemUseLegacyInventoryTransaction -->](../types/packeditemuselegacyinventorytransaction.md)
 
-- 类型：PackedItemUseLegacyInventoryTransaction。
+- 类型：<!-- md:samp PackedItemUseLegacyInventoryTransaction -->。
 
+
+///////
+
+//////
 
 /////
+> 依赖于`ItemStackRequest and PerformItemStackRequest bit set`
 
-////
-
-
-Dependency on 'ItemStackRequest and PerformItemStackRequest bit set'
-
-//// tab | if (0)
-///// define
+///// tab | `ItemStackRequest and PerformItemStackRequest bit set`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)
-
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
-
-- 类型：TypedClientNetId<struct ItemStackRequestIdTag,int,0>。
-
-Actions
-
-////// define
-Actions数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 无数据。
 
 
 //////
 
+/////
 
-////// define
-Actions的示例元素
+///// tab | `ItemStackRequest and PerformItemStackRequest bit set`如果为`1`
+```title='if (1)'
+[client_request_id][actions][strings_to_filter][stringstofilterorigin]
+```
 
+////// html | div.result
+/////// define
+Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
+
+- 类型：<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->。
+
+
+///////
+```title='Actions'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+////////
+```title='示例元素'
+[action_type][amount][source][destination]
+```
+
+//////// html | div.result
+///////// define
 Action type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ItemStackRequestActionType
+- 类型：<!-- md:samp byte -->。enumeration: ItemStackRequestActionType
 
+
+/////////
+///////// define
 Amount：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+/////////
+///////// define
 Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 类型：ItemStackRequestSlotInfo。
+- 类型：<!-- md:samp ItemStackRequestSlotInfo -->。
 
+
+/////////
+///////// define
 Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 类型：ItemStackRequestSlotInfo。
+- 类型：<!-- md:samp ItemStackRequestSlotInfo -->。
 
 
-//////
+/////////
+
+////////
+
+///////
+```title='Strings To Filter'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-Strings To Filter
+////////
+```title='示例元素'
+[string_to_filter]
+```
 
-////// define
-Strings To Filter数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-//////
-
-
-////// define
-Strings To Filter的示例元素
-
+//////// html | div.result
+///////// define
 String To Filter：<!-- md:samp string -->
 
-- 类型：string。Indivdiual string that needs checking
+- 类型：<!-- md:samp string -->。Indivdiual string that needs checking
+
+
+/////////
+
+////////
+
+///////
+/////// define
+StringsToFilterOrigin：<!-- md:samp int -->
+
+- 类型：<!-- md:samp int -->。enumeration: TextProcessingEventOrigin
+
+
+///////
+
+//////
+
+/////
+> 依赖于`PerformBlockActions bit set`
+
+///// tab | `PerformBlockActions bit set`如果为`0`
+////// define
+if (0)：<!-- md:samp [No Data] -->
+
+- 无数据。
 
 
 //////
 
-
-StringsToFilterOrigin：<!-- md:samp int -->
-
-- 类型：int。enumeration: TextProcessingEventOrigin
-
-
 /////
 
-////
+///// tab | `PerformBlockActions bit set`如果为`1`
+```title='if (1)'
+[player_block_actions]
+```
 
-
-Dependency on 'PerformBlockActions bit set'
-
-//// tab | if (0)
-///// define
-if (0)：<!-- md:samp [No Data] -->
-
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Player Block Actions：[<!-- md:samp PlayerBlockActions -->](../types/playerblockactions.md)
 
-- 类型：PlayerBlockActions。
+- 类型：<!-- md:samp PlayerBlockActions -->。
 
+
+///////
+
+//////
 
 /////
+> 依赖于`IsInClientPredictedVehicle bit set`
 
-////
-
-
-Dependency on 'IsInClientPredictedVehicle bit set'
-
-//// tab | if (0)
-///// define
+///// tab | `IsInClientPredictedVehicle bit set`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `IsInClientPredictedVehicle bit set`如果为`1`
+```title='if (1)'
+[vehicle_rotation][client_predicted_vehicle]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Vehicle Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+///////
+/////// define
 Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+///////
+
+//////
 
 /////
+//// define
+Analog MoveVector：[<!-- md:samp Vec2 -->](../types/vec2.md)
+
+- 类型：<!-- md:samp Vec2 -->。
+
 
 ////
 
-
-Analog MoveVector：[<!-- md:samp Vec2 -->](../types/vec2.md)
-
-- 类型：Vec2。
-
-
 ///
+

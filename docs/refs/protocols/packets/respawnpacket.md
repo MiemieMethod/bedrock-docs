@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RespawnPacket
+```title='RespawnPacket'
+[position][state][player_runtime_id]
+```
 
+/// html | div.result
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 State：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PlayerRespawnState
+- 类型：<!-- md:samp byte -->。enumeration: PlayerRespawnState
 
+
+////
+//// define
 Player Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
 
 ///
+

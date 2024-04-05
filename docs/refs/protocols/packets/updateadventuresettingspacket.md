@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateAdventureSettingsPacket
+```title='UpdateAdventureSettingsPacket'
+[adventure_settings]
+```
 
+/// html | div.result
+//// define
 Adventure Settings：[<!-- md:samp AdventureSettings -->](../types/adventuresettings.md)
 
-- 类型：AdventureSettings。
+- 类型：<!-- md:samp AdventureSettings -->。
 
+
+////
 
 ///
+

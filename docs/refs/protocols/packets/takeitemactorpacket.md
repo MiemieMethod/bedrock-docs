@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TakeItemActorPacket
+```title='TakeItemActorPacket'
+[item_runtime_id][actor_runtime_id]
+```
 
+/// html | div.result
+//// define
 Item Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Actor Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
 
 ///
+

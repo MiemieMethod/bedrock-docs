@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetActorMotionPacket
+```title='SetActorMotionPacket'
+[target_runtime_id][motion][server_tick]
+```
 
+/// html | div.result
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Motion：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Server Tick：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。
+- 类型：<!-- md:samp unsigned varint64 -->。
 
+
+////
 
 ///
+

@@ -40,33 +40,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SubChunkRequestPacket
+```title='SubChunkRequestPacket'
+[dimension_type][center_pos][request_count][subchunk_pos_offset_list]
+```
 
+/// html | div.result
+//// define
 Dimension Type：<!-- md:samp varint -->
 
-- 类型：varint。
-
-Center Pos：[<!-- md:samp SubChunkPos -->](../types/subchunkpos.md)
-
-- 类型：SubChunkPos。
-
-Request Count：<!-- md:samp unsigned int -->
-
-- 类型：unsigned int。
-
-SubChunk Pos Offset List
-
-//// define
-SubChunk Pos Offset List的示例元素
-
-SubChunk Offset Pos：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../types/subchunkpacket::subchunkposoffset.md)
-
-- 类型：SubChunkPacket::SubChunkPosOffset。
+- 类型：<!-- md:samp varint -->。
 
 
 ////
+//// define
+Center Pos：[<!-- md:samp SubChunkPos -->](../types/subchunkpos.md)
+
+- 类型：<!-- md:samp SubChunkPos -->。
 
 
+////
+//// define
+Request Count：<!-- md:samp unsigned int -->
+
+- 类型：<!-- md:samp unsigned int -->。
+
+
+////
+```title='SubChunk Pos Offset List'
+[[example_element]..]
+```
+
+//// html | div.result
+```title='示例元素'
+[subchunk_offset_pos]
+```
+
+///// html | div.result
+////// define
+SubChunk Offset Pos：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../types/subchunkpacket__subchunkposoffset.md)
+
+- 类型：<!-- md:samp SubChunkPacket::SubChunkPosOffset -->。
+
+
+//////
+
+/////
+
+////
 
 ///
+

@@ -44,52 +44,67 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ConnectionRequest
+```title='ConnectionRequest'
+[certificate_chain_(json)][raw_token]
+```
 
-Certificate Chain (JSON)
+/// html | div.result
+```title='Certificate Chain (JSON)'
+[array_size][[example_element]..]
+```
 
-//// define
-Certificate Chain (JSON)数组的大小：<!-- md:samp int -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp int -->
 
-- 类型：int。
-
-
-////
+- 类型：<!-- md:samp int -->。
 
 
-//// define
-Certificate Chain (JSON)的示例元素
+/////
+```title='示例元素'
+[string_data]
+```
 
+///// html | div.result
+////// define
 String Data：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
 
-////
+//////
 
-
-Raw Token
-
-//// define
-Raw Token数组的大小：<!-- md:samp int -->
-
-- 类型：int。
-
+/////
 
 ////
+```title='Raw Token'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp int -->
+
+- 类型：<!-- md:samp int -->。
 
 
-//// define
-Raw Token的示例元素
+/////
+```title='示例元素'
+[string_data]
+```
 
+///// html | div.result
+////// define
 String Data：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+//////
+
+/////
 
 ////
-
-
 
 ///
+

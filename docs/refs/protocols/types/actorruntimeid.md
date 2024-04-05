@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ActorRuntimeID
+```title='ActorRuntimeID'
+[actor_runtime_id]
+```
 
+/// html | div.result
+//// define
 Actor Runtime ID：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。
+- 类型：<!-- md:samp unsigned varint64 -->。
 
+
+////
 
 ///
+

@@ -68,71 +68,104 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MovePlayerPacket
+```title='MovePlayerPacket'
+[player_runtime_id][position][rotation][y-head_rotation][position_mode][on_ground][riding_runtime_id][dependency_on_'position_mode_==_teleport'][tick]
+```
 
+/// html | div.result
+//// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+////
+//// define
 Y-Head Rotation：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Position Mode：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PlayerPositionModeComponent::PositionMode
+- 类型：<!-- md:samp byte -->。enumeration: PlayerPositionModeComponent::PositionMode
 
+
+////
+//// define
 On Ground：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Riding Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
-Dependency on 'Position Mode == Teleport'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`Position Mode == Teleport`
+
+///// tab | `Position Mode == Teleport`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Position Mode == Teleport`如果为`1`
+```title='if (1)'
+[teleportation_cause][source_actor_type]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Teleportation Cause：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+///////
+/////// define
 Source Actor Type：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+///////
+
+//////
 
 /////
+//// define
+Tick：<!-- md:samp unsigned varint64 -->
+
+- 类型：<!-- md:samp unsigned varint64 -->。Should be the tick we last processed from PlayerAuthInputPacket or 0 if we're not doing server authoritative movement
+
 
 ////
 
-
-Tick：<!-- md:samp unsigned varint64 -->
-
-- 类型：unsigned varint64。Should be the tick we last processed from PlayerAuthInputPacket or 0 if we're not doing server authoritative movement
-
-
 ///
+

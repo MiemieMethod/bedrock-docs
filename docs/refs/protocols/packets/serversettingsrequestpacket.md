@@ -20,6 +20,11 @@ rankdir = LR
 
 ## 字段
 
-/// define
+```title='ServerSettingsRequestPacket'
+
+```
+
+/// html | div.result
 
 ///
+

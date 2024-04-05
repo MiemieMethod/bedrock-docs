@@ -62,100 +62,117 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AnimatePacket
+```title='AnimatePacket'
+[action][target_runtime_id][dependency_on_'action']
+```
 
+/// html | div.result
+//// define
 Action：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: AnimatePacket::Action
+- 类型：<!-- md:samp varint -->。enumeration: AnimatePacket::Action
 
+
+////
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
-Dependency on 'Action'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`Action`
+
+///// tab | `Action`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | `Action`如果为`1`
+////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (3)
-///// define
+///// tab | `Action`如果为`3`
+////// define
 if (3)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (4)
-///// define
+///// tab | `Action`如果为`4`
+////// define
 if (4)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (5)
-///// define
+///// tab | `Action`如果为`5`
+////// define
 if (5)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Action`如果为`128`
+```title='if (128)'
+[rowing_time]
+```
 
-//// tab | if (128)
-///// define
-if (128)
-
+////// html | div.result
+/////// define
 Rowing Time：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Action`如果为`129`
+```title='if (129)'
+[rowing_time]
+```
 
-//// tab | if (129)
-///// define
-if (129)
-
+////// html | div.result
+/////// define
 Rowing Time：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+
+//////
 
 /////
-
-////
-
-
 
 ///
+

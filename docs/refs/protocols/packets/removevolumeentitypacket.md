@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RemoveVolumeEntityPacket
+```title='RemoveVolumeEntityPacket'
+[entity_network_id][dimension_type]
+```
 
+/// html | div.result
+//// define
 Entity Network Id：[<!-- md:samp EntityNetId -->](../types/entitynetid.md)
 
-- 类型：EntityNetId。
+- 类型：<!-- md:samp EntityNetId -->。
 
+
+////
+//// define
 Dimension Type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

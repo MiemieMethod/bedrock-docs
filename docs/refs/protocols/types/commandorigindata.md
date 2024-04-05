@@ -54,71 +54,91 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CommandOriginData
+```title='CommandOriginData'
+[command_type][command_uuid][request_id][dependency_on_'command_type']
+```
 
+/// html | div.result
+//// define
 Command Type：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: CommandOriginType
+- 类型：<!-- md:samp unsigned varint -->。enumeration: CommandOriginType
 
-Command UUID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
 
-- 类型：mce::UUID。Unique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.
+////
+//// define
+Command UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
+- 类型：<!-- md:samp mce::UUID -->。Unique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.
+
+
+////
+//// define
 Request ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Dependency on 'Command Type'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`Command Type`
+
+///// tab | `Command Type`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (5)
-///// define
+///// tab | `Command Type`如果为`5`
+////// define
 if (5)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Command Type`如果为`4`
+```title='if (4)'
+[player_id]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Command Type`如果为`3`
+```title='if (3)'
+[player_id]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+///////
+
+//////
 
 /////
-
-////
-
-
 
 ///
+

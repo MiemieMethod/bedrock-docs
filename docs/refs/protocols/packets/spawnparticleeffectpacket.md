@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SpawnParticleEffectPacket
+```title='SpawnParticleEffectPacket'
+[dimension_id][actor_id][position][effect_name][molang_variables]
+```
 
+/// html | div.result
+//// define
 Dimension Id：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Effect Name：<!-- md:samp string -->
 
-- 类型：string。Should be an effect that exists on the client. No-op if the effect doesn't exist.
+- 类型：<!-- md:samp string -->。Should be an effect that exists on the client. No-op if the effect doesn't exist.
 
-Molang Variables：[<!-- md:samp std::optional<class MolangVariableMap> -->](../types/std::optional<class_molangvariablemap>.md)
 
-- 类型：std::optional<class MolangVariableMap>。
+////
+//// define
+Molang Variables：[<!-- md:samp std::optional<class MolangVariableMap> -->](../types/std__optional_class_molangvariablemap_.md)
 
+- 类型：<!-- md:samp std::optional<class MolangVariableMap> -->。
+
+
+////
 
 ///
+

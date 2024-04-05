@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-StructureTemplateDataRequestPacket
+```title='StructureTemplateDataRequestPacket'
+[structure_name][structure_position][structure_settings][requested_operation]
+```
 
+/// html | div.result
+//// define
 Structure Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Structure Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresettings.md)
 
-- 类型：StructureSettings。
+- 类型：<!-- md:samp StructureSettings -->。
 
+
+////
+//// define
 Requested Operation：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: StructureTemplateRequestOperation
+- 类型：<!-- md:samp byte -->。enumeration: StructureTemplateRequestOperation
 
+
+////
 
 ///
+

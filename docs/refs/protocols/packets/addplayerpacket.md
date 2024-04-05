@@ -102,115 +102,174 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AddPlayerPacket
+```title='AddPlayerPacket'
+[uuid][player_name][target_runtime_id][platform_chat_id][position][velocity][rotation][y-head_rotation][carried_item][player_game_type][dependency_on_'synchedactordataentitywrapper_exist?'][synched_properties][abilitiesdata][actor_links][device_id][build_platform]
+```
 
-UUID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
+/// html | div.result
+//// define
+UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：mce::UUID。
+- 类型：<!-- md:samp mce::UUID -->。
 
+
+////
+//// define
 Player Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Platform Chat Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：Vec2。
+- 类型：<!-- md:samp Vec2 -->。
 
+
+////
+//// define
 Y-Head Rotation：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Carried Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
+//// define
 Player Game Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: GameType
+- 类型：<!-- md:samp varint -->。enumeration: GameType
 
-Dependency on 'SynchedActorDataEntityWrapper exist?'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`SynchedActorDataEntityWrapper exist?`
 
-Unpack：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
+///// tab | `SynchedActorDataEntityWrapper exist?`如果为`0`
+```title='if (0)'
+[unpack]
+```
 
-- 类型：std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >。std::vector<std::unique_ptr<DataItem>>
+////// html | div.result
+/////// define
+Unpack：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
+- 类型：<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->。std::vector<std::unique_ptr<DataItem>>
+
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `SynchedActorDataEntityWrapper exist?`如果为`1`
+```title='if (1)'
+[entity_data_packall]
+```
 
-//// tab | if (1)
-///// define
-if (1)
+////// html | div.result
+/////// define
+Entity Data PackAll：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-Entity Data PackAll：[<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->](../types/std::vector<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>,class_std::allocator<class_std::unique_ptr<class_dataitem,struct_std::default_delete<class_dataitem>_>_>_>.md)
+- 类型：<!-- md:samp std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > > -->。std::vector<std::unique_ptr<DataItem>>
 
-- 类型：std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >。std::vector<std::unique_ptr<DataItem>>
 
+///////
+
+//////
 
 /////
-
-////
-
-
+//// define
 Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
-- 类型：PropertySyncData。
+- 类型：<!-- md:samp PropertySyncData -->。
 
+
+////
+//// define
 AbilitiesData：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedabilitiesdata.md)
 
-- 类型：SerializedAbilitiesData。
-
-Actor Links
-
-//// define
-Actor Links数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp SerializedAbilitiesData -->。
 
 
 ////
+```title='Actor Links'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Actor Links的示例元素
+/////
+```title='示例元素'
+[link]
+```
 
+///// html | div.result
+////// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- 类型：ActorLink。
+- 类型：<!-- md:samp ActorLink -->。
+
+
+//////
+
+/////
+
+////
+//// define
+Device Id：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。A unique device 'id' obtained from the connection request.
+
+
+////
+//// define
+Build Platform：<!-- md:samp int -->
+
+- 类型：<!-- md:samp int -->。enumeration: BuildPlatform
 
 
 ////
 
-
-Device Id：<!-- md:samp string -->
-
-- 类型：string。A unique device 'id' obtained from the connection request.
-
-Build Platform：<!-- md:samp int -->
-
-- 类型：int。enumeration: BuildPlatform
-
-
 ///
+

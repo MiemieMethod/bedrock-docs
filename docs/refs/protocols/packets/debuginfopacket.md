@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-DebugInfoPacket
+```title='DebugInfoPacket'
+[actor_id][data]
+```
 
+/// html | div.result
+//// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Data：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

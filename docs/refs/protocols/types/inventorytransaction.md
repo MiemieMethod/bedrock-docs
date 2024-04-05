@@ -32,30 +32,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-InventoryTransaction
+```title='InventoryTransaction'
+[actions]
+```
 
-Actions
+/// html | div.result
+```title='Actions'
+[array_size][[example_element]..]
+```
 
-//// define
-Actions数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Actions的示例元素
+/////
+```title='示例元素'
+[action]
+```
 
+///// html | div.result
+////// define
 Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 
-- 类型：InventoryAction。
+- 类型：<!-- md:samp InventoryAction -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

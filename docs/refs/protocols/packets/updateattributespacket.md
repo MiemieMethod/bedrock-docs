@@ -88,96 +88,144 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateAttributesPacket
+```title='UpdateAttributesPacket'
+[target_runtime_id][attribute_list][count_of_ticks_since_simulation_started]
+```
 
+/// html | div.result
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
-
-Attribute List
-
-//// define
-Attribute List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
 
 ////
+```title='Attribute List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Attribute List的示例元素
+/////
+```title='示例元素'
+[min_value][max_value][current_value][default_value][attribute_name][attribute_modifier]
+```
 
+///// html | div.result
+////// define
 Min Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+////// define
 Max Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+////// define
 Current Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+////// define
 Default Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+////// define
 Attribute Name：<!-- md:samp string -->
 
-- 类型：string。
-
-Attribute Modifier
-
-///// define
-Attribute Modifier数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
-/////
+//////
+```title='Attribute Modifier'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-///// define
-Attribute Modifier的示例元素
+///////
+```title='示例元素'
+[id][name][amount][operation][operand][isserializable?]
+```
 
+/////// html | div.result
+//////// define
 ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////////
+//////// define
 Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////////
+//////// define
 Amount：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////////
+//////// define
 Operation：<!-- md:samp int -->
 
-- 类型：int。enumeration: AttributeModifierOperation
+- 类型：<!-- md:samp int -->。enumeration: AttributeModifierOperation
 
+
+////////
+//////// define
 Operand：<!-- md:samp int -->
 
-- 类型：int。enumeration: AttributeOperands
+- 类型：<!-- md:samp int -->。enumeration: AttributeOperands
 
+
+////////
+//////// define
 isSerializable?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////////
+
+///////
+
+//////
 
 /////
 
+////
+//// define
+Count of ticks since simulation started：<!-- md:samp unsigned varint64 -->
+
+- 类型：<!-- md:samp unsigned varint64 -->。
 
 
 ////
 
-
-Count of ticks since simulation started：<!-- md:samp unsigned varint64 -->
-
-- 类型：unsigned varint64。
-
-
 ///
+

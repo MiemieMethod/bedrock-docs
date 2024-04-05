@@ -66,74 +66,109 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ShapedRecipe
+```title='ShapedRecipe'
+[recipe_unique_id][ingredient_grid][production_list][recipe_id][recipe_tag][priority]
+```
 
+/// html | div.result
+//// define
 Recipe Unique Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Ingredient Grid
 
-//// define
-Ingredient Grid数组的大小
+////
+```title='Ingredient Grid'
+[array_size][[example_element]..]
+```
 
+//// html | div.result
+```title='数组大小'
+[recipe_width][recipe_height]
+```
+
+///// html | div.result
+////// define
 Recipe Width：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+//////
+////// define
 Recipe Height：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
 
-////
+//////
 
+/////
+```title='示例元素'
+[ingredient]
+```
 
-//// define
-Ingredient Grid的示例元素
-
+///// html | div.result
+////// define
 Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
 
-////
+//////
 
-
-Production List
-
-//// define
-Production List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Production List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Production List的示例元素
+/////
+```title='示例元素'
+[produced_item]
+```
 
+///// html | div.result
+////// define
 Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：NetworkItemInstanceDescriptor。
+- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
+
+
+//////
+
+/////
+
+////
+//// define
+Recipe ID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
+
+- 类型：<!-- md:samp mce::UUID -->。
+
+
+////
+//// define
+Recipe Tag：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。Available ones: CARTOGRAPHY_TABLE, CRAFTING_TABLE, SMITHING_TABLE, STONECUTTER, FURNACE_TAG, BLAST_FURNACE_TAG, SMOKER_TAG, CAMPFIRE_TAG, SOUL_CAMPFIRE_TAG
+
+
+////
+//// define
+Priority：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
 
 
 ////
 
-
-Recipe ID：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
-
-- 类型：mce::UUID。
-
-Recipe Tag：<!-- md:samp string -->
-
-- 类型：string。Available ones: CARTOGRAPHY_TABLE, CRAFTING_TABLE, SMITHING_TABLE, STONECUTTER, FURNACE_TAG, BLAST_FURNACE_TAG, SMOKER_TAG, CAMPFIRE_TAG, SOUL_CAMPFIRE_TAG
-
-Priority：<!-- md:samp varint -->
-
-- 类型：varint。
-
-
 ///
+

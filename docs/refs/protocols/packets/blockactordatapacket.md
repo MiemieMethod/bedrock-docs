@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BlockActorDataPacket
+```title='BlockActorDataPacket'
+[block_position][actor_data_tags]
+```
 
+/// html | div.result
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Actor Data Tags：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
+
+////
 
 ///
+

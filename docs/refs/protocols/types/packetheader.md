@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-Packet Header
+```title='Packet Header'
+[packet_id]
+```
 
+/// html | div.result
+//// define
 Packet ID：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。The first 10 value bits are the packet 'id', the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID
+- 类型：<!-- md:samp unsigned varint -->。The first 10 value bits are the packet 'id', the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID
 
+
+////
 
 ///
+

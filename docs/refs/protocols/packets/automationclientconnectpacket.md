@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AutomationClientConnectPacket
+```title='AutomationClientConnectPacket'
+[web_socket_data]
+```
 
+/// html | div.result
+//// define
 Web Socket Data：[<!-- md:samp WebSocketPacketData -->](../types/websocketpacketdata.md)
 
-- 类型：WebSocketPacketData。
+- 类型：<!-- md:samp WebSocketPacketData -->。
 
+
+////
 
 ///
+

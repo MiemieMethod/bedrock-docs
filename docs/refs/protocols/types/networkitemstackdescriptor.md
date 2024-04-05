@@ -66,84 +66,113 @@ rankdir = LR
 
 ## 字段
 
-/// define
-NetworkItemStackDescriptor
+```title='NetworkItemStackDescriptor'
+[dependency_on_'valid_item']
+```
 
-Dependency on 'Valid item'
+/// html | div.result
+> 依赖于`Valid item`
 
-//// tab | if (0)
-///// define
-if (0)
+///// tab | `Valid item`如果为`0`
+```title='if (0)'
+[id]
+```
 
+////// html | div.result
+/////// define
 Id：<!-- md:samp varint -->
 
-- 类型：varint。Send fixed Id of 0 for inval'id' item
+- 类型：<!-- md:samp varint -->。Send fixed Id of 0 for inval'id' item
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Valid item`如果为`1`
+```title='if (1)'
+[id][stack_size][aux_value][include_net_id][dependency_on_'include_net_id'][block_runtime_id][user_data_buffer]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Stack size：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
+
+///////
+/////// define
 Aux value：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+///////
+/////// define
 Include Net Id：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
-Dependency on 'Include Net Id'
 
-////// tab | if (0)
-/////// define
+///////
+> 依赖于`Include Net Id`
+
+//////// tab | `Include Net Id`如果为`0`
+///////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
 
-///////
+/////////
 
-//////
+////////
 
-////// tab | if (1)
-/////// define
-if (1)
+//////// tab | `Include Net Id`如果为`1`
+```title='if (1)'
+[net_id_variant]
+```
 
+///////// html | div.result
+////////// define
 Net Id Variant：[<!-- md:samp ItemStackNetIdVariant -->](../types/itemstacknetidvariant.md)
 
-- 类型：ItemStackNetIdVariant。
+- 类型：<!-- md:samp ItemStackNetIdVariant -->。
+
+
+//////////
+
+/////////
+
+////////
+/////// define
+Block Runtime Id：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
+
+
+///////
+/////// define
+User Data Buffer：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。The @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
 
 
 ///////
 
 //////
-
-
-Block Runtime Id：<!-- md:samp varint -->
-
-- 类型：varint。
-
-User Data Buffer：<!-- md:samp string -->
-
-- 类型：string。The @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
-
 
 /////
 
-////
-
-
-
 ///
+

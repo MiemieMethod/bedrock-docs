@@ -72,100 +72,130 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CraftingDataPacket
+```title='CraftingDataPacket'
+[crafting_entries][potion_mixes][container_mixes][material_reducers][clear_recipes]
+```
 
-Crafting Entries
+/// html | div.result
+```title='Crafting Entries'
+[array_size][[example_element]..]
+```
 
-//// define
-Crafting Entries数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Crafting Entries的示例元素
+/////
+```title='示例元素'
+[crafting_entry]
+```
 
+///// html | div.result
+////// define
 Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry.md)
 
-- 类型：CraftingDataEntry。
+- 类型：<!-- md:samp CraftingDataEntry -->。
 
 
-////
+//////
 
-
-Potion Mixes
-
-//// define
-Potion Mixes数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Potion Mixes'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Potion Mixes的示例元素
+/////
+```title='示例元素'
+[potion_mix_entry]
+```
 
+///// html | div.result
+////// define
 Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdataentry.md)
 
-- 类型：PotionMixDataEntry。
+- 类型：<!-- md:samp PotionMixDataEntry -->。
 
 
-////
+//////
 
-
-Container Mixes
-
-//// define
-Container Mixes数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Container Mixes'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Container Mixes的示例元素
+/////
+```title='示例元素'
+[container_mix_entry]
+```
 
+///// html | div.result
+////// define
 Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containermixdataentry.md)
 
-- 类型：ContainerMixDataEntry。
+- 类型：<!-- md:samp ContainerMixDataEntry -->。
 
 
-////
+//////
 
-
-Material Reducers
-
-//// define
-Material Reducers数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Material Reducers'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Material Reducers的示例元素
+/////
+```title='示例元素'
+[material_reducer_entry]
+```
 
+///// html | div.result
+////// define
 Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](../types/materialreducerdataentry.md)
 
-- 类型：MaterialReducerDataEntry。
+- 类型：<!-- md:samp MaterialReducerDataEntry -->。
+
+
+//////
+
+/////
+
+////
+//// define
+Clear Recipes：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
 
 
 ////
 
-
-Clear Recipes：<!-- md:samp bool -->
-
-- 类型：bool。
-
-
 ///
+

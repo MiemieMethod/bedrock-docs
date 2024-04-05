@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TickingAreasLoadStatusPacket
+```title='TickingAreasLoadStatusPacket'
+[waiting_for_preload]
+```
 
+/// html | div.result
+//// define
 Waiting For Preload：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

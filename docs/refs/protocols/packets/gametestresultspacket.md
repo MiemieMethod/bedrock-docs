@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-GameTestResultsPacket
+```title='GameTestResultsPacket'
+[succeeded][error][testname]
+```
 
+/// html | div.result
+//// define
 Succeeded：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Error：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 TestName：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

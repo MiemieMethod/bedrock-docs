@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-OpenSignPacket
+```title='OpenSignPacket'
+[pos][is_front_side]
+```
 
+/// html | div.result
+//// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Is Front Side：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

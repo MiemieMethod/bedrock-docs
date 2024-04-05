@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-StopSoundPacket
+```title='StopSoundPacket'
+[sound_name][stop_all_sounds?]
+```
 
+/// html | div.result
+//// define
 Sound Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Stop All Sounds?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

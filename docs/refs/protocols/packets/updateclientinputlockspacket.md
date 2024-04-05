@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateClientInputLocksPacket
+```title='UpdateClientInputLocksPacket'
+[input_lock_componentdata][server_pos]
+```
 
+/// html | div.result
+//// define
 Input Lock ComponentData：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Server Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
 
 ///
+

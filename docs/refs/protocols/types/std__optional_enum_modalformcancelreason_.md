@@ -1,8 +1,8 @@
-# <!-- md:samp std::optional<enum ModalFormCancelReason> -->
+# <!-- md:samp std::optional&lt;enum ModalFormCancelReason&gt; -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp std::optional<enum ModalFormCancelReason> -->类型。
+<!-- md:samp std::optional&lt;enum ModalFormCancelReason&gt; -->类型。
 
 ## 结构
 
@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-std::optional<enum ModalFormCancelReason>
+```title='std::optional<enum ModalFormCancelReason>'
+[has_value]
+```
 
+/// html | div.result
+//// define
 Has Value：<!-- md:samp bool -->
 
-- 类型：bool。If true, follow with appropriate data type, otherwise nothing
+- 类型：<!-- md:samp bool -->。If true, follow with appropriate data type, otherwise nothing
 
+
+////
 
 ///
+

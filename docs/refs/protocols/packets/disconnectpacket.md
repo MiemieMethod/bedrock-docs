@@ -40,43 +40,55 @@ rankdir = LR
 
 ## 字段
 
-/// define
-DisconnectPacket
+```title='DisconnectPacket'
+[reason][skip_message][dependency_on_'skip_message']
+```
 
+/// html | div.result
+//// define
 Reason：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: Connection::DisconnectFailReason
+- 类型：<!-- md:samp varint -->。enumeration: Connection::DisconnectFailReason
 
+
+////
+//// define
 Skip Message：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
-Dependency on 'Skip Message'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Skip Message`
 
+///// tab | `Skip Message`如果为`0`
+```title='if (0)'
+[message]
+```
+
+////// html | div.result
+/////// define
 Message：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | `Skip Message`如果为`1`
+////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

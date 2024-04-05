@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SubChunkPacket::SubChunkPosOffset
+```title='SubChunkPacket::SubChunkPosOffset'
+[offset_x][offset_y][offset_z]
+```
 
+/// html | div.result
+//// define
 Offset X：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Offset Y：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Offset Z：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
 
 ///
+

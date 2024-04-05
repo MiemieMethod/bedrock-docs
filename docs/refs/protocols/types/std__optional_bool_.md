@@ -1,8 +1,8 @@
-# <!-- md:samp std::optional<bool> -->
+# <!-- md:samp std::optional&lt;bool&gt; -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp std::optional<bool> -->类型。
+<!-- md:samp std::optional&lt;bool&gt; -->类型。
 
 ## 结构
 
@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-std::optional<bool>
+```title='std::optional<bool>'
+[has_value]
+```
 
+/// html | div.result
+//// define
 Has Value：<!-- md:samp bool -->
 
-- 类型：bool。If true, follow with appropriate data type, otherwise nothing
+- 类型：<!-- md:samp bool -->。If true, follow with appropriate data type, otherwise nothing
 
+
+////
 
 ///
+

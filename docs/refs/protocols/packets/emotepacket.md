@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-EmotePacket
+```title='EmotePacket'
+[actor_runtime_id][emote_id][xuid][platformid][flags]
+```
 
+/// html | div.result
+//// define
 Actor Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Emote Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Xuid：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 PlatformId：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Flags：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: EmotePacket::Flags
+- 类型：<!-- md:samp byte -->。enumeration: EmotePacket::Flags
 
+
+////
 
 ///
+

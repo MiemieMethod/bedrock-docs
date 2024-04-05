@@ -42,52 +42,66 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MapItemTrackedActor::UniqueId
+```title='MapItemTrackedActor::UniqueId'
+[type][dependency_on_'type']
+```
 
+/// html | div.result
+//// define
 Type：<!-- md:samp int -->
 
-- 类型：int。enumeration: MapItemTrackedActor::Type
+- 类型：<!-- md:samp int -->。enumeration: MapItemTrackedActor::Type
 
-Dependency on 'Type'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Type`
 
+///// tab | `Type`如果为`0`
+```title='if (0)'
+[unique_id]
+```
+
+////// html | div.result
+/////// define
 Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Type`如果为`1`
+```title='if (1)'
+[block_position]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Block position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (2)
-///// define
+///// tab | `Type`如果为`2`
+////// define
 if (2)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

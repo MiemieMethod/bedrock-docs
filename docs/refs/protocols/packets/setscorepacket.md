@@ -84,119 +84,159 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetScorePacket
+```title='SetScorePacket'
+[score_packet_type][score_packet_info]
+```
 
+/// html | div.result
+//// define
 Score Packet Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ScorePacketType
-
-Score Packet Info
-
-//// define
-Score Packet Info数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。enumeration: ScorePacketType
 
 
 ////
+```title='Score Packet Info'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Score Packet Info的示例元素
+/////
+```title='示例元素'
+[id][objective_name][score_value][dependency_on_'is_change_type']
+```
 
+///// html | div.result
+////// define
 Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
-- 类型：ScoreboardId。
+- 类型：<!-- md:samp ScoreboardId -->。
 
+
+//////
+////// define
 Objective Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Score Value：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
-Dependency on 'Is Change Type'
 
-///// tab | if (0)
-////// define
+//////
+> 依赖于`Is Change Type`
+
+/////// tab | `Is Change Type`如果为`0`
+//////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
 
-//////
+////////
 
-/////
+///////
 
-///// tab | if (1)
-////// define
-if (1)
+/////// tab | `Is Change Type`如果为`1`
+```title='if (1)'
+[dependency_on_'identity_definition_type']
+```
 
-Dependency on 'Identity Definition Type'
+//////// html | div.result
+> 依赖于`Identity Definition Type`
 
-/////// tab | if (1)
-//////// define
-if (1)
+////////// tab | `Identity Definition Type`如果为`1`
+```title='if (1)'
+[identity_definition_type][player_unique_id]
+```
 
+/////////// html | div.result
+//////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: IdentityDefinition::Type
+- 类型：<!-- md:samp byte -->。enumeration: IdentityDefinition::Type
 
+
+////////////
+//////////// define
 Player Unique Id：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
 
-////////
+////////////
 
-///////
+///////////
 
-/////// tab | if (2)
-//////// define
-if (2)
+//////////
 
+////////// tab | `Identity Definition Type`如果为`2`
+```title='if (2)'
+[identity_definition_type][actor_id]
+```
+
+/////////// html | div.result
+//////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: IdentityDefinition::Type
+- 类型：<!-- md:samp byte -->。enumeration: IdentityDefinition::Type
 
+
+////////////
+//////////// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
 
-////////
+////////////
 
-///////
+///////////
 
-/////// tab | if (3)
-//////// define
-if (3)
+//////////
 
+////////// tab | `Identity Definition Type`如果为`3`
+```title='if (3)'
+[identity_definition_type][fake_player_name]
+```
+
+/////////// html | div.result
+//////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: IdentityDefinition::Type
+- 类型：<!-- md:samp byte -->。enumeration: IdentityDefinition::Type
 
+
+////////////
+//////////// define
 Fake Player Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////////////
+
+///////////
+
+//////////
 
 ////////
 
 ///////
 
-
-
-//////
-
 /////
-
-
 
 ////
 
-
-
 ///
+

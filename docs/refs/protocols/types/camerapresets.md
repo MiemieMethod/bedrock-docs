@@ -32,30 +32,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CameraPresets
+```title='CameraPresets'
+[presets]
+```
 
-Presets
+/// html | div.result
+```title='Presets'
+[array_size][[example_element]..]
+```
 
-//// define
-Presets数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Presets的示例元素
+/////
+```title='示例元素'
+[camera_preset]
+```
 
+///// html | div.result
+////// define
 Camera Preset：[<!-- md:samp CameraPreset -->](../types/camerapreset.md)
 
-- 类型：CameraPreset。
+- 类型：<!-- md:samp CameraPreset -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BlockPos
+```title='BlockPos'
+[x][y][z]
+```
 
+/// html | div.result
+//// define
 X：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Y：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Z：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

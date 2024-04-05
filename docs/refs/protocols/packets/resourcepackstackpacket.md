@@ -72,80 +72,116 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ResourcePackStackPacket
+```title='ResourcePackStackPacket'
+[texture_pack_required][add-on_list][texture_pack_list][base_game_version][experiments]
+```
 
+/// html | div.result
+//// define
 Texture Pack Required：<!-- md:samp bool -->
 
-- 类型：bool。
-
-Add-On List
-
-//// define
-Add-On List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp bool -->。
 
 
 ////
+```title='Add-On List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Add-On List的示例元素
+/////
+```title='示例元素'
+[id][version][sub_pack_name]
+```
 
+///// html | div.result
+////// define
 ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Version：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Sub Pack Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
 
-////
+//////
 
-
-Texture Pack List
-
-//// define
-Texture Pack List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Texture Pack List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Texture Pack List的示例元素
+/////
+```title='示例元素'
+[id][version][sub_pack_name]
+```
 
+///// html | div.result
+////// define
 ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Version：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Sub Pack Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
-
-
+//// define
 Base Game Version：[<!-- md:samp BaseGameVersion -->](../types/basegameversion.md)
 
-- 类型：BaseGameVersion。For clients to be able to set their stack to the right version.
+- 类型：<!-- md:samp BaseGameVersion -->。For clients to be able to set their stack to the right version.
 
+
+////
+//// define
 Experiments：[<!-- md:samp Experiments -->](../types/experiments.md)
 
-- 类型：Experiments。Refer to the Experiments type for how to serialize
+- 类型：<!-- md:samp Experiments -->。Refer to the Experiments type for how to serialize
 
+
+////
 
 ///
+

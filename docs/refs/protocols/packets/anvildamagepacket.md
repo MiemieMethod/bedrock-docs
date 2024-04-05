@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AnvilDamagePacket
+```title='AnvilDamagePacket'
+[damage_amount][block_position]
+```
 
+/// html | div.result
+//// define
 Damage Amount：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
 
 ///
+

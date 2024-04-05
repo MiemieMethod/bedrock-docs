@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-EditorNetworkPacket
+```title='EditorNetworkPacket'
+[binary_payload]
+```
 
+/// html | div.result
+//// define
 Binary Payload：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
+
+////
 
 ///
+

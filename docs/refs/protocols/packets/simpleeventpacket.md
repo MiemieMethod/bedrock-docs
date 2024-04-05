@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SimpleEventPacket
+```title='SimpleEventPacket'
+[type]
+```
 
+/// html | div.result
+//// define
 Type：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。enumeration: SimpleEventPacket::Subtype
+- 类型：<!-- md:samp unsigned short -->。enumeration: SimpleEventPacket::Subtype
 
+
+////
 
 ///
+

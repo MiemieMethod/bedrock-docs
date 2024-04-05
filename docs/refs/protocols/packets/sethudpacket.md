@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetHudPacket
+```title='SetHudPacket'
+[hud_element_list][ishudvisible]
+```
 
-Hud Element List
+/// html | div.result
+```title='Hud Element List'
+[array_size][[example_element]..]
+```
 
-//// define
-Hud Element List数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Hud Element List的示例元素
+/////
+```title='示例元素'
+[hud_element]
+```
 
+///// html | div.result
+////// define
 Hud Element：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: HudElement
+- 类型：<!-- md:samp varint -->。enumeration: HudElement
+
+
+//////
+
+/////
+
+////
+//// define
+isHudVisible：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。enumeration: HudVisibility
 
 
 ////
 
-
-isHudVisible：<!-- md:samp varint -->
-
-- 类型：varint。enumeration: HudVisibility
-
-
 ///
+

@@ -48,56 +48,76 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MapInfoRequestPacket
+```title='MapInfoRequestPacket'
+[map_unique_id][client_pixels_list_size][dependency_on_'mclientpixels.size()_>_0_?']
+```
 
+/// html | div.result
+//// define
 Map Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
-Client Pixels List Size：<!-- md:samp unsigned int -->
-
-- 类型：unsigned int。
-
-Dependency on 'mClientPixels.size() > 0 ?'
-
-//// tab | if (0)
-///// define
-if (0)：<!-- md:samp [No Data] -->
-
-- 类型：[No Data]。
-
-
-/////
 
 ////
+//// define
+Client Pixels List Size：<!-- md:samp unsigned int -->
 
-//// tab | if (1)
-///// define
-if (1)
+- 类型：<!-- md:samp unsigned int -->。
 
-Client Pixels List
 
+////
+> 依赖于`mClientPixels.size() > 0 ?`
+
+///// tab | `mClientPixels.size() > 0 ?`如果为`0`
 ////// define
-Client Pixels List的示例元素
+if (0)：<!-- md:samp [No Data] -->
 
-pixel：<!-- md:samp unsigned int -->
-
-- 类型：unsigned int。
-
-index：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
+- 无数据。
 
 
 //////
 
+/////
 
+///// tab | `mClientPixels.size() > 0 ?`如果为`1`
+```title='if (1)'
+[client_pixels_list]
+```
+
+////// html | div.result
+```title='Client Pixels List'
+[[example_element]..]
+```
+
+/////// html | div.result
+```title='示例元素'
+[pixel][index]
+```
+
+//////// html | div.result
+///////// define
+pixel：<!-- md:samp unsigned int -->
+
+- 类型：<!-- md:samp unsigned int -->。
+
+
+/////////
+///////// define
+index：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
+
+
+/////////
+
+////////
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

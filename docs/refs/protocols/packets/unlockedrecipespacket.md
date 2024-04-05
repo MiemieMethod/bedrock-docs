@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UnlockedRecipesPacket
+```title='UnlockedRecipesPacket'
+[packet_type][unlocked_recipes_list]
+```
 
+/// html | div.result
+//// define
 Packet Type：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
-
-Unlocked Recipes List
-
-//// define
-Unlocked Recipes List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned int -->。
 
 
 ////
+```title='Unlocked Recipes List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Unlocked Recipes List的示例元素
+/////
+```title='示例元素'
+[recipe]
+```
 
+///// html | div.result
+////// define
 Recipe：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

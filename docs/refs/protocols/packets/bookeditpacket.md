@@ -88,112 +88,165 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BookEditPacket
+```title='BookEditPacket'
+[action][book_slot][dependency_on_'action']
+```
 
+/// html | div.result
+//// define
 Action：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: BookEditAction
+- 类型：<!-- md:samp byte -->。enumeration: BookEditAction
 
+
+////
+//// define
 Book Slot：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
-Dependency on 'Action'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Action`
 
+///// tab | `Action`如果为`0`
+```title='if (0)'
+[page_index][text_a][text_b]
+```
+
+////// html | div.result
+/////// define
 Page Index：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+/////// define
 Text A：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Text B：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Action`如果为`1`
+```title='if (1)'
+[page_index][text_a][text_b]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Page Index：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+/////// define
 Text A：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Text B：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Action`如果为`2`
+```title='if (2)'
+[page_index]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Page Index：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Action`如果为`3`
+```title='if (3)'
+[page_index_a][page_index_b]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Page Index A：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+/////// define
 Page Index B：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Action`如果为`4`
+```title='if (4)'
+[text_a][text_b][xuid]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Text A：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Text B：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 XUID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

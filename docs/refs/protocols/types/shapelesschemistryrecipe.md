@@ -60,68 +60,95 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ShapelessChemistryRecipe
+```title='ShapelessChemistryRecipe'
+[recipe_id][ingredients][results][id][tag][priority]
+```
 
+/// html | div.result
+//// define
 Recipe Id：<!-- md:samp string -->
 
-- 类型：string。
-
-Ingredients
-
-//// define
-Ingredients数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
 ////
+```title='Ingredients'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Ingredients的示例元素
+/////
+```title='示例元素'
+[entry]
+```
 
+///// html | div.result
+////// define
 Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
 
-////
+//////
 
-
-Results
-
-//// define
-Results数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Results'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Results的示例元素
+/////
+```title='示例元素'
+[entry]
+```
 
+///// html | div.result
+////// define
 Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：NetworkItemInstanceDescriptor。
+- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
+
+
+//////
+
+/////
+
+////
+//// define
+Id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
+
+- 类型：<!-- md:samp mce::UUID -->。
+
+
+////
+//// define
+Tag：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。As string
+
+
+////
+//// define
+Priority：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
 
 
 ////
 
-
-Id：[<!-- md:samp mce::UUID -->](../types/mce::uuid.md)
-
-- 类型：mce::UUID。
-
-Tag：<!-- md:samp string -->
-
-- 类型：string。As string
-
-Priority：<!-- md:samp varint -->
-
-- 类型：varint。
-
-
 ///
+

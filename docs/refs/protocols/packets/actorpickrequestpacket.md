@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ActorPickRequestPacket
+```title='ActorPickRequestPacket'
+[actor_id][max_slots][with_data]
+```
 
+/// html | div.result
+//// define
 Actor ID：<!-- md:samp int64 -->
 
-- 类型：int64。Target Actor ID
+- 类型：<!-- md:samp int64 -->。Target Actor ID
 
+
+////
+//// define
 Max Slots：<!-- md:samp byte -->
 
-- 类型：byte。number of empty hotbar slots (to dec'id'e whether to overwrite a slot or add it to an empty one)
+- 类型：<!-- md:samp byte -->。number of empty hotbar slots (to dec'id'e whether to overwrite a slot or add it to an empty one)
 
+
+////
+//// define
 With Data：<!-- md:samp bool -->
 
-- 类型：bool。whether we want to store the NBT data along with the item
+- 类型：<!-- md:samp bool -->。whether we want to store the NBT data along with the item
 
+
+////
 
 ///
+

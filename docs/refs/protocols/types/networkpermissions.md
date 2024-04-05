@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-NetworkPermissions
+```title='NetworkPermissions'
+[serverauthsoundenabled]
+```
 
+/// html | div.result
+//// define
 serverAuthSoundEnabled：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

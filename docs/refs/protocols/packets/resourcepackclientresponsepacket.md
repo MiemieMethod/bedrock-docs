@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ResourcePackClientResponsePacket
+```title='ResourcePackClientResponsePacket'
+[response][downloading_packs]
+```
 
+/// html | div.result
+//// define
 Response：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ResourcePackResponse
-
-Downloading Packs
-
-//// define
-Downloading Packs数组的大小：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
+- 类型：<!-- md:samp byte -->。enumeration: ResourcePackResponse
 
 
 ////
+```title='Downloading Packs'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
 
 
-//// define
-Downloading Packs的示例元素
+/////
+```title='示例元素'
+[pack_name]
+```
 
+///// html | div.result
+////// define
 Pack Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

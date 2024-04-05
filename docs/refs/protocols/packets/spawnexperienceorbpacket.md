@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SpawnExperienceOrbPacket
+```title='SpawnExperienceOrbPacket'
+[position][xp_value]
+```
 
+/// html | div.result
+//// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 XP Value：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

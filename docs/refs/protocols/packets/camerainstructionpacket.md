@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CameraInstructionPacket
+```title='CameraInstructionPacket'
+[camera_instruction]
+```
 
+/// html | div.result
+//// define
 Camera Instruction：[<!-- md:samp CameraInstruction -->](../types/camerainstruction.md)
 
-- 类型：CameraInstruction。
+- 类型：<!-- md:samp CameraInstruction -->。
 
+
+////
 
 ///
+

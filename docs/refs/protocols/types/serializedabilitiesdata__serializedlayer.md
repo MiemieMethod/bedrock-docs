@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SerializedAbilitiesData::SerializedLayer
+```title='SerializedAbilitiesData::SerializedLayer'
+[serializedlayer][abilitiesset][abilityvalues][flyspeed][walkspeed]
+```
 
+/// html | div.result
+//// define
 SerializedLayer：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。enumeration: SerializedAbilitiesData::SerializedAbilitiesLayer
+- 类型：<!-- md:samp unsigned short -->。enumeration: SerializedAbilitiesData::SerializedAbilitiesLayer
 
+
+////
+//// define
 AbilitiesSet：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 AbilityValues：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 FlySpeed：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 WalkSpeed：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
 
 ///
+

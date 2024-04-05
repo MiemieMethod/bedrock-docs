@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-EduUriResourcePacket
+```title='EduUriResourcePacket'
+[edu_shared_uri_resource]
+```
 
+/// html | div.result
+//// define
 Edu Shared URI Resource：[<!-- md:samp EduSharedUriResource -->](../types/edushareduriresource.md)
 
-- 类型：EduSharedUriResource。
+- 类型：<!-- md:samp EduSharedUriResource -->。
 
+
+////
 
 ///
+

@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CameraPresetsPacket
+```title='CameraPresetsPacket'
+[camera_presets]
+```
 
+/// html | div.result
+//// define
 Camera Presets：[<!-- md:samp CameraPresets -->](../types/camerapresets.md)
 
-- 类型：CameraPresets。
+- 类型：<!-- md:samp CameraPresets -->。
 
+
+////
 
 ///
+

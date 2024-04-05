@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ActorUniqueID
+```title='ActorUniqueID'
+[actor_unique_id]
+```
 
+/// html | div.result
+//// define
 Actor Unique ID：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+////
 
 ///
+

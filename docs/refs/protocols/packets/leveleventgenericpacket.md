@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LevelEventGenericPacket
+```title='LevelEventGenericPacket'
+[event_id][event_data]
+```
 
+/// html | div.result
+//// define
 Event ID：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: LevelEvent
+- 类型：<!-- md:samp varint -->。enumeration: LevelEvent
 
+
+////
+//// define
 Event Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。Note about Event ID: Legacy particles use the @enums.html#Particle Type@  enum |ed with ParticleLegacyEvent(0x4000)
+- 类型：<!-- md:samp CompoundTag -->。Note about Event ID: Legacy particles use the @enums.html#Particle Type@  enum |ed with ParticleLegacyEvent(0x4000)
 
+
+////
 
 ///
+

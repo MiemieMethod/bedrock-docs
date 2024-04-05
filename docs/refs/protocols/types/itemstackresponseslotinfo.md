@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemStackResponseSlotInfo
+```title='ItemStackResponseSlotInfo'
+[requested_slot][slot][amount][item_stack_net_id][custom_name][durability_correction]
+```
 
+/// html | div.result
+//// define
 Requested slot：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Slot：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Amount：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
-Item Stack Net Id：[<!-- md:samp TypedServerNetId<struct ItemStackNetIdTag,int,0> -->](../types/typedservernetid<struct_itemstacknetidtag,int,0>.md)
 
-- 类型：TypedServerNetId<struct ItemStackNetIdTag,int,0>。
+////
+//// define
+Item Stack Net Id：[<!-- md:samp TypedServerNetId<struct ItemStackNetIdTag,int,0> -->](../types/typedservernetid_struct_itemstacknetidtag,int,0_.md)
 
+- 类型：<!-- md:samp TypedServerNetId<struct ItemStackNetIdTag,int,0> -->。
+
+
+////
+//// define
 Custom Name：<!-- md:samp string -->
 
-- 类型：string。Allows you to filter for profanity on the server and return the updated 'name'
+- 类型：<!-- md:samp string -->。Allows you to filter for profanity on the server and return the updated 'name'
 
+
+////
+//// define
 Durability Correction：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

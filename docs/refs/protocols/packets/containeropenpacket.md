@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ContainerOpenPacket
+```title='ContainerOpenPacket'
+[container_id][container_type][position][target_actor_id]
+```
 
+/// html | div.result
+//// define
 Container ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerID
+- 类型：<!-- md:samp byte -->。enumeration: ContainerID
 
+
+////
+//// define
 Container Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerType
+- 类型：<!-- md:samp byte -->。enumeration: ContainerType
 
+
+////
+//// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
 
 ///
+

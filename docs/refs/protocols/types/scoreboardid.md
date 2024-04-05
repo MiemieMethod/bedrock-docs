@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ScoreboardId
+```title='ScoreboardId'
+[id]
+```
 
+/// html | div.result
+//// define
 Id：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+////
 
 ///
+

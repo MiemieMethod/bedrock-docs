@@ -48,61 +48,76 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetScoreboardIdentityPacket
+```title='SetScoreboardIdentityPacket'
+[scoreboard_identity_packet_type][identity_info]
+```
 
+/// html | div.result
+//// define
 Scoreboard Identity Packet Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ScoreboardIdentityPacketType
-
-Identity Info
-
-//// define
-Identity Info数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。enumeration: ScoreboardIdentityPacketType
 
 
 ////
+```title='Identity Info'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Identity Info的示例元素
+/////
+```title='示例元素'
+[scoreboard_id][dependency_on_'is_update_type']
+```
 
+///// html | div.result
+////// define
 Scoreboard Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
-- 类型：ScoreboardId。
+- 类型：<!-- md:samp ScoreboardId -->。
 
-Dependency on 'Is Update Type'
 
-///// tab | if (0)
-////// define
+//////
+> 依赖于`Is Update Type`
+
+/////// tab | `Is Update Type`如果为`0`
+//////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
 
-//////
+////////
 
-/////
+///////
 
-///// tab | if (1)
-////// define
-if (1)
+/////// tab | `Is Update Type`如果为`1`
+```title='if (1)'
+[player_unique_id]
+```
 
+//////// html | div.result
+///////// define
 Player Unique Id：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
 
-//////
+/////////
+
+////////
+
+///////
 
 /////
-
-
 
 ////
 
-
-
 ///
+

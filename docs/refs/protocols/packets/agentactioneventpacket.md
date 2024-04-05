@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AgentActionEventPacket
+```title='AgentActionEventPacket'
+[request_id][request_id][response]
+```
 
+/// html | div.result
+//// define
 Request Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Request Id：<!-- md:samp int -->
 
-- 类型：int。enumeration: AgentActionType
+- 类型：<!-- md:samp int -->。enumeration: AgentActionType
 
+
+////
+//// define
 Response：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SmithingTransformRecipe
+```title='SmithingTransformRecipe'
+[recipe_id][template_ingredien][base_ingredien][addition_ingredien][result][tag]
+```
 
+/// html | div.result
+//// define
 Recipe Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Template Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
+
+////
+//// define
 Base Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
+
+////
+//// define
 Addition Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：RecipeIngredient。
+- 类型：<!-- md:samp RecipeIngredient -->。
 
+
+////
+//// define
 Result：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：NetworkItemInstanceDescriptor。
+- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
 
+
+////
+//// define
 Tag：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

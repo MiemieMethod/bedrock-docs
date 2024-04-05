@@ -128,146 +128,221 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ResourcePacksInfoPacket
+```title='ResourcePacksInfoPacket'
+[resource_pack_required][has_add-on_packs][has_scripts][force_server_packs_enabled][behavior_packs][resource_packs][cdn_urls]
+```
 
+/// html | div.result
+//// define
 Resource Pack Required：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Has Add-on Packs：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Has Scripts：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Force Server Packs Enabled：<!-- md:samp bool -->
 
-- 类型：bool。
-
-Behavior Packs
-
-//// define
-Behavior Packs数组的大小：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
+- 类型：<!-- md:samp bool -->。
 
 
 ////
+```title='Behavior Packs'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
 
 
-//// define
-Behavior Packs的示例元素
+/////
+```title='示例元素'
+[id][version][size][content_key][sub_pack_name][content_identity][has_scripts]
+```
 
+///// html | div.result
+////// define
 ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Version：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+//////
+////// define
 Content Key：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Sub Pack Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Content Identity：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
 
-////
+//////
 
-
-Resource Packs
-
-//// define
-Resource Packs数组的大小：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
-
+/////
 
 ////
+```title='Resource Packs'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
 
 
-//// define
-Resource Packs的示例元素
+/////
+```title='示例元素'
+[id][version][size][content_key][sub_pack_name][content_identity][has_scripts][is_ray_tracing_capable]
+```
 
+///// html | div.result
+////// define
 ID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Version：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+//////
+////// define
 Content Key：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Sub Pack Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Content Identity：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+//////
+////// define
 Is Ray Tracing Capable：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
 
-////
+//////
 
-
-CDN URLs
-
-//// define
-CDN URLs数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='CDN URLs'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-CDN URLs的示例元素
+/////
+```title='示例元素'
+[first][second]
+```
 
+///// html | div.result
+////// define
 First：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Second：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

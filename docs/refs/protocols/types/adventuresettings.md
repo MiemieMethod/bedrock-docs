@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AdventureSettings
+```title='AdventureSettings'
+[no_pvm][no_mvp][immutable_world][show_name_tags][auto_jump]
+```
 
+/// html | div.result
+//// define
 no PvM：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 no MvP：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Immutable World：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Show Name Tags：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Auto Jump：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

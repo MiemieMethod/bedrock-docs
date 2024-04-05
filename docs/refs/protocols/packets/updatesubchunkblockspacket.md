@@ -80,88 +80,130 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateSubChunkBlocksPacket
+```title='UpdateSubChunkBlocksPacket'
+[sub_chunk_block_position][blocks_changed_-_standards][blocks_changed_-_extras]
+```
 
+/// html | div.result
+//// define
 Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
-
-Blocks Changed - Standards
-
-//// define
-Blocks Changed - Standards数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
 
 ////
+```title='Blocks Changed - Standards'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Blocks Changed - Standards的示例元素
+/////
+```title='示例元素'
+[pos][runtime_id][update_flags][sync_message_-_entity_unique_id][sync_message_-_message]
+```
 
+///// html | div.result
+////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+//////
+////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+//////
+////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+//////
+////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。
+- 类型：<!-- md:samp unsigned varint64 -->。
 
+
+//////
+////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: ActorBlockSyncMessage::MessageId
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ActorBlockSyncMessage::MessageId
 
 
-////
+//////
 
-
-Blocks Changed - Extras
-
-//// define
-Blocks Changed - Extras数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Blocks Changed - Extras'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Blocks Changed - Extras的示例元素
+/////
+```title='示例元素'
+[pos][runtime_id][update_flags][sync_message_-_entity_unique_id][sync_message_-_message]
+```
 
+///// html | div.result
+////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+//////
+////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+//////
+////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+//////
+////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。
+- 类型：<!-- md:samp unsigned varint64 -->。
 
+
+//////
+////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: ActorBlockSyncMessage::MessageId
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ActorBlockSyncMessage::MessageId
 
+
+//////
+
+/////
 
 ////
-
-
 
 ///
+

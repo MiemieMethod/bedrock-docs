@@ -40,38 +40,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MaterialReducerDataEntry
+```title='MaterialReducerDataEntry'
+[from_item_(key):_input][item_ids_and_counts]
+```
 
+/// html | div.result
+//// define
 From Item (Key): Input：<!-- md:samp varint -->
 
-- 类型：varint。
-
-Item Ids and Counts
-
-//// define
-Item Ids and Counts数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp varint -->。
 
 
 ////
+```title='Item Ids and Counts'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Item Ids and Counts的示例元素
+/////
+```title='示例元素'
+[item_id][item_count]
+```
 
+///// html | div.result
+////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+//////
+////// define
 Item Count：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

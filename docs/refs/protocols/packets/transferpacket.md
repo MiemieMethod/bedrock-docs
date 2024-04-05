@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TransferPacket
+```title='TransferPacket'
+[server_address][server_port]
+```
 
+/// html | div.result
+//// define
 Server Address：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Server Port：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
+
+////
 
 ///
+

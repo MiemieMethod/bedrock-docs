@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PositionTrackingDBClientRequestPacket
+```title='PositionTrackingDBClientRequestPacket'
+[action][id]
+```
 
+/// html | div.result
+//// define
 Action：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PositionTrackingDBClientRequestPacket::Action
+- 类型：<!-- md:samp byte -->。enumeration: PositionTrackingDBClientRequestPacket::Action
 
+
+////
+//// define
 Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
-- 类型：PositionTrackingId。
+- 类型：<!-- md:samp PositionTrackingId -->。
 
+
+////
 
 ///
+

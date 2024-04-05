@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CameraPacket
+```title='CameraPacket'
+[camera_id][target_player_id]
+```
 
+/// html | div.result
+//// define
 Camera ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Target Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
 
 ///
+

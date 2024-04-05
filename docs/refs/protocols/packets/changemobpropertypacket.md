@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ChangeMobPropertyPacket
+```title='ChangeMobPropertyPacket'
+[actor_id][property_name][boolcomponent_value][stringcomponent_value][intcomponent_value][floatcomponent_value]
+```
 
+/// html | div.result
+//// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Property Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 BoolComponent Value：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 StringComponent Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 IntComponent Value：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 FloatComponent Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
 
 ///
+

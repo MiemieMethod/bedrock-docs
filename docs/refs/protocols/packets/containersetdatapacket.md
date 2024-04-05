@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ContainerSetDataPacket
+```title='ContainerSetDataPacket'
+[container_id][id][value]
+```
 
+/// html | div.result
+//// define
 Container ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerID
+- 类型：<!-- md:samp byte -->。enumeration: ContainerID
 
+
+////
+//// define
 ID：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Value：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

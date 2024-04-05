@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LecternUpdatePacket
+```title='LecternUpdatePacket'
+[new_page_to_show][total_pages][position_of_lectern_to_update]
+```
 
+/// html | div.result
+//// define
 New page to show：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Total Pages：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Position of Lectern to update：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
 
 ///
+

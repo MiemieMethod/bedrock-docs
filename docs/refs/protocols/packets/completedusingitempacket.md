@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CompletedUsingItemPacket
+```title='CompletedUsingItemPacket'
+[item_id][item_use_method]
+```
 
+/// html | div.result
+//// define
 Item Id：<!-- md:samp short -->
 
-- 类型：short。
+- 类型：<!-- md:samp short -->。
 
+
+////
+//// define
 Item Use Method：<!-- md:samp int -->
 
-- 类型：int。enumeration: ItemUseMethod
+- 类型：<!-- md:samp int -->。enumeration: ItemUseMethod
 
+
+////
 
 ///
+

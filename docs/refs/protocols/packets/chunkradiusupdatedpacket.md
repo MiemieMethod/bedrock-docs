@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ChunkRadiusUpdatedPacket
+```title='ChunkRadiusUpdatedPacket'
+[chunk_radius]
+```
 
+/// html | div.result
+//// define
 Chunk Radius：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

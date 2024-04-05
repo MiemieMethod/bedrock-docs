@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerHotbarPacket
+```title='PlayerHotbarPacket'
+[selected_slot][container_id][should_select_slot?]
+```
 
+/// html | div.result
+//// define
 Selected Slot：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Container ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerID
+- 类型：<!-- md:samp byte -->。enumeration: ContainerID
 
+
+////
+//// define
 Should select slot?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

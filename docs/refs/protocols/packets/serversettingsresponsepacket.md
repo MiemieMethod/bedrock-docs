@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ServerSettingsResponsePacket
+```title='ServerSettingsResponsePacket'
+[form_id][form_ui_json]
+```
 
+/// html | div.result
+//// define
 Form ID：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Form UI JSON：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

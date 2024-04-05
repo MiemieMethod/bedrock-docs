@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-EducationSettingsPacket
+```title='EducationSettingsPacket'
+[education_level_settings]
+```
 
+/// html | div.result
+//// define
 Education Level Settings：[<!-- md:samp EducationLevelSettings -->](../types/educationlevelsettings.md)
 
-- 类型：EducationLevelSettings。
+- 类型：<!-- md:samp EducationLevelSettings -->。
 
+
+////
 
 ///
+

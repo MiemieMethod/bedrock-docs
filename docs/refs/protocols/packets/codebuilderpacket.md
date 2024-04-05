@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CodeBuilderPacket
+```title='CodeBuilderPacket'
+[url][should_open_code_builder]
+```
 
+/// html | div.result
+//// define
 URL：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Should open code builder：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

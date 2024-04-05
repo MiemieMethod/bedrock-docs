@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerActionPacket
+```title='PlayerActionPacket'
+[player_runtime_id][action][block_position][result_pos][face]
+```
 
+/// html | div.result
+//// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Action：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: PlayerActionType
+- 类型：<!-- md:samp varint -->。enumeration: PlayerActionType
 
+
+////
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Result Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Face：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

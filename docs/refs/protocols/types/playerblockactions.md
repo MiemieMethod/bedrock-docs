@@ -32,30 +32,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerBlockActions
+```title='PlayerBlockActions'
+[player_block_actions]
+```
 
-Player Block Actions
+/// html | div.result
+```title='Player Block Actions'
+[player_block_actions_count][[example_element]..]
+```
 
-//// define
+//// html | div.result
+///// define
 Player Block Actions count：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
 
-////
+/////
+```title='示例元素'
+[player_block_action]
+```
 
-
-//// define
-Player Block Actions的示例元素
-
+///// html | div.result
+////// define
 Player Block Action：[<!-- md:samp PlayerBlockActionData -->](../types/playerblockactiondata.md)
 
-- 类型：PlayerBlockActionData。
+- 类型：<!-- md:samp PlayerBlockActionData -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

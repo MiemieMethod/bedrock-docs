@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CorrectPlayerMovePredictionPacket
+```title='CorrectPlayerMovePredictionPacket'
+[pos][pos_delta][on_ground][tick][predictiontype]
+```
 
+/// html | div.result
+//// define
 Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。Corrected position
+- 类型：<!-- md:samp Vec3 -->。Corrected position
 
+
+////
+//// define
 Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。Corrected velocity
+- 类型：<!-- md:samp Vec3 -->。Corrected velocity
 
+
+////
+//// define
 On Ground：<!-- md:samp bool -->
 
-- 类型：bool。Is on ground
+- 类型：<!-- md:samp bool -->。Is on ground
 
+
+////
+//// define
 Tick：<!-- md:samp unsigned varint64 -->
 
-- 类型：unsigned varint64。Which frame we're correcting; should match the tick in the Player Auth Input packet
+- 类型：<!-- md:samp unsigned varint64 -->。Which frame we're correcting; should match the tick in the Player Auth Input packet
 
+
+////
+//// define
 PredictionType：<!-- md:samp byte -->
 
-- 类型：byte。Vehicle or Player Prediction
+- 类型：<!-- md:samp byte -->。Vehicle or Player Prediction
 
+
+////
 
 ///
+

@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ShowProfilePacket
+```title='ShowProfilePacket'
+[player_xuid]
+```
 
+/// html | div.result
+//// define
 Player XUID：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

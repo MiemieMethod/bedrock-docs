@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-NpcRequestPacket
+```title='NpcRequestPacket'
+[npc_runtime_id][request_type][actions][action_index][scene_name]
+```
 
+/// html | div.result
+//// define
 NPC Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Request Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: NpcRequestPacket::RequestType
+- 类型：<!-- md:samp byte -->。enumeration: NpcRequestPacket::RequestType
 
+
+////
+//// define
 Actions：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Action Index：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Scene Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

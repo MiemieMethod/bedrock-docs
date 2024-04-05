@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-NpcDialoguePacket
+```title='NpcDialoguePacket'
+[npc_id_raw_id][npc_dialogue_action_type][dialogue][scene_name][npc_name][action_json]
+```
 
+/// html | div.result
+//// define
 Npc Id Raw Id：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。The ActorUniqueID of the NPC being remote fired
+- 类型：<!-- md:samp unsigned int64 -->。The ActorUniqueID of the NPC being remote fired
 
+
+////
+//// define
 Npc Dialogue Action Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: NpcDialoguePacket::NpcDialogueActionType
+- 类型：<!-- md:samp varint -->。enumeration: NpcDialoguePacket::NpcDialogueActionType
 
+
+////
+//// define
 Dialogue：<!-- md:samp string -->
 
-- 类型：string。The text to be displayed to the client
+- 类型：<!-- md:samp string -->。The text to be displayed to the client
 
+
+////
+//// define
 Scene Name：<!-- md:samp string -->
 
-- 类型：string。The scene the data has been pulled from for the client to reference
+- 类型：<!-- md:samp string -->。The scene the data has been pulled from for the client to reference
 
+
+////
+//// define
 Npc Name：<!-- md:samp string -->
 
-- 类型：string。The 'name' of the NPC to be displayed to the client
+- 类型：<!-- md:samp string -->。The 'name' of the NPC to be displayed to the client
 
+
+////
+//// define
 Action JSON：<!-- md:samp string -->
 
-- 类型：string。The JSON string of the buttons/actions the server can perform. The server is still authoritative on what actions can be performed
+- 类型：<!-- md:samp string -->。The JSON string of the buttons/actions the server can perform. The server is still authoritative on what actions can be performed
 
+
+////
 
 ///
+

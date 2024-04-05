@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CodeBuilderSourcePacket
+```title='CodeBuilderSourcePacket'
+[operation][category][value]
+```
 
+/// html | div.result
+//// define
 Operation：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: CodeBuilderStorageQueryOptions::Operation
+- 类型：<!-- md:samp byte -->。enumeration: CodeBuilderStorageQueryOptions::Operation
 
+
+////
+//// define
 Category：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: CodeBuilderStorageQueryOptions::Category
+- 类型：<!-- md:samp byte -->。enumeration: CodeBuilderStorageQueryOptions::Category
 
+
+////
+//// define
 Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

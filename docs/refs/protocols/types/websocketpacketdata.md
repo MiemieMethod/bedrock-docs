@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-WebSocketPacketData
+```title='WebSocketPacketData'
+[websocket_server_uri]
+```
 
+/// html | div.result
+//// define
 Websocket Server URI：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

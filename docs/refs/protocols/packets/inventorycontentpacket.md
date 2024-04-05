@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-InventoryContentPacket
+```title='InventoryContentPacket'
+[inventory_id][slots]
+```
 
+/// html | div.result
+//// define
 Inventory Id：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-Slots
-
-//// define
-Slots数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
 
 ////
+```title='Slots'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Slots的示例元素
+/////
+```title='示例元素'
+[item_stack]
+```
 
+///// html | div.result
+////// define
 Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

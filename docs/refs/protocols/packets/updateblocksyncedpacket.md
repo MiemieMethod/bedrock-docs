@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateBlockSyncedPacket
+```title='UpdateBlockSyncedPacket'
+[block_position][block_runtime_id][flags][layer][unique_actor_id][actor_sync_message]
+```
 
+/// html | div.result
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Block Runtime ID：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Flags：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Layer：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Unique Actor Id：<!-- md:samp varint64 -->
 
-- 类型：varint64。Id for the Moving Block Actor
+- 类型：<!-- md:samp varint64 -->。Id for the Moving Block Actor
 
+
+////
+//// define
 Actor Sync Message：<!-- md:samp varint64 -->
 
-- 类型：varint64。enumeration: ActorBlockSyncMessage::MessageId
+- 类型：<!-- md:samp varint64 -->。enumeration: ActorBlockSyncMessage::MessageId
 
+
+////
 
 ///
+

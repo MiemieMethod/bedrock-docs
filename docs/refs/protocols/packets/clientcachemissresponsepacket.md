@@ -36,34 +36,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ClientCacheMissResponsePacket
+```title='ClientCacheMissResponsePacket'
+[missing_blobs]
+```
 
-Missing Blobs
+/// html | div.result
+```title='Missing Blobs'
+[number_of_missing_blobs][[example_element]..]
+```
 
-//// define
+//// html | div.result
+///// define
 Number of missing blobs：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-////
+/////
+```title='示例元素'
+[blob_id][blob_data]
+```
 
-
-//// define
-Missing Blobs的示例元素
-
+///// html | div.result
+////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+//////
+////// define
 Blob Data：<!-- md:samp string -->
 
-- 类型：string。Subchunk data (see https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37) plus biome data
+- 类型：<!-- md:samp string -->。Subchunk data (see https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37) plus biome data
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

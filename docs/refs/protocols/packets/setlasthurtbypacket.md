@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetLastHurtByPacket
+```title='SetLastHurtByPacket'
+[last_hurt_by]
+```
 
+/// html | div.result
+//// define
 Last Hurt By：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。enumeration: ActorType
 
+
+////
 
 ///
+

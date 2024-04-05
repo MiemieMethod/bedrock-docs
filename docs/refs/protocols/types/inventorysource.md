@@ -46,63 +46,77 @@ rankdir = LR
 
 ## 字段
 
-/// define
-InventorySource
+```title='InventorySource'
+[source_type][dependency_on_'source_type']
+```
 
+/// html | div.result
+//// define
 Source Type：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: InventorySourceType
+- 类型：<!-- md:samp unsigned varint -->。enumeration: InventorySourceType
 
-Dependency on 'Source Type'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Source Type`
 
+///// tab | `Source Type`如果为`0`
+```title='if (0)'
+[container_id]
+```
+
+////// html | div.result
+/////// define
 Container ID：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ContainerID
+- 类型：<!-- md:samp varint -->。enumeration: ContainerID
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (1)
-///// define
+///// tab | `Source Type`如果为`1`
+////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Source Type`如果为`2`
+```title='if (2)'
+[bit_flags]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Bit Flags：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: InventorySource::InventorySourceFlags
+- 类型：<!-- md:samp unsigned varint -->。enumeration: InventorySource::InventorySourceFlags
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (3)
-///// define
+///// tab | `Source Type`如果为`3`
+////// define
 if (3)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

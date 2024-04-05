@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetDisplayObjectivePacket
+```title='SetDisplayObjectivePacket'
+[display_slot_name][objective_name][objective_display_name][criteria_name][sort_order]
+```
 
+/// html | div.result
+//// define
 Display Slot Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Objective Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Objective Display Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Criteria Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Sort Order：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ObjectiveSortOrder
+- 类型：<!-- md:samp byte -->。enumeration: ObjectiveSortOrder
 
+
+////
 
 ///
+

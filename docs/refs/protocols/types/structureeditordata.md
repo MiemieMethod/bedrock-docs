@@ -48,36 +48,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-StructureEditorData
+```title='StructureEditorData'
+[structure_name][data_field][should_players_be_included?][should_show_bounding_box?][structure_block_type][structure_settings][redstone_save_mode]
+```
 
+/// html | div.result
+//// define
 Structure Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Data Field：<!-- md:samp string -->
 
-- 类型：string。Used for structure blocks in data mode.
+- 类型：<!-- md:samp string -->。Used for structure blocks in data mode.
 
+
+////
+//// define
 Should players be included?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Should show bounding box?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Structure Block Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: StructureBlockType
+- 类型：<!-- md:samp varint -->。enumeration: StructureBlockType
 
+
+////
+//// define
 Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresettings.md)
 
-- 类型：StructureSettings。
+- 类型：<!-- md:samp StructureSettings -->。
 
+
+////
+//// define
 Redstone Save Mode：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: StructureRedstoneSaveMode
+- 类型：<!-- md:samp varint -->。enumeration: StructureRedstoneSaveMode
 
+
+////
 
 ///
+

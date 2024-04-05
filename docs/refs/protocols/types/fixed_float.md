@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-Fixed Float
+```title='Fixed Float'
+[modified_float_value]
+```
 
+/// html | div.result
+//// define
 Modified float value：<!-- md:samp varint64 -->
 
-- 类型：varint64。Float value multiplied by 32
+- 类型：<!-- md:samp varint64 -->。Float value multiplied by 32
 
+
+////
 
 ///
+

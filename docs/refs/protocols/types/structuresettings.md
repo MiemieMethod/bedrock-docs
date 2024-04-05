@@ -76,64 +76,109 @@ rankdir = LR
 
 ## 字段
 
-/// define
-StructureSettings
+```title='StructureSettings'
+[structure_palette_name][should_ignore_entities?][should_ignore_blocks?][should_allow_non_ticking_player_and_ticking_area_chunks][structure_size][structure_offset][last_edit_player][rotation][mirror][animation_mode][animation_seconds][integrity_value][integrity_seed][rotation_pivot]
+```
 
+/// html | div.result
+//// define
 Structure Palette Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Should ignore entities?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Should ignore blocks?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Should Allow Non Ticking Player and Ticking Area Chunks：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Structure Size：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Structure Offset：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Last Edit Player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。Player who last edited the structure block.
+- 类型：<!-- md:samp ActorUniqueID -->。Player who last edited the structure block.
 
+
+////
+//// define
 Rotation：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Rotation
+- 类型：<!-- md:samp byte -->。enumeration: Rotation
 
+
+////
+//// define
 Mirror：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Mirror
+- 类型：<!-- md:samp byte -->。enumeration: Mirror
 
+
+////
+//// define
 Animation Mode：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: AnimationMode
+- 类型：<!-- md:samp byte -->。enumeration: AnimationMode
 
+
+////
+//// define
 Animation Seconds：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Integrity Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Integrity Seed：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 Rotation Pivot：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。Pivot used to rotate a structure around.
+- 类型：<!-- md:samp Vec3 -->。Pivot used to rotate a structure around.
 
+
+////
 
 ///
+

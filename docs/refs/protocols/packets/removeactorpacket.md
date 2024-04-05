@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RemoveActorPacket
+```title='RemoveActorPacket'
+[target_actor_id]
+```
 
+/// html | div.result
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
 
 ///
+

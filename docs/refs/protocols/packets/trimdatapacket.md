@@ -56,64 +56,88 @@ rankdir = LR
 
 ## 字段
 
-/// define
-TrimDataPacket
+```title='TrimDataPacket'
+[trimpattern_list][trimmaterial_list]
+```
 
-TrimPattern List
+/// html | div.result
+```title='TrimPattern List'
+[array_size][[example_element]..]
+```
 
-//// define
-TrimPattern List数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-TrimPattern List的示例元素
+/////
+```title='示例元素'
+[item_name][pattern_id]
+```
 
+///// html | div.result
+////// define
 Item Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Pattern Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
 
-////
+//////
 
-
-TrimMaterial List
-
-//// define
-TrimMaterial List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='TrimMaterial List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-TrimMaterial List的示例元素
+/////
+```title='示例元素'
+[material_id][color][item_name]
+```
 
+///// html | div.result
+////// define
 Material Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Color：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Item Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

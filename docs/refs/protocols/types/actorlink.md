@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ActorLink
+```title='ActorLink'
+[actor_unique_id_-_a][actor_unique_id_-_b][link_type][immediate][passenger_initiated]
+```
 
+/// html | div.result
+//// define
 Actor Unique ID - A：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Actor Unique ID - B：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Link Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ActorLinkType
+- 类型：<!-- md:samp byte -->。enumeration: ActorLinkType
 
+
+////
+//// define
 Immediate：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Passenger Initiated：<!-- md:samp bool -->
 
-- 类型：bool。Whether the link was changed by the passenger
+- 类型：<!-- md:samp bool -->。Whether the link was changed by the passenger
 
+
+////
 
 ///
+

@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ResourcePackChunkRequestPacket
+```title='ResourcePackChunkRequestPacket'
+[resource_name][chunk]
+```
 
+/// html | div.result
+//// define
 Resource Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Chunk：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
 
 ///
+

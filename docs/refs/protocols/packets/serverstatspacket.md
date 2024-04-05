@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ServerStatsPacket
+```title='ServerStatsPacket'
+[servertime][networktime]
+```
 
+/// html | div.result
+//// define
 ServerTime：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 NetworkTime：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
 
 ///
+

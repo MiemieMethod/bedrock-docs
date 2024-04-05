@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RecipeIngredient
+```title='RecipeIngredient'
+[internaltype][stacksize]
+```
 
+/// html | div.result
+//// define
 InternalType：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ItemDescriptor::InternalType
+- 类型：<!-- md:samp byte -->。enumeration: ItemDescriptor::InternalType
 
+
+////
+//// define
 StackSize：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

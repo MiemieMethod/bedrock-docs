@@ -44,32 +44,53 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MapDecoration
+```title='MapDecoration'
+[map_decoration_type][rotation][x][y][label][color_-_argb]
+```
 
+/// html | div.result
+//// define
 Map Decoration Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: MapDecoration::Type
+- 类型：<!-- md:samp byte -->。enumeration: MapDecoration::Type
 
+
+////
+//// define
 Rotation：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 X：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Y：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Label：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Color - ARGB：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
 
 ///
+

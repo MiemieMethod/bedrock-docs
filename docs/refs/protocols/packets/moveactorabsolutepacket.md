@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MoveActorAbsolutePacket
+```title='MoveActorAbsolutePacket'
+[move_data]
+```
 
+/// html | div.result
+//// define
 Move Data：[<!-- md:samp MoveActorAbsoluteData -->](../types/moveactorabsolutedata.md)
 
-- 类型：MoveActorAbsoluteData。
+- 类型：<!-- md:samp MoveActorAbsoluteData -->。
 
+
+////
 
 ///
+

@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-RemoveObjectivePacket
+```title='RemoveObjectivePacket'
+[objective_name]
+```
 
+/// html | div.result
+//// define
 Objective Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
 
 ///
+

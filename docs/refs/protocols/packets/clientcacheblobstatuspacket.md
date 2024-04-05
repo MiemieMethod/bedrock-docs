@@ -44,42 +44,67 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ClientCacheBlobStatusPacket
+```title='ClientCacheBlobStatusPacket'
+[number_of_missing_blobs][number_of_obtained_blobs][missing_blobs][obtained_blobs]
+```
 
+/// html | div.result
+//// define
 Number of missing blobs：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
+//// define
 Number of obtained blobs：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-Missing Blobs
-
-//// define
-Missing Blobs的示例元素
-
-Blob Id：<!-- md:samp unsigned int64 -->
-
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned varint -->。
 
 
 ////
+```title='Missing Blobs'
+[[example_element]..]
+```
 
+//// html | div.result
+```title='示例元素'
+[blob_id]
+```
 
-Obtained Blobs
-
-//// define
-Obtained Blobs的示例元素
-
+///// html | div.result
+////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+//////
+
+/////
 
 ////
+```title='Obtained Blobs'
+[[example_element]..]
+```
+
+//// html | div.result
+```title='示例元素'
+[blob_id]
+```
+
+///// html | div.result
+////// define
+Blob Id：<!-- md:samp unsigned int64 -->
+
+- 类型：<!-- md:samp unsigned int64 -->。
 
 
+//////
+
+/////
+
+////
 
 ///
+

@@ -40,28 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-NetworkSettingsPacket
+```title='NetworkSettingsPacket'
+[compression_threshold][compressionalgorithm][client_throttle_enabled][client_throttle_threshold][client_throttle_scalar]
+```
 
+/// html | div.result
+//// define
 Compression Threshold：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。Determines the smallest size of raw network payload to compress. OTE: 0 is disable compression, 1 is compress everything 1 byte or larger (so everything)
+- 类型：<!-- md:samp unsigned short -->。Determines the smallest size of raw network payload to compress. OTE: 0 is disable compression, 1 is compress everything 1 byte or larger (so everything)
 
+
+////
+//// define
 CompressionAlgorithm：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。enumeration: PacketCompressionAlgorithm
+- 类型：<!-- md:samp unsigned short -->。enumeration: PacketCompressionAlgorithm
 
+
+////
+//// define
 Client Throttle Enabled：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Client Throttle Threshold：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Client Throttle Scalar：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
 
 ///
+

@@ -36,24 +36,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-StructureBlockUpdatePacket
+```title='StructureBlockUpdatePacket'
+[block_position][structure_data][trigger?][iswaterlogged]
+```
 
+/// html | div.result
+//// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Structure Data：[<!-- md:samp StructureEditorData -->](../types/structureeditordata.md)
 
-- 类型：StructureEditorData。
+- 类型：<!-- md:samp StructureEditorData -->。
 
+
+////
+//// define
 Trigger?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 IsWaterlogged：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

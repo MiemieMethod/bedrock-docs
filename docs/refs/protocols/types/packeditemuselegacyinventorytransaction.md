@@ -100,133 +100,181 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PackedItemUseLegacyInventoryTransaction
+```title='PackedItemUseLegacyInventoryTransaction'
+[id][dependency_on_'valid_id'][actions][action_type][position][face][slot][item][from_position][click_position][target_block_id]
+```
 
-ID：[<!-- md:samp TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstacklegacyrequestidtag,int,0>.md)
+/// html | div.result
+//// define
+ID：[<!-- md:samp TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0> -->](../types/typedclientnetid_struct_itemstacklegacyrequestidtag,int,0_.md)
 
-- 类型：TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>。
+- 类型：<!-- md:samp TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0> -->。
 
-Dependency on 'valid ID'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`valid ID`
+
+///// tab | `valid ID`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)
-
-Container Slots
-
-////// define
-Container Slots数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 无数据。
 
 
 //////
 
+/////
 
-////// define
-Container Slots的示例元素
+///// tab | `valid ID`如果为`1`
+```title='if (1)'
+[container_slots]
+```
 
+////// html | div.result
+```title='Container Slots'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+////////
+```title='示例元素'
+[container_enum_name][slots]
+```
+
+//////// html | div.result
+///////// define
 Container Enum Name：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerEnumName
-
-Slots
-
-/////// define
-Slots数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。enumeration: ContainerEnumName
 
 
-///////
+/////////
+```title='Slots'
+[array_size][[example_element]..]
+```
+
+///////// html | div.result
+////////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-/////// define
-Slots的示例元素
+//////////
+```title='示例元素'
+[slot]
+```
 
+////////// html | div.result
+/////////// define
 Slot：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////////
+
+//////////
+
+/////////
+
+////////
 
 ///////
 
+//////
+
+/////
+```title='Actions'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+/////
+```title='示例元素'
+[action]
+```
+
+///// html | div.result
+////// define
+Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
+
+- 类型：<!-- md:samp InventoryAction -->。
 
 
 //////
 
-
-
 /////
 
 ////
-
-
-Actions
-
 //// define
-Actions数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-////
-
-
-//// define
-Actions的示例元素
-
-Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
-
-- 类型：InventoryAction。
-
-
-////
-
-
 Action Type：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。enumeration: ItemUseInventoryTransaction::ActionType
+- 类型：<!-- md:samp unsigned varint -->。enumeration: ItemUseInventoryTransaction::ActionType
 
+
+////
+//// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Face：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Slot：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：NetworkItemStackDescriptor。
+- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
 
+
+////
+//// define
 From Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Click Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：Vec3。
+- 类型：<!-- md:samp Vec3 -->。
 
+
+////
+//// define
 Target Block Id：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+////
 
 ///
+

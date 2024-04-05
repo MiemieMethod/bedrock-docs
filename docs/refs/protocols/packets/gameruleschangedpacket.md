@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-GameRulesChangedPacket
+```title='GameRulesChangedPacket'
+[rules_data]
+```
 
+/// html | div.result
+//// define
 Rules Data：[<!-- md:samp GameRulesChangedPacketData -->](../types/gameruleschangedpacketdata.md)
 
-- 类型：GameRulesChangedPacketData。
+- 类型：<!-- md:samp GameRulesChangedPacketData -->。
 
+
+////
 
 ///
+

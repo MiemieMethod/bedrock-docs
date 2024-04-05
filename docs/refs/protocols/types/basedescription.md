@@ -56,32 +56,88 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BaseDescription
+```title='BaseDescription'
+[internal_itemdescriptor][molang_descriptor][itemtag_descriptor][deferred_descriptor]
+```
 
-Internal ItemDescriptor
+/// html | div.result
+```title='Internal ItemDescriptor'
+[full_name][aux_value]
+```
 
+//// html | div.result
+///// define
 Full Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+/////
+///// define
 Aux Value：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
-Molang Descriptor
 
+/////
+
+////
+```title='Molang Descriptor'
+[full_name][molang_version]
+```
+
+//// html | div.result
+///// define
+Full Name：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+/////
+///// define
 Molang Version：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: MolangVersion
+- 类型：<!-- md:samp byte -->。enumeration: MolangVersion
 
-ItemTag Descriptor
 
+/////
+
+////
+```title='ItemTag Descriptor'
+[item_tag]
+```
+
+//// html | div.result
+///// define
 Item Tag：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Deferred Descriptor
 
+/////
+
+////
+```title='Deferred Descriptor'
+[full_name][aux_value]
+```
+
+//// html | div.result
+///// define
+Full Name：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+/////
+///// define
+Aux Value：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
+
+
+/////
+
+////
 
 ///
+

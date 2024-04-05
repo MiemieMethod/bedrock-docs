@@ -208,196 +208,340 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LevelSettings
+```title='LevelSettings'
+[seed][spawn_settings][generator_type][game_type][game_difficulty][default_spawn_block_position][achievements_disabled][editor_world_type][is_created_in_editor][is_exported_from_editor][day_cycle_stop_time][education_edition_offer][are_education_features_enabled?][education_product_id][rain_level][lightning_level][has_confirmed_platform_locked_content][was_multiplayer_intended_to_be_enabled?][was_lan_broadcasting_intended_to_be_enabled?][xbox_live_broadcast_setting][platform_broadcast_setting][commands_enabled][texture_packs_required][rule_data][experiments][has_bonus_chest_enabled?][start_with_map_enabled?][player_permissions][server_chunk_tick_range][has_locked_behavior_pack?][has_locked_resource_pack?][is_from_locked_template?][use_msa_gamertags_only?][indicates_if_this_world_was_created_from_a_template.][indicates_if_this_world_is_a_template_with_locked_settings.][only_spawn_v1_villagers][personadisabled?][customskinsdisabled?][emote_chat_muted][base_game_version][limited_world_width][limited_world_depth][nether_type][edu_shared_uri_resource][override_force_experimental_gameplay_has_value][chatrestriction_level][disableplayerinteractions_?]
+```
 
+/// html | div.result
+//// define
 Seed：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
+//// define
 Spawn Settings：[<!-- md:samp SpawnSettings -->](../types/spawnsettings.md)
 
-- 类型：SpawnSettings。
+- 类型：<!-- md:samp SpawnSettings -->。
 
+
+////
+//// define
 Generator Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: GeneratorType
+- 类型：<!-- md:samp varint -->。enumeration: GeneratorType
 
+
+////
+//// define
 Game Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: GameType
+- 类型：<!-- md:samp varint -->。enumeration: GameType
 
+
+////
+//// define
 Game Difficulty：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: Difficulty
+- 类型：<!-- md:samp varint -->。enumeration: Difficulty
 
+
+////
+//// define
 Default Spawn Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：NetworkBlockPosition。
+- 类型：<!-- md:samp NetworkBlockPosition -->。
 
+
+////
+//// define
 Achievements Disabled：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Editor World Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: Editor::WorldType
+- 类型：<!-- md:samp varint -->。enumeration: Editor::WorldType
 
+
+////
+//// define
 is Created In Editor：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 is Exported From Editor：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Day Cycle Stop Time：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Education Edition Offer：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: EducationEditionOffer
+- 类型：<!-- md:samp varint -->。enumeration: EducationEditionOffer
 
+
+////
+//// define
 Are Education features enabled?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Education product id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Rain Level：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Lightning Level：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+////
+//// define
 Has confirmed Platform Locked Content：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Was Multiplayer intended to be enabled?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Was LAN broadcasting intended to be enabled?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Xbox Live Broadcast Setting：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: Social::GamePublishSetting
+- 类型：<!-- md:samp varint -->。enumeration: Social::GamePublishSetting
 
+
+////
+//// define
 Platform Broadcast Setting：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: Social::GamePublishSetting
+- 类型：<!-- md:samp varint -->。enumeration: Social::GamePublishSetting
 
+
+////
+//// define
 Commands Enabled：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Texture Packs Required：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Rule Data：[<!-- md:samp GameRulesChangedPacketData -->](../types/gameruleschangedpacketdata.md)
 
-- 类型：GameRulesChangedPacketData。
+- 类型：<!-- md:samp GameRulesChangedPacketData -->。
 
+
+////
+//// define
 Experiments：[<!-- md:samp Experiments -->](../types/experiments.md)
 
-- 类型：Experiments。
+- 类型：<!-- md:samp Experiments -->。
 
+
+////
+//// define
 Has Bonus Chest Enabled?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Start with Map Enabled?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Player Permissions：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: PlayerPermissionLevel
+- 类型：<!-- md:samp byte -->。enumeration: PlayerPermissionLevel
 
+
+////
+//// define
 Server Chunk Tick Range：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+////
+//// define
 Has locked behavior pack?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Has locked resource pack?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Is from locked template?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Use Msa Gamertags Only?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Indicates if this world was created from a template.：<!-- md:samp bool -->
 
-- 类型：bool。For servers this should always be false.
+- 类型：<!-- md:samp bool -->。For servers this should always be false.
 
+
+////
+//// define
 Indicates if this world is a template with locked settings.：<!-- md:samp bool -->
 
-- 类型：bool。For servers this should always be false.
+- 类型：<!-- md:samp bool -->。For servers this should always be false.
 
+
+////
+//// define
 Only spawn v1 villagers：<!-- md:samp bool -->
 
-- 类型：bool。This was added for the Village & Pillage update, marking worlds where V1 villagers shouldn't update to V2, and only V1 villagers should be used in the world. This was done for Marketplace content.
+- 类型：<!-- md:samp bool -->。This was added for the Village & Pillage update, marking worlds where V1 villagers shouldn't update to V2, and only V1 villagers should be used in the world. This was done for Marketplace content.
 
+
+////
+//// define
 PersonaDisabled?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 CustomSkinsDisabled?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Emote Chat Muted：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Base Game Version：[<!-- md:samp BaseGameVersion -->](../types/basegameversion.md)
 
-- 类型：BaseGameVersion。Version of vanilla gameplay that will be used with this world.
+- 类型：<!-- md:samp BaseGameVersion -->。Version of vanilla gameplay that will be used with this world.
 
+
+////
+//// define
 Limited World Width：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+////
+//// define
 Limited World Depth：<!-- md:samp int -->
 
-- 类型：int。
+- 类型：<!-- md:samp int -->。
 
+
+////
+//// define
 Nether type：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Edu Shared Uri Resource：[<!-- md:samp EduSharedUriResource -->](../types/edushareduriresource.md)
 
-- 类型：EduSharedUriResource。
+- 类型：<!-- md:samp EduSharedUriResource -->。
 
+
+////
+//// define
 Override force experimental gameplay has value：<!-- md:samp bool -->
 
-- 类型：bool。For servers this should always be false
+- 类型：<!-- md:samp bool -->。For servers this should always be false
 
+
+////
+//// define
 ChatRestriction Level：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ChatRestrictionLevel
+- 类型：<!-- md:samp byte -->。enumeration: ChatRestrictionLevel
 
+
+////
+//// define
 DisablePlayerInteractions ?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

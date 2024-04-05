@@ -52,60 +52,81 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PropertySyncData
+```title='PropertySyncData'
+[int_entries_list][float_entries_list]
+```
 
-Int Entries List
+/// html | div.result
+```title='Int Entries List'
+[array_size][[example_element]..]
+```
 
-//// define
-Int Entries List数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Int Entries List的示例元素
+/////
+```title='示例元素'
+[property_index][data]
+```
 
+///// html | div.result
+////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+//////
+////// define
 Data：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
 
-////
+//////
 
-
-Float Entries List
-
-//// define
-Float Entries List数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Float Entries List'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Float Entries List的示例元素
+/////
+```title='示例元素'
+[property_index][data]
+```
 
+///// html | div.result
+////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+//////
+////// define
 Data：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

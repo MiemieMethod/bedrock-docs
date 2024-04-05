@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemData
+```title='ItemData'
+[item_name][item_id][is_component_based]
+```
 
+/// html | div.result
+//// define
 Item Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Item Id：<!-- md:samp short -->
 
-- 类型：short。Block 'id''s < 256 (can be negative); Item 'id''s > 257
+- 类型：<!-- md:samp short -->。Block 'id''s < 256 (can be negative); Item 'id''s > 257
 
+
+////
+//// define
 Is Component Based：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
 
 ///
+

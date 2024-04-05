@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SubClientLoginPacket
+```title='SubClientLoginPacket'
+[sub_client_connection_request]
+```
 
+/// html | div.result
+//// define
 Sub Client Connection Request：<!-- md:samp string -->
 
-- 类型：string。see @subClientConnectionRequest.html#diagram@
+- 类型：<!-- md:samp string -->。see @subClientConnectionRequest.html#diagram@
 
+
+////
 
 ///
+

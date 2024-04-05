@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AgentAnimationPacket
+```title='AgentAnimationPacket'
+[agent_animation][runtime_id]
+```
 
+/// html | div.result
+//// define
 Agent Animation：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
 
 ///
+

@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MapCreateLockedCopyPacket
+```title='MapCreateLockedCopyPacket'
+[original_map_id][new_map_id]
+```
 
+/// html | div.result
+//// define
 Original Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。Id of the map being locked.
+- 类型：<!-- md:samp ActorUniqueID -->。Id of the map being locked.
 
+
+////
+//// define
 New Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。Id that the new map should have.
+- 类型：<!-- md:samp ActorUniqueID -->。Id that the new map should have.
 
+
+////
 
 ///
+

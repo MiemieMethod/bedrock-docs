@@ -324,530 +324,738 @@ rankdir = LR
 
 ## 字段
 
-/// define
-LegacyTelemetryEventPacket
+```title='LegacyTelemetryEventPacket'
+[target_actor_id][event_type][use_player_id][dependency_on_'event_type']
+```
 
+/// html | div.result
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Event Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: LegacyTelemetryEventPacket::Type
+- 类型：<!-- md:samp varint -->。enumeration: LegacyTelemetryEventPacket::Type
 
+
+////
+//// define
 Use Player ID：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
-Dependency on 'Event Type'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Event Type`
 
+///// tab | `Event Type`如果为`0`
+```title='if (0)'
+[achievement_id]
+```
+
+////// html | div.result
+/////// define
 Achievement ID：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`1`
+```title='if (1)'
+[interaction_type][interaction_actor_type][interaction_actor_variant][interaction_actor_color]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Interaction Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: MinecraftEventing::InteractionType
+- 类型：<!-- md:samp varint -->。enumeration: MinecraftEventing::InteractionType
 
+
+///////
+/////// define
 Interaction Actor Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。enumeration: ActorType
 
+
+///////
+/////// define
 Interaction Actor Variant：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Interaction Actor Color：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`2`
+```title='if (2)'
+[dimension_id]
+```
 
-//// tab | if (2)
-///// define
-if (2)
-
+////// html | div.result
+/////// define
 Dimension ID：<!-- md:samp varint -->
 
-- 类型：varint。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 类型：<!-- md:samp varint -->。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`3`
+```title='if (3)'
+[source_dimension_id][target_dimension_id]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Source Dimension ID：<!-- md:samp varint -->
 
-- 类型：varint。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 类型：<!-- md:samp varint -->。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
+
+///////
+/////// define
 Target Dimension ID：<!-- md:samp varint -->
 
-- 类型：varint。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 类型：<!-- md:samp varint -->。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`4`
+```title='if (4)'
+[instigator_actor_id][target_actor_id][instigator's_child_actor_type][damage_source][trade_tier][trader_name]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Instigator Actor ID：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+///////
+/////// define
 Target Actor ID：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+///////
+/////// define
 Instigator's Child Actor Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。enumeration: ActorType
 
+
+///////
+/////// define
 Damage Source：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ActorDamageCause
+- 类型：<!-- md:samp varint -->。enumeration: ActorDamageCause
 
+
+///////
+/////// define
 Trade Tier：<!-- md:samp varint -->
 
-- 类型：varint。-1 if not a trading actor.
+- 类型：<!-- md:samp varint -->。-1 if not a trading actor.
 
+
+///////
+/////// define
 Trader Name：<!-- md:samp string -->
 
-- 类型：string。Empty if not a trading actor.
+- 类型：<!-- md:samp string -->。Empty if not a trading actor.
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`5`
+```title='if (5)'
+[contents_color][contents_type][fill_level]
+```
 
-//// tab | if (5)
-///// define
-if (5)
-
+////// html | div.result
+/////// define
 Contents Color：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+///////
+/////// define
 Contents Type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Fill Level：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`6`
+```title='if (6)'
+[instigator_actor_id][instigator_mob_variant][damage_source][died_in_raid?]
+```
 
-//// tab | if (6)
-///// define
-if (6)
-
+////// html | div.result
+/////// define
 Instigator Actor ID：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Instigator Mob Variant：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Damage Source：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ActorDamageCause
+- 类型：<!-- md:samp varint -->。enumeration: ActorDamageCause
 
+
+///////
+/////// define
 Died in Raid?：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`7`
+```title='if (7)'
+[boss_actor_id][party_size][boss_type]
+```
 
-//// tab | if (7)
-///// define
-if (7)
-
+////// html | div.result
+/////// define
 Boss Actor ID：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
+
+///////
+/////// define
 Party Size：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Boss Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。enumeration: ActorType
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`8`
+```title='if (8)'
+[result][result_number][command_name][result_key][result_string]
+```
 
-//// tab | if (8)
-///// define
-if (8)
-
+////// html | div.result
+/////// define
 Result：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: LegacyTelemetryEventPacket::AgentResult
+- 类型：<!-- md:samp varint -->。enumeration: LegacyTelemetryEventPacket::AgentResult
 
+
+///////
+/////// define
 Result Number：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Command Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Result Key：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Result String：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (9)
-///// define
+///// tab | `Event Type`如果为`9`
+////// define
 if (9)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (10)
-///// define
+///// tab | `Event Type`如果为`10`
+////// define
 if (10)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`11`
+```title='if (11)'
+[success_count][error_count][command_name][error_list]
+```
 
-//// tab | if (11)
-///// define
-if (11)
-
+////// html | div.result
+/////// define
 Success Count：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Error Count：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Command Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Error List：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (12)
-///// define
+///// tab | `Event Type`如果为`12`
+////// define
 if (12)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`13`
+```title='if (13)'
+[born_baby:_entity_type][born_baby:_entity_variant][born_baby:_color]
+```
 
-//// tab | if (13)
-///// define
-if (13)
-
+////// html | div.result
+/////// define
 Born Baby: Entity Type：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Born Baby: Entity Variant：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Born Baby: Color：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (14)
-///// define
+///// tab | `Event Type`如果为`14`
+////// define
 if (14)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`15`
+```title='if (15)'
+[block_interaction_type][item_id]
+```
 
-//// tab | if (15)
-///// define
-if (15)
-
+////// html | div.result
+/////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: MinecraftEventing::POIBlockInteractionType
+- 类型：<!-- md:samp varint -->。enumeration: MinecraftEventing::POIBlockInteractionType
 
+
+///////
+/////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：varint。Id of the relevant item used in the interaction.
+- 类型：<!-- md:samp varint -->。Id of the relevant item used in the interaction.
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`16`
+```title='if (16)'
+[block_interaction_type][item_id]
+```
 
-//// tab | if (16)
-///// define
-if (16)
-
+////// html | div.result
+/////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: MinecraftEventing::POIBlockInteractionType
+- 类型：<!-- md:samp varint -->。enumeration: MinecraftEventing::POIBlockInteractionType
 
+
+///////
+/////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：varint。Id of the relevant item used in the interaction.
+- 类型：<!-- md:samp varint -->。Id of the relevant item used in the interaction.
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`17`
+```title='if (17)'
+[item_id]
+```
 
-//// tab | if (17)
-///// define
-if (17)
-
+////// html | div.result
+/////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：varint。Id of the relevant item used in the interaction.
+- 类型：<!-- md:samp varint -->。Id of the relevant item used in the interaction.
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`18`
+```title='if (18)'
+[event_name]
+```
 
-//// tab | if (18)
-///// define
-if (18)
-
+////// html | div.result
+/////// define
 Event Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`19`
+```title='if (19)'
+[current_raid_wave][total_raid_waves][won_raid]
+```
 
-//// tab | if (19)
-///// define
-if (19)
-
+////// html | div.result
+/////// define
 Current Raid Wave：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Total Raid Waves：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Won Raid：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (20)
-///// define
+///// tab | `Event Type`如果为`20`
+////// define
 if (20)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (21)
-///// define
+///// tab | `Event Type`如果为`21`
+////// define
 if (21)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (22)
-///// define
+///// tab | `Event Type`如果为`22`
+////// define
 if (22)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`23`
+```title='if (23)'
+[redstone_level]
+```
 
-//// tab | if (23)
-///// define
-if (23)
-
+////// html | div.result
+/////// define
 Redstone Level：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`24`
+```title='if (24)'
+[item_id][was_targeting_bartering_player]
+```
 
-//// tab | if (24)
-///// define
-if (24)
-
+////// html | div.result
+/////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+/////// define
 Was targeting bartering player：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`25`
+```title='if (25)'
+[player_waxed_or_unwaxed_copper_block_id]
+```
 
-//// tab | if (25)
-///// define
-if (25)
-
+////// html | div.result
+/////// define
 Player Waxed or Unwaxed Copper Block ID：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`26`
+```title='if (26)'
+[code_builder_runtime_action]
+```
 
-//// tab | if (26)
-///// define
-if (26)
-
+////// html | div.result
+/////// define
 Code builder runtime action：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`27`
+```title='if (27)'
+[objective_name][code_builder_scoreboard_score]
+```
 
-//// tab | if (27)
-///// define
-if (27)
-
+////// html | div.result
+/////// define
 Objective Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+/////// define
 Code Builder Scoreboard Score：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (28)
-///// define
+///// tab | `Event Type`如果为`28`
+////// define
 if (28)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (29)
-///// define
+///// tab | `Event Type`如果为`29`
+////// define
 if (29)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-//// tab | if (30)
-///// define
+///// tab | `Event Type`如果为`30`
+////// define
 if (30)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

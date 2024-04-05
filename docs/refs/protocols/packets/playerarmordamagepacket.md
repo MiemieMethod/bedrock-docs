@@ -40,16 +40,46 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PlayerArmorDamagePacket
+```title='PlayerArmorDamagePacket'
+[slots_bitset][damage_for_slot_(only_gets_written_if_bit_is_set)][damage_for_slot_(only_gets_written_if_bit_is_set)][damage_for_slot_(only_gets_written_if_bit_is_set)][damage_for_slot_(only_gets_written_if_bit_is_set)]
+```
 
+/// html | div.result
+//// define
 Slots Bitset：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////
+//// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
+Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
+
+
+////
+//// define
+Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
+
+
+////
+//// define
+Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
+
+
+////
 
 ///
+

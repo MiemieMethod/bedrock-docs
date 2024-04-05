@@ -60,48 +60,81 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateTradePacket
+```title='UpdateTradePacket'
+[container_id][container_type][size][trade_tier][target_actor_id][last_trading_player_id][display_name][use_new_trade_ui][using_economy_trade][data_tags]
+```
 
+/// html | div.result
+//// define
 Container Id：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerID
+- 类型：<!-- md:samp byte -->。enumeration: ContainerID
 
+
+////
+//// define
 Container Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ContainerType
+- 类型：<!-- md:samp byte -->。enumeration: ContainerType
 
+
+////
+//// define
 Size：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Trade Tier：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Last Trading Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Display Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Use New Trade UI：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Using Economy Trade：<!-- md:samp bool -->
 
-- 类型：bool。When set to false, it means the packet comes from the old Trade Component.
+- 类型：<!-- md:samp bool -->。When set to false, it means the packet comes from the old Trade Component.
 
+
+////
+//// define
 Data Tags：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
+
+////
 
 ///
+

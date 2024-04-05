@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MultiplayerSettingsPacket
+```title='MultiplayerSettingsPacket'
+[type]
+```
 
+/// html | div.result
+//// define
 Type：<!-- md:samp varint -->
 
-- 类型：varint。enumeration: MultiplayerSettingsPacketType
+- 类型：<!-- md:samp varint -->。enumeration: MultiplayerSettingsPacketType
 
+
+////
 
 ///
+

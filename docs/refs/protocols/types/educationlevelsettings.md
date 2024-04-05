@@ -60,48 +60,81 @@ rankdir = LR
 
 ## 字段
 
-/// define
-EducationLevelSettings
+```title='EducationLevelSettings'
+[code_builder_default_uri][code_builder_title][can_resize_code_builder][disable_legacy_title_bar][post_process_filter][screenshot_border_resource_path][agent_capabilities][code_builder_override_uri][indiciates_if_the_world_has_a_quiz_attached_to_it][external_link_settings]
+```
 
+/// html | div.result
+//// define
 Code Builder Default URI：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Code Builder Title：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Can resize Code Builder：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Disable legacy title bar：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Post Process Filter：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Screenshot Border Resource Path：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Agent Capabilities：[<!-- md:samp std::optional<struct AgentCapabilities> -->](../types/std::optional<struct_agentcapabilities>.md)
 
-- 类型：std::optional<struct AgentCapabilities>。
+////
+//// define
+Agent Capabilities：[<!-- md:samp std::optional<struct AgentCapabilities> -->](../types/std__optional_struct_agentcapabilities_.md)
 
-Code Builder Override Uri：[<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->](../types/std::optional<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_>.md)
+- 类型：<!-- md:samp std::optional<struct AgentCapabilities> -->。
 
-- 类型：std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >。
 
+////
+//// define
+Code Builder Override Uri：[<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->](../types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md)
+
+- 类型：<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->。
+
+
+////
+//// define
 Indiciates if the world has a quiz attached to it：<!-- md:samp bool -->
 
-- 类型：bool。hasQuiz was only used by old JD China EDU and has been removed
+- 类型：<!-- md:samp bool -->。hasQuiz was only used by old JD China EDU and has been removed
 
-External Link Settings：[<!-- md:samp std::optional<struct ExternalLinkSettings> -->](../types/std::optional<struct_externallinksettings>.md)
 
-- 类型：std::optional<struct ExternalLinkSettings>。
+////
+//// define
+External Link Settings：[<!-- md:samp std::optional<struct ExternalLinkSettings> -->](../types/std__optional_struct_externallinksettings_.md)
 
+- 类型：<!-- md:samp std::optional<struct ExternalLinkSettings> -->。
+
+
+////
 
 ///
+

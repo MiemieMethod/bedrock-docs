@@ -110,162 +110,230 @@ rankdir = LR
 
 ## 字段
 
-/// define
-BossEventPacket
+```title='BossEventPacket'
+[target_actor_id][event_type][dependency_on_'event_type']
+```
 
+/// html | div.result
+//// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+////
+//// define
 Event Type：<!-- md:samp int -->
 
-- 类型：int。enumeration: BossEventUpdateType
+- 类型：<!-- md:samp int -->。enumeration: BossEventUpdateType
 
-Dependency on 'Event Type'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`Event Type`
 
+///// tab | `Event Type`如果为`0`
+```title='if (0)'
+[name][health_percent][darken_screen][color][overlay]
+```
+
+////// html | div.result
+/////// define
 Name：<!-- md:samp string -->
 
-- 类型：string。Name of the boss to add
+- 类型：<!-- md:samp string -->。Name of the boss to add
 
+
+///////
+/////// define
 Health Percent：<!-- md:samp float -->
 
-- 类型：float。Health value of the boss
+- 类型：<!-- md:samp float -->。Health value of the boss
 
+
+///////
+/////// define
 Darken Screen：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。A boolean value for whether or not we should darken the screen (has a 0 or 1 value)
+- 类型：<!-- md:samp unsigned short -->。A boolean value for whether or not we should darken the screen (has a 0 or 1 value)
 
+
+///////
+/////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。color for the boss bar, listed in an enumeration
+- 类型：<!-- md:samp unsigned varint -->。color for the boss bar, listed in an enumeration
 
+
+///////
+/////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。overlay for the boss bar, listed in an enumeration
+- 类型：<!-- md:samp unsigned varint -->。overlay for the boss bar, listed in an enumeration
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`1`
+```title='if (1)'
+[player_id]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-//// tab | if (2)
-///// define
+///// tab | `Event Type`如果为`2`
+////// define
 if (2)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`3`
+```title='if (3)'
+[player_id]
+```
 
-//// tab | if (3)
-///// define
-if (3)
-
+////// html | div.result
+/////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`4`
+```title='if (4)'
+[health_percent]
+```
 
-//// tab | if (4)
-///// define
-if (4)
-
+////// html | div.result
+/////// define
 Health Percent：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`5`
+```title='if (5)'
+[name]
+```
 
-//// tab | if (5)
-///// define
-if (5)
-
+////// html | div.result
+/////// define
 Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`6`
+```title='if (6)'
+[darken_screen][color][overlay]
+```
 
-//// tab | if (6)
-///// define
-if (6)
-
+////// html | div.result
+/////// define
 Darken Screen：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
+
+///////
+/////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+///////
+/////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`7`
+```title='if (7)'
+[color][overlay]
+```
 
-//// tab | if (7)
-///// define
-if (7)
-
+////// html | div.result
+/////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+///////
+/////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
+
+///////
+
+//////
 
 /////
 
-////
+///// tab | `Event Type`如果为`8`
+```title='if (8)'
+[player_id]
+```
 
-//// tab | if (8)
-///// define
-if (8)
-
+////// html | div.result
+/////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：ActorUniqueID。
+- 类型：<!-- md:samp ActorUniqueID -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

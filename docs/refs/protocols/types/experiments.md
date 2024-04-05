@@ -48,42 +48,67 @@ rankdir = LR
 
 ## 字段
 
-/// define
-Experiments
+```title='Experiments'
+[experiments_array][were_any_experiments_ever_toggled]
+```
 
-Experiments array
+/// html | div.result
+```title='Experiments array'
+[streamed_experiment_names_size][[example_element]..]
+```
 
-//// define
+//// html | div.result
+///// define
 Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
 
-////
+/////
+```title='示例元素'
+[toggle_name][enabled][always_on_name][enabled]
+```
 
-
-//// define
-Experiments array的示例元素
-
+///// html | div.result
+////// define
 Toggle Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Enabled：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+//////
+////// define
 Always On Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
+
+
+//////
+////// define
+Enabled：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+//////
+
+/////
+
+////
+//// define
+Were Any Experiments Ever Toggled：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
 
 
 ////
 
-
-Were Any Experiments Ever Toggled：<!-- md:samp bool -->
-
-- 类型：bool。
-
-
 ///
+

@@ -154,292 +154,379 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CompoundTag
+```title='CompoundTag'
+[tag_type][dependency_on_'if_'tag_type'_is_0']
+```
 
+/// html | div.result
+//// define
 Tag Type：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Tag::Type
+- 类型：<!-- md:samp byte -->。enumeration: Tag::Type
 
-Dependency on 'if 'Tag Type' is 0'
 
-//// tab | if (0)
-///// define
-if (0)
+////
+> 依赖于`if 'Tag Type' is 0`
 
+///// tab | `if 'Tag Type' is 0`如果为`0`
+```title='if (0)'
+[tag_name][dependency_on_'tag_type']
+```
+
+////// html | div.result
+/////// define
 Tag Name：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Dependency on 'Tag Type'
 
-////// tab | if (0)
-/////// define
+///////
+> 依赖于`Tag Type`
+
+//////// tab | `Tag Type`如果为`0`
+///////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
 
-///////
+/////////
 
-//////
+////////
 
-////// tab | if (1)
-/////// define
-if (1)
+//////// tab | `Tag Type`如果为`1`
+```title='if (1)'
+[tag_value]
+```
 
+///////// html | div.result
+////////// define
 Tag Value：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
 
-///////
+//////////
 
-//////
+/////////
 
-////// tab | if (2)
-/////// define
-if (2)
+////////
 
+//////// tab | `Tag Type`如果为`2`
+```title='if (2)'
+[tag_value]
+```
+
+///////// html | div.result
+////////// define
 Tag Value：<!-- md:samp short -->
 
-- 类型：short。
+- 类型：<!-- md:samp short -->。
 
 
-///////
+//////////
 
-//////
+/////////
 
-////// tab | if (3)
-/////// define
-if (3)
+////////
 
+//////// tab | `Tag Type`如果为`3`
+```title='if (3)'
+[tag_value]
+```
+
+///////// html | div.result
+////////// define
 Tag Value：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
 
-///////
+//////////
 
-//////
+/////////
 
-////// tab | if (4)
-/////// define
-if (4)
+////////
 
+//////// tab | `Tag Type`如果为`4`
+```title='if (4)'
+[tag_value]
+```
+
+///////// html | div.result
+////////// define
 Tag Value：<!-- md:samp varint64 -->
 
-- 类型：varint64。
+- 类型：<!-- md:samp varint64 -->。
 
 
-///////
+//////////
 
-//////
+/////////
 
-////// tab | if (5)
-/////// define
-if (5)
+////////
 
+//////// tab | `Tag Type`如果为`5`
+```title='if (5)'
+[tag_value]
+```
+
+///////// html | div.result
+////////// define
 Tag Value：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
 
-///////
+//////////
 
-//////
+/////////
 
-////// tab | if (6)
-/////// define
-if (6)
+////////
 
+//////// tab | `Tag Type`如果为`6`
+```title='if (6)'
+[tag_value]
+```
+
+///////// html | div.result
+////////// define
 Tag Value：<!-- md:samp double -->
 
-- 类型：double。
+- 类型：<!-- md:samp double -->。
 
 
-///////
+//////////
 
-//////
-
-////// tab | if (7)
-/////// define
-if (7)
-
-Byte Array
-
-//////// define
-Byte Array数组的大小：<!-- md:samp varint -->
-
-- 类型：varint。
-
+/////////
 
 ////////
 
+//////// tab | `Tag Type`如果为`7`
+```title='if (7)'
+[byte_array]
+```
 
-//////// define
-Byte Array的示例元素
+///////// html | div.result
+```title='Byte Array'
+[array_size][[example_element]..]
+```
 
+////////// html | div.result
+/////////// define
+数组大小：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
+
+
+///////////
+```title='示例元素'
+[byte_data]
+```
+
+/////////// html | div.result
+//////////// define
 Byte Data：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
+
+////////////
+
+///////////
+
+//////////
+
+/////////
 
 ////////
 
+//////// tab | `Tag Type`如果为`8`
+```title='if (8)'
+[tag_value]
+```
 
-
-///////
-
-//////
-
-////// tab | if (8)
-/////// define
-if (8)
-
+///////// html | div.result
+////////// define
 Tag Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
 
-///////
+//////////
 
-//////
+/////////
 
-////// tab | if (9)
-/////// define
-if (9)
+////////
 
-Dependency on 'if empty list'
+//////// tab | `Tag Type`如果为`9`
+```title='if (9)'
+[dependency_on_'if_empty_list'][tag_array]
+```
 
-//////// tab | if (0)
-///////// define
-if (0)
+///////// html | div.result
+> 依赖于`if empty list`
 
+/////////// tab | `if empty list`如果为`0`
+```title='if (0)'
+[tag_type_for_list]
+```
+
+//////////// html | div.result
+///////////// define
 Tag Type for list：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Tag::Type
+- 类型：<!-- md:samp byte -->。enumeration: Tag::Type
 
 
-/////////
+/////////////
 
-////////
+////////////
 
-//////// tab | if (1)
-///////// define
-if (1)
+///////////
 
+/////////// tab | `if empty list`如果为`1`
+```title='if (1)'
+[tag_type_(must_be_1)]
+```
+
+//////////// html | div.result
+///////////// define
 Tag Type (must be 1)：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: Tag::Type
+- 类型：<!-- md:samp byte -->。enumeration: Tag::Type
 
+
+/////////////
+
+////////////
+
+///////////
+```title='Tag Array'
+[array_size][[example_element]..]
+```
+
+////////// html | div.result
+/////////// define
+数组大小：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
+
+
+///////////
+```title='示例元素'
+[tag_(recursive)]
+```
+
+/////////// html | div.result
+//////////// define
+Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
+
+- 类型：<!-- md:samp CompoundTag -->。
+
+
+////////////
+
+///////////
+
+//////////
 
 /////////
 
 ////////
 
+//////// tab | `Tag Type`如果为`10`
+```title='if (10)'
+[tag_array][end_(must_be_0)]
+```
 
-Tag Array
+///////// html | div.result
+```title='Tag Array'
+[[example_element]..]
+```
 
-//////// define
-Tag Array数组的大小：<!-- md:samp varint -->
+////////// html | div.result
+```title='示例元素'
+[tag_(recursive)]
+```
 
-- 类型：varint。
-
-
-////////
-
-
-//////// define
-Tag Array的示例元素
-
+/////////// html | div.result
+//////////// define
 Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。
+- 类型：<!-- md:samp CompoundTag -->。
 
 
-////////
+////////////
 
+///////////
 
-
-///////
-
-//////
-
-////// tab | if (10)
-/////// define
-if (10)
-
-Tag Array
-
-//////// define
-Tag Array的示例元素
-
-Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
-
-- 类型：CompoundTag。
-
-
-////////
-
-
+//////////
+////////// define
 End (must be 0)：<!-- md:samp byte -->
 
-- 类型：byte。
+- 类型：<!-- md:samp byte -->。
 
 
-///////
+//////////
 
-//////
-
-////// tab | if (11)
-/////// define
-if (11)
-
-Int Array
-
-//////// define
-Int Array数组的大小：<!-- md:samp varint -->
-
-- 类型：varint。
-
+/////////
 
 ////////
 
+//////// tab | `Tag Type`如果为`11`
+```title='if (11)'
+[int_array]
+```
 
-//////// define
-Int Array的示例元素
+///////// html | div.result
+```title='Int Array'
+[array_size][[example_element]..]
+```
 
+////////// html | div.result
+/////////// define
+数组大小：<!-- md:samp varint -->
+
+- 类型：<!-- md:samp varint -->。
+
+
+///////////
+```title='示例元素'
+[int_data]
+```
+
+/////////// html | div.result
+//////////// define
 Int Data：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////////////
+
+///////////
+
+//////////
+
+/////////
 
 ////////
 
+//////
 
+/////
 
-///////
+///// tab | `if 'Tag Type' is 0`如果为`1`
+////// define
+if (1)：<!-- md:samp [No Data] -->
+
+- 无数据。
+
 
 //////
 
-
-
 /////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)：<!-- md:samp [No Data] -->
-
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-
 
 ///
+

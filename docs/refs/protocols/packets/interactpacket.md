@@ -48,51 +48,69 @@ rankdir = LR
 
 ## 字段
 
-/// define
-InteractPacket
+```title='InteractPacket'
+[action][target_runtime_id][dependency_on_'action_==_interactupdate_||_action_==_stopriding']
+```
 
+/// html | div.result
+//// define
 Action：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: InteractPacket::Action
+- 类型：<!-- md:samp byte -->。enumeration: InteractPacket::Action
 
+
+////
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
-Dependency on 'Action == InteractUpdate || Action == StopRiding'
 
-//// tab | if (0)
-///// define
+////
+> 依赖于`Action == InteractUpdate || Action == StopRiding`
+
+///// tab | `Action == InteractUpdate || Action == StopRiding`如果为`0`
+////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 类型：[No Data]。
+- 无数据。
 
+
+//////
 
 /////
 
-////
+///// tab | `Action == InteractUpdate || Action == StopRiding`如果为`1`
+```title='if (1)'
+[position_x][position_y][position_z]
+```
 
-//// tab | if (1)
-///// define
-if (1)
-
+////// html | div.result
+/////// define
 Position X：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+/////// define
 Position Y：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+/////// define
 Position Z：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+///////
+
+//////
 
 /////
 
-////
-
-
-
 ///
+

@@ -256,413 +256,554 @@ rankdir = LR
 
 ## 字段
 
-/// define
-AvailableCommandsPacket
+```title='AvailableCommandsPacket'
+[enum_values][enum_values][post_fixes][enum_data][chained_subcommand_data][commands][soft_enums][constraints]
+```
 
-Enum Values
+/// html | div.result
+```title='Enum Values'
+[array_size][[example_element]..]
+```
 
-//// define
-Enum Values数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Enum Values的示例元素
+/////
+```title='示例元素'
+[value]
+```
 
+///// html | div.result
+////// define
 Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
+```title='Enum Values'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Enum Values的示例元素
+/////
+```title='示例元素'
+[chained_subcommand_values]
+```
 
+///// html | div.result
+////// define
 Chained Subcommand Values：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
 
-////
+//////
 
-
-Post Fixes
-
-//// define
-Post Fixes数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+/////
 
 ////
+```title='Post Fixes'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Post Fixes的示例元素
+/////
+```title='示例元素'
+[post_fix]
+```
 
+///// html | div.result
+////// define
 Post Fix：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
 
-////
-
-
-Enum Data
-
-//// define
-Enum Data数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-////
-
-
-//// define
-Enum Data的示例元素
-
-Name：<!-- md:samp string -->
-
-- 类型：string。
-
-Values
-
-///// define
-Values数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
+//////
 
 /////
 
+////
+```title='Enum Data'
+[array_size][[example_element]..]
+```
 
+//// html | div.result
 ///// define
-Values的示例元素
+数组大小：<!-- md:samp unsigned varint -->
 
-Dependency on 'Enum Values Size <= 256'
+- 类型：<!-- md:samp unsigned varint -->。
 
-////// tab | if (0)
+
+/////
+```title='示例元素'
+[name][values]
+```
+
+///// html | div.result
+////// define
+Name：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+//////
+```title='Values'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
 /////// define
-if (0)
+数组大小：<!-- md:samp unsigned varint -->
 
-Dependency on 'Enum Values Size <= 65536'
+- 类型：<!-- md:samp unsigned varint -->。
 
-//////// tab | if (0)
-///////// define
-if (0)
 
+///////
+```title='示例元素'
+[dependency_on_'enum_values_size_<=_256']
+```
+
+/////// html | div.result
+> 依赖于`Enum Values Size <= 256`
+
+///////// tab | `Enum Values Size <= 256`如果为`0`
+```title='if (0)'
+[dependency_on_'enum_values_size_<=_65536']
+```
+
+////////// html | div.result
+> 依赖于`Enum Values Size <= 65536`
+
+//////////// tab | `Enum Values Size <= 65536`如果为`0`
+```title='if (0)'
+[enum_value]
+```
+
+///////////// html | div.result
+////////////// define
 Enum Value：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
 
-/////////
+//////////////
 
-////////
+/////////////
 
-//////// tab | if (1)
-///////// define
-if (1)
+////////////
 
+//////////// tab | `Enum Values Size <= 65536`如果为`1`
+```title='if (1)'
+[enum_value]
+```
+
+///////////// html | div.result
+////////////// define
 Enum Value：<!-- md:samp unsigned short -->
 
-- 类型：unsigned short。
+- 类型：<!-- md:samp unsigned short -->。
 
+
+//////////////
+
+/////////////
+
+////////////
+
+//////////
+
+/////////
+
+///////// tab | `Enum Values Size <= 256`如果为`1`
+```title='if (1)'
+[enum_value]
+```
+
+////////// html | div.result
+/////////// define
+Enum Value：<!-- md:samp byte -->
+
+- 类型：<!-- md:samp byte -->。
+
+
+///////////
+
+//////////
+
+/////////
+
+///////
+
+//////
+
+/////
+
+////
+```title='Chained Subcommand Data'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+/////
+```title='示例元素'
+[subcommand_name][subcommand_values]
+```
+
+///// html | div.result
+////// define
+SubCommand Name：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+//////
+```title='SubCommand values'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+///////
+```title='示例元素'
+[subcommand_first_value][subcommand_second_value]
+```
+
+/////// html | div.result
+//////// define
+SubCommand First Value：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
+
+
+////////
+//////// define
+SubCommand Second Value：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
+
+
+////////
+
+///////
+
+//////
+
+/////
+
+////
+```title='Commands'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+/////
+```title='示例元素'
+[name][description][flags][permission_level][alias_enum][commanddata_chained_subcommand_indexes][overloads]
+```
+
+///// html | div.result
+////// define
+Name：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+//////
+////// define
+Description：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+//////
+////// define
+Flags：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
+
+
+//////
+////// define
+Permission Level：<!-- md:samp byte -->
+
+- 类型：<!-- md:samp byte -->。enumeration: CommandPermissionLevel
+
+
+//////
+////// define
+Alias Enum：<!-- md:samp int -->
+
+- 类型：<!-- md:samp int -->。
+
+
+//////
+```title='CommandData Chained Subcommand Indexes'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+///////
+```title='示例元素'
+[index]
+```
+
+/////// html | div.result
+//////// define
+Index：<!-- md:samp unsigned short -->
+
+- 类型：<!-- md:samp unsigned short -->。
+
+
+////////
+
+///////
+
+//////
+```title='Overloads'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+///////
+```title='示例元素'
+[ischaining][parameter_data]
+```
+
+/////// html | div.result
+//////// define
+isChaining：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+////////
+```title='Parameter Data'
+[array_size][[example_element]..]
+```
+
+//////// html | div.result
+///////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+/////////
+```title='示例元素'
+[name][parse_symbol][is_optional?][options]
+```
+
+///////// html | div.result
+////////// define
+Name：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。
+
+
+//////////
+////////// define
+Parse Symbol：<!-- md:samp unsigned int -->
+
+- 类型：<!-- md:samp unsigned int -->。
+
+
+//////////
+////////// define
+Is Optional?：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+//////////
+////////// define
+Options：<!-- md:samp byte -->
+
+- 类型：<!-- md:samp byte -->。
+
+
+//////////
 
 /////////
 
 ////////
 
-
-
 ///////
 
 //////
 
-////// tab | if (1)
-/////// define
-if (1)
-
-Enum Value：<!-- md:samp byte -->
-
-- 类型：byte。
-
-
-///////
-
-//////
-
-
-
 /////
-
-
 
 ////
+```title='Soft Enums'
+[array_size][[example_element]..]
+```
 
-
-Chained Subcommand Data
-
-//// define
-Chained Subcommand Data数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-////
-
-
-//// define
-Chained Subcommand Data的示例元素
-
-SubCommand Name：<!-- md:samp string -->
-
-- 类型：string。
-
-SubCommand values
-
+//// html | div.result
 ///// define
-SubCommand values数组的大小：<!-- md:samp unsigned varint -->
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned varint -->。
 
 
 /////
+```title='示例元素'
+[enum_name][enum_options]
+```
 
-
-///// define
-SubCommand values的示例元素
-
-SubCommand First Value：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
-
-SubCommand Second Value：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
-
-
-/////
-
-
-
-////
-
-
-Commands
-
-//// define
-Commands数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-////
-
-
-//// define
-Commands的示例元素
-
-Name：<!-- md:samp string -->
-
-- 类型：string。
-
-Description：<!-- md:samp string -->
-
-- 类型：string。
-
-Flags：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
-
-Permission Level：<!-- md:samp byte -->
-
-- 类型：byte。enumeration: CommandPermissionLevel
-
-Alias Enum：<!-- md:samp int -->
-
-- 类型：int。
-
-CommandData Chained Subcommand Indexes
-
-///// define
-CommandData Chained Subcommand Indexes数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-/////
-
-
-///// define
-CommandData Chained Subcommand Indexes的示例元素
-
-Index：<!-- md:samp unsigned short -->
-
-- 类型：unsigned short。
-
-
-/////
-
-
-Overloads
-
-///// define
-Overloads数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-/////
-
-
-///// define
-Overloads的示例元素
-
-isChaining：<!-- md:samp bool -->
-
-- 类型：bool。
-
-Parameter Data
-
+///// html | div.result
 ////// define
-Parameter Data数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-//////
-
-
-////// define
-Parameter Data的示例元素
-
-Name：<!-- md:samp string -->
-
-- 类型：string。
-
-Parse Symbol：<!-- md:samp unsigned int -->
-
-- 类型：unsigned int。
-
-Is Optional?：<!-- md:samp bool -->
-
-- 类型：bool。
-
-Options：<!-- md:samp byte -->
-
-- 类型：byte。
-
-
-//////
-
-
-
-/////
-
-
-
-////
-
-
-Soft Enums
-
-//// define
-Soft Enums数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-////
-
-
-//// define
-Soft Enums的示例元素
-
 Enum Name：<!-- md:samp string -->
 
-- 类型：string。
-
-Enum Options
-
-///// define
-Enum Options数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp string -->。
 
 
-/////
+//////
+```title='Enum Options'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-///// define
-Enum Options的示例元素
+///////
+```title='示例元素'
+[value]
+```
 
+/////// html | div.result
+//////// define
 Value：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////////
+
+///////
+
+//////
 
 /////
 
-
-
 ////
+```title='Constraints'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-Constraints
+/////
+```title='示例元素'
+[enum_value_symbol][enum_symbol][constraint_indices]
+```
 
-//// define
-Constraints数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
-
-
-////
-
-
-//// define
-Constraints的示例元素
-
+///// html | div.result
+////// define
 Enum Value Symbol：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。Symbol in the command parser representing this enum's value.
+- 类型：<!-- md:samp unsigned int -->。Symbol in the command parser representing this enum's value.
 
+
+//////
+////// define
 Enum Symbol：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。Symbol in the command parser representing this enum.
-
-Constraint Indices
-
-///// define
-Constraint Indices数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp unsigned int -->。Symbol in the command parser representing this enum.
 
 
-/////
+//////
+```title='Constraint Indices'
+[array_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-///// define
-Constraint Indices的示例元素
+///////
+```title='示例元素'
+[semantic_constraint_index]
+```
 
+/////// html | div.result
+//////// define
 Semantic Constraint Index：<!-- md:samp byte -->
 
-- 类型：byte。Index of the semantic constraint within the command parser.
+- 类型：<!-- md:samp byte -->。Index of the semantic constraint within the command parser.
 
+
+////////
+
+///////
+
+//////
 
 /////
-
-
 
 ////
 
-
-
 ///
+

@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemStackNetIdVariant
+```title='ItemStackNetIdVariant'
+[raw_id_(32_bit_signed)]
+```
 
+/// html | div.result
+//// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

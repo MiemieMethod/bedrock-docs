@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-PositionTrackingId
+```title='PositionTrackingId'
+[value]
+```
 
+/// html | div.result
+//// define
 Value：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

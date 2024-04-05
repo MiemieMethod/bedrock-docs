@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-UpdateAbilitiesPacket
+```title='UpdateAbilitiesPacket'
+[data]
+```
 
+/// html | div.result
+//// define
 Data：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedabilitiesdata.md)
 
-- 类型：SerializedAbilitiesData。
+- 类型：<!-- md:samp SerializedAbilitiesData -->。
 
+
+////
 
 ///
+

@@ -32,20 +32,32 @@ rankdir = LR
 
 ## 字段
 
-/// define
-CameraInstruction
+```title='CameraInstruction'
+[set][clear][fade]
+```
 
-Set：[<!-- md:samp std::optional<struct CameraInstruction::SetInstruction> -->](../types/std::optional<struct_camerainstruction::setinstruction>.md)
+/// html | div.result
+//// define
+Set：[<!-- md:samp std::optional<struct CameraInstruction::SetInstruction> -->](../types/std__optional_struct_camerainstruction__setinstruction_.md)
 
-- 类型：std::optional<struct CameraInstruction::SetInstruction>。
+- 类型：<!-- md:samp std::optional<struct CameraInstruction::SetInstruction> -->。
 
-Clear：[<!-- md:samp std::optional<bool> -->](../types/std::optional<bool>.md)
 
-- 类型：std::optional<bool>。
+////
+//// define
+Clear：[<!-- md:samp std::optional<bool> -->](../types/std__optional_bool_.md)
 
-Fade：[<!-- md:samp std::optional<struct CameraInstruction::FadeInstruction> -->](../types/std::optional<struct_camerainstruction::fadeinstruction>.md)
+- 类型：<!-- md:samp std::optional<bool> -->。
 
-- 类型：std::optional<struct CameraInstruction::FadeInstruction>。
 
+////
+//// define
+Fade：[<!-- md:samp std::optional<struct CameraInstruction::FadeInstruction> -->](../types/std__optional_struct_camerainstruction__fadeinstruction_.md)
+
+- 类型：<!-- md:samp std::optional<struct CameraInstruction::FadeInstruction> -->。
+
+
+////
 
 ///
+

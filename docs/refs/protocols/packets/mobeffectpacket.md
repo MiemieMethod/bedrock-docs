@@ -48,36 +48,60 @@ rankdir = LR
 
 ## 字段
 
-/// define
-MobEffectPacket
+```title='MobEffectPacket'
+[target_runtime_id][event_id][effect_id][effect_amplifier][show_particles][effect_duration_ticks][tick]
+```
 
+/// html | div.result
+//// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：ActorRuntimeID。
+- 类型：<!-- md:samp ActorRuntimeID -->。
 
+
+////
+//// define
 Event ID：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: MobEffectPacket::Event
+- 类型：<!-- md:samp byte -->。enumeration: MobEffectPacket::Event
 
+
+////
+//// define
 Effect ID：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Effect Amplifier：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Show Particles：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+////
+//// define
 Effect Duration Ticks：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
+//// define
 Tick：<!-- md:samp unsigned int64 -->
 
-- 类型：unsigned int64。
+- 类型：<!-- md:samp unsigned int64 -->。
 
+
+////
 
 ///
+

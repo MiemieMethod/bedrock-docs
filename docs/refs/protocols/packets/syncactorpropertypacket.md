@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SyncActorPropertyPacket
+```title='SyncActorPropertyPacket'
+[property_data]
+```
 
+/// html | div.result
+//// define
 Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：CompoundTag。type: actor 'id'entifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag
+- 类型：<!-- md:samp CompoundTag -->。type: actor 'id'entifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag
 
+
+////
 
 ///
+

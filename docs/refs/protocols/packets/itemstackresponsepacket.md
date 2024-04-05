@@ -32,30 +32,39 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemStackResponsePacket
+```title='ItemStackResponsePacket'
+[responses]
+```
 
-Responses
+/// html | div.result
+```title='Responses'
+[array_size][[example_element]..]
+```
 
-//// define
-Responses数组的大小：<!-- md:samp unsigned varint -->
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：unsigned varint。
-
-
-////
+- 类型：<!-- md:samp unsigned varint -->。
 
 
-//// define
-Responses的示例元素
+/////
+```title='示例元素'
+[response_info]
+```
 
+///// html | div.result
+////// define
 Response Info：[<!-- md:samp ItemStackResponseInfo -->](../types/itemstackresponseinfo.md)
 
-- 类型：ItemStackResponseInfo。
+- 类型：<!-- md:samp ItemStackResponseInfo -->。
 
+
+//////
+
+/////
 
 ////
 
-
-
 ///
+

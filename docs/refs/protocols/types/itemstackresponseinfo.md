@@ -48,61 +48,76 @@ rankdir = LR
 
 ## 字段
 
-/// define
-ItemStackResponseInfo
+```title='ItemStackResponseInfo'
+[result][client_request_id][dependency_on_'itemstacknetresult']
+```
 
+/// html | div.result
+//// define
 Result：<!-- md:samp byte -->
 
-- 类型：byte。enumeration: ItemStackNetResult
-
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid<struct_itemstackrequestidtag,int,0>.md)
-
-- 类型：TypedClientNetId<struct ItemStackRequestIdTag,int,0>。
-
-Dependency on 'ItemStackNetResult'
-
-//// tab | if (0)
-///// define
-if (0)
-
-Containers
-
-////// define
-Containers数组的大小：<!-- md:samp unsigned varint -->
-
-- 类型：unsigned varint。
+- 类型：<!-- md:samp byte -->。enumeration: ItemStackNetResult
 
 
-//////
+////
+//// define
+Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
+
+- 类型：<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->。
 
 
-////// define
-Containers的示例元素
+////
+> 依赖于`ItemStackNetResult`
 
+///// tab | `ItemStackNetResult`如果为`0`
+```title='if (0)'
+[containers]
+```
+
+////// html | div.result
+```title='Containers'
+[array_size][[example_element]..]
+```
+
+/////// html | div.result
+//////// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 类型：<!-- md:samp unsigned varint -->。
+
+
+////////
+```title='示例元素'
+[container_info]
+```
+
+//////// html | div.result
+///////// define
 Container Info：[<!-- md:samp ItemStackResponseContainerInfo -->](../types/itemstackresponsecontainerinfo.md)
 
-- 类型：ItemStackResponseContainerInfo。
+- 类型：<!-- md:samp ItemStackResponseContainerInfo -->。
+
+
+/////////
+
+////////
+
+///////
+
+//////
+
+/////
+
+///// tab | `ItemStackNetResult`如果为`1`
+////// define
+if (1)：<!-- md:samp [No Data] -->
+
+- 无数据。
 
 
 //////
 
-
-
 /////
-
-////
-
-//// tab | if (1)
-///// define
-if (1)：<!-- md:samp [No Data] -->
-
-- 类型：[No Data]。
-
-
-/////
-
-////
-
-
 
 ///
+

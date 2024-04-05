@@ -24,12 +24,18 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SetTimePacket
+```title='SetTimePacket'
+[time]
+```
 
+/// html | div.result
+//// define
 Time：<!-- md:samp varint -->
 
-- 类型：varint。
+- 类型：<!-- md:samp varint -->。
 
+
+////
 
 ///
+

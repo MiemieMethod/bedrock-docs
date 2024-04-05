@@ -200,216 +200,354 @@ rankdir = LR
 
 ## 字段
 
-/// define
-SerializedSkin
+```title='SerializedSkin'
+[skin_id][playfab_id][skin_resource_patch][skin_image_width][skin_image_height][skin_image_image_bytes][animations][capeimage_width][capeimage_height][capeimage_imagebytes][geometrydata][geometry_data_engine_version][animationdata][cape_id][full_id][arm_size][skin_color][persona_pieces][piece_tint_colors][is_premium_skin][is_persona_skin][is_persona_cape_on_classic_skin][is_primary_user][moverridesplayerappearance]
+```
 
+/// html | div.result
+//// define
 Skin Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 PlayFab Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Skin Resource Patch：<!-- md:samp string -->
 
-- 类型：string。Represents a json blob that contains information about geometry, animations, animation controllers, and attachables, that can be applied to a skin when deserializing.
+- 类型：<!-- md:samp string -->。Represents a json blob that contains information about geometry, animations, animation controllers, and attachables, that can be applied to a skin when deserializing.
 
+
+////
+//// define
 Skin Image Width：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 Skin Image Height：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 Skin Image Image Bytes：<!-- md:samp string -->
 
-- 类型：string。Serialized into a string
+- 类型：<!-- md:samp string -->。Serialized into a string
 
-Animations
 
-//// define
+////
+```title='Animations'
+[skin_animated_images_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
 Skin Animated Images Size：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。Animation count
+- 类型：<!-- md:samp unsigned int -->。Animation count
 
 
-////
+/////
+```title='示例元素'
+[image_width][image_height][image_bytes][animation_type][frame_count][animation_expression]
+```
 
-
-//// define
-Animations的示例元素
-
+///// html | div.result
+////// define
 Image Width：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+//////
+////// define
 Image Height：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+//////
+////// define
 Image Bytes：<!-- md:samp string -->
 
-- 类型：string。Serialized into a string
+- 类型：<!-- md:samp string -->。Serialized into a string
 
+
+//////
+////// define
 Animation Type：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。enumeration: persona::AnimatedTextureType
+- 类型：<!-- md:samp unsigned int -->。enumeration: persona::AnimatedTextureType
 
+
+//////
+////// define
 Frame Count：<!-- md:samp float -->
 
-- 类型：float。
+- 类型：<!-- md:samp float -->。
 
+
+//////
+////// define
 Animation Expression：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。enumeration: persona::AnimationExpression
+- 类型：<!-- md:samp unsigned int -->。enumeration: persona::AnimationExpression
 
+
+//////
+
+/////
 
 ////
-
-
+//// define
 CapeImage Width：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 CapeImage Height：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
+
+////
+//// define
 CapeImage ImageBytes：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 GeometryData：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Geometry Data Engine Version：<!-- md:samp string -->
 
-- 类型：string。Semantic version
+- 类型：<!-- md:samp string -->。Semantic version
 
+
+////
+//// define
 AnimationData：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Cape Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Full Id：<!-- md:samp string -->
 
-- 类型：string。Uniquely 'id'entifies a Skin for a player. Skin Pack ID + Skin Id are no longer sufficient, as different players may have the same Classic Skin but different Capes on each of them.
+- 类型：<!-- md:samp string -->。Uniquely 'id'entifies a Skin for a player. Skin Pack ID + Skin Id are no longer sufficient, as different players may have the same Classic Skin but different Capes on each of them.
 
+
+////
+//// define
 Arm Size：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+////
+//// define
 Skin color：<!-- md:samp string -->
 
-- 类型：string。to hex string
+- 类型：<!-- md:samp string -->。to hex string
 
-Persona Pieces
 
-//// define
+////
+```title='Persona Pieces'
+[persona_pieces_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
 Persona pieces size：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
 
-////
+/////
+```title='示例元素'
+[piece_id][piece_type][pack_id][is_default_piece][product_id]
+```
 
-
-//// define
-Persona Pieces的示例元素
-
+///// html | div.result
+////// define
 Piece Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Piece Type：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Pack Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+////// define
 Is Default Piece：<!-- md:samp bool -->
 
-- 类型：bool。
+- 类型：<!-- md:samp bool -->。
 
+
+//////
+////// define
 Product Id：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
+
+//////
+
+/////
 
 ////
+```title='Piece Tint Colors'
+[tint_colors_size][[example_element]..]
+```
 
-
-Piece Tint Colors
-
-//// define
+//// html | div.result
+///// define
 Tint Colors Size：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
 
-////
+/////
+```title='示例元素'
+[piece_type][piece_tint_colors]
+```
 
-
-//// define
-Piece Tint Colors的示例元素
-
+///// html | div.result
+////// define
 Piece Type：<!-- md:samp string -->
 
-- 类型：string。
+- 类型：<!-- md:samp string -->。
 
-Piece Tint Colors
 
-///// define
+//////
+```title='Piece Tint Colors'
+[piece_type_tint_colors_size][[example_element]..]
+```
+
+////// html | div.result
+/////// define
 Piece Type Tint Colors Size：<!-- md:samp unsigned int -->
 
-- 类型：unsigned int。
+- 类型：<!-- md:samp unsigned int -->。
 
 
-/////
+///////
+```title='示例元素'
+[tint_color][tint_color][tint_color][tint_color]
+```
 
-
-///// define
-Piece Tint Colors的示例元素
-
+/////// html | div.result
+//////// define
 Tint Color：<!-- md:samp string -->
 
-- 类型：string。To hex string
+- 类型：<!-- md:samp string -->。To hex string
 
+
+////////
+//////// define
+Tint Color：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。To hex string
+
+
+////////
+//////// define
+Tint Color：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。To hex string
+
+
+////////
+//////// define
+Tint Color：<!-- md:samp string -->
+
+- 类型：<!-- md:samp string -->。To hex string
+
+
+////////
+
+///////
+
+//////
 
 /////
 
+////
+//// define
+Is Premium Skin：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+////
+//// define
+Is Persona Skin：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。Whether a skin is a Classic Skin or Persona Skin
+
+
+////
+//// define
+Is Persona Cape On Classic Skin：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。True if this a classic skin that has a Persona Cape equipped on it, false otherwise.
+
+
+////
+//// define
+Is Primary User：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
+
+
+////
+//// define
+mOverridesPlayerAppearance：<!-- md:samp bool -->
+
+- 类型：<!-- md:samp bool -->。
 
 
 ////
 
-
-Is Premium Skin：<!-- md:samp bool -->
-
-- 类型：bool。
-
-Is Persona Skin：<!-- md:samp bool -->
-
-- 类型：bool。Whether a skin is a Classic Skin or Persona Skin
-
-Is Persona Cape On Classic Skin：<!-- md:samp bool -->
-
-- 类型：bool。True if this a classic skin that has a Persona Cape equipped on it, false otherwise.
-
-Is Primary User：<!-- md:samp bool -->
-
-- 类型：bool。
-
-mOverridesPlayerAppearance：<!-- md:samp bool -->
-
-- 类型：bool。
-
-
 ///
+

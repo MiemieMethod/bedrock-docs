@@ -1,8 +1,8 @@
-# <!-- md:samp std::optional<class MolangVariableMap> -->
+# <!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp std::optional<class MolangVariableMap> -->类型。
+<!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->类型。
 
 ## 结构
 
@@ -28,16 +28,25 @@ rankdir = LR
 
 ## 字段
 
-/// define
-std::optional<class MolangVariableMap>
+```title='std::optional<class MolangVariableMap>'
+[has_value][value]
+```
 
+/// html | div.result
+//// define
 Has Value：<!-- md:samp bool -->
 
-- 类型：bool。If true, follow with appropriate data type, otherwise nothing
+- 类型：<!-- md:samp bool -->。If true, follow with appropriate data type, otherwise nothing
 
+
+////
+//// define
 Value：[<!-- md:samp MolangVariableMap -->](../types/molangvariablemap.md)
 
-- 类型：MolangVariableMap。
+- 类型：<!-- md:samp MolangVariableMap -->。
 
+
+////
 
 ///
+
