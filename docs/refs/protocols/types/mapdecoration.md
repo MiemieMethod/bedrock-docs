@@ -45,7 +45,7 @@ rankdir = LR
 ## 字段
 
 ```title='MapDecoration'
-[map_decoration_type][rotation][x][y][label][color_-_argb]
+[map_decoration_type][rotation][x][y][label][color_argb]
 ```
 
 /// html | div.result

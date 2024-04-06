@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<struct CameraInstruction::SetInstruction>'
+```title='std::optional&lt;struct CameraInstruction::SetInstruction&gt;'
 [has_value]
 ```
 

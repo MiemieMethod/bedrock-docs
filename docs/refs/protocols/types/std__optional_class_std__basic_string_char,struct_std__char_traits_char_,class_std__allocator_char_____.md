@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >'
+```title='std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt;'
 [has_value]
 ```
 

@@ -25,7 +25,7 @@ rankdir = LR
 ## 字段
 
 ```title='ItemStackNetIdVariant'
-[raw_id_(32_bit_signed)]
+[raw_id]
 ```
 
 /// html | div.result

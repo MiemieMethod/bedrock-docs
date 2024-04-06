@@ -45,7 +45,7 @@ rankdir = LR
 ## 字段
 
 ```title='PotionMixDataEntry'
-[from_potion:_input_-_potion_id][from_item_aux][reagent_item_id][reagent_item_aux][to_potion:_output_-_potion_id][to_item_aux]
+[from_potion:_input_potion_id][from_item_aux][reagent_item_id][reagent_item_aux][to_potion:_output_potion_id][to_item_aux]
 ```
 
 /// html | div.result

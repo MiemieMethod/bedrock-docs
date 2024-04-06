@@ -41,7 +41,7 @@ rankdir = LR
 ## 字段
 
 ```title='PlayerArmorDamagePacket'
-[slots_bitset][damage_for_slot_(only_gets_written_if_bit_is_set)][damage_for_slot_(only_gets_written_if_bit_is_set)][damage_for_slot_(only_gets_written_if_bit_is_set)][damage_for_slot_(only_gets_written_if_bit_is_set)]
+[slots_bitset][damage_for_slot][damage_for_slot][damage_for_slot][damage_for_slot]
 ```
 
 /// html | div.result

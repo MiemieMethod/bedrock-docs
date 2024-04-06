@@ -166,9 +166,9 @@ Shapeless Recipe：[<!-- md:samp ShapelessRecipe -->](../types/shapelessrecipe.m
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////
@@ -191,9 +191,9 @@ Shaped Recipe：[<!-- md:samp ShapedRecipe -->](../types/shapedrecipe.md)
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////
@@ -287,9 +287,9 @@ Multi-Recipe：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////
@@ -312,9 +312,9 @@ Shulker Box Recipe：[<!-- md:samp ShulkerBoxRecipe -->](../types/shulkerboxreci
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////
@@ -337,9 +337,9 @@ Shapeless Chemistry Recipe：[<!-- md:samp ShapelessChemistryRecipe -->](../type
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////
@@ -362,9 +362,9 @@ Shaped Chemistry Recipe：[<!-- md:samp ShapedChemistryRecipe -->](../types/shap
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////
@@ -387,9 +387,9 @@ Smithing Transform Recipe：[<!-- md:samp SmithingTransformRecipe -->](../types/
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////
@@ -412,9 +412,9 @@ Smithing Trim Recipe：[<!-- md:samp SmithingTrimRecipe -->](../types/smithingtr
 
 ///////
 /////// define
-Net id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 ///////

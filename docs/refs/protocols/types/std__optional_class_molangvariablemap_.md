@@ -28,7 +28,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<class MolangVariableMap>'
+```title='std::optional&lt;class MolangVariableMap&gt;'
 [has_value][value]
 ```
 

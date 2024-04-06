@@ -33,7 +33,7 @@ rankdir = LR
 ## 字段
 
 ```title='ItemStackRequestSlotInfo'
-[open_container_net_id][slot][raw_id_(32_bit_signed)]
+[open_container_net_id][slot][raw_id]
 ```
 
 /// html | div.result

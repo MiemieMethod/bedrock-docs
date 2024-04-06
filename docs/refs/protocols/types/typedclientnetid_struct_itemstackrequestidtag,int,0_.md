@@ -24,8 +24,8 @@ rankdir = LR
 
 ## 字段
 
-```title='TypedClientNetId<struct ItemStackRequestIdTag,int,0>'
-[raw_id_(32_bit_signed)]
+```title='TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt;'
+[raw_id]
 ```
 
 /// html | div.result

@@ -33,7 +33,7 @@ rankdir = LR
 ## 字段
 
 ```title='ContainerMixDataEntry'
-[from_item_(id):_input][re-agent_item_id][to_item_(id):_output]
+[from_item:_input][re-agent_item_id][to_item:_output]
 ```
 
 /// html | div.result

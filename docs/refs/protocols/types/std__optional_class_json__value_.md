@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<class Json::Value>'
+```title='std::optional&lt;class Json::Value&gt;'
 [has_value]
 ```
 

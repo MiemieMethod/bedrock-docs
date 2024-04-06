@@ -41,7 +41,7 @@ rankdir = LR
 ## 字段
 
 ```title='ActorLink'
-[actor_unique_id_-_a][actor_unique_id_-_b][link_type][immediate][passenger_initiated]
+[actor_unique_id_a][actor_unique_id_b][link_type][immediate][passenger_initiated]
 ```
 
 /// html | div.result

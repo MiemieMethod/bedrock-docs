@@ -41,7 +41,7 @@ rankdir = LR
 ## 字段
 
 ```title='MaterialReducerDataEntry'
-[from_item_(key):_input][item_ids_and_counts]
+[from_item:_input][item_ids_and_counts]
 ```
 
 /// html | div.result

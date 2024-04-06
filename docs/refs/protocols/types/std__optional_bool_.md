@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<bool>'
+```title='std::optional&lt;bool&gt;'
 [has_value]
 ```
 

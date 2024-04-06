@@ -65,7 +65,7 @@ rankdir = LR
 ## 字段
 
 ```title='InventoryTransactionPacket'
-[raw_id_(32_bit_signed)][dependency_on_'above_id_(the_legacy_request_id)_nonzero'][transaction_type][mtransaction->mtransaction]
+[raw_id][dependency_on_'above_id_nonzero'][transaction_type][mtransaction->mtransaction]
 ```
 
 /// html | div.result

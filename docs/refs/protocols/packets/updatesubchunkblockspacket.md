@@ -81,7 +81,7 @@ rankdir = LR
 ## 字段
 
 ```title='UpdateSubChunkBlocksPacket'
-[sub_chunk_block_position][blocks_changed_-_standards][blocks_changed_-_extras]
+[sub_chunk_block_position][blocks_changed_standards][blocks_changed_extras]
 ```
 
 /// html | div.result
@@ -105,7 +105,7 @@ Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/netw
 
 /////
 ```title='示例元素'
-[pos][runtime_id][update_flags][sync_message_-_entity_unique_id][sync_message_-_message]
+[pos][runtime_id][update_flags][sync_message_entity_unique_id][sync_message_message]
 ```
 
 ///// html | div.result
@@ -161,7 +161,7 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 
 /////
 ```title='示例元素'
-[pos][runtime_id][update_flags][sync_message_-_entity_unique_id][sync_message_-_message]
+[pos][runtime_id][update_flags][sync_message_entity_unique_id][sync_message_message]
 ```
 
 ///// html | div.result

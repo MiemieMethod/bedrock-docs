@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<enum ModalFormCancelReason>'
+```title='std::optional&lt;enum ModalFormCancelReason&gt;'
 [has_value]
 ```
 

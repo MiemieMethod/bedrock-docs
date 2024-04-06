@@ -74,9 +74,9 @@ Effect Name：<!-- md:samp string -->
 
 ////
 //// define
-Molang Variables：[<!-- md:samp std::optional<class MolangVariableMap> -->](../types/std__optional_class_molangvariablemap_.md)
+Molang Variables：[<!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->](../types/std__optional_class_molangvariablemap_.md)
 
-- 类型：<!-- md:samp std::optional<class MolangVariableMap> -->。
+- 类型：<!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->。
 
 
 ////

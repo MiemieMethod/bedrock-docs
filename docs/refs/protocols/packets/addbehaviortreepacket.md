@@ -25,7 +25,7 @@ rankdir = LR
 ## 字段
 
 ```title='AddBehaviorTreePacket'
-[behavior_tree_structure_(json)]
+[behavior_tree_structure]
 ```
 
 /// html | div.result

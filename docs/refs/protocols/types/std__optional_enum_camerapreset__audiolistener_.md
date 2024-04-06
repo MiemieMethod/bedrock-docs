@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<enum CameraPreset::AudioListener>'
+```title='std::optional&lt;enum CameraPreset::AudioListener&gt;'
 [has_value]
 ```
 

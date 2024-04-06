@@ -45,7 +45,7 @@ rankdir = LR
 ## 字段
 
 ```title='ConnectionRequest'
-[certificate_chain_(json)][raw_token]
+[certificate_chain][raw_token]
 ```
 
 /// html | div.result

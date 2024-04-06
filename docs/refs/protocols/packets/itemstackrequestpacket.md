@@ -95,9 +95,9 @@ rankdir = LR
 
 ///// html | div.result
 ////// define
-Client Request Id：[<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
+Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
 
-- 类型：<!-- md:samp TypedClientNetId<struct ItemStackRequestIdTag,int,0> -->。
+- 类型：<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->。
 
 
 //////

@@ -108,16 +108,16 @@ Screenshot Border Resource Path：<!-- md:samp string -->
 
 ////
 //// define
-Agent Capabilities：[<!-- md:samp std::optional<struct AgentCapabilities> -->](../types/std__optional_struct_agentcapabilities_.md)
+Agent Capabilities：[<!-- md:samp std::optional&lt;struct AgentCapabilities&gt; -->](../types/std__optional_struct_agentcapabilities_.md)
 
-- 类型：<!-- md:samp std::optional<struct AgentCapabilities> -->。
+- 类型：<!-- md:samp std::optional&lt;struct AgentCapabilities&gt; -->。
 
 
 ////
 //// define
-Code Builder Override Uri：[<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->](../types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md)
+Code Builder Override Uri：[<!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->](../types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md)
 
-- 类型：<!-- md:samp std::optional<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > -->。
+- 类型：<!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->。
 
 
 ////
@@ -129,9 +129,9 @@ Indiciates if the world has a quiz attached to it：<!-- md:samp bool -->
 
 ////
 //// define
-External Link Settings：[<!-- md:samp std::optional<struct ExternalLinkSettings> -->](../types/std__optional_struct_externallinksettings_.md)
+External Link Settings：[<!-- md:samp std::optional&lt;struct ExternalLinkSettings&gt; -->](../types/std__optional_struct_externallinksettings_.md)
 
-- 类型：<!-- md:samp std::optional<struct ExternalLinkSettings> -->。
+- 类型：<!-- md:samp std::optional&lt;struct ExternalLinkSettings&gt; -->。
 
 
 ////

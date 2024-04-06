@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional<struct ExternalLinkSettings>'
+```title='std::optional&lt;struct ExternalLinkSettings&gt;'
 [has_value]
 ```
 

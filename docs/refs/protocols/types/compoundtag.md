@@ -387,7 +387,7 @@ Tag Type for list：<!-- md:samp byte -->
 
 /////////// tab | `if empty list`如果为`1`
 ```title='if (1)'
-[tag_type_(must_be_1)]
+[tag_type]
 ```
 
 //////////// html | div.result
@@ -415,7 +415,7 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 
 ///////////
 ```title='示例元素'
-[tag_(recursive)]
+[tag]
 ```
 
 /////////// html | div.result
@@ -437,7 +437,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 //////// tab | `Tag Type`如果为`10`
 ```title='if (10)'
-[tag_array][end_(must_be_0)]
+[tag_array][end]
 ```
 
 ///////// html | div.result
@@ -447,7 +447,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
 ////////// html | div.result
 ```title='示例元素'
-[tag_(recursive)]
+[tag]
 ```
 
 /////////// html | div.result

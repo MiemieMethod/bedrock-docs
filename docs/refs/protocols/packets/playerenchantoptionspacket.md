@@ -88,9 +88,9 @@ Enchant Name：<!-- md:samp string -->
 
 //////
 ////// define
-Enchant Net Id：[<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
+Enchant Net Id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId<struct RecipeNetIdTag,unsigned int,0> -->。
+- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
 
 
 //////
