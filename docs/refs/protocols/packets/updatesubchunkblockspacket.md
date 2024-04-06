@@ -140,7 +140,14 @@ Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: ActorBlockSyncMessage::MessageId
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NONE`|`0`||
+  |`CREATE`|`1`||
+  |`DESTROY`|`2`||
+
 
 
 //////
@@ -196,7 +203,14 @@ Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: ActorBlockSyncMessage::MessageId
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NONE`|`0`||
+  |`CREATE`|`1`||
+  |`DESTROY`|`2`||
+
 
 
 //////

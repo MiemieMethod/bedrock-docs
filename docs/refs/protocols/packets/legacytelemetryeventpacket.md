@@ -339,7 +339,42 @@ Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Event Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: LegacyTelemetryEventPacket::Type
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Achievement`|`0`||
+  |`Interaction`|`1`||
+  |`PortalCreated`|`2`||
+  |`PortalUsed`|`3`||
+  |`MobKilled`|`4`||
+  |`CauldronUsed`|`5`||
+  |`PlayerDied`|`6`||
+  |`BossKilled`|`7`||
+  |`AgentCommand_OBSOLETE`|`8`||
+  |`AgentCreated`|`9`||
+  |`PatternRemoved_OBSOLETE`|`10`||
+  |`SlashCommand`|`11`||
+  |`Deprecated_FishBucketed`|`12`||
+  |`MobBorn`|`13`||
+  |`PetDied_OBSOLETE`|`14`||
+  |`POICauldronUsed`|`15`||
+  |`ComposterUsed`|`16`||
+  |`BellUsed`|`17`||
+  |`ActorDefinition`|`18`||
+  |`RaidUpdate`|`19`||
+  |`PlayerMovementAnomaly_OBSOLETE`|`20`||
+  |`PlayerMovementCorrected_OBSOLETE`|`21`||
+  |`HoneyHarvested`|`22`||
+  |`TargetBlockHit`|`23`||
+  |`PiglinBarter`|`24`||
+  |`PlayerWaxedOrUnwaxedCopper`|`25`||
+  |`CodeBuilderRuntimeAction`|`26`||
+  |`CodeBuilderScoreboard`|`27`||
+  |`StriderRiddenInLavaInOverworld`|`28`||
+  |`SneakCloseToSculkSensor`|`29`||
+  |`CarefulRestoration`|`30`||
+
 
 
 ////
@@ -379,14 +414,188 @@ Achievement ID：<!-- md:samp varint -->
 /////// define
 Interaction Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: MinecraftEventing::InteractionType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Breeding`|`1`||
+  |`Taming`|`2`||
+  |`Curing`|`3`||
+  |`Crafted`|`4`||
+  |`Shearing`|`5`||
+  |`Milking`|`6`||
+  |`Trading`|`7`||
+  |`Feeding`|`8`||
+  |`Igniting`|`9`||
+  |`Coloring`|`10`||
+  |`Naming`|`11`||
+  |`Leashing`|`12`||
+  |`Unleashing`|`13`||
+  |`PetSleep`|`14`||
+  |`Trusting`|`15`||
+  |`Commanding`|`16`||
+
 
 
 ///////
 /////// define
 Interaction Actor Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`1`||
+  |`TypeMask`|`0x000000ff`||
+  |`Mob`|`0x00000100`||
+  |`PathfinderMob`|`0x00000200 | Mob`||
+  |`Monster`|`0x00000800 | PathfinderMob`||
+  |`Animal`|`0x00001000 | PathfinderMob`||
+  |`TamableAnimal`|`0x00004000 | Animal`||
+  |`Ambient`|`0x00008000 | Mob`||
+  |`UndeadMob`|`0x00010000 | Monster`||
+  |`ZombieMonster`|`0x00020000 | UndeadMob`||
+  |`Arthropod`|`0x00040000 | Monster`||
+  |`Minecart`|`0x00080000`||
+  |`SkeletonMonster`|`0x00100000 | UndeadMob`||
+  |`EquineAnimal`|`0x00200000 | TamableAnimal`||
+  |`Projectile`|`0x00400000`||
+  |`AbstractArrow`|`0x00800000`||
+  |`WaterAnimal`|`0x00002000 | PathfinderMob`||
+  |`VillagerBase`|`0x01000000 | PathfinderMob`||
+  |`Chicken`|`10 | Animal`||
+  |`Cow`|`11 | Animal`||
+  |`Pig`|`12 | Animal`||
+  |`Sheep`|`13 | Animal`||
+  |`Wolf`|`14 | TamableAnimal`||
+  |`Villager`|`15 | VillagerBase`||
+  |`MushroomCow`|`16 | Animal`||
+  |`Squid`|`17 | WaterAnimal`||
+  |`Rabbit`|`18 | Animal`||
+  |`Bat`|`19 | Ambient`||
+  |`IronGolem`|`20 | PathfinderMob`||
+  |`SnowGolem`|`21 | PathfinderMob`||
+  |`Ocelot`|`22 | TamableAnimal`||
+  |`Horse`|`23 | EquineAnimal`||
+  |`PolarBear`|`28 | Animal`||
+  |`Llama`|`29 | Animal`||
+  |`Parrot`|`30 | TamableAnimal`||
+  |`Dolphin`|`31 | WaterAnimal`||
+  |`Donkey`|`24 | EquineAnimal`||
+  |`Mule`|`25 | EquineAnimal`||
+  |`SkeletonHorse`|`26 | EquineAnimal | UndeadMob`||
+  |`ZombieHorse`|`27 | EquineAnimal | UndeadMob`||
+  |`Zombie`|`32 | ZombieMonster`||
+  |`Creeper`|`33 | Monster`||
+  |`Skeleton`|`34 | SkeletonMonster`||
+  |`Spider`|`35 | Arthropod`||
+  |`PigZombie`|`36 | UndeadMob`||
+  |`Slime`|`37 | Monster`||
+  |`EnderMan`|`38 | Monster`||
+  |`Silverfish`|`39 | Arthropod`||
+  |`CaveSpider`|`40 | Arthropod`||
+  |`Ghast`|`41 | Monster`||
+  |`LavaSlime`|`42 | Monster`||
+  |`Blaze`|`43 | Monster`||
+  |`ZombieVillager`|`44 | ZombieMonster`||
+  |`Witch`|`45 | Monster`||
+  |`Stray`|`46 | SkeletonMonster`||
+  |`Husk`|`47 | ZombieMonster`||
+  |`WitherSkeleton`|`48 | SkeletonMonster`||
+  |`Guardian`|`49 | Monster`||
+  |`ElderGuardian`|`50 | Monster`||
+  |`Npc`|`51 | Mob`||
+  |`WitherBoss`|`52 | UndeadMob`||
+  |`Dragon`|`53 | Monster`||
+  |`Shulker`|`54 | Monster`||
+  |`Endermite`|`55 | Arthropod`||
+  |`Agent`|`56 | Mob`||
+  |`Vindicator`|`57 | Monster`||
+  |`Phantom`|`58 | UndeadMob`||
+  |`IllagerBeast`|`59 | Monster`||
+  |`ArmorStand`|`61 | Mob`||
+  |`TripodCamera`|`62 | Mob`||
+  |`Player`|`63 | Mob`||
+  |`ItemEntity`|`64`||
+  |`PrimedTnt`|`65`||
+  |`FallingBlock`|`66`||
+  |`MovingBlock`|`67`||
+  |`ExperiencePotion`|`68 | Projectile`||
+  |`Experience`|`69`||
+  |`EyeOfEnder`|`70`||
+  |`EnderCrystal`|`71`||
+  |`FireworksRocket`|`72`||
+  |`Trident`|`73 | Projectile | AbstractArrow`||
+  |`Turtle`|`74 | Animal`||
+  |`Cat`|`75 | TamableAnimal`||
+  |`ShulkerBullet`|`76 | Projectile`||
+  |`FishingHook`|`77`||
+  |`Chalkboard`|`78`||
+  |`DragonFireball`|`79 | Projectile`||
+  |`Arrow`|`80 | Projectile | AbstractArrow`||
+  |`Snowball`|`81 | Projectile`||
+  |`ThrownEgg`|`82 | Projectile`||
+  |`Painting`|`83`||
+  |`LargeFireball`|`85 | Projectile`||
+  |`ThrownPotion`|`86 | Projectile`||
+  |`Enderpearl`|`87 | Projectile`||
+  |`LeashKnot`|`88`||
+  |`WitherSkull`|`89 | Projectile`||
+  |`BoatRideable`|`90`||
+  |`WitherSkullDangerous`|`91 | Projectile`||
+  |`LightningBolt`|`93`||
+  |`SmallFireball`|`94 | Projectile`||
+  |`AreaEffectCloud`|`95`||
+  |`LingeringPotion`|`101 | Projectile`||
+  |`LlamaSpit`|`102 | Projectile`||
+  |`EvocationFang`|`103 | Projectile`||
+  |`EvocationIllager`|`104 | Monster`||
+  |`Vex`|`105 | Monster`||
+  |`MinecartRideable`|`84 | Minecart`||
+  |`MinecartHopper`|`96 | Minecart`||
+  |`MinecartTNT`|`97 | Minecart`||
+  |`MinecartChest`|`98 | Minecart`||
+  |`MinecartFurnace`|`99 | Minecart`||
+  |`MinecartCommandBlock`|`100 | Minecart`||
+  |`IceBomb`|`106 | Projectile`||
+  |`Balloon`|`107`||
+  |`Pufferfish`|`108 | WaterAnimal`||
+  |`Salmon`|`109 | WaterAnimal`||
+  |`Drowned`|`110 | ZombieMonster`||
+  |`Tropicalfish`|`111 | WaterAnimal`||
+  |`Fish`|`112 | WaterAnimal`||
+  |`Panda`|`113 | Animal`||
+  |`Pillager`|`114 | Monster`||
+  |`VillagerV2`|`115 | VillagerBase`||
+  |`ZombieVillagerV2`|`116 | ZombieMonster`||
+  |`Shield`|`117`||
+  |`WanderingTrader`|`118 | PathfinderMob`||
+  |`Lectern`|`119`||
+  |`ElderGuardianGhost`|`120 | Monster`||
+  |`Fox`|`121 | Animal`||
+  |`Bee`|`122 | Mob`||
+  |`Piglin`|`123 | Mob`||
+  |`Hoglin`|`124 | Animal`||
+  |`Strider`|`125 | Animal`||
+  |`Zoglin`|`126 | UndeadMob`||
+  |`PiglinBrute`|`127 | Mob`||
+  |`Goat`|`128 | Animal`||
+  |`GlowSquid`|`129 | WaterAnimal`||
+  |`Axolotl`|`130 | Animal`||
+  |`Warden`|`131 | Monster`||
+  |`Frog`|`132 | Animal`||
+  |`Tadpole`|`133 | WaterAnimal`||
+  |`Allay`|`134 | Mob`||
+  |`ChestBoatRideable`|`136 | BoatRideable`||
+  |`TraderLlama`|`137 | Llama`||
+  |`Camel`|`138 | Animal`||
+  |`Sniffer`|`139 | Animal`||
+  |`Breeze`|`140 | Monster`||
+  |`BreezeWindChargeProjectile`|`141 | Projectile`||
+  |`Armadillo`|`142 | Animal`||
+  |`WindChargeProjectile`|`143 | Projectile`||
+  |`Bogged`|`144| SkeletonMonster`||
+
 
 
 ///////
@@ -475,14 +684,208 @@ Target Actor ID：<!-- md:samp varint64 -->
 /////// define
 Instigator's Child Actor Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`1`||
+  |`TypeMask`|`0x000000ff`||
+  |`Mob`|`0x00000100`||
+  |`PathfinderMob`|`0x00000200 | Mob`||
+  |`Monster`|`0x00000800 | PathfinderMob`||
+  |`Animal`|`0x00001000 | PathfinderMob`||
+  |`TamableAnimal`|`0x00004000 | Animal`||
+  |`Ambient`|`0x00008000 | Mob`||
+  |`UndeadMob`|`0x00010000 | Monster`||
+  |`ZombieMonster`|`0x00020000 | UndeadMob`||
+  |`Arthropod`|`0x00040000 | Monster`||
+  |`Minecart`|`0x00080000`||
+  |`SkeletonMonster`|`0x00100000 | UndeadMob`||
+  |`EquineAnimal`|`0x00200000 | TamableAnimal`||
+  |`Projectile`|`0x00400000`||
+  |`AbstractArrow`|`0x00800000`||
+  |`WaterAnimal`|`0x00002000 | PathfinderMob`||
+  |`VillagerBase`|`0x01000000 | PathfinderMob`||
+  |`Chicken`|`10 | Animal`||
+  |`Cow`|`11 | Animal`||
+  |`Pig`|`12 | Animal`||
+  |`Sheep`|`13 | Animal`||
+  |`Wolf`|`14 | TamableAnimal`||
+  |`Villager`|`15 | VillagerBase`||
+  |`MushroomCow`|`16 | Animal`||
+  |`Squid`|`17 | WaterAnimal`||
+  |`Rabbit`|`18 | Animal`||
+  |`Bat`|`19 | Ambient`||
+  |`IronGolem`|`20 | PathfinderMob`||
+  |`SnowGolem`|`21 | PathfinderMob`||
+  |`Ocelot`|`22 | TamableAnimal`||
+  |`Horse`|`23 | EquineAnimal`||
+  |`PolarBear`|`28 | Animal`||
+  |`Llama`|`29 | Animal`||
+  |`Parrot`|`30 | TamableAnimal`||
+  |`Dolphin`|`31 | WaterAnimal`||
+  |`Donkey`|`24 | EquineAnimal`||
+  |`Mule`|`25 | EquineAnimal`||
+  |`SkeletonHorse`|`26 | EquineAnimal | UndeadMob`||
+  |`ZombieHorse`|`27 | EquineAnimal | UndeadMob`||
+  |`Zombie`|`32 | ZombieMonster`||
+  |`Creeper`|`33 | Monster`||
+  |`Skeleton`|`34 | SkeletonMonster`||
+  |`Spider`|`35 | Arthropod`||
+  |`PigZombie`|`36 | UndeadMob`||
+  |`Slime`|`37 | Monster`||
+  |`EnderMan`|`38 | Monster`||
+  |`Silverfish`|`39 | Arthropod`||
+  |`CaveSpider`|`40 | Arthropod`||
+  |`Ghast`|`41 | Monster`||
+  |`LavaSlime`|`42 | Monster`||
+  |`Blaze`|`43 | Monster`||
+  |`ZombieVillager`|`44 | ZombieMonster`||
+  |`Witch`|`45 | Monster`||
+  |`Stray`|`46 | SkeletonMonster`||
+  |`Husk`|`47 | ZombieMonster`||
+  |`WitherSkeleton`|`48 | SkeletonMonster`||
+  |`Guardian`|`49 | Monster`||
+  |`ElderGuardian`|`50 | Monster`||
+  |`Npc`|`51 | Mob`||
+  |`WitherBoss`|`52 | UndeadMob`||
+  |`Dragon`|`53 | Monster`||
+  |`Shulker`|`54 | Monster`||
+  |`Endermite`|`55 | Arthropod`||
+  |`Agent`|`56 | Mob`||
+  |`Vindicator`|`57 | Monster`||
+  |`Phantom`|`58 | UndeadMob`||
+  |`IllagerBeast`|`59 | Monster`||
+  |`ArmorStand`|`61 | Mob`||
+  |`TripodCamera`|`62 | Mob`||
+  |`Player`|`63 | Mob`||
+  |`ItemEntity`|`64`||
+  |`PrimedTnt`|`65`||
+  |`FallingBlock`|`66`||
+  |`MovingBlock`|`67`||
+  |`ExperiencePotion`|`68 | Projectile`||
+  |`Experience`|`69`||
+  |`EyeOfEnder`|`70`||
+  |`EnderCrystal`|`71`||
+  |`FireworksRocket`|`72`||
+  |`Trident`|`73 | Projectile | AbstractArrow`||
+  |`Turtle`|`74 | Animal`||
+  |`Cat`|`75 | TamableAnimal`||
+  |`ShulkerBullet`|`76 | Projectile`||
+  |`FishingHook`|`77`||
+  |`Chalkboard`|`78`||
+  |`DragonFireball`|`79 | Projectile`||
+  |`Arrow`|`80 | Projectile | AbstractArrow`||
+  |`Snowball`|`81 | Projectile`||
+  |`ThrownEgg`|`82 | Projectile`||
+  |`Painting`|`83`||
+  |`LargeFireball`|`85 | Projectile`||
+  |`ThrownPotion`|`86 | Projectile`||
+  |`Enderpearl`|`87 | Projectile`||
+  |`LeashKnot`|`88`||
+  |`WitherSkull`|`89 | Projectile`||
+  |`BoatRideable`|`90`||
+  |`WitherSkullDangerous`|`91 | Projectile`||
+  |`LightningBolt`|`93`||
+  |`SmallFireball`|`94 | Projectile`||
+  |`AreaEffectCloud`|`95`||
+  |`LingeringPotion`|`101 | Projectile`||
+  |`LlamaSpit`|`102 | Projectile`||
+  |`EvocationFang`|`103 | Projectile`||
+  |`EvocationIllager`|`104 | Monster`||
+  |`Vex`|`105 | Monster`||
+  |`MinecartRideable`|`84 | Minecart`||
+  |`MinecartHopper`|`96 | Minecart`||
+  |`MinecartTNT`|`97 | Minecart`||
+  |`MinecartChest`|`98 | Minecart`||
+  |`MinecartFurnace`|`99 | Minecart`||
+  |`MinecartCommandBlock`|`100 | Minecart`||
+  |`IceBomb`|`106 | Projectile`||
+  |`Balloon`|`107`||
+  |`Pufferfish`|`108 | WaterAnimal`||
+  |`Salmon`|`109 | WaterAnimal`||
+  |`Drowned`|`110 | ZombieMonster`||
+  |`Tropicalfish`|`111 | WaterAnimal`||
+  |`Fish`|`112 | WaterAnimal`||
+  |`Panda`|`113 | Animal`||
+  |`Pillager`|`114 | Monster`||
+  |`VillagerV2`|`115 | VillagerBase`||
+  |`ZombieVillagerV2`|`116 | ZombieMonster`||
+  |`Shield`|`117`||
+  |`WanderingTrader`|`118 | PathfinderMob`||
+  |`Lectern`|`119`||
+  |`ElderGuardianGhost`|`120 | Monster`||
+  |`Fox`|`121 | Animal`||
+  |`Bee`|`122 | Mob`||
+  |`Piglin`|`123 | Mob`||
+  |`Hoglin`|`124 | Animal`||
+  |`Strider`|`125 | Animal`||
+  |`Zoglin`|`126 | UndeadMob`||
+  |`PiglinBrute`|`127 | Mob`||
+  |`Goat`|`128 | Animal`||
+  |`GlowSquid`|`129 | WaterAnimal`||
+  |`Axolotl`|`130 | Animal`||
+  |`Warden`|`131 | Monster`||
+  |`Frog`|`132 | Animal`||
+  |`Tadpole`|`133 | WaterAnimal`||
+  |`Allay`|`134 | Mob`||
+  |`ChestBoatRideable`|`136 | BoatRideable`||
+  |`TraderLlama`|`137 | Llama`||
+  |`Camel`|`138 | Animal`||
+  |`Sniffer`|`139 | Animal`||
+  |`Breeze`|`140 | Monster`||
+  |`BreezeWindChargeProjectile`|`141 | Projectile`||
+  |`Armadillo`|`142 | Animal`||
+  |`WindChargeProjectile`|`143 | Projectile`||
+  |`Bogged`|`144| SkeletonMonster`||
+
 
 
 ///////
 /////// define
 Damage Source：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: ActorDamageCause
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`-1`||
+  |`Override`|`0`||
+  |`Contact`|`1`||
+  |`EntityAttack`|`2`||
+  |`Projectile`|`3`||
+  |`Suffocation`|`4`||
+  |`Fall`|`5`||
+  |`Fire`|`6`||
+  |`FireTick`|`7`||
+  |`Lava`|`8`||
+  |`Drowning`|`9`||
+  |`BlockExplosion`|`10`||
+  |`EntityExplosion`|`11`||
+  |`Void`|`12`||
+  |`SelfDestruct`|`13`||
+  |`Magic`|`14`||
+  |`Wither`|`15`||
+  |`Starve`|`16`||
+  |`Anvil`|`17`||
+  |`Thorns`|`18`||
+  |`FallingBlock`|`19`||
+  |`Piston`|`20`||
+  |`FlyIntoWall`|`21`||
+  |`Magma`|`22`||
+  |`Fireworks`|`23`||
+  |`Lightning`|`24`||
+  |`Charging`|`25`||
+  |`Temperature`|`26`||
+  |`Freezing`|`27`||
+  |`Stalactite`|`28`||
+  |`Stalagmite`|`29`||
+  |`RamAttack`|`30`||
+  |`SonicBoom`|`31`||
+  |`Campfire`|`32`||
+  |`SoulCampfire`|`33`||
+  |`All`|`34`||
+
 
 
 ///////
@@ -560,7 +963,47 @@ Instigator Mob Variant：<!-- md:samp varint -->
 /////// define
 Damage Source：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: ActorDamageCause
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`-1`||
+  |`Override`|`0`||
+  |`Contact`|`1`||
+  |`EntityAttack`|`2`||
+  |`Projectile`|`3`||
+  |`Suffocation`|`4`||
+  |`Fall`|`5`||
+  |`Fire`|`6`||
+  |`FireTick`|`7`||
+  |`Lava`|`8`||
+  |`Drowning`|`9`||
+  |`BlockExplosion`|`10`||
+  |`EntityExplosion`|`11`||
+  |`Void`|`12`||
+  |`SelfDestruct`|`13`||
+  |`Magic`|`14`||
+  |`Wither`|`15`||
+  |`Starve`|`16`||
+  |`Anvil`|`17`||
+  |`Thorns`|`18`||
+  |`FallingBlock`|`19`||
+  |`Piston`|`20`||
+  |`FlyIntoWall`|`21`||
+  |`Magma`|`22`||
+  |`Fireworks`|`23`||
+  |`Lightning`|`24`||
+  |`Charging`|`25`||
+  |`Temperature`|`26`||
+  |`Freezing`|`27`||
+  |`Stalactite`|`28`||
+  |`Stalagmite`|`29`||
+  |`RamAttack`|`30`||
+  |`SonicBoom`|`31`||
+  |`Campfire`|`32`||
+  |`SoulCampfire`|`33`||
+  |`All`|`34`||
+
 
 
 ///////
@@ -599,7 +1042,161 @@ Party Size：<!-- md:samp varint -->
 /////// define
 Boss Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: ActorType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`1`||
+  |`TypeMask`|`0x000000ff`||
+  |`Mob`|`0x00000100`||
+  |`PathfinderMob`|`0x00000200 | Mob`||
+  |`Monster`|`0x00000800 | PathfinderMob`||
+  |`Animal`|`0x00001000 | PathfinderMob`||
+  |`TamableAnimal`|`0x00004000 | Animal`||
+  |`Ambient`|`0x00008000 | Mob`||
+  |`UndeadMob`|`0x00010000 | Monster`||
+  |`ZombieMonster`|`0x00020000 | UndeadMob`||
+  |`Arthropod`|`0x00040000 | Monster`||
+  |`Minecart`|`0x00080000`||
+  |`SkeletonMonster`|`0x00100000 | UndeadMob`||
+  |`EquineAnimal`|`0x00200000 | TamableAnimal`||
+  |`Projectile`|`0x00400000`||
+  |`AbstractArrow`|`0x00800000`||
+  |`WaterAnimal`|`0x00002000 | PathfinderMob`||
+  |`VillagerBase`|`0x01000000 | PathfinderMob`||
+  |`Chicken`|`10 | Animal`||
+  |`Cow`|`11 | Animal`||
+  |`Pig`|`12 | Animal`||
+  |`Sheep`|`13 | Animal`||
+  |`Wolf`|`14 | TamableAnimal`||
+  |`Villager`|`15 | VillagerBase`||
+  |`MushroomCow`|`16 | Animal`||
+  |`Squid`|`17 | WaterAnimal`||
+  |`Rabbit`|`18 | Animal`||
+  |`Bat`|`19 | Ambient`||
+  |`IronGolem`|`20 | PathfinderMob`||
+  |`SnowGolem`|`21 | PathfinderMob`||
+  |`Ocelot`|`22 | TamableAnimal`||
+  |`Horse`|`23 | EquineAnimal`||
+  |`PolarBear`|`28 | Animal`||
+  |`Llama`|`29 | Animal`||
+  |`Parrot`|`30 | TamableAnimal`||
+  |`Dolphin`|`31 | WaterAnimal`||
+  |`Donkey`|`24 | EquineAnimal`||
+  |`Mule`|`25 | EquineAnimal`||
+  |`SkeletonHorse`|`26 | EquineAnimal | UndeadMob`||
+  |`ZombieHorse`|`27 | EquineAnimal | UndeadMob`||
+  |`Zombie`|`32 | ZombieMonster`||
+  |`Creeper`|`33 | Monster`||
+  |`Skeleton`|`34 | SkeletonMonster`||
+  |`Spider`|`35 | Arthropod`||
+  |`PigZombie`|`36 | UndeadMob`||
+  |`Slime`|`37 | Monster`||
+  |`EnderMan`|`38 | Monster`||
+  |`Silverfish`|`39 | Arthropod`||
+  |`CaveSpider`|`40 | Arthropod`||
+  |`Ghast`|`41 | Monster`||
+  |`LavaSlime`|`42 | Monster`||
+  |`Blaze`|`43 | Monster`||
+  |`ZombieVillager`|`44 | ZombieMonster`||
+  |`Witch`|`45 | Monster`||
+  |`Stray`|`46 | SkeletonMonster`||
+  |`Husk`|`47 | ZombieMonster`||
+  |`WitherSkeleton`|`48 | SkeletonMonster`||
+  |`Guardian`|`49 | Monster`||
+  |`ElderGuardian`|`50 | Monster`||
+  |`Npc`|`51 | Mob`||
+  |`WitherBoss`|`52 | UndeadMob`||
+  |`Dragon`|`53 | Monster`||
+  |`Shulker`|`54 | Monster`||
+  |`Endermite`|`55 | Arthropod`||
+  |`Agent`|`56 | Mob`||
+  |`Vindicator`|`57 | Monster`||
+  |`Phantom`|`58 | UndeadMob`||
+  |`IllagerBeast`|`59 | Monster`||
+  |`ArmorStand`|`61 | Mob`||
+  |`TripodCamera`|`62 | Mob`||
+  |`Player`|`63 | Mob`||
+  |`ItemEntity`|`64`||
+  |`PrimedTnt`|`65`||
+  |`FallingBlock`|`66`||
+  |`MovingBlock`|`67`||
+  |`ExperiencePotion`|`68 | Projectile`||
+  |`Experience`|`69`||
+  |`EyeOfEnder`|`70`||
+  |`EnderCrystal`|`71`||
+  |`FireworksRocket`|`72`||
+  |`Trident`|`73 | Projectile | AbstractArrow`||
+  |`Turtle`|`74 | Animal`||
+  |`Cat`|`75 | TamableAnimal`||
+  |`ShulkerBullet`|`76 | Projectile`||
+  |`FishingHook`|`77`||
+  |`Chalkboard`|`78`||
+  |`DragonFireball`|`79 | Projectile`||
+  |`Arrow`|`80 | Projectile | AbstractArrow`||
+  |`Snowball`|`81 | Projectile`||
+  |`ThrownEgg`|`82 | Projectile`||
+  |`Painting`|`83`||
+  |`LargeFireball`|`85 | Projectile`||
+  |`ThrownPotion`|`86 | Projectile`||
+  |`Enderpearl`|`87 | Projectile`||
+  |`LeashKnot`|`88`||
+  |`WitherSkull`|`89 | Projectile`||
+  |`BoatRideable`|`90`||
+  |`WitherSkullDangerous`|`91 | Projectile`||
+  |`LightningBolt`|`93`||
+  |`SmallFireball`|`94 | Projectile`||
+  |`AreaEffectCloud`|`95`||
+  |`LingeringPotion`|`101 | Projectile`||
+  |`LlamaSpit`|`102 | Projectile`||
+  |`EvocationFang`|`103 | Projectile`||
+  |`EvocationIllager`|`104 | Monster`||
+  |`Vex`|`105 | Monster`||
+  |`MinecartRideable`|`84 | Minecart`||
+  |`MinecartHopper`|`96 | Minecart`||
+  |`MinecartTNT`|`97 | Minecart`||
+  |`MinecartChest`|`98 | Minecart`||
+  |`MinecartFurnace`|`99 | Minecart`||
+  |`MinecartCommandBlock`|`100 | Minecart`||
+  |`IceBomb`|`106 | Projectile`||
+  |`Balloon`|`107`||
+  |`Pufferfish`|`108 | WaterAnimal`||
+  |`Salmon`|`109 | WaterAnimal`||
+  |`Drowned`|`110 | ZombieMonster`||
+  |`Tropicalfish`|`111 | WaterAnimal`||
+  |`Fish`|`112 | WaterAnimal`||
+  |`Panda`|`113 | Animal`||
+  |`Pillager`|`114 | Monster`||
+  |`VillagerV2`|`115 | VillagerBase`||
+  |`ZombieVillagerV2`|`116 | ZombieMonster`||
+  |`Shield`|`117`||
+  |`WanderingTrader`|`118 | PathfinderMob`||
+  |`Lectern`|`119`||
+  |`ElderGuardianGhost`|`120 | Monster`||
+  |`Fox`|`121 | Animal`||
+  |`Bee`|`122 | Mob`||
+  |`Piglin`|`123 | Mob`||
+  |`Hoglin`|`124 | Animal`||
+  |`Strider`|`125 | Animal`||
+  |`Zoglin`|`126 | UndeadMob`||
+  |`PiglinBrute`|`127 | Mob`||
+  |`Goat`|`128 | Animal`||
+  |`GlowSquid`|`129 | WaterAnimal`||
+  |`Axolotl`|`130 | Animal`||
+  |`Warden`|`131 | Monster`||
+  |`Frog`|`132 | Animal`||
+  |`Tadpole`|`133 | WaterAnimal`||
+  |`Allay`|`134 | Mob`||
+  |`ChestBoatRideable`|`136 | BoatRideable`||
+  |`TraderLlama`|`137 | Llama`||
+  |`Camel`|`138 | Animal`||
+  |`Sniffer`|`139 | Animal`||
+  |`Breeze`|`140 | Monster`||
+  |`BreezeWindChargeProjectile`|`141 | Projectile`||
+  |`Armadillo`|`142 | Animal`||
+  |`WindChargeProjectile`|`143 | Projectile`||
+  |`Bogged`|`144| SkeletonMonster`||
+
 
 
 ///////
@@ -617,7 +1214,15 @@ Boss Type：<!-- md:samp varint -->
 /////// define
 Result：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: LegacyTelemetryEventPacket::AgentResult
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ActionFail`|`0`||
+  |`ActionSuccess`|`1`||
+  |`QueryResultFalse`|`2`||
+  |`QueryResultTrue`|`3`||
+
 
 
 ///////
@@ -778,7 +1383,37 @@ if (14)：<!-- md:samp [No Data] -->
 /////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: MinecraftEventing::POIBlockInteractionType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Extend`|`1`||
+  |`Clone`|`2`||
+  |`Lock`|`3`||
+  |`Create`|`4`||
+  |`CreateLocator`|`5`||
+  |`Rename`|`6`||
+  |`ItemPlaced`|`7`||
+  |`ItemRemoved`|`8`||
+  |`Cooking`|`9`||
+  |`Dousing`|`10`||
+  |`Lighting`|`11`||
+  |`Haystack`|`12`||
+  |`Filled`|`13`||
+  |`Emptied`|`14`||
+  |`AddDye`|`15`||
+  |`DyeItem`|`16`||
+  |`ClearItem`|`17`||
+  |`EnchantArrow`|`18`||
+  |`CompostItemPlaced`|`19`||
+  |`RecoveredBonemeal`|`20`||
+  |`BookPlaced`|`21`||
+  |`BookOpened`|`22`||
+  |`Disenchant`|`23`||
+  |`Repair`|`24`||
+  |`DisenchantAndRepair`|`25`||
+
 
 
 ///////
@@ -803,7 +1438,37 @@ Item Id：<!-- md:samp varint -->
 /////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: MinecraftEventing::POIBlockInteractionType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Extend`|`1`||
+  |`Clone`|`2`||
+  |`Lock`|`3`||
+  |`Create`|`4`||
+  |`CreateLocator`|`5`||
+  |`Rename`|`6`||
+  |`ItemPlaced`|`7`||
+  |`ItemRemoved`|`8`||
+  |`Cooking`|`9`||
+  |`Dousing`|`10`||
+  |`Lighting`|`11`||
+  |`Haystack`|`12`||
+  |`Filled`|`13`||
+  |`Emptied`|`14`||
+  |`AddDye`|`15`||
+  |`DyeItem`|`16`||
+  |`ClearItem`|`17`||
+  |`EnchantArrow`|`18`||
+  |`CompostItemPlaced`|`19`||
+  |`RecoveredBonemeal`|`20`||
+  |`BookPlaced`|`21`||
+  |`BookOpened`|`22`||
+  |`Disenchant`|`23`||
+  |`Repair`|`24`||
+  |`DisenchantAndRepair`|`25`||
+
 
 
 ///////

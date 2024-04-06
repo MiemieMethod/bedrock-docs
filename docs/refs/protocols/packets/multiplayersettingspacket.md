@@ -32,7 +32,14 @@ rankdir = LR
 //// define
 Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: MultiplayerSettingsPacketType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`EnableMultiplayer`|`0`||
+  |`DisableMultiplayer`|`1`||
+  |`RefreshJoincode`|`2`||
+
 
 
 ////

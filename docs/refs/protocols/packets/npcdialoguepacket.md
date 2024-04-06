@@ -59,7 +59,13 @@ Npc Id Raw Id：<!-- md:samp unsigned int64 -->
 //// define
 Npc Dialogue Action Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: NpcDialoguePacket::NpcDialogueActionType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Open`|`0`||
+  |`Close`|`1`||
+
 
 
 ////

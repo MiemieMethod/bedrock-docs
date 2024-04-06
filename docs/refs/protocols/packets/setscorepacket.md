@@ -92,7 +92,13 @@ rankdir = LR
 //// define
 Score Packet Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ScorePacketType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Change`|`0`||
+  |`Remove`|`1`||
+
 
 
 ////
@@ -164,7 +170,15 @@ if (0)：<!-- md:samp [No Data] -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: IdentityDefinition::Type
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`Player`|`1`||
+  |`Entity`|`2`||
+  |`FakePlayer`|`3`||
+
 
 
 ////////////
@@ -189,7 +203,15 @@ Player Unique Id：<!-- md:samp varint64 -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: IdentityDefinition::Type
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`Player`|`1`||
+  |`Entity`|`2`||
+  |`FakePlayer`|`3`||
+
 
 
 ////////////
@@ -214,7 +236,15 @@ Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: IdentityDefinition::Type
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`Player`|`1`||
+  |`Entity`|`2`||
+  |`FakePlayer`|`3`||
+
 
 
 ////////////

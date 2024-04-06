@@ -56,7 +56,16 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: InteractPacket::Action
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`StopRiding`|`3`||
+  |`InteractUpdate`|`4`||
+  |`NpcOpen`|`5`||
+  |`OpenInventory`|`6`||
+
 
 
 ////

@@ -162,7 +162,24 @@ rankdir = LR
 //// define
 Tag Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: Tag::Type
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`End`|`0`||
+  |`Byte`|`1`||
+  |`Short`|`2`||
+  |`Int`|`3`||
+  |`Int64`|`4`||
+  |`Float`|`5`||
+  |`Double`|`6`||
+  |`ByteArray`|`7`||
+  |`String`|`8`||
+  |`List`|`9`||
+  |`Compound`|`10`||
+  |`IntArray`|`11`||
+  |`NumTagTypes`|`12`||
+
 
 
 ////
@@ -376,7 +393,24 @@ Tag Value：<!-- md:samp string -->
 ///////////// define
 Tag Type for list：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: Tag::Type
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`End`|`0`||
+  |`Byte`|`1`||
+  |`Short`|`2`||
+  |`Int`|`3`||
+  |`Int64`|`4`||
+  |`Float`|`5`||
+  |`Double`|`6`||
+  |`ByteArray`|`7`||
+  |`String`|`8`||
+  |`List`|`9`||
+  |`Compound`|`10`||
+  |`IntArray`|`11`||
+  |`NumTagTypes`|`12`||
+
 
 
 /////////////
@@ -394,7 +428,24 @@ Tag Type for list：<!-- md:samp byte -->
 ///////////// define
 Tag Type (must be 1)：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: Tag::Type
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`End`|`0`||
+  |`Byte`|`1`||
+  |`Short`|`2`||
+  |`Int`|`3`||
+  |`Int64`|`4`||
+  |`Float`|`5`||
+  |`Double`|`6`||
+  |`ByteArray`|`7`||
+  |`String`|`8`||
+  |`List`|`9`||
+  |`Compound`|`10`||
+  |`IntArray`|`11`||
+  |`NumTagTypes`|`12`||
+
 
 
 /////////////

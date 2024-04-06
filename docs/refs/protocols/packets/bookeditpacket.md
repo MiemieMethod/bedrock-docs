@@ -96,7 +96,16 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: BookEditAction
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ReplacePage`|`0`||
+  |`AddPage`|`1`||
+  |`DeletePage`|`2`||
+  |`SwapPages`|`3`||
+  |`Finalize`|`4`||
+
 
 
 ////

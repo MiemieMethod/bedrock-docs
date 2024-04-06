@@ -211,21 +211,53 @@ Input Data：<!-- md:samp unsigned varint64 -->
 //// define
 Input Mode：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: InputMode
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`0`||
+  |`Mouse`|`1`||
+  |`Touch`|`2`||
+  |`GamePad`|`3`||
+  |`MotionController`|`4`||
+  |`Count`|`5`||
+
 
 
 ////
 //// define
 Play Mode：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: ClientPlayMode
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Normal`|`0`||
+  |`Teaser`|`1`||
+  |`Screen`|`2`||
+  |`Viewer`|`3`||
+  |`Reality`|`4`||
+  |`Placement`|`5`||
+  |`LivingRoom`|`6`||
+  |`ExitLevel`|`7`||
+  |`ExitLevelLivingRoom`|`8`||
+  |`NumModes`|`9`||
+
 
 
 ////
 //// define
 New Interaction Model：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: NewInteractionModel
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Touch`|`0`||
+  |`Crosshair`|`1`||
+  |`Classic`|`2`||
+  |`Count`|`3`||
+
 
 
 ////
@@ -349,7 +381,35 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 ///////// define
 Action type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ItemStackRequestActionType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Take`|`0`||
+  |`Place`|`1`||
+  |`Swap`|`2`||
+  |`Drop`|`3`||
+  |`Destroy`|`4`||
+  |`Consume`|`5`||
+  |`Create`|`6`||
+  |`PlaceInItemContainer`|`7`||
+  |`TakeFromItemContainer`|`8`||
+  |`ScreenLabTableCombine`|`9`||
+  |`ScreenBeaconPayment`|`10`||
+  |`ScreenHUDMineBlock`|`11`||
+  |`CraftRecipe`|`12`||
+  |`CraftRecipeAuto`|`13`||
+  |`CraftCreative`|`14`||
+  |`CraftRecipeOptional`|`15`||
+  |`CraftRepairAndDisenchant`|`16`||
+  |`CraftLoom`|`17`||
+  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`||
+  |`CraftResults_DEPRECATEDASKTYLAING`|`19`||
+  |`ifdef`|`20`||
+  |`TEST_INFRASTRUCTURE_ENABLED`|`21`||
+  |`Test`|`22`||
+  |`endif`|`23`||
+
 
 
 /////////
@@ -409,7 +469,28 @@ String To Filter：<!-- md:samp string -->
 /////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: TextProcessingEventOrigin
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`unknown`|`-1`||
+  |`ServerChatPublic`|`0`||
+  |`ServerChatWhisper`|`1`||
+  |`SignText`|`2`||
+  |`AnvilText`|`3`||
+  |`BookAndQuillText`|`4`||
+  |`CommandBlockText`|`5`||
+  |`BlockActorDataText`|`6`||
+  |`JoinEventText`|`7`||
+  |`LeaveEventText`|`8`||
+  |`SlashCommandChat`|`9`||
+  |`CartographyText`|`10`||
+  |`KickCommand`|`11`||
+  |`TitleCommand`|`12`||
+  |`SummonCommand`|`13`||
+  |`ServerForm`|`14`||
+  |`COUNT`|`15`||
+
 
 
 ///////

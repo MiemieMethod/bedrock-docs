@@ -230,21 +230,53 @@ Spawn Settings：[<!-- md:samp SpawnSettings -->](../types/spawnsettings.md)
 //// define
 Generator Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: GeneratorType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Legacy`|`0`||
+  |`Overworld`|`1`||
+  |`Flat`|`2`||
+  |`Nether`|`3`||
+  |`TheEnd`|`4`||
+  |`Void`|`5`||
+  |`Undefined`|`6`||
+
 
 
 ////
 //// define
 Game Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: GameType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`-1`||
+  |`Survival`|`0`||
+  |`Creative`|`1`||
+  |`Adventure`|`2`||
+  |`Default`|`5`||
+  |`Spectator`|`6`||
+  |`WorldDefault`|`Survival`||
+
 
 
 ////
 //// define
 Game Difficulty：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: Difficulty
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Peaceful`|`0`||
+  |`Easy`|`1`||
+  |`Normal`|`2`||
+  |`Hard`|`3`||
+  |`Count`|`4`||
+  |`Unknown`|`5`||
+
 
 
 ////
@@ -265,7 +297,14 @@ Achievements Disabled：<!-- md:samp bool -->
 //// define
 Editor World Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: Editor::WorldType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NonEditor`|`0`||
+  |`EditorProject`|`1`||
+  |`EditorTestLevel`|`2`||
+
 
 
 ////
@@ -293,7 +332,14 @@ Day Cycle Stop Time：<!-- md:samp varint -->
 //// define
 Education Edition Offer：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: EducationEditionOffer
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`RestOfWorld`|`1`||
+  |`China_Deprecated`|`2`||
+
 
 
 ////
@@ -349,14 +395,32 @@ Was LAN broadcasting intended to be enabled?：<!-- md:samp bool -->
 //// define
 Xbox Live Broadcast Setting：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: Social::GamePublishSetting
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoMultiPlay`|`0`||
+  |`InviteOnly`|`1`||
+  |`FriendsOnly`|`2`||
+  |`FriendsOfFriends`|`3`||
+  |`Public`|`4`||
+
 
 
 ////
 //// define
 Platform Broadcast Setting：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: Social::GamePublishSetting
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoMultiPlay`|`0`||
+  |`InviteOnly`|`1`||
+  |`FriendsOnly`|`2`||
+  |`FriendsOfFriends`|`3`||
+  |`Public`|`4`||
+
 
 
 ////
@@ -405,7 +469,15 @@ Start with Map Enabled?：<!-- md:samp bool -->
 //// define
 Player Permissions：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PlayerPermissionLevel
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Visitor`|`0`||
+  |`Member`|`1`||
+  |`Operator`|`2`||
+  |`Custom`|`3`||
+
 
 
 ////
@@ -531,7 +603,14 @@ Override force experimental gameplay has value：<!-- md:samp bool -->
 //// define
 ChatRestriction Level：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ChatRestrictionLevel
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Dropped`|`1`||
+  |`Disabled`|`2`||
+
 
 
 ////

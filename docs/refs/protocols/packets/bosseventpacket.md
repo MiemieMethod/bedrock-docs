@@ -125,7 +125,20 @@ Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Event Type：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: BossEventUpdateType
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`||
+  |`PlayerAdded`|`1`||
+  |`Remove`|`2`||
+  |`PlayerRemoved`|`3`||
+  |`Update_Percent`|`4`||
+  |`Update_Name`|`5`||
+  |`Update_Properties`|`6`||
+  |`Update_Style`|`7`||
+  |`Query`|`8`||
+
 
 
 ////

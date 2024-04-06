@@ -76,7 +76,13 @@ Criteria Name：<!-- md:samp string -->
 //// define
 Sort Order：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ObjectiveSortOrder
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Ascending`|`0`||
+  |`Descending`|`1`||
+
 
 
 ////

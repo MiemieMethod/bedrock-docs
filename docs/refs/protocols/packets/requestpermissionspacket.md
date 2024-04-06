@@ -47,7 +47,15 @@ Target Player Id's Raw ID：<!-- md:samp int64 -->
 //// define
 Player Permission Level：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PlayerPermissionLevel
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Visitor`|`0`||
+  |`Member`|`1`||
+  |`Operator`|`2`||
+  |`Custom`|`3`||
+
 
 
 ////

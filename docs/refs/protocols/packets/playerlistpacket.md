@@ -102,7 +102,13 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PlayerListPacketType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`||
+  |`Remove`|`1`||
+
 
 
 ////
@@ -169,7 +175,26 @@ Platform Chat Id：<!-- md:samp string -->
 ///////// define
 Build Platform：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: BuildPlatform
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Google`|`1`||
+  |`iOS`|`2`||
+  |`OSX`|`3`||
+  |`Amazon`|`4`||
+  |`GearVR`|`5`||
+  |`UWP`|`7`||
+  |`Win32`|`8`||
+  |`Dedicated`|`9`||
+  |`tvOS_Deprecated`|`10`||
+  |`Sony`|`11`||
+  |`Nx`|`12`||
+  |`Xbox`|`13`||
+  |`WindowsPhone_Deprecated`|`14`||
+  |`Linux`|`15`||
+  |`Unknown`|`-1`||
+
 
 
 /////////

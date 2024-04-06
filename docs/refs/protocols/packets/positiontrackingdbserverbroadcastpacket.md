@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PositionTrackingDBServerBroadcastPacket::Action
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Update`|`0`||
+  |`Destroy`|`1`||
+  |`NotFound`|`2`||
+
 
 
 ////

@@ -77,14 +77,28 @@ Book ID：<!-- md:samp string -->
 //// define
 Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PhotoType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Portfolio`|`0`||
+  |`PhotoItem`|`1`||
+  |`Book`|`2`||
+
 
 
 ////
 //// define
 Source Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PhotoType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Portfolio`|`0`||
+  |`PhotoItem`|`1`||
+  |`Book`|`2`||
+
 
 
 ////

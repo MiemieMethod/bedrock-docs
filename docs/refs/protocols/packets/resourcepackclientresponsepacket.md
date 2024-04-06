@@ -44,7 +44,15 @@ rankdir = LR
 //// define
 Response：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ResourcePackResponse
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Cancel`|`1`||
+  |`Downloading`|`2`||
+  |`DownloadingFinished`|`3`||
+  |`ResourcePackStackFinished`|`4`||
+
 
 
 ////

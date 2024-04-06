@@ -40,7 +40,13 @@ rankdir = LR
 //// define
 Type：<!-- md:samp short -->
 
-- 类型：<!-- md:samp short -->。enumeration: SpawnBiomeType
+- 类型：<!-- md:samp short -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Default`|`0`||
+  |`UserDefined`|`1`||
+
 
 
 ////

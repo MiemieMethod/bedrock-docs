@@ -76,7 +76,13 @@ PlatformId：<!-- md:samp string -->
 //// define
 Flags：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: EmotePacket::Flags
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`SERVER_SIDE`|`1 << 0`||
+  |`MUTE_EMOTE_CHAT`|`1 << 1`||
+
 
 
 ////

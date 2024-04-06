@@ -32,7 +32,17 @@ rankdir = LR
 //// define
 Difficulty：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: Difficulty
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Peaceful`|`0`||
+  |`Easy`|`1`||
+  |`Normal`|`2`||
+  |`Hard`|`3`||
+  |`Count`|`4`||
+  |`Unknown`|`5`||
+
 
 
 ////

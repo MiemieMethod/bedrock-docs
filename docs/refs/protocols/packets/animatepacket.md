@@ -70,7 +70,18 @@ rankdir = LR
 //// define
 Action：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: AnimatePacket::Action
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoAction`|`0`||
+  |`Swing`|`1`||
+  |`WakeUp`|`3`||
+  |`CriticalHit`|`4`||
+  |`MagicCriticalHit`|`5`||
+  |`RowRight`|`128`||
+  |`RowLeft`|`129`||
+
 
 
 ////

@@ -133,21 +133,45 @@ Last Edit Player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: Rotation
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Rotate90`|`1`||
+  |`Rotate180`|`2`||
+  |`Rotate270`|`3`||
+  |`Total`|`4`||
+
 
 
 ////
 //// define
 Mirror：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: Mirror
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`X`|`1`||
+  |`Z`|`2`||
+  |`XZ`|`3`||
+
 
 
 ////
 //// define
 Animation Mode：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: AnimationMode
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Layers`|`1`||
+  |`Blocks`|`2`||
+
 
 
 ////

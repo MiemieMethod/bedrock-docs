@@ -166,7 +166,23 @@ rankdir = LR
 //// define
 Message Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: TextPacketType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Raw`|`0`||
+  |`Chat`|`1`||
+  |`Translate`|`2`||
+  |`Popup`|`3`||
+  |`JukeboxPopup`|`4`||
+  |`Tip`|`5`||
+  |`SystemMessage`|`6`||
+  |`Whisper`|`7`||
+  |`Announcement`|`8`||
+  |`TextObjectWhisper`|`9`||
+  |`TextObject`|`10`||
+  |`TextObjectAnnouncement`|`11`||
+
 
 
 ////

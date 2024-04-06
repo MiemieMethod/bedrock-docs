@@ -50,7 +50,15 @@ rankdir = LR
 //// define
 Type：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: MapItemTrackedActor::Type
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Entity`|`0`||
+  |`BlockEntity`|`1`||
+  |`Other`|`2`||
+  |`COUNT`|`3`||
+
 
 
 ////

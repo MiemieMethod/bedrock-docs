@@ -32,7 +32,15 @@ rankdir = LR
 //// define
 Sim Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: SimulationType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Game`|`0`||
+  |`Editor`|`1`||
+  |`Test`|`2`||
+  |`INVALID`|`3`||
+
 
 
 ////

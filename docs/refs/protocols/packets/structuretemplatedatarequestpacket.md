@@ -65,7 +65,16 @@ Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresett
 //// define
 Requested Operation：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: StructureTemplateRequestOperation
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`ExportFromSaveMode`|`1`||
+  |`ExportFromLoadMode`|`2`||
+  |`QuerySavedStructure`|`3`||
+  |`Import`|`4`||
+
 
 
 ////

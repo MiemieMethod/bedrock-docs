@@ -40,7 +40,19 @@ rankdir = LR
 //// define
 Container ID：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: ContainerID
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`CONTAINER_ID_NONE`|`-1`||
+  |`CONTAINER_ID_INVENTORY`|`0`||
+  |`CONTAINER_ID_FIRST`|`1`||
+  |`CONTAINER_ID_LAST`|`100`||
+  |`CONTAINER_ID_OFFHAND`|`119`||
+  |`CONTAINER_ID_ARMOR`|`120`||
+  |`CONTAINER_ID_SELECTION_SLOTS`|`122`||
+  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`||
+
 
 
 ////

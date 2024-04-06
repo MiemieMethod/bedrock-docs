@@ -56,7 +56,20 @@ rankdir = LR
 //// define
 Title Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: SetTitlePacket::TitleType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Clear`|`0`||
+  |`Reset`|`1`||
+  |`Title`|`2`||
+  |`Subtitle`|`3`||
+  |`Actionbar`|`4`||
+  |`Times`|`5`||
+  |`TitleTextObject`|`6`||
+  |`SubtitleTextObject`|`7`||
+  |`ActionbarTextObject`|`8`||
+
 
 
 ////

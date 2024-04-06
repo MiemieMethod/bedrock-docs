@@ -40,14 +40,29 @@ rankdir = LR
 //// define
 Operation：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: CodeBuilderStorageQueryOptions::Operation
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Get`|`1`||
+  |`Set`|`2`||
+  |`Reset`|`3`||
+
 
 
 ////
 //// define
 Category：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: CodeBuilderStorageQueryOptions::Category
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`CodeStatus`|`1`||
+  |`Instantiation`|`2`||
+
 
 
 ////

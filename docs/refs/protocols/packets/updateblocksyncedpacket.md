@@ -87,7 +87,14 @@ Unique Actor Id：<!-- md:samp varint64 -->
 //// define
 Actor Sync Message：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。enumeration: ActorBlockSyncMessage::MessageId
+- 类型：<!-- md:samp varint64 -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NONE`|`0`||
+  |`CREATE`|`1`||
+  |`DESTROY`|`2`||
+
 
 
 ////

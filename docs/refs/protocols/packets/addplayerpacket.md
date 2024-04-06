@@ -173,7 +173,18 @@ Carried Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkite
 //// define
 Player Game Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: GameType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`-1`||
+  |`Survival`|`0`||
+  |`Creative`|`1`||
+  |`Adventure`|`2`||
+  |`Default`|`5`||
+  |`Spectator`|`6`||
+  |`WorldDefault`|`Survival`||
+
 
 
 ////
@@ -266,7 +277,26 @@ Device Id：<!-- md:samp string -->
 //// define
 Build Platform：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: BuildPlatform
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Google`|`1`||
+  |`iOS`|`2`||
+  |`OSX`|`3`||
+  |`Amazon`|`4`||
+  |`GearVR`|`5`||
+  |`UWP`|`7`||
+  |`Win32`|`8`||
+  |`Dedicated`|`9`||
+  |`tvOS_Deprecated`|`10`||
+  |`Sony`|`11`||
+  |`Nx`|`12`||
+  |`Xbox`|`13`||
+  |`WindowsPhone_Deprecated`|`14`||
+  |`Linux`|`15`||
+  |`Unknown`|`-1`||
+
 
 
 ////

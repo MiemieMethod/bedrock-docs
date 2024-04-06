@@ -70,7 +70,16 @@ RepeatCount：<!-- md:samp varint -->
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: Rotation
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Rotate90`|`1`||
+  |`Rotate180`|`2`||
+  |`Rotate270`|`3`||
+  |`Total`|`4`||
+
 
 
 ////

@@ -565,7 +565,17 @@ Flags：<!-- md:samp unsigned short -->
 ////// define
 Permission Level：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: CommandPermissionLevel
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Any`|`0`||
+  |`GameDirectors`|`1`||
+  |`Admin`|`2`||
+  |`Host`|`3`||
+  |`Owner`|`4`||
+  |`Internal`|`5`||
+
 
 
 //////

@@ -48,14 +48,35 @@ rankdir = LR
 //// define
 Left Inventory Tab：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: InventoryLeftTabIndex
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`RecipeConstruction`|`1`||
+  |`RecipeEquipment`|`2`||
+  |`RecipeItems`|`3`||
+  |`RecipeNature`|`4`||
+  |`RecipeSearch`|`5`||
+  |`Survival`|`6`||
+  |`Count`|`7`||
+
 
 
 ////
 //// define
 Right Inventory Tab：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: InventoryRightTabIndex
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`FullScreen`|`1`||
+  |`Crafting`|`2`||
+  |`Armor`|`3`||
+  |`Count`|`4`||
+
 
 
 ////
@@ -69,14 +90,32 @@ Filtering：<!-- md:samp bool -->
 //// define
 Layout Inv：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: InventoryLayout
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Survival`|`1`||
+  |`RecipeBook`|`2`||
+  |`Creative`|`3`||
+  |`Count`|`4`||
+
 
 
 ////
 //// define
 Layout Craft：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: InventoryLayout
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Survival`|`1`||
+  |`RecipeBook`|`2`||
+  |`Creative`|`3`||
+  |`Count`|`4`||
+
 
 
 ////

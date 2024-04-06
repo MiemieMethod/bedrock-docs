@@ -54,7 +54,17 @@ rankdir = LR
 //// define
 Source Type：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: InventorySourceType
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`InvalidInventory`|`std::numeric_limits<uint32_t>::max()`||
+  |`ContainerInventory`|`0`||
+  |`GlobalInventory`|`1`||
+  |`WorldInteraction`|`2`||
+  |`CreativeInventory`|`3`||
+  |`NonImplementedFeatureTODO`|`99999`||
+
 
 
 ////
@@ -69,7 +79,19 @@ Source Type：<!-- md:samp unsigned varint -->
 /////// define
 Container ID：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: ContainerID
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`CONTAINER_ID_NONE`|`-1`||
+  |`CONTAINER_ID_INVENTORY`|`0`||
+  |`CONTAINER_ID_FIRST`|`1`||
+  |`CONTAINER_ID_LAST`|`100`||
+  |`CONTAINER_ID_OFFHAND`|`119`||
+  |`CONTAINER_ID_ARMOR`|`120`||
+  |`CONTAINER_ID_SELECTION_SLOTS`|`122`||
+  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`||
+
 
 
 ///////
@@ -98,7 +120,13 @@ if (1)：<!-- md:samp [No Data] -->
 /////// define
 Bit Flags：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: InventorySource::InventorySourceFlags
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoFlag`|`0`||
+  |`WorldInteraction_Random`|`1`||
+
 
 
 ///////

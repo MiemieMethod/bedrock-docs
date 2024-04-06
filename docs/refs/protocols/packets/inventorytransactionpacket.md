@@ -158,7 +158,16 @@ Slot：<!-- md:samp byte -->
 //// define
 Transaction Type：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: ComplexInventoryTransaction::Type
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NormalTransaction`|`0`||
+  |`InventoryMismatch`|`1`||
+  |`ItemUseTransaction`|`2`||
+  |`ItemUseOnEntityTransaction`|`3`||
+  |`ItemReleaseTransaction`|`4`||
+
 
 
 ////

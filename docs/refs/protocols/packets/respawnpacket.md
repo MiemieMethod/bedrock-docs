@@ -47,7 +47,14 @@ Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 //// define
 State：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PlayerRespawnState
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`SearchingForSpawn`|`0`||
+  |`ReadyToSpawn`|`1`||
+  |`ClientReadyToSpawn`|`2`||
+
 
 
 ////

@@ -121,7 +121,35 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 Action type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ItemStackRequestActionType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Take`|`0`||
+  |`Place`|`1`||
+  |`Swap`|`2`||
+  |`Drop`|`3`||
+  |`Destroy`|`4`||
+  |`Consume`|`5`||
+  |`Create`|`6`||
+  |`PlaceInItemContainer`|`7`||
+  |`TakeFromItemContainer`|`8`||
+  |`ScreenLabTableCombine`|`9`||
+  |`ScreenBeaconPayment`|`10`||
+  |`ScreenHUDMineBlock`|`11`||
+  |`CraftRecipe`|`12`||
+  |`CraftRecipeAuto`|`13`||
+  |`CraftCreative`|`14`||
+  |`CraftRecipeOptional`|`15`||
+  |`CraftRepairAndDisenchant`|`16`||
+  |`CraftLoom`|`17`||
+  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`||
+  |`CraftResults_DEPRECATEDASKTYLAING`|`19`||
+  |`ifdef`|`20`||
+  |`TEST_INFRASTRUCTURE_ENABLED`|`21`||
+  |`Test`|`22`||
+  |`endif`|`23`||
+
 
 
 ////////
@@ -181,7 +209,28 @@ String To Filter：<!-- md:samp string -->
 ////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: TextProcessingEventOrigin
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`unknown`|`-1`||
+  |`ServerChatPublic`|`0`||
+  |`ServerChatWhisper`|`1`||
+  |`SignText`|`2`||
+  |`AnvilText`|`3`||
+  |`BookAndQuillText`|`4`||
+  |`CommandBlockText`|`5`||
+  |`BlockActorDataText`|`6`||
+  |`JoinEventText`|`7`||
+  |`LeaveEventText`|`8`||
+  |`SlashCommandChat`|`9`||
+  |`CartographyText`|`10`||
+  |`KickCommand`|`11`||
+  |`TitleCommand`|`12`||
+  |`SummonCommand`|`13`||
+  |`ServerForm`|`14`||
+  |`COUNT`|`15`||
+
 
 
 //////

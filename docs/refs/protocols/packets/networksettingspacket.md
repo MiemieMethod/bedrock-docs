@@ -55,7 +55,14 @@ Compression Threshold：<!-- md:samp unsigned short -->
 //// define
 CompressionAlgorithm：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。enumeration: PacketCompressionAlgorithm
+- 类型：<!-- md:samp unsigned short -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ZLib`|`0`||
+  |`Snappy`|`1`||
+  |`None`|`0xffff`||
+
 
 
 ////

@@ -122,7 +122,14 @@ Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockpo
 /////// define
 Command Block Mode：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: CommandBlockMode
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Normal`|`0`||
+  |`Repeating`|`1`||
+  |`Chain`|`2`||
+
 
 
 ///////

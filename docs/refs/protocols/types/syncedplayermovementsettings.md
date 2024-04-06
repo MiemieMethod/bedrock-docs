@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Authority Mode：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ServerAuthMovementMode
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ClientAuthoritative`|`0`||
+  |`ServerAuthoritative`|`1`||
+  |`ServerAuthoritativeWithRewind`|`2`||
+
 
 
 ////

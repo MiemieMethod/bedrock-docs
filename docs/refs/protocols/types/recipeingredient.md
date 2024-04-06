@@ -36,7 +36,17 @@ rankdir = LR
 //// define
 InternalType：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ItemDescriptor::InternalType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`Default`|`1`||
+  |`Molang`|`2`||
+  |`ItemTag`|`3`||
+  |`Deferred`|`4`||
+  |`ComplexAlias`|`5`||
+
 
 
 ////

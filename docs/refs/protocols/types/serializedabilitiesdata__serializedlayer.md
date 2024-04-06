@@ -48,7 +48,16 @@ rankdir = LR
 //// define
 SerializedLayer：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。enumeration: SerializedAbilitiesData::SerializedAbilitiesLayer
+- 类型：<!-- md:samp unsigned short -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`CustomCache`|`0`||
+  |`Base`|`1`||
+  |`Spectator`|`2`||
+  |`Commands`|`3`||
+  |`Editor`|`4`||
+
 
 
 ////

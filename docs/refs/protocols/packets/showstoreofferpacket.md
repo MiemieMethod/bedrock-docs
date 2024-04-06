@@ -43,7 +43,15 @@ Product ID：<!-- md:samp string -->
 //// define
 Redirect Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ShowStoreOfferRedirectType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`MarketplaceOffer`|`0`||
+  |`DressingRoomOffer`|`1`||
+  |`ThirdPartyServerPage`|`2`||
+  |`Count`|`3`||
+
 
 
 ////

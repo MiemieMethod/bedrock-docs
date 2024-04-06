@@ -62,7 +62,14 @@ Actor Unique ID - B：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md
 //// define
 Link Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ActorLinkType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Riding`|`1`||
+  |`Passenger`|`2`||
+
 
 
 ////

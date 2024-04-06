@@ -193,14 +193,33 @@ Amount：<!-- md:samp float -->
 //////// define
 Operation：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: AttributeModifierOperation
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`OPERATION_ADDITION`|`0`||
+  |`OPERATION_MULTIPLY_BASE`|`1`||
+  |`OPERATION_MULTIPLY_TOTAL`|`2`||
+  |`OPERATION_CAP`|`3`||
+  |`TOTAL_OPERATIONS`|`4`||
+  |`OPERATION_INVALID`|`TOTAL_OPERATIONS`||
+
 
 
 ////////
 //////// define
 Operand：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。enumeration: AttributeOperands
+- 类型：<!-- md:samp int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`OPERAND_MIN`|`0`||
+  |`OPERAND_MAX`|`1`||
+  |`OPERAND_CURRENT`|`2`||
+  |`TOTAL_OPERANDS`|`3`||
+  |`OPERAND_INVALID`|`TOTAL_OPERANDS`||
+
 
 
 ////////

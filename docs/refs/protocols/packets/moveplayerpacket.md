@@ -104,7 +104,15 @@ Y-Head Rotation：<!-- md:samp float -->
 //// define
 Position Mode：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PlayerPositionModeComponent::PositionMode
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Normal`|`0`||
+  |`Respawn`|`1`||
+  |`Teleport`|`2`||
+  |`OnlyHeadRot`|`3`||
+
 
 
 ////

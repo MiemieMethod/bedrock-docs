@@ -84,7 +84,18 @@ Should show bounding box?：<!-- md:samp bool -->
 //// define
 Structure Block Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: StructureBlockType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Data`|`0`||
+  |`Save`|`1`||
+  |`Load`|`2`||
+  |`Corner`|`3`||
+  |`Invalid`|`4`||
+  |`Export`|`5`||
+  |`_count`|`6`||
+
 
 
 ////
@@ -98,7 +109,13 @@ Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresett
 //// define
 Redstone Save Mode：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: StructureRedstoneSaveMode
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`SavesToMemory`|`0`||
+  |`SavesToDisk`|`1`||
+
 
 
 ////

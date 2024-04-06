@@ -158,7 +158,18 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Actor Game Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: GameType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`-1`||
+  |`Survival`|`0`||
+  |`Creative`|`1`||
+  |`Adventure`|`2`||
+  |`Default`|`5`||
+  |`Spectator`|`6`||
+  |`WorldDefault`|`Survival`||
+
 
 
 ////

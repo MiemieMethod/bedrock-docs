@@ -83,7 +83,14 @@ Enum Value：<!-- md:samp string -->
 //// define
 Update Type：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。enumeration: SoftEnumUpdateType
+- 类型：<!-- md:samp unsigned int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`||
+  |`Remove`|`1`||
+  |`Replace`|`2`||
+
 
 
 ////

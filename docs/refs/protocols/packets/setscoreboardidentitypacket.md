@@ -56,7 +56,13 @@ rankdir = LR
 //// define
 Scoreboard Identity Packet Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: ScoreboardIdentityPacketType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Update`|`0`||
+  |`Remove`|`1`||
+
 
 
 ////

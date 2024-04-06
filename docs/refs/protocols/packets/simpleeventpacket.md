@@ -32,7 +32,15 @@ rankdir = LR
 //// define
 Type：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。enumeration: SimpleEventPacket::Subtype
+- 类型：<!-- md:samp unsigned short -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`UninitializedSubtype`|`0`||
+  |`EnableCommands`|`1`||
+  |`DisableCommands`|`2`||
+  |`UnlockWorldTemplateSettings`|`3`||
+
 
 
 ////

@@ -171,7 +171,15 @@ Map ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Type Flags：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: ClientboundMapItemDataPacket::Type
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`TextureUpdate`|`1 << 1`||
+  |`DecorationUpdate`|`1 << 2`||
+  |`Creation`|`1 << 3`||
+
 
 
 ////

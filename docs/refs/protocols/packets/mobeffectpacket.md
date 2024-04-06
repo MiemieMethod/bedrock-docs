@@ -63,7 +63,15 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Event ID：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: MobEffectPacket::Event
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`Add`|`1`||
+  |`Update`|`2`||
+  |`Remove`|`3`||
+
 
 
 ////

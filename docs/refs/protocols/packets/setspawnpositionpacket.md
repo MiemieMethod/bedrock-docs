@@ -44,7 +44,13 @@ rankdir = LR
 //// define
 Spawn Position Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: SpawnPositionType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`PlayerRespawn`|`0`||
+  |`WorldSpawn`|`1`||
+
 
 
 ////

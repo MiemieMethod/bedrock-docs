@@ -146,7 +146,22 @@ rankdir = LR
 //// define
 Crafting Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: CraftingDataEntryType
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ShapelessRecipe`|`0`||
+  |`ShapedRecipe`|`1`||
+  |`FurnaceRecipe`|`2`||
+  |`FurnaceAuxRecipe`|`3`||
+  |`MultiRecipe`|`4`||
+  |`ShulkerBoxRecipe`|`5`||
+  |`ShapelessChemistryRecipe`|`6`||
+  |`ShapedChemistryRecipe`|`7`||
+  |`SmithingTransformRecipe`|`8`||
+  |`SmithingTrimRecipe`|`9`||
+  |`COUNT`|`10`||
+
 
 
 ////

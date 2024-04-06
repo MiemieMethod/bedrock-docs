@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Lesson Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: LessonAction
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Start`|`0`||
+  |`Complete`|`1`||
+  |`Restart`|`2`||
+
 
 
 ////

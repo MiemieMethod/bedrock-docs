@@ -36,7 +36,12 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: PositionTrackingDBClientRequestPacket::Action
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Query`|`0`||
+
 
 
 ////

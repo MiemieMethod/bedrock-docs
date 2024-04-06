@@ -58,14 +58,26 @@ Seconds：<!-- md:samp float -->
 //// define
 Shake Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: CameraShakeType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Positional`|`0`||
+  |`Rotational`|`1`||
+
 
 
 ////
 //// define
 Shake action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: CameraShakeAction
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`||
+  |`Stop`|`1`||
+
 
 
 ////

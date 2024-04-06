@@ -32,7 +32,21 @@ rankdir = LR
 //// define
 Status：<!-- md:samp big endian int -->
 
-- 类型：<!-- md:samp big endian int -->。enumeration: PlayStatus
+- 类型：<!-- md:samp big endian int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`LoginSuccess`|`0`||
+  |`LoginFailed_ClientOld`|`1`||
+  |`LoginFailed_ServerOld`|`2`||
+  |`PlayerSpawn`|`3`||
+  |`LoginFailed_InvalidTenant`|`4`||
+  |`LoginFailed_EditionMismatchEduToVanilla`|`5`||
+  |`LoginFailed_EditionMismatchVanillaToEdu`|`6`||
+  |`LoginFailed_ServerFullSubClient`|`7`||
+  |`LoginFailed_EditorMismatchEditorToVanilla`|`8`||
+  |`LoginFailed_EditorMismatchVanillaToEditor`|`9`||
+
 
 
 ////

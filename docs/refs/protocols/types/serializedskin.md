@@ -288,7 +288,15 @@ Image Bytes：<!-- md:samp string -->
 ////// define
 Animation Type：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。enumeration: persona::AnimatedTextureType
+- 类型：<!-- md:samp unsigned int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Face`|`1`||
+  |`Body32x32`|`2`||
+  |`Body128x128`|`3`||
+
 
 
 //////
@@ -302,7 +310,13 @@ Frame Count：<!-- md:samp float -->
 ////// define
 Animation Expression：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。enumeration: persona::AnimationExpression
+- 类型：<!-- md:samp unsigned int -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Linear`|`0`||
+  |`Blinking`|`1`||
+
 
 
 //////

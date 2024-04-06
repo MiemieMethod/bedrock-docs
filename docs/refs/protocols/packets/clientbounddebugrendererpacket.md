@@ -72,7 +72,14 @@ rankdir = LR
 //// define
 Debug Marker Type：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。enumeration: ClientboundDebugRendererPacket::Type
+- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`||
+  |`ClearDebugMarkers`|`1`||
+  |`AddDebugMarkerCube`|`2`||
+
 
 
 ////

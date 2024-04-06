@@ -61,7 +61,23 @@ rankdir = LR
 ////// define
 Hud Element：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: HudElement
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`PaperDoll`|`0`||
+  |`Armor`|`1`||
+  |`ToolTips`|`2`||
+  |`TouchControls`|`3`||
+  |`Crosshair`|`4`||
+  |`HotBar`|`5`||
+  |`Health`|`6`||
+  |`ProgressBar`|`7`||
+  |`Hunger`|`8`||
+  |`AirBubbles`|`9`||
+  |`HorseHealth`|`10`||
+  |`Count`|`11`||
+
 
 
 //////
@@ -72,7 +88,14 @@ Hud Element：<!-- md:samp varint -->
 //// define
 isHudVisible：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。enumeration: HudVisibility
+- 类型：<!-- md:samp varint -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Hide`|`0`||
+  |`Reset`|`1`||
+  |`Count`|`2`||
+
 
 
 ////

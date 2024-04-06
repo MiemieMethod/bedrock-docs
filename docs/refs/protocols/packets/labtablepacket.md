@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: LabTablePacket::Type
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`StartCombine`|`0`||
+  |`StartReaction`|`1`||
+  |`Reset`|`2`||
+
 
 
 ////
@@ -54,7 +61,24 @@ Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 //// define
 Reaction：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: LabTableReactionType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`IceBomb`|`1`||
+  |`Bleach`|`2`||
+  |`ElephantToothpaste`|`3`||
+  |`Fertilizer`|`4`||
+  |`HeatBlock`|`5`||
+  |`MagnesiumSalts`|`6`||
+  |`MiscFire`|`7`||
+  |`MiscExplosion`|`8`||
+  |`MiscLava`|`9`||
+  |`MiscMystical`|`10`||
+  |`MiscSmoke`|`11`||
+  |`MiscLargeSmoke`|`12`||
+
 
 
 ////

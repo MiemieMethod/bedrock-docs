@@ -1161,7 +1161,18 @@ SubChunk Pos Offset：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../ty
 ////// define
 SubChunk Request Result：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: SubChunkPacket::SubChunkRequestResult
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`0`||
+  |`Success`|`1`||
+  |`LevelChunkDoesntExist`|`2`||
+  |`WrongDimension`|`3`||
+  |`PlayerDoesntExist`|`4`||
+  |`IndexOutOfBounds`|`5`||
+  |`SuccessAllAir`|`6`||
+
 
 
 //////
@@ -1198,7 +1209,15 @@ Serialized Sub Chunk：<!-- md:samp string -->
 ////// define
 Height Map Data Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: SubChunkPacket::HeightMapDataType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoData`|`0`||
+  |`HasData`|`1`||
+  |`AllTooHigh`|`2`||
+  |`AllTooLow`|`3`||
+
 
 
 //////

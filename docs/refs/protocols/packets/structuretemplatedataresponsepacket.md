@@ -80,7 +80,15 @@ Failure：<!-- md:samp bool -->
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: StructureTemplateResponseType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Export`|`1`||
+  |`Query`|`2`||
+  |`Import`|`3`||
+
 
 
 ///////
@@ -112,7 +120,15 @@ Structure's NBT：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。enumeration: StructureTemplateResponseType
+- 类型：<!-- md:samp byte -->。枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`||
+  |`Export`|`1`||
+  |`Query`|`2`||
+  |`Import`|`3`||
+
 
 
 ///////
