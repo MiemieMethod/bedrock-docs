@@ -343,8 +343,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -1084,6 +1082,8 @@
   |`weathered_cut_copper_slab`||
   |`minecraft:dark_oak_leaves`||
   |`dark_oak_leaves`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -1208,6 +1208,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -1905,6 +1907,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`minecraft:chicken`||
   |`chicken`||
   |`minecraft:rabbit`||
@@ -2317,6 +2321,8 @@
   |`crossbow`||
   |`minecraft:mace`||
   |`mace`||
+  |`minecraft:ominous_bottle`||
+  |`ominous_bottle`||
   |`minecraft:shield`||
   |`shield`||
   |`minecraft:cooked_chicken`||
@@ -2753,6 +2759,8 @@
   |`wither_spawn_egg`||
   |`minecraft:ender_dragon_spawn_egg`||
   |`ender_dragon_spawn_egg`||
+  |`minecraft:ominous_trial_key`||
+  |`ominous_trial_key`||
   |`speckled_melon`||
   |`real_double_stone_slab4`||
   |`nametag`||

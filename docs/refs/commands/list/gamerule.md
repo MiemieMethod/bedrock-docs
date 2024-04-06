@@ -67,6 +67,7 @@
   |`showbordereffect`||
   |`showrecipemessages`||
   |`projectilescanbreakblocks`||
+  |`tntexplosiondropdecay`||
 
 
 `value`：<!-- md:samp Boolean -->

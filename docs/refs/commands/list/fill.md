@@ -392,8 +392,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -1238,6 +1236,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -1380,6 +1380,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -2166,6 +2168,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -2575,8 +2579,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -3421,6 +3423,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -3563,6 +3567,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -4349,6 +4355,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -4727,8 +4735,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -5573,6 +5579,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -5715,6 +5723,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -6501,6 +6511,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -6897,8 +6909,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -7743,6 +7753,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -7885,6 +7897,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -8671,6 +8685,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -9079,8 +9095,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -9925,6 +9939,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -10067,6 +10083,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -10853,6 +10871,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -11257,8 +11277,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -12103,6 +12121,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -12245,6 +12265,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -13031,6 +13053,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -13409,8 +13433,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -14255,6 +14277,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -14397,6 +14421,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -15183,6 +15209,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -15579,8 +15607,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -16425,6 +16451,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -16567,6 +16595,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -17353,6 +17383,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 
@@ -17727,8 +17759,6 @@
   |`piston`||
   |`minecraft:brown_carpet`||
   |`brown_carpet`||
-  |`minecraft:tallgrass`||
-  |`tallgrass`||
   |`minecraft:stone_brick_stairs`||
   |`stone_brick_stairs`||
   |`minecraft:gray_candle`||
@@ -18573,6 +18603,8 @@
   |`dark_oak_leaves`||
   |`minecraft:fire`||
   |`fire`||
+  |`minecraft:fern`||
+  |`fern`||
   |`minecraft:torchflower`||
   |`torchflower`||
   |`minecraft:end_portal_frame`||
@@ -18715,6 +18747,8 @@
   |`purple_concrete_powder`||
   |`minecraft:pink_glazed_terracotta`||
   |`pink_glazed_terracotta`||
+  |`minecraft:short_grass`||
+  |`short_grass`||
   |`minecraft:waxed_weathered_cut_copper_slab`||
   |`waxed_weathered_cut_copper_slab`||
   |`minecraft:stonebrick`||
@@ -19501,6 +19535,8 @@
   |`minecraft:coral_fan_dead`||
   |`red_flower`||
   |`minecraft:red_flower`||
+  |`tallgrass`||
+  |`minecraft:tallgrass`||
   |`lava_cauldron`||
   |`minecraft:lava_cauldron`||
 

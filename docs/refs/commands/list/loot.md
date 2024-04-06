@@ -72,6 +72,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -105,8 +115,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -125,8 +135,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -150,14 +158,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -237,6 +237,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -319,9 +321,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -756,6 +758,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -766,6 +769,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -816,8 +825,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -919,9 +926,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -1002,7 +1009,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -1046,9 +1052,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -1062,6 +1065,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -1103,11 +1109,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -1153,7 +1159,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -1185,7 +1190,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -1266,6 +1270,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -1298,7 +1303,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -1681,6 +1685,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -1714,8 +1728,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -1734,8 +1748,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -1759,14 +1771,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -1846,6 +1850,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -1928,9 +1934,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -2365,6 +2371,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -2375,6 +2382,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -2425,8 +2438,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -2528,9 +2539,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -2611,7 +2622,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -2655,9 +2665,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -2671,6 +2678,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -2712,11 +2722,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -2762,7 +2772,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -2794,7 +2803,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -2875,6 +2883,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -2907,7 +2916,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -3290,6 +3298,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -3323,8 +3341,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -3343,8 +3361,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -3368,14 +3384,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -3455,6 +3463,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -3537,9 +3547,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -3974,6 +3984,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -3984,6 +3995,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -4034,8 +4051,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -4137,9 +4152,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -4220,7 +4235,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -4264,9 +4278,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -4280,6 +4291,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -4321,11 +4335,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -4371,7 +4385,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -4403,7 +4416,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -4484,6 +4496,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -4516,7 +4529,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -4899,6 +4911,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -4932,8 +4954,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -4952,8 +4974,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -4977,14 +4997,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -5064,6 +5076,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -5146,9 +5160,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -5583,6 +5597,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -5593,6 +5608,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -5643,8 +5664,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -5746,9 +5765,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -5829,7 +5848,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -5873,9 +5891,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -5889,6 +5904,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -5930,11 +5948,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -5980,7 +5998,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -6012,7 +6029,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -6093,6 +6109,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -6125,7 +6142,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -6508,6 +6524,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -6541,8 +6567,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -6561,8 +6587,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -6586,14 +6610,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -6673,6 +6689,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -6755,9 +6773,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -7192,6 +7210,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -7202,6 +7221,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -7252,8 +7277,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -7355,9 +7378,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -7438,7 +7461,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -7482,9 +7504,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -7498,6 +7517,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -7539,11 +7561,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -7589,7 +7611,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -7621,7 +7642,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -7702,6 +7722,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -7734,7 +7755,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -8117,6 +8137,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -8150,8 +8180,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -8170,8 +8200,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -8195,14 +8223,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -8282,6 +8302,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -8364,9 +8386,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -8801,6 +8823,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -8811,6 +8834,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -8861,8 +8890,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -8964,9 +8991,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -9047,7 +9074,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -9091,9 +9117,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -9107,6 +9130,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -9148,11 +9174,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -9198,7 +9224,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -9230,7 +9255,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -9311,6 +9335,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -9343,7 +9368,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -9759,6 +9783,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -9792,8 +9826,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -9812,8 +9846,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -9837,14 +9869,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -9924,6 +9948,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -10006,9 +10032,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -10443,6 +10469,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -10453,6 +10480,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -10503,8 +10536,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -10606,9 +10637,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -10689,7 +10720,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -10733,9 +10763,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -10749,6 +10776,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -10790,11 +10820,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -10840,7 +10870,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -10872,7 +10901,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -10953,6 +10981,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -10985,7 +11014,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -11397,6 +11425,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -11430,8 +11468,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -11450,8 +11488,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -11475,14 +11511,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -11562,6 +11590,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -11644,9 +11674,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -12081,6 +12111,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -12091,6 +12122,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -12141,8 +12178,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -12244,9 +12279,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -12327,7 +12362,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -12371,9 +12405,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -12387,6 +12418,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -12428,11 +12462,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -12478,7 +12512,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -12510,7 +12543,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -12591,6 +12623,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -12623,7 +12656,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -13035,6 +13067,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -13068,8 +13110,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -13088,8 +13130,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -13113,14 +13153,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -13200,6 +13232,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -13282,9 +13316,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -13719,6 +13753,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -13729,6 +13764,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -13779,8 +13820,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -13882,9 +13921,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -13965,7 +14004,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -14009,9 +14047,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -14025,6 +14060,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -14066,11 +14104,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -14116,7 +14154,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -14148,7 +14185,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -14229,6 +14265,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -14261,7 +14298,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -14669,6 +14705,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -14702,8 +14748,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -14722,8 +14768,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -14747,14 +14791,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -14834,6 +14870,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -14916,9 +14954,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -15353,6 +15391,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -15363,6 +15402,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -15413,8 +15458,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -15516,9 +15559,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -15599,7 +15642,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -15643,9 +15685,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -15659,6 +15698,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -15700,11 +15742,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -15750,7 +15792,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -15782,7 +15823,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -15863,6 +15903,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -15895,7 +15936,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -16294,6 +16334,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -16327,8 +16377,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -16347,8 +16397,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -16372,14 +16420,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -16459,6 +16499,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -16541,9 +16583,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -16978,6 +17020,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -16988,6 +17031,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -17038,8 +17087,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -17141,9 +17188,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -17224,7 +17271,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -17268,9 +17314,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -17284,6 +17327,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -17325,11 +17371,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -17375,7 +17421,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -17407,7 +17452,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -17488,6 +17532,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -17520,7 +17565,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -17915,6 +17959,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -17948,8 +18002,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -17968,8 +18022,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -17993,14 +18045,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -18080,6 +18124,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -18162,9 +18208,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -18599,6 +18645,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -18609,6 +18656,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -18659,8 +18712,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -18762,9 +18813,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -18845,7 +18896,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -18889,9 +18939,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -18905,6 +18952,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -18946,11 +18996,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -18996,7 +19046,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -19028,7 +19077,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -19109,6 +19157,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -19141,7 +19190,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -19540,6 +19588,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -19573,8 +19631,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -19593,8 +19651,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -19618,14 +19674,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -19705,6 +19753,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -19787,9 +19837,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -20224,6 +20274,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -20234,6 +20285,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -20284,8 +20341,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -20387,9 +20442,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -20470,7 +20525,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -20514,9 +20568,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -20530,6 +20581,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -20571,11 +20625,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -20621,7 +20675,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -20653,7 +20706,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -20734,6 +20786,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -20766,7 +20819,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||
@@ -21161,6 +21213,16 @@
   |`minecraft:element_50`||
   |`minecraft:bamboo_sign`||
   |`minecraft:apple`||
+  |`minecraft:raw_gold_block`||
+  |`minecraft:vex_armor_trim_smithing_template`||
+  |`minecraft:black_carpet`||
+  |`minecraft:carrot`||
+  |`minecraft:strider_spawn_egg`||
+  |`minecraft:command_block`||
+  |`minecraft:potion`||
+  |`minecraft:chicken`||
+  |`minecraft:ominous_trial_key`||
+  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:bookshelf`||
   |`minecraft:golden_horse_armor`||
   |`minecraft:smooth_quartz_stairs`||
@@ -21194,8 +21256,8 @@
   |`minecraft:porkchop`||
   |`minecraft:cookie`||
   |`minecraft:music_disc_chirp`||
-  |`minecraft:cooked_rabbit`||
   |`minecraft:prismarine_bricks_stairs`||
+  |`minecraft:cooked_rabbit`||
   |`minecraft:glow_squid_spawn_egg`||
   |`minecraft:item.iron_door`||
   |`minecraft:cod`||
@@ -21214,8 +21276,6 @@
   |`minecraft:silver_glazed_terracotta`||
   |`minecraft:cocoa_beans`||
   |`minecraft:tropical_fish`||
-  |`minecraft:stone_axe`||
-  |`minecraft:stained_glass_pane`||
   |`minecraft:bucket`||
   |`minecraft:ancient_debris`||
   |`minecraft:trapped_chest`||
@@ -21239,14 +21299,6 @@
   |`minecraft:exposed_copper`||
   |`minecraft:cooked_beef`||
   |`minecraft:comparator`||
-  |`minecraft:raw_gold_block`||
-  |`minecraft:vex_armor_trim_smithing_template`||
-  |`minecraft:black_carpet`||
-  |`minecraft:carrot`||
-  |`minecraft:strider_spawn_egg`||
-  |`minecraft:command_block`||
-  |`minecraft:potion`||
-  |`minecraft:chicken`||
   |`minecraft:rotten_flesh`||
   |`minecraft:element_62`||
   |`minecraft:dirt`||
@@ -21326,6 +21378,8 @@
   |`minecraft:salmon_bucket`||
   |`minecraft:planks`||
   |`minecraft:stone_pickaxe`||
+  |`minecraft:stone_axe`||
+  |`minecraft:stained_glass_pane`||
   |`minecraft:oxidized_copper_trapdoor`||
   |`minecraft:smithing_table`||
   |`minecraft:diamond_sword`||
@@ -21408,9 +21462,9 @@
   |`minecraft:hard_cyan_stained_glass_pane`||
   |`minecraft:ender_eye`||
   |`minecraft:diamond_helmet`||
+  |`minecraft:sand`||
   |`minecraft:stone_pressure_plate`||
   |`minecraft:diamond_chestplate`||
-  |`minecraft:sand`||
   |`minecraft:cut_copper_slab`||
   |`minecraft:axolotl_spawn_egg`||
   |`minecraft:diamond_leggings`||
@@ -21845,6 +21899,7 @@
   |`minecraft:field_masoned_banner_pattern`||
   |`minecraft:bordure_indented_banner_pattern`||
   |`minecraft:purple_candle_cake`||
+  |`minecraft:short_grass`||
   |`minecraft:orange_shulker_box`||
   |`minecraft:potatoes`||
   |`minecraft:piglin_banner_pattern`||
@@ -21855,6 +21910,12 @@
   |`minecraft:honeycomb`||
   |`minecraft:honey_bottle`||
   |`minecraft:red_nether_brick`||
+  |`minecraft:stripped_warped_hyphae`||
+  |`minecraft:mangrove_sign`||
+  |`minecraft:blue_candle_cake`||
+  |`minecraft:magma`||
+  |`minecraft:element_22`||
+  |`minecraft:ominous_bottle`||
   |`minecraft:compound`||
   |`minecraft:ice_bomb`||
   |`minecraft:medicine`||
@@ -21905,8 +21966,6 @@
   |`minecraft:frog_spawn`||
   |`minecraft:waxed_weathered_double_cut_copper_slab`||
   |`minecraft:allay_spawn_egg`||
-  |`minecraft:stripped_warped_hyphae`||
-  |`minecraft:mangrove_sign`||
   |`minecraft:mangrove_slab`||
   |`minecraft:mangrove_propagule`||
   |`minecraft:mangrove_roots`||
@@ -22008,9 +22067,9 @@
   |`minecraft:deepslate_coal_ore`||
   |`minecraft:tuff_slab`||
   |`minecraft:element_9`||
+  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:polished_tuff_slab`||
   |`minecraft:light_blue_wool`||
-  |`minecraft:waxed_oxidized_cut_copper`||
   |`minecraft:oxidized_chiseled_copper`||
   |`minecraft:birch_planks`||
   |`minecraft:tuff_brick_slab`||
@@ -22091,7 +22150,6 @@
   |`minecraft:coral_fan`||
   |`minecraft:dead_brain_coral_fan`||
   |`minecraft:dead_bubble_coral_fan`||
-  |`minecraft:dead_fire_coral_fan`||
   |`minecraft:dead_horn_coral_fan`||
   |`minecraft:lily_of_the_valley`||
   |`minecraft:polished_blackstone_button`||
@@ -22135,9 +22193,6 @@
   |`minecraft:light_blue_concrete_powder`||
   |`minecraft:acacia_planks`||
   |`minecraft:dark_oak_planks`||
-  |`minecraft:blue_candle_cake`||
-  |`minecraft:magma`||
-  |`minecraft:element_22`||
   |`minecraft:quartz_block`||
   |`minecraft:tube_coral`||
   |`minecraft:hard_black_stained_glass_pane`||
@@ -22151,6 +22206,9 @@
   |`minecraft:dead_bubble_coral`||
   |`minecraft:dead_fire_coral`||
   |`minecraft:purple_stained_glass_pane`||
+  |`minecraft:element_6`||
+  |`minecraft:waxed_cut_copper_stairs`||
+  |`minecraft:fern`||
   |`minecraft:soul_soil`||
   |`minecraft:acacia_pressure_plate`||
   |`minecraft:tallgrass`||
@@ -22192,11 +22250,11 @@
   |`minecraft:stripped_jungle_wood`||
   |`minecraft:element_64`||
   |`minecraft:yellow_stained_glass`||
-  |`minecraft:lime_stained_glass`||
-  |`minecraft:mud_brick_double_slab`||
   |`minecraft:item.hopper`||
   |`minecraft:wood`||
   |`minecraft:hard_magenta_stained_glass`||
+  |`minecraft:mud_brick_double_slab`||
+  |`minecraft:lime_stained_glass`||
   |`minecraft:crimson_double_slab`||
   |`minecraft:hard_purple_stained_glass`||
   |`minecraft:pink_stained_glass`||
@@ -22242,7 +22300,6 @@
   |`minecraft:stripped_oak_wood`||
   |`minecraft:birch_wood`||
   |`minecraft:stripped_birch_wood`||
-  |`minecraft:hanging_roots`||
   |`minecraft:dark_oak_wood`||
   |`minecraft:stripped_dark_oak_wood`||
   |`minecraft:hard_white_stained_glass`||
@@ -22274,7 +22331,6 @@
   |`minecraft:polished_deepslate_wall`||
   |`minecraft:black_candle`||
   |`minecraft:element_5`||
-  |`minecraft:element_6`||
   |`minecraft:element_8`||
   |`minecraft:element_10`||
   |`minecraft:element_11`||
@@ -22355,6 +22411,7 @@
   |`minecraft:cherry_pressure_plate`||
   |`minecraft:crimson_wall_sign`||
   |`minecraft:cobbled_deepslate_stairs`||
+  |`minecraft:hanging_roots`||
   |`minecraft:calcite`||
   |`minecraft:stripped_dark_oak_log`||
   |`minecraft:lime_glazed_terracotta`||
@@ -22387,7 +22444,6 @@
   |`minecraft:copper_grate`||
   |`minecraft:powered_comparator`||
   |`minecraft:warped_wall_sign`||
-  |`minecraft:waxed_cut_copper_stairs`||
   |`minecraft:mangrove_double_slab`||
   |`minecraft:waxed_exposed_copper_grate`||
   |`minecraft:oxidized_double_cut_copper_slab`||

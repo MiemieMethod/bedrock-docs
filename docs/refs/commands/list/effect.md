@@ -79,6 +79,11 @@
   |`bad_omen`||
   |`village_hero`||
   |`darkness`||
+  |`trial_omen`||
+  |`wind_charged`||
+  |`weaving`||
+  |`oozing`||
+  |`infested`||
 
 
 `seconds`：<!-- md:samp int -->

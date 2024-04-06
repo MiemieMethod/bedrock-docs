@@ -1882,6 +1882,10 @@
   |`weapon_arrow_recipe_40`||
   |`weapon_arrow_recipe_41`||
   |`weapon_arrow_recipe_42`||
+  |`weapon_arrow_recipe_43`||
+  |`weapon_arrow_recipe_44`||
+  |`weapon_arrow_recipe_45`||
+  |`weapon_arrow_recipe_46`||
   |`decorated_pot_base_recipeId`||
 
 
@@ -3764,6 +3768,10 @@
   |`weapon_arrow_recipe_40`||
   |`weapon_arrow_recipe_41`||
   |`weapon_arrow_recipe_42`||
+  |`weapon_arrow_recipe_43`||
+  |`weapon_arrow_recipe_44`||
+  |`weapon_arrow_recipe_45`||
+  |`weapon_arrow_recipe_46`||
   |`decorated_pot_base_recipeId`||
 
 
