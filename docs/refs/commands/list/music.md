@@ -1,6 +1,6 @@
 # `/music`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/music`命令Allows you to control playing music tracks.
 

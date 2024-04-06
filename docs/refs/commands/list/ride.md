@@ -1,6 +1,6 @@
 # `/ride`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/ride`命令Makes entities ride other entities, stops entities from riding, makes rides evict their riders, or summons rides or riders.
 

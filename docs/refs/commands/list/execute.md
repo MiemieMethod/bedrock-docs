@@ -1,6 +1,6 @@
 # `/execute`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/execute`命令Executes a command on behalf of one or more entities.
 

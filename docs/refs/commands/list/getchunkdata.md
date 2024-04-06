@@ -1,6 +1,6 @@
 # `/getchunkdata`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/getchunkdata`命令Gets pixels for a specific chunk.
 

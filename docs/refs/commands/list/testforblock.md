@@ -1,6 +1,6 @@
 # `/testforblock`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/testforblock`命令Tests whether a certain block is in a specific location.
 

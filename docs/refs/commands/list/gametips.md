@@ -1,6 +1,6 @@
 # `/gametips`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/gametips`命令Enable or disable the game tips on this device
 

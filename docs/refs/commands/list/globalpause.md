@@ -1,6 +1,6 @@
 # `/globalpause`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/globalpause`命令Sets or gets the paused state of the game for all players.
 

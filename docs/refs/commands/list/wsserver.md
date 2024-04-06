@@ -1,6 +1,6 @@
 # `/wsserver`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/wsserver`命令Attempts to connect to the websocket server on the provided URL.
 

@@ -1,6 +1,6 @@
 # `/scoreboard`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/scoreboard`命令Tracks and displays scores for various objectives.
 

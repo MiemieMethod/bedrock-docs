@@ -1,6 +1,6 @@
 # `/fill`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/fill`命令Fills all or parts of a region with a specific block.
 

@@ -1,6 +1,6 @@
 # `/worldbuilder`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/worldbuilder`命令Toggle World Builder status of caller.
 

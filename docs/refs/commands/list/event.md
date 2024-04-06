@@ -1,6 +1,6 @@
 # `/event`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/event`命令Triggers an event for the specified object(s)
 

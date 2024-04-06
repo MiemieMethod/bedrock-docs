@@ -1,6 +1,6 @@
 # `/clearrealmevents`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/clearrealmevents`命令Clears all Realm Events stored in the world data.
 

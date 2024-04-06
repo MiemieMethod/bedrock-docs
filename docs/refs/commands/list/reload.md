@@ -1,6 +1,6 @@
 # `/reload`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/reload`命令Reloads all function and script files from all behavior packs.
 

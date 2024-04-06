@@ -1,6 +1,6 @@
 # `/querytarget`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/querytarget`命令Gets transform, name, and id information about the given target entity or entities.
 

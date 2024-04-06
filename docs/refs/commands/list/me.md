@@ -1,6 +1,6 @@
 # `/me`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/me`命令Displays a message about yourself.
 

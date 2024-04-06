@@ -1,6 +1,6 @@
 # `/sendshowstoreoffer`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/sendshowstoreoffer`命令Sends a request to show a store offer to the target player.
 

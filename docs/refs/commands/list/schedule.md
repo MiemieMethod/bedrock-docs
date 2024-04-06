@@ -1,6 +1,6 @@
 # `/schedule`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/schedule`命令Schedules an action to be executed once an area is loaded, or after a certain amount of time.
 

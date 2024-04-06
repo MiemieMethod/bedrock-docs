@@ -1,6 +1,6 @@
 # `/gettopsolidblock`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/gettopsolidblock`命令Gets the position of the top non-air block below the specified position
 

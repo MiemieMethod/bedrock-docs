@@ -1,6 +1,6 @@
 # `/fog`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/fog`命令Add or remove fog settings file
 

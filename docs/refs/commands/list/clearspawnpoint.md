@@ -1,6 +1,6 @@
 # `/clearspawnpoint`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/clearspawnpoint`命令Removes the spawn point for a player.
 

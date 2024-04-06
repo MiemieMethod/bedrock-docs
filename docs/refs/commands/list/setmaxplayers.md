@@ -1,6 +1,6 @@
 # `/setmaxplayers`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/setmaxplayers`命令Sets the maximum number of players for this game session.
 

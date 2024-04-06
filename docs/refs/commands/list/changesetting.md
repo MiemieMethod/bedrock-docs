@@ -1,6 +1,6 @@
 # `/changesetting`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/changesetting`命令Changes a setting on the dedicated server while it's running.
 

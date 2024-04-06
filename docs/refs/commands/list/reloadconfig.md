@@ -1,6 +1,6 @@
 # `/reloadconfig`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/reloadconfig`命令Reloads configuration files relating to variables, secrets, permissions, etc.
 

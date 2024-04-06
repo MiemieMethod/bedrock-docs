@@ -1,6 +1,6 @@
 # `/inputpermission`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/inputpermission`命令Sets whether or not a player's input can affect their character.
 

@@ -1,6 +1,6 @@
 # `/op`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/op`命令Grants operator status to a player.
 

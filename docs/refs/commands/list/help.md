@@ -1,6 +1,6 @@
 # `/help`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/help`命令Provides help/list of commands.
 

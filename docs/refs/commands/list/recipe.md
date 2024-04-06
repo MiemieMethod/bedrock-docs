@@ -1,6 +1,6 @@
 # `/recipe`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/recipe`命令Unlocks recipe in the recipe book for a player.
 

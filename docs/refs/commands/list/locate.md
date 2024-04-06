@@ -1,6 +1,6 @@
 # `/locate`
 
-> 文档版本：1.20.80.24
+> 文档版本：1.21.0.20
 
 `/locate`命令Displays the coordinates for the closest structure or biome of a given type.
 
