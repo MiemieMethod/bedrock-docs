@@ -1,8 +1,8 @@
-# <!-- md:samp Fixed Float -->
+# <!-- md:samp fixed float -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp Fixed Float -->类型。
+<!-- md:samp fixed float -->类型。
 
 ## 结构
 
@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='Fixed Float'
+```title='fixed float'
 [modified_float_value]
 ```
 

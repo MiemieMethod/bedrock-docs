@@ -1,8 +1,8 @@
-# <!-- md:samp String -->
+# <!-- md:samp string -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp String -->类型。
+<!-- md:samp string -->类型。
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 
 ## 字段
 
-```title='String'
+```title='string'
 [byte_array]
 ```
 

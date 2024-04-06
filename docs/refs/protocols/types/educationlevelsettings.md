@@ -115,7 +115,7 @@ Agent Capabilities：[<!-- md:samp std::optional&lt;struct AgentCapabilities&gt;
 
 ////
 //// define
-Code Builder Override Uri：[<!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->](../types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md)
+Code Builder Override Uri：[<!-- md:samp std::optional&lt;std::string&gt; -->](../types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md)
 
 - 特殊类型。
 

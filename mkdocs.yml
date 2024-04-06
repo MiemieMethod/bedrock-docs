@@ -757,7 +757,7 @@ nav:
         - <samp>EduSharedUriResource</samp>: refs/protocols/types/edushareduriresource.md
         - <samp>EntityNetId</samp>: refs/protocols/types/entitynetid.md
         - <samp>Experiments</samp>: refs/protocols/types/experiments.md
-        - <samp>Fixed Float</samp>: refs/protocols/types/fixed_float.md
+        - <samp>fixed float</samp>: refs/protocols/types/fixed_float.md
         - <samp>GameRulesChangedPacketData</samp>: refs/protocols/types/gameruleschangedpacketdata.md
         - <samp>InventoryAction</samp>: refs/protocols/types/inventoryaction.md
         - <samp>InventorySource</samp>: refs/protocols/types/inventorysource.md
@@ -808,7 +808,7 @@ nav:
         - <samp>std::optional&lt;bool&gt;</samp>: refs/protocols/types/std__optional_bool_.md
         - <samp>std::optional&lt;class Json::Value&gt;</samp>: refs/protocols/types/std__optional_class_json__value_.md
         - <samp>std::optional&lt;class MolangVariableMap&gt;</samp>: refs/protocols/types/std__optional_class_molangvariablemap_.md
-        - <samp>std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt;</samp>: refs/protocols/types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md
+        - <samp>std::optional&lt;std::string&gt;</samp>: refs/protocols/types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md
         - <samp>std::optional&lt;enum CameraPreset::AudioListener&gt;</samp>: refs/protocols/types/std__optional_enum_camerapreset__audiolistener_.md
         - <samp>std::optional&lt;enum ModalFormCancelReason&gt;</samp>: refs/protocols/types/std__optional_enum_modalformcancelreason_.md
         - <samp>std::optional&lt;float&gt;</samp>: refs/protocols/types/std__optional_float_.md
@@ -816,8 +816,8 @@ nav:
         - <samp>std::optional&lt;struct CameraInstruction::FadeInstruction&gt;</samp>: refs/protocols/types/std__optional_struct_camerainstruction__fadeinstruction_.md
         - <samp>std::optional&lt;struct CameraInstruction::SetInstruction&gt;</samp>: refs/protocols/types/std__optional_struct_camerainstruction__setinstruction_.md
         - <samp>std::optional&lt;struct ExternalLinkSettings&gt;</samp>: refs/protocols/types/std__optional_struct_externallinksettings_.md
-        - <samp>std::vector&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt;,class std::allocator&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt; &gt; &gt;</samp>: refs/protocols/types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md
-        - <samp>String</samp>: refs/protocols/types/string.md
+        - <samp>std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt;</samp>: refs/protocols/types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md
+        - <samp>string</samp>: refs/protocols/types/string.md
         - <samp>StructureEditorData</samp>: refs/protocols/types/structureeditordata.md
         - <samp>StructureSettings</samp>: refs/protocols/types/structuresettings.md
         - <samp>SubChunkPacket::SubChunkPosOffset</samp>: refs/protocols/types/subchunkpacket__subchunkposoffset.md

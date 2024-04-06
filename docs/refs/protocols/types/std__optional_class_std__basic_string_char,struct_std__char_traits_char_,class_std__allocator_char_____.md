@@ -1,8 +1,8 @@
-# <!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->
+# <!-- md:samp std::optional&lt;std::string&gt; -->
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->类型。
+<!-- md:samp std::optional&lt;std::string&gt; -->类型。
 
 ## 结构
 
@@ -24,7 +24,7 @@ rankdir = LR
 
 ## 字段
 
-```title='std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt;'
+```title='std::optional&lt;std::string&gt;'
 [has_value]
 ```
 
