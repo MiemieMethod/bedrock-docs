@@ -92,14 +92,14 @@ rankdir = LR
 //// define
 ID：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -128,7 +128,7 @@ Type：<!-- md:samp byte -->
 /////// define
 Value：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -146,7 +146,7 @@ Value：<!-- md:samp byte -->
 /////// define
 Value：<!-- md:samp short -->
 
-- <!-- md:samp short -->类型。
+- 基本类型。
 
 
 ///////
@@ -164,7 +164,7 @@ Value：<!-- md:samp short -->
 /////// define
 Value：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -182,7 +182,7 @@ Value：<!-- md:samp varint -->
 /////// define
 Value：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ///////
@@ -200,7 +200,7 @@ Value：<!-- md:samp float -->
 /////// define
 Value：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -218,7 +218,7 @@ Value：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。
+- 特殊类型。
 
 
 ///////
@@ -236,7 +236,7 @@ Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 /////// define
 Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ///////
@@ -254,7 +254,7 @@ Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 /////// define
 Value：<!-- md:samp varint64 -->
 
-- <!-- md:samp varint64 -->类型。
+- 基本类型。
 
 
 ///////
@@ -272,7 +272,7 @@ Value：<!-- md:samp varint64 -->
 /////// define
 Value：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ///////

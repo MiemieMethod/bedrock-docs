@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Command：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Command Origin：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
-- <!-- md:samp CommandOriginData -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Is Internal Source?：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Version：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

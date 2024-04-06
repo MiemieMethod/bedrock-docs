@@ -114,14 +114,14 @@ rankdir = LR
 //// define
 Reliability Type (3 bits), is packet split? (1 bit)：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Payload Bit Length：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型。
+- 基本类型。
 
 
 ////
@@ -147,21 +147,21 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Sequenced Index：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -179,7 +179,7 @@ Ordering Channel：<!-- md:samp byte -->
 /////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
@@ -197,21 +197,21 @@ Reliable Message：<!-- md:samp unsigned int24 -->
 /////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -229,28 +229,28 @@ Ordering Channel：<!-- md:samp byte -->
 /////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Sequenced Index：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- <!-- md:samp unsigned int24 -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -280,21 +280,21 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Split Packet Count：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Split Packet Id：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Split Packet Index：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 ///////

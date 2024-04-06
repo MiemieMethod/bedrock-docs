@@ -56,49 +56,49 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- <!-- md:samp ActorRuntimeID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- <!-- md:samp NetworkItemStackDescriptor -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Entity Data：[<!-- md:samp std::vector&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt;,class std::allocator&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt; &gt; &gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- <!-- md:samp std::vector&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt;,class std::allocator&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt; &gt; &gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 From Fishing?：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////

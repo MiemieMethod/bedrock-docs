@@ -52,21 +52,21 @@ rankdir = LR
 //// define
 New position for view：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 New radius for view：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Server Built Chunks Size：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 ////
@@ -78,7 +78,7 @@ Server Built Chunks Size：<!-- md:samp unsigned int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -90,7 +90,7 @@ Server Built Chunks Size：<!-- md:samp unsigned int -->
 ////// define
 Chunk Pos：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
-- <!-- md:samp ChunkPos -->类型。
+- 特殊类型。
 
 
 //////

@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Template Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- <!-- md:samp RecipeIngredient -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Base Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- <!-- md:samp RecipeIngredient -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Addition Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- <!-- md:samp RecipeIngredient -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Tag：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////

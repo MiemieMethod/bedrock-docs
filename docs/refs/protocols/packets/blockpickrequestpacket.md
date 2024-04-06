@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 With Data?：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Max Slots：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////

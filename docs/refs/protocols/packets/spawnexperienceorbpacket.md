@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 XP Value：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

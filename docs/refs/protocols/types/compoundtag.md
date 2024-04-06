@@ -162,7 +162,7 @@ rankdir = LR
 //// define
 Tag Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -194,7 +194,7 @@ Tag Type：<!-- md:samp byte -->
 /////// define
 Tag Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -220,7 +220,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////////// define
 Tag Value：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 //////////
@@ -238,7 +238,7 @@ Tag Value：<!-- md:samp byte -->
 ////////// define
 Tag Value：<!-- md:samp short -->
 
-- <!-- md:samp short -->类型。
+- 基本类型。
 
 
 //////////
@@ -256,7 +256,7 @@ Tag Value：<!-- md:samp short -->
 ////////// define
 Tag Value：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 //////////
@@ -274,7 +274,7 @@ Tag Value：<!-- md:samp varint -->
 ////////// define
 Tag Value：<!-- md:samp varint64 -->
 
-- <!-- md:samp varint64 -->类型。
+- 基本类型。
 
 
 //////////
@@ -292,7 +292,7 @@ Tag Value：<!-- md:samp varint64 -->
 ////////// define
 Tag Value：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 //////////
@@ -310,7 +310,7 @@ Tag Value：<!-- md:samp float -->
 ////////// define
 Tag Value：<!-- md:samp double -->
 
-- <!-- md:samp double -->类型。
+- 基本类型。
 
 
 //////////
@@ -333,7 +333,7 @@ Tag Value：<!-- md:samp double -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////////
@@ -345,7 +345,7 @@ Tag Value：<!-- md:samp double -->
 //////////// define
 Byte Data：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////////////
@@ -367,7 +367,7 @@ Byte Data：<!-- md:samp byte -->
 ////////// define
 Tag Value：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////////
@@ -393,7 +393,7 @@ Tag Value：[<!-- md:samp string -->](../types/string.md)
 ///////////// define
 Tag Type for list：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -428,7 +428,7 @@ Tag Type for list：<!-- md:samp byte -->
 ///////////// define
 Tag Type (must be 1)：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -461,7 +461,7 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////////
@@ -473,7 +473,7 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 //////////// define
 Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。
+- 特殊类型。
 
 
 ////////////
@@ -505,7 +505,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 //////////// define
 Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。
+- 特殊类型。
 
 
 ////////////
@@ -516,7 +516,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////////// define
 End (must be 0)：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 //////////
@@ -539,7 +539,7 @@ End (must be 0)：<!-- md:samp byte -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////////
@@ -551,7 +551,7 @@ End (must be 0)：<!-- md:samp byte -->
 //////////// define
 Int Data：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////////////

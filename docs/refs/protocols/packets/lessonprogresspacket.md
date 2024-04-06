@@ -40,7 +40,7 @@ rankdir = LR
 //// define
 Lesson Action：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -54,14 +54,14 @@ Lesson Action：<!-- md:samp byte -->
 //// define
 Score：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Activity Id：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////

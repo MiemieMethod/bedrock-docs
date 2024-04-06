@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 Creative Net Id：[<!-- md:samp TypedServerNetId&lt;struct CreativeItemNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_creativeitemnetidtag,unsigned_int,0_.md)
 
-- <!-- md:samp TypedServerNetId&lt;struct CreativeItemNetIdTag,unsigned int,0&gt; -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Item Instance：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- <!-- md:samp NetworkItemInstanceDescriptor -->类型。
+- 特殊类型。
 
 
 //////

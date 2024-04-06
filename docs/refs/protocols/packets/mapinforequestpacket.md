@@ -56,14 +56,14 @@ rankdir = LR
 //// define
 Map Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Client Pixels List Size：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 ////
@@ -99,14 +99,14 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 pixel：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 /////////
 ///////// define
 index：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型。
+- 基本类型。
 
 
 /////////

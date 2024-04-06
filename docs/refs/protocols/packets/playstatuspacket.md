@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Status：<!-- md:samp big endian int -->
 
-- <!-- md:samp big endian int -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

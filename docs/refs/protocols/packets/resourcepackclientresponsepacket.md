@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Response：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -64,7 +64,7 @@ Response：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型。
+- 基本类型。
 
 
 /////
@@ -76,7 +76,7 @@ Response：<!-- md:samp byte -->
 ////// define
 Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////

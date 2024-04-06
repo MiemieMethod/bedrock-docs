@@ -48,21 +48,21 @@ rankdir = LR
 //// define
 Actor Unique ID - A：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Actor Unique ID - B：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Link Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -76,14 +76,14 @@ Link Type：<!-- md:samp byte -->
 //// define
 Immediate：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Passenger Initiated：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。Whether the link was changed by the passenger
+- 基本类型。Whether the link was changed by the passenger
 
 
 ////

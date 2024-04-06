@@ -64,21 +64,21 @@ rankdir = LR
 //// define
 User Data Serialization Marker：<!-- md:samp short -->
 
-- <!-- md:samp short -->类型。(-1) marking start of data
+- 基本类型。(-1) marking start of data
 
 
 ////
 //// define
 User Data Serialization Version：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。Currently 1
+- 基本类型。Currently 1
 
 
 ////
 //// define
 User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。See: @CompoundTag.html#Compound Tag@ .
+- 特殊类型。See: @CompoundTag.html#Compound Tag@ .
 
 
 ////
@@ -90,7 +90,7 @@ User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ///// define
 数组大小：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 /////
@@ -102,7 +102,7 @@ User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////// define
 Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
@@ -118,7 +118,7 @@ Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 /////
@@ -130,7 +130,7 @@ Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////

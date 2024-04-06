@@ -36,7 +36,7 @@ rankdir = LR
 //// define
 InternalType：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -53,7 +53,7 @@ InternalType：<!-- md:samp byte -->
 //// define
 StackSize：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

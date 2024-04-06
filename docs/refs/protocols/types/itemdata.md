@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Item Id：<!-- md:samp short -->
 
-- <!-- md:samp short -->类型。Block 'id''s < 256 (can be negative); Item 'id''s > 257
+- 基本类型。Block 'id''s < 256 (can be negative); Item 'id''s > 257
 
 
 ////
 //// define
 Is Component Based：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////

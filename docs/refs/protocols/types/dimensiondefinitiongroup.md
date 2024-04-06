@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 Name String：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](../types/dimensiondefinitiongroup__dimensiondefinition.md)
 
-- <!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->类型。
+- 特殊类型。
 
 
 //////

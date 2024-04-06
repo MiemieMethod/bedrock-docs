@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- <!-- md:samp ActorRuntimeID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- <!-- md:samp NetworkItemStackDescriptor -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Slot：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Selected Slot：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Container ID：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

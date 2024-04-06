@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- <!-- md:samp ActorLink -->类型。
+- 特殊类型。
 
 
 ////

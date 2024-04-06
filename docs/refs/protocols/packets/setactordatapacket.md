@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- <!-- md:samp ActorRuntimeID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Actor Data：[<!-- md:samp std::vector&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt;,class std::allocator&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt; &gt; &gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- <!-- md:samp std::vector&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt;,class std::allocator&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt; &gt; &gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
-- <!-- md:samp PropertySyncData -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Tick：<!-- md:samp unsigned varint64 -->
 
-- <!-- md:samp unsigned varint64 -->类型。Which frame we're correcting; should match the tick in the Player Auth Input packet. (Can be 0 if not doing server auth movement.)
+- 基本类型。Which frame we're correcting; should match the tick in the Player Auth Input packet. (Can be 0 if not doing server auth movement.)
 
 
 ////

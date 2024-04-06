@@ -40,7 +40,7 @@ rankdir = LR
 //// define
 Container ID：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -59,14 +59,14 @@ Container ID：<!-- md:samp unsigned varint -->
 //// define
 Slot：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- <!-- md:samp NetworkItemStackDescriptor -->类型。
+- 特殊类型。
 
 
 ////

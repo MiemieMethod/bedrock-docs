@@ -36,7 +36,7 @@ rankdir = LR
 //// define
 Container ID：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -55,7 +55,7 @@ Container ID：<!-- md:samp byte -->
 //// define
 Server Initiated Close：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。True if the server initiated the closing
+- 基本类型。True if the server initiated the closing
 
 
 ////

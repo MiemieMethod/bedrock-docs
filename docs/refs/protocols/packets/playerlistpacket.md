@@ -102,7 +102,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -128,7 +128,7 @@ Action：<!-- md:samp byte -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -140,42 +140,42 @@ Action：<!-- md:samp byte -->
 ///////// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- <!-- md:samp mce::UUID -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 XBL XUID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 Platform Chat Id：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 Build Platform：<!-- md:samp int -->
 
-- <!-- md:samp int -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -201,28 +201,28 @@ Build Platform：<!-- md:samp int -->
 ///////// define
 Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
-- <!-- md:samp SerializedSkin -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 Is Teacher?：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 /////////
 ///////// define
 Is Host?：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 /////////
 ///////// define
 Is SubClient：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 /////////
@@ -233,7 +233,7 @@ Is SubClient：<!-- md:samp bool -->
 /////// define
 Is trusted skin：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ///////
@@ -256,7 +256,7 @@ Is trusted skin：<!-- md:samp bool -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -268,7 +268,7 @@ Is trusted skin：<!-- md:samp bool -->
 ///////// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- <!-- md:samp mce::UUID -->类型。
+- 特殊类型。
 
 
 /////////

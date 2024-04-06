@@ -52,14 +52,14 @@ rankdir = LR
 //// define
 Number of missing blobs：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Number of obtained blobs：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
@@ -76,7 +76,7 @@ Number of obtained blobs：<!-- md:samp unsigned varint -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- <!-- md:samp unsigned int64 -->类型。
+- 基本类型。
 
 
 //////
@@ -97,7 +97,7 @@ Blob Id：<!-- md:samp unsigned int64 -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- <!-- md:samp unsigned int64 -->类型。
+- 基本类型。
 
 
 //////

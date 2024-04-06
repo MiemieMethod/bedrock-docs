@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Camera Presets：[<!-- md:samp CameraPresets -->](../types/camerapresets.md)
 
-- <!-- md:samp CameraPresets -->类型。
+- 特殊类型。
 
 
 ////

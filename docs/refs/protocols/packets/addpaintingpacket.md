@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- <!-- md:samp ActorRuntimeID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Direction：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Motif：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////

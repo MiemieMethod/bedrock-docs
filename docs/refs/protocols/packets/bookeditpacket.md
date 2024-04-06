@@ -96,7 +96,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -112,7 +112,7 @@ Action：<!-- md:samp byte -->
 //// define
 Book Slot：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
@@ -127,21 +127,21 @@ Book Slot：<!-- md:samp byte -->
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -159,21 +159,21 @@ Text B：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -191,7 +191,7 @@ Text B：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -209,14 +209,14 @@ Page Index：<!-- md:samp byte -->
 /////// define
 Page Index A：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Page Index B：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -234,21 +234,21 @@ Page Index B：<!-- md:samp byte -->
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 XUID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////

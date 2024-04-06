@@ -85,7 +85,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -97,7 +97,7 @@ rankdir = LR
 ////// define
 Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
 
-- <!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->类型。
+- 特殊类型。
 
 
 //////
@@ -109,7 +109,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -121,7 +121,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 Action type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -156,21 +156,21 @@ Action type：<!-- md:samp byte -->
 //////// define
 Amount：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////////
 //////// define
 Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- <!-- md:samp ItemStackRequestSlotInfo -->类型。
+- 特殊类型。
 
 
 ////////
 //////// define
 Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- <!-- md:samp ItemStackRequestSlotInfo -->类型。
+- 特殊类型。
 
 
 ////////
@@ -186,7 +186,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -198,7 +198,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 //////// define
 String To Filter：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。Indivdiual string that needs checking
+- 特殊类型。Indivdiual string that needs checking
 
 
 ////////
@@ -209,7 +209,7 @@ String To Filter：[<!-- md:samp string -->](../types/string.md)
 ////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- <!-- md:samp int -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 From Item (Key): Input：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
@@ -60,7 +60,7 @@ From Item (Key): Input：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -72,14 +72,14 @@ From Item (Key): Input：<!-- md:samp varint -->
 ////// define
 Item Id：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Item Count：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 //////

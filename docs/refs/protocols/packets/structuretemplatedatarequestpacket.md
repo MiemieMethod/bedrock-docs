@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Structure Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Structure Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresettings.md)
 
-- <!-- md:samp StructureSettings -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Requested Operation：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

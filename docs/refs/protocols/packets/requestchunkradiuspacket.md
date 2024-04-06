@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Chunk Radius：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Max ChunkRadius：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////

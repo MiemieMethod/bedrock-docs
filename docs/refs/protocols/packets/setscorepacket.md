@@ -92,7 +92,7 @@ rankdir = LR
 //// define
 Score Packet Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -110,7 +110,7 @@ Score Packet Type：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -122,21 +122,21 @@ Score Packet Type：<!-- md:samp byte -->
 ////// define
 Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
-- <!-- md:samp ScoreboardId -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Objective Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Score Value：<!-- md:samp int -->
 
-- <!-- md:samp int -->类型。
+- 基本类型。
 
 
 //////
@@ -170,7 +170,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -185,7 +185,7 @@ Identity Definition Type：<!-- md:samp byte -->
 //////////// define
 Player Unique Id：<!-- md:samp varint64 -->
 
-- <!-- md:samp varint64 -->类型。
+- 基本类型。
 
 
 ////////////
@@ -203,7 +203,7 @@ Player Unique Id：<!-- md:samp varint64 -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -218,7 +218,7 @@ Identity Definition Type：<!-- md:samp byte -->
 //////////// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////////////
@@ -236,7 +236,7 @@ Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -251,7 +251,7 @@ Identity Definition Type：<!-- md:samp byte -->
 //////////// define
 Fake Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////////////

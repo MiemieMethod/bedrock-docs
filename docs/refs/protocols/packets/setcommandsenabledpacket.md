@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Commands Enabled：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////

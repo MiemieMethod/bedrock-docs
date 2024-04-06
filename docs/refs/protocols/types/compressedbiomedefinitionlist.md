@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Compressed BiomeData：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////

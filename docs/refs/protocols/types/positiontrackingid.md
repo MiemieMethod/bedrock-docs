@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Value：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

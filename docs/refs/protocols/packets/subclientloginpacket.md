@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Sub Client Connection Request：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。see @subClientConnectionRequest.html#diagram@
+- 特殊类型。see @subClientConnectionRequest.html#diagram@
 
 
 ////

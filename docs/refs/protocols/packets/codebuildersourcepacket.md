@@ -40,7 +40,7 @@ rankdir = LR
 //// define
 Operation：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -55,7 +55,7 @@ Operation：<!-- md:samp byte -->
 //// define
 Category：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -69,7 +69,7 @@ Category：<!-- md:samp byte -->
 //// define
 Value：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////

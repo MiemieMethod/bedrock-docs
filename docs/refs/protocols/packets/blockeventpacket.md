@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Event Type：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Event Value：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

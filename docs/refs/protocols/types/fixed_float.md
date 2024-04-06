@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Modified float value：<!-- md:samp varint64 -->
 
-- <!-- md:samp varint64 -->类型。Float value multiplied by 32
+- 基本类型。Float value multiplied by 32
 
 
 ////

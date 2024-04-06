@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Dimension ID：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 基本类型。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Respawn：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////

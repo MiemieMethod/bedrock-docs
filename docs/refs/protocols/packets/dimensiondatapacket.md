@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Dimension Definition Group：[<!-- md:samp DimensionDefinitionGroup -->](../types/dimensiondefinitiongroup.md)
 
-- <!-- md:samp DimensionDefinitionGroup -->类型。
+- 特殊类型。
 
 
 ////

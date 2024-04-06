@@ -65,7 +65,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -77,14 +77,14 @@ rankdir = LR
 ////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Data：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 //////
@@ -100,7 +100,7 @@ Data：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -112,14 +112,14 @@ Data：<!-- md:samp varint -->
 ////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Data：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 //////

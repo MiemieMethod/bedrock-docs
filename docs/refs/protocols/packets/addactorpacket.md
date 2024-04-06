@@ -104,56 +104,56 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- <!-- md:samp ActorRuntimeID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Actor Type：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- <!-- md:samp Vec2 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Y Head Rotation：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Y Body Rotation：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ////
@@ -165,7 +165,7 @@ Y Body Rotation：<!-- md:samp float -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -177,28 +177,28 @@ Y Body Rotation：<!-- md:samp float -->
 ////// define
 Attribute Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Min Value：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Current Value：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Max Value：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 //////
@@ -209,14 +209,14 @@ Max Value：<!-- md:samp float -->
 //// define
 Actor Data：[<!-- md:samp std::vector&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt;,class std::allocator&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt; &gt; &gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- <!-- md:samp std::vector&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt;,class std::allocator&lt;class std::unique_ptr&lt;class DataItem,struct std::default_delete&lt;class DataItem&gt; &gt; &gt; &gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
-- <!-- md:samp PropertySyncData -->类型。
+- 特殊类型。
 
 
 ////
@@ -228,7 +228,7 @@ Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncda
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -240,7 +240,7 @@ Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncda
 ////// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- <!-- md:samp ActorLink -->类型。
+- 特殊类型。
 
 
 //////

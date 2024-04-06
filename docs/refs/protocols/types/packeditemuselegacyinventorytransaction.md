@@ -108,7 +108,7 @@ rankdir = LR
 //// define
 ID：[<!-- md:samp TypedClientNetId&lt;struct ItemStackLegacyRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstacklegacyrequestidtag,int,0_.md)
 
-- <!-- md:samp TypedClientNetId&lt;struct ItemStackLegacyRequestIdTag,int,0&gt; -->类型。
+- 特殊类型。
 
 
 ////
@@ -139,7 +139,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -151,7 +151,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 Container Enum Name：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -230,7 +230,7 @@ Container Enum Name：<!-- md:samp byte -->
 ////////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 //////////
@@ -242,7 +242,7 @@ Container Enum Name：<!-- md:samp byte -->
 /////////// define
 Slot：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////////
@@ -266,7 +266,7 @@ Slot：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -278,7 +278,7 @@ Slot：<!-- md:samp byte -->
 ////// define
 Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 
-- <!-- md:samp InventoryAction -->类型。
+- 特殊类型。
 
 
 //////
@@ -289,7 +289,7 @@ Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 //// define
 Action Type：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -303,49 +303,49 @@ Action Type：<!-- md:samp unsigned varint -->
 //// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Face：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Slot：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- <!-- md:samp NetworkItemStackDescriptor -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 From Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Click Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Target Block Id：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////

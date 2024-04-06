@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Handshake WebToken：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。Base64 encoded JSON Web Token that contains the other relevant client properties. roperties Include: salt' = (for use in encryption) he public key used to compute the shared secret for encryption is embedded in the header of the token. It's the signer public key (json value of 'x5u')
+- 特殊类型。Base64 encoded JSON Web Token that contains the other relevant client properties. roperties Include: salt' = (for use in encryption) he public key used to compute the shared secret for encryption is embedded in the header of the token. It's the signer public key (json value of 'x5u')
 
 
 ////

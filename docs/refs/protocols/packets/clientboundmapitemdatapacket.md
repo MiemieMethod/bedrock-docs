@@ -164,14 +164,14 @@ rankdir = LR
 //// define
 Map ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Type Flags：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -186,21 +186,21 @@ Type Flags：<!-- md:samp unsigned varint -->
 //// define
 Dimension：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Is Locked Map?：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ////
@@ -220,7 +220,7 @@ Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -232,14 +232,14 @@ Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 ///////// define
 Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 /////////
@@ -273,7 +273,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -291,7 +291,7 @@ Scale：<!-- md:samp byte -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -309,7 +309,7 @@ Scale：<!-- md:samp byte -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////
@@ -344,7 +344,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -356,7 +356,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../types/mapitemtrackedactor__uniqueid.md)
 
-- <!-- md:samp MapItemTrackedActor::UniqueId -->类型。
+- 特殊类型。
 
 
 /////////
@@ -372,7 +372,7 @@ MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../typ
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -384,7 +384,7 @@ MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../typ
 ///////// define
 Map Decoration：[<!-- md:samp MapDecoration -->](../types/mapdecoration.md)
 
-- <!-- md:samp MapDecoration -->类型。
+- 特殊类型。
 
 
 /////////
@@ -418,28 +418,28 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Texture Width：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Texture Height：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 X-TexCoordinate：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Y-TexCoordinate：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -451,7 +451,7 @@ Y-TexCoordinate：<!-- md:samp varint -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -463,7 +463,7 @@ Y-TexCoordinate：<!-- md:samp varint -->
 ///////// define
 Pixel：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////////

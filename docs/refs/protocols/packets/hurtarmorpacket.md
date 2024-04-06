@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Cause：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Damage：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Armor Slots：<!-- md:samp unsigned varint64 -->
 
-- <!-- md:samp unsigned varint64 -->类型。Bitset
+- 基本类型。Bitset
 
 
 ////

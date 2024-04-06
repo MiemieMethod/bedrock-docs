@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
@@ -60,7 +60,7 @@ Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -72,14 +72,14 @@ Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Death Cause Entity Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Death Cause Entity Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////

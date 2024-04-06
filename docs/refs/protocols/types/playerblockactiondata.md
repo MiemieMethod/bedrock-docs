@@ -94,7 +94,7 @@ rankdir = LR
 //// define
 Player Action Type：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
@@ -109,14 +109,14 @@ Player Action Type：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -134,14 +134,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -159,14 +159,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -184,14 +184,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -209,14 +209,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////
@@ -234,14 +234,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- <!-- md:samp BlockPos -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ///////

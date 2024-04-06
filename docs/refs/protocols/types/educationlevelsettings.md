@@ -68,70 +68,70 @@ rankdir = LR
 //// define
 Code Builder Default URI：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Code Builder Title：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Can resize Code Builder：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Disable legacy title bar：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Post Process Filter：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Screenshot Border Resource Path：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Agent Capabilities：[<!-- md:samp std::optional&lt;struct AgentCapabilities&gt; -->](../types/std__optional_struct_agentcapabilities_.md)
 
-- <!-- md:samp std::optional&lt;struct AgentCapabilities&gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Code Builder Override Uri：[<!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->](../types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md)
 
-- <!-- md:samp std::optional&lt;class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; &gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Indiciates if the world has a quiz attached to it：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。hasQuiz was only used by old JD China EDU and has been removed
+- 基本类型。hasQuiz was only used by old JD China EDU and has been removed
 
 
 ////
 //// define
 External Link Settings：[<!-- md:samp std::optional&lt;struct ExternalLinkSettings&gt; -->](../types/std__optional_struct_externallinksettings_.md)
 
-- <!-- md:samp std::optional&lt;struct ExternalLinkSettings&gt; -->类型。
+- 特殊类型。
 
 
 ////

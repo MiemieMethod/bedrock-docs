@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Spawn Position Type：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -57,21 +57,21 @@ Spawn Position Type：<!-- md:samp varint -->
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Dimension type：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Spawn Block Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////

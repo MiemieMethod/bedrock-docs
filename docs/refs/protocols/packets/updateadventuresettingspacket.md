@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Adventure Settings：[<!-- md:samp AdventureSettings -->](../types/adventuresettings.md)
 
-- <!-- md:samp AdventureSettings -->类型。
+- 特殊类型。
 
 
 ////

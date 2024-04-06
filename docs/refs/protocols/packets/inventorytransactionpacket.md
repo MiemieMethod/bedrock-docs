@@ -72,7 +72,7 @@ rankdir = LR
 //// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
@@ -103,7 +103,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -115,7 +115,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 Container Enum：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 /////////
@@ -127,7 +127,7 @@ Container Enum：<!-- md:samp byte -->
 ////////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 //////////
@@ -139,7 +139,7 @@ Container Enum：<!-- md:samp byte -->
 /////////// define
 Slot：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ///////////
@@ -158,7 +158,7 @@ Slot：<!-- md:samp byte -->
 //// define
 Transaction Type：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -174,7 +174,7 @@ Transaction Type：<!-- md:samp unsigned varint -->
 //// define
 mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](../types/inventorytransaction.md)
 
-- <!-- md:samp InventoryTransaction -->类型。Our ComplexInventoryTransaction contains an InventoryTransaction within it
+- 特殊类型。Our ComplexInventoryTransaction contains an InventoryTransaction within it
 
 
 ////

@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Item Effect Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Slot：<!-- md:samp int -->
 
-- <!-- md:samp int -->类型。
+- 基本类型。
 
 
 ////

@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 SerializedLayer：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -64,28 +64,28 @@ SerializedLayer：<!-- md:samp unsigned short -->
 //// define
 AbilitiesSet：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 ////
 //// define
 AbilityValues：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 ////
 //// define
 FlySpeed：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ////
 //// define
 WalkSpeed：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ////

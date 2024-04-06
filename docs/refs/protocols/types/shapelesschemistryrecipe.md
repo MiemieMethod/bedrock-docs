@@ -68,7 +68,7 @@ rankdir = LR
 //// define
 Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
@@ -80,7 +80,7 @@ Recipe Id：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -92,7 +92,7 @@ Recipe Id：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- <!-- md:samp RecipeIngredient -->类型。
+- 特殊类型。
 
 
 //////
@@ -108,7 +108,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -120,7 +120,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- <!-- md:samp NetworkItemInstanceDescriptor -->类型。
+- 特殊类型。
 
 
 //////
@@ -131,21 +131,21 @@ Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkitemins
 //// define
 Id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- <!-- md:samp mce::UUID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Tag：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。As string
+- 特殊类型。As string
 
 
 ////
 //// define
 Priority：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

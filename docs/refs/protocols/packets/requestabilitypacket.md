@@ -58,7 +58,7 @@ rankdir = LR
 //// define
 Ability：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -90,7 +90,7 @@ Ability：<!-- md:samp byte -->
 //// define
 Value Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -112,14 +112,14 @@ Value Type：<!-- md:samp byte -->
 /////// define
 Varible Value：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Default Value = 0.0：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ///////
@@ -137,14 +137,14 @@ Default Value = 0.0：<!-- md:samp float -->
 /////// define
 Default Value = false：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Varible Value：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ///////

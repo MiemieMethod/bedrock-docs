@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////

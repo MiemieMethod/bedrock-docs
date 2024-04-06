@@ -52,14 +52,14 @@ rankdir = LR
 //// define
 TargetPlayer.rawID：<!-- md:samp int64 -->
 
-- <!-- md:samp int64 -->类型。
+- 基本类型。
 
 
 ////
 //// define
 mPlayerPermissions：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -74,7 +74,7 @@ mPlayerPermissions：<!-- md:samp byte -->
 //// define
 mCommandPermissions：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -96,7 +96,7 @@ mCommandPermissions：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -108,7 +108,7 @@ mCommandPermissions：<!-- md:samp byte -->
 ////// define
 layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](../types/serializedabilitiesdata__serializedlayer.md)
 
-- <!-- md:samp SerializedAbilitiesData::SerializedLayer -->类型。
+- 特殊类型。
 
 
 //////

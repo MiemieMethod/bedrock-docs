@@ -36,7 +36,7 @@ rankdir = LR
 //// define
 Event ID：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -175,7 +175,7 @@ Event ID：<!-- md:samp varint -->
 //// define
 Event Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。Note about Event ID: Legacy particles use the @enums.html#Particle Type@  enum |ed with ParticleLegacyEvent(0x4000)
+- 特殊类型。Note about Event ID: Legacy particles use the @enums.html#Particle Type@  enum |ed with ParticleLegacyEvent(0x4000)
 
 
 ////

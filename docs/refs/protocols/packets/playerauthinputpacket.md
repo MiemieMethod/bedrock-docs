@@ -176,42 +176,42 @@ rankdir = LR
 //// define
 Player Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- <!-- md:samp Vec2 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Player Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Move Vector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- <!-- md:samp Vec2 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Player's Head Rotation：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Input Data：<!-- md:samp unsigned varint64 -->
 
-- <!-- md:samp unsigned varint64 -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Input Mode：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -228,7 +228,7 @@ Input Mode：<!-- md:samp unsigned varint -->
 //// define
 Play Mode：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -249,7 +249,7 @@ Play Mode：<!-- md:samp unsigned varint -->
 //// define
 New Interaction Model：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -283,7 +283,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 VR Gaze Direction：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ///////
@@ -294,14 +294,14 @@ VR Gaze Direction：[<!-- md:samp Vec3 -->](../types/vec3.md)
 //// define
 Client tick：<!-- md:samp unsigned varint64 -->
 
-- <!-- md:samp unsigned varint64 -->类型。Which simulation frame client is on. Used to match corrections
+- 基本类型。Which simulation frame client is on. Used to match corrections
 
 
 ////
 //// define
 Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。Velocity
+- 特殊类型。Velocity
 
 
 ////
@@ -327,7 +327,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Item Use Transaction：[<!-- md:samp PackedItemUseLegacyInventoryTransaction -->](../types/packeditemuselegacyinventorytransaction.md)
 
-- <!-- md:samp PackedItemUseLegacyInventoryTransaction -->类型。
+- 特殊类型。
 
 
 ///////
@@ -357,7 +357,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
 
-- <!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->类型。
+- 特殊类型。
 
 
 ///////
@@ -369,7 +369,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -381,7 +381,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 ///////// define
 Action type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -416,21 +416,21 @@ Action type：<!-- md:samp byte -->
 ///////// define
 Amount：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 /////////
 ///////// define
 Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- <!-- md:samp ItemStackRequestSlotInfo -->类型。
+- 特殊类型。
 
 
 /////////
 ///////// define
 Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- <!-- md:samp ItemStackRequestSlotInfo -->类型。
+- 特殊类型。
 
 
 /////////
@@ -446,7 +446,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -458,7 +458,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 ///////// define
 String To Filter：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。Indivdiual string that needs checking
+- 特殊类型。Indivdiual string that needs checking
 
 
 /////////
@@ -469,7 +469,7 @@ String To Filter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- <!-- md:samp int -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -520,7 +520,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Player Block Actions：[<!-- md:samp PlayerBlockActions -->](../types/playerblockactions.md)
 
-- <!-- md:samp PlayerBlockActions -->类型。
+- 特殊类型。
 
 
 ///////
@@ -550,14 +550,14 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Vehicle Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- <!-- md:samp Vec2 -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ///////
@@ -568,7 +568,7 @@ Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](../types/actorunique
 //// define
 Analog MoveVector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- <!-- md:samp Vec2 -->类型。
+- 特殊类型。
 
 
 ////

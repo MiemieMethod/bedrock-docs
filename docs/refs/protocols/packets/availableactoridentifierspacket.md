@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Actor Info List：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。CompoundTag containing a list of ActorInfo:r'id' (RuntimeId - Int),'id' (string),b'id' (BaseId - string),hasspawnegg (bool),summonable (bool)
+- 特殊类型。CompoundTag containing a list of ActorInfo:r'id' (RuntimeId - Int),'id' (string),b'id' (BaseId - string),hasspawnegg (bool),summonable (bool)
 
 
 ////

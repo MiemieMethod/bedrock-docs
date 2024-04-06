@@ -61,7 +61,7 @@ rankdir = LR
 ///// define
 Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 /////
@@ -73,28 +73,28 @@ Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 ////// define
 Toggle Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Enabled：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Always On Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Enabled：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 //////
@@ -105,7 +105,7 @@ Enabled：<!-- md:samp bool -->
 //// define
 Were Any Experiments Ever Toggled：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////

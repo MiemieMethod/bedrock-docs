@@ -136,28 +136,28 @@ rankdir = LR
 //// define
 Resource Pack Required：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Has Add-on Packs：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Has Scripts：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Force Server Packs Enabled：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
@@ -169,7 +169,7 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型。
+- 基本类型。
 
 
 /////
@@ -181,49 +181,49 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- <!-- md:samp unsigned int64 -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Content Identity：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 //////
@@ -239,7 +239,7 @@ Has Scripts：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型。
+- 基本类型。
 
 
 /////
@@ -251,56 +251,56 @@ Has Scripts：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- <!-- md:samp unsigned int64 -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Content Identity：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Is Ray Tracing Capable：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 //////
@@ -316,7 +316,7 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -328,14 +328,14 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 ////// define
 First：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Second：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////

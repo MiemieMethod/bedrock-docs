@@ -36,7 +36,7 @@ rankdir = LR
 //// define
 Player game type：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -54,7 +54,7 @@ Player game type：<!-- md:samp varint -->
 //// define
 Target player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。
+- 特殊类型。
 
 
 ////

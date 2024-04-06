@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 Enum Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
@@ -60,7 +60,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -72,7 +72,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Enum Value：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
@@ -83,7 +83,7 @@ Enum Value：[<!-- md:samp string -->](../types/string.md)
 //// define
 Update Type：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

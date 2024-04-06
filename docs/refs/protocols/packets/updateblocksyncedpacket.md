@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Block Runtime ID：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Flags：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Layer：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Unique Actor Id：<!-- md:samp varint64 -->
 
-- <!-- md:samp varint64 -->类型。Id for the Moving Block Actor
+- 基本类型。Id for the Moving Block Actor
 
 
 ////
 //// define
 Actor Sync Message：<!-- md:samp varint64 -->
 
-- <!-- md:samp varint64 -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

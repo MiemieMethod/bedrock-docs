@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Slots Bitset：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

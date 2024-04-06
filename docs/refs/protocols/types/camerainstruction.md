@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Set：[<!-- md:samp std::optional&lt;struct CameraInstruction::SetInstruction&gt; -->](../types/std__optional_struct_camerainstruction__setinstruction_.md)
 
-- <!-- md:samp std::optional&lt;struct CameraInstruction::SetInstruction&gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Clear：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__optional_bool_.md)
 
-- <!-- md:samp std::optional&lt;bool&gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Fade：[<!-- md:samp std::optional&lt;struct CameraInstruction::FadeInstruction&gt; -->](../types/std__optional_struct_camerainstruction__fadeinstruction_.md)
 
-- <!-- md:samp std::optional&lt;struct CameraInstruction::FadeInstruction&gt; -->类型。
+- 特殊类型。
 
 
 ////

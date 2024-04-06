@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Data：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedabilitiesdata.md)
 
-- <!-- md:samp SerializedAbilitiesData -->类型。
+- 特殊类型。
 
 
 ////

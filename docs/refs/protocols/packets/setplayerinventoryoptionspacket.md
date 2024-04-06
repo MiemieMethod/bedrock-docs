@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 Left Inventory Tab：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -67,7 +67,7 @@ Left Inventory Tab：<!-- md:samp varint -->
 //// define
 Right Inventory Tab：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -83,14 +83,14 @@ Right Inventory Tab：<!-- md:samp varint -->
 //// define
 Filtering：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Layout Inv：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -106,7 +106,7 @@ Layout Inv：<!-- md:samp varint -->
 //// define
 Layout Craft：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

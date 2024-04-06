@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- <!-- md:samp ActorRuntimeID -->类型。The runtime 'id' of the actor being moved
+- 特殊类型。The runtime 'id' of the actor being moved
 
 
 ////
 //// define
 Header：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。Header bits describing the status of the actor, see additional documentation in the supplemental documentation folder
+- 基本类型。Header bits describing the status of the actor, see additional documentation in the supplemental documentation folder
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。X/Y/Z coordinates of the position of the actor, each being a 4 byte float
+- 特殊类型。X/Y/Z coordinates of the position of the actor, each being a 4 byte float
 
 
 ////
 //// define
 Rotation X：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。The X rotation of the actor stored as an integer
+- 基本类型。The X rotation of the actor stored as an integer
 
 
 ////
 //// define
 Rotation Y：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。The Y rotation of the actor stored as an integer
+- 基本类型。The Y rotation of the actor stored as an integer
 
 
 ////
 //// define
 Rotation Y Head：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。The head rotation of the actor if and only if it's a Mob type, stored as an integer
+- 基本类型。The head rotation of the actor if and only if it's a Mob type, stored as an integer
 
 
 ////

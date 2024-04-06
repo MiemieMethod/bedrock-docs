@@ -48,14 +48,14 @@ rankdir = LR
 //// define
 Compression Threshold：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型。Determines the smallest size of raw network payload to compress. OTE: 0 is disable compression, 1 is compress everything 1 byte or larger (so everything)
+- 基本类型。Determines the smallest size of raw network payload to compress. OTE: 0 is disable compression, 1 is compress everything 1 byte or larger (so everything)
 
 
 ////
 //// define
 CompressionAlgorithm：<!-- md:samp unsigned short -->
 
-- <!-- md:samp unsigned short -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -69,21 +69,21 @@ CompressionAlgorithm：<!-- md:samp unsigned short -->
 //// define
 Client Throttle Enabled：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Client Throttle Threshold：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Client Throttle Scalar：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ////

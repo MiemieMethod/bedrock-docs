@@ -166,7 +166,7 @@ rankdir = LR
 //// define
 Message Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -189,7 +189,7 @@ Message Type：<!-- md:samp byte -->
 //// define
 Localize?：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
@@ -204,7 +204,7 @@ Localize?：<!-- md:samp bool -->
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -222,14 +222,14 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -247,7 +247,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -259,7 +259,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -271,7 +271,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 /////////
@@ -293,7 +293,7 @@ Parameter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -305,7 +305,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -317,7 +317,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 /////////
@@ -339,7 +339,7 @@ Parameter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -351,7 +351,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -363,7 +363,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 /////////
@@ -385,7 +385,7 @@ Parameter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -403,7 +403,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -421,14 +421,14 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -446,14 +446,14 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -471,7 +471,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -489,7 +489,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -507,7 +507,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
@@ -518,14 +518,14 @@ Message：[<!-- md:samp string -->](../types/string.md)
 //// define
 Sender's XUID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Platform Id：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////

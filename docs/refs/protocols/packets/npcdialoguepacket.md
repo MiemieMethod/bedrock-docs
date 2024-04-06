@@ -52,14 +52,14 @@ rankdir = LR
 //// define
 Npc Id Raw Id：<!-- md:samp unsigned int64 -->
 
-- <!-- md:samp unsigned int64 -->类型。The ActorUniqueID of the NPC being remote fired
+- 基本类型。The ActorUniqueID of the NPC being remote fired
 
 
 ////
 //// define
 Npc Dialogue Action Type：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -72,28 +72,28 @@ Npc Dialogue Action Type：<!-- md:samp varint -->
 //// define
 Dialogue：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The text to be displayed to the client
+- 特殊类型。The text to be displayed to the client
 
 
 ////
 //// define
 Scene Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The scene the data has been pulled from for the client to reference
+- 特殊类型。The scene the data has been pulled from for the client to reference
 
 
 ////
 //// define
 Npc Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The 'name' of the NPC to be displayed to the client
+- 特殊类型。The 'name' of the NPC to be displayed to the client
 
 
 ////
 //// define
 Action JSON：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The JSON string of the buttons/actions the server can perform. The server is still authoritative on what actions can be performed
+- 特殊类型。The JSON string of the buttons/actions the server can perform. The server is still authoritative on what actions can be performed
 
 
 ////

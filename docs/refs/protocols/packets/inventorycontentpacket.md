@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Inventory Id：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////
@@ -56,7 +56,7 @@ Inventory Id：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -68,7 +68,7 @@ Inventory Id：<!-- md:samp unsigned varint -->
 ////// define
 Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- <!-- md:samp NetworkItemStackDescriptor -->类型。
+- 特殊类型。
 
 
 //////

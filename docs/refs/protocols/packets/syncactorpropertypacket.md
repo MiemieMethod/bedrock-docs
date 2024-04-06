@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。type: actor 'id'entifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag
+- 特殊类型。type: actor 'id'entifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag
 
 
 ////

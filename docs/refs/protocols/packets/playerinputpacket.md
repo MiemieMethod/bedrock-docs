@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Move Vector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- <!-- md:samp Vec2 -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Jumping：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Sneaking：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////

@@ -80,7 +80,7 @@ rankdir = LR
 //// define
 Texture Pack Required：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////
@@ -92,7 +92,7 @@ Texture Pack Required：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -104,21 +104,21 @@ Texture Pack Required：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
@@ -134,7 +134,7 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -146,21 +146,21 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 //////
@@ -171,14 +171,14 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 //// define
 Base Game Version：[<!-- md:samp BaseGameVersion -->](../types/basegameversion.md)
 
-- <!-- md:samp BaseGameVersion -->类型。For clients to be able to set their stack to the right version.
+- 特殊类型。For clients to be able to set their stack to the right version.
 
 
 ////
 //// define
 Experiments：[<!-- md:samp Experiments -->](../types/experiments.md)
 
-- <!-- md:samp Experiments -->类型。Refer to the Experiments type for how to serialize
+- 特殊类型。Refer to the Experiments type for how to serialize
 
 
 ////

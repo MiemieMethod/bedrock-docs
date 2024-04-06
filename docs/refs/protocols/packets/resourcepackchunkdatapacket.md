@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Resource Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Chunk ID：<!-- md:samp unsigned int -->
 
-- <!-- md:samp unsigned int -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Byte Offset：<!-- md:samp unsigned int64 -->
 
-- <!-- md:samp unsigned int64 -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Chunk Data：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////

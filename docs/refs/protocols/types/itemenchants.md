@@ -80,7 +80,7 @@ rankdir = LR
 //// define
 Slot：<!-- md:samp int -->
 
-- <!-- md:samp int -->类型。
+- 基本类型。
 
 
 ////
@@ -92,7 +92,7 @@ Slot：<!-- md:samp int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -104,7 +104,7 @@ Slot：<!-- md:samp int -->
 ////// define
 Enchant Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -155,7 +155,7 @@ Enchant Type：<!-- md:samp byte -->
 ////// define
 Enchant Level：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 //////
@@ -171,7 +171,7 @@ Enchant Level：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -183,7 +183,7 @@ Enchant Level：<!-- md:samp byte -->
 ////// define
 Enchant Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -234,7 +234,7 @@ Enchant Type：<!-- md:samp byte -->
 ////// define
 Enchant Level：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 //////
@@ -250,7 +250,7 @@ Enchant Level：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -262,7 +262,7 @@ Enchant Level：<!-- md:samp byte -->
 ////// define
 Enchant Type：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -313,7 +313,7 @@ Enchant Type：<!-- md:samp byte -->
 ////// define
 Enchant Level：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 //////

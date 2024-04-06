@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 Requested slot：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Slot：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Amount：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Item Stack Net Id：[<!-- md:samp TypedServerNetId&lt;struct ItemStackNetIdTag,int,0&gt; -->](../types/typedservernetid_struct_itemstacknetidtag,int,0_.md)
 
-- <!-- md:samp TypedServerNetId&lt;struct ItemStackNetIdTag,int,0&gt; -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Custom Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。Allows you to filter for profanity on the server and return the updated 'name'
+- 特殊类型。Allows you to filter for profanity on the server and return the updated 'name'
 
 
 ////
 //// define
 Durability Correction：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

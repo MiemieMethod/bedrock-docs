@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Actor Unique ID：<!-- md:samp varint64 -->
 
-- <!-- md:samp varint64 -->类型。
+- 基本类型。
 
 
 ////

@@ -64,28 +64,28 @@ rankdir = LR
 //// define
 mAnimation：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The 'name' of the animation that the specified entities are to play.
+- 特殊类型。The 'name' of the animation that the specified entities are to play.
 
 
 ////
 //// define
 mNextState：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The next state to transition to once the specified animation is finished playing.
+- 特殊类型。The next state to transition to once the specified animation is finished playing.
 
 
 ////
 //// define
 mStopExpression：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The stop expression, the the condition that determines when to transition to the next state.
+- 特殊类型。The stop expression, the the condition that determines when to transition to the next state.
 
 
 ////
 //// define
 Stop expression molang version：<!-- md:samp int -->
 
-- <!-- md:samp int -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -113,14 +113,14 @@ Stop expression molang version：<!-- md:samp int -->
 //// define
 mController：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。The 'name' of an animation controller
+- 特殊类型。The 'name' of an animation controller
 
 
 ////
 //// define
 mBlendOutTime：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。The amount of time to blend out of this animation
+- 基本类型。The amount of time to blend out of this animation
 
 
 ////
@@ -132,7 +132,7 @@ mBlendOutTime：<!-- md:samp float -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -144,7 +144,7 @@ mBlendOutTime：<!-- md:samp float -->
 ////// define
 runtimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- <!-- md:samp ActorRuntimeID -->类型。
+- 特殊类型。
 
 
 //////

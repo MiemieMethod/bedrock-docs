@@ -60,56 +60,56 @@ rankdir = LR
 //// define
 Entity Network Id：[<!-- md:samp EntityNetId -->](../types/entitynetid.md)
 
-- <!-- md:samp EntityNetId -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Components：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 JSON Identifier：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Instance Name：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Min Bounds：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Max Bounds：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- <!-- md:samp NetworkBlockPosition -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Dimension Type：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Engine Version：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。Semantic version string
+- 特殊类型。Semantic version string
 
 
 ////

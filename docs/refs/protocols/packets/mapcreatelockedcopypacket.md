@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Original Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。Id of the map being locked.
+- 特殊类型。Id of the map being locked.
 
 
 ////
 //// define
 New Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- <!-- md:samp ActorUniqueID -->类型。Id that the new map should have.
+- 特殊类型。Id that the new map should have.
 
 
 ////

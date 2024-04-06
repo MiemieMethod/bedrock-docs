@@ -72,7 +72,7 @@ rankdir = LR
 //// define
 Debug Marker Type：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -116,49 +116,49 @@ if (1)：<!-- md:samp [No Data] -->
 /////// define
 Debug Marker Text：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Debug Marker Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- <!-- md:samp Vec3 -->类型。
+- 特殊类型。
 
 
 ///////
 /////// define
 Debug Marker Color red：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Debug Marker Color green：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Debug Marker Color blue：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Debug Marker Color alpha：<!-- md:samp float -->
 
-- <!-- md:samp float -->类型。
+- 基本类型。
 
 
 ///////
 /////// define
 Debug Marker Duration Milliseconds：<!-- md:samp unsigned int64 -->
 
-- <!-- md:samp unsigned int64 -->类型。
+- 基本类型。
 
 
 ///////

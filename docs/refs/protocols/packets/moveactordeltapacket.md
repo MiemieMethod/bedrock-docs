@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Move Data：[<!-- md:samp MoveActorDeltaData -->](../types/moveactordeltadata.md)
 
-- <!-- md:samp MoveActorDeltaData -->类型。
+- 特殊类型。
 
 
 ////

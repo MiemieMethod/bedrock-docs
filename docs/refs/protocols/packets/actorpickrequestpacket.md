@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Actor ID：<!-- md:samp int64 -->
 
-- <!-- md:samp int64 -->类型。Target Actor ID
+- 基本类型。Target Actor ID
 
 
 ////
 //// define
 Max Slots：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型。number of empty hotbar slots (to dec'id'e whether to overwrite a slot or add it to an empty one)
+- 基本类型。number of empty hotbar slots (to dec'id'e whether to overwrite a slot or add it to an empty one)
 
 
 ////
 //// define
 With Data：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。whether we want to store the NBT data along with the item
+- 基本类型。whether we want to store the NBT data along with the item
 
 
 ////

@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Response Info：[<!-- md:samp ItemStackResponseInfo -->](../types/itemstackresponseinfo.md)
 
-- <!-- md:samp ItemStackResponseInfo -->类型。
+- 特殊类型。
 
 
 //////

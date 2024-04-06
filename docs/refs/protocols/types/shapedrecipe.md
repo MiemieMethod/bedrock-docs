@@ -74,7 +74,7 @@ rankdir = LR
 //// define
 Recipe Unique Id：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。
+- 特殊类型。
 
 
 ////
@@ -91,14 +91,14 @@ Recipe Unique Id：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Recipe Width：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 //////
 ////// define
 Recipe Height：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 //////
@@ -112,7 +112,7 @@ Recipe Height：<!-- md:samp varint -->
 ////// define
 Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- <!-- md:samp RecipeIngredient -->类型。
+- 特殊类型。
 
 
 //////
@@ -128,7 +128,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -140,7 +140,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- <!-- md:samp NetworkItemInstanceDescriptor -->类型。
+- 特殊类型。
 
 
 //////
@@ -151,14 +151,14 @@ Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networ
 //// define
 Recipe ID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- <!-- md:samp mce::UUID -->类型。
+- 特殊类型。
 
 
 ////
 //// define
 Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型枚举。枚举值如下：
+- 特殊类型枚举。枚举值如下：
 
   |值|描述|
   |---|---|
@@ -178,7 +178,7 @@ Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 //// define
 Priority：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////

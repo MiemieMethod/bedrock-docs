@@ -40,7 +40,7 @@ rankdir = LR
 //// define
 Authority Mode：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -54,14 +54,14 @@ Authority Mode：<!-- md:samp byte -->
 //// define
 Rewind History Size：<!-- md:samp varint -->
 
-- <!-- md:samp varint -->类型。
+- 基本类型。
 
 
 ////
 //// define
 Server Authoratative Block Breaking：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。
+- 基本类型。
 
 
 ////

@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Fog Effect：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。Fog effect string from /fog command
+- 特殊类型。Fog effect string from /fog command
 
 
 //////

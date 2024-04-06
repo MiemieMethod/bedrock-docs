@@ -56,7 +56,7 @@ rankdir = LR
 //// define
 Result：<!-- md:samp byte -->
 
-- <!-- md:samp byte -->类型枚举。枚举值如下：
+- 基本类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -135,7 +135,7 @@ Result：<!-- md:samp byte -->
 //// define
 Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
 
-- <!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->类型。
+- 特殊类型。
 
 
 ////
@@ -155,7 +155,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- <!-- md:samp unsigned varint -->类型。
+- 基本类型。
 
 
 ////////
@@ -167,7 +167,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 ///////// define
 Container Info：[<!-- md:samp ItemStackResponseContainerInfo -->](../types/itemstackresponsecontainerinfo.md)
 
-- <!-- md:samp ItemStackResponseContainerInfo -->类型。
+- 特殊类型。
 
 
 /////////

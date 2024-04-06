@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Biome Definition Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- <!-- md:samp CompoundTag -->类型。CompoundTag containing one object per biome definition:BiomeName: {temperature (float),downfall(float),red_spores (float),blue_spores (float),ash (float),white_ash (float),depth (float),height (float),waterColorR (float),waterColorG (float),waterColorB (float),waterColorA (float),waterTransparency (float),rain (bool),tags (ListTag)'name'_hash, (std::string)}
+- 特殊类型。CompoundTag containing one object per biome definition:BiomeName: {temperature (float),downfall(float),red_spores (float),blue_spores (float),ash (float),white_ash (float),depth (float),height (float),waterColorR (float),waterColorG (float),waterColorB (float),waterColorA (float),waterTransparency (float),rain (bool),tags (ListTag)'name'_hash, (std::string)}
 
 
 ////

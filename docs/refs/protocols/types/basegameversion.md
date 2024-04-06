@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Base Game Version：[<!-- md:samp string -->](../types/string.md)
 
-- <!-- md:samp string -->类型。Format: 0.0.0 (i.e. Major.Minor.Patch)
+- 特殊类型。Format: 0.0.0 (i.e. Major.Minor.Patch)
 
 
 ////

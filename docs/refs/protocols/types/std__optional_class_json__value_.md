@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Has Value：<!-- md:samp bool -->
 
-- <!-- md:samp bool -->类型。If true, follow with appropriate data type, otherwise nothing
+- 基本类型。If true, follow with appropriate data type, otherwise nothing
 
 
 ////

@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Rules Data：[<!-- md:samp GameRulesChangedPacketData -->](../types/gameruleschangedpacketdata.md)
 
-- <!-- md:samp GameRulesChangedPacketData -->类型。
+- 特殊类型。
 
 
 ////
