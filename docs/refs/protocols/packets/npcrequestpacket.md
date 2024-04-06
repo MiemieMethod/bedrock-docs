@@ -48,14 +48,14 @@ rankdir = LR
 //// define
 NPC Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
 //// define
 Request Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -71,23 +71,23 @@ Request Type：<!-- md:samp byte -->
 
 ////
 //// define
-Actions：<!-- md:samp string -->
+Actions：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Action Index：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
 //// define
-Scene Name：<!-- md:samp string -->
+Scene Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

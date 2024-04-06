@@ -56,7 +56,7 @@ rankdir = LR
 //// define
 Scoreboard Identity Packet Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -74,7 +74,7 @@ Scoreboard Identity Packet Type：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -86,7 +86,7 @@ Scoreboard Identity Packet Type：<!-- md:samp byte -->
 ////// define
 Scoreboard Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
-- 类型：<!-- md:samp ScoreboardId -->。
+- <!-- md:samp ScoreboardId -->类型。
 
 
 //////
@@ -112,7 +112,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 Player Unique Id：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 /////////

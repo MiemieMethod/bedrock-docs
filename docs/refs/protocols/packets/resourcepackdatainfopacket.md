@@ -54,51 +54,51 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Resource Name：<!-- md:samp string -->
+Resource Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Chunk Size：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 ////
 //// define
 Number of Chunks：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 ////
 //// define
 File Size：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。
+- <!-- md:samp unsigned int64 -->类型。
 
 
 ////
 //// define
-File Hash：<!-- md:samp string -->
+File Hash：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Is Premium Pack：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Do you need an entitlement to use this pack?
+- <!-- md:samp bool -->类型。Do you need an entitlement to use this pack?
 
 
 ////
 //// define
 Pack Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

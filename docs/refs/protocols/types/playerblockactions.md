@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 Player Block Actions count：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 /////
@@ -57,7 +57,7 @@ Player Block Actions count：<!-- md:samp varint -->
 ////// define
 Player Block Action：[<!-- md:samp PlayerBlockActionData -->](../types/playerblockactiondata.md)
 
-- 类型：<!-- md:samp PlayerBlockActionData -->。
+- <!-- md:samp PlayerBlockActionData -->类型。
 
 
 //////

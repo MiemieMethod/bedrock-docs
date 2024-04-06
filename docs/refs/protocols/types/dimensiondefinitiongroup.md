@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -59,16 +59,16 @@ rankdir = LR
 
 ///// html | div.result
 ////// define
-Name String：<!-- md:samp string -->
+Name String：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](../types/dimensiondefinitiongroup__dimensiondefinition.md)
 
-- 类型：<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->。
+- <!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->类型。
 
 
 //////

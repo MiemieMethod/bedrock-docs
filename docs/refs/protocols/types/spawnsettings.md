@@ -40,7 +40,7 @@ rankdir = LR
 //// define
 Type：<!-- md:samp short -->
 
-- 类型：<!-- md:samp short -->。枚举值如下：
+- <!-- md:samp short -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -51,16 +51,16 @@ Type：<!-- md:samp short -->
 
 ////
 //// define
-User Defined Biome Name：<!-- md:samp string -->
+User Defined Biome Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Dimension：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Currently 0 for Overworld, 1 for Nether, 2 for The End, 3 Undefined
+- <!-- md:samp varint -->类型。Currently 0 for Overworld, 1 for Nether, 2 for The End, 3 Undefined
 
 
 ////

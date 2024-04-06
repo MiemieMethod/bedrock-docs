@@ -54,30 +54,30 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Photo Name：<!-- md:samp string -->
+Photo Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-////
-//// define
-Photo Data：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Book ID：<!-- md:samp string -->
+Photo Data：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
+
+
+////
+//// define
+Book ID：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -91,7 +91,7 @@ Type：<!-- md:samp byte -->
 //// define
 Source Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -105,14 +105,14 @@ Source Type：<!-- md:samp byte -->
 //// define
 Owner ID：<!-- md:samp int64 -->
 
-- 类型：<!-- md:samp int64 -->。
+- <!-- md:samp int64 -->类型。
 
 
 ////
 //// define
-New Photo Name：<!-- md:samp string -->
+New Photo Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

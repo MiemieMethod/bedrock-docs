@@ -85,7 +85,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -97,7 +97,7 @@ rankdir = LR
 ////// define
 Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry.md)
 
-- 类型：<!-- md:samp CraftingDataEntry -->。
+- <!-- md:samp CraftingDataEntry -->类型。
 
 
 //////
@@ -113,7 +113,7 @@ Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -125,7 +125,7 @@ Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry
 ////// define
 Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdataentry.md)
 
-- 类型：<!-- md:samp PotionMixDataEntry -->。
+- <!-- md:samp PotionMixDataEntry -->类型。
 
 
 //////
@@ -141,7 +141,7 @@ Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdatae
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -153,7 +153,7 @@ Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdatae
 ////// define
 Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containermixdataentry.md)
 
-- 类型：<!-- md:samp ContainerMixDataEntry -->。
+- <!-- md:samp ContainerMixDataEntry -->类型。
 
 
 //////
@@ -169,7 +169,7 @@ Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containe
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -181,7 +181,7 @@ Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containe
 ////// define
 Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](../types/materialreducerdataentry.md)
 
-- 类型：<!-- md:samp MaterialReducerDataEntry -->。
+- <!-- md:samp MaterialReducerDataEntry -->类型。
 
 
 //////
@@ -192,7 +192,7 @@ Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](../types/ma
 //// define
 Clear Recipes：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

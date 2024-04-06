@@ -40,14 +40,14 @@ rankdir = LR
 //// define
 Target Player Id's Raw ID：<!-- md:samp int64 -->
 
-- 类型：<!-- md:samp int64 -->。mTargetPlayerId is a ActorUniqueID
+- <!-- md:samp int64 -->类型。mTargetPlayerId is a ActorUniqueID
 
 
 ////
 //// define
 Player Permission Level：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -62,7 +62,7 @@ Player Permission Level：<!-- md:samp byte -->
 //// define
 Custom Permission Flags：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 ////

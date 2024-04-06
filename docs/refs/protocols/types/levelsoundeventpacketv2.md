@@ -52,7 +52,7 @@ rankdir = LR
 //// define
 Event ID：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -514,35 +514,35 @@ Event ID：<!-- md:samp byte -->
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。
+- <!-- md:samp Vec3 -->类型。
 
 
 ////
 //// define
 Data：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
-Actor Identifier：<!-- md:samp string -->
+Actor Identifier：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Baby Mob：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Global：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

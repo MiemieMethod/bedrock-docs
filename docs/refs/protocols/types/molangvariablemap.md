@@ -30,9 +30,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Serialized Variable Map：<!-- md:samp string -->
+Serialized Variable Map：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

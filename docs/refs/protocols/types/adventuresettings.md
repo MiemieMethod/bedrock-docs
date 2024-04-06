@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 no PvM：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 no MvP：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Immutable World：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Show Name Tags：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Auto Jump：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

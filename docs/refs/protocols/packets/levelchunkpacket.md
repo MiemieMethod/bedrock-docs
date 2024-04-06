@@ -92,14 +92,14 @@ rankdir = LR
 //// define
 Chunk Position：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
-- 类型：<!-- md:samp ChunkPos -->。
+- <!-- md:samp ChunkPos -->类型。
 
 
 ////
 //// define
 Dimension Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
@@ -114,7 +114,7 @@ Dimension Id：<!-- md:samp varint -->
 /////// define
 Sub-chunks Count：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -140,14 +140,14 @@ Sub-chunks Count：<!-- md:samp unsigned varint -->
 ////////// define
 Partial SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。Currently max unsigned 32-bit int
+- <!-- md:samp unsigned varint -->类型。Currently max unsigned 32-bit int
 
 
 //////////
 ////////// define
 Client Request SubChunk Limit：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 //////////
@@ -165,7 +165,7 @@ Client Request SubChunk Limit：<!-- md:samp unsigned short -->
 ////////// define
 SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。Currently max unsigned 32-bit int
+- <!-- md:samp unsigned varint -->类型。Currently max unsigned 32-bit int
 
 
 //////////
@@ -180,7 +180,7 @@ SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 //// define
 Cache Enabled：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Lets the server turn off the cache for this chunk even if the Client signaled it supports it.
+- <!-- md:samp bool -->类型。Lets the server turn off the cache for this chunk even if the Client signaled it supports it.
 
 
 ////
@@ -211,7 +211,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 Blob Count：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。How many cache blobs make up this chunk.
+- <!-- md:samp unsigned varint -->类型。How many cache blobs make up this chunk.
 
 
 ////////
@@ -223,7 +223,7 @@ Blob Count：<!-- md:samp unsigned varint -->
 ///////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。See ClientCacheProtocol.md, included with the documentation for 1.12.0.2
+- <!-- md:samp unsigned int64 -->类型。See ClientCacheProtocol.md, included with the documentation for 1.12.0.2
 
 
 /////////
@@ -236,9 +236,9 @@ Blob Id：<!-- md:samp unsigned int64 -->
 
 /////
 //// define
-Serialized Chunk Data：<!-- md:samp string -->
+Serialized Chunk Data：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。See https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37
+- <!-- md:samp string -->类型。See https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37
 
 
 ////

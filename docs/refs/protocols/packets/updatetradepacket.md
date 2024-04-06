@@ -68,7 +68,7 @@ rankdir = LR
 //// define
 Container Id：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -87,7 +87,7 @@ Container Id：<!-- md:samp byte -->
 //// define
 Container Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -137,56 +137,56 @@ Container Type：<!-- md:samp byte -->
 //// define
 Size：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
 Trade Tier：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
 Last Trading Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
-Display Name：<!-- md:samp string -->
+Display Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Use New Trade UI：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Using Economy Trade：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。When set to false, it means the packet comes from the old Trade Component.
+- <!-- md:samp bool -->类型。When set to false, it means the packet comes from the old Trade Component.
 
 
 ////
 //// define
 Data Tags：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。
+- <!-- md:samp CompoundTag -->类型。
 
 
 ////

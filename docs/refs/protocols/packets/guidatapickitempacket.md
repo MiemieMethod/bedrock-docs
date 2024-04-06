@@ -38,23 +38,23 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Item Name：<!-- md:samp string -->
+Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Item Effect Name：<!-- md:samp string -->
+Item Effect Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Slot：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 ////

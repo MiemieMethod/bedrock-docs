@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Entity Network Id：[<!-- md:samp EntityNetId -->](../types/entitynetid.md)
 
-- 类型：<!-- md:samp EntityNetId -->。
+- <!-- md:samp EntityNetId -->类型。
 
 
 ////
 //// define
 Dimension Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////

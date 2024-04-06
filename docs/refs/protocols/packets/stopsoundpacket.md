@@ -34,16 +34,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Sound Name：<!-- md:samp string -->
+Sound Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Stop All Sounds?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

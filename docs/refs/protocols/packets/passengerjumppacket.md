@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Jump Scale：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////

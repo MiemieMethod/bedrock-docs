@@ -69,7 +69,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -79,16 +79,16 @@ rankdir = LR
 
 ///// html | div.result
 ////// define
-Item Name：<!-- md:samp string -->
+Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Pattern Id：<!-- md:samp string -->
+Pattern Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -104,7 +104,7 @@ Pattern Id：<!-- md:samp string -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -114,23 +114,23 @@ Pattern Id：<!-- md:samp string -->
 
 ///// html | div.result
 ////// define
-Material Id：<!-- md:samp string -->
+Material Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-//////
-////// define
-Color：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Item Name：<!-- md:samp string -->
+Color：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
+
+
+//////
+////// define
+Item Name：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
 
 
 //////

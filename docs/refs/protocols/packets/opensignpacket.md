@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 ////
 //// define
 Is Front Side：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

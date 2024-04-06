@@ -34,16 +34,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Button Name：<!-- md:samp string -->
+Button Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Link Uri：<!-- md:samp string -->
+Link Uri：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

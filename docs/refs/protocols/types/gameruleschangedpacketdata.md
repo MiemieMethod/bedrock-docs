@@ -65,7 +65,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -75,16 +75,16 @@ rankdir = LR
 
 ///// html | div.result
 ////// define
-Rule Name：<!-- md:samp string -->
+Rule Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Can Be Modified By Player：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 //////
@@ -127,7 +127,7 @@ Can Be Modified By Player：<!-- md:samp bool -->
 ///////// define
 Rule Value：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 /////////

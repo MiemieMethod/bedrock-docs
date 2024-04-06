@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Id：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 ////

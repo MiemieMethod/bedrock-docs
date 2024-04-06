@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 Container ID：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -67,7 +67,7 @@ Container ID：<!-- md:samp byte -->
 //// define
 Container Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -117,21 +117,21 @@ Container Type：<!-- md:samp byte -->
 //// define
 Size：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
 Data Tags：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。
+- <!-- md:samp CompoundTag -->类型。
 
 
 ////

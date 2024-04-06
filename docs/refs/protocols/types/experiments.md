@@ -61,7 +61,7 @@ rankdir = LR
 ///// define
 Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 /////
@@ -71,30 +71,30 @@ Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 
 ///// html | div.result
 ////// define
-Toggle Name：<!-- md:samp string -->
+Toggle Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-//////
-////// define
-Enabled：<!-- md:samp bool -->
-
-- 类型：<!-- md:samp bool -->。
-
-
-//////
-////// define
-Always On Name：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Enabled：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
+
+
+//////
+////// define
+Always On Name：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
+
+
+//////
+////// define
+Enabled：<!-- md:samp bool -->
+
+- <!-- md:samp bool -->类型。
 
 
 //////
@@ -105,7 +105,7 @@ Enabled：<!-- md:samp bool -->
 //// define
 Were Any Experiments Ever Toggled：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

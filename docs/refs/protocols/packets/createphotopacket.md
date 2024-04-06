@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Raw ID：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。
+- <!-- md:samp unsigned int64 -->类型。
 
 
 ////
 //// define
-Photo Name：<!-- md:samp string -->
+Photo Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Photo Item Name：<!-- md:samp string -->
+Photo Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

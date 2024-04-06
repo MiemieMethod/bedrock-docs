@@ -30,9 +30,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Base Game Version：<!-- md:samp string -->
+Base Game Version：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Format: 0.0.0 (i.e. Major.Minor.Patch)
+- <!-- md:samp string -->类型。Format: 0.0.0 (i.e. Major.Minor.Patch)
 
 
 ////

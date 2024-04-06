@@ -136,28 +136,28 @@ rankdir = LR
 //// define
 Resource Pack Required：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Has Add-on Packs：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Has Scripts：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Force Server Packs Enabled：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
@@ -169,7 +169,7 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 /////
@@ -179,51 +179,51 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 
 ///// html | div.result
 ////// define
-ID：<!-- md:samp string -->
+ID：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Version：<!-- md:samp string -->
+Version：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。
+- <!-- md:samp unsigned int64 -->类型。
 
 
 //////
 ////// define
-Content Key：<!-- md:samp string -->
+Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-//////
-////// define
-Sub Pack Name：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Content Identity：<!-- md:samp string -->
+Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
+
+
+//////
+////// define
+Content Identity：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 //////
@@ -239,7 +239,7 @@ Has Scripts：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 /////
@@ -249,58 +249,58 @@ Has Scripts：<!-- md:samp bool -->
 
 ///// html | div.result
 ////// define
-ID：<!-- md:samp string -->
+ID：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Version：<!-- md:samp string -->
+Version：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。
+- <!-- md:samp unsigned int64 -->类型。
 
 
 //////
 ////// define
-Content Key：<!-- md:samp string -->
+Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-//////
-////// define
-Sub Pack Name：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Content Identity：<!-- md:samp string -->
+Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
+
+
+//////
+////// define
+Content Identity：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 //////
 ////// define
 Is Ray Tracing Capable：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 //////
@@ -316,7 +316,7 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -326,16 +326,16 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 
 ///// html | div.result
 ////// define
-First：<!-- md:samp string -->
+First：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Second：<!-- md:samp string -->
+Second：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////

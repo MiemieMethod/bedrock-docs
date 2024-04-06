@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Raw Id (32 bit unsigned)：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////

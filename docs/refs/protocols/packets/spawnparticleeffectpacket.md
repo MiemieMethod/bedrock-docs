@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Dimension Id：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
 //// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。
+- <!-- md:samp Vec3 -->类型。
 
 
 ////
 //// define
-Effect Name：<!-- md:samp string -->
+Effect Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Should be an effect that exists on the client. No-op if the effect doesn't exist.
+- <!-- md:samp string -->类型。Should be an effect that exists on the client. No-op if the effect doesn't exist.
 
 
 ////
 //// define
 Molang Variables：[<!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->](../types/std__optional_class_molangvariablemap_.md)
 
-- 类型：<!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->。
+- <!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->类型。
 
 
 ////

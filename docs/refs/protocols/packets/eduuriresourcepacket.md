@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Edu Shared URI Resource：[<!-- md:samp EduSharedUriResource -->](../types/edushareduriresource.md)
 
-- 类型：<!-- md:samp EduSharedUriResource -->。
+- <!-- md:samp EduSharedUriResource -->类型。
 
 
 ////

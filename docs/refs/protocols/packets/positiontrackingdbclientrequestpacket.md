@@ -36,7 +36,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -48,7 +48,7 @@ Action：<!-- md:samp byte -->
 //// define
 Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
-- 类型：<!-- md:samp PositionTrackingId -->。
+- <!-- md:samp PositionTrackingId -->类型。
 
 
 ////

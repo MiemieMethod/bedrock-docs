@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
@@ -56,7 +56,7 @@ Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -68,7 +68,7 @@ Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 ////// define
 Piece id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：<!-- md:samp mce::UUID -->。
+- <!-- md:samp mce::UUID -->类型。
 
 
 //////

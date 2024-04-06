@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Agent Animation：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
 //// define
 Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////

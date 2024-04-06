@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
 //// define
 Motion：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。
+- <!-- md:samp Vec3 -->类型。
 
 
 ////
 //// define
 Server Tick：<!-- md:samp unsigned varint64 -->
 
-- 类型：<!-- md:samp unsigned varint64 -->。
+- <!-- md:samp unsigned varint64 -->类型。
 
 
 ////

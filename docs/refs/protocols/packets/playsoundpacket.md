@@ -42,30 +42,30 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 ////
 //// define
 Volume：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////
 //// define
 Pitch：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////

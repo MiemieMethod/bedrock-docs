@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Packet ID：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。The first 10 value bits are the packet 'id', the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID
+- <!-- md:samp unsigned varint -->类型。The first 10 value bits are the packet 'id', the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID
 
 
 ////

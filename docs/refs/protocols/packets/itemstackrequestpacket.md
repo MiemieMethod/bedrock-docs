@@ -85,7 +85,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -97,7 +97,7 @@ rankdir = LR
 ////// define
 Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
 
-- 类型：<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->。
+- <!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->类型。
 
 
 //////
@@ -109,7 +109,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -121,7 +121,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 Action type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -156,21 +156,21 @@ Action type：<!-- md:samp byte -->
 //////// define
 Amount：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////////
 //////// define
 Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 类型：<!-- md:samp ItemStackRequestSlotInfo -->。
+- <!-- md:samp ItemStackRequestSlotInfo -->类型。
 
 
 ////////
 //////// define
 Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 类型：<!-- md:samp ItemStackRequestSlotInfo -->。
+- <!-- md:samp ItemStackRequestSlotInfo -->类型。
 
 
 ////////
@@ -186,7 +186,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -196,9 +196,9 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 
 /////// html | div.result
 //////// define
-String To Filter：<!-- md:samp string -->
+String To Filter：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Indivdiual string that needs checking
+- <!-- md:samp string -->类型。Indivdiual string that needs checking
 
 
 ////////
@@ -209,7 +209,7 @@ String To Filter：<!-- md:samp string -->
 ////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。枚举值如下：
+- <!-- md:samp int -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

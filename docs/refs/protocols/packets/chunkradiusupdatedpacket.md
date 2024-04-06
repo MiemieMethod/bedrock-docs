@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Chunk Radius：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////

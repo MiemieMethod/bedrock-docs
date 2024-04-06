@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 Reason：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -168,7 +168,7 @@ Reason：<!-- md:samp varint -->
 //// define
 Skip Message：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
@@ -181,9 +181,9 @@ Skip Message：<!-- md:samp bool -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////

@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
 //// define
 Credits State：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

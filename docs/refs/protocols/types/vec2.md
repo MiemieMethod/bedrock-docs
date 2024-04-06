@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 X：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////
 //// define
 Y：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////

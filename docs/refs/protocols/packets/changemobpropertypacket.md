@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
-Property Name：<!-- md:samp string -->
+Property Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 BoolComponent Value：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
-StringComponent Value：<!-- md:samp string -->
+StringComponent Value：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 IntComponent Value：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
 FloatComponent Value：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////

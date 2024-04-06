@@ -34,16 +34,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Command：<!-- md:samp string -->
+Command：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Command to update setting.
+- <!-- md:samp string -->类型。Command to update setting.
 
 
 ////
 //// define
 Suppress Output?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

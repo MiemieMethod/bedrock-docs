@@ -72,9 +72,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Recipe Unique Id：<!-- md:samp string -->
+Recipe Unique Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
@@ -91,14 +91,14 @@ Recipe Unique Id：<!-- md:samp string -->
 ////// define
 Recipe Width：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 //////
 ////// define
 Recipe Height：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 //////
@@ -112,7 +112,7 @@ Recipe Height：<!-- md:samp varint -->
 ////// define
 Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：<!-- md:samp RecipeIngredient -->。
+- <!-- md:samp RecipeIngredient -->类型。
 
 
 //////
@@ -128,7 +128,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -140,7 +140,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
+- <!-- md:samp NetworkItemInstanceDescriptor -->类型。
 
 
 //////
@@ -151,21 +151,34 @@ Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networ
 //// define
 Recipe ID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：<!-- md:samp mce::UUID -->。
+- <!-- md:samp mce::UUID -->类型。
 
 
 ////
 //// define
-Recipe Tag：<!-- md:samp string -->
+Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Available ones: CARTOGRAPHY_TABLE, CRAFTING_TABLE, SMITHING_TABLE, STONECUTTER, FURNACE_TAG, BLAST_FURNACE_TAG, SMOKER_TAG, CAMPFIRE_TAG, SOUL_CAMPFIRE_TAG
+- <!-- md:samp string -->类型枚举。枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`CARTOGRAPHY_TABLE`||
+  |`CRAFTING_TABLE`||
+  |`SMITHING_TABLE`||
+  |`STONECUTTER`||
+  |`FURNACE_TAG`||
+  |`BLAST_FURNACE_TAG`||
+  |`SMOKER_TAG`||
+  |`CAMPFIRE_TAG`||
+  |`SOUL_CAMPFIRE_TAG`||
+
 
 
 ////
 //// define
 Priority：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////

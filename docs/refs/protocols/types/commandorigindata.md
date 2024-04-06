@@ -62,7 +62,7 @@ rankdir = LR
 //// define
 Command Type：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -89,14 +89,14 @@ Command Type：<!-- md:samp unsigned varint -->
 //// define
 Command UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：<!-- md:samp mce::UUID -->。Unique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.
+- <!-- md:samp mce::UUID -->类型。Unique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.
 
 
 ////
 //// define
-Request ID：<!-- md:samp string -->
+Request ID：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
@@ -133,7 +133,7 @@ if (5)：<!-- md:samp [No Data] -->
 /////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 ///////
@@ -151,7 +151,7 @@ Player ID：<!-- md:samp varint64 -->
 /////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 ///////

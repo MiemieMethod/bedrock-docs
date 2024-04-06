@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Source：[<!-- md:samp InventorySource -->](../types/inventorysource.md)
 
-- 类型：<!-- md:samp InventorySource -->。
+- <!-- md:samp InventorySource -->类型。
 
 
 ////
 //// define
 Slot：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////
 //// define
 From Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
+- <!-- md:samp NetworkItemStackDescriptor -->类型。
 
 
 ////
 //// define
 To Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 类型：<!-- md:samp NetworkItemStackDescriptor -->。
+- <!-- md:samp NetworkItemStackDescriptor -->类型。
 
 
 ////

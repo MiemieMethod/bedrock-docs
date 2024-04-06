@@ -44,21 +44,21 @@ rankdir = LR
 //// define
 Intensity：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。Camera shake intensity
+- <!-- md:samp float -->类型。Camera shake intensity
 
 
 ////
 //// define
 Seconds：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。Duration
+- <!-- md:samp float -->类型。Duration
 
 
 ////
 //// define
 Shake Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -71,7 +71,7 @@ Shake Type：<!-- md:samp byte -->
 //// define
 Shake action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

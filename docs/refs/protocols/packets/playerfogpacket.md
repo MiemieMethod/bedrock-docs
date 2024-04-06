@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -55,9 +55,9 @@ rankdir = LR
 
 ///// html | div.result
 ////// define
-Fog Effect：<!-- md:samp string -->
+Fog Effect：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Fog effect string from /fog command
+- <!-- md:samp string -->类型。Fog effect string from /fog command
 
 
 //////

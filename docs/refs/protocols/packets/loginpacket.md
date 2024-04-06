@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Client Network Version：<!-- md:samp big endian int -->
 
-- 类型：<!-- md:samp big endian int -->。
+- <!-- md:samp big endian int -->类型。
 
 
 ////
 //// define
-Connection Request：<!-- md:samp string -->
+Connection Request：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。see @connectionRequest.html#diagram@
+- <!-- md:samp string -->类型。see @connectionRequest.html#diagram@
 
 
 ////

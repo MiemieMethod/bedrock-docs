@@ -166,7 +166,7 @@ rankdir = LR
 //// define
 Message Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -189,7 +189,7 @@ Message Type：<!-- md:samp byte -->
 //// define
 Localize?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
@@ -202,9 +202,9 @@ Localize?：<!-- md:samp bool -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -220,16 +220,16 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Player Name：<!-- md:samp string -->
+Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -245,9 +245,9 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -259,7 +259,7 @@ Message：<!-- md:samp string -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////////
@@ -269,9 +269,9 @@ Message：<!-- md:samp string -->
 
 //////// html | div.result
 ///////// define
-Parameter：<!-- md:samp string -->
+Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 /////////
@@ -291,9 +291,9 @@ Parameter：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -305,7 +305,7 @@ Message：<!-- md:samp string -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////////
@@ -315,9 +315,9 @@ Message：<!-- md:samp string -->
 
 //////// html | div.result
 ///////// define
-Parameter：<!-- md:samp string -->
+Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 /////////
@@ -337,9 +337,9 @@ Parameter：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -351,7 +351,7 @@ Message：<!-- md:samp string -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////////
@@ -361,9 +361,9 @@ Message：<!-- md:samp string -->
 
 //////// html | div.result
 ///////// define
-Parameter：<!-- md:samp string -->
+Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 /////////
@@ -383,9 +383,9 @@ Parameter：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -401,9 +401,9 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -419,16 +419,16 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Player Name：<!-- md:samp string -->
+Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -444,16 +444,16 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Player Name：<!-- md:samp string -->
+Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -469,9 +469,9 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -487,9 +487,9 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -505,9 +505,9 @@ Message：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Message：<!-- md:samp string -->
+Message：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -516,16 +516,16 @@ Message：<!-- md:samp string -->
 
 /////
 //// define
-Sender's XUID：<!-- md:samp string -->
+Sender's XUID：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Platform Id：<!-- md:samp string -->
+Platform Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

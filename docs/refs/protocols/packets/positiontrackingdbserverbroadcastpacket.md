@@ -40,7 +40,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -54,14 +54,14 @@ Action：<!-- md:samp byte -->
 //// define
 Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
-- 类型：<!-- md:samp PositionTrackingId -->。
+- <!-- md:samp PositionTrackingId -->类型。
 
 
 ////
 //// define
 Position tracking data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。CompoundTag for record key:version (byte)'id' (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)
+- <!-- md:samp CompoundTag -->类型。CompoundTag for record key:version (byte)'id' (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)
 
 
 ////

@@ -332,14 +332,14 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
 Event Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -381,7 +381,7 @@ Event Type：<!-- md:samp varint -->
 //// define
 Use Player ID：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
@@ -396,7 +396,7 @@ Use Player ID：<!-- md:samp byte -->
 /////// define
 Achievement ID：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
@@ -414,7 +414,7 @@ Achievement ID：<!-- md:samp varint -->
 /////// define
 Interaction Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -441,7 +441,7 @@ Interaction Type：<!-- md:samp varint -->
 /////// define
 Interaction Actor Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -602,14 +602,14 @@ Interaction Actor Type：<!-- md:samp varint -->
 /////// define
 Interaction Actor Variant：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Interaction Actor Color：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ///////
@@ -627,7 +627,7 @@ Interaction Actor Color：<!-- md:samp byte -->
 /////// define
 Dimension ID：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- <!-- md:samp varint -->类型。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ///////
@@ -645,14 +645,14 @@ Dimension ID：<!-- md:samp varint -->
 /////// define
 Source Dimension ID：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- <!-- md:samp varint -->类型。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ///////
 /////// define
 Target Dimension ID：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- <!-- md:samp varint -->类型。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ///////
@@ -670,21 +670,21 @@ Target Dimension ID：<!-- md:samp varint -->
 /////// define
 Instigator Actor ID：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 ///////
 /////// define
 Target Actor ID：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 ///////
 /////// define
 Instigator's Child Actor Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -845,7 +845,7 @@ Instigator's Child Actor Type：<!-- md:samp varint -->
 /////// define
 Damage Source：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -892,14 +892,14 @@ Damage Source：<!-- md:samp varint -->
 /////// define
 Trade Tier：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。-1 if not a trading actor.
+- <!-- md:samp varint -->类型。-1 if not a trading actor.
 
 
 ///////
 /////// define
-Trader Name：<!-- md:samp string -->
+Trader Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Empty if not a trading actor.
+- <!-- md:samp string -->类型。Empty if not a trading actor.
 
 
 ///////
@@ -917,21 +917,21 @@ Trader Name：<!-- md:samp string -->
 /////// define
 Contents Color：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
 /////// define
 Contents Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Fill Level：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
@@ -949,21 +949,21 @@ Fill Level：<!-- md:samp varint -->
 /////// define
 Instigator Actor ID：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Instigator Mob Variant：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Damage Source：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -1010,7 +1010,7 @@ Damage Source：<!-- md:samp varint -->
 /////// define
 Died in Raid?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ///////
@@ -1028,21 +1028,21 @@ Died in Raid?：<!-- md:samp bool -->
 /////// define
 Boss Actor ID：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 ///////
 /////// define
 Party Size：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Boss Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -1214,7 +1214,7 @@ Boss Type：<!-- md:samp varint -->
 /////// define
 Result：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -1229,28 +1229,28 @@ Result：<!-- md:samp varint -->
 /////// define
 Result Number：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
-Command Name：<!-- md:samp string -->
+Command Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-///////
-/////// define
-Result Key：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
 /////// define
-Result String：<!-- md:samp string -->
+Result Key：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
+
+
+///////
+/////// define
+Result String：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -1290,28 +1290,28 @@ if (10)：<!-- md:samp [No Data] -->
 /////// define
 Success Count：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Error Count：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
-Command Name：<!-- md:samp string -->
+Command Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
 /////// define
-Error List：<!-- md:samp string -->
+Error List：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -1340,21 +1340,21 @@ if (12)：<!-- md:samp [No Data] -->
 /////// define
 Born Baby: Entity Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Born Baby: Entity Variant：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Born Baby: Color：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ///////
@@ -1383,7 +1383,7 @@ if (14)：<!-- md:samp [No Data] -->
 /////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -1420,7 +1420,7 @@ Block Interaction Type：<!-- md:samp varint -->
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Id of the relevant item used in the interaction.
+- <!-- md:samp varint -->类型。Id of the relevant item used in the interaction.
 
 
 ///////
@@ -1438,7 +1438,7 @@ Item Id：<!-- md:samp varint -->
 /////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -1475,7 +1475,7 @@ Block Interaction Type：<!-- md:samp varint -->
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Id of the relevant item used in the interaction.
+- <!-- md:samp varint -->类型。Id of the relevant item used in the interaction.
 
 
 ///////
@@ -1493,7 +1493,7 @@ Item Id：<!-- md:samp varint -->
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Id of the relevant item used in the interaction.
+- <!-- md:samp varint -->类型。Id of the relevant item used in the interaction.
 
 
 ///////
@@ -1509,9 +1509,9 @@ Item Id：<!-- md:samp varint -->
 
 ////// html | div.result
 /////// define
-Event Name：<!-- md:samp string -->
+Event Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -1529,21 +1529,21 @@ Event Name：<!-- md:samp string -->
 /////// define
 Current Raid Wave：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Total Raid Waves：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Won Raid：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ///////
@@ -1594,7 +1594,7 @@ if (22)：<!-- md:samp [No Data] -->
 /////// define
 Redstone Level：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
@@ -1612,14 +1612,14 @@ Redstone Level：<!-- md:samp varint -->
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Was targeting bartering player：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ///////
@@ -1637,7 +1637,7 @@ Was targeting bartering player：<!-- md:samp bool -->
 /////// define
 Player Waxed or Unwaxed Copper Block ID：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
@@ -1653,9 +1653,9 @@ Player Waxed or Unwaxed Copper Block ID：<!-- md:samp varint -->
 
 ////// html | div.result
 /////// define
-Code builder runtime action：<!-- md:samp string -->
+Code builder runtime action：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -1671,16 +1671,16 @@ Code builder runtime action：<!-- md:samp string -->
 
 ////// html | div.result
 /////// define
-Objective Name：<!-- md:samp string -->
+Objective Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
 /////// define
 Code Builder Scoreboard Score：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////

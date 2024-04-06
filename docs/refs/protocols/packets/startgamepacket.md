@@ -144,21 +144,21 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
 //// define
 Actor Game Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -176,70 +176,70 @@ Actor Game Type：<!-- md:samp varint -->
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。
+- <!-- md:samp Vec3 -->类型。
 
 
 ////
 //// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：<!-- md:samp Vec2 -->。
+- <!-- md:samp Vec2 -->类型。
 
 
 ////
 //// define
 Settings：[<!-- md:samp LevelSettings -->](../types/levelsettings.md)
 
-- 类型：<!-- md:samp LevelSettings -->。
+- <!-- md:samp LevelSettings -->类型。
 
 
 ////
 //// define
-Level ID：<!-- md:samp string -->
+Level ID：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-////
-//// define
-Level Name：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Template Content Identity：<!-- md:samp string -->
+Level Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
+
+
+////
+//// define
+Template Content Identity：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Is Trial?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Movement Settings：[<!-- md:samp SyncedPlayerMovementSettings -->](../types/syncedplayermovementsettings.md)
 
-- 类型：<!-- md:samp SyncedPlayerMovementSettings -->。
+- <!-- md:samp SyncedPlayerMovementSettings -->类型。
 
 
 ////
 //// define
 Current Level Time：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。
+- <!-- md:samp unsigned int64 -->类型。
 
 
 ////
 //// define
 Enchantment Seed：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
@@ -251,7 +251,7 @@ Enchantment Seed：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -261,16 +261,16 @@ Enchantment Seed：<!-- md:samp varint -->
 
 ///// html | div.result
 ////// define
-Block Name：<!-- md:samp string -->
+Block Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。Map of block states. { key (component 'name'):[label,value] } (Can be left empty.)
+- <!-- md:samp CompoundTag -->类型。Map of block states. { key (component 'name'):[label,value] } (Can be left empty.)
 
 
 //////
@@ -286,7 +286,7 @@ Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -298,7 +298,7 @@ Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////// define
 Item Info：[<!-- md:samp ItemData -->](../types/itemdata.md)
 
-- 类型：<!-- md:samp ItemData -->。See: ItemData Type
+- <!-- md:samp ItemData -->类型。See: ItemData Type
 
 
 //////
@@ -307,65 +307,65 @@ Item Info：[<!-- md:samp ItemData -->](../types/itemdata.md)
 
 ////
 //// define
-Multiplayer Correlation Id：<!-- md:samp string -->
+Multiplayer Correlation Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。A UUID to 'id'entify this multiplayer session.
+- <!-- md:samp string -->类型。A UUID to 'id'entify this multiplayer session.
 
 
 ////
 //// define
 Enable Item Stack Net Manager：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Whether the new item stack net manager is enabled for server authoritative inventory. This will eventually be required.
+- <!-- md:samp bool -->类型。Whether the new item stack net manager is enabled for server authoritative inventory. This will eventually be required.
 
 
 ////
 //// define
-Server version：<!-- md:samp string -->
+Server version：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。For telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
+- <!-- md:samp string -->类型。For telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
 
 
 ////
 //// define
 Player Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。like SyncActorPropertyPacket, specifically for minecraft:player properties
+- <!-- md:samp CompoundTag -->类型。like SyncActorPropertyPacket, specifically for minecraft:player properties
 
 
 ////
 //// define
 Server Block Type Registry Checksum：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。Checksum for detecting mismatches in block types between server and client.
+- <!-- md:samp unsigned int64 -->类型。Checksum for detecting mismatches in block types between server and client.
 
 
 ////
 //// define
 World Template ID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：<!-- md:samp mce::UUID -->。
+- <!-- md:samp mce::UUID -->类型。
 
 
 ////
 //// define
 Server Enabled ClientSide Generation：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。BiomeComponentFactory needs to know about this toggle before we start parsing BiomeComponents
+- <!-- md:samp bool -->类型。BiomeComponentFactory needs to know about this toggle before we start parsing BiomeComponents
 
 
 ////
 //// define
 BlockNetworkIds Are Hashes：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 NetworkPermissions：[<!-- md:samp NetworkPermissions -->](../types/networkpermissions.md)
 
-- 类型：<!-- md:samp NetworkPermissions -->。
+- <!-- md:samp NetworkPermissions -->类型。
 
 
 ////

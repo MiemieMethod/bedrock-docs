@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Actor Runtime ID：<!-- md:samp unsigned varint64 -->
 
-- 类型：<!-- md:samp unsigned varint64 -->。
+- <!-- md:samp unsigned varint64 -->类型。
 
 
 ////

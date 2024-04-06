@@ -56,7 +56,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -72,7 +72,7 @@ Action：<!-- md:samp byte -->
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
@@ -98,21 +98,21 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Position X：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
 /////// define
 Position Y：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
 /////// define
 Position Z：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////

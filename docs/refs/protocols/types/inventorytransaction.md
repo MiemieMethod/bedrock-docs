@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 
-- 类型：<!-- md:samp InventoryAction -->。
+- <!-- md:samp InventoryAction -->类型。
 
 
 //////

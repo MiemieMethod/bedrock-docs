@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Pos X：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 ////
 //// define
 Pos Y：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 ////
 //// define
 Pos Z：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 ////
 //// define
 Slot Index：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
 //// define
 Is Disabled：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

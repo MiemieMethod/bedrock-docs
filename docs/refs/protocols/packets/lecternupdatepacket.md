@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 New page to show：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
 //// define
 Total Pages：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
 //// define
 Position of Lectern to update：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 ////

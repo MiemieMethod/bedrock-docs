@@ -96,7 +96,7 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
@@ -108,7 +108,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -120,35 +120,35 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ////// define
 Min Value：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 //////
 ////// define
 Max Value：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 //////
 ////// define
 Current Value：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 //////
 ////// define
 Default Value：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 //////
 ////// define
-Attribute Name：<!-- md:samp string -->
+Attribute Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -160,7 +160,7 @@ Attribute Name：<!-- md:samp string -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -170,30 +170,30 @@ Attribute Name：<!-- md:samp string -->
 
 /////// html | div.result
 //////// define
-ID：<!-- md:samp string -->
+ID：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////////
 //////// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////////
 //////// define
 Amount：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////////
 //////// define
 Operation：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。枚举值如下：
+- <!-- md:samp int -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -210,7 +210,7 @@ Operation：<!-- md:samp int -->
 //////// define
 Operand：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。枚举值如下：
+- <!-- md:samp int -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -226,7 +226,7 @@ Operand：<!-- md:samp int -->
 //////// define
 isSerializable?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////////
@@ -241,7 +241,7 @@ isSerializable?：<!-- md:samp bool -->
 //// define
 Count of ticks since simulation started：<!-- md:samp unsigned varint64 -->
 
-- 类型：<!-- md:samp unsigned varint64 -->。
+- <!-- md:samp unsigned varint64 -->类型。
 
 
 ////

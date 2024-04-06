@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 ServerTime：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////
 //// define
 NetworkTime：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////

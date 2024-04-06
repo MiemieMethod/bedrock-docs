@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Form ID：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////
 //// define
 JSON Response：[<!-- md:samp std::optional&lt;class Json::Value&gt; -->](../types/std__optional_class_json__value_.md)
 
-- 类型：<!-- md:samp std::optional&lt;class Json::Value&gt; -->。
+- <!-- md:samp std::optional&lt;class Json::Value&gt; -->类型。
 
 
 ////
 //// define
 Form Cancel Reason：[<!-- md:samp std::optional&lt;enum ModalFormCancelReason&gt; -->](../types/std__optional_enum_modalformcancelreason_.md)
 
-- 类型：<!-- md:samp std::optional&lt;enum ModalFormCancelReason&gt; -->。
+- <!-- md:samp std::optional&lt;enum ModalFormCancelReason&gt; -->类型。
 
 
 ////

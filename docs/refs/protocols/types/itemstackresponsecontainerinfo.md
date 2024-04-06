@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Open Container Net Id：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ////
@@ -56,7 +56,7 @@ Open Container Net Id：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -68,7 +68,7 @@ Open Container Net Id：<!-- md:samp byte -->
 ////// define
 Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](../types/itemstackresponseslotinfo.md)
 
-- 类型：<!-- md:samp ItemStackResponseSlotInfo -->。
+- <!-- md:samp ItemStackResponseSlotInfo -->类型。
 
 
 //////

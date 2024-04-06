@@ -48,21 +48,21 @@ rankdir = LR
 //// define
 Dimension Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
 Center Pos：[<!-- md:samp SubChunkPos -->](../types/subchunkpos.md)
 
-- 类型：<!-- md:samp SubChunkPos -->。
+- <!-- md:samp SubChunkPos -->类型。
 
 
 ////
 //// define
 Request Count：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 ////
@@ -79,7 +79,7 @@ Request Count：<!-- md:samp unsigned int -->
 ////// define
 SubChunk Offset Pos：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../types/subchunkpacket__subchunkposoffset.md)
 
-- 类型：<!-- md:samp SubChunkPacket::SubChunkPosOffset -->。
+- <!-- md:samp SubChunkPacket::SubChunkPosOffset -->类型。
 
 
 //////

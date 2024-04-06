@@ -66,7 +66,7 @@ rankdir = LR
 /////// define
 Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。Send fixed Id of 0 for inval'id' item
+- <!-- md:samp varint -->类型。Send fixed Id of 0 for inval'id' item
 
 
 ///////
@@ -84,35 +84,35 @@ Id：<!-- md:samp varint -->
 /////// define
 Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
 Stack size：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 ///////
 /////// define
 Aux value：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
 /////// define
 Block Runtime Id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
 /////// define
-User Data Buffer：<!-- md:samp string -->
+User Data Buffer：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。The @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
+- <!-- md:samp string -->类型。The @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
 
 
 ///////

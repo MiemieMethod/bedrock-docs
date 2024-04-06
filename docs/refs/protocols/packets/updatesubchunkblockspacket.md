@@ -88,7 +88,7 @@ rankdir = LR
 //// define
 Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 ////
@@ -100,7 +100,7 @@ Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/netw
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -112,35 +112,35 @@ Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/netw
 ////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 //////
 ////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 //////
 ////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 //////
 ////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 类型：<!-- md:samp unsigned varint64 -->。
+- <!-- md:samp unsigned varint64 -->类型。
 
 
 //////
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -163,7 +163,7 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -175,35 +175,35 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 ////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 //////
 ////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 //////
 ////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 //////
 ////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 类型：<!-- md:samp unsigned varint64 -->。
+- <!-- md:samp unsigned varint64 -->类型。
 
 
 //////
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

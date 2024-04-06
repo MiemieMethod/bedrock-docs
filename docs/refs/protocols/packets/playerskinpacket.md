@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：<!-- md:samp mce::UUID -->。
+- <!-- md:samp mce::UUID -->类型。
 
 
 ////
 //// define
 Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
-- 类型：<!-- md:samp SerializedSkin -->。
+- <!-- md:samp SerializedSkin -->类型。
 
 
 ////
 //// define
-New Skin Name：<!-- md:samp string -->
+New Skin Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Old Skin Name：<!-- md:samp string -->
+Old Skin Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Whether skin is trusted marketplace content：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

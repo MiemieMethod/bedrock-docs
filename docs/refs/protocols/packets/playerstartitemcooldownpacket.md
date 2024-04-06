@@ -34,16 +34,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Item Category：<!-- md:samp string -->
+Item Category：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Duration Ticks：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////

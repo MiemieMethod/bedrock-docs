@@ -42,30 +42,30 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Command：<!-- md:samp string -->
+Command：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Command Origin：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
-- 类型：<!-- md:samp CommandOriginData -->。
+- <!-- md:samp CommandOriginData -->类型。
 
 
 ////
 //// define
 Is Internal Source?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Version：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////

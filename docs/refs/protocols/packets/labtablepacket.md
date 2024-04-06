@@ -40,7 +40,7 @@ rankdir = LR
 //// define
 Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -54,14 +54,14 @@ Type：<!-- md:samp byte -->
 //// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：<!-- md:samp BlockPos -->。
+- <!-- md:samp BlockPos -->类型。
 
 
 ////
 //// define
 Reaction：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

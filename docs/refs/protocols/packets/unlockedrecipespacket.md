@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Packet Type：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 ////
@@ -56,7 +56,7 @@ Packet Type：<!-- md:samp unsigned int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -66,9 +66,9 @@ Packet Type：<!-- md:samp unsigned int -->
 
 ///// html | div.result
 ////// define
-Recipe：<!-- md:samp string -->
+Recipe：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////

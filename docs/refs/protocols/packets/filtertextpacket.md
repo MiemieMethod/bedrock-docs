@@ -34,16 +34,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Text：<!-- md:samp string -->
+Text：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 From Server：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Whether this message is a filtered string from the server or a string in need of filtering from the client
+- <!-- md:samp bool -->类型。Whether this message is a filtered string from the server or a string in need of filtering from the client
 
 
 ////

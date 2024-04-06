@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Item Id：<!-- md:samp short -->
 
-- 类型：<!-- md:samp short -->。
+- <!-- md:samp short -->类型。
 
 
 ////
 //// define
 Item Use Method：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。枚举值如下：
+- <!-- md:samp int -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

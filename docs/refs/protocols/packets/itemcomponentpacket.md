@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -59,16 +59,16 @@ rankdir = LR
 
 ///// html | div.result
 ////// define
-ComponentItem name：<!-- md:samp string -->
+ComponentItem name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Component data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。Compound tag members - item'name': string, item'id': short, itemcomponents: {[componentkey:string]: { ...component definition here... } } }
+- <!-- md:samp CompoundTag -->类型。Compound tag members - item'name': string, item'id': short, itemcomponents: {[componentkey:string]: { ...component definition here... } } }
 
 
 //////

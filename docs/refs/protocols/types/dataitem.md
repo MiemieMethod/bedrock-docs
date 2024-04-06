@@ -92,14 +92,14 @@ rankdir = LR
 //// define
 ID：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////
 //// define
 Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -128,7 +128,7 @@ Type：<!-- md:samp byte -->
 /////// define
 Value：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ///////
@@ -146,7 +146,7 @@ Value：<!-- md:samp byte -->
 /////// define
 Value：<!-- md:samp short -->
 
-- 类型：<!-- md:samp short -->。
+- <!-- md:samp short -->类型。
 
 
 ///////
@@ -164,7 +164,7 @@ Value：<!-- md:samp short -->
 /////// define
 Value：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ///////
@@ -182,7 +182,7 @@ Value：<!-- md:samp varint -->
 /////// define
 Value：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
@@ -198,9 +198,9 @@ Value：<!-- md:samp float -->
 
 ////// html | div.result
 /////// define
-Value：<!-- md:samp string -->
+Value：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -218,7 +218,7 @@ Value：<!-- md:samp string -->
 /////// define
 Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。
+- <!-- md:samp CompoundTag -->类型。
 
 
 ///////
@@ -236,7 +236,7 @@ Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 /////// define
 Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：<!-- md:samp BlockPos -->。
+- <!-- md:samp BlockPos -->类型。
 
 
 ///////
@@ -254,7 +254,7 @@ Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 /////// define
 Value：<!-- md:samp varint64 -->
 
-- 类型：<!-- md:samp varint64 -->。
+- <!-- md:samp varint64 -->类型。
 
 
 ///////
@@ -272,7 +272,7 @@ Value：<!-- md:samp varint64 -->
 /////// define
 Value：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。
+- <!-- md:samp Vec3 -->类型。
 
 
 ///////

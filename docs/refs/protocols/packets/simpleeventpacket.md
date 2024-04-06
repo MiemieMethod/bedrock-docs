@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Type：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。枚举值如下：
+- <!-- md:samp unsigned short -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

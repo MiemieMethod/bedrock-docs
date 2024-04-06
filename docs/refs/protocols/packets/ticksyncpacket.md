@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Client Request Timestamp：<!-- md:samp int64 -->
 
-- 类型：<!-- md:samp int64 -->。
+- <!-- md:samp int64 -->类型。
 
 
 ////
 //// define
 Server Reception Response Timestamp：<!-- md:samp int64 -->
 
-- 类型：<!-- md:samp int64 -->。
+- <!-- md:samp int64 -->类型。
 
 
 ////

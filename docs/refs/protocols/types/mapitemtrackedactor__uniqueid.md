@@ -50,7 +50,7 @@ rankdir = LR
 //// define
 Type：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。枚举值如下：
+- <!-- md:samp int -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -73,7 +73,7 @@ Type：<!-- md:samp int -->
 /////// define
 Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ///////
@@ -91,7 +91,7 @@ Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 /////// define
 Block position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 ///////

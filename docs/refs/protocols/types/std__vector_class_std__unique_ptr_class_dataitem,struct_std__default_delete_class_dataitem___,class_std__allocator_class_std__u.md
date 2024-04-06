@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Count：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////
 //// define
 Item：[<!-- md:samp DataItem -->](../types/dataitem.md)
 
-- 类型：<!-- md:samp DataItem -->。
+- <!-- md:samp DataItem -->类型。
 
 
 ////

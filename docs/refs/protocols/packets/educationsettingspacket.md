@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Education Level Settings：[<!-- md:samp EducationLevelSettings -->](../types/educationlevelsettings.md)
 
-- 类型：<!-- md:samp EducationLevelSettings -->。
+- <!-- md:samp EducationLevelSettings -->类型。
 
 
 ////

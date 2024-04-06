@@ -30,9 +30,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Sub Client Connection Request：<!-- md:samp string -->
+Sub Client Connection Request：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。see @subClientConnectionRequest.html#diagram@
+- <!-- md:samp string -->类型。see @subClientConnectionRequest.html#diagram@
 
 
 ////

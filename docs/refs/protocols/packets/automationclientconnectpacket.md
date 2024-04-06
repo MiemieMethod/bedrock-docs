@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Web Socket Data：[<!-- md:samp WebSocketPacketData -->](../types/websocketpacketdata.md)
 
-- 类型：<!-- md:samp WebSocketPacketData -->。
+- <!-- md:samp WebSocketPacketData -->类型。
 
 
 ////

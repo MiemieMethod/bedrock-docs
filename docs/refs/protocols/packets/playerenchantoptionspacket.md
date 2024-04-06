@@ -57,7 +57,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -69,28 +69,28 @@ rankdir = LR
 ////// define
 Cost：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 //////
 ////// define
 Enchants：[<!-- md:samp ItemEnchants -->](../types/itemenchants.md)
 
-- 类型：<!-- md:samp ItemEnchants -->。
+- <!-- md:samp ItemEnchants -->类型。
 
 
 //////
 ////// define
-Enchant Name：<!-- md:samp string -->
+Enchant Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Enchant Net Id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 类型：<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->。
+- <!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->类型。
 
 
 //////

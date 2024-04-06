@@ -56,21 +56,21 @@ rankdir = LR
 //// define
 MaxTestsPerBatch：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
 RepeatCount：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -86,28 +86,28 @@ Rotation：<!-- md:samp byte -->
 //// define
 StopOnFailure：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 TestPos：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 类型：<!-- md:samp BlockPos -->。
+- <!-- md:samp BlockPos -->类型。
 
 
 ////
 //// define
 TestsPerRow：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////
 //// define
-TestName：<!-- md:samp string -->
+TestName：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

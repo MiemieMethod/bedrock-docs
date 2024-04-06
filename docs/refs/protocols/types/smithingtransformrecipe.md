@@ -50,44 +50,44 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Recipe Id：<!-- md:samp string -->
+Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Template Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：<!-- md:samp RecipeIngredient -->。
+- <!-- md:samp RecipeIngredient -->类型。
 
 
 ////
 //// define
 Base Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：<!-- md:samp RecipeIngredient -->。
+- <!-- md:samp RecipeIngredient -->类型。
 
 
 ////
 //// define
 Addition Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：<!-- md:samp RecipeIngredient -->。
+- <!-- md:samp RecipeIngredient -->类型。
 
 
 ////
 //// define
 Result：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
+- <!-- md:samp NetworkItemInstanceDescriptor -->类型。
 
 
 ////
 //// define
-Tag：<!-- md:samp string -->
+Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

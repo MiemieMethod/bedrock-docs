@@ -70,7 +70,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -88,7 +88,7 @@ Action：<!-- md:samp varint -->
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
@@ -158,7 +158,7 @@ if (5)：<!-- md:samp [No Data] -->
 /////// define
 Rowing Time：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
@@ -176,7 +176,7 @@ Rowing Time：<!-- md:samp float -->
 /////// define
 Rowing Time：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////

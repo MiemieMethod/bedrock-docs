@@ -57,7 +57,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 /////
@@ -69,7 +69,7 @@ rankdir = LR
 ////// define
 String Data：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 //////
@@ -85,7 +85,7 @@ String Data：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 /////
@@ -97,7 +97,7 @@ String Data：<!-- md:samp byte -->
 ////// define
 String Data：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 //////

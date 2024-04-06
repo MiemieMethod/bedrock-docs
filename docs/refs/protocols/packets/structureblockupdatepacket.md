@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 ////
 //// define
 Structure Data：[<!-- md:samp StructureEditorData -->](../types/structureeditordata.md)
 
-- 类型：<!-- md:samp StructureEditorData -->。
+- <!-- md:samp StructureEditorData -->类型。
 
 
 ////
 //// define
 Trigger?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 IsWaterlogged：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

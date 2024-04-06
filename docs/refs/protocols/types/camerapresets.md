@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Camera Preset：[<!-- md:samp CameraPreset -->](../types/camerapreset.md)
 
-- 类型：<!-- md:samp CameraPreset -->。
+- <!-- md:samp CameraPreset -->类型。
 
 
 //////

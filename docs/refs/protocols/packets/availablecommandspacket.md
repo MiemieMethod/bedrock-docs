@@ -269,7 +269,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -279,9 +279,9 @@ rankdir = LR
 
 ///// html | div.result
 ////// define
-Value：<!-- md:samp string -->
+Value：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -297,7 +297,7 @@ Value：<!-- md:samp string -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -307,9 +307,9 @@ Value：<!-- md:samp string -->
 
 ///// html | div.result
 ////// define
-Chained Subcommand Values：<!-- md:samp string -->
+Chained Subcommand Values：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -325,7 +325,7 @@ Chained Subcommand Values：<!-- md:samp string -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -335,9 +335,9 @@ Chained Subcommand Values：<!-- md:samp string -->
 
 ///// html | div.result
 ////// define
-Post Fix：<!-- md:samp string -->
+Post Fix：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -353,7 +353,7 @@ Post Fix：<!-- md:samp string -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -363,9 +363,9 @@ Post Fix：<!-- md:samp string -->
 
 ///// html | div.result
 ////// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -377,7 +377,7 @@ Name：<!-- md:samp string -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -405,7 +405,7 @@ Name：<!-- md:samp string -->
 ////////////// define
 Enum Value：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 //////////////
@@ -423,7 +423,7 @@ Enum Value：<!-- md:samp unsigned int -->
 ////////////// define
 Enum Value：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 //////////////
@@ -445,7 +445,7 @@ Enum Value：<!-- md:samp unsigned short -->
 /////////// define
 Enum Value：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 ///////////
@@ -469,7 +469,7 @@ Enum Value：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -479,9 +479,9 @@ Enum Value：<!-- md:samp byte -->
 
 ///// html | div.result
 ////// define
-SubCommand Name：<!-- md:samp string -->
+SubCommand Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -493,7 +493,7 @@ SubCommand Name：<!-- md:samp string -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -505,14 +505,14 @@ SubCommand Name：<!-- md:samp string -->
 //////// define
 SubCommand First Value：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 ////////
 //////// define
 SubCommand Second Value：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 ////////
@@ -532,7 +532,7 @@ SubCommand Second Value：<!-- md:samp unsigned short -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -542,30 +542,30 @@ SubCommand Second Value：<!-- md:samp unsigned short -->
 
 ///// html | div.result
 ////// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
-Description：<!-- md:samp string -->
+Description：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
 ////// define
 Flags：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 //////
 ////// define
 Permission Level：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -582,7 +582,7 @@ Permission Level：<!-- md:samp byte -->
 ////// define
 Alias Enum：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 //////
@@ -594,7 +594,7 @@ Alias Enum：<!-- md:samp int -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -606,7 +606,7 @@ Alias Enum：<!-- md:samp int -->
 //////// define
 Index：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 ////////
@@ -622,7 +622,7 @@ Index：<!-- md:samp unsigned short -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -634,7 +634,7 @@ Index：<!-- md:samp unsigned short -->
 //////// define
 isChaining：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////////
@@ -646,7 +646,7 @@ isChaining：<!-- md:samp bool -->
 ///////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////////
@@ -656,30 +656,30 @@ isChaining：<!-- md:samp bool -->
 
 ///////// html | div.result
 ////////// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////////
 ////////// define
 Parse Symbol：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 //////////
 ////////// define
 Is Optional?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 //////////
 ////////// define
 Options：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。
+- <!-- md:samp byte -->类型。
 
 
 //////////
@@ -703,7 +703,7 @@ Options：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -713,9 +713,9 @@ Options：<!-- md:samp byte -->
 
 ///// html | div.result
 ////// define
-Enum Name：<!-- md:samp string -->
+Enum Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -727,7 +727,7 @@ Enum Name：<!-- md:samp string -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -737,9 +737,9 @@ Enum Name：<!-- md:samp string -->
 
 /////// html | div.result
 //////// define
-Value：<!-- md:samp string -->
+Value：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////////
@@ -759,7 +759,7 @@ Value：<!-- md:samp string -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -771,14 +771,14 @@ Value：<!-- md:samp string -->
 ////// define
 Enum Value Symbol：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。Symbol in the command parser representing this enum's value.
+- <!-- md:samp unsigned int -->类型。Symbol in the command parser representing this enum's value.
 
 
 //////
 ////// define
 Enum Symbol：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。Symbol in the command parser representing this enum.
+- <!-- md:samp unsigned int -->类型。Symbol in the command parser representing this enum.
 
 
 //////
@@ -790,7 +790,7 @@ Enum Symbol：<!-- md:samp unsigned int -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -802,7 +802,7 @@ Enum Symbol：<!-- md:samp unsigned int -->
 //////// define
 Semantic Constraint Index：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。Index of the semantic constraint within the command parser.
+- <!-- md:samp byte -->类型。Index of the semantic constraint within the command parser.
 
 
 ////////

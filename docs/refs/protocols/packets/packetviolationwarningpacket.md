@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Violation Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -57,7 +57,7 @@ Violation Type：<!-- md:samp varint -->
 //// define
 Violation Severity：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -72,7 +72,7 @@ Violation Severity：<!-- md:samp varint -->
 //// define
 Violating packet id：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -291,9 +291,9 @@ Violating packet id：<!-- md:samp varint -->
 
 ////
 //// define
-Violation context：<!-- md:samp string -->
+Violation context：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

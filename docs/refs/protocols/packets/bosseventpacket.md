@@ -118,14 +118,14 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ////
 //// define
 Event Type：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。枚举值如下：
+- <!-- md:samp int -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -151,37 +151,37 @@ Event Type：<!-- md:samp int -->
 
 ////// html | div.result
 /////// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Name of the boss to add
+- <!-- md:samp string -->类型。Name of the boss to add
 
 
 ///////
 /////// define
 Health Percent：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。Health value of the boss
+- <!-- md:samp float -->类型。Health value of the boss
 
 
 ///////
 /////// define
 Darken Screen：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。A boolean value for whether or not we should darken the screen (has a 0 or 1 value)
+- <!-- md:samp unsigned short -->类型。A boolean value for whether or not we should darken the screen (has a 0 or 1 value)
 
 
 ///////
 /////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。color for the boss bar, listed in an enumeration
+- <!-- md:samp unsigned varint -->类型。color for the boss bar, listed in an enumeration
 
 
 ///////
 /////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。overlay for the boss bar, listed in an enumeration
+- <!-- md:samp unsigned varint -->类型。overlay for the boss bar, listed in an enumeration
 
 
 ///////
@@ -199,7 +199,7 @@ Overlay：<!-- md:samp unsigned varint -->
 /////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ///////
@@ -228,7 +228,7 @@ if (2)：<!-- md:samp [No Data] -->
 /////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ///////
@@ -246,7 +246,7 @@ Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 /////// define
 Health Percent：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
@@ -262,9 +262,9 @@ Health Percent：<!-- md:samp float -->
 
 ////// html | div.result
 /////// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
@@ -282,21 +282,21 @@ Name：<!-- md:samp string -->
 /////// define
 Darken Screen：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 ///////
 /////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
 /////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -314,14 +314,14 @@ Overlay：<!-- md:samp unsigned varint -->
 /////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
 /////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -339,7 +339,7 @@ Overlay：<!-- md:samp unsigned varint -->
 /////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 类型：<!-- md:samp ActorUniqueID -->。
+- <!-- md:samp ActorUniqueID -->类型。
 
 
 ///////

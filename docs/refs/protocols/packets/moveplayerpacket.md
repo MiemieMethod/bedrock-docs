@@ -76,35 +76,35 @@ rankdir = LR
 //// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。
+- <!-- md:samp Vec3 -->类型。
 
 
 ////
 //// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 类型：<!-- md:samp Vec2 -->。
+- <!-- md:samp Vec2 -->类型。
 
 
 ////
 //// define
 Y-Head Rotation：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ////
 //// define
 Position Mode：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -119,14 +119,14 @@ Position Mode：<!-- md:samp byte -->
 //// define
 On Ground：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Riding Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ////
@@ -152,14 +152,14 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Teleportation Cause：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 ///////
 /////// define
 Source Actor Type：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。
+- <!-- md:samp int -->类型。
 
 
 ///////
@@ -170,7 +170,7 @@ Source Actor Type：<!-- md:samp int -->
 //// define
 Tick：<!-- md:samp unsigned varint64 -->
 
-- 类型：<!-- md:samp unsigned varint64 -->。Should be the tick we last processed from PlayerAuthInputPacket or 0 if we're not doing server authoritative movement
+- <!-- md:samp unsigned varint64 -->类型。Should be the tick we last processed from PlayerAuthInputPacket or 0 if we're not doing server authoritative movement
 
 
 ////

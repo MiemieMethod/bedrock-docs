@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Camera Instruction：[<!-- md:samp CameraInstruction -->](../types/camerainstruction.md)
 
-- 类型：<!-- md:samp CameraInstruction -->。
+- <!-- md:samp CameraInstruction -->类型。
 
 
 ////

@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 mRuntimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。Id of moving actor
+- <!-- md:samp ActorRuntimeID -->类型。Id of moving actor
 
 
 ////
 //// define
 mMotion：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。Position delta
+- <!-- md:samp Vec3 -->类型。Position delta
 
 
 ////
 //// define
 mOnGround：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Not falling / jumping
+- <!-- md:samp bool -->类型。Not falling / jumping
 
 
 ////

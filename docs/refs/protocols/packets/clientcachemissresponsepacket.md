@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 Number of missing blobs：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -61,14 +61,14 @@ Number of missing blobs：<!-- md:samp unsigned varint -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。
+- <!-- md:samp unsigned int64 -->类型。
 
 
 //////
 ////// define
-Blob Data：<!-- md:samp string -->
+Blob Data：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Subchunk data (see https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37) plus biome data
+- <!-- md:samp string -->类型。Subchunk data (see https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37) plus biome data
 
 
 //////

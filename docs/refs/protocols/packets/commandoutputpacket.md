@@ -80,14 +80,14 @@ rankdir = LR
 //// define
 Origin Data：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
-- 类型：<!-- md:samp CommandOriginData -->。
+- <!-- md:samp CommandOriginData -->类型。
 
 
 ////
 //// define
 Output Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -103,7 +103,7 @@ Output Type：<!-- md:samp byte -->
 //// define
 Success Count：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////
@@ -115,7 +115,7 @@ Success Count：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -127,14 +127,14 @@ Success Count：<!-- md:samp unsigned varint -->
 ////// define
 Successful?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 //////
 ////// define
-Message ID：<!-- md:samp string -->
+Message ID：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 //////
@@ -146,7 +146,7 @@ Message ID：<!-- md:samp string -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ///////
@@ -156,9 +156,9 @@ Message ID：<!-- md:samp string -->
 
 /////// html | div.result
 //////// define
-Param：<!-- md:samp string -->
+Param：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////////
@@ -190,9 +190,9 @@ if (0)：<!-- md:samp [No Data] -->
 
 ////// html | div.result
 /////// define
-Data Set：<!-- md:samp string -->
+Data Set：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////

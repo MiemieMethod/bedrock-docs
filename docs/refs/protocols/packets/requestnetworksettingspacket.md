@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 ClientNetworkVersion：<!-- md:samp big endian int -->
 
-- 类型：<!-- md:samp big endian int -->。
+- <!-- md:samp big endian int -->类型。
 
 
 ////

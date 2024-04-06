@@ -72,7 +72,7 @@ rankdir = LR
 //// define
 Debug Marker Type：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -114,51 +114,51 @@ if (1)：<!-- md:samp [No Data] -->
 
 ////// html | div.result
 /////// define
-Debug Marker Text：<!-- md:samp string -->
+Debug Marker Text：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ///////
 /////// define
 Debug Marker Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。
+- <!-- md:samp Vec3 -->类型。
 
 
 ///////
 /////// define
 Debug Marker Color red：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
 /////// define
 Debug Marker Color green：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
 /////// define
 Debug Marker Color blue：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
 /////// define
 Debug Marker Color alpha：<!-- md:samp float -->
 
-- 类型：<!-- md:samp float -->。
+- <!-- md:samp float -->类型。
 
 
 ///////
 /////// define
 Debug Marker Duration Milliseconds：<!-- md:samp unsigned int64 -->
 
-- 类型：<!-- md:samp unsigned int64 -->。
+- <!-- md:samp unsigned int64 -->类型。
 
 
 ///////

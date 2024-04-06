@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Form ID：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 ////
 //// define
-Form UI JSON：<!-- md:samp string -->
+Form UI JSON：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

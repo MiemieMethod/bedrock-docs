@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Binary Payload：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。
+- <!-- md:samp CompoundTag -->类型。
 
 
 ////

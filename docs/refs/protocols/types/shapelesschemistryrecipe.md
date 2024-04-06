@@ -66,9 +66,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Recipe Id：<!-- md:samp string -->
+Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
@@ -80,7 +80,7 @@ Recipe Id：<!-- md:samp string -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -92,7 +92,7 @@ Recipe Id：<!-- md:samp string -->
 ////// define
 Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 类型：<!-- md:samp RecipeIngredient -->。
+- <!-- md:samp RecipeIngredient -->类型。
 
 
 //////
@@ -108,7 +108,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。
+- <!-- md:samp unsigned varint -->类型。
 
 
 /////
@@ -120,7 +120,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 类型：<!-- md:samp NetworkItemInstanceDescriptor -->。
+- <!-- md:samp NetworkItemInstanceDescriptor -->类型。
 
 
 //////
@@ -131,21 +131,21 @@ Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkitemins
 //// define
 Id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 类型：<!-- md:samp mce::UUID -->。
+- <!-- md:samp mce::UUID -->类型。
 
 
 ////
 //// define
-Tag：<!-- md:samp string -->
+Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。As string
+- <!-- md:samp string -->类型。As string
 
 
 ////
 //// define
 Priority：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。
+- <!-- md:samp varint -->类型。
 
 
 ////

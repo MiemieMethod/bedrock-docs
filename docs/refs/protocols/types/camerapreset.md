@@ -62,65 +62,65 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Name：<!-- md:samp string -->
+Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Inherit From：<!-- md:samp string -->
+Inherit From：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Pos X：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 类型：<!-- md:samp std::optional&lt;float&gt; -->。
+- <!-- md:samp std::optional&lt;float&gt; -->类型。
 
 
 ////
 //// define
 Pos Y：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 类型：<!-- md:samp std::optional&lt;float&gt; -->。
+- <!-- md:samp std::optional&lt;float&gt; -->类型。
 
 
 ////
 //// define
 Pos Z：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 类型：<!-- md:samp std::optional&lt;float&gt; -->。
+- <!-- md:samp std::optional&lt;float&gt; -->类型。
 
 
 ////
 //// define
 Rot X：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 类型：<!-- md:samp std::optional&lt;float&gt; -->。
+- <!-- md:samp std::optional&lt;float&gt; -->类型。
 
 
 ////
 //// define
 Rot Y：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 类型：<!-- md:samp std::optional&lt;float&gt; -->。
+- <!-- md:samp std::optional&lt;float&gt; -->类型。
 
 
 ////
 //// define
 Listener：[<!-- md:samp std::optional&lt;enum CameraPreset::AudioListener&gt; -->](../types/std__optional_enum_camerapreset__audiolistener_.md)
 
-- 类型：<!-- md:samp std::optional&lt;enum CameraPreset::AudioListener&gt; -->。
+- <!-- md:samp std::optional&lt;enum CameraPreset::AudioListener&gt; -->类型。
 
 
 ////
 //// define
 Player Effects：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__optional_bool_.md)
 
-- 类型：<!-- md:samp std::optional&lt;bool&gt; -->。
+- <!-- md:samp std::optional&lt;bool&gt; -->类型。
 
 
 ////

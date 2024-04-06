@@ -82,7 +82,7 @@ rankdir = LR
 //// define
 Is Block?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
@@ -97,7 +97,7 @@ Is Block?：<!-- md:samp bool -->
 /////// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 类型：<!-- md:samp ActorRuntimeID -->。
+- <!-- md:samp ActorRuntimeID -->类型。
 
 
 ///////
@@ -115,14 +115,14 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 /////// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 类型：<!-- md:samp NetworkBlockPosition -->。
+- <!-- md:samp NetworkBlockPosition -->类型。
 
 
 ///////
 /////// define
 Command Block Mode：<!-- md:samp unsigned varint -->
 
-- 类型：<!-- md:samp unsigned varint -->。枚举值如下：
+- <!-- md:samp unsigned varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -136,14 +136,14 @@ Command Block Mode：<!-- md:samp unsigned varint -->
 /////// define
 Redstone Mode：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ///////
 /////// define
 Is Conditional?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ///////
@@ -152,44 +152,44 @@ Is Conditional?：<!-- md:samp bool -->
 
 /////
 //// define
-Command：<!-- md:samp string -->
+Command：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
-
-
-////
-//// define
-Last Output：<!-- md:samp string -->
-
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Name：<!-- md:samp string -->
+Last Output：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
+
+
+////
+//// define
+Name：[<!-- md:samp string -->](../types/string.md)
+
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Track Output?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Tick Delay：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。
+- <!-- md:samp unsigned int -->类型。
 
 
 ////
 //// define
 Should execute on first tick?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。If a delay is set on a repeating command block, should the command execute on first tick, or on first delay?
+- <!-- md:samp bool -->类型。If a delay is set on a repeating command block, should the command execute on first tick, or on first delay?
 
 
 ////

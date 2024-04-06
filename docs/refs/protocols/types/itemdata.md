@@ -38,23 +38,23 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Item Name：<!-- md:samp string -->
+Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Item Id：<!-- md:samp short -->
 
-- 类型：<!-- md:samp short -->。Block 'id''s < 256 (can be negative); Item 'id''s > 257
+- <!-- md:samp short -->类型。Block 'id''s < 256 (can be negative); Item 'id''s > 257
 
 
 ////
 //// define
 Is Component Based：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

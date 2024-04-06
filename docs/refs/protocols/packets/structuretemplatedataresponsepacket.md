@@ -56,9 +56,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Structure Name：<!-- md:samp string -->
+Structure Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
@@ -73,14 +73,14 @@ Structure Name：<!-- md:samp string -->
 /////// define
 Failure：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Bool set to false, indicating the requested structure d'id'n't exist.
+- <!-- md:samp bool -->类型。Bool set to false, indicating the requested structure d'id'n't exist.
 
 
 ///////
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -106,21 +106,21 @@ Response Type：<!-- md:samp byte -->
 /////// define
 Success：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Bool set to true, indicating success.
+- <!-- md:samp bool -->类型。Bool set to true, indicating success.
 
 
 ///////
 /////// define
 Structure's NBT：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 类型：<!-- md:samp CompoundTag -->。
+- <!-- md:samp CompoundTag -->类型。
 
 
 ///////
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

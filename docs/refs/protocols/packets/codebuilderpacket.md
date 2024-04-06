@@ -34,16 +34,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-URL：<!-- md:samp string -->
+URL：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Should open code builder：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////

@@ -38,16 +38,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Request Id：<!-- md:samp string -->
+Request Id：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
 Request Id：<!-- md:samp int -->
 
-- 类型：<!-- md:samp int -->。枚举值如下：
+- <!-- md:samp int -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -74,9 +74,9 @@ Request Id：<!-- md:samp int -->
 
 ////
 //// define
-Response：<!-- md:samp string -->
+Response：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////

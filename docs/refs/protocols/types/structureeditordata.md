@@ -54,37 +54,37 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Structure Name：<!-- md:samp string -->
+Structure Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 ////
 //// define
-Data Field：<!-- md:samp string -->
+Data Field：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。Used for structure blocks in data mode.
+- <!-- md:samp string -->类型。Used for structure blocks in data mode.
 
 
 ////
 //// define
 Should players be included?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Should show bounding box?：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。
+- <!-- md:samp bool -->类型。
 
 
 ////
 //// define
 Structure Block Type：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -102,14 +102,14 @@ Structure Block Type：<!-- md:samp varint -->
 //// define
 Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresettings.md)
 
-- 类型：<!-- md:samp StructureSettings -->。
+- <!-- md:samp StructureSettings -->类型。
 
 
 ////
 //// define
 Redstone Save Mode：<!-- md:samp varint -->
 
-- 类型：<!-- md:samp varint -->。枚举值如下：
+- <!-- md:samp varint -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|

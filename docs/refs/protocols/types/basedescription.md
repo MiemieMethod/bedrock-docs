@@ -67,16 +67,16 @@ rankdir = LR
 
 //// html | div.result
 ///// define
-Full Name：<!-- md:samp string -->
+Full Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 /////
 ///// define
 Aux Value：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 /////
@@ -88,16 +88,16 @@ Aux Value：<!-- md:samp unsigned short -->
 
 //// html | div.result
 ///// define
-Full Name：<!-- md:samp string -->
+Full Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 /////
 ///// define
 Molang Version：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。枚举值如下：
+- <!-- md:samp byte -->类型枚举。枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -130,9 +130,9 @@ Molang Version：<!-- md:samp byte -->
 
 //// html | div.result
 ///// define
-Item Tag：<!-- md:samp string -->
+Item Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 /////
@@ -144,16 +144,16 @@ Item Tag：<!-- md:samp string -->
 
 //// html | div.result
 ///// define
-Full Name：<!-- md:samp string -->
+Full Name：[<!-- md:samp string -->](../types/string.md)
 
-- 类型：<!-- md:samp string -->。
+- <!-- md:samp string -->类型。
 
 
 /////
 ///// define
 Aux Value：<!-- md:samp unsigned short -->
 
-- 类型：<!-- md:samp unsigned short -->。
+- <!-- md:samp unsigned short -->类型。
 
 
 /////

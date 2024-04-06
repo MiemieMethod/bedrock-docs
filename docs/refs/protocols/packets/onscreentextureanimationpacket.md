@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Effect Id：<!-- md:samp unsigned int -->
 
-- 类型：<!-- md:samp unsigned int -->。Id of the effect whose icon should be shown on-screen.
+- <!-- md:samp unsigned int -->类型。Id of the effect whose icon should be shown on-screen.
 
 
 ////

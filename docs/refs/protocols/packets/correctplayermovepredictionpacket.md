@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。Corrected position
+- <!-- md:samp Vec3 -->类型。Corrected position
 
 
 ////
 //// define
 Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 类型：<!-- md:samp Vec3 -->。Corrected velocity
+- <!-- md:samp Vec3 -->类型。Corrected velocity
 
 
 ////
 //// define
 On Ground：<!-- md:samp bool -->
 
-- 类型：<!-- md:samp bool -->。Is on ground
+- <!-- md:samp bool -->类型。Is on ground
 
 
 ////
 //// define
 Tick：<!-- md:samp unsigned varint64 -->
 
-- 类型：<!-- md:samp unsigned varint64 -->。Which frame we're correcting; should match the tick in the Player Auth Input packet
+- <!-- md:samp unsigned varint64 -->类型。Which frame we're correcting; should match the tick in the Player Auth Input packet
 
 
 ////
 //// define
 PredictionType：<!-- md:samp byte -->
 
-- 类型：<!-- md:samp byte -->。Vehicle or Player Prediction
+- <!-- md:samp byte -->类型。Vehicle or Player Prediction
 
 
 ////
