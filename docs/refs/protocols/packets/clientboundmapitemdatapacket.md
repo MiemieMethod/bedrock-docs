@@ -157,7 +157,7 @@ rankdir = LR
 ## 字段
 
 ```title='ClientboundMapItemDataPacket'
-[map_id][type_flags][dimension][is_locked_map][map_origin][dependency_on_creation_bit_field][dependency_on_decorationupdate,_textureupdate,_or_creation_bit_field][dependency_on_decorationupdate_bit_field][dependency_on_textureupdate_bit_field]
+[map_id][type_flags][dimension][is_locked_map][map_origin][dependency_on_creation_bit_field][dependency_on_decorationupdate_textureupdate_or_creation_bit_field][dependency_on_decorationupdate_bit_field][dependency_on_textureupdate_bit_field]
 ```
 
 /// html | div.result

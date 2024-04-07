@@ -169,7 +169,7 @@ rankdir = LR
 ## 字段
 
 ```title='PlayerAuthInputPacket'
-[player_rotation][player_position][move_vector][players_head_rotation][input_data][input_mode][play_mode][new_interaction_model][dependency_on_play_mode_==_clientplaymode::reality][client_tick][pos_delta][dependency_on_itemusetransaction_and_performiteminteraction_bit_set][dependency_on_itemstackrequest_and_performitemstackrequest_bit_set][dependency_on_performblockactions_bit_set][dependency_on_isinclientpredictedvehicle_bit_set][analog_movevector]
+[player_rotation][player_position][move_vector][players_head_rotation][input_data][input_mode][play_mode][new_interaction_model][dependency_on_play_mode_is_clientplaymode::reality][client_tick][pos_delta][dependency_on_itemusetransaction_and_performiteminteraction_bit_set][dependency_on_itemstackrequest_and_performitemstackrequest_bit_set][dependency_on_performblockactions_bit_set][dependency_on_isinclientpredictedvehicle_bit_set][analog_movevector]
 ```
 
 /// html | div.result

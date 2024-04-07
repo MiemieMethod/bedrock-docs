@@ -382,7 +382,7 @@ Name：[<!-- md:samp string -->](../types/string.md)
 
 ///////
 ```title='示例元素'
-[dependency_on_enum_values_size_<=_256]
+[dependency_on_enum_values_size_le_256]
 ```
 
 /////// html | div.result
@@ -390,7 +390,7 @@ Name：[<!-- md:samp string -->](../types/string.md)
 
 ///////// tab | `Enum Values Size <= 256`如果为`0`
 ```title='if (0)'
-[dependency_on_enum_values_size_<=_65536]
+[dependency_on_enum_values_size_le_65536]
 ```
 
 ////////// html | div.result

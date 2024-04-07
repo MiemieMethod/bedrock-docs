@@ -49,7 +49,7 @@ rankdir = LR
 ## 字段
 
 ```title='MapInfoRequestPacket'
-[map_unique_id][client_pixels_list_size][dependency_on_mclientpixels.size()_>_0_]
+[map_unique_id][client_pixels_list_size][dependency_on_mclientpixels.size()_g_0]
 ```
 
 /// html | div.result

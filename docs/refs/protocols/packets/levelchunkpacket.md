@@ -125,7 +125,7 @@ Sub-chunks Count：<!-- md:samp unsigned varint -->
 
 ///// tab | `Client Needs To Request Subchunks?`如果为`1`
 ```title='if (1)'
-[dependency_on_client_request_subchunk_limit_<_0]
+[dependency_on_client_request_subchunk_limit_l_0]
 ```
 
 ////// html | div.result
