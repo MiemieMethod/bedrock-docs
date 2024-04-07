@@ -29,7 +29,7 @@ rankdir = LR
 ## 字段
 
 ```title='StopSoundPacket'
-[sound_name][stop_all_sounds?]
+[sound_name][stop_all_sounds]
 ```
 
 /// html | div.result

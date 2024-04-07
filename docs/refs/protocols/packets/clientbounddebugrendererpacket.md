@@ -65,7 +65,7 @@ rankdir = LR
 ## 字段
 
 ```title='ClientboundDebugRendererPacket'
-[debug_marker_type][dependency_on_'debug_marker_type']
+[debug_marker_type][dependency_on_debug_marker_type]
 ```
 
 /// html | div.result

@@ -69,7 +69,7 @@ rankdir = LR
 ## 字段
 
 ```title='MovePlayerPacket'
-[player_runtime_id][position][rotation][y-head_rotation][position_mode][on_ground][riding_runtime_id][dependency_on_'position_mode_==_teleport'][tick]
+[player_runtime_id][position][rotation][y-head_rotation][position_mode][on_ground][riding_runtime_id][dependency_on_position_mode_==_teleport][tick]
 ```
 
 /// html | div.result

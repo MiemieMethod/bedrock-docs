@@ -25,7 +25,7 @@ rankdir = LR
 ## 字段
 
 ```title='ClientCacheStatusPacket'
-[is_cache_supported?]
+[is_cache_supported]
 ```
 
 /// html | div.result

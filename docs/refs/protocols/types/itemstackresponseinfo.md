@@ -49,7 +49,7 @@ rankdir = LR
 ## 字段
 
 ```title='ItemStackResponseInfo'
-[result][client_request_id][dependency_on_'itemstacknetresult']
+[result][client_request_id][dependency_on_itemstacknetresult]
 ```
 
 /// html | div.result

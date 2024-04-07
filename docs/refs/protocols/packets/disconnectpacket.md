@@ -41,7 +41,7 @@ rankdir = LR
 ## 字段
 
 ```title='DisconnectPacket'
-[reason][skip_message][dependency_on_'skip_message']
+[reason][skip_message][dependency_on_skip_message]
 ```
 
 /// html | div.result

@@ -73,7 +73,7 @@ rankdir = LR
 ## 字段
 
 ```title='CommandOutputPacket'
-[origin_data][output_type][success_count][output_messages][dependency_on_'output_type_==_dataset']
+[origin_data][output_type][success_count][output_messages][dependency_on_output_type_==_dataset]
 ```
 
 /// html | div.result
@@ -120,7 +120,7 @@ Success Count：<!-- md:samp unsigned varint -->
 
 /////
 ```title='示例元素'
-[successful?][message_id][parameters]
+[successful][message_id][parameters]
 ```
 
 ///// html | div.result

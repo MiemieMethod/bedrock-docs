@@ -95,7 +95,7 @@ rankdir = LR
 ## 字段
 
 ```title='PlayerListPacket'
-[action][dependency_on_'action']
+[action][dependency_on_action]
 ```
 
 /// html | div.result
@@ -133,7 +133,7 @@ Action：<!-- md:samp byte -->
 
 ////////
 ```title='示例元素'
-[uuid][target_actor_id][player_name][xbl_xuid][platform_chat_id][build_platform][serialized_skin][is_teacher?][is_host?][is_subclient]
+[uuid][target_actor_id][player_name][xbl_xuid][platform_chat_id][build_platform][serialized_skin][is_teacher][is_host][is_subclient]
 ```
 
 //////// html | div.result

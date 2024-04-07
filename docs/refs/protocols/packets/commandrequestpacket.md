@@ -37,7 +37,7 @@ rankdir = LR
 ## 字段
 
 ```title='CommandRequestPacket'
-[command][command_origin][is_internal_source?][version]
+[command][command_origin][is_internal_source][version]
 ```
 
 /// html | div.result

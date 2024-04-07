@@ -137,7 +137,7 @@ rankdir = LR
 ## 字段
 
 ```title='StartGamePacket'
-[target_actor_id][target_runtime_id][actor_game_type][position][rotation][settings][level_id][level_name][template_content_identity][is_trial?][movement_settings][current_level_time][enchantment_seed][block_properties][item_list_every_vanilla_item_must_be_present][multiplayer_correlation_id][enable_item_stack_net_manager][server_version][player_property_data][server_block_type_registry_checksum][world_template_id][server_enabled_clientside_generation][blocknetworkids_are_hashes][networkpermissions]
+[target_actor_id][target_runtime_id][actor_game_type][position][rotation][settings][level_id][level_name][template_content_identity][is_trial][movement_settings][current_level_time][enchantment_seed][block_properties][item_list_every_vanilla_item_must_be_present][multiplayer_correlation_id][enable_item_stack_net_manager][server_version][player_property_data][server_block_type_registry_checksum][world_template_id][server_enabled_clientside_generation][blocknetworkids_are_hashes][networkpermissions]
 ```
 
 /// html | div.result

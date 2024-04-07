@@ -75,7 +75,7 @@ rankdir = LR
 ## 字段
 
 ```title='CommandBlockUpdatePacket'
-[is_block?][dependency_on_'is_block?'][command][last_output][name][track_output?][tick_delay][should_execute_on_first_tick?]
+[is_block][dependency_on_is_block][command][last_output][name][track_output][tick_delay][should_execute_on_first_tick]
 ```
 
 /// html | div.result
@@ -108,7 +108,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 
 ///// tab | `Is Block?`如果为`1`
 ```title='if (1)'
-[block_position][command_block_mode][redstone_mode][is_conditional?]
+[block_position][command_block_mode][redstone_mode][is_conditional]
 ```
 
 ////// html | div.result

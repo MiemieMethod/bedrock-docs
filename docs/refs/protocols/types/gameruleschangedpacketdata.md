@@ -70,7 +70,7 @@ rankdir = LR
 
 /////
 ```title='示例元素'
-[rule_name][can_be_modified_by_player][rule_type][dependency_on_'rule_type']
+[rule_name][can_be_modified_by_player][rule_type][dependency_on_rule_type]
 ```
 
 ///// html | div.result

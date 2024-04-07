@@ -51,7 +51,7 @@ rankdir = LR
 ## 字段
 
 ```title='StructureTemplateDataResponsePacket'
-[structure_name][dependency_on_'requested_structure_exists?']
+[structure_name][dependency_on_requested_structure_exists]
 ```
 
 /// html | div.result
@@ -99,7 +99,7 @@ Response Type：<!-- md:samp byte -->
 
 ///// tab | `Requested structure exists?`如果为`1`
 ```title='if (1)'
-[success][structure's_nbt][response_type]
+[success][structures_nbt][response_type]
 ```
 
 ////// html | div.result

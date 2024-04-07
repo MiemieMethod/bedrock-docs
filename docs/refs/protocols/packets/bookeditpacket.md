@@ -89,7 +89,7 @@ rankdir = LR
 ## 字段
 
 ```title='BookEditPacket'
-[action][book_slot][dependency_on_'action']
+[action][book_slot][dependency_on_action]
 ```
 
 /// html | div.result

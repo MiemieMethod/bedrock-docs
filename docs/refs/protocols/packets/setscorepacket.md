@@ -115,7 +115,7 @@ Score Packet Type：<!-- md:samp byte -->
 
 /////
 ```title='示例元素'
-[id][objective_name][score_value][dependency_on_'is_change_type']
+[id][objective_name][score_value][dependency_on_is_change_type]
 ```
 
 ///// html | div.result
@@ -155,7 +155,7 @@ if (0)：<!-- md:samp [No Data] -->
 
 /////// tab | `Is Change Type`如果为`1`
 ```title='if (1)'
-[dependency_on_'identity_definition_type']
+[dependency_on_identity_definition_type]
 ```
 
 //////// html | div.result

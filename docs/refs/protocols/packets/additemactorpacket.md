@@ -49,7 +49,7 @@ rankdir = LR
 ## 字段
 
 ```title='AddItemActorPacket'
-[target_actor_id][target_runtime_id][item][position][velocity][entity_data][from_fishing?]
+[target_actor_id][target_runtime_id][item][position][velocity][entity_data][from_fishing]
 ```
 
 /// html | div.result

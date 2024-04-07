@@ -37,7 +37,7 @@ rankdir = LR
 ## 字段
 
 ```title='StructureBlockUpdatePacket'
-[block_position][structure_data][trigger?][iswaterlogged]
+[block_position][structure_data][trigger][iswaterlogged]
 ```
 
 /// html | div.result

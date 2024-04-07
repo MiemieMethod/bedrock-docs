@@ -47,7 +47,7 @@ rankdir = LR
 ## 字段
 
 ```title='InventorySource'
-[source_type][dependency_on_'source_type']
+[source_type][dependency_on_source_type]
 ```
 
 /// html | div.result

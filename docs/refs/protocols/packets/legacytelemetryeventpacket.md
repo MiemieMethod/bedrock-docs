@@ -325,7 +325,7 @@ rankdir = LR
 ## 字段
 
 ```title='LegacyTelemetryEventPacket'
-[target_actor_id][event_type][use_player_id][dependency_on_'event_type']
+[target_actor_id][event_type][use_player_id][dependency_on_event_type]
 ```
 
 /// html | div.result
@@ -663,7 +663,7 @@ Target Dimension ID：<!-- md:samp varint -->
 
 ///// tab | `Event Type`如果为`4`
 ```title='if (4)'
-[instigator_actor_id][target_actor_id][instigator's_child_actor_type][damage_source][trade_tier][trader_name]
+[instigator_actor_id][target_actor_id][instigators_child_actor_type][damage_source][trade_tier][trader_name]
 ```
 
 ////// html | div.result
@@ -942,7 +942,7 @@ Fill Level：<!-- md:samp varint -->
 
 ///// tab | `Event Type`如果为`6`
 ```title='if (6)'
-[instigator_actor_id][instigator_mob_variant][damage_source][died_in_raid?]
+[instigator_actor_id][instigator_mob_variant][damage_source][died_in_raid]
 ```
 
 ////// html | div.result

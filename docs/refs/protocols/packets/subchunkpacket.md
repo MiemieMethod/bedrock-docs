@@ -1147,7 +1147,7 @@ SubChunk Pos Offsets Size：<!-- md:samp unsigned int -->
 
 /////
 ```title='示例元素'
-[subchunk_pos_offset][subchunk_request_result][dependency_on_'is_subchunk_request_result_successallair?_or_cache_enabled?'][height_map_data_type][dependency_on_'height_map_has_data'][dependency_on_'cache_enabled']
+[subchunk_pos_offset][subchunk_request_result][dependency_on_is_subchunk_request_result_successallair_or_cache_enabled][height_map_data_type][dependency_on_height_map_has_data][dependency_on_cache_enabled]
 ```
 
 ///// html | div.result

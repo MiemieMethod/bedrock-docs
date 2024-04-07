@@ -63,7 +63,7 @@ rankdir = LR
 ## 字段
 
 ```title='AnimatePacket'
-[action][target_runtime_id][dependency_on_'action']
+[action][target_runtime_id][dependency_on_action]
 ```
 
 /// html | div.result

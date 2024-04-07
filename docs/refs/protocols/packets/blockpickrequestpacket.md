@@ -33,7 +33,7 @@ rankdir = LR
 ## 字段
 
 ```title='BlockPickRequestPacket'
-[position][with_data?][max_slots]
+[position][with_data][max_slots]
 ```
 
 /// html | div.result

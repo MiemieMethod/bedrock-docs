@@ -77,7 +77,7 @@ rankdir = LR
 ## 字段
 
 ```title='StructureSettings'
-[structure_palette_name][should_ignore_entities?][should_ignore_blocks?][should_allow_non_ticking_player_and_ticking_area_chunks][structure_size][structure_offset][last_edit_player][rotation][mirror][animation_mode][animation_seconds][integrity_value][integrity_seed][rotation_pivot]
+[structure_palette_name][should_ignore_entities][should_ignore_blocks][should_allow_non_ticking_player_and_ticking_area_chunks][structure_size][structure_offset][last_edit_player][rotation][mirror][animation_mode][animation_seconds][integrity_value][integrity_seed][rotation_pivot]
 ```
 
 /// html | div.result

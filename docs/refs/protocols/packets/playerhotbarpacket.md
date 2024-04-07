@@ -33,7 +33,7 @@ rankdir = LR
 ## 字段
 
 ```title='PlayerHotbarPacket'
-[selected_slot][container_id][should_select_slot?]
+[selected_slot][container_id][should_select_slot]
 ```
 
 /// html | div.result

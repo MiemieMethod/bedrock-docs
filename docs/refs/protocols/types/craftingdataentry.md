@@ -139,7 +139,7 @@ rankdir = LR
 ## 字段
 
 ```title='CraftingDataEntry'
-[crafting_type][dependency_on_'crafting_type']
+[crafting_type][dependency_on_crafting_type]
 ```
 
 /// html | div.result

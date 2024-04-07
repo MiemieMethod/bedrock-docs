@@ -85,7 +85,7 @@ rankdir = LR
 ## 字段
 
 ```title='DataItem'
-[id][type][dependency_on_'type']
+[id][type][dependency_on_type]
 ```
 
 /// html | div.result

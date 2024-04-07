@@ -33,7 +33,7 @@ rankdir = LR
 ## 字段
 
 ```title='RequestPermissionsPacket'
-[target_player_id's_raw_id][player_permission_level][custom_permission_flags]
+[target_player_ids_raw_id][player_permission_level][custom_permission_flags]
 ```
 
 /// html | div.result

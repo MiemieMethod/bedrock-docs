@@ -51,7 +51,7 @@ rankdir = LR
 ## 字段
 
 ```title='RequestAbilityPacket'
-[ability][value_type][dependency_on_'value_type']
+[ability][value_type][dependency_on_value_type]
 ```
 
 /// html | div.result

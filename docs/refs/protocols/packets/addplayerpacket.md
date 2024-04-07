@@ -103,7 +103,7 @@ rankdir = LR
 ## 字段
 
 ```title='AddPlayerPacket'
-[uuid][player_name][target_runtime_id][platform_chat_id][position][velocity][rotation][y-head_rotation][carried_item][player_game_type][dependency_on_'synchedactordataentitywrapper_exist?'][synched_properties][abilitiesdata][actor_links][device_id][build_platform]
+[uuid][player_name][target_runtime_id][platform_chat_id][position][velocity][rotation][y-head_rotation][carried_item][player_game_type][dependency_on_synchedactordataentitywrapper_exist][synched_properties][abilitiesdata][actor_links][device_id][build_platform]
 ```
 
 /// html | div.result

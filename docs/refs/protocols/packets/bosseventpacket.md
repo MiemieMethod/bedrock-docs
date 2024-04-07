@@ -111,7 +111,7 @@ rankdir = LR
 ## 字段
 
 ```title='BossEventPacket'
-[target_actor_id][event_type][dependency_on_'event_type']
+[target_actor_id][event_type][dependency_on_event_type]
 ```
 
 /// html | div.result

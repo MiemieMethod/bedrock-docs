@@ -49,7 +49,7 @@ rankdir = LR
 ## 字段
 
 ```title='InteractPacket'
-[action][target_runtime_id][dependency_on_'action_==_interactupdate_||_action_==_stopriding']
+[action][target_runtime_id][dependency_on_action_==_interactupdate_||_action_==_stopriding]
 ```
 
 /// html | div.result

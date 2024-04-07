@@ -165,7 +165,7 @@ Attribute Name：[<!-- md:samp string -->](../types/string.md)
 
 ///////
 ```title='示例元素'
-[id][name][amount][operation][operand][isserializable?]
+[id][name][amount][operation][operand][isserializable]
 ```
 
 /////// html | div.result

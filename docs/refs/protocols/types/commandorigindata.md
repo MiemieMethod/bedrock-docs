@@ -55,7 +55,7 @@ rankdir = LR
 ## 字段
 
 ```title='CommandOriginData'
-[command_type][command_uuid][request_id][dependency_on_'command_type']
+[command_type][command_uuid][request_id][dependency_on_command_type]
 ```
 
 /// html | div.result

@@ -101,7 +101,7 @@ rankdir = LR
 ## 字段
 
 ```title='PackedItemUseLegacyInventoryTransaction'
-[id][dependency_on_'valid_id'][actions][action_type][position][face][slot][item][from_position][click_position][target_block_id]
+[id][dependency_on_valid_id][actions][action_type][position][face][slot][item][from_position][click_position][target_block_id]
 ```
 
 /// html | div.result

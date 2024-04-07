@@ -43,7 +43,7 @@ rankdir = LR
 ## 字段
 
 ```title='MapItemTrackedActor::UniqueId'
-[type][dependency_on_'type']
+[type][dependency_on_type]
 ```
 
 /// html | div.result

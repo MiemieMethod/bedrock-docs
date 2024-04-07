@@ -29,7 +29,7 @@ rankdir = LR
 ## 字段
 
 ```title='SettingsCommandPacket'
-[command][suppress_output?]
+[command][suppress_output]
 ```
 
 /// html | div.result

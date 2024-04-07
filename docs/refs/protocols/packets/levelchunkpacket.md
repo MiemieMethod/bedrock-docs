@@ -85,7 +85,7 @@ rankdir = LR
 ## 字段
 
 ```title='LevelChunkPacket'
-[chunk_position][dimension_id][dependency_on_'client_needs_to_request_subchunks?'][cache_enabled][dependency_on_'cache_enabled?'][serialized_chunk_data]
+[chunk_position][dimension_id][dependency_on_client_needs_to_request_subchunks][cache_enabled][dependency_on_cache_enabled][serialized_chunk_data]
 ```
 
 /// html | div.result
@@ -125,7 +125,7 @@ Sub-chunks Count：<!-- md:samp unsigned varint -->
 
 ///// tab | `Client Needs To Request Subchunks?`如果为`1`
 ```title='if (1)'
-[dependency_on_'client_request_subchunk_limit_<_0?']
+[dependency_on_client_request_subchunk_limit_<_0]
 ```
 
 ////// html | div.result

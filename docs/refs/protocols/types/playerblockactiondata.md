@@ -87,7 +87,7 @@ rankdir = LR
 ## 字段
 
 ```title='PlayerBlockActionData'
-[player_action_type][dependency_on_'player_action_type']
+[player_action_type][dependency_on_player_action_type]
 ```
 
 /// html | div.result

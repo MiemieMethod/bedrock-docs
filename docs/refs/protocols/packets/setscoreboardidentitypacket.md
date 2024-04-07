@@ -79,7 +79,7 @@ Scoreboard Identity Packet Type：<!-- md:samp byte -->
 
 /////
 ```title='示例元素'
-[scoreboard_id][dependency_on_'is_update_type']
+[scoreboard_id][dependency_on_is_update_type]
 ```
 
 ///// html | div.result

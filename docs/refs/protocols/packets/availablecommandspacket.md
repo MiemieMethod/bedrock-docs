@@ -382,7 +382,7 @@ Name：[<!-- md:samp string -->](../types/string.md)
 
 ///////
 ```title='示例元素'
-[dependency_on_'enum_values_size_<=_256']
+[dependency_on_enum_values_size_<=_256]
 ```
 
 /////// html | div.result
@@ -390,7 +390,7 @@ Name：[<!-- md:samp string -->](../types/string.md)
 
 ///////// tab | `Enum Values Size <= 256`如果为`0`
 ```title='if (0)'
-[dependency_on_'enum_values_size_<=_65536']
+[dependency_on_enum_values_size_<=_65536]
 ```
 
 ////////// html | div.result
@@ -651,7 +651,7 @@ isChaining：<!-- md:samp bool -->
 
 /////////
 ```title='示例元素'
-[name][parse_symbol][is_optional?][options]
+[name][parse_symbol][is_optional][options]
 ```
 
 ///////// html | div.result

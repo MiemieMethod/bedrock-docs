@@ -107,7 +107,7 @@ rankdir = LR
 ## 字段
 
 ```title='Reliability Header'
-[reliability_type][payload_bit_length][dependency_on_'reliability_type'][dependency_on_'is_packet_split?']
+[reliability_type,_is_packet_split][payload_bit_length][dependency_on_reliability_type][dependency_on_is_packet_split]
 ```
 
 /// html | div.result

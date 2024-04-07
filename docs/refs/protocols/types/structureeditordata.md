@@ -49,7 +49,7 @@ rankdir = LR
 ## 字段
 
 ```title='StructureEditorData'
-[structure_name][data_field][should_players_be_included?][should_show_bounding_box?][structure_block_type][structure_settings][redstone_save_mode]
+[structure_name][data_field][should_players_be_included][should_show_bounding_box][structure_block_type][structure_settings][redstone_save_mode]
 ```
 
 /// html | div.result

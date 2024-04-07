@@ -159,7 +159,7 @@ rankdir = LR
 ## 字段
 
 ```title='TextPacket'
-[message_type][localize?][dependency_on_'message_type'][sender's_xuid][platform_id]
+[message_type][localize][dependency_on_message_type][senders_xuid][platform_id]
 ```
 
 /// html | div.result

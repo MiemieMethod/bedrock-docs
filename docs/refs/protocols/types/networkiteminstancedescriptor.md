@@ -51,7 +51,7 @@ rankdir = LR
 ## 字段
 
 ```title='NetworkItemInstanceDescriptor'
-[dependency_on_'valid_item']
+[dependency_on_valid_item]
 ```
 
 /// html | div.result

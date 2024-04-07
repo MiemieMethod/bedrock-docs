@@ -155,7 +155,7 @@ rankdir = LR
 ## 字段
 
 ```title='CompoundTag'
-[tag_type][dependency_on_'if_'tag_type'_is_0']
+[tag_type][dependency_on_if_tag_type_is_0]
 ```
 
 /// html | div.result
@@ -187,7 +187,7 @@ Tag Type：<!-- md:samp byte -->
 
 ///// tab | `if 'Tag Type' is 0`如果为`0`
 ```title='if (0)'
-[tag_name][dependency_on_'tag_type']
+[tag_name][dependency_on_tag_type]
 ```
 
 ////// html | div.result
@@ -378,7 +378,7 @@ Tag Value：[<!-- md:samp string -->](../types/string.md)
 
 //////// tab | `Tag Type`如果为`9`
 ```title='if (9)'
-[dependency_on_'if_empty_list'][tag_array]
+[dependency_on_if_empty_list][tag_array]
 ```
 
 ///////// html | div.result

@@ -67,7 +67,7 @@ rankdir = LR
 ## 字段
 
 ```title='NetworkItemStackDescriptor'
-[dependency_on_'valid_item']
+[dependency_on_valid_item]
 ```
 
 /// html | div.result
@@ -93,7 +93,7 @@ Id：<!-- md:samp varint -->
 
 ///// tab | `Valid item`如果为`1`
 ```title='if (1)'
-[id][stack_size][aux_value][include_net_id][dependency_on_'include_net_id'][block_runtime_id][user_data_buffer]
+[id][stack_size][aux_value][include_net_id][dependency_on_include_net_id][block_runtime_id][user_data_buffer]
 ```
 
 ////// html | div.result
