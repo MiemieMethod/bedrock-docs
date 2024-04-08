@@ -16,6 +16,17 @@
 easeTime: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`easeTime`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `easeType`
@@ -26,4 +37,15 @@ easeTime: float | undefined;
 ```js
 easeType: EasingType | undefined;
 ```
+
+/// html | div.result
+//// define
+`easeType`：[`EasingType`](./easingtype.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

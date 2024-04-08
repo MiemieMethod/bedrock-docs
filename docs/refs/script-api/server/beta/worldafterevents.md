@@ -16,6 +16,17 @@
 read-only blockExplode: BlockExplodeAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`blockExplode`：[`BlockExplodeAfterEventSignal`](./blockexplodeaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `buttonPush`
@@ -26,6 +37,17 @@ read-only blockExplode: BlockExplodeAfterEventSignal;
 ```js
 read-only buttonPush: ButtonPushAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`buttonPush`：[`ButtonPushAfterEventSignal`](./buttonpushaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only buttonPush: ButtonPushAfterEventSignal;
 read-only chatSend: ChatSendAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`chatSend`：[`ChatSendAfterEventSignal`](./chatsendaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `dataDrivenEntityTrigger`
@@ -48,6 +81,17 @@ read-only chatSend: ChatSendAfterEventSignal;
 ```js
 read-only dataDrivenEntityTrigger: DataDrivenEntityTriggerAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`dataDrivenEntityTrigger`：[`DataDrivenEntityTriggerAfterEventSignal`](./datadrivenentitytriggeraftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ read-only dataDrivenEntityTrigger: DataDrivenEntityTriggerAfterEventSignal;
 read-only effectAdd: EffectAddAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`effectAdd`：[`EffectAddAfterEventSignal`](./effectaddaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entityDie`
@@ -70,6 +125,17 @@ read-only effectAdd: EffectAddAfterEventSignal;
 ```js
 read-only entityDie: EntityDieAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`entityDie`：[`EntityDieAfterEventSignal`](./entitydieaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ read-only entityDie: EntityDieAfterEventSignal;
 read-only entityHealthChanged: EntityHealthChangedAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`entityHealthChanged`：[`EntityHealthChangedAfterEventSignal`](./entityhealthchangedaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entityHitBlock`
@@ -92,6 +169,17 @@ read-only entityHealthChanged: EntityHealthChangedAfterEventSignal;
 ```js
 read-only entityHitBlock: EntityHitBlockAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`entityHitBlock`：[`EntityHitBlockAfterEventSignal`](./entityhitblockaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -104,6 +192,17 @@ read-only entityHitBlock: EntityHitBlockAfterEventSignal;
 read-only entityHitEntity: EntityHitEntityAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`entityHitEntity`：[`EntityHitEntityAfterEventSignal`](./entityhitentityaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entityHurt`
@@ -114,6 +213,17 @@ read-only entityHitEntity: EntityHitEntityAfterEventSignal;
 ```js
 read-only entityHurt: EntityHurtAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`entityHurt`：[`EntityHurtAfterEventSignal`](./entityhurtaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -126,6 +236,17 @@ read-only entityHurt: EntityHurtAfterEventSignal;
 read-only entityLoad: EntityLoadAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`entityLoad`：[`EntityLoadAfterEventSignal`](./entityloadaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entityRemove`
@@ -136,6 +257,17 @@ read-only entityLoad: EntityLoadAfterEventSignal;
 ```js
 read-only entityRemove: EntityRemoveAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`entityRemove`：[`EntityRemoveAfterEventSignal`](./entityremoveaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -148,6 +280,17 @@ read-only entityRemove: EntityRemoveAfterEventSignal;
 read-only entitySpawn: EntitySpawnAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`entitySpawn`：[`EntitySpawnAfterEventSignal`](./entityspawnaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `explosion`
@@ -158,6 +301,17 @@ read-only entitySpawn: EntitySpawnAfterEventSignal;
 ```js
 read-only explosion: ExplosionAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`explosion`：[`ExplosionAfterEventSignal`](./explosionaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -170,6 +324,17 @@ read-only explosion: ExplosionAfterEventSignal;
 read-only gameRuleChange: GameRuleChangeAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`gameRuleChange`：[`GameRuleChangeAfterEventSignal`](./gamerulechangeaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemCompleteUse`
@@ -180,6 +345,17 @@ read-only gameRuleChange: GameRuleChangeAfterEventSignal;
 ```js
 read-only itemCompleteUse: ItemCompleteUseAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`itemCompleteUse`：[`ItemCompleteUseAfterEventSignal`](./itemcompleteuseaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -192,6 +368,17 @@ read-only itemCompleteUse: ItemCompleteUseAfterEventSignal;
 read-only itemReleaseUse: ItemReleaseUseAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`itemReleaseUse`：[`ItemReleaseUseAfterEventSignal`](./itemreleaseuseaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemStartUse`
@@ -202,6 +389,17 @@ read-only itemReleaseUse: ItemReleaseUseAfterEventSignal;
 ```js
 read-only itemStartUse: ItemStartUseAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`itemStartUse`：[`ItemStartUseAfterEventSignal`](./itemstartuseaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -214,6 +412,17 @@ read-only itemStartUse: ItemStartUseAfterEventSignal;
 read-only itemStartUseOn: ItemStartUseOnAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`itemStartUseOn`：[`ItemStartUseOnAfterEventSignal`](./itemstartuseonaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemStopUse`
@@ -224,6 +433,17 @@ read-only itemStartUseOn: ItemStartUseOnAfterEventSignal;
 ```js
 read-only itemStopUse: ItemStopUseAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`itemStopUse`：[`ItemStopUseAfterEventSignal`](./itemstopuseaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -236,6 +456,17 @@ read-only itemStopUse: ItemStopUseAfterEventSignal;
 read-only itemStopUseOn: ItemStopUseOnAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`itemStopUseOn`：[`ItemStopUseOnAfterEventSignal`](./itemstopuseonaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemUse`
@@ -246,6 +477,17 @@ read-only itemStopUseOn: ItemStopUseOnAfterEventSignal;
 ```js
 read-only itemUse: ItemUseAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`itemUse`：[`ItemUseAfterEventSignal`](./itemuseaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -258,6 +500,17 @@ read-only itemUse: ItemUseAfterEventSignal;
 read-only itemUseOn: ItemUseOnAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`itemUseOn`：[`ItemUseOnAfterEventSignal`](./itemuseonaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `leverAction`
@@ -268,6 +521,17 @@ read-only itemUseOn: ItemUseOnAfterEventSignal;
 ```js
 read-only leverAction: LeverActionAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`leverAction`：[`LeverActionAfterEventSignal`](./leveractionaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -280,6 +544,17 @@ read-only leverAction: LeverActionAfterEventSignal;
 read-only messageReceive: ServerMessageAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`messageReceive`：[`ServerMessageAfterEventSignal`](./servermessageaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `pistonActivate`
@@ -290,6 +565,17 @@ read-only messageReceive: ServerMessageAfterEventSignal;
 ```js
 read-only pistonActivate: PistonActivateAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`pistonActivate`：[`PistonActivateAfterEventSignal`](./pistonactivateaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -302,6 +588,17 @@ read-only pistonActivate: PistonActivateAfterEventSignal;
 read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerBreakBlock`：[`PlayerBreakBlockAfterEventSignal`](./playerbreakblockaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerDimensionChange`
@@ -312,6 +609,17 @@ read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal;
 ```js
 read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerDimensionChange`：[`PlayerDimensionChangeAfterEventSignal`](./playerdimensionchangeaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -324,6 +632,17 @@ read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal;
 read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerGameModeChange`：[`PlayerGameModeChangeAfterEventSignal`](./playergamemodechangeaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerInputPermissionCategoryChange`
@@ -334,6 +653,17 @@ read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal;
 ```js
 read-only playerInputPermissionCategoryChange: PlayerInputPermissionCategoryChangeAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerInputPermissionCategoryChange`：[`PlayerInputPermissionCategoryChangeAfterEventSignal`](./playerinputpermissioncategorychangeaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -346,6 +676,17 @@ read-only playerInputPermissionCategoryChange: PlayerInputPermissionCategoryChan
 read-only playerInteractWithBlock: PlayerInteractWithBlockAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerInteractWithBlock`：[`PlayerInteractWithBlockAfterEventSignal`](./playerinteractwithblockaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerInteractWithEntity`
@@ -356,6 +697,17 @@ read-only playerInteractWithBlock: PlayerInteractWithBlockAfterEventSignal;
 ```js
 read-only playerInteractWithEntity: PlayerInteractWithEntityAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerInteractWithEntity`：[`PlayerInteractWithEntityAfterEventSignal`](./playerinteractwithentityaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -368,6 +720,17 @@ read-only playerInteractWithEntity: PlayerInteractWithEntityAfterEventSignal;
 read-only playerJoin: PlayerJoinAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerJoin`：[`PlayerJoinAfterEventSignal`](./playerjoinaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerLeave`
@@ -378,6 +741,17 @@ read-only playerJoin: PlayerJoinAfterEventSignal;
 ```js
 read-only playerLeave: PlayerLeaveAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerLeave`：[`PlayerLeaveAfterEventSignal`](./playerleaveaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -390,6 +764,17 @@ read-only playerLeave: PlayerLeaveAfterEventSignal;
 read-only playerPlaceBlock: PlayerPlaceBlockAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerPlaceBlock`：[`PlayerPlaceBlockAfterEventSignal`](./playerplaceblockaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerSpawn`
@@ -400,6 +785,17 @@ read-only playerPlaceBlock: PlayerPlaceBlockAfterEventSignal;
 ```js
 read-only playerSpawn: PlayerSpawnAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerSpawn`：[`PlayerSpawnAfterEventSignal`](./playerspawnaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -412,6 +808,17 @@ read-only playerSpawn: PlayerSpawnAfterEventSignal;
 read-only pressurePlatePop: PressurePlatePopAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`pressurePlatePop`：[`PressurePlatePopAfterEventSignal`](./pressureplatepopaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `pressurePlatePush`
@@ -422,6 +829,17 @@ read-only pressurePlatePop: PressurePlatePopAfterEventSignal;
 ```js
 read-only pressurePlatePush: PressurePlatePushAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`pressurePlatePush`：[`PressurePlatePushAfterEventSignal`](./pressureplatepushaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -434,6 +852,17 @@ read-only pressurePlatePush: PressurePlatePushAfterEventSignal;
 read-only projectileHitBlock: ProjectileHitBlockAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`projectileHitBlock`：[`ProjectileHitBlockAfterEventSignal`](./projectilehitblockaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `projectileHitEntity`
@@ -444,6 +873,17 @@ read-only projectileHitBlock: ProjectileHitBlockAfterEventSignal;
 ```js
 read-only projectileHitEntity: ProjectileHitEntityAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`projectileHitEntity`：[`ProjectileHitEntityAfterEventSignal`](./projectilehitentityaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -456,6 +896,17 @@ read-only projectileHitEntity: ProjectileHitEntityAfterEventSignal;
 read-only targetBlockHit: TargetBlockHitAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`targetBlockHit`：[`TargetBlockHitAfterEventSignal`](./targetblockhitaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `tripWireTrip`
@@ -466,6 +917,17 @@ read-only targetBlockHit: TargetBlockHitAfterEventSignal;
 ```js
 read-only tripWireTrip: TripWireTripAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`tripWireTrip`：[`TripWireTripAfterEventSignal`](./tripwiretripaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -478,6 +940,17 @@ read-only tripWireTrip: TripWireTripAfterEventSignal;
 read-only weatherChange: WeatherChangeAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`weatherChange`：[`WeatherChangeAfterEventSignal`](./weatherchangeaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `worldInitialize`
@@ -488,4 +961,15 @@ read-only weatherChange: WeatherChangeAfterEventSignal;
 ```js
 read-only worldInitialize: WorldInitializeAfterEventSignal;
 ```
+
+/// html | div.result
+//// define
+`worldInitialize`：[`WorldInitializeAfterEventSignal`](./worldinitializeaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 

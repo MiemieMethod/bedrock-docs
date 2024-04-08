@@ -16,6 +16,17 @@
 cancel: boolean;
 ```
 
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `duration`
@@ -26,6 +37,17 @@ cancel: boolean;
 ```js
 duration: int32;
 ```
+
+/// html | div.result
+//// define
+`duration`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ duration: int32;
 newWeather: WeatherType;
 ```
 
+/// html | div.result
+//// define
+`newWeather`：[`WeatherType`](./weathertype.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `previousWeather`
@@ -48,4 +81,15 @@ newWeather: WeatherType;
 ```js
 read-only previousWeather: WeatherType;
 ```
+
+/// html | div.result
+//// define
+`previousWeather`：[`WeatherType`](./weathertype.md)
+
+- 属性。
+
+
+////
+
+///
 

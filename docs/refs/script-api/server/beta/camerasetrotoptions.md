@@ -16,6 +16,17 @@
 easeOptions: CameraEaseOptions | undefined;
 ```
 
+/// html | div.result
+//// define
+`easeOptions`：[`CameraEaseOptions`](./cameraeaseoptions.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `location`
@@ -27,6 +38,17 @@ easeOptions: CameraEaseOptions | undefined;
 location: Vector3 | undefined;
 ```
 
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `rotation`
@@ -37,4 +59,15 @@ location: Vector3 | undefined;
 ```js
 rotation: Vector2;
 ```
+
+/// html | div.result
+//// define
+`rotation`：[`Vector2`](./vector2.md)
+
+- 属性。
+
+
+////
+
+///
 

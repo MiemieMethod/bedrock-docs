@@ -16,6 +16,17 @@
 read-only afterEvents: SystemAfterEvents;
 ```
 
+/// html | div.result
+//// define
+`afterEvents`：[`SystemAfterEvents`](./systemafterevents.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `beforeEvents`
@@ -27,6 +38,17 @@ read-only afterEvents: SystemAfterEvents;
 read-only beforeEvents: SystemBeforeEvents;
 ```
 
+/// html | div.result
+//// define
+`beforeEvents`：[`SystemBeforeEvents`](./systembeforeevents.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `currentTick`
@@ -37,6 +59,17 @@ read-only beforeEvents: SystemBeforeEvents;
 ```js
 read-only currentTick: uint32;
 ```
+
+/// html | div.result
+//// define
+`currentTick`：`uint32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

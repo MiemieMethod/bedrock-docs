@@ -16,3 +16,14 @@
 rawtext: RawMessage[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`rawtext`：<code><a href="../rawmessage/">RawMessage</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTypeIterator`类，实现了`Iterator<EntityType>`。
+`EntityTypeIterator`类，实现了<code>Iterator&lt;<a href="../optional/">EntityType</a>&gt;</code>。
 
 ## 方法
 

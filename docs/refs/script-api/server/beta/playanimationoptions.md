@@ -16,6 +16,17 @@
 blendOutTime: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`blendOutTime`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `controller`
@@ -26,6 +37,17 @@ blendOutTime: float | undefined;
 ```js
 controller: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`controller`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ controller: string | undefined;
 nextState: string | undefined;
 ```
 
+/// html | div.result
+//// define
+`nextState`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `players`
@@ -49,6 +82,17 @@ nextState: string | undefined;
 players: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`players`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `stopExpression`
@@ -59,4 +103,15 @@ players: string[] | undefined;
 ```js
 stopExpression: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`stopExpression`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

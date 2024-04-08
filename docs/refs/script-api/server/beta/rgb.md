@@ -16,6 +16,17 @@
 blue: float;
 ```
 
+/// html | div.result
+//// define
+`blue`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `green`
@@ -27,6 +38,17 @@ blue: float;
 green: float;
 ```
 
+/// html | div.result
+//// define
+`green`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `red`
@@ -37,4 +59,15 @@ green: float;
 ```js
 red: float;
 ```
+
+/// html | div.result
+//// define
+`red`：`float`
+
+- 属性。
+
+
+////
+
+///
 

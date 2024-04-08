@@ -16,3 +16,14 @@
 uncertainty: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`uncertainty`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+

@@ -16,3 +16,14 @@
 entity: Entity;
 ```
 
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+

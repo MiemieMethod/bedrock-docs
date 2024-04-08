@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityVariantComponent`类，扩展自`EntityComponent`。
+`EntityVariantComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,4 +28,15 @@ static read-only componentId = "minecraft:variant";
 ```js
 read-only value: int32;
 ```
+
+/// html | div.result
+//// define
+`value`：`int32`
+
+- 属性。
+
+
+////
+
+///
 

@@ -16,6 +16,17 @@
 read-only block: Block;
 ```
 
+/// html | div.result
+//// define
+`block`：[`Block`](./block.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `dimension`
@@ -26,4 +37,15 @@ read-only block: Block;
 ```js
 read-only dimension: Dimension;
 ```
+
+/// html | div.result
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
 

@@ -16,6 +16,17 @@
 read-only heightRange: NumberRange;
 ```
 
+/// html | div.result
+//// define
+`heightRange`：[`NumberRange`](../../common/1.1.0/numberrange.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `id`
@@ -26,6 +37,17 @@ read-only heightRange: NumberRange;
 ```js
 read-only id: string;
 ```
+
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

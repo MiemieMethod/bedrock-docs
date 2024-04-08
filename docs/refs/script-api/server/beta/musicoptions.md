@@ -16,6 +16,17 @@
 fade: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`fade`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `loop`
@@ -27,6 +38,17 @@ fade: float | undefined;
 loop: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`loop`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `volume`
@@ -37,4 +59,15 @@ loop: boolean | undefined;
 ```js
 volume: float | undefined;
 ```
+
+/// html | div.result
+//// define
+`volume`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

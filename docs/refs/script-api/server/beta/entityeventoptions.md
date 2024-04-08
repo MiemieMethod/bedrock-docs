@@ -16,6 +16,17 @@
 entities: Entity[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`entities`：<code><a href="../entity/">Entity</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entityTypes`
@@ -26,4 +37,15 @@ entities: Entity[] | undefined;
 ```js
 entityTypes: string[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`entityTypes`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

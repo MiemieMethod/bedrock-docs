@@ -16,6 +16,17 @@
 cause: EntityDamageCause;
 ```
 
+/// html | div.result
+//// define
+`cause`：[`EntityDamageCause`](./entitydamagecause.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `damagingEntity`
@@ -27,6 +38,17 @@ cause: EntityDamageCause;
 damagingEntity: Entity | undefined;
 ```
 
+/// html | div.result
+//// define
+`damagingEntity`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `damagingProjectile`
@@ -37,4 +59,15 @@ damagingEntity: Entity | undefined;
 ```js
 damagingProjectile: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`damagingProjectile`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

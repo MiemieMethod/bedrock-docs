@@ -16,6 +16,17 @@
 read-only canBeWaterlogged: boolean;
 ```
 
+/// html | div.result
+//// define
+`canBeWaterlogged`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `id`
@@ -26,4 +37,15 @@ read-only canBeWaterlogged: boolean;
 ```js
 read-only id: string;
 ```
+
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
 

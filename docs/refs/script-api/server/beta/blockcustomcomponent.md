@@ -16,6 +16,17 @@
 beforeOnPlayerPlace: (arg: BlockComponentPlayerPlaceBeforeEvent) => void | undefined;
 ```
 
+/// html | div.result
+//// define
+`beforeOnPlayerPlace`：<code>(<a href="../blockcomponentplayerplacebeforeevent/">BlockComponentPlayerPlaceBeforeEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `onEntityFallOn`
@@ -26,6 +37,17 @@ beforeOnPlayerPlace: (arg: BlockComponentPlayerPlaceBeforeEvent) => void | undef
 ```js
 onEntityFallOn: (arg: BlockComponentEntityFallOnEvent) => void | undefined;
 ```
+
+/// html | div.result
+//// define
+`onEntityFallOn`：<code>(<a href="../blockcomponententityfallonevent/">BlockComponentEntityFallOnEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ onEntityFallOn: (arg: BlockComponentEntityFallOnEvent) => void | undefined;
 onPlace: (arg: BlockComponentOnPlaceEvent) => void | undefined;
 ```
 
+/// html | div.result
+//// define
+`onPlace`：<code>(<a href="../blockcomponentonplaceevent/">BlockComponentOnPlaceEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `onPlayerDestroy`
@@ -48,6 +81,17 @@ onPlace: (arg: BlockComponentOnPlaceEvent) => void | undefined;
 ```js
 onPlayerDestroy: (arg: BlockComponentPlayerDestroyEvent) => void | undefined;
 ```
+
+/// html | div.result
+//// define
+`onPlayerDestroy`：<code>(<a href="../blockcomponentplayerdestroyevent/">BlockComponentPlayerDestroyEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ onPlayerDestroy: (arg: BlockComponentPlayerDestroyEvent) => void | undefined;
 onPlayerInteract: (arg: BlockComponentPlayerInteractEvent) => void | undefined;
 ```
 
+/// html | div.result
+//// define
+`onPlayerInteract`：<code>(<a href="../blockcomponentplayerinteractevent/">BlockComponentPlayerInteractEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `onRandomTick`
@@ -70,6 +125,17 @@ onPlayerInteract: (arg: BlockComponentPlayerInteractEvent) => void | undefined;
 ```js
 onRandomTick: (arg: BlockComponentRandomTickEvent) => void | undefined;
 ```
+
+/// html | div.result
+//// define
+`onRandomTick`：<code>(<a href="../blockcomponentrandomtickevent/">BlockComponentRandomTickEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ onRandomTick: (arg: BlockComponentRandomTickEvent) => void | undefined;
 onStepOff: (arg: BlockComponentStepOffEvent) => void | undefined;
 ```
 
+/// html | div.result
+//// define
+`onStepOff`：<code>(<a href="../blockcomponentstepoffevent/">BlockComponentStepOffEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `onStepOn`
@@ -93,6 +170,17 @@ onStepOff: (arg: BlockComponentStepOffEvent) => void | undefined;
 onStepOn: (arg: BlockComponentStepOnEvent) => void | undefined;
 ```
 
+/// html | div.result
+//// define
+`onStepOn`：<code>(<a href="../blockcomponentsteponevent/">BlockComponentStepOnEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `onTick`
@@ -103,4 +191,15 @@ onStepOn: (arg: BlockComponentStepOnEvent) => void | undefined;
 ```js
 onTick: (arg: BlockComponentTickEvent) => void | undefined;
 ```
+
+/// html | div.result
+//// define
+`onTick`：<code>(<a href="../blockcomponenttickevent/">BlockComponentTickEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

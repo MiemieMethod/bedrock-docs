@@ -16,6 +16,17 @@
 cancel: boolean;
 ```
 
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `message`
@@ -26,6 +37,17 @@ cancel: boolean;
 ```js
 read-only message: string;
 ```
+
+/// html | div.result
+//// define
+`message`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only message: string;
 read-only sender: Player;
 ```
 
+/// html | div.result
+//// define
+`sender`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `targets`
@@ -48,4 +81,15 @@ read-only sender: Player;
 ```js
 read-only targets: Player[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`targets`：<code><a href="../player/">Player</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

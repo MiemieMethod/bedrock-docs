@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TripWireTripAfterEvent`类，扩展自`BlockEvent`。
+`TripWireTripAfterEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
 
 ## 属性
 
@@ -16,6 +16,17 @@
 read-only isPowered: boolean;
 ```
 
+/// html | div.result
+//// define
+`isPowered`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `sources`
@@ -26,4 +37,15 @@ read-only isPowered: boolean;
 ```js
 read-only sources: Entity[];
 ```
+
+/// html | div.result
+//// define
+`sources`：<code><a href="../entity/">Entity</a>[]</code>
+
+- 属性。
+
+
+////
+
+///
 

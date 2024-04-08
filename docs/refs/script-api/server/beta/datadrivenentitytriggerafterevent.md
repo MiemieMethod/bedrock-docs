@@ -16,6 +16,17 @@
 read-only entity: Entity;
 ```
 
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `eventId`
@@ -26,6 +37,17 @@ read-only entity: Entity;
 ```js
 read-only eventId: string;
 ```
+
+/// html | div.result
+//// define
+`eventId`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

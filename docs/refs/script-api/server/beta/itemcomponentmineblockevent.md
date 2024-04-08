@@ -16,6 +16,17 @@
 read-only block: Block;
 ```
 
+/// html | div.result
+//// define
+`block`：[`Block`](./block.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemStack`
@@ -26,6 +37,17 @@ read-only block: Block;
 ```js
 read-only itemStack: ItemStack | undefined;
 ```
+
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only itemStack: ItemStack | undefined;
 read-only minedBlockPermutation: BlockPermutation;
 ```
 
+/// html | div.result
+//// define
+`minedBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `source`
@@ -48,4 +81,15 @@ read-only minedBlockPermutation: BlockPermutation;
 ```js
 read-only source: Entity;
 ```
+
+/// html | div.result
+//// define
+`source`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

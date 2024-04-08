@@ -16,6 +16,17 @@
 exclude: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`exclude`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `maxScore`
@@ -26,6 +37,17 @@ exclude: boolean | undefined;
 ```js
 maxScore: int32 | undefined;
 ```
+
+/// html | div.result
+//// define
+`maxScore`：`int32`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ maxScore: int32 | undefined;
 minScore: int32 | undefined;
 ```
 
+/// html | div.result
+//// define
+`minScore`：`int32`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `objective`
@@ -48,4 +81,15 @@ minScore: int32 | undefined;
 ```js
 objective: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`objective`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

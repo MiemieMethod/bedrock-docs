@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRaycastOptions`接口，扩展自`EntityFilter`。
+`EntityRaycastOptions`接口，扩展自`[`EntityFilter`](./entityfilter.md)`。
 
 ## 属性
 
@@ -16,6 +16,17 @@
 ignoreBlockCollision: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`ignoreBlockCollision`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `includeLiquidBlocks`
@@ -26,6 +37,17 @@ ignoreBlockCollision: boolean | undefined;
 ```js
 includeLiquidBlocks: boolean | undefined;
 ```
+
+/// html | div.result
+//// define
+`includeLiquidBlocks`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ includeLiquidBlocks: boolean | undefined;
 includePassableBlocks: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`includePassableBlocks`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `maxDistance`
@@ -48,4 +81,15 @@ includePassableBlocks: boolean | undefined;
 ```js
 maxDistance: int32 | undefined;
 ```
+
+/// html | div.result
+//// define
+`maxDistance`：`int32`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

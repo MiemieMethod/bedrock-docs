@@ -16,3 +16,14 @@
 matchingBlock: BlockPermutation | undefined;
 ```
 
+/// html | div.result
+//// define
+`matchingBlock`：[`BlockPermutation`](./blockpermutation.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+

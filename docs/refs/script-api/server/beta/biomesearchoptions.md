@@ -16,3 +16,14 @@
 boundingSize: Vector3 | undefined;
 ```
 
+/// html | div.result
+//// define
+`boundingSize`：[`Vector3`](./vector3.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+

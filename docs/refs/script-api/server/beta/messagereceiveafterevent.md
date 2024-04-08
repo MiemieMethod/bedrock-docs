@@ -16,6 +16,17 @@
 read-only id: string;
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `message`
@@ -27,6 +38,17 @@ read-only id: string;
 read-only message: string;
 ```
 
+/// html | div.result
+//// define
+`message`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `player`
@@ -37,4 +59,15 @@ read-only message: string;
 ```js
 read-only player: Player;
 ```
+
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
 

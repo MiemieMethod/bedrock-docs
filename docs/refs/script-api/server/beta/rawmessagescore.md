@@ -16,6 +16,17 @@
 name: string | undefined;
 ```
 
+/// html | div.result
+//// define
+`name`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `objective`
@@ -26,4 +37,15 @@ name: string | undefined;
 ```js
 objective: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`objective`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

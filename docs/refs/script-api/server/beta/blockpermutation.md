@@ -16,6 +16,17 @@
 read-only type: BlockType;
 ```
 
+/// html | div.result
+//// define
+`type`：[`BlockType`](./blocktype.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 ## 方法
 

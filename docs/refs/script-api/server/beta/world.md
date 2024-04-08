@@ -16,6 +16,17 @@
 read-only afterEvents: WorldAfterEvents;
 ```
 
+/// html | div.result
+//// define
+`afterEvents`：[`WorldAfterEvents`](./worldafterevents.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `beforeEvents`
@@ -26,6 +37,17 @@ read-only afterEvents: WorldAfterEvents;
 ```js
 read-only beforeEvents: WorldBeforeEvents;
 ```
+
+/// html | div.result
+//// define
+`beforeEvents`：[`WorldBeforeEvents`](./worldbeforeevents.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only beforeEvents: WorldBeforeEvents;
 read-only gameRules: GameRules;
 ```
 
+/// html | div.result
+//// define
+`gameRules`：[`GameRules`](./gamerules.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `scoreboard`
@@ -49,6 +82,17 @@ read-only gameRules: GameRules;
 read-only scoreboard: Scoreboard;
 ```
 
+/// html | div.result
+//// define
+`scoreboard`：[`Scoreboard`](./scoreboard.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `structureManager`
@@ -59,6 +103,17 @@ read-only scoreboard: Scoreboard;
 ```js
 read-only structureManager: StructureManager;
 ```
+
+/// html | div.result
+//// define
+`structureManager`：[`StructureManager`](./structuremanager.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

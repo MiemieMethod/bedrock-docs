@@ -16,6 +16,17 @@
 read-only amplifier: int32;
 ```
 
+/// html | div.result
+//// define
+`amplifier`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `displayName`
@@ -26,6 +37,17 @@ read-only amplifier: int32;
 ```js
 read-only displayName: string;
 ```
+
+/// html | div.result
+//// define
+`displayName`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only displayName: string;
 read-only duration: int32;
 ```
 
+/// html | div.result
+//// define
+`duration`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `typeId`
@@ -48,6 +81,17 @@ read-only duration: int32;
 ```js
 read-only typeId: string;
 ```
+
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

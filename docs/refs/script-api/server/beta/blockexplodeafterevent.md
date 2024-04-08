@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockExplodeAfterEvent`类，扩展自`BlockEvent`。
+`BlockExplodeAfterEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
 
 ## 属性
 
@@ -16,6 +16,17 @@
 read-only explodedBlockPermutation: BlockPermutation;
 ```
 
+/// html | div.result
+//// define
+`explodedBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `source`
@@ -26,4 +37,15 @@ read-only explodedBlockPermutation: BlockPermutation;
 ```js
 read-only source: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`source`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

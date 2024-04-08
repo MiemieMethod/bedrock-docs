@@ -16,6 +16,17 @@
 damagingEntity: Entity | undefined;
 ```
 
+/// html | div.result
+//// define
+`damagingEntity`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `damagingProjectile`
@@ -26,4 +37,15 @@ damagingEntity: Entity | undefined;
 ```js
 damagingProjectile: Entity;
 ```
+
+/// html | div.result
+//// define
+`damagingProjectile`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

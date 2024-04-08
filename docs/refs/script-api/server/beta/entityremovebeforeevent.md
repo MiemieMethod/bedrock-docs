@@ -16,3 +16,14 @@
 read-only removedEntity: Entity;
 ```
 
+/// html | div.result
+//// define
+`removedEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+

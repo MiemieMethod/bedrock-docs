@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityProjectileComponent`类，扩展自`EntityComponent`。
+`EntityProjectileComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -29,6 +29,17 @@ static read-only componentId = "minecraft:projectile";
 airInertia: float;
 ```
 
+/// html | div.result
+//// define
+`airInertia`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `catchFireOnHurt`
@@ -39,6 +50,17 @@ airInertia: float;
 ```js
 catchFireOnHurt: boolean;
 ```
+
+/// html | div.result
+//// define
+`catchFireOnHurt`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -51,6 +73,17 @@ catchFireOnHurt: boolean;
 critParticlesOnProjectileHurt: boolean;
 ```
 
+/// html | div.result
+//// define
+`critParticlesOnProjectileHurt`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `destroyOnProjectileHurt`
@@ -61,6 +94,17 @@ critParticlesOnProjectileHurt: boolean;
 ```js
 destroyOnProjectileHurt: boolean;
 ```
+
+/// html | div.result
+//// define
+`destroyOnProjectileHurt`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -73,6 +117,17 @@ destroyOnProjectileHurt: boolean;
 gravity: float;
 ```
 
+/// html | div.result
+//// define
+`gravity`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `hitEntitySound`
@@ -83,6 +138,17 @@ gravity: float;
 ```js
 hitEntitySound: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`hitEntitySound`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -95,6 +161,17 @@ hitEntitySound: string | undefined;
 hitGroundSound: string | undefined;
 ```
 
+/// html | div.result
+//// define
+`hitGroundSound`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `hitParticle`
@@ -105,6 +182,17 @@ hitGroundSound: string | undefined;
 ```js
 hitParticle: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`hitParticle`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -117,6 +205,17 @@ hitParticle: string | undefined;
 lightningStrikeOnHit: boolean;
 ```
 
+/// html | div.result
+//// define
+`lightningStrikeOnHit`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `liquidInertia`
@@ -127,6 +226,17 @@ lightningStrikeOnHit: boolean;
 ```js
 liquidInertia: float;
 ```
+
+/// html | div.result
+//// define
+`liquidInertia`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -139,6 +249,17 @@ liquidInertia: float;
 onFireTime: float;
 ```
 
+/// html | div.result
+//// define
+`onFireTime`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `owner`
@@ -149,6 +270,17 @@ onFireTime: float;
 ```js
 owner: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`owner`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -161,6 +293,17 @@ owner: Entity | undefined;
 shouldBounceOnHit: boolean;
 ```
 
+/// html | div.result
+//// define
+`shouldBounceOnHit`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `stopOnHit`
@@ -171,6 +314,17 @@ shouldBounceOnHit: boolean;
 ```js
 stopOnHit: boolean;
 ```
+
+/// html | div.result
+//// define
+`stopOnHit`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

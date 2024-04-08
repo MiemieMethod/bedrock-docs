@@ -16,6 +16,17 @@
 animationMode: StructureAnimationMode | undefined;
 ```
 
+/// html | div.result
+//// define
+`animationMode`：[`StructureAnimationMode`](./structureanimationmode.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `animationSeconds`
@@ -26,6 +37,17 @@ animationMode: StructureAnimationMode | undefined;
 ```js
 animationSeconds: float | undefined;
 ```
+
+/// html | div.result
+//// define
+`animationSeconds`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ animationSeconds: float | undefined;
 includeBlocks: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`includeBlocks`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `includeEntities`
@@ -48,6 +81,17 @@ includeBlocks: boolean | undefined;
 ```js
 includeEntities: boolean | undefined;
 ```
+
+/// html | div.result
+//// define
+`includeEntities`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ includeEntities: boolean | undefined;
 integrity: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`integrity`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `integritySeed`
@@ -70,6 +125,17 @@ integrity: float | undefined;
 ```js
 integritySeed: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`integritySeed`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ integritySeed: string | undefined;
 mirror: StructureMirrorAxis | undefined;
 ```
 
+/// html | div.result
+//// define
+`mirror`：[`StructureMirrorAxis`](./structuremirroraxis.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `rotation`
@@ -93,6 +170,17 @@ mirror: StructureMirrorAxis | undefined;
 rotation: StructureRotation | undefined;
 ```
 
+/// html | div.result
+//// define
+`rotation`：[`StructureRotation`](./structurerotation.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `waterlogged`
@@ -103,4 +191,15 @@ rotation: StructureRotation | undefined;
 ```js
 waterlogged: boolean | undefined;
 ```
+
+/// html | div.result
+//// define
+`waterlogged`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

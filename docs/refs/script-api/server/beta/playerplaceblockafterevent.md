@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerPlaceBlockAfterEvent`类，扩展自`BlockEvent`。
+`PlayerPlaceBlockAfterEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
 
 ## 属性
 
@@ -15,4 +15,15 @@
 ```js
 read-only player: Player;
 ```
+
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
 

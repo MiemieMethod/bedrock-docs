@@ -16,6 +16,17 @@
 allowUnderwater: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`allowUnderwater`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `breaksBlocks`
@@ -26,6 +37,17 @@ allowUnderwater: boolean | undefined;
 ```js
 breaksBlocks: boolean | undefined;
 ```
+
+/// html | div.result
+//// define
+`breaksBlocks`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ breaksBlocks: boolean | undefined;
 causesFire: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`causesFire`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `source`
@@ -48,4 +81,15 @@ causesFire: boolean | undefined;
 ```js
 source: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`source`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

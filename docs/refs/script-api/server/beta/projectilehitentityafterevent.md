@@ -16,6 +16,17 @@
 read-only dimension: Dimension;
 ```
 
+/// html | div.result
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `hitVector`
@@ -26,6 +37,17 @@ read-only dimension: Dimension;
 ```js
 read-only hitVector: Vector3;
 ```
+
+/// html | div.result
+//// define
+`hitVector`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only hitVector: Vector3;
 read-only location: Vector3;
 ```
 
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `projectile`
@@ -49,6 +82,17 @@ read-only location: Vector3;
 read-only projectile: Entity;
 ```
 
+/// html | div.result
+//// define
+`projectile`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `source`
@@ -59,6 +103,17 @@ read-only projectile: Entity;
 ```js
 read-only source: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`source`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

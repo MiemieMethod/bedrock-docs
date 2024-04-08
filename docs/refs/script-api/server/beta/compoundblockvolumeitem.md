@@ -16,6 +16,17 @@
 action: CompoundBlockVolumeAction | undefined;
 ```
 
+/// html | div.result
+//// define
+`action`：[`CompoundBlockVolumeAction`](./compoundblockvolumeaction.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `locationRelativity`
@@ -27,6 +38,17 @@ action: CompoundBlockVolumeAction | undefined;
 locationRelativity: CompoundBlockVolumePositionRelativity | undefined;
 ```
 
+/// html | div.result
+//// define
+`locationRelativity`：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `volume`
@@ -37,4 +59,15 @@ locationRelativity: CompoundBlockVolumePositionRelativity | undefined;
 ```js
 volume: BlockVolume;
 ```
+
+/// html | div.result
+//// define
+`volume`：[`BlockVolume`](./blockvolume.md)
+
+- 属性。
+
+
+////
+
+///
 

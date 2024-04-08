@@ -16,6 +16,17 @@
 cancel: boolean;
 ```
 
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `fromGameMode`
@@ -26,6 +37,17 @@ cancel: boolean;
 ```js
 read-only fromGameMode: GameMode;
 ```
+
+/// html | div.result
+//// define
+`fromGameMode`：[`GameMode`](./gamemode.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only fromGameMode: GameMode;
 read-only player: Player;
 ```
 
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `toGameMode`
@@ -48,4 +81,15 @@ read-only player: Player;
 ```js
 toGameMode: GameMode;
 ```
+
+/// html | div.result
+//// define
+`toGameMode`：[`GameMode`](./gamemode.md)
+
+- 属性。
+
+
+////
+
+///
 

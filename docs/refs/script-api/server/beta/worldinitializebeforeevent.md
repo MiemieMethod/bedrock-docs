@@ -16,6 +16,17 @@
 read-only blockTypeRegistry: BlockComponentRegistry;
 ```
 
+/// html | div.result
+//// define
+`blockTypeRegistry`：[`BlockComponentRegistry`](./blockcomponentregistry.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemComponentRegistry`
@@ -26,4 +37,15 @@ read-only blockTypeRegistry: BlockComponentRegistry;
 ```js
 read-only itemComponentRegistry: ItemComponentRegistry;
 ```
+
+/// html | div.result
+//// define
+`itemComponentRegistry`：[`ItemComponentRegistry`](./itemcomponentregistry.md)
+
+- 属性。
+
+
+////
+
+///
 

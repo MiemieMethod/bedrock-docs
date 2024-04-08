@@ -16,6 +16,17 @@
 read-only displayName: string;
 ```
 
+/// html | div.result
+//// define
+`displayName`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `id`
@@ -27,6 +38,17 @@ read-only displayName: string;
 read-only id: int64;
 ```
 
+/// html | div.result
+//// define
+`id`：`int64`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `type`
@@ -37,6 +59,17 @@ read-only id: int64;
 ```js
 read-only type: ScoreboardIdentityType;
 ```
+
+/// html | div.result
+//// define
+`type`：[`ScoreboardIdentityType`](./scoreboardidentitytype.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

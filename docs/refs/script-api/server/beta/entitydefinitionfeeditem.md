@@ -16,6 +16,17 @@
 read-only growth: float;
 ```
 
+/// html | div.result
+//// define
+`growth`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `item`
@@ -26,4 +37,15 @@ read-only growth: float;
 ```js
 read-only item: string;
 ```
+
+/// html | div.result
+//// define
+`item`：`string`
+
+- 属性。
+
+
+////
+
+///
 

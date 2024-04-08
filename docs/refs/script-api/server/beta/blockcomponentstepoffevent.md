@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentStepOffEvent`类，扩展自`BlockEvent`。
+`BlockComponentStepOffEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
 
 ## 属性
 
@@ -15,4 +15,15 @@
 ```js
 read-only entity: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

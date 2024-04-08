@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityLeashableComponent`类，扩展自`EntityComponent`。
+`EntityLeashableComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,6 +28,17 @@ static read-only componentId = "minecraft:leashable";
 ```js
 read-only softDistance: float;
 ```
+
+/// html | div.result
+//// define
+`softDistance`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

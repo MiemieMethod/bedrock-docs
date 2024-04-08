@@ -16,6 +16,17 @@
 read-only participant: ScoreboardIdentity;
 ```
 
+/// html | div.result
+//// define
+`participant`：[`ScoreboardIdentity`](./scoreboardidentity.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `score`
@@ -26,4 +37,15 @@ read-only participant: ScoreboardIdentity;
 ```js
 read-only score: int32;
 ```
+
+/// html | div.result
+//// define
+`score`：`int32`
+
+- 属性。
+
+
+////
+
+///
 

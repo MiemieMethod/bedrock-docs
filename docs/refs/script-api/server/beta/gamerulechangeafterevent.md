@@ -16,6 +16,17 @@
 read-only rule: GameRule;
 ```
 
+/// html | div.result
+//// define
+`rule`：[`GameRule`](./gamerule.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `value`
@@ -26,4 +37,15 @@ read-only rule: GameRule;
 ```js
 read-only value: boolean | float;
 ```
+
+/// html | div.result
+//// define
+`value`：`boolean`|`float`
+
+- 属性。
+
+
+////
+
+///
 

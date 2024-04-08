@@ -16,6 +16,17 @@
 cancel: boolean;
 ```
 
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemStack`
@@ -26,6 +37,17 @@ cancel: boolean;
 ```js
 read-only itemStack: ItemStack | undefined;
 ```
+
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only itemStack: ItemStack | undefined;
 read-only player: Player;
 ```
 
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `target`
@@ -48,4 +81,15 @@ read-only player: Player;
 ```js
 read-only target: Entity;
 ```
+
+/// html | div.result
+//// define
+`target`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

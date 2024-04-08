@@ -16,3 +16,14 @@
 read-only scriptEventReceive: ScriptEventCommandMessageAfterEventSignal;
 ```
 
+/// html | div.result
+//// define
+`scriptEventReceive`：[`ScriptEventCommandMessageAfterEventSignal`](./scripteventcommandmessageaftereventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+

@@ -16,3 +16,14 @@
 read-only successCount: int32;
 ```
 
+/// html | div.result
+//// define
+`successCount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+

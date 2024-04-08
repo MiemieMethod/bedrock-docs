@@ -16,6 +16,17 @@
 read-only category: InputPermissionCategory;
 ```
 
+/// html | div.result
+//// define
+`category`：[`InputPermissionCategory`](./inputpermissioncategory.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `enabled`
@@ -27,6 +38,17 @@ read-only category: InputPermissionCategory;
 read-only enabled: boolean;
 ```
 
+/// html | div.result
+//// define
+`enabled`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `player`
@@ -37,4 +59,15 @@ read-only enabled: boolean;
 ```js
 read-only player: Player;
 ```
+
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
 

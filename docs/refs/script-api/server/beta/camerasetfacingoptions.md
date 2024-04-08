@@ -16,6 +16,17 @@
 easeOptions: CameraEaseOptions | undefined;
 ```
 
+/// html | div.result
+//// define
+`easeOptions`：[`CameraEaseOptions`](./cameraeaseoptions.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `facingEntity`
@@ -27,6 +38,17 @@ easeOptions: CameraEaseOptions | undefined;
 facingEntity: Entity;
 ```
 
+/// html | div.result
+//// define
+`facingEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `location`
@@ -37,4 +59,15 @@ facingEntity: Entity;
 ```js
 location: Vector3 | undefined;
 ```
+
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

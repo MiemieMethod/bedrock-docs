@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentOnPlaceEvent`类，扩展自`BlockEvent`。
+`BlockComponentOnPlaceEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
 
 ## 属性
 
@@ -15,4 +15,15 @@
 ```js
 read-only previousBlock: BlockPermutation;
 ```
+
+/// html | div.result
+//// define
+`previousBlock`：[`BlockPermutation`](./blockpermutation.md)
+
+- 属性。
+
+
+////
+
+///
 

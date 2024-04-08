@@ -16,3 +16,14 @@
 read-only watchdogTerminate: WatchdogTerminateBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`watchdogTerminate`：[`WatchdogTerminateBeforeEventSignal`](./watchdogterminatebeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+

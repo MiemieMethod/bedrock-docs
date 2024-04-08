@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRideableComponent`类，扩展自`EntityComponent`。
+`EntityRideableComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -29,6 +29,17 @@ static read-only componentId = "minecraft:rideable";
 read-only controllingSeat: int32;
 ```
 
+/// html | div.result
+//// define
+`controllingSeat`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `crouchingSkipInteract`
@@ -39,6 +50,17 @@ read-only controllingSeat: int32;
 ```js
 read-only crouchingSkipInteract: boolean;
 ```
+
+/// html | div.result
+//// define
+`crouchingSkipInteract`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -51,6 +73,17 @@ read-only crouchingSkipInteract: boolean;
 read-only interactText: string;
 ```
 
+/// html | div.result
+//// define
+`interactText`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `passengerMaxWidth`
@@ -61,6 +94,17 @@ read-only interactText: string;
 ```js
 read-only passengerMaxWidth: float;
 ```
+
+/// html | div.result
+//// define
+`passengerMaxWidth`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -73,6 +117,17 @@ read-only passengerMaxWidth: float;
 read-only pullInEntities: boolean;
 ```
 
+/// html | div.result
+//// define
+`pullInEntities`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `riderCanInteract`
@@ -84,6 +139,17 @@ read-only pullInEntities: boolean;
 read-only riderCanInteract: boolean;
 ```
 
+/// html | div.result
+//// define
+`riderCanInteract`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `seatCount`
@@ -94,6 +160,17 @@ read-only riderCanInteract: boolean;
 ```js
 read-only seatCount: int32;
 ```
+
+/// html | div.result
+//// define
+`seatCount`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

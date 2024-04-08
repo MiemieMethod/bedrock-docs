@@ -16,6 +16,17 @@
 onBeforeDurabilityDamage: (arg: ItemComponentBeforeDurabilityDamageEvent) => void | undefined;
 ```
 
+/// html | div.result
+//// define
+`onBeforeDurabilityDamage`：<code>(<a href="../itemcomponentbeforedurabilitydamageevent/">ItemComponentBeforeDurabilityDamageEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `onHitEntity`
@@ -26,6 +37,17 @@ onBeforeDurabilityDamage: (arg: ItemComponentBeforeDurabilityDamageEvent) => voi
 ```js
 onHitEntity: (arg: ItemComponentHitEntityEvent) => void | undefined;
 ```
+
+/// html | div.result
+//// define
+`onHitEntity`：<code>(<a href="../itemcomponenthitentityevent/">ItemComponentHitEntityEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ onHitEntity: (arg: ItemComponentHitEntityEvent) => void | undefined;
 onMineBlock: (arg: ItemComponentMineBlockEvent) => void | undefined;
 ```
 
+/// html | div.result
+//// define
+`onMineBlock`：<code>(<a href="../itemcomponentmineblockevent/">ItemComponentMineBlockEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `onUse`
@@ -48,4 +81,15 @@ onMineBlock: (arg: ItemComponentMineBlockEvent) => void | undefined;
 ```js
 onUse: (arg: ItemComponentUseEvent) => void | undefined;
 ```
+
+/// html | div.result
+//// define
+`onUse`：<code>(<a href="../itemcomponentuseevent/">ItemComponentUseEvent</a>) =&gt; void</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

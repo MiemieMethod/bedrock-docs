@@ -16,6 +16,17 @@
 max: Vector3;
 ```
 
+/// html | div.result
+//// define
+`max`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `min`
@@ -26,4 +37,15 @@ max: Vector3;
 ```js
 min: Vector3;
 ```
+
+/// html | div.result
+//// define
+`min`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
 

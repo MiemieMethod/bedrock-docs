@@ -16,6 +16,17 @@
 distance: float;
 ```
 
+/// html | div.result
+//// define
+`distance`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entity`
@@ -26,4 +37,15 @@ distance: float;
 ```js
 entity: Entity;
 ```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

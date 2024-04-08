@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemCooldownComponent`类，扩展自`ItemComponent`。
+`ItemCooldownComponent`类，扩展自`[`ItemComponent`](./itemcomponent.md)`。
 
 ## 常量
 
@@ -29,6 +29,17 @@ static read-only componentId = "minecraft:cooldown";
 read-only cooldownCategory: string;
 ```
 
+/// html | div.result
+//// define
+`cooldownCategory`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `cooldownTicks`
@@ -39,6 +50,17 @@ read-only cooldownCategory: string;
 ```js
 read-only cooldownTicks: int32;
 ```
+
+/// html | div.result
+//// define
+`cooldownTicks`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

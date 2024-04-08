@@ -16,6 +16,17 @@
 level: int32;
 ```
 
+/// html | div.result
+//// define
+`level`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `type`
@@ -26,4 +37,15 @@ level: int32;
 ```js
 type: EnchantmentType;
 ```
+
+/// html | div.result
+//// define
+`type`：[`EnchantmentType`](./enchantmenttype.md)
+
+- 属性。
+
+
+////
+
+///
 

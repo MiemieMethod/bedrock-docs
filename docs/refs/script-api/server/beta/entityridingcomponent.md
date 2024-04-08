@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRidingComponent`类，扩展自`EntityComponent`。
+`EntityRidingComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,4 +28,15 @@ static read-only componentId = "minecraft:riding";
 ```js
 read-only entityRidingOn: Entity;
 ```
+
+/// html | div.result
+//// define
+`entityRidingOn`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

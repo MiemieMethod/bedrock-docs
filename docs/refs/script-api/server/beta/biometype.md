@@ -16,3 +16,14 @@
 read-only id: string;
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+

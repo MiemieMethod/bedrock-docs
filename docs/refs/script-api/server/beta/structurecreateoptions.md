@@ -16,6 +16,17 @@
 includeBlocks: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`includeBlocks`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `includeEntities`
@@ -27,6 +38,17 @@ includeBlocks: boolean | undefined;
 includeEntities: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`includeEntities`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `saveMode`
@@ -37,4 +59,15 @@ includeEntities: boolean | undefined;
 ```js
 saveMode: StructureSaveMode | undefined;
 ```
+
+/// html | div.result
+//// define
+`saveMode`：[`StructureSaveMode`](./structuresavemode.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

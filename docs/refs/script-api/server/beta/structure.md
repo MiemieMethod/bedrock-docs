@@ -16,6 +16,17 @@
 read-only id: string;
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `size`
@@ -26,6 +37,17 @@ read-only id: string;
 ```js
 read-only size: Vector3;
 ```
+
+/// html | div.result
+//// define
+`size`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

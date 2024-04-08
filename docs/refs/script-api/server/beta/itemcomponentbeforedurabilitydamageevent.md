@@ -16,6 +16,17 @@
 read-only attackingEntity: Entity;
 ```
 
+/// html | div.result
+//// define
+`attackingEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `durabilityDamage`
@@ -26,6 +37,17 @@ read-only attackingEntity: Entity;
 ```js
 durabilityDamage: int32;
 ```
+
+/// html | div.result
+//// define
+`durabilityDamage`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ durabilityDamage: int32;
 read-only hitEntity: Entity;
 ```
 
+/// html | div.result
+//// define
+`hitEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemStack`
@@ -48,4 +81,15 @@ read-only hitEntity: Entity;
 ```js
 itemStack: ItemStack | undefined;
 ```
+
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

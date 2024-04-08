@@ -16,3 +16,14 @@
 easeOptions: CameraEaseOptions;
 ```
 
+/// html | div.result
+//// define
+`easeOptions`：[`CameraEaseOptions`](./cameraeaseoptions.md)
+
+- 属性。
+
+
+////
+
+///
+

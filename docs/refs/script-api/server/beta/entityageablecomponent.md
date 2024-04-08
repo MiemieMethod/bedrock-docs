@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAgeableComponent`类，扩展自`EntityComponent`。
+`EntityAgeableComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -29,6 +29,17 @@ static read-only componentId = "minecraft:ageable";
 read-only duration: float;
 ```
 
+/// html | div.result
+//// define
+`duration`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `growUp`
@@ -40,6 +51,17 @@ read-only duration: float;
 read-only growUp: Trigger;
 ```
 
+/// html | div.result
+//// define
+`growUp`：[`Trigger`](./trigger.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `transformToItem`
@@ -50,6 +72,17 @@ read-only growUp: Trigger;
 ```js
 read-only transformToItem: string;
 ```
+
+/// html | div.result
+//// define
+`transformToItem`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

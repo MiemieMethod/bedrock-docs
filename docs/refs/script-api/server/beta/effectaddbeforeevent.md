@@ -16,6 +16,17 @@
 cancel: boolean;
 ```
 
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `duration`
@@ -26,6 +37,17 @@ cancel: boolean;
 ```js
 duration: int32;
 ```
+
+/// html | div.result
+//// define
+`duration`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ duration: int32;
 read-only effectType: string;
 ```
 
+/// html | div.result
+//// define
+`effectType`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entity`
@@ -48,4 +81,15 @@ read-only effectType: string;
 ```js
 read-only entity: Entity;
 ```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

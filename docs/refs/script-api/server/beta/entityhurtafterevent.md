@@ -16,6 +16,17 @@
 read-only damage: float;
 ```
 
+/// html | div.result
+//// define
+`damage`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `damageSource`
@@ -27,6 +38,17 @@ read-only damage: float;
 read-only damageSource: EntityDamageSource;
 ```
 
+/// html | div.result
+//// define
+`damageSource`：[`EntityDamageSource`](./entitydamagesource.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `hurtEntity`
@@ -37,4 +59,15 @@ read-only damageSource: EntityDamageSource;
 ```js
 read-only hurtEntity: Entity;
 ```
+
+/// html | div.result
+//// define
+`hurtEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

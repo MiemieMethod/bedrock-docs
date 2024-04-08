@@ -16,6 +16,17 @@
 lowerBound: float;
 ```
 
+/// html | div.result
+//// define
+`lowerBound`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `upperBound`
@@ -26,4 +37,15 @@ lowerBound: float;
 ```js
 upperBound: float;
 ```
+
+/// html | div.result
+//// define
+`upperBound`：`float`
+
+- 属性。
+
+
+////
+
+///
 

@@ -16,6 +16,17 @@
 read-only damageSource: EntityDamageSource;
 ```
 
+/// html | div.result
+//// define
+`damageSource`：[`EntityDamageSource`](./entitydamagesource.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `deadEntity`
@@ -26,4 +37,15 @@ read-only damageSource: EntityDamageSource;
 ```js
 read-only deadEntity: Entity;
 ```
+
+/// html | div.result
+//// define
+`deadEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

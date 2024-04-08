@@ -16,6 +16,17 @@
 read-only effect: Effect;
 ```
 
+/// html | div.result
+//// define
+`effect`：[`Effect`](./effect.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entity`
@@ -26,4 +37,15 @@ read-only effect: Effect;
 ```js
 read-only entity: Entity;
 ```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

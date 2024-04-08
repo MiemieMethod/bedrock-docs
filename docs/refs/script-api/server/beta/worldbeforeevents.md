@@ -16,6 +16,17 @@
 read-only chatSend: ChatSendBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`chatSend`：[`ChatSendBeforeEventSignal`](./chatsendbeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `effectAdd`
@@ -26,6 +37,17 @@ read-only chatSend: ChatSendBeforeEventSignal;
 ```js
 read-only effectAdd: EffectAddBeforeEventSignal;
 ```
+
+/// html | div.result
+//// define
+`effectAdd`：[`EffectAddBeforeEventSignal`](./effectaddbeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only effectAdd: EffectAddBeforeEventSignal;
 read-only entityRemove: EntityRemoveBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`entityRemove`：[`EntityRemoveBeforeEventSignal`](./entityremovebeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `explosion`
@@ -48,6 +81,17 @@ read-only entityRemove: EntityRemoveBeforeEventSignal;
 ```js
 read-only explosion: ExplosionBeforeEventSignal;
 ```
+
+/// html | div.result
+//// define
+`explosion`：[`ExplosionBeforeEventSignal`](./explosionbeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ read-only explosion: ExplosionBeforeEventSignal;
 read-only itemUse: ItemUseBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`itemUse`：[`ItemUseBeforeEventSignal`](./itemusebeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemUseOn`
@@ -70,6 +125,17 @@ read-only itemUse: ItemUseBeforeEventSignal;
 ```js
 read-only itemUseOn: ItemUseOnBeforeEventSignal;
 ```
+
+/// html | div.result
+//// define
+`itemUseOn`：[`ItemUseOnBeforeEventSignal`](./itemuseonbeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ read-only itemUseOn: ItemUseOnBeforeEventSignal;
 read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerBreakBlock`：[`PlayerBreakBlockBeforeEventSignal`](./playerbreakblockbeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerGameModeChange`
@@ -92,6 +169,17 @@ read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal;
 ```js
 read-only playerGameModeChange: PlayerGameModeChangeBeforeEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerGameModeChange`：[`PlayerGameModeChangeBeforeEventSignal`](./playergamemodechangebeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -104,6 +192,17 @@ read-only playerGameModeChange: PlayerGameModeChangeBeforeEventSignal;
 read-only playerInteractWithBlock: PlayerInteractWithBlockBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerInteractWithBlock`：[`PlayerInteractWithBlockBeforeEventSignal`](./playerinteractwithblockbeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerInteractWithEntity`
@@ -114,6 +213,17 @@ read-only playerInteractWithBlock: PlayerInteractWithBlockBeforeEventSignal;
 ```js
 read-only playerInteractWithEntity: PlayerInteractWithEntityBeforeEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerInteractWithEntity`：[`PlayerInteractWithEntityBeforeEventSignal`](./playerinteractwithentitybeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -126,6 +236,17 @@ read-only playerInteractWithEntity: PlayerInteractWithEntityBeforeEventSignal;
 read-only playerLeave: PlayerLeaveBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`playerLeave`：[`PlayerLeaveBeforeEventSignal`](./playerleavebeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerPlaceBlock`
@@ -136,6 +257,17 @@ read-only playerLeave: PlayerLeaveBeforeEventSignal;
 ```js
 read-only playerPlaceBlock: PlayerPlaceBlockBeforeEventSignal;
 ```
+
+/// html | div.result
+//// define
+`playerPlaceBlock`：[`PlayerPlaceBlockBeforeEventSignal`](./playerplaceblockbeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -148,6 +280,17 @@ read-only playerPlaceBlock: PlayerPlaceBlockBeforeEventSignal;
 read-only weatherChange: WeatherChangeBeforeEventSignal;
 ```
 
+/// html | div.result
+//// define
+`weatherChange`：[`WeatherChangeBeforeEventSignal`](./weatherchangebeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `worldInitialize`
@@ -158,4 +301,15 @@ read-only weatherChange: WeatherChangeBeforeEventSignal;
 ```js
 read-only worldInitialize: WorldInitializeBeforeEventSignal;
 ```
+
+/// html | div.result
+//// define
+`worldInitialize`：[`WorldInitializeBeforeEventSignal`](./worldinitializebeforeeventsignal.md)
+
+- 属性。
+
+
+////
+
+///
 

@@ -16,6 +16,17 @@
 checkForBlocks: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`checkForBlocks`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `dimension`
@@ -26,6 +37,17 @@ checkForBlocks: boolean | undefined;
 ```js
 dimension: Dimension | undefined;
 ```
+
+/// html | div.result
+//// define
+`dimension`：[`Dimension`](./dimension.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ dimension: Dimension | undefined;
 facingLocation: Vector3 | undefined;
 ```
 
+/// html | div.result
+//// define
+`facingLocation`：[`Vector3`](./vector3.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `keepVelocity`
@@ -49,6 +82,17 @@ facingLocation: Vector3 | undefined;
 keepVelocity: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`keepVelocity`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `rotation`
@@ -59,4 +103,15 @@ keepVelocity: boolean | undefined;
 ```js
 rotation: Vector2 | undefined;
 ```
+
+/// html | div.result
+//// define
+`rotation`：[`Vector2`](./vector2.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

@@ -16,6 +16,17 @@
 location: Vector3 | undefined;
 ```
 
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `pitch`
@@ -27,6 +38,17 @@ location: Vector3 | undefined;
 pitch: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`pitch`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `volume`
@@ -37,4 +59,15 @@ pitch: float | undefined;
 ```js
 volume: float | undefined;
 ```
+
+/// html | div.result
+//// define
+`volume`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

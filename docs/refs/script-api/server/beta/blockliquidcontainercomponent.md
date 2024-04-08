@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLiquidContainerComponent`类，扩展自`BlockComponent`。
+`BlockLiquidContainerComponent`类，扩展自`[`BlockComponent`](./blockcomponent.md)`。
 
 ## 属性
 
@@ -15,6 +15,17 @@
 ```js
 fillLevel: int32;
 ```
+
+/// html | div.result
+//// define
+`fillLevel`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

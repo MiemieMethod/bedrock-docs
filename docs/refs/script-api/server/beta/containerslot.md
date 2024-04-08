@@ -16,6 +16,17 @@
 amount: int32;
 ```
 
+/// html | div.result
+//// define
+`amount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isStackable`
@@ -26,6 +37,17 @@ amount: int32;
 ```js
 read-only isStackable: boolean;
 ```
+
+/// html | div.result
+//// define
+`isStackable`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only isStackable: boolean;
 keepOnDeath: boolean;
 ```
 
+/// html | div.result
+//// define
+`keepOnDeath`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `lockMode`
@@ -48,6 +81,17 @@ keepOnDeath: boolean;
 ```js
 lockMode: ItemLockMode;
 ```
+
+/// html | div.result
+//// define
+`lockMode`：[`ItemLockMode`](./itemlockmode.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ lockMode: ItemLockMode;
 read-only maxAmount: int32;
 ```
 
+/// html | div.result
+//// define
+`maxAmount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `nameTag`
@@ -70,6 +125,17 @@ read-only maxAmount: int32;
 ```js
 nameTag: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`nameTag`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ nameTag: string | undefined;
 read-only type: ItemType;
 ```
 
+/// html | div.result
+//// define
+`type`：[`ItemType`](./itemtype.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `typeId`
@@ -92,6 +169,17 @@ read-only type: ItemType;
 ```js
 read-only typeId: string;
 ```
+
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

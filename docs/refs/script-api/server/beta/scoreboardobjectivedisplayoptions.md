@@ -16,6 +16,17 @@
 objective: ScoreboardObjective;
 ```
 
+/// html | div.result
+//// define
+`objective`：[`ScoreboardObjective`](./scoreboardobjective.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `sortOrder`
@@ -26,4 +37,15 @@ objective: ScoreboardObjective;
 ```js
 sortOrder: ObjectiveSortOrder | undefined;
 ```
+
+/// html | div.result
+//// define
+`sortOrder`：[`ObjectiveSortOrder`](./objectivesortorder.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

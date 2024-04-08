@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockVolume`类，扩展自`BlockVolumeBase`。
+`BlockVolume`类，扩展自`[`BlockVolumeBase`](./blockvolumebase.md)`。
 
 ## 属性
 
@@ -16,6 +16,17 @@
 from: Vector3;
 ```
 
+/// html | div.result
+//// define
+`from`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `to`
@@ -26,6 +37,17 @@ from: Vector3;
 ```js
 to: Vector3;
 ```
+
+/// html | div.result
+//// define
+`to`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

@@ -16,6 +16,17 @@
 eventName: string;
 ```
 
+/// html | div.result
+//// define
+`eventName`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 ## 方法
 

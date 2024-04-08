@@ -16,6 +16,17 @@
 read-only playerId: string;
 ```
 
+/// html | div.result
+//// define
+`playerId`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playerName`
@@ -26,4 +37,15 @@ read-only playerId: string;
 ```js
 read-only playerName: string;
 ```
+
+/// html | div.result
+//// define
+`playerName`：`string`
+
+- 属性。
+
+
+////
+
+///
 

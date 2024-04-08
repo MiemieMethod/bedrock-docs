@@ -16,6 +16,17 @@
 read-only dimension: Dimension;
 ```
 
+/// html | div.result
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `source`
@@ -26,6 +37,17 @@ read-only dimension: Dimension;
 ```js
 read-only source: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`source`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

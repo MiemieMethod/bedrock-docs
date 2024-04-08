@@ -16,6 +16,17 @@
 rawtext: RawMessage[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`rawtext`：<code><a href="../rawmessage/">RawMessage</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `score`
@@ -26,6 +37,17 @@ rawtext: RawMessage[] | undefined;
 ```js
 score: RawMessageScore | undefined;
 ```
+
+/// html | div.result
+//// define
+`score`：[`RawMessageScore`](./rawmessagescore.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ score: RawMessageScore | undefined;
 text: string | undefined;
 ```
 
+/// html | div.result
+//// define
+`text`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `translate`
@@ -49,6 +82,17 @@ text: string | undefined;
 translate: string | undefined;
 ```
 
+/// html | div.result
+//// define
+`translate`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `with`
@@ -59,4 +103,15 @@ translate: string | undefined;
 ```js
 with: string[] | RawMessage | undefined;
 ```
+
+/// html | div.result
+//// define
+`with`：`string[]`|[`RawMessage`](./rawmessage.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

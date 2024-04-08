@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Player`类，扩展自`Entity`。
+`Player`类，扩展自`[`Entity`](./entity.md)`。
 
 ## 属性
 
@@ -16,6 +16,17 @@
 read-only camera: Camera;
 ```
 
+/// html | div.result
+//// define
+`camera`：[`Camera`](./camera.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `inputPermissions`
@@ -26,6 +37,17 @@ read-only camera: Camera;
 ```js
 read-only inputPermissions: PlayerInputPermissions;
 ```
+
+/// html | div.result
+//// define
+`inputPermissions`：[`PlayerInputPermissions`](./playerinputpermissions.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only inputPermissions: PlayerInputPermissions;
 read-only isEmoting: boolean;
 ```
 
+/// html | div.result
+//// define
+`isEmoting`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isFlying`
@@ -48,6 +81,17 @@ read-only isEmoting: boolean;
 ```js
 read-only isFlying: boolean;
 ```
+
+/// html | div.result
+//// define
+`isFlying`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ read-only isFlying: boolean;
 read-only isGliding: boolean;
 ```
 
+/// html | div.result
+//// define
+`isGliding`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isJumping`
@@ -70,6 +125,17 @@ read-only isGliding: boolean;
 ```js
 read-only isJumping: boolean;
 ```
+
+/// html | div.result
+//// define
+`isJumping`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ read-only isJumping: boolean;
 read-only level: int32;
 ```
 
+/// html | div.result
+//// define
+`level`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `name`
@@ -92,6 +169,17 @@ read-only level: int32;
 ```js
 read-only name: string;
 ```
+
+/// html | div.result
+//// define
+`name`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -104,6 +192,17 @@ read-only name: string;
 read-only onScreenDisplay: ScreenDisplay;
 ```
 
+/// html | div.result
+//// define
+`onScreenDisplay`：[`ScreenDisplay`](./screendisplay.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `selectedSlot`
@@ -114,6 +213,17 @@ read-only onScreenDisplay: ScreenDisplay;
 ```js
 selectedSlot: int32;
 ```
+
+/// html | div.result
+//// define
+`selectedSlot`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -126,6 +236,17 @@ selectedSlot: int32;
 read-only totalXpNeededForNextLevel: int32;
 ```
 
+/// html | div.result
+//// define
+`totalXpNeededForNextLevel`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `xpEarnedAtCurrentLevel`
@@ -136,6 +257,17 @@ read-only totalXpNeededForNextLevel: int32;
 ```js
 read-only xpEarnedAtCurrentLevel: int32;
 ```
+
+/// html | div.result
+//// define
+`xpEarnedAtCurrentLevel`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

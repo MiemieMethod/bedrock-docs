@@ -16,6 +16,17 @@
 read-only displayName: string;
 ```
 
+/// html | div.result
+//// define
+`displayName`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `id`
@@ -26,6 +37,17 @@ read-only displayName: string;
 ```js
 read-only id: string;
 ```
+
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

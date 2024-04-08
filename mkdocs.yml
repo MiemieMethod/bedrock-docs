@@ -431,7 +431,6 @@ nav:
     - refs/index.md
     - 脚本API:
       - refs/script-api/index.md
-      - 命令版本: refs/commands/version.md
       - <code>@minecraft/server</code>:
         - <code>1.12.0-beta</code>:
           - 类:

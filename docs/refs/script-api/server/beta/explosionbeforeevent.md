@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExplosionBeforeEvent`类，扩展自`ExplosionAfterEvent`。
+`ExplosionBeforeEvent`类，扩展自`[`ExplosionAfterEvent`](./explosionafterevent.md)`。
 
 ## 属性
 
@@ -15,6 +15,17 @@
 ```js
 cancel: boolean;
 ```
+
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

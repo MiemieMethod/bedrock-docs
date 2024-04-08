@@ -16,6 +16,17 @@
 pitch: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`pitch`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `volume`
@@ -26,4 +37,15 @@ pitch: float | undefined;
 ```js
 volume: float | undefined;
 ```
+
+/// html | div.result
+//// define
+`volume`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

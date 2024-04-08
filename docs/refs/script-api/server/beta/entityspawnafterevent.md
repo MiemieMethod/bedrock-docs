@@ -16,6 +16,17 @@
 read-only cause: EntityInitializationCause;
 ```
 
+/// html | div.result
+//// define
+`cause`：[`EntityInitializationCause`](./entityinitializationcause.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `entity`
@@ -26,4 +37,15 @@ read-only cause: EntityInitializationCause;
 ```js
 entity: Entity;
 ```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

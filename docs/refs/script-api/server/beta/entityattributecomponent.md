@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAttributeComponent`类，扩展自`EntityComponent`。
+`EntityAttributeComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 属性
 
@@ -16,6 +16,17 @@
 read-only currentValue: float;
 ```
 
+/// html | div.result
+//// define
+`currentValue`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `defaultValue`
@@ -26,6 +37,17 @@ read-only currentValue: float;
 ```js
 read-only defaultValue: float;
 ```
+
+/// html | div.result
+//// define
+`defaultValue`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only defaultValue: float;
 read-only effectiveMax: float;
 ```
 
+/// html | div.result
+//// define
+`effectiveMax`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `effectiveMin`
@@ -48,6 +81,17 @@ read-only effectiveMax: float;
 ```js
 read-only effectiveMin: float;
 ```
+
+/// html | div.result
+//// define
+`effectiveMin`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

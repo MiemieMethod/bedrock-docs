@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityBreathableComponent`类，扩展自`EntityComponent`。
+`EntityBreathableComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -29,6 +29,17 @@ static read-only componentId = "minecraft:breathable";
 read-only breathesAir: boolean;
 ```
 
+/// html | div.result
+//// define
+`breathesAir`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `breathesLava`
@@ -39,6 +50,17 @@ read-only breathesAir: boolean;
 ```js
 read-only breathesLava: boolean;
 ```
+
+/// html | div.result
+//// define
+`breathesLava`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -51,6 +73,17 @@ read-only breathesLava: boolean;
 read-only breathesSolids: boolean;
 ```
 
+/// html | div.result
+//// define
+`breathesSolids`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `breathesWater`
@@ -61,6 +94,17 @@ read-only breathesSolids: boolean;
 ```js
 read-only breathesWater: boolean;
 ```
+
+/// html | div.result
+//// define
+`breathesWater`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -73,6 +117,17 @@ read-only breathesWater: boolean;
 read-only generatesBubbles: boolean;
 ```
 
+/// html | div.result
+//// define
+`generatesBubbles`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `inhaleTime`
@@ -83,6 +138,17 @@ read-only generatesBubbles: boolean;
 ```js
 read-only inhaleTime: float;
 ```
+
+/// html | div.result
+//// define
+`inhaleTime`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -95,6 +161,17 @@ read-only inhaleTime: float;
 read-only suffocateTime: int32;
 ```
 
+/// html | div.result
+//// define
+`suffocateTime`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `totalSupply`
@@ -105,6 +182,17 @@ read-only suffocateTime: int32;
 ```js
 read-only totalSupply: int32;
 ```
+
+/// html | div.result
+//// define
+`totalSupply`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

@@ -16,3 +16,14 @@
 entity: Entity | undefined;
 ```
 
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+

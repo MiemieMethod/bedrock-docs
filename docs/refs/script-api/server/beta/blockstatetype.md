@@ -16,6 +16,17 @@
 read-only id: string;
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `validValues`
@@ -26,4 +37,15 @@ read-only id: string;
 ```js
 read-only validValues: boolean | int32 | string[];
 ```
+
+/// html | div.result
+//// define
+`validValues`：`boolean | int32 | string[]`
+
+- 属性。
+
+
+////
+
+///
 

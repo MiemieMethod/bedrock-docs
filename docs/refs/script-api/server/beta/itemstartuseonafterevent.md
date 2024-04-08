@@ -16,6 +16,17 @@
 read-only block: Block;
 ```
 
+/// html | div.result
+//// define
+`block`：[`Block`](./block.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `blockFace`
@@ -26,6 +37,17 @@ read-only block: Block;
 ```js
 read-only blockFace: Direction;
 ```
+
+/// html | div.result
+//// define
+`blockFace`：[`Direction`](./direction.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only blockFace: Direction;
 read-only itemStack: ItemStack | undefined;
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `source`
@@ -48,4 +81,15 @@ read-only itemStack: ItemStack | undefined;
 ```js
 read-only source: Player;
 ```
+
+/// html | div.result
+//// define
+`source`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
 

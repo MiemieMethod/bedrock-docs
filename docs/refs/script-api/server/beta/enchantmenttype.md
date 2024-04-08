@@ -16,6 +16,17 @@
 read-only id: string;
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `maxLevel`
@@ -26,6 +37,17 @@ read-only id: string;
 ```js
 read-only maxLevel: int32;
 ```
+
+/// html | div.result
+//// define
+`maxLevel`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

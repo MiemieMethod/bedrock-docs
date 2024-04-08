@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntitySkinIdComponent`类，扩展自`EntityComponent`。
+`EntitySkinIdComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,4 +28,15 @@ static read-only componentId = "minecraft:skin_id";
 ```js
 value: int32;
 ```
+
+/// html | div.result
+//// define
+`value`：`int32`
+
+- 属性。
+
+
+////
+
+///
 

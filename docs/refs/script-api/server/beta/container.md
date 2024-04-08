@@ -16,6 +16,17 @@
 read-only emptySlotsCount: int32;
 ```
 
+/// html | div.result
+//// define
+`emptySlotsCount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `size`
@@ -26,6 +37,17 @@ read-only emptySlotsCount: int32;
 ```js
 read-only size: int32;
 ```
+
+/// html | div.result
+//// define
+`size`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

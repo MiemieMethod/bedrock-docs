@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockSnowContainerComponent`类，扩展自`BlockLiquidContainerComponent`。
+`BlockSnowContainerComponent`类，扩展自`[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)`。
 
 ## 常量
 

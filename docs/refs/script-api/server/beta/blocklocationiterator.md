@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLocationIterator`类，实现了`Iterator<Vector3>`。
+`BlockLocationIterator`类，实现了<code>Iterator&lt;<a href="../optional/">Vector3</a>&gt;</code>。
 
 ## 方法
 

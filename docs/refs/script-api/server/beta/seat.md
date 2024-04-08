@@ -16,6 +16,17 @@
 read-only lockRiderRotation: float;
 ```
 
+/// html | div.result
+//// define
+`lockRiderRotation`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `maxRiderCount`
@@ -26,6 +37,17 @@ read-only lockRiderRotation: float;
 ```js
 read-only maxRiderCount: int32;
 ```
+
+/// html | div.result
+//// define
+`maxRiderCount`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only maxRiderCount: int32;
 read-only minRiderCount: int32;
 ```
 
+/// html | div.result
+//// define
+`minRiderCount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `position`
@@ -49,6 +82,17 @@ read-only minRiderCount: int32;
 read-only position: Vector3;
 ```
 
+/// html | div.result
+//// define
+`position`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `seatRotation`
@@ -59,4 +103,15 @@ read-only position: Vector3;
 ```js
 read-only seatRotation: float;
 ```
+
+/// html | div.result
+//// define
+`seatRotation`：`float`
+
+- 属性。
+
+
+////
+
+///
 

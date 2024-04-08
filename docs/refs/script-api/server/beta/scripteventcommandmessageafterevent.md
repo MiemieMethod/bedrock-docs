@@ -16,6 +16,17 @@
 read-only id: string;
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `initiator`
@@ -26,6 +37,17 @@ read-only id: string;
 ```js
 read-only initiator: Entity | undefined;
 ```
+
+/// html | div.result
+//// define
+`initiator`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only initiator: Entity | undefined;
 read-only message: string;
 ```
 
+/// html | div.result
+//// define
+`message`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `sourceBlock`
@@ -48,6 +81,17 @@ read-only message: string;
 ```js
 read-only sourceBlock: Block | undefined;
 ```
+
+/// html | div.result
+//// define
+`sourceBlock`：[`Block`](./block.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ read-only sourceBlock: Block | undefined;
 read-only sourceEntity: Entity | undefined;
 ```
 
+/// html | div.result
+//// define
+`sourceEntity`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `sourceType`
@@ -70,4 +125,15 @@ read-only sourceEntity: Entity | undefined;
 ```js
 read-only sourceType: ScriptEventSource;
 ```
+
+/// html | div.result
+//// define
+`sourceType`：[`ScriptEventSource`](./scripteventsource.md)
+
+- 属性。
+
+
+////
+
+///
 

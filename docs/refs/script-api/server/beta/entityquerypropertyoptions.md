@@ -16,6 +16,17 @@
 exclude: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`exclude`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `propertyId`
@@ -27,6 +38,17 @@ exclude: boolean | undefined;
 propertyId: string;
 ```
 
+/// html | div.result
+//// define
+`propertyId`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `value`
@@ -37,4 +59,15 @@ propertyId: string;
 ```js
 value: boolean | string | EqualsComparison | GreaterThanComparison | GreaterThanOrEqualsComparison | LessThanComparison | LessThanOrEqualsComparison | NotEqualsComparison | RangeComparison | undefined;
 ```
+
+/// html | div.result
+//// define
+`value`：`boolean`|`string`|[`EqualsComparison`](./equalscomparison.md)|[`GreaterThanComparison`](./greaterthancomparison.md)|[`GreaterThanOrEqualsComparison`](./greaterthanorequalscomparison.md)|[`LessThanComparison`](./lessthancomparison.md)|[`LessThanOrEqualsComparison`](./lessthanorequalscomparison.md)|[`NotEqualsComparison`](./notequalscomparison.md)|[`RangeComparison`](./rangecomparison.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

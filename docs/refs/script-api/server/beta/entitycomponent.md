@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityComponent`类，扩展自`Component`。
+`EntityComponent`类，扩展自`[`Component`](./component.md)`。
 
 ## 属性
 
@@ -15,4 +15,15 @@
 ```js
 read-only entity: Entity;
 ```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

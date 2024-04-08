@@ -16,6 +16,17 @@
 read-only block: Block;
 ```
 
+/// html | div.result
+//// define
+`block`：[`Block`](./block.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `blockFace`
@@ -26,6 +37,17 @@ read-only block: Block;
 ```js
 read-only blockFace: Direction;
 ```
+
+/// html | div.result
+//// define
+`blockFace`：[`Direction`](./direction.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only blockFace: Direction;
 read-only faceLocation: Vector3;
 ```
 
+/// html | div.result
+//// define
+`faceLocation`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `itemStack`
@@ -49,6 +82,17 @@ read-only faceLocation: Vector3;
 read-only itemStack: ItemStack | undefined;
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `player`
@@ -59,4 +103,15 @@ read-only itemStack: ItemStack | undefined;
 ```js
 read-only player: Player;
 ```
+
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
 

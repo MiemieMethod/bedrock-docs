@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTameableComponent`类，扩展自`EntityComponent`。
+`EntityTameableComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,6 +28,17 @@ static read-only componentId = "minecraft:tameable";
 ```js
 read-only probability: float;
 ```
+
+/// html | div.result
+//// define
+`probability`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

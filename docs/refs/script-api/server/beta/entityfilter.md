@@ -16,6 +16,17 @@
 excludeFamilies: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`excludeFamilies`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `excludeGameModes`
@@ -26,6 +37,17 @@ excludeFamilies: string[] | undefined;
 ```js
 excludeGameModes: GameMode[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`excludeGameModes`：<code><a href="../gamemode/">GameMode</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ excludeGameModes: GameMode[] | undefined;
 excludeNames: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`excludeNames`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `excludeTags`
@@ -48,6 +81,17 @@ excludeNames: string[] | undefined;
 ```js
 excludeTags: string[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`excludeTags`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ excludeTags: string[] | undefined;
 excludeTypes: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`excludeTypes`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `families`
@@ -70,6 +125,17 @@ excludeTypes: string[] | undefined;
 ```js
 families: string[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`families`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ families: string[] | undefined;
 gameMode: GameMode | undefined;
 ```
 
+/// html | div.result
+//// define
+`gameMode`：[`GameMode`](./gamemode.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `maxHorizontalRotation`
@@ -92,6 +169,17 @@ gameMode: GameMode | undefined;
 ```js
 maxHorizontalRotation: float | undefined;
 ```
+
+/// html | div.result
+//// define
+`maxHorizontalRotation`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -104,6 +192,17 @@ maxHorizontalRotation: float | undefined;
 maxLevel: int32 | undefined;
 ```
 
+/// html | div.result
+//// define
+`maxLevel`：`int32`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `maxVerticalRotation`
@@ -114,6 +213,17 @@ maxLevel: int32 | undefined;
 ```js
 maxVerticalRotation: float | undefined;
 ```
+
+/// html | div.result
+//// define
+`maxVerticalRotation`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -126,6 +236,17 @@ maxVerticalRotation: float | undefined;
 minHorizontalRotation: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`minHorizontalRotation`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `minLevel`
@@ -136,6 +257,17 @@ minHorizontalRotation: float | undefined;
 ```js
 minLevel: int32 | undefined;
 ```
+
+/// html | div.result
+//// define
+`minLevel`：`int32`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -148,6 +280,17 @@ minLevel: int32 | undefined;
 minVerticalRotation: float | undefined;
 ```
 
+/// html | div.result
+//// define
+`minVerticalRotation`：`float`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `name`
@@ -158,6 +301,17 @@ minVerticalRotation: float | undefined;
 ```js
 name: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`name`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -170,6 +324,17 @@ name: string | undefined;
 propertyOptions: EntityQueryPropertyOptions[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`propertyOptions`：<code><a href="../entityquerypropertyoptions/">EntityQueryPropertyOptions</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `scoreOptions`
@@ -180,6 +345,17 @@ propertyOptions: EntityQueryPropertyOptions[] | undefined;
 ```js
 scoreOptions: EntityQueryScoreOptions[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`scoreOptions`：<code><a href="../entityqueryscoreoptions/">EntityQueryScoreOptions</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -192,6 +368,17 @@ scoreOptions: EntityQueryScoreOptions[] | undefined;
 tags: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`tags`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `type`
@@ -202,4 +389,15 @@ tags: string[] | undefined;
 ```js
 type: string | undefined;
 ```
+
+/// html | div.result
+//// define
+`type`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

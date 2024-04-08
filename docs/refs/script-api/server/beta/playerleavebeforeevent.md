@@ -16,3 +16,14 @@
 read-only player: Player;
 ```
 
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
+

@@ -16,3 +16,14 @@
 initialPersistence: boolean | undefined;
 ```
 
+/// html | div.result
+//// define
+`initialPersistence`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+

@@ -16,6 +16,17 @@
 fadeColor: RGB | undefined;
 ```
 
+/// html | div.result
+//// define
+`fadeColor`：[`RGB`](./rgb.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `fadeTime`
@@ -26,4 +37,15 @@ fadeColor: RGB | undefined;
 ```js
 fadeTime: CameraFadeTimeOptions | undefined;
 ```
+
+/// html | div.result
+//// define
+`fadeTime`：[`CameraFadeTimeOptions`](./camerafadetimeoptions.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

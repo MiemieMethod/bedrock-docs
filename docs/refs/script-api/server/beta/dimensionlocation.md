@@ -16,6 +16,17 @@
 dimension: Dimension;
 ```
 
+/// html | div.result
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `x`
@@ -26,6 +37,17 @@ dimension: Dimension;
 ```js
 x: float;
 ```
+
+/// html | div.result
+//// define
+`x`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ x: float;
 y: float;
 ```
 
+/// html | div.result
+//// define
+`y`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `z`
@@ -48,4 +81,15 @@ y: float;
 ```js
 z: float;
 ```
+
+/// html | div.result
+//// define
+`z`：`float`
+
+- 属性。
+
+
+////
+
+///
 

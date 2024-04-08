@@ -16,6 +16,17 @@
 read-only dimension: string;
 ```
 
+/// html | div.result
+//// define
+`dimension`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `newWeather`
@@ -27,6 +38,17 @@ read-only dimension: string;
 read-only newWeather: WeatherType;
 ```
 
+/// html | div.result
+//// define
+`newWeather`：[`WeatherType`](./weathertype.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `previousWeather`
@@ -37,4 +59,15 @@ read-only newWeather: WeatherType;
 ```js
 read-only previousWeather: WeatherType;
 ```
+
+/// html | div.result
+//// define
+`previousWeather`：[`WeatherType`](./weathertype.md)
+
+- 属性。
+
+
+////
+
+///
 

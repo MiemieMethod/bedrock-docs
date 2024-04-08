@@ -16,3 +16,14 @@
 notEquals: boolean | float | string;
 ```
 
+/// html | div.result
+//// define
+`notEquals`：`boolean`|`float`|`string`
+
+- 属性。
+
+
+////
+
+///
+

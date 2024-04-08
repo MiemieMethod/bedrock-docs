@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityPushThroughComponent`类，扩展自`EntityComponent`。
+`EntityPushThroughComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,4 +28,15 @@ static read-only componentId = "minecraft:push_through";
 ```js
 value: float;
 ```
+
+/// html | div.result
+//// define
+`value`：`float`
+
+- 属性。
+
+
+////
+
+///
 

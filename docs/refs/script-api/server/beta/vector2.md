@@ -16,6 +16,17 @@
 x: float;
 ```
 
+/// html | div.result
+//// define
+`x`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `y`
@@ -26,4 +37,15 @@ x: float;
 ```js
 y: float;
 ```
+
+/// html | div.result
+//// define
+`y`：`float`
+
+- 属性。
+
+
+////
+
+///
 

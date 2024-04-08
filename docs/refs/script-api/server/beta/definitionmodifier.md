@@ -16,6 +16,17 @@
 addedComponentGroups: string[];
 ```
 
+/// html | div.result
+//// define
+`addedComponentGroups`：`string[]`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `removedComponentGroups`
@@ -27,6 +38,17 @@ addedComponentGroups: string[];
 removedComponentGroups: string[];
 ```
 
+/// html | div.result
+//// define
+`removedComponentGroups`：`string[]`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `triggers`
@@ -37,4 +59,15 @@ removedComponentGroups: string[];
 ```js
 triggers: Trigger[];
 ```
+
+/// html | div.result
+//// define
+`triggers`：<code><a href="../trigger/">Trigger</a>[]</code>
+
+- 属性。
+
+
+////
+
+///
 

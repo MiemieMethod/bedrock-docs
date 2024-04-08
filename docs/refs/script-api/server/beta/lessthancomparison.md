@@ -16,3 +16,14 @@
 lessThan: float;
 ```
 
+/// html | div.result
+//// define
+`lessThan`：`float`
+
+- 属性。
+
+
+////
+
+///
+

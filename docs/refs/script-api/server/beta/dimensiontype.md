@@ -16,3 +16,14 @@
 read-only typeId: string;
 ```
 
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- 属性。
+
+
+////
+
+///
+

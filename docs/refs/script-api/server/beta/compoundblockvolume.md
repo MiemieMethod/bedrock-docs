@@ -16,6 +16,17 @@
 read-only capacity: uint64;
 ```
 
+/// html | div.result
+//// define
+`capacity`：`uint64`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `volumeCount`
@@ -26,6 +37,17 @@ read-only capacity: uint64;
 ```js
 read-only volumeCount: uint64;
 ```
+
+/// html | div.result
+//// define
+`volumeCount`：`uint64`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

@@ -16,6 +16,17 @@
 commandBlockOutput: boolean;
 ```
 
+/// html | div.result
+//// define
+`commandBlockOutput`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `commandBlocksEnabled`
@@ -26,6 +37,17 @@ commandBlockOutput: boolean;
 ```js
 commandBlocksEnabled: boolean;
 ```
+
+/// html | div.result
+//// define
+`commandBlocksEnabled`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ commandBlocksEnabled: boolean;
 doDayLightCycle: boolean;
 ```
 
+/// html | div.result
+//// define
+`doDayLightCycle`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `doEntityDrops`
@@ -48,6 +81,17 @@ doDayLightCycle: boolean;
 ```js
 doEntityDrops: boolean;
 ```
+
+/// html | div.result
+//// define
+`doEntityDrops`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ doEntityDrops: boolean;
 doFireTick: boolean;
 ```
 
+/// html | div.result
+//// define
+`doFireTick`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `doImmediateRespawn`
@@ -70,6 +125,17 @@ doFireTick: boolean;
 ```js
 doImmediateRespawn: boolean;
 ```
+
+/// html | div.result
+//// define
+`doImmediateRespawn`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ doImmediateRespawn: boolean;
 doInsomnia: boolean;
 ```
 
+/// html | div.result
+//// define
+`doInsomnia`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `doLimitedCrafting`
@@ -92,6 +169,17 @@ doInsomnia: boolean;
 ```js
 doLimitedCrafting: boolean;
 ```
+
+/// html | div.result
+//// define
+`doLimitedCrafting`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -104,6 +192,17 @@ doLimitedCrafting: boolean;
 doMobLoot: boolean;
 ```
 
+/// html | div.result
+//// define
+`doMobLoot`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `doMobSpawning`
@@ -114,6 +213,17 @@ doMobLoot: boolean;
 ```js
 doMobSpawning: boolean;
 ```
+
+/// html | div.result
+//// define
+`doMobSpawning`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -126,6 +236,17 @@ doMobSpawning: boolean;
 doTileDrops: boolean;
 ```
 
+/// html | div.result
+//// define
+`doTileDrops`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `doWeatherCycle`
@@ -136,6 +257,17 @@ doTileDrops: boolean;
 ```js
 doWeatherCycle: boolean;
 ```
+
+/// html | div.result
+//// define
+`doWeatherCycle`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -148,6 +280,17 @@ doWeatherCycle: boolean;
 drowningDamage: boolean;
 ```
 
+/// html | div.result
+//// define
+`drowningDamage`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `fallDamage`
@@ -158,6 +301,17 @@ drowningDamage: boolean;
 ```js
 fallDamage: boolean;
 ```
+
+/// html | div.result
+//// define
+`fallDamage`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -170,6 +324,17 @@ fallDamage: boolean;
 fireDamage: boolean;
 ```
 
+/// html | div.result
+//// define
+`fireDamage`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `freezeDamage`
@@ -180,6 +345,17 @@ fireDamage: boolean;
 ```js
 freezeDamage: boolean;
 ```
+
+/// html | div.result
+//// define
+`freezeDamage`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -192,6 +368,17 @@ freezeDamage: boolean;
 functionCommandLimit: int32;
 ```
 
+/// html | div.result
+//// define
+`functionCommandLimit`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `keepInventory`
@@ -202,6 +389,17 @@ functionCommandLimit: int32;
 ```js
 keepInventory: boolean;
 ```
+
+/// html | div.result
+//// define
+`keepInventory`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -214,6 +412,17 @@ keepInventory: boolean;
 maxCommandChainLength: int32;
 ```
 
+/// html | div.result
+//// define
+`maxCommandChainLength`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `mobGriefing`
@@ -224,6 +433,17 @@ maxCommandChainLength: int32;
 ```js
 mobGriefing: boolean;
 ```
+
+/// html | div.result
+//// define
+`mobGriefing`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -236,6 +456,17 @@ mobGriefing: boolean;
 naturalRegeneration: boolean;
 ```
 
+/// html | div.result
+//// define
+`naturalRegeneration`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `playersSleepingPercentage`
@@ -246,6 +477,17 @@ naturalRegeneration: boolean;
 ```js
 playersSleepingPercentage: int32;
 ```
+
+/// html | div.result
+//// define
+`playersSleepingPercentage`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -258,6 +500,17 @@ playersSleepingPercentage: int32;
 projectilesCanBreakBlocks: boolean;
 ```
 
+/// html | div.result
+//// define
+`projectilesCanBreakBlocks`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `pvp`
@@ -268,6 +521,17 @@ projectilesCanBreakBlocks: boolean;
 ```js
 pvp: boolean;
 ```
+
+/// html | div.result
+//// define
+`pvp`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -280,6 +544,17 @@ pvp: boolean;
 randomTickSpeed: int32;
 ```
 
+/// html | div.result
+//// define
+`randomTickSpeed`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `recipesUnlock`
@@ -290,6 +565,17 @@ randomTickSpeed: int32;
 ```js
 recipesUnlock: boolean;
 ```
+
+/// html | div.result
+//// define
+`recipesUnlock`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -302,6 +588,17 @@ recipesUnlock: boolean;
 respawnBlocksExplode: boolean;
 ```
 
+/// html | div.result
+//// define
+`respawnBlocksExplode`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `sendCommandFeedback`
@@ -312,6 +609,17 @@ respawnBlocksExplode: boolean;
 ```js
 sendCommandFeedback: boolean;
 ```
+
+/// html | div.result
+//// define
+`sendCommandFeedback`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -324,6 +632,17 @@ sendCommandFeedback: boolean;
 showBorderEffect: boolean;
 ```
 
+/// html | div.result
+//// define
+`showBorderEffect`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `showCoordinates`
@@ -334,6 +653,17 @@ showBorderEffect: boolean;
 ```js
 showCoordinates: boolean;
 ```
+
+/// html | div.result
+//// define
+`showCoordinates`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -346,6 +676,17 @@ showCoordinates: boolean;
 showDeathMessages: boolean;
 ```
 
+/// html | div.result
+//// define
+`showDeathMessages`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `showRecipeMessages`
@@ -356,6 +697,17 @@ showDeathMessages: boolean;
 ```js
 showRecipeMessages: boolean;
 ```
+
+/// html | div.result
+//// define
+`showRecipeMessages`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -368,6 +720,17 @@ showRecipeMessages: boolean;
 showTags: boolean;
 ```
 
+/// html | div.result
+//// define
+`showTags`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `spawnRadius`
@@ -378,6 +741,17 @@ showTags: boolean;
 ```js
 spawnRadius: int32;
 ```
+
+/// html | div.result
+//// define
+`spawnRadius`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -390,6 +764,17 @@ spawnRadius: int32;
 tntExplodes: boolean;
 ```
 
+/// html | div.result
+//// define
+`tntExplodes`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `tntExplosionDropDecay`
@@ -400,4 +785,15 @@ tntExplodes: boolean;
 ```js
 tntExplosionDropDecay: boolean;
 ```
+
+/// html | div.result
+//// define
+`tntExplosionDropDecay`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 

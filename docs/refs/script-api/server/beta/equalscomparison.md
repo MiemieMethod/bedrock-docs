@@ -16,3 +16,14 @@
 equals: boolean | float | string;
 ```
 
+/// html | div.result
+//// define
+`equals`：`boolean`|`float`|`string`
+
+- 属性。
+
+
+////
+
+///
+

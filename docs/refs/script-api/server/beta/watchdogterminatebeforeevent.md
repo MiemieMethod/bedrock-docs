@@ -16,6 +16,17 @@
 cancel: boolean;
 ```
 
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `terminateReason`
@@ -26,4 +37,15 @@ cancel: boolean;
 ```js
 read-only terminateReason: WatchdogTerminateReason;
 ```
+
+/// html | div.result
+//// define
+`terminateReason`：[`WatchdogTerminateReason`](./watchdogterminatereason.md)
+
+- 属性。
+
+
+////
+
+///
 

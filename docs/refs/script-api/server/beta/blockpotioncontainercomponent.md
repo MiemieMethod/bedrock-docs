@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPotionContainerComponent`类，扩展自`BlockLiquidContainerComponent`。
+`BlockPotionContainerComponent`类，扩展自`[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)`。
 
 ## 常量
 

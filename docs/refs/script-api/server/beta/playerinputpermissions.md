@@ -16,6 +16,17 @@
 cameraEnabled: boolean;
 ```
 
+/// html | div.result
+//// define
+`cameraEnabled`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `movementEnabled`
@@ -26,4 +37,15 @@ cameraEnabled: boolean;
 ```js
 movementEnabled: boolean;
 ```
+
+/// html | div.result
+//// define
+`movementEnabled`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 

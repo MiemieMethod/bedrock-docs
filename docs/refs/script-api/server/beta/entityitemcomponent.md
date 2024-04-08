@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityItemComponent`类，扩展自`EntityComponent`。
+`EntityItemComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,4 +28,15 @@ static read-only componentId = "minecraft:item";
 ```js
 read-only itemStack: ItemStack;
 ```
+
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)
+
+- 属性。
+
+
+////
+
+///
 

@@ -16,6 +16,17 @@
 fadeInDuration: int32;
 ```
 
+/// html | div.result
+//// define
+`fadeInDuration`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `fadeOutDuration`
@@ -26,6 +37,17 @@ fadeInDuration: int32;
 ```js
 fadeOutDuration: int32;
 ```
+
+/// html | div.result
+//// define
+`fadeOutDuration`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ fadeOutDuration: int32;
 stayDuration: int32;
 ```
 
+/// html | div.result
+//// define
+`stayDuration`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `subtitle`
@@ -48,4 +81,15 @@ stayDuration: int32;
 ```js
 subtitle: RawMessage | string[] | RawMessage | string | undefined;
 ```
+
+/// html | div.result
+//// define
+`subtitle`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

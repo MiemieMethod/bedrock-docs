@@ -16,3 +16,14 @@
 greaterThan: float;
 ```
 
+/// html | div.result
+//// define
+`greaterThan`：`float`
+
+- 属性。
+
+
+////
+
+///
+

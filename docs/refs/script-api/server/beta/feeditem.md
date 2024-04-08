@@ -16,6 +16,17 @@
 read-only healAmount: int32;
 ```
 
+/// html | div.result
+//// define
+`healAmount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `item`
@@ -26,6 +37,17 @@ read-only healAmount: int32;
 ```js
 read-only item: string;
 ```
+
+/// html | div.result
+//// define
+`item`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

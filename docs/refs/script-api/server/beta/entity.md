@@ -16,6 +16,17 @@
 read-only dimension: Dimension;
 ```
 
+/// html | div.result
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `fallDistance`
@@ -26,6 +37,17 @@ read-only dimension: Dimension;
 ```js
 read-only fallDistance: float;
 ```
+
+/// html | div.result
+//// define
+`fallDistance`：`float`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only fallDistance: float;
 read-only id: string;
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isClimbing`
@@ -48,6 +81,17 @@ read-only id: string;
 ```js
 read-only isClimbing: boolean;
 ```
+
+/// html | div.result
+//// define
+`isClimbing`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ read-only isClimbing: boolean;
 read-only isFalling: boolean;
 ```
 
+/// html | div.result
+//// define
+`isFalling`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isInWater`
@@ -70,6 +125,17 @@ read-only isFalling: boolean;
 ```js
 read-only isInWater: boolean;
 ```
+
+/// html | div.result
+//// define
+`isInWater`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ read-only isInWater: boolean;
 read-only isOnGround: boolean;
 ```
 
+/// html | div.result
+//// define
+`isOnGround`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isSleeping`
@@ -92,6 +169,17 @@ read-only isOnGround: boolean;
 ```js
 read-only isSleeping: boolean;
 ```
+
+/// html | div.result
+//// define
+`isSleeping`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -104,6 +192,17 @@ read-only isSleeping: boolean;
 isSneaking: boolean;
 ```
 
+/// html | div.result
+//// define
+`isSneaking`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isSprinting`
@@ -114,6 +213,17 @@ isSneaking: boolean;
 ```js
 read-only isSprinting: boolean;
 ```
+
+/// html | div.result
+//// define
+`isSprinting`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -126,6 +236,17 @@ read-only isSprinting: boolean;
 read-only isSwimming: boolean;
 ```
 
+/// html | div.result
+//// define
+`isSwimming`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `lifetimeState`
@@ -136,6 +257,17 @@ read-only isSwimming: boolean;
 ```js
 read-only lifetimeState: EntityLifetimeState;
 ```
+
+/// html | div.result
+//// define
+`lifetimeState`：[`EntityLifetimeState`](./entitylifetimestate.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -148,6 +280,17 @@ read-only lifetimeState: EntityLifetimeState;
 read-only location: Vector3;
 ```
 
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `nameTag`
@@ -158,6 +301,17 @@ read-only location: Vector3;
 ```js
 nameTag: string;
 ```
+
+/// html | div.result
+//// define
+`nameTag`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -170,6 +324,17 @@ nameTag: string;
 read-only scoreboardIdentity: ScoreboardIdentity | undefined;
 ```
 
+/// html | div.result
+//// define
+`scoreboardIdentity`：[`ScoreboardIdentity`](./scoreboardidentity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `target`
@@ -181,6 +346,17 @@ read-only scoreboardIdentity: ScoreboardIdentity | undefined;
 read-only target: Entity | undefined;
 ```
 
+/// html | div.result
+//// define
+`target`：[`Entity`](./entity.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `typeId`
@@ -191,6 +367,17 @@ read-only target: Entity | undefined;
 ```js
 read-only typeId: string;
 ```
+
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

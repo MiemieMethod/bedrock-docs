@@ -16,6 +16,17 @@
 amplifier: int32 | undefined;
 ```
 
+/// html | div.result
+//// define
+`amplifier`：`int32`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `showParticles`
@@ -26,4 +37,15 @@ amplifier: int32 | undefined;
 ```js
 showParticles: boolean | undefined;
 ```
+
+/// html | div.result
+//// define
+`showParticles`：`boolean`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

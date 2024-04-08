@@ -16,6 +16,17 @@
 excludePermutations: BlockPermutation[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`excludePermutations`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `excludeTags`
@@ -26,6 +37,17 @@ excludePermutations: BlockPermutation[] | undefined;
 ```js
 excludeTags: string[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`excludeTags`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ excludeTags: string[] | undefined;
 excludeTypes: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`excludeTypes`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `includePermutations`
@@ -48,6 +81,17 @@ excludeTypes: string[] | undefined;
 ```js
 includePermutations: BlockPermutation[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`includePermutations`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ includePermutations: BlockPermutation[] | undefined;
 includeTags: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`includeTags`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `includeTypes`
@@ -70,4 +125,15 @@ includeTags: string[] | undefined;
 ```js
 includeTypes: string[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`includeTypes`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

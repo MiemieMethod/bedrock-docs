@@ -16,6 +16,17 @@
 read-only removedEntityId: string;
 ```
 
+/// html | div.result
+//// define
+`removedEntityId`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `typeId`
@@ -26,4 +37,15 @@ read-only removedEntityId: string;
 ```js
 read-only typeId: string;
 ```
+
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- 属性。
+
+
+////
+
+///
 

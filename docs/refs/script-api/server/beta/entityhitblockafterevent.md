@@ -16,6 +16,17 @@
 read-only blockFace: Direction;
 ```
 
+/// html | div.result
+//// define
+`blockFace`：[`Direction`](./direction.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `damagingEntity`
@@ -26,6 +37,17 @@ read-only blockFace: Direction;
 ```js
 read-only damagingEntity: Entity;
 ```
+
+/// html | div.result
+//// define
+`damagingEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only damagingEntity: Entity;
 read-only hitBlock: Block;
 ```
 
+/// html | div.result
+//// define
+`hitBlock`：[`Block`](./block.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `hitBlockPermutation`
@@ -48,4 +81,15 @@ read-only hitBlock: Block;
 ```js
 read-only hitBlockPermutation: BlockPermutation;
 ```
+
+/// html | div.result
+//// define
+`hitBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
+
+- 属性。
+
+
+////
+
+///
 

@@ -16,6 +16,17 @@
 fadeInTime: float;
 ```
 
+/// html | div.result
+//// define
+`fadeInTime`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `fadeOutTime`
@@ -27,6 +38,17 @@ fadeInTime: float;
 fadeOutTime: float;
 ```
 
+/// html | div.result
+//// define
+`fadeOutTime`：`float`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `holdTime`
@@ -37,4 +59,15 @@ fadeOutTime: float;
 ```js
 holdTime: float;
 ```
+
+/// html | div.result
+//// define
+`holdTime`：`float`
+
+- 属性。
+
+
+////
+
+///
 

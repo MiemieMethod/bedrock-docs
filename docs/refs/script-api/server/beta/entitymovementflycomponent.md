@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementFlyComponent`类，扩展自`EntityBaseMovementComponent`。
+`EntityMovementFlyComponent`类，扩展自`[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)`。
 
 ## 常量
 

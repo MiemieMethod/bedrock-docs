@@ -16,6 +16,17 @@
 blockTypes: string[] | undefined;
 ```
 
+/// html | div.result
+//// define
+`blockTypes`：`string[]`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `permutations`
@@ -26,4 +37,15 @@ blockTypes: string[] | undefined;
 ```js
 permutations: BlockPermutation[] | undefined;
 ```
+
+/// html | div.result
+//// define
+`permutations`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

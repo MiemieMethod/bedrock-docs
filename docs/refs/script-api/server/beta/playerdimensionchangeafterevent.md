@@ -16,6 +16,17 @@
 read-only fromDimension: Dimension;
 ```
 
+/// html | div.result
+//// define
+`fromDimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `fromLocation`
@@ -26,6 +37,17 @@ read-only fromDimension: Dimension;
 ```js
 read-only fromLocation: Vector3;
 ```
+
+/// html | div.result
+//// define
+`fromLocation`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only fromLocation: Vector3;
 read-only player: Player;
 ```
 
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `toDimension`
@@ -49,6 +82,17 @@ read-only player: Player;
 read-only toDimension: Dimension;
 ```
 
+/// html | div.result
+//// define
+`toDimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `toLocation`
@@ -59,4 +103,15 @@ read-only toDimension: Dimension;
 ```js
 read-only toLocation: Vector3;
 ```
+
+/// html | div.result
+//// define
+`toLocation`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
 

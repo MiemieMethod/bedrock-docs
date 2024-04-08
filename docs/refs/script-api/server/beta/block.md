@@ -16,6 +16,17 @@
 read-only dimension: Dimension;
 ```
 
+/// html | div.result
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isAir`
@@ -26,6 +37,17 @@ read-only dimension: Dimension;
 ```js
 read-only isAir: boolean;
 ```
+
+/// html | div.result
+//// define
+`isAir`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only isAir: boolean;
 read-only isLiquid: boolean;
 ```
 
+/// html | div.result
+//// define
+`isLiquid`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `isSolid`
@@ -48,6 +81,17 @@ read-only isLiquid: boolean;
 ```js
 read-only isSolid: boolean;
 ```
+
+/// html | div.result
+//// define
+`isSolid`：`boolean`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +104,17 @@ read-only isSolid: boolean;
 read-only isWaterlogged: boolean;
 ```
 
+/// html | div.result
+//// define
+`isWaterlogged`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `location`
@@ -70,6 +125,17 @@ read-only isWaterlogged: boolean;
 ```js
 read-only location: Vector3;
 ```
+
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -82,6 +148,17 @@ read-only location: Vector3;
 read-only permutation: BlockPermutation;
 ```
 
+/// html | div.result
+//// define
+`permutation`：[`BlockPermutation`](./blockpermutation.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `type`
@@ -92,6 +169,17 @@ read-only permutation: BlockPermutation;
 ```js
 read-only type: BlockType;
 ```
+
+/// html | div.result
+//// define
+`type`：[`BlockType`](./blocktype.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -104,6 +192,17 @@ read-only type: BlockType;
 read-only typeId: string;
 ```
 
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `x`
@@ -114,6 +213,17 @@ read-only typeId: string;
 ```js
 read-only x: int32;
 ```
+
+/// html | div.result
+//// define
+`x`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -126,6 +236,17 @@ read-only x: int32;
 read-only y: int32;
 ```
 
+/// html | div.result
+//// define
+`y`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `z`
@@ -136,6 +257,17 @@ read-only y: int32;
 ```js
 read-only z: int32;
 ```
+
+/// html | div.result
+//// define
+`z`：`int32`
+
+- 属性。
+
+
+////
+
+///
 
 
 ## 方法

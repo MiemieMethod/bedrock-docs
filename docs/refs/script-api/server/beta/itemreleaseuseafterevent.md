@@ -16,6 +16,17 @@
 read-only itemStack: ItemStack | undefined;
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `source`
@@ -27,6 +38,17 @@ read-only itemStack: ItemStack | undefined;
 read-only source: Player;
 ```
 
+/// html | div.result
+//// define
+`source`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `useDuration`
@@ -37,4 +59,15 @@ read-only source: Player;
 ```js
 read-only useDuration: int32;
 ```
+
+/// html | div.result
+//// define
+`useDuration`：`int32`
+
+- 属性。
+
+
+////
+
+///
 

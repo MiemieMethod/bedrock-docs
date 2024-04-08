@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentPlayerPlaceBeforeEvent`类，扩展自`BlockEvent`。
+`BlockComponentPlayerPlaceBeforeEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
 
 ## 属性
 
@@ -16,6 +16,17 @@
 cancel: boolean;
 ```
 
+/// html | div.result
+//// define
+`cancel`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `face`
@@ -26,6 +37,17 @@ cancel: boolean;
 ```js
 read-only face: Direction;
 ```
+
+/// html | div.result
+//// define
+`face`：[`Direction`](./direction.md)
+
+- 属性。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +60,17 @@ read-only face: Direction;
 permutationToPlace: BlockPermutation;
 ```
 
+/// html | div.result
+//// define
+`permutationToPlace`：[`BlockPermutation`](./blockpermutation.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `player`
@@ -48,4 +81,15 @@ permutationToPlace: BlockPermutation;
 ```js
 read-only player: Player | undefined;
 ```
+
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)|`undefined`
+
+- 属性。
+
+
+////
+
+///
 

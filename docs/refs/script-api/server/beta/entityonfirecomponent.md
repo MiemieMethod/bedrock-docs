@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityOnFireComponent`类，扩展自`EntityComponent`。
+`EntityOnFireComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
 
 ## 常量
 
@@ -28,4 +28,15 @@ static read-only componentId = "minecraft:onfire";
 ```js
 read-only onFireTicksRemaining: int32;
 ```
+
+/// html | div.result
+//// define
+`onFireTicksRemaining`：`int32`
+
+- 属性。
+
+
+////
+
+///
 

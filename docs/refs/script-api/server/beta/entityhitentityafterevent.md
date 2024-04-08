@@ -16,6 +16,17 @@
 read-only damagingEntity: Entity;
 ```
 
+/// html | div.result
+//// define
+`damagingEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `hitEntity`
@@ -26,4 +37,15 @@ read-only damagingEntity: Entity;
 ```js
 read-only hitEntity: Entity;
 ```
+
+/// html | div.result
+//// define
+`hitEntity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
 

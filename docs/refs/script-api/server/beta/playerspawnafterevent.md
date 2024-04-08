@@ -16,6 +16,17 @@
 initialSpawn: boolean;
 ```
 
+/// html | div.result
+//// define
+`initialSpawn`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `player`
@@ -26,4 +37,15 @@ initialSpawn: boolean;
 ```js
 player: Player;
 ```
+
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
 

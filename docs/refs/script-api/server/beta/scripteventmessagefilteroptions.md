@@ -16,3 +16,14 @@
 namespaces: string[];
 ```
 
+/// html | div.result
+//// define
+`namespaces`：`string[]`
+
+- 属性。
+
+
+////
+
+///
+

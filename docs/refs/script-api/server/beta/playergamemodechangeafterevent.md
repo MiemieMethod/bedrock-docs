@@ -16,6 +16,17 @@
 read-only fromGameMode: GameMode;
 ```
 
+/// html | div.result
+//// define
+`fromGameMode`：[`GameMode`](./gamemode.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `player`
@@ -27,6 +38,17 @@ read-only fromGameMode: GameMode;
 read-only player: Player;
 ```
 
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 属性。
+
+
+////
+
+///
+
 
 /// define
 `toGameMode`
@@ -37,4 +59,15 @@ read-only player: Player;
 ```js
 read-only toGameMode: GameMode;
 ```
+
+/// html | div.result
+//// define
+`toGameMode`：[`GameMode`](./gamemode.md)
+
+- 属性。
+
+
+////
+
+///
 
