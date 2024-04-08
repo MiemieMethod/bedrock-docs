@@ -150,7 +150,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 ////
 
 //// define
-`block`：BlockPermutation|BlockType|string
+`block`：[`BlockPermutation`](./blockpermutation.md)|[`BlockType`](./blocktype.md)|`string`
 
 - 参数3。
 
@@ -196,7 +196,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 ////
 
 //// define
-`biomeToFind`：BiomeType|string
+`biomeToFind`：[`BiomeType`](./biometype.md)|`string`
 
 - 参数2。
 
@@ -659,7 +659,7 @@ setBlockType(location: Vector3, blockType: BlockType | string): void
 ////
 
 //// define
-`blockType`：BlockType|string
+`blockType`：[`BlockType`](./blocktype.md)|`string`
 
 - 参数2。
 

@@ -123,7 +123,7 @@ setActionBar(text: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`text`：RawMessage | string[]|RawMessage|string
+`text`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
 
 - 参数1。
 
@@ -191,7 +191,7 @@ setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisp
 
 /// html | div.result
 //// define
-`title`：RawMessage | string[]|RawMessage|string
+`title`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
 
 - 参数1。
 
@@ -229,7 +229,7 @@ updateSubtitle(subtitle: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`subtitle`：RawMessage | string[]|RawMessage|string
+`subtitle`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
 
 - 参数1。
 

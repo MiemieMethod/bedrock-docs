@@ -499,7 +499,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`message`：RawMessage | string[]|RawMessage|string
+`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
 
 - 参数1。
 

@@ -134,7 +134,7 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 
 /// html | div.result
 //// define
-`enchantmentType`：EnchantmentType|string
+`enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
 - 参数1。
 
@@ -179,7 +179,7 @@ hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 
 /// html | div.result
 //// define
-`enchantmentType`：EnchantmentType|string
+`enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
 - 参数1。
 
@@ -224,7 +224,7 @@ removeEnchantment(enchantmentType: EnchantmentType | string): void
 
 /// html | div.result
 //// define
-`enchantmentType`：EnchantmentType|string
+`enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
 - 参数1。
 

@@ -84,7 +84,7 @@ getState(stateName: string): boolean | int32 | string | undefined
 ////
 
 //// define
-返回值：boolean|int32|string|`undefined`
+返回值：`boolean`|`int32`|`string`|`undefined`
 
 - 返回值。
 
@@ -235,7 +235,7 @@ withState(name: string, value: boolean | int32 | string): BlockPermutation
 ////
 
 //// define
-`value`：boolean|int32|string
+`value`：`boolean`|`int32`|`string`
 
 - 参数2。
 

@@ -226,7 +226,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 ////
 
 //// define
-返回值：boolean|double|float|string|Vector3|`undefined`
+返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 返回值。
 
@@ -490,7 +490,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`message`：RawMessage | string[]|RawMessage|string
+`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
 
 - 参数1。
 
@@ -588,7 +588,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：boolean|double|float|string|Vector3|`undefined`
+`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 参数2。
 
@@ -618,7 +618,7 @@ setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 
 /// html | div.result
 //// define
-`timeOfDay`：int32|TimeOfDay
+`timeOfDay`：`int32`|[`TimeOfDay`](./timeofday.md)
 
 - 参数1。
 

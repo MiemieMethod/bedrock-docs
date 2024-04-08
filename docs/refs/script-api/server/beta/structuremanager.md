@@ -118,7 +118,7 @@ delete(structure: string | Structure): boolean
 
 /// html | div.result
 //// define
-`structure`：string|Structure
+`structure`：`string`|[`Structure`](./structure.md)
 
 - 参数1。
 
@@ -193,7 +193,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 
 /// html | div.result
 //// define
-`structure`：string|Structure
+`structure`：`string`|[`Structure`](./structure.md)
 
 - 参数1。
 

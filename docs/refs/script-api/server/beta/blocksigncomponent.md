@@ -134,7 +134,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 
 /// html | div.result
 //// define
-`message`：RawMessage|RawText|string
+`message`：[`RawMessage`](./rawmessage.md)|[`RawText`](./rawtext.md)|`string`
 
 - 参数1。
 

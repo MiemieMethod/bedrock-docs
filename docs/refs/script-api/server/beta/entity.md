@@ -207,7 +207,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 
 /// html | div.result
 //// define
-`effectType`：EffectType|string
+`effectType`：[`EffectType`](./effecttype.md)|`string`
 
 - 参数1。
 
@@ -291,7 +291,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 ////
 
 //// define
-`options`：EntityApplyDamageByProjectileOptions|EntityApplyDamageOptions|`undefined`
+`options`：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)|`undefined`
 
 - 参数2。
 
@@ -548,7 +548,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 ////
 
 //// define
-返回值：boolean|double|float|string|Vector3|`undefined`
+返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 返回值。
 
@@ -600,7 +600,7 @@ getEffect(effectType: EffectType | string): Effect | undefined
 
 /// html | div.result
 //// define
-`effectType`：EffectType|string
+`effectType`：[`EffectType`](./effecttype.md)|`string`
 
 - 参数1。
 
@@ -698,7 +698,7 @@ getProperty(identifier: string): boolean | float | string | undefined
 ////
 
 //// define
-返回值：boolean|float|string|`undefined`
+返回值：`boolean`|`float`|`string`|`undefined`
 
 - 返回值。
 
@@ -953,7 +953,7 @@ removeEffect(effectType: EffectType | string): boolean
 
 /// html | div.result
 //// define
-`effectType`：EffectType|string
+`effectType`：[`EffectType`](./effecttype.md)|`string`
 
 - 参数1。
 
@@ -1021,7 +1021,7 @@ resetProperty(identifier: string): boolean | float | string
 ////
 
 //// define
-返回值：boolean|float|string
+返回值：`boolean`|`float`|`string`
 
 - 返回值。
 
@@ -1111,7 +1111,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：boolean|double|float|string|Vector3|`undefined`
+`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 参数2。
 
@@ -1187,7 +1187,7 @@ setProperty(identifier: string, value: boolean | float | string): void
 ////
 
 //// define
-`value`：boolean|float|string
+`value`：`boolean`|`float`|`string`
 
 - 参数2。
 

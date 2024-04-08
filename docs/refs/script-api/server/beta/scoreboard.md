@@ -176,7 +176,7 @@ removeObjective(objectiveId: ScoreboardObjective | string): boolean
 
 /// html | div.result
 //// define
-`objectiveId`：ScoreboardObjective|string
+`objectiveId`：[`ScoreboardObjective`](./scoreboardobjective.md)|`string`
 
 - 参数1。
 

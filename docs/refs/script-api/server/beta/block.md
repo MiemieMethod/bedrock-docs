@@ -227,7 +227,7 @@ canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Di
 
 /// html | div.result
 //// define
-`blockToPlace`：BlockPermutation|BlockType|string
+`blockToPlace`：[`BlockPermutation`](./blockpermutation.md)|[`BlockType`](./blocktype.md)|`string`
 
 - 参数1。
 
@@ -581,7 +581,7 @@ setType(blockType: BlockType | string): void
 
 /// html | div.result
 //// define
-`blockType`：BlockType|string
+`blockType`：[`BlockType`](./blocktype.md)|`string`
 
 - 参数1。
 

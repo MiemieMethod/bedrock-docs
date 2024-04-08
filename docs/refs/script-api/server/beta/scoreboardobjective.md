@@ -42,7 +42,7 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 
 /// html | div.result
 //// define
-`participant`：Entity|ScoreboardIdentity|string
+`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -95,7 +95,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 
 /// html | div.result
 //// define
-`participant`：Entity|ScoreboardIdentity|string
+`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -140,7 +140,7 @@ hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 
 /// html | div.result
 //// define
-`participant`：Entity|ScoreboardIdentity|string
+`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -185,7 +185,7 @@ removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 
 /// html | div.result
 //// define
-`participant`：Entity|ScoreboardIdentity|string
+`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -215,7 +215,7 @@ setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 
 /// html | div.result
 //// define
-`participant`：Entity|ScoreboardIdentity|string
+`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
 - 参数1。
 
