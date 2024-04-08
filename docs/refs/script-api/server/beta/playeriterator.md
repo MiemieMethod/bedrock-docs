@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerIterator`类，实现了<code>Iterator&lt;<a href="../optional/">Player</a>&gt;</code>。
+`PlayerIterator`类，实现了<code>Iterator&lt;<a href="../player/">Player</a>&gt;</code>。
 
 ## 方法
 
