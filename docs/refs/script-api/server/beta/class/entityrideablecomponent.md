@@ -7,87 +7,80 @@
 ## 属性
 
 /// define
-controllingSeat
+`controllingSeat`
 
-- ```js
+
+///
+
+```js
 read-only controllingSeat: int32
 ```
 
 
+/// define
+`crouchingSkipInteract`
+
 
 ///
 
-
-/// define
-crouchingSkipInteract
-
-- ```js
+```js
 read-only crouchingSkipInteract: boolean
 ```
 
 
+/// define
+`interactText`
+
 
 ///
 
-
-/// define
-interactText
-
-- ```js
+```js
 read-only interactText: string
 ```
 
 
+/// define
+`passengerMaxWidth`
+
 
 ///
 
-
-/// define
-passengerMaxWidth
-
-- ```js
+```js
 read-only passengerMaxWidth: float
 ```
 
 
+/// define
+`pullInEntities`
+
 
 ///
 
-
-/// define
-pullInEntities
-
-- ```js
+```js
 read-only pullInEntities: boolean
 ```
 
 
+/// define
+`riderCanInteract`
+
 
 ///
 
-
-/// define
-riderCanInteract
-
-- ```js
+```js
 read-only riderCanInteract: boolean
 ```
 
 
+/// define
+`seatCount`
+
 
 ///
 
-
-/// define
-seatCount
-
-- ```js
+```js
 read-only seatCount: int32
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-blockTypeRegistry
+`blockTypeRegistry`
 
-- ```js
+
+///
+
+```js
 read-only blockTypeRegistry: BlockComponentRegistry
 ```
 
 
+/// define
+`itemComponentRegistry`
+
 
 ///
 
-
-/// define
-itemComponentRegistry
-
-- ```js
+```js
 read-only itemComponentRegistry: ItemComponentRegistry
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-id
+`id`
 
-- ```js
+
+///
+
+```js
 read-only id: string
 ```
 
 
+/// define
+`validValues`
+
 
 ///
 
-
-/// define
-validValues
-
-- ```js
+```js
 read-only validValues: boolean | int32 | string[]
 ```
-
-
-
-///
 
 
 ## 方法

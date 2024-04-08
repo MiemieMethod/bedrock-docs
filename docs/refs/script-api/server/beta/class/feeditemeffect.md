@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-amplifier
+`amplifier`
 
-- ```js
+
+///
+
+```js
 read-only amplifier: int32
 ```
 
 
+/// define
+`chance`
+
 
 ///
 
-
-/// define
-chance
-
-- ```js
+```js
 read-only chance: float
 ```
 
 
+/// define
+`duration`
+
 
 ///
 
-
-/// define
-duration
-
-- ```js
+```js
 read-only duration: int32
 ```
 
 
+/// define
+`name`
+
 
 ///
 
-
-/// define
-name
-
-- ```js
+```js
 read-only name: string
 ```
-
-
-
-///
 
 
 ## 方法

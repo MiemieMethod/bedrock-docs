@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-heightRange
+`heightRange`
 
-- ```js
+
+///
+
+```js
 read-only heightRange: NumberRange
 ```
 
 
+/// define
+`id`
+
 
 ///
 
-
-/// define
-id
-
-- ```js
+```js
 read-only id: string
 ```
-
-
-
-///
 
 
 ## 方法

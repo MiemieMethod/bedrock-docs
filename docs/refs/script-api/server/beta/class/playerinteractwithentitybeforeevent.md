@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`itemStack`
+
 
 ///
 
-
-/// define
-itemStack
-
-- ```js
+```js
 read-only itemStack: ItemStack | undefined
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
 
 
+/// define
+`target`
+
 
 ///
 
-
-/// define
-target
-
-- ```js
+```js
 read-only target: Entity
 ```
-
-
-
-///
 
 
 ## 方法

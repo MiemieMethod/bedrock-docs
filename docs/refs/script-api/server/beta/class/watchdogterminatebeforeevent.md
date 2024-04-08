@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`terminateReason`
+
 
 ///
 
-
-/// define
-terminateReason
-
-- ```js
+```js
 read-only terminateReason: WatchdogTerminateReason
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,99 +7,91 @@
 ## 属性
 
 /// define
-breathesAir
+`breathesAir`
 
-- ```js
+
+///
+
+```js
 read-only breathesAir: boolean
 ```
 
 
+/// define
+`breathesLava`
+
 
 ///
 
-
-/// define
-breathesLava
-
-- ```js
+```js
 read-only breathesLava: boolean
 ```
 
 
+/// define
+`breathesSolids`
+
 
 ///
 
-
-/// define
-breathesSolids
-
-- ```js
+```js
 read-only breathesSolids: boolean
 ```
 
 
+/// define
+`breathesWater`
+
 
 ///
 
-
-/// define
-breathesWater
-
-- ```js
+```js
 read-only breathesWater: boolean
 ```
 
 
+/// define
+`generatesBubbles`
+
 
 ///
 
-
-/// define
-generatesBubbles
-
-- ```js
+```js
 read-only generatesBubbles: boolean
 ```
 
 
+/// define
+`inhaleTime`
+
 
 ///
 
-
-/// define
-inhaleTime
-
-- ```js
+```js
 read-only inhaleTime: float
 ```
 
 
+/// define
+`suffocateTime`
+
 
 ///
 
-
-/// define
-suffocateTime
-
-- ```js
+```js
 read-only suffocateTime: int32
 ```
 
 
+/// define
+`totalSupply`
+
 
 ///
 
-
-/// define
-totalSupply
-
-- ```js
+```js
 read-only totalSupply: int32
 ```
-
-
-
-///
 
 
 ## 方法

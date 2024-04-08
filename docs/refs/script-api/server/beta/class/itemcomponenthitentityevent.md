@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-attackingEntity
+`attackingEntity`
 
-- ```js
+
+///
+
+```js
 read-only attackingEntity: Entity
 ```
 
 
+/// define
+`hadEffect`
+
 
 ///
 
-
-/// define
-hadEffect
-
-- ```js
+```js
 read-only hadEffect: boolean
 ```
 
 
+/// define
+`hitEntity`
+
 
 ///
 
-
-/// define
-hitEntity
-
-- ```js
+```js
 read-only hitEntity: Entity
 ```
 
 
+/// define
+`itemStack`
+
 
 ///
 
-
-/// define
-itemStack
-
-- ```js
+```js
 read-only itemStack: ItemStack | undefined
 ```
-
-
-
-///
 
 
 ## 方法

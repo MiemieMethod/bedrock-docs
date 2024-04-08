@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-explodedBlockPermutation
+`explodedBlockPermutation`
 
-- ```js
+
+///
+
+```js
 read-only explodedBlockPermutation: BlockPermutation
 ```
 
 
+/// define
+`source`
+
 
 ///
 
-
-/// define
-source
-
-- ```js
+```js
 read-only source: Entity | undefined
 ```
-
-
-
-///
 
 
 ## 方法

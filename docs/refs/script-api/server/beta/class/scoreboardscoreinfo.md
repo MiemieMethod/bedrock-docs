@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-participant
+`participant`
 
-- ```js
+
+///
+
+```js
 read-only participant: ScoreboardIdentity
 ```
 
 
+/// define
+`score`
+
 
 ///
 
-
-/// define
-score
-
-- ```js
+```js
 read-only score: int32
 ```
-
-
-
-///
 
 
 ## 方法

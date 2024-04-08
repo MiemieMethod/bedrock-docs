@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-damage
+`damage`
 
-- ```js
+
+///
+
+```js
 read-only damage: float
 ```
 
 
+/// define
+`damageSource`
+
 
 ///
 
-
-/// define
-damageSource
-
-- ```js
+```js
 read-only damageSource: EntityDamageSource
 ```
 
 
+/// define
+`hurtEntity`
+
 
 ///
 
-
-/// define
-hurtEntity
-
-- ```js
+```js
 read-only hurtEntity: Entity
 ```
-
-
-
-///
 
 
 ## 方法

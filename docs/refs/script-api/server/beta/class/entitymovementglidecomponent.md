@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-speedWhenTurning
+`speedWhenTurning`
 
-- ```js
+
+///
+
+```js
 read-only speedWhenTurning: float
 ```
 
 
+/// define
+`startSpeed`
+
 
 ///
 
-
-/// define
-startSpeed
-
-- ```js
+```js
 read-only startSpeed: float
 ```
-
-
-
-///
 
 
 ## 方法

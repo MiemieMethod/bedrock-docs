@@ -7,63 +7,58 @@
 ## 属性
 
 /// define
-lockRiderRotation
+`lockRiderRotation`
 
-- ```js
+
+///
+
+```js
 read-only lockRiderRotation: float
 ```
 
 
+/// define
+`maxRiderCount`
+
 
 ///
 
-
-/// define
-maxRiderCount
-
-- ```js
+```js
 read-only maxRiderCount: int32
 ```
 
 
+/// define
+`minRiderCount`
+
 
 ///
 
-
-/// define
-minRiderCount
-
-- ```js
+```js
 read-only minRiderCount: int32
 ```
 
 
+/// define
+`position`
+
 
 ///
 
-
-/// define
-position
-
-- ```js
+```js
 read-only position: Vector3
 ```
 
 
+/// define
+`seatRotation`
+
 
 ///
 
-
-/// define
-seatRotation
-
-- ```js
+```js
 read-only seatRotation: float
 ```
-
-
-
-///
 
 
 ## 方法

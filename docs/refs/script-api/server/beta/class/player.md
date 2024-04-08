@@ -7,147 +7,135 @@
 ## 属性
 
 /// define
-camera
+`camera`
 
-- ```js
+
+///
+
+```js
 read-only camera: Camera
 ```
 
 
+/// define
+`inputPermissions`
+
 
 ///
 
-
-/// define
-inputPermissions
-
-- ```js
+```js
 read-only inputPermissions: PlayerInputPermissions
 ```
 
 
+/// define
+`isEmoting`
+
 
 ///
 
-
-/// define
-isEmoting
-
-- ```js
+```js
 read-only isEmoting: boolean
 ```
 
 
+/// define
+`isFlying`
+
 
 ///
 
-
-/// define
-isFlying
-
-- ```js
+```js
 read-only isFlying: boolean
 ```
 
 
+/// define
+`isGliding`
+
 
 ///
 
-
-/// define
-isGliding
-
-- ```js
+```js
 read-only isGliding: boolean
 ```
 
 
+/// define
+`isJumping`
+
 
 ///
 
-
-/// define
-isJumping
-
-- ```js
+```js
 read-only isJumping: boolean
 ```
 
 
+/// define
+`level`
+
 
 ///
 
-
-/// define
-level
-
-- ```js
+```js
 read-only level: int32
 ```
 
 
+/// define
+`name`
+
 
 ///
 
-
-/// define
-name
-
-- ```js
+```js
 read-only name: string
 ```
 
 
+/// define
+`onScreenDisplay`
+
 
 ///
 
-
-/// define
-onScreenDisplay
-
-- ```js
+```js
 read-only onScreenDisplay: ScreenDisplay
 ```
 
 
+/// define
+`selectedSlot`
+
 
 ///
 
-
-/// define
-selectedSlot
-
-- ```js
+```js
 selectedSlot: int32
 ```
 
 
+/// define
+`totalXpNeededForNextLevel`
+
 
 ///
 
-
-/// define
-totalXpNeededForNextLevel
-
-- ```js
+```js
 read-only totalXpNeededForNextLevel: int32
 ```
 
 
+/// define
+`xpEarnedAtCurrentLevel`
+
 
 ///
 
-
-/// define
-xpEarnedAtCurrentLevel
-
-- ```js
+```js
 read-only xpEarnedAtCurrentLevel: int32
 ```
-
-
-
-///
 
 
 ## 方法

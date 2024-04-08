@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-isPowered
+`isPowered`
 
-- ```js
+
+///
+
+```js
 read-only isPowered: boolean
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
-
-
-
-///
 
 
 ## 方法

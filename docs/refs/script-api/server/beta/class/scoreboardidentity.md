@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-displayName
+`displayName`
 
-- ```js
+
+///
+
+```js
 read-only displayName: string
 ```
 
 
+/// define
+`id`
+
 
 ///
 
-
-/// define
-id
-
-- ```js
+```js
 read-only id: int64
 ```
 
 
+/// define
+`type`
+
 
 ///
 
-
-/// define
-type
-
-- ```js
+```js
 read-only type: ScoreboardIdentityType
 ```
-
-
-
-///
 
 
 ## 方法

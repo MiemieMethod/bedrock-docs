@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-entity
-
-- ```js
-entity: Entity
-```
-
+`entity`
 
 
 ///
+
+```js
+entity: Entity
+```
 
 
 ## 方法

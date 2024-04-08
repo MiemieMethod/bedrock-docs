@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-previousBlock
-
-- ```js
-read-only previousBlock: BlockPermutation
-```
-
+`previousBlock`
 
 
 ///
+
+```js
+read-only previousBlock: BlockPermutation
+```
 
 
 ## 方法

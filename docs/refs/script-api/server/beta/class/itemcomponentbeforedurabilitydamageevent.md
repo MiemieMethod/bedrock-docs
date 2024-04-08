@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-attackingEntity
+`attackingEntity`
 
-- ```js
+
+///
+
+```js
 read-only attackingEntity: Entity
 ```
 
 
+/// define
+`durabilityDamage`
+
 
 ///
 
-
-/// define
-durabilityDamage
-
-- ```js
+```js
 durabilityDamage: int32
 ```
 
 
+/// define
+`hitEntity`
+
 
 ///
 
-
-/// define
-hitEntity
-
-- ```js
+```js
 read-only hitEntity: Entity
 ```
 
 
+/// define
+`itemStack`
+
 
 ///
 
-
-/// define
-itemStack
-
-- ```js
+```js
 itemStack: ItemStack | undefined
 ```
-
-
-
-///
 
 
 ## 方法

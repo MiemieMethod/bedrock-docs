@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-entityRidingOn
-
-- ```js
-read-only entityRidingOn: Entity
-```
-
+`entityRidingOn`
 
 
 ///
+
+```js
+read-only entityRidingOn: Entity
+```
 
 
 ## 方法

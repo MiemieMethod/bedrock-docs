@@ -7,63 +7,58 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`face`
+
 
 ///
 
-
-/// define
-face
-
-- ```js
+```js
 read-only face: Direction
 ```
 
 
+/// define
+`faceLocation`
+
 
 ///
 
-
-/// define
-faceLocation
-
-- ```js
+```js
 read-only faceLocation: Vector3
 ```
 
 
+/// define
+`permutationBeingPlaced`
+
 
 ///
 
-
-/// define
-permutationBeingPlaced
-
-- ```js
+```js
 read-only permutationBeingPlaced: BlockPermutation
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
-
-
-
-///
 
 
 ## 方法

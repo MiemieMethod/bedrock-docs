@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-defaultScene
+`defaultScene`
 
-- ```js
+
+///
+
+```js
 defaultScene: string
 ```
 
 
+/// define
+`name`
+
 
 ///
 
-
-/// define
-name
-
-- ```js
+```js
 name: string
 ```
 
 
+/// define
+`skinIndex`
+
 
 ///
 
-
-/// define
-skinIndex
-
-- ```js
+```js
 skinIndex: int32
 ```
-
-
-
-///
 
 
 ## 方法

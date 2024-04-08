@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-type
-
-- ```js
-read-only type: BlockType
-```
-
+`type`
 
 
 ///
+
+```js
+read-only type: BlockType
+```
 
 
 ## 方法

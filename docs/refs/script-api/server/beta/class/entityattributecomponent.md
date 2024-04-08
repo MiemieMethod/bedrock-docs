@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-currentValue
+`currentValue`
 
-- ```js
+
+///
+
+```js
 read-only currentValue: float
 ```
 
 
+/// define
+`defaultValue`
+
 
 ///
 
-
-/// define
-defaultValue
-
-- ```js
+```js
 read-only defaultValue: float
 ```
 
 
+/// define
+`effectiveMax`
+
 
 ///
 
-
-/// define
-effectiveMax
-
-- ```js
+```js
 read-only effectiveMax: float
 ```
 
 
+/// define
+`effectiveMin`
+
 
 ///
 
-
-/// define
-effectiveMin
-
-- ```js
+```js
 read-only effectiveMin: float
 ```
-
-
-
-///
 
 
 ## 方法

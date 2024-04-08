@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-softDistance
-
-- ```js
-read-only softDistance: float
-```
-
+`softDistance`
 
 
 ///
+
+```js
+read-only softDistance: float
+```
 
 
 ## 方法

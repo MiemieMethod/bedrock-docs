@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-rule
+`rule`
 
-- ```js
+
+///
+
+```js
 read-only rule: GameRule
 ```
 
 
+/// define
+`value`
+
 
 ///
 
-
-/// define
-value
-
-- ```js
+```js
 read-only value: boolean | float
 ```
-
-
-
-///
 
 
 ## 方法

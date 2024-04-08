@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-successCount
-
-- ```js
-read-only successCount: int32
-```
-
+`successCount`
 
 
 ///
+
+```js
+read-only successCount: int32
+```
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-damageSource
+`damageSource`
 
-- ```js
+
+///
+
+```js
 read-only damageSource: EntityDamageSource
 ```
 
 
+/// define
+`deadEntity`
+
 
 ///
 
-
-/// define
-deadEntity
-
-- ```js
+```js
 read-only deadEntity: Entity
 ```
-
-
-
-///
 
 
 ## 方法

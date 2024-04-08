@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-value
-
-- ```js
-value: int32
-```
-
+`value`
 
 
 ///
+
+```js
+value: int32
+```
 
 
 ## 方法

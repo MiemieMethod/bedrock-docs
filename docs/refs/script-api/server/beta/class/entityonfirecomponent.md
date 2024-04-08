@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-onFireTicksRemaining
-
-- ```js
-read-only onFireTicksRemaining: int32
-```
-
+`onFireTicksRemaining`
 
 
 ///
+
+```js
+read-only onFireTicksRemaining: int32
+```
 
 
 ## 方法

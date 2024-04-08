@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-amplifier
+`amplifier`
 
-- ```js
+
+///
+
+```js
 read-only amplifier: int32
 ```
 
 
+/// define
+`displayName`
+
 
 ///
 
-
-/// define
-displayName
-
-- ```js
+```js
 read-only displayName: string
 ```
 
 
+/// define
+`duration`
+
 
 ///
 
-
-/// define
-duration
-
-- ```js
+```js
 read-only duration: int32
 ```
 
 
+/// define
+`typeId`
+
 
 ///
 
-
-/// define
-typeId
-
-- ```js
+```js
 read-only typeId: string
 ```
-
-
-
-///
 
 
 ## 方法

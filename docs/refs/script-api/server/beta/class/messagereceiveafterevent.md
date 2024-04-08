@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-id
+`id`
 
-- ```js
+
+///
+
+```js
 read-only id: string
 ```
 
 
+/// define
+`message`
+
 
 ///
 
-
-/// define
-message
-
-- ```js
+```js
 read-only message: string
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
-
-
-
-///
 
 
 ## 方法

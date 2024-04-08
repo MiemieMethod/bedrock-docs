@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-message
+`message`
 
-- ```js
+
+///
+
+```js
 read-only message: string
 ```
 
 
+/// define
+`sender`
+
 
 ///
 
-
-/// define
-sender
-
-- ```js
+```js
 read-only sender: Player
 ```
 
 
+/// define
+`targets`
+
 
 ///
 
-
-/// define
-targets
-
-- ```js
+```js
 read-only targets: Player[] | undefined
 ```
-
-
-
-///
 
 
 ## 方法

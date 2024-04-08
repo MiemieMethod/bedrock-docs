@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-brokenBlockPermutation
+`brokenBlockPermutation`
 
-- ```js
+
+///
+
+```js
 read-only brokenBlockPermutation: BlockPermutation
 ```
 
 
+/// define
+`itemStackAfterBreak`
+
 
 ///
 
-
-/// define
-itemStackAfterBreak
-
-- ```js
+```js
 read-only itemStackAfterBreak: ItemStack | undefined
 ```
 
 
+/// define
+`itemStackBeforeBreak`
+
 
 ///
 
-
-/// define
-itemStackBeforeBreak
-
-- ```js
+```js
 read-only itemStackBeforeBreak: ItemStack | undefined
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
-
-
-
-///
 
 
 ## 方法

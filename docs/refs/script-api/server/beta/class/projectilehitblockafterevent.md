@@ -7,63 +7,58 @@
 ## 属性
 
 /// define
-dimension
+`dimension`
 
-- ```js
+
+///
+
+```js
 read-only dimension: Dimension
 ```
 
 
+/// define
+`hitVector`
+
 
 ///
 
-
-/// define
-hitVector
-
-- ```js
+```js
 read-only hitVector: Vector3
 ```
 
 
+/// define
+`location`
+
 
 ///
 
-
-/// define
-location
-
-- ```js
+```js
 read-only location: Vector3
 ```
 
 
+/// define
+`projectile`
+
 
 ///
 
-
-/// define
-projectile
-
-- ```js
+```js
 read-only projectile: Entity
 ```
 
 
+/// define
+`source`
+
 
 ///
 
-
-/// define
-source
-
-- ```js
+```js
 read-only source: Entity | undefined
 ```
-
-
-
-///
 
 
 ## 方法

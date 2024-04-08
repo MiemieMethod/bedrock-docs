@@ -7,75 +7,69 @@
 ## 属性
 
 /// define
-id
+`id`
 
-- ```js
+
+///
+
+```js
 read-only id: string
 ```
 
 
+/// define
+`initiator`
+
 
 ///
 
-
-/// define
-initiator
-
-- ```js
+```js
 read-only initiator: Entity | undefined
 ```
 
 
+/// define
+`message`
+
 
 ///
 
-
-/// define
-message
-
-- ```js
+```js
 read-only message: string
 ```
 
 
+/// define
+`sourceBlock`
+
 
 ///
 
-
-/// define
-sourceBlock
-
-- ```js
+```js
 read-only sourceBlock: Block | undefined
 ```
 
 
+/// define
+`sourceEntity`
+
 
 ///
 
-
-/// define
-sourceEntity
-
-- ```js
+```js
 read-only sourceEntity: Entity | undefined
 ```
 
 
+/// define
+`sourceType`
+
 
 ///
 
-
-/// define
-sourceType
-
-- ```js
+```js
 read-only sourceType: ScriptEventSource
 ```
-
-
-
-///
 
 
 ## 方法

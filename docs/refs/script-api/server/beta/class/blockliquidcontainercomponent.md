@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-fillLevel
-
-- ```js
-fillLevel: int32
-```
-
+`fillLevel`
 
 
 ///
+
+```js
+fillLevel: int32
+```
 
 
 ## 方法

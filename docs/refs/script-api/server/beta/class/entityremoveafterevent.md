@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-removedEntityId
+`removedEntityId`
 
-- ```js
+
+///
+
+```js
 read-only removedEntityId: string
 ```
 
 
+/// define
+`typeId`
+
 
 ///
 
-
-/// define
-typeId
-
-- ```js
+```js
 read-only typeId: string
 ```
-
-
-
-///
 
 
 ## 方法

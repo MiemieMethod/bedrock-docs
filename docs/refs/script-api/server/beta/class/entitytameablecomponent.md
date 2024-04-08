@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-probability
-
-- ```js
-read-only probability: float
-```
-
+`probability`
 
 
 ///
+
+```js
+read-only probability: float
+```
 
 
 ## 方法

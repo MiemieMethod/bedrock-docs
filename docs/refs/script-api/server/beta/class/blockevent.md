@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-block
+`block`
 
-- ```js
+
+///
+
+```js
 read-only block: Block
 ```
 
 
+/// define
+`dimension`
+
 
 ///
 
-
-/// define
-dimension
-
-- ```js
+```js
 read-only dimension: Dimension
 ```
-
-
-
-///
 
 
 ## 方法

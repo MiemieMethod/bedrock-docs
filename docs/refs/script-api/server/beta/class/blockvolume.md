@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-from
+`from`
 
-- ```js
+
+///
+
+```js
 from: Vector3
 ```
 
 
+/// define
+`to`
+
 
 ///
 
-
-/// define
-to
-
-- ```js
+```js
 to: Vector3
 ```
-
-
-
-///
 
 
 ## 方法

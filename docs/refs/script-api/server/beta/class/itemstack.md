@@ -7,99 +7,91 @@
 ## 属性
 
 /// define
-amount
+`amount`
 
-- ```js
+
+///
+
+```js
 amount: int32
 ```
 
 
+/// define
+`isStackable`
+
 
 ///
 
-
-/// define
-isStackable
-
-- ```js
+```js
 read-only isStackable: boolean
 ```
 
 
+/// define
+`keepOnDeath`
+
 
 ///
 
-
-/// define
-keepOnDeath
-
-- ```js
+```js
 keepOnDeath: boolean
 ```
 
 
+/// define
+`lockMode`
+
 
 ///
 
-
-/// define
-lockMode
-
-- ```js
+```js
 lockMode: ItemLockMode
 ```
 
 
+/// define
+`maxAmount`
+
 
 ///
 
-
-/// define
-maxAmount
-
-- ```js
+```js
 read-only maxAmount: int32
 ```
 
 
+/// define
+`nameTag`
+
 
 ///
 
-
-/// define
-nameTag
-
-- ```js
+```js
 nameTag: string | undefined
 ```
 
 
+/// define
+`type`
+
 
 ///
 
-
-/// define
-type
-
-- ```js
+```js
 read-only type: ItemType
 ```
 
 
+/// define
+`typeId`
+
 
 ///
 
-
-/// define
-typeId
-
-- ```js
+```js
 read-only typeId: string
 ```
-
-
-
-///
 
 
 ## 方法

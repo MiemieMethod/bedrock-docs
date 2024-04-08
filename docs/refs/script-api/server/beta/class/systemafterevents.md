@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-scriptEventReceive
-
-- ```js
-read-only scriptEventReceive: ScriptEventCommandMessageAfterEventSignal
-```
-
+`scriptEventReceive`
 
 
 ///
+
+```js
+read-only scriptEventReceive: ScriptEventCommandMessageAfterEventSignal
+```
 
 
 ## 方法

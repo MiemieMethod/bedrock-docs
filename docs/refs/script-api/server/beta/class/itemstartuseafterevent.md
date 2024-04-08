@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-itemStack
+`itemStack`
 
-- ```js
+
+///
+
+```js
 read-only itemStack: ItemStack
 ```
 
 
+/// define
+`source`
+
 
 ///
 
-
-/// define
-source
-
-- ```js
+```js
 read-only source: Player
 ```
 
 
+/// define
+`useDuration`
+
 
 ///
 
-
-/// define
-useDuration
-
-- ```js
+```js
 read-only useDuration: int32
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-fromGameMode
+`fromGameMode`
 
-- ```js
+
+///
+
+```js
 read-only fromGameMode: GameMode
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
 
 
+/// define
+`toGameMode`
+
 
 ///
 
-
-/// define
-toGameMode
-
-- ```js
+```js
 read-only toGameMode: GameMode
 ```
-
-
-
-///
 
 
 ## 方法

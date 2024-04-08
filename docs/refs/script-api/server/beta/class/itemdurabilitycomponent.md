@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-damage
+`damage`
 
-- ```js
+
+///
+
+```js
 damage: int32
 ```
 
 
+/// define
+`maxDurability`
+
 
 ///
 
-
-/// define
-maxDurability
-
-- ```js
+```js
 read-only maxDurability: int32
 ```
-
-
-
-///
 
 
 ## 方法

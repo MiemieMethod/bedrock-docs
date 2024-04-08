@@ -7,87 +7,80 @@
 ## 属性
 
 /// define
-additionalSlotsPerStrength
+`additionalSlotsPerStrength`
 
-- ```js
+
+///
+
+```js
 read-only additionalSlotsPerStrength: int32
 ```
 
 
+/// define
+`canBeSiphonedFrom`
+
 
 ///
 
-
-/// define
-canBeSiphonedFrom
-
-- ```js
+```js
 read-only canBeSiphonedFrom: boolean
 ```
 
 
+/// define
+`container`
+
 
 ///
 
-
-/// define
-container
-
-- ```js
+```js
 read-only container: Container | undefined
 ```
 
 
+/// define
+`containerType`
+
 
 ///
 
-
-/// define
-containerType
-
-- ```js
+```js
 read-only containerType: string
 ```
 
 
+/// define
+`inventorySize`
+
 
 ///
 
-
-/// define
-inventorySize
-
-- ```js
+```js
 read-only inventorySize: int32
 ```
 
 
+/// define
+`private`
+
 
 ///
 
-
-/// define
-private
-
-- ```js
+```js
 read-only private: boolean
 ```
 
 
+/// define
+`restrictToOwner`
+
 
 ///
 
-
-/// define
-restrictToOwner
-
-- ```js
+```js
 read-only restrictToOwner: boolean
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-id
+`id`
 
-- ```js
+
+///
+
+```js
 read-only id: string
 ```
 
 
+/// define
+`size`
+
 
 ///
 
-
-/// define
-size
-
-- ```js
+```js
 read-only size: Vector3
 ```
-
-
-
-///
 
 
 ## 方法

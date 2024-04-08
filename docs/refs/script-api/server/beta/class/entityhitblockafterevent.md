@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-blockFace
+`blockFace`
 
-- ```js
+
+///
+
+```js
 read-only blockFace: Direction
 ```
 
 
+/// define
+`damagingEntity`
+
 
 ///
 
-
-/// define
-damagingEntity
-
-- ```js
+```js
 read-only damagingEntity: Entity
 ```
 
 
+/// define
+`hitBlock`
+
 
 ///
 
-
-/// define
-hitBlock
-
-- ```js
+```js
 read-only hitBlock: Block
 ```
 
 
+/// define
+`hitBlockPermutation`
+
 
 ///
 
-
-/// define
-hitBlockPermutation
-
-- ```js
+```js
 read-only hitBlockPermutation: BlockPermutation
 ```
-
-
-
-///
 
 
 ## 方法

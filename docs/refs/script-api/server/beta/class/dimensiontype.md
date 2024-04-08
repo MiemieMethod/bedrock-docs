@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-typeId
-
-- ```js
-read-only typeId: string
-```
-
+`typeId`
 
 
 ///
+
+```js
+read-only typeId: string
+```
 
 
 ## 方法

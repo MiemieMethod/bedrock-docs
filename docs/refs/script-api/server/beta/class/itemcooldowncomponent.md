@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-cooldownCategory
+`cooldownCategory`
 
-- ```js
+
+///
+
+```js
 read-only cooldownCategory: string
 ```
 
 
+/// define
+`cooldownTicks`
+
 
 ///
 
-
-/// define
-cooldownTicks
-
-- ```js
+```js
 read-only cooldownTicks: int32
 ```
-
-
-
-///
 
 
 ## 方法

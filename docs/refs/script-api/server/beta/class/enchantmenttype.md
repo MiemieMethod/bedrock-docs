@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-id
+`id`
 
-- ```js
+
+///
+
+```js
 read-only id: string
 ```
 
 
+/// define
+`maxLevel`
+
 
 ///
 
-
-/// define
-maxLevel
-
-- ```js
+```js
 read-only maxLevel: int32
 ```
-
-
-
-///
 
 
 ## 方法

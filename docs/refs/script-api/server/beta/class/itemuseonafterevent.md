@@ -7,63 +7,58 @@
 ## 属性
 
 /// define
-block
+`block`
 
-- ```js
+
+///
+
+```js
 read-only block: Block
 ```
 
 
+/// define
+`blockFace`
+
 
 ///
 
-
-/// define
-blockFace
-
-- ```js
+```js
 read-only blockFace: Direction
 ```
 
 
+/// define
+`faceLocation`
+
 
 ///
 
-
-/// define
-faceLocation
-
-- ```js
+```js
 read-only faceLocation: Vector3
 ```
 
 
+/// define
+`itemStack`
+
 
 ///
 
-
-/// define
-itemStack
-
-- ```js
+```js
 read-only itemStack: ItemStack
 ```
 
 
+/// define
+`source`
+
 
 ///
 
-
-/// define
-source
-
-- ```js
+```js
 read-only source: Player
 ```
-
-
-
-///
 
 
 ## 方法

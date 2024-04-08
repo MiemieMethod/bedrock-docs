@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-isPowered
+`isPowered`
 
-- ```js
+
+///
+
+```js
 read-only isPowered: boolean
 ```
 
 
+/// define
+`sources`
+
 
 ///
 
-
-/// define
-sources
-
-- ```js
+```js
 read-only sources: Entity[]
 ```
-
-
-
-///
 
 
 ## 方法

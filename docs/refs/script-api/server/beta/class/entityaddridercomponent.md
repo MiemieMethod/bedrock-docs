@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-entityType
+`entityType`
 
-- ```js
+
+///
+
+```js
 read-only entityType: string
 ```
 
 
+/// define
+`spawnEvent`
+
 
 ///
 
-
-/// define
-spawnEvent
-
-- ```js
+```js
 read-only spawnEvent: string
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-block
-
-- ```js
-read-only block: Block
-```
-
+`block`
 
 
 ///
+
+```js
+read-only block: Block
+```
 
 
 ## 方法

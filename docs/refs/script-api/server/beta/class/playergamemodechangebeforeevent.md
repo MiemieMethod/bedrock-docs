@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`fromGameMode`
+
 
 ///
 
-
-/// define
-fromGameMode
-
-- ```js
+```js
 read-only fromGameMode: GameMode
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
 
 
+/// define
+`toGameMode`
+
 
 ///
 
-
-/// define
-toGameMode
-
-- ```js
+```js
 toGameMode: GameMode
 ```
-
-
-
-///
 
 
 ## 方法

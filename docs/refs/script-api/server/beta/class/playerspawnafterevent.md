@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-initialSpawn
+`initialSpawn`
 
-- ```js
+
+///
+
+```js
 initialSpawn: boolean
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 player: Player
 ```
-
-
-
-///
 
 
 ## 方法

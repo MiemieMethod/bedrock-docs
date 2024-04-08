@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`itemStack`
+
 
 ///
 
-
-/// define
-itemStack
-
-- ```js
+```js
 itemStack: ItemStack | undefined
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
-
-
-
-///
 
 
 ## 方法

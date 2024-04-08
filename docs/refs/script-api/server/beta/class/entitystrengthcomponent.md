@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-max
+`max`
 
-- ```js
+
+///
+
+```js
 read-only max: int32
 ```
 
 
+/// define
+`value`
+
 
 ///
 
-
-/// define
-value
-
-- ```js
+```js
 read-only value: int32
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-source
-
-- ```js
-read-only source: Entity
-```
-
+`source`
 
 
 ///
+
+```js
+read-only source: Entity
+```
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-capacity
+`capacity`
 
-- ```js
+
+///
+
+```js
 read-only capacity: uint64
 ```
 
 
+/// define
+`volumeCount`
+
 
 ///
 
-
-/// define
-volumeCount
-
-- ```js
+```js
 read-only volumeCount: uint64
 ```
-
-
-
-///
 
 
 ## 方法

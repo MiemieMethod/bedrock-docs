@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-canBeWaterlogged
+`canBeWaterlogged`
 
-- ```js
+
+///
+
+```js
 read-only canBeWaterlogged: boolean
 ```
 
 
+/// define
+`id`
+
 
 ///
 
-
-/// define
-id
-
-- ```js
+```js
 read-only id: string
 ```
-
-
-
-///
 
 
 ## 方法

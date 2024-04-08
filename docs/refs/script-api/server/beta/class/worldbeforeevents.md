@@ -7,171 +7,157 @@
 ## 属性
 
 /// define
-chatSend
+`chatSend`
 
-- ```js
+
+///
+
+```js
 read-only chatSend: ChatSendBeforeEventSignal
 ```
 
 
+/// define
+`effectAdd`
+
 
 ///
 
-
-/// define
-effectAdd
-
-- ```js
+```js
 read-only effectAdd: EffectAddBeforeEventSignal
 ```
 
 
+/// define
+`entityRemove`
+
 
 ///
 
-
-/// define
-entityRemove
-
-- ```js
+```js
 read-only entityRemove: EntityRemoveBeforeEventSignal
 ```
 
 
+/// define
+`explosion`
+
 
 ///
 
-
-/// define
-explosion
-
-- ```js
+```js
 read-only explosion: ExplosionBeforeEventSignal
 ```
 
 
+/// define
+`itemUse`
+
 
 ///
 
-
-/// define
-itemUse
-
-- ```js
+```js
 read-only itemUse: ItemUseBeforeEventSignal
 ```
 
 
+/// define
+`itemUseOn`
+
 
 ///
 
-
-/// define
-itemUseOn
-
-- ```js
+```js
 read-only itemUseOn: ItemUseOnBeforeEventSignal
 ```
 
 
+/// define
+`playerBreakBlock`
+
 
 ///
 
-
-/// define
-playerBreakBlock
-
-- ```js
+```js
 read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal
 ```
 
 
+/// define
+`playerGameModeChange`
+
 
 ///
 
-
-/// define
-playerGameModeChange
-
-- ```js
+```js
 read-only playerGameModeChange: PlayerGameModeChangeBeforeEventSignal
 ```
 
 
+/// define
+`playerInteractWithBlock`
+
 
 ///
 
-
-/// define
-playerInteractWithBlock
-
-- ```js
+```js
 read-only playerInteractWithBlock: PlayerInteractWithBlockBeforeEventSignal
 ```
 
 
+/// define
+`playerInteractWithEntity`
+
 
 ///
 
-
-/// define
-playerInteractWithEntity
-
-- ```js
+```js
 read-only playerInteractWithEntity: PlayerInteractWithEntityBeforeEventSignal
 ```
 
 
+/// define
+`playerLeave`
+
 
 ///
 
-
-/// define
-playerLeave
-
-- ```js
+```js
 read-only playerLeave: PlayerLeaveBeforeEventSignal
 ```
 
 
+/// define
+`playerPlaceBlock`
+
 
 ///
 
-
-/// define
-playerPlaceBlock
-
-- ```js
+```js
 read-only playerPlaceBlock: PlayerPlaceBlockBeforeEventSignal
 ```
 
 
+/// define
+`weatherChange`
+
 
 ///
 
-
-/// define
-weatherChange
-
-- ```js
+```js
 read-only weatherChange: WeatherChangeBeforeEventSignal
 ```
 
 
+/// define
+`worldInitialize`
+
 
 ///
 
-
-/// define
-worldInitialize
-
-- ```js
+```js
 read-only worldInitialize: WorldInitializeBeforeEventSignal
 ```
-
-
-
-///
 
 
 ## 方法

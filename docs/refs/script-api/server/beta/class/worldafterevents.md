@@ -7,531 +7,487 @@
 ## 属性
 
 /// define
-blockExplode
+`blockExplode`
 
-- ```js
+
+///
+
+```js
 read-only blockExplode: BlockExplodeAfterEventSignal
 ```
 
 
+/// define
+`buttonPush`
+
 
 ///
 
-
-/// define
-buttonPush
-
-- ```js
+```js
 read-only buttonPush: ButtonPushAfterEventSignal
 ```
 
 
+/// define
+`chatSend`
+
 
 ///
 
-
-/// define
-chatSend
-
-- ```js
+```js
 read-only chatSend: ChatSendAfterEventSignal
 ```
 
 
+/// define
+`dataDrivenEntityTrigger`
+
 
 ///
 
-
-/// define
-dataDrivenEntityTrigger
-
-- ```js
+```js
 read-only dataDrivenEntityTrigger: DataDrivenEntityTriggerAfterEventSignal
 ```
 
 
+/// define
+`effectAdd`
+
 
 ///
 
-
-/// define
-effectAdd
-
-- ```js
+```js
 read-only effectAdd: EffectAddAfterEventSignal
 ```
 
 
+/// define
+`entityDie`
+
 
 ///
 
-
-/// define
-entityDie
-
-- ```js
+```js
 read-only entityDie: EntityDieAfterEventSignal
 ```
 
 
+/// define
+`entityHealthChanged`
+
 
 ///
 
-
-/// define
-entityHealthChanged
-
-- ```js
+```js
 read-only entityHealthChanged: EntityHealthChangedAfterEventSignal
 ```
 
 
+/// define
+`entityHitBlock`
+
 
 ///
 
-
-/// define
-entityHitBlock
-
-- ```js
+```js
 read-only entityHitBlock: EntityHitBlockAfterEventSignal
 ```
 
 
+/// define
+`entityHitEntity`
+
 
 ///
 
-
-/// define
-entityHitEntity
-
-- ```js
+```js
 read-only entityHitEntity: EntityHitEntityAfterEventSignal
 ```
 
 
+/// define
+`entityHurt`
+
 
 ///
 
-
-/// define
-entityHurt
-
-- ```js
+```js
 read-only entityHurt: EntityHurtAfterEventSignal
 ```
 
 
+/// define
+`entityLoad`
+
 
 ///
 
-
-/// define
-entityLoad
-
-- ```js
+```js
 read-only entityLoad: EntityLoadAfterEventSignal
 ```
 
 
+/// define
+`entityRemove`
+
 
 ///
 
-
-/// define
-entityRemove
-
-- ```js
+```js
 read-only entityRemove: EntityRemoveAfterEventSignal
 ```
 
 
+/// define
+`entitySpawn`
+
 
 ///
 
-
-/// define
-entitySpawn
-
-- ```js
+```js
 read-only entitySpawn: EntitySpawnAfterEventSignal
 ```
 
 
+/// define
+`explosion`
+
 
 ///
 
-
-/// define
-explosion
-
-- ```js
+```js
 read-only explosion: ExplosionAfterEventSignal
 ```
 
 
+/// define
+`gameRuleChange`
+
 
 ///
 
-
-/// define
-gameRuleChange
-
-- ```js
+```js
 read-only gameRuleChange: GameRuleChangeAfterEventSignal
 ```
 
 
+/// define
+`itemCompleteUse`
+
 
 ///
 
-
-/// define
-itemCompleteUse
-
-- ```js
+```js
 read-only itemCompleteUse: ItemCompleteUseAfterEventSignal
 ```
 
 
+/// define
+`itemReleaseUse`
+
 
 ///
 
-
-/// define
-itemReleaseUse
-
-- ```js
+```js
 read-only itemReleaseUse: ItemReleaseUseAfterEventSignal
 ```
 
 
+/// define
+`itemStartUse`
+
 
 ///
 
-
-/// define
-itemStartUse
-
-- ```js
+```js
 read-only itemStartUse: ItemStartUseAfterEventSignal
 ```
 
 
+/// define
+`itemStartUseOn`
+
 
 ///
 
-
-/// define
-itemStartUseOn
-
-- ```js
+```js
 read-only itemStartUseOn: ItemStartUseOnAfterEventSignal
 ```
 
 
+/// define
+`itemStopUse`
+
 
 ///
 
-
-/// define
-itemStopUse
-
-- ```js
+```js
 read-only itemStopUse: ItemStopUseAfterEventSignal
 ```
 
 
+/// define
+`itemStopUseOn`
+
 
 ///
 
-
-/// define
-itemStopUseOn
-
-- ```js
+```js
 read-only itemStopUseOn: ItemStopUseOnAfterEventSignal
 ```
 
 
+/// define
+`itemUse`
+
 
 ///
 
-
-/// define
-itemUse
-
-- ```js
+```js
 read-only itemUse: ItemUseAfterEventSignal
 ```
 
 
+/// define
+`itemUseOn`
+
 
 ///
 
-
-/// define
-itemUseOn
-
-- ```js
+```js
 read-only itemUseOn: ItemUseOnAfterEventSignal
 ```
 
 
+/// define
+`leverAction`
+
 
 ///
 
-
-/// define
-leverAction
-
-- ```js
+```js
 read-only leverAction: LeverActionAfterEventSignal
 ```
 
 
+/// define
+`messageReceive`
+
 
 ///
 
-
-/// define
-messageReceive
-
-- ```js
+```js
 read-only messageReceive: ServerMessageAfterEventSignal
 ```
 
 
+/// define
+`pistonActivate`
+
 
 ///
 
-
-/// define
-pistonActivate
-
-- ```js
+```js
 read-only pistonActivate: PistonActivateAfterEventSignal
 ```
 
 
+/// define
+`playerBreakBlock`
+
 
 ///
 
-
-/// define
-playerBreakBlock
-
-- ```js
+```js
 read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal
 ```
 
 
+/// define
+`playerDimensionChange`
+
 
 ///
 
-
-/// define
-playerDimensionChange
-
-- ```js
+```js
 read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal
 ```
 
 
+/// define
+`playerGameModeChange`
+
 
 ///
 
-
-/// define
-playerGameModeChange
-
-- ```js
+```js
 read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal
 ```
 
 
+/// define
+`playerInputPermissionCategoryChange`
+
 
 ///
 
-
-/// define
-playerInputPermissionCategoryChange
-
-- ```js
+```js
 read-only playerInputPermissionCategoryChange: PlayerInputPermissionCategoryChangeAfterEventSignal
 ```
 
 
+/// define
+`playerInteractWithBlock`
+
 
 ///
 
-
-/// define
-playerInteractWithBlock
-
-- ```js
+```js
 read-only playerInteractWithBlock: PlayerInteractWithBlockAfterEventSignal
 ```
 
 
+/// define
+`playerInteractWithEntity`
+
 
 ///
 
-
-/// define
-playerInteractWithEntity
-
-- ```js
+```js
 read-only playerInteractWithEntity: PlayerInteractWithEntityAfterEventSignal
 ```
 
 
+/// define
+`playerJoin`
+
 
 ///
 
-
-/// define
-playerJoin
-
-- ```js
+```js
 read-only playerJoin: PlayerJoinAfterEventSignal
 ```
 
 
+/// define
+`playerLeave`
+
 
 ///
 
-
-/// define
-playerLeave
-
-- ```js
+```js
 read-only playerLeave: PlayerLeaveAfterEventSignal
 ```
 
 
+/// define
+`playerPlaceBlock`
+
 
 ///
 
-
-/// define
-playerPlaceBlock
-
-- ```js
+```js
 read-only playerPlaceBlock: PlayerPlaceBlockAfterEventSignal
 ```
 
 
+/// define
+`playerSpawn`
+
 
 ///
 
-
-/// define
-playerSpawn
-
-- ```js
+```js
 read-only playerSpawn: PlayerSpawnAfterEventSignal
 ```
 
 
+/// define
+`pressurePlatePop`
+
 
 ///
 
-
-/// define
-pressurePlatePop
-
-- ```js
+```js
 read-only pressurePlatePop: PressurePlatePopAfterEventSignal
 ```
 
 
+/// define
+`pressurePlatePush`
+
 
 ///
 
-
-/// define
-pressurePlatePush
-
-- ```js
+```js
 read-only pressurePlatePush: PressurePlatePushAfterEventSignal
 ```
 
 
+/// define
+`projectileHitBlock`
+
 
 ///
 
-
-/// define
-projectileHitBlock
-
-- ```js
+```js
 read-only projectileHitBlock: ProjectileHitBlockAfterEventSignal
 ```
 
 
+/// define
+`projectileHitEntity`
+
 
 ///
 
-
-/// define
-projectileHitEntity
-
-- ```js
+```js
 read-only projectileHitEntity: ProjectileHitEntityAfterEventSignal
 ```
 
 
+/// define
+`targetBlockHit`
+
 
 ///
 
-
-/// define
-targetBlockHit
-
-- ```js
+```js
 read-only targetBlockHit: TargetBlockHitAfterEventSignal
 ```
 
 
+/// define
+`tripWireTrip`
+
 
 ///
 
-
-/// define
-tripWireTrip
-
-- ```js
+```js
 read-only tripWireTrip: TripWireTripAfterEventSignal
 ```
 
 
+/// define
+`weatherChange`
+
 
 ///
 
-
-/// define
-weatherChange
-
-- ```js
+```js
 read-only weatherChange: WeatherChangeAfterEventSignal
 ```
 
 
+/// define
+`worldInitialize`
+
 
 ///
 
-
-/// define
-worldInitialize
-
-- ```js
+```js
 read-only worldInitialize: WorldInitializeAfterEventSignal
 ```
-
-
-
-///
 
 
 ## 方法

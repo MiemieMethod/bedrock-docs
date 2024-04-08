@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-player
-
-- ```js
-read-only player: Player
-```
-
+`player`
 
 
 ///
+
+```js
+read-only player: Player
+```
 
 
 ## 方法

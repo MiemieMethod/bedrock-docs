@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-eventName
-
-- ```js
-eventName: string
-```
-
+`eventName`
 
 
 ///
+
+```js
+eventName: string
+```
 
 
 ## 方法

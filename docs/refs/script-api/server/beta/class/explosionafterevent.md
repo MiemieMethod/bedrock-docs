@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-dimension
+`dimension`
 
-- ```js
+
+///
+
+```js
 read-only dimension: Dimension
 ```
 
 
+/// define
+`source`
+
 
 ///
 
-
-/// define
-source
-
-- ```js
+```js
 read-only source: Entity | undefined
 ```
-
-
-
-///
 
 
 ## 方法

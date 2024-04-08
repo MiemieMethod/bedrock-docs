@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-destroyedBlockPermutation
+`destroyedBlockPermutation`
 
-- ```js
+
+///
+
+```js
 read-only destroyedBlockPermutation: BlockPermutation
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player | undefined
 ```
-
-
-
-///
 
 
 ## 方法

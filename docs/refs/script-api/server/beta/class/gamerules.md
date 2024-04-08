@@ -7,435 +7,399 @@
 ## 属性
 
 /// define
-commandBlockOutput
+`commandBlockOutput`
 
-- ```js
+
+///
+
+```js
 commandBlockOutput: boolean
 ```
 
 
+/// define
+`commandBlocksEnabled`
+
 
 ///
 
-
-/// define
-commandBlocksEnabled
-
-- ```js
+```js
 commandBlocksEnabled: boolean
 ```
 
 
+/// define
+`doDayLightCycle`
+
 
 ///
 
-
-/// define
-doDayLightCycle
-
-- ```js
+```js
 doDayLightCycle: boolean
 ```
 
 
+/// define
+`doEntityDrops`
+
 
 ///
 
-
-/// define
-doEntityDrops
-
-- ```js
+```js
 doEntityDrops: boolean
 ```
 
 
+/// define
+`doFireTick`
+
 
 ///
 
-
-/// define
-doFireTick
-
-- ```js
+```js
 doFireTick: boolean
 ```
 
 
+/// define
+`doImmediateRespawn`
+
 
 ///
 
-
-/// define
-doImmediateRespawn
-
-- ```js
+```js
 doImmediateRespawn: boolean
 ```
 
 
+/// define
+`doInsomnia`
+
 
 ///
 
-
-/// define
-doInsomnia
-
-- ```js
+```js
 doInsomnia: boolean
 ```
 
 
+/// define
+`doLimitedCrafting`
+
 
 ///
 
-
-/// define
-doLimitedCrafting
-
-- ```js
+```js
 doLimitedCrafting: boolean
 ```
 
 
+/// define
+`doMobLoot`
+
 
 ///
 
-
-/// define
-doMobLoot
-
-- ```js
+```js
 doMobLoot: boolean
 ```
 
 
+/// define
+`doMobSpawning`
+
 
 ///
 
-
-/// define
-doMobSpawning
-
-- ```js
+```js
 doMobSpawning: boolean
 ```
 
 
+/// define
+`doTileDrops`
+
 
 ///
 
-
-/// define
-doTileDrops
-
-- ```js
+```js
 doTileDrops: boolean
 ```
 
 
+/// define
+`doWeatherCycle`
+
 
 ///
 
-
-/// define
-doWeatherCycle
-
-- ```js
+```js
 doWeatherCycle: boolean
 ```
 
 
+/// define
+`drowningDamage`
+
 
 ///
 
-
-/// define
-drowningDamage
-
-- ```js
+```js
 drowningDamage: boolean
 ```
 
 
+/// define
+`fallDamage`
+
 
 ///
 
-
-/// define
-fallDamage
-
-- ```js
+```js
 fallDamage: boolean
 ```
 
 
+/// define
+`fireDamage`
+
 
 ///
 
-
-/// define
-fireDamage
-
-- ```js
+```js
 fireDamage: boolean
 ```
 
 
+/// define
+`freezeDamage`
+
 
 ///
 
-
-/// define
-freezeDamage
-
-- ```js
+```js
 freezeDamage: boolean
 ```
 
 
+/// define
+`functionCommandLimit`
+
 
 ///
 
-
-/// define
-functionCommandLimit
-
-- ```js
+```js
 functionCommandLimit: int32
 ```
 
 
+/// define
+`keepInventory`
+
 
 ///
 
-
-/// define
-keepInventory
-
-- ```js
+```js
 keepInventory: boolean
 ```
 
 
+/// define
+`maxCommandChainLength`
+
 
 ///
 
-
-/// define
-maxCommandChainLength
-
-- ```js
+```js
 maxCommandChainLength: int32
 ```
 
 
+/// define
+`mobGriefing`
+
 
 ///
 
-
-/// define
-mobGriefing
-
-- ```js
+```js
 mobGriefing: boolean
 ```
 
 
+/// define
+`naturalRegeneration`
+
 
 ///
 
-
-/// define
-naturalRegeneration
-
-- ```js
+```js
 naturalRegeneration: boolean
 ```
 
 
+/// define
+`playersSleepingPercentage`
+
 
 ///
 
-
-/// define
-playersSleepingPercentage
-
-- ```js
+```js
 playersSleepingPercentage: int32
 ```
 
 
+/// define
+`projectilesCanBreakBlocks`
+
 
 ///
 
-
-/// define
-projectilesCanBreakBlocks
-
-- ```js
+```js
 projectilesCanBreakBlocks: boolean
 ```
 
 
+/// define
+`pvp`
+
 
 ///
 
-
-/// define
-pvp
-
-- ```js
+```js
 pvp: boolean
 ```
 
 
+/// define
+`randomTickSpeed`
+
 
 ///
 
-
-/// define
-randomTickSpeed
-
-- ```js
+```js
 randomTickSpeed: int32
 ```
 
 
+/// define
+`recipesUnlock`
+
 
 ///
 
-
-/// define
-recipesUnlock
-
-- ```js
+```js
 recipesUnlock: boolean
 ```
 
 
+/// define
+`respawnBlocksExplode`
+
 
 ///
 
-
-/// define
-respawnBlocksExplode
-
-- ```js
+```js
 respawnBlocksExplode: boolean
 ```
 
 
+/// define
+`sendCommandFeedback`
+
 
 ///
 
-
-/// define
-sendCommandFeedback
-
-- ```js
+```js
 sendCommandFeedback: boolean
 ```
 
 
+/// define
+`showBorderEffect`
+
 
 ///
 
-
-/// define
-showBorderEffect
-
-- ```js
+```js
 showBorderEffect: boolean
 ```
 
 
+/// define
+`showCoordinates`
+
 
 ///
 
-
-/// define
-showCoordinates
-
-- ```js
+```js
 showCoordinates: boolean
 ```
 
 
+/// define
+`showDeathMessages`
+
 
 ///
 
-
-/// define
-showDeathMessages
-
-- ```js
+```js
 showDeathMessages: boolean
 ```
 
 
+/// define
+`showRecipeMessages`
+
 
 ///
 
-
-/// define
-showRecipeMessages
-
-- ```js
+```js
 showRecipeMessages: boolean
 ```
 
 
+/// define
+`showTags`
+
 
 ///
 
-
-/// define
-showTags
-
-- ```js
+```js
 showTags: boolean
 ```
 
 
+/// define
+`spawnRadius`
+
 
 ///
 
-
-/// define
-spawnRadius
-
-- ```js
+```js
 spawnRadius: int32
 ```
 
 
+/// define
+`tntExplodes`
+
 
 ///
 
-
-/// define
-tntExplodes
-
-- ```js
+```js
 tntExplodes: boolean
 ```
 
 
+/// define
+`tntExplosionDropDecay`
+
 
 ///
 
-
-/// define
-tntExplosionDropDecay
-
-- ```js
+```js
 tntExplosionDropDecay: boolean
 ```
-
-
-
-///
 
 
 ## 方法

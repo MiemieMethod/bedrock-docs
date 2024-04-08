@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-isMoving
+`isMoving`
 
-- ```js
+
+///
+
+```js
 read-only isMoving: boolean
 ```
 
 
+/// define
+`state`
+
 
 ///
 
-
-/// define
-state
-
-- ```js
+```js
 read-only state: BlockPistonState
 ```
-
-
-
-///
 
 
 ## 方法

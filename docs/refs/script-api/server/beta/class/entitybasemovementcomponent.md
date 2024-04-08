@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-maxTurn
-
-- ```js
-read-only maxTurn: float
-```
-
+`maxTurn`
 
 
 ///
+
+```js
+read-only maxTurn: float
+```
 
 
 ## 方法

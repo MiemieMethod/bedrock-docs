@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-itemStack
+`itemStack`
 
-- ```js
+
+///
+
+```js
 itemStack: ItemStack
 ```
 
 
+/// define
+`source`
+
 
 ///
 
-
-/// define
-source
-
-- ```js
+```js
 read-only source: Player
 ```
-
-
-
-///
 
 
 ## 方法

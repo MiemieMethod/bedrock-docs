@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-isExpanding
+`isExpanding`
 
-- ```js
+
+///
+
+```js
 read-only isExpanding: boolean
 ```
 
 
+/// define
+`piston`
+
 
 ///
 
-
-/// define
-piston
-
-- ```js
+```js
 read-only piston: BlockPistonComponent
 ```
-
-
-
-///
 
 
 ## 方法

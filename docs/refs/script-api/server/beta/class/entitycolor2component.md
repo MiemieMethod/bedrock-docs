@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-value
-
-- ```js
-read-only value: PaletteColor
-```
-
+`value`
 
 
 ///
+
+```js
+read-only value: PaletteColor
+```
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-healAmount
+`healAmount`
 
-- ```js
+
+///
+
+```js
 read-only healAmount: int32
 ```
 
 
+/// define
+`item`
+
 
 ///
 
-
-/// define
-item
-
-- ```js
+```js
 read-only item: string
 ```
-
-
-
-///
 
 
 ## 方法

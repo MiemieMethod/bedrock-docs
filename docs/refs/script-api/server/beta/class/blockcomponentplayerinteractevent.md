@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-face
+`face`
 
-- ```js
+
+///
+
+```js
 read-only face: Direction
 ```
 
 
+/// define
+`faceLocation`
+
 
 ///
 
-
-/// define
-faceLocation
-
-- ```js
+```js
 read-only faceLocation: Vector3 | undefined
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player | undefined
 ```
-
-
-
-///
 
 
 ## 方法

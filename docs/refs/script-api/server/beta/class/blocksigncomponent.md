@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-isWaxed
-
-- ```js
-read-only isWaxed: boolean
-```
-
+`isWaxed`
 
 
 ///
+
+```js
+read-only isWaxed: boolean
+```
 
 
 ## 方法

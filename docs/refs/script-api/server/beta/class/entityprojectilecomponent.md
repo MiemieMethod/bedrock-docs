@@ -7,171 +7,157 @@
 ## 属性
 
 /// define
-airInertia
+`airInertia`
 
-- ```js
+
+///
+
+```js
 airInertia: float
 ```
 
 
+/// define
+`catchFireOnHurt`
+
 
 ///
 
-
-/// define
-catchFireOnHurt
-
-- ```js
+```js
 catchFireOnHurt: boolean
 ```
 
 
+/// define
+`critParticlesOnProjectileHurt`
+
 
 ///
 
-
-/// define
-critParticlesOnProjectileHurt
-
-- ```js
+```js
 critParticlesOnProjectileHurt: boolean
 ```
 
 
+/// define
+`destroyOnProjectileHurt`
+
 
 ///
 
-
-/// define
-destroyOnProjectileHurt
-
-- ```js
+```js
 destroyOnProjectileHurt: boolean
 ```
 
 
+/// define
+`gravity`
+
 
 ///
 
-
-/// define
-gravity
-
-- ```js
+```js
 gravity: float
 ```
 
 
+/// define
+`hitEntitySound`
+
 
 ///
 
-
-/// define
-hitEntitySound
-
-- ```js
+```js
 hitEntitySound: string | undefined
 ```
 
 
+/// define
+`hitGroundSound`
+
 
 ///
 
-
-/// define
-hitGroundSound
-
-- ```js
+```js
 hitGroundSound: string | undefined
 ```
 
 
+/// define
+`hitParticle`
+
 
 ///
 
-
-/// define
-hitParticle
-
-- ```js
+```js
 hitParticle: string | undefined
 ```
 
 
+/// define
+`lightningStrikeOnHit`
+
 
 ///
 
-
-/// define
-lightningStrikeOnHit
-
-- ```js
+```js
 lightningStrikeOnHit: boolean
 ```
 
 
+/// define
+`liquidInertia`
+
 
 ///
 
-
-/// define
-liquidInertia
-
-- ```js
+```js
 liquidInertia: float
 ```
 
 
+/// define
+`onFireTime`
+
 
 ///
 
-
-/// define
-onFireTime
-
-- ```js
+```js
 onFireTime: float
 ```
 
 
+/// define
+`owner`
+
 
 ///
 
-
-/// define
-owner
-
-- ```js
+```js
 owner: Entity | undefined
 ```
 
 
+/// define
+`shouldBounceOnHit`
+
 
 ///
 
-
-/// define
-shouldBounceOnHit
-
-- ```js
+```js
 shouldBounceOnHit: boolean
 ```
 
 
+/// define
+`stopOnHit`
+
 
 ///
 
-
-/// define
-stopOnHit
-
-- ```js
+```js
 stopOnHit: boolean
 ```
-
-
-
-///
 
 
 ## 方法

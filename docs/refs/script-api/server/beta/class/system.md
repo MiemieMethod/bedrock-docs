@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-afterEvents
+`afterEvents`
 
-- ```js
+
+///
+
+```js
 read-only afterEvents: SystemAfterEvents
 ```
 
 
+/// define
+`beforeEvents`
+
 
 ///
 
-
-/// define
-beforeEvents
-
-- ```js
+```js
 read-only beforeEvents: SystemBeforeEvents
 ```
 
 
+/// define
+`currentTick`
+
 
 ///
 
-
-/// define
-currentTick
-
-- ```js
+```js
 read-only currentTick: uint32
 ```
-
-
-
-///
 
 
 ## 方法

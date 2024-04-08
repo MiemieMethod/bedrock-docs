@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-cancel
-
-- ```js
-cancel: boolean
-```
-
+`cancel`
 
 
 ///
+
+```js
+cancel: boolean
+```
 
 
 ## 方法

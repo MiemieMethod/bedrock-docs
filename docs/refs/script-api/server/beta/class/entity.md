@@ -7,207 +7,190 @@
 ## 属性
 
 /// define
-dimension
+`dimension`
 
-- ```js
+
+///
+
+```js
 read-only dimension: Dimension
 ```
 
 
+/// define
+`fallDistance`
+
 
 ///
 
-
-/// define
-fallDistance
-
-- ```js
+```js
 read-only fallDistance: float
 ```
 
 
+/// define
+`id`
+
 
 ///
 
-
-/// define
-id
-
-- ```js
+```js
 read-only id: string
 ```
 
 
+/// define
+`isClimbing`
+
 
 ///
 
-
-/// define
-isClimbing
-
-- ```js
+```js
 read-only isClimbing: boolean
 ```
 
 
+/// define
+`isFalling`
+
 
 ///
 
-
-/// define
-isFalling
-
-- ```js
+```js
 read-only isFalling: boolean
 ```
 
 
+/// define
+`isInWater`
+
 
 ///
 
-
-/// define
-isInWater
-
-- ```js
+```js
 read-only isInWater: boolean
 ```
 
 
+/// define
+`isOnGround`
+
 
 ///
 
-
-/// define
-isOnGround
-
-- ```js
+```js
 read-only isOnGround: boolean
 ```
 
 
+/// define
+`isSleeping`
+
 
 ///
 
-
-/// define
-isSleeping
-
-- ```js
+```js
 read-only isSleeping: boolean
 ```
 
 
+/// define
+`isSneaking`
+
 
 ///
 
-
-/// define
-isSneaking
-
-- ```js
+```js
 isSneaking: boolean
 ```
 
 
+/// define
+`isSprinting`
+
 
 ///
 
-
-/// define
-isSprinting
-
-- ```js
+```js
 read-only isSprinting: boolean
 ```
 
 
+/// define
+`isSwimming`
+
 
 ///
 
-
-/// define
-isSwimming
-
-- ```js
+```js
 read-only isSwimming: boolean
 ```
 
 
+/// define
+`lifetimeState`
+
 
 ///
 
-
-/// define
-lifetimeState
-
-- ```js
+```js
 read-only lifetimeState: EntityLifetimeState
 ```
 
 
+/// define
+`location`
+
 
 ///
 
-
-/// define
-location
-
-- ```js
+```js
 read-only location: Vector3
 ```
 
 
+/// define
+`nameTag`
+
 
 ///
 
-
-/// define
-nameTag
-
-- ```js
+```js
 nameTag: string
 ```
 
 
+/// define
+`scoreboardIdentity`
+
 
 ///
 
-
-/// define
-scoreboardIdentity
-
-- ```js
+```js
 read-only scoreboardIdentity: ScoreboardIdentity | undefined
 ```
 
 
+/// define
+`target`
+
 
 ///
 
-
-/// define
-target
-
-- ```js
+```js
 read-only target: Entity | undefined
 ```
 
 
+/// define
+`typeId`
+
 
 ///
 
-
-/// define
-typeId
-
-- ```js
+```js
 read-only typeId: string
 ```
-
-
-
-///
 
 
 ## 方法

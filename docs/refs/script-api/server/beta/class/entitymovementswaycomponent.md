@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-swayAmplitude
+`swayAmplitude`
 
-- ```js
+
+///
+
+```js
 read-only swayAmplitude: float
 ```
 
 
+/// define
+`swayFrequency`
+
 
 ///
 
-
-/// define
-swayFrequency
-
-- ```js
+```js
 read-only swayFrequency: float
 ```
-
-
-
-///
 
 
 ## 方法

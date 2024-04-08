@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-emptySlotsCount
+`emptySlotsCount`
 
-- ```js
+
+///
+
+```js
 read-only emptySlotsCount: int32
 ```
 
 
+/// define
+`size`
+
 
 ///
 
-
-/// define
-size
-
-- ```js
+```js
 read-only size: int32
 ```
-
-
-
-///
 
 
 ## 方法

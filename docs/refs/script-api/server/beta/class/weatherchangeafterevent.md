@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-dimension
+`dimension`
 
-- ```js
+
+///
+
+```js
 read-only dimension: string
 ```
 
 
+/// define
+`newWeather`
+
 
 ///
 
-
-/// define
-newWeather
-
-- ```js
+```js
 read-only newWeather: WeatherType
 ```
 
 
+/// define
+`previousWeather`
+
 
 ///
 
-
-/// define
-previousWeather
-
-- ```js
+```js
 read-only previousWeather: WeatherType
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-hitVector
+`hitVector`
 
-- ```js
+
+///
+
+```js
 read-only hitVector: Vector3
 ```
 
 
+/// define
+`previousRedstonePower`
+
 
 ///
 
-
-/// define
-previousRedstonePower
-
-- ```js
+```js
 read-only previousRedstonePower: int32
 ```
 
 
+/// define
+`redstonePower`
+
 
 ///
 
-
-/// define
-redstonePower
-
-- ```js
+```js
 read-only redstonePower: int32
 ```
 
 
+/// define
+`source`
+
 
 ///
 
-
-/// define
-source
-
-- ```js
+```js
 read-only source: Entity
 ```
-
-
-
-///
 
 
 ## 方法

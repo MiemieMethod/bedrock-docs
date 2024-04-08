@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-id
-
-- ```js
-read-only id: string
-```
-
+`id`
 
 
 ///
+
+```js
+read-only id: string
+```
 
 
 ## 方法

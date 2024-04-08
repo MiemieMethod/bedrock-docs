@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`duration`
+
 
 ///
 
-
-/// define
-duration
-
-- ```js
+```js
 duration: int32
 ```
 
 
+/// define
+`effectType`
+
 
 ///
 
-
-/// define
-effectType
-
-- ```js
+```js
 read-only effectType: string
 ```
 
 
+/// define
+`entity`
+
 
 ///
 
-
-/// define
-entity
-
-- ```js
+```js
 read-only entity: Entity
 ```
-
-
-
-///
 
 
 ## 方法

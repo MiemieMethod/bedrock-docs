@@ -7,63 +7,58 @@
 ## 属性
 
 /// define
-afterEvents
+`afterEvents`
 
-- ```js
+
+///
+
+```js
 read-only afterEvents: WorldAfterEvents
 ```
 
 
+/// define
+`beforeEvents`
+
 
 ///
 
-
-/// define
-beforeEvents
-
-- ```js
+```js
 read-only beforeEvents: WorldBeforeEvents
 ```
 
 
+/// define
+`gameRules`
+
 
 ///
 
-
-/// define
-gameRules
-
-- ```js
+```js
 read-only gameRules: GameRules
 ```
 
 
+/// define
+`scoreboard`
+
 
 ///
 
-
-/// define
-scoreboard
-
-- ```js
+```js
 read-only scoreboard: Scoreboard
 ```
 
 
+/// define
+`structureManager`
+
 
 ///
 
-
-/// define
-structureManager
-
-- ```js
+```js
 read-only structureManager: StructureManager
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-previousRedstonePower
+`previousRedstonePower`
 
-- ```js
+
+///
+
+```js
 read-only previousRedstonePower: int32
 ```
 
 
+/// define
+`redstonePower`
+
 
 ///
 
-
-/// define
-redstonePower
-
-- ```js
+```js
 read-only redstonePower: int32
 ```
-
-
-
-///
 
 
 ## 方法

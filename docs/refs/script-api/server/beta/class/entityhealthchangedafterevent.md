@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-entity
+`entity`
 
-- ```js
+
+///
+
+```js
 read-only entity: Entity
 ```
 
 
+/// define
+`newValue`
+
 
 ///
 
-
-/// define
-newValue
-
-- ```js
+```js
 read-only newValue: float
 ```
 
 
+/// define
+`oldValue`
+
 
 ///
 
-
-/// define
-oldValue
-
-- ```js
+```js
 read-only oldValue: float
 ```
-
-
-
-///
 
 
 ## 方法

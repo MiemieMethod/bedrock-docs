@@ -7,231 +7,212 @@
 ## 属性
 
 /// define
-avoidDamageBlocks
+`avoidDamageBlocks`
 
-- ```js
+
+///
+
+```js
 read-only avoidDamageBlocks: boolean
 ```
 
 
+/// define
+`avoidPortals`
+
 
 ///
 
-
-/// define
-avoidPortals
-
-- ```js
+```js
 read-only avoidPortals: boolean
 ```
 
 
+/// define
+`avoidSun`
+
 
 ///
 
-
-/// define
-avoidSun
-
-- ```js
+```js
 read-only avoidSun: boolean
 ```
 
 
+/// define
+`avoidWater`
+
 
 ///
 
-
-/// define
-avoidWater
-
-- ```js
+```js
 read-only avoidWater: boolean
 ```
 
 
+/// define
+`canBreach`
+
 
 ///
 
-
-/// define
-canBreach
-
-- ```js
+```js
 read-only canBreach: boolean
 ```
 
 
+/// define
+`canBreakDoors`
+
 
 ///
 
-
-/// define
-canBreakDoors
-
-- ```js
+```js
 read-only canBreakDoors: boolean
 ```
 
 
+/// define
+`canFloat`
+
 
 ///
 
-
-/// define
-canFloat
-
-- ```js
+```js
 read-only canFloat: boolean
 ```
 
 
+/// define
+`canJump`
+
 
 ///
 
-
-/// define
-canJump
-
-- ```js
+```js
 read-only canJump: boolean
 ```
 
 
+/// define
+`canOpenDoors`
+
 
 ///
 
-
-/// define
-canOpenDoors
-
-- ```js
+```js
 read-only canOpenDoors: boolean
 ```
 
 
+/// define
+`canOpenIronDoors`
+
 
 ///
 
-
-/// define
-canOpenIronDoors
-
-- ```js
+```js
 read-only canOpenIronDoors: boolean
 ```
 
 
+/// define
+`canPassDoors`
+
 
 ///
 
-
-/// define
-canPassDoors
-
-- ```js
+```js
 read-only canPassDoors: boolean
 ```
 
 
+/// define
+`canPathFromAir`
+
 
 ///
 
-
-/// define
-canPathFromAir
-
-- ```js
+```js
 read-only canPathFromAir: boolean
 ```
 
 
+/// define
+`canPathOverLava`
+
 
 ///
 
-
-/// define
-canPathOverLava
-
-- ```js
+```js
 read-only canPathOverLava: boolean
 ```
 
 
+/// define
+`canPathOverWater`
+
 
 ///
 
-
-/// define
-canPathOverWater
-
-- ```js
+```js
 read-only canPathOverWater: boolean
 ```
 
 
+/// define
+`canSink`
+
 
 ///
 
-
-/// define
-canSink
-
-- ```js
+```js
 read-only canSink: boolean
 ```
 
 
+/// define
+`canSwim`
+
 
 ///
 
-
-/// define
-canSwim
-
-- ```js
+```js
 read-only canSwim: boolean
 ```
 
 
+/// define
+`canWalk`
+
 
 ///
 
-
-/// define
-canWalk
-
-- ```js
+```js
 read-only canWalk: boolean
 ```
 
 
+/// define
+`canWalkInLava`
+
 
 ///
 
-
-/// define
-canWalkInLava
-
-- ```js
+```js
 read-only canWalkInLava: boolean
 ```
 
 
+/// define
+`isAmphibious`
+
 
 ///
 
-
-/// define
-isAmphibious
-
-- ```js
+```js
 read-only isAmphibious: boolean
 ```
-
-
-
-///
 
 
 ## 方法

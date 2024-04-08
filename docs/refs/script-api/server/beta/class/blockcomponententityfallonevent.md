@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-entity
+`entity`
 
-- ```js
+
+///
+
+```js
 read-only entity: Entity | undefined
 ```
 
 
+/// define
+`fallDistance`
+
 
 ///
 
-
-/// define
-fallDistance
-
-- ```js
+```js
 read-only fallDistance: float
 ```
-
-
-
-///
 
 
 ## 方法

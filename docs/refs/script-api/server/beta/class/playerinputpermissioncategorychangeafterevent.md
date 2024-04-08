@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-category
+`category`
 
-- ```js
+
+///
+
+```js
 read-only category: InputPermissionCategory
 ```
 
 
+/// define
+`enabled`
+
 
 ///
 
-
-/// define
-enabled
-
-- ```js
+```js
 read-only enabled: boolean
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
-
-
-
-///
 
 
 ## 方法

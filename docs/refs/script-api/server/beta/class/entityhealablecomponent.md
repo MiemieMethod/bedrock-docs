@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-forceUse
-
-- ```js
-read-only forceUse: boolean
-```
-
+`forceUse`
 
 
 ///
+
+```js
+read-only forceUse: boolean
+```
 
 
 ## 方法

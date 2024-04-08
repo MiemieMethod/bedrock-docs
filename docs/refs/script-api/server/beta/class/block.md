@@ -7,147 +7,135 @@
 ## 属性
 
 /// define
-dimension
+`dimension`
 
-- ```js
+
+///
+
+```js
 read-only dimension: Dimension
 ```
 
 
+/// define
+`isAir`
+
 
 ///
 
-
-/// define
-isAir
-
-- ```js
+```js
 read-only isAir: boolean
 ```
 
 
+/// define
+`isLiquid`
+
 
 ///
 
-
-/// define
-isLiquid
-
-- ```js
+```js
 read-only isLiquid: boolean
 ```
 
 
+/// define
+`isSolid`
+
 
 ///
 
-
-/// define
-isSolid
-
-- ```js
+```js
 read-only isSolid: boolean
 ```
 
 
+/// define
+`isWaterlogged`
+
 
 ///
 
-
-/// define
-isWaterlogged
-
-- ```js
+```js
 read-only isWaterlogged: boolean
 ```
 
 
+/// define
+`location`
+
 
 ///
 
-
-/// define
-location
-
-- ```js
+```js
 read-only location: Vector3
 ```
 
 
+/// define
+`permutation`
+
 
 ///
 
-
-/// define
-permutation
-
-- ```js
+```js
 read-only permutation: BlockPermutation
 ```
 
 
+/// define
+`type`
+
 
 ///
 
-
-/// define
-type
-
-- ```js
+```js
 read-only type: BlockType
 ```
 
 
+/// define
+`typeId`
+
 
 ///
 
-
-/// define
-typeId
-
-- ```js
+```js
 read-only typeId: string
 ```
 
 
+/// define
+`x`
+
 
 ///
 
-
-/// define
-x
-
-- ```js
+```js
 read-only x: int32
 ```
 
 
+/// define
+`y`
+
 
 ///
 
-
-/// define
-y
-
-- ```js
+```js
 read-only y: int32
 ```
 
 
+/// define
+`z`
+
 
 ///
 
-
-/// define
-z
-
-- ```js
+```js
 read-only z: int32
 ```
-
-
-
-///
 
 
 ## 方法

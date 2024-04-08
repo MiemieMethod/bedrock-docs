@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-container
-
-- ```js
-read-only container: Container | undefined
-```
-
+`container`
 
 
 ///
+
+```js
+read-only container: Container | undefined
+```
 
 
 ## 方法

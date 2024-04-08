@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-cameraEnabled
+`cameraEnabled`
 
-- ```js
+
+///
+
+```js
 cameraEnabled: boolean
 ```
 
 
+/// define
+`movementEnabled`
+
 
 ///
 
-
-/// define
-movementEnabled
-
-- ```js
+```js
 movementEnabled: boolean
 ```
-
-
-
-///
 
 
 ## 方法

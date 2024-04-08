@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-itemStack
-
-- ```js
-read-only itemStack: ItemStack
-```
-
+`itemStack`
 
 
 ///
+
+```js
+read-only itemStack: ItemStack
+```
 
 
 ## 方法

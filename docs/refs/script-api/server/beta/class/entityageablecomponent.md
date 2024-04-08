@@ -7,39 +7,36 @@
 ## 属性
 
 /// define
-duration
+`duration`
 
-- ```js
+
+///
+
+```js
 read-only duration: float
 ```
 
 
+/// define
+`growUp`
+
 
 ///
 
-
-/// define
-growUp
-
-- ```js
+```js
 read-only growUp: Trigger
 ```
 
 
+/// define
+`transformToItem`
+
 
 ///
 
-
-/// define
-transformToItem
-
-- ```js
+```js
 read-only transformToItem: string
 ```
-
-
-
-///
 
 
 ## 方法

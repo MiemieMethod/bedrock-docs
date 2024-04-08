@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-damagingEntity
+`damagingEntity`
 
-- ```js
+
+///
+
+```js
 read-only damagingEntity: Entity
 ```
 
 
+/// define
+`hitEntity`
+
 
 ///
 
-
-/// define
-hitEntity
-
-- ```js
+```js
 read-only hitEntity: Entity
 ```
-
-
-
-///
 
 
 ## 方法

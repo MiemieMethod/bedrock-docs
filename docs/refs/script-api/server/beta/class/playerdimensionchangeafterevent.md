@@ -7,63 +7,58 @@
 ## 属性
 
 /// define
-fromDimension
+`fromDimension`
 
-- ```js
+
+///
+
+```js
 read-only fromDimension: Dimension
 ```
 
 
+/// define
+`fromLocation`
+
 
 ///
 
-
-/// define
-fromLocation
-
-- ```js
+```js
 read-only fromLocation: Vector3
 ```
 
 
+/// define
+`player`
+
 
 ///
 
-
-/// define
-player
-
-- ```js
+```js
 read-only player: Player
 ```
 
 
+/// define
+`toDimension`
+
 
 ///
 
-
-/// define
-toDimension
-
-- ```js
+```js
 read-only toDimension: Dimension
 ```
 
 
+/// define
+`toLocation`
+
 
 ///
 
-
-/// define
-toLocation
-
-- ```js
+```js
 read-only toLocation: Vector3
 ```
-
-
-
-///
 
 
 ## 方法

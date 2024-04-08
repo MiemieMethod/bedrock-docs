@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-canAlwaysEat
+`canAlwaysEat`
 
-- ```js
+
+///
+
+```js
 read-only canAlwaysEat: boolean
 ```
 
 
+/// define
+`nutrition`
+
 
 ///
 
-
-/// define
-nutrition
-
-- ```js
+```js
 read-only nutrition: int32
 ```
 
 
+/// define
+`saturationModifier`
+
 
 ///
 
-
-/// define
-saturationModifier
-
-- ```js
+```js
 read-only saturationModifier: float
 ```
 
 
+/// define
+`usingConvertsTo`
+
 
 ///
 
-
-/// define
-usingConvertsTo
-
-- ```js
+```js
 read-only usingConvertsTo: string
 ```
-
-
-
-///
 
 
 ## 方法

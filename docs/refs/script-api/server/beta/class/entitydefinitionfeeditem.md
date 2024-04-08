@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-growth
+`growth`
 
-- ```js
+
+///
+
+```js
 read-only growth: float
 ```
 
 
+/// define
+`item`
+
 
 ///
 
-
-/// define
-item
-
-- ```js
+```js
 read-only item: string
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-slots
-
-- ```js
-read-only slots: EnchantmentSlot[]
-```
-
+`slots`
 
 
 ///
+
+```js
+read-only slots: EnchantmentSlot[]
+```
 
 
 ## 方法

@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-removedEntity
-
-- ```js
-read-only removedEntity: Entity
-```
-
+`removedEntity`
 
 
 ///
+
+```js
+read-only removedEntity: Entity
+```
 
 
 ## 方法

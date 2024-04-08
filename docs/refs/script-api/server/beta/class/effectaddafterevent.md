@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-effect
+`effect`
 
-- ```js
+
+///
+
+```js
 read-only effect: Effect
 ```
 
 
+/// define
+`entity`
+
 
 ///
 
-
-/// define
-entity
-
-- ```js
+```js
 read-only entity: Entity
 ```
-
-
-
-///
 
 
 ## 方法

@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-entity
+`entity`
 
-- ```js
+
+///
+
+```js
 read-only entity: Entity
 ```
 
 
+/// define
+`eventId`
+
 
 ///
 
-
-/// define
-eventId
-
-- ```js
+```js
 read-only eventId: string
 ```
-
-
-
-///
 
 
 ## 方法

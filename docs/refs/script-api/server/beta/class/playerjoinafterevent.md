@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-playerId
+`playerId`
 
-- ```js
+
+///
+
+```js
 read-only playerId: string
 ```
 
 
+/// define
+`playerName`
+
 
 ///
 
-
-/// define
-playerName
-
-- ```js
+```js
 read-only playerName: string
 ```
-
-
-
-///
 
 
 ## 方法

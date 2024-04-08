@@ -7,15 +7,14 @@
 ## 属性
 
 /// define
-watchdogTerminate
-
-- ```js
-read-only watchdogTerminate: WatchdogTerminateBeforeEventSignal
-```
-
+`watchdogTerminate`
 
 
 ///
+
+```js
+read-only watchdogTerminate: WatchdogTerminateBeforeEventSignal
+```
 
 
 ## 方法

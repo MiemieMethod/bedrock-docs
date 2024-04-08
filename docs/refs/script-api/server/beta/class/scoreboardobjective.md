@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-displayName
+`displayName`
 
-- ```js
+
+///
+
+```js
 read-only displayName: string
 ```
 
 
+/// define
+`id`
+
 
 ///
 
-
-/// define
-id
-
-- ```js
+```js
 read-only id: string
 ```
-
-
-
-///
 
 
 ## 方法

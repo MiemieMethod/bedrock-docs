@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`message`
+
 
 ///
 
-
-/// define
-message
-
-- ```js
+```js
 read-only message: string
 ```
 
 
+/// define
+`sender`
+
 
 ///
 
-
-/// define
-sender
-
-- ```js
+```js
 read-only sender: Player
 ```
 
 
+/// define
+`targets`
+
 
 ///
 
-
-/// define
-targets
-
-- ```js
+```js
 read-only targets: Player[] | undefined
 ```
-
-
-
-///
 
 
 ## 方法

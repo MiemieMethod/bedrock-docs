@@ -7,27 +7,25 @@
 ## 属性
 
 /// define
-cause
+`cause`
 
-- ```js
+
+///
+
+```js
 read-only cause: EntityInitializationCause
 ```
 
 
+/// define
+`entity`
+
 
 ///
 
-
-/// define
-entity
-
-- ```js
+```js
 entity: Entity
 ```
-
-
-
-///
 
 
 ## 方法

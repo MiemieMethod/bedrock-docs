@@ -7,51 +7,47 @@
 ## 属性
 
 /// define
-cancel
+`cancel`
 
-- ```js
+
+///
+
+```js
 cancel: boolean
 ```
 
 
+/// define
+`duration`
+
 
 ///
 
-
-/// define
-duration
-
-- ```js
+```js
 duration: int32
 ```
 
 
+/// define
+`newWeather`
+
 
 ///
 
-
-/// define
-newWeather
-
-- ```js
+```js
 newWeather: WeatherType
 ```
 
 
+/// define
+`previousWeather`
+
 
 ///
 
-
-/// define
-previousWeather
-
-- ```js
+```js
 read-only previousWeather: WeatherType
 ```
-
-
-
-///
 
 
 ## 方法
