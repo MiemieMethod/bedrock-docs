@@ -2366,6 +2366,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponenttypemap/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponenttypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
@@ -2601,6 +2606,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/commanderror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/commandresult/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
@@ -2741,6 +2751,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmentleveloutofboundserror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmentslot/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
@@ -2751,7 +2766,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmenttypenotcompatibleerror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmenttypes/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmenttypeunknowniderror/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -2822,6 +2847,11 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycomponent/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycomponenttypemap/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -3426,6 +3456,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/invalidcontainersloterror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/invalidstructureerror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/iplayerjoinaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
@@ -3476,6 +3516,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponenttypemap/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponenttypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
@@ -3492,6 +3537,31 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcustomcomponent/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcustomcomponentalreadyregisterederror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcustomcomponentnameerror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcustomcomponentreloadnewcomponenterror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcustomcomponentreloadneweventerror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcustomcomponentreloadversionerror/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -3642,6 +3712,16 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/listblockvolume/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/locationinunloadedchunkerror/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/locationoutofworldboundarieserror/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -4122,6 +4202,11 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/tripwiretripaftereventsignal/</loc>
+         <lastmod>2024-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/unloadedchunkserror/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
