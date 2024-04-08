@@ -2291,1927 +2291,1927 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/biometype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/biomesearchoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/biometypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/biometype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/block/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/biometypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/block/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponententityfallonevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentonplaceevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponententityfallonevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentplayerdestroyevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentonplaceevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentplayerinteractevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentplayerdestroyevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentplayerplacebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentplayerinteractevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentrandomtickevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentplayerplacebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentregistry/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentrandomtickevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentstepoffevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentregistry/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponentsteponevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentstepoffevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockcomponenttickevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponentsteponevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponenttickevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockexplodeafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcomponenttypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockexplodeaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockcustomcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockinventorycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blocklavacontainercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockeventoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockliquidcontainercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockexplodeafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blocklocationiterator/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockexplodeaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockpermutation/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockfilloptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockpistoncomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockfilter/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockpotioncontainercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockhitinformation/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockrecordplayercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockinventorycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blocksigncomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blocklavacontainercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blocksnowcontainercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockliquidcontainercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockstates/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blocklocationiterator/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockstatetype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockpermutation/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blocktype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockpistoncomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blocktypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockpistonstate/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockvolume/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockpotioncontainercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockvolumebase/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockraycasthit/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/blockwatercontainercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockraycastoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/boundingboxutils/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockrecordplayercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/buttonpushafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blocksigncomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/buttonpushaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blocksnowcontainercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/camera/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockstates/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/chatsendafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockstatetype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/chatsendaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blocktype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/chatsendbeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blocktypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/chatsendbeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockvolume/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/commandresult/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockvolumebase/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/component/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockvolumeintersection/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/compoundblockvolume/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/blockwatercontainercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/container/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/boundingbox/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/containerslot/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/boundingboxutils/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/datadrivenentitytriggerafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/buttonpushafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/datadrivenentitytriggeraftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/buttonpushaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/dimension/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/camera/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/dimensiontype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/cameradefaultoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/dimensiontypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/cameraeaseoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/effect/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/camerafadeoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/effectaddafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/camerafadetimeoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/effectaddaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/camerasetfacingoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/effectaddbeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/camerasetlocationoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/effectaddbeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/camerasetposoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/effecttype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/camerasetrotoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/effecttypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/chatsendafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/enchantmenttype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/chatsendaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/enchantmenttypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/chatsendbeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entity/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/chatsendbeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityaddridercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/commandresult/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityageablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/component/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityattributecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/compoundblockvolume/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitybasemovementcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/compoundblockvolumeaction/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitybreathablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/compoundblockvolumeitem/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitycanclimbcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/compoundblockvolumepositionrelativity/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitycanflycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/container/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitycanpowerjumpcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/containerslot/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitycolor2component/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/datadrivenentitytriggerafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitycolorcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/datadrivenentitytriggeraftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/definitionmodifier/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitydefinitionfeeditem/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/difficulty/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitydieafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/dimension/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitydieaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/dimensionlocation/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityequippablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/dimensiontype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityfireimmunecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/dimensiontypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityfloatsinliquidcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/direction/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityflyingspeedcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/displayslotid/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityfrictionmodifiercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/dyecolor/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitygroundoffsetcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/easingtype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhealablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/effect/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhealthchangedafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/effectaddafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhealthchangedaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/effectaddaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhealthcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/effectaddbeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhitblockafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/effectaddbeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhitblockaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/effecttype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhitentityafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/effecttypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhitentityaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantment/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhurtafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmentslot/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityhurtaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmenttype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityinventorycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enchantmenttypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisbabycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entity/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityischargedcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityaddridercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityischestedcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityageablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisdyeablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityapplydamagebyprojectileoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityishiddenwheninvisiblecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityapplydamageoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisignitedcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityattributecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisillagercaptaincomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitybasemovementcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityissaddledcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitybreathablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisshakingcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycanclimbcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisshearedcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycanflycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisstackablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycanpowerjumpcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityisstunnedcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycolor2component/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityistamedcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycolorcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityitemcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityiterator/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitycomponenttypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitylavamovementcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitydamagecause/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityleashablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitydamagesource/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityloadafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitydatadriventriggereventoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityloadaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitydefinitionfeeditem/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymarkvariantcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitydieafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementamphibiouscomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitydieaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementbasiccomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityeffectoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityequippablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementflycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityeventoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementgenericcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityfilter/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementglidecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityfireimmunecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementhovercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityfloatsinliquidcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementjumpcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityflyingspeedcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementskipcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityfrictionmodifiercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitymovementswaycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitygroundoffsetcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynavigationclimbcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhealablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynavigationcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhealthchangedafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynavigationfloatcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhealthchangedaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynavigationflycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhealthcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynavigationgenericcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhitblockafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynavigationhovercomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhitblockaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynavigationwalkcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhitentityafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitynpccomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhitentityaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityonfirecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhitinformation/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityprojectilecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhurtafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitypushthroughcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityhurtaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityremoveafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityinitializationcause/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityremoveaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityinventorycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityremovebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisbabycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityremovebeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityischargedcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityrideablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityischestedcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityridingcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisdyeablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityscalecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityishiddenwheninvisiblecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityskinidcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisignitedcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityspawnafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisillagercaptaincomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityspawnaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityissaddledcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitystrengthcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisshakingcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitytameablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisshearedcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitytamemountcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisstackablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitytype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityisstunnedcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitytypefamilycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityistamedcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitytypeiterator/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityitemcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitytypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityiterator/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityunderwatermovementcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitylavamovementcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entityvariantcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityleashablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/entitywantsjockeycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitylifetimestate/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/explosionafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityloadafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/explosionaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityloadaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/explosionbeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymarkvariantcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/explosionbeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementamphibiouscomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/feeditem/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementbasiccomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/feeditemeffect/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/filtergroup/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementflycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/fluidcontainer/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementgenericcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/gamerulechangeafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementglidecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/gamerulechangeaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementhovercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/gamerules/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementjumpcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/ibuttonpushaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementskipcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/ileveractionaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitymovementswaycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/iplayerjoinaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynavigationclimbcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/iplayerleaveaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynavigationcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/iplayerspawnaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynavigationfloatcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcompleteuseafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynavigationflycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcompleteuseaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynavigationgenericcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynavigationhovercomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcomponentbeforedurabilitydamageevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynavigationwalkcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcomponenthitentityevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitynpccomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcomponentmineblockevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityonfirecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcomponentregistry/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityprojectilecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcomponentuseevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitypushthroughcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemcooldowncomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityqueryoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemdurabilitycomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityquerypropertyoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemenchantablecomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityqueryscoreoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemfoodcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityraycasthit/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemreleaseuseafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityraycastoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemreleaseuseaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityremoveafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstack/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityremoveaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstartuseafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityremovebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstartuseaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityremovebeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstartuseonafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityrideablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstartuseonaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityridingcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstopuseafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityscalecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstopuseaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityskinidcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstopuseonafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityspawnafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemstopuseonaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityspawnaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemtype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitystrengthcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemtypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitytameablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemuseafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitytamemountcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemuseaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitytype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemusebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitytypefamilycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemusebeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitytypeiterator/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemuseonafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitytypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemuseonaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityunderwatermovementcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemuseonbeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entityvariantcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/itemuseonbeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/entitywantsjockeycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/leveractionafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/equalscomparison/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/leveractionaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/equipmentslot/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/listblockvolume/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/explosionafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/messagereceiveafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/explosionaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/minecraftdimensiontypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/explosionbeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/molangvariablemap/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/explosionbeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/pistonactivateafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/explosionoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/pistonactivateaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/feeditem/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/player/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/feeditemeffect/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerbreakblockafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/filtergroup/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerbreakblockaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/fluidcontainer/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerbreakblockbeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/fluidtype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerbreakblockbeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/gamemode/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerdimensionchangeafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/gamerule/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerdimensionchangeaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/gamerulechangeafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playergamemodechangeafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/gamerulechangeaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playergamemodechangeaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/gamerules/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playergamemodechangebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/greaterthancomparison/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playergamemodechangebeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/greaterthanorequalscomparison/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinputpermissioncategorychangeafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/hudelement/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinputpermissioncategorychangeaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/hudvisibility/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinputpermissions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/ibuttonpushaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithblockafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/ileveractionaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithblockaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/inputpermissioncategory/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithblockbeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/iplayerjoinaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithblockbeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/iplayerleaveaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithentityafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/iplayerspawnaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithentityaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcompleteuseafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithentitybeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcompleteuseaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerinteractwithentitybeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playeriterator/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponentbeforedurabilitydamageevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerjoinafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponenthitentityevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerjoinaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponentmineblockevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerleaveafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponentregistry/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerleaveaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponenttypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerleavebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcomponentuseevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerleavebeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcooldowncomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerplaceblockafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcustomcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerplaceblockaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemdurabilitycomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerplaceblockbeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemenchantablecomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerplaceblockbeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemfoodcomponent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerspawnafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemlockmode/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/playerspawnaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemreleaseuseafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/pressureplatepopafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemreleaseuseaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/pressureplatepopaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstack/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/pressureplatepushafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstartuseafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/pressureplatepushaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstartuseaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/projectilehitblockafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstartuseonafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/projectilehitblockaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstartuseonaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/projectilehitentityafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstopuseafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/projectilehitentityaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstopuseaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/scoreboard/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstopuseonafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/scoreboardidentity/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemstopuseonaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/scoreboardobjective/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemtype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/scoreboardscoreinfo/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemtypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/screendisplay/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemuseafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/scripteventcommandmessageafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemuseaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/scripteventcommandmessageaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemusebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/seat/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemusebeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/servermessageaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemuseonafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/structure/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemuseonaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/structuremanager/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemuseonbeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/system/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemuseonbeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/systemafterevents/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/lessthancomparison/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/systembeforeevents/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/lessthanorequalscomparison/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/targetblockhitafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/leveractionafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/targetblockhitaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/leveractionaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/trigger/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/listblockvolume/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/tripwiretripafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/messagereceiveafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/tripwiretripaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/minecraftdimensiontypes/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/watchdogterminatebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/molangvariablemap/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/watchdogterminatebeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/moonphase/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/weatherchangeafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/musicoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/weatherchangeaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/notequalscomparison/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/weatherchangebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/objectivesortorder/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/weatherchangebeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/palettecolor/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/world/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/pistonactivateafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/worldafterevents/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/pistonactivateaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/worldbeforeevents/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playanimationoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/worldinitializeafterevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/player/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/worldinitializeaftereventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerbreakblockafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/worldinitializebeforeevent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerbreakblockaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/class/worldinitializebeforeeventsignal/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerbreakblockbeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/blockcomponenttypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerbreakblockbeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/blockpistonstate/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerdimensionchangeafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/blockvolumeintersection/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerdimensionchangeaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/compoundblockvolumeaction/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playergamemodechangeafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/compoundblockvolumepositionrelativity/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playergamemodechangeaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/difficulty/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playergamemodechangebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/direction/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playergamemodechangebeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/displayslotid/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinputpermissioncategorychangeafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/dyecolor/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinputpermissioncategorychangeaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/easingtype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinputpermissions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/enchantmentslot/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithblockafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/entitycomponenttypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithblockaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/entitydamagecause/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithblockbeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/entityinitializationcause/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithblockbeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/entitylifetimestate/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithentityafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/equipmentslot/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithentityaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/fluidtype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithentitybeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/gamemode/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerinteractwithentitybeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/gamerule/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playeriterator/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/hudelement/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerjoinafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/hudvisibility/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerjoinaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/inputpermissioncategory/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerleaveafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/itemcomponenttypes/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerleaveaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/itemlockmode/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerleavebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/moonphase/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerleavebeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/objectivesortorder/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerplaceblockafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/palettecolor/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerplaceblockaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/scoreboardidentitytype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerplaceblockbeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/scripteventsource/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerplaceblockbeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/signside/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playersoundoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/structureanimationmode/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerspawnafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/structuremirroraxis/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/playerspawnaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/structurerotation/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/pressureplatepopafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/structuresavemode/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/pressureplatepopaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/timeofday/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/pressureplatepushafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/watchdogterminatereason/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/pressureplatepushaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/enum/weathertype/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/projectilehitblockafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/biomesearchoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/projectilehitblockaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/blockcustomcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/projectilehitentityafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/blockeventoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/projectilehitentityaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/blockfilloptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/projectileshootoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/blockfilter/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/rangecomparison/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/blockhitinformation/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/rawmessage/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/blockraycasthit/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/rawmessagescore/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/blockraycastoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/rawtext/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/boundingbox/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/rgb/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/cameradefaultoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/rgba/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/cameraeaseoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scoreboard/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/camerafadeoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scoreboardidentity/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/camerafadetimeoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scoreboardidentitytype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/camerasetfacingoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scoreboardobjective/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/camerasetlocationoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scoreboardobjectivedisplayoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/camerasetposoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scoreboardscoreinfo/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/camerasetrotoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/screendisplay/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/compoundblockvolumeitem/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scripteventcommandmessageafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/definitionmodifier/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scripteventcommandmessageaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/dimensionlocation/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scripteventmessagefilteroptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/enchantment/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/scripteventsource/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityapplydamagebyprojectileoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/seat/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityapplydamageoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/servermessageaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entitydamagesource/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/signside/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entitydatadriventriggereventoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/spawnentityoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityeffectoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structure/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityeventoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structureanimationmode/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityfilter/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structurecreateoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityhitinformation/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structuremanager/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityqueryoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structuremirroraxis/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityquerypropertyoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structureplaceoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityqueryscoreoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structurerotation/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityraycasthit/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/structuresavemode/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/entityraycastoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/system/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/equalscomparison/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/systemafterevents/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/explosionoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/systembeforeevents/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/greaterthancomparison/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/targetblockhitafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/greaterthanorequalscomparison/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/targetblockhitaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/itemcustomcomponent/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/teleportoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/lessthancomparison/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/timeofday/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/lessthanorequalscomparison/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/titledisplayoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/musicoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/trigger/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/notequalscomparison/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/tripwiretripafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/playanimationoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/tripwiretripaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/playersoundoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/vector2/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/projectileshootoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/vector3/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/rangecomparison/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/watchdogterminatebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/rawmessage/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/watchdogterminatebeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/rawmessagescore/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/watchdogterminatereason/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/rawtext/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/weatherchangeafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/rgb/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/weatherchangeaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/rgba/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/weatherchangebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/scoreboardobjectivedisplayoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/weatherchangebeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/scripteventmessagefilteroptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/weathertype/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/spawnentityoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/world/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/structurecreateoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/worldafterevents/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/structureplaceoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/worldbeforeevents/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/teleportoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/worldinitializeafterevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/titledisplayoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/worldinitializeaftereventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/vector2/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/worldinitializebeforeevent/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/vector3/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/worldinitializebeforeeventsignal/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/interface/worldsoundoptions/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/worldsoundoptions/</loc>
          <lastmod>2024-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
