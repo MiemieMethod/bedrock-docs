@@ -18,7 +18,7 @@
 
 /// html | div.result
 //// define
-返回值：`Iterator<EntityType>`
+返回值：<code>Iterator&lt;<a href="../entitytype/">EntityType</a>&gt;</code>
 
 - 返回值。
 
@@ -40,7 +40,7 @@ next(): IteratorResult<EntityType>
 
 /// html | div.result
 //// define
-返回值：`IteratorResult<EntityType>`
+返回值：<code>IteratorResult&lt;<a href="../entitytype/">EntityType</a>&gt;</code>
 
 - 返回值。
 

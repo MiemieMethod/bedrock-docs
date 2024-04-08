@@ -18,7 +18,7 @@
 
 /// html | div.result
 //// define
-返回值：`Iterator<Player>`
+返回值：<code>Iterator&lt;<a href="../player/">Player</a>&gt;</code>
 
 - 返回值。
 
@@ -40,7 +40,7 @@ next(): IteratorResult<Player>
 
 /// html | div.result
 //// define
-返回值：`IteratorResult<Player>`
+返回值：<code>IteratorResult&lt;<a href="../player/">Player</a>&gt;</code>
 
 - 返回值。
 
