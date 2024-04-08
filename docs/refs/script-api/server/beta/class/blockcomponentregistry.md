@@ -9,13 +9,12 @@
 ## 方法
 
 /// define
-registerCustomComponent
-
-- ```js
-registerCustomComponent(name: string, customComponent: BlockCustomComponent): void
-```
-
+`registerCustomComponent`
 
 
 ///
+
+```js
+registerCustomComponent(name: string, customComponent: BlockCustomComponent): void
+```
 

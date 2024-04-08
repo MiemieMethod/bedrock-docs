@@ -97,37 +97,34 @@ read-only totalSupply: int32
 ## 方法
 
 /// define
-getBreatheBlocks
+`getBreatheBlocks`
 
-- ```js
+
+///
+
+```js
 getBreatheBlocks(): BlockPermutation[]
 ```
 
 
+/// define
+`getNonBreatheBlocks`
+
 
 ///
 
-
-/// define
-getNonBreatheBlocks
-
-- ```js
+```js
 getNonBreatheBlocks(): BlockPermutation[]
 ```
 
 
+/// define
+`setAirSupply`
+
 
 ///
 
-
-/// define
-setAirSupply
-
-- ```js
+```js
 setAirSupply(value: int16): void
 ```
-
-
-
-///
 

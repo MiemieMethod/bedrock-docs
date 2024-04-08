@@ -20,97 +20,89 @@ read-only slots: EnchantmentSlot[]
 ## 方法
 
 /// define
-addEnchantment
+`addEnchantment`
 
-- ```js
+
+///
+
+```js
 addEnchantment(enchantment: Enchantment): void
 ```
 
 
+/// define
+`addEnchantments`
+
 
 ///
 
-
-/// define
-addEnchantments
-
-- ```js
+```js
 addEnchantments(enchantments: Enchantment[]): void
 ```
 
 
+/// define
+`canAddEnchantment`
+
 
 ///
 
-
-/// define
-canAddEnchantment
-
-- ```js
+```js
 canAddEnchantment(enchantment: Enchantment): boolean
 ```
 
 
+/// define
+`getEnchantment`
+
 
 ///
 
-
-/// define
-getEnchantment
-
-- ```js
+```js
 getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefined
 ```
 
 
+/// define
+`getEnchantments`
+
 
 ///
 
-
-/// define
-getEnchantments
-
-- ```js
+```js
 getEnchantments(): Enchantment[]
 ```
 
 
+/// define
+`hasEnchantment`
+
 
 ///
 
-
-/// define
-hasEnchantment
-
-- ```js
+```js
 hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 ```
 
 
+/// define
+`removeAllEnchantments`
+
 
 ///
 
-
-/// define
-removeAllEnchantments
-
-- ```js
+```js
 removeAllEnchantments(): void
 ```
 
 
+/// define
+`removeEnchantment`
+
 
 ///
 
-
-/// define
-removeEnchantment
-
-- ```js
+```js
 removeEnchantment(enchantmentType: EnchantmentType | string): void
 ```
-
-
-
-///
 

@@ -9,25 +9,23 @@
 ## 方法
 
 /// define
-subscribe
+`subscribe`
 
-- ```js
+
+///
+
+```js
 subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?: ScriptEventMessageFilterOptions): (arg: ScriptEventCommandMessageAfterEvent) => void
 ```
 
 
+/// define
+`unsubscribe`
+
 
 ///
 
-
-/// define
-unsubscribe
-
-- ```js
+```js
 unsubscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void): void
 ```
-
-
-
-///
 

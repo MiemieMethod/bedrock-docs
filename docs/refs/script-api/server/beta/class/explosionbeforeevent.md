@@ -20,13 +20,12 @@ cancel: boolean
 ## 方法
 
 /// define
-setImpactedBlocks
-
-- ```js
-setImpactedBlocks(blocks: Block[]): void
-```
-
+`setImpactedBlocks`
 
 
 ///
+
+```js
+setImpactedBlocks(blocks: Block[]): void
+```
 

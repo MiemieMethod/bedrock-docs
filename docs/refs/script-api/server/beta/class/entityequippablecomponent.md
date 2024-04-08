@@ -9,37 +9,34 @@
 ## 方法
 
 /// define
-getEquipment
+`getEquipment`
 
-- ```js
+
+///
+
+```js
 getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 ```
 
 
+/// define
+`getEquipmentSlot`
+
 
 ///
 
-
-/// define
-getEquipmentSlot
-
-- ```js
+```js
 getEquipmentSlot(equipmentSlot: EquipmentSlot): ContainerSlot
 ```
 
 
+/// define
+`setEquipment`
+
 
 ///
 
-
-/// define
-setEquipment
-
-- ```js
+```js
 setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 ```
-
-
-
-///
 

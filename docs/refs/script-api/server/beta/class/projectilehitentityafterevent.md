@@ -64,13 +64,12 @@ read-only source: Entity | undefined
 ## 方法
 
 /// define
-getEntityHit
-
-- ```js
-getEntityHit(): EntityHitInformation
-```
-
+`getEntityHit`
 
 
 ///
+
+```js
+getEntityHit(): EntityHitInformation
+```
 

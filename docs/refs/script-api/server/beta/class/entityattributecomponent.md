@@ -53,49 +53,45 @@ read-only effectiveMin: float
 ## 方法
 
 /// define
-resetToDefaultValue
+`resetToDefaultValue`
 
-- ```js
+
+///
+
+```js
 resetToDefaultValue(): void
 ```
 
 
+/// define
+`resetToMaxValue`
+
 
 ///
 
-
-/// define
-resetToMaxValue
-
-- ```js
+```js
 resetToMaxValue(): void
 ```
 
 
+/// define
+`resetToMinValue`
+
 
 ///
 
-
-/// define
-resetToMinValue
-
-- ```js
+```js
 resetToMinValue(): void
 ```
 
 
+/// define
+`setCurrentValue`
+
 
 ///
 
-
-/// define
-setCurrentValue
-
-- ```js
+```js
 setCurrentValue(value: float): boolean
 ```
-
-
-
-///
 

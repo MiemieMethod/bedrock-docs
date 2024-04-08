@@ -20,13 +20,12 @@ eventName: string
 ## 方法
 
 /// define
-constructor
-
-- ```js
-new constructor(eventName: string): Trigger
-```
-
+`constructor`
 
 
 ///
+
+```js
+new constructor(eventName: string): Trigger
+```
 

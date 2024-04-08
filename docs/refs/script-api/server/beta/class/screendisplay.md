@@ -9,109 +9,100 @@
 ## 方法
 
 /// define
-getHiddenHudElements
+`getHiddenHudElements`
 
-- ```js
+
+///
+
+```js
 getHiddenHudElements(): HudElement[]
 ```
 
 
+/// define
+`hideAllExcept`
+
 
 ///
 
-
-/// define
-hideAllExcept
-
-- ```js
+```js
 hideAllExcept(hudElements?: HudElement[]): void
 ```
 
 
+/// define
+`isForcedHidden`
+
 
 ///
 
-
-/// define
-isForcedHidden
-
-- ```js
+```js
 isForcedHidden(hudElement: HudElement): boolean
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
 
 
+/// define
+`resetHudElements`
+
 
 ///
 
-
-/// define
-resetHudElements
-
-- ```js
+```js
 resetHudElements(): void
 ```
 
 
+/// define
+`setActionBar`
+
 
 ///
 
-
-/// define
-setActionBar
-
-- ```js
+```js
 setActionBar(text: RawMessage | string[] | RawMessage | string): void
 ```
 
 
+/// define
+`setHudVisibility`
+
 
 ///
 
-
-/// define
-setHudVisibility
-
-- ```js
+```js
 setHudVisibility(visible: HudVisibility, hudElements?: HudElement[]): void
 ```
 
 
+/// define
+`setTitle`
+
 
 ///
 
-
-/// define
-setTitle
-
-- ```js
+```js
 setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisplayOptions): void
 ```
 
 
+/// define
+`updateSubtitle`
+
 
 ///
 
-
-/// define
-updateSubtitle
-
-- ```js
+```js
 updateSubtitle(subtitle: RawMessage | string[] | RawMessage | string): void
 ```
-
-
-
-///
 

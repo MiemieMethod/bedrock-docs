@@ -31,109 +31,100 @@ read-only size: int32
 ## 方法
 
 /// define
-addItem
+`addItem`
 
-- ```js
+
+///
+
+```js
 addItem(itemStack: ItemStack): ItemStack | undefined
 ```
 
 
+/// define
+`clearAll`
+
 
 ///
 
-
-/// define
-clearAll
-
-- ```js
+```js
 clearAll(): void
 ```
 
 
+/// define
+`getItem`
+
 
 ///
 
-
-/// define
-getItem
-
-- ```js
+```js
 getItem(slot: int32): ItemStack | undefined
 ```
 
 
+/// define
+`getSlot`
+
 
 ///
 
-
-/// define
-getSlot
-
-- ```js
+```js
 getSlot(slot: int32): ContainerSlot
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
 
 
+/// define
+`moveItem`
+
 
 ///
 
-
-/// define
-moveItem
-
-- ```js
+```js
 moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 ```
 
 
+/// define
+`setItem`
+
 
 ///
 
-
-/// define
-setItem
-
-- ```js
+```js
 setItem(slot: int32, itemStack?: ItemStack): void
 ```
 
 
+/// define
+`swapItems`
+
 
 ///
 
-
-/// define
-swapItems
-
-- ```js
+```js
 swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 ```
 
 
+/// define
+`transferItem`
+
 
 ///
 
-
-/// define
-transferItem
-
-- ```js
+```js
 transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 ```
-
-
-
-///
 

@@ -20,13 +20,12 @@ read-only typeId: string
 ## 方法
 
 /// define
-isValid
-
-- ```js
-isValid(): boolean
-```
-
+`isValid`
 
 
 ///
+
+```js
+isValid(): boolean
+```
 

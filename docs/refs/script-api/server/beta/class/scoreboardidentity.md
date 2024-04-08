@@ -42,25 +42,23 @@ read-only type: ScoreboardIdentityType
 ## 方法
 
 /// define
-getEntity
+`getEntity`
 
-- ```js
+
+///
+
+```js
 getEntity(): Entity | undefined
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
-
-
-
-///
 

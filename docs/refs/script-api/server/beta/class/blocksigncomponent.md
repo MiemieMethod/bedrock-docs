@@ -20,73 +20,67 @@ read-only isWaxed: boolean
 ## 方法
 
 /// define
-getRawText
+`getRawText`
 
-- ```js
+
+///
+
+```js
 getRawText(side: SignSide): RawText | undefined
 ```
 
 
+/// define
+`getText`
+
 
 ///
 
-
-/// define
-getText
-
-- ```js
+```js
 getText(side: SignSide): string | undefined
 ```
 
 
+/// define
+`getTextDyeColor`
+
 
 ///
 
-
-/// define
-getTextDyeColor
-
-- ```js
+```js
 getTextDyeColor(side: SignSide): DyeColor | undefined
 ```
 
 
+/// define
+`setText`
+
 
 ///
 
-
-/// define
-setText
-
-- ```js
+```js
 setText(message: RawMessage | RawText | string, side: SignSide): void
 ```
 
 
+/// define
+`setTextDyeColor`
+
 
 ///
 
-
-/// define
-setTextDyeColor
-
-- ```js
+```js
 setTextDyeColor(color?: DyeColor, side: SignSide): void
 ```
 
 
+/// define
+`setWaxed`
+
 
 ///
 
-
-/// define
-setWaxed
-
-- ```js
+```js
 setWaxed(waxed: boolean): void
 ```
-
-
-
-///
 

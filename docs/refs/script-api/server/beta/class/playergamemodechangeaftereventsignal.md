@@ -9,25 +9,23 @@
 ## 方法
 
 /// define
-subscribe
+`subscribe`
 
-- ```js
+
+///
+
+```js
 subscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): (arg: PlayerGameModeChangeAfterEvent) => void
 ```
 
 
+/// define
+`unsubscribe`
+
 
 ///
 
-
-/// define
-unsubscribe
-
-- ```js
+```js
 unsubscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): void
 ```
-
-
-
-///
 

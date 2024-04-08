@@ -31,25 +31,23 @@ read-only maxDurability: int32
 ## 方法
 
 /// define
-getDamageChance
+`getDamageChance`
 
-- ```js
+
+///
+
+```js
 getDamageChance(unbreakingEnchantmentLevel: int32): int32
 ```
 
 
+/// define
+`getDamageChanceRange`
+
 
 ///
 
-
-/// define
-getDamageChanceRange
-
-- ```js
+```js
 getDamageChanceRange(): NumberRange
 ```
-
-
-
-///
 

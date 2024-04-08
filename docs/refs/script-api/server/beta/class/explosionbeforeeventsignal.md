@@ -9,25 +9,23 @@
 ## 方法
 
 /// define
-subscribe
+`subscribe`
 
-- ```js
+
+///
+
+```js
 subscribe(callback: (arg: ExplosionBeforeEvent) => void): (arg: ExplosionBeforeEvent) => void
 ```
 
 
+/// define
+`unsubscribe`
+
 
 ///
 
-
-/// define
-unsubscribe
-
-- ```js
+```js
 unsubscribe(callback: (arg: ExplosionBeforeEvent) => void): void
 ```
-
-
-
-///
 

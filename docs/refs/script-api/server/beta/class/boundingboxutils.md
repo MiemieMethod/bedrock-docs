@@ -9,133 +9,122 @@
 ## 方法
 
 /// define
-createValid
+`createValid`
 
-- ```js
+
+///
+
+```js
 static createValid(min: Vector3, max: Vector3): BoundingBox
 ```
 
 
+/// define
+`dilate`
+
 
 ///
 
-
-/// define
-dilate
-
-- ```js
+```js
 static dilate(box: BoundingBox, size: Vector3): BoundingBox
 ```
 
 
+/// define
+`equals`
+
 
 ///
 
-
-/// define
-equals
-
-- ```js
+```js
 static equals(box: BoundingBox, other: BoundingBox): boolean
 ```
 
 
+/// define
+`expand`
+
 
 ///
 
-
-/// define
-expand
-
-- ```js
+```js
 static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 ```
 
 
+/// define
+`getCenter`
+
 
 ///
 
-
-/// define
-getCenter
-
-- ```js
+```js
 static getCenter(box: BoundingBox): Vector3
 ```
 
 
+/// define
+`getIntersection`
+
 
 ///
 
-
-/// define
-getIntersection
-
-- ```js
+```js
 static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | undefined
 ```
 
 
+/// define
+`getSpan`
+
 
 ///
 
-
-/// define
-getSpan
-
-- ```js
+```js
 static getSpan(box: BoundingBox): Vector3
 ```
 
 
+/// define
+`intersects`
+
 
 ///
 
-
-/// define
-intersects
-
-- ```js
+```js
 static intersects(box: BoundingBox, other: BoundingBox): boolean
 ```
 
 
+/// define
+`isInside`
+
 
 ///
 
-
-/// define
-isInside
-
-- ```js
+```js
 static isInside(box: BoundingBox, pos: Vector3): boolean
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 static isValid(box: BoundingBox): boolean
 ```
 
 
+/// define
+`translate`
+
 
 ///
 
-
-/// define
-translate
-
-- ```js
+```js
 static translate(box: BoundingBox, delta: Vector3): BoundingBox
 ```
-
-
-
-///
 

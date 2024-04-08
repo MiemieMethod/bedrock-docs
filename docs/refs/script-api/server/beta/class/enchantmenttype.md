@@ -31,13 +31,12 @@ read-only maxLevel: int32
 ## 方法
 
 /// define
-constructor
-
-- ```js
-new constructor(enchantmentType: string): EnchantmentType
-```
-
+`constructor`
 
 
 ///
+
+```js
+new constructor(enchantmentType: string): EnchantmentType
+```
 

@@ -9,97 +9,89 @@
 ## 方法
 
 /// define
-getBlockLocationIterator
+`getBlockLocationIterator`
 
-- ```js
+
+///
+
+```js
 getBlockLocationIterator(): BlockLocationIterator
 ```
 
 
+/// define
+`getBoundingBox`
+
 
 ///
 
-
-/// define
-getBoundingBox
-
-- ```js
+```js
 getBoundingBox(): BoundingBox
 ```
 
 
+/// define
+`getCapacity`
+
 
 ///
 
-
-/// define
-getCapacity
-
-- ```js
+```js
 getCapacity(): int32
 ```
 
 
+/// define
+`getMax`
+
 
 ///
 
-
-/// define
-getMax
-
-- ```js
+```js
 getMax(): Vector3
 ```
 
 
+/// define
+`getMin`
+
 
 ///
 
-
-/// define
-getMin
-
-- ```js
+```js
 getMin(): Vector3
 ```
 
 
+/// define
+`getSpan`
+
 
 ///
 
-
-/// define
-getSpan
-
-- ```js
+```js
 getSpan(): Vector3
 ```
 
 
+/// define
+`isInside`
+
 
 ///
 
-
-/// define
-isInside
-
-- ```js
+```js
 isInside(pos: Vector3): boolean
 ```
 
 
+/// define
+`translate`
+
 
 ///
 
-
-/// define
-translate
-
-- ```js
+```js
 translate(delta: Vector3): void
 ```
-
-
-
-///
 

@@ -141,253 +141,232 @@ read-only z: int32
 ## 方法
 
 /// define
-above
+`above`
 
-- ```js
+
+///
+
+```js
 above(steps: int32): Block | undefined
 ```
 
 
+/// define
+`below`
+
 
 ///
 
-
-/// define
-below
-
-- ```js
+```js
 below(steps: int32): Block | undefined
 ```
 
 
+/// define
+`bottomCenter`
+
 
 ///
 
-
-/// define
-bottomCenter
-
-- ```js
+```js
 bottomCenter(): Vector3
 ```
 
 
+/// define
+`canPlace`
+
 
 ///
 
-
-/// define
-canPlace
-
-- ```js
+```js
 canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Direction): boolean
 ```
 
 
+/// define
+`center`
+
 
 ///
 
-
-/// define
-center
-
-- ```js
+```js
 center(): Vector3
 ```
 
 
+/// define
+`east`
+
 
 ///
 
-
-/// define
-east
-
-- ```js
+```js
 east(steps: int32): Block | undefined
 ```
 
 
+/// define
+`getComponent`
+
 
 ///
 
-
-/// define
-getComponent
-
-- ```js
+```js
 getComponent(componentId: string): BlockComponent | undefined
 ```
 
 
+/// define
+`getItemStack`
+
 
 ///
 
-
-/// define
-getItemStack
-
-- ```js
+```js
 getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 ```
 
 
+/// define
+`getRedstonePower`
+
 
 ///
 
-
-/// define
-getRedstonePower
-
-- ```js
+```js
 getRedstonePower(): int32 | undefined
 ```
 
 
+/// define
+`getTags`
+
 
 ///
 
-
-/// define
-getTags
-
-- ```js
+```js
 getTags(): string[]
 ```
 
 
+/// define
+`hasTag`
+
 
 ///
 
-
-/// define
-hasTag
-
-- ```js
+```js
 hasTag(tag: string): boolean
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
 
 
+/// define
+`matches`
+
 
 ///
 
-
-/// define
-matches
-
-- ```js
+```js
 matches(blockName: string, states?: Record<string, boolean | int32 | string>): boolean
 ```
 
 
+/// define
+`north`
+
 
 ///
 
-
-/// define
-north
-
-- ```js
+```js
 north(steps: int32): Block | undefined
 ```
 
 
+/// define
+`offset`
+
 
 ///
 
-
-/// define
-offset
-
-- ```js
+```js
 offset(offset: Vector3): Block | undefined
 ```
 
 
+/// define
+`setPermutation`
+
 
 ///
 
-
-/// define
-setPermutation
-
-- ```js
+```js
 setPermutation(permutation: BlockPermutation): void
 ```
 
 
+/// define
+`setType`
+
 
 ///
 
-
-/// define
-setType
-
-- ```js
+```js
 setType(blockType: BlockType | string): void
 ```
 
 
+/// define
+`setWaterlogged`
+
 
 ///
 
-
-/// define
-setWaterlogged
-
-- ```js
+```js
 setWaterlogged(isWaterlogged: boolean): void
 ```
 
 
+/// define
+`south`
+
 
 ///
 
-
-/// define
-south
-
-- ```js
+```js
 south(steps: int32): Block | undefined
 ```
 
 
+/// define
+`trySetPermutation`
+
 
 ///
 
-
-/// define
-trySetPermutation
-
-- ```js
+```js
 trySetPermutation(permutation: BlockPermutation): boolean
 ```
 
 
+/// define
+`west`
+
 
 ///
 
-
-/// define
-west
-
-- ```js
+```js
 west(steps: int32): Block | undefined
 ```
-
-
-
-///
 

@@ -20,97 +20,89 @@ read-only type: BlockType
 ## 方法
 
 /// define
-getAllStates
+`getAllStates`
 
-- ```js
+
+///
+
+```js
 getAllStates(): Record<string, boolean | int32 | string>
 ```
 
 
+/// define
+`getItemStack`
+
 
 ///
 
-
-/// define
-getItemStack
-
-- ```js
+```js
 getItemStack(amount: int32): ItemStack | undefined
 ```
 
 
+/// define
+`getState`
+
 
 ///
 
-
-/// define
-getState
-
-- ```js
+```js
 getState(stateName: string): boolean | int32 | string | undefined
 ```
 
 
+/// define
+`getTags`
+
 
 ///
 
-
-/// define
-getTags
-
-- ```js
+```js
 getTags(): string[]
 ```
 
 
+/// define
+`hasTag`
+
 
 ///
 
-
-/// define
-hasTag
-
-- ```js
+```js
 hasTag(tag: string): boolean
 ```
 
 
+/// define
+`matches`
+
 
 ///
 
-
-/// define
-matches
-
-- ```js
+```js
 matches(blockName: string, states?: Record<string, boolean | int32 | string>): boolean
 ```
 
 
+/// define
+`resolve`
+
 
 ///
 
-
-/// define
-resolve
-
-- ```js
+```js
 static resolve(blockName: string, states?: Record<string, boolean | int32 | string>): BlockPermutation
 ```
 
 
+/// define
+`withState`
+
 
 ///
 
-
-/// define
-withState
-
-- ```js
+```js
 withState(name: string, value: boolean | int32 | string): BlockPermutation
 ```
-
-
-
-///
 

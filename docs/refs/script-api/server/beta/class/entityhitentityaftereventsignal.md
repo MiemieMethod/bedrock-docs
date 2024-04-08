@@ -9,25 +9,23 @@
 ## 方法
 
 /// define
-subscribe
+`subscribe`
 
-- ```js
+
+///
+
+```js
 subscribe(callback: (arg: EntityHitEntityAfterEvent) => void, options?: EntityEventOptions): (arg: EntityHitEntityAfterEvent) => void
 ```
 
 
+/// define
+`unsubscribe`
+
 
 ///
 
-
-/// define
-unsubscribe
-
-- ```js
+```js
 unsubscribe(callback: (arg: EntityHitEntityAfterEvent) => void): void
 ```
-
-
-
-///
 

@@ -9,37 +9,34 @@
 ## 方法
 
 /// define
-clear
+`clear`
 
-- ```js
+
+///
+
+```js
 clear(): void
 ```
 
 
+/// define
+`fade`
+
 
 ///
 
-
-/// define
-fade
-
-- ```js
+```js
 fade(fadeCameraOptions?: CameraFadeOptions): void
 ```
 
 
+/// define
+`setCamera`
+
 
 ///
 
-
-/// define
-setCamera
-
-- ```js
+```js
 setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFacingOptions | CameraSetLocationOptions | CameraSetPosOptions | CameraSetRotOptions): void
 ```
-
-
-
-///
 

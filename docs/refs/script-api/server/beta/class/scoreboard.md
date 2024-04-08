@@ -9,97 +9,89 @@
 ## 方法
 
 /// define
-addObjective
+`addObjective`
 
-- ```js
+
+///
+
+```js
 addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 ```
 
 
+/// define
+`clearObjectiveAtDisplaySlot`
+
 
 ///
 
-
-/// define
-clearObjectiveAtDisplaySlot
-
-- ```js
+```js
 clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective | undefined
 ```
 
 
+/// define
+`getObjective`
+
 
 ///
 
-
-/// define
-getObjective
-
-- ```js
+```js
 getObjective(objectiveId: string): ScoreboardObjective | undefined
 ```
 
 
+/// define
+`getObjectiveAtDisplaySlot`
+
 
 ///
 
-
-/// define
-getObjectiveAtDisplaySlot
-
-- ```js
+```js
 getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisplayOptions | undefined
 ```
 
 
+/// define
+`getObjectives`
+
 
 ///
 
-
-/// define
-getObjectives
-
-- ```js
+```js
 getObjectives(): ScoreboardObjective[]
 ```
 
 
+/// define
+`getParticipants`
+
 
 ///
 
-
-/// define
-getParticipants
-
-- ```js
+```js
 getParticipants(): ScoreboardIdentity[]
 ```
 
 
+/// define
+`removeObjective`
+
 
 ///
 
-
-/// define
-removeObjective
-
-- ```js
+```js
 removeObjective(objectiveId: ScoreboardObjective | string): boolean
 ```
 
 
+/// define
+`setObjectiveAtDisplaySlot`
+
 
 ///
 
-
-/// define
-setObjectiveAtDisplaySlot
-
-- ```js
+```js
 setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting: ScoreboardObjectiveDisplayOptions): ScoreboardObjective | undefined
 ```
-
-
-
-///
 

@@ -31,13 +31,12 @@ read-only source: Entity | undefined
 ## 方法
 
 /// define
-getImpactedBlocks
-
-- ```js
-getImpactedBlocks(): Block[]
-```
-
+`getImpactedBlocks`
 
 
 ///
+
+```js
+getImpactedBlocks(): Block[]
+```
 

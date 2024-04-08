@@ -20,25 +20,23 @@ read-only softDistance: float
 ## 方法
 
 /// define
-leash
+`leash`
 
-- ```js
+
+///
+
+```js
 leash(leashHolder: Entity): void
 ```
 
 
+/// define
+`unleash`
+
 
 ///
 
-
-/// define
-unleash
-
-- ```js
+```js
 unleash(): void
 ```
-
-
-
-///
 

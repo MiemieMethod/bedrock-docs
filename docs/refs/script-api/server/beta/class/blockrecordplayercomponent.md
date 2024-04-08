@@ -9,37 +9,34 @@
 ## 方法
 
 /// define
-clearRecord
+`clearRecord`
 
-- ```js
+
+///
+
+```js
 clearRecord(): void
 ```
 
 
+/// define
+`isPlaying`
+
 
 ///
 
-
-/// define
-isPlaying
-
-- ```js
+```js
 isPlaying(): boolean
 ```
 
 
+/// define
+`setRecord`
+
 
 ///
 
-
-/// define
-setRecord
-
-- ```js
+```js
 setRecord(recordItemType: ItemType | string): void
 ```
-
-
-
-///
 

@@ -31,73 +31,67 @@ read-only size: Vector3
 ## 方法
 
 /// define
-getBlockPermutation
+`getBlockPermutation`
 
-- ```js
+
+///
+
+```js
 getBlockPermutation(location: Vector3): BlockPermutation | undefined
 ```
 
 
+/// define
+`getIsWaterlogged`
+
 
 ///
 
-
-/// define
-getIsWaterlogged
-
-- ```js
+```js
 getIsWaterlogged(location: Vector3): boolean
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
 
 
+/// define
+`saveAs`
+
 
 ///
 
-
-/// define
-saveAs
-
-- ```js
+```js
 saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 ```
 
 
+/// define
+`saveToWorld`
+
 
 ///
 
-
-/// define
-saveToWorld
-
-- ```js
+```js
 saveToWorld(): void
 ```
 
 
+/// define
+`setBlockPermutation`
+
 
 ///
 
-
-/// define
-setBlockPermutation
-
-- ```js
+```js
 setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, waterlogged: boolean): void
 ```
-
-
-
-///
 

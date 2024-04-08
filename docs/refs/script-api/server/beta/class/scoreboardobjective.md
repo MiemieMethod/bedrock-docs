@@ -31,97 +31,89 @@ read-only id: string
 ## 方法
 
 /// define
-addScore
+`addScore`
 
-- ```js
+
+///
+
+```js
 addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): int32
 ```
 
 
+/// define
+`getParticipants`
+
 
 ///
 
-
-/// define
-getParticipants
-
-- ```js
+```js
 getParticipants(): ScoreboardIdentity[]
 ```
 
 
+/// define
+`getScore`
+
 
 ///
 
-
-/// define
-getScore
-
-- ```js
+```js
 getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 ```
 
 
+/// define
+`getScores`
+
 
 ///
 
-
-/// define
-getScores
-
-- ```js
+```js
 getScores(): ScoreboardScoreInfo[]
 ```
 
 
+/// define
+`hasParticipant`
+
 
 ///
 
-
-/// define
-hasParticipant
-
-- ```js
+```js
 hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
 
 
+/// define
+`removeParticipant`
+
 
 ///
 
-
-/// define
-removeParticipant
-
-- ```js
+```js
 removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```
 
 
+/// define
+`setScore`
+
 
 ///
 
-
-/// define
-setScore
-
-- ```js
+```js
 setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 ```
-
-
-
-///
 

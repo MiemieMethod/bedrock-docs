@@ -31,49 +31,45 @@ to: Vector3
 ## 方法
 
 /// define
-constructor
+`constructor`
 
-- ```js
+
+///
+
+```js
 new constructor(from: Vector3, to: Vector3): BlockVolume
 ```
 
 
+/// define
+`doesLocationTouchFaces`
+
 
 ///
 
-
-/// define
-doesLocationTouchFaces
-
-- ```js
+```js
 doesLocationTouchFaces(pos: Vector3): boolean
 ```
 
 
+/// define
+`doesVolumeTouchFaces`
+
 
 ///
 
-
-/// define
-doesVolumeTouchFaces
-
-- ```js
+```js
 doesVolumeTouchFaces(other: BlockVolume): boolean
 ```
 
 
+/// define
+`intersects`
+
 
 ///
 
-
-/// define
-intersects
-
-- ```js
+```js
 intersects(other: BlockVolume): BlockVolumeIntersection
 ```
-
-
-
-///
 

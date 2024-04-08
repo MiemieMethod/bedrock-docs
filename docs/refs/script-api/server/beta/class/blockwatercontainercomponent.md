@@ -9,37 +9,34 @@
 ## 方法
 
 /// define
-addDye
+`addDye`
 
-- ```js
+
+///
+
+```js
 addDye(itemType: ItemType): void
 ```
 
 
+/// define
+`getCustomColor`
+
 
 ///
 
-
-/// define
-getCustomColor
-
-- ```js
+```js
 getCustomColor(): RGBA
 ```
 
 
+/// define
+`setCustomColor`
+
 
 ///
 
-
-/// define
-setCustomColor
-
-- ```js
+```js
 setCustomColor(color: RGBA): void
 ```
-
-
-
-///
 

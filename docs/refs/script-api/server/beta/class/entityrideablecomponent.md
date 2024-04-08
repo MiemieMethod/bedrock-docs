@@ -86,73 +86,67 @@ read-only seatCount: int32
 ## 方法
 
 /// define
-addRider
+`addRider`
 
-- ```js
+
+///
+
+```js
 addRider(rider: Entity): boolean
 ```
 
 
+/// define
+`ejectRider`
+
 
 ///
 
-
-/// define
-ejectRider
-
-- ```js
+```js
 ejectRider(rider: Entity): void
 ```
 
 
+/// define
+`ejectRiders`
+
 
 ///
 
-
-/// define
-ejectRiders
-
-- ```js
+```js
 ejectRiders(): void
 ```
 
 
+/// define
+`getFamilyTypes`
+
 
 ///
 
-
-/// define
-getFamilyTypes
-
-- ```js
+```js
 getFamilyTypes(): string[]
 ```
 
 
+/// define
+`getRiders`
+
 
 ///
 
-
-/// define
-getRiders
-
-- ```js
+```js
 getRiders(): Entity[]
 ```
 
 
+/// define
+`getSeats`
+
 
 ///
 
-
-/// define
-getSeats
-
-- ```js
+```js
 getSeats(): Seat[]
 ```
-
-
-
-///
 

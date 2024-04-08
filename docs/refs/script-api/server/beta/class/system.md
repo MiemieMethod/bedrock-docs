@@ -42,73 +42,67 @@ read-only currentTick: uint32
 ## 方法
 
 /// define
-clearJob
+`clearJob`
 
-- ```js
+
+///
+
+```js
 clearJob(jobId: uint32): void
 ```
 
 
+/// define
+`clearRun`
+
 
 ///
 
-
-/// define
-clearRun
-
-- ```js
+```js
 clearRun(runId: uint32): void
 ```
 
 
+/// define
+`run`
+
 
 ///
 
-
-/// define
-run
-
-- ```js
+```js
 run(callback: () => void): uint32
 ```
 
 
+/// define
+`runInterval`
+
 
 ///
 
-
-/// define
-runInterval
-
-- ```js
+```js
 runInterval(callback: () => void, tickInterval?: uint32): uint32
 ```
 
 
+/// define
+`runJob`
+
 
 ///
 
-
-/// define
-runJob
-
-- ```js
+```js
 runJob(generator: Generator<void, void, void>): uint32
 ```
 
 
+/// define
+`runTimeout`
+
 
 ///
 
-
-/// define
-runTimeout
-
-- ```js
+```js
 runTimeout(callback: () => void, tickDelay?: uint32): uint32
 ```
-
-
-
-///
 

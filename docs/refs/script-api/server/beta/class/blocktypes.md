@@ -9,25 +9,23 @@
 ## 方法
 
 /// define
-get
+`get`
 
-- ```js
+
+///
+
+```js
 static get(typeName: string): BlockType | undefined
 ```
 
 
+/// define
+`getAll`
+
 
 ///
 
-
-/// define
-getAll
-
-- ```js
+```js
 static getAll(): BlockType[]
 ```
-
-
-
-///
 

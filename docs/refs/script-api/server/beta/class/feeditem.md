@@ -31,13 +31,12 @@ read-only item: string
 ## 方法
 
 /// define
-getEffects
-
-- ```js
-getEffects(): FeedItemEffect[]
-```
-
+`getEffects`
 
 
 ///
+
+```js
+getEffects(): FeedItemEffect[]
+```
 

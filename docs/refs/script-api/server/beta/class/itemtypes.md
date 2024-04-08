@@ -9,25 +9,23 @@
 ## 方法
 
 /// define
-get
+`get`
 
-- ```js
+
+///
+
+```js
 static get(itemId: string): ItemType | undefined
 ```
 
 
+/// define
+`getAll`
+
 
 ///
 
-
-/// define
-getAll
-
-- ```js
+```js
 static getAll(): ItemType[]
 ```
-
-
-
-///
 

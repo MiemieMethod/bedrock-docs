@@ -20,13 +20,12 @@ fillLevel: int32
 ## 方法
 
 /// define
-isValidLiquid
-
-- ```js
-isValidLiquid(): boolean
-```
-
+`isValidLiquid`
 
 
 ///
+
+```js
+isValidLiquid(): boolean
+```
 

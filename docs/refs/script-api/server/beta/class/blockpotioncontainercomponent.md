@@ -9,13 +9,12 @@
 ## 方法
 
 /// define
-setPotionType
-
-- ```js
-setPotionType(itemStack: ItemStack): void
-```
-
+`setPotionType`
 
 
 ///
+
+```js
+setPotionType(itemStack: ItemStack): void
+```
 

@@ -141,241 +141,221 @@ read-only xpEarnedAtCurrentLevel: int32
 ## 方法
 
 /// define
-addExperience
+`addExperience`
 
-- ```js
+
+///
+
+```js
 addExperience(amount: int32): uint32
 ```
 
 
+/// define
+`addLevels`
+
 
 ///
 
-
-/// define
-addLevels
-
-- ```js
+```js
 addLevels(amount: int32): int32
 ```
 
 
+/// define
+`eatItem`
+
 
 ///
 
-
-/// define
-eatItem
-
-- ```js
+```js
 eatItem(itemStack: ItemStack): void
 ```
 
 
+/// define
+`getGameMode`
+
 
 ///
 
-
-/// define
-getGameMode
-
-- ```js
+```js
 getGameMode(): GameMode
 ```
 
 
+/// define
+`getItemCooldown`
+
 
 ///
 
-
-/// define
-getItemCooldown
-
-- ```js
+```js
 getItemCooldown(cooldownCategory: string): int32
 ```
 
 
+/// define
+`getSpawnPoint`
+
 
 ///
 
-
-/// define
-getSpawnPoint
-
-- ```js
+```js
 getSpawnPoint(): DimensionLocation | undefined
 ```
 
 
+/// define
+`getTotalXp`
+
 
 ///
 
-
-/// define
-getTotalXp
-
-- ```js
+```js
 getTotalXp(): uint32
 ```
 
 
+/// define
+`isOp`
+
 
 ///
 
-
-/// define
-isOp
-
-- ```js
+```js
 isOp(): boolean
 ```
 
 
+/// define
+`playMusic`
+
 
 ///
 
-
-/// define
-playMusic
-
-- ```js
+```js
 playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
 
 
+/// define
+`playSound`
+
 
 ///
 
-
-/// define
-playSound
-
-- ```js
+```js
 playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ```
 
 
+/// define
+`postClientMessage`
+
 
 ///
 
-
-/// define
-postClientMessage
-
-- ```js
+```js
 postClientMessage(id: string, value: string): void
 ```
 
 
+/// define
+`queueMusic`
+
 
 ///
 
-
-/// define
-queueMusic
-
-- ```js
+```js
 queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
 
 
+/// define
+`resetLevel`
+
 
 ///
 
-
-/// define
-resetLevel
-
-- ```js
+```js
 resetLevel(): void
 ```
 
 
+/// define
+`sendMessage`
+
 
 ///
 
-
-/// define
-sendMessage
-
-- ```js
+```js
 sendMessage(message: RawMessage | string[] | RawMessage | string): void
 ```
 
 
+/// define
+`setGameMode`
+
 
 ///
 
-
-/// define
-setGameMode
-
-- ```js
+```js
 setGameMode(gameMode?: GameMode): void
 ```
 
 
+/// define
+`setOp`
+
 
 ///
 
-
-/// define
-setOp
-
-- ```js
+```js
 setOp(isOp: boolean): void
 ```
 
 
+/// define
+`setSpawnPoint`
+
 
 ///
 
-
-/// define
-setSpawnPoint
-
-- ```js
+```js
 setSpawnPoint(spawnPoint?: DimensionLocation): void
 ```
 
 
+/// define
+`spawnParticle`
+
 
 ///
 
-
-/// define
-spawnParticle
-
-- ```js
+```js
 spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVariableMap): void
 ```
 
 
+/// define
+`startItemCooldown`
+
 
 ///
 
-
-/// define
-startItemCooldown
-
-- ```js
+```js
 startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 ```
 
 
+/// define
+`stopMusic`
+
 
 ///
 
-
-/// define
-stopMusic
-
-- ```js
+```js
 stopMusic(): void
 ```
-
-
-
-///
 

@@ -42,25 +42,23 @@ read-only transformToItem: string
 ## 方法
 
 /// define
-getDropItems
+`getDropItems`
 
-- ```js
+
+///
+
+```js
 getDropItems(): string[]
 ```
 
 
+/// define
+`getFeedItems`
+
 
 ///
 
-
-/// define
-getFeedItems
-
-- ```js
+```js
 getFeedItems(): EntityDefinitionFeedItem[]
 ```
-
-
-
-///
 

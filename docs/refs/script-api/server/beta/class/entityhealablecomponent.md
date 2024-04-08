@@ -20,13 +20,12 @@ read-only forceUse: boolean
 ## 方法
 
 /// define
-getFeedItems
-
-- ```js
-getFeedItems(): FeedItem[]
-```
-
+`getFeedItems`
 
 
 ///
+
+```js
+getFeedItems(): FeedItem[]
+```
 

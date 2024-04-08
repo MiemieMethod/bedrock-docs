@@ -97,241 +97,221 @@ read-only typeId: string
 ## 方法
 
 /// define
-clearDynamicProperties
+`clearDynamicProperties`
 
-- ```js
+
+///
+
+```js
 clearDynamicProperties(): void
 ```
 
 
+/// define
+`clone`
+
 
 ///
 
-
-/// define
-clone
-
-- ```js
+```js
 clone(): ItemStack
 ```
 
 
+/// define
+`constructor`
+
 
 ///
 
-
-/// define
-constructor
-
-- ```js
+```js
 new constructor(itemType: ItemType | string, amount: int32): ItemStack
 ```
 
 
+/// define
+`getCanDestroy`
+
 
 ///
 
-
-/// define
-getCanDestroy
-
-- ```js
+```js
 getCanDestroy(): string[]
 ```
 
 
+/// define
+`getCanPlaceOn`
+
 
 ///
 
-
-/// define
-getCanPlaceOn
-
-- ```js
+```js
 getCanPlaceOn(): string[]
 ```
 
 
+/// define
+`getComponent`
+
 
 ///
 
-
-/// define
-getComponent
-
-- ```js
+```js
 getComponent(componentId: string): ItemComponent | undefined
 ```
 
 
+/// define
+`getComponents`
+
 
 ///
 
-
-/// define
-getComponents
-
-- ```js
+```js
 getComponents(): ItemComponent[]
 ```
 
 
+/// define
+`getDynamicProperty`
+
 
 ///
 
-
-/// define
-getDynamicProperty
-
-- ```js
+```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
 
 
+/// define
+`getDynamicPropertyIds`
+
 
 ///
 
-
-/// define
-getDynamicPropertyIds
-
-- ```js
+```js
 getDynamicPropertyIds(): string[]
 ```
 
 
+/// define
+`getDynamicPropertyTotalByteCount`
+
 
 ///
 
-
-/// define
-getDynamicPropertyTotalByteCount
-
-- ```js
+```js
 getDynamicPropertyTotalByteCount(): int32
 ```
 
 
+/// define
+`getLore`
+
 
 ///
 
-
-/// define
-getLore
-
-- ```js
+```js
 getLore(): string[]
 ```
 
 
+/// define
+`getTags`
+
 
 ///
 
-
-/// define
-getTags
-
-- ```js
+```js
 getTags(): string[]
 ```
 
 
+/// define
+`hasComponent`
+
 
 ///
 
-
-/// define
-hasComponent
-
-- ```js
+```js
 hasComponent(componentId: string): boolean
 ```
 
 
+/// define
+`hasTag`
+
 
 ///
 
-
-/// define
-hasTag
-
-- ```js
+```js
 hasTag(tag: string): boolean
 ```
 
 
+/// define
+`isStackableWith`
+
 
 ///
 
-
-/// define
-isStackableWith
-
-- ```js
+```js
 isStackableWith(itemStack: ItemStack): boolean
 ```
 
 
+/// define
+`matches`
+
 
 ///
 
-
-/// define
-matches
-
-- ```js
+```js
 matches(itemName: string, states?: Record<string, boolean | int32 | string>): boolean
 ```
 
 
+/// define
+`setCanDestroy`
+
 
 ///
 
-
-/// define
-setCanDestroy
-
-- ```js
+```js
 setCanDestroy(blockIdentifiers?: string[]): void
 ```
 
 
+/// define
+`setCanPlaceOn`
+
 
 ///
 
-
-/// define
-setCanPlaceOn
-
-- ```js
+```js
 setCanPlaceOn(blockIdentifiers?: string[]): void
 ```
 
 
+/// define
+`setDynamicProperty`
+
 
 ///
 
-
-/// define
-setDynamicProperty
-
-- ```js
+```js
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
 
 
+/// define
+`setLore`
+
 
 ///
 
-
-/// define
-setLore
-
-- ```js
+```js
 setLore(loreList?: string[]): void
 ```
-
-
-
-///
 

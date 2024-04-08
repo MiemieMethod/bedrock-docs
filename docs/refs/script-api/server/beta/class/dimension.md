@@ -31,253 +31,232 @@ read-only id: string
 ## 方法
 
 /// define
-containsBlock
+`containsBlock`
 
-- ```js
+
+///
+
+```js
 containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boolean): boolean
 ```
 
 
+/// define
+`createExplosion`
+
 
 ///
 
-
-/// define
-createExplosion
-
-- ```js
+```js
 createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOptions): boolean
 ```
 
 
+/// define
+`fillBlocks`
+
 
 ///
 
-
-/// define
-fillBlocks
-
-- ```js
+```js
 fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | string, options?: BlockFillOptions): uint32
 ```
 
 
+/// define
+`findClosestBiome`
+
 
 ///
 
-
-/// define
-findClosestBiome
-
-- ```js
+```js
 findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeSearchOptions): Vector3 | undefined
 ```
 
 
+/// define
+`getBlock`
+
 
 ///
 
-
-/// define
-getBlock
-
-- ```js
+```js
 getBlock(location: Vector3): Block | undefined
 ```
 
 
+/// define
+`getBlockFromRay`
+
 
 ///
 
-
-/// define
-getBlockFromRay
-
-- ```js
+```js
 getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOptions): BlockRaycastHit | undefined
 ```
 
 
+/// define
+`getBlocks`
+
 
 ///
 
-
-/// define
-getBlocks
-
-- ```js
+```js
 getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boolean): ListBlockVolume
 ```
 
 
+/// define
+`getEntities`
+
 
 ///
 
-
-/// define
-getEntities
-
-- ```js
+```js
 getEntities(options?: EntityQueryOptions): Entity[]
 ```
 
 
+/// define
+`getEntitiesAtBlockLocation`
+
 
 ///
 
-
-/// define
-getEntitiesAtBlockLocation
-
-- ```js
+```js
 getEntitiesAtBlockLocation(location: Vector3): Entity[]
 ```
 
 
+/// define
+`getEntitiesFromRay`
+
 
 ///
 
-
-/// define
-getEntitiesFromRay
-
-- ```js
+```js
 getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycastOptions): EntityRaycastHit[]
 ```
 
 
+/// define
+`getPlayers`
+
 
 ///
 
-
-/// define
-getPlayers
-
-- ```js
+```js
 getPlayers(options?: EntityQueryOptions): Player[]
 ```
 
 
+/// define
+`getWeather`
+
 
 ///
 
-
-/// define
-getWeather
-
-- ```js
+```js
 getWeather(): WeatherType
 ```
 
 
+/// define
+`playSound`
+
 
 ///
 
-
-/// define
-playSound
-
-- ```js
+```js
 playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions): void
 ```
 
 
+/// define
+`runCommand`
+
 
 ///
 
-
-/// define
-runCommand
-
-- ```js
+```js
 runCommand(commandString: string): CommandResult
 ```
 
 
+/// define
+`runCommandAsync`
+
 
 ///
 
-
-/// define
-runCommandAsync
-
-- ```js
+```js
 runCommandAsync(commandString: string): Promise<CommandResult>
 ```
 
 
+/// define
+`setBlockPermutation`
+
 
 ///
 
-
-/// define
-setBlockPermutation
-
-- ```js
+```js
 setBlockPermutation(location: Vector3, permutation: BlockPermutation): void
 ```
 
 
+/// define
+`setBlockType`
+
 
 ///
 
-
-/// define
-setBlockType
-
-- ```js
+```js
 setBlockType(location: Vector3, blockType: BlockType | string): void
 ```
 
 
+/// define
+`setWeather`
+
 
 ///
 
-
-/// define
-setWeather
-
-- ```js
+```js
 setWeather(weatherType: WeatherType, duration?: int32): void
 ```
 
 
+/// define
+`spawnEntity`
+
 
 ///
 
-
-/// define
-spawnEntity
-
-- ```js
+```js
 spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions): Entity
 ```
 
 
+/// define
+`spawnItem`
+
 
 ///
 
-
-/// define
-spawnItem
-
-- ```js
+```js
 spawnItem(itemStack: ItemStack, location: Vector3): Entity
 ```
 
 
+/// define
+`spawnParticle`
+
 
 ///
 
-
-/// define
-spawnParticle
-
-- ```js
+```js
 spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVariableMap): void
 ```
-
-
-
-///
 

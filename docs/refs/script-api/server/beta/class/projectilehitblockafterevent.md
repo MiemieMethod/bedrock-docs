@@ -64,13 +64,12 @@ read-only source: Entity | undefined
 ## 方法
 
 /// define
-getBlockHit
-
-- ```js
-getBlockHit(): BlockHitInformation
-```
-
+`getBlockHit`
 
 
 ///
+
+```js
+getBlockHit(): BlockHitInformation
+```
 

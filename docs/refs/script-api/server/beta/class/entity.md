@@ -196,505 +196,463 @@ read-only typeId: string
 ## 方法
 
 /// define
-addEffect
+`addEffect`
 
-- ```js
+
+///
+
+```js
 addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffectOptions): Effect | undefined
 ```
 
 
+/// define
+`addTag`
+
 
 ///
 
-
-/// define
-addTag
-
-- ```js
+```js
 addTag(tag: string): boolean
 ```
 
 
+/// define
+`applyDamage`
+
 
 ///
 
-
-/// define
-applyDamage
-
-- ```js
+```js
 applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | EntityApplyDamageOptions): boolean
 ```
 
 
+/// define
+`applyImpulse`
+
 
 ///
 
-
-/// define
-applyImpulse
-
-- ```js
+```js
 applyImpulse(vector: Vector3): void
 ```
 
 
+/// define
+`applyKnockback`
+
 
 ///
 
-
-/// define
-applyKnockback
-
-- ```js
+```js
 applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, verticalStrength: float): void
 ```
 
 
+/// define
+`clearDynamicProperties`
+
 
 ///
 
-
-/// define
-clearDynamicProperties
-
-- ```js
+```js
 clearDynamicProperties(): void
 ```
 
 
+/// define
+`clearVelocity`
+
 
 ///
 
-
-/// define
-clearVelocity
-
-- ```js
+```js
 clearVelocity(): void
 ```
 
 
+/// define
+`extinguishFire`
+
 
 ///
 
-
-/// define
-extinguishFire
-
-- ```js
+```js
 extinguishFire(useEffects: boolean): boolean
 ```
 
 
+/// define
+`getBlockFromViewDirection`
+
 
 ///
 
-
-/// define
-getBlockFromViewDirection
-
-- ```js
+```js
 getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | undefined
 ```
 
 
+/// define
+`getComponent`
+
 
 ///
 
-
-/// define
-getComponent
-
-- ```js
+```js
 getComponent(componentId: string): EntityComponent | undefined
 ```
 
 
+/// define
+`getComponents`
+
 
 ///
 
-
-/// define
-getComponents
-
-- ```js
+```js
 getComponents(): EntityComponent[]
 ```
 
 
+/// define
+`getDynamicProperty`
+
 
 ///
 
-
-/// define
-getDynamicProperty
-
-- ```js
+```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
 
 
+/// define
+`getDynamicPropertyIds`
+
 
 ///
 
-
-/// define
-getDynamicPropertyIds
-
-- ```js
+```js
 getDynamicPropertyIds(): string[]
 ```
 
 
+/// define
+`getDynamicPropertyTotalByteCount`
+
 
 ///
 
-
-/// define
-getDynamicPropertyTotalByteCount
-
-- ```js
+```js
 getDynamicPropertyTotalByteCount(): int32
 ```
 
 
+/// define
+`getEffect`
+
 
 ///
 
-
-/// define
-getEffect
-
-- ```js
+```js
 getEffect(effectType: EffectType | string): Effect | undefined
 ```
 
 
+/// define
+`getEffects`
+
 
 ///
 
-
-/// define
-getEffects
-
-- ```js
+```js
 getEffects(): Effect[]
 ```
 
 
+/// define
+`getEntitiesFromViewDirection`
+
 
 ///
 
-
-/// define
-getEntitiesFromViewDirection
-
-- ```js
+```js
 getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 ```
 
 
+/// define
+`getHeadLocation`
+
 
 ///
 
-
-/// define
-getHeadLocation
-
-- ```js
+```js
 getHeadLocation(): Vector3
 ```
 
 
+/// define
+`getProperty`
+
 
 ///
 
-
-/// define
-getProperty
-
-- ```js
+```js
 getProperty(identifier: string): boolean | float | string | undefined
 ```
 
 
+/// define
+`getRotation`
+
 
 ///
 
-
-/// define
-getRotation
-
-- ```js
+```js
 getRotation(): Vector2
 ```
 
 
+/// define
+`getTags`
+
 
 ///
 
-
-/// define
-getTags
-
-- ```js
+```js
 getTags(): string[]
 ```
 
 
+/// define
+`getVelocity`
+
 
 ///
 
-
-/// define
-getVelocity
-
-- ```js
+```js
 getVelocity(): Vector3
 ```
 
 
+/// define
+`getViewDirection`
+
 
 ///
 
-
-/// define
-getViewDirection
-
-- ```js
+```js
 getViewDirection(): Vector3
 ```
 
 
+/// define
+`hasComponent`
+
 
 ///
 
-
-/// define
-hasComponent
-
-- ```js
+```js
 hasComponent(componentId: string): boolean
 ```
 
 
+/// define
+`hasTag`
+
 
 ///
 
-
-/// define
-hasTag
-
-- ```js
+```js
 hasTag(tag: string): boolean
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
 
 
+/// define
+`kill`
+
 
 ///
 
-
-/// define
-kill
-
-- ```js
+```js
 kill(): boolean
 ```
 
 
+/// define
+`matches`
+
 
 ///
 
-
-/// define
-matches
-
-- ```js
+```js
 matches(options: EntityQueryOptions): boolean
 ```
 
 
+/// define
+`playAnimation`
+
 
 ///
 
-
-/// define
-playAnimation
-
-- ```js
+```js
 playAnimation(animationName: string, options?: PlayAnimationOptions): void
 ```
 
 
+/// define
+`remove`
+
 
 ///
 
-
-/// define
-remove
-
-- ```js
+```js
 remove(): void
 ```
 
 
+/// define
+`removeEffect`
+
 
 ///
 
-
-/// define
-removeEffect
-
-- ```js
+```js
 removeEffect(effectType: EffectType | string): boolean
 ```
 
 
+/// define
+`removeTag`
+
 
 ///
 
-
-/// define
-removeTag
-
-- ```js
+```js
 removeTag(tag: string): boolean
 ```
 
 
+/// define
+`resetProperty`
+
 
 ///
 
-
-/// define
-resetProperty
-
-- ```js
+```js
 resetProperty(identifier: string): boolean | float | string
 ```
 
 
+/// define
+`runCommand`
+
 
 ///
 
-
-/// define
-runCommand
-
-- ```js
+```js
 runCommand(commandString: string): CommandResult
 ```
 
 
+/// define
+`runCommandAsync`
+
 
 ///
 
-
-/// define
-runCommandAsync
-
-- ```js
+```js
 runCommandAsync(commandString: string): Promise<CommandResult>
 ```
 
 
+/// define
+`setDynamicProperty`
+
 
 ///
 
-
-/// define
-setDynamicProperty
-
-- ```js
+```js
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
 
 
+/// define
+`setOnFire`
+
 
 ///
 
-
-/// define
-setOnFire
-
-- ```js
+```js
 setOnFire(seconds: int32, useEffects: boolean): boolean
 ```
 
 
+/// define
+`setProperty`
+
 
 ///
 
-
-/// define
-setProperty
-
-- ```js
+```js
 setProperty(identifier: string, value: boolean | float | string): void
 ```
 
 
+/// define
+`setRotation`
+
 
 ///
 
-
-/// define
-setRotation
-
-- ```js
+```js
 setRotation(rotation: Vector2): void
 ```
 
 
+/// define
+`teleport`
+
 
 ///
 
-
-/// define
-teleport
-
-- ```js
+```js
 teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 ```
 
 
+/// define
+`triggerEvent`
+
 
 ///
 
-
-/// define
-triggerEvent
-
-- ```js
+```js
 triggerEvent(eventName: string): void
 ```
 
 
+/// define
+`tryTeleport`
+
 
 ///
 
-
-/// define
-tryTeleport
-
-- ```js
+```js
 tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 ```
-
-
-
-///
 

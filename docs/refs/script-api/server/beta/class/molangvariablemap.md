@@ -9,73 +9,67 @@
 ## 方法
 
 /// define
-constructor
+`constructor`
 
-- ```js
+
+///
+
+```js
 new constructor(): MolangVariableMap
 ```
 
 
+/// define
+`setColorRGB`
+
 
 ///
 
-
-/// define
-setColorRGB
-
-- ```js
+```js
 setColorRGB(variableName: string, color: RGB): void
 ```
 
 
+/// define
+`setColorRGBA`
+
 
 ///
 
-
-/// define
-setColorRGBA
-
-- ```js
+```js
 setColorRGBA(variableName: string, color: RGBA): void
 ```
 
 
+/// define
+`setFloat`
+
 
 ///
 
-
-/// define
-setFloat
-
-- ```js
+```js
 setFloat(variableName: string, number: float): void
 ```
 
 
+/// define
+`setSpeedAndDirection`
+
 
 ///
 
-
-/// define
-setSpeedAndDirection
-
-- ```js
+```js
 setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): void
 ```
 
 
+/// define
+`setVector3`
+
 
 ///
 
-
-/// define
-setVector3
-
-- ```js
+```js
 setVector3(variableName: string, vector: Vector3): void
 ```
-
-
-
-///
 

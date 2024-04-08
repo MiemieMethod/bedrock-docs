@@ -9,13 +9,12 @@
 ## 方法
 
 /// define
-tame
-
-- ```js
-tame(showParticles: boolean): void
-```
-
+`tame`
 
 
 ///
+
+```js
+tame(showParticles: boolean): void
+```
 

@@ -31,13 +31,12 @@ read-only eventId: string
 ## 方法
 
 /// define
-getModifiers
-
-- ```js
-getModifiers(): DefinitionModifier[]
-```
-
+`getModifiers`
 
 
 ///
+
+```js
+getModifiers(): DefinitionModifier[]
+```
 

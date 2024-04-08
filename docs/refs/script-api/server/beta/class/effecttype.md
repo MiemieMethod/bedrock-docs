@@ -9,13 +9,12 @@
 ## 方法
 
 /// define
-getName
-
-- ```js
-getName(): string
-```
-
+`getName`
 
 
 ///
+
+```js
+getName(): string
+```
 

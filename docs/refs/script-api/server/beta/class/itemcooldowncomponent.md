@@ -31,37 +31,34 @@ read-only cooldownTicks: int32
 ## 方法
 
 /// define
-getCooldownTicksRemaining
+`getCooldownTicksRemaining`
 
-- ```js
+
+///
+
+```js
 getCooldownTicksRemaining(player: Player): int32
 ```
 
 
+/// define
+`isCooldownCategory`
+
 
 ///
 
-
-/// define
-isCooldownCategory
-
-- ```js
+```js
 isCooldownCategory(cooldownCategory: string): boolean
 ```
 
 
+/// define
+`startCooldown`
+
 
 ///
 
-
-/// define
-startCooldown
-
-- ```js
+```js
 startCooldown(player: Player): void
 ```
-
-
-
-///
 

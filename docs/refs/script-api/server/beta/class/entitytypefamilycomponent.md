@@ -9,25 +9,23 @@
 ## 方法
 
 /// define
-getTypeFamilies
+`getTypeFamilies`
 
-- ```js
+
+///
+
+```js
 getTypeFamilies(): string[]
 ```
 
 
+/// define
+`hasTypeFamily`
+
 
 ///
 
-
-/// define
-hasTypeFamily
-
-- ```js
+```js
 hasTypeFamily(typeFamily: string): boolean
 ```
-
-
-
-///
 

@@ -31,25 +31,23 @@ read-only state: BlockPistonState
 ## 方法
 
 /// define
-getAttachedBlocks
+`getAttachedBlocks`
 
-- ```js
+
+///
+
+```js
 getAttachedBlocks(): Block[]
 ```
 
 
+/// define
+`getAttachedBlocksLocations`
+
 
 ///
 
-
-/// define
-getAttachedBlocksLocations
-
-- ```js
+```js
 getAttachedBlocksLocations(): Vector3[]
 ```
-
-
-
-///
 

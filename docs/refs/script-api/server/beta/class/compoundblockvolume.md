@@ -31,181 +31,166 @@ read-only volumeCount: uint64
 ## 方法
 
 /// define
-clear
+`clear`
 
-- ```js
+
+///
+
+```js
 clear(): void
 ```
 
 
+/// define
+`constructor`
+
 
 ///
 
-
-/// define
-constructor
-
-- ```js
+```js
 new constructor(origin?: Vector3): CompoundBlockVolume
 ```
 
 
+/// define
+`getBlockLocationIterator`
+
 
 ///
 
-
-/// define
-getBlockLocationIterator
-
-- ```js
+```js
 getBlockLocationIterator(): BlockLocationIterator
 ```
 
 
+/// define
+`getBoundingBox`
+
 
 ///
 
-
-/// define
-getBoundingBox
-
-- ```js
+```js
 getBoundingBox(): BoundingBox
 ```
 
 
+/// define
+`getMax`
+
 
 ///
 
-
-/// define
-getMax
-
-- ```js
+```js
 getMax(): Vector3
 ```
 
 
+/// define
+`getMin`
+
 
 ///
 
-
-/// define
-getMin
-
-- ```js
+```js
 getMin(): Vector3
 ```
 
 
+/// define
+`getOrigin`
+
 
 ///
 
-
-/// define
-getOrigin
-
-- ```js
+```js
 getOrigin(): Vector3
 ```
 
 
+/// define
+`isEmpty`
+
 
 ///
 
-
-/// define
-isEmpty
-
-- ```js
+```js
 isEmpty(): boolean
 ```
 
 
+/// define
+`isInside`
+
 
 ///
 
-
-/// define
-isInside
-
-- ```js
+```js
 isInside(worldLocation: Vector3): boolean
 ```
 
 
+/// define
+`peekLastVolume`
+
 
 ///
 
-
-/// define
-peekLastVolume
-
-- ```js
+```js
 peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): CompoundBlockVolumeItem | undefined
 ```
 
 
+/// define
+`popVolume`
+
 
 ///
 
-
-/// define
-popVolume
-
-- ```js
+```js
 popVolume(): boolean
 ```
 
 
+/// define
+`pushVolume`
+
 
 ///
 
-
-/// define
-pushVolume
-
-- ```js
+```js
 pushVolume(item: CompoundBlockVolumeItem): void
 ```
 
 
+/// define
+`replaceOrAddLastVolume`
+
 
 ///
 
-
-/// define
-replaceOrAddLastVolume
-
-- ```js
+```js
 replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 ```
 
 
+/// define
+`setOrigin`
+
 
 ///
 
-
-/// define
-setOrigin
-
-- ```js
+```js
 setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 ```
 
 
+/// define
+`translateOrigin`
+
 
 ///
 
-
-/// define
-translateOrigin
-
-- ```js
+```js
 translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 ```
-
-
-
-///
 

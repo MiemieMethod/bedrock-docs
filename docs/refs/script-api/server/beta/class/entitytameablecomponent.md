@@ -20,25 +20,23 @@ read-only probability: float
 ## 方法
 
 /// define
-getTameItems
+`getTameItems`
 
-- ```js
+
+///
+
+```js
 getTameItems(): string[]
 ```
 
 
+/// define
+`tame`
+
 
 ///
 
-
-/// define
-tame
-
-- ```js
+```js
 tame(): boolean
 ```
-
-
-
-///
 

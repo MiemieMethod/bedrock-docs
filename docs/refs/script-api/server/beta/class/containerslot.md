@@ -97,217 +97,199 @@ read-only typeId: string
 ## 方法
 
 /// define
-clearDynamicProperties
+`clearDynamicProperties`
 
-- ```js
+
+///
+
+```js
 clearDynamicProperties(): void
 ```
 
 
+/// define
+`getCanDestroy`
+
 
 ///
 
-
-/// define
-getCanDestroy
-
-- ```js
+```js
 getCanDestroy(): string[]
 ```
 
 
+/// define
+`getCanPlaceOn`
+
 
 ///
 
-
-/// define
-getCanPlaceOn
-
-- ```js
+```js
 getCanPlaceOn(): string[]
 ```
 
 
+/// define
+`getDynamicProperty`
+
 
 ///
 
-
-/// define
-getDynamicProperty
-
-- ```js
+```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
 
 
+/// define
+`getDynamicPropertyIds`
+
 
 ///
 
-
-/// define
-getDynamicPropertyIds
-
-- ```js
+```js
 getDynamicPropertyIds(): string[]
 ```
 
 
+/// define
+`getDynamicPropertyTotalByteCount`
+
 
 ///
 
-
-/// define
-getDynamicPropertyTotalByteCount
-
-- ```js
+```js
 getDynamicPropertyTotalByteCount(): int32
 ```
 
 
+/// define
+`getItem`
+
 
 ///
 
-
-/// define
-getItem
-
-- ```js
+```js
 getItem(): ItemStack | undefined
 ```
 
 
+/// define
+`getLore`
+
 
 ///
 
-
-/// define
-getLore
-
-- ```js
+```js
 getLore(): string[]
 ```
 
 
+/// define
+`getTags`
+
 
 ///
 
-
-/// define
-getTags
-
-- ```js
+```js
 getTags(): string[]
 ```
 
 
+/// define
+`hasItem`
+
 
 ///
 
-
-/// define
-hasItem
-
-- ```js
+```js
 hasItem(): boolean
 ```
 
 
+/// define
+`hasTag`
+
 
 ///
 
-
-/// define
-hasTag
-
-- ```js
+```js
 hasTag(tag: string): boolean
 ```
 
 
+/// define
+`isStackableWith`
+
 
 ///
 
-
-/// define
-isStackableWith
-
-- ```js
+```js
 isStackableWith(itemStack: ItemStack): boolean
 ```
 
 
+/// define
+`isValid`
+
 
 ///
 
-
-/// define
-isValid
-
-- ```js
+```js
 isValid(): boolean
 ```
 
 
+/// define
+`setCanDestroy`
+
 
 ///
 
-
-/// define
-setCanDestroy
-
-- ```js
+```js
 setCanDestroy(blockIdentifiers?: string[]): void
 ```
 
 
+/// define
+`setCanPlaceOn`
+
 
 ///
 
-
-/// define
-setCanPlaceOn
-
-- ```js
+```js
 setCanPlaceOn(blockIdentifiers?: string[]): void
 ```
 
 
+/// define
+`setDynamicProperty`
+
 
 ///
 
-
-/// define
-setDynamicProperty
-
-- ```js
+```js
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
 
 
+/// define
+`setItem`
+
 
 ///
 
-
-/// define
-setItem
-
-- ```js
+```js
 setItem(itemStack?: ItemStack): void
 ```
 
 
+/// define
+`setLore`
+
 
 ///
 
-
-/// define
-setLore
-
-- ```js
+```js
 setLore(loreList?: string[]): void
 ```
-
-
-
-///
 

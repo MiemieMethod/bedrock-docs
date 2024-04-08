@@ -9,73 +9,67 @@
 ## 方法
 
 /// define
-createEmpty
+`createEmpty`
 
-- ```js
+
+///
+
+```js
 createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Structure
 ```
 
 
+/// define
+`createFromWorld`
+
 
 ///
 
-
-/// define
-createFromWorld
-
-- ```js
+```js
 createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolume, options?: StructureCreateOptions): Structure
 ```
 
 
+/// define
+`delete`
+
 
 ///
 
-
-/// define
-delete
-
-- ```js
+```js
 delete(structure: string | Structure): boolean
 ```
 
 
+/// define
+`get`
+
 
 ///
 
-
-/// define
-get
-
-- ```js
+```js
 get(identifier: string): Structure | undefined
 ```
 
 
+/// define
+`getIds`
+
 
 ///
 
-
-/// define
-getIds
-
-- ```js
+```js
 getIds(): string[]
 ```
 
 
+/// define
+`place`
+
 
 ///
 
-
-/// define
-place
-
-- ```js
+```js
 place(structure: string | Structure, dimension: Dimension, location: Vector3, options?: StructurePlaceOptions): void
 ```
-
-
-
-///
 

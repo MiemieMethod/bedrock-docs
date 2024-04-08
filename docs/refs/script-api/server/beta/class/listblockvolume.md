@@ -9,37 +9,34 @@
 ## 方法
 
 /// define
-add
+`add`
 
-- ```js
+
+///
+
+```js
 add(locations: Vector3[]): void
 ```
 
 
+/// define
+`constructor`
+
 
 ///
 
-
-/// define
-constructor
-
-- ```js
+```js
 new constructor(locations: Vector3[]): ListBlockVolume
 ```
 
 
+/// define
+`remove`
+
 
 ///
 
-
-/// define
-remove
-
-- ```js
+```js
 remove(locations: Vector3[]): void
 ```
-
-
-
-///
 

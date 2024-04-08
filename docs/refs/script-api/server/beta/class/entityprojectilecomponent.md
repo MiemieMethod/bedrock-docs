@@ -163,13 +163,12 @@ stopOnHit: boolean
 ## 方法
 
 /// define
-shoot
-
-- ```js
-shoot(velocity: Vector3, options?: ProjectileShootOptions): void
-```
-
+`shoot`
 
 
 ///
+
+```js
+shoot(velocity: Vector3, options?: ProjectileShootOptions): void
+```
 
