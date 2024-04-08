@@ -821,6 +821,25 @@ nav:
             - <samp>TimeOfDay</samp>: refs/script-api/server/beta/timeofday.md
             - <samp>WatchdogTerminateReason</samp>: refs/script-api/server/beta/watchdogterminatereason.md
             - <samp>WeatherType</samp>: refs/script-api/server/beta/weathertype.md
+          - 类型别名:
+            - <samp>BlockComponentTypeMap</samp>: refs/script-api/server/beta/blockcomponenttypemap.md
+            - <samp>EntityComponentTypeMap</samp>: refs/script-api/server/beta/entitycomponenttypemap.md
+            - <samp>ItemComponentTypeMap</samp>: refs/script-api/server/beta/itemcomponenttypemap.md
+          - 错误:
+            - <samp>CommandError</samp>: refs/script-api/server/beta/commanderror.md
+            - <samp>EnchantmentLevelOutOfBoundsError</samp>: refs/script-api/server/beta/enchantmentleveloutofboundserror.md
+            - <samp>EnchantmentTypeNotCompatibleError</samp>: refs/script-api/server/beta/enchantmenttypenotcompatibleerror.md
+            - <samp>EnchantmentTypeUnknownIdError</samp>: refs/script-api/server/beta/enchantmenttypeunknowniderror.md
+            - <samp>InvalidContainerSlotError</samp>: refs/script-api/server/beta/invalidcontainersloterror.md
+            - <samp>InvalidStructureError</samp>: refs/script-api/server/beta/invalidstructureerror.md
+            - <samp>ItemCustomComponentAlreadyRegisteredError</samp>: refs/script-api/server/beta/itemcustomcomponentalreadyregisterederror.md
+            - <samp>ItemCustomComponentNameError</samp>: refs/script-api/server/beta/itemcustomcomponentnameerror.md
+            - <samp>ItemCustomComponentReloadNewComponentError</samp>: refs/script-api/server/beta/itemcustomcomponentreloadnewcomponenterror.md
+            - <samp>ItemCustomComponentReloadNewEventError</samp>: refs/script-api/server/beta/itemcustomcomponentreloadneweventerror.md
+            - <samp>ItemCustomComponentReloadVersionError</samp>: refs/script-api/server/beta/itemcustomcomponentreloadversionerror.md
+            - <samp>LocationInUnloadedChunkError</samp>: refs/script-api/server/beta/locationinunloadedchunkerror.md
+            - <samp>LocationOutOfWorldBoundariesError</samp>: refs/script-api/server/beta/locationoutofworldboundarieserror.md
+            - <samp>UnloadedChunksError</samp>: refs/script-api/server/beta/unloadedchunkserror.md
     - 命令:
       - refs/commands/index.md
       - 命令版本: refs/commands/version.md
