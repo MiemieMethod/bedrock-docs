@@ -1,0 +1,127 @@
+# `ScoreboardObjective`
+
+> 文档版本：1.21.0.20
+
+`ScoreboardObjective`类。
+
+## 属性
+
+/// define
+`displayName`
+
+
+///
+
+```js
+read-only displayName: string;
+```
+
+/// html | div.result
+//// define
+`displayName`：`string`
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`id`
+
+
+///
+
+```js
+read-only id: string;
+```
+
+/// html | div.result
+//// define
+`id`：`string`
+
+- 属性。
+
+
+////
+
+///
+
+
+## 方法
+
+/// define
+`getParticipants`
+
+
+///
+
+```js
+getParticipants(): ScoreboardIdentity[]
+```
+
+/// html | div.result
+//// define
+返回值：<code><a href="../scoreboardidentity/">ScoreboardIdentity</a>[]</code>
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`getScore`
+
+
+///
+
+```js
+getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
+```
+
+/// html | div.result
+//// define
+`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`int32`|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`getScores`
+
+
+///
+
+```js
+getScores(): ScoreboardScoreInfo[]
+```
+
+/// html | div.result
+//// define
+返回值：<code><a href="../scoreboardscoreinfo/">ScoreboardScoreInfo</a>[]</code>
+
+- 返回值。
+
+
+////
+
+///
+

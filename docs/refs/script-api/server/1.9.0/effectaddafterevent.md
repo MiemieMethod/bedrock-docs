@@ -1,0 +1,51 @@
+# `EffectAddAfterEvent`
+
+> 文档版本：1.21.0.20
+
+`EffectAddAfterEvent`类。
+
+## 属性
+
+/// define
+`effect`
+
+
+///
+
+```js
+read-only effect: Effect;
+```
+
+/// html | div.result
+//// define
+`effect`：[`Effect`](./effect.md)
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`entity`
+
+
+///
+
+```js
+read-only entity: Entity;
+```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](./entity.md)
+
+- 属性。
+
+
+////
+
+///
+

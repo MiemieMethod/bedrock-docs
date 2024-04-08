@@ -1,0 +1,67 @@
+# `WeatherChangeEventSignal`
+
+> 文档版本：1.21.0.20
+
+`WeatherChangeEventSignal`类。
+
+## 方法
+
+/// define
+`subscribe`
+
+
+///
+
+```js
+subscribe(callback: (arg: WeatherChangeEvent) => void): (arg: WeatherChangeEvent) => void
+```
+
+/// html | div.result
+//// define
+`callback`：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`unsubscribe`
+
+
+///
+
+```js
+unsubscribe(callback: (arg: WeatherChangeEvent) => void): void
+```
+
+/// html | div.result
+//// define
+`callback`：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

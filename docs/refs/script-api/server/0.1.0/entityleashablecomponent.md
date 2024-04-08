@@ -1,0 +1,83 @@
+# `EntityLeashableComponent`
+
+> 文档版本：1.21.0.20
+
+`EntityLeashableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+
+## 属性
+
+/// define
+`softDistance`
+
+
+///
+
+```js
+read-only softDistance: float;
+```
+
+/// html | div.result
+//// define
+`softDistance`：`float`
+
+- 属性。
+
+
+////
+
+///
+
+
+## 方法
+
+/// define
+`leash`
+
+
+///
+
+```js
+leash(leashHolder: Entity): void
+```
+
+/// html | div.result
+//// define
+`leashHolder`：[`Entity`](./entity.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`unleash`
+
+
+///
+
+```js
+unleash(): void
+```
+
+/// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

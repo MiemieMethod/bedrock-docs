@@ -1,0 +1,387 @@
+# `ItemStack`
+
+> 文档版本：1.21.0.20
+
+`ItemStack`类。
+
+## 属性
+
+/// define
+`amount`
+
+
+///
+
+```js
+read-only amount: int32;
+```
+
+/// html | div.result
+//// define
+`amount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`isStackable`
+
+
+///
+
+```js
+read-only isStackable: boolean;
+```
+
+/// html | div.result
+//// define
+`isStackable`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`keepOnDeath`
+
+
+///
+
+```js
+read-only keepOnDeath: boolean;
+```
+
+/// html | div.result
+//// define
+`keepOnDeath`：`boolean`
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`lockMode`
+
+
+///
+
+```js
+read-only lockMode: ItemLockMode;
+```
+
+/// html | div.result
+//// define
+`lockMode`：[`ItemLockMode`](./itemlockmode.md)
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`maxAmount`
+
+
+///
+
+```js
+read-only maxAmount: int32;
+```
+
+/// html | div.result
+//// define
+`maxAmount`：`int32`
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`nameTag`
+
+
+///
+
+```js
+read-only nameTag: string | undefined;
+```
+
+/// html | div.result
+//// define
+`nameTag`：`string`|`undefined`
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`type`
+
+
+///
+
+```js
+read-only type: ItemType;
+```
+
+/// html | div.result
+//// define
+`type`：[`ItemType`](./itemtype.md)
+
+- 属性。
+
+
+////
+
+///
+
+
+/// define
+`typeId`
+
+
+///
+
+```js
+read-only typeId: string;
+```
+
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- 属性。
+
+
+////
+
+///
+
+
+## 方法
+
+/// define
+`constructor`
+
+
+///
+
+```js
+new constructor(itemType: ItemType | string, amount: int32): ItemStack
+```
+
+/// html | div.result
+//// define
+`itemType`：[`ItemType`](./itemtype.md)|`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`amount`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`getComponent`
+
+
+///
+
+```js
+getComponent(componentId: string): ItemComponent | undefined
+```
+
+/// html | div.result
+//// define
+`componentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ItemComponent`](./itemcomponent.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`getComponents`
+
+
+///
+
+```js
+getComponents(): ItemComponent[]
+```
+
+/// html | div.result
+//// define
+返回值：<code><a href="../itemcomponent/">ItemComponent</a>[]</code>
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`getLore`
+
+
+///
+
+```js
+getLore(): string[]
+```
+
+/// html | div.result
+//// define
+返回值：`string[]`
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`hasComponent`
+
+
+///
+
+```js
+hasComponent(componentId: string): boolean
+```
+
+/// html | div.result
+//// define
+`componentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`isStackableWith`
+
+
+///
+
+```js
+isStackableWith(itemStack: ItemStack): boolean
+```
+
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
+
+/// define
+`setLore`
+
+
+///
+
+```js
+setLore(loreList?: string[]): void
+```
+
+/// html | div.result
+//// define
+`loreList`：`string[]`|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

@@ -1,0 +1,5 @@
+# `EntityNavigationGenericComponent`
+
+> 文档版本：1.21.0.20
+
+`EntityNavigationGenericComponent`类，扩展自[`EntityNavigationComponent`](./entitynavigationcomponent.md)。

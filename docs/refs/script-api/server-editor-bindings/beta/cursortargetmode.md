@@ -1,0 +1,29 @@
+# `CursorTargetMode`
+
+> 文档版本：1.21.0.20
+
+`CursorTargetMode`枚举。
+
+## 常量
+
+/// define
+`Block`
+
+
+///
+
+```js
+static read-only Block = 0;
+```
+
+
+/// define
+`Face`
+
+
+///
+
+```js
+static read-only Face = 1;
+```
+

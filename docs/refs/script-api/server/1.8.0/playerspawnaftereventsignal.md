@@ -1,0 +1,5 @@
+# `PlayerSpawnAfterEventSignal`
+
+> 文档版本：1.21.0.20
+
+`PlayerSpawnAfterEventSignal`类，扩展自[`IPlayerSpawnAfterEventSignal`](./iplayerspawnaftereventsignal.md)。

@@ -1,0 +1,40 @@
+# `WeatherType`
+
+> 文档版本：1.21.0.20
+
+`WeatherType`枚举。
+
+## 常量
+
+/// define
+`Clear`
+
+
+///
+
+```js
+static read-only Clear = "Clear";
+```
+
+
+/// define
+`Rain`
+
+
+///
+
+```js
+static read-only Rain = "Rain";
+```
+
+
+/// define
+`Thunder`
+
+
+///
+
+```js
+static read-only Thunder = "Thunder";
+```
+
