@@ -41,7 +41,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 ////
 
 //// define
-`testFunction`：<code>(<a href="../test/">Test</a>) =&gt; void</code>
+`testFunction`：<code>(<a href="./test/">Test</a>) =&gt; void</code>
 
 - 参数3。
 
@@ -87,7 +87,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 ////
 
 //// define
-`testFunction`：<code>(<a href="../test/">Test</a>) =&gt; Promise<void></code>
+`testFunction`：<code>(<a href="./test/">Test</a>) =&gt; Promise<void></code>
 
 - 参数3。
 
