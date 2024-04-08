@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHealableComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
+`EntityHealableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
 
 ## 常量
 

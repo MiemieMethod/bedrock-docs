@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLiquidContainerComponent`类，扩展自`[`BlockComponent`](./blockcomponent.md)`。
+`BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
 
 ## 属性
 

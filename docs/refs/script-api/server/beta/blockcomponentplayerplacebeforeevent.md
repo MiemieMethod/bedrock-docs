@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentPlayerPlaceBeforeEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
+`BlockComponentPlayerPlaceBeforeEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
 
 ## 属性
 

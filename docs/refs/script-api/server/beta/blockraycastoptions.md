@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockRaycastOptions`接口，扩展自`[`BlockFilter`](./blockfilter.md)`。
+`BlockRaycastOptions`接口，扩展自[`BlockFilter`](./blockfilter.md)。
 
 ## 属性
 

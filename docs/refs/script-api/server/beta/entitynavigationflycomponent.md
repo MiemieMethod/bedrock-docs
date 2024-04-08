@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityNavigationFlyComponent`类，扩展自`[`EntityNavigationComponent`](./entitynavigationcomponent.md)`。
+`EntityNavigationFlyComponent`类，扩展自[`EntityNavigationComponent`](./entitynavigationcomponent.md)。
 
 ## 常量
 

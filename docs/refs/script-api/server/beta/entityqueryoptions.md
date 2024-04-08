@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityQueryOptions`接口，扩展自`[`EntityFilter`](./entityfilter.md)`。
+`EntityQueryOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。
 
 ## 属性
 

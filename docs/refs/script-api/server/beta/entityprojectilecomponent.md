@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityProjectileComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
+`EntityProjectileComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
 
 ## 常量
 

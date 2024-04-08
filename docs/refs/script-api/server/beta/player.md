@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Player`类，扩展自`[`Entity`](./entity.md)`。
+`Player`类，扩展自[`Entity`](./entity.md)。
 
 ## 属性
 

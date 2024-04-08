@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemDurabilityComponent`类，扩展自`[`ItemComponent`](./itemcomponent.md)`。
+`ItemDurabilityComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。
 
 ## 常量
 

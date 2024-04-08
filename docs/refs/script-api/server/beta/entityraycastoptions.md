@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRaycastOptions`接口，扩展自`[`EntityFilter`](./entityfilter.md)`。
+`EntityRaycastOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。
 
 ## 属性
 

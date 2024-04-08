@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTameableComponent`类，扩展自`[`EntityComponent`](./entitycomponent.md)`。
+`EntityTameableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
 
 ## 常量
 

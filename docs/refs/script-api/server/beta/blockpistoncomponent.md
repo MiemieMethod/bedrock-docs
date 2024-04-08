@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPistonComponent`类，扩展自`[`BlockComponent`](./blockcomponent.md)`。
+`BlockPistonComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
 
 ## 常量
 

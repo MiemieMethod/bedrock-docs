@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ListBlockVolume`类，扩展自`[`BlockVolumeBase`](./blockvolumebase.md)`。
+`ListBlockVolume`类，扩展自[`BlockVolumeBase`](./blockvolumebase.md)。
 
 ## 方法
 

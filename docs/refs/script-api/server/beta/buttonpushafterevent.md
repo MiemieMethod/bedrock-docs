@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ButtonPushAfterEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
+`ButtonPushAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
 
 ## 属性
 

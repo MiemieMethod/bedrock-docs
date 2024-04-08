@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`LeverActionAfterEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
+`LeverActionAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
 
 ## 属性
 

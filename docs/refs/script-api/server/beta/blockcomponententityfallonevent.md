@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentEntityFallOnEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
+`BlockComponentEntityFallOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
 
 ## 属性
 

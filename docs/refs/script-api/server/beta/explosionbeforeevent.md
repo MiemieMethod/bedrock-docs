@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExplosionBeforeEvent`类，扩展自`[`ExplosionAfterEvent`](./explosionafterevent.md)`。
+`ExplosionBeforeEvent`类，扩展自[`ExplosionAfterEvent`](./explosionafterevent.md)。
 
 ## 属性
 

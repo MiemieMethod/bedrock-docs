@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PressurePlatePopAfterEvent`类，扩展自`[`BlockEvent`](./blockevent.md)`。
+`PressurePlatePopAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
 
 ## 属性
 

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockRecordPlayerComponent`类，扩展自`[`BlockComponent`](./blockcomponent.md)`。
+`BlockRecordPlayerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
 
 ## 常量
 
