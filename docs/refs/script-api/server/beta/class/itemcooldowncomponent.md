@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:cooldown;
+static read-only componentId = "minecraft:cooldown";
 ```
 
 

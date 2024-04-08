@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:push_through;
+static read-only componentId = "minecraft:push_through";
 ```
 
 

@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:is_stunned;
+static read-only componentId = "minecraft:is_stunned";
 ```
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only CommandBlockOutput = commandBlockOutput;
+static read-only CommandBlockOutput = "commandBlockOutput";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only CommandBlockOutput = commandBlockOutput;
 ///
 
 ```js
-static read-only CommandBlocksEnabled = commandBlocksEnabled;
+static read-only CommandBlocksEnabled = "commandBlocksEnabled";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only CommandBlocksEnabled = commandBlocksEnabled;
 ///
 
 ```js
-static read-only DoDayLightCycle = doDayLightCycle;
+static read-only DoDayLightCycle = "doDayLightCycle";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only DoDayLightCycle = doDayLightCycle;
 ///
 
 ```js
-static read-only DoEntityDrops = doEntityDrops;
+static read-only DoEntityDrops = "doEntityDrops";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only DoEntityDrops = doEntityDrops;
 ///
 
 ```js
-static read-only DoFireTick = doFireTick;
+static read-only DoFireTick = "doFireTick";
 ```
 
 
@@ -68,7 +68,7 @@ static read-only DoFireTick = doFireTick;
 ///
 
 ```js
-static read-only DoImmediateRespawn = doImmediateRespawn;
+static read-only DoImmediateRespawn = "doImmediateRespawn";
 ```
 
 
@@ -79,7 +79,7 @@ static read-only DoImmediateRespawn = doImmediateRespawn;
 ///
 
 ```js
-static read-only DoInsomnia = doInsomnia;
+static read-only DoInsomnia = "doInsomnia";
 ```
 
 
@@ -90,7 +90,7 @@ static read-only DoInsomnia = doInsomnia;
 ///
 
 ```js
-static read-only DoLimitedCrafting = doLimitedCrafting;
+static read-only DoLimitedCrafting = "doLimitedCrafting";
 ```
 
 
@@ -101,7 +101,7 @@ static read-only DoLimitedCrafting = doLimitedCrafting;
 ///
 
 ```js
-static read-only DoMobLoot = doMobLoot;
+static read-only DoMobLoot = "doMobLoot";
 ```
 
 
@@ -112,7 +112,7 @@ static read-only DoMobLoot = doMobLoot;
 ///
 
 ```js
-static read-only DoMobSpawning = doMobSpawning;
+static read-only DoMobSpawning = "doMobSpawning";
 ```
 
 
@@ -123,7 +123,7 @@ static read-only DoMobSpawning = doMobSpawning;
 ///
 
 ```js
-static read-only DoTileDrops = doTileDrops;
+static read-only DoTileDrops = "doTileDrops";
 ```
 
 
@@ -134,7 +134,7 @@ static read-only DoTileDrops = doTileDrops;
 ///
 
 ```js
-static read-only DoWeatherCycle = doWeatherCycle;
+static read-only DoWeatherCycle = "doWeatherCycle";
 ```
 
 
@@ -145,7 +145,7 @@ static read-only DoWeatherCycle = doWeatherCycle;
 ///
 
 ```js
-static read-only DrowningDamage = drowningDamage;
+static read-only DrowningDamage = "drowningDamage";
 ```
 
 
@@ -156,7 +156,7 @@ static read-only DrowningDamage = drowningDamage;
 ///
 
 ```js
-static read-only FallDamage = fallDamage;
+static read-only FallDamage = "fallDamage";
 ```
 
 
@@ -167,7 +167,7 @@ static read-only FallDamage = fallDamage;
 ///
 
 ```js
-static read-only FireDamage = fireDamage;
+static read-only FireDamage = "fireDamage";
 ```
 
 
@@ -178,7 +178,7 @@ static read-only FireDamage = fireDamage;
 ///
 
 ```js
-static read-only FreezeDamage = freezeDamage;
+static read-only FreezeDamage = "freezeDamage";
 ```
 
 
@@ -189,7 +189,7 @@ static read-only FreezeDamage = freezeDamage;
 ///
 
 ```js
-static read-only FunctionCommandLimit = functionCommandLimit;
+static read-only FunctionCommandLimit = "functionCommandLimit";
 ```
 
 
@@ -200,7 +200,7 @@ static read-only FunctionCommandLimit = functionCommandLimit;
 ///
 
 ```js
-static read-only KeepInventory = keepInventory;
+static read-only KeepInventory = "keepInventory";
 ```
 
 
@@ -211,7 +211,7 @@ static read-only KeepInventory = keepInventory;
 ///
 
 ```js
-static read-only MaxCommandChainLength = maxCommandChainLength;
+static read-only MaxCommandChainLength = "maxCommandChainLength";
 ```
 
 
@@ -222,7 +222,7 @@ static read-only MaxCommandChainLength = maxCommandChainLength;
 ///
 
 ```js
-static read-only MobGriefing = mobGriefing;
+static read-only MobGriefing = "mobGriefing";
 ```
 
 
@@ -233,7 +233,7 @@ static read-only MobGriefing = mobGriefing;
 ///
 
 ```js
-static read-only NaturalRegeneration = naturalRegeneration;
+static read-only NaturalRegeneration = "naturalRegeneration";
 ```
 
 
@@ -244,7 +244,7 @@ static read-only NaturalRegeneration = naturalRegeneration;
 ///
 
 ```js
-static read-only PlayersSleepingPercentage = playersSleepingPercentage;
+static read-only PlayersSleepingPercentage = "playersSleepingPercentage";
 ```
 
 
@@ -255,7 +255,7 @@ static read-only PlayersSleepingPercentage = playersSleepingPercentage;
 ///
 
 ```js
-static read-only ProjectilesCanBreakBlocks = projectilesCanBreakBlocks;
+static read-only ProjectilesCanBreakBlocks = "projectilesCanBreakBlocks";
 ```
 
 
@@ -266,7 +266,7 @@ static read-only ProjectilesCanBreakBlocks = projectilesCanBreakBlocks;
 ///
 
 ```js
-static read-only Pvp = pvp;
+static read-only Pvp = "pvp";
 ```
 
 
@@ -277,7 +277,7 @@ static read-only Pvp = pvp;
 ///
 
 ```js
-static read-only RandomTickSpeed = randomTickSpeed;
+static read-only RandomTickSpeed = "randomTickSpeed";
 ```
 
 
@@ -288,7 +288,7 @@ static read-only RandomTickSpeed = randomTickSpeed;
 ///
 
 ```js
-static read-only RecipesUnlock = recipesUnlock;
+static read-only RecipesUnlock = "recipesUnlock";
 ```
 
 
@@ -299,7 +299,7 @@ static read-only RecipesUnlock = recipesUnlock;
 ///
 
 ```js
-static read-only RespawnBlocksExplode = respawnBlocksExplode;
+static read-only RespawnBlocksExplode = "respawnBlocksExplode";
 ```
 
 
@@ -310,7 +310,7 @@ static read-only RespawnBlocksExplode = respawnBlocksExplode;
 ///
 
 ```js
-static read-only SendCommandFeedback = sendCommandFeedback;
+static read-only SendCommandFeedback = "sendCommandFeedback";
 ```
 
 
@@ -321,7 +321,7 @@ static read-only SendCommandFeedback = sendCommandFeedback;
 ///
 
 ```js
-static read-only ShowBorderEffect = showBorderEffect;
+static read-only ShowBorderEffect = "showBorderEffect";
 ```
 
 
@@ -332,7 +332,7 @@ static read-only ShowBorderEffect = showBorderEffect;
 ///
 
 ```js
-static read-only ShowCoordinates = showCoordinates;
+static read-only ShowCoordinates = "showCoordinates";
 ```
 
 
@@ -343,7 +343,7 @@ static read-only ShowCoordinates = showCoordinates;
 ///
 
 ```js
-static read-only ShowDeathMessages = showDeathMessages;
+static read-only ShowDeathMessages = "showDeathMessages";
 ```
 
 
@@ -354,7 +354,7 @@ static read-only ShowDeathMessages = showDeathMessages;
 ///
 
 ```js
-static read-only ShowRecipeMessages = showRecipeMessages;
+static read-only ShowRecipeMessages = "showRecipeMessages";
 ```
 
 
@@ -365,7 +365,7 @@ static read-only ShowRecipeMessages = showRecipeMessages;
 ///
 
 ```js
-static read-only ShowTags = showTags;
+static read-only ShowTags = "showTags";
 ```
 
 
@@ -376,7 +376,7 @@ static read-only ShowTags = showTags;
 ///
 
 ```js
-static read-only SpawnRadius = spawnRadius;
+static read-only SpawnRadius = "spawnRadius";
 ```
 
 
@@ -387,7 +387,7 @@ static read-only SpawnRadius = spawnRadius;
 ///
 
 ```js
-static read-only TntExplodes = tntExplodes;
+static read-only TntExplodes = "tntExplodes";
 ```
 
 
@@ -398,6 +398,6 @@ static read-only TntExplodes = tntExplodes;
 ///
 
 ```js
-static read-only TntExplosionDropDecay = tntExplosionDropDecay;
+static read-only TntExplosionDropDecay = "tntExplosionDropDecay";
 ```
 

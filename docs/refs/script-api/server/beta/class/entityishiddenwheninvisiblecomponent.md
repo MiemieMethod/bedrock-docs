@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:is_hidden_when_invisible;
+static read-only componentId = "minecraft:is_hidden_when_invisible";
 ```
 

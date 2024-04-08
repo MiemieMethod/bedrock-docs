@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Hang = Hang;
+static read-only Hang = "Hang";
 ```
 
 
@@ -24,6 +24,6 @@ static read-only Hang = Hang;
 ///
 
 ```js
-static read-only StackOverflow = StackOverflow;
+static read-only StackOverflow = "StackOverflow";
 ```
 

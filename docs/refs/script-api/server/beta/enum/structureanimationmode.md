@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Blocks = Blocks;
+static read-only Blocks = "Blocks";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Blocks = Blocks;
 ///
 
 ```js
-static read-only Layers = Layers;
+static read-only Layers = "Layers";
 ```
 
 
@@ -35,6 +35,6 @@ static read-only Layers = Layers;
 ///
 
 ```js
-static read-only None = None;
+static read-only None = "None";
 ```
 

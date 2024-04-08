@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Inventory = minecraft:inventory;
+static read-only Inventory = "minecraft:inventory";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Inventory = minecraft:inventory;
 ///
 
 ```js
-static read-only LavaContainer = minecraft:lavaContainer;
+static read-only LavaContainer = "minecraft:lavaContainer";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only LavaContainer = minecraft:lavaContainer;
 ///
 
 ```js
-static read-only Piston = minecraft:piston;
+static read-only Piston = "minecraft:piston";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only Piston = minecraft:piston;
 ///
 
 ```js
-static read-only PotionContainer = minecraft:potionContainer;
+static read-only PotionContainer = "minecraft:potionContainer";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only PotionContainer = minecraft:potionContainer;
 ///
 
 ```js
-static read-only RecordPlayer = minecraft:recordPlayer;
+static read-only RecordPlayer = "minecraft:recordPlayer";
 ```
 
 
@@ -68,7 +68,7 @@ static read-only RecordPlayer = minecraft:recordPlayer;
 ///
 
 ```js
-static read-only Sign = minecraft:sign;
+static read-only Sign = "minecraft:sign";
 ```
 
 
@@ -79,7 +79,7 @@ static read-only Sign = minecraft:sign;
 ///
 
 ```js
-static read-only SnowContainer = minecraft:snowContainer;
+static read-only SnowContainer = "minecraft:snowContainer";
 ```
 
 
@@ -90,6 +90,6 @@ static read-only SnowContainer = minecraft:snowContainer;
 ///
 
 ```js
-static read-only WaterContainer = minecraft:waterContainer;
+static read-only WaterContainer = "minecraft:waterContainer";
 ```
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Memory = Memory;
+static read-only Memory = "Memory";
 ```
 
 
@@ -24,6 +24,6 @@ static read-only Memory = Memory;
 ///
 
 ```js
-static read-only World = World;
+static read-only World = "World";
 ```
 

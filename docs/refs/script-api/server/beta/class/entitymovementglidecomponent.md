@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:movement.glide;
+static read-only componentId = "minecraft:movement.glide";
 ```
 
 

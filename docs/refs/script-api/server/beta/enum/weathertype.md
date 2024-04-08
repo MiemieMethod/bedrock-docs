@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Clear = Clear;
+static read-only Clear = "Clear";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Clear = Clear;
 ///
 
 ```js
-static read-only Rain = Rain;
+static read-only Rain = "Rain";
 ```
 
 
@@ -35,6 +35,6 @@ static read-only Rain = Rain;
 ///
 
 ```js
-static read-only Thunder = Thunder;
+static read-only Thunder = "Thunder";
 ```
 

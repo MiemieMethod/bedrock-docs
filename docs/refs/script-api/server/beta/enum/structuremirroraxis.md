@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only None = None;
+static read-only None = "None";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only None = None;
 ///
 
 ```js
-static read-only X = X;
+static read-only X = "X";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only X = X;
 ///
 
 ```js
-static read-only XZ = XZ;
+static read-only XZ = "XZ";
 ```
 
 
@@ -46,6 +46,6 @@ static read-only XZ = XZ;
 ///
 
 ```js
-static read-only Z = Z;
+static read-only Z = "Z";
 ```
 

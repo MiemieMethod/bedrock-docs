@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only inventory = inventory;
+static read-only inventory = "inventory";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only inventory = inventory;
 ///
 
 ```js
-static read-only none = none;
+static read-only none = "none";
 ```
 
 
@@ -35,6 +35,6 @@ static read-only none = none;
 ///
 
 ```js
-static read-only slot = slot;
+static read-only slot = "slot";
 ```
 

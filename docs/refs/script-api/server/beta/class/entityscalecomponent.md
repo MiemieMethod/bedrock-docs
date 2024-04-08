@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:scale;
+static read-only componentId = "minecraft:scale";
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only ArmorFeet = ArmorFeet;
+static read-only ArmorFeet = "ArmorFeet";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only ArmorFeet = ArmorFeet;
 ///
 
 ```js
-static read-only ArmorHead = ArmorHead;
+static read-only ArmorHead = "ArmorHead";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only ArmorHead = ArmorHead;
 ///
 
 ```js
-static read-only ArmorLegs = ArmorLegs;
+static read-only ArmorLegs = "ArmorLegs";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only ArmorLegs = ArmorLegs;
 ///
 
 ```js
-static read-only ArmorTorso = ArmorTorso;
+static read-only ArmorTorso = "ArmorTorso";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only ArmorTorso = ArmorTorso;
 ///
 
 ```js
-static read-only Axe = Axe;
+static read-only Axe = "Axe";
 ```
 
 
@@ -68,7 +68,7 @@ static read-only Axe = Axe;
 ///
 
 ```js
-static read-only Bow = Bow;
+static read-only Bow = "Bow";
 ```
 
 
@@ -79,7 +79,7 @@ static read-only Bow = Bow;
 ///
 
 ```js
-static read-only CarrotStick = CarrotStick;
+static read-only CarrotStick = "CarrotStick";
 ```
 
 
@@ -90,7 +90,7 @@ static read-only CarrotStick = CarrotStick;
 ///
 
 ```js
-static read-only CosmeticHead = CosmeticHead;
+static read-only CosmeticHead = "CosmeticHead";
 ```
 
 
@@ -101,7 +101,7 @@ static read-only CosmeticHead = CosmeticHead;
 ///
 
 ```js
-static read-only Crossbow = Crossbow;
+static read-only Crossbow = "Crossbow";
 ```
 
 
@@ -112,7 +112,7 @@ static read-only Crossbow = Crossbow;
 ///
 
 ```js
-static read-only Elytra = Elytra;
+static read-only Elytra = "Elytra";
 ```
 
 
@@ -123,7 +123,7 @@ static read-only Elytra = Elytra;
 ///
 
 ```js
-static read-only FishingRod = FishingRod;
+static read-only FishingRod = "FishingRod";
 ```
 
 
@@ -134,7 +134,7 @@ static read-only FishingRod = FishingRod;
 ///
 
 ```js
-static read-only Flintsteel = Flintsteel;
+static read-only Flintsteel = "Flintsteel";
 ```
 
 
@@ -145,7 +145,7 @@ static read-only Flintsteel = Flintsteel;
 ///
 
 ```js
-static read-only Hoe = Hoe;
+static read-only Hoe = "Hoe";
 ```
 
 
@@ -156,7 +156,7 @@ static read-only Hoe = Hoe;
 ///
 
 ```js
-static read-only Pickaxe = Pickaxe;
+static read-only Pickaxe = "Pickaxe";
 ```
 
 
@@ -167,7 +167,7 @@ static read-only Pickaxe = Pickaxe;
 ///
 
 ```js
-static read-only Shears = Shears;
+static read-only Shears = "Shears";
 ```
 
 
@@ -178,7 +178,7 @@ static read-only Shears = Shears;
 ///
 
 ```js
-static read-only Shield = Shield;
+static read-only Shield = "Shield";
 ```
 
 
@@ -189,7 +189,7 @@ static read-only Shield = Shield;
 ///
 
 ```js
-static read-only Shovel = Shovel;
+static read-only Shovel = "Shovel";
 ```
 
 
@@ -200,7 +200,7 @@ static read-only Shovel = Shovel;
 ///
 
 ```js
-static read-only Spear = Spear;
+static read-only Spear = "Spear";
 ```
 
 
@@ -211,6 +211,6 @@ static read-only Spear = Spear;
 ///
 
 ```js
-static read-only Sword = Sword;
+static read-only Sword = "Sword";
 ```
 

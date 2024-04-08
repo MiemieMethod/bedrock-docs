@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:waterContainer;
+static read-only componentId = "minecraft:waterContainer";
 ```
 
 

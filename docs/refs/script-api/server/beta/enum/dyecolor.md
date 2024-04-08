@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Black = Black;
+static read-only Black = "Black";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Black = Black;
 ///
 
 ```js
-static read-only Blue = Blue;
+static read-only Blue = "Blue";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Blue = Blue;
 ///
 
 ```js
-static read-only Brown = Brown;
+static read-only Brown = "Brown";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only Brown = Brown;
 ///
 
 ```js
-static read-only Cyan = Cyan;
+static read-only Cyan = "Cyan";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only Cyan = Cyan;
 ///
 
 ```js
-static read-only Gray = Gray;
+static read-only Gray = "Gray";
 ```
 
 
@@ -68,7 +68,7 @@ static read-only Gray = Gray;
 ///
 
 ```js
-static read-only Green = Green;
+static read-only Green = "Green";
 ```
 
 
@@ -79,7 +79,7 @@ static read-only Green = Green;
 ///
 
 ```js
-static read-only LightBlue = LightBlue;
+static read-only LightBlue = "LightBlue";
 ```
 
 
@@ -90,7 +90,7 @@ static read-only LightBlue = LightBlue;
 ///
 
 ```js
-static read-only Lime = Lime;
+static read-only Lime = "Lime";
 ```
 
 
@@ -101,7 +101,7 @@ static read-only Lime = Lime;
 ///
 
 ```js
-static read-only Magenta = Magenta;
+static read-only Magenta = "Magenta";
 ```
 
 
@@ -112,7 +112,7 @@ static read-only Magenta = Magenta;
 ///
 
 ```js
-static read-only Orange = Orange;
+static read-only Orange = "Orange";
 ```
 
 
@@ -123,7 +123,7 @@ static read-only Orange = Orange;
 ///
 
 ```js
-static read-only Pink = Pink;
+static read-only Pink = "Pink";
 ```
 
 
@@ -134,7 +134,7 @@ static read-only Pink = Pink;
 ///
 
 ```js
-static read-only Purple = Purple;
+static read-only Purple = "Purple";
 ```
 
 
@@ -145,7 +145,7 @@ static read-only Purple = Purple;
 ///
 
 ```js
-static read-only Red = Red;
+static read-only Red = "Red";
 ```
 
 
@@ -156,7 +156,7 @@ static read-only Red = Red;
 ///
 
 ```js
-static read-only Silver = Silver;
+static read-only Silver = "Silver";
 ```
 
 
@@ -167,7 +167,7 @@ static read-only Silver = Silver;
 ///
 
 ```js
-static read-only White = White;
+static read-only White = "White";
 ```
 
 
@@ -178,6 +178,6 @@ static read-only White = White;
 ///
 
 ```js
-static read-only Yellow = Yellow;
+static read-only Yellow = "Yellow";
 ```
 

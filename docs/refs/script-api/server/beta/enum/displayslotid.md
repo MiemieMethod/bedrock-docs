@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only BelowName = BelowName;
+static read-only BelowName = "BelowName";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only BelowName = BelowName;
 ///
 
 ```js
-static read-only List = List;
+static read-only List = "List";
 ```
 
 
@@ -35,6 +35,6 @@ static read-only List = List;
 ///
 
 ```js
-static read-only Sidebar = Sidebar;
+static read-only Sidebar = "Sidebar";
 ```
 

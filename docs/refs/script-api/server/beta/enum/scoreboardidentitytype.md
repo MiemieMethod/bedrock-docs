@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Entity = Entity;
+static read-only Entity = "Entity";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Entity = Entity;
 ///
 
 ```js
-static read-only FakePlayer = FakePlayer;
+static read-only FakePlayer = "FakePlayer";
 ```
 
 
@@ -35,6 +35,6 @@ static read-only FakePlayer = FakePlayer;
 ///
 
 ```js
-static read-only Player = Player;
+static read-only Player = "Player";
 ```
 

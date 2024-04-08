@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Down = Down;
+static read-only Down = "Down";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Down = Down;
 ///
 
 ```js
-static read-only East = East;
+static read-only East = "East";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only East = East;
 ///
 
 ```js
-static read-only North = North;
+static read-only North = "North";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only North = North;
 ///
 
 ```js
-static read-only South = South;
+static read-only South = "South";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only South = South;
 ///
 
 ```js
-static read-only Up = Up;
+static read-only Up = "Up";
 ```
 
 
@@ -68,6 +68,6 @@ static read-only Up = Up;
 ///
 
 ```js
-static read-only West = West;
+static read-only West = "West";
 ```
 

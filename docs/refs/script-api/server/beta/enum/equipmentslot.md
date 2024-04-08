@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Chest = Chest;
+static read-only Chest = "Chest";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Chest = Chest;
 ///
 
 ```js
-static read-only Feet = Feet;
+static read-only Feet = "Feet";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Feet = Feet;
 ///
 
 ```js
-static read-only Head = Head;
+static read-only Head = "Head";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only Head = Head;
 ///
 
 ```js
-static read-only Legs = Legs;
+static read-only Legs = "Legs";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only Legs = Legs;
 ///
 
 ```js
-static read-only Mainhand = Mainhand;
+static read-only Mainhand = "Mainhand";
 ```
 
 
@@ -68,6 +68,6 @@ static read-only Mainhand = Mainhand;
 ///
 
 ```js
-static read-only Offhand = Offhand;
+static read-only Offhand = "Offhand";
 ```
 

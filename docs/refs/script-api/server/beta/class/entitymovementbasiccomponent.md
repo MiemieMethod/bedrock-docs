@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:movement.basic;
+static read-only componentId = "minecraft:movement.basic";
 ```
 

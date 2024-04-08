@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Block = Block;
+static read-only Block = "Block";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Block = Block;
 ///
 
 ```js
-static read-only Entity = Entity;
+static read-only Entity = "Entity";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Entity = Entity;
 ///
 
 ```js
-static read-only NPCDialogue = NPCDialogue;
+static read-only NPCDialogue = "NPCDialogue";
 ```
 
 
@@ -46,6 +46,6 @@ static read-only NPCDialogue = NPCDialogue;
 ///
 
 ```js
-static read-only Server = Server;
+static read-only Server = "Server";
 ```
 

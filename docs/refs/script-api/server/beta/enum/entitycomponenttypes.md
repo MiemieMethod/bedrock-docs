@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only AddRider = minecraft:addrider;
+static read-only AddRider = "minecraft:addrider";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only AddRider = minecraft:addrider;
 ///
 
 ```js
-static read-only Ageable = minecraft:ageable;
+static read-only Ageable = "minecraft:ageable";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Ageable = minecraft:ageable;
 ///
 
 ```js
-static read-only Breathable = minecraft:breathable;
+static read-only Breathable = "minecraft:breathable";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only Breathable = minecraft:breathable;
 ///
 
 ```js
-static read-only CanClimb = minecraft:can_climb;
+static read-only CanClimb = "minecraft:can_climb";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only CanClimb = minecraft:can_climb;
 ///
 
 ```js
-static read-only CanFly = minecraft:can_fly;
+static read-only CanFly = "minecraft:can_fly";
 ```
 
 
@@ -68,7 +68,7 @@ static read-only CanFly = minecraft:can_fly;
 ///
 
 ```js
-static read-only CanPowerJump = minecraft:can_power_jump;
+static read-only CanPowerJump = "minecraft:can_power_jump";
 ```
 
 
@@ -79,7 +79,7 @@ static read-only CanPowerJump = minecraft:can_power_jump;
 ///
 
 ```js
-static read-only Color = minecraft:color;
+static read-only Color = "minecraft:color";
 ```
 
 
@@ -90,7 +90,7 @@ static read-only Color = minecraft:color;
 ///
 
 ```js
-static read-only Color2 = minecraft:color2;
+static read-only Color2 = "minecraft:color2";
 ```
 
 
@@ -101,7 +101,7 @@ static read-only Color2 = minecraft:color2;
 ///
 
 ```js
-static read-only Equippable = minecraft:equippable;
+static read-only Equippable = "minecraft:equippable";
 ```
 
 
@@ -112,7 +112,7 @@ static read-only Equippable = minecraft:equippable;
 ///
 
 ```js
-static read-only FireImmune = minecraft:fire_immune;
+static read-only FireImmune = "minecraft:fire_immune";
 ```
 
 
@@ -123,7 +123,7 @@ static read-only FireImmune = minecraft:fire_immune;
 ///
 
 ```js
-static read-only FloatsInLiquid = minecraft:floats_in_liquid;
+static read-only FloatsInLiquid = "minecraft:floats_in_liquid";
 ```
 
 
@@ -134,7 +134,7 @@ static read-only FloatsInLiquid = minecraft:floats_in_liquid;
 ///
 
 ```js
-static read-only FlyingSpeed = minecraft:flying_speed;
+static read-only FlyingSpeed = "minecraft:flying_speed";
 ```
 
 
@@ -145,7 +145,7 @@ static read-only FlyingSpeed = minecraft:flying_speed;
 ///
 
 ```js
-static read-only FrictionModifier = minecraft:friction_modifier;
+static read-only FrictionModifier = "minecraft:friction_modifier";
 ```
 
 
@@ -156,7 +156,7 @@ static read-only FrictionModifier = minecraft:friction_modifier;
 ///
 
 ```js
-static read-only GroundOffset = minecraft:ground_offset;
+static read-only GroundOffset = "minecraft:ground_offset";
 ```
 
 
@@ -167,7 +167,7 @@ static read-only GroundOffset = minecraft:ground_offset;
 ///
 
 ```js
-static read-only Healable = minecraft:healable;
+static read-only Healable = "minecraft:healable";
 ```
 
 
@@ -178,7 +178,7 @@ static read-only Healable = minecraft:healable;
 ///
 
 ```js
-static read-only Health = minecraft:health;
+static read-only Health = "minecraft:health";
 ```
 
 
@@ -189,7 +189,7 @@ static read-only Health = minecraft:health;
 ///
 
 ```js
-static read-only Inventory = minecraft:inventory;
+static read-only Inventory = "minecraft:inventory";
 ```
 
 
@@ -200,7 +200,7 @@ static read-only Inventory = minecraft:inventory;
 ///
 
 ```js
-static read-only IsBaby = minecraft:is_baby;
+static read-only IsBaby = "minecraft:is_baby";
 ```
 
 
@@ -211,7 +211,7 @@ static read-only IsBaby = minecraft:is_baby;
 ///
 
 ```js
-static read-only IsCharged = minecraft:is_charged;
+static read-only IsCharged = "minecraft:is_charged";
 ```
 
 
@@ -222,7 +222,7 @@ static read-only IsCharged = minecraft:is_charged;
 ///
 
 ```js
-static read-only IsChested = minecraft:is_chested;
+static read-only IsChested = "minecraft:is_chested";
 ```
 
 
@@ -233,7 +233,7 @@ static read-only IsChested = minecraft:is_chested;
 ///
 
 ```js
-static read-only IsDyeable = minecraft:is_dyeable;
+static read-only IsDyeable = "minecraft:is_dyeable";
 ```
 
 
@@ -244,7 +244,7 @@ static read-only IsDyeable = minecraft:is_dyeable;
 ///
 
 ```js
-static read-only IsHiddenWhenInvisible = minecraft:is_hidden_when_invisible;
+static read-only IsHiddenWhenInvisible = "minecraft:is_hidden_when_invisible";
 ```
 
 
@@ -255,7 +255,7 @@ static read-only IsHiddenWhenInvisible = minecraft:is_hidden_when_invisible;
 ///
 
 ```js
-static read-only IsIgnited = minecraft:is_ignited;
+static read-only IsIgnited = "minecraft:is_ignited";
 ```
 
 
@@ -266,7 +266,7 @@ static read-only IsIgnited = minecraft:is_ignited;
 ///
 
 ```js
-static read-only IsIllagerCaptain = minecraft:is_illager_captain;
+static read-only IsIllagerCaptain = "minecraft:is_illager_captain";
 ```
 
 
@@ -277,7 +277,7 @@ static read-only IsIllagerCaptain = minecraft:is_illager_captain;
 ///
 
 ```js
-static read-only IsSaddled = minecraft:is_saddled;
+static read-only IsSaddled = "minecraft:is_saddled";
 ```
 
 
@@ -288,7 +288,7 @@ static read-only IsSaddled = minecraft:is_saddled;
 ///
 
 ```js
-static read-only IsShaking = minecraft:is_shaking;
+static read-only IsShaking = "minecraft:is_shaking";
 ```
 
 
@@ -299,7 +299,7 @@ static read-only IsShaking = minecraft:is_shaking;
 ///
 
 ```js
-static read-only IsSheared = minecraft:is_sheared;
+static read-only IsSheared = "minecraft:is_sheared";
 ```
 
 
@@ -310,7 +310,7 @@ static read-only IsSheared = minecraft:is_sheared;
 ///
 
 ```js
-static read-only IsStackable = minecraft:is_stackable;
+static read-only IsStackable = "minecraft:is_stackable";
 ```
 
 
@@ -321,7 +321,7 @@ static read-only IsStackable = minecraft:is_stackable;
 ///
 
 ```js
-static read-only IsStunned = minecraft:is_stunned;
+static read-only IsStunned = "minecraft:is_stunned";
 ```
 
 
@@ -332,7 +332,7 @@ static read-only IsStunned = minecraft:is_stunned;
 ///
 
 ```js
-static read-only IsTamed = minecraft:is_tamed;
+static read-only IsTamed = "minecraft:is_tamed";
 ```
 
 
@@ -343,7 +343,7 @@ static read-only IsTamed = minecraft:is_tamed;
 ///
 
 ```js
-static read-only Item = minecraft:item;
+static read-only Item = "minecraft:item";
 ```
 
 
@@ -354,7 +354,7 @@ static read-only Item = minecraft:item;
 ///
 
 ```js
-static read-only LavaMovement = minecraft:lava_movement;
+static read-only LavaMovement = "minecraft:lava_movement";
 ```
 
 
@@ -365,7 +365,7 @@ static read-only LavaMovement = minecraft:lava_movement;
 ///
 
 ```js
-static read-only Leashable = minecraft:leashable;
+static read-only Leashable = "minecraft:leashable";
 ```
 
 
@@ -376,7 +376,7 @@ static read-only Leashable = minecraft:leashable;
 ///
 
 ```js
-static read-only MarkVariant = minecraft:mark_variant;
+static read-only MarkVariant = "minecraft:mark_variant";
 ```
 
 
@@ -387,7 +387,7 @@ static read-only MarkVariant = minecraft:mark_variant;
 ///
 
 ```js
-static read-only Movement = minecraft:movement;
+static read-only Movement = "minecraft:movement";
 ```
 
 
@@ -398,7 +398,7 @@ static read-only Movement = minecraft:movement;
 ///
 
 ```js
-static read-only MovementAmphibious = minecraft:movement.amphibious;
+static read-only MovementAmphibious = "minecraft:movement.amphibious";
 ```
 
 
@@ -409,7 +409,7 @@ static read-only MovementAmphibious = minecraft:movement.amphibious;
 ///
 
 ```js
-static read-only MovementBasic = minecraft:movement.basic;
+static read-only MovementBasic = "minecraft:movement.basic";
 ```
 
 
@@ -420,7 +420,7 @@ static read-only MovementBasic = minecraft:movement.basic;
 ///
 
 ```js
-static read-only MovementFly = minecraft:movement.fly;
+static read-only MovementFly = "minecraft:movement.fly";
 ```
 
 
@@ -431,7 +431,7 @@ static read-only MovementFly = minecraft:movement.fly;
 ///
 
 ```js
-static read-only MovementGeneric = minecraft:movement.generic;
+static read-only MovementGeneric = "minecraft:movement.generic";
 ```
 
 
@@ -442,7 +442,7 @@ static read-only MovementGeneric = minecraft:movement.generic;
 ///
 
 ```js
-static read-only MovementGlide = minecraft:movement.glide;
+static read-only MovementGlide = "minecraft:movement.glide";
 ```
 
 
@@ -453,7 +453,7 @@ static read-only MovementGlide = minecraft:movement.glide;
 ///
 
 ```js
-static read-only MovementHover = minecraft:movement.hover;
+static read-only MovementHover = "minecraft:movement.hover";
 ```
 
 
@@ -464,7 +464,7 @@ static read-only MovementHover = minecraft:movement.hover;
 ///
 
 ```js
-static read-only MovementJump = minecraft:movement.jump;
+static read-only MovementJump = "minecraft:movement.jump";
 ```
 
 
@@ -475,7 +475,7 @@ static read-only MovementJump = minecraft:movement.jump;
 ///
 
 ```js
-static read-only MovementSkip = minecraft:movement.skip;
+static read-only MovementSkip = "minecraft:movement.skip";
 ```
 
 
@@ -486,7 +486,7 @@ static read-only MovementSkip = minecraft:movement.skip;
 ///
 
 ```js
-static read-only MovementSway = minecraft:movement.sway;
+static read-only MovementSway = "minecraft:movement.sway";
 ```
 
 
@@ -497,7 +497,7 @@ static read-only MovementSway = minecraft:movement.sway;
 ///
 
 ```js
-static read-only NavigationClimb = minecraft:navigation.climb;
+static read-only NavigationClimb = "minecraft:navigation.climb";
 ```
 
 
@@ -508,7 +508,7 @@ static read-only NavigationClimb = minecraft:navigation.climb;
 ///
 
 ```js
-static read-only NavigationFloat = minecraft:navigation.float;
+static read-only NavigationFloat = "minecraft:navigation.float";
 ```
 
 
@@ -519,7 +519,7 @@ static read-only NavigationFloat = minecraft:navigation.float;
 ///
 
 ```js
-static read-only NavigationFly = minecraft:navigation.fly;
+static read-only NavigationFly = "minecraft:navigation.fly";
 ```
 
 
@@ -530,7 +530,7 @@ static read-only NavigationFly = minecraft:navigation.fly;
 ///
 
 ```js
-static read-only NavigationGeneric = minecraft:navigation.generic;
+static read-only NavigationGeneric = "minecraft:navigation.generic";
 ```
 
 
@@ -541,7 +541,7 @@ static read-only NavigationGeneric = minecraft:navigation.generic;
 ///
 
 ```js
-static read-only NavigationHover = minecraft:navigation.hover;
+static read-only NavigationHover = "minecraft:navigation.hover";
 ```
 
 
@@ -552,7 +552,7 @@ static read-only NavigationHover = minecraft:navigation.hover;
 ///
 
 ```js
-static read-only NavigationWalk = minecraft:navigation.walk;
+static read-only NavigationWalk = "minecraft:navigation.walk";
 ```
 
 
@@ -563,7 +563,7 @@ static read-only NavigationWalk = minecraft:navigation.walk;
 ///
 
 ```js
-static read-only Npc = minecraft:npc;
+static read-only Npc = "minecraft:npc";
 ```
 
 
@@ -574,7 +574,7 @@ static read-only Npc = minecraft:npc;
 ///
 
 ```js
-static read-only OnFire = minecraft:onfire;
+static read-only OnFire = "minecraft:onfire";
 ```
 
 
@@ -585,7 +585,7 @@ static read-only OnFire = minecraft:onfire;
 ///
 
 ```js
-static read-only Projectile = minecraft:projectile;
+static read-only Projectile = "minecraft:projectile";
 ```
 
 
@@ -596,7 +596,7 @@ static read-only Projectile = minecraft:projectile;
 ///
 
 ```js
-static read-only PushThrough = minecraft:push_through;
+static read-only PushThrough = "minecraft:push_through";
 ```
 
 
@@ -607,7 +607,7 @@ static read-only PushThrough = minecraft:push_through;
 ///
 
 ```js
-static read-only Rideable = minecraft:rideable;
+static read-only Rideable = "minecraft:rideable";
 ```
 
 
@@ -618,7 +618,7 @@ static read-only Rideable = minecraft:rideable;
 ///
 
 ```js
-static read-only Riding = minecraft:riding;
+static read-only Riding = "minecraft:riding";
 ```
 
 
@@ -629,7 +629,7 @@ static read-only Riding = minecraft:riding;
 ///
 
 ```js
-static read-only Scale = minecraft:scale;
+static read-only Scale = "minecraft:scale";
 ```
 
 
@@ -640,7 +640,7 @@ static read-only Scale = minecraft:scale;
 ///
 
 ```js
-static read-only SkinId = minecraft:skin_id;
+static read-only SkinId = "minecraft:skin_id";
 ```
 
 
@@ -651,7 +651,7 @@ static read-only SkinId = minecraft:skin_id;
 ///
 
 ```js
-static read-only Strength = minecraft:strength;
+static read-only Strength = "minecraft:strength";
 ```
 
 
@@ -662,7 +662,7 @@ static read-only Strength = minecraft:strength;
 ///
 
 ```js
-static read-only Tameable = minecraft:tameable;
+static read-only Tameable = "minecraft:tameable";
 ```
 
 
@@ -673,7 +673,7 @@ static read-only Tameable = minecraft:tameable;
 ///
 
 ```js
-static read-only TameMount = minecraft:tamemount;
+static read-only TameMount = "minecraft:tamemount";
 ```
 
 
@@ -684,7 +684,7 @@ static read-only TameMount = minecraft:tamemount;
 ///
 
 ```js
-static read-only TypeFamily = minecraft:type_family;
+static read-only TypeFamily = "minecraft:type_family";
 ```
 
 
@@ -695,7 +695,7 @@ static read-only TypeFamily = minecraft:type_family;
 ///
 
 ```js
-static read-only UnderwaterMovement = minecraft:underwater_movement;
+static read-only UnderwaterMovement = "minecraft:underwater_movement";
 ```
 
 
@@ -706,7 +706,7 @@ static read-only UnderwaterMovement = minecraft:underwater_movement;
 ///
 
 ```js
-static read-only Variant = minecraft:variant;
+static read-only Variant = "minecraft:variant";
 ```
 
 
@@ -717,6 +717,6 @@ static read-only Variant = minecraft:variant;
 ///
 
 ```js
-static read-only WantsJockey = minecraft:wants_jockey;
+static read-only WantsJockey = "minecraft:wants_jockey";
 ```
 

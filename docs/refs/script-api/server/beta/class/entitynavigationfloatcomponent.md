@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:navigation.float;
+static read-only componentId = "minecraft:navigation.float";
 ```
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:type_family;
+static read-only componentId = "minecraft:type_family";
 ```
 
 

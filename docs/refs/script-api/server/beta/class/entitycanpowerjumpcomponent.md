@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:can_power_jump;
+static read-only componentId = "minecraft:can_power_jump";
 ```
 

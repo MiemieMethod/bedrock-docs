@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only None = None;
+static read-only None = "None";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only None = None;
 ///
 
 ```js
-static read-only Rotate180 = Rotate180;
+static read-only Rotate180 = "Rotate180";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Rotate180 = Rotate180;
 ///
 
 ```js
-static read-only Rotate270 = Rotate270;
+static read-only Rotate270 = "Rotate270";
 ```
 
 
@@ -46,6 +46,6 @@ static read-only Rotate270 = Rotate270;
 ///
 
 ```js
-static read-only Rotate90 = Rotate90;
+static read-only Rotate90 = "Rotate90";
 ```
 

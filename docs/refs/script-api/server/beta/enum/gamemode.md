@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only adventure = adventure;
+static read-only adventure = "adventure";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only adventure = adventure;
 ///
 
 ```js
-static read-only creative = creative;
+static read-only creative = "creative";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only creative = creative;
 ///
 
 ```js
-static read-only spectator = spectator;
+static read-only spectator = "spectator";
 ```
 
 
@@ -46,6 +46,6 @@ static read-only spectator = spectator;
 ///
 
 ```js
-static read-only survival = survival;
+static read-only survival = "survival";
 ```
 

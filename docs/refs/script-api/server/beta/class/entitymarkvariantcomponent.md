@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:mark_variant;
+static read-only componentId = "minecraft:mark_variant";
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only nether = minecraft:nether;
+static read-only nether = "minecraft:nether";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only nether = minecraft:nether;
 ///
 
 ```js
-static read-only overworld = minecraft:overworld;
+static read-only overworld = "minecraft:overworld";
 ```
 
 
@@ -35,6 +35,6 @@ static read-only overworld = minecraft:overworld;
 ///
 
 ```js
-static read-only theEnd = minecraft:the_end;
+static read-only theEnd = "minecraft:the_end";
 ```
 

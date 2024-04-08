@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:equippable;
+static read-only componentId = "minecraft:equippable";
 ```
 
 

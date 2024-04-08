@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Lava = Lava;
+static read-only Lava = "Lava";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Lava = Lava;
 ///
 
 ```js
-static read-only Potion = Potion;
+static read-only Potion = "Potion";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Potion = Potion;
 ///
 
 ```js
-static read-only PowderSnow = PowderSnow;
+static read-only PowderSnow = "PowderSnow";
 ```
 
 
@@ -46,6 +46,6 @@ static read-only PowderSnow = PowderSnow;
 ///
 
 ```js
-static read-only Water = Water;
+static read-only Water = "Water";
 ```
 

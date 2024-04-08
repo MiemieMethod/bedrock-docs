@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:ground_offset;
+static read-only componentId = "minecraft:ground_offset";
 ```
 
 

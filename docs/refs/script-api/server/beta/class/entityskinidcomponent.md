@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:skin_id;
+static read-only componentId = "minecraft:skin_id";
 ```
 
 

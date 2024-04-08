@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Back = Back;
+static read-only Back = "Back";
 ```
 
 
@@ -24,6 +24,6 @@ static read-only Back = Back;
 ///
 
 ```js
-static read-only Front = Front;
+static read-only Front = "Front";
 ```
 

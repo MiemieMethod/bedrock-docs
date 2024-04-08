@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only anvil = anvil;
+static read-only anvil = "anvil";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only anvil = anvil;
 ///
 
 ```js
-static read-only blockExplosion = blockExplosion;
+static read-only blockExplosion = "blockExplosion";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only blockExplosion = blockExplosion;
 ///
 
 ```js
-static read-only campfire = campfire;
+static read-only campfire = "campfire";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only campfire = campfire;
 ///
 
 ```js
-static read-only charging = charging;
+static read-only charging = "charging";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only charging = charging;
 ///
 
 ```js
-static read-only contact = contact;
+static read-only contact = "contact";
 ```
 
 
@@ -68,7 +68,7 @@ static read-only contact = contact;
 ///
 
 ```js
-static read-only drowning = drowning;
+static read-only drowning = "drowning";
 ```
 
 
@@ -79,7 +79,7 @@ static read-only drowning = drowning;
 ///
 
 ```js
-static read-only entityAttack = entityAttack;
+static read-only entityAttack = "entityAttack";
 ```
 
 
@@ -90,7 +90,7 @@ static read-only entityAttack = entityAttack;
 ///
 
 ```js
-static read-only entityExplosion = entityExplosion;
+static read-only entityExplosion = "entityExplosion";
 ```
 
 
@@ -101,7 +101,7 @@ static read-only entityExplosion = entityExplosion;
 ///
 
 ```js
-static read-only fall = fall;
+static read-only fall = "fall";
 ```
 
 
@@ -112,7 +112,7 @@ static read-only fall = fall;
 ///
 
 ```js
-static read-only fallingBlock = fallingBlock;
+static read-only fallingBlock = "fallingBlock";
 ```
 
 
@@ -123,7 +123,7 @@ static read-only fallingBlock = fallingBlock;
 ///
 
 ```js
-static read-only fire = fire;
+static read-only fire = "fire";
 ```
 
 
@@ -134,7 +134,7 @@ static read-only fire = fire;
 ///
 
 ```js
-static read-only fireTick = fireTick;
+static read-only fireTick = "fireTick";
 ```
 
 
@@ -145,7 +145,7 @@ static read-only fireTick = fireTick;
 ///
 
 ```js
-static read-only fireworks = fireworks;
+static read-only fireworks = "fireworks";
 ```
 
 
@@ -156,7 +156,7 @@ static read-only fireworks = fireworks;
 ///
 
 ```js
-static read-only flyIntoWall = flyIntoWall;
+static read-only flyIntoWall = "flyIntoWall";
 ```
 
 
@@ -167,7 +167,7 @@ static read-only flyIntoWall = flyIntoWall;
 ///
 
 ```js
-static read-only freezing = freezing;
+static read-only freezing = "freezing";
 ```
 
 
@@ -178,7 +178,7 @@ static read-only freezing = freezing;
 ///
 
 ```js
-static read-only lava = lava;
+static read-only lava = "lava";
 ```
 
 
@@ -189,7 +189,7 @@ static read-only lava = lava;
 ///
 
 ```js
-static read-only lightning = lightning;
+static read-only lightning = "lightning";
 ```
 
 
@@ -200,7 +200,7 @@ static read-only lightning = lightning;
 ///
 
 ```js
-static read-only magic = magic;
+static read-only magic = "magic";
 ```
 
 
@@ -211,7 +211,7 @@ static read-only magic = magic;
 ///
 
 ```js
-static read-only magma = magma;
+static read-only magma = "magma";
 ```
 
 
@@ -222,7 +222,7 @@ static read-only magma = magma;
 ///
 
 ```js
-static read-only none = none;
+static read-only none = "none";
 ```
 
 
@@ -233,7 +233,7 @@ static read-only none = none;
 ///
 
 ```js
-static read-only override = override;
+static read-only override = "override";
 ```
 
 
@@ -244,7 +244,7 @@ static read-only override = override;
 ///
 
 ```js
-static read-only piston = piston;
+static read-only piston = "piston";
 ```
 
 
@@ -255,7 +255,7 @@ static read-only piston = piston;
 ///
 
 ```js
-static read-only projectile = projectile;
+static read-only projectile = "projectile";
 ```
 
 
@@ -266,7 +266,7 @@ static read-only projectile = projectile;
 ///
 
 ```js
-static read-only ramAttack = ramAttack;
+static read-only ramAttack = "ramAttack";
 ```
 
 
@@ -277,7 +277,7 @@ static read-only ramAttack = ramAttack;
 ///
 
 ```js
-static read-only selfDestruct = selfDestruct;
+static read-only selfDestruct = "selfDestruct";
 ```
 
 
@@ -288,7 +288,7 @@ static read-only selfDestruct = selfDestruct;
 ///
 
 ```js
-static read-only sonicBoom = sonicBoom;
+static read-only sonicBoom = "sonicBoom";
 ```
 
 
@@ -299,7 +299,7 @@ static read-only sonicBoom = sonicBoom;
 ///
 
 ```js
-static read-only soulCampfire = soulCampfire;
+static read-only soulCampfire = "soulCampfire";
 ```
 
 
@@ -310,7 +310,7 @@ static read-only soulCampfire = soulCampfire;
 ///
 
 ```js
-static read-only stalactite = stalactite;
+static read-only stalactite = "stalactite";
 ```
 
 
@@ -321,7 +321,7 @@ static read-only stalactite = stalactite;
 ///
 
 ```js
-static read-only stalagmite = stalagmite;
+static read-only stalagmite = "stalagmite";
 ```
 
 
@@ -332,7 +332,7 @@ static read-only stalagmite = stalagmite;
 ///
 
 ```js
-static read-only starve = starve;
+static read-only starve = "starve";
 ```
 
 
@@ -343,7 +343,7 @@ static read-only starve = starve;
 ///
 
 ```js
-static read-only suffocation = suffocation;
+static read-only suffocation = "suffocation";
 ```
 
 
@@ -354,7 +354,7 @@ static read-only suffocation = suffocation;
 ///
 
 ```js
-static read-only suicide = suicide;
+static read-only suicide = "suicide";
 ```
 
 
@@ -365,7 +365,7 @@ static read-only suicide = suicide;
 ///
 
 ```js
-static read-only temperature = temperature;
+static read-only temperature = "temperature";
 ```
 
 
@@ -376,7 +376,7 @@ static read-only temperature = temperature;
 ///
 
 ```js
-static read-only thorns = thorns;
+static read-only thorns = "thorns";
 ```
 
 
@@ -387,7 +387,7 @@ static read-only thorns = thorns;
 ///
 
 ```js
-static read-only void = void;
+static read-only void = "void";
 ```
 
 
@@ -398,6 +398,6 @@ static read-only void = void;
 ///
 
 ```js
-static read-only wither = wither;
+static read-only wither = "wither";
 ```
 

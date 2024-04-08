@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Expanded = Expanded;
+static read-only Expanded = "Expanded";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Expanded = Expanded;
 ///
 
 ```js
-static read-only Expanding = Expanding;
+static read-only Expanding = "Expanding";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Expanding = Expanding;
 ///
 
 ```js
-static read-only Retracted = Retracted;
+static read-only Retracted = "Retracted";
 ```
 
 
@@ -46,6 +46,6 @@ static read-only Retracted = Retracted;
 ///
 
 ```js
-static read-only Retracting = Retracting;
+static read-only Retracting = "Retracting";
 ```
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:flying_speed;
+static read-only componentId = "minecraft:flying_speed";
 ```
 
 

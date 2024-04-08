@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:healable;
+static read-only componentId = "minecraft:healable";
 ```
 
 

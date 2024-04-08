@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:lava_movement;
+static read-only componentId = "minecraft:lava_movement";
 ```
 

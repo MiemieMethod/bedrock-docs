@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only InBack = InBack;
+static read-only InBack = "InBack";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only InBack = InBack;
 ///
 
 ```js
-static read-only InBounce = InBounce;
+static read-only InBounce = "InBounce";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only InBounce = InBounce;
 ///
 
 ```js
-static read-only InCirc = InCirc;
+static read-only InCirc = "InCirc";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only InCirc = InCirc;
 ///
 
 ```js
-static read-only InCubic = InCubic;
+static read-only InCubic = "InCubic";
 ```
 
 
@@ -57,7 +57,7 @@ static read-only InCubic = InCubic;
 ///
 
 ```js
-static read-only InElastic = InElastic;
+static read-only InElastic = "InElastic";
 ```
 
 
@@ -68,7 +68,7 @@ static read-only InElastic = InElastic;
 ///
 
 ```js
-static read-only InExpo = InExpo;
+static read-only InExpo = "InExpo";
 ```
 
 
@@ -79,7 +79,7 @@ static read-only InExpo = InExpo;
 ///
 
 ```js
-static read-only InOutBack = InOutBack;
+static read-only InOutBack = "InOutBack";
 ```
 
 
@@ -90,7 +90,7 @@ static read-only InOutBack = InOutBack;
 ///
 
 ```js
-static read-only InOutBounce = InOutBounce;
+static read-only InOutBounce = "InOutBounce";
 ```
 
 
@@ -101,7 +101,7 @@ static read-only InOutBounce = InOutBounce;
 ///
 
 ```js
-static read-only InOutCirc = InOutCirc;
+static read-only InOutCirc = "InOutCirc";
 ```
 
 
@@ -112,7 +112,7 @@ static read-only InOutCirc = InOutCirc;
 ///
 
 ```js
-static read-only InOutCubic = InOutCubic;
+static read-only InOutCubic = "InOutCubic";
 ```
 
 
@@ -123,7 +123,7 @@ static read-only InOutCubic = InOutCubic;
 ///
 
 ```js
-static read-only InOutElastic = InOutElastic;
+static read-only InOutElastic = "InOutElastic";
 ```
 
 
@@ -134,7 +134,7 @@ static read-only InOutElastic = InOutElastic;
 ///
 
 ```js
-static read-only InOutExpo = InOutExpo;
+static read-only InOutExpo = "InOutExpo";
 ```
 
 
@@ -145,7 +145,7 @@ static read-only InOutExpo = InOutExpo;
 ///
 
 ```js
-static read-only InOutQuad = InOutQuad;
+static read-only InOutQuad = "InOutQuad";
 ```
 
 
@@ -156,7 +156,7 @@ static read-only InOutQuad = InOutQuad;
 ///
 
 ```js
-static read-only InOutQuart = InOutQuart;
+static read-only InOutQuart = "InOutQuart";
 ```
 
 
@@ -167,7 +167,7 @@ static read-only InOutQuart = InOutQuart;
 ///
 
 ```js
-static read-only InOutQuint = InOutQuint;
+static read-only InOutQuint = "InOutQuint";
 ```
 
 
@@ -178,7 +178,7 @@ static read-only InOutQuint = InOutQuint;
 ///
 
 ```js
-static read-only InOutSine = InOutSine;
+static read-only InOutSine = "InOutSine";
 ```
 
 
@@ -189,7 +189,7 @@ static read-only InOutSine = InOutSine;
 ///
 
 ```js
-static read-only InQuad = InQuad;
+static read-only InQuad = "InQuad";
 ```
 
 
@@ -200,7 +200,7 @@ static read-only InQuad = InQuad;
 ///
 
 ```js
-static read-only InQuart = InQuart;
+static read-only InQuart = "InQuart";
 ```
 
 
@@ -211,7 +211,7 @@ static read-only InQuart = InQuart;
 ///
 
 ```js
-static read-only InQuint = InQuint;
+static read-only InQuint = "InQuint";
 ```
 
 
@@ -222,7 +222,7 @@ static read-only InQuint = InQuint;
 ///
 
 ```js
-static read-only InSine = InSine;
+static read-only InSine = "InSine";
 ```
 
 
@@ -233,7 +233,7 @@ static read-only InSine = InSine;
 ///
 
 ```js
-static read-only Linear = Linear;
+static read-only Linear = "Linear";
 ```
 
 
@@ -244,7 +244,7 @@ static read-only Linear = Linear;
 ///
 
 ```js
-static read-only OutBack = OutBack;
+static read-only OutBack = "OutBack";
 ```
 
 
@@ -255,7 +255,7 @@ static read-only OutBack = OutBack;
 ///
 
 ```js
-static read-only OutBounce = OutBounce;
+static read-only OutBounce = "OutBounce";
 ```
 
 
@@ -266,7 +266,7 @@ static read-only OutBounce = OutBounce;
 ///
 
 ```js
-static read-only OutCirc = OutCirc;
+static read-only OutCirc = "OutCirc";
 ```
 
 
@@ -277,7 +277,7 @@ static read-only OutCirc = OutCirc;
 ///
 
 ```js
-static read-only OutCubic = OutCubic;
+static read-only OutCubic = "OutCubic";
 ```
 
 
@@ -288,7 +288,7 @@ static read-only OutCubic = OutCubic;
 ///
 
 ```js
-static read-only OutElastic = OutElastic;
+static read-only OutElastic = "OutElastic";
 ```
 
 
@@ -299,7 +299,7 @@ static read-only OutElastic = OutElastic;
 ///
 
 ```js
-static read-only OutExpo = OutExpo;
+static read-only OutExpo = "OutExpo";
 ```
 
 
@@ -310,7 +310,7 @@ static read-only OutExpo = OutExpo;
 ///
 
 ```js
-static read-only OutQuad = OutQuad;
+static read-only OutQuad = "OutQuad";
 ```
 
 
@@ -321,7 +321,7 @@ static read-only OutQuad = OutQuad;
 ///
 
 ```js
-static read-only OutQuart = OutQuart;
+static read-only OutQuart = "OutQuart";
 ```
 
 
@@ -332,7 +332,7 @@ static read-only OutQuart = OutQuart;
 ///
 
 ```js
-static read-only OutQuint = OutQuint;
+static read-only OutQuint = "OutQuint";
 ```
 
 
@@ -343,7 +343,7 @@ static read-only OutQuint = OutQuint;
 ///
 
 ```js
-static read-only OutSine = OutSine;
+static read-only OutSine = "OutSine";
 ```
 
 
@@ -354,6 +354,6 @@ static read-only OutSine = OutSine;
 ///
 
 ```js
-static read-only Spring = Spring;
+static read-only Spring = "Spring";
 ```
 

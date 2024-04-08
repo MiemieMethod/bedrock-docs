@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Born = Born;
+static read-only Born = "Born";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Born = Born;
 ///
 
 ```js
-static read-only Event = Event;
+static read-only Event = "Event";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Event = Event;
 ///
 
 ```js
-static read-only Loaded = Loaded;
+static read-only Loaded = "Loaded";
 ```
 
 
@@ -46,7 +46,7 @@ static read-only Loaded = Loaded;
 ///
 
 ```js
-static read-only Spawned = Spawned;
+static read-only Spawned = "Spawned";
 ```
 
 
@@ -57,6 +57,6 @@ static read-only Spawned = Spawned;
 ///
 
 ```js
-static read-only Transformed = Transformed;
+static read-only Transformed = "Transformed";
 ```
 

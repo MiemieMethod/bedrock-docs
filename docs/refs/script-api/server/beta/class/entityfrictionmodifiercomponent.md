@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only componentId = minecraft:friction_modifier;
+static read-only componentId = "minecraft:friction_modifier";
 ```
 
 

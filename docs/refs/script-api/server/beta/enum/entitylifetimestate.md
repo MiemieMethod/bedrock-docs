@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Loaded = Loaded;
+static read-only Loaded = "Loaded";
 ```
 
 
@@ -24,6 +24,6 @@ static read-only Loaded = Loaded;
 ///
 
 ```js
-static read-only Unloaded = Unloaded;
+static read-only Unloaded = "Unloaded";
 ```
 

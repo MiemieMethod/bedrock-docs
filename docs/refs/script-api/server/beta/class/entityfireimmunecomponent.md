@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:fire_immune;
+static read-only componentId = "minecraft:fire_immune";
 ```
 

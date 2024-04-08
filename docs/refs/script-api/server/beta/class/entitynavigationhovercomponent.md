@@ -13,6 +13,6 @@
 ///
 
 ```js
-static read-only componentId = minecraft:navigation.hover;
+static read-only componentId = "minecraft:navigation.hover";
 ```
 

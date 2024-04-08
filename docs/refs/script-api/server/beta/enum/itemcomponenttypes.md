@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Cooldown = minecraft:cooldown;
+static read-only Cooldown = "minecraft:cooldown";
 ```
 
 
@@ -24,7 +24,7 @@ static read-only Cooldown = minecraft:cooldown;
 ///
 
 ```js
-static read-only Durability = minecraft:durability;
+static read-only Durability = "minecraft:durability";
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Durability = minecraft:durability;
 ///
 
 ```js
-static read-only Enchantable = minecraft:enchantable;
+static read-only Enchantable = "minecraft:enchantable";
 ```
 
 
@@ -46,6 +46,6 @@ static read-only Enchantable = minecraft:enchantable;
 ///
 
 ```js
-static read-only Food = minecraft:food;
+static read-only Food = "minecraft:food";
 ```
 
