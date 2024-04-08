@@ -18,7 +18,7 @@ subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfte
 
 /// html | div.result
 //// define
-`callback`：(arg: EntitySpawnAfterEvent) => void
+`callback`：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfte
 ////
 
 //// define
-返回值：(arg: EntitySpawnAfterEvent) => void
+返回值：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: EntitySpawnAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: EntitySpawnAfterEvent) => void
+`callback`：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

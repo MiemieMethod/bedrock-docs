@@ -48,7 +48,7 @@ static getAll(): ItemType[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../itemtype.md">ItemType</a>[]</code>
+返回值：<code><a href="../itemtype/">ItemType</a>[]</code>
 
 - 返回值。
 

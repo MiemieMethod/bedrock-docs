@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): (arg: Playe
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerDimensionChangeAfterEvent) => void
+`callback`：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): (arg: Playe
 ////
 
 //// define
-返回值：(arg: PlayerDimensionChangeAfterEvent) => void
+返回值：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerDimensionChangeAfterEvent) => void
+`callback`：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

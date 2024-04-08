@@ -18,7 +18,7 @@ subscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): (arg: Watchdog
 
 /// html | div.result
 //// define
-`callback`：(arg: WatchdogTerminateBeforeEvent) => void
+`callback`：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): (arg: Watchdog
 ////
 
 //// define
-返回值：(arg: WatchdogTerminateBeforeEvent) => void
+返回值：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: WatchdogTerminateBeforeEvent) => void
+`callback`：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 

@@ -48,7 +48,7 @@ static getAll(): EntityType[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../entitytype.md">EntityType</a>[]</code>
+返回值：<code><a href="../entitytype/">EntityType</a>[]</code>
 
 - 返回值。
 

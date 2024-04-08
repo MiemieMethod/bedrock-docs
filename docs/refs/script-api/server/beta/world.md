@@ -157,7 +157,7 @@ getAllPlayers(): Player[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../player.md">Player</a>[]</code>
+返回值：<code><a href="../player/">Player</a>[]</code>
 
 - 返回值。
 
@@ -387,7 +387,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 ////
 
 //// define
-返回值：<code><a href="../player.md">Player</a>[]</code>
+返回值：<code><a href="../player/">Player</a>[]</code>
 
 - 返回值。
 

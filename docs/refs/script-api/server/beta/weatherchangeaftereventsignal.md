@@ -18,7 +18,7 @@ subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChange
 
 /// html | div.result
 //// define
-`callback`：(arg: WeatherChangeAfterEvent) => void
+`callback`：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChange
 ////
 
 //// define
-返回值：(arg: WeatherChangeAfterEvent) => void
+返回值：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: WeatherChangeAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: WeatherChangeAfterEvent) => void
+`callback`：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

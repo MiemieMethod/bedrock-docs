@@ -48,7 +48,7 @@ static getAll(): EnchantmentType[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../enchantmenttype.md">EnchantmentType</a>[]</code>
+返回值：<code><a href="../enchantmenttype/">EnchantmentType</a>[]</code>
 
 - 返回值。
 

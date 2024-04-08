@@ -18,7 +18,7 @@ subscribe(callback: (arg: WorldInitializeBeforeEvent) => void): (arg: WorldIniti
 
 /// html | div.result
 //// define
-`callback`：(arg: WorldInitializeBeforeEvent) => void
+`callback`：<code>(<a href="../worldinitializebeforeevent/">WorldInitializeBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: WorldInitializeBeforeEvent) => void): (arg: WorldIniti
 ////
 
 //// define
-返回值：(arg: WorldInitializeBeforeEvent) => void
+返回值：<code>(<a href="../worldinitializebeforeevent/">WorldInitializeBeforeEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: WorldInitializeBeforeEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: WorldInitializeBeforeEvent) => void
+`callback`：<code>(<a href="../worldinitializebeforeevent/">WorldInitializeBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 

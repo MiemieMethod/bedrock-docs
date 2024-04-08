@@ -18,7 +18,7 @@ subscribe(callback: (arg: ButtonPushAfterEvent) => void): (arg: ButtonPushAfterE
 
 /// html | div.result
 //// define
-`callback`：(arg: ButtonPushAfterEvent) => void
+`callback`：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: ButtonPushAfterEvent) => void): (arg: ButtonPushAfterE
 ////
 
 //// define
-返回值：(arg: ButtonPushAfterEvent) => void
+返回值：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: ButtonPushAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: ButtonPushAfterEvent) => void
+`callback`：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

@@ -18,7 +18,7 @@ subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveB
 
 /// html | div.result
 //// define
-`callback`：(arg: EntityRemoveBeforeEvent) => void
+`callback`：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveB
 ////
 
 //// define
-返回值：(arg: EntityRemoveBeforeEvent) => void
+返回值：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: EntityRemoveBeforeEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: EntityRemoveBeforeEvent) => void
+`callback`：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 

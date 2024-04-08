@@ -18,7 +18,7 @@ subscribe(callback: (arg: EntityHealthChangedAfterEvent) => void, options?: Enti
 
 /// html | div.result
 //// define
-`callback`：(arg: EntityHealthChangedAfterEvent) => void
+`callback`：<code>(<a href="../entityhealthchangedafterevent/">EntityHealthChangedAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -34,7 +34,7 @@ subscribe(callback: (arg: EntityHealthChangedAfterEvent) => void, options?: Enti
 ////
 
 //// define
-返回值：(arg: EntityHealthChangedAfterEvent) => void
+返回值：<code>(<a href="../entityhealthchangedafterevent/">EntityHealthChangedAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -56,7 +56,7 @@ unsubscribe(callback: (arg: EntityHealthChangedAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: EntityHealthChangedAfterEvent) => void
+`callback`：<code>(<a href="../entityhealthchangedafterevent/">EntityHealthChangedAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

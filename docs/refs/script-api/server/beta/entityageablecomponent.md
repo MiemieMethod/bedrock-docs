@@ -88,7 +88,7 @@ getFeedItems(): EntityDefinitionFeedItem[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../entitydefinitionfeeditem.md">EntityDefinitionFeedItem</a>[]</code>
+返回值：<code><a href="../entitydefinitionfeeditem/">EntityDefinitionFeedItem</a>[]</code>
 
 - 返回值。
 

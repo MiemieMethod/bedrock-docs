@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
+`callback`：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
 ////
 
 //// define
-返回值：(arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
+返回值：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => vo
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
+`callback`：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

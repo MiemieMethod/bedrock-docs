@@ -18,7 +18,7 @@ getHiddenHudElements(): HudElement[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../hudelement.md">HudElement</a>[]</code>
+返回值：<code><a href="../hudelement/">HudElement</a>[]</code>
 
 - 返回值。
 
@@ -40,7 +40,7 @@ hideAllExcept(hudElements?: HudElement[]): void
 
 /// html | div.result
 //// define
-`hudElements`：<code><a href="../hudelement.md">HudElement</a>[]</code>|`undefined`
+`hudElements`：<code><a href="../hudelement/">HudElement</a>[]</code>|`undefined`
 
 - 参数1。
 
@@ -182,7 +182,7 @@ setHudVisibility(visible: HudVisibility, hudElements?: HudElement[]): void
 ////
 
 //// define
-`hudElements`：<code><a href="../hudelement.md">HudElement</a>[]</code>|`undefined`
+`hudElements`：<code><a href="../hudelement/">HudElement</a>[]</code>|`undefined`
 
 - 参数2。
 

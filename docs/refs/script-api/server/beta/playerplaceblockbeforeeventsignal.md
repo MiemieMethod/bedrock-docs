@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerPlaceBlockBeforeEvent) => void, options?: BlockE
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerPlaceBlockBeforeEvent) => void
+`callback`：<code>(<a href="../playerplaceblockbeforeevent/">PlayerPlaceBlockBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -34,7 +34,7 @@ subscribe(callback: (arg: PlayerPlaceBlockBeforeEvent) => void, options?: BlockE
 ////
 
 //// define
-返回值：(arg: PlayerPlaceBlockBeforeEvent) => void
+返回值：<code>(<a href="../playerplaceblockbeforeevent/">PlayerPlaceBlockBeforeEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -56,7 +56,7 @@ unsubscribe(callback: (arg: PlayerPlaceBlockBeforeEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerPlaceBlockBeforeEvent) => void
+`callback`：<code>(<a href="../playerplaceblockbeforeevent/">PlayerPlaceBlockBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 

@@ -214,7 +214,7 @@ getRiders(): Entity[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../entity.md">Entity</a>[]</code>
+返回值：<code><a href="../entity/">Entity</a>[]</code>
 
 - 返回值。
 
@@ -236,7 +236,7 @@ getSeats(): Seat[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../seat.md">Seat</a>[]</code>
+返回值：<code><a href="../seat/">Seat</a>[]</code>
 
 - 返回值。
 

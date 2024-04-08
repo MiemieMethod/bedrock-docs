@@ -18,7 +18,7 @@ add(locations: Vector3[]): void
 
 /// html | div.result
 //// define
-`locations`：<code><a href="../vector3.md">Vector3</a>[]</code>
+`locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
 - 参数1。
 
@@ -48,7 +48,7 @@ new constructor(locations: Vector3[]): ListBlockVolume
 
 /// html | div.result
 //// define
-`locations`：<code><a href="../vector3.md">Vector3</a>[]</code>
+`locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
 - 参数1。
 
@@ -78,7 +78,7 @@ remove(locations: Vector3[]): void
 
 /// html | div.result
 //// define
-`locations`：<code><a href="../vector3.md">Vector3</a>[]</code>
+`locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
 - 参数1。
 

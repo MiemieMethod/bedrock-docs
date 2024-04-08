@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): (arg: P
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerInteractWithEntityBeforeEvent) => void
+`callback`：<code>(<a href="../playerinteractwithentitybeforeevent/">PlayerInteractWithEntityBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): (arg: P
 ////
 
 //// define
-返回值：(arg: PlayerInteractWithEntityBeforeEvent) => void
+返回值：<code>(<a href="../playerinteractwithentitybeforeevent/">PlayerInteractWithEntityBeforeEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerInteractWithEntityBeforeEvent) => void
+`callback`：<code>(<a href="../playerinteractwithentitybeforeevent/">PlayerInteractWithEntityBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 

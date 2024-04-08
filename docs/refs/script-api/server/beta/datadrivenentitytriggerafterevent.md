@@ -42,7 +42,7 @@ getModifiers(): DefinitionModifier[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../definitionmodifier.md">DefinitionModifier</a>[]</code>
+返回值：<code><a href="../definitionmodifier/">DefinitionModifier</a>[]</code>
 
 - 返回值。
 

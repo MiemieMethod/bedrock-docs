@@ -18,7 +18,7 @@ subscribe(callback: (arg: EffectAddBeforeEvent) => void): (arg: EffectAddBeforeE
 
 /// html | div.result
 //// define
-`callback`：(arg: EffectAddBeforeEvent) => void
+`callback`：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: EffectAddBeforeEvent) => void): (arg: EffectAddBeforeE
 ////
 
 //// define
-返回值：(arg: EffectAddBeforeEvent) => void
+返回值：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: EffectAddBeforeEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: EffectAddBeforeEvent) => void
+`callback`：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
 - 参数1。
 

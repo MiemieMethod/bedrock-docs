@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEv
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerBreakBlockAfterEvent) => void
+`callback`：<code>(<a href="../playerbreakblockafterevent/">PlayerBreakBlockAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -34,7 +34,7 @@ subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEv
 ////
 
 //// define
-返回值：(arg: PlayerBreakBlockAfterEvent) => void
+返回值：<code>(<a href="../playerbreakblockafterevent/">PlayerBreakBlockAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -56,7 +56,7 @@ unsubscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerBreakBlockAfterEvent) => void
+`callback`：<code>(<a href="../playerbreakblockafterevent/">PlayerBreakBlockAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

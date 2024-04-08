@@ -18,7 +18,7 @@ subscribe(callback: (arg: ItemStartUseAfterEvent) => void): (arg: ItemStartUseAf
 
 /// html | div.result
 //// define
-`callback`：(arg: ItemStartUseAfterEvent) => void
+`callback`：<code>(<a href="../itemstartuseafterevent/">ItemStartUseAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: ItemStartUseAfterEvent) => void): (arg: ItemStartUseAf
 ////
 
 //// define
-返回值：(arg: ItemStartUseAfterEvent) => void
+返回值：<code>(<a href="../itemstartuseafterevent/">ItemStartUseAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: ItemStartUseAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: ItemStartUseAfterEvent) => void
+`callback`：<code>(<a href="../itemstartuseafterevent/">ItemStartUseAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

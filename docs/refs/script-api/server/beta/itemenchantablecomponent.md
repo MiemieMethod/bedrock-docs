@@ -74,7 +74,7 @@ addEnchantments(enchantments: Enchantment[]): void
 
 /// html | div.result
 //// define
-`enchantments`：<code><a href="../enchantment.md">Enchantment</a>[]</code>
+`enchantments`：<code><a href="../enchantment/">Enchantment</a>[]</code>
 
 - 参数1。
 
@@ -164,7 +164,7 @@ getEnchantments(): Enchantment[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../enchantment.md">Enchantment</a>[]</code>
+返回值：<code><a href="../enchantment/">Enchantment</a>[]</code>
 
 - 返回值。
 

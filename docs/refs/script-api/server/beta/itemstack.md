@@ -264,7 +264,7 @@ getComponents(): ItemComponent[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../itemcomponent.md">ItemComponent</a>[]</code>
+返回值：<code><a href="../itemcomponent/">ItemComponent</a>[]</code>
 
 - 返回值。
 

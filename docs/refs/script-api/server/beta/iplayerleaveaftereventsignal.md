@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfte
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerLeaveAfterEvent) => void
+`callback`：<code>(<a href="../playerleaveafterevent/">PlayerLeaveAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfte
 ////
 
 //// define
-返回值：(arg: PlayerLeaveAfterEvent) => void
+返回值：<code>(<a href="../playerleaveafterevent/">PlayerLeaveAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: PlayerLeaveAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerLeaveAfterEvent) => void
+`callback`：<code>(<a href="../playerleaveafterevent/">PlayerLeaveAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

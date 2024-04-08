@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: Pla
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerInteractWithBlockAfterEvent) => void
+`callback`：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: Pla
 ////
 
 //// define
-返回值：(arg: PlayerInteractWithBlockAfterEvent) => void
+返回值：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerInteractWithBlockAfterEvent) => void
+`callback`：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

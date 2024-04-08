@@ -113,7 +113,7 @@ run(callback: () => void): uint32
 
 /// html | div.result
 //// define
-`callback`：() => void
+`callback`：<code>() =&gt; void</code>
 
 - 参数1。
 
@@ -143,7 +143,7 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 
 /// html | div.result
 //// define
-`callback`：() => void
+`callback`：<code>() =&gt; void</code>
 
 - 参数1。
 
@@ -211,7 +211,7 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 
 /// html | div.result
 //// define
-`callback`：() => void
+`callback`：<code>() =&gt; void</code>
 
 - 参数1。
 

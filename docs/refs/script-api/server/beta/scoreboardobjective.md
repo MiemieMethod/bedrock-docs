@@ -80,7 +80,7 @@ getParticipants(): ScoreboardIdentity[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../scoreboardidentity.md">ScoreboardIdentity</a>[]</code>
+返回值：<code><a href="../scoreboardidentity/">ScoreboardIdentity</a>[]</code>
 
 - 返回值。
 
@@ -132,7 +132,7 @@ getScores(): ScoreboardScoreInfo[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../scoreboardscoreinfo.md">ScoreboardScoreInfo</a>[]</code>
+返回值：<code><a href="../scoreboardscoreinfo/">ScoreboardScoreInfo</a>[]</code>
 
 - 返回值。
 

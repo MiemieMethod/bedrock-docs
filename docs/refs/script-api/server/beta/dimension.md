@@ -364,7 +364,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 ////
 
 //// define
-返回值：<code><a href="../entity.md">Entity</a>[]</code>
+返回值：<code><a href="../entity/">Entity</a>[]</code>
 
 - 返回值。
 
@@ -394,7 +394,7 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 ////
 
 //// define
-返回值：<code><a href="../entity.md">Entity</a>[]</code>
+返回值：<code><a href="../entity/">Entity</a>[]</code>
 
 - 返回值。
 
@@ -440,7 +440,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 ////
 
 //// define
-返回值：<code><a href="../entityraycasthit.md">EntityRaycastHit</a>[]</code>
+返回值：<code><a href="../entityraycasthit/">EntityRaycastHit</a>[]</code>
 
 - 返回值。
 
@@ -470,7 +470,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 ////
 
 //// define
-返回值：<code><a href="../player.md">Player</a>[]</code>
+返回值：<code><a href="../player/">Player</a>[]</code>
 
 - 返回值。
 
@@ -598,7 +598,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 ////
 
 //// define
-返回值：<code>Promise&lt;<a href="../commandresult.md">CommandResult</a>&gt;</code>
+返回值：<code>Promise&lt;<a href="../commandresult/">CommandResult</a>&gt;</code>
 
 - 返回值。
 

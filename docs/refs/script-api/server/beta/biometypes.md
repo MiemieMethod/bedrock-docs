@@ -48,7 +48,7 @@ static getAll(): BiomeType[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../biometype.md">BiomeType</a>[]</code>
+返回值：<code><a href="../biometype/">BiomeType</a>[]</code>
 
 - 返回值。
 

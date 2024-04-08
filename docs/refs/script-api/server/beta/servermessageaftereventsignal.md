@@ -18,7 +18,7 @@ subscribe(callback: (arg: MessageReceiveAfterEvent) => void): (arg: MessageRecei
 
 /// html | div.result
 //// define
-`callback`：(arg: MessageReceiveAfterEvent) => void
+`callback`：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: MessageReceiveAfterEvent) => void): (arg: MessageRecei
 ////
 
 //// define
-返回值：(arg: MessageReceiveAfterEvent) => void
+返回值：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: MessageReceiveAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: MessageReceiveAfterEvent) => void
+`callback`：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

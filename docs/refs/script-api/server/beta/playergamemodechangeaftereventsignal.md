@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): (arg: Player
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerGameModeChangeAfterEvent) => void
+`callback`：<code>(<a href="../playergamemodechangeafterevent/">PlayerGameModeChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): (arg: Player
 ////
 
 //// define
-返回值：(arg: PlayerGameModeChangeAfterEvent) => void
+返回值：<code>(<a href="../playergamemodechangeafterevent/">PlayerGameModeChangeAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerGameModeChangeAfterEvent) => void
+`callback`：<code>(<a href="../playergamemodechangeafterevent/">PlayerGameModeChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

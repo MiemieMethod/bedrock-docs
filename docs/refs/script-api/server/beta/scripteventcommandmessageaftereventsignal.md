@@ -18,7 +18,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 
 /// html | div.result
 //// define
-`callback`：(arg: ScriptEventCommandMessageAfterEvent) => void
+`callback`：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -34,7 +34,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 ////
 
 //// define
-返回值：(arg: ScriptEventCommandMessageAfterEvent) => void
+返回值：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -56,7 +56,7 @@ unsubscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: ScriptEventCommandMessageAfterEvent) => void
+`callback`：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

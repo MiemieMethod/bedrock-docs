@@ -18,7 +18,7 @@ subscribe(callback: (arg: TargetBlockHitAfterEvent) => void): (arg: TargetBlockH
 
 /// html | div.result
 //// define
-`callback`：(arg: TargetBlockHitAfterEvent) => void
+`callback`：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: TargetBlockHitAfterEvent) => void): (arg: TargetBlockH
 ////
 
 //// define
-返回值：(arg: TargetBlockHitAfterEvent) => void
+返回值：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: TargetBlockHitAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: TargetBlockHitAfterEvent) => void
+`callback`：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

@@ -146,7 +146,7 @@ getObjectives(): ScoreboardObjective[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../scoreboardobjective.md">ScoreboardObjective</a>[]</code>
+返回值：<code><a href="../scoreboardobjective/">ScoreboardObjective</a>[]</code>
 
 - 返回值。
 
@@ -168,7 +168,7 @@ getParticipants(): ScoreboardIdentity[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../scoreboardidentity.md">ScoreboardIdentity</a>[]</code>
+返回值：<code><a href="../scoreboardidentity/">ScoreboardIdentity</a>[]</code>
 
 - 返回值。
 

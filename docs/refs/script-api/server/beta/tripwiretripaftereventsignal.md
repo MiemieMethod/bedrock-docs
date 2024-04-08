@@ -18,7 +18,7 @@ subscribe(callback: (arg: TripWireTripAfterEvent) => void): (arg: TripWireTripAf
 
 /// html | div.result
 //// define
-`callback`：(arg: TripWireTripAfterEvent) => void
+`callback`：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: TripWireTripAfterEvent) => void): (arg: TripWireTripAf
 ////
 
 //// define
-返回值：(arg: TripWireTripAfterEvent) => void
+返回值：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: TripWireTripAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: TripWireTripAfterEvent) => void
+`callback`：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

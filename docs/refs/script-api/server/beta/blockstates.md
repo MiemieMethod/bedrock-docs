@@ -48,7 +48,7 @@ static getAll(): BlockStateType[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../blockstatetype.md">BlockStateType</a>[]</code>
+返回值：<code><a href="../blockstatetype/">BlockStateType</a>[]</code>
 
 - 返回值。
 

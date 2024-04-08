@@ -18,7 +18,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 
 /// html | div.result
 //// define
-`callback`：(arg: DataDrivenEntityTriggerAfterEvent) => void
+`callback`：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -34,7 +34,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 ////
 
 //// define
-返回值：(arg: DataDrivenEntityTriggerAfterEvent) => void
+返回值：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -56,7 +56,7 @@ unsubscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: DataDrivenEntityTriggerAfterEvent) => void
+`callback`：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

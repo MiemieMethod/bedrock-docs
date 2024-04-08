@@ -18,7 +18,7 @@ subscribe(callback: (arg: ChatSendAfterEvent) => void): (arg: ChatSendAfterEvent
 
 /// html | div.result
 //// define
-`callback`：(arg: ChatSendAfterEvent) => void
+`callback`：<code>(<a href="../chatsendafterevent/">ChatSendAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: ChatSendAfterEvent) => void): (arg: ChatSendAfterEvent
 ////
 
 //// define
-返回值：(arg: ChatSendAfterEvent) => void
+返回值：<code>(<a href="../chatsendafterevent/">ChatSendAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: ChatSendAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: ChatSendAfterEvent) => void
+`callback`：<code>(<a href="../chatsendafterevent/">ChatSendAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

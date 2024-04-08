@@ -539,7 +539,7 @@ getComponents(): EntityComponent[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../entitycomponent.md">EntityComponent</a>[]</code>
+返回值：<code><a href="../entitycomponent/">EntityComponent</a>[]</code>
 
 - 返回值。
 
@@ -665,7 +665,7 @@ getEffects(): Effect[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../effect.md">Effect</a>[]</code>
+返回值：<code><a href="../effect/">Effect</a>[]</code>
 
 - 返回值。
 
@@ -695,7 +695,7 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 ////
 
 //// define
-返回值：<code><a href="../entityraycasthit.md">EntityRaycastHit</a>[]</code>
+返回值：<code><a href="../entityraycasthit/">EntityRaycastHit</a>[]</code>
 
 - 返回值。
 
@@ -1179,7 +1179,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 ////
 
 //// define
-返回值：<code>Promise&lt;<a href="../commandresult.md">CommandResult</a>&gt;</code>
+返回值：<code>Promise&lt;<a href="../commandresult/">CommandResult</a>&gt;</code>
 
 - 返回值。
 

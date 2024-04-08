@@ -18,7 +18,7 @@ subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChan
 
 /// html | div.result
 //// define
-`callback`：(arg: GameRuleChangeAfterEvent) => void
+`callback`：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChan
 ////
 
 //// define
-返回值：(arg: GameRuleChangeAfterEvent) => void
+返回值：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: GameRuleChangeAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: GameRuleChangeAfterEvent) => void
+`callback`：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

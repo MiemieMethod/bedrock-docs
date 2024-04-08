@@ -18,7 +18,7 @@ subscribe(callback: (arg: BlockExplodeAfterEvent) => void): (arg: BlockExplodeAf
 
 /// html | div.result
 //// define
-`callback`：(arg: BlockExplodeAfterEvent) => void
+`callback`：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: BlockExplodeAfterEvent) => void): (arg: BlockExplodeAf
 ////
 
 //// define
-返回值：(arg: BlockExplodeAfterEvent) => void
+返回值：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: BlockExplodeAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: BlockExplodeAfterEvent) => void
+`callback`：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

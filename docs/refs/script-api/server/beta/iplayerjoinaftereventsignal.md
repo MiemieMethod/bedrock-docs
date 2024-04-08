@@ -18,7 +18,7 @@ subscribe(callback: (arg: PlayerJoinAfterEvent) => void): (arg: PlayerJoinAfterE
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerJoinAfterEvent) => void
+`callback`：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerJoinAfterEvent) => void): (arg: PlayerJoinAfterE
 ////
 
 //// define
-返回值：(arg: PlayerJoinAfterEvent) => void
+返回值：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: PlayerJoinAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: PlayerJoinAfterEvent) => void
+`callback`：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 

@@ -18,7 +18,7 @@ subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfte
 
 /// html | div.result
 //// define
-`callback`：(arg: LeverActionAfterEvent) => void
+`callback`：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
@@ -26,7 +26,7 @@ subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfte
 ////
 
 //// define
-返回值：(arg: LeverActionAfterEvent) => void
+返回值：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
 - 返回值。
 
@@ -48,7 +48,7 @@ unsubscribe(callback: (arg: LeverActionAfterEvent) => void): void
 
 /// html | div.result
 //// define
-`callback`：(arg: LeverActionAfterEvent) => void
+`callback`：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
 - 参数1。
 
