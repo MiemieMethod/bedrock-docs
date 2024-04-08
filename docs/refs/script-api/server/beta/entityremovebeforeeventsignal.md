@@ -16,6 +16,25 @@
 subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveBeforeEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: EntityRemoveBeforeEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: EntityRemoveBeforeEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveB
 ```js
 unsubscribe(callback: (arg: EntityRemoveBeforeEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: EntityRemoveBeforeEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

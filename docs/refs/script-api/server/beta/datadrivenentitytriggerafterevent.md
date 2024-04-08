@@ -40,3 +40,7 @@ read-only eventId: string;
 getModifiers(): DefinitionModifier[]
 ```
 
+/// html | div.result
+
+///
+

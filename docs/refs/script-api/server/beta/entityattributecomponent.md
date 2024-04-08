@@ -62,6 +62,10 @@ read-only effectiveMin: float;
 resetToDefaultValue(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `resetToMaxValue`
@@ -72,6 +76,10 @@ resetToDefaultValue(): void
 ```js
 resetToMaxValue(): void
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -84,6 +92,10 @@ resetToMaxValue(): void
 resetToMinValue(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `setCurrentValue`
@@ -94,4 +106,23 @@ resetToMinValue(): void
 ```js
 setCurrentValue(value: float): boolean
 ```
+
+/// html | div.result
+//// define
+`value`：`float`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 

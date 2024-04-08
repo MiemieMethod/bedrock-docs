@@ -16,6 +16,25 @@
 subscribe(callback: (arg: PistonActivateAfterEvent) => void): (arg: PistonActivateAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: PistonActivateAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: PistonActivateAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: PistonActivateAfterEvent) => void): (arg: PistonActiva
 ```js
 unsubscribe(callback: (arg: PistonActivateAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: PistonActivateAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

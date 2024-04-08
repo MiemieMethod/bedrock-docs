@@ -29,3 +29,22 @@ static read-only componentId = "minecraft:potionContainer";
 setPotionType(itemStack: ItemStack): void
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

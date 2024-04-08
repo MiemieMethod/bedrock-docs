@@ -16,6 +16,25 @@
 subscribe(callback: (arg: PlayerInteractWithEntityAfterEvent) => void): (arg: PlayerInteractWithEntityAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: PlayerInteractWithEntityAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: PlayerInteractWithEntityAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: PlayerInteractWithEntityAfterEvent) => void): (arg: Pl
 ```js
 unsubscribe(callback: (arg: PlayerInteractWithEntityAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: PlayerInteractWithEntityAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

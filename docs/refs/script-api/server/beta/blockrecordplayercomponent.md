@@ -29,6 +29,10 @@ static read-only componentId = "minecraft:recordPlayer";
 clearRecord(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `isPlaying`
@@ -40,6 +44,10 @@ clearRecord(): void
 isPlaying(): boolean
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `setRecord`
@@ -50,4 +58,23 @@ isPlaying(): boolean
 ```js
 setRecord(recordItemType: ItemType | string): void
 ```
+
+/// html | div.result
+//// define
+`recordItemType`：ItemType|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

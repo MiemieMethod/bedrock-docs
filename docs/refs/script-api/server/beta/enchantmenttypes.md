@@ -16,6 +16,25 @@
 static get(enchantmentId: string): EnchantmentType | undefined
 ```
 
+/// html | div.result
+//// define
+`enchantmentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`EnchantmentType`](./enchantmenttype.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getAll`
@@ -26,4 +45,8 @@ static get(enchantmentId: string): EnchantmentType | undefined
 ```js
 static getAll(): EnchantmentType[]
 ```
+
+/// html | div.result
+
+///
 

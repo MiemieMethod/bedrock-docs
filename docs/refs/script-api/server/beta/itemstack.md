@@ -106,6 +106,10 @@ read-only typeId: string;
 clearDynamicProperties(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `clone`
@@ -116,6 +120,10 @@ clearDynamicProperties(): void
 ```js
 clone(): ItemStack
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -128,6 +136,33 @@ clone(): ItemStack
 new constructor(itemType: ItemType | string, amount: int32): ItemStack
 ```
 
+/// html | div.result
+//// define
+`itemType`：ItemType|string
+
+- 参数1。
+
+
+////
+
+//// define
+`amount`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getCanDestroy`
@@ -138,6 +173,10 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 ```js
 getCanDestroy(): string[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -150,6 +189,10 @@ getCanDestroy(): string[]
 getCanPlaceOn(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getComponent`
@@ -160,6 +203,25 @@ getCanPlaceOn(): string[]
 ```js
 getComponent(componentId: string): ItemComponent | undefined
 ```
+
+/// html | div.result
+//// define
+`componentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ItemComponent`](./itemcomponent.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -172,6 +234,10 @@ getComponent(componentId: string): ItemComponent | undefined
 getComponents(): ItemComponent[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDynamicProperty`
@@ -182,6 +248,25 @@ getComponents(): ItemComponent[]
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：boolean|double|float|string|Vector3|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -194,6 +279,10 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 getDynamicPropertyIds(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDynamicPropertyTotalByteCount`
@@ -204,6 +293,10 @@ getDynamicPropertyIds(): string[]
 ```js
 getDynamicPropertyTotalByteCount(): int32
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -216,6 +309,10 @@ getDynamicPropertyTotalByteCount(): int32
 getLore(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getTags`
@@ -226,6 +323,10 @@ getLore(): string[]
 ```js
 getTags(): string[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -238,6 +339,25 @@ getTags(): string[]
 hasComponent(componentId: string): boolean
 ```
 
+/// html | div.result
+//// define
+`componentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `hasTag`
@@ -248,6 +368,25 @@ hasComponent(componentId: string): boolean
 ```js
 hasTag(tag: string): boolean
 ```
+
+/// html | div.result
+//// define
+`tag`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -260,6 +399,25 @@ hasTag(tag: string): boolean
 isStackableWith(itemStack: ItemStack): boolean
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `matches`
@@ -270,6 +428,33 @@ isStackableWith(itemStack: ItemStack): boolean
 ```js
 matches(itemName: string, states?: Record<string, boolean | int32 | string>): boolean
 ```
+
+/// html | div.result
+//// define
+`itemName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`states`：`Record<string, boolean | int32 | string>`|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -282,6 +467,25 @@ matches(itemName: string, states?: Record<string, boolean | int32 | string>): bo
 setCanDestroy(blockIdentifiers?: string[]): void
 ```
 
+/// html | div.result
+//// define
+`blockIdentifiers`：`string[]`|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setCanPlaceOn`
@@ -292,6 +496,25 @@ setCanDestroy(blockIdentifiers?: string[]): void
 ```js
 setCanPlaceOn(blockIdentifiers?: string[]): void
 ```
+
+/// html | div.result
+//// define
+`blockIdentifiers`：`string[]`|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -304,6 +527,33 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
 
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：boolean|double|float|string|Vector3|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setLore`
@@ -314,4 +564,23 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ```js
 setLore(loreList?: string[]): void
 ```
+
+/// html | div.result
+//// define
+`loreList`：`string[]`|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

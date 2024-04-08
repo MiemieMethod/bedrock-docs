@@ -40,3 +40,7 @@ read-only source: Entity | undefined;
 getImpactedBlocks(): Block[]
 ```
 
+/// html | div.result
+
+///
+

@@ -51,6 +51,10 @@ read-only type: ScoreboardIdentityType;
 getEntity(): Entity | undefined
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `isValid`
@@ -61,4 +65,8 @@ getEntity(): Entity | undefined
 ```js
 isValid(): boolean
 ```
+
+/// html | div.result
+
+///
 

@@ -16,6 +16,33 @@
 subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockEventOptions): (arg: PlayerBreakBlockBeforeEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: PlayerBreakBlockBeforeEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+`options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：(arg: PlayerBreakBlockBeforeEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +53,23 @@ subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockE
 ```js
 unsubscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: PlayerBreakBlockBeforeEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

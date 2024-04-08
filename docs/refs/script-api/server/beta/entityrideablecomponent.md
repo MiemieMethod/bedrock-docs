@@ -108,6 +108,25 @@ read-only seatCount: int32;
 addRider(rider: Entity): boolean
 ```
 
+/// html | div.result
+//// define
+`rider`：[`Entity`](./entity.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `ejectRider`
@@ -118,6 +137,25 @@ addRider(rider: Entity): boolean
 ```js
 ejectRider(rider: Entity): void
 ```
+
+/// html | div.result
+//// define
+`rider`：[`Entity`](./entity.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -130,6 +168,10 @@ ejectRider(rider: Entity): void
 ejectRiders(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getFamilyTypes`
@@ -140,6 +182,10 @@ ejectRiders(): void
 ```js
 getFamilyTypes(): string[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -152,6 +198,10 @@ getFamilyTypes(): string[]
 getRiders(): Entity[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getSeats`
@@ -162,4 +212,8 @@ getRiders(): Entity[]
 ```js
 getSeats(): Seat[]
 ```
+
+/// html | div.result
+
+///
 

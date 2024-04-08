@@ -40,6 +40,10 @@ read-only volumeCount: uint64;
 clear(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `constructor`
@@ -50,6 +54,25 @@ clear(): void
 ```js
 new constructor(origin?: Vector3): CompoundBlockVolume
 ```
+
+/// html | div.result
+//// define
+`origin`：[`Vector3`](./vector3.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`CompoundBlockVolume`](./compoundblockvolume.md)
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -62,6 +85,10 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 getBlockLocationIterator(): BlockLocationIterator
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getBoundingBox`
@@ -72,6 +99,10 @@ getBlockLocationIterator(): BlockLocationIterator
 ```js
 getBoundingBox(): BoundingBox
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -84,6 +115,10 @@ getBoundingBox(): BoundingBox
 getMax(): Vector3
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getMin`
@@ -94,6 +129,10 @@ getMax(): Vector3
 ```js
 getMin(): Vector3
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -106,6 +145,10 @@ getMin(): Vector3
 getOrigin(): Vector3
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `isEmpty`
@@ -116,6 +159,10 @@ getOrigin(): Vector3
 ```js
 isEmpty(): boolean
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -128,6 +175,25 @@ isEmpty(): boolean
 isInside(worldLocation: Vector3): boolean
 ```
 
+/// html | div.result
+//// define
+`worldLocation`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `peekLastVolume`
@@ -138,6 +204,25 @@ isInside(worldLocation: Vector3): boolean
 ```js
 peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): CompoundBlockVolumeItem | undefined
 ```
+
+/// html | div.result
+//// define
+`forceRelativity`：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -150,6 +235,10 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 popVolume(): boolean
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `pushVolume`
@@ -160,6 +249,25 @@ popVolume(): boolean
 ```js
 pushVolume(item: CompoundBlockVolumeItem): void
 ```
+
+/// html | div.result
+//// define
+`item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -172,6 +280,25 @@ pushVolume(item: CompoundBlockVolumeItem): void
 replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 ```
 
+/// html | div.result
+//// define
+`item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setOrigin`
@@ -183,6 +310,33 @@ replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 ```
 
+/// html | div.result
+//// define
+`position`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+`preserveExistingVolumes`：`boolean`|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `translateOrigin`
@@ -193,4 +347,31 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 ```js
 translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 ```
+
+/// html | div.result
+//// define
+`delta`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+`preserveExistingVolumes`：`boolean`|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

@@ -29,3 +29,22 @@ static read-only componentId = "minecraft:tamemount";
 tame(showParticles: boolean): void
 ```
 
+/// html | div.result
+//// define
+`showParticles`：`boolean`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

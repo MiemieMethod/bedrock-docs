@@ -53,6 +53,25 @@ read-only cooldownTicks: int32;
 getCooldownTicksRemaining(player: Player): int32
 ```
 
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`int32`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `isCooldownCategory`
@@ -64,6 +83,25 @@ getCooldownTicksRemaining(player: Player): int32
 isCooldownCategory(cooldownCategory: string): boolean
 ```
 
+/// html | div.result
+//// define
+`cooldownCategory`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `startCooldown`
@@ -74,4 +112,23 @@ isCooldownCategory(cooldownCategory: string): boolean
 ```js
 startCooldown(player: Player): void
 ```
+
+/// html | div.result
+//// define
+`player`：[`Player`](./player.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

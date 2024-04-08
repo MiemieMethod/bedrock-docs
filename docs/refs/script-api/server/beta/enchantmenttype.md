@@ -40,3 +40,22 @@ read-only maxLevel: int32;
 new constructor(enchantmentType: string): EnchantmentType
 ```
 
+/// html | div.result
+//// define
+`enchantmentType`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`EnchantmentType`](./enchantmenttype.md)
+
+- 返回值。
+
+
+////
+
+///
+

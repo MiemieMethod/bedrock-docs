@@ -16,6 +16,33 @@
 addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 ```
 
+/// html | div.result
+//// define
+`objectiveId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`displayName`：`string`|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`ScoreboardObjective`](./scoreboardobjective.md)
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `clearObjectiveAtDisplaySlot`
@@ -26,6 +53,25 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 ```js
 clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective | undefined
 ```
+
+/// html | div.result
+//// define
+`displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ScoreboardObjective`](./scoreboardobjective.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +84,25 @@ clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective |
 getObjective(objectiveId: string): ScoreboardObjective | undefined
 ```
 
+/// html | div.result
+//// define
+`objectiveId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ScoreboardObjective`](./scoreboardobjective.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getObjectiveAtDisplaySlot`
@@ -48,6 +113,25 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 ```js
 getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisplayOptions | undefined
 ```
+
+/// html | div.result
+//// define
+`displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ScoreboardObjectiveDisplayOptions`](./scoreboardobjectivedisplayoptions.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +144,10 @@ getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisp
 getObjectives(): ScoreboardObjective[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getParticipants`
@@ -70,6 +158,10 @@ getObjectives(): ScoreboardObjective[]
 ```js
 getParticipants(): ScoreboardIdentity[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -82,6 +174,25 @@ getParticipants(): ScoreboardIdentity[]
 removeObjective(objectiveId: ScoreboardObjective | string): boolean
 ```
 
+/// html | div.result
+//// define
+`objectiveId`：ScoreboardObjective|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setObjectiveAtDisplaySlot`
@@ -92,4 +203,31 @@ removeObjective(objectiveId: ScoreboardObjective | string): boolean
 ```js
 setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting: ScoreboardObjectiveDisplayOptions): ScoreboardObjective | undefined
 ```
+
+/// html | div.result
+//// define
+`displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
+
+- 参数1。
+
+
+////
+
+//// define
+`objectiveDisplaySetting`：[`ScoreboardObjectiveDisplayOptions`](./scoreboardobjectivedisplayoptions.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`ScoreboardObjective`](./scoreboardobjective.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 

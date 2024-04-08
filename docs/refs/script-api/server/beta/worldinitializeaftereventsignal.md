@@ -16,6 +16,25 @@
 subscribe(callback: (arg: WorldInitializeAfterEvent) => void): (arg: WorldInitializeAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: WorldInitializeAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: WorldInitializeAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: WorldInitializeAfterEvent) => void): (arg: WorldInitia
 ```js
 unsubscribe(callback: (arg: WorldInitializeAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: WorldInitializeAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

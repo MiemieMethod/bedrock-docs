@@ -29,6 +29,25 @@ static read-only componentId = "minecraft:waterContainer";
 addDye(itemType: ItemType): void
 ```
 
+/// html | div.result
+//// define
+`itemType`：[`ItemType`](./itemtype.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getCustomColor`
@@ -40,6 +59,10 @@ addDye(itemType: ItemType): void
 getCustomColor(): RGBA
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `setCustomColor`
@@ -50,4 +73,23 @@ getCustomColor(): RGBA
 ```js
 setCustomColor(color: RGBA): void
 ```
+
+/// html | div.result
+//// define
+`color`：[`RGBA`](./rgba.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

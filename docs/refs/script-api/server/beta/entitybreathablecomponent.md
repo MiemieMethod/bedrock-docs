@@ -119,6 +119,10 @@ read-only totalSupply: int32;
 getBreatheBlocks(): BlockPermutation[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getNonBreatheBlocks`
@@ -130,6 +134,10 @@ getBreatheBlocks(): BlockPermutation[]
 getNonBreatheBlocks(): BlockPermutation[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `setAirSupply`
@@ -140,4 +148,23 @@ getNonBreatheBlocks(): BlockPermutation[]
 ```js
 setAirSupply(value: int16): void
 ```
+
+/// html | div.result
+//// define
+`value`：`int16`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

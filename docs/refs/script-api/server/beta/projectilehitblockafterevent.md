@@ -73,3 +73,7 @@ read-only source: Entity | undefined;
 getBlockHit(): BlockHitInformation
 ```
 
+/// html | div.result
+
+///
+

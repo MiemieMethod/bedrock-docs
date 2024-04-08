@@ -29,6 +29,10 @@ static read-only componentId = "minecraft:type_family";
 getTypeFamilies(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `hasTypeFamily`
@@ -39,4 +43,23 @@ getTypeFamilies(): string[]
 ```js
 hasTypeFamily(typeFamily: string): boolean
 ```
+
+/// html | div.result
+//// define
+`typeFamily`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 

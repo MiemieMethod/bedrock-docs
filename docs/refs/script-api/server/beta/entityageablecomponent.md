@@ -64,6 +64,10 @@ read-only transformToItem: string;
 getDropItems(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getFeedItems`
@@ -74,4 +78,8 @@ getDropItems(): string[]
 ```js
 getFeedItems(): EntityDefinitionFeedItem[]
 ```
+
+/// html | div.result
+
+///
 

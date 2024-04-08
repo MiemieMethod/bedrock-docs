@@ -73,6 +73,33 @@ read-only structureManager: StructureManager;
 broadcastClientMessage(id: string, value: string): void
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：`string`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `clearDynamicProperties`
@@ -83,6 +110,10 @@ broadcastClientMessage(id: string, value: string): void
 ```js
 clearDynamicProperties(): void
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -95,6 +126,10 @@ clearDynamicProperties(): void
 getAbsoluteTime(): int32
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getAllPlayers`
@@ -105,6 +140,10 @@ getAbsoluteTime(): int32
 ```js
 getAllPlayers(): Player[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -117,6 +156,10 @@ getAllPlayers(): Player[]
 getDay(): int32
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDefaultSpawnLocation`
@@ -127,6 +170,10 @@ getDay(): int32
 ```js
 getDefaultSpawnLocation(): Vector3
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -139,6 +186,25 @@ getDefaultSpawnLocation(): Vector3
 getDimension(dimensionId: string): Dimension
 ```
 
+/// html | div.result
+//// define
+`dimensionId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Dimension`](./dimension.md)
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getDynamicProperty`
@@ -149,6 +215,25 @@ getDimension(dimensionId: string): Dimension
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：boolean|double|float|string|Vector3|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -161,6 +246,10 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 getDynamicPropertyIds(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDynamicPropertyTotalByteCount`
@@ -171,6 +260,10 @@ getDynamicPropertyIds(): string[]
 ```js
 getDynamicPropertyTotalByteCount(): int32
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -183,6 +276,25 @@ getDynamicPropertyTotalByteCount(): int32
 getEntity(id: string): Entity | undefined
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Entity`](./entity.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getMoonPhase`
@@ -193,6 +305,10 @@ getEntity(id: string): Entity | undefined
 ```js
 getMoonPhase(): MoonPhase
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -205,6 +321,25 @@ getMoonPhase(): MoonPhase
 getPlayers(options?: EntityQueryOptions): Player[]
 ```
 
+/// html | div.result
+//// define
+`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：<code><a href="./player.md">Player</a>[]</code>
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getTimeOfDay`
@@ -215,6 +350,10 @@ getPlayers(options?: EntityQueryOptions): Player[]
 ```js
 getTimeOfDay(): int32
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -227,6 +366,33 @@ getTimeOfDay(): int32
 playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
 
+/// html | div.result
+//// define
+`trackId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `playSound`
@@ -237,6 +403,41 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```js
 playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions): void
 ```
+
+/// html | div.result
+//// define
+`soundId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- 参数2。
+
+
+////
+
+//// define
+`soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
+
+- 参数3。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -249,6 +450,33 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
 
+/// html | div.result
+//// define
+`trackId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `sendMessage`
@@ -259,6 +487,25 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ```js
 sendMessage(message: RawMessage | string[] | RawMessage | string): void
 ```
+
+/// html | div.result
+//// define
+`message`：RawMessage | string[]|RawMessage|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -271,6 +518,25 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 setAbsoluteTime(absoluteTime: int32): void
 ```
 
+/// html | div.result
+//// define
+`absoluteTime`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setDefaultSpawnLocation`
@@ -281,6 +547,25 @@ setAbsoluteTime(absoluteTime: int32): void
 ```js
 setDefaultSpawnLocation(spawnLocation: Vector3): void
 ```
+
+/// html | div.result
+//// define
+`spawnLocation`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -293,6 +578,33 @@ setDefaultSpawnLocation(spawnLocation: Vector3): void
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
 
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：boolean|double|float|string|Vector3|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setTimeOfDay`
@@ -304,6 +616,25 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 ```
 
+/// html | div.result
+//// define
+`timeOfDay`：int32|TimeOfDay
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `stopMusic`
@@ -314,4 +645,8 @@ setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 ```js
 stopMusic(): void
 ```
+
+/// html | div.result
+
+///
 

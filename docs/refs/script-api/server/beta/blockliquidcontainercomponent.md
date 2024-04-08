@@ -29,3 +29,7 @@ fillLevel: int32;
 isValidLiquid(): boolean
 ```
 
+/// html | div.result
+
+///
+

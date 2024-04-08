@@ -53,6 +53,25 @@ read-only maxDurability: int32;
 getDamageChance(unbreakingEnchantmentLevel: int32): int32
 ```
 
+/// html | div.result
+//// define
+`unbreakingEnchantmentLevel`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`int32`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getDamageChanceRange`
@@ -63,4 +82,8 @@ getDamageChance(unbreakingEnchantmentLevel: int32): int32
 ```js
 getDamageChanceRange(): NumberRange
 ```
+
+/// html | div.result
+
+///
 

@@ -42,6 +42,25 @@ read-only slots: EnchantmentSlot[];
 addEnchantment(enchantment: Enchantment): void
 ```
 
+/// html | div.result
+//// define
+`enchantment`：[`Enchantment`](./enchantment.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `addEnchantments`
@@ -52,6 +71,25 @@ addEnchantment(enchantment: Enchantment): void
 ```js
 addEnchantments(enchantments: Enchantment[]): void
 ```
+
+/// html | div.result
+//// define
+`enchantments`：<code><a href="./enchantment.md">Enchantment</a>[]</code>
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -64,6 +102,25 @@ addEnchantments(enchantments: Enchantment[]): void
 canAddEnchantment(enchantment: Enchantment): boolean
 ```
 
+/// html | div.result
+//// define
+`enchantment`：[`Enchantment`](./enchantment.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getEnchantment`
@@ -74,6 +131,25 @@ canAddEnchantment(enchantment: Enchantment): boolean
 ```js
 getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefined
 ```
+
+/// html | div.result
+//// define
+`enchantmentType`：EnchantmentType|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Enchantment`](./enchantment.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -86,6 +162,10 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 getEnchantments(): Enchantment[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `hasEnchantment`
@@ -96,6 +176,25 @@ getEnchantments(): Enchantment[]
 ```js
 hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 ```
+
+/// html | div.result
+//// define
+`enchantmentType`：EnchantmentType|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -108,6 +207,10 @@ hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 removeAllEnchantments(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `removeEnchantment`
@@ -118,4 +221,23 @@ removeAllEnchantments(): void
 ```js
 removeEnchantment(enchantmentType: EnchantmentType | string): void
 ```
+
+/// html | div.result
+//// define
+`enchantmentType`：EnchantmentType|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

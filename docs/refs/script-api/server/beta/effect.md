@@ -62,3 +62,7 @@ read-only typeId: string;
 isValid(): boolean
 ```
 
+/// html | div.result
+
+///
+

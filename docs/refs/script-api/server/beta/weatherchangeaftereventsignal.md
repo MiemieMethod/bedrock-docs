@@ -16,6 +16,25 @@
 subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChangeAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: WeatherChangeAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: WeatherChangeAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChange
 ```js
 unsubscribe(callback: (arg: WeatherChangeAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: WeatherChangeAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

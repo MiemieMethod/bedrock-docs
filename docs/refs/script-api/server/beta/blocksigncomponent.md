@@ -42,6 +42,25 @@ read-only isWaxed: boolean;
 getRawText(side: SignSide): RawText | undefined
 ```
 
+/// html | div.result
+//// define
+`side`：[`SignSide`](./signside.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`RawText`](./rawtext.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getText`
@@ -52,6 +71,25 @@ getRawText(side: SignSide): RawText | undefined
 ```js
 getText(side: SignSide): string | undefined
 ```
+
+/// html | div.result
+//// define
+`side`：[`SignSide`](./signside.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`string`|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -64,6 +102,25 @@ getText(side: SignSide): string | undefined
 getTextDyeColor(side: SignSide): DyeColor | undefined
 ```
 
+/// html | div.result
+//// define
+`side`：[`SignSide`](./signside.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`DyeColor`](./dyecolor.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setText`
@@ -74,6 +131,33 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 ```js
 setText(message: RawMessage | RawText | string, side: SignSide): void
 ```
+
+/// html | div.result
+//// define
+`message`：RawMessage|RawText|string
+
+- 参数1。
+
+
+////
+
+//// define
+`side`：[`SignSide`](./signside.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -86,6 +170,33 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 setTextDyeColor(color?: DyeColor, side: SignSide): void
 ```
 
+/// html | div.result
+//// define
+`color`：[`DyeColor`](./dyecolor.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+`side`：[`SignSide`](./signside.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setWaxed`
@@ -96,4 +207,23 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 ```js
 setWaxed(waxed: boolean): void
 ```
+
+/// html | div.result
+//// define
+`waxed`：`boolean`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

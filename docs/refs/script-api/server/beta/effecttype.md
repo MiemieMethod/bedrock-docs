@@ -16,3 +16,7 @@
 getName(): string
 ```
 
+/// html | div.result
+
+///
+

@@ -16,6 +16,25 @@
 subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: PlayerInteractWithBlockAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: PlayerInteractWithBlockAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: PlayerInteractWithBlockAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: Pla
 ```js
 unsubscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: PlayerInteractWithBlockAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

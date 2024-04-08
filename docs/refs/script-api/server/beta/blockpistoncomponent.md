@@ -53,6 +53,10 @@ read-only state: BlockPistonState;
 getAttachedBlocks(): Block[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getAttachedBlocksLocations`
@@ -63,4 +67,8 @@ getAttachedBlocks(): Block[]
 ```js
 getAttachedBlocksLocations(): Vector3[]
 ```
+
+/// html | div.result
+
+///
 

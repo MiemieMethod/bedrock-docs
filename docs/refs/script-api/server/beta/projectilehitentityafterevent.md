@@ -73,3 +73,7 @@ read-only source: Entity | undefined;
 getEntityHit(): EntityHitInformation
 ```
 
+/// html | div.result
+
+///
+

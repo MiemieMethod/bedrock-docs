@@ -42,6 +42,25 @@ read-only softDistance: float;
 leash(leashHolder: Entity): void
 ```
 
+/// html | div.result
+//// define
+`leashHolder`：[`Entity`](./entity.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unleash`
@@ -52,4 +71,8 @@ leash(leashHolder: Entity): void
 ```js
 unleash(): void
 ```
+
+/// html | div.result
+
+///
 

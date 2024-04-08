@@ -16,6 +16,33 @@
 subscribe(callback: (arg: EntityRemoveAfterEvent) => void, options?: EntityEventOptions): (arg: EntityRemoveAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: EntityRemoveAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：(arg: EntityRemoveAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +53,23 @@ subscribe(callback: (arg: EntityRemoveAfterEvent) => void, options?: EntityEvent
 ```js
 unsubscribe(callback: (arg: EntityRemoveAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: EntityRemoveAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

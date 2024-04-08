@@ -40,3 +40,7 @@ read-only item: string;
 getEffects(): FeedItemEffect[]
 ```
 
+/// html | div.result
+
+///
+

@@ -16,6 +16,25 @@
 add(locations: Vector3[]): void
 ```
 
+/// html | div.result
+//// define
+`locations`：<code><a href="./vector3.md">Vector3</a>[]</code>
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `constructor`
@@ -27,6 +46,25 @@ add(locations: Vector3[]): void
 new constructor(locations: Vector3[]): ListBlockVolume
 ```
 
+/// html | div.result
+//// define
+`locations`：<code><a href="./vector3.md">Vector3</a>[]</code>
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ListBlockVolume`](./listblockvolume.md)
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `remove`
@@ -37,4 +75,23 @@ new constructor(locations: Vector3[]): ListBlockVolume
 ```js
 remove(locations: Vector3[]): void
 ```
+
+/// html | div.result
+//// define
+`locations`：<code><a href="./vector3.md">Vector3</a>[]</code>
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

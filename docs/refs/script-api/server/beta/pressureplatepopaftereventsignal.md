@@ -16,6 +16,25 @@
 subscribe(callback: (arg: PressurePlatePopAfterEvent) => void): (arg: PressurePlatePopAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: PressurePlatePopAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: PressurePlatePopAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: PressurePlatePopAfterEvent) => void): (arg: PressurePl
 ```js
 unsubscribe(callback: (arg: PressurePlatePopAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: PressurePlatePopAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

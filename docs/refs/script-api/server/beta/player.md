@@ -150,6 +150,25 @@ read-only xpEarnedAtCurrentLevel: int32;
 addExperience(amount: int32): uint32
 ```
 
+/// html | div.result
+//// define
+`amount`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`uint32`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `addLevels`
@@ -160,6 +179,25 @@ addExperience(amount: int32): uint32
 ```js
 addLevels(amount: int32): int32
 ```
+
+/// html | div.result
+//// define
+`amount`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`int32`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -172,6 +210,25 @@ addLevels(amount: int32): int32
 eatItem(itemStack: ItemStack): void
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getGameMode`
@@ -182,6 +239,10 @@ eatItem(itemStack: ItemStack): void
 ```js
 getGameMode(): GameMode
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -194,6 +255,25 @@ getGameMode(): GameMode
 getItemCooldown(cooldownCategory: string): int32
 ```
 
+/// html | div.result
+//// define
+`cooldownCategory`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`int32`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getSpawnPoint`
@@ -204,6 +284,10 @@ getItemCooldown(cooldownCategory: string): int32
 ```js
 getSpawnPoint(): DimensionLocation | undefined
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -216,6 +300,10 @@ getSpawnPoint(): DimensionLocation | undefined
 getTotalXp(): uint32
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `isOp`
@@ -226,6 +314,10 @@ getTotalXp(): uint32
 ```js
 isOp(): boolean
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -238,6 +330,33 @@ isOp(): boolean
 playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
 
+/// html | div.result
+//// define
+`trackId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `playSound`
@@ -248,6 +367,33 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```js
 playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ```
+
+/// html | div.result
+//// define
+`soundId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -260,6 +406,33 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 postClientMessage(id: string, value: string): void
 ```
 
+/// html | div.result
+//// define
+`id`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：`string`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `queueMusic`
@@ -270,6 +443,33 @@ postClientMessage(id: string, value: string): void
 ```js
 queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
+
+/// html | div.result
+//// define
+`trackId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -282,6 +482,10 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 resetLevel(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `sendMessage`
@@ -292,6 +496,25 @@ resetLevel(): void
 ```js
 sendMessage(message: RawMessage | string[] | RawMessage | string): void
 ```
+
+/// html | div.result
+//// define
+`message`：RawMessage | string[]|RawMessage|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -304,6 +527,25 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 setGameMode(gameMode?: GameMode): void
 ```
 
+/// html | div.result
+//// define
+`gameMode`：[`GameMode`](./gamemode.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setOp`
@@ -314,6 +556,25 @@ setGameMode(gameMode?: GameMode): void
 ```js
 setOp(isOp: boolean): void
 ```
+
+/// html | div.result
+//// define
+`isOp`：`boolean`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -326,6 +587,25 @@ setOp(isOp: boolean): void
 setSpawnPoint(spawnPoint?: DimensionLocation): void
 ```
 
+/// html | div.result
+//// define
+`spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `spawnParticle`
@@ -336,6 +616,41 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 ```js
 spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVariableMap): void
 ```
+
+/// html | div.result
+//// define
+`effectName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- 参数2。
+
+
+////
+
+//// define
+`molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
+
+- 参数3。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -348,6 +663,33 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 ```
 
+/// html | div.result
+//// define
+`cooldownCategory`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`tickDuration`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `stopMusic`
@@ -358,4 +700,8 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 ```js
 stopMusic(): void
 ```
+
+/// html | div.result
+
+///
 

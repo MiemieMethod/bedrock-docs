@@ -40,6 +40,25 @@ read-only size: int32;
 addItem(itemStack: ItemStack): ItemStack | undefined
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `clearAll`
@@ -50,6 +69,10 @@ addItem(itemStack: ItemStack): ItemStack | undefined
 ```js
 clearAll(): void
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -62,6 +85,25 @@ clearAll(): void
 getItem(slot: int32): ItemStack | undefined
 ```
 
+/// html | div.result
+//// define
+`slot`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getSlot`
@@ -72,6 +114,25 @@ getItem(slot: int32): ItemStack | undefined
 ```js
 getSlot(slot: int32): ContainerSlot
 ```
+
+/// html | div.result
+//// define
+`slot`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ContainerSlot`](./containerslot.md)
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -84,6 +145,10 @@ getSlot(slot: int32): ContainerSlot
 isValid(): boolean
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `moveItem`
@@ -94,6 +159,41 @@ isValid(): boolean
 ```js
 moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 ```
+
+/// html | div.result
+//// define
+`fromSlot`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+`toSlot`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+`toContainer`：[`Container`](./container.md)
+
+- 参数3。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -106,6 +206,33 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 setItem(slot: int32, itemStack?: ItemStack): void
 ```
 
+/// html | div.result
+//// define
+`slot`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `swapItems`
@@ -117,6 +244,41 @@ setItem(slot: int32, itemStack?: ItemStack): void
 swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 ```
 
+/// html | div.result
+//// define
+`slot`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+`otherSlot`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+`otherContainer`：[`Container`](./container.md)
+
+- 参数3。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `transferItem`
@@ -127,4 +289,31 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 ```js
 transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 ```
+
+/// html | div.result
+//// define
+`fromSlot`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+`toContainer`：[`Container`](./container.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 

@@ -16,6 +16,10 @@
 new constructor(): MolangVariableMap
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `setColorRGB`
@@ -26,6 +30,33 @@ new constructor(): MolangVariableMap
 ```js
 setColorRGB(variableName: string, color: RGB): void
 ```
+
+/// html | div.result
+//// define
+`variableName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`color`：[`RGB`](./rgb.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -38,6 +69,33 @@ setColorRGB(variableName: string, color: RGB): void
 setColorRGBA(variableName: string, color: RGBA): void
 ```
 
+/// html | div.result
+//// define
+`variableName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`color`：[`RGBA`](./rgba.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setFloat`
@@ -48,6 +106,33 @@ setColorRGBA(variableName: string, color: RGBA): void
 ```js
 setFloat(variableName: string, number: float): void
 ```
+
+/// html | div.result
+//// define
+`variableName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`number`：`float`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -60,6 +145,41 @@ setFloat(variableName: string, number: float): void
 setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): void
 ```
 
+/// html | div.result
+//// define
+`variableName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`speed`：`float`
+
+- 参数2。
+
+
+////
+
+//// define
+`direction`：[`Vector3`](./vector3.md)
+
+- 参数3。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setVector3`
@@ -70,4 +190,31 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 ```js
 setVector3(variableName: string, vector: Vector3): void
 ```
+
+/// html | div.result
+//// define
+`variableName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`vector`：[`Vector3`](./vector3.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

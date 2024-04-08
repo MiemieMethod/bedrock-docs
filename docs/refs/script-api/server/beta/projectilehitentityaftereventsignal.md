@@ -16,6 +16,25 @@
 subscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): (arg: ProjectileHitEntityAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: ProjectileHitEntityAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: ProjectileHitEntityAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): (arg: Project
 ```js
 unsubscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: ProjectileHitEntityAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

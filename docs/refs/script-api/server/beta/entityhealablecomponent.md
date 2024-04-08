@@ -42,3 +42,7 @@ read-only forceUse: boolean;
 getFeedItems(): FeedItem[]
 ```
 
+/// html | div.result
+
+///
+

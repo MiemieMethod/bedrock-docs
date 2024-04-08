@@ -42,6 +42,10 @@ read-only probability: float;
 getTameItems(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `tame`
@@ -52,4 +56,8 @@ getTameItems(): string[]
 ```js
 tame(): boolean
 ```
+
+/// html | div.result
+
+///
 

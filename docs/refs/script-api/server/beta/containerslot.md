@@ -106,6 +106,10 @@ read-only typeId: string;
 clearDynamicProperties(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getCanDestroy`
@@ -116,6 +120,10 @@ clearDynamicProperties(): void
 ```js
 getCanDestroy(): string[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -128,6 +136,10 @@ getCanDestroy(): string[]
 getCanPlaceOn(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDynamicProperty`
@@ -138,6 +150,25 @@ getCanPlaceOn(): string[]
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：boolean|double|float|string|Vector3|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -150,6 +181,10 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 getDynamicPropertyIds(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDynamicPropertyTotalByteCount`
@@ -160,6 +195,10 @@ getDynamicPropertyIds(): string[]
 ```js
 getDynamicPropertyTotalByteCount(): int32
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -172,6 +211,10 @@ getDynamicPropertyTotalByteCount(): int32
 getItem(): ItemStack | undefined
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getLore`
@@ -182,6 +225,10 @@ getItem(): ItemStack | undefined
 ```js
 getLore(): string[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -194,6 +241,10 @@ getLore(): string[]
 getTags(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `hasItem`
@@ -204,6 +255,10 @@ getTags(): string[]
 ```js
 hasItem(): boolean
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -216,6 +271,25 @@ hasItem(): boolean
 hasTag(tag: string): boolean
 ```
 
+/// html | div.result
+//// define
+`tag`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `isStackableWith`
@@ -226,6 +300,25 @@ hasTag(tag: string): boolean
 ```js
 isStackableWith(itemStack: ItemStack): boolean
 ```
+
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -238,6 +331,10 @@ isStackableWith(itemStack: ItemStack): boolean
 isValid(): boolean
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `setCanDestroy`
@@ -248,6 +345,25 @@ isValid(): boolean
 ```js
 setCanDestroy(blockIdentifiers?: string[]): void
 ```
+
+/// html | div.result
+//// define
+`blockIdentifiers`：`string[]`|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -260,6 +376,25 @@ setCanDestroy(blockIdentifiers?: string[]): void
 setCanPlaceOn(blockIdentifiers?: string[]): void
 ```
 
+/// html | div.result
+//// define
+`blockIdentifiers`：`string[]`|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setDynamicProperty`
@@ -270,6 +405,33 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 ```js
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：boolean|double|float|string|Vector3|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -282,6 +444,25 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 setItem(itemStack?: ItemStack): void
 ```
 
+/// html | div.result
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setLore`
@@ -292,4 +473,23 @@ setItem(itemStack?: ItemStack): void
 ```js
 setLore(loreList?: string[]): void
 ```
+
+/// html | div.result
+//// define
+`loreList`：`string[]`|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

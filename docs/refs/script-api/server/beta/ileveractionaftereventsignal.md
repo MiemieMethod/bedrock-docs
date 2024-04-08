@@ -16,6 +16,25 @@
 subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: LeverActionAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: LeverActionAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfte
 ```js
 unsubscribe(callback: (arg: LeverActionAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: LeverActionAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

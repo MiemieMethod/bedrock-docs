@@ -16,6 +16,25 @@
 subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: EntitySpawnAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: EntitySpawnAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfte
 ```js
 unsubscribe(callback: (arg: EntitySpawnAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: EntitySpawnAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

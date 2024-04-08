@@ -16,6 +16,25 @@
 static get(itemId: string): ItemType | undefined
 ```
 
+/// html | div.result
+//// define
+`itemId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ItemType`](./itemtype.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getAll`
@@ -26,4 +45,8 @@ static get(itemId: string): ItemType | undefined
 ```js
 static getAll(): ItemType[]
 ```
+
+/// html | div.result
+
+///
 

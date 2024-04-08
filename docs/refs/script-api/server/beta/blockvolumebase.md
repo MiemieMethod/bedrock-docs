@@ -16,6 +16,10 @@
 getBlockLocationIterator(): BlockLocationIterator
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getBoundingBox`
@@ -26,6 +30,10 @@ getBlockLocationIterator(): BlockLocationIterator
 ```js
 getBoundingBox(): BoundingBox
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -38,6 +46,10 @@ getBoundingBox(): BoundingBox
 getCapacity(): int32
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getMax`
@@ -48,6 +60,10 @@ getCapacity(): int32
 ```js
 getMax(): Vector3
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -60,6 +76,10 @@ getMax(): Vector3
 getMin(): Vector3
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getSpan`
@@ -70,6 +90,10 @@ getMin(): Vector3
 ```js
 getSpan(): Vector3
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -82,6 +106,25 @@ getSpan(): Vector3
 isInside(pos: Vector3): boolean
 ```
 
+/// html | div.result
+//// define
+`pos`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `translate`
@@ -92,4 +135,23 @@ isInside(pos: Vector3): boolean
 ```js
 translate(delta: Vector3): void
 ```
+
+/// html | div.result
+//// define
+`delta`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

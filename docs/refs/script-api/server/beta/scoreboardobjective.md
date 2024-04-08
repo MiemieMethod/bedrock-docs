@@ -40,6 +40,33 @@ read-only id: string;
 addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): int32
 ```
 
+/// html | div.result
+//// define
+`participant`：Entity|ScoreboardIdentity|string
+
+- 参数1。
+
+
+////
+
+//// define
+`scoreToAdd`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`int32`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getParticipants`
@@ -50,6 +77,10 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 ```js
 getParticipants(): ScoreboardIdentity[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -62,6 +93,25 @@ getParticipants(): ScoreboardIdentity[]
 getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 ```
 
+/// html | div.result
+//// define
+`participant`：Entity|ScoreboardIdentity|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`int32`|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getScores`
@@ -72,6 +122,10 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 ```js
 getScores(): ScoreboardScoreInfo[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -84,6 +138,25 @@ getScores(): ScoreboardScoreInfo[]
 hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```
 
+/// html | div.result
+//// define
+`participant`：Entity|ScoreboardIdentity|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `isValid`
@@ -94,6 +167,10 @@ hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```js
 isValid(): boolean
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -106,6 +183,25 @@ isValid(): boolean
 removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```
 
+/// html | div.result
+//// define
+`participant`：Entity|ScoreboardIdentity|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setScore`
@@ -116,4 +212,31 @@ removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```js
 setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 ```
+
+/// html | div.result
+//// define
+`participant`：Entity|ScoreboardIdentity|string
+
+- 参数1。
+
+
+////
+
+//// define
+`score`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

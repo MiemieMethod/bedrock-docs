@@ -185,3 +185,30 @@ stopOnHit: boolean;
 shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 ```
 
+/// html | div.result
+//// define
+`velocity`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+`options`：[`ProjectileShootOptions`](./projectileshootoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

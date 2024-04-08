@@ -29,3 +29,22 @@ cancel: boolean;
 setImpactedBlocks(blocks: Block[]): void
 ```
 
+/// html | div.result
+//// define
+`blocks`：<code><a href="./block.md">Block</a>[]</code>
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

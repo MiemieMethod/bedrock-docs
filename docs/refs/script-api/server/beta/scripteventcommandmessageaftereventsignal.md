@@ -16,6 +16,33 @@
 subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?: ScriptEventMessageFilterOptions): (arg: ScriptEventCommandMessageAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: ScriptEventCommandMessageAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+`options`：[`ScriptEventMessageFilterOptions`](./scripteventmessagefilteroptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：(arg: ScriptEventCommandMessageAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +53,23 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 ```js
 unsubscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: ScriptEventCommandMessageAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

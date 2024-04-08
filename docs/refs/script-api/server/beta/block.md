@@ -150,6 +150,25 @@ read-only z: int32;
 above(steps: int32): Block | undefined
 ```
 
+/// html | div.result
+//// define
+`steps`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `below`
@@ -160,6 +179,25 @@ above(steps: int32): Block | undefined
 ```js
 below(steps: int32): Block | undefined
 ```
+
+/// html | div.result
+//// define
+`steps`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -172,6 +210,10 @@ below(steps: int32): Block | undefined
 bottomCenter(): Vector3
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `canPlace`
@@ -182,6 +224,33 @@ bottomCenter(): Vector3
 ```js
 canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Direction): boolean
 ```
+
+/// html | div.result
+//// define
+`blockToPlace`：BlockPermutation|BlockType|string
+
+- 参数1。
+
+
+////
+
+//// define
+`faceToPlaceOn`：[`Direction`](./direction.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -194,6 +263,10 @@ canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Di
 center(): Vector3
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `east`
@@ -204,6 +277,25 @@ center(): Vector3
 ```js
 east(steps: int32): Block | undefined
 ```
+
+/// html | div.result
+//// define
+`steps`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -216,6 +308,25 @@ east(steps: int32): Block | undefined
 getComponent(componentId: string): BlockComponent | undefined
 ```
 
+/// html | div.result
+//// define
+`componentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`BlockComponent`](./blockcomponent.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getItemStack`
@@ -226,6 +337,33 @@ getComponent(componentId: string): BlockComponent | undefined
 ```js
 getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 ```
+
+/// html | div.result
+//// define
+`amount`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+`withData`：`boolean`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -238,6 +376,10 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 getRedstonePower(): int32 | undefined
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getTags`
@@ -248,6 +390,10 @@ getRedstonePower(): int32 | undefined
 ```js
 getTags(): string[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -260,6 +406,25 @@ getTags(): string[]
 hasTag(tag: string): boolean
 ```
 
+/// html | div.result
+//// define
+`tag`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `isValid`
@@ -270,6 +435,10 @@ hasTag(tag: string): boolean
 ```js
 isValid(): boolean
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -282,6 +451,33 @@ isValid(): boolean
 matches(blockName: string, states?: Record<string, boolean | int32 | string>): boolean
 ```
 
+/// html | div.result
+//// define
+`blockName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`states`：`Record<string, boolean | int32 | string>`|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `north`
@@ -292,6 +488,25 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 ```js
 north(steps: int32): Block | undefined
 ```
+
+/// html | div.result
+//// define
+`steps`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -304,6 +519,25 @@ north(steps: int32): Block | undefined
 offset(offset: Vector3): Block | undefined
 ```
 
+/// html | div.result
+//// define
+`offset`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setPermutation`
@@ -314,6 +548,25 @@ offset(offset: Vector3): Block | undefined
 ```js
 setPermutation(permutation: BlockPermutation): void
 ```
+
+/// html | div.result
+//// define
+`permutation`：[`BlockPermutation`](./blockpermutation.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -326,6 +579,25 @@ setPermutation(permutation: BlockPermutation): void
 setType(blockType: BlockType | string): void
 ```
 
+/// html | div.result
+//// define
+`blockType`：BlockType|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setWaterlogged`
@@ -336,6 +608,25 @@ setType(blockType: BlockType | string): void
 ```js
 setWaterlogged(isWaterlogged: boolean): void
 ```
+
+/// html | div.result
+//// define
+`isWaterlogged`：`boolean`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -348,6 +639,25 @@ setWaterlogged(isWaterlogged: boolean): void
 south(steps: int32): Block | undefined
 ```
 
+/// html | div.result
+//// define
+`steps`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `trySetPermutation`
@@ -359,6 +669,25 @@ south(steps: int32): Block | undefined
 trySetPermutation(permutation: BlockPermutation): boolean
 ```
 
+/// html | div.result
+//// define
+`permutation`：[`BlockPermutation`](./blockpermutation.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `west`
@@ -369,4 +698,23 @@ trySetPermutation(permutation: BlockPermutation): boolean
 ```js
 west(steps: int32): Block | undefined
 ```
+
+/// html | div.result
+//// define
+`steps`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 

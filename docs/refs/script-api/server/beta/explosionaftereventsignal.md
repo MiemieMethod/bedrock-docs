@@ -16,6 +16,25 @@
 subscribe(callback: (arg: ExplosionAfterEvent) => void): (arg: ExplosionAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: ExplosionAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: ExplosionAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: ExplosionAfterEvent) => void): (arg: ExplosionAfterEve
 ```js
 unsubscribe(callback: (arg: ExplosionAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: ExplosionAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

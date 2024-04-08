@@ -16,6 +16,25 @@
 subscribe(callback: (arg: ItemUseOnBeforeEvent) => void): (arg: ItemUseOnBeforeEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: ItemUseOnBeforeEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: ItemUseOnBeforeEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: ItemUseOnBeforeEvent) => void): (arg: ItemUseOnBeforeE
 ```js
 unsubscribe(callback: (arg: ItemUseOnBeforeEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: ItemUseOnBeforeEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

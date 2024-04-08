@@ -29,6 +29,25 @@ static read-only componentId = "minecraft:equippable";
 getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 ```
 
+/// html | div.result
+//// define
+`equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getEquipmentSlot`
@@ -40,6 +59,25 @@ getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 getEquipmentSlot(equipmentSlot: EquipmentSlot): ContainerSlot
 ```
 
+/// html | div.result
+//// define
+`equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ContainerSlot`](./containerslot.md)
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setEquipment`
@@ -50,4 +88,31 @@ getEquipmentSlot(equipmentSlot: EquipmentSlot): ContainerSlot
 ```js
 setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 ```
+
+/// html | div.result
+//// define
+`equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
+
+- 参数1。
+
+
+////
+
+//// define
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 

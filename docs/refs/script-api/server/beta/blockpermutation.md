@@ -29,6 +29,10 @@ read-only type: BlockType;
 getAllStates(): Record<string, boolean | int32 | string>
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getItemStack`
@@ -39,6 +43,25 @@ getAllStates(): Record<string, boolean | int32 | string>
 ```js
 getItemStack(amount: int32): ItemStack | undefined
 ```
+
+/// html | div.result
+//// define
+`amount`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -51,6 +74,25 @@ getItemStack(amount: int32): ItemStack | undefined
 getState(stateName: string): boolean | int32 | string | undefined
 ```
 
+/// html | div.result
+//// define
+`stateName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：boolean|int32|string|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getTags`
@@ -61,6 +103,10 @@ getState(stateName: string): boolean | int32 | string | undefined
 ```js
 getTags(): string[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -73,6 +119,25 @@ getTags(): string[]
 hasTag(tag: string): boolean
 ```
 
+/// html | div.result
+//// define
+`tag`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `matches`
@@ -83,6 +148,33 @@ hasTag(tag: string): boolean
 ```js
 matches(blockName: string, states?: Record<string, boolean | int32 | string>): boolean
 ```
+
+/// html | div.result
+//// define
+`blockName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`states`：`Record<string, boolean | int32 | string>`|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -95,6 +187,33 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 static resolve(blockName: string, states?: Record<string, boolean | int32 | string>): BlockPermutation
 ```
 
+/// html | div.result
+//// define
+`blockName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`states`：`Record<string, boolean | int32 | string>`|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`BlockPermutation`](./blockpermutation.md)
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `withState`
@@ -105,4 +224,31 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 ```js
 withState(name: string, value: boolean | int32 | string): BlockPermutation
 ```
+
+/// html | div.result
+//// define
+`name`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：boolean|int32|string
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：[`BlockPermutation`](./blockpermutation.md)
+
+- 返回值。
+
+
+////
+
+///
 

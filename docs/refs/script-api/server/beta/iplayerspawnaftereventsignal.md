@@ -16,6 +16,25 @@
 subscribe(callback: (arg: PlayerSpawnAfterEvent) => void): (arg: PlayerSpawnAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: PlayerSpawnAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: PlayerSpawnAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: PlayerSpawnAfterEvent) => void): (arg: PlayerSpawnAfte
 ```js
 unsubscribe(callback: (arg: PlayerSpawnAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: PlayerSpawnAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

@@ -16,6 +16,10 @@
 [Symbol.iterator](): Iterator<Player>
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `next`
@@ -26,4 +30,8 @@
 ```js
 next(): IteratorResult<Player>
 ```
+
+/// html | div.result
+
+///
 

@@ -16,6 +16,25 @@
 subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChangeAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: GameRuleChangeAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: GameRuleChangeAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChan
 ```js
 unsubscribe(callback: (arg: GameRuleChangeAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: GameRuleChangeAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 

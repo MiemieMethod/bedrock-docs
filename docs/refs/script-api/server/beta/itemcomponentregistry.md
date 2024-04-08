@@ -16,3 +16,30 @@
 registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent): void
 ```
 
+/// html | div.result
+//// define
+`name`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`itemCustomComponent`：[`ItemCustomComponent`](./itemcustomcomponent.md)
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+

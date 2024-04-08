@@ -205,6 +205,41 @@ read-only typeId: string;
 addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffectOptions): Effect | undefined
 ```
 
+/// html | div.result
+//// define
+`effectType`：EffectType|string
+
+- 参数1。
+
+
+////
+
+//// define
+`duration`：`int32`
+
+- 参数2。
+
+
+////
+
+//// define
+`options`：[`EntityEffectOptions`](./entityeffectoptions.md)|`undefined`
+
+- 参数3。
+
+
+////
+
+//// define
+返回值：[`Effect`](./effect.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `addTag`
@@ -215,6 +250,25 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 ```js
 addTag(tag: string): boolean
 ```
+
+/// html | div.result
+//// define
+`tag`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -227,6 +281,33 @@ addTag(tag: string): boolean
 applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | EntityApplyDamageOptions): boolean
 ```
 
+/// html | div.result
+//// define
+`amount`：`float`
+
+- 参数1。
+
+
+////
+
+//// define
+`options`：EntityApplyDamageByProjectileOptions|EntityApplyDamageOptions|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `applyImpulse`
@@ -237,6 +318,25 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 ```js
 applyImpulse(vector: Vector3): void
 ```
+
+/// html | div.result
+//// define
+`vector`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -249,6 +349,49 @@ applyImpulse(vector: Vector3): void
 applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, verticalStrength: float): void
 ```
 
+/// html | div.result
+//// define
+`directionX`：`float`
+
+- 参数1。
+
+
+////
+
+//// define
+`directionZ`：`float`
+
+- 参数2。
+
+
+////
+
+//// define
+`horizontalStrength`：`float`
+
+- 参数3。
+
+
+////
+
+//// define
+`verticalStrength`：`float`
+
+- 参数4。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `clearDynamicProperties`
@@ -259,6 +402,10 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 ```js
 clearDynamicProperties(): void
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -271,6 +418,10 @@ clearDynamicProperties(): void
 clearVelocity(): void
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `extinguishFire`
@@ -281,6 +432,25 @@ clearVelocity(): void
 ```js
 extinguishFire(useEffects: boolean): boolean
 ```
+
+/// html | div.result
+//// define
+`useEffects`：`boolean`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -293,6 +463,25 @@ extinguishFire(useEffects: boolean): boolean
 getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | undefined
 ```
 
+/// html | div.result
+//// define
+`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`BlockRaycastHit`](./blockraycasthit.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getComponent`
@@ -303,6 +492,25 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 ```js
 getComponent(componentId: string): EntityComponent | undefined
 ```
+
+/// html | div.result
+//// define
+`componentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`EntityComponent`](./entitycomponent.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -315,6 +523,10 @@ getComponent(componentId: string): EntityComponent | undefined
 getComponents(): EntityComponent[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDynamicProperty`
@@ -325,6 +537,25 @@ getComponents(): EntityComponent[]
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：boolean|double|float|string|Vector3|`undefined`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -337,6 +568,10 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 getDynamicPropertyIds(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getDynamicPropertyTotalByteCount`
@@ -347,6 +582,10 @@ getDynamicPropertyIds(): string[]
 ```js
 getDynamicPropertyTotalByteCount(): int32
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -359,6 +598,25 @@ getDynamicPropertyTotalByteCount(): int32
 getEffect(effectType: EffectType | string): Effect | undefined
 ```
 
+/// html | div.result
+//// define
+`effectType`：EffectType|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`Effect`](./effect.md)|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getEffects`
@@ -369,6 +627,10 @@ getEffect(effectType: EffectType | string): Effect | undefined
 ```js
 getEffects(): Effect[]
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -381,6 +643,25 @@ getEffects(): Effect[]
 getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 ```
 
+/// html | div.result
+//// define
+`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：<code><a href="./entityraycasthit.md">EntityRaycastHit</a>[]</code>
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getHeadLocation`
@@ -391,6 +672,10 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 ```js
 getHeadLocation(): Vector3
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -403,6 +688,25 @@ getHeadLocation(): Vector3
 getProperty(identifier: string): boolean | float | string | undefined
 ```
 
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：boolean|float|string|`undefined`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `getRotation`
@@ -413,6 +717,10 @@ getProperty(identifier: string): boolean | float | string | undefined
 ```js
 getRotation(): Vector2
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -425,6 +733,10 @@ getRotation(): Vector2
 getTags(): string[]
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `getVelocity`
@@ -435,6 +747,10 @@ getTags(): string[]
 ```js
 getVelocity(): Vector3
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -447,6 +763,10 @@ getVelocity(): Vector3
 getViewDirection(): Vector3
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `hasComponent`
@@ -457,6 +777,25 @@ getViewDirection(): Vector3
 ```js
 hasComponent(componentId: string): boolean
 ```
+
+/// html | div.result
+//// define
+`componentId`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -469,6 +808,25 @@ hasComponent(componentId: string): boolean
 hasTag(tag: string): boolean
 ```
 
+/// html | div.result
+//// define
+`tag`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `isValid`
@@ -479,6 +837,10 @@ hasTag(tag: string): boolean
 ```js
 isValid(): boolean
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -491,6 +853,10 @@ isValid(): boolean
 kill(): boolean
 ```
 
+/// html | div.result
+
+///
+
 
 /// define
 `matches`
@@ -501,6 +867,25 @@ kill(): boolean
 ```js
 matches(options: EntityQueryOptions): boolean
 ```
+
+/// html | div.result
+//// define
+`options`：[`EntityQueryOptions`](./entityqueryoptions.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -513,6 +898,33 @@ matches(options: EntityQueryOptions): boolean
 playAnimation(animationName: string, options?: PlayAnimationOptions): void
 ```
 
+/// html | div.result
+//// define
+`animationName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`options`：[`PlayAnimationOptions`](./playanimationoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `remove`
@@ -523,6 +935,10 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 ```js
 remove(): void
 ```
+
+/// html | div.result
+
+///
 
 
 /// define
@@ -535,6 +951,25 @@ remove(): void
 removeEffect(effectType: EffectType | string): boolean
 ```
 
+/// html | div.result
+//// define
+`effectType`：EffectType|string
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `removeTag`
@@ -545,6 +980,25 @@ removeEffect(effectType: EffectType | string): boolean
 ```js
 removeTag(tag: string): boolean
 ```
+
+/// html | div.result
+//// define
+`tag`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -557,6 +1011,25 @@ removeTag(tag: string): boolean
 resetProperty(identifier: string): boolean | float | string
 ```
 
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：boolean|float|string
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `runCommand`
@@ -567,6 +1040,25 @@ resetProperty(identifier: string): boolean | float | string
 ```js
 runCommand(commandString: string): CommandResult
 ```
+
+/// html | div.result
+//// define
+`commandString`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：[`CommandResult`](./commandresult.md)
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -579,6 +1071,25 @@ runCommand(commandString: string): CommandResult
 runCommandAsync(commandString: string): Promise<CommandResult>
 ```
 
+/// html | div.result
+//// define
+`commandString`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：<code>Promise&lt;<a href="./commandresult.md">CommandResult</a>&gt;</code>
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setDynamicProperty`
@@ -589,6 +1100,33 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 ```js
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：boolean|double|float|string|Vector3|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -601,6 +1139,33 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 setOnFire(seconds: int32, useEffects: boolean): boolean
 ```
 
+/// html | div.result
+//// define
+`seconds`：`int32`
+
+- 参数1。
+
+
+////
+
+//// define
+`useEffects`：`boolean`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `setProperty`
@@ -611,6 +1176,33 @@ setOnFire(seconds: int32, useEffects: boolean): boolean
 ```js
 setProperty(identifier: string, value: boolean | float | string): void
 ```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+`value`：boolean|float|string
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -623,6 +1215,25 @@ setProperty(identifier: string, value: boolean | float | string): void
 setRotation(rotation: Vector2): void
 ```
 
+/// html | div.result
+//// define
+`rotation`：[`Vector2`](./vector2.md)
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `teleport`
@@ -633,6 +1244,33 @@ setRotation(rotation: Vector2): void
 ```js
 teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 ```
+
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+`teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
 
 /// define
@@ -645,6 +1283,25 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 triggerEvent(eventName: string): void
 ```
 
+/// html | div.result
+//// define
+`eventName`：`string`
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `tryTeleport`
@@ -655,4 +1312,31 @@ triggerEvent(eventName: string): void
 ```js
 tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 ```
+
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- 参数1。
+
+
+////
+
+//// define
+`teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
+
+- 参数2。
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
+
+///
 

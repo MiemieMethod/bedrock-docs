@@ -16,6 +16,25 @@
 subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfterEvent) => void
 ```
 
+/// html | div.result
+//// define
+`callback`：(arg: PlayerLeaveAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：(arg: PlayerLeaveAfterEvent) => void
+
+- 返回值。
+
+
+////
+
+///
+
 
 /// define
 `unsubscribe`
@@ -26,4 +45,23 @@ subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfte
 ```js
 unsubscribe(callback: (arg: PlayerLeaveAfterEvent) => void): void
 ```
+
+/// html | div.result
+//// define
+`callback`：(arg: PlayerLeaveAfterEvent) => void
+
+- 参数1。
+
+
+////
+
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
+
+///
 
