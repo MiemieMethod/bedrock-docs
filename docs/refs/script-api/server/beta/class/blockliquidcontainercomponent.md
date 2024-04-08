@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLiquidContainerComponent`类。
+`BlockLiquidContainerComponent`类，扩展自`BlockComponent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-fillLevel: int32
+fillLevel: int32;
 ```
 
 

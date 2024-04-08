@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only dimension: Dimension
+read-only dimension: Dimension;
 ```
 
 
@@ -24,7 +24,7 @@ read-only dimension: Dimension
 ///
 
 ```js
-read-only fallDistance: float
+read-only fallDistance: float;
 ```
 
 
@@ -35,7 +35,7 @@ read-only fallDistance: float
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
 
@@ -46,7 +46,7 @@ read-only id: string
 ///
 
 ```js
-read-only isClimbing: boolean
+read-only isClimbing: boolean;
 ```
 
 
@@ -57,7 +57,7 @@ read-only isClimbing: boolean
 ///
 
 ```js
-read-only isFalling: boolean
+read-only isFalling: boolean;
 ```
 
 
@@ -68,7 +68,7 @@ read-only isFalling: boolean
 ///
 
 ```js
-read-only isInWater: boolean
+read-only isInWater: boolean;
 ```
 
 
@@ -79,7 +79,7 @@ read-only isInWater: boolean
 ///
 
 ```js
-read-only isOnGround: boolean
+read-only isOnGround: boolean;
 ```
 
 
@@ -90,7 +90,7 @@ read-only isOnGround: boolean
 ///
 
 ```js
-read-only isSleeping: boolean
+read-only isSleeping: boolean;
 ```
 
 
@@ -101,7 +101,7 @@ read-only isSleeping: boolean
 ///
 
 ```js
-isSneaking: boolean
+isSneaking: boolean;
 ```
 
 
@@ -112,7 +112,7 @@ isSneaking: boolean
 ///
 
 ```js
-read-only isSprinting: boolean
+read-only isSprinting: boolean;
 ```
 
 
@@ -123,7 +123,7 @@ read-only isSprinting: boolean
 ///
 
 ```js
-read-only isSwimming: boolean
+read-only isSwimming: boolean;
 ```
 
 
@@ -134,7 +134,7 @@ read-only isSwimming: boolean
 ///
 
 ```js
-read-only lifetimeState: EntityLifetimeState
+read-only lifetimeState: EntityLifetimeState;
 ```
 
 
@@ -145,7 +145,7 @@ read-only lifetimeState: EntityLifetimeState
 ///
 
 ```js
-read-only location: Vector3
+read-only location: Vector3;
 ```
 
 
@@ -156,7 +156,7 @@ read-only location: Vector3
 ///
 
 ```js
-nameTag: string
+nameTag: string;
 ```
 
 
@@ -167,7 +167,7 @@ nameTag: string
 ///
 
 ```js
-read-only scoreboardIdentity: ScoreboardIdentity | undefined
+read-only scoreboardIdentity: ScoreboardIdentity | undefined;
 ```
 
 
@@ -178,7 +178,7 @@ read-only scoreboardIdentity: ScoreboardIdentity | undefined
 ///
 
 ```js
-read-only target: Entity | undefined
+read-only target: Entity | undefined;
 ```
 
 
@@ -189,7 +189,7 @@ read-only target: Entity | undefined
 ///
 
 ```js
-read-only typeId: string
+read-only typeId: string;
 ```
 
 

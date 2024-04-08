@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only damageSource: EntityDamageSource
+read-only damageSource: EntityDamageSource;
 ```
 
 
@@ -24,8 +24,6 @@ read-only damageSource: EntityDamageSource
 ///
 
 ```js
-read-only deadEntity: Entity
+read-only deadEntity: Entity;
 ```
 
-
-## 方法

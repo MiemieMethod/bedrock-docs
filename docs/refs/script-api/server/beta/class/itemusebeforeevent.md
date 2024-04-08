@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseBeforeEvent`类。
+`ItemUseBeforeEvent`类，扩展自`ItemUseAfterEvent`。
 
 ## 属性
 
@@ -13,8 +13,6 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
-
-## 方法

@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityProjectileComponent`类。
+`EntityProjectileComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:projectile;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-airInertia: float
+airInertia: float;
 ```
 
 
@@ -24,7 +37,7 @@ airInertia: float
 ///
 
 ```js
-catchFireOnHurt: boolean
+catchFireOnHurt: boolean;
 ```
 
 
@@ -35,7 +48,7 @@ catchFireOnHurt: boolean
 ///
 
 ```js
-critParticlesOnProjectileHurt: boolean
+critParticlesOnProjectileHurt: boolean;
 ```
 
 
@@ -46,7 +59,7 @@ critParticlesOnProjectileHurt: boolean
 ///
 
 ```js
-destroyOnProjectileHurt: boolean
+destroyOnProjectileHurt: boolean;
 ```
 
 
@@ -57,7 +70,7 @@ destroyOnProjectileHurt: boolean
 ///
 
 ```js
-gravity: float
+gravity: float;
 ```
 
 
@@ -68,7 +81,7 @@ gravity: float
 ///
 
 ```js
-hitEntitySound: string | undefined
+hitEntitySound: string | undefined;
 ```
 
 
@@ -79,7 +92,7 @@ hitEntitySound: string | undefined
 ///
 
 ```js
-hitGroundSound: string | undefined
+hitGroundSound: string | undefined;
 ```
 
 
@@ -90,7 +103,7 @@ hitGroundSound: string | undefined
 ///
 
 ```js
-hitParticle: string | undefined
+hitParticle: string | undefined;
 ```
 
 
@@ -101,7 +114,7 @@ hitParticle: string | undefined
 ///
 
 ```js
-lightningStrikeOnHit: boolean
+lightningStrikeOnHit: boolean;
 ```
 
 
@@ -112,7 +125,7 @@ lightningStrikeOnHit: boolean
 ///
 
 ```js
-liquidInertia: float
+liquidInertia: float;
 ```
 
 
@@ -123,7 +136,7 @@ liquidInertia: float
 ///
 
 ```js
-onFireTime: float
+onFireTime: float;
 ```
 
 
@@ -134,7 +147,7 @@ onFireTime: float
 ///
 
 ```js
-owner: Entity | undefined
+owner: Entity | undefined;
 ```
 
 
@@ -145,7 +158,7 @@ owner: Entity | undefined
 ///
 
 ```js
-shouldBounceOnHit: boolean
+shouldBounceOnHit: boolean;
 ```
 
 
@@ -156,7 +169,7 @@ shouldBounceOnHit: boolean
 ///
 
 ```js
-stopOnHit: boolean
+stopOnHit: boolean;
 ```
 
 

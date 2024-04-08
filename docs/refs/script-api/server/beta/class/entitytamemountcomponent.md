@@ -2,9 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTameMountComponent`类。
+`EntityTameMountComponent`类，扩展自`EntityComponent`。
 
-## 属性
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:tamemount;
+```
+
 
 ## 方法
 

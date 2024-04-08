@@ -2,8 +2,17 @@
 
 > 文档版本：1.21.0.20
 
-`BlockSnowContainerComponent`类。
+`BlockSnowContainerComponent`类，扩展自`BlockLiquidContainerComponent`。
 
-## 属性
+## 常量
 
-## 方法
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:snowContainer;
+```
+

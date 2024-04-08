@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only emptySlotsCount: int32
+read-only emptySlotsCount: int32;
 ```
 
 
@@ -24,7 +24,7 @@ read-only emptySlotsCount: int32
 ///
 
 ```js
-read-only size: int32
+read-only size: int32;
 ```
 
 

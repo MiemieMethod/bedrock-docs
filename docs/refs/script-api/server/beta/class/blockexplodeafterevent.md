@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockExplodeAfterEvent`类。
+`BlockExplodeAfterEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only explodedBlockPermutation: BlockPermutation
+read-only explodedBlockPermutation: BlockPermutation;
 ```
 
 
@@ -24,8 +24,6 @@ read-only explodedBlockPermutation: BlockPermutation
 ///
 
 ```js
-read-only source: Entity | undefined
+read-only source: Entity | undefined;
 ```
 
-
-## 方法

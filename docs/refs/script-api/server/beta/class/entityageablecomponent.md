@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAgeableComponent`类。
+`EntityAgeableComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:ageable;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only duration: float
+read-only duration: float;
 ```
 
 
@@ -24,7 +37,7 @@ read-only duration: float
 ///
 
 ```js
-read-only growUp: Trigger
+read-only growUp: Trigger;
 ```
 
 
@@ -35,7 +48,7 @@ read-only growUp: Trigger
 ///
 
 ```js
-read-only transformToItem: string
+read-only transformToItem: string;
 ```
 
 

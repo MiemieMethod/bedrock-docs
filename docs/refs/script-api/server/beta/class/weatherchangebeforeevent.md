@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ cancel: boolean
 ///
 
 ```js
-duration: int32
+duration: int32;
 ```
 
 
@@ -35,7 +35,7 @@ duration: int32
 ///
 
 ```js
-newWeather: WeatherType
+newWeather: WeatherType;
 ```
 
 
@@ -46,8 +46,6 @@ newWeather: WeatherType
 ///
 
 ```js
-read-only previousWeather: WeatherType
+read-only previousWeather: WeatherType;
 ```
 
-
-## 方法

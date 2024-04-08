@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only dimension: Dimension
+read-only dimension: Dimension;
 ```
 
 
@@ -24,7 +24,7 @@ read-only dimension: Dimension
 ///
 
 ```js
-read-only isAir: boolean
+read-only isAir: boolean;
 ```
 
 
@@ -35,7 +35,7 @@ read-only isAir: boolean
 ///
 
 ```js
-read-only isLiquid: boolean
+read-only isLiquid: boolean;
 ```
 
 
@@ -46,7 +46,7 @@ read-only isLiquid: boolean
 ///
 
 ```js
-read-only isSolid: boolean
+read-only isSolid: boolean;
 ```
 
 
@@ -57,7 +57,7 @@ read-only isSolid: boolean
 ///
 
 ```js
-read-only isWaterlogged: boolean
+read-only isWaterlogged: boolean;
 ```
 
 
@@ -68,7 +68,7 @@ read-only isWaterlogged: boolean
 ///
 
 ```js
-read-only location: Vector3
+read-only location: Vector3;
 ```
 
 
@@ -79,7 +79,7 @@ read-only location: Vector3
 ///
 
 ```js
-read-only permutation: BlockPermutation
+read-only permutation: BlockPermutation;
 ```
 
 
@@ -90,7 +90,7 @@ read-only permutation: BlockPermutation
 ///
 
 ```js
-read-only type: BlockType
+read-only type: BlockType;
 ```
 
 
@@ -101,7 +101,7 @@ read-only type: BlockType
 ///
 
 ```js
-read-only typeId: string
+read-only typeId: string;
 ```
 
 
@@ -112,7 +112,7 @@ read-only typeId: string
 ///
 
 ```js
-read-only x: int32
+read-only x: int32;
 ```
 
 
@@ -123,7 +123,7 @@ read-only x: int32
 ///
 
 ```js
-read-only y: int32
+read-only y: int32;
 ```
 
 
@@ -134,7 +134,7 @@ read-only y: int32
 ///
 
 ```js
-read-only z: int32
+read-only z: int32;
 ```
 
 

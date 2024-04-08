@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only attackingEntity: Entity
+read-only attackingEntity: Entity;
 ```
 
 
@@ -24,7 +24,7 @@ read-only attackingEntity: Entity
 ///
 
 ```js
-durabilityDamage: int32
+durabilityDamage: int32;
 ```
 
 
@@ -35,7 +35,7 @@ durabilityDamage: int32
 ///
 
 ```js
-read-only hitEntity: Entity
+read-only hitEntity: Entity;
 ```
 
 
@@ -46,8 +46,6 @@ read-only hitEntity: Entity
 ///
 
 ```js
-itemStack: ItemStack | undefined
+itemStack: ItemStack | undefined;
 ```
 
-
-## 方法

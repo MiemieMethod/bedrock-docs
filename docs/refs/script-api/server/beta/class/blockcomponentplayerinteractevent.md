@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentPlayerInteractEvent`类。
+`BlockComponentPlayerInteractEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only face: Direction
+read-only face: Direction;
 ```
 
 
@@ -24,7 +24,7 @@ read-only face: Direction
 ///
 
 ```js
-read-only faceLocation: Vector3 | undefined
+read-only faceLocation: Vector3 | undefined;
 ```
 
 
@@ -35,8 +35,6 @@ read-only faceLocation: Vector3 | undefined
 ///
 
 ```js
-read-only player: Player | undefined
+read-only player: Player | undefined;
 ```
 
-
-## 方法

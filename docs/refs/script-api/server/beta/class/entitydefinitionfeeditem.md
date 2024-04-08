@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only growth: float
+read-only growth: float;
 ```
 
 
@@ -24,8 +24,6 @@ read-only growth: float
 ///
 
 ```js
-read-only item: string
+read-only item: string;
 ```
 
-
-## 方法

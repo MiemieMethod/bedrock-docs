@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only fromGameMode: GameMode
+read-only fromGameMode: GameMode;
 ```
 
 
@@ -24,7 +24,7 @@ read-only fromGameMode: GameMode
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
 
@@ -35,8 +35,6 @@ read-only player: Player
 ///
 
 ```js
-read-only toGameMode: GameMode
+read-only toGameMode: GameMode;
 ```
 
-
-## 方法

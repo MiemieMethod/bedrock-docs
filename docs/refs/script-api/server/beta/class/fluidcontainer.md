@@ -4,6 +4,26 @@
 
 `FluidContainer`类。
 
-## 属性
+## 常量
 
-## 方法
+/// define
+`maxFillLevel`
+
+
+///
+
+```js
+static read-only maxFillLevel = 6;
+```
+
+
+/// define
+`minFillLevel`
+
+
+///
+
+```js
+static read-only minFillLevel = 0;
+```
+

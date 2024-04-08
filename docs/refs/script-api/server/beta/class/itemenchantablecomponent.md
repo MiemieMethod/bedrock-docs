@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`ItemEnchantableComponent`类。
+`ItemEnchantableComponent`类，扩展自`ItemComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:enchantable;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only slots: EnchantmentSlot[]
+read-only slots: EnchantmentSlot[];
 ```
 
 

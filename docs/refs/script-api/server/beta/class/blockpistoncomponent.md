@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPistonComponent`类。
+`BlockPistonComponent`类，扩展自`BlockComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:piston;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only isMoving: boolean
+read-only isMoving: boolean;
 ```
 
 
@@ -24,7 +37,7 @@ read-only isMoving: boolean
 ///
 
 ```js
-read-only state: BlockPistonState
+read-only state: BlockPistonState;
 ```
 
 

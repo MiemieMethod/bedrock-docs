@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PistonActivateAfterEvent`类。
+`PistonActivateAfterEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only isExpanding: boolean
+read-only isExpanding: boolean;
 ```
 
 
@@ -24,8 +24,6 @@ read-only isExpanding: boolean
 ///
 
 ```js
-read-only piston: BlockPistonComponent
+read-only piston: BlockPistonComponent;
 ```
 
-
-## 方法

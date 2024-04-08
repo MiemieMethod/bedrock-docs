@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only capacity: uint64
+read-only capacity: uint64;
 ```
 
 
@@ -24,7 +24,7 @@ read-only capacity: uint64
 ///
 
 ```js
-read-only volumeCount: uint64
+read-only volumeCount: uint64;
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-itemStack: ItemStack
+itemStack: ItemStack;
 ```
 
 
@@ -24,8 +24,6 @@ itemStack: ItemStack
 ///
 
 ```js
-read-only source: Player
+read-only source: Player;
 ```
 
-
-## 方法

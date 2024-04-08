@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only dimension: Dimension
+read-only dimension: Dimension;
 ```
 
 
@@ -24,7 +24,7 @@ read-only dimension: Dimension
 ///
 
 ```js
-read-only source: Entity | undefined
+read-only source: Entity | undefined;
 ```
 
 

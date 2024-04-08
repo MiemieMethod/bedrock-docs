@@ -13,7 +13,7 @@
 ///
 
 ```js
-commandBlockOutput: boolean
+commandBlockOutput: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ commandBlockOutput: boolean
 ///
 
 ```js
-commandBlocksEnabled: boolean
+commandBlocksEnabled: boolean;
 ```
 
 
@@ -35,7 +35,7 @@ commandBlocksEnabled: boolean
 ///
 
 ```js
-doDayLightCycle: boolean
+doDayLightCycle: boolean;
 ```
 
 
@@ -46,7 +46,7 @@ doDayLightCycle: boolean
 ///
 
 ```js
-doEntityDrops: boolean
+doEntityDrops: boolean;
 ```
 
 
@@ -57,7 +57,7 @@ doEntityDrops: boolean
 ///
 
 ```js
-doFireTick: boolean
+doFireTick: boolean;
 ```
 
 
@@ -68,7 +68,7 @@ doFireTick: boolean
 ///
 
 ```js
-doImmediateRespawn: boolean
+doImmediateRespawn: boolean;
 ```
 
 
@@ -79,7 +79,7 @@ doImmediateRespawn: boolean
 ///
 
 ```js
-doInsomnia: boolean
+doInsomnia: boolean;
 ```
 
 
@@ -90,7 +90,7 @@ doInsomnia: boolean
 ///
 
 ```js
-doLimitedCrafting: boolean
+doLimitedCrafting: boolean;
 ```
 
 
@@ -101,7 +101,7 @@ doLimitedCrafting: boolean
 ///
 
 ```js
-doMobLoot: boolean
+doMobLoot: boolean;
 ```
 
 
@@ -112,7 +112,7 @@ doMobLoot: boolean
 ///
 
 ```js
-doMobSpawning: boolean
+doMobSpawning: boolean;
 ```
 
 
@@ -123,7 +123,7 @@ doMobSpawning: boolean
 ///
 
 ```js
-doTileDrops: boolean
+doTileDrops: boolean;
 ```
 
 
@@ -134,7 +134,7 @@ doTileDrops: boolean
 ///
 
 ```js
-doWeatherCycle: boolean
+doWeatherCycle: boolean;
 ```
 
 
@@ -145,7 +145,7 @@ doWeatherCycle: boolean
 ///
 
 ```js
-drowningDamage: boolean
+drowningDamage: boolean;
 ```
 
 
@@ -156,7 +156,7 @@ drowningDamage: boolean
 ///
 
 ```js
-fallDamage: boolean
+fallDamage: boolean;
 ```
 
 
@@ -167,7 +167,7 @@ fallDamage: boolean
 ///
 
 ```js
-fireDamage: boolean
+fireDamage: boolean;
 ```
 
 
@@ -178,7 +178,7 @@ fireDamage: boolean
 ///
 
 ```js
-freezeDamage: boolean
+freezeDamage: boolean;
 ```
 
 
@@ -189,7 +189,7 @@ freezeDamage: boolean
 ///
 
 ```js
-functionCommandLimit: int32
+functionCommandLimit: int32;
 ```
 
 
@@ -200,7 +200,7 @@ functionCommandLimit: int32
 ///
 
 ```js
-keepInventory: boolean
+keepInventory: boolean;
 ```
 
 
@@ -211,7 +211,7 @@ keepInventory: boolean
 ///
 
 ```js
-maxCommandChainLength: int32
+maxCommandChainLength: int32;
 ```
 
 
@@ -222,7 +222,7 @@ maxCommandChainLength: int32
 ///
 
 ```js
-mobGriefing: boolean
+mobGriefing: boolean;
 ```
 
 
@@ -233,7 +233,7 @@ mobGriefing: boolean
 ///
 
 ```js
-naturalRegeneration: boolean
+naturalRegeneration: boolean;
 ```
 
 
@@ -244,7 +244,7 @@ naturalRegeneration: boolean
 ///
 
 ```js
-playersSleepingPercentage: int32
+playersSleepingPercentage: int32;
 ```
 
 
@@ -255,7 +255,7 @@ playersSleepingPercentage: int32
 ///
 
 ```js
-projectilesCanBreakBlocks: boolean
+projectilesCanBreakBlocks: boolean;
 ```
 
 
@@ -266,7 +266,7 @@ projectilesCanBreakBlocks: boolean
 ///
 
 ```js
-pvp: boolean
+pvp: boolean;
 ```
 
 
@@ -277,7 +277,7 @@ pvp: boolean
 ///
 
 ```js
-randomTickSpeed: int32
+randomTickSpeed: int32;
 ```
 
 
@@ -288,7 +288,7 @@ randomTickSpeed: int32
 ///
 
 ```js
-recipesUnlock: boolean
+recipesUnlock: boolean;
 ```
 
 
@@ -299,7 +299,7 @@ recipesUnlock: boolean
 ///
 
 ```js
-respawnBlocksExplode: boolean
+respawnBlocksExplode: boolean;
 ```
 
 
@@ -310,7 +310,7 @@ respawnBlocksExplode: boolean
 ///
 
 ```js
-sendCommandFeedback: boolean
+sendCommandFeedback: boolean;
 ```
 
 
@@ -321,7 +321,7 @@ sendCommandFeedback: boolean
 ///
 
 ```js
-showBorderEffect: boolean
+showBorderEffect: boolean;
 ```
 
 
@@ -332,7 +332,7 @@ showBorderEffect: boolean
 ///
 
 ```js
-showCoordinates: boolean
+showCoordinates: boolean;
 ```
 
 
@@ -343,7 +343,7 @@ showCoordinates: boolean
 ///
 
 ```js
-showDeathMessages: boolean
+showDeathMessages: boolean;
 ```
 
 
@@ -354,7 +354,7 @@ showDeathMessages: boolean
 ///
 
 ```js
-showRecipeMessages: boolean
+showRecipeMessages: boolean;
 ```
 
 
@@ -365,7 +365,7 @@ showRecipeMessages: boolean
 ///
 
 ```js
-showTags: boolean
+showTags: boolean;
 ```
 
 
@@ -376,7 +376,7 @@ showTags: boolean
 ///
 
 ```js
-spawnRadius: int32
+spawnRadius: int32;
 ```
 
 
@@ -387,7 +387,7 @@ spawnRadius: int32
 ///
 
 ```js
-tntExplodes: boolean
+tntExplodes: boolean;
 ```
 
 
@@ -398,8 +398,6 @@ tntExplodes: boolean
 ///
 
 ```js
-tntExplosionDropDecay: boolean
+tntExplosionDropDecay: boolean;
 ```
 
-
-## 方法

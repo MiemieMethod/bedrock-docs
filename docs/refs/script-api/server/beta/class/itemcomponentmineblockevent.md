@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only block: Block
+read-only block: Block;
 ```
 
 
@@ -24,7 +24,7 @@ read-only block: Block
 ///
 
 ```js
-read-only itemStack: ItemStack | undefined
+read-only itemStack: ItemStack | undefined;
 ```
 
 
@@ -35,7 +35,7 @@ read-only itemStack: ItemStack | undefined
 ///
 
 ```js
-read-only minedBlockPermutation: BlockPermutation
+read-only minedBlockPermutation: BlockPermutation;
 ```
 
 
@@ -46,8 +46,6 @@ read-only minedBlockPermutation: BlockPermutation
 ///
 
 ```js
-read-only source: Entity
+read-only source: Entity;
 ```
 
-
-## 方法

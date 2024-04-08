@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only entity: Entity
+read-only entity: Entity;
 ```
 
 
@@ -24,7 +24,7 @@ read-only entity: Entity
 ///
 
 ```js
-read-only newValue: float
+read-only newValue: float;
 ```
 
 
@@ -35,8 +35,6 @@ read-only newValue: float
 ///
 
 ```js
-read-only oldValue: float
+read-only oldValue: float;
 ```
 
-
-## 方法

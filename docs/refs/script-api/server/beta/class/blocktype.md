@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only canBeWaterlogged: boolean
+read-only canBeWaterlogged: boolean;
 ```
 
 
@@ -24,8 +24,6 @@ read-only canBeWaterlogged: boolean
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
-
-## 方法

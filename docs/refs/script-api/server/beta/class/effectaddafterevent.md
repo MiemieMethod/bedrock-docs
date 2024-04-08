@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only effect: Effect
+read-only effect: Effect;
 ```
 
 
@@ -24,8 +24,6 @@ read-only effect: Effect
 ///
 
 ```js
-read-only entity: Entity
+read-only entity: Entity;
 ```
 
-
-## 方法

@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementSwayComponent`类。
+`EntityMovementSwayComponent`类，扩展自`EntityBaseMovementComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:movement.sway;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only swayAmplitude: float
+read-only swayAmplitude: float;
 ```
 
 
@@ -24,8 +37,6 @@ read-only swayAmplitude: float
 ///
 
 ```js
-read-only swayFrequency: float
+read-only swayFrequency: float;
 ```
 
-
-## 方法

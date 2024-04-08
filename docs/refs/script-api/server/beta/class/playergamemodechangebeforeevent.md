@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ cancel: boolean
 ///
 
 ```js
-read-only fromGameMode: GameMode
+read-only fromGameMode: GameMode;
 ```
 
 
@@ -35,7 +35,7 @@ read-only fromGameMode: GameMode
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
 
@@ -46,8 +46,6 @@ read-only player: Player
 ///
 
 ```js
-toGameMode: GameMode
+toGameMode: GameMode;
 ```
 
-
-## 方法

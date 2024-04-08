@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityComponent`类。
+`EntityComponent`类，扩展自`Component`。
 
 ## 属性
 
@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only entity: Entity
+read-only entity: Entity;
 ```
 
-
-## 方法

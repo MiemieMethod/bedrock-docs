@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only successCount: int32
+read-only successCount: int32;
 ```
 
-
-## 方法

@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only dimension: Dimension
+read-only dimension: Dimension;
 ```
 
 
@@ -24,7 +24,7 @@ read-only dimension: Dimension
 ///
 
 ```js
-read-only hitVector: Vector3
+read-only hitVector: Vector3;
 ```
 
 
@@ -35,7 +35,7 @@ read-only hitVector: Vector3
 ///
 
 ```js
-read-only location: Vector3
+read-only location: Vector3;
 ```
 
 
@@ -46,7 +46,7 @@ read-only location: Vector3
 ///
 
 ```js
-read-only projectile: Entity
+read-only projectile: Entity;
 ```
 
 
@@ -57,7 +57,7 @@ read-only projectile: Entity
 ///
 
 ```js
-read-only source: Entity | undefined
+read-only source: Entity | undefined;
 ```
 
 

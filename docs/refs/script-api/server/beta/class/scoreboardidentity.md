@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only displayName: string
+read-only displayName: string;
 ```
 
 
@@ -24,7 +24,7 @@ read-only displayName: string
 ///
 
 ```js
-read-only id: int64
+read-only id: int64;
 ```
 
 
@@ -35,7 +35,7 @@ read-only id: int64
 ///
 
 ```js
-read-only type: ScoreboardIdentityType
+read-only type: ScoreboardIdentityType;
 ```
 
 

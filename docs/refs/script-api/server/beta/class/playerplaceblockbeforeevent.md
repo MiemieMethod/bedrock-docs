@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerPlaceBlockBeforeEvent`类。
+`PlayerPlaceBlockBeforeEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ cancel: boolean
 ///
 
 ```js
-read-only face: Direction
+read-only face: Direction;
 ```
 
 
@@ -35,7 +35,7 @@ read-only face: Direction
 ///
 
 ```js
-read-only faceLocation: Vector3
+read-only faceLocation: Vector3;
 ```
 
 
@@ -46,7 +46,7 @@ read-only faceLocation: Vector3
 ///
 
 ```js
-read-only permutationBeingPlaced: BlockPermutation
+read-only permutationBeingPlaced: BlockPermutation;
 ```
 
 
@@ -57,8 +57,6 @@ read-only permutationBeingPlaced: BlockPermutation
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
-
-## 方法

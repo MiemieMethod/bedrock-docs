@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only typeId: string
+read-only typeId: string;
 ```
 
 

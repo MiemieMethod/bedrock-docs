@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only dimension: string
+read-only dimension: string;
 ```
 
 
@@ -24,7 +24,7 @@ read-only dimension: string
 ///
 
 ```js
-read-only newWeather: WeatherType
+read-only newWeather: WeatherType;
 ```
 
 
@@ -35,8 +35,6 @@ read-only newWeather: WeatherType
 ///
 
 ```js
-read-only previousWeather: WeatherType
+read-only previousWeather: WeatherType;
 ```
 
-
-## 方法

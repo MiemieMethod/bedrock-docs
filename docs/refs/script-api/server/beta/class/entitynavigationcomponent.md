@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityNavigationComponent`类。
+`EntityNavigationComponent`类，扩展自`EntityComponent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only avoidDamageBlocks: boolean
+read-only avoidDamageBlocks: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ read-only avoidDamageBlocks: boolean
 ///
 
 ```js
-read-only avoidPortals: boolean
+read-only avoidPortals: boolean;
 ```
 
 
@@ -35,7 +35,7 @@ read-only avoidPortals: boolean
 ///
 
 ```js
-read-only avoidSun: boolean
+read-only avoidSun: boolean;
 ```
 
 
@@ -46,7 +46,7 @@ read-only avoidSun: boolean
 ///
 
 ```js
-read-only avoidWater: boolean
+read-only avoidWater: boolean;
 ```
 
 
@@ -57,7 +57,7 @@ read-only avoidWater: boolean
 ///
 
 ```js
-read-only canBreach: boolean
+read-only canBreach: boolean;
 ```
 
 
@@ -68,7 +68,7 @@ read-only canBreach: boolean
 ///
 
 ```js
-read-only canBreakDoors: boolean
+read-only canBreakDoors: boolean;
 ```
 
 
@@ -79,7 +79,7 @@ read-only canBreakDoors: boolean
 ///
 
 ```js
-read-only canFloat: boolean
+read-only canFloat: boolean;
 ```
 
 
@@ -90,7 +90,7 @@ read-only canFloat: boolean
 ///
 
 ```js
-read-only canJump: boolean
+read-only canJump: boolean;
 ```
 
 
@@ -101,7 +101,7 @@ read-only canJump: boolean
 ///
 
 ```js
-read-only canOpenDoors: boolean
+read-only canOpenDoors: boolean;
 ```
 
 
@@ -112,7 +112,7 @@ read-only canOpenDoors: boolean
 ///
 
 ```js
-read-only canOpenIronDoors: boolean
+read-only canOpenIronDoors: boolean;
 ```
 
 
@@ -123,7 +123,7 @@ read-only canOpenIronDoors: boolean
 ///
 
 ```js
-read-only canPassDoors: boolean
+read-only canPassDoors: boolean;
 ```
 
 
@@ -134,7 +134,7 @@ read-only canPassDoors: boolean
 ///
 
 ```js
-read-only canPathFromAir: boolean
+read-only canPathFromAir: boolean;
 ```
 
 
@@ -145,7 +145,7 @@ read-only canPathFromAir: boolean
 ///
 
 ```js
-read-only canPathOverLava: boolean
+read-only canPathOverLava: boolean;
 ```
 
 
@@ -156,7 +156,7 @@ read-only canPathOverLava: boolean
 ///
 
 ```js
-read-only canPathOverWater: boolean
+read-only canPathOverWater: boolean;
 ```
 
 
@@ -167,7 +167,7 @@ read-only canPathOverWater: boolean
 ///
 
 ```js
-read-only canSink: boolean
+read-only canSink: boolean;
 ```
 
 
@@ -178,7 +178,7 @@ read-only canSink: boolean
 ///
 
 ```js
-read-only canSwim: boolean
+read-only canSwim: boolean;
 ```
 
 
@@ -189,7 +189,7 @@ read-only canSwim: boolean
 ///
 
 ```js
-read-only canWalk: boolean
+read-only canWalk: boolean;
 ```
 
 
@@ -200,7 +200,7 @@ read-only canWalk: boolean
 ///
 
 ```js
-read-only canWalkInLava: boolean
+read-only canWalkInLava: boolean;
 ```
 
 
@@ -211,8 +211,6 @@ read-only canWalkInLava: boolean
 ///
 
 ```js
-read-only isAmphibious: boolean
+read-only isAmphibious: boolean;
 ```
 
-
-## 方法

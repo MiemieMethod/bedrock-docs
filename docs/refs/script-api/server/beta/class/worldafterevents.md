@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only blockExplode: BlockExplodeAfterEventSignal
+read-only blockExplode: BlockExplodeAfterEventSignal;
 ```
 
 
@@ -24,7 +24,7 @@ read-only blockExplode: BlockExplodeAfterEventSignal
 ///
 
 ```js
-read-only buttonPush: ButtonPushAfterEventSignal
+read-only buttonPush: ButtonPushAfterEventSignal;
 ```
 
 
@@ -35,7 +35,7 @@ read-only buttonPush: ButtonPushAfterEventSignal
 ///
 
 ```js
-read-only chatSend: ChatSendAfterEventSignal
+read-only chatSend: ChatSendAfterEventSignal;
 ```
 
 
@@ -46,7 +46,7 @@ read-only chatSend: ChatSendAfterEventSignal
 ///
 
 ```js
-read-only dataDrivenEntityTrigger: DataDrivenEntityTriggerAfterEventSignal
+read-only dataDrivenEntityTrigger: DataDrivenEntityTriggerAfterEventSignal;
 ```
 
 
@@ -57,7 +57,7 @@ read-only dataDrivenEntityTrigger: DataDrivenEntityTriggerAfterEventSignal
 ///
 
 ```js
-read-only effectAdd: EffectAddAfterEventSignal
+read-only effectAdd: EffectAddAfterEventSignal;
 ```
 
 
@@ -68,7 +68,7 @@ read-only effectAdd: EffectAddAfterEventSignal
 ///
 
 ```js
-read-only entityDie: EntityDieAfterEventSignal
+read-only entityDie: EntityDieAfterEventSignal;
 ```
 
 
@@ -79,7 +79,7 @@ read-only entityDie: EntityDieAfterEventSignal
 ///
 
 ```js
-read-only entityHealthChanged: EntityHealthChangedAfterEventSignal
+read-only entityHealthChanged: EntityHealthChangedAfterEventSignal;
 ```
 
 
@@ -90,7 +90,7 @@ read-only entityHealthChanged: EntityHealthChangedAfterEventSignal
 ///
 
 ```js
-read-only entityHitBlock: EntityHitBlockAfterEventSignal
+read-only entityHitBlock: EntityHitBlockAfterEventSignal;
 ```
 
 
@@ -101,7 +101,7 @@ read-only entityHitBlock: EntityHitBlockAfterEventSignal
 ///
 
 ```js
-read-only entityHitEntity: EntityHitEntityAfterEventSignal
+read-only entityHitEntity: EntityHitEntityAfterEventSignal;
 ```
 
 
@@ -112,7 +112,7 @@ read-only entityHitEntity: EntityHitEntityAfterEventSignal
 ///
 
 ```js
-read-only entityHurt: EntityHurtAfterEventSignal
+read-only entityHurt: EntityHurtAfterEventSignal;
 ```
 
 
@@ -123,7 +123,7 @@ read-only entityHurt: EntityHurtAfterEventSignal
 ///
 
 ```js
-read-only entityLoad: EntityLoadAfterEventSignal
+read-only entityLoad: EntityLoadAfterEventSignal;
 ```
 
 
@@ -134,7 +134,7 @@ read-only entityLoad: EntityLoadAfterEventSignal
 ///
 
 ```js
-read-only entityRemove: EntityRemoveAfterEventSignal
+read-only entityRemove: EntityRemoveAfterEventSignal;
 ```
 
 
@@ -145,7 +145,7 @@ read-only entityRemove: EntityRemoveAfterEventSignal
 ///
 
 ```js
-read-only entitySpawn: EntitySpawnAfterEventSignal
+read-only entitySpawn: EntitySpawnAfterEventSignal;
 ```
 
 
@@ -156,7 +156,7 @@ read-only entitySpawn: EntitySpawnAfterEventSignal
 ///
 
 ```js
-read-only explosion: ExplosionAfterEventSignal
+read-only explosion: ExplosionAfterEventSignal;
 ```
 
 
@@ -167,7 +167,7 @@ read-only explosion: ExplosionAfterEventSignal
 ///
 
 ```js
-read-only gameRuleChange: GameRuleChangeAfterEventSignal
+read-only gameRuleChange: GameRuleChangeAfterEventSignal;
 ```
 
 
@@ -178,7 +178,7 @@ read-only gameRuleChange: GameRuleChangeAfterEventSignal
 ///
 
 ```js
-read-only itemCompleteUse: ItemCompleteUseAfterEventSignal
+read-only itemCompleteUse: ItemCompleteUseAfterEventSignal;
 ```
 
 
@@ -189,7 +189,7 @@ read-only itemCompleteUse: ItemCompleteUseAfterEventSignal
 ///
 
 ```js
-read-only itemReleaseUse: ItemReleaseUseAfterEventSignal
+read-only itemReleaseUse: ItemReleaseUseAfterEventSignal;
 ```
 
 
@@ -200,7 +200,7 @@ read-only itemReleaseUse: ItemReleaseUseAfterEventSignal
 ///
 
 ```js
-read-only itemStartUse: ItemStartUseAfterEventSignal
+read-only itemStartUse: ItemStartUseAfterEventSignal;
 ```
 
 
@@ -211,7 +211,7 @@ read-only itemStartUse: ItemStartUseAfterEventSignal
 ///
 
 ```js
-read-only itemStartUseOn: ItemStartUseOnAfterEventSignal
+read-only itemStartUseOn: ItemStartUseOnAfterEventSignal;
 ```
 
 
@@ -222,7 +222,7 @@ read-only itemStartUseOn: ItemStartUseOnAfterEventSignal
 ///
 
 ```js
-read-only itemStopUse: ItemStopUseAfterEventSignal
+read-only itemStopUse: ItemStopUseAfterEventSignal;
 ```
 
 
@@ -233,7 +233,7 @@ read-only itemStopUse: ItemStopUseAfterEventSignal
 ///
 
 ```js
-read-only itemStopUseOn: ItemStopUseOnAfterEventSignal
+read-only itemStopUseOn: ItemStopUseOnAfterEventSignal;
 ```
 
 
@@ -244,7 +244,7 @@ read-only itemStopUseOn: ItemStopUseOnAfterEventSignal
 ///
 
 ```js
-read-only itemUse: ItemUseAfterEventSignal
+read-only itemUse: ItemUseAfterEventSignal;
 ```
 
 
@@ -255,7 +255,7 @@ read-only itemUse: ItemUseAfterEventSignal
 ///
 
 ```js
-read-only itemUseOn: ItemUseOnAfterEventSignal
+read-only itemUseOn: ItemUseOnAfterEventSignal;
 ```
 
 
@@ -266,7 +266,7 @@ read-only itemUseOn: ItemUseOnAfterEventSignal
 ///
 
 ```js
-read-only leverAction: LeverActionAfterEventSignal
+read-only leverAction: LeverActionAfterEventSignal;
 ```
 
 
@@ -277,7 +277,7 @@ read-only leverAction: LeverActionAfterEventSignal
 ///
 
 ```js
-read-only messageReceive: ServerMessageAfterEventSignal
+read-only messageReceive: ServerMessageAfterEventSignal;
 ```
 
 
@@ -288,7 +288,7 @@ read-only messageReceive: ServerMessageAfterEventSignal
 ///
 
 ```js
-read-only pistonActivate: PistonActivateAfterEventSignal
+read-only pistonActivate: PistonActivateAfterEventSignal;
 ```
 
 
@@ -299,7 +299,7 @@ read-only pistonActivate: PistonActivateAfterEventSignal
 ///
 
 ```js
-read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal
+read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal;
 ```
 
 
@@ -310,7 +310,7 @@ read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal
 ///
 
 ```js
-read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal
+read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal;
 ```
 
 
@@ -321,7 +321,7 @@ read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal
 ///
 
 ```js
-read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal
+read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal;
 ```
 
 
@@ -332,7 +332,7 @@ read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal
 ///
 
 ```js
-read-only playerInputPermissionCategoryChange: PlayerInputPermissionCategoryChangeAfterEventSignal
+read-only playerInputPermissionCategoryChange: PlayerInputPermissionCategoryChangeAfterEventSignal;
 ```
 
 
@@ -343,7 +343,7 @@ read-only playerInputPermissionCategoryChange: PlayerInputPermissionCategoryChan
 ///
 
 ```js
-read-only playerInteractWithBlock: PlayerInteractWithBlockAfterEventSignal
+read-only playerInteractWithBlock: PlayerInteractWithBlockAfterEventSignal;
 ```
 
 
@@ -354,7 +354,7 @@ read-only playerInteractWithBlock: PlayerInteractWithBlockAfterEventSignal
 ///
 
 ```js
-read-only playerInteractWithEntity: PlayerInteractWithEntityAfterEventSignal
+read-only playerInteractWithEntity: PlayerInteractWithEntityAfterEventSignal;
 ```
 
 
@@ -365,7 +365,7 @@ read-only playerInteractWithEntity: PlayerInteractWithEntityAfterEventSignal
 ///
 
 ```js
-read-only playerJoin: PlayerJoinAfterEventSignal
+read-only playerJoin: PlayerJoinAfterEventSignal;
 ```
 
 
@@ -376,7 +376,7 @@ read-only playerJoin: PlayerJoinAfterEventSignal
 ///
 
 ```js
-read-only playerLeave: PlayerLeaveAfterEventSignal
+read-only playerLeave: PlayerLeaveAfterEventSignal;
 ```
 
 
@@ -387,7 +387,7 @@ read-only playerLeave: PlayerLeaveAfterEventSignal
 ///
 
 ```js
-read-only playerPlaceBlock: PlayerPlaceBlockAfterEventSignal
+read-only playerPlaceBlock: PlayerPlaceBlockAfterEventSignal;
 ```
 
 
@@ -398,7 +398,7 @@ read-only playerPlaceBlock: PlayerPlaceBlockAfterEventSignal
 ///
 
 ```js
-read-only playerSpawn: PlayerSpawnAfterEventSignal
+read-only playerSpawn: PlayerSpawnAfterEventSignal;
 ```
 
 
@@ -409,7 +409,7 @@ read-only playerSpawn: PlayerSpawnAfterEventSignal
 ///
 
 ```js
-read-only pressurePlatePop: PressurePlatePopAfterEventSignal
+read-only pressurePlatePop: PressurePlatePopAfterEventSignal;
 ```
 
 
@@ -420,7 +420,7 @@ read-only pressurePlatePop: PressurePlatePopAfterEventSignal
 ///
 
 ```js
-read-only pressurePlatePush: PressurePlatePushAfterEventSignal
+read-only pressurePlatePush: PressurePlatePushAfterEventSignal;
 ```
 
 
@@ -431,7 +431,7 @@ read-only pressurePlatePush: PressurePlatePushAfterEventSignal
 ///
 
 ```js
-read-only projectileHitBlock: ProjectileHitBlockAfterEventSignal
+read-only projectileHitBlock: ProjectileHitBlockAfterEventSignal;
 ```
 
 
@@ -442,7 +442,7 @@ read-only projectileHitBlock: ProjectileHitBlockAfterEventSignal
 ///
 
 ```js
-read-only projectileHitEntity: ProjectileHitEntityAfterEventSignal
+read-only projectileHitEntity: ProjectileHitEntityAfterEventSignal;
 ```
 
 
@@ -453,7 +453,7 @@ read-only projectileHitEntity: ProjectileHitEntityAfterEventSignal
 ///
 
 ```js
-read-only targetBlockHit: TargetBlockHitAfterEventSignal
+read-only targetBlockHit: TargetBlockHitAfterEventSignal;
 ```
 
 
@@ -464,7 +464,7 @@ read-only targetBlockHit: TargetBlockHitAfterEventSignal
 ///
 
 ```js
-read-only tripWireTrip: TripWireTripAfterEventSignal
+read-only tripWireTrip: TripWireTripAfterEventSignal;
 ```
 
 
@@ -475,7 +475,7 @@ read-only tripWireTrip: TripWireTripAfterEventSignal
 ///
 
 ```js
-read-only weatherChange: WeatherChangeAfterEventSignal
+read-only weatherChange: WeatherChangeAfterEventSignal;
 ```
 
 
@@ -486,8 +486,6 @@ read-only weatherChange: WeatherChangeAfterEventSignal
 ///
 
 ```js
-read-only worldInitialize: WorldInitializeAfterEventSignal
+read-only worldInitialize: WorldInitializeAfterEventSignal;
 ```
 
-
-## 方法

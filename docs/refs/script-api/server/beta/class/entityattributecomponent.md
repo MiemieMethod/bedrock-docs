@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAttributeComponent`类。
+`EntityAttributeComponent`类，扩展自`EntityComponent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only currentValue: float
+read-only currentValue: float;
 ```
 
 
@@ -24,7 +24,7 @@ read-only currentValue: float
 ///
 
 ```js
-read-only defaultValue: float
+read-only defaultValue: float;
 ```
 
 
@@ -35,7 +35,7 @@ read-only defaultValue: float
 ///
 
 ```js
-read-only effectiveMax: float
+read-only effectiveMax: float;
 ```
 
 
@@ -46,7 +46,7 @@ read-only effectiveMax: float
 ///
 
 ```js
-read-only effectiveMin: float
+read-only effectiveMin: float;
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only rule: GameRule
+read-only rule: GameRule;
 ```
 
 
@@ -24,8 +24,6 @@ read-only rule: GameRule
 ///
 
 ```js
-read-only value: boolean | float
+read-only value: boolean | float;
 ```
 
-
-## 方法

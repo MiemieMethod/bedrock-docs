@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
-
-## 方法

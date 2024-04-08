@@ -13,7 +13,7 @@
 ///
 
 ```js
-amount: int32
+amount: int32;
 ```
 
 
@@ -24,7 +24,7 @@ amount: int32
 ///
 
 ```js
-read-only isStackable: boolean
+read-only isStackable: boolean;
 ```
 
 
@@ -35,7 +35,7 @@ read-only isStackable: boolean
 ///
 
 ```js
-keepOnDeath: boolean
+keepOnDeath: boolean;
 ```
 
 
@@ -46,7 +46,7 @@ keepOnDeath: boolean
 ///
 
 ```js
-lockMode: ItemLockMode
+lockMode: ItemLockMode;
 ```
 
 
@@ -57,7 +57,7 @@ lockMode: ItemLockMode
 ///
 
 ```js
-read-only maxAmount: int32
+read-only maxAmount: int32;
 ```
 
 
@@ -68,7 +68,7 @@ read-only maxAmount: int32
 ///
 
 ```js
-nameTag: string | undefined
+nameTag: string | undefined;
 ```
 
 
@@ -79,7 +79,7 @@ nameTag: string | undefined
 ///
 
 ```js
-read-only type: ItemType
+read-only type: ItemType;
 ```
 
 
@@ -90,7 +90,7 @@ read-only type: ItemType
 ///
 
 ```js
-read-only typeId: string
+read-only typeId: string;
 ```
 
 

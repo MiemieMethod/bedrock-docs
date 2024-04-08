@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only afterEvents: WorldAfterEvents
+read-only afterEvents: WorldAfterEvents;
 ```
 
 
@@ -24,7 +24,7 @@ read-only afterEvents: WorldAfterEvents
 ///
 
 ```js
-read-only beforeEvents: WorldBeforeEvents
+read-only beforeEvents: WorldBeforeEvents;
 ```
 
 
@@ -35,7 +35,7 @@ read-only beforeEvents: WorldBeforeEvents
 ///
 
 ```js
-read-only gameRules: GameRules
+read-only gameRules: GameRules;
 ```
 
 
@@ -46,7 +46,7 @@ read-only gameRules: GameRules
 ///
 
 ```js
-read-only scoreboard: Scoreboard
+read-only scoreboard: Scoreboard;
 ```
 
 
@@ -57,7 +57,7 @@ read-only scoreboard: Scoreboard
 ///
 
 ```js
-read-only structureManager: StructureManager
+read-only structureManager: StructureManager;
 ```
 
 

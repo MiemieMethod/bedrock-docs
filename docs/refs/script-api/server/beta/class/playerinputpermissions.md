@@ -13,7 +13,7 @@
 ///
 
 ```js
-cameraEnabled: boolean
+cameraEnabled: boolean;
 ```
 
 
@@ -24,8 +24,6 @@ cameraEnabled: boolean
 ///
 
 ```js
-movementEnabled: boolean
+movementEnabled: boolean;
 ```
 
-
-## 方法

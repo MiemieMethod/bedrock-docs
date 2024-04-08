@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentStepOnEvent`类。
+`BlockComponentStepOnEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only entity: Entity | undefined
+read-only entity: Entity | undefined;
 ```
 
-
-## 方法

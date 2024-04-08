@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityInventoryComponent`类。
+`EntityInventoryComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:inventory;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only additionalSlotsPerStrength: int32
+read-only additionalSlotsPerStrength: int32;
 ```
 
 
@@ -24,7 +37,7 @@ read-only additionalSlotsPerStrength: int32
 ///
 
 ```js
-read-only canBeSiphonedFrom: boolean
+read-only canBeSiphonedFrom: boolean;
 ```
 
 
@@ -35,7 +48,7 @@ read-only canBeSiphonedFrom: boolean
 ///
 
 ```js
-read-only container: Container | undefined
+read-only container: Container | undefined;
 ```
 
 
@@ -46,7 +59,7 @@ read-only container: Container | undefined
 ///
 
 ```js
-read-only containerType: string
+read-only containerType: string;
 ```
 
 
@@ -57,7 +70,7 @@ read-only containerType: string
 ///
 
 ```js
-read-only inventorySize: int32
+read-only inventorySize: int32;
 ```
 
 
@@ -68,7 +81,7 @@ read-only inventorySize: int32
 ///
 
 ```js
-read-only private: boolean
+read-only private: boolean;
 ```
 
 
@@ -79,8 +92,6 @@ read-only private: boolean
 ///
 
 ```js
-read-only restrictToOwner: boolean
+read-only restrictToOwner: boolean;
 ```
 
-
-## 方法

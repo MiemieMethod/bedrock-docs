@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only participant: ScoreboardIdentity
+read-only participant: ScoreboardIdentity;
 ```
 
 
@@ -24,8 +24,6 @@ read-only participant: ScoreboardIdentity
 ///
 
 ```js
-read-only score: int32
+read-only score: int32;
 ```
 
-
-## 方法

@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only removedEntityId: string
+read-only removedEntityId: string;
 ```
 
 
@@ -24,8 +24,6 @@ read-only removedEntityId: string
 ///
 
 ```js
-read-only typeId: string
+read-only typeId: string;
 ```
 
-
-## 方法

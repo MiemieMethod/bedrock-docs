@@ -13,7 +13,7 @@
 ///
 
 ```js
-eventName: string
+eventName: string;
 ```
 
 

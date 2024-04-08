@@ -2,9 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPotionContainerComponent`类。
+`BlockPotionContainerComponent`类，扩展自`BlockLiquidContainerComponent`。
 
-## 属性
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:potionContainer;
+```
+
 
 ## 方法
 

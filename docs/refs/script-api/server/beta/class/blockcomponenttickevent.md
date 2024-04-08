@@ -2,8 +2,4 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentTickEvent`类。
-
-## 属性
-
-## 方法
+`BlockComponentTickEvent`类，扩展自`BlockEvent`。

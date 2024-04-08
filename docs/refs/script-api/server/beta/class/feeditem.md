@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only healAmount: int32
+read-only healAmount: int32;
 ```
 
 
@@ -24,7 +24,7 @@ read-only healAmount: int32
 ///
 
 ```js
-read-only item: string
+read-only item: string;
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
 
@@ -24,8 +24,6 @@ read-only id: string
 ///
 
 ```js
-read-only validValues: boolean | int32 | string[]
+read-only validValues: boolean | int32 | string[];
 ```
 
-
-## 方法

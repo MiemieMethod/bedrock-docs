@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ cancel: boolean
 ///
 
 ```js
-duration: int32
+duration: int32;
 ```
 
 
@@ -35,7 +35,7 @@ duration: int32
 ///
 
 ```js
-read-only effectType: string
+read-only effectType: string;
 ```
 
 
@@ -46,8 +46,6 @@ read-only effectType: string
 ///
 
 ```js
-read-only entity: Entity
+read-only entity: Entity;
 ```
 
-
-## 方法

@@ -13,7 +13,7 @@
 ///
 
 ```js
-initialSpawn: boolean
+initialSpawn: boolean;
 ```
 
 
@@ -24,8 +24,6 @@ initialSpawn: boolean
 ///
 
 ```js
-player: Player
+player: Player;
 ```
 
-
-## 方法

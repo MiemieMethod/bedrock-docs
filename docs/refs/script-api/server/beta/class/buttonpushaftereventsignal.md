@@ -2,8 +2,4 @@
 
 > 文档版本：1.21.0.20
 
-`ButtonPushAfterEventSignal`类。
-
-## 属性
-
-## 方法
+`ButtonPushAfterEventSignal`类，扩展自`IButtonPushAfterEventSignal`。

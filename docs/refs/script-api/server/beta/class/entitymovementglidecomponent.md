@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementGlideComponent`类。
+`EntityMovementGlideComponent`类，扩展自`EntityBaseMovementComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:movement.glide;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only speedWhenTurning: float
+read-only speedWhenTurning: float;
 ```
 
 
@@ -24,8 +37,6 @@ read-only speedWhenTurning: float
 ///
 
 ```js
-read-only startSpeed: float
+read-only startSpeed: float;
 ```
 
-
-## 方法

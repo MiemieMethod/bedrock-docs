@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only removedEntity: Entity
+read-only removedEntity: Entity;
 ```
 
-
-## 方法

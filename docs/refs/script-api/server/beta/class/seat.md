@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only lockRiderRotation: float
+read-only lockRiderRotation: float;
 ```
 
 
@@ -24,7 +24,7 @@ read-only lockRiderRotation: float
 ///
 
 ```js
-read-only maxRiderCount: int32
+read-only maxRiderCount: int32;
 ```
 
 
@@ -35,7 +35,7 @@ read-only maxRiderCount: int32
 ///
 
 ```js
-read-only minRiderCount: int32
+read-only minRiderCount: int32;
 ```
 
 
@@ -46,7 +46,7 @@ read-only minRiderCount: int32
 ///
 
 ```js
-read-only position: Vector3
+read-only position: Vector3;
 ```
 
 
@@ -57,8 +57,6 @@ read-only position: Vector3
 ///
 
 ```js
-read-only seatRotation: float
+read-only seatRotation: float;
 ```
 
-
-## 方法

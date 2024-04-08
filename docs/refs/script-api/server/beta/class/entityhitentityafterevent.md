@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only damagingEntity: Entity
+read-only damagingEntity: Entity;
 ```
 
 
@@ -24,8 +24,6 @@ read-only damagingEntity: Entity
 ///
 
 ```js
-read-only hitEntity: Entity
+read-only hitEntity: Entity;
 ```
 
-
-## 方法

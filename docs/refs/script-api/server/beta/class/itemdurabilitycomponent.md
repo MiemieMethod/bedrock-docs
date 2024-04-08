@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`ItemDurabilityComponent`类。
+`ItemDurabilityComponent`类，扩展自`ItemComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:durability;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-damage: int32
+damage: int32;
 ```
 
 
@@ -24,7 +37,7 @@ damage: int32
 ///
 
 ```js
-read-only maxDurability: int32
+read-only maxDurability: int32;
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only category: InputPermissionCategory
+read-only category: InputPermissionCategory;
 ```
 
 
@@ -24,7 +24,7 @@ read-only category: InputPermissionCategory
 ///
 
 ```js
-read-only enabled: boolean
+read-only enabled: boolean;
 ```
 
 
@@ -35,8 +35,6 @@ read-only enabled: boolean
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
-
-## 方法

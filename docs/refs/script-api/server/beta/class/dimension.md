@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only heightRange: NumberRange
+read-only heightRange: NumberRange;
 ```
 
 
@@ -24,7 +24,7 @@ read-only heightRange: NumberRange
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only fromDimension: Dimension
+read-only fromDimension: Dimension;
 ```
 
 
@@ -24,7 +24,7 @@ read-only fromDimension: Dimension
 ///
 
 ```js
-read-only fromLocation: Vector3
+read-only fromLocation: Vector3;
 ```
 
 
@@ -35,7 +35,7 @@ read-only fromLocation: Vector3
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
 
@@ -46,7 +46,7 @@ read-only player: Player
 ///
 
 ```js
-read-only toDimension: Dimension
+read-only toDimension: Dimension;
 ```
 
 
@@ -57,8 +57,6 @@ read-only toDimension: Dimension
 ///
 
 ```js
-read-only toLocation: Vector3
+read-only toLocation: Vector3;
 ```
 
-
-## 方法

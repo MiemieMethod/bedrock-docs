@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only watchdogTerminate: WatchdogTerminateBeforeEventSignal
+read-only watchdogTerminate: WatchdogTerminateBeforeEventSignal;
 ```
 
-
-## 方法

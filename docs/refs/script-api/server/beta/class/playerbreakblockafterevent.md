@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerBreakBlockAfterEvent`类。
+`PlayerBreakBlockAfterEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only brokenBlockPermutation: BlockPermutation
+read-only brokenBlockPermutation: BlockPermutation;
 ```
 
 
@@ -24,7 +24,7 @@ read-only brokenBlockPermutation: BlockPermutation
 ///
 
 ```js
-read-only itemStackAfterBreak: ItemStack | undefined
+read-only itemStackAfterBreak: ItemStack | undefined;
 ```
 
 
@@ -35,7 +35,7 @@ read-only itemStackAfterBreak: ItemStack | undefined
 ///
 
 ```js
-read-only itemStackBeforeBreak: ItemStack | undefined
+read-only itemStackBeforeBreak: ItemStack | undefined;
 ```
 
 
@@ -46,8 +46,6 @@ read-only itemStackBeforeBreak: ItemStack | undefined
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
-
-## 方法

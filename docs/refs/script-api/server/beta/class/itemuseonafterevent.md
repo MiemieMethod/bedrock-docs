@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only block: Block
+read-only block: Block;
 ```
 
 
@@ -24,7 +24,7 @@ read-only block: Block
 ///
 
 ```js
-read-only blockFace: Direction
+read-only blockFace: Direction;
 ```
 
 
@@ -35,7 +35,7 @@ read-only blockFace: Direction
 ///
 
 ```js
-read-only faceLocation: Vector3
+read-only faceLocation: Vector3;
 ```
 
 
@@ -46,7 +46,7 @@ read-only faceLocation: Vector3
 ///
 
 ```js
-read-only itemStack: ItemStack
+read-only itemStack: ItemStack;
 ```
 
 
@@ -57,8 +57,6 @@ read-only itemStack: ItemStack
 ///
 
 ```js
-read-only source: Player
+read-only source: Player;
 ```
 
-
-## 方法

@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only block: Block
+read-only block: Block;
 ```
 
 
@@ -24,7 +24,7 @@ read-only block: Block
 ///
 
 ```js
-read-only itemStack: ItemStack | undefined
+read-only itemStack: ItemStack | undefined;
 ```
 
 
@@ -35,8 +35,6 @@ read-only itemStack: ItemStack | undefined
 ///
 
 ```js
-read-only source: Player
+read-only source: Player;
 ```
 
-
-## 方法

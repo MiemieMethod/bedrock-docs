@@ -2,9 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`BlockRecordPlayerComponent`类。
+`BlockRecordPlayerComponent`类，扩展自`BlockComponent`。
 
-## 属性
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:recordPlayer;
+```
+
 
 ## 方法
 

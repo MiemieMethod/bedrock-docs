@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only attackingEntity: Entity
+read-only attackingEntity: Entity;
 ```
 
 
@@ -24,7 +24,7 @@ read-only attackingEntity: Entity
 ///
 
 ```js
-read-only hadEffect: boolean
+read-only hadEffect: boolean;
 ```
 
 
@@ -35,7 +35,7 @@ read-only hadEffect: boolean
 ///
 
 ```js
-read-only hitEntity: Entity
+read-only hitEntity: Entity;
 ```
 
 
@@ -46,8 +46,6 @@ read-only hitEntity: Entity
 ///
 
 ```js
-read-only itemStack: ItemStack | undefined
+read-only itemStack: ItemStack | undefined;
 ```
 
-
-## 方法

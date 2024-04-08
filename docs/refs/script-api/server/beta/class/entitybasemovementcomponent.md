@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityBaseMovementComponent`类。
+`EntityBaseMovementComponent`类，扩展自`EntityComponent`。
 
 ## 属性
 
@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only maxTurn: float
+read-only maxTurn: float;
 ```
 
-
-## 方法

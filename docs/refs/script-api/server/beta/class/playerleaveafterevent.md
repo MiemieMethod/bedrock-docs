@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only playerId: string
+read-only playerId: string;
 ```
 
 
@@ -24,8 +24,6 @@ read-only playerId: string
 ///
 
 ```js
-read-only playerName: string
+read-only playerName: string;
 ```
 
-
-## 方法

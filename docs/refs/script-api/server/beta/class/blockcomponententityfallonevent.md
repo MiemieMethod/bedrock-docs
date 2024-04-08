@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentEntityFallOnEvent`类。
+`BlockComponentEntityFallOnEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only entity: Entity | undefined
+read-only entity: Entity | undefined;
 ```
 
 
@@ -24,8 +24,6 @@ read-only entity: Entity | undefined
 ///
 
 ```js
-read-only fallDistance: float
+read-only fallDistance: float;
 ```
 
-
-## 方法

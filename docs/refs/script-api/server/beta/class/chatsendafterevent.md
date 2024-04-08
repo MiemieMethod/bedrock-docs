@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only message: string
+read-only message: string;
 ```
 
 
@@ -24,7 +24,7 @@ read-only message: string
 ///
 
 ```js
-read-only sender: Player
+read-only sender: Player;
 ```
 
 
@@ -35,8 +35,6 @@ read-only sender: Player
 ///
 
 ```js
-read-only targets: Player[] | undefined
+read-only targets: Player[] | undefined;
 ```
 
-
-## 方法

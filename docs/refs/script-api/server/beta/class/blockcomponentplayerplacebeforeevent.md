@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentPlayerPlaceBeforeEvent`类。
+`BlockComponentPlayerPlaceBeforeEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ cancel: boolean
 ///
 
 ```js
-read-only face: Direction
+read-only face: Direction;
 ```
 
 
@@ -35,7 +35,7 @@ read-only face: Direction
 ///
 
 ```js
-permutationToPlace: BlockPermutation
+permutationToPlace: BlockPermutation;
 ```
 
 
@@ -46,8 +46,6 @@ permutationToPlace: BlockPermutation
 ///
 
 ```js
-read-only player: Player | undefined
+read-only player: Player | undefined;
 ```
 
-
-## 方法

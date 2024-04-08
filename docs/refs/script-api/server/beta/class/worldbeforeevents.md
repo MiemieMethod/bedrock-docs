@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only chatSend: ChatSendBeforeEventSignal
+read-only chatSend: ChatSendBeforeEventSignal;
 ```
 
 
@@ -24,7 +24,7 @@ read-only chatSend: ChatSendBeforeEventSignal
 ///
 
 ```js
-read-only effectAdd: EffectAddBeforeEventSignal
+read-only effectAdd: EffectAddBeforeEventSignal;
 ```
 
 
@@ -35,7 +35,7 @@ read-only effectAdd: EffectAddBeforeEventSignal
 ///
 
 ```js
-read-only entityRemove: EntityRemoveBeforeEventSignal
+read-only entityRemove: EntityRemoveBeforeEventSignal;
 ```
 
 
@@ -46,7 +46,7 @@ read-only entityRemove: EntityRemoveBeforeEventSignal
 ///
 
 ```js
-read-only explosion: ExplosionBeforeEventSignal
+read-only explosion: ExplosionBeforeEventSignal;
 ```
 
 
@@ -57,7 +57,7 @@ read-only explosion: ExplosionBeforeEventSignal
 ///
 
 ```js
-read-only itemUse: ItemUseBeforeEventSignal
+read-only itemUse: ItemUseBeforeEventSignal;
 ```
 
 
@@ -68,7 +68,7 @@ read-only itemUse: ItemUseBeforeEventSignal
 ///
 
 ```js
-read-only itemUseOn: ItemUseOnBeforeEventSignal
+read-only itemUseOn: ItemUseOnBeforeEventSignal;
 ```
 
 
@@ -79,7 +79,7 @@ read-only itemUseOn: ItemUseOnBeforeEventSignal
 ///
 
 ```js
-read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal
+read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal;
 ```
 
 
@@ -90,7 +90,7 @@ read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal
 ///
 
 ```js
-read-only playerGameModeChange: PlayerGameModeChangeBeforeEventSignal
+read-only playerGameModeChange: PlayerGameModeChangeBeforeEventSignal;
 ```
 
 
@@ -101,7 +101,7 @@ read-only playerGameModeChange: PlayerGameModeChangeBeforeEventSignal
 ///
 
 ```js
-read-only playerInteractWithBlock: PlayerInteractWithBlockBeforeEventSignal
+read-only playerInteractWithBlock: PlayerInteractWithBlockBeforeEventSignal;
 ```
 
 
@@ -112,7 +112,7 @@ read-only playerInteractWithBlock: PlayerInteractWithBlockBeforeEventSignal
 ///
 
 ```js
-read-only playerInteractWithEntity: PlayerInteractWithEntityBeforeEventSignal
+read-only playerInteractWithEntity: PlayerInteractWithEntityBeforeEventSignal;
 ```
 
 
@@ -123,7 +123,7 @@ read-only playerInteractWithEntity: PlayerInteractWithEntityBeforeEventSignal
 ///
 
 ```js
-read-only playerLeave: PlayerLeaveBeforeEventSignal
+read-only playerLeave: PlayerLeaveBeforeEventSignal;
 ```
 
 
@@ -134,7 +134,7 @@ read-only playerLeave: PlayerLeaveBeforeEventSignal
 ///
 
 ```js
-read-only playerPlaceBlock: PlayerPlaceBlockBeforeEventSignal
+read-only playerPlaceBlock: PlayerPlaceBlockBeforeEventSignal;
 ```
 
 
@@ -145,7 +145,7 @@ read-only playerPlaceBlock: PlayerPlaceBlockBeforeEventSignal
 ///
 
 ```js
-read-only weatherChange: WeatherChangeBeforeEventSignal
+read-only weatherChange: WeatherChangeBeforeEventSignal;
 ```
 
 
@@ -156,8 +156,6 @@ read-only weatherChange: WeatherChangeBeforeEventSignal
 ///
 
 ```js
-read-only worldInitialize: WorldInitializeBeforeEventSignal
+read-only worldInitialize: WorldInitializeBeforeEventSignal;
 ```
 
-
-## 方法

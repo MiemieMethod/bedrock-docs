@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockVolume`类。
+`BlockVolume`类，扩展自`BlockVolumeBase`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-from: Vector3
+from: Vector3;
 ```
 
 
@@ -24,7 +24,7 @@ from: Vector3
 ///
 
 ```js
-to: Vector3
+to: Vector3;
 ```
 
 

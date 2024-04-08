@@ -13,8 +13,6 @@
 ///
 
 ```js
-read-only scriptEventReceive: ScriptEventCommandMessageAfterEventSignal
+read-only scriptEventReceive: ScriptEventCommandMessageAfterEventSignal;
 ```
 
-
-## 方法

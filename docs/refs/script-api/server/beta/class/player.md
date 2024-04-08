@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Player`类。
+`Player`类，扩展自`Entity`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only camera: Camera
+read-only camera: Camera;
 ```
 
 
@@ -24,7 +24,7 @@ read-only camera: Camera
 ///
 
 ```js
-read-only inputPermissions: PlayerInputPermissions
+read-only inputPermissions: PlayerInputPermissions;
 ```
 
 
@@ -35,7 +35,7 @@ read-only inputPermissions: PlayerInputPermissions
 ///
 
 ```js
-read-only isEmoting: boolean
+read-only isEmoting: boolean;
 ```
 
 
@@ -46,7 +46,7 @@ read-only isEmoting: boolean
 ///
 
 ```js
-read-only isFlying: boolean
+read-only isFlying: boolean;
 ```
 
 
@@ -57,7 +57,7 @@ read-only isFlying: boolean
 ///
 
 ```js
-read-only isGliding: boolean
+read-only isGliding: boolean;
 ```
 
 
@@ -68,7 +68,7 @@ read-only isGliding: boolean
 ///
 
 ```js
-read-only isJumping: boolean
+read-only isJumping: boolean;
 ```
 
 
@@ -79,7 +79,7 @@ read-only isJumping: boolean
 ///
 
 ```js
-read-only level: int32
+read-only level: int32;
 ```
 
 
@@ -90,7 +90,7 @@ read-only level: int32
 ///
 
 ```js
-read-only name: string
+read-only name: string;
 ```
 
 
@@ -101,7 +101,7 @@ read-only name: string
 ///
 
 ```js
-read-only onScreenDisplay: ScreenDisplay
+read-only onScreenDisplay: ScreenDisplay;
 ```
 
 
@@ -112,7 +112,7 @@ read-only onScreenDisplay: ScreenDisplay
 ///
 
 ```js
-selectedSlot: int32
+selectedSlot: int32;
 ```
 
 
@@ -123,7 +123,7 @@ selectedSlot: int32
 ///
 
 ```js
-read-only totalXpNeededForNextLevel: int32
+read-only totalXpNeededForNextLevel: int32;
 ```
 
 
@@ -134,7 +134,7 @@ read-only totalXpNeededForNextLevel: int32
 ///
 
 ```js
-read-only xpEarnedAtCurrentLevel: int32
+read-only xpEarnedAtCurrentLevel: int32;
 ```
 
 

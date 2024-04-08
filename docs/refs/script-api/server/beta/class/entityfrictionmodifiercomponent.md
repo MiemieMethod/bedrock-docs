@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityFrictionModifierComponent`类。
+`EntityFrictionModifierComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:friction_modifier;
+```
+
 
 ## 属性
 
@@ -13,8 +26,6 @@
 ///
 
 ```js
-value: float
+value: float;
 ```
 
-
-## 方法

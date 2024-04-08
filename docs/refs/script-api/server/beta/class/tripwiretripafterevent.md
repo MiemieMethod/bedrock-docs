@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TripWireTripAfterEvent`类。
+`TripWireTripAfterEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only isPowered: boolean
+read-only isPowered: boolean;
 ```
 
 
@@ -24,8 +24,6 @@ read-only isPowered: boolean
 ///
 
 ```js
-read-only sources: Entity[]
+read-only sources: Entity[];
 ```
 
-
-## 方法

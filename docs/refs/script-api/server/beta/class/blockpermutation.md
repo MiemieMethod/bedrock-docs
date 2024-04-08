@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only type: BlockType
+read-only type: BlockType;
 ```
 
 

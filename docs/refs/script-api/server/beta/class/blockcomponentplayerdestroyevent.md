@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentPlayerDestroyEvent`类。
+`BlockComponentPlayerDestroyEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only destroyedBlockPermutation: BlockPermutation
+read-only destroyedBlockPermutation: BlockPermutation;
 ```
 
 
@@ -24,8 +24,6 @@ read-only destroyedBlockPermutation: BlockPermutation
 ///
 
 ```js
-read-only player: Player | undefined
+read-only player: Player | undefined;
 ```
 
-
-## 方法

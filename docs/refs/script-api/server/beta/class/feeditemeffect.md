@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only amplifier: int32
+read-only amplifier: int32;
 ```
 
 
@@ -24,7 +24,7 @@ read-only amplifier: int32
 ///
 
 ```js
-read-only chance: float
+read-only chance: float;
 ```
 
 
@@ -35,7 +35,7 @@ read-only chance: float
 ///
 
 ```js
-read-only duration: int32
+read-only duration: int32;
 ```
 
 
@@ -46,8 +46,6 @@ read-only duration: int32
 ///
 
 ```js
-read-only name: string
+read-only name: string;
 ```
 
-
-## 方法

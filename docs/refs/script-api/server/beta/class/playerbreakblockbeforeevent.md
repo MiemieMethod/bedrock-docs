@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerBreakBlockBeforeEvent`类。
+`PlayerBreakBlockBeforeEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ cancel: boolean
 ///
 
 ```js
-itemStack: ItemStack | undefined
+itemStack: ItemStack | undefined;
 ```
 
 
@@ -35,8 +35,6 @@ itemStack: ItemStack | undefined
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
-
-## 方法

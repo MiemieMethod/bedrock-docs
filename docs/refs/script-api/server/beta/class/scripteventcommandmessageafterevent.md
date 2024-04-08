@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
 
@@ -24,7 +24,7 @@ read-only id: string
 ///
 
 ```js
-read-only initiator: Entity | undefined
+read-only initiator: Entity | undefined;
 ```
 
 
@@ -35,7 +35,7 @@ read-only initiator: Entity | undefined
 ///
 
 ```js
-read-only message: string
+read-only message: string;
 ```
 
 
@@ -46,7 +46,7 @@ read-only message: string
 ///
 
 ```js
-read-only sourceBlock: Block | undefined
+read-only sourceBlock: Block | undefined;
 ```
 
 
@@ -57,7 +57,7 @@ read-only sourceBlock: Block | undefined
 ///
 
 ```js
-read-only sourceEntity: Entity | undefined
+read-only sourceEntity: Entity | undefined;
 ```
 
 
@@ -68,8 +68,6 @@ read-only sourceEntity: Entity | undefined
 ///
 
 ```js
-read-only sourceType: ScriptEventSource
+read-only sourceType: ScriptEventSource;
 ```
 
-
-## 方法

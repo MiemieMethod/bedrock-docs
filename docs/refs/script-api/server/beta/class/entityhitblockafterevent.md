@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only blockFace: Direction
+read-only blockFace: Direction;
 ```
 
 
@@ -24,7 +24,7 @@ read-only blockFace: Direction
 ///
 
 ```js
-read-only damagingEntity: Entity
+read-only damagingEntity: Entity;
 ```
 
 
@@ -35,7 +35,7 @@ read-only damagingEntity: Entity
 ///
 
 ```js
-read-only hitBlock: Block
+read-only hitBlock: Block;
 ```
 
 
@@ -46,8 +46,6 @@ read-only hitBlock: Block
 ///
 
 ```js
-read-only hitBlockPermutation: BlockPermutation
+read-only hitBlockPermutation: BlockPermutation;
 ```
 
-
-## 方法

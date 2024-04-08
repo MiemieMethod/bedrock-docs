@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only block: Block
+read-only block: Block;
 ```
 
 
@@ -24,7 +24,7 @@ read-only block: Block
 ///
 
 ```js
-read-only blockFace: Direction
+read-only blockFace: Direction;
 ```
 
 
@@ -35,7 +35,7 @@ read-only blockFace: Direction
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -46,7 +46,7 @@ cancel: boolean
 ///
 
 ```js
-read-only faceLocation: Vector3
+read-only faceLocation: Vector3;
 ```
 
 
@@ -57,7 +57,7 @@ read-only faceLocation: Vector3
 ///
 
 ```js
-read-only itemStack: ItemStack | undefined
+read-only itemStack: ItemStack | undefined;
 ```
 
 
@@ -68,8 +68,6 @@ read-only itemStack: ItemStack | undefined
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
-
-## 方法

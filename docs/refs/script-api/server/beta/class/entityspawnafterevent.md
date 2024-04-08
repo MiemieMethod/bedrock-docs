@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only cause: EntityInitializationCause
+read-only cause: EntityInitializationCause;
 ```
 
 
@@ -24,8 +24,6 @@ read-only cause: EntityInitializationCause
 ///
 
 ```js
-entity: Entity
+entity: Entity;
 ```
 
-
-## 方法

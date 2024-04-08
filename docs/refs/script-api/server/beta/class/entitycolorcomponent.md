@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityColorComponent`类。
+`EntityColorComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:color;
+```
+
 
 ## 属性
 
@@ -13,8 +26,6 @@
 ///
 
 ```js
-value: int32
+value: int32;
 ```
 
-
-## 方法

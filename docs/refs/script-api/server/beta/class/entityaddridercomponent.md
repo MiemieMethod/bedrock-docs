@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAddRiderComponent`类。
+`EntityAddRiderComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:addrider;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only entityType: string
+read-only entityType: string;
 ```
 
 
@@ -24,8 +37,6 @@ read-only entityType: string
 ///
 
 ```js
-read-only spawnEvent: string
+read-only spawnEvent: string;
 ```
 
-
-## 方法

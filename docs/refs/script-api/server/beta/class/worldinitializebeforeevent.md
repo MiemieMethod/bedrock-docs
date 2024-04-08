@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only blockTypeRegistry: BlockComponentRegistry
+read-only blockTypeRegistry: BlockComponentRegistry;
 ```
 
 
@@ -24,8 +24,6 @@ read-only blockTypeRegistry: BlockComponentRegistry
 ///
 
 ```js
-read-only itemComponentRegistry: ItemComponentRegistry
+read-only itemComponentRegistry: ItemComponentRegistry;
 ```
 
-
-## 方法

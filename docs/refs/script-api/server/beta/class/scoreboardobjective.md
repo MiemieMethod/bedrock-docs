@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only displayName: string
+read-only displayName: string;
 ```
 
 
@@ -24,7 +24,7 @@ read-only displayName: string
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
 

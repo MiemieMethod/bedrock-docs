@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityBreathableComponent`类。
+`EntityBreathableComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:breathable;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only breathesAir: boolean
+read-only breathesAir: boolean;
 ```
 
 
@@ -24,7 +37,7 @@ read-only breathesAir: boolean
 ///
 
 ```js
-read-only breathesLava: boolean
+read-only breathesLava: boolean;
 ```
 
 
@@ -35,7 +48,7 @@ read-only breathesLava: boolean
 ///
 
 ```js
-read-only breathesSolids: boolean
+read-only breathesSolids: boolean;
 ```
 
 
@@ -46,7 +59,7 @@ read-only breathesSolids: boolean
 ///
 
 ```js
-read-only breathesWater: boolean
+read-only breathesWater: boolean;
 ```
 
 
@@ -57,7 +70,7 @@ read-only breathesWater: boolean
 ///
 
 ```js
-read-only generatesBubbles: boolean
+read-only generatesBubbles: boolean;
 ```
 
 
@@ -68,7 +81,7 @@ read-only generatesBubbles: boolean
 ///
 
 ```js
-read-only inhaleTime: float
+read-only inhaleTime: float;
 ```
 
 
@@ -79,7 +92,7 @@ read-only inhaleTime: float
 ///
 
 ```js
-read-only suffocateTime: int32
+read-only suffocateTime: int32;
 ```
 
 
@@ -90,7 +103,7 @@ read-only suffocateTime: int32
 ///
 
 ```js
-read-only totalSupply: int32
+read-only totalSupply: int32;
 ```
 
 

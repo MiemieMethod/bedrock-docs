@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only id: string
+read-only id: string;
 ```
 
 
@@ -24,7 +24,7 @@ read-only id: string
 ///
 
 ```js
-read-only size: Vector3
+read-only size: Vector3;
 ```
 
 

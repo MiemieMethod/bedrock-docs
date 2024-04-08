@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only afterEvents: SystemAfterEvents
+read-only afterEvents: SystemAfterEvents;
 ```
 
 
@@ -24,7 +24,7 @@ read-only afterEvents: SystemAfterEvents
 ///
 
 ```js
-read-only beforeEvents: SystemBeforeEvents
+read-only beforeEvents: SystemBeforeEvents;
 ```
 
 
@@ -35,7 +35,7 @@ read-only beforeEvents: SystemBeforeEvents
 ///
 
 ```js
-read-only currentTick: uint32
+read-only currentTick: uint32;
 ```
 
 

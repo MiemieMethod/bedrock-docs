@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only block: Block
+read-only block: Block;
 ```
 
 
@@ -24,8 +24,6 @@ read-only block: Block
 ///
 
 ```js
-read-only dimension: Dimension
+read-only dimension: Dimension;
 ```
 
-
-## 方法

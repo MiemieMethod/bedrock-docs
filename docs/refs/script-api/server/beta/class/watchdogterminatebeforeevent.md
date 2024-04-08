@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,8 +24,6 @@ cancel: boolean
 ///
 
 ```js
-read-only terminateReason: WatchdogTerminateReason
+read-only terminateReason: WatchdogTerminateReason;
 ```
 
-
-## 方法

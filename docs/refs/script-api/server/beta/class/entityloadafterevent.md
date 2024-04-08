@@ -13,8 +13,6 @@
 ///
 
 ```js
-entity: Entity
+entity: Entity;
 ```
 
-
-## 方法

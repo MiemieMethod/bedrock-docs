@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityLeashableComponent`类。
+`EntityLeashableComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:leashable;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only softDistance: float
+read-only softDistance: float;
 ```
 
 

@@ -13,7 +13,7 @@
 ///
 
 ```js
-cancel: boolean
+cancel: boolean;
 ```
 
 
@@ -24,7 +24,7 @@ cancel: boolean
 ///
 
 ```js
-read-only itemStack: ItemStack | undefined
+read-only itemStack: ItemStack | undefined;
 ```
 
 
@@ -35,7 +35,7 @@ read-only itemStack: ItemStack | undefined
 ///
 
 ```js
-read-only player: Player
+read-only player: Player;
 ```
 
 
@@ -46,8 +46,6 @@ read-only player: Player
 ///
 
 ```js
-read-only target: Entity
+read-only target: Entity;
 ```
 
-
-## 方法

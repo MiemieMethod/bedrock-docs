@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PressurePlatePopAfterEvent`类。
+`PressurePlatePopAfterEvent`类，扩展自`BlockEvent`。
 
 ## 属性
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only previousRedstonePower: int32
+read-only previousRedstonePower: int32;
 ```
 
 
@@ -24,8 +24,6 @@ read-only previousRedstonePower: int32
 ///
 
 ```js
-read-only redstonePower: int32
+read-only redstonePower: int32;
 ```
 
-
-## 方法

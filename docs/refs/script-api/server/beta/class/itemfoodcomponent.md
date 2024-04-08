@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`ItemFoodComponent`类。
+`ItemFoodComponent`类，扩展自`ItemComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:food;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only canAlwaysEat: boolean
+read-only canAlwaysEat: boolean;
 ```
 
 
@@ -24,7 +37,7 @@ read-only canAlwaysEat: boolean
 ///
 
 ```js
-read-only nutrition: int32
+read-only nutrition: int32;
 ```
 
 
@@ -35,7 +48,7 @@ read-only nutrition: int32
 ///
 
 ```js
-read-only saturationModifier: float
+read-only saturationModifier: float;
 ```
 
 
@@ -46,8 +59,6 @@ read-only saturationModifier: float
 ///
 
 ```js
-read-only usingConvertsTo: string
+read-only usingConvertsTo: string;
 ```
 
-
-## 方法

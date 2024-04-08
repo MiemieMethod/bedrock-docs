@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only entity: Entity
+read-only entity: Entity;
 ```
 
 
@@ -24,7 +24,7 @@ read-only entity: Entity
 ///
 
 ```js
-read-only eventId: string
+read-only eventId: string;
 ```
 
 

@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityNpcComponent`类。
+`EntityNpcComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:npc;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-defaultScene: string
+defaultScene: string;
 ```
 
 
@@ -24,7 +37,7 @@ defaultScene: string
 ///
 
 ```js
-name: string
+name: string;
 ```
 
 
@@ -35,8 +48,6 @@ name: string
 ///
 
 ```js
-skinIndex: int32
+skinIndex: int32;
 ```
 
-
-## 方法

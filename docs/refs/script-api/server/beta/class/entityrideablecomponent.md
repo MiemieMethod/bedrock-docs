@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRideableComponent`类。
+`EntityRideableComponent`类，扩展自`EntityComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:rideable;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only controllingSeat: int32
+read-only controllingSeat: int32;
 ```
 
 
@@ -24,7 +37,7 @@ read-only controllingSeat: int32
 ///
 
 ```js
-read-only crouchingSkipInteract: boolean
+read-only crouchingSkipInteract: boolean;
 ```
 
 
@@ -35,7 +48,7 @@ read-only crouchingSkipInteract: boolean
 ///
 
 ```js
-read-only interactText: string
+read-only interactText: string;
 ```
 
 
@@ -46,7 +59,7 @@ read-only interactText: string
 ///
 
 ```js
-read-only passengerMaxWidth: float
+read-only passengerMaxWidth: float;
 ```
 
 
@@ -57,7 +70,7 @@ read-only passengerMaxWidth: float
 ///
 
 ```js
-read-only pullInEntities: boolean
+read-only pullInEntities: boolean;
 ```
 
 
@@ -68,7 +81,7 @@ read-only pullInEntities: boolean
 ///
 
 ```js
-read-only riderCanInteract: boolean
+read-only riderCanInteract: boolean;
 ```
 
 
@@ -79,7 +92,7 @@ read-only riderCanInteract: boolean
 ///
 
 ```js
-read-only seatCount: int32
+read-only seatCount: int32;
 ```
 
 

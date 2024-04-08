@@ -4,8 +4,6 @@
 
 `MolangVariableMap`类。
 
-## 属性
-
 ## 方法
 
 /// define

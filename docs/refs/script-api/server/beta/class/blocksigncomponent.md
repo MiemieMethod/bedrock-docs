@@ -2,7 +2,20 @@
 
 > 文档版本：1.21.0.20
 
-`BlockSignComponent`类。
+`BlockSignComponent`类，扩展自`BlockComponent`。
+
+## 常量
+
+/// define
+`componentId`
+
+
+///
+
+```js
+static read-only componentId = minecraft:sign;
+```
+
 
 ## 属性
 
@@ -13,7 +26,7 @@
 ///
 
 ```js
-read-only isWaxed: boolean
+read-only isWaxed: boolean;
 ```
 
 

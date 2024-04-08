@@ -13,7 +13,7 @@
 ///
 
 ```js
-read-only amplifier: int32
+read-only amplifier: int32;
 ```
 
 
@@ -24,7 +24,7 @@ read-only amplifier: int32
 ///
 
 ```js
-read-only displayName: string
+read-only displayName: string;
 ```
 
 
@@ -35,7 +35,7 @@ read-only displayName: string
 ///
 
 ```js
-read-only duration: int32
+read-only duration: int32;
 ```
 
 
@@ -46,7 +46,7 @@ read-only duration: int32
 ///
 
 ```js
-read-only typeId: string
+read-only typeId: string;
 ```
 
 
