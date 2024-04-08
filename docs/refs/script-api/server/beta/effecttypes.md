@@ -26,7 +26,7 @@ static get(identifier: string): EffectType | undefined
 ////
 
 //// define
-返回值：[`EffectType`](./effecttype.md)|`undefined`
+返回值：[`EffectType`](../effecttype.md)|`undefined`
 
 - 返回值。
 
@@ -47,6 +47,13 @@ static getAll(): EffectType[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../effecttype.md">EffectType</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

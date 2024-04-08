@@ -26,7 +26,7 @@ registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent):
 ////
 
 //// define
-`itemCustomComponent`：[`ItemCustomComponent`](./itemcustomcomponent.md)
+`itemCustomComponent`：[`ItemCustomComponent`](../itemcustomcomponent.md)
 
 - 参数2。
 

@@ -30,6 +30,13 @@ getAllStates(): Record<string, boolean | int32 | string>
 ```
 
 /// html | div.result
+//// define
+返回值：`Record<string, boolean | int32 | string>`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -54,7 +61,7 @@ getItemStack(amount: int32): ItemStack | undefined
 ////
 
 //// define
-返回值：[`ItemStack`](./itemstack.md)|`undefined`
+返回值：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 返回值。
 
@@ -105,6 +112,13 @@ getTags(): string[]
 ```
 
 /// html | div.result
+//// define
+返回值：`string[]`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -205,7 +219,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 ////
 
 //// define
-返回值：[`BlockPermutation`](./blockpermutation.md)
+返回值：[`BlockPermutation`](../blockpermutation.md)
 
 - 返回值。
 
@@ -243,7 +257,7 @@ withState(name: string, value: boolean | int32 | string): BlockPermutation
 ////
 
 //// define
-返回值：[`BlockPermutation`](./blockpermutation.md)
+返回值：[`BlockPermutation`](../blockpermutation.md)
 
 - 返回值。
 

@@ -43,6 +43,13 @@ getFeedItems(): FeedItem[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../feeditem.md">FeedItem</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

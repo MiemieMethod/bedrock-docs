@@ -17,6 +17,13 @@ getHiddenHudElements(): HudElement[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../hudelement.md">HudElement</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -33,7 +40,7 @@ hideAllExcept(hudElements?: HudElement[]): void
 
 /// html | div.result
 //// define
-`hudElements`：<code><a href="./hudelement.md">HudElement</a>[]</code>|`undefined`
+`hudElements`：<code><a href="../hudelement.md">HudElement</a>[]</code>|`undefined`
 
 - 参数1。
 
@@ -63,7 +70,7 @@ isForcedHidden(hudElement: HudElement): boolean
 
 /// html | div.result
 //// define
-`hudElement`：[`HudElement`](./hudelement.md)
+`hudElement`：[`HudElement`](../hudelement.md)
 
 - 参数1。
 
@@ -92,6 +99,13 @@ isValid(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -107,6 +121,13 @@ resetHudElements(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -123,7 +144,7 @@ setActionBar(text: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`text`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`text`：`RawMessage | string[]`|[`RawMessage`](../rawmessage.md)|`string`
 
 - 参数1。
 
@@ -153,7 +174,7 @@ setHudVisibility(visible: HudVisibility, hudElements?: HudElement[]): void
 
 /// html | div.result
 //// define
-`visible`：[`HudVisibility`](./hudvisibility.md)
+`visible`：[`HudVisibility`](../hudvisibility.md)
 
 - 参数1。
 
@@ -161,7 +182,7 @@ setHudVisibility(visible: HudVisibility, hudElements?: HudElement[]): void
 ////
 
 //// define
-`hudElements`：<code><a href="./hudelement.md">HudElement</a>[]</code>|`undefined`
+`hudElements`：<code><a href="../hudelement.md">HudElement</a>[]</code>|`undefined`
 
 - 参数2。
 
@@ -191,7 +212,7 @@ setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisp
 
 /// html | div.result
 //// define
-`title`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`title`：`RawMessage | string[]`|[`RawMessage`](../rawmessage.md)|`string`
 
 - 参数1。
 
@@ -199,7 +220,7 @@ setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisp
 ////
 
 //// define
-`options`：[`TitleDisplayOptions`](./titledisplayoptions.md)|`undefined`
+`options`：[`TitleDisplayOptions`](../titledisplayoptions.md)|`undefined`
 
 - 参数2。
 
@@ -229,7 +250,7 @@ updateSubtitle(subtitle: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`subtitle`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`subtitle`：`RawMessage | string[]`|[`RawMessage`](../rawmessage.md)|`string`
 
 - 参数1。
 

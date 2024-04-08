@@ -42,7 +42,7 @@ addItem(itemStack: ItemStack): ItemStack | undefined
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)
+`itemStack`：[`ItemStack`](../itemstack.md)
 
 - 参数1。
 
@@ -50,7 +50,7 @@ addItem(itemStack: ItemStack): ItemStack | undefined
 ////
 
 //// define
-返回值：[`ItemStack`](./itemstack.md)|`undefined`
+返回值：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 返回值。
 
@@ -71,6 +71,13 @@ clearAll(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -95,7 +102,7 @@ getItem(slot: int32): ItemStack | undefined
 ////
 
 //// define
-返回值：[`ItemStack`](./itemstack.md)|`undefined`
+返回值：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 返回值。
 
@@ -125,7 +132,7 @@ getSlot(slot: int32): ContainerSlot
 ////
 
 //// define
-返回值：[`ContainerSlot`](./containerslot.md)
+返回值：[`ContainerSlot`](../containerslot.md)
 
 - 返回值。
 
@@ -146,6 +153,13 @@ isValid(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -178,7 +192,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 ////
 
 //// define
-`toContainer`：[`Container`](./container.md)
+`toContainer`：[`Container`](../container.md)
 
 - 参数3。
 
@@ -216,7 +230,7 @@ setItem(slot: int32, itemStack?: ItemStack): void
 ////
 
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+`itemStack`：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 参数2。
 
@@ -262,7 +276,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 ////
 
 //// define
-`otherContainer`：[`Container`](./container.md)
+`otherContainer`：[`Container`](../container.md)
 
 - 参数3。
 
@@ -300,7 +314,7 @@ transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 ////
 
 //// define
-`toContainer`：[`Container`](./container.md)
+`toContainer`：[`Container`](../container.md)
 
 - 参数2。
 
@@ -308,7 +322,7 @@ transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 ////
 
 //// define
-返回值：[`ItemStack`](./itemstack.md)|`undefined`
+返回值：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 返回值。
 

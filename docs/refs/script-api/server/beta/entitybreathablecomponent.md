@@ -120,6 +120,13 @@ getBreatheBlocks(): BlockPermutation[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../blockpermutation.md">BlockPermutation</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -135,6 +142,13 @@ getNonBreatheBlocks(): BlockPermutation[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../blockpermutation.md">BlockPermutation</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

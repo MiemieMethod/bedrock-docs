@@ -30,6 +30,13 @@ clearRecord(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -45,6 +52,13 @@ isPlaying(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -61,7 +75,7 @@ setRecord(recordItemType: ItemType | string): void
 
 /// html | div.result
 //// define
-`recordItemType`：[`ItemType`](./itemtype.md)|`string`
+`recordItemType`：[`ItemType`](../itemtype.md)|`string`
 
 - 参数1。
 

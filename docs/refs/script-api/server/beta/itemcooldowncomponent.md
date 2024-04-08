@@ -55,7 +55,7 @@ getCooldownTicksRemaining(player: Player): int32
 
 /// html | div.result
 //// define
-`player`：[`Player`](./player.md)
+`player`：[`Player`](../player.md)
 
 - 参数1。
 
@@ -115,7 +115,7 @@ startCooldown(player: Player): void
 
 /// html | div.result
 //// define
-`player`：[`Player`](./player.md)
+`player`：[`Player`](../player.md)
 
 - 参数1。
 

@@ -26,7 +26,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 ////
 
 //// define
-`options`：[`ScriptEventMessageFilterOptions`](./scripteventmessagefilteroptions.md)|`undefined`
+`options`：[`ScriptEventMessageFilterOptions`](../scripteventmessagefilteroptions.md)|`undefined`
 
 - 参数2。
 

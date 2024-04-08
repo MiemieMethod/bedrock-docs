@@ -50,7 +50,7 @@ new constructor(enchantmentType: string): EnchantmentType
 ////
 
 //// define
-返回值：[`EnchantmentType`](./enchantmenttype.md)
+返回值：[`EnchantmentType`](../enchantmenttype.md)
 
 - 返回值。
 

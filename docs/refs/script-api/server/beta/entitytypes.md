@@ -26,7 +26,7 @@ static get(identifier: string): EntityType | undefined
 ////
 
 //// define
-返回值：[`EntityType`](./entitytype.md)|`undefined`
+返回值：[`EntityType`](../entitytype.md)|`undefined`
 
 - 返回值。
 
@@ -47,6 +47,13 @@ static getAll(): EntityType[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../entitytype.md">EntityType</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

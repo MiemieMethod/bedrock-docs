@@ -26,7 +26,7 @@ subscribe(callback: (arg: EntityHealthChangedAfterEvent) => void, options?: Enti
 ////
 
 //// define
-`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+`options`：[`EntityEventOptions`](../entityeventoptions.md)|`undefined`
 
 - 参数2。
 

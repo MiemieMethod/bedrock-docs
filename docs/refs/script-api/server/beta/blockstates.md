@@ -26,7 +26,7 @@ static get(stateName: string): BlockStateType | undefined
 ////
 
 //// define
-返回值：[`BlockStateType`](./blockstatetype.md)|`undefined`
+返回值：[`BlockStateType`](../blockstatetype.md)|`undefined`
 
 - 返回值。
 
@@ -47,6 +47,13 @@ static getAll(): BlockStateType[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../blockstatetype.md">BlockStateType</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

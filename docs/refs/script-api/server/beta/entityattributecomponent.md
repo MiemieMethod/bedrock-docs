@@ -63,6 +63,13 @@ resetToDefaultValue(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -78,6 +85,13 @@ resetToMaxValue(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -93,6 +107,13 @@ resetToMinValue(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 

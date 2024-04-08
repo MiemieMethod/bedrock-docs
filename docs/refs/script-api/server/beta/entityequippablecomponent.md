@@ -31,7 +31,7 @@ getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 
 /// html | div.result
 //// define
-`equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
+`equipmentSlot`：[`EquipmentSlot`](../equipmentslot.md)
 
 - 参数1。
 
@@ -39,7 +39,7 @@ getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 ////
 
 //// define
-返回值：[`ItemStack`](./itemstack.md)|`undefined`
+返回值：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 返回值。
 
@@ -61,7 +61,7 @@ getEquipmentSlot(equipmentSlot: EquipmentSlot): ContainerSlot
 
 /// html | div.result
 //// define
-`equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
+`equipmentSlot`：[`EquipmentSlot`](../equipmentslot.md)
 
 - 参数1。
 
@@ -69,7 +69,7 @@ getEquipmentSlot(equipmentSlot: EquipmentSlot): ContainerSlot
 ////
 
 //// define
-返回值：[`ContainerSlot`](./containerslot.md)
+返回值：[`ContainerSlot`](../containerslot.md)
 
 - 返回值。
 
@@ -91,7 +91,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 
 /// html | div.result
 //// define
-`equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
+`equipmentSlot`：[`EquipmentSlot`](../equipmentslot.md)
 
 - 参数1。
 
@@ -99,7 +99,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 ////
 
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+`itemStack`：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 参数2。
 

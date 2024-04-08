@@ -26,7 +26,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 ////
 
 //// define
-`options`：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)|`undefined`
+`options`：[`EntityDataDrivenTriggerEventOptions`](../entitydatadriventriggereventoptions.md)|`undefined`
 
 - 参数2。
 

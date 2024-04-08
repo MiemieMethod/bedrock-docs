@@ -42,7 +42,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](./vector3.md)
+`location`：[`Vector3`](../vector3.md)
 
 - 参数1。
 
@@ -50,7 +50,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 ////
 
 //// define
-返回值：[`BlockPermutation`](./blockpermutation.md)|`undefined`
+返回值：[`BlockPermutation`](../blockpermutation.md)|`undefined`
 
 - 返回值。
 
@@ -72,7 +72,7 @@ getIsWaterlogged(location: Vector3): boolean
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](./vector3.md)
+`location`：[`Vector3`](../vector3.md)
 
 - 参数1。
 
@@ -101,6 +101,13 @@ isValid(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -125,7 +132,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 ////
 
 //// define
-`saveMode`：[`StructureSaveMode`](./structuresavemode.md)
+`saveMode`：[`StructureSaveMode`](../structuresavemode.md)
 
 - 参数2。
 
@@ -133,7 +140,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 ////
 
 //// define
-返回值：[`Structure`](./structure.md)
+返回值：[`Structure`](../structure.md)
 
 - 返回值。
 
@@ -154,6 +161,13 @@ saveToWorld(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -170,7 +184,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](./vector3.md)
+`location`：[`Vector3`](../vector3.md)
 
 - 参数1。
 
@@ -178,7 +192,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 ////
 
 //// define
-`blockPermutation`：[`BlockPermutation`](./blockpermutation.md)|`undefined`
+`blockPermutation`：[`BlockPermutation`](../blockpermutation.md)|`undefined`
 
 - 参数2。
 

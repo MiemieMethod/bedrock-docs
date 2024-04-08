@@ -44,7 +44,7 @@ addEnchantment(enchantment: Enchantment): void
 
 /// html | div.result
 //// define
-`enchantment`：[`Enchantment`](./enchantment.md)
+`enchantment`：[`Enchantment`](../enchantment.md)
 
 - 参数1。
 
@@ -74,7 +74,7 @@ addEnchantments(enchantments: Enchantment[]): void
 
 /// html | div.result
 //// define
-`enchantments`：<code><a href="./enchantment.md">Enchantment</a>[]</code>
+`enchantments`：<code><a href="../enchantment.md">Enchantment</a>[]</code>
 
 - 参数1。
 
@@ -104,7 +104,7 @@ canAddEnchantment(enchantment: Enchantment): boolean
 
 /// html | div.result
 //// define
-`enchantment`：[`Enchantment`](./enchantment.md)
+`enchantment`：[`Enchantment`](../enchantment.md)
 
 - 参数1。
 
@@ -134,7 +134,7 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 
 /// html | div.result
 //// define
-`enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
+`enchantmentType`：[`EnchantmentType`](../enchantmenttype.md)|`string`
 
 - 参数1。
 
@@ -142,7 +142,7 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 ////
 
 //// define
-返回值：[`Enchantment`](./enchantment.md)|`undefined`
+返回值：[`Enchantment`](../enchantment.md)|`undefined`
 
 - 返回值。
 
@@ -163,6 +163,13 @@ getEnchantments(): Enchantment[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../enchantment.md">Enchantment</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -179,7 +186,7 @@ hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 
 /// html | div.result
 //// define
-`enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
+`enchantmentType`：[`EnchantmentType`](../enchantmenttype.md)|`string`
 
 - 参数1。
 
@@ -208,6 +215,13 @@ removeAllEnchantments(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -224,7 +238,7 @@ removeEnchantment(enchantmentType: EnchantmentType | string): void
 
 /// html | div.result
 //// define
-`enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
+`enchantmentType`：[`EnchantmentType`](../enchantmenttype.md)|`string`
 
 - 参数1。
 

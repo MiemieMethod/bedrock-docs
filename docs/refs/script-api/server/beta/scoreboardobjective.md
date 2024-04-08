@@ -42,7 +42,7 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 
 /// html | div.result
 //// define
-`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
+`participant`：[`Entity`](../entity.md)|[`ScoreboardIdentity`](../scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -79,6 +79,13 @@ getParticipants(): ScoreboardIdentity[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../scoreboardidentity.md">ScoreboardIdentity</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -95,7 +102,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 
 /// html | div.result
 //// define
-`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
+`participant`：[`Entity`](../entity.md)|[`ScoreboardIdentity`](../scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -124,6 +131,13 @@ getScores(): ScoreboardScoreInfo[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../scoreboardscoreinfo.md">ScoreboardScoreInfo</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -140,7 +154,7 @@ hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 
 /// html | div.result
 //// define
-`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
+`participant`：[`Entity`](../entity.md)|[`ScoreboardIdentity`](../scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -169,6 +183,13 @@ isValid(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -185,7 +206,7 @@ removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 
 /// html | div.result
 //// define
-`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
+`participant`：[`Entity`](../entity.md)|[`ScoreboardIdentity`](../scoreboardidentity.md)|`string`
 
 - 参数1。
 
@@ -215,7 +236,7 @@ setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 
 /// html | div.result
 //// define
-`participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
+`participant`：[`Entity`](../entity.md)|[`ScoreboardIdentity`](../scoreboardidentity.md)|`string`
 
 - 参数1。
 

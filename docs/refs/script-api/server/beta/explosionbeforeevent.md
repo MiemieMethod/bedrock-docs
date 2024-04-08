@@ -31,7 +31,7 @@ setImpactedBlocks(blocks: Block[]): void
 
 /// html | div.result
 //// define
-`blocks`：<code><a href="./block.md">Block</a>[]</code>
+`blocks`：<code><a href="../block.md">Block</a>[]</code>
 
 - 参数1。
 

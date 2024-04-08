@@ -41,6 +41,13 @@ getImpactedBlocks(): Block[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../block.md">Block</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

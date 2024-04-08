@@ -26,7 +26,7 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 ////
 
 //// define
-`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+`options`：[`EntityEventOptions`](../entityeventoptions.md)|`undefined`
 
 - 参数2。
 

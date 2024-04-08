@@ -30,6 +30,13 @@ getTypeFamilies(): string[]
 ```
 
 /// html | div.result
+//// define
+返回值：`string[]`
+
+- 返回值。
+
+
+////
 
 ///
 

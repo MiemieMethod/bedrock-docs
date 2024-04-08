@@ -17,6 +17,13 @@
 ```
 
 /// html | div.result
+//// define
+返回值：`Iterator<Entity>`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -32,6 +39,13 @@ next(): IteratorResult<Entity>
 ```
 
 /// html | div.result
+//// define
+返回值：`IteratorResult<Entity>`
+
+- 返回值。
+
+
+////
 
 ///
 

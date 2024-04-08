@@ -26,7 +26,7 @@ static get(typeName: string): BlockType | undefined
 ////
 
 //// define
-返回值：[`BlockType`](./blocktype.md)|`undefined`
+返回值：[`BlockType`](../blocktype.md)|`undefined`
 
 - 返回值。
 
@@ -47,6 +47,13 @@ static getAll(): BlockType[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../blocktype.md">BlockType</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

@@ -212,7 +212,7 @@ eatItem(itemStack: ItemStack): void
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)
+`itemStack`：[`ItemStack`](../itemstack.md)
 
 - 参数1。
 
@@ -241,6 +241,13 @@ getGameMode(): GameMode
 ```
 
 /// html | div.result
+//// define
+返回值：[`GameMode`](../gamemode.md)
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -286,6 +293,13 @@ getSpawnPoint(): DimensionLocation | undefined
 ```
 
 /// html | div.result
+//// define
+返回值：[`DimensionLocation`](../dimensionlocation.md)|`undefined`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -301,6 +315,13 @@ getTotalXp(): uint32
 ```
 
 /// html | div.result
+//// define
+返回值：`uint32`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -316,6 +337,13 @@ isOp(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -340,7 +368,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`：[`MusicOptions`](../musicoptions.md)|`undefined`
 
 - 参数2。
 
@@ -378,7 +406,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ////
 
 //// define
-`soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
+`soundOptions`：[`PlayerSoundOptions`](../playersoundoptions.md)|`undefined`
 
 - 参数2。
 
@@ -454,7 +482,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`：[`MusicOptions`](../musicoptions.md)|`undefined`
 
 - 参数2。
 
@@ -483,6 +511,13 @@ resetLevel(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -499,7 +534,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`message`：`RawMessage | string[]`|[`RawMessage`](../rawmessage.md)|`string`
 
 - 参数1。
 
@@ -529,7 +564,7 @@ setGameMode(gameMode?: GameMode): void
 
 /// html | div.result
 //// define
-`gameMode`：[`GameMode`](./gamemode.md)|`undefined`
+`gameMode`：[`GameMode`](../gamemode.md)|`undefined`
 
 - 参数1。
 
@@ -589,7 +624,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 
 /// html | div.result
 //// define
-`spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
+`spawnPoint`：[`DimensionLocation`](../dimensionlocation.md)|`undefined`
 
 - 参数1。
 
@@ -627,7 +662,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 ////
 
 //// define
-`location`：[`Vector3`](./vector3.md)
+`location`：[`Vector3`](../vector3.md)
 
 - 参数2。
 
@@ -635,7 +670,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 ////
 
 //// define
-`molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
+`molangVariables`：[`MolangVariableMap`](../molangvariablemap.md)|`undefined`
 
 - 参数3。
 
@@ -702,6 +737,13 @@ stopMusic(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 

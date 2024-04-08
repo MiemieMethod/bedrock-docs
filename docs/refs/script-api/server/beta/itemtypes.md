@@ -26,7 +26,7 @@ static get(itemId: string): ItemType | undefined
 ////
 
 //// define
-返回值：[`ItemType`](./itemtype.md)|`undefined`
+返回值：[`ItemType`](../itemtype.md)|`undefined`
 
 - 返回值。
 
@@ -47,6 +47,13 @@ static getAll(): ItemType[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../itemtype.md">ItemType</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

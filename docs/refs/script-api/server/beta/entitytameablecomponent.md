@@ -43,6 +43,13 @@ getTameItems(): string[]
 ```
 
 /// html | div.result
+//// define
+返回值：`string[]`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -58,6 +65,13 @@ tame(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 

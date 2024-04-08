@@ -26,7 +26,7 @@ static get(enchantmentId: string): EnchantmentType | undefined
 ////
 
 //// define
-返回值：[`EnchantmentType`](./enchantmenttype.md)|`undefined`
+返回值：[`EnchantmentType`](../enchantmenttype.md)|`undefined`
 
 - 返回值。
 
@@ -47,6 +47,13 @@ static getAll(): EnchantmentType[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../enchantmenttype.md">EnchantmentType</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

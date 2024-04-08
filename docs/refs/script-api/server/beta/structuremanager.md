@@ -26,7 +26,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 ////
 
 //// define
-`size`：[`Vector3`](./vector3.md)
+`size`：[`Vector3`](../vector3.md)
 
 - 参数2。
 
@@ -34,7 +34,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 ////
 
 //// define
-`saveMode`：[`StructureSaveMode`](./structuresavemode.md)
+`saveMode`：[`StructureSaveMode`](../structuresavemode.md)
 
 - 参数3。
 
@@ -42,7 +42,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 ////
 
 //// define
-返回值：[`Structure`](./structure.md)
+返回值：[`Structure`](../structure.md)
 
 - 返回值。
 
@@ -72,7 +72,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 ////
 
 //// define
-`dimension`：[`Dimension`](./dimension.md)
+`dimension`：[`Dimension`](../dimension.md)
 
 - 参数2。
 
@@ -80,7 +80,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 ////
 
 //// define
-`blockVolume`：[`BlockVolume`](./blockvolume.md)
+`blockVolume`：[`BlockVolume`](../blockvolume.md)
 
 - 参数3。
 
@@ -88,7 +88,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 ////
 
 //// define
-`options`：[`StructureCreateOptions`](./structurecreateoptions.md)|`undefined`
+`options`：[`StructureCreateOptions`](../structurecreateoptions.md)|`undefined`
 
 - 参数4。
 
@@ -96,7 +96,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 ////
 
 //// define
-返回值：[`Structure`](./structure.md)
+返回值：[`Structure`](../structure.md)
 
 - 返回值。
 
@@ -118,7 +118,7 @@ delete(structure: string | Structure): boolean
 
 /// html | div.result
 //// define
-`structure`：`string`|[`Structure`](./structure.md)
+`structure`：`string`|[`Structure`](../structure.md)
 
 - 参数1。
 
@@ -156,7 +156,7 @@ get(identifier: string): Structure | undefined
 ////
 
 //// define
-返回值：[`Structure`](./structure.md)|`undefined`
+返回值：[`Structure`](../structure.md)|`undefined`
 
 - 返回值。
 
@@ -177,6 +177,13 @@ getIds(): string[]
 ```
 
 /// html | div.result
+//// define
+返回值：`string[]`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -193,7 +200,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 
 /// html | div.result
 //// define
-`structure`：`string`|[`Structure`](./structure.md)
+`structure`：`string`|[`Structure`](../structure.md)
 
 - 参数1。
 
@@ -201,7 +208,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 ////
 
 //// define
-`dimension`：[`Dimension`](./dimension.md)
+`dimension`：[`Dimension`](../dimension.md)
 
 - 参数2。
 
@@ -209,7 +216,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 ////
 
 //// define
-`location`：[`Vector3`](./vector3.md)
+`location`：[`Vector3`](../vector3.md)
 
 - 参数3。
 
@@ -217,7 +224,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 ////
 
 //// define
-`options`：[`StructurePlaceOptions`](./structureplaceoptions.md)|`undefined`
+`options`：[`StructurePlaceOptions`](../structureplaceoptions.md)|`undefined`
 
 - 参数4。
 

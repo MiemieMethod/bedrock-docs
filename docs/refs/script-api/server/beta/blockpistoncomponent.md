@@ -54,6 +54,13 @@ getAttachedBlocks(): Block[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../block.md">Block</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -69,6 +76,13 @@ getAttachedBlocksLocations(): Vector3[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../vector3.md">Vector3</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

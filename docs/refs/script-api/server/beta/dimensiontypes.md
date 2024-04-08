@@ -26,7 +26,7 @@ static get(dimensionTypeId: string): DimensionType | undefined
 ////
 
 //// define
-返回值：[`DimensionType`](./dimensiontype.md)|`undefined`
+返回值：[`DimensionType`](../dimensiontype.md)|`undefined`
 
 - 返回值。
 
@@ -47,6 +47,13 @@ static getAll(): DimensionType[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../dimensiontype.md">DimensionType</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

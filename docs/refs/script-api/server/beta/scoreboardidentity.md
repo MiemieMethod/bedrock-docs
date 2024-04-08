@@ -52,6 +52,13 @@ getEntity(): Entity | undefined
 ```
 
 /// html | div.result
+//// define
+返回值：[`Entity`](../entity.md)|`undefined`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -67,6 +74,13 @@ isValid(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 

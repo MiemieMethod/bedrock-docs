@@ -31,7 +31,7 @@ addDye(itemType: ItemType): void
 
 /// html | div.result
 //// define
-`itemType`：[`ItemType`](./itemtype.md)
+`itemType`：[`ItemType`](../itemtype.md)
 
 - 参数1。
 
@@ -60,6 +60,13 @@ getCustomColor(): RGBA
 ```
 
 /// html | div.result
+//// define
+返回值：[`RGBA`](../rgba.md)
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -76,7 +83,7 @@ setCustomColor(color: RGBA): void
 
 /// html | div.result
 //// define
-`color`：[`RGBA`](./rgba.md)
+`color`：[`RGBA`](../rgba.md)
 
 - 参数1。
 

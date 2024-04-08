@@ -42,7 +42,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 
 /// html | div.result
 //// define
-`from`：[`Vector3`](./vector3.md)
+`from`：[`Vector3`](../vector3.md)
 
 - 参数1。
 
@@ -50,7 +50,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 ////
 
 //// define
-`to`：[`Vector3`](./vector3.md)
+`to`：[`Vector3`](../vector3.md)
 
 - 参数2。
 
@@ -58,7 +58,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 ////
 
 //// define
-返回值：[`BlockVolume`](./blockvolume.md)
+返回值：[`BlockVolume`](../blockvolume.md)
 
 - 返回值。
 
@@ -80,7 +80,7 @@ doesLocationTouchFaces(pos: Vector3): boolean
 
 /// html | div.result
 //// define
-`pos`：[`Vector3`](./vector3.md)
+`pos`：[`Vector3`](../vector3.md)
 
 - 参数1。
 
@@ -110,7 +110,7 @@ doesVolumeTouchFaces(other: BlockVolume): boolean
 
 /// html | div.result
 //// define
-`other`：[`BlockVolume`](./blockvolume.md)
+`other`：[`BlockVolume`](../blockvolume.md)
 
 - 参数1。
 
@@ -140,7 +140,7 @@ intersects(other: BlockVolume): BlockVolumeIntersection
 
 /// html | div.result
 //// define
-`other`：[`BlockVolume`](./blockvolume.md)
+`other`：[`BlockVolume`](../blockvolume.md)
 
 - 参数1。
 
@@ -148,7 +148,7 @@ intersects(other: BlockVolume): BlockVolumeIntersection
 ////
 
 //// define
-返回值：[`BlockVolumeIntersection`](./blockvolumeintersection.md)
+返回值：[`BlockVolumeIntersection`](../blockvolumeintersection.md)
 
 - 返回值。
 

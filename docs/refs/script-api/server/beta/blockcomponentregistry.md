@@ -26,7 +26,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 ////
 
 //// define
-`customComponent`：[`BlockCustomComponent`](./blockcustomcomponent.md)
+`customComponent`：[`BlockCustomComponent`](../blockcustomcomponent.md)
 
 - 参数2。
 

@@ -160,7 +160,7 @@ above(steps: int32): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](./block.md)|`undefined`
+返回值：[`Block`](../block.md)|`undefined`
 
 - 返回值。
 
@@ -190,7 +190,7 @@ below(steps: int32): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](./block.md)|`undefined`
+返回值：[`Block`](../block.md)|`undefined`
 
 - 返回值。
 
@@ -211,6 +211,13 @@ bottomCenter(): Vector3
 ```
 
 /// html | div.result
+//// define
+返回值：[`Vector3`](../vector3.md)
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -227,7 +234,7 @@ canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Di
 
 /// html | div.result
 //// define
-`blockToPlace`：[`BlockPermutation`](./blockpermutation.md)|[`BlockType`](./blocktype.md)|`string`
+`blockToPlace`：[`BlockPermutation`](../blockpermutation.md)|[`BlockType`](../blocktype.md)|`string`
 
 - 参数1。
 
@@ -235,7 +242,7 @@ canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Di
 ////
 
 //// define
-`faceToPlaceOn`：[`Direction`](./direction.md)|`undefined`
+`faceToPlaceOn`：[`Direction`](../direction.md)|`undefined`
 
 - 参数2。
 
@@ -264,6 +271,13 @@ center(): Vector3
 ```
 
 /// html | div.result
+//// define
+返回值：[`Vector3`](../vector3.md)
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -288,7 +302,7 @@ east(steps: int32): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](./block.md)|`undefined`
+返回值：[`Block`](../block.md)|`undefined`
 
 - 返回值。
 
@@ -318,7 +332,7 @@ getComponent(componentId: string): BlockComponent | undefined
 ////
 
 //// define
-返回值：[`BlockComponent`](./blockcomponent.md)|`undefined`
+返回值：[`BlockComponent`](../blockcomponent.md)|`undefined`
 
 - 返回值。
 
@@ -356,7 +370,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 ////
 
 //// define
-返回值：[`ItemStack`](./itemstack.md)|`undefined`
+返回值：[`ItemStack`](../itemstack.md)|`undefined`
 
 - 返回值。
 
@@ -377,6 +391,13 @@ getRedstonePower(): int32 | undefined
 ```
 
 /// html | div.result
+//// define
+返回值：`int32`|`undefined`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -392,6 +413,13 @@ getTags(): string[]
 ```
 
 /// html | div.result
+//// define
+返回值：`string[]`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -437,6 +465,13 @@ isValid(): boolean
 ```
 
 /// html | div.result
+//// define
+返回值：`boolean`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -499,7 +534,7 @@ north(steps: int32): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](./block.md)|`undefined`
+返回值：[`Block`](../block.md)|`undefined`
 
 - 返回值。
 
@@ -521,7 +556,7 @@ offset(offset: Vector3): Block | undefined
 
 /// html | div.result
 //// define
-`offset`：[`Vector3`](./vector3.md)
+`offset`：[`Vector3`](../vector3.md)
 
 - 参数1。
 
@@ -529,7 +564,7 @@ offset(offset: Vector3): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](./block.md)|`undefined`
+返回值：[`Block`](../block.md)|`undefined`
 
 - 返回值。
 
@@ -551,7 +586,7 @@ setPermutation(permutation: BlockPermutation): void
 
 /// html | div.result
 //// define
-`permutation`：[`BlockPermutation`](./blockpermutation.md)
+`permutation`：[`BlockPermutation`](../blockpermutation.md)
 
 - 参数1。
 
@@ -581,7 +616,7 @@ setType(blockType: BlockType | string): void
 
 /// html | div.result
 //// define
-`blockType`：[`BlockType`](./blocktype.md)|`string`
+`blockType`：[`BlockType`](../blocktype.md)|`string`
 
 - 参数1。
 
@@ -649,7 +684,7 @@ south(steps: int32): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](./block.md)|`undefined`
+返回值：[`Block`](../block.md)|`undefined`
 
 - 返回值。
 
@@ -671,7 +706,7 @@ trySetPermutation(permutation: BlockPermutation): boolean
 
 /// html | div.result
 //// define
-`permutation`：[`BlockPermutation`](./blockpermutation.md)
+`permutation`：[`BlockPermutation`](../blockpermutation.md)
 
 - 参数1。
 
@@ -709,7 +744,7 @@ west(steps: int32): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](./block.md)|`undefined`
+返回值：[`Block`](../block.md)|`undefined`
 
 - 返回值。
 

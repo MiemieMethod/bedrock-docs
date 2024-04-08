@@ -18,7 +18,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 
 /// html | div.result
 //// define
-`min`：[`Vector3`](./vector3.md)
+`min`：[`Vector3`](../vector3.md)
 
 - 参数1。
 
@@ -26,7 +26,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 ////
 
 //// define
-`max`：[`Vector3`](./vector3.md)
+`max`：[`Vector3`](../vector3.md)
 
 - 参数2。
 
@@ -34,7 +34,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 ////
 
 //// define
-返回值：[`BoundingBox`](./boundingbox.md)
+返回值：[`BoundingBox`](../boundingbox.md)
 
 - 返回值。
 
@@ -56,7 +56,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -64,7 +64,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 ////
 
 //// define
-`size`：[`Vector3`](./vector3.md)
+`size`：[`Vector3`](../vector3.md)
 
 - 参数2。
 
@@ -72,7 +72,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 ////
 
 //// define
-返回值：[`BoundingBox`](./boundingbox.md)
+返回值：[`BoundingBox`](../boundingbox.md)
 
 - 返回值。
 
@@ -94,7 +94,7 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -102,7 +102,7 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 ////
 
 //// define
-`other`：[`BoundingBox`](./boundingbox.md)
+`other`：[`BoundingBox`](../boundingbox.md)
 
 - 参数2。
 
@@ -132,7 +132,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -140,7 +140,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 ////
 
 //// define
-`other`：[`BoundingBox`](./boundingbox.md)
+`other`：[`BoundingBox`](../boundingbox.md)
 
 - 参数2。
 
@@ -148,7 +148,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 ////
 
 //// define
-返回值：[`BoundingBox`](./boundingbox.md)
+返回值：[`BoundingBox`](../boundingbox.md)
 
 - 返回值。
 
@@ -170,7 +170,7 @@ static getCenter(box: BoundingBox): Vector3
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -178,7 +178,7 @@ static getCenter(box: BoundingBox): Vector3
 ////
 
 //// define
-返回值：[`Vector3`](./vector3.md)
+返回值：[`Vector3`](../vector3.md)
 
 - 返回值。
 
@@ -200,7 +200,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -208,7 +208,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 ////
 
 //// define
-`other`：[`BoundingBox`](./boundingbox.md)
+`other`：[`BoundingBox`](../boundingbox.md)
 
 - 参数2。
 
@@ -216,7 +216,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 ////
 
 //// define
-返回值：[`BoundingBox`](./boundingbox.md)|`undefined`
+返回值：[`BoundingBox`](../boundingbox.md)|`undefined`
 
 - 返回值。
 
@@ -238,7 +238,7 @@ static getSpan(box: BoundingBox): Vector3
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -246,7 +246,7 @@ static getSpan(box: BoundingBox): Vector3
 ////
 
 //// define
-返回值：[`Vector3`](./vector3.md)
+返回值：[`Vector3`](../vector3.md)
 
 - 返回值。
 
@@ -268,7 +268,7 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -276,7 +276,7 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 ////
 
 //// define
-`other`：[`BoundingBox`](./boundingbox.md)
+`other`：[`BoundingBox`](../boundingbox.md)
 
 - 参数2。
 
@@ -306,7 +306,7 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -314,7 +314,7 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 ////
 
 //// define
-`pos`：[`Vector3`](./vector3.md)
+`pos`：[`Vector3`](../vector3.md)
 
 - 参数2。
 
@@ -344,7 +344,7 @@ static isValid(box: BoundingBox): boolean
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -374,7 +374,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 
 /// html | div.result
 //// define
-`box`：[`BoundingBox`](./boundingbox.md)
+`box`：[`BoundingBox`](../boundingbox.md)
 
 - 参数1。
 
@@ -382,7 +382,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 ////
 
 //// define
-`delta`：[`Vector3`](./vector3.md)
+`delta`：[`Vector3`](../vector3.md)
 
 - 参数2。
 
@@ -390,7 +390,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 ////
 
 //// define
-返回值：[`BoundingBox`](./boundingbox.md)
+返回值：[`BoundingBox`](../boundingbox.md)
 
 - 返回值。
 

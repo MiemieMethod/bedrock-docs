@@ -110,7 +110,7 @@ addRider(rider: Entity): boolean
 
 /// html | div.result
 //// define
-`rider`：[`Entity`](./entity.md)
+`rider`：[`Entity`](../entity.md)
 
 - 参数1。
 
@@ -140,7 +140,7 @@ ejectRider(rider: Entity): void
 
 /// html | div.result
 //// define
-`rider`：[`Entity`](./entity.md)
+`rider`：[`Entity`](../entity.md)
 
 - 参数1。
 
@@ -169,6 +169,13 @@ ejectRiders(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -184,6 +191,13 @@ getFamilyTypes(): string[]
 ```
 
 /// html | div.result
+//// define
+返回值：`string[]`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -199,6 +213,13 @@ getRiders(): Entity[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../entity.md">Entity</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -214,6 +235,13 @@ getSeats(): Seat[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../seat.md">Seat</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

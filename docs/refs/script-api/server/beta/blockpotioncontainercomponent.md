@@ -31,7 +31,7 @@ setPotionType(itemStack: ItemStack): void
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)
+`itemStack`：[`ItemStack`](../itemstack.md)
 
 - 参数1。
 

@@ -17,6 +17,13 @@
 ```
 
 /// html | div.result
+//// define
+返回值：`Iterator<Vector3>`
+
+- 返回值。
+
+
+////
 
 ///
 
@@ -32,6 +39,13 @@ next(): IteratorResult<Vector3>
 ```
 
 /// html | div.result
+//// define
+返回值：`IteratorResult<Vector3>`
+
+- 返回值。
+
+
+////
 
 ///
 

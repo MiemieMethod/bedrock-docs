@@ -41,6 +41,13 @@ getEffects(): FeedItemEffect[]
 ```
 
 /// html | div.result
+//// define
+返回值：<code><a href="../feeditemeffect.md">FeedItemEffect</a>[]</code>
+
+- 返回值。
+
+
+////
 
 ///
 

@@ -44,7 +44,7 @@ leash(leashHolder: Entity): void
 
 /// html | div.result
 //// define
-`leashHolder`：[`Entity`](./entity.md)
+`leashHolder`：[`Entity`](../entity.md)
 
 - 参数1。
 
@@ -73,6 +73,13 @@ unleash(): void
 ```
 
 /// html | div.result
+//// define
+返回值：`void`
+
+- 返回值。
+
+
+////
 
 ///
 
