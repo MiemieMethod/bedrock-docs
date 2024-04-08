@@ -53,7 +53,7 @@ getEntity(): Entity | undefined
 
 /// html | div.result
 //// define
-返回值：[`Entity`](../entity.md)|`undefined`
+返回值：[`Entity`](./entity.md)|`undefined`
 
 - 返回值。
 

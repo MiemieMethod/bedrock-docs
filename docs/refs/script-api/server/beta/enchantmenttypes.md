@@ -26,7 +26,7 @@ static get(enchantmentId: string): EnchantmentType | undefined
 ////
 
 //// define
-返回值：[`EnchantmentType`](../enchantmenttype.md)|`undefined`
+返回值：[`EnchantmentType`](./enchantmenttype.md)|`undefined`
 
 - 返回值。
 

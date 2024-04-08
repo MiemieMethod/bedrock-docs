@@ -56,7 +56,7 @@ new constructor(locations: Vector3[]): ListBlockVolume
 ////
 
 //// define
-返回值：[`ListBlockVolume`](../listblockvolume.md)
+返回值：[`ListBlockVolume`](./listblockvolume.md)
 
 - 返回值。
 

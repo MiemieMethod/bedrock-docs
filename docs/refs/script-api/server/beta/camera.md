@@ -40,7 +40,7 @@ fade(fadeCameraOptions?: CameraFadeOptions): void
 
 /// html | div.result
 //// define
-`fadeCameraOptions`：[`CameraFadeOptions`](../camerafadeoptions.md)|`undefined`
+`fadeCameraOptions`：[`CameraFadeOptions`](./camerafadeoptions.md)|`undefined`
 
 - 参数1。
 

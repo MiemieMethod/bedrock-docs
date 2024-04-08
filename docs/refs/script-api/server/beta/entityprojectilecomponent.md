@@ -187,7 +187,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 
 /// html | div.result
 //// define
-`velocity`：[`Vector3`](../vector3.md)
+`velocity`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -195,7 +195,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 ////
 
 //// define
-`options`：[`ProjectileShootOptions`](../projectileshootoptions.md)|`undefined`
+`options`：[`ProjectileShootOptions`](./projectileshootoptions.md)|`undefined`
 
 - 参数2。
 

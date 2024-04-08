@@ -26,7 +26,7 @@ static get(identifier: string): EntityType | undefined
 ////
 
 //// define
-返回值：[`EntityType`](../entitytype.md)|`undefined`
+返回值：[`EntityType`](./entitytype.md)|`undefined`
 
 - 返回值。
 

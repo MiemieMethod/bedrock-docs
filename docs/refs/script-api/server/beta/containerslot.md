@@ -182,7 +182,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 ////
 
 //// define
-返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 返回值。
 
@@ -248,7 +248,7 @@ getItem(): ItemStack | undefined
 
 /// html | div.result
 //// define
-返回值：[`ItemStack`](../itemstack.md)|`undefined`
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
 - 返回值。
 
@@ -366,7 +366,7 @@ isStackableWith(itemStack: ItemStack): boolean
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](../itemstack.md)
+`itemStack`：[`ItemStack`](./itemstack.md)
 
 - 参数1。
 
@@ -486,7 +486,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 参数2。
 
@@ -516,7 +516,7 @@ setItem(itemStack?: ItemStack): void
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](../itemstack.md)|`undefined`
+`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
 - 参数1。
 

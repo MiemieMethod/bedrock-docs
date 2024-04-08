@@ -44,7 +44,7 @@ getRawText(side: SignSide): RawText | undefined
 
 /// html | div.result
 //// define
-`side`：[`SignSide`](../signside.md)
+`side`：[`SignSide`](./signside.md)
 
 - 参数1。
 
@@ -52,7 +52,7 @@ getRawText(side: SignSide): RawText | undefined
 ////
 
 //// define
-返回值：[`RawText`](../rawtext.md)|`undefined`
+返回值：[`RawText`](./rawtext.md)|`undefined`
 
 - 返回值。
 
@@ -74,7 +74,7 @@ getText(side: SignSide): string | undefined
 
 /// html | div.result
 //// define
-`side`：[`SignSide`](../signside.md)
+`side`：[`SignSide`](./signside.md)
 
 - 参数1。
 
@@ -104,7 +104,7 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 
 /// html | div.result
 //// define
-`side`：[`SignSide`](../signside.md)
+`side`：[`SignSide`](./signside.md)
 
 - 参数1。
 
@@ -112,7 +112,7 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 ////
 
 //// define
-返回值：[`DyeColor`](../dyecolor.md)|`undefined`
+返回值：[`DyeColor`](./dyecolor.md)|`undefined`
 
 - 返回值。
 
@@ -134,7 +134,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 
 /// html | div.result
 //// define
-`message`：[`RawMessage`](../rawmessage.md)|[`RawText`](../rawtext.md)|`string`
+`message`：[`RawMessage`](./rawmessage.md)|[`RawText`](./rawtext.md)|`string`
 
 - 参数1。
 
@@ -142,7 +142,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 ////
 
 //// define
-`side`：[`SignSide`](../signside.md)
+`side`：[`SignSide`](./signside.md)
 
 - 参数2。
 
@@ -172,7 +172,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 
 /// html | div.result
 //// define
-`color`：[`DyeColor`](../dyecolor.md)|`undefined`
+`color`：[`DyeColor`](./dyecolor.md)|`undefined`
 
 - 参数1。
 
@@ -180,7 +180,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 ////
 
 //// define
-`side`：[`SignSide`](../signside.md)
+`side`：[`SignSide`](./signside.md)
 
 - 参数2。
 

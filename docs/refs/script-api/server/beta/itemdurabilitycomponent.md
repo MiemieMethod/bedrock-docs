@@ -85,7 +85,7 @@ getDamageChanceRange(): NumberRange
 
 /// html | div.result
 //// define
-返回值：[`NumberRange`](../../../common/1.1.0/numberrange.md)
+返回值：[`NumberRange`](../../common/1.1.0/numberrange.md)
 
 - 返回值。
 

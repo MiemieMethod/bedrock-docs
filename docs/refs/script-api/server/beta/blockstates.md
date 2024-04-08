@@ -26,7 +26,7 @@ static get(stateName: string): BlockStateType | undefined
 ////
 
 //// define
-返回值：[`BlockStateType`](../blockstatetype.md)|`undefined`
+返回值：[`BlockStateType`](./blockstatetype.md)|`undefined`
 
 - 返回值。
 

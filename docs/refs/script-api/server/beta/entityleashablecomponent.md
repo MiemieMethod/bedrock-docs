@@ -44,7 +44,7 @@ leash(leashHolder: Entity): void
 
 /// html | div.result
 //// define
-`leashHolder`：[`Entity`](../entity.md)
+`leashHolder`：[`Entity`](./entity.md)
 
 - 参数1。
 

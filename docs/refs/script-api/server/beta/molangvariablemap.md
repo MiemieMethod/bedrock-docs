@@ -18,7 +18,7 @@ new constructor(): MolangVariableMap
 
 /// html | div.result
 //// define
-返回值：[`MolangVariableMap`](../molangvariablemap.md)
+返回值：[`MolangVariableMap`](./molangvariablemap.md)
 
 - 返回值。
 
@@ -48,7 +48,7 @@ setColorRGB(variableName: string, color: RGB): void
 ////
 
 //// define
-`color`：[`RGB`](../rgb.md)
+`color`：[`RGB`](./rgb.md)
 
 - 参数2。
 
@@ -86,7 +86,7 @@ setColorRGBA(variableName: string, color: RGBA): void
 ////
 
 //// define
-`color`：[`RGBA`](../rgba.md)
+`color`：[`RGBA`](./rgba.md)
 
 - 参数2。
 
@@ -170,7 +170,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 ////
 
 //// define
-`direction`：[`Vector3`](../vector3.md)
+`direction`：[`Vector3`](./vector3.md)
 
 - 参数3。
 
@@ -208,7 +208,7 @@ setVector3(variableName: string, vector: Vector3): void
 ////
 
 //// define
-`vector`：[`Vector3`](../vector3.md)
+`vector`：[`Vector3`](./vector3.md)
 
 - 参数2。
 

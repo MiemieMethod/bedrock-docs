@@ -18,7 +18,7 @@ getBlockLocationIterator(): BlockLocationIterator
 
 /// html | div.result
 //// define
-返回值：[`BlockLocationIterator`](../blocklocationiterator.md)
+返回值：[`BlockLocationIterator`](./blocklocationiterator.md)
 
 - 返回值。
 
@@ -40,7 +40,7 @@ getBoundingBox(): BoundingBox
 
 /// html | div.result
 //// define
-返回值：[`BoundingBox`](../boundingbox.md)
+返回值：[`BoundingBox`](./boundingbox.md)
 
 - 返回值。
 
@@ -84,7 +84,7 @@ getMax(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -106,7 +106,7 @@ getMin(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -128,7 +128,7 @@ getSpan(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -150,7 +150,7 @@ isInside(pos: Vector3): boolean
 
 /// html | div.result
 //// define
-`pos`：[`Vector3`](../vector3.md)
+`pos`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -180,7 +180,7 @@ translate(delta: Vector3): void
 
 /// html | div.result
 //// define
-`delta`：[`Vector3`](../vector3.md)
+`delta`：[`Vector3`](./vector3.md)
 
 - 参数1。
 

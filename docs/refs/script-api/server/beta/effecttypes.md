@@ -26,7 +26,7 @@ static get(identifier: string): EffectType | undefined
 ////
 
 //// define
-返回值：[`EffectType`](../effecttype.md)|`undefined`
+返回值：[`EffectType`](./effecttype.md)|`undefined`
 
 - 返回值。
 

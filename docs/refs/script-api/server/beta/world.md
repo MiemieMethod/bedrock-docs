@@ -201,7 +201,7 @@ getDefaultSpawnLocation(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -231,7 +231,7 @@ getDimension(dimensionId: string): Dimension
 ////
 
 //// define
-返回值：[`Dimension`](../dimension.md)
+返回值：[`Dimension`](./dimension.md)
 
 - 返回值。
 
@@ -261,7 +261,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 ////
 
 //// define
-返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 返回值。
 
@@ -335,7 +335,7 @@ getEntity(id: string): Entity | undefined
 ////
 
 //// define
-返回值：[`Entity`](../entity.md)|`undefined`
+返回值：[`Entity`](./entity.md)|`undefined`
 
 - 返回值。
 
@@ -357,7 +357,7 @@ getMoonPhase(): MoonPhase
 
 /// html | div.result
 //// define
-返回值：[`MoonPhase`](../moonphase.md)
+返回值：[`MoonPhase`](./moonphase.md)
 
 - 返回值。
 
@@ -379,7 +379,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](../entityqueryoptions.md)|`undefined`
+`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
 - 参数1。
 
@@ -439,7 +439,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](../musicoptions.md)|`undefined`
+`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
 - 参数2。
 
@@ -477,7 +477,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 ////
 
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -485,7 +485,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 ////
 
 //// define
-`soundOptions`：[`WorldSoundOptions`](../worldsoundoptions.md)|`undefined`
+`soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
 
 - 参数3。
 
@@ -523,7 +523,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](../musicoptions.md)|`undefined`
+`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
 - 参数2。
 
@@ -553,7 +553,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 
 /// html | div.result
 //// define
-`message`：`RawMessage | string[]`|[`RawMessage`](../rawmessage.md)|`string`
+`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
 
 - 参数1。
 
@@ -613,7 +613,7 @@ setDefaultSpawnLocation(spawnLocation: Vector3): void
 
 /// html | div.result
 //// define
-`spawnLocation`：[`Vector3`](../vector3.md)
+`spawnLocation`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -651,7 +651,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 参数2。
 
@@ -681,7 +681,7 @@ setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 
 /// html | div.result
 //// define
-`timeOfDay`：`int32`|[`TimeOfDay`](../timeofday.md)
+`timeOfDay`：`int32`|[`TimeOfDay`](./timeofday.md)
 
 - 参数1。
 

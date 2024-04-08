@@ -130,7 +130,7 @@ clone(): ItemStack
 
 /// html | div.result
 //// define
-返回值：[`ItemStack`](../itemstack.md)
+返回值：[`ItemStack`](./itemstack.md)
 
 - 返回值。
 
@@ -152,7 +152,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 
 /// html | div.result
 //// define
-`itemType`：[`ItemType`](../itemtype.md)|`string`
+`itemType`：[`ItemType`](./itemtype.md)|`string`
 
 - 参数1。
 
@@ -168,7 +168,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 ////
 
 //// define
-返回值：[`ItemStack`](../itemstack.md)
+返回值：[`ItemStack`](./itemstack.md)
 
 - 返回值。
 
@@ -242,7 +242,7 @@ getComponent(componentId: string): ItemComponent | undefined
 ////
 
 //// define
-返回值：[`ItemComponent`](../itemcomponent.md)|`undefined`
+返回值：[`ItemComponent`](./itemcomponent.md)|`undefined`
 
 - 返回值。
 
@@ -294,7 +294,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 ////
 
 //// define
-返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 返回值。
 
@@ -464,7 +464,7 @@ isStackableWith(itemStack: ItemStack): boolean
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](../itemstack.md)
+`itemStack`：[`ItemStack`](./itemstack.md)
 
 - 参数1。
 
@@ -600,7 +600,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 参数2。
 

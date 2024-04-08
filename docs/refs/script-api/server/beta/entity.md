@@ -207,7 +207,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 
 /// html | div.result
 //// define
-`effectType`：[`EffectType`](../effecttype.md)|`string`
+`effectType`：[`EffectType`](./effecttype.md)|`string`
 
 - 参数1。
 
@@ -223,7 +223,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 ////
 
 //// define
-`options`：[`EntityEffectOptions`](../entityeffectoptions.md)|`undefined`
+`options`：[`EntityEffectOptions`](./entityeffectoptions.md)|`undefined`
 
 - 参数3。
 
@@ -231,7 +231,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 ////
 
 //// define
-返回值：[`Effect`](../effect.md)|`undefined`
+返回值：[`Effect`](./effect.md)|`undefined`
 
 - 返回值。
 
@@ -291,7 +291,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 ////
 
 //// define
-`options`：[`EntityApplyDamageByProjectileOptions`](../entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](../entityapplydamageoptions.md)|`undefined`
+`options`：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)|`undefined`
 
 - 参数2。
 
@@ -321,7 +321,7 @@ applyImpulse(vector: Vector3): void
 
 /// html | div.result
 //// define
-`vector`：[`Vector3`](../vector3.md)
+`vector`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -479,7 +479,7 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 
 /// html | div.result
 //// define
-`options`：[`BlockRaycastOptions`](../blockraycastoptions.md)|`undefined`
+`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
 - 参数1。
 
@@ -487,7 +487,7 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 ////
 
 //// define
-返回值：[`BlockRaycastHit`](../blockraycasthit.md)|`undefined`
+返回值：[`BlockRaycastHit`](./blockraycasthit.md)|`undefined`
 
 - 返回值。
 
@@ -517,7 +517,7 @@ getComponent(componentId: string): EntityComponent | undefined
 ////
 
 //// define
-返回值：[`EntityComponent`](../entitycomponent.md)|`undefined`
+返回值：[`EntityComponent`](./entitycomponent.md)|`undefined`
 
 - 返回值。
 
@@ -569,7 +569,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 ////
 
 //// define
-返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 返回值。
 
@@ -635,7 +635,7 @@ getEffect(effectType: EffectType | string): Effect | undefined
 
 /// html | div.result
 //// define
-`effectType`：[`EffectType`](../effecttype.md)|`string`
+`effectType`：[`EffectType`](./effecttype.md)|`string`
 
 - 参数1。
 
@@ -643,7 +643,7 @@ getEffect(effectType: EffectType | string): Effect | undefined
 ////
 
 //// define
-返回值：[`Effect`](../effect.md)|`undefined`
+返回值：[`Effect`](./effect.md)|`undefined`
 
 - 返回值。
 
@@ -687,7 +687,7 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 
 /// html | div.result
 //// define
-`options`：[`EntityRaycastOptions`](../entityraycastoptions.md)|`undefined`
+`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
 - 参数1。
 
@@ -717,7 +717,7 @@ getHeadLocation(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -769,7 +769,7 @@ getRotation(): Vector2
 
 /// html | div.result
 //// define
-返回值：[`Vector2`](../vector2.md)
+返回值：[`Vector2`](./vector2.md)
 
 - 返回值。
 
@@ -813,7 +813,7 @@ getVelocity(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -835,7 +835,7 @@ getViewDirection(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -961,7 +961,7 @@ matches(options: EntityQueryOptions): boolean
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](../entityqueryoptions.md)
+`options`：[`EntityQueryOptions`](./entityqueryoptions.md)
 
 - 参数1。
 
@@ -999,7 +999,7 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 ////
 
 //// define
-`options`：[`PlayAnimationOptions`](../playanimationoptions.md)|`undefined`
+`options`：[`PlayAnimationOptions`](./playanimationoptions.md)|`undefined`
 
 - 参数2。
 
@@ -1051,7 +1051,7 @@ removeEffect(effectType: EffectType | string): boolean
 
 /// html | div.result
 //// define
-`effectType`：[`EffectType`](../effecttype.md)|`string`
+`effectType`：[`EffectType`](./effecttype.md)|`string`
 
 - 参数1。
 
@@ -1149,7 +1149,7 @@ runCommand(commandString: string): CommandResult
 ////
 
 //// define
-返回值：[`CommandResult`](../commandresult.md)
+返回值：[`CommandResult`](./commandresult.md)
 
 - 返回值。
 
@@ -1209,7 +1209,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](../vector3.md)|`undefined`
+`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
 - 参数2。
 
@@ -1315,7 +1315,7 @@ setRotation(rotation: Vector2): void
 
 /// html | div.result
 //// define
-`rotation`：[`Vector2`](../vector2.md)
+`rotation`：[`Vector2`](./vector2.md)
 
 - 参数1。
 
@@ -1345,7 +1345,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -1353,7 +1353,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 ////
 
 //// define
-`teleportOptions`：[`TeleportOptions`](../teleportoptions.md)|`undefined`
+`teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
 
 - 参数2。
 
@@ -1413,7 +1413,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -1421,7 +1421,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 ////
 
 //// define
-`teleportOptions`：[`TeleportOptions`](../teleportoptions.md)|`undefined`
+`teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
 
 - 参数2。
 

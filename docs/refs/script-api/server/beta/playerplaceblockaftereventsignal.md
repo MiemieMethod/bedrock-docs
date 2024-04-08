@@ -26,7 +26,7 @@ subscribe(callback: (arg: PlayerPlaceBlockAfterEvent) => void, options?: BlockEv
 ////
 
 //// define
-`options`：[`BlockEventOptions`](../blockeventoptions.md)|`undefined`
+`options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
 
 - 参数2。
 

@@ -75,7 +75,7 @@ setRecord(recordItemType: ItemType | string): void
 
 /// html | div.result
 //// define
-`recordItemType`：[`ItemType`](../itemtype.md)|`string`
+`recordItemType`：[`ItemType`](./itemtype.md)|`string`
 
 - 参数1。
 

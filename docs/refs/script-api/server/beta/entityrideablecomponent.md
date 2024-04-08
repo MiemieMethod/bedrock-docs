@@ -110,7 +110,7 @@ addRider(rider: Entity): boolean
 
 /// html | div.result
 //// define
-`rider`：[`Entity`](../entity.md)
+`rider`：[`Entity`](./entity.md)
 
 - 参数1。
 
@@ -140,7 +140,7 @@ ejectRider(rider: Entity): void
 
 /// html | div.result
 //// define
-`rider`：[`Entity`](../entity.md)
+`rider`：[`Entity`](./entity.md)
 
 - 参数1。
 

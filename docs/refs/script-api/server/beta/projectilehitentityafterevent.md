@@ -75,7 +75,7 @@ getEntityHit(): EntityHitInformation
 
 /// html | div.result
 //// define
-返回值：[`EntityHitInformation`](../entityhitinformation.md)
+返回值：[`EntityHitInformation`](./entityhitinformation.md)
 
 - 返回值。
 

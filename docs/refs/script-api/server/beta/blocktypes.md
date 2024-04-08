@@ -26,7 +26,7 @@ static get(typeName: string): BlockType | undefined
 ////
 
 //// define
-返回值：[`BlockType`](../blocktype.md)|`undefined`
+返回值：[`BlockType`](./blocktype.md)|`undefined`
 
 - 返回值。
 

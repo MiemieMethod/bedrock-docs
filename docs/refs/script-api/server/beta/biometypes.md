@@ -26,7 +26,7 @@ static get(typeName: string): BiomeType | undefined
 ////
 
 //// define
-返回值：[`BiomeType`](../biometype.md)|`undefined`
+返回值：[`BiomeType`](./biometype.md)|`undefined`
 
 - 返回值。
 

@@ -75,7 +75,7 @@ getBlockHit(): BlockHitInformation
 
 /// html | div.result
 //// define
-返回值：[`BlockHitInformation`](../blockhitinformation.md)
+返回值：[`BlockHitInformation`](./blockhitinformation.md)
 
 - 返回值。
 

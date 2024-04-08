@@ -42,7 +42,7 @@ containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks:
 
 /// html | div.result
 //// define
-`volume`：[`BlockVolumeBase`](../blockvolumebase.md)
+`volume`：[`BlockVolumeBase`](./blockvolumebase.md)
 
 - 参数1。
 
@@ -50,7 +50,7 @@ containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks:
 ////
 
 //// define
-`filter`：[`BlockFilter`](../blockfilter.md)
+`filter`：[`BlockFilter`](./blockfilter.md)
 
 - 参数2。
 
@@ -88,7 +88,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -104,7 +104,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 ////
 
 //// define
-`explosionOptions`：[`ExplosionOptions`](../explosionoptions.md)|`undefined`
+`explosionOptions`：[`ExplosionOptions`](./explosionoptions.md)|`undefined`
 
 - 参数3。
 
@@ -134,7 +134,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 
 /// html | div.result
 //// define
-`begin`：[`Vector3`](../vector3.md)
+`begin`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -142,7 +142,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 ////
 
 //// define
-`end`：[`Vector3`](../vector3.md)
+`end`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -150,7 +150,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 ////
 
 //// define
-`block`：[`BlockPermutation`](../blockpermutation.md)|[`BlockType`](../blocktype.md)|`string`
+`block`：[`BlockPermutation`](./blockpermutation.md)|[`BlockType`](./blocktype.md)|`string`
 
 - 参数3。
 
@@ -158,7 +158,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 ////
 
 //// define
-`options`：[`BlockFillOptions`](../blockfilloptions.md)|`undefined`
+`options`：[`BlockFillOptions`](./blockfilloptions.md)|`undefined`
 
 - 参数4。
 
@@ -188,7 +188,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 
 /// html | div.result
 //// define
-`pos`：[`Vector3`](../vector3.md)
+`pos`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -196,7 +196,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 ////
 
 //// define
-`biomeToFind`：[`BiomeType`](../biometype.md)|`string`
+`biomeToFind`：[`BiomeType`](./biometype.md)|`string`
 
 - 参数2。
 
@@ -204,7 +204,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 ////
 
 //// define
-`options`：[`BiomeSearchOptions`](../biomesearchoptions.md)|`undefined`
+`options`：[`BiomeSearchOptions`](./biomesearchoptions.md)|`undefined`
 
 - 参数3。
 
@@ -212,7 +212,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 ////
 
 //// define
-返回值：[`Vector3`](../vector3.md)|`undefined`
+返回值：[`Vector3`](./vector3.md)|`undefined`
 
 - 返回值。
 
@@ -234,7 +234,7 @@ getBlock(location: Vector3): Block | undefined
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -242,7 +242,7 @@ getBlock(location: Vector3): Block | undefined
 ////
 
 //// define
-返回值：[`Block`](../block.md)|`undefined`
+返回值：[`Block`](./block.md)|`undefined`
 
 - 返回值。
 
@@ -264,7 +264,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -272,7 +272,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 ////
 
 //// define
-`direction`：[`Vector3`](../vector3.md)
+`direction`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -280,7 +280,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 ////
 
 //// define
-`options`：[`BlockRaycastOptions`](../blockraycastoptions.md)|`undefined`
+`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
 - 参数3。
 
@@ -288,7 +288,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 ////
 
 //// define
-返回值：[`BlockRaycastHit`](../blockraycasthit.md)|`undefined`
+返回值：[`BlockRaycastHit`](./blockraycasthit.md)|`undefined`
 
 - 返回值。
 
@@ -310,7 +310,7 @@ getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boo
 
 /// html | div.result
 //// define
-`volume`：[`BlockVolumeBase`](../blockvolumebase.md)
+`volume`：[`BlockVolumeBase`](./blockvolumebase.md)
 
 - 参数1。
 
@@ -318,7 +318,7 @@ getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boo
 ////
 
 //// define
-`filter`：[`BlockFilter`](../blockfilter.md)
+`filter`：[`BlockFilter`](./blockfilter.md)
 
 - 参数2。
 
@@ -334,7 +334,7 @@ getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boo
 ////
 
 //// define
-返回值：[`ListBlockVolume`](../listblockvolume.md)
+返回值：[`ListBlockVolume`](./listblockvolume.md)
 
 - 返回值。
 
@@ -356,7 +356,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](../entityqueryoptions.md)|`undefined`
+`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
 - 参数1。
 
@@ -386,7 +386,7 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -416,7 +416,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -424,7 +424,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 ////
 
 //// define
-`direction`：[`Vector3`](../vector3.md)
+`direction`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -432,7 +432,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 ////
 
 //// define
-`options`：[`EntityRaycastOptions`](../entityraycastoptions.md)|`undefined`
+`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
 - 参数3。
 
@@ -462,7 +462,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](../entityqueryoptions.md)|`undefined`
+`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
 - 参数1。
 
@@ -492,7 +492,7 @@ getWeather(): WeatherType
 
 /// html | div.result
 //// define
-返回值：[`WeatherType`](../weathertype.md)
+返回值：[`WeatherType`](./weathertype.md)
 
 - 返回值。
 
@@ -522,7 +522,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 ////
 
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -530,7 +530,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 ////
 
 //// define
-`soundOptions`：[`WorldSoundOptions`](../worldsoundoptions.md)|`undefined`
+`soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
 
 - 参数3。
 
@@ -568,7 +568,7 @@ runCommand(commandString: string): CommandResult
 ////
 
 //// define
-返回值：[`CommandResult`](../commandresult.md)
+返回值：[`CommandResult`](./commandresult.md)
 
 - 返回值。
 
@@ -620,7 +620,7 @@ setBlockPermutation(location: Vector3, permutation: BlockPermutation): void
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -628,7 +628,7 @@ setBlockPermutation(location: Vector3, permutation: BlockPermutation): void
 ////
 
 //// define
-`permutation`：[`BlockPermutation`](../blockpermutation.md)
+`permutation`：[`BlockPermutation`](./blockpermutation.md)
 
 - 参数2。
 
@@ -658,7 +658,7 @@ setBlockType(location: Vector3, blockType: BlockType | string): void
 
 /// html | div.result
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -666,7 +666,7 @@ setBlockType(location: Vector3, blockType: BlockType | string): void
 ////
 
 //// define
-`blockType`：[`BlockType`](../blocktype.md)|`string`
+`blockType`：[`BlockType`](./blocktype.md)|`string`
 
 - 参数2。
 
@@ -696,7 +696,7 @@ setWeather(weatherType: WeatherType, duration?: int32): void
 
 /// html | div.result
 //// define
-`weatherType`：[`WeatherType`](../weathertype.md)
+`weatherType`：[`WeatherType`](./weathertype.md)
 
 - 参数1。
 
@@ -742,7 +742,7 @@ spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions)
 ////
 
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -750,7 +750,7 @@ spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions)
 ////
 
 //// define
-`options`：[`SpawnEntityOptions`](../spawnentityoptions.md)|`undefined`
+`options`：[`SpawnEntityOptions`](./spawnentityoptions.md)|`undefined`
 
 - 参数3。
 
@@ -758,7 +758,7 @@ spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions)
 ////
 
 //// define
-返回值：[`Entity`](../entity.md)
+返回值：[`Entity`](./entity.md)
 
 - 返回值。
 
@@ -780,7 +780,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](../itemstack.md)
+`itemStack`：[`ItemStack`](./itemstack.md)
 
 - 参数1。
 
@@ -788,7 +788,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 ////
 
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -796,7 +796,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 ////
 
 //// define
-返回值：[`Entity`](../entity.md)
+返回值：[`Entity`](./entity.md)
 
 - 返回值。
 
@@ -826,7 +826,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 ////
 
 //// define
-`location`：[`Vector3`](../vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
 - 参数2。
 
@@ -834,7 +834,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 ////
 
 //// define
-`molangVariables`：[`MolangVariableMap`](../molangvariablemap.md)|`undefined`
+`molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
 
 - 参数3。
 

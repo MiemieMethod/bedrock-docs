@@ -26,7 +26,7 @@ static get(itemId: string): ItemType | undefined
 ////
 
 //// define
-返回值：[`ItemType`](../itemtype.md)|`undefined`
+返回值：[`ItemType`](./itemtype.md)|`undefined`
 
 - 返回值。
 

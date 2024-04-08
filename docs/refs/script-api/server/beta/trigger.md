@@ -39,7 +39,7 @@ new constructor(eventName: string): Trigger
 ////
 
 //// define
-返回值：[`Trigger`](../trigger.md)
+返回值：[`Trigger`](./trigger.md)
 
 - 返回值。
 

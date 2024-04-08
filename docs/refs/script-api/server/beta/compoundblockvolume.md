@@ -64,7 +64,7 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 
 /// html | div.result
 //// define
-`origin`：[`Vector3`](../vector3.md)|`undefined`
+`origin`：[`Vector3`](./vector3.md)|`undefined`
 
 - 参数1。
 
@@ -72,7 +72,7 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 ////
 
 //// define
-返回值：[`CompoundBlockVolume`](../compoundblockvolume.md)
+返回值：[`CompoundBlockVolume`](./compoundblockvolume.md)
 
 - 返回值。
 
@@ -94,7 +94,7 @@ getBlockLocationIterator(): BlockLocationIterator
 
 /// html | div.result
 //// define
-返回值：[`BlockLocationIterator`](../blocklocationiterator.md)
+返回值：[`BlockLocationIterator`](./blocklocationiterator.md)
 
 - 返回值。
 
@@ -116,7 +116,7 @@ getBoundingBox(): BoundingBox
 
 /// html | div.result
 //// define
-返回值：[`BoundingBox`](../boundingbox.md)
+返回值：[`BoundingBox`](./boundingbox.md)
 
 - 返回值。
 
@@ -138,7 +138,7 @@ getMax(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -160,7 +160,7 @@ getMin(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -182,7 +182,7 @@ getOrigin(): Vector3
 
 /// html | div.result
 //// define
-返回值：[`Vector3`](../vector3.md)
+返回值：[`Vector3`](./vector3.md)
 
 - 返回值。
 
@@ -226,7 +226,7 @@ isInside(worldLocation: Vector3): boolean
 
 /// html | div.result
 //// define
-`worldLocation`：[`Vector3`](../vector3.md)
+`worldLocation`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -256,7 +256,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 
 /// html | div.result
 //// define
-`forceRelativity`：[`CompoundBlockVolumePositionRelativity`](../compoundblockvolumepositionrelativity.md)|`undefined`
+`forceRelativity`：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)|`undefined`
 
 - 参数1。
 
@@ -264,7 +264,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 ////
 
 //// define
-返回值：[`CompoundBlockVolumeItem`](../compoundblockvolumeitem.md)|`undefined`
+返回值：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)|`undefined`
 
 - 返回值。
 
@@ -308,7 +308,7 @@ pushVolume(item: CompoundBlockVolumeItem): void
 
 /// html | div.result
 //// define
-`item`：[`CompoundBlockVolumeItem`](../compoundblockvolumeitem.md)
+`item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
 
 - 参数1。
 
@@ -338,7 +338,7 @@ replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 
 /// html | div.result
 //// define
-`item`：[`CompoundBlockVolumeItem`](../compoundblockvolumeitem.md)
+`item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
 
 - 参数1。
 
@@ -368,7 +368,7 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 
 /// html | div.result
 //// define
-`position`：[`Vector3`](../vector3.md)
+`position`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
@@ -406,7 +406,7 @@ translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 
 /// html | div.result
 //// define
-`delta`：[`Vector3`](../vector3.md)
+`delta`：[`Vector3`](./vector3.md)
 
 - 参数1。
 
