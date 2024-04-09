@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`IButtonPushAfterEventSignal`类。
+`IButtonPushAfterEventSignal`类。script_api.@minecraft/server.ibuttonpushaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.ibuttonpushaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ButtonPushAfterEvent) => void): (arg: ButtonPushAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ButtonPushAfterEvent) => void): (arg: ButtonPushAfterE
 //// define
 `callback`：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.ibuttonpushaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ButtonPushAfterEvent) => void): (arg: ButtonPushAfterE
 //// define
 返回值：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.ibuttonpushaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ButtonPushAfterEvent) => void): (arg: ButtonPushAfterE
 
 ///
 
+script_api.@minecraft/server.ibuttonpushaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ButtonPushAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ButtonPushAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.ibuttonpushaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ButtonPushAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.ibuttonpushaftereventsignal.unsubscribe.return
 
 
 ////

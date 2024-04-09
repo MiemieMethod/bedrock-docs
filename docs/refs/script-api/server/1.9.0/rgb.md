@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`RGB`接口。
+`RGB`接口。script_api.@minecraft/server.rgb.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ blue: float;
 //// define
 `blue`：`float`
 
-- 属性。
+- script_api.@minecraft/server.rgb.blue.description
 
 
 ////
@@ -42,7 +42,7 @@ green: float;
 //// define
 `green`：`float`
 
-- 属性。
+- script_api.@minecraft/server.rgb.green.description
 
 
 ////
@@ -64,7 +64,7 @@ red: float;
 //// define
 `red`：`float`
 
-- 属性。
+- script_api.@minecraft/server.rgb.red.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerAuthInputPacket -->数据包，数字ID是`144`。
+<!-- md:samp PlayerAuthInputPacket -->数据包，数字ID是`144`。该数据包用于protocol.packet.playerauthinputpacket.description
 
 ## 结构
 
@@ -176,51 +176,51 @@ rankdir = LR
 //// define
 Player Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.player_rotation.description
 
 
 ////
 //// define
 Player Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.player_position.description
 
 
 ////
 //// define
 Move Vector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.move_vector.description
 
 
 ////
 //// define
 Player's Head Rotation：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerauthinputpacket.players_head_rotation.description
 
 
 ////
 //// define
 Input Data：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerauthinputpacket.input_data.description
 
 
 ////
 //// define
 Input Mode：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerauthinputpacket.input_mode.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Undefined`|`0`||
-  |`Mouse`|`1`||
-  |`Touch`|`2`||
-  |`GamePad`|`3`||
-  |`MotionController`|`4`||
-  |`Count`|`5`||
+  |`Undefined`|`0`|protocol.enum.undefined|
+  |`Mouse`|`1`|protocol.enum.mouse|
+  |`Touch`|`2`|protocol.enum.touch|
+  |`GamePad`|`3`|protocol.enum.gamepad|
+  |`MotionController`|`4`|protocol.enum.motioncontroller|
+  |`Count`|`5`|protocol.enum.count|
 
 
 
@@ -228,20 +228,20 @@ Input Mode：<!-- md:samp unsigned varint -->
 //// define
 Play Mode：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerauthinputpacket.play_mode.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Normal`|`0`||
-  |`Teaser`|`1`||
-  |`Screen`|`2`||
-  |`Viewer`|`3`||
-  |`Reality`|`4`||
-  |`Placement`|`5`||
-  |`LivingRoom`|`6`||
-  |`ExitLevel`|`7`||
-  |`ExitLevelLivingRoom`|`8`||
-  |`NumModes`|`9`||
+  |`Normal`|`0`|protocol.enum.normal|
+  |`Teaser`|`1`|protocol.enum.teaser|
+  |`Screen`|`2`|protocol.enum.screen|
+  |`Viewer`|`3`|protocol.enum.viewer|
+  |`Reality`|`4`|protocol.enum.reality|
+  |`Placement`|`5`|protocol.enum.placement|
+  |`LivingRoom`|`6`|protocol.enum.livingroom|
+  |`ExitLevel`|`7`|protocol.enum.exitlevel|
+  |`ExitLevelLivingRoom`|`8`|protocol.enum.exitlevellivingroom|
+  |`NumModes`|`9`|protocol.enum.nummodes|
 
 
 
@@ -249,14 +249,14 @@ Play Mode：<!-- md:samp unsigned varint -->
 //// define
 New Interaction Model：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerauthinputpacket.new_interaction_model.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Touch`|`0`||
-  |`Crosshair`|`1`||
-  |`Classic`|`2`||
-  |`Count`|`3`||
+  |`Touch`|`0`|protocol.enum.touch|
+  |`Crosshair`|`1`|protocol.enum.crosshair|
+  |`Classic`|`2`|protocol.enum.classic|
+  |`Count`|`3`|protocol.enum.count|
 
 
 
@@ -267,7 +267,7 @@ New Interaction Model：<!-- md:samp varint -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -283,7 +283,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 VR Gaze Direction：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.vr_gaze_direction.description
 
 
 ///////
@@ -294,14 +294,14 @@ VR Gaze Direction：[<!-- md:samp Vec3 -->](../types/vec3.md)
 //// define
 Client tick：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。Which simulation frame client is on. Used to match corrections
+- 基本类型。protocol.packet.playerauthinputpacket.client_tick.descriptionWhich simulation frame client is on. Used to match corrections
 
 
 ////
 //// define
 Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。Velocity
+- 特殊类型。protocol.packet.playerauthinputpacket.pos_delta.descriptionVelocity
 
 
 ////
@@ -311,7 +311,7 @@ Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -327,7 +327,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Item Use Transaction：[<!-- md:samp PackedItemUseLegacyInventoryTransaction -->](../types/packeditemuselegacyinventorytransaction.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.item_use_transaction.description
 
 
 ///////
@@ -341,7 +341,7 @@ Item Use Transaction：[<!-- md:samp PackedItemUseLegacyInventoryTransaction -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -357,7 +357,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.client_request_id.description
 
 
 ///////
@@ -369,7 +369,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerauthinputpacket.数组大小.description
 
 
 ////////
@@ -381,34 +381,34 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 ///////// define
 Action type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerauthinputpacket.action_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Take`|`0`||
-  |`Place`|`1`||
-  |`Swap`|`2`||
-  |`Drop`|`3`||
-  |`Destroy`|`4`||
-  |`Consume`|`5`||
-  |`Create`|`6`||
-  |`PlaceInItemContainer`|`7`||
-  |`TakeFromItemContainer`|`8`||
-  |`ScreenLabTableCombine`|`9`||
-  |`ScreenBeaconPayment`|`10`||
-  |`ScreenHUDMineBlock`|`11`||
-  |`CraftRecipe`|`12`||
-  |`CraftRecipeAuto`|`13`||
-  |`CraftCreative`|`14`||
-  |`CraftRecipeOptional`|`15`||
-  |`CraftRepairAndDisenchant`|`16`||
-  |`CraftLoom`|`17`||
-  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`||
-  |`CraftResults_DEPRECATEDASKTYLAING`|`19`||
-  |`ifdef`|`20`||
-  |`TEST_INFRASTRUCTURE_ENABLED`|`21`||
-  |`Test`|`22`||
-  |`endif`|`23`||
+  |`Take`|`0`|protocol.enum.take|
+  |`Place`|`1`|protocol.enum.place|
+  |`Swap`|`2`|protocol.enum.swap|
+  |`Drop`|`3`|protocol.enum.drop|
+  |`Destroy`|`4`|protocol.enum.destroy|
+  |`Consume`|`5`|protocol.enum.consume|
+  |`Create`|`6`|protocol.enum.create|
+  |`PlaceInItemContainer`|`7`|protocol.enum.placeinitemcontainer|
+  |`TakeFromItemContainer`|`8`|protocol.enum.takefromitemcontainer|
+  |`ScreenLabTableCombine`|`9`|protocol.enum.screenlabtablecombine|
+  |`ScreenBeaconPayment`|`10`|protocol.enum.screenbeaconpayment|
+  |`ScreenHUDMineBlock`|`11`|protocol.enum.screenhudmineblock|
+  |`CraftRecipe`|`12`|protocol.enum.craftrecipe|
+  |`CraftRecipeAuto`|`13`|protocol.enum.craftrecipeauto|
+  |`CraftCreative`|`14`|protocol.enum.craftcreative|
+  |`CraftRecipeOptional`|`15`|protocol.enum.craftrecipeoptional|
+  |`CraftRepairAndDisenchant`|`16`|protocol.enum.craftrepairanddisenchant|
+  |`CraftLoom`|`17`|protocol.enum.craftloom|
+  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`|protocol.enum.craftnonimplemented_deprecatedasktylaing|
+  |`CraftResults_DEPRECATEDASKTYLAING`|`19`|protocol.enum.craftresults_deprecatedasktylaing|
+  |`ifdef`|`20`|protocol.enum.ifdef|
+  |`TEST_INFRASTRUCTURE_ENABLED`|`21`|protocol.enum.test_infrastructure_enabled|
+  |`Test`|`22`|protocol.enum.test|
+  |`endif`|`23`|protocol.enum.endif|
 
 
 
@@ -416,21 +416,21 @@ Action type：<!-- md:samp byte -->
 ///////// define
 Amount：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerauthinputpacket.amount.description
 
 
 /////////
 ///////// define
 Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.source.description
 
 
 /////////
 ///////// define
 Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.destination.description
 
 
 /////////
@@ -446,7 +446,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerauthinputpacket.数组大小.description
 
 
 ////////
@@ -458,7 +458,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 ///////// define
 String To Filter：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Indivdiual string that needs checking
+- 特殊类型。protocol.packet.playerauthinputpacket.string_to_filter.descriptionIndivdiual string that needs checking
 
 
 /////////
@@ -469,27 +469,27 @@ String To Filter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerauthinputpacket.stringstofilterorigin.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`unknown`|`-1`||
-  |`ServerChatPublic`|`0`||
-  |`ServerChatWhisper`|`1`||
-  |`SignText`|`2`||
-  |`AnvilText`|`3`||
-  |`BookAndQuillText`|`4`||
-  |`CommandBlockText`|`5`||
-  |`BlockActorDataText`|`6`||
-  |`JoinEventText`|`7`||
-  |`LeaveEventText`|`8`||
-  |`SlashCommandChat`|`9`||
-  |`CartographyText`|`10`||
-  |`KickCommand`|`11`||
-  |`TitleCommand`|`12`||
-  |`SummonCommand`|`13`||
-  |`ServerForm`|`14`||
-  |`COUNT`|`15`||
+  |`unknown`|`-1`|protocol.enum.unknown|
+  |`ServerChatPublic`|`0`|protocol.enum.serverchatpublic|
+  |`ServerChatWhisper`|`1`|protocol.enum.serverchatwhisper|
+  |`SignText`|`2`|protocol.enum.signtext|
+  |`AnvilText`|`3`|protocol.enum.anviltext|
+  |`BookAndQuillText`|`4`|protocol.enum.bookandquilltext|
+  |`CommandBlockText`|`5`|protocol.enum.commandblocktext|
+  |`BlockActorDataText`|`6`|protocol.enum.blockactordatatext|
+  |`JoinEventText`|`7`|protocol.enum.joineventtext|
+  |`LeaveEventText`|`8`|protocol.enum.leaveeventtext|
+  |`SlashCommandChat`|`9`|protocol.enum.slashcommandchat|
+  |`CartographyText`|`10`|protocol.enum.cartographytext|
+  |`KickCommand`|`11`|protocol.enum.kickcommand|
+  |`TitleCommand`|`12`|protocol.enum.titlecommand|
+  |`SummonCommand`|`13`|protocol.enum.summoncommand|
+  |`ServerForm`|`14`|protocol.enum.serverform|
+  |`COUNT`|`15`|protocol.enum.count|
 
 
 
@@ -504,7 +504,7 @@ StringsToFilterOrigin：<!-- md:samp int -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -520,7 +520,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Player Block Actions：[<!-- md:samp PlayerBlockActions -->](../types/playerblockactions.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.player_block_actions.description
 
 
 ///////
@@ -534,7 +534,7 @@ Player Block Actions：[<!-- md:samp PlayerBlockActions -->](../types/playerbloc
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -550,14 +550,14 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Vehicle Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.vehicle_rotation.description
 
 
 ///////
 /////// define
 Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.client_predicted_vehicle.description
 
 
 ///////
@@ -568,7 +568,7 @@ Client Predicted Vehicle：[<!-- md:samp ActorUniqueID -->](../types/actorunique
 //// define
 Analog MoveVector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerauthinputpacket.analog_movevector.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataDrivenEntityTriggerAfterEventSignal`类。
+`DataDrivenEntityTriggerAfterEventSignal`类。script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: EntityDataDrivenTriggerEventOptions): (arg: DataDrivenEntityTriggerAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 //// define
 `options`：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 //// define
 返回值：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 
 ///
 
+script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.unsubscribe.return
 
 
 ////

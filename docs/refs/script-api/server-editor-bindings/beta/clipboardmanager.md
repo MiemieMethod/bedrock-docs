@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ClipboardManager`类。
+`ClipboardManager`类。script_api.@minecraft/server-editor-bindings.clipboardmanager.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only clipboard: ClipboardItem;
 //// define
 `clipboard`：[`ClipboardItem`](./clipboarditem.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.clipboardmanager.clipboard.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only clipboard: ClipboardItem;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboardmanager.create.description
+
 ```js
 create(): ClipboardItem
 ```
@@ -44,7 +46,7 @@ create(): ClipboardItem
 //// define
 返回值：[`ClipboardItem`](./clipboarditem.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboardmanager.create.return
 
 
 ////

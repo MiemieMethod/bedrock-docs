@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp NpcDialoguePacket -->数据包，数字ID是`169`。
+<!-- md:samp NpcDialoguePacket -->数据包，数字ID是`169`。该数据包用于protocol.packet.npcdialoguepacket.description
 
 ## 结构
 
@@ -52,19 +52,19 @@ rankdir = LR
 //// define
 Npc Id Raw Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。The ActorUniqueID of the NPC being remote fired
+- 基本类型。protocol.packet.npcdialoguepacket.npc_id_raw_id.descriptionThe ActorUniqueID of the NPC being remote fired
 
 
 ////
 //// define
 Npc Dialogue Action Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.npcdialoguepacket.npc_dialogue_action_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Open`|`0`||
-  |`Close`|`1`||
+  |`Open`|`0`|protocol.enum.open|
+  |`Close`|`1`|protocol.enum.close|
 
 
 
@@ -72,28 +72,28 @@ Npc Dialogue Action Type：<!-- md:samp varint -->
 //// define
 Dialogue：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The text to be displayed to the client
+- 特殊类型。protocol.packet.npcdialoguepacket.dialogue.descriptionThe text to be displayed to the client
 
 
 ////
 //// define
 Scene Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The scene the data has been pulled from for the client to reference
+- 特殊类型。protocol.packet.npcdialoguepacket.scene_name.descriptionThe scene the data has been pulled from for the client to reference
 
 
 ////
 //// define
 Npc Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The 'name' of the NPC to be displayed to the client
+- 特殊类型。protocol.packet.npcdialoguepacket.npc_name.descriptionThe 'name' of the NPC to be displayed to the client
 
 
 ////
 //// define
 Action JSON：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The JSON string of the buttons/actions the server can perform. The server is still authoritative on what actions can be performed
+- 特殊类型。protocol.packet.npcdialoguepacket.action_json.descriptionThe JSON string of the buttons/actions the server can perform. The server is still authoritative on what actions can be performed
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Vector2`接口。
+`Vector2`接口。script_api.@minecraft/server.vector2.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ x: float;
 //// define
 `x`：`float`
 
-- 属性。
+- script_api.@minecraft/server.vector2.x.description
 
 
 ////
@@ -42,7 +42,7 @@ y: float;
 //// define
 `y`：`float`
 
-- 属性。
+- script_api.@minecraft/server.vector2.y.description
 
 
 ////

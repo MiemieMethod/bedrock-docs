@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ChatSendBeforeEvent`类。
+`ChatSendBeforeEvent`类。script_api.@minecraft/server.chatsendbeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.chatsendbeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only message: string;
 //// define
 `message`：`string`
 
-- 属性。
+- script_api.@minecraft/server.chatsendbeforeevent.message.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only sender: Player;
 //// define
 `sender`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.chatsendbeforeevent.sender.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only targets: Player[] | undefined;
 //// define
 `targets`：<code><a href="../player/">Player</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.chatsendbeforeevent.targets.description
 
 
 ////

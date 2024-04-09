@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerToggleCrafterSlotRequestPacket -->数据包，数字ID是`306`。
+<!-- md:samp PlayerToggleCrafterSlotRequestPacket -->数据包，数字ID是`306`。该数据包用于protocol.packet.playertogglecrafterslotrequestpacket.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Pos X：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playertogglecrafterslotrequestpacket.pos_x.description
 
 
 ////
 //// define
 Pos Y：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playertogglecrafterslotrequestpacket.pos_y.description
 
 
 ////
 //// define
 Pos Z：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playertogglecrafterslotrequestpacket.pos_z.description
 
 
 ////
 //// define
 Slot Index：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playertogglecrafterslotrequestpacket.slot_index.description
 
 
 ////
 //// define
 Is Disabled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playertogglecrafterslotrequestpacket.is_disabled.description
 
 
 ////

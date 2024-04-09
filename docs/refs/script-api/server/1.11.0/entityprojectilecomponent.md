@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityProjectileComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityProjectileComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityprojectilecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ airInertia: float;
 //// define
 `airInertia`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.airinertia.description
 
 
 ////
@@ -55,7 +55,7 @@ catchFireOnHurt: boolean;
 //// define
 `catchFireOnHurt`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.catchfireonhurt.description
 
 
 ////
@@ -77,7 +77,7 @@ critParticlesOnProjectileHurt: boolean;
 //// define
 `critParticlesOnProjectileHurt`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.critparticlesonprojectilehurt.description
 
 
 ////
@@ -99,7 +99,7 @@ destroyOnProjectileHurt: boolean;
 //// define
 `destroyOnProjectileHurt`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.destroyonprojectilehurt.description
 
 
 ////
@@ -121,7 +121,7 @@ gravity: float;
 //// define
 `gravity`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.gravity.description
 
 
 ////
@@ -143,7 +143,7 @@ hitEntitySound: string | undefined;
 //// define
 `hitEntitySound`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.hitentitysound.description
 
 
 ////
@@ -165,7 +165,7 @@ hitGroundSound: string | undefined;
 //// define
 `hitGroundSound`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.hitgroundsound.description
 
 
 ////
@@ -187,7 +187,7 @@ hitParticle: string | undefined;
 //// define
 `hitParticle`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.hitparticle.description
 
 
 ////
@@ -209,7 +209,7 @@ lightningStrikeOnHit: boolean;
 //// define
 `lightningStrikeOnHit`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.lightningstrikeonhit.description
 
 
 ////
@@ -231,7 +231,7 @@ liquidInertia: float;
 //// define
 `liquidInertia`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.liquidinertia.description
 
 
 ////
@@ -253,7 +253,7 @@ onFireTime: float;
 //// define
 `onFireTime`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.onfiretime.description
 
 
 ////
@@ -275,7 +275,7 @@ owner: Entity | undefined;
 //// define
 `owner`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.owner.description
 
 
 ////
@@ -297,7 +297,7 @@ shouldBounceOnHit: boolean;
 //// define
 `shouldBounceOnHit`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.shouldbounceonhit.description
 
 
 ////
@@ -319,7 +319,7 @@ stopOnHit: boolean;
 //// define
 `stopOnHit`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityprojectilecomponent.stoponhit.description
 
 
 ////
@@ -335,6 +335,8 @@ stopOnHit: boolean;
 
 ///
 
+script_api.@minecraft/server.entityprojectilecomponent.shoot.description
+
 ```js
 shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 ```
@@ -343,7 +345,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 //// define
 `velocity`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.entityprojectilecomponent.velocity.shoot.description
 
 
 ////
@@ -351,7 +353,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 //// define
 `options`：[`ProjectileShootOptions`](./projectileshootoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entityprojectilecomponent.options.shoot.description
 
 
 ////
@@ -359,7 +361,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityprojectilecomponent.shoot.return
 
 
 ////

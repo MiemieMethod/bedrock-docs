@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPotionContainerComponent`类，扩展自[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)。
+`BlockPotionContainerComponent`类，扩展自[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)。script_api.@minecraft/server.blockpotioncontainercomponent.description
 
 ## 常量
 
@@ -25,6 +25,8 @@ static read-only componentId = "minecraft:potionContainer";
 
 ///
 
+script_api.@minecraft/server.blockpotioncontainercomponent.setpotiontype.description
+
 ```js
 setPotionType(itemStack: ItemStack): void
 ```
@@ -33,7 +35,7 @@ setPotionType(itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockpotioncontainercomponent.itemstack.setpotiontype.description
 
 
 ////
@@ -41,7 +43,7 @@ setPotionType(itemStack: ItemStack): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blockpotioncontainercomponent.setpotiontype.return
 
 
 ////

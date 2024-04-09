@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockWaterContainerComponent`类，扩展自[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)。
+`BlockWaterContainerComponent`类，扩展自[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)。script_api.mojang-minecraft.blockwatercontainercomponent.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.blockwatercontainercomponent.adddye.description
+
 ```js
 addDye(itemType: ItemType): void
 ```
@@ -20,7 +22,7 @@ addDye(itemType: ItemType): void
 //// define
 `itemType`：[`ItemType`](./itemtype.md)
 
-- 参数1。
+- script_api.mojang-minecraft.blockwatercontainercomponent.itemtype.adddye.description
 
 
 ////
@@ -28,7 +30,7 @@ addDye(itemType: ItemType): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.blockwatercontainercomponent.adddye.return
 
 
 ////

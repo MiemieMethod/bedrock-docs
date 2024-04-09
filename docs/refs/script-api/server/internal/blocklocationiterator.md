@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLocationIterator`类，实现了<code>Iterator&lt;<a href="../vector3/">Vector3</a>&gt;</code>。
+`BlockLocationIterator`类，实现了<code>Iterator&lt;<a href="../vector3/">Vector3</a>&gt;</code>。script_api.@minecraft/server.blocklocationiterator.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.blocklocationiterator.[symbol.iterator].description
+
 ```js
 [Symbol.iterator](): Iterator<Vector3>
 ```
@@ -20,7 +22,7 @@
 //// define
 返回值：<code>Iterator&lt;<a href="../vector3/">Vector3</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.blocklocationiterator.[symbol.iterator].return
 
 
 ////
@@ -34,6 +36,8 @@
 
 ///
 
+script_api.@minecraft/server.blocklocationiterator.next.description
+
 ```js
 next(): IteratorResult<Vector3>
 ```
@@ -42,7 +46,7 @@ next(): IteratorResult<Vector3>
 //// define
 返回值：<code>IteratorResult&lt;<a href="../vector3/">Vector3</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.blocklocationiterator.next.return
 
 
 ////

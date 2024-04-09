@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementHoverComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。
+`EntityMovementHoverComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。script_api.@minecraft/server.entitymovementhovercomponent.description
 
 ## 常量
 

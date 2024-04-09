@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataStorePayloadAfterEvent`类。
+`DataStorePayloadAfterEvent`类。script_api.@minecraft/server-editor-bindings.datastorepayloadafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dataTag: string;
 //// define
 `dataTag`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.datastorepayloadafterevent.datatag.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only payload: string;
 //// define
 `payload`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.datastorepayloadafterevent.payload.description
 
 
 ////

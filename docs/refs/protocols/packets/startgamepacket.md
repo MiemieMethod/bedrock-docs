@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp StartGamePacket -->数据包，数字ID是`11`。
+<!-- md:samp StartGamePacket -->数据包，数字ID是`11`。该数据包用于protocol.packet.startgamepacket.description
 
 ## 结构
 
@@ -144,31 +144,31 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.target_actor_id.description
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.target_runtime_id.description
 
 
 ////
 //// define
 Actor Game Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.startgamepacket.actor_game_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Undefined`|`-1`||
-  |`Survival`|`0`||
-  |`Creative`|`1`||
-  |`Adventure`|`2`||
-  |`Default`|`5`||
-  |`Spectator`|`6`||
-  |`WorldDefault`|`Survival`||
+  |`Undefined`|`-1`|protocol.enum.undefined|
+  |`Survival`|`0`|protocol.enum.survival|
+  |`Creative`|`1`|protocol.enum.creative|
+  |`Adventure`|`2`|protocol.enum.adventure|
+  |`Default`|`5`|protocol.enum.default|
+  |`Spectator`|`6`|protocol.enum.spectator|
+  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
 
 
 
@@ -176,70 +176,70 @@ Actor Game Type：<!-- md:samp varint -->
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.position.description
 
 
 ////
 //// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.rotation.description
 
 
 ////
 //// define
 Settings：[<!-- md:samp LevelSettings -->](../types/levelsettings.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.settings.description
 
 
 ////
 //// define
 Level ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.level_id.description
 
 
 ////
 //// define
 Level Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.level_name.description
 
 
 ////
 //// define
 Template Content Identity：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.template_content_identity.description
 
 
 ////
 //// define
 Is Trial?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.startgamepacket.is_trial.description
 
 
 ////
 //// define
 Movement Settings：[<!-- md:samp SyncedPlayerMovementSettings -->](../types/syncedplayermovementsettings.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.movement_settings.description
 
 
 ////
 //// define
 Current Level Time：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.startgamepacket.current_level_time.description
 
 
 ////
 //// define
 Enchantment Seed：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.startgamepacket.enchantment_seed.description
 
 
 ////
@@ -251,7 +251,7 @@ Enchantment Seed：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.startgamepacket.数组大小.description
 
 
 /////
@@ -263,14 +263,14 @@ Enchantment Seed：<!-- md:samp varint -->
 ////// define
 Block Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.block_name.description
 
 
 //////
 ////// define
 Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。Map of block states. { key (component 'name'):[label,value] } (Can be left empty.)
+- 特殊类型。protocol.packet.startgamepacket.block_definition.descriptionMap of block states. { key (component 'name'):[label,value] } (Can be left empty.)
 
 
 //////
@@ -286,7 +286,7 @@ Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.startgamepacket.数组大小.description
 
 
 /////
@@ -298,7 +298,7 @@ Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////// define
 Item Info：[<!-- md:samp ItemData -->](../types/itemdata.md)
 
-- 特殊类型。See: ItemData Type
+- 特殊类型。protocol.packet.startgamepacket.item_info.descriptionSee: ItemData Type
 
 
 //////
@@ -309,63 +309,63 @@ Item Info：[<!-- md:samp ItemData -->](../types/itemdata.md)
 //// define
 Multiplayer Correlation Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。A UUID to 'id'entify this multiplayer session.
+- 特殊类型。protocol.packet.startgamepacket.multiplayer_correlation_id.descriptionA UUID to 'id'entify this multiplayer session.
 
 
 ////
 //// define
 Enable Item Stack Net Manager：<!-- md:samp bool -->
 
-- 基本类型。Whether the new item stack net manager is enabled for server authoritative inventory. This will eventually be required.
+- 基本类型。protocol.packet.startgamepacket.enable_item_stack_net_manager.descriptionWhether the new item stack net manager is enabled for server authoritative inventory. This will eventually be required.
 
 
 ////
 //// define
 Server version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。For telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
+- 特殊类型。protocol.packet.startgamepacket.server_version.descriptionFor telemetry purposes - sending your own string with your own server 'name' and version here would be useful for Mojang's telemetry.
 
 
 ////
 //// define
 Player Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。like SyncActorPropertyPacket, specifically for minecraft:player properties
+- 特殊类型。protocol.packet.startgamepacket.player_property_data.descriptionlike SyncActorPropertyPacket, specifically for minecraft:player properties
 
 
 ////
 //// define
 Server Block Type Registry Checksum：<!-- md:samp unsigned int64 -->
 
-- 基本类型。Checksum for detecting mismatches in block types between server and client.
+- 基本类型。protocol.packet.startgamepacket.server_block_type_registry_checksum.descriptionChecksum for detecting mismatches in block types between server and client.
 
 
 ////
 //// define
 World Template ID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.world_template_id.description
 
 
 ////
 //// define
 Server Enabled ClientSide Generation：<!-- md:samp bool -->
 
-- 基本类型。BiomeComponentFactory needs to know about this toggle before we start parsing BiomeComponents
+- 基本类型。protocol.packet.startgamepacket.server_enabled_clientside_generation.descriptionBiomeComponentFactory needs to know about this toggle before we start parsing BiomeComponents
 
 
 ////
 //// define
 BlockNetworkIds Are Hashes：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.startgamepacket.blocknetworkids_are_hashes.description
 
 
 ////
 //// define
 NetworkPermissions：[<!-- md:samp NetworkPermissions -->](../types/networkpermissions.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.startgamepacket.networkpermissions.description
 
 
 ////

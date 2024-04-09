@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RespawnPacket -->数据包，数字ID是`45`。
+<!-- md:samp RespawnPacket -->数据包，数字ID是`45`。该数据包用于protocol.packet.respawnpacket.description
 
 ## 结构
 
@@ -40,20 +40,20 @@ rankdir = LR
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.respawnpacket.position.description
 
 
 ////
 //// define
 State：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.respawnpacket.state.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`SearchingForSpawn`|`0`||
-  |`ReadyToSpawn`|`1`||
-  |`ClientReadyToSpawn`|`2`||
+  |`SearchingForSpawn`|`0`|protocol.enum.searchingforspawn|
+  |`ReadyToSpawn`|`1`|protocol.enum.readytospawn|
+  |`ClientReadyToSpawn`|`2`|protocol.enum.clientreadytospawn|
 
 
 
@@ -61,7 +61,7 @@ State：<!-- md:samp byte -->
 //// define
 Player Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.respawnpacket.player_runtime_id.description
 
 
 ////

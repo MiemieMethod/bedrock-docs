@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityLifetimeState`枚举。
+`EntityLifetimeState`枚举。script_api.@minecraft/server.entitylifetimestate.description
 
 ## 常量
 

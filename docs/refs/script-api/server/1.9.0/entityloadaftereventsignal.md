@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityLoadAfterEventSignal`类。
+`EntityLoadAfterEventSignal`类。script_api.@minecraft/server.entityloadaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entityloadaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntityLoadAfterEvent) => void): (arg: EntityLoadAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntityLoadAfterEvent) => void): (arg: EntityLoadAfterE
 //// define
 `callback`：<code>(<a href="../entityloadafterevent/">EntityLoadAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityloadaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntityLoadAfterEvent) => void): (arg: EntityLoadAfterE
 //// define
 返回值：<code>(<a href="../entityloadafterevent/">EntityLoadAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityloadaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: EntityLoadAfterEvent) => void): (arg: EntityLoadAfterE
 
 ///
 
+script_api.@minecraft/server.entityloadaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntityLoadAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: EntityLoadAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityloadafterevent/">EntityLoadAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityloadaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntityLoadAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityloadaftereventsignal.unsubscribe.return
 
 
 ////

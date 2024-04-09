@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityCanFlyComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityCanFlyComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitycanflycomponent.description
 
 ## 常量
 

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockRecordPlayerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockRecordPlayerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blockrecordplayercomponent.description
 
 ## 常量
 
@@ -25,6 +25,8 @@ static read-only componentId = "minecraft:recordPlayer";
 
 ///
 
+script_api.@minecraft/server.blockrecordplayercomponent.clearrecord.description
+
 ```js
 clearRecord(): void
 ```
@@ -33,7 +35,7 @@ clearRecord(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blockrecordplayercomponent.clearrecord.return
 
 
 ////
@@ -47,6 +49,8 @@ clearRecord(): void
 
 ///
 
+script_api.@minecraft/server.blockrecordplayercomponent.isplaying.description
+
 ```js
 isPlaying(): boolean
 ```
@@ -55,7 +59,7 @@ isPlaying(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.blockrecordplayercomponent.isplaying.return
 
 
 ////
@@ -69,6 +73,8 @@ isPlaying(): boolean
 
 ///
 
+script_api.@minecraft/server.blockrecordplayercomponent.setrecord.description
+
 ```js
 setRecord(recordItemType: ItemType | string): void
 ```
@@ -77,7 +83,7 @@ setRecord(recordItemType: ItemType | string): void
 //// define
 `recordItemType`：[`ItemType`](./itemtype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.blockrecordplayercomponent.recorditemtype.setrecord.description
 
 
 ////
@@ -85,7 +91,7 @@ setRecord(recordItemType: ItemType | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blockrecordplayercomponent.setrecord.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/fog`命令Add or remove fog settings file
+`/fog`命令command.fog.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,22 +16,24 @@
 ```
 
 //// html | div.result
+command.fog.1.description
+
 ///// define
 `victim`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.fog.victim.description
 
 `mode`：<!-- md:samp add -->
 
-- 枚举类型。单值枚举，请直接使用`push`。
+- 枚举类型。command.enum.add.description单值枚举，请直接使用`push`。
 
 `fogId`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.fog.fogId.description
 
 `userProvidedId`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.fog.userProvidedId.description
 
 
 /////
@@ -46,24 +48,26 @@
 ```
 
 //// html | div.result
+command.fog.2.description
+
 ///// define
 `victim`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.fog.victim.description
 
 `mode`：<!-- md:samp delete -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.delete.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`pop`||
-  |`remove`||
+  |`pop`|command.enum.delete.pop|
+  |`remove`|command.enum.delete.remove|
 
 
 `userProvidedId`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.fog.userProvidedId.description
 
 
 /////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`LookDuration`枚举。
+`LookDuration`枚举。script_api.@minecraft/server-gametest.lookduration.description
 
 ## 常量
 

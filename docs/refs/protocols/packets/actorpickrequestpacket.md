@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ActorPickRequestPacket -->数据包，数字ID是`35`。
+<!-- md:samp ActorPickRequestPacket -->数据包，数字ID是`35`。该数据包用于protocol.packet.actorpickrequestpacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Actor ID：<!-- md:samp int64 -->
 
-- 基本类型。Target Actor ID
+- 基本类型。protocol.packet.actorpickrequestpacket.actor_id.descriptionTarget Actor ID
 
 
 ////
 //// define
 Max Slots：<!-- md:samp byte -->
 
-- 基本类型。number of empty hotbar slots (to dec'id'e whether to overwrite a slot or add it to an empty one)
+- 基本类型。protocol.packet.actorpickrequestpacket.max_slots.descriptionnumber of empty hotbar slots (to dec'id'e whether to overwrite a slot or add it to an empty one)
 
 
 ////
 //// define
 With Data：<!-- md:samp bool -->
 
-- 基本类型。whether we want to store the NBT data along with the item
+- 基本类型。protocol.packet.actorpickrequestpacket.with_data.descriptionwhether we want to store the NBT data along with the item
 
 
 ////

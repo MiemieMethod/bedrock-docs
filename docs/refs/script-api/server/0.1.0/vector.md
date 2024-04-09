@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Vector`类。
+`Vector`类。script_api.mojang-minecraft.vector.description
 
 ## 常量
 
@@ -20,7 +20,7 @@ static read-only back: Vector;
 //// define
 `back`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.back.description
 
 
 ////
@@ -42,7 +42,7 @@ static read-only down: Vector;
 //// define
 `down`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.down.description
 
 
 ////
@@ -64,7 +64,7 @@ static read-only forward: Vector;
 //// define
 `forward`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.forward.description
 
 
 ////
@@ -86,7 +86,7 @@ static read-only left: Vector;
 //// define
 `left`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.left.description
 
 
 ////
@@ -108,7 +108,7 @@ static read-only one: Vector;
 //// define
 `one`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.one.description
 
 
 ////
@@ -130,7 +130,7 @@ static read-only right: Vector;
 //// define
 `right`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.right.description
 
 
 ////
@@ -152,7 +152,7 @@ static read-only up: Vector;
 //// define
 `up`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.up.description
 
 
 ////
@@ -174,7 +174,7 @@ static read-only zero: Vector;
 //// define
 `zero`：[`Vector`](./vector.md)
 
-- 常量。
+- script_api.mojang-minecraft.vector.zero.description
 
 
 ////
@@ -198,7 +198,7 @@ x: float;
 //// define
 `x`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.vector.x.description
 
 
 ////
@@ -220,7 +220,7 @@ y: float;
 //// define
 `y`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.vector.y.description
 
 
 ////
@@ -242,7 +242,7 @@ z: float;
 //// define
 `z`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.vector.z.description
 
 
 ////
@@ -258,6 +258,8 @@ z: float;
 
 ///
 
+script_api.mojang-minecraft.vector.add.description
+
 ```js
 static add(a: Vector, b: Vector): Vector
 ```
@@ -266,7 +268,7 @@ static add(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.add.description
 
 
 ////
@@ -274,7 +276,7 @@ static add(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.add.description
 
 
 ////
@@ -282,7 +284,7 @@ static add(a: Vector, b: Vector): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.add.return
 
 
 ////
@@ -296,6 +298,8 @@ static add(a: Vector, b: Vector): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.constructor.description
+
 ```js
 new constructor(x: float, y: float, z: float): Vector
 ```
@@ -304,7 +308,7 @@ new constructor(x: float, y: float, z: float): Vector
 //// define
 `x`：`float`
 
-- 参数1。
+- script_api.mojang-minecraft.vector.x.constructor.description
 
 
 ////
@@ -312,7 +316,7 @@ new constructor(x: float, y: float, z: float): Vector
 //// define
 `y`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.vector.y.constructor.description
 
 
 ////
@@ -320,7 +324,7 @@ new constructor(x: float, y: float, z: float): Vector
 //// define
 `z`：`float`
 
-- 参数3。
+- script_api.mojang-minecraft.vector.z.constructor.description
 
 
 ////
@@ -328,7 +332,7 @@ new constructor(x: float, y: float, z: float): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.constructor.return
 
 
 ////
@@ -342,6 +346,8 @@ new constructor(x: float, y: float, z: float): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.cross.description
+
 ```js
 static cross(a: Vector, b: Vector): Vector
 ```
@@ -350,7 +356,7 @@ static cross(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.cross.description
 
 
 ////
@@ -358,7 +364,7 @@ static cross(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.cross.description
 
 
 ////
@@ -366,7 +372,7 @@ static cross(a: Vector, b: Vector): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.cross.return
 
 
 ////
@@ -380,6 +386,8 @@ static cross(a: Vector, b: Vector): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.distance.description
+
 ```js
 static distance(a: Vector, b: Vector): float
 ```
@@ -388,7 +396,7 @@ static distance(a: Vector, b: Vector): float
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.distance.description
 
 
 ////
@@ -396,7 +404,7 @@ static distance(a: Vector, b: Vector): float
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.distance.description
 
 
 ////
@@ -404,7 +412,7 @@ static distance(a: Vector, b: Vector): float
 //// define
 返回值：`float`
 
-- 返回值。
+- script_api.mojang-minecraft.vector.distance.return
 
 
 ////
@@ -418,6 +426,8 @@ static distance(a: Vector, b: Vector): float
 
 ///
 
+script_api.mojang-minecraft.vector.divide.description
+
 ```js
 static divide(a: Vector, b: float | Vector): Vector
 ```
@@ -426,7 +436,7 @@ static divide(a: Vector, b: float | Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.divide.description
 
 
 ////
@@ -434,7 +444,7 @@ static divide(a: Vector, b: float | Vector): Vector
 //// define
 `b`：`float`|[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.divide.description
 
 
 ////
@@ -442,7 +452,7 @@ static divide(a: Vector, b: float | Vector): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.divide.return
 
 
 ////
@@ -456,6 +466,8 @@ static divide(a: Vector, b: float | Vector): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.equals.description
+
 ```js
 equals(other: Vector): boolean
 ```
@@ -464,7 +476,7 @@ equals(other: Vector): boolean
 //// define
 `other`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.other.equals.description
 
 
 ////
@@ -472,7 +484,7 @@ equals(other: Vector): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.vector.equals.return
 
 
 ////
@@ -486,6 +498,8 @@ equals(other: Vector): boolean
 
 ///
 
+script_api.mojang-minecraft.vector.length.description
+
 ```js
 length(): float
 ```
@@ -494,7 +508,7 @@ length(): float
 //// define
 返回值：`float`
 
-- 返回值。
+- script_api.mojang-minecraft.vector.length.return
 
 
 ////
@@ -508,6 +522,8 @@ length(): float
 
 ///
 
+script_api.mojang-minecraft.vector.lerp.description
+
 ```js
 static lerp(a: Vector, b: Vector, t: float): Vector
 ```
@@ -516,7 +532,7 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.lerp.description
 
 
 ////
@@ -524,7 +540,7 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.lerp.description
 
 
 ////
@@ -532,7 +548,7 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `t`：`float`
 
-- 参数3。
+- script_api.mojang-minecraft.vector.t.lerp.description
 
 
 ////
@@ -540,7 +556,7 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.lerp.return
 
 
 ////
@@ -554,6 +570,8 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.max.description
+
 ```js
 static max(a: Vector, b: Vector): Vector
 ```
@@ -562,7 +580,7 @@ static max(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.max.description
 
 
 ////
@@ -570,7 +588,7 @@ static max(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.max.description
 
 
 ////
@@ -578,7 +596,7 @@ static max(a: Vector, b: Vector): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.max.return
 
 
 ////
@@ -592,6 +610,8 @@ static max(a: Vector, b: Vector): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.min.description
+
 ```js
 static min(a: Vector, b: Vector): Vector
 ```
@@ -600,7 +620,7 @@ static min(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.min.description
 
 
 ////
@@ -608,7 +628,7 @@ static min(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.min.description
 
 
 ////
@@ -616,7 +636,7 @@ static min(a: Vector, b: Vector): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.min.return
 
 
 ////
@@ -630,6 +650,8 @@ static min(a: Vector, b: Vector): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.multiply.description
+
 ```js
 static multiply(a: Vector, b: float | Vector): Vector
 ```
@@ -638,7 +660,7 @@ static multiply(a: Vector, b: float | Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.multiply.description
 
 
 ////
@@ -646,7 +668,7 @@ static multiply(a: Vector, b: float | Vector): Vector
 //// define
 `b`：`float`|[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.multiply.description
 
 
 ////
@@ -654,7 +676,7 @@ static multiply(a: Vector, b: float | Vector): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.multiply.return
 
 
 ////
@@ -668,6 +690,8 @@ static multiply(a: Vector, b: float | Vector): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.normalized.description
+
 ```js
 normalized(): Vector
 ```
@@ -676,7 +700,7 @@ normalized(): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.normalized.return
 
 
 ////
@@ -690,6 +714,8 @@ normalized(): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.slerp.description
+
 ```js
 static slerp(a: Vector, b: Vector, t: float): Vector
 ```
@@ -698,7 +724,7 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.slerp.description
 
 
 ////
@@ -706,7 +732,7 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.slerp.description
 
 
 ////
@@ -714,7 +740,7 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `t`：`float`
 
-- 参数3。
+- script_api.mojang-minecraft.vector.t.slerp.description
 
 
 ////
@@ -722,7 +748,7 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.slerp.return
 
 
 ////
@@ -736,6 +762,8 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 
 ///
 
+script_api.mojang-minecraft.vector.subtract.description
+
 ```js
 static subtract(a: Vector, b: Vector): Vector
 ```
@@ -744,7 +772,7 @@ static subtract(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.vector.a.subtract.description
 
 
 ////
@@ -752,7 +780,7 @@ static subtract(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.vector.b.subtract.description
 
 
 ////
@@ -760,7 +788,7 @@ static subtract(a: Vector, b: Vector): Vector
 //// define
 返回值：[`Vector`](./vector.md)
 
-- 返回值。
+- script_api.mojang-minecraft.vector.subtract.return
 
 
 ////

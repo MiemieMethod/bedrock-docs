@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemFoodComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。
+`ItemFoodComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.@minecraft/server.itemfoodcomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only canAlwaysEat: boolean;
 //// define
 `canAlwaysEat`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.itemfoodcomponent.canalwayseat.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only nutrition: int32;
 //// define
 `nutrition`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.itemfoodcomponent.nutrition.description
 
 
 ////
@@ -77,7 +77,7 @@ read-only saturationModifier: float;
 //// define
 `saturationModifier`：`float`
 
-- 属性。
+- script_api.@minecraft/server.itemfoodcomponent.saturationmodifier.description
 
 
 ////
@@ -99,7 +99,7 @@ read-only usingConvertsTo: string;
 //// define
 `usingConvertsTo`：`string`
 
-- 属性。
+- script_api.@minecraft/server.itemfoodcomponent.usingconvertsto.description
 
 
 ////

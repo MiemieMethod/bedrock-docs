@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExplosionBeforeEvent`类，扩展自[`ExplosionAfterEvent`](./explosionafterevent.md)。
+`ExplosionBeforeEvent`类，扩展自[`ExplosionAfterEvent`](./explosionafterevent.md)。script_api.@minecraft/server.explosionbeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.explosionbeforeevent.cancel.description
 
 
 ////
@@ -36,6 +36,8 @@ cancel: boolean;
 
 ///
 
+script_api.@minecraft/server.explosionbeforeevent.setimpactedblocks.description
+
 ```js
 setImpactedBlocks(blocks: Block[]): void
 ```
@@ -44,7 +46,7 @@ setImpactedBlocks(blocks: Block[]): void
 //// define
 `blocks`：<code><a href="../block/">Block</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server.explosionbeforeevent.blocks.setimpactedblocks.description
 
 
 ////
@@ -52,7 +54,7 @@ setImpactedBlocks(blocks: Block[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.explosionbeforeevent.setimpactedblocks.return
 
 
 ////

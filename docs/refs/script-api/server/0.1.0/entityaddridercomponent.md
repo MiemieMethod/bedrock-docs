@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAddRiderComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityAddRiderComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityaddridercomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entityType: string;
 //// define
 `entityType`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entityaddridercomponent.entitytype.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only spawnEvent: string;
 //// define
 `spawnEvent`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entityaddridercomponent.spawnevent.description
 
 
 ////

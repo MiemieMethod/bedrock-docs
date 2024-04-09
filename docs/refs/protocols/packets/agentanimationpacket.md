@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AgentAnimationPacket -->数据包，数字ID是`304`。
+<!-- md:samp AgentAnimationPacket -->数据包，数字ID是`304`。该数据包用于protocol.packet.agentanimationpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Agent Animation：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.agentanimationpacket.agent_animation.description
 
 
 ////
 //// define
 Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.agentanimationpacket.runtime_id.description
 
 
 ////

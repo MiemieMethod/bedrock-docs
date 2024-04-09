@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRemoveBeforeEvent`类。
+`EntityRemoveBeforeEvent`类。script_api.@minecraft/server.entityremovebeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only removedEntity: Entity;
 //// define
 `removedEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityremovebeforeevent.removedentity.description
 
 
 ////

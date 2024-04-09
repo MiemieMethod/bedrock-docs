@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp GuiDataPickItemPacket -->数据包，数字ID是`54`。
+<!-- md:samp GuiDataPickItemPacket -->数据包，数字ID是`54`。该数据包用于protocol.packet.guidatapickitempacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.guidatapickitempacket.item_name.description
 
 
 ////
 //// define
 Item Effect Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.guidatapickitempacket.item_effect_name.description
 
 
 ////
 //// define
 Slot：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.guidatapickitempacket.slot.description
 
 
 ////

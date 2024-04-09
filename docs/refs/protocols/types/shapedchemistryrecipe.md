@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ShapedChemistryRecipe -->类型。
+<!-- md:samp ShapedChemistryRecipe -->类型。该类型用于protocol.type.shapedchemistryrecipe.description
 
 ## 结构
 
@@ -68,28 +68,28 @@ rankdir = LR
 //// define
 Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedchemistryrecipe.recipe_id.description
 
 
 ////
 //// define
 Width：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedchemistryrecipe.width.description
 
 
 ////
 //// define
 Height：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedchemistryrecipe.height.description
 
 
 ////
 //// define
 Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedchemistryrecipe.ingredient.description
 
 
 ////
@@ -101,7 +101,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedchemistryrecipe.数组大小.description
 
 
 /////
@@ -113,7 +113,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedchemistryrecipe.entry.description
 
 
 //////
@@ -124,21 +124,21 @@ Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkitemins
 //// define
 Id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedchemistryrecipe.id.description
 
 
 ////
 //// define
 Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。As string
+- 特殊类型。protocol.type.shapedchemistryrecipe.tag.descriptionAs string
 
 
 ////
 //// define
 Priority：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedchemistryrecipe.priority.description
 
 
 ////

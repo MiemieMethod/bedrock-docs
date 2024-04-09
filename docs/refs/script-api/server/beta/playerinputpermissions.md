@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInputPermissions`类。
+`PlayerInputPermissions`类。script_api.@minecraft/server.playerinputpermissions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cameraEnabled: boolean;
 //// define
 `cameraEnabled`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerinputpermissions.cameraenabled.description
 
 
 ////
@@ -42,7 +42,7 @@ movementEnabled: boolean;
 //// define
 `movementEnabled`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerinputpermissions.movementenabled.description
 
 
 ////

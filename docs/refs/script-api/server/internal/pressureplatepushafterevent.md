@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PressurePlatePushAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`PressurePlatePushAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.pressureplatepushafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only previousRedstonePower: int32;
 //// define
 `previousRedstonePower`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.pressureplatepushafterevent.previousredstonepower.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only redstonePower: int32;
 //// define
 `redstonePower`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.pressureplatepushafterevent.redstonepower.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only source: Entity;
 //// define
 `source`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.pressureplatepushafterevent.source.description
 
 
 ////

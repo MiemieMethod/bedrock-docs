@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerBreakBlockAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`PlayerBreakBlockAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.playerbreakblockafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only brokenBlockPermutation: BlockPermutation;
 //// define
 `brokenBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.playerbreakblockafterevent.brokenblockpermutation.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only itemStackAfterBreak: ItemStack | undefined;
 //// define
 `itemStackAfterBreak`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playerbreakblockafterevent.itemstackafterbreak.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only itemStackBeforeBreak: ItemStack | undefined;
 //// define
 `itemStackBeforeBreak`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playerbreakblockafterevent.itemstackbeforebreak.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerbreakblockafterevent.player.description
 
 
 ////

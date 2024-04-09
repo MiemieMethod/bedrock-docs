@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SubChunkPacket::SubChunkPosOffset -->类型。
+<!-- md:samp SubChunkPacket::SubChunkPosOffset -->类型。该类型用于protocol.type.subchunkpacket::subchunkposoffset.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Offset X：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.subchunkpacket::subchunkposoffset.offset_x.description
 
 
 ////
 //// define
 Offset Y：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.subchunkpacket::subchunkposoffset.offset_y.description
 
 
 ////
 //// define
 Offset Z：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.subchunkpacket::subchunkposoffset.offset_z.description
 
 
 ////

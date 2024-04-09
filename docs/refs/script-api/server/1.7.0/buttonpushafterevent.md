@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ButtonPushAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`ButtonPushAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.buttonpushafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only source: Entity;
 //// define
 `source`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.buttonpushafterevent.source.description
 
 
 ////

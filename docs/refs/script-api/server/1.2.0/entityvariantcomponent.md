@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityVariantComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityVariantComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityvariantcomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only value: int32;
 //// define
 `value`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.entityvariantcomponent.value.description
 
 
 ////

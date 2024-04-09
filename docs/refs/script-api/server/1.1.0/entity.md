@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Entity`类。
+`Entity`类。script_api.@minecraft/server.entity.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.entity.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entity.id.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.entity.location.description
 
 
 ////
@@ -86,7 +86,7 @@ nameTag: string;
 //// define
 `nameTag`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entity.nametag.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only typeId: string;
 //// define
 `typeId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entity.typeid.description
 
 
 ////
@@ -124,6 +124,8 @@ read-only typeId: string;
 
 ///
 
+script_api.@minecraft/server.entity.getheadlocation.description
+
 ```js
 getHeadLocation(): Vector3
 ```
@@ -132,7 +134,7 @@ getHeadLocation(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.getheadlocation.return
 
 
 ////
@@ -146,6 +148,8 @@ getHeadLocation(): Vector3
 
 ///
 
+script_api.@minecraft/server.entity.getvelocity.description
+
 ```js
 getVelocity(): Vector3
 ```
@@ -154,7 +158,7 @@ getVelocity(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.getvelocity.return
 
 
 ////
@@ -168,6 +172,8 @@ getVelocity(): Vector3
 
 ///
 
+script_api.@minecraft/server.entity.getviewdirection.description
+
 ```js
 getViewDirection(): Vector3
 ```
@@ -176,7 +182,7 @@ getViewDirection(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.getviewdirection.return
 
 
 ////
@@ -190,6 +196,8 @@ getViewDirection(): Vector3
 
 ///
 
+script_api.@minecraft/server.entity.runcommandasync.description
+
 ```js
 runCommandAsync(commandString: string): Promise<CommandResult>
 ```
@@ -198,7 +206,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.commandstring.runcommandasync.description
 
 
 ////
@@ -206,7 +214,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 返回值：<code>Promise&lt;<a href="../commandresult/">CommandResult</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.entity.runcommandasync.return
 
 
 ////

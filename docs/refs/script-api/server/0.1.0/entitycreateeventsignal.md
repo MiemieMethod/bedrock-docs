@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityCreateEventSignal`类。
+`EntityCreateEventSignal`类。script_api.mojang-minecraft.entitycreateeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.entitycreateeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntityCreateEvent) => void): (arg: EntityCreateEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntityCreateEvent) => void): (arg: EntityCreateEvent) 
 //// define
 `callback`：<code>(<a href="../entitycreateevent/">EntityCreateEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.entitycreateeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntityCreateEvent) => void): (arg: EntityCreateEvent) 
 //// define
 返回值：<code>(<a href="../entitycreateevent/">EntityCreateEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.entitycreateeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: EntityCreateEvent) => void): (arg: EntityCreateEvent) 
 
 ///
 
+script_api.mojang-minecraft.entitycreateeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntityCreateEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: EntityCreateEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entitycreateevent/">EntityCreateEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.entitycreateeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntityCreateEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entitycreateeventsignal.unsubscribe.return
 
 
 ////

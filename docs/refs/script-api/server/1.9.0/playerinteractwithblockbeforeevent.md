@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInteractWithBlockBeforeEvent`类。
+`PlayerInteractWithBlockBeforeEvent`类。script_api.@minecraft/server.playerinteractwithblockbeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockbeforeevent.block.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only blockFace: Direction;
 //// define
 `blockFace`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockbeforeevent.blockface.description
 
 
 ////
@@ -64,7 +64,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockbeforeevent.cancel.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only faceLocation: Vector3;
 //// define
 `faceLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockbeforeevent.facelocation.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockbeforeevent.itemstack.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockbeforeevent.player.description
 
 
 ////

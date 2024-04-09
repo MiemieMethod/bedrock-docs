@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ActionFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。
+`ActionFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。script_api.@minecraft/server-ui.actionformresponse.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only selection: uint32 | undefined;
 //// define
 `selection`：`uint32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-ui.actionformresponse.selection.description
 
 
 ////

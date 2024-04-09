@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`@minecraft/server-admin`模块的`1.0.0-beta`版本，UUID为`53d7f2bf-bf9c-49c4-ad1f-7c803d947920`。
+`@minecraft/server-admin`模块的`1.0.0-beta`版本，UUID为`53d7f2bf-bf9c-49c4-ad1f-7c803d947920`。该模块是script_api.@minecraft/server-admin.description
 
 /// info | 依赖
 该模块依赖于以下模块：
@@ -26,7 +26,7 @@ static read-only secrets: ServerSecrets;
 //// define
 `secrets`：[`ServerSecrets`](./serversecrets.md)
 
-- 属性。
+- script_api.@minecraft/server-admin.propertyoutofboundserror.secrets.description
 
 
 ////
@@ -48,7 +48,7 @@ static read-only variables: ServerVariables;
 //// define
 `variables`：[`ServerVariables`](./servervariables.md)
 
-- 属性。
+- script_api.@minecraft/server-admin.propertyoutofboundserror.variables.description
 
 
 ////

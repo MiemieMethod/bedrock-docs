@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AgentActionEventPacket -->数据包，数字ID是`181`。
+<!-- md:samp AgentActionEventPacket -->数据包，数字ID是`181`。该数据包用于protocol.packet.agentactioneventpacket.description
 
 ## 结构
 
@@ -40,35 +40,35 @@ rankdir = LR
 //// define
 Request Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.agentactioneventpacket.request_id.description
 
 
 ////
 //// define
 Request Id：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.agentactioneventpacket.request_id.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Attack`|`1`||
-  |`Collect`|`2`||
-  |`Destroy`|`3`||
-  |`DetectRedstone`|`4`||
-  |`DetectObstacle`|`5`||
-  |`Drop`|`6`||
-  |`DropAll`|`7`||
-  |`Inspect`|`8`||
-  |`InspectData`|`9`||
-  |`InspectItemCount`|`10`||
-  |`InspectItemDetail`|`11`||
-  |`InspectItemSpace`|`12`||
-  |`Interact`|`13`||
-  |`Move`|`14`||
-  |`PlaceBlock`|`15`||
-  |`Till`|`16`||
-  |`TransferItemTo`|`17`||
-  |`Turn`|`18`||
+  |`Attack`|`1`|protocol.enum.attack|
+  |`Collect`|`2`|protocol.enum.collect|
+  |`Destroy`|`3`|protocol.enum.destroy|
+  |`DetectRedstone`|`4`|protocol.enum.detectredstone|
+  |`DetectObstacle`|`5`|protocol.enum.detectobstacle|
+  |`Drop`|`6`|protocol.enum.drop|
+  |`DropAll`|`7`|protocol.enum.dropall|
+  |`Inspect`|`8`|protocol.enum.inspect|
+  |`InspectData`|`9`|protocol.enum.inspectdata|
+  |`InspectItemCount`|`10`|protocol.enum.inspectitemcount|
+  |`InspectItemDetail`|`11`|protocol.enum.inspectitemdetail|
+  |`InspectItemSpace`|`12`|protocol.enum.inspectitemspace|
+  |`Interact`|`13`|protocol.enum.interact|
+  |`Move`|`14`|protocol.enum.move|
+  |`PlaceBlock`|`15`|protocol.enum.placeblock|
+  |`Till`|`16`|protocol.enum.till|
+  |`TransferItemTo`|`17`|protocol.enum.transferitemto|
+  |`Turn`|`18`|protocol.enum.turn|
 
 
 
@@ -76,7 +76,7 @@ Request Id：<!-- md:samp int -->
 //// define
 Response：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.agentactioneventpacket.response.description
 
 
 ////

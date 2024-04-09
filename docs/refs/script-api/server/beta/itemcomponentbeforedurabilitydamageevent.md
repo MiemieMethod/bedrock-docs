@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemComponentBeforeDurabilityDamageEvent`类。
+`ItemComponentBeforeDurabilityDamageEvent`类。script_api.@minecraft/server.itemcomponentbeforedurabilitydamageevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only attackingEntity: Entity;
 //// define
 `attackingEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentbeforedurabilitydamageevent.attackingentity.description
 
 
 ////
@@ -42,7 +42,7 @@ durabilityDamage: int32;
 //// define
 `durabilityDamage`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentbeforedurabilitydamageevent.durabilitydamage.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only hitEntity: Entity;
 //// define
 `hitEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentbeforedurabilitydamageevent.hitentity.description
 
 
 ////
@@ -86,7 +86,7 @@ itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentbeforedurabilitydamageevent.itemstack.description
 
 
 ////

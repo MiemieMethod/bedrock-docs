@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ShapedRecipe -->类型。
+<!-- md:samp ShapedRecipe -->类型。该类型用于protocol.type.shapedrecipe.description
 
 ## 结构
 
@@ -74,7 +74,7 @@ rankdir = LR
 //// define
 Recipe Unique Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedrecipe.recipe_unique_id.description
 
 
 ////
@@ -91,14 +91,14 @@ Recipe Unique Id：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Recipe Width：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedrecipe.recipe_width.description
 
 
 //////
 ////// define
 Recipe Height：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedrecipe.recipe_height.description
 
 
 //////
@@ -112,7 +112,7 @@ Recipe Height：<!-- md:samp varint -->
 ////// define
 Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedrecipe.ingredient.description
 
 
 //////
@@ -128,7 +128,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedrecipe.数组大小.description
 
 
 /////
@@ -140,7 +140,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedrecipe.produced_item.description
 
 
 //////
@@ -151,26 +151,26 @@ Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networ
 //// define
 Recipe ID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapedrecipe.recipe_id.description
 
 
 ////
 //// define
 Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型枚举。枚举值如下：
+- 特殊类型枚举。protocol.type.shapedrecipe.recipe_tag.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`CARTOGRAPHY_TABLE`||
-  |`CRAFTING_TABLE`||
-  |`SMITHING_TABLE`||
-  |`STONECUTTER`||
-  |`FURNACE_TAG`||
-  |`BLAST_FURNACE_TAG`||
-  |`SMOKER_TAG`||
-  |`CAMPFIRE_TAG`||
-  |`SOUL_CAMPFIRE_TAG`||
+  |`CARTOGRAPHY_TABLE`|protocol.enum.cartography_table|
+  |`CRAFTING_TABLE`|protocol.enum.crafting_table|
+  |`SMITHING_TABLE`|protocol.enum.smithing_table|
+  |`STONECUTTER`|protocol.enum.stonecutter|
+  |`FURNACE_TAG`|protocol.enum.furnace_tag|
+  |`BLAST_FURNACE_TAG`|protocol.enum.blast_furnace_tag|
+  |`SMOKER_TAG`|protocol.enum.smoker_tag|
+  |`CAMPFIRE_TAG`|protocol.enum.campfire_tag|
+  |`SOUL_CAMPFIRE_TAG`|protocol.enum.soul_campfire_tag|
 
 
 
@@ -178,7 +178,7 @@ Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 //// define
 Priority：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapedrecipe.priority.description
 
 
 ////

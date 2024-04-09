@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetDifficultyPacket -->数据包，数字ID是`60`。
+<!-- md:samp SetDifficultyPacket -->数据包，数字ID是`60`。该数据包用于protocol.packet.setdifficultypacket.description
 
 ## 结构
 
@@ -32,16 +32,16 @@ rankdir = LR
 //// define
 Difficulty：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setdifficultypacket.difficulty.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Peaceful`|`0`||
-  |`Easy`|`1`||
-  |`Normal`|`2`||
-  |`Hard`|`3`||
-  |`Count`|`4`||
-  |`Unknown`|`5`||
+  |`Peaceful`|`0`|protocol.enum.peaceful|
+  |`Easy`|`1`|protocol.enum.easy|
+  |`Normal`|`2`|protocol.enum.normal|
+  |`Hard`|`3`|protocol.enum.hard|
+  |`Count`|`4`|protocol.enum.count|
+  |`Unknown`|`5`|protocol.enum.unknown|
 
 
 

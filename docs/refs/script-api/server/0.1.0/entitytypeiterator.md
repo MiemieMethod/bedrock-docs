@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTypeIterator`类，实现了<code>Iterator&lt;<a href="../entitytype/">EntityType</a>&gt;</code>。
+`EntityTypeIterator`类，实现了<code>Iterator&lt;<a href="../entitytype/">EntityType</a>&gt;</code>。script_api.mojang-minecraft.entitytypeiterator.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.entitytypeiterator.[symbol.iterator].description
+
 ```js
 [Symbol.iterator](): Iterator<EntityType>
 ```
@@ -20,7 +22,7 @@
 //// define
 返回值：<code>Iterator&lt;<a href="../entitytype/">EntityType</a>&gt;</code>
 
-- 返回值。
+- script_api.mojang-minecraft.entitytypeiterator.[symbol.iterator].return
 
 
 ////
@@ -34,6 +36,8 @@
 
 ///
 
+script_api.mojang-minecraft.entitytypeiterator.next.description
+
 ```js
 next(): IteratorResult<EntityType>
 ```
@@ -42,7 +46,7 @@ next(): IteratorResult<EntityType>
 //// define
 返回值：<code>IteratorResult&lt;<a href="../entitytype/">EntityType</a>&gt;</code>
 
-- 返回值。
+- script_api.mojang-minecraft.entitytypeiterator.next.return
 
 
 ////

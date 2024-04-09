@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRideableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityRideableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityrideablecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only controllingSeat: int32;
 //// define
 `controllingSeat`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.entityrideablecomponent.controllingseat.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only crouchingSkipInteract: boolean;
 //// define
 `crouchingSkipInteract`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityrideablecomponent.crouchingskipinteract.description
 
 
 ////
@@ -77,7 +77,7 @@ read-only interactText: string;
 //// define
 `interactText`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entityrideablecomponent.interacttext.description
 
 
 ////
@@ -99,7 +99,7 @@ read-only passengerMaxWidth: float;
 //// define
 `passengerMaxWidth`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityrideablecomponent.passengermaxwidth.description
 
 
 ////
@@ -121,7 +121,7 @@ read-only pullInEntities: boolean;
 //// define
 `pullInEntities`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityrideablecomponent.pullinentities.description
 
 
 ////
@@ -143,7 +143,7 @@ read-only riderCanInteract: boolean;
 //// define
 `riderCanInteract`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityrideablecomponent.ridercaninteract.description
 
 
 ////
@@ -165,7 +165,7 @@ read-only seatCount: int32;
 //// define
 `seatCount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.entityrideablecomponent.seatcount.description
 
 
 ////
@@ -181,6 +181,8 @@ read-only seatCount: int32;
 
 ///
 
+script_api.@minecraft/server.entityrideablecomponent.addrider.description
+
 ```js
 addRider(rider: Entity): boolean
 ```
@@ -189,7 +191,7 @@ addRider(rider: Entity): boolean
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- 参数1。
+- script_api.@minecraft/server.entityrideablecomponent.rider.addrider.description
 
 
 ////
@@ -197,7 +199,7 @@ addRider(rider: Entity): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entityrideablecomponent.addrider.return
 
 
 ////
@@ -211,6 +213,8 @@ addRider(rider: Entity): boolean
 
 ///
 
+script_api.@minecraft/server.entityrideablecomponent.ejectrider.description
+
 ```js
 ejectRider(rider: Entity): void
 ```
@@ -219,7 +223,7 @@ ejectRider(rider: Entity): void
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- 参数1。
+- script_api.@minecraft/server.entityrideablecomponent.rider.ejectrider.description
 
 
 ////
@@ -227,7 +231,7 @@ ejectRider(rider: Entity): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityrideablecomponent.ejectrider.return
 
 
 ////
@@ -241,6 +245,8 @@ ejectRider(rider: Entity): void
 
 ///
 
+script_api.@minecraft/server.entityrideablecomponent.ejectriders.description
+
 ```js
 ejectRiders(): void
 ```
@@ -249,7 +255,7 @@ ejectRiders(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityrideablecomponent.ejectriders.return
 
 
 ////
@@ -263,6 +269,8 @@ ejectRiders(): void
 
 ///
 
+script_api.@minecraft/server.entityrideablecomponent.getfamilytypes.description
+
 ```js
 getFamilyTypes(): string[]
 ```
@@ -271,7 +279,7 @@ getFamilyTypes(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.entityrideablecomponent.getfamilytypes.return
 
 
 ////
@@ -285,6 +293,8 @@ getFamilyTypes(): string[]
 
 ///
 
+script_api.@minecraft/server.entityrideablecomponent.getriders.description
+
 ```js
 getRiders(): Entity[]
 ```
@@ -293,7 +303,7 @@ getRiders(): Entity[]
 //// define
 返回值：<code><a href="../entity/">Entity</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityrideablecomponent.getriders.return
 
 
 ////
@@ -307,6 +317,8 @@ getRiders(): Entity[]
 
 ///
 
+script_api.@minecraft/server.entityrideablecomponent.getseats.description
+
 ```js
 getSeats(): Seat[]
 ```
@@ -315,7 +327,7 @@ getSeats(): Seat[]
 //// define
 返回值：<code><a href="../seat/">Seat</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityrideablecomponent.getseats.return
 
 
 ////

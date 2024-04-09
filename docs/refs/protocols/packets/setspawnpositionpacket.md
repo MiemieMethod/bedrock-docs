@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetSpawnPositionPacket -->数据包，数字ID是`43`。
+<!-- md:samp SetSpawnPositionPacket -->数据包，数字ID是`43`。该数据包用于protocol.packet.setspawnpositionpacket.description
 
 ## 结构
 
@@ -44,12 +44,12 @@ rankdir = LR
 //// define
 Spawn Position Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setspawnpositionpacket.spawn_position_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`PlayerRespawn`|`0`||
-  |`WorldSpawn`|`1`||
+  |`PlayerRespawn`|`0`|protocol.enum.playerrespawn|
+  |`WorldSpawn`|`1`|protocol.enum.worldspawn|
 
 
 
@@ -57,21 +57,21 @@ Spawn Position Type：<!-- md:samp varint -->
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setspawnpositionpacket.block_position.description
 
 
 ////
 //// define
 Dimension type：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.setspawnpositionpacket.dimension_type.description
 
 
 ////
 //// define
 Spawn Block Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setspawnpositionpacket.spawn_block_pos.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ClientboundDebugRendererPacket -->数据包，数字ID是`164`。
+<!-- md:samp ClientboundDebugRendererPacket -->数据包，数字ID是`164`。该数据包用于protocol.packet.clientbounddebugrendererpacket.description
 
 ## 结构
 
@@ -72,13 +72,13 @@ rankdir = LR
 //// define
 Debug Marker Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.clientbounddebugrendererpacket.debug_marker_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`ClearDebugMarkers`|`1`||
-  |`AddDebugMarkerCube`|`2`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`ClearDebugMarkers`|`1`|protocol.enum.cleardebugmarkers|
+  |`AddDebugMarkerCube`|`2`|protocol.enum.adddebugmarkercube|
 
 
 
@@ -89,7 +89,7 @@ Debug Marker Type：<!-- md:samp unsigned varint -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -100,7 +100,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -116,49 +116,49 @@ if (1)：<!-- md:samp [No Data] -->
 /////// define
 Debug Marker Text：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_text.description
 
 
 ///////
 /////// define
 Debug Marker Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_position.description
 
 
 ///////
 /////// define
 Debug Marker Color red：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_red.description
 
 
 ///////
 /////// define
 Debug Marker Color green：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_green.description
 
 
 ///////
 /////// define
 Debug Marker Color blue：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_blue.description
 
 
 ///////
 /////// define
 Debug Marker Color alpha：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_alpha.description
 
 
 ///////
 /////// define
 Debug Marker Duration Milliseconds：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_duration_milliseconds.description
 
 
 ///////

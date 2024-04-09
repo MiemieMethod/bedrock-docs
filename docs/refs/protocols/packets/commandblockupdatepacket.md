@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CommandBlockUpdatePacket -->数据包，数字ID是`78`。
+<!-- md:samp CommandBlockUpdatePacket -->数据包，数字ID是`78`。该数据包用于protocol.packet.commandblockupdatepacket.description
 
 ## 结构
 
@@ -82,7 +82,7 @@ rankdir = LR
 //// define
 Is Block?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandblockupdatepacket.is_block.description
 
 
 ////
@@ -97,7 +97,7 @@ Is Block?：<!-- md:samp bool -->
 /////// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandblockupdatepacket.target_runtime_id.description
 
 
 ///////
@@ -115,20 +115,20 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 /////// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandblockupdatepacket.block_position.description
 
 
 ///////
 /////// define
 Command Block Mode：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.commandblockupdatepacket.command_block_mode.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Normal`|`0`||
-  |`Repeating`|`1`||
-  |`Chain`|`2`||
+  |`Normal`|`0`|protocol.enum.normal|
+  |`Repeating`|`1`|protocol.enum.repeating|
+  |`Chain`|`2`|protocol.enum.chain|
 
 
 
@@ -136,14 +136,14 @@ Command Block Mode：<!-- md:samp unsigned varint -->
 /////// define
 Redstone Mode：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandblockupdatepacket.redstone_mode.description
 
 
 ///////
 /////// define
 Is Conditional?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandblockupdatepacket.is_conditional.description
 
 
 ///////
@@ -154,42 +154,42 @@ Is Conditional?：<!-- md:samp bool -->
 //// define
 Command：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandblockupdatepacket.command.description
 
 
 ////
 //// define
 Last Output：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandblockupdatepacket.last_output.description
 
 
 ////
 //// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandblockupdatepacket.name.description
 
 
 ////
 //// define
 Track Output?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandblockupdatepacket.track_output.description
 
 
 ////
 //// define
 Tick Delay：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandblockupdatepacket.tick_delay.description
 
 
 ////
 //// define
 Should execute on first tick?：<!-- md:samp bool -->
 
-- 基本类型。If a delay is set on a repeating command block, should the command execute on first tick, or on first delay?
+- 基本类型。protocol.packet.commandblockupdatepacket.should_execute_on_first_tick.descriptionIf a delay is set on a repeating command block, should the command execute on first tick, or on first delay?
 
 
 ////

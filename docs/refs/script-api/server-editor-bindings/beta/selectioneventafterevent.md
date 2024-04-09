@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SelectionEventAfterEvent`类。
+`SelectionEventAfterEvent`类。script_api.@minecraft/server-editor-bindings.selectioneventafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only selectionEvent: PrimarySelectionChangedEvent;
 //// define
 `selectionEvent`：[`PrimarySelectionChangedEvent`](./primaryselectionchangedevent.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.selectioneventafterevent.selectionevent.description
 
 
 ////

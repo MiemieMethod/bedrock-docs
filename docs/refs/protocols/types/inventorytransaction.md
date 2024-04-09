@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp InventoryTransaction -->类型。
+<!-- md:samp InventoryTransaction -->类型。该类型用于protocol.type.inventorytransaction.description
 
 ## 结构
 
@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.inventorytransaction.数组大小.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.inventorytransaction.action.description
 
 
 //////

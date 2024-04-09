@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/listd`命令commands.listd.description
+`/listd`命令command.listd.description
 
 /// settings | 执行条件
 该命令需要权限等级：`host`|`3`。该命令需要开启作弊。
@@ -16,16 +16,18 @@
 ```
 
 //// html | div.result
+command.listd.1.description
+
 ///// define
 `details`：<!-- md:samp ListDetails -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型，可选。command.enum.listdetails.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`ids`||
-  |`uuids`||
-  |`stats`||
+  |`ids`|command.enum.listdetails.ids|
+  |`uuids`|command.enum.listdetails.uuids|
+  |`stats`|command.enum.listdetails.stats|
 
 
 

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInventoryComponentContainer`类。
+`PlayerInventoryComponentContainer`类。script_api.mojang-minecraft.playerinventorycomponentcontainer.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only emptySlotsCount: int32;
 //// define
 `emptySlotsCount`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.emptyslotscount.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only size: int32;
 //// define
 `size`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.size.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only size: int32;
 
 ///
 
+script_api.mojang-minecraft.playerinventorycomponentcontainer.additem.description
+
 ```js
 addItem(itemStack: ItemStack): void
 ```
@@ -66,7 +68,7 @@ addItem(itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.itemstack.additem.description
 
 
 ////
@@ -74,7 +76,7 @@ addItem(itemStack: ItemStack): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.additem.return
 
 
 ////
@@ -88,6 +90,8 @@ addItem(itemStack: ItemStack): void
 
 ///
 
+script_api.mojang-minecraft.playerinventorycomponentcontainer.getitem.description
+
 ```js
 getItem(slot: int32): ItemStack | undefined
 ```
@@ -96,7 +100,7 @@ getItem(slot: int32): ItemStack | undefined
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.slot.getitem.description
 
 
 ////
@@ -104,7 +108,7 @@ getItem(slot: int32): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.getitem.return
 
 
 ////
@@ -118,6 +122,8 @@ getItem(slot: int32): ItemStack | undefined
 
 ///
 
+script_api.mojang-minecraft.playerinventorycomponentcontainer.setitem.description
+
 ```js
 setItem(slot: int32, itemStack: ItemStack): void
 ```
@@ -126,7 +132,7 @@ setItem(slot: int32, itemStack: ItemStack): void
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.slot.setitem.description
 
 
 ////
@@ -134,7 +140,7 @@ setItem(slot: int32, itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数2。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.itemstack.setitem.description
 
 
 ////
@@ -142,7 +148,7 @@ setItem(slot: int32, itemStack: ItemStack): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.setitem.return
 
 
 ////
@@ -156,6 +162,8 @@ setItem(slot: int32, itemStack: ItemStack): void
 
 ///
 
+script_api.mojang-minecraft.playerinventorycomponentcontainer.swapitems.description
+
 ```js
 swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 ```
@@ -164,7 +172,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.slot.swapitems.description
 
 
 ////
@@ -172,7 +180,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 //// define
 `otherSlot`：`int32`
 
-- 参数2。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.otherslot.swapitems.description
 
 
 ////
@@ -180,7 +188,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 //// define
 `otherContainer`：[`Container`](./container.md)
 
-- 参数3。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.othercontainer.swapitems.description
 
 
 ////
@@ -188,7 +196,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.swapitems.return
 
 
 ////
@@ -202,6 +210,8 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 
 ///
 
+script_api.mojang-minecraft.playerinventorycomponentcontainer.transferitem.description
+
 ```js
 transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 ```
@@ -210,7 +220,7 @@ transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 //// define
 `fromSlot`：`int32`
 
-- 参数1。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.fromslot.transferitem.description
 
 
 ////
@@ -218,7 +228,7 @@ transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 //// define
 `toSlot`：`int32`
 
-- 参数2。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.toslot.transferitem.description
 
 
 ////
@@ -226,7 +236,7 @@ transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 //// define
 `toContainer`：[`Container`](./container.md)
 
-- 参数3。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.tocontainer.transferitem.description
 
 
 ////
@@ -234,7 +244,7 @@ transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.playerinventorycomponentcontainer.transferitem.return
 
 
 ////

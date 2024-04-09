@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameTestSequence`类。
+`GameTestSequence`类。script_api.@minecraft/server-gametest.gametestsequence.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thenexecute.description
+
 ```js
 thenExecute(callback: () => void): GameTestSequence
 ```
@@ -20,7 +22,7 @@ thenExecute(callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestsequence.callback.thenexecute.description
 
 
 ////
@@ -28,7 +30,7 @@ thenExecute(callback: () => void): GameTestSequence
 //// define
 返回值：[`GameTestSequence`](./gametestsequence.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecute.return
 
 
 ////
@@ -42,6 +44,8 @@ thenExecute(callback: () => void): GameTestSequence
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thenexecuteafter.description
+
 ```js
 thenExecuteAfter(delayTicks: int32, callback: () => void): GameTestSequence
 ```
@@ -50,7 +54,7 @@ thenExecuteAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `delayTicks`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestsequence.delayticks.thenexecuteafter.description
 
 
 ////
@@ -58,7 +62,7 @@ thenExecuteAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数2。
+- script_api.@minecraft/server-gametest.gametestsequence.callback.thenexecuteafter.description
 
 
 ////
@@ -66,7 +70,7 @@ thenExecuteAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 返回值：[`GameTestSequence`](./gametestsequence.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecuteafter.return
 
 
 ////
@@ -80,6 +84,8 @@ thenExecuteAfter(delayTicks: int32, callback: () => void): GameTestSequence
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thenexecutefor.description
+
 ```js
 thenExecuteFor(tickCount: int32, callback: () => void): GameTestSequence
 ```
@@ -88,7 +94,7 @@ thenExecuteFor(tickCount: int32, callback: () => void): GameTestSequence
 //// define
 `tickCount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestsequence.tickcount.thenexecutefor.description
 
 
 ////
@@ -96,7 +102,7 @@ thenExecuteFor(tickCount: int32, callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数2。
+- script_api.@minecraft/server-gametest.gametestsequence.callback.thenexecutefor.description
 
 
 ////
@@ -104,7 +110,7 @@ thenExecuteFor(tickCount: int32, callback: () => void): GameTestSequence
 //// define
 返回值：[`GameTestSequence`](./gametestsequence.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecutefor.return
 
 
 ////
@@ -118,6 +124,8 @@ thenExecuteFor(tickCount: int32, callback: () => void): GameTestSequence
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thenfail.description
+
 ```js
 thenFail(errorMessage: string): void
 ```
@@ -126,7 +134,7 @@ thenFail(errorMessage: string): void
 //// define
 `errorMessage`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestsequence.errormessage.thenfail.description
 
 
 ////
@@ -134,7 +142,7 @@ thenFail(errorMessage: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thenfail.return
 
 
 ////
@@ -148,6 +156,8 @@ thenFail(errorMessage: string): void
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thenidle.description
+
 ```js
 thenIdle(delayTicks: int32): GameTestSequence
 ```
@@ -156,7 +166,7 @@ thenIdle(delayTicks: int32): GameTestSequence
 //// define
 `delayTicks`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestsequence.delayticks.thenidle.description
 
 
 ////
@@ -164,7 +174,7 @@ thenIdle(delayTicks: int32): GameTestSequence
 //// define
 返回值：[`GameTestSequence`](./gametestsequence.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thenidle.return
 
 
 ////
@@ -178,6 +188,8 @@ thenIdle(delayTicks: int32): GameTestSequence
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thensucceed.description
+
 ```js
 thenSucceed(): void
 ```
@@ -186,7 +198,7 @@ thenSucceed(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thensucceed.return
 
 
 ////
@@ -200,6 +212,8 @@ thenSucceed(): void
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thenwait.description
+
 ```js
 thenWait(callback: () => void): GameTestSequence
 ```
@@ -208,7 +222,7 @@ thenWait(callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestsequence.callback.thenwait.description
 
 
 ////
@@ -216,7 +230,7 @@ thenWait(callback: () => void): GameTestSequence
 //// define
 返回值：[`GameTestSequence`](./gametestsequence.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thenwait.return
 
 
 ////
@@ -230,6 +244,8 @@ thenWait(callback: () => void): GameTestSequence
 
 ///
 
+script_api.@minecraft/server-gametest.gametestsequence.thenwaitafter.description
+
 ```js
 thenWaitAfter(delayTicks: int32, callback: () => void): GameTestSequence
 ```
@@ -238,7 +254,7 @@ thenWaitAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `delayTicks`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestsequence.delayticks.thenwaitafter.description
 
 
 ////
@@ -246,7 +262,7 @@ thenWaitAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数2。
+- script_api.@minecraft/server-gametest.gametestsequence.callback.thenwaitafter.description
 
 
 ////
@@ -254,7 +270,7 @@ thenWaitAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 返回值：[`GameTestSequence`](./gametestsequence.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestsequence.thenwaitafter.return
 
 
 ////

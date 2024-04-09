@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TitleDisplayOptions`接口。
+`TitleDisplayOptions`接口。script_api.@minecraft/server.titledisplayoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ fadeInDuration: int32;
 //// define
 `fadeInDuration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.titledisplayoptions.fadeinduration.description
 
 
 ////
@@ -42,7 +42,7 @@ fadeOutDuration: int32;
 //// define
 `fadeOutDuration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.titledisplayoptions.fadeoutduration.description
 
 
 ////
@@ -64,7 +64,7 @@ stayDuration: int32;
 //// define
 `stayDuration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.titledisplayoptions.stayduration.description
 
 
 ////
@@ -79,14 +79,14 @@ stayDuration: int32;
 ///
 
 ```js
-subtitle: RawMessage | string[] | RawMessage | string | undefined;
+subtitle: (RawMessage | string)[] | RawMessage | string | undefined;
 ```
 
 /// html | div.result
 //// define
-`subtitle`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`|`undefined`
+`subtitle`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.titledisplayoptions.subtitle.description
 
 
 ////

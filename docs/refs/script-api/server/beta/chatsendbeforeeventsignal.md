@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ChatSendBeforeEventSignal`类。
+`ChatSendBeforeEventSignal`类。script_api.@minecraft/server.chatsendbeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.chatsendbeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ChatSendBeforeEvent) => void): (arg: ChatSendBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ChatSendBeforeEvent) => void): (arg: ChatSendBeforeEve
 //// define
 `callback`：<code>(<a href="../chatsendbeforeevent/">ChatSendBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.chatsendbeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ChatSendBeforeEvent) => void): (arg: ChatSendBeforeEve
 //// define
 返回值：<code>(<a href="../chatsendbeforeevent/">ChatSendBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.chatsendbeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ChatSendBeforeEvent) => void): (arg: ChatSendBeforeEve
 
 ///
 
+script_api.@minecraft/server.chatsendbeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ChatSendBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ChatSendBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../chatsendbeforeevent/">ChatSendBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.chatsendbeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ChatSendBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.chatsendbeforeeventsignal.unsubscribe.return
 
 
 ////

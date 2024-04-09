@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ClipboardItem`类。
+`ClipboardItem`类。script_api.@minecraft/server-editor-bindings.clipboarditem.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only isEmpty: boolean;
 //// define
 `isEmpty`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.isempty.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only isEmpty: boolean;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboarditem.clear.description
+
 ```js
 clear(): void
 ```
@@ -44,7 +46,7 @@ clear(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.clear.return
 
 
 ////
@@ -58,6 +60,8 @@ clear(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteascompoundblockvolume.description
+
 ```js
 getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWriteOptions): CompoundBlockVolume
 ```
@@ -66,7 +70,7 @@ getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWri
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.location.getpredictedwriteascompoundblockvolume.description
 
 
 ////
@@ -74,7 +78,7 @@ getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWri
 //// define
 `options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.options.getpredictedwriteascompoundblockvolume.description
 
 
 ////
@@ -82,7 +86,7 @@ getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWri
 //// define
 返回值：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteascompoundblockvolume.return
 
 
 ////
@@ -96,6 +100,8 @@ getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWri
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteasselection.description
+
 ```js
 getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions): Selection
 ```
@@ -104,7 +110,7 @@ getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions)
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.location.getpredictedwriteasselection.description
 
 
 ////
@@ -112,7 +118,7 @@ getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions)
 //// define
 `options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.options.getpredictedwriteasselection.description
 
 
 ////
@@ -120,7 +126,7 @@ getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions)
 //// define
 返回值：[`Selection`](./selection.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteasselection.return
 
 
 ////
@@ -134,6 +140,8 @@ getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions)
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboarditem.getsize.description
+
 ```js
 getSize(): Vector3
 ```
@@ -142,7 +150,7 @@ getSize(): Vector3
 //// define
 返回值：[`Vector3`](../../server/beta/vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.getsize.return
 
 
 ////
@@ -156,6 +164,8 @@ getSize(): Vector3
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboarditem.readfromselection.description
+
 ```js
 readFromSelection(selection: Selection): void
 ```
@@ -164,7 +174,7 @@ readFromSelection(selection: Selection): void
 //// define
 `selection`：[`Selection`](./selection.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.selection.readfromselection.description
 
 
 ////
@@ -172,7 +182,7 @@ readFromSelection(selection: Selection): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.readfromselection.return
 
 
 ////
@@ -186,6 +196,8 @@ readFromSelection(selection: Selection): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboarditem.readfromworld.description
+
 ```js
 readFromWorld(from: Vector3, to: Vector3): void
 ```
@@ -194,7 +206,7 @@ readFromWorld(from: Vector3, to: Vector3): void
 //// define
 `from`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.from.readfromworld.description
 
 
 ////
@@ -202,7 +214,7 @@ readFromWorld(from: Vector3, to: Vector3): void
 //// define
 `to`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.to.readfromworld.description
 
 
 ////
@@ -210,7 +222,7 @@ readFromWorld(from: Vector3, to: Vector3): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.readfromworld.return
 
 
 ////
@@ -224,6 +236,8 @@ readFromWorld(from: Vector3, to: Vector3): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.clipboarditem.writetoworld.description
+
 ```js
 writeToWorld(location: Vector3, options?: ClipboardWriteOptions): boolean
 ```
@@ -232,7 +246,7 @@ writeToWorld(location: Vector3, options?: ClipboardWriteOptions): boolean
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.location.writetoworld.description
 
 
 ////
@@ -240,7 +254,7 @@ writeToWorld(location: Vector3, options?: ClipboardWriteOptions): boolean
 //// define
 `options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.options.writetoworld.description
 
 
 ////
@@ -248,7 +262,7 @@ writeToWorld(location: Vector3, options?: ClipboardWriteOptions): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.clipboarditem.writetoworld.return
 
 
 ////

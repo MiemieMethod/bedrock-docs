@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ModeChangeAfterEventSignal`类。
+`ModeChangeAfterEventSignal`类。script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ModeChangeAfterEvent) => void): (arg: ModeChangeAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ModeChangeAfterEvent) => void): (arg: ModeChangeAfterE
 //// define
 `callback`：<code>(<a href="../modechangeafterevent/">ModeChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ModeChangeAfterEvent) => void): (arg: ModeChangeAfterE
 //// define
 返回值：<code>(<a href="../modechangeafterevent/">ModeChangeAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ModeChangeAfterEvent) => void): (arg: ModeChangeAfterE
 
 ///
 
+script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ModeChangeAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ModeChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../modechangeafterevent/">ModeChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ModeChangeAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.unsubscribe.return
 
 
 ////

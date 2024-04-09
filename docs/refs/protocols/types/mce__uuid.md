@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp mce::UUID -->类型。
+<!-- md:samp mce::UUID -->类型。该类型用于protocol.type.mce::uuid.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Most Significant Bits：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.mce::uuid.most_significant_bits.description
 
 
 ////
 //// define
 Least Significant Bits：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.mce::uuid.least_significant_bits.description
 
 
 ////

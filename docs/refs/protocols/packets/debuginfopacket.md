@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp DebugInfoPacket -->数据包，数字ID是`155`。
+<!-- md:samp DebugInfoPacket -->数据包，数字ID是`155`。该数据包用于protocol.packet.debuginfopacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.debuginfopacket.actor_id.description
 
 
 ////
 //// define
 Data：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.debuginfopacket.data.description
 
 
 ////

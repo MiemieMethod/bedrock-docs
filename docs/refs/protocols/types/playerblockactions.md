@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerBlockActions -->类型。
+<!-- md:samp PlayerBlockActions -->类型。该类型用于protocol.type.playerblockactions.description
 
 ## 结构
 
@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 Player Block Actions count：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactions.player_block_actions_count.description
 
 
 /////
@@ -57,7 +57,7 @@ Player Block Actions count：<!-- md:samp varint -->
 ////// define
 Player Block Action：[<!-- md:samp PlayerBlockActionData -->](../types/playerblockactiondata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.playerblockactions.player_block_action.description
 
 
 //////

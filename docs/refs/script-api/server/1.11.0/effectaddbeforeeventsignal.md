@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EffectAddBeforeEventSignal`类。
+`EffectAddBeforeEventSignal`类。script_api.@minecraft/server.effectaddbeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.effectaddbeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EffectAddBeforeEvent) => void): (arg: EffectAddBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EffectAddBeforeEvent) => void): (arg: EffectAddBeforeE
 //// define
 `callback`：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.effectaddbeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EffectAddBeforeEvent) => void): (arg: EffectAddBeforeE
 //// define
 返回值：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.effectaddbeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: EffectAddBeforeEvent) => void): (arg: EffectAddBeforeE
 
 ///
 
+script_api.@minecraft/server.effectaddbeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EffectAddBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: EffectAddBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.effectaddbeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EffectAddBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.effectaddbeforeeventsignal.unsubscribe.return
 
 
 ////

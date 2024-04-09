@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ResourcePackStackPacket -->数据包，数字ID是`7`。
+<!-- md:samp ResourcePackStackPacket -->数据包，数字ID是`7`。该数据包用于protocol.packet.resourcepackstackpacket.description
 
 ## 结构
 
@@ -80,7 +80,7 @@ rankdir = LR
 //// define
 Texture Pack Required：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackstackpacket.texture_pack_required.description
 
 
 ////
@@ -92,7 +92,7 @@ Texture Pack Required：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackstackpacket.数组大小.description
 
 
 /////
@@ -104,21 +104,21 @@ Texture Pack Required：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackstackpacket.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackstackpacket.version.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackstackpacket.sub_pack_name.description
 
 
 //////
@@ -134,7 +134,7 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackstackpacket.数组大小.description
 
 
 /////
@@ -146,21 +146,21 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackstackpacket.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackstackpacket.version.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackstackpacket.sub_pack_name.description
 
 
 //////
@@ -171,14 +171,14 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 //// define
 Base Game Version：[<!-- md:samp BaseGameVersion -->](../types/basegameversion.md)
 
-- 特殊类型。For clients to be able to set their stack to the right version.
+- 特殊类型。protocol.packet.resourcepackstackpacket.base_game_version.descriptionFor clients to be able to set their stack to the right version.
 
 
 ////
 //// define
 Experiments：[<!-- md:samp Experiments -->](../types/experiments.md)
 
-- 特殊类型。Refer to the Experiments type for how to serialize
+- 特殊类型。protocol.packet.resourcepackstackpacket.experiments.descriptionRefer to the Experiments type for how to serialize
 
 
 ////

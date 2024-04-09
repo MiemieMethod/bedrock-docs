@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp DimensionDefinitionGroup -->类型。
+<!-- md:samp DimensionDefinitionGroup -->类型。该类型用于protocol.type.dimensiondefinitiongroup.description
 
 ## 结构
 
@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.dimensiondefinitiongroup.数组大小.description
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 Name String：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.dimensiondefinitiongroup.name_string.description
 
 
 //////
 ////// define
 Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](../types/dimensiondefinitiongroup__dimensiondefinition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.dimensiondefinitiongroup.dimension_definition.description
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EffectAddBeforeEvent`类。
+`EffectAddBeforeEvent`类。script_api.@minecraft/server.effectaddbeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.effectaddbeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ duration: int32;
 //// define
 `duration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.effectaddbeforeevent.duration.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only effectType: string;
 //// define
 `effectType`：`string`
 
-- 属性。
+- script_api.@minecraft/server.effectaddbeforeevent.effecttype.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.effectaddbeforeevent.entity.description
 
 
 ////

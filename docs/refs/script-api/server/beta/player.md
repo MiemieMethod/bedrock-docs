@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Player`类，扩展自[`Entity`](./entity.md)。
+`Player`类，扩展自[`Entity`](./entity.md)。script_api.@minecraft/server.player.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only camera: Camera;
 //// define
 `camera`：[`Camera`](./camera.md)
 
-- 属性。
+- script_api.@minecraft/server.player.camera.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only inputPermissions: PlayerInputPermissions;
 //// define
 `inputPermissions`：[`PlayerInputPermissions`](./playerinputpermissions.md)
 
-- 属性。
+- script_api.@minecraft/server.player.inputpermissions.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only isEmoting: boolean;
 //// define
 `isEmoting`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.player.isemoting.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only isFlying: boolean;
 //// define
 `isFlying`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.player.isflying.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only isGliding: boolean;
 //// define
 `isGliding`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.player.isgliding.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only isJumping: boolean;
 //// define
 `isJumping`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.player.isjumping.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only level: int32;
 //// define
 `level`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.player.level.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.@minecraft/server.player.name.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only onScreenDisplay: ScreenDisplay;
 //// define
 `onScreenDisplay`：[`ScreenDisplay`](./screendisplay.md)
 
-- 属性。
+- script_api.@minecraft/server.player.onscreendisplay.description
 
 
 ////
@@ -218,7 +218,7 @@ selectedSlot: int32;
 //// define
 `selectedSlot`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.player.selectedslot.description
 
 
 ////
@@ -240,7 +240,7 @@ read-only totalXpNeededForNextLevel: int32;
 //// define
 `totalXpNeededForNextLevel`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.player.totalxpneededfornextlevel.description
 
 
 ////
@@ -262,7 +262,7 @@ read-only xpEarnedAtCurrentLevel: int32;
 //// define
 `xpEarnedAtCurrentLevel`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.player.xpearnedatcurrentlevel.description
 
 
 ////
@@ -278,6 +278,8 @@ read-only xpEarnedAtCurrentLevel: int32;
 
 ///
 
+script_api.@minecraft/server.player.addexperience.description
+
 ```js
 addExperience(amount: int32): uint32
 ```
@@ -286,7 +288,7 @@ addExperience(amount: int32): uint32
 //// define
 `amount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.player.amount.addexperience.description
 
 
 ////
@@ -294,7 +296,7 @@ addExperience(amount: int32): uint32
 //// define
 返回值：`uint32`
 
-- 返回值。
+- script_api.@minecraft/server.player.addexperience.return
 
 
 ////
@@ -308,6 +310,8 @@ addExperience(amount: int32): uint32
 
 ///
 
+script_api.@minecraft/server.player.addlevels.description
+
 ```js
 addLevels(amount: int32): int32
 ```
@@ -316,7 +320,7 @@ addLevels(amount: int32): int32
 //// define
 `amount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.player.amount.addlevels.description
 
 
 ////
@@ -324,7 +328,7 @@ addLevels(amount: int32): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.player.addlevels.return
 
 
 ////
@@ -338,6 +342,8 @@ addLevels(amount: int32): int32
 
 ///
 
+script_api.@minecraft/server.player.eatitem.description
+
 ```js
 eatItem(itemStack: ItemStack): void
 ```
@@ -346,7 +352,7 @@ eatItem(itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server.player.itemstack.eatitem.description
 
 
 ////
@@ -354,7 +360,7 @@ eatItem(itemStack: ItemStack): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.eatitem.return
 
 
 ////
@@ -368,6 +374,8 @@ eatItem(itemStack: ItemStack): void
 
 ///
 
+script_api.@minecraft/server.player.getgamemode.description
+
 ```js
 getGameMode(): GameMode
 ```
@@ -376,7 +384,7 @@ getGameMode(): GameMode
 //// define
 返回值：[`GameMode`](./gamemode.md)
 
-- 返回值。
+- script_api.@minecraft/server.player.getgamemode.return
 
 
 ////
@@ -390,6 +398,8 @@ getGameMode(): GameMode
 
 ///
 
+script_api.@minecraft/server.player.getitemcooldown.description
+
 ```js
 getItemCooldown(cooldownCategory: string): int32
 ```
@@ -398,7 +408,7 @@ getItemCooldown(cooldownCategory: string): int32
 //// define
 `cooldownCategory`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.cooldowncategory.getitemcooldown.description
 
 
 ////
@@ -406,7 +416,7 @@ getItemCooldown(cooldownCategory: string): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.player.getitemcooldown.return
 
 
 ////
@@ -420,6 +430,8 @@ getItemCooldown(cooldownCategory: string): int32
 
 ///
 
+script_api.@minecraft/server.player.getspawnpoint.description
+
 ```js
 getSpawnPoint(): DimensionLocation | undefined
 ```
@@ -428,7 +440,7 @@ getSpawnPoint(): DimensionLocation | undefined
 //// define
 返回值：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.player.getspawnpoint.return
 
 
 ////
@@ -442,6 +454,8 @@ getSpawnPoint(): DimensionLocation | undefined
 
 ///
 
+script_api.@minecraft/server.player.gettotalxp.description
+
 ```js
 getTotalXp(): uint32
 ```
@@ -450,7 +464,7 @@ getTotalXp(): uint32
 //// define
 返回值：`uint32`
 
-- 返回值。
+- script_api.@minecraft/server.player.gettotalxp.return
 
 
 ////
@@ -464,6 +478,8 @@ getTotalXp(): uint32
 
 ///
 
+script_api.@minecraft/server.player.isop.description
+
 ```js
 isOp(): boolean
 ```
@@ -472,7 +488,7 @@ isOp(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.player.isop.return
 
 
 ////
@@ -486,6 +502,8 @@ isOp(): boolean
 
 ///
 
+script_api.@minecraft/server.player.playmusic.description
+
 ```js
 playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
@@ -494,7 +512,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.trackid.playmusic.description
 
 
 ////
@@ -502,7 +520,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.player.musicoptions.playmusic.description
 
 
 ////
@@ -510,7 +528,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.playmusic.return
 
 
 ////
@@ -524,6 +542,8 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 
 ///
 
+script_api.@minecraft/server.player.playsound.description
+
 ```js
 playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ```
@@ -532,7 +552,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.soundid.playsound.description
 
 
 ////
@@ -540,7 +560,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.player.soundoptions.playsound.description
 
 
 ////
@@ -548,7 +568,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.playsound.return
 
 
 ////
@@ -562,6 +582,8 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 
 ///
 
+script_api.@minecraft/server.player.postclientmessage.description
+
 ```js
 postClientMessage(id: string, value: string): void
 ```
@@ -570,7 +592,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.id.postclientmessage.description
 
 
 ////
@@ -578,7 +600,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `value`：`string`
 
-- 参数2。
+- script_api.@minecraft/server.player.value.postclientmessage.description
 
 
 ////
@@ -586,7 +608,7 @@ postClientMessage(id: string, value: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.postclientmessage.return
 
 
 ////
@@ -600,6 +622,8 @@ postClientMessage(id: string, value: string): void
 
 ///
 
+script_api.@minecraft/server.player.queuemusic.description
+
 ```js
 queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
@@ -608,7 +632,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.trackid.queuemusic.description
 
 
 ////
@@ -616,7 +640,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.player.musicoptions.queuemusic.description
 
 
 ////
@@ -624,7 +648,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.queuemusic.return
 
 
 ////
@@ -638,6 +662,8 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 
 ///
 
+script_api.@minecraft/server.player.resetlevel.description
+
 ```js
 resetLevel(): void
 ```
@@ -646,7 +672,7 @@ resetLevel(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.resetlevel.return
 
 
 ////
@@ -660,15 +686,17 @@ resetLevel(): void
 
 ///
 
+script_api.@minecraft/server.player.sendmessage.description
+
 ```js
-sendMessage(message: RawMessage | string[] | RawMessage | string): void
+sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 ```
 
 /// html | div.result
 //// define
-`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.message.sendmessage.description
 
 
 ////
@@ -676,7 +704,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.sendmessage.return
 
 
 ////
@@ -690,6 +718,8 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 
 ///
 
+script_api.@minecraft/server.player.setgamemode.description
+
 ```js
 setGameMode(gameMode?: GameMode): void
 ```
@@ -698,7 +728,7 @@ setGameMode(gameMode?: GameMode): void
 //// define
 `gameMode`：[`GameMode`](./gamemode.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.player.gamemode.setgamemode.description
 
 
 ////
@@ -706,7 +736,7 @@ setGameMode(gameMode?: GameMode): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.setgamemode.return
 
 
 ////
@@ -720,6 +750,8 @@ setGameMode(gameMode?: GameMode): void
 
 ///
 
+script_api.@minecraft/server.player.setop.description
+
 ```js
 setOp(isOp: boolean): void
 ```
@@ -728,7 +760,7 @@ setOp(isOp: boolean): void
 //// define
 `isOp`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server.player.isop.setop.description
 
 
 ////
@@ -736,7 +768,7 @@ setOp(isOp: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.setop.return
 
 
 ////
@@ -750,6 +782,8 @@ setOp(isOp: boolean): void
 
 ///
 
+script_api.@minecraft/server.player.setspawnpoint.description
+
 ```js
 setSpawnPoint(spawnPoint?: DimensionLocation): void
 ```
@@ -758,7 +792,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 //// define
 `spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.player.spawnpoint.setspawnpoint.description
 
 
 ////
@@ -766,7 +800,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.setspawnpoint.return
 
 
 ////
@@ -780,6 +814,8 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 
 ///
 
+script_api.@minecraft/server.player.spawnparticle.description
+
 ```js
 spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVariableMap): void
 ```
@@ -788,7 +824,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `effectName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.effectname.spawnparticle.description
 
 
 ////
@@ -796,7 +832,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.player.location.spawnparticle.description
 
 
 ////
@@ -804,7 +840,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server.player.molangvariables.spawnparticle.description
 
 
 ////
@@ -812,7 +848,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.spawnparticle.return
 
 
 ////
@@ -826,6 +862,8 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 
 ///
 
+script_api.@minecraft/server.player.startitemcooldown.description
+
 ```js
 startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 ```
@@ -834,7 +872,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `cooldownCategory`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.cooldowncategory.startitemcooldown.description
 
 
 ////
@@ -842,7 +880,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `tickDuration`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server.player.tickduration.startitemcooldown.description
 
 
 ////
@@ -850,7 +888,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.startitemcooldown.return
 
 
 ////
@@ -864,6 +902,8 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 
 ///
 
+script_api.@minecraft/server.player.stopmusic.description
+
 ```js
 stopMusic(): void
 ```
@@ -872,7 +912,7 @@ stopMusic(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.stopmusic.return
 
 
 ////

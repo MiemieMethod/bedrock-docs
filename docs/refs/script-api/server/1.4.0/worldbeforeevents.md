@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldBeforeEvents`类。
+`WorldBeforeEvents`类。script_api.@minecraft/server.worldbeforeevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only itemUse: ItemUseBeforeEventSignal;
 //// define
 `itemUse`：[`ItemUseBeforeEventSignal`](./itemusebeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.itemuse.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only itemUseOn: ItemUseOnBeforeEventSignal;
 //// define
 `itemUseOn`：[`ItemUseOnBeforeEventSignal`](./itemuseonbeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.itemuseon.description
 
 
 ////

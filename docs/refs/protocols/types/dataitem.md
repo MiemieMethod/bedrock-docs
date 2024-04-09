@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp DataItem -->类型。
+<!-- md:samp DataItem -->类型。该类型用于protocol.type.dataitem.description
 
 ## 结构
 
@@ -92,27 +92,27 @@ rankdir = LR
 //// define
 ID：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.dataitem.id.description
 
 
 ////
 //// define
 Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.dataitem.type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Byte`|`0`||
-  |`Short`|`1`||
-  |`Int`|`2`||
-  |`Float`|`3`||
-  |`String`|`4`||
-  |`CompoundTag`|`5`||
-  |`Pos`|`6`||
-  |`Int64`|`7`||
-  |`Vec3`|`8`||
-  |`Unknown`|`9`||
+  |`Byte`|`0`|protocol.enum.byte|
+  |`Short`|`1`|protocol.enum.short|
+  |`Int`|`2`|protocol.enum.int|
+  |`Float`|`3`|protocol.enum.float|
+  |`String`|`4`|protocol.enum.string|
+  |`CompoundTag`|`5`|protocol.enum.compoundtag|
+  |`Pos`|`6`|protocol.enum.pos|
+  |`Int64`|`7`|protocol.enum.int64|
+  |`Vec3`|`8`|protocol.enum.vec3|
+  |`Unknown`|`9`|protocol.enum.unknown|
 
 
 
@@ -128,7 +128,7 @@ Type：<!-- md:samp byte -->
 /////// define
 Value：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -146,7 +146,7 @@ Value：<!-- md:samp byte -->
 /////// define
 Value：<!-- md:samp short -->
 
-- 基本类型。
+- 基本类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -164,7 +164,7 @@ Value：<!-- md:samp short -->
 /////// define
 Value：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -182,7 +182,7 @@ Value：<!-- md:samp varint -->
 /////// define
 Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -200,7 +200,7 @@ Value：<!-- md:samp float -->
 /////// define
 Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -218,7 +218,7 @@ Value：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -236,7 +236,7 @@ Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 /////// define
 Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -254,7 +254,7 @@ Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 /////// define
 Value：<!-- md:samp varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.dataitem.value.description
 
 
 ///////
@@ -272,7 +272,7 @@ Value：<!-- md:samp varint64 -->
 /////// define
 Value：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.dataitem.value.description
 
 
 ///////

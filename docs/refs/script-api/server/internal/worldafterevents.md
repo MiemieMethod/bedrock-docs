@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldAfterEvents`类。
+`WorldAfterEvents`类。script_api.@minecraft/server.worldafterevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only blockExplode: BlockExplodeAfterEventSignal;
 //// define
 `blockExplode`：[`BlockExplodeAfterEventSignal`](./blockexplodeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.blockexplode.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only buttonPush: ButtonPushAfterEventSignal;
 //// define
 `buttonPush`：[`ButtonPushAfterEventSignal`](./buttonpushaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.buttonpush.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only chatSend: ChatSendAfterEventSignal;
 //// define
 `chatSend`：[`ChatSendAfterEventSignal`](./chatsendaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.chatsend.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only dataDrivenEntityTrigger: DataDrivenEntityTriggerAfterEventSignal;
 //// define
 `dataDrivenEntityTrigger`：[`DataDrivenEntityTriggerAfterEventSignal`](./datadrivenentitytriggeraftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.datadrivenentitytrigger.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only effectAdd: EffectAddAfterEventSignal;
 //// define
 `effectAdd`：[`EffectAddAfterEventSignal`](./effectaddaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.effectadd.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only entityDie: EntityDieAfterEventSignal;
 //// define
 `entityDie`：[`EntityDieAfterEventSignal`](./entitydieaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entitydie.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only entityHealthChanged: EntityHealthChangedAfterEventSignal;
 //// define
 `entityHealthChanged`：[`EntityHealthChangedAfterEventSignal`](./entityhealthchangedaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entityhealthchanged.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only entityHitBlock: EntityHitBlockAfterEventSignal;
 //// define
 `entityHitBlock`：[`EntityHitBlockAfterEventSignal`](./entityhitblockaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entityhitblock.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only entityHitEntity: EntityHitEntityAfterEventSignal;
 //// define
 `entityHitEntity`：[`EntityHitEntityAfterEventSignal`](./entityhitentityaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entityhitentity.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only entityHurt: EntityHurtAfterEventSignal;
 //// define
 `entityHurt`：[`EntityHurtAfterEventSignal`](./entityhurtaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entityhurt.description
 
 
 ////
@@ -240,7 +240,7 @@ read-only entityLoad: EntityLoadAfterEventSignal;
 //// define
 `entityLoad`：[`EntityLoadAfterEventSignal`](./entityloadaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entityload.description
 
 
 ////
@@ -262,7 +262,7 @@ read-only entityRemove: EntityRemoveAfterEventSignal;
 //// define
 `entityRemove`：[`EntityRemoveAfterEventSignal`](./entityremoveaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entityremove.description
 
 
 ////
@@ -284,7 +284,7 @@ read-only entitySpawn: EntitySpawnAfterEventSignal;
 //// define
 `entitySpawn`：[`EntitySpawnAfterEventSignal`](./entityspawnaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.entityspawn.description
 
 
 ////
@@ -306,7 +306,7 @@ read-only explosion: ExplosionAfterEventSignal;
 //// define
 `explosion`：[`ExplosionAfterEventSignal`](./explosionaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.explosion.description
 
 
 ////
@@ -328,7 +328,7 @@ read-only gameRuleChange: GameRuleChangeAfterEventSignal;
 //// define
 `gameRuleChange`：[`GameRuleChangeAfterEventSignal`](./gamerulechangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.gamerulechange.description
 
 
 ////
@@ -350,7 +350,7 @@ read-only itemCompleteUse: ItemCompleteUseAfterEventSignal;
 //// define
 `itemCompleteUse`：[`ItemCompleteUseAfterEventSignal`](./itemcompleteuseaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemcompleteuse.description
 
 
 ////
@@ -372,7 +372,7 @@ read-only itemReleaseUse: ItemReleaseUseAfterEventSignal;
 //// define
 `itemReleaseUse`：[`ItemReleaseUseAfterEventSignal`](./itemreleaseuseaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemreleaseuse.description
 
 
 ////
@@ -394,7 +394,7 @@ read-only itemStartUse: ItemStartUseAfterEventSignal;
 //// define
 `itemStartUse`：[`ItemStartUseAfterEventSignal`](./itemstartuseaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemstartuse.description
 
 
 ////
@@ -416,7 +416,7 @@ read-only itemStartUseOn: ItemStartUseOnAfterEventSignal;
 //// define
 `itemStartUseOn`：[`ItemStartUseOnAfterEventSignal`](./itemstartuseonaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemstartuseon.description
 
 
 ////
@@ -438,7 +438,7 @@ read-only itemStopUse: ItemStopUseAfterEventSignal;
 //// define
 `itemStopUse`：[`ItemStopUseAfterEventSignal`](./itemstopuseaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemstopuse.description
 
 
 ////
@@ -460,7 +460,7 @@ read-only itemStopUseOn: ItemStopUseOnAfterEventSignal;
 //// define
 `itemStopUseOn`：[`ItemStopUseOnAfterEventSignal`](./itemstopuseonaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemstopuseon.description
 
 
 ////
@@ -482,7 +482,7 @@ read-only itemUse: ItemUseAfterEventSignal;
 //// define
 `itemUse`：[`ItemUseAfterEventSignal`](./itemuseaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemuse.description
 
 
 ////
@@ -504,7 +504,7 @@ read-only itemUseOn: ItemUseOnAfterEventSignal;
 //// define
 `itemUseOn`：[`ItemUseOnAfterEventSignal`](./itemuseonaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.itemuseon.description
 
 
 ////
@@ -526,7 +526,7 @@ read-only leverAction: LeverActionAfterEventSignal;
 //// define
 `leverAction`：[`LeverActionAfterEventSignal`](./leveractionaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.leveraction.description
 
 
 ////
@@ -548,7 +548,7 @@ read-only messageReceive: ServerMessageAfterEventSignal;
 //// define
 `messageReceive`：[`ServerMessageAfterEventSignal`](./servermessageaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.messagereceive.description
 
 
 ////
@@ -570,7 +570,7 @@ read-only pistonActivate: PistonActivateAfterEventSignal;
 //// define
 `pistonActivate`：[`PistonActivateAfterEventSignal`](./pistonactivateaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.pistonactivate.description
 
 
 ////
@@ -592,7 +592,7 @@ read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal;
 //// define
 `playerBreakBlock`：[`PlayerBreakBlockAfterEventSignal`](./playerbreakblockaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerbreakblock.description
 
 
 ////
@@ -614,7 +614,7 @@ read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal;
 //// define
 `playerDimensionChange`：[`PlayerDimensionChangeAfterEventSignal`](./playerdimensionchangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerdimensionchange.description
 
 
 ////
@@ -636,7 +636,7 @@ read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal;
 //// define
 `playerGameModeChange`：[`PlayerGameModeChangeAfterEventSignal`](./playergamemodechangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playergamemodechange.description
 
 
 ////
@@ -658,7 +658,7 @@ read-only playerInputPermissionCategoryChange: PlayerInputPermissionCategoryChan
 //// define
 `playerInputPermissionCategoryChange`：[`PlayerInputPermissionCategoryChangeAfterEventSignal`](./playerinputpermissioncategorychangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerinputpermissioncategorychange.description
 
 
 ////
@@ -680,7 +680,7 @@ read-only playerInteractWithBlock: PlayerInteractWithBlockAfterEventSignal;
 //// define
 `playerInteractWithBlock`：[`PlayerInteractWithBlockAfterEventSignal`](./playerinteractwithblockaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerinteractwithblock.description
 
 
 ////
@@ -702,7 +702,7 @@ read-only playerInteractWithEntity: PlayerInteractWithEntityAfterEventSignal;
 //// define
 `playerInteractWithEntity`：[`PlayerInteractWithEntityAfterEventSignal`](./playerinteractwithentityaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerinteractwithentity.description
 
 
 ////
@@ -724,7 +724,7 @@ read-only playerJoin: PlayerJoinAfterEventSignal;
 //// define
 `playerJoin`：[`PlayerJoinAfterEventSignal`](./playerjoinaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerjoin.description
 
 
 ////
@@ -746,7 +746,7 @@ read-only playerLeave: PlayerLeaveAfterEventSignal;
 //// define
 `playerLeave`：[`PlayerLeaveAfterEventSignal`](./playerleaveaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerleave.description
 
 
 ////
@@ -768,7 +768,7 @@ read-only playerPlaceBlock: PlayerPlaceBlockAfterEventSignal;
 //// define
 `playerPlaceBlock`：[`PlayerPlaceBlockAfterEventSignal`](./playerplaceblockaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerplaceblock.description
 
 
 ////
@@ -790,7 +790,7 @@ read-only playerSpawn: PlayerSpawnAfterEventSignal;
 //// define
 `playerSpawn`：[`PlayerSpawnAfterEventSignal`](./playerspawnaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerspawn.description
 
 
 ////
@@ -812,7 +812,7 @@ read-only pressurePlatePop: PressurePlatePopAfterEventSignal;
 //// define
 `pressurePlatePop`：[`PressurePlatePopAfterEventSignal`](./pressureplatepopaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.pressureplatepop.description
 
 
 ////
@@ -834,7 +834,7 @@ read-only pressurePlatePush: PressurePlatePushAfterEventSignal;
 //// define
 `pressurePlatePush`：[`PressurePlatePushAfterEventSignal`](./pressureplatepushaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.pressureplatepush.description
 
 
 ////
@@ -856,7 +856,7 @@ read-only projectileHitBlock: ProjectileHitBlockAfterEventSignal;
 //// define
 `projectileHitBlock`：[`ProjectileHitBlockAfterEventSignal`](./projectilehitblockaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.projectilehitblock.description
 
 
 ////
@@ -878,7 +878,7 @@ read-only projectileHitEntity: ProjectileHitEntityAfterEventSignal;
 //// define
 `projectileHitEntity`：[`ProjectileHitEntityAfterEventSignal`](./projectilehitentityaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.projectilehitentity.description
 
 
 ////
@@ -900,7 +900,7 @@ read-only targetBlockHit: TargetBlockHitAfterEventSignal;
 //// define
 `targetBlockHit`：[`TargetBlockHitAfterEventSignal`](./targetblockhitaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.targetblockhit.description
 
 
 ////
@@ -922,7 +922,7 @@ read-only tripWireTrip: TripWireTripAfterEventSignal;
 //// define
 `tripWireTrip`：[`TripWireTripAfterEventSignal`](./tripwiretripaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.tripwiretrip.description
 
 
 ////
@@ -944,7 +944,7 @@ read-only weatherChange: WeatherChangeAfterEventSignal;
 //// define
 `weatherChange`：[`WeatherChangeAfterEventSignal`](./weatherchangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.weatherchange.description
 
 
 ////
@@ -966,7 +966,7 @@ read-only worldInitialize: WorldInitializeAfterEventSignal;
 //// define
 `worldInitialize`：[`WorldInitializeAfterEventSignal`](./worldinitializeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.worldinitialize.description
 
 
 ////

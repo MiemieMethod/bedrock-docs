@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerGameModeChangeAfterEvent`类。
+`PlayerGameModeChangeAfterEvent`类。script_api.@minecraft/server.playergamemodechangeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only fromGameMode: GameMode;
 //// define
 `fromGameMode`：[`GameMode`](./gamemode.md)
 
-- 属性。
+- script_api.@minecraft/server.playergamemodechangeafterevent.fromgamemode.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playergamemodechangeafterevent.player.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only toGameMode: GameMode;
 //// define
 `toGameMode`：[`GameMode`](./gamemode.md)
 
-- 属性。
+- script_api.@minecraft/server.playergamemodechangeafterevent.togamemode.description
 
 
 ////

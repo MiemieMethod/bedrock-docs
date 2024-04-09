@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`XYRotation`类。
+`XYRotation`类。script_api.mojang-minecraft.xyrotation.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ x: float;
 //// define
 `x`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.xyrotation.x.description
 
 
 ////
@@ -42,7 +42,7 @@ y: float;
 //// define
 `y`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.xyrotation.y.description
 
 
 ////

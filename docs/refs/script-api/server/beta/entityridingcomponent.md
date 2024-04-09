@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRidingComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityRidingComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityridingcomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only entityRidingOn: Entity;
 //// define
 `entityRidingOn`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityridingcomponent.entityridingon.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp StructureTemplateDataResponsePacket -->数据包，数字ID是`133`。
+<!-- md:samp StructureTemplateDataResponsePacket -->数据包，数字ID是`133`。该数据包用于protocol.packet.structuretemplatedataresponsepacket.description
 
 ## 结构
 
@@ -58,7 +58,7 @@ rankdir = LR
 //// define
 Structure Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.structuretemplatedataresponsepacket.structure_name.description
 
 
 ////
@@ -73,21 +73,21 @@ Structure Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Failure：<!-- md:samp bool -->
 
-- 基本类型。Bool set to false, indicating the requested structure d'id'n't exist.
+- 基本类型。protocol.packet.structuretemplatedataresponsepacket.failure.descriptionBool set to false, indicating the requested structure d'id'n't exist.
 
 
 ///////
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.structuretemplatedataresponsepacket.response_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Export`|`1`||
-  |`Query`|`2`||
-  |`Import`|`3`||
+  |`None`|`0`|无|
+  |`Export`|`1`|protocol.enum.export|
+  |`Query`|`2`|protocol.enum.query|
+  |`Import`|`3`|protocol.enum.import|
 
 
 
@@ -106,28 +106,28 @@ Response Type：<!-- md:samp byte -->
 /////// define
 Success：<!-- md:samp bool -->
 
-- 基本类型。Bool set to true, indicating success.
+- 基本类型。protocol.packet.structuretemplatedataresponsepacket.success.descriptionBool set to true, indicating success.
 
 
 ///////
 /////// define
 Structure's NBT：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.structuretemplatedataresponsepacket.structures_nbt.description
 
 
 ///////
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.structuretemplatedataresponsepacket.response_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Export`|`1`||
-  |`Query`|`2`||
-  |`Import`|`3`||
+  |`None`|`0`|无|
+  |`Export`|`1`|protocol.enum.export|
+  |`Query`|`2`|protocol.enum.query|
+  |`Import`|`3`|protocol.enum.import|
 
 
 

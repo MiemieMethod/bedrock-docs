@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WidgetGroupSelectionMode`枚举。
+`WidgetGroupSelectionMode`枚举。script_api.@minecraft/server-editor-bindings.widgetgroupselectionmode.description
 
 ## 常量
 

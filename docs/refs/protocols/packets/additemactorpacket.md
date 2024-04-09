@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AddItemActorPacket -->数据包，数字ID是`15`。
+<!-- md:samp AddItemActorPacket -->数据包，数字ID是`15`。该数据包用于protocol.packet.additemactorpacket.description
 
 ## 结构
 
@@ -56,49 +56,49 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.additemactorpacket.target_actor_id.description
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.additemactorpacket.target_runtime_id.description
 
 
 ////
 //// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.additemactorpacket.item.description
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.additemactorpacket.position.description
 
 
 ////
 //// define
 Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.additemactorpacket.velocity.description
 
 
 ////
 //// define
 Entity Data：[<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.additemactorpacket.entity_data.description
 
 
 ////
 //// define
 From Fishing?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.additemactorpacket.from_fishing.description
 
 
 ////

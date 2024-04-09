@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemComponentHitEntityEvent`类。
+`ItemComponentHitEntityEvent`类。script_api.@minecraft/server.itemcomponenthitentityevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only attackingEntity: Entity;
 //// define
 `attackingEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcomponenthitentityevent.attackingentity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only hadEffect: boolean;
 //// define
 `hadEffect`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.itemcomponenthitentityevent.hadeffect.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only hitEntity: Entity;
 //// define
 `hitEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcomponenthitentityevent.hitentity.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemcomponenthitentityevent.itemstack.description
 
 
 ////

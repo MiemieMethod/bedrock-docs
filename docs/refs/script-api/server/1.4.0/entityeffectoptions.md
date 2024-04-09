@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityEffectOptions`接口。
+`EntityEffectOptions`接口。script_api.@minecraft/server.entityeffectoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ amplifier: int32 | undefined;
 //// define
 `amplifier`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityeffectoptions.amplifier.description
 
 
 ////
@@ -42,7 +42,7 @@ showParticles: boolean | undefined;
 //// define
 `showParticles`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityeffectoptions.showparticles.description
 
 
 ////

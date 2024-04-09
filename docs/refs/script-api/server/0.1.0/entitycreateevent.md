@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityCreateEvent`类。
+`EntityCreateEvent`类。script_api.mojang-minecraft.entitycreateevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.mojang-minecraft.entitycreateevent.entity.description
 
 
 ////

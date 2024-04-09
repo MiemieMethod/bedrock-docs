@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`@minecraft/server-editor-bindings`模块的`0.1.0-beta`版本，UUID为`8518d9c7-a1f5-4bf3-acc7-78e87df595fc`。
+`@minecraft/server-editor-bindings`模块的`0.1.0-beta`版本，UUID为`8518d9c7-a1f5-4bf3-acc7-78e87df595fc`。该模块是script_api.@minecraft/server-editor-bindings.description
 
 /// info | 依赖
 该模块依赖于以下模块：
@@ -27,7 +27,7 @@ static read-only editor: MinecraftEditor;
 //// define
 `editor`：[`MinecraftEditor`](./minecrafteditor.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.servervariables.editor.description
 
 
 ////
@@ -49,7 +49,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 //// define
 `editorInternal`：[`MinecraftEditorInternal`](./minecrafteditorinternal.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.servervariables.editorinternal.description
 
 
 ////

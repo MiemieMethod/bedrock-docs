@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CameraInstruction -->类型。
+<!-- md:samp CameraInstruction -->类型。该类型用于protocol.type.camerainstruction.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Set：[<!-- md:samp std::optional&lt;struct CameraInstruction::SetInstruction&gt; -->](../types/std__optional_struct_camerainstruction__setinstruction_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerainstruction.set.description
 
 
 ////
 //// define
 Clear：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__optional_bool_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerainstruction.clear.description
 
 
 ////
 //// define
 Fade：[<!-- md:samp std::optional&lt;struct CameraInstruction::FadeInstruction&gt; -->](../types/std__optional_struct_camerainstruction__fadeinstruction_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerainstruction.fade.description
 
 
 ////

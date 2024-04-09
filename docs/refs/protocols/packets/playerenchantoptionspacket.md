@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerEnchantOptionsPacket -->数据包，数字ID是`146`。
+<!-- md:samp PlayerEnchantOptionsPacket -->数据包，数字ID是`146`。该数据包用于protocol.packet.playerenchantoptionspacket.description
 
 ## 结构
 
@@ -57,7 +57,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerenchantoptionspacket.数组大小.description
 
 
 /////
@@ -69,28 +69,28 @@ rankdir = LR
 ////// define
 Cost：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerenchantoptionspacket.cost.description
 
 
 //////
 ////// define
 Enchants：[<!-- md:samp ItemEnchants -->](../types/itemenchants.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerenchantoptionspacket.enchants.description
 
 
 //////
 ////// define
 Enchant Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerenchantoptionspacket.enchant_name.description
 
 
 //////
 ////// define
 Enchant Net Id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerenchantoptionspacket.enchant_net_id.description
 
 
 //////

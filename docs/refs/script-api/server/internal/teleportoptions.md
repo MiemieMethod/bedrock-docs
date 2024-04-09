@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TeleportOptions`接口。
+`TeleportOptions`接口。script_api.@minecraft/server.teleportoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ checkForBlocks: boolean | undefined;
 //// define
 `checkForBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.teleportoptions.checkforblocks.description
 
 
 ////
@@ -42,7 +42,7 @@ dimension: Dimension | undefined;
 //// define
 `dimension`：[`Dimension`](./dimension.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.teleportoptions.dimension.description
 
 
 ////
@@ -64,7 +64,7 @@ facingLocation: Vector3 | undefined;
 //// define
 `facingLocation`：[`Vector3`](./vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.teleportoptions.facinglocation.description
 
 
 ////
@@ -86,7 +86,7 @@ keepVelocity: boolean | undefined;
 //// define
 `keepVelocity`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.teleportoptions.keepvelocity.description
 
 
 ////
@@ -108,7 +108,7 @@ rotation: Vector2 | undefined;
 //// define
 `rotation`：[`Vector2`](./vector2.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.teleportoptions.rotation.description
 
 
 ////

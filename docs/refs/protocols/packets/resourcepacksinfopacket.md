@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ResourcePacksInfoPacket -->数据包，数字ID是`6`。
+<!-- md:samp ResourcePacksInfoPacket -->数据包，数字ID是`6`。该数据包用于protocol.packet.resourcepacksinfopacket.description
 
 ## 结构
 
@@ -136,28 +136,28 @@ rankdir = LR
 //// define
 Resource Pack Required：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.resource_pack_required.description
 
 
 ////
 //// define
 Has Add-on Packs：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.has_add-on_packs.description
 
 
 ////
 //// define
 Has Scripts：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.has_scripts.description
 
 
 ////
 //// define
 Force Server Packs Enabled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.force_server_packs_enabled.description
 
 
 ////
@@ -169,7 +169,7 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.数组大小.description
 
 
 /////
@@ -181,49 +181,49 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.version.description
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.size.description
 
 
 //////
 ////// define
 Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.content_key.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.sub_pack_name.description
 
 
 //////
 ////// define
 Content Identity：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.content_identity.description
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.has_scripts.description
 
 
 //////
@@ -239,7 +239,7 @@ Has Scripts：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.数组大小.description
 
 
 /////
@@ -251,56 +251,56 @@ Has Scripts：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.version.description
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.size.description
 
 
 //////
 ////// define
 Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.content_key.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.sub_pack_name.description
 
 
 //////
 ////// define
 Content Identity：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.content_identity.description
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.has_scripts.description
 
 
 //////
 ////// define
 Is Ray Tracing Capable：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.is_ray_tracing_capable.description
 
 
 //////
@@ -316,7 +316,7 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepacksinfopacket.数组大小.description
 
 
 /////
@@ -328,14 +328,14 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 ////// define
 First：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.first.description
 
 
 //////
 ////// define
 Second：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepacksinfopacket.second.description
 
 
 //////

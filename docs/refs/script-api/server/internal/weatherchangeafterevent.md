@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WeatherChangeAfterEvent`类。
+`WeatherChangeAfterEvent`类。script_api.@minecraft/server.weatherchangeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: string;
 //// define
 `dimension`：`string`
 
-- 属性。
+- script_api.@minecraft/server.weatherchangeafterevent.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only newWeather: WeatherType;
 //// define
 `newWeather`：[`WeatherType`](./weathertype.md)
 
-- 属性。
+- script_api.@minecraft/server.weatherchangeafterevent.newweather.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only previousWeather: WeatherType;
 //// define
 `previousWeather`：[`WeatherType`](./weathertype.md)
 
-- 属性。
+- script_api.@minecraft/server.weatherchangeafterevent.previousweather.description
 
 
 ////

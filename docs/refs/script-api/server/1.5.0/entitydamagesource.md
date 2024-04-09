@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityDamageSource`接口。
+`EntityDamageSource`接口。script_api.@minecraft/server.entitydamagesource.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cause: EntityDamageCause;
 //// define
 `cause`：[`EntityDamageCause`](./entitydamagecause.md)
 
-- 属性。
+- script_api.@minecraft/server.entitydamagesource.cause.description
 
 
 ////
@@ -42,7 +42,7 @@ damagingEntity: Entity | undefined;
 //// define
 `damagingEntity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entitydamagesource.damagingentity.description
 
 
 ////
@@ -64,7 +64,7 @@ damagingProjectile: Entity | undefined;
 //// define
 `damagingProjectile`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entitydamagesource.damagingprojectile.description
 
 
 ////

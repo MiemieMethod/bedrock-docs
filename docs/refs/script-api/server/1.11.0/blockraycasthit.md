@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockRaycastHit`接口。
+`BlockRaycastHit`接口。script_api.@minecraft/server.blockraycasthit.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.blockraycasthit.block.description
 
 
 ////
@@ -42,7 +42,7 @@ face: Direction;
 //// define
 `face`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.@minecraft/server.blockraycasthit.face.description
 
 
 ////
@@ -64,7 +64,7 @@ faceLocation: Vector3;
 //// define
 `faceLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.blockraycasthit.facelocation.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ResourcePackClientResponsePacket -->数据包，数字ID是`8`。
+<!-- md:samp ResourcePackClientResponsePacket -->数据包，数字ID是`8`。该数据包用于protocol.packet.resourcepackclientresponsepacket.description
 
 ## 结构
 
@@ -44,14 +44,14 @@ rankdir = LR
 //// define
 Response：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.resourcepackclientresponsepacket.response.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Cancel`|`1`||
-  |`Downloading`|`2`||
-  |`DownloadingFinished`|`3`||
-  |`ResourcePackStackFinished`|`4`||
+  |`Cancel`|`1`|protocol.enum.cancel|
+  |`Downloading`|`2`|protocol.enum.downloading|
+  |`DownloadingFinished`|`3`|protocol.enum.downloadingfinished|
+  |`ResourcePackStackFinished`|`4`|protocol.enum.resourcepackstackfinished|
 
 
 
@@ -64,7 +64,7 @@ Response：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackclientresponsepacket.数组大小.description
 
 
 /////
@@ -76,7 +76,7 @@ Response：<!-- md:samp byte -->
 ////// define
 Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackclientresponsepacket.pack_name.description
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityScaleComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityScaleComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityscalecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ value: float;
 //// define
 `value`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityscalecomponent.value.description
 
 
 ////

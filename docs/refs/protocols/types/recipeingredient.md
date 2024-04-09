@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RecipeIngredient -->类型。
+<!-- md:samp RecipeIngredient -->类型。该类型用于protocol.type.recipeingredient.description
 
 ## 结构
 
@@ -36,16 +36,16 @@ rankdir = LR
 //// define
 InternalType：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.recipeingredient.internaltype.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`Default`|`1`||
-  |`Molang`|`2`||
-  |`ItemTag`|`3`||
-  |`Deferred`|`4`||
-  |`ComplexAlias`|`5`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Default`|`1`|protocol.enum.default|
+  |`Molang`|`2`|protocol.enum.molang|
+  |`ItemTag`|`3`|protocol.enum.itemtag|
+  |`Deferred`|`4`|protocol.enum.deferred|
+  |`ComplexAlias`|`5`|protocol.enum.complexalias|
 
 
 
@@ -53,7 +53,7 @@ InternalType：<!-- md:samp byte -->
 //// define
 StackSize：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.recipeingredient.stacksize.description
 
 
 ////

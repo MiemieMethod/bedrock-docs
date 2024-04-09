@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemCooldownComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。
+`ItemCooldownComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.mojang-minecraft.itemcooldowncomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only cooldownCategory: string;
 //// define
 `cooldownCategory`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.itemcooldowncomponent.cooldowncategory.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only cooldownTicks: int32;
 //// define
 `cooldownTicks`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.itemcooldowncomponent.cooldownticks.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only cooldownTicks: int32;
 
 ///
 
+script_api.mojang-minecraft.itemcooldowncomponent.startcooldown.description
+
 ```js
 startCooldown(player: Player): void
 ```
@@ -66,7 +68,7 @@ startCooldown(player: Player): void
 //// define
 `player`：[`Player`](./player.md)
 
-- 参数1。
+- script_api.mojang-minecraft.itemcooldowncomponent.player.startcooldown.description
 
 
 ////
@@ -74,7 +76,7 @@ startCooldown(player: Player): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.itemcooldowncomponent.startcooldown.return
 
 
 ////

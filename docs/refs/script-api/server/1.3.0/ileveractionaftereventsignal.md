@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ILeverActionAfterEventSignal`类。
+`ILeverActionAfterEventSignal`类。script_api.@minecraft/server.ileveractionaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.ileveractionaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfte
 //// define
 `callback`：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.ileveractionaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfte
 //// define
 返回值：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.ileveractionaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfte
 
 ///
 
+script_api.@minecraft/server.ileveractionaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: LeverActionAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: LeverActionAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.ileveractionaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: LeverActionAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.ileveractionaftereventsignal.unsubscribe.return
 
 
 ////

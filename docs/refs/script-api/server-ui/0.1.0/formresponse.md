@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FormResponse`类。
+`FormResponse`类。script_api.mojang-minecraft-ui.formresponse.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only isCanceled: boolean;
 //// define
 `isCanceled`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft-ui.formresponse.iscanceled.description
 
 
 ////

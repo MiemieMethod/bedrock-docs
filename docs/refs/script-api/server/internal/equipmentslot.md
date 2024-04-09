@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EquipmentSlot`枚举。
+`EquipmentSlot`枚举。script_api.@minecraft/server.equipmentslot.description
 
 ## 常量
 

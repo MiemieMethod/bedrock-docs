@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp Packet Header -->类型。
+<!-- md:samp Packet Header -->类型。该类型用于protocol.type.packet_header.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Packet ID：<!-- md:samp unsigned varint -->
 
-- 基本类型。The first 10 value bits are the packet 'id', the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID
+- 基本类型。protocol.type.packet_header.packet_id.descriptionThe first 10 value bits are the packet 'id', the next 2 value bits are the Sender SubClientID, and the next 2 value bits are the Target SubClientID
 
 
 ////

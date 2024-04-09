@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAttributeComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityAttributeComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityattributecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only current: float;
 //// define
 `current`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entityattributecomponent.current.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only value: float;
 //// define
 `value`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entityattributecomponent.value.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only value: float;
 
 ///
 
+script_api.mojang-minecraft.entityattributecomponent.resettodefaultvalue.description
+
 ```js
 resetToDefaultValue(): void
 ```
@@ -66,7 +68,7 @@ resetToDefaultValue(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityattributecomponent.resettodefaultvalue.return
 
 
 ////
@@ -80,6 +82,8 @@ resetToDefaultValue(): void
 
 ///
 
+script_api.mojang-minecraft.entityattributecomponent.resettomaxvalue.description
+
 ```js
 resetToMaxValue(): void
 ```
@@ -88,7 +92,7 @@ resetToMaxValue(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityattributecomponent.resettomaxvalue.return
 
 
 ////
@@ -102,6 +106,8 @@ resetToMaxValue(): void
 
 ///
 
+script_api.mojang-minecraft.entityattributecomponent.resettominvalue.description
+
 ```js
 resetToMinValue(): void
 ```
@@ -110,7 +116,7 @@ resetToMinValue(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityattributecomponent.resettominvalue.return
 
 
 ////
@@ -124,6 +130,8 @@ resetToMinValue(): void
 
 ///
 
+script_api.mojang-minecraft.entityattributecomponent.setcurrent.description
+
 ```js
 setCurrent(value: float): boolean
 ```
@@ -132,7 +140,7 @@ setCurrent(value: float): boolean
 //// define
 `value`：`float`
 
-- 参数1。
+- script_api.mojang-minecraft.entityattributecomponent.value.setcurrent.description
 
 
 ////
@@ -140,7 +148,7 @@ setCurrent(value: float): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entityattributecomponent.setcurrent.return
 
 
 ////

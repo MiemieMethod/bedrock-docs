@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Vector3`接口。
+`Vector3`接口。script_api.@minecraft/server.vector3.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ x: float;
 //// define
 `x`：`float`
 
-- 属性。
+- script_api.@minecraft/server.vector3.x.description
 
 
 ////
@@ -42,7 +42,7 @@ y: float;
 //// define
 `y`：`float`
 
-- 属性。
+- script_api.@minecraft/server.vector3.y.description
 
 
 ////
@@ -64,7 +64,7 @@ z: float;
 //// define
 `z`：`float`
 
-- 属性。
+- script_api.@minecraft/server.vector3.z.description
 
 
 ////

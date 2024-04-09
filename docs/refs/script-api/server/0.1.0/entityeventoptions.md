@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityEventOptions`类。
+`EntityEventOptions`类。script_api.mojang-minecraft.entityeventoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ entities: Entity[] | undefined;
 //// define
 `entities`：<code><a href="../entity/">Entity</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityeventoptions.entities.description
 
 
 ////
@@ -42,7 +42,7 @@ entityTypes: string[] | undefined;
 //// define
 `entityTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityeventoptions.entitytypes.description
 
 
 ////
@@ -58,6 +58,8 @@ entityTypes: string[] | undefined;
 
 ///
 
+script_api.mojang-minecraft.entityeventoptions.constructor.description
+
 ```js
 new constructor(): EntityEventOptions
 ```
@@ -66,7 +68,7 @@ new constructor(): EntityEventOptions
 //// define
 返回值：[`EntityEventOptions`](./entityeventoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.entityeventoptions.constructor.return
 
 
 ////

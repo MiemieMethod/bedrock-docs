@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PaletteColor`枚举。
+`PaletteColor`枚举。script_api.@minecraft/server.palettecolor.description
 
 ## 常量
 

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp LabTablePacket -->数据包，数字ID是`109`。
+<!-- md:samp LabTablePacket -->数据包，数字ID是`109`。该数据包用于protocol.packet.labtablepacket.description
 
 ## 结构
 
@@ -40,13 +40,13 @@ rankdir = LR
 //// define
 Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.labtablepacket.type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`StartCombine`|`0`||
-  |`StartReaction`|`1`||
-  |`Reset`|`2`||
+  |`StartCombine`|`0`|protocol.enum.startcombine|
+  |`StartReaction`|`1`|protocol.enum.startreaction|
+  |`Reset`|`2`|protocol.enum.reset|
 
 
 
@@ -54,30 +54,30 @@ Type：<!-- md:samp byte -->
 //// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.labtablepacket.position.description
 
 
 ////
 //// define
 Reaction：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.labtablepacket.reaction.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`IceBomb`|`1`||
-  |`Bleach`|`2`||
-  |`ElephantToothpaste`|`3`||
-  |`Fertilizer`|`4`||
-  |`HeatBlock`|`5`||
-  |`MagnesiumSalts`|`6`||
-  |`MiscFire`|`7`||
-  |`MiscExplosion`|`8`||
-  |`MiscLava`|`9`||
-  |`MiscMystical`|`10`||
-  |`MiscSmoke`|`11`||
-  |`MiscLargeSmoke`|`12`||
+  |`None`|`0`|无|
+  |`IceBomb`|`1`|protocol.enum.icebomb|
+  |`Bleach`|`2`|protocol.enum.bleach|
+  |`ElephantToothpaste`|`3`|protocol.enum.elephanttoothpaste|
+  |`Fertilizer`|`4`|protocol.enum.fertilizer|
+  |`HeatBlock`|`5`|protocol.enum.heatblock|
+  |`MagnesiumSalts`|`6`|protocol.enum.magnesiumsalts|
+  |`MiscFire`|`7`|protocol.enum.miscfire|
+  |`MiscExplosion`|`8`|protocol.enum.miscexplosion|
+  |`MiscLava`|`9`|protocol.enum.misclava|
+  |`MiscMystical`|`10`|protocol.enum.miscmystical|
+  |`MiscSmoke`|`11`|protocol.enum.miscsmoke|
+  |`MiscLargeSmoke`|`12`|protocol.enum.misclargesmoke|
 
 
 

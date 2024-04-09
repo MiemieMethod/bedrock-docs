@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityColorComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityColorComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitycolorcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ value: int32;
 //// define
 `value`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entitycolorcomponent.value.description
 
 
 ////

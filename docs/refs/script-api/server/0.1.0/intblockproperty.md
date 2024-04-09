@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`IntBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。
+`IntBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。script_api.mojang-minecraft.intblockproperty.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only validValues: int32[];
 //// define
 `validValues`：`int32[]`
 
-- 属性。
+- script_api.mojang-minecraft.intblockproperty.validvalues.description
 
 
 ////
@@ -42,7 +42,7 @@ value: int32;
 //// define
 `value`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.intblockproperty.value.description
 
 
 ////

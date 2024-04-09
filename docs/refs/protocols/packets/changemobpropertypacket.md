@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ChangeMobPropertyPacket -->数据包，数字ID是`182`。
+<!-- md:samp ChangeMobPropertyPacket -->数据包，数字ID是`182`。该数据包用于protocol.packet.changemobpropertypacket.description
 
 ## 结构
 
@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.changemobpropertypacket.actor_id.description
 
 
 ////
 //// define
 Property Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.changemobpropertypacket.property_name.description
 
 
 ////
 //// define
 BoolComponent Value：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.changemobpropertypacket.boolcomponent_value.description
 
 
 ////
 //// define
 StringComponent Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.changemobpropertypacket.stringcomponent_value.description
 
 
 ////
 //// define
 IntComponent Value：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.changemobpropertypacket.intcomponent_value.description
 
 
 ////
 //// define
 FloatComponent Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.changemobpropertypacket.floatcomponent_value.description
 
 
 ////

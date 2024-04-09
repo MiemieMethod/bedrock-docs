@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPistonState`枚举。
+`BlockPistonState`枚举。script_api.@minecraft/server.blockpistonstate.description
 
 ## 常量
 

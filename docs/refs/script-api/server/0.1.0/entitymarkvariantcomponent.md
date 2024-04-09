@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMarkVariantComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityMarkVariantComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitymarkvariantcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ value: int32;
 //// define
 `value`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entitymarkvariantcomponent.value.description
 
 
 ////

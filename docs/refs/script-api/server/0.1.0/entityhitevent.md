@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHitEvent`类。
+`EntityHitEvent`类。script_api.mojang-minecraft.entityhitevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.mojang-minecraft.entityhitevent.entity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only hitBlock: Block | undefined;
 //// define
 `hitBlock`：[`Block`](./block.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityhitevent.hitblock.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only hitEntity: Entity | undefined;
 //// define
 `hitEntity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityhitevent.hitentity.description
 
 
 ////

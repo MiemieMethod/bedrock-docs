@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BiomeSearchOptions`接口。
+`BiomeSearchOptions`接口。script_api.@minecraft/server.biomesearchoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ boundingSize: Vector3 | undefined;
 //// define
 `boundingSize`：[`Vector3`](./vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.biomesearchoptions.boundingsize.description
 
 
 ////

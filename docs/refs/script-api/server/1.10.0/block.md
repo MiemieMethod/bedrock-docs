@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Block`类。
+`Block`类。script_api.@minecraft/server.block.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.block.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only isAir: boolean;
 //// define
 `isAir`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.block.isair.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only isLiquid: boolean;
 //// define
 `isLiquid`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.block.isliquid.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.block.location.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only permutation: BlockPermutation;
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.block.permutation.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only x: int32;
 //// define
 `x`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.block.x.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only y: int32;
 //// define
 `y`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.block.y.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only z: int32;
 //// define
 `z`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.block.z.description
 
 
 ////
@@ -190,6 +190,8 @@ read-only z: int32;
 
 ///
 
+script_api.@minecraft/server.block.above.description
+
 ```js
 above(steps: int32): Block | undefined
 ```
@@ -198,7 +200,7 @@ above(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.block.steps.above.description
 
 
 ////
@@ -206,7 +208,7 @@ above(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.above.return
 
 
 ////
@@ -220,6 +222,8 @@ above(steps: int32): Block | undefined
 
 ///
 
+script_api.@minecraft/server.block.below.description
+
 ```js
 below(steps: int32): Block | undefined
 ```
@@ -228,7 +232,7 @@ below(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.block.steps.below.description
 
 
 ////
@@ -236,7 +240,7 @@ below(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.below.return
 
 
 ////
@@ -250,6 +254,8 @@ below(steps: int32): Block | undefined
 
 ///
 
+script_api.@minecraft/server.block.bottomcenter.description
+
 ```js
 bottomCenter(): Vector3
 ```
@@ -258,7 +264,7 @@ bottomCenter(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.block.bottomcenter.return
 
 
 ////
@@ -272,6 +278,8 @@ bottomCenter(): Vector3
 
 ///
 
+script_api.@minecraft/server.block.center.description
+
 ```js
 center(): Vector3
 ```
@@ -280,7 +288,7 @@ center(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.block.center.return
 
 
 ////
@@ -294,6 +302,8 @@ center(): Vector3
 
 ///
 
+script_api.@minecraft/server.block.east.description
+
 ```js
 east(steps: int32): Block | undefined
 ```
@@ -302,7 +312,7 @@ east(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.block.steps.east.description
 
 
 ////
@@ -310,7 +320,7 @@ east(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.east.return
 
 
 ////
@@ -324,6 +334,8 @@ east(steps: int32): Block | undefined
 
 ///
 
+script_api.@minecraft/server.block.getcomponent.description
+
 ```js
 getComponent(componentId: string): BlockComponent | undefined
 ```
@@ -332,7 +344,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.block.componentid.getcomponent.description
 
 
 ////
@@ -340,7 +352,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 返回值：[`BlockComponent`](./blockcomponent.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.getcomponent.return
 
 
 ////
@@ -354,6 +366,8 @@ getComponent(componentId: string): BlockComponent | undefined
 
 ///
 
+script_api.@minecraft/server.block.getitemstack.description
+
 ```js
 getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 ```
@@ -362,7 +376,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 `amount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.block.amount.getitemstack.description
 
 
 ////
@@ -370,7 +384,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 `withData`：`boolean`
 
-- 参数2。
+- script_api.@minecraft/server.block.withdata.getitemstack.description
 
 
 ////
@@ -378,7 +392,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.getitemstack.return
 
 
 ////
@@ -392,6 +406,8 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 
 ///
 
+script_api.@minecraft/server.block.gettags.description
+
 ```js
 getTags(): string[]
 ```
@@ -400,7 +416,7 @@ getTags(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.block.gettags.return
 
 
 ////
@@ -414,6 +430,8 @@ getTags(): string[]
 
 ///
 
+script_api.@minecraft/server.block.hastag.description
+
 ```js
 hasTag(tag: string): boolean
 ```
@@ -422,7 +440,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.block.tag.hastag.description
 
 
 ////
@@ -430,7 +448,7 @@ hasTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.block.hastag.return
 
 
 ////
@@ -444,6 +462,8 @@ hasTag(tag: string): boolean
 
 ///
 
+script_api.@minecraft/server.block.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -452,7 +472,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.block.isvalid.return
 
 
 ////
@@ -466,6 +486,8 @@ isValid(): boolean
 
 ///
 
+script_api.@minecraft/server.block.north.description
+
 ```js
 north(steps: int32): Block | undefined
 ```
@@ -474,7 +496,7 @@ north(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.block.steps.north.description
 
 
 ////
@@ -482,7 +504,7 @@ north(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.north.return
 
 
 ////
@@ -496,6 +518,8 @@ north(steps: int32): Block | undefined
 
 ///
 
+script_api.@minecraft/server.block.offset.description
+
 ```js
 offset(offset: Vector3): Block | undefined
 ```
@@ -504,7 +528,7 @@ offset(offset: Vector3): Block | undefined
 //// define
 `offset`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.block.offset.offset.description
 
 
 ////
@@ -512,7 +536,7 @@ offset(offset: Vector3): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.offset.return
 
 
 ////
@@ -526,6 +550,8 @@ offset(offset: Vector3): Block | undefined
 
 ///
 
+script_api.@minecraft/server.block.setpermutation.description
+
 ```js
 setPermutation(permutation: BlockPermutation): void
 ```
@@ -534,7 +560,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 参数1。
+- script_api.@minecraft/server.block.permutation.setpermutation.description
 
 
 ////
@@ -542,7 +568,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.block.setpermutation.return
 
 
 ////
@@ -556,6 +582,8 @@ setPermutation(permutation: BlockPermutation): void
 
 ///
 
+script_api.@minecraft/server.block.south.description
+
 ```js
 south(steps: int32): Block | undefined
 ```
@@ -564,7 +592,7 @@ south(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.block.steps.south.description
 
 
 ////
@@ -572,7 +600,7 @@ south(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.south.return
 
 
 ////
@@ -586,6 +614,8 @@ south(steps: int32): Block | undefined
 
 ///
 
+script_api.@minecraft/server.block.west.description
+
 ```js
 west(steps: int32): Block | undefined
 ```
@@ -594,7 +624,7 @@ west(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.block.steps.west.description
 
 
 ////
@@ -602,7 +632,7 @@ west(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.west.return
 
 
 ////

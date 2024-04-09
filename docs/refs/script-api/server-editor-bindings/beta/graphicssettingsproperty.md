@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GraphicsSettingsProperty`枚举。
+`GraphicsSettingsProperty`枚举。script_api.@minecraft/server-editor-bindings.graphicssettingsproperty.description
 
 ## 常量
 

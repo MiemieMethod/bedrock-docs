@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ProjectileHitEntityAfterEventSignal`类。
+`ProjectileHitEntityAfterEventSignal`类。script_api.@minecraft/server.projectilehitentityaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.projectilehitentityaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): (arg: ProjectileHitEntityAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): (arg: Project
 //// define
 `callback`：<code>(<a href="../projectilehitentityafterevent/">ProjectileHitEntityAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.projectilehitentityaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): (arg: Project
 //// define
 返回值：<code>(<a href="../projectilehitentityafterevent/">ProjectileHitEntityAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.projectilehitentityaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): (arg: Project
 
 ///
 
+script_api.@minecraft/server.projectilehitentityaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../projectilehitentityafterevent/">ProjectileHitEntityAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.projectilehitentityaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ProjectileHitEntityAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.projectilehitentityaftereventsignal.unsubscribe.return
 
 
 ////

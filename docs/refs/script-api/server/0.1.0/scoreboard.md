@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Scoreboard`类。
+`Scoreboard`类。script_api.mojang-minecraft.scoreboard.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.scoreboard.getobjective.description
+
 ```js
 getObjective(objectiveId: string): ScoreboardObjective | undefined
 ```
@@ -20,7 +22,7 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 //// define
 `objectiveId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.scoreboard.objectiveid.getobjective.description
 
 
 ////
@@ -28,7 +30,7 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 //// define
 返回值：[`ScoreboardObjective`](./scoreboardobjective.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.scoreboard.getobjective.return
 
 
 ////
@@ -42,6 +44,8 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 
 ///
 
+script_api.mojang-minecraft.scoreboard.getobjectives.description
+
 ```js
 getObjectives(): ScoreboardObjective[]
 ```
@@ -50,7 +54,7 @@ getObjectives(): ScoreboardObjective[]
 //// define
 返回值：<code><a href="../scoreboardobjective/">ScoreboardObjective</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.scoreboard.getobjectives.return
 
 
 ////
@@ -64,6 +68,8 @@ getObjectives(): ScoreboardObjective[]
 
 ///
 
+script_api.mojang-minecraft.scoreboard.getparticipants.description
+
 ```js
 getParticipants(): ScoreboardIdentity[]
 ```
@@ -72,7 +78,7 @@ getParticipants(): ScoreboardIdentity[]
 //// define
 返回值：<code><a href="../scoreboardidentity/">ScoreboardIdentity</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.scoreboard.getparticipants.return
 
 
 ////

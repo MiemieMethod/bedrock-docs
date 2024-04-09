@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EffectAddAfterEvent`类。
+`EffectAddAfterEvent`类。script_api.@minecraft/server.effectaddafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only effect: Effect;
 //// define
 `effect`：[`Effect`](./effect.md)
 
-- 属性。
+- script_api.@minecraft/server.effectaddafterevent.effect.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.effectaddafterevent.entity.description
 
 
 ////

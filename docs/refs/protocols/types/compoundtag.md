@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CompoundTag -->类型。
+<!-- md:samp CompoundTag -->类型。该类型用于protocol.type.compoundtag.description
 
 ## 结构
 
@@ -162,23 +162,23 @@ rankdir = LR
 //// define
 Tag Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.compoundtag.tag_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`End`|`0`||
-  |`Byte`|`1`||
-  |`Short`|`2`||
-  |`Int`|`3`||
-  |`Int64`|`4`||
-  |`Float`|`5`||
-  |`Double`|`6`||
-  |`ByteArray`|`7`||
-  |`String`|`8`||
-  |`List`|`9`||
-  |`Compound`|`10`||
-  |`IntArray`|`11`||
-  |`NumTagTypes`|`12`||
+  |`End`|`0`|protocol.enum.end|
+  |`Byte`|`1`|protocol.enum.byte|
+  |`Short`|`2`|protocol.enum.short|
+  |`Int`|`3`|protocol.enum.int|
+  |`Int64`|`4`|protocol.enum.int64|
+  |`Float`|`5`|protocol.enum.float|
+  |`Double`|`6`|protocol.enum.double|
+  |`ByteArray`|`7`|protocol.enum.bytearray|
+  |`String`|`8`|protocol.enum.string|
+  |`List`|`9`|protocol.enum.list|
+  |`Compound`|`10`|protocol.enum.compound|
+  |`IntArray`|`11`|protocol.enum.intarray|
+  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
 
 
 
@@ -194,7 +194,7 @@ Tag Type：<!-- md:samp byte -->
 /////// define
 Tag Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.compoundtag.tag_name.description
 
 
 ///////
@@ -204,7 +204,7 @@ Tag Name：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 /////////
@@ -220,7 +220,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////////// define
 Tag Value：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.tag_value.description
 
 
 //////////
@@ -238,7 +238,7 @@ Tag Value：<!-- md:samp byte -->
 ////////// define
 Tag Value：<!-- md:samp short -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.tag_value.description
 
 
 //////////
@@ -256,7 +256,7 @@ Tag Value：<!-- md:samp short -->
 ////////// define
 Tag Value：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.tag_value.description
 
 
 //////////
@@ -274,7 +274,7 @@ Tag Value：<!-- md:samp varint -->
 ////////// define
 Tag Value：<!-- md:samp varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.tag_value.description
 
 
 //////////
@@ -292,7 +292,7 @@ Tag Value：<!-- md:samp varint64 -->
 ////////// define
 Tag Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.tag_value.description
 
 
 //////////
@@ -310,7 +310,7 @@ Tag Value：<!-- md:samp float -->
 ////////// define
 Tag Value：<!-- md:samp double -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.tag_value.description
 
 
 //////////
@@ -333,7 +333,7 @@ Tag Value：<!-- md:samp double -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.数组大小.description
 
 
 ///////////
@@ -345,7 +345,7 @@ Tag Value：<!-- md:samp double -->
 //////////// define
 Byte Data：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.byte_data.description
 
 
 ////////////
@@ -367,7 +367,7 @@ Byte Data：<!-- md:samp byte -->
 ////////// define
 Tag Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.compoundtag.tag_value.description
 
 
 //////////
@@ -393,23 +393,23 @@ Tag Value：[<!-- md:samp string -->](../types/string.md)
 ///////////// define
 Tag Type for list：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.compoundtag.tag_type_for_list.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`End`|`0`||
-  |`Byte`|`1`||
-  |`Short`|`2`||
-  |`Int`|`3`||
-  |`Int64`|`4`||
-  |`Float`|`5`||
-  |`Double`|`6`||
-  |`ByteArray`|`7`||
-  |`String`|`8`||
-  |`List`|`9`||
-  |`Compound`|`10`||
-  |`IntArray`|`11`||
-  |`NumTagTypes`|`12`||
+  |`End`|`0`|protocol.enum.end|
+  |`Byte`|`1`|protocol.enum.byte|
+  |`Short`|`2`|protocol.enum.short|
+  |`Int`|`3`|protocol.enum.int|
+  |`Int64`|`4`|protocol.enum.int64|
+  |`Float`|`5`|protocol.enum.float|
+  |`Double`|`6`|protocol.enum.double|
+  |`ByteArray`|`7`|protocol.enum.bytearray|
+  |`String`|`8`|protocol.enum.string|
+  |`List`|`9`|protocol.enum.list|
+  |`Compound`|`10`|protocol.enum.compound|
+  |`IntArray`|`11`|protocol.enum.intarray|
+  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
 
 
 
@@ -428,23 +428,23 @@ Tag Type for list：<!-- md:samp byte -->
 ///////////// define
 Tag Type (must be 1)：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.compoundtag.tag_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`End`|`0`||
-  |`Byte`|`1`||
-  |`Short`|`2`||
-  |`Int`|`3`||
-  |`Int64`|`4`||
-  |`Float`|`5`||
-  |`Double`|`6`||
-  |`ByteArray`|`7`||
-  |`String`|`8`||
-  |`List`|`9`||
-  |`Compound`|`10`||
-  |`IntArray`|`11`||
-  |`NumTagTypes`|`12`||
+  |`End`|`0`|protocol.enum.end|
+  |`Byte`|`1`|protocol.enum.byte|
+  |`Short`|`2`|protocol.enum.short|
+  |`Int`|`3`|protocol.enum.int|
+  |`Int64`|`4`|protocol.enum.int64|
+  |`Float`|`5`|protocol.enum.float|
+  |`Double`|`6`|protocol.enum.double|
+  |`ByteArray`|`7`|protocol.enum.bytearray|
+  |`String`|`8`|protocol.enum.string|
+  |`List`|`9`|protocol.enum.list|
+  |`Compound`|`10`|protocol.enum.compound|
+  |`IntArray`|`11`|protocol.enum.intarray|
+  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
 
 
 
@@ -461,7 +461,7 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.数组大小.description
 
 
 ///////////
@@ -473,7 +473,7 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 //////////// define
 Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.compoundtag.tag.description
 
 
 ////////////
@@ -505,7 +505,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 //////////// define
 Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.compoundtag.tag.description
 
 
 ////////////
@@ -516,7 +516,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////////// define
 End (must be 0)：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.end.description
 
 
 //////////
@@ -539,7 +539,7 @@ End (must be 0)：<!-- md:samp byte -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.数组大小.description
 
 
 ///////////
@@ -551,7 +551,7 @@ End (must be 0)：<!-- md:samp byte -->
 //////////// define
 Int Data：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.compoundtag.int_data.description
 
 
 ////////////
@@ -572,7 +572,7 @@ Int Data：<!-- md:samp varint -->
 ////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`System`类。
+`System`类。script_api.@minecraft/server.system.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only currentTick: uint32;
 //// define
 `currentTick`：`uint32`
 
-- 属性。
+- script_api.@minecraft/server.system.currenttick.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only currentTick: uint32;
 
 ///
 
+script_api.@minecraft/server.system.clearrun.description
+
 ```js
 clearRun(runId: uint32): void
 ```
@@ -44,7 +46,7 @@ clearRun(runId: uint32): void
 //// define
 `runId`：`uint32`
 
-- 参数1。
+- script_api.@minecraft/server.system.runid.clearrun.description
 
 
 ////
@@ -52,7 +54,7 @@ clearRun(runId: uint32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.system.clearrun.return
 
 
 ////
@@ -66,6 +68,8 @@ clearRun(runId: uint32): void
 
 ///
 
+script_api.@minecraft/server.system.run.description
+
 ```js
 run(callback: () => void): uint32
 ```
@@ -74,7 +78,7 @@ run(callback: () => void): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.system.callback.run.description
 
 
 ////
@@ -82,7 +86,7 @@ run(callback: () => void): uint32
 //// define
 返回值：`uint32`
 
-- 返回值。
+- script_api.@minecraft/server.system.run.return
 
 
 ////
@@ -96,6 +100,8 @@ run(callback: () => void): uint32
 
 ///
 
+script_api.@minecraft/server.system.runinterval.description
+
 ```js
 runInterval(callback: () => void, tickInterval?: uint32): uint32
 ```
@@ -104,7 +110,7 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.system.callback.runinterval.description
 
 
 ////
@@ -112,7 +118,7 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 //// define
 `tickInterval`：`uint32`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.system.tickinterval.runinterval.description
 
 
 ////
@@ -120,7 +126,7 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 //// define
 返回值：`uint32`
 
-- 返回值。
+- script_api.@minecraft/server.system.runinterval.return
 
 
 ////
@@ -134,6 +140,8 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 
 ///
 
+script_api.@minecraft/server.system.runtimeout.description
+
 ```js
 runTimeout(callback: () => void, tickDelay?: uint32): uint32
 ```
@@ -142,7 +150,7 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.system.callback.runtimeout.description
 
 
 ////
@@ -150,7 +158,7 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 //// define
 `tickDelay`：`uint32`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.system.tickdelay.runtimeout.description
 
 
 ////
@@ -158,7 +166,7 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 //// define
 返回值：`uint32`
 
-- 返回值。
+- script_api.@minecraft/server.system.runtimeout.return
 
 
 ////

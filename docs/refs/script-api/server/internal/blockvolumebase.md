@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockVolumeBase`类。
+`BlockVolumeBase`类。script_api.@minecraft/server.blockvolumebase.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.getblocklocationiterator.description
+
 ```js
 getBlockLocationIterator(): BlockLocationIterator
 ```
@@ -20,7 +22,7 @@ getBlockLocationIterator(): BlockLocationIterator
 //// define
 返回值：[`BlockLocationIterator`](./blocklocationiterator.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.getblocklocationiterator.return
 
 
 ////
@@ -34,6 +36,8 @@ getBlockLocationIterator(): BlockLocationIterator
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.getboundingbox.description
+
 ```js
 getBoundingBox(): BoundingBox
 ```
@@ -42,7 +46,7 @@ getBoundingBox(): BoundingBox
 //// define
 返回值：[`BoundingBox`](./boundingbox.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.getboundingbox.return
 
 
 ////
@@ -56,6 +60,8 @@ getBoundingBox(): BoundingBox
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.getcapacity.description
+
 ```js
 getCapacity(): int32
 ```
@@ -64,7 +70,7 @@ getCapacity(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.getcapacity.return
 
 
 ////
@@ -78,6 +84,8 @@ getCapacity(): int32
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.getmax.description
+
 ```js
 getMax(): Vector3
 ```
@@ -86,7 +94,7 @@ getMax(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.getmax.return
 
 
 ////
@@ -100,6 +108,8 @@ getMax(): Vector3
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.getmin.description
+
 ```js
 getMin(): Vector3
 ```
@@ -108,7 +118,7 @@ getMin(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.getmin.return
 
 
 ////
@@ -122,6 +132,8 @@ getMin(): Vector3
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.getspan.description
+
 ```js
 getSpan(): Vector3
 ```
@@ -130,7 +142,7 @@ getSpan(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.getspan.return
 
 
 ////
@@ -144,6 +156,8 @@ getSpan(): Vector3
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.isinside.description
+
 ```js
 isInside(pos: Vector3): boolean
 ```
@@ -152,7 +166,7 @@ isInside(pos: Vector3): boolean
 //// define
 `pos`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockvolumebase.pos.isinside.description
 
 
 ////
@@ -160,7 +174,7 @@ isInside(pos: Vector3): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.isinside.return
 
 
 ////
@@ -174,6 +188,8 @@ isInside(pos: Vector3): boolean
 
 ///
 
+script_api.@minecraft/server.blockvolumebase.translate.description
+
 ```js
 translate(delta: Vector3): void
 ```
@@ -182,7 +198,7 @@ translate(delta: Vector3): void
 //// define
 `delta`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockvolumebase.delta.translate.description
 
 
 ////
@@ -190,7 +206,7 @@ translate(delta: Vector3): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blockvolumebase.translate.return
 
 
 ////

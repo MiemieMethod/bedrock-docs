@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRaycastOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。
+`EntityRaycastOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。script_api.@minecraft/server.entityraycastoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ maxDistance: int32 | undefined;
 //// define
 `maxDistance`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityraycastoptions.maxdistance.description
 
 
 ////

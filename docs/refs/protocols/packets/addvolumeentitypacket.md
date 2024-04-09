@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AddVolumeEntityPacket -->数据包，数字ID是`166`。
+<!-- md:samp AddVolumeEntityPacket -->数据包，数字ID是`166`。该数据包用于protocol.packet.addvolumeentitypacket.description
 
 ## 结构
 
@@ -60,56 +60,56 @@ rankdir = LR
 //// define
 Entity Network Id：[<!-- md:samp EntityNetId -->](../types/entitynetid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addvolumeentitypacket.entity_network_id.description
 
 
 ////
 //// define
 Components：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addvolumeentitypacket.components.description
 
 
 ////
 //// define
 JSON Identifier：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addvolumeentitypacket.json_identifier.description
 
 
 ////
 //// define
 Instance Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addvolumeentitypacket.instance_name.description
 
 
 ////
 //// define
 Min Bounds：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addvolumeentitypacket.min_bounds.description
 
 
 ////
 //// define
 Max Bounds：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addvolumeentitypacket.max_bounds.description
 
 
 ////
 //// define
 Dimension Type：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addvolumeentitypacket.dimension_type.description
 
 
 ////
 //// define
 Engine Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Semantic version string
+- 特殊类型。protocol.packet.addvolumeentitypacket.engine_version.descriptionSemantic version string
 
 
 ////

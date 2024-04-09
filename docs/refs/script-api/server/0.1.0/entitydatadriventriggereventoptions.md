@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityDataDrivenTriggerEventOptions`类。
+`EntityDataDrivenTriggerEventOptions`类。script_api.mojang-minecraft.entitydatadriventriggereventoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ entities: Entity[] | undefined;
 //// define
 `entities`：<code><a href="../entity/">Entity</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entitydatadriventriggereventoptions.entities.description
 
 
 ////
@@ -42,7 +42,7 @@ entityTypes: string[] | undefined;
 //// define
 `entityTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entitydatadriventriggereventoptions.entitytypes.description
 
 
 ////
@@ -64,7 +64,7 @@ eventTypes: string[] | undefined;
 //// define
 `eventTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entitydatadriventriggereventoptions.eventtypes.description
 
 
 ////
@@ -80,6 +80,8 @@ eventTypes: string[] | undefined;
 
 ///
 
+script_api.mojang-minecraft.entitydatadriventriggereventoptions.constructor.description
+
 ```js
 new constructor(): EntityDataDrivenTriggerEventOptions
 ```
@@ -88,7 +90,7 @@ new constructor(): EntityDataDrivenTriggerEventOptions
 //// define
 返回值：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.entitydatadriventriggereventoptions.constructor.return
 
 
 ////

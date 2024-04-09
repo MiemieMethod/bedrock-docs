@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp BlockActorDataPacket -->数据包，数字ID是`56`。
+<!-- md:samp BlockActorDataPacket -->数据包，数字ID是`56`。该数据包用于protocol.packet.blockactordatapacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.blockactordatapacket.block_position.description
 
 
 ////
 //// define
 Actor Data Tags：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.blockactordatapacket.actor_data_tags.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ServerPlayerPostMovePositionPacket -->数据包，数字ID是`16`。
+<!-- md:samp ServerPlayerPostMovePositionPacket -->数据包，数字ID是`16`。该数据包用于protocol.packet.serverplayerpostmovepositionpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.serverplayerpostmovepositionpacket.pos.description
 
 
 ////

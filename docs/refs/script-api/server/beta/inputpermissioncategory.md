@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`InputPermissionCategory`枚举。
+`InputPermissionCategory`枚举。script_api.@minecraft/server.inputpermissioncategory.description
 
 ## 常量
 

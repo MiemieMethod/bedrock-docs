@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RequestAbilityPacket -->数据包，数字ID是`184`。
+<!-- md:samp RequestAbilityPacket -->数据包，数字ID是`184`。该数据包用于protocol.packet.requestabilitypacket.description
 
 ## 结构
 
@@ -58,31 +58,31 @@ rankdir = LR
 //// define
 Ability：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.requestabilitypacket.ability.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`-1`||
-  |`Build`|`0`||
-  |`Mine`|`1`||
-  |`DoorsAndSwitches`|`2`||
-  |`OpenContainers`|`3`||
-  |`AttackPlayers`|`4`||
-  |`AttackMobs`|`5`||
-  |`OperatorCommands`|`6`||
-  |`Teleport`|`7`||
-  |`Invulnerable`|`8`||
-  |`Flying`|`9`||
-  |`MayFly`|`10`||
-  |`Instabuild`|`11`||
-  |`Lightning`|`12`||
-  |`FlySpeed`|`13`||
-  |`WalkSpeed`|`14`||
-  |`Muted`|`15`||
-  |`WorldBuilder`|`16`||
-  |`NoClip`|`17`||
-  |`PrivilegedBuilder`|`18`||
-  |`AbilityCount`|`19`||
+  |`Invalid`|`-1`|protocol.enum.invalid|
+  |`Build`|`0`|protocol.enum.build|
+  |`Mine`|`1`|protocol.enum.mine|
+  |`DoorsAndSwitches`|`2`|protocol.enum.doorsandswitches|
+  |`OpenContainers`|`3`|protocol.enum.opencontainers|
+  |`AttackPlayers`|`4`|protocol.enum.attackplayers|
+  |`AttackMobs`|`5`|protocol.enum.attackmobs|
+  |`OperatorCommands`|`6`|protocol.enum.operatorcommands|
+  |`Teleport`|`7`|protocol.enum.teleport|
+  |`Invulnerable`|`8`|protocol.enum.invulnerable|
+  |`Flying`|`9`|protocol.enum.flying|
+  |`MayFly`|`10`|protocol.enum.mayfly|
+  |`Instabuild`|`11`|protocol.enum.instabuild|
+  |`Lightning`|`12`|protocol.enum.lightning|
+  |`FlySpeed`|`13`|protocol.enum.flyspeed|
+  |`WalkSpeed`|`14`|protocol.enum.walkspeed|
+  |`Muted`|`15`|protocol.enum.muted|
+  |`WorldBuilder`|`16`|protocol.enum.worldbuilder|
+  |`NoClip`|`17`|protocol.enum.noclip|
+  |`PrivilegedBuilder`|`18`|protocol.enum.privilegedbuilder|
+  |`AbilityCount`|`19`|protocol.enum.abilitycount|
 
 
 
@@ -90,13 +90,13 @@ Ability：<!-- md:samp byte -->
 //// define
 Value Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.requestabilitypacket.value_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Unset`|`0`||
-  |`Bool`|`1`||
-  |`Float`|`2`||
+  |`Unset`|`0`|protocol.enum.unset|
+  |`Bool`|`1`|protocol.enum.bool|
+  |`Float`|`2`|protocol.enum.float|
 
 
 
@@ -112,14 +112,14 @@ Value Type：<!-- md:samp byte -->
 /////// define
 Varible Value：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.requestabilitypacket.varible_value.description
 
 
 ///////
 /////// define
 Default Value = 0.0：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.requestabilitypacket.default_value_=_0.0.description
 
 
 ///////
@@ -137,14 +137,14 @@ Default Value = 0.0：<!-- md:samp float -->
 /////// define
 Default Value = false：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.requestabilitypacket.default_value_=_false.description
 
 
 ///////
 /////// define
 Varible Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.requestabilitypacket.varible_value.description
 
 
 ///////

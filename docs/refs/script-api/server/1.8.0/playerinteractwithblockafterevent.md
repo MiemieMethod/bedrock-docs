@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInteractWithBlockAfterEvent`类。
+`PlayerInteractWithBlockAfterEvent`类。script_api.@minecraft/server.playerinteractwithblockafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockafterevent.block.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only blockFace: Direction;
 //// define
 `blockFace`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockafterevent.blockface.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only faceLocation: Vector3;
 //// define
 `faceLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockafterevent.facelocation.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockafterevent.itemstack.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithblockafterevent.player.description
 
 
 ////

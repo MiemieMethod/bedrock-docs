@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MessageFormData`类。
+`MessageFormData`类。script_api.mojang-minecraft-ui.messageformdata.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft-ui.messageformdata.body.description
+
 ```js
 body(bodyText: string): MessageFormData
 ```
@@ -20,7 +22,7 @@ body(bodyText: string): MessageFormData
 //// define
 `bodyText`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft-ui.messageformdata.bodytext.body.description
 
 
 ////
@@ -28,7 +30,7 @@ body(bodyText: string): MessageFormData
 //// define
 返回值：[`MessageFormData`](./messageformdata.md)
 
-- 返回值。
+- script_api.mojang-minecraft-ui.messageformdata.body.return
 
 
 ////
@@ -42,6 +44,8 @@ body(bodyText: string): MessageFormData
 
 ///
 
+script_api.mojang-minecraft-ui.messageformdata.button1.description
+
 ```js
 button1(text: string): MessageFormData
 ```
@@ -50,7 +54,7 @@ button1(text: string): MessageFormData
 //// define
 `text`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft-ui.messageformdata.text.button1.description
 
 
 ////
@@ -58,7 +62,7 @@ button1(text: string): MessageFormData
 //// define
 返回值：[`MessageFormData`](./messageformdata.md)
 
-- 返回值。
+- script_api.mojang-minecraft-ui.messageformdata.button1.return
 
 
 ////
@@ -72,6 +76,8 @@ button1(text: string): MessageFormData
 
 ///
 
+script_api.mojang-minecraft-ui.messageformdata.button2.description
+
 ```js
 button2(text: string): MessageFormData
 ```
@@ -80,7 +86,7 @@ button2(text: string): MessageFormData
 //// define
 `text`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft-ui.messageformdata.text.button2.description
 
 
 ////
@@ -88,7 +94,7 @@ button2(text: string): MessageFormData
 //// define
 返回值：[`MessageFormData`](./messageformdata.md)
 
-- 返回值。
+- script_api.mojang-minecraft-ui.messageformdata.button2.return
 
 
 ////
@@ -102,6 +108,8 @@ button2(text: string): MessageFormData
 
 ///
 
+script_api.mojang-minecraft-ui.messageformdata.constructor.description
+
 ```js
 new constructor(): MessageFormData
 ```
@@ -110,7 +118,7 @@ new constructor(): MessageFormData
 //// define
 返回值：[`MessageFormData`](./messageformdata.md)
 
-- 返回值。
+- script_api.mojang-minecraft-ui.messageformdata.constructor.return
 
 
 ////
@@ -124,6 +132,8 @@ new constructor(): MessageFormData
 
 ///
 
+script_api.mojang-minecraft-ui.messageformdata.show.description
+
 ```js
 show(player: Player): Promise<MessageFormResponse>
 ```
@@ -132,7 +142,7 @@ show(player: Player): Promise<MessageFormResponse>
 //// define
 `player`：[`Player`](../../server/0.1.0/player.md)
 
-- 参数1。
+- script_api.mojang-minecraft-ui.messageformdata.player.show.description
 
 
 ////
@@ -140,7 +150,7 @@ show(player: Player): Promise<MessageFormResponse>
 //// define
 返回值：<code>Promise&lt;<a href="../messageformresponse/">MessageFormResponse</a>&gt;</code>
 
-- 返回值。
+- script_api.mojang-minecraft-ui.messageformdata.show.return
 
 
 ////
@@ -154,6 +164,8 @@ show(player: Player): Promise<MessageFormResponse>
 
 ///
 
+script_api.mojang-minecraft-ui.messageformdata.title.description
+
 ```js
 title(titleText: string): MessageFormData
 ```
@@ -162,7 +174,7 @@ title(titleText: string): MessageFormData
 //// define
 `titleText`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft-ui.messageformdata.titletext.title.description
 
 
 ////
@@ -170,7 +182,7 @@ title(titleText: string): MessageFormData
 //// define
 返回值：[`MessageFormData`](./messageformdata.md)
 
-- 返回值。
+- script_api.mojang-minecraft-ui.messageformdata.title.return
 
 
 ////

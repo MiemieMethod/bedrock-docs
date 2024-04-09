@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`HudVisibility`枚举。
+`HudVisibility`枚举。script_api.@minecraft/server.hudvisibility.description
 
 ## 常量
 

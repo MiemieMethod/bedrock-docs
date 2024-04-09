@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DyeColor`枚举。
+`DyeColor`枚举。script_api.@minecraft/server.dyecolor.description
 
 ## 常量
 

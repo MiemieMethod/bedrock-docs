@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CameraFadeTimeOptions`接口。
+`CameraFadeTimeOptions`接口。script_api.@minecraft/server.camerafadetimeoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ fadeInTime: float;
 //// define
 `fadeInTime`：`float`
 
-- 属性。
+- script_api.@minecraft/server.camerafadetimeoptions.fadeintime.description
 
 
 ////
@@ -42,7 +42,7 @@ fadeOutTime: float;
 //// define
 `fadeOutTime`：`float`
 
-- 属性。
+- script_api.@minecraft/server.camerafadetimeoptions.fadeouttime.description
 
 
 ////
@@ -64,7 +64,7 @@ holdTime: float;
 //// define
 `holdTime`：`float`
 
-- 属性。
+- script_api.@minecraft/server.camerafadetimeoptions.holdtime.description
 
 
 ////

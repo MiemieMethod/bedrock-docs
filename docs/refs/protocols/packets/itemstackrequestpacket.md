@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemStackRequestPacket -->数据包，数字ID是`147`。
+<!-- md:samp ItemStackRequestPacket -->数据包，数字ID是`147`。该数据包用于protocol.packet.itemstackrequestpacket.description
 
 ## 结构
 
@@ -85,7 +85,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.itemstackrequestpacket.数组大小.description
 
 
 /////
@@ -97,7 +97,7 @@ rankdir = LR
 ////// define
 Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstackrequestidtag,int,0_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.itemstackrequestpacket.client_request_id.description
 
 
 //////
@@ -109,7 +109,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.itemstackrequestpacket.数组大小.description
 
 
 ///////
@@ -121,34 +121,34 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 Action type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.itemstackrequestpacket.action_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Take`|`0`||
-  |`Place`|`1`||
-  |`Swap`|`2`||
-  |`Drop`|`3`||
-  |`Destroy`|`4`||
-  |`Consume`|`5`||
-  |`Create`|`6`||
-  |`PlaceInItemContainer`|`7`||
-  |`TakeFromItemContainer`|`8`||
-  |`ScreenLabTableCombine`|`9`||
-  |`ScreenBeaconPayment`|`10`||
-  |`ScreenHUDMineBlock`|`11`||
-  |`CraftRecipe`|`12`||
-  |`CraftRecipeAuto`|`13`||
-  |`CraftCreative`|`14`||
-  |`CraftRecipeOptional`|`15`||
-  |`CraftRepairAndDisenchant`|`16`||
-  |`CraftLoom`|`17`||
-  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`||
-  |`CraftResults_DEPRECATEDASKTYLAING`|`19`||
-  |`ifdef`|`20`||
-  |`TEST_INFRASTRUCTURE_ENABLED`|`21`||
-  |`Test`|`22`||
-  |`endif`|`23`||
+  |`Take`|`0`|protocol.enum.take|
+  |`Place`|`1`|protocol.enum.place|
+  |`Swap`|`2`|protocol.enum.swap|
+  |`Drop`|`3`|protocol.enum.drop|
+  |`Destroy`|`4`|protocol.enum.destroy|
+  |`Consume`|`5`|protocol.enum.consume|
+  |`Create`|`6`|protocol.enum.create|
+  |`PlaceInItemContainer`|`7`|protocol.enum.placeinitemcontainer|
+  |`TakeFromItemContainer`|`8`|protocol.enum.takefromitemcontainer|
+  |`ScreenLabTableCombine`|`9`|protocol.enum.screenlabtablecombine|
+  |`ScreenBeaconPayment`|`10`|protocol.enum.screenbeaconpayment|
+  |`ScreenHUDMineBlock`|`11`|protocol.enum.screenhudmineblock|
+  |`CraftRecipe`|`12`|protocol.enum.craftrecipe|
+  |`CraftRecipeAuto`|`13`|protocol.enum.craftrecipeauto|
+  |`CraftCreative`|`14`|protocol.enum.craftcreative|
+  |`CraftRecipeOptional`|`15`|protocol.enum.craftrecipeoptional|
+  |`CraftRepairAndDisenchant`|`16`|protocol.enum.craftrepairanddisenchant|
+  |`CraftLoom`|`17`|protocol.enum.craftloom|
+  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`|protocol.enum.craftnonimplemented_deprecatedasktylaing|
+  |`CraftResults_DEPRECATEDASKTYLAING`|`19`|protocol.enum.craftresults_deprecatedasktylaing|
+  |`ifdef`|`20`|protocol.enum.ifdef|
+  |`TEST_INFRASTRUCTURE_ENABLED`|`21`|protocol.enum.test_infrastructure_enabled|
+  |`Test`|`22`|protocol.enum.test|
+  |`endif`|`23`|protocol.enum.endif|
 
 
 
@@ -156,21 +156,21 @@ Action type：<!-- md:samp byte -->
 //////// define
 Amount：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.itemstackrequestpacket.amount.description
 
 
 ////////
 //////// define
 Source：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.itemstackrequestpacket.source.description
 
 
 ////////
 //////// define
 Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequestslotinfo.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.itemstackrequestpacket.destination.description
 
 
 ////////
@@ -186,7 +186,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.itemstackrequestpacket.数组大小.description
 
 
 ///////
@@ -198,7 +198,7 @@ Destination：[<!-- md:samp ItemStackRequestSlotInfo -->](../types/itemstackrequ
 //////// define
 String To Filter：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Indivdiual string that needs checking
+- 特殊类型。protocol.packet.itemstackrequestpacket.string_to_filter.descriptionIndivdiual string that needs checking
 
 
 ////////
@@ -209,27 +209,27 @@ String To Filter：[<!-- md:samp string -->](../types/string.md)
 ////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.itemstackrequestpacket.stringstofilterorigin.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`unknown`|`-1`||
-  |`ServerChatPublic`|`0`||
-  |`ServerChatWhisper`|`1`||
-  |`SignText`|`2`||
-  |`AnvilText`|`3`||
-  |`BookAndQuillText`|`4`||
-  |`CommandBlockText`|`5`||
-  |`BlockActorDataText`|`6`||
-  |`JoinEventText`|`7`||
-  |`LeaveEventText`|`8`||
-  |`SlashCommandChat`|`9`||
-  |`CartographyText`|`10`||
-  |`KickCommand`|`11`||
-  |`TitleCommand`|`12`||
-  |`SummonCommand`|`13`||
-  |`ServerForm`|`14`||
-  |`COUNT`|`15`||
+  |`unknown`|`-1`|protocol.enum.unknown|
+  |`ServerChatPublic`|`0`|protocol.enum.serverchatpublic|
+  |`ServerChatWhisper`|`1`|protocol.enum.serverchatwhisper|
+  |`SignText`|`2`|protocol.enum.signtext|
+  |`AnvilText`|`3`|protocol.enum.anviltext|
+  |`BookAndQuillText`|`4`|protocol.enum.bookandquilltext|
+  |`CommandBlockText`|`5`|protocol.enum.commandblocktext|
+  |`BlockActorDataText`|`6`|protocol.enum.blockactordatatext|
+  |`JoinEventText`|`7`|protocol.enum.joineventtext|
+  |`LeaveEventText`|`8`|protocol.enum.leaveeventtext|
+  |`SlashCommandChat`|`9`|protocol.enum.slashcommandchat|
+  |`CartographyText`|`10`|protocol.enum.cartographytext|
+  |`KickCommand`|`11`|protocol.enum.kickcommand|
+  |`TitleCommand`|`12`|protocol.enum.titlecommand|
+  |`SummonCommand`|`13`|protocol.enum.summoncommand|
+  |`ServerForm`|`14`|protocol.enum.serverform|
+  |`COUNT`|`15`|protocol.enum.count|
 
 
 

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AddPlayerPacket -->数据包，数字ID是`12`。
+<!-- md:samp AddPlayerPacket -->数据包，数字ID是`12`。该数据包用于protocol.packet.addplayerpacket.description
 
 ## 结构
 
@@ -110,80 +110,80 @@ rankdir = LR
 //// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.uuid.description
 
 
 ////
 //// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.player_name.description
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.target_runtime_id.description
 
 
 ////
 //// define
 Platform Chat Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.platform_chat_id.description
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.position.description
 
 
 ////
 //// define
 Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.velocity.description
 
 
 ////
 //// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.rotation.description
 
 
 ////
 //// define
 Y-Head Rotation：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addplayerpacket.y-head_rotation.description
 
 
 ////
 //// define
 Carried Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.carried_item.description
 
 
 ////
 //// define
 Player Game Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.addplayerpacket.player_game_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Undefined`|`-1`||
-  |`Survival`|`0`||
-  |`Creative`|`1`||
-  |`Adventure`|`2`||
-  |`Default`|`5`||
-  |`Spectator`|`6`||
-  |`WorldDefault`|`Survival`||
+  |`Undefined`|`-1`|protocol.enum.undefined|
+  |`Survival`|`0`|protocol.enum.survival|
+  |`Creative`|`1`|protocol.enum.creative|
+  |`Adventure`|`2`|protocol.enum.adventure|
+  |`Default`|`5`|protocol.enum.default|
+  |`Spectator`|`6`|protocol.enum.spectator|
+  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
 
 
 
@@ -199,7 +199,7 @@ Player Game Type：<!-- md:samp varint -->
 /////// define
 Unpack：[<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- 特殊类型。std::vector<std::unique_ptr<DataItem>>
+- 特殊类型。protocol.packet.addplayerpacket.unpack.descriptionstd::vector<std::unique_ptr<DataItem>>
 
 
 ///////
@@ -217,7 +217,7 @@ Unpack：[<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->](.
 /////// define
 Entity Data PackAll：[<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- 特殊类型。std::vector<std::unique_ptr<DataItem>>
+- 特殊类型。protocol.packet.addplayerpacket.entity_data_packall.descriptionstd::vector<std::unique_ptr<DataItem>>
 
 
 ///////
@@ -228,14 +228,14 @@ Entity Data PackAll：[<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&g
 //// define
 Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.synched_properties.description
 
 
 ////
 //// define
 AbilitiesData：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedabilitiesdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.abilitiesdata.description
 
 
 ////
@@ -247,7 +247,7 @@ AbilitiesData：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedab
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addplayerpacket.数组大小.description
 
 
 /////
@@ -259,7 +259,7 @@ AbilitiesData：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedab
 ////// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addplayerpacket.link.description
 
 
 //////
@@ -270,32 +270,32 @@ Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 //// define
 Device Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。A unique device 'id' obtained from the connection request.
+- 特殊类型。protocol.packet.addplayerpacket.device_id.descriptionA unique device 'id' obtained from the connection request.
 
 
 ////
 //// define
 Build Platform：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.addplayerpacket.build_platform.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Google`|`1`||
-  |`iOS`|`2`||
-  |`OSX`|`3`||
-  |`Amazon`|`4`||
-  |`GearVR`|`5`||
-  |`UWP`|`7`||
-  |`Win32`|`8`||
-  |`Dedicated`|`9`||
-  |`tvOS_Deprecated`|`10`||
-  |`Sony`|`11`||
-  |`Nx`|`12`||
-  |`Xbox`|`13`||
-  |`WindowsPhone_Deprecated`|`14`||
-  |`Linux`|`15`||
-  |`Unknown`|`-1`||
+  |`Google`|`1`|protocol.enum.google|
+  |`iOS`|`2`|protocol.enum.ios|
+  |`OSX`|`3`|protocol.enum.osx|
+  |`Amazon`|`4`|protocol.enum.amazon|
+  |`GearVR`|`5`|protocol.enum.gearvr|
+  |`UWP`|`7`|protocol.enum.uwp|
+  |`Win32`|`8`|protocol.enum.win32|
+  |`Dedicated`|`9`|protocol.enum.dedicated|
+  |`tvOS_Deprecated`|`10`|protocol.enum.tvos_deprecated|
+  |`Sony`|`11`|protocol.enum.sony|
+  |`Nx`|`12`|protocol.enum.nx|
+  |`Xbox`|`13`|protocol.enum.xbox|
+  |`WindowsPhone_Deprecated`|`14`|protocol.enum.windowsphone_deprecated|
+  |`Linux`|`15`|protocol.enum.linux|
+  |`Unknown`|`-1`|protocol.enum.unknown|
 
 
 

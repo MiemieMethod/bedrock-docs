@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPaletteItemType`枚举。
+`BlockPaletteItemType`枚举。script_api.@minecraft/server-editor-bindings.blockpaletteitemtype.description
 
 ## 常量
 

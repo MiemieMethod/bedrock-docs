@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CompletedUsingItemPacket -->数据包，数字ID是`142`。
+<!-- md:samp CompletedUsingItemPacket -->数据包，数字ID是`142`。该数据包用于protocol.packet.completedusingitempacket.description
 
 ## 结构
 
@@ -36,35 +36,35 @@ rankdir = LR
 //// define
 Item Id：<!-- md:samp short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.completedusingitempacket.item_id.description
 
 
 ////
 //// define
 Item Use Method：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.completedusingitempacket.item_use_method.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Unknown`|`-1`||
-  |`EquipArmor`|`0`||
-  |`Eat`|`1`||
-  |`Attack`|`2`||
-  |`Consume`|`3`||
-  |`Throw`|`4`||
-  |`Shoot`|`5`||
-  |`Place`|`6`||
-  |`FillBottle`|`7`||
-  |`FillBucket`|`8`||
-  |`PourBucket`|`9`||
-  |`UseTool`|`10`||
-  |`Interact`|`11`||
-  |`Retrieved`|`12`||
-  |`Dyed`|`13`||
-  |`Traded`|`14`||
-  |`BrushingCompleted`|`15`||
-  |`_Count`|`16`||
+  |`Unknown`|`-1`|protocol.enum.unknown|
+  |`EquipArmor`|`0`|protocol.enum.equiparmor|
+  |`Eat`|`1`|protocol.enum.eat|
+  |`Attack`|`2`|protocol.enum.attack|
+  |`Consume`|`3`|protocol.enum.consume|
+  |`Throw`|`4`|protocol.enum.throw|
+  |`Shoot`|`5`|protocol.enum.shoot|
+  |`Place`|`6`|protocol.enum.place|
+  |`FillBottle`|`7`|protocol.enum.fillbottle|
+  |`FillBucket`|`8`|protocol.enum.fillbucket|
+  |`PourBucket`|`9`|protocol.enum.pourbucket|
+  |`UseTool`|`10`|protocol.enum.usetool|
+  |`Interact`|`11`|protocol.enum.interact|
+  |`Retrieved`|`12`|protocol.enum.retrieved|
+  |`Dyed`|`13`|protocol.enum.dyed|
+  |`Traded`|`14`|protocol.enum.traded|
+  |`BrushingCompleted`|`15`|protocol.enum.brushingcompleted|
+  |`_Count`|`16`|protocol.enum._count|
 
 
 

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp InventoryContentPacket -->数据包，数字ID是`49`。
+<!-- md:samp InventoryContentPacket -->数据包，数字ID是`49`。该数据包用于protocol.packet.inventorycontentpacket.description
 
 ## 结构
 
@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Inventory Id：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.inventorycontentpacket.inventory_id.description
 
 
 ////
@@ -56,7 +56,7 @@ Inventory Id：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.inventorycontentpacket.数组大小.description
 
 
 /////
@@ -68,7 +68,7 @@ Inventory Id：<!-- md:samp unsigned varint -->
 ////// define
 Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.inventorycontentpacket.item_stack.description
 
 
 //////

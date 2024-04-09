@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseOnAfterEventSignal`类。
+`ItemUseOnAfterEventSignal`类。script_api.@minecraft/server.itemuseonaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.itemuseonaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ItemUseOnAfterEvent) => void): (arg: ItemUseOnAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ItemUseOnAfterEvent) => void): (arg: ItemUseOnAfterEve
 //// define
 `callback`：<code>(<a href="../itemuseonafterevent/">ItemUseOnAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.itemuseonaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ItemUseOnAfterEvent) => void): (arg: ItemUseOnAfterEve
 //// define
 返回值：<code>(<a href="../itemuseonafterevent/">ItemUseOnAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.itemuseonaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ItemUseOnAfterEvent) => void): (arg: ItemUseOnAfterEve
 
 ///
 
+script_api.@minecraft/server.itemuseonaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ItemUseOnAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ItemUseOnAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemuseonafterevent/">ItemUseOnAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.itemuseonaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ItemUseOnAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemuseonaftereventsignal.unsubscribe.return
 
 
 ////

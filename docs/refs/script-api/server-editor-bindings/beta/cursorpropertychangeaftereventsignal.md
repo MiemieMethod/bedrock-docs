@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CursorPropertyChangeAfterEventSignal`类。
+`CursorPropertyChangeAfterEventSignal`类。script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): (arg: CursorPropertiesChangeAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): (arg: Curs
 //// define
 `callback`：<code>(<a href="../cursorpropertieschangeafterevent/">CursorPropertiesChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): (arg: Curs
 //// define
 返回值：<code>(<a href="../cursorpropertieschangeafterevent/">CursorPropertiesChangeAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): (arg: Curs
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../cursorpropertieschangeafterevent/">CursorPropertiesChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ShowStoreOfferPacket -->数据包，数字ID是`91`。
+<!-- md:samp ShowStoreOfferPacket -->数据包，数字ID是`91`。该数据包用于protocol.packet.showstoreofferpacket.description
 
 ## 结构
 
@@ -36,21 +36,21 @@ rankdir = LR
 //// define
 Product ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.showstoreofferpacket.product_id.description
 
 
 ////
 //// define
 Redirect Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.showstoreofferpacket.redirect_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`MarketplaceOffer`|`0`||
-  |`DressingRoomOffer`|`1`||
-  |`ThirdPartyServerPage`|`2`||
-  |`Count`|`3`||
+  |`MarketplaceOffer`|`0`|protocol.enum.marketplaceoffer|
+  |`DressingRoomOffer`|`1`|protocol.enum.dressingroomoffer|
+  |`ThirdPartyServerPage`|`2`|protocol.enum.thirdpartyserverpage|
+  |`Count`|`3`|protocol.enum.count|
 
 
 

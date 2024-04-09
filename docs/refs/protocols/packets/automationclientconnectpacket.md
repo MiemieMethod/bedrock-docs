@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AutomationClientConnectPacket -->数据包，数字ID是`95`。
+<!-- md:samp AutomationClientConnectPacket -->数据包，数字ID是`95`。该数据包用于protocol.packet.automationclientconnectpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Web Socket Data：[<!-- md:samp WebSocketPacketData -->](../types/websocketpacketdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.automationclientconnectpacket.web_socket_data.description
 
 
 ////

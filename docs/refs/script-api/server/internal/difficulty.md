@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Difficulty`枚举。
+`Difficulty`枚举。script_api.@minecraft/server.difficulty.description
 
 ## 常量
 

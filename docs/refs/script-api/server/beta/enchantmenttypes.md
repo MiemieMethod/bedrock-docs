@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EnchantmentTypes`类。
+`EnchantmentTypes`类。script_api.@minecraft/server.enchantmenttypes.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.enchantmenttypes.get.description
+
 ```js
 static get(enchantmentId: string): EnchantmentType | undefined
 ```
@@ -20,7 +22,7 @@ static get(enchantmentId: string): EnchantmentType | undefined
 //// define
 `enchantmentId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.enchantmenttypes.enchantmentid.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(enchantmentId: string): EnchantmentType | undefined
 //// define
 返回值：[`EnchantmentType`](./enchantmenttype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.enchantmenttypes.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(enchantmentId: string): EnchantmentType | undefined
 
 ///
 
+script_api.@minecraft/server.enchantmenttypes.getall.description
+
 ```js
 static getAll(): EnchantmentType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): EnchantmentType[]
 //// define
 返回值：<code><a href="../enchantmenttype/">EnchantmentType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.enchantmenttypes.getall.return
 
 
 ////

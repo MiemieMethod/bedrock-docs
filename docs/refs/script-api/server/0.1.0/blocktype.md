@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockType`类。
+`BlockType`类。script_api.mojang-minecraft.blocktype.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only canBeWaterlogged: boolean;
 //// define
 `canBeWaterlogged`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.blocktype.canbewaterlogged.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.blocktype.id.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only id: string;
 
 ///
 
+script_api.mojang-minecraft.blocktype.createdefaultblockpermutation.description
+
 ```js
 createDefaultBlockPermutation(): BlockPermutation
 ```
@@ -66,7 +68,7 @@ createDefaultBlockPermutation(): BlockPermutation
 //// define
 返回值：[`BlockPermutation`](./blockpermutation.md)
 
-- 返回值。
+- script_api.mojang-minecraft.blocktype.createdefaultblockpermutation.return
 
 
 ////

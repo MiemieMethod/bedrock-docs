@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockAreaSize`类。
+`BlockAreaSize`类。script_api.mojang-minecraft.blockareasize.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ x: int32;
 //// define
 `x`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.blockareasize.x.description
 
 
 ////
@@ -42,7 +42,7 @@ y: int32;
 //// define
 `y`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.blockareasize.y.description
 
 
 ////
@@ -64,7 +64,7 @@ z: int32;
 //// define
 `z`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.blockareasize.z.description
 
 
 ////
@@ -80,6 +80,8 @@ z: int32;
 
 ///
 
+script_api.mojang-minecraft.blockareasize.constructor.description
+
 ```js
 new constructor(x: float, y: float, z: float): BlockAreaSize
 ```
@@ -88,7 +90,7 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 //// define
 `x`：`float`
 
-- 参数1。
+- script_api.mojang-minecraft.blockareasize.x.constructor.description
 
 
 ////
@@ -96,7 +98,7 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 //// define
 `y`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.blockareasize.y.constructor.description
 
 
 ////
@@ -104,7 +106,7 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 //// define
 `z`：`float`
 
-- 参数3。
+- script_api.mojang-minecraft.blockareasize.z.constructor.description
 
 
 ////
@@ -112,7 +114,7 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 //// define
 返回值：[`BlockAreaSize`](./blockareasize.md)
 
-- 返回值。
+- script_api.mojang-minecraft.blockareasize.constructor.return
 
 
 ////
@@ -126,6 +128,8 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 
 ///
 
+script_api.mojang-minecraft.blockareasize.equals.description
+
 ```js
 equals(other: BlockAreaSize): boolean
 ```
@@ -134,7 +138,7 @@ equals(other: BlockAreaSize): boolean
 //// define
 `other`：[`BlockAreaSize`](./blockareasize.md)
 
-- 参数1。
+- script_api.mojang-minecraft.blockareasize.other.equals.description
 
 
 ////
@@ -142,7 +146,7 @@ equals(other: BlockAreaSize): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.blockareasize.equals.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameRuleChangeAfterEventSignal`类。
+`GameRuleChangeAfterEventSignal`类。script_api.@minecraft/server.gamerulechangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.gamerulechangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChangeAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChan
 //// define
 `callback`：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.gamerulechangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChan
 //// define
 返回值：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.gamerulechangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChan
 
 ///
 
+script_api.@minecraft/server.gamerulechangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: GameRuleChangeAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: GameRuleChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.gamerulechangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: GameRuleChangeAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.gamerulechangeaftereventsignal.unsubscribe.return
 
 
 ////

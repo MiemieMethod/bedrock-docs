@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemCompleteChargeEvent`类。
+`ItemCompleteChargeEvent`类。script_api.mojang-minecraft.itemcompletechargeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only itemStack: ItemStack;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemcompletechargeevent.itemstack.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Player;
 //// define
 `source`：[`Player`](./player.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemcompletechargeevent.source.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only useDuration: int32;
 //// define
 `useDuration`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.itemcompletechargeevent.useduration.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityBaseMovementComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityBaseMovementComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitybasemovementcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only maxTurn: float;
 //// define
 `maxTurn`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entitybasemovementcomponent.maxturn.description
 
 
 ////

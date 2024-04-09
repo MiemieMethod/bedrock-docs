@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ServerVariables`类。
+`ServerVariables`类。script_api.@minecraft/server-admin.servervariables.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only names: string[];
 //// define
 `names`：`string[]`
 
-- 属性。
+- script_api.@minecraft/server-admin.servervariables.names.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only names: string[];
 
 ///
 
+script_api.@minecraft/server-admin.servervariables.get.description
+
 ```js
 get(name: string): any | undefined
 ```
@@ -44,7 +46,7 @@ get(name: string): any | undefined
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-admin.servervariables.name.get.description
 
 
 ////
@@ -52,7 +54,7 @@ get(name: string): any | undefined
 //// define
 返回值：`any`|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server-admin.servervariables.get.return
 
 
 ////

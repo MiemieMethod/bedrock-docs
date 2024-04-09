@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameRules`类。
+`GameRules`类。script_api.@minecraft/server.gamerules.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ commandBlockOutput: boolean;
 //// define
 `commandBlockOutput`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.commandblockoutput.description
 
 
 ////
@@ -42,7 +42,7 @@ commandBlocksEnabled: boolean;
 //// define
 `commandBlocksEnabled`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.commandblocksenabled.description
 
 
 ////
@@ -64,7 +64,7 @@ doDayLightCycle: boolean;
 //// define
 `doDayLightCycle`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.dodaylightcycle.description
 
 
 ////
@@ -86,7 +86,7 @@ doEntityDrops: boolean;
 //// define
 `doEntityDrops`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.doentitydrops.description
 
 
 ////
@@ -108,7 +108,7 @@ doFireTick: boolean;
 //// define
 `doFireTick`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.dofiretick.description
 
 
 ////
@@ -130,7 +130,7 @@ doImmediateRespawn: boolean;
 //// define
 `doImmediateRespawn`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.doimmediaterespawn.description
 
 
 ////
@@ -152,7 +152,7 @@ doInsomnia: boolean;
 //// define
 `doInsomnia`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.doinsomnia.description
 
 
 ////
@@ -174,7 +174,7 @@ doLimitedCrafting: boolean;
 //// define
 `doLimitedCrafting`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.dolimitedcrafting.description
 
 
 ////
@@ -196,7 +196,7 @@ doMobLoot: boolean;
 //// define
 `doMobLoot`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.domobloot.description
 
 
 ////
@@ -218,7 +218,7 @@ doMobSpawning: boolean;
 //// define
 `doMobSpawning`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.domobspawning.description
 
 
 ////
@@ -240,7 +240,7 @@ doTileDrops: boolean;
 //// define
 `doTileDrops`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.dotiledrops.description
 
 
 ////
@@ -262,7 +262,7 @@ doWeatherCycle: boolean;
 //// define
 `doWeatherCycle`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.doweathercycle.description
 
 
 ////
@@ -284,7 +284,7 @@ drowningDamage: boolean;
 //// define
 `drowningDamage`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.drowningdamage.description
 
 
 ////
@@ -306,7 +306,7 @@ fallDamage: boolean;
 //// define
 `fallDamage`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.falldamage.description
 
 
 ////
@@ -328,7 +328,7 @@ fireDamage: boolean;
 //// define
 `fireDamage`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.firedamage.description
 
 
 ////
@@ -350,7 +350,7 @@ freezeDamage: boolean;
 //// define
 `freezeDamage`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.freezedamage.description
 
 
 ////
@@ -372,7 +372,7 @@ functionCommandLimit: int32;
 //// define
 `functionCommandLimit`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.functioncommandlimit.description
 
 
 ////
@@ -394,7 +394,7 @@ keepInventory: boolean;
 //// define
 `keepInventory`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.keepinventory.description
 
 
 ////
@@ -416,7 +416,7 @@ maxCommandChainLength: int32;
 //// define
 `maxCommandChainLength`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.maxcommandchainlength.description
 
 
 ////
@@ -438,7 +438,7 @@ mobGriefing: boolean;
 //// define
 `mobGriefing`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.mobgriefing.description
 
 
 ////
@@ -460,7 +460,7 @@ naturalRegeneration: boolean;
 //// define
 `naturalRegeneration`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.naturalregeneration.description
 
 
 ////
@@ -482,7 +482,7 @@ playersSleepingPercentage: int32;
 //// define
 `playersSleepingPercentage`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.playerssleepingpercentage.description
 
 
 ////
@@ -504,7 +504,7 @@ projectilesCanBreakBlocks: boolean;
 //// define
 `projectilesCanBreakBlocks`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.projectilescanbreakblocks.description
 
 
 ////
@@ -526,7 +526,7 @@ pvp: boolean;
 //// define
 `pvp`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.pvp.description
 
 
 ////
@@ -548,7 +548,7 @@ randomTickSpeed: int32;
 //// define
 `randomTickSpeed`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.randomtickspeed.description
 
 
 ////
@@ -570,7 +570,7 @@ recipesUnlock: boolean;
 //// define
 `recipesUnlock`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.recipesunlock.description
 
 
 ////
@@ -592,7 +592,7 @@ respawnBlocksExplode: boolean;
 //// define
 `respawnBlocksExplode`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.respawnblocksexplode.description
 
 
 ////
@@ -614,7 +614,7 @@ sendCommandFeedback: boolean;
 //// define
 `sendCommandFeedback`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.sendcommandfeedback.description
 
 
 ////
@@ -636,7 +636,7 @@ showBorderEffect: boolean;
 //// define
 `showBorderEffect`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.showbordereffect.description
 
 
 ////
@@ -658,7 +658,7 @@ showCoordinates: boolean;
 //// define
 `showCoordinates`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.showcoordinates.description
 
 
 ////
@@ -680,7 +680,7 @@ showDeathMessages: boolean;
 //// define
 `showDeathMessages`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.showdeathmessages.description
 
 
 ////
@@ -702,7 +702,7 @@ showRecipeMessages: boolean;
 //// define
 `showRecipeMessages`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.showrecipemessages.description
 
 
 ////
@@ -724,7 +724,7 @@ showTags: boolean;
 //// define
 `showTags`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.showtags.description
 
 
 ////
@@ -746,7 +746,7 @@ spawnRadius: int32;
 //// define
 `spawnRadius`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.spawnradius.description
 
 
 ////
@@ -768,7 +768,7 @@ tntExplodes: boolean;
 //// define
 `tntExplodes`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.tntexplodes.description
 
 
 ////
@@ -790,7 +790,7 @@ tntExplosionDropDecay: boolean;
 //// define
 `tntExplosionDropDecay`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.gamerules.tntexplosiondropdecay.description
 
 
 ////

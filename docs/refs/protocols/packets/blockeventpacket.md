@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp BlockEventPacket -->数据包，数字ID是`26`。
+<!-- md:samp BlockEventPacket -->数据包，数字ID是`26`。该数据包用于protocol.packet.blockeventpacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.blockeventpacket.block_position.description
 
 
 ////
 //// define
 Event Type：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.blockeventpacket.event_type.description
 
 
 ////
 //// define
 Event Value：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.blockeventpacket.event_value.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemStackResponseContainerInfo -->类型。
+<!-- md:samp ItemStackResponseContainerInfo -->类型。该类型用于protocol.type.itemstackresponsecontainerinfo.description
 
 ## 结构
 
@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Open Container Net Id：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackresponsecontainerinfo.open_container_net_id.description
 
 
 ////
@@ -56,7 +56,7 @@ Open Container Net Id：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackresponsecontainerinfo.数组大小.description
 
 
 /////
@@ -68,7 +68,7 @@ Open Container Net Id：<!-- md:samp byte -->
 ////// define
 Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](../types/itemstackresponseslotinfo.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.itemstackresponsecontainerinfo.slot_info.description
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MapDecoration -->类型。
+<!-- md:samp MapDecoration -->类型。该类型用于protocol.type.mapdecoration.description
 
 ## 结构
 
@@ -52,40 +52,40 @@ rankdir = LR
 //// define
 Map Decoration Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.mapdecoration.map_decoration_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`MarkerWhite`|`0`||
-  |`MarkerGreen`|`1`||
-  |`MarkerRed`|`2`||
-  |`MarkerBlue`|`3`||
-  |`XWhite`|`4`||
-  |`TriangleRed`|`5`||
-  |`SquareWhite`|`6`||
-  |`MarkerSign`|`7`||
-  |`MarkerPink`|`8`||
-  |`MarkerOrange`|`9`||
-  |`MarkerYellow`|`10`||
-  |`MarkerTeal`|`11`||
-  |`TriangleGreen`|`12`||
-  |`SmallSquareWhite`|`13`||
-  |`Mansion`|`14`||
-  |`Monument`|`15`||
-  |`NoDraw`|`16`||
-  |`VillageDesert`|`17`||
-  |`VillagePlains`|`18`||
-  |`VillageSavanna`|`19`||
-  |`VillageSnowy`|`20`||
-  |`VillageTaiga`|`21`||
-  |`JungleTemple`|`22`||
-  |`WitchHut`|`23`||
-  |`Count`|`24`||
-  |`Player`|`MarkerWhite`||
-  |`PlayerOffMap`|`SquareWhite`||
-  |`PlayerOffLimits`|`SmallSquareWhite`||
-  |`PlayerHidden`|`NoDraw`||
-  |`ItemFrame`|`MarkerGreen`||
+  |`MarkerWhite`|`0`|protocol.enum.markerwhite|
+  |`MarkerGreen`|`1`|protocol.enum.markergreen|
+  |`MarkerRed`|`2`|protocol.enum.markerred|
+  |`MarkerBlue`|`3`|protocol.enum.markerblue|
+  |`XWhite`|`4`|protocol.enum.xwhite|
+  |`TriangleRed`|`5`|protocol.enum.trianglered|
+  |`SquareWhite`|`6`|protocol.enum.squarewhite|
+  |`MarkerSign`|`7`|protocol.enum.markersign|
+  |`MarkerPink`|`8`|protocol.enum.markerpink|
+  |`MarkerOrange`|`9`|protocol.enum.markerorange|
+  |`MarkerYellow`|`10`|protocol.enum.markeryellow|
+  |`MarkerTeal`|`11`|protocol.enum.markerteal|
+  |`TriangleGreen`|`12`|protocol.enum.trianglegreen|
+  |`SmallSquareWhite`|`13`|protocol.enum.smallsquarewhite|
+  |`Mansion`|`14`|protocol.enum.mansion|
+  |`Monument`|`15`|protocol.enum.monument|
+  |`NoDraw`|`16`|protocol.enum.nodraw|
+  |`VillageDesert`|`17`|protocol.enum.villagedesert|
+  |`VillagePlains`|`18`|protocol.enum.villageplains|
+  |`VillageSavanna`|`19`|protocol.enum.villagesavanna|
+  |`VillageSnowy`|`20`|protocol.enum.villagesnowy|
+  |`VillageTaiga`|`21`|protocol.enum.villagetaiga|
+  |`JungleTemple`|`22`|protocol.enum.jungletemple|
+  |`WitchHut`|`23`|protocol.enum.witchhut|
+  |`Count`|`24`|protocol.enum.count|
+  |`Player`|`MarkerWhite`|protocol.enum.player|
+  |`PlayerOffMap`|`SquareWhite`|protocol.enum.playeroffmap|
+  |`PlayerOffLimits`|`SmallSquareWhite`|protocol.enum.playerofflimits|
+  |`PlayerHidden`|`NoDraw`|protocol.enum.playerhidden|
+  |`ItemFrame`|`MarkerGreen`|protocol.enum.itemframe|
 
 
 
@@ -93,35 +93,35 @@ Map Decoration Type：<!-- md:samp byte -->
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.mapdecoration.rotation.description
 
 
 ////
 //// define
 X：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.mapdecoration.x.description
 
 
 ////
 //// define
 Y：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.mapdecoration.y.description
 
 
 ////
 //// define
 Label：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.mapdecoration.label.description
 
 
 ////
 //// define
 Color - ARGB：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.mapdecoration.color_argb.description
 
 
 ////

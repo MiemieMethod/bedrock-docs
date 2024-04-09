@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlaytestManager`类。
+`PlaytestManager`类。script_api.@minecraft/server-editor-bindings.playtestmanager.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.playtestmanager.beginplaytest.description
+
 ```js
 beginPlaytest(options: PlaytestGameOptions): Promise<PlaytestSessionResult>
 ```
@@ -20,7 +22,7 @@ beginPlaytest(options: PlaytestGameOptions): Promise<PlaytestSessionResult>
 //// define
 `options`：[`PlaytestGameOptions`](./playtestgameoptions.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.playtestmanager.options.beginplaytest.description
 
 
 ////
@@ -28,7 +30,7 @@ beginPlaytest(options: PlaytestGameOptions): Promise<PlaytestSessionResult>
 //// define
 返回值：<code>Promise&lt;<a href="../playtestsessionresult/">PlaytestSessionResult</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.playtestmanager.beginplaytest.return
 
 
 ////
@@ -42,6 +44,8 @@ beginPlaytest(options: PlaytestGameOptions): Promise<PlaytestSessionResult>
 
 ///
 
+script_api.@minecraft/server-editor-bindings.playtestmanager.getplaytestsessionavailability.description
+
 ```js
 getPlaytestSessionAvailability(): PlaytestSessionResult
 ```
@@ -50,7 +54,7 @@ getPlaytestSessionAvailability(): PlaytestSessionResult
 //// define
 返回值：[`PlaytestSessionResult`](./playtestsessionresult.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.playtestmanager.getplaytestsessionavailability.return
 
 
 ////

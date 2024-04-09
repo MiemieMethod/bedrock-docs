@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RemoveActorPacket -->数据包，数字ID是`14`。
+<!-- md:samp RemoveActorPacket -->数据包，数字ID是`14`。该数据包用于protocol.packet.removeactorpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.removeactorpacket.target_actor_id.description
 
 
 ////

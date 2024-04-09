@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityFloatsInLiquidComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityFloatsInLiquidComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityfloatsinliquidcomponent.description
 
 ## 常量
 

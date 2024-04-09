@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SoundOptions`类。
+`SoundOptions`类。script_api.mojang-minecraft.soundoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ location: Location | undefined;
 //// define
 `location`：[`Location`](./location.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.soundoptions.location.description
 
 
 ////
@@ -42,7 +42,7 @@ pitch: float | undefined;
 //// define
 `pitch`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.soundoptions.pitch.description
 
 
 ////
@@ -64,7 +64,7 @@ volume: float | undefined;
 //// define
 `volume`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.soundoptions.volume.description
 
 
 ////
@@ -80,6 +80,8 @@ volume: float | undefined;
 
 ///
 
+script_api.mojang-minecraft.soundoptions.constructor.description
+
 ```js
 new constructor(): SoundOptions
 ```
@@ -88,7 +90,7 @@ new constructor(): SoundOptions
 //// define
 返回值：[`SoundOptions`](./soundoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.soundoptions.constructor.return
 
 
 ////

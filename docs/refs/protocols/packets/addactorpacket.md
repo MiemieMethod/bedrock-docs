@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AddActorPacket -->数据包，数字ID是`13`。
+<!-- md:samp AddActorPacket -->数据包，数字ID是`13`。该数据包用于protocol.packet.addactorpacket.description
 
 ## 结构
 
@@ -104,56 +104,56 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.target_actor_id.description
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.target_runtime_id.description
 
 
 ////
 //// define
 Actor Type：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.actor_type.description
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.position.description
 
 
 ////
 //// define
 Velocity：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.velocity.description
 
 
 ////
 //// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.rotation.description
 
 
 ////
 //// define
 Y Head Rotation：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addactorpacket.y_head_rotation.description
 
 
 ////
 //// define
 Y Body Rotation：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addactorpacket.y_body_rotation.description
 
 
 ////
@@ -165,7 +165,7 @@ Y Body Rotation：<!-- md:samp float -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addactorpacket.数组大小.description
 
 
 /////
@@ -177,28 +177,28 @@ Y Body Rotation：<!-- md:samp float -->
 ////// define
 Attribute Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.attribute_name.description
 
 
 //////
 ////// define
 Min Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addactorpacket.min_value.description
 
 
 //////
 ////// define
 Current Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addactorpacket.current_value.description
 
 
 //////
 ////// define
 Max Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addactorpacket.max_value.description
 
 
 //////
@@ -209,14 +209,14 @@ Max Value：<!-- md:samp float -->
 //// define
 Actor Data：[<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.actor_data.description
 
 
 ////
 //// define
 Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.synched_properties.description
 
 
 ////
@@ -228,7 +228,7 @@ Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncda
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addactorpacket.数组大小.description
 
 
 /////
@@ -240,7 +240,7 @@ Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncda
 ////// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addactorpacket.link.description
 
 
 //////

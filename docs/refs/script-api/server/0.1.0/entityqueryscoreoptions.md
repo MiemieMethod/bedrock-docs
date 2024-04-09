@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityQueryScoreOptions`类。
+`EntityQueryScoreOptions`类。script_api.mojang-minecraft.entityqueryscoreoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ exclude: boolean | undefined;
 //// define
 `exclude`：`boolean`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryscoreoptions.exclude.description
 
 
 ////
@@ -42,7 +42,7 @@ maxScore: int32 | undefined;
 //// define
 `maxScore`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryscoreoptions.maxscore.description
 
 
 ////
@@ -64,7 +64,7 @@ minScore: int32 | undefined;
 //// define
 `minScore`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryscoreoptions.minscore.description
 
 
 ////
@@ -86,7 +86,7 @@ objective: string | undefined;
 //// define
 `objective`：`string`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryscoreoptions.objective.description
 
 
 ////
@@ -102,6 +102,8 @@ objective: string | undefined;
 
 ///
 
+script_api.mojang-minecraft.entityqueryscoreoptions.constructor.description
+
 ```js
 new constructor(): EntityQueryScoreOptions
 ```
@@ -110,7 +112,7 @@ new constructor(): EntityQueryScoreOptions
 //// define
 返回值：[`EntityQueryScoreOptions`](./entityqueryscoreoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.entityqueryscoreoptions.constructor.return
 
 
 ////

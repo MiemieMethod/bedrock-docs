@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ServerSecrets`类。
+`ServerSecrets`类。script_api.@minecraft/server-admin.serversecrets.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only names: string[];
 //// define
 `names`：`string[]`
 
-- 属性。
+- script_api.@minecraft/server-admin.serversecrets.names.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only names: string[];
 
 ///
 
+script_api.@minecraft/server-admin.serversecrets.get.description
+
 ```js
 get(name: string): SecretString | undefined
 ```
@@ -44,7 +46,7 @@ get(name: string): SecretString | undefined
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-admin.serversecrets.name.get.description
 
 
 ////
@@ -52,7 +54,7 @@ get(name: string): SecretString | undefined
 //// define
 返回值：[`SecretString`](./secretstring.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server-admin.serversecrets.get.return
 
 
 ////

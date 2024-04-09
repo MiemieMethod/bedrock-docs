@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScriptEventSource`枚举。
+`ScriptEventSource`枚举。script_api.@minecraft/server.scripteventsource.description
 
 ## 常量
 

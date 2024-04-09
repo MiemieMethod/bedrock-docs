@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`IPlayerLeaveAfterEventSignal`类。
+`IPlayerLeaveAfterEventSignal`类。script_api.@minecraft/server.iplayerleaveaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.iplayerleaveaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfte
 //// define
 `callback`：<code>(<a href="../playerleaveafterevent/">PlayerLeaveAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.iplayerleaveaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfte
 //// define
 返回值：<code>(<a href="../playerleaveafterevent/">PlayerLeaveAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.iplayerleaveaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerLeaveAfterEvent) => void): (arg: PlayerLeaveAfte
 
 ///
 
+script_api.@minecraft/server.iplayerleaveaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerLeaveAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerLeaveAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerleaveafterevent/">PlayerLeaveAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.iplayerleaveaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerLeaveAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.iplayerleaveaftereventsignal.unsubscribe.return
 
 
 ////

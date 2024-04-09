@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerDimensionChangeAfterEvent`类。
+`PlayerDimensionChangeAfterEvent`类。script_api.@minecraft/server.playerdimensionchangeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only fromDimension: Dimension;
 //// define
 `fromDimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.playerdimensionchangeafterevent.fromdimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only fromLocation: Vector3;
 //// define
 `fromLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.playerdimensionchangeafterevent.fromlocation.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerdimensionchangeafterevent.player.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only toDimension: Dimension;
 //// define
 `toDimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.playerdimensionchangeafterevent.todimension.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only toLocation: Vector3;
 //// define
 `toLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.playerdimensionchangeafterevent.tolocation.description
 
 
 ////

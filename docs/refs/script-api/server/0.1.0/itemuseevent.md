@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseEvent`类。
+`ItemUseEvent`类。script_api.mojang-minecraft.itemuseevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ item: ItemStack;
 //// define
 `item`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemuseevent.item.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Player;
 //// define
 `source`：[`Player`](./player.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemuseevent.source.description
 
 
 ////

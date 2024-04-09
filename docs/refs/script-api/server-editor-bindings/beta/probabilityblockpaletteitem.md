@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ProbabilityBlockPaletteItem`类，扩展自[`IBlockPaletteItem`](./iblockpaletteitem.md)。
+`ProbabilityBlockPaletteItem`类，扩展自[`IBlockPaletteItem`](./iblockpaletteitem.md)。script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.addblock.description
+
 ```js
 addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 ```
@@ -20,7 +22,7 @@ addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 //// define
 `block`：[`BlockPermutation`](../../server/beta/blockpermutation.md)|[`BlockType`](../../server/beta/blocktype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.block.addblock.description
 
 
 ////
@@ -28,7 +30,7 @@ addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 //// define
 `weight`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.weight.addblock.description
 
 
 ////
@@ -36,7 +38,7 @@ addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.addblock.return
 
 
 ////
@@ -50,6 +52,8 @@ addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.constructor.description
+
 ```js
 new constructor(displayName?: string): ProbabilityBlockPaletteItem
 ```
@@ -58,7 +62,7 @@ new constructor(displayName?: string): ProbabilityBlockPaletteItem
 //// define
 `displayName`：`string`|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.displayname.constructor.description
 
 
 ////
@@ -66,7 +70,7 @@ new constructor(displayName?: string): ProbabilityBlockPaletteItem
 //// define
 返回值：[`ProbabilityBlockPaletteItem`](./probabilityblockpaletteitem.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.constructor.return
 
 
 ////
@@ -80,6 +84,8 @@ new constructor(displayName?: string): ProbabilityBlockPaletteItem
 
 ///
 
+script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.removeblockat.description
+
 ```js
 removeBlockAt(index: int32): void
 ```
@@ -88,7 +94,7 @@ removeBlockAt(index: int32): void
 //// define
 `index`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.index.removeblockat.description
 
 
 ////
@@ -96,7 +102,7 @@ removeBlockAt(index: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.removeblockat.return
 
 
 ////

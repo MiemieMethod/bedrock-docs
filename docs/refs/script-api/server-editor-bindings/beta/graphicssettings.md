@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GraphicsSettings`类。
+`GraphicsSettings`类。script_api.@minecraft/server-editor-bindings.graphicssettings.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.graphicssettings.get.description
+
 ```js
 get(property: GraphicsSettingsProperty): boolean | int32 | string | undefined
 ```
@@ -20,7 +22,7 @@ get(property: GraphicsSettingsProperty): boolean | int32 | string | undefined
 //// define
 `property`：[`GraphicsSettingsProperty`](./graphicssettingsproperty.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.property.get.description
 
 
 ////
@@ -28,7 +30,7 @@ get(property: GraphicsSettingsProperty): boolean | int32 | string | undefined
 //// define
 返回值：`boolean`|`int32`|`string`|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.get.return
 
 
 ////
@@ -42,6 +44,8 @@ get(property: GraphicsSettingsProperty): boolean | int32 | string | undefined
 
 ///
 
+script_api.@minecraft/server-editor-bindings.graphicssettings.getall.description
+
 ```js
 getAll(): Record<string, boolean | int32 | string>
 ```
@@ -50,7 +54,7 @@ getAll(): Record<string, boolean | int32 | string>
 //// define
 返回值：`Record<string, boolean | int32 | string>`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.getall.return
 
 
 ////
@@ -64,6 +68,8 @@ getAll(): Record<string, boolean | int32 | string>
 
 ///
 
+script_api.@minecraft/server-editor-bindings.graphicssettings.set.description
+
 ```js
 set(property: GraphicsSettingsProperty, value: boolean | int32 | string): void
 ```
@@ -72,7 +78,7 @@ set(property: GraphicsSettingsProperty, value: boolean | int32 | string): void
 //// define
 `property`：[`GraphicsSettingsProperty`](./graphicssettingsproperty.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.property.set.description
 
 
 ////
@@ -80,7 +86,7 @@ set(property: GraphicsSettingsProperty, value: boolean | int32 | string): void
 //// define
 `value`：`boolean`|`int32`|`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.value.set.description
 
 
 ////
@@ -88,7 +94,7 @@ set(property: GraphicsSettingsProperty, value: boolean | int32 | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.set.return
 
 
 ////
@@ -102,6 +108,8 @@ set(property: GraphicsSettingsProperty, value: boolean | int32 | string): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.graphicssettings.setall.description
+
 ```js
 setAll(properties: Record<string, boolean | int32 | string>): void
 ```
@@ -110,7 +118,7 @@ setAll(properties: Record<string, boolean | int32 | string>): void
 //// define
 `properties`：`Record<string, boolean | int32 | string>`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.properties.setall.description
 
 
 ////
@@ -118,7 +126,7 @@ setAll(properties: Record<string, boolean | int32 | string>): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.graphicssettings.setall.return
 
 
 ////

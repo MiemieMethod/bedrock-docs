@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ChatEvent`类。
+`ChatEvent`类。script_api.mojang-minecraft.chatevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ message: string;
 //// define
 `message`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.chatevent.message.description
 
 
 ////
@@ -42,7 +42,7 @@ sender: Player;
 //// define
 `sender`：[`Player`](./player.md)
 
-- 属性。
+- script_api.mojang-minecraft.chatevent.sender.description
 
 
 ////
@@ -64,7 +64,7 @@ sendToTargets: boolean;
 //// define
 `sendToTargets`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.chatevent.sendtotargets.description
 
 
 ////
@@ -86,7 +86,7 @@ targets: Player[];
 //// define
 `targets`：<code><a href="../player/">Player</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.chatevent.targets.description
 
 
 ////

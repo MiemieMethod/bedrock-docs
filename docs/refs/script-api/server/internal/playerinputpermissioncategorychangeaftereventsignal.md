@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInputPermissionCategoryChangeAfterEventSignal`类。
+`PlayerInputPermissionCategoryChangeAfterEventSignal`类。script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void): (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
 //// define
 `callback`：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
 //// define
 返回值：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
 
 ///
 
+script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => vo
 //// define
 `callback`：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => vo
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.unsubscribe.return
 
 
 ////

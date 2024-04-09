@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blockliquidcontainercomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ fillLevel: int32;
 //// define
 `fillLevel`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.blockliquidcontainercomponent.filllevel.description
 
 
 ////
@@ -36,6 +36,8 @@ fillLevel: int32;
 
 ///
 
+script_api.@minecraft/server.blockliquidcontainercomponent.isvalidliquid.description
+
 ```js
 isValidLiquid(): boolean
 ```
@@ -44,7 +46,7 @@ isValidLiquid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.blockliquidcontainercomponent.isvalidliquid.return
 
 
 ////

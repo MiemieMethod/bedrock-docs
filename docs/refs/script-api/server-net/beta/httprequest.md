@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`HttpRequest`类。
+`HttpRequest`类。script_api.@minecraft/server-net.httprequest.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ body: string;
 //// define
 `body`：`string`
 
-- 属性。
+- script_api.@minecraft/server-net.httprequest.body.description
 
 
 ////
@@ -42,7 +42,7 @@ headers: HttpHeader[];
 //// define
 `headers`：<code><a href="../httpheader/">HttpHeader</a>[]</code>
 
-- 属性。
+- script_api.@minecraft/server-net.httprequest.headers.description
 
 
 ////
@@ -64,7 +64,7 @@ method: HttpRequestMethod;
 //// define
 `method`：[`HttpRequestMethod`](./httprequestmethod.md)
 
-- 属性。
+- script_api.@minecraft/server-net.httprequest.method.description
 
 
 ////
@@ -86,7 +86,7 @@ timeout: uint32;
 //// define
 `timeout`：`uint32`
 
-- 属性。
+- script_api.@minecraft/server-net.httprequest.timeout.description
 
 
 ////
@@ -108,7 +108,7 @@ uri: string;
 //// define
 `uri`：`string`
 
-- 属性。
+- script_api.@minecraft/server-net.httprequest.uri.description
 
 
 ////
@@ -124,6 +124,8 @@ uri: string;
 
 ///
 
+script_api.@minecraft/server-net.httprequest.addheader.description
+
 ```js
 addHeader(key: string, value: SecretString | string): HttpRequest
 ```
@@ -132,7 +134,7 @@ addHeader(key: string, value: SecretString | string): HttpRequest
 //// define
 `key`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-net.httprequest.key.addheader.description
 
 
 ////
@@ -140,7 +142,7 @@ addHeader(key: string, value: SecretString | string): HttpRequest
 //// define
 `value`：[`SecretString`](../../server-admin/beta/secretstring.md)|`string`
 
-- 参数2。
+- script_api.@minecraft/server-net.httprequest.value.addheader.description
 
 
 ////
@@ -148,7 +150,7 @@ addHeader(key: string, value: SecretString | string): HttpRequest
 //// define
 返回值：[`HttpRequest`](./httprequest.md)
 
-- 返回值。
+- script_api.@minecraft/server-net.httprequest.addheader.return
 
 
 ////
@@ -162,6 +164,8 @@ addHeader(key: string, value: SecretString | string): HttpRequest
 
 ///
 
+script_api.@minecraft/server-net.httprequest.constructor.description
+
 ```js
 new constructor(uri: string): HttpRequest
 ```
@@ -170,7 +174,7 @@ new constructor(uri: string): HttpRequest
 //// define
 `uri`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-net.httprequest.uri.constructor.description
 
 
 ////
@@ -178,7 +182,7 @@ new constructor(uri: string): HttpRequest
 //// define
 返回值：[`HttpRequest`](./httprequest.md)
 
-- 返回值。
+- script_api.@minecraft/server-net.httprequest.constructor.return
 
 
 ////
@@ -192,6 +196,8 @@ new constructor(uri: string): HttpRequest
 
 ///
 
+script_api.@minecraft/server-net.httprequest.setbody.description
+
 ```js
 setBody(body: string): HttpRequest
 ```
@@ -200,7 +206,7 @@ setBody(body: string): HttpRequest
 //// define
 `body`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-net.httprequest.body.setbody.description
 
 
 ////
@@ -208,7 +214,7 @@ setBody(body: string): HttpRequest
 //// define
 返回值：[`HttpRequest`](./httprequest.md)
 
-- 返回值。
+- script_api.@minecraft/server-net.httprequest.setbody.return
 
 
 ////
@@ -222,6 +228,8 @@ setBody(body: string): HttpRequest
 
 ///
 
+script_api.@minecraft/server-net.httprequest.setheaders.description
+
 ```js
 setHeaders(headers: HttpHeader[]): HttpRequest
 ```
@@ -230,7 +238,7 @@ setHeaders(headers: HttpHeader[]): HttpRequest
 //// define
 `headers`：<code><a href="../httpheader/">HttpHeader</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server-net.httprequest.headers.setheaders.description
 
 
 ////
@@ -238,7 +246,7 @@ setHeaders(headers: HttpHeader[]): HttpRequest
 //// define
 返回值：[`HttpRequest`](./httprequest.md)
 
-- 返回值。
+- script_api.@minecraft/server-net.httprequest.setheaders.return
 
 
 ////
@@ -252,6 +260,8 @@ setHeaders(headers: HttpHeader[]): HttpRequest
 
 ///
 
+script_api.@minecraft/server-net.httprequest.setmethod.description
+
 ```js
 setMethod(method: HttpRequestMethod): HttpRequest
 ```
@@ -260,7 +270,7 @@ setMethod(method: HttpRequestMethod): HttpRequest
 //// define
 `method`：[`HttpRequestMethod`](./httprequestmethod.md)
 
-- 参数1。
+- script_api.@minecraft/server-net.httprequest.method.setmethod.description
 
 
 ////
@@ -268,7 +278,7 @@ setMethod(method: HttpRequestMethod): HttpRequest
 //// define
 返回值：[`HttpRequest`](./httprequest.md)
 
-- 返回值。
+- script_api.@minecraft/server-net.httprequest.setmethod.return
 
 
 ////
@@ -282,6 +292,8 @@ setMethod(method: HttpRequestMethod): HttpRequest
 
 ///
 
+script_api.@minecraft/server-net.httprequest.settimeout.description
+
 ```js
 setTimeout(timeout: uint32): HttpRequest
 ```
@@ -290,7 +302,7 @@ setTimeout(timeout: uint32): HttpRequest
 //// define
 `timeout`：`uint32`
 
-- 参数1。
+- script_api.@minecraft/server-net.httprequest.timeout.settimeout.description
 
 
 ////
@@ -298,7 +310,7 @@ setTimeout(timeout: uint32): HttpRequest
 //// define
 返回值：[`HttpRequest`](./httprequest.md)
 
-- 返回值。
+- script_api.@minecraft/server-net.httprequest.settimeout.return
 
 
 ////

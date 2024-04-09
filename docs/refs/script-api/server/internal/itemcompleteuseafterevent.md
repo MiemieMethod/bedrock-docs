@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemCompleteUseAfterEvent`类。
+`ItemCompleteUseAfterEvent`类。script_api.@minecraft/server.itemcompleteuseafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only itemStack: ItemStack;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcompleteuseafterevent.itemstack.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Player;
 //// define
 `source`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcompleteuseafterevent.source.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only useDuration: int32;
 //// define
 `useDuration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.itemcompleteuseafterevent.useduration.description
 
 
 ////

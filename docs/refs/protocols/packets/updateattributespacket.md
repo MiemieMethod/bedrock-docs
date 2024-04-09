@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateAttributesPacket -->数据包，数字ID是`29`。
+<!-- md:samp UpdateAttributesPacket -->数据包，数字ID是`29`。该数据包用于protocol.packet.updateattributespacket.description
 
 ## 结构
 
@@ -96,7 +96,7 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateattributespacket.target_runtime_id.description
 
 
 ////
@@ -108,7 +108,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.数组大小.description
 
 
 /////
@@ -120,35 +120,35 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ////// define
 Min Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.min_value.description
 
 
 //////
 ////// define
 Max Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.max_value.description
 
 
 //////
 ////// define
 Current Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.current_value.description
 
 
 //////
 ////// define
 Default Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.default_value.description
 
 
 //////
 ////// define
 Attribute Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateattributespacket.attribute_name.description
 
 
 //////
@@ -160,7 +160,7 @@ Attribute Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.数组大小.description
 
 
 ///////
@@ -172,37 +172,37 @@ Attribute Name：[<!-- md:samp string -->](../types/string.md)
 //////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateattributespacket.id.description
 
 
 ////////
 //////// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateattributespacket.name.description
 
 
 ////////
 //////// define
 Amount：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.amount.description
 
 
 ////////
 //////// define
 Operation：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.updateattributespacket.operation.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`OPERATION_ADDITION`|`0`||
-  |`OPERATION_MULTIPLY_BASE`|`1`||
-  |`OPERATION_MULTIPLY_TOTAL`|`2`||
-  |`OPERATION_CAP`|`3`||
-  |`TOTAL_OPERATIONS`|`4`||
-  |`OPERATION_INVALID`|`TOTAL_OPERATIONS`||
+  |`OPERATION_ADDITION`|`0`|protocol.enum.operation_addition|
+  |`OPERATION_MULTIPLY_BASE`|`1`|protocol.enum.operation_multiply_base|
+  |`OPERATION_MULTIPLY_TOTAL`|`2`|protocol.enum.operation_multiply_total|
+  |`OPERATION_CAP`|`3`|protocol.enum.operation_cap|
+  |`TOTAL_OPERATIONS`|`4`|protocol.enum.total_operations|
+  |`OPERATION_INVALID`|`TOTAL_OPERATIONS`|protocol.enum.operation_invalid|
 
 
 
@@ -210,15 +210,15 @@ Operation：<!-- md:samp int -->
 //////// define
 Operand：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.updateattributespacket.operand.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`OPERAND_MIN`|`0`||
-  |`OPERAND_MAX`|`1`||
-  |`OPERAND_CURRENT`|`2`||
-  |`TOTAL_OPERANDS`|`3`||
-  |`OPERAND_INVALID`|`TOTAL_OPERANDS`||
+  |`OPERAND_MIN`|`0`|protocol.enum.operand_min|
+  |`OPERAND_MAX`|`1`|protocol.enum.operand_max|
+  |`OPERAND_CURRENT`|`2`|protocol.enum.operand_current|
+  |`TOTAL_OPERANDS`|`3`|protocol.enum.total_operands|
+  |`OPERAND_INVALID`|`TOTAL_OPERANDS`|protocol.enum.operand_invalid|
 
 
 
@@ -226,7 +226,7 @@ Operand：<!-- md:samp int -->
 //////// define
 isSerializable?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.isserializable.description
 
 
 ////////
@@ -241,7 +241,7 @@ isSerializable?：<!-- md:samp bool -->
 //// define
 Count of ticks since simulation started：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateattributespacket.count_of_ticks_since_simulation_started.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FluidContainer`类。
+`FluidContainer`类。script_api.mojang-minecraft.fluidcontainer.description
 
 ## 常量
 

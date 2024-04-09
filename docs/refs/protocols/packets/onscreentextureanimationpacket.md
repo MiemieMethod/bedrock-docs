@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp OnScreenTextureAnimationPacket -->数据包，数字ID是`130`。
+<!-- md:samp OnScreenTextureAnimationPacket -->数据包，数字ID是`130`。该数据包用于protocol.packet.onscreentextureanimationpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Effect Id：<!-- md:samp unsigned int -->
 
-- 基本类型。Id of the effect whose icon should be shown on-screen.
+- 基本类型。protocol.packet.onscreentextureanimationpacket.effect_id.descriptionId of the effect whose icon should be shown on-screen.
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockInventoryComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockInventoryComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blockinventorycomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only container: Container | undefined;
 //// define
 `container`：[`Container`](./container.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockinventorycomponent.container.description
 
 
 ////

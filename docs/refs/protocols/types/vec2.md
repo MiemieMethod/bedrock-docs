@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp Vec2 -->类型。
+<!-- md:samp Vec2 -->类型。该类型用于protocol.type.vec2.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 X：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.vec2.x.description
 
 
 ////
 //// define
 Y：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.vec2.y.description
 
 
 ////

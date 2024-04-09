@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MusicOptions`接口。
+`MusicOptions`接口。script_api.@minecraft/server.musicoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ fade: float | undefined;
 //// define
 `fade`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.musicoptions.fade.description
 
 
 ////
@@ -42,7 +42,7 @@ loop: boolean | undefined;
 //// define
 `loop`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.musicoptions.loop.description
 
 
 ////
@@ -64,7 +64,7 @@ volume: float | undefined;
 //// define
 `volume`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.musicoptions.volume.description
 
 
 ////

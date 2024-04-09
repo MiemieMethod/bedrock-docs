@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityBreathableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityBreathableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitybreathablecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only breathesAir: boolean;
 //// define
 `breathesAir`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.breathesair.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only breathesLava: boolean;
 //// define
 `breathesLava`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.breatheslava.description
 
 
 ////
@@ -77,7 +77,7 @@ read-only breathesSolids: boolean;
 //// define
 `breathesSolids`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.breathessolids.description
 
 
 ////
@@ -99,7 +99,7 @@ read-only breathesWater: boolean;
 //// define
 `breathesWater`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.breatheswater.description
 
 
 ////
@@ -121,7 +121,7 @@ read-only generatesBubbles: boolean;
 //// define
 `generatesBubbles`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.generatesbubbles.description
 
 
 ////
@@ -143,7 +143,7 @@ read-only inhaleTime: float;
 //// define
 `inhaleTime`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.inhaletime.description
 
 
 ////
@@ -165,7 +165,7 @@ read-only suffocateTime: int32;
 //// define
 `suffocateTime`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.suffocatetime.description
 
 
 ////
@@ -187,7 +187,7 @@ read-only totalSupply: int32;
 //// define
 `totalSupply`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.entitybreathablecomponent.totalsupply.description
 
 
 ////
@@ -203,6 +203,8 @@ read-only totalSupply: int32;
 
 ///
 
+script_api.@minecraft/server.entitybreathablecomponent.getbreatheblocks.description
+
 ```js
 getBreatheBlocks(): BlockPermutation[]
 ```
@@ -211,7 +213,7 @@ getBreatheBlocks(): BlockPermutation[]
 //// define
 返回值：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entitybreathablecomponent.getbreatheblocks.return
 
 
 ////
@@ -225,6 +227,8 @@ getBreatheBlocks(): BlockPermutation[]
 
 ///
 
+script_api.@minecraft/server.entitybreathablecomponent.getnonbreatheblocks.description
+
 ```js
 getNonBreatheBlocks(): BlockPermutation[]
 ```
@@ -233,7 +237,7 @@ getNonBreatheBlocks(): BlockPermutation[]
 //// define
 返回值：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entitybreathablecomponent.getnonbreatheblocks.return
 
 
 ////
@@ -247,6 +251,8 @@ getNonBreatheBlocks(): BlockPermutation[]
 
 ///
 
+script_api.@minecraft/server.entitybreathablecomponent.setairsupply.description
+
 ```js
 setAirSupply(value: int16): void
 ```
@@ -255,7 +261,7 @@ setAirSupply(value: int16): void
 //// define
 `value`：`int16`
 
-- 参数1。
+- script_api.@minecraft/server.entitybreathablecomponent.value.setairsupply.description
 
 
 ////
@@ -263,7 +269,7 @@ setAirSupply(value: int16): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entitybreathablecomponent.setairsupply.return
 
 
 ////

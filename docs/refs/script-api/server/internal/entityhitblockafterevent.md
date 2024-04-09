@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHitBlockAfterEvent`类。
+`EntityHitBlockAfterEvent`类。script_api.@minecraft/server.entityhitblockafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only blockFace: Direction;
 //// define
 `blockFace`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhitblockafterevent.blockface.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only damagingEntity: Entity;
 //// define
 `damagingEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhitblockafterevent.damagingentity.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only hitBlock: Block;
 //// define
 `hitBlock`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhitblockafterevent.hitblock.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only hitBlockPermutation: BlockPermutation;
 //// define
 `hitBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhitblockafterevent.hitblockpermutation.description
 
 
 ////

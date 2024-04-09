@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityQueryPropertyOptions`接口。
+`EntityQueryPropertyOptions`接口。script_api.@minecraft/server.entityquerypropertyoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ exclude: boolean | undefined;
 //// define
 `exclude`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityquerypropertyoptions.exclude.description
 
 
 ////
@@ -42,7 +42,7 @@ propertyId: string;
 //// define
 `propertyId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entityquerypropertyoptions.propertyid.description
 
 
 ////
@@ -64,7 +64,7 @@ value: boolean | string | EqualsComparison | GreaterThanComparison | GreaterThan
 //// define
 `value`：`boolean`|`string`|[`EqualsComparison`](./equalscomparison.md)|[`GreaterThanComparison`](./greaterthancomparison.md)|[`GreaterThanOrEqualsComparison`](./greaterthanorequalscomparison.md)|[`LessThanComparison`](./lessthancomparison.md)|[`LessThanOrEqualsComparison`](./lessthanorequalscomparison.md)|[`NotEqualsComparison`](./notequalscomparison.md)|[`RangeComparison`](./rangecomparison.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityquerypropertyoptions.value.description
 
 
 ////

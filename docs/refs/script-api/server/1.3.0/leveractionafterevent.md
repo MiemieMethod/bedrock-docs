@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`LeverActionAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`LeverActionAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.leveractionafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only isPowered: boolean;
 //// define
 `isPowered`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.leveractionafterevent.ispowered.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.leveractionafterevent.player.description
 
 
 ////

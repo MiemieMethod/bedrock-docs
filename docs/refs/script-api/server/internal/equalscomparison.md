@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EqualsComparison`接口。
+`EqualsComparison`接口。script_api.@minecraft/server.equalscomparison.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ equals: boolean | float | string;
 //// define
 `equals`：`boolean`|`float`|`string`
 
-- 属性。
+- script_api.@minecraft/server.equalscomparison.equals.description
 
 
 ////

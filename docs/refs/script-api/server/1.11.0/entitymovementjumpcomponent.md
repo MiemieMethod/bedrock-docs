@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementJumpComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。
+`EntityMovementJumpComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。script_api.@minecraft/server.entitymovementjumpcomponent.description
 
 ## 常量
 

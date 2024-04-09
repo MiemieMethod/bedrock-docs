@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`IPlayerJoinAfterEventSignal`类。
+`IPlayerJoinAfterEventSignal`类。script_api.@minecraft/server.iplayerjoinaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.iplayerjoinaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerJoinAfterEvent) => void): (arg: PlayerJoinAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerJoinAfterEvent) => void): (arg: PlayerJoinAfterE
 //// define
 `callback`：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.iplayerjoinaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerJoinAfterEvent) => void): (arg: PlayerJoinAfterE
 //// define
 返回值：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.iplayerjoinaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerJoinAfterEvent) => void): (arg: PlayerJoinAfterE
 
 ///
 
+script_api.@minecraft/server.iplayerjoinaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerJoinAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerJoinAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.iplayerjoinaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerJoinAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.iplayerjoinaftereventsignal.unsubscribe.return
 
 
 ////

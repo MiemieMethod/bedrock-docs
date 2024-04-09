@@ -2,4 +2,4 @@
 
 > 文档版本：1.21.0.20
 
-`EntityComponent`类，扩展自[`Component`](./component.md)。
+`EntityComponent`类，扩展自[`Component`](./component.md)。script_api.@minecraft/server.entitycomponent.description

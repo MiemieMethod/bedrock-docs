@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp InventorySource -->类型。
+<!-- md:samp InventorySource -->类型。该类型用于protocol.type.inventorysource.description
 
 ## 结构
 
@@ -54,16 +54,16 @@ rankdir = LR
 //// define
 Source Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.inventorysource.source_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`InvalidInventory`|`std::numeric_limits<uint32_t>::max()`||
-  |`ContainerInventory`|`0`||
-  |`GlobalInventory`|`1`||
-  |`WorldInteraction`|`2`||
-  |`CreativeInventory`|`3`||
-  |`NonImplementedFeatureTODO`|`99999`||
+  |`InvalidInventory`|`std::numeric_limits<uint32_t>::max()`|protocol.enum.invalidinventory|
+  |`ContainerInventory`|`0`|protocol.enum.containerinventory|
+  |`GlobalInventory`|`1`|protocol.enum.globalinventory|
+  |`WorldInteraction`|`2`|protocol.enum.worldinteraction|
+  |`CreativeInventory`|`3`|protocol.enum.creativeinventory|
+  |`NonImplementedFeatureTODO`|`99999`|protocol.enum.nonimplementedfeaturetodo|
 
 
 
@@ -79,18 +79,18 @@ Source Type：<!-- md:samp unsigned varint -->
 /////// define
 Container ID：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.inventorysource.container_id.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`CONTAINER_ID_NONE`|`-1`||
-  |`CONTAINER_ID_INVENTORY`|`0`||
-  |`CONTAINER_ID_FIRST`|`1`||
-  |`CONTAINER_ID_LAST`|`100`||
-  |`CONTAINER_ID_OFFHAND`|`119`||
-  |`CONTAINER_ID_ARMOR`|`120`||
-  |`CONTAINER_ID_SELECTION_SLOTS`|`122`||
-  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`||
+  |`CONTAINER_ID_NONE`|`-1`|protocol.enum.container_id_none|
+  |`CONTAINER_ID_INVENTORY`|`0`|protocol.enum.container_id_inventory|
+  |`CONTAINER_ID_FIRST`|`1`|protocol.enum.container_id_first|
+  |`CONTAINER_ID_LAST`|`100`|protocol.enum.container_id_last|
+  |`CONTAINER_ID_OFFHAND`|`119`|protocol.enum.container_id_offhand|
+  |`CONTAINER_ID_ARMOR`|`120`|protocol.enum.container_id_armor|
+  |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
+  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
 
 
 
@@ -104,7 +104,7 @@ Container ID：<!-- md:samp varint -->
 ////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -120,12 +120,12 @@ if (1)：<!-- md:samp [No Data] -->
 /////// define
 Bit Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.inventorysource.bit_flags.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NoFlag`|`0`||
-  |`WorldInteraction_Random`|`1`||
+  |`NoFlag`|`0`|protocol.enum.noflag|
+  |`WorldInteraction_Random`|`1`|protocol.enum.worldinteraction_random|
 
 
 
@@ -139,7 +139,7 @@ Bit Flags：<!-- md:samp unsigned varint -->
 ////// define
 if (3)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockExplodeAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`BlockExplodeAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockexplodeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only explodedBlockPermutation: BlockPermutation;
 //// define
 `explodedBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.blockexplodeafterevent.explodedblockpermutation.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Entity | undefined;
 //// define
 `source`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockexplodeafterevent.source.description
 
 
 ////

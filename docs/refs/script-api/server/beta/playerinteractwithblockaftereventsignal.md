@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInteractWithBlockAfterEventSignal`类。
+`PlayerInteractWithBlockAfterEventSignal`类。script_api.@minecraft/server.playerinteractwithblockaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerinteractwithblockaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: PlayerInteractWithBlockAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: Pla
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: Pla
 //// define
 返回值：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: Pla
 
 ///
 
+script_api.@minecraft/server.playerinteractwithblockaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.unsubscribe.return
 
 
 ////

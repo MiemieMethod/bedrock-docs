@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EnchantmentType`类。
+`EnchantmentType`类。script_api.@minecraft/server.enchantmenttype.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.enchantmenttype.id.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only maxLevel: int32;
 //// define
 `maxLevel`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.enchantmenttype.maxlevel.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only maxLevel: int32;
 
 ///
 
+script_api.@minecraft/server.enchantmenttype.constructor.description
+
 ```js
 new constructor(enchantmentType: string): EnchantmentType
 ```
@@ -66,7 +68,7 @@ new constructor(enchantmentType: string): EnchantmentType
 //// define
 `enchantmentType`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.enchantmenttype.enchantmenttype.constructor.description
 
 
 ////
@@ -74,7 +76,7 @@ new constructor(enchantmentType: string): EnchantmentType
 //// define
 返回值：[`EnchantmentType`](./enchantmenttype.md)
 
-- 返回值。
+- script_api.@minecraft/server.enchantmenttype.constructor.return
 
 
 ////

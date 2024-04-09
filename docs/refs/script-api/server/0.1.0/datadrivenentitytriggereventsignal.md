@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataDrivenEntityTriggerEventSignal`类。
+`DataDrivenEntityTriggerEventSignal`类。script_api.mojang-minecraft.datadrivenentitytriggereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.datadrivenentitytriggereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: EntityDataDrivenTriggerEventOptions): (arg: DataDrivenEntityTriggerEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: Entit
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerevent/">DataDrivenEntityTriggerEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: Entit
 //// define
 `options`：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: Entit
 //// define
 返回值：<code>(<a href="../datadrivenentitytriggerevent/">DataDrivenEntityTriggerEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: Entit
 
 ///
 
+script_api.mojang-minecraft.datadrivenentitytriggereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void): void
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerevent/">DataDrivenEntityTriggerEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.unsubscribe.return
 
 
 ////

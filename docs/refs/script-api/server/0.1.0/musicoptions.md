@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MusicOptions`类。
+`MusicOptions`类。script_api.mojang-minecraft.musicoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ fade: float | undefined;
 //// define
 `fade`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.musicoptions.fade.description
 
 
 ////
@@ -42,7 +42,7 @@ loop: boolean | undefined;
 //// define
 `loop`：`boolean`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.musicoptions.loop.description
 
 
 ////
@@ -64,7 +64,7 @@ volume: float | undefined;
 //// define
 `volume`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.musicoptions.volume.description
 
 
 ////
@@ -80,6 +80,8 @@ volume: float | undefined;
 
 ///
 
+script_api.mojang-minecraft.musicoptions.constructor.description
+
 ```js
 new constructor(): MusicOptions
 ```
@@ -88,7 +90,7 @@ new constructor(): MusicOptions
 //// define
 返回值：[`MusicOptions`](./musicoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.musicoptions.constructor.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemEnchantableComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。
+`ItemEnchantableComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.@minecraft/server.itemenchantablecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only slots: EnchantmentSlot[];
 //// define
 `slots`：<code><a href="../enchantmentslot/">EnchantmentSlot</a>[]</code>
 
-- 属性。
+- script_api.@minecraft/server.itemenchantablecomponent.slots.description
 
 
 ////
@@ -49,6 +49,8 @@ read-only slots: EnchantmentSlot[];
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.addenchantment.description
+
 ```js
 addEnchantment(enchantment: Enchantment): void
 ```
@@ -57,7 +59,7 @@ addEnchantment(enchantment: Enchantment): void
 //// define
 `enchantment`：[`Enchantment`](./enchantment.md)
 
-- 参数1。
+- script_api.@minecraft/server.itemenchantablecomponent.enchantment.addenchantment.description
 
 
 ////
@@ -65,7 +67,7 @@ addEnchantment(enchantment: Enchantment): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.addenchantment.return
 
 
 ////
@@ -79,6 +81,8 @@ addEnchantment(enchantment: Enchantment): void
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.addenchantments.description
+
 ```js
 addEnchantments(enchantments: Enchantment[]): void
 ```
@@ -87,7 +91,7 @@ addEnchantments(enchantments: Enchantment[]): void
 //// define
 `enchantments`：<code><a href="../enchantment/">Enchantment</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server.itemenchantablecomponent.enchantments.addenchantments.description
 
 
 ////
@@ -95,7 +99,7 @@ addEnchantments(enchantments: Enchantment[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.addenchantments.return
 
 
 ////
@@ -109,6 +113,8 @@ addEnchantments(enchantments: Enchantment[]): void
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.canaddenchantment.description
+
 ```js
 canAddEnchantment(enchantment: Enchantment): boolean
 ```
@@ -117,7 +123,7 @@ canAddEnchantment(enchantment: Enchantment): boolean
 //// define
 `enchantment`：[`Enchantment`](./enchantment.md)
 
-- 参数1。
+- script_api.@minecraft/server.itemenchantablecomponent.enchantment.canaddenchantment.description
 
 
 ////
@@ -125,7 +131,7 @@ canAddEnchantment(enchantment: Enchantment): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.canaddenchantment.return
 
 
 ////
@@ -139,6 +145,8 @@ canAddEnchantment(enchantment: Enchantment): boolean
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.getenchantment.description
+
 ```js
 getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefined
 ```
@@ -147,7 +155,7 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 //// define
 `enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemenchantablecomponent.enchantmenttype.getenchantment.description
 
 
 ////
@@ -155,7 +163,7 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 //// define
 返回值：[`Enchantment`](./enchantment.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.getenchantment.return
 
 
 ////
@@ -169,6 +177,8 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.getenchantments.description
+
 ```js
 getEnchantments(): Enchantment[]
 ```
@@ -177,7 +187,7 @@ getEnchantments(): Enchantment[]
 //// define
 返回值：<code><a href="../enchantment/">Enchantment</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.getenchantments.return
 
 
 ////
@@ -191,6 +201,8 @@ getEnchantments(): Enchantment[]
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.hasenchantment.description
+
 ```js
 hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 ```
@@ -199,7 +211,7 @@ hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 //// define
 `enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemenchantablecomponent.enchantmenttype.hasenchantment.description
 
 
 ////
@@ -207,7 +219,7 @@ hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.hasenchantment.return
 
 
 ////
@@ -221,6 +233,8 @@ hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.removeallenchantments.description
+
 ```js
 removeAllEnchantments(): void
 ```
@@ -229,7 +243,7 @@ removeAllEnchantments(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.removeallenchantments.return
 
 
 ////
@@ -243,6 +257,8 @@ removeAllEnchantments(): void
 
 ///
 
+script_api.@minecraft/server.itemenchantablecomponent.removeenchantment.description
+
 ```js
 removeEnchantment(enchantmentType: EnchantmentType | string): void
 ```
@@ -251,7 +267,7 @@ removeEnchantment(enchantmentType: EnchantmentType | string): void
 //// define
 `enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemenchantablecomponent.enchantmenttype.removeenchantment.description
 
 
 ////
@@ -259,7 +275,7 @@ removeEnchantment(enchantmentType: EnchantmentType | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemenchantablecomponent.removeenchantment.return
 
 
 ////

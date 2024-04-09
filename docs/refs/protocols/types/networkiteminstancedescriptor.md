@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp NetworkItemInstanceDescriptor -->类型。
+<!-- md:samp NetworkItemInstanceDescriptor -->类型。该类型用于protocol.type.networkiteminstancedescriptor.description
 
 ## 结构
 
@@ -66,7 +66,7 @@ rankdir = LR
 /////// define
 Id：<!-- md:samp varint -->
 
-- 基本类型。Send fixed Id of 0 for inval'id' item
+- 基本类型。protocol.type.networkiteminstancedescriptor.id.descriptionSend fixed Id of 0 for inval'id' item
 
 
 ///////
@@ -84,35 +84,35 @@ Id：<!-- md:samp varint -->
 /////// define
 Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkiteminstancedescriptor.id.description
 
 
 ///////
 /////// define
 Stack size：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkiteminstancedescriptor.stack_size.description
 
 
 ///////
 /////// define
 Aux value：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkiteminstancedescriptor.aux_value.description
 
 
 ///////
 /////// define
 Block Runtime Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkiteminstancedescriptor.block_runtime_id.description
 
 
 ///////
 /////// define
 User Data Buffer：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
+- 特殊类型。protocol.type.networkiteminstancedescriptor.user_data_buffer.descriptionThe @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
 
 
 ///////

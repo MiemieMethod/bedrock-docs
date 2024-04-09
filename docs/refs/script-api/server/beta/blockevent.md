@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockEvent`类。
+`BlockEvent`类。script_api.@minecraft/server.blockevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.blockevent.block.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.blockevent.dimension.description
 
 
 ////

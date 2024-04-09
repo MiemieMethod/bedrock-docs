@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockSignComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockSignComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blocksigncomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only isWaxed: boolean;
 //// define
 `isWaxed`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.blocksigncomponent.iswaxed.description
 
 
 ////
@@ -49,6 +49,8 @@ read-only isWaxed: boolean;
 
 ///
 
+script_api.@minecraft/server.blocksigncomponent.getrawtext.description
+
 ```js
 getRawText(side: SignSide): RawText | undefined
 ```
@@ -57,7 +59,7 @@ getRawText(side: SignSide): RawText | undefined
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- 参数1。
+- script_api.@minecraft/server.blocksigncomponent.side.getrawtext.description
 
 
 ////
@@ -65,7 +67,7 @@ getRawText(side: SignSide): RawText | undefined
 //// define
 返回值：[`RawText`](./rawtext.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.blocksigncomponent.getrawtext.return
 
 
 ////
@@ -79,6 +81,8 @@ getRawText(side: SignSide): RawText | undefined
 
 ///
 
+script_api.@minecraft/server.blocksigncomponent.gettext.description
+
 ```js
 getText(side: SignSide): string | undefined
 ```
@@ -87,7 +91,7 @@ getText(side: SignSide): string | undefined
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- 参数1。
+- script_api.@minecraft/server.blocksigncomponent.side.gettext.description
 
 
 ////
@@ -95,7 +99,7 @@ getText(side: SignSide): string | undefined
 //// define
 返回值：`string`|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.blocksigncomponent.gettext.return
 
 
 ////
@@ -109,6 +113,8 @@ getText(side: SignSide): string | undefined
 
 ///
 
+script_api.@minecraft/server.blocksigncomponent.gettextdyecolor.description
+
 ```js
 getTextDyeColor(side: SignSide): DyeColor | undefined
 ```
@@ -117,7 +123,7 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- 参数1。
+- script_api.@minecraft/server.blocksigncomponent.side.gettextdyecolor.description
 
 
 ////
@@ -125,7 +131,7 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 //// define
 返回值：[`DyeColor`](./dyecolor.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.blocksigncomponent.gettextdyecolor.return
 
 
 ////
@@ -139,6 +145,8 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 
 ///
 
+script_api.@minecraft/server.blocksigncomponent.settext.description
+
 ```js
 setText(message: RawMessage | RawText | string, side: SignSide): void
 ```
@@ -147,7 +155,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 //// define
 `message`：[`RawMessage`](./rawmessage.md)|[`RawText`](./rawtext.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.blocksigncomponent.message.settext.description
 
 
 ////
@@ -155,7 +163,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- 参数2。
+- script_api.@minecraft/server.blocksigncomponent.side.settext.description
 
 
 ////
@@ -163,7 +171,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blocksigncomponent.settext.return
 
 
 ////
@@ -177,6 +185,8 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 
 ///
 
+script_api.@minecraft/server.blocksigncomponent.settextdyecolor.description
+
 ```js
 setTextDyeColor(color?: DyeColor, side: SignSide): void
 ```
@@ -185,7 +195,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 //// define
 `color`：[`DyeColor`](./dyecolor.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.blocksigncomponent.color.settextdyecolor.description
 
 
 ////
@@ -193,7 +203,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- 参数2。
+- script_api.@minecraft/server.blocksigncomponent.side.settextdyecolor.description
 
 
 ////
@@ -201,7 +211,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blocksigncomponent.settextdyecolor.return
 
 
 ////
@@ -215,6 +225,8 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 
 ///
 
+script_api.@minecraft/server.blocksigncomponent.setwaxed.description
+
 ```js
 setWaxed(waxed: boolean): void
 ```
@@ -223,7 +235,7 @@ setWaxed(waxed: boolean): void
 //// define
 `waxed`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server.blocksigncomponent.waxed.setwaxed.description
 
 
 ////
@@ -231,7 +243,7 @@ setWaxed(waxed: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blocksigncomponent.setwaxed.return
 
 
 ////

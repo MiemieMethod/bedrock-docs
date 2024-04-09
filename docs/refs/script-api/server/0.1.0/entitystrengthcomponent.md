@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityStrengthComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityStrengthComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitystrengthcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only max: int32;
 //// define
 `max`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entitystrengthcomponent.max.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only value: int32;
 //// define
 `value`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entitystrengthcomponent.value.description
 
 
 ////

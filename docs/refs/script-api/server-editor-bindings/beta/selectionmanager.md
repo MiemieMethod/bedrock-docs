@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SelectionManager`类。
+`SelectionManager`类。script_api.@minecraft/server-editor-bindings.selectionmanager.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only selection: Selection;
 //// define
 `selection`：[`Selection`](./selection.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.selectionmanager.selection.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only selection: Selection;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selectionmanager.create.description
+
 ```js
 create(): Selection
 ```
@@ -44,7 +46,7 @@ create(): Selection
 //// define
 返回值：[`Selection`](./selection.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selectionmanager.create.return
 
 
 ////

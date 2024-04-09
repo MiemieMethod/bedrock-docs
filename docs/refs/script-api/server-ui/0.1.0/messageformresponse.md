@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MessageFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。
+`MessageFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。script_api.mojang-minecraft-ui.messageformresponse.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only selection: uint8 | undefined;
 //// define
 `selection`：`uint8`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft-ui.messageformresponse.selection.description
 
 
 ////

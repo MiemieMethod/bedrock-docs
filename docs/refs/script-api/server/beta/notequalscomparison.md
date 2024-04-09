@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`NotEqualsComparison`接口。
+`NotEqualsComparison`接口。script_api.@minecraft/server.notequalscomparison.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ notEquals: boolean | float | string;
 //// define
 `notEquals`：`boolean`|`float`|`string`
 
-- 属性。
+- script_api.@minecraft/server.notequalscomparison.notequals.description
 
 
 ////

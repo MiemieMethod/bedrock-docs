@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlaytestGameOptions`接口。
+`PlaytestGameOptions`接口。script_api.@minecraft/server-editor-bindings.playtestgameoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ alwaysDay: boolean | undefined;
 //// define
 `alwaysDay`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.alwaysday.description
 
 
 ////
@@ -42,7 +42,7 @@ difficulty: Difficulty | undefined;
 //// define
 `difficulty`：[`Difficulty`](../../server/beta/difficulty.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.difficulty.description
 
 
 ////
@@ -64,7 +64,7 @@ disableWeather: boolean | undefined;
 //// define
 `disableWeather`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.disableweather.description
 
 
 ////
@@ -86,7 +86,7 @@ gameMode: GameMode | undefined;
 //// define
 `gameMode`：[`GameMode`](../../server/beta/gamemode.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.gamemode.description
 
 
 ////
@@ -108,7 +108,7 @@ showCoordinates: boolean | undefined;
 //// define
 `showCoordinates`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.showcoordinates.description
 
 
 ////
@@ -130,7 +130,7 @@ spawnPosition: Vector3 | undefined;
 //// define
 `spawnPosition`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.spawnposition.description
 
 
 ////
@@ -152,7 +152,7 @@ timeOfDay: int32 | undefined;
 //// define
 `timeOfDay`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.timeofday.description
 
 
 ////
@@ -174,7 +174,7 @@ weather: int32 | undefined;
 //// define
 `weather`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.weather.description
 
 
 ////

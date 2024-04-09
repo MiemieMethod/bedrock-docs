@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WidgetManager`类。
+`WidgetManager`类。script_api.@minecraft/server-editor-bindings.widgetmanager.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.widgetmanager.creategroup.description
+
 ```js
 createGroup(options?: WidgetGroupCreateOptions): WidgetGroup
 ```
@@ -20,7 +22,7 @@ createGroup(options?: WidgetGroupCreateOptions): WidgetGroup
 //// define
 `options`：[`WidgetGroupCreateOptions`](./widgetgroupcreateoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.widgetmanager.options.creategroup.description
 
 
 ////
@@ -28,7 +30,7 @@ createGroup(options?: WidgetGroupCreateOptions): WidgetGroup
 //// define
 返回值：[`WidgetGroup`](./widgetgroup.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.widgetmanager.creategroup.return
 
 
 ////
@@ -42,6 +44,8 @@ createGroup(options?: WidgetGroupCreateOptions): WidgetGroup
 
 ///
 
+script_api.@minecraft/server-editor-bindings.widgetmanager.deletegroup.description
+
 ```js
 deleteGroup(groupToDelete: WidgetGroup): void
 ```
@@ -50,7 +54,7 @@ deleteGroup(groupToDelete: WidgetGroup): void
 //// define
 `groupToDelete`：[`WidgetGroup`](./widgetgroup.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.widgetmanager.grouptodelete.deletegroup.description
 
 
 ////
@@ -58,7 +62,7 @@ deleteGroup(groupToDelete: WidgetGroup): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.widgetmanager.deletegroup.return
 
 
 ////

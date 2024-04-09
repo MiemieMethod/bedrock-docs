@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityDataDrivenTriggerEventOptions`接口。
+`EntityDataDrivenTriggerEventOptions`接口。script_api.@minecraft/server.entitydatadriventriggereventoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ entities: Entity[] | undefined;
 //// define
 `entities`：<code><a href="../entity/">Entity</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entitydatadriventriggereventoptions.entities.description
 
 
 ////
@@ -42,7 +42,7 @@ entityTypes: string[] | undefined;
 //// define
 `entityTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entitydatadriventriggereventoptions.entitytypes.description
 
 
 ////
@@ -64,7 +64,7 @@ eventTypes: string[] | undefined;
 //// define
 `eventTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entitydatadriventriggereventoptions.eventtypes.description
 
 
 ////

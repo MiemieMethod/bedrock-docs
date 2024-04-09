@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PositionTrackingDBServerBroadcastPacket -->数据包，数字ID是`153`。
+<!-- md:samp PositionTrackingDBServerBroadcastPacket -->数据包，数字ID是`153`。该数据包用于protocol.packet.positiontrackingdbserverbroadcastpacket.description
 
 ## 结构
 
@@ -40,13 +40,13 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.positiontrackingdbserverbroadcastpacket.action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Update`|`0`||
-  |`Destroy`|`1`||
-  |`NotFound`|`2`||
+  |`Update`|`0`|protocol.enum.update|
+  |`Destroy`|`1`|protocol.enum.destroy|
+  |`NotFound`|`2`|protocol.enum.notfound|
 
 
 
@@ -54,14 +54,14 @@ Action：<!-- md:samp byte -->
 //// define
 Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.positiontrackingdbserverbroadcastpacket.id.description
 
 
 ////
 //// define
 Position tracking data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。CompoundTag for record key:version (byte)'id' (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)
+- 特殊类型。protocol.packet.positiontrackingdbserverbroadcastpacket.position_tracking_data.descriptionCompoundTag for record key:version (byte)'id' (string)positions (list of (int, int, int))dimension (int)status (byte, record status enum)
 
 
 ////

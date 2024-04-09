@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SyncedPlayerMovementSettings -->类型。
+<!-- md:samp SyncedPlayerMovementSettings -->类型。该类型用于protocol.type.syncedplayermovementsettings.description
 
 ## 结构
 
@@ -40,13 +40,13 @@ rankdir = LR
 //// define
 Authority Mode：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.syncedplayermovementsettings.authority_mode.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`ClientAuthoritative`|`0`||
-  |`ServerAuthoritative`|`1`||
-  |`ServerAuthoritativeWithRewind`|`2`||
+  |`ClientAuthoritative`|`0`|protocol.enum.clientauthoritative|
+  |`ServerAuthoritative`|`1`|protocol.enum.serverauthoritative|
+  |`ServerAuthoritativeWithRewind`|`2`|protocol.enum.serverauthoritativewithrewind|
 
 
 
@@ -54,14 +54,14 @@ Authority Mode：<!-- md:samp byte -->
 //// define
 Rewind History Size：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.syncedplayermovementsettings.rewind_history_size.description
 
 
 ////
 //// define
 Server Authoratative Block Breaking：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.syncedplayermovementsettings.server_authoratative_block_breaking.description
 
 
 ////

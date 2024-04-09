@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHealthChangedAfterEvent`类。
+`EntityHealthChangedAfterEvent`类。script_api.@minecraft/server.entityhealthchangedafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhealthchangedafterevent.entity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only newValue: float;
 //// define
 `newValue`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityhealthchangedafterevent.newvalue.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only oldValue: float;
 //// define
 `oldValue`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityhealthchangedafterevent.oldvalue.description
 
 
 ////

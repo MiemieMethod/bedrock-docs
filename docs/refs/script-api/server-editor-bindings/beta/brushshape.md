@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BrushShape`类。
+`BrushShape`类。script_api.@minecraft/server-editor-bindings.brushshape.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only getSettingsUIElements: () => SettingsUIElement[];
 //// define
 `getSettingsUIElements`：<code>() =&gt; SettingsUIElement[]</code>
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.brushshape.getsettingsuielements.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only icon: string;
 //// define
 `icon`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.brushshape.icon.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.brushshape.name.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only rebuild: () => CompoundBlockVolume;
 //// define
 `rebuild`：<code>() =&gt; <a href="../../../server/beta/compoundblockvolume/">CompoundBlockVolume</a></code>
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.brushshape.rebuild.description
 
 
 ////
@@ -102,6 +102,8 @@ read-only rebuild: () => CompoundBlockVolume;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.brushshape.constructor.description
+
 ```js
 new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, getSettingsUI: () => SettingsUIElement[]): BrushShape
 ```
@@ -110,7 +112,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.brushshape.name.constructor.description
 
 
 ////
@@ -118,7 +120,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `icon`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.brushshape.icon.constructor.description
 
 
 ////
@@ -126,7 +128,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `rebuild`：<code>() =&gt; <a href="../../../server/beta/compoundblockvolume/">CompoundBlockVolume</a></code>
 
-- 参数3。
+- script_api.@minecraft/server-editor-bindings.brushshape.rebuild.constructor.description
 
 
 ////
@@ -134,7 +136,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `getSettingsUI`：<code>() =&gt; SettingsUIElement[]</code>
 
-- 参数4。
+- script_api.@minecraft/server-editor-bindings.brushshape.getsettingsui.constructor.description
 
 
 ////
@@ -142,7 +144,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 返回值：[`BrushShape`](./brushshape.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.brushshape.constructor.return
 
 
 ////

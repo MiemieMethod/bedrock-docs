@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldInitializeBeforeEventSignal`类。
+`WorldInitializeBeforeEventSignal`类。script_api.@minecraft/server.worldinitializebeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.worldinitializebeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: WorldInitializeBeforeEvent) => void): (arg: WorldInitializeBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: WorldInitializeBeforeEvent) => void): (arg: WorldIniti
 //// define
 `callback`：<code>(<a href="../worldinitializebeforeevent/">WorldInitializeBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.worldinitializebeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: WorldInitializeBeforeEvent) => void): (arg: WorldIniti
 //// define
 返回值：<code>(<a href="../worldinitializebeforeevent/">WorldInitializeBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.worldinitializebeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: WorldInitializeBeforeEvent) => void): (arg: WorldIniti
 
 ///
 
+script_api.@minecraft/server.worldinitializebeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: WorldInitializeBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: WorldInitializeBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../worldinitializebeforeevent/">WorldInitializeBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.worldinitializebeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: WorldInitializeBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.worldinitializebeforeeventsignal.unsubscribe.return
 
 
 ////

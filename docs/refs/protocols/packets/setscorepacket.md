@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetScorePacket -->数据包，数字ID是`108`。
+<!-- md:samp SetScorePacket -->数据包，数字ID是`108`。该数据包用于protocol.packet.setscorepacket.description
 
 ## 结构
 
@@ -92,12 +92,12 @@ rankdir = LR
 //// define
 Score Packet Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setscorepacket.score_packet_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Change`|`0`||
-  |`Remove`|`1`||
+  |`Change`|`0`|protocol.enum.change|
+  |`Remove`|`1`|protocol.enum.remove|
 
 
 
@@ -110,7 +110,7 @@ Score Packet Type：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.setscorepacket.数组大小.description
 
 
 /////
@@ -122,21 +122,21 @@ Score Packet Type：<!-- md:samp byte -->
 ////// define
 Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setscorepacket.id.description
 
 
 //////
 ////// define
 Objective Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setscorepacket.objective_name.description
 
 
 //////
 ////// define
 Score Value：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.setscorepacket.score_value.description
 
 
 //////
@@ -146,7 +146,7 @@ Score Value：<!-- md:samp int -->
 //////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 ////////
@@ -170,14 +170,14 @@ if (0)：<!-- md:samp [No Data] -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setscorepacket.identity_definition_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`Player`|`1`||
-  |`Entity`|`2`||
-  |`FakePlayer`|`3`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Player`|`1`|protocol.enum.player|
+  |`Entity`|`2`|protocol.enum.entity|
+  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
 
 
 
@@ -185,7 +185,7 @@ Identity Definition Type：<!-- md:samp byte -->
 //////////// define
 Player Unique Id：<!-- md:samp varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.setscorepacket.player_unique_id.description
 
 
 ////////////
@@ -203,14 +203,14 @@ Player Unique Id：<!-- md:samp varint64 -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setscorepacket.identity_definition_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`Player`|`1`||
-  |`Entity`|`2`||
-  |`FakePlayer`|`3`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Player`|`1`|protocol.enum.player|
+  |`Entity`|`2`|protocol.enum.entity|
+  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
 
 
 
@@ -218,7 +218,7 @@ Identity Definition Type：<!-- md:samp byte -->
 //////////// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setscorepacket.actor_id.description
 
 
 ////////////
@@ -236,14 +236,14 @@ Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setscorepacket.identity_definition_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`Player`|`1`||
-  |`Entity`|`2`||
-  |`FakePlayer`|`3`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Player`|`1`|protocol.enum.player|
+  |`Entity`|`2`|protocol.enum.entity|
+  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
 
 
 
@@ -251,7 +251,7 @@ Identity Definition Type：<!-- md:samp byte -->
 //////////// define
 Fake Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setscorepacket.fake_player_name.description
 
 
 ////////////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CompressedBiomeDefinitionList -->类型，数字ID是`301`。
+<!-- md:samp CompressedBiomeDefinitionList -->类型，数字ID是`301`。该类型用于protocol.packet.compressedbiomedefinitionlist.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Compressed BiomeData：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.compressedbiomedefinitionlist.compressed_biomedata.description
 
 
 ////

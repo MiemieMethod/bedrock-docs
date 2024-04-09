@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CodeBuilderSourcePacket -->数据包，数字ID是`178`。
+<!-- md:samp CodeBuilderSourcePacket -->数据包，数字ID是`178`。该数据包用于protocol.packet.codebuildersourcepacket.description
 
 ## 结构
 
@@ -40,14 +40,14 @@ rankdir = LR
 //// define
 Operation：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.codebuildersourcepacket.operation.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Get`|`1`||
-  |`Set`|`2`||
-  |`Reset`|`3`||
+  |`None`|`0`|无|
+  |`Get`|`1`|protocol.enum.get|
+  |`Set`|`2`|protocol.enum.set|
+  |`Reset`|`3`|protocol.enum.reset|
 
 
 
@@ -55,13 +55,13 @@ Operation：<!-- md:samp byte -->
 //// define
 Category：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.codebuildersourcepacket.category.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`CodeStatus`|`1`||
-  |`Instantiation`|`2`||
+  |`None`|`0`|无|
+  |`CodeStatus`|`1`|protocol.enum.codestatus|
+  |`Instantiation`|`2`|protocol.enum.instantiation|
 
 
 
@@ -69,7 +69,7 @@ Category：<!-- md:samp byte -->
 //// define
 Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.codebuildersourcepacket.value.description
 
 
 ////

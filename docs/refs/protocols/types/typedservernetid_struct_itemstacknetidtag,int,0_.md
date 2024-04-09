@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp TypedServerNetId&lt;struct ItemStackNetIdTag,int,0&gt; -->类型。
+<!-- md:samp TypedServerNetId&lt;struct ItemStackNetIdTag,int,0&gt; -->类型。该类型用于protocol.type.typedservernetid&lt;struct_itemstacknetidtag,int,0&gt;.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.typedservernetid&lt;struct_itemstacknetidtag,int,0&gt;.raw_id.description
 
 
 ////

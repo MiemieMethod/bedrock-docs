@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PassengerJumpPacket -->数据包，数字ID是`20`。
+<!-- md:samp PassengerJumpPacket -->数据包，数字ID是`20`。该数据包用于protocol.packet.passengerjumppacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Jump Scale：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.passengerjumppacket.jump_scale.description
 
 
 ////

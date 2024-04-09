@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MapInfoRequestPacket -->数据包，数字ID是`68`。
+<!-- md:samp MapInfoRequestPacket -->数据包，数字ID是`68`。该数据包用于protocol.packet.mapinforequestpacket.description
 
 ## 结构
 
@@ -56,14 +56,14 @@ rankdir = LR
 //// define
 Map Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mapinforequestpacket.map_unique_id.description
 
 
 ////
 //// define
 Client Pixels List Size：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mapinforequestpacket.client_pixels_list_size.description
 
 
 ////
@@ -73,7 +73,7 @@ Client Pixels List Size：<!-- md:samp unsigned int -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -99,14 +99,14 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 pixel：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mapinforequestpacket.pixel.description
 
 
 /////////
 ///////// define
 index：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mapinforequestpacket.index.description
 
 
 /////////

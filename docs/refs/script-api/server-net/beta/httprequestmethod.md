@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`HttpRequestMethod`枚举。
+`HttpRequestMethod`枚举。script_api.@minecraft/server-net.httprequestmethod.description
 
 ## 常量
 

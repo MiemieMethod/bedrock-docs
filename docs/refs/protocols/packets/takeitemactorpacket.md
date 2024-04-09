@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp TakeItemActorPacket -->数据包，数字ID是`17`。
+<!-- md:samp TakeItemActorPacket -->数据包，数字ID是`17`。该数据包用于protocol.packet.takeitemactorpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Item Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.takeitemactorpacket.item_runtime_id.description
 
 
 ////
 //// define
 Actor Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.takeitemactorpacket.actor_runtime_id.description
 
 
 ////

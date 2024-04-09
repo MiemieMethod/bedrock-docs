@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseBeforeEvent`类，扩展自[`ItemUseAfterEvent`](./itemuseafterevent.md)。
+`ItemUseBeforeEvent`类，扩展自[`ItemUseAfterEvent`](./itemuseafterevent.md)。script_api.@minecraft/server.itemusebeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.itemusebeforeevent.cancel.description
 
 
 ////

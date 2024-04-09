@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RemoveObjectivePacket -->数据包，数字ID是`106`。
+<!-- md:samp RemoveObjectivePacket -->数据包，数字ID是`106`。该数据包用于protocol.packet.removeobjectivepacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Objective Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.removeobjectivepacket.objective_name.description
 
 
 ////

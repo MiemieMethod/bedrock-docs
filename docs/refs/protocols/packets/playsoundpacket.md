@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlaySoundPacket -->数据包，数字ID是`86`。
+<!-- md:samp PlaySoundPacket -->数据包，数字ID是`86`。该数据包用于protocol.packet.playsoundpacket.description
 
 ## 结构
 
@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playsoundpacket.name.description
 
 
 ////
 //// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playsoundpacket.position.description
 
 
 ////
 //// define
 Volume：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playsoundpacket.volume.description
 
 
 ////
 //// define
 Pitch：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playsoundpacket.pitch.description
 
 
 ////

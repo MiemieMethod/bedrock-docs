@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/codebuilder`命令commands.codebuilder.description
+`/codebuilder`命令command.codebuilder.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,28 +16,30 @@
 ```
 
 //// html | div.result
+command.codebuilder.1.description
+
 ///// define
 `navigate`：<!-- md:samp CodeBuilderNavigateAction -->
 
-- 枚举类型。单值枚举，请直接使用`navigate`。
+- 枚举类型。command.enum.codebuildernavigateaction.description单值枚举，请直接使用`navigate`。
 
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.player.description
 
 `openCodeBuilderWindow`：<!-- md:samp Boolean -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.boolean.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`true`||
-  |`false`||
+  |`true`|是|
+  |`false`|否|
 
 
 `URL`：<!-- md:samp text -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.URL.description
 
 
 /////
@@ -52,14 +54,16 @@
 ```
 
 //// html | div.result
+command.codebuilder.2.description
+
 ///// define
 `reset`：<!-- md:samp CodeBuilderResetAction -->
 
-- 枚举类型。单值枚举，请直接使用`reset`。
+- 枚举类型。command.enum.codebuilderresetaction.description单值枚举，请直接使用`reset`。
 
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.player.description
 
 
 /////
@@ -74,22 +78,24 @@
 ```
 
 //// html | div.result
+command.codebuilder.3.description
+
 ///// define
 `subscribe`：<!-- md:samp CodeBuilderSubscribeAction -->
 
-- 枚举类型。单值枚举，请直接使用`subscribe`。
+- 枚举类型。command.enum.codebuildersubscribeaction.description单值枚举，请直接使用`subscribe`。
 
 `type`：<!-- md:samp CodeBuilderEventTypeScoreboard -->
 
-- 枚举类型。单值枚举，请直接使用`scoreboard`。
+- 枚举类型。command.enum.codebuildereventtypescoreboard.description单值枚举，请直接使用`scoreboard`。
 
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.player.description
 
 `objective`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.objective.description
 
 
 /////
@@ -104,22 +110,24 @@
 ```
 
 //// html | div.result
+command.codebuilder.4.description
+
 ///// define
 `unsubscribe`：<!-- md:samp CodeBuilderUnsubscribeAction -->
 
-- 枚举类型。单值枚举，请直接使用`unsubscribe`。
+- 枚举类型。command.enum.codebuilderunsubscribeaction.description单值枚举，请直接使用`unsubscribe`。
 
 `type`：<!-- md:samp CodeBuilderEventTypeScoreboard -->
 
-- 枚举类型。单值枚举，请直接使用`scoreboard`。
+- 枚举类型。command.enum.codebuildereventtypescoreboard.description单值枚举，请直接使用`scoreboard`。
 
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.player.description
 
 `objective`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.objective.description
 
 
 /////
@@ -134,35 +142,37 @@
 ```
 
 //// html | div.result
+command.codebuilder.5.description
+
 ///// define
 `code`：<!-- md:samp CodeBuilderCodeStateCategory -->
 
-- 枚举类型。单值枚举，请直接使用`code`。
+- 枚举类型。command.enum.codebuildercodestatecategory.description单值枚举，请直接使用`code`。
 
 `check`：<!-- md:samp CodeBuilderCheckAction -->
 
-- 枚举类型。单值枚举，请直接使用`check`。
+- 枚举类型。command.enum.codebuildercheckaction.description单值枚举，请直接使用`check`。
 
 `codeStatus`：<!-- md:samp CodeBuilderCodeStatusProperty -->
 
-- 枚举类型。单值枚举，请直接使用`code_status`。
+- 枚举类型。command.enum.codebuildercodestatusproperty.description单值枚举，请直接使用`code_status`。
 
 `status`：<!-- md:samp CodeBuilderCodeStatus -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.codebuildercodestatus.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`not_started`||
-  |`in_progress`||
-  |`paused`||
-  |`error`||
-  |`succeeded`||
+  |`not_started`|command.enum.codebuildercodestatus.not_started|
+  |`in_progress`|command.enum.codebuildercodestatus.in_progress|
+  |`paused`|command.enum.codebuildercodestatus.paused|
+  |`error`|command.enum.codebuildercodestatus.error|
+  |`succeeded`|command.enum.codebuildercodestatus.succeeded|
 
 
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.player.description
 
 
 /////
@@ -177,25 +187,27 @@
 ```
 
 //// html | div.result
+command.codebuilder.6.description
+
 ///// define
 `runtime`：<!-- md:samp CodeBuilderRuntimeAction -->
 
-- 枚举类型。单值枚举，请直接使用`runtime`。
+- 枚举类型。command.enum.codebuilderruntimeaction.description单值枚举，请直接使用`runtime`。
 
 `action`：<!-- md:samp CodeBuilderRuntime -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.codebuilderruntime.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`stop`||
-  |`start`||
-  |`pause`||
+  |`stop`|command.enum.codebuilderruntime.stop|
+  |`start`|command.enum.codebuilderruntime.start|
+  |`pause`|command.enum.codebuilderruntime.pause|
 
 
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.codebuilder.player.description
 
 
 /////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TripWireTripAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`TripWireTripAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.tripwiretripafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only isPowered: boolean;
 //// define
 `isPowered`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.tripwiretripafterevent.ispowered.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only sources: Entity[];
 //// define
 `sources`：<code><a href="../entity/">Entity</a>[]</code>
 
-- 属性。
+- script_api.@minecraft/server.tripwiretripafterevent.sources.description
 
 
 ////

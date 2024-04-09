@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Structure`类。
+`Structure`类。script_api.@minecraft/server.structure.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.structure.id.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only size: Vector3;
 //// define
 `size`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.structure.size.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only size: Vector3;
 
 ///
 
+script_api.@minecraft/server.structure.getblockpermutation.description
+
 ```js
 getBlockPermutation(location: Vector3): BlockPermutation | undefined
 ```
@@ -66,7 +68,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.structure.location.getblockpermutation.description
 
 
 ////
@@ -74,7 +76,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 //// define
 返回值：[`BlockPermutation`](./blockpermutation.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.structure.getblockpermutation.return
 
 
 ////
@@ -88,6 +90,8 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 
 ///
 
+script_api.@minecraft/server.structure.getiswaterlogged.description
+
 ```js
 getIsWaterlogged(location: Vector3): boolean
 ```
@@ -96,7 +100,7 @@ getIsWaterlogged(location: Vector3): boolean
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.structure.location.getiswaterlogged.description
 
 
 ////
@@ -104,7 +108,7 @@ getIsWaterlogged(location: Vector3): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.structure.getiswaterlogged.return
 
 
 ////
@@ -118,6 +122,8 @@ getIsWaterlogged(location: Vector3): boolean
 
 ///
 
+script_api.@minecraft/server.structure.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -126,7 +132,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.structure.isvalid.return
 
 
 ////

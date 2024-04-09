@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerLeaveEventSignal`类。
+`PlayerLeaveEventSignal`类。script_api.mojang-minecraft.playerleaveeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.playerleaveeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerLeaveEvent) => void): (arg: PlayerLeaveEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerLeaveEvent) => void): (arg: PlayerLeaveEvent) =>
 //// define
 `callback`：<code>(<a href="../playerleaveevent/">PlayerLeaveEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.playerleaveeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerLeaveEvent) => void): (arg: PlayerLeaveEvent) =>
 //// define
 返回值：<code>(<a href="../playerleaveevent/">PlayerLeaveEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.playerleaveeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerLeaveEvent) => void): (arg: PlayerLeaveEvent) =>
 
 ///
 
+script_api.mojang-minecraft.playerleaveeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerLeaveEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerLeaveEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerleaveevent/">PlayerLeaveEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.playerleaveeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerLeaveEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.playerleaveeventsignal.unsubscribe.return
 
 
 ////

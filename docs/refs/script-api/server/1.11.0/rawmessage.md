@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`RawMessage`接口。
+`RawMessage`接口。script_api.@minecraft/server.rawmessage.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ rawtext: RawMessage[] | undefined;
 //// define
 `rawtext`：<code><a href="../rawmessage/">RawMessage</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawmessage.rawtext.description
 
 
 ////
@@ -42,7 +42,7 @@ score: RawMessageScore | undefined;
 //// define
 `score`：[`RawMessageScore`](./rawmessagescore.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawmessage.score.description
 
 
 ////
@@ -64,7 +64,7 @@ text: string | undefined;
 //// define
 `text`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawmessage.text.description
 
 
 ////
@@ -86,7 +86,7 @@ translate: string | undefined;
 //// define
 `translate`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawmessage.translate.description
 
 
 ////
@@ -108,7 +108,7 @@ with: string[] | RawMessage | undefined;
 //// define
 `with`：`string[]`|[`RawMessage`](./rawmessage.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawmessage.with.description
 
 
 ////

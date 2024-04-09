@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerGameModeChangeAfterEventSignal`类。
+`PlayerGameModeChangeAfterEventSignal`类。script_api.@minecraft/server.playergamemodechangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playergamemodechangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): (arg: PlayerGameModeChangeAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): (arg: Player
 //// define
 `callback`：<code>(<a href="../playergamemodechangeafterevent/">PlayerGameModeChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playergamemodechangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): (arg: Player
 //// define
 返回值：<code>(<a href="../playergamemodechangeafterevent/">PlayerGameModeChangeAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playergamemodechangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): (arg: Player
 
 ///
 
+script_api.@minecraft/server.playergamemodechangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playergamemodechangeafterevent/">PlayerGameModeChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playergamemodechangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerGameModeChangeAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playergamemodechangeaftereventsignal.unsubscribe.return
 
 
 ////

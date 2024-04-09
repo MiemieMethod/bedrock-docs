@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Extension`类。
+`Extension`类。script_api.@minecraft/server-editor-bindings.extension.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only defaultToolGroupId: string;
 //// define
 `defaultToolGroupId`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extension.defaulttoolgroupid.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only description: string;
 //// define
 `description`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extension.description.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extension.name.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only notes: string;
 //// define
 `notes`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extension.notes.description
 
 
 ////

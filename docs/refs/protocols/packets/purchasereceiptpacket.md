@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PurchaseReceiptPacket -->数据包，数字ID是`92`。
+<!-- md:samp PurchaseReceiptPacket -->数据包，数字ID是`92`。该数据包用于protocol.packet.purchasereceiptpacket.description
 
 ## 结构
 
@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.purchasereceiptpacket.数组大小.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Proof of Purchase：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.purchasereceiptpacket.proof_of_purchase.description
 
 
 //////

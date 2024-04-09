@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityIsStunnedComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityIsStunnedComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityisstunnedcomponent.description
 
 ## 常量
 

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MapItemTrackedActor::UniqueId -->类型。
+<!-- md:samp MapItemTrackedActor::UniqueId -->类型。该类型用于protocol.type.mapitemtrackedactor::uniqueid.description
 
 ## 结构
 
@@ -50,14 +50,14 @@ rankdir = LR
 //// define
 Type：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.mapitemtrackedactor::uniqueid.type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Entity`|`0`||
-  |`BlockEntity`|`1`||
-  |`Other`|`2`||
-  |`COUNT`|`3`||
+  |`Entity`|`0`|protocol.enum.entity|
+  |`BlockEntity`|`1`|protocol.enum.blockentity|
+  |`Other`|`2`|protocol.enum.other|
+  |`COUNT`|`3`|protocol.enum.count|
 
 
 
@@ -73,7 +73,7 @@ Type：<!-- md:samp int -->
 /////// define
 Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.mapitemtrackedactor::uniqueid.unique_id.description
 
 
 ///////
@@ -91,7 +91,7 @@ Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 /////// define
 Block position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.mapitemtrackedactor::uniqueid.block_position.description
 
 
 ///////
@@ -104,7 +104,7 @@ Block position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockpo
 ////// define
 if (2)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////

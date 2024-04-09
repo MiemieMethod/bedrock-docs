@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameTestError`错误，扩展自`Error`。
+`GameTestError`错误，扩展自`Error`。script_api.@minecraft/server-gametest.gametesterror.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only context: GameTestErrorContext | undefined;
 //// define
 `context`：[`GameTestErrorContext`](./gametesterrorcontext.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-gametest.gametesterror.context.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only messageParameters: string[];
 //// define
 `messageParameters`：`string[]`
 
-- 属性。
+- script_api.@minecraft/server-gametest.gametesterror.messageparameters.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only type: GameTestErrorType;
 //// define
 `type`：[`GameTestErrorType`](./gametesterrortype.md)
 
-- 属性。
+- script_api.@minecraft/server-gametest.gametesterror.type.description
 
 
 ////

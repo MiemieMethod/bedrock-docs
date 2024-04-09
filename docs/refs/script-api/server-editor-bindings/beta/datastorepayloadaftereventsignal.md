@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataStorePayloadAfterEventSignal`类。
+`DataStorePayloadAfterEventSignal`类。script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: DataStorePayloadAfterEvent) => void): (arg: DataStorePayloadAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: DataStorePayloadAfterEvent) => void): (arg: DataStoreP
 //// define
 `callback`：<code>(<a href="../datastorepayloadafterevent/">DataStorePayloadAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: DataStorePayloadAfterEvent) => void): (arg: DataStoreP
 //// define
 返回值：<code>(<a href="../datastorepayloadafterevent/">DataStorePayloadAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: DataStorePayloadAfterEvent) => void): (arg: DataStoreP
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: DataStorePayloadAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: DataStorePayloadAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../datastorepayloadafterevent/">DataStorePayloadAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: DataStorePayloadAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.unsubscribe.return
 
 
 ////

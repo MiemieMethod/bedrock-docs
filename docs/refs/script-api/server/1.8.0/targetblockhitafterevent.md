@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TargetBlockHitAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`TargetBlockHitAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.targetblockhitafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only hitVector: Vector3;
 //// define
 `hitVector`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.targetblockhitafterevent.hitvector.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only previousRedstonePower: int32;
 //// define
 `previousRedstonePower`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.targetblockhitafterevent.previousredstonepower.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only redstonePower: int32;
 //// define
 `redstonePower`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.targetblockhitafterevent.redstonepower.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only source: Entity;
 //// define
 `source`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.targetblockhitafterevent.source.description
 
 
 ////

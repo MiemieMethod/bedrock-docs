@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Structure`类。
+`Structure`类。script_api.@minecraft/server.structure.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.structure.id.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only size: Vector3;
 //// define
 `size`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.structure.size.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only size: Vector3;
 
 ///
 
+script_api.@minecraft/server.structure.getblockpermutation.description
+
 ```js
 getBlockPermutation(location: Vector3): BlockPermutation | undefined
 ```
@@ -66,7 +68,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.structure.location.getblockpermutation.description
 
 
 ////
@@ -74,7 +76,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 //// define
 返回值：[`BlockPermutation`](./blockpermutation.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.structure.getblockpermutation.return
 
 
 ////
@@ -88,6 +90,8 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 
 ///
 
+script_api.@minecraft/server.structure.getiswaterlogged.description
+
 ```js
 getIsWaterlogged(location: Vector3): boolean
 ```
@@ -96,7 +100,7 @@ getIsWaterlogged(location: Vector3): boolean
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.structure.location.getiswaterlogged.description
 
 
 ////
@@ -104,7 +108,7 @@ getIsWaterlogged(location: Vector3): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.structure.getiswaterlogged.return
 
 
 ////
@@ -118,6 +122,8 @@ getIsWaterlogged(location: Vector3): boolean
 
 ///
 
+script_api.@minecraft/server.structure.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -126,7 +132,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.structure.isvalid.return
 
 
 ////
@@ -140,6 +146,8 @@ isValid(): boolean
 
 ///
 
+script_api.@minecraft/server.structure.saveas.description
+
 ```js
 saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 ```
@@ -148,7 +156,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.structure.identifier.saveas.description
 
 
 ////
@@ -156,7 +164,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 //// define
 `saveMode`：[`StructureSaveMode`](./structuresavemode.md)
 
-- 参数2。
+- script_api.@minecraft/server.structure.savemode.saveas.description
 
 
 ////
@@ -164,7 +172,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 //// define
 返回值：[`Structure`](./structure.md)
 
-- 返回值。
+- script_api.@minecraft/server.structure.saveas.return
 
 
 ////
@@ -178,6 +186,8 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 
 ///
 
+script_api.@minecraft/server.structure.savetoworld.description
+
 ```js
 saveToWorld(): void
 ```
@@ -186,7 +196,7 @@ saveToWorld(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.structure.savetoworld.return
 
 
 ////
@@ -200,6 +210,8 @@ saveToWorld(): void
 
 ///
 
+script_api.@minecraft/server.structure.setblockpermutation.description
+
 ```js
 setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, waterlogged: boolean): void
 ```
@@ -208,7 +220,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.structure.location.setblockpermutation.description
 
 
 ////
@@ -216,7 +228,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 //// define
 `blockPermutation`：[`BlockPermutation`](./blockpermutation.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.structure.blockpermutation.setblockpermutation.description
 
 
 ////
@@ -224,7 +236,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 //// define
 `waterlogged`：`boolean`
 
-- 参数3。
+- script_api.@minecraft/server.structure.waterlogged.setblockpermutation.description
 
 
 ////
@@ -232,7 +244,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.structure.setblockpermutation.return
 
 
 ////

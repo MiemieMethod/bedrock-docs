@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CommandResult`类。
+`CommandResult`类。script_api.@minecraft/server.commandresult.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only successCount: int32;
 //// define
 `successCount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.commandresult.successcount.description
 
 
 ////

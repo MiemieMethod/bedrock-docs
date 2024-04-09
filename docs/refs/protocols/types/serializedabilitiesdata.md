@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SerializedAbilitiesData -->类型。
+<!-- md:samp SerializedAbilitiesData -->类型。该类型用于protocol.type.serializedabilitiesdata.description
 
 ## 结构
 
@@ -52,21 +52,21 @@ rankdir = LR
 //// define
 TargetPlayer.rawID：<!-- md:samp int64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedabilitiesdata.targetplayer.rawid.description
 
 
 ////
 //// define
 mPlayerPermissions：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.serializedabilitiesdata.mplayerpermissions.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Visitor`|`0`||
-  |`Member`|`1`||
-  |`Operator`|`2`||
-  |`Custom`|`3`||
+  |`Visitor`|`0`|protocol.enum.visitor|
+  |`Member`|`1`|protocol.enum.member|
+  |`Operator`|`2`|protocol.enum.operator|
+  |`Custom`|`3`|protocol.enum.custom|
 
 
 
@@ -74,16 +74,16 @@ mPlayerPermissions：<!-- md:samp byte -->
 //// define
 mCommandPermissions：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.serializedabilitiesdata.mcommandpermissions.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Any`|`0`||
-  |`GameDirectors`|`1`||
-  |`Admin`|`2`||
-  |`Host`|`3`||
-  |`Owner`|`4`||
-  |`Internal`|`5`||
+  |`Any`|`0`|protocol.enum.any|
+  |`GameDirectors`|`1`|protocol.enum.gamedirectors|
+  |`Admin`|`2`|protocol.enum.admin|
+  |`Host`|`3`|protocol.enum.host|
+  |`Owner`|`4`|protocol.enum.owner|
+  |`Internal`|`5`|protocol.enum.internal|
 
 
 
@@ -96,7 +96,7 @@ mCommandPermissions：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedabilitiesdata.数组大小.description
 
 
 /////
@@ -108,7 +108,7 @@ mCommandPermissions：<!-- md:samp byte -->
 ////// define
 layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](../types/serializedabilitiesdata__serializedlayer.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedabilitiesdata.layers.description
 
 
 //////

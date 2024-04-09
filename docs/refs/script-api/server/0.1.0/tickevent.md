@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TickEvent`类。
+`TickEvent`类。script_api.mojang-minecraft.tickevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only currentTick: int32;
 //// define
 `currentTick`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.tickevent.currenttick.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only deltaTime: float;
 //// define
 `deltaTime`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.tickevent.deltatime.description
 
 
 ////

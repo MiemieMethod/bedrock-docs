@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WeatherChangeEvent`类。
+`WeatherChangeEvent`类。script_api.mojang-minecraft.weatherchangeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: string;
 //// define
 `dimension`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.weatherchangeevent.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only lightning: boolean;
 //// define
 `lightning`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.weatherchangeevent.lightning.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only raining: boolean;
 //// define
 `raining`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.weatherchangeevent.raining.description
 
 
 ////

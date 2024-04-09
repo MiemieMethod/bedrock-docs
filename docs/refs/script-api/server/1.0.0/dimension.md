@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Dimension`类。
+`Dimension`类。script_api.@minecraft/server.dimension.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.dimension.id.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only id: string;
 
 ///
 
+script_api.@minecraft/server.dimension.runcommandasync.description
+
 ```js
 runCommandAsync(commandString: string): Promise<CommandResult>
 ```
@@ -44,7 +46,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.dimension.commandstring.runcommandasync.description
 
 
 ////
@@ -52,7 +54,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 返回值：<code>Promise&lt;<a href="../commandresult/">CommandResult</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.dimension.runcommandasync.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MessageReceiveAfterEvent`类。
+`MessageReceiveAfterEvent`类。script_api.@minecraft/server.messagereceiveafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.messagereceiveafterevent.id.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only message: string;
 //// define
 `message`：`string`
 
-- 属性。
+- script_api.@minecraft/server.messagereceiveafterevent.message.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.messagereceiveafterevent.player.description
 
 
 ////

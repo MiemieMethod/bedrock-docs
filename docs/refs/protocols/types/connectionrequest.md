@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ConnectionRequest -->类型。
+<!-- md:samp ConnectionRequest -->类型。该类型用于protocol.type.connectionrequest.description
 
 ## 结构
 
@@ -57,7 +57,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.type.connectionrequest.数组大小.description
 
 
 /////
@@ -69,7 +69,7 @@ rankdir = LR
 ////// define
 String Data：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.connectionrequest.string_data.description
 
 
 //////
@@ -85,7 +85,7 @@ String Data：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.type.connectionrequest.数组大小.description
 
 
 /////
@@ -97,7 +97,7 @@ String Data：<!-- md:samp byte -->
 ////// define
 String Data：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.connectionrequest.string_data.description
 
 
 //////

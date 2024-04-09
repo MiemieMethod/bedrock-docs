@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTypeFamilyComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityTypeFamilyComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitytypefamilycomponent.description
 
 ## 常量
 
@@ -25,6 +25,8 @@ static read-only componentId = "minecraft:type_family";
 
 ///
 
+script_api.@minecraft/server.entitytypefamilycomponent.gettypefamilies.description
+
 ```js
 getTypeFamilies(): string[]
 ```
@@ -33,7 +35,7 @@ getTypeFamilies(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.entitytypefamilycomponent.gettypefamilies.return
 
 
 ////
@@ -47,6 +49,8 @@ getTypeFamilies(): string[]
 
 ///
 
+script_api.@minecraft/server.entitytypefamilycomponent.hastypefamily.description
+
 ```js
 hasTypeFamily(typeFamily: string): boolean
 ```
@@ -55,7 +59,7 @@ hasTypeFamily(typeFamily: string): boolean
 //// define
 `typeFamily`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entitytypefamilycomponent.typefamily.hastypefamily.description
 
 
 ////
@@ -63,7 +67,7 @@ hasTypeFamily(typeFamily: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entitytypefamilycomponent.hastypefamily.return
 
 
 ////

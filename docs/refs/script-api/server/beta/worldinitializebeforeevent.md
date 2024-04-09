@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldInitializeBeforeEvent`类。
+`WorldInitializeBeforeEvent`类。script_api.@minecraft/server.worldinitializebeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only blockTypeRegistry: BlockComponentRegistry;
 //// define
 `blockTypeRegistry`：[`BlockComponentRegistry`](./blockcomponentregistry.md)
 
-- 属性。
+- script_api.@minecraft/server.worldinitializebeforeevent.blocktyperegistry.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only itemComponentRegistry: ItemComponentRegistry;
 //// define
 `itemComponentRegistry`：[`ItemComponentRegistry`](./itemcomponentregistry.md)
 
-- 属性。
+- script_api.@minecraft/server.worldinitializebeforeevent.itemcomponentregistry.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/tag`命令Manages tags stored in entities.
+`/tag`命令command.tag.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,24 +16,26 @@
 ```
 
 //// html | div.result
+command.tag.1.description
+
 ///// define
 `entity`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.tag.entity.description
 
 `action`：<!-- md:samp TagChangeAction -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.tagchangeaction.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`add`||
-  |`remove`||
+  |`add`|command.enum.tagchangeaction.add|
+  |`remove`|command.enum.tagchangeaction.remove|
 
 
 `name`：<!-- md:samp TagValues -->
 
-- 软枚举类型。
+- 软枚举类型。command.tag.name.description
 
 
 /////
@@ -48,14 +50,16 @@
 ```
 
 //// html | div.result
+command.tag.2.description
+
 ///// define
 `entity`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.tag.entity.description
 
 `action`：<!-- md:samp TagListAction -->
 
-- 枚举类型。单值枚举，请直接使用`list`。
+- 枚举类型。command.enum.taglistaction.description单值枚举，请直接使用`list`。
 
 
 /////

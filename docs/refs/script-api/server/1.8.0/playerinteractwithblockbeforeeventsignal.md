@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInteractWithBlockBeforeEventSignal`类。
+`PlayerInteractWithBlockBeforeEventSignal`类。script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): (arg: PlayerInteractWithBlockBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): (arg: Pl
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockbeforeevent/">PlayerInteractWithBlockBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): (arg: Pl
 //// define
 返回值：<code>(<a href="../playerinteractwithblockbeforeevent/">PlayerInteractWithBlockBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): (arg: Pl
 
 ///
 
+script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockbeforeevent/">PlayerInteractWithBlockBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.unsubscribe.return
 
 
 ////

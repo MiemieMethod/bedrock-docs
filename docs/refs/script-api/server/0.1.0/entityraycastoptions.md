@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRaycastOptions`类。
+`EntityRaycastOptions`类。script_api.mojang-minecraft.entityraycastoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ maxDistance: int32 | undefined;
 //// define
 `maxDistance`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityraycastoptions.maxdistance.description
 
 
 ////
@@ -36,6 +36,8 @@ maxDistance: int32 | undefined;
 
 ///
 
+script_api.mojang-minecraft.entityraycastoptions.constructor.description
+
 ```js
 new constructor(): EntityRaycastOptions
 ```
@@ -44,7 +46,7 @@ new constructor(): EntityRaycastOptions
 //// define
 返回值：[`EntityRaycastOptions`](./entityraycastoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.entityraycastoptions.constructor.return
 
 
 ////

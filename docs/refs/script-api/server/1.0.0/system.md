@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`System`类。
+`System`类。script_api.@minecraft/server.system.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.system.run.description
+
 ```js
 run(callback: () => void): uint32
 ```
@@ -20,7 +22,7 @@ run(callback: () => void): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.system.callback.run.description
 
 
 ////
@@ -28,7 +30,7 @@ run(callback: () => void): uint32
 //// define
 返回值：`uint32`
 
-- 返回值。
+- script_api.@minecraft/server.system.run.return
 
 
 ////

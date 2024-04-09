@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateSubChunkBlocksPacket -->数据包，数字ID是`172`。
+<!-- md:samp UpdateSubChunkBlocksPacket -->数据包，数字ID是`172`。该数据包用于protocol.packet.updatesubchunkblockspacket.description
 
 ## 结构
 
@@ -88,7 +88,7 @@ rankdir = LR
 //// define
 Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updatesubchunkblockspacket.sub_chunk_block_position.description
 
 
 ////
@@ -100,7 +100,7 @@ Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/netw
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.数组大小.description
 
 
 /////
@@ -112,41 +112,41 @@ Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/netw
 ////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updatesubchunkblockspacket.pos.description
 
 
 //////
 ////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.runtime_id.description
 
 
 //////
 ////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.update_flags.description
 
 
 //////
 ////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_entity_unique_id.description
 
 
 //////
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.updatesubchunkblockspacket.sync_message_message.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NONE`|`0`||
-  |`CREATE`|`1`||
-  |`DESTROY`|`2`||
+  |`NONE`|`0`|无|
+  |`CREATE`|`1`|protocol.enum.create|
+  |`DESTROY`|`2`|protocol.enum.destroy|
 
 
 
@@ -163,7 +163,7 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.数组大小.description
 
 
 /////
@@ -175,41 +175,41 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 ////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updatesubchunkblockspacket.pos.description
 
 
 //////
 ////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.runtime_id.description
 
 
 //////
 ////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.update_flags.description
 
 
 //////
 ////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_entity_unique_id.description
 
 
 //////
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.updatesubchunkblockspacket.sync_message_message.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NONE`|`0`||
-  |`CREATE`|`1`||
-  |`DESTROY`|`2`||
+  |`NONE`|`0`|无|
+  |`CREATE`|`1`|protocol.enum.create|
+  |`DESTROY`|`2`|protocol.enum.destroy|
 
 
 

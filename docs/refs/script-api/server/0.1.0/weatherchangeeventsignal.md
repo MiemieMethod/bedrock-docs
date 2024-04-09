@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WeatherChangeEventSignal`类。
+`WeatherChangeEventSignal`类。script_api.mojang-minecraft.weatherchangeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.weatherchangeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: WeatherChangeEvent) => void): (arg: WeatherChangeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: WeatherChangeEvent) => void): (arg: WeatherChangeEvent
 //// define
 `callback`：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.weatherchangeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: WeatherChangeEvent) => void): (arg: WeatherChangeEvent
 //// define
 返回值：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.weatherchangeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: WeatherChangeEvent) => void): (arg: WeatherChangeEvent
 
 ///
 
+script_api.mojang-minecraft.weatherchangeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: WeatherChangeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: WeatherChangeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.weatherchangeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: WeatherChangeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.weatherchangeeventsignal.unsubscribe.return
 
 
 ////

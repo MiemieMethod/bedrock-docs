@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameTestErrorContext`接口。
+`GameTestErrorContext`接口。script_api.@minecraft/server-gametest.gametesterrorcontext.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ absolutePosition: Vector3;
 //// define
 `absolutePosition`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 属性。
+- script_api.@minecraft/server-gametest.gametesterrorcontext.absoluteposition.description
 
 
 ////
@@ -42,7 +42,7 @@ relativePosition: Vector3;
 //// define
 `relativePosition`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 属性。
+- script_api.@minecraft/server-gametest.gametesterrorcontext.relativeposition.description
 
 
 ////
@@ -64,7 +64,7 @@ tickCount: int32;
 //// define
 `tickCount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server-gametest.gametesterrorcontext.tickcount.description
 
 
 ////

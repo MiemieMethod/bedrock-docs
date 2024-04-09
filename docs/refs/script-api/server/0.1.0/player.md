@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Player`类，扩展自[`Entity`](./entity.md)。
+`Player`类，扩展自[`Entity`](./entity.md)。script_api.mojang-minecraft.player.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.player.name.description
 
 
 ////
@@ -42,7 +42,7 @@ selectedSlot: int32;
 //// define
 `selectedSlot`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.player.selectedslot.description
 
 
 ////
@@ -58,6 +58,8 @@ selectedSlot: int32;
 
 ///
 
+script_api.mojang-minecraft.player.getitemcooldown.description
+
 ```js
 getItemCooldown(cooldownCategory: string): int32
 ```
@@ -66,7 +68,7 @@ getItemCooldown(cooldownCategory: string): int32
 //// define
 `cooldownCategory`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.player.cooldowncategory.getitemcooldown.description
 
 
 ////
@@ -74,7 +76,7 @@ getItemCooldown(cooldownCategory: string): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.mojang-minecraft.player.getitemcooldown.return
 
 
 ////
@@ -88,6 +90,8 @@ getItemCooldown(cooldownCategory: string): int32
 
 ///
 
+script_api.mojang-minecraft.player.playsound.description
+
 ```js
 playSound(soundId: string, soundOptions?: SoundOptions): void
 ```
@@ -96,7 +100,7 @@ playSound(soundId: string, soundOptions?: SoundOptions): void
 //// define
 `soundId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.player.soundid.playsound.description
 
 
 ////
@@ -104,7 +108,7 @@ playSound(soundId: string, soundOptions?: SoundOptions): void
 //// define
 `soundOptions`：[`SoundOptions`](./soundoptions.md)|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.player.soundoptions.playsound.description
 
 
 ////
@@ -112,7 +116,7 @@ playSound(soundId: string, soundOptions?: SoundOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.player.playsound.return
 
 
 ////
@@ -126,6 +130,8 @@ playSound(soundId: string, soundOptions?: SoundOptions): void
 
 ///
 
+script_api.mojang-minecraft.player.postclientmessage.description
+
 ```js
 postClientMessage(id: string, value: string): void
 ```
@@ -134,7 +140,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.player.id.postclientmessage.description
 
 
 ////
@@ -142,7 +148,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `value`：`string`
 
-- 参数2。
+- script_api.mojang-minecraft.player.value.postclientmessage.description
 
 
 ////
@@ -150,7 +156,7 @@ postClientMessage(id: string, value: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.player.postclientmessage.return
 
 
 ////
@@ -164,6 +170,8 @@ postClientMessage(id: string, value: string): void
 
 ///
 
+script_api.mojang-minecraft.player.startitemcooldown.description
+
 ```js
 startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 ```
@@ -172,7 +180,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `cooldownCategory`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.player.cooldowncategory.startitemcooldown.description
 
 
 ////
@@ -180,7 +188,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `tickDuration`：`int32`
 
-- 参数2。
+- script_api.mojang-minecraft.player.tickduration.startitemcooldown.description
 
 
 ////
@@ -188,7 +196,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.player.startitemcooldown.return
 
 
 ////

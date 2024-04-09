@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockFilter`接口。
+`BlockFilter`接口。script_api.@minecraft/server.blockfilter.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ excludePermutations: BlockPermutation[] | undefined;
 //// define
 `excludePermutations`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockfilter.excludepermutations.description
 
 
 ////
@@ -42,7 +42,7 @@ excludeTags: string[] | undefined;
 //// define
 `excludeTags`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockfilter.excludetags.description
 
 
 ////
@@ -64,7 +64,7 @@ excludeTypes: string[] | undefined;
 //// define
 `excludeTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockfilter.excludetypes.description
 
 
 ////
@@ -86,7 +86,7 @@ includePermutations: BlockPermutation[] | undefined;
 //// define
 `includePermutations`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockfilter.includepermutations.description
 
 
 ////
@@ -108,7 +108,7 @@ includeTags: string[] | undefined;
 //// define
 `includeTags`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockfilter.includetags.description
 
 
 ////
@@ -130,7 +130,7 @@ includeTypes: string[] | undefined;
 //// define
 `includeTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockfilter.includetypes.description
 
 
 ////

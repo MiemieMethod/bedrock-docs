@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp InteractPacket -->数据包，数字ID是`33`。
+<!-- md:samp InteractPacket -->数据包，数字ID是`33`。该数据包用于protocol.packet.interactpacket.description
 
 ## 结构
 
@@ -56,15 +56,15 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.interactpacket.action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`StopRiding`|`3`||
-  |`InteractUpdate`|`4`||
-  |`NpcOpen`|`5`||
-  |`OpenInventory`|`6`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`StopRiding`|`3`|protocol.enum.stopriding|
+  |`InteractUpdate`|`4`|protocol.enum.interactupdate|
+  |`NpcOpen`|`5`|protocol.enum.npcopen|
+  |`OpenInventory`|`6`|protocol.enum.openinventory|
 
 
 
@@ -72,7 +72,7 @@ Action：<!-- md:samp byte -->
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.interactpacket.target_runtime_id.description
 
 
 ////
@@ -82,7 +82,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -98,21 +98,21 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Position X：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.interactpacket.position_x.description
 
 
 ///////
 /////// define
 Position Y：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.interactpacket.position_y.description
 
 
 ///////
 /////// define
 Position Z：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.interactpacket.position_z.description
 
 
 ///////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`World`类。
+`World`类。script_api.@minecraft/server.world.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.world.getallplayers.description
+
 ```js
 getAllPlayers(): Player[]
 ```
@@ -20,7 +22,7 @@ getAllPlayers(): Player[]
 //// define
 返回值：<code><a href="../player/">Player</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.world.getallplayers.return
 
 
 ////
@@ -34,6 +36,8 @@ getAllPlayers(): Player[]
 
 ///
 
+script_api.@minecraft/server.world.getdimension.description
+
 ```js
 getDimension(dimensionId: string): Dimension
 ```
@@ -42,7 +46,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.dimensionid.getdimension.description
 
 
 ////
@@ -50,7 +54,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 返回值：[`Dimension`](./dimension.md)
 
-- 返回值。
+- script_api.@minecraft/server.world.getdimension.return
 
 
 ////

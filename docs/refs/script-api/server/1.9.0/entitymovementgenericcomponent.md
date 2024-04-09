@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementGenericComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。
+`EntityMovementGenericComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。script_api.@minecraft/server.entitymovementgenericcomponent.description
 
 ## 常量
 

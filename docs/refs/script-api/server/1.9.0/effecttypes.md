@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EffectTypes`类。
+`EffectTypes`类。script_api.@minecraft/server.effecttypes.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.effecttypes.get.description
+
 ```js
 static get(identifier: string): EffectType | undefined
 ```
@@ -20,7 +22,7 @@ static get(identifier: string): EffectType | undefined
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.effecttypes.identifier.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(identifier: string): EffectType | undefined
 //// define
 返回值：[`EffectType`](./effecttype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.effecttypes.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(identifier: string): EffectType | undefined
 
 ///
 
+script_api.@minecraft/server.effecttypes.getall.description
+
 ```js
 static getAll(): EffectType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): EffectType[]
 //// define
 返回值：<code><a href="../effecttype/">EffectType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.effecttypes.getall.return
 
 
 ////

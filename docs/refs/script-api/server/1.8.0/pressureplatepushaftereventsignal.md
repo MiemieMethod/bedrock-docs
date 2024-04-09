@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PressurePlatePushAfterEventSignal`类。
+`PressurePlatePushAfterEventSignal`类。script_api.@minecraft/server.pressureplatepushaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.pressureplatepushaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PressurePlatePushAfterEvent) => void): (arg: PressurePlatePushAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PressurePlatePushAfterEvent) => void): (arg: PressureP
 //// define
 `callback`：<code>(<a href="../pressureplatepushafterevent/">PressurePlatePushAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.pressureplatepushaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PressurePlatePushAfterEvent) => void): (arg: PressureP
 //// define
 返回值：<code>(<a href="../pressureplatepushafterevent/">PressurePlatePushAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.pressureplatepushaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PressurePlatePushAfterEvent) => void): (arg: PressureP
 
 ///
 
+script_api.@minecraft/server.pressureplatepushaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PressurePlatePushAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PressurePlatePushAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../pressureplatepushafterevent/">PressurePlatePushAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.pressureplatepushaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PressurePlatePushAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.pressureplatepushaftereventsignal.unsubscribe.return
 
 
 ////

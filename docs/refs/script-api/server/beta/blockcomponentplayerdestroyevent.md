@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentPlayerDestroyEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`BlockComponentPlayerDestroyEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentplayerdestroyevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only destroyedBlockPermutation: BlockPermutation;
 //// define
 `destroyedBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.blockcomponentplayerdestroyevent.destroyedblockpermutation.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only player: Player | undefined;
 //// define
 `player`：[`Player`](./player.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcomponentplayerdestroyevent.player.description
 
 
 ////

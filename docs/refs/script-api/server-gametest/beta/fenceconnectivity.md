@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FenceConnectivity`类。
+`FenceConnectivity`类。script_api.@minecraft/server-gametest.fenceconnectivity.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only east: boolean;
 //// define
 `east`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-gametest.fenceconnectivity.east.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only north: boolean;
 //// define
 `north`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-gametest.fenceconnectivity.north.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only south: boolean;
 //// define
 `south`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-gametest.fenceconnectivity.south.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only west: boolean;
 //// define
 `west`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-gametest.fenceconnectivity.west.description
 
 
 ////

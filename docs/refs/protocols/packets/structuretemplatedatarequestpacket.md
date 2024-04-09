@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp StructureTemplateDataRequestPacket -->数据包，数字ID是`132`。
+<!-- md:samp StructureTemplateDataRequestPacket -->数据包，数字ID是`132`。该数据包用于protocol.packet.structuretemplatedatarequestpacket.description
 
 ## 结构
 
@@ -44,36 +44,36 @@ rankdir = LR
 //// define
 Structure Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.structuretemplatedatarequestpacket.structure_name.description
 
 
 ////
 //// define
 Structure Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.structuretemplatedatarequestpacket.structure_position.description
 
 
 ////
 //// define
 Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresettings.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.structuretemplatedatarequestpacket.structure_settings.description
 
 
 ////
 //// define
 Requested Operation：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.structuretemplatedatarequestpacket.requested_operation.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`ExportFromSaveMode`|`1`||
-  |`ExportFromLoadMode`|`2`||
-  |`QuerySavedStructure`|`3`||
-  |`Import`|`4`||
+  |`None`|`0`|无|
+  |`ExportFromSaveMode`|`1`|protocol.enum.exportfromsavemode|
+  |`ExportFromLoadMode`|`2`|protocol.enum.exportfromloadmode|
+  |`QuerySavedStructure`|`3`|protocol.enum.querysavedstructure|
+  |`Import`|`4`|protocol.enum.import|
 
 
 

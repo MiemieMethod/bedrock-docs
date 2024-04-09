@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ModalFormData`类。
+`ModalFormData`类。script_api.@minecraft/server-ui.modalformdata.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.constructor.description
+
 ```js
 new constructor(): ModalFormData
 ```
@@ -20,7 +22,7 @@ new constructor(): ModalFormData
 //// define
 返回值：[`ModalFormData`](./modalformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.constructor.return
 
 
 ////
@@ -34,23 +36,25 @@ new constructor(): ModalFormData
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.dropdown.description
+
 ```js
-dropdown(label: RawMessage | string, options: RawMessage | string[], defaultValueIndex?: int32): ModalFormData
+dropdown(label: RawMessage | string, options: (RawMessage | string)[], defaultValueIndex?: int32): ModalFormData
 ```
 
 /// html | div.result
 //// define
 `label`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.modalformdata.label.dropdown.description
 
 
 ////
 
 //// define
-`options`：`RawMessage | string[]`
+`options`：`(RawMessage | string)[]`
 
-- 参数2。
+- script_api.@minecraft/server-ui.modalformdata.options.dropdown.description
 
 
 ////
@@ -58,7 +62,7 @@ dropdown(label: RawMessage | string, options: RawMessage | string[], defaultValu
 //// define
 `defaultValueIndex`：`int32`|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server-ui.modalformdata.defaultvalueindex.dropdown.description
 
 
 ////
@@ -66,7 +70,7 @@ dropdown(label: RawMessage | string, options: RawMessage | string[], defaultValu
 //// define
 返回值：[`ModalFormData`](./modalformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.dropdown.return
 
 
 ////
@@ -80,6 +84,8 @@ dropdown(label: RawMessage | string, options: RawMessage | string[], defaultValu
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.show.description
+
 ```js
 show(player: Player): Promise<ModalFormResponse>
 ```
@@ -88,7 +94,7 @@ show(player: Player): Promise<ModalFormResponse>
 //// define
 `player`：[`Player`](../../server/1.8.0/player.md)
 
-- 参数1。
+- script_api.@minecraft/server-ui.modalformdata.player.show.description
 
 
 ////
@@ -96,7 +102,7 @@ show(player: Player): Promise<ModalFormResponse>
 //// define
 返回值：<code>Promise&lt;<a href="../modalformresponse/">ModalFormResponse</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.show.return
 
 
 ////
@@ -110,6 +116,8 @@ show(player: Player): Promise<ModalFormResponse>
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.slider.description
+
 ```js
 slider(label: RawMessage | string, minimumValue: float, maximumValue: float, valueStep: float, defaultValue?: float): ModalFormData
 ```
@@ -118,7 +126,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `label`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.modalformdata.label.slider.description
 
 
 ////
@@ -126,7 +134,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `minimumValue`：`float`
 
-- 参数2。
+- script_api.@minecraft/server-ui.modalformdata.minimumvalue.slider.description
 
 
 ////
@@ -134,7 +142,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `maximumValue`：`float`
 
-- 参数3。
+- script_api.@minecraft/server-ui.modalformdata.maximumvalue.slider.description
 
 
 ////
@@ -142,7 +150,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `valueStep`：`float`
 
-- 参数4。
+- script_api.@minecraft/server-ui.modalformdata.valuestep.slider.description
 
 
 ////
@@ -150,7 +158,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `defaultValue`：`float`|`undefined`
 
-- 参数5。
+- script_api.@minecraft/server-ui.modalformdata.defaultvalue.slider.description
 
 
 ////
@@ -158,7 +166,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 返回值：[`ModalFormData`](./modalformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.slider.return
 
 
 ////
@@ -172,6 +180,8 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.submitbutton.description
+
 ```js
 submitButton(submitButtonText: RawMessage | string): ModalFormData
 ```
@@ -180,7 +190,7 @@ submitButton(submitButtonText: RawMessage | string): ModalFormData
 //// define
 `submitButtonText`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.modalformdata.submitbuttontext.submitbutton.description
 
 
 ////
@@ -188,7 +198,7 @@ submitButton(submitButtonText: RawMessage | string): ModalFormData
 //// define
 返回值：[`ModalFormData`](./modalformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.submitbutton.return
 
 
 ////
@@ -202,6 +212,8 @@ submitButton(submitButtonText: RawMessage | string): ModalFormData
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.textfield.description
+
 ```js
 textField(label: RawMessage | string, placeholderText: RawMessage | string, defaultValue?: RawMessage | string): ModalFormData
 ```
@@ -210,7 +222,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 //// define
 `label`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.modalformdata.label.textfield.description
 
 
 ////
@@ -218,7 +230,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 //// define
 `placeholderText`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- 参数2。
+- script_api.@minecraft/server-ui.modalformdata.placeholdertext.textfield.description
 
 
 ////
@@ -226,7 +238,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 //// define
 `defaultValue`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server-ui.modalformdata.defaultvalue.textfield.description
 
 
 ////
@@ -234,7 +246,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 //// define
 返回值：[`ModalFormData`](./modalformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.textfield.return
 
 
 ////
@@ -248,6 +260,8 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.title.description
+
 ```js
 title(titleText: RawMessage | string): ModalFormData
 ```
@@ -256,7 +270,7 @@ title(titleText: RawMessage | string): ModalFormData
 //// define
 `titleText`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.modalformdata.titletext.title.description
 
 
 ////
@@ -264,7 +278,7 @@ title(titleText: RawMessage | string): ModalFormData
 //// define
 返回值：[`ModalFormData`](./modalformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.title.return
 
 
 ////
@@ -278,6 +292,8 @@ title(titleText: RawMessage | string): ModalFormData
 
 ///
 
+script_api.@minecraft/server-ui.modalformdata.toggle.description
+
 ```js
 toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 ```
@@ -286,7 +302,7 @@ toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 //// define
 `label`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.modalformdata.label.toggle.description
 
 
 ////
@@ -294,7 +310,7 @@ toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 //// define
 `defaultValue`：`boolean`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-ui.modalformdata.defaultvalue.toggle.description
 
 
 ////
@@ -302,7 +318,7 @@ toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 //// define
 返回值：[`ModalFormData`](./modalformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.modalformdata.toggle.return
 
 
 ////

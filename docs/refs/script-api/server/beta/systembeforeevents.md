@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SystemBeforeEvents`类。
+`SystemBeforeEvents`类。script_api.@minecraft/server.systembeforeevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only watchdogTerminate: WatchdogTerminateBeforeEventSignal;
 //// define
 `watchdogTerminate`：[`WatchdogTerminateBeforeEventSignal`](./watchdogterminatebeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.systembeforeevents.watchdogterminate.description
 
 
 ////

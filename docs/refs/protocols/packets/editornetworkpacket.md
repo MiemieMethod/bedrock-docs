@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EditorNetworkPacket -->数据包，数字ID是`190`。
+<!-- md:samp EditorNetworkPacket -->数据包，数字ID是`190`。该数据包用于protocol.packet.editornetworkpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Binary Payload：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.editornetworkpacket.binary_payload.description
 
 
 ////

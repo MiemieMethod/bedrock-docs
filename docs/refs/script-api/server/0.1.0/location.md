@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Location`类。
+`Location`类。script_api.mojang-minecraft.location.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ x: float;
 //// define
 `x`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.location.x.description
 
 
 ////
@@ -42,7 +42,7 @@ y: float;
 //// define
 `y`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.location.y.description
 
 
 ////
@@ -64,7 +64,7 @@ z: float;
 //// define
 `z`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.location.z.description
 
 
 ////
@@ -80,6 +80,8 @@ z: float;
 
 ///
 
+script_api.mojang-minecraft.location.constructor.description
+
 ```js
 new constructor(x: float, y: float, z: float): Location
 ```
@@ -88,7 +90,7 @@ new constructor(x: float, y: float, z: float): Location
 //// define
 `x`：`float`
 
-- 参数1。
+- script_api.mojang-minecraft.location.x.constructor.description
 
 
 ////
@@ -96,7 +98,7 @@ new constructor(x: float, y: float, z: float): Location
 //// define
 `y`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.location.y.constructor.description
 
 
 ////
@@ -104,7 +106,7 @@ new constructor(x: float, y: float, z: float): Location
 //// define
 `z`：`float`
 
-- 参数3。
+- script_api.mojang-minecraft.location.z.constructor.description
 
 
 ////
@@ -112,7 +114,7 @@ new constructor(x: float, y: float, z: float): Location
 //// define
 返回值：[`Location`](./location.md)
 
-- 返回值。
+- script_api.mojang-minecraft.location.constructor.return
 
 
 ////
@@ -126,6 +128,8 @@ new constructor(x: float, y: float, z: float): Location
 
 ///
 
+script_api.mojang-minecraft.location.equals.description
+
 ```js
 equals(other: Location): boolean
 ```
@@ -134,7 +138,7 @@ equals(other: Location): boolean
 //// define
 `other`：[`Location`](./location.md)
 
-- 参数1。
+- script_api.mojang-minecraft.location.other.equals.description
 
 
 ////
@@ -142,7 +146,7 @@ equals(other: Location): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.location.equals.return
 
 
 ////
@@ -156,6 +160,8 @@ equals(other: Location): boolean
 
 ///
 
+script_api.mojang-minecraft.location.isnear.description
+
 ```js
 isNear(other: Location, epsilon: float): boolean
 ```
@@ -164,7 +170,7 @@ isNear(other: Location, epsilon: float): boolean
 //// define
 `other`：[`Location`](./location.md)
 
-- 参数1。
+- script_api.mojang-minecraft.location.other.isnear.description
 
 
 ////
@@ -172,7 +178,7 @@ isNear(other: Location, epsilon: float): boolean
 //// define
 `epsilon`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.location.epsilon.isnear.description
 
 
 ////
@@ -180,7 +186,7 @@ isNear(other: Location, epsilon: float): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.location.isnear.return
 
 
 ////

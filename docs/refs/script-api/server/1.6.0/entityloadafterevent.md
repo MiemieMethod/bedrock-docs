@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityLoadAfterEvent`类。
+`EntityLoadAfterEvent`类。script_api.@minecraft/server.entityloadafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityloadafterevent.entity.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SpawnSettings -->类型。
+<!-- md:samp SpawnSettings -->类型。该类型用于protocol.type.spawnsettings.description
 
 ## 结构
 
@@ -40,12 +40,12 @@ rankdir = LR
 //// define
 Type：<!-- md:samp short -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.spawnsettings.type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Default`|`0`||
-  |`UserDefined`|`1`||
+  |`Default`|`0`|protocol.enum.default|
+  |`UserDefined`|`1`|protocol.enum.userdefined|
 
 
 
@@ -53,14 +53,14 @@ Type：<!-- md:samp short -->
 //// define
 User Defined Biome Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.spawnsettings.user_defined_biome_name.description
 
 
 ////
 //// define
 Dimension：<!-- md:samp varint -->
 
-- 基本类型。Currently 0 for Overworld, 1 for Nether, 2 for The End, 3 Undefined
+- 基本类型。protocol.type.spawnsettings.dimension.descriptionCurrently 0 for Overworld, 1 for Nether, 2 for The End, 3 Undefined
 
 
 ////

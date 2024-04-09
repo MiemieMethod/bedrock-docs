@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTypes`类。
+`EntityTypes`类。script_api.@minecraft/server.entitytypes.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entitytypes.get.description
+
 ```js
 static get(identifier: string): EntityType | undefined
 ```
@@ -20,7 +22,7 @@ static get(identifier: string): EntityType | undefined
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entitytypes.identifier.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(identifier: string): EntityType | undefined
 //// define
 返回值：[`EntityType`](./entitytype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.entitytypes.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(identifier: string): EntityType | undefined
 
 ///
 
+script_api.@minecraft/server.entitytypes.getall.description
+
 ```js
 static getAll(): EntityType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): EntityType[]
 //// define
 返回值：<code><a href="../entitytype/">EntityType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entitytypes.getall.return
 
 
 ////

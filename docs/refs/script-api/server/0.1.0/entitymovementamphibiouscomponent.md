@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementAmphibiousComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityMovementAmphibiousComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitymovementamphibiouscomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only maxTurn: float;
 //// define
 `maxTurn`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entitymovementamphibiouscomponent.maxturn.description
 
 
 ////

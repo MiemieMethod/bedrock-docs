@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetLocalPlayerAsInitializedPacket -->数据包，数字ID是`113`。
+<!-- md:samp SetLocalPlayerAsInitializedPacket -->数据包，数字ID是`113`。该数据包用于protocol.packet.setlocalplayerasinitializedpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Player ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setlocalplayerasinitializedpacket.player_id.description
 
 
 ////

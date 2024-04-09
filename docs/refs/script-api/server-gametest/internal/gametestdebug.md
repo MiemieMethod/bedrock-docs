@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameTestDebug`类。
+`GameTestDebug`类。script_api.@minecraft/server-gametest.gametestdebug.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-gametest.gametestdebug.crash.description
+
 ```js
 static crash(): void
 ```
@@ -20,7 +22,7 @@ static crash(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestdebug.crash.return
 
 
 ////
@@ -34,6 +36,8 @@ static crash(): void
 
 ///
 
+script_api.@minecraft/server-gametest.gametestdebug.debugfail.description
+
 ```js
 static debugFail(message: string): void
 ```
@@ -42,7 +46,7 @@ static debugFail(message: string): void
 //// define
 `message`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestdebug.message.debugfail.description
 
 
 ////
@@ -50,7 +54,7 @@ static debugFail(message: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestdebug.debugfail.return
 
 
 ////
@@ -64,6 +68,8 @@ static debugFail(message: string): void
 
 ///
 
+script_api.@minecraft/server-gametest.gametestdebug.timeout.description
+
 ```js
 static timeout(duration: int32): void
 ```
@@ -72,7 +78,7 @@ static timeout(duration: int32): void
 //// define
 `duration`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.gametestdebug.duration.timeout.description
 
 
 ////
@@ -80,7 +86,7 @@ static timeout(duration: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.gametestdebug.timeout.return
 
 
 ////

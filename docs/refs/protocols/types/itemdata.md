@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemData -->类型。
+<!-- md:samp ItemData -->类型。该类型用于protocol.type.itemdata.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.itemdata.item_name.description
 
 
 ////
 //// define
 Item Id：<!-- md:samp short -->
 
-- 基本类型。Block 'id''s < 256 (can be negative); Item 'id''s > 257
+- 基本类型。protocol.type.itemdata.item_id.descriptionBlock 'id''s < 256 (can be negative); Item 'id''s > 257
 
 
 ////
 //// define
 Is Component Based：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemdata.is_component_based.description
 
 
 ////

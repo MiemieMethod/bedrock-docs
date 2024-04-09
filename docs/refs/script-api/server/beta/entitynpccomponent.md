@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityNpcComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityNpcComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitynpccomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ defaultScene: string;
 //// define
 `defaultScene`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entitynpccomponent.defaultscene.description
 
 
 ////
@@ -55,7 +55,7 @@ name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entitynpccomponent.name.description
 
 
 ////
@@ -77,7 +77,7 @@ skinIndex: int32;
 //// define
 `skinIndex`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.entitynpccomponent.skinindex.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp DimensionDataPacket -->数据包，数字ID是`180`。
+<!-- md:samp DimensionDataPacket -->数据包，数字ID是`180`。该数据包用于protocol.packet.dimensiondatapacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Dimension Definition Group：[<!-- md:samp DimensionDefinitionGroup -->](../types/dimensiondefinitiongroup.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.dimensiondatapacket.dimension_definition_group.description
 
 
 ////

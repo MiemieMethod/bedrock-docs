@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MolangVariableMap`类。
+`MolangVariableMap`类。script_api.@minecraft/server.molangvariablemap.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.molangvariablemap.constructor.description
+
 ```js
 new constructor(): MolangVariableMap
 ```
@@ -20,7 +22,7 @@ new constructor(): MolangVariableMap
 //// define
 返回值：[`MolangVariableMap`](./molangvariablemap.md)
 
-- 返回值。
+- script_api.@minecraft/server.molangvariablemap.constructor.return
 
 
 ////
@@ -34,6 +36,8 @@ new constructor(): MolangVariableMap
 
 ///
 
+script_api.@minecraft/server.molangvariablemap.setcolorrgb.description
+
 ```js
 setColorRGB(variableName: string, color: RGB): void
 ```
@@ -42,7 +46,7 @@ setColorRGB(variableName: string, color: RGB): void
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.molangvariablemap.variablename.setcolorrgb.description
 
 
 ////
@@ -50,7 +54,7 @@ setColorRGB(variableName: string, color: RGB): void
 //// define
 `color`：[`RGB`](./rgb.md)
 
-- 参数2。
+- script_api.@minecraft/server.molangvariablemap.color.setcolorrgb.description
 
 
 ////
@@ -58,7 +62,7 @@ setColorRGB(variableName: string, color: RGB): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.molangvariablemap.setcolorrgb.return
 
 
 ////
@@ -72,6 +76,8 @@ setColorRGB(variableName: string, color: RGB): void
 
 ///
 
+script_api.@minecraft/server.molangvariablemap.setcolorrgba.description
+
 ```js
 setColorRGBA(variableName: string, color: RGBA): void
 ```
@@ -80,7 +86,7 @@ setColorRGBA(variableName: string, color: RGBA): void
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.molangvariablemap.variablename.setcolorrgba.description
 
 
 ////
@@ -88,7 +94,7 @@ setColorRGBA(variableName: string, color: RGBA): void
 //// define
 `color`：[`RGBA`](./rgba.md)
 
-- 参数2。
+- script_api.@minecraft/server.molangvariablemap.color.setcolorrgba.description
 
 
 ////
@@ -96,7 +102,7 @@ setColorRGBA(variableName: string, color: RGBA): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.molangvariablemap.setcolorrgba.return
 
 
 ////
@@ -110,6 +116,8 @@ setColorRGBA(variableName: string, color: RGBA): void
 
 ///
 
+script_api.@minecraft/server.molangvariablemap.setfloat.description
+
 ```js
 setFloat(variableName: string, number: float): void
 ```
@@ -118,7 +126,7 @@ setFloat(variableName: string, number: float): void
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.molangvariablemap.variablename.setfloat.description
 
 
 ////
@@ -126,7 +134,7 @@ setFloat(variableName: string, number: float): void
 //// define
 `number`：`float`
 
-- 参数2。
+- script_api.@minecraft/server.molangvariablemap.number.setfloat.description
 
 
 ////
@@ -134,7 +142,7 @@ setFloat(variableName: string, number: float): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.molangvariablemap.setfloat.return
 
 
 ////
@@ -148,6 +156,8 @@ setFloat(variableName: string, number: float): void
 
 ///
 
+script_api.@minecraft/server.molangvariablemap.setspeedanddirection.description
+
 ```js
 setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): void
 ```
@@ -156,7 +166,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.molangvariablemap.variablename.setspeedanddirection.description
 
 
 ////
@@ -164,7 +174,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 //// define
 `speed`：`float`
 
-- 参数2。
+- script_api.@minecraft/server.molangvariablemap.speed.setspeedanddirection.description
 
 
 ////
@@ -172,7 +182,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- 参数3。
+- script_api.@minecraft/server.molangvariablemap.direction.setspeedanddirection.description
 
 
 ////
@@ -180,7 +190,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.molangvariablemap.setspeedanddirection.return
 
 
 ////
@@ -194,6 +204,8 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 
 ///
 
+script_api.@minecraft/server.molangvariablemap.setvector3.description
+
 ```js
 setVector3(variableName: string, vector: Vector3): void
 ```
@@ -202,7 +214,7 @@ setVector3(variableName: string, vector: Vector3): void
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.molangvariablemap.variablename.setvector3.description
 
 
 ////
@@ -210,7 +222,7 @@ setVector3(variableName: string, vector: Vector3): void
 //// define
 `vector`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.molangvariablemap.vector.setvector3.description
 
 
 ////
@@ -218,7 +230,7 @@ setVector3(variableName: string, vector: Vector3): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.molangvariablemap.setvector3.return
 
 
 ////

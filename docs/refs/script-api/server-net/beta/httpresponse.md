@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`HttpResponse`类。
+`HttpResponse`类。script_api.@minecraft/server-net.httpresponse.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only body: string;
 //// define
 `body`：`string`
 
-- 属性。
+- script_api.@minecraft/server-net.httpresponse.body.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only headers: HttpHeader[];
 //// define
 `headers`：<code><a href="../httpheader/">HttpHeader</a>[]</code>
 
-- 属性。
+- script_api.@minecraft/server-net.httpresponse.headers.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only request: HttpRequest;
 //// define
 `request`：[`HttpRequest`](./httprequest.md)
 
-- 属性。
+- script_api.@minecraft/server-net.httpresponse.request.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only status: uint32;
 //// define
 `status`：`uint32`
 
-- 属性。
+- script_api.@minecraft/server-net.httpresponse.status.description
 
 
 ////

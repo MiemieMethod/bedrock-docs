@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ShowProfilePacket -->数据包，数字ID是`104`。
+<!-- md:samp ShowProfilePacket -->数据包，数字ID是`104`。该数据包用于protocol.packet.showprofilepacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Player XUID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.showprofilepacket.player_xuid.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/time`命令Changes or queries the world's game time.
+`/time`命令command.time.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,14 +16,16 @@
 ```
 
 //// html | div.result
+command.time.1.description
+
 ///// define
 `mode`：<!-- md:samp TimeModeAdd -->
 
-- 枚举类型。单值枚举，请直接使用`add`。
+- 枚举类型。command.enum.timemodeadd.description单值枚举，请直接使用`add`。
 
 `amount`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.time.amount.description
 
 
 /////
@@ -38,14 +40,16 @@
 ```
 
 //// html | div.result
+command.time.2.description
+
 ///// define
 `mode`：<!-- md:samp TimeModeSet -->
 
-- 枚举类型。单值枚举，请直接使用`set`。
+- 枚举类型。command.enum.timemodeset.description单值枚举，请直接使用`set`。
 
 `amount`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.time.amount.description
 
 
 /////
@@ -60,23 +64,25 @@
 ```
 
 //// html | div.result
+command.time.3.description
+
 ///// define
 `mode`：<!-- md:samp TimeModeSet -->
 
-- 枚举类型。单值枚举，请直接使用`set`。
+- 枚举类型。command.enum.timemodeset.description单值枚举，请直接使用`set`。
 
 `time`：<!-- md:samp TimeSpec -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.timespec.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`day`||
-  |`sunrise`||
-  |`noon`||
-  |`sunset`||
-  |`night`||
-  |`midnight`||
+  |`day`|command.enum.timespec.day|
+  |`sunrise`|command.enum.timespec.sunrise|
+  |`noon`|command.enum.timespec.noon|
+  |`sunset`|command.enum.timespec.sunset|
+  |`night`|command.enum.timespec.night|
+  |`midnight`|command.enum.timespec.midnight|
 
 
 
@@ -92,20 +98,22 @@
 ```
 
 //// html | div.result
+command.time.4.description
+
 ///// define
 `mode`：<!-- md:samp TimeModeQuery -->
 
-- 枚举类型。单值枚举，请直接使用`query`。
+- 枚举类型。command.enum.timemodequery.description单值枚举，请直接使用`query`。
 
 `time`：<!-- md:samp TimeQuery -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.timequery.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`daytime`||
-  |`gametime`||
-  |`day`||
+  |`daytime`|command.enum.timequery.daytime|
+  |`gametime`|command.enum.timequery.gametime|
+  |`day`|command.enum.timequery.day|
 
 
 

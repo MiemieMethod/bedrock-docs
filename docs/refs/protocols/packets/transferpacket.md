@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp TransferPacket -->数据包，数字ID是`85`。
+<!-- md:samp TransferPacket -->数据包，数字ID是`85`。该数据包用于protocol.packet.transferpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Server Address：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.transferpacket.server_address.description
 
 
 ////
 //// define
 Server Port：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.transferpacket.server_port.description
 
 
 ////

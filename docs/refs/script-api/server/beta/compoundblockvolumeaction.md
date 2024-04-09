@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CompoundBlockVolumeAction`枚举。
+`CompoundBlockVolumeAction`枚举。script_api.@minecraft/server.compoundblockvolumeaction.description
 
 ## 常量
 

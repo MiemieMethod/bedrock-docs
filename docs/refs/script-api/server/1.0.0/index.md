@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`@minecraft/server`模块的`1.0.0`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。
+`@minecraft/server`模块的`1.0.0`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
 
 /// info | 依赖
 该模块依赖于以下模块：
@@ -26,7 +26,7 @@ static read-only system: System;
 //// define
 `system`：[`System`](./system.md)
 
-- 属性。
+- script_api.@minecraft/server.scoreboardidentitytype.system.description
 
 
 ////
@@ -48,7 +48,7 @@ static read-only world: World;
 //// define
 `world`：[`World`](./world.md)
 
-- 属性。
+- script_api.@minecraft/server.scoreboardidentitytype.world.description
 
 
 ////

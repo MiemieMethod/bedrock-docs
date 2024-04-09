@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScriptEventMessageFilterOptions`接口。
+`ScriptEventMessageFilterOptions`接口。script_api.@minecraft/server.scripteventmessagefilteroptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ namespaces: string[];
 //// define
 `namespaces`：`string[]`
 
-- 属性。
+- script_api.@minecraft/server.scripteventmessagefilteroptions.namespaces.description
 
 
 ////

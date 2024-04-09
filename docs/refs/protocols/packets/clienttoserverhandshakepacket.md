@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ClientToServerHandshakePacket -->数据包，数字ID是`4`。
+<!-- md:samp ClientToServerHandshakePacket -->数据包，数字ID是`4`。该数据包用于protocol.packet.clienttoserverhandshakepacket.description
 
 ## 结构
 

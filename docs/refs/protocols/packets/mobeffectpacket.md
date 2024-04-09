@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MobEffectPacket -->数据包，数字ID是`28`。
+<!-- md:samp MobEffectPacket -->数据包，数字ID是`28`。该数据包用于protocol.packet.mobeffectpacket.description
 
 ## 结构
 
@@ -56,21 +56,21 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobeffectpacket.target_runtime_id.description
 
 
 ////
 //// define
 Event ID：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.mobeffectpacket.event_id.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`Add`|`1`||
-  |`Update`|`2`||
-  |`Remove`|`3`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Add`|`1`|protocol.enum.add|
+  |`Update`|`2`|protocol.enum.update|
+  |`Remove`|`3`|protocol.enum.remove|
 
 
 
@@ -78,35 +78,35 @@ Event ID：<!-- md:samp byte -->
 //// define
 Effect ID：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mobeffectpacket.effect_id.description
 
 
 ////
 //// define
 Effect Amplifier：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mobeffectpacket.effect_amplifier.description
 
 
 ////
 //// define
 Show Particles：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mobeffectpacket.show_particles.description
 
 
 ////
 //// define
 Effect Duration Ticks：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mobeffectpacket.effect_duration_ticks.description
 
 
 ////
 //// define
 Tick：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mobeffectpacket.tick.description
 
 
 ////

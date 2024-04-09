@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlaytestSessionResult`枚举。
+`PlaytestSessionResult`枚举。script_api.@minecraft/server-editor-bindings.playtestsessionresult.description
 
 ## 常量
 

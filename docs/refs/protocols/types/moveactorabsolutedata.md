@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MoveActorAbsoluteData -->类型。
+<!-- md:samp MoveActorAbsoluteData -->类型。该类型用于protocol.type.moveactorabsolutedata.description
 
 ## 结构
 
@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。The runtime 'id' of the actor being moved
+- 特殊类型。protocol.type.moveactorabsolutedata.actorruntimeid.descriptionThe runtime 'id' of the actor being moved
 
 
 ////
 //// define
 Header：<!-- md:samp byte -->
 
-- 基本类型。Header bits describing the status of the actor, see additional documentation in the supplemental documentation folder
+- 基本类型。protocol.type.moveactorabsolutedata.header.descriptionHeader bits describing the status of the actor, see additional documentation in the supplemental documentation folder
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。X/Y/Z coordinates of the position of the actor, each being a 4 byte float
+- 特殊类型。protocol.type.moveactorabsolutedata.position.descriptionX/Y/Z coordinates of the position of the actor, each being a 4 byte float
 
 
 ////
 //// define
 Rotation X：<!-- md:samp byte -->
 
-- 基本类型。The X rotation of the actor stored as an integer
+- 基本类型。protocol.type.moveactorabsolutedata.rotation_x.descriptionThe X rotation of the actor stored as an integer
 
 
 ////
 //// define
 Rotation Y：<!-- md:samp byte -->
 
-- 基本类型。The Y rotation of the actor stored as an integer
+- 基本类型。protocol.type.moveactorabsolutedata.rotation_y.descriptionThe Y rotation of the actor stored as an integer
 
 
 ////
 //// define
 Rotation Y Head：<!-- md:samp byte -->
 
-- 基本类型。The head rotation of the actor if and only if it's a Mob type, stored as an integer
+- 基本类型。protocol.type.moveactorabsolutedata.rotation_y_head.descriptionThe head rotation of the actor if and only if it's a Mob type, stored as an integer
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`StructureManager`类。
+`StructureManager`类。script_api.@minecraft/server.structuremanager.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.structuremanager.createempty.description
+
 ```js
 createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Structure
 ```
@@ -20,7 +22,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.structuremanager.identifier.createempty.description
 
 
 ////
@@ -28,7 +30,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 //// define
 `size`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.structuremanager.size.createempty.description
 
 
 ////
@@ -36,7 +38,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 //// define
 `saveMode`：[`StructureSaveMode`](./structuresavemode.md)
 
-- 参数3。
+- script_api.@minecraft/server.structuremanager.savemode.createempty.description
 
 
 ////
@@ -44,7 +46,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 //// define
 返回值：[`Structure`](./structure.md)
 
-- 返回值。
+- script_api.@minecraft/server.structuremanager.createempty.return
 
 
 ////
@@ -58,6 +60,8 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 
 ///
 
+script_api.@minecraft/server.structuremanager.createfromworld.description
+
 ```js
 createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolume, options?: StructureCreateOptions): Structure
 ```
@@ -66,7 +70,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.structuremanager.identifier.createfromworld.description
 
 
 ////
@@ -74,7 +78,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 参数2。
+- script_api.@minecraft/server.structuremanager.dimension.createfromworld.description
 
 
 ////
@@ -82,7 +86,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `blockVolume`：[`BlockVolume`](./blockvolume.md)
 
-- 参数3。
+- script_api.@minecraft/server.structuremanager.blockvolume.createfromworld.description
 
 
 ////
@@ -90,7 +94,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `options`：[`StructureCreateOptions`](./structurecreateoptions.md)|`undefined`
 
-- 参数4。
+- script_api.@minecraft/server.structuremanager.options.createfromworld.description
 
 
 ////
@@ -98,7 +102,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 返回值：[`Structure`](./structure.md)
 
-- 返回值。
+- script_api.@minecraft/server.structuremanager.createfromworld.return
 
 
 ////
@@ -112,6 +116,8 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 
 ///
 
+script_api.@minecraft/server.structuremanager.delete.description
+
 ```js
 delete(structure: string | Structure): boolean
 ```
@@ -120,7 +126,7 @@ delete(structure: string | Structure): boolean
 //// define
 `structure`：`string`|[`Structure`](./structure.md)
 
-- 参数1。
+- script_api.@minecraft/server.structuremanager.structure.delete.description
 
 
 ////
@@ -128,7 +134,7 @@ delete(structure: string | Structure): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.structuremanager.delete.return
 
 
 ////
@@ -142,6 +148,8 @@ delete(structure: string | Structure): boolean
 
 ///
 
+script_api.@minecraft/server.structuremanager.get.description
+
 ```js
 get(identifier: string): Structure | undefined
 ```
@@ -150,7 +158,7 @@ get(identifier: string): Structure | undefined
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.structuremanager.identifier.get.description
 
 
 ////
@@ -158,7 +166,7 @@ get(identifier: string): Structure | undefined
 //// define
 返回值：[`Structure`](./structure.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.structuremanager.get.return
 
 
 ////
@@ -172,6 +180,8 @@ get(identifier: string): Structure | undefined
 
 ///
 
+script_api.@minecraft/server.structuremanager.getids.description
+
 ```js
 getIds(): string[]
 ```
@@ -180,7 +190,7 @@ getIds(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.structuremanager.getids.return
 
 
 ////
@@ -194,6 +204,8 @@ getIds(): string[]
 
 ///
 
+script_api.@minecraft/server.structuremanager.place.description
+
 ```js
 place(structure: string | Structure, dimension: Dimension, location: Vector3, options?: StructurePlaceOptions): void
 ```
@@ -202,7 +214,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `structure`：`string`|[`Structure`](./structure.md)
 
-- 参数1。
+- script_api.@minecraft/server.structuremanager.structure.place.description
 
 
 ////
@@ -210,7 +222,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 参数2。
+- script_api.@minecraft/server.structuremanager.dimension.place.description
 
 
 ////
@@ -218,7 +230,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数3。
+- script_api.@minecraft/server.structuremanager.location.place.description
 
 
 ////
@@ -226,7 +238,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `options`：[`StructurePlaceOptions`](./structureplaceoptions.md)|`undefined`
 
-- 参数4。
+- script_api.@minecraft/server.structuremanager.options.place.description
 
 
 ////
@@ -234,7 +246,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.structuremanager.place.return
 
 
 ////

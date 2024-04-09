@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Tags`类。
+`Tags`类。script_api.@minecraft/server-gametest.tags.description
 
 ## 常量
 

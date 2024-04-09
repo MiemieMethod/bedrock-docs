@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/getchunkdata`命令Gets pixels for a specific chunk.
+`/getchunkdata`命令command.getchunkdata.description
 
 /// settings | 执行条件
 该命令需要权限等级：`host`|`3`。该命令需要开启作弊。
@@ -16,29 +16,31 @@
 ```
 
 //// html | div.result
+command.getchunkdata.1.description
+
 ///// define
 `dimension`：<!-- md:samp Dimension -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.dimension.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`overworld`||
-  |`nether`||
-  |`the_end`||
+  |`overworld`|command.enum.dimension.overworld|
+  |`nether`|command.enum.dimension.nether|
+  |`the_end`|command.enum.dimension.the_end|
 
 
 `chunkX`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.getchunkdata.chunkX.description
 
 `chunkZ`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.getchunkdata.chunkZ.description
 
 `height`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.getchunkdata.height.description
 
 
 /////

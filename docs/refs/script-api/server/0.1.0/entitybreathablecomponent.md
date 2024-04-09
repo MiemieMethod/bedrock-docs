@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityBreathableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityBreathableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitybreathablecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only breatheBlocks: BlockPermutation[];
 //// define
 `breatheBlocks`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.breatheblocks.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only breathesAir: boolean;
 //// define
 `breathesAir`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.breathesair.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only breathesLava: boolean;
 //// define
 `breathesLava`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.breatheslava.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only breathesSolids: boolean;
 //// define
 `breathesSolids`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.breathessolids.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only breathesWater: boolean;
 //// define
 `breathesWater`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.breatheswater.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only generatesBubbles: boolean;
 //// define
 `generatesBubbles`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.generatesbubbles.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only inhaleTime: float;
 //// define
 `inhaleTime`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.inhaletime.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only nonBreatheBlocks: BlockPermutation[];
 //// define
 `nonBreatheBlocks`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.nonbreatheblocks.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only suffocateTime: int32;
 //// define
 `suffocateTime`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.suffocatetime.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only totalSupply: int32;
 //// define
 `totalSupply`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entitybreathablecomponent.totalsupply.description
 
 
 ////
@@ -234,6 +234,8 @@ read-only totalSupply: int32;
 
 ///
 
+script_api.mojang-minecraft.entitybreathablecomponent.setairsupply.description
+
 ```js
 setAirSupply(value: int16): void
 ```
@@ -242,7 +244,7 @@ setAirSupply(value: int16): void
 //// define
 `value`：`int16`
 
-- 参数1。
+- script_api.mojang-minecraft.entitybreathablecomponent.value.setairsupply.description
 
 
 ////
@@ -250,7 +252,7 @@ setAirSupply(value: int16): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entitybreathablecomponent.setairsupply.return
 
 
 ////

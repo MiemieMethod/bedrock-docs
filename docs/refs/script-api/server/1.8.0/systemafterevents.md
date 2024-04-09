@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SystemAfterEvents`类。
+`SystemAfterEvents`类。script_api.@minecraft/server.systemafterevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only scriptEventReceive: ScriptEventCommandMessageAfterEventSignal;
 //// define
 `scriptEventReceive`：[`ScriptEventCommandMessageAfterEventSignal`](./scripteventcommandmessageaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.systemafterevents.scripteventreceive.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetDisplayObjectivePacket -->数据包，数字ID是`107`。
+<!-- md:samp SetDisplayObjectivePacket -->数据包，数字ID是`107`。该数据包用于protocol.packet.setdisplayobjectivepacket.description
 
 ## 结构
 
@@ -48,40 +48,40 @@ rankdir = LR
 //// define
 Display Slot Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setdisplayobjectivepacket.display_slot_name.description
 
 
 ////
 //// define
 Objective Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setdisplayobjectivepacket.objective_name.description
 
 
 ////
 //// define
 Objective Display Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setdisplayobjectivepacket.objective_display_name.description
 
 
 ////
 //// define
 Criteria Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setdisplayobjectivepacket.criteria_name.description
 
 
 ////
 //// define
 Sort Order：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setdisplayobjectivepacket.sort_order.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Ascending`|`0`||
-  |`Descending`|`1`||
+  |`Ascending`|`0`|protocol.enum.ascending|
+  |`Descending`|`1`|protocol.enum.descending|
 
 
 

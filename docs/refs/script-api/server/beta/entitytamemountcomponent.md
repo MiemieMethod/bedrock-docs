@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTameMountComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityTameMountComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitytamemountcomponent.description
 
 ## 常量
 
@@ -25,6 +25,8 @@ static read-only componentId = "minecraft:tamemount";
 
 ///
 
+script_api.@minecraft/server.entitytamemountcomponent.tame.description
+
 ```js
 tame(showParticles: boolean): void
 ```
@@ -33,7 +35,7 @@ tame(showParticles: boolean): void
 //// define
 `showParticles`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server.entitytamemountcomponent.showparticles.tame.description
 
 
 ////
@@ -41,7 +43,7 @@ tame(showParticles: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entitytamemountcomponent.tame.return
 
 
 ////

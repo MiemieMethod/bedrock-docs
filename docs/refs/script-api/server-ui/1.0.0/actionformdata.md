@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ActionFormData`类。
+`ActionFormData`类。script_api.@minecraft/server-ui.actionformdata.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-ui.actionformdata.body.description
+
 ```js
 body(bodyText: RawMessage | string): ActionFormData
 ```
@@ -20,7 +22,7 @@ body(bodyText: RawMessage | string): ActionFormData
 //// define
 `bodyText`：[`RawMessage`](../../server/1.2.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.actionformdata.bodytext.body.description
 
 
 ////
@@ -28,7 +30,7 @@ body(bodyText: RawMessage | string): ActionFormData
 //// define
 返回值：[`ActionFormData`](./actionformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.actionformdata.body.return
 
 
 ////
@@ -42,6 +44,8 @@ body(bodyText: RawMessage | string): ActionFormData
 
 ///
 
+script_api.@minecraft/server-ui.actionformdata.button.description
+
 ```js
 button(text: RawMessage | string, iconPath?: string): ActionFormData
 ```
@@ -50,7 +54,7 @@ button(text: RawMessage | string, iconPath?: string): ActionFormData
 //// define
 `text`：[`RawMessage`](../../server/1.2.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.actionformdata.text.button.description
 
 
 ////
@@ -58,7 +62,7 @@ button(text: RawMessage | string, iconPath?: string): ActionFormData
 //// define
 `iconPath`：`string`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-ui.actionformdata.iconpath.button.description
 
 
 ////
@@ -66,7 +70,7 @@ button(text: RawMessage | string, iconPath?: string): ActionFormData
 //// define
 返回值：[`ActionFormData`](./actionformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.actionformdata.button.return
 
 
 ////
@@ -80,6 +84,8 @@ button(text: RawMessage | string, iconPath?: string): ActionFormData
 
 ///
 
+script_api.@minecraft/server-ui.actionformdata.constructor.description
+
 ```js
 new constructor(): ActionFormData
 ```
@@ -88,7 +94,7 @@ new constructor(): ActionFormData
 //// define
 返回值：[`ActionFormData`](./actionformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.actionformdata.constructor.return
 
 
 ////
@@ -102,6 +108,8 @@ new constructor(): ActionFormData
 
 ///
 
+script_api.@minecraft/server-ui.actionformdata.show.description
+
 ```js
 show(player: Player): Promise<ActionFormResponse>
 ```
@@ -110,7 +118,7 @@ show(player: Player): Promise<ActionFormResponse>
 //// define
 `player`：[`Player`](../../server/1.2.0/player.md)
 
-- 参数1。
+- script_api.@minecraft/server-ui.actionformdata.player.show.description
 
 
 ////
@@ -118,7 +126,7 @@ show(player: Player): Promise<ActionFormResponse>
 //// define
 返回值：<code>Promise&lt;<a href="../actionformresponse/">ActionFormResponse</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server-ui.actionformdata.show.return
 
 
 ////
@@ -132,6 +140,8 @@ show(player: Player): Promise<ActionFormResponse>
 
 ///
 
+script_api.@minecraft/server-ui.actionformdata.title.description
+
 ```js
 title(titleText: RawMessage | string): ActionFormData
 ```
@@ -140,7 +150,7 @@ title(titleText: RawMessage | string): ActionFormData
 //// define
 `titleText`：[`RawMessage`](../../server/1.2.0/rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-ui.actionformdata.titletext.title.description
 
 
 ////
@@ -148,7 +158,7 @@ title(titleText: RawMessage | string): ActionFormData
 //// define
 返回值：[`ActionFormData`](./actionformdata.md)
 
-- 返回值。
+- script_api.@minecraft/server-ui.actionformdata.title.return
 
 
 ////

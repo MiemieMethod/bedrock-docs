@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemEnchants -->类型。
+<!-- md:samp ItemEnchants -->类型。该类型用于protocol.type.itemenchants.description
 
 ## 结构
 
@@ -80,7 +80,7 @@ rankdir = LR
 //// define
 Slot：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemenchants.slot.description
 
 
 ////
@@ -92,7 +92,7 @@ Slot：<!-- md:samp int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemenchants.数组大小.description
 
 
 /////
@@ -104,50 +104,50 @@ Slot：<!-- md:samp int -->
 ////// define
 Enchant Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.itemenchants.enchant_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`ArmorAll`|`0`||
-  |`ArmorFire`|`1`||
-  |`ArmorFall`|`2`||
-  |`ArmorExplosive`|`3`||
-  |`ArmorProjectile`|`4`||
-  |`ArmorThorns`|`5`||
-  |`WaterBreath`|`6`||
-  |`WaterSpeed`|`7`||
-  |`WaterAffinity`|`8`||
-  |`WeaponDamage`|`9`||
-  |`WeaponUndead`|`10`||
-  |`WeaponArthropod`|`11`||
-  |`WeaponKnockback`|`12`||
-  |`WeaponFire`|`13`||
-  |`WeaponLoot`|`14`||
-  |`MiningEfficiency`|`15`||
-  |`MiningSilkTouch`|`16`||
-  |`MiningDurability`|`17`||
-  |`MiningLoot`|`18`||
-  |`BowDamage`|`19`||
-  |`BowKnockback`|`20`||
-  |`BowFire`|`21`||
-  |`BowInfinity`|`22`||
-  |`FishingLoot`|`23`||
-  |`FishingLure`|`24`||
-  |`FrostWalker`|`25`||
-  |`Mending`|`26`||
-  |`CurseBinding`|`27`||
-  |`CurseVanishing`|`28`||
-  |`TridentImpaling`|`29`||
-  |`TridentRiptide`|`30`||
-  |`TridentLoyalty`|`31`||
-  |`TridentChanneling`|`32`||
-  |`CrossbowMultishot`|`33`||
-  |`CrossbowPiercing`|`34`||
-  |`CrossbowQuickCharge`|`35`||
-  |`SoulSpeed`|`36`||
-  |`SwiftSneak`|`37`||
-  |`NumEnchantments`|`38`||
-  |`InvalidEnchantment`|`39`||
+  |`ArmorAll`|`0`|protocol.enum.armorall|
+  |`ArmorFire`|`1`|protocol.enum.armorfire|
+  |`ArmorFall`|`2`|protocol.enum.armorfall|
+  |`ArmorExplosive`|`3`|protocol.enum.armorexplosive|
+  |`ArmorProjectile`|`4`|protocol.enum.armorprojectile|
+  |`ArmorThorns`|`5`|protocol.enum.armorthorns|
+  |`WaterBreath`|`6`|protocol.enum.waterbreath|
+  |`WaterSpeed`|`7`|protocol.enum.waterspeed|
+  |`WaterAffinity`|`8`|protocol.enum.wateraffinity|
+  |`WeaponDamage`|`9`|protocol.enum.weapondamage|
+  |`WeaponUndead`|`10`|protocol.enum.weaponundead|
+  |`WeaponArthropod`|`11`|protocol.enum.weaponarthropod|
+  |`WeaponKnockback`|`12`|protocol.enum.weaponknockback|
+  |`WeaponFire`|`13`|protocol.enum.weaponfire|
+  |`WeaponLoot`|`14`|protocol.enum.weaponloot|
+  |`MiningEfficiency`|`15`|protocol.enum.miningefficiency|
+  |`MiningSilkTouch`|`16`|protocol.enum.miningsilktouch|
+  |`MiningDurability`|`17`|protocol.enum.miningdurability|
+  |`MiningLoot`|`18`|protocol.enum.miningloot|
+  |`BowDamage`|`19`|protocol.enum.bowdamage|
+  |`BowKnockback`|`20`|protocol.enum.bowknockback|
+  |`BowFire`|`21`|protocol.enum.bowfire|
+  |`BowInfinity`|`22`|protocol.enum.bowinfinity|
+  |`FishingLoot`|`23`|protocol.enum.fishingloot|
+  |`FishingLure`|`24`|protocol.enum.fishinglure|
+  |`FrostWalker`|`25`|protocol.enum.frostwalker|
+  |`Mending`|`26`|protocol.enum.mending|
+  |`CurseBinding`|`27`|protocol.enum.cursebinding|
+  |`CurseVanishing`|`28`|protocol.enum.cursevanishing|
+  |`TridentImpaling`|`29`|protocol.enum.tridentimpaling|
+  |`TridentRiptide`|`30`|protocol.enum.tridentriptide|
+  |`TridentLoyalty`|`31`|protocol.enum.tridentloyalty|
+  |`TridentChanneling`|`32`|protocol.enum.tridentchanneling|
+  |`CrossbowMultishot`|`33`|protocol.enum.crossbowmultishot|
+  |`CrossbowPiercing`|`34`|protocol.enum.crossbowpiercing|
+  |`CrossbowQuickCharge`|`35`|protocol.enum.crossbowquickcharge|
+  |`SoulSpeed`|`36`|protocol.enum.soulspeed|
+  |`SwiftSneak`|`37`|protocol.enum.swiftsneak|
+  |`NumEnchantments`|`38`|protocol.enum.numenchantments|
+  |`InvalidEnchantment`|`39`|protocol.enum.invalidenchantment|
 
 
 
@@ -155,86 +155,7 @@ Enchant Type：<!-- md:samp byte -->
 ////// define
 Enchant Level：<!-- md:samp byte -->
 
-- 基本类型。
-
-
-//////
-
-/////
-
-////
-```title='Item Enchants For Given Activation'
-[array_size][[example_element]..]
-```
-
-//// html | div.result
-///// define
-数组大小：<!-- md:samp unsigned varint -->
-
-- 基本类型。
-
-
-/////
-```title='示例元素'
-[enchant_type][enchant_level]
-```
-
-///// html | div.result
-////// define
-Enchant Type：<!-- md:samp byte -->
-
-- 基本类型枚举。枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`ArmorAll`|`0`||
-  |`ArmorFire`|`1`||
-  |`ArmorFall`|`2`||
-  |`ArmorExplosive`|`3`||
-  |`ArmorProjectile`|`4`||
-  |`ArmorThorns`|`5`||
-  |`WaterBreath`|`6`||
-  |`WaterSpeed`|`7`||
-  |`WaterAffinity`|`8`||
-  |`WeaponDamage`|`9`||
-  |`WeaponUndead`|`10`||
-  |`WeaponArthropod`|`11`||
-  |`WeaponKnockback`|`12`||
-  |`WeaponFire`|`13`||
-  |`WeaponLoot`|`14`||
-  |`MiningEfficiency`|`15`||
-  |`MiningSilkTouch`|`16`||
-  |`MiningDurability`|`17`||
-  |`MiningLoot`|`18`||
-  |`BowDamage`|`19`||
-  |`BowKnockback`|`20`||
-  |`BowFire`|`21`||
-  |`BowInfinity`|`22`||
-  |`FishingLoot`|`23`||
-  |`FishingLure`|`24`||
-  |`FrostWalker`|`25`||
-  |`Mending`|`26`||
-  |`CurseBinding`|`27`||
-  |`CurseVanishing`|`28`||
-  |`TridentImpaling`|`29`||
-  |`TridentRiptide`|`30`||
-  |`TridentLoyalty`|`31`||
-  |`TridentChanneling`|`32`||
-  |`CrossbowMultishot`|`33`||
-  |`CrossbowPiercing`|`34`||
-  |`CrossbowQuickCharge`|`35`||
-  |`SoulSpeed`|`36`||
-  |`SwiftSneak`|`37`||
-  |`NumEnchantments`|`38`||
-  |`InvalidEnchantment`|`39`||
-
-
-
-//////
-////// define
-Enchant Level：<!-- md:samp byte -->
-
-- 基本类型。
+- 基本类型。protocol.type.itemenchants.enchant_level.description
 
 
 //////
@@ -250,7 +171,7 @@ Enchant Level：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemenchants.数组大小.description
 
 
 /////
@@ -262,50 +183,50 @@ Enchant Level：<!-- md:samp byte -->
 ////// define
 Enchant Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.itemenchants.enchant_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`ArmorAll`|`0`||
-  |`ArmorFire`|`1`||
-  |`ArmorFall`|`2`||
-  |`ArmorExplosive`|`3`||
-  |`ArmorProjectile`|`4`||
-  |`ArmorThorns`|`5`||
-  |`WaterBreath`|`6`||
-  |`WaterSpeed`|`7`||
-  |`WaterAffinity`|`8`||
-  |`WeaponDamage`|`9`||
-  |`WeaponUndead`|`10`||
-  |`WeaponArthropod`|`11`||
-  |`WeaponKnockback`|`12`||
-  |`WeaponFire`|`13`||
-  |`WeaponLoot`|`14`||
-  |`MiningEfficiency`|`15`||
-  |`MiningSilkTouch`|`16`||
-  |`MiningDurability`|`17`||
-  |`MiningLoot`|`18`||
-  |`BowDamage`|`19`||
-  |`BowKnockback`|`20`||
-  |`BowFire`|`21`||
-  |`BowInfinity`|`22`||
-  |`FishingLoot`|`23`||
-  |`FishingLure`|`24`||
-  |`FrostWalker`|`25`||
-  |`Mending`|`26`||
-  |`CurseBinding`|`27`||
-  |`CurseVanishing`|`28`||
-  |`TridentImpaling`|`29`||
-  |`TridentRiptide`|`30`||
-  |`TridentLoyalty`|`31`||
-  |`TridentChanneling`|`32`||
-  |`CrossbowMultishot`|`33`||
-  |`CrossbowPiercing`|`34`||
-  |`CrossbowQuickCharge`|`35`||
-  |`SoulSpeed`|`36`||
-  |`SwiftSneak`|`37`||
-  |`NumEnchantments`|`38`||
-  |`InvalidEnchantment`|`39`||
+  |`ArmorAll`|`0`|protocol.enum.armorall|
+  |`ArmorFire`|`1`|protocol.enum.armorfire|
+  |`ArmorFall`|`2`|protocol.enum.armorfall|
+  |`ArmorExplosive`|`3`|protocol.enum.armorexplosive|
+  |`ArmorProjectile`|`4`|protocol.enum.armorprojectile|
+  |`ArmorThorns`|`5`|protocol.enum.armorthorns|
+  |`WaterBreath`|`6`|protocol.enum.waterbreath|
+  |`WaterSpeed`|`7`|protocol.enum.waterspeed|
+  |`WaterAffinity`|`8`|protocol.enum.wateraffinity|
+  |`WeaponDamage`|`9`|protocol.enum.weapondamage|
+  |`WeaponUndead`|`10`|protocol.enum.weaponundead|
+  |`WeaponArthropod`|`11`|protocol.enum.weaponarthropod|
+  |`WeaponKnockback`|`12`|protocol.enum.weaponknockback|
+  |`WeaponFire`|`13`|protocol.enum.weaponfire|
+  |`WeaponLoot`|`14`|protocol.enum.weaponloot|
+  |`MiningEfficiency`|`15`|protocol.enum.miningefficiency|
+  |`MiningSilkTouch`|`16`|protocol.enum.miningsilktouch|
+  |`MiningDurability`|`17`|protocol.enum.miningdurability|
+  |`MiningLoot`|`18`|protocol.enum.miningloot|
+  |`BowDamage`|`19`|protocol.enum.bowdamage|
+  |`BowKnockback`|`20`|protocol.enum.bowknockback|
+  |`BowFire`|`21`|protocol.enum.bowfire|
+  |`BowInfinity`|`22`|protocol.enum.bowinfinity|
+  |`FishingLoot`|`23`|protocol.enum.fishingloot|
+  |`FishingLure`|`24`|protocol.enum.fishinglure|
+  |`FrostWalker`|`25`|protocol.enum.frostwalker|
+  |`Mending`|`26`|protocol.enum.mending|
+  |`CurseBinding`|`27`|protocol.enum.cursebinding|
+  |`CurseVanishing`|`28`|protocol.enum.cursevanishing|
+  |`TridentImpaling`|`29`|protocol.enum.tridentimpaling|
+  |`TridentRiptide`|`30`|protocol.enum.tridentriptide|
+  |`TridentLoyalty`|`31`|protocol.enum.tridentloyalty|
+  |`TridentChanneling`|`32`|protocol.enum.tridentchanneling|
+  |`CrossbowMultishot`|`33`|protocol.enum.crossbowmultishot|
+  |`CrossbowPiercing`|`34`|protocol.enum.crossbowpiercing|
+  |`CrossbowQuickCharge`|`35`|protocol.enum.crossbowquickcharge|
+  |`SoulSpeed`|`36`|protocol.enum.soulspeed|
+  |`SwiftSneak`|`37`|protocol.enum.swiftsneak|
+  |`NumEnchantments`|`38`|protocol.enum.numenchantments|
+  |`InvalidEnchantment`|`39`|protocol.enum.invalidenchantment|
 
 
 
@@ -313,7 +234,86 @@ Enchant Type：<!-- md:samp byte -->
 ////// define
 Enchant Level：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemenchants.enchant_level.description
+
+
+//////
+
+/////
+
+////
+```title='Item Enchants For Given Activation'
+[array_size][[example_element]..]
+```
+
+//// html | div.result
+///// define
+数组大小：<!-- md:samp unsigned varint -->
+
+- 基本类型。protocol.type.itemenchants.数组大小.description
+
+
+/////
+```title='示例元素'
+[enchant_type][enchant_level]
+```
+
+///// html | div.result
+////// define
+Enchant Type：<!-- md:samp byte -->
+
+- 基本类型枚举。protocol.type.itemenchants.enchant_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ArmorAll`|`0`|protocol.enum.armorall|
+  |`ArmorFire`|`1`|protocol.enum.armorfire|
+  |`ArmorFall`|`2`|protocol.enum.armorfall|
+  |`ArmorExplosive`|`3`|protocol.enum.armorexplosive|
+  |`ArmorProjectile`|`4`|protocol.enum.armorprojectile|
+  |`ArmorThorns`|`5`|protocol.enum.armorthorns|
+  |`WaterBreath`|`6`|protocol.enum.waterbreath|
+  |`WaterSpeed`|`7`|protocol.enum.waterspeed|
+  |`WaterAffinity`|`8`|protocol.enum.wateraffinity|
+  |`WeaponDamage`|`9`|protocol.enum.weapondamage|
+  |`WeaponUndead`|`10`|protocol.enum.weaponundead|
+  |`WeaponArthropod`|`11`|protocol.enum.weaponarthropod|
+  |`WeaponKnockback`|`12`|protocol.enum.weaponknockback|
+  |`WeaponFire`|`13`|protocol.enum.weaponfire|
+  |`WeaponLoot`|`14`|protocol.enum.weaponloot|
+  |`MiningEfficiency`|`15`|protocol.enum.miningefficiency|
+  |`MiningSilkTouch`|`16`|protocol.enum.miningsilktouch|
+  |`MiningDurability`|`17`|protocol.enum.miningdurability|
+  |`MiningLoot`|`18`|protocol.enum.miningloot|
+  |`BowDamage`|`19`|protocol.enum.bowdamage|
+  |`BowKnockback`|`20`|protocol.enum.bowknockback|
+  |`BowFire`|`21`|protocol.enum.bowfire|
+  |`BowInfinity`|`22`|protocol.enum.bowinfinity|
+  |`FishingLoot`|`23`|protocol.enum.fishingloot|
+  |`FishingLure`|`24`|protocol.enum.fishinglure|
+  |`FrostWalker`|`25`|protocol.enum.frostwalker|
+  |`Mending`|`26`|protocol.enum.mending|
+  |`CurseBinding`|`27`|protocol.enum.cursebinding|
+  |`CurseVanishing`|`28`|protocol.enum.cursevanishing|
+  |`TridentImpaling`|`29`|protocol.enum.tridentimpaling|
+  |`TridentRiptide`|`30`|protocol.enum.tridentriptide|
+  |`TridentLoyalty`|`31`|protocol.enum.tridentloyalty|
+  |`TridentChanneling`|`32`|protocol.enum.tridentchanneling|
+  |`CrossbowMultishot`|`33`|protocol.enum.crossbowmultishot|
+  |`CrossbowPiercing`|`34`|protocol.enum.crossbowpiercing|
+  |`CrossbowQuickCharge`|`35`|protocol.enum.crossbowquickcharge|
+  |`SoulSpeed`|`36`|protocol.enum.soulspeed|
+  |`SwiftSneak`|`37`|protocol.enum.swiftsneak|
+  |`NumEnchantments`|`38`|protocol.enum.numenchantments|
+  |`InvalidEnchantment`|`39`|protocol.enum.invalidenchantment|
+
+
+
+//////
+////// define
+Enchant Level：<!-- md:samp byte -->
+
+- 基本类型。protocol.type.itemenchants.enchant_level.description
 
 
 //////

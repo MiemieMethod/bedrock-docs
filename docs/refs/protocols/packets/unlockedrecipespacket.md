@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UnlockedRecipesPacket -->数据包，数字ID是`199`。
+<!-- md:samp UnlockedRecipesPacket -->数据包，数字ID是`199`。该数据包用于protocol.packet.unlockedrecipespacket.description
 
 ## 结构
 
@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Packet Type：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.unlockedrecipespacket.packet_type.description
 
 
 ////
@@ -56,7 +56,7 @@ Packet Type：<!-- md:samp unsigned int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.unlockedrecipespacket.数组大小.description
 
 
 /////
@@ -68,7 +68,7 @@ Packet Type：<!-- md:samp unsigned int -->
 ////// define
 Recipe：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.unlockedrecipespacket.recipe.description
 
 
 //////

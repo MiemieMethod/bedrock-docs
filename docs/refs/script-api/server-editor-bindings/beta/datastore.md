@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataStore`类。
+`DataStore`类。script_api.@minecraft/server-editor-bindings.datastore.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only actionContainer: DataStoreActionContainer;
 //// define
 `actionContainer`：[`DataStoreActionContainer`](./datastoreactioncontainer.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.datastore.actioncontainer.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only afterEvents: DataStoreAfterEvents;
 //// define
 `afterEvents`：[`DataStoreAfterEvents`](./datastoreafterevents.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.datastore.afterevents.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only menuContainer: DataStoreMenuContainer;
 //// define
 `menuContainer`：[`DataStoreMenuContainer`](./datastoremenucontainer.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.datastore.menucontainer.description
 
 
 ////

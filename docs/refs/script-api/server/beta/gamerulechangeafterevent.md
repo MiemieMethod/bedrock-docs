@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameRuleChangeAfterEvent`类。
+`GameRuleChangeAfterEvent`类。script_api.@minecraft/server.gamerulechangeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only rule: GameRule;
 //// define
 `rule`：[`GameRule`](./gamerule.md)
 
-- 属性。
+- script_api.@minecraft/server.gamerulechangeafterevent.rule.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only value: boolean | float;
 //// define
 `value`：`boolean`|`float`
 
-- 属性。
+- script_api.@minecraft/server.gamerulechangeafterevent.value.description
 
 
 ////

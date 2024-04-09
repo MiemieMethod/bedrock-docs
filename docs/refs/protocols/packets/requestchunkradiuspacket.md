@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RequestChunkRadiusPacket -->数据包，数字ID是`69`。
+<!-- md:samp RequestChunkRadiusPacket -->数据包，数字ID是`69`。该数据包用于protocol.packet.requestchunkradiuspacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Chunk Radius：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.requestchunkradiuspacket.chunk_radius.description
 
 
 ////
 //// define
 Max ChunkRadius：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.requestchunkradiuspacket.max_chunkradius.description
 
 
 ////

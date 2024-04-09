@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPalette`类。
+`BlockPalette`类。script_api.@minecraft/server-editor-bindings.blockpalette.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.blockpalette.constructor.description
+
 ```js
 new constructor(): BlockPalette
 ```
@@ -20,7 +22,7 @@ new constructor(): BlockPalette
 //// define
 返回值：[`BlockPalette`](./blockpalette.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.blockpalette.constructor.return
 
 
 ////
@@ -34,6 +36,8 @@ new constructor(): BlockPalette
 
 ///
 
+script_api.@minecraft/server-editor-bindings.blockpalette.getitem.description
+
 ```js
 getItem(index: int32): IBlockPaletteItem
 ```
@@ -42,7 +46,7 @@ getItem(index: int32): IBlockPaletteItem
 //// define
 `index`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.blockpalette.index.getitem.description
 
 
 ////
@@ -50,7 +54,7 @@ getItem(index: int32): IBlockPaletteItem
 //// define
 返回值：[`IBlockPaletteItem`](./iblockpaletteitem.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.blockpalette.getitem.return
 
 
 ////
@@ -64,6 +68,8 @@ getItem(index: int32): IBlockPaletteItem
 
 ///
 
+script_api.@minecraft/server-editor-bindings.blockpalette.removeitemat.description
+
 ```js
 removeItemAt(index: int32): void
 ```
@@ -72,7 +78,7 @@ removeItemAt(index: int32): void
 //// define
 `index`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.blockpalette.index.removeitemat.description
 
 
 ////
@@ -80,7 +86,7 @@ removeItemAt(index: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.blockpalette.removeitemat.return
 
 
 ////
@@ -94,6 +100,8 @@ removeItemAt(index: int32): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.blockpalette.removeitems.description
+
 ```js
 removeItems(): void
 ```
@@ -102,7 +110,7 @@ removeItems(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.blockpalette.removeitems.return
 
 
 ////
@@ -116,6 +124,8 @@ removeItems(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.blockpalette.setitem.description
+
 ```js
 setItem(blockPaletteItem: IBlockPaletteItem, index: int32): void
 ```
@@ -124,7 +134,7 @@ setItem(blockPaletteItem: IBlockPaletteItem, index: int32): void
 //// define
 `blockPaletteItem`：[`IBlockPaletteItem`](./iblockpaletteitem.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.blockpalette.blockpaletteitem.setitem.description
 
 
 ////
@@ -132,7 +142,7 @@ setItem(blockPaletteItem: IBlockPaletteItem, index: int32): void
 //// define
 `index`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.blockpalette.index.setitem.description
 
 
 ////
@@ -140,7 +150,7 @@ setItem(blockPaletteItem: IBlockPaletteItem, index: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.blockpalette.setitem.return
 
 
 ////

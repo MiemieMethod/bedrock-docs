@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MoveActorAbsolutePacket -->数据包，数字ID是`18`。
+<!-- md:samp MoveActorAbsolutePacket -->数据包，数字ID是`18`。该数据包用于protocol.packet.moveactorabsolutepacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Move Data：[<!-- md:samp MoveActorAbsoluteData -->](../types/moveactorabsolutedata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.moveactorabsolutepacket.move_data.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ToastRequestPacket -->数据包，数字ID是`186`。
+<!-- md:samp ToastRequestPacket -->数据包，数字ID是`186`。该数据包用于protocol.packet.toastrequestpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Title：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.toastrequestpacket.title.description
 
 
 ////
 //// define
 Content：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.toastrequestpacket.content.description
 
 
 ////

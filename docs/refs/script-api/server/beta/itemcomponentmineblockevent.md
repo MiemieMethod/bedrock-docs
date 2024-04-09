@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemComponentMineBlockEvent`类。
+`ItemComponentMineBlockEvent`类。script_api.@minecraft/server.itemcomponentmineblockevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentmineblockevent.block.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentmineblockevent.itemstack.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only minedBlockPermutation: BlockPermutation;
 //// define
 `minedBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentmineblockevent.minedblockpermutation.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only source: Entity;
 //// define
 `source`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.itemcomponentmineblockevent.source.description
 
 
 ////

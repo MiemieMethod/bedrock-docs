@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CompoundBlockVolume`类。
+`CompoundBlockVolume`类。script_api.@minecraft/server.compoundblockvolume.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only capacity: uint64;
 //// define
 `capacity`：`uint64`
 
-- 属性。
+- script_api.@minecraft/server.compoundblockvolume.capacity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only volumeCount: uint64;
 //// define
 `volumeCount`：`uint64`
 
-- 属性。
+- script_api.@minecraft/server.compoundblockvolume.volumecount.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only volumeCount: uint64;
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.clear.description
+
 ```js
 clear(): void
 ```
@@ -66,7 +68,7 @@ clear(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.clear.return
 
 
 ////
@@ -80,6 +82,8 @@ clear(): void
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.constructor.description
+
 ```js
 new constructor(origin?: Vector3): CompoundBlockVolume
 ```
@@ -88,7 +92,7 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 //// define
 `origin`：[`Vector3`](./vector3.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.compoundblockvolume.origin.constructor.description
 
 
 ////
@@ -96,7 +100,7 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 //// define
 返回值：[`CompoundBlockVolume`](./compoundblockvolume.md)
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.constructor.return
 
 
 ////
@@ -110,6 +114,8 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.getblocklocationiterator.description
+
 ```js
 getBlockLocationIterator(): BlockLocationIterator
 ```
@@ -118,7 +124,7 @@ getBlockLocationIterator(): BlockLocationIterator
 //// define
 返回值：[`BlockLocationIterator`](./blocklocationiterator.md)
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.getblocklocationiterator.return
 
 
 ////
@@ -132,6 +138,8 @@ getBlockLocationIterator(): BlockLocationIterator
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.getboundingbox.description
+
 ```js
 getBoundingBox(): BoundingBox
 ```
@@ -140,7 +148,7 @@ getBoundingBox(): BoundingBox
 //// define
 返回值：[`BoundingBox`](./boundingbox.md)
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.getboundingbox.return
 
 
 ////
@@ -154,6 +162,8 @@ getBoundingBox(): BoundingBox
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.getmax.description
+
 ```js
 getMax(): Vector3
 ```
@@ -162,7 +172,7 @@ getMax(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.getmax.return
 
 
 ////
@@ -176,6 +186,8 @@ getMax(): Vector3
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.getmin.description
+
 ```js
 getMin(): Vector3
 ```
@@ -184,7 +196,7 @@ getMin(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.getmin.return
 
 
 ////
@@ -198,6 +210,8 @@ getMin(): Vector3
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.getorigin.description
+
 ```js
 getOrigin(): Vector3
 ```
@@ -206,7 +220,7 @@ getOrigin(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.getorigin.return
 
 
 ////
@@ -220,6 +234,8 @@ getOrigin(): Vector3
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.isempty.description
+
 ```js
 isEmpty(): boolean
 ```
@@ -228,7 +244,7 @@ isEmpty(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.isempty.return
 
 
 ////
@@ -242,6 +258,8 @@ isEmpty(): boolean
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.isinside.description
+
 ```js
 isInside(worldLocation: Vector3): boolean
 ```
@@ -250,7 +268,7 @@ isInside(worldLocation: Vector3): boolean
 //// define
 `worldLocation`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.compoundblockvolume.worldlocation.isinside.description
 
 
 ////
@@ -258,7 +276,7 @@ isInside(worldLocation: Vector3): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.isinside.return
 
 
 ////
@@ -272,6 +290,8 @@ isInside(worldLocation: Vector3): boolean
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.peeklastvolume.description
+
 ```js
 peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): CompoundBlockVolumeItem | undefined
 ```
@@ -280,7 +300,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 //// define
 `forceRelativity`：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.compoundblockvolume.forcerelativity.peeklastvolume.description
 
 
 ////
@@ -288,7 +308,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 //// define
 返回值：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.peeklastvolume.return
 
 
 ////
@@ -302,6 +322,8 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.popvolume.description
+
 ```js
 popVolume(): boolean
 ```
@@ -310,7 +332,7 @@ popVolume(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.popvolume.return
 
 
 ////
@@ -324,6 +346,8 @@ popVolume(): boolean
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.pushvolume.description
+
 ```js
 pushVolume(item: CompoundBlockVolumeItem): void
 ```
@@ -332,7 +356,7 @@ pushVolume(item: CompoundBlockVolumeItem): void
 //// define
 `item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
 
-- 参数1。
+- script_api.@minecraft/server.compoundblockvolume.item.pushvolume.description
 
 
 ////
@@ -340,7 +364,7 @@ pushVolume(item: CompoundBlockVolumeItem): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.pushvolume.return
 
 
 ////
@@ -354,6 +378,8 @@ pushVolume(item: CompoundBlockVolumeItem): void
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.replaceoraddlastvolume.description
+
 ```js
 replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 ```
@@ -362,7 +388,7 @@ replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 //// define
 `item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
 
-- 参数1。
+- script_api.@minecraft/server.compoundblockvolume.item.replaceoraddlastvolume.description
 
 
 ////
@@ -370,7 +396,7 @@ replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.replaceoraddlastvolume.return
 
 
 ////
@@ -384,6 +410,8 @@ replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.setorigin.description
+
 ```js
 setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 ```
@@ -392,7 +420,7 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `position`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.compoundblockvolume.position.setorigin.description
 
 
 ////
@@ -400,7 +428,7 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `preserveExistingVolumes`：`boolean`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.compoundblockvolume.preserveexistingvolumes.setorigin.description
 
 
 ////
@@ -408,7 +436,7 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.setorigin.return
 
 
 ////
@@ -422,6 +450,8 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 
 ///
 
+script_api.@minecraft/server.compoundblockvolume.translateorigin.description
+
 ```js
 translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 ```
@@ -430,7 +460,7 @@ translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `delta`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.compoundblockvolume.delta.translateorigin.description
 
 
 ////
@@ -438,7 +468,7 @@ translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `preserveExistingVolumes`：`boolean`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.compoundblockvolume.preserveexistingvolumes.translateorigin.description
 
 
 ////
@@ -446,7 +476,7 @@ translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.compoundblockvolume.translateorigin.return
 
 
 ////

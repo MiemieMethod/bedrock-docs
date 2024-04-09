@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldInitializeEventSignal`类。
+`WorldInitializeEventSignal`类。script_api.mojang-minecraft.worldinitializeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.worldinitializeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: WorldInitializeEvent) => void): (arg: WorldInitializeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: WorldInitializeEvent) => void): (arg: WorldInitializeE
 //// define
 `callback`：<code>(<a href="../worldinitializeevent/">WorldInitializeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.worldinitializeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: WorldInitializeEvent) => void): (arg: WorldInitializeE
 //// define
 返回值：<code>(<a href="../worldinitializeevent/">WorldInitializeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.worldinitializeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: WorldInitializeEvent) => void): (arg: WorldInitializeE
 
 ///
 
+script_api.mojang-minecraft.worldinitializeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: WorldInitializeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: WorldInitializeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../worldinitializeevent/">WorldInitializeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.worldinitializeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: WorldInitializeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.worldinitializeeventsignal.unsubscribe.return
 
 
 ////

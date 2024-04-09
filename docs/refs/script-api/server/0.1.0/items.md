@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Items`类。
+`Items`类。script_api.mojang-minecraft.items.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.items.get.description
+
 ```js
 static get(itemId: string): ItemType | undefined
 ```
@@ -20,7 +22,7 @@ static get(itemId: string): ItemType | undefined
 //// define
 `itemId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.items.itemid.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(itemId: string): ItemType | undefined
 //// define
 返回值：[`ItemType`](./itemtype.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.items.get.return
 
 
 ////

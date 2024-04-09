@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemStartChargeEventSignal`类。
+`ItemStartChargeEventSignal`类。script_api.mojang-minecraft.itemstartchargeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.itemstartchargeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ItemStartChargeEvent) => void): (arg: ItemStartChargeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ItemStartChargeEvent) => void): (arg: ItemStartChargeE
 //// define
 `callback`：<code>(<a href="../itemstartchargeevent/">ItemStartChargeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemstartchargeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ItemStartChargeEvent) => void): (arg: ItemStartChargeE
 //// define
 返回值：<code>(<a href="../itemstartchargeevent/">ItemStartChargeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.itemstartchargeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ItemStartChargeEvent) => void): (arg: ItemStartChargeE
 
 ///
 
+script_api.mojang-minecraft.itemstartchargeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ItemStartChargeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ItemStartChargeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemstartchargeevent/">ItemStartChargeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemstartchargeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ItemStartChargeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.itemstartchargeeventsignal.unsubscribe.return
 
 
 ////

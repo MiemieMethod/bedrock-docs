@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CameraPacket -->数据包，数字ID是`73`。
+<!-- md:samp CameraPacket -->数据包，数字ID是`73`。该数据包用于protocol.packet.camerapacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Camera ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.camerapacket.camera_id.description
 
 
 ////
 //// define
 Target Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.camerapacket.target_player_id.description
 
 
 ////

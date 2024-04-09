@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FeedItemEffect`类。
+`FeedItemEffect`类。script_api.mojang-minecraft.feeditemeffect.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only amplifier: int32;
 //// define
 `amplifier`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.feeditemeffect.amplifier.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only chance: float;
 //// define
 `chance`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.feeditemeffect.chance.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only duration: int32;
 //// define
 `duration`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.feeditemeffect.duration.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.feeditemeffect.name.description
 
 
 ////

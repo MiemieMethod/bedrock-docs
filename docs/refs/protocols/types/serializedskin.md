@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SerializedSkin -->类型。
+<!-- md:samp SerializedSkin -->类型。该类型用于protocol.type.serializedskin.description
 
 ## 结构
 
@@ -208,42 +208,42 @@ rankdir = LR
 //// define
 Skin Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.skin_id.description
 
 
 ////
 //// define
 PlayFab Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.playfab_id.description
 
 
 ////
 //// define
 Skin Resource Patch：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Represents a json blob that contains information about geometry, animations, animation controllers, and attachables, that can be applied to a skin when deserializing.
+- 特殊类型。protocol.type.serializedskin.skin_resource_patch.descriptionRepresents a json blob that contains information about geometry, animations, animation controllers, and attachables, that can be applied to a skin when deserializing.
 
 
 ////
 //// define
 Skin Image Width：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.skin_image_width.description
 
 
 ////
 //// define
 Skin Image Height：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.skin_image_height.description
 
 
 ////
 //// define
 Skin Image Image Bytes：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Serialized into a string
+- 特殊类型。protocol.type.serializedskin.skin_image_image_bytes.descriptionSerialized into a string
 
 
 ////
@@ -255,7 +255,7 @@ Skin Image Image Bytes：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Skin Animated Images Size：<!-- md:samp unsigned int -->
 
-- 基本类型。Animation count
+- 基本类型。protocol.type.serializedskin.skin_animated_images_size.descriptionAnimation count
 
 
 /////
@@ -267,35 +267,35 @@ Skin Animated Images Size：<!-- md:samp unsigned int -->
 ////// define
 Image Width：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.image_width.description
 
 
 //////
 ////// define
 Image Height：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.image_height.description
 
 
 //////
 ////// define
 Image Bytes：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Serialized into a string
+- 特殊类型。protocol.type.serializedskin.image_bytes.descriptionSerialized into a string
 
 
 //////
 ////// define
 Animation Type：<!-- md:samp unsigned int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.serializedskin.animation_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Face`|`1`||
-  |`Body32x32`|`2`||
-  |`Body128x128`|`3`||
+  |`None`|`0`|无|
+  |`Face`|`1`|protocol.enum.face|
+  |`Body32x32`|`2`|protocol.enum.body32x32|
+  |`Body128x128`|`3`|protocol.enum.body128x128|
 
 
 
@@ -303,19 +303,19 @@ Animation Type：<!-- md:samp unsigned int -->
 ////// define
 Frame Count：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.frame_count.description
 
 
 //////
 ////// define
 Animation Expression：<!-- md:samp unsigned int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.serializedskin.animation_expression.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Linear`|`0`||
-  |`Blinking`|`1`||
+  |`Linear`|`0`|protocol.enum.linear|
+  |`Blinking`|`1`|protocol.enum.blinking|
 
 
 
@@ -327,70 +327,70 @@ Animation Expression：<!-- md:samp unsigned int -->
 //// define
 CapeImage Width：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.capeimage_width.description
 
 
 ////
 //// define
 CapeImage Height：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.capeimage_height.description
 
 
 ////
 //// define
 CapeImage ImageBytes：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.capeimage_imagebytes.description
 
 
 ////
 //// define
 GeometryData：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.geometrydata.description
 
 
 ////
 //// define
 Geometry Data Engine Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Semantic version
+- 特殊类型。protocol.type.serializedskin.geometry_data_engine_version.descriptionSemantic version
 
 
 ////
 //// define
 AnimationData：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.animationdata.description
 
 
 ////
 //// define
 Cape Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.cape_id.description
 
 
 ////
 //// define
 Full Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Uniquely 'id'entifies a Skin for a player. Skin Pack ID + Skin Id are no longer sufficient, as different players may have the same Classic Skin but different Capes on each of them.
+- 特殊类型。protocol.type.serializedskin.full_id.descriptionUniquely 'id'entifies a Skin for a player. Skin Pack ID + Skin Id are no longer sufficient, as different players may have the same Classic Skin but different Capes on each of them.
 
 
 ////
 //// define
 Arm Size：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.arm_size.description
 
 
 ////
 //// define
 Skin color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。to hex string
+- 特殊类型。protocol.type.serializedskin.skin_color.descriptionto hex string
 
 
 ////
@@ -402,7 +402,7 @@ Skin color：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Persona pieces size：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.persona_pieces_size.description
 
 
 /////
@@ -414,35 +414,35 @@ Persona pieces size：<!-- md:samp unsigned int -->
 ////// define
 Piece Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.piece_id.description
 
 
 //////
 ////// define
 Piece Type：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.piece_type.description
 
 
 //////
 ////// define
 Pack Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.pack_id.description
 
 
 //////
 ////// define
 Is Default Piece：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.is_default_piece.description
 
 
 //////
 ////// define
 Product Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.product_id.description
 
 
 //////
@@ -458,7 +458,7 @@ Product Id：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Tint Colors Size：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.tint_colors_size.description
 
 
 /////
@@ -470,7 +470,7 @@ Tint Colors Size：<!-- md:samp unsigned int -->
 ////// define
 Piece Type：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.serializedskin.piece_type.description
 
 
 //////
@@ -482,7 +482,7 @@ Piece Type：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Piece Type Tint Colors Size：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.piece_type_tint_colors_size.description
 
 
 ///////
@@ -494,28 +494,28 @@ Piece Type Tint Colors Size：<!-- md:samp unsigned int -->
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。To hex string
+- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
 
 
 ////////
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。To hex string
+- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
 
 
 ////////
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。To hex string
+- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
 
 
 ////////
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。To hex string
+- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
 
 
 ////////
@@ -530,35 +530,35 @@ Tint Color：[<!-- md:samp string -->](../types/string.md)
 //// define
 Is Premium Skin：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.is_premium_skin.description
 
 
 ////
 //// define
 Is Persona Skin：<!-- md:samp bool -->
 
-- 基本类型。Whether a skin is a Classic Skin or Persona Skin
+- 基本类型。protocol.type.serializedskin.is_persona_skin.descriptionWhether a skin is a Classic Skin or Persona Skin
 
 
 ////
 //// define
 Is Persona Cape On Classic Skin：<!-- md:samp bool -->
 
-- 基本类型。True if this a classic skin that has a Persona Cape equipped on it, false otherwise.
+- 基本类型。protocol.type.serializedskin.is_persona_cape_on_classic_skin.descriptionTrue if this a classic skin that has a Persona Cape equipped on it, false otherwise.
 
 
 ////
 //// define
 Is Primary User：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.is_primary_user.description
 
 
 ////
 //// define
 mOverridesPlayerAppearance：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedskin.moverridesplayerappearance.description
 
 
 ////

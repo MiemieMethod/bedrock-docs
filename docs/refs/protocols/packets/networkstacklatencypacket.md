@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp NetworkStackLatencyPacket -->数据包，数字ID是`115`。
+<!-- md:samp NetworkStackLatencyPacket -->数据包，数字ID是`115`。该数据包用于protocol.packet.networkstacklatencypacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Creation Time：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networkstacklatencypacket.creation_time.description
 
 
 ////
 //// define
 Is From Server：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networkstacklatencypacket.is_from_server.description
 
 
 ////

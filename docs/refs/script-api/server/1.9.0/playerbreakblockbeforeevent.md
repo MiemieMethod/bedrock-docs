@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerBreakBlockBeforeEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`PlayerBreakBlockBeforeEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.playerbreakblockbeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerbreakblockbeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playerbreakblockbeforeevent.itemstack.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerbreakblockbeforeevent.player.description
 
 
 ////

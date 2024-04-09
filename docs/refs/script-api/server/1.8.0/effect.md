@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Effect`类。
+`Effect`类。script_api.@minecraft/server.effect.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only amplifier: int32;
 //// define
 `amplifier`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.effect.amplifier.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only displayName: string;
 //// define
 `displayName`：`string`
 
-- 属性。
+- script_api.@minecraft/server.effect.displayname.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only duration: int32;
 //// define
 `duration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.effect.duration.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only typeId: string;
 //// define
 `typeId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.effect.typeid.description
 
 
 ////
@@ -102,6 +102,8 @@ read-only typeId: string;
 
 ///
 
+script_api.@minecraft/server.effect.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -110,7 +112,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.effect.isvalid.return
 
 
 ////

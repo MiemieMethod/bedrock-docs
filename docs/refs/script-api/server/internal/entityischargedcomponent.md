@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityIsChargedComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityIsChargedComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityischargedcomponent.description
 
 ## 常量
 

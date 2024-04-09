@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityType`类。
+`EntityType`类。script_api.mojang-minecraft.entitytype.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entitytype.id.description
 
 
 ////

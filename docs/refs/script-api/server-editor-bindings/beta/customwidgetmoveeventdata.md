@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CustomWidgetMoveEventData`类。
+`CustomWidgetMoveEventData`类。script_api.@minecraft/server-editor-bindings.customwidgetmoveeventdata.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only group: WidgetGroup;
 //// define
 `group`：[`WidgetGroup`](./widgetgroup.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetmoveeventdata.group.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only location: Vector3 | undefined;
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetmoveeventdata.location.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only rotation: Vector2 | undefined;
 //// define
 `rotation`：[`Vector2`](../../server/beta/vector2.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetmoveeventdata.rotation.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only widget: CustomWidget;
 //// define
 `widget`：[`CustomWidget`](./customwidget.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetmoveeventdata.widget.description
 
 
 ////

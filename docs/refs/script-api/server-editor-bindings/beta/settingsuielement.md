@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SettingsUIElement`类。
+`SettingsUIElement`类。script_api.@minecraft/server-editor-bindings.settingsuielement.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only initialValue: boolean | int32;
 //// define
 `initialValue`：`boolean`|`int32`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.initialvalue.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only max: int32 | undefined;
 //// define
 `max`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.max.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only min: int32 | undefined;
 //// define
 `min`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.min.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.name.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only valueChanged: (arg: boolean | int32) => void | undefined;
 //// define
 `valueChanged`：<code>(boolean | int32) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.valuechanged.description
 
 
 ////
@@ -124,6 +124,8 @@ read-only valueChanged: (arg: boolean | int32) => void | undefined;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.description
+
 ```js
 new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: int32, valueChanged?: (arg: boolean | int32) => void): SettingsUIElement
 ```
@@ -132,7 +134,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.name.constructor.description
 
 
 ////
@@ -140,7 +142,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `initialValue`：`boolean`|`int32`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.initialvalue.constructor.description
 
 
 ////
@@ -148,7 +150,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `min`：`int32`|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.min.constructor.description
 
 
 ////
@@ -156,7 +158,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `max`：`int32`|`undefined`
 
-- 参数4。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.max.constructor.description
 
 
 ////
@@ -164,7 +166,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `valueChanged`：<code>(boolean | int32) =&gt; void</code>|`undefined`
 
-- 参数5。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.valuechanged.constructor.description
 
 
 ////
@@ -172,7 +174,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 返回值：[`SettingsUIElement`](./settingsuielement.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.return
 
 
 ////

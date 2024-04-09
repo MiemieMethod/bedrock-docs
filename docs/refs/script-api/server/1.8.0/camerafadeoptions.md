@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CameraFadeOptions`接口。
+`CameraFadeOptions`接口。script_api.@minecraft/server.camerafadeoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ fadeColor: RGB | undefined;
 //// define
 `fadeColor`：[`RGB`](./rgb.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.camerafadeoptions.fadecolor.description
 
 
 ////
@@ -42,7 +42,7 @@ fadeTime: CameraFadeTimeOptions | undefined;
 //// define
 `fadeTime`：[`CameraFadeTimeOptions`](./camerafadetimeoptions.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.camerafadeoptions.fadetime.description
 
 
 ////

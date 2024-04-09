@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponent`类，扩展自[`Component`](./component.md)。
+`BlockComponent`类，扩展自[`Component`](./component.md)。script_api.mojang-minecraft.blockcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only location: BlockLocation;
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- 属性。
+- script_api.mojang-minecraft.blockcomponent.location.description
 
 
 ////

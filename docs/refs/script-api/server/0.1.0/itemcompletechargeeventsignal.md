@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemCompleteChargeEventSignal`类。
+`ItemCompleteChargeEventSignal`类。script_api.mojang-minecraft.itemcompletechargeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.itemcompletechargeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ItemCompleteChargeEvent) => void): (arg: ItemCompleteChargeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ItemCompleteChargeEvent) => void): (arg: ItemCompleteC
 //// define
 `callback`：<code>(<a href="../itemcompletechargeevent/">ItemCompleteChargeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemcompletechargeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ItemCompleteChargeEvent) => void): (arg: ItemCompleteC
 //// define
 返回值：<code>(<a href="../itemcompletechargeevent/">ItemCompleteChargeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.itemcompletechargeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ItemCompleteChargeEvent) => void): (arg: ItemCompleteC
 
 ///
 
+script_api.mojang-minecraft.itemcompletechargeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ItemCompleteChargeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ItemCompleteChargeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemcompletechargeevent/">ItemCompleteChargeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemcompletechargeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ItemCompleteChargeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.itemcompletechargeeventsignal.unsubscribe.return
 
 
 ////

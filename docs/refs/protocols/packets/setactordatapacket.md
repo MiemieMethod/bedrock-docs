@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetActorDataPacket -->数据包，数字ID是`39`。
+<!-- md:samp SetActorDataPacket -->数据包，数字ID是`39`。该数据包用于protocol.packet.setactordatapacket.description
 
 ## 结构
 
@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setactordatapacket.target_runtime_id.description
 
 
 ////
 //// define
 Actor Data：[<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->](../types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setactordatapacket.actor_data.description
 
 
 ////
 //// define
 Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setactordatapacket.synched_properties.description
 
 
 ////
 //// define
 Tick：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。Which frame we're correcting; should match the tick in the Player Auth Input packet. (Can be 0 if not doing server auth movement.)
+- 基本类型。protocol.packet.setactordatapacket.tick.descriptionWhich frame we're correcting; should match the tick in the Player Auth Input packet. (Can be 0 if not doing server auth movement.)
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerJoinEventSignal`类。
+`PlayerJoinEventSignal`类。script_api.mojang-minecraft.playerjoineventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.playerjoineventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerJoinEvent) => void): (arg: PlayerJoinEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerJoinEvent) => void): (arg: PlayerJoinEvent) => v
 //// define
 `callback`：<code>(<a href="../playerjoinevent/">PlayerJoinEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.playerjoineventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerJoinEvent) => void): (arg: PlayerJoinEvent) => v
 //// define
 返回值：<code>(<a href="../playerjoinevent/">PlayerJoinEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.playerjoineventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerJoinEvent) => void): (arg: PlayerJoinEvent) => v
 
 ///
 
+script_api.mojang-minecraft.playerjoineventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerJoinEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerJoinEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerjoinevent/">PlayerJoinEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.playerjoineventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerJoinEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.playerjoineventsignal.unsubscribe.return
 
 
 ////

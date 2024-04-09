@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp BlockPickRequestPacket -->数据包，数字ID是`34`。
+<!-- md:samp BlockPickRequestPacket -->数据包，数字ID是`34`。该数据包用于protocol.packet.blockpickrequestpacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.blockpickrequestpacket.position.description
 
 
 ////
 //// define
 With Data?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.blockpickrequestpacket.with_data.description
 
 
 ////
 //// define
 Max Slots：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.blockpickrequestpacket.max_slots.description
 
 
 ////

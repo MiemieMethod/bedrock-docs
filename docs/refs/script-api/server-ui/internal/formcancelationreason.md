@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FormCancelationReason`枚举。
+`FormCancelationReason`枚举。script_api.@minecraft/server-ui.formcancelationreason.description
 
 ## 常量
 

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EducationLevelSettings -->类型。
+<!-- md:samp EducationLevelSettings -->类型。该类型用于protocol.type.educationlevelsettings.description
 
 ## 结构
 
@@ -68,70 +68,70 @@ rankdir = LR
 //// define
 Code Builder Default URI：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.educationlevelsettings.code_builder_default_uri.description
 
 
 ////
 //// define
 Code Builder Title：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.educationlevelsettings.code_builder_title.description
 
 
 ////
 //// define
 Can resize Code Builder：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.educationlevelsettings.can_resize_code_builder.description
 
 
 ////
 //// define
 Disable legacy title bar：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.educationlevelsettings.disable_legacy_title_bar.description
 
 
 ////
 //// define
 Post Process Filter：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.educationlevelsettings.post_process_filter.description
 
 
 ////
 //// define
 Screenshot Border Resource Path：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.educationlevelsettings.screenshot_border_resource_path.description
 
 
 ////
 //// define
 Agent Capabilities：[<!-- md:samp std::optional&lt;struct AgentCapabilities&gt; -->](../types/std__optional_struct_agentcapabilities_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.educationlevelsettings.agent_capabilities.description
 
 
 ////
 //// define
 Code Builder Override Uri：[<!-- md:samp std::optional&lt;std::string&gt; -->](../types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.educationlevelsettings.code_builder_override_uri.description
 
 
 ////
 //// define
 Indiciates if the world has a quiz attached to it：<!-- md:samp bool -->
 
-- 基本类型。hasQuiz was only used by old JD China EDU and has been removed
+- 基本类型。protocol.type.educationlevelsettings.indiciates_if_the_world_has_a_quiz_attached_to_it.descriptionhasQuiz was only used by old JD China EDU and has been removed
 
 
 ////
 //// define
 External Link Settings：[<!-- md:samp std::optional&lt;struct ExternalLinkSettings&gt; -->](../types/std__optional_struct_externallinksettings_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.educationlevelsettings.external_link_settings.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MinecraftEditor`类。
+`MinecraftEditor`类。script_api.@minecraft/server-editor-bindings.minecrafteditor.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only log: Logger;
 //// define
 `log`：[`Logger`](./logger.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.minecrafteditor.log.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only simulation: SimulationState;
 //// define
 `simulation`：[`SimulationState`](./simulationstate.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.minecrafteditor.simulation.description
 
 
 ////

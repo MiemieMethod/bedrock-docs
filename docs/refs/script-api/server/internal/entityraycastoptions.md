@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRaycastOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。
+`EntityRaycastOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。script_api.@minecraft/server.entityraycastoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ ignoreBlockCollision: boolean | undefined;
 //// define
 `ignoreBlockCollision`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityraycastoptions.ignoreblockcollision.description
 
 
 ////
@@ -42,7 +42,7 @@ includeLiquidBlocks: boolean | undefined;
 //// define
 `includeLiquidBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityraycastoptions.includeliquidblocks.description
 
 
 ////
@@ -64,7 +64,7 @@ includePassableBlocks: boolean | undefined;
 //// define
 `includePassableBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityraycastoptions.includepassableblocks.description
 
 
 ////
@@ -86,7 +86,7 @@ maxDistance: int32 | undefined;
 //// define
 `maxDistance`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityraycastoptions.maxdistance.description
 
 
 ////

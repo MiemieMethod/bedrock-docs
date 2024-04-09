@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SculkSpreader`类。
+`SculkSpreader`类。script_api.@minecraft/server-gametest.sculkspreader.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only maxCharge: int32;
 //// define
 `maxCharge`：`int32`
 
-- 属性。
+- script_api.@minecraft/server-gametest.sculkspreader.maxcharge.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only maxCharge: int32;
 
 ///
 
+script_api.@minecraft/server-gametest.sculkspreader.addcursorswithoffset.description
+
 ```js
 addCursorsWithOffset(offset: Vector3, charge: int32): void
 ```
@@ -44,7 +46,7 @@ addCursorsWithOffset(offset: Vector3, charge: int32): void
 //// define
 `offset`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.sculkspreader.offset.addcursorswithoffset.description
 
 
 ////
@@ -52,7 +54,7 @@ addCursorsWithOffset(offset: Vector3, charge: int32): void
 //// define
 `charge`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.sculkspreader.charge.addcursorswithoffset.description
 
 
 ////
@@ -60,7 +62,7 @@ addCursorsWithOffset(offset: Vector3, charge: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.sculkspreader.addcursorswithoffset.return
 
 
 ////
@@ -74,6 +76,8 @@ addCursorsWithOffset(offset: Vector3, charge: int32): void
 
 ///
 
+script_api.@minecraft/server-gametest.sculkspreader.getcursorposition.description
+
 ```js
 getCursorPosition(index: int32): Vector3
 ```
@@ -82,7 +86,7 @@ getCursorPosition(index: int32): Vector3
 //// define
 `index`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.sculkspreader.index.getcursorposition.description
 
 
 ////
@@ -90,7 +94,7 @@ getCursorPosition(index: int32): Vector3
 //// define
 返回值：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.sculkspreader.getcursorposition.return
 
 
 ////
@@ -104,6 +108,8 @@ getCursorPosition(index: int32): Vector3
 
 ///
 
+script_api.@minecraft/server-gametest.sculkspreader.getnumberofcursors.description
+
 ```js
 getNumberOfCursors(): int32
 ```
@@ -112,7 +118,7 @@ getNumberOfCursors(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.sculkspreader.getnumberofcursors.return
 
 
 ////
@@ -126,6 +132,8 @@ getNumberOfCursors(): int32
 
 ///
 
+script_api.@minecraft/server-gametest.sculkspreader.gettotalcharge.description
+
 ```js
 getTotalCharge(): int32
 ```
@@ -134,7 +142,7 @@ getTotalCharge(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.sculkspreader.gettotalcharge.return
 
 
 ////

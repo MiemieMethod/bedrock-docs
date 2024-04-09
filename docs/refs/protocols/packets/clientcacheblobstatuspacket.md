@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ClientCacheBlobStatusPacket -->数据包，数字ID是`135`。
+<!-- md:samp ClientCacheBlobStatusPacket -->数据包，数字ID是`135`。该数据包用于protocol.packet.clientcacheblobstatuspacket.description
 
 ## 结构
 
@@ -52,14 +52,14 @@ rankdir = LR
 //// define
 Number of missing blobs：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientcacheblobstatuspacket.number_of_missing_blobs.description
 
 
 ////
 //// define
 Number of obtained blobs：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientcacheblobstatuspacket.number_of_obtained_blobs.description
 
 
 ////
@@ -76,7 +76,7 @@ Number of obtained blobs：<!-- md:samp unsigned varint -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientcacheblobstatuspacket.blob_id.description
 
 
 //////
@@ -97,7 +97,7 @@ Blob Id：<!-- md:samp unsigned int64 -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientcacheblobstatuspacket.blob_id.description
 
 
 //////

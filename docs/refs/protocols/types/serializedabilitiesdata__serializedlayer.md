@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SerializedAbilitiesData::SerializedLayer -->类型。
+<!-- md:samp SerializedAbilitiesData::SerializedLayer -->类型。该类型用于protocol.type.serializedabilitiesdata::serializedlayer.description
 
 ## 结构
 
@@ -48,15 +48,15 @@ rankdir = LR
 //// define
 SerializedLayer：<!-- md:samp unsigned short -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.serializedabilitiesdata::serializedlayer.serializedlayer.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`CustomCache`|`0`||
-  |`Base`|`1`||
-  |`Spectator`|`2`||
-  |`Commands`|`3`||
-  |`Editor`|`4`||
+  |`CustomCache`|`0`|protocol.enum.customcache|
+  |`Base`|`1`|protocol.enum.base|
+  |`Spectator`|`2`|protocol.enum.spectator|
+  |`Commands`|`3`|protocol.enum.commands|
+  |`Editor`|`4`|protocol.enum.editor|
 
 
 
@@ -64,28 +64,28 @@ SerializedLayer：<!-- md:samp unsigned short -->
 //// define
 AbilitiesSet：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedabilitiesdata::serializedlayer.abilitiesset.description
 
 
 ////
 //// define
 AbilityValues：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedabilitiesdata::serializedlayer.abilityvalues.description
 
 
 ////
 //// define
 FlySpeed：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedabilitiesdata::serializedlayer.flyspeed.description
 
 
 ////
 //// define
 WalkSpeed：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.serializedabilitiesdata::serializedlayer.walkspeed.description
 
 
 ////

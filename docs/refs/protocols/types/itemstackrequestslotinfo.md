@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemStackRequestSlotInfo -->类型。
+<!-- md:samp ItemStackRequestSlotInfo -->类型。该类型用于protocol.type.itemstackrequestslotinfo.description
 
 ## 结构
 
@@ -40,73 +40,73 @@ rankdir = LR
 //// define
 Open container net id：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.itemstackrequestslotinfo.open_container_net_id.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`AnvilInputContainer`|`0`||
-  |`AnvilMaterialContainer`|`1`||
-  |`AnvilResultPreviewContainer`|`2`||
-  |`SmithingTableInputContainer`|`3`||
-  |`SmithingTableMaterialContainer`|`4`||
-  |`SmithingTableResultPreviewContainer`|`5`||
-  |`ArmorContainer`|`6`||
-  |`LevelEntityContainer`|`7`||
-  |`BeaconPaymentContainer`|`8`||
-  |`BrewingStandInputContainer`|`9`||
-  |`BrewingStandResultContainer`|`10`||
-  |`BrewingStandFuelContainer`|`11`||
-  |`CombinedHotbarAndInventoryContainer`|`12`||
-  |`CraftingInputContainer`|`13`||
-  |`CraftingOutputPreviewContainer`|`14`||
-  |`RecipeConstructionContainer`|`15`||
-  |`RecipeNatureContainer`|`16`||
-  |`RecipeItemsContainer`|`17`||
-  |`RecipeSearchContainer`|`18`||
-  |`RecipeSearchBarContainer`|`19`||
-  |`RecipeEquipmentContainer`|`20`||
-  |`RecipeBookContainer`|`21`||
-  |`EnchantingInputContainer`|`22`||
-  |`EnchantingMaterialContainer`|`23`||
-  |`FurnaceFuelContainer`|`24`||
-  |`FurnaceIngredientContainer`|`25`||
-  |`FurnaceResultContainer`|`26`||
-  |`HorseEquipContainer`|`27`||
-  |`HotbarContainer`|`28`||
-  |`InventoryContainer`|`29`||
-  |`ShulkerBoxContainer`|`30`||
-  |`TradeIngredient1Container`|`31`||
-  |`TradeIngredient2Container`|`32`||
-  |`TradeResultPreviewContainer`|`33`||
-  |`OffhandContainer`|`34`||
-  |`CompoundCreatorInput`|`35`||
-  |`CompoundCreatorOutputPreview`|`36`||
-  |`ElementConstructorOutputPreview`|`37`||
-  |`MaterialReducerInput`|`38`||
-  |`MaterialReducerOutput`|`39`||
-  |`LabTableInput`|`40`||
-  |`LoomInputContainer`|`41`||
-  |`LoomDyeContainer`|`42`||
-  |`LoomMaterialContainer`|`43`||
-  |`LoomResultPreviewContainer`|`44`||
-  |`BlastFurnaceIngredientContainer`|`45`||
-  |`SmokerIngredientContainer`|`46`||
-  |`Trade2Ingredient1Container`|`47`||
-  |`Trade2Ingredient2Container`|`48`||
-  |`Trade2ResultPreviewContainer`|`49`||
-  |`GrindstoneInputContainer`|`50`||
-  |`GrindstoneAdditionalContainer`|`51`||
-  |`GrindstoneResultPreviewContainer`|`52`||
-  |`StonecutterInputContainer`|`53`||
-  |`StonecutterResultPreviewContainer`|`54`||
-  |`CartographyInputContainer`|`55`||
-  |`CartographyAdditionalContainer`|`56`||
-  |`CartographyResultPreviewContainer`|`57`||
-  |`BarrelContainer`|`58`||
-  |`CursorContainer`|`59`||
-  |`CreatedOutputContainer`|`60`||
-  |`SmithingTableTemplateContainer`|`61`||
-  |`CrafterLevelEntityContainer`|`62`||
+  |`AnvilInputContainer`|`0`|protocol.enum.anvilinputcontainer|
+  |`AnvilMaterialContainer`|`1`|protocol.enum.anvilmaterialcontainer|
+  |`AnvilResultPreviewContainer`|`2`|protocol.enum.anvilresultpreviewcontainer|
+  |`SmithingTableInputContainer`|`3`|protocol.enum.smithingtableinputcontainer|
+  |`SmithingTableMaterialContainer`|`4`|protocol.enum.smithingtablematerialcontainer|
+  |`SmithingTableResultPreviewContainer`|`5`|protocol.enum.smithingtableresultpreviewcontainer|
+  |`ArmorContainer`|`6`|protocol.enum.armorcontainer|
+  |`LevelEntityContainer`|`7`|protocol.enum.levelentitycontainer|
+  |`BeaconPaymentContainer`|`8`|protocol.enum.beaconpaymentcontainer|
+  |`BrewingStandInputContainer`|`9`|protocol.enum.brewingstandinputcontainer|
+  |`BrewingStandResultContainer`|`10`|protocol.enum.brewingstandresultcontainer|
+  |`BrewingStandFuelContainer`|`11`|protocol.enum.brewingstandfuelcontainer|
+  |`CombinedHotbarAndInventoryContainer`|`12`|protocol.enum.combinedhotbarandinventorycontainer|
+  |`CraftingInputContainer`|`13`|protocol.enum.craftinginputcontainer|
+  |`CraftingOutputPreviewContainer`|`14`|protocol.enum.craftingoutputpreviewcontainer|
+  |`RecipeConstructionContainer`|`15`|protocol.enum.recipeconstructioncontainer|
+  |`RecipeNatureContainer`|`16`|protocol.enum.recipenaturecontainer|
+  |`RecipeItemsContainer`|`17`|protocol.enum.recipeitemscontainer|
+  |`RecipeSearchContainer`|`18`|protocol.enum.recipesearchcontainer|
+  |`RecipeSearchBarContainer`|`19`|protocol.enum.recipesearchbarcontainer|
+  |`RecipeEquipmentContainer`|`20`|protocol.enum.recipeequipmentcontainer|
+  |`RecipeBookContainer`|`21`|protocol.enum.recipebookcontainer|
+  |`EnchantingInputContainer`|`22`|protocol.enum.enchantinginputcontainer|
+  |`EnchantingMaterialContainer`|`23`|protocol.enum.enchantingmaterialcontainer|
+  |`FurnaceFuelContainer`|`24`|protocol.enum.furnacefuelcontainer|
+  |`FurnaceIngredientContainer`|`25`|protocol.enum.furnaceingredientcontainer|
+  |`FurnaceResultContainer`|`26`|protocol.enum.furnaceresultcontainer|
+  |`HorseEquipContainer`|`27`|protocol.enum.horseequipcontainer|
+  |`HotbarContainer`|`28`|protocol.enum.hotbarcontainer|
+  |`InventoryContainer`|`29`|protocol.enum.inventorycontainer|
+  |`ShulkerBoxContainer`|`30`|protocol.enum.shulkerboxcontainer|
+  |`TradeIngredient1Container`|`31`|protocol.enum.tradeingredient1container|
+  |`TradeIngredient2Container`|`32`|protocol.enum.tradeingredient2container|
+  |`TradeResultPreviewContainer`|`33`|protocol.enum.traderesultpreviewcontainer|
+  |`OffhandContainer`|`34`|protocol.enum.offhandcontainer|
+  |`CompoundCreatorInput`|`35`|protocol.enum.compoundcreatorinput|
+  |`CompoundCreatorOutputPreview`|`36`|protocol.enum.compoundcreatoroutputpreview|
+  |`ElementConstructorOutputPreview`|`37`|protocol.enum.elementconstructoroutputpreview|
+  |`MaterialReducerInput`|`38`|protocol.enum.materialreducerinput|
+  |`MaterialReducerOutput`|`39`|protocol.enum.materialreduceroutput|
+  |`LabTableInput`|`40`|protocol.enum.labtableinput|
+  |`LoomInputContainer`|`41`|protocol.enum.loominputcontainer|
+  |`LoomDyeContainer`|`42`|protocol.enum.loomdyecontainer|
+  |`LoomMaterialContainer`|`43`|protocol.enum.loommaterialcontainer|
+  |`LoomResultPreviewContainer`|`44`|protocol.enum.loomresultpreviewcontainer|
+  |`BlastFurnaceIngredientContainer`|`45`|protocol.enum.blastfurnaceingredientcontainer|
+  |`SmokerIngredientContainer`|`46`|protocol.enum.smokeringredientcontainer|
+  |`Trade2Ingredient1Container`|`47`|protocol.enum.trade2ingredient1container|
+  |`Trade2Ingredient2Container`|`48`|protocol.enum.trade2ingredient2container|
+  |`Trade2ResultPreviewContainer`|`49`|protocol.enum.trade2resultpreviewcontainer|
+  |`GrindstoneInputContainer`|`50`|protocol.enum.grindstoneinputcontainer|
+  |`GrindstoneAdditionalContainer`|`51`|protocol.enum.grindstoneadditionalcontainer|
+  |`GrindstoneResultPreviewContainer`|`52`|protocol.enum.grindstoneresultpreviewcontainer|
+  |`StonecutterInputContainer`|`53`|protocol.enum.stonecutterinputcontainer|
+  |`StonecutterResultPreviewContainer`|`54`|protocol.enum.stonecutterresultpreviewcontainer|
+  |`CartographyInputContainer`|`55`|protocol.enum.cartographyinputcontainer|
+  |`CartographyAdditionalContainer`|`56`|protocol.enum.cartographyadditionalcontainer|
+  |`CartographyResultPreviewContainer`|`57`|protocol.enum.cartographyresultpreviewcontainer|
+  |`BarrelContainer`|`58`|protocol.enum.barrelcontainer|
+  |`CursorContainer`|`59`|protocol.enum.cursorcontainer|
+  |`CreatedOutputContainer`|`60`|protocol.enum.createdoutputcontainer|
+  |`SmithingTableTemplateContainer`|`61`|protocol.enum.smithingtabletemplatecontainer|
+  |`CrafterLevelEntityContainer`|`62`|protocol.enum.crafterlevelentitycontainer|
 
 
 
@@ -114,14 +114,14 @@ Open container net id：<!-- md:samp byte -->
 //// define
 Slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackrequestslotinfo.slot.description
 
 
 ////
 //// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackrequestslotinfo.raw_id.description
 
 
 ////

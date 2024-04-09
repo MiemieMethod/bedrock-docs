@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentPlayerInteractEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`BlockComponentPlayerInteractEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentplayerinteractevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only face: Direction;
 //// define
 `face`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.@minecraft/server.blockcomponentplayerinteractevent.face.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only faceLocation: Vector3 | undefined;
 //// define
 `faceLocation`：[`Vector3`](./vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcomponentplayerinteractevent.facelocation.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player | undefined;
 //// define
 `player`：[`Player`](./player.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcomponentplayerinteractevent.player.description
 
 
 ////

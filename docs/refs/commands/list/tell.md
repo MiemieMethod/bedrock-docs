@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/tell`命令Sends a private message to one or more players.
+`/tell`命令command.tell.description
 
 /// settings | 执行条件
 该命令需要权限等级：`any`|`0`。
@@ -20,14 +20,16 @@
 ```
 
 //// html | div.result
+command.tell.1.description
+
 ///// define
 `target`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.tell.target.description
 
 `message`：<!-- md:samp message -->
 
-- 基本类型。
+- 基本类型。command.tell.message.description
 
 
 /////

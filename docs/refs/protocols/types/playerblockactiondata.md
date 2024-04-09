@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerBlockActionData -->类型。
+<!-- md:samp PlayerBlockActionData -->类型。该类型用于protocol.type.playerblockactiondata.description
 
 ## 结构
 
@@ -94,7 +94,7 @@ rankdir = LR
 //// define
 Player Action Type：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactiondata.player_action_type.description
 
 
 ////
@@ -109,14 +109,14 @@ Player Action Type：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.playerblockactiondata.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactiondata.facing.description
 
 
 ///////
@@ -134,14 +134,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.playerblockactiondata.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactiondata.facing.description
 
 
 ///////
@@ -159,14 +159,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.playerblockactiondata.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactiondata.facing.description
 
 
 ///////
@@ -184,14 +184,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.playerblockactiondata.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactiondata.facing.description
 
 
 ///////
@@ -209,14 +209,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.playerblockactiondata.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactiondata.facing.description
 
 
 ///////
@@ -234,14 +234,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.playerblockactiondata.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.playerblockactiondata.facing.description
 
 
 ///////

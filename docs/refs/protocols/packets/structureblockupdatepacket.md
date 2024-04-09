@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp StructureBlockUpdatePacket -->数据包，数字ID是`90`。
+<!-- md:samp StructureBlockUpdatePacket -->数据包，数字ID是`90`。该数据包用于protocol.packet.structureblockupdatepacket.description
 
 ## 结构
 
@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.structureblockupdatepacket.block_position.description
 
 
 ////
 //// define
 Structure Data：[<!-- md:samp StructureEditorData -->](../types/structureeditordata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.structureblockupdatepacket.structure_data.description
 
 
 ////
 //// define
 Trigger?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.structureblockupdatepacket.trigger.description
 
 
 ////
 //// define
 IsWaterlogged：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.structureblockupdatepacket.iswaterlogged.description
 
 
 ////

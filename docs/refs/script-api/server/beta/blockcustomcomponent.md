@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockCustomComponent`接口。
+`BlockCustomComponent`接口。script_api.@minecraft/server.blockcustomcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ beforeOnPlayerPlace: (arg: BlockComponentPlayerPlaceBeforeEvent) => void | undef
 //// define
 `beforeOnPlayerPlace`：<code>(<a href="../blockcomponentplayerplacebeforeevent/">BlockComponentPlayerPlaceBeforeEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.beforeonplayerplace.description
 
 
 ////
@@ -42,7 +42,7 @@ onEntityFallOn: (arg: BlockComponentEntityFallOnEvent) => void | undefined;
 //// define
 `onEntityFallOn`：<code>(<a href="../blockcomponententityfallonevent/">BlockComponentEntityFallOnEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.onentityfallon.description
 
 
 ////
@@ -64,7 +64,7 @@ onPlace: (arg: BlockComponentOnPlaceEvent) => void | undefined;
 //// define
 `onPlace`：<code>(<a href="../blockcomponentonplaceevent/">BlockComponentOnPlaceEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.onplace.description
 
 
 ////
@@ -86,7 +86,7 @@ onPlayerDestroy: (arg: BlockComponentPlayerDestroyEvent) => void | undefined;
 //// define
 `onPlayerDestroy`：<code>(<a href="../blockcomponentplayerdestroyevent/">BlockComponentPlayerDestroyEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.onplayerdestroy.description
 
 
 ////
@@ -108,7 +108,7 @@ onPlayerInteract: (arg: BlockComponentPlayerInteractEvent) => void | undefined;
 //// define
 `onPlayerInteract`：<code>(<a href="../blockcomponentplayerinteractevent/">BlockComponentPlayerInteractEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.onplayerinteract.description
 
 
 ////
@@ -130,7 +130,7 @@ onRandomTick: (arg: BlockComponentRandomTickEvent) => void | undefined;
 //// define
 `onRandomTick`：<code>(<a href="../blockcomponentrandomtickevent/">BlockComponentRandomTickEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.onrandomtick.description
 
 
 ////
@@ -152,7 +152,7 @@ onStepOff: (arg: BlockComponentStepOffEvent) => void | undefined;
 //// define
 `onStepOff`：<code>(<a href="../blockcomponentstepoffevent/">BlockComponentStepOffEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.onstepoff.description
 
 
 ////
@@ -174,7 +174,7 @@ onStepOn: (arg: BlockComponentStepOnEvent) => void | undefined;
 //// define
 `onStepOn`：<code>(<a href="../blockcomponentsteponevent/">BlockComponentStepOnEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.onstepon.description
 
 
 ////
@@ -196,7 +196,7 @@ onTick: (arg: BlockComponentTickEvent) => void | undefined;
 //// define
 `onTick`：<code>(<a href="../blockcomponenttickevent/">BlockComponentTickEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcustomcomponent.ontick.description
 
 
 ////

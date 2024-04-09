@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CursorPropertiesChangeAfterEvent`类。
+`CursorPropertiesChangeAfterEvent`类。script_api.@minecraft/server-editor-bindings.cursorpropertieschangeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only properties: CursorProperties;
 //// define
 `properties`：[`CursorProperties`](./cursorproperties.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursorpropertieschangeafterevent.properties.description
 
 
 ////

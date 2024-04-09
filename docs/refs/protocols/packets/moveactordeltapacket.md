@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MoveActorDeltaPacket -->数据包，数字ID是`111`。
+<!-- md:samp MoveActorDeltaPacket -->数据包，数字ID是`111`。该数据包用于protocol.packet.moveactordeltapacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Move Data：[<!-- md:samp MoveActorDeltaData -->](../types/moveactordeltadata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.moveactordeltapacket.move_data.description
 
 
 ////

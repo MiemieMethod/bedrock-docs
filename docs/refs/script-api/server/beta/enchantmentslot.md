@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EnchantmentSlot`枚举。
+`EnchantmentSlot`枚举。script_api.@minecraft/server.enchantmentslot.description
 
 ## 常量
 

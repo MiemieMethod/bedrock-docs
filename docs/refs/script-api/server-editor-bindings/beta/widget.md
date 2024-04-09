@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Widget`类。
+`Widget`类。script_api.@minecraft/server-editor-bindings.widget.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only valid: boolean;
 //// define
 `valid`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widget.valid.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only valid: boolean;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.widget.deletewidget.description
+
 ```js
 deleteWidget(): void
 ```
@@ -44,7 +46,7 @@ deleteWidget(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.widget.deletewidget.return
 
 
 ////
@@ -58,6 +60,8 @@ deleteWidget(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.widget.getisselected.description
+
 ```js
 getIsSelected(): boolean
 ```
@@ -66,7 +70,7 @@ getIsSelected(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.widget.getisselected.return
 
 
 ////
@@ -80,6 +84,8 @@ getIsSelected(): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.widget.getisvisible.description
+
 ```js
 getIsVisible(): boolean
 ```
@@ -88,7 +94,7 @@ getIsVisible(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.widget.getisvisible.return
 
 
 ////
@@ -102,6 +108,8 @@ getIsVisible(): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.widget.setisselected.description
+
 ```js
 setIsSelected(isSelected: boolean): void
 ```
@@ -110,7 +118,7 @@ setIsSelected(isSelected: boolean): void
 //// define
 `isSelected`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.widget.isselected.setisselected.description
 
 
 ////
@@ -118,7 +126,7 @@ setIsSelected(isSelected: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.widget.setisselected.return
 
 
 ////
@@ -132,6 +140,8 @@ setIsSelected(isSelected: boolean): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.widget.setisvisible.description
+
 ```js
 setIsVisible(isVisible: boolean): void
 ```
@@ -140,7 +150,7 @@ setIsVisible(isVisible: boolean): void
 //// define
 `isVisible`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.widget.isvisible.setisvisible.description
 
 
 ////
@@ -148,7 +158,7 @@ setIsVisible(isVisible: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.widget.setisvisible.return
 
 
 ////

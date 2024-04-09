@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BeforeItemUseOnEvent`类，扩展自[`ItemUseOnEvent`](./itemuseonevent.md)。
+`BeforeItemUseOnEvent`类，扩展自[`ItemUseOnEvent`](./itemuseonevent.md)。script_api.mojang-minecraft.beforeitemuseonevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.beforeitemuseonevent.cancel.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ServerStatsPacket -->数据包，数字ID是`192`。
+<!-- md:samp ServerStatsPacket -->数据包，数字ID是`192`。该数据包用于protocol.packet.serverstatspacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 ServerTime：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.serverstatspacket.servertime.description
 
 
 ////
 //// define
 NetworkTime：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.serverstatspacket.networktime.description
 
 
 ////

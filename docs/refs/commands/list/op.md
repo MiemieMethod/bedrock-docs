@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/op`命令Grants operator status to a player.
+`/op`命令command.op.description
 
 /// settings | 执行条件
 该命令需要权限等级：`admin`|`2`。
@@ -16,10 +16,12 @@
 ```
 
 //// html | div.result
+command.op.1.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.op.player.description
 
 
 /////

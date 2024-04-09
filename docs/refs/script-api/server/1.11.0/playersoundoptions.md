@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerSoundOptions`接口。
+`PlayerSoundOptions`接口。script_api.@minecraft/server.playersoundoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ location: Vector3 | undefined;
 //// define
 `location`：[`Vector3`](./vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playersoundoptions.location.description
 
 
 ////
@@ -42,7 +42,7 @@ pitch: float | undefined;
 //// define
 `pitch`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playersoundoptions.pitch.description
 
 
 ////
@@ -64,7 +64,7 @@ volume: float | undefined;
 //// define
 `volume`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playersoundoptions.volume.description
 
 
 ////

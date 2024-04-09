@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BeforeChatEvent`类，扩展自[`ChatEvent`](./chatevent.md)。
+`BeforeChatEvent`类，扩展自[`ChatEvent`](./chatevent.md)。script_api.mojang-minecraft.beforechatevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.beforechatevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ targets: Player[];
 //// define
 `targets`：<code><a href="../player/">Player</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.beforechatevent.targets.description
 
 
 ////

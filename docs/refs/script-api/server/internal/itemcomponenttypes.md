@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemComponentTypes`枚举。
+`ItemComponentTypes`枚举。script_api.@minecraft/server.itemcomponenttypes.description
 
 ## 常量
 

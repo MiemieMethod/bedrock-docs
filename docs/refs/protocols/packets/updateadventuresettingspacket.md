@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateAdventureSettingsPacket -->数据包，数字ID是`188`。
+<!-- md:samp UpdateAdventureSettingsPacket -->数据包，数字ID是`188`。该数据包用于protocol.packet.updateadventuresettingspacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Adventure Settings：[<!-- md:samp AdventureSettings -->](../types/adventuresettings.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateadventuresettingspacket.adventure_settings.description
 
 
 ////

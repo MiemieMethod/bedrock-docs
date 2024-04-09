@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PrimarySelectionChangedEvent`类。
+`PrimarySelectionChangedEvent`类。script_api.@minecraft/server-editor-bindings.primaryselectionchangedevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only volume: CompoundBlockVolume | undefined;
 //// define
 `volume`：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.primaryselectionchangedevent.volume.description
 
 
 ////

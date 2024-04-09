@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentOnPlaceEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`BlockComponentOnPlaceEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentonplaceevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only previousBlock: BlockPermutation;
 //// define
 `previousBlock`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.blockcomponentonplaceevent.previousblock.description
 
 
 ////

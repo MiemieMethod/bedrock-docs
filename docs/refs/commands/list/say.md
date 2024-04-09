@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/say`命令Sends a message in the chat to other players.
+`/say`命令command.say.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。
@@ -16,10 +16,12 @@
 ```
 
 //// html | div.result
+command.say.1.description
+
 ///// define
 `message`：<!-- md:samp message -->
 
-- 基本类型。
+- 基本类型。command.say.message.description
 
 
 /////

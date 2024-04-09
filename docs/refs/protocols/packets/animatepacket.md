@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AnimatePacket -->数据包，数字ID是`44`。
+<!-- md:samp AnimatePacket -->数据包，数字ID是`44`。该数据包用于protocol.packet.animatepacket.description
 
 ## 结构
 
@@ -70,17 +70,17 @@ rankdir = LR
 //// define
 Action：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.animatepacket.action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NoAction`|`0`||
-  |`Swing`|`1`||
-  |`WakeUp`|`3`||
-  |`CriticalHit`|`4`||
-  |`MagicCriticalHit`|`5`||
-  |`RowRight`|`128`||
-  |`RowLeft`|`129`||
+  |`NoAction`|`0`|protocol.enum.noaction|
+  |`Swing`|`1`|protocol.enum.swing|
+  |`WakeUp`|`3`|protocol.enum.wakeup|
+  |`CriticalHit`|`4`|protocol.enum.criticalhit|
+  |`MagicCriticalHit`|`5`|protocol.enum.magiccriticalhit|
+  |`RowRight`|`128`|protocol.enum.rowright|
+  |`RowLeft`|`129`|protocol.enum.rowleft|
 
 
 
@@ -88,7 +88,7 @@ Action：<!-- md:samp varint -->
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.animatepacket.target_runtime_id.description
 
 
 ////
@@ -98,7 +98,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -109,7 +109,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////// define
 if (1)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -120,7 +120,7 @@ if (1)：<!-- md:samp [No Data] -->
 ////// define
 if (3)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -131,7 +131,7 @@ if (3)：<!-- md:samp [No Data] -->
 ////// define
 if (4)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -142,7 +142,7 @@ if (4)：<!-- md:samp [No Data] -->
 ////// define
 if (5)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -158,7 +158,7 @@ if (5)：<!-- md:samp [No Data] -->
 /////// define
 Rowing Time：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.animatepacket.rowing_time.description
 
 
 ///////
@@ -176,7 +176,7 @@ Rowing Time：<!-- md:samp float -->
 /////// define
 Rowing Time：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.animatepacket.rowing_time.description
 
 
 ///////

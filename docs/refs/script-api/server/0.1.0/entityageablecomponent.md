@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAgeableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityAgeableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityageablecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dropItems: string[];
 //// define
 `dropItems`：`string[]`
 
-- 属性。
+- script_api.mojang-minecraft.entityageablecomponent.dropitems.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only duration: float;
 //// define
 `duration`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entityageablecomponent.duration.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only feedItems: EntityDefinitionFeedItem[];
 //// define
 `feedItems`：<code><a href="../entitydefinitionfeeditem/">EntityDefinitionFeedItem</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.entityageablecomponent.feeditems.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only growUp: Trigger;
 //// define
 `growUp`：[`Trigger`](./trigger.md)
 
-- 属性。
+- script_api.mojang-minecraft.entityageablecomponent.growup.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemStackNetIdVariant -->类型。
+<!-- md:samp ItemStackNetIdVariant -->类型。该类型用于protocol.type.itemstacknetidvariant.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstacknetidvariant.raw_id.description
 
 
 ////

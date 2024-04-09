@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ResourcePackDataInfoPacket -->数据包，数字ID是`82`。
+<!-- md:samp ResourcePackDataInfoPacket -->数据包，数字ID是`82`。该数据包用于protocol.packet.resourcepackdatainfopacket.description
 
 ## 结构
 
@@ -56,62 +56,62 @@ rankdir = LR
 //// define
 Resource Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackdatainfopacket.resource_name.description
 
 
 ////
 //// define
 Chunk Size：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackdatainfopacket.chunk_size.description
 
 
 ////
 //// define
 Number of Chunks：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackdatainfopacket.number_of_chunks.description
 
 
 ////
 //// define
 File Size：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackdatainfopacket.file_size.description
 
 
 ////
 //// define
 File Hash：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackdatainfopacket.file_hash.description
 
 
 ////
 //// define
 Is Premium Pack：<!-- md:samp bool -->
 
-- 基本类型。Do you need an entitlement to use this pack?
+- 基本类型。protocol.packet.resourcepackdatainfopacket.is_premium_pack.descriptionDo you need an entitlement to use this pack?
 
 
 ////
 //// define
 Pack Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.resourcepackdatainfopacket.pack_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`Addon`|`1`||
-  |`Cached`|`2`||
-  |`CopyProtected`|`3`||
-  |`Behavior`|`4`||
-  |`PersonaPiece`|`5`||
-  |`Resources`|`6`||
-  |`Skins`|`7`||
-  |`WorldTemplate`|`8`||
-  |`Count`|`9`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Addon`|`1`|protocol.enum.addon|
+  |`Cached`|`2`|protocol.enum.cached|
+  |`CopyProtected`|`3`|protocol.enum.copyprotected|
+  |`Behavior`|`4`|protocol.enum.behavior|
+  |`PersonaPiece`|`5`|protocol.enum.personapiece|
+  |`Resources`|`6`|protocol.enum.resources|
+  |`Skins`|`7`|protocol.enum.skins|
+  |`WorldTemplate`|`8`|protocol.enum.worldtemplate|
+  |`Count`|`9`|protocol.enum.count|
 
 
 

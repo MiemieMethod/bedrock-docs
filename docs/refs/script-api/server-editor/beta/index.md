@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`@minecraft/server-editor`模块的`0.1.0-beta`版本，UUID为`1d565354-296d-11ed-a261-0242ac120002`。
+`@minecraft/server-editor`模块的`0.1.0-beta`版本，UUID为`1d565354-296d-11ed-a261-0242ac120002`。该模块是script_api.@minecraft/server-editor.description
 
 /// info | 依赖
 该模块依赖于以下模块：

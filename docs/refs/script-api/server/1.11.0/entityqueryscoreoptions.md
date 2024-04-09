@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityQueryScoreOptions`接口。
+`EntityQueryScoreOptions`接口。script_api.@minecraft/server.entityqueryscoreoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ exclude: boolean | undefined;
 //// define
 `exclude`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryscoreoptions.exclude.description
 
 
 ////
@@ -42,7 +42,7 @@ maxScore: int32 | undefined;
 //// define
 `maxScore`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryscoreoptions.maxscore.description
 
 
 ////
@@ -64,7 +64,7 @@ minScore: int32 | undefined;
 //// define
 `minScore`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryscoreoptions.minscore.description
 
 
 ////
@@ -86,7 +86,7 @@ objective: string | undefined;
 //// define
 `objective`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryscoreoptions.objective.description
 
 
 ////

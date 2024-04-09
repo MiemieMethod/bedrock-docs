@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MultiplayerSettingsPacket -->数据包，数字ID是`139`。
+<!-- md:samp MultiplayerSettingsPacket -->数据包，数字ID是`139`。该数据包用于protocol.packet.multiplayersettingspacket.description
 
 ## 结构
 
@@ -32,13 +32,13 @@ rankdir = LR
 //// define
 Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.multiplayersettingspacket.type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`EnableMultiplayer`|`0`||
-  |`DisableMultiplayer`|`1`||
-  |`RefreshJoincode`|`2`||
+  |`EnableMultiplayer`|`0`|protocol.enum.enablemultiplayer|
+  |`DisableMultiplayer`|`1`|protocol.enum.disablemultiplayer|
+  |`RefreshJoincode`|`2`|protocol.enum.refreshjoincode|
 
 
 

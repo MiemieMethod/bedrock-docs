@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ChangeDimensionPacket -->数据包，数字ID是`61`。
+<!-- md:samp ChangeDimensionPacket -->数据包，数字ID是`61`。该数据包用于protocol.packet.changedimensionpacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Dimension ID：<!-- md:samp varint -->
 
-- 基本类型。Currently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 基本类型。protocol.packet.changedimensionpacket.dimension_id.descriptionCurrently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.changedimensionpacket.position.description
 
 
 ////
 //// define
 Respawn：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.changedimensionpacket.respawn.description
 
 
 ////

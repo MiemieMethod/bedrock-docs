@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`RangeComparison`接口。
+`RangeComparison`接口。script_api.@minecraft/server.rangecomparison.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ lowerBound: float;
 //// define
 `lowerBound`：`float`
 
-- 属性。
+- script_api.@minecraft/server.rangecomparison.lowerbound.description
 
 
 ////
@@ -42,7 +42,7 @@ upperBound: float;
 //// define
 `upperBound`：`float`
 
-- 属性。
+- script_api.@minecraft/server.rangecomparison.upperbound.description
 
 
 ////

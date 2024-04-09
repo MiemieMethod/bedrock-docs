@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataStoreActionContainer`类。
+`DataStoreActionContainer`类。script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.bindactiontocontrol.description
+
 ```js
 bindActionToControl(controlId: string, actionPayload: string): void
 ```
@@ -20,7 +22,7 @@ bindActionToControl(controlId: string, actionPayload: string): void
 //// define
 `controlId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.controlid.bindactiontocontrol.description
 
 
 ////
@@ -28,7 +30,7 @@ bindActionToControl(controlId: string, actionPayload: string): void
 //// define
 `actionPayload`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.actionpayload.bindactiontocontrol.description
 
 
 ////
@@ -36,7 +38,7 @@ bindActionToControl(controlId: string, actionPayload: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.bindactiontocontrol.return
 
 
 ////
@@ -50,6 +52,8 @@ bindActionToControl(controlId: string, actionPayload: string): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.removeactionfromcontrol.description
+
 ```js
 removeActionFromControl(controlId: string, actionPayload?: string): void
 ```
@@ -58,7 +62,7 @@ removeActionFromControl(controlId: string, actionPayload?: string): void
 //// define
 `controlId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.controlid.removeactionfromcontrol.description
 
 
 ////
@@ -66,7 +70,7 @@ removeActionFromControl(controlId: string, actionPayload?: string): void
 //// define
 `actionPayload`：`string`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.actionpayload.removeactionfromcontrol.description
 
 
 ////
@@ -74,7 +78,7 @@ removeActionFromControl(controlId: string, actionPayload?: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.removeactionfromcontrol.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Direction`枚举。
+`Direction`枚举。script_api.mojang-minecraft.direction.description
 
 ## 常量
 

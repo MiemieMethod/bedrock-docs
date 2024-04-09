@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTameMountComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityTameMountComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitytamemountcomponent.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.entitytamemountcomponent.tame.description
+
 ```js
 tame(showParticles: boolean): void
 ```
@@ -20,7 +22,7 @@ tame(showParticles: boolean): void
 //// define
 `showParticles`：`boolean`
 
-- 参数1。
+- script_api.mojang-minecraft.entitytamemountcomponent.showparticles.tame.description
 
 
 ////
@@ -28,7 +30,7 @@ tame(showParticles: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entitytamemountcomponent.tame.return
 
 
 ////

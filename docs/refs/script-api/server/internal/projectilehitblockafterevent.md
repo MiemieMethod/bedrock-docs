@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ProjectileHitBlockAfterEvent`类。
+`ProjectileHitBlockAfterEvent`类。script_api.@minecraft/server.projectilehitblockafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.projectilehitblockafterevent.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only hitVector: Vector3;
 //// define
 `hitVector`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.projectilehitblockafterevent.hitvector.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.projectilehitblockafterevent.location.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only projectile: Entity;
 //// define
 `projectile`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.projectilehitblockafterevent.projectile.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only source: Entity | undefined;
 //// define
 `source`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.projectilehitblockafterevent.source.description
 
 
 ////
@@ -124,6 +124,8 @@ read-only source: Entity | undefined;
 
 ///
 
+script_api.@minecraft/server.projectilehitblockafterevent.getblockhit.description
+
 ```js
 getBlockHit(): BlockHitInformation
 ```
@@ -132,7 +134,7 @@ getBlockHit(): BlockHitInformation
 //// define
 返回值：[`BlockHitInformation`](./blockhitinformation.md)
 
-- 返回值。
+- script_api.@minecraft/server.projectilehitblockafterevent.getblockhit.return
 
 
 ////

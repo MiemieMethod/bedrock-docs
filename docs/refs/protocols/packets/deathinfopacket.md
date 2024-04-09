@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp DeathInfoPacket -->数据包，数字ID是`189`。
+<!-- md:samp DeathInfoPacket -->数据包，数字ID是`189`。该数据包用于protocol.packet.deathinfopacket.description
 
 ## 结构
 
@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.deathinfopacket.death_cause_attack_name.description
 
 
 ////
@@ -60,7 +60,7 @@ Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.deathinfopacket.数组大小.description
 
 
 /////
@@ -72,14 +72,14 @@ Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Death Cause Entity Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.deathinfopacket.death_cause_entity_name.description
 
 
 //////
 ////// define
 Death Cause Entity Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.deathinfopacket.death_cause_entity_name.description
 
 
 //////

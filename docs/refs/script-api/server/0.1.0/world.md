@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`World`类。
+`World`类。script_api.mojang-minecraft.world.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only events: Events;
 //// define
 `events`：[`Events`](./events.md)
 
-- 属性。
+- script_api.mojang-minecraft.world.events.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only scoreboard: Scoreboard;
 //// define
 `scoreboard`：[`Scoreboard`](./scoreboard.md)
 
-- 属性。
+- script_api.mojang-minecraft.world.scoreboard.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only scoreboard: Scoreboard;
 
 ///
 
+script_api.mojang-minecraft.world.broadcastclientmessage.description
+
 ```js
 broadcastClientMessage(id: string, value: string): void
 ```
@@ -66,7 +68,7 @@ broadcastClientMessage(id: string, value: string): void
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.id.broadcastclientmessage.description
 
 
 ////
@@ -74,7 +76,7 @@ broadcastClientMessage(id: string, value: string): void
 //// define
 `value`：`string`
 
-- 参数2。
+- script_api.mojang-minecraft.world.value.broadcastclientmessage.description
 
 
 ////
@@ -82,7 +84,7 @@ broadcastClientMessage(id: string, value: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.world.broadcastclientmessage.return
 
 
 ////
@@ -96,6 +98,8 @@ broadcastClientMessage(id: string, value: string): void
 
 ///
 
+script_api.mojang-minecraft.world.getdimension.description
+
 ```js
 getDimension(dimensionId: string): Dimension
 ```
@@ -104,7 +108,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.dimensionid.getdimension.description
 
 
 ////
@@ -112,7 +116,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 返回值：[`Dimension`](./dimension.md)
 
-- 返回值。
+- script_api.mojang-minecraft.world.getdimension.return
 
 
 ////
@@ -126,6 +130,8 @@ getDimension(dimensionId: string): Dimension
 
 ///
 
+script_api.mojang-minecraft.world.getdynamicproperty.description
+
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | Location | string | undefined
 ```
@@ -134,7 +140,7 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.identifier.getdynamicproperty.description
 
 
 ////
@@ -142,7 +148,7 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 //// define
 返回值：`boolean`|`double`|`float`|[`Location`](./location.md)|`string`|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.world.getdynamicproperty.return
 
 
 ////
@@ -156,6 +162,8 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 
 ///
 
+script_api.mojang-minecraft.world.getplayers.description
+
 ```js
 getPlayers(options?: EntityQueryOptions): PlayerIterator
 ```
@@ -164,7 +172,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- 参数1。
+- script_api.mojang-minecraft.world.options.getplayers.description
 
 
 ////
@@ -172,7 +180,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 //// define
 返回值：[`PlayerIterator`](./playeriterator.md)
 
-- 返回值。
+- script_api.mojang-minecraft.world.getplayers.return
 
 
 ////
@@ -186,6 +194,8 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 
 ///
 
+script_api.mojang-minecraft.world.playmusic.description
+
 ```js
 playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
@@ -194,7 +204,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.trackid.playmusic.description
 
 
 ////
@@ -202,7 +212,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.world.musicoptions.playmusic.description
 
 
 ////
@@ -210,7 +220,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.world.playmusic.return
 
 
 ////
@@ -224,6 +234,8 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 
 ///
 
+script_api.mojang-minecraft.world.playsound.description
+
 ```js
 playSound(soundID: string, soundOptions?: SoundOptions): void
 ```
@@ -232,7 +244,7 @@ playSound(soundID: string, soundOptions?: SoundOptions): void
 //// define
 `soundID`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.soundid.playsound.description
 
 
 ////
@@ -240,7 +252,7 @@ playSound(soundID: string, soundOptions?: SoundOptions): void
 //// define
 `soundOptions`：[`SoundOptions`](./soundoptions.md)|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.world.soundoptions.playsound.description
 
 
 ////
@@ -248,7 +260,7 @@ playSound(soundID: string, soundOptions?: SoundOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.world.playsound.return
 
 
 ////
@@ -262,6 +274,8 @@ playSound(soundID: string, soundOptions?: SoundOptions): void
 
 ///
 
+script_api.mojang-minecraft.world.queuemusic.description
+
 ```js
 queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
@@ -270,7 +284,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.trackid.queuemusic.description
 
 
 ////
@@ -278,7 +292,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.world.musicoptions.queuemusic.description
 
 
 ////
@@ -286,7 +300,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.world.queuemusic.return
 
 
 ////
@@ -300,6 +314,8 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 
 ///
 
+script_api.mojang-minecraft.world.removedynamicproperty.description
+
 ```js
 removeDynamicProperty(identifier: string): boolean
 ```
@@ -308,7 +324,7 @@ removeDynamicProperty(identifier: string): boolean
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.identifier.removedynamicproperty.description
 
 
 ////
@@ -316,7 +332,7 @@ removeDynamicProperty(identifier: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.world.removedynamicproperty.return
 
 
 ////
@@ -330,6 +346,8 @@ removeDynamicProperty(identifier: string): boolean
 
 ///
 
+script_api.mojang-minecraft.world.setdynamicproperty.description
+
 ```js
 setDynamicProperty(identifier: string, value: boolean | double | float | Location | string): void
 ```
@@ -338,7 +356,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.world.identifier.setdynamicproperty.description
 
 
 ////
@@ -346,7 +364,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `value`：`boolean`|`double`|`float`|[`Location`](./location.md)|`string`
 
-- 参数2。
+- script_api.mojang-minecraft.world.value.setdynamicproperty.description
 
 
 ////
@@ -354,7 +372,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.world.setdynamicproperty.return
 
 
 ////
@@ -368,6 +386,8 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 
 ///
 
+script_api.mojang-minecraft.world.stopmusic.description
+
 ```js
 stopMusic(): void
 ```
@@ -376,7 +396,7 @@ stopMusic(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.world.stopmusic.return
 
 
 ////

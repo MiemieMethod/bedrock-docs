@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BeforeChatEventSignal`类。
+`BeforeChatEventSignal`类。script_api.mojang-minecraft.beforechateventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.beforechateventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => v
 //// define
 `callback`：<code>(<a href="../beforechatevent/">BeforeChatEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.beforechateventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => v
 //// define
 返回值：<code>(<a href="../beforechatevent/">BeforeChatEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.beforechateventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => v
 
 ///
 
+script_api.mojang-minecraft.beforechateventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: BeforeChatEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: BeforeChatEvent) => void): void
 //// define
 `callback`：<code>(<a href="../beforechatevent/">BeforeChatEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.beforechateventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: BeforeChatEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.beforechateventsignal.unsubscribe.return
 
 
 ////

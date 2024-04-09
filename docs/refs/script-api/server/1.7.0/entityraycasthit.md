@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRaycastHit`接口。
+`EntityRaycastHit`接口。script_api.@minecraft/server.entityraycasthit.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ distance: float;
 //// define
 `distance`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityraycasthit.distance.description
 
 
 ////
@@ -42,7 +42,7 @@ entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityraycasthit.entity.description
 
 
 ////

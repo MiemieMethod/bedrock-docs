@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateAbilitiesPacket -->数据包，数字ID是`187`。
+<!-- md:samp UpdateAbilitiesPacket -->数据包，数字ID是`187`。该数据包用于protocol.packet.updateabilitiespacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Data：[<!-- md:samp SerializedAbilitiesData -->](../types/serializedabilitiesdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateabilitiespacket.data.description
 
 
 ////

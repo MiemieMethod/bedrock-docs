@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CommandRequestPacket -->数据包，数字ID是`77`。
+<!-- md:samp CommandRequestPacket -->数据包，数字ID是`77`。该数据包用于protocol.packet.commandrequestpacket.description
 
 ## 结构
 
@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Command：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandrequestpacket.command.description
 
 
 ////
 //// define
 Command Origin：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandrequestpacket.command_origin.description
 
 
 ////
 //// define
 Is Internal Source?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandrequestpacket.is_internal_source.description
 
 
 ////
 //// define
 Version：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandrequestpacket.version.description
 
 
 ////

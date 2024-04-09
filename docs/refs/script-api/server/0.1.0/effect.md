@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Effect`类。
+`Effect`类。script_api.mojang-minecraft.effect.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only amplifier: int32;
 //// define
 `amplifier`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.effect.amplifier.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only displayName: string;
 //// define
 `displayName`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.effect.displayname.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only duration: int32;
 //// define
 `duration`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.effect.duration.description
 
 
 ////

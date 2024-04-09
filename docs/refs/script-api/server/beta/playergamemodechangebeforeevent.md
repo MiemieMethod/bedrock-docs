@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerGameModeChangeBeforeEvent`类。
+`PlayerGameModeChangeBeforeEvent`类。script_api.@minecraft/server.playergamemodechangebeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playergamemodechangebeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only fromGameMode: GameMode;
 //// define
 `fromGameMode`：[`GameMode`](./gamemode.md)
 
-- 属性。
+- script_api.@minecraft/server.playergamemodechangebeforeevent.fromgamemode.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playergamemodechangebeforeevent.player.description
 
 
 ////
@@ -86,7 +86,7 @@ toGameMode: GameMode;
 //// define
 `toGameMode`：[`GameMode`](./gamemode.md)
 
-- 属性。
+- script_api.@minecraft/server.playergamemodechangebeforeevent.togamemode.description
 
 
 ////

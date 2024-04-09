@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ClientboundMapItemDataPacket -->数据包，数字ID是`67`。
+<!-- md:samp ClientboundMapItemDataPacket -->数据包，数字ID是`67`。该数据包用于protocol.packet.clientboundmapitemdatapacket.description
 
 ## 结构
 
@@ -164,21 +164,21 @@ rankdir = LR
 //// define
 Map ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_id.description
 
 
 ////
 //// define
 Type Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.clientboundmapitemdatapacket.type_flags.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`0`||
-  |`TextureUpdate`|`1 << 1`||
-  |`DecorationUpdate`|`1 << 2`||
-  |`Creation`|`1 << 3`||
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`TextureUpdate`|`1 << 1`|protocol.enum.textureupdate|
+  |`DecorationUpdate`|`1 << 2`|protocol.enum.decorationupdate|
+  |`Creation`|`1 << 3`|protocol.enum.creation|
 
 
 
@@ -186,21 +186,21 @@ Type Flags：<!-- md:samp unsigned varint -->
 //// define
 Dimension：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dimension.description
 
 
 ////
 //// define
 Is Locked Map?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.is_locked_map.description
 
 
 ////
 //// define
 Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_origin.description
 
 
 ////
@@ -220,7 +220,7 @@ Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
 
 
 ////////
@@ -232,14 +232,14 @@ Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 ///////// define
 Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_id_entry.description
 
 
 /////////
 ///////// define
 Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_id_entry.description
 
 
 /////////
@@ -256,7 +256,7 @@ Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -273,7 +273,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.scale.description
 
 
 ///////
@@ -291,7 +291,7 @@ Scale：<!-- md:samp byte -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.scale.description
 
 
 ///////
@@ -309,7 +309,7 @@ Scale：<!-- md:samp byte -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.scale.description
 
 
 ///////
@@ -322,7 +322,7 @@ Scale：<!-- md:samp byte -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -344,7 +344,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
 
 
 ////////
@@ -356,7 +356,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../types/mapitemtrackedactor__uniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.mapitemtrackedactor_id.description
 
 
 /////////
@@ -372,7 +372,7 @@ MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../typ
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
 
 
 ////////
@@ -384,7 +384,7 @@ MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../typ
 ///////// define
 Map Decoration：[<!-- md:samp MapDecoration -->](../types/mapdecoration.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_decoration.description
 
 
 /////////
@@ -401,7 +401,7 @@ Map Decoration：[<!-- md:samp MapDecoration -->](../types/mapdecoration.md)
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -418,28 +418,28 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Texture Width：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.texture_width.description
 
 
 ///////
 /////// define
 Texture Height：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.texture_height.description
 
 
 ///////
 /////// define
 X-TexCoordinate：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.x-texcoordinate.description
 
 
 ///////
 /////// define
 Y-TexCoordinate：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.y-texcoordinate.description
 
 
 ///////
@@ -451,7 +451,7 @@ Y-TexCoordinate：<!-- md:samp varint -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
 
 
 ////////
@@ -463,7 +463,7 @@ Y-TexCoordinate：<!-- md:samp varint -->
 ///////// define
 Pixel：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.pixel.description
 
 
 /////////
@@ -480,7 +480,7 @@ Pixel：<!-- md:samp unsigned varint -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////

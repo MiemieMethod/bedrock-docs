@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityPushThroughComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityPushThroughComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitypushthroughcomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ value: float;
 //// define
 `value`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entitypushthroughcomponent.value.description
 
 
 ////

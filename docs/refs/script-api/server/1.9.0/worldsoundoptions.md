@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldSoundOptions`接口。
+`WorldSoundOptions`接口。script_api.@minecraft/server.worldsoundoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ pitch: float | undefined;
 //// define
 `pitch`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.worldsoundoptions.pitch.description
 
 
 ////
@@ -42,7 +42,7 @@ volume: float | undefined;
 //// define
 `volume`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.worldsoundoptions.volume.description
 
 
 ////

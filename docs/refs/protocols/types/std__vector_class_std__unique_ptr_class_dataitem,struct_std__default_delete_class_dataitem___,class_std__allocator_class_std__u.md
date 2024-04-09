@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->类型。
+<!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->类型。该类型用于protocol.type.std::vector&lt;std::unique_ptr&lt;dataitem&gt;&gt;.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.std::vector&lt;std::unique_ptr&lt;dataitem&gt;&gt;.count.description
 
 
 ////
 //// define
 Item：[<!-- md:samp DataItem -->](../types/dataitem.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.std::vector&lt;std::unique_ptr&lt;dataitem&gt;&gt;.item.description
 
 
 ////

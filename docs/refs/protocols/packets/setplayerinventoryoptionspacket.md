@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetPlayerInventoryOptionsPacket -->数据包，数字ID是`307`。
+<!-- md:samp SetPlayerInventoryOptionsPacket -->数据包，数字ID是`307`。该数据包用于protocol.packet.setplayerinventoryoptionspacket.description
 
 ## 结构
 
@@ -48,18 +48,18 @@ rankdir = LR
 //// define
 Left Inventory Tab：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.left_inventory_tab.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`RecipeConstruction`|`1`||
-  |`RecipeEquipment`|`2`||
-  |`RecipeItems`|`3`||
-  |`RecipeNature`|`4`||
-  |`RecipeSearch`|`5`||
-  |`Survival`|`6`||
-  |`Count`|`7`||
+  |`None`|`0`|无|
+  |`RecipeConstruction`|`1`|protocol.enum.recipeconstruction|
+  |`RecipeEquipment`|`2`|protocol.enum.recipeequipment|
+  |`RecipeItems`|`3`|protocol.enum.recipeitems|
+  |`RecipeNature`|`4`|protocol.enum.recipenature|
+  |`RecipeSearch`|`5`|protocol.enum.recipesearch|
+  |`Survival`|`6`|protocol.enum.survival|
+  |`Count`|`7`|protocol.enum.count|
 
 
 
@@ -67,15 +67,15 @@ Left Inventory Tab：<!-- md:samp varint -->
 //// define
 Right Inventory Tab：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.right_inventory_tab.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`FullScreen`|`1`||
-  |`Crafting`|`2`||
-  |`Armor`|`3`||
-  |`Count`|`4`||
+  |`None`|`0`|无|
+  |`FullScreen`|`1`|protocol.enum.fullscreen|
+  |`Crafting`|`2`|protocol.enum.crafting|
+  |`Armor`|`3`|protocol.enum.armor|
+  |`Count`|`4`|protocol.enum.count|
 
 
 
@@ -83,22 +83,22 @@ Right Inventory Tab：<!-- md:samp varint -->
 //// define
 Filtering：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.setplayerinventoryoptionspacket.filtering.description
 
 
 ////
 //// define
 Layout Inv：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.layout_inv.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Survival`|`1`||
-  |`RecipeBook`|`2`||
-  |`Creative`|`3`||
-  |`Count`|`4`||
+  |`None`|`0`|无|
+  |`Survival`|`1`|protocol.enum.survival|
+  |`RecipeBook`|`2`|protocol.enum.recipebook|
+  |`Creative`|`3`|protocol.enum.creative|
+  |`Count`|`4`|protocol.enum.count|
 
 
 
@@ -106,15 +106,15 @@ Layout Inv：<!-- md:samp varint -->
 //// define
 Layout Craft：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.layout_craft.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Survival`|`1`||
-  |`RecipeBook`|`2`||
-  |`Creative`|`3`||
-  |`Count`|`4`||
+  |`None`|`0`|无|
+  |`Survival`|`1`|protocol.enum.survival|
+  |`RecipeBook`|`2`|protocol.enum.recipebook|
+  |`Creative`|`3`|protocol.enum.creative|
+  |`Count`|`4`|protocol.enum.count|
 
 
 

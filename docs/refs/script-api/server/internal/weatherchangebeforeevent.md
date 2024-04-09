@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WeatherChangeBeforeEvent`类。
+`WeatherChangeBeforeEvent`类。script_api.@minecraft/server.weatherchangebeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.weatherchangebeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ duration: int32;
 //// define
 `duration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.weatherchangebeforeevent.duration.description
 
 
 ////
@@ -64,7 +64,7 @@ newWeather: WeatherType;
 //// define
 `newWeather`：[`WeatherType`](./weathertype.md)
 
-- 属性。
+- script_api.@minecraft/server.weatherchangebeforeevent.newweather.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only previousWeather: WeatherType;
 //// define
 `previousWeather`：[`WeatherType`](./weathertype.md)
 
-- 属性。
+- script_api.@minecraft/server.weatherchangebeforeevent.previousweather.description
 
 
 ////

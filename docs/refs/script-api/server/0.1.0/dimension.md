@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Dimension`类。
+`Dimension`类。script_api.mojang-minecraft.dimension.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.dimension.id.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only id: string;
 
 ///
 
+script_api.mojang-minecraft.dimension.createexplosion.description
+
 ```js
 createExplosion(location: Location, radius: float, explosionOptions: ExplosionOptions): void
 ```
@@ -44,7 +46,7 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 //// define
 `location`：[`Location`](./location.md)
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.location.createexplosion.description
 
 
 ////
@@ -52,7 +54,7 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 //// define
 `radius`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.dimension.radius.createexplosion.description
 
 
 ////
@@ -60,7 +62,7 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 //// define
 `explosionOptions`：[`ExplosionOptions`](./explosionoptions.md)
 
-- 参数3。
+- script_api.mojang-minecraft.dimension.explosionoptions.createexplosion.description
 
 
 ////
@@ -68,7 +70,7 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.createexplosion.return
 
 
 ////
@@ -82,6 +84,8 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 
 ///
 
+script_api.mojang-minecraft.dimension.getblock.description
+
 ```js
 getBlock(location: BlockLocation): Block
 ```
@@ -90,7 +94,7 @@ getBlock(location: BlockLocation): Block
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.location.getblock.description
 
 
 ////
@@ -98,7 +102,7 @@ getBlock(location: BlockLocation): Block
 //// define
 返回值：[`Block`](./block.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.getblock.return
 
 
 ////
@@ -112,6 +116,8 @@ getBlock(location: BlockLocation): Block
 
 ///
 
+script_api.mojang-minecraft.dimension.getblockfromray.description
+
 ```js
 getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOptions): Block | undefined
 ```
@@ -120,7 +126,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 //// define
 `location`：[`Location`](./location.md)
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.location.getblockfromray.description
 
 
 ////
@@ -128,7 +134,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 //// define
 `direction`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.dimension.direction.getblockfromray.description
 
 
 ////
@@ -136,7 +142,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- 参数3。
+- script_api.mojang-minecraft.dimension.options.getblockfromray.description
 
 
 ////
@@ -144,7 +150,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.getblockfromray.return
 
 
 ////
@@ -158,6 +164,8 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 
 ///
 
+script_api.mojang-minecraft.dimension.getentities.description
+
 ```js
 getEntities(options?: EntityQueryOptions): EntityIterator
 ```
@@ -166,7 +174,7 @@ getEntities(options?: EntityQueryOptions): EntityIterator
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.options.getentities.description
 
 
 ////
@@ -174,7 +182,7 @@ getEntities(options?: EntityQueryOptions): EntityIterator
 //// define
 返回值：[`EntityIterator`](./entityiterator.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.getentities.return
 
 
 ////
@@ -188,6 +196,8 @@ getEntities(options?: EntityQueryOptions): EntityIterator
 
 ///
 
+script_api.mojang-minecraft.dimension.getentitiesatblocklocation.description
+
 ```js
 getEntitiesAtBlockLocation(location: BlockLocation): Entity[]
 ```
@@ -196,7 +206,7 @@ getEntitiesAtBlockLocation(location: BlockLocation): Entity[]
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.location.getentitiesatblocklocation.description
 
 
 ////
@@ -204,7 +214,7 @@ getEntitiesAtBlockLocation(location: BlockLocation): Entity[]
 //// define
 返回值：<code><a href="../entity/">Entity</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.getentitiesatblocklocation.return
 
 
 ////
@@ -218,6 +228,8 @@ getEntitiesAtBlockLocation(location: BlockLocation): Entity[]
 
 ///
 
+script_api.mojang-minecraft.dimension.getentitiesfromray.description
+
 ```js
 getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycastOptions): Entity[]
 ```
@@ -226,7 +238,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 //// define
 `location`：[`Location`](./location.md)
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.location.getentitiesfromray.description
 
 
 ////
@@ -234,7 +246,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 //// define
 `direction`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.dimension.direction.getentitiesfromray.description
 
 
 ////
@@ -242,7 +254,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- 参数3。
+- script_api.mojang-minecraft.dimension.options.getentitiesfromray.description
 
 
 ////
@@ -250,7 +262,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 //// define
 返回值：<code><a href="../entity/">Entity</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.getentitiesfromray.return
 
 
 ////
@@ -264,6 +276,8 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 
 ///
 
+script_api.mojang-minecraft.dimension.getplayers.description
+
 ```js
 getPlayers(options?: EntityQueryOptions): PlayerIterator
 ```
@@ -272,7 +286,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.options.getplayers.description
 
 
 ////
@@ -280,7 +294,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 //// define
 返回值：[`PlayerIterator`](./playeriterator.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.getplayers.return
 
 
 ////
@@ -294,6 +308,8 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 
 ///
 
+script_api.mojang-minecraft.dimension.isempty.description
+
 ```js
 isEmpty(location: BlockLocation): boolean
 ```
@@ -302,7 +318,7 @@ isEmpty(location: BlockLocation): boolean
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.location.isempty.description
 
 
 ////
@@ -310,7 +326,7 @@ isEmpty(location: BlockLocation): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.isempty.return
 
 
 ////
@@ -324,6 +340,8 @@ isEmpty(location: BlockLocation): boolean
 
 ///
 
+script_api.mojang-minecraft.dimension.runcommand.description
+
 ```js
 runCommand(commandString: string): any
 ```
@@ -332,7 +350,7 @@ runCommand(commandString: string): any
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.commandstring.runcommand.description
 
 
 ////
@@ -340,7 +358,7 @@ runCommand(commandString: string): any
 //// define
 返回值：`any`
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.runcommand.return
 
 
 ////
@@ -354,6 +372,8 @@ runCommand(commandString: string): any
 
 ///
 
+script_api.mojang-minecraft.dimension.spawnentity.description
+
 ```js
 spawnEntity(identifier: string, location: BlockLocation | Location): Entity
 ```
@@ -362,7 +382,7 @@ spawnEntity(identifier: string, location: BlockLocation | Location): Entity
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.identifier.spawnentity.description
 
 
 ////
@@ -370,7 +390,7 @@ spawnEntity(identifier: string, location: BlockLocation | Location): Entity
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)|[`Location`](./location.md)
 
-- 参数2。
+- script_api.mojang-minecraft.dimension.location.spawnentity.description
 
 
 ////
@@ -378,7 +398,7 @@ spawnEntity(identifier: string, location: BlockLocation | Location): Entity
 //// define
 返回值：[`Entity`](./entity.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.spawnentity.return
 
 
 ////
@@ -392,6 +412,8 @@ spawnEntity(identifier: string, location: BlockLocation | Location): Entity
 
 ///
 
+script_api.mojang-minecraft.dimension.spawnitem.description
+
 ```js
 spawnItem(item: ItemStack, location: BlockLocation | Location): Entity
 ```
@@ -400,7 +422,7 @@ spawnItem(item: ItemStack, location: BlockLocation | Location): Entity
 //// define
 `item`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.item.spawnitem.description
 
 
 ////
@@ -408,7 +430,7 @@ spawnItem(item: ItemStack, location: BlockLocation | Location): Entity
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)|[`Location`](./location.md)
 
-- 参数2。
+- script_api.mojang-minecraft.dimension.location.spawnitem.description
 
 
 ////
@@ -416,7 +438,7 @@ spawnItem(item: ItemStack, location: BlockLocation | Location): Entity
 //// define
 返回值：[`Entity`](./entity.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.spawnitem.return
 
 
 ////
@@ -430,6 +452,8 @@ spawnItem(item: ItemStack, location: BlockLocation | Location): Entity
 
 ///
 
+script_api.mojang-minecraft.dimension.spawnparticle.description
+
 ```js
 spawnParticle(effectName: string, location: Location, molangVariables: MolangVariableMap): void
 ```
@@ -438,7 +462,7 @@ spawnParticle(effectName: string, location: Location, molangVariables: MolangVar
 //// define
 `effectName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.dimension.effectname.spawnparticle.description
 
 
 ////
@@ -446,7 +470,7 @@ spawnParticle(effectName: string, location: Location, molangVariables: MolangVar
 //// define
 `location`：[`Location`](./location.md)
 
-- 参数2。
+- script_api.mojang-minecraft.dimension.location.spawnparticle.description
 
 
 ////
@@ -454,7 +478,7 @@ spawnParticle(effectName: string, location: Location, molangVariables: MolangVar
 //// define
 `molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)
 
-- 参数3。
+- script_api.mojang-minecraft.dimension.molangvariables.spawnparticle.description
 
 
 ////
@@ -462,7 +486,7 @@ spawnParticle(effectName: string, location: Location, molangVariables: MolangVar
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.dimension.spawnparticle.return
 
 
 ////

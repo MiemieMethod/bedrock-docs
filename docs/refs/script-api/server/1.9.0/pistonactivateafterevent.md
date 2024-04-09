@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PistonActivateAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`PistonActivateAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.pistonactivateafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only isExpanding: boolean;
 //// define
 `isExpanding`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.pistonactivateafterevent.isexpanding.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only piston: BlockPistonComponent;
 //// define
 `piston`：[`BlockPistonComponent`](./blockpistoncomponent.md)
 
-- 属性。
+- script_api.@minecraft/server.pistonactivateafterevent.piston.description
 
 
 ////

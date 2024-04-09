@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CodeBuilderPacket -->数据包，数字ID是`150`。
+<!-- md:samp CodeBuilderPacket -->数据包，数字ID是`150`。该数据包用于protocol.packet.codebuilderpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 URL：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.codebuilderpacket.url.description
 
 
 ////
 //// define
 Should open code builder：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.codebuilderpacket.should_open_code_builder.description
 
 
 ////

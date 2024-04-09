@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Camera`类。
+`Camera`类。script_api.@minecraft/server.camera.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.camera.clear.description
+
 ```js
 clear(): void
 ```
@@ -20,7 +22,7 @@ clear(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.camera.clear.return
 
 
 ////
@@ -34,6 +36,8 @@ clear(): void
 
 ///
 
+script_api.@minecraft/server.camera.fade.description
+
 ```js
 fade(fadeCameraOptions?: CameraFadeOptions): void
 ```
@@ -42,7 +46,7 @@ fade(fadeCameraOptions?: CameraFadeOptions): void
 //// define
 `fadeCameraOptions`：[`CameraFadeOptions`](./camerafadeoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.camera.fadecameraoptions.fade.description
 
 
 ////
@@ -50,7 +54,7 @@ fade(fadeCameraOptions?: CameraFadeOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.camera.fade.return
 
 
 ////
@@ -64,6 +68,8 @@ fade(fadeCameraOptions?: CameraFadeOptions): void
 
 ///
 
+script_api.@minecraft/server.camera.setcamera.description
+
 ```js
 setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFacingOptions | CameraSetLocationOptions | CameraSetPosOptions | CameraSetRotOptions): void
 ```
@@ -72,7 +78,7 @@ setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFac
 //// define
 `cameraPreset`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.camera.camerapreset.setcamera.description
 
 
 ////
@@ -80,7 +86,7 @@ setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFac
 //// define
 `setOptions`：CameraDefaultOptions | CameraSetFacingOptions | CameraSetLocationOptions | CameraSetPosOptions | CameraSetRotOptions|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.camera.setoptions.setcamera.description
 
 
 ////
@@ -88,7 +94,7 @@ setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFac
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.camera.setcamera.return
 
 
 ////

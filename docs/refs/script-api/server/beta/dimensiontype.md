@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DimensionType`类。
+`DimensionType`类。script_api.@minecraft/server.dimensiontype.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only typeId: string;
 //// define
 `typeId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.dimensiontype.typeid.description
 
 
 ////

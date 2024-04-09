@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHurtAfterEventSignal`类。
+`EntityHurtAfterEventSignal`类。script_api.@minecraft/server.entityhurtaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entityhurtaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntityHurtAfterEvent) => void, options?: EntityEventOptions): (arg: EntityHurtAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntityHurtAfterEvent) => void, options?: EntityEventOp
 //// define
 `callback`：<code>(<a href="../entityhurtafterevent/">EntityHurtAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityhurtaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntityHurtAfterEvent) => void, options?: EntityEventOp
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entityhurtaftereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: EntityHurtAfterEvent) => void, options?: EntityEventOp
 //// define
 返回值：<code>(<a href="../entityhurtafterevent/">EntityHurtAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityhurtaftereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: EntityHurtAfterEvent) => void, options?: EntityEventOp
 
 ///
 
+script_api.@minecraft/server.entityhurtaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntityHurtAfterEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntityHurtAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityhurtafterevent/">EntityHurtAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityhurtaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: EntityHurtAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityhurtaftereventsignal.unsubscribe.return
 
 
 ////

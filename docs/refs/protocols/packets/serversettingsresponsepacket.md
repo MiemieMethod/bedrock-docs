@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ServerSettingsResponsePacket -->数据包，数字ID是`103`。
+<!-- md:samp ServerSettingsResponsePacket -->数据包，数字ID是`103`。该数据包用于protocol.packet.serversettingsresponsepacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Form ID：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.serversettingsresponsepacket.form_id.description
 
 
 ////
 //// define
 Form UI JSON：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.serversettingsresponsepacket.form_ui_json.description
 
 
 ////

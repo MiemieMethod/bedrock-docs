@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemLockMode`枚举。
+`ItemLockMode`枚举。script_api.@minecraft/server.itemlockmode.description
 
 ## 常量
 

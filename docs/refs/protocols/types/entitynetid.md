@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EntityNetId -->类型。
+<!-- md:samp EntityNetId -->类型。该类型用于protocol.type.entitynetid.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Raw Entity Id：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.entitynetid.raw_entity_id.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CameraPresetsPacket -->数据包，数字ID是`198`。
+<!-- md:samp CameraPresetsPacket -->数据包，数字ID是`198`。该数据包用于protocol.packet.camerapresetspacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Camera Presets：[<!-- md:samp CameraPresets -->](../types/camerapresets.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.camerapresetspacket.camera_presets.description
 
 
 ////

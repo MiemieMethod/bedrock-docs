@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PropertyRegistry`类。
+`PropertyRegistry`类。script_api.mojang-minecraft.propertyregistry.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.propertyregistry.registerentitytypedynamicproperties.description
+
 ```js
 registerEntityTypeDynamicProperties(propertiesDefinition: DynamicPropertiesDefinition, entityTypeOrId: EntityType | string): void
 ```
@@ -20,7 +22,7 @@ registerEntityTypeDynamicProperties(propertiesDefinition: DynamicPropertiesDefin
 //// define
 `propertiesDefinition`：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- 参数1。
+- script_api.mojang-minecraft.propertyregistry.propertiesdefinition.registerentitytypedynamicproperties.description
 
 
 ////
@@ -28,7 +30,7 @@ registerEntityTypeDynamicProperties(propertiesDefinition: DynamicPropertiesDefin
 //// define
 `entityTypeOrId`：[`EntityType`](./entitytype.md)|`string`
 
-- 参数2。
+- script_api.mojang-minecraft.propertyregistry.entitytypeorid.registerentitytypedynamicproperties.description
 
 
 ////
@@ -36,7 +38,7 @@ registerEntityTypeDynamicProperties(propertiesDefinition: DynamicPropertiesDefin
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.propertyregistry.registerentitytypedynamicproperties.return
 
 
 ////
@@ -50,6 +52,8 @@ registerEntityTypeDynamicProperties(propertiesDefinition: DynamicPropertiesDefin
 
 ///
 
+script_api.mojang-minecraft.propertyregistry.registerworlddynamicproperties.description
+
 ```js
 registerWorldDynamicProperties(propertiesDefinition: DynamicPropertiesDefinition): void
 ```
@@ -58,7 +62,7 @@ registerWorldDynamicProperties(propertiesDefinition: DynamicPropertiesDefinition
 //// define
 `propertiesDefinition`：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- 参数1。
+- script_api.mojang-minecraft.propertyregistry.propertiesdefinition.registerworlddynamicproperties.description
 
 
 ////
@@ -66,7 +70,7 @@ registerWorldDynamicProperties(propertiesDefinition: DynamicPropertiesDefinition
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.propertyregistry.registerworlddynamicproperties.return
 
 
 ////

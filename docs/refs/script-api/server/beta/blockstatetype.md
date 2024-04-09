@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockStateType`类。
+`BlockStateType`类。script_api.@minecraft/server.blockstatetype.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.blockstatetype.id.description
 
 
 ////
@@ -35,14 +35,14 @@ read-only id: string;
 ///
 
 ```js
-read-only validValues: boolean | int32 | string[];
+read-only validValues: (boolean | int32 | string)[];
 ```
 
 /// html | div.result
 //// define
-`validValues`：`boolean | int32 | string[]`
+`validValues`：`(boolean | int32 | string)[]`
 
-- 属性。
+- script_api.@minecraft/server.blockstatetype.validvalues.description
 
 
 ////

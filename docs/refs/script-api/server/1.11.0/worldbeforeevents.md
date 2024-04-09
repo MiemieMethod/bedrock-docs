@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldBeforeEvents`类。
+`WorldBeforeEvents`类。script_api.@minecraft/server.worldbeforeevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only effectAdd: EffectAddBeforeEventSignal;
 //// define
 `effectAdd`：[`EffectAddBeforeEventSignal`](./effectaddbeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.effectadd.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only entityRemove: EntityRemoveBeforeEventSignal;
 //// define
 `entityRemove`：[`EntityRemoveBeforeEventSignal`](./entityremovebeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.entityremove.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only explosion: ExplosionBeforeEventSignal;
 //// define
 `explosion`：[`ExplosionBeforeEventSignal`](./explosionbeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.explosion.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only itemUse: ItemUseBeforeEventSignal;
 //// define
 `itemUse`：[`ItemUseBeforeEventSignal`](./itemusebeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.itemuse.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only itemUseOn: ItemUseOnBeforeEventSignal;
 //// define
 `itemUseOn`：[`ItemUseOnBeforeEventSignal`](./itemuseonbeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.itemuseon.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal;
 //// define
 `playerBreakBlock`：[`PlayerBreakBlockBeforeEventSignal`](./playerbreakblockbeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.playerbreakblock.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only playerLeave: PlayerLeaveBeforeEventSignal;
 //// define
 `playerLeave`：[`PlayerLeaveBeforeEventSignal`](./playerleavebeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.playerleave.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only weatherChange: WeatherChangeBeforeEventSignal;
 //// define
 `weatherChange`：[`WeatherChangeBeforeEventSignal`](./weatherchangebeforeeventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldbeforeevents.weatherchange.description
 
 
 ////

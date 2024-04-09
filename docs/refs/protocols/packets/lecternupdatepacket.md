@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp LecternUpdatePacket -->数据包，数字ID是`125`。
+<!-- md:samp LecternUpdatePacket -->数据包，数字ID是`125`。该数据包用于protocol.packet.lecternupdatepacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 New page to show：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.lecternupdatepacket.new_page_to_show.description
 
 
 ////
 //// define
 Total Pages：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.lecternupdatepacket.total_pages.description
 
 
 ////
 //// define
 Position of Lectern to update：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.lecternupdatepacket.position_of_lectern_to_update.description
 
 
 ////

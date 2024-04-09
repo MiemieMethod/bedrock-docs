@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerHotbarPacket -->数据包，数字ID是`48`。
+<!-- md:samp PlayerHotbarPacket -->数据包，数字ID是`48`。该数据包用于protocol.packet.playerhotbarpacket.description
 
 ## 结构
 
@@ -40,25 +40,25 @@ rankdir = LR
 //// define
 Selected Slot：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerhotbarpacket.selected_slot.description
 
 
 ////
 //// define
 Container ID：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerhotbarpacket.container_id.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`CONTAINER_ID_NONE`|`-1`||
-  |`CONTAINER_ID_INVENTORY`|`0`||
-  |`CONTAINER_ID_FIRST`|`1`||
-  |`CONTAINER_ID_LAST`|`100`||
-  |`CONTAINER_ID_OFFHAND`|`119`||
-  |`CONTAINER_ID_ARMOR`|`120`||
-  |`CONTAINER_ID_SELECTION_SLOTS`|`122`||
-  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`||
+  |`CONTAINER_ID_NONE`|`-1`|protocol.enum.container_id_none|
+  |`CONTAINER_ID_INVENTORY`|`0`|protocol.enum.container_id_inventory|
+  |`CONTAINER_ID_FIRST`|`1`|protocol.enum.container_id_first|
+  |`CONTAINER_ID_LAST`|`100`|protocol.enum.container_id_last|
+  |`CONTAINER_ID_OFFHAND`|`119`|protocol.enum.container_id_offhand|
+  |`CONTAINER_ID_ARMOR`|`120`|protocol.enum.container_id_armor|
+  |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
+  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
 
 
 
@@ -66,7 +66,7 @@ Container ID：<!-- md:samp byte -->
 //// define
 Should select slot?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerhotbarpacket.should_select_slot.description
 
 
 ////

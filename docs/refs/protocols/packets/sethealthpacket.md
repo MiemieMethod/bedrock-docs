@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetHealthPacket -->数据包，数字ID是`42`。
+<!-- md:samp SetHealthPacket -->数据包，数字ID是`42`。该数据包用于protocol.packet.sethealthpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Health：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.sethealthpacket.health.description
 
 
 ////

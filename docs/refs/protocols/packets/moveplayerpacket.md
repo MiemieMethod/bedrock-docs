@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MovePlayerPacket -->数据包，数字ID是`19`。
+<!-- md:samp MovePlayerPacket -->数据包，数字ID是`19`。该数据包用于protocol.packet.moveplayerpacket.description
 
 ## 结构
 
@@ -76,42 +76,42 @@ rankdir = LR
 //// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.moveplayerpacket.player_runtime_id.description
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.moveplayerpacket.position.description
 
 
 ////
 //// define
 Rotation：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.moveplayerpacket.rotation.description
 
 
 ////
 //// define
 Y-Head Rotation：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.moveplayerpacket.y-head_rotation.description
 
 
 ////
 //// define
 Position Mode：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.moveplayerpacket.position_mode.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Normal`|`0`||
-  |`Respawn`|`1`||
-  |`Teleport`|`2`||
-  |`OnlyHeadRot`|`3`||
+  |`Normal`|`0`|protocol.enum.normal|
+  |`Respawn`|`1`|protocol.enum.respawn|
+  |`Teleport`|`2`|protocol.enum.teleport|
+  |`OnlyHeadRot`|`3`|protocol.enum.onlyheadrot|
 
 
 
@@ -119,14 +119,14 @@ Position Mode：<!-- md:samp byte -->
 //// define
 On Ground：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.moveplayerpacket.on_ground.description
 
 
 ////
 //// define
 Riding Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.moveplayerpacket.riding_runtime_id.description
 
 
 ////
@@ -136,7 +136,7 @@ Riding Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -152,14 +152,14 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Teleportation Cause：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.moveplayerpacket.teleportation_cause.description
 
 
 ///////
 /////// define
 Source Actor Type：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.moveplayerpacket.source_actor_type.description
 
 
 ///////
@@ -170,7 +170,7 @@ Source Actor Type：<!-- md:samp int -->
 //// define
 Tick：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。Should be the tick we last processed from PlayerAuthInputPacket or 0 if we're not doing server authoritative movement
+- 基本类型。protocol.packet.moveplayerpacket.tick.descriptionShould be the tick we last processed from PlayerAuthInputPacket or 0 if we're not doing server authoritative movement
 
 
 ////

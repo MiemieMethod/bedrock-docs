@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ContainerMixDataEntry -->类型。
+<!-- md:samp ContainerMixDataEntry -->类型。该类型用于protocol.type.containermixdataentry.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 From Item (Id): Input：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.containermixdataentry.from_item:_input.description
 
 
 ////
 //// define
 Re-agent Item Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.containermixdataentry.re-agent_item_id.description
 
 
 ////
 //// define
 To Item (Id): Output：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.containermixdataentry.to_item:_output.description
 
 
 ////

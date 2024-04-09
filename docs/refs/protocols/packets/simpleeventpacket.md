@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SimpleEventPacket -->数据包，数字ID是`64`。
+<!-- md:samp SimpleEventPacket -->数据包，数字ID是`64`。该数据包用于protocol.packet.simpleeventpacket.description
 
 ## 结构
 
@@ -32,14 +32,14 @@ rankdir = LR
 //// define
 Type：<!-- md:samp unsigned short -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.simpleeventpacket.type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`UninitializedSubtype`|`0`||
-  |`EnableCommands`|`1`||
-  |`DisableCommands`|`2`||
-  |`UnlockWorldTemplateSettings`|`3`||
+  |`UninitializedSubtype`|`0`|protocol.enum.uninitializedsubtype|
+  |`EnableCommands`|`1`|protocol.enum.enablecommands|
+  |`DisableCommands`|`2`|protocol.enum.disablecommands|
+  |`UnlockWorldTemplateSettings`|`3`|protocol.enum.unlockworldtemplatesettings|
 
 
 

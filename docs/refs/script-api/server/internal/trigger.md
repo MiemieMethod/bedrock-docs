@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Trigger`类。
+`Trigger`类。script_api.@minecraft/server.trigger.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ eventName: string;
 //// define
 `eventName`：`string`
 
-- 属性。
+- script_api.@minecraft/server.trigger.eventname.description
 
 
 ////
@@ -36,6 +36,8 @@ eventName: string;
 
 ///
 
+script_api.@minecraft/server.trigger.constructor.description
+
 ```js
 new constructor(eventName: string): Trigger
 ```
@@ -44,7 +46,7 @@ new constructor(eventName: string): Trigger
 //// define
 `eventName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.trigger.eventname.constructor.description
 
 
 ////
@@ -52,7 +54,7 @@ new constructor(eventName: string): Trigger
 //// define
 返回值：[`Trigger`](./trigger.md)
 
-- 返回值。
+- script_api.@minecraft/server.trigger.constructor.return
 
 
 ////

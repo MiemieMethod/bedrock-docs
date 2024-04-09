@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ModeChangeAfterEvent`类。
+`ModeChangeAfterEvent`类。script_api.@minecraft/server-editor-bindings.modechangeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only mode: EditorMode;
 //// define
 `mode`：[`EditorMode`](./editormode.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.modechangeafterevent.mode.description
 
 
 ////

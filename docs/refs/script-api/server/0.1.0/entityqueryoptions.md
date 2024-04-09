@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityQueryOptions`类。
+`EntityQueryOptions`类。script_api.mojang-minecraft.entityqueryoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ closest: int32 | undefined;
 //// define
 `closest`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.closest.description
 
 
 ////
@@ -42,7 +42,7 @@ excludeFamilies: string[] | undefined;
 //// define
 `excludeFamilies`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.excludefamilies.description
 
 
 ////
@@ -64,7 +64,7 @@ excludeGameModes: GameMode[] | undefined;
 //// define
 `excludeGameModes`：<code><a href="../gamemode/">GameMode</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.excludegamemodes.description
 
 
 ////
@@ -86,7 +86,7 @@ excludeNames: string[] | undefined;
 //// define
 `excludeNames`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.excludenames.description
 
 
 ////
@@ -108,7 +108,7 @@ excludeTags: string[] | undefined;
 //// define
 `excludeTags`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.excludetags.description
 
 
 ////
@@ -130,7 +130,7 @@ excludeTypes: string[] | undefined;
 //// define
 `excludeTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.excludetypes.description
 
 
 ////
@@ -152,7 +152,7 @@ families: string[] | undefined;
 //// define
 `families`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.families.description
 
 
 ////
@@ -174,7 +174,7 @@ farthest: int32 | undefined;
 //// define
 `farthest`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.farthest.description
 
 
 ////
@@ -196,7 +196,7 @@ gameMode: GameMode | undefined;
 //// define
 `gameMode`：[`GameMode`](./gamemode.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.gamemode.description
 
 
 ////
@@ -218,7 +218,7 @@ location: Location | undefined;
 //// define
 `location`：[`Location`](./location.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.location.description
 
 
 ////
@@ -240,7 +240,7 @@ maxDistance: float | undefined;
 //// define
 `maxDistance`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.maxdistance.description
 
 
 ////
@@ -262,7 +262,7 @@ maxHorizontalRotation: float | undefined;
 //// define
 `maxHorizontalRotation`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.maxhorizontalrotation.description
 
 
 ////
@@ -284,7 +284,7 @@ maxLevel: int32 | undefined;
 //// define
 `maxLevel`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.maxlevel.description
 
 
 ////
@@ -306,7 +306,7 @@ maxVerticalRotation: float | undefined;
 //// define
 `maxVerticalRotation`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.maxverticalrotation.description
 
 
 ////
@@ -328,7 +328,7 @@ minDistance: float | undefined;
 //// define
 `minDistance`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.mindistance.description
 
 
 ////
@@ -350,7 +350,7 @@ minHorizontalRotation: float | undefined;
 //// define
 `minHorizontalRotation`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.minhorizontalrotation.description
 
 
 ////
@@ -372,7 +372,7 @@ minLevel: int32 | undefined;
 //// define
 `minLevel`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.minlevel.description
 
 
 ////
@@ -394,7 +394,7 @@ minVerticalRotation: float | undefined;
 //// define
 `minVerticalRotation`：`float`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.minverticalrotation.description
 
 
 ////
@@ -416,7 +416,7 @@ name: string | undefined;
 //// define
 `name`：`string`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.name.description
 
 
 ////
@@ -438,7 +438,7 @@ scoreOptions: EntityQueryScoreOptions[] | undefined;
 //// define
 `scoreOptions`：<code><a href="../entityqueryscoreoptions/">EntityQueryScoreOptions</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.scoreoptions.description
 
 
 ////
@@ -460,7 +460,7 @@ tags: string[] | undefined;
 //// define
 `tags`：`string[]`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.tags.description
 
 
 ////
@@ -482,7 +482,7 @@ type: string | undefined;
 //// define
 `type`：`string`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.type.description
 
 
 ////
@@ -504,7 +504,7 @@ volume: BlockAreaSize | undefined;
 //// define
 `volume`：[`BlockAreaSize`](./blockareasize.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityqueryoptions.volume.description
 
 
 ////
@@ -520,6 +520,8 @@ volume: BlockAreaSize | undefined;
 
 ///
 
+script_api.mojang-minecraft.entityqueryoptions.constructor.description
+
 ```js
 new constructor(): EntityQueryOptions
 ```
@@ -528,7 +530,7 @@ new constructor(): EntityQueryOptions
 //// define
 返回值：[`EntityQueryOptions`](./entityqueryoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.entityqueryoptions.constructor.return
 
 
 ////

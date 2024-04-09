@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ChatSendAfterEvent`类。
+`ChatSendAfterEvent`类。script_api.@minecraft/server.chatsendafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only message: string;
 //// define
 `message`：`string`
 
-- 属性。
+- script_api.@minecraft/server.chatsendafterevent.message.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only sender: Player;
 //// define
 `sender`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.chatsendafterevent.sender.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only targets: Player[] | undefined;
 //// define
 `targets`：<code><a href="../player/">Player</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.chatsendafterevent.targets.description
 
 
 ////

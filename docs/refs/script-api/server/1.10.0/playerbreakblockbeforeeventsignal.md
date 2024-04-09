@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerBreakBlockBeforeEventSignal`类。
+`PlayerBreakBlockBeforeEventSignal`类。script_api.@minecraft/server.playerbreakblockbeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerbreakblockbeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockEventOptions): (arg: PlayerBreakBlockBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockE
 //// define
 `callback`：<code>(<a href="../playerbreakblockbeforeevent/">PlayerBreakBlockBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerbreakblockbeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockE
 //// define
 `options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.playerbreakblockbeforeeventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockE
 //// define
 返回值：<code>(<a href="../playerbreakblockbeforeevent/">PlayerBreakBlockBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerbreakblockbeforeeventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockE
 
 ///
 
+script_api.@minecraft/server.playerbreakblockbeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerbreakblockbeforeevent/">PlayerBreakBlockBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerbreakblockbeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerbreakblockbeforeeventsignal.unsubscribe.return
 
 
 ////

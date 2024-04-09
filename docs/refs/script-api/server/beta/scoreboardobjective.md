@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScoreboardObjective`类。
+`ScoreboardObjective`类。script_api.@minecraft/server.scoreboardobjective.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only displayName: string;
 //// define
 `displayName`：`string`
 
-- 属性。
+- script_api.@minecraft/server.scoreboardobjective.displayname.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.scoreboardobjective.id.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only id: string;
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.addscore.description
+
 ```js
 addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): int32
 ```
@@ -66,7 +68,7 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboardobjective.participant.addscore.description
 
 
 ////
@@ -74,7 +76,7 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 //// define
 `scoreToAdd`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server.scoreboardobjective.scoretoadd.addscore.description
 
 
 ////
@@ -82,7 +84,7 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.addscore.return
 
 
 ////
@@ -96,6 +98,8 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.getparticipants.description
+
 ```js
 getParticipants(): ScoreboardIdentity[]
 ```
@@ -104,7 +108,7 @@ getParticipants(): ScoreboardIdentity[]
 //// define
 返回值：<code><a href="../scoreboardidentity/">ScoreboardIdentity</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.getparticipants.return
 
 
 ////
@@ -118,6 +122,8 @@ getParticipants(): ScoreboardIdentity[]
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.getscore.description
+
 ```js
 getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 ```
@@ -126,7 +132,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboardobjective.participant.getscore.description
 
 
 ////
@@ -134,7 +140,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 //// define
 返回值：`int32`|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.getscore.return
 
 
 ////
@@ -148,6 +154,8 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.getscores.description
+
 ```js
 getScores(): ScoreboardScoreInfo[]
 ```
@@ -156,7 +164,7 @@ getScores(): ScoreboardScoreInfo[]
 //// define
 返回值：<code><a href="../scoreboardscoreinfo/">ScoreboardScoreInfo</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.getscores.return
 
 
 ////
@@ -170,6 +178,8 @@ getScores(): ScoreboardScoreInfo[]
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.hasparticipant.description
+
 ```js
 hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```
@@ -178,7 +188,7 @@ hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboardobjective.participant.hasparticipant.description
 
 
 ////
@@ -186,7 +196,7 @@ hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.hasparticipant.return
 
 
 ////
@@ -200,6 +210,8 @@ hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -208,7 +220,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.isvalid.return
 
 
 ////
@@ -222,6 +234,8 @@ isValid(): boolean
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.removeparticipant.description
+
 ```js
 removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 ```
@@ -230,7 +244,7 @@ removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboardobjective.participant.removeparticipant.description
 
 
 ////
@@ -238,7 +252,7 @@ removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.removeparticipant.return
 
 
 ////
@@ -252,6 +266,8 @@ removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 
 ///
 
+script_api.@minecraft/server.scoreboardobjective.setscore.description
+
 ```js
 setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 ```
@@ -260,7 +276,7 @@ setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboardobjective.participant.setscore.description
 
 
 ////
@@ -268,7 +284,7 @@ setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 //// define
 `score`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server.scoreboardobjective.score.setscore.description
 
 
 ////
@@ -276,7 +292,7 @@ setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboardobjective.setscore.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntitySpawnAfterEvent`类。
+`EntitySpawnAfterEvent`类。script_api.@minecraft/server.entityspawnafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only cause: EntityInitializationCause;
 //// define
 `cause`：[`EntityInitializationCause`](./entityinitializationcause.md)
 
-- 属性。
+- script_api.@minecraft/server.entityspawnafterevent.cause.description
 
 
 ////
@@ -42,7 +42,7 @@ entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityspawnafterevent.entity.description
 
 
 ////

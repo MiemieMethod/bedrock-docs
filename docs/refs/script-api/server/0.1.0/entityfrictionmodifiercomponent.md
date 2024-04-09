@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityFrictionModifierComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityFrictionModifierComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityfrictionmodifiercomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ value: float;
 //// define
 `value`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entityfrictionmodifiercomponent.value.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdatePlayerGameTypePacket -->数据包，数字ID是`151`。
+<!-- md:samp UpdatePlayerGameTypePacket -->数据包，数字ID是`151`。该数据包用于protocol.packet.updateplayergametypepacket.description
 
 ## 结构
 
@@ -36,17 +36,17 @@ rankdir = LR
 //// define
 Player game type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.updateplayergametypepacket.player_game_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Undefined`|`-1`||
-  |`Survival`|`0`||
-  |`Creative`|`1`||
-  |`Adventure`|`2`||
-  |`Default`|`5`||
-  |`Spectator`|`6`||
-  |`WorldDefault`|`Survival`||
+  |`Undefined`|`-1`|protocol.enum.undefined|
+  |`Survival`|`0`|protocol.enum.survival|
+  |`Creative`|`1`|protocol.enum.creative|
+  |`Adventure`|`2`|protocol.enum.adventure|
+  |`Default`|`5`|protocol.enum.default|
+  |`Spectator`|`6`|protocol.enum.spectator|
+  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
 
 
 
@@ -54,7 +54,7 @@ Player game type：<!-- md:samp varint -->
 //// define
 Target player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateplayergametypepacket.target_player.description
 
 
 ////

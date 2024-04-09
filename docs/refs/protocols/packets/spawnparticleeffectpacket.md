@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SpawnParticleEffectPacket -->数据包，数字ID是`118`。
+<!-- md:samp SpawnParticleEffectPacket -->数据包，数字ID是`118`。该数据包用于protocol.packet.spawnparticleeffectpacket.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Dimension Id：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.spawnparticleeffectpacket.dimension_id.description
 
 
 ////
 //// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.spawnparticleeffectpacket.actor_id.description
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.spawnparticleeffectpacket.position.description
 
 
 ////
 //// define
 Effect Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Should be an effect that exists on the client. No-op if the effect doesn't exist.
+- 特殊类型。protocol.packet.spawnparticleeffectpacket.effect_name.descriptionShould be an effect that exists on the client. No-op if the effect doesn't exist.
 
 
 ////
 //// define
 Molang Variables：[<!-- md:samp std::optional&lt;class MolangVariableMap&gt; -->](../types/std__optional_class_molangvariablemap_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.spawnparticleeffectpacket.molang_variables.description
 
 
 ////

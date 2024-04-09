@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MoveToOptions`接口。
+`MoveToOptions`接口。script_api.@minecraft/server-gametest.movetooptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ faceTarget: boolean | undefined;
 //// define
 `faceTarget`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-gametest.movetooptions.facetarget.description
 
 
 ////
@@ -42,7 +42,7 @@ speed: float | undefined;
 //// define
 `speed`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-gametest.movetooptions.speed.description
 
 
 ////

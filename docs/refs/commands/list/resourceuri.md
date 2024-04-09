@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/resourceuri`命令commands.resourceuri.description
+`/resourceuri`命令command.resourceuri.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,6 +16,8 @@
 ```
 
 //// html | div.result
+command.resourceuri.1.description
+
 ///// define
 
 /////
@@ -30,10 +32,12 @@
 ```
 
 //// html | div.result
+command.resourceuri.2.description
+
 ///// define
 `cmd`：<!-- md:samp ResourceActionClear -->
 
-- 枚举类型。单值枚举，请直接使用`clear`。
+- 枚举类型。command.enum.resourceactionclear.description单值枚举，请直接使用`clear`。
 
 
 /////
@@ -48,14 +52,16 @@
 ```
 
 //// html | div.result
+command.resourceuri.3.description
+
 ///// define
 `cmd`：<!-- md:samp ResourceActionDefault -->
 
-- 枚举类型。单值枚举，请直接使用`default`。
+- 枚举类型。command.enum.resourceactiondefault.description单值枚举，请直接使用`default`。
 
 `uri`：<!-- md:samp text -->
 
-- 基本类型。
+- 基本类型，可选。command.resourceuri.uri.description
 
 
 /////
@@ -70,18 +76,20 @@
 ```
 
 //// html | div.result
+command.resourceuri.4.description
+
 ///// define
 `cmd`：<!-- md:samp ResourceActionNamed -->
 
-- 枚举类型。单值枚举，请直接使用`named`。
+- 枚举类型。command.enum.resourceactionnamed.description单值枚举，请直接使用`named`。
 
 `name`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.resourceuri.name.description
 
 `uri`：<!-- md:samp text -->
 
-- 基本类型。
+- 基本类型，可选。command.resourceuri.uri.description
 
 
 /////

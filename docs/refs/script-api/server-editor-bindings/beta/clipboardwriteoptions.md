@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ClipboardWriteOptions`接口。
+`ClipboardWriteOptions`接口。script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ anchor: Vector3 | undefined;
 //// define
 `anchor`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.anchor.description
 
 
 ////
@@ -42,7 +42,7 @@ mirror: StructureMirrorAxis | undefined;
 //// define
 `mirror`：[`StructureMirrorAxis`](../../server/beta/structuremirroraxis.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.mirror.description
 
 
 ////
@@ -64,7 +64,7 @@ offset: Vector3 | undefined;
 //// define
 `offset`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.offset.description
 
 
 ////
@@ -86,7 +86,7 @@ rotation: StructureRotation | undefined;
 //// define
 `rotation`：[`StructureRotation`](../../server/beta/structurerotation.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.rotation.description
 
 
 ////

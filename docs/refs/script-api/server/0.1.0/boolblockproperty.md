@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BoolBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。
+`BoolBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。script_api.mojang-minecraft.boolblockproperty.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only validValues: boolean[];
 //// define
 `validValues`：`boolean[]`
 
-- 属性。
+- script_api.mojang-minecraft.boolblockproperty.validvalues.description
 
 
 ////
@@ -42,7 +42,7 @@ value: boolean;
 //// define
 `value`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.boolblockproperty.value.description
 
 
 ////

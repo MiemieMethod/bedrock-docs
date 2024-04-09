@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AdventureSettings -->类型。
+<!-- md:samp AdventureSettings -->类型。该类型用于protocol.type.adventuresettings.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 no PvM：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.adventuresettings.no_pvm.description
 
 
 ////
 //// define
 no MvP：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.adventuresettings.no_mvp.description
 
 
 ////
 //// define
 Immutable World：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.adventuresettings.immutable_world.description
 
 
 ////
 //// define
 Show Name Tags：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.adventuresettings.show_name_tags.description
 
 
 ////
 //// define
 Auto Jump：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.adventuresettings.auto_jump.description
 
 
 ////

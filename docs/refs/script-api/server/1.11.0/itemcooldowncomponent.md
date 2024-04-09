@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemCooldownComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。
+`ItemCooldownComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.@minecraft/server.itemcooldowncomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only cooldownCategory: string;
 //// define
 `cooldownCategory`：`string`
 
-- 属性。
+- script_api.@minecraft/server.itemcooldowncomponent.cooldowncategory.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only cooldownTicks: int32;
 //// define
 `cooldownTicks`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.itemcooldowncomponent.cooldownticks.description
 
 
 ////
@@ -71,6 +71,8 @@ read-only cooldownTicks: int32;
 
 ///
 
+script_api.@minecraft/server.itemcooldowncomponent.getcooldownticksremaining.description
+
 ```js
 getCooldownTicksRemaining(player: Player): int32
 ```
@@ -79,7 +81,7 @@ getCooldownTicksRemaining(player: Player): int32
 //// define
 `player`：[`Player`](./player.md)
 
-- 参数1。
+- script_api.@minecraft/server.itemcooldowncomponent.player.getcooldownticksremaining.description
 
 
 ////
@@ -87,7 +89,7 @@ getCooldownTicksRemaining(player: Player): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.itemcooldowncomponent.getcooldownticksremaining.return
 
 
 ////
@@ -101,6 +103,8 @@ getCooldownTicksRemaining(player: Player): int32
 
 ///
 
+script_api.@minecraft/server.itemcooldowncomponent.iscooldowncategory.description
+
 ```js
 isCooldownCategory(cooldownCategory: string): boolean
 ```
@@ -109,7 +113,7 @@ isCooldownCategory(cooldownCategory: string): boolean
 //// define
 `cooldownCategory`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemcooldowncomponent.cooldowncategory.iscooldowncategory.description
 
 
 ////
@@ -117,7 +121,7 @@ isCooldownCategory(cooldownCategory: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.itemcooldowncomponent.iscooldowncategory.return
 
 
 ////
@@ -131,6 +135,8 @@ isCooldownCategory(cooldownCategory: string): boolean
 
 ///
 
+script_api.@minecraft/server.itemcooldowncomponent.startcooldown.description
+
 ```js
 startCooldown(player: Player): void
 ```
@@ -139,7 +145,7 @@ startCooldown(player: Player): void
 //// define
 `player`：[`Player`](./player.md)
 
-- 参数1。
+- script_api.@minecraft/server.itemcooldowncomponent.player.startcooldown.description
 
 
 ////
@@ -147,7 +153,7 @@ startCooldown(player: Player): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemcooldowncomponent.startcooldown.return
 
 
 ////

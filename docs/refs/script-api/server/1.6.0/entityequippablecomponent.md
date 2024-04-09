@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityEquippableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityEquippableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityequippablecomponent.description
 
 ## 常量
 
@@ -25,6 +25,8 @@ static read-only componentId = "minecraft:equippable";
 
 ///
 
+script_api.@minecraft/server.entityequippablecomponent.getequipment.description
+
 ```js
 getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 ```
@@ -33,7 +35,7 @@ getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 //// define
 `equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
 
-- 参数1。
+- script_api.@minecraft/server.entityequippablecomponent.equipmentslot.getequipment.description
 
 
 ////
@@ -41,7 +43,7 @@ getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.entityequippablecomponent.getequipment.return
 
 
 ////
@@ -55,6 +57,8 @@ getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 
 ///
 
+script_api.@minecraft/server.entityequippablecomponent.setequipment.description
+
 ```js
 setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 ```
@@ -63,7 +67,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 //// define
 `equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
 
-- 参数1。
+- script_api.@minecraft/server.entityequippablecomponent.equipmentslot.setequipment.description
 
 
 ////
@@ -71,7 +75,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entityequippablecomponent.itemstack.setequipment.description
 
 
 ////
@@ -79,7 +83,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entityequippablecomponent.setequipment.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/weather`命令Sets the weather.
+`/weather`命令command.weather.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,21 +16,23 @@
 ```
 
 //// html | div.result
+command.weather.1.description
+
 ///// define
 `type`：<!-- md:samp WeatherType -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.weathertype.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`clear`||
-  |`rain`||
-  |`thunder`||
+  |`clear`|command.enum.weathertype.clear|
+  |`rain`|command.enum.weathertype.rain|
+  |`thunder`|command.enum.weathertype.thunder|
 
 
 `duration`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型，可选。command.weather.duration.description
 
 
 /////
@@ -45,10 +47,12 @@
 ```
 
 //// html | div.result
+command.weather.2.description
+
 ///// define
 `query`：<!-- md:samp WeatherQuery -->
 
-- 枚举类型。单值枚举，请直接使用`query`。
+- 枚举类型。command.enum.weatherquery.description单值枚举，请直接使用`query`。
 
 
 /////

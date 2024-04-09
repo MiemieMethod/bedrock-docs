@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityIterator`类，实现了<code>Iterator&lt;<a href="../entity/">Entity</a>&gt;</code>。
+`EntityIterator`类，实现了<code>Iterator&lt;<a href="../entity/">Entity</a>&gt;</code>。script_api.@minecraft/server.entityiterator.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entityiterator.[symbol.iterator].description
+
 ```js
 [Symbol.iterator](): Iterator<Entity>
 ```
@@ -20,7 +22,7 @@
 //// define
 返回值：<code>Iterator&lt;<a href="../entity/">Entity</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityiterator.[symbol.iterator].return
 
 
 ////
@@ -34,6 +36,8 @@
 
 ///
 
+script_api.@minecraft/server.entityiterator.next.description
+
 ```js
 next(): IteratorResult<Entity>
 ```
@@ -42,7 +46,7 @@ next(): IteratorResult<Entity>
 //// define
 返回值：<code>IteratorResult&lt;<a href="../entity/">Entity</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityiterator.next.return
 
 
 ////

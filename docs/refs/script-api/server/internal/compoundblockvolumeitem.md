@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CompoundBlockVolumeItem`接口。
+`CompoundBlockVolumeItem`接口。script_api.@minecraft/server.compoundblockvolumeitem.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ action: CompoundBlockVolumeAction | undefined;
 //// define
 `action`：[`CompoundBlockVolumeAction`](./compoundblockvolumeaction.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.compoundblockvolumeitem.action.description
 
 
 ////
@@ -42,7 +42,7 @@ locationRelativity: CompoundBlockVolumePositionRelativity | undefined;
 //// define
 `locationRelativity`：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.compoundblockvolumeitem.locationrelativity.description
 
 
 ////
@@ -64,7 +64,7 @@ volume: BlockVolume;
 //// define
 `volume`：[`BlockVolume`](./blockvolume.md)
 
-- 属性。
+- script_api.@minecraft/server.compoundblockvolumeitem.volume.description
 
 
 ////

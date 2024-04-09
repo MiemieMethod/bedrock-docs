@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SmithingTrimRecipe -->类型。
+<!-- md:samp SmithingTrimRecipe -->类型。该类型用于protocol.type.smithingtrimrecipe.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtrimrecipe.recipe_id.description
 
 
 ////
 //// define
 Template Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtrimrecipe.template_ingredient.description
 
 
 ////
 //// define
 Base Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtrimrecipe.base_ingredient.description
 
 
 ////
 //// define
 Addition Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtrimrecipe.addition_ingredient.description
 
 
 ////
 //// define
 Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtrimrecipe.tag.description
 
 
 ////

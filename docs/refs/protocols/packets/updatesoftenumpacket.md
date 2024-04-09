@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateSoftEnumPacket -->数据包，数字ID是`114`。
+<!-- md:samp UpdateSoftEnumPacket -->数据包，数字ID是`114`。该数据包用于protocol.packet.updatesoftenumpacket.description
 
 ## 结构
 
@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 Enum Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updatesoftenumpacket.enum_name.description
 
 
 ////
@@ -60,7 +60,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updatesoftenumpacket.数组大小.description
 
 
 /////
@@ -72,7 +72,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Enum Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updatesoftenumpacket.enum_value.description
 
 
 //////
@@ -83,13 +83,13 @@ Enum Value：[<!-- md:samp string -->](../types/string.md)
 //// define
 Update Type：<!-- md:samp unsigned int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.updatesoftenumpacket.update_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Add`|`0`||
-  |`Remove`|`1`||
-  |`Replace`|`2`||
+  |`Add`|`0`|protocol.enum.add|
+  |`Remove`|`1`|protocol.enum.remove|
+  |`Replace`|`2`|protocol.enum.replace|
 
 
 

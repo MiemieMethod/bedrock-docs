@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityDamageCause`枚举。
+`EntityDamageCause`枚举。script_api.@minecraft/server.entitydamagecause.description
 
 ## 常量
 

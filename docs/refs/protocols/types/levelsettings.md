@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp LevelSettings -->类型。
+<!-- md:samp LevelSettings -->类型。该类型用于protocol.type.levelsettings.description
 
 ## 结构
 
@@ -216,31 +216,31 @@ rankdir = LR
 //// define
 Seed：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.seed.description
 
 
 ////
 //// define
 Spawn Settings：[<!-- md:samp SpawnSettings -->](../types/spawnsettings.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.levelsettings.spawn_settings.description
 
 
 ////
 //// define
 Generator Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.generator_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Legacy`|`0`||
-  |`Overworld`|`1`||
-  |`Flat`|`2`||
-  |`Nether`|`3`||
-  |`TheEnd`|`4`||
-  |`Void`|`5`||
-  |`Undefined`|`6`||
+  |`Legacy`|`0`|protocol.enum.legacy|
+  |`Overworld`|`1`|protocol.enum.overworld|
+  |`Flat`|`2`|protocol.enum.flat|
+  |`Nether`|`3`|protocol.enum.nether|
+  |`TheEnd`|`4`|protocol.enum.theend|
+  |`Void`|`5`|protocol.enum.void|
+  |`Undefined`|`6`|protocol.enum.undefined|
 
 
 
@@ -248,17 +248,17 @@ Generator Type：<!-- md:samp varint -->
 //// define
 Game Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.game_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Undefined`|`-1`||
-  |`Survival`|`0`||
-  |`Creative`|`1`||
-  |`Adventure`|`2`||
-  |`Default`|`5`||
-  |`Spectator`|`6`||
-  |`WorldDefault`|`Survival`||
+  |`Undefined`|`-1`|protocol.enum.undefined|
+  |`Survival`|`0`|protocol.enum.survival|
+  |`Creative`|`1`|protocol.enum.creative|
+  |`Adventure`|`2`|protocol.enum.adventure|
+  |`Default`|`5`|protocol.enum.default|
+  |`Spectator`|`6`|protocol.enum.spectator|
+  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
 
 
 
@@ -266,16 +266,16 @@ Game Type：<!-- md:samp varint -->
 //// define
 Game Difficulty：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.game_difficulty.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Peaceful`|`0`||
-  |`Easy`|`1`||
-  |`Normal`|`2`||
-  |`Hard`|`3`||
-  |`Count`|`4`||
-  |`Unknown`|`5`||
+  |`Peaceful`|`0`|protocol.enum.peaceful|
+  |`Easy`|`1`|protocol.enum.easy|
+  |`Normal`|`2`|protocol.enum.normal|
+  |`Hard`|`3`|protocol.enum.hard|
+  |`Count`|`4`|protocol.enum.count|
+  |`Unknown`|`5`|protocol.enum.unknown|
 
 
 
@@ -283,27 +283,27 @@ Game Difficulty：<!-- md:samp varint -->
 //// define
 Default Spawn Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.levelsettings.default_spawn_block_position.description
 
 
 ////
 //// define
 Achievements Disabled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.achievements_disabled.description
 
 
 ////
 //// define
 Editor World Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.editor_world_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NonEditor`|`0`||
-  |`EditorProject`|`1`||
-  |`EditorTestLevel`|`2`||
+  |`NonEditor`|`0`|protocol.enum.noneditor|
+  |`EditorProject`|`1`|protocol.enum.editorproject|
+  |`EditorTestLevel`|`2`|protocol.enum.editortestlevel|
 
 
 
@@ -311,34 +311,34 @@ Editor World Type：<!-- md:samp varint -->
 //// define
 is Created In Editor：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.is_created_in_editor.description
 
 
 ////
 //// define
 is Exported From Editor：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.is_exported_from_editor.description
 
 
 ////
 //// define
 Day Cycle Stop Time：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.day_cycle_stop_time.description
 
 
 ////
 //// define
 Education Edition Offer：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.education_edition_offer.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`RestOfWorld`|`1`||
-  |`China_Deprecated`|`2`||
+  |`None`|`0`|无|
+  |`RestOfWorld`|`1`|protocol.enum.restofworld|
+  |`China_Deprecated`|`2`|protocol.enum.china_deprecated|
 
 
 
@@ -346,64 +346,64 @@ Education Edition Offer：<!-- md:samp varint -->
 //// define
 Are Education features enabled?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.are_education_features_enabled.description
 
 
 ////
 //// define
 Education product id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.levelsettings.education_product_id.description
 
 
 ////
 //// define
 Rain Level：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.rain_level.description
 
 
 ////
 //// define
 Lightning Level：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.lightning_level.description
 
 
 ////
 //// define
 Has confirmed Platform Locked Content：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.has_confirmed_platform_locked_content.description
 
 
 ////
 //// define
 Was Multiplayer intended to be enabled?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.was_multiplayer_intended_to_be_enabled.description
 
 
 ////
 //// define
 Was LAN broadcasting intended to be enabled?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.was_lan_broadcasting_intended_to_be_enabled.description
 
 
 ////
 //// define
 Xbox Live Broadcast Setting：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.xbox_live_broadcast_setting.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NoMultiPlay`|`0`||
-  |`InviteOnly`|`1`||
-  |`FriendsOnly`|`2`||
-  |`FriendsOfFriends`|`3`||
-  |`Public`|`4`||
+  |`NoMultiPlay`|`0`|protocol.enum.nomultiplay|
+  |`InviteOnly`|`1`|protocol.enum.inviteonly|
+  |`FriendsOnly`|`2`|protocol.enum.friendsonly|
+  |`FriendsOfFriends`|`3`|protocol.enum.friendsoffriends|
+  |`Public`|`4`|protocol.enum.public|
 
 
 
@@ -411,15 +411,15 @@ Xbox Live Broadcast Setting：<!-- md:samp varint -->
 //// define
 Platform Broadcast Setting：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.platform_broadcast_setting.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NoMultiPlay`|`0`||
-  |`InviteOnly`|`1`||
-  |`FriendsOnly`|`2`||
-  |`FriendsOfFriends`|`3`||
-  |`Public`|`4`||
+  |`NoMultiPlay`|`0`|protocol.enum.nomultiplay|
+  |`InviteOnly`|`1`|protocol.enum.inviteonly|
+  |`FriendsOnly`|`2`|protocol.enum.friendsonly|
+  |`FriendsOfFriends`|`3`|protocol.enum.friendsoffriends|
+  |`Public`|`4`|protocol.enum.public|
 
 
 
@@ -427,56 +427,56 @@ Platform Broadcast Setting：<!-- md:samp varint -->
 //// define
 Commands Enabled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.commands_enabled.description
 
 
 ////
 //// define
 Texture Packs Required：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.texture_packs_required.description
 
 
 ////
 //// define
 Rule Data：[<!-- md:samp GameRulesChangedPacketData -->](../types/gameruleschangedpacketdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.levelsettings.rule_data.description
 
 
 ////
 //// define
 Experiments：[<!-- md:samp Experiments -->](../types/experiments.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.levelsettings.experiments.description
 
 
 ////
 //// define
 Has Bonus Chest Enabled?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.has_bonus_chest_enabled.description
 
 
 ////
 //// define
 Start with Map Enabled?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.start_with_map_enabled.description
 
 
 ////
 //// define
 Player Permissions：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.player_permissions.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Visitor`|`0`||
-  |`Member`|`1`||
-  |`Operator`|`2`||
-  |`Custom`|`3`||
+  |`Visitor`|`0`|protocol.enum.visitor|
+  |`Member`|`1`|protocol.enum.member|
+  |`Operator`|`2`|protocol.enum.operator|
+  |`Custom`|`3`|protocol.enum.custom|
 
 
 
@@ -484,132 +484,132 @@ Player Permissions：<!-- md:samp byte -->
 //// define
 Server Chunk Tick Range：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.server_chunk_tick_range.description
 
 
 ////
 //// define
 Has locked behavior pack?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.has_locked_behavior_pack.description
 
 
 ////
 //// define
 Has locked resource pack?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.has_locked_resource_pack.description
 
 
 ////
 //// define
 Is from locked template?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.is_from_locked_template.description
 
 
 ////
 //// define
 Use Msa Gamertags Only?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.use_msa_gamertags_only.description
 
 
 ////
 //// define
 Indicates if this world was created from a template.：<!-- md:samp bool -->
 
-- 基本类型。For servers this should always be false.
+- 基本类型。protocol.type.levelsettings.indicates_if_this_world_was_created_from_a_template..descriptionFor servers this should always be false.
 
 
 ////
 //// define
 Indicates if this world is a template with locked settings.：<!-- md:samp bool -->
 
-- 基本类型。For servers this should always be false.
+- 基本类型。protocol.type.levelsettings.indicates_if_this_world_is_a_template_with_locked_settings..descriptionFor servers this should always be false.
 
 
 ////
 //// define
 Only spawn v1 villagers：<!-- md:samp bool -->
 
-- 基本类型。This was added for the Village & Pillage update, marking worlds where V1 villagers shouldn't update to V2, and only V1 villagers should be used in the world. This was done for Marketplace content.
+- 基本类型。protocol.type.levelsettings.only_spawn_v1_villagers.descriptionThis was added for the Village & Pillage update, marking worlds where V1 villagers shouldn't update to V2, and only V1 villagers should be used in the world. This was done for Marketplace content.
 
 
 ////
 //// define
 PersonaDisabled?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.personadisabled.description
 
 
 ////
 //// define
 CustomSkinsDisabled?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.customskinsdisabled.description
 
 
 ////
 //// define
 Emote Chat Muted：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.emote_chat_muted.description
 
 
 ////
 //// define
 Base Game Version：[<!-- md:samp BaseGameVersion -->](../types/basegameversion.md)
 
-- 特殊类型。Version of vanilla gameplay that will be used with this world.
+- 特殊类型。protocol.type.levelsettings.base_game_version.descriptionVersion of vanilla gameplay that will be used with this world.
 
 
 ////
 //// define
 Limited World Width：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.limited_world_width.description
 
 
 ////
 //// define
 Limited World Depth：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.limited_world_depth.description
 
 
 ////
 //// define
 Nether type：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.nether_type.description
 
 
 ////
 //// define
 Edu Shared Uri Resource：[<!-- md:samp EduSharedUriResource -->](../types/edushareduriresource.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.levelsettings.edu_shared_uri_resource.description
 
 
 ////
 //// define
 Override force experimental gameplay has value：<!-- md:samp bool -->
 
-- 基本类型。For servers this should always be false
+- 基本类型。protocol.type.levelsettings.override_force_experimental_gameplay_has_value.descriptionFor servers this should always be false
 
 
 ////
 //// define
 ChatRestriction Level：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.levelsettings.chatrestriction_level.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Dropped`|`1`||
-  |`Disabled`|`2`||
+  |`None`|`0`|无|
+  |`Dropped`|`1`|protocol.enum.dropped|
+  |`Disabled`|`2`|protocol.enum.disabled|
 
 
 
@@ -617,7 +617,7 @@ ChatRestriction Level：<!-- md:samp byte -->
 //// define
 DisablePlayerInteractions ?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.levelsettings.disableplayerinteractions.description
 
 
 ////

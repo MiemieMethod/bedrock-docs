@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Block`类。
+`Block`类。script_api.@minecraft/server.block.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.block.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.block.location.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only permutation: BlockPermutation;
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.block.permutation.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only x: int32;
 //// define
 `x`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.block.x.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only y: int32;
 //// define
 `y`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.block.y.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only z: int32;
 //// define
 `z`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.block.z.description
 
 
 ////
@@ -146,6 +146,8 @@ read-only z: int32;
 
 ///
 
+script_api.@minecraft/server.block.getcomponent.description
+
 ```js
 getComponent(componentId: string): BlockComponent | undefined
 ```
@@ -154,7 +156,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.block.componentid.getcomponent.description
 
 
 ////
@@ -162,7 +164,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 返回值：[`BlockComponent`](./blockcomponent.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.block.getcomponent.return
 
 
 ////
@@ -176,6 +178,8 @@ getComponent(componentId: string): BlockComponent | undefined
 
 ///
 
+script_api.@minecraft/server.block.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -184,7 +188,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.block.isvalid.return
 
 
 ////
@@ -198,6 +202,8 @@ isValid(): boolean
 
 ///
 
+script_api.@minecraft/server.block.setpermutation.description
+
 ```js
 setPermutation(permutation: BlockPermutation): void
 ```
@@ -206,7 +212,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 参数1。
+- script_api.@minecraft/server.block.permutation.setpermutation.description
 
 
 ////
@@ -214,7 +220,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.block.setpermutation.return
 
 
 ////

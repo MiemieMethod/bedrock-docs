@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ShowCreditsPacket -->数据包，数字ID是`75`。
+<!-- md:samp ShowCreditsPacket -->数据包，数字ID是`75`。该数据包用于protocol.packet.showcreditspacket.description
 
 ## 结构
 
@@ -36,19 +36,19 @@ rankdir = LR
 //// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.showcreditspacket.player_runtime_id.description
 
 
 ////
 //// define
 Credits State：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.showcreditspacket.credits_state.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Start`|`0`||
-  |`Finished`|`1`||
+  |`Start`|`0`|protocol.enum.start|
+  |`Finished`|`1`|protocol.enum.finished|
 
 
 

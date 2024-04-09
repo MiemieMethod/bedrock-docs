@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp LessonProgressPacket -->数据包，数字ID是`183`。
+<!-- md:samp LessonProgressPacket -->数据包，数字ID是`183`。该数据包用于protocol.packet.lessonprogresspacket.description
 
 ## 结构
 
@@ -40,13 +40,13 @@ rankdir = LR
 //// define
 Lesson Action：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.lessonprogresspacket.lesson_action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Start`|`0`||
-  |`Complete`|`1`||
-  |`Restart`|`2`||
+  |`Start`|`0`|protocol.enum.start|
+  |`Complete`|`1`|protocol.enum.complete|
+  |`Restart`|`2`|protocol.enum.restart|
 
 
 
@@ -54,14 +54,14 @@ Lesson Action：<!-- md:samp byte -->
 //// define
 Score：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.lessonprogresspacket.score.description
 
 
 ////
 //// define
 Activity Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.lessonprogresspacket.activity_id.description
 
 
 ////

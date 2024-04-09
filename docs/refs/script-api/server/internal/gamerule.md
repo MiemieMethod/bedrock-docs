@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameRule`枚举。
+`GameRule`枚举。script_api.@minecraft/server.gamerule.description
 
 ## 常量
 

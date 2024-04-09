@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Selection`类。
+`Selection`类。script_api.@minecraft/server-editor-bindings.selection.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only isEmpty: boolean;
 //// define
 `isEmpty`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.selection.isempty.description
 
 
 ////
@@ -42,7 +42,7 @@ visible: boolean;
 //// define
 `visible`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.selection.visible.description
 
 
 ////
@@ -58,6 +58,8 @@ visible: boolean;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.clear.description
+
 ```js
 clear(): void
 ```
@@ -66,7 +68,7 @@ clear(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.clear.return
 
 
 ////
@@ -80,6 +82,8 @@ clear(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.getblocklocationiterator.description
+
 ```js
 getBlockLocationIterator(): BlockLocationIterator
 ```
@@ -88,7 +92,7 @@ getBlockLocationIterator(): BlockLocationIterator
 //// define
 返回值：[`BlockLocationIterator`](../../server/beta/blocklocationiterator.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.getblocklocationiterator.return
 
 
 ////
@@ -102,6 +106,8 @@ getBlockLocationIterator(): BlockLocationIterator
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.getboundingbox.description
+
 ```js
 getBoundingBox(): BoundingBox
 ```
@@ -110,7 +116,7 @@ getBoundingBox(): BoundingBox
 //// define
 返回值：[`BoundingBox`](../../server/beta/boundingbox.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.getboundingbox.return
 
 
 ////
@@ -124,6 +130,8 @@ getBoundingBox(): BoundingBox
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.getfillcolor.description
+
 ```js
 getFillColor(): RGBA
 ```
@@ -132,7 +140,7 @@ getFillColor(): RGBA
 //// define
 返回值：[`RGBA`](../../server/beta/rgba.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.getfillcolor.return
 
 
 ////
@@ -146,6 +154,8 @@ getFillColor(): RGBA
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.getoutlinecolor.description
+
 ```js
 getOutlineColor(): RGBA
 ```
@@ -154,7 +164,7 @@ getOutlineColor(): RGBA
 //// define
 返回值：[`RGBA`](../../server/beta/rgba.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.getoutlinecolor.return
 
 
 ////
@@ -168,6 +178,8 @@ getOutlineColor(): RGBA
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.getvolumeorigin.description
+
 ```js
 getVolumeOrigin(): Vector3
 ```
@@ -176,7 +188,7 @@ getVolumeOrigin(): Vector3
 //// define
 返回值：[`Vector3`](../../server/beta/vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.getvolumeorigin.return
 
 
 ////
@@ -190,6 +202,8 @@ getVolumeOrigin(): Vector3
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.moveby.description
+
 ```js
 moveBy(delta: Vector3): Vector3
 ```
@@ -198,7 +212,7 @@ moveBy(delta: Vector3): Vector3
 //// define
 `delta`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.selection.delta.moveby.description
 
 
 ////
@@ -206,7 +220,7 @@ moveBy(delta: Vector3): Vector3
 //// define
 返回值：[`Vector3`](../../server/beta/vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.moveby.return
 
 
 ////
@@ -220,6 +234,8 @@ moveBy(delta: Vector3): Vector3
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.moveto.description
+
 ```js
 moveTo(location: Vector3): Vector3
 ```
@@ -228,7 +244,7 @@ moveTo(location: Vector3): Vector3
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.selection.location.moveto.description
 
 
 ////
@@ -236,7 +252,7 @@ moveTo(location: Vector3): Vector3
 //// define
 返回值：[`Vector3`](../../server/beta/vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.moveto.return
 
 
 ////
@@ -250,6 +266,8 @@ moveTo(location: Vector3): Vector3
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.peeklastvolume.description
+
 ```js
 peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): CompoundBlockVolumeItem | undefined
 ```
@@ -258,7 +276,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 //// define
 `forceRelativity`：[`CompoundBlockVolumePositionRelativity`](../../server/beta/compoundblockvolumepositionrelativity.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.selection.forcerelativity.peeklastvolume.description
 
 
 ////
@@ -266,7 +284,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 //// define
 返回值：[`CompoundBlockVolumeItem`](../../server/beta/compoundblockvolumeitem.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.peeklastvolume.return
 
 
 ////
@@ -280,6 +298,8 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.popvolume.description
+
 ```js
 popVolume(): void
 ```
@@ -288,7 +308,7 @@ popVolume(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.popvolume.return
 
 
 ////
@@ -302,6 +322,8 @@ popVolume(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.pushvolume.description
+
 ```js
 pushVolume(item: CompoundBlockVolumeItem): void
 ```
@@ -310,7 +332,7 @@ pushVolume(item: CompoundBlockVolumeItem): void
 //// define
 `item`：[`CompoundBlockVolumeItem`](../../server/beta/compoundblockvolumeitem.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.selection.item.pushvolume.description
 
 
 ////
@@ -318,7 +340,7 @@ pushVolume(item: CompoundBlockVolumeItem): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.pushvolume.return
 
 
 ////
@@ -332,6 +354,8 @@ pushVolume(item: CompoundBlockVolumeItem): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.set.description
+
 ```js
 set(other: CompoundBlockVolume | Selection): void
 ```
@@ -340,7 +364,7 @@ set(other: CompoundBlockVolume | Selection): void
 //// define
 `other`：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)|[`Selection`](./selection.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.selection.other.set.description
 
 
 ////
@@ -348,7 +372,7 @@ set(other: CompoundBlockVolume | Selection): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.set.return
 
 
 ////
@@ -362,6 +386,8 @@ set(other: CompoundBlockVolume | Selection): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.setfillcolor.description
+
 ```js
 setFillColor(color: RGBA): void
 ```
@@ -370,7 +396,7 @@ setFillColor(color: RGBA): void
 //// define
 `color`：[`RGBA`](../../server/beta/rgba.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.selection.color.setfillcolor.description
 
 
 ////
@@ -378,7 +404,7 @@ setFillColor(color: RGBA): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.setfillcolor.return
 
 
 ////
@@ -392,6 +418,8 @@ setFillColor(color: RGBA): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.selection.setoutlinecolor.description
+
 ```js
 setOutlineColor(color: RGBA): void
 ```
@@ -400,7 +428,7 @@ setOutlineColor(color: RGBA): void
 //// define
 `color`：[`RGBA`](../../server/beta/rgba.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.selection.color.setoutlinecolor.description
 
 
 ////
@@ -408,7 +436,7 @@ setOutlineColor(color: RGBA): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.selection.setoutlinecolor.return
 
 
 ////

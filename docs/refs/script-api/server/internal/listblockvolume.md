@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ListBlockVolume`类，扩展自[`BlockVolumeBase`](./blockvolumebase.md)。
+`ListBlockVolume`类，扩展自[`BlockVolumeBase`](./blockvolumebase.md)。script_api.@minecraft/server.listblockvolume.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.listblockvolume.add.description
+
 ```js
 add(locations: Vector3[]): void
 ```
@@ -20,7 +22,7 @@ add(locations: Vector3[]): void
 //// define
 `locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server.listblockvolume.locations.add.description
 
 
 ////
@@ -28,7 +30,7 @@ add(locations: Vector3[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.listblockvolume.add.return
 
 
 ////
@@ -42,6 +44,8 @@ add(locations: Vector3[]): void
 
 ///
 
+script_api.@minecraft/server.listblockvolume.constructor.description
+
 ```js
 new constructor(locations: Vector3[]): ListBlockVolume
 ```
@@ -50,7 +54,7 @@ new constructor(locations: Vector3[]): ListBlockVolume
 //// define
 `locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server.listblockvolume.locations.constructor.description
 
 
 ////
@@ -58,7 +62,7 @@ new constructor(locations: Vector3[]): ListBlockVolume
 //// define
 返回值：[`ListBlockVolume`](./listblockvolume.md)
 
-- 返回值。
+- script_api.@minecraft/server.listblockvolume.constructor.return
 
 
 ////
@@ -72,6 +76,8 @@ new constructor(locations: Vector3[]): ListBlockVolume
 
 ///
 
+script_api.@minecraft/server.listblockvolume.remove.description
+
 ```js
 remove(locations: Vector3[]): void
 ```
@@ -80,7 +86,7 @@ remove(locations: Vector3[]): void
 //// define
 `locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server.listblockvolume.locations.remove.description
 
 
 ////
@@ -88,7 +94,7 @@ remove(locations: Vector3[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.listblockvolume.remove.return
 
 
 ////

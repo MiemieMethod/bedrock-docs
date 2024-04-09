@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp StructureSettings -->类型。
+<!-- md:samp StructureSettings -->类型。该类型用于protocol.type.structuresettings.description
 
 ## 结构
 
@@ -84,64 +84,64 @@ rankdir = LR
 //// define
 Structure Palette Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.structuresettings.structure_palette_name.description
 
 
 ////
 //// define
 Should ignore entities?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.structuresettings.should_ignore_entities.description
 
 
 ////
 //// define
 Should ignore blocks?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.structuresettings.should_ignore_blocks.description
 
 
 ////
 //// define
 Should Allow Non Ticking Player and Ticking Area Chunks：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.structuresettings.should_allow_non_ticking_player_and_ticking_area_chunks.description
 
 
 ////
 //// define
 Structure Size：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.structuresettings.structure_size.description
 
 
 ////
 //// define
 Structure Offset：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.structuresettings.structure_offset.description
 
 
 ////
 //// define
 Last Edit Player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。Player who last edited the structure block.
+- 特殊类型。protocol.type.structuresettings.last_edit_player.descriptionPlayer who last edited the structure block.
 
 
 ////
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.structuresettings.rotation.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Rotate90`|`1`||
-  |`Rotate180`|`2`||
-  |`Rotate270`|`3`||
-  |`Total`|`4`||
+  |`None`|`0`|无|
+  |`Rotate90`|`1`|protocol.enum.rotate90|
+  |`Rotate180`|`2`|protocol.enum.rotate180|
+  |`Rotate270`|`3`|protocol.enum.rotate270|
+  |`Total`|`4`|protocol.enum.total|
 
 
 
@@ -149,14 +149,14 @@ Rotation：<!-- md:samp byte -->
 //// define
 Mirror：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.structuresettings.mirror.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`X`|`1`||
-  |`Z`|`2`||
-  |`XZ`|`3`||
+  |`None`|`0`|无|
+  |`X`|`1`|protocol.enum.x|
+  |`Z`|`2`|protocol.enum.z|
+  |`XZ`|`3`|protocol.enum.xz|
 
 
 
@@ -164,13 +164,13 @@ Mirror：<!-- md:samp byte -->
 //// define
 Animation Mode：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.structuresettings.animation_mode.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Layers`|`1`||
-  |`Blocks`|`2`||
+  |`None`|`0`|无|
+  |`Layers`|`1`|protocol.enum.layers|
+  |`Blocks`|`2`|protocol.enum.blocks|
 
 
 
@@ -178,28 +178,28 @@ Animation Mode：<!-- md:samp byte -->
 //// define
 Animation Seconds：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.structuresettings.animation_seconds.description
 
 
 ////
 //// define
 Integrity Value：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.structuresettings.integrity_value.description
 
 
 ////
 //// define
 Integrity Seed：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.structuresettings.integrity_seed.description
 
 
 ////
 //// define
 Rotation Pivot：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。Pivot used to rotate a structure around.
+- 特殊类型。protocol.type.structuresettings.rotation_pivot.descriptionPivot used to rotate a structure around.
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/me`命令Displays a message about yourself.
+`/me`命令command.me.description
 
 /// settings | 执行条件
 该命令需要权限等级：`any`|`0`。
@@ -16,10 +16,12 @@
 ```
 
 //// html | div.result
+command.me.1.description
+
 ///// define
 `message`：<!-- md:samp message -->
 
-- 基本类型。
+- 基本类型。command.me.message.description
 
 
 /////

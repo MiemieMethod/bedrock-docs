@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Dimension`类。
+`Dimension`类。script_api.@minecraft/server.dimension.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.dimension.id.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only id: string;
 
 ///
 
+script_api.@minecraft/server.dimension.getblock.description
+
 ```js
 getBlock(location: Vector3): Block | undefined
 ```
@@ -44,7 +46,7 @@ getBlock(location: Vector3): Block | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.dimension.location.getblock.description
 
 
 ////
@@ -52,7 +54,7 @@ getBlock(location: Vector3): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.dimension.getblock.return
 
 
 ////
@@ -66,6 +68,8 @@ getBlock(location: Vector3): Block | undefined
 
 ///
 
+script_api.@minecraft/server.dimension.getblockfromray.description
+
 ```js
 getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOptions): BlockRaycastHit | undefined
 ```
@@ -74,7 +78,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.dimension.location.getblockfromray.description
 
 
 ////
@@ -82,7 +86,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.dimension.direction.getblockfromray.description
 
 
 ////
@@ -90,7 +94,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server.dimension.options.getblockfromray.description
 
 
 ////
@@ -98,7 +102,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 返回值：[`BlockRaycastHit`](./blockraycasthit.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.dimension.getblockfromray.return
 
 
 ////
@@ -112,6 +116,8 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 
 ///
 
+script_api.@minecraft/server.dimension.getentities.description
+
 ```js
 getEntities(options?: EntityQueryOptions): Entity[]
 ```
@@ -120,7 +126,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.dimension.options.getentities.description
 
 
 ////
@@ -128,7 +134,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 //// define
 返回值：<code><a href="../entity/">Entity</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.dimension.getentities.return
 
 
 ////
@@ -142,6 +148,8 @@ getEntities(options?: EntityQueryOptions): Entity[]
 
 ///
 
+script_api.@minecraft/server.dimension.getentitiesatblocklocation.description
+
 ```js
 getEntitiesAtBlockLocation(location: Vector3): Entity[]
 ```
@@ -150,7 +158,7 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.dimension.location.getentitiesatblocklocation.description
 
 
 ////
@@ -158,7 +166,7 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 //// define
 返回值：<code><a href="../entity/">Entity</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.dimension.getentitiesatblocklocation.return
 
 
 ////
@@ -172,6 +180,8 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 
 ///
 
+script_api.@minecraft/server.dimension.getentitiesfromray.description
+
 ```js
 getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycastOptions): EntityRaycastHit[]
 ```
@@ -180,7 +190,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.dimension.location.getentitiesfromray.description
 
 
 ////
@@ -188,7 +198,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.dimension.direction.getentitiesfromray.description
 
 
 ////
@@ -196,7 +206,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server.dimension.options.getentitiesfromray.description
 
 
 ////
@@ -204,7 +214,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 返回值：<code><a href="../entityraycasthit/">EntityRaycastHit</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.dimension.getentitiesfromray.return
 
 
 ////
@@ -218,6 +228,8 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 
 ///
 
+script_api.@minecraft/server.dimension.getplayers.description
+
 ```js
 getPlayers(options?: EntityQueryOptions): Player[]
 ```
@@ -226,7 +238,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.dimension.options.getplayers.description
 
 
 ////
@@ -234,7 +246,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 返回值：<code><a href="../player/">Player</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.dimension.getplayers.return
 
 
 ////
@@ -248,6 +260,8 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 ///
 
+script_api.@minecraft/server.dimension.runcommand.description
+
 ```js
 runCommand(commandString: string): CommandResult
 ```
@@ -256,7 +270,7 @@ runCommand(commandString: string): CommandResult
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.dimension.commandstring.runcommand.description
 
 
 ////
@@ -264,7 +278,7 @@ runCommand(commandString: string): CommandResult
 //// define
 返回值：[`CommandResult`](./commandresult.md)
 
-- 返回值。
+- script_api.@minecraft/server.dimension.runcommand.return
 
 
 ////
@@ -278,6 +292,8 @@ runCommand(commandString: string): CommandResult
 
 ///
 
+script_api.@minecraft/server.dimension.runcommandasync.description
+
 ```js
 runCommandAsync(commandString: string): Promise<CommandResult>
 ```
@@ -286,7 +302,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.dimension.commandstring.runcommandasync.description
 
 
 ////
@@ -294,7 +310,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 返回值：<code>Promise&lt;<a href="../commandresult/">CommandResult</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.dimension.runcommandasync.return
 
 
 ////
@@ -308,6 +324,8 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 
 ///
 
+script_api.@minecraft/server.dimension.spawnentity.description
+
 ```js
 spawnEntity(identifier: string, location: Vector3): Entity
 ```
@@ -316,7 +334,7 @@ spawnEntity(identifier: string, location: Vector3): Entity
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.dimension.identifier.spawnentity.description
 
 
 ////
@@ -324,7 +342,7 @@ spawnEntity(identifier: string, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.dimension.location.spawnentity.description
 
 
 ////
@@ -332,7 +350,7 @@ spawnEntity(identifier: string, location: Vector3): Entity
 //// define
 返回值：[`Entity`](./entity.md)
 
-- 返回值。
+- script_api.@minecraft/server.dimension.spawnentity.return
 
 
 ////
@@ -346,6 +364,8 @@ spawnEntity(identifier: string, location: Vector3): Entity
 
 ///
 
+script_api.@minecraft/server.dimension.spawnitem.description
+
 ```js
 spawnItem(itemStack: ItemStack, location: Vector3): Entity
 ```
@@ -354,7 +374,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server.dimension.itemstack.spawnitem.description
 
 
 ////
@@ -362,7 +382,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.dimension.location.spawnitem.description
 
 
 ////
@@ -370,7 +390,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 返回值：[`Entity`](./entity.md)
 
-- 返回值。
+- script_api.@minecraft/server.dimension.spawnitem.return
 
 
 ////

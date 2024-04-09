@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SimulationTypePacket -->数据包，数字ID是`168`。
+<!-- md:samp SimulationTypePacket -->数据包，数字ID是`168`。该数据包用于protocol.packet.simulationtypepacket.description
 
 ## 结构
 
@@ -32,14 +32,14 @@ rankdir = LR
 //// define
 Sim Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.simulationtypepacket.sim_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Game`|`0`||
-  |`Editor`|`1`||
-  |`Test`|`2`||
-  |`INVALID`|`3`||
+  |`Game`|`0`|protocol.enum.game|
+  |`Editor`|`1`|protocol.enum.editor|
+  |`Test`|`2`|protocol.enum.test|
+  |`INVALID`|`3`|protocol.enum.invalid|
 
 
 

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExtensionOptionalParameters`接口。
+`ExtensionOptionalParameters`接口。script_api.@minecraft/server-editor-bindings.extensionoptionalparameters.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ description: string | undefined;
 //// define
 `description`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensionoptionalparameters.description.description
 
 
 ////
@@ -42,7 +42,7 @@ notes: string | undefined;
 //// define
 `notes`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensionoptionalparameters.notes.description
 
 
 ////
@@ -64,7 +64,7 @@ toolGroupId: string | undefined;
 //// define
 `toolGroupId`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensionoptionalparameters.toolgroupid.description
 
 
 ////

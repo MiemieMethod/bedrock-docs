@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DimensionLocation`接口。
+`DimensionLocation`接口。script_api.@minecraft/server.dimensionlocation.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.dimensionlocation.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ x: float;
 //// define
 `x`：`float`
 
-- 属性。
+- script_api.@minecraft/server.dimensionlocation.x.description
 
 
 ////
@@ -64,7 +64,7 @@ y: float;
 //// define
 `y`：`float`
 
-- 属性。
+- script_api.@minecraft/server.dimensionlocation.y.description
 
 
 ////
@@ -86,7 +86,7 @@ z: float;
 //// define
 `z`：`float`
 
-- 属性。
+- script_api.@minecraft/server.dimensionlocation.z.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementGlideComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。
+`EntityMovementGlideComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。script_api.@minecraft/server.entitymovementglidecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only speedWhenTurning: float;
 //// define
 `speedWhenTurning`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entitymovementglidecomponent.speedwhenturning.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only startSpeed: float;
 //// define
 `startSpeed`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entitymovementglidecomponent.startspeed.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemTypes`类。
+`ItemTypes`类。script_api.@minecraft/server.itemtypes.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.itemtypes.get.description
+
 ```js
 static get(itemId: string): ItemType | undefined
 ```
@@ -20,7 +22,7 @@ static get(itemId: string): ItemType | undefined
 //// define
 `itemId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemtypes.itemid.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(itemId: string): ItemType | undefined
 //// define
 返回值：[`ItemType`](./itemtype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.itemtypes.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(itemId: string): ItemType | undefined
 
 ///
 
+script_api.@minecraft/server.itemtypes.getall.description
+
 ```js
 static getAll(): ItemType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): ItemType[]
 //// define
 返回值：<code><a href="../itemtype/">ItemType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.itemtypes.getall.return
 
 
 ////

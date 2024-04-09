@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTameableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityTameableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitytameablecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only probability: float;
 //// define
 `probability`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entitytameablecomponent.probability.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only tameItems: string[];
 //// define
 `tameItems`：`string[]`
 
-- 属性。
+- script_api.mojang-minecraft.entitytameablecomponent.tameitems.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only tameItems: string[];
 
 ///
 
+script_api.mojang-minecraft.entitytameablecomponent.tame.description
+
 ```js
 tame(): boolean
 ```
@@ -66,7 +68,7 @@ tame(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entitytameablecomponent.tame.return
 
 
 ////

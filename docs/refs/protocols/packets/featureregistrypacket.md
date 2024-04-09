@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp FeatureRegistryPacket -->数据包，数字ID是`191`。
+<!-- md:samp FeatureRegistryPacket -->数据包，数字ID是`191`。该数据包用于protocol.packet.featureregistrypacket.description
 
 ## 结构
 
@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.featureregistrypacket.数组大小.description
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 feature Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.featureregistrypacket.feature_name.description
 
 
 //////
 ////// define
 Binary Json Output：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.featureregistrypacket.binary_json_output.description
 
 
 //////

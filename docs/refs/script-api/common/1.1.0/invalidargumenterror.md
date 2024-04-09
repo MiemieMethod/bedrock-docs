@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`InvalidArgumentError`错误，扩展自`Error`。
+`InvalidArgumentError`错误，扩展自`Error`。script_api.@minecraft/common.invalidargumenterror.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only index: int32;
 //// define
 `index`：`int32`
 
-- 属性。
+- script_api.@minecraft/common.invalidargumenterror.index.description
 
 
 ////

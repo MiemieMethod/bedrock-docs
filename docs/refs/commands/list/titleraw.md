@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/titleraw`命令Controls screen titles with JSON messages.
+`/titleraw`命令command.titleraw.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,14 +16,16 @@
 ```
 
 //// html | div.result
+command.titleraw.1.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.titleraw.player.description
 
 `clear`：<!-- md:samp TitleRawClear -->
 
-- 枚举类型。单值枚举，请直接使用`clear`。
+- 枚举类型。command.enum.titlerawclear.description单值枚举，请直接使用`clear`。
 
 
 /////
@@ -38,14 +40,16 @@
 ```
 
 //// html | div.result
+command.titleraw.2.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.titleraw.player.description
 
 `reset`：<!-- md:samp TitleRawReset -->
 
-- 枚举类型。单值枚举，请直接使用`reset`。
+- 枚举类型。command.enum.titlerawreset.description单值枚举，请直接使用`reset`。
 
 
 /////
@@ -60,25 +64,27 @@
 ```
 
 //// html | div.result
+command.titleraw.3.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.titleraw.player.description
 
 `titleLocation`：<!-- md:samp TitleRawSet -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.titlerawset.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`title`||
-  |`subtitle`||
-  |`actionbar`||
+  |`title`|command.enum.titlerawset.title|
+  |`subtitle`|command.enum.titlerawset.subtitle|
+  |`actionbar`|command.enum.titlerawset.actionbar|
 
 
 `raw json titleText`：<!-- md:samp json -->
 
-- 基本类型。
+- 基本类型。command.titleraw.raw json titleText.description
 
 
 /////
@@ -93,26 +99,28 @@
 ```
 
 //// html | div.result
+command.titleraw.4.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.titleraw.player.description
 
 `times`：<!-- md:samp TitleRawTimes -->
 
-- 枚举类型。单值枚举，请直接使用`times`。
+- 枚举类型。command.enum.titlerawtimes.description单值枚举，请直接使用`times`。
 
 `fadeIn`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.titleraw.fadeIn.description
 
 `stay`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.titleraw.stay.description
 
 `fadeOut`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.titleraw.fadeOut.description
 
 
 /////

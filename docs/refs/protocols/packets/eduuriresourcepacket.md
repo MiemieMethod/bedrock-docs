@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EduUriResourcePacket -->数据包，数字ID是`170`。
+<!-- md:samp EduUriResourcePacket -->数据包，数字ID是`170`。该数据包用于protocol.packet.eduuriresourcepacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Edu Shared URI Resource：[<!-- md:samp EduSharedUriResource -->](../types/edushareduriresource.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.eduuriresourcepacket.edu_shared_uri_resource.description
 
 
 ////

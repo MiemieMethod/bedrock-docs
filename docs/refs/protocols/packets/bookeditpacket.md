@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp BookEditPacket -->数据包，数字ID是`97`。
+<!-- md:samp BookEditPacket -->数据包，数字ID是`97`。该数据包用于protocol.packet.bookeditpacket.description
 
 ## 结构
 
@@ -96,15 +96,15 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.bookeditpacket.action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`ReplacePage`|`0`||
-  |`AddPage`|`1`||
-  |`DeletePage`|`2`||
-  |`SwapPages`|`3`||
-  |`Finalize`|`4`||
+  |`ReplacePage`|`0`|protocol.enum.replacepage|
+  |`AddPage`|`1`|protocol.enum.addpage|
+  |`DeletePage`|`2`|protocol.enum.deletepage|
+  |`SwapPages`|`3`|protocol.enum.swappages|
+  |`Finalize`|`4`|protocol.enum.finalize|
 
 
 
@@ -112,7 +112,7 @@ Action：<!-- md:samp byte -->
 //// define
 Book Slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.bookeditpacket.book_slot.description
 
 
 ////
@@ -127,21 +127,21 @@ Book Slot：<!-- md:samp byte -->
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.bookeditpacket.page_index.description
 
 
 ///////
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.bookeditpacket.text_a.description
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.bookeditpacket.text_b.description
 
 
 ///////
@@ -159,21 +159,21 @@ Text B：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.bookeditpacket.page_index.description
 
 
 ///////
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.bookeditpacket.text_a.description
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.bookeditpacket.text_b.description
 
 
 ///////
@@ -191,7 +191,7 @@ Text B：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.bookeditpacket.page_index.description
 
 
 ///////
@@ -209,14 +209,14 @@ Page Index：<!-- md:samp byte -->
 /////// define
 Page Index A：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.bookeditpacket.page_index_a.description
 
 
 ///////
 /////// define
 Page Index B：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.bookeditpacket.page_index_b.description
 
 
 ///////
@@ -234,21 +234,21 @@ Page Index B：<!-- md:samp byte -->
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.bookeditpacket.text_a.description
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.bookeditpacket.text_b.description
 
 
 ///////
 /////// define
 XUID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.bookeditpacket.xuid.description
 
 
 ///////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntitySpawnAfterEventSignal`类。
+`EntitySpawnAfterEventSignal`类。script_api.@minecraft/server.entityspawnaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entityspawnaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfte
 //// define
 `callback`：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityspawnaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfte
 //// define
 返回值：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityspawnaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfte
 
 ///
 
+script_api.@minecraft/server.entityspawnaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntitySpawnAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: EntitySpawnAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityspawnaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntitySpawnAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityspawnaftereventsignal.unsubscribe.return
 
 
 ////

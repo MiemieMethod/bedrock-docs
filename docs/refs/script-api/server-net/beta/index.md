@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`@minecraft/server-net`模块的`1.0.0-beta`版本，UUID为`777b1798-13a6-401c-9cba-0cf17e31a81b`。
+`@minecraft/server-net`模块的`1.0.0-beta`版本，UUID为`777b1798-13a6-401c-9cba-0cf17e31a81b`。该模块是script_api.@minecraft/server-net.description
 
 /// info | 依赖
 该模块依赖于以下模块：
@@ -27,7 +27,7 @@ static read-only http: HttpClient;
 //// define
 `http`：[`HttpClient`](./httpclient.md)
 
-- 属性。
+- script_api.@minecraft/server-net.gametesterror.http.description
 
 
 ////

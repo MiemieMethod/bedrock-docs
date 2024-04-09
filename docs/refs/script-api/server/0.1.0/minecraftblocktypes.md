@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MinecraftBlockTypes`类。
+`MinecraftBlockTypes`类。script_api.mojang-minecraft.minecraftblocktypes.description
 
 ## 常量
 
@@ -20,7 +20,7 @@ static read-only air: BlockType;
 //// define
 `air`：[`BlockType`](./blocktype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecraftblocktypes.air.description
 
 
 ////
@@ -42,7 +42,7 @@ static read-only barrier: BlockType;
 //// define
 `barrier`：[`BlockType`](./blocktype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecraftblocktypes.barrier.description
 
 
 ////
@@ -58,6 +58,8 @@ static read-only barrier: BlockType;
 
 ///
 
+script_api.mojang-minecraft.minecraftblocktypes.get.description
+
 ```js
 static get(typeName: string): BlockType | undefined
 ```
@@ -66,7 +68,7 @@ static get(typeName: string): BlockType | undefined
 //// define
 `typeName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.minecraftblocktypes.typename.get.description
 
 
 ////
@@ -74,7 +76,7 @@ static get(typeName: string): BlockType | undefined
 //// define
 返回值：[`BlockType`](./blocktype.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.minecraftblocktypes.get.return
 
 
 ////
@@ -88,6 +90,8 @@ static get(typeName: string): BlockType | undefined
 
 ///
 
+script_api.mojang-minecraft.minecraftblocktypes.getallblocktypes.description
+
 ```js
 static getAllBlockTypes(): BlockType[]
 ```
@@ -96,7 +100,7 @@ static getAllBlockTypes(): BlockType[]
 //// define
 返回值：<code><a href="../blocktype/">BlockType</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.minecraftblocktypes.getallblocktypes.return
 
 
 ////

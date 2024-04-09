@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/tickingarea`命令Add, remove, or list ticking areas.
+`/tickingarea`命令command.tickingarea.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,31 +16,33 @@
 ```
 
 //// html | div.result
+command.tickingarea.1.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModeAdd -->
 
-- 枚举类型。单值枚举，请直接使用`add`。
+- 枚举类型。command.enum.tickingareamodeadd.description单值枚举，请直接使用`add`。
 
 `from`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.from.description
 
 `to`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.to.description
 
 `name`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型，可选。command.tickingarea.name.description
 
 `preload`：<!-- md:samp Boolean -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型，可选。command.enum.boolean.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`true`||
-  |`false`||
+  |`true`|是|
+  |`false`|否|
 
 
 
@@ -56,35 +58,37 @@
 ```
 
 //// html | div.result
+command.tickingarea.2.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModeAdd -->
 
-- 枚举类型。单值枚举，请直接使用`add`。
+- 枚举类型。command.enum.tickingareamodeadd.description单值枚举，请直接使用`add`。
 
 `circle`：<!-- md:samp AddTickingAreaType -->
 
-- 枚举类型。单值枚举，请直接使用`circle`。
+- 枚举类型。command.enum.addtickingareatype.description单值枚举，请直接使用`circle`。
 
 `center`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.center.description
 
 `radius`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.radius.description
 
 `name`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型，可选。command.tickingarea.name.description
 
 `preload`：<!-- md:samp Boolean -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型，可选。command.enum.boolean.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`true`||
-  |`false`||
+  |`true`|是|
+  |`false`|否|
 
 
 
@@ -100,14 +104,16 @@
 ```
 
 //// html | div.result
+command.tickingarea.3.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModeRemove -->
 
-- 枚举类型。单值枚举，请直接使用`remove`。
+- 枚举类型。command.enum.tickingareamoderemove.description单值枚举，请直接使用`remove`。
 
 `position`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.position.description
 
 
 /////
@@ -122,14 +128,16 @@
 ```
 
 //// html | div.result
+command.tickingarea.4.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModeRemove -->
 
-- 枚举类型。单值枚举，请直接使用`remove`。
+- 枚举类型。command.enum.tickingareamoderemove.description单值枚举，请直接使用`remove`。
 
 `name`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.name.description
 
 
 /////
@@ -144,10 +152,12 @@
 ```
 
 //// html | div.result
+command.tickingarea.5.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModeRemoveAll -->
 
-- 枚举类型。单值枚举，请直接使用`remove_all`。
+- 枚举类型。command.enum.tickingareamoderemoveall.description单值枚举，请直接使用`remove_all`。
 
 
 /////
@@ -162,14 +172,16 @@
 ```
 
 //// html | div.result
+command.tickingarea.6.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModeList -->
 
-- 枚举类型。单值枚举，请直接使用`list`。
+- 枚举类型。command.enum.tickingareamodelist.description单值枚举，请直接使用`list`。
 
 `all-dimensions`：<!-- md:samp AllDimensions -->
 
-- 枚举类型。单值枚举，请直接使用`all-dimensions`。
+- 枚举类型，可选。command.enum.alldimensions.description单值枚举，请直接使用`all-dimensions`。
 
 
 /////
@@ -184,23 +196,25 @@
 ```
 
 //// html | div.result
+command.tickingarea.7.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModePreload -->
 
-- 枚举类型。单值枚举，请直接使用`preload`。
+- 枚举类型。command.enum.tickingareamodepreload.description单值枚举，请直接使用`preload`。
 
 `position`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.position.description
 
 `preload`：<!-- md:samp Boolean -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型，可选。command.enum.boolean.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`true`||
-  |`false`||
+  |`true`|是|
+  |`false`|否|
 
 
 
@@ -216,23 +230,25 @@
 ```
 
 //// html | div.result
+command.tickingarea.8.description
+
 ///// define
 `mode`：<!-- md:samp TickingAreaModePreload -->
 
-- 枚举类型。单值枚举，请直接使用`preload`。
+- 枚举类型。command.enum.tickingareamodepreload.description单值枚举，请直接使用`preload`。
 
 `name`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.tickingarea.name.description
 
 `preload`：<!-- md:samp Boolean -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型，可选。command.enum.boolean.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`true`||
-  |`false`||
+  |`true`|是|
+  |`false`|否|
 
 
 

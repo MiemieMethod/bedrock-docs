@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SmithingTransformRecipe -->类型。
+<!-- md:samp SmithingTransformRecipe -->类型。该类型用于protocol.type.smithingtransformrecipe.description
 
 ## 结构
 
@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtransformrecipe.recipe_id.description
 
 
 ////
 //// define
 Template Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtransformrecipe.template_ingredien.description
 
 
 ////
 //// define
 Base Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtransformrecipe.base_ingredien.description
 
 
 ////
 //// define
 Addition Ingredien：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtransformrecipe.addition_ingredien.description
 
 
 ////
 //// define
 Result：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtransformrecipe.result.description
 
 
 ////
 //// define
 Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.smithingtransformrecipe.tag.description
 
 
 ////

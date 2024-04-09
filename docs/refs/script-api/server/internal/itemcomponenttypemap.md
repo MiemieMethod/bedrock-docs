@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemComponentTypeMap`类型别名。
+`ItemComponentTypeMap`类型别名。script_api.@minecraft/server.itemcomponenttypemap.description
 
 ## 类型映射
 

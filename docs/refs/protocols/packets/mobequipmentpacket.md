@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MobEquipmentPacket -->数据包，数字ID是`31`。
+<!-- md:samp MobEquipmentPacket -->数据包，数字ID是`31`。该数据包用于protocol.packet.mobequipmentpacket.description
 
 ## 结构
 
@@ -48,46 +48,46 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobequipmentpacket.target_runtime_id.description
 
 
 ////
 //// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobequipmentpacket.item.description
 
 
 ////
 //// define
 Slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mobequipmentpacket.slot.description
 
 
 ////
 //// define
 Selected Slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.mobequipmentpacket.selected_slot.description
 
 
 ////
 //// define
 Container ID：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.mobequipmentpacket.container_id.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`CONTAINER_ID_NONE`|`-1`||
-  |`CONTAINER_ID_INVENTORY`|`0`||
-  |`CONTAINER_ID_FIRST`|`1`||
-  |`CONTAINER_ID_LAST`|`100`||
-  |`CONTAINER_ID_OFFHAND`|`119`||
-  |`CONTAINER_ID_ARMOR`|`120`||
-  |`CONTAINER_ID_SELECTION_SLOTS`|`122`||
-  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`||
+  |`CONTAINER_ID_NONE`|`-1`|protocol.enum.container_id_none|
+  |`CONTAINER_ID_INVENTORY`|`0`|protocol.enum.container_id_inventory|
+  |`CONTAINER_ID_FIRST`|`1`|protocol.enum.container_id_first|
+  |`CONTAINER_ID_LAST`|`100`|protocol.enum.container_id_last|
+  |`CONTAINER_ID_OFFHAND`|`119`|protocol.enum.container_id_offhand|
+  |`CONTAINER_ID_ARMOR`|`120`|protocol.enum.container_id_armor|
+  |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
+  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
 
 
 

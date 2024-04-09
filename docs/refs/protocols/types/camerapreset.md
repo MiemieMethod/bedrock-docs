@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CameraPreset -->类型。
+<!-- md:samp CameraPreset -->类型。该类型用于protocol.type.camerapreset.description
 
 ## 结构
 
@@ -64,63 +64,63 @@ rankdir = LR
 //// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.name.description
 
 
 ////
 //// define
 Inherit From：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.inherit_from.description
 
 
 ////
 //// define
 Pos X：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.pos_x.description
 
 
 ////
 //// define
 Pos Y：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.pos_y.description
 
 
 ////
 //// define
 Pos Z：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.pos_z.description
 
 
 ////
 //// define
 Rot X：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.rot_x.description
 
 
 ////
 //// define
 Rot Y：[<!-- md:samp std::optional&lt;float&gt; -->](../types/std__optional_float_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.rot_y.description
 
 
 ////
 //// define
 Listener：[<!-- md:samp std::optional&lt;enum CameraPreset::AudioListener&gt; -->](../types/std__optional_enum_camerapreset__audiolistener_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.listener.description
 
 
 ////
 //// define
 Player Effects：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__optional_bool_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.camerapreset.player_effects.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/function`命令Runs commands found in the corresponding function file.
+`/function`命令command.function.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,10 +16,12 @@
 ```
 
 //// html | div.result
+command.function.1.description
+
 ///// define
 `name`：<!-- md:samp filepath -->
 
-- 基本类型。
+- 基本类型。command.function.name.description
 
 
 /////

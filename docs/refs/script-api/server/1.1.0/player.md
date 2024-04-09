@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Player`类，扩展自[`Entity`](./entity.md)。
+`Player`类，扩展自[`Entity`](./entity.md)。script_api.@minecraft/server.player.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.@minecraft/server.player.name.description
 
 
 ////
@@ -36,15 +36,17 @@ read-only name: string;
 
 ///
 
+script_api.@minecraft/server.player.sendmessage.description
+
 ```js
-sendMessage(message: RawMessage | string[] | RawMessage | string): void
+sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 ```
 
 /// html | div.result
 //// define
-`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.message.sendmessage.description
 
 
 ////
@@ -52,7 +54,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.sendmessage.return
 
 
 ////

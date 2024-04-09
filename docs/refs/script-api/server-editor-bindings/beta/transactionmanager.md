@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TransactionManager`类。
+`TransactionManager`类。script_api.@minecraft/server-editor-bindings.transactionmanager.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.adduserdefinedoperation.description
+
 ```js
 addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, operationData: string, operationName?: string): void
 ```
@@ -20,7 +22,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 //// define
 `transactionHandlerId`：[`UserDefinedTransactionHandlerId`](./userdefinedtransactionhandlerid.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.transactionhandlerid.adduserdefinedoperation.description
 
 
 ////
@@ -28,7 +30,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 //// define
 `operationData`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.operationdata.adduserdefinedoperation.description
 
 
 ////
@@ -36,7 +38,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 //// define
 `operationName`：`string`|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.operationname.adduserdefinedoperation.description
 
 
 ////
@@ -44,7 +46,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.adduserdefinedoperation.return
 
 
 ////
@@ -58,6 +60,8 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.commitopentransaction.description
+
 ```js
 commitOpenTransaction(): boolean
 ```
@@ -66,7 +70,7 @@ commitOpenTransaction(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.commitopentransaction.return
 
 
 ////
@@ -80,6 +84,8 @@ commitOpenTransaction(): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.committrackedchanges.description
+
 ```js
 commitTrackedChanges(): int32
 ```
@@ -88,7 +94,7 @@ commitTrackedChanges(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.committrackedchanges.return
 
 
 ////
@@ -102,6 +108,8 @@ commitTrackedChanges(): int32
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.createuserdefinedtransactionhandler.description
+
 ```js
 createUserDefinedTransactionHandler(undoClosure: (arg: string) => void, redoClosure: (arg: string) => void): UserDefinedTransactionHandlerId
 ```
@@ -110,7 +118,7 @@ createUserDefinedTransactionHandler(undoClosure: (arg: string) => void, redoClos
 //// define
 `undoClosure`：<code>(string) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.undoclosure.createuserdefinedtransactionhandler.description
 
 
 ////
@@ -118,7 +126,7 @@ createUserDefinedTransactionHandler(undoClosure: (arg: string) => void, redoClos
 //// define
 `redoClosure`：<code>(string) =&gt; void</code>
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.redoclosure.createuserdefinedtransactionhandler.description
 
 
 ////
@@ -126,7 +134,7 @@ createUserDefinedTransactionHandler(undoClosure: (arg: string) => void, redoClos
 //// define
 返回值：[`UserDefinedTransactionHandlerId`](./userdefinedtransactionhandlerid.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.createuserdefinedtransactionhandler.return
 
 
 ////
@@ -140,6 +148,8 @@ createUserDefinedTransactionHandler(undoClosure: (arg: string) => void, redoClos
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.discardopentransaction.description
+
 ```js
 discardOpenTransaction(): boolean
 ```
@@ -148,7 +158,7 @@ discardOpenTransaction(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.discardopentransaction.return
 
 
 ////
@@ -162,6 +172,8 @@ discardOpenTransaction(): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.discardtrackedchanges.description
+
 ```js
 discardTrackedChanges(): int32
 ```
@@ -170,7 +182,7 @@ discardTrackedChanges(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.discardtrackedchanges.return
 
 
 ////
@@ -184,6 +196,8 @@ discardTrackedChanges(): int32
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.opentransaction.description
+
 ```js
 openTransaction(name: string): boolean
 ```
@@ -192,7 +206,7 @@ openTransaction(name: string): boolean
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.name.opentransaction.description
 
 
 ////
@@ -200,7 +214,7 @@ openTransaction(name: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.opentransaction.return
 
 
 ////
@@ -214,6 +228,8 @@ openTransaction(name: string): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.redo.description
+
 ```js
 redo(): void
 ```
@@ -222,7 +238,7 @@ redo(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.redo.return
 
 
 ////
@@ -236,6 +252,8 @@ redo(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.redosize.description
+
 ```js
 redoSize(): int32
 ```
@@ -244,7 +262,7 @@ redoSize(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.redosize.return
 
 
 ////
@@ -258,6 +276,8 @@ redoSize(): int32
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangearea.description
+
 ```js
 trackBlockChangeArea(from: Vector3, to: Vector3): boolean
 ```
@@ -266,7 +286,7 @@ trackBlockChangeArea(from: Vector3, to: Vector3): boolean
 //// define
 `from`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.from.trackblockchangearea.description
 
 
 ////
@@ -274,7 +294,7 @@ trackBlockChangeArea(from: Vector3, to: Vector3): boolean
 //// define
 `to`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.to.trackblockchangearea.description
 
 
 ////
@@ -282,7 +302,7 @@ trackBlockChangeArea(from: Vector3, to: Vector3): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangearea.return
 
 
 ////
@@ -296,6 +316,8 @@ trackBlockChangeArea(from: Vector3, to: Vector3): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangecompoundblockvolume.description
+
 ```js
 trackBlockChangeCompoundBlockVolume(compoundBlockVolume: CompoundBlockVolume): boolean
 ```
@@ -304,7 +326,7 @@ trackBlockChangeCompoundBlockVolume(compoundBlockVolume: CompoundBlockVolume): b
 //// define
 `compoundBlockVolume`：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.compoundblockvolume.trackblockchangecompoundblockvolume.description
 
 
 ////
@@ -312,7 +334,7 @@ trackBlockChangeCompoundBlockVolume(compoundBlockVolume: CompoundBlockVolume): b
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangecompoundblockvolume.return
 
 
 ////
@@ -326,6 +348,8 @@ trackBlockChangeCompoundBlockVolume(compoundBlockVolume: CompoundBlockVolume): b
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangelist.description
+
 ```js
 trackBlockChangeList(locations: Vector3[]): boolean
 ```
@@ -334,7 +358,7 @@ trackBlockChangeList(locations: Vector3[]): boolean
 //// define
 `locations`：<code><a href="../../../server/beta/vector3/">Vector3</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.locations.trackblockchangelist.description
 
 
 ////
@@ -342,7 +366,7 @@ trackBlockChangeList(locations: Vector3[]): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangelist.return
 
 
 ////
@@ -356,6 +380,8 @@ trackBlockChangeList(locations: Vector3[]): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangeselection.description
+
 ```js
 trackBlockChangeSelection(selection: Selection): boolean
 ```
@@ -364,7 +390,7 @@ trackBlockChangeSelection(selection: Selection): boolean
 //// define
 `selection`：[`Selection`](./selection.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.selection.trackblockchangeselection.description
 
 
 ////
@@ -372,7 +398,7 @@ trackBlockChangeSelection(selection: Selection): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangeselection.return
 
 
 ////
@@ -386,6 +412,8 @@ trackBlockChangeSelection(selection: Selection): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.undo.description
+
 ```js
 undo(): void
 ```
@@ -394,7 +422,7 @@ undo(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.undo.return
 
 
 ////
@@ -408,6 +436,8 @@ undo(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.transactionmanager.undosize.description
+
 ```js
 undoSize(): int32
 ```
@@ -416,7 +446,7 @@ undoSize(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.transactionmanager.undosize.return
 
 
 ////

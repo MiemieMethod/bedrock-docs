@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`NumberRange`接口。
+`NumberRange`接口。script_api.@minecraft/common.numberrange.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ max: float;
 //// define
 `max`：`float`
 
-- 属性。
+- script_api.@minecraft/common.numberrange.max.description
 
 
 ////
@@ -42,7 +42,7 @@ min: float;
 //// define
 `min`：`float`
 
-- 属性。
+- script_api.@minecraft/common.numberrange.min.description
 
 
 ////

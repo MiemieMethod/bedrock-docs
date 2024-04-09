@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MaterialReducerDataEntry -->类型。
+<!-- md:samp MaterialReducerDataEntry -->类型。该类型用于protocol.type.materialreducerdataentry.description
 
 ## 结构
 
@@ -48,7 +48,7 @@ rankdir = LR
 //// define
 From Item (Key): Input：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.materialreducerdataentry.from_item:_input.description
 
 
 ////
@@ -60,7 +60,7 @@ From Item (Key): Input：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.materialreducerdataentry.数组大小.description
 
 
 /////
@@ -72,14 +72,14 @@ From Item (Key): Input：<!-- md:samp varint -->
 ////// define
 Item Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.materialreducerdataentry.item_id.description
 
 
 //////
 ////// define
 Item Count：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.materialreducerdataentry.item_count.description
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`StringBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。
+`StringBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。script_api.mojang-minecraft.stringblockproperty.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only validValues: string[];
 //// define
 `validValues`：`string[]`
 
-- 属性。
+- script_api.mojang-minecraft.stringblockproperty.validvalues.description
 
 
 ////
@@ -42,7 +42,7 @@ value: string;
 //// define
 `value`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.stringblockproperty.value.description
 
 
 ////

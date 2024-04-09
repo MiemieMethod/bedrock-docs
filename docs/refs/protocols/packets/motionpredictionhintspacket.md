@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MotionPredictionHintsPacket -->数据包，数字ID是`157`。
+<!-- md:samp MotionPredictionHintsPacket -->数据包，数字ID是`157`。该数据包用于protocol.packet.motionpredictionhintspacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 mRuntimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。Id of moving actor
+- 特殊类型。protocol.packet.motionpredictionhintspacket.mruntimeid.descriptionId of moving actor
 
 
 ////
 //// define
 mMotion：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。Position delta
+- 特殊类型。protocol.packet.motionpredictionhintspacket.mmotion.descriptionPosition delta
 
 
 ////
 //// define
 mOnGround：<!-- md:samp bool -->
 
-- 基本类型。Not falling / jumping
+- 基本类型。protocol.packet.motionpredictionhintspacket.monground.descriptionNot falling / jumping
 
 
 ////

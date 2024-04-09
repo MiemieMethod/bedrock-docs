@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Color`类。
+`Color`类。script_api.mojang-minecraft.color.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ alpha: float;
 //// define
 `alpha`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.color.alpha.description
 
 
 ////
@@ -42,7 +42,7 @@ blue: float;
 //// define
 `blue`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.color.blue.description
 
 
 ////
@@ -64,7 +64,7 @@ green: float;
 //// define
 `green`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.color.green.description
 
 
 ////
@@ -86,7 +86,7 @@ red: float;
 //// define
 `red`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.color.red.description
 
 
 ////
@@ -102,6 +102,8 @@ red: float;
 
 ///
 
+script_api.mojang-minecraft.color.constructor.description
+
 ```js
 new constructor(red: float, green: float, blue: float, alpha: float): Color
 ```
@@ -110,7 +112,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `red`：`float`
 
-- 参数1。
+- script_api.mojang-minecraft.color.red.constructor.description
 
 
 ////
@@ -118,7 +120,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `green`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.color.green.constructor.description
 
 
 ////
@@ -126,7 +128,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `blue`：`float`
 
-- 参数3。
+- script_api.mojang-minecraft.color.blue.constructor.description
 
 
 ////
@@ -134,7 +136,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `alpha`：`float`
 
-- 参数4。
+- script_api.mojang-minecraft.color.alpha.constructor.description
 
 
 ////
@@ -142,7 +144,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 返回值：[`Color`](./color.md)
 
-- 返回值。
+- script_api.mojang-minecraft.color.constructor.return
 
 
 ////

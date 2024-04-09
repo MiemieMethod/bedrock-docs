@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Scoreboard`类。
+`Scoreboard`类。script_api.@minecraft/server.scoreboard.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.scoreboard.addobjective.description
+
 ```js
 addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 ```
@@ -20,7 +22,7 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 //// define
 `objectiveId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboard.objectiveid.addobjective.description
 
 
 ////
@@ -28,7 +30,7 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 //// define
 `displayName`：`string`|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.scoreboard.displayname.addobjective.description
 
 
 ////
@@ -36,7 +38,7 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 //// define
 返回值：[`ScoreboardObjective`](./scoreboardobjective.md)
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.addobjective.return
 
 
 ////
@@ -50,6 +52,8 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 
 ///
 
+script_api.@minecraft/server.scoreboard.clearobjectiveatdisplayslot.description
+
 ```js
 clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective | undefined
 ```
@@ -58,7 +62,7 @@ clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective |
 //// define
 `displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
 
-- 参数1。
+- script_api.@minecraft/server.scoreboard.displayslotid.clearobjectiveatdisplayslot.description
 
 
 ////
@@ -66,7 +70,7 @@ clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective |
 //// define
 返回值：[`ScoreboardObjective`](./scoreboardobjective.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.clearobjectiveatdisplayslot.return
 
 
 ////
@@ -80,6 +84,8 @@ clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective |
 
 ///
 
+script_api.@minecraft/server.scoreboard.getobjective.description
+
 ```js
 getObjective(objectiveId: string): ScoreboardObjective | undefined
 ```
@@ -88,7 +94,7 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 //// define
 `objectiveId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboard.objectiveid.getobjective.description
 
 
 ////
@@ -96,7 +102,7 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 //// define
 返回值：[`ScoreboardObjective`](./scoreboardobjective.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.getobjective.return
 
 
 ////
@@ -110,6 +116,8 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 
 ///
 
+script_api.@minecraft/server.scoreboard.getobjectiveatdisplayslot.description
+
 ```js
 getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisplayOptions | undefined
 ```
@@ -118,7 +126,7 @@ getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisp
 //// define
 `displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
 
-- 参数1。
+- script_api.@minecraft/server.scoreboard.displayslotid.getobjectiveatdisplayslot.description
 
 
 ////
@@ -126,7 +134,7 @@ getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisp
 //// define
 返回值：[`ScoreboardObjectiveDisplayOptions`](./scoreboardobjectivedisplayoptions.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.getobjectiveatdisplayslot.return
 
 
 ////
@@ -140,6 +148,8 @@ getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisp
 
 ///
 
+script_api.@minecraft/server.scoreboard.getobjectives.description
+
 ```js
 getObjectives(): ScoreboardObjective[]
 ```
@@ -148,7 +158,7 @@ getObjectives(): ScoreboardObjective[]
 //// define
 返回值：<code><a href="../scoreboardobjective/">ScoreboardObjective</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.getobjectives.return
 
 
 ////
@@ -162,6 +172,8 @@ getObjectives(): ScoreboardObjective[]
 
 ///
 
+script_api.@minecraft/server.scoreboard.getparticipants.description
+
 ```js
 getParticipants(): ScoreboardIdentity[]
 ```
@@ -170,7 +182,7 @@ getParticipants(): ScoreboardIdentity[]
 //// define
 返回值：<code><a href="../scoreboardidentity/">ScoreboardIdentity</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.getparticipants.return
 
 
 ////
@@ -184,6 +196,8 @@ getParticipants(): ScoreboardIdentity[]
 
 ///
 
+script_api.@minecraft/server.scoreboard.removeobjective.description
+
 ```js
 removeObjective(objectiveId: ScoreboardObjective | string): boolean
 ```
@@ -192,7 +206,7 @@ removeObjective(objectiveId: ScoreboardObjective | string): boolean
 //// define
 `objectiveId`：[`ScoreboardObjective`](./scoreboardobjective.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.scoreboard.objectiveid.removeobjective.description
 
 
 ////
@@ -200,7 +214,7 @@ removeObjective(objectiveId: ScoreboardObjective | string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.removeobjective.return
 
 
 ////
@@ -214,6 +228,8 @@ removeObjective(objectiveId: ScoreboardObjective | string): boolean
 
 ///
 
+script_api.@minecraft/server.scoreboard.setobjectiveatdisplayslot.description
+
 ```js
 setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting: ScoreboardObjectiveDisplayOptions): ScoreboardObjective | undefined
 ```
@@ -222,7 +238,7 @@ setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting:
 //// define
 `displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
 
-- 参数1。
+- script_api.@minecraft/server.scoreboard.displayslotid.setobjectiveatdisplayslot.description
 
 
 ////
@@ -230,7 +246,7 @@ setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting:
 //// define
 `objectiveDisplaySetting`：[`ScoreboardObjectiveDisplayOptions`](./scoreboardobjectivedisplayoptions.md)
 
-- 参数2。
+- script_api.@minecraft/server.scoreboard.objectivedisplaysetting.setobjectiveatdisplayslot.description
 
 
 ////
@@ -238,7 +254,7 @@ setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting:
 //// define
 返回值：[`ScoreboardObjective`](./scoreboardobjective.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.scoreboard.setobjectiveatdisplayslot.return
 
 
 ////

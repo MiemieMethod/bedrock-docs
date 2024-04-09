@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityDieAfterEvent`类。
+`EntityDieAfterEvent`类。script_api.@minecraft/server.entitydieafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only damageSource: EntityDamageSource;
 //// define
 `damageSource`：[`EntityDamageSource`](./entitydamagesource.md)
 
-- 属性。
+- script_api.@minecraft/server.entitydieafterevent.damagesource.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only deadEntity: Entity;
 //// define
 `deadEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entitydieafterevent.deadentity.description
 
 
 ////

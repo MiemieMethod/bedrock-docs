@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GreaterThanOrEqualsComparison`接口。
+`GreaterThanOrEqualsComparison`接口。script_api.@minecraft/server.greaterthanorequalscomparison.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ greaterThanOrEquals: float;
 //// define
 `greaterThanOrEquals`：`float`
 
-- 属性。
+- script_api.@minecraft/server.greaterthanorequalscomparison.greaterthanorequals.description
 
 
 ////

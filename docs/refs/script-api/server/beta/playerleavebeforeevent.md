@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerLeaveBeforeEvent`类。
+`PlayerLeaveBeforeEvent`类。script_api.@minecraft/server.playerleavebeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerleavebeforeevent.player.description
 
 
 ////

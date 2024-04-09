@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp NpcRequestPacket -->数据包，数字ID是`98`。
+<!-- md:samp NpcRequestPacket -->数据包，数字ID是`98`。该数据包用于protocol.packet.npcrequestpacket.description
 
 ## 结构
 
@@ -48,24 +48,24 @@ rankdir = LR
 //// define
 NPC Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.npcrequestpacket.npc_runtime_id.description
 
 
 ////
 //// define
 Request Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.npcrequestpacket.request_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`SetActions`|`0`||
-  |`ExecuteAction`|`1`||
-  |`ExecuteClosingCommands`|`2`||
-  |`SetName`|`3`||
-  |`SetSkin`|`4`||
-  |`SetInteractText`|`5`||
-  |`ExecuteOpeningCommands`|`6`||
+  |`SetActions`|`0`|protocol.enum.setactions|
+  |`ExecuteAction`|`1`|protocol.enum.executeaction|
+  |`ExecuteClosingCommands`|`2`|protocol.enum.executeclosingcommands|
+  |`SetName`|`3`|protocol.enum.setname|
+  |`SetSkin`|`4`|protocol.enum.setskin|
+  |`SetInteractText`|`5`|protocol.enum.setinteracttext|
+  |`ExecuteOpeningCommands`|`6`|protocol.enum.executeopeningcommands|
 
 
 
@@ -73,21 +73,21 @@ Request Type：<!-- md:samp byte -->
 //// define
 Actions：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.npcrequestpacket.actions.description
 
 
 ////
 //// define
 Action Index：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.npcrequestpacket.action_index.description
 
 
 ////
 //// define
 Scene Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.npcrequestpacket.scene_name.description
 
 
 ////

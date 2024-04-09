@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`StructureCreateOptions`接口。
+`StructureCreateOptions`接口。script_api.@minecraft/server.structurecreateoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ includeBlocks: boolean | undefined;
 //// define
 `includeBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structurecreateoptions.includeblocks.description
 
 
 ////
@@ -42,7 +42,7 @@ includeEntities: boolean | undefined;
 //// define
 `includeEntities`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structurecreateoptions.includeentities.description
 
 
 ////
@@ -64,7 +64,7 @@ saveMode: StructureSaveMode | undefined;
 //// define
 `saveMode`：[`StructureSaveMode`](./structuresavemode.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structurecreateoptions.savemode.description
 
 
 ////

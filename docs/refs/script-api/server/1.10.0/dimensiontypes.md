@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DimensionTypes`类。
+`DimensionTypes`类。script_api.@minecraft/server.dimensiontypes.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.dimensiontypes.get.description
+
 ```js
 static get(dimensionTypeId: string): DimensionType | undefined
 ```
@@ -20,7 +22,7 @@ static get(dimensionTypeId: string): DimensionType | undefined
 //// define
 `dimensionTypeId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.dimensiontypes.dimensiontypeid.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(dimensionTypeId: string): DimensionType | undefined
 //// define
 返回值：[`DimensionType`](./dimensiontype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.dimensiontypes.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(dimensionTypeId: string): DimensionType | undefined
 
 ///
 
+script_api.@minecraft/server.dimensiontypes.getall.description
+
 ```js
 static getAll(): DimensionType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): DimensionType[]
 //// define
 返回值：<code><a href="../dimensiontype/">DimensionType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.dimensiontypes.getall.return
 
 
 ////

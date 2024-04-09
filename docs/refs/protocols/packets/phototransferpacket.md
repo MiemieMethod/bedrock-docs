@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PhotoTransferPacket -->数据包，数字ID是`99`。
+<!-- md:samp PhotoTransferPacket -->数据包，数字ID是`99`。该数据包用于protocol.packet.phototransferpacket.description
 
 ## 结构
 
@@ -56,34 +56,34 @@ rankdir = LR
 //// define
 Photo Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.phototransferpacket.photo_name.description
 
 
 ////
 //// define
 Photo Data：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.phototransferpacket.photo_data.description
 
 
 ////
 //// define
 Book ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.phototransferpacket.book_id.description
 
 
 ////
 //// define
 Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.phototransferpacket.type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Portfolio`|`0`||
-  |`PhotoItem`|`1`||
-  |`Book`|`2`||
+  |`Portfolio`|`0`|protocol.enum.portfolio|
+  |`PhotoItem`|`1`|protocol.enum.photoitem|
+  |`Book`|`2`|protocol.enum.book|
 
 
 
@@ -91,13 +91,13 @@ Type：<!-- md:samp byte -->
 //// define
 Source Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.phototransferpacket.source_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Portfolio`|`0`||
-  |`PhotoItem`|`1`||
-  |`Book`|`2`||
+  |`Portfolio`|`0`|protocol.enum.portfolio|
+  |`PhotoItem`|`1`|protocol.enum.photoitem|
+  |`Book`|`2`|protocol.enum.book|
 
 
 
@@ -105,14 +105,14 @@ Source Type：<!-- md:samp byte -->
 //// define
 Owner ID：<!-- md:samp int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.phototransferpacket.owner_id.description
 
 
 ////
 //// define
 New Photo Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.phototransferpacket.new_photo_name.description
 
 
 ////

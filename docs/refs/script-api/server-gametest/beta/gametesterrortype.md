@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameTestErrorType`枚举。
+`GameTestErrorType`枚举。script_api.@minecraft/server-gametest.gametesterrortype.description
 
 ## 常量
 

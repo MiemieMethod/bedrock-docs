@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp StopSoundPacket -->数据包，数字ID是`87`。
+<!-- md:samp StopSoundPacket -->数据包，数字ID是`87`。该数据包用于protocol.packet.stopsoundpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Sound Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.stopsoundpacket.sound_name.description
 
 
 ////
 //// define
 Stop All Sounds?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.stopsoundpacket.stop_all_sounds.description
 
 
 ////

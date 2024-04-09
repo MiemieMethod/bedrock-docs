@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityDefinitionFeedItem`类。
+`EntityDefinitionFeedItem`类。script_api.@minecraft/server.entitydefinitionfeeditem.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only growth: float;
 //// define
 `growth`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entitydefinitionfeeditem.growth.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only item: string;
 //// define
 `item`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entitydefinitionfeeditem.item.description
 
 
 ////

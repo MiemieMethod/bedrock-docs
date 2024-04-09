@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/worldbuilder`命令Toggle World Builder status of caller.
+`/worldbuilder`命令command.worldbuilder.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -20,6 +20,8 @@
 ```
 
 //// html | div.result
+command.worldbuilder.1.description
+
 ///// define
 
 /////

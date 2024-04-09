@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemReleaseUseAfterEventSignal`类。
+`ItemReleaseUseAfterEventSignal`类。script_api.@minecraft/server.itemreleaseuseaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.itemreleaseuseaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ItemReleaseUseAfterEvent) => void): (arg: ItemReleaseUseAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ItemReleaseUseAfterEvent) => void): (arg: ItemReleaseU
 //// define
 `callback`：<code>(<a href="../itemreleaseuseafterevent/">ItemReleaseUseAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.itemreleaseuseaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ItemReleaseUseAfterEvent) => void): (arg: ItemReleaseU
 //// define
 返回值：<code>(<a href="../itemreleaseuseafterevent/">ItemReleaseUseAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.itemreleaseuseaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ItemReleaseUseAfterEvent) => void): (arg: ItemReleaseU
 
 ///
 
+script_api.@minecraft/server.itemreleaseuseaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ItemReleaseUseAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ItemReleaseUseAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemreleaseuseafterevent/">ItemReleaseUseAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.itemreleaseuseaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ItemReleaseUseAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemreleaseuseaftereventsignal.unsubscribe.return
 
 
 ////

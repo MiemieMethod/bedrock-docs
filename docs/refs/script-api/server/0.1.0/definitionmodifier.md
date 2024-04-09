@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DefinitionModifier`类。
+`DefinitionModifier`类。script_api.mojang-minecraft.definitionmodifier.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only componentGroupsToAdd: string[];
 //// define
 `componentGroupsToAdd`：`string[]`
 
-- 属性。
+- script_api.mojang-minecraft.definitionmodifier.componentgroupstoadd.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only componentGroupsToRemove: string[];
 //// define
 `componentGroupsToRemove`：`string[]`
 
-- 属性。
+- script_api.mojang-minecraft.definitionmodifier.componentgroupstoremove.description
 
 
 ////
@@ -64,7 +64,7 @@ triggers: Trigger[];
 //// define
 `triggers`：<code><a href="../trigger/">Trigger</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.definitionmodifier.triggers.description
 
 
 ////
@@ -80,6 +80,8 @@ triggers: Trigger[];
 
 ///
 
+script_api.mojang-minecraft.definitionmodifier.constructor.description
+
 ```js
 new constructor(): DefinitionModifier
 ```
@@ -88,7 +90,7 @@ new constructor(): DefinitionModifier
 //// define
 返回值：[`DefinitionModifier`](./definitionmodifier.md)
 
-- 返回值。
+- script_api.mojang-minecraft.definitionmodifier.constructor.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`HttpClient`类。
+`HttpClient`类。script_api.@minecraft/server-net.httpclient.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-net.httpclient.cancelall.description
+
 ```js
 cancelAll(reason: string): void
 ```
@@ -20,7 +22,7 @@ cancelAll(reason: string): void
 //// define
 `reason`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-net.httpclient.reason.cancelall.description
 
 
 ////
@@ -28,7 +30,7 @@ cancelAll(reason: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-net.httpclient.cancelall.return
 
 
 ////
@@ -42,6 +44,8 @@ cancelAll(reason: string): void
 
 ///
 
+script_api.@minecraft/server-net.httpclient.get.description
+
 ```js
 get(uri: string): Promise<HttpResponse>
 ```
@@ -50,7 +54,7 @@ get(uri: string): Promise<HttpResponse>
 //// define
 `uri`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-net.httpclient.uri.get.description
 
 
 ////
@@ -58,7 +62,7 @@ get(uri: string): Promise<HttpResponse>
 //// define
 返回值：<code>Promise&lt;<a href="../httpresponse/">HttpResponse</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server-net.httpclient.get.return
 
 
 ////
@@ -72,6 +76,8 @@ get(uri: string): Promise<HttpResponse>
 
 ///
 
+script_api.@minecraft/server-net.httpclient.request.description
+
 ```js
 request(config: HttpRequest): Promise<HttpResponse>
 ```
@@ -80,7 +86,7 @@ request(config: HttpRequest): Promise<HttpResponse>
 //// define
 `config`：[`HttpRequest`](./httprequest.md)
 
-- 参数1。
+- script_api.@minecraft/server-net.httpclient.config.request.description
 
 
 ////
@@ -88,7 +94,7 @@ request(config: HttpRequest): Promise<HttpResponse>
 //// define
 返回值：<code>Promise&lt;<a href="../httpresponse/">HttpResponse</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server-net.httpclient.request.return
 
 
 ////

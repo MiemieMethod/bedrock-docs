@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemFoodComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。
+`ItemFoodComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.mojang-minecraft.itemfoodcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only canAlwaysEat: boolean;
 //// define
 `canAlwaysEat`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.itemfoodcomponent.canalwayseat.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only nutrition: int32;
 //// define
 `nutrition`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.itemfoodcomponent.nutrition.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only saturationModifier: float;
 //// define
 `saturationModifier`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.itemfoodcomponent.saturationmodifier.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only usingConvertsTo: string;
 //// define
 `usingConvertsTo`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.itemfoodcomponent.usingconvertsto.description
 
 
 ////

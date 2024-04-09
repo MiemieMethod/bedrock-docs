@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityComponent`类，扩展自[`Component`](./component.md)。
+`EntityComponent`类，扩展自[`Component`](./component.md)。script_api.@minecraft/server.entitycomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entitycomponent.entity.description
 
 
 ////

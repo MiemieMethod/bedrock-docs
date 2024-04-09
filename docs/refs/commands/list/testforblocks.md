@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/testforblocks`命令Tests whether the blocks in two regions match.
+`/testforblocks`命令command.testforblocks.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,27 +16,29 @@
 ```
 
 //// html | div.result
+command.testforblocks.1.description
+
 ///// define
 `begin`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.testforblocks.begin.description
 
 `end`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.testforblocks.end.description
 
 `destination`：<!-- md:samp x y z -->
 
-- 基本类型。
+- 基本类型。command.testforblocks.destination.description
 
 `mode`：<!-- md:samp TestForBlocksMode -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型，可选。command.enum.testforblocksmode.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`masked`||
-  |`all`||
+  |`masked`|command.enum.testforblocksmode.masked|
+  |`all`|command.enum.testforblocksmode.all|
 
 
 

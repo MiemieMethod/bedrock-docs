@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerBreakBlockAfterEventSignal`类。
+`PlayerBreakBlockAfterEventSignal`类。script_api.@minecraft/server.playerbreakblockaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerbreakblockaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEventOptions): (arg: PlayerBreakBlockAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEv
 //// define
 `callback`：<code>(<a href="../playerbreakblockafterevent/">PlayerBreakBlockAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerbreakblockaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEv
 //// define
 `options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.playerbreakblockaftereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEv
 //// define
 返回值：<code>(<a href="../playerbreakblockafterevent/">PlayerBreakBlockAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerbreakblockaftereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEv
 
 ///
 
+script_api.@minecraft/server.playerbreakblockaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerbreakblockafterevent/">PlayerBreakBlockAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerbreakblockaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerbreakblockaftereventsignal.unsubscribe.return
 
 
 ////

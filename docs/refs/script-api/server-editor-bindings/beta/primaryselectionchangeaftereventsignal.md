@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PrimarySelectionChangeAfterEventSignal`类。
+`PrimarySelectionChangeAfterEventSignal`类。script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: SelectionEventAfterEvent) => void): (arg: SelectionEventAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: SelectionEventAfterEvent) => void): (arg: SelectionEve
 //// define
 `callback`：<code>(<a href="../selectioneventafterevent/">SelectionEventAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: SelectionEventAfterEvent) => void): (arg: SelectionEve
 //// define
 返回值：<code>(<a href="../selectioneventafterevent/">SelectionEventAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: SelectionEventAfterEvent) => void): (arg: SelectionEve
 
 ///
 
+script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: SelectionEventAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: SelectionEventAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../selectioneventafterevent/">SelectionEventAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: SelectionEventAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.unsubscribe.return
 
 
 ////

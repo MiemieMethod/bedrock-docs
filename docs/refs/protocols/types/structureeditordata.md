@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp StructureEditorData -->类型。
+<!-- md:samp StructureEditorData -->类型。该类型用于protocol.type.structureeditordata.description
 
 ## 结构
 
@@ -56,45 +56,45 @@ rankdir = LR
 //// define
 Structure Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.structureeditordata.structure_name.description
 
 
 ////
 //// define
 Data Field：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Used for structure blocks in data mode.
+- 特殊类型。protocol.type.structureeditordata.data_field.descriptionUsed for structure blocks in data mode.
 
 
 ////
 //// define
 Should players be included?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.structureeditordata.should_players_be_included.description
 
 
 ////
 //// define
 Should show bounding box?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.structureeditordata.should_show_bounding_box.description
 
 
 ////
 //// define
 Structure Block Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.structureeditordata.structure_block_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Data`|`0`||
-  |`Save`|`1`||
-  |`Load`|`2`||
-  |`Corner`|`3`||
-  |`Invalid`|`4`||
-  |`Export`|`5`||
-  |`_count`|`6`||
+  |`Data`|`0`|protocol.enum.data|
+  |`Save`|`1`|protocol.enum.save|
+  |`Load`|`2`|protocol.enum.load|
+  |`Corner`|`3`|protocol.enum.corner|
+  |`Invalid`|`4`|protocol.enum.invalid|
+  |`Export`|`5`|protocol.enum.export|
+  |`_count`|`6`|protocol.enum._count|
 
 
 
@@ -102,19 +102,19 @@ Structure Block Type：<!-- md:samp varint -->
 //// define
 Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresettings.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.structureeditordata.structure_settings.description
 
 
 ////
 //// define
 Redstone Save Mode：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.structureeditordata.redstone_save_mode.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`SavesToMemory`|`0`||
-  |`SavesToDisk`|`1`||
+  |`SavesToMemory`|`0`|protocol.enum.savestomemory|
+  |`SavesToDisk`|`1`|protocol.enum.savestodisk|
 
 
 

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateClientInputLocksPacket -->数据包，数字ID是`196`。
+<!-- md:samp UpdateClientInputLocksPacket -->数据包，数字ID是`196`。该数据包用于protocol.packet.updateclientinputlockspacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Input Lock ComponentData：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateclientinputlockspacket.input_lock_componentdata.description
 
 
 ////
 //// define
 Server Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateclientinputlockspacket.server_pos.description
 
 
 ////

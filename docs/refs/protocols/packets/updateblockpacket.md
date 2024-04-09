@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateBlockPacket -->数据包，数字ID是`21`。
+<!-- md:samp UpdateBlockPacket -->数据包，数字ID是`21`。该数据包用于protocol.packet.updateblockpacket.description
 
 ## 结构
 
@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateblockpacket.block_position.description
 
 
 ////
 //// define
 Block Runtime ID：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateblockpacket.block_runtime_id.description
 
 
 ////
 //// define
 Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateblockpacket.flags.description
 
 
 ////
 //// define
 Layer：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateblockpacket.layer.description
 
 
 ////

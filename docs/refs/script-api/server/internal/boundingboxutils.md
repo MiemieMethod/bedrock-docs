@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BoundingBoxUtils`类。
+`BoundingBoxUtils`类。script_api.@minecraft/server.boundingboxutils.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.createvalid.description
+
 ```js
 static createValid(min: Vector3, max: Vector3): BoundingBox
 ```
@@ -20,7 +22,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 //// define
 `min`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.min.createvalid.description
 
 
 ////
@@ -28,7 +30,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 //// define
 `max`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.max.createvalid.description
 
 
 ////
@@ -36,7 +38,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 //// define
 返回值：[`BoundingBox`](./boundingbox.md)
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.createvalid.return
 
 
 ////
@@ -50,6 +52,8 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.dilate.description
+
 ```js
 static dilate(box: BoundingBox, size: Vector3): BoundingBox
 ```
@@ -58,7 +62,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.dilate.description
 
 
 ////
@@ -66,7 +70,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 //// define
 `size`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.size.dilate.description
 
 
 ////
@@ -74,7 +78,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 //// define
 返回值：[`BoundingBox`](./boundingbox.md)
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.dilate.return
 
 
 ////
@@ -88,6 +92,8 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.equals.description
+
 ```js
 static equals(box: BoundingBox, other: BoundingBox): boolean
 ```
@@ -96,7 +102,7 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.equals.description
 
 
 ////
@@ -104,7 +110,7 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.other.equals.description
 
 
 ////
@@ -112,7 +118,7 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.equals.return
 
 
 ////
@@ -126,6 +132,8 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.expand.description
+
 ```js
 static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 ```
@@ -134,7 +142,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.expand.description
 
 
 ////
@@ -142,7 +150,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.other.expand.description
 
 
 ////
@@ -150,7 +158,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 //// define
 返回值：[`BoundingBox`](./boundingbox.md)
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.expand.return
 
 
 ////
@@ -164,6 +172,8 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.getcenter.description
+
 ```js
 static getCenter(box: BoundingBox): Vector3
 ```
@@ -172,7 +182,7 @@ static getCenter(box: BoundingBox): Vector3
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.getcenter.description
 
 
 ////
@@ -180,7 +190,7 @@ static getCenter(box: BoundingBox): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.getcenter.return
 
 
 ////
@@ -194,6 +204,8 @@ static getCenter(box: BoundingBox): Vector3
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.getintersection.description
+
 ```js
 static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | undefined
 ```
@@ -202,7 +214,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.getintersection.description
 
 
 ////
@@ -210,7 +222,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.other.getintersection.description
 
 
 ////
@@ -218,7 +230,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 //// define
 返回值：[`BoundingBox`](./boundingbox.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.getintersection.return
 
 
 ////
@@ -232,6 +244,8 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.getspan.description
+
 ```js
 static getSpan(box: BoundingBox): Vector3
 ```
@@ -240,7 +254,7 @@ static getSpan(box: BoundingBox): Vector3
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.getspan.description
 
 
 ////
@@ -248,7 +262,7 @@ static getSpan(box: BoundingBox): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.getspan.return
 
 
 ////
@@ -262,6 +276,8 @@ static getSpan(box: BoundingBox): Vector3
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.intersects.description
+
 ```js
 static intersects(box: BoundingBox, other: BoundingBox): boolean
 ```
@@ -270,7 +286,7 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.intersects.description
 
 
 ////
@@ -278,7 +294,7 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.other.intersects.description
 
 
 ////
@@ -286,7 +302,7 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.intersects.return
 
 
 ////
@@ -300,6 +316,8 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.isinside.description
+
 ```js
 static isInside(box: BoundingBox, pos: Vector3): boolean
 ```
@@ -308,7 +326,7 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.isinside.description
 
 
 ////
@@ -316,7 +334,7 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 //// define
 `pos`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.pos.isinside.description
 
 
 ////
@@ -324,7 +342,7 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.isinside.return
 
 
 ////
@@ -338,6 +356,8 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.isvalid.description
+
 ```js
 static isValid(box: BoundingBox): boolean
 ```
@@ -346,7 +366,7 @@ static isValid(box: BoundingBox): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.isvalid.description
 
 
 ////
@@ -354,7 +374,7 @@ static isValid(box: BoundingBox): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.isvalid.return
 
 
 ////
@@ -368,6 +388,8 @@ static isValid(box: BoundingBox): boolean
 
 ///
 
+script_api.@minecraft/server.boundingboxutils.translate.description
+
 ```js
 static translate(box: BoundingBox, delta: Vector3): BoundingBox
 ```
@@ -376,7 +398,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- 参数1。
+- script_api.@minecraft/server.boundingboxutils.box.translate.description
 
 
 ////
@@ -384,7 +406,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 //// define
 `delta`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.boundingboxutils.delta.translate.description
 
 
 ////
@@ -392,7 +414,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 //// define
 返回值：[`BoundingBox`](./boundingbox.md)
 
-- 返回值。
+- script_api.@minecraft/server.boundingboxutils.translate.return
 
 
 ////

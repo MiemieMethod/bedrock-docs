@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/kill`命令Kills entities (players, mobs, etc.).
+`/kill`命令command.kill.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,10 +16,12 @@
 ```
 
 //// html | div.result
+command.kill.1.description
+
 ///// define
 `target`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型，可选。command.kill.target.description
 
 
 /////

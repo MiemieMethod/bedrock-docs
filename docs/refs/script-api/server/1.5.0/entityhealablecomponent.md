@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHealableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityHealableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityhealablecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only forceUse: boolean;
 //// define
 `forceUse`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entityhealablecomponent.forceuse.description
 
 
 ////
@@ -49,6 +49,8 @@ read-only forceUse: boolean;
 
 ///
 
+script_api.@minecraft/server.entityhealablecomponent.getfeeditems.description
+
 ```js
 getFeedItems(): FeedItem[]
 ```
@@ -57,7 +59,7 @@ getFeedItems(): FeedItem[]
 //// define
 返回值：<code><a href="../feeditem/">FeedItem</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityhealablecomponent.getfeeditems.return
 
 
 ////

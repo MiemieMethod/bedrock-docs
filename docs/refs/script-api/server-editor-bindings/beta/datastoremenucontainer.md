@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataStoreMenuContainer`类。
+`DataStoreMenuContainer`类。script_api.@minecraft/server-editor-bindings.datastoremenucontainer.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoremenucontainer.createitem.description
+
 ```js
 createItem(id: string, payload: string): void
 ```
@@ -20,7 +22,7 @@ createItem(id: string, payload: string): void
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.createitem.description
 
 
 ////
@@ -28,7 +30,7 @@ createItem(id: string, payload: string): void
 //// define
 `payload`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.payload.createitem.description
 
 
 ////
@@ -36,7 +38,7 @@ createItem(id: string, payload: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.createitem.return
 
 
 ////
@@ -50,6 +52,8 @@ createItem(id: string, payload: string): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoremenucontainer.destroyitem.description
+
 ```js
 destroyItem(id: string): void
 ```
@@ -58,7 +62,7 @@ destroyItem(id: string): void
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.destroyitem.description
 
 
 ////
@@ -66,7 +70,7 @@ destroyItem(id: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.destroyitem.return
 
 
 ////
@@ -80,6 +84,8 @@ destroyItem(id: string): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoremenucontainer.getpayload.description
+
 ```js
 getPayload(id: string): string
 ```
@@ -88,7 +94,7 @@ getPayload(id: string): string
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.getpayload.description
 
 
 ////
@@ -96,7 +102,7 @@ getPayload(id: string): string
 //// define
 返回值：`string`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.getpayload.return
 
 
 ////
@@ -110,6 +116,8 @@ getPayload(id: string): string
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoremenucontainer.getproperty.description
+
 ```js
 getProperty(id: string, property: string): boolean | float | string | undefined
 ```
@@ -118,7 +126,7 @@ getProperty(id: string, property: string): boolean | float | string | undefined
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.getproperty.description
 
 
 ////
@@ -126,7 +134,7 @@ getProperty(id: string, property: string): boolean | float | string | undefined
 //// define
 `property`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.property.getproperty.description
 
 
 ////
@@ -134,7 +142,7 @@ getProperty(id: string, property: string): boolean | float | string | undefined
 //// define
 返回值：`boolean`|`float`|`string`|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.getproperty.return
 
 
 ////
@@ -148,6 +156,8 @@ getProperty(id: string, property: string): boolean | float | string | undefined
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoremenucontainer.haspayload.description
+
 ```js
 hasPayload(id: string): boolean
 ```
@@ -156,7 +166,7 @@ hasPayload(id: string): boolean
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.haspayload.description
 
 
 ////
@@ -164,7 +174,7 @@ hasPayload(id: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.haspayload.return
 
 
 ////
@@ -178,6 +188,8 @@ hasPayload(id: string): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoremenucontainer.hasproperty.description
+
 ```js
 hasProperty(id: string, property: string): boolean
 ```
@@ -186,7 +198,7 @@ hasProperty(id: string, property: string): boolean
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.hasproperty.description
 
 
 ////
@@ -194,7 +206,7 @@ hasProperty(id: string, property: string): boolean
 //// define
 `property`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.property.hasproperty.description
 
 
 ////
@@ -202,7 +214,7 @@ hasProperty(id: string, property: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.hasproperty.return
 
 
 ////
@@ -216,6 +228,8 @@ hasProperty(id: string, property: string): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.datastoremenucontainer.updateitem.description
+
 ```js
 updateItem(id: string, payload: string): void
 ```
@@ -224,7 +238,7 @@ updateItem(id: string, payload: string): void
 //// define
 `id`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.updateitem.description
 
 
 ////
@@ -232,7 +246,7 @@ updateItem(id: string, payload: string): void
 //// define
 `payload`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.payload.updateitem.description
 
 
 ////
@@ -240,7 +254,7 @@ updateItem(id: string, payload: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.updateitem.return
 
 
 ////

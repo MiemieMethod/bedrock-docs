@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DynamicPropertiesDefinition`类。
+`DynamicPropertiesDefinition`类。script_api.mojang-minecraft.dynamicpropertiesdefinition.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.dynamicpropertiesdefinition.constructor.description
+
 ```js
 new constructor(): DynamicPropertiesDefinition
 ```
@@ -20,7 +22,7 @@ new constructor(): DynamicPropertiesDefinition
 //// define
 返回值：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.constructor.return
 
 
 ////
@@ -34,6 +36,8 @@ new constructor(): DynamicPropertiesDefinition
 
 ///
 
+script_api.mojang-minecraft.dynamicpropertiesdefinition.defineboolean.description
+
 ```js
 defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefinition
 ```
@@ -42,7 +46,7 @@ defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefi
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.identifier.defineboolean.description
 
 
 ////
@@ -50,7 +54,7 @@ defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefi
 //// define
 `defaultValue`：`boolean`|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.defaultvalue.defineboolean.description
 
 
 ////
@@ -58,7 +62,7 @@ defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefi
 //// define
 返回值：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.defineboolean.return
 
 
 ////
@@ -72,6 +76,8 @@ defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefi
 
 ///
 
+script_api.mojang-minecraft.dynamicpropertiesdefinition.definenumber.description
+
 ```js
 defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinition
 ```
@@ -80,7 +86,7 @@ defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinit
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.identifier.definenumber.description
 
 
 ////
@@ -88,7 +94,7 @@ defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinit
 //// define
 `defaultValue`：`float`|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.defaultvalue.definenumber.description
 
 
 ////
@@ -96,7 +102,7 @@ defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinit
 //// define
 返回值：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.definenumber.return
 
 
 ////
@@ -110,6 +116,8 @@ defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinit
 
 ///
 
+script_api.mojang-minecraft.dynamicpropertiesdefinition.definestring.description
+
 ```js
 defineString(identifier: string, maxLength: uint32, defaultValue?: string): DynamicPropertiesDefinition
 ```
@@ -118,7 +126,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.identifier.definestring.description
 
 
 ////
@@ -126,7 +134,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 //// define
 `maxLength`：`uint32`
 
-- 参数2。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.maxlength.definestring.description
 
 
 ////
@@ -134,7 +142,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 //// define
 `defaultValue`：`string`|`undefined`
 
-- 参数3。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.defaultvalue.definestring.description
 
 
 ////
@@ -142,7 +150,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 //// define
 返回值：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- 返回值。
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.definestring.return
 
 
 ////

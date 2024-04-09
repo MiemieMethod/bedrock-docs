@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInteractWithEntityBeforeEvent`类。
+`PlayerInteractWithEntityBeforeEvent`类。script_api.@minecraft/server.playerinteractwithentitybeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithentitybeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithentitybeforeevent.itemstack.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithentitybeforeevent.player.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only target: Entity;
 //// define
 `target`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinteractwithentitybeforeevent.target.description
 
 
 ////

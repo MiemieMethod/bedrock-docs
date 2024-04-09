@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Seat`类。
+`Seat`类。script_api.@minecraft/server.seat.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only lockRiderRotation: float;
 //// define
 `lockRiderRotation`：`float`
 
-- 属性。
+- script_api.@minecraft/server.seat.lockriderrotation.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only maxRiderCount: int32;
 //// define
 `maxRiderCount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.seat.maxridercount.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only minRiderCount: int32;
 //// define
 `minRiderCount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.seat.minridercount.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only position: Vector3;
 //// define
 `position`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.seat.position.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only seatRotation: float;
 //// define
 `seatRotation`：`float`
 
-- 属性。
+- script_api.@minecraft/server.seat.seatrotation.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataStoreAfterEvents`类。
+`DataStoreAfterEvents`类。script_api.@minecraft/server-editor-bindings.datastoreafterevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only payloadReceived: DataStorePayloadAfterEventSignal;
 //// define
 `payloadReceived`：[`DataStorePayloadAfterEventSignal`](./datastorepayloadaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.datastoreafterevents.payloadreceived.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerActionPacket -->数据包，数字ID是`36`。
+<!-- md:samp PlayerActionPacket -->数据包，数字ID是`36`。该数据包用于protocol.packet.playeractionpacket.description
 
 ## 结构
 
@@ -48,56 +48,56 @@ rankdir = LR
 //// define
 Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playeractionpacket.player_runtime_id.description
 
 
 ////
 //// define
 Action：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playeractionpacket.action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Unknown`|`-1`||
-  |`StartDestroyBlock`|`0`||
-  |`AbortDestroyBlock`|`1`||
-  |`StopDestroyBlock`|`2`||
-  |`GetUpdatedBlock`|`3`||
-  |`DropItem`|`4`||
-  |`StartSleeping`|`5`||
-  |`StopSleeping`|`6`||
-  |`Respawn`|`7`||
-  |`StartJump`|`8`||
-  |`StartSprinting`|`9`||
-  |`StopSprinting`|`10`||
-  |`StartSneaking`|`11`||
-  |`StopSneaking`|`12`||
-  |`CreativeDestroyBlock`|`13`||
-  |`ChangeDimensionAck`|`14`||
-  |`StartGliding`|`15`||
-  |`StopGliding`|`16`||
-  |`DenyDestroyBlock`|`17`||
-  |`CrackBlock`|`18`||
-  |`ChangeSkin`|`19`||
-  |`DEPRECATED_UpdatedEnchantingSeed`|`20`||
-  |`StartSwimming`|`21`||
-  |`StopSwimming`|`22`||
-  |`StartSpinAttack`|`23`||
-  |`StopSpinAttack`|`24`||
-  |`InteractWithBlock`|`25`||
-  |`PredictDestroyBlock`|`26`||
-  |`ContinueDestroyBlock`|`27`||
-  |`StartItemUseOn`|`28`||
-  |`StopItemUseOn`|`29`||
-  |`HandledTeleport`|`30`||
-  |`MissedSwing`|`31`||
-  |`StartCrawling`|`32`||
-  |`StopCrawling`|`33`||
-  |`StartFlying`|`34`||
-  |`StopFlying`|`35`||
-  |`ClientAckServerData`|`36`||
-  |`Count`|`37`||
+  |`Unknown`|`-1`|protocol.enum.unknown|
+  |`StartDestroyBlock`|`0`|protocol.enum.startdestroyblock|
+  |`AbortDestroyBlock`|`1`|protocol.enum.abortdestroyblock|
+  |`StopDestroyBlock`|`2`|protocol.enum.stopdestroyblock|
+  |`GetUpdatedBlock`|`3`|protocol.enum.getupdatedblock|
+  |`DropItem`|`4`|protocol.enum.dropitem|
+  |`StartSleeping`|`5`|protocol.enum.startsleeping|
+  |`StopSleeping`|`6`|protocol.enum.stopsleeping|
+  |`Respawn`|`7`|protocol.enum.respawn|
+  |`StartJump`|`8`|protocol.enum.startjump|
+  |`StartSprinting`|`9`|protocol.enum.startsprinting|
+  |`StopSprinting`|`10`|protocol.enum.stopsprinting|
+  |`StartSneaking`|`11`|protocol.enum.startsneaking|
+  |`StopSneaking`|`12`|protocol.enum.stopsneaking|
+  |`CreativeDestroyBlock`|`13`|protocol.enum.creativedestroyblock|
+  |`ChangeDimensionAck`|`14`|protocol.enum.changedimensionack|
+  |`StartGliding`|`15`|protocol.enum.startgliding|
+  |`StopGliding`|`16`|protocol.enum.stopgliding|
+  |`DenyDestroyBlock`|`17`|protocol.enum.denydestroyblock|
+  |`CrackBlock`|`18`|protocol.enum.crackblock|
+  |`ChangeSkin`|`19`|protocol.enum.changeskin|
+  |`DEPRECATED_UpdatedEnchantingSeed`|`20`|protocol.enum.deprecated_updatedenchantingseed|
+  |`StartSwimming`|`21`|protocol.enum.startswimming|
+  |`StopSwimming`|`22`|protocol.enum.stopswimming|
+  |`StartSpinAttack`|`23`|protocol.enum.startspinattack|
+  |`StopSpinAttack`|`24`|protocol.enum.stopspinattack|
+  |`InteractWithBlock`|`25`|protocol.enum.interactwithblock|
+  |`PredictDestroyBlock`|`26`|protocol.enum.predictdestroyblock|
+  |`ContinueDestroyBlock`|`27`|protocol.enum.continuedestroyblock|
+  |`StartItemUseOn`|`28`|protocol.enum.startitemuseon|
+  |`StopItemUseOn`|`29`|protocol.enum.stopitemuseon|
+  |`HandledTeleport`|`30`|protocol.enum.handledteleport|
+  |`MissedSwing`|`31`|protocol.enum.missedswing|
+  |`StartCrawling`|`32`|protocol.enum.startcrawling|
+  |`StopCrawling`|`33`|protocol.enum.stopcrawling|
+  |`StartFlying`|`34`|protocol.enum.startflying|
+  |`StopFlying`|`35`|protocol.enum.stopflying|
+  |`ClientAckServerData`|`36`|protocol.enum.clientackserverdata|
+  |`Count`|`37`|protocol.enum.count|
 
 
 
@@ -105,21 +105,21 @@ Action：<!-- md:samp varint -->
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playeractionpacket.block_position.description
 
 
 ////
 //// define
 Result Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playeractionpacket.result_pos.description
 
 
 ////
 //// define
 Face：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playeractionpacket.face.description
 
 
 ////

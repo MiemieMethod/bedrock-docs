@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockWaterContainerComponent`类，扩展自[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)。
+`BlockWaterContainerComponent`类，扩展自[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)。script_api.@minecraft/server.blockwatercontainercomponent.description
 
 ## 常量
 
@@ -25,6 +25,8 @@ static read-only componentId = "minecraft:waterContainer";
 
 ///
 
+script_api.@minecraft/server.blockwatercontainercomponent.adddye.description
+
 ```js
 addDye(itemType: ItemType): void
 ```
@@ -33,7 +35,7 @@ addDye(itemType: ItemType): void
 //// define
 `itemType`：[`ItemType`](./itemtype.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockwatercontainercomponent.itemtype.adddye.description
 
 
 ////
@@ -41,7 +43,7 @@ addDye(itemType: ItemType): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blockwatercontainercomponent.adddye.return
 
 
 ////
@@ -55,6 +57,8 @@ addDye(itemType: ItemType): void
 
 ///
 
+script_api.@minecraft/server.blockwatercontainercomponent.getcustomcolor.description
+
 ```js
 getCustomColor(): RGBA
 ```
@@ -63,7 +67,7 @@ getCustomColor(): RGBA
 //// define
 返回值：[`RGBA`](./rgba.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockwatercontainercomponent.getcustomcolor.return
 
 
 ////
@@ -77,6 +81,8 @@ getCustomColor(): RGBA
 
 ///
 
+script_api.@minecraft/server.blockwatercontainercomponent.setcustomcolor.description
+
 ```js
 setCustomColor(color: RGBA): void
 ```
@@ -85,7 +91,7 @@ setCustomColor(color: RGBA): void
 //// define
 `color`：[`RGBA`](./rgba.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockwatercontainercomponent.color.setcustomcolor.description
 
 
 ////
@@ -93,7 +99,7 @@ setCustomColor(color: RGBA): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blockwatercontainercomponent.setcustomcolor.return
 
 
 ////

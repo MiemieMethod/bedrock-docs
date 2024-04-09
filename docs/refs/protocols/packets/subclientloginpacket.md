@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SubClientLoginPacket -->数据包，数字ID是`94`。
+<!-- md:samp SubClientLoginPacket -->数据包，数字ID是`94`。该数据包用于protocol.packet.subclientloginpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Sub Client Connection Request：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。see @subClientConnectionRequest.html#diagram@
+- 特殊类型。protocol.packet.subclientloginpacket.sub_client_connection_request.descriptionsee @subClientConnectionRequest.html#diagram@
 
 
 ////

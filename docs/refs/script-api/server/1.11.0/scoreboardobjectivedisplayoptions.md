@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScoreboardObjectiveDisplayOptions`接口。
+`ScoreboardObjectiveDisplayOptions`接口。script_api.@minecraft/server.scoreboardobjectivedisplayoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ objective: ScoreboardObjective;
 //// define
 `objective`：[`ScoreboardObjective`](./scoreboardobjective.md)
 
-- 属性。
+- script_api.@minecraft/server.scoreboardobjectivedisplayoptions.objective.description
 
 
 ////
@@ -42,7 +42,7 @@ sortOrder: ObjectiveSortOrder | undefined;
 //// define
 `sortOrder`：[`ObjectiveSortOrder`](./objectivesortorder.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.scoreboardobjectivedisplayoptions.sortorder.description
 
 
 ////

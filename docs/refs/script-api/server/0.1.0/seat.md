@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Seat`类。
+`Seat`类。script_api.mojang-minecraft.seat.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only lockRiderRotation: float;
 //// define
 `lockRiderRotation`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.seat.lockriderrotation.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only maxRiderCount: int32;
 //// define
 `maxRiderCount`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.seat.maxridercount.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only minRiderCount: int32;
 //// define
 `minRiderCount`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.seat.minridercount.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only position: Location;
 //// define
 `position`：[`Location`](./location.md)
 
-- 属性。
+- script_api.mojang-minecraft.seat.position.description
 
 
 ////

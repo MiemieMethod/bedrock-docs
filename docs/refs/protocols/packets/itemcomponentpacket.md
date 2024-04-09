@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemComponentPacket -->数据包，数字ID是`162`。
+<!-- md:samp ItemComponentPacket -->数据包，数字ID是`162`。该数据包用于protocol.packet.itemcomponentpacket.description
 
 ## 结构
 
@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.itemcomponentpacket.数组大小.description
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 ComponentItem name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.itemcomponentpacket.componentitem_name.description
 
 
 //////
 ////// define
 Component data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。Compound tag members - item'name': string, item'id': short, itemcomponents: {[componentkey:string]: { ...component definition here... } } }
+- 特殊类型。protocol.packet.itemcomponentpacket.component_data.descriptionCompound tag members - item'name': string, item'id': short, itemcomponents: {[componentkey:string]: { ...component definition here... } } }
 
 
 //////

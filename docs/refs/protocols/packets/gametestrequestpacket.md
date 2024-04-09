@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp GameTestRequestPacket -->数据包，数字ID是`194`。
+<!-- md:samp GameTestRequestPacket -->数据包，数字ID是`194`。该数据包用于protocol.packet.gametestrequestpacket.description
 
 ## 结构
 
@@ -56,29 +56,29 @@ rankdir = LR
 //// define
 MaxTestsPerBatch：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.gametestrequestpacket.maxtestsperbatch.description
 
 
 ////
 //// define
 RepeatCount：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.gametestrequestpacket.repeatcount.description
 
 
 ////
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.gametestrequestpacket.rotation.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Rotate90`|`1`||
-  |`Rotate180`|`2`||
-  |`Rotate270`|`3`||
-  |`Total`|`4`||
+  |`None`|`0`|无|
+  |`Rotate90`|`1`|protocol.enum.rotate90|
+  |`Rotate180`|`2`|protocol.enum.rotate180|
+  |`Rotate270`|`3`|protocol.enum.rotate270|
+  |`Total`|`4`|protocol.enum.total|
 
 
 
@@ -86,28 +86,28 @@ Rotation：<!-- md:samp byte -->
 //// define
 StopOnFailure：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.gametestrequestpacket.stoponfailure.description
 
 
 ////
 //// define
 TestPos：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.gametestrequestpacket.testpos.description
 
 
 ////
 //// define
 TestsPerRow：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.gametestrequestpacket.testsperrow.description
 
 
 ////
 //// define
 TestName：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.gametestrequestpacket.testname.description
 
 
 ////

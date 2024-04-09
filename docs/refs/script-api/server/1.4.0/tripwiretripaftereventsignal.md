@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TripWireTripAfterEventSignal`类。
+`TripWireTripAfterEventSignal`类。script_api.@minecraft/server.tripwiretripaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.tripwiretripaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: TripWireTripAfterEvent) => void): (arg: TripWireTripAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: TripWireTripAfterEvent) => void): (arg: TripWireTripAf
 //// define
 `callback`：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.tripwiretripaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: TripWireTripAfterEvent) => void): (arg: TripWireTripAf
 //// define
 返回值：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.tripwiretripaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: TripWireTripAfterEvent) => void): (arg: TripWireTripAf
 
 ///
 
+script_api.@minecraft/server.tripwiretripaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: TripWireTripAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: TripWireTripAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.tripwiretripaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: TripWireTripAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.tripwiretripaftereventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ModalFormRequestPacket -->数据包，数字ID是`100`。
+<!-- md:samp ModalFormRequestPacket -->数据包，数字ID是`100`。该数据包用于protocol.packet.modalformrequestpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Form ID：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.modalformrequestpacket.form_id.description
 
 
 ////
 //// define
 Form UI JSON：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.modalformrequestpacket.form_ui_json.description
 
 
 ////

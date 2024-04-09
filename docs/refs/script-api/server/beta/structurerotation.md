@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`StructureRotation`枚举。
+`StructureRotation`枚举。script_api.@minecraft/server.structurerotation.description
 
 ## 常量
 

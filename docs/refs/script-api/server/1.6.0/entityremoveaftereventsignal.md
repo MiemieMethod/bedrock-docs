@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRemoveAfterEventSignal`类。
+`EntityRemoveAfterEventSignal`类。script_api.@minecraft/server.entityremoveaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entityremoveaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntityRemoveAfterEvent) => void, options?: EntityEventOptions): (arg: EntityRemoveAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntityRemoveAfterEvent) => void, options?: EntityEvent
 //// define
 `callback`：<code>(<a href="../entityremoveafterevent/">EntityRemoveAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityremoveaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntityRemoveAfterEvent) => void, options?: EntityEvent
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entityremoveaftereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: EntityRemoveAfterEvent) => void, options?: EntityEvent
 //// define
 返回值：<code>(<a href="../entityremoveafterevent/">EntityRemoveAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityremoveaftereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: EntityRemoveAfterEvent) => void, options?: EntityEvent
 
 ///
 
+script_api.@minecraft/server.entityremoveaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntityRemoveAfterEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntityRemoveAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityremoveafterevent/">EntityRemoveAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityremoveaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: EntityRemoveAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityremoveaftereventsignal.unsubscribe.return
 
 
 ////

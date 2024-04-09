@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PistonActivateAfterEventSignal`类。
+`PistonActivateAfterEventSignal`类。script_api.@minecraft/server.pistonactivateaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.pistonactivateaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PistonActivateAfterEvent) => void): (arg: PistonActivateAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PistonActivateAfterEvent) => void): (arg: PistonActiva
 //// define
 `callback`：<code>(<a href="../pistonactivateafterevent/">PistonActivateAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.pistonactivateaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PistonActivateAfterEvent) => void): (arg: PistonActiva
 //// define
 返回值：<code>(<a href="../pistonactivateafterevent/">PistonActivateAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.pistonactivateaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PistonActivateAfterEvent) => void): (arg: PistonActiva
 
 ///
 
+script_api.@minecraft/server.pistonactivateaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PistonActivateAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PistonActivateAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../pistonactivateafterevent/">PistonActivateAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.pistonactivateaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PistonActivateAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.pistonactivateaftereventsignal.unsubscribe.return
 
 
 ////

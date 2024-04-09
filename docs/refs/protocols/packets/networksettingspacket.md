@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp NetworkSettingsPacket -->数据包，数字ID是`143`。
+<!-- md:samp NetworkSettingsPacket -->数据包，数字ID是`143`。该数据包用于protocol.packet.networksettingspacket.description
 
 ## 结构
 
@@ -48,20 +48,20 @@ rankdir = LR
 //// define
 Compression Threshold：<!-- md:samp unsigned short -->
 
-- 基本类型。Determines the smallest size of raw network payload to compress. OTE: 0 is disable compression, 1 is compress everything 1 byte or larger (so everything)
+- 基本类型。protocol.packet.networksettingspacket.compression_threshold.descriptionDetermines the smallest size of raw network payload to compress. OTE: 0 is disable compression, 1 is compress everything 1 byte or larger (so everything)
 
 
 ////
 //// define
 CompressionAlgorithm：<!-- md:samp unsigned short -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.networksettingspacket.compressionalgorithm.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`ZLib`|`0`||
-  |`Snappy`|`1`||
-  |`None`|`0xffff`||
+  |`ZLib`|`0`|protocol.enum.zlib|
+  |`Snappy`|`1`|protocol.enum.snappy|
+  |`None`|`0xffff`|无|
 
 
 
@@ -69,21 +69,21 @@ CompressionAlgorithm：<!-- md:samp unsigned short -->
 //// define
 Client Throttle Enabled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networksettingspacket.client_throttle_enabled.description
 
 
 ////
 //// define
 Client Throttle Threshold：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networksettingspacket.client_throttle_threshold.description
 
 
 ////
 //// define
 Client Throttle Scalar：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networksettingspacket.client_throttle_scalar.description
 
 
 ////

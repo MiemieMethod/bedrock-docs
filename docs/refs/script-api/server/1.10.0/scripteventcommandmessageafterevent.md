@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScriptEventCommandMessageAfterEvent`类。
+`ScriptEventCommandMessageAfterEvent`类。script_api.@minecraft/server.scripteventcommandmessageafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.scripteventcommandmessageafterevent.id.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only initiator: Entity | undefined;
 //// define
 `initiator`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.scripteventcommandmessageafterevent.initiator.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only message: string;
 //// define
 `message`：`string`
 
-- 属性。
+- script_api.@minecraft/server.scripteventcommandmessageafterevent.message.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only sourceBlock: Block | undefined;
 //// define
 `sourceBlock`：[`Block`](./block.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.scripteventcommandmessageafterevent.sourceblock.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only sourceEntity: Entity | undefined;
 //// define
 `sourceEntity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.scripteventcommandmessageafterevent.sourceentity.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only sourceType: ScriptEventSource;
 //// define
 `sourceType`：[`ScriptEventSource`](./scripteventsource.md)
 
-- 属性。
+- script_api.@minecraft/server.scripteventcommandmessageafterevent.sourcetype.description
 
 
 ////

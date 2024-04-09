@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPistonComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockPistonComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blockpistoncomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only isMoving: boolean;
 //// define
 `isMoving`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.blockpistoncomponent.ismoving.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only state: BlockPistonState;
 //// define
 `state`：[`BlockPistonState`](./blockpistonstate.md)
 
-- 属性。
+- script_api.@minecraft/server.blockpistoncomponent.state.description
 
 
 ////
@@ -71,6 +71,8 @@ read-only state: BlockPistonState;
 
 ///
 
+script_api.@minecraft/server.blockpistoncomponent.getattachedblocks.description
+
 ```js
 getAttachedBlocks(): Block[]
 ```
@@ -79,7 +81,7 @@ getAttachedBlocks(): Block[]
 //// define
 返回值：<code><a href="../block/">Block</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.blockpistoncomponent.getattachedblocks.return
 
 
 ////
@@ -93,6 +95,8 @@ getAttachedBlocks(): Block[]
 
 ///
 
+script_api.@minecraft/server.blockpistoncomponent.getattachedblockslocations.description
+
 ```js
 getAttachedBlocksLocations(): Vector3[]
 ```
@@ -101,7 +105,7 @@ getAttachedBlocksLocations(): Vector3[]
 //// define
 返回值：<code><a href="../vector3/">Vector3</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.blockpistoncomponent.getattachedblockslocations.return
 
 
 ////

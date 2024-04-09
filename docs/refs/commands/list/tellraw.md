@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/tellraw`命令Sends a JSON message to players.
+`/tellraw`命令command.tellraw.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。
@@ -16,14 +16,16 @@
 ```
 
 //// html | div.result
+command.tellraw.1.description
+
 ///// define
 `target`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.tellraw.target.description
 
 `raw json message`：<!-- md:samp json -->
 
-- 基本类型。
+- 基本类型。command.tellraw.raw json message.description
 
 
 /////

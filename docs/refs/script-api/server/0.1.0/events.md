@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Events`类。
+`Events`类。script_api.mojang-minecraft.events.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only beforeChat: BeforeChatEventSignal;
 //// define
 `beforeChat`：[`BeforeChatEventSignal`](./beforechateventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.beforechat.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only beforeItemUse: BeforeItemUseEventSignal;
 //// define
 `beforeItemUse`：[`BeforeItemUseEventSignal`](./beforeitemuseeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.beforeitemuse.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only beforeItemUseOn: BeforeItemUseOnEventSignal;
 //// define
 `beforeItemUseOn`：[`BeforeItemUseOnEventSignal`](./beforeitemuseoneventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.beforeitemuseon.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only dataDrivenEntityTriggerEvent: DataDrivenEntityTriggerEventSignal;
 //// define
 `dataDrivenEntityTriggerEvent`：[`DataDrivenEntityTriggerEventSignal`](./datadrivenentitytriggereventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.datadrivenentitytriggerevent.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only entityCreate: EntityCreateEventSignal;
 //// define
 `entityCreate`：[`EntityCreateEventSignal`](./entitycreateeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.entitycreate.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only entityHit: EntityHitEventSignal;
 //// define
 `entityHit`：[`EntityHitEventSignal`](./entityhiteventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.entityhit.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only entityHurt: EntityHurtEventSignal;
 //// define
 `entityHurt`：[`EntityHurtEventSignal`](./entityhurteventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.entityhurt.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only itemCompleteCharge: ItemCompleteChargeEventSignal;
 //// define
 `itemCompleteCharge`：[`ItemCompleteChargeEventSignal`](./itemcompletechargeeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.itemcompletecharge.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only itemReleaseCharge: ItemReleaseChargeEventSignal;
 //// define
 `itemReleaseCharge`：[`ItemReleaseChargeEventSignal`](./itemreleasechargeeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.itemreleasecharge.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only itemStartCharge: ItemStartChargeEventSignal;
 //// define
 `itemStartCharge`：[`ItemStartChargeEventSignal`](./itemstartchargeeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.itemstartcharge.description
 
 
 ////
@@ -240,7 +240,7 @@ read-only itemStopCharge: ItemStopChargeEventSignal;
 //// define
 `itemStopCharge`：[`ItemStopChargeEventSignal`](./itemstopchargeeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.itemstopcharge.description
 
 
 ////
@@ -262,7 +262,7 @@ read-only itemUseOn: ItemUseOnEventSignal;
 //// define
 `itemUseOn`：[`ItemUseOnEventSignal`](./itemuseoneventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.itemuseon.description
 
 
 ////
@@ -284,7 +284,7 @@ read-only playerJoin: PlayerJoinEventSignal;
 //// define
 `playerJoin`：[`PlayerJoinEventSignal`](./playerjoineventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.playerjoin.description
 
 
 ////
@@ -306,7 +306,7 @@ read-only playerLeave: PlayerLeaveEventSignal;
 //// define
 `playerLeave`：[`PlayerLeaveEventSignal`](./playerleaveeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.playerleave.description
 
 
 ////
@@ -328,7 +328,7 @@ read-only tick: TickEventSignal;
 //// define
 `tick`：[`TickEventSignal`](./tickeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.tick.description
 
 
 ////
@@ -350,7 +350,7 @@ read-only weatherChange: WeatherChangeEventSignal;
 //// define
 `weatherChange`：[`WeatherChangeEventSignal`](./weatherchangeeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.weatherchange.description
 
 
 ////
@@ -372,7 +372,7 @@ read-only worldInitialize: WorldInitializeEventSignal;
 //// define
 `worldInitialize`：[`WorldInitializeEventSignal`](./worldinitializeeventsignal.md)
 
-- 属性。
+- script_api.mojang-minecraft.events.worldinitialize.description
 
 
 ////

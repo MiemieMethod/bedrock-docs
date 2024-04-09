@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp LevelChunkPacket -->数据包，数字ID是`58`。
+<!-- md:samp LevelChunkPacket -->数据包，数字ID是`58`。该数据包用于protocol.packet.levelchunkpacket.description
 
 ## 结构
 
@@ -92,14 +92,14 @@ rankdir = LR
 //// define
 Chunk Position：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.levelchunkpacket.chunk_position.description
 
 
 ////
 //// define
 Dimension Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.levelchunkpacket.dimension_id.description
 
 
 ////
@@ -114,7 +114,7 @@ Dimension Id：<!-- md:samp varint -->
 /////// define
 Sub-chunks Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.levelchunkpacket.sub-chunks_count.description
 
 
 ///////
@@ -140,14 +140,14 @@ Sub-chunks Count：<!-- md:samp unsigned varint -->
 ////////// define
 Partial SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 基本类型。Currently max unsigned 32-bit int
+- 基本类型。protocol.packet.levelchunkpacket.partial_subchunk_count_when_client_requesting.descriptionCurrently max unsigned 32-bit int
 
 
 //////////
 ////////// define
 Client Request SubChunk Limit：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.levelchunkpacket.client_request_subchunk_limit.description
 
 
 //////////
@@ -165,7 +165,7 @@ Client Request SubChunk Limit：<!-- md:samp unsigned short -->
 ////////// define
 SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 基本类型。Currently max unsigned 32-bit int
+- 基本类型。protocol.packet.levelchunkpacket.subchunk_count_when_client_requesting.descriptionCurrently max unsigned 32-bit int
 
 
 //////////
@@ -180,7 +180,7 @@ SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 //// define
 Cache Enabled：<!-- md:samp bool -->
 
-- 基本类型。Lets the server turn off the cache for this chunk even if the Client signaled it supports it.
+- 基本类型。protocol.packet.levelchunkpacket.cache_enabled.descriptionLets the server turn off the cache for this chunk even if the Client signaled it supports it.
 
 
 ////
@@ -190,7 +190,7 @@ Cache Enabled：<!-- md:samp bool -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -211,7 +211,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 Blob Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。How many cache blobs make up this chunk.
+- 基本类型。protocol.packet.levelchunkpacket.blob_count.descriptionHow many cache blobs make up this chunk.
 
 
 ////////
@@ -223,7 +223,7 @@ Blob Count：<!-- md:samp unsigned varint -->
 ///////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。See ClientCacheProtocol.md, included with the documentation for 1.12.0.2
+- 基本类型。protocol.packet.levelchunkpacket.blob_id.descriptionSee ClientCacheProtocol.md, included with the documentation for 1.12.0.2
 
 
 /////////
@@ -238,7 +238,7 @@ Blob Id：<!-- md:samp unsigned int64 -->
 //// define
 Serialized Chunk Data：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。See https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37
+- 特殊类型。protocol.packet.levelchunkpacket.serialized_chunk_data.descriptionSee https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37
 
 
 ////

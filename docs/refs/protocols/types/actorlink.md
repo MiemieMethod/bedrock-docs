@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ActorLink -->类型。
+<!-- md:samp ActorLink -->类型。该类型用于活动对象链接。
 
 ## 结构
 
@@ -48,27 +48,27 @@ rankdir = LR
 //// define
 Actor Unique ID - A：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.actorlink.actor_unique_id_a.description
 
 
 ////
 //// define
 Actor Unique ID - B：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.actorlink.actor_unique_id_b.description
 
 
 ////
 //// define
 Link Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.actorlink.link_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`Riding`|`1`||
-  |`Passenger`|`2`||
+  |`None`|`0`|无|
+  |`Riding`|`1`|protocol.enum.riding|
+  |`Passenger`|`2`|protocol.enum.passenger|
 
 
 
@@ -76,14 +76,14 @@ Link Type：<!-- md:samp byte -->
 //// define
 Immediate：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.actorlink.immediate.description
 
 
 ////
 //// define
 Passenger Initiated：<!-- md:samp bool -->
 
-- 基本类型。Whether the link was changed by the passenger
+- 基本类型。protocol.type.actorlink.passenger_initiated.descriptionWhether the link was changed by the passenger
 
 
 ////

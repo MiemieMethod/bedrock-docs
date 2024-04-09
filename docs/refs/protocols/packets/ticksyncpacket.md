@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp TickSyncPacket -->数据包，数字ID是`23`。
+<!-- md:samp TickSyncPacket -->数据包，数字ID是`23`。该数据包用于protocol.packet.ticksyncpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Client Request Timestamp：<!-- md:samp int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.ticksyncpacket.client_request_timestamp.description
 
 
 ////
 //// define
 Server Reception Response Timestamp：<!-- md:samp int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.ticksyncpacket.server_reception_response_timestamp.description
 
 
 ////

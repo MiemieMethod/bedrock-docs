@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BoundingBox`接口。
+`BoundingBox`接口。script_api.@minecraft/server.boundingbox.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ max: Vector3;
 //// define
 `max`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.boundingbox.max.description
 
 
 ////
@@ -42,7 +42,7 @@ min: Vector3;
 //// define
 `min`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.boundingbox.min.description
 
 
 ////

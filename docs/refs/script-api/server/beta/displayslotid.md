@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DisplaySlotId`枚举。
+`DisplaySlotId`枚举。script_api.@minecraft/server.displayslotid.description
 
 ## 常量
 

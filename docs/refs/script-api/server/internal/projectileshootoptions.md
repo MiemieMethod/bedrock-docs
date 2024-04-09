@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ProjectileShootOptions`接口。
+`ProjectileShootOptions`接口。script_api.@minecraft/server.projectileshootoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ uncertainty: float | undefined;
 //// define
 `uncertainty`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.projectileshootoptions.uncertainty.description
 
 
 ////

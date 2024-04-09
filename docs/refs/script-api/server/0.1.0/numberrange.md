@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`NumberRange`类。
+`NumberRange`类。script_api.mojang-minecraft.numberrange.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ max: float;
 //// define
 `max`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.numberrange.max.description
 
 
 ////
@@ -42,7 +42,7 @@ min: float;
 //// define
 `min`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.numberrange.min.description
 
 
 ////
@@ -58,6 +58,8 @@ min: float;
 
 ///
 
+script_api.mojang-minecraft.numberrange.next.description
+
 ```js
 next(): float
 ```
@@ -66,7 +68,7 @@ next(): float
 //// define
 返回值：`float`
 
-- 返回值。
+- script_api.mojang-minecraft.numberrange.next.return
 
 
 ////

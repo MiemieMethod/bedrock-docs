@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAttributeComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityAttributeComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityattributecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only currentValue: float;
 //// define
 `currentValue`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityattributecomponent.currentvalue.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only defaultValue: float;
 //// define
 `defaultValue`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityattributecomponent.defaultvalue.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only effectiveMax: float;
 //// define
 `effectiveMax`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityattributecomponent.effectivemax.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only effectiveMin: float;
 //// define
 `effectiveMin`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityattributecomponent.effectivemin.description
 
 
 ////
@@ -102,6 +102,8 @@ read-only effectiveMin: float;
 
 ///
 
+script_api.@minecraft/server.entityattributecomponent.resettodefaultvalue.description
+
 ```js
 resetToDefaultValue(): void
 ```
@@ -110,7 +112,7 @@ resetToDefaultValue(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityattributecomponent.resettodefaultvalue.return
 
 
 ////
@@ -124,6 +126,8 @@ resetToDefaultValue(): void
 
 ///
 
+script_api.@minecraft/server.entityattributecomponent.resettomaxvalue.description
+
 ```js
 resetToMaxValue(): void
 ```
@@ -132,7 +136,7 @@ resetToMaxValue(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityattributecomponent.resettomaxvalue.return
 
 
 ////
@@ -146,6 +150,8 @@ resetToMaxValue(): void
 
 ///
 
+script_api.@minecraft/server.entityattributecomponent.resettominvalue.description
+
 ```js
 resetToMinValue(): void
 ```
@@ -154,7 +160,7 @@ resetToMinValue(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityattributecomponent.resettominvalue.return
 
 
 ////
@@ -168,6 +174,8 @@ resetToMinValue(): void
 
 ///
 
+script_api.@minecraft/server.entityattributecomponent.setcurrentvalue.description
+
 ```js
 setCurrentValue(value: float): boolean
 ```
@@ -176,7 +184,7 @@ setCurrentValue(value: float): boolean
 //// define
 `value`：`float`
 
-- 参数1。
+- script_api.@minecraft/server.entityattributecomponent.value.setcurrentvalue.description
 
 
 ////
@@ -184,7 +192,7 @@ setCurrentValue(value: float): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entityattributecomponent.setcurrentvalue.return
 
 
 ////

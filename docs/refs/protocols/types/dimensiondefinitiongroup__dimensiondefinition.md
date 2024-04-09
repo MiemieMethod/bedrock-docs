@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->类型。
+<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->类型。该类型用于protocol.type.dimensiondefinitiongroup::dimensiondefinition.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Height Maximum：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.dimensiondefinitiongroup::dimensiondefinition.height_maximum.description
 
 
 ////
 //// define
 Height Minimum：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.dimensiondefinitiongroup::dimensiondefinition.height_minimum.description
 
 
 ////
 //// define
 Generator Type：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.dimensiondefinitiongroup::dimensiondefinition.generator_type.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp GameTestResultsPacket -->数据包，数字ID是`195`。
+<!-- md:samp GameTestResultsPacket -->数据包，数字ID是`195`。该数据包用于protocol.packet.gametestresultspacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Succeeded：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.gametestresultspacket.succeeded.description
 
 
 ////
 //// define
 Error：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.gametestresultspacket.error.description
 
 
 ////
 //// define
 TestName：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.gametestresultspacket.testname.description
 
 
 ////

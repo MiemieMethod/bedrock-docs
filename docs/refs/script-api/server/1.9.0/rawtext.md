@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`RawText`接口。
+`RawText`接口。script_api.@minecraft/server.rawtext.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ rawtext: RawMessage[] | undefined;
 //// define
 `rawtext`：<code><a href="../rawmessage/">RawMessage</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawtext.rawtext.description
 
 
 ////

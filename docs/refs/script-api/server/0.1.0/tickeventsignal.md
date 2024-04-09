@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TickEventSignal`类。
+`TickEventSignal`类。script_api.mojang-minecraft.tickeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.tickeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: TickEvent) => void): (arg: TickEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: TickEvent) => void): (arg: TickEvent) => void
 //// define
 `callback`：<code>(<a href="../tickevent/">TickEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.tickeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: TickEvent) => void): (arg: TickEvent) => void
 //// define
 返回值：<code>(<a href="../tickevent/">TickEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.tickeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: TickEvent) => void): (arg: TickEvent) => void
 
 ///
 
+script_api.mojang-minecraft.tickeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: TickEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: TickEvent) => void): void
 //// define
 `callback`：<code>(<a href="../tickevent/">TickEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.tickeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: TickEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.tickeventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/testfor`命令Counts entities (players, mobs, items, etc.) matching specified conditions.
+`/testfor`命令command.testfor.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,10 +16,12 @@
 ```
 
 //// html | div.result
+command.testfor.1.description
+
 ///// define
 `victim`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.testfor.victim.description
 
 
 /////

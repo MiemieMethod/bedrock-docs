@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MinecraftItemTypes`类。
+`MinecraftItemTypes`类。script_api.mojang-minecraft.minecraftitemtypes.description
 
 ## 常量
 
@@ -20,7 +20,7 @@ static read-only air: ItemType;
 //// define
 `air`：[`ItemType`](./itemtype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecraftitemtypes.air.description
 
 
 ////

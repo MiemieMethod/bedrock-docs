@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerIterator`类，实现了<code>Iterator&lt;<a href="../player/">Player</a>&gt;</code>。
+`PlayerIterator`类，实现了<code>Iterator&lt;<a href="../player/">Player</a>&gt;</code>。script_api.mojang-minecraft.playeriterator.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.playeriterator.[symbol.iterator].description
+
 ```js
 [Symbol.iterator](): Iterator<Player>
 ```
@@ -20,7 +22,7 @@
 //// define
 返回值：<code>Iterator&lt;<a href="../player/">Player</a>&gt;</code>
 
-- 返回值。
+- script_api.mojang-minecraft.playeriterator.[symbol.iterator].return
 
 
 ////
@@ -34,6 +36,8 @@
 
 ///
 
+script_api.mojang-minecraft.playeriterator.next.description
+
 ```js
 next(): IteratorResult<Player>
 ```
@@ -42,7 +46,7 @@ next(): IteratorResult<Player>
 //// define
 返回值：<code>IteratorResult&lt;<a href="../player/">Player</a>&gt;</code>
 
-- 返回值。
+- script_api.mojang-minecraft.playeriterator.next.return
 
 
 ////

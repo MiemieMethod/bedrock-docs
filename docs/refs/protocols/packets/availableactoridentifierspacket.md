@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AvailableActorIdentifiersPacket -->数据包，数字ID是`119`。
+<!-- md:samp AvailableActorIdentifiersPacket -->数据包，数字ID是`119`。该数据包用于protocol.packet.availableactoridentifierspacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Actor Info List：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。CompoundTag containing a list of ActorInfo:r'id' (RuntimeId - Int),'id' (string),b'id' (BaseId - string),hasspawnegg (bool),summonable (bool)
+- 特殊类型。protocol.packet.availableactoridentifierspacket.actor_info_list.descriptionCompoundTag containing a list of ActorInfo:r'id' (RuntimeId - Int),'id' (string),b'id' (BaseId - string),hasspawnegg (bool),summonable (bool)
 
 
 ////

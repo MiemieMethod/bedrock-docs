@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MolangVariableMap -->类型。
+<!-- md:samp MolangVariableMap -->类型。该类型用于protocol.type.molangvariablemap.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Serialized Variable Map：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.molangvariablemap.serialized_variable_map.description
 
 
 ////

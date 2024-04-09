@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AnimateEntityPacket -->数据包，数字ID是`158`。
+<!-- md:samp AnimateEntityPacket -->数据包，数字ID是`158`。该数据包用于protocol.packet.animateentitypacket.description
 
 ## 结构
 
@@ -64,48 +64,48 @@ rankdir = LR
 //// define
 mAnimation：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The 'name' of the animation that the specified entities are to play.
+- 特殊类型。protocol.packet.animateentitypacket.manimation.descriptionThe 'name' of the animation that the specified entities are to play.
 
 
 ////
 //// define
 mNextState：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The next state to transition to once the specified animation is finished playing.
+- 特殊类型。protocol.packet.animateentitypacket.mnextstate.descriptionThe next state to transition to once the specified animation is finished playing.
 
 
 ////
 //// define
 mStopExpression：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The stop expression, the the condition that determines when to transition to the next state.
+- 特殊类型。protocol.packet.animateentitypacket.mstopexpression.descriptionThe stop expression, the the condition that determines when to transition to the next state.
 
 
 ////
 //// define
 Stop expression molang version：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.animateentitypacket.stop_expression_molang_version.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Invalid`|`-1`||
-  |`BeforeVersioning`|`0`||
-  |`Initial`|`1`||
-  |`FixedItemRemainingUseDurationQuery`|`2`||
-  |`ExpressionErrorMessages`|`3`||
-  |`UnexpectedOperatorErrors`|`4`||
-  |`ConditionalOperatorAssociativity`|`5`||
-  |`ComparisonAndLogicalOperatorPrecedence`|`6`||
-  |`DivideByNegativeValue`|`7`||
-  |`FixedCapeFlapAmountQuery`|`8`||
-  |`QueryBlockPropertyRenamedToState`|`9`||
-  |`DeprecateOldBlockQueryNames`|`10`||
-  |`DeprecatedSnifferAndCamelQueries`|`11`||
-  |`LeafSupportingInFirstSolidBlockBelow`|`12`||
-  |`NumValidVersions`|`13`||
-  |`Latest`|`NumValidVersions - 1`||
-  |`HardcodedMolang`|`Latest`||
+  |`Invalid`|`-1`|protocol.enum.invalid|
+  |`BeforeVersioning`|`0`|protocol.enum.beforeversioning|
+  |`Initial`|`1`|protocol.enum.initial|
+  |`FixedItemRemainingUseDurationQuery`|`2`|protocol.enum.fixeditemremainingusedurationquery|
+  |`ExpressionErrorMessages`|`3`|protocol.enum.expressionerrormessages|
+  |`UnexpectedOperatorErrors`|`4`|protocol.enum.unexpectedoperatorerrors|
+  |`ConditionalOperatorAssociativity`|`5`|protocol.enum.conditionaloperatorassociativity|
+  |`ComparisonAndLogicalOperatorPrecedence`|`6`|protocol.enum.comparisonandlogicaloperatorprecedence|
+  |`DivideByNegativeValue`|`7`|protocol.enum.dividebynegativevalue|
+  |`FixedCapeFlapAmountQuery`|`8`|protocol.enum.fixedcapeflapamountquery|
+  |`QueryBlockPropertyRenamedToState`|`9`|protocol.enum.queryblockpropertyrenamedtostate|
+  |`DeprecateOldBlockQueryNames`|`10`|protocol.enum.deprecateoldblockquerynames|
+  |`DeprecatedSnifferAndCamelQueries`|`11`|protocol.enum.deprecatedsnifferandcamelqueries|
+  |`LeafSupportingInFirstSolidBlockBelow`|`12`|protocol.enum.leafsupportinginfirstsolidblockbelow|
+  |`NumValidVersions`|`13`|protocol.enum.numvalidversions|
+  |`Latest`|`NumValidVersions - 1`|protocol.enum.latest|
+  |`HardcodedMolang`|`Latest`|protocol.enum.hardcodedmolang|
 
 
 
@@ -113,14 +113,14 @@ Stop expression molang version：<!-- md:samp int -->
 //// define
 mController：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The 'name' of an animation controller
+- 特殊类型。protocol.packet.animateentitypacket.mcontroller.descriptionThe 'name' of an animation controller
 
 
 ////
 //// define
 mBlendOutTime：<!-- md:samp float -->
 
-- 基本类型。The amount of time to blend out of this animation
+- 基本类型。protocol.packet.animateentitypacket.mblendouttime.descriptionThe amount of time to blend out of this animation
 
 
 ////
@@ -132,7 +132,7 @@ mBlendOutTime：<!-- md:samp float -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.animateentitypacket.数组大小.description
 
 
 /////
@@ -144,7 +144,7 @@ mBlendOutTime：<!-- md:samp float -->
 ////// define
 runtimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.animateentitypacket.runtimeid.description
 
 
 //////

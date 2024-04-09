@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScoreboardScoreInfo`类。
+`ScoreboardScoreInfo`类。script_api.@minecraft/server.scoreboardscoreinfo.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only participant: ScoreboardIdentity;
 //// define
 `participant`：[`ScoreboardIdentity`](./scoreboardidentity.md)
 
-- 属性。
+- script_api.@minecraft/server.scoreboardscoreinfo.participant.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only score: int32;
 //// define
 `score`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.scoreboardscoreinfo.score.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/globalpause`命令Sets or gets the paused state of the game for all players.
+`/globalpause`命令command.globalpause.description
 
 /// settings | 执行条件
 该命令需要权限等级：`host`|`3`。该命令需要开启作弊。
@@ -16,15 +16,17 @@
 ```
 
 //// html | div.result
+command.globalpause.1.description
+
 ///// define
 `isPaused`：<!-- md:samp Boolean -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型，可选。command.enum.boolean.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`true`||
-  |`false`||
+  |`true`|是|
+  |`false`|否|
 
 
 

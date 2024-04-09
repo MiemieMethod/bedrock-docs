@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Component`类。
+`Component`类。script_api.@minecraft/server.component.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only typeId: string;
 //// define
 `typeId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.component.typeid.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only typeId: string;
 
 ///
 
+script_api.@minecraft/server.component.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -44,7 +46,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.component.isvalid.return
 
 
 ////

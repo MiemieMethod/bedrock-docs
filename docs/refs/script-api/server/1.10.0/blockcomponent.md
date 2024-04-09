@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponent`类，扩展自[`Component`](./component.md)。
+`BlockComponent`类，扩展自[`Component`](./component.md)。script_api.@minecraft/server.blockcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.blockcomponent.block.description
 
 
 ////

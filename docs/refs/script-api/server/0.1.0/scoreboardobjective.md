@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScoreboardObjective`类。
+`ScoreboardObjective`类。script_api.mojang-minecraft.scoreboardobjective.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only displayName: string;
 //// define
 `displayName`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.scoreboardobjective.displayname.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.scoreboardobjective.id.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only id: string;
 
 ///
 
+script_api.mojang-minecraft.scoreboardobjective.getparticipants.description
+
 ```js
 getParticipants(): ScoreboardIdentity[]
 ```
@@ -66,7 +68,7 @@ getParticipants(): ScoreboardIdentity[]
 //// define
 返回值：<code><a href="../scoreboardidentity/">ScoreboardIdentity</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.scoreboardobjective.getparticipants.return
 
 
 ////
@@ -80,6 +82,8 @@ getParticipants(): ScoreboardIdentity[]
 
 ///
 
+script_api.mojang-minecraft.scoreboardobjective.getscore.description
+
 ```js
 getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 ```
@@ -88,7 +92,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- 参数1。
+- script_api.mojang-minecraft.scoreboardobjective.participant.getscore.description
 
 
 ////
@@ -96,7 +100,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 //// define
 返回值：`int32`|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.scoreboardobjective.getscore.return
 
 
 ////
@@ -110,6 +114,8 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 
 ///
 
+script_api.mojang-minecraft.scoreboardobjective.getscores.description
+
 ```js
 getScores(): ScoreboardScoreInfo[]
 ```
@@ -118,7 +124,7 @@ getScores(): ScoreboardScoreInfo[]
 //// define
 返回值：<code><a href="../scoreboardscoreinfo/">ScoreboardScoreInfo</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.scoreboardobjective.getscores.return
 
 
 ////

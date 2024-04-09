@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ServerToClientHandshakePacket -->数据包，数字ID是`3`。
+<!-- md:samp ServerToClientHandshakePacket -->数据包，数字ID是`3`。该数据包用于protocol.packet.servertoclienthandshakepacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Handshake WebToken：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Base64 encoded JSON Web Token that contains the other relevant client properties. roperties Include: salt' = (for use in encryption) he public key used to compute the shared secret for encryption is embedded in the header of the token. It's the signer public key (json value of 'x5u')
+- 特殊类型。protocol.packet.servertoclienthandshakepacket.handshake_webtoken.descriptionBase64 encoded JSON Web Token that contains the other relevant client properties. roperties Include: salt' = (for use in encryption) he public key used to compute the shared secret for encryption is embedded in the header of the token. It's the signer public key (json value of 'x5u')
 
 
 ////

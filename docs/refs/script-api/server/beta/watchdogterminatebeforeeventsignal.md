@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WatchdogTerminateBeforeEventSignal`类。
+`WatchdogTerminateBeforeEventSignal`类。script_api.@minecraft/server.watchdogterminatebeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.watchdogterminatebeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): (arg: WatchdogTerminateBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): (arg: Watchdog
 //// define
 `callback`：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): (arg: Watchdog
 //// define
 返回值：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): (arg: Watchdog
 
 ///
 
+script_api.@minecraft/server.watchdogterminatebeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.unsubscribe.return
 
 
 ////

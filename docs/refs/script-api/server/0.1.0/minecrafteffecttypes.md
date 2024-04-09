@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MinecraftEffectTypes`类。
+`MinecraftEffectTypes`类。script_api.mojang-minecraft.minecrafteffecttypes.description
 
 ## 常量
 
@@ -20,7 +20,7 @@ static read-only healthBoost: EffectType;
 //// define
 `healthBoost`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.healthboost.description
 
 
 ////
@@ -42,7 +42,7 @@ static read-only jumpBoost: EffectType;
 //// define
 `jumpBoost`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.jumpboost.description
 
 
 ////
@@ -64,7 +64,7 @@ static read-only levitation: EffectType;
 //// define
 `levitation`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.levitation.description
 
 
 ////
@@ -86,7 +86,7 @@ static read-only regeneration: EffectType;
 //// define
 `regeneration`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.regeneration.description
 
 
 ////
@@ -108,7 +108,7 @@ static read-only saturation: EffectType;
 //// define
 `saturation`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.saturation.description
 
 
 ////
@@ -130,7 +130,7 @@ static read-only slowFalling: EffectType;
 //// define
 `slowFalling`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.slowfalling.description
 
 
 ////
@@ -152,7 +152,7 @@ static read-only slowness: EffectType;
 //// define
 `slowness`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.slowness.description
 
 
 ////
@@ -174,7 +174,7 @@ static read-only speed: EffectType;
 //// define
 `speed`：[`EffectType`](./effecttype.md)
 
-- 常量。
+- script_api.mojang-minecraft.minecrafteffecttypes.speed.description
 
 
 ////

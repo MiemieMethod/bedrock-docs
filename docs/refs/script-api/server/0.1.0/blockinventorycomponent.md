@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockInventoryComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockInventoryComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.mojang-minecraft.blockinventorycomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only container: BlockInventoryComponentContainer | undefined;
 //// define
 `container`：[`BlockInventoryComponentContainer`](./blockinventorycomponentcontainer.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.blockinventorycomponent.container.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EducationSettingsPacket -->数据包，数字ID是`137`。
+<!-- md:samp EducationSettingsPacket -->数据包，数字ID是`137`。该数据包用于protocol.packet.educationsettingspacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Education Level Settings：[<!-- md:samp EducationLevelSettings -->](../types/educationlevelsettings.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.educationsettingspacket.education_level_settings.description
 
 
 ////

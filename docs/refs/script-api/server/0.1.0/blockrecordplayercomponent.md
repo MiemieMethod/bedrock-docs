@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockRecordPlayerComponent`类。
+`BlockRecordPlayerComponent`类。script_api.mojang-minecraft.blockrecordplayercomponent.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.blockrecordplayercomponent.clearrecord.description
+
 ```js
 clearRecord(): void
 ```
@@ -20,7 +22,7 @@ clearRecord(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.blockrecordplayercomponent.clearrecord.return
 
 
 ////
@@ -34,6 +36,8 @@ clearRecord(): void
 
 ///
 
+script_api.mojang-minecraft.blockrecordplayercomponent.isplaying.description
+
 ```js
 isPlaying(): boolean
 ```
@@ -42,7 +46,7 @@ isPlaying(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.blockrecordplayercomponent.isplaying.return
 
 
 ////
@@ -56,6 +60,8 @@ isPlaying(): boolean
 
 ///
 
+script_api.mojang-minecraft.blockrecordplayercomponent.setrecord.description
+
 ```js
 setRecord(recordItemType: ItemType): void
 ```
@@ -64,7 +70,7 @@ setRecord(recordItemType: ItemType): void
 //// define
 `recordItemType`：[`ItemType`](./itemtype.md)
 
-- 参数1。
+- script_api.mojang-minecraft.blockrecordplayercomponent.recorditemtype.setrecord.description
 
 
 ////
@@ -72,7 +78,7 @@ setRecord(recordItemType: ItemType): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.blockrecordplayercomponent.setrecord.return
 
 
 ////

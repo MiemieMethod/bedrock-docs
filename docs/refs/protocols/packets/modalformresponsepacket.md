@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ModalFormResponsePacket -->数据包，数字ID是`101`。
+<!-- md:samp ModalFormResponsePacket -->数据包，数字ID是`101`。该数据包用于protocol.packet.modalformresponsepacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Form ID：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.modalformresponsepacket.form_id.description
 
 
 ////
 //// define
 JSON Response：[<!-- md:samp std::optional&lt;class Json::Value&gt; -->](../types/std__optional_class_json__value_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.modalformresponsepacket.json_response.description
 
 
 ////
 //// define
 Form Cancel Reason：[<!-- md:samp std::optional&lt;enum ModalFormCancelReason&gt; -->](../types/std__optional_enum_modalformcancelreason_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.modalformresponsepacket.form_cancel_reason.description
 
 
 ////

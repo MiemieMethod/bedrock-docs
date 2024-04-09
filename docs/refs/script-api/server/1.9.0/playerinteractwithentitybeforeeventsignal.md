@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInteractWithEntityBeforeEventSignal`类。
+`PlayerInteractWithEntityBeforeEventSignal`类。script_api.@minecraft/server.playerinteractwithentitybeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerinteractwithentitybeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): (arg: PlayerInteractWithEntityBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): (arg: P
 //// define
 `callback`：<code>(<a href="../playerinteractwithentitybeforeevent/">PlayerInteractWithEntityBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinteractwithentitybeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): (arg: P
 //// define
 返回值：<code>(<a href="../playerinteractwithentitybeforeevent/">PlayerInteractWithEntityBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerinteractwithentitybeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): (arg: P
 
 ///
 
+script_api.@minecraft/server.playerinteractwithentitybeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerinteractwithentitybeforeevent/">PlayerInteractWithEntityBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerinteractwithentitybeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerInteractWithEntityBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerinteractwithentitybeforeeventsignal.unsubscribe.return
 
 
 ////

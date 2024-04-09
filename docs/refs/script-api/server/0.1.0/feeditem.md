@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FeedItem`类。
+`FeedItem`类。script_api.mojang-minecraft.feeditem.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only effects: FeedItemEffect[];
 //// define
 `effects`：<code><a href="../feeditemeffect/">FeedItemEffect</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.feeditem.effects.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only healAmount: int32;
 //// define
 `healAmount`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.feeditem.healamount.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only item: string;
 //// define
 `item`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.feeditem.item.description
 
 
 ////

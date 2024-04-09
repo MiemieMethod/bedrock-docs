@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PressurePlatePopAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`PressurePlatePopAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.pressureplatepopafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only previousRedstonePower: int32;
 //// define
 `previousRedstonePower`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.pressureplatepopafterevent.previousredstonepower.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only redstonePower: int32;
 //// define
 `redstonePower`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.pressureplatepopafterevent.redstonepower.description
 
 
 ////

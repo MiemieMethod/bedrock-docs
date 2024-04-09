@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PropertyOutOfBoundsError`错误，扩展自`Error`。
+`PropertyOutOfBoundsError`错误，扩展自`Error`。script_api.@minecraft/common.propertyoutofboundserror.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only maxValue: double;
 //// define
 `maxValue`：`double`
 
-- 属性。
+- script_api.@minecraft/common.propertyoutofboundserror.maxvalue.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only minValue: double;
 //// define
 `minValue`：`double`
 
-- 属性。
+- script_api.@minecraft/common.propertyoutofboundserror.minvalue.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only value: double;
 //// define
 `value`：`double`
 
-- 属性。
+- script_api.@minecraft/common.propertyoutofboundserror.value.description
 
 
 ////

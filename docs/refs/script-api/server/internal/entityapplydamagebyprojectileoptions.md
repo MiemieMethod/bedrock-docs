@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityApplyDamageByProjectileOptions`接口。
+`EntityApplyDamageByProjectileOptions`接口。script_api.@minecraft/server.entityapplydamagebyprojectileoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ damagingEntity: Entity | undefined;
 //// define
 `damagingEntity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityapplydamagebyprojectileoptions.damagingentity.description
 
 
 ////
@@ -42,7 +42,7 @@ damagingProjectile: Entity;
 //// define
 `damagingProjectile`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityapplydamagebyprojectileoptions.damagingprojectile.description
 
 
 ////

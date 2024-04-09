@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHitEntityAfterEventSignal`类。
+`EntityHitEntityAfterEventSignal`类。script_api.@minecraft/server.entityhitentityaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entityhitentityaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntityHitEntityAfterEvent) => void, options?: EntityEventOptions): (arg: EntityHitEntityAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntityHitEntityAfterEvent) => void, options?: EntityEv
 //// define
 `callback`：<code>(<a href="../entityhitentityafterevent/">EntityHitEntityAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityhitentityaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntityHitEntityAfterEvent) => void, options?: EntityEv
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entityhitentityaftereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: EntityHitEntityAfterEvent) => void, options?: EntityEv
 //// define
 返回值：<code>(<a href="../entityhitentityafterevent/">EntityHitEntityAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityhitentityaftereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: EntityHitEntityAfterEvent) => void, options?: EntityEv
 
 ///
 
+script_api.@minecraft/server.entityhitentityaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntityHitEntityAfterEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntityHitEntityAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityhitentityafterevent/">EntityHitEntityAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityhitentityaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: EntityHitEntityAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityhitentityaftereventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Enchantment`接口。
+`Enchantment`接口。script_api.@minecraft/server.enchantment.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ level: int32;
 //// define
 `level`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.enchantment.level.description
 
 
 ////
@@ -42,7 +42,7 @@ type: EnchantmentType;
 //// define
 `type`：[`EnchantmentType`](./enchantmenttype.md)
 
-- 属性。
+- script_api.@minecraft/server.enchantment.type.description
 
 
 ////

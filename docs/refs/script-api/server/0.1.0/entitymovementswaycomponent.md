@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityMovementSwayComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。
+`EntityMovementSwayComponent`类，扩展自[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)。script_api.mojang-minecraft.entitymovementswaycomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only swayAmplitude: float;
 //// define
 `swayAmplitude`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entitymovementswaycomponent.swayamplitude.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only swayFrequency: float;
 //// define
 `swayFrequency`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entitymovementswaycomponent.swayfrequency.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp TrimDataPacket -->数据包，数字ID是`302`。
+<!-- md:samp TrimDataPacket -->数据包，数字ID是`302`。该数据包用于protocol.packet.trimdatapacket.description
 
 ## 结构
 
@@ -69,7 +69,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.trimdatapacket.数组大小.description
 
 
 /////
@@ -81,14 +81,14 @@ rankdir = LR
 ////// define
 Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.trimdatapacket.item_name.description
 
 
 //////
 ////// define
 Pattern Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.trimdatapacket.pattern_id.description
 
 
 //////
@@ -104,7 +104,7 @@ Pattern Id：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.trimdatapacket.数组大小.description
 
 
 /////
@@ -116,21 +116,21 @@ Pattern Id：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Material Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.trimdatapacket.material_id.description
 
 
 //////
 ////// define
 Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.trimdatapacket.color.description
 
 
 //////
 ////// define
 Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.trimdatapacket.item_name.description
 
 
 //////

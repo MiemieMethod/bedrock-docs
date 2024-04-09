@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/reload`命令Reloads all function and script files from all behavior packs.
+`/reload`命令command.reload.description
 
 /// settings | 执行条件
 该命令需要权限等级：`admin`|`2`。该命令需要开启作弊。
@@ -16,6 +16,8 @@
 ```
 
 //// html | div.result
+command.reload.1.description
+
 ///// define
 
 /////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockType`类。
+`BlockType`类。script_api.@minecraft/server.blocktype.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only canBeWaterlogged: boolean;
 //// define
 `canBeWaterlogged`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.blocktype.canbewaterlogged.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.blocktype.id.description
 
 
 ////

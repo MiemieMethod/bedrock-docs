@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.mojang-minecraft.blockliquidcontainercomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ fillLevel: int32;
 //// define
 `fillLevel`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.blockliquidcontainercomponent.filllevel.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`World`类。
+`World`类。script_api.@minecraft/server.world.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only afterEvents: WorldAfterEvents;
 //// define
 `afterEvents`：[`WorldAfterEvents`](./worldafterevents.md)
 
-- 属性。
+- script_api.@minecraft/server.world.afterevents.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only beforeEvents: WorldBeforeEvents;
 //// define
 `beforeEvents`：[`WorldBeforeEvents`](./worldbeforeevents.md)
 
-- 属性。
+- script_api.@minecraft/server.world.beforeevents.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only scoreboard: Scoreboard;
 //// define
 `scoreboard`：[`Scoreboard`](./scoreboard.md)
 
-- 属性。
+- script_api.@minecraft/server.world.scoreboard.description
 
 
 ////
@@ -80,6 +80,8 @@ read-only scoreboard: Scoreboard;
 
 ///
 
+script_api.@minecraft/server.world.getabsolutetime.description
+
 ```js
 getAbsoluteTime(): int32
 ```
@@ -88,7 +90,7 @@ getAbsoluteTime(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.world.getabsolutetime.return
 
 
 ////
@@ -102,6 +104,8 @@ getAbsoluteTime(): int32
 
 ///
 
+script_api.@minecraft/server.world.getallplayers.description
+
 ```js
 getAllPlayers(): Player[]
 ```
@@ -110,7 +114,7 @@ getAllPlayers(): Player[]
 //// define
 返回值：<code><a href="../player/">Player</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.world.getallplayers.return
 
 
 ////
@@ -124,6 +128,8 @@ getAllPlayers(): Player[]
 
 ///
 
+script_api.@minecraft/server.world.getday.description
+
 ```js
 getDay(): int32
 ```
@@ -132,7 +138,7 @@ getDay(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.world.getday.return
 
 
 ////
@@ -146,6 +152,8 @@ getDay(): int32
 
 ///
 
+script_api.@minecraft/server.world.getdefaultspawnlocation.description
+
 ```js
 getDefaultSpawnLocation(): Vector3
 ```
@@ -154,7 +162,7 @@ getDefaultSpawnLocation(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.world.getdefaultspawnlocation.return
 
 
 ////
@@ -168,6 +176,8 @@ getDefaultSpawnLocation(): Vector3
 
 ///
 
+script_api.@minecraft/server.world.getdimension.description
+
 ```js
 getDimension(dimensionId: string): Dimension
 ```
@@ -176,7 +186,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.dimensionid.getdimension.description
 
 
 ////
@@ -184,7 +194,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 返回值：[`Dimension`](./dimension.md)
 
-- 返回值。
+- script_api.@minecraft/server.world.getdimension.return
 
 
 ////
@@ -198,6 +208,8 @@ getDimension(dimensionId: string): Dimension
 
 ///
 
+script_api.@minecraft/server.world.getplayers.description
+
 ```js
 getPlayers(options?: EntityQueryOptions): Player[]
 ```
@@ -206,7 +218,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.world.options.getplayers.description
 
 
 ////
@@ -214,7 +226,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 返回值：<code><a href="../player/">Player</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.world.getplayers.return
 
 
 ////
@@ -228,6 +240,8 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 ///
 
+script_api.@minecraft/server.world.gettimeofday.description
+
 ```js
 getTimeOfDay(): int32
 ```
@@ -236,7 +250,7 @@ getTimeOfDay(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.world.gettimeofday.return
 
 
 ////
@@ -250,6 +264,8 @@ getTimeOfDay(): int32
 
 ///
 
+script_api.@minecraft/server.world.playmusic.description
+
 ```js
 playMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
@@ -258,7 +274,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.trackid.playmusic.description
 
 
 ////
@@ -266,7 +282,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.world.musicoptions.playmusic.description
 
 
 ////
@@ -274,7 +290,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.playmusic.return
 
 
 ////
@@ -288,6 +304,8 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 
 ///
 
+script_api.@minecraft/server.world.playsound.description
+
 ```js
 playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions): void
 ```
@@ -296,7 +314,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `soundId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.soundid.playsound.description
 
 
 ////
@@ -304,7 +322,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.world.location.playsound.description
 
 
 ////
@@ -312,7 +330,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server.world.soundoptions.playsound.description
 
 
 ////
@@ -320,7 +338,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.playsound.return
 
 
 ////
@@ -334,6 +352,8 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 
 ///
 
+script_api.@minecraft/server.world.queuemusic.description
+
 ```js
 queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ```
@@ -342,7 +362,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.trackid.queuemusic.description
 
 
 ////
@@ -350,7 +370,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.world.musicoptions.queuemusic.description
 
 
 ////
@@ -358,7 +378,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.queuemusic.return
 
 
 ////
@@ -372,15 +392,17 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 
 ///
 
+script_api.@minecraft/server.world.sendmessage.description
+
 ```js
-sendMessage(message: RawMessage | string[] | RawMessage | string): void
+sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 ```
 
 /// html | div.result
 //// define
-`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.message.sendmessage.description
 
 
 ////
@@ -388,7 +410,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.sendmessage.return
 
 
 ////
@@ -402,6 +424,8 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 
 ///
 
+script_api.@minecraft/server.world.setabsolutetime.description
+
 ```js
 setAbsoluteTime(absoluteTime: int32): void
 ```
@@ -410,7 +434,7 @@ setAbsoluteTime(absoluteTime: int32): void
 //// define
 `absoluteTime`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.world.absolutetime.setabsolutetime.description
 
 
 ////
@@ -418,7 +442,7 @@ setAbsoluteTime(absoluteTime: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.setabsolutetime.return
 
 
 ////
@@ -432,6 +456,8 @@ setAbsoluteTime(absoluteTime: int32): void
 
 ///
 
+script_api.@minecraft/server.world.setdefaultspawnlocation.description
+
 ```js
 setDefaultSpawnLocation(spawnLocation: Vector3): void
 ```
@@ -440,7 +466,7 @@ setDefaultSpawnLocation(spawnLocation: Vector3): void
 //// define
 `spawnLocation`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.world.spawnlocation.setdefaultspawnlocation.description
 
 
 ////
@@ -448,7 +474,7 @@ setDefaultSpawnLocation(spawnLocation: Vector3): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.setdefaultspawnlocation.return
 
 
 ////
@@ -462,6 +488,8 @@ setDefaultSpawnLocation(spawnLocation: Vector3): void
 
 ///
 
+script_api.@minecraft/server.world.settimeofday.description
+
 ```js
 setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 ```
@@ -470,7 +498,7 @@ setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 //// define
 `timeOfDay`：`int32`|[`TimeOfDay`](./timeofday.md)
 
-- 参数1。
+- script_api.@minecraft/server.world.timeofday.settimeofday.description
 
 
 ////
@@ -478,7 +506,7 @@ setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.settimeofday.return
 
 
 ////
@@ -492,6 +520,8 @@ setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 
 ///
 
+script_api.@minecraft/server.world.stopmusic.description
+
 ```js
 stopMusic(): void
 ```
@@ -500,7 +530,7 @@ stopMusic(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.stopmusic.return
 
 
 ////

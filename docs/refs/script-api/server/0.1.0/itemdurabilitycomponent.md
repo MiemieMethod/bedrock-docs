@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemDurabilityComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。
+`ItemDurabilityComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.mojang-minecraft.itemdurabilitycomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ damage: int32;
 //// define
 `damage`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.itemdurabilitycomponent.damage.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only damageRange: NumberRange;
 //// define
 `damageRange`：[`NumberRange`](./numberrange.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemdurabilitycomponent.damagerange.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only maxDurability: int32;
 //// define
 `maxDurability`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.itemdurabilitycomponent.maxdurability.description
 
 
 ////
@@ -80,6 +80,8 @@ read-only maxDurability: int32;
 
 ///
 
+script_api.mojang-minecraft.itemdurabilitycomponent.getdamagechance.description
+
 ```js
 getDamageChance(unbreakingEnchantmentLevel: int32): int32
 ```
@@ -88,7 +90,7 @@ getDamageChance(unbreakingEnchantmentLevel: int32): int32
 //// define
 `unbreakingEnchantmentLevel`：`int32`
 
-- 参数1。
+- script_api.mojang-minecraft.itemdurabilitycomponent.unbreakingenchantmentlevel.getdamagechance.description
 
 
 ////
@@ -96,7 +98,7 @@ getDamageChance(unbreakingEnchantmentLevel: int32): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.mojang-minecraft.itemdurabilitycomponent.getdamagechance.return
 
 
 ////

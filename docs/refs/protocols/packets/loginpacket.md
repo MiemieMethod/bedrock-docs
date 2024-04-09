@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp LoginPacket -->数据包，数字ID是`1`。
+<!-- md:samp LoginPacket -->数据包，数字ID是`1`。该数据包用于protocol.packet.loginpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Client Network Version：<!-- md:samp big endian int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.loginpacket.client_network_version.description
 
 
 ////
 //// define
 Connection Request：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。see @connectionRequest.html#diagram@
+- 特殊类型。protocol.packet.loginpacket.connection_request.descriptionsee @connectionRequest.html#diagram@
 
 
 ////

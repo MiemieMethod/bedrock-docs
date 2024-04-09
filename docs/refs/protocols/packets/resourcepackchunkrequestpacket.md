@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ResourcePackChunkRequestPacket -->数据包，数字ID是`84`。
+<!-- md:samp ResourcePackChunkRequestPacket -->数据包，数字ID是`84`。该数据包用于protocol.packet.resourcepackchunkrequestpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Resource Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.resourcepackchunkrequestpacket.resource_name.description
 
 
 ////
 //// define
 Chunk：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.resourcepackchunkrequestpacket.chunk.description
 
 
 ////

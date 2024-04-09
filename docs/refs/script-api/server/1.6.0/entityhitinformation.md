@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHitInformation`接口。
+`EntityHitInformation`接口。script_api.@minecraft/server.entityhitinformation.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ entity: Entity | undefined;
 //// define
 `entity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityhitinformation.entity.description
 
 
 ////

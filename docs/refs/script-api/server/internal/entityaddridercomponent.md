@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAddRiderComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityAddRiderComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityaddridercomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only entityType: string;
 //// define
 `entityType`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entityaddridercomponent.entitytype.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only spawnEvent: string;
 //// define
 `spawnEvent`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entityaddridercomponent.spawnevent.description
 
 
 ////

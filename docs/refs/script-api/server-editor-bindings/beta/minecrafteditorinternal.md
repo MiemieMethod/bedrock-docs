@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MinecraftEditorInternal`类。
+`MinecraftEditorInternal`类。script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getdatastore.description
+
 ```js
 getDataStore(player: Player): DataStore
 ```
@@ -20,7 +22,7 @@ getDataStore(player: Player): DataStore
 //// define
 `player`：[`Player`](../../server/beta/player.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.player.getdatastore.description
 
 
 ////
@@ -28,7 +30,7 @@ getDataStore(player: Player): DataStore
 //// define
 返回值：[`DataStore`](./datastore.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getdatastore.return
 
 
 ////
@@ -42,6 +44,8 @@ getDataStore(player: Player): DataStore
 
 ///
 
+script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.registerextension.description
+
 ```js
 registerExtension(extensionName: string, activationFunction: (arg: ExtensionContext) => void, shutdownFunction: (arg: ExtensionContext) => void, options?: ExtensionOptionalParameters): Extension
 ```
@@ -50,7 +54,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `extensionName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.extensionname.registerextension.description
 
 
 ////
@@ -58,7 +62,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `activationFunction`：<code>(<a href="../extensioncontext/">ExtensionContext</a>) =&gt; void</code>
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.activationfunction.registerextension.description
 
 
 ////
@@ -66,7 +70,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `shutdownFunction`：<code>(<a href="../extensioncontext/">ExtensionContext</a>) =&gt; void</code>
 
-- 参数3。
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.shutdownfunction.registerextension.description
 
 
 ////
@@ -74,7 +78,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `options`：[`ExtensionOptionalParameters`](./extensionoptionalparameters.md)|`undefined`
 
-- 参数4。
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.options.registerextension.description
 
 
 ////
@@ -82,7 +86,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 返回值：[`Extension`](./extension.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.registerextension.return
 
 
 ////

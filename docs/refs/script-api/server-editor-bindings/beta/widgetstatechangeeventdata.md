@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WidgetStateChangeEventData`类。
+`WidgetStateChangeEventData`类。script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only group: WidgetGroup;
 //// define
 `group`：[`WidgetGroup`](./widgetgroup.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.group.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only isSelected: boolean | undefined;
 //// define
 `isSelected`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.isselected.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only isVisible: boolean | undefined;
 //// define
 `isVisible`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.isvisible.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only widget: Widget;
 //// define
 `widget`：[`Widget`](./widget.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.widget.description
 
 
 ////

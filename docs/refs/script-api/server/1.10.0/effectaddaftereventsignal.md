@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EffectAddAfterEventSignal`类。
+`EffectAddAfterEventSignal`类。script_api.@minecraft/server.effectaddaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.effectaddaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOptions): (arg: EffectAddAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 //// define
 `callback`：<code>(<a href="../effectaddafterevent/">EffectAddAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.effectaddaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.effectaddaftereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 //// define
 返回值：<code>(<a href="../effectaddafterevent/">EffectAddAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.effectaddaftereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 
 ///
 
+script_api.@minecraft/server.effectaddaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EffectAddAfterEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EffectAddAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../effectaddafterevent/">EffectAddAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.effectaddaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: EffectAddAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.effectaddaftereventsignal.unsubscribe.return
 
 
 ////

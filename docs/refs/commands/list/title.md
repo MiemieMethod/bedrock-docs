@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/title`命令Controls screen titles.
+`/title`命令command.title.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,14 +16,16 @@
 ```
 
 //// html | div.result
+command.title.1.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.title.player.description
 
 `clear`：<!-- md:samp TitleClear -->
 
-- 枚举类型。单值枚举，请直接使用`clear`。
+- 枚举类型。command.enum.titleclear.description单值枚举，请直接使用`clear`。
 
 
 /////
@@ -38,14 +40,16 @@
 ```
 
 //// html | div.result
+command.title.2.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.title.player.description
 
 `reset`：<!-- md:samp TitleReset -->
 
-- 枚举类型。单值枚举，请直接使用`reset`。
+- 枚举类型。command.enum.titlereset.description单值枚举，请直接使用`reset`。
 
 
 /////
@@ -60,25 +64,27 @@
 ```
 
 //// html | div.result
+command.title.3.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.title.player.description
 
 `titleLocation`：<!-- md:samp TitleSet -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.titleset.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`title`||
-  |`subtitle`||
-  |`actionbar`||
+  |`title`|command.enum.titleset.title|
+  |`subtitle`|command.enum.titleset.subtitle|
+  |`actionbar`|command.enum.titleset.actionbar|
 
 
 `titleText`：<!-- md:samp message -->
 
-- 基本类型。
+- 基本类型。command.title.titleText.description
 
 
 /////
@@ -93,26 +99,28 @@
 ```
 
 //// html | div.result
+command.title.4.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.title.player.description
 
 `times`：<!-- md:samp TitleTimes -->
 
-- 枚举类型。单值枚举，请直接使用`times`。
+- 枚举类型。command.enum.titletimes.description单值枚举，请直接使用`times`。
 
 `fadeIn`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.title.fadeIn.description
 
 `stay`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.title.stay.description
 
 `fadeOut`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型。command.title.fadeOut.description
 
 
 /////

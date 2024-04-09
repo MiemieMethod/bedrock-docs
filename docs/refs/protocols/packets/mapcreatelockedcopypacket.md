@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MapCreateLockedCopyPacket -->数据包，数字ID是`131`。
+<!-- md:samp MapCreateLockedCopyPacket -->数据包，数字ID是`131`。该数据包用于protocol.packet.mapcreatelockedcopypacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Original Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。Id of the map being locked.
+- 特殊类型。protocol.packet.mapcreatelockedcopypacket.original_map_id.descriptionId of the map being locked.
 
 
 ////
 //// define
 New Map Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。Id that the new map should have.
+- 特殊类型。protocol.packet.mapcreatelockedcopypacket.new_map_id.descriptionId that the new map should have.
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerDimensionChangeAfterEventSignal`类。
+`PlayerDimensionChangeAfterEventSignal`类。script_api.@minecraft/server.playerdimensionchangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerdimensionchangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): (arg: PlayerDimensionChangeAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): (arg: Playe
 //// define
 `callback`：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): (arg: Playe
 //// define
 返回值：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): (arg: Playe
 
 ///
 
+script_api.@minecraft/server.playerdimensionchangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.unsubscribe.return
 
 
 ////

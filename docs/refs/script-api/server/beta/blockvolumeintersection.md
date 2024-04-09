@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockVolumeIntersection`枚举。
+`BlockVolumeIntersection`枚举。script_api.@minecraft/server.blockvolumeintersection.description
 
 ## 常量
 

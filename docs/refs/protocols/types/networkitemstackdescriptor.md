@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp NetworkItemStackDescriptor -->类型。
+<!-- md:samp NetworkItemStackDescriptor -->类型。该类型用于protocol.type.networkitemstackdescriptor.description
 
 ## 结构
 
@@ -82,7 +82,7 @@ rankdir = LR
 /////// define
 Id：<!-- md:samp varint -->
 
-- 基本类型。Send fixed Id of 0 for inval'id' item
+- 基本类型。protocol.type.networkitemstackdescriptor.id.descriptionSend fixed Id of 0 for inval'id' item
 
 
 ///////
@@ -100,28 +100,28 @@ Id：<!-- md:samp varint -->
 /////// define
 Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkitemstackdescriptor.id.description
 
 
 ///////
 /////// define
 Stack size：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkitemstackdescriptor.stack_size.description
 
 
 ///////
 /////// define
 Aux value：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkitemstackdescriptor.aux_value.description
 
 
 ///////
 /////// define
 Include Net Id：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkitemstackdescriptor.include_net_id.description
 
 
 ///////
@@ -131,7 +131,7 @@ Include Net Id：<!-- md:samp bool -->
 ///////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 /////////
@@ -147,7 +147,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////////// define
 Net Id Variant：[<!-- md:samp ItemStackNetIdVariant -->](../types/itemstacknetidvariant.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.networkitemstackdescriptor.net_id_variant.description
 
 
 //////////
@@ -158,14 +158,14 @@ Net Id Variant：[<!-- md:samp ItemStackNetIdVariant -->](../types/itemstackneti
 /////// define
 Block Runtime Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.networkitemstackdescriptor.block_runtime_id.description
 
 
 ///////
 /////// define
 User Data Buffer：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。The @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
+- 特殊类型。protocol.type.networkitemstackdescriptor.user_data_buffer.descriptionThe @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
 
 
 ///////

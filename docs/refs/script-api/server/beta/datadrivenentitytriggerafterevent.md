@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataDrivenEntityTriggerAfterEvent`类。
+`DataDrivenEntityTriggerAfterEvent`类。script_api.@minecraft/server.datadrivenentitytriggerafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.datadrivenentitytriggerafterevent.entity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only eventId: string;
 //// define
 `eventId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.datadrivenentitytriggerafterevent.eventid.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only eventId: string;
 
 ///
 
+script_api.@minecraft/server.datadrivenentitytriggerafterevent.getmodifiers.description
+
 ```js
 getModifiers(): DefinitionModifier[]
 ```
@@ -66,7 +68,7 @@ getModifiers(): DefinitionModifier[]
 //// define
 返回值：<code><a href="../definitionmodifier/">DefinitionModifier</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.datadrivenentitytriggerafterevent.getmodifiers.return
 
 
 ////

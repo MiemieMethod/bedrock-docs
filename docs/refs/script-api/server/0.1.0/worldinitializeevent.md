@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldInitializeEvent`类。
+`WorldInitializeEvent`类。script_api.mojang-minecraft.worldinitializeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only propertyRegistry: PropertyRegistry;
 //// define
 `propertyRegistry`：[`PropertyRegistry`](./propertyregistry.md)
 
-- 属性。
+- script_api.mojang-minecraft.worldinitializeevent.propertyregistry.description
 
 
 ////

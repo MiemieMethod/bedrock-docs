@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CraftingDataPacket -->数据包，数字ID是`52`。
+<!-- md:samp CraftingDataPacket -->数据包，数字ID是`52`。该数据包用于protocol.packet.craftingdatapacket.description
 
 ## 结构
 
@@ -85,7 +85,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.craftingdatapacket.数组大小.description
 
 
 /////
@@ -97,7 +97,7 @@ rankdir = LR
 ////// define
 Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.craftingdatapacket.crafting_entry.description
 
 
 //////
@@ -113,7 +113,7 @@ Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.craftingdatapacket.数组大小.description
 
 
 /////
@@ -125,7 +125,7 @@ Crafting Entry：[<!-- md:samp CraftingDataEntry -->](../types/craftingdataentry
 ////// define
 Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdataentry.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.craftingdatapacket.potion_mix_entry.description
 
 
 //////
@@ -141,7 +141,7 @@ Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdatae
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.craftingdatapacket.数组大小.description
 
 
 /////
@@ -153,7 +153,7 @@ Potion Mix Entry：[<!-- md:samp PotionMixDataEntry -->](../types/potionmixdatae
 ////// define
 Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containermixdataentry.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.craftingdatapacket.container_mix_entry.description
 
 
 //////
@@ -169,7 +169,7 @@ Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containe
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.craftingdatapacket.数组大小.description
 
 
 /////
@@ -181,7 +181,7 @@ Container Mix Entry：[<!-- md:samp ContainerMixDataEntry -->](../types/containe
 ////// define
 Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](../types/materialreducerdataentry.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.craftingdatapacket.material_reducer_entry.description
 
 
 //////
@@ -192,7 +192,7 @@ Material Reducer Entry：[<!-- md:samp MaterialReducerDataEntry -->](../types/ma
 //// define
 Clear Recipes：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.craftingdatapacket.clear_recipes.description
 
 
 ////

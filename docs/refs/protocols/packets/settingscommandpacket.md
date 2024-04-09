@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SettingsCommandPacket -->数据包，数字ID是`140`。
+<!-- md:samp SettingsCommandPacket -->数据包，数字ID是`140`。该数据包用于protocol.packet.settingscommandpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Command：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Command to update setting.
+- 特殊类型。protocol.packet.settingscommandpacket.command.descriptionCommand to update setting.
 
 
 ////
 //// define
 Suppress Output?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.settingscommandpacket.suppress_output.description
 
 
 ////

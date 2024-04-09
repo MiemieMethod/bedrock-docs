@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DataDrivenEntityTriggerEvent`类。
+`DataDrivenEntityTriggerEvent`类。script_api.mojang-minecraft.datadrivenentitytriggerevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity;
 //// define
 `entity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.mojang-minecraft.datadrivenentitytriggerevent.entity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.datadrivenentitytriggerevent.id.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only modifiers: DefinitionModifier[];
 //// define
 `modifiers`：<code><a href="../definitionmodifier/">DefinitionModifier</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.datadrivenentitytriggerevent.modifiers.description
 
 
 ////

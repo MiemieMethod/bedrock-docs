@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CorrectPlayerMovePredictionPacket -->数据包，数字ID是`161`。
+<!-- md:samp CorrectPlayerMovePredictionPacket -->数据包，数字ID是`161`。该数据包用于protocol.packet.correctplayermovepredictionpacket.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。Corrected position
+- 特殊类型。protocol.packet.correctplayermovepredictionpacket.pos.descriptionCorrected position
 
 
 ////
 //// define
 Pos Delta：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。Corrected velocity
+- 特殊类型。protocol.packet.correctplayermovepredictionpacket.pos_delta.descriptionCorrected velocity
 
 
 ////
 //// define
 On Ground：<!-- md:samp bool -->
 
-- 基本类型。Is on ground
+- 基本类型。protocol.packet.correctplayermovepredictionpacket.on_ground.descriptionIs on ground
 
 
 ////
 //// define
 Tick：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。Which frame we're correcting; should match the tick in the Player Auth Input packet
+- 基本类型。protocol.packet.correctplayermovepredictionpacket.tick.descriptionWhich frame we're correcting; should match the tick in the Player Auth Input packet
 
 
 ////
 //// define
 PredictionType：<!-- md:samp byte -->
 
-- 基本类型。Vehicle or Player Prediction
+- 基本类型。protocol.packet.correctplayermovepredictionpacket.predictiontype.descriptionVehicle or Player Prediction
 
 
 ////

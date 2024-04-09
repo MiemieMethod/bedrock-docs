@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`RawMessageScore`接口。
+`RawMessageScore`接口。script_api.@minecraft/server.rawmessagescore.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ name: string | undefined;
 //// define
 `name`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawmessagescore.name.description
 
 
 ////
@@ -42,7 +42,7 @@ objective: string | undefined;
 //// define
 `objective`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.rawmessagescore.objective.description
 
 
 ////

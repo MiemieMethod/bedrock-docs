@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ShapelessChemistryRecipe -->类型。
+<!-- md:samp ShapelessChemistryRecipe -->类型。该类型用于protocol.type.shapelesschemistryrecipe.description
 
 ## 结构
 
@@ -68,7 +68,7 @@ rankdir = LR
 //// define
 Recipe Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapelesschemistryrecipe.recipe_id.description
 
 
 ////
@@ -80,7 +80,7 @@ Recipe Id：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapelesschemistryrecipe.数组大小.description
 
 
 /////
@@ -92,7 +92,7 @@ Recipe Id：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapelesschemistryrecipe.entry.description
 
 
 //////
@@ -108,7 +108,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapelesschemistryrecipe.数组大小.description
 
 
 /////
@@ -120,7 +120,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapelesschemistryrecipe.entry.description
 
 
 //////
@@ -131,21 +131,21 @@ Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkitemins
 //// define
 Id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.shapelesschemistryrecipe.id.description
 
 
 ////
 //// define
 Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。As string
+- 特殊类型。protocol.type.shapelesschemistryrecipe.tag.descriptionAs string
 
 
 ////
 //// define
 Priority：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.shapelesschemistryrecipe.priority.description
 
 
 ////

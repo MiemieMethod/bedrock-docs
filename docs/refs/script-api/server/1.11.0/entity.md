@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Entity`类。
+`Entity`类。script_api.@minecraft/server.entity.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.entity.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entity.id.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only isClimbing: boolean;
 //// define
 `isClimbing`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.isclimbing.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only isFalling: boolean;
 //// define
 `isFalling`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.isfalling.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only isInWater: boolean;
 //// define
 `isInWater`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.isinwater.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only isOnGround: boolean;
 //// define
 `isOnGround`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.isonground.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only isSleeping: boolean;
 //// define
 `isSleeping`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.issleeping.description
 
 
 ////
@@ -174,7 +174,7 @@ isSneaking: boolean;
 //// define
 `isSneaking`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.issneaking.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only isSprinting: boolean;
 //// define
 `isSprinting`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.issprinting.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only isSwimming: boolean;
 //// define
 `isSwimming`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.entity.isswimming.description
 
 
 ////
@@ -240,7 +240,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.entity.location.description
 
 
 ////
@@ -262,7 +262,7 @@ nameTag: string;
 //// define
 `nameTag`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entity.nametag.description
 
 
 ////
@@ -284,7 +284,7 @@ read-only scoreboardIdentity: ScoreboardIdentity | undefined;
 //// define
 `scoreboardIdentity`：[`ScoreboardIdentity`](./scoreboardidentity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entity.scoreboardidentity.description
 
 
 ////
@@ -306,7 +306,7 @@ read-only typeId: string;
 //// define
 `typeId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entity.typeid.description
 
 
 ////
@@ -322,6 +322,8 @@ read-only typeId: string;
 
 ///
 
+script_api.@minecraft/server.entity.addeffect.description
+
 ```js
 addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffectOptions): void
 ```
@@ -330,7 +332,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 //// define
 `effectType`：[`EffectType`](./effecttype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.effecttype.addeffect.description
 
 
 ////
@@ -338,7 +340,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 //// define
 `duration`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server.entity.duration.addeffect.description
 
 
 ////
@@ -346,7 +348,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 //// define
 `options`：[`EntityEffectOptions`](./entityeffectoptions.md)|`undefined`
 
-- 参数3。
+- script_api.@minecraft/server.entity.options.addeffect.description
 
 
 ////
@@ -354,7 +356,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.addeffect.return
 
 
 ////
@@ -368,6 +370,8 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 
 ///
 
+script_api.@minecraft/server.entity.addtag.description
+
 ```js
 addTag(tag: string): boolean
 ```
@@ -376,7 +380,7 @@ addTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.tag.addtag.description
 
 
 ////
@@ -384,7 +388,7 @@ addTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.addtag.return
 
 
 ////
@@ -398,6 +402,8 @@ addTag(tag: string): boolean
 
 ///
 
+script_api.@minecraft/server.entity.applydamage.description
+
 ```js
 applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | EntityApplyDamageOptions): boolean
 ```
@@ -406,7 +412,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 //// define
 `amount`：`float`
 
-- 参数1。
+- script_api.@minecraft/server.entity.amount.applydamage.description
 
 
 ////
@@ -414,7 +420,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 //// define
 `options`：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entity.options.applydamage.description
 
 
 ////
@@ -422,7 +428,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.applydamage.return
 
 
 ////
@@ -436,6 +442,8 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 
 ///
 
+script_api.@minecraft/server.entity.applyimpulse.description
+
 ```js
 applyImpulse(vector: Vector3): void
 ```
@@ -444,7 +452,7 @@ applyImpulse(vector: Vector3): void
 //// define
 `vector`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.entity.vector.applyimpulse.description
 
 
 ////
@@ -452,7 +460,7 @@ applyImpulse(vector: Vector3): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.applyimpulse.return
 
 
 ////
@@ -466,6 +474,8 @@ applyImpulse(vector: Vector3): void
 
 ///
 
+script_api.@minecraft/server.entity.applyknockback.description
+
 ```js
 applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, verticalStrength: float): void
 ```
@@ -474,7 +484,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `directionX`：`float`
 
-- 参数1。
+- script_api.@minecraft/server.entity.directionx.applyknockback.description
 
 
 ////
@@ -482,7 +492,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `directionZ`：`float`
 
-- 参数2。
+- script_api.@minecraft/server.entity.directionz.applyknockback.description
 
 
 ////
@@ -490,7 +500,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `horizontalStrength`：`float`
 
-- 参数3。
+- script_api.@minecraft/server.entity.horizontalstrength.applyknockback.description
 
 
 ////
@@ -498,7 +508,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `verticalStrength`：`float`
 
-- 参数4。
+- script_api.@minecraft/server.entity.verticalstrength.applyknockback.description
 
 
 ////
@@ -506,7 +516,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.applyknockback.return
 
 
 ////
@@ -520,6 +530,8 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 
 ///
 
+script_api.@minecraft/server.entity.cleardynamicproperties.description
+
 ```js
 clearDynamicProperties(): void
 ```
@@ -528,7 +540,7 @@ clearDynamicProperties(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.cleardynamicproperties.return
 
 
 ////
@@ -542,6 +554,8 @@ clearDynamicProperties(): void
 
 ///
 
+script_api.@minecraft/server.entity.clearvelocity.description
+
 ```js
 clearVelocity(): void
 ```
@@ -550,7 +564,7 @@ clearVelocity(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.clearvelocity.return
 
 
 ////
@@ -564,6 +578,8 @@ clearVelocity(): void
 
 ///
 
+script_api.@minecraft/server.entity.extinguishfire.description
+
 ```js
 extinguishFire(useEffects: boolean): boolean
 ```
@@ -572,7 +588,7 @@ extinguishFire(useEffects: boolean): boolean
 //// define
 `useEffects`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server.entity.useeffects.extinguishfire.description
 
 
 ////
@@ -580,7 +596,7 @@ extinguishFire(useEffects: boolean): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.extinguishfire.return
 
 
 ////
@@ -594,6 +610,8 @@ extinguishFire(useEffects: boolean): boolean
 
 ///
 
+script_api.@minecraft/server.entity.getblockfromviewdirection.description
+
 ```js
 getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | undefined
 ```
@@ -602,7 +620,7 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.entity.options.getblockfromviewdirection.description
 
 
 ////
@@ -610,7 +628,7 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 //// define
 返回值：[`BlockRaycastHit`](./blockraycasthit.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.entity.getblockfromviewdirection.return
 
 
 ////
@@ -624,6 +642,8 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 
 ///
 
+script_api.@minecraft/server.entity.getcomponent.description
+
 ```js
 getComponent(componentId: string): EntityComponent | undefined
 ```
@@ -632,7 +652,7 @@ getComponent(componentId: string): EntityComponent | undefined
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.componentid.getcomponent.description
 
 
 ////
@@ -640,7 +660,7 @@ getComponent(componentId: string): EntityComponent | undefined
 //// define
 返回值：[`EntityComponent`](./entitycomponent.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.entity.getcomponent.return
 
 
 ////
@@ -654,6 +674,8 @@ getComponent(componentId: string): EntityComponent | undefined
 
 ///
 
+script_api.@minecraft/server.entity.getcomponents.description
+
 ```js
 getComponents(): EntityComponent[]
 ```
@@ -662,7 +684,7 @@ getComponents(): EntityComponent[]
 //// define
 返回值：<code><a href="../entitycomponent/">EntityComponent</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entity.getcomponents.return
 
 
 ////
@@ -676,6 +698,8 @@ getComponents(): EntityComponent[]
 
 ///
 
+script_api.@minecraft/server.entity.getdynamicproperty.description
+
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
@@ -684,7 +708,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.identifier.getdynamicproperty.description
 
 
 ////
@@ -692,7 +716,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.entity.getdynamicproperty.return
 
 
 ////
@@ -706,6 +730,8 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 
 ///
 
+script_api.@minecraft/server.entity.getdynamicpropertyids.description
+
 ```js
 getDynamicPropertyIds(): string[]
 ```
@@ -714,7 +740,7 @@ getDynamicPropertyIds(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.entity.getdynamicpropertyids.return
 
 
 ////
@@ -728,6 +754,8 @@ getDynamicPropertyIds(): string[]
 
 ///
 
+script_api.@minecraft/server.entity.getdynamicpropertytotalbytecount.description
+
 ```js
 getDynamicPropertyTotalByteCount(): int32
 ```
@@ -736,7 +764,7 @@ getDynamicPropertyTotalByteCount(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.entity.getdynamicpropertytotalbytecount.return
 
 
 ////
@@ -750,6 +778,8 @@ getDynamicPropertyTotalByteCount(): int32
 
 ///
 
+script_api.@minecraft/server.entity.geteffect.description
+
 ```js
 getEffect(effectType: EffectType | string): Effect | undefined
 ```
@@ -758,7 +788,7 @@ getEffect(effectType: EffectType | string): Effect | undefined
 //// define
 `effectType`：[`EffectType`](./effecttype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.effecttype.geteffect.description
 
 
 ////
@@ -766,7 +796,7 @@ getEffect(effectType: EffectType | string): Effect | undefined
 //// define
 返回值：[`Effect`](./effect.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.entity.geteffect.return
 
 
 ////
@@ -780,6 +810,8 @@ getEffect(effectType: EffectType | string): Effect | undefined
 
 ///
 
+script_api.@minecraft/server.entity.geteffects.description
+
 ```js
 getEffects(): Effect[]
 ```
@@ -788,7 +820,7 @@ getEffects(): Effect[]
 //// define
 返回值：<code><a href="../effect/">Effect</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entity.geteffects.return
 
 
 ////
@@ -802,6 +834,8 @@ getEffects(): Effect[]
 
 ///
 
+script_api.@minecraft/server.entity.getentitiesfromviewdirection.description
+
 ```js
 getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 ```
@@ -810,7 +844,7 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.entity.options.getentitiesfromviewdirection.description
 
 
 ////
@@ -818,7 +852,7 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 //// define
 返回值：<code><a href="../entityraycasthit/">EntityRaycastHit</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entity.getentitiesfromviewdirection.return
 
 
 ////
@@ -832,6 +866,8 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 
 ///
 
+script_api.@minecraft/server.entity.getheadlocation.description
+
 ```js
 getHeadLocation(): Vector3
 ```
@@ -840,7 +876,7 @@ getHeadLocation(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.getheadlocation.return
 
 
 ////
@@ -854,6 +890,8 @@ getHeadLocation(): Vector3
 
 ///
 
+script_api.@minecraft/server.entity.getproperty.description
+
 ```js
 getProperty(identifier: string): boolean | float | string | undefined
 ```
@@ -862,7 +900,7 @@ getProperty(identifier: string): boolean | float | string | undefined
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.identifier.getproperty.description
 
 
 ////
@@ -870,7 +908,7 @@ getProperty(identifier: string): boolean | float | string | undefined
 //// define
 返回值：`boolean`|`float`|`string`|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.entity.getproperty.return
 
 
 ////
@@ -884,6 +922,8 @@ getProperty(identifier: string): boolean | float | string | undefined
 
 ///
 
+script_api.@minecraft/server.entity.getrotation.description
+
 ```js
 getRotation(): Vector2
 ```
@@ -892,7 +932,7 @@ getRotation(): Vector2
 //// define
 返回值：[`Vector2`](./vector2.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.getrotation.return
 
 
 ////
@@ -906,6 +946,8 @@ getRotation(): Vector2
 
 ///
 
+script_api.@minecraft/server.entity.gettags.description
+
 ```js
 getTags(): string[]
 ```
@@ -914,7 +956,7 @@ getTags(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.entity.gettags.return
 
 
 ////
@@ -928,6 +970,8 @@ getTags(): string[]
 
 ///
 
+script_api.@minecraft/server.entity.getvelocity.description
+
 ```js
 getVelocity(): Vector3
 ```
@@ -936,7 +980,7 @@ getVelocity(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.getvelocity.return
 
 
 ////
@@ -950,6 +994,8 @@ getVelocity(): Vector3
 
 ///
 
+script_api.@minecraft/server.entity.getviewdirection.description
+
 ```js
 getViewDirection(): Vector3
 ```
@@ -958,7 +1004,7 @@ getViewDirection(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.getviewdirection.return
 
 
 ////
@@ -972,6 +1018,8 @@ getViewDirection(): Vector3
 
 ///
 
+script_api.@minecraft/server.entity.hascomponent.description
+
 ```js
 hasComponent(componentId: string): boolean
 ```
@@ -980,7 +1028,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.componentid.hascomponent.description
 
 
 ////
@@ -988,7 +1036,7 @@ hasComponent(componentId: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.hascomponent.return
 
 
 ////
@@ -1002,6 +1050,8 @@ hasComponent(componentId: string): boolean
 
 ///
 
+script_api.@minecraft/server.entity.hastag.description
+
 ```js
 hasTag(tag: string): boolean
 ```
@@ -1010,7 +1060,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.tag.hastag.description
 
 
 ////
@@ -1018,7 +1068,7 @@ hasTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.hastag.return
 
 
 ////
@@ -1032,6 +1082,8 @@ hasTag(tag: string): boolean
 
 ///
 
+script_api.@minecraft/server.entity.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -1040,7 +1092,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.isvalid.return
 
 
 ////
@@ -1054,6 +1106,8 @@ isValid(): boolean
 
 ///
 
+script_api.@minecraft/server.entity.kill.description
+
 ```js
 kill(): boolean
 ```
@@ -1062,7 +1116,7 @@ kill(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.kill.return
 
 
 ////
@@ -1076,6 +1130,8 @@ kill(): boolean
 
 ///
 
+script_api.@minecraft/server.entity.matches.description
+
 ```js
 matches(options: EntityQueryOptions): boolean
 ```
@@ -1084,7 +1140,7 @@ matches(options: EntityQueryOptions): boolean
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)
 
-- 参数1。
+- script_api.@minecraft/server.entity.options.matches.description
 
 
 ////
@@ -1092,7 +1148,7 @@ matches(options: EntityQueryOptions): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.matches.return
 
 
 ////
@@ -1106,6 +1162,8 @@ matches(options: EntityQueryOptions): boolean
 
 ///
 
+script_api.@minecraft/server.entity.playanimation.description
+
 ```js
 playAnimation(animationName: string, options?: PlayAnimationOptions): void
 ```
@@ -1114,7 +1172,7 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 //// define
 `animationName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.animationname.playanimation.description
 
 
 ////
@@ -1122,7 +1180,7 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 //// define
 `options`：[`PlayAnimationOptions`](./playanimationoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entity.options.playanimation.description
 
 
 ////
@@ -1130,7 +1188,7 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.playanimation.return
 
 
 ////
@@ -1144,6 +1202,8 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 
 ///
 
+script_api.@minecraft/server.entity.remove.description
+
 ```js
 remove(): void
 ```
@@ -1152,7 +1212,7 @@ remove(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.remove.return
 
 
 ////
@@ -1166,6 +1226,8 @@ remove(): void
 
 ///
 
+script_api.@minecraft/server.entity.removeeffect.description
+
 ```js
 removeEffect(effectType: EffectType | string): boolean
 ```
@@ -1174,7 +1236,7 @@ removeEffect(effectType: EffectType | string): boolean
 //// define
 `effectType`：[`EffectType`](./effecttype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.effecttype.removeeffect.description
 
 
 ////
@@ -1182,7 +1244,7 @@ removeEffect(effectType: EffectType | string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.removeeffect.return
 
 
 ////
@@ -1196,6 +1258,8 @@ removeEffect(effectType: EffectType | string): boolean
 
 ///
 
+script_api.@minecraft/server.entity.removetag.description
+
 ```js
 removeTag(tag: string): boolean
 ```
@@ -1204,7 +1268,7 @@ removeTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.tag.removetag.description
 
 
 ////
@@ -1212,7 +1276,7 @@ removeTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.removetag.return
 
 
 ////
@@ -1226,6 +1290,8 @@ removeTag(tag: string): boolean
 
 ///
 
+script_api.@minecraft/server.entity.resetproperty.description
+
 ```js
 resetProperty(identifier: string): boolean | float | string
 ```
@@ -1234,7 +1300,7 @@ resetProperty(identifier: string): boolean | float | string
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.identifier.resetproperty.description
 
 
 ////
@@ -1242,7 +1308,7 @@ resetProperty(identifier: string): boolean | float | string
 //// define
 返回值：`boolean`|`float`|`string`
 
-- 返回值。
+- script_api.@minecraft/server.entity.resetproperty.return
 
 
 ////
@@ -1256,6 +1322,8 @@ resetProperty(identifier: string): boolean | float | string
 
 ///
 
+script_api.@minecraft/server.entity.runcommand.description
+
 ```js
 runCommand(commandString: string): CommandResult
 ```
@@ -1264,7 +1332,7 @@ runCommand(commandString: string): CommandResult
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.commandstring.runcommand.description
 
 
 ////
@@ -1272,7 +1340,7 @@ runCommand(commandString: string): CommandResult
 //// define
 返回值：[`CommandResult`](./commandresult.md)
 
-- 返回值。
+- script_api.@minecraft/server.entity.runcommand.return
 
 
 ////
@@ -1286,6 +1354,8 @@ runCommand(commandString: string): CommandResult
 
 ///
 
+script_api.@minecraft/server.entity.runcommandasync.description
+
 ```js
 runCommandAsync(commandString: string): Promise<CommandResult>
 ```
@@ -1294,7 +1364,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.commandstring.runcommandasync.description
 
 
 ////
@@ -1302,7 +1372,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 返回值：<code>Promise&lt;<a href="../commandresult/">CommandResult</a>&gt;</code>
 
-- 返回值。
+- script_api.@minecraft/server.entity.runcommandasync.return
 
 
 ////
@@ -1316,6 +1386,8 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 
 ///
 
+script_api.@minecraft/server.entity.setdynamicproperty.description
+
 ```js
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
@@ -1324,7 +1396,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.identifier.setdynamicproperty.description
 
 
 ////
@@ -1332,7 +1404,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entity.value.setdynamicproperty.description
 
 
 ////
@@ -1340,7 +1412,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.setdynamicproperty.return
 
 
 ////
@@ -1354,6 +1426,8 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 
 ///
 
+script_api.@minecraft/server.entity.setonfire.description
+
 ```js
 setOnFire(seconds: int32, useEffects: boolean): boolean
 ```
@@ -1362,7 +1436,7 @@ setOnFire(seconds: int32, useEffects: boolean): boolean
 //// define
 `seconds`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.entity.seconds.setonfire.description
 
 
 ////
@@ -1370,7 +1444,7 @@ setOnFire(seconds: int32, useEffects: boolean): boolean
 //// define
 `useEffects`：`boolean`
 
-- 参数2。
+- script_api.@minecraft/server.entity.useeffects.setonfire.description
 
 
 ////
@@ -1378,7 +1452,7 @@ setOnFire(seconds: int32, useEffects: boolean): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.setonfire.return
 
 
 ////
@@ -1392,6 +1466,8 @@ setOnFire(seconds: int32, useEffects: boolean): boolean
 
 ///
 
+script_api.@minecraft/server.entity.setproperty.description
+
 ```js
 setProperty(identifier: string, value: boolean | float | string): void
 ```
@@ -1400,7 +1476,7 @@ setProperty(identifier: string, value: boolean | float | string): void
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.identifier.setproperty.description
 
 
 ////
@@ -1408,7 +1484,7 @@ setProperty(identifier: string, value: boolean | float | string): void
 //// define
 `value`：`boolean`|`float`|`string`
 
-- 参数2。
+- script_api.@minecraft/server.entity.value.setproperty.description
 
 
 ////
@@ -1416,7 +1492,7 @@ setProperty(identifier: string, value: boolean | float | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.setproperty.return
 
 
 ////
@@ -1430,6 +1506,8 @@ setProperty(identifier: string, value: boolean | float | string): void
 
 ///
 
+script_api.@minecraft/server.entity.setrotation.description
+
 ```js
 setRotation(rotation: Vector2): void
 ```
@@ -1438,7 +1516,7 @@ setRotation(rotation: Vector2): void
 //// define
 `rotation`：[`Vector2`](./vector2.md)
 
-- 参数1。
+- script_api.@minecraft/server.entity.rotation.setrotation.description
 
 
 ////
@@ -1446,7 +1524,7 @@ setRotation(rotation: Vector2): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.setrotation.return
 
 
 ////
@@ -1460,6 +1538,8 @@ setRotation(rotation: Vector2): void
 
 ///
 
+script_api.@minecraft/server.entity.teleport.description
+
 ```js
 teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 ```
@@ -1468,7 +1548,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.entity.location.teleport.description
 
 
 ////
@@ -1476,7 +1556,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 //// define
 `teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entity.teleportoptions.teleport.description
 
 
 ////
@@ -1484,7 +1564,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.teleport.return
 
 
 ////
@@ -1498,6 +1578,8 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 
 ///
 
+script_api.@minecraft/server.entity.triggerevent.description
+
 ```js
 triggerEvent(eventName: string): void
 ```
@@ -1506,7 +1588,7 @@ triggerEvent(eventName: string): void
 //// define
 `eventName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.entity.eventname.triggerevent.description
 
 
 ////
@@ -1514,7 +1596,7 @@ triggerEvent(eventName: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entity.triggerevent.return
 
 
 ////
@@ -1528,6 +1610,8 @@ triggerEvent(eventName: string): void
 
 ///
 
+script_api.@minecraft/server.entity.tryteleport.description
+
 ```js
 tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 ```
@@ -1536,7 +1620,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.entity.location.tryteleport.description
 
 
 ////
@@ -1544,7 +1628,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 //// define
 `teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.entity.teleportoptions.tryteleport.description
 
 
 ////
@@ -1552,7 +1636,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entity.tryteleport.return
 
 
 ////

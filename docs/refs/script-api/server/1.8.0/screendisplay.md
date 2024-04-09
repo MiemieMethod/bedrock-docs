@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScreenDisplay`类。
+`ScreenDisplay`类。script_api.@minecraft/server.screendisplay.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.screendisplay.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -20,7 +22,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.screendisplay.isvalid.return
 
 
 ////
@@ -34,15 +36,17 @@ isValid(): boolean
 
 ///
 
+script_api.@minecraft/server.screendisplay.setactionbar.description
+
 ```js
-setActionBar(text: RawMessage | string[] | RawMessage | string): void
+setActionBar(text: (RawMessage | string)[] | RawMessage | string): void
 ```
 
 /// html | div.result
 //// define
-`text`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`text`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.screendisplay.text.setactionbar.description
 
 
 ////
@@ -50,7 +54,7 @@ setActionBar(text: RawMessage | string[] | RawMessage | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.screendisplay.setactionbar.return
 
 
 ////
@@ -64,15 +68,17 @@ setActionBar(text: RawMessage | string[] | RawMessage | string): void
 
 ///
 
+script_api.@minecraft/server.screendisplay.settitle.description
+
 ```js
-setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisplayOptions): void
+setTitle(title: (RawMessage | string)[] | RawMessage | string, options?: TitleDisplayOptions): void
 ```
 
 /// html | div.result
 //// define
-`title`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`title`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.screendisplay.title.settitle.description
 
 
 ////
@@ -80,7 +86,7 @@ setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisp
 //// define
 `options`：[`TitleDisplayOptions`](./titledisplayoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.screendisplay.options.settitle.description
 
 
 ////
@@ -88,7 +94,7 @@ setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisp
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.screendisplay.settitle.return
 
 
 ////
@@ -102,15 +108,17 @@ setTitle(title: RawMessage | string[] | RawMessage | string, options?: TitleDisp
 
 ///
 
+script_api.@minecraft/server.screendisplay.updatesubtitle.description
+
 ```js
-updateSubtitle(subtitle: RawMessage | string[] | RawMessage | string): void
+updateSubtitle(subtitle: (RawMessage | string)[] | RawMessage | string): void
 ```
 
 /// html | div.result
 //// define
-`subtitle`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`subtitle`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.screendisplay.subtitle.updatesubtitle.description
 
 
 ////
@@ -118,7 +126,7 @@ updateSubtitle(subtitle: RawMessage | string[] | RawMessage | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.screendisplay.updatesubtitle.return
 
 
 ////

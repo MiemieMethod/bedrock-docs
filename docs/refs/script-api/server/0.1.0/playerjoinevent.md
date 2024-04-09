@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerJoinEvent`类。
+`PlayerJoinEvent`类。script_api.mojang-minecraft.playerjoinevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.mojang-minecraft.playerjoinevent.player.description
 
 
 ////

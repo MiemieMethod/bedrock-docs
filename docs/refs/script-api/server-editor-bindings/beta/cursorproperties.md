@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CursorProperties`接口。
+`CursorProperties`接口。script_api.@minecraft/server-editor-bindings.cursorproperties.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ controlMode: CursorControlMode | undefined;
 //// define
 `controlMode`：[`CursorControlMode`](./cursorcontrolmode.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursorproperties.controlmode.description
 
 
 ////
@@ -42,7 +42,7 @@ fixedModeDistance: int32 | undefined;
 //// define
 `fixedModeDistance`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursorproperties.fixedmodedistance.description
 
 
 ////
@@ -64,7 +64,7 @@ outlineColor: RGBA | undefined;
 //// define
 `outlineColor`：[`RGBA`](../../server/beta/rgba.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursorproperties.outlinecolor.description
 
 
 ////
@@ -86,7 +86,7 @@ projectThroughLiquid: boolean | undefined;
 //// define
 `projectThroughLiquid`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursorproperties.projectthroughliquid.description
 
 
 ////
@@ -108,7 +108,7 @@ targetMode: CursorTargetMode | undefined;
 //// define
 `targetMode`：[`CursorTargetMode`](./cursortargetmode.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursorproperties.targetmode.description
 
 
 ////
@@ -130,7 +130,7 @@ visible: boolean | undefined;
 //// define
 `visible`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursorproperties.visible.description
 
 
 ////

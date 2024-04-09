@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentStepOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`BlockComponentStepOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentsteponevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity | undefined;
 //// define
 `entity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcomponentsteponevent.entity.description
 
 
 ////

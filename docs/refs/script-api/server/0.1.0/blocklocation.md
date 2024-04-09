@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockLocation`类。
+`BlockLocation`类。script_api.mojang-minecraft.blocklocation.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ x: int32;
 //// define
 `x`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.blocklocation.x.description
 
 
 ////
@@ -42,7 +42,7 @@ y: int32;
 //// define
 `y`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.blocklocation.y.description
 
 
 ////
@@ -64,7 +64,7 @@ z: int32;
 //// define
 `z`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.blocklocation.z.description
 
 
 ////
@@ -80,6 +80,8 @@ z: int32;
 
 ///
 
+script_api.mojang-minecraft.blocklocation.above.description
+
 ```js
 above(): BlockLocation
 ```
@@ -88,7 +90,7 @@ above(): BlockLocation
 //// define
 返回值：[`BlockLocation`](./blocklocation.md)
 
-- 返回值。
+- script_api.mojang-minecraft.blocklocation.above.return
 
 
 ////
@@ -102,6 +104,8 @@ above(): BlockLocation
 
 ///
 
+script_api.mojang-minecraft.blocklocation.blocksbetween.description
+
 ```js
 blocksBetween(other: BlockLocation): BlockLocation[]
 ```
@@ -110,7 +114,7 @@ blocksBetween(other: BlockLocation): BlockLocation[]
 //// define
 `other`：[`BlockLocation`](./blocklocation.md)
 
-- 参数1。
+- script_api.mojang-minecraft.blocklocation.other.blocksbetween.description
 
 
 ////
@@ -118,7 +122,7 @@ blocksBetween(other: BlockLocation): BlockLocation[]
 //// define
 返回值：<code><a href="../blocklocation/">BlockLocation</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.blocklocation.blocksbetween.return
 
 
 ////
@@ -132,6 +136,8 @@ blocksBetween(other: BlockLocation): BlockLocation[]
 
 ///
 
+script_api.mojang-minecraft.blocklocation.constructor.description
+
 ```js
 new constructor(x: int32, y: int32, z: int32): BlockLocation
 ```
@@ -140,7 +146,7 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `x`：`int32`
 
-- 参数1。
+- script_api.mojang-minecraft.blocklocation.x.constructor.description
 
 
 ////
@@ -148,7 +154,7 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `y`：`int32`
 
-- 参数2。
+- script_api.mojang-minecraft.blocklocation.y.constructor.description
 
 
 ////
@@ -156,7 +162,7 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `z`：`int32`
 
-- 参数3。
+- script_api.mojang-minecraft.blocklocation.z.constructor.description
 
 
 ////
@@ -164,7 +170,7 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 //// define
 返回值：[`BlockLocation`](./blocklocation.md)
 
-- 返回值。
+- script_api.mojang-minecraft.blocklocation.constructor.return
 
 
 ////
@@ -178,6 +184,8 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 
 ///
 
+script_api.mojang-minecraft.blocklocation.equals.description
+
 ```js
 equals(other: BlockLocation): boolean
 ```
@@ -186,7 +194,7 @@ equals(other: BlockLocation): boolean
 //// define
 `other`：[`BlockLocation`](./blocklocation.md)
 
-- 参数1。
+- script_api.mojang-minecraft.blocklocation.other.equals.description
 
 
 ////
@@ -194,7 +202,7 @@ equals(other: BlockLocation): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.blocklocation.equals.return
 
 
 ////
@@ -208,6 +216,8 @@ equals(other: BlockLocation): boolean
 
 ///
 
+script_api.mojang-minecraft.blocklocation.offset.description
+
 ```js
 offset(x: int32, y: int32, z: int32): BlockLocation
 ```
@@ -216,7 +226,7 @@ offset(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `x`：`int32`
 
-- 参数1。
+- script_api.mojang-minecraft.blocklocation.x.offset.description
 
 
 ////
@@ -224,7 +234,7 @@ offset(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `y`：`int32`
 
-- 参数2。
+- script_api.mojang-minecraft.blocklocation.y.offset.description
 
 
 ////
@@ -232,7 +242,7 @@ offset(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `z`：`int32`
 
-- 参数3。
+- script_api.mojang-minecraft.blocklocation.z.offset.description
 
 
 ////
@@ -240,7 +250,7 @@ offset(x: int32, y: int32, z: int32): BlockLocation
 //// define
 返回值：[`BlockLocation`](./blocklocation.md)
 
-- 返回值。
+- script_api.mojang-minecraft.blocklocation.offset.return
 
 
 ////

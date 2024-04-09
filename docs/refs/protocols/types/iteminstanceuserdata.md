@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemInstanceUserData -->类型。
+<!-- md:samp ItemInstanceUserData -->类型。该类型用于protocol.type.iteminstanceuserdata.description
 
 ## 结构
 
@@ -64,21 +64,21 @@ rankdir = LR
 //// define
 User Data Serialization Marker：<!-- md:samp short -->
 
-- 基本类型。(-1) marking start of data
+- 基本类型。protocol.type.iteminstanceuserdata.user_data_serialization_marker.description(-1) marking start of data
 
 
 ////
 //// define
 User Data Serialization Version：<!-- md:samp byte -->
 
-- 基本类型。Currently 1
+- 基本类型。protocol.type.iteminstanceuserdata.user_data_serialization_version.descriptionCurrently 1
 
 
 ////
 //// define
 User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。See: @CompoundTag.html#Compound Tag@ .
+- 特殊类型。protocol.type.iteminstanceuserdata.user_data_tag(s).descriptionSee: @CompoundTag.html#Compound Tag@ .
 
 
 ////
@@ -90,7 +90,7 @@ User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ///// define
 数组大小：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.iteminstanceuserdata.数组大小.description
 
 
 /////
@@ -102,7 +102,7 @@ User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////// define
 Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.iteminstanceuserdata.block_raw_name_id.description
 
 
 //////
@@ -118,7 +118,7 @@ Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.iteminstanceuserdata.数组大小.description
 
 
 /////
@@ -130,7 +130,7 @@ Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.iteminstanceuserdata.block_raw_name_id.description
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Player`类，扩展自[`Entity`](./entity.md)。
+`Player`类，扩展自[`Entity`](./entity.md)。script_api.@minecraft/server.player.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.@minecraft/server.player.name.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only onScreenDisplay: ScreenDisplay;
 //// define
 `onScreenDisplay`：[`ScreenDisplay`](./screendisplay.md)
 
-- 属性。
+- script_api.@minecraft/server.player.onscreendisplay.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only onScreenDisplay: ScreenDisplay;
 
 ///
 
+script_api.@minecraft/server.player.getspawnpoint.description
+
 ```js
 getSpawnPoint(): DimensionLocation | undefined
 ```
@@ -66,7 +68,7 @@ getSpawnPoint(): DimensionLocation | undefined
 //// define
 返回值：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.player.getspawnpoint.return
 
 
 ////
@@ -80,6 +82,8 @@ getSpawnPoint(): DimensionLocation | undefined
 
 ///
 
+script_api.@minecraft/server.player.playsound.description
+
 ```js
 playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ```
@@ -88,7 +92,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.soundid.playsound.description
 
 
 ////
@@ -96,7 +100,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.player.soundoptions.playsound.description
 
 
 ////
@@ -104,7 +108,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.playsound.return
 
 
 ////
@@ -118,15 +122,17 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 
 ///
 
+script_api.@minecraft/server.player.sendmessage.description
+
 ```js
-sendMessage(message: RawMessage | string[] | RawMessage | string): void
+sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 ```
 
 /// html | div.result
 //// define
-`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.player.message.sendmessage.description
 
 
 ////
@@ -134,7 +140,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.sendmessage.return
 
 
 ////
@@ -148,6 +154,8 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 
 ///
 
+script_api.@minecraft/server.player.setspawnpoint.description
+
 ```js
 setSpawnPoint(spawnPoint?: DimensionLocation): void
 ```
@@ -156,7 +164,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 //// define
 `spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.player.spawnpoint.setspawnpoint.description
 
 
 ////
@@ -164,7 +172,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.player.setspawnpoint.return
 
 
 ////

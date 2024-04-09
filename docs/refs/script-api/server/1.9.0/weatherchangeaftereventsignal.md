@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WeatherChangeAfterEventSignal`类。
+`WeatherChangeAfterEventSignal`类。script_api.@minecraft/server.weatherchangeaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.weatherchangeaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChangeAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChange
 //// define
 `callback`：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.weatherchangeaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChange
 //// define
 返回值：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.weatherchangeaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChange
 
 ///
 
+script_api.@minecraft/server.weatherchangeaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: WeatherChangeAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: WeatherChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.weatherchangeaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: WeatherChangeAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.weatherchangeaftereventsignal.unsubscribe.return
 
 
 ////

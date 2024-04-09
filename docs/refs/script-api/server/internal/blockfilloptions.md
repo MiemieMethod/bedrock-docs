@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockFillOptions`接口。
+`BlockFillOptions`接口。script_api.@minecraft/server.blockfilloptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ matchingBlock: BlockPermutation | undefined;
 //// define
 `matchingBlock`：[`BlockPermutation`](./blockpermutation.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockfilloptions.matchingblock.description
 
 
 ////

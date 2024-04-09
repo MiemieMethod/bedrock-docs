@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`LessThanComparison`接口。
+`LessThanComparison`接口。script_api.@minecraft/server.lessthancomparison.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ lessThan: float;
 //// define
 `lessThan`：`float`
 
-- 属性。
+- script_api.@minecraft/server.lessthancomparison.lessthan.description
 
 
 ////

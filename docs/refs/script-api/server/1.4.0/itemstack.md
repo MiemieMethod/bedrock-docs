@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemStack`类。
+`ItemStack`类。script_api.@minecraft/server.itemstack.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only amount: int32;
 //// define
 `amount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.itemstack.amount.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only isStackable: boolean;
 //// define
 `isStackable`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.itemstack.isstackable.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only keepOnDeath: boolean;
 //// define
 `keepOnDeath`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.itemstack.keepondeath.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only lockMode: ItemLockMode;
 //// define
 `lockMode`：[`ItemLockMode`](./itemlockmode.md)
 
-- 属性。
+- script_api.@minecraft/server.itemstack.lockmode.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only maxAmount: int32;
 //// define
 `maxAmount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.itemstack.maxamount.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only nameTag: string | undefined;
 //// define
 `nameTag`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemstack.nametag.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only type: ItemType;
 //// define
 `type`：[`ItemType`](./itemtype.md)
 
-- 属性。
+- script_api.@minecraft/server.itemstack.type.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only typeId: string;
 //// define
 `typeId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.itemstack.typeid.description
 
 
 ////
@@ -190,6 +190,8 @@ read-only typeId: string;
 
 ///
 
+script_api.@minecraft/server.itemstack.constructor.description
+
 ```js
 new constructor(itemType: ItemType | string, amount: int32): ItemStack
 ```
@@ -198,7 +200,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 //// define
 `itemType`：[`ItemType`](./itemtype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemstack.itemtype.constructor.description
 
 
 ////
@@ -206,7 +208,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 //// define
 `amount`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server.itemstack.amount.constructor.description
 
 
 ////
@@ -214,7 +216,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 //// define
 返回值：[`ItemStack`](./itemstack.md)
 
-- 返回值。
+- script_api.@minecraft/server.itemstack.constructor.return
 
 
 ////
@@ -228,6 +230,8 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 
 ///
 
+script_api.@minecraft/server.itemstack.getcomponent.description
+
 ```js
 getComponent(componentId: string): ItemComponent | undefined
 ```
@@ -236,7 +240,7 @@ getComponent(componentId: string): ItemComponent | undefined
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemstack.componentid.getcomponent.description
 
 
 ////
@@ -244,7 +248,7 @@ getComponent(componentId: string): ItemComponent | undefined
 //// define
 返回值：[`ItemComponent`](./itemcomponent.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.itemstack.getcomponent.return
 
 
 ////
@@ -258,6 +262,8 @@ getComponent(componentId: string): ItemComponent | undefined
 
 ///
 
+script_api.@minecraft/server.itemstack.getcomponents.description
+
 ```js
 getComponents(): ItemComponent[]
 ```
@@ -266,7 +272,7 @@ getComponents(): ItemComponent[]
 //// define
 返回值：<code><a href="../itemcomponent/">ItemComponent</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.itemstack.getcomponents.return
 
 
 ////
@@ -280,6 +286,8 @@ getComponents(): ItemComponent[]
 
 ///
 
+script_api.@minecraft/server.itemstack.getlore.description
+
 ```js
 getLore(): string[]
 ```
@@ -288,7 +296,7 @@ getLore(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.itemstack.getlore.return
 
 
 ////
@@ -302,6 +310,8 @@ getLore(): string[]
 
 ///
 
+script_api.@minecraft/server.itemstack.hascomponent.description
+
 ```js
 hasComponent(componentId: string): boolean
 ```
@@ -310,7 +320,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemstack.componentid.hascomponent.description
 
 
 ////
@@ -318,7 +328,7 @@ hasComponent(componentId: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.itemstack.hascomponent.return
 
 
 ////
@@ -332,6 +342,8 @@ hasComponent(componentId: string): boolean
 
 ///
 
+script_api.@minecraft/server.itemstack.isstackablewith.description
+
 ```js
 isStackableWith(itemStack: ItemStack): boolean
 ```
@@ -340,7 +352,7 @@ isStackableWith(itemStack: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server.itemstack.itemstack.isstackablewith.description
 
 
 ////
@@ -348,7 +360,7 @@ isStackableWith(itemStack: ItemStack): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.itemstack.isstackablewith.return
 
 
 ////
@@ -362,6 +374,8 @@ isStackableWith(itemStack: ItemStack): boolean
 
 ///
 
+script_api.@minecraft/server.itemstack.setlore.description
+
 ```js
 setLore(loreList?: string[]): void
 ```
@@ -370,7 +384,7 @@ setLore(loreList?: string[]): void
 //// define
 `loreList`：`string[]`|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.itemstack.lorelist.setlore.description
 
 
 ////
@@ -378,7 +392,7 @@ setLore(loreList?: string[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemstack.setlore.return
 
 
 ////

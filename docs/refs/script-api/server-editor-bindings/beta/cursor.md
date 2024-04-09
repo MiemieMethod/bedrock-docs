@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Cursor`类。
+`Cursor`类。script_api.@minecraft/server-editor-bindings.cursor.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only faceDirection: uint8;
 //// define
 `faceDirection`：`uint8`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursor.facedirection.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only isVisible: boolean;
 //// define
 `isVisible`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.cursor.isvisible.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only isVisible: boolean;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursor.getposition.description
+
 ```js
 getPosition(): Vector3
 ```
@@ -66,7 +68,7 @@ getPosition(): Vector3
 //// define
 返回值：[`Vector3`](../../server/beta/vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursor.getposition.return
 
 
 ////
@@ -80,6 +82,8 @@ getPosition(): Vector3
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursor.getproperties.description
+
 ```js
 getProperties(): CursorProperties
 ```
@@ -88,7 +92,7 @@ getProperties(): CursorProperties
 //// define
 返回值：[`CursorProperties`](./cursorproperties.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursor.getproperties.return
 
 
 ////
@@ -102,6 +106,8 @@ getProperties(): CursorProperties
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursor.hide.description
+
 ```js
 hide(): void
 ```
@@ -110,7 +116,7 @@ hide(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursor.hide.return
 
 
 ////
@@ -124,6 +130,8 @@ hide(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursor.moveby.description
+
 ```js
 moveBy(offset: Vector3): Vector3
 ```
@@ -132,7 +140,7 @@ moveBy(offset: Vector3): Vector3
 //// define
 `offset`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.cursor.offset.moveby.description
 
 
 ////
@@ -140,7 +148,7 @@ moveBy(offset: Vector3): Vector3
 //// define
 返回值：[`Vector3`](../../server/beta/vector3.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursor.moveby.return
 
 
 ////
@@ -154,6 +162,8 @@ moveBy(offset: Vector3): Vector3
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursor.resettodefaultstate.description
+
 ```js
 resetToDefaultState(): void
 ```
@@ -162,7 +172,7 @@ resetToDefaultState(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursor.resettodefaultstate.return
 
 
 ////
@@ -176,6 +186,8 @@ resetToDefaultState(): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursor.setproperties.description
+
 ```js
 setProperties(properties: CursorProperties): void
 ```
@@ -184,7 +196,7 @@ setProperties(properties: CursorProperties): void
 //// define
 `properties`：[`CursorProperties`](./cursorproperties.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.cursor.properties.setproperties.description
 
 
 ////
@@ -192,7 +204,7 @@ setProperties(properties: CursorProperties): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursor.setproperties.return
 
 
 ////
@@ -206,6 +218,8 @@ setProperties(properties: CursorProperties): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.cursor.show.description
+
 ```js
 show(): void
 ```
@@ -214,7 +228,7 @@ show(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.cursor.show.return
 
 
 ////

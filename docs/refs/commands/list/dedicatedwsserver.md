@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/dedicatedwsserver`命令Attempts to connect to the websocket server on the provided URL.
+`/dedicatedwsserver`命令command.dedicatedwsserver.description
 
 /// settings | 执行条件
 该命令需要权限等级：`any`|`0`。该命令需要开启作弊。
@@ -20,10 +20,12 @@
 ```
 
 //// html | div.result
+command.dedicatedwsserver.1.description
+
 ///// define
 `serverUri`：<!-- md:samp message -->
 
-- 基本类型。
+- 基本类型。command.dedicatedwsserver.serverUri.description
 
 
 /////

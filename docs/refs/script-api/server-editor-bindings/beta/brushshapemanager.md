@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BrushShapeManager`类。
+`BrushShapeManager`类。script_api.@minecraft/server-editor-bindings.brushshapemanager.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only activeBrushShape: BrushShape | undefined;
 //// define
 `activeBrushShape`：[`BrushShape`](./brushshape.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.activebrushshape.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only activeBrushVolume: CompoundBlockVolume | undefined;
 //// define
 `activeBrushVolume`：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.activebrushvolume.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only brushShapeNames: string[];
 //// define
 `brushShapeNames`：`string[]`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.brushshapenames.description
 
 
 ////
@@ -80,6 +80,8 @@ read-only brushShapeNames: string[];
 
 ///
 
+script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushshape.description
+
 ```js
 activateBrushShape(name: string): CompoundBlockVolume
 ```
@@ -88,7 +90,7 @@ activateBrushShape(name: string): CompoundBlockVolume
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.name.activatebrushshape.description
 
 
 ////
@@ -96,7 +98,7 @@ activateBrushShape(name: string): CompoundBlockVolume
 //// define
 返回值：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushshape.return
 
 
 ////
@@ -110,6 +112,8 @@ activateBrushShape(name: string): CompoundBlockVolume
 
 ///
 
+script_api.@minecraft/server-editor-bindings.brushshapemanager.getsettingsuielements.description
+
 ```js
 getSettingsUIElements(brushName: string): SettingsUIElement[]
 ```
@@ -118,7 +122,7 @@ getSettingsUIElements(brushName: string): SettingsUIElement[]
 //// define
 `brushName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.brushname.getsettingsuielements.description
 
 
 ////
@@ -126,7 +130,7 @@ getSettingsUIElements(brushName: string): SettingsUIElement[]
 //// define
 返回值：<code><a href="../settingsuielement/">SettingsUIElement</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.getsettingsuielements.return
 
 
 ////
@@ -140,6 +144,8 @@ getSettingsUIElements(brushName: string): SettingsUIElement[]
 
 ///
 
+script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.description
+
 ```js
 registerBrushShape(brushShape: BrushShape): void
 ```
@@ -148,7 +154,7 @@ registerBrushShape(brushShape: BrushShape): void
 //// define
 `brushShape`：[`BrushShape`](./brushshape.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.brushshape.registerbrushshape.description
 
 
 ////
@@ -156,7 +162,7 @@ registerBrushShape(brushShape: BrushShape): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.return
 
 
 ////
@@ -170,6 +176,8 @@ registerBrushShape(brushShape: BrushShape): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.brushshapemanager.uisettingvaluechanged.description
+
 ```js
 uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 ```
@@ -178,7 +186,7 @@ uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 //// define
 `elementName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.elementname.uisettingvaluechanged.description
 
 
 ////
@@ -186,7 +194,7 @@ uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 //// define
 `newValue`：`boolean`|`int32`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.newvalue.uisettingvaluechanged.description
 
 
 ////
@@ -194,7 +202,7 @@ uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.uisettingvaluechanged.return
 
 
 ////

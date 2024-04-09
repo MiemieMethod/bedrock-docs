@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SimpleBlockPaletteItem`类，扩展自[`IBlockPaletteItem`](./iblockpaletteitem.md)。
+`SimpleBlockPaletteItem`类，扩展自[`IBlockPaletteItem`](./iblockpaletteitem.md)。script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.constructor.description
+
 ```js
 new constructor(displayName?: string): SimpleBlockPaletteItem
 ```
@@ -20,7 +22,7 @@ new constructor(displayName?: string): SimpleBlockPaletteItem
 //// define
 `displayName`：`string`|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.displayname.constructor.description
 
 
 ////
@@ -28,7 +30,7 @@ new constructor(displayName?: string): SimpleBlockPaletteItem
 //// define
 返回值：[`SimpleBlockPaletteItem`](./simpleblockpaletteitem.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.constructor.return
 
 
 ////

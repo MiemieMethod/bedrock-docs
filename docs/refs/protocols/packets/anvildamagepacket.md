@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AnvilDamagePacket -->数据包，数字ID是`141`。
+<!-- md:samp AnvilDamagePacket -->数据包，数字ID是`141`。该数据包用于protocol.packet.anvildamagepacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Damage Amount：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.anvildamagepacket.damage_amount.description
 
 
 ////
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.anvildamagepacket.block_position.description
 
 
 ////

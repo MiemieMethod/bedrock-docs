@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CommandOriginData -->类型。
+<!-- md:samp CommandOriginData -->类型。该类型用于protocol.type.commandorigindata.description
 
 ## 结构
 
@@ -62,26 +62,26 @@ rankdir = LR
 //// define
 Command Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.commandorigindata.command_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Player`|`0`||
-  |`CommandBlock`|`1`||
-  |`MinecartCommandBlock`|`2`||
-  |`DevConsole`|`3`||
-  |`Test`|`4`||
-  |`AutomationPlayer`|`5`||
-  |`ClientAutomation`|`6`||
-  |`DedicatedServer`|`7`||
-  |`Entity`|`8`||
-  |`Virtual`|`9`||
-  |`GameArgument`|`10`||
-  |`EntityServer`|`11`||
-  |`Precompiled`|`12`||
-  |`GameDirectorEntityServer`|`13`||
-  |`Scripting`|`14`||
-  |`ExecuteContext`|`15`||
+  |`Player`|`0`|protocol.enum.player|
+  |`CommandBlock`|`1`|protocol.enum.commandblock|
+  |`MinecartCommandBlock`|`2`|protocol.enum.minecartcommandblock|
+  |`DevConsole`|`3`|protocol.enum.devconsole|
+  |`Test`|`4`|protocol.enum.test|
+  |`AutomationPlayer`|`5`|protocol.enum.automationplayer|
+  |`ClientAutomation`|`6`|protocol.enum.clientautomation|
+  |`DedicatedServer`|`7`|protocol.enum.dedicatedserver|
+  |`Entity`|`8`|protocol.enum.entity|
+  |`Virtual`|`9`|protocol.enum.virtual|
+  |`GameArgument`|`10`|protocol.enum.gameargument|
+  |`EntityServer`|`11`|protocol.enum.entityserver|
+  |`Precompiled`|`12`|protocol.enum.precompiled|
+  |`GameDirectorEntityServer`|`13`|protocol.enum.gamedirectorentityserver|
+  |`Scripting`|`14`|protocol.enum.scripting|
+  |`ExecuteContext`|`15`|protocol.enum.executecontext|
 
 
 
@@ -89,14 +89,14 @@ Command Type：<!-- md:samp unsigned varint -->
 //// define
 Command UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。Unique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.
+- 特殊类型。protocol.type.commandorigindata.command_uuid.descriptionUnique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.
 
 
 ////
 //// define
 Request ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.commandorigindata.request_id.description
 
 
 ////
@@ -106,7 +106,7 @@ Request ID：[<!-- md:samp string -->](../types/string.md)
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -117,7 +117,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////// define
 if (5)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -133,7 +133,7 @@ if (5)：<!-- md:samp [No Data] -->
 /////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.commandorigindata.player_id.description
 
 
 ///////
@@ -151,7 +151,7 @@ Player ID：<!-- md:samp varint64 -->
 /////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.commandorigindata.player_id.description
 
 
 ///////

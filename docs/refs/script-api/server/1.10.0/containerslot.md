@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ContainerSlot`类。
+`ContainerSlot`类。script_api.@minecraft/server.containerslot.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ amount: int32;
 //// define
 `amount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.containerslot.amount.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only isStackable: boolean;
 //// define
 `isStackable`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.containerslot.isstackable.description
 
 
 ////
@@ -64,7 +64,7 @@ keepOnDeath: boolean;
 //// define
 `keepOnDeath`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.containerslot.keepondeath.description
 
 
 ////
@@ -86,7 +86,7 @@ lockMode: ItemLockMode;
 //// define
 `lockMode`：[`ItemLockMode`](./itemlockmode.md)
 
-- 属性。
+- script_api.@minecraft/server.containerslot.lockmode.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only maxAmount: int32;
 //// define
 `maxAmount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.containerslot.maxamount.description
 
 
 ////
@@ -130,7 +130,7 @@ nameTag: string | undefined;
 //// define
 `nameTag`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.containerslot.nametag.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only type: ItemType;
 //// define
 `type`：[`ItemType`](./itemtype.md)
 
-- 属性。
+- script_api.@minecraft/server.containerslot.type.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only typeId: string;
 //// define
 `typeId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.containerslot.typeid.description
 
 
 ////
@@ -190,6 +190,8 @@ read-only typeId: string;
 
 ///
 
+script_api.@minecraft/server.containerslot.cleardynamicproperties.description
+
 ```js
 clearDynamicProperties(): void
 ```
@@ -198,7 +200,7 @@ clearDynamicProperties(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.cleardynamicproperties.return
 
 
 ////
@@ -212,6 +214,8 @@ clearDynamicProperties(): void
 
 ///
 
+script_api.@minecraft/server.containerslot.getcandestroy.description
+
 ```js
 getCanDestroy(): string[]
 ```
@@ -220,7 +224,7 @@ getCanDestroy(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.getcandestroy.return
 
 
 ////
@@ -234,6 +238,8 @@ getCanDestroy(): string[]
 
 ///
 
+script_api.@minecraft/server.containerslot.getcanplaceon.description
+
 ```js
 getCanPlaceOn(): string[]
 ```
@@ -242,7 +248,7 @@ getCanPlaceOn(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.getcanplaceon.return
 
 
 ////
@@ -256,6 +262,8 @@ getCanPlaceOn(): string[]
 
 ///
 
+script_api.@minecraft/server.containerslot.getdynamicproperty.description
+
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | string | Vector3 | undefined
 ```
@@ -264,7 +272,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.identifier.getdynamicproperty.description
 
 
 ////
@@ -272,7 +280,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 返回值：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.getdynamicproperty.return
 
 
 ////
@@ -286,6 +294,8 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 
 ///
 
+script_api.@minecraft/server.containerslot.getdynamicpropertyids.description
+
 ```js
 getDynamicPropertyIds(): string[]
 ```
@@ -294,7 +304,7 @@ getDynamicPropertyIds(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.getdynamicpropertyids.return
 
 
 ////
@@ -308,6 +318,8 @@ getDynamicPropertyIds(): string[]
 
 ///
 
+script_api.@minecraft/server.containerslot.getdynamicpropertytotalbytecount.description
+
 ```js
 getDynamicPropertyTotalByteCount(): int32
 ```
@@ -316,7 +328,7 @@ getDynamicPropertyTotalByteCount(): int32
 //// define
 返回值：`int32`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.getdynamicpropertytotalbytecount.return
 
 
 ////
@@ -330,6 +342,8 @@ getDynamicPropertyTotalByteCount(): int32
 
 ///
 
+script_api.@minecraft/server.containerslot.getitem.description
+
 ```js
 getItem(): ItemStack | undefined
 ```
@@ -338,7 +352,7 @@ getItem(): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.getitem.return
 
 
 ////
@@ -352,6 +366,8 @@ getItem(): ItemStack | undefined
 
 ///
 
+script_api.@minecraft/server.containerslot.getlore.description
+
 ```js
 getLore(): string[]
 ```
@@ -360,7 +376,7 @@ getLore(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.getlore.return
 
 
 ////
@@ -374,6 +390,8 @@ getLore(): string[]
 
 ///
 
+script_api.@minecraft/server.containerslot.gettags.description
+
 ```js
 getTags(): string[]
 ```
@@ -382,7 +400,7 @@ getTags(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.gettags.return
 
 
 ////
@@ -396,6 +414,8 @@ getTags(): string[]
 
 ///
 
+script_api.@minecraft/server.containerslot.hasitem.description
+
 ```js
 hasItem(): boolean
 ```
@@ -404,7 +424,7 @@ hasItem(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.hasitem.return
 
 
 ////
@@ -418,6 +438,8 @@ hasItem(): boolean
 
 ///
 
+script_api.@minecraft/server.containerslot.hastag.description
+
 ```js
 hasTag(tag: string): boolean
 ```
@@ -426,7 +448,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.tag.hastag.description
 
 
 ////
@@ -434,7 +456,7 @@ hasTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.hastag.return
 
 
 ////
@@ -448,6 +470,8 @@ hasTag(tag: string): boolean
 
 ///
 
+script_api.@minecraft/server.containerslot.isstackablewith.description
+
 ```js
 isStackableWith(itemStack: ItemStack): boolean
 ```
@@ -456,7 +480,7 @@ isStackableWith(itemStack: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.itemstack.isstackablewith.description
 
 
 ////
@@ -464,7 +488,7 @@ isStackableWith(itemStack: ItemStack): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.isstackablewith.return
 
 
 ////
@@ -478,6 +502,8 @@ isStackableWith(itemStack: ItemStack): boolean
 
 ///
 
+script_api.@minecraft/server.containerslot.isvalid.description
+
 ```js
 isValid(): boolean
 ```
@@ -486,7 +512,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.isvalid.return
 
 
 ////
@@ -500,6 +526,8 @@ isValid(): boolean
 
 ///
 
+script_api.@minecraft/server.containerslot.setcandestroy.description
+
 ```js
 setCanDestroy(blockIdentifiers?: string[]): void
 ```
@@ -508,7 +536,7 @@ setCanDestroy(blockIdentifiers?: string[]): void
 //// define
 `blockIdentifiers`：`string[]`|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.blockidentifiers.setcandestroy.description
 
 
 ////
@@ -516,7 +544,7 @@ setCanDestroy(blockIdentifiers?: string[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.setcandestroy.return
 
 
 ////
@@ -530,6 +558,8 @@ setCanDestroy(blockIdentifiers?: string[]): void
 
 ///
 
+script_api.@minecraft/server.containerslot.setcanplaceon.description
+
 ```js
 setCanPlaceOn(blockIdentifiers?: string[]): void
 ```
@@ -538,7 +568,7 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 //// define
 `blockIdentifiers`：`string[]`|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.blockidentifiers.setcanplaceon.description
 
 
 ////
@@ -546,7 +576,7 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.setcanplaceon.return
 
 
 ////
@@ -560,6 +590,8 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 
 ///
 
+script_api.@minecraft/server.containerslot.setdynamicproperty.description
+
 ```js
 setDynamicProperty(identifier: string, value?: boolean | double | float | string | Vector3): void
 ```
@@ -568,7 +600,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.identifier.setdynamicproperty.description
 
 
 ////
@@ -576,7 +608,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.containerslot.value.setdynamicproperty.description
 
 
 ////
@@ -584,7 +616,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.setdynamicproperty.return
 
 
 ////
@@ -598,6 +630,8 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 
 ///
 
+script_api.@minecraft/server.containerslot.setitem.description
+
 ```js
 setItem(itemStack?: ItemStack): void
 ```
@@ -606,7 +640,7 @@ setItem(itemStack?: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.itemstack.setitem.description
 
 
 ////
@@ -614,7 +648,7 @@ setItem(itemStack?: ItemStack): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.setitem.return
 
 
 ////
@@ -628,6 +662,8 @@ setItem(itemStack?: ItemStack): void
 
 ///
 
+script_api.@minecraft/server.containerslot.setlore.description
+
 ```js
 setLore(loreList?: string[]): void
 ```
@@ -636,7 +672,7 @@ setLore(loreList?: string[]): void
 //// define
 `loreList`：`string[]`|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.containerslot.lorelist.setlore.description
 
 
 ////
@@ -644,7 +680,7 @@ setLore(loreList?: string[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.containerslot.setlore.return
 
 
 ////

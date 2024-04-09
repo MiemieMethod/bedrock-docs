@@ -2,4 +2,4 @@
 
 > 文档版本：1.21.0.20
 
-`EntityIsIllagerCaptainComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityIsIllagerCaptainComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityisillagercaptaincomponent.description

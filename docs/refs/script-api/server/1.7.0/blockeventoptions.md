@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockEventOptions`接口。
+`BlockEventOptions`接口。script_api.@minecraft/server.blockeventoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ blockTypes: string[] | undefined;
 //// define
 `blockTypes`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockeventoptions.blocktypes.description
 
 
 ////
@@ -42,7 +42,7 @@ permutations: BlockPermutation[] | undefined;
 //// define
 `permutations`：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockeventoptions.permutations.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SimulatedPlayer`类，扩展自[`Player`](../../server/1.8.0/player.md)。
+`SimulatedPlayer`类，扩展自[`Player`](../../server/1.8.0/player.md)。script_api.@minecraft/server-gametest.simulatedplayer.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only headRotation: Vector2;
 //// define
 `headRotation`：[`Vector2`](../../server/1.8.0/vector2.md)
 
-- 属性。
+- script_api.@minecraft/server-gametest.simulatedplayer.headrotation.description
 
 
 ////
@@ -42,7 +42,7 @@ isSprinting: boolean;
 //// define
 `isSprinting`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-gametest.simulatedplayer.issprinting.description
 
 
 ////
@@ -58,6 +58,8 @@ isSprinting: boolean;
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.attack.description
+
 ```js
 attack(): boolean
 ```
@@ -66,7 +68,7 @@ attack(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.attack.return
 
 
 ////
@@ -80,6 +82,8 @@ attack(): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.attackentity.description
+
 ```js
 attackEntity(entity: Entity): boolean
 ```
@@ -88,7 +92,7 @@ attackEntity(entity: Entity): boolean
 //// define
 `entity`：[`Entity`](../../server/1.8.0/entity.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.entity.attackentity.description
 
 
 ////
@@ -96,7 +100,7 @@ attackEntity(entity: Entity): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.attackentity.return
 
 
 ////
@@ -110,6 +114,8 @@ attackEntity(entity: Entity): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.breakblock.description
+
 ```js
 breakBlock(blockLocation: Vector3, direction: Direction): boolean
 ```
@@ -118,7 +124,7 @@ breakBlock(blockLocation: Vector3, direction: Direction): boolean
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.blocklocation.breakblock.description
 
 
 ////
@@ -126,7 +132,7 @@ breakBlock(blockLocation: Vector3, direction: Direction): boolean
 //// define
 `direction`：[`Direction`](../../server/1.8.0/direction.md)
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.direction.breakblock.description
 
 
 ////
@@ -134,7 +140,7 @@ breakBlock(blockLocation: Vector3, direction: Direction): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.breakblock.return
 
 
 ////
@@ -148,6 +154,8 @@ breakBlock(blockLocation: Vector3, direction: Direction): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.chat.description
+
 ```js
 chat(message: string): void
 ```
@@ -156,7 +164,7 @@ chat(message: string): void
 //// define
 `message`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.message.chat.description
 
 
 ////
@@ -164,7 +172,7 @@ chat(message: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.chat.return
 
 
 ////
@@ -178,6 +186,8 @@ chat(message: string): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.disconnect.description
+
 ```js
 disconnect(): void
 ```
@@ -186,7 +196,7 @@ disconnect(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.disconnect.return
 
 
 ////
@@ -200,6 +210,8 @@ disconnect(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.dropselecteditem.description
+
 ```js
 dropSelectedItem(): boolean
 ```
@@ -208,7 +220,7 @@ dropSelectedItem(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.dropselecteditem.return
 
 
 ////
@@ -222,6 +234,8 @@ dropSelectedItem(): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.fly.description
+
 ```js
 fly(): void
 ```
@@ -230,7 +244,7 @@ fly(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.fly.return
 
 
 ////
@@ -244,6 +258,8 @@ fly(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.giveitem.description
+
 ```js
 giveItem(itemStack: ItemStack, selectSlot: boolean): boolean
 ```
@@ -252,7 +268,7 @@ giveItem(itemStack: ItemStack, selectSlot: boolean): boolean
 //// define
 `itemStack`：[`ItemStack`](../../server/1.8.0/itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.itemstack.giveitem.description
 
 
 ////
@@ -260,7 +276,7 @@ giveItem(itemStack: ItemStack, selectSlot: boolean): boolean
 //// define
 `selectSlot`：`boolean`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.selectslot.giveitem.description
 
 
 ////
@@ -268,7 +284,7 @@ giveItem(itemStack: ItemStack, selectSlot: boolean): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.giveitem.return
 
 
 ////
@@ -282,6 +298,8 @@ giveItem(itemStack: ItemStack, selectSlot: boolean): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.glide.description
+
 ```js
 glide(): boolean
 ```
@@ -290,7 +308,7 @@ glide(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.glide.return
 
 
 ////
@@ -304,6 +322,8 @@ glide(): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.interact.description
+
 ```js
 interact(): boolean
 ```
@@ -312,7 +332,7 @@ interact(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.interact.return
 
 
 ////
@@ -326,6 +346,8 @@ interact(): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.interactwithblock.description
+
 ```js
 interactWithBlock(blockLocation: Vector3, direction: Direction): boolean
 ```
@@ -334,7 +356,7 @@ interactWithBlock(blockLocation: Vector3, direction: Direction): boolean
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.blocklocation.interactwithblock.description
 
 
 ////
@@ -342,7 +364,7 @@ interactWithBlock(blockLocation: Vector3, direction: Direction): boolean
 //// define
 `direction`：[`Direction`](../../server/1.8.0/direction.md)
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.direction.interactwithblock.description
 
 
 ////
@@ -350,7 +372,7 @@ interactWithBlock(blockLocation: Vector3, direction: Direction): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.interactwithblock.return
 
 
 ////
@@ -364,6 +386,8 @@ interactWithBlock(blockLocation: Vector3, direction: Direction): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.interactwithentity.description
+
 ```js
 interactWithEntity(entity: Entity): boolean
 ```
@@ -372,7 +396,7 @@ interactWithEntity(entity: Entity): boolean
 //// define
 `entity`：[`Entity`](../../server/1.8.0/entity.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.entity.interactwithentity.description
 
 
 ////
@@ -380,7 +404,7 @@ interactWithEntity(entity: Entity): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.interactwithentity.return
 
 
 ////
@@ -394,6 +418,8 @@ interactWithEntity(entity: Entity): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.jump.description
+
 ```js
 jump(): boolean
 ```
@@ -402,7 +428,7 @@ jump(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.jump.return
 
 
 ////
@@ -416,6 +442,8 @@ jump(): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.lookatblock.description
+
 ```js
 lookAtBlock(blockLocation: Vector3, duration: LookDuration): void
 ```
@@ -424,7 +452,7 @@ lookAtBlock(blockLocation: Vector3, duration: LookDuration): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.blocklocation.lookatblock.description
 
 
 ////
@@ -432,7 +460,7 @@ lookAtBlock(blockLocation: Vector3, duration: LookDuration): void
 //// define
 `duration`：[`LookDuration`](./lookduration.md)
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.duration.lookatblock.description
 
 
 ////
@@ -440,7 +468,7 @@ lookAtBlock(blockLocation: Vector3, duration: LookDuration): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.lookatblock.return
 
 
 ////
@@ -454,6 +482,8 @@ lookAtBlock(blockLocation: Vector3, duration: LookDuration): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.lookatentity.description
+
 ```js
 lookAtEntity(entity: Entity, duration: LookDuration): void
 ```
@@ -462,7 +492,7 @@ lookAtEntity(entity: Entity, duration: LookDuration): void
 //// define
 `entity`：[`Entity`](../../server/1.8.0/entity.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.entity.lookatentity.description
 
 
 ////
@@ -470,7 +500,7 @@ lookAtEntity(entity: Entity, duration: LookDuration): void
 //// define
 `duration`：[`LookDuration`](./lookduration.md)
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.duration.lookatentity.description
 
 
 ////
@@ -478,7 +508,7 @@ lookAtEntity(entity: Entity, duration: LookDuration): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.lookatentity.return
 
 
 ////
@@ -492,6 +522,8 @@ lookAtEntity(entity: Entity, duration: LookDuration): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.lookatlocation.description
+
 ```js
 lookAtLocation(location: Vector3, duration: LookDuration): void
 ```
@@ -500,7 +532,7 @@ lookAtLocation(location: Vector3, duration: LookDuration): void
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.location.lookatlocation.description
 
 
 ////
@@ -508,7 +540,7 @@ lookAtLocation(location: Vector3, duration: LookDuration): void
 //// define
 `duration`：[`LookDuration`](./lookduration.md)
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.duration.lookatlocation.description
 
 
 ////
@@ -516,7 +548,7 @@ lookAtLocation(location: Vector3, duration: LookDuration): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.lookatlocation.return
 
 
 ////
@@ -530,6 +562,8 @@ lookAtLocation(location: Vector3, duration: LookDuration): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.move.description
+
 ```js
 move(westEast: float, northSouth: float, speed: float): void
 ```
@@ -538,7 +572,7 @@ move(westEast: float, northSouth: float, speed: float): void
 //// define
 `westEast`：`float`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.westeast.move.description
 
 
 ////
@@ -546,7 +580,7 @@ move(westEast: float, northSouth: float, speed: float): void
 //// define
 `northSouth`：`float`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.northsouth.move.description
 
 
 ////
@@ -554,7 +588,7 @@ move(westEast: float, northSouth: float, speed: float): void
 //// define
 `speed`：`float`
 
-- 参数3。
+- script_api.@minecraft/server-gametest.simulatedplayer.speed.move.description
 
 
 ////
@@ -562,7 +596,7 @@ move(westEast: float, northSouth: float, speed: float): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.move.return
 
 
 ////
@@ -576,6 +610,8 @@ move(westEast: float, northSouth: float, speed: float): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.moverelative.description
+
 ```js
 moveRelative(leftRight: float, backwardForward: float, speed: float): void
 ```
@@ -584,7 +620,7 @@ moveRelative(leftRight: float, backwardForward: float, speed: float): void
 //// define
 `leftRight`：`float`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.leftright.moverelative.description
 
 
 ////
@@ -592,7 +628,7 @@ moveRelative(leftRight: float, backwardForward: float, speed: float): void
 //// define
 `backwardForward`：`float`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.backwardforward.moverelative.description
 
 
 ////
@@ -600,7 +636,7 @@ moveRelative(leftRight: float, backwardForward: float, speed: float): void
 //// define
 `speed`：`float`
 
-- 参数3。
+- script_api.@minecraft/server-gametest.simulatedplayer.speed.moverelative.description
 
 
 ////
@@ -608,7 +644,7 @@ moveRelative(leftRight: float, backwardForward: float, speed: float): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.moverelative.return
 
 
 ////
@@ -622,6 +658,8 @@ moveRelative(leftRight: float, backwardForward: float, speed: float): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.movetoblock.description
+
 ```js
 moveToBlock(blockLocation: Vector3, options?: MoveToOptions): void
 ```
@@ -630,7 +668,7 @@ moveToBlock(blockLocation: Vector3, options?: MoveToOptions): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.blocklocation.movetoblock.description
 
 
 ////
@@ -638,7 +676,7 @@ moveToBlock(blockLocation: Vector3, options?: MoveToOptions): void
 //// define
 `options`：[`MoveToOptions`](./movetooptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.options.movetoblock.description
 
 
 ////
@@ -646,7 +684,7 @@ moveToBlock(blockLocation: Vector3, options?: MoveToOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.movetoblock.return
 
 
 ////
@@ -660,6 +698,8 @@ moveToBlock(blockLocation: Vector3, options?: MoveToOptions): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.movetolocation.description
+
 ```js
 moveToLocation(location: Vector3, options?: MoveToOptions): void
 ```
@@ -668,7 +708,7 @@ moveToLocation(location: Vector3, options?: MoveToOptions): void
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.location.movetolocation.description
 
 
 ////
@@ -676,7 +716,7 @@ moveToLocation(location: Vector3, options?: MoveToOptions): void
 //// define
 `options`：[`MoveToOptions`](./movetooptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.options.movetolocation.description
 
 
 ////
@@ -684,7 +724,7 @@ moveToLocation(location: Vector3, options?: MoveToOptions): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.movetolocation.return
 
 
 ////
@@ -698,6 +738,8 @@ moveToLocation(location: Vector3, options?: MoveToOptions): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.navigatetoblock.description
+
 ```js
 navigateToBlock(blockLocation: Vector3, speed: float): NavigationResult
 ```
@@ -706,7 +748,7 @@ navigateToBlock(blockLocation: Vector3, speed: float): NavigationResult
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.blocklocation.navigatetoblock.description
 
 
 ////
@@ -714,7 +756,7 @@ navigateToBlock(blockLocation: Vector3, speed: float): NavigationResult
 //// define
 `speed`：`float`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.speed.navigatetoblock.description
 
 
 ////
@@ -722,7 +764,7 @@ navigateToBlock(blockLocation: Vector3, speed: float): NavigationResult
 //// define
 返回值：[`NavigationResult`](./navigationresult.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.navigatetoblock.return
 
 
 ////
@@ -736,6 +778,8 @@ navigateToBlock(blockLocation: Vector3, speed: float): NavigationResult
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.navigatetoentity.description
+
 ```js
 navigateToEntity(entity: Entity, speed: float): NavigationResult
 ```
@@ -744,7 +788,7 @@ navigateToEntity(entity: Entity, speed: float): NavigationResult
 //// define
 `entity`：[`Entity`](../../server/1.8.0/entity.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.entity.navigatetoentity.description
 
 
 ////
@@ -752,7 +796,7 @@ navigateToEntity(entity: Entity, speed: float): NavigationResult
 //// define
 `speed`：`float`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.speed.navigatetoentity.description
 
 
 ////
@@ -760,7 +804,7 @@ navigateToEntity(entity: Entity, speed: float): NavigationResult
 //// define
 返回值：[`NavigationResult`](./navigationresult.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.navigatetoentity.return
 
 
 ////
@@ -774,6 +818,8 @@ navigateToEntity(entity: Entity, speed: float): NavigationResult
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.navigatetolocation.description
+
 ```js
 navigateToLocation(location: Vector3, speed: float): NavigationResult
 ```
@@ -782,7 +828,7 @@ navigateToLocation(location: Vector3, speed: float): NavigationResult
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.location.navigatetolocation.description
 
 
 ////
@@ -790,7 +836,7 @@ navigateToLocation(location: Vector3, speed: float): NavigationResult
 //// define
 `speed`：`float`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.speed.navigatetolocation.description
 
 
 ////
@@ -798,7 +844,7 @@ navigateToLocation(location: Vector3, speed: float): NavigationResult
 //// define
 返回值：[`NavigationResult`](./navigationresult.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.navigatetolocation.return
 
 
 ////
@@ -812,6 +858,8 @@ navigateToLocation(location: Vector3, speed: float): NavigationResult
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.navigatetolocations.description
+
 ```js
 navigateToLocations(locations: Vector3[], speed: float): void
 ```
@@ -820,7 +868,7 @@ navigateToLocations(locations: Vector3[], speed: float): void
 //// define
 `locations`：<code><a href="../../../server/1.8.0/vector3/">Vector3</a>[]</code>
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.locations.navigatetolocations.description
 
 
 ////
@@ -828,7 +876,7 @@ navigateToLocations(locations: Vector3[], speed: float): void
 //// define
 `speed`：`float`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.speed.navigatetolocations.description
 
 
 ////
@@ -836,7 +884,7 @@ navigateToLocations(locations: Vector3[], speed: float): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.navigatetolocations.return
 
 
 ////
@@ -850,6 +898,8 @@ navigateToLocations(locations: Vector3[], speed: float): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.respawn.description
+
 ```js
 respawn(): boolean
 ```
@@ -858,7 +908,7 @@ respawn(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.respawn.return
 
 
 ////
@@ -872,6 +922,8 @@ respawn(): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.rotatebody.description
+
 ```js
 rotateBody(angleInDegrees: float): void
 ```
@@ -880,7 +932,7 @@ rotateBody(angleInDegrees: float): void
 //// define
 `angleInDegrees`：`float`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.angleindegrees.rotatebody.description
 
 
 ////
@@ -888,7 +940,7 @@ rotateBody(angleInDegrees: float): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.rotatebody.return
 
 
 ////
@@ -902,6 +954,8 @@ rotateBody(angleInDegrees: float): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.setbodyrotation.description
+
 ```js
 setBodyRotation(angleInDegrees: float): void
 ```
@@ -910,7 +964,7 @@ setBodyRotation(angleInDegrees: float): void
 //// define
 `angleInDegrees`：`float`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.angleindegrees.setbodyrotation.description
 
 
 ////
@@ -918,7 +972,7 @@ setBodyRotation(angleInDegrees: float): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.setbodyrotation.return
 
 
 ////
@@ -932,6 +986,8 @@ setBodyRotation(angleInDegrees: float): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.setitem.description
+
 ```js
 setItem(itemStack: ItemStack, slot: int32, selectSlot: boolean): boolean
 ```
@@ -940,7 +996,7 @@ setItem(itemStack: ItemStack, slot: int32, selectSlot: boolean): boolean
 //// define
 `itemStack`：[`ItemStack`](../../server/1.8.0/itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.itemstack.setitem.description
 
 
 ////
@@ -948,7 +1004,7 @@ setItem(itemStack: ItemStack, slot: int32, selectSlot: boolean): boolean
 //// define
 `slot`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.slot.setitem.description
 
 
 ////
@@ -956,7 +1012,7 @@ setItem(itemStack: ItemStack, slot: int32, selectSlot: boolean): boolean
 //// define
 `selectSlot`：`boolean`
 
-- 参数3。
+- script_api.@minecraft/server-gametest.simulatedplayer.selectslot.setitem.description
 
 
 ////
@@ -964,7 +1020,7 @@ setItem(itemStack: ItemStack, slot: int32, selectSlot: boolean): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.setitem.return
 
 
 ////
@@ -978,6 +1034,8 @@ setItem(itemStack: ItemStack, slot: int32, selectSlot: boolean): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.startbuild.description
+
 ```js
 startBuild(slot: int32): void
 ```
@@ -986,7 +1044,7 @@ startBuild(slot: int32): void
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.slot.startbuild.description
 
 
 ////
@@ -994,7 +1052,7 @@ startBuild(slot: int32): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.startbuild.return
 
 
 ////
@@ -1008,6 +1066,8 @@ startBuild(slot: int32): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopbreakingblock.description
+
 ```js
 stopBreakingBlock(): void
 ```
@@ -1016,7 +1076,7 @@ stopBreakingBlock(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopbreakingblock.return
 
 
 ////
@@ -1030,6 +1090,8 @@ stopBreakingBlock(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopbuild.description
+
 ```js
 stopBuild(): void
 ```
@@ -1038,7 +1100,7 @@ stopBuild(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopbuild.return
 
 
 ////
@@ -1052,6 +1114,8 @@ stopBuild(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopflying.description
+
 ```js
 stopFlying(): void
 ```
@@ -1060,7 +1124,7 @@ stopFlying(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopflying.return
 
 
 ////
@@ -1074,6 +1138,8 @@ stopFlying(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopgliding.description
+
 ```js
 stopGliding(): void
 ```
@@ -1082,7 +1148,7 @@ stopGliding(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopgliding.return
 
 
 ////
@@ -1096,6 +1162,8 @@ stopGliding(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopinteracting.description
+
 ```js
 stopInteracting(): void
 ```
@@ -1104,7 +1172,7 @@ stopInteracting(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopinteracting.return
 
 
 ////
@@ -1118,6 +1186,8 @@ stopInteracting(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopmoving.description
+
 ```js
 stopMoving(): void
 ```
@@ -1126,7 +1196,7 @@ stopMoving(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopmoving.return
 
 
 ////
@@ -1140,6 +1210,8 @@ stopMoving(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopswimming.description
+
 ```js
 stopSwimming(): void
 ```
@@ -1148,7 +1220,7 @@ stopSwimming(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopswimming.return
 
 
 ////
@@ -1162,6 +1234,8 @@ stopSwimming(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.stopusingitem.description
+
 ```js
 stopUsingItem(): ItemStack | undefined
 ```
@@ -1170,7 +1244,7 @@ stopUsingItem(): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](../../server/1.8.0/itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.stopusingitem.return
 
 
 ////
@@ -1184,6 +1258,8 @@ stopUsingItem(): ItemStack | undefined
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.swim.description
+
 ```js
 swim(): void
 ```
@@ -1192,7 +1268,7 @@ swim(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.swim.return
 
 
 ////
@@ -1206,6 +1282,8 @@ swim(): void
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.useitem.description
+
 ```js
 useItem(itemStack: ItemStack): boolean
 ```
@@ -1214,7 +1292,7 @@ useItem(itemStack: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](../../server/1.8.0/itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.itemstack.useitem.description
 
 
 ////
@@ -1222,7 +1300,7 @@ useItem(itemStack: ItemStack): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.useitem.return
 
 
 ////
@@ -1236,6 +1314,8 @@ useItem(itemStack: ItemStack): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.useiteminslot.description
+
 ```js
 useItemInSlot(slot: int32): boolean
 ```
@@ -1244,7 +1324,7 @@ useItemInSlot(slot: int32): boolean
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.slot.useiteminslot.description
 
 
 ////
@@ -1252,7 +1332,7 @@ useItemInSlot(slot: int32): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.useiteminslot.return
 
 
 ////
@@ -1266,6 +1346,8 @@ useItemInSlot(slot: int32): boolean
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.useiteminslotonblock.description
+
 ```js
 useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, faceLocation?: Vector3): boolean
 ```
@@ -1274,7 +1356,7 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.slot.useiteminslotonblock.description
 
 
 ////
@@ -1282,7 +1364,7 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.blocklocation.useiteminslotonblock.description
 
 
 ////
@@ -1290,7 +1372,7 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 //// define
 `direction`：[`Direction`](../../server/1.8.0/direction.md)
 
-- 参数3。
+- script_api.@minecraft/server-gametest.simulatedplayer.direction.useiteminslotonblock.description
 
 
 ////
@@ -1298,7 +1380,7 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 //// define
 `faceLocation`：[`Vector3`](../../server/1.8.0/vector3.md)|`undefined`
 
-- 参数4。
+- script_api.@minecraft/server-gametest.simulatedplayer.facelocation.useiteminslotonblock.description
 
 
 ////
@@ -1306,7 +1388,7 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.useiteminslotonblock.return
 
 
 ////
@@ -1320,6 +1402,8 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 
 ///
 
+script_api.@minecraft/server-gametest.simulatedplayer.useitemonblock.description
+
 ```js
 useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Direction, faceLocation?: Vector3): boolean
 ```
@@ -1328,7 +1412,7 @@ useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Directio
 //// define
 `itemStack`：[`ItemStack`](../../server/1.8.0/itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server-gametest.simulatedplayer.itemstack.useitemonblock.description
 
 
 ////
@@ -1336,7 +1420,7 @@ useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Directio
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server-gametest.simulatedplayer.blocklocation.useitemonblock.description
 
 
 ////
@@ -1344,7 +1428,7 @@ useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Directio
 //// define
 `direction`：[`Direction`](../../server/1.8.0/direction.md)
 
-- 参数3。
+- script_api.@minecraft/server-gametest.simulatedplayer.direction.useitemonblock.description
 
 
 ////
@@ -1352,7 +1436,7 @@ useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Directio
 //// define
 `faceLocation`：[`Vector3`](../../server/1.8.0/vector3.md)|`undefined`
 
-- 参数4。
+- script_api.@minecraft/server-gametest.simulatedplayer.facelocation.useitemonblock.description
 
 
 ////
@@ -1360,7 +1444,7 @@ useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Directio
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-gametest.simulatedplayer.useitemonblock.return
 
 
 ////

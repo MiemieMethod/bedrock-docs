@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EduSharedUriResource -->类型。
+<!-- md:samp EduSharedUriResource -->类型。该类型用于protocol.type.edushareduriresource.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Button Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.edushareduriresource.button_name.description
 
 
 ////
 //// define
 Link Uri：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.edushareduriresource.link_uri.description
 
 
 ////

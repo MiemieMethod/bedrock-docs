@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`RGBA`接口，扩展自[`RGB`](./rgb.md)。
+`RGBA`接口，扩展自[`RGB`](./rgb.md)。script_api.@minecraft/server.rgba.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ alpha: float;
 //// define
 `alpha`：`float`
 
-- 属性。
+- script_api.@minecraft/server.rgba.alpha.description
 
 
 ////

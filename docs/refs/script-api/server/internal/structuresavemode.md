@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`StructureSaveMode`枚举。
+`StructureSaveMode`枚举。script_api.@minecraft/server.structuresavemode.description
 
 ## 常量
 

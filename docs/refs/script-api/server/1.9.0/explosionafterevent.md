@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExplosionAfterEvent`类。
+`ExplosionAfterEvent`类。script_api.@minecraft/server.explosionafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.@minecraft/server.explosionafterevent.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Entity | undefined;
 //// define
 `source`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.explosionafterevent.source.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only source: Entity | undefined;
 
 ///
 
+script_api.@minecraft/server.explosionafterevent.getimpactedblocks.description
+
 ```js
 getImpactedBlocks(): Block[]
 ```
@@ -66,7 +68,7 @@ getImpactedBlocks(): Block[]
 //// define
 返回值：<code><a href="../block/">Block</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.explosionafterevent.getimpactedblocks.return
 
 
 ////

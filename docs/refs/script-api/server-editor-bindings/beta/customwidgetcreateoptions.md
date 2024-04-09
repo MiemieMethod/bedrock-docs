@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CustomWidgetCreateOptions`接口，扩展自[`WidgetCreateOptions`](./widgetcreateoptions.md)。
+`CustomWidgetCreateOptions`接口，扩展自[`WidgetCreateOptions`](./widgetcreateoptions.md)。script_api.@minecraft/server-editor-bindings.customwidgetcreateoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ moveEvent: (arg: CustomWidgetMoveEventData) => void | undefined;
 //// define
 `moveEvent`：<code>(<a href="../customwidgetmoveeventdata/">CustomWidgetMoveEventData</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetcreateoptions.moveevent.description
 
 
 ////
@@ -42,7 +42,7 @@ showTextOnlyWhenSelected: boolean | undefined;
 //// define
 `showTextOnlyWhenSelected`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetcreateoptions.showtextonlywhenselected.description
 
 
 ////
@@ -64,7 +64,7 @@ text: string | undefined;
 //// define
 `text`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetcreateoptions.text.description
 
 
 ////
@@ -86,7 +86,7 @@ visualOffset: Vector3 | undefined;
 //// define
 `visualOffset`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidgetcreateoptions.visualoffset.description
 
 
 ////

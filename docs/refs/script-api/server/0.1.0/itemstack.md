@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemStack`类。
+`ItemStack`类。script_api.mojang-minecraft.itemstack.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ amount: int32;
 //// define
 `amount`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.itemstack.amount.description
 
 
 ////
@@ -42,7 +42,7 @@ data: int32;
 //// define
 `data`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.itemstack.data.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.itemstack.id.description
 
 
 ////
@@ -86,7 +86,7 @@ nameTag: string | undefined;
 //// define
 `nameTag`：`string`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.itemstack.nametag.description
 
 
 ////
@@ -102,6 +102,8 @@ nameTag: string | undefined;
 
 ///
 
+script_api.mojang-minecraft.itemstack.constructor.description
+
 ```js
 new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemStack
 ```
@@ -110,7 +112,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 //// define
 `itemType`：[`ItemType`](./itemtype.md)|`string`
 
-- 参数1。
+- script_api.mojang-minecraft.itemstack.itemtype.constructor.description
 
 
 ////
@@ -118,7 +120,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 //// define
 `amount`：`int32`
 
-- 参数2。
+- script_api.mojang-minecraft.itemstack.amount.constructor.description
 
 
 ////
@@ -126,7 +128,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 //// define
 `data`：`int32`
 
-- 参数3。
+- script_api.mojang-minecraft.itemstack.data.constructor.description
 
 
 ////
@@ -134,7 +136,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 //// define
 返回值：[`ItemStack`](./itemstack.md)
 
-- 返回值。
+- script_api.mojang-minecraft.itemstack.constructor.return
 
 
 ////
@@ -148,6 +150,8 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 
 ///
 
+script_api.mojang-minecraft.itemstack.getcomponent.description
+
 ```js
 getComponent(componentId: string): ItemComponent | undefined
 ```
@@ -156,7 +160,7 @@ getComponent(componentId: string): ItemComponent | undefined
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.itemstack.componentid.getcomponent.description
 
 
 ////
@@ -164,7 +168,7 @@ getComponent(componentId: string): ItemComponent | undefined
 //// define
 返回值：[`ItemComponent`](./itemcomponent.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.itemstack.getcomponent.return
 
 
 ////
@@ -178,6 +182,8 @@ getComponent(componentId: string): ItemComponent | undefined
 
 ///
 
+script_api.mojang-minecraft.itemstack.getcomponents.description
+
 ```js
 getComponents(): ItemComponent[]
 ```
@@ -186,7 +192,7 @@ getComponents(): ItemComponent[]
 //// define
 返回值：<code><a href="../itemcomponent/">ItemComponent</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.itemstack.getcomponents.return
 
 
 ////
@@ -200,6 +206,8 @@ getComponents(): ItemComponent[]
 
 ///
 
+script_api.mojang-minecraft.itemstack.getlore.description
+
 ```js
 getLore(): string[]
 ```
@@ -208,7 +216,7 @@ getLore(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.mojang-minecraft.itemstack.getlore.return
 
 
 ////
@@ -222,6 +230,8 @@ getLore(): string[]
 
 ///
 
+script_api.mojang-minecraft.itemstack.hascomponent.description
+
 ```js
 hasComponent(componentId: string): boolean
 ```
@@ -230,7 +240,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.itemstack.componentid.hascomponent.description
 
 
 ////
@@ -238,7 +248,7 @@ hasComponent(componentId: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.itemstack.hascomponent.return
 
 
 ////
@@ -252,6 +262,8 @@ hasComponent(componentId: string): boolean
 
 ///
 
+script_api.mojang-minecraft.itemstack.setlore.description
+
 ```js
 setLore(loreList?: string[]): void
 ```
@@ -260,7 +272,7 @@ setLore(loreList?: string[]): void
 //// define
 `loreList`：`string[]`|`undefined`
 
-- 参数1。
+- script_api.mojang-minecraft.itemstack.lorelist.setlore.description
 
 
 ////
@@ -268,7 +280,7 @@ setLore(loreList?: string[]): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.itemstack.setlore.return
 
 
 ////

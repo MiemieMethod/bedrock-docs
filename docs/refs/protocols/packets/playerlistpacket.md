@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerListPacket -->数据包，数字ID是`63`。
+<!-- md:samp PlayerListPacket -->数据包，数字ID是`63`。该数据包用于protocol.packet.playerlistpacket.description
 
 ## 结构
 
@@ -102,12 +102,12 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerlistpacket.action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Add`|`0`||
-  |`Remove`|`1`||
+  |`Add`|`0`|protocol.enum.add|
+  |`Remove`|`1`|protocol.enum.remove|
 
 
 
@@ -128,7 +128,7 @@ Action：<!-- md:samp byte -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerlistpacket.数组大小.description
 
 
 ////////
@@ -140,60 +140,60 @@ Action：<!-- md:samp byte -->
 ///////// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerlistpacket.uuid.description
 
 
 /////////
 ///////// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerlistpacket.target_actor_id.description
 
 
 /////////
 ///////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerlistpacket.player_name.description
 
 
 /////////
 ///////// define
 XBL XUID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerlistpacket.xbl_xuid.description
 
 
 /////////
 ///////// define
 Platform Chat Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerlistpacket.platform_chat_id.description
 
 
 /////////
 ///////// define
 Build Platform：<!-- md:samp int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playerlistpacket.build_platform.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Google`|`1`||
-  |`iOS`|`2`||
-  |`OSX`|`3`||
-  |`Amazon`|`4`||
-  |`GearVR`|`5`||
-  |`UWP`|`7`||
-  |`Win32`|`8`||
-  |`Dedicated`|`9`||
-  |`tvOS_Deprecated`|`10`||
-  |`Sony`|`11`||
-  |`Nx`|`12`||
-  |`Xbox`|`13`||
-  |`WindowsPhone_Deprecated`|`14`||
-  |`Linux`|`15`||
-  |`Unknown`|`-1`||
+  |`Google`|`1`|protocol.enum.google|
+  |`iOS`|`2`|protocol.enum.ios|
+  |`OSX`|`3`|protocol.enum.osx|
+  |`Amazon`|`4`|protocol.enum.amazon|
+  |`GearVR`|`5`|protocol.enum.gearvr|
+  |`UWP`|`7`|protocol.enum.uwp|
+  |`Win32`|`8`|protocol.enum.win32|
+  |`Dedicated`|`9`|protocol.enum.dedicated|
+  |`tvOS_Deprecated`|`10`|protocol.enum.tvos_deprecated|
+  |`Sony`|`11`|protocol.enum.sony|
+  |`Nx`|`12`|protocol.enum.nx|
+  |`Xbox`|`13`|protocol.enum.xbox|
+  |`WindowsPhone_Deprecated`|`14`|protocol.enum.windowsphone_deprecated|
+  |`Linux`|`15`|protocol.enum.linux|
+  |`Unknown`|`-1`|protocol.enum.unknown|
 
 
 
@@ -201,28 +201,28 @@ Build Platform：<!-- md:samp int -->
 ///////// define
 Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerlistpacket.serialized_skin.description
 
 
 /////////
 ///////// define
 Is Teacher?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerlistpacket.is_teacher.description
 
 
 /////////
 ///////// define
 Is Host?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerlistpacket.is_host.description
 
 
 /////////
 ///////// define
 Is SubClient：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerlistpacket.is_subclient.description
 
 
 /////////
@@ -233,7 +233,7 @@ Is SubClient：<!-- md:samp bool -->
 /////// define
 Is trusted skin：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerlistpacket.is_trusted_skin.description
 
 
 ///////
@@ -256,7 +256,7 @@ Is trusted skin：<!-- md:samp bool -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerlistpacket.数组大小.description
 
 
 ////////
@@ -268,7 +268,7 @@ Is trusted skin：<!-- md:samp bool -->
 ///////// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerlistpacket.uuid.description
 
 
 /////////

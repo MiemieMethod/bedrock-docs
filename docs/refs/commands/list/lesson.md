@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/lesson`命令Handle Educational Lesson reporting.
+`/lesson`命令command.lesson.description
 
 /// settings | 执行条件
 该命令需要权限等级：`gamedirectors`|`1`。该命令需要开启作弊。
@@ -16,10 +16,12 @@
 ```
 
 //// html | div.result
+command.lesson.1.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.lesson.player.description
 
 
 /////
@@ -34,28 +36,30 @@
 ```
 
 //// html | div.result
+command.lesson.2.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.lesson.player.description
 
 `resource`：<!-- md:samp LessonType -->
 
-- 枚举类型。单值枚举，请直接使用`lesson`。
+- 枚举类型。command.enum.lessontype.description单值枚举，请直接使用`lesson`。
 
 `action`：<!-- md:samp LessonAction -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.lessonaction.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`complete`||
-  |`restart`||
+  |`complete`|command.enum.lessonaction.complete|
+  |`restart`|command.enum.lessonaction.restart|
 
 
 `score`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型，可选。command.lesson.score.description
 
 
 /////
@@ -70,32 +74,34 @@
 ```
 
 //// html | div.result
+command.lesson.3.description
+
 ///// define
 `player`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.lesson.player.description
 
 `resource`：<!-- md:samp LessonActivityType -->
 
-- 枚举类型。单值枚举，请直接使用`activity`。
+- 枚举类型。command.enum.lessonactivitytype.description单值枚举，请直接使用`activity`。
 
 `id`：<!-- md:samp string -->
 
-- 基本类型。
+- 基本类型。command.lesson.id.description
 
 `action`：<!-- md:samp LessonAction -->
 
-- 枚举类型。枚举值如下：
+- 枚举类型。command.enum.lessonaction.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`complete`||
-  |`restart`||
+  |`complete`|command.enum.lessonaction.complete|
+  |`restart`|command.enum.lessonaction.restart|
 
 
 `score`：<!-- md:samp int -->
 
-- 基本类型。
+- 基本类型，可选。command.lesson.score.description
 
 
 /////

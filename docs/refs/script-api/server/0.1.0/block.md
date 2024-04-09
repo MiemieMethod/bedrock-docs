@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Block`类。
+`Block`类。script_api.mojang-minecraft.block.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.mojang-minecraft.block.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.block.id.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only isEmpty: boolean;
 //// define
 `isEmpty`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.block.isempty.description
 
 
 ////
@@ -86,7 +86,7 @@ isWaterlogged: boolean;
 //// define
 `isWaterlogged`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.block.iswaterlogged.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only location: BlockLocation;
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- 属性。
+- script_api.mojang-minecraft.block.location.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only permutation: BlockPermutation;
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.mojang-minecraft.block.permutation.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only type: BlockType;
 //// define
 `type`：[`BlockType`](./blocktype.md)
 
-- 属性。
+- script_api.mojang-minecraft.block.type.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only x: int32;
 //// define
 `x`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.block.x.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only y: int32;
 //// define
 `y`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.block.y.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only z: int32;
 //// define
 `z`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.block.z.description
 
 
 ////
@@ -234,6 +234,8 @@ read-only z: int32;
 
 ///
 
+script_api.mojang-minecraft.block.getcomponent.description
+
 ```js
 getComponent(componentName: string): BlockComponent | undefined
 ```
@@ -242,7 +244,7 @@ getComponent(componentName: string): BlockComponent | undefined
 //// define
 `componentName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.block.componentname.getcomponent.description
 
 
 ////
@@ -250,7 +252,7 @@ getComponent(componentName: string): BlockComponent | undefined
 //// define
 返回值：[`BlockComponent`](./blockcomponent.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.block.getcomponent.return
 
 
 ////
@@ -264,6 +266,8 @@ getComponent(componentName: string): BlockComponent | undefined
 
 ///
 
+script_api.mojang-minecraft.block.gettags.description
+
 ```js
 getTags(): string[]
 ```
@@ -272,7 +276,7 @@ getTags(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.mojang-minecraft.block.gettags.return
 
 
 ////
@@ -286,6 +290,8 @@ getTags(): string[]
 
 ///
 
+script_api.mojang-minecraft.block.hastag.description
+
 ```js
 hasTag(tag: string): boolean
 ```
@@ -294,7 +300,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.block.tag.hastag.description
 
 
 ////
@@ -302,7 +308,7 @@ hasTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.block.hastag.return
 
 
 ////
@@ -316,6 +322,8 @@ hasTag(tag: string): boolean
 
 ///
 
+script_api.mojang-minecraft.block.setpermutation.description
+
 ```js
 setPermutation(permutation: BlockPermutation): void
 ```
@@ -324,7 +332,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 参数1。
+- script_api.mojang-minecraft.block.permutation.setpermutation.description
 
 
 ////
@@ -332,7 +340,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.block.setpermutation.return
 
 
 ////
@@ -346,6 +354,8 @@ setPermutation(permutation: BlockPermutation): void
 
 ///
 
+script_api.mojang-minecraft.block.settype.description
+
 ```js
 setType(blockType: BlockType): void
 ```
@@ -354,7 +364,7 @@ setType(blockType: BlockType): void
 //// define
 `blockType`：[`BlockType`](./blocktype.md)
 
-- 参数1。
+- script_api.mojang-minecraft.block.blocktype.settype.description
 
 
 ////
@@ -362,7 +372,7 @@ setType(blockType: BlockType): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.block.settype.return
 
 
 ////

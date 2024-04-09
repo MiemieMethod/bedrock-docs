@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CameraDefaultOptions`接口。
+`CameraDefaultOptions`接口。script_api.@minecraft/server.cameradefaultoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ easeOptions: CameraEaseOptions;
 //// define
 `easeOptions`：[`CameraEaseOptions`](./cameraeaseoptions.md)
 
-- 属性。
+- script_api.@minecraft/server.cameradefaultoptions.easeoptions.description
 
 
 ////

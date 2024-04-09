@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/codebuilder_actorinfo`命令commands.codebuilder.description
+`/codebuilder_actorinfo`命令command.codebuilder_actorinfo.description
 
 /// settings | 执行条件
 该命令需要权限等级：`any`|`0`。该命令需要开启作弊。
@@ -16,14 +16,16 @@
 ```
 
 //// html | div.result
+command.codebuilder_actorinfo.1.description
+
 ///// define
 `inventory`：<!-- md:samp CodeBuilderActionInventory -->
 
-- 枚举类型。单值枚举，请直接使用`inventory`。
+- 枚举类型。command.enum.codebuilderactioninventory.description单值枚举，请直接使用`inventory`。
 
 `targets`：<!-- md:samp target -->
 
-- 基本类型。
+- 基本类型。command.codebuilder_actorinfo.targets.description
 
 
 /////

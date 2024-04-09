@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityInventoryComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityInventoryComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityinventorycomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only additionalSlotsPerStrength: int32;
 //// define
 `additionalSlotsPerStrength`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entityinventorycomponent.additionalslotsperstrength.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only canBeSiphonedFrom: boolean;
 //// define
 `canBeSiphonedFrom`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entityinventorycomponent.canbesiphonedfrom.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only container: InventoryComponentContainer;
 //// define
 `container`：[`InventoryComponentContainer`](./inventorycomponentcontainer.md)
 
-- 属性。
+- script_api.mojang-minecraft.entityinventorycomponent.container.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only containerType: string;
 //// define
 `containerType`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entityinventorycomponent.containertype.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only inventorySize: int32;
 //// define
 `inventorySize`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entityinventorycomponent.inventorysize.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only private: boolean;
 //// define
 `private`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entityinventorycomponent.private.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only restrictToOwner: boolean;
 //// define
 `restrictToOwner`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entityinventorycomponent.restricttoowner.description
 
 
 ////

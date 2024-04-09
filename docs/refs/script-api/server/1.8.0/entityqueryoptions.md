@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityQueryOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。
+`EntityQueryOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。script_api.@minecraft/server.entityqueryoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ closest: int32 | undefined;
 //// define
 `closest`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryoptions.closest.description
 
 
 ////
@@ -42,7 +42,7 @@ farthest: int32 | undefined;
 //// define
 `farthest`：`int32`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryoptions.farthest.description
 
 
 ////
@@ -64,7 +64,7 @@ location: Vector3 | undefined;
 //// define
 `location`：[`Vector3`](./vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryoptions.location.description
 
 
 ////
@@ -86,7 +86,7 @@ maxDistance: float | undefined;
 //// define
 `maxDistance`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryoptions.maxdistance.description
 
 
 ////
@@ -108,7 +108,7 @@ minDistance: float | undefined;
 //// define
 `minDistance`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.entityqueryoptions.mindistance.description
 
 
 ////

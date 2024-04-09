@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockTypes`类。
+`BlockTypes`类。script_api.@minecraft/server.blocktypes.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.blocktypes.get.description
+
 ```js
 static get(typeName: string): BlockType | undefined
 ```
@@ -20,7 +22,7 @@ static get(typeName: string): BlockType | undefined
 //// define
 `typeName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.blocktypes.typename.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(typeName: string): BlockType | undefined
 //// define
 返回值：[`BlockType`](./blocktype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.blocktypes.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(typeName: string): BlockType | undefined
 
 ///
 
+script_api.@minecraft/server.blocktypes.getall.description
+
 ```js
 static getAll(): BlockType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): BlockType[]
 //// define
 返回值：<code><a href="../blocktype/">BlockType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.blocktypes.getall.return
 
 
 ////

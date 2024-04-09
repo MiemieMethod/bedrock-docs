@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerInputPacket -->数据包，数字ID是`57`。
+<!-- md:samp PlayerInputPacket -->数据包，数字ID是`57`。该数据包用于protocol.packet.playerinputpacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Move Vector：[<!-- md:samp Vec2 -->](../types/vec2.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerinputpacket.move_vector.description
 
 
 ////
 //// define
 Jumping：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerinputpacket.jumping.description
 
 
 ////
 //// define
 Sneaking：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerinputpacket.sneaking.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHealableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityHealableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityhealablecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only filters: FilterGroup;
 //// define
 `filters`：[`FilterGroup`](./filtergroup.md)
 
-- 属性。
+- script_api.mojang-minecraft.entityhealablecomponent.filters.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only forceUse: boolean;
 //// define
 `forceUse`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entityhealablecomponent.forceuse.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only items: FeedItem[];
 //// define
 `items`：<code><a href="../feeditem/">FeedItem</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.entityhealablecomponent.items.description
 
 
 ////

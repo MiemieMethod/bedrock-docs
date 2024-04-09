@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseOnEvent`类。
+`ItemUseOnEvent`类。script_api.mojang-minecraft.itemuseonevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only blockFace: Direction;
 //// define
 `blockFace`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemuseonevent.blockface.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only blockLocation: BlockLocation;
 //// define
 `blockLocation`：[`BlockLocation`](./blocklocation.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemuseonevent.blocklocation.description
 
 
 ////
@@ -64,7 +64,7 @@ item: ItemStack;
 //// define
 `item`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemuseonevent.item.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only source: Player;
 //// define
 `source`：[`Player`](./player.md)
 
-- 属性。
+- script_api.mojang-minecraft.itemuseonevent.source.description
 
 
 ////

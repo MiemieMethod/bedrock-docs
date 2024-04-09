@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerInputPermissionCategoryChangeAfterEvent`类。
+`PlayerInputPermissionCategoryChangeAfterEvent`类。script_api.@minecraft/server.playerinputpermissioncategorychangeafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only category: InputPermissionCategory;
 //// define
 `category`：[`InputPermissionCategory`](./inputpermissioncategory.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinputpermissioncategorychangeafterevent.category.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only enabled: boolean;
 //// define
 `enabled`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerinputpermissioncategorychangeafterevent.enabled.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerinputpermissioncategorychangeafterevent.player.description
 
 
 ////

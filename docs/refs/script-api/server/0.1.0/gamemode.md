@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`GameMode`枚举。
+`GameMode`枚举。script_api.mojang-minecraft.gamemode.description
 
 ## 常量
 

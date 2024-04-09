@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseOnAfterEvent`类。
+`ItemUseOnAfterEvent`类。script_api.@minecraft/server.itemuseonafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- 属性。
+- script_api.@minecraft/server.itemuseonafterevent.block.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only blockFace: Direction;
 //// define
 `blockFace`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.@minecraft/server.itemuseonafterevent.blockface.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only faceLocation: Vector3;
 //// define
 `faceLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.itemuseonafterevent.facelocation.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only itemStack: ItemStack;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.@minecraft/server.itemuseonafterevent.itemstack.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only source: Player;
 //// define
 `source`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.itemuseonafterevent.source.description
 
 
 ////

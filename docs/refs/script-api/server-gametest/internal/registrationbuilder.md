@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`RegistrationBuilder`类。
+`RegistrationBuilder`类。script_api.@minecraft/server-gametest.registrationbuilder.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.batch.description
+
 ```js
 batch(batchName: string): RegistrationBuilder
 ```
@@ -20,7 +22,7 @@ batch(batchName: string): RegistrationBuilder
 //// define
 `batchName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.batchname.batch.description
 
 
 ////
@@ -28,7 +30,7 @@ batch(batchName: string): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.batch.return
 
 
 ////
@@ -42,6 +44,8 @@ batch(batchName: string): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.maxattempts.description
+
 ```js
 maxAttempts(attemptCount: int32): RegistrationBuilder
 ```
@@ -50,7 +54,7 @@ maxAttempts(attemptCount: int32): RegistrationBuilder
 //// define
 `attemptCount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.attemptcount.maxattempts.description
 
 
 ////
@@ -58,7 +62,7 @@ maxAttempts(attemptCount: int32): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.maxattempts.return
 
 
 ////
@@ -72,6 +76,8 @@ maxAttempts(attemptCount: int32): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.maxticks.description
+
 ```js
 maxTicks(tickCount: int32): RegistrationBuilder
 ```
@@ -80,7 +86,7 @@ maxTicks(tickCount: int32): RegistrationBuilder
 //// define
 `tickCount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.tickcount.maxticks.description
 
 
 ////
@@ -88,7 +94,7 @@ maxTicks(tickCount: int32): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.maxticks.return
 
 
 ////
@@ -102,6 +108,8 @@ maxTicks(tickCount: int32): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.padding.description
+
 ```js
 padding(paddingBlocks: int32): RegistrationBuilder
 ```
@@ -110,7 +118,7 @@ padding(paddingBlocks: int32): RegistrationBuilder
 //// define
 `paddingBlocks`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.paddingblocks.padding.description
 
 
 ////
@@ -118,7 +126,7 @@ padding(paddingBlocks: int32): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.padding.return
 
 
 ////
@@ -132,6 +140,8 @@ padding(paddingBlocks: int32): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.required.description
+
 ```js
 required(isRequired: boolean): RegistrationBuilder
 ```
@@ -140,7 +150,7 @@ required(isRequired: boolean): RegistrationBuilder
 //// define
 `isRequired`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.isrequired.required.description
 
 
 ////
@@ -148,7 +158,7 @@ required(isRequired: boolean): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.required.return
 
 
 ////
@@ -162,6 +172,8 @@ required(isRequired: boolean): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.requiredsuccessfulattempts.description
+
 ```js
 requiredSuccessfulAttempts(attemptCount: int32): RegistrationBuilder
 ```
@@ -170,7 +182,7 @@ requiredSuccessfulAttempts(attemptCount: int32): RegistrationBuilder
 //// define
 `attemptCount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.attemptcount.requiredsuccessfulattempts.description
 
 
 ////
@@ -178,7 +190,7 @@ requiredSuccessfulAttempts(attemptCount: int32): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.requiredsuccessfulattempts.return
 
 
 ////
@@ -192,6 +204,8 @@ requiredSuccessfulAttempts(attemptCount: int32): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.rotatetest.description
+
 ```js
 rotateTest(rotate: boolean): RegistrationBuilder
 ```
@@ -200,7 +214,7 @@ rotateTest(rotate: boolean): RegistrationBuilder
 //// define
 `rotate`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.rotate.rotatetest.description
 
 
 ////
@@ -208,7 +222,7 @@ rotateTest(rotate: boolean): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.rotatetest.return
 
 
 ////
@@ -222,6 +236,8 @@ rotateTest(rotate: boolean): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.setupticks.description
+
 ```js
 setupTicks(tickCount: int32): RegistrationBuilder
 ```
@@ -230,7 +246,7 @@ setupTicks(tickCount: int32): RegistrationBuilder
 //// define
 `tickCount`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.tickcount.setupticks.description
 
 
 ////
@@ -238,7 +254,7 @@ setupTicks(tickCount: int32): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.setupticks.return
 
 
 ////
@@ -252,6 +268,8 @@ setupTicks(tickCount: int32): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.structurename.description
+
 ```js
 structureName(structureName: string): RegistrationBuilder
 ```
@@ -260,7 +278,7 @@ structureName(structureName: string): RegistrationBuilder
 //// define
 `structureName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.structurename.structurename.description
 
 
 ////
@@ -268,7 +286,7 @@ structureName(structureName: string): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.structurename.return
 
 
 ////
@@ -282,6 +300,8 @@ structureName(structureName: string): RegistrationBuilder
 
 ///
 
+script_api.@minecraft/server-gametest.registrationbuilder.tag.description
+
 ```js
 tag(tag: string): RegistrationBuilder
 ```
@@ -290,7 +310,7 @@ tag(tag: string): RegistrationBuilder
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.registrationbuilder.tag.tag.description
 
 
 ////
@@ -298,7 +318,7 @@ tag(tag: string): RegistrationBuilder
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.registrationbuilder.tag.return
 
 
 ////

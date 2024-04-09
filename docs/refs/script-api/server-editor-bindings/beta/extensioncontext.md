@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExtensionContext`类。
+`ExtensionContext`类。script_api.@minecraft/server-editor-bindings.extensioncontext.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only afterEvents: ExtensionContextAfterEvents;
 //// define
 `afterEvents`：[`ExtensionContextAfterEvents`](./extensioncontextafterevents.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.afterevents.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only blockPalette: BlockPaletteManager;
 //// define
 `blockPalette`：[`BlockPaletteManager`](./blockpalettemanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.blockpalette.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only brushShapeManager: BrushShapeManager;
 //// define
 `brushShapeManager`：[`BrushShapeManager`](./brushshapemanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.brushshapemanager.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only clipboardManager: ClipboardManager;
 //// define
 `clipboardManager`：[`ClipboardManager`](./clipboardmanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.clipboardmanager.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only cursor: Cursor;
 //// define
 `cursor`：[`Cursor`](./cursor.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.cursor.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only extensionInfo: Extension;
 //// define
 `extensionInfo`：[`Extension`](./extension.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.extensioninfo.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](../../server/beta/player.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.player.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only playtest: PlaytestManager;
 //// define
 `playtest`：[`PlaytestManager`](./playtestmanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.playtest.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only selectionManager: SelectionManager;
 //// define
 `selectionManager`：[`SelectionManager`](./selectionmanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.selectionmanager.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only settings: SettingsManager;
 //// define
 `settings`：[`SettingsManager`](./settingsmanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.settings.description
 
 
 ////
@@ -240,7 +240,7 @@ read-only transactionManager: TransactionManager;
 //// define
 `transactionManager`：[`TransactionManager`](./transactionmanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.transactionmanager.description
 
 
 ////
@@ -262,7 +262,7 @@ read-only widgetManager: WidgetManager;
 //// define
 `widgetManager`：[`WidgetManager`](./widgetmanager.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontext.widgetmanager.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPistonComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。
+`BlockPistonComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.mojang-minecraft.blockpistoncomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only attachedBlocks: BlockLocation[];
 //// define
 `attachedBlocks`：<code><a href="../blocklocation/">BlockLocation</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.blockpistoncomponent.attachedblocks.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only isExpanded: boolean;
 //// define
 `isExpanded`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.blockpistoncomponent.isexpanded.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only isExpanding: boolean;
 //// define
 `isExpanding`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.blockpistoncomponent.isexpanding.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only isMoving: boolean;
 //// define
 `isMoving`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.blockpistoncomponent.ismoving.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only isRetracted: boolean;
 //// define
 `isRetracted`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.blockpistoncomponent.isretracted.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only isRetracting: boolean;
 //// define
 `isRetracting`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.blockpistoncomponent.isretracting.description
 
 
 ////

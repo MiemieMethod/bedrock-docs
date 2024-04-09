@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetTitlePacket -->数据包，数字ID是`88`。
+<!-- md:samp SetTitlePacket -->数据包，数字ID是`88`。该数据包用于protocol.packet.settitlepacket.description
 
 ## 结构
 
@@ -56,19 +56,19 @@ rankdir = LR
 //// define
 Title Type：<!-- md:samp varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.settitlepacket.title_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Clear`|`0`||
-  |`Reset`|`1`||
-  |`Title`|`2`||
-  |`Subtitle`|`3`||
-  |`Actionbar`|`4`||
-  |`Times`|`5`||
-  |`TitleTextObject`|`6`||
-  |`SubtitleTextObject`|`7`||
-  |`ActionbarTextObject`|`8`||
+  |`Clear`|`0`|protocol.enum.clear|
+  |`Reset`|`1`|protocol.enum.reset|
+  |`Title`|`2`|protocol.enum.title|
+  |`Subtitle`|`3`|protocol.enum.subtitle|
+  |`Actionbar`|`4`|protocol.enum.actionbar|
+  |`Times`|`5`|protocol.enum.times|
+  |`TitleTextObject`|`6`|protocol.enum.titletextobject|
+  |`SubtitleTextObject`|`7`|protocol.enum.subtitletextobject|
+  |`ActionbarTextObject`|`8`|protocol.enum.actionbartextobject|
 
 
 
@@ -76,42 +76,42 @@ Title Type：<!-- md:samp varint -->
 //// define
 Title Text：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.settitlepacket.title_text.description
 
 
 ////
 //// define
 Fade In Time：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.settitlepacket.fade_in_time.description
 
 
 ////
 //// define
 Stay Time：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.settitlepacket.stay_time.description
 
 
 ////
 //// define
 Fade Out Time：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.settitlepacket.fade_out_time.description
 
 
 ////
 //// define
 Xuid：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.settitlepacket.xuid.description
 
 
 ////
 //// define
 Platform Online Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.settitlepacket.platform_online_id.description
 
 
 ////

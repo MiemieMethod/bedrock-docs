@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FormRejectReason`枚举。
+`FormRejectReason`枚举。script_api.@minecraft/server-ui.formrejectreason.description
 
 ## 常量
 

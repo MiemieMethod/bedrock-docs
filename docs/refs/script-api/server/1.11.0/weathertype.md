@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WeatherType`枚举。
+`WeatherType`枚举。script_api.@minecraft/server.weathertype.description
 
 ## 常量
 

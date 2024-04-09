@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityAgeableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityAgeableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityageablecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only duration: float;
 //// define
 `duration`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityageablecomponent.duration.description
 
 
 ////
@@ -55,7 +55,7 @@ read-only growUp: Trigger;
 //// define
 `growUp`：[`Trigger`](./trigger.md)
 
-- 属性。
+- script_api.@minecraft/server.entityageablecomponent.growup.description
 
 
 ////
@@ -77,7 +77,7 @@ read-only transformToItem: string;
 //// define
 `transformToItem`：`string`
 
-- 属性。
+- script_api.@minecraft/server.entityageablecomponent.transformtoitem.description
 
 
 ////
@@ -93,6 +93,8 @@ read-only transformToItem: string;
 
 ///
 
+script_api.@minecraft/server.entityageablecomponent.getdropitems.description
+
 ```js
 getDropItems(): string[]
 ```
@@ -101,7 +103,7 @@ getDropItems(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.entityageablecomponent.getdropitems.return
 
 
 ////
@@ -115,6 +117,8 @@ getDropItems(): string[]
 
 ///
 
+script_api.@minecraft/server.entityageablecomponent.getfeeditems.description
+
 ```js
 getFeedItems(): EntityDefinitionFeedItem[]
 ```
@@ -123,7 +127,7 @@ getFeedItems(): EntityDefinitionFeedItem[]
 //// define
 返回值：<code><a href="../entitydefinitionfeeditem/">EntityDefinitionFeedItem</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityageablecomponent.getfeeditems.return
 
 
 ////

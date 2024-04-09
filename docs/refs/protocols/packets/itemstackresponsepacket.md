@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemStackResponsePacket -->数据包，数字ID是`148`。
+<!-- md:samp ItemStackResponsePacket -->数据包，数字ID是`148`。该数据包用于protocol.packet.itemstackresponsepacket.description
 
 ## 结构
 
@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.itemstackresponsepacket.数组大小.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Response Info：[<!-- md:samp ItemStackResponseInfo -->](../types/itemstackresponseinfo.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.itemstackresponsepacket.response_info.description
 
 
 //////

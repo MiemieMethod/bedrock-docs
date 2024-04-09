@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerSpawnAfterEvent`类。
+`PlayerSpawnAfterEvent`类。script_api.@minecraft/server.playerspawnafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ initialSpawn: boolean;
 //// define
 `initialSpawn`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerspawnafterevent.initialspawn.description
 
 
 ////
@@ -42,7 +42,7 @@ player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerspawnafterevent.player.description
 
 
 ////

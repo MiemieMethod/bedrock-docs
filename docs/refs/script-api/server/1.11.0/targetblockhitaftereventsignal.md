@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`TargetBlockHitAfterEventSignal`类。
+`TargetBlockHitAfterEventSignal`类。script_api.@minecraft/server.targetblockhitaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.targetblockhitaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: TargetBlockHitAfterEvent) => void): (arg: TargetBlockHitAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: TargetBlockHitAfterEvent) => void): (arg: TargetBlockH
 //// define
 `callback`：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.targetblockhitaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: TargetBlockHitAfterEvent) => void): (arg: TargetBlockH
 //// define
 返回值：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.targetblockhitaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: TargetBlockHitAfterEvent) => void): (arg: TargetBlockH
 
 ///
 
+script_api.@minecraft/server.targetblockhitaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: TargetBlockHitAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: TargetBlockHitAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.targetblockhitaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: TargetBlockHitAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.targetblockhitaftereventsignal.unsubscribe.return
 
 
 ////

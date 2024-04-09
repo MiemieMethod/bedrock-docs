@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityIsStackableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityIsStackableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityisstackablecomponent.description
 
 ## 常量
 

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FluidContainer`类。
+`FluidContainer`类。script_api.@minecraft/server.fluidcontainer.description
 
 ## 常量
 

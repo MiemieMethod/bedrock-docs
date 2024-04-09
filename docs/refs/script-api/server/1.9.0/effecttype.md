@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EffectType`类。
+`EffectType`类。script_api.@minecraft/server.effecttype.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.effecttype.getname.description
+
 ```js
 getName(): string
 ```
@@ -20,7 +22,7 @@ getName(): string
 //// define
 返回值：`string`
 
-- 返回值。
+- script_api.@minecraft/server.effecttype.getname.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityInitializationCause`枚举。
+`EntityInitializationCause`枚举。script_api.@minecraft/server.entityinitializationcause.description
 
 ## 常量
 

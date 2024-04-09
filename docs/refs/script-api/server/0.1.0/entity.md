@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Entity`类。
+`Entity`类。script_api.mojang-minecraft.entity.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 属性。
+- script_api.mojang-minecraft.entity.dimension.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only headLocation: Location;
 //// define
 `headLocation`：[`Location`](./location.md)
 
-- 属性。
+- script_api.mojang-minecraft.entity.headlocation.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entity.id.description
 
 
 ////
@@ -86,7 +86,7 @@ isSneaking: boolean;
 //// define
 `isSneaking`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entity.issneaking.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only location: Location;
 //// define
 `location`：[`Location`](./location.md)
 
-- 属性。
+- script_api.mojang-minecraft.entity.location.description
 
 
 ////
@@ -130,7 +130,7 @@ nameTag: string;
 //// define
 `nameTag`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entity.nametag.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only rotation: XYRotation;
 //// define
 `rotation`：[`XYRotation`](./xyrotation.md)
 
-- 属性。
+- script_api.mojang-minecraft.entity.rotation.description
 
 
 ////
@@ -174,7 +174,7 @@ target: Entity;
 //// define
 `target`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.mojang-minecraft.entity.target.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only velocity: Vector;
 //// define
 `velocity`：[`Vector`](./vector.md)
 
-- 属性。
+- script_api.mojang-minecraft.entity.velocity.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only viewVector: Vector;
 //// define
 `viewVector`：[`Vector`](./vector.md)
 
-- 属性。
+- script_api.mojang-minecraft.entity.viewvector.description
 
 
 ////
@@ -234,6 +234,8 @@ read-only viewVector: Vector;
 
 ///
 
+script_api.mojang-minecraft.entity.addeffect.description
+
 ```js
 addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticles: boolean): void
 ```
@@ -242,7 +244,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `effectType`：[`EffectType`](./effecttype.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entity.effecttype.addeffect.description
 
 
 ////
@@ -250,7 +252,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `duration`：`int32`
 
-- 参数2。
+- script_api.mojang-minecraft.entity.duration.addeffect.description
 
 
 ////
@@ -258,7 +260,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `amplifier`：`int32`
 
-- 参数3。
+- script_api.mojang-minecraft.entity.amplifier.addeffect.description
 
 
 ////
@@ -266,7 +268,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `showParticles`：`boolean`
 
-- 参数4。
+- script_api.mojang-minecraft.entity.showparticles.addeffect.description
 
 
 ////
@@ -274,7 +276,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.addeffect.return
 
 
 ////
@@ -288,6 +290,8 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 
 ///
 
+script_api.mojang-minecraft.entity.addtag.description
+
 ```js
 addTag(tag: string): boolean
 ```
@@ -296,7 +300,7 @@ addTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.tag.addtag.description
 
 
 ////
@@ -304,7 +308,7 @@ addTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.addtag.return
 
 
 ////
@@ -318,6 +322,8 @@ addTag(tag: string): boolean
 
 ///
 
+script_api.mojang-minecraft.entity.getblockfromviewvector.description
+
 ```js
 getBlockFromViewVector(options?: BlockRaycastOptions): Block | undefined
 ```
@@ -326,7 +332,7 @@ getBlockFromViewVector(options?: BlockRaycastOptions): Block | undefined
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.options.getblockfromviewvector.description
 
 
 ////
@@ -334,7 +340,7 @@ getBlockFromViewVector(options?: BlockRaycastOptions): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.getblockfromviewvector.return
 
 
 ////
@@ -348,6 +354,8 @@ getBlockFromViewVector(options?: BlockRaycastOptions): Block | undefined
 
 ///
 
+script_api.mojang-minecraft.entity.getcomponent.description
+
 ```js
 getComponent(componentId: string): IEntityComponent | undefined
 ```
@@ -356,7 +364,7 @@ getComponent(componentId: string): IEntityComponent | undefined
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.componentid.getcomponent.description
 
 
 ////
@@ -364,7 +372,7 @@ getComponent(componentId: string): IEntityComponent | undefined
 //// define
 返回值：[`IEntityComponent`](./ientitycomponent.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.getcomponent.return
 
 
 ////
@@ -378,6 +386,8 @@ getComponent(componentId: string): IEntityComponent | undefined
 
 ///
 
+script_api.mojang-minecraft.entity.getcomponents.description
+
 ```js
 getComponents(): IEntityComponent[]
 ```
@@ -386,7 +396,7 @@ getComponents(): IEntityComponent[]
 //// define
 返回值：<code><a href="../ientitycomponent/">IEntityComponent</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.entity.getcomponents.return
 
 
 ////
@@ -400,6 +410,8 @@ getComponents(): IEntityComponent[]
 
 ///
 
+script_api.mojang-minecraft.entity.getdynamicproperty.description
+
 ```js
 getDynamicProperty(identifier: string): boolean | double | float | Location | string | undefined
 ```
@@ -408,7 +420,7 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.identifier.getdynamicproperty.description
 
 
 ////
@@ -416,7 +428,7 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 //// define
 返回值：`boolean`|`double`|`float`|[`Location`](./location.md)|`string`|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.getdynamicproperty.return
 
 
 ////
@@ -430,6 +442,8 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 
 ///
 
+script_api.mojang-minecraft.entity.geteffect.description
+
 ```js
 getEffect(effectType: EffectType): Effect | undefined
 ```
@@ -438,7 +452,7 @@ getEffect(effectType: EffectType): Effect | undefined
 //// define
 `effectType`：[`EffectType`](./effecttype.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entity.effecttype.geteffect.description
 
 
 ////
@@ -446,7 +460,7 @@ getEffect(effectType: EffectType): Effect | undefined
 //// define
 返回值：[`Effect`](./effect.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.geteffect.return
 
 
 ////
@@ -460,6 +474,8 @@ getEffect(effectType: EffectType): Effect | undefined
 
 ///
 
+script_api.mojang-minecraft.entity.getentitiesfromviewvector.description
+
 ```js
 getEntitiesFromViewVector(options?: EntityRaycastOptions): Entity[]
 ```
@@ -468,7 +484,7 @@ getEntitiesFromViewVector(options?: EntityRaycastOptions): Entity[]
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.options.getentitiesfromviewvector.description
 
 
 ////
@@ -476,7 +492,7 @@ getEntitiesFromViewVector(options?: EntityRaycastOptions): Entity[]
 //// define
 返回值：<code><a href="../entity/">Entity</a>[]</code>
 
-- 返回值。
+- script_api.mojang-minecraft.entity.getentitiesfromviewvector.return
 
 
 ////
@@ -490,6 +506,8 @@ getEntitiesFromViewVector(options?: EntityRaycastOptions): Entity[]
 
 ///
 
+script_api.mojang-minecraft.entity.gettags.description
+
 ```js
 getTags(): string[]
 ```
@@ -498,7 +516,7 @@ getTags(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.gettags.return
 
 
 ////
@@ -512,6 +530,8 @@ getTags(): string[]
 
 ///
 
+script_api.mojang-minecraft.entity.hascomponent.description
+
 ```js
 hasComponent(componentId: string): boolean
 ```
@@ -520,7 +540,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.componentid.hascomponent.description
 
 
 ////
@@ -528,7 +548,7 @@ hasComponent(componentId: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.hascomponent.return
 
 
 ////
@@ -542,6 +562,8 @@ hasComponent(componentId: string): boolean
 
 ///
 
+script_api.mojang-minecraft.entity.hastag.description
+
 ```js
 hasTag(tag: string): boolean
 ```
@@ -550,7 +572,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.tag.hastag.description
 
 
 ////
@@ -558,7 +580,7 @@ hasTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.hastag.return
 
 
 ////
@@ -572,6 +594,8 @@ hasTag(tag: string): boolean
 
 ///
 
+script_api.mojang-minecraft.entity.kill.description
+
 ```js
 kill(): void
 ```
@@ -580,7 +604,7 @@ kill(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.kill.return
 
 
 ////
@@ -594,6 +618,8 @@ kill(): void
 
 ///
 
+script_api.mojang-minecraft.entity.removedynamicproperty.description
+
 ```js
 removeDynamicProperty(identifier: string): boolean
 ```
@@ -602,7 +628,7 @@ removeDynamicProperty(identifier: string): boolean
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.identifier.removedynamicproperty.description
 
 
 ////
@@ -610,7 +636,7 @@ removeDynamicProperty(identifier: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.removedynamicproperty.return
 
 
 ////
@@ -624,6 +650,8 @@ removeDynamicProperty(identifier: string): boolean
 
 ///
 
+script_api.mojang-minecraft.entity.removetag.description
+
 ```js
 removeTag(tag: string): boolean
 ```
@@ -632,7 +660,7 @@ removeTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.tag.removetag.description
 
 
 ////
@@ -640,7 +668,7 @@ removeTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.removetag.return
 
 
 ////
@@ -654,6 +682,8 @@ removeTag(tag: string): boolean
 
 ///
 
+script_api.mojang-minecraft.entity.runcommand.description
+
 ```js
 runCommand(commandString: string): any
 ```
@@ -662,7 +692,7 @@ runCommand(commandString: string): any
 //// define
 `commandString`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.commandstring.runcommand.description
 
 
 ////
@@ -670,7 +700,7 @@ runCommand(commandString: string): any
 //// define
 返回值：`any`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.runcommand.return
 
 
 ////
@@ -684,6 +714,8 @@ runCommand(commandString: string): any
 
 ///
 
+script_api.mojang-minecraft.entity.setdynamicproperty.description
+
 ```js
 setDynamicProperty(identifier: string, value: boolean | double | float | Location | string): void
 ```
@@ -692,7 +724,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `identifier`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.identifier.setdynamicproperty.description
 
 
 ////
@@ -700,7 +732,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `value`：`boolean`|`double`|`float`|[`Location`](./location.md)|`string`
 
-- 参数2。
+- script_api.mojang-minecraft.entity.value.setdynamicproperty.description
 
 
 ////
@@ -708,7 +740,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.setdynamicproperty.return
 
 
 ////
@@ -722,6 +754,8 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 
 ///
 
+script_api.mojang-minecraft.entity.setrotation.description
+
 ```js
 setRotation(degreesX: float, degreesY: float): void
 ```
@@ -730,7 +764,7 @@ setRotation(degreesX: float, degreesY: float): void
 //// define
 `degreesX`：`float`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.degreesx.setrotation.description
 
 
 ////
@@ -738,7 +772,7 @@ setRotation(degreesX: float, degreesY: float): void
 //// define
 `degreesY`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.entity.degreesy.setrotation.description
 
 
 ////
@@ -746,7 +780,7 @@ setRotation(degreesX: float, degreesY: float): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.setrotation.return
 
 
 ////
@@ -760,6 +794,8 @@ setRotation(degreesX: float, degreesY: float): void
 
 ///
 
+script_api.mojang-minecraft.entity.setvelocity.description
+
 ```js
 setVelocity(velocity: Vector): void
 ```
@@ -768,7 +804,7 @@ setVelocity(velocity: Vector): void
 //// define
 `velocity`：[`Vector`](./vector.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entity.velocity.setvelocity.description
 
 
 ////
@@ -776,7 +812,7 @@ setVelocity(velocity: Vector): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.setvelocity.return
 
 
 ////
@@ -790,6 +826,8 @@ setVelocity(velocity: Vector): void
 
 ///
 
+script_api.mojang-minecraft.entity.teleport.description
+
 ```js
 teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: float, keepVelocity: boolean): void
 ```
@@ -798,7 +836,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `location`：[`Location`](./location.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entity.location.teleport.description
 
 
 ////
@@ -806,7 +844,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 参数2。
+- script_api.mojang-minecraft.entity.dimension.teleport.description
 
 
 ////
@@ -814,7 +852,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `xRotation`：`float`
 
-- 参数3。
+- script_api.mojang-minecraft.entity.xrotation.teleport.description
 
 
 ////
@@ -822,7 +860,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `yRotation`：`float`
 
-- 参数4。
+- script_api.mojang-minecraft.entity.yrotation.teleport.description
 
 
 ////
@@ -830,7 +868,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `keepVelocity`：`boolean`
 
-- 参数5。
+- script_api.mojang-minecraft.entity.keepvelocity.teleport.description
 
 
 ////
@@ -838,7 +876,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.teleport.return
 
 
 ////
@@ -852,6 +890,8 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 
 ///
 
+script_api.mojang-minecraft.entity.teleportfacing.description
+
 ```js
 teleportFacing(location: Location, dimension: Dimension, facingLocation: Location, keepVelocity: boolean): void
 ```
@@ -860,7 +900,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `location`：[`Location`](./location.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entity.location.teleportfacing.description
 
 
 ////
@@ -868,7 +908,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 参数2。
+- script_api.mojang-minecraft.entity.dimension.teleportfacing.description
 
 
 ////
@@ -876,7 +916,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `facingLocation`：[`Location`](./location.md)
 
-- 参数3。
+- script_api.mojang-minecraft.entity.facinglocation.teleportfacing.description
 
 
 ////
@@ -884,7 +924,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `keepVelocity`：`boolean`
 
-- 参数4。
+- script_api.mojang-minecraft.entity.keepvelocity.teleportfacing.description
 
 
 ////
@@ -892,7 +932,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.teleportfacing.return
 
 
 ////
@@ -906,6 +946,8 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 
 ///
 
+script_api.mojang-minecraft.entity.triggerevent.description
+
 ```js
 triggerEvent(eventName: string): void
 ```
@@ -914,7 +956,7 @@ triggerEvent(eventName: string): void
 //// define
 `eventName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.entity.eventname.triggerevent.description
 
 
 ////
@@ -922,7 +964,7 @@ triggerEvent(eventName: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entity.triggerevent.return
 
 
 ////

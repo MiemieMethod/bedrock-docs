@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EmotePacket -->数据包，数字ID是`138`。
+<!-- md:samp EmotePacket -->数据包，数字ID是`138`。该数据包用于protocol.packet.emotepacket.description
 
 ## 结构
 
@@ -48,40 +48,40 @@ rankdir = LR
 //// define
 Actor Runtime Id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.emotepacket.actor_runtime_id.description
 
 
 ////
 //// define
 Emote Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.emotepacket.emote_id.description
 
 
 ////
 //// define
 Xuid：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.emotepacket.xuid.description
 
 
 ////
 //// define
 PlatformId：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.emotepacket.platformid.description
 
 
 ////
 //// define
 Flags：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.emotepacket.flags.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`SERVER_SIDE`|`1 << 0`||
-  |`MUTE_EMOTE_CHAT`|`1 << 1`||
+  |`SERVER_SIDE`|`1 << 0`|protocol.enum.server_side|
+  |`MUTE_EMOTE_CHAT`|`1 << 1`|protocol.enum.mute_emote_chat|
 
 
 

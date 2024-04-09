@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityNavigationComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityNavigationComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitynavigationcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only avoidDamageBlocks: boolean;
 //// define
 `avoidDamageBlocks`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.avoiddamageblocks.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only avoidPortals: boolean;
 //// define
 `avoidPortals`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.avoidportals.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only avoidSun: boolean;
 //// define
 `avoidSun`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.avoidsun.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only avoidWater: boolean;
 //// define
 `avoidWater`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.avoidwater.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only canBreach: boolean;
 //// define
 `canBreach`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canbreach.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only canBreakDoors: boolean;
 //// define
 `canBreakDoors`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canbreakdoors.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only canFloat: boolean;
 //// define
 `canFloat`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canfloat.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only canJump: boolean;
 //// define
 `canJump`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canjump.description
 
 
 ////
@@ -196,7 +196,7 @@ read-only canOpenDoors: boolean;
 //// define
 `canOpenDoors`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canopendoors.description
 
 
 ////
@@ -218,7 +218,7 @@ read-only canOpenIronDoors: boolean;
 //// define
 `canOpenIronDoors`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canopenirondoors.description
 
 
 ////
@@ -240,7 +240,7 @@ read-only canPassDoors: boolean;
 //// define
 `canPassDoors`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canpassdoors.description
 
 
 ////
@@ -262,7 +262,7 @@ read-only canPathFromAir: boolean;
 //// define
 `canPathFromAir`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canpathfromair.description
 
 
 ////
@@ -284,7 +284,7 @@ read-only canPathOverLava: boolean;
 //// define
 `canPathOverLava`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canpathoverlava.description
 
 
 ////
@@ -306,7 +306,7 @@ read-only canPathOverWater: boolean;
 //// define
 `canPathOverWater`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canpathoverwater.description
 
 
 ////
@@ -328,7 +328,7 @@ read-only canSink: boolean;
 //// define
 `canSink`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.cansink.description
 
 
 ////
@@ -350,7 +350,7 @@ read-only canSwim: boolean;
 //// define
 `canSwim`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canswim.description
 
 
 ////
@@ -372,7 +372,7 @@ read-only canWalk: boolean;
 //// define
 `canWalk`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canwalk.description
 
 
 ////
@@ -394,7 +394,7 @@ read-only canWalkInLava: boolean;
 //// define
 `canWalkInLava`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.canwalkinlava.description
 
 
 ////
@@ -416,7 +416,7 @@ read-only isAmphibious: boolean;
 //// define
 `isAmphibious`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entitynavigationcomponent.isamphibious.description
 
 
 ////

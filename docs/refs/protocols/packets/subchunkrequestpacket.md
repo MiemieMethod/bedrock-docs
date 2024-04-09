@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SubChunkRequestPacket -->数据包，数字ID是`175`。
+<!-- md:samp SubChunkRequestPacket -->数据包，数字ID是`175`。该数据包用于protocol.packet.subchunkrequestpacket.description
 
 ## 结构
 
@@ -48,21 +48,21 @@ rankdir = LR
 //// define
 Dimension Type：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.subchunkrequestpacket.dimension_type.description
 
 
 ////
 //// define
 Center Pos：[<!-- md:samp SubChunkPos -->](../types/subchunkpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.subchunkrequestpacket.center_pos.description
 
 
 ////
 //// define
 Request Count：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.subchunkrequestpacket.request_count.description
 
 
 ////
@@ -79,7 +79,7 @@ Request Count：<!-- md:samp unsigned int -->
 ////// define
 SubChunk Offset Pos：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../types/subchunkpacket__subchunkposoffset.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.subchunkrequestpacket.subchunk_offset_pos.description
 
 
 //////

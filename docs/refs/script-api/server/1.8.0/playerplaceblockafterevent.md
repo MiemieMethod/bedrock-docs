@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerPlaceBlockAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`PlayerPlaceBlockAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.playerplaceblockafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerplaceblockafterevent.player.description
 
 
 ////

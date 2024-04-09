@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CommandOutputPacket -->数据包，数字ID是`79`。
+<!-- md:samp CommandOutputPacket -->数据包，数字ID是`79`。该数据包用于protocol.packet.commandoutputpacket.description
 
 ## 结构
 
@@ -80,22 +80,22 @@ rankdir = LR
 //// define
 Origin Data：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandoutputpacket.origin_data.description
 
 
 ////
 //// define
 Output Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.commandoutputpacket.output_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`None`|`0`||
-  |`LastOutput`|`1`||
-  |`Silent`|`2`||
-  |`AllOutput`|`3`||
-  |`DataSet`|`4`||
+  |`None`|`0`|无|
+  |`LastOutput`|`1`|protocol.enum.lastoutput|
+  |`Silent`|`2`|protocol.enum.silent|
+  |`AllOutput`|`3`|protocol.enum.alloutput|
+  |`DataSet`|`4`|protocol.enum.dataset|
 
 
 
@@ -103,7 +103,7 @@ Output Type：<!-- md:samp byte -->
 //// define
 Success Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandoutputpacket.success_count.description
 
 
 ////
@@ -115,7 +115,7 @@ Success Count：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandoutputpacket.数组大小.description
 
 
 /////
@@ -127,14 +127,14 @@ Success Count：<!-- md:samp unsigned varint -->
 ////// define
 Successful?：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandoutputpacket.successful.description
 
 
 //////
 ////// define
 Message ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandoutputpacket.message_id.description
 
 
 //////
@@ -146,7 +146,7 @@ Message ID：[<!-- md:samp string -->](../types/string.md)
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.commandoutputpacket.数组大小.description
 
 
 ///////
@@ -158,7 +158,7 @@ Message ID：[<!-- md:samp string -->](../types/string.md)
 //////// define
 Param：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandoutputpacket.param.description
 
 
 ////////
@@ -176,7 +176,7 @@ Param：[<!-- md:samp string -->](../types/string.md)
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -192,7 +192,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Data Set：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.commandoutputpacket.data_set.description
 
 
 ///////

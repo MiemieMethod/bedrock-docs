@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MinecraftDimensionTypes`类。
+`MinecraftDimensionTypes`类。script_api.mojang-minecraft.minecraftdimensiontypes.description
 
 ## 常量
 

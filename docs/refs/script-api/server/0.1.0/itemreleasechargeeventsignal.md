@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemReleaseChargeEventSignal`类。
+`ItemReleaseChargeEventSignal`类。script_api.mojang-minecraft.itemreleasechargeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.itemreleasechargeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ItemReleaseChargeEvent) => void): (arg: ItemReleaseChargeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ItemReleaseChargeEvent) => void): (arg: ItemReleaseCha
 //// define
 `callback`：<code>(<a href="../itemreleasechargeevent/">ItemReleaseChargeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemreleasechargeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ItemReleaseChargeEvent) => void): (arg: ItemReleaseCha
 //// define
 返回值：<code>(<a href="../itemreleasechargeevent/">ItemReleaseChargeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.itemreleasechargeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ItemReleaseChargeEvent) => void): (arg: ItemReleaseCha
 
 ///
 
+script_api.mojang-minecraft.itemreleasechargeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ItemReleaseChargeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ItemReleaseChargeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemreleasechargeevent/">ItemReleaseChargeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemreleasechargeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ItemReleaseChargeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.itemreleasechargeeventsignal.unsubscribe.return
 
 
 ////

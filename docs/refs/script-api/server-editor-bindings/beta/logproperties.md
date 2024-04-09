@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`LogProperties`接口。
+`LogProperties`接口。script_api.@minecraft/server-editor-bindings.logproperties.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ player: Player | undefined;
 //// define
 `player`：[`Player`](../../server/beta/player.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.logproperties.player.description
 
 
 ////
@@ -42,7 +42,7 @@ tags: string[] | undefined;
 //// define
 `tags`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.logproperties.tags.description
 
 
 ////

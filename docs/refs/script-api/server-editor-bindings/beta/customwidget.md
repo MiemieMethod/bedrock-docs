@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CustomWidget`类，扩展自[`Widget`](./widget.md)。
+`CustomWidget`类，扩展自[`Widget`](./widget.md)。script_api.@minecraft/server-editor-bindings.customwidget.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidget.location.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only rotation: Vector2;
 //// define
 `rotation`：[`Vector2`](../../server/beta/vector2.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidget.rotation.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only showTextOnlyWhenSelected: boolean;
 //// define
 `showTextOnlyWhenSelected`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.customwidget.showtextonlywhenselected.description
 
 
 ////
@@ -80,6 +80,8 @@ read-only showTextOnlyWhenSelected: boolean;
 
 ///
 
+script_api.@minecraft/server-editor-bindings.customwidget.gettext.description
+
 ```js
 getText(): string
 ```
@@ -88,7 +90,7 @@ getText(): string
 //// define
 返回值：`string`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.customwidget.gettext.return
 
 
 ////
@@ -102,6 +104,8 @@ getText(): string
 
 ///
 
+script_api.@minecraft/server-editor-bindings.customwidget.moveby.description
+
 ```js
 moveBy(delta: Vector3): void
 ```
@@ -110,7 +114,7 @@ moveBy(delta: Vector3): void
 //// define
 `delta`：[`Vector3`](../../server/beta/vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.customwidget.delta.moveby.description
 
 
 ////
@@ -118,7 +122,7 @@ moveBy(delta: Vector3): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.customwidget.moveby.return
 
 
 ////
@@ -132,6 +136,8 @@ moveBy(delta: Vector3): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.customwidget.settext.description
+
 ```js
 setText(text: string): void
 ```
@@ -140,7 +146,7 @@ setText(text: string): void
 //// define
 `text`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.customwidget.text.settext.description
 
 
 ////
@@ -148,7 +154,7 @@ setText(text: string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.customwidget.settext.return
 
 
 ////

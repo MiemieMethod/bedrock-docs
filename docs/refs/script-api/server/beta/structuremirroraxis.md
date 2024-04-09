@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`StructureMirrorAxis`枚举。
+`StructureMirrorAxis`枚举。script_api.@minecraft/server.structuremirroraxis.description
 
 ## 常量
 

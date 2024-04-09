@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp Experiments -->类型。
+<!-- md:samp Experiments -->类型。该类型用于protocol.type.experiments.description
 
 ## 结构
 
@@ -61,7 +61,7 @@ rankdir = LR
 ///// define
 Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.type.experiments.streamed_experiment_names_size.description
 
 
 /////
@@ -73,28 +73,28 @@ Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 ////// define
 Toggle Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.experiments.toggle_name.description
 
 
 //////
 ////// define
 Enabled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.experiments.enabled.description
 
 
 //////
 ////// define
 Always On Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.experiments.always_on_name.description
 
 
 //////
 ////// define
 Enabled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.experiments.enabled.description
 
 
 //////
@@ -105,7 +105,7 @@ Enabled：<!-- md:samp bool -->
 //// define
 Were Any Experiments Ever Toggled：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.type.experiments.were_any_experiments_ever_toggled.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ServerMessageAfterEventSignal`类。
+`ServerMessageAfterEventSignal`类。script_api.@minecraft/server.servermessageaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.servermessageaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: MessageReceiveAfterEvent) => void): (arg: MessageReceiveAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: MessageReceiveAfterEvent) => void): (arg: MessageRecei
 //// define
 `callback`：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.servermessageaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: MessageReceiveAfterEvent) => void): (arg: MessageRecei
 //// define
 返回值：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.servermessageaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: MessageReceiveAfterEvent) => void): (arg: MessageRecei
 
 ///
 
+script_api.@minecraft/server.servermessageaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: MessageReceiveAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: MessageReceiveAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.servermessageaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: MessageReceiveAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.servermessageaftereventsignal.unsubscribe.return
 
 
 ////

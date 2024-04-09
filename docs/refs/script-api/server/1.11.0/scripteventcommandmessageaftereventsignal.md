@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScriptEventCommandMessageAfterEventSignal`类。
+`ScriptEventCommandMessageAfterEventSignal`类。script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?: ScriptEventMessageFilterOptions): (arg: ScriptEventCommandMessageAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 //// define
 `callback`：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 //// define
 `options`：[`ScriptEventMessageFilterOptions`](./scripteventmessagefilteroptions.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 //// define
 返回值：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 
 ///
 
+script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityItemComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityItemComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityitemcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only itemStack: ItemStack;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.mojang-minecraft.entityitemcomponent.itemstack.description
 
 
 ////

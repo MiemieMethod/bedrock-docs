@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockRaycastOptions`类。
+`BlockRaycastOptions`类。script_api.mojang-minecraft.blockraycastoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ includeLiquidBlocks: boolean | undefined;
 //// define
 `includeLiquidBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.blockraycastoptions.includeliquidblocks.description
 
 
 ////
@@ -42,7 +42,7 @@ includePassableBlocks: boolean | undefined;
 //// define
 `includePassableBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.blockraycastoptions.includepassableblocks.description
 
 
 ////
@@ -64,7 +64,7 @@ maxDistance: int32 | undefined;
 //// define
 `maxDistance`：`int32`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.blockraycastoptions.maxdistance.description
 
 
 ////
@@ -80,6 +80,8 @@ maxDistance: int32 | undefined;
 
 ///
 
+script_api.mojang-minecraft.blockraycastoptions.constructor.description
+
 ```js
 new constructor(): BlockRaycastOptions
 ```
@@ -88,7 +90,7 @@ new constructor(): BlockRaycastOptions
 //// define
 返回值：[`BlockRaycastOptions`](./blockraycastoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.blockraycastoptions.constructor.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp WebSocketPacketData -->类型。
+<!-- md:samp WebSocketPacketData -->类型。该类型用于protocol.type.websocketpacketdata.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Websocket Server URI：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.websocketpacketdata.websocket_server_uri.description
 
 
 ////

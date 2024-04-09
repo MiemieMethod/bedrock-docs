@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FormResponse`类。
+`FormResponse`类。script_api.@minecraft/server-ui.formresponse.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only cancelationReason: FormCancelationReason | undefined;
 //// define
 `cancelationReason`：[`FormCancelationReason`](./formcancelationreason.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-ui.formresponse.cancelationreason.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only canceled: boolean;
 //// define
 `canceled`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-ui.formresponse.canceled.description
 
 
 ////

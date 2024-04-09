@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayStatusPacket -->数据包，数字ID是`2`。
+<!-- md:samp PlayStatusPacket -->数据包，数字ID是`2`。该数据包用于protocol.packet.playstatuspacket.description
 
 ## 结构
 
@@ -32,20 +32,20 @@ rankdir = LR
 //// define
 Status：<!-- md:samp big endian int -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.playstatuspacket.status.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`LoginSuccess`|`0`||
-  |`LoginFailed_ClientOld`|`1`||
-  |`LoginFailed_ServerOld`|`2`||
-  |`PlayerSpawn`|`3`||
-  |`LoginFailed_InvalidTenant`|`4`||
-  |`LoginFailed_EditionMismatchEduToVanilla`|`5`||
-  |`LoginFailed_EditionMismatchVanillaToEdu`|`6`||
-  |`LoginFailed_ServerFullSubClient`|`7`||
-  |`LoginFailed_EditorMismatchEditorToVanilla`|`8`||
-  |`LoginFailed_EditorMismatchVanillaToEditor`|`9`||
+  |`LoginSuccess`|`0`|protocol.enum.loginsuccess|
+  |`LoginFailed_ClientOld`|`1`|protocol.enum.loginfailed_clientold|
+  |`LoginFailed_ServerOld`|`2`|protocol.enum.loginfailed_serverold|
+  |`PlayerSpawn`|`3`|protocol.enum.playerspawn|
+  |`LoginFailed_InvalidTenant`|`4`|protocol.enum.loginfailed_invalidtenant|
+  |`LoginFailed_EditionMismatchEduToVanilla`|`5`|protocol.enum.loginfailed_editionmismatchedutovanilla|
+  |`LoginFailed_EditionMismatchVanillaToEdu`|`6`|protocol.enum.loginfailed_editionmismatchvanillatoedu|
+  |`LoginFailed_ServerFullSubClient`|`7`|protocol.enum.loginfailed_serverfullsubclient|
+  |`LoginFailed_EditorMismatchEditorToVanilla`|`8`|protocol.enum.loginfailed_editormismatcheditortovanilla|
+  |`LoginFailed_EditorMismatchVanillaToEditor`|`9`|protocol.enum.loginfailed_editormismatchvanillatoeditor|
 
 
 

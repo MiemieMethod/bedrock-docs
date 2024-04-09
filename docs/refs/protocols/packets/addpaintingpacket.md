@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp AddPaintingPacket -->数据包，数字ID是`22`。
+<!-- md:samp AddPaintingPacket -->数据包，数字ID是`22`。该数据包用于protocol.packet.addpaintingpacket.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addpaintingpacket.target_actor_id.description
 
 
 ////
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addpaintingpacket.target_runtime_id.description
 
 
 ////
 //// define
 Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addpaintingpacket.position.description
 
 
 ////
 //// define
 Direction：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.addpaintingpacket.direction.description
 
 
 ////
 //// define
 Motif：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.addpaintingpacket.motif.description
 
 
 ////

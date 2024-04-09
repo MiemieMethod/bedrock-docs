@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PropertySyncData -->类型。
+<!-- md:samp PropertySyncData -->类型。该类型用于protocol.type.propertysyncdata.description
 
 ## 结构
 
@@ -65,7 +65,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.propertysyncdata.数组大小.description
 
 
 /////
@@ -77,14 +77,14 @@ rankdir = LR
 ////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.propertysyncdata.property_index.description
 
 
 //////
 ////// define
 Data：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.propertysyncdata.data.description
 
 
 //////
@@ -100,7 +100,7 @@ Data：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.propertysyncdata.数组大小.description
 
 
 /////
@@ -112,14 +112,14 @@ Data：<!-- md:samp varint -->
 ////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.propertysyncdata.property_index.description
 
 
 //////
 ////// define
 Data：<!-- md:samp float -->
 
-- 基本类型。
+- 基本类型。protocol.type.propertysyncdata.data.description
 
 
 //////

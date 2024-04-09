@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WatchdogTerminateBeforeEvent`类。
+`WatchdogTerminateBeforeEvent`类。script_api.@minecraft/server.watchdogterminatebeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.watchdogterminatebeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only terminateReason: WatchdogTerminateReason;
 //// define
 `terminateReason`：[`WatchdogTerminateReason`](./watchdogterminatereason.md)
 
-- 属性。
+- script_api.@minecraft/server.watchdogterminatebeforeevent.terminatereason.description
 
 
 ////

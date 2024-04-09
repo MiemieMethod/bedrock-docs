@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemComponentRegistry`类。
+`ItemComponentRegistry`类。script_api.@minecraft/server.itemcomponentregistry.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.itemcomponentregistry.registercustomcomponent.description
+
 ```js
 registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent): void
 ```
@@ -20,7 +22,7 @@ registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent):
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.itemcomponentregistry.name.registercustomcomponent.description
 
 
 ////
@@ -28,7 +30,7 @@ registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent):
 //// define
 `itemCustomComponent`：[`ItemCustomComponent`](./itemcustomcomponent.md)
 
-- 参数2。
+- script_api.@minecraft/server.itemcomponentregistry.itemcustomcomponent.registercustomcomponent.description
 
 
 ////
@@ -36,7 +38,7 @@ registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent):
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemcomponentregistry.registercustomcomponent.return
 
 
 ////

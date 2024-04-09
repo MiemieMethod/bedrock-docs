@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CameraShakePacket -->数据包，数字ID是`159`。
+<!-- md:samp CameraShakePacket -->数据包，数字ID是`159`。该数据包用于protocol.packet.camerashakepacket.description
 
 ## 结构
 
@@ -44,26 +44,26 @@ rankdir = LR
 //// define
 Intensity：<!-- md:samp float -->
 
-- 基本类型。Camera shake intensity
+- 基本类型。protocol.packet.camerashakepacket.intensity.descriptionCamera shake intensity
 
 
 ////
 //// define
 Seconds：<!-- md:samp float -->
 
-- 基本类型。Duration
+- 基本类型。protocol.packet.camerashakepacket.seconds.descriptionDuration
 
 
 ////
 //// define
 Shake Type：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.camerashakepacket.shake_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Positional`|`0`||
-  |`Rotational`|`1`||
+  |`Positional`|`0`|protocol.enum.positional|
+  |`Rotational`|`1`|protocol.enum.rotational|
 
 
 
@@ -71,12 +71,12 @@ Shake Type：<!-- md:samp byte -->
 //// define
 Shake action：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.camerashakepacket.shake_action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Add`|`0`||
-  |`Stop`|`1`||
+  |`Add`|`0`|protocol.enum.add|
+  |`Stop`|`1`|protocol.enum.stop|
 
 
 

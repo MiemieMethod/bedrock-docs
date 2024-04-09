@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExplosionBeforeEventSignal`类。
+`ExplosionBeforeEventSignal`类。script_api.@minecraft/server.explosionbeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.explosionbeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ExplosionBeforeEvent) => void): (arg: ExplosionBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ExplosionBeforeEvent) => void): (arg: ExplosionBeforeE
 //// define
 `callback`：<code>(<a href="../explosionbeforeevent/">ExplosionBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.explosionbeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ExplosionBeforeEvent) => void): (arg: ExplosionBeforeE
 //// define
 返回值：<code>(<a href="../explosionbeforeevent/">ExplosionBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.explosionbeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ExplosionBeforeEvent) => void): (arg: ExplosionBeforeE
 
 ///
 
+script_api.@minecraft/server.explosionbeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ExplosionBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ExplosionBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../explosionbeforeevent/">ExplosionBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.explosionbeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ExplosionBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.explosionbeforeeventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp OpenSignPacket -->数据包，数字ID是`303`。
+<!-- md:samp OpenSignPacket -->数据包，数字ID是`303`。该数据包用于protocol.packet.opensignpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.opensignpacket.pos.description
 
 
 ////
 //// define
 Is Front Side：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.opensignpacket.is_front_side.description
 
 
 ////

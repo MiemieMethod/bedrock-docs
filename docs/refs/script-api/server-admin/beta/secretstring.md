@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SecretString`类。
+`SecretString`类。script_api.@minecraft/server-admin.secretstring.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-admin.secretstring.constructor.description
+
 ```js
 new constructor(value: string): SecretString
 ```
@@ -20,7 +22,7 @@ new constructor(value: string): SecretString
 //// define
 `value`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-admin.secretstring.value.constructor.description
 
 
 ////
@@ -28,7 +30,7 @@ new constructor(value: string): SecretString
 //// define
 返回值：[`SecretString`](./secretstring.md)
 
-- 返回值。
+- script_api.@minecraft/server-admin.secretstring.constructor.return
 
 
 ////

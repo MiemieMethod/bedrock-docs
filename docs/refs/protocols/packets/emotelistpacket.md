@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp EmoteListPacket -->数据包，数字ID是`152`。
+<!-- md:samp EmoteListPacket -->数据包，数字ID是`152`。该数据包用于protocol.packet.emotelistpacket.description
 
 ## 结构
 
@@ -44,7 +44,7 @@ rankdir = LR
 //// define
 Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.emotelistpacket.runtime_id.description
 
 
 ////
@@ -56,7 +56,7 @@ Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.emotelistpacket.数组大小.description
 
 
 /////
@@ -68,7 +68,7 @@ Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 ////// define
 Piece id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.emotelistpacket.piece_id.description
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`MolangVariableMap`类。
+`MolangVariableMap`类。script_api.mojang-minecraft.molangvariablemap.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.molangvariablemap.constructor.description
+
 ```js
 new constructor(): MolangVariableMap
 ```
@@ -20,7 +22,7 @@ new constructor(): MolangVariableMap
 //// define
 返回值：[`MolangVariableMap`](./molangvariablemap.md)
 
-- 返回值。
+- script_api.mojang-minecraft.molangvariablemap.constructor.return
 
 
 ////
@@ -34,6 +36,8 @@ new constructor(): MolangVariableMap
 
 ///
 
+script_api.mojang-minecraft.molangvariablemap.setcolorrgb.description
+
 ```js
 setColorRGB(variableName: string, color: Color): void
 ```
@@ -42,7 +46,7 @@ setColorRGB(variableName: string, color: Color): void
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.molangvariablemap.variablename.setcolorrgb.description
 
 
 ////
@@ -50,7 +54,7 @@ setColorRGB(variableName: string, color: Color): void
 //// define
 `color`：[`Color`](./color.md)
 
-- 参数2。
+- script_api.mojang-minecraft.molangvariablemap.color.setcolorrgb.description
 
 
 ////
@@ -58,7 +62,7 @@ setColorRGB(variableName: string, color: Color): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.molangvariablemap.setcolorrgb.return
 
 
 ////
@@ -72,6 +76,8 @@ setColorRGB(variableName: string, color: Color): void
 
 ///
 
+script_api.mojang-minecraft.molangvariablemap.setcolorrgba.description
+
 ```js
 setColorRGBA(variableName: string, color: Color): void
 ```
@@ -80,7 +86,7 @@ setColorRGBA(variableName: string, color: Color): void
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.molangvariablemap.variablename.setcolorrgba.description
 
 
 ////
@@ -88,7 +94,7 @@ setColorRGBA(variableName: string, color: Color): void
 //// define
 `color`：[`Color`](./color.md)
 
-- 参数2。
+- script_api.mojang-minecraft.molangvariablemap.color.setcolorrgba.description
 
 
 ////
@@ -96,7 +102,7 @@ setColorRGBA(variableName: string, color: Color): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.molangvariablemap.setcolorrgba.return
 
 
 ////
@@ -110,6 +116,8 @@ setColorRGBA(variableName: string, color: Color): void
 
 ///
 
+script_api.mojang-minecraft.molangvariablemap.setspeedanddirection.description
+
 ```js
 setSpeedAndDirection(variableName: string, speed: float, direction: Vector): MolangVariableMap
 ```
@@ -118,7 +126,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.molangvariablemap.variablename.setspeedanddirection.description
 
 
 ////
@@ -126,7 +134,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 //// define
 `speed`：`float`
 
-- 参数2。
+- script_api.mojang-minecraft.molangvariablemap.speed.setspeedanddirection.description
 
 
 ////
@@ -134,7 +142,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 //// define
 `direction`：[`Vector`](./vector.md)
 
-- 参数3。
+- script_api.mojang-minecraft.molangvariablemap.direction.setspeedanddirection.description
 
 
 ////
@@ -142,7 +150,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 //// define
 返回值：[`MolangVariableMap`](./molangvariablemap.md)
 
-- 返回值。
+- script_api.mojang-minecraft.molangvariablemap.setspeedanddirection.return
 
 
 ////
@@ -156,6 +164,8 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 
 ///
 
+script_api.mojang-minecraft.molangvariablemap.setvector3.description
+
 ```js
 setVector3(variableName: string, vector: Vector): MolangVariableMap
 ```
@@ -164,7 +174,7 @@ setVector3(variableName: string, vector: Vector): MolangVariableMap
 //// define
 `variableName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.molangvariablemap.variablename.setvector3.description
 
 
 ////
@@ -172,7 +182,7 @@ setVector3(variableName: string, vector: Vector): MolangVariableMap
 //// define
 `vector`：[`Vector`](./vector.md)
 
-- 参数2。
+- script_api.mojang-minecraft.molangvariablemap.vector.setvector3.description
 
 
 ////
@@ -180,7 +190,7 @@ setVector3(variableName: string, vector: Vector): MolangVariableMap
 //// define
 返回值：[`MolangVariableMap`](./molangvariablemap.md)
 
-- 返回值。
+- script_api.mojang-minecraft.molangvariablemap.setvector3.return
 
 
 ////

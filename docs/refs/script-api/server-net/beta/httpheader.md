@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`HttpHeader`类。
+`HttpHeader`类。script_api.@minecraft/server-net.httpheader.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ key: string;
 //// define
 `key`：`string`
 
-- 属性。
+- script_api.@minecraft/server-net.httpheader.key.description
 
 
 ////
@@ -42,7 +42,7 @@ value: SecretString | string;
 //// define
 `value`：[`SecretString`](../../server-admin/beta/secretstring.md)|`string`
 
-- 属性。
+- script_api.@minecraft/server-net.httpheader.value.description
 
 
 ////
@@ -58,6 +58,8 @@ value: SecretString | string;
 
 ///
 
+script_api.@minecraft/server-net.httpheader.constructor.description
+
 ```js
 new constructor(key: string, value: SecretString | string): HttpHeader
 ```
@@ -66,7 +68,7 @@ new constructor(key: string, value: SecretString | string): HttpHeader
 //// define
 `key`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-net.httpheader.key.constructor.description
 
 
 ////
@@ -74,7 +76,7 @@ new constructor(key: string, value: SecretString | string): HttpHeader
 //// define
 `value`：[`SecretString`](../../server-admin/beta/secretstring.md)|`string`
 
-- 参数2。
+- script_api.@minecraft/server-net.httpheader.value.constructor.description
 
 
 ////
@@ -82,7 +84,7 @@ new constructor(key: string, value: SecretString | string): HttpHeader
 //// define
 返回值：[`HttpHeader`](./httpheader.md)
 
-- 返回值。
+- script_api.@minecraft/server-net.httpheader.constructor.return
 
 
 ////

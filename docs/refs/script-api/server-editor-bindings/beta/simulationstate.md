@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SimulationState`类。
+`SimulationState`类。script_api.@minecraft/server-editor-bindings.simulationstate.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.simulationstate.ispaused.description
+
 ```js
 isPaused(): boolean
 ```
@@ -20,7 +22,7 @@ isPaused(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.simulationstate.ispaused.return
 
 
 ////
@@ -34,6 +36,8 @@ isPaused(): boolean
 
 ///
 
+script_api.@minecraft/server-editor-bindings.simulationstate.setpaused.description
+
 ```js
 setPaused(isPaused: boolean): void
 ```
@@ -42,7 +46,7 @@ setPaused(isPaused: boolean): void
 //// define
 `isPaused`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.simulationstate.ispaused.setpaused.description
 
 
 ////
@@ -50,7 +54,7 @@ setPaused(isPaused: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.simulationstate.setpaused.return
 
 
 ////

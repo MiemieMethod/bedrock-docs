@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp UpdateBlockSyncedPacket -->数据包，数字ID是`110`。
+<!-- md:samp UpdateBlockSyncedPacket -->数据包，数字ID是`110`。该数据包用于protocol.packet.updateblocksyncedpacket.description
 
 ## 结构
 
@@ -52,48 +52,48 @@ rankdir = LR
 //// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.updateblocksyncedpacket.block_position.description
 
 
 ////
 //// define
 Block Runtime ID：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateblocksyncedpacket.block_runtime_id.description
 
 
 ////
 //// define
 Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateblocksyncedpacket.flags.description
 
 
 ////
 //// define
 Layer：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.updateblocksyncedpacket.layer.description
 
 
 ////
 //// define
 Unique Actor Id：<!-- md:samp varint64 -->
 
-- 基本类型。Id for the Moving Block Actor
+- 基本类型。protocol.packet.updateblocksyncedpacket.unique_actor_id.descriptionId for the Moving Block Actor
 
 
 ////
 //// define
 Actor Sync Message：<!-- md:samp varint64 -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.updateblocksyncedpacket.actor_sync_message.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NONE`|`0`||
-  |`CREATE`|`1`||
-  |`DESTROY`|`2`||
+  |`NONE`|`0`|无|
+  |`CREATE`|`1`|protocol.enum.create|
+  |`DESTROY`|`2`|protocol.enum.destroy|
 
 
 

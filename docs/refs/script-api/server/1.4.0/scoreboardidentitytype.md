@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScoreboardIdentityType`枚举。
+`ScoreboardIdentityType`枚举。script_api.@minecraft/server.scoreboardidentitytype.description
 
 ## 常量
 

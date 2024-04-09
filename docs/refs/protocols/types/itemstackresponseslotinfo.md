@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ItemStackResponseSlotInfo -->类型。
+<!-- md:samp ItemStackResponseSlotInfo -->类型。该类型用于protocol.type.itemstackresponseslotinfo.description
 
 ## 结构
 
@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 Requested slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackresponseslotinfo.requested_slot.description
 
 
 ////
 //// define
 Slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackresponseslotinfo.slot.description
 
 
 ////
 //// define
 Amount：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackresponseslotinfo.amount.description
 
 
 ////
 //// define
 Item Stack Net Id：[<!-- md:samp TypedServerNetId&lt;struct ItemStackNetIdTag,int,0&gt; -->](../types/typedservernetid_struct_itemstacknetidtag,int,0_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.itemstackresponseslotinfo.item_stack_net_id.description
 
 
 ////
 //// define
 Custom Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。Allows you to filter for profanity on the server and return the updated 'name'
+- 特殊类型。protocol.type.itemstackresponseslotinfo.custom_name.descriptionAllows you to filter for profanity on the server and return the updated 'name'
 
 
 ////
 //// define
 Durability Correction：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.itemstackresponseslotinfo.durability_correction.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayAnimationOptions`接口。
+`PlayAnimationOptions`接口。script_api.@minecraft/server.playanimationoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ blendOutTime: float | undefined;
 //// define
 `blendOutTime`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playanimationoptions.blendouttime.description
 
 
 ////
@@ -42,7 +42,7 @@ controller: string | undefined;
 //// define
 `controller`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playanimationoptions.controller.description
 
 
 ////
@@ -64,7 +64,7 @@ nextState: string | undefined;
 //// define
 `nextState`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playanimationoptions.nextstate.description
 
 
 ////
@@ -86,7 +86,7 @@ players: string[] | undefined;
 //// define
 `players`：`string[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playanimationoptions.players.description
 
 
 ////
@@ -108,7 +108,7 @@ stopExpression: string | undefined;
 //// define
 `stopExpression`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.playanimationoptions.stopexpression.description
 
 
 ////

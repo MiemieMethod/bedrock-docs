@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PackedItemUseLegacyInventoryTransaction -->类型。
+<!-- md:samp PackedItemUseLegacyInventoryTransaction -->类型。该类型用于protocol.type.packeditemuselegacyinventorytransaction.description
 
 ## 结构
 
@@ -108,7 +108,7 @@ rankdir = LR
 //// define
 ID：[<!-- md:samp TypedClientNetId&lt;struct ItemStackLegacyRequestIdTag,int,0&gt; -->](../types/typedclientnetid_struct_itemstacklegacyrequestidtag,int,0_.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.packeditemuselegacyinventorytransaction.id.description
 
 
 ////
@@ -118,7 +118,7 @@ ID：[<!-- md:samp TypedClientNetId&lt;struct ItemStackLegacyRequestIdTag,int,0&
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -139,7 +139,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.packeditemuselegacyinventorytransaction.数组大小.description
 
 
 ////////
@@ -151,73 +151,73 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 Container Enum Name：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.packeditemuselegacyinventorytransaction.container_enum_name.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`AnvilInputContainer`|`0`||
-  |`AnvilMaterialContainer`|`1`||
-  |`AnvilResultPreviewContainer`|`2`||
-  |`SmithingTableInputContainer`|`3`||
-  |`SmithingTableMaterialContainer`|`4`||
-  |`SmithingTableResultPreviewContainer`|`5`||
-  |`ArmorContainer`|`6`||
-  |`LevelEntityContainer`|`7`||
-  |`BeaconPaymentContainer`|`8`||
-  |`BrewingStandInputContainer`|`9`||
-  |`BrewingStandResultContainer`|`10`||
-  |`BrewingStandFuelContainer`|`11`||
-  |`CombinedHotbarAndInventoryContainer`|`12`||
-  |`CraftingInputContainer`|`13`||
-  |`CraftingOutputPreviewContainer`|`14`||
-  |`RecipeConstructionContainer`|`15`||
-  |`RecipeNatureContainer`|`16`||
-  |`RecipeItemsContainer`|`17`||
-  |`RecipeSearchContainer`|`18`||
-  |`RecipeSearchBarContainer`|`19`||
-  |`RecipeEquipmentContainer`|`20`||
-  |`RecipeBookContainer`|`21`||
-  |`EnchantingInputContainer`|`22`||
-  |`EnchantingMaterialContainer`|`23`||
-  |`FurnaceFuelContainer`|`24`||
-  |`FurnaceIngredientContainer`|`25`||
-  |`FurnaceResultContainer`|`26`||
-  |`HorseEquipContainer`|`27`||
-  |`HotbarContainer`|`28`||
-  |`InventoryContainer`|`29`||
-  |`ShulkerBoxContainer`|`30`||
-  |`TradeIngredient1Container`|`31`||
-  |`TradeIngredient2Container`|`32`||
-  |`TradeResultPreviewContainer`|`33`||
-  |`OffhandContainer`|`34`||
-  |`CompoundCreatorInput`|`35`||
-  |`CompoundCreatorOutputPreview`|`36`||
-  |`ElementConstructorOutputPreview`|`37`||
-  |`MaterialReducerInput`|`38`||
-  |`MaterialReducerOutput`|`39`||
-  |`LabTableInput`|`40`||
-  |`LoomInputContainer`|`41`||
-  |`LoomDyeContainer`|`42`||
-  |`LoomMaterialContainer`|`43`||
-  |`LoomResultPreviewContainer`|`44`||
-  |`BlastFurnaceIngredientContainer`|`45`||
-  |`SmokerIngredientContainer`|`46`||
-  |`Trade2Ingredient1Container`|`47`||
-  |`Trade2Ingredient2Container`|`48`||
-  |`Trade2ResultPreviewContainer`|`49`||
-  |`GrindstoneInputContainer`|`50`||
-  |`GrindstoneAdditionalContainer`|`51`||
-  |`GrindstoneResultPreviewContainer`|`52`||
-  |`StonecutterInputContainer`|`53`||
-  |`StonecutterResultPreviewContainer`|`54`||
-  |`CartographyInputContainer`|`55`||
-  |`CartographyAdditionalContainer`|`56`||
-  |`CartographyResultPreviewContainer`|`57`||
-  |`BarrelContainer`|`58`||
-  |`CursorContainer`|`59`||
-  |`CreatedOutputContainer`|`60`||
-  |`SmithingTableTemplateContainer`|`61`||
-  |`CrafterLevelEntityContainer`|`62`||
+  |`AnvilInputContainer`|`0`|protocol.enum.anvilinputcontainer|
+  |`AnvilMaterialContainer`|`1`|protocol.enum.anvilmaterialcontainer|
+  |`AnvilResultPreviewContainer`|`2`|protocol.enum.anvilresultpreviewcontainer|
+  |`SmithingTableInputContainer`|`3`|protocol.enum.smithingtableinputcontainer|
+  |`SmithingTableMaterialContainer`|`4`|protocol.enum.smithingtablematerialcontainer|
+  |`SmithingTableResultPreviewContainer`|`5`|protocol.enum.smithingtableresultpreviewcontainer|
+  |`ArmorContainer`|`6`|protocol.enum.armorcontainer|
+  |`LevelEntityContainer`|`7`|protocol.enum.levelentitycontainer|
+  |`BeaconPaymentContainer`|`8`|protocol.enum.beaconpaymentcontainer|
+  |`BrewingStandInputContainer`|`9`|protocol.enum.brewingstandinputcontainer|
+  |`BrewingStandResultContainer`|`10`|protocol.enum.brewingstandresultcontainer|
+  |`BrewingStandFuelContainer`|`11`|protocol.enum.brewingstandfuelcontainer|
+  |`CombinedHotbarAndInventoryContainer`|`12`|protocol.enum.combinedhotbarandinventorycontainer|
+  |`CraftingInputContainer`|`13`|protocol.enum.craftinginputcontainer|
+  |`CraftingOutputPreviewContainer`|`14`|protocol.enum.craftingoutputpreviewcontainer|
+  |`RecipeConstructionContainer`|`15`|protocol.enum.recipeconstructioncontainer|
+  |`RecipeNatureContainer`|`16`|protocol.enum.recipenaturecontainer|
+  |`RecipeItemsContainer`|`17`|protocol.enum.recipeitemscontainer|
+  |`RecipeSearchContainer`|`18`|protocol.enum.recipesearchcontainer|
+  |`RecipeSearchBarContainer`|`19`|protocol.enum.recipesearchbarcontainer|
+  |`RecipeEquipmentContainer`|`20`|protocol.enum.recipeequipmentcontainer|
+  |`RecipeBookContainer`|`21`|protocol.enum.recipebookcontainer|
+  |`EnchantingInputContainer`|`22`|protocol.enum.enchantinginputcontainer|
+  |`EnchantingMaterialContainer`|`23`|protocol.enum.enchantingmaterialcontainer|
+  |`FurnaceFuelContainer`|`24`|protocol.enum.furnacefuelcontainer|
+  |`FurnaceIngredientContainer`|`25`|protocol.enum.furnaceingredientcontainer|
+  |`FurnaceResultContainer`|`26`|protocol.enum.furnaceresultcontainer|
+  |`HorseEquipContainer`|`27`|protocol.enum.horseequipcontainer|
+  |`HotbarContainer`|`28`|protocol.enum.hotbarcontainer|
+  |`InventoryContainer`|`29`|protocol.enum.inventorycontainer|
+  |`ShulkerBoxContainer`|`30`|protocol.enum.shulkerboxcontainer|
+  |`TradeIngredient1Container`|`31`|protocol.enum.tradeingredient1container|
+  |`TradeIngredient2Container`|`32`|protocol.enum.tradeingredient2container|
+  |`TradeResultPreviewContainer`|`33`|protocol.enum.traderesultpreviewcontainer|
+  |`OffhandContainer`|`34`|protocol.enum.offhandcontainer|
+  |`CompoundCreatorInput`|`35`|protocol.enum.compoundcreatorinput|
+  |`CompoundCreatorOutputPreview`|`36`|protocol.enum.compoundcreatoroutputpreview|
+  |`ElementConstructorOutputPreview`|`37`|protocol.enum.elementconstructoroutputpreview|
+  |`MaterialReducerInput`|`38`|protocol.enum.materialreducerinput|
+  |`MaterialReducerOutput`|`39`|protocol.enum.materialreduceroutput|
+  |`LabTableInput`|`40`|protocol.enum.labtableinput|
+  |`LoomInputContainer`|`41`|protocol.enum.loominputcontainer|
+  |`LoomDyeContainer`|`42`|protocol.enum.loomdyecontainer|
+  |`LoomMaterialContainer`|`43`|protocol.enum.loommaterialcontainer|
+  |`LoomResultPreviewContainer`|`44`|protocol.enum.loomresultpreviewcontainer|
+  |`BlastFurnaceIngredientContainer`|`45`|protocol.enum.blastfurnaceingredientcontainer|
+  |`SmokerIngredientContainer`|`46`|protocol.enum.smokeringredientcontainer|
+  |`Trade2Ingredient1Container`|`47`|protocol.enum.trade2ingredient1container|
+  |`Trade2Ingredient2Container`|`48`|protocol.enum.trade2ingredient2container|
+  |`Trade2ResultPreviewContainer`|`49`|protocol.enum.trade2resultpreviewcontainer|
+  |`GrindstoneInputContainer`|`50`|protocol.enum.grindstoneinputcontainer|
+  |`GrindstoneAdditionalContainer`|`51`|protocol.enum.grindstoneadditionalcontainer|
+  |`GrindstoneResultPreviewContainer`|`52`|protocol.enum.grindstoneresultpreviewcontainer|
+  |`StonecutterInputContainer`|`53`|protocol.enum.stonecutterinputcontainer|
+  |`StonecutterResultPreviewContainer`|`54`|protocol.enum.stonecutterresultpreviewcontainer|
+  |`CartographyInputContainer`|`55`|protocol.enum.cartographyinputcontainer|
+  |`CartographyAdditionalContainer`|`56`|protocol.enum.cartographyadditionalcontainer|
+  |`CartographyResultPreviewContainer`|`57`|protocol.enum.cartographyresultpreviewcontainer|
+  |`BarrelContainer`|`58`|protocol.enum.barrelcontainer|
+  |`CursorContainer`|`59`|protocol.enum.cursorcontainer|
+  |`CreatedOutputContainer`|`60`|protocol.enum.createdoutputcontainer|
+  |`SmithingTableTemplateContainer`|`61`|protocol.enum.smithingtabletemplatecontainer|
+  |`CrafterLevelEntityContainer`|`62`|protocol.enum.crafterlevelentitycontainer|
 
 
 
@@ -230,7 +230,7 @@ Container Enum Name：<!-- md:samp byte -->
 ////////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.packeditemuselegacyinventorytransaction.数组大小.description
 
 
 //////////
@@ -242,7 +242,7 @@ Container Enum Name：<!-- md:samp byte -->
 /////////// define
 Slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.type.packeditemuselegacyinventorytransaction.slot.description
 
 
 ///////////
@@ -266,7 +266,7 @@ Slot：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.packeditemuselegacyinventorytransaction.数组大小.description
 
 
 /////
@@ -278,7 +278,7 @@ Slot：<!-- md:samp byte -->
 ////// define
 Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.packeditemuselegacyinventorytransaction.action.description
 
 
 //////
@@ -289,13 +289,13 @@ Action：[<!-- md:samp InventoryAction -->](../types/inventoryaction.md)
 //// define
 Action Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.type.packeditemuselegacyinventorytransaction.action_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Place`|`0`||
-  |`Use`|`1`||
-  |`Destroy`|`2`||
+  |`Place`|`0`|protocol.enum.place|
+  |`Use`|`1`|protocol.enum.use|
+  |`Destroy`|`2`|protocol.enum.destroy|
 
 
 
@@ -303,49 +303,49 @@ Action Type：<!-- md:samp unsigned varint -->
 //// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.packeditemuselegacyinventorytransaction.position.description
 
 
 ////
 //// define
 Face：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.packeditemuselegacyinventorytransaction.face.description
 
 
 ////
 //// define
 Slot：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.packeditemuselegacyinventorytransaction.slot.description
 
 
 ////
 //// define
 Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.packeditemuselegacyinventorytransaction.item.description
 
 
 ////
 //// define
 From Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.packeditemuselegacyinventorytransaction.from_position.description
 
 
 ////
 //// define
 Click Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.packeditemuselegacyinventorytransaction.click_position.description
 
 
 ////
 //// define
 Target Block Id：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.packeditemuselegacyinventorytransaction.target_block_id.description
 
 
 ////

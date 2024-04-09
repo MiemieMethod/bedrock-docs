@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ScoreboardIdentity`类。
+`ScoreboardIdentity`类。script_api.mojang-minecraft.scoreboardidentity.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only displayName: string;
 //// define
 `displayName`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.scoreboardidentity.displayname.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only id: int64;
 //// define
 `id`：`int64`
 
-- 属性。
+- script_api.mojang-minecraft.scoreboardidentity.id.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only type: ScoreboardIdentityType;
 //// define
 `type`：[`ScoreboardIdentityType`](./scoreboardidentitytype.md)
 
-- 属性。
+- script_api.mojang-minecraft.scoreboardidentity.type.description
 
 
 ////
@@ -80,6 +80,8 @@ read-only type: ScoreboardIdentityType;
 
 ///
 
+script_api.mojang-minecraft.scoreboardidentity.getentity.description
+
 ```js
 getEntity(): Entity | undefined
 ```
@@ -88,7 +90,7 @@ getEntity(): Entity | undefined
 //// define
 返回值：[`Entity`](./entity.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.scoreboardidentity.getentity.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`IBlockPaletteItem`类。
+`IBlockPaletteItem`类。script_api.@minecraft/server-editor-bindings.iblockpaletteitem.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.iblockpaletteitem.getblock.description
+
 ```js
 getBlock(): BlockType | undefined
 ```
@@ -20,7 +22,7 @@ getBlock(): BlockType | undefined
 //// define
 返回值：[`BlockType`](../../server/beta/blocktype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.iblockpaletteitem.getblock.return
 
 
 ////
@@ -34,6 +36,8 @@ getBlock(): BlockType | undefined
 
 ///
 
+script_api.@minecraft/server-editor-bindings.iblockpaletteitem.getdisplayname.description
+
 ```js
 getDisplayName(): string
 ```
@@ -42,7 +46,7 @@ getDisplayName(): string
 //// define
 返回值：`string`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.iblockpaletteitem.getdisplayname.return
 
 
 ////
@@ -56,6 +60,8 @@ getDisplayName(): string
 
 ///
 
+script_api.@minecraft/server-editor-bindings.iblockpaletteitem.gettype.description
+
 ```js
 getType(): BlockPaletteItemType
 ```
@@ -64,7 +70,7 @@ getType(): BlockPaletteItemType
 //// define
 返回值：[`BlockPaletteItemType`](./blockpaletteitemtype.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.iblockpaletteitem.gettype.return
 
 
 ////
@@ -78,6 +84,8 @@ getType(): BlockPaletteItemType
 
 ///
 
+script_api.@minecraft/server-editor-bindings.iblockpaletteitem.setblock.description
+
 ```js
 setBlock(block: BlockPermutation | BlockType | string): void
 ```
@@ -86,7 +94,7 @@ setBlock(block: BlockPermutation | BlockType | string): void
 //// define
 `block`：[`BlockPermutation`](../../server/beta/blockpermutation.md)|[`BlockType`](../../server/beta/blocktype.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.iblockpaletteitem.block.setblock.description
 
 
 ////
@@ -94,7 +102,7 @@ setBlock(block: BlockPermutation | BlockType | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.iblockpaletteitem.setblock.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetActorLinkPacket -->数据包，数字ID是`41`。
+<!-- md:samp SetActorLinkPacket -->数据包，数字ID是`41`。该数据包用于protocol.packet.setactorlinkpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setactorlinkpacket.link.description
 
 
 ////

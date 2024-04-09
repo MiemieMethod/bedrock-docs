@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp CreatePhotoPacket -->数据包，数字ID是`171`。
+<!-- md:samp CreatePhotoPacket -->数据包，数字ID是`171`。该数据包用于protocol.packet.createphotopacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Raw ID：<!-- md:samp unsigned int64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.createphotopacket.raw_id.description
 
 
 ////
 //// define
 Photo Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.createphotopacket.photo_name.description
 
 
 ////
 //// define
 Photo Item Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.createphotopacket.photo_item_name.description
 
 
 ////

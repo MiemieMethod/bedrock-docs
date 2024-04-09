@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRideableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityRideableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityrideablecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only controllingSeat: int32;
 //// define
 `controllingSeat`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.controllingseat.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only crouchingSkipInteract: boolean;
 //// define
 `crouchingSkipInteract`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.crouchingskipinteract.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only familyTypes: string[];
 //// define
 `familyTypes`：`string[]`
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.familytypes.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only interactText: string;
 //// define
 `interactText`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.interacttext.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only pullInEntities: boolean;
 //// define
 `pullInEntities`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.pullinentities.description
 
 
 ////
@@ -130,7 +130,7 @@ read-only riderCanInteract: boolean;
 //// define
 `riderCanInteract`：`boolean`
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.ridercaninteract.description
 
 
 ////
@@ -152,7 +152,7 @@ read-only seatCount: int32;
 //// define
 `seatCount`：`int32`
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.seatcount.description
 
 
 ////
@@ -174,7 +174,7 @@ read-only seats: Seat[];
 //// define
 `seats`：<code><a href="../seat/">Seat</a>[]</code>
 
-- 属性。
+- script_api.mojang-minecraft.entityrideablecomponent.seats.description
 
 
 ////
@@ -190,6 +190,8 @@ read-only seats: Seat[];
 
 ///
 
+script_api.mojang-minecraft.entityrideablecomponent.addrider.description
+
 ```js
 addRider(rider: Entity): boolean
 ```
@@ -198,7 +200,7 @@ addRider(rider: Entity): boolean
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entityrideablecomponent.rider.addrider.description
 
 
 ////
@@ -206,7 +208,7 @@ addRider(rider: Entity): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.entityrideablecomponent.addrider.return
 
 
 ////
@@ -220,6 +222,8 @@ addRider(rider: Entity): boolean
 
 ///
 
+script_api.mojang-minecraft.entityrideablecomponent.ejectrider.description
+
 ```js
 ejectRider(rider: Entity): void
 ```
@@ -228,7 +232,7 @@ ejectRider(rider: Entity): void
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entityrideablecomponent.rider.ejectrider.description
 
 
 ////
@@ -236,7 +240,7 @@ ejectRider(rider: Entity): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityrideablecomponent.ejectrider.return
 
 
 ////
@@ -250,6 +254,8 @@ ejectRider(rider: Entity): void
 
 ///
 
+script_api.mojang-minecraft.entityrideablecomponent.ejectriders.description
+
 ```js
 ejectRiders(): void
 ```
@@ -258,7 +264,7 @@ ejectRiders(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityrideablecomponent.ejectriders.return
 
 
 ////

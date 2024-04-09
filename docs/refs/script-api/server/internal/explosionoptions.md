@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExplosionOptions`接口。
+`ExplosionOptions`接口。script_api.@minecraft/server.explosionoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ allowUnderwater: boolean | undefined;
 //// define
 `allowUnderwater`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.explosionoptions.allowunderwater.description
 
 
 ////
@@ -42,7 +42,7 @@ breaksBlocks: boolean | undefined;
 //// define
 `breaksBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.explosionoptions.breaksblocks.description
 
 
 ////
@@ -64,7 +64,7 @@ causesFire: boolean | undefined;
 //// define
 `causesFire`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.explosionoptions.causesfire.description
 
 
 ////
@@ -86,7 +86,7 @@ source: Entity | undefined;
 //// define
 `source`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.explosionoptions.source.description
 
 
 ////

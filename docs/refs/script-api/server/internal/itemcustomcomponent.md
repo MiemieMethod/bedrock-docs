@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemCustomComponent`接口。
+`ItemCustomComponent`接口。script_api.@minecraft/server.itemcustomcomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ onBeforeDurabilityDamage: (arg: ItemComponentBeforeDurabilityDamageEvent) => voi
 //// define
 `onBeforeDurabilityDamage`：<code>(<a href="../itemcomponentbeforedurabilitydamageevent/">ItemComponentBeforeDurabilityDamageEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemcustomcomponent.onbeforedurabilitydamage.description
 
 
 ////
@@ -42,7 +42,7 @@ onHitEntity: (arg: ItemComponentHitEntityEvent) => void | undefined;
 //// define
 `onHitEntity`：<code>(<a href="../itemcomponenthitentityevent/">ItemComponentHitEntityEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemcustomcomponent.onhitentity.description
 
 
 ////
@@ -64,7 +64,7 @@ onMineBlock: (arg: ItemComponentMineBlockEvent) => void | undefined;
 //// define
 `onMineBlock`：<code>(<a href="../itemcomponentmineblockevent/">ItemComponentMineBlockEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemcustomcomponent.onmineblock.description
 
 
 ////
@@ -86,7 +86,7 @@ onUse: (arg: ItemComponentUseEvent) => void | undefined;
 //// define
 `onUse`：<code>(<a href="../itemcomponentuseevent/">ItemComponentUseEvent</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemcustomcomponent.onuse.description
 
 
 ////

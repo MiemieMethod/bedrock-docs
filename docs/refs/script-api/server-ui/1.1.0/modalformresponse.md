@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ModalFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。
+`ModalFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。script_api.@minecraft/server-ui.modalformresponse.description
 
 ## 属性
 
@@ -13,14 +13,14 @@
 ///
 
 ```js
-read-only formValues: boolean | float | string[] | undefined;
+read-only formValues: (boolean | float | string)[] | undefined;
 ```
 
 /// html | div.result
 //// define
-`formValues`：`boolean | float | string[]`|`undefined`
+`formValues`：`(boolean | float | string)[]`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-ui.modalformresponse.formvalues.description
 
 
 ////

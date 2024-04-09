@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WidgetCreateOptions`接口。
+`WidgetCreateOptions`接口。script_api.@minecraft/server-editor-bindings.widgetcreateoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ initialVisibility: boolean | undefined;
 //// define
 `initialVisibility`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.initialvisibility.description
 
 
 ////
@@ -42,7 +42,7 @@ isSelectable: boolean | undefined;
 //// define
 `isSelectable`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.isselectable.description
 
 
 ////
@@ -64,7 +64,7 @@ stateChangeEvent: (arg: WidgetStateChangeEventData) => void | undefined;
 //// define
 `stateChangeEvent`：<code>(<a href="../widgetstatechangeeventdata/">WidgetStateChangeEventData</a>) =&gt; void</code>|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.statechangeevent.description
 
 
 ////

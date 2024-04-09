@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityItemComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityItemComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityitemcomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only itemStack: ItemStack;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.@minecraft/server.entityitemcomponent.itemstack.description
 
 
 ////

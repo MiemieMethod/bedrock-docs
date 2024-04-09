@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerArmorDamagePacket -->数据包，数字ID是`149`。
+<!-- md:samp PlayerArmorDamagePacket -->数据包，数字ID是`149`。该数据包用于protocol.packet.playerarmordamagepacket.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Slots Bitset：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerarmordamagepacket.slots_bitset.description
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerarmordamagepacket.damage_for_slot.description
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerarmordamagepacket.damage_for_slot.description
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerarmordamagepacket.damage_for_slot.description
 
 
 ////
 //// define
 Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerarmordamagepacket.damage_for_slot.description
 
 
 ////

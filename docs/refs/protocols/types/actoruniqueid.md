@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp ActorUniqueID -->类型。
+<!-- md:samp ActorUniqueID -->类型。该类型用于protocol.type.actoruniqueid.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Actor Unique ID：<!-- md:samp varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.type.actoruniqueid.actor_unique_id.description
 
 
 ////

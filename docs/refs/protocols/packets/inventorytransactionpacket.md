@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp InventoryTransactionPacket -->数据包，数字ID是`30`。
+<!-- md:samp InventoryTransactionPacket -->数据包，数字ID是`30`。该数据包用于protocol.packet.inventorytransactionpacket.description
 
 ## 结构
 
@@ -72,7 +72,7 @@ rankdir = LR
 //// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.inventorytransactionpacket.raw_id.description
 
 
 ////
@@ -82,7 +82,7 @@ Raw Id (32 bit signed)：<!-- md:samp varint -->
 ////// define
 if (0)：<!-- md:samp [No Data] -->
 
-- 无数据。
+- 无数据
 
 
 //////
@@ -103,7 +103,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.inventorytransactionpacket.数组大小.description
 
 
 ////////
@@ -115,7 +115,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 Container Enum：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.inventorytransactionpacket.container_enum.description
 
 
 /////////
@@ -127,7 +127,7 @@ Container Enum：<!-- md:samp byte -->
 ////////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.inventorytransactionpacket.数组大小.description
 
 
 //////////
@@ -139,7 +139,7 @@ Container Enum：<!-- md:samp byte -->
 /////////// define
 Slot：<!-- md:samp byte -->
 
-- 基本类型。
+- 基本类型。protocol.packet.inventorytransactionpacket.slot.description
 
 
 ///////////
@@ -158,15 +158,15 @@ Slot：<!-- md:samp byte -->
 //// define
 Transaction Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.inventorytransactionpacket.transaction_type.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`NormalTransaction`|`0`||
-  |`InventoryMismatch`|`1`||
-  |`ItemUseTransaction`|`2`||
-  |`ItemUseOnEntityTransaction`|`3`||
-  |`ItemReleaseTransaction`|`4`||
+  |`NormalTransaction`|`0`|protocol.enum.normaltransaction|
+  |`InventoryMismatch`|`1`|protocol.enum.inventorymismatch|
+  |`ItemUseTransaction`|`2`|protocol.enum.itemusetransaction|
+  |`ItemUseOnEntityTransaction`|`3`|protocol.enum.itemuseonentitytransaction|
+  |`ItemReleaseTransaction`|`4`|protocol.enum.itemreleasetransaction|
 
 
 
@@ -174,7 +174,7 @@ Transaction Type：<!-- md:samp unsigned varint -->
 //// define
 mTransaction->mTransaction：[<!-- md:samp InventoryTransaction -->](../types/inventorytransaction.md)
 
-- 特殊类型。Our ComplexInventoryTransaction contains an InventoryTransaction within it
+- 特殊类型。protocol.packet.inventorytransactionpacket.mtransaction-&gt;mtransaction.descriptionOur ComplexInventoryTransaction contains an InventoryTransaction within it
 
 
 ////

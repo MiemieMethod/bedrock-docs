@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHurtAfterEvent`类。
+`EntityHurtAfterEvent`类。script_api.@minecraft/server.entityhurtafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only damage: float;
 //// define
 `damage`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entityhurtafterevent.damage.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only damageSource: EntityDamageSource;
 //// define
 `damageSource`：[`EntityDamageSource`](./entitydamagesource.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhurtafterevent.damagesource.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only hurtEntity: Entity;
 //// define
 `hurtEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhurtafterevent.hurtentity.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Container`类。
+`Container`类。script_api.@minecraft/server.container.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only emptySlotsCount: int32;
 //// define
 `emptySlotsCount`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.container.emptyslotscount.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only size: int32;
 //// define
 `size`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.container.size.description
 
 
 ////
@@ -58,6 +58,8 @@ read-only size: int32;
 
 ///
 
+script_api.@minecraft/server.container.additem.description
+
 ```js
 addItem(itemStack: ItemStack): ItemStack | undefined
 ```
@@ -66,7 +68,7 @@ addItem(itemStack: ItemStack): ItemStack | undefined
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 参数1。
+- script_api.@minecraft/server.container.itemstack.additem.description
 
 
 ////
@@ -74,7 +76,7 @@ addItem(itemStack: ItemStack): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.container.additem.return
 
 
 ////
@@ -88,6 +90,8 @@ addItem(itemStack: ItemStack): ItemStack | undefined
 
 ///
 
+script_api.@minecraft/server.container.clearall.description
+
 ```js
 clearAll(): void
 ```
@@ -96,7 +100,7 @@ clearAll(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.container.clearall.return
 
 
 ////
@@ -110,6 +114,8 @@ clearAll(): void
 
 ///
 
+script_api.@minecraft/server.container.getitem.description
+
 ```js
 getItem(slot: int32): ItemStack | undefined
 ```
@@ -118,7 +124,7 @@ getItem(slot: int32): ItemStack | undefined
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.container.slot.getitem.description
 
 
 ////
@@ -126,7 +132,7 @@ getItem(slot: int32): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.container.getitem.return
 
 
 ////
@@ -140,6 +146,8 @@ getItem(slot: int32): ItemStack | undefined
 
 ///
 
+script_api.@minecraft/server.container.moveitem.description
+
 ```js
 moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 ```
@@ -148,7 +156,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 //// define
 `fromSlot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.container.fromslot.moveitem.description
 
 
 ////
@@ -156,7 +164,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 //// define
 `toSlot`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server.container.toslot.moveitem.description
 
 
 ////
@@ -164,7 +172,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 //// define
 `toContainer`：[`Container`](./container.md)
 
-- 参数3。
+- script_api.@minecraft/server.container.tocontainer.moveitem.description
 
 
 ////
@@ -172,7 +180,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.container.moveitem.return
 
 
 ////
@@ -186,6 +194,8 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 
 ///
 
+script_api.@minecraft/server.container.setitem.description
+
 ```js
 setItem(slot: int32, itemStack?: ItemStack): void
 ```
@@ -194,7 +204,7 @@ setItem(slot: int32, itemStack?: ItemStack): void
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.container.slot.setitem.description
 
 
 ////
@@ -202,7 +212,7 @@ setItem(slot: int32, itemStack?: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server.container.itemstack.setitem.description
 
 
 ////
@@ -210,7 +220,7 @@ setItem(slot: int32, itemStack?: ItemStack): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.container.setitem.return
 
 
 ////
@@ -224,6 +234,8 @@ setItem(slot: int32, itemStack?: ItemStack): void
 
 ///
 
+script_api.@minecraft/server.container.swapitems.description
+
 ```js
 swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 ```
@@ -232,7 +244,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 //// define
 `slot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.container.slot.swapitems.description
 
 
 ////
@@ -240,7 +252,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 //// define
 `otherSlot`：`int32`
 
-- 参数2。
+- script_api.@minecraft/server.container.otherslot.swapitems.description
 
 
 ////
@@ -248,7 +260,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 //// define
 `otherContainer`：[`Container`](./container.md)
 
-- 参数3。
+- script_api.@minecraft/server.container.othercontainer.swapitems.description
 
 
 ////
@@ -256,7 +268,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.container.swapitems.return
 
 
 ////
@@ -270,6 +282,8 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 
 ///
 
+script_api.@minecraft/server.container.transferitem.description
+
 ```js
 transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 ```
@@ -278,7 +292,7 @@ transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 //// define
 `fromSlot`：`int32`
 
-- 参数1。
+- script_api.@minecraft/server.container.fromslot.transferitem.description
 
 
 ////
@@ -286,7 +300,7 @@ transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 //// define
 `toContainer`：[`Container`](./container.md)
 
-- 参数2。
+- script_api.@minecraft/server.container.tocontainer.transferitem.description
 
 
 ////
@@ -294,7 +308,7 @@ transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.container.transferitem.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerLeaveAfterEvent`类。
+`PlayerLeaveAfterEvent`类。script_api.@minecraft/server.playerleaveafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only playerId: string;
 //// define
 `playerId`：`string`
 
-- 属性。
+- script_api.@minecraft/server.playerleaveafterevent.playerid.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only playerName: string;
 //// define
 `playerName`：`string`
 
-- 属性。
+- script_api.@minecraft/server.playerleaveafterevent.playername.description
 
 
 ////

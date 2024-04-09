@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SignSide`枚举。
+`SignSide`枚举。script_api.@minecraft/server.signside.description
 
 ## 常量
 

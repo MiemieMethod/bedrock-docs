@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WidgetGroupCreateOptions`接口。
+`WidgetGroupCreateOptions`接口。script_api.@minecraft/server-editor-bindings.widgetgroupcreateoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ groupSelectionMode: WidgetGroupSelectionMode | undefined;
 //// define
 `groupSelectionMode`：[`WidgetGroupSelectionMode`](./widgetgroupselectionmode.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.widgetgroupcreateoptions.groupselectionmode.description
 
 
 ////

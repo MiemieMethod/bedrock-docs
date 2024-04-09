@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockStates`类。
+`BlockStates`类。script_api.@minecraft/server.blockstates.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.blockstates.get.description
+
 ```js
 static get(stateName: string): BlockStateType | undefined
 ```
@@ -20,7 +22,7 @@ static get(stateName: string): BlockStateType | undefined
 //// define
 `stateName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.blockstates.statename.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(stateName: string): BlockStateType | undefined
 //// define
 返回值：[`BlockStateType`](./blockstatetype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.blockstates.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(stateName: string): BlockStateType | undefined
 
 ///
 
+script_api.@minecraft/server.blockstates.getall.description
+
 ```js
 static getAll(): BlockStateType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): BlockStateType[]
 //// define
 返回值：<code><a href="../blockstatetype/">BlockStateType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.blockstates.getall.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MoveActorDeltaData -->类型。
+<!-- md:samp MoveActorDeltaData -->类型。该类型用于protocol.type.moveactordeltadata.description
 
 ## 结构
 
@@ -60,56 +60,56 @@ rankdir = LR
 //// define
 ActorRuntimeID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。The runtime 'id' of the actor being moved
+- 特殊类型。protocol.type.moveactordeltadata.actorruntimeid.descriptionThe runtime 'id' of the actor being moved
 
 
 ////
 //// define
 Header：<!-- md:samp unsigned short -->
 
-- 基本类型。Header containing 9 1-bit booleans describing the rest of the packet. Information prov'id'ed in supplemental documentation.
+- 基本类型。protocol.type.moveactordeltadata.header.descriptionHeader containing 9 1-bit booleans describing the rest of the packet. Information prov'id'ed in supplemental documentation.
 
 
 ////
 //// define
 New position X：<!-- md:samp float -->
 
-- 基本类型。If position X bit is true, then this will contain the actor's X coordinate
+- 基本类型。protocol.type.moveactordeltadata.new_position_x.descriptionIf position X bit is true, then this will contain the actor's X coordinate
 
 
 ////
 //// define
 New position Y：<!-- md:samp float -->
 
-- 基本类型。If position Y bit is true, then this will contain the actor's Y coordinate
+- 基本类型。protocol.type.moveactordeltadata.new_position_y.descriptionIf position Y bit is true, then this will contain the actor's Y coordinate
 
 
 ////
 //// define
 New position Z：<!-- md:samp float -->
 
-- 基本类型。If position Z bit is true, then this will contain the actor's Z coordinate
+- 基本类型。protocol.type.moveactordeltadata.new_position_z.descriptionIf position Z bit is true, then this will contain the actor's Z coordinate
 
 
 ////
 //// define
 Rotation X：<!-- md:samp byte -->
 
-- 基本类型。If rotation X bit is true, then this will contain the X rotation of the actor
+- 基本类型。protocol.type.moveactordeltadata.rotation_x.descriptionIf rotation X bit is true, then this will contain the X rotation of the actor
 
 
 ////
 //// define
 Rotation Y：<!-- md:samp byte -->
 
-- 基本类型。If rotation Y bit is true, then this will contain the Y rotation of the actor
+- 基本类型。protocol.type.moveactordeltadata.rotation_y.descriptionIf rotation Y bit is true, then this will contain the Y rotation of the actor
 
 
 ////
 //// define
 Rotation Y Head：<!-- md:samp byte -->
 
-- 基本类型。If rotation Y Head bit is true, then this will contain a head rotation of the actor if and only if it's a Mob type
+- 基本类型。protocol.type.moveactordeltadata.rotation_y_head.descriptionIf rotation Y Head bit is true, then this will contain a head rotation of the actor if and only if it's a Mob type
 
 
 ////

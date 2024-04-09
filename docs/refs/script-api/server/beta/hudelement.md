@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`HudElement`枚举。
+`HudElement`枚举。script_api.@minecraft/server.hudelement.description
 
 ## 常量
 

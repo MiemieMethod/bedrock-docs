@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerSkinPacket -->数据包，数字ID是`93`。
+<!-- md:samp PlayerSkinPacket -->数据包，数字ID是`93`。该数据包用于protocol.packet.playerskinpacket.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerskinpacket.uuid.description
 
 
 ////
 //// define
 Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerskinpacket.serialized_skin.description
 
 
 ////
 //// define
 New Skin Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerskinpacket.new_skin_name.description
 
 
 ////
 //// define
 Old Skin Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerskinpacket.old_skin_name.description
 
 
 ////
 //// define
 Whether skin is trusted marketplace content：<!-- md:samp bool -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerskinpacket.whether_skin_is_trusted_marketplace_content.description
 
 
 ////

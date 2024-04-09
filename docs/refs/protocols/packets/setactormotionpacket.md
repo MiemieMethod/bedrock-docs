@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SetActorMotionPacket -->数据包，数字ID是`40`。
+<!-- md:samp SetActorMotionPacket -->数据包，数字ID是`40`。该数据包用于protocol.packet.setactormotionpacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setactormotionpacket.target_runtime_id.description
 
 
 ////
 //// define
 Motion：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.setactormotionpacket.motion.description
 
 
 ////
 //// define
 Server Tick：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。
+- 基本类型。protocol.packet.setactormotionpacket.server_tick.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`@minecraft/debug-utilities`模块的`1.0.0-beta`版本，UUID为`1796ea86-0daf-4409-99ee-fd6467cf1203`。
+`@minecraft/debug-utilities`模块的`1.0.0-beta`版本，UUID为`1796ea86-0daf-4409-99ee-fd6467cf1203`。该模块是script_api.@minecraft/debug-utilities.description
 
 /// info | 依赖
 该模块依赖于以下模块：
@@ -19,6 +19,8 @@
 
 ///
 
+script_api.@minecraft/debug-utilities.propertyoutofboundserror.disablewatchdogtimingwarnings.description
+
 ```js
 static disableWatchdogTimingWarnings(disable: boolean): void
 ```
@@ -27,7 +29,7 @@ static disableWatchdogTimingWarnings(disable: boolean): void
 //// define
 `disable`：`boolean`
 
-- 参数1。
+- script_api.@minecraft/debug-utilities.propertyoutofboundserror.disable.disablewatchdogtimingwarnings.description
 
 
 ////
@@ -35,7 +37,7 @@ static disableWatchdogTimingWarnings(disable: boolean): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/debug-utilities.propertyoutofboundserror.disablewatchdogtimingwarnings.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`World`类。
+`World`类。script_api.@minecraft/server.world.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.world.getallplayers.description
+
 ```js
 getAllPlayers(): Player[]
 ```
@@ -20,7 +22,7 @@ getAllPlayers(): Player[]
 //// define
 返回值：<code><a href="../player/">Player</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.world.getallplayers.return
 
 
 ////
@@ -34,6 +36,8 @@ getAllPlayers(): Player[]
 
 ///
 
+script_api.@minecraft/server.world.getdimension.description
+
 ```js
 getDimension(dimensionId: string): Dimension
 ```
@@ -42,7 +46,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.dimensionid.getdimension.description
 
 
 ////
@@ -50,7 +54,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 返回值：[`Dimension`](./dimension.md)
 
-- 返回值。
+- script_api.@minecraft/server.world.getdimension.return
 
 
 ////
@@ -64,6 +68,8 @@ getDimension(dimensionId: string): Dimension
 
 ///
 
+script_api.@minecraft/server.world.getplayers.description
+
 ```js
 getPlayers(options?: EntityQueryOptions): Player[]
 ```
@@ -72,7 +78,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- 参数1。
+- script_api.@minecraft/server.world.options.getplayers.description
 
 
 ////
@@ -80,7 +86,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 返回值：<code><a href="../player/">Player</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.world.getplayers.return
 
 
 ////
@@ -94,15 +100,17 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 ///
 
+script_api.@minecraft/server.world.sendmessage.description
+
 ```js
-sendMessage(message: RawMessage | string[] | RawMessage | string): void
+sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 ```
 
 /// html | div.result
 //// define
-`message`：`RawMessage | string[]`|[`RawMessage`](./rawmessage.md)|`string`
+`message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- 参数1。
+- script_api.@minecraft/server.world.message.sendmessage.description
 
 
 ////
@@ -110,7 +118,7 @@ sendMessage(message: RawMessage | string[] | RawMessage | string): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.world.sendmessage.return
 
 
 ////

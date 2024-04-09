@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseOnEventSignal`类。
+`ItemUseOnEventSignal`类。script_api.mojang-minecraft.itemuseoneventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.itemuseoneventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ItemUseOnEvent) => void): (arg: ItemUseOnEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ItemUseOnEvent) => void): (arg: ItemUseOnEvent) => voi
 //// define
 `callback`：<code>(<a href="../itemuseonevent/">ItemUseOnEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemuseoneventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ItemUseOnEvent) => void): (arg: ItemUseOnEvent) => voi
 //// define
 返回值：<code>(<a href="../itemuseonevent/">ItemUseOnEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.itemuseoneventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ItemUseOnEvent) => void): (arg: ItemUseOnEvent) => voi
 
 ///
 
+script_api.mojang-minecraft.itemuseoneventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ItemUseOnEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ItemUseOnEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemuseonevent/">ItemUseOnEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.itemuseoneventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ItemUseOnEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.itemuseoneventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RemoveVolumeEntityPacket -->数据包，数字ID是`167`。
+<!-- md:samp RemoveVolumeEntityPacket -->数据包，数字ID是`167`。该数据包用于protocol.packet.removevolumeentitypacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Entity Network Id：[<!-- md:samp EntityNetId -->](../types/entitynetid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.removevolumeentitypacket.entity_network_id.description
 
 
 ////
 //// define
 Dimension Type：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.removevolumeentitypacket.dimension_type.description
 
 
 ////

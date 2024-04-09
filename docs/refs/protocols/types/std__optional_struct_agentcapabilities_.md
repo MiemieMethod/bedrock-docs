@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp std::optional&lt;struct AgentCapabilities&gt; -->类型。
+<!-- md:samp std::optional&lt;struct AgentCapabilities&gt; -->类型。该类型用于protocol.type.std::optional&lt;struct_agentcapabilities&gt;.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Has Value：<!-- md:samp bool -->
 
-- 基本类型。If true, follow with appropriate data type, otherwise nothing
+- 基本类型。protocol.type.std::optional&lt;struct_agentcapabilities&gt;.has_value.descriptionIf true, follow with appropriate data type, otherwise nothing
 
 
 ////

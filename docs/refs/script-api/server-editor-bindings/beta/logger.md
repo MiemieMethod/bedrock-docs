@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`Logger`类。
+`Logger`类。script_api.@minecraft/server-editor-bindings.logger.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.logger.debug.description
+
 ```js
 debug(message: string, properties?: LogProperties): void
 ```
@@ -20,7 +22,7 @@ debug(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.logger.message.debug.description
 
 
 ////
@@ -28,7 +30,7 @@ debug(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.logger.properties.debug.description
 
 
 ////
@@ -36,7 +38,7 @@ debug(message: string, properties?: LogProperties): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.logger.debug.return
 
 
 ////
@@ -50,6 +52,8 @@ debug(message: string, properties?: LogProperties): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.logger.error.description
+
 ```js
 error(message: string, properties?: LogProperties): void
 ```
@@ -58,7 +62,7 @@ error(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.logger.message.error.description
 
 
 ////
@@ -66,7 +70,7 @@ error(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.logger.properties.error.description
 
 
 ////
@@ -74,7 +78,7 @@ error(message: string, properties?: LogProperties): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.logger.error.return
 
 
 ////
@@ -88,6 +92,8 @@ error(message: string, properties?: LogProperties): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.logger.info.description
+
 ```js
 info(message: string, properties?: LogProperties): void
 ```
@@ -96,7 +102,7 @@ info(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.logger.message.info.description
 
 
 ////
@@ -104,7 +110,7 @@ info(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.logger.properties.info.description
 
 
 ////
@@ -112,7 +118,7 @@ info(message: string, properties?: LogProperties): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.logger.info.return
 
 
 ////
@@ -126,6 +132,8 @@ info(message: string, properties?: LogProperties): void
 
 ///
 
+script_api.@minecraft/server-editor-bindings.logger.warning.description
+
 ```js
 warning(message: string, properties?: LogProperties): void
 ```
@@ -134,7 +142,7 @@ warning(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.logger.message.warning.description
 
 
 ////
@@ -142,7 +150,7 @@ warning(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- 参数2。
+- script_api.@minecraft/server-editor-bindings.logger.properties.warning.description
 
 
 ////
@@ -150,7 +158,7 @@ warning(message: string, properties?: LogProperties): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.logger.warning.return
 
 
 ////

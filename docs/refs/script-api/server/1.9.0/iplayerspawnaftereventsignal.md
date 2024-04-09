@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`IPlayerSpawnAfterEventSignal`类。
+`IPlayerSpawnAfterEventSignal`类。script_api.@minecraft/server.iplayerspawnaftereventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.iplayerspawnaftereventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerSpawnAfterEvent) => void): (arg: PlayerSpawnAfterEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerSpawnAfterEvent) => void): (arg: PlayerSpawnAfte
 //// define
 `callback`：<code>(<a href="../playerspawnafterevent/">PlayerSpawnAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.iplayerspawnaftereventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerSpawnAfterEvent) => void): (arg: PlayerSpawnAfte
 //// define
 返回值：<code>(<a href="../playerspawnafterevent/">PlayerSpawnAfterEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.iplayerspawnaftereventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerSpawnAfterEvent) => void): (arg: PlayerSpawnAfte
 
 ///
 
+script_api.@minecraft/server.iplayerspawnaftereventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerSpawnAfterEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerSpawnAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerspawnafterevent/">PlayerSpawnAfterEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.iplayerspawnaftereventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerSpawnAfterEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.iplayerspawnaftereventsignal.unsubscribe.return
 
 
 ////

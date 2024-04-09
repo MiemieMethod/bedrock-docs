@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPermutation`类。
+`BlockPermutation`类。script_api.mojang-minecraft.blockpermutation.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only type: BlockType;
 //// define
 `type`：[`BlockType`](./blocktype.md)
 
-- 属性。
+- script_api.mojang-minecraft.blockpermutation.type.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only type: BlockType;
 
 ///
 
+script_api.mojang-minecraft.blockpermutation.getallproperties.description
+
 ```js
 getAllProperties(): IBlockProperty[]
 ```
@@ -44,7 +46,7 @@ getAllProperties(): IBlockProperty[]
 //// define
 返回值：`IBlockProperty[]`
 
-- 返回值。
+- script_api.mojang-minecraft.blockpermutation.getallproperties.return
 
 
 ////
@@ -58,6 +60,8 @@ getAllProperties(): IBlockProperty[]
 
 ///
 
+script_api.mojang-minecraft.blockpermutation.getproperty.description
+
 ```js
 getProperty(propertyName: string): IBlockProperty | undefined
 ```
@@ -66,7 +70,7 @@ getProperty(propertyName: string): IBlockProperty | undefined
 //// define
 `propertyName`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.blockpermutation.propertyname.getproperty.description
 
 
 ////
@@ -74,7 +78,7 @@ getProperty(propertyName: string): IBlockProperty | undefined
 //// define
 返回值：[`IBlockProperty`](./iblockproperty.md)|`undefined`
 
-- 返回值。
+- script_api.mojang-minecraft.blockpermutation.getproperty.return
 
 
 ////
@@ -88,6 +92,8 @@ getProperty(propertyName: string): IBlockProperty | undefined
 
 ///
 
+script_api.mojang-minecraft.blockpermutation.gettags.description
+
 ```js
 getTags(): string[]
 ```
@@ -96,7 +102,7 @@ getTags(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.mojang-minecraft.blockpermutation.gettags.return
 
 
 ////
@@ -110,6 +116,8 @@ getTags(): string[]
 
 ///
 
+script_api.mojang-minecraft.blockpermutation.hastag.description
+
 ```js
 hasTag(tag: string): boolean
 ```
@@ -118,7 +126,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- 参数1。
+- script_api.mojang-minecraft.blockpermutation.tag.hastag.description
 
 
 ////
@@ -126,7 +134,7 @@ hasTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.mojang-minecraft.blockpermutation.hastag.return
 
 
 ////

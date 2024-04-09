@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`DefinitionModifier`接口。
+`DefinitionModifier`接口。script_api.@minecraft/server.definitionmodifier.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ addedComponentGroups: string[];
 //// define
 `addedComponentGroups`：`string[]`
 
-- 属性。
+- script_api.@minecraft/server.definitionmodifier.addedcomponentgroups.description
 
 
 ////
@@ -42,7 +42,7 @@ removedComponentGroups: string[];
 //// define
 `removedComponentGroups`：`string[]`
 
-- 属性。
+- script_api.@minecraft/server.definitionmodifier.removedcomponentgroups.description
 
 
 ////
@@ -64,7 +64,7 @@ triggers: Trigger[];
 //// define
 `triggers`：<code><a href="../trigger/">Trigger</a>[]</code>
 
-- 属性。
+- script_api.@minecraft/server.definitionmodifier.triggers.description
 
 
 ////

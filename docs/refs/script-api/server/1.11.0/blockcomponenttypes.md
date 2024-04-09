@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentTypes`枚举。
+`BlockComponentTypes`枚举。script_api.@minecraft/server.blockcomponenttypes.description
 
 ## 常量
 

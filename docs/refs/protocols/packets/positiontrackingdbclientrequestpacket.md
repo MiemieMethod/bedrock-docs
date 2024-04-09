@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PositionTrackingDBClientRequestPacket -->数据包，数字ID是`154`。
+<!-- md:samp PositionTrackingDBClientRequestPacket -->数据包，数字ID是`154`。该数据包用于protocol.packet.positiontrackingdbclientrequestpacket.description
 
 ## 结构
 
@@ -36,11 +36,11 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.positiontrackingdbclientrequestpacket.action.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Query`|`0`||
+  |`Query`|`0`|protocol.enum.query|
 
 
 
@@ -48,7 +48,7 @@ Action：<!-- md:samp byte -->
 //// define
 Id：[<!-- md:samp PositionTrackingId -->](../types/positiontrackingid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.positiontrackingdbclientrequestpacket.id.description
 
 
 ////

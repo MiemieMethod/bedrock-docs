@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHitEntityAfterEvent`类。
+`EntityHitEntityAfterEvent`类。script_api.@minecraft/server.entityhitentityafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only damagingEntity: Entity;
 //// define
 `damagingEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhitentityafterevent.damagingentity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only hitEntity: Entity;
 //// define
 `hitEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.@minecraft/server.entityhitentityafterevent.hitentity.description
 
 
 ////

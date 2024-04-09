@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PotionMixDataEntry -->类型。
+<!-- md:samp PotionMixDataEntry -->类型。该类型用于protocol.type.potionmixdataentry.description
 
 ## 结构
 
@@ -52,42 +52,42 @@ rankdir = LR
 //// define
 From Potion: Input - Potion Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.potionmixdataentry.from_potion:_input_potion_id.description
 
 
 ////
 //// define
 From Item Aux：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.potionmixdataentry.from_item_aux.description
 
 
 ////
 //// define
 Reagent Item Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.potionmixdataentry.reagent_item_id.description
 
 
 ////
 //// define
 Reagent Item Aux：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.potionmixdataentry.reagent_item_aux.description
 
 
 ////
 //// define
 To Potion: Output - Potion Id：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.potionmixdataentry.to_potion:_output_potion_id.description
 
 
 ////
 //// define
 To Item Aux：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.potionmixdataentry.to_item_aux.description
 
 
 ////

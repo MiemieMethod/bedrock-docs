@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp GameRulesChangedPacket -->数据包，数字ID是`72`。
+<!-- md:samp GameRulesChangedPacket -->数据包，数字ID是`72`。该数据包用于protocol.packet.gameruleschangedpacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Rules Data：[<!-- md:samp GameRulesChangedPacketData -->](../types/gameruleschangedpacketdata.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.gameruleschangedpacket.rules_data.description
 
 
 ////

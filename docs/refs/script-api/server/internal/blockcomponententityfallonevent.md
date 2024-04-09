@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentEntityFallOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`BlockComponentEntityFallOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponententityfallonevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity | undefined;
 //// define
 `entity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.blockcomponententityfallonevent.entity.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only fallDistance: float;
 //// define
 `fallDistance`：`float`
 
-- 属性。
+- script_api.@minecraft/server.blockcomponententityfallonevent.falldistance.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BiomeTypes`类。
+`BiomeTypes`类。script_api.@minecraft/server.biometypes.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.biometypes.get.description
+
 ```js
 static get(typeName: string): BiomeType | undefined
 ```
@@ -20,7 +22,7 @@ static get(typeName: string): BiomeType | undefined
 //// define
 `typeName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.biometypes.typename.get.description
 
 
 ////
@@ -28,7 +30,7 @@ static get(typeName: string): BiomeType | undefined
 //// define
 返回值：[`BiomeType`](./biometype.md)|`undefined`
 
-- 返回值。
+- script_api.@minecraft/server.biometypes.get.return
 
 
 ////
@@ -42,6 +44,8 @@ static get(typeName: string): BiomeType | undefined
 
 ///
 
+script_api.@minecraft/server.biometypes.getall.description
+
 ```js
 static getAll(): BiomeType[]
 ```
@@ -50,7 +54,7 @@ static getAll(): BiomeType[]
 //// define
 返回值：<code><a href="../biometype/">BiomeType</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server.biometypes.getall.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExtensionContextAfterEvents`类。
+`ExtensionContextAfterEvents`类。script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only cursorPropertyChange: CursorPropertyChangeAfterEventSignal;
 //// define
 `cursorPropertyChange`：[`CursorPropertyChangeAfterEventSignal`](./cursorpropertychangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.cursorpropertychange.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only modeChange: ModeChangeAfterEventSignal;
 //// define
 `modeChange`：[`ModeChangeAfterEventSignal`](./modechangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.modechange.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only primarySelectionChange: PrimarySelectionChangeAfterEventSignal;
 //// define
 `primarySelectionChange`：[`PrimarySelectionChangeAfterEventSignal`](./primaryselectionchangeaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.primaryselectionchange.description
 
 
 ////

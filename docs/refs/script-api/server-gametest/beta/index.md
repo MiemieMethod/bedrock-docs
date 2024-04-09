@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`@minecraft/server-gametest`模块的`1.0.0-beta`版本，UUID为`6f4b6893-1bb6-42fd-b458-7fa3d0c89616`。
+`@minecraft/server-gametest`模块的`1.0.0-beta`版本，UUID为`6f4b6893-1bb6-42fd-b458-7fa3d0c89616`。该模块是script_api.@minecraft/server-gametest.description
 
 /// info | 依赖
 该模块依赖于以下模块：
@@ -19,6 +19,8 @@
 
 ///
 
+script_api.@minecraft/server-gametest.widgetgroupselectionmode.register.description
+
 ```js
 static register(testClassName: string, testName: string, testFunction: (arg: Test) => void): RegistrationBuilder
 ```
@@ -27,7 +29,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 `testClassName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.testclassname.register.description
 
 
 ////
@@ -35,7 +37,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 `testName`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.testname.register.description
 
 
 ////
@@ -43,7 +45,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 `testFunction`：<code>(<a href="./test/">Test</a>) =&gt; void</code>
 
-- 参数3。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.testfunction.register.description
 
 
 ////
@@ -51,7 +53,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.register.return
 
 
 ////
@@ -65,6 +67,8 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 
 ///
 
+script_api.@minecraft/server-gametest.widgetgroupselectionmode.registerasync.description
+
 ```js
 static registerAsync(testClassName: string, testName: string, testFunction: (arg: Test) => Promise<void>): RegistrationBuilder
 ```
@@ -73,7 +77,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 `testClassName`：`string`
 
-- 参数1。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.testclassname.registerasync.description
 
 
 ////
@@ -81,7 +85,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 `testName`：`string`
 
-- 参数2。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.testname.registerasync.description
 
 
 ////
@@ -89,7 +93,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 `testFunction`：<code>(<a href="./test/">Test</a>) =&gt; Promise<void></code>
 
-- 参数3。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.testfunction.registerasync.description
 
 
 ////
@@ -97,7 +101,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- 返回值。
+- script_api.@minecraft/server-gametest.widgetgroupselectionmode.registerasync.return
 
 
 ////

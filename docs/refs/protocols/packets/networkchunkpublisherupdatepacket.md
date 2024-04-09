@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp NetworkChunkPublisherUpdatePacket -->数据包，数字ID是`121`。
+<!-- md:samp NetworkChunkPublisherUpdatePacket -->数据包，数字ID是`121`。该数据包用于protocol.packet.networkchunkpublisherupdatepacket.description
 
 ## 结构
 
@@ -52,21 +52,21 @@ rankdir = LR
 //// define
 New position for view：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.networkchunkpublisherupdatepacket.new_position_for_view.description
 
 
 ////
 //// define
 New radius for view：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networkchunkpublisherupdatepacket.new_radius_for_view.description
 
 
 ////
 //// define
 Server Built Chunks Size：<!-- md:samp unsigned int -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networkchunkpublisherupdatepacket.server_built_chunks_size.description
 
 
 ////
@@ -78,7 +78,7 @@ Server Built Chunks Size：<!-- md:samp unsigned int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.networkchunkpublisherupdatepacket.数组大小.description
 
 
 /////
@@ -90,7 +90,7 @@ Server Built Chunks Size：<!-- md:samp unsigned int -->
 ////// define
 Chunk Pos：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.networkchunkpublisherupdatepacket.chunk_pos.description
 
 
 //////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockVolume`类，扩展自[`BlockVolumeBase`](./blockvolumebase.md)。
+`BlockVolume`类，扩展自[`BlockVolumeBase`](./blockvolumebase.md)。script_api.@minecraft/server.blockvolume.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ from: Vector3;
 //// define
 `from`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.blockvolume.from.description
 
 
 ////
@@ -42,7 +42,7 @@ to: Vector3;
 //// define
 `to`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.blockvolume.to.description
 
 
 ////
@@ -58,6 +58,8 @@ to: Vector3;
 
 ///
 
+script_api.@minecraft/server.blockvolume.constructor.description
+
 ```js
 new constructor(from: Vector3, to: Vector3): BlockVolume
 ```
@@ -66,7 +68,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 //// define
 `from`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockvolume.from.constructor.description
 
 
 ////
@@ -74,7 +76,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 //// define
 `to`：[`Vector3`](./vector3.md)
 
-- 参数2。
+- script_api.@minecraft/server.blockvolume.to.constructor.description
 
 
 ////
@@ -82,7 +84,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 //// define
 返回值：[`BlockVolume`](./blockvolume.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockvolume.constructor.return
 
 
 ////
@@ -96,6 +98,8 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 
 ///
 
+script_api.@minecraft/server.blockvolume.doeslocationtouchfaces.description
+
 ```js
 doesLocationTouchFaces(pos: Vector3): boolean
 ```
@@ -104,7 +108,7 @@ doesLocationTouchFaces(pos: Vector3): boolean
 //// define
 `pos`：[`Vector3`](./vector3.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockvolume.pos.doeslocationtouchfaces.description
 
 
 ////
@@ -112,7 +116,7 @@ doesLocationTouchFaces(pos: Vector3): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.blockvolume.doeslocationtouchfaces.return
 
 
 ////
@@ -126,6 +130,8 @@ doesLocationTouchFaces(pos: Vector3): boolean
 
 ///
 
+script_api.@minecraft/server.blockvolume.doesvolumetouchfaces.description
+
 ```js
 doesVolumeTouchFaces(other: BlockVolume): boolean
 ```
@@ -134,7 +140,7 @@ doesVolumeTouchFaces(other: BlockVolume): boolean
 //// define
 `other`：[`BlockVolume`](./blockvolume.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockvolume.other.doesvolumetouchfaces.description
 
 
 ////
@@ -142,7 +148,7 @@ doesVolumeTouchFaces(other: BlockVolume): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.blockvolume.doesvolumetouchfaces.return
 
 
 ////
@@ -156,6 +162,8 @@ doesVolumeTouchFaces(other: BlockVolume): boolean
 
 ///
 
+script_api.@minecraft/server.blockvolume.intersects.description
+
 ```js
 intersects(other: BlockVolume): BlockVolumeIntersection
 ```
@@ -164,7 +172,7 @@ intersects(other: BlockVolume): BlockVolumeIntersection
 //// define
 `other`：[`BlockVolume`](./blockvolume.md)
 
-- 参数1。
+- script_api.@minecraft/server.blockvolume.other.intersects.description
 
 
 ////
@@ -172,7 +180,7 @@ intersects(other: BlockVolume): BlockVolumeIntersection
 //// define
 返回值：[`BlockVolumeIntersection`](./blockvolumeintersection.md)
 
-- 返回值。
+- script_api.@minecraft/server.blockvolume.intersects.return
 
 
 ////

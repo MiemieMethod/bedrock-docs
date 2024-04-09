@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemStopUseAfterEvent`类。
+`ItemStopUseAfterEvent`类。script_api.@minecraft/server.itemstopuseafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only itemStack: ItemStack | undefined;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.itemstopuseafterevent.itemstack.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Player;
 //// define
 `source`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.itemstopuseafterevent.source.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only useDuration: int32;
 //// define
 `useDuration`：`int32`
 
-- 属性。
+- script_api.@minecraft/server.itemstopuseafterevent.useduration.description
 
 
 ////

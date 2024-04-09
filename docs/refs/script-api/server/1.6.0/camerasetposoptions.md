@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CameraSetPosOptions`接口。
+`CameraSetPosOptions`接口。script_api.@minecraft/server.camerasetposoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ easeOptions: CameraEaseOptions | undefined;
 //// define
 `easeOptions`：[`CameraEaseOptions`](./cameraeaseoptions.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.camerasetposoptions.easeoptions.description
 
 
 ////
@@ -42,7 +42,7 @@ facingLocation: Vector3;
 //// define
 `facingLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.camerasetposoptions.facinglocation.description
 
 
 ////
@@ -64,7 +64,7 @@ location: Vector3 | undefined;
 //// define
 `location`：[`Vector3`](./vector3.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.camerasetposoptions.location.description
 
 
 ////

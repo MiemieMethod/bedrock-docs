@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`SpawnEntityOptions`接口。
+`SpawnEntityOptions`接口。script_api.@minecraft/server.spawnentityoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ initialPersistence: boolean | undefined;
 //// define
 `initialPersistence`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.spawnentityoptions.initialpersistence.description
 
 
 ////

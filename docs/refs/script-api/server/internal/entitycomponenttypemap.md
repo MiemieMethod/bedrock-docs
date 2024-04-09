@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityComponentTypeMap`类型别名。
+`EntityComponentTypeMap`类型别名。script_api.@minecraft/server.entitycomponenttypemap.description
 
 ## 类型映射
 

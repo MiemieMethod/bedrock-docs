@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp MobArmorEquipmentPacket -->数据包，数字ID是`32`。
+<!-- md:samp MobArmorEquipmentPacket -->数据包，数字ID是`32`。该数据包用于protocol.packet.mobarmorequipmentpacket.description
 
 ## 结构
 
@@ -48,35 +48,35 @@ rankdir = LR
 //// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobarmorequipmentpacket.target_runtime_id.description
 
 
 ////
 //// define
 Head：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobarmorequipmentpacket.head.description
 
 
 ////
 //// define
 Torso：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobarmorequipmentpacket.torso.description
 
 
 ////
 //// define
 Legs：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobarmorequipmentpacket.legs.description
 
 
 ////
 //// define
 Feet：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.mobarmorequipmentpacket.feet.description
 
 
 ////

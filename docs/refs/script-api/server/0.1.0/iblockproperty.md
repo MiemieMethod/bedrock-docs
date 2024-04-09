@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`IBlockProperty`类。
+`IBlockProperty`类。script_api.mojang-minecraft.iblockproperty.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only name: string;
 //// define
 `name`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.iblockproperty.name.description
 
 
 ////

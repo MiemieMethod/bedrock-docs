@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerLeaveBeforeEventSignal`类。
+`PlayerLeaveBeforeEventSignal`类。script_api.@minecraft/server.playerleavebeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.playerleavebeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): (arg: PlayerLeaveBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): (arg: PlayerLeaveBef
 //// define
 `callback`：<code>(<a href="../playerleavebeforeevent/">PlayerLeaveBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerleavebeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): (arg: PlayerLeaveBef
 //// define
 返回值：<code>(<a href="../playerleavebeforeevent/">PlayerLeaveBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.playerleavebeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): (arg: PlayerLeaveBef
 
 ///
 
+script_api.@minecraft/server.playerleavebeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerleavebeforeevent/">PlayerLeaveBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.playerleavebeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.playerleavebeforeeventsignal.unsubscribe.return
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityLeashableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。
+`EntityLeashableComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entityleashablecomponent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only softDistance: float;
 //// define
 `softDistance`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entityleashablecomponent.softdistance.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only softDistance: float;
 
 ///
 
+script_api.mojang-minecraft.entityleashablecomponent.leash.description
+
 ```js
 leash(leashHolder: Entity): void
 ```
@@ -44,7 +46,7 @@ leash(leashHolder: Entity): void
 //// define
 `leashHolder`：[`Entity`](./entity.md)
 
-- 参数1。
+- script_api.mojang-minecraft.entityleashablecomponent.leashholder.leash.description
 
 
 ////
@@ -52,7 +54,7 @@ leash(leashHolder: Entity): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityleashablecomponent.leash.return
 
 
 ////
@@ -66,6 +68,8 @@ leash(leashHolder: Entity): void
 
 ///
 
+script_api.mojang-minecraft.entityleashablecomponent.unleash.description
+
 ```js
 unleash(): void
 ```
@@ -74,7 +78,7 @@ unleash(): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityleashablecomponent.unleash.return
 
 
 ////

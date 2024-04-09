@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseBeforeEventSignal`类。
+`ItemUseBeforeEventSignal`类。script_api.@minecraft/server.itemusebeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.itemusebeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: ItemUseBeforeEvent) => void): (arg: ItemUseBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: ItemUseBeforeEvent) => void): (arg: ItemUseBeforeEvent
 //// define
 `callback`：<code>(<a href="../itemusebeforeevent/">ItemUseBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.itemusebeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: ItemUseBeforeEvent) => void): (arg: ItemUseBeforeEvent
 //// define
 返回值：<code>(<a href="../itemusebeforeevent/">ItemUseBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.itemusebeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: ItemUseBeforeEvent) => void): (arg: ItemUseBeforeEvent
 
 ///
 
+script_api.@minecraft/server.itemusebeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: ItemUseBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: ItemUseBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemusebeforeevent/">ItemUseBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.itemusebeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: ItemUseBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.itemusebeforeeventsignal.unsubscribe.return
 
 
 ////

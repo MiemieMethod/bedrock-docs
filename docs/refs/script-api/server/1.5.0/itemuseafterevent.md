@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ItemUseAfterEvent`类。
+`ItemUseAfterEvent`类。script_api.@minecraft/server.itemuseafterevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ itemStack: ItemStack;
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- 属性。
+- script_api.@minecraft/server.itemuseafterevent.itemstack.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Player;
 //// define
 `source`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.itemuseafterevent.source.description
 
 
 ////

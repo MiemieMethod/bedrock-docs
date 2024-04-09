@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`ExplosionOptions`类。
+`ExplosionOptions`类。script_api.mojang-minecraft.explosionoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ allowUnderwater: boolean | undefined;
 //// define
 `allowUnderwater`：`boolean`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.explosionoptions.allowunderwater.description
 
 
 ////
@@ -42,7 +42,7 @@ breaksBlocks: boolean | undefined;
 //// define
 `breaksBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.explosionoptions.breaksblocks.description
 
 
 ////
@@ -64,7 +64,7 @@ causesFire: boolean | undefined;
 //// define
 `causesFire`：`boolean`|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.explosionoptions.causesfire.description
 
 
 ////
@@ -86,7 +86,7 @@ source: Entity | undefined;
 //// define
 `source`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.explosionoptions.source.description
 
 
 ////
@@ -102,6 +102,8 @@ source: Entity | undefined;
 
 ///
 
+script_api.mojang-minecraft.explosionoptions.constructor.description
+
 ```js
 new constructor(): ExplosionOptions
 ```
@@ -110,7 +112,7 @@ new constructor(): ExplosionOptions
 //// define
 返回值：[`ExplosionOptions`](./explosionoptions.md)
 
-- 返回值。
+- script_api.mojang-minecraft.explosionoptions.constructor.return
 
 
 ////

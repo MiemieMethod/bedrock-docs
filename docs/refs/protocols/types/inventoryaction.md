@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp InventoryAction -->类型。
+<!-- md:samp InventoryAction -->类型。该类型用于protocol.type.inventoryaction.description
 
 ## 结构
 
@@ -44,28 +44,28 @@ rankdir = LR
 //// define
 Source：[<!-- md:samp InventorySource -->](../types/inventorysource.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.inventoryaction.source.description
 
 
 ////
 //// define
 Slot：<!-- md:samp unsigned varint -->
 
-- 基本类型。
+- 基本类型。protocol.type.inventoryaction.slot.description
 
 
 ////
 //// define
 From Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.inventoryaction.from_item_descriptor.description
 
 
 ////
 //// define
 To Item Descriptor：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。
+- 特殊类型。protocol.type.inventoryaction.to_item_descriptor.description
 
 
 ////

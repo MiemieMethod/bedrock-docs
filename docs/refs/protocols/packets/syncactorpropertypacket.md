@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp SyncActorPropertyPacket -->数据包，数字ID是`165`。
+<!-- md:samp SyncActorPropertyPacket -->数据包，数字ID是`165`。该数据包用于protocol.packet.syncactorpropertypacket.description
 
 ## 结构
 
@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Property Data：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。type: actor 'id'entifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag
+- 特殊类型。protocol.packet.syncactorpropertypacket.property_data.descriptiontype: actor 'id'entifier hash; properties: properties of actor that have been flagged for client sync as a sub-compound tag
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerLeaveEvent`类。
+`PlayerLeaveEvent`类。script_api.mojang-minecraft.playerleaveevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only playerName: string;
 //// define
 `playerName`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.playerleaveevent.playername.description
 
 
 ////

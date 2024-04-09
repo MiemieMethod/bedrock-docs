@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`FormRejectError`错误，扩展自`Error`。
+`FormRejectError`错误，扩展自`Error`。script_api.@minecraft/server-ui.formrejecterror.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only reason: FormRejectReason;
 //// define
 `reason`：[`FormRejectReason`](./formrejectreason.md)
 
-- 属性。
+- script_api.@minecraft/server-ui.formrejecterror.reason.description
 
 
 ////

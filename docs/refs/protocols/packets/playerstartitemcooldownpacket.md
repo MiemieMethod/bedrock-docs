@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp PlayerStartItemCooldownPacket -->数据包，数字ID是`176`。
+<!-- md:samp PlayerStartItemCooldownPacket -->数据包，数字ID是`176`。该数据包用于protocol.packet.playerstartitemcooldownpacket.description
 
 ## 结构
 
@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Item Category：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。
+- 特殊类型。protocol.packet.playerstartitemcooldownpacket.item_category.description
 
 
 ////
 //// define
 Duration Ticks：<!-- md:samp varint -->
 
-- 基本类型。
+- 基本类型。protocol.packet.playerstartitemcooldownpacket.duration_ticks.description
 
 
 ////

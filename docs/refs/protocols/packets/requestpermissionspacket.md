@@ -2,7 +2,7 @@
 
 > 文档版本：r/20_u7<br/>协议版本：662
 
-<!-- md:samp RequestPermissionsPacket -->数据包，数字ID是`185`。
+<!-- md:samp RequestPermissionsPacket -->数据包，数字ID是`185`。该数据包用于protocol.packet.requestpermissionspacket.description
 
 ## 结构
 
@@ -40,21 +40,21 @@ rankdir = LR
 //// define
 Target Player Id's Raw ID：<!-- md:samp int64 -->
 
-- 基本类型。mTargetPlayerId is a ActorUniqueID
+- 基本类型。protocol.packet.requestpermissionspacket.target_player_ids_raw_id.descriptionmTargetPlayerId is a ActorUniqueID
 
 
 ////
 //// define
 Player Permission Level：<!-- md:samp byte -->
 
-- 基本类型枚举。枚举值如下：
+- 基本类型枚举。protocol.packet.requestpermissionspacket.player_permission_level.description枚举值如下：
 
   |键|值|描述|
   |---|---|---|
-  |`Visitor`|`0`||
-  |`Member`|`1`||
-  |`Operator`|`2`||
-  |`Custom`|`3`||
+  |`Visitor`|`0`|protocol.enum.visitor|
+  |`Member`|`1`|protocol.enum.member|
+  |`Operator`|`2`|protocol.enum.operator|
+  |`Custom`|`3`|protocol.enum.custom|
 
 
 
@@ -62,7 +62,7 @@ Player Permission Level：<!-- md:samp byte -->
 //// define
 Custom Permission Flags：<!-- md:samp unsigned short -->
 
-- 基本类型。
+- 基本类型。protocol.packet.requestpermissionspacket.custom_permission_flags.description
 
 
 ////

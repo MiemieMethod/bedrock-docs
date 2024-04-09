@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockComponentRegistry`类。
+`BlockComponentRegistry`类。script_api.@minecraft/server.blockcomponentregistry.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.blockcomponentregistry.registercustomcomponent.description
+
 ```js
 registerCustomComponent(name: string, customComponent: BlockCustomComponent): void
 ```
@@ -20,7 +22,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 //// define
 `name`：`string`
 
-- 参数1。
+- script_api.@minecraft/server.blockcomponentregistry.name.registercustomcomponent.description
 
 
 ////
@@ -28,7 +30,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 //// define
 `customComponent`：[`BlockCustomComponent`](./blockcustomcomponent.md)
 
-- 参数2。
+- script_api.@minecraft/server.blockcomponentregistry.customcomponent.registercustomcomponent.description
 
 
 ////
@@ -36,7 +38,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.blockcomponentregistry.registercustomcomponent.return
 
 
 ////

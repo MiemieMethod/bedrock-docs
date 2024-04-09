@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityRemoveBeforeEventSignal`类。
+`EntityRemoveBeforeEventSignal`类。script_api.@minecraft/server.entityremovebeforeeventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server.entityremovebeforeeventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveBeforeEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveB
 //// define
 `callback`：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityremovebeforeeventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveB
 //// define
 返回值：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.@minecraft/server.entityremovebeforeeventsignal.subscribe.return
 
 
 ////
@@ -42,6 +44,8 @@ subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveB
 
 ///
 
+script_api.@minecraft/server.entityremovebeforeeventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntityRemoveBeforeEvent) => void): void
 ```
@@ -50,7 +54,7 @@ unsubscribe(callback: (arg: EntityRemoveBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.@minecraft/server.entityremovebeforeeventsignal.callback.unsubscribe.description
 
 
 ////
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntityRemoveBeforeEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server.entityremovebeforeeventsignal.unsubscribe.return
 
 
 ////

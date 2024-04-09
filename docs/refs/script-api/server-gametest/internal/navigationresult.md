@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`NavigationResult`类。
+`NavigationResult`类。script_api.@minecraft/server-gametest.navigationresult.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only isFullPath: boolean;
 //// define
 `isFullPath`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server-gametest.navigationresult.isfullpath.description
 
 
 ////
@@ -36,6 +36,8 @@ read-only isFullPath: boolean;
 
 ///
 
+script_api.@minecraft/server-gametest.navigationresult.getpath.description
+
 ```js
 getPath(): Vector3[]
 ```
@@ -44,7 +46,7 @@ getPath(): Vector3[]
 //// define
 返回值：<code><a href="../../../server/1.8.0/vector3/">Vector3</a>[]</code>
 
-- 返回值。
+- script_api.@minecraft/server-gametest.navigationresult.getpath.return
 
 
 ////

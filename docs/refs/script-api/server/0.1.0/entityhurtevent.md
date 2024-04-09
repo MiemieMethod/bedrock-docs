@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHurtEvent`类。
+`EntityHurtEvent`类。script_api.mojang-minecraft.entityhurtevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only cause: string;
 //// define
 `cause`：`string`
 
-- 属性。
+- script_api.mojang-minecraft.entityhurtevent.cause.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only damage: float;
 //// define
 `damage`：`float`
 
-- 属性。
+- script_api.mojang-minecraft.entityhurtevent.damage.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only damagingEntity: Entity | undefined;
 //// define
 `damagingEntity`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityhurtevent.damagingentity.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only hurtEntity: Entity;
 //// define
 `hurtEntity`：[`Entity`](./entity.md)
 
-- 属性。
+- script_api.mojang-minecraft.entityhurtevent.hurtentity.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only projectile: Entity | undefined;
 //// define
 `projectile`：[`Entity`](./entity.md)|`undefined`
 
-- 属性。
+- script_api.mojang-minecraft.entityhurtevent.projectile.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`BlockPaletteManager`类。
+`BlockPaletteManager`类。script_api.@minecraft/server-editor-bindings.blockpalettemanager.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.@minecraft/server-editor-bindings.blockpalettemanager.getselectedblocktype.description
+
 ```js
 getSelectedBlockType(): BlockType
 ```
@@ -20,7 +22,7 @@ getSelectedBlockType(): BlockType
 //// define
 返回值：[`BlockType`](../../server/beta/blocktype.md)
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.blockpalettemanager.getselectedblocktype.return
 
 
 ////
@@ -34,6 +36,8 @@ getSelectedBlockType(): BlockType
 
 ///
 
+script_api.@minecraft/server-editor-bindings.blockpalettemanager.setselectedblocktype.description
+
 ```js
 setSelectedBlockType(block: BlockType): void
 ```
@@ -42,7 +46,7 @@ setSelectedBlockType(block: BlockType): void
 //// define
 `block`：[`BlockType`](../../server/beta/blocktype.md)
 
-- 参数1。
+- script_api.@minecraft/server-editor-bindings.blockpalettemanager.block.setselectedblocktype.description
 
 
 ////
@@ -50,7 +54,7 @@ setSelectedBlockType(block: BlockType): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.@minecraft/server-editor-bindings.blockpalettemanager.setselectedblocktype.return
 
 
 ////

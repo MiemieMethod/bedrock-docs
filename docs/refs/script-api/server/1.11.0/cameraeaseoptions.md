@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`CameraEaseOptions`接口。
+`CameraEaseOptions`接口。script_api.@minecraft/server.cameraeaseoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ easeTime: float | undefined;
 //// define
 `easeTime`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.cameraeaseoptions.easetime.description
 
 
 ////
@@ -42,7 +42,7 @@ easeType: EasingType | undefined;
 //// define
 `easeType`：[`EasingType`](./easingtype.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.cameraeaseoptions.easetype.description
 
 
 ////

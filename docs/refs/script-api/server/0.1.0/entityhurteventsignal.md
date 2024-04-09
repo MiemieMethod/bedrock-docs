@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityHurtEventSignal`类。
+`EntityHurtEventSignal`类。script_api.mojang-minecraft.entityhurteventsignal.description
 
 ## 方法
 
@@ -12,6 +12,8 @@
 
 ///
 
+script_api.mojang-minecraft.entityhurteventsignal.subscribe.description
+
 ```js
 subscribe(callback: (arg: EntityHurtEvent) => void, options?: EntityEventOptions): (arg: EntityHurtEvent) => void
 ```
@@ -20,7 +22,7 @@ subscribe(callback: (arg: EntityHurtEvent) => void, options?: EntityEventOptions
 //// define
 `callback`：<code>(<a href="../entityhurtevent/">EntityHurtEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.entityhurteventsignal.callback.subscribe.description
 
 
 ////
@@ -28,7 +30,7 @@ subscribe(callback: (arg: EntityHurtEvent) => void, options?: EntityEventOptions
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- 参数2。
+- script_api.mojang-minecraft.entityhurteventsignal.options.subscribe.description
 
 
 ////
@@ -36,7 +38,7 @@ subscribe(callback: (arg: EntityHurtEvent) => void, options?: EntityEventOptions
 //// define
 返回值：<code>(<a href="../entityhurtevent/">EntityHurtEvent</a>) =&gt; void</code>
 
-- 返回值。
+- script_api.mojang-minecraft.entityhurteventsignal.subscribe.return
 
 
 ////
@@ -50,6 +52,8 @@ subscribe(callback: (arg: EntityHurtEvent) => void, options?: EntityEventOptions
 
 ///
 
+script_api.mojang-minecraft.entityhurteventsignal.unsubscribe.description
+
 ```js
 unsubscribe(callback: (arg: EntityHurtEvent) => void): void
 ```
@@ -58,7 +62,7 @@ unsubscribe(callback: (arg: EntityHurtEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityhurtevent/">EntityHurtEvent</a>) =&gt; void</code>
 
-- 参数1。
+- script_api.mojang-minecraft.entityhurteventsignal.callback.unsubscribe.description
 
 
 ////
@@ -66,7 +70,7 @@ unsubscribe(callback: (arg: EntityHurtEvent) => void): void
 //// define
 返回值：`void`
 
-- 返回值。
+- script_api.mojang-minecraft.entityhurteventsignal.unsubscribe.return
 
 
 ////

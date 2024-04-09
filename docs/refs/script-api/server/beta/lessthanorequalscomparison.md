@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`LessThanOrEqualsComparison`接口。
+`LessThanOrEqualsComparison`接口。script_api.@minecraft/server.lessthanorequalscomparison.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ lessThanOrEquals: float;
 //// define
 `lessThanOrEquals`：`float`
 
-- 属性。
+- script_api.@minecraft/server.lessthanorequalscomparison.lessthanorequals.description
 
 
 ////

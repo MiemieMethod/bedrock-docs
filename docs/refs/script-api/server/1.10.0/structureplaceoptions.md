@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`StructurePlaceOptions`接口。
+`StructurePlaceOptions`接口。script_api.@minecraft/server.structureplaceoptions.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ animationMode: StructureAnimationMode | undefined;
 //// define
 `animationMode`：[`StructureAnimationMode`](./structureanimationmode.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.animationmode.description
 
 
 ////
@@ -42,7 +42,7 @@ animationSeconds: float | undefined;
 //// define
 `animationSeconds`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.animationseconds.description
 
 
 ////
@@ -64,7 +64,7 @@ includeBlocks: boolean | undefined;
 //// define
 `includeBlocks`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.includeblocks.description
 
 
 ////
@@ -86,7 +86,7 @@ includeEntities: boolean | undefined;
 //// define
 `includeEntities`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.includeentities.description
 
 
 ////
@@ -108,7 +108,7 @@ integrity: float | undefined;
 //// define
 `integrity`：`float`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.integrity.description
 
 
 ////
@@ -130,7 +130,7 @@ integritySeed: string | undefined;
 //// define
 `integritySeed`：`string`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.integrityseed.description
 
 
 ////
@@ -152,7 +152,7 @@ mirror: StructureMirrorAxis | undefined;
 //// define
 `mirror`：[`StructureMirrorAxis`](./structuremirroraxis.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.mirror.description
 
 
 ////
@@ -174,7 +174,7 @@ rotation: StructureRotation | undefined;
 //// define
 `rotation`：[`StructureRotation`](./structurerotation.md)|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.rotation.description
 
 
 ////
@@ -196,7 +196,7 @@ waterlogged: boolean | undefined;
 //// define
 `waterlogged`：`boolean`|`undefined`
 
-- 属性。
+- script_api.@minecraft/server.structureplaceoptions.waterlogged.description
 
 
 ////

@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`WorldAfterEvents`类。
+`WorldAfterEvents`类。script_api.@minecraft/server.worldafterevents.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only buttonPush: ButtonPushAfterEventSignal;
 //// define
 `buttonPush`：[`ButtonPushAfterEventSignal`](./buttonpushaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.buttonpush.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only leverAction: LeverActionAfterEventSignal;
 //// define
 `leverAction`：[`LeverActionAfterEventSignal`](./leveractionaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.leveraction.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only playerJoin: PlayerJoinAfterEventSignal;
 //// define
 `playerJoin`：[`PlayerJoinAfterEventSignal`](./playerjoinaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerjoin.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only playerLeave: PlayerLeaveAfterEventSignal;
 //// define
 `playerLeave`：[`PlayerLeaveAfterEventSignal`](./playerleaveaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerleave.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only playerSpawn: PlayerSpawnAfterEventSignal;
 //// define
 `playerSpawn`：[`PlayerSpawnAfterEventSignal`](./playerspawnaftereventsignal.md)
 
-- 属性。
+- script_api.@minecraft/server.worldafterevents.playerspawn.description
 
 
 ////

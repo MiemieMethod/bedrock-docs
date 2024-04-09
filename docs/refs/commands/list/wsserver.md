@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`/wsserver`命令Attempts to connect to the websocket server on the provided URL.
+`/wsserver`命令command.wsserver.description
 
 /// settings | 执行条件
 该命令需要权限等级：`admin`|`2`。该命令需要开启作弊。
@@ -20,10 +20,12 @@
 ```
 
 //// html | div.result
+command.wsserver.1.description
+
 ///// define
 `serverUri`：<!-- md:samp text -->
 
-- 基本类型。
+- 基本类型。command.wsserver.serverUri.description
 
 
 /////

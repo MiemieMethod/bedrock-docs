@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`EntityTameableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。
+`EntityTameableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitytameablecomponent.description
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only probability: float;
 //// define
 `probability`：`float`
 
-- 属性。
+- script_api.@minecraft/server.entitytameablecomponent.probability.description
 
 
 ////
@@ -49,6 +49,8 @@ read-only probability: float;
 
 ///
 
+script_api.@minecraft/server.entitytameablecomponent.gettameitems.description
+
 ```js
 getTameItems(): string[]
 ```
@@ -57,7 +59,7 @@ getTameItems(): string[]
 //// define
 返回值：`string[]`
 
-- 返回值。
+- script_api.@minecraft/server.entitytameablecomponent.gettameitems.return
 
 
 ////
@@ -71,6 +73,8 @@ getTameItems(): string[]
 
 ///
 
+script_api.@minecraft/server.entitytameablecomponent.tame.description
+
 ```js
 tame(): boolean
 ```
@@ -79,7 +83,7 @@ tame(): boolean
 //// define
 返回值：`boolean`
 
-- 返回值。
+- script_api.@minecraft/server.entitytameablecomponent.tame.return
 
 
 ////

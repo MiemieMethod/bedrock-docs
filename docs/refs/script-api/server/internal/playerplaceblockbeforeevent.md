@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.20
 
-`PlayerPlaceBlockBeforeEvent`类，扩展自[`BlockEvent`](./blockevent.md)。
+`PlayerPlaceBlockBeforeEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.playerplaceblockbeforeevent.description
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- 属性。
+- script_api.@minecraft/server.playerplaceblockbeforeevent.cancel.description
 
 
 ////
@@ -42,7 +42,7 @@ read-only face: Direction;
 //// define
 `face`：[`Direction`](./direction.md)
 
-- 属性。
+- script_api.@minecraft/server.playerplaceblockbeforeevent.face.description
 
 
 ////
@@ -64,7 +64,7 @@ read-only faceLocation: Vector3;
 //// define
 `faceLocation`：[`Vector3`](./vector3.md)
 
-- 属性。
+- script_api.@minecraft/server.playerplaceblockbeforeevent.facelocation.description
 
 
 ////
@@ -86,7 +86,7 @@ read-only permutationBeingPlaced: BlockPermutation;
 //// define
 `permutationBeingPlaced`：[`BlockPermutation`](./blockpermutation.md)
 
-- 属性。
+- script_api.@minecraft/server.playerplaceblockbeforeevent.permutationbeingplaced.description
 
 
 ////
@@ -108,7 +108,7 @@ read-only player: Player;
 //// define
 `player`：[`Player`](./player.md)
 
-- 属性。
+- script_api.@minecraft/server.playerplaceblockbeforeevent.player.description
 
 
 ////
