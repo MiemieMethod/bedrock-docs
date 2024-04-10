@@ -22,7 +22,7 @@ cancelAll(reason: string): void
 //// define
 `reason`：`string`
 
-- script_api.@minecraft/server-net.httpclient.reason.cancelall.description
+- script_api.@minecraft/server-net.httpclient.cancelall.reason.description
 
 
 ////
@@ -54,7 +54,7 @@ get(uri: string): Promise<HttpResponse>
 //// define
 `uri`：`string`
 
-- script_api.@minecraft/server-net.httpclient.uri.get.description
+- script_api.@minecraft/server-net.httpclient.get.uri.description
 
 
 ////
@@ -86,7 +86,7 @@ request(config: HttpRequest): Promise<HttpResponse>
 //// define
 `config`：[`HttpRequest`](./httprequest.md)
 
-- script_api.@minecraft/server-net.httpclient.config.request.description
+- script_api.@minecraft/server-net.httpclient.request.config.description
 
 
 ////

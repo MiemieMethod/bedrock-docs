@@ -244,7 +244,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `effectType`：[`EffectType`](./effecttype.md)
 
-- script_api.mojang-minecraft.entity.effecttype.addeffect.description
+- script_api.mojang-minecraft.entity.addeffect.effecttype.description
 
 
 ////
@@ -252,7 +252,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `duration`：`int32`
 
-- script_api.mojang-minecraft.entity.duration.addeffect.description
+- script_api.mojang-minecraft.entity.addeffect.duration.description
 
 
 ////
@@ -260,7 +260,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `amplifier`：`int32`
 
-- script_api.mojang-minecraft.entity.amplifier.addeffect.description
+- script_api.mojang-minecraft.entity.addeffect.amplifier.description
 
 
 ////
@@ -268,7 +268,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 //// define
 `showParticles`：`boolean`
 
-- script_api.mojang-minecraft.entity.showparticles.addeffect.description
+- script_api.mojang-minecraft.entity.addeffect.showparticles.description
 
 
 ////
@@ -300,7 +300,7 @@ addTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.mojang-minecraft.entity.tag.addtag.description
+- script_api.mojang-minecraft.entity.addtag.tag.description
 
 
 ////
@@ -332,7 +332,7 @@ getBlockFromViewVector(options?: BlockRaycastOptions): Block | undefined
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.entity.options.getblockfromviewvector.description
+- script_api.mojang-minecraft.entity.getblockfromviewvector.options.description
 
 
 ////
@@ -364,7 +364,7 @@ getComponent(componentId: string): IEntityComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.mojang-minecraft.entity.componentid.getcomponent.description
+- script_api.mojang-minecraft.entity.getcomponent.componentid.description
 
 
 ////
@@ -420,7 +420,7 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.entity.identifier.getdynamicproperty.description
+- script_api.mojang-minecraft.entity.getdynamicproperty.identifier.description
 
 
 ////
@@ -452,7 +452,7 @@ getEffect(effectType: EffectType): Effect | undefined
 //// define
 `effectType`：[`EffectType`](./effecttype.md)
 
-- script_api.mojang-minecraft.entity.effecttype.geteffect.description
+- script_api.mojang-minecraft.entity.geteffect.effecttype.description
 
 
 ////
@@ -484,7 +484,7 @@ getEntitiesFromViewVector(options?: EntityRaycastOptions): Entity[]
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.entity.options.getentitiesfromviewvector.description
+- script_api.mojang-minecraft.entity.getentitiesfromviewvector.options.description
 
 
 ////
@@ -540,7 +540,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- script_api.mojang-minecraft.entity.componentid.hascomponent.description
+- script_api.mojang-minecraft.entity.hascomponent.componentid.description
 
 
 ////
@@ -572,7 +572,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.mojang-minecraft.entity.tag.hastag.description
+- script_api.mojang-minecraft.entity.hastag.tag.description
 
 
 ////
@@ -628,7 +628,7 @@ removeDynamicProperty(identifier: string): boolean
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.entity.identifier.removedynamicproperty.description
+- script_api.mojang-minecraft.entity.removedynamicproperty.identifier.description
 
 
 ////
@@ -660,7 +660,7 @@ removeTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.mojang-minecraft.entity.tag.removetag.description
+- script_api.mojang-minecraft.entity.removetag.tag.description
 
 
 ////
@@ -692,7 +692,7 @@ runCommand(commandString: string): any
 //// define
 `commandString`：`string`
 
-- script_api.mojang-minecraft.entity.commandstring.runcommand.description
+- script_api.mojang-minecraft.entity.runcommand.commandstring.description
 
 
 ////
@@ -724,7 +724,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.entity.identifier.setdynamicproperty.description
+- script_api.mojang-minecraft.entity.setdynamicproperty.identifier.description
 
 
 ////
@@ -732,7 +732,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `value`：`boolean`|`double`|`float`|[`Location`](./location.md)|`string`
 
-- script_api.mojang-minecraft.entity.value.setdynamicproperty.description
+- script_api.mojang-minecraft.entity.setdynamicproperty.value.description
 
 
 ////
@@ -764,7 +764,7 @@ setRotation(degreesX: float, degreesY: float): void
 //// define
 `degreesX`：`float`
 
-- script_api.mojang-minecraft.entity.degreesx.setrotation.description
+- script_api.mojang-minecraft.entity.setrotation.degreesx.description
 
 
 ////
@@ -772,7 +772,7 @@ setRotation(degreesX: float, degreesY: float): void
 //// define
 `degreesY`：`float`
 
-- script_api.mojang-minecraft.entity.degreesy.setrotation.description
+- script_api.mojang-minecraft.entity.setrotation.degreesy.description
 
 
 ////
@@ -804,7 +804,7 @@ setVelocity(velocity: Vector): void
 //// define
 `velocity`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.entity.velocity.setvelocity.description
+- script_api.mojang-minecraft.entity.setvelocity.velocity.description
 
 
 ////
@@ -836,7 +836,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `location`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.entity.location.teleport.description
+- script_api.mojang-minecraft.entity.teleport.location.description
 
 
 ////
@@ -844,7 +844,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- script_api.mojang-minecraft.entity.dimension.teleport.description
+- script_api.mojang-minecraft.entity.teleport.dimension.description
 
 
 ////
@@ -852,7 +852,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `xRotation`：`float`
 
-- script_api.mojang-minecraft.entity.xrotation.teleport.description
+- script_api.mojang-minecraft.entity.teleport.xrotation.description
 
 
 ////
@@ -860,7 +860,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `yRotation`：`float`
 
-- script_api.mojang-minecraft.entity.yrotation.teleport.description
+- script_api.mojang-minecraft.entity.teleport.yrotation.description
 
 
 ////
@@ -868,7 +868,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 //// define
 `keepVelocity`：`boolean`
 
-- script_api.mojang-minecraft.entity.keepvelocity.teleport.description
+- script_api.mojang-minecraft.entity.teleport.keepvelocity.description
 
 
 ////
@@ -900,7 +900,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `location`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.entity.location.teleportfacing.description
+- script_api.mojang-minecraft.entity.teleportfacing.location.description
 
 
 ////
@@ -908,7 +908,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- script_api.mojang-minecraft.entity.dimension.teleportfacing.description
+- script_api.mojang-minecraft.entity.teleportfacing.dimension.description
 
 
 ////
@@ -916,7 +916,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `facingLocation`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.entity.facinglocation.teleportfacing.description
+- script_api.mojang-minecraft.entity.teleportfacing.facinglocation.description
 
 
 ////
@@ -924,7 +924,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 //// define
 `keepVelocity`：`boolean`
 
-- script_api.mojang-minecraft.entity.keepvelocity.teleportfacing.description
+- script_api.mojang-minecraft.entity.teleportfacing.keepvelocity.description
 
 
 ////
@@ -956,7 +956,7 @@ triggerEvent(eventName: string): void
 //// define
 `eventName`：`string`
 
-- script_api.mojang-minecraft.entity.eventname.triggerevent.description
+- script_api.mojang-minecraft.entity.triggerevent.eventname.description
 
 
 ////

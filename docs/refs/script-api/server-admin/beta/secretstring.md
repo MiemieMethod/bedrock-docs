@@ -22,7 +22,7 @@ new constructor(value: string): SecretString
 //// define
 `value`：`string`
 
-- script_api.@minecraft/server-admin.secretstring.value.constructor.description
+- script_api.@minecraft/server-admin.secretstring.constructor.value.description
 
 
 ////

@@ -19,7 +19,7 @@
 
 ///
 
-script_api.@minecraft/server-gametest.gametesterror.register.description
+script_api.@minecraft/server-gametest.register.description
 
 ```js
 static register(testClassName: string, testName: string, testFunction: (arg: Test) => void): RegistrationBuilder
@@ -29,7 +29,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 `testClassName`：`string`
 
-- script_api.@minecraft/server-gametest.gametesterror.testclassname.register.description
+- script_api.@minecraft/server-gametest.register.testclassname.description
 
 
 ////
@@ -37,7 +37,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 `testName`：`string`
 
-- script_api.@minecraft/server-gametest.gametesterror.testname.register.description
+- script_api.@minecraft/server-gametest.register.testname.description
 
 
 ////
@@ -45,7 +45,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 `testFunction`：<code>(<a href="./test/">Test</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.gametesterror.testfunction.register.description
+- script_api.@minecraft/server-gametest.register.testfunction.description
 
 
 ////
@@ -53,7 +53,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- script_api.@minecraft/server-gametest.gametesterror.register.return
+- script_api.@minecraft/server-gametest.register.return
 
 
 ////
@@ -67,7 +67,7 @@ static register(testClassName: string, testName: string, testFunction: (arg: Tes
 
 ///
 
-script_api.@minecraft/server-gametest.gametesterror.registerasync.description
+script_api.@minecraft/server-gametest.registerasync.description
 
 ```js
 static registerAsync(testClassName: string, testName: string, testFunction: (arg: Test) => Promise<void>): RegistrationBuilder
@@ -77,7 +77,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 `testClassName`：`string`
 
-- script_api.@minecraft/server-gametest.gametesterror.testclassname.registerasync.description
+- script_api.@minecraft/server-gametest.registerasync.testclassname.description
 
 
 ////
@@ -85,7 +85,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 `testName`：`string`
 
-- script_api.@minecraft/server-gametest.gametesterror.testname.registerasync.description
+- script_api.@minecraft/server-gametest.registerasync.testname.description
 
 
 ////
@@ -93,7 +93,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 `testFunction`：<code>(<a href="./test/">Test</a>) =&gt; Promise<void></code>
 
-- script_api.@minecraft/server-gametest.gametesterror.testfunction.registerasync.description
+- script_api.@minecraft/server-gametest.registerasync.testfunction.description
 
 
 ////
@@ -101,7 +101,7 @@ static registerAsync(testClassName: string, testName: string, testFunction: (arg
 //// define
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
-- script_api.@minecraft/server-gametest.gametesterror.registerasync.return
+- script_api.@minecraft/server-gametest.registerasync.return
 
 
 ////

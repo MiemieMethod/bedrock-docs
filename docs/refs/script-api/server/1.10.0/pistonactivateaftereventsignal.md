@@ -22,7 +22,7 @@ subscribe(callback: (arg: PistonActivateAfterEvent) => void): (arg: PistonActiva
 //// define
 `callback`：<code>(<a href="../pistonactivateafterevent/">PistonActivateAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.pistonactivateaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.pistonactivateaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PistonActivateAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../pistonactivateafterevent/">PistonActivateAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.pistonactivateaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.pistonactivateaftereventsignal.unsubscribe.callback.description
 
 
 ////

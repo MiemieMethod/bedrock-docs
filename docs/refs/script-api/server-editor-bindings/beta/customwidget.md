@@ -114,7 +114,7 @@ moveBy(delta: Vector3): void
 //// define
 `delta`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.customwidget.delta.moveby.description
+- script_api.@minecraft/server-editor-bindings.customwidget.moveby.delta.description
 
 
 ////
@@ -146,7 +146,7 @@ setText(text: string): void
 //// define
 `text`：`string`
 
-- script_api.@minecraft/server-editor-bindings.customwidget.text.settext.description
+- script_api.@minecraft/server-editor-bindings.customwidget.settext.text.description
 
 
 ////

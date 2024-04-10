@@ -22,7 +22,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: Entit
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerevent/">DataDrivenEntityTriggerEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: Entit
 //// define
 `options`：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.options.subscribe.description
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void): void
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerevent/">DataDrivenEntityTriggerEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.datadrivenentitytriggereventsignal.unsubscribe.callback.description
 
 
 ////

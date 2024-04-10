@@ -68,7 +68,7 @@ startCooldown(player: Player): void
 //// define
 `player`：[`Player`](./player.md)
 
-- script_api.mojang-minecraft.itemcooldowncomponent.player.startcooldown.description
+- script_api.mojang-minecraft.itemcooldowncomponent.startcooldown.player.description
 
 
 ////

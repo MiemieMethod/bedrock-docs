@@ -140,7 +140,7 @@ setCurrent(value: float): boolean
 //// define
 `value`：`float`
 
-- script_api.mojang-minecraft.entityattributecomponent.value.setcurrent.description
+- script_api.mojang-minecraft.entityattributecomponent.setcurrent.value.description
 
 
 ////

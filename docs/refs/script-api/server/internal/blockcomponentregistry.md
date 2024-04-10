@@ -22,7 +22,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server.blockcomponentregistry.name.registercustomcomponent.description
+- script_api.@minecraft/server.blockcomponentregistry.registercustomcomponent.name.description
 
 
 ////
@@ -30,7 +30,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 //// define
 `customComponent`：[`BlockCustomComponent`](./blockcustomcomponent.md)
 
-- script_api.@minecraft/server.blockcomponentregistry.customcomponent.registercustomcomponent.description
+- script_api.@minecraft/server.blockcomponentregistry.registercustomcomponent.customcomponent.description
 
 
 ////

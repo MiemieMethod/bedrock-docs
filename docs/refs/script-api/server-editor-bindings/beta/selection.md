@@ -212,7 +212,7 @@ moveBy(delta: Vector3): Vector3
 //// define
 `delta`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.selection.delta.moveby.description
+- script_api.@minecraft/server-editor-bindings.selection.moveby.delta.description
 
 
 ////
@@ -244,7 +244,7 @@ moveTo(location: Vector3): Vector3
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.selection.location.moveto.description
+- script_api.@minecraft/server-editor-bindings.selection.moveto.location.description
 
 
 ////
@@ -276,7 +276,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 //// define
 `forceRelativity`：[`CompoundBlockVolumePositionRelativity`](../../server/beta/compoundblockvolumepositionrelativity.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.selection.forcerelativity.peeklastvolume.description
+- script_api.@minecraft/server-editor-bindings.selection.peeklastvolume.forcerelativity.description
 
 
 ////
@@ -332,7 +332,7 @@ pushVolume(item: CompoundBlockVolumeItem): void
 //// define
 `item`：[`CompoundBlockVolumeItem`](../../server/beta/compoundblockvolumeitem.md)
 
-- script_api.@minecraft/server-editor-bindings.selection.item.pushvolume.description
+- script_api.@minecraft/server-editor-bindings.selection.pushvolume.item.description
 
 
 ////
@@ -364,7 +364,7 @@ set(other: CompoundBlockVolume | Selection): void
 //// define
 `other`：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)|[`Selection`](./selection.md)
 
-- script_api.@minecraft/server-editor-bindings.selection.other.set.description
+- script_api.@minecraft/server-editor-bindings.selection.set.other.description
 
 
 ////
@@ -396,7 +396,7 @@ setFillColor(color: RGBA): void
 //// define
 `color`：[`RGBA`](../../server/beta/rgba.md)
 
-- script_api.@minecraft/server-editor-bindings.selection.color.setfillcolor.description
+- script_api.@minecraft/server-editor-bindings.selection.setfillcolor.color.description
 
 
 ////
@@ -428,7 +428,7 @@ setOutlineColor(color: RGBA): void
 //// define
 `color`：[`RGBA`](../../server/beta/rgba.md)
 
-- script_api.@minecraft/server-editor-bindings.selection.color.setoutlinecolor.description
+- script_api.@minecraft/server-editor-bindings.selection.setoutlinecolor.color.description
 
 
 ////

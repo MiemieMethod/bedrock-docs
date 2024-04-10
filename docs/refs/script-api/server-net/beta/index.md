@@ -27,7 +27,7 @@ static read-only http: HttpClient;
 //// define
 `http`：[`HttpClient`](./httpclient.md)
 
-- script_api.@minecraft/server-net.gametesterror.http.description
+- script_api.@minecraft/server-net.http.description
 
 
 ////

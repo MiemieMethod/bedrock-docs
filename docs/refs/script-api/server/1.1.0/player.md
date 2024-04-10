@@ -46,7 +46,7 @@ sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.player.message.sendmessage.description
+- script_api.@minecraft/server.player.sendmessage.message.description
 
 
 ////

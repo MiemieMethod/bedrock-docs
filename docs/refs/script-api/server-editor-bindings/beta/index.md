@@ -27,7 +27,7 @@ static read-only editor: MinecraftEditor;
 //// define
 `editor`：[`MinecraftEditor`](./minecrafteditor.md)
 
-- script_api.@minecraft/server-editor-bindings.servervariables.editor.description
+- script_api.@minecraft/server-editor-bindings.editor.description
 
 
 ////
@@ -49,7 +49,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 //// define
 `editorInternal`：[`MinecraftEditorInternal`](./minecrafteditorinternal.md)
 
-- script_api.@minecraft/server-editor-bindings.servervariables.editorinternal.description
+- script_api.@minecraft/server-editor-bindings.editorinternal.description
 
 
 ////

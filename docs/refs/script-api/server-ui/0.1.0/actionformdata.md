@@ -22,7 +22,7 @@ body(bodyText: string): ActionFormData
 //// define
 `bodyText`：`string`
 
-- script_api.mojang-minecraft-ui.actionformdata.bodytext.body.description
+- script_api.mojang-minecraft-ui.actionformdata.body.bodytext.description
 
 
 ////
@@ -54,7 +54,7 @@ button(text: string, iconPath?: string): ActionFormData
 //// define
 `text`：`string`
 
-- script_api.mojang-minecraft-ui.actionformdata.text.button.description
+- script_api.mojang-minecraft-ui.actionformdata.button.text.description
 
 
 ////
@@ -62,7 +62,7 @@ button(text: string, iconPath?: string): ActionFormData
 //// define
 `iconPath`：`string`|`undefined`
 
-- script_api.mojang-minecraft-ui.actionformdata.iconpath.button.description
+- script_api.mojang-minecraft-ui.actionformdata.button.iconpath.description
 
 
 ////
@@ -118,7 +118,7 @@ show(player: Player): Promise<ActionFormResponse>
 //// define
 `player`：[`Player`](../../server/0.1.0/player.md)
 
-- script_api.mojang-minecraft-ui.actionformdata.player.show.description
+- script_api.mojang-minecraft-ui.actionformdata.show.player.description
 
 
 ////
@@ -150,7 +150,7 @@ title(titleText: string): ActionFormData
 //// define
 `titleText`：`string`
 
-- script_api.mojang-minecraft-ui.actionformdata.titletext.title.description
+- script_api.mojang-minecraft-ui.actionformdata.title.titletext.description
 
 
 ////

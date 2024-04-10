@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): (arg: PlayerLeaveBef
 //// define
 `callback`：<code>(<a href="../playerleavebeforeevent/">PlayerLeaveBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerleavebeforeeventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playerleavebeforeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerLeaveBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerleavebeforeevent/">PlayerLeaveBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerleavebeforeeventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playerleavebeforeeventsignal.unsubscribe.callback.description
 
 
 ////

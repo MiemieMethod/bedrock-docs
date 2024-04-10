@@ -22,7 +22,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.structuremanager.identifier.createempty.description
+- script_api.@minecraft/server.structuremanager.createempty.identifier.description
 
 
 ////
@@ -30,7 +30,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 //// define
 `size`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.structuremanager.size.createempty.description
+- script_api.@minecraft/server.structuremanager.createempty.size.description
 
 
 ////
@@ -38,7 +38,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 //// define
 `saveMode`：[`StructureSaveMode`](./structuresavemode.md)
 
-- script_api.@minecraft/server.structuremanager.savemode.createempty.description
+- script_api.@minecraft/server.structuremanager.createempty.savemode.description
 
 
 ////
@@ -70,7 +70,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.structuremanager.identifier.createfromworld.description
+- script_api.@minecraft/server.structuremanager.createfromworld.identifier.description
 
 
 ////
@@ -78,7 +78,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- script_api.@minecraft/server.structuremanager.dimension.createfromworld.description
+- script_api.@minecraft/server.structuremanager.createfromworld.dimension.description
 
 
 ////
@@ -86,7 +86,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `blockVolume`：[`BlockVolume`](./blockvolume.md)
 
-- script_api.@minecraft/server.structuremanager.blockvolume.createfromworld.description
+- script_api.@minecraft/server.structuremanager.createfromworld.blockvolume.description
 
 
 ////
@@ -94,7 +94,7 @@ createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolu
 //// define
 `options`：[`StructureCreateOptions`](./structurecreateoptions.md)|`undefined`
 
-- script_api.@minecraft/server.structuremanager.options.createfromworld.description
+- script_api.@minecraft/server.structuremanager.createfromworld.options.description
 
 
 ////
@@ -126,7 +126,7 @@ delete(structure: string | Structure): boolean
 //// define
 `structure`：`string`|[`Structure`](./structure.md)
 
-- script_api.@minecraft/server.structuremanager.structure.delete.description
+- script_api.@minecraft/server.structuremanager.delete.structure.description
 
 
 ////
@@ -158,7 +158,7 @@ get(identifier: string): Structure | undefined
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.structuremanager.identifier.get.description
+- script_api.@minecraft/server.structuremanager.get.identifier.description
 
 
 ////
@@ -214,7 +214,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `structure`：`string`|[`Structure`](./structure.md)
 
-- script_api.@minecraft/server.structuremanager.structure.place.description
+- script_api.@minecraft/server.structuremanager.place.structure.description
 
 
 ////
@@ -222,7 +222,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- script_api.@minecraft/server.structuremanager.dimension.place.description
+- script_api.@minecraft/server.structuremanager.place.dimension.description
 
 
 ////
@@ -230,7 +230,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.structuremanager.location.place.description
+- script_api.@minecraft/server.structuremanager.place.location.description
 
 
 ////
@@ -238,7 +238,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 //// define
 `options`：[`StructurePlaceOptions`](./structureplaceoptions.md)|`undefined`
 
-- script_api.@minecraft/server.structuremanager.options.place.description
+- script_api.@minecraft/server.structuremanager.place.options.description
 
 
 ////

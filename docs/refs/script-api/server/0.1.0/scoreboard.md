@@ -22,7 +22,7 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 //// define
 `objectiveId`：`string`
 
-- script_api.mojang-minecraft.scoreboard.objectiveid.getobjective.description
+- script_api.mojang-minecraft.scoreboard.getobjective.objectiveid.description
 
 
 ////

@@ -22,7 +22,7 @@ static get(itemId: string): ItemType | undefined
 //// define
 `itemId`：`string`
 
-- script_api.@minecraft/server.itemtypes.itemid.get.description
+- script_api.@minecraft/server.itemtypes.get.itemid.description
 
 
 ////

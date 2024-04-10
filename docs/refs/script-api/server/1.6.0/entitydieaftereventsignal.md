@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityDieAfterEvent) => void, options?: EntityEventOpt
 //// define
 `callback`：<code>(<a href="../entitydieafterevent/">EntityDieAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entitydieaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.entitydieaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: EntityDieAfterEvent) => void, options?: EntityEventOpt
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entitydieaftereventsignal.options.subscribe.description
+- script_api.@minecraft/server.entitydieaftereventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: EntityDieAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entitydieafterevent/">EntityDieAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entitydieaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.entitydieaftereventsignal.unsubscribe.callback.description
 
 
 ////

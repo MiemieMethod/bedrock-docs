@@ -70,7 +70,7 @@ getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWri
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.location.getpredictedwriteascompoundblockvolume.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteascompoundblockvolume.location.description
 
 
 ////
@@ -78,7 +78,7 @@ getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWri
 //// define
 `options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.options.getpredictedwriteascompoundblockvolume.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteascompoundblockvolume.options.description
 
 
 ////
@@ -110,7 +110,7 @@ getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions)
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.location.getpredictedwriteasselection.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteasselection.location.description
 
 
 ////
@@ -118,7 +118,7 @@ getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions)
 //// define
 `options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.options.getpredictedwriteasselection.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteasselection.options.description
 
 
 ////
@@ -174,7 +174,7 @@ readFromSelection(selection: Selection): void
 //// define
 `selection`：[`Selection`](./selection.md)
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.selection.readfromselection.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.readfromselection.selection.description
 
 
 ////
@@ -206,7 +206,7 @@ readFromWorld(from: Vector3, to: Vector3): void
 //// define
 `from`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.from.readfromworld.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.readfromworld.from.description
 
 
 ////
@@ -214,7 +214,7 @@ readFromWorld(from: Vector3, to: Vector3): void
 //// define
 `to`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.to.readfromworld.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.readfromworld.to.description
 
 
 ////
@@ -246,7 +246,7 @@ writeToWorld(location: Vector3, options?: ClipboardWriteOptions): boolean
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.location.writetoworld.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.writetoworld.location.description
 
 
 ////
@@ -254,7 +254,7 @@ writeToWorld(location: Vector3, options?: ClipboardWriteOptions): boolean
 //// define
 `options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.clipboarditem.options.writetoworld.description
+- script_api.@minecraft/server-editor-bindings.clipboarditem.writetoworld.options.description
 
 
 ////

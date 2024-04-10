@@ -59,7 +59,7 @@ leash(leashHolder: Entity): void
 //// define
 `leashHolder`：[`Entity`](./entity.md)
 
-- script_api.@minecraft/server.entityleashablecomponent.leashholder.leash.description
+- script_api.@minecraft/server.entityleashablecomponent.leash.leashholder.description
 
 
 ////

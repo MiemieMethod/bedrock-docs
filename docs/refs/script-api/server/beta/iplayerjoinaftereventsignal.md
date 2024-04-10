@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerJoinAfterEvent) => void): (arg: PlayerJoinAfterE
 //// define
 `callback`：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.iplayerjoinaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.iplayerjoinaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerJoinAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerjoinafterevent/">PlayerJoinAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.iplayerjoinaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.iplayerjoinaftereventsignal.unsubscribe.callback.description
 
 
 ////

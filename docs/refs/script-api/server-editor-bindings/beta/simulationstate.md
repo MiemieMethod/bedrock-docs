@@ -46,7 +46,7 @@ setPaused(isPaused: boolean): void
 //// define
 `isPaused`：`boolean`
 
-- script_api.@minecraft/server-editor-bindings.simulationstate.ispaused.setpaused.description
+- script_api.@minecraft/server-editor-bindings.simulationstate.setpaused.ispaused.description
 
 
 ////

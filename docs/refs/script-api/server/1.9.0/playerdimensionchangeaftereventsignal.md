@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): (arg: Playe
 //// define
 `callback`：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerDimensionChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerdimensionchangeafterevent/">PlayerDimensionChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playerdimensionchangeaftereventsignal.unsubscribe.callback.description
 
 
 ////

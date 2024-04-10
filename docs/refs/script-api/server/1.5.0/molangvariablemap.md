@@ -46,7 +46,7 @@ setColorRGB(variableName: string, color: RGB): void
 //// define
 `variableName`：`string`
 
-- script_api.@minecraft/server.molangvariablemap.variablename.setcolorrgb.description
+- script_api.@minecraft/server.molangvariablemap.setcolorrgb.variablename.description
 
 
 ////
@@ -54,7 +54,7 @@ setColorRGB(variableName: string, color: RGB): void
 //// define
 `color`：[`RGB`](./rgb.md)
 
-- script_api.@minecraft/server.molangvariablemap.color.setcolorrgb.description
+- script_api.@minecraft/server.molangvariablemap.setcolorrgb.color.description
 
 
 ////
@@ -86,7 +86,7 @@ setColorRGBA(variableName: string, color: RGBA): void
 //// define
 `variableName`：`string`
 
-- script_api.@minecraft/server.molangvariablemap.variablename.setcolorrgba.description
+- script_api.@minecraft/server.molangvariablemap.setcolorrgba.variablename.description
 
 
 ////
@@ -94,7 +94,7 @@ setColorRGBA(variableName: string, color: RGBA): void
 //// define
 `color`：[`RGBA`](./rgba.md)
 
-- script_api.@minecraft/server.molangvariablemap.color.setcolorrgba.description
+- script_api.@minecraft/server.molangvariablemap.setcolorrgba.color.description
 
 
 ////
@@ -126,7 +126,7 @@ setFloat(variableName: string, number: float): void
 //// define
 `variableName`：`string`
 
-- script_api.@minecraft/server.molangvariablemap.variablename.setfloat.description
+- script_api.@minecraft/server.molangvariablemap.setfloat.variablename.description
 
 
 ////
@@ -134,7 +134,7 @@ setFloat(variableName: string, number: float): void
 //// define
 `number`：`float`
 
-- script_api.@minecraft/server.molangvariablemap.number.setfloat.description
+- script_api.@minecraft/server.molangvariablemap.setfloat.number.description
 
 
 ////
@@ -166,7 +166,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 //// define
 `variableName`：`string`
 
-- script_api.@minecraft/server.molangvariablemap.variablename.setspeedanddirection.description
+- script_api.@minecraft/server.molangvariablemap.setspeedanddirection.variablename.description
 
 
 ////
@@ -174,7 +174,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 //// define
 `speed`：`float`
 
-- script_api.@minecraft/server.molangvariablemap.speed.setspeedanddirection.description
+- script_api.@minecraft/server.molangvariablemap.setspeedanddirection.speed.description
 
 
 ////
@@ -182,7 +182,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector3): vo
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.molangvariablemap.direction.setspeedanddirection.description
+- script_api.@minecraft/server.molangvariablemap.setspeedanddirection.direction.description
 
 
 ////
@@ -214,7 +214,7 @@ setVector3(variableName: string, vector: Vector3): void
 //// define
 `variableName`：`string`
 
-- script_api.@minecraft/server.molangvariablemap.variablename.setvector3.description
+- script_api.@minecraft/server.molangvariablemap.setvector3.variablename.description
 
 
 ////
@@ -222,7 +222,7 @@ setVector3(variableName: string, vector: Vector3): void
 //// define
 `vector`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.molangvariablemap.vector.setvector3.description
+- script_api.@minecraft/server.molangvariablemap.setvector3.vector.description
 
 
 ////

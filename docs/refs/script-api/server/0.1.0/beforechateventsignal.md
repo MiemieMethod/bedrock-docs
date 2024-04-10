@@ -22,7 +22,7 @@ subscribe(callback: (arg: BeforeChatEvent) => void): (arg: BeforeChatEvent) => v
 //// define
 `callback`：<code>(<a href="../beforechatevent/">BeforeChatEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.beforechateventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.beforechateventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: BeforeChatEvent) => void): void
 //// define
 `callback`：<code>(<a href="../beforechatevent/">BeforeChatEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.beforechateventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.beforechateventsignal.unsubscribe.callback.description
 
 
 ////

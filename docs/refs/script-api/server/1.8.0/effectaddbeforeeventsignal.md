@@ -22,7 +22,7 @@ subscribe(callback: (arg: EffectAddBeforeEvent) => void): (arg: EffectAddBeforeE
 //// define
 `callback`：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.effectaddbeforeeventsignal.callback.subscribe.description
+- script_api.@minecraft/server.effectaddbeforeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: EffectAddBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../effectaddbeforeevent/">EffectAddBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.effectaddbeforeeventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.effectaddbeforeeventsignal.unsubscribe.callback.description
 
 
 ////

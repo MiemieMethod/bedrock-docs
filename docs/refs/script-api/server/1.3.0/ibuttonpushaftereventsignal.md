@@ -22,7 +22,7 @@ subscribe(callback: (arg: ButtonPushAfterEvent) => void): (arg: ButtonPushAfterE
 //// define
 `callback`：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.ibuttonpushaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.ibuttonpushaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: ButtonPushAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../buttonpushafterevent/">ButtonPushAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.ibuttonpushaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.ibuttonpushaftereventsignal.unsubscribe.callback.description
 
 
 ////

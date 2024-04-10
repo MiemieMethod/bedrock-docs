@@ -46,7 +46,7 @@ getState(stateName: string): boolean | int32 | string | undefined
 //// define
 `stateName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.statename.getstate.description
+- script_api.@minecraft/server.blockpermutation.getstate.statename.description
 
 
 ////
@@ -78,7 +78,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `blockName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.blockname.matches.description
+- script_api.@minecraft/server.blockpermutation.matches.blockname.description
 
 
 ////
@@ -86,7 +86,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.states.matches.description
+- script_api.@minecraft/server.blockpermutation.matches.states.description
 
 
 ////
@@ -118,7 +118,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 `blockName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.blockname.resolve.description
+- script_api.@minecraft/server.blockpermutation.resolve.blockname.description
 
 
 ////
@@ -126,7 +126,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.states.resolve.description
+- script_api.@minecraft/server.blockpermutation.resolve.states.description
 
 
 ////
@@ -158,7 +158,7 @@ withState(name: string, value: boolean | int32 | string): BlockPermutation
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server.blockpermutation.name.withstate.description
+- script_api.@minecraft/server.blockpermutation.withstate.name.description
 
 
 ////
@@ -166,7 +166,7 @@ withState(name: string, value: boolean | int32 | string): BlockPermutation
 //// define
 `value`：`boolean`|`int32`|`string`
 
-- script_api.@minecraft/server.blockpermutation.value.withstate.description
+- script_api.@minecraft/server.blockpermutation.withstate.value.description
 
 
 ////

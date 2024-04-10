@@ -46,7 +46,7 @@ getItem(index: int32): IBlockPaletteItem
 //// define
 `index`：`int32`
 
-- script_api.@minecraft/server-editor-bindings.blockpalette.index.getitem.description
+- script_api.@minecraft/server-editor-bindings.blockpalette.getitem.index.description
 
 
 ////
@@ -78,7 +78,7 @@ removeItemAt(index: int32): void
 //// define
 `index`：`int32`
 
-- script_api.@minecraft/server-editor-bindings.blockpalette.index.removeitemat.description
+- script_api.@minecraft/server-editor-bindings.blockpalette.removeitemat.index.description
 
 
 ////
@@ -134,7 +134,7 @@ setItem(blockPaletteItem: IBlockPaletteItem, index: int32): void
 //// define
 `blockPaletteItem`：[`IBlockPaletteItem`](./iblockpaletteitem.md)
 
-- script_api.@minecraft/server-editor-bindings.blockpalette.blockpaletteitem.setitem.description
+- script_api.@minecraft/server-editor-bindings.blockpalette.setitem.blockpaletteitem.description
 
 
 ////
@@ -142,7 +142,7 @@ setItem(blockPaletteItem: IBlockPaletteItem, index: int32): void
 //// define
 `index`：`int32`
 
-- script_api.@minecraft/server-editor-bindings.blockpalette.index.setitem.description
+- script_api.@minecraft/server-editor-bindings.blockpalette.setitem.index.description
 
 
 ////

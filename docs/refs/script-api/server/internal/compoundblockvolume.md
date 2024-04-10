@@ -92,7 +92,7 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 //// define
 `origin`：[`Vector3`](./vector3.md)|`undefined`
 
-- script_api.@minecraft/server.compoundblockvolume.origin.constructor.description
+- script_api.@minecraft/server.compoundblockvolume.constructor.origin.description
 
 
 ////
@@ -268,7 +268,7 @@ isInside(worldLocation: Vector3): boolean
 //// define
 `worldLocation`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.compoundblockvolume.worldlocation.isinside.description
+- script_api.@minecraft/server.compoundblockvolume.isinside.worldlocation.description
 
 
 ////
@@ -300,7 +300,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 //// define
 `forceRelativity`：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)|`undefined`
 
-- script_api.@minecraft/server.compoundblockvolume.forcerelativity.peeklastvolume.description
+- script_api.@minecraft/server.compoundblockvolume.peeklastvolume.forcerelativity.description
 
 
 ////
@@ -356,7 +356,7 @@ pushVolume(item: CompoundBlockVolumeItem): void
 //// define
 `item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
 
-- script_api.@minecraft/server.compoundblockvolume.item.pushvolume.description
+- script_api.@minecraft/server.compoundblockvolume.pushvolume.item.description
 
 
 ////
@@ -388,7 +388,7 @@ replaceOrAddLastVolume(item: CompoundBlockVolumeItem): boolean
 //// define
 `item`：[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)
 
-- script_api.@minecraft/server.compoundblockvolume.item.replaceoraddlastvolume.description
+- script_api.@minecraft/server.compoundblockvolume.replaceoraddlastvolume.item.description
 
 
 ////
@@ -420,7 +420,7 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `position`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.compoundblockvolume.position.setorigin.description
+- script_api.@minecraft/server.compoundblockvolume.setorigin.position.description
 
 
 ////
@@ -428,7 +428,7 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `preserveExistingVolumes`：`boolean`|`undefined`
 
-- script_api.@minecraft/server.compoundblockvolume.preserveexistingvolumes.setorigin.description
+- script_api.@minecraft/server.compoundblockvolume.setorigin.preserveexistingvolumes.description
 
 
 ////
@@ -460,7 +460,7 @@ translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `delta`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.compoundblockvolume.delta.translateorigin.description
+- script_api.@minecraft/server.compoundblockvolume.translateorigin.delta.description
 
 
 ////
@@ -468,7 +468,7 @@ translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 //// define
 `preserveExistingVolumes`：`boolean`|`undefined`
 
-- script_api.@minecraft/server.compoundblockvolume.preserveexistingvolumes.translateorigin.description
+- script_api.@minecraft/server.compoundblockvolume.translateorigin.preserveexistingvolumes.description
 
 
 ////

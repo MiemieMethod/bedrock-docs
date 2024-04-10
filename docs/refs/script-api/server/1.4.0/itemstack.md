@@ -200,7 +200,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 //// define
 `itemType`：[`ItemType`](./itemtype.md)|`string`
 
-- script_api.@minecraft/server.itemstack.itemtype.constructor.description
+- script_api.@minecraft/server.itemstack.constructor.itemtype.description
 
 
 ////
@@ -208,7 +208,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.itemstack.amount.constructor.description
+- script_api.@minecraft/server.itemstack.constructor.amount.description
 
 
 ////
@@ -240,7 +240,7 @@ getComponent(componentId: string): ItemComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.itemstack.componentid.getcomponent.description
+- script_api.@minecraft/server.itemstack.getcomponent.componentid.description
 
 
 ////
@@ -320,7 +320,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.itemstack.componentid.hascomponent.description
+- script_api.@minecraft/server.itemstack.hascomponent.componentid.description
 
 
 ////
@@ -352,7 +352,7 @@ isStackableWith(itemStack: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.itemstack.itemstack.isstackablewith.description
+- script_api.@minecraft/server.itemstack.isstackablewith.itemstack.description
 
 
 ////
@@ -384,7 +384,7 @@ setLore(loreList?: string[]): void
 //// define
 `loreList`：`string[]`|`undefined`
 
-- script_api.@minecraft/server.itemstack.lorelist.setlore.description
+- script_api.@minecraft/server.itemstack.setlore.lorelist.description
 
 
 ////

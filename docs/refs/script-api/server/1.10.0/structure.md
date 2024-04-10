@@ -68,7 +68,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.structure.location.getblockpermutation.description
+- script_api.@minecraft/server.structure.getblockpermutation.location.description
 
 
 ////
@@ -100,7 +100,7 @@ getIsWaterlogged(location: Vector3): boolean
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.structure.location.getiswaterlogged.description
+- script_api.@minecraft/server.structure.getiswaterlogged.location.description
 
 
 ////

@@ -22,7 +22,7 @@ addDye(itemType: ItemType): void
 //// define
 `itemType`：[`ItemType`](./itemtype.md)
 
-- script_api.mojang-minecraft.blockwatercontainercomponent.itemtype.adddye.description
+- script_api.mojang-minecraft.blockwatercontainercomponent.adddye.itemtype.description
 
 
 ////

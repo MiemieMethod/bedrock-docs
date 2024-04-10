@@ -22,7 +22,7 @@ subscribe(callback: (arg: DataStorePayloadAfterEvent) => void): (arg: DataStoreP
 //// define
 `callback`：<code>(<a href="../datastorepayloadafterevent/">DataStorePayloadAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: DataStorePayloadAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../datastorepayloadafterevent/">DataStorePayloadAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server-editor-bindings.datastorepayloadaftereventsignal.unsubscribe.callback.description
 
 
 ////

@@ -22,7 +22,7 @@ static get(enchantmentId: string): EnchantmentType | undefined
 //// define
 `enchantmentId`：`string`
 
-- script_api.@minecraft/server.enchantmenttypes.enchantmentid.get.description
+- script_api.@minecraft/server.enchantmenttypes.get.enchantmentid.description
 
 
 ////

@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityHealthChangedAfterEvent) => void, options?: Enti
 //// define
 `callback`：<code>(<a href="../entityhealthchangedafterevent/">EntityHealthChangedAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityhealthchangedaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.entityhealthchangedaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: EntityHealthChangedAfterEvent) => void, options?: Enti
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entityhealthchangedaftereventsignal.options.subscribe.description
+- script_api.@minecraft/server.entityhealthchangedaftereventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: EntityHealthChangedAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityhealthchangedafterevent/">EntityHealthChangedAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityhealthchangedaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.entityhealthchangedaftereventsignal.unsubscribe.callback.description
 
 
 ////

@@ -118,7 +118,7 @@ setIsSelected(isSelected: boolean): void
 //// define
 `isSelected`：`boolean`
 
-- script_api.@minecraft/server-editor-bindings.widget.isselected.setisselected.description
+- script_api.@minecraft/server-editor-bindings.widget.setisselected.isselected.description
 
 
 ////
@@ -150,7 +150,7 @@ setIsVisible(isVisible: boolean): void
 //// define
 `isVisible`：`boolean`
 
-- script_api.@minecraft/server-editor-bindings.widget.isvisible.setisvisible.description
+- script_api.@minecraft/server-editor-bindings.widget.setisvisible.isvisible.description
 
 
 ////

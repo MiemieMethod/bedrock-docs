@@ -22,7 +22,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 //// define
 `callback`：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 //// define
 `options`：[`ScriptEventMessageFilterOptions`](./scripteventmessagefilteroptions.md)|`undefined`
 
-- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.options.subscribe.description
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../scripteventcommandmessageafterevent/">ScriptEventCommandMessageAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.unsubscribe.callback.description
 
 
 ////

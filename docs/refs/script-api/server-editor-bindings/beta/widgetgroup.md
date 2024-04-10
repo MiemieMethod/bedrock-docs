@@ -70,7 +70,7 @@ createCustomWidget(customEntityName: string, location: Vector3, rotation?: Vecto
 //// define
 `customEntityName`：`string`
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.customentityname.createcustomwidget.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.customentityname.description
 
 
 ////
@@ -78,7 +78,7 @@ createCustomWidget(customEntityName: string, location: Vector3, rotation?: Vecto
 //// define
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.location.createcustomwidget.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.location.description
 
 
 ////
@@ -86,7 +86,7 @@ createCustomWidget(customEntityName: string, location: Vector3, rotation?: Vecto
 //// define
 `rotation`：[`Vector2`](../../server/beta/vector2.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.rotation.createcustomwidget.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.rotation.description
 
 
 ////
@@ -94,7 +94,7 @@ createCustomWidget(customEntityName: string, location: Vector3, rotation?: Vecto
 //// define
 `options`：[`CustomWidgetCreateOptions`](./customwidgetcreateoptions.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.options.createcustomwidget.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.options.description
 
 
 ////
@@ -126,7 +126,7 @@ deleteWidget(widgetToDelete: Widget): void
 //// define
 `widgetToDelete`：[`Widget`](./widget.md)
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.widgettodelete.deletewidget.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.deletewidget.widgettodelete.description
 
 
 ////
@@ -206,7 +206,7 @@ moveSelectedWidgets(delta: Vector3): void
 //// define
 `delta`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.delta.moveselectedwidgets.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.moveselectedwidgets.delta.description
 
 
 ////
@@ -262,7 +262,7 @@ setIsVisible(isVisible: boolean): void
 //// define
 `isVisible`：`boolean`
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.isvisible.setisvisible.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.setisvisible.isvisible.description
 
 
 ////

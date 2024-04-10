@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityCreateEvent) => void): (arg: EntityCreateEvent) 
 //// define
 `callback`：<code>(<a href="../entitycreateevent/">EntityCreateEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.entitycreateeventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.entitycreateeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: EntityCreateEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entitycreateevent/">EntityCreateEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.entitycreateeventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.entitycreateeventsignal.unsubscribe.callback.description
 
 
 ////

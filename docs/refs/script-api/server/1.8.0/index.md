@@ -50,7 +50,7 @@ static read-only system: System;
 //// define
 `system`：[`System`](./system.md)
 
-- script_api.@minecraft/server.locationoutofworldboundarieserror.system.description
+- script_api.@minecraft/server.system.description
 
 
 ////
@@ -72,7 +72,7 @@ static read-only world: World;
 //// define
 `world`：[`World`](./world.md)
 
-- script_api.@minecraft/server.locationoutofworldboundarieserror.world.description
+- script_api.@minecraft/server.world.description
 
 
 ////

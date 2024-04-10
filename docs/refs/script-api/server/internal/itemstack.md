@@ -248,7 +248,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 //// define
 `itemType`：[`ItemType`](./itemtype.md)|`string`
 
-- script_api.@minecraft/server.itemstack.itemtype.constructor.description
+- script_api.@minecraft/server.itemstack.constructor.itemtype.description
 
 
 ////
@@ -256,7 +256,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.itemstack.amount.constructor.description
+- script_api.@minecraft/server.itemstack.constructor.amount.description
 
 
 ////
@@ -336,7 +336,7 @@ getComponent(componentId: string): ItemComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.itemstack.componentid.getcomponent.description
+- script_api.@minecraft/server.itemstack.getcomponent.componentid.description
 
 
 ////
@@ -392,7 +392,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.itemstack.identifier.getdynamicproperty.description
+- script_api.@minecraft/server.itemstack.getdynamicproperty.identifier.description
 
 
 ////
@@ -520,7 +520,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.itemstack.componentid.hascomponent.description
+- script_api.@minecraft/server.itemstack.hascomponent.componentid.description
 
 
 ////
@@ -552,7 +552,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.@minecraft/server.itemstack.tag.hastag.description
+- script_api.@minecraft/server.itemstack.hastag.tag.description
 
 
 ////
@@ -584,7 +584,7 @@ isStackableWith(itemStack: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.itemstack.itemstack.isstackablewith.description
+- script_api.@minecraft/server.itemstack.isstackablewith.itemstack.description
 
 
 ////
@@ -616,7 +616,7 @@ matches(itemName: string, states?: Record<string, boolean | int32 | string>): bo
 //// define
 `itemName`：`string`
 
-- script_api.@minecraft/server.itemstack.itemname.matches.description
+- script_api.@minecraft/server.itemstack.matches.itemname.description
 
 
 ////
@@ -624,7 +624,7 @@ matches(itemName: string, states?: Record<string, boolean | int32 | string>): bo
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.itemstack.states.matches.description
+- script_api.@minecraft/server.itemstack.matches.states.description
 
 
 ////
@@ -656,7 +656,7 @@ setCanDestroy(blockIdentifiers?: string[]): void
 //// define
 `blockIdentifiers`：`string[]`|`undefined`
 
-- script_api.@minecraft/server.itemstack.blockidentifiers.setcandestroy.description
+- script_api.@minecraft/server.itemstack.setcandestroy.blockidentifiers.description
 
 
 ////
@@ -688,7 +688,7 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 //// define
 `blockIdentifiers`：`string[]`|`undefined`
 
-- script_api.@minecraft/server.itemstack.blockidentifiers.setcanplaceon.description
+- script_api.@minecraft/server.itemstack.setcanplaceon.blockidentifiers.description
 
 
 ////
@@ -720,7 +720,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.itemstack.identifier.setdynamicproperty.description
+- script_api.@minecraft/server.itemstack.setdynamicproperty.identifier.description
 
 
 ////
@@ -728,7 +728,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- script_api.@minecraft/server.itemstack.value.setdynamicproperty.description
+- script_api.@minecraft/server.itemstack.setdynamicproperty.value.description
 
 
 ////
@@ -760,7 +760,7 @@ setLore(loreList?: string[]): void
 //// define
 `loreList`：`string[]`|`undefined`
 
-- script_api.@minecraft/server.itemstack.lorelist.setlore.description
+- script_api.@minecraft/server.itemstack.setlore.lorelist.description
 
 
 ////

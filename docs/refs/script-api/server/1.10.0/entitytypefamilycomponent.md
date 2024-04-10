@@ -59,7 +59,7 @@ hasTypeFamily(typeFamily: string): boolean
 //// define
 `typeFamily`：`string`
 
-- script_api.@minecraft/server.entitytypefamilycomponent.typefamily.hastypefamily.description
+- script_api.@minecraft/server.entitytypefamilycomponent.hastypefamily.typefamily.description
 
 
 ////

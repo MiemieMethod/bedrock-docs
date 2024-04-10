@@ -83,7 +83,7 @@ setRecord(recordItemType: ItemType | string): void
 //// define
 `recordItemType`：[`ItemType`](./itemtype.md)|`string`
 
-- script_api.@minecraft/server.blockrecordplayercomponent.recorditemtype.setrecord.description
+- script_api.@minecraft/server.blockrecordplayercomponent.setrecord.recorditemtype.description
 
 
 ////

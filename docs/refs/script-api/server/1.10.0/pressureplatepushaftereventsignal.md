@@ -22,7 +22,7 @@ subscribe(callback: (arg: PressurePlatePushAfterEvent) => void): (arg: PressureP
 //// define
 `callback`：<code>(<a href="../pressureplatepushafterevent/">PressurePlatePushAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.pressureplatepushaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.pressureplatepushaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PressurePlatePushAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../pressureplatepushafterevent/">PressurePlatePushAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.pressureplatepushaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.pressureplatepushaftereventsignal.unsubscribe.callback.description
 
 
 ////

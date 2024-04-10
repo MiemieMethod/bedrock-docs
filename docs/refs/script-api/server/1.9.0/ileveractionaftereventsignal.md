@@ -22,7 +22,7 @@ subscribe(callback: (arg: LeverActionAfterEvent) => void): (arg: LeverActionAfte
 //// define
 `callback`：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.ileveractionaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.ileveractionaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: LeverActionAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../leveractionafterevent/">LeverActionAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.ileveractionaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.ileveractionaftereventsignal.unsubscribe.callback.description
 
 
 ////

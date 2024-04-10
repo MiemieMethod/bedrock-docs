@@ -22,7 +22,7 @@ getDataStore(player: Player): DataStore
 //// define
 `player`：[`Player`](../../server/beta/player.md)
 
-- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.player.getdatastore.description
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getdatastore.player.description
 
 
 ////
@@ -54,7 +54,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `extensionName`：`string`
 
-- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.extensionname.registerextension.description
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.registerextension.extensionname.description
 
 
 ////
@@ -62,7 +62,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `activationFunction`：<code>(<a href="../extensioncontext/">ExtensionContext</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.activationfunction.registerextension.description
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.registerextension.activationfunction.description
 
 
 ////
@@ -70,7 +70,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `shutdownFunction`：<code>(<a href="../extensioncontext/">ExtensionContext</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.shutdownfunction.registerextension.description
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.registerextension.shutdownfunction.description
 
 
 ////
@@ -78,7 +78,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 //// define
 `options`：[`ExtensionOptionalParameters`](./extensionoptionalparameters.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.options.registerextension.description
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.registerextension.options.description
 
 
 ////

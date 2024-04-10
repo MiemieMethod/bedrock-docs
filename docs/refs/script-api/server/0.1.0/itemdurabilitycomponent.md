@@ -90,7 +90,7 @@ getDamageChance(unbreakingEnchantmentLevel: int32): int32
 //// define
 `unbreakingEnchantmentLevel`：`int32`
 
-- script_api.mojang-minecraft.itemdurabilitycomponent.unbreakingenchantmentlevel.getdamagechance.description
+- script_api.mojang-minecraft.itemdurabilitycomponent.getdamagechance.unbreakingenchantmentlevel.description
 
 
 ////

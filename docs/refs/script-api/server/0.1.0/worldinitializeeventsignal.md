@@ -22,7 +22,7 @@ subscribe(callback: (arg: WorldInitializeEvent) => void): (arg: WorldInitializeE
 //// define
 `callback`：<code>(<a href="../worldinitializeevent/">WorldInitializeEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.worldinitializeeventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.worldinitializeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: WorldInitializeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../worldinitializeevent/">WorldInitializeEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.worldinitializeeventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.worldinitializeeventsignal.unsubscribe.callback.description
 
 
 ////

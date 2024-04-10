@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerSpawnAfterEvent) => void): (arg: PlayerSpawnAfte
 //// define
 `callback`：<code>(<a href="../playerspawnafterevent/">PlayerSpawnAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.iplayerspawnaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.iplayerspawnaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerSpawnAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerspawnafterevent/">PlayerSpawnAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.iplayerspawnaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.iplayerspawnaftereventsignal.unsubscribe.callback.description
 
 
 ////

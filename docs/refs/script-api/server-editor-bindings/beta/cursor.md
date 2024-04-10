@@ -140,7 +140,7 @@ moveBy(offset: Vector3): Vector3
 //// define
 `offset`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.cursor.offset.moveby.description
+- script_api.@minecraft/server-editor-bindings.cursor.moveby.offset.description
 
 
 ////
@@ -196,7 +196,7 @@ setProperties(properties: CursorProperties): void
 //// define
 `properties`：[`CursorProperties`](./cursorproperties.md)
 
-- script_api.@minecraft/server-editor-bindings.cursor.properties.setproperties.description
+- script_api.@minecraft/server-editor-bindings.cursor.setproperties.properties.description
 
 
 ////

@@ -22,7 +22,7 @@ static get(stateName: string): BlockStateType | undefined
 //// define
 `stateName`：`string`
 
-- script_api.@minecraft/server.blockstates.statename.get.description
+- script_api.@minecraft/server.blockstates.get.statename.description
 
 
 ////

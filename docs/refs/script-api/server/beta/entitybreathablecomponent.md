@@ -261,7 +261,7 @@ setAirSupply(value: int16): void
 //// define
 `value`：`int16`
 
-- script_api.@minecraft/server.entitybreathablecomponent.value.setairsupply.description
+- script_api.@minecraft/server.entitybreathablecomponent.setairsupply.value.description
 
 
 ////

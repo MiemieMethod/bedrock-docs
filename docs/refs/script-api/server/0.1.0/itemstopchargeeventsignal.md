@@ -22,7 +22,7 @@ subscribe(callback: (arg: ItemStopChargeEvent) => void): (arg: ItemStopChargeEve
 //// define
 `callback`：<code>(<a href="../itemstopchargeevent/">ItemStopChargeEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.itemstopchargeeventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.itemstopchargeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: ItemStopChargeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemstopchargeevent/">ItemStopChargeEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.itemstopchargeeventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.itemstopchargeeventsignal.unsubscribe.callback.description
 
 
 ////

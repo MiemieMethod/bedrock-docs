@@ -46,7 +46,7 @@ dropdown(label: RawMessage | string, options: (RawMessage | string)[], defaultVa
 //// define
 `label`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.modalformdata.label.dropdown.description
+- script_api.@minecraft/server-ui.modalformdata.dropdown.label.description
 
 
 ////
@@ -54,7 +54,7 @@ dropdown(label: RawMessage | string, options: (RawMessage | string)[], defaultVa
 //// define
 `options`：`(RawMessage | string)[]`
 
-- script_api.@minecraft/server-ui.modalformdata.options.dropdown.description
+- script_api.@minecraft/server-ui.modalformdata.dropdown.options.description
 
 
 ////
@@ -62,7 +62,7 @@ dropdown(label: RawMessage | string, options: (RawMessage | string)[], defaultVa
 //// define
 `defaultValueIndex`：`int32`|`undefined`
 
-- script_api.@minecraft/server-ui.modalformdata.defaultvalueindex.dropdown.description
+- script_api.@minecraft/server-ui.modalformdata.dropdown.defaultvalueindex.description
 
 
 ////
@@ -94,7 +94,7 @@ show(player: Player): Promise<ModalFormResponse>
 //// define
 `player`：[`Player`](../../server/internal/player.md)
 
-- script_api.@minecraft/server-ui.modalformdata.player.show.description
+- script_api.@minecraft/server-ui.modalformdata.show.player.description
 
 
 ////
@@ -126,7 +126,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `label`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.modalformdata.label.slider.description
+- script_api.@minecraft/server-ui.modalformdata.slider.label.description
 
 
 ////
@@ -134,7 +134,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `minimumValue`：`float`
 
-- script_api.@minecraft/server-ui.modalformdata.minimumvalue.slider.description
+- script_api.@minecraft/server-ui.modalformdata.slider.minimumvalue.description
 
 
 ////
@@ -142,7 +142,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `maximumValue`：`float`
 
-- script_api.@minecraft/server-ui.modalformdata.maximumvalue.slider.description
+- script_api.@minecraft/server-ui.modalformdata.slider.maximumvalue.description
 
 
 ////
@@ -150,7 +150,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `valueStep`：`float`
 
-- script_api.@minecraft/server-ui.modalformdata.valuestep.slider.description
+- script_api.@minecraft/server-ui.modalformdata.slider.valuestep.description
 
 
 ////
@@ -158,7 +158,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 //// define
 `defaultValue`：`float`|`undefined`
 
-- script_api.@minecraft/server-ui.modalformdata.defaultvalue.slider.description
+- script_api.@minecraft/server-ui.modalformdata.slider.defaultvalue.description
 
 
 ////
@@ -190,7 +190,7 @@ submitButton(submitButtonText: RawMessage | string): ModalFormData
 //// define
 `submitButtonText`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.modalformdata.submitbuttontext.submitbutton.description
+- script_api.@minecraft/server-ui.modalformdata.submitbutton.submitbuttontext.description
 
 
 ////
@@ -222,7 +222,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 //// define
 `label`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.modalformdata.label.textfield.description
+- script_api.@minecraft/server-ui.modalformdata.textfield.label.description
 
 
 ////
@@ -230,7 +230,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 //// define
 `placeholderText`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.modalformdata.placeholdertext.textfield.description
+- script_api.@minecraft/server-ui.modalformdata.textfield.placeholdertext.description
 
 
 ////
@@ -238,7 +238,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 //// define
 `defaultValue`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`|`undefined`
 
-- script_api.@minecraft/server-ui.modalformdata.defaultvalue.textfield.description
+- script_api.@minecraft/server-ui.modalformdata.textfield.defaultvalue.description
 
 
 ////
@@ -270,7 +270,7 @@ title(titleText: RawMessage | string): ModalFormData
 //// define
 `titleText`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.modalformdata.titletext.title.description
+- script_api.@minecraft/server-ui.modalformdata.title.titletext.description
 
 
 ////
@@ -302,7 +302,7 @@ toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 //// define
 `label`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.modalformdata.label.toggle.description
+- script_api.@minecraft/server-ui.modalformdata.toggle.label.description
 
 
 ////
@@ -310,7 +310,7 @@ toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 //// define
 `defaultValue`：`boolean`|`undefined`
 
-- script_api.@minecraft/server-ui.modalformdata.defaultvalue.toggle.description
+- script_api.@minecraft/server-ui.modalformdata.toggle.defaultvalue.description
 
 
 ////

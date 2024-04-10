@@ -35,7 +35,7 @@ setPotionType(itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.blockpotioncontainercomponent.itemstack.setpotiontype.description
+- script_api.@minecraft/server.blockpotioncontainercomponent.setpotiontype.itemstack.description
 
 
 ////

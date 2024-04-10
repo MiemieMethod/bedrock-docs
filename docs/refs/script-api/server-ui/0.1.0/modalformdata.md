@@ -46,7 +46,7 @@ dropdown(label: string, options: string[], defaultValueIndex?: int32): ModalForm
 //// define
 `label`：`string`
 
-- script_api.mojang-minecraft-ui.modalformdata.label.dropdown.description
+- script_api.mojang-minecraft-ui.modalformdata.dropdown.label.description
 
 
 ////
@@ -54,7 +54,7 @@ dropdown(label: string, options: string[], defaultValueIndex?: int32): ModalForm
 //// define
 `options`：`string[]`
 
-- script_api.mojang-minecraft-ui.modalformdata.options.dropdown.description
+- script_api.mojang-minecraft-ui.modalformdata.dropdown.options.description
 
 
 ////
@@ -62,7 +62,7 @@ dropdown(label: string, options: string[], defaultValueIndex?: int32): ModalForm
 //// define
 `defaultValueIndex`：`int32`|`undefined`
 
-- script_api.mojang-minecraft-ui.modalformdata.defaultvalueindex.dropdown.description
+- script_api.mojang-minecraft-ui.modalformdata.dropdown.defaultvalueindex.description
 
 
 ////
@@ -94,7 +94,7 @@ icon(iconPath: string): ModalFormData
 //// define
 `iconPath`：`string`
 
-- script_api.mojang-minecraft-ui.modalformdata.iconpath.icon.description
+- script_api.mojang-minecraft-ui.modalformdata.icon.iconpath.description
 
 
 ////
@@ -126,7 +126,7 @@ show(player: Player): Promise<ModalFormResponse>
 //// define
 `player`：[`Player`](../../server/0.1.0/player.md)
 
-- script_api.mojang-minecraft-ui.modalformdata.player.show.description
+- script_api.mojang-minecraft-ui.modalformdata.show.player.description
 
 
 ////
@@ -158,7 +158,7 @@ slider(label: string, minimumValue: float, maximumValue: float, valueStep: float
 //// define
 `label`：`string`
 
-- script_api.mojang-minecraft-ui.modalformdata.label.slider.description
+- script_api.mojang-minecraft-ui.modalformdata.slider.label.description
 
 
 ////
@@ -166,7 +166,7 @@ slider(label: string, minimumValue: float, maximumValue: float, valueStep: float
 //// define
 `minimumValue`：`float`
 
-- script_api.mojang-minecraft-ui.modalformdata.minimumvalue.slider.description
+- script_api.mojang-minecraft-ui.modalformdata.slider.minimumvalue.description
 
 
 ////
@@ -174,7 +174,7 @@ slider(label: string, minimumValue: float, maximumValue: float, valueStep: float
 //// define
 `maximumValue`：`float`
 
-- script_api.mojang-minecraft-ui.modalformdata.maximumvalue.slider.description
+- script_api.mojang-minecraft-ui.modalformdata.slider.maximumvalue.description
 
 
 ////
@@ -182,7 +182,7 @@ slider(label: string, minimumValue: float, maximumValue: float, valueStep: float
 //// define
 `valueStep`：`float`
 
-- script_api.mojang-minecraft-ui.modalformdata.valuestep.slider.description
+- script_api.mojang-minecraft-ui.modalformdata.slider.valuestep.description
 
 
 ////
@@ -190,7 +190,7 @@ slider(label: string, minimumValue: float, maximumValue: float, valueStep: float
 //// define
 `defaultValue`：`float`|`undefined`
 
-- script_api.mojang-minecraft-ui.modalformdata.defaultvalue.slider.description
+- script_api.mojang-minecraft-ui.modalformdata.slider.defaultvalue.description
 
 
 ////
@@ -222,7 +222,7 @@ textField(label: string, placeholderText: string, defaultValue?: string): ModalF
 //// define
 `label`：`string`
 
-- script_api.mojang-minecraft-ui.modalformdata.label.textfield.description
+- script_api.mojang-minecraft-ui.modalformdata.textfield.label.description
 
 
 ////
@@ -230,7 +230,7 @@ textField(label: string, placeholderText: string, defaultValue?: string): ModalF
 //// define
 `placeholderText`：`string`
 
-- script_api.mojang-minecraft-ui.modalformdata.placeholdertext.textfield.description
+- script_api.mojang-minecraft-ui.modalformdata.textfield.placeholdertext.description
 
 
 ////
@@ -238,7 +238,7 @@ textField(label: string, placeholderText: string, defaultValue?: string): ModalF
 //// define
 `defaultValue`：`string`|`undefined`
 
-- script_api.mojang-minecraft-ui.modalformdata.defaultvalue.textfield.description
+- script_api.mojang-minecraft-ui.modalformdata.textfield.defaultvalue.description
 
 
 ////
@@ -270,7 +270,7 @@ title(titleText: string): ModalFormData
 //// define
 `titleText`：`string`
 
-- script_api.mojang-minecraft-ui.modalformdata.titletext.title.description
+- script_api.mojang-minecraft-ui.modalformdata.title.titletext.description
 
 
 ////
@@ -302,7 +302,7 @@ toggle(label: string, defaultValue?: boolean): ModalFormData
 //// define
 `label`：`string`
 
-- script_api.mojang-minecraft-ui.modalformdata.label.toggle.description
+- script_api.mojang-minecraft-ui.modalformdata.toggle.label.description
 
 
 ////
@@ -310,7 +310,7 @@ toggle(label: string, defaultValue?: boolean): ModalFormData
 //// define
 `defaultValue`：`boolean`|`undefined`
 
-- script_api.mojang-minecraft-ui.modalformdata.defaultvalue.toggle.description
+- script_api.mojang-minecraft-ui.modalformdata.toggle.defaultvalue.description
 
 
 ////

@@ -46,7 +46,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundId`：`string`
 
-- script_api.@minecraft/server.player.soundid.playsound.description
+- script_api.@minecraft/server.player.playsound.soundid.description
 
 
 ////
@@ -54,7 +54,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
 
-- script_api.@minecraft/server.player.soundoptions.playsound.description
+- script_api.@minecraft/server.player.playsound.soundoptions.description
 
 
 ////
@@ -86,7 +86,7 @@ sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.player.message.sendmessage.description
+- script_api.@minecraft/server.player.sendmessage.message.description
 
 
 ////

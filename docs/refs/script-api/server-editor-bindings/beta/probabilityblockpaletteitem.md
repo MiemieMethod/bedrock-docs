@@ -22,7 +22,7 @@ addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 //// define
 `block`：[`BlockPermutation`](../../server/beta/blockpermutation.md)|[`BlockType`](../../server/beta/blocktype.md)|`string`
 
-- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.block.addblock.description
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.addblock.block.description
 
 
 ////
@@ -30,7 +30,7 @@ addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 //// define
 `weight`：`int32`
 
-- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.weight.addblock.description
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.addblock.weight.description
 
 
 ////
@@ -62,7 +62,7 @@ new constructor(displayName?: string): ProbabilityBlockPaletteItem
 //// define
 `displayName`：`string`|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.displayname.constructor.description
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.constructor.displayname.description
 
 
 ////
@@ -94,7 +94,7 @@ removeBlockAt(index: int32): void
 //// define
 `index`：`int32`
 
-- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.index.removeblockat.description
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.removeblockat.index.description
 
 
 ////

@@ -22,7 +22,7 @@ subscribe(callback: (arg: WorldInitializeAfterEvent) => void): (arg: WorldInitia
 //// define
 `callback`：<code>(<a href="../worldinitializeafterevent/">WorldInitializeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.worldinitializeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.worldinitializeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: WorldInitializeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../worldinitializeafterevent/">WorldInitializeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.worldinitializeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.worldinitializeaftereventsignal.unsubscribe.callback.description
 
 
 ////

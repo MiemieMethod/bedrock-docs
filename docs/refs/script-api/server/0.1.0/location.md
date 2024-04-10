@@ -90,7 +90,7 @@ new constructor(x: float, y: float, z: float): Location
 //// define
 `x`：`float`
 
-- script_api.mojang-minecraft.location.x.constructor.description
+- script_api.mojang-minecraft.location.constructor.x.description
 
 
 ////
@@ -98,7 +98,7 @@ new constructor(x: float, y: float, z: float): Location
 //// define
 `y`：`float`
 
-- script_api.mojang-minecraft.location.y.constructor.description
+- script_api.mojang-minecraft.location.constructor.y.description
 
 
 ////
@@ -106,7 +106,7 @@ new constructor(x: float, y: float, z: float): Location
 //// define
 `z`：`float`
 
-- script_api.mojang-minecraft.location.z.constructor.description
+- script_api.mojang-minecraft.location.constructor.z.description
 
 
 ////
@@ -138,7 +138,7 @@ equals(other: Location): boolean
 //// define
 `other`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.location.other.equals.description
+- script_api.mojang-minecraft.location.equals.other.description
 
 
 ////
@@ -170,7 +170,7 @@ isNear(other: Location, epsilon: float): boolean
 //// define
 `other`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.location.other.isnear.description
+- script_api.mojang-minecraft.location.isnear.other.description
 
 
 ////
@@ -178,7 +178,7 @@ isNear(other: Location, epsilon: float): boolean
 //// define
 `epsilon`：`float`
 
-- script_api.mojang-minecraft.location.epsilon.isnear.description
+- script_api.mojang-minecraft.location.isnear.epsilon.description
 
 
 ////

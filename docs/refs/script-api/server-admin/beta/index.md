@@ -26,7 +26,7 @@ static read-only secrets: ServerSecrets;
 //// define
 `secrets`：[`ServerSecrets`](./serversecrets.md)
 
-- script_api.@minecraft/server-admin.propertyoutofboundserror.secrets.description
+- script_api.@minecraft/server-admin.secrets.description
 
 
 ////
@@ -48,7 +48,7 @@ static read-only variables: ServerVariables;
 //// define
 `variables`：[`ServerVariables`](./servervariables.md)
 
-- script_api.@minecraft/server-admin.propertyoutofboundserror.variables.description
+- script_api.@minecraft/server-admin.variables.description
 
 
 ////

@@ -92,7 +92,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- script_api.mojang-minecraft.scoreboardobjective.participant.getscore.description
+- script_api.mojang-minecraft.scoreboardobjective.getscore.participant.description
 
 
 ////

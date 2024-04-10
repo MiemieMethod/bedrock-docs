@@ -22,7 +22,7 @@ get(property: GraphicsSettingsProperty): boolean | int32 | string | undefined
 //// define
 `property`：[`GraphicsSettingsProperty`](./graphicssettingsproperty.md)
 
-- script_api.@minecraft/server-editor-bindings.graphicssettings.property.get.description
+- script_api.@minecraft/server-editor-bindings.graphicssettings.get.property.description
 
 
 ////
@@ -78,7 +78,7 @@ set(property: GraphicsSettingsProperty, value: boolean | int32 | string): void
 //// define
 `property`：[`GraphicsSettingsProperty`](./graphicssettingsproperty.md)
 
-- script_api.@minecraft/server-editor-bindings.graphicssettings.property.set.description
+- script_api.@minecraft/server-editor-bindings.graphicssettings.set.property.description
 
 
 ////
@@ -86,7 +86,7 @@ set(property: GraphicsSettingsProperty, value: boolean | int32 | string): void
 //// define
 `value`：`boolean`|`int32`|`string`
 
-- script_api.@minecraft/server-editor-bindings.graphicssettings.value.set.description
+- script_api.@minecraft/server-editor-bindings.graphicssettings.set.value.description
 
 
 ////
@@ -118,7 +118,7 @@ setAll(properties: Record<string, boolean | int32 | string>): void
 //// define
 `properties`：`Record<string, boolean | int32 | string>`
 
-- script_api.@minecraft/server-editor-bindings.graphicssettings.properties.setall.description
+- script_api.@minecraft/server-editor-bindings.graphicssettings.setall.properties.description
 
 
 ////

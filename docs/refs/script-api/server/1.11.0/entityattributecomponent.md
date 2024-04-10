@@ -184,7 +184,7 @@ setCurrentValue(value: float): boolean
 //// define
 `value`：`float`
 
-- script_api.@minecraft/server.entityattributecomponent.value.setcurrentvalue.description
+- script_api.@minecraft/server.entityattributecomponent.setcurrentvalue.value.description
 
 
 ////

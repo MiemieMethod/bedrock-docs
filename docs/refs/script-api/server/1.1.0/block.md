@@ -156,7 +156,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.permutation.setpermutation.description
+- script_api.@minecraft/server.block.setpermutation.permutation.description
 
 
 ////

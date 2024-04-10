@@ -191,7 +191,7 @@ addRider(rider: Entity): boolean
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- script_api.@minecraft/server.entityrideablecomponent.rider.addrider.description
+- script_api.@minecraft/server.entityrideablecomponent.addrider.rider.description
 
 
 ////
@@ -223,7 +223,7 @@ ejectRider(rider: Entity): void
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- script_api.@minecraft/server.entityrideablecomponent.rider.ejectrider.description
+- script_api.@minecraft/server.entityrideablecomponent.ejectrider.rider.description
 
 
 ////

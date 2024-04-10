@@ -70,7 +70,7 @@ setRecord(recordItemType: ItemType): void
 //// define
 `recordItemType`：[`ItemType`](./itemtype.md)
 
-- script_api.mojang-minecraft.blockrecordplayercomponent.recorditemtype.setrecord.description
+- script_api.mojang-minecraft.blockrecordplayercomponent.setrecord.recorditemtype.description
 
 
 ////

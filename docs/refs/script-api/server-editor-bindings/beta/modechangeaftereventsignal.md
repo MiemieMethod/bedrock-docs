@@ -22,7 +22,7 @@ subscribe(callback: (arg: ModeChangeAfterEvent) => void): (arg: ModeChangeAfterE
 //// define
 `callback`：<code>(<a href="../modechangeafterevent/">ModeChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: ModeChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../modechangeafterevent/">ModeChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server-editor-bindings.modechangeaftereventsignal.unsubscribe.callback.description
 
 
 ////

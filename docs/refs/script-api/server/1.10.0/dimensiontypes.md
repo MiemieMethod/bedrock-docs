@@ -22,7 +22,7 @@ static get(dimensionTypeId: string): DimensionType | undefined
 //// define
 `dimensionTypeId`：`string`
 
-- script_api.@minecraft/server.dimensiontypes.dimensiontypeid.get.description
+- script_api.@minecraft/server.dimensiontypes.get.dimensiontypeid.description
 
 
 ////

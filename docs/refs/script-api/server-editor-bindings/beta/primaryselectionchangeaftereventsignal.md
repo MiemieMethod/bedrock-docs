@@ -22,7 +22,7 @@ subscribe(callback: (arg: SelectionEventAfterEvent) => void): (arg: SelectionEve
 //// define
 `callback`：<code>(<a href="../selectioneventafterevent/">SelectionEventAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: SelectionEventAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../selectioneventafterevent/">SelectionEventAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server-editor-bindings.primaryselectionchangeaftereventsignal.unsubscribe.callback.description
 
 
 ////

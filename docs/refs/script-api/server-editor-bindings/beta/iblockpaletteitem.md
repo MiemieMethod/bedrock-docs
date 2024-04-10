@@ -94,7 +94,7 @@ setBlock(block: BlockPermutation | BlockType | string): void
 //// define
 `block`：[`BlockPermutation`](../../server/beta/blockpermutation.md)|[`BlockType`](../../server/beta/blocktype.md)|`string`
 
-- script_api.@minecraft/server-editor-bindings.iblockpaletteitem.block.setblock.description
+- script_api.@minecraft/server-editor-bindings.iblockpaletteitem.setblock.block.description
 
 
 ////

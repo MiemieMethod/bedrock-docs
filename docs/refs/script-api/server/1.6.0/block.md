@@ -200,7 +200,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.block.componentid.getcomponent.description
+- script_api.@minecraft/server.block.getcomponent.componentid.description
 
 
 ////
@@ -256,7 +256,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.permutation.setpermutation.description
+- script_api.@minecraft/server.block.setpermutation.permutation.description
 
 
 ////

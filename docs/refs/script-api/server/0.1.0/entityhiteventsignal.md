@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityHitEvent) => void, options?: EntityEventOptions)
 //// define
 `callback`：<code>(<a href="../entityhitevent/">EntityHitEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.entityhiteventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.entityhiteventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: EntityHitEvent) => void, options?: EntityEventOptions)
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.entityhiteventsignal.options.subscribe.description
+- script_api.mojang-minecraft.entityhiteventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: EntityHitEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityhitevent/">EntityHitEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.entityhiteventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.entityhiteventsignal.unsubscribe.callback.description
 
 
 ////

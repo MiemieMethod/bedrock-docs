@@ -22,7 +22,7 @@ beginPlaytest(options: PlaytestGameOptions): Promise<PlaytestSessionResult>
 //// define
 `options`：[`PlaytestGameOptions`](./playtestgameoptions.md)
 
-- script_api.@minecraft/server-editor-bindings.playtestmanager.options.beginplaytest.description
+- script_api.@minecraft/server-editor-bindings.playtestmanager.beginplaytest.options.description
 
 
 ////

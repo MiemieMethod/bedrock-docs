@@ -288,7 +288,7 @@ above(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.steps.above.description
+- script_api.@minecraft/server.block.above.steps.description
 
 
 ////
@@ -320,7 +320,7 @@ below(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.steps.below.description
+- script_api.@minecraft/server.block.below.steps.description
 
 
 ////
@@ -376,7 +376,7 @@ canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Di
 //// define
 `blockToPlace`：[`BlockPermutation`](./blockpermutation.md)|[`BlockType`](./blocktype.md)|`string`
 
-- script_api.@minecraft/server.block.blocktoplace.canplace.description
+- script_api.@minecraft/server.block.canplace.blocktoplace.description
 
 
 ////
@@ -384,7 +384,7 @@ canPlace(blockToPlace: BlockPermutation | BlockType | string, faceToPlaceOn?: Di
 //// define
 `faceToPlaceOn`：[`Direction`](./direction.md)|`undefined`
 
-- script_api.@minecraft/server.block.facetoplaceon.canplace.description
+- script_api.@minecraft/server.block.canplace.facetoplaceon.description
 
 
 ////
@@ -440,7 +440,7 @@ east(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.steps.east.description
+- script_api.@minecraft/server.block.east.steps.description
 
 
 ////
@@ -472,7 +472,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.block.componentid.getcomponent.description
+- script_api.@minecraft/server.block.getcomponent.componentid.description
 
 
 ////
@@ -504,7 +504,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.block.amount.getitemstack.description
+- script_api.@minecraft/server.block.getitemstack.amount.description
 
 
 ////
@@ -512,7 +512,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 `withData`：`boolean`
 
-- script_api.@minecraft/server.block.withdata.getitemstack.description
+- script_api.@minecraft/server.block.getitemstack.withdata.description
 
 
 ////
@@ -592,7 +592,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.@minecraft/server.block.tag.hastag.description
+- script_api.@minecraft/server.block.hastag.tag.description
 
 
 ////
@@ -648,7 +648,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `blockName`：`string`
 
-- script_api.@minecraft/server.block.blockname.matches.description
+- script_api.@minecraft/server.block.matches.blockname.description
 
 
 ////
@@ -656,7 +656,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.block.states.matches.description
+- script_api.@minecraft/server.block.matches.states.description
 
 
 ////
@@ -688,7 +688,7 @@ north(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.steps.north.description
+- script_api.@minecraft/server.block.north.steps.description
 
 
 ////
@@ -752,7 +752,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.permutation.setpermutation.description
+- script_api.@minecraft/server.block.setpermutation.permutation.description
 
 
 ////
@@ -784,7 +784,7 @@ setType(blockType: BlockType | string): void
 //// define
 `blockType`：[`BlockType`](./blocktype.md)|`string`
 
-- script_api.@minecraft/server.block.blocktype.settype.description
+- script_api.@minecraft/server.block.settype.blocktype.description
 
 
 ////
@@ -816,7 +816,7 @@ setWaterlogged(isWaterlogged: boolean): void
 //// define
 `isWaterlogged`：`boolean`
 
-- script_api.@minecraft/server.block.iswaterlogged.setwaterlogged.description
+- script_api.@minecraft/server.block.setwaterlogged.iswaterlogged.description
 
 
 ////
@@ -848,7 +848,7 @@ south(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.steps.south.description
+- script_api.@minecraft/server.block.south.steps.description
 
 
 ////
@@ -880,7 +880,7 @@ trySetPermutation(permutation: BlockPermutation): boolean
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.permutation.trysetpermutation.description
+- script_api.@minecraft/server.block.trysetpermutation.permutation.description
 
 
 ////
@@ -912,7 +912,7 @@ west(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.steps.west.description
+- script_api.@minecraft/server.block.west.steps.description
 
 
 ////

@@ -19,7 +19,7 @@
 
 ///
 
-script_api.@minecraft/debug-utilities.propertyoutofboundserror.disablewatchdogtimingwarnings.description
+script_api.@minecraft/debug-utilities.disablewatchdogtimingwarnings.description
 
 ```js
 static disableWatchdogTimingWarnings(disable: boolean): void
@@ -29,7 +29,7 @@ static disableWatchdogTimingWarnings(disable: boolean): void
 //// define
 `disable`：`boolean`
 
-- script_api.@minecraft/debug-utilities.propertyoutofboundserror.disable.disablewatchdogtimingwarnings.description
+- script_api.@minecraft/debug-utilities.disablewatchdogtimingwarnings.disable.description
 
 
 ////
@@ -37,7 +37,7 @@ static disableWatchdogTimingWarnings(disable: boolean): void
 //// define
 返回值：`void`
 
-- script_api.@minecraft/debug-utilities.propertyoutofboundserror.disablewatchdogtimingwarnings.return
+- script_api.@minecraft/debug-utilities.disablewatchdogtimingwarnings.return
 
 
 ////

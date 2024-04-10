@@ -46,7 +46,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- script_api.@minecraft/server.world.dimensionid.getdimension.description
+- script_api.@minecraft/server.world.getdimension.dimensionid.description
 
 
 ////
@@ -78,7 +78,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.world.options.getplayers.description
+- script_api.@minecraft/server.world.getplayers.options.description
 
 
 ////
@@ -110,7 +110,7 @@ sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.world.message.sendmessage.description
+- script_api.@minecraft/server.world.sendmessage.message.description
 
 
 ////

@@ -22,7 +22,7 @@ static get(typeName: string): BiomeType | undefined
 //// define
 `typeName`：`string`
 
-- script_api.@minecraft/server.biometypes.typename.get.description
+- script_api.@minecraft/server.biometypes.get.typename.description
 
 
 ////

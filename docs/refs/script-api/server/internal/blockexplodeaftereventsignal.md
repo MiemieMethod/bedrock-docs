@@ -22,7 +22,7 @@ subscribe(callback: (arg: BlockExplodeAfterEvent) => void): (arg: BlockExplodeAf
 //// define
 `callback`：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.blockexplodeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.blockexplodeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: BlockExplodeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.blockexplodeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.blockexplodeaftereventsignal.unsubscribe.callback.description
 
 
 ////

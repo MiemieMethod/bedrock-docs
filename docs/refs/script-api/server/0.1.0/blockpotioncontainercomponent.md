@@ -22,7 +22,7 @@ setPotionType(item: ItemStack): void
 //// define
 `item`：[`ItemStack`](./itemstack.md)
 
-- script_api.mojang-minecraft.blockpotioncontainercomponent.item.setpotiontype.description
+- script_api.mojang-minecraft.blockpotioncontainercomponent.setpotiontype.item.description
 
 
 ////

@@ -22,7 +22,7 @@ body(bodyText: RawMessage | string): MessageFormData
 //// define
 `bodyText`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.messageformdata.bodytext.body.description
+- script_api.@minecraft/server-ui.messageformdata.body.bodytext.description
 
 
 ////
@@ -54,7 +54,7 @@ button1(text: RawMessage | string): MessageFormData
 //// define
 `text`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.messageformdata.text.button1.description
+- script_api.@minecraft/server-ui.messageformdata.button1.text.description
 
 
 ////
@@ -86,7 +86,7 @@ button2(text: RawMessage | string): MessageFormData
 //// define
 `text`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.messageformdata.text.button2.description
+- script_api.@minecraft/server-ui.messageformdata.button2.text.description
 
 
 ////
@@ -142,7 +142,7 @@ show(player: Player): Promise<MessageFormResponse>
 //// define
 `player`：[`Player`](../../server/1.8.0/player.md)
 
-- script_api.@minecraft/server-ui.messageformdata.player.show.description
+- script_api.@minecraft/server-ui.messageformdata.show.player.description
 
 
 ////
@@ -174,7 +174,7 @@ title(titleText: RawMessage | string): MessageFormData
 //// define
 `titleText`：[`RawMessage`](../../server/1.8.0/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.messageformdata.titletext.title.description
+- script_api.@minecraft/server-ui.messageformdata.title.titletext.description
 
 
 ////

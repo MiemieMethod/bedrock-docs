@@ -68,7 +68,7 @@ static get(typeName: string): BlockType | undefined
 //// define
 `typeName`：`string`
 
-- script_api.mojang-minecraft.minecraftblocktypes.typename.get.description
+- script_api.mojang-minecraft.minecraftblocktypes.get.typename.description
 
 
 ////

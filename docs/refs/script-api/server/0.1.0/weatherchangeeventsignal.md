@@ -22,7 +22,7 @@ subscribe(callback: (arg: WeatherChangeEvent) => void): (arg: WeatherChangeEvent
 //// define
 `callback`：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.weatherchangeeventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.weatherchangeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: WeatherChangeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../weatherchangeevent/">WeatherChangeEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.weatherchangeeventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.weatherchangeeventsignal.unsubscribe.callback.description
 
 
 ////

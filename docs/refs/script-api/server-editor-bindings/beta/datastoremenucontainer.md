@@ -22,7 +22,7 @@ createItem(id: string, payload: string): void
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.createitem.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.createitem.id.description
 
 
 ////
@@ -30,7 +30,7 @@ createItem(id: string, payload: string): void
 //// define
 `payload`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.payload.createitem.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.createitem.payload.description
 
 
 ////
@@ -62,7 +62,7 @@ destroyItem(id: string): void
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.destroyitem.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.destroyitem.id.description
 
 
 ////
@@ -94,7 +94,7 @@ getPayload(id: string): string
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.getpayload.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.getpayload.id.description
 
 
 ////
@@ -126,7 +126,7 @@ getProperty(id: string, property: string): boolean | float | string | undefined
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.getproperty.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.getproperty.id.description
 
 
 ////
@@ -134,7 +134,7 @@ getProperty(id: string, property: string): boolean | float | string | undefined
 //// define
 `property`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.property.getproperty.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.getproperty.property.description
 
 
 ////
@@ -166,7 +166,7 @@ hasPayload(id: string): boolean
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.haspayload.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.haspayload.id.description
 
 
 ////
@@ -198,7 +198,7 @@ hasProperty(id: string, property: string): boolean
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.hasproperty.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.hasproperty.id.description
 
 
 ////
@@ -206,7 +206,7 @@ hasProperty(id: string, property: string): boolean
 //// define
 `property`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.property.hasproperty.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.hasproperty.property.description
 
 
 ////
@@ -238,7 +238,7 @@ updateItem(id: string, payload: string): void
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.id.updateitem.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.updateitem.id.description
 
 
 ////
@@ -246,7 +246,7 @@ updateItem(id: string, payload: string): void
 //// define
 `payload`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.payload.updateitem.description
+- script_api.@minecraft/server-editor-bindings.datastoremenucontainer.updateitem.payload.description
 
 
 ////

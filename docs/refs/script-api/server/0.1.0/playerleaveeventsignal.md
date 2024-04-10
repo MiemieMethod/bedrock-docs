@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerLeaveEvent) => void): (arg: PlayerLeaveEvent) =>
 //// define
 `callback`：<code>(<a href="../playerleaveevent/">PlayerLeaveEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.playerleaveeventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.playerleaveeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerLeaveEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerleaveevent/">PlayerLeaveEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.playerleaveeventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.playerleaveeventsignal.unsubscribe.callback.description
 
 
 ////

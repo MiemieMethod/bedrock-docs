@@ -112,7 +112,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 //// define
 `itemType`：[`ItemType`](./itemtype.md)|`string`
 
-- script_api.mojang-minecraft.itemstack.itemtype.constructor.description
+- script_api.mojang-minecraft.itemstack.constructor.itemtype.description
 
 
 ////
@@ -120,7 +120,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 //// define
 `amount`：`int32`
 
-- script_api.mojang-minecraft.itemstack.amount.constructor.description
+- script_api.mojang-minecraft.itemstack.constructor.amount.description
 
 
 ////
@@ -128,7 +128,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 //// define
 `data`：`int32`
 
-- script_api.mojang-minecraft.itemstack.data.constructor.description
+- script_api.mojang-minecraft.itemstack.constructor.data.description
 
 
 ////
@@ -160,7 +160,7 @@ getComponent(componentId: string): ItemComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.mojang-minecraft.itemstack.componentid.getcomponent.description
+- script_api.mojang-minecraft.itemstack.getcomponent.componentid.description
 
 
 ////
@@ -240,7 +240,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- script_api.mojang-minecraft.itemstack.componentid.hascomponent.description
+- script_api.mojang-minecraft.itemstack.hascomponent.componentid.description
 
 
 ////
@@ -272,7 +272,7 @@ setLore(loreList?: string[]): void
 //// define
 `loreList`：`string[]`|`undefined`
 
-- script_api.mojang-minecraft.itemstack.lorelist.setlore.description
+- script_api.mojang-minecraft.itemstack.setlore.lorelist.description
 
 
 ////

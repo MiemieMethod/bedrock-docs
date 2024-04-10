@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityHitBlockAfterEvent) => void, options?: EntityEve
 //// define
 `callback`：<code>(<a href="../entityhitblockafterevent/">EntityHitBlockAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityhitblockaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.entityhitblockaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: EntityHitBlockAfterEvent) => void, options?: EntityEve
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entityhitblockaftereventsignal.options.subscribe.description
+- script_api.@minecraft/server.entityhitblockaftereventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: EntityHitBlockAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityhitblockafterevent/">EntityHitBlockAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityhitblockaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.entityhitblockaftereventsignal.unsubscribe.callback.description
 
 
 ////

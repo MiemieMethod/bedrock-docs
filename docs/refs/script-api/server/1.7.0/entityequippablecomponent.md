@@ -35,7 +35,7 @@ getEquipment(equipmentSlot: EquipmentSlot): ItemStack | undefined
 //// define
 `equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
 
-- script_api.@minecraft/server.entityequippablecomponent.equipmentslot.getequipment.description
+- script_api.@minecraft/server.entityequippablecomponent.getequipment.equipmentslot.description
 
 
 ////
@@ -67,7 +67,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 //// define
 `equipmentSlot`：[`EquipmentSlot`](./equipmentslot.md)
 
-- script_api.@minecraft/server.entityequippablecomponent.equipmentslot.setequipment.description
+- script_api.@minecraft/server.entityequippablecomponent.setequipment.equipmentslot.description
 
 
 ////
@@ -75,7 +75,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- script_api.@minecraft/server.entityequippablecomponent.itemstack.setequipment.description
+- script_api.@minecraft/server.entityequippablecomponent.setequipment.itemstack.description
 
 
 ////

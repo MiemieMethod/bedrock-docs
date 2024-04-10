@@ -46,7 +46,7 @@ new constructor(eventName: string): Trigger
 //// define
 `eventName`：`string`
 
-- script_api.@minecraft/server.trigger.eventname.constructor.description
+- script_api.@minecraft/server.trigger.constructor.eventname.description
 
 
 ////

@@ -22,7 +22,7 @@ registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent):
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server.itemcomponentregistry.name.registercustomcomponent.description
+- script_api.@minecraft/server.itemcomponentregistry.registercustomcomponent.name.description
 
 
 ////
@@ -30,7 +30,7 @@ registerCustomComponent(name: string, itemCustomComponent: ItemCustomComponent):
 //// define
 `itemCustomComponent`：[`ItemCustomComponent`](./itemcustomcomponent.md)
 
-- script_api.@minecraft/server.itemcomponentregistry.itemcustomcomponent.registercustomcomponent.description
+- script_api.@minecraft/server.itemcomponentregistry.registercustomcomponent.itemcustomcomponent.description
 
 
 ////

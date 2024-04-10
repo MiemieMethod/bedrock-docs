@@ -22,7 +22,7 @@ assert(condition: boolean, message: string): void
 //// define
 `condition`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.condition.assert.description
+- script_api.@minecraft/server-gametest.test.assert.condition.description
 
 
 ////
@@ -30,7 +30,7 @@ assert(condition: boolean, message: string): void
 //// define
 `message`：`string`
 
-- script_api.@minecraft/server-gametest.test.message.assert.description
+- script_api.@minecraft/server-gametest.test.assert.message.description
 
 
 ////
@@ -62,7 +62,7 @@ assertBlockPresent(blockType: BlockType | string, blockLocation: Vector3, isPres
 //// define
 `blockType`：[`BlockType`](../../server/1.8.0/blocktype.md)|`string`
 
-- script_api.@minecraft/server-gametest.test.blocktype.assertblockpresent.description
+- script_api.@minecraft/server-gametest.test.assertblockpresent.blocktype.description
 
 
 ////
@@ -70,7 +70,7 @@ assertBlockPresent(blockType: BlockType | string, blockLocation: Vector3, isPres
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertblockpresent.description
+- script_api.@minecraft/server-gametest.test.assertblockpresent.blocklocation.description
 
 
 ////
@@ -78,7 +78,7 @@ assertBlockPresent(blockType: BlockType | string, blockLocation: Vector3, isPres
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.assertblockpresent.description
+- script_api.@minecraft/server-gametest.test.assertblockpresent.ispresent.description
 
 
 ////
@@ -110,7 +110,7 @@ assertBlockState(blockLocation: Vector3, callback: (arg: Block) => boolean): voi
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertblockstate.description
+- script_api.@minecraft/server-gametest.test.assertblockstate.blocklocation.description
 
 
 ////
@@ -118,7 +118,7 @@ assertBlockState(blockLocation: Vector3, callback: (arg: Block) => boolean): voi
 //// define
 `callback`：<code>(<a href="../../../server/1.8.0/block/">Block</a>) =&gt; boolean</code>
 
-- script_api.@minecraft/server-gametest.test.callback.assertblockstate.description
+- script_api.@minecraft/server-gametest.test.assertblockstate.callback.description
 
 
 ////
@@ -150,7 +150,7 @@ assertCanReachLocation(mob: Entity, blockLocation: Vector3, canReach: boolean): 
 //// define
 `mob`：[`Entity`](../../server/1.8.0/entity.md)
 
-- script_api.@minecraft/server-gametest.test.mob.assertcanreachlocation.description
+- script_api.@minecraft/server-gametest.test.assertcanreachlocation.mob.description
 
 
 ////
@@ -158,7 +158,7 @@ assertCanReachLocation(mob: Entity, blockLocation: Vector3, canReach: boolean): 
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertcanreachlocation.description
+- script_api.@minecraft/server-gametest.test.assertcanreachlocation.blocklocation.description
 
 
 ////
@@ -166,7 +166,7 @@ assertCanReachLocation(mob: Entity, blockLocation: Vector3, canReach: boolean): 
 //// define
 `canReach`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.canreach.assertcanreachlocation.description
+- script_api.@minecraft/server-gametest.test.assertcanreachlocation.canreach.description
 
 
 ////
@@ -198,7 +198,7 @@ assertContainerContains(itemStack: ItemStack, blockLocation: Vector3): void
 //// define
 `itemStack`：[`ItemStack`](../../server/1.8.0/itemstack.md)
 
-- script_api.@minecraft/server-gametest.test.itemstack.assertcontainercontains.description
+- script_api.@minecraft/server-gametest.test.assertcontainercontains.itemstack.description
 
 
 ////
@@ -206,7 +206,7 @@ assertContainerContains(itemStack: ItemStack, blockLocation: Vector3): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertcontainercontains.description
+- script_api.@minecraft/server-gametest.test.assertcontainercontains.blocklocation.description
 
 
 ////
@@ -238,7 +238,7 @@ assertContainerEmpty(blockLocation: Vector3): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertcontainerempty.description
+- script_api.@minecraft/server-gametest.test.assertcontainerempty.blocklocation.description
 
 
 ////
@@ -270,7 +270,7 @@ assertEntityHasArmor(entityTypeIdentifier: string, armorSlot: int32, armorName: 
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.assertentityhasarmor.description
+- script_api.@minecraft/server-gametest.test.assertentityhasarmor.entitytypeidentifier.description
 
 
 ////
@@ -278,7 +278,7 @@ assertEntityHasArmor(entityTypeIdentifier: string, armorSlot: int32, armorName: 
 //// define
 `armorSlot`：`int32`
 
-- script_api.@minecraft/server-gametest.test.armorslot.assertentityhasarmor.description
+- script_api.@minecraft/server-gametest.test.assertentityhasarmor.armorslot.description
 
 
 ////
@@ -286,7 +286,7 @@ assertEntityHasArmor(entityTypeIdentifier: string, armorSlot: int32, armorName: 
 //// define
 `armorName`：`string`
 
-- script_api.@minecraft/server-gametest.test.armorname.assertentityhasarmor.description
+- script_api.@minecraft/server-gametest.test.assertentityhasarmor.armorname.description
 
 
 ////
@@ -294,7 +294,7 @@ assertEntityHasArmor(entityTypeIdentifier: string, armorSlot: int32, armorName: 
 //// define
 `armorData`：`int32`
 
-- script_api.@minecraft/server-gametest.test.armordata.assertentityhasarmor.description
+- script_api.@minecraft/server-gametest.test.assertentityhasarmor.armordata.description
 
 
 ////
@@ -302,7 +302,7 @@ assertEntityHasArmor(entityTypeIdentifier: string, armorSlot: int32, armorName: 
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertentityhasarmor.description
+- script_api.@minecraft/server-gametest.test.assertentityhasarmor.blocklocation.description
 
 
 ////
@@ -310,7 +310,7 @@ assertEntityHasArmor(entityTypeIdentifier: string, armorSlot: int32, armorName: 
 //// define
 `hasArmor`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.hasarmor.assertentityhasarmor.description
+- script_api.@minecraft/server-gametest.test.assertentityhasarmor.hasarmor.description
 
 
 ////
@@ -342,7 +342,7 @@ assertEntityHasComponent(entityTypeIdentifier: string, componentIdentifier: stri
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.assertentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.assertentityhascomponent.entitytypeidentifier.description
 
 
 ////
@@ -350,7 +350,7 @@ assertEntityHasComponent(entityTypeIdentifier: string, componentIdentifier: stri
 //// define
 `componentIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.componentidentifier.assertentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.assertentityhascomponent.componentidentifier.description
 
 
 ////
@@ -358,7 +358,7 @@ assertEntityHasComponent(entityTypeIdentifier: string, componentIdentifier: stri
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.assertentityhascomponent.blocklocation.description
 
 
 ////
@@ -366,7 +366,7 @@ assertEntityHasComponent(entityTypeIdentifier: string, componentIdentifier: stri
 //// define
 `hasComponent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.hascomponent.assertentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.assertentityhascomponent.hascomponent.description
 
 
 ////
@@ -398,7 +398,7 @@ assertEntityInstancePresent(entity: Entity, blockLocation: Vector3, isPresent: b
 //// define
 `entity`：[`Entity`](../../server/1.8.0/entity.md)
 
-- script_api.@minecraft/server-gametest.test.entity.assertentityinstancepresent.description
+- script_api.@minecraft/server-gametest.test.assertentityinstancepresent.entity.description
 
 
 ////
@@ -406,7 +406,7 @@ assertEntityInstancePresent(entity: Entity, blockLocation: Vector3, isPresent: b
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertentityinstancepresent.description
+- script_api.@minecraft/server-gametest.test.assertentityinstancepresent.blocklocation.description
 
 
 ////
@@ -414,7 +414,7 @@ assertEntityInstancePresent(entity: Entity, blockLocation: Vector3, isPresent: b
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.assertentityinstancepresent.description
+- script_api.@minecraft/server-gametest.test.assertentityinstancepresent.ispresent.description
 
 
 ////
@@ -446,7 +446,7 @@ assertEntityInstancePresentInArea(entity: Entity, isPresent: boolean): void
 //// define
 `entity`：[`Entity`](../../server/1.8.0/entity.md)
 
-- script_api.@minecraft/server-gametest.test.entity.assertentityinstancepresentinarea.description
+- script_api.@minecraft/server-gametest.test.assertentityinstancepresentinarea.entity.description
 
 
 ////
@@ -454,7 +454,7 @@ assertEntityInstancePresentInArea(entity: Entity, isPresent: boolean): void
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.assertentityinstancepresentinarea.description
+- script_api.@minecraft/server-gametest.test.assertentityinstancepresentinarea.ispresent.description
 
 
 ////
@@ -486,7 +486,7 @@ assertEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, search
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.assertentitypresent.description
+- script_api.@minecraft/server-gametest.test.assertentitypresent.entitytypeidentifier.description
 
 
 ////
@@ -494,7 +494,7 @@ assertEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, search
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertentitypresent.description
+- script_api.@minecraft/server-gametest.test.assertentitypresent.blocklocation.description
 
 
 ////
@@ -502,7 +502,7 @@ assertEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, search
 //// define
 `searchDistance`：`float`
 
-- script_api.@minecraft/server-gametest.test.searchdistance.assertentitypresent.description
+- script_api.@minecraft/server-gametest.test.assertentitypresent.searchdistance.description
 
 
 ////
@@ -510,7 +510,7 @@ assertEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, search
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.assertentitypresent.description
+- script_api.@minecraft/server-gametest.test.assertentitypresent.ispresent.description
 
 
 ////
@@ -542,7 +542,7 @@ assertEntityPresentInArea(entityTypeIdentifier: string, isPresent: boolean): voi
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.assertentitypresentinarea.description
+- script_api.@minecraft/server-gametest.test.assertentitypresentinarea.entitytypeidentifier.description
 
 
 ////
@@ -550,7 +550,7 @@ assertEntityPresentInArea(entityTypeIdentifier: string, isPresent: boolean): voi
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.assertentitypresentinarea.description
+- script_api.@minecraft/server-gametest.test.assertentitypresentinarea.ispresent.description
 
 
 ////
@@ -582,7 +582,7 @@ assertEntityState(blockLocation: Vector3, entityTypeIdentifier: string, callback
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertentitystate.description
+- script_api.@minecraft/server-gametest.test.assertentitystate.blocklocation.description
 
 
 ////
@@ -590,7 +590,7 @@ assertEntityState(blockLocation: Vector3, entityTypeIdentifier: string, callback
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.assertentitystate.description
+- script_api.@minecraft/server-gametest.test.assertentitystate.entitytypeidentifier.description
 
 
 ////
@@ -598,7 +598,7 @@ assertEntityState(blockLocation: Vector3, entityTypeIdentifier: string, callback
 //// define
 `callback`：<code>(<a href="../../../server/1.8.0/entity/">Entity</a>) =&gt; boolean</code>
 
-- script_api.@minecraft/server-gametest.test.callback.assertentitystate.description
+- script_api.@minecraft/server-gametest.test.assertentitystate.callback.description
 
 
 ////
@@ -630,7 +630,7 @@ assertEntityTouching(entityTypeIdentifier: string, location: Vector3, isTouching
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.assertentitytouching.description
+- script_api.@minecraft/server-gametest.test.assertentitytouching.entitytypeidentifier.description
 
 
 ////
@@ -638,7 +638,7 @@ assertEntityTouching(entityTypeIdentifier: string, location: Vector3, isTouching
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.location.assertentitytouching.description
+- script_api.@minecraft/server-gametest.test.assertentitytouching.location.description
 
 
 ////
@@ -646,7 +646,7 @@ assertEntityTouching(entityTypeIdentifier: string, location: Vector3, isTouching
 //// define
 `isTouching`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.istouching.assertentitytouching.description
+- script_api.@minecraft/server-gametest.test.assertentitytouching.istouching.description
 
 
 ////
@@ -678,7 +678,7 @@ assertIsWaterlogged(blockLocation: Vector3, isWaterlogged: boolean): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertiswaterlogged.description
+- script_api.@minecraft/server-gametest.test.assertiswaterlogged.blocklocation.description
 
 
 ////
@@ -686,7 +686,7 @@ assertIsWaterlogged(blockLocation: Vector3, isWaterlogged: boolean): void
 //// define
 `isWaterlogged`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.iswaterlogged.assertiswaterlogged.description
+- script_api.@minecraft/server-gametest.test.assertiswaterlogged.iswaterlogged.description
 
 
 ////
@@ -718,7 +718,7 @@ assertItemEntityCountIs(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `itemType`：[`ItemType`](../../server/1.8.0/itemtype.md)|`string`
 
-- script_api.@minecraft/server-gametest.test.itemtype.assertitementitycountis.description
+- script_api.@minecraft/server-gametest.test.assertitementitycountis.itemtype.description
 
 
 ////
@@ -726,7 +726,7 @@ assertItemEntityCountIs(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertitementitycountis.description
+- script_api.@minecraft/server-gametest.test.assertitementitycountis.blocklocation.description
 
 
 ////
@@ -734,7 +734,7 @@ assertItemEntityCountIs(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `searchDistance`：`float`
 
-- script_api.@minecraft/server-gametest.test.searchdistance.assertitementitycountis.description
+- script_api.@minecraft/server-gametest.test.assertitementitycountis.searchdistance.description
 
 
 ////
@@ -742,7 +742,7 @@ assertItemEntityCountIs(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `count`：`int32`
 
-- script_api.@minecraft/server-gametest.test.count.assertitementitycountis.description
+- script_api.@minecraft/server-gametest.test.assertitementitycountis.count.description
 
 
 ////
@@ -774,7 +774,7 @@ assertItemEntityPresent(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `itemType`：[`ItemType`](../../server/1.8.0/itemtype.md)|`string`
 
-- script_api.@minecraft/server-gametest.test.itemtype.assertitementitypresent.description
+- script_api.@minecraft/server-gametest.test.assertitementitypresent.itemtype.description
 
 
 ////
@@ -782,7 +782,7 @@ assertItemEntityPresent(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertitementitypresent.description
+- script_api.@minecraft/server-gametest.test.assertitementitypresent.blocklocation.description
 
 
 ////
@@ -790,7 +790,7 @@ assertItemEntityPresent(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `searchDistance`：`float`
 
-- script_api.@minecraft/server-gametest.test.searchdistance.assertitementitypresent.description
+- script_api.@minecraft/server-gametest.test.assertitementitypresent.searchdistance.description
 
 
 ////
@@ -798,7 +798,7 @@ assertItemEntityPresent(itemType: ItemType | string, blockLocation: Vector3, sea
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.assertitementitypresent.description
+- script_api.@minecraft/server-gametest.test.assertitementitypresent.ispresent.description
 
 
 ////
@@ -830,7 +830,7 @@ assertRedstonePower(blockLocation: Vector3, power: int32): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.assertredstonepower.description
+- script_api.@minecraft/server-gametest.test.assertredstonepower.blocklocation.description
 
 
 ////
@@ -838,7 +838,7 @@ assertRedstonePower(blockLocation: Vector3, power: int32): void
 //// define
 `power`：`int32`
 
-- script_api.@minecraft/server-gametest.test.power.assertredstonepower.description
+- script_api.@minecraft/server-gametest.test.assertredstonepower.power.description
 
 
 ////
@@ -870,7 +870,7 @@ destroyBlock(blockLocation: Vector3, dropResources: boolean): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.destroyblock.description
+- script_api.@minecraft/server-gametest.test.destroyblock.blocklocation.description
 
 
 ////
@@ -878,7 +878,7 @@ destroyBlock(blockLocation: Vector3, dropResources: boolean): void
 //// define
 `dropResources`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.dropresources.destroyblock.description
+- script_api.@minecraft/server-gametest.test.destroyblock.dropresources.description
 
 
 ////
@@ -910,7 +910,7 @@ fail(errorMessage: string): void
 //// define
 `errorMessage`：`string`
 
-- script_api.@minecraft/server-gametest.test.errormessage.fail.description
+- script_api.@minecraft/server-gametest.test.fail.errormessage.description
 
 
 ////
@@ -942,7 +942,7 @@ failIf(callback: () => void): void
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.test.callback.failif.description
+- script_api.@minecraft/server-gametest.test.failif.callback.description
 
 
 ////
@@ -974,7 +974,7 @@ getBlock(blockLocation: Vector3): Block
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.getblock.description
+- script_api.@minecraft/server-gametest.test.getblock.blocklocation.description
 
 
 ////
@@ -1030,7 +1030,7 @@ getFenceConnectivity(blockLocation: Vector3): FenceConnectivity
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.getfenceconnectivity.description
+- script_api.@minecraft/server-gametest.test.getfenceconnectivity.blocklocation.description
 
 
 ////
@@ -1062,7 +1062,7 @@ getSculkSpreader(blockLocation: Vector3): SculkSpreader | undefined
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.getsculkspreader.description
+- script_api.@minecraft/server-gametest.test.getsculkspreader.blocklocation.description
 
 
 ////
@@ -1118,7 +1118,7 @@ idle(tickDelay: int32): Promise<void>
 //// define
 `tickDelay`：`int32`
 
-- script_api.@minecraft/server-gametest.test.tickdelay.idle.description
+- script_api.@minecraft/server-gametest.test.idle.tickdelay.description
 
 
 ////
@@ -1174,7 +1174,7 @@ onPlayerJump(mob: Entity, jumpAmount: int32): void
 //// define
 `mob`：[`Entity`](../../server/1.8.0/entity.md)
 
-- script_api.@minecraft/server-gametest.test.mob.onplayerjump.description
+- script_api.@minecraft/server-gametest.test.onplayerjump.mob.description
 
 
 ////
@@ -1182,7 +1182,7 @@ onPlayerJump(mob: Entity, jumpAmount: int32): void
 //// define
 `jumpAmount`：`int32`
 
-- script_api.@minecraft/server-gametest.test.jumpamount.onplayerjump.description
+- script_api.@minecraft/server-gametest.test.onplayerjump.jumpamount.description
 
 
 ////
@@ -1214,7 +1214,7 @@ pressButton(blockLocation: Vector3): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.pressbutton.description
+- script_api.@minecraft/server-gametest.test.pressbutton.blocklocation.description
 
 
 ////
@@ -1246,7 +1246,7 @@ print(text: string): void
 //// define
 `text`：`string`
 
-- script_api.@minecraft/server-gametest.test.text.print.description
+- script_api.@minecraft/server-gametest.test.print.text.description
 
 
 ////
@@ -1278,7 +1278,7 @@ pullLever(blockLocation: Vector3): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.pulllever.description
+- script_api.@minecraft/server-gametest.test.pulllever.blocklocation.description
 
 
 ////
@@ -1310,7 +1310,7 @@ pulseRedstone(blockLocation: Vector3, duration: int32): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.pulseredstone.description
+- script_api.@minecraft/server-gametest.test.pulseredstone.blocklocation.description
 
 
 ////
@@ -1318,7 +1318,7 @@ pulseRedstone(blockLocation: Vector3, duration: int32): void
 //// define
 `duration`：`int32`
 
-- script_api.@minecraft/server-gametest.test.duration.pulseredstone.description
+- script_api.@minecraft/server-gametest.test.pulseredstone.duration.description
 
 
 ////
@@ -1350,7 +1350,7 @@ relativeBlockLocation(worldBlockLocation: Vector3): Vector3
 //// define
 `worldBlockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.worldblocklocation.relativeblocklocation.description
+- script_api.@minecraft/server-gametest.test.relativeblocklocation.worldblocklocation.description
 
 
 ////
@@ -1382,7 +1382,7 @@ relativeLocation(worldLocation: Vector3): Vector3
 //// define
 `worldLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.worldlocation.relativelocation.description
+- script_api.@minecraft/server-gametest.test.relativelocation.worldlocation.description
 
 
 ////
@@ -1414,7 +1414,7 @@ removeSimulatedPlayer(simulatedPlayer: SimulatedPlayer): void
 //// define
 `simulatedPlayer`：[`SimulatedPlayer`](./simulatedplayer.md)
 
-- script_api.@minecraft/server-gametest.test.simulatedplayer.removesimulatedplayer.description
+- script_api.@minecraft/server-gametest.test.removesimulatedplayer.simulatedplayer.description
 
 
 ////
@@ -1446,7 +1446,7 @@ rotateDirection(direction: Direction): Direction
 //// define
 `direction`：[`Direction`](../../server/1.8.0/direction.md)
 
-- script_api.@minecraft/server-gametest.test.direction.rotatedirection.description
+- script_api.@minecraft/server-gametest.test.rotatedirection.direction.description
 
 
 ////
@@ -1478,7 +1478,7 @@ rotateVector(vector: Vector3): Vector3
 //// define
 `vector`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.vector.rotatevector.description
+- script_api.@minecraft/server-gametest.test.rotatevector.vector.description
 
 
 ////
@@ -1510,7 +1510,7 @@ runAfterDelay(delayTicks: int32, callback: () => void): void
 //// define
 `delayTicks`：`int32`
 
-- script_api.@minecraft/server-gametest.test.delayticks.runafterdelay.description
+- script_api.@minecraft/server-gametest.test.runafterdelay.delayticks.description
 
 
 ////
@@ -1518,7 +1518,7 @@ runAfterDelay(delayTicks: int32, callback: () => void): void
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.test.callback.runafterdelay.description
+- script_api.@minecraft/server-gametest.test.runafterdelay.callback.description
 
 
 ////
@@ -1550,7 +1550,7 @@ runAtTickTime(tick: int32, callback: () => void): void
 //// define
 `tick`：`int32`
 
-- script_api.@minecraft/server-gametest.test.tick.runatticktime.description
+- script_api.@minecraft/server-gametest.test.runatticktime.tick.description
 
 
 ////
@@ -1558,7 +1558,7 @@ runAtTickTime(tick: int32, callback: () => void): void
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.test.callback.runatticktime.description
+- script_api.@minecraft/server-gametest.test.runatticktime.callback.description
 
 
 ////
@@ -1590,7 +1590,7 @@ setBlockPermutation(blockData: BlockPermutation, blockLocation: Vector3): void
 //// define
 `blockData`：[`BlockPermutation`](../../server/1.8.0/blockpermutation.md)
 
-- script_api.@minecraft/server-gametest.test.blockdata.setblockpermutation.description
+- script_api.@minecraft/server-gametest.test.setblockpermutation.blockdata.description
 
 
 ////
@@ -1598,7 +1598,7 @@ setBlockPermutation(blockData: BlockPermutation, blockLocation: Vector3): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.setblockpermutation.description
+- script_api.@minecraft/server-gametest.test.setblockpermutation.blocklocation.description
 
 
 ////
@@ -1630,7 +1630,7 @@ setBlockType(blockType: BlockType | string, blockLocation: Vector3): void
 //// define
 `blockType`：[`BlockType`](../../server/1.8.0/blocktype.md)|`string`
 
-- script_api.@minecraft/server-gametest.test.blocktype.setblocktype.description
+- script_api.@minecraft/server-gametest.test.setblocktype.blocktype.description
 
 
 ////
@@ -1638,7 +1638,7 @@ setBlockType(blockType: BlockType | string, blockLocation: Vector3): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.setblocktype.description
+- script_api.@minecraft/server-gametest.test.setblocktype.blocklocation.description
 
 
 ////
@@ -1670,7 +1670,7 @@ setFluidContainer(location: Vector3, type: FluidType): void
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.location.setfluidcontainer.description
+- script_api.@minecraft/server-gametest.test.setfluidcontainer.location.description
 
 
 ////
@@ -1678,7 +1678,7 @@ setFluidContainer(location: Vector3, type: FluidType): void
 //// define
 `type`：[`FluidType`](../../server/1.8.0/fluidtype.md)
 
-- script_api.@minecraft/server-gametest.test.type.setfluidcontainer.description
+- script_api.@minecraft/server-gametest.test.setfluidcontainer.type.description
 
 
 ////
@@ -1710,7 +1710,7 @@ setTntFuse(entity: Entity, fuseLength: int32): void
 //// define
 `entity`：[`Entity`](../../server/1.8.0/entity.md)
 
-- script_api.@minecraft/server-gametest.test.entity.settntfuse.description
+- script_api.@minecraft/server-gametest.test.settntfuse.entity.description
 
 
 ////
@@ -1718,7 +1718,7 @@ setTntFuse(entity: Entity, fuseLength: int32): void
 //// define
 `fuseLength`：`int32`
 
-- script_api.@minecraft/server-gametest.test.fuselength.settntfuse.description
+- script_api.@minecraft/server-gametest.test.settntfuse.fuselength.description
 
 
 ////
@@ -1750,7 +1750,7 @@ spawn(entityTypeIdentifier: string, blockLocation: Vector3): Entity
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.spawn.description
+- script_api.@minecraft/server-gametest.test.spawn.entitytypeidentifier.description
 
 
 ////
@@ -1758,7 +1758,7 @@ spawn(entityTypeIdentifier: string, blockLocation: Vector3): Entity
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.spawn.description
+- script_api.@minecraft/server-gametest.test.spawn.blocklocation.description
 
 
 ////
@@ -1790,7 +1790,7 @@ spawnAtLocation(entityTypeIdentifier: string, location: Vector3): Entity
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.spawnatlocation.description
+- script_api.@minecraft/server-gametest.test.spawnatlocation.entitytypeidentifier.description
 
 
 ////
@@ -1798,7 +1798,7 @@ spawnAtLocation(entityTypeIdentifier: string, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.location.spawnatlocation.description
+- script_api.@minecraft/server-gametest.test.spawnatlocation.location.description
 
 
 ////
@@ -1830,7 +1830,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `itemStack`：[`ItemStack`](../../server/1.8.0/itemstack.md)
 
-- script_api.@minecraft/server-gametest.test.itemstack.spawnitem.description
+- script_api.@minecraft/server-gametest.test.spawnitem.itemstack.description
 
 
 ////
@@ -1838,7 +1838,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.location.spawnitem.description
+- script_api.@minecraft/server-gametest.test.spawnitem.location.description
 
 
 ////
@@ -1870,7 +1870,7 @@ spawnSimulatedPlayer(blockLocation: Vector3, name: string, gameMode: GameMode): 
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.spawnsimulatedplayer.description
+- script_api.@minecraft/server-gametest.test.spawnsimulatedplayer.blocklocation.description
 
 
 ////
@@ -1878,7 +1878,7 @@ spawnSimulatedPlayer(blockLocation: Vector3, name: string, gameMode: GameMode): 
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server-gametest.test.name.spawnsimulatedplayer.description
+- script_api.@minecraft/server-gametest.test.spawnsimulatedplayer.name.description
 
 
 ////
@@ -1886,7 +1886,7 @@ spawnSimulatedPlayer(blockLocation: Vector3, name: string, gameMode: GameMode): 
 //// define
 `gameMode`：[`GameMode`](../../server/1.8.0/gamemode.md)
 
-- script_api.@minecraft/server-gametest.test.gamemode.spawnsimulatedplayer.description
+- script_api.@minecraft/server-gametest.test.spawnsimulatedplayer.gamemode.description
 
 
 ////
@@ -1918,7 +1918,7 @@ spawnWithoutBehaviors(entityTypeIdentifier: string, blockLocation: Vector3): Ent
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.spawnwithoutbehaviors.description
+- script_api.@minecraft/server-gametest.test.spawnwithoutbehaviors.entitytypeidentifier.description
 
 
 ////
@@ -1926,7 +1926,7 @@ spawnWithoutBehaviors(entityTypeIdentifier: string, blockLocation: Vector3): Ent
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.spawnwithoutbehaviors.description
+- script_api.@minecraft/server-gametest.test.spawnwithoutbehaviors.blocklocation.description
 
 
 ////
@@ -1958,7 +1958,7 @@ spawnWithoutBehaviorsAtLocation(entityTypeIdentifier: string, location: Vector3)
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.spawnwithoutbehaviorsatlocation.description
+- script_api.@minecraft/server-gametest.test.spawnwithoutbehaviorsatlocation.entitytypeidentifier.description
 
 
 ////
@@ -1966,7 +1966,7 @@ spawnWithoutBehaviorsAtLocation(entityTypeIdentifier: string, location: Vector3)
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.location.spawnwithoutbehaviorsatlocation.description
+- script_api.@minecraft/server-gametest.test.spawnwithoutbehaviorsatlocation.location.description
 
 
 ////
@@ -1998,7 +1998,7 @@ spreadFromFaceTowardDirection(blockLocation: Vector3, fromFace: Direction, direc
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.spreadfromfacetowarddirection.description
+- script_api.@minecraft/server-gametest.test.spreadfromfacetowarddirection.blocklocation.description
 
 
 ////
@@ -2006,7 +2006,7 @@ spreadFromFaceTowardDirection(blockLocation: Vector3, fromFace: Direction, direc
 //// define
 `fromFace`：[`Direction`](../../server/1.8.0/direction.md)
 
-- script_api.@minecraft/server-gametest.test.fromface.spreadfromfacetowarddirection.description
+- script_api.@minecraft/server-gametest.test.spreadfromfacetowarddirection.fromface.description
 
 
 ////
@@ -2014,7 +2014,7 @@ spreadFromFaceTowardDirection(blockLocation: Vector3, fromFace: Direction, direc
 //// define
 `direction`：[`Direction`](../../server/1.8.0/direction.md)
 
-- script_api.@minecraft/server-gametest.test.direction.spreadfromfacetowarddirection.description
+- script_api.@minecraft/server-gametest.test.spreadfromfacetowarddirection.direction.description
 
 
 ////
@@ -2094,7 +2094,7 @@ succeedIf(callback: () => void): void
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.test.callback.succeedif.description
+- script_api.@minecraft/server-gametest.test.succeedif.callback.description
 
 
 ////
@@ -2126,7 +2126,7 @@ succeedOnTick(tick: int32): void
 //// define
 `tick`：`int32`
 
-- script_api.@minecraft/server-gametest.test.tick.succeedontick.description
+- script_api.@minecraft/server-gametest.test.succeedontick.tick.description
 
 
 ////
@@ -2158,7 +2158,7 @@ succeedOnTickWhen(tick: int32, callback: () => void): void
 //// define
 `tick`：`int32`
 
-- script_api.@minecraft/server-gametest.test.tick.succeedontickwhen.description
+- script_api.@minecraft/server-gametest.test.succeedontickwhen.tick.description
 
 
 ////
@@ -2166,7 +2166,7 @@ succeedOnTickWhen(tick: int32, callback: () => void): void
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.test.callback.succeedontickwhen.description
+- script_api.@minecraft/server-gametest.test.succeedontickwhen.callback.description
 
 
 ////
@@ -2198,7 +2198,7 @@ succeedWhen(callback: () => void): void
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.test.callback.succeedwhen.description
+- script_api.@minecraft/server-gametest.test.succeedwhen.callback.description
 
 
 ////
@@ -2230,7 +2230,7 @@ succeedWhenBlockPresent(blockType: BlockType | string, blockLocation: Vector3, i
 //// define
 `blockType`：[`BlockType`](../../server/1.8.0/blocktype.md)|`string`
 
-- script_api.@minecraft/server-gametest.test.blocktype.succeedwhenblockpresent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenblockpresent.blocktype.description
 
 
 ////
@@ -2238,7 +2238,7 @@ succeedWhenBlockPresent(blockType: BlockType | string, blockLocation: Vector3, i
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.succeedwhenblockpresent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenblockpresent.blocklocation.description
 
 
 ////
@@ -2246,7 +2246,7 @@ succeedWhenBlockPresent(blockType: BlockType | string, blockLocation: Vector3, i
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.succeedwhenblockpresent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenblockpresent.ispresent.description
 
 
 ////
@@ -2278,7 +2278,7 @@ succeedWhenEntityHasComponent(entityTypeIdentifier: string, componentIdentifier:
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.succeedwhenentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenentityhascomponent.entitytypeidentifier.description
 
 
 ////
@@ -2286,7 +2286,7 @@ succeedWhenEntityHasComponent(entityTypeIdentifier: string, componentIdentifier:
 //// define
 `componentIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.componentidentifier.succeedwhenentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenentityhascomponent.componentidentifier.description
 
 
 ////
@@ -2294,7 +2294,7 @@ succeedWhenEntityHasComponent(entityTypeIdentifier: string, componentIdentifier:
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.succeedwhenentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenentityhascomponent.blocklocation.description
 
 
 ////
@@ -2302,7 +2302,7 @@ succeedWhenEntityHasComponent(entityTypeIdentifier: string, componentIdentifier:
 //// define
 `hasComponent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.hascomponent.succeedwhenentityhascomponent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenentityhascomponent.hascomponent.description
 
 
 ////
@@ -2334,7 +2334,7 @@ succeedWhenEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, i
 //// define
 `entityTypeIdentifier`：`string`
 
-- script_api.@minecraft/server-gametest.test.entitytypeidentifier.succeedwhenentitypresent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenentitypresent.entitytypeidentifier.description
 
 
 ////
@@ -2342,7 +2342,7 @@ succeedWhenEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, i
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.succeedwhenentitypresent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenentitypresent.blocklocation.description
 
 
 ////
@@ -2350,7 +2350,7 @@ succeedWhenEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, i
 //// define
 `isPresent`：`boolean`
 
-- script_api.@minecraft/server-gametest.test.ispresent.succeedwhenentitypresent.description
+- script_api.@minecraft/server-gametest.test.succeedwhenentitypresent.ispresent.description
 
 
 ////
@@ -2382,7 +2382,7 @@ triggerInternalBlockEvent(blockLocation: Vector3, event: string, eventParameters
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.triggerinternalblockevent.description
+- script_api.@minecraft/server-gametest.test.triggerinternalblockevent.blocklocation.description
 
 
 ////
@@ -2390,7 +2390,7 @@ triggerInternalBlockEvent(blockLocation: Vector3, event: string, eventParameters
 //// define
 `event`：`string`
 
-- script_api.@minecraft/server-gametest.test.event.triggerinternalblockevent.description
+- script_api.@minecraft/server-gametest.test.triggerinternalblockevent.event.description
 
 
 ////
@@ -2398,7 +2398,7 @@ triggerInternalBlockEvent(blockLocation: Vector3, event: string, eventParameters
 //// define
 `eventParameters`：`float[]`
 
-- script_api.@minecraft/server-gametest.test.eventparameters.triggerinternalblockevent.description
+- script_api.@minecraft/server-gametest.test.triggerinternalblockevent.eventparameters.description
 
 
 ////
@@ -2430,7 +2430,7 @@ until(callback: () => void): Promise<void>
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.test.callback.until.description
+- script_api.@minecraft/server-gametest.test.until.callback.description
 
 
 ////
@@ -2462,7 +2462,7 @@ walkTo(mob: Entity, blockLocation: Vector3, speedModifier: float): void
 //// define
 `mob`：[`Entity`](../../server/1.8.0/entity.md)
 
-- script_api.@minecraft/server-gametest.test.mob.walkto.description
+- script_api.@minecraft/server-gametest.test.walkto.mob.description
 
 
 ////
@@ -2470,7 +2470,7 @@ walkTo(mob: Entity, blockLocation: Vector3, speedModifier: float): void
 //// define
 `blockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.blocklocation.walkto.description
+- script_api.@minecraft/server-gametest.test.walkto.blocklocation.description
 
 
 ////
@@ -2478,7 +2478,7 @@ walkTo(mob: Entity, blockLocation: Vector3, speedModifier: float): void
 //// define
 `speedModifier`：`float`
 
-- script_api.@minecraft/server-gametest.test.speedmodifier.walkto.description
+- script_api.@minecraft/server-gametest.test.walkto.speedmodifier.description
 
 
 ////
@@ -2510,7 +2510,7 @@ walkToLocation(mob: Entity, location: Vector3, speedModifier: float): void
 //// define
 `mob`：[`Entity`](../../server/1.8.0/entity.md)
 
-- script_api.@minecraft/server-gametest.test.mob.walktolocation.description
+- script_api.@minecraft/server-gametest.test.walktolocation.mob.description
 
 
 ////
@@ -2518,7 +2518,7 @@ walkToLocation(mob: Entity, location: Vector3, speedModifier: float): void
 //// define
 `location`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.location.walktolocation.description
+- script_api.@minecraft/server-gametest.test.walktolocation.location.description
 
 
 ////
@@ -2526,7 +2526,7 @@ walkToLocation(mob: Entity, location: Vector3, speedModifier: float): void
 //// define
 `speedModifier`：`float`
 
-- script_api.@minecraft/server-gametest.test.speedmodifier.walktolocation.description
+- script_api.@minecraft/server-gametest.test.walktolocation.speedmodifier.description
 
 
 ////
@@ -2558,7 +2558,7 @@ worldBlockLocation(relativeBlockLocation: Vector3): Vector3
 //// define
 `relativeBlockLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.relativeblocklocation.worldblocklocation.description
+- script_api.@minecraft/server-gametest.test.worldblocklocation.relativeblocklocation.description
 
 
 ////
@@ -2590,7 +2590,7 @@ worldLocation(relativeLocation: Vector3): Vector3
 //// define
 `relativeLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.test.relativelocation.worldlocation.description
+- script_api.@minecraft/server-gametest.test.worldlocation.relativelocation.description
 
 
 ////

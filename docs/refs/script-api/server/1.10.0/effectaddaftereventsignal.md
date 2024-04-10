@@ -22,7 +22,7 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 //// define
 `callback`：<code>(<a href="../effectaddafterevent/">EffectAddAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.effectaddaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.effectaddaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 //// define
 `options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
 
-- script_api.@minecraft/server.effectaddaftereventsignal.options.subscribe.description
+- script_api.@minecraft/server.effectaddaftereventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: EffectAddAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../effectaddafterevent/">EffectAddAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.effectaddaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.effectaddaftereventsignal.unsubscribe.callback.description
 
 
 ////

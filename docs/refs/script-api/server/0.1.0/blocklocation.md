@@ -114,7 +114,7 @@ blocksBetween(other: BlockLocation): BlockLocation[]
 //// define
 `other`：[`BlockLocation`](./blocklocation.md)
 
-- script_api.mojang-minecraft.blocklocation.other.blocksbetween.description
+- script_api.mojang-minecraft.blocklocation.blocksbetween.other.description
 
 
 ////
@@ -146,7 +146,7 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `x`：`int32`
 
-- script_api.mojang-minecraft.blocklocation.x.constructor.description
+- script_api.mojang-minecraft.blocklocation.constructor.x.description
 
 
 ////
@@ -154,7 +154,7 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `y`：`int32`
 
-- script_api.mojang-minecraft.blocklocation.y.constructor.description
+- script_api.mojang-minecraft.blocklocation.constructor.y.description
 
 
 ////
@@ -162,7 +162,7 @@ new constructor(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `z`：`int32`
 
-- script_api.mojang-minecraft.blocklocation.z.constructor.description
+- script_api.mojang-minecraft.blocklocation.constructor.z.description
 
 
 ////
@@ -194,7 +194,7 @@ equals(other: BlockLocation): boolean
 //// define
 `other`：[`BlockLocation`](./blocklocation.md)
 
-- script_api.mojang-minecraft.blocklocation.other.equals.description
+- script_api.mojang-minecraft.blocklocation.equals.other.description
 
 
 ////
@@ -226,7 +226,7 @@ offset(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `x`：`int32`
 
-- script_api.mojang-minecraft.blocklocation.x.offset.description
+- script_api.mojang-minecraft.blocklocation.offset.x.description
 
 
 ////
@@ -234,7 +234,7 @@ offset(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `y`：`int32`
 
-- script_api.mojang-minecraft.blocklocation.y.offset.description
+- script_api.mojang-minecraft.blocklocation.offset.y.description
 
 
 ////
@@ -242,7 +242,7 @@ offset(x: int32, y: int32, z: int32): BlockLocation
 //// define
 `z`：`int32`
 
-- script_api.mojang-minecraft.blocklocation.z.offset.description
+- script_api.mojang-minecraft.blocklocation.offset.z.description
 
 
 ////

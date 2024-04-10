@@ -59,7 +59,7 @@ getRawText(side: SignSide): RawText | undefined
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- script_api.@minecraft/server.blocksigncomponent.side.getrawtext.description
+- script_api.@minecraft/server.blocksigncomponent.getrawtext.side.description
 
 
 ////
@@ -91,7 +91,7 @@ getText(side: SignSide): string | undefined
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- script_api.@minecraft/server.blocksigncomponent.side.gettext.description
+- script_api.@minecraft/server.blocksigncomponent.gettext.side.description
 
 
 ////
@@ -123,7 +123,7 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- script_api.@minecraft/server.blocksigncomponent.side.gettextdyecolor.description
+- script_api.@minecraft/server.blocksigncomponent.gettextdyecolor.side.description
 
 
 ////
@@ -155,7 +155,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 //// define
 `message`：[`RawMessage`](./rawmessage.md)|[`RawText`](./rawtext.md)|`string`
 
-- script_api.@minecraft/server.blocksigncomponent.message.settext.description
+- script_api.@minecraft/server.blocksigncomponent.settext.message.description
 
 
 ////
@@ -163,7 +163,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- script_api.@minecraft/server.blocksigncomponent.side.settext.description
+- script_api.@minecraft/server.blocksigncomponent.settext.side.description
 
 
 ////
@@ -195,7 +195,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 //// define
 `color`：[`DyeColor`](./dyecolor.md)|`undefined`
 
-- script_api.@minecraft/server.blocksigncomponent.color.settextdyecolor.description
+- script_api.@minecraft/server.blocksigncomponent.settextdyecolor.color.description
 
 
 ////
@@ -203,7 +203,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 //// define
 `side`：[`SignSide`](./signside.md)
 
-- script_api.@minecraft/server.blocksigncomponent.side.settextdyecolor.description
+- script_api.@minecraft/server.blocksigncomponent.settextdyecolor.side.description
 
 
 ////
@@ -235,7 +235,7 @@ setWaxed(waxed: boolean): void
 //// define
 `waxed`：`boolean`
 
-- script_api.@minecraft/server.blocksigncomponent.waxed.setwaxed.description
+- script_api.@minecraft/server.blocksigncomponent.setwaxed.waxed.description
 
 
 ////

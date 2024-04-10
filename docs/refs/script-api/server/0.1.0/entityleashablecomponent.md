@@ -46,7 +46,7 @@ leash(leashHolder: Entity): void
 //// define
 `leashHolder`：[`Entity`](./entity.md)
 
-- script_api.mojang-minecraft.entityleashablecomponent.leashholder.leash.description
+- script_api.mojang-minecraft.entityleashablecomponent.leash.leashholder.description
 
 
 ////

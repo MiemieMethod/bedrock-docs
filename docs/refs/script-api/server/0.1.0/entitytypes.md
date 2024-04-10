@@ -22,7 +22,7 @@ static get(identifier: string): EntityType | undefined
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.entitytypes.identifier.get.description
+- script_api.mojang-minecraft.entitytypes.get.identifier.description
 
 
 ////

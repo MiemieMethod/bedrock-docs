@@ -46,7 +46,7 @@ addCursorsWithOffset(offset: Vector3, charge: int32): void
 //// define
 `offset`：[`Vector3`](../../server/1.8.0/vector3.md)
 
-- script_api.@minecraft/server-gametest.sculkspreader.offset.addcursorswithoffset.description
+- script_api.@minecraft/server-gametest.sculkspreader.addcursorswithoffset.offset.description
 
 
 ////
@@ -54,7 +54,7 @@ addCursorsWithOffset(offset: Vector3, charge: int32): void
 //// define
 `charge`：`int32`
 
-- script_api.@minecraft/server-gametest.sculkspreader.charge.addcursorswithoffset.description
+- script_api.@minecraft/server-gametest.sculkspreader.addcursorswithoffset.charge.description
 
 
 ////
@@ -86,7 +86,7 @@ getCursorPosition(index: int32): Vector3
 //// define
 `index`：`int32`
 
-- script_api.@minecraft/server-gametest.sculkspreader.index.getcursorposition.description
+- script_api.@minecraft/server-gametest.sculkspreader.getcursorposition.index.description
 
 
 ////

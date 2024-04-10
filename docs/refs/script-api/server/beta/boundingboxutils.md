@@ -22,7 +22,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 //// define
 `min`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.boundingboxutils.min.createvalid.description
+- script_api.@minecraft/server.boundingboxutils.createvalid.min.description
 
 
 ////
@@ -30,7 +30,7 @@ static createValid(min: Vector3, max: Vector3): BoundingBox
 //// define
 `max`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.boundingboxutils.max.createvalid.description
+- script_api.@minecraft/server.boundingboxutils.createvalid.max.description
 
 
 ////
@@ -62,7 +62,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.dilate.description
+- script_api.@minecraft/server.boundingboxutils.dilate.box.description
 
 
 ////
@@ -70,7 +70,7 @@ static dilate(box: BoundingBox, size: Vector3): BoundingBox
 //// define
 `size`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.boundingboxutils.size.dilate.description
+- script_api.@minecraft/server.boundingboxutils.dilate.size.description
 
 
 ////
@@ -102,7 +102,7 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.equals.description
+- script_api.@minecraft/server.boundingboxutils.equals.box.description
 
 
 ////
@@ -110,7 +110,7 @@ static equals(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.other.equals.description
+- script_api.@minecraft/server.boundingboxutils.equals.other.description
 
 
 ////
@@ -142,7 +142,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.expand.description
+- script_api.@minecraft/server.boundingboxutils.expand.box.description
 
 
 ////
@@ -150,7 +150,7 @@ static expand(box: BoundingBox, other: BoundingBox): BoundingBox
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.other.expand.description
+- script_api.@minecraft/server.boundingboxutils.expand.other.description
 
 
 ////
@@ -182,7 +182,7 @@ static getCenter(box: BoundingBox): Vector3
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.getcenter.description
+- script_api.@minecraft/server.boundingboxutils.getcenter.box.description
 
 
 ////
@@ -214,7 +214,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.getintersection.description
+- script_api.@minecraft/server.boundingboxutils.getintersection.box.description
 
 
 ////
@@ -222,7 +222,7 @@ static getIntersection(box: BoundingBox, other: BoundingBox): BoundingBox | unde
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.other.getintersection.description
+- script_api.@minecraft/server.boundingboxutils.getintersection.other.description
 
 
 ////
@@ -254,7 +254,7 @@ static getSpan(box: BoundingBox): Vector3
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.getspan.description
+- script_api.@minecraft/server.boundingboxutils.getspan.box.description
 
 
 ////
@@ -286,7 +286,7 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.intersects.description
+- script_api.@minecraft/server.boundingboxutils.intersects.box.description
 
 
 ////
@@ -294,7 +294,7 @@ static intersects(box: BoundingBox, other: BoundingBox): boolean
 //// define
 `other`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.other.intersects.description
+- script_api.@minecraft/server.boundingboxutils.intersects.other.description
 
 
 ////
@@ -326,7 +326,7 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.isinside.description
+- script_api.@minecraft/server.boundingboxutils.isinside.box.description
 
 
 ////
@@ -334,7 +334,7 @@ static isInside(box: BoundingBox, pos: Vector3): boolean
 //// define
 `pos`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.boundingboxutils.pos.isinside.description
+- script_api.@minecraft/server.boundingboxutils.isinside.pos.description
 
 
 ////
@@ -366,7 +366,7 @@ static isValid(box: BoundingBox): boolean
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.isvalid.description
+- script_api.@minecraft/server.boundingboxutils.isvalid.box.description
 
 
 ////
@@ -398,7 +398,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 //// define
 `box`：[`BoundingBox`](./boundingbox.md)
 
-- script_api.@minecraft/server.boundingboxutils.box.translate.description
+- script_api.@minecraft/server.boundingboxutils.translate.box.description
 
 
 ////
@@ -406,7 +406,7 @@ static translate(box: BoundingBox, delta: Vector3): BoundingBox
 //// define
 `delta`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.boundingboxutils.delta.translate.description
+- script_api.@minecraft/server.boundingboxutils.translate.delta.description
 
 
 ////

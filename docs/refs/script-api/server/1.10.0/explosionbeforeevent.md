@@ -46,7 +46,7 @@ setImpactedBlocks(blocks: Block[]): void
 //// define
 `blocks`：<code><a href="../block/">Block</a>[]</code>
 
-- script_api.@minecraft/server.explosionbeforeevent.blocks.setimpactedblocks.description
+- script_api.@minecraft/server.explosionbeforeevent.setimpactedblocks.blocks.description
 
 
 ////

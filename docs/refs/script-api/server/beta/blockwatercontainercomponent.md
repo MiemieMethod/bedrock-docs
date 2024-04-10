@@ -35,7 +35,7 @@ addDye(itemType: ItemType): void
 //// define
 `itemType`：[`ItemType`](./itemtype.md)
 
-- script_api.@minecraft/server.blockwatercontainercomponent.itemtype.adddye.description
+- script_api.@minecraft/server.blockwatercontainercomponent.adddye.itemtype.description
 
 
 ////
@@ -91,7 +91,7 @@ setCustomColor(color: RGBA): void
 //// define
 `color`：[`RGBA`](./rgba.md)
 
-- script_api.@minecraft/server.blockwatercontainercomponent.color.setcustomcolor.description
+- script_api.@minecraft/server.blockwatercontainercomponent.setcustomcolor.color.description
 
 
 ////

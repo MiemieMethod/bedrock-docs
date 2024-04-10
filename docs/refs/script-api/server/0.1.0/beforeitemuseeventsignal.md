@@ -22,7 +22,7 @@ subscribe(callback: (arg: BeforeItemUseEvent) => void): (arg: BeforeItemUseEvent
 //// define
 `callback`：<code>(<a href="../beforeitemuseevent/">BeforeItemUseEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.beforeitemuseeventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.beforeitemuseeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: BeforeItemUseEvent) => void): void
 //// define
 `callback`：<code>(<a href="../beforeitemuseevent/">BeforeItemUseEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.beforeitemuseeventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.beforeitemuseeventsignal.unsubscribe.callback.description
 
 
 ////

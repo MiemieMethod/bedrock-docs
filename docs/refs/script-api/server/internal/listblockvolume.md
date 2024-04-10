@@ -22,7 +22,7 @@ add(locations: Vector3[]): void
 //// define
 `locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
-- script_api.@minecraft/server.listblockvolume.locations.add.description
+- script_api.@minecraft/server.listblockvolume.add.locations.description
 
 
 ////
@@ -54,7 +54,7 @@ new constructor(locations: Vector3[]): ListBlockVolume
 //// define
 `locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
-- script_api.@minecraft/server.listblockvolume.locations.constructor.description
+- script_api.@minecraft/server.listblockvolume.constructor.locations.description
 
 
 ////
@@ -86,7 +86,7 @@ remove(locations: Vector3[]): void
 //// define
 `locations`：<code><a href="../vector3/">Vector3</a>[]</code>
 
-- script_api.@minecraft/server.listblockvolume.locations.remove.description
+- script_api.@minecraft/server.listblockvolume.remove.locations.description
 
 
 ////

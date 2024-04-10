@@ -22,7 +22,7 @@ body(bodyText: RawMessage | string): ActionFormData
 //// define
 `bodyText`：[`RawMessage`](../../server/1.2.0/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.actionformdata.bodytext.body.description
+- script_api.@minecraft/server-ui.actionformdata.body.bodytext.description
 
 
 ////
@@ -54,7 +54,7 @@ button(text: RawMessage | string, iconPath?: string): ActionFormData
 //// define
 `text`：[`RawMessage`](../../server/1.2.0/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.actionformdata.text.button.description
+- script_api.@minecraft/server-ui.actionformdata.button.text.description
 
 
 ////
@@ -62,7 +62,7 @@ button(text: RawMessage | string, iconPath?: string): ActionFormData
 //// define
 `iconPath`：`string`|`undefined`
 
-- script_api.@minecraft/server-ui.actionformdata.iconpath.button.description
+- script_api.@minecraft/server-ui.actionformdata.button.iconpath.description
 
 
 ////
@@ -118,7 +118,7 @@ show(player: Player): Promise<ActionFormResponse>
 //// define
 `player`：[`Player`](../../server/1.2.0/player.md)
 
-- script_api.@minecraft/server-ui.actionformdata.player.show.description
+- script_api.@minecraft/server-ui.actionformdata.show.player.description
 
 
 ////
@@ -150,7 +150,7 @@ title(titleText: RawMessage | string): ActionFormData
 //// define
 `titleText`：[`RawMessage`](../../server/1.2.0/rawmessage.md)|`string`
 
-- script_api.@minecraft/server-ui.actionformdata.titletext.title.description
+- script_api.@minecraft/server-ui.actionformdata.title.titletext.description
 
 
 ////

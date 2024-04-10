@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): (arg: Pl
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockbeforeevent/">PlayerInteractWithBlockBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInteractWithBlockBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockbeforeevent/">PlayerInteractWithBlockBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playerinteractwithblockbeforeeventsignal.unsubscribe.callback.description
 
 
 ////

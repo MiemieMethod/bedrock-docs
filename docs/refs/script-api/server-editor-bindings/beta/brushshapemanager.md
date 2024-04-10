@@ -90,7 +90,7 @@ activateBrushShape(name: string): CompoundBlockVolume
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.name.activatebrushshape.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushshape.name.description
 
 
 ////
@@ -122,7 +122,7 @@ getSettingsUIElements(brushName: string): SettingsUIElement[]
 //// define
 `brushName`：`string`
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.brushname.getsettingsuielements.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.getsettingsuielements.brushname.description
 
 
 ////
@@ -154,7 +154,7 @@ registerBrushShape(brushShape: BrushShape): void
 //// define
 `brushShape`：[`BrushShape`](./brushshape.md)
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.brushshape.registerbrushshape.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.brushshape.description
 
 
 ////
@@ -186,7 +186,7 @@ uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 //// define
 `elementName`：`string`
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.elementname.uisettingvaluechanged.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.uisettingvaluechanged.elementname.description
 
 
 ////
@@ -194,7 +194,7 @@ uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 //// define
 `newValue`：`boolean`|`int32`
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.newvalue.uisettingvaluechanged.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.uisettingvaluechanged.newvalue.description
 
 
 ////

@@ -134,7 +134,7 @@ broadcastClientMessage(id: string, value: string): void
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server.world.id.broadcastclientmessage.description
+- script_api.@minecraft/server.world.broadcastclientmessage.id.description
 
 
 ////
@@ -142,7 +142,7 @@ broadcastClientMessage(id: string, value: string): void
 //// define
 `value`：`string`
 
-- script_api.@minecraft/server.world.value.broadcastclientmessage.description
+- script_api.@minecraft/server.world.broadcastclientmessage.value.description
 
 
 ////
@@ -294,7 +294,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- script_api.@minecraft/server.world.dimensionid.getdimension.description
+- script_api.@minecraft/server.world.getdimension.dimensionid.description
 
 
 ////
@@ -326,7 +326,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.world.identifier.getdynamicproperty.description
+- script_api.@minecraft/server.world.getdynamicproperty.identifier.description
 
 
 ////
@@ -406,7 +406,7 @@ getEntity(id: string): Entity | undefined
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server.world.id.getentity.description
+- script_api.@minecraft/server.world.getentity.id.description
 
 
 ////
@@ -462,7 +462,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.world.options.getplayers.description
+- script_api.@minecraft/server.world.getplayers.options.description
 
 
 ////
@@ -518,7 +518,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- script_api.@minecraft/server.world.trackid.playmusic.description
+- script_api.@minecraft/server.world.playmusic.trackid.description
 
 
 ////
@@ -526,7 +526,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- script_api.@minecraft/server.world.musicoptions.playmusic.description
+- script_api.@minecraft/server.world.playmusic.musicoptions.description
 
 
 ////
@@ -558,7 +558,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `soundId`：`string`
 
-- script_api.@minecraft/server.world.soundid.playsound.description
+- script_api.@minecraft/server.world.playsound.soundid.description
 
 
 ////
@@ -566,7 +566,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.world.location.playsound.description
+- script_api.@minecraft/server.world.playsound.location.description
 
 
 ////
@@ -574,7 +574,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
 
-- script_api.@minecraft/server.world.soundoptions.playsound.description
+- script_api.@minecraft/server.world.playsound.soundoptions.description
 
 
 ////
@@ -606,7 +606,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- script_api.@minecraft/server.world.trackid.queuemusic.description
+- script_api.@minecraft/server.world.queuemusic.trackid.description
 
 
 ////
@@ -614,7 +614,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- script_api.@minecraft/server.world.musicoptions.queuemusic.description
+- script_api.@minecraft/server.world.queuemusic.musicoptions.description
 
 
 ////
@@ -646,7 +646,7 @@ sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.world.message.sendmessage.description
+- script_api.@minecraft/server.world.sendmessage.message.description
 
 
 ////
@@ -678,7 +678,7 @@ setAbsoluteTime(absoluteTime: int32): void
 //// define
 `absoluteTime`：`int32`
 
-- script_api.@minecraft/server.world.absolutetime.setabsolutetime.description
+- script_api.@minecraft/server.world.setabsolutetime.absolutetime.description
 
 
 ////
@@ -710,7 +710,7 @@ setDefaultSpawnLocation(spawnLocation: Vector3): void
 //// define
 `spawnLocation`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.world.spawnlocation.setdefaultspawnlocation.description
+- script_api.@minecraft/server.world.setdefaultspawnlocation.spawnlocation.description
 
 
 ////
@@ -742,7 +742,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.world.identifier.setdynamicproperty.description
+- script_api.@minecraft/server.world.setdynamicproperty.identifier.description
 
 
 ////
@@ -750,7 +750,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- script_api.@minecraft/server.world.value.setdynamicproperty.description
+- script_api.@minecraft/server.world.setdynamicproperty.value.description
 
 
 ////
@@ -782,7 +782,7 @@ setTimeOfDay(timeOfDay: int32 | TimeOfDay): void
 //// define
 `timeOfDay`：`int32`|[`TimeOfDay`](./timeofday.md)
 
-- script_api.@minecraft/server.world.timeofday.settimeofday.description
+- script_api.@minecraft/server.world.settimeofday.timeofday.description
 
 
 ////

@@ -68,7 +68,7 @@ containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks:
 //// define
 `volume`：[`BlockVolumeBase`](./blockvolumebase.md)
 
-- script_api.@minecraft/server.dimension.volume.containsblock.description
+- script_api.@minecraft/server.dimension.containsblock.volume.description
 
 
 ////
@@ -76,7 +76,7 @@ containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks:
 //// define
 `filter`：[`BlockFilter`](./blockfilter.md)
 
-- script_api.@minecraft/server.dimension.filter.containsblock.description
+- script_api.@minecraft/server.dimension.containsblock.filter.description
 
 
 ////
@@ -84,7 +84,7 @@ containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks:
 //// define
 `allowUnloadedChunks`：`boolean`
 
-- script_api.@minecraft/server.dimension.allowunloadedchunks.containsblock.description
+- script_api.@minecraft/server.dimension.containsblock.allowunloadedchunks.description
 
 
 ////
@@ -116,7 +116,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.createexplosion.description
+- script_api.@minecraft/server.dimension.createexplosion.location.description
 
 
 ////
@@ -124,7 +124,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 //// define
 `radius`：`float`
 
-- script_api.@minecraft/server.dimension.radius.createexplosion.description
+- script_api.@minecraft/server.dimension.createexplosion.radius.description
 
 
 ////
@@ -132,7 +132,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 //// define
 `explosionOptions`：[`ExplosionOptions`](./explosionoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.explosionoptions.createexplosion.description
+- script_api.@minecraft/server.dimension.createexplosion.explosionoptions.description
 
 
 ////
@@ -164,7 +164,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 //// define
 `begin`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.begin.fillblocks.description
+- script_api.@minecraft/server.dimension.fillblocks.begin.description
 
 
 ////
@@ -172,7 +172,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 //// define
 `end`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.end.fillblocks.description
+- script_api.@minecraft/server.dimension.fillblocks.end.description
 
 
 ////
@@ -180,7 +180,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 //// define
 `block`：[`BlockPermutation`](./blockpermutation.md)|[`BlockType`](./blocktype.md)|`string`
 
-- script_api.@minecraft/server.dimension.block.fillblocks.description
+- script_api.@minecraft/server.dimension.fillblocks.block.description
 
 
 ////
@@ -188,7 +188,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 //// define
 `options`：[`BlockFillOptions`](./blockfilloptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.fillblocks.description
+- script_api.@minecraft/server.dimension.fillblocks.options.description
 
 
 ////
@@ -220,7 +220,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 //// define
 `pos`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.pos.findclosestbiome.description
+- script_api.@minecraft/server.dimension.findclosestbiome.pos.description
 
 
 ////
@@ -228,7 +228,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 //// define
 `biomeToFind`：[`BiomeType`](./biometype.md)|`string`
 
-- script_api.@minecraft/server.dimension.biometofind.findclosestbiome.description
+- script_api.@minecraft/server.dimension.findclosestbiome.biometofind.description
 
 
 ////
@@ -236,7 +236,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 //// define
 `options`：[`BiomeSearchOptions`](./biomesearchoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.findclosestbiome.description
+- script_api.@minecraft/server.dimension.findclosestbiome.options.description
 
 
 ////
@@ -268,7 +268,7 @@ getBlock(location: Vector3): Block | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getblock.description
+- script_api.@minecraft/server.dimension.getblock.location.description
 
 
 ////
@@ -300,7 +300,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getblockfromray.description
+- script_api.@minecraft/server.dimension.getblockfromray.location.description
 
 
 ////
@@ -308,7 +308,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.direction.getblockfromray.description
+- script_api.@minecraft/server.dimension.getblockfromray.direction.description
 
 
 ////
@@ -316,7 +316,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getblockfromray.description
+- script_api.@minecraft/server.dimension.getblockfromray.options.description
 
 
 ////
@@ -348,7 +348,7 @@ getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boo
 //// define
 `volume`：[`BlockVolumeBase`](./blockvolumebase.md)
 
-- script_api.@minecraft/server.dimension.volume.getblocks.description
+- script_api.@minecraft/server.dimension.getblocks.volume.description
 
 
 ////
@@ -356,7 +356,7 @@ getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boo
 //// define
 `filter`：[`BlockFilter`](./blockfilter.md)
 
-- script_api.@minecraft/server.dimension.filter.getblocks.description
+- script_api.@minecraft/server.dimension.getblocks.filter.description
 
 
 ////
@@ -364,7 +364,7 @@ getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boo
 //// define
 `allowUnloadedChunks`：`boolean`
 
-- script_api.@minecraft/server.dimension.allowunloadedchunks.getblocks.description
+- script_api.@minecraft/server.dimension.getblocks.allowunloadedchunks.description
 
 
 ////
@@ -396,7 +396,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getentities.description
+- script_api.@minecraft/server.dimension.getentities.options.description
 
 
 ////
@@ -428,7 +428,7 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getentitiesatblocklocation.description
+- script_api.@minecraft/server.dimension.getentitiesatblocklocation.location.description
 
 
 ////
@@ -460,7 +460,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getentitiesfromray.description
+- script_api.@minecraft/server.dimension.getentitiesfromray.location.description
 
 
 ////
@@ -468,7 +468,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.direction.getentitiesfromray.description
+- script_api.@minecraft/server.dimension.getentitiesfromray.direction.description
 
 
 ////
@@ -476,7 +476,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getentitiesfromray.description
+- script_api.@minecraft/server.dimension.getentitiesfromray.options.description
 
 
 ////
@@ -508,7 +508,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getplayers.description
+- script_api.@minecraft/server.dimension.getplayers.options.description
 
 
 ////
@@ -564,7 +564,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `soundId`：`string`
 
-- script_api.@minecraft/server.dimension.soundid.playsound.description
+- script_api.@minecraft/server.dimension.playsound.soundid.description
 
 
 ////
@@ -572,7 +572,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.playsound.description
+- script_api.@minecraft/server.dimension.playsound.location.description
 
 
 ////
@@ -580,7 +580,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 //// define
 `soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.soundoptions.playsound.description
+- script_api.@minecraft/server.dimension.playsound.soundoptions.description
 
 
 ////
@@ -612,7 +612,7 @@ runCommand(commandString: string): CommandResult
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.dimension.commandstring.runcommand.description
+- script_api.@minecraft/server.dimension.runcommand.commandstring.description
 
 
 ////
@@ -644,7 +644,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.dimension.commandstring.runcommandasync.description
+- script_api.@minecraft/server.dimension.runcommandasync.commandstring.description
 
 
 ////
@@ -676,7 +676,7 @@ setBlockPermutation(location: Vector3, permutation: BlockPermutation): void
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.setblockpermutation.description
+- script_api.@minecraft/server.dimension.setblockpermutation.location.description
 
 
 ////
@@ -684,7 +684,7 @@ setBlockPermutation(location: Vector3, permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.dimension.permutation.setblockpermutation.description
+- script_api.@minecraft/server.dimension.setblockpermutation.permutation.description
 
 
 ////
@@ -716,7 +716,7 @@ setBlockType(location: Vector3, blockType: BlockType | string): void
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.setblocktype.description
+- script_api.@minecraft/server.dimension.setblocktype.location.description
 
 
 ////
@@ -724,7 +724,7 @@ setBlockType(location: Vector3, blockType: BlockType | string): void
 //// define
 `blockType`：[`BlockType`](./blocktype.md)|`string`
 
-- script_api.@minecraft/server.dimension.blocktype.setblocktype.description
+- script_api.@minecraft/server.dimension.setblocktype.blocktype.description
 
 
 ////
@@ -756,7 +756,7 @@ setWeather(weatherType: WeatherType, duration?: int32): void
 //// define
 `weatherType`：[`WeatherType`](./weathertype.md)
 
-- script_api.@minecraft/server.dimension.weathertype.setweather.description
+- script_api.@minecraft/server.dimension.setweather.weathertype.description
 
 
 ////
@@ -764,7 +764,7 @@ setWeather(weatherType: WeatherType, duration?: int32): void
 //// define
 `duration`：`int32`|`undefined`
 
-- script_api.@minecraft/server.dimension.duration.setweather.description
+- script_api.@minecraft/server.dimension.setweather.duration.description
 
 
 ////
@@ -796,7 +796,7 @@ spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions)
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.dimension.identifier.spawnentity.description
+- script_api.@minecraft/server.dimension.spawnentity.identifier.description
 
 
 ////
@@ -804,7 +804,7 @@ spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions)
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnentity.description
+- script_api.@minecraft/server.dimension.spawnentity.location.description
 
 
 ////
@@ -812,7 +812,7 @@ spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions)
 //// define
 `options`：[`SpawnEntityOptions`](./spawnentityoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.spawnentity.description
+- script_api.@minecraft/server.dimension.spawnentity.options.description
 
 
 ////
@@ -844,7 +844,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.dimension.itemstack.spawnitem.description
+- script_api.@minecraft/server.dimension.spawnitem.itemstack.description
 
 
 ////
@@ -852,7 +852,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnitem.description
+- script_api.@minecraft/server.dimension.spawnitem.location.description
 
 
 ////
@@ -884,7 +884,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `effectName`：`string`
 
-- script_api.@minecraft/server.dimension.effectname.spawnparticle.description
+- script_api.@minecraft/server.dimension.spawnparticle.effectname.description
 
 
 ////
@@ -892,7 +892,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnparticle.description
+- script_api.@minecraft/server.dimension.spawnparticle.location.description
 
 
 ////
@@ -900,7 +900,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.molangvariables.spawnparticle.description
+- script_api.@minecraft/server.dimension.spawnparticle.molangvariables.description
 
 
 ////

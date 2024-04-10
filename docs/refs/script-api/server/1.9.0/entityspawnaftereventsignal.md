@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntitySpawnAfterEvent) => void): (arg: EntitySpawnAfte
 //// define
 `callback`：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityspawnaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.entityspawnaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: EntitySpawnAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityspawnafterevent/">EntitySpawnAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityspawnaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.entityspawnaftereventsignal.unsubscribe.callback.description
 
 
 ////

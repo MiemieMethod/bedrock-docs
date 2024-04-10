@@ -22,7 +22,7 @@ debug(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- script_api.@minecraft/server-editor-bindings.logger.message.debug.description
+- script_api.@minecraft/server-editor-bindings.logger.debug.message.description
 
 
 ////
@@ -30,7 +30,7 @@ debug(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.logger.properties.debug.description
+- script_api.@minecraft/server-editor-bindings.logger.debug.properties.description
 
 
 ////
@@ -62,7 +62,7 @@ error(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- script_api.@minecraft/server-editor-bindings.logger.message.error.description
+- script_api.@minecraft/server-editor-bindings.logger.error.message.description
 
 
 ////
@@ -70,7 +70,7 @@ error(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.logger.properties.error.description
+- script_api.@minecraft/server-editor-bindings.logger.error.properties.description
 
 
 ////
@@ -102,7 +102,7 @@ info(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- script_api.@minecraft/server-editor-bindings.logger.message.info.description
+- script_api.@minecraft/server-editor-bindings.logger.info.message.description
 
 
 ////
@@ -110,7 +110,7 @@ info(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.logger.properties.info.description
+- script_api.@minecraft/server-editor-bindings.logger.info.properties.description
 
 
 ////
@@ -142,7 +142,7 @@ warning(message: string, properties?: LogProperties): void
 //// define
 `message`：`string`
 
-- script_api.@minecraft/server-editor-bindings.logger.message.warning.description
+- script_api.@minecraft/server-editor-bindings.logger.warning.message.description
 
 
 ////
@@ -150,7 +150,7 @@ warning(message: string, properties?: LogProperties): void
 //// define
 `properties`：[`LogProperties`](./logproperties.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.logger.properties.warning.description
+- script_api.@minecraft/server-editor-bindings.logger.warning.properties.description
 
 
 ////

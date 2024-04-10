@@ -22,7 +22,7 @@ registerEntityTypeDynamicProperties(propertiesDefinition: DynamicPropertiesDefin
 //// define
 `propertiesDefinition`：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- script_api.mojang-minecraft.propertyregistry.propertiesdefinition.registerentitytypedynamicproperties.description
+- script_api.mojang-minecraft.propertyregistry.registerentitytypedynamicproperties.propertiesdefinition.description
 
 
 ////
@@ -30,7 +30,7 @@ registerEntityTypeDynamicProperties(propertiesDefinition: DynamicPropertiesDefin
 //// define
 `entityTypeOrId`：[`EntityType`](./entitytype.md)|`string`
 
-- script_api.mojang-minecraft.propertyregistry.entitytypeorid.registerentitytypedynamicproperties.description
+- script_api.mojang-minecraft.propertyregistry.registerentitytypedynamicproperties.entitytypeorid.description
 
 
 ////
@@ -62,7 +62,7 @@ registerWorldDynamicProperties(propertiesDefinition: DynamicPropertiesDefinition
 //// define
 `propertiesDefinition`：[`DynamicPropertiesDefinition`](./dynamicpropertiesdefinition.md)
 
-- script_api.mojang-minecraft.propertyregistry.propertiesdefinition.registerworlddynamicproperties.description
+- script_api.mojang-minecraft.propertyregistry.registerworlddynamicproperties.propertiesdefinition.description
 
 
 ////

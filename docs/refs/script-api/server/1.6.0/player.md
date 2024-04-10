@@ -244,7 +244,7 @@ addExperience(amount: int32): uint32
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.player.amount.addexperience.description
+- script_api.@minecraft/server.player.addexperience.amount.description
 
 
 ////
@@ -276,7 +276,7 @@ addLevels(amount: int32): int32
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.player.amount.addlevels.description
+- script_api.@minecraft/server.player.addlevels.amount.description
 
 
 ////
@@ -356,7 +356,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundId`：`string`
 
-- script_api.@minecraft/server.player.soundid.playsound.description
+- script_api.@minecraft/server.player.playsound.soundid.description
 
 
 ////
@@ -364,7 +364,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
 
-- script_api.@minecraft/server.player.soundoptions.playsound.description
+- script_api.@minecraft/server.player.playsound.soundoptions.description
 
 
 ////
@@ -420,7 +420,7 @@ sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.player.message.sendmessage.description
+- script_api.@minecraft/server.player.sendmessage.message.description
 
 
 ////
@@ -452,7 +452,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 //// define
 `spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
 
-- script_api.@minecraft/server.player.spawnpoint.setspawnpoint.description
+- script_api.@minecraft/server.player.setspawnpoint.spawnpoint.description
 
 
 ////

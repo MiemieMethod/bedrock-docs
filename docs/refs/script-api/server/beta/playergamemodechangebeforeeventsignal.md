@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerGameModeChangeBeforeEvent) => void): (arg: Playe
 //// define
 `callback`：<code>(<a href="../playergamemodechangebeforeevent/">PlayerGameModeChangeBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playergamemodechangebeforeeventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playergamemodechangebeforeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerGameModeChangeBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playergamemodechangebeforeevent/">PlayerGameModeChangeBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playergamemodechangebeforeeventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playergamemodechangebeforeeventsignal.unsubscribe.callback.description
 
 
 ////

@@ -46,7 +46,7 @@ defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefi
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.dynamicpropertiesdefinition.identifier.defineboolean.description
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.defineboolean.identifier.description
 
 
 ////
@@ -54,7 +54,7 @@ defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefi
 //// define
 `defaultValue`：`boolean`|`undefined`
 
-- script_api.mojang-minecraft.dynamicpropertiesdefinition.defaultvalue.defineboolean.description
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.defineboolean.defaultvalue.description
 
 
 ////
@@ -86,7 +86,7 @@ defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinit
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.dynamicpropertiesdefinition.identifier.definenumber.description
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.definenumber.identifier.description
 
 
 ////
@@ -94,7 +94,7 @@ defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinit
 //// define
 `defaultValue`：`float`|`undefined`
 
-- script_api.mojang-minecraft.dynamicpropertiesdefinition.defaultvalue.definenumber.description
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.definenumber.defaultvalue.description
 
 
 ////
@@ -126,7 +126,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.dynamicpropertiesdefinition.identifier.definestring.description
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.definestring.identifier.description
 
 
 ////
@@ -134,7 +134,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 //// define
 `maxLength`：`uint32`
 
-- script_api.mojang-minecraft.dynamicpropertiesdefinition.maxlength.definestring.description
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.definestring.maxlength.description
 
 
 ////
@@ -142,7 +142,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 //// define
 `defaultValue`：`string`|`undefined`
 
-- script_api.mojang-minecraft.dynamicpropertiesdefinition.defaultvalue.definestring.description
+- script_api.mojang-minecraft.dynamicpropertiesdefinition.definestring.defaultvalue.description
 
 
 ////

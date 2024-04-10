@@ -68,7 +68,7 @@ getBlockPermutation(location: Vector3): BlockPermutation | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.structure.location.getblockpermutation.description
+- script_api.@minecraft/server.structure.getblockpermutation.location.description
 
 
 ////
@@ -100,7 +100,7 @@ getIsWaterlogged(location: Vector3): boolean
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.structure.location.getiswaterlogged.description
+- script_api.@minecraft/server.structure.getiswaterlogged.location.description
 
 
 ////
@@ -156,7 +156,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.structure.identifier.saveas.description
+- script_api.@minecraft/server.structure.saveas.identifier.description
 
 
 ////
@@ -164,7 +164,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 //// define
 `saveMode`：[`StructureSaveMode`](./structuresavemode.md)
 
-- script_api.@minecraft/server.structure.savemode.saveas.description
+- script_api.@minecraft/server.structure.saveas.savemode.description
 
 
 ////
@@ -220,7 +220,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.structure.location.setblockpermutation.description
+- script_api.@minecraft/server.structure.setblockpermutation.location.description
 
 
 ////
@@ -228,7 +228,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 //// define
 `blockPermutation`：[`BlockPermutation`](./blockpermutation.md)|`undefined`
 
-- script_api.@minecraft/server.structure.blockpermutation.setblockpermutation.description
+- script_api.@minecraft/server.structure.setblockpermutation.blockpermutation.description
 
 
 ////
@@ -236,7 +236,7 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 //// define
 `waterlogged`：`boolean`
 
-- script_api.@minecraft/server.structure.waterlogged.setblockpermutation.description
+- script_api.@minecraft/server.structure.setblockpermutation.waterlogged.description
 
 
 ////

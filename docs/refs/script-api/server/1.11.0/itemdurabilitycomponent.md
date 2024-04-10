@@ -81,7 +81,7 @@ getDamageChance(unbreakingEnchantmentLevel: int32): int32
 //// define
 `unbreakingEnchantmentLevel`：`int32`
 
-- script_api.@minecraft/server.itemdurabilitycomponent.unbreakingenchantmentlevel.getdamagechance.description
+- script_api.@minecraft/server.itemdurabilitycomponent.getdamagechance.unbreakingenchantmentlevel.description
 
 
 ////

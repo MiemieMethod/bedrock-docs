@@ -22,7 +22,7 @@ subscribe(callback: (arg: ChatSendAfterEvent) => void): (arg: ChatSendAfterEvent
 //// define
 `callback`：<code>(<a href="../chatsendafterevent/">ChatSendAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.chatsendaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.chatsendaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: ChatSendAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../chatsendafterevent/">ChatSendAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.chatsendaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.chatsendaftereventsignal.unsubscribe.callback.description
 
 
 ////

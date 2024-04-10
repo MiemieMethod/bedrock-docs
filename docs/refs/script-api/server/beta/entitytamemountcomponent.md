@@ -35,7 +35,7 @@ tame(showParticles: boolean): void
 //// define
 `showParticles`：`boolean`
 
-- script_api.@minecraft/server.entitytamemountcomponent.showparticles.tame.description
+- script_api.@minecraft/server.entitytamemountcomponent.tame.showparticles.description
 
 
 ////

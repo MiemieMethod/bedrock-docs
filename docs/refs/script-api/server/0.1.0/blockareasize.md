@@ -90,7 +90,7 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 //// define
 `x`：`float`
 
-- script_api.mojang-minecraft.blockareasize.x.constructor.description
+- script_api.mojang-minecraft.blockareasize.constructor.x.description
 
 
 ////
@@ -98,7 +98,7 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 //// define
 `y`：`float`
 
-- script_api.mojang-minecraft.blockareasize.y.constructor.description
+- script_api.mojang-minecraft.blockareasize.constructor.y.description
 
 
 ////
@@ -106,7 +106,7 @@ new constructor(x: float, y: float, z: float): BlockAreaSize
 //// define
 `z`：`float`
 
-- script_api.mojang-minecraft.blockareasize.z.constructor.description
+- script_api.mojang-minecraft.blockareasize.constructor.z.description
 
 
 ////
@@ -138,7 +138,7 @@ equals(other: BlockAreaSize): boolean
 //// define
 `other`：[`BlockAreaSize`](./blockareasize.md)
 
-- script_api.mojang-minecraft.blockareasize.other.equals.description
+- script_api.mojang-minecraft.blockareasize.equals.other.description
 
 
 ////

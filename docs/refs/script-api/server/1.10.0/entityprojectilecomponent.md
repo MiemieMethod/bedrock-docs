@@ -345,7 +345,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 //// define
 `velocity`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.entityprojectilecomponent.velocity.shoot.description
+- script_api.@minecraft/server.entityprojectilecomponent.shoot.velocity.description
 
 
 ////
@@ -353,7 +353,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 //// define
 `options`：[`ProjectileShootOptions`](./projectileshootoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entityprojectilecomponent.options.shoot.description
+- script_api.@minecraft/server.entityprojectilecomponent.shoot.options.description
 
 
 ////

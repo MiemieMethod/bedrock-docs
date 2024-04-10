@@ -59,7 +59,7 @@ addEnchantment(enchantment: Enchantment): void
 //// define
 `enchantment`：[`Enchantment`](./enchantment.md)
 
-- script_api.@minecraft/server.itemenchantablecomponent.enchantment.addenchantment.description
+- script_api.@minecraft/server.itemenchantablecomponent.addenchantment.enchantment.description
 
 
 ////
@@ -91,7 +91,7 @@ addEnchantments(enchantments: Enchantment[]): void
 //// define
 `enchantments`：<code><a href="../enchantment/">Enchantment</a>[]</code>
 
-- script_api.@minecraft/server.itemenchantablecomponent.enchantments.addenchantments.description
+- script_api.@minecraft/server.itemenchantablecomponent.addenchantments.enchantments.description
 
 
 ////
@@ -123,7 +123,7 @@ canAddEnchantment(enchantment: Enchantment): boolean
 //// define
 `enchantment`：[`Enchantment`](./enchantment.md)
 
-- script_api.@minecraft/server.itemenchantablecomponent.enchantment.canaddenchantment.description
+- script_api.@minecraft/server.itemenchantablecomponent.canaddenchantment.enchantment.description
 
 
 ////
@@ -155,7 +155,7 @@ getEnchantment(enchantmentType: EnchantmentType | string): Enchantment | undefin
 //// define
 `enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
-- script_api.@minecraft/server.itemenchantablecomponent.enchantmenttype.getenchantment.description
+- script_api.@minecraft/server.itemenchantablecomponent.getenchantment.enchantmenttype.description
 
 
 ////
@@ -211,7 +211,7 @@ hasEnchantment(enchantmentType: EnchantmentType | string): boolean
 //// define
 `enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
-- script_api.@minecraft/server.itemenchantablecomponent.enchantmenttype.hasenchantment.description
+- script_api.@minecraft/server.itemenchantablecomponent.hasenchantment.enchantmenttype.description
 
 
 ////
@@ -267,7 +267,7 @@ removeEnchantment(enchantmentType: EnchantmentType | string): void
 //// define
 `enchantmentType`：[`EnchantmentType`](./enchantmenttype.md)|`string`
 
-- script_api.@minecraft/server.itemenchantablecomponent.enchantmenttype.removeenchantment.description
+- script_api.@minecraft/server.itemenchantablecomponent.removeenchantment.enchantmenttype.description
 
 
 ////

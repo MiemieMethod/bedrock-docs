@@ -22,7 +22,7 @@ subscribe(callback: (arg: WeatherChangeAfterEvent) => void): (arg: WeatherChange
 //// define
 `callback`：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.weatherchangeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.weatherchangeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: WeatherChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../weatherchangeafterevent/">WeatherChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.weatherchangeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.weatherchangeaftereventsignal.unsubscribe.callback.description
 
 
 ////

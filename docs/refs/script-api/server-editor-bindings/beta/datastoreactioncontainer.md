@@ -22,7 +22,7 @@ bindActionToControl(controlId: string, actionPayload: string): void
 //// define
 `controlId`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.controlid.bindactiontocontrol.description
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.bindactiontocontrol.controlid.description
 
 
 ////
@@ -30,7 +30,7 @@ bindActionToControl(controlId: string, actionPayload: string): void
 //// define
 `actionPayload`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.actionpayload.bindactiontocontrol.description
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.bindactiontocontrol.actionpayload.description
 
 
 ////
@@ -62,7 +62,7 @@ removeActionFromControl(controlId: string, actionPayload?: string): void
 //// define
 `controlId`：`string`
 
-- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.controlid.removeactionfromcontrol.description
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.removeactionfromcontrol.controlid.description
 
 
 ////
@@ -70,7 +70,7 @@ removeActionFromControl(controlId: string, actionPayload?: string): void
 //// define
 `actionPayload`：`string`|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.actionpayload.removeactionfromcontrol.description
+- script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.removeactionfromcontrol.actionpayload.description
 
 
 ////

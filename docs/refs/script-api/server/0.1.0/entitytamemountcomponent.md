@@ -22,7 +22,7 @@ tame(showParticles: boolean): void
 //// define
 `showParticles`：`boolean`
 
-- script_api.mojang-minecraft.entitytamemountcomponent.showparticles.tame.description
+- script_api.mojang-minecraft.entitytamemountcomponent.tame.showparticles.description
 
 
 ////

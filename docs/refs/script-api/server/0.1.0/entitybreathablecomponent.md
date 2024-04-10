@@ -244,7 +244,7 @@ setAirSupply(value: int16): void
 //// define
 `value`：`int16`
 
-- script_api.mojang-minecraft.entitybreathablecomponent.value.setairsupply.description
+- script_api.mojang-minecraft.entitybreathablecomponent.setairsupply.value.description
 
 
 ////

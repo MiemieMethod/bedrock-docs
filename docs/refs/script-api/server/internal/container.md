@@ -68,7 +68,7 @@ addItem(itemStack: ItemStack): ItemStack | undefined
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.container.itemstack.additem.description
+- script_api.@minecraft/server.container.additem.itemstack.description
 
 
 ////
@@ -124,7 +124,7 @@ getItem(slot: int32): ItemStack | undefined
 //// define
 `slot`：`int32`
 
-- script_api.@minecraft/server.container.slot.getitem.description
+- script_api.@minecraft/server.container.getitem.slot.description
 
 
 ////
@@ -156,7 +156,7 @@ getSlot(slot: int32): ContainerSlot
 //// define
 `slot`：`int32`
 
-- script_api.@minecraft/server.container.slot.getslot.description
+- script_api.@minecraft/server.container.getslot.slot.description
 
 
 ////
@@ -212,7 +212,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 //// define
 `fromSlot`：`int32`
 
-- script_api.@minecraft/server.container.fromslot.moveitem.description
+- script_api.@minecraft/server.container.moveitem.fromslot.description
 
 
 ////
@@ -220,7 +220,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 //// define
 `toSlot`：`int32`
 
-- script_api.@minecraft/server.container.toslot.moveitem.description
+- script_api.@minecraft/server.container.moveitem.toslot.description
 
 
 ////
@@ -228,7 +228,7 @@ moveItem(fromSlot: int32, toSlot: int32, toContainer: Container): void
 //// define
 `toContainer`：[`Container`](./container.md)
 
-- script_api.@minecraft/server.container.tocontainer.moveitem.description
+- script_api.@minecraft/server.container.moveitem.tocontainer.description
 
 
 ////
@@ -260,7 +260,7 @@ setItem(slot: int32, itemStack?: ItemStack): void
 //// define
 `slot`：`int32`
 
-- script_api.@minecraft/server.container.slot.setitem.description
+- script_api.@minecraft/server.container.setitem.slot.description
 
 
 ////
@@ -268,7 +268,7 @@ setItem(slot: int32, itemStack?: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- script_api.@minecraft/server.container.itemstack.setitem.description
+- script_api.@minecraft/server.container.setitem.itemstack.description
 
 
 ////
@@ -300,7 +300,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 //// define
 `slot`：`int32`
 
-- script_api.@minecraft/server.container.slot.swapitems.description
+- script_api.@minecraft/server.container.swapitems.slot.description
 
 
 ////
@@ -308,7 +308,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 //// define
 `otherSlot`：`int32`
 
-- script_api.@minecraft/server.container.otherslot.swapitems.description
+- script_api.@minecraft/server.container.swapitems.otherslot.description
 
 
 ////
@@ -316,7 +316,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): void
 //// define
 `otherContainer`：[`Container`](./container.md)
 
-- script_api.@minecraft/server.container.othercontainer.swapitems.description
+- script_api.@minecraft/server.container.swapitems.othercontainer.description
 
 
 ////
@@ -348,7 +348,7 @@ transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 //// define
 `fromSlot`：`int32`
 
-- script_api.@minecraft/server.container.fromslot.transferitem.description
+- script_api.@minecraft/server.container.transferitem.fromslot.description
 
 
 ////
@@ -356,7 +356,7 @@ transferItem(fromSlot: int32, toContainer: Container): ItemStack | undefined
 //// define
 `toContainer`：[`Container`](./container.md)
 
-- script_api.@minecraft/server.container.tocontainer.transferitem.description
+- script_api.@minecraft/server.container.transferitem.tocontainer.description
 
 
 ////

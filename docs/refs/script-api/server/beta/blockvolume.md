@@ -68,7 +68,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 //// define
 `from`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.blockvolume.from.constructor.description
+- script_api.@minecraft/server.blockvolume.constructor.from.description
 
 
 ////
@@ -76,7 +76,7 @@ new constructor(from: Vector3, to: Vector3): BlockVolume
 //// define
 `to`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.blockvolume.to.constructor.description
+- script_api.@minecraft/server.blockvolume.constructor.to.description
 
 
 ////
@@ -108,7 +108,7 @@ doesLocationTouchFaces(pos: Vector3): boolean
 //// define
 `pos`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.blockvolume.pos.doeslocationtouchfaces.description
+- script_api.@minecraft/server.blockvolume.doeslocationtouchfaces.pos.description
 
 
 ////
@@ -140,7 +140,7 @@ doesVolumeTouchFaces(other: BlockVolume): boolean
 //// define
 `other`：[`BlockVolume`](./blockvolume.md)
 
-- script_api.@minecraft/server.blockvolume.other.doesvolumetouchfaces.description
+- script_api.@minecraft/server.blockvolume.doesvolumetouchfaces.other.description
 
 
 ////
@@ -172,7 +172,7 @@ intersects(other: BlockVolume): BlockVolumeIntersection
 //// define
 `other`：[`BlockVolume`](./blockvolume.md)
 
-- script_api.@minecraft/server.blockvolume.other.intersects.description
+- script_api.@minecraft/server.blockvolume.intersects.other.description
 
 
 ////

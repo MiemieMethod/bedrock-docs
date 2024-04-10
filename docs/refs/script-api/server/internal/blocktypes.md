@@ -22,7 +22,7 @@ static get(typeName: string): BlockType | undefined
 //// define
 `typeName`：`string`
 
-- script_api.@minecraft/server.blocktypes.typename.get.description
+- script_api.@minecraft/server.blocktypes.get.typename.description
 
 
 ////

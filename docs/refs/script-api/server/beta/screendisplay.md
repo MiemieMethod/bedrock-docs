@@ -46,7 +46,7 @@ hideAllExcept(hudElements?: HudElement[]): void
 //// define
 `hudElements`：<code><a href="../hudelement/">HudElement</a>[]</code>|`undefined`
 
-- script_api.@minecraft/server.screendisplay.hudelements.hideallexcept.description
+- script_api.@minecraft/server.screendisplay.hideallexcept.hudelements.description
 
 
 ////
@@ -78,7 +78,7 @@ isForcedHidden(hudElement: HudElement): boolean
 //// define
 `hudElement`：[`HudElement`](./hudelement.md)
 
-- script_api.@minecraft/server.screendisplay.hudelement.isforcedhidden.description
+- script_api.@minecraft/server.screendisplay.isforcedhidden.hudelement.description
 
 
 ////
@@ -158,7 +158,7 @@ setActionBar(text: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `text`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.screendisplay.text.setactionbar.description
+- script_api.@minecraft/server.screendisplay.setactionbar.text.description
 
 
 ////
@@ -190,7 +190,7 @@ setHudVisibility(visible: HudVisibility, hudElements?: HudElement[]): void
 //// define
 `visible`：[`HudVisibility`](./hudvisibility.md)
 
-- script_api.@minecraft/server.screendisplay.visible.sethudvisibility.description
+- script_api.@minecraft/server.screendisplay.sethudvisibility.visible.description
 
 
 ////
@@ -198,7 +198,7 @@ setHudVisibility(visible: HudVisibility, hudElements?: HudElement[]): void
 //// define
 `hudElements`：<code><a href="../hudelement/">HudElement</a>[]</code>|`undefined`
 
-- script_api.@minecraft/server.screendisplay.hudelements.sethudvisibility.description
+- script_api.@minecraft/server.screendisplay.sethudvisibility.hudelements.description
 
 
 ////
@@ -230,7 +230,7 @@ setTitle(title: (RawMessage | string)[] | RawMessage | string, options?: TitleDi
 //// define
 `title`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.screendisplay.title.settitle.description
+- script_api.@minecraft/server.screendisplay.settitle.title.description
 
 
 ////
@@ -238,7 +238,7 @@ setTitle(title: (RawMessage | string)[] | RawMessage | string, options?: TitleDi
 //// define
 `options`：[`TitleDisplayOptions`](./titledisplayoptions.md)|`undefined`
 
-- script_api.@minecraft/server.screendisplay.options.settitle.description
+- script_api.@minecraft/server.screendisplay.settitle.options.description
 
 
 ////
@@ -270,7 +270,7 @@ updateSubtitle(subtitle: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `subtitle`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.screendisplay.subtitle.updatesubtitle.description
+- script_api.@minecraft/server.screendisplay.updatesubtitle.subtitle.description
 
 
 ////

@@ -68,7 +68,7 @@ getItemCooldown(cooldownCategory: string): int32
 //// define
 `cooldownCategory`：`string`
 
-- script_api.mojang-minecraft.player.cooldowncategory.getitemcooldown.description
+- script_api.mojang-minecraft.player.getitemcooldown.cooldowncategory.description
 
 
 ////
@@ -100,7 +100,7 @@ playSound(soundId: string, soundOptions?: SoundOptions): void
 //// define
 `soundId`：`string`
 
-- script_api.mojang-minecraft.player.soundid.playsound.description
+- script_api.mojang-minecraft.player.playsound.soundid.description
 
 
 ////
@@ -108,7 +108,7 @@ playSound(soundId: string, soundOptions?: SoundOptions): void
 //// define
 `soundOptions`：[`SoundOptions`](./soundoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.player.soundoptions.playsound.description
+- script_api.mojang-minecraft.player.playsound.soundoptions.description
 
 
 ////
@@ -140,7 +140,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `id`：`string`
 
-- script_api.mojang-minecraft.player.id.postclientmessage.description
+- script_api.mojang-minecraft.player.postclientmessage.id.description
 
 
 ////
@@ -148,7 +148,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `value`：`string`
 
-- script_api.mojang-minecraft.player.value.postclientmessage.description
+- script_api.mojang-minecraft.player.postclientmessage.value.description
 
 
 ////
@@ -180,7 +180,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `cooldownCategory`：`string`
 
-- script_api.mojang-minecraft.player.cooldowncategory.startitemcooldown.description
+- script_api.mojang-minecraft.player.startitemcooldown.cooldowncategory.description
 
 
 ////
@@ -188,7 +188,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `tickDuration`：`int32`
 
-- script_api.mojang-minecraft.player.tickduration.startitemcooldown.description
+- script_api.mojang-minecraft.player.startitemcooldown.tickduration.description
 
 
 ////

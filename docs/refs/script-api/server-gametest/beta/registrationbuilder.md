@@ -22,7 +22,7 @@ batch(batchName: string): RegistrationBuilder
 //// define
 `batchName`：`string`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.batchname.batch.description
+- script_api.@minecraft/server-gametest.registrationbuilder.batch.batchname.description
 
 
 ////
@@ -54,7 +54,7 @@ maxAttempts(attemptCount: int32): RegistrationBuilder
 //// define
 `attemptCount`：`int32`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.attemptcount.maxattempts.description
+- script_api.@minecraft/server-gametest.registrationbuilder.maxattempts.attemptcount.description
 
 
 ////
@@ -86,7 +86,7 @@ maxTicks(tickCount: int32): RegistrationBuilder
 //// define
 `tickCount`：`int32`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.tickcount.maxticks.description
+- script_api.@minecraft/server-gametest.registrationbuilder.maxticks.tickcount.description
 
 
 ////
@@ -118,7 +118,7 @@ padding(paddingBlocks: int32): RegistrationBuilder
 //// define
 `paddingBlocks`：`int32`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.paddingblocks.padding.description
+- script_api.@minecraft/server-gametest.registrationbuilder.padding.paddingblocks.description
 
 
 ////
@@ -150,7 +150,7 @@ required(isRequired: boolean): RegistrationBuilder
 //// define
 `isRequired`：`boolean`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.isrequired.required.description
+- script_api.@minecraft/server-gametest.registrationbuilder.required.isrequired.description
 
 
 ////
@@ -182,7 +182,7 @@ requiredSuccessfulAttempts(attemptCount: int32): RegistrationBuilder
 //// define
 `attemptCount`：`int32`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.attemptcount.requiredsuccessfulattempts.description
+- script_api.@minecraft/server-gametest.registrationbuilder.requiredsuccessfulattempts.attemptcount.description
 
 
 ////
@@ -214,7 +214,7 @@ rotateTest(rotate: boolean): RegistrationBuilder
 //// define
 `rotate`：`boolean`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.rotate.rotatetest.description
+- script_api.@minecraft/server-gametest.registrationbuilder.rotatetest.rotate.description
 
 
 ////
@@ -246,7 +246,7 @@ setupTicks(tickCount: int32): RegistrationBuilder
 //// define
 `tickCount`：`int32`
 
-- script_api.@minecraft/server-gametest.registrationbuilder.tickcount.setupticks.description
+- script_api.@minecraft/server-gametest.registrationbuilder.setupticks.tickcount.description
 
 
 ////

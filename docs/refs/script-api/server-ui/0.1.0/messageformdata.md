@@ -22,7 +22,7 @@ body(bodyText: string): MessageFormData
 //// define
 `bodyText`：`string`
 
-- script_api.mojang-minecraft-ui.messageformdata.bodytext.body.description
+- script_api.mojang-minecraft-ui.messageformdata.body.bodytext.description
 
 
 ////
@@ -54,7 +54,7 @@ button1(text: string): MessageFormData
 //// define
 `text`：`string`
 
-- script_api.mojang-minecraft-ui.messageformdata.text.button1.description
+- script_api.mojang-minecraft-ui.messageformdata.button1.text.description
 
 
 ////
@@ -86,7 +86,7 @@ button2(text: string): MessageFormData
 //// define
 `text`：`string`
 
-- script_api.mojang-minecraft-ui.messageformdata.text.button2.description
+- script_api.mojang-minecraft-ui.messageformdata.button2.text.description
 
 
 ////
@@ -142,7 +142,7 @@ show(player: Player): Promise<MessageFormResponse>
 //// define
 `player`：[`Player`](../../server/0.1.0/player.md)
 
-- script_api.mojang-minecraft-ui.messageformdata.player.show.description
+- script_api.mojang-minecraft-ui.messageformdata.show.player.description
 
 
 ////
@@ -174,7 +174,7 @@ title(titleText: string): MessageFormData
 //// define
 `titleText`：`string`
 
-- script_api.mojang-minecraft-ui.messageformdata.titletext.title.description
+- script_api.mojang-minecraft-ui.messageformdata.title.titletext.description
 
 
 ////

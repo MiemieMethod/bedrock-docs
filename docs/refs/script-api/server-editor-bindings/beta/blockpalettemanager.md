@@ -46,7 +46,7 @@ setSelectedBlockType(block: BlockType): void
 //// define
 `block`：[`BlockType`](../../server/beta/blocktype.md)
 
-- script_api.@minecraft/server-editor-bindings.blockpalettemanager.block.setselectedblocktype.description
+- script_api.@minecraft/server-editor-bindings.blockpalettemanager.setselectedblocktype.block.description
 
 
 ////

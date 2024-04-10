@@ -272,7 +272,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.containerslot.identifier.getdynamicproperty.description
+- script_api.@minecraft/server.containerslot.getdynamicproperty.identifier.description
 
 
 ////
@@ -448,7 +448,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.@minecraft/server.containerslot.tag.hastag.description
+- script_api.@minecraft/server.containerslot.hastag.tag.description
 
 
 ////
@@ -480,7 +480,7 @@ isStackableWith(itemStack: ItemStack): boolean
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.containerslot.itemstack.isstackablewith.description
+- script_api.@minecraft/server.containerslot.isstackablewith.itemstack.description
 
 
 ////
@@ -536,7 +536,7 @@ setCanDestroy(blockIdentifiers?: string[]): void
 //// define
 `blockIdentifiers`：`string[]`|`undefined`
 
-- script_api.@minecraft/server.containerslot.blockidentifiers.setcandestroy.description
+- script_api.@minecraft/server.containerslot.setcandestroy.blockidentifiers.description
 
 
 ////
@@ -568,7 +568,7 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 //// define
 `blockIdentifiers`：`string[]`|`undefined`
 
-- script_api.@minecraft/server.containerslot.blockidentifiers.setcanplaceon.description
+- script_api.@minecraft/server.containerslot.setcanplaceon.blockidentifiers.description
 
 
 ////
@@ -600,7 +600,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.containerslot.identifier.setdynamicproperty.description
+- script_api.@minecraft/server.containerslot.setdynamicproperty.identifier.description
 
 
 ////
@@ -608,7 +608,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- script_api.@minecraft/server.containerslot.value.setdynamicproperty.description
+- script_api.@minecraft/server.containerslot.setdynamicproperty.value.description
 
 
 ////
@@ -640,7 +640,7 @@ setItem(itemStack?: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
 
-- script_api.@minecraft/server.containerslot.itemstack.setitem.description
+- script_api.@minecraft/server.containerslot.setitem.itemstack.description
 
 
 ////
@@ -672,7 +672,7 @@ setLore(loreList?: string[]): void
 //// define
 `loreList`：`string[]`|`undefined`
 
-- script_api.@minecraft/server.containerslot.lorelist.setlore.description
+- script_api.@minecraft/server.containerslot.setlore.lorelist.description
 
 
 ////

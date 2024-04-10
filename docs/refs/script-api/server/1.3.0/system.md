@@ -46,7 +46,7 @@ clearRun(runId: uint32): void
 //// define
 `runId`：`uint32`
 
-- script_api.@minecraft/server.system.runid.clearrun.description
+- script_api.@minecraft/server.system.clearrun.runid.description
 
 
 ////
@@ -78,7 +78,7 @@ run(callback: () => void): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server.system.callback.run.description
+- script_api.@minecraft/server.system.run.callback.description
 
 
 ////
@@ -110,7 +110,7 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server.system.callback.runinterval.description
+- script_api.@minecraft/server.system.runinterval.callback.description
 
 
 ////
@@ -118,7 +118,7 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 //// define
 `tickInterval`：`uint32`|`undefined`
 
-- script_api.@minecraft/server.system.tickinterval.runinterval.description
+- script_api.@minecraft/server.system.runinterval.tickinterval.description
 
 
 ////
@@ -150,7 +150,7 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server.system.callback.runtimeout.description
+- script_api.@minecraft/server.system.runtimeout.callback.description
 
 
 ////
@@ -158,7 +158,7 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 //// define
 `tickDelay`：`uint32`|`undefined`
 
-- script_api.@minecraft/server.system.tickdelay.runtimeout.description
+- script_api.@minecraft/server.system.runtimeout.tickdelay.description
 
 
 ////

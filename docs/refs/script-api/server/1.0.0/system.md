@@ -22,7 +22,7 @@ run(callback: () => void): uint32
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server.system.callback.run.description
+- script_api.@minecraft/server.system.run.callback.description
 
 
 ////

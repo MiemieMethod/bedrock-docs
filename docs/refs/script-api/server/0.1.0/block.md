@@ -244,7 +244,7 @@ getComponent(componentName: string): BlockComponent | undefined
 //// define
 `componentName`：`string`
 
-- script_api.mojang-minecraft.block.componentname.getcomponent.description
+- script_api.mojang-minecraft.block.getcomponent.componentname.description
 
 
 ////
@@ -300,7 +300,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.mojang-minecraft.block.tag.hastag.description
+- script_api.mojang-minecraft.block.hastag.tag.description
 
 
 ////
@@ -332,7 +332,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.mojang-minecraft.block.permutation.setpermutation.description
+- script_api.mojang-minecraft.block.setpermutation.permutation.description
 
 
 ////
@@ -364,7 +364,7 @@ setType(blockType: BlockType): void
 //// define
 `blockType`：[`BlockType`](./blocktype.md)
 
-- script_api.mojang-minecraft.block.blocktype.settype.description
+- script_api.mojang-minecraft.block.settype.blocktype.description
 
 
 ////

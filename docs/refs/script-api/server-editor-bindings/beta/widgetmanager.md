@@ -22,7 +22,7 @@ createGroup(options?: WidgetGroupCreateOptions): WidgetGroup
 //// define
 `options`：[`WidgetGroupCreateOptions`](./widgetgroupcreateoptions.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.widgetmanager.options.creategroup.description
+- script_api.@minecraft/server-editor-bindings.widgetmanager.creategroup.options.description
 
 
 ////
@@ -54,7 +54,7 @@ deleteGroup(groupToDelete: WidgetGroup): void
 //// define
 `groupToDelete`：[`WidgetGroup`](./widgetgroup.md)
 
-- script_api.@minecraft/server-editor-bindings.widgetmanager.grouptodelete.deletegroup.description
+- script_api.@minecraft/server-editor-bindings.widgetmanager.deletegroup.grouptodelete.description
 
 
 ////

@@ -134,7 +134,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server-editor-bindings.settingsuielement.name.constructor.description
+- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.name.description
 
 
 ////
@@ -142,7 +142,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `initialValue`：`boolean`|`int32`
 
-- script_api.@minecraft/server-editor-bindings.settingsuielement.initialvalue.constructor.description
+- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.initialvalue.description
 
 
 ////
@@ -150,7 +150,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `min`：`int32`|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.settingsuielement.min.constructor.description
+- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.min.description
 
 
 ////
@@ -158,7 +158,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `max`：`int32`|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.settingsuielement.max.constructor.description
+- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.max.description
 
 
 ////
@@ -166,7 +166,7 @@ new constructor(name: string, initialValue: boolean | int32, min?: int32, max?: 
 //// define
 `valueChanged`：<code>(boolean | int32) =&gt; void</code>|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.settingsuielement.valuechanged.constructor.description
+- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.valuechanged.description
 
 
 ////

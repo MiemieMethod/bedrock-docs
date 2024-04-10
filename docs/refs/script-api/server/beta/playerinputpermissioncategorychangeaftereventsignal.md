@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => void
 //// define
 `callback`：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInputPermissionCategoryChangeAfterEvent) => vo
 //// define
 `callback`：<code>(<a href="../playerinputpermissioncategorychangeafterevent/">PlayerInputPermissionCategoryChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playerinputpermissioncategorychangeaftereventsignal.unsubscribe.callback.description
 
 
 ////

@@ -68,7 +68,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.createexplosion.description
+- script_api.@minecraft/server.dimension.createexplosion.location.description
 
 
 ////
@@ -76,7 +76,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 //// define
 `radius`：`float`
 
-- script_api.@minecraft/server.dimension.radius.createexplosion.description
+- script_api.@minecraft/server.dimension.createexplosion.radius.description
 
 
 ////
@@ -84,7 +84,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 //// define
 `explosionOptions`：[`ExplosionOptions`](./explosionoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.explosionoptions.createexplosion.description
+- script_api.@minecraft/server.dimension.createexplosion.explosionoptions.description
 
 
 ////
@@ -116,7 +116,7 @@ getBlock(location: Vector3): Block | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getblock.description
+- script_api.@minecraft/server.dimension.getblock.location.description
 
 
 ////
@@ -148,7 +148,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getblockfromray.description
+- script_api.@minecraft/server.dimension.getblockfromray.location.description
 
 
 ////
@@ -156,7 +156,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.direction.getblockfromray.description
+- script_api.@minecraft/server.dimension.getblockfromray.direction.description
 
 
 ////
@@ -164,7 +164,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getblockfromray.description
+- script_api.@minecraft/server.dimension.getblockfromray.options.description
 
 
 ////
@@ -196,7 +196,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getentities.description
+- script_api.@minecraft/server.dimension.getentities.options.description
 
 
 ////
@@ -228,7 +228,7 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getentitiesatblocklocation.description
+- script_api.@minecraft/server.dimension.getentitiesatblocklocation.location.description
 
 
 ////
@@ -260,7 +260,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getentitiesfromray.description
+- script_api.@minecraft/server.dimension.getentitiesfromray.location.description
 
 
 ////
@@ -268,7 +268,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `direction`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.direction.getentitiesfromray.description
+- script_api.@minecraft/server.dimension.getentitiesfromray.direction.description
 
 
 ////
@@ -276,7 +276,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getentitiesfromray.description
+- script_api.@minecraft/server.dimension.getentitiesfromray.options.description
 
 
 ////
@@ -308,7 +308,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getplayers.description
+- script_api.@minecraft/server.dimension.getplayers.options.description
 
 
 ////
@@ -340,7 +340,7 @@ runCommand(commandString: string): CommandResult
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.dimension.commandstring.runcommand.description
+- script_api.@minecraft/server.dimension.runcommand.commandstring.description
 
 
 ////
@@ -372,7 +372,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.dimension.commandstring.runcommandasync.description
+- script_api.@minecraft/server.dimension.runcommandasync.commandstring.description
 
 
 ////
@@ -404,7 +404,7 @@ setWeather(weatherType: WeatherType, duration?: int32): void
 //// define
 `weatherType`：[`WeatherType`](./weathertype.md)
 
-- script_api.@minecraft/server.dimension.weathertype.setweather.description
+- script_api.@minecraft/server.dimension.setweather.weathertype.description
 
 
 ////
@@ -412,7 +412,7 @@ setWeather(weatherType: WeatherType, duration?: int32): void
 //// define
 `duration`：`int32`|`undefined`
 
-- script_api.@minecraft/server.dimension.duration.setweather.description
+- script_api.@minecraft/server.dimension.setweather.duration.description
 
 
 ////
@@ -444,7 +444,7 @@ spawnEntity(identifier: string, location: Vector3): Entity
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.dimension.identifier.spawnentity.description
+- script_api.@minecraft/server.dimension.spawnentity.identifier.description
 
 
 ////
@@ -452,7 +452,7 @@ spawnEntity(identifier: string, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnentity.description
+- script_api.@minecraft/server.dimension.spawnentity.location.description
 
 
 ////
@@ -484,7 +484,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.dimension.itemstack.spawnitem.description
+- script_api.@minecraft/server.dimension.spawnitem.itemstack.description
 
 
 ////
@@ -492,7 +492,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnitem.description
+- script_api.@minecraft/server.dimension.spawnitem.location.description
 
 
 ////
@@ -524,7 +524,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `effectName`：`string`
 
-- script_api.@minecraft/server.dimension.effectname.spawnparticle.description
+- script_api.@minecraft/server.dimension.spawnparticle.effectname.description
 
 
 ////
@@ -532,7 +532,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnparticle.description
+- script_api.@minecraft/server.dimension.spawnparticle.location.description
 
 
 ////
@@ -540,7 +540,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.molangvariables.spawnparticle.description
+- script_api.@minecraft/server.dimension.spawnparticle.molangvariables.description
 
 
 ////

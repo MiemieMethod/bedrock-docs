@@ -22,7 +22,7 @@ subscribe(callback: (arg: ItemUseAfterEvent) => void): (arg: ItemUseAfterEvent) 
 //// define
 `callback`：<code>(<a href="../itemuseafterevent/">ItemUseAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.itemuseaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.itemuseaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: ItemUseAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../itemuseafterevent/">ItemUseAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.itemuseaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.itemuseaftereventsignal.unsubscribe.callback.description
 
 
 ////

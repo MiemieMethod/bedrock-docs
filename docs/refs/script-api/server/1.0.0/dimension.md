@@ -46,7 +46,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.dimension.commandstring.runcommandasync.description
+- script_api.@minecraft/server.dimension.runcommandasync.commandstring.description
 
 
 ////

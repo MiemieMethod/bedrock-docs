@@ -22,7 +22,7 @@ subscribe(callback: (arg: TargetBlockHitAfterEvent) => void): (arg: TargetBlockH
 //// define
 `callback`：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.targetblockhitaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.targetblockhitaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: TargetBlockHitAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../targetblockhitafterevent/">TargetBlockHitAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.targetblockhitaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.targetblockhitaftereventsignal.unsubscribe.callback.description
 
 
 ////

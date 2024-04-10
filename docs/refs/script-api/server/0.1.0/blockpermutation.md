@@ -70,7 +70,7 @@ getProperty(propertyName: string): IBlockProperty | undefined
 //// define
 `propertyName`：`string`
 
-- script_api.mojang-minecraft.blockpermutation.propertyname.getproperty.description
+- script_api.mojang-minecraft.blockpermutation.getproperty.propertyname.description
 
 
 ////
@@ -126,7 +126,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.mojang-minecraft.blockpermutation.tag.hastag.description
+- script_api.mojang-minecraft.blockpermutation.hastag.tag.description
 
 
 ////

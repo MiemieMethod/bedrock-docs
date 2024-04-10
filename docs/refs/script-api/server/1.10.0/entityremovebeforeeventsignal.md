@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityRemoveBeforeEvent) => void): (arg: EntityRemoveB
 //// define
 `callback`：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityremovebeforeeventsignal.callback.subscribe.description
+- script_api.@minecraft/server.entityremovebeforeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: EntityRemoveBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityremovebeforeevent/">EntityRemoveBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityremovebeforeeventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.entityremovebeforeeventsignal.unsubscribe.callback.description
 
 
 ////

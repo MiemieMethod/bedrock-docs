@@ -46,7 +46,7 @@ setColorRGB(variableName: string, color: Color): void
 //// define
 `variableName`：`string`
 
-- script_api.mojang-minecraft.molangvariablemap.variablename.setcolorrgb.description
+- script_api.mojang-minecraft.molangvariablemap.setcolorrgb.variablename.description
 
 
 ////
@@ -54,7 +54,7 @@ setColorRGB(variableName: string, color: Color): void
 //// define
 `color`：[`Color`](./color.md)
 
-- script_api.mojang-minecraft.molangvariablemap.color.setcolorrgb.description
+- script_api.mojang-minecraft.molangvariablemap.setcolorrgb.color.description
 
 
 ////
@@ -86,7 +86,7 @@ setColorRGBA(variableName: string, color: Color): void
 //// define
 `variableName`：`string`
 
-- script_api.mojang-minecraft.molangvariablemap.variablename.setcolorrgba.description
+- script_api.mojang-minecraft.molangvariablemap.setcolorrgba.variablename.description
 
 
 ////
@@ -94,7 +94,7 @@ setColorRGBA(variableName: string, color: Color): void
 //// define
 `color`：[`Color`](./color.md)
 
-- script_api.mojang-minecraft.molangvariablemap.color.setcolorrgba.description
+- script_api.mojang-minecraft.molangvariablemap.setcolorrgba.color.description
 
 
 ////
@@ -126,7 +126,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 //// define
 `variableName`：`string`
 
-- script_api.mojang-minecraft.molangvariablemap.variablename.setspeedanddirection.description
+- script_api.mojang-minecraft.molangvariablemap.setspeedanddirection.variablename.description
 
 
 ////
@@ -134,7 +134,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 //// define
 `speed`：`float`
 
-- script_api.mojang-minecraft.molangvariablemap.speed.setspeedanddirection.description
+- script_api.mojang-minecraft.molangvariablemap.setspeedanddirection.speed.description
 
 
 ////
@@ -142,7 +142,7 @@ setSpeedAndDirection(variableName: string, speed: float, direction: Vector): Mol
 //// define
 `direction`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.molangvariablemap.direction.setspeedanddirection.description
+- script_api.mojang-minecraft.molangvariablemap.setspeedanddirection.direction.description
 
 
 ////
@@ -174,7 +174,7 @@ setVector3(variableName: string, vector: Vector): MolangVariableMap
 //// define
 `variableName`：`string`
 
-- script_api.mojang-minecraft.molangvariablemap.variablename.setvector3.description
+- script_api.mojang-minecraft.molangvariablemap.setvector3.variablename.description
 
 
 ////
@@ -182,7 +182,7 @@ setVector3(variableName: string, vector: Vector): MolangVariableMap
 //// define
 `vector`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.molangvariablemap.vector.setvector3.description
+- script_api.mojang-minecraft.molangvariablemap.setvector3.vector.description
 
 
 ////

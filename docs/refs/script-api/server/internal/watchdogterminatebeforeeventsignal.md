@@ -22,7 +22,7 @@ subscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): (arg: Watchdog
 //// define
 `callback`：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.callback.subscribe.description
+- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: WatchdogTerminateBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../watchdogterminatebeforeevent/">WatchdogTerminateBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.watchdogterminatebeforeeventsignal.unsubscribe.callback.description
 
 
 ////

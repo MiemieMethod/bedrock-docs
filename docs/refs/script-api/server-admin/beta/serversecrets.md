@@ -46,7 +46,7 @@ get(name: string): SecretString | undefined
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server-admin.serversecrets.name.get.description
+- script_api.@minecraft/server-admin.serversecrets.get.name.description
 
 
 ////

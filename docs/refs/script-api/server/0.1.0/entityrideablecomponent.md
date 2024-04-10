@@ -200,7 +200,7 @@ addRider(rider: Entity): boolean
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- script_api.mojang-minecraft.entityrideablecomponent.rider.addrider.description
+- script_api.mojang-minecraft.entityrideablecomponent.addrider.rider.description
 
 
 ////
@@ -232,7 +232,7 @@ ejectRider(rider: Entity): void
 //// define
 `rider`：[`Entity`](./entity.md)
 
-- script_api.mojang-minecraft.entityrideablecomponent.rider.ejectrider.description
+- script_api.mojang-minecraft.entityrideablecomponent.ejectrider.rider.description
 
 
 ////

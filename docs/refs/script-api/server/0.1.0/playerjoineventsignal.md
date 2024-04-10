@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerJoinEvent) => void): (arg: PlayerJoinEvent) => v
 //// define
 `callback`：<code>(<a href="../playerjoinevent/">PlayerJoinEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.playerjoineventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.playerjoineventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerJoinEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerjoinevent/">PlayerJoinEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.playerjoineventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.playerjoineventsignal.unsubscribe.callback.description
 
 
 ////

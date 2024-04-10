@@ -68,7 +68,7 @@ new constructor(key: string, value: SecretString | string): HttpHeader
 //// define
 `key`：`string`
 
-- script_api.@minecraft/server-net.httpheader.key.constructor.description
+- script_api.@minecraft/server-net.httpheader.constructor.key.description
 
 
 ////
@@ -76,7 +76,7 @@ new constructor(key: string, value: SecretString | string): HttpHeader
 //// define
 `value`：[`SecretString`](../../server-admin/beta/secretstring.md)|`string`
 
-- script_api.@minecraft/server-net.httpheader.value.constructor.description
+- script_api.@minecraft/server-net.httpheader.constructor.value.description
 
 
 ////

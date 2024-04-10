@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): (arg: Pla
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInteractWithBlockAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerinteractwithblockafterevent/">PlayerInteractWithBlockAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playerinteractwithblockaftereventsignal.unsubscribe.callback.description
 
 
 ////

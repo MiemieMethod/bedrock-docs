@@ -46,7 +46,7 @@ get(name: string): any | undefined
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server-admin.servervariables.name.get.description
+- script_api.@minecraft/server-admin.servervariables.get.name.description
 
 
 ////

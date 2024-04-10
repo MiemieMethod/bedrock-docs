@@ -46,7 +46,7 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 //// define
 `location`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.dimension.location.createexplosion.description
+- script_api.mojang-minecraft.dimension.createexplosion.location.description
 
 
 ////
@@ -54,7 +54,7 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 //// define
 `radius`：`float`
 
-- script_api.mojang-minecraft.dimension.radius.createexplosion.description
+- script_api.mojang-minecraft.dimension.createexplosion.radius.description
 
 
 ////
@@ -62,7 +62,7 @@ createExplosion(location: Location, radius: float, explosionOptions: ExplosionOp
 //// define
 `explosionOptions`：[`ExplosionOptions`](./explosionoptions.md)
 
-- script_api.mojang-minecraft.dimension.explosionoptions.createexplosion.description
+- script_api.mojang-minecraft.dimension.createexplosion.explosionoptions.description
 
 
 ////
@@ -94,7 +94,7 @@ getBlock(location: BlockLocation): Block
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- script_api.mojang-minecraft.dimension.location.getblock.description
+- script_api.mojang-minecraft.dimension.getblock.location.description
 
 
 ////
@@ -126,7 +126,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 //// define
 `location`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.dimension.location.getblockfromray.description
+- script_api.mojang-minecraft.dimension.getblockfromray.location.description
 
 
 ////
@@ -134,7 +134,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 //// define
 `direction`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.dimension.direction.getblockfromray.description
+- script_api.mojang-minecraft.dimension.getblockfromray.direction.description
 
 
 ////
@@ -142,7 +142,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.dimension.options.getblockfromray.description
+- script_api.mojang-minecraft.dimension.getblockfromray.options.description
 
 
 ////
@@ -174,7 +174,7 @@ getEntities(options?: EntityQueryOptions): EntityIterator
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.dimension.options.getentities.description
+- script_api.mojang-minecraft.dimension.getentities.options.description
 
 
 ////
@@ -206,7 +206,7 @@ getEntitiesAtBlockLocation(location: BlockLocation): Entity[]
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- script_api.mojang-minecraft.dimension.location.getentitiesatblocklocation.description
+- script_api.mojang-minecraft.dimension.getentitiesatblocklocation.location.description
 
 
 ////
@@ -238,7 +238,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 //// define
 `location`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.dimension.location.getentitiesfromray.description
+- script_api.mojang-minecraft.dimension.getentitiesfromray.location.description
 
 
 ////
@@ -246,7 +246,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 //// define
 `direction`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.dimension.direction.getentitiesfromray.description
+- script_api.mojang-minecraft.dimension.getentitiesfromray.direction.description
 
 
 ////
@@ -254,7 +254,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.dimension.options.getentitiesfromray.description
+- script_api.mojang-minecraft.dimension.getentitiesfromray.options.description
 
 
 ////
@@ -286,7 +286,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.dimension.options.getplayers.description
+- script_api.mojang-minecraft.dimension.getplayers.options.description
 
 
 ////
@@ -318,7 +318,7 @@ isEmpty(location: BlockLocation): boolean
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)
 
-- script_api.mojang-minecraft.dimension.location.isempty.description
+- script_api.mojang-minecraft.dimension.isempty.location.description
 
 
 ////
@@ -350,7 +350,7 @@ runCommand(commandString: string): any
 //// define
 `commandString`：`string`
 
-- script_api.mojang-minecraft.dimension.commandstring.runcommand.description
+- script_api.mojang-minecraft.dimension.runcommand.commandstring.description
 
 
 ////
@@ -382,7 +382,7 @@ spawnEntity(identifier: string, location: BlockLocation | Location): Entity
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.dimension.identifier.spawnentity.description
+- script_api.mojang-minecraft.dimension.spawnentity.identifier.description
 
 
 ////
@@ -390,7 +390,7 @@ spawnEntity(identifier: string, location: BlockLocation | Location): Entity
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)|[`Location`](./location.md)
 
-- script_api.mojang-minecraft.dimension.location.spawnentity.description
+- script_api.mojang-minecraft.dimension.spawnentity.location.description
 
 
 ////
@@ -422,7 +422,7 @@ spawnItem(item: ItemStack, location: BlockLocation | Location): Entity
 //// define
 `item`：[`ItemStack`](./itemstack.md)
 
-- script_api.mojang-minecraft.dimension.item.spawnitem.description
+- script_api.mojang-minecraft.dimension.spawnitem.item.description
 
 
 ////
@@ -430,7 +430,7 @@ spawnItem(item: ItemStack, location: BlockLocation | Location): Entity
 //// define
 `location`：[`BlockLocation`](./blocklocation.md)|[`Location`](./location.md)
 
-- script_api.mojang-minecraft.dimension.location.spawnitem.description
+- script_api.mojang-minecraft.dimension.spawnitem.location.description
 
 
 ////
@@ -462,7 +462,7 @@ spawnParticle(effectName: string, location: Location, molangVariables: MolangVar
 //// define
 `effectName`：`string`
 
-- script_api.mojang-minecraft.dimension.effectname.spawnparticle.description
+- script_api.mojang-minecraft.dimension.spawnparticle.effectname.description
 
 
 ////
@@ -470,7 +470,7 @@ spawnParticle(effectName: string, location: Location, molangVariables: MolangVar
 //// define
 `location`：[`Location`](./location.md)
 
-- script_api.mojang-minecraft.dimension.location.spawnparticle.description
+- script_api.mojang-minecraft.dimension.spawnparticle.location.description
 
 
 ////
@@ -478,7 +478,7 @@ spawnParticle(effectName: string, location: Location, molangVariables: MolangVar
 //// define
 `molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)
 
-- script_api.mojang-minecraft.dimension.molangvariables.spawnparticle.description
+- script_api.mojang-minecraft.dimension.spawnparticle.molangvariables.description
 
 
 ////

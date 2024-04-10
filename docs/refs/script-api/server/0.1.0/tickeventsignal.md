@@ -22,7 +22,7 @@ subscribe(callback: (arg: TickEvent) => void): (arg: TickEvent) => void
 //// define
 `callback`：<code>(<a href="../tickevent/">TickEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.tickeventsignal.callback.subscribe.description
+- script_api.mojang-minecraft.tickeventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: TickEvent) => void): void
 //// define
 `callback`：<code>(<a href="../tickevent/">TickEvent</a>) =&gt; void</code>
 
-- script_api.mojang-minecraft.tickeventsignal.callback.unsubscribe.description
+- script_api.mojang-minecraft.tickeventsignal.unsubscribe.callback.description
 
 
 ////

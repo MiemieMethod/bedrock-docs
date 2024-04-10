@@ -68,7 +68,7 @@ broadcastClientMessage(id: string, value: string): void
 //// define
 `id`：`string`
 
-- script_api.mojang-minecraft.world.id.broadcastclientmessage.description
+- script_api.mojang-minecraft.world.broadcastclientmessage.id.description
 
 
 ////
@@ -76,7 +76,7 @@ broadcastClientMessage(id: string, value: string): void
 //// define
 `value`：`string`
 
-- script_api.mojang-minecraft.world.value.broadcastclientmessage.description
+- script_api.mojang-minecraft.world.broadcastclientmessage.value.description
 
 
 ////
@@ -108,7 +108,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- script_api.mojang-minecraft.world.dimensionid.getdimension.description
+- script_api.mojang-minecraft.world.getdimension.dimensionid.description
 
 
 ////
@@ -140,7 +140,7 @@ getDynamicProperty(identifier: string): boolean | double | float | Location | st
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.world.identifier.getdynamicproperty.description
+- script_api.mojang-minecraft.world.getdynamicproperty.identifier.description
 
 
 ////
@@ -172,7 +172,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.world.options.getplayers.description
+- script_api.mojang-minecraft.world.getplayers.options.description
 
 
 ////
@@ -204,7 +204,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- script_api.mojang-minecraft.world.trackid.playmusic.description
+- script_api.mojang-minecraft.world.playmusic.trackid.description
 
 
 ////
@@ -212,7 +212,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.world.musicoptions.playmusic.description
+- script_api.mojang-minecraft.world.playmusic.musicoptions.description
 
 
 ////
@@ -244,7 +244,7 @@ playSound(soundID: string, soundOptions?: SoundOptions): void
 //// define
 `soundID`：`string`
 
-- script_api.mojang-minecraft.world.soundid.playsound.description
+- script_api.mojang-minecraft.world.playsound.soundid.description
 
 
 ////
@@ -252,7 +252,7 @@ playSound(soundID: string, soundOptions?: SoundOptions): void
 //// define
 `soundOptions`：[`SoundOptions`](./soundoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.world.soundoptions.playsound.description
+- script_api.mojang-minecraft.world.playsound.soundoptions.description
 
 
 ////
@@ -284,7 +284,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- script_api.mojang-minecraft.world.trackid.queuemusic.description
+- script_api.mojang-minecraft.world.queuemusic.trackid.description
 
 
 ////
@@ -292,7 +292,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- script_api.mojang-minecraft.world.musicoptions.queuemusic.description
+- script_api.mojang-minecraft.world.queuemusic.musicoptions.description
 
 
 ////
@@ -324,7 +324,7 @@ removeDynamicProperty(identifier: string): boolean
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.world.identifier.removedynamicproperty.description
+- script_api.mojang-minecraft.world.removedynamicproperty.identifier.description
 
 
 ////
@@ -356,7 +356,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `identifier`：`string`
 
-- script_api.mojang-minecraft.world.identifier.setdynamicproperty.description
+- script_api.mojang-minecraft.world.setdynamicproperty.identifier.description
 
 
 ////
@@ -364,7 +364,7 @@ setDynamicProperty(identifier: string, value: boolean | double | float | Locatio
 //// define
 `value`：`boolean`|`double`|`float`|[`Location`](./location.md)|`string`
 
-- script_api.mojang-minecraft.world.value.setdynamicproperty.description
+- script_api.mojang-minecraft.world.setdynamicproperty.value.description
 
 
 ////

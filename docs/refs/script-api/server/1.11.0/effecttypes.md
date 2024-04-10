@@ -22,7 +22,7 @@ static get(identifier: string): EffectType | undefined
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.effecttypes.identifier.get.description
+- script_api.@minecraft/server.effecttypes.get.identifier.description
 
 
 ////

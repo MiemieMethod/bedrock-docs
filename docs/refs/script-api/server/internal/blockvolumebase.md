@@ -166,7 +166,7 @@ isInside(pos: Vector3): boolean
 //// define
 `pos`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.blockvolumebase.pos.isinside.description
+- script_api.@minecraft/server.blockvolumebase.isinside.pos.description
 
 
 ////
@@ -198,7 +198,7 @@ translate(delta: Vector3): void
 //// define
 `delta`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.blockvolumebase.delta.translate.description
+- script_api.@minecraft/server.blockvolumebase.translate.delta.description
 
 
 ////

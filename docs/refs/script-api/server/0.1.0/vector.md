@@ -268,7 +268,7 @@ static add(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.add.description
+- script_api.mojang-minecraft.vector.add.a.description
 
 
 ////
@@ -276,7 +276,7 @@ static add(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.add.description
+- script_api.mojang-minecraft.vector.add.b.description
 
 
 ////
@@ -308,7 +308,7 @@ new constructor(x: float, y: float, z: float): Vector
 //// define
 `x`：`float`
 
-- script_api.mojang-minecraft.vector.x.constructor.description
+- script_api.mojang-minecraft.vector.constructor.x.description
 
 
 ////
@@ -316,7 +316,7 @@ new constructor(x: float, y: float, z: float): Vector
 //// define
 `y`：`float`
 
-- script_api.mojang-minecraft.vector.y.constructor.description
+- script_api.mojang-minecraft.vector.constructor.y.description
 
 
 ////
@@ -324,7 +324,7 @@ new constructor(x: float, y: float, z: float): Vector
 //// define
 `z`：`float`
 
-- script_api.mojang-minecraft.vector.z.constructor.description
+- script_api.mojang-minecraft.vector.constructor.z.description
 
 
 ////
@@ -356,7 +356,7 @@ static cross(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.cross.description
+- script_api.mojang-minecraft.vector.cross.a.description
 
 
 ////
@@ -364,7 +364,7 @@ static cross(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.cross.description
+- script_api.mojang-minecraft.vector.cross.b.description
 
 
 ////
@@ -396,7 +396,7 @@ static distance(a: Vector, b: Vector): float
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.distance.description
+- script_api.mojang-minecraft.vector.distance.a.description
 
 
 ////
@@ -404,7 +404,7 @@ static distance(a: Vector, b: Vector): float
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.distance.description
+- script_api.mojang-minecraft.vector.distance.b.description
 
 
 ////
@@ -436,7 +436,7 @@ static divide(a: Vector, b: float | Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.divide.description
+- script_api.mojang-minecraft.vector.divide.a.description
 
 
 ////
@@ -444,7 +444,7 @@ static divide(a: Vector, b: float | Vector): Vector
 //// define
 `b`：`float`|[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.divide.description
+- script_api.mojang-minecraft.vector.divide.b.description
 
 
 ////
@@ -476,7 +476,7 @@ equals(other: Vector): boolean
 //// define
 `other`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.other.equals.description
+- script_api.mojang-minecraft.vector.equals.other.description
 
 
 ////
@@ -532,7 +532,7 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.lerp.description
+- script_api.mojang-minecraft.vector.lerp.a.description
 
 
 ////
@@ -540,7 +540,7 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.lerp.description
+- script_api.mojang-minecraft.vector.lerp.b.description
 
 
 ////
@@ -548,7 +548,7 @@ static lerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `t`：`float`
 
-- script_api.mojang-minecraft.vector.t.lerp.description
+- script_api.mojang-minecraft.vector.lerp.t.description
 
 
 ////
@@ -580,7 +580,7 @@ static max(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.max.description
+- script_api.mojang-minecraft.vector.max.a.description
 
 
 ////
@@ -588,7 +588,7 @@ static max(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.max.description
+- script_api.mojang-minecraft.vector.max.b.description
 
 
 ////
@@ -620,7 +620,7 @@ static min(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.min.description
+- script_api.mojang-minecraft.vector.min.a.description
 
 
 ////
@@ -628,7 +628,7 @@ static min(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.min.description
+- script_api.mojang-minecraft.vector.min.b.description
 
 
 ////
@@ -660,7 +660,7 @@ static multiply(a: Vector, b: float | Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.multiply.description
+- script_api.mojang-minecraft.vector.multiply.a.description
 
 
 ////
@@ -668,7 +668,7 @@ static multiply(a: Vector, b: float | Vector): Vector
 //// define
 `b`：`float`|[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.multiply.description
+- script_api.mojang-minecraft.vector.multiply.b.description
 
 
 ////
@@ -724,7 +724,7 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.slerp.description
+- script_api.mojang-minecraft.vector.slerp.a.description
 
 
 ////
@@ -732,7 +732,7 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.slerp.description
+- script_api.mojang-minecraft.vector.slerp.b.description
 
 
 ////
@@ -740,7 +740,7 @@ static slerp(a: Vector, b: Vector, t: float): Vector
 //// define
 `t`：`float`
 
-- script_api.mojang-minecraft.vector.t.slerp.description
+- script_api.mojang-minecraft.vector.slerp.t.description
 
 
 ////
@@ -772,7 +772,7 @@ static subtract(a: Vector, b: Vector): Vector
 //// define
 `a`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.a.subtract.description
+- script_api.mojang-minecraft.vector.subtract.a.description
 
 
 ////
@@ -780,7 +780,7 @@ static subtract(a: Vector, b: Vector): Vector
 //// define
 `b`：[`Vector`](./vector.md)
 
-- script_api.mojang-minecraft.vector.b.subtract.description
+- script_api.mojang-minecraft.vector.subtract.b.description
 
 
 ////

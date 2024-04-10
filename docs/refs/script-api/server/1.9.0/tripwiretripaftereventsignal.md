@@ -22,7 +22,7 @@ subscribe(callback: (arg: TripWireTripAfterEvent) => void): (arg: TripWireTripAf
 //// define
 `callback`：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.tripwiretripaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.tripwiretripaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: TripWireTripAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../tripwiretripafterevent/">TripWireTripAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.tripwiretripaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.tripwiretripaftereventsignal.unsubscribe.callback.description
 
 
 ////

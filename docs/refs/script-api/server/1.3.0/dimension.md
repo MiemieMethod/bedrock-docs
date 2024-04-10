@@ -46,7 +46,7 @@ getBlock(location: Vector3): Block | undefined
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getblock.description
+- script_api.@minecraft/server.dimension.getblock.location.description
 
 
 ////
@@ -78,7 +78,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getentities.description
+- script_api.@minecraft/server.dimension.getentities.options.description
 
 
 ////
@@ -110,7 +110,7 @@ getEntitiesAtBlockLocation(location: Vector3): Entity[]
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.getentitiesatblocklocation.description
+- script_api.@minecraft/server.dimension.getentitiesatblocklocation.location.description
 
 
 ////
@@ -142,7 +142,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
 
-- script_api.@minecraft/server.dimension.options.getplayers.description
+- script_api.@minecraft/server.dimension.getplayers.options.description
 
 
 ////
@@ -174,7 +174,7 @@ runCommand(commandString: string): CommandResult
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.dimension.commandstring.runcommand.description
+- script_api.@minecraft/server.dimension.runcommand.commandstring.description
 
 
 ////
@@ -206,7 +206,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.dimension.commandstring.runcommandasync.description
+- script_api.@minecraft/server.dimension.runcommandasync.commandstring.description
 
 
 ////
@@ -238,7 +238,7 @@ spawnEntity(identifier: string, location: Vector3): Entity
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.dimension.identifier.spawnentity.description
+- script_api.@minecraft/server.dimension.spawnentity.identifier.description
 
 
 ////
@@ -246,7 +246,7 @@ spawnEntity(identifier: string, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnentity.description
+- script_api.@minecraft/server.dimension.spawnentity.location.description
 
 
 ////
@@ -278,7 +278,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.dimension.itemstack.spawnitem.description
+- script_api.@minecraft/server.dimension.spawnitem.itemstack.description
 
 
 ////
@@ -286,7 +286,7 @@ spawnItem(itemStack: ItemStack, location: Vector3): Entity
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.dimension.location.spawnitem.description
+- script_api.@minecraft/server.dimension.spawnitem.location.description
 
 
 ////

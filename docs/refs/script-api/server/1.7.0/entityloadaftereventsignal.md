@@ -22,7 +22,7 @@ subscribe(callback: (arg: EntityLoadAfterEvent) => void): (arg: EntityLoadAfterE
 //// define
 `callback`：<code>(<a href="../entityloadafterevent/">EntityLoadAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityloadaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.entityloadaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: EntityLoadAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../entityloadafterevent/">EntityLoadAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.entityloadaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.entityloadaftereventsignal.unsubscribe.callback.description
 
 
 ////

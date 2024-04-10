@@ -22,7 +22,7 @@ static get(itemId: string): ItemType | undefined
 //// define
 `itemId`：`string`
 
-- script_api.mojang-minecraft.items.itemid.get.description
+- script_api.mojang-minecraft.items.get.itemid.description
 
 
 ////

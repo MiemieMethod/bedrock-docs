@@ -22,7 +22,7 @@ subscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): (arg: Curs
 //// define
 `callback`：<code>(<a href="../cursorpropertieschangeafterevent/">CursorPropertiesChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: CursorPropertiesChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../cursorpropertieschangeafterevent/">CursorPropertiesChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server-editor-bindings.cursorpropertychangeaftereventsignal.unsubscribe.callback.description
 
 
 ////

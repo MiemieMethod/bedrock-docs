@@ -68,7 +68,7 @@ new constructor(enchantmentType: string): EnchantmentType
 //// define
 `enchantmentType`：`string`
 
-- script_api.@minecraft/server.enchantmenttype.enchantmenttype.constructor.description
+- script_api.@minecraft/server.enchantmenttype.constructor.enchantmenttype.description
 
 
 ////

@@ -206,7 +206,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.entity.commandstring.runcommandasync.description
+- script_api.@minecraft/server.entity.runcommandasync.commandstring.description
 
 
 ////

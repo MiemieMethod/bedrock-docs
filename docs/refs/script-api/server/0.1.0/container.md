@@ -68,7 +68,7 @@ addItem(itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.mojang-minecraft.container.itemstack.additem.description
+- script_api.mojang-minecraft.container.additem.itemstack.description
 
 
 ////
@@ -100,7 +100,7 @@ getItem(slot: int32): ItemStack | undefined
 //// define
 `slot`：`int32`
 
-- script_api.mojang-minecraft.container.slot.getitem.description
+- script_api.mojang-minecraft.container.getitem.slot.description
 
 
 ////
@@ -132,7 +132,7 @@ setItem(slot: int32, itemStack: ItemStack): void
 //// define
 `slot`：`int32`
 
-- script_api.mojang-minecraft.container.slot.setitem.description
+- script_api.mojang-minecraft.container.setitem.slot.description
 
 
 ////
@@ -140,7 +140,7 @@ setItem(slot: int32, itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.mojang-minecraft.container.itemstack.setitem.description
+- script_api.mojang-minecraft.container.setitem.itemstack.description
 
 
 ////
@@ -172,7 +172,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 //// define
 `slot`：`int32`
 
-- script_api.mojang-minecraft.container.slot.swapitems.description
+- script_api.mojang-minecraft.container.swapitems.slot.description
 
 
 ////
@@ -180,7 +180,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 //// define
 `otherSlot`：`int32`
 
-- script_api.mojang-minecraft.container.otherslot.swapitems.description
+- script_api.mojang-minecraft.container.swapitems.otherslot.description
 
 
 ////
@@ -188,7 +188,7 @@ swapItems(slot: int32, otherSlot: int32, otherContainer: Container): boolean
 //// define
 `otherContainer`：[`Container`](./container.md)
 
-- script_api.mojang-minecraft.container.othercontainer.swapitems.description
+- script_api.mojang-minecraft.container.swapitems.othercontainer.description
 
 
 ////
@@ -220,7 +220,7 @@ transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 //// define
 `fromSlot`：`int32`
 
-- script_api.mojang-minecraft.container.fromslot.transferitem.description
+- script_api.mojang-minecraft.container.transferitem.fromslot.description
 
 
 ////
@@ -228,7 +228,7 @@ transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 //// define
 `toSlot`：`int32`
 
-- script_api.mojang-minecraft.container.toslot.transferitem.description
+- script_api.mojang-minecraft.container.transferitem.toslot.description
 
 
 ////
@@ -236,7 +236,7 @@ transferItem(fromSlot: int32, toSlot: int32, toContainer: Container): boolean
 //// define
 `toContainer`：[`Container`](./container.md)
 
-- script_api.mojang-minecraft.container.tocontainer.transferitem.description
+- script_api.mojang-minecraft.container.transferitem.tocontainer.description
 
 
 ////

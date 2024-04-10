@@ -46,7 +46,7 @@ getDimension(dimensionId: string): Dimension
 //// define
 `dimensionId`：`string`
 
-- script_api.@minecraft/server.world.dimensionid.getdimension.description
+- script_api.@minecraft/server.world.getdimension.dimensionid.description
 
 
 ////

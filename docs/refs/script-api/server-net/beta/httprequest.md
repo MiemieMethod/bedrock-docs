@@ -134,7 +134,7 @@ addHeader(key: string, value: SecretString | string): HttpRequest
 //// define
 `key`：`string`
 
-- script_api.@minecraft/server-net.httprequest.key.addheader.description
+- script_api.@minecraft/server-net.httprequest.addheader.key.description
 
 
 ////
@@ -142,7 +142,7 @@ addHeader(key: string, value: SecretString | string): HttpRequest
 //// define
 `value`：[`SecretString`](../../server-admin/beta/secretstring.md)|`string`
 
-- script_api.@minecraft/server-net.httprequest.value.addheader.description
+- script_api.@minecraft/server-net.httprequest.addheader.value.description
 
 
 ////
@@ -174,7 +174,7 @@ new constructor(uri: string): HttpRequest
 //// define
 `uri`：`string`
 
-- script_api.@minecraft/server-net.httprequest.uri.constructor.description
+- script_api.@minecraft/server-net.httprequest.constructor.uri.description
 
 
 ////
@@ -206,7 +206,7 @@ setBody(body: string): HttpRequest
 //// define
 `body`：`string`
 
-- script_api.@minecraft/server-net.httprequest.body.setbody.description
+- script_api.@minecraft/server-net.httprequest.setbody.body.description
 
 
 ////
@@ -238,7 +238,7 @@ setHeaders(headers: HttpHeader[]): HttpRequest
 //// define
 `headers`：<code><a href="../httpheader/">HttpHeader</a>[]</code>
 
-- script_api.@minecraft/server-net.httprequest.headers.setheaders.description
+- script_api.@minecraft/server-net.httprequest.setheaders.headers.description
 
 
 ////
@@ -270,7 +270,7 @@ setMethod(method: HttpRequestMethod): HttpRequest
 //// define
 `method`：[`HttpRequestMethod`](./httprequestmethod.md)
 
-- script_api.@minecraft/server-net.httprequest.method.setmethod.description
+- script_api.@minecraft/server-net.httprequest.setmethod.method.description
 
 
 ////
@@ -302,7 +302,7 @@ setTimeout(timeout: uint32): HttpRequest
 //// define
 `timeout`：`uint32`
 
-- script_api.@minecraft/server-net.httprequest.timeout.settimeout.description
+- script_api.@minecraft/server-net.httprequest.settimeout.timeout.description
 
 
 ////

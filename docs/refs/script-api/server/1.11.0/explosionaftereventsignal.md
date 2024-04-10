@@ -22,7 +22,7 @@ subscribe(callback: (arg: ExplosionAfterEvent) => void): (arg: ExplosionAfterEve
 //// define
 `callback`：<code>(<a href="../explosionafterevent/">ExplosionAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.explosionaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.explosionaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: ExplosionAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../explosionafterevent/">ExplosionAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.explosionaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.explosionaftereventsignal.unsubscribe.callback.description
 
 
 ////

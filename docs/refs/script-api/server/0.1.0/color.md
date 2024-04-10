@@ -112,7 +112,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `red`：`float`
 
-- script_api.mojang-minecraft.color.red.constructor.description
+- script_api.mojang-minecraft.color.constructor.red.description
 
 
 ////
@@ -120,7 +120,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `green`：`float`
 
-- script_api.mojang-minecraft.color.green.constructor.description
+- script_api.mojang-minecraft.color.constructor.green.description
 
 
 ////
@@ -128,7 +128,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `blue`：`float`
 
-- script_api.mojang-minecraft.color.blue.constructor.description
+- script_api.mojang-minecraft.color.constructor.blue.description
 
 
 ////
@@ -136,7 +136,7 @@ new constructor(red: float, green: float, blue: float, alpha: float): Color
 //// define
 `alpha`：`float`
 
-- script_api.mojang-minecraft.color.alpha.constructor.description
+- script_api.mojang-minecraft.color.constructor.alpha.description
 
 
 ////

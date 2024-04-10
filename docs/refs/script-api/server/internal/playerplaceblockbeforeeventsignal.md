@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerPlaceBlockBeforeEvent) => void, options?: BlockE
 //// define
 `callback`：<code>(<a href="../playerplaceblockbeforeevent/">PlayerPlaceBlockBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerplaceblockbeforeeventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playerplaceblockbeforeeventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: PlayerPlaceBlockBeforeEvent) => void, options?: BlockE
 //// define
 `options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
 
-- script_api.@minecraft/server.playerplaceblockbeforeeventsignal.options.subscribe.description
+- script_api.@minecraft/server.playerplaceblockbeforeeventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: PlayerPlaceBlockBeforeEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerplaceblockbeforeevent/">PlayerPlaceBlockBeforeEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerplaceblockbeforeeventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playerplaceblockbeforeeventsignal.unsubscribe.callback.description
 
 
 ////

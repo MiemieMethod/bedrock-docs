@@ -22,7 +22,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 //// define
 `transactionHandlerId`：[`UserDefinedTransactionHandlerId`](./userdefinedtransactionhandlerid.md)
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.transactionhandlerid.adduserdefinedoperation.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.adduserdefinedoperation.transactionhandlerid.description
 
 
 ////
@@ -30,7 +30,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 //// define
 `operationData`：`string`
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.operationdata.adduserdefinedoperation.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.adduserdefinedoperation.operationdata.description
 
 
 ////
@@ -38,7 +38,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 //// define
 `operationName`：`string`|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.operationname.adduserdefinedoperation.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.adduserdefinedoperation.operationname.description
 
 
 ////
@@ -118,7 +118,7 @@ createUserDefinedTransactionHandler(undoClosure: (arg: string) => void, redoClos
 //// define
 `undoClosure`：<code>(string) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.undoclosure.createuserdefinedtransactionhandler.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.createuserdefinedtransactionhandler.undoclosure.description
 
 
 ////
@@ -126,7 +126,7 @@ createUserDefinedTransactionHandler(undoClosure: (arg: string) => void, redoClos
 //// define
 `redoClosure`：<code>(string) =&gt; void</code>
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.redoclosure.createuserdefinedtransactionhandler.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.createuserdefinedtransactionhandler.redoclosure.description
 
 
 ////
@@ -206,7 +206,7 @@ openTransaction(name: string): boolean
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.name.opentransaction.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.opentransaction.name.description
 
 
 ////
@@ -286,7 +286,7 @@ trackBlockChangeArea(from: Vector3, to: Vector3): boolean
 //// define
 `from`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.from.trackblockchangearea.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangearea.from.description
 
 
 ////
@@ -294,7 +294,7 @@ trackBlockChangeArea(from: Vector3, to: Vector3): boolean
 //// define
 `to`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.to.trackblockchangearea.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangearea.to.description
 
 
 ////
@@ -326,7 +326,7 @@ trackBlockChangeCompoundBlockVolume(compoundBlockVolume: CompoundBlockVolume): b
 //// define
 `compoundBlockVolume`：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.compoundblockvolume.trackblockchangecompoundblockvolume.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangecompoundblockvolume.compoundblockvolume.description
 
 
 ////
@@ -358,7 +358,7 @@ trackBlockChangeList(locations: Vector3[]): boolean
 //// define
 `locations`：<code><a href="../../../server/beta/vector3/">Vector3</a>[]</code>
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.locations.trackblockchangelist.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangelist.locations.description
 
 
 ////
@@ -390,7 +390,7 @@ trackBlockChangeSelection(selection: Selection): boolean
 //// define
 `selection`：[`Selection`](./selection.md)
 
-- script_api.@minecraft/server-editor-bindings.transactionmanager.selection.trackblockchangeselection.description
+- script_api.@minecraft/server-editor-bindings.transactionmanager.trackblockchangeselection.selection.description
 
 
 ////

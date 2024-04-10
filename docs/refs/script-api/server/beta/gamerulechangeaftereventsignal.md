@@ -22,7 +22,7 @@ subscribe(callback: (arg: GameRuleChangeAfterEvent) => void): (arg: GameRuleChan
 //// define
 `callback`：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.gamerulechangeaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.gamerulechangeaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: GameRuleChangeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../gamerulechangeafterevent/">GameRuleChangeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.gamerulechangeaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.gamerulechangeaftereventsignal.unsubscribe.callback.description
 
 
 ////

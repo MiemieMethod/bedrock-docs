@@ -22,7 +22,7 @@ subscribe(callback: (arg: MessageReceiveAfterEvent) => void): (arg: MessageRecei
 //// define
 `callback`：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.servermessageaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.servermessageaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: MessageReceiveAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../messagereceiveafterevent/">MessageReceiveAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.servermessageaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.servermessageaftereventsignal.unsubscribe.callback.description
 
 
 ////

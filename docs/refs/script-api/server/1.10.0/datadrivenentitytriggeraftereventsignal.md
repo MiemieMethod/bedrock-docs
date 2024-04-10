@@ -22,7 +22,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.subscribe.callback.description
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 //// define
 `options`：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)|`undefined`
 
-- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.options.subscribe.description
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.subscribe.options.description
 
 
 ////
@@ -62,7 +62,7 @@ unsubscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../datadrivenentitytriggerafterevent/">DataDrivenEntityTriggerAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.unsubscribe.callback.description
 
 
 ////

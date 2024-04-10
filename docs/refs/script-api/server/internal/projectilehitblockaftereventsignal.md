@@ -22,7 +22,7 @@ subscribe(callback: (arg: ProjectileHitBlockAfterEvent) => void): (arg: Projecti
 //// define
 `callback`：<code>(<a href="../projectilehitblockafterevent/">ProjectileHitBlockAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.projectilehitblockaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.projectilehitblockaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: ProjectileHitBlockAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../projectilehitblockafterevent/">ProjectileHitBlockAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.projectilehitblockaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.projectilehitblockaftereventsignal.unsubscribe.callback.description
 
 
 ////

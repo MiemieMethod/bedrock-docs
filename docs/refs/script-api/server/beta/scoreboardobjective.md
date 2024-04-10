@@ -68,7 +68,7 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- script_api.@minecraft/server.scoreboardobjective.participant.addscore.description
+- script_api.@minecraft/server.scoreboardobjective.addscore.participant.description
 
 
 ////
@@ -76,7 +76,7 @@ addScore(participant: Entity | ScoreboardIdentity | string, scoreToAdd: int32): 
 //// define
 `scoreToAdd`：`int32`
 
-- script_api.@minecraft/server.scoreboardobjective.scoretoadd.addscore.description
+- script_api.@minecraft/server.scoreboardobjective.addscore.scoretoadd.description
 
 
 ////
@@ -132,7 +132,7 @@ getScore(participant: Entity | ScoreboardIdentity | string): int32 | undefined
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- script_api.@minecraft/server.scoreboardobjective.participant.getscore.description
+- script_api.@minecraft/server.scoreboardobjective.getscore.participant.description
 
 
 ////
@@ -188,7 +188,7 @@ hasParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- script_api.@minecraft/server.scoreboardobjective.participant.hasparticipant.description
+- script_api.@minecraft/server.scoreboardobjective.hasparticipant.participant.description
 
 
 ////
@@ -244,7 +244,7 @@ removeParticipant(participant: Entity | ScoreboardIdentity | string): boolean
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- script_api.@minecraft/server.scoreboardobjective.participant.removeparticipant.description
+- script_api.@minecraft/server.scoreboardobjective.removeparticipant.participant.description
 
 
 ////
@@ -276,7 +276,7 @@ setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 //// define
 `participant`：[`Entity`](./entity.md)|[`ScoreboardIdentity`](./scoreboardidentity.md)|`string`
 
-- script_api.@minecraft/server.scoreboardobjective.participant.setscore.description
+- script_api.@minecraft/server.scoreboardobjective.setscore.participant.description
 
 
 ////
@@ -284,7 +284,7 @@ setScore(participant: Entity | ScoreboardIdentity | string, score: int32): void
 //// define
 `score`：`int32`
 
-- script_api.@minecraft/server.scoreboardobjective.score.setscore.description
+- script_api.@minecraft/server.scoreboardobjective.setscore.score.description
 
 
 ////

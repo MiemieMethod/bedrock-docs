@@ -22,7 +22,7 @@ thenExecute(callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.gametestsequence.callback.thenexecute.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecute.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ thenExecuteAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `delayTicks`：`int32`
 
-- script_api.@minecraft/server-gametest.gametestsequence.delayticks.thenexecuteafter.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecuteafter.delayticks.description
 
 
 ////
@@ -62,7 +62,7 @@ thenExecuteAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.gametestsequence.callback.thenexecuteafter.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecuteafter.callback.description
 
 
 ////
@@ -94,7 +94,7 @@ thenExecuteFor(tickCount: int32, callback: () => void): GameTestSequence
 //// define
 `tickCount`：`int32`
 
-- script_api.@minecraft/server-gametest.gametestsequence.tickcount.thenexecutefor.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecutefor.tickcount.description
 
 
 ////
@@ -102,7 +102,7 @@ thenExecuteFor(tickCount: int32, callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.gametestsequence.callback.thenexecutefor.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenexecutefor.callback.description
 
 
 ////
@@ -134,7 +134,7 @@ thenFail(errorMessage: string): void
 //// define
 `errorMessage`：`string`
 
-- script_api.@minecraft/server-gametest.gametestsequence.errormessage.thenfail.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenfail.errormessage.description
 
 
 ////
@@ -166,7 +166,7 @@ thenIdle(delayTicks: int32): GameTestSequence
 //// define
 `delayTicks`：`int32`
 
-- script_api.@minecraft/server-gametest.gametestsequence.delayticks.thenidle.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenidle.delayticks.description
 
 
 ////
@@ -222,7 +222,7 @@ thenWait(callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.gametestsequence.callback.thenwait.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenwait.callback.description
 
 
 ////
@@ -254,7 +254,7 @@ thenWaitAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `delayTicks`：`int32`
 
-- script_api.@minecraft/server-gametest.gametestsequence.delayticks.thenwaitafter.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenwaitafter.delayticks.description
 
 
 ////
@@ -262,7 +262,7 @@ thenWaitAfter(delayTicks: int32, callback: () => void): GameTestSequence
 //// define
 `callback`：<code>() =&gt; void</code>
 
-- script_api.@minecraft/server-gametest.gametestsequence.callback.thenwaitafter.description
+- script_api.@minecraft/server-gametest.gametestsequence.thenwaitafter.callback.description
 
 
 ////

@@ -332,7 +332,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 //// define
 `effectType`：[`EffectType`](./effecttype.md)|`string`
 
-- script_api.@minecraft/server.entity.effecttype.addeffect.description
+- script_api.@minecraft/server.entity.addeffect.effecttype.description
 
 
 ////
@@ -340,7 +340,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 //// define
 `duration`：`int32`
 
-- script_api.@minecraft/server.entity.duration.addeffect.description
+- script_api.@minecraft/server.entity.addeffect.duration.description
 
 
 ////
@@ -348,7 +348,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 //// define
 `options`：[`EntityEffectOptions`](./entityeffectoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entity.options.addeffect.description
+- script_api.@minecraft/server.entity.addeffect.options.description
 
 
 ////
@@ -380,7 +380,7 @@ addTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.@minecraft/server.entity.tag.addtag.description
+- script_api.@minecraft/server.entity.addtag.tag.description
 
 
 ////
@@ -412,7 +412,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 //// define
 `amount`：`float`
 
-- script_api.@minecraft/server.entity.amount.applydamage.description
+- script_api.@minecraft/server.entity.applydamage.amount.description
 
 
 ////
@@ -420,7 +420,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 //// define
 `options`：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entity.options.applydamage.description
+- script_api.@minecraft/server.entity.applydamage.options.description
 
 
 ////
@@ -452,7 +452,7 @@ applyImpulse(vector: Vector3): void
 //// define
 `vector`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.entity.vector.applyimpulse.description
+- script_api.@minecraft/server.entity.applyimpulse.vector.description
 
 
 ////
@@ -484,7 +484,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `directionX`：`float`
 
-- script_api.@minecraft/server.entity.directionx.applyknockback.description
+- script_api.@minecraft/server.entity.applyknockback.directionx.description
 
 
 ////
@@ -492,7 +492,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `directionZ`：`float`
 
-- script_api.@minecraft/server.entity.directionz.applyknockback.description
+- script_api.@minecraft/server.entity.applyknockback.directionz.description
 
 
 ////
@@ -500,7 +500,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `horizontalStrength`：`float`
 
-- script_api.@minecraft/server.entity.horizontalstrength.applyknockback.description
+- script_api.@minecraft/server.entity.applyknockback.horizontalstrength.description
 
 
 ////
@@ -508,7 +508,7 @@ applyKnockback(directionX: float, directionZ: float, horizontalStrength: float, 
 //// define
 `verticalStrength`：`float`
 
-- script_api.@minecraft/server.entity.verticalstrength.applyknockback.description
+- script_api.@minecraft/server.entity.applyknockback.verticalstrength.description
 
 
 ////
@@ -588,7 +588,7 @@ extinguishFire(useEffects: boolean): boolean
 //// define
 `useEffects`：`boolean`
 
-- script_api.@minecraft/server.entity.useeffects.extinguishfire.description
+- script_api.@minecraft/server.entity.extinguishfire.useeffects.description
 
 
 ////
@@ -620,7 +620,7 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 //// define
 `options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entity.options.getblockfromviewdirection.description
+- script_api.@minecraft/server.entity.getblockfromviewdirection.options.description
 
 
 ////
@@ -652,7 +652,7 @@ getComponent(componentId: string): EntityComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.entity.componentid.getcomponent.description
+- script_api.@minecraft/server.entity.getcomponent.componentid.description
 
 
 ////
@@ -708,7 +708,7 @@ getDynamicProperty(identifier: string): boolean | double | float | string | Vect
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.entity.identifier.getdynamicproperty.description
+- script_api.@minecraft/server.entity.getdynamicproperty.identifier.description
 
 
 ////
@@ -788,7 +788,7 @@ getEffect(effectType: EffectType | string): Effect | undefined
 //// define
 `effectType`：[`EffectType`](./effecttype.md)|`string`
 
-- script_api.@minecraft/server.entity.effecttype.geteffect.description
+- script_api.@minecraft/server.entity.geteffect.effecttype.description
 
 
 ////
@@ -844,7 +844,7 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 //// define
 `options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entity.options.getentitiesfromviewdirection.description
+- script_api.@minecraft/server.entity.getentitiesfromviewdirection.options.description
 
 
 ////
@@ -900,7 +900,7 @@ getProperty(identifier: string): boolean | float | string | undefined
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.entity.identifier.getproperty.description
+- script_api.@minecraft/server.entity.getproperty.identifier.description
 
 
 ////
@@ -1028,7 +1028,7 @@ hasComponent(componentId: string): boolean
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.entity.componentid.hascomponent.description
+- script_api.@minecraft/server.entity.hascomponent.componentid.description
 
 
 ////
@@ -1060,7 +1060,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.@minecraft/server.entity.tag.hastag.description
+- script_api.@minecraft/server.entity.hastag.tag.description
 
 
 ////
@@ -1140,7 +1140,7 @@ matches(options: EntityQueryOptions): boolean
 //// define
 `options`：[`EntityQueryOptions`](./entityqueryoptions.md)
 
-- script_api.@minecraft/server.entity.options.matches.description
+- script_api.@minecraft/server.entity.matches.options.description
 
 
 ////
@@ -1172,7 +1172,7 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 //// define
 `animationName`：`string`
 
-- script_api.@minecraft/server.entity.animationname.playanimation.description
+- script_api.@minecraft/server.entity.playanimation.animationname.description
 
 
 ////
@@ -1180,7 +1180,7 @@ playAnimation(animationName: string, options?: PlayAnimationOptions): void
 //// define
 `options`：[`PlayAnimationOptions`](./playanimationoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entity.options.playanimation.description
+- script_api.@minecraft/server.entity.playanimation.options.description
 
 
 ////
@@ -1236,7 +1236,7 @@ removeEffect(effectType: EffectType | string): boolean
 //// define
 `effectType`：[`EffectType`](./effecttype.md)|`string`
 
-- script_api.@minecraft/server.entity.effecttype.removeeffect.description
+- script_api.@minecraft/server.entity.removeeffect.effecttype.description
 
 
 ////
@@ -1268,7 +1268,7 @@ removeTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.@minecraft/server.entity.tag.removetag.description
+- script_api.@minecraft/server.entity.removetag.tag.description
 
 
 ////
@@ -1300,7 +1300,7 @@ resetProperty(identifier: string): boolean | float | string
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.entity.identifier.resetproperty.description
+- script_api.@minecraft/server.entity.resetproperty.identifier.description
 
 
 ////
@@ -1332,7 +1332,7 @@ runCommand(commandString: string): CommandResult
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.entity.commandstring.runcommand.description
+- script_api.@minecraft/server.entity.runcommand.commandstring.description
 
 
 ////
@@ -1364,7 +1364,7 @@ runCommandAsync(commandString: string): Promise<CommandResult>
 //// define
 `commandString`：`string`
 
-- script_api.@minecraft/server.entity.commandstring.runcommandasync.description
+- script_api.@minecraft/server.entity.runcommandasync.commandstring.description
 
 
 ////
@@ -1396,7 +1396,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.entity.identifier.setdynamicproperty.description
+- script_api.@minecraft/server.entity.setdynamicproperty.identifier.description
 
 
 ////
@@ -1404,7 +1404,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 //// define
 `value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
 
-- script_api.@minecraft/server.entity.value.setdynamicproperty.description
+- script_api.@minecraft/server.entity.setdynamicproperty.value.description
 
 
 ////
@@ -1436,7 +1436,7 @@ setOnFire(seconds: int32, useEffects: boolean): boolean
 //// define
 `seconds`：`int32`
 
-- script_api.@minecraft/server.entity.seconds.setonfire.description
+- script_api.@minecraft/server.entity.setonfire.seconds.description
 
 
 ////
@@ -1444,7 +1444,7 @@ setOnFire(seconds: int32, useEffects: boolean): boolean
 //// define
 `useEffects`：`boolean`
 
-- script_api.@minecraft/server.entity.useeffects.setonfire.description
+- script_api.@minecraft/server.entity.setonfire.useeffects.description
 
 
 ////
@@ -1476,7 +1476,7 @@ setProperty(identifier: string, value: boolean | float | string): void
 //// define
 `identifier`：`string`
 
-- script_api.@minecraft/server.entity.identifier.setproperty.description
+- script_api.@minecraft/server.entity.setproperty.identifier.description
 
 
 ////
@@ -1484,7 +1484,7 @@ setProperty(identifier: string, value: boolean | float | string): void
 //// define
 `value`：`boolean`|`float`|`string`
 
-- script_api.@minecraft/server.entity.value.setproperty.description
+- script_api.@minecraft/server.entity.setproperty.value.description
 
 
 ////
@@ -1516,7 +1516,7 @@ setRotation(rotation: Vector2): void
 //// define
 `rotation`：[`Vector2`](./vector2.md)
 
-- script_api.@minecraft/server.entity.rotation.setrotation.description
+- script_api.@minecraft/server.entity.setrotation.rotation.description
 
 
 ////
@@ -1548,7 +1548,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.entity.location.teleport.description
+- script_api.@minecraft/server.entity.teleport.location.description
 
 
 ////
@@ -1556,7 +1556,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 //// define
 `teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entity.teleportoptions.teleport.description
+- script_api.@minecraft/server.entity.teleport.teleportoptions.description
 
 
 ////
@@ -1588,7 +1588,7 @@ triggerEvent(eventName: string): void
 //// define
 `eventName`：`string`
 
-- script_api.@minecraft/server.entity.eventname.triggerevent.description
+- script_api.@minecraft/server.entity.triggerevent.eventname.description
 
 
 ////
@@ -1620,7 +1620,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.entity.location.tryteleport.description
+- script_api.@minecraft/server.entity.tryteleport.location.description
 
 
 ////
@@ -1628,7 +1628,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 //// define
 `teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
 
-- script_api.@minecraft/server.entity.teleportoptions.tryteleport.description
+- script_api.@minecraft/server.entity.tryteleport.teleportoptions.description
 
 
 ////

@@ -46,7 +46,7 @@ static debugFail(message: string): void
 //// define
 `message`：`string`
 
-- script_api.@minecraft/server-gametest.gametestdebug.message.debugfail.description
+- script_api.@minecraft/server-gametest.gametestdebug.debugfail.message.description
 
 
 ////
@@ -78,7 +78,7 @@ static timeout(duration: int32): void
 //// define
 `duration`：`int32`
 
-- script_api.@minecraft/server-gametest.gametestdebug.duration.timeout.description
+- script_api.@minecraft/server-gametest.gametestdebug.timeout.duration.description
 
 
 ////

@@ -22,7 +22,7 @@ subscribe(callback: (arg: PlayerInteractWithEntityAfterEvent) => void): (arg: Pl
 //// define
 `callback`：<code>(<a href="../playerinteractwithentityafterevent/">PlayerInteractWithEntityAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinteractwithentityaftereventsignal.callback.subscribe.description
+- script_api.@minecraft/server.playerinteractwithentityaftereventsignal.subscribe.callback.description
 
 
 ////
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: PlayerInteractWithEntityAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../playerinteractwithentityafterevent/">PlayerInteractWithEntityAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.playerinteractwithentityaftereventsignal.callback.unsubscribe.description
+- script_api.@minecraft/server.playerinteractwithentityaftereventsignal.unsubscribe.callback.description
 
 
 ////

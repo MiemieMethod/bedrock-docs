@@ -22,7 +22,7 @@ new constructor(displayName?: string): SimpleBlockPaletteItem
 //// define
 `displayName`：`string`|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.displayname.constructor.description
+- script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.constructor.displayname.description
 
 
 ////

@@ -46,7 +46,7 @@ fade(fadeCameraOptions?: CameraFadeOptions): void
 //// define
 `fadeCameraOptions`：[`CameraFadeOptions`](./camerafadeoptions.md)|`undefined`
 
-- script_api.@minecraft/server.camera.fadecameraoptions.fade.description
+- script_api.@minecraft/server.camera.fade.fadecameraoptions.description
 
 
 ////
@@ -78,7 +78,7 @@ setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFac
 //// define
 `cameraPreset`：`string`
 
-- script_api.@minecraft/server.camera.camerapreset.setcamera.description
+- script_api.@minecraft/server.camera.setcamera.camerapreset.description
 
 
 ////
@@ -86,7 +86,7 @@ setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFac
 //// define
 `setOptions`：CameraDefaultOptions | CameraSetFacingOptions | CameraSetLocationOptions | CameraSetPosOptions | CameraSetRotOptions|`undefined`
 
-- script_api.@minecraft/server.camera.setoptions.setcamera.description
+- script_api.@minecraft/server.camera.setcamera.setoptions.description
 
 
 ////

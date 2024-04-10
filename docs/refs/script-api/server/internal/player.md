@@ -288,7 +288,7 @@ addExperience(amount: int32): uint32
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.player.amount.addexperience.description
+- script_api.@minecraft/server.player.addexperience.amount.description
 
 
 ////
@@ -320,7 +320,7 @@ addLevels(amount: int32): int32
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.player.amount.addlevels.description
+- script_api.@minecraft/server.player.addlevels.amount.description
 
 
 ////
@@ -352,7 +352,7 @@ eatItem(itemStack: ItemStack): void
 //// define
 `itemStack`：[`ItemStack`](./itemstack.md)
 
-- script_api.@minecraft/server.player.itemstack.eatitem.description
+- script_api.@minecraft/server.player.eatitem.itemstack.description
 
 
 ////
@@ -408,7 +408,7 @@ getItemCooldown(cooldownCategory: string): int32
 //// define
 `cooldownCategory`：`string`
 
-- script_api.@minecraft/server.player.cooldowncategory.getitemcooldown.description
+- script_api.@minecraft/server.player.getitemcooldown.cooldowncategory.description
 
 
 ////
@@ -512,7 +512,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- script_api.@minecraft/server.player.trackid.playmusic.description
+- script_api.@minecraft/server.player.playmusic.trackid.description
 
 
 ////
@@ -520,7 +520,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- script_api.@minecraft/server.player.musicoptions.playmusic.description
+- script_api.@minecraft/server.player.playmusic.musicoptions.description
 
 
 ////
@@ -552,7 +552,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundId`：`string`
 
-- script_api.@minecraft/server.player.soundid.playsound.description
+- script_api.@minecraft/server.player.playsound.soundid.description
 
 
 ////
@@ -560,7 +560,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 //// define
 `soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
 
-- script_api.@minecraft/server.player.soundoptions.playsound.description
+- script_api.@minecraft/server.player.playsound.soundoptions.description
 
 
 ////
@@ -592,7 +592,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server.player.id.postclientmessage.description
+- script_api.@minecraft/server.player.postclientmessage.id.description
 
 
 ////
@@ -600,7 +600,7 @@ postClientMessage(id: string, value: string): void
 //// define
 `value`：`string`
 
-- script_api.@minecraft/server.player.value.postclientmessage.description
+- script_api.@minecraft/server.player.postclientmessage.value.description
 
 
 ////
@@ -632,7 +632,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `trackId`：`string`
 
-- script_api.@minecraft/server.player.trackid.queuemusic.description
+- script_api.@minecraft/server.player.queuemusic.trackid.description
 
 
 ////
@@ -640,7 +640,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 //// define
 `musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
 
-- script_api.@minecraft/server.player.musicoptions.queuemusic.description
+- script_api.@minecraft/server.player.queuemusic.musicoptions.description
 
 
 ////
@@ -696,7 +696,7 @@ sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 //// define
 `message`：`(RawMessage | string)[]`|[`RawMessage`](./rawmessage.md)|`string`
 
-- script_api.@minecraft/server.player.message.sendmessage.description
+- script_api.@minecraft/server.player.sendmessage.message.description
 
 
 ////
@@ -728,7 +728,7 @@ setGameMode(gameMode?: GameMode): void
 //// define
 `gameMode`：[`GameMode`](./gamemode.md)|`undefined`
 
-- script_api.@minecraft/server.player.gamemode.setgamemode.description
+- script_api.@minecraft/server.player.setgamemode.gamemode.description
 
 
 ////
@@ -760,7 +760,7 @@ setOp(isOp: boolean): void
 //// define
 `isOp`：`boolean`
 
-- script_api.@minecraft/server.player.isop.setop.description
+- script_api.@minecraft/server.player.setop.isop.description
 
 
 ////
@@ -792,7 +792,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 //// define
 `spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
 
-- script_api.@minecraft/server.player.spawnpoint.setspawnpoint.description
+- script_api.@minecraft/server.player.setspawnpoint.spawnpoint.description
 
 
 ////
@@ -824,7 +824,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `effectName`：`string`
 
-- script_api.@minecraft/server.player.effectname.spawnparticle.description
+- script_api.@minecraft/server.player.spawnparticle.effectname.description
 
 
 ////
@@ -832,7 +832,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.player.location.spawnparticle.description
+- script_api.@minecraft/server.player.spawnparticle.location.description
 
 
 ////
@@ -840,7 +840,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 //// define
 `molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
 
-- script_api.@minecraft/server.player.molangvariables.spawnparticle.description
+- script_api.@minecraft/server.player.spawnparticle.molangvariables.description
 
 
 ////
@@ -872,7 +872,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `cooldownCategory`：`string`
 
-- script_api.@minecraft/server.player.cooldowncategory.startitemcooldown.description
+- script_api.@minecraft/server.player.startitemcooldown.cooldowncategory.description
 
 
 ////
@@ -880,7 +880,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 //// define
 `tickDuration`：`int32`
 
-- script_api.@minecraft/server.player.tickduration.startitemcooldown.description
+- script_api.@minecraft/server.player.startitemcooldown.tickduration.description
 
 
 ////

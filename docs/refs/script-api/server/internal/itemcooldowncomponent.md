@@ -81,7 +81,7 @@ getCooldownTicksRemaining(player: Player): int32
 //// define
 `player`：[`Player`](./player.md)
 
-- script_api.@minecraft/server.itemcooldowncomponent.player.getcooldownticksremaining.description
+- script_api.@minecraft/server.itemcooldowncomponent.getcooldownticksremaining.player.description
 
 
 ////
@@ -113,7 +113,7 @@ isCooldownCategory(cooldownCategory: string): boolean
 //// define
 `cooldownCategory`：`string`
 
-- script_api.@minecraft/server.itemcooldowncomponent.cooldowncategory.iscooldowncategory.description
+- script_api.@minecraft/server.itemcooldowncomponent.iscooldowncategory.cooldowncategory.description
 
 
 ////
@@ -145,7 +145,7 @@ startCooldown(player: Player): void
 //// define
 `player`：[`Player`](./player.md)
 
-- script_api.@minecraft/server.itemcooldowncomponent.player.startcooldown.description
+- script_api.@minecraft/server.itemcooldowncomponent.startcooldown.player.description
 
 
 ////

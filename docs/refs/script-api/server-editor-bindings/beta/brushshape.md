@@ -112,7 +112,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server-editor-bindings.brushshape.name.constructor.description
+- script_api.@minecraft/server-editor-bindings.brushshape.constructor.name.description
 
 
 ////
@@ -120,7 +120,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `icon`：`string`
 
-- script_api.@minecraft/server-editor-bindings.brushshape.icon.constructor.description
+- script_api.@minecraft/server-editor-bindings.brushshape.constructor.icon.description
 
 
 ////
@@ -128,7 +128,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `rebuild`：<code>() =&gt; <a href="../../../server/beta/compoundblockvolume/">CompoundBlockVolume</a></code>
 
-- script_api.@minecraft/server-editor-bindings.brushshape.rebuild.constructor.description
+- script_api.@minecraft/server-editor-bindings.brushshape.constructor.rebuild.description
 
 
 ////
@@ -136,7 +136,7 @@ new constructor(name: string, icon: string, rebuild: () => CompoundBlockVolume, 
 //// define
 `getSettingsUI`：<code>() =&gt; SettingsUIElement[]</code>
 
-- script_api.@minecraft/server-editor-bindings.brushshape.getsettingsui.constructor.description
+- script_api.@minecraft/server-editor-bindings.brushshape.constructor.getsettingsui.description
 
 
 ////

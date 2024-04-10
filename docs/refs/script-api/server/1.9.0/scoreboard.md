@@ -22,7 +22,7 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 //// define
 `objectiveId`：`string`
 
-- script_api.@minecraft/server.scoreboard.objectiveid.addobjective.description
+- script_api.@minecraft/server.scoreboard.addobjective.objectiveid.description
 
 
 ////
@@ -30,7 +30,7 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 //// define
 `displayName`：`string`|`undefined`
 
-- script_api.@minecraft/server.scoreboard.displayname.addobjective.description
+- script_api.@minecraft/server.scoreboard.addobjective.displayname.description
 
 
 ////
@@ -62,7 +62,7 @@ clearObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjective |
 //// define
 `displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
 
-- script_api.@minecraft/server.scoreboard.displayslotid.clearobjectiveatdisplayslot.description
+- script_api.@minecraft/server.scoreboard.clearobjectiveatdisplayslot.displayslotid.description
 
 
 ////
@@ -94,7 +94,7 @@ getObjective(objectiveId: string): ScoreboardObjective | undefined
 //// define
 `objectiveId`：`string`
 
-- script_api.@minecraft/server.scoreboard.objectiveid.getobjective.description
+- script_api.@minecraft/server.scoreboard.getobjective.objectiveid.description
 
 
 ////
@@ -126,7 +126,7 @@ getObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId): ScoreboardObjectiveDisp
 //// define
 `displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
 
-- script_api.@minecraft/server.scoreboard.displayslotid.getobjectiveatdisplayslot.description
+- script_api.@minecraft/server.scoreboard.getobjectiveatdisplayslot.displayslotid.description
 
 
 ////
@@ -206,7 +206,7 @@ removeObjective(objectiveId: ScoreboardObjective | string): boolean
 //// define
 `objectiveId`：[`ScoreboardObjective`](./scoreboardobjective.md)|`string`
 
-- script_api.@minecraft/server.scoreboard.objectiveid.removeobjective.description
+- script_api.@minecraft/server.scoreboard.removeobjective.objectiveid.description
 
 
 ////
@@ -238,7 +238,7 @@ setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting:
 //// define
 `displaySlotId`：[`DisplaySlotId`](./displayslotid.md)
 
-- script_api.@minecraft/server.scoreboard.displayslotid.setobjectiveatdisplayslot.description
+- script_api.@minecraft/server.scoreboard.setobjectiveatdisplayslot.displayslotid.description
 
 
 ////
@@ -246,7 +246,7 @@ setObjectiveAtDisplaySlot(displaySlotId: DisplaySlotId, objectiveDisplaySetting:
 //// define
 `objectiveDisplaySetting`：[`ScoreboardObjectiveDisplayOptions`](./scoreboardobjectivedisplayoptions.md)
 
-- script_api.@minecraft/server.scoreboard.objectivedisplaysetting.setobjectiveatdisplayslot.description
+- script_api.@minecraft/server.scoreboard.setobjectiveatdisplayslot.objectivedisplaysetting.description
 
 
 ////
