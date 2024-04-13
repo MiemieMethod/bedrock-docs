@@ -1,6 +1,6 @@
 # `ItemStartChargeEvent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `ItemStartChargeEvent`类。script_api.mojang-minecraft.itemstartchargeevent.description
 

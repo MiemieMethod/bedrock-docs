@@ -1,6 +1,6 @@
 # `NumberRange`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `NumberRange`接口。script_api.@minecraft/common.numberrange.description
 

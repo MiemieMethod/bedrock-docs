@@ -1,6 +1,6 @@
 # `SystemBeforeEvents`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `SystemBeforeEvents`类。script_api.@minecraft/server.systembeforeevents.description
 

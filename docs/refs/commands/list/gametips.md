@@ -1,6 +1,6 @@
 # `/gametips`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/gametips`命令command.gametips.description
 

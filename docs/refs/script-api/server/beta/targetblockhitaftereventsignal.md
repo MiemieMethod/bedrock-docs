@@ -1,6 +1,6 @@
 # `TargetBlockHitAfterEventSignal`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `TargetBlockHitAfterEventSignal`类。script_api.@minecraft/server.targetblockhitaftereventsignal.description
 

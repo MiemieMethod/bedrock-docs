@@ -1,6 +1,6 @@
 # `/reload`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/reload`命令command.reload.description
 

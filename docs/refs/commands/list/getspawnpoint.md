@@ -1,6 +1,6 @@
 # `/getspawnpoint`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/getspawnpoint`命令command.getspawnpoint.description
 

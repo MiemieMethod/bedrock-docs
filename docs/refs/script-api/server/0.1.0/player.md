@@ -1,6 +1,6 @@
 # `Player`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `Player`类，扩展自[`Entity`](./entity.md)。script_api.mojang-minecraft.player.description
 

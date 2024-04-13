@@ -1,6 +1,6 @@
 # `EntityIsShearedComponent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `EntityIsShearedComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityisshearedcomponent.description
 

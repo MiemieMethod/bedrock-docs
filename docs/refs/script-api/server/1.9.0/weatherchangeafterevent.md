@@ -1,6 +1,6 @@
 # `WeatherChangeAfterEvent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `WeatherChangeAfterEvent`类。script_api.@minecraft/server.weatherchangeafterevent.description
 

@@ -1,6 +1,6 @@
 # `ChatSendAfterEvent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `ChatSendAfterEvent`类。script_api.@minecraft/server.chatsendafterevent.description
 

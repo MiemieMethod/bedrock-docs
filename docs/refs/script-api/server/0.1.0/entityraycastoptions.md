@@ -1,6 +1,6 @@
 # `EntityRaycastOptions`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `EntityRaycastOptions`类。script_api.mojang-minecraft.entityraycastoptions.description
 

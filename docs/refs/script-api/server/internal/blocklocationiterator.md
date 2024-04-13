@@ -1,6 +1,6 @@
 # `BlockLocationIterator`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `BlockLocationIterator`类，实现了<code>Iterator&lt;<a href="../vector3/">Vector3</a>&gt;</code>。script_api.@minecraft/server.blocklocationiterator.description
 

@@ -1,6 +1,6 @@
 # `/playsound`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/playsound`命令command.playsound.description
 

@@ -1,6 +1,6 @@
 # `/getlocalplayername`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/getlocalplayername`命令command.getlocalplayername.description
 

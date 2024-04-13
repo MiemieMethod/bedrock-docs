@@ -1,6 +1,6 @@
 # `/enchant`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/enchant`命令command.enchant.description
 
@@ -67,6 +67,9 @@ command.enchant.1.description
   |`quick_charge`|command.enum.enchant.quick_charge|
   |`soul_speed`|command.enum.enchant.soul_speed|
   |`swift_sneak`|command.enum.enchant.swift_sneak|
+  |`wind_burst`|command.enum.enchant.wind_burst|
+  |`density`|command.enum.enchant.density|
+  |`breach`|command.enum.enchant.breach|
 
 
 `level`：<!-- md:samp int -->

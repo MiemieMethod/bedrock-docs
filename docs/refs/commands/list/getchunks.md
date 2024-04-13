@@ -1,6 +1,6 @@
 # `/getchunks`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/getchunks`命令command.getchunks.description
 

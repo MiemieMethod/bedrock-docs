@@ -1,6 +1,6 @@
 # `/difficulty`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/difficulty`命令command.difficulty.description
 

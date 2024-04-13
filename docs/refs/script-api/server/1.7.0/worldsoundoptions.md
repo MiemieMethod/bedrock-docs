@@ -1,6 +1,6 @@
 # `WorldSoundOptions`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `WorldSoundOptions`接口。script_api.@minecraft/server.worldsoundoptions.description
 

@@ -1,8 +1,32 @@
 # `BlockPermutation`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `BlockPermutation`类。script_api.@minecraft/server.blockpermutation.description
+
+## 属性
+
+/// define
+`type`
+
+
+///
+
+```js
+read-only type: BlockType;
+```
+
+/// html | div.result
+//// define
+`type`：[`BlockType`](./blocktype.md)
+
+- script_api.@minecraft/server.blockpermutation.type.description
+
+
+////
+
+///
+
 
 ## 方法
 

@@ -1,6 +1,6 @@
 # `ItemStopUseOnAfterEvent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `ItemStopUseOnAfterEvent`类。script_api.@minecraft/server.itemstopuseonafterevent.description
 

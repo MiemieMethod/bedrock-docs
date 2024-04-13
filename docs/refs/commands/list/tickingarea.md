@@ -1,6 +1,6 @@
 # `/tickingarea`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/tickingarea`命令command.tickingarea.description
 

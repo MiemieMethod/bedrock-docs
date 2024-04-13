@@ -1,6 +1,6 @@
 # `/wsserver`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/wsserver`命令command.wsserver.description
 

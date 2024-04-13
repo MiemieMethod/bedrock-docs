@@ -1,5 +1,5 @@
 # `ItemComponent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `ItemComponent`类，扩展自[`Component`](./component.md)。script_api.mojang-minecraft.itemcomponent.description

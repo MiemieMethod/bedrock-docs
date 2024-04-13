@@ -1,6 +1,6 @@
 # `BlockPistonState`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `BlockPistonState`枚举。script_api.@minecraft/server.blockpistonstate.description
 

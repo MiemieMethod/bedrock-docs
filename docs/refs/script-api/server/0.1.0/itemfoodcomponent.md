@@ -1,6 +1,6 @@
 # `ItemFoodComponent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `ItemFoodComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.mojang-minecraft.itemfoodcomponent.description
 

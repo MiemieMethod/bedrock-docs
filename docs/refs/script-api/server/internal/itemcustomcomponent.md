@@ -1,6 +1,6 @@
 # `ItemCustomComponent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `ItemCustomComponent`接口。script_api.@minecraft/server.itemcustomcomponent.description
 
@@ -87,6 +87,28 @@ onUse: (arg: ItemComponentUseEvent) => void | undefined;
 `onUse`：<code>(<a href="../itemcomponentuseevent/">ItemComponentUseEvent</a>) =&gt; void</code>|`undefined`
 
 - script_api.@minecraft/server.itemcustomcomponent.onuse.description
+
+
+////
+
+///
+
+
+/// define
+`onUseOn`
+
+
+///
+
+```js
+onUseOn: (arg: ItemComponentUseOnEvent) => void | undefined;
+```
+
+/// html | div.result
+//// define
+`onUseOn`：<code>(<a href="../itemcomponentuseonevent/">ItemComponentUseOnEvent</a>) =&gt; void</code>|`undefined`
+
+- script_api.@minecraft/server.itemcustomcomponent.onuseon.description
 
 
 ////

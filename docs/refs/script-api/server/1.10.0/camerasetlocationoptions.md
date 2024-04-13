@@ -1,6 +1,6 @@
 # `CameraSetLocationOptions`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `CameraSetLocationOptions`接口。script_api.@minecraft/server.camerasetlocationoptions.description
 

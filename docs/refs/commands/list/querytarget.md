@@ -1,6 +1,6 @@
 # `/querytarget`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/querytarget`命令command.querytarget.description
 

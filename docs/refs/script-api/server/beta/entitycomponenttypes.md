@@ -1,6 +1,6 @@
 # `EntityComponentTypes`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `EntityComponentTypes`枚举。script_api.@minecraft/server.entitycomponenttypes.description
 

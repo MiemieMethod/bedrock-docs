@@ -1,6 +1,6 @@
 # `/volumearea`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/volumearea`命令command.volumearea.description
 

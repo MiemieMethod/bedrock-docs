@@ -1,6 +1,6 @@
 # `@minecraft/server`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `@minecraft/server`模块的`1.12.0-internal`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
 
@@ -306,6 +306,7 @@ static read-only world: World;
 |[`ItemComponentMineBlockEvent`](./itemcomponentmineblockevent.md)||
 |[`ItemComponentRegistry`](./itemcomponentregistry.md)||
 |[`ItemComponentUseEvent`](./itemcomponentuseevent.md)||
+|[`ItemComponentUseOnEvent`](./itemcomponentuseonevent.md)||
 |[`ItemCooldownComponent`](./itemcooldowncomponent.md)||
 |[`ItemDurabilityComponent`](./itemdurabilitycomponent.md)||
 |[`ItemEnchantableComponent`](./itemenchantablecomponent.md)||
@@ -331,6 +332,7 @@ static read-only world: World;
 |[`ItemUseOnAfterEventSignal`](./itemuseonaftereventsignal.md)||
 |[`ItemUseOnBeforeEvent`](./itemuseonbeforeevent.md)||
 |[`ItemUseOnBeforeEventSignal`](./itemuseonbeforeeventsignal.md)||
+|[`ItemUseOnEvent`](./itemuseonevent.md)||
 |[`LeverActionAfterEvent`](./leveractionafterevent.md)||
 |[`LeverActionAfterEventSignal`](./leveractionaftereventsignal.md)||
 |[`ListBlockVolume`](./listblockvolume.md)||

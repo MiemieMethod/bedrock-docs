@@ -1,6 +1,6 @@
 # `/sendshowstoreoffer`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/sendshowstoreoffer`命令command.sendshowstoreoffer.description
 

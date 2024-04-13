@@ -1,6 +1,6 @@
 # `/testforblocks`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/testforblocks`命令command.testforblocks.description
 

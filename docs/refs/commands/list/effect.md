@@ -1,6 +1,6 @@
 # `/effect`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/effect`命令command.effect.description
 
@@ -88,6 +88,7 @@ command.effect.2.description
   |`weaving`|command.enum.effect.weaving|
   |`oozing`|command.enum.effect.oozing|
   |`infested`|command.enum.effect.infested|
+  |`raid_omen`|command.enum.effect.raid_omen|
 
 
 `seconds`：<!-- md:samp int -->

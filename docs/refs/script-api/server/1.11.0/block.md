@@ -1,6 +1,6 @@
 # `Block`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `Block`类。script_api.@minecraft/server.block.description
 
@@ -109,6 +109,50 @@ read-only permutation: BlockPermutation;
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
 - script_api.@minecraft/server.block.permutation.description
+
+
+////
+
+///
+
+
+/// define
+`type`
+
+
+///
+
+```js
+read-only type: BlockType;
+```
+
+/// html | div.result
+//// define
+`type`：[`BlockType`](./blocktype.md)
+
+- script_api.@minecraft/server.block.type.description
+
+
+////
+
+///
+
+
+/// define
+`typeId`
+
+
+///
+
+```js
+read-only typeId: string;
+```
+
+/// html | div.result
+//// define
+`typeId`：`string`
+
+- script_api.@minecraft/server.block.typeid.description
 
 
 ////
@@ -473,6 +517,46 @@ isValid(): boolean
 返回值：`boolean`
 
 - script_api.@minecraft/server.block.isvalid.return
+
+
+////
+
+///
+
+
+/// define
+`matches`
+
+
+///
+
+script_api.@minecraft/server.block.matches.description
+
+```js
+matches(blockName: string, states?: Record<string, boolean | int32 | string>): boolean
+```
+
+/// html | div.result
+//// define
+`blockName`：`string`
+
+- script_api.@minecraft/server.block.matches.blockname.description
+
+
+////
+
+//// define
+`states`：`Record<string, boolean | int32 | string>`|`undefined`
+
+- script_api.@minecraft/server.block.matches.states.description
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- script_api.@minecraft/server.block.matches.return
 
 
 ////

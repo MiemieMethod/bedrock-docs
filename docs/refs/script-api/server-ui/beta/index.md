@@ -1,6 +1,6 @@
 # `@minecraft/server-ui`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `@minecraft/server-ui`模块的`1.2.0-beta`版本，UUID为`2bd50a27-ab5f-4f40-a596-3641627c635e`。该模块是script_api.@minecraft/server-ui.description
 

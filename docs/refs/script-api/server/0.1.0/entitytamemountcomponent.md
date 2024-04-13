@@ -1,6 +1,6 @@
 # `EntityTameMountComponent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `EntityTameMountComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitytamemountcomponent.description
 

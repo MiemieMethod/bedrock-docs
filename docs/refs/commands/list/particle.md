@@ -1,6 +1,6 @@
 # `/particle`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/particle`命令command.particle.description
 

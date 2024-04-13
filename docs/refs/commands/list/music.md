@@ -1,6 +1,6 @@
 # `/music`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/music`命令command.music.description
 

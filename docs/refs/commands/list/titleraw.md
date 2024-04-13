@@ -1,6 +1,6 @@
 # `/titleraw`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/titleraw`命令command.titleraw.description
 

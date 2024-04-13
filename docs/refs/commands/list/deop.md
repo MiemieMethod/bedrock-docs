@@ -1,6 +1,6 @@
 # `/deop`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/deop`命令command.deop.description
 

@@ -1,6 +1,6 @@
 # `EntityHitEvent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `EntityHitEvent`类。script_api.mojang-minecraft.entityhitevent.description
 

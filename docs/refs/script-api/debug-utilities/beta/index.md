@@ -1,6 +1,6 @@
 # `@minecraft/debug-utilities`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `@minecraft/debug-utilities`模块的`1.0.0-beta`版本，UUID为`1796ea86-0daf-4409-99ee-fd6467cf1203`。该模块是script_api.@minecraft/debug-utilities.description
 

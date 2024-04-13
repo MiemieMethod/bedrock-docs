@@ -937,6 +937,7 @@ nav:
             - <code>BlockStates</code>: refs/script-api/server/1.11.0/blockstates.md
             - <code>BlockStateType</code>: refs/script-api/server/1.11.0/blockstatetype.md
             - <code>BlockType</code>: refs/script-api/server/1.11.0/blocktype.md
+            - <code>BlockTypes</code>: refs/script-api/server/1.11.0/blocktypes.md
             - <code>ButtonPushAfterEvent</code>: refs/script-api/server/1.11.0/buttonpushafterevent.md
             - <code>ButtonPushAfterEventSignal</code>: refs/script-api/server/1.11.0/buttonpushaftereventsignal.md
             - <code>Camera</code>: refs/script-api/server/1.11.0/camera.md
@@ -2849,6 +2850,7 @@ nav:
             - <code>ItemComponentMineBlockEvent</code>: refs/script-api/server/beta/itemcomponentmineblockevent.md
             - <code>ItemComponentRegistry</code>: refs/script-api/server/beta/itemcomponentregistry.md
             - <code>ItemComponentUseEvent</code>: refs/script-api/server/beta/itemcomponentuseevent.md
+            - <code>ItemComponentUseOnEvent</code>: refs/script-api/server/beta/itemcomponentuseonevent.md
             - <code>ItemCooldownComponent</code>: refs/script-api/server/beta/itemcooldowncomponent.md
             - <code>ItemDurabilityComponent</code>: refs/script-api/server/beta/itemdurabilitycomponent.md
             - <code>ItemEnchantableComponent</code>: refs/script-api/server/beta/itemenchantablecomponent.md
@@ -2874,6 +2876,7 @@ nav:
             - <code>ItemUseOnAfterEventSignal</code>: refs/script-api/server/beta/itemuseonaftereventsignal.md
             - <code>ItemUseOnBeforeEvent</code>: refs/script-api/server/beta/itemuseonbeforeevent.md
             - <code>ItemUseOnBeforeEventSignal</code>: refs/script-api/server/beta/itemuseonbeforeeventsignal.md
+            - <code>ItemUseOnEvent</code>: refs/script-api/server/beta/itemuseonevent.md
             - <code>LeverActionAfterEvent</code>: refs/script-api/server/beta/leveractionafterevent.md
             - <code>LeverActionAfterEventSignal</code>: refs/script-api/server/beta/leveractionaftereventsignal.md
             - <code>ListBlockVolume</code>: refs/script-api/server/beta/listblockvolume.md
@@ -3258,6 +3261,7 @@ nav:
             - <code>ItemComponentMineBlockEvent</code>: refs/script-api/server/internal/itemcomponentmineblockevent.md
             - <code>ItemComponentRegistry</code>: refs/script-api/server/internal/itemcomponentregistry.md
             - <code>ItemComponentUseEvent</code>: refs/script-api/server/internal/itemcomponentuseevent.md
+            - <code>ItemComponentUseOnEvent</code>: refs/script-api/server/internal/itemcomponentuseonevent.md
             - <code>ItemCooldownComponent</code>: refs/script-api/server/internal/itemcooldowncomponent.md
             - <code>ItemDurabilityComponent</code>: refs/script-api/server/internal/itemdurabilitycomponent.md
             - <code>ItemEnchantableComponent</code>: refs/script-api/server/internal/itemenchantablecomponent.md
@@ -3283,6 +3287,7 @@ nav:
             - <code>ItemUseOnAfterEventSignal</code>: refs/script-api/server/internal/itemuseonaftereventsignal.md
             - <code>ItemUseOnBeforeEvent</code>: refs/script-api/server/internal/itemuseonbeforeevent.md
             - <code>ItemUseOnBeforeEventSignal</code>: refs/script-api/server/internal/itemuseonbeforeeventsignal.md
+            - <code>ItemUseOnEvent</code>: refs/script-api/server/internal/itemuseonevent.md
             - <code>LeverActionAfterEvent</code>: refs/script-api/server/internal/leveractionafterevent.md
             - <code>LeverActionAfterEventSignal</code>: refs/script-api/server/internal/leveractionaftereventsignal.md
             - <code>ListBlockVolume</code>: refs/script-api/server/internal/listblockvolume.md
@@ -3596,7 +3601,6 @@ nav:
           - 类:
             - <code>BlockPalette</code>: refs/script-api/server-editor-bindings/beta/blockpalette.md
             - <code>BlockPaletteManager</code>: refs/script-api/server-editor-bindings/beta/blockpalettemanager.md
-            - <code>BrushShape</code>: refs/script-api/server-editor-bindings/beta/brushshape.md
             - <code>BrushShapeManager</code>: refs/script-api/server-editor-bindings/beta/brushshapemanager.md
             - <code>ClipboardItem</code>: refs/script-api/server-editor-bindings/beta/clipboarditem.md
             - <code>ClipboardManager</code>: refs/script-api/server-editor-bindings/beta/clipboardmanager.md
@@ -3640,6 +3644,7 @@ nav:
             - <code>WidgetManager</code>: refs/script-api/server-editor-bindings/beta/widgetmanager.md
             - <code>WidgetStateChangeEventData</code>: refs/script-api/server-editor-bindings/beta/widgetstatechangeeventdata.md
           - 接口:
+            - <code>BrushShape</code>: refs/script-api/server-editor-bindings/beta/brushshape.md
             - <code>ClipboardWriteOptions</code>: refs/script-api/server-editor-bindings/beta/clipboardwriteoptions.md
             - <code>CursorProperties</code>: refs/script-api/server-editor-bindings/beta/cursorproperties.md
             - <code>CustomWidgetCreateOptions</code>: refs/script-api/server-editor-bindings/beta/customwidgetcreateoptions.md

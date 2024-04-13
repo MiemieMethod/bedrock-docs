@@ -1,6 +1,6 @@
 # `@minecraft/server-editor-bindings`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `@minecraft/server-editor-bindings`模块的`0.1.0-beta`版本，UUID为`8518d9c7-a1f5-4bf3-acc7-78e87df595fc`。该模块是script_api.@minecraft/server-editor-bindings.description
 
@@ -63,7 +63,6 @@ static read-only editorInternal: MinecraftEditorInternal;
 |---|---|
 |[`BlockPalette`](./blockpalette.md)||
 |[`BlockPaletteManager`](./blockpalettemanager.md)||
-|[`BrushShape`](./brushshape.md)||
 |[`BrushShapeManager`](./brushshapemanager.md)||
 |[`ClipboardItem`](./clipboarditem.md)||
 |[`ClipboardManager`](./clipboardmanager.md)||
@@ -111,6 +110,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 
 |接口|描述|
 |---|---|
+|[`BrushShape`](./brushshape.md)||
 |[`ClipboardWriteOptions`](./clipboardwriteoptions.md)||
 |[`CursorProperties`](./cursorproperties.md)||
 |[`CustomWidgetCreateOptions`](./customwidgetcreateoptions.md)||

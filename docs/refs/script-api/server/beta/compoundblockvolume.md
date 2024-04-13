@@ -1,6 +1,6 @@
 # `CompoundBlockVolume`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `CompoundBlockVolume`类。script_api.@minecraft/server.compoundblockvolume.description
 
@@ -21,6 +21,50 @@ read-only capacity: uint64;
 `capacity`：`uint64`
 
 - script_api.@minecraft/server.compoundblockvolume.capacity.description
+
+
+////
+
+///
+
+
+/// define
+`items`
+
+
+///
+
+```js
+read-only items: CompoundBlockVolumeItem[];
+```
+
+/// html | div.result
+//// define
+`items`：<code><a href="../compoundblockvolumeitem/">CompoundBlockVolumeItem</a>[]</code>
+
+- script_api.@minecraft/server.compoundblockvolume.items.description
+
+
+////
+
+///
+
+
+/// define
+`itemsAbsolute`
+
+
+///
+
+```js
+read-only itemsAbsolute: CompoundBlockVolumeItem[];
+```
+
+/// html | div.result
+//// define
+`itemsAbsolute`：<code><a href="../compoundblockvolumeitem/">CompoundBlockVolumeItem</a>[]</code>
+
+- script_api.@minecraft/server.compoundblockvolume.itemsabsolute.description
 
 
 ////

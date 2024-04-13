@@ -1,6 +1,6 @@
 # `/event`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/event`命令command.event.description
 
@@ -151,7 +151,7 @@ command.event.1.description
   |`minecraft:camel_saddled`|command.enum.entityevents.minecraft:camel_saddled|
   |`minecraft:camel_unsaddled`|command.enum.entityevents.minecraft:camel_unsaddled|
   |`minecraft:cat_gifted_owner`|command.enum.entityevents.minecraft:cat_gifted_owner|
-  |`minecraft:clear_add_bad_omen`|command.enum.entityevents.minecraft:clear_add_bad_omen|
+  |`minecraft:clear_add_raid_omen`|command.enum.entityevents.minecraft:clear_add_raid_omen|
   |`minecraft:command_block_activate`|command.enum.entityevents.minecraft:command_block_activate|
   |`minecraft:command_block_deactivate`|command.enum.entityevents.minecraft:command_block_deactivate|
   |`minecraft:convert_to_drowned`|command.enum.entityevents.minecraft:convert_to_drowned|
@@ -184,7 +184,7 @@ command.event.1.description
   |`minecraft:from_player`|command.enum.entityevents.minecraft:from_player|
   |`minecraft:from_village`|command.enum.entityevents.minecraft:from_village|
   |`minecraft:from_wandering_trader`|command.enum.entityevents.minecraft:from_wandering_trader|
-  |`minecraft:gain_bad_omen`|command.enum.entityevents.minecraft:gain_bad_omen|
+  |`minecraft:gain_raid_omen`|command.enum.entityevents.minecraft:gain_raid_omen|
   |`minecraft:go_lay_egg`|command.enum.entityevents.minecraft:go_lay_egg|
   |`minecraft:has_target`|command.enum.entityevents.minecraft:has_target|
   |`minecraft:hive_full`|command.enum.entityevents.minecraft:hive_full|

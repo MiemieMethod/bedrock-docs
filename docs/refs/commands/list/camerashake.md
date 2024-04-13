@@ -1,6 +1,6 @@
 # `/camerashake`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/camerashake`命令command.camerashake.description
 

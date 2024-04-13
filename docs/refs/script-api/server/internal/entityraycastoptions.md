@@ -1,6 +1,6 @@
 # `EntityRaycastOptions`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `EntityRaycastOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。script_api.@minecraft/server.entityraycastoptions.description
 

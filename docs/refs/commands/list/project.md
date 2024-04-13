@@ -1,6 +1,6 @@
 # `/project`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `/project`命令command.project.description
 

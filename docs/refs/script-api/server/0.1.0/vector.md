@@ -1,6 +1,6 @@
 # `Vector`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `Vector`类。script_api.mojang-minecraft.vector.description
 

@@ -1,6 +1,6 @@
 # `BrushShapeManager`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `BrushShapeManager`类。script_api.@minecraft/server-editor-bindings.brushshapemanager.description
 
@@ -147,14 +147,38 @@ getSettingsUIElements(brushName: string): SettingsUIElement[]
 script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.description
 
 ```js
-registerBrushShape(brushShape: BrushShape): void
+registerBrushShape(name: string, icon: string, rebuild: () => CompoundBlockVolume, getSettingsUIElements: () => SettingsUIElement[]): void
 ```
 
 /// html | div.result
 //// define
-`brushShape`：[`BrushShape`](./brushshape.md)
+`name`：`string`
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.brushshape.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.name.description
+
+
+////
+
+//// define
+`icon`：`string`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.icon.description
+
+
+////
+
+//// define
+`rebuild`：<code>() =&gt; <a href="../../../server/beta/compoundblockvolume/">CompoundBlockVolume</a></code>
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.rebuild.description
+
+
+////
+
+//// define
+`getSettingsUIElements`：<code>() =&gt; SettingsUIElement[]</code>
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.getsettingsuielements.description
 
 
 ////
@@ -179,7 +203,7 @@ registerBrushShape(brushShape: BrushShape): void
 script_api.@minecraft/server-editor-bindings.brushshapemanager.uisettingvaluechanged.description
 
 ```js
-uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
+uiSettingValueChanged(elementName: string, newValue: boolean | float | string | Vector3): boolean
 ```
 
 /// html | div.result
@@ -192,7 +216,7 @@ uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 ////
 
 //// define
-`newValue`：`boolean`|`int32`
+`newValue`：`boolean`|`float`|`string`|[`Vector3`](../../server/beta/vector3.md)
 
 - script_api.@minecraft/server-editor-bindings.brushshapemanager.uisettingvaluechanged.newvalue.description
 
@@ -200,7 +224,7 @@ uiSettingValueChanged(elementName: string, newValue: boolean | int32): void
 ////
 
 //// define
-返回值：`void`
+返回值：`boolean`
 
 - script_api.@minecraft/server-editor-bindings.brushshapemanager.uisettingvaluechanged.return
 

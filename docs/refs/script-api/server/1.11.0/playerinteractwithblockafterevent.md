@@ -1,6 +1,6 @@
 # `PlayerInteractWithBlockAfterEvent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `PlayerInteractWithBlockAfterEvent`类。script_api.@minecraft/server.playerinteractwithblockafterevent.description
 

@@ -1,6 +1,6 @@
 # `CompoundBlockVolumeItem`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `CompoundBlockVolumeItem`接口。script_api.@minecraft/server.compoundblockvolumeitem.description
 

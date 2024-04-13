@@ -1,6 +1,6 @@
 # `PlayerGameModeChangeAfterEvent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `PlayerGameModeChangeAfterEvent`类。script_api.@minecraft/server.playergamemodechangeafterevent.description
 

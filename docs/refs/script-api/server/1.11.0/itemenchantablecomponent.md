@@ -1,6 +1,6 @@
 # `ItemEnchantableComponent`
 
-> 文档版本：1.21.0.20
+> 文档版本：1.21.0.21
 
 `ItemEnchantableComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.@minecraft/server.itemenchantablecomponent.description
 
