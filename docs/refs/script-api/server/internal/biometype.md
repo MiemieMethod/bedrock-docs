@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BiomeType`类。script_api.@minecraft/server.biometype.description
+`BiomeType`类。表示生物群系的类型。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only id: string;
 //// define
 `id`：`string`
 
-- script_api.@minecraft/server.biometype.id.description
+- 该生物群系类型的标识符。
 
 
 ////

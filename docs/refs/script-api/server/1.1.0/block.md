@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`Block`类。script_api.@minecraft/server.block.description
+`Block`类。表示维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- script_api.@minecraft/server.block.dimension.description
+- 返回该方块所在维度的`Dimension`对象。
 
 
 ////
@@ -42,7 +42,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.block.location.description
+- 该方块的坐标。
 
 
 ////
@@ -64,7 +64,7 @@ read-only permutation: BlockPermutation;
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.permutation.description
+- 该方块的置换。
 
 
 ////
@@ -86,7 +86,7 @@ read-only x: int32;
 //// define
 `x`：`int32`
 
-- script_api.@minecraft/server.block.x.description
+- 该方块的X轴坐标值。
 
 
 ////
@@ -108,7 +108,7 @@ read-only y: int32;
 //// define
 `y`：`int32`
 
-- script_api.@minecraft/server.block.y.description
+- 该方块的Y轴坐标值。
 
 
 ////
@@ -130,7 +130,7 @@ read-only z: int32;
 //// define
 `z`：`int32`
 
-- script_api.@minecraft/server.block.z.description
+- 该方块的Z轴坐标值。
 
 
 ////
@@ -146,7 +146,7 @@ read-only z: int32;
 
 ///
 
-script_api.@minecraft/server.block.setpermutation.description
+设置该方块的置换。
 
 ```js
 setPermutation(permutation: BlockPermutation): void
@@ -156,7 +156,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.setpermutation.permutation.description
+- 要设置的置换的`BlockPermutation`对象。
 
 
 ////

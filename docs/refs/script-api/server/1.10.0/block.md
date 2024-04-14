@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`Block`类。script_api.@minecraft/server.block.description
+`Block`类。表示维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- script_api.@minecraft/server.block.dimension.description
+- 返回该方块所在维度的`Dimension`对象。
 
 
 ////
@@ -42,7 +42,7 @@ read-only isAir: boolean;
 //// define
 `isAir`：`boolean`
 
-- script_api.@minecraft/server.block.isair.description
+- 如果该方块为空气，值为`true`。
 
 
 ////
@@ -64,7 +64,7 @@ read-only isLiquid: boolean;
 //// define
 `isLiquid`：`boolean`
 
-- script_api.@minecraft/server.block.isliquid.description
+- 如果该方块属于液体方块（含水方块不属于液体方块），值为`true`。
 
 
 ////
@@ -86,7 +86,7 @@ read-only location: Vector3;
 //// define
 `location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.block.location.description
+- 该方块的坐标。
 
 
 ////
@@ -108,7 +108,7 @@ read-only permutation: BlockPermutation;
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.permutation.description
+- 该方块的置换。
 
 
 ////
@@ -130,7 +130,7 @@ read-only x: int32;
 //// define
 `x`：`int32`
 
-- script_api.@minecraft/server.block.x.description
+- 该方块的X轴坐标值。
 
 
 ////
@@ -152,7 +152,7 @@ read-only y: int32;
 //// define
 `y`：`int32`
 
-- script_api.@minecraft/server.block.y.description
+- 该方块的Y轴坐标值。
 
 
 ////
@@ -174,7 +174,7 @@ read-only z: int32;
 //// define
 `z`：`int32`
 
-- script_api.@minecraft/server.block.z.description
+- 该方块的Z轴坐标值。
 
 
 ////
@@ -190,7 +190,7 @@ read-only z: int32;
 
 ///
 
-script_api.@minecraft/server.block.above.description
+获取位于该方块上方一定距离处的方块（即Y轴正方向延长线上的方块）。
 
 ```js
 above(steps: int32): Block | undefined
@@ -200,7 +200,7 @@ above(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.above.steps.description
+- 向Y轴正方向延伸的距离（以方块数为单位）。
 
 
 ////
@@ -208,7 +208,7 @@ above(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- script_api.@minecraft/server.block.above.return
+- 获取到的方块的`Block`对象。
 
 
 ////
@@ -222,7 +222,7 @@ above(steps: int32): Block | undefined
 
 ///
 
-script_api.@minecraft/server.block.below.description
+获取位于该方块下方一定距离处的方块（即Y轴负方向延长线上的方块）。
 
 ```js
 below(steps: int32): Block | undefined
@@ -232,7 +232,7 @@ below(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.below.steps.description
+- 向Y轴负方向延伸的距离（以方块数为单位）。
 
 
 ////
@@ -240,7 +240,7 @@ below(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- script_api.@minecraft/server.block.below.return
+- 获取到的方块的`Block`对象。
 
 
 ////
@@ -254,7 +254,7 @@ below(steps: int32): Block | undefined
 
 ///
 
-script_api.@minecraft/server.block.bottomcenter.description
+获取该方块底面中心处的坐标（即该方块在X和Z轴上的中心坐标）。
 
 ```js
 bottomCenter(): Vector3
@@ -264,7 +264,7 @@ bottomCenter(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.block.bottomcenter.return
+- 包含该方块底面中心处坐标值的`Vector3`对象。
 
 
 ////
@@ -278,7 +278,7 @@ bottomCenter(): Vector3
 
 ///
 
-script_api.@minecraft/server.block.center.description
+获取该方块中心处的坐标（即该方块在X、Y和Z轴上的中心坐标）。
 
 ```js
 center(): Vector3
@@ -288,7 +288,7 @@ center(): Vector3
 //// define
 返回值：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.block.center.return
+- 包含该方块中心处坐标值的`Vector3`对象。
 
 
 ////
@@ -302,7 +302,7 @@ center(): Vector3
 
 ///
 
-script_api.@minecraft/server.block.east.description
+获取位于该方块东面一定距离处的方块（即X轴正方向延长线上的方块）。
 
 ```js
 east(steps: int32): Block | undefined
@@ -312,7 +312,7 @@ east(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.east.steps.description
+- 向X轴正方向延伸的距离（以方块数为单位）。
 
 
 ////
@@ -320,7 +320,7 @@ east(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- script_api.@minecraft/server.block.east.return
+- 获取到的方块的`Block`对象。
 
 
 ////
@@ -334,7 +334,7 @@ east(steps: int32): Block | undefined
 
 ///
 
-script_api.@minecraft/server.block.getcomponent.description
+获取一个该方块的组件。
 
 ```js
 getComponent(componentId: string): BlockComponent | undefined
@@ -344,7 +344,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 `componentId`：`string`
 
-- script_api.@minecraft/server.block.getcomponent.componentid.description
+- 要获取的组件的标识符。
 
 
 ////
@@ -352,7 +352,7 @@ getComponent(componentId: string): BlockComponent | undefined
 //// define
 返回值：[`BlockComponent`](./blockcomponent.md)|`undefined`
 
-- script_api.@minecraft/server.block.getcomponent.return
+- 如果该方块具有这个组件，返回该组件的对象，否则返回`undefined`。
 
 
 ////
@@ -366,7 +366,7 @@ getComponent(componentId: string): BlockComponent | undefined
 
 ///
 
-script_api.@minecraft/server.block.getitemstack.description
+创建一个基于该方块的物品堆叠。
 
 ```js
 getItemStack(amount: int32, withData: boolean): ItemStack | undefined
@@ -376,7 +376,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.block.getitemstack.amount.description
+- 该物品堆叠所含物品的数量。
 
 
 ////
@@ -384,7 +384,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 `withData`：`boolean`
 
-- script_api.@minecraft/server.block.getitemstack.withdata.description
+- 该物品堆叠是否附加用户数据。
 
 
 ////
@@ -392,7 +392,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- script_api.@minecraft/server.block.getitemstack.return
+- 创建出的物品堆叠。如果方块类型不兼容则返回`undefined`。
 
 
 ////
@@ -406,7 +406,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 
 ///
 
-script_api.@minecraft/server.block.gettags.description
+获取该方块的所有标签。
 
 ```js
 getTags(): string[]
@@ -416,7 +416,7 @@ getTags(): string[]
 //// define
 返回值：`string[]`
 
-- script_api.@minecraft/server.block.gettags.return
+- 一个包含该方块所有标签的数组。
 
 
 ////
@@ -430,7 +430,7 @@ getTags(): string[]
 
 ///
 
-script_api.@minecraft/server.block.hastag.description
+检查该方块的置换中是否具有指定的标签。
 
 ```js
 hasTag(tag: string): boolean
@@ -440,7 +440,7 @@ hasTag(tag: string): boolean
 //// define
 `tag`：`string`
 
-- script_api.@minecraft/server.block.hastag.tag.description
+- 要检查的标签。
 
 
 ////
@@ -448,7 +448,7 @@ hasTag(tag: string): boolean
 //// define
 返回值：`boolean`
 
-- script_api.@minecraft/server.block.hastag.return
+- 如果该方块的置换中具有此标签，返回`true`。
 
 
 ////
@@ -462,7 +462,7 @@ hasTag(tag: string): boolean
 
 ///
 
-script_api.@minecraft/server.block.isvalid.description
+检查该方块是否有效（被加载且在可放置方块范围内）。
 
 ```js
 isValid(): boolean
@@ -472,7 +472,7 @@ isValid(): boolean
 //// define
 返回值：`boolean`
 
-- script_api.@minecraft/server.block.isvalid.return
+- 如果该方块有效，返回`true`。
 
 
 ////
@@ -486,7 +486,7 @@ isValid(): boolean
 
 ///
 
-script_api.@minecraft/server.block.north.description
+获取位于该方块北面一定距离处的方块（即Z轴负方向延长线上的方块）。
 
 ```js
 north(steps: int32): Block | undefined
@@ -496,7 +496,7 @@ north(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.north.steps.description
+- 向Z轴负方向延伸的距离（以方块数为单位）。默认值为`1`。
 
 
 ////
@@ -504,7 +504,7 @@ north(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- script_api.@minecraft/server.block.north.return
+- 获取到的方块的`Block`对象。
 
 
 ////
@@ -518,7 +518,7 @@ north(steps: int32): Block | undefined
 
 ///
 
-script_api.@minecraft/server.block.offset.description
+获取相对于该方块位置给定偏移量处的方块。
 
 ```js
 offset(offset: Vector3): Block | undefined
@@ -528,7 +528,7 @@ offset(offset: Vector3): Block | undefined
 //// define
 `offset`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.block.offset.offset.description
+- 要偏移的量（以方块数为单位）。
 
 
 ////
@@ -536,7 +536,7 @@ offset(offset: Vector3): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- script_api.@minecraft/server.block.offset.return
+- 获取到的方块的`Block`对象。
 
 
 ////
@@ -550,7 +550,7 @@ offset(offset: Vector3): Block | undefined
 
 ///
 
-script_api.@minecraft/server.block.setpermutation.description
+设置该方块的置换。
 
 ```js
 setPermutation(permutation: BlockPermutation): void
@@ -560,7 +560,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.block.setpermutation.permutation.description
+- 要设置的置换的`BlockPermutation`对象。
 
 
 ////
@@ -582,7 +582,7 @@ setPermutation(permutation: BlockPermutation): void
 
 ///
 
-script_api.@minecraft/server.block.south.description
+获取位于该方块南面一定距离处的方块（即Z轴正方向延长线上的方块）。
 
 ```js
 south(steps: int32): Block | undefined
@@ -592,7 +592,7 @@ south(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.south.steps.description
+- 向Z轴正方向延伸的距离（以方块数为单位）。默认值为`1`。
 
 
 ////
@@ -600,7 +600,7 @@ south(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- script_api.@minecraft/server.block.south.return
+- 获取到的方块的`Block`对象。
 
 
 ////
@@ -614,7 +614,7 @@ south(steps: int32): Block | undefined
 
 ///
 
-script_api.@minecraft/server.block.west.description
+获取位于该方块西面一定距离处的方块（即X轴负方向延长线上的方块）。
 
 ```js
 west(steps: int32): Block | undefined
@@ -624,7 +624,7 @@ west(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- script_api.@minecraft/server.block.west.steps.description
+- 向X轴负方向延伸的距离（以方块数为单位）。默认值为`1`。
 
 
 ////
@@ -632,7 +632,7 @@ west(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- script_api.@minecraft/server.block.west.return
+- 获取到的方块的`Block`对象。
 
 
 ////

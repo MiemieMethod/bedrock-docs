@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BiomeTypes`类。script_api.@minecraft/server.biometypes.description
+`BiomeTypes`类。Minecraft中可用生物群系的集合。
 
 ## 方法
 
@@ -12,7 +12,7 @@
 
 ///
 
-script_api.@minecraft/server.biometypes.get.description
+获取一个指定的生物群系类型。
 
 ```js
 static get(typeName: string): BiomeType | undefined
@@ -22,7 +22,7 @@ static get(typeName: string): BiomeType | undefined
 //// define
 `typeName`：`string`
 
-- script_api.@minecraft/server.biometypes.get.typename.description
+- 生物群系的标识符。
 
 
 ////
@@ -30,7 +30,7 @@ static get(typeName: string): BiomeType | undefined
 //// define
 返回值：[`BiomeType`](./biometype.md)|`undefined`
 
-- script_api.@minecraft/server.biometypes.get.return
+- 如果该生物群系存在，返回该生物群系的`BiomeType`对象，否则返回`undefined`。
 
 
 ////
@@ -44,7 +44,7 @@ static get(typeName: string): BiomeType | undefined
 
 ///
 
-script_api.@minecraft/server.biometypes.getall.description
+获取Minecraft中已注册的所有生物群系类型。
 
 ```js
 static getAll(): BiomeType[]
@@ -54,7 +54,7 @@ static getAll(): BiomeType[]
 //// define
 返回值：<code><a href="../biometype/">BiomeType</a>[]</code>
 
-- script_api.@minecraft/server.biometypes.getall.return
+- 一个包含所有生物群系的`BiomeType`对象数组。
 
 
 ////
