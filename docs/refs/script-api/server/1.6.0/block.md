@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`Block`类。表示维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
+`Block`类。代表维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 返回该方块所在维度的`Dimension`对象。
+- 返回该方块所在的维度的对象。
 
 
 ////
@@ -256,7 +256,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 要设置的置换的`BlockPermutation`对象。
+- 要设置的置换的对象。
 
 
 ////

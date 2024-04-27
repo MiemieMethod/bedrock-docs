@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockExplodeAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockexplodeafterevent.description
+`BlockExplodeAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含方块爆炸后事件的信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only explodedBlockPermutation: BlockPermutation;
 //// define
 `explodedBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.blockexplodeafterevent.explodedblockpermutation.description
+- 受到爆炸方块的置换。
 
 
 ////
@@ -42,7 +42,7 @@ read-only source: Entity | undefined;
 //// define
 `source`：[`Entity`](./entity.md)|`undefined`
 
-- script_api.@minecraft/server.blockexplodeafterevent.source.description
+- 爆炸源（实体）。
 
 
 ////

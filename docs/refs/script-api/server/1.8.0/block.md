@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`Block`类。表示维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
+`Block`类。代表维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- 返回该方块所在维度的`Dimension`对象。
+- 返回该方块所在的维度的对象。
 
 
 ////
@@ -200,7 +200,7 @@ above(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 向Y轴正方向延伸的距离（以方块数为单位）。
+- 向Y轴正方向延伸的距离（以米为单位）。
 
 
 ////
@@ -208,7 +208,7 @@ above(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 获取到的方块的`Block`对象。
+- 获取到的方块对象。
 
 
 ////
@@ -232,7 +232,7 @@ below(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 向Y轴负方向延伸的距离（以方块数为单位）。
+- 向Y轴负方向延伸的距离（以米为单位）。
 
 
 ////
@@ -240,7 +240,7 @@ below(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 获取到的方块的`Block`对象。
+- 获取到的方块对象。
 
 
 ////
@@ -312,7 +312,7 @@ east(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 向X轴正方向延伸的距离（以方块数为单位）。
+- 向X轴正方向延伸的距离（以米为单位）。
 
 
 ////
@@ -320,7 +320,7 @@ east(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 获取到的方块的`Block`对象。
+- 获取到的方块对象。
 
 
 ////
@@ -456,7 +456,7 @@ north(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 向Z轴负方向延伸的距离（以方块数为单位）。默认值为`1`。
+- 向Z轴负方向延伸的距离（以米为单位）。
 
 
 ////
@@ -464,7 +464,7 @@ north(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 获取到的方块的`Block`对象。
+- 获取到的方块对象。
 
 
 ////
@@ -488,7 +488,7 @@ offset(offset: Vector3): Block | undefined
 //// define
 `offset`：[`Vector3`](./vector3.md)
 
-- 要偏移的量（以方块数为单位）。
+- 要偏移的量（以米为单位）。
 
 
 ////
@@ -496,7 +496,7 @@ offset(offset: Vector3): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 获取到的方块的`Block`对象。
+- 获取到的方块对象。
 
 
 ////
@@ -520,7 +520,7 @@ setPermutation(permutation: BlockPermutation): void
 //// define
 `permutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- 要设置的置换的`BlockPermutation`对象。
+- 要设置的置换的对象。
 
 
 ////
@@ -552,7 +552,7 @@ south(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 向Z轴正方向延伸的距离（以方块数为单位）。默认值为`1`。
+- 向Z轴正方向延伸的距离（以米为单位）。
 
 
 ////
@@ -560,7 +560,7 @@ south(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 获取到的方块的`Block`对象。
+- 获取到的方块对象。
 
 
 ////
@@ -584,7 +584,7 @@ west(steps: int32): Block | undefined
 //// define
 `steps`：`int32`
 
-- 向X轴负方向延伸的距离（以方块数为单位）。默认值为`1`。
+- 向X轴负方向延伸的距离（以米为单位）。
 
 
 ////
@@ -592,7 +592,7 @@ west(steps: int32): Block | undefined
 //// define
 返回值：[`Block`](./block.md)|`undefined`
 
-- 获取到的方块的`Block`对象。
+- 获取到的方块对象。
 
 
 ////

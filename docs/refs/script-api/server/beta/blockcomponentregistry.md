@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponentRegistry`类。script_api.@minecraft/server.blockcomponentregistry.description
+`BlockComponentRegistry`类。用于提供方块数据驱动自定义组件注册功能。
 
 ## 方法
 
@@ -12,7 +12,7 @@
 
 ///
 
-script_api.@minecraft/server.blockcomponentregistry.registercustomcomponent.description
+注册一个自定义方块组件。
 
 ```js
 registerCustomComponent(name: string, customComponent: BlockCustomComponent): void
@@ -22,7 +22,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server.blockcomponentregistry.registercustomcomponent.name.description
+- 要注册的自定义组件的名称（必须带有命名空间）。
 
 
 ////
@@ -30,7 +30,7 @@ registerCustomComponent(name: string, customComponent: BlockCustomComponent): vo
 //// define
 `customComponent`：[`BlockCustomComponent`](./blockcustomcomponent.md)
 
-- script_api.@minecraft/server.blockcomponentregistry.registercustomcomponent.customcomponent.description
+- 该组件绑定事件的集合。
 
 
 ////

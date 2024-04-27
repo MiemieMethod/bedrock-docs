@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponentPlayerDestroyEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentplayerdestroyevent.description
+`BlockComponentPlayerDestroyEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含被玩家破坏的方块的信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only destroyedBlockPermutation: BlockPermutation;
 //// define
 `destroyedBlockPermutation`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.blockcomponentplayerdestroyevent.destroyedblockpermutation.description
+- 被玩家破坏的方块的置换。
 
 
 ////
@@ -42,7 +42,7 @@ read-only player: Player | undefined;
 //// define
 `player`：[`Player`](./player.md)|`undefined`
 
-- script_api.@minecraft/server.blockcomponentplayerdestroyevent.player.description
+- 破坏该方块的玩家。
 
 
 ////

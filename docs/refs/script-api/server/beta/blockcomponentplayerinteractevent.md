@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponentPlayerInteractEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentplayerinteractevent.description
+`BlockComponentPlayerInteractEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含被玩家互动的方块的信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only face: Direction;
 //// define
 `face`：[`Direction`](./direction.md)
 
-- script_api.@minecraft/server.blockcomponentplayerinteractevent.face.description
+- 该方块参与互动的面。
 
 
 ////
@@ -42,7 +42,7 @@ read-only faceLocation: Vector3 | undefined;
 //// define
 `faceLocation`：[`Vector3`](./vector3.md)|`undefined`
 
-- script_api.@minecraft/server.blockcomponentplayerinteractevent.facelocation.description
+- 玩家互动时点击的位置（以该方块底部西北角顶点为坐标原点）。
 
 
 ////
@@ -64,7 +64,7 @@ read-only player: Player | undefined;
 //// define
 `player`：[`Player`](./player.md)|`undefined`
 
-- script_api.@minecraft/server.blockcomponentplayerinteractevent.player.description
+- 互动该方块的玩家。
 
 
 ////

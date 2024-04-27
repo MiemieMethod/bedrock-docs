@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockExplodeAfterEventSignal`类。script_api.@minecraft/server.blockexplodeaftereventsignal.description
+`BlockExplodeAfterEventSignal`类。用于管理与方块爆炸后事件有关的回调函数。
 
 ## 方法
 
@@ -12,7 +12,7 @@
 
 ///
 
-script_api.@minecraft/server.blockexplodeaftereventsignal.subscribe.description
+订阅方块爆炸后事件并执行给定的回调函数。
 
 ```js
 subscribe(callback: (arg: BlockExplodeAfterEvent) => void): (arg: BlockExplodeAfterEvent) => void
@@ -22,7 +22,7 @@ subscribe(callback: (arg: BlockExplodeAfterEvent) => void): (arg: BlockExplodeAf
 //// define
 `callback`：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.blockexplodeaftereventsignal.subscribe.callback.description
+- 要执行的回调函数。
 
 
 ////
@@ -30,7 +30,7 @@ subscribe(callback: (arg: BlockExplodeAfterEvent) => void): (arg: BlockExplodeAf
 //// define
 返回值：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.blockexplodeaftereventsignal.subscribe.return
+- 订阅此事件的回调函数。
 
 
 ////
@@ -44,7 +44,7 @@ subscribe(callback: (arg: BlockExplodeAfterEvent) => void): (arg: BlockExplodeAf
 
 ///
 
-script_api.@minecraft/server.blockexplodeaftereventsignal.unsubscribe.description
+移除给定回调函数对方块爆炸后事件的订阅。
 
 ```js
 unsubscribe(callback: (arg: BlockExplodeAfterEvent) => void): void
@@ -54,7 +54,7 @@ unsubscribe(callback: (arg: BlockExplodeAfterEvent) => void): void
 //// define
 `callback`：<code>(<a href="../blockexplodeafterevent/">BlockExplodeAfterEvent</a>) =&gt; void</code>
 
-- script_api.@minecraft/server.blockexplodeaftereventsignal.unsubscribe.callback.description
+- 要移除的回调函数。
 
 
 ////

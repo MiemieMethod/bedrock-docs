@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponent`类，扩展自[`Component`](./component.md)。script_api.@minecraft/server.blockcomponent.description
+`BlockComponent`类，扩展自[`Component`](./component.md)。方块组件的基本类型。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- script_api.@minecraft/server.blockcomponent.block.description
+- 该组件所属的方块实例。
 
 
 ////

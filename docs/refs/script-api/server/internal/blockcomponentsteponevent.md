@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponentStepOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentsteponevent.description
+`BlockComponentStepOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含实体走上方块表面时的信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity | undefined;
 //// define
 `entity`：[`Entity`](./entity.md)|`undefined`
 
-- script_api.@minecraft/server.blockcomponentsteponevent.entity.description
+- 走上该方块表面的实体。
 
 
 ////

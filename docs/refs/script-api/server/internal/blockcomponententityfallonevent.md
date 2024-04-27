@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponentEntityFallOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponententityfallonevent.description
+`BlockComponentEntityFallOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含掉落在方块上的实体的信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only entity: Entity | undefined;
 //// define
 `entity`：[`Entity`](./entity.md)|`undefined`
 
-- script_api.@minecraft/server.blockcomponententityfallonevent.entity.description
+- 掉落在该方块上的实体。
 
 
 ////
@@ -42,7 +42,7 @@ read-only fallDistance: float;
 //// define
 `fallDistance`：`float`
 
-- script_api.@minecraft/server.blockcomponententityfallonevent.falldistance.description
+- 实体掉落到该方块上所经过的距离。
 
 
 ////

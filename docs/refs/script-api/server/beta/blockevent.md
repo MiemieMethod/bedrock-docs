@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockEvent`类。script_api.@minecraft/server.blockevent.description
+`BlockEvent`类。包含方块的事件信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only block: Block;
 //// define
 `block`：[`Block`](./block.md)
 
-- script_api.@minecraft/server.blockevent.block.description
+- 受此事件影响的方块。
 
 
 ////
@@ -42,7 +42,7 @@ read-only dimension: Dimension;
 //// define
 `dimension`：[`Dimension`](./dimension.md)
 
-- script_api.@minecraft/server.blockevent.dimension.description
+- 此事件中该方块所在的维度。
 
 
 ////

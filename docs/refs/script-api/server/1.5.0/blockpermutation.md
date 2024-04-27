@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockPermutation`类。script_api.@minecraft/server.blockpermutation.description
+`BlockPermutation`类。代表方块的置换。
 
 ## 方法
 
@@ -12,7 +12,7 @@
 
 ///
 
-script_api.@minecraft/server.blockpermutation.matches.description
+测试该置换的内容是否与给定内容相同。若不传入方块状态，则只对方块类型进行测试。
 
 ```js
 matches(blockName: string, states?: Record<string, boolean | int32 | string>): boolean
@@ -22,7 +22,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `blockName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.matches.blockname.description
+- 要测试的方块类型的名称。
 
 
 ////
@@ -30,7 +30,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.matches.states.description
+- 要测试的方块状态。
 
 
 ////
@@ -38,7 +38,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 返回值：`boolean`
 
-- script_api.@minecraft/server.blockpermutation.matches.return
+- 如果该置换的内容与给定内容相同，返回`true`。
 
 
 ////
@@ -52,7 +52,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 
 ///
 
-script_api.@minecraft/server.blockpermutation.resolve.description
+根据方块名称和方块状态创建一个方块置换。
 
 ```js
 static resolve(blockName: string, states?: Record<string, boolean | int32 | string>): BlockPermutation
@@ -62,7 +62,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 `blockName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.resolve.blockname.description
+- 置换中的方块类型的名称。
 
 
 ////
@@ -70,7 +70,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.resolve.states.description
+- 置换中的方块状态。
 
 
 ////
@@ -78,7 +78,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 返回值：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.blockpermutation.resolve.return
+- 创建出的方块置换。
 
 
 ////

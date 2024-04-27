@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockPermutation`类。script_api.@minecraft/server.blockpermutation.description
+`BlockPermutation`类。代表方块的置换。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only type: BlockType;
 //// define
 `type`：[`BlockType`](./blocktype.md)
 
-- script_api.@minecraft/server.blockpermutation.type.description
+- 该置换所包含的方块类型。
 
 
 ////
@@ -36,7 +36,7 @@ read-only type: BlockType;
 
 ///
 
-script_api.@minecraft/server.blockpermutation.getallstates.description
+获取该置换中包含的所有可用的方块状态。
 
 ```js
 getAllStates(): Record<string, boolean | int32 | string>
@@ -46,7 +46,7 @@ getAllStates(): Record<string, boolean | int32 | string>
 //// define
 返回值：`Record<string, boolean | int32 | string>`
 
-- script_api.@minecraft/server.blockpermutation.getallstates.return
+- 一个记录了该置换所有可用方块状态的对象。
 
 
 ////
@@ -60,7 +60,7 @@ getAllStates(): Record<string, boolean | int32 | string>
 
 ///
 
-script_api.@minecraft/server.blockpermutation.getitemstack.description
+创建一个基于该方块置换的物品堆叠。
 
 ```js
 getItemStack(amount: int32): ItemStack | undefined
@@ -70,7 +70,7 @@ getItemStack(amount: int32): ItemStack | undefined
 //// define
 `amount`：`int32`
 
-- script_api.@minecraft/server.blockpermutation.getitemstack.amount.description
+- 该物品堆叠所含物品的数量。
 
 
 ////
@@ -78,7 +78,7 @@ getItemStack(amount: int32): ItemStack | undefined
 //// define
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.getitemstack.return
+- 创建出的物品堆叠对象。
 
 
 ////
@@ -92,7 +92,7 @@ getItemStack(amount: int32): ItemStack | undefined
 
 ///
 
-script_api.@minecraft/server.blockpermutation.getstate.description
+获取该置换中一个指定的方块状态。
 
 ```js
 getState(stateName: string): boolean | int32 | string | undefined
@@ -102,7 +102,7 @@ getState(stateName: string): boolean | int32 | string | undefined
 //// define
 `stateName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.getstate.statename.description
+- 要获取的状态的标识符。
 
 
 ////
@@ -110,7 +110,7 @@ getState(stateName: string): boolean | int32 | string | undefined
 //// define
 返回值：`boolean`|`int32`|`string`|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.getstate.return
+- 如果该置换含有这个状态，返回此状态的值，否则返回`undefined`。
 
 
 ////
@@ -124,7 +124,7 @@ getState(stateName: string): boolean | int32 | string | undefined
 
 ///
 
-script_api.@minecraft/server.blockpermutation.matches.description
+测试该置换的内容是否与给定内容相同。若不传入方块状态，则只对方块类型进行测试。
 
 ```js
 matches(blockName: string, states?: Record<string, boolean | int32 | string>): boolean
@@ -134,7 +134,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `blockName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.matches.blockname.description
+- 要测试的方块类型的名称。
 
 
 ////
@@ -142,7 +142,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.matches.states.description
+- 要测试的方块状态。
 
 
 ////
@@ -150,7 +150,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 //// define
 返回值：`boolean`
 
-- script_api.@minecraft/server.blockpermutation.matches.return
+- 如果该置换的内容与给定内容相同，返回`true`。
 
 
 ////
@@ -164,7 +164,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 
 ///
 
-script_api.@minecraft/server.blockpermutation.resolve.description
+根据方块名称和方块状态创建一个方块置换。
 
 ```js
 static resolve(blockName: string, states?: Record<string, boolean | int32 | string>): BlockPermutation
@@ -174,7 +174,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 `blockName`：`string`
 
-- script_api.@minecraft/server.blockpermutation.resolve.blockname.description
+- 置换中的方块类型的名称。
 
 
 ////
@@ -182,7 +182,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 `states`：`Record<string, boolean | int32 | string>`|`undefined`
 
-- script_api.@minecraft/server.blockpermutation.resolve.states.description
+- 置换中的方块状态。
 
 
 ////
@@ -190,7 +190,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 //// define
 返回值：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.blockpermutation.resolve.return
+- 创建出的方块置换。
 
 
 ////
@@ -204,7 +204,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 
 ///
 
-script_api.@minecraft/server.blockpermutation.withstate.description
+通过修改指定方块状态创建一个派生自该置换的方块置换。
 
 ```js
 withState(name: string, value: boolean | int32 | string): BlockPermutation
@@ -214,7 +214,7 @@ withState(name: string, value: boolean | int32 | string): BlockPermutation
 //// define
 `name`：`string`
 
-- script_api.@minecraft/server.blockpermutation.withstate.name.description
+- 派生置换中要修改的方块状态的标识符。
 
 
 ////
@@ -222,7 +222,7 @@ withState(name: string, value: boolean | int32 | string): BlockPermutation
 //// define
 `value`：`boolean`|`int32`|`string`
 
-- script_api.@minecraft/server.blockpermutation.withstate.value.description
+- 派生置换中要修改的方块状态的值。
 
 
 ////
@@ -230,7 +230,7 @@ withState(name: string, value: boolean | int32 | string): BlockPermutation
 //// define
 返回值：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.blockpermutation.withstate.return
+- 创建出的派生置换。
 
 
 ////

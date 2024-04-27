@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponentPlayerPlaceBeforeEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentplayerplacebeforeevent.description
+`BlockComponentPlayerPlaceBeforeEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含玩家放置方块前的事件信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ cancel: boolean;
 //// define
 `cancel`：`boolean`
 
-- script_api.@minecraft/server.blockcomponentplayerplacebeforeevent.cancel.description
+- 如果设置为`true`，则可取消本次方块放置事件。
 
 
 ////
@@ -42,7 +42,7 @@ read-only face: Direction;
 //// define
 `face`：[`Direction`](./direction.md)
 
-- script_api.@minecraft/server.blockcomponentplayerplacebeforeevent.face.description
+- 该方块被放置到的面（即玩家放置该方块时点击的面）。
 
 
 ////
@@ -64,7 +64,7 @@ permutationToPlace: BlockPermutation;
 //// define
 `permutationToPlace`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.blockcomponentplayerplacebeforeevent.permutationtoplace.description
+- 该方块被放置时将要设置的置换。
 
 
 ////
@@ -86,7 +86,7 @@ read-only player: Player | undefined;
 //// define
 `player`：[`Player`](./player.md)|`undefined`
 
-- script_api.@minecraft/server.blockcomponentplayerplacebeforeevent.player.description
+- 正在放置该方块的玩家。
 
 
 ////

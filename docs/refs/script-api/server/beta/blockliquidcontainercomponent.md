@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blockliquidcontainercomponent.description
+`BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。液体容器方块的液体容器基组件。
 
 ## 属性
 
@@ -20,7 +20,7 @@ fillLevel: int32;
 //// define
 `fillLevel`：`int32`
 
-- script_api.@minecraft/server.blockliquidcontainercomponent.filllevel.description
+- 该液体容器当前的相对装填等级。
 
 
 ////
@@ -36,7 +36,7 @@ fillLevel: int32;
 
 ///
 
-script_api.@minecraft/server.blockliquidcontainercomponent.isvalidliquid.description
+检查该液体容器是否有效且装填内容与引用类型相同。
 
 ```js
 isValidLiquid(): boolean
@@ -46,7 +46,7 @@ isValidLiquid(): boolean
 //// define
 返回值：`boolean`
 
-- script_api.@minecraft/server.blockliquidcontainercomponent.isvalidliquid.return
+- 如果该液体容器有效且装填内容与引用类型相同，返回`true`(例如，一个方块未被加载，或它不再是一个液体容器方块，又或是装填有熔岩但目前引用的是药水容器组件，都不会返回`true`)。
 
 
 ////

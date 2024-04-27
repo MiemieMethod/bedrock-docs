@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockComponentOnPlaceEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.blockcomponentonplaceevent.description
+`BlockComponentOnPlaceEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含被放置的方块的信息。
 
 ## 属性
 
@@ -20,7 +20,7 @@ read-only previousBlock: BlockPermutation;
 //// define
 `previousBlock`：[`BlockPermutation`](./blockpermutation.md)
 
-- script_api.@minecraft/server.blockcomponentonplaceevent.previousblock.description
+- 放置方块时该位置被替换掉的方块。
 
 
 ////

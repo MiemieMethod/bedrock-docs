@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.0.21
 
-`BlockInventoryComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blockinventorycomponent.description
+`BlockInventoryComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。代表一个物品栏容器方块的物品栏组件。
 
 ## 常量
 
@@ -33,7 +33,7 @@ read-only container: Container | undefined;
 //// define
 `container`：[`Container`](./container.md)|`undefined`
 
-- script_api.@minecraft/server.blockinventorycomponent.container.description
+- 该方块物品栏容器对象。
 
 
 ////
