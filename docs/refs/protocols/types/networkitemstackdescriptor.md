@@ -82,7 +82,7 @@ rankdir = LR
 /////// define
 Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.networkitemstackdescriptor.id.descriptionSend fixed Id of 0 for inval'id' item
+- 基本类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_0.id.descriptionSend fixed Id of 0 for inval'id' item
 
 
 ///////
@@ -100,28 +100,28 @@ Id：<!-- md:samp varint -->
 /////// define
 Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.networkitemstackdescriptor.id.description
+- 基本类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_1.id.description
 
 
 ///////
 /////// define
 Stack size：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.type.networkitemstackdescriptor.stack_size.description
+- 基本类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_1.stack_size.description
 
 
 ///////
 /////// define
 Aux value：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.networkitemstackdescriptor.aux_value.description
+- 基本类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_1.aux_value.description
 
 
 ///////
 /////// define
 Include Net Id：<!-- md:samp bool -->
 
-- 基本类型。protocol.type.networkitemstackdescriptor.include_net_id.description
+- 基本类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_1.include_net_id.description
 
 
 ///////
@@ -147,7 +147,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////////// define
 Net Id Variant：[<!-- md:samp ItemStackNetIdVariant -->](../types/itemstacknetidvariant.md)
 
-- 特殊类型。protocol.type.networkitemstackdescriptor.net_id_variant.description
+- 特殊类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_1.dependency_on_include_net_id.if_1.net_id_variant.description
 
 
 //////////
@@ -158,14 +158,14 @@ Net Id Variant：[<!-- md:samp ItemStackNetIdVariant -->](../types/itemstackneti
 /////// define
 Block Runtime Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.networkitemstackdescriptor.block_runtime_id.description
+- 基本类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_1.block_runtime_id.description
 
 
 ///////
 /////// define
 User Data Buffer：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.networkitemstackdescriptor.user_data_buffer.descriptionThe @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
+- 特殊类型。protocol.type.networkitemstackdescriptor.dependency_on_valid_item.if_1.user_data_buffer.descriptionThe @ItemInstanceUserData.html#ItemInstanceUserData@  binary blob encoded as a String, so it's unsigned varint length prefixed. Get all your nbt+property bytes, calculate the length, write that length, THEN write the data.
 
 
 ///////

@@ -79,7 +79,7 @@ Request Count：<!-- md:samp unsigned int -->
 ////// define
 SubChunk Offset Pos：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../types/subchunkpacket__subchunkposoffset.md)
 
-- 特殊类型。protocol.packet.subchunkrequestpacket.subchunk_offset_pos.description
+- 特殊类型。protocol.packet.subchunkrequestpacket.subchunk_pos_offset_list.example_element.subchunk_offset_pos.description
 
 
 //////

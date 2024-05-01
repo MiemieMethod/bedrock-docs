@@ -98,7 +98,21 @@ Is Premium Pack：<!-- md:samp bool -->
 //// define
 Pack Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.resourcepackdatainfopacket.pack_type.description
+- 基本类型枚举。protocol.packet.resourcepackdatainfopacket.pack_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Addon`|`1`|protocol.enum.addon|
+  |`Cached`|`2`|protocol.enum.cached|
+  |`CopyProtected`|`3`|protocol.enum.copyprotected|
+  |`Behavior`|`4`|protocol.enum.behavior|
+  |`PersonaPiece`|`5`|protocol.enum.personapiece|
+  |`Resources`|`6`|protocol.enum.resources|
+  |`Skins`|`7`|protocol.enum.skins|
+  |`WorldTemplate`|`8`|protocol.enum.worldtemplate|
+  |`Count`|`9`|protocol.enum.count|
+
 
 
 ////

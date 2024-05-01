@@ -162,7 +162,24 @@ rankdir = LR
 //// define
 Tag Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.compoundtag.tag_type.description
+- 基本类型枚举。protocol.type.compoundtag.tag_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`End`|`0`|protocol.enum.end|
+  |`Byte`|`1`|protocol.enum.byte|
+  |`Short`|`2`|protocol.enum.short|
+  |`Int`|`3`|protocol.enum.int|
+  |`Int64`|`4`|protocol.enum.int64|
+  |`Float`|`5`|protocol.enum.float|
+  |`Double`|`6`|protocol.enum.double|
+  |`ByteArray`|`7`|protocol.enum.bytearray|
+  |`String`|`8`|protocol.enum.string|
+  |`List`|`9`|protocol.enum.list|
+  |`Compound`|`10`|protocol.enum.compound|
+  |`IntArray`|`11`|protocol.enum.intarray|
+  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
+
 
 
 ////
@@ -177,7 +194,7 @@ Tag Type：<!-- md:samp byte -->
 /////// define
 Tag Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.compoundtag.tag_name.description
+- 特殊类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.tag_name.description
 
 
 ///////
@@ -203,7 +220,7 @@ if (0)：<!-- md:samp [No Data] -->
 ////////// define
 Tag Value：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.compoundtag.tag_value.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_1.tag_value.description
 
 
 //////////
@@ -221,7 +238,7 @@ Tag Value：<!-- md:samp byte -->
 ////////// define
 Tag Value：<!-- md:samp short -->
 
-- 基本类型。protocol.type.compoundtag.tag_value.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_2.tag_value.description
 
 
 //////////
@@ -239,7 +256,7 @@ Tag Value：<!-- md:samp short -->
 ////////// define
 Tag Value：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.compoundtag.tag_value.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_3.tag_value.description
 
 
 //////////
@@ -257,7 +274,7 @@ Tag Value：<!-- md:samp varint -->
 ////////// define
 Tag Value：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.type.compoundtag.tag_value.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_4.tag_value.description
 
 
 //////////
@@ -275,7 +292,7 @@ Tag Value：<!-- md:samp varint64 -->
 ////////// define
 Tag Value：<!-- md:samp float -->
 
-- 基本类型。protocol.type.compoundtag.tag_value.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_5.tag_value.description
 
 
 //////////
@@ -293,7 +310,7 @@ Tag Value：<!-- md:samp float -->
 ////////// define
 Tag Value：<!-- md:samp double -->
 
-- 基本类型。protocol.type.compoundtag.tag_value.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_6.tag_value.description
 
 
 //////////
@@ -316,7 +333,7 @@ Tag Value：<!-- md:samp double -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.compoundtag.数组大小.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_7.byte_array.array_size.description
 
 
 ///////////
@@ -328,7 +345,7 @@ Tag Value：<!-- md:samp double -->
 //////////// define
 Byte Data：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.compoundtag.byte_data.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_7.byte_array.example_element.byte_data.description
 
 
 ////////////
@@ -350,7 +367,7 @@ Byte Data：<!-- md:samp byte -->
 ////////// define
 Tag Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.compoundtag.tag_value.description
+- 特殊类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_8.tag_value.description
 
 
 //////////
@@ -376,7 +393,24 @@ Tag Value：[<!-- md:samp string -->](../types/string.md)
 ///////////// define
 Tag Type for list：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.compoundtag.tag_type_for_list.description
+- 基本类型枚举。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_9.dependency_on_if_empty_list.if_0.tag_type_for_list.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`End`|`0`|protocol.enum.end|
+  |`Byte`|`1`|protocol.enum.byte|
+  |`Short`|`2`|protocol.enum.short|
+  |`Int`|`3`|protocol.enum.int|
+  |`Int64`|`4`|protocol.enum.int64|
+  |`Float`|`5`|protocol.enum.float|
+  |`Double`|`6`|protocol.enum.double|
+  |`ByteArray`|`7`|protocol.enum.bytearray|
+  |`String`|`8`|protocol.enum.string|
+  |`List`|`9`|protocol.enum.list|
+  |`Compound`|`10`|protocol.enum.compound|
+  |`IntArray`|`11`|protocol.enum.intarray|
+  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
+
 
 
 /////////////
@@ -394,7 +428,24 @@ Tag Type for list：<!-- md:samp byte -->
 ///////////// define
 Tag Type (must be 1)：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.compoundtag.tag_type.description
+- 基本类型枚举。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_9.dependency_on_if_empty_list.if_1.tag_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`End`|`0`|protocol.enum.end|
+  |`Byte`|`1`|protocol.enum.byte|
+  |`Short`|`2`|protocol.enum.short|
+  |`Int`|`3`|protocol.enum.int|
+  |`Int64`|`4`|protocol.enum.int64|
+  |`Float`|`5`|protocol.enum.float|
+  |`Double`|`6`|protocol.enum.double|
+  |`ByteArray`|`7`|protocol.enum.bytearray|
+  |`String`|`8`|protocol.enum.string|
+  |`List`|`9`|protocol.enum.list|
+  |`Compound`|`10`|protocol.enum.compound|
+  |`IntArray`|`11`|protocol.enum.intarray|
+  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
+
 
 
 /////////////
@@ -410,7 +461,7 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.compoundtag.数组大小.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_9.tag_array.array_size.description
 
 
 ///////////
@@ -422,7 +473,7 @@ Tag Type (must be 1)：<!-- md:samp byte -->
 //////////// define
 Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。protocol.type.compoundtag.tag.description
+- 特殊类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_9.tag_array.example_element.tag.description
 
 
 ////////////
@@ -454,7 +505,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 //////////// define
 Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。protocol.type.compoundtag.tag.description
+- 特殊类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_10.tag_array.example_element.tag.description
 
 
 ////////////
@@ -465,7 +516,7 @@ Tag (Recursive)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////////// define
 End (must be 0)：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.compoundtag.end.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_10.end.description
 
 
 //////////
@@ -488,7 +539,7 @@ End (must be 0)：<!-- md:samp byte -->
 /////////// define
 数组大小：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.compoundtag.数组大小.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_11.int_array.array_size.description
 
 
 ///////////
@@ -500,7 +551,7 @@ End (must be 0)：<!-- md:samp byte -->
 //////////// define
 Int Data：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.compoundtag.int_data.description
+- 基本类型。protocol.type.compoundtag.dependency_on_if_tag_type_is_0.if_0.dependency_on_tag_type.if_11.int_array.example_element.int_data.description
 
 
 ////////////

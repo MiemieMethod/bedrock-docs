@@ -57,7 +57,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.playerenchantoptionspacket.数组大小.description
+- 基本类型。protocol.packet.playerenchantoptionspacket.options.array_size.description
 
 
 /////
@@ -69,28 +69,28 @@ rankdir = LR
 ////// define
 Cost：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.playerenchantoptionspacket.cost.description
+- 基本类型。protocol.packet.playerenchantoptionspacket.options.example_element.cost.description
 
 
 //////
 ////// define
 Enchants：[<!-- md:samp ItemEnchants -->](../types/itemenchants.md)
 
-- 特殊类型。protocol.packet.playerenchantoptionspacket.enchants.description
+- 特殊类型。protocol.packet.playerenchantoptionspacket.options.example_element.enchants.description
 
 
 //////
 ////// define
 Enchant Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.playerenchantoptionspacket.enchant_name.description
+- 特殊类型。protocol.packet.playerenchantoptionspacket.options.example_element.enchant_name.description
 
 
 //////
 ////// define
 Enchant Net Id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.packet.playerenchantoptionspacket.enchant_net_id.description
+- 特殊类型。protocol.packet.playerenchantoptionspacket.options.example_element.enchant_net_id.description
 
 
 //////

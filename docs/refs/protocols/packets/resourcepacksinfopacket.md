@@ -169,7 +169,7 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.数组大小.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.behavior_packs.array_size.description
 
 
 /////
@@ -181,49 +181,49 @@ Force Server Packs Enabled：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.id.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.behavior_packs.example_element.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.version.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.behavior_packs.example_element.version.description
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.size.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.behavior_packs.example_element.size.description
 
 
 //////
 ////// define
 Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.content_key.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.behavior_packs.example_element.content_key.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.sub_pack_name.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.behavior_packs.example_element.sub_pack_name.description
 
 
 //////
 ////// define
 Content Identity：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.content_identity.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.behavior_packs.example_element.content_identity.description
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.has_scripts.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.behavior_packs.example_element.has_scripts.description
 
 
 //////
@@ -239,7 +239,7 @@ Has Scripts：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.数组大小.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.resource_packs.array_size.description
 
 
 /////
@@ -251,56 +251,56 @@ Has Scripts：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.id.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.version.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.version.description
 
 
 //////
 ////// define
 Size：<!-- md:samp unsigned int64 -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.size.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.size.description
 
 
 //////
 ////// define
 Content Key：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.content_key.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.content_key.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.sub_pack_name.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.sub_pack_name.description
 
 
 //////
 ////// define
 Content Identity：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.content_identity.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.content_identity.description
 
 
 //////
 ////// define
 Has Scripts：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.has_scripts.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.has_scripts.description
 
 
 //////
 ////// define
 Is Ray Tracing Capable：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.is_ray_tracing_capable.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.is_ray_tracing_capable.description
 
 
 //////
@@ -316,7 +316,7 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.resourcepacksinfopacket.数组大小.description
+- 基本类型。protocol.packet.resourcepacksinfopacket.cdn_urls.array_size.description
 
 
 /////
@@ -328,14 +328,14 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 ////// define
 First：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.first.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.cdn_urls.example_element.first.description
 
 
 //////
 ////// define
 Second：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.second.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.cdn_urls.example_element.second.description
 
 
 //////

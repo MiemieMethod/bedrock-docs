@@ -32,7 +32,14 @@ rankdir = LR
 //// define
 Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.multiplayersettingspacket.type.description
+- 基本类型枚举。protocol.packet.multiplayersettingspacket.type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`EnableMultiplayer`|`0`|protocol.enum.enablemultiplayer|
+  |`DisableMultiplayer`|`1`|protocol.enum.disablemultiplayer|
+  |`RefreshJoincode`|`2`|protocol.enum.refreshjoincode|
+
 
 
 ////

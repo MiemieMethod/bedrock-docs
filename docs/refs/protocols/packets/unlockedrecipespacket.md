@@ -56,7 +56,7 @@ Packet Type：<!-- md:samp unsigned int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.unlockedrecipespacket.数组大小.description
+- 基本类型。protocol.packet.unlockedrecipespacket.unlocked_recipes_list.array_size.description
 
 
 /////
@@ -68,7 +68,7 @@ Packet Type：<!-- md:samp unsigned int -->
 ////// define
 Recipe：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.unlockedrecipespacket.recipe.description
+- 特殊类型。protocol.packet.unlockedrecipespacket.unlocked_recipes_list.example_element.recipe.description
 
 
 //////

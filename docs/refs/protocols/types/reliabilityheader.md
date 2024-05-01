@@ -147,21 +147,21 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Sequenced Index：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.sequenced_index.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_1.sequenced_index.description
 
 
 ///////
 /////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.ordering_index.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_1.ordering_index.description
 
 
 ///////
 /////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.reliability_header.ordering_channel.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_1.ordering_channel.description
 
 
 ///////
@@ -179,7 +179,7 @@ Ordering Channel：<!-- md:samp byte -->
 /////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.reliable_message.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_2.reliable_message.description
 
 
 ///////
@@ -197,21 +197,21 @@ Reliable Message：<!-- md:samp unsigned int24 -->
 /////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.reliable_message.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_3.reliable_message.description
 
 
 ///////
 /////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.ordering_index.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_3.ordering_index.description
 
 
 ///////
 /////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.reliability_header.ordering_channel.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_3.ordering_channel.description
 
 
 ///////
@@ -229,28 +229,28 @@ Ordering Channel：<!-- md:samp byte -->
 /////// define
 Reliable Message：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.reliable_message.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_4.reliable_message.description
 
 
 ///////
 /////// define
 Sequenced Index：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.sequenced_index.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_4.sequenced_index.description
 
 
 ///////
 /////// define
 Ordering Index：<!-- md:samp unsigned int24 -->
 
-- 基本类型。protocol.type.reliability_header.ordering_index.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_4.ordering_index.description
 
 
 ///////
 /////// define
 Ordering Channel：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.reliability_header.ordering_channel.description
+- 基本类型。protocol.type.reliability_header.dependency_on_reliability_type.if_4.ordering_channel.description
 
 
 ///////
@@ -280,21 +280,21 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Split Packet Count：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.reliability_header.split_packet_count.description
+- 基本类型。protocol.type.reliability_header.dependency_on_is_packet_split.if_1.split_packet_count.description
 
 
 ///////
 /////// define
 Split Packet Id：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.type.reliability_header.split_packet_id.description
+- 基本类型。protocol.type.reliability_header.dependency_on_is_packet_split.if_1.split_packet_id.description
 
 
 ///////
 /////// define
 Split Packet Index：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.reliability_header.split_packet_index.description
+- 基本类型。protocol.type.reliability_header.dependency_on_is_packet_split.if_1.split_packet_index.description
 
 
 ///////

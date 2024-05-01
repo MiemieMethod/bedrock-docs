@@ -36,7 +36,17 @@ rankdir = LR
 //// define
 InternalType：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.recipeingredient.internaltype.description
+- 基本类型枚举。protocol.type.recipeingredient.internaltype.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Default`|`1`|protocol.enum.default|
+  |`Molang`|`2`|protocol.enum.molang|
+  |`ItemTag`|`3`|protocol.enum.itemtag|
+  |`Deferred`|`4`|protocol.enum.deferred|
+  |`ComplexAlias`|`5`|protocol.enum.complexalias|
+
 
 
 ////

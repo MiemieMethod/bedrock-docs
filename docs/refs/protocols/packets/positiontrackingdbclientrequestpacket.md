@@ -36,7 +36,12 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.positiontrackingdbclientrequestpacket.action.description
+- 基本类型枚举。protocol.packet.positiontrackingdbclientrequestpacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Query`|`0`|protocol.enum.query|
+
 
 
 ////

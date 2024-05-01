@@ -40,7 +40,18 @@ rankdir = LR
 //// define
 Player game type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.updateplayergametypepacket.player_game_type.description
+- 基本类型枚举。protocol.packet.updateplayergametypepacket.player_game_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`-1`|protocol.enum.undefined|
+  |`Survival`|`0`|protocol.enum.survival|
+  |`Creative`|`1`|protocol.enum.creative|
+  |`Adventure`|`2`|protocol.enum.adventure|
+  |`Default`|`5`|protocol.enum.default|
+  |`Spectator`|`6`|protocol.enum.spectator|
+  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
+
 
 
 ////

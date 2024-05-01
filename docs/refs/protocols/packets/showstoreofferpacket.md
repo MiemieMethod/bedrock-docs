@@ -43,7 +43,15 @@ Product ID：[<!-- md:samp string -->](../types/string.md)
 //// define
 Redirect Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.showstoreofferpacket.redirect_type.description
+- 基本类型枚举。protocol.packet.showstoreofferpacket.redirect_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`MarketplaceOffer`|`0`|protocol.enum.marketplaceoffer|
+  |`DressingRoomOffer`|`1`|protocol.enum.dressingroomoffer|
+  |`ThirdPartyServerPage`|`2`|protocol.enum.thirdpartyserverpage|
+  |`Count`|`3`|protocol.enum.count|
+
 
 
 ////

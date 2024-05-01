@@ -133,21 +133,45 @@ Last Edit Player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.structuresettings.rotation.description
+- 基本类型枚举。protocol.type.structuresettings.rotation.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Rotate90`|`1`|protocol.enum.rotate90|
+  |`Rotate180`|`2`|protocol.enum.rotate180|
+  |`Rotate270`|`3`|protocol.enum.rotate270|
+  |`Total`|`4`|protocol.enum.total|
+
 
 
 ////
 //// define
 Mirror：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.structuresettings.mirror.description
+- 基本类型枚举。protocol.type.structuresettings.mirror.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`X`|`1`|protocol.enum.x|
+  |`Z`|`2`|protocol.enum.z|
+  |`XZ`|`3`|protocol.enum.xz|
+
 
 
 ////
 //// define
 Animation Mode：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.structuresettings.animation_mode.description
+- 基本类型枚举。protocol.type.structuresettings.animation_mode.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Layers`|`1`|protocol.enum.layers|
+  |`Blocks`|`2`|protocol.enum.blocks|
+
 
 
 ////

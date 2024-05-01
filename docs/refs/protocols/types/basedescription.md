@@ -65,14 +65,14 @@ rankdir = LR
 ///// define
 Full Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.basedescription.full_name.description
+- 特殊类型。protocol.type.basedescription.internal_itemdescriptor.full_name.description
 
 
 /////
 ///// define
 Aux Value：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.type.basedescription.aux_value.description
+- 基本类型。protocol.type.basedescription.internal_itemdescriptor.aux_value.description
 
 
 /////
@@ -86,7 +86,7 @@ Aux Value：<!-- md:samp unsigned short -->
 ///// define
 Full Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.basedescription.full_name.description
+- 特殊类型。protocol.type.basedescription.molang_descriptor.full_name.description
 
 
 /////
@@ -100,7 +100,7 @@ Full Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Item Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.basedescription.item_tag.description
+- 特殊类型。protocol.type.basedescription.itemtag_descriptor.item_tag.description
 
 
 /////
@@ -114,14 +114,14 @@ Item Tag：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Full Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.basedescription.full_name.description
+- 特殊类型。protocol.type.basedescription.deferred_descriptor.full_name.description
 
 
 /////
 ///// define
 Aux Value：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.type.basedescription.aux_value.description
+- 基本类型。protocol.type.basedescription.deferred_descriptor.aux_value.description
 
 
 /////

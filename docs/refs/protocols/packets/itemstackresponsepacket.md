@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.itemstackresponsepacket.数组大小.description
+- 基本类型。protocol.packet.itemstackresponsepacket.responses.array_size.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Response Info：[<!-- md:samp ItemStackResponseInfo -->](../types/itemstackresponseinfo.md)
 
-- 特殊类型。protocol.packet.itemstackresponsepacket.response_info.description
+- 特殊类型。protocol.packet.itemstackresponsepacket.responses.example_element.response_info.description
 
 
 //////

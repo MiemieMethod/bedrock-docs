@@ -58,14 +58,46 @@ rankdir = LR
 //// define
 Ability：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.requestabilitypacket.ability.description
+- 基本类型枚举。protocol.packet.requestabilitypacket.ability.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`-1`|protocol.enum.invalid|
+  |`Build`|`0`|protocol.enum.build|
+  |`Mine`|`1`|protocol.enum.mine|
+  |`DoorsAndSwitches`|`2`|protocol.enum.doorsandswitches|
+  |`OpenContainers`|`3`|protocol.enum.opencontainers|
+  |`AttackPlayers`|`4`|protocol.enum.attackplayers|
+  |`AttackMobs`|`5`|protocol.enum.attackmobs|
+  |`OperatorCommands`|`6`|protocol.enum.operatorcommands|
+  |`Teleport`|`7`|protocol.enum.teleport|
+  |`Invulnerable`|`8`|protocol.enum.invulnerable|
+  |`Flying`|`9`|protocol.enum.flying|
+  |`MayFly`|`10`|protocol.enum.mayfly|
+  |`Instabuild`|`11`|protocol.enum.instabuild|
+  |`Lightning`|`12`|protocol.enum.lightning|
+  |`FlySpeed`|`13`|protocol.enum.flyspeed|
+  |`WalkSpeed`|`14`|protocol.enum.walkspeed|
+  |`Muted`|`15`|protocol.enum.muted|
+  |`WorldBuilder`|`16`|protocol.enum.worldbuilder|
+  |`NoClip`|`17`|protocol.enum.noclip|
+  |`PrivilegedBuilder`|`18`|protocol.enum.privilegedbuilder|
+  |`AbilityCount`|`19`|protocol.enum.abilitycount|
+
 
 
 ////
 //// define
 Value Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.requestabilitypacket.value_type.description
+- 基本类型枚举。protocol.packet.requestabilitypacket.value_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Unset`|`0`|protocol.enum.unset|
+  |`Bool`|`1`|protocol.enum.bool|
+  |`Float`|`2`|protocol.enum.float|
+
 
 
 ////
@@ -80,14 +112,14 @@ Value Type：<!-- md:samp byte -->
 /////// define
 Varible Value：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.requestabilitypacket.varible_value.description
+- 基本类型。protocol.packet.requestabilitypacket.dependency_on_value_type.if_1.varible_value.description
 
 
 ///////
 /////// define
 Default Value = 0.0：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.requestabilitypacket.default_value_=_0.0.description
+- 基本类型。protocol.packet.requestabilitypacket.dependency_on_value_type.if_1.default_value_=_0.0.description
 
 
 ///////
@@ -105,14 +137,14 @@ Default Value = 0.0：<!-- md:samp float -->
 /////// define
 Default Value = false：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.requestabilitypacket.default_value_=_false.description
+- 基本类型。protocol.packet.requestabilitypacket.dependency_on_value_type.if_2.default_value_=_false.description
 
 
 ///////
 /////// define
 Varible Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.requestabilitypacket.varible_value.description
+- 基本类型。protocol.packet.requestabilitypacket.dependency_on_value_type.if_2.varible_value.description
 
 
 ///////

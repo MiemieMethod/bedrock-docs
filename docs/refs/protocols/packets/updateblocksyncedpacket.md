@@ -87,7 +87,14 @@ Unique Actor Id：<!-- md:samp unsigned varint64 -->
 //// define
 Actor Sync Message：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。protocol.packet.updateblocksyncedpacket.actor_sync_message.description
+- 基本类型枚举。protocol.packet.updateblocksyncedpacket.actor_sync_message.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NONE`|`0`|无|
+  |`CREATE`|`1`|protocol.enum.create|
+  |`DESTROY`|`2`|protocol.enum.destroy|
+
 
 
 ////

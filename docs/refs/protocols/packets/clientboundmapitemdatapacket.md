@@ -171,7 +171,15 @@ Map ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Type Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.type_flags.description
+- 基本类型枚举。protocol.packet.clientboundmapitemdatapacket.type_flags.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`TextureUpdate`|`1 << 1`|protocol.enum.textureupdate|
+  |`DecorationUpdate`|`1 << 2`|protocol.enum.decorationupdate|
+  |`Creation`|`1 << 3`|protocol.enum.creation|
+
 
 
 ////
@@ -212,7 +220,7 @@ Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_creation_bit_field.if_8.map_id_list.array_size.description
 
 
 ////////
@@ -224,14 +232,14 @@ Map Origin：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 ///////// define
 Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_id_entry.description
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_creation_bit_field.if_8.map_id_list.example_element.map_id_entry.description
 
 
 /////////
 ///////// define
 Map ID entry：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_id_entry.description
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_creation_bit_field.if_8.map_id_list.example_element.map_id_entry.description
 
 
 /////////
@@ -265,7 +273,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.scale.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_decorationupdate_textureupdate_or_creation_bit_field.if_2.scale.description
 
 
 ///////
@@ -283,7 +291,7 @@ Scale：<!-- md:samp byte -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.scale.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_decorationupdate_textureupdate_or_creation_bit_field.if_4.scale.description
 
 
 ///////
@@ -301,7 +309,7 @@ Scale：<!-- md:samp byte -->
 /////// define
 Scale：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.scale.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_decorationupdate_textureupdate_or_creation_bit_field.if_8.scale.description
 
 
 ///////
@@ -336,7 +344,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_decorationupdate_bit_field.if_4.actor_ids.array_size.description
 
 
 ////////
@@ -348,7 +356,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../types/mapitemtrackedactor__uniqueid.md)
 
-- 特殊类型。protocol.packet.clientboundmapitemdatapacket.mapitemtrackedactor_id.description
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_decorationupdate_bit_field.if_4.actor_ids.example_element.mapitemtrackedactor_id.description
 
 
 /////////
@@ -364,7 +372,7 @@ MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../typ
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_decorationupdate_bit_field.if_4.decoration_list.array_size.description
 
 
 ////////
@@ -376,7 +384,7 @@ MapItemTrackedActor ID：[<!-- md:samp MapItemTrackedActor::UniqueId -->](../typ
 ///////// define
 Map Decoration：[<!-- md:samp MapDecoration -->](../types/mapdecoration.md)
 
-- 特殊类型。protocol.packet.clientboundmapitemdatapacket.map_decoration.description
+- 特殊类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_decorationupdate_bit_field.if_4.decoration_list.example_element.map_decoration.description
 
 
 /////////
@@ -410,28 +418,28 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Texture Width：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.texture_width.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_textureupdate_bit_field.if_2.texture_width.description
 
 
 ///////
 /////// define
 Texture Height：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.texture_height.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_textureupdate_bit_field.if_2.texture_height.description
 
 
 ///////
 /////// define
 X-TexCoordinate：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.x-texcoordinate.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_textureupdate_bit_field.if_2.x-texcoordinate.description
 
 
 ///////
 /////// define
 Y-TexCoordinate：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.y-texcoordinate.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_textureupdate_bit_field.if_2.y-texcoordinate.description
 
 
 ///////
@@ -443,7 +451,7 @@ Y-TexCoordinate：<!-- md:samp varint -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.数组大小.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_textureupdate_bit_field.if_2.pixels.array_size.description
 
 
 ////////
@@ -455,7 +463,7 @@ Y-TexCoordinate：<!-- md:samp varint -->
 ///////// define
 Pixel：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.clientboundmapitemdatapacket.pixel.description
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.dependency_on_textureupdate_bit_field.if_2.pixels.example_element.pixel.description
 
 
 /////////

@@ -63,7 +63,15 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Event ID：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.mobeffectpacket.event_id.description
+- 基本类型枚举。protocol.packet.mobeffectpacket.event_id.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Add`|`1`|protocol.enum.add|
+  |`Update`|`2`|protocol.enum.update|
+  |`Remove`|`3`|protocol.enum.remove|
+
 
 
 ////

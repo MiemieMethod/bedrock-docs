@@ -73,14 +73,22 @@ Structure Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Failure：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.structuretemplatedataresponsepacket.failure.descriptionBool set to false, indicating the requested structure d'id'n't exist.
+- 基本类型。protocol.packet.structuretemplatedataresponsepacket.dependency_on_requested_structure_exists.if_0.failure.descriptionBool set to false, indicating the requested structure d'id'n't exist.
 
 
 ///////
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.structuretemplatedataresponsepacket.response_type.description
+- 基本类型枚举。protocol.packet.structuretemplatedataresponsepacket.dependency_on_requested_structure_exists.if_0.response_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Export`|`1`|protocol.enum.export|
+  |`Query`|`2`|protocol.enum.query|
+  |`Import`|`3`|protocol.enum.import|
+
 
 
 ///////
@@ -98,21 +106,29 @@ Response Type：<!-- md:samp byte -->
 /////// define
 Success：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.structuretemplatedataresponsepacket.success.descriptionBool set to true, indicating success.
+- 基本类型。protocol.packet.structuretemplatedataresponsepacket.dependency_on_requested_structure_exists.if_1.success.descriptionBool set to true, indicating success.
 
 
 ///////
 /////// define
 Structure's NBT：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。protocol.packet.structuretemplatedataresponsepacket.structures_nbt.description
+- 特殊类型。protocol.packet.structuretemplatedataresponsepacket.dependency_on_requested_structure_exists.if_1.structures_nbt.description
 
 
 ///////
 /////// define
 Response Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.structuretemplatedataresponsepacket.response_type.description
+- 基本类型枚举。protocol.packet.structuretemplatedataresponsepacket.dependency_on_requested_structure_exists.if_1.response_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Export`|`1`|protocol.enum.export|
+  |`Query`|`2`|protocol.enum.query|
+  |`Import`|`3`|protocol.enum.import|
+
 
 
 ///////

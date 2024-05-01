@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Raw Id (32 bit signed)：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.typedclientnetid&lt;struct_itemstacklegacyrequestidtag,int,0&gt;.raw_id.description
+- 基本类型。protocol.type.typedclientnetid&lt;struct_itemstacklegacyrequestidtagint0&gt;.raw_id.description
 
 
 ////

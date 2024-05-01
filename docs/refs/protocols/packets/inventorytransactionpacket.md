@@ -103,7 +103,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.inventorytransactionpacket.数组大小.description
+- 基本类型。protocol.packet.inventorytransactionpacket.dependency_on_above_id_nonzero.if_1.legacy_set_item_slots.array_size.description
 
 
 ////////
@@ -115,7 +115,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 Container Enum：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.inventorytransactionpacket.container_enum.description
+- 基本类型。protocol.packet.inventorytransactionpacket.dependency_on_above_id_nonzero.if_1.legacy_set_item_slots.example_element.container_enum.description
 
 
 /////////
@@ -127,7 +127,7 @@ Container Enum：<!-- md:samp byte -->
 ////////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.inventorytransactionpacket.数组大小.description
+- 基本类型。protocol.packet.inventorytransactionpacket.dependency_on_above_id_nonzero.if_1.legacy_set_item_slots.example_element.slot_vector.array_size.description
 
 
 //////////
@@ -139,7 +139,7 @@ Container Enum：<!-- md:samp byte -->
 /////////// define
 Slot：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.inventorytransactionpacket.slot.description
+- 基本类型。protocol.packet.inventorytransactionpacket.dependency_on_above_id_nonzero.if_1.legacy_set_item_slots.example_element.slot_vector.example_element.slot.description
 
 
 ///////////
@@ -158,7 +158,16 @@ Slot：<!-- md:samp byte -->
 //// define
 Transaction Type：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.inventorytransactionpacket.transaction_type.description
+- 基本类型枚举。protocol.packet.inventorytransactionpacket.transaction_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NormalTransaction`|`0`|protocol.enum.normaltransaction|
+  |`InventoryMismatch`|`1`|protocol.enum.inventorymismatch|
+  |`ItemUseTransaction`|`2`|protocol.enum.itemusetransaction|
+  |`ItemUseOnEntityTransaction`|`3`|protocol.enum.itemuseonentitytransaction|
+  |`ItemReleaseTransaction`|`4`|protocol.enum.itemreleasetransaction|
+
 
 
 ////

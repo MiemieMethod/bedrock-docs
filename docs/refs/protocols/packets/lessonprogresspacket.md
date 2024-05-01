@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Lesson Action：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.lessonprogresspacket.lesson_action.description
+- 基本类型枚举。protocol.packet.lessonprogresspacket.lesson_action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Start`|`0`|protocol.enum.start|
+  |`Complete`|`1`|protocol.enum.complete|
+  |`Restart`|`2`|protocol.enum.restart|
+
 
 
 ////

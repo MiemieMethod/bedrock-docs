@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.playerfogpacket.数组大小.description
+- 基本类型。protocol.packet.playerfogpacket.fog_stack.array_size.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Fog Effect：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.playerfogpacket.fog_effect.descriptionFog effect string from /fog command
+- 特殊类型。protocol.packet.playerfogpacket.fog_stack.example_element.fog_effect.descriptionFog effect string from /fog command
 
 
 //////

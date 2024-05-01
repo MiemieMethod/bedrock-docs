@@ -65,7 +65,16 @@ Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresett
 //// define
 Requested Operation：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.structuretemplatedatarequestpacket.requested_operation.description
+- 基本类型枚举。protocol.packet.structuretemplatedatarequestpacket.requested_operation.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`ExportFromSaveMode`|`1`|protocol.enum.exportfromsavemode|
+  |`ExportFromLoadMode`|`2`|protocol.enum.exportfromloadmode|
+  |`QuerySavedStructure`|`3`|protocol.enum.querysavedstructure|
+  |`Import`|`4`|protocol.enum.import|
+
 
 
 ////

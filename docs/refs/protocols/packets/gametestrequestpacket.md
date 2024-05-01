@@ -70,7 +70,16 @@ RepeatCount：<!-- md:samp varint -->
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.gametestrequestpacket.rotation.description
+- 基本类型枚举。protocol.packet.gametestrequestpacket.rotation.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Rotate90`|`1`|protocol.enum.rotate90|
+  |`Rotate180`|`2`|protocol.enum.rotate180|
+  |`Rotate270`|`3`|protocol.enum.rotate270|
+  |`Total`|`4`|protocol.enum.total|
+
 
 
 ////

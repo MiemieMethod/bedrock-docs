@@ -60,7 +60,7 @@ Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.deathinfopacket.数组大小.description
+- 基本类型。protocol.packet.deathinfopacket.death_cause_message_list.array_size.description
 
 
 /////
@@ -72,14 +72,14 @@ Death Cause Attack Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Death Cause Entity Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.deathinfopacket.death_cause_entity_name.description
+- 特殊类型。protocol.packet.deathinfopacket.death_cause_message_list.example_element.death_cause_entity_name.description
 
 
 //////
 ////// define
 Death Cause Entity Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.deathinfopacket.death_cause_entity_name.description
+- 特殊类型。protocol.packet.deathinfopacket.death_cause_message_list.example_element.death_cause_entity_name.description
 
 
 //////

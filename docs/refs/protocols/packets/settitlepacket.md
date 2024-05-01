@@ -56,7 +56,20 @@ rankdir = LR
 //// define
 Title Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.settitlepacket.title_type.description
+- 基本类型枚举。protocol.packet.settitlepacket.title_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Clear`|`0`|protocol.enum.clear|
+  |`Reset`|`1`|protocol.enum.reset|
+  |`Title`|`2`|protocol.enum.title|
+  |`Subtitle`|`3`|protocol.enum.subtitle|
+  |`Actionbar`|`4`|protocol.enum.actionbar|
+  |`Times`|`5`|protocol.enum.times|
+  |`TitleTextObject`|`6`|protocol.enum.titletextobject|
+  |`SubtitleTextObject`|`7`|protocol.enum.subtitletextobject|
+  |`ActionbarTextObject`|`8`|protocol.enum.actionbartextobject|
+
 
 
 ////

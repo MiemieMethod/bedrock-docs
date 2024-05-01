@@ -80,7 +80,7 @@ Recipe Id：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.shapelesschemistryrecipe.数组大小.description
+- 基本类型。protocol.type.shapelesschemistryrecipe.ingredients.array_size.description
 
 
 /////
@@ -92,7 +92,7 @@ Recipe Id：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。protocol.type.shapelesschemistryrecipe.entry.description
+- 特殊类型。protocol.type.shapelesschemistryrecipe.ingredients.example_element.entry.description
 
 
 //////
@@ -108,7 +108,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.shapelesschemistryrecipe.数组大小.description
+- 基本类型。protocol.type.shapelesschemistryrecipe.results.array_size.description
 
 
 /////
@@ -120,7 +120,7 @@ Entry：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。protocol.type.shapelesschemistryrecipe.entry.description
+- 特殊类型。protocol.type.shapelesschemistryrecipe.results.example_element.entry.description
 
 
 //////

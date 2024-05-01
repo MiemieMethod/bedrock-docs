@@ -85,7 +85,28 @@ mStopExpression：[<!-- md:samp string -->](../types/string.md)
 //// define
 Stop expression molang version：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.animateentitypacket.stop_expression_molang_version.description
+- 基本类型枚举。protocol.packet.animateentitypacket.stop_expression_molang_version.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`-1`|protocol.enum.invalid|
+  |`BeforeVersioning`|`0`|protocol.enum.beforeversioning|
+  |`Initial`|`1`|protocol.enum.initial|
+  |`FixedItemRemainingUseDurationQuery`|`2`|protocol.enum.fixeditemremainingusedurationquery|
+  |`ExpressionErrorMessages`|`3`|protocol.enum.expressionerrormessages|
+  |`UnexpectedOperatorErrors`|`4`|protocol.enum.unexpectedoperatorerrors|
+  |`ConditionalOperatorAssociativity`|`5`|protocol.enum.conditionaloperatorassociativity|
+  |`ComparisonAndLogicalOperatorPrecedence`|`6`|protocol.enum.comparisonandlogicaloperatorprecedence|
+  |`DivideByNegativeValue`|`7`|protocol.enum.dividebynegativevalue|
+  |`FixedCapeFlapAmountQuery`|`8`|protocol.enum.fixedcapeflapamountquery|
+  |`QueryBlockPropertyRenamedToState`|`9`|protocol.enum.queryblockpropertyrenamedtostate|
+  |`DeprecateOldBlockQueryNames`|`10`|protocol.enum.deprecateoldblockquerynames|
+  |`DeprecatedSnifferAndCamelQueries`|`11`|protocol.enum.deprecatedsnifferandcamelqueries|
+  |`LeafSupportingInFirstSolidBlockBelow`|`12`|protocol.enum.leafsupportinginfirstsolidblockbelow|
+  |`NumValidVersions`|`13`|protocol.enum.numvalidversions|
+  |`Latest`|`NumValidVersions - 1`|protocol.enum.latest|
+  |`HardcodedMolang`|`Latest`|protocol.enum.hardcodedmolang|
+
 
 
 ////
@@ -111,7 +132,7 @@ mBlendOutTime：<!-- md:samp float -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.animateentitypacket.数组大小.description
+- 基本类型。protocol.packet.animateentitypacket.mruntimeids.array_size.description
 
 
 /////
@@ -123,7 +144,7 @@ mBlendOutTime：<!-- md:samp float -->
 ////// define
 runtimeId：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。protocol.packet.animateentitypacket.runtimeid.description
+- 特殊类型。protocol.packet.animateentitypacket.mruntimeids.example_element.runtimeid.description
 
 
 //////

@@ -76,7 +76,7 @@ Number of obtained blobs：<!-- md:samp unsigned varint -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。protocol.packet.clientcacheblobstatuspacket.blob_id.description
+- 基本类型。protocol.packet.clientcacheblobstatuspacket.missing_blobs.example_element.blob_id.description
 
 
 //////
@@ -97,7 +97,7 @@ Blob Id：<!-- md:samp unsigned int64 -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。protocol.packet.clientcacheblobstatuspacket.blob_id.description
+- 基本类型。protocol.packet.clientcacheblobstatuspacket.obtained_blobs.example_element.blob_id.description
 
 
 //////

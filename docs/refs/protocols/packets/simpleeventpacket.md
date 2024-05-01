@@ -32,7 +32,15 @@ rankdir = LR
 //// define
 Type：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.simpleeventpacket.type.description
+- 基本类型枚举。protocol.packet.simpleeventpacket.type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`UninitializedSubtype`|`0`|protocol.enum.uninitializedsubtype|
+  |`EnableCommands`|`1`|protocol.enum.enablecommands|
+  |`DisableCommands`|`2`|protocol.enum.disablecommands|
+  |`UnlockWorldTemplateSettings`|`3`|protocol.enum.unlockworldtemplatesettings|
+
 
 
 ////

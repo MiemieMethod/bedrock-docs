@@ -40,7 +40,19 @@ rankdir = LR
 //// define
 Container ID：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.containersetdatapacket.container_id.description
+- 基本类型枚举。protocol.packet.containersetdatapacket.container_id.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`CONTAINER_ID_NONE`|`-1`|protocol.enum.container_id_none|
+  |`CONTAINER_ID_INVENTORY`|`0`|protocol.enum.container_id_inventory|
+  |`CONTAINER_ID_FIRST`|`1`|protocol.enum.container_id_first|
+  |`CONTAINER_ID_LAST`|`100`|protocol.enum.container_id_last|
+  |`CONTAINER_ID_OFFHAND`|`119`|protocol.enum.container_id_offhand|
+  |`CONTAINER_ID_ARMOR`|`120`|protocol.enum.container_id_armor|
+  |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
+  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
+
 
 
 ////

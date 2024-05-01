@@ -52,7 +52,42 @@ rankdir = LR
 //// define
 Map Decoration Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.mapdecoration.map_decoration_type.description
+- 基本类型枚举。protocol.type.mapdecoration.map_decoration_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`MarkerWhite`|`0`|protocol.enum.markerwhite|
+  |`MarkerGreen`|`1`|protocol.enum.markergreen|
+  |`MarkerRed`|`2`|protocol.enum.markerred|
+  |`MarkerBlue`|`3`|protocol.enum.markerblue|
+  |`XWhite`|`4`|protocol.enum.xwhite|
+  |`TriangleRed`|`5`|protocol.enum.trianglered|
+  |`SquareWhite`|`6`|protocol.enum.squarewhite|
+  |`MarkerSign`|`7`|protocol.enum.markersign|
+  |`MarkerPink`|`8`|protocol.enum.markerpink|
+  |`MarkerOrange`|`9`|protocol.enum.markerorange|
+  |`MarkerYellow`|`10`|protocol.enum.markeryellow|
+  |`MarkerTeal`|`11`|protocol.enum.markerteal|
+  |`TriangleGreen`|`12`|protocol.enum.trianglegreen|
+  |`SmallSquareWhite`|`13`|protocol.enum.smallsquarewhite|
+  |`Mansion`|`14`|protocol.enum.mansion|
+  |`Monument`|`15`|protocol.enum.monument|
+  |`NoDraw`|`16`|protocol.enum.nodraw|
+  |`VillageDesert`|`17`|protocol.enum.villagedesert|
+  |`VillagePlains`|`18`|protocol.enum.villageplains|
+  |`VillageSavanna`|`19`|protocol.enum.villagesavanna|
+  |`VillageSnowy`|`20`|protocol.enum.villagesnowy|
+  |`VillageTaiga`|`21`|protocol.enum.villagetaiga|
+  |`JungleTemple`|`22`|protocol.enum.jungletemple|
+  |`WitchHut`|`23`|protocol.enum.witchhut|
+  |`TrialChambers`|`24`|protocol.enum.trialchambers|
+  |`Count`|`25`|protocol.enum.count|
+  |`Player`|`MarkerWhite`|protocol.enum.player|
+  |`PlayerOffMap`|`SquareWhite`|protocol.enum.playeroffmap|
+  |`PlayerOffLimits`|`SmallSquareWhite`|protocol.enum.playerofflimits|
+  |`PlayerHidden`|`NoDraw`|protocol.enum.playerhidden|
+  |`ItemFrame`|`MarkerGreen`|protocol.enum.itemframe|
+
 
 
 ////

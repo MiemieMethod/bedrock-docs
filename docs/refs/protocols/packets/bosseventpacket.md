@@ -125,7 +125,20 @@ Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Event Type：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.bosseventpacket.event_type.description
+- 基本类型枚举。protocol.packet.bosseventpacket.event_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`|protocol.enum.add|
+  |`PlayerAdded`|`1`|protocol.enum.playeradded|
+  |`Remove`|`2`|protocol.enum.remove|
+  |`PlayerRemoved`|`3`|protocol.enum.playerremoved|
+  |`Update_Percent`|`4`|protocol.enum.update_percent|
+  |`Update_Name`|`5`|protocol.enum.update_name|
+  |`Update_Properties`|`6`|protocol.enum.update_properties|
+  |`Update_Style`|`7`|protocol.enum.update_style|
+  |`Query`|`8`|protocol.enum.query|
+
 
 
 ////
@@ -140,35 +153,35 @@ Event Type：<!-- md:samp unsigned varint -->
 /////// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bosseventpacket.name.descriptionName of the boss to add
+- 特殊类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_0.name.descriptionName of the boss to add
 
 
 ///////
 /////// define
 Health Percent：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.bosseventpacket.health_percent.descriptionHealth value of the boss
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_0.health_percent.descriptionHealth value of the boss
 
 
 ///////
 /////// define
 Darken Screen：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.bosseventpacket.darken_screen.descriptionA boolean value for whether or not we should darken the screen (has a 0 or 1 value)
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_0.darken_screen.descriptionA boolean value for whether or not we should darken the screen (has a 0 or 1 value)
 
 
 ///////
 /////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.bosseventpacket.color.descriptioncolor for the boss bar, listed in an enumeration
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_0.color.descriptioncolor for the boss bar, listed in an enumeration
 
 
 ///////
 /////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.bosseventpacket.overlay.descriptionoverlay for the boss bar, listed in an enumeration
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_0.overlay.descriptionoverlay for the boss bar, listed in an enumeration
 
 
 ///////
@@ -186,7 +199,7 @@ Overlay：<!-- md:samp unsigned varint -->
 /////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.packet.bosseventpacket.player_id.description
+- 特殊类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_1.player_id.description
 
 
 ///////
@@ -215,7 +228,7 @@ if (2)：<!-- md:samp [No Data] -->
 /////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.packet.bosseventpacket.player_id.description
+- 特殊类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_3.player_id.description
 
 
 ///////
@@ -233,7 +246,7 @@ Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 /////// define
 Health Percent：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.bosseventpacket.health_percent.description
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_4.health_percent.description
 
 
 ///////
@@ -251,7 +264,7 @@ Health Percent：<!-- md:samp float -->
 /////// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bosseventpacket.name.description
+- 特殊类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_5.name.description
 
 
 ///////
@@ -269,21 +282,21 @@ Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Darken Screen：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.bosseventpacket.darken_screen.description
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_6.darken_screen.description
 
 
 ///////
 /////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.bosseventpacket.color.description
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_6.color.description
 
 
 ///////
 /////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.bosseventpacket.overlay.description
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_6.overlay.description
 
 
 ///////
@@ -301,14 +314,14 @@ Overlay：<!-- md:samp unsigned varint -->
 /////// define
 Color：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.bosseventpacket.color.description
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_7.color.description
 
 
 ///////
 /////// define
 Overlay：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.bosseventpacket.overlay.description
+- 基本类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_7.overlay.description
 
 
 ///////
@@ -326,7 +339,7 @@ Overlay：<!-- md:samp unsigned varint -->
 /////// define
 Player ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.packet.bosseventpacket.player_id.description
+- 特殊类型。protocol.packet.bosseventpacket.dependency_on_event_type.if_8.player_id.description
 
 
 ///////

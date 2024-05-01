@@ -84,7 +84,18 @@ Should show bounding box?：<!-- md:samp bool -->
 //// define
 Structure Block Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.structureeditordata.structure_block_type.description
+- 基本类型枚举。protocol.type.structureeditordata.structure_block_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Data`|`0`|protocol.enum.data|
+  |`Save`|`1`|protocol.enum.save|
+  |`Load`|`2`|protocol.enum.load|
+  |`Corner`|`3`|protocol.enum.corner|
+  |`Invalid`|`4`|protocol.enum.invalid|
+  |`Export`|`5`|protocol.enum.export|
+  |`_count`|`6`|protocol.enum._count|
+
 
 
 ////
@@ -98,7 +109,13 @@ Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresett
 //// define
 Redstone Save Mode：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.structureeditordata.redstone_save_mode.description
+- 基本类型枚举。protocol.type.structureeditordata.redstone_save_mode.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`SavesToMemory`|`0`|protocol.enum.savestomemory|
+  |`SavesToDisk`|`1`|protocol.enum.savestodisk|
+
 
 
 ////

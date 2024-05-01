@@ -105,7 +105,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.shapedchemistryrecipe.数组大小.description
+- 基本类型。protocol.type.shapedchemistryrecipe.result_items.array_size.description
 
 
 /////
@@ -117,7 +117,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Entry：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。protocol.type.shapedchemistryrecipe.entry.description
+- 特殊类型。protocol.type.shapedchemistryrecipe.result_items.example_element.entry.description
 
 
 //////

@@ -146,7 +146,22 @@ rankdir = LR
 //// define
 Crafting Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.craftingdataentry.crafting_type.description
+- 基本类型枚举。protocol.type.craftingdataentry.crafting_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ShapelessRecipe`|`0`|protocol.enum.shapelessrecipe|
+  |`ShapedRecipe`|`1`|protocol.enum.shapedrecipe|
+  |`FurnaceRecipe`|`2`|protocol.enum.furnacerecipe|
+  |`FurnaceAuxRecipe`|`3`|protocol.enum.furnaceauxrecipe|
+  |`MultiRecipe`|`4`|protocol.enum.multirecipe|
+  |`ShulkerBoxRecipe`|`5`|protocol.enum.shulkerboxrecipe|
+  |`ShapelessChemistryRecipe`|`6`|protocol.enum.shapelesschemistryrecipe|
+  |`ShapedChemistryRecipe`|`7`|protocol.enum.shapedchemistryrecipe|
+  |`SmithingTransformRecipe`|`8`|protocol.enum.smithingtransformrecipe|
+  |`SmithingTrimRecipe`|`9`|protocol.enum.smithingtrimrecipe|
+  |`COUNT`|`10`|protocol.enum.count|
+
 
 
 ////
@@ -161,14 +176,14 @@ Crafting Type：<!-- md:samp varint -->
 /////// define
 Shapeless Recipe：[<!-- md:samp ShapelessRecipe -->](../types/shapelessrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.shapeless_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_0.shapeless_recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_0.net_id.description
 
 
 ///////
@@ -186,14 +201,14 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 /////// define
 Shaped Recipe：[<!-- md:samp ShapedRecipe -->](../types/shapedrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.shaped_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_1.shaped_recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_1.net_id.description
 
 
 ///////
@@ -211,21 +226,21 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 /////// define
 Item Data：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.craftingdataentry.item_data.description
+- 基本类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_2.item_data.description
 
 
 ///////
 /////// define
 Result Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。protocol.type.craftingdataentry.result_item.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_2.result_item.description
 
 
 ///////
 /////// define
 Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型枚举。protocol.type.craftingdataentry.recipe_tag.description枚举值如下：
+- 特殊类型枚举。protocol.type.craftingdataentry.dependency_on_crafting_type.if_2.recipe_tag.description枚举值如下：
 
   |值|描述|
   |---|---|
@@ -254,28 +269,28 @@ Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Item Data：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.craftingdataentry.item_data.description
+- 基本类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_3.item_data.description
 
 
 ///////
 /////// define
 Auxiliary Item Data：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.craftingdataentry.auxiliary_item_data.description
+- 基本类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_3.auxiliary_item_data.description
 
 
 ///////
 /////// define
 Result Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。protocol.type.craftingdataentry.result_item.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_3.result_item.description
 
 
 ///////
 /////// define
 Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型枚举。protocol.type.craftingdataentry.recipe_tag.description枚举值如下：
+- 特殊类型枚举。protocol.type.craftingdataentry.dependency_on_crafting_type.if_3.recipe_tag.description枚举值如下：
 
   |值|描述|
   |---|---|
@@ -304,14 +319,14 @@ Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Multi-Recipe：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。protocol.type.craftingdataentry.multi-recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_4.multi-recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_4.net_id.description
 
 
 ///////
@@ -329,14 +344,14 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 /////// define
 Shulker Box Recipe：[<!-- md:samp ShulkerBoxRecipe -->](../types/shulkerboxrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.shulker_box_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_5.shulker_box_recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_5.net_id.description
 
 
 ///////
@@ -354,14 +369,14 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 /////// define
 Shapeless Chemistry Recipe：[<!-- md:samp ShapelessChemistryRecipe -->](../types/shapelesschemistryrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.shapeless_chemistry_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_6.shapeless_chemistry_recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_6.net_id.description
 
 
 ///////
@@ -379,14 +394,14 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 /////// define
 Shaped Chemistry Recipe：[<!-- md:samp ShapedChemistryRecipe -->](../types/shapedchemistryrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.shaped_chemistry_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_7.shaped_chemistry_recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_7.net_id.description
 
 
 ///////
@@ -404,14 +419,14 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 /////// define
 Smithing Transform Recipe：[<!-- md:samp SmithingTransformRecipe -->](../types/smithingtransformrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.smithing_transform_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_8.smithing_transform_recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_8.net_id.description
 
 
 ///////
@@ -429,14 +444,14 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 /////// define
 Smithing Trim Recipe：[<!-- md:samp SmithingTrimRecipe -->](../types/smithingtrimrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.smithing_trim_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_9.smithing_trim_recipe.description
 
 
 ///////
 /////// define
 Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_recipenetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.type.craftingdataentry.net_id.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_9.net_id.description
 
 
 ///////

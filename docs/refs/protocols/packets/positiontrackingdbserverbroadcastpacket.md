@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.positiontrackingdbserverbroadcastpacket.action.description
+- 基本类型枚举。protocol.packet.positiontrackingdbserverbroadcastpacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Update`|`0`|protocol.enum.update|
+  |`Destroy`|`1`|protocol.enum.destroy|
+  |`NotFound`|`2`|protocol.enum.notfound|
+
 
 
 ////

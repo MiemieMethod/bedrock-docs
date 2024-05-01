@@ -255,7 +255,7 @@ Skin Image Image Bytes：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Skin Animated Images Size：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.skin_animated_images_size.descriptionAnimation count
+- 基本类型。protocol.type.serializedskin.animations.skin_animated_images_size.descriptionAnimation count
 
 
 /////
@@ -267,42 +267,56 @@ Skin Animated Images Size：<!-- md:samp unsigned int -->
 ////// define
 Image Width：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.image_width.description
+- 基本类型。protocol.type.serializedskin.animations.example_element.image_width.description
 
 
 //////
 ////// define
 Image Height：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.image_height.description
+- 基本类型。protocol.type.serializedskin.animations.example_element.image_height.description
 
 
 //////
 ////// define
 Image Bytes：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.image_bytes.descriptionSerialized into a string
+- 特殊类型。protocol.type.serializedskin.animations.example_element.image_bytes.descriptionSerialized into a string
 
 
 //////
 ////// define
 Animation Type：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.animation_type.description
+- 基本类型枚举。protocol.type.serializedskin.animations.example_element.animation_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Face`|`1`|protocol.enum.face|
+  |`Body32x32`|`2`|protocol.enum.body32x32|
+  |`Body128x128`|`3`|protocol.enum.body128x128|
+
 
 
 //////
 ////// define
 Frame Count：<!-- md:samp float -->
 
-- 基本类型。protocol.type.serializedskin.frame_count.description
+- 基本类型。protocol.type.serializedskin.animations.example_element.frame_count.description
 
 
 //////
 ////// define
 Animation Expression：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.animation_expression.description
+- 基本类型枚举。protocol.type.serializedskin.animations.example_element.animation_expression.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Linear`|`0`|protocol.enum.linear|
+  |`Blinking`|`1`|protocol.enum.blinking|
+
 
 
 //////
@@ -388,7 +402,7 @@ Skin color：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Persona pieces size：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.persona_pieces_size.description
+- 基本类型。protocol.type.serializedskin.persona_pieces.persona_pieces_size.description
 
 
 /////
@@ -400,35 +414,35 @@ Persona pieces size：<!-- md:samp unsigned int -->
 ////// define
 Piece Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.piece_id.description
+- 特殊类型。protocol.type.serializedskin.persona_pieces.example_element.piece_id.description
 
 
 //////
 ////// define
 Piece Type：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.piece_type.description
+- 特殊类型。protocol.type.serializedskin.persona_pieces.example_element.piece_type.description
 
 
 //////
 ////// define
 Pack Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.pack_id.description
+- 特殊类型。protocol.type.serializedskin.persona_pieces.example_element.pack_id.description
 
 
 //////
 ////// define
 Is Default Piece：<!-- md:samp bool -->
 
-- 基本类型。protocol.type.serializedskin.is_default_piece.description
+- 基本类型。protocol.type.serializedskin.persona_pieces.example_element.is_default_piece.description
 
 
 //////
 ////// define
 Product Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.product_id.description
+- 特殊类型。protocol.type.serializedskin.persona_pieces.example_element.product_id.description
 
 
 //////
@@ -444,7 +458,7 @@ Product Id：[<!-- md:samp string -->](../types/string.md)
 ///// define
 Tint Colors Size：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.tint_colors_size.description
+- 基本类型。protocol.type.serializedskin.piece_tint_colors.tint_colors_size.description
 
 
 /////
@@ -456,7 +470,7 @@ Tint Colors Size：<!-- md:samp unsigned int -->
 ////// define
 Piece Type：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.piece_type.description
+- 特殊类型。protocol.type.serializedskin.piece_tint_colors.example_element.piece_type.description
 
 
 //////
@@ -468,7 +482,7 @@ Piece Type：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Piece Type Tint Colors Size：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.serializedskin.piece_type_tint_colors_size.description
+- 基本类型。protocol.type.serializedskin.piece_tint_colors.example_element.piece_tint_colors.piece_type_tint_colors_size.description
 
 
 ///////
@@ -480,28 +494,28 @@ Piece Type Tint Colors Size：<!-- md:samp unsigned int -->
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
+- 特殊类型。protocol.type.serializedskin.piece_tint_colors.example_element.piece_tint_colors.example_element.tint_color.descriptionTo hex string
 
 
 ////////
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
+- 特殊类型。protocol.type.serializedskin.piece_tint_colors.example_element.piece_tint_colors.example_element.tint_color.descriptionTo hex string
 
 
 ////////
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
+- 特殊类型。protocol.type.serializedskin.piece_tint_colors.example_element.piece_tint_colors.example_element.tint_color.descriptionTo hex string
 
 
 ////////
 //////// define
 Tint Color：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.serializedskin.tint_color.descriptionTo hex string
+- 特殊类型。protocol.type.serializedskin.piece_tint_colors.example_element.piece_tint_colors.example_element.tint_color.descriptionTo hex string
 
 
 ////////

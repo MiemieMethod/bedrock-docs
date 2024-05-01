@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.sethudpacket.数组大小.description
+- 基本类型。protocol.packet.sethudpacket.hud_element_list.array_size.description
 
 
 /////
@@ -61,7 +61,25 @@ rankdir = LR
 ////// define
 Hud Element：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.sethudpacket.hud_element.description
+- 基本类型枚举。protocol.packet.sethudpacket.hud_element_list.example_element.hud_element.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`PaperDoll`|`0`|protocol.enum.paperdoll|
+  |`Armor`|`1`|protocol.enum.armor|
+  |`ToolTips`|`2`|protocol.enum.tooltips|
+  |`TouchControls`|`3`|protocol.enum.touchcontrols|
+  |`Crosshair`|`4`|protocol.enum.crosshair|
+  |`HotBar`|`5`|protocol.enum.hotbar|
+  |`Health`|`6`|protocol.enum.health|
+  |`ProgressBar`|`7`|protocol.enum.progressbar|
+  |`Hunger`|`8`|protocol.enum.hunger|
+  |`AirBubbles`|`9`|protocol.enum.airbubbles|
+  |`HorseHealth`|`10`|protocol.enum.horsehealth|
+  |`StatusEffects`|`11`|protocol.enum.statuseffects|
+  |`ItemText`|`12`|protocol.enum.itemtext|
+  |`Count`|`13`|protocol.enum.count|
+
 
 
 //////
@@ -72,7 +90,14 @@ Hud Element：<!-- md:samp varint -->
 //// define
 isHudVisible：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.sethudpacket.ishudvisible.description
+- 基本类型枚举。protocol.packet.sethudpacket.ishudvisible.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Hide`|`0`|protocol.enum.hide|
+  |`Reset`|`1`|protocol.enum.reset|
+  |`Count`|`2`|protocol.enum.count|
+
 
 
 ////

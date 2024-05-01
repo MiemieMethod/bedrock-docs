@@ -57,7 +57,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp int -->
 
-- 基本类型。protocol.type.subclientconnectionrequest.数组大小.description
+- 基本类型。protocol.type.subclientconnectionrequest.certificate_chain.array_size.description
 
 
 /////
@@ -69,7 +69,7 @@ rankdir = LR
 ////// define
 String Data：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.subclientconnectionrequest.string_data.description
+- 基本类型。protocol.type.subclientconnectionrequest.certificate_chain.example_element.string_data.description
 
 
 //////
@@ -85,7 +85,7 @@ String Data：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp int -->
 
-- 基本类型。protocol.type.subclientconnectionrequest.数组大小.description
+- 基本类型。protocol.type.subclientconnectionrequest.raw_token.array_size.description
 
 
 /////
@@ -97,7 +97,7 @@ String Data：<!-- md:samp byte -->
 ////// define
 String Data：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.subclientconnectionrequest.string_data.description
+- 基本类型。protocol.type.subclientconnectionrequest.raw_token.example_element.string_data.description
 
 
 //////

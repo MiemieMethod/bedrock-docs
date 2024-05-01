@@ -56,7 +56,7 @@ Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.emotelistpacket.数组大小.description
+- 基本类型。protocol.packet.emotelistpacket.emote_piece_ids.array_size.description
 
 
 /////
@@ -68,7 +68,7 @@ Runtime id：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 ////// define
 Piece id：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。protocol.packet.emotelistpacket.piece_id.description
+- 特殊类型。protocol.packet.emotelistpacket.emote_piece_ids.example_element.piece_id.description
 
 
 //////

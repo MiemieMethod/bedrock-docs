@@ -59,14 +59,32 @@ TargetPlayer.rawID：<!-- md:samp int64 -->
 //// define
 mPlayerPermissions：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.serializedabilitiesdata.mplayerpermissions.description
+- 基本类型枚举。protocol.type.serializedabilitiesdata.mplayerpermissions.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Visitor`|`0`|protocol.enum.visitor|
+  |`Member`|`1`|protocol.enum.member|
+  |`Operator`|`2`|protocol.enum.operator|
+  |`Custom`|`3`|protocol.enum.custom|
+
 
 
 ////
 //// define
 mCommandPermissions：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.serializedabilitiesdata.mcommandpermissions.description
+- 基本类型枚举。protocol.type.serializedabilitiesdata.mcommandpermissions.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Any`|`0`|protocol.enum.any|
+  |`GameDirectors`|`1`|protocol.enum.gamedirectors|
+  |`Admin`|`2`|protocol.enum.admin|
+  |`Host`|`3`|protocol.enum.host|
+  |`Owner`|`4`|protocol.enum.owner|
+  |`Internal`|`5`|protocol.enum.internal|
+
 
 
 ////
@@ -78,7 +96,7 @@ mCommandPermissions：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.serializedabilitiesdata.数组大小.description
+- 基本类型。protocol.type.serializedabilitiesdata.layers.array_size.description
 
 
 /////
@@ -90,7 +108,7 @@ mCommandPermissions：<!-- md:samp byte -->
 ////// define
 layers：[<!-- md:samp SerializedAbilitiesData::SerializedLayer -->](../types/serializedabilitiesdata__serializedlayer.md)
 
-- 特殊类型。protocol.type.serializedabilitiesdata.layers.description
+- 特殊类型。protocol.type.serializedabilitiesdata.layers.example_element.layers.description
 
 
 //////

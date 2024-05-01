@@ -47,7 +47,15 @@ Target Player Id's Raw ID：<!-- md:samp int64 -->
 //// define
 Player Permission Level：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.requestpermissionspacket.player_permission_level.description
+- 基本类型枚举。protocol.packet.requestpermissionspacket.player_permission_level.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Visitor`|`0`|protocol.enum.visitor|
+  |`Member`|`1`|protocol.enum.member|
+  |`Operator`|`2`|protocol.enum.operator|
+  |`Custom`|`3`|protocol.enum.custom|
+
 
 
 ////

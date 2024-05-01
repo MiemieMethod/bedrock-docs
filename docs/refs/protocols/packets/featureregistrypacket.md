@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.featureregistrypacket.数组大小.description
+- 基本类型。protocol.packet.featureregistrypacket.featuresdatalist.array_size.description
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 feature Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.featureregistrypacket.feature_name.description
+- 特殊类型。protocol.packet.featureregistrypacket.featuresdatalist.example_element.feature_name.description
 
 
 //////
 ////// define
 Binary Json Output：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.featureregistrypacket.binary_json_output.description
+- 特殊类型。protocol.packet.featureregistrypacket.featuresdatalist.example_element.binary_json_output.description
 
 
 //////

@@ -65,7 +65,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.propertysyncdata.数组大小.description
+- 基本类型。protocol.type.propertysyncdata.int_entries_list.array_size.description
 
 
 /////
@@ -77,14 +77,14 @@ rankdir = LR
 ////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.propertysyncdata.property_index.description
+- 基本类型。protocol.type.propertysyncdata.int_entries_list.example_element.property_index.description
 
 
 //////
 ////// define
 Data：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.propertysyncdata.data.description
+- 基本类型。protocol.type.propertysyncdata.int_entries_list.example_element.data.description
 
 
 //////
@@ -100,7 +100,7 @@ Data：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.propertysyncdata.数组大小.description
+- 基本类型。protocol.type.propertysyncdata.float_entries_list.array_size.description
 
 
 /////
@@ -112,14 +112,14 @@ Data：<!-- md:samp varint -->
 ////// define
 Property Index：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.propertysyncdata.property_index.description
+- 基本类型。protocol.type.propertysyncdata.float_entries_list.example_element.property_index.description
 
 
 //////
 ////// define
 Data：<!-- md:samp float -->
 
-- 基本类型。protocol.type.propertysyncdata.data.description
+- 基本类型。protocol.type.propertysyncdata.float_entries_list.example_element.data.description
 
 
 //////

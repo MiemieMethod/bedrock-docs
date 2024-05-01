@@ -32,7 +32,17 @@ rankdir = LR
 //// define
 Difficulty：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.setdifficultypacket.difficulty.description
+- 基本类型枚举。protocol.packet.setdifficultypacket.difficulty.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Peaceful`|`0`|protocol.enum.peaceful|
+  |`Easy`|`1`|protocol.enum.easy|
+  |`Normal`|`2`|protocol.enum.normal|
+  |`Hard`|`3`|protocol.enum.hard|
+  |`Count`|`4`|protocol.enum.count|
+  |`Unknown`|`5`|protocol.enum.unknown|
+
 
 
 ////

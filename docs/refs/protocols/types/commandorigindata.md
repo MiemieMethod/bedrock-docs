@@ -62,7 +62,27 @@ rankdir = LR
 //// define
 Command Type：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.commandorigindata.command_type.description
+- 基本类型枚举。protocol.type.commandorigindata.command_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Player`|`0`|protocol.enum.player|
+  |`CommandBlock`|`1`|protocol.enum.commandblock|
+  |`MinecartCommandBlock`|`2`|protocol.enum.minecartcommandblock|
+  |`DevConsole`|`3`|protocol.enum.devconsole|
+  |`Test`|`4`|protocol.enum.test|
+  |`AutomationPlayer`|`5`|protocol.enum.automationplayer|
+  |`ClientAutomation`|`6`|protocol.enum.clientautomation|
+  |`DedicatedServer`|`7`|protocol.enum.dedicatedserver|
+  |`Entity`|`8`|protocol.enum.entity|
+  |`Virtual`|`9`|protocol.enum.virtual|
+  |`GameArgument`|`10`|protocol.enum.gameargument|
+  |`EntityServer`|`11`|protocol.enum.entityserver|
+  |`Precompiled`|`12`|protocol.enum.precompiled|
+  |`GameDirectorEntityServer`|`13`|protocol.enum.gamedirectorentityserver|
+  |`Scripting`|`14`|protocol.enum.scripting|
+  |`ExecuteContext`|`15`|protocol.enum.executecontext|
+
 
 
 ////
@@ -113,7 +133,7 @@ if (5)：<!-- md:samp [No Data] -->
 /////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.type.commandorigindata.player_id.description
+- 基本类型。protocol.type.commandorigindata.dependency_on_command_type.if_4.player_id.description
 
 
 ///////
@@ -131,7 +151,7 @@ Player ID：<!-- md:samp varint64 -->
 /////// define
 Player ID：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.type.commandorigindata.player_id.description
+- 基本类型。protocol.type.commandorigindata.dependency_on_command_type.if_3.player_id.description
 
 
 ///////

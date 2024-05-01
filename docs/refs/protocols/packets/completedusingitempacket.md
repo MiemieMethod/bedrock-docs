@@ -43,7 +43,29 @@ Item Id：<!-- md:samp short -->
 //// define
 Item Use Method：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.completedusingitempacket.item_use_method.description
+- 基本类型枚举。protocol.packet.completedusingitempacket.item_use_method.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Unknown`|`-1`|protocol.enum.unknown|
+  |`EquipArmor`|`0`|protocol.enum.equiparmor|
+  |`Eat`|`1`|protocol.enum.eat|
+  |`Attack`|`2`|protocol.enum.attack|
+  |`Consume`|`3`|protocol.enum.consume|
+  |`Throw`|`4`|protocol.enum.throw|
+  |`Shoot`|`5`|protocol.enum.shoot|
+  |`Place`|`6`|protocol.enum.place|
+  |`FillBottle`|`7`|protocol.enum.fillbottle|
+  |`FillBucket`|`8`|protocol.enum.fillbucket|
+  |`PourBucket`|`9`|protocol.enum.pourbucket|
+  |`UseTool`|`10`|protocol.enum.usetool|
+  |`Interact`|`11`|protocol.enum.interact|
+  |`Retrieved`|`12`|protocol.enum.retrieved|
+  |`Dyed`|`13`|protocol.enum.dyed|
+  |`Traded`|`14`|protocol.enum.traded|
+  |`BrushingCompleted`|`15`|protocol.enum.brushingcompleted|
+  |`_Count`|`16`|protocol.enum._count|
+
 
 
 ////

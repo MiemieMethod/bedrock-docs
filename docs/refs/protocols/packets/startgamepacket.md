@@ -158,7 +158,18 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Actor Game Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.startgamepacket.actor_game_type.description
+- 基本类型枚举。protocol.packet.startgamepacket.actor_game_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`-1`|protocol.enum.undefined|
+  |`Survival`|`0`|protocol.enum.survival|
+  |`Creative`|`1`|protocol.enum.creative|
+  |`Adventure`|`2`|protocol.enum.adventure|
+  |`Default`|`5`|protocol.enum.default|
+  |`Spectator`|`6`|protocol.enum.spectator|
+  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
+
 
 
 ////
@@ -240,7 +251,7 @@ Enchantment Seed：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.startgamepacket.数组大小.description
+- 基本类型。protocol.packet.startgamepacket.block_properties.array_size.description
 
 
 /////
@@ -252,14 +263,14 @@ Enchantment Seed：<!-- md:samp varint -->
 ////// define
 Block Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.startgamepacket.block_name.description
+- 特殊类型。protocol.packet.startgamepacket.block_properties.example_element.block_name.description
 
 
 //////
 ////// define
 Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。protocol.packet.startgamepacket.block_definition.descriptionMap of block states. { key (component 'name'):[label,value] } (Can be left empty.)
+- 特殊类型。protocol.packet.startgamepacket.block_properties.example_element.block_definition.descriptionMap of block states. { key (component 'name'):[label,value] } (Can be left empty.)
 
 
 //////
@@ -275,7 +286,7 @@ Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.startgamepacket.数组大小.description
+- 基本类型。protocol.packet.startgamepacket.item_list_every_vanilla_item_must_be_present.array_size.description
 
 
 /////
@@ -287,7 +298,7 @@ Block Definition：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////// define
 Item Info：[<!-- md:samp ItemData -->](../types/itemdata.md)
 
-- 特殊类型。protocol.packet.startgamepacket.item_info.descriptionSee: ItemData Type
+- 特殊类型。protocol.packet.startgamepacket.item_list_every_vanilla_item_must_be_present.example_element.item_info.descriptionSee: ItemData Type
 
 
 //////

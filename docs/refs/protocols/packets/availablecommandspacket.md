@@ -269,7 +269,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.enum_values.array_size.description
 
 
 /////
@@ -281,7 +281,7 @@ rankdir = LR
 ////// define
 Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.value.description
+- 特殊类型。protocol.packet.availablecommandspacket.enum_values.example_element.value.description
 
 
 //////
@@ -297,7 +297,7 @@ Value：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.enum_values.array_size.description
 
 
 /////
@@ -309,7 +309,7 @@ Value：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Chained Subcommand Values：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.chained_subcommand_values.description
+- 特殊类型。protocol.packet.availablecommandspacket.enum_values.example_element.chained_subcommand_values.description
 
 
 //////
@@ -325,7 +325,7 @@ Chained Subcommand Values：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.post_fixes.array_size.description
 
 
 /////
@@ -337,7 +337,7 @@ Chained Subcommand Values：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Post Fix：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.post_fix.description
+- 特殊类型。protocol.packet.availablecommandspacket.post_fixes.example_element.post_fix.description
 
 
 //////
@@ -353,7 +353,7 @@ Post Fix：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.enum_data.array_size.description
 
 
 /////
@@ -365,7 +365,7 @@ Post Fix：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.name.description
+- 特殊类型。protocol.packet.availablecommandspacket.enum_data.example_element.name.description
 
 
 //////
@@ -377,7 +377,7 @@ Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.enum_data.example_element.values.array_size.description
 
 
 ///////
@@ -405,7 +405,7 @@ Name：[<!-- md:samp string -->](../types/string.md)
 ////////////// define
 Enum Value：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.packet.availablecommandspacket.enum_value.description
+- 基本类型。protocol.packet.availablecommandspacket.enum_data.example_element.values.example_element.dependency_on_enum_values_size_le_256.if_0.dependency_on_enum_values_size_le_65536.if_0.enum_value.description
 
 
 //////////////
@@ -423,7 +423,7 @@ Enum Value：<!-- md:samp unsigned int -->
 ////////////// define
 Enum Value：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.availablecommandspacket.enum_value.description
+- 基本类型。protocol.packet.availablecommandspacket.enum_data.example_element.values.example_element.dependency_on_enum_values_size_le_256.if_0.dependency_on_enum_values_size_le_65536.if_1.enum_value.description
 
 
 //////////////
@@ -445,7 +445,7 @@ Enum Value：<!-- md:samp unsigned short -->
 /////////// define
 Enum Value：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.availablecommandspacket.enum_value.description
+- 基本类型。protocol.packet.availablecommandspacket.enum_data.example_element.values.example_element.dependency_on_enum_values_size_le_256.if_1.enum_value.description
 
 
 ///////////
@@ -469,7 +469,7 @@ Enum Value：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.chained_subcommand_data.array_size.description
 
 
 /////
@@ -481,7 +481,7 @@ Enum Value：<!-- md:samp byte -->
 ////// define
 SubCommand Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.subcommand_name.description
+- 特殊类型。protocol.packet.availablecommandspacket.chained_subcommand_data.example_element.subcommand_name.description
 
 
 //////
@@ -493,7 +493,7 @@ SubCommand Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.chained_subcommand_data.example_element.subcommand_values.array_size.description
 
 
 ///////
@@ -505,14 +505,14 @@ SubCommand Name：[<!-- md:samp string -->](../types/string.md)
 //////// define
 SubCommand First Value：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.availablecommandspacket.subcommand_first_value.description
+- 基本类型。protocol.packet.availablecommandspacket.chained_subcommand_data.example_element.subcommand_values.example_element.subcommand_first_value.description
 
 
 ////////
 //////// define
 SubCommand Second Value：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.availablecommandspacket.subcommand_second_value.description
+- 基本类型。protocol.packet.availablecommandspacket.chained_subcommand_data.example_element.subcommand_values.example_element.subcommand_second_value.description
 
 
 ////////
@@ -532,7 +532,7 @@ SubCommand Second Value：<!-- md:samp unsigned short -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.array_size.description
 
 
 /////
@@ -544,35 +544,45 @@ SubCommand Second Value：<!-- md:samp unsigned short -->
 ////// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.name.description
+- 特殊类型。protocol.packet.availablecommandspacket.commands.example_element.name.description
 
 
 //////
 ////// define
 Description：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.description.description
+- 特殊类型。protocol.packet.availablecommandspacket.commands.example_element.description.description
 
 
 //////
 ////// define
 Flags：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.availablecommandspacket.flags.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.flags.description
 
 
 //////
 ////// define
 Permission Level：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.availablecommandspacket.permission_level.description
+- 基本类型枚举。protocol.packet.availablecommandspacket.commands.example_element.permission_level.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Any`|`0`|protocol.enum.any|
+  |`GameDirectors`|`1`|protocol.enum.gamedirectors|
+  |`Admin`|`2`|protocol.enum.admin|
+  |`Host`|`3`|protocol.enum.host|
+  |`Owner`|`4`|protocol.enum.owner|
+  |`Internal`|`5`|protocol.enum.internal|
+
 
 
 //////
 ////// define
 Alias Enum：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.availablecommandspacket.alias_enum.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.alias_enum.description
 
 
 //////
@@ -584,7 +594,7 @@ Alias Enum：<!-- md:samp int -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.commanddata_chained_subcommand_indexes.array_size.description
 
 
 ///////
@@ -596,7 +606,7 @@ Alias Enum：<!-- md:samp int -->
 //////// define
 Index：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.availablecommandspacket.index.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.commanddata_chained_subcommand_indexes.example_element.index.description
 
 
 ////////
@@ -612,7 +622,7 @@ Index：<!-- md:samp unsigned short -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.overloads.array_size.description
 
 
 ///////
@@ -624,7 +634,7 @@ Index：<!-- md:samp unsigned short -->
 //////// define
 isChaining：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.availablecommandspacket.ischaining.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.overloads.example_element.ischaining.description
 
 
 ////////
@@ -636,7 +646,7 @@ isChaining：<!-- md:samp bool -->
 ///////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.overloads.example_element.parameter_data.array_size.description
 
 
 /////////
@@ -648,28 +658,28 @@ isChaining：<!-- md:samp bool -->
 ////////// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.name.description
+- 特殊类型。protocol.packet.availablecommandspacket.commands.example_element.overloads.example_element.parameter_data.example_element.name.description
 
 
 //////////
 ////////// define
 Parse Symbol：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.packet.availablecommandspacket.parse_symbol.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.overloads.example_element.parameter_data.example_element.parse_symbol.description
 
 
 //////////
 ////////// define
 Is Optional?：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.availablecommandspacket.is_optional.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.overloads.example_element.parameter_data.example_element.is_optional.description
 
 
 //////////
 ////////// define
 Options：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.availablecommandspacket.options.description
+- 基本类型。protocol.packet.availablecommandspacket.commands.example_element.overloads.example_element.parameter_data.example_element.options.description
 
 
 //////////
@@ -693,7 +703,7 @@ Options：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.soft_enums.array_size.description
 
 
 /////
@@ -705,7 +715,7 @@ Options：<!-- md:samp byte -->
 ////// define
 Enum Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.enum_name.description
+- 特殊类型。protocol.packet.availablecommandspacket.soft_enums.example_element.enum_name.description
 
 
 //////
@@ -717,7 +727,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.soft_enums.example_element.enum_options.array_size.description
 
 
 ///////
@@ -729,7 +739,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 //////// define
 Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.availablecommandspacket.value.description
+- 特殊类型。protocol.packet.availablecommandspacket.soft_enums.example_element.enum_options.example_element.value.description
 
 
 ////////
@@ -749,7 +759,7 @@ Value：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.constraints.array_size.description
 
 
 /////
@@ -761,14 +771,14 @@ Value：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Enum Value Symbol：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.packet.availablecommandspacket.enum_value_symbol.descriptionSymbol in the command parser representing this enum's value.
+- 基本类型。protocol.packet.availablecommandspacket.constraints.example_element.enum_value_symbol.descriptionSymbol in the command parser representing this enum's value.
 
 
 //////
 ////// define
 Enum Symbol：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.packet.availablecommandspacket.enum_symbol.descriptionSymbol in the command parser representing this enum.
+- 基本类型。protocol.packet.availablecommandspacket.constraints.example_element.enum_symbol.descriptionSymbol in the command parser representing this enum.
 
 
 //////
@@ -780,7 +790,7 @@ Enum Symbol：<!-- md:samp unsigned int -->
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.availablecommandspacket.数组大小.description
+- 基本类型。protocol.packet.availablecommandspacket.constraints.example_element.constraint_indices.array_size.description
 
 
 ///////
@@ -792,7 +802,7 @@ Enum Symbol：<!-- md:samp unsigned int -->
 //////// define
 Semantic Constraint Index：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.availablecommandspacket.semantic_constraint_index.descriptionIndex of the semantic constraint within the command parser.
+- 基本类型。protocol.packet.availablecommandspacket.constraints.example_element.constraint_indices.example_element.semantic_constraint_index.descriptionIndex of the semantic constraint within the command parser.
 
 
 ////////

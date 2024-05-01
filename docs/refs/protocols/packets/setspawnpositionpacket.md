@@ -44,7 +44,13 @@ rankdir = LR
 //// define
 Spawn Position Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.setspawnpositionpacket.spawn_position_type.description
+- 基本类型枚举。protocol.packet.setspawnpositionpacket.spawn_position_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`PlayerRespawn`|`0`|protocol.enum.playerrespawn|
+  |`WorldSpawn`|`1`|protocol.enum.worldspawn|
+
 
 
 ////

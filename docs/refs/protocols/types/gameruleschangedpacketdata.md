@@ -65,7 +65,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.gameruleschangedpacketdata.数组大小.description
+- 基本类型。protocol.type.gameruleschangedpacketdata.rules_list.array_size.description
 
 
 /////
@@ -77,14 +77,14 @@ rankdir = LR
 ////// define
 Rule Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.gameruleschangedpacketdata.rule_name.description
+- 特殊类型。protocol.type.gameruleschangedpacketdata.rules_list.example_element.rule_name.description
 
 
 //////
 ////// define
 Can Be Modified By Player：<!-- md:samp bool -->
 
-- 基本类型。protocol.type.gameruleschangedpacketdata.can_be_modified_by_player.description
+- 基本类型。protocol.type.gameruleschangedpacketdata.rules_list.example_element.can_be_modified_by_player.description
 
 
 //////
@@ -127,7 +127,7 @@ Can Be Modified By Player：<!-- md:samp bool -->
 ///////// define
 Rule Value：<!-- md:samp bool -->
 
-- 基本类型。protocol.type.gameruleschangedpacketdata.rule_value.description
+- 基本类型。protocol.type.gameruleschangedpacketdata.rules_list.example_element.dependency_on_rule_type.if_1.rule_value.description
 
 
 /////////

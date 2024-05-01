@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.labtablepacket.type.description
+- 基本类型枚举。protocol.packet.labtablepacket.type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`StartCombine`|`0`|protocol.enum.startcombine|
+  |`StartReaction`|`1`|protocol.enum.startreaction|
+  |`Reset`|`2`|protocol.enum.reset|
+
 
 
 ////
@@ -54,7 +61,24 @@ Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 //// define
 Reaction：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.labtablepacket.reaction.description
+- 基本类型枚举。protocol.packet.labtablepacket.reaction.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`IceBomb`|`1`|protocol.enum.icebomb|
+  |`Bleach`|`2`|protocol.enum.bleach|
+  |`ElephantToothpaste`|`3`|protocol.enum.elephanttoothpaste|
+  |`Fertilizer`|`4`|protocol.enum.fertilizer|
+  |`HeatBlock`|`5`|protocol.enum.heatblock|
+  |`MagnesiumSalts`|`6`|protocol.enum.magnesiumsalts|
+  |`MiscFire`|`7`|protocol.enum.miscfire|
+  |`MiscExplosion`|`8`|protocol.enum.miscexplosion|
+  |`MiscLava`|`9`|protocol.enum.misclava|
+  |`MiscMystical`|`10`|protocol.enum.miscmystical|
+  |`MiscSmoke`|`11`|protocol.enum.miscsmoke|
+  |`MiscLargeSmoke`|`12`|protocol.enum.misclargesmoke|
+
 
 
 ////

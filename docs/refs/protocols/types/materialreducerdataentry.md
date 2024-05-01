@@ -60,7 +60,7 @@ From Item (Key): Input：<!-- md:samp varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.materialreducerdataentry.数组大小.description
+- 基本类型。protocol.type.materialreducerdataentry.item_ids_and_counts.array_size.description
 
 
 /////
@@ -72,14 +72,14 @@ From Item (Key): Input：<!-- md:samp varint -->
 ////// define
 Item Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.materialreducerdataentry.item_id.description
+- 基本类型。protocol.type.materialreducerdataentry.item_ids_and_counts.example_element.item_id.description
 
 
 //////
 ////// define
 Item Count：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.materialreducerdataentry.item_count.description
+- 基本类型。protocol.type.materialreducerdataentry.item_ids_and_counts.example_element.item_count.description
 
 
 //////

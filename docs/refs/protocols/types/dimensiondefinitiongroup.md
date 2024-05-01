@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.dimensiondefinitiongroup.数组大小.description
+- 基本类型。protocol.type.dimensiondefinitiongroup.definitions.array_size.description
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 Name String：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.dimensiondefinitiongroup.name_string.description
+- 特殊类型。protocol.type.dimensiondefinitiongroup.definitions.example_element.name_string.description
 
 
 //////
 ////// define
 Dimension Definition：[<!-- md:samp DimensionDefinitionGroup::DimensionDefinition -->](../types/dimensiondefinitiongroup__dimensiondefinition.md)
 
-- 特殊类型。protocol.type.dimensiondefinitiongroup.dimension_definition.description
+- 特殊类型。protocol.type.dimensiondefinitiongroup.definitions.example_element.dimension_definition.description
 
 
 //////

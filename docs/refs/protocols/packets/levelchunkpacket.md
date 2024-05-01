@@ -114,7 +114,7 @@ Dimension Id：<!-- md:samp varint -->
 /////// define
 Sub-chunks Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.levelchunkpacket.sub-chunks_count.description
+- 基本类型。protocol.packet.levelchunkpacket.dependency_on_client_needs_to_request_subchunks.if_0.sub-chunks_count.description
 
 
 ///////
@@ -140,14 +140,14 @@ Sub-chunks Count：<!-- md:samp unsigned varint -->
 ////////// define
 Partial SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.levelchunkpacket.partial_subchunk_count_when_client_requesting.descriptionCurrently max unsigned 32-bit int
+- 基本类型。protocol.packet.levelchunkpacket.dependency_on_client_needs_to_request_subchunks.if_1.dependency_on_client_request_subchunk_limit_l_0.if_0.partial_subchunk_count_when_client_requesting.descriptionCurrently max unsigned 32-bit int
 
 
 //////////
 ////////// define
 Client Request SubChunk Limit：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.levelchunkpacket.client_request_subchunk_limit.description
+- 基本类型。protocol.packet.levelchunkpacket.dependency_on_client_needs_to_request_subchunks.if_1.dependency_on_client_request_subchunk_limit_l_0.if_0.client_request_subchunk_limit.description
 
 
 //////////
@@ -165,7 +165,7 @@ Client Request SubChunk Limit：<!-- md:samp unsigned short -->
 ////////// define
 SubChunk Count When Client Requesting：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.levelchunkpacket.subchunk_count_when_client_requesting.descriptionCurrently max unsigned 32-bit int
+- 基本类型。protocol.packet.levelchunkpacket.dependency_on_client_needs_to_request_subchunks.if_1.dependency_on_client_request_subchunk_limit_l_0.if_1.subchunk_count_when_client_requesting.descriptionCurrently max unsigned 32-bit int
 
 
 //////////
@@ -211,7 +211,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 Blob Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.levelchunkpacket.blob_count.descriptionHow many cache blobs make up this chunk.
+- 基本类型。protocol.packet.levelchunkpacket.dependency_on_cache_enabled.if_1.cache_blobs.blob_count.descriptionHow many cache blobs make up this chunk.
 
 
 ////////
@@ -223,7 +223,7 @@ Blob Count：<!-- md:samp unsigned varint -->
 ///////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。protocol.packet.levelchunkpacket.blob_id.descriptionSee ClientCacheProtocol.md, included with the documentation for 1.12.0.2
+- 基本类型。protocol.packet.levelchunkpacket.dependency_on_cache_enabled.if_1.cache_blobs.example_element.blob_id.descriptionSee ClientCacheProtocol.md, included with the documentation for 1.12.0.2
 
 
 /////////

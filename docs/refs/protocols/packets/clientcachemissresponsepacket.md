@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 Number of missing blobs：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.clientcachemissresponsepacket.number_of_missing_blobs.description
+- 基本类型。protocol.packet.clientcachemissresponsepacket.missing_blobs.number_of_missing_blobs.description
 
 
 /////
@@ -61,14 +61,14 @@ Number of missing blobs：<!-- md:samp unsigned varint -->
 ////// define
 Blob Id：<!-- md:samp unsigned int64 -->
 
-- 基本类型。protocol.packet.clientcachemissresponsepacket.blob_id.description
+- 基本类型。protocol.packet.clientcachemissresponsepacket.missing_blobs.example_element.blob_id.description
 
 
 //////
 ////// define
 Blob Data：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.clientcachemissresponsepacket.blob_data.descriptionSubchunk data (see https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37) plus biome data
+- 特殊类型。protocol.packet.clientcachemissresponsepacket.missing_blobs.example_element.blob_data.descriptionSubchunk data (see https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37) plus biome data
 
 
 //////

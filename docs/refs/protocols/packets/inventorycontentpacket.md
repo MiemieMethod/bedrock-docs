@@ -56,7 +56,7 @@ Inventory Id：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.inventorycontentpacket.数组大小.description
+- 基本类型。protocol.packet.inventorycontentpacket.slots.array_size.description
 
 
 /////
@@ -68,7 +68,7 @@ Inventory Id：<!-- md:samp unsigned varint -->
 ////// define
 Item stack：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 特殊类型。protocol.packet.inventorycontentpacket.item_stack.description
+- 特殊类型。protocol.packet.inventorycontentpacket.slots.example_element.item_stack.description
 
 
 //////

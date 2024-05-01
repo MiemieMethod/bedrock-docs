@@ -48,14 +48,35 @@ rankdir = LR
 //// define
 Left Inventory Tab：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.setplayerinventoryoptionspacket.left_inventory_tab.description
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.left_inventory_tab.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`RecipeConstruction`|`1`|protocol.enum.recipeconstruction|
+  |`RecipeEquipment`|`2`|protocol.enum.recipeequipment|
+  |`RecipeItems`|`3`|protocol.enum.recipeitems|
+  |`RecipeNature`|`4`|protocol.enum.recipenature|
+  |`RecipeSearch`|`5`|protocol.enum.recipesearch|
+  |`Survival`|`6`|protocol.enum.survival|
+  |`Count`|`7`|protocol.enum.count|
+
 
 
 ////
 //// define
 Right Inventory Tab：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.setplayerinventoryoptionspacket.right_inventory_tab.description
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.right_inventory_tab.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`FullScreen`|`1`|protocol.enum.fullscreen|
+  |`Crafting`|`2`|protocol.enum.crafting|
+  |`Armor`|`3`|protocol.enum.armor|
+  |`Count`|`4`|protocol.enum.count|
+
 
 
 ////
@@ -69,14 +90,32 @@ Filtering：<!-- md:samp bool -->
 //// define
 Layout Inv：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.setplayerinventoryoptionspacket.layout_inv.description
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.layout_inv.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Survival`|`1`|protocol.enum.survival|
+  |`RecipeBook`|`2`|protocol.enum.recipebook|
+  |`Creative`|`3`|protocol.enum.creative|
+  |`Count`|`4`|protocol.enum.count|
+
 
 
 ////
 //// define
 Layout Craft：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.setplayerinventoryoptionspacket.layout_craft.description
+- 基本类型枚举。protocol.packet.setplayerinventoryoptionspacket.layout_craft.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Survival`|`1`|protocol.enum.survival|
+  |`RecipeBook`|`2`|protocol.enum.recipebook|
+  |`Creative`|`3`|protocol.enum.creative|
+  |`Count`|`4`|protocol.enum.count|
+
 
 
 ////

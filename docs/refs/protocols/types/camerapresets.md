@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.camerapresets.数组大小.description
+- 基本类型。protocol.type.camerapresets.presets.array_size.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Camera Preset：[<!-- md:samp CameraPreset -->](../types/camerapreset.md)
 
-- 特殊类型。protocol.type.camerapresets.camera_preset.description
+- 特殊类型。protocol.type.camerapresets.presets.example_element.camera_preset.description
 
 
 //////

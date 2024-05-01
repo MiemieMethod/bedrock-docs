@@ -48,7 +48,16 @@ rankdir = LR
 //// define
 SerializedLayer：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.type.serializedabilitiesdata::serializedlayer.serializedlayer.description
+- 基本类型枚举。protocol.type.serializedabilitiesdata::serializedlayer.serializedlayer.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`CustomCache`|`0`|protocol.enum.customcache|
+  |`Base`|`1`|protocol.enum.base|
+  |`Spectator`|`2`|protocol.enum.spectator|
+  |`Commands`|`3`|protocol.enum.commands|
+  |`Editor`|`4`|protocol.enum.editor|
+
 
 
 ////

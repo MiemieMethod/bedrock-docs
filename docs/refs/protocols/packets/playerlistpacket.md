@@ -102,7 +102,13 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.playerlistpacket.action.description
+- 基本类型枚举。protocol.packet.playerlistpacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`|protocol.enum.add|
+  |`Remove`|`1`|protocol.enum.remove|
+
 
 
 ////
@@ -122,7 +128,7 @@ Action：<!-- md:samp byte -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.playerlistpacket.数组大小.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.array_size.description
 
 
 ////////
@@ -134,70 +140,89 @@ Action：<!-- md:samp byte -->
 ///////// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。protocol.packet.playerlistpacket.uuid.description
+- 特殊类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.uuid.description
 
 
 /////////
 ///////// define
 Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.packet.playerlistpacket.target_actor_id.description
+- 特殊类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.target_actor_id.description
 
 
 /////////
 ///////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.playerlistpacket.player_name.description
+- 特殊类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.player_name.description
 
 
 /////////
 ///////// define
 XBL XUID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.playerlistpacket.xbl_xuid.description
+- 特殊类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.xbl_xuid.description
 
 
 /////////
 ///////// define
 Platform Chat Id：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.playerlistpacket.platform_chat_id.description
+- 特殊类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.platform_chat_id.description
 
 
 /////////
 ///////// define
 Build Platform：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.playerlistpacket.build_platform.description
+- 基本类型枚举。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.build_platform.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Google`|`1`|protocol.enum.google|
+  |`iOS`|`2`|protocol.enum.ios|
+  |`OSX`|`3`|protocol.enum.osx|
+  |`Amazon`|`4`|protocol.enum.amazon|
+  |`GearVR`|`5`|protocol.enum.gearvr|
+  |`UWP`|`7`|protocol.enum.uwp|
+  |`Win32`|`8`|protocol.enum.win32|
+  |`Dedicated`|`9`|protocol.enum.dedicated|
+  |`tvOS_Deprecated`|`10`|protocol.enum.tvos_deprecated|
+  |`Sony`|`11`|protocol.enum.sony|
+  |`Nx`|`12`|protocol.enum.nx|
+  |`Xbox`|`13`|protocol.enum.xbox|
+  |`WindowsPhone_Deprecated`|`14`|protocol.enum.windowsphone_deprecated|
+  |`Linux`|`15`|protocol.enum.linux|
+  |`Unknown`|`-1`|protocol.enum.unknown|
+
 
 
 /////////
 ///////// define
 Serialized Skin：[<!-- md:samp SerializedSkin -->](../types/serializedskin.md)
 
-- 特殊类型。protocol.packet.playerlistpacket.serialized_skin.description
+- 特殊类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.serialized_skin.description
 
 
 /////////
 ///////// define
 Is Teacher?：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.playerlistpacket.is_teacher.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.is_teacher.description
 
 
 /////////
 ///////// define
 Is Host?：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.playerlistpacket.is_host.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.is_host.description
 
 
 /////////
 ///////// define
 Is SubClient：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.playerlistpacket.is_subclient.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.example_element.is_subclient.description
 
 
 /////////
@@ -208,7 +233,7 @@ Is SubClient：<!-- md:samp bool -->
 /////// define
 Is trusted skin：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.playerlistpacket.is_trusted_skin.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.is_trusted_skin.description
 
 
 ///////
@@ -231,7 +256,7 @@ Is trusted skin：<!-- md:samp bool -->
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.playerlistpacket.数组大小.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_1.remove_player_list.array_size.description
 
 
 ////////
@@ -243,7 +268,7 @@ Is trusted skin：<!-- md:samp bool -->
 ///////// define
 UUID：[<!-- md:samp mce::UUID -->](../types/mce__uuid.md)
 
-- 特殊类型。protocol.packet.playerlistpacket.uuid.description
+- 特殊类型。protocol.packet.playerlistpacket.dependency_on_action.if_1.remove_player_list.example_element.uuid.description
 
 
 /////////

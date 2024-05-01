@@ -40,14 +40,29 @@ rankdir = LR
 //// define
 Operation：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.codebuildersourcepacket.operation.description
+- 基本类型枚举。protocol.packet.codebuildersourcepacket.operation.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Get`|`1`|protocol.enum.get|
+  |`Set`|`2`|protocol.enum.set|
+  |`Reset`|`3`|protocol.enum.reset|
+
 
 
 ////
 //// define
 Category：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.codebuildersourcepacket.category.description
+- 基本类型枚举。protocol.packet.codebuildersourcepacket.category.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`CodeStatus`|`1`|protocol.enum.codestatus|
+  |`Instantiation`|`2`|protocol.enum.instantiation|
+
 
 
 ////

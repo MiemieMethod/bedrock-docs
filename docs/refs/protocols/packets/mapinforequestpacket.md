@@ -87,7 +87,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////// define
 Client Pixels List Size：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.packet.mapinforequestpacket.client_pixels_list_size.description
+- 基本类型。protocol.packet.mapinforequestpacket.dependency_on_mclientpixels.size()_g_0.if_1.client_pixels_list.client_pixels_list_size.description
 
 
 ////////
@@ -99,14 +99,14 @@ Client Pixels List Size：<!-- md:samp unsigned int -->
 ///////// define
 pixel：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.packet.mapinforequestpacket.pixel.description
+- 基本类型。protocol.packet.mapinforequestpacket.dependency_on_mclientpixels.size()_g_0.if_1.client_pixels_list.example_element.pixel.description
 
 
 /////////
 ///////// define
 index：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.mapinforequestpacket.index.description
+- 基本类型。protocol.packet.mapinforequestpacket.dependency_on_mclientpixels.size()_g_0.if_1.client_pixels_list.example_element.index.description
 
 
 /////////

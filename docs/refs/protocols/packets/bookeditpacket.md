@@ -96,7 +96,16 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.bookeditpacket.action.description
+- 基本类型枚举。protocol.packet.bookeditpacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ReplacePage`|`0`|protocol.enum.replacepage|
+  |`AddPage`|`1`|protocol.enum.addpage|
+  |`DeletePage`|`2`|protocol.enum.deletepage|
+  |`SwapPages`|`3`|protocol.enum.swappages|
+  |`Finalize`|`4`|protocol.enum.finalize|
+
 
 
 ////
@@ -118,21 +127,21 @@ Book Slot：<!-- md:samp byte -->
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.bookeditpacket.page_index.description
+- 基本类型。protocol.packet.bookeditpacket.dependency_on_action.if_0.page_index.description
 
 
 ///////
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bookeditpacket.text_a.description
+- 特殊类型。protocol.packet.bookeditpacket.dependency_on_action.if_0.text_a.description
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bookeditpacket.text_b.description
+- 特殊类型。protocol.packet.bookeditpacket.dependency_on_action.if_0.text_b.description
 
 
 ///////
@@ -150,21 +159,21 @@ Text B：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.bookeditpacket.page_index.description
+- 基本类型。protocol.packet.bookeditpacket.dependency_on_action.if_1.page_index.description
 
 
 ///////
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bookeditpacket.text_a.description
+- 特殊类型。protocol.packet.bookeditpacket.dependency_on_action.if_1.text_a.description
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bookeditpacket.text_b.description
+- 特殊类型。protocol.packet.bookeditpacket.dependency_on_action.if_1.text_b.description
 
 
 ///////
@@ -182,7 +191,7 @@ Text B：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Page Index：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.bookeditpacket.page_index.description
+- 基本类型。protocol.packet.bookeditpacket.dependency_on_action.if_2.page_index.description
 
 
 ///////
@@ -200,14 +209,14 @@ Page Index：<!-- md:samp byte -->
 /////// define
 Page Index A：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.bookeditpacket.page_index_a.description
+- 基本类型。protocol.packet.bookeditpacket.dependency_on_action.if_3.page_index_a.description
 
 
 ///////
 /////// define
 Page Index B：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.bookeditpacket.page_index_b.description
+- 基本类型。protocol.packet.bookeditpacket.dependency_on_action.if_3.page_index_b.description
 
 
 ///////
@@ -225,21 +234,21 @@ Page Index B：<!-- md:samp byte -->
 /////// define
 Text A：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bookeditpacket.text_a.description
+- 特殊类型。protocol.packet.bookeditpacket.dependency_on_action.if_4.text_a.description
 
 
 ///////
 /////// define
 Text B：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bookeditpacket.text_b.description
+- 特殊类型。protocol.packet.bookeditpacket.dependency_on_action.if_4.text_b.description
 
 
 ///////
 /////// define
 XUID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.bookeditpacket.xuid.description
+- 特殊类型。protocol.packet.bookeditpacket.dependency_on_action.if_4.xuid.description
 
 
 ///////

@@ -109,14 +109,14 @@ Player Action Type：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。protocol.type.playerblockactiondata.position.description
+- 特殊类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_26.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.playerblockactiondata.facing.description
+- 基本类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_26.facing.description
 
 
 ///////
@@ -134,14 +134,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。protocol.type.playerblockactiondata.position.description
+- 特殊类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_0.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.playerblockactiondata.facing.description
+- 基本类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_0.facing.description
 
 
 ///////
@@ -159,14 +159,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。protocol.type.playerblockactiondata.position.description
+- 特殊类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_1.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.playerblockactiondata.facing.description
+- 基本类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_1.facing.description
 
 
 ///////
@@ -184,14 +184,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。protocol.type.playerblockactiondata.position.description
+- 特殊类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_18.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.playerblockactiondata.facing.description
+- 基本类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_18.facing.description
 
 
 ///////
@@ -209,14 +209,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。protocol.type.playerblockactiondata.position.description
+- 特殊类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_27.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.playerblockactiondata.facing.description
+- 基本类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_27.facing.description
 
 
 ///////
@@ -234,14 +234,14 @@ Facing：<!-- md:samp varint -->
 /////// define
 Position：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。protocol.type.playerblockactiondata.position.description
+- 特殊类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_2.position.description
 
 
 ///////
 /////// define
 Facing：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.playerblockactiondata.facing.description
+- 基本类型。protocol.type.playerblockactiondata.dependency_on_player_action_type.if_2.facing.description
 
 
 ///////

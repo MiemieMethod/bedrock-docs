@@ -99,7 +99,21 @@ ID：<!-- md:samp unsigned varint -->
 //// define
 Type：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.dataitem.type.description
+- 基本类型枚举。protocol.type.dataitem.type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Byte`|`0`|protocol.enum.byte|
+  |`Short`|`1`|protocol.enum.short|
+  |`Int`|`2`|protocol.enum.int|
+  |`Float`|`3`|protocol.enum.float|
+  |`String`|`4`|protocol.enum.string|
+  |`CompoundTag`|`5`|protocol.enum.compoundtag|
+  |`Pos`|`6`|protocol.enum.pos|
+  |`Int64`|`7`|protocol.enum.int64|
+  |`Vec3`|`8`|protocol.enum.vec3|
+  |`Unknown`|`9`|protocol.enum.unknown|
+
 
 
 ////
@@ -114,7 +128,7 @@ Type：<!-- md:samp unsigned varint -->
 /////// define
 Value：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.dataitem.value.description
+- 基本类型。protocol.type.dataitem.dependency_on_type.if_0.value.description
 
 
 ///////
@@ -132,7 +146,7 @@ Value：<!-- md:samp byte -->
 /////// define
 Value：<!-- md:samp short -->
 
-- 基本类型。protocol.type.dataitem.value.description
+- 基本类型。protocol.type.dataitem.dependency_on_type.if_1.value.description
 
 
 ///////
@@ -150,7 +164,7 @@ Value：<!-- md:samp short -->
 /////// define
 Value：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.dataitem.value.description
+- 基本类型。protocol.type.dataitem.dependency_on_type.if_2.value.description
 
 
 ///////
@@ -168,7 +182,7 @@ Value：<!-- md:samp varint -->
 /////// define
 Value：<!-- md:samp float -->
 
-- 基本类型。protocol.type.dataitem.value.description
+- 基本类型。protocol.type.dataitem.dependency_on_type.if_3.value.description
 
 
 ///////
@@ -186,7 +200,7 @@ Value：<!-- md:samp float -->
 /////// define
 Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.dataitem.value.description
+- 特殊类型。protocol.type.dataitem.dependency_on_type.if_4.value.description
 
 
 ///////
@@ -204,7 +218,7 @@ Value：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 
-- 特殊类型。protocol.type.dataitem.value.description
+- 特殊类型。protocol.type.dataitem.dependency_on_type.if_5.value.description
 
 
 ///////
@@ -222,7 +236,7 @@ Value：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 /////// define
 Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 
-- 特殊类型。protocol.type.dataitem.value.description
+- 特殊类型。protocol.type.dataitem.dependency_on_type.if_6.value.description
 
 
 ///////
@@ -240,7 +254,7 @@ Value：[<!-- md:samp BlockPos -->](../types/blockpos.md)
 /////// define
 Value：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.type.dataitem.value.description
+- 基本类型。protocol.type.dataitem.dependency_on_type.if_7.value.description
 
 
 ///////
@@ -258,7 +272,7 @@ Value：<!-- md:samp varint64 -->
 /////// define
 Value：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。protocol.type.dataitem.value.description
+- 特殊类型。protocol.type.dataitem.dependency_on_type.if_8.value.description
 
 
 ///////

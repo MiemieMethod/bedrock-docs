@@ -56,7 +56,13 @@ rankdir = LR
 //// define
 Scoreboard Identity Packet Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.setscoreboardidentitypacket.scoreboard_identity_packet_type.description
+- 基本类型枚举。protocol.packet.setscoreboardidentitypacket.scoreboard_identity_packet_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Update`|`0`|protocol.enum.update|
+  |`Remove`|`1`|protocol.enum.remove|
+
 
 
 ////
@@ -68,7 +74,7 @@ Scoreboard Identity Packet Type：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.setscoreboardidentitypacket.数组大小.description
+- 基本类型。protocol.packet.setscoreboardidentitypacket.identity_info.array_size.description
 
 
 /////
@@ -80,7 +86,7 @@ Scoreboard Identity Packet Type：<!-- md:samp byte -->
 ////// define
 Scoreboard Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
-- 特殊类型。protocol.packet.setscoreboardidentitypacket.scoreboard_id.description
+- 特殊类型。protocol.packet.setscoreboardidentitypacket.identity_info.example_element.scoreboard_id.description
 
 
 //////
@@ -106,7 +112,7 @@ if (0)：<!-- md:samp [No Data] -->
 ///////// define
 Player Unique Id：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.packet.setscoreboardidentitypacket.player_unique_id.description
+- 基本类型。protocol.packet.setscoreboardidentitypacket.identity_info.example_element.dependency_on_is_update_type.if_1.player_unique_id.description
 
 
 /////////

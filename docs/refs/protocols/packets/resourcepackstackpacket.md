@@ -96,7 +96,7 @@ Texture Pack Required：<!-- md:samp bool -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.resourcepackstackpacket.数组大小.description
+- 基本类型。protocol.packet.resourcepackstackpacket.add-on_list.array_size.description
 
 
 /////
@@ -108,21 +108,21 @@ Texture Pack Required：<!-- md:samp bool -->
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepackstackpacket.id.description
+- 特殊类型。protocol.packet.resourcepackstackpacket.add-on_list.example_element.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepackstackpacket.version.description
+- 特殊类型。protocol.packet.resourcepackstackpacket.add-on_list.example_element.version.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepackstackpacket.sub_pack_name.description
+- 特殊类型。protocol.packet.resourcepackstackpacket.add-on_list.example_element.sub_pack_name.description
 
 
 //////
@@ -138,7 +138,7 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.resourcepackstackpacket.数组大小.description
+- 基本类型。protocol.packet.resourcepackstackpacket.texture_pack_list.array_size.description
 
 
 /////
@@ -150,21 +150,21 @@ Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepackstackpacket.id.description
+- 特殊类型。protocol.packet.resourcepackstackpacket.texture_pack_list.example_element.id.description
 
 
 //////
 ////// define
 Version：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepackstackpacket.version.description
+- 特殊类型。protocol.packet.resourcepackstackpacket.texture_pack_list.example_element.version.description
 
 
 //////
 ////// define
 Sub Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepackstackpacket.sub_pack_name.description
+- 特殊类型。protocol.packet.resourcepackstackpacket.texture_pack_list.example_element.sub_pack_name.description
 
 
 //////

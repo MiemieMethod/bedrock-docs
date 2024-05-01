@@ -95,14 +95,14 @@ Recipe Unique Id：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Recipe Width：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.shapedrecipe.recipe_width.description
+- 基本类型。protocol.type.shapedrecipe.ingredient_grid.array_size.recipe_width.description
 
 
 //////
 ////// define
 Recipe Height：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.shapedrecipe.recipe_height.description
+- 基本类型。protocol.type.shapedrecipe.ingredient_grid.array_size.recipe_height.description
 
 
 //////
@@ -116,7 +116,7 @@ Recipe Height：<!-- md:samp varint -->
 ////// define
 Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 
-- 特殊类型。protocol.type.shapedrecipe.ingredient.description
+- 特殊类型。protocol.type.shapedrecipe.ingredient_grid.example_element.ingredient.description
 
 
 //////
@@ -132,7 +132,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.shapedrecipe.数组大小.description
+- 基本类型。protocol.type.shapedrecipe.production_list.array_size.description
 
 
 /////
@@ -144,7 +144,7 @@ Ingredient：[<!-- md:samp RecipeIngredient -->](../types/recipeingredient.md)
 ////// define
 Produced Item：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。protocol.type.shapedrecipe.produced_item.description
+- 特殊类型。protocol.type.shapedrecipe.production_list.example_element.produced_item.description
 
 
 //////

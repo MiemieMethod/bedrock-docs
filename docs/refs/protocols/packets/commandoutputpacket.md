@@ -87,7 +87,16 @@ Origin Data：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md
 //// define
 Output Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.commandoutputpacket.output_type.description
+- 基本类型枚举。protocol.packet.commandoutputpacket.output_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`LastOutput`|`1`|protocol.enum.lastoutput|
+  |`Silent`|`2`|protocol.enum.silent|
+  |`AllOutput`|`3`|protocol.enum.alloutput|
+  |`DataSet`|`4`|protocol.enum.dataset|
+
 
 
 ////
@@ -106,7 +115,7 @@ Success Count：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.commandoutputpacket.数组大小.description
+- 基本类型。protocol.packet.commandoutputpacket.output_messages.array_size.description
 
 
 /////
@@ -118,14 +127,14 @@ Success Count：<!-- md:samp unsigned varint -->
 ////// define
 Successful?：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.commandoutputpacket.successful.description
+- 基本类型。protocol.packet.commandoutputpacket.output_messages.example_element.successful.description
 
 
 //////
 ////// define
 Message ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.commandoutputpacket.message_id.description
+- 特殊类型。protocol.packet.commandoutputpacket.output_messages.example_element.message_id.description
 
 
 //////
@@ -137,7 +146,7 @@ Message ID：[<!-- md:samp string -->](../types/string.md)
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.commandoutputpacket.数组大小.description
+- 基本类型。protocol.packet.commandoutputpacket.output_messages.example_element.parameters.array_size.description
 
 
 ///////
@@ -149,7 +158,7 @@ Message ID：[<!-- md:samp string -->](../types/string.md)
 //////// define
 Param：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.commandoutputpacket.param.description
+- 特殊类型。protocol.packet.commandoutputpacket.output_messages.example_element.parameters.example_element.param.description
 
 
 ////////
@@ -183,7 +192,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Data Set：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.commandoutputpacket.data_set.description
+- 特殊类型。protocol.packet.commandoutputpacket.dependency_on_output_type_is_dataset.if_1.data_set.description
 
 
 ///////

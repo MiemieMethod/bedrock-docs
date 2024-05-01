@@ -50,7 +50,15 @@ rankdir = LR
 //// define
 Type：<!-- md:samp int -->
 
-- 基本类型。protocol.type.mapitemtrackedactor::uniqueid.type.description
+- 基本类型枚举。protocol.type.mapitemtrackedactor::uniqueid.type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Entity`|`0`|protocol.enum.entity|
+  |`BlockEntity`|`1`|protocol.enum.blockentity|
+  |`Other`|`2`|protocol.enum.other|
+  |`COUNT`|`3`|protocol.enum.count|
+
 
 
 ////
@@ -65,7 +73,7 @@ Type：<!-- md:samp int -->
 /////// define
 Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.type.mapitemtrackedactor::uniqueid.unique_id.description
+- 特殊类型。protocol.type.mapitemtrackedactor::uniqueid.dependency_on_type.if_0.unique_id.description
 
 
 ///////
@@ -83,7 +91,7 @@ Unique ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 /////// define
 Block position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。protocol.type.mapitemtrackedactor::uniqueid.block_position.description
+- 特殊类型。protocol.type.mapitemtrackedactor::uniqueid.dependency_on_type.if_1.block_position.description
 
 
 ///////

@@ -166,7 +166,23 @@ rankdir = LR
 //// define
 Message Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.textpacket.message_type.description
+- 基本类型枚举。protocol.packet.textpacket.message_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Raw`|`0`|protocol.enum.raw|
+  |`Chat`|`1`|protocol.enum.chat|
+  |`Translate`|`2`|protocol.enum.translate|
+  |`Popup`|`3`|protocol.enum.popup|
+  |`JukeboxPopup`|`4`|protocol.enum.jukeboxpopup|
+  |`Tip`|`5`|protocol.enum.tip|
+  |`SystemMessage`|`6`|protocol.enum.systemmessage|
+  |`Whisper`|`7`|protocol.enum.whisper|
+  |`Announcement`|`8`|protocol.enum.announcement|
+  |`TextObjectWhisper`|`9`|protocol.enum.textobjectwhisper|
+  |`TextObject`|`10`|protocol.enum.textobject|
+  |`TextObjectAnnouncement`|`11`|protocol.enum.textobjectannouncement|
+
 
 
 ////
@@ -188,7 +204,7 @@ Localize?：<!-- md:samp bool -->
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_0.message.description
 
 
 ///////
@@ -206,14 +222,14 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.player_name.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_1.player_name.description
 
 
 ///////
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_1.message.description
 
 
 ///////
@@ -231,7 +247,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_2.message.description
 
 
 ///////
@@ -243,7 +259,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.textpacket.数组大小.description
+- 基本类型。protocol.packet.textpacket.dependency_on_message_type.if_2.parameter_list.array_size.description
 
 
 ////////
@@ -255,7 +271,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.parameter.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_2.parameter_list.example_element.parameter.description
 
 
 /////////
@@ -277,7 +293,7 @@ Parameter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_3.message.description
 
 
 ///////
@@ -289,7 +305,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.textpacket.数组大小.description
+- 基本类型。protocol.packet.textpacket.dependency_on_message_type.if_3.parameter_list.array_size.description
 
 
 ////////
@@ -301,7 +317,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.parameter.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_3.parameter_list.example_element.parameter.description
 
 
 /////////
@@ -323,7 +339,7 @@ Parameter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_4.message.description
 
 
 ///////
@@ -335,7 +351,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 //////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.textpacket.数组大小.description
+- 基本类型。protocol.packet.textpacket.dependency_on_message_type.if_4.parameter_list.array_size.description
 
 
 ////////
@@ -347,7 +363,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 Parameter：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.parameter.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_4.parameter_list.example_element.parameter.description
 
 
 /////////
@@ -369,7 +385,7 @@ Parameter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_5.message.description
 
 
 ///////
@@ -387,7 +403,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_6.message.description
 
 
 ///////
@@ -405,14 +421,14 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.player_name.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_7.player_name.description
 
 
 ///////
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_7.message.description
 
 
 ///////
@@ -430,14 +446,14 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.player_name.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_8.player_name.description
 
 
 ///////
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_8.message.description
 
 
 ///////
@@ -455,7 +471,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_9.message.description
 
 
 ///////
@@ -473,7 +489,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_10.message.description
 
 
 ///////
@@ -491,7 +507,7 @@ Message：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Message：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.textpacket.message.description
+- 特殊类型。protocol.packet.textpacket.dependency_on_message_type.if_11.message.description
 
 
 ///////

@@ -48,7 +48,18 @@ rankdir = LR
 //// define
 Action：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.animatepacket.action.description
+- 基本类型枚举。protocol.packet.animatepacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoAction`|`0`|protocol.enum.noaction|
+  |`Swing`|`1`|protocol.enum.swing|
+  |`WakeUp`|`3`|protocol.enum.wakeup|
+  |`CriticalHit`|`4`|protocol.enum.criticalhit|
+  |`MagicCriticalHit`|`5`|protocol.enum.magiccriticalhit|
+  |`RowRight`|`128`|protocol.enum.rowright|
+  |`RowLeft`|`129`|protocol.enum.rowleft|
+
 
 
 ////
@@ -81,7 +92,7 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Rowing Time：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.animatepacket.rowing_time.description
+- 基本类型。protocol.packet.animatepacket.dependency_on_action.if_1.rowing_time.description
 
 
 ///////

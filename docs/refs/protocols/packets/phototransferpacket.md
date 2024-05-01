@@ -77,14 +77,28 @@ Book ID：[<!-- md:samp string -->](../types/string.md)
 //// define
 Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.phototransferpacket.type.description
+- 基本类型枚举。protocol.packet.phototransferpacket.type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Portfolio`|`0`|protocol.enum.portfolio|
+  |`PhotoItem`|`1`|protocol.enum.photoitem|
+  |`Book`|`2`|protocol.enum.book|
+
 
 
 ////
 //// define
 Source Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.phototransferpacket.source_type.description
+- 基本类型枚举。protocol.packet.phototransferpacket.source_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Portfolio`|`0`|protocol.enum.portfolio|
+  |`PhotoItem`|`1`|protocol.enum.photoitem|
+  |`Book`|`2`|protocol.enum.book|
+
 
 
 ////

@@ -61,7 +61,7 @@ rankdir = LR
 ///// define
 Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.experiments.streamed_experiment_names_size.description
+- 基本类型。protocol.type.experiments.experiments_array.streamed_experiment_names_size.description
 
 
 /////
@@ -73,28 +73,28 @@ Streamed Experiment Names Size：<!-- md:samp unsigned int -->
 ////// define
 Toggle Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.experiments.toggle_name.description
+- 特殊类型。protocol.type.experiments.experiments_array.example_element.toggle_name.description
 
 
 //////
 ////// define
 Enabled：<!-- md:samp bool -->
 
-- 基本类型。protocol.type.experiments.enabled.description
+- 基本类型。protocol.type.experiments.experiments_array.example_element.enabled.description
 
 
 //////
 ////// define
 Always On Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.experiments.always_on_name.description
+- 特殊类型。protocol.type.experiments.experiments_array.example_element.always_on_name.description
 
 
 //////
 ////// define
 Enabled：<!-- md:samp bool -->
 
-- 基本类型。protocol.type.experiments.enabled.description
+- 基本类型。protocol.type.experiments.experiments_array.example_element.enabled.description
 
 
 //////

@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Raw Id (32 bit unsigned)：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.typedservernetid&lt;struct_recipenetidtag,unsigned_int,0&gt;.raw_id.description
+- 基本类型。protocol.type.typedservernetid&lt;struct_recipenetidtagunsigned_int0&gt;.raw_id.description
 
 
 ////

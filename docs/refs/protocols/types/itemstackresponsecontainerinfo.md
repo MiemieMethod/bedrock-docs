@@ -56,7 +56,7 @@ Open Container Net Id：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.itemstackresponsecontainerinfo.数组大小.description
+- 基本类型。protocol.type.itemstackresponsecontainerinfo.slots.array_size.description
 
 
 /////
@@ -68,7 +68,7 @@ Open Container Net Id：<!-- md:samp byte -->
 ////// define
 Slot Info：[<!-- md:samp ItemStackResponseSlotInfo -->](../types/itemstackresponseslotinfo.md)
 
-- 特殊类型。protocol.type.itemstackresponsecontainerinfo.slot_info.description
+- 特殊类型。protocol.type.itemstackresponsecontainerinfo.slots.example_element.slot_info.description
 
 
 //////

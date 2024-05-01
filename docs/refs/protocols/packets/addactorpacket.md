@@ -165,7 +165,7 @@ Y Body Rotation：<!-- md:samp float -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.addactorpacket.数组大小.description
+- 基本类型。protocol.packet.addactorpacket.attributes_list.array_size.description
 
 
 /////
@@ -177,28 +177,28 @@ Y Body Rotation：<!-- md:samp float -->
 ////// define
 Attribute Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.addactorpacket.attribute_name.description
+- 特殊类型。protocol.packet.addactorpacket.attributes_list.example_element.attribute_name.description
 
 
 //////
 ////// define
 Min Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.addactorpacket.min_value.description
+- 基本类型。protocol.packet.addactorpacket.attributes_list.example_element.min_value.description
 
 
 //////
 ////// define
 Current Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.addactorpacket.current_value.description
+- 基本类型。protocol.packet.addactorpacket.attributes_list.example_element.current_value.description
 
 
 //////
 ////// define
 Max Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.addactorpacket.max_value.description
+- 基本类型。protocol.packet.addactorpacket.attributes_list.example_element.max_value.description
 
 
 //////
@@ -228,7 +228,7 @@ Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncda
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.addactorpacket.数组大小.description
+- 基本类型。protocol.packet.addactorpacket.actor_links.array_size.description
 
 
 /////
@@ -240,7 +240,7 @@ Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncda
 ////// define
 Link：[<!-- md:samp ActorLink -->](../types/actorlink.md)
 
-- 特殊类型。protocol.packet.addactorpacket.link.description
+- 特殊类型。protocol.packet.addactorpacket.actor_links.example_element.link.description
 
 
 //////

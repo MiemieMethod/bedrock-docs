@@ -100,7 +100,7 @@ Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/netw
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.数组大小.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_standards.array_size.description
 
 
 /////
@@ -112,35 +112,42 @@ Sub Chunk Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/netw
 ////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。protocol.packet.updatesubchunkblockspacket.pos.description
+- 特殊类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_standards.example_element.pos.description
 
 
 //////
 ////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.runtime_id.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_standards.example_element.runtime_id.description
 
 
 //////
 ////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.update_flags.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_standards.example_element.update_flags.description
 
 
 //////
 ////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_entity_unique_id.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_standards.example_element.sync_message_entity_unique_id.description
 
 
 //////
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_message.description
+- 基本类型枚举。protocol.packet.updatesubchunkblockspacket.blocks_changed_standards.example_element.sync_message_message.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NONE`|`0`|无|
+  |`CREATE`|`1`|protocol.enum.create|
+  |`DESTROY`|`2`|protocol.enum.destroy|
+
 
 
 //////
@@ -156,7 +163,7 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.数组大小.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_extras.array_size.description
 
 
 /////
@@ -168,35 +175,42 @@ Sync Message - Message：<!-- md:samp unsigned varint -->
 ////// define
 Pos：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。protocol.packet.updatesubchunkblockspacket.pos.description
+- 特殊类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_extras.example_element.pos.description
 
 
 //////
 ////// define
 Runtime Id：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.runtime_id.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_extras.example_element.runtime_id.description
 
 
 //////
 ////// define
 Update Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.update_flags.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_extras.example_element.update_flags.description
 
 
 //////
 ////// define
 Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_entity_unique_id.description
+- 基本类型。protocol.packet.updatesubchunkblockspacket.blocks_changed_extras.example_element.sync_message_entity_unique_id.description
 
 
 //////
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_message.description
+- 基本类型枚举。protocol.packet.updatesubchunkblockspacket.blocks_changed_extras.example_element.sync_message_message.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NONE`|`0`|无|
+  |`CREATE`|`1`|protocol.enum.create|
+  |`DESTROY`|`2`|protocol.enum.destroy|
+
 
 
 //////

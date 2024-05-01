@@ -47,7 +47,14 @@ Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 //// define
 State：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.respawnpacket.state.description
+- 基本类型枚举。protocol.packet.respawnpacket.state.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`SearchingForSpawn`|`0`|protocol.enum.searchingforspawn|
+  |`ReadyToSpawn`|`1`|protocol.enum.readytospawn|
+  |`ClientReadyToSpawn`|`2`|protocol.enum.clientreadytospawn|
+
 
 
 ////

@@ -44,7 +44,15 @@ rankdir = LR
 //// define
 Response：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.resourcepackclientresponsepacket.response.description
+- 基本类型枚举。protocol.packet.resourcepackclientresponsepacket.response.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Cancel`|`1`|protocol.enum.cancel|
+  |`Downloading`|`2`|protocol.enum.downloading|
+  |`DownloadingFinished`|`3`|protocol.enum.downloadingfinished|
+  |`ResourcePackStackFinished`|`4`|protocol.enum.resourcepackstackfinished|
+
 
 
 ////
@@ -56,7 +64,7 @@ Response：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned short -->
 
-- 基本类型。protocol.packet.resourcepackclientresponsepacket.数组大小.description
+- 基本类型。protocol.packet.resourcepackclientresponsepacket.downloading_packs.array_size.description
 
 
 /////
@@ -68,7 +76,7 @@ Response：<!-- md:samp byte -->
 ////// define
 Pack Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepackclientresponsepacket.pack_name.description
+- 特殊类型。protocol.packet.resourcepackclientresponsepacket.downloading_packs.example_element.pack_name.description
 
 
 //////

@@ -343,7 +343,42 @@ Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Event Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.event_type.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.event_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Achievement`|`0`|protocol.enum.achievement|
+  |`Interaction`|`1`|protocol.enum.interaction|
+  |`PortalCreated`|`2`|protocol.enum.portalcreated|
+  |`PortalUsed`|`3`|protocol.enum.portalused|
+  |`MobKilled`|`4`|protocol.enum.mobkilled|
+  |`CauldronUsed`|`5`|protocol.enum.cauldronused|
+  |`PlayerDied`|`6`|protocol.enum.playerdied|
+  |`BossKilled`|`7`|protocol.enum.bosskilled|
+  |`AgentCommand_OBSOLETE`|`8`|protocol.enum.agentcommand_obsolete|
+  |`AgentCreated`|`9`|protocol.enum.agentcreated|
+  |`PatternRemoved_OBSOLETE`|`10`|protocol.enum.patternremoved_obsolete|
+  |`SlashCommand`|`11`|protocol.enum.slashcommand|
+  |`Deprecated_FishBucketed`|`12`|protocol.enum.deprecated_fishbucketed|
+  |`MobBorn`|`13`|protocol.enum.mobborn|
+  |`PetDied_OBSOLETE`|`14`|protocol.enum.petdied_obsolete|
+  |`POICauldronUsed`|`15`|protocol.enum.poicauldronused|
+  |`ComposterUsed`|`16`|protocol.enum.composterused|
+  |`BellUsed`|`17`|protocol.enum.bellused|
+  |`ActorDefinition`|`18`|protocol.enum.actordefinition|
+  |`RaidUpdate`|`19`|protocol.enum.raidupdate|
+  |`PlayerMovementAnomaly_OBSOLETE`|`20`|protocol.enum.playermovementanomaly_obsolete|
+  |`PlayerMovementCorrected_OBSOLETE`|`21`|protocol.enum.playermovementcorrected_obsolete|
+  |`HoneyHarvested`|`22`|protocol.enum.honeyharvested|
+  |`TargetBlockHit`|`23`|protocol.enum.targetblockhit|
+  |`PiglinBarter`|`24`|protocol.enum.piglinbarter|
+  |`PlayerWaxedOrUnwaxedCopper`|`25`|protocol.enum.playerwaxedorunwaxedcopper|
+  |`CodeBuilderRuntimeAction`|`26`|protocol.enum.codebuilderruntimeaction|
+  |`CodeBuilderScoreboard`|`27`|protocol.enum.codebuilderscoreboard|
+  |`StriderRiddenInLavaInOverworld`|`28`|protocol.enum.striderriddeninlavainoverworld|
+  |`SneakCloseToSculkSensor`|`29`|protocol.enum.sneakclosetosculksensor|
+  |`CarefulRestoration`|`30`|protocol.enum.carefulrestoration|
+
 
 
 ////
@@ -365,7 +400,7 @@ Use Player ID：<!-- md:samp byte -->
 /////// define
 Achievement ID：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.achievement_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_0.achievement_id.description
 
 
 ///////
@@ -383,35 +418,209 @@ Achievement ID：<!-- md:samp varint -->
 /////// define
 Interacted Entity ID：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.interacted_entity_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_1.interacted_entity_id.description
 
 
 ///////
 /////// define
 Interaction Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.interaction_type.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_1.interaction_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Breeding`|`1`|protocol.enum.breeding|
+  |`Taming`|`2`|protocol.enum.taming|
+  |`Curing`|`3`|protocol.enum.curing|
+  |`Crafted`|`4`|protocol.enum.crafted|
+  |`Shearing`|`5`|protocol.enum.shearing|
+  |`Milking`|`6`|protocol.enum.milking|
+  |`Trading`|`7`|protocol.enum.trading|
+  |`Feeding`|`8`|protocol.enum.feeding|
+  |`Igniting`|`9`|protocol.enum.igniting|
+  |`Coloring`|`10`|protocol.enum.coloring|
+  |`Naming`|`11`|protocol.enum.naming|
+  |`Leashing`|`12`|protocol.enum.leashing|
+  |`Unleashing`|`13`|protocol.enum.unleashing|
+  |`PetSleep`|`14`|protocol.enum.petsleep|
+  |`Trusting`|`15`|protocol.enum.trusting|
+  |`Commanding`|`16`|protocol.enum.commanding|
+
 
 
 ///////
 /////// define
 Interaction Actor Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.interaction_actor_type.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_1.interaction_actor_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`1`|protocol.enum.undefined|
+  |`TypeMask`|`0x000000ff`|protocol.enum.typemask|
+  |`Mob`|`0x00000100`|protocol.enum.mob|
+  |`PathfinderMob`|`0x00000200 | Mob`|protocol.enum.pathfindermob|
+  |`Monster`|`0x00000800 | PathfinderMob`|protocol.enum.monster|
+  |`Animal`|`0x00001000 | PathfinderMob`|protocol.enum.animal|
+  |`TamableAnimal`|`0x00004000 | Animal`|protocol.enum.tamableanimal|
+  |`Ambient`|`0x00008000 | Mob`|protocol.enum.ambient|
+  |`UndeadMob`|`0x00010000 | Monster`|protocol.enum.undeadmob|
+  |`ZombieMonster`|`0x00020000 | UndeadMob`|protocol.enum.zombiemonster|
+  |`Arthropod`|`0x00040000 | Monster`|protocol.enum.arthropod|
+  |`Minecart`|`0x00080000`|protocol.enum.minecart|
+  |`SkeletonMonster`|`0x00100000 | UndeadMob`|protocol.enum.skeletonmonster|
+  |`EquineAnimal`|`0x00200000 | TamableAnimal`|protocol.enum.equineanimal|
+  |`Projectile`|`0x00400000`|protocol.enum.projectile|
+  |`AbstractArrow`|`0x00800000`|protocol.enum.abstractarrow|
+  |`WaterAnimal`|`0x00002000 | PathfinderMob`|protocol.enum.wateranimal|
+  |`VillagerBase`|`0x01000000 | PathfinderMob`|protocol.enum.villagerbase|
+  |`Chicken`|`10 | Animal`|protocol.enum.chicken|
+  |`Cow`|`11 | Animal`|protocol.enum.cow|
+  |`Pig`|`12 | Animal`|protocol.enum.pig|
+  |`Sheep`|`13 | Animal`|protocol.enum.sheep|
+  |`Wolf`|`14 | TamableAnimal`|protocol.enum.wolf|
+  |`Villager`|`15 | VillagerBase`|protocol.enum.villager|
+  |`MushroomCow`|`16 | Animal`|protocol.enum.mushroomcow|
+  |`Squid`|`17 | WaterAnimal`|protocol.enum.squid|
+  |`Rabbit`|`18 | Animal`|protocol.enum.rabbit|
+  |`Bat`|`19 | Ambient`|protocol.enum.bat|
+  |`IronGolem`|`20 | PathfinderMob`|protocol.enum.irongolem|
+  |`SnowGolem`|`21 | PathfinderMob`|protocol.enum.snowgolem|
+  |`Ocelot`|`22 | TamableAnimal`|protocol.enum.ocelot|
+  |`Horse`|`23 | EquineAnimal`|protocol.enum.horse|
+  |`PolarBear`|`28 | Animal`|protocol.enum.polarbear|
+  |`Llama`|`29 | Animal`|protocol.enum.llama|
+  |`Parrot`|`30 | TamableAnimal`|protocol.enum.parrot|
+  |`Dolphin`|`31 | WaterAnimal`|protocol.enum.dolphin|
+  |`Donkey`|`24 | EquineAnimal`|protocol.enum.donkey|
+  |`Mule`|`25 | EquineAnimal`|protocol.enum.mule|
+  |`SkeletonHorse`|`26 | EquineAnimal | UndeadMob`|protocol.enum.skeletonhorse|
+  |`ZombieHorse`|`27 | EquineAnimal | UndeadMob`|protocol.enum.zombiehorse|
+  |`Zombie`|`32 | ZombieMonster`|protocol.enum.zombie|
+  |`Creeper`|`33 | Monster`|protocol.enum.creeper|
+  |`Skeleton`|`34 | SkeletonMonster`|protocol.enum.skeleton|
+  |`Spider`|`35 | Arthropod`|protocol.enum.spider|
+  |`PigZombie`|`36 | UndeadMob`|protocol.enum.pigzombie|
+  |`Slime`|`37 | Monster`|protocol.enum.slime|
+  |`EnderMan`|`38 | Monster`|protocol.enum.enderman|
+  |`Silverfish`|`39 | Arthropod`|protocol.enum.silverfish|
+  |`CaveSpider`|`40 | Arthropod`|protocol.enum.cavespider|
+  |`Ghast`|`41 | Monster`|protocol.enum.ghast|
+  |`LavaSlime`|`42 | Monster`|protocol.enum.lavaslime|
+  |`Blaze`|`43 | Monster`|protocol.enum.blaze|
+  |`ZombieVillager`|`44 | ZombieMonster`|protocol.enum.zombievillager|
+  |`Witch`|`45 | Monster`|protocol.enum.witch|
+  |`Stray`|`46 | SkeletonMonster`|protocol.enum.stray|
+  |`Husk`|`47 | ZombieMonster`|protocol.enum.husk|
+  |`WitherSkeleton`|`48 | SkeletonMonster`|protocol.enum.witherskeleton|
+  |`Guardian`|`49 | Monster`|protocol.enum.guardian|
+  |`ElderGuardian`|`50 | Monster`|protocol.enum.elderguardian|
+  |`Npc`|`51 | Mob`|protocol.enum.npc|
+  |`WitherBoss`|`52 | UndeadMob`|protocol.enum.witherboss|
+  |`Dragon`|`53 | Monster`|protocol.enum.dragon|
+  |`Shulker`|`54 | Monster`|protocol.enum.shulker|
+  |`Endermite`|`55 | Arthropod`|protocol.enum.endermite|
+  |`Agent`|`56 | Mob`|protocol.enum.agent|
+  |`Vindicator`|`57 | Monster`|protocol.enum.vindicator|
+  |`Phantom`|`58 | UndeadMob`|protocol.enum.phantom|
+  |`IllagerBeast`|`59 | Monster`|protocol.enum.illagerbeast|
+  |`ArmorStand`|`61 | Mob`|protocol.enum.armorstand|
+  |`TripodCamera`|`62 | Mob`|protocol.enum.tripodcamera|
+  |`Player`|`63 | Mob`|protocol.enum.player|
+  |`ItemEntity`|`64`|protocol.enum.itementity|
+  |`PrimedTnt`|`65`|protocol.enum.primedtnt|
+  |`FallingBlock`|`66`|protocol.enum.fallingblock|
+  |`MovingBlock`|`67`|protocol.enum.movingblock|
+  |`ExperiencePotion`|`68 | Projectile`|protocol.enum.experiencepotion|
+  |`Experience`|`69`|protocol.enum.experience|
+  |`EyeOfEnder`|`70`|protocol.enum.eyeofender|
+  |`EnderCrystal`|`71`|protocol.enum.endercrystal|
+  |`FireworksRocket`|`72`|protocol.enum.fireworksrocket|
+  |`Trident`|`73 | Projectile | AbstractArrow`|protocol.enum.trident|
+  |`Turtle`|`74 | Animal`|protocol.enum.turtle|
+  |`Cat`|`75 | TamableAnimal`|protocol.enum.cat|
+  |`ShulkerBullet`|`76 | Projectile`|protocol.enum.shulkerbullet|
+  |`FishingHook`|`77`|protocol.enum.fishinghook|
+  |`Chalkboard`|`78`|protocol.enum.chalkboard|
+  |`DragonFireball`|`79 | Projectile`|protocol.enum.dragonfireball|
+  |`Arrow`|`80 | Projectile | AbstractArrow`|protocol.enum.arrow|
+  |`Snowball`|`81 | Projectile`|protocol.enum.snowball|
+  |`ThrownEgg`|`82 | Projectile`|protocol.enum.thrownegg|
+  |`Painting`|`83`|protocol.enum.painting|
+  |`LargeFireball`|`85 | Projectile`|protocol.enum.largefireball|
+  |`ThrownPotion`|`86 | Projectile`|protocol.enum.thrownpotion|
+  |`Enderpearl`|`87 | Projectile`|protocol.enum.enderpearl|
+  |`LeashKnot`|`88`|protocol.enum.leashknot|
+  |`WitherSkull`|`89 | Projectile`|protocol.enum.witherskull|
+  |`BoatRideable`|`90`|protocol.enum.boatrideable|
+  |`WitherSkullDangerous`|`91 | Projectile`|protocol.enum.witherskulldangerous|
+  |`LightningBolt`|`93`|protocol.enum.lightningbolt|
+  |`SmallFireball`|`94 | Projectile`|protocol.enum.smallfireball|
+  |`AreaEffectCloud`|`95`|protocol.enum.areaeffectcloud|
+  |`LingeringPotion`|`101 | Projectile`|protocol.enum.lingeringpotion|
+  |`LlamaSpit`|`102 | Projectile`|protocol.enum.llamaspit|
+  |`EvocationFang`|`103 | Projectile`|protocol.enum.evocationfang|
+  |`EvocationIllager`|`104 | Monster`|protocol.enum.evocationillager|
+  |`Vex`|`105 | Monster`|protocol.enum.vex|
+  |`MinecartRideable`|`84 | Minecart`|protocol.enum.minecartrideable|
+  |`MinecartHopper`|`96 | Minecart`|protocol.enum.minecarthopper|
+  |`MinecartTNT`|`97 | Minecart`|protocol.enum.minecarttnt|
+  |`MinecartChest`|`98 | Minecart`|protocol.enum.minecartchest|
+  |`MinecartFurnace`|`99 | Minecart`|protocol.enum.minecartfurnace|
+  |`MinecartCommandBlock`|`100 | Minecart`|protocol.enum.minecartcommandblock|
+  |`IceBomb`|`106 | Projectile`|protocol.enum.icebomb|
+  |`Balloon`|`107`|protocol.enum.balloon|
+  |`Pufferfish`|`108 | WaterAnimal`|protocol.enum.pufferfish|
+  |`Salmon`|`109 | WaterAnimal`|protocol.enum.salmon|
+  |`Drowned`|`110 | ZombieMonster`|protocol.enum.drowned|
+  |`Tropicalfish`|`111 | WaterAnimal`|protocol.enum.tropicalfish|
+  |`Fish`|`112 | WaterAnimal`|protocol.enum.fish|
+  |`Panda`|`113 | Animal`|protocol.enum.panda|
+  |`Pillager`|`114 | Monster`|protocol.enum.pillager|
+  |`VillagerV2`|`115 | VillagerBase`|protocol.enum.villagerv2|
+  |`ZombieVillagerV2`|`116 | ZombieMonster`|protocol.enum.zombievillagerv2|
+  |`Shield`|`117`|protocol.enum.shield|
+  |`WanderingTrader`|`118 | PathfinderMob`|protocol.enum.wanderingtrader|
+  |`Lectern`|`119`|protocol.enum.lectern|
+  |`ElderGuardianGhost`|`120 | Monster`|protocol.enum.elderguardianghost|
+  |`Fox`|`121 | Animal`|protocol.enum.fox|
+  |`Bee`|`122 | Mob`|protocol.enum.bee|
+  |`Piglin`|`123 | Mob`|protocol.enum.piglin|
+  |`Hoglin`|`124 | Animal`|protocol.enum.hoglin|
+  |`Strider`|`125 | Animal`|protocol.enum.strider|
+  |`Zoglin`|`126 | UndeadMob`|protocol.enum.zoglin|
+  |`PiglinBrute`|`127 | Mob`|protocol.enum.piglinbrute|
+  |`Goat`|`128 | Animal`|protocol.enum.goat|
+  |`GlowSquid`|`129 | WaterAnimal`|protocol.enum.glowsquid|
+  |`Axolotl`|`130 | Animal`|protocol.enum.axolotl|
+  |`Warden`|`131 | Monster`|protocol.enum.warden|
+  |`Frog`|`132 | Animal`|protocol.enum.frog|
+  |`Tadpole`|`133 | WaterAnimal`|protocol.enum.tadpole|
+  |`Allay`|`134 | Mob`|protocol.enum.allay|
+  |`ChestBoatRideable`|`136 | BoatRideable`|protocol.enum.chestboatrideable|
+  |`TraderLlama`|`137 | Llama`|protocol.enum.traderllama|
+  |`Camel`|`138 | Animal`|protocol.enum.camel|
+  |`Sniffer`|`139 | Animal`|protocol.enum.sniffer|
+  |`Breeze`|`140 | Monster`|protocol.enum.breeze|
+  |`BreezeWindChargeProjectile`|`141 | Projectile`|protocol.enum.breezewindchargeprojectile|
+  |`Armadillo`|`142 | Animal`|protocol.enum.armadillo|
+  |`WindChargeProjectile`|`143 | Projectile`|protocol.enum.windchargeprojectile|
+  |`Bogged`|`144| SkeletonMonster`|protocol.enum.bogged|
+
 
 
 ///////
 /////// define
 Interaction Actor Variant：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.interaction_actor_variant.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_1.interaction_actor_variant.description
 
 
 ///////
 /////// define
 Interaction Actor Color：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.interaction_actor_color.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_1.interaction_actor_color.description
 
 
 ///////
@@ -429,7 +638,7 @@ Interaction Actor Color：<!-- md:samp byte -->
 /////// define
 Dimension ID：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.dimension_id.descriptionCurrently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_2.dimension_id.descriptionCurrently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ///////
@@ -447,14 +656,14 @@ Dimension ID：<!-- md:samp varint -->
 /////// define
 Source Dimension ID：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.source_dimension_id.descriptionCurrently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_3.source_dimension_id.descriptionCurrently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ///////
 /////// define
 Target Dimension ID：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.target_dimension_id.descriptionCurrently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_3.target_dimension_id.descriptionCurrently supported: (0 -> Overworld, 1 -> Nether, 2 -> The End, 3 -> Undefined)
 
 
 ///////
@@ -472,42 +681,236 @@ Target Dimension ID：<!-- md:samp varint -->
 /////// define
 Instigator Actor ID：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.instigator_actor_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_4.instigator_actor_id.description
 
 
 ///////
 /////// define
 Target Actor ID：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.target_actor_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_4.target_actor_id.description
 
 
 ///////
 /////// define
 Instigator's Child Actor Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.instigators_child_actor_type.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_4.instigators_child_actor_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`1`|protocol.enum.undefined|
+  |`TypeMask`|`0x000000ff`|protocol.enum.typemask|
+  |`Mob`|`0x00000100`|protocol.enum.mob|
+  |`PathfinderMob`|`0x00000200 | Mob`|protocol.enum.pathfindermob|
+  |`Monster`|`0x00000800 | PathfinderMob`|protocol.enum.monster|
+  |`Animal`|`0x00001000 | PathfinderMob`|protocol.enum.animal|
+  |`TamableAnimal`|`0x00004000 | Animal`|protocol.enum.tamableanimal|
+  |`Ambient`|`0x00008000 | Mob`|protocol.enum.ambient|
+  |`UndeadMob`|`0x00010000 | Monster`|protocol.enum.undeadmob|
+  |`ZombieMonster`|`0x00020000 | UndeadMob`|protocol.enum.zombiemonster|
+  |`Arthropod`|`0x00040000 | Monster`|protocol.enum.arthropod|
+  |`Minecart`|`0x00080000`|protocol.enum.minecart|
+  |`SkeletonMonster`|`0x00100000 | UndeadMob`|protocol.enum.skeletonmonster|
+  |`EquineAnimal`|`0x00200000 | TamableAnimal`|protocol.enum.equineanimal|
+  |`Projectile`|`0x00400000`|protocol.enum.projectile|
+  |`AbstractArrow`|`0x00800000`|protocol.enum.abstractarrow|
+  |`WaterAnimal`|`0x00002000 | PathfinderMob`|protocol.enum.wateranimal|
+  |`VillagerBase`|`0x01000000 | PathfinderMob`|protocol.enum.villagerbase|
+  |`Chicken`|`10 | Animal`|protocol.enum.chicken|
+  |`Cow`|`11 | Animal`|protocol.enum.cow|
+  |`Pig`|`12 | Animal`|protocol.enum.pig|
+  |`Sheep`|`13 | Animal`|protocol.enum.sheep|
+  |`Wolf`|`14 | TamableAnimal`|protocol.enum.wolf|
+  |`Villager`|`15 | VillagerBase`|protocol.enum.villager|
+  |`MushroomCow`|`16 | Animal`|protocol.enum.mushroomcow|
+  |`Squid`|`17 | WaterAnimal`|protocol.enum.squid|
+  |`Rabbit`|`18 | Animal`|protocol.enum.rabbit|
+  |`Bat`|`19 | Ambient`|protocol.enum.bat|
+  |`IronGolem`|`20 | PathfinderMob`|protocol.enum.irongolem|
+  |`SnowGolem`|`21 | PathfinderMob`|protocol.enum.snowgolem|
+  |`Ocelot`|`22 | TamableAnimal`|protocol.enum.ocelot|
+  |`Horse`|`23 | EquineAnimal`|protocol.enum.horse|
+  |`PolarBear`|`28 | Animal`|protocol.enum.polarbear|
+  |`Llama`|`29 | Animal`|protocol.enum.llama|
+  |`Parrot`|`30 | TamableAnimal`|protocol.enum.parrot|
+  |`Dolphin`|`31 | WaterAnimal`|protocol.enum.dolphin|
+  |`Donkey`|`24 | EquineAnimal`|protocol.enum.donkey|
+  |`Mule`|`25 | EquineAnimal`|protocol.enum.mule|
+  |`SkeletonHorse`|`26 | EquineAnimal | UndeadMob`|protocol.enum.skeletonhorse|
+  |`ZombieHorse`|`27 | EquineAnimal | UndeadMob`|protocol.enum.zombiehorse|
+  |`Zombie`|`32 | ZombieMonster`|protocol.enum.zombie|
+  |`Creeper`|`33 | Monster`|protocol.enum.creeper|
+  |`Skeleton`|`34 | SkeletonMonster`|protocol.enum.skeleton|
+  |`Spider`|`35 | Arthropod`|protocol.enum.spider|
+  |`PigZombie`|`36 | UndeadMob`|protocol.enum.pigzombie|
+  |`Slime`|`37 | Monster`|protocol.enum.slime|
+  |`EnderMan`|`38 | Monster`|protocol.enum.enderman|
+  |`Silverfish`|`39 | Arthropod`|protocol.enum.silverfish|
+  |`CaveSpider`|`40 | Arthropod`|protocol.enum.cavespider|
+  |`Ghast`|`41 | Monster`|protocol.enum.ghast|
+  |`LavaSlime`|`42 | Monster`|protocol.enum.lavaslime|
+  |`Blaze`|`43 | Monster`|protocol.enum.blaze|
+  |`ZombieVillager`|`44 | ZombieMonster`|protocol.enum.zombievillager|
+  |`Witch`|`45 | Monster`|protocol.enum.witch|
+  |`Stray`|`46 | SkeletonMonster`|protocol.enum.stray|
+  |`Husk`|`47 | ZombieMonster`|protocol.enum.husk|
+  |`WitherSkeleton`|`48 | SkeletonMonster`|protocol.enum.witherskeleton|
+  |`Guardian`|`49 | Monster`|protocol.enum.guardian|
+  |`ElderGuardian`|`50 | Monster`|protocol.enum.elderguardian|
+  |`Npc`|`51 | Mob`|protocol.enum.npc|
+  |`WitherBoss`|`52 | UndeadMob`|protocol.enum.witherboss|
+  |`Dragon`|`53 | Monster`|protocol.enum.dragon|
+  |`Shulker`|`54 | Monster`|protocol.enum.shulker|
+  |`Endermite`|`55 | Arthropod`|protocol.enum.endermite|
+  |`Agent`|`56 | Mob`|protocol.enum.agent|
+  |`Vindicator`|`57 | Monster`|protocol.enum.vindicator|
+  |`Phantom`|`58 | UndeadMob`|protocol.enum.phantom|
+  |`IllagerBeast`|`59 | Monster`|protocol.enum.illagerbeast|
+  |`ArmorStand`|`61 | Mob`|protocol.enum.armorstand|
+  |`TripodCamera`|`62 | Mob`|protocol.enum.tripodcamera|
+  |`Player`|`63 | Mob`|protocol.enum.player|
+  |`ItemEntity`|`64`|protocol.enum.itementity|
+  |`PrimedTnt`|`65`|protocol.enum.primedtnt|
+  |`FallingBlock`|`66`|protocol.enum.fallingblock|
+  |`MovingBlock`|`67`|protocol.enum.movingblock|
+  |`ExperiencePotion`|`68 | Projectile`|protocol.enum.experiencepotion|
+  |`Experience`|`69`|protocol.enum.experience|
+  |`EyeOfEnder`|`70`|protocol.enum.eyeofender|
+  |`EnderCrystal`|`71`|protocol.enum.endercrystal|
+  |`FireworksRocket`|`72`|protocol.enum.fireworksrocket|
+  |`Trident`|`73 | Projectile | AbstractArrow`|protocol.enum.trident|
+  |`Turtle`|`74 | Animal`|protocol.enum.turtle|
+  |`Cat`|`75 | TamableAnimal`|protocol.enum.cat|
+  |`ShulkerBullet`|`76 | Projectile`|protocol.enum.shulkerbullet|
+  |`FishingHook`|`77`|protocol.enum.fishinghook|
+  |`Chalkboard`|`78`|protocol.enum.chalkboard|
+  |`DragonFireball`|`79 | Projectile`|protocol.enum.dragonfireball|
+  |`Arrow`|`80 | Projectile | AbstractArrow`|protocol.enum.arrow|
+  |`Snowball`|`81 | Projectile`|protocol.enum.snowball|
+  |`ThrownEgg`|`82 | Projectile`|protocol.enum.thrownegg|
+  |`Painting`|`83`|protocol.enum.painting|
+  |`LargeFireball`|`85 | Projectile`|protocol.enum.largefireball|
+  |`ThrownPotion`|`86 | Projectile`|protocol.enum.thrownpotion|
+  |`Enderpearl`|`87 | Projectile`|protocol.enum.enderpearl|
+  |`LeashKnot`|`88`|protocol.enum.leashknot|
+  |`WitherSkull`|`89 | Projectile`|protocol.enum.witherskull|
+  |`BoatRideable`|`90`|protocol.enum.boatrideable|
+  |`WitherSkullDangerous`|`91 | Projectile`|protocol.enum.witherskulldangerous|
+  |`LightningBolt`|`93`|protocol.enum.lightningbolt|
+  |`SmallFireball`|`94 | Projectile`|protocol.enum.smallfireball|
+  |`AreaEffectCloud`|`95`|protocol.enum.areaeffectcloud|
+  |`LingeringPotion`|`101 | Projectile`|protocol.enum.lingeringpotion|
+  |`LlamaSpit`|`102 | Projectile`|protocol.enum.llamaspit|
+  |`EvocationFang`|`103 | Projectile`|protocol.enum.evocationfang|
+  |`EvocationIllager`|`104 | Monster`|protocol.enum.evocationillager|
+  |`Vex`|`105 | Monster`|protocol.enum.vex|
+  |`MinecartRideable`|`84 | Minecart`|protocol.enum.minecartrideable|
+  |`MinecartHopper`|`96 | Minecart`|protocol.enum.minecarthopper|
+  |`MinecartTNT`|`97 | Minecart`|protocol.enum.minecarttnt|
+  |`MinecartChest`|`98 | Minecart`|protocol.enum.minecartchest|
+  |`MinecartFurnace`|`99 | Minecart`|protocol.enum.minecartfurnace|
+  |`MinecartCommandBlock`|`100 | Minecart`|protocol.enum.minecartcommandblock|
+  |`IceBomb`|`106 | Projectile`|protocol.enum.icebomb|
+  |`Balloon`|`107`|protocol.enum.balloon|
+  |`Pufferfish`|`108 | WaterAnimal`|protocol.enum.pufferfish|
+  |`Salmon`|`109 | WaterAnimal`|protocol.enum.salmon|
+  |`Drowned`|`110 | ZombieMonster`|protocol.enum.drowned|
+  |`Tropicalfish`|`111 | WaterAnimal`|protocol.enum.tropicalfish|
+  |`Fish`|`112 | WaterAnimal`|protocol.enum.fish|
+  |`Panda`|`113 | Animal`|protocol.enum.panda|
+  |`Pillager`|`114 | Monster`|protocol.enum.pillager|
+  |`VillagerV2`|`115 | VillagerBase`|protocol.enum.villagerv2|
+  |`ZombieVillagerV2`|`116 | ZombieMonster`|protocol.enum.zombievillagerv2|
+  |`Shield`|`117`|protocol.enum.shield|
+  |`WanderingTrader`|`118 | PathfinderMob`|protocol.enum.wanderingtrader|
+  |`Lectern`|`119`|protocol.enum.lectern|
+  |`ElderGuardianGhost`|`120 | Monster`|protocol.enum.elderguardianghost|
+  |`Fox`|`121 | Animal`|protocol.enum.fox|
+  |`Bee`|`122 | Mob`|protocol.enum.bee|
+  |`Piglin`|`123 | Mob`|protocol.enum.piglin|
+  |`Hoglin`|`124 | Animal`|protocol.enum.hoglin|
+  |`Strider`|`125 | Animal`|protocol.enum.strider|
+  |`Zoglin`|`126 | UndeadMob`|protocol.enum.zoglin|
+  |`PiglinBrute`|`127 | Mob`|protocol.enum.piglinbrute|
+  |`Goat`|`128 | Animal`|protocol.enum.goat|
+  |`GlowSquid`|`129 | WaterAnimal`|protocol.enum.glowsquid|
+  |`Axolotl`|`130 | Animal`|protocol.enum.axolotl|
+  |`Warden`|`131 | Monster`|protocol.enum.warden|
+  |`Frog`|`132 | Animal`|protocol.enum.frog|
+  |`Tadpole`|`133 | WaterAnimal`|protocol.enum.tadpole|
+  |`Allay`|`134 | Mob`|protocol.enum.allay|
+  |`ChestBoatRideable`|`136 | BoatRideable`|protocol.enum.chestboatrideable|
+  |`TraderLlama`|`137 | Llama`|protocol.enum.traderllama|
+  |`Camel`|`138 | Animal`|protocol.enum.camel|
+  |`Sniffer`|`139 | Animal`|protocol.enum.sniffer|
+  |`Breeze`|`140 | Monster`|protocol.enum.breeze|
+  |`BreezeWindChargeProjectile`|`141 | Projectile`|protocol.enum.breezewindchargeprojectile|
+  |`Armadillo`|`142 | Animal`|protocol.enum.armadillo|
+  |`WindChargeProjectile`|`143 | Projectile`|protocol.enum.windchargeprojectile|
+  |`Bogged`|`144| SkeletonMonster`|protocol.enum.bogged|
+
 
 
 ///////
 /////// define
 Damage Source：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.damage_source.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_4.damage_source.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`-1`|无|
+  |`Override`|`0`|protocol.enum.override|
+  |`Contact`|`1`|protocol.enum.contact|
+  |`EntityAttack`|`2`|protocol.enum.entityattack|
+  |`Projectile`|`3`|protocol.enum.projectile|
+  |`Suffocation`|`4`|protocol.enum.suffocation|
+  |`Fall`|`5`|protocol.enum.fall|
+  |`Fire`|`6`|protocol.enum.fire|
+  |`FireTick`|`7`|protocol.enum.firetick|
+  |`Lava`|`8`|protocol.enum.lava|
+  |`Drowning`|`9`|protocol.enum.drowning|
+  |`BlockExplosion`|`10`|protocol.enum.blockexplosion|
+  |`EntityExplosion`|`11`|protocol.enum.entityexplosion|
+  |`Void`|`12`|protocol.enum.void|
+  |`SelfDestruct`|`13`|protocol.enum.selfdestruct|
+  |`Magic`|`14`|protocol.enum.magic|
+  |`Wither`|`15`|protocol.enum.wither|
+  |`Starve`|`16`|protocol.enum.starve|
+  |`Anvil`|`17`|protocol.enum.anvil|
+  |`Thorns`|`18`|protocol.enum.thorns|
+  |`FallingBlock`|`19`|protocol.enum.fallingblock|
+  |`Piston`|`20`|protocol.enum.piston|
+  |`FlyIntoWall`|`21`|protocol.enum.flyintowall|
+  |`Magma`|`22`|protocol.enum.magma|
+  |`Fireworks`|`23`|protocol.enum.fireworks|
+  |`Lightning`|`24`|protocol.enum.lightning|
+  |`Charging`|`25`|protocol.enum.charging|
+  |`Temperature`|`26`|protocol.enum.temperature|
+  |`Freezing`|`27`|protocol.enum.freezing|
+  |`Stalactite`|`28`|protocol.enum.stalactite|
+  |`Stalagmite`|`29`|protocol.enum.stalagmite|
+  |`RamAttack`|`30`|protocol.enum.ramattack|
+  |`SonicBoom`|`31`|protocol.enum.sonicboom|
+  |`Campfire`|`32`|protocol.enum.campfire|
+  |`SoulCampfire`|`33`|protocol.enum.soulcampfire|
+  |`All`|`34`|protocol.enum.all|
+
 
 
 ///////
 /////// define
 Trade Tier：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.trade_tier.description-1 if not a trading actor.
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_4.trade_tier.description-1 if not a trading actor.
 
 
 ///////
 /////// define
 Trader Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.trader_name.descriptionEmpty if not a trading actor.
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_4.trader_name.descriptionEmpty if not a trading actor.
 
 
 ///////
@@ -525,21 +928,21 @@ Trader Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Contents Color：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.contents_color.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_5.contents_color.description
 
 
 ///////
 /////// define
 Contents Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.contents_type.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_5.contents_type.description
 
 
 ///////
 /////// define
 Fill Level：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.fill_level.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_5.fill_level.description
 
 
 ///////
@@ -557,28 +960,68 @@ Fill Level：<!-- md:samp varint -->
 /////// define
 Instigator Actor ID：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.instigator_actor_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_6.instigator_actor_id.description
 
 
 ///////
 /////// define
 Instigator Mob Variant：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.instigator_mob_variant.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_6.instigator_mob_variant.description
 
 
 ///////
 /////// define
 Damage Source：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.damage_source.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_6.damage_source.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`-1`|无|
+  |`Override`|`0`|protocol.enum.override|
+  |`Contact`|`1`|protocol.enum.contact|
+  |`EntityAttack`|`2`|protocol.enum.entityattack|
+  |`Projectile`|`3`|protocol.enum.projectile|
+  |`Suffocation`|`4`|protocol.enum.suffocation|
+  |`Fall`|`5`|protocol.enum.fall|
+  |`Fire`|`6`|protocol.enum.fire|
+  |`FireTick`|`7`|protocol.enum.firetick|
+  |`Lava`|`8`|protocol.enum.lava|
+  |`Drowning`|`9`|protocol.enum.drowning|
+  |`BlockExplosion`|`10`|protocol.enum.blockexplosion|
+  |`EntityExplosion`|`11`|protocol.enum.entityexplosion|
+  |`Void`|`12`|protocol.enum.void|
+  |`SelfDestruct`|`13`|protocol.enum.selfdestruct|
+  |`Magic`|`14`|protocol.enum.magic|
+  |`Wither`|`15`|protocol.enum.wither|
+  |`Starve`|`16`|protocol.enum.starve|
+  |`Anvil`|`17`|protocol.enum.anvil|
+  |`Thorns`|`18`|protocol.enum.thorns|
+  |`FallingBlock`|`19`|protocol.enum.fallingblock|
+  |`Piston`|`20`|protocol.enum.piston|
+  |`FlyIntoWall`|`21`|protocol.enum.flyintowall|
+  |`Magma`|`22`|protocol.enum.magma|
+  |`Fireworks`|`23`|protocol.enum.fireworks|
+  |`Lightning`|`24`|protocol.enum.lightning|
+  |`Charging`|`25`|protocol.enum.charging|
+  |`Temperature`|`26`|protocol.enum.temperature|
+  |`Freezing`|`27`|protocol.enum.freezing|
+  |`Stalactite`|`28`|protocol.enum.stalactite|
+  |`Stalagmite`|`29`|protocol.enum.stalagmite|
+  |`RamAttack`|`30`|protocol.enum.ramattack|
+  |`SonicBoom`|`31`|protocol.enum.sonicboom|
+  |`Campfire`|`32`|protocol.enum.campfire|
+  |`SoulCampfire`|`33`|protocol.enum.soulcampfire|
+  |`All`|`34`|protocol.enum.all|
+
 
 
 ///////
 /////// define
 Died in Raid?：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.died_in_raid.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_6.died_in_raid.description
 
 
 ///////
@@ -596,21 +1039,175 @@ Died in Raid?：<!-- md:samp bool -->
 /////// define
 Boss Actor ID：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.boss_actor_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_7.boss_actor_id.description
 
 
 ///////
 /////// define
 Party Size：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.party_size.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_7.party_size.description
 
 
 ///////
 /////// define
 Boss Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.boss_type.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_7.boss_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`1`|protocol.enum.undefined|
+  |`TypeMask`|`0x000000ff`|protocol.enum.typemask|
+  |`Mob`|`0x00000100`|protocol.enum.mob|
+  |`PathfinderMob`|`0x00000200 | Mob`|protocol.enum.pathfindermob|
+  |`Monster`|`0x00000800 | PathfinderMob`|protocol.enum.monster|
+  |`Animal`|`0x00001000 | PathfinderMob`|protocol.enum.animal|
+  |`TamableAnimal`|`0x00004000 | Animal`|protocol.enum.tamableanimal|
+  |`Ambient`|`0x00008000 | Mob`|protocol.enum.ambient|
+  |`UndeadMob`|`0x00010000 | Monster`|protocol.enum.undeadmob|
+  |`ZombieMonster`|`0x00020000 | UndeadMob`|protocol.enum.zombiemonster|
+  |`Arthropod`|`0x00040000 | Monster`|protocol.enum.arthropod|
+  |`Minecart`|`0x00080000`|protocol.enum.minecart|
+  |`SkeletonMonster`|`0x00100000 | UndeadMob`|protocol.enum.skeletonmonster|
+  |`EquineAnimal`|`0x00200000 | TamableAnimal`|protocol.enum.equineanimal|
+  |`Projectile`|`0x00400000`|protocol.enum.projectile|
+  |`AbstractArrow`|`0x00800000`|protocol.enum.abstractarrow|
+  |`WaterAnimal`|`0x00002000 | PathfinderMob`|protocol.enum.wateranimal|
+  |`VillagerBase`|`0x01000000 | PathfinderMob`|protocol.enum.villagerbase|
+  |`Chicken`|`10 | Animal`|protocol.enum.chicken|
+  |`Cow`|`11 | Animal`|protocol.enum.cow|
+  |`Pig`|`12 | Animal`|protocol.enum.pig|
+  |`Sheep`|`13 | Animal`|protocol.enum.sheep|
+  |`Wolf`|`14 | TamableAnimal`|protocol.enum.wolf|
+  |`Villager`|`15 | VillagerBase`|protocol.enum.villager|
+  |`MushroomCow`|`16 | Animal`|protocol.enum.mushroomcow|
+  |`Squid`|`17 | WaterAnimal`|protocol.enum.squid|
+  |`Rabbit`|`18 | Animal`|protocol.enum.rabbit|
+  |`Bat`|`19 | Ambient`|protocol.enum.bat|
+  |`IronGolem`|`20 | PathfinderMob`|protocol.enum.irongolem|
+  |`SnowGolem`|`21 | PathfinderMob`|protocol.enum.snowgolem|
+  |`Ocelot`|`22 | TamableAnimal`|protocol.enum.ocelot|
+  |`Horse`|`23 | EquineAnimal`|protocol.enum.horse|
+  |`PolarBear`|`28 | Animal`|protocol.enum.polarbear|
+  |`Llama`|`29 | Animal`|protocol.enum.llama|
+  |`Parrot`|`30 | TamableAnimal`|protocol.enum.parrot|
+  |`Dolphin`|`31 | WaterAnimal`|protocol.enum.dolphin|
+  |`Donkey`|`24 | EquineAnimal`|protocol.enum.donkey|
+  |`Mule`|`25 | EquineAnimal`|protocol.enum.mule|
+  |`SkeletonHorse`|`26 | EquineAnimal | UndeadMob`|protocol.enum.skeletonhorse|
+  |`ZombieHorse`|`27 | EquineAnimal | UndeadMob`|protocol.enum.zombiehorse|
+  |`Zombie`|`32 | ZombieMonster`|protocol.enum.zombie|
+  |`Creeper`|`33 | Monster`|protocol.enum.creeper|
+  |`Skeleton`|`34 | SkeletonMonster`|protocol.enum.skeleton|
+  |`Spider`|`35 | Arthropod`|protocol.enum.spider|
+  |`PigZombie`|`36 | UndeadMob`|protocol.enum.pigzombie|
+  |`Slime`|`37 | Monster`|protocol.enum.slime|
+  |`EnderMan`|`38 | Monster`|protocol.enum.enderman|
+  |`Silverfish`|`39 | Arthropod`|protocol.enum.silverfish|
+  |`CaveSpider`|`40 | Arthropod`|protocol.enum.cavespider|
+  |`Ghast`|`41 | Monster`|protocol.enum.ghast|
+  |`LavaSlime`|`42 | Monster`|protocol.enum.lavaslime|
+  |`Blaze`|`43 | Monster`|protocol.enum.blaze|
+  |`ZombieVillager`|`44 | ZombieMonster`|protocol.enum.zombievillager|
+  |`Witch`|`45 | Monster`|protocol.enum.witch|
+  |`Stray`|`46 | SkeletonMonster`|protocol.enum.stray|
+  |`Husk`|`47 | ZombieMonster`|protocol.enum.husk|
+  |`WitherSkeleton`|`48 | SkeletonMonster`|protocol.enum.witherskeleton|
+  |`Guardian`|`49 | Monster`|protocol.enum.guardian|
+  |`ElderGuardian`|`50 | Monster`|protocol.enum.elderguardian|
+  |`Npc`|`51 | Mob`|protocol.enum.npc|
+  |`WitherBoss`|`52 | UndeadMob`|protocol.enum.witherboss|
+  |`Dragon`|`53 | Monster`|protocol.enum.dragon|
+  |`Shulker`|`54 | Monster`|protocol.enum.shulker|
+  |`Endermite`|`55 | Arthropod`|protocol.enum.endermite|
+  |`Agent`|`56 | Mob`|protocol.enum.agent|
+  |`Vindicator`|`57 | Monster`|protocol.enum.vindicator|
+  |`Phantom`|`58 | UndeadMob`|protocol.enum.phantom|
+  |`IllagerBeast`|`59 | Monster`|protocol.enum.illagerbeast|
+  |`ArmorStand`|`61 | Mob`|protocol.enum.armorstand|
+  |`TripodCamera`|`62 | Mob`|protocol.enum.tripodcamera|
+  |`Player`|`63 | Mob`|protocol.enum.player|
+  |`ItemEntity`|`64`|protocol.enum.itementity|
+  |`PrimedTnt`|`65`|protocol.enum.primedtnt|
+  |`FallingBlock`|`66`|protocol.enum.fallingblock|
+  |`MovingBlock`|`67`|protocol.enum.movingblock|
+  |`ExperiencePotion`|`68 | Projectile`|protocol.enum.experiencepotion|
+  |`Experience`|`69`|protocol.enum.experience|
+  |`EyeOfEnder`|`70`|protocol.enum.eyeofender|
+  |`EnderCrystal`|`71`|protocol.enum.endercrystal|
+  |`FireworksRocket`|`72`|protocol.enum.fireworksrocket|
+  |`Trident`|`73 | Projectile | AbstractArrow`|protocol.enum.trident|
+  |`Turtle`|`74 | Animal`|protocol.enum.turtle|
+  |`Cat`|`75 | TamableAnimal`|protocol.enum.cat|
+  |`ShulkerBullet`|`76 | Projectile`|protocol.enum.shulkerbullet|
+  |`FishingHook`|`77`|protocol.enum.fishinghook|
+  |`Chalkboard`|`78`|protocol.enum.chalkboard|
+  |`DragonFireball`|`79 | Projectile`|protocol.enum.dragonfireball|
+  |`Arrow`|`80 | Projectile | AbstractArrow`|protocol.enum.arrow|
+  |`Snowball`|`81 | Projectile`|protocol.enum.snowball|
+  |`ThrownEgg`|`82 | Projectile`|protocol.enum.thrownegg|
+  |`Painting`|`83`|protocol.enum.painting|
+  |`LargeFireball`|`85 | Projectile`|protocol.enum.largefireball|
+  |`ThrownPotion`|`86 | Projectile`|protocol.enum.thrownpotion|
+  |`Enderpearl`|`87 | Projectile`|protocol.enum.enderpearl|
+  |`LeashKnot`|`88`|protocol.enum.leashknot|
+  |`WitherSkull`|`89 | Projectile`|protocol.enum.witherskull|
+  |`BoatRideable`|`90`|protocol.enum.boatrideable|
+  |`WitherSkullDangerous`|`91 | Projectile`|protocol.enum.witherskulldangerous|
+  |`LightningBolt`|`93`|protocol.enum.lightningbolt|
+  |`SmallFireball`|`94 | Projectile`|protocol.enum.smallfireball|
+  |`AreaEffectCloud`|`95`|protocol.enum.areaeffectcloud|
+  |`LingeringPotion`|`101 | Projectile`|protocol.enum.lingeringpotion|
+  |`LlamaSpit`|`102 | Projectile`|protocol.enum.llamaspit|
+  |`EvocationFang`|`103 | Projectile`|protocol.enum.evocationfang|
+  |`EvocationIllager`|`104 | Monster`|protocol.enum.evocationillager|
+  |`Vex`|`105 | Monster`|protocol.enum.vex|
+  |`MinecartRideable`|`84 | Minecart`|protocol.enum.minecartrideable|
+  |`MinecartHopper`|`96 | Minecart`|protocol.enum.minecarthopper|
+  |`MinecartTNT`|`97 | Minecart`|protocol.enum.minecarttnt|
+  |`MinecartChest`|`98 | Minecart`|protocol.enum.minecartchest|
+  |`MinecartFurnace`|`99 | Minecart`|protocol.enum.minecartfurnace|
+  |`MinecartCommandBlock`|`100 | Minecart`|protocol.enum.minecartcommandblock|
+  |`IceBomb`|`106 | Projectile`|protocol.enum.icebomb|
+  |`Balloon`|`107`|protocol.enum.balloon|
+  |`Pufferfish`|`108 | WaterAnimal`|protocol.enum.pufferfish|
+  |`Salmon`|`109 | WaterAnimal`|protocol.enum.salmon|
+  |`Drowned`|`110 | ZombieMonster`|protocol.enum.drowned|
+  |`Tropicalfish`|`111 | WaterAnimal`|protocol.enum.tropicalfish|
+  |`Fish`|`112 | WaterAnimal`|protocol.enum.fish|
+  |`Panda`|`113 | Animal`|protocol.enum.panda|
+  |`Pillager`|`114 | Monster`|protocol.enum.pillager|
+  |`VillagerV2`|`115 | VillagerBase`|protocol.enum.villagerv2|
+  |`ZombieVillagerV2`|`116 | ZombieMonster`|protocol.enum.zombievillagerv2|
+  |`Shield`|`117`|protocol.enum.shield|
+  |`WanderingTrader`|`118 | PathfinderMob`|protocol.enum.wanderingtrader|
+  |`Lectern`|`119`|protocol.enum.lectern|
+  |`ElderGuardianGhost`|`120 | Monster`|protocol.enum.elderguardianghost|
+  |`Fox`|`121 | Animal`|protocol.enum.fox|
+  |`Bee`|`122 | Mob`|protocol.enum.bee|
+  |`Piglin`|`123 | Mob`|protocol.enum.piglin|
+  |`Hoglin`|`124 | Animal`|protocol.enum.hoglin|
+  |`Strider`|`125 | Animal`|protocol.enum.strider|
+  |`Zoglin`|`126 | UndeadMob`|protocol.enum.zoglin|
+  |`PiglinBrute`|`127 | Mob`|protocol.enum.piglinbrute|
+  |`Goat`|`128 | Animal`|protocol.enum.goat|
+  |`GlowSquid`|`129 | WaterAnimal`|protocol.enum.glowsquid|
+  |`Axolotl`|`130 | Animal`|protocol.enum.axolotl|
+  |`Warden`|`131 | Monster`|protocol.enum.warden|
+  |`Frog`|`132 | Animal`|protocol.enum.frog|
+  |`Tadpole`|`133 | WaterAnimal`|protocol.enum.tadpole|
+  |`Allay`|`134 | Mob`|protocol.enum.allay|
+  |`ChestBoatRideable`|`136 | BoatRideable`|protocol.enum.chestboatrideable|
+  |`TraderLlama`|`137 | Llama`|protocol.enum.traderllama|
+  |`Camel`|`138 | Animal`|protocol.enum.camel|
+  |`Sniffer`|`139 | Animal`|protocol.enum.sniffer|
+  |`Breeze`|`140 | Monster`|protocol.enum.breeze|
+  |`BreezeWindChargeProjectile`|`141 | Projectile`|protocol.enum.breezewindchargeprojectile|
+  |`Armadillo`|`142 | Animal`|protocol.enum.armadillo|
+  |`WindChargeProjectile`|`143 | Projectile`|protocol.enum.windchargeprojectile|
+  |`Bogged`|`144| SkeletonMonster`|protocol.enum.bogged|
+
 
 
 ///////
@@ -628,35 +1225,43 @@ Boss Type：<!-- md:samp varint -->
 /////// define
 Result：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.result.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_8.result.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ActionFail`|`0`|protocol.enum.actionfail|
+  |`ActionSuccess`|`1`|protocol.enum.actionsuccess|
+  |`QueryResultFalse`|`2`|protocol.enum.queryresultfalse|
+  |`QueryResultTrue`|`3`|protocol.enum.queryresulttrue|
+
 
 
 ///////
 /////// define
 Result Number：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.result_number.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_8.result_number.description
 
 
 ///////
 /////// define
 Command Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.command_name.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_8.command_name.description
 
 
 ///////
 /////// define
 Result Key：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.result_key.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_8.result_key.description
 
 
 ///////
 /////// define
 Result String：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.result_string.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_8.result_string.description
 
 
 ///////
@@ -696,28 +1301,28 @@ if (10)：<!-- md:samp [No Data] -->
 /////// define
 Success Count：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.success_count.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_11.success_count.description
 
 
 ///////
 /////// define
 Error Count：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.error_count.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_11.error_count.description
 
 
 ///////
 /////// define
 Command Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.command_name.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_11.command_name.description
 
 
 ///////
 /////// define
 Error List：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.error_list.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_11.error_list.description
 
 
 ///////
@@ -746,21 +1351,21 @@ if (12)：<!-- md:samp [No Data] -->
 /////// define
 Born Baby: Entity Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.born_baby:_entity_type.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_13.born_baby:_entity_type.description
 
 
 ///////
 /////// define
 Born Baby: Entity Variant：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.born_baby:_entity_variant.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_13.born_baby:_entity_variant.description
 
 
 ///////
 /////// define
 Born Baby: Color：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.born_baby:_color.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_13.born_baby:_color.description
 
 
 ///////
@@ -789,14 +1394,44 @@ if (14)：<!-- md:samp [No Data] -->
 /////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.block_interaction_type.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_15.block_interaction_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Extend`|`1`|protocol.enum.extend|
+  |`Clone`|`2`|protocol.enum.clone|
+  |`Lock`|`3`|protocol.enum.lock|
+  |`Create`|`4`|protocol.enum.create|
+  |`CreateLocator`|`5`|protocol.enum.createlocator|
+  |`Rename`|`6`|protocol.enum.rename|
+  |`ItemPlaced`|`7`|protocol.enum.itemplaced|
+  |`ItemRemoved`|`8`|protocol.enum.itemremoved|
+  |`Cooking`|`9`|protocol.enum.cooking|
+  |`Dousing`|`10`|protocol.enum.dousing|
+  |`Lighting`|`11`|protocol.enum.lighting|
+  |`Haystack`|`12`|protocol.enum.haystack|
+  |`Filled`|`13`|protocol.enum.filled|
+  |`Emptied`|`14`|protocol.enum.emptied|
+  |`AddDye`|`15`|protocol.enum.adddye|
+  |`DyeItem`|`16`|protocol.enum.dyeitem|
+  |`ClearItem`|`17`|protocol.enum.clearitem|
+  |`EnchantArrow`|`18`|protocol.enum.enchantarrow|
+  |`CompostItemPlaced`|`19`|protocol.enum.compostitemplaced|
+  |`RecoveredBonemeal`|`20`|protocol.enum.recoveredbonemeal|
+  |`BookPlaced`|`21`|protocol.enum.bookplaced|
+  |`BookOpened`|`22`|protocol.enum.bookopened|
+  |`Disenchant`|`23`|protocol.enum.disenchant|
+  |`Repair`|`24`|protocol.enum.repair|
+  |`DisenchantAndRepair`|`25`|protocol.enum.disenchantandrepair|
+
 
 
 ///////
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.item_id.descriptionId of the relevant item used in the interaction.
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_15.item_id.descriptionId of the relevant item used in the interaction.
 
 
 ///////
@@ -814,14 +1449,44 @@ Item Id：<!-- md:samp varint -->
 /////// define
 Block Interaction Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.block_interaction_type.description
+- 基本类型枚举。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_16.block_interaction_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Extend`|`1`|protocol.enum.extend|
+  |`Clone`|`2`|protocol.enum.clone|
+  |`Lock`|`3`|protocol.enum.lock|
+  |`Create`|`4`|protocol.enum.create|
+  |`CreateLocator`|`5`|protocol.enum.createlocator|
+  |`Rename`|`6`|protocol.enum.rename|
+  |`ItemPlaced`|`7`|protocol.enum.itemplaced|
+  |`ItemRemoved`|`8`|protocol.enum.itemremoved|
+  |`Cooking`|`9`|protocol.enum.cooking|
+  |`Dousing`|`10`|protocol.enum.dousing|
+  |`Lighting`|`11`|protocol.enum.lighting|
+  |`Haystack`|`12`|protocol.enum.haystack|
+  |`Filled`|`13`|protocol.enum.filled|
+  |`Emptied`|`14`|protocol.enum.emptied|
+  |`AddDye`|`15`|protocol.enum.adddye|
+  |`DyeItem`|`16`|protocol.enum.dyeitem|
+  |`ClearItem`|`17`|protocol.enum.clearitem|
+  |`EnchantArrow`|`18`|protocol.enum.enchantarrow|
+  |`CompostItemPlaced`|`19`|protocol.enum.compostitemplaced|
+  |`RecoveredBonemeal`|`20`|protocol.enum.recoveredbonemeal|
+  |`BookPlaced`|`21`|protocol.enum.bookplaced|
+  |`BookOpened`|`22`|protocol.enum.bookopened|
+  |`Disenchant`|`23`|protocol.enum.disenchant|
+  |`Repair`|`24`|protocol.enum.repair|
+  |`DisenchantAndRepair`|`25`|protocol.enum.disenchantandrepair|
+
 
 
 ///////
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.item_id.descriptionId of the relevant item used in the interaction.
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_16.item_id.descriptionId of the relevant item used in the interaction.
 
 
 ///////
@@ -839,7 +1504,7 @@ Item Id：<!-- md:samp varint -->
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.item_id.descriptionId of the relevant item used in the interaction.
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_17.item_id.descriptionId of the relevant item used in the interaction.
 
 
 ///////
@@ -857,7 +1522,7 @@ Item Id：<!-- md:samp varint -->
 /////// define
 Event Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.event_name.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_18.event_name.description
 
 
 ///////
@@ -875,21 +1540,21 @@ Event Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Current Raid Wave：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.current_raid_wave.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_19.current_raid_wave.description
 
 
 ///////
 /////// define
 Total Raid Waves：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.total_raid_waves.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_19.total_raid_waves.description
 
 
 ///////
 /////// define
 Won Raid：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.won_raid.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_19.won_raid.description
 
 
 ///////
@@ -940,7 +1605,7 @@ if (22)：<!-- md:samp [No Data] -->
 /////// define
 Redstone Level：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.redstone_level.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_23.redstone_level.description
 
 
 ///////
@@ -958,14 +1623,14 @@ Redstone Level：<!-- md:samp varint -->
 /////// define
 Item Id：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.item_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_24.item_id.description
 
 
 ///////
 /////// define
 Was targeting bartering player：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.was_targeting_bartering_player.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_24.was_targeting_bartering_player.description
 
 
 ///////
@@ -983,7 +1648,7 @@ Was targeting bartering player：<!-- md:samp bool -->
 /////// define
 Player Waxed or Unwaxed Copper Block ID：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.player_waxed_or_unwaxed_copper_block_id.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_25.player_waxed_or_unwaxed_copper_block_id.description
 
 
 ///////
@@ -1001,7 +1666,7 @@ Player Waxed or Unwaxed Copper Block ID：<!-- md:samp varint -->
 /////// define
 Code builder runtime action：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.code_builder_runtime_action.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_26.code_builder_runtime_action.description
 
 
 ///////
@@ -1019,14 +1684,14 @@ Code builder runtime action：[<!-- md:samp string -->](../types/string.md)
 /////// define
 Objective Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.legacytelemetryeventpacket.objective_name.description
+- 特殊类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_27.objective_name.description
 
 
 ///////
 /////// define
 Code Builder Scoreboard Score：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.legacytelemetryeventpacket.code_builder_scoreboard_score.description
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_27.code_builder_scoreboard_score.description
 
 
 ///////

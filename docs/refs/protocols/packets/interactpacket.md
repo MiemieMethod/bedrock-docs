@@ -56,7 +56,16 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.interactpacket.action.description
+- 基本类型枚举。protocol.packet.interactpacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`StopRiding`|`3`|protocol.enum.stopriding|
+  |`InteractUpdate`|`4`|protocol.enum.interactupdate|
+  |`NpcOpen`|`5`|protocol.enum.npcopen|
+  |`OpenInventory`|`6`|protocol.enum.openinventory|
+
 
 
 ////
@@ -89,21 +98,21 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Position X：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.interactpacket.position_x.description
+- 基本类型。protocol.packet.interactpacket.dependency_on_action_is_interactupdate_or_action_is_stopriding.if_1.position_x.description
 
 
 ///////
 /////// define
 Position Y：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.interactpacket.position_y.description
+- 基本类型。protocol.packet.interactpacket.dependency_on_action_is_interactupdate_or_action_is_stopriding.if_1.position_y.description
 
 
 ///////
 /////// define
 Position Z：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.interactpacket.position_z.description
+- 基本类型。protocol.packet.interactpacket.dependency_on_action_is_interactupdate_or_action_is_stopriding.if_1.position_z.description
 
 
 ///////

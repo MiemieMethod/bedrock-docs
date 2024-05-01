@@ -40,7 +40,13 @@ rankdir = LR
 //// define
 Type：<!-- md:samp short -->
 
-- 基本类型。protocol.type.spawnsettings.type.description
+- 基本类型枚举。protocol.type.spawnsettings.type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Default`|`0`|protocol.enum.default|
+  |`UserDefined`|`1`|protocol.enum.userdefined|
+
 
 
 ////

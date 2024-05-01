@@ -43,7 +43,13 @@ Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Credits State：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.showcreditspacket.credits_state.description
+- 基本类型枚举。protocol.packet.showcreditspacket.credits_state.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Start`|`0`|protocol.enum.start|
+  |`Finished`|`1`|protocol.enum.finished|
+
 
 
 ////

@@ -58,14 +58,26 @@ Seconds：<!-- md:samp float -->
 //// define
 Shake Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.camerashakepacket.shake_type.description
+- 基本类型枚举。protocol.packet.camerashakepacket.shake_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Positional`|`0`|protocol.enum.positional|
+  |`Rotational`|`1`|protocol.enum.rotational|
+
 
 
 ////
 //// define
 Shake action：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.camerashakepacket.shake_action.description
+- 基本类型枚举。protocol.packet.camerashakepacket.shake_action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`|protocol.enum.add|
+  |`Stop`|`1`|protocol.enum.stop|
+
 
 
 ////

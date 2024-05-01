@@ -97,7 +97,7 @@ Is Block?：<!-- md:samp bool -->
 /////// define
 Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。protocol.packet.commandblockupdatepacket.target_runtime_id.description
+- 特殊类型。protocol.packet.commandblockupdatepacket.dependency_on_is_block.if_0.target_runtime_id.description
 
 
 ///////
@@ -115,28 +115,35 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 /////// define
 Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
-- 特殊类型。protocol.packet.commandblockupdatepacket.block_position.description
+- 特殊类型。protocol.packet.commandblockupdatepacket.dependency_on_is_block.if_1.block_position.description
 
 
 ///////
 /////// define
 Command Block Mode：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.commandblockupdatepacket.command_block_mode.description
+- 基本类型枚举。protocol.packet.commandblockupdatepacket.dependency_on_is_block.if_1.command_block_mode.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Normal`|`0`|protocol.enum.normal|
+  |`Repeating`|`1`|protocol.enum.repeating|
+  |`Chain`|`2`|protocol.enum.chain|
+
 
 
 ///////
 /////// define
 Redstone Mode：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.commandblockupdatepacket.redstone_mode.description
+- 基本类型。protocol.packet.commandblockupdatepacket.dependency_on_is_block.if_1.redstone_mode.description
 
 
 ///////
 /////// define
 Is Conditional?：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.commandblockupdatepacket.is_conditional.description
+- 基本类型。protocol.packet.commandblockupdatepacket.dependency_on_is_block.if_1.is_conditional.description
 
 
 ///////

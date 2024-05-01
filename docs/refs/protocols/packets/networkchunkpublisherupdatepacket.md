@@ -78,7 +78,7 @@ Server Built Chunks Size：<!-- md:samp unsigned int -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.networkchunkpublisherupdatepacket.数组大小.description
+- 基本类型。protocol.packet.networkchunkpublisherupdatepacket.server_built_chunks_list.array_size.description
 
 
 /////
@@ -90,7 +90,7 @@ Server Built Chunks Size：<!-- md:samp unsigned int -->
 ////// define
 Chunk Pos：[<!-- md:samp ChunkPos -->](../types/chunkpos.md)
 
-- 特殊类型。protocol.packet.networkchunkpublisherupdatepacket.chunk_pos.description
+- 特殊类型。protocol.packet.networkchunkpublisherupdatepacket.server_built_chunks_list.example_element.chunk_pos.description
 
 
 //////

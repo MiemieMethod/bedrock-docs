@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.string.数组大小.description
+- 基本类型。protocol.type.string.byte_array.array_size.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 String Data：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.string.string_data.description
+- 基本类型。protocol.type.string.byte_array.example_element.string_data.description
 
 
 //////

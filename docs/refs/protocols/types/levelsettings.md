@@ -234,14 +234,36 @@ Spawn Settings：[<!-- md:samp SpawnSettings -->](../types/spawnsettings.md)
 //// define
 Generator Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.generator_type.description
+- 基本类型枚举。protocol.type.levelsettings.generator_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Legacy`|`0`|protocol.enum.legacy|
+  |`Overworld`|`1`|protocol.enum.overworld|
+  |`Flat`|`2`|protocol.enum.flat|
+  |`Nether`|`3`|protocol.enum.nether|
+  |`TheEnd`|`4`|protocol.enum.theend|
+  |`Void`|`5`|protocol.enum.void|
+  |`Undefined`|`6`|protocol.enum.undefined|
+
 
 
 ////
 //// define
 Game Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.game_type.description
+- 基本类型枚举。protocol.type.levelsettings.game_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Undefined`|`-1`|protocol.enum.undefined|
+  |`Survival`|`0`|protocol.enum.survival|
+  |`Creative`|`1`|protocol.enum.creative|
+  |`Adventure`|`2`|protocol.enum.adventure|
+  |`Default`|`5`|protocol.enum.default|
+  |`Spectator`|`6`|protocol.enum.spectator|
+  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
+
 
 
 ////
@@ -255,7 +277,17 @@ is Hardcore Mode enabled?：<!-- md:samp bool -->
 //// define
 Game Difficulty：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.game_difficulty.description
+- 基本类型枚举。protocol.type.levelsettings.game_difficulty.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Peaceful`|`0`|protocol.enum.peaceful|
+  |`Easy`|`1`|protocol.enum.easy|
+  |`Normal`|`2`|protocol.enum.normal|
+  |`Hard`|`3`|protocol.enum.hard|
+  |`Count`|`4`|protocol.enum.count|
+  |`Unknown`|`5`|protocol.enum.unknown|
+
 
 
 ////
@@ -276,7 +308,14 @@ Achievements Disabled：<!-- md:samp bool -->
 //// define
 Editor World Type：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.editor_world_type.description
+- 基本类型枚举。protocol.type.levelsettings.editor_world_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NonEditor`|`0`|protocol.enum.noneditor|
+  |`EditorProject`|`1`|protocol.enum.editorproject|
+  |`EditorTestLevel`|`2`|protocol.enum.editortestlevel|
+
 
 
 ////
@@ -304,7 +343,14 @@ Day Cycle Stop Time：<!-- md:samp varint -->
 //// define
 Education Edition Offer：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.education_edition_offer.description
+- 基本类型枚举。protocol.type.levelsettings.education_edition_offer.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`RestOfWorld`|`1`|protocol.enum.restofworld|
+  |`China_Deprecated`|`2`|protocol.enum.china_deprecated|
+
 
 
 ////
@@ -360,14 +406,32 @@ Was LAN broadcasting intended to be enabled?：<!-- md:samp bool -->
 //// define
 Xbox Live Broadcast Setting：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.xbox_live_broadcast_setting.description
+- 基本类型枚举。protocol.type.levelsettings.xbox_live_broadcast_setting.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoMultiPlay`|`0`|protocol.enum.nomultiplay|
+  |`InviteOnly`|`1`|protocol.enum.inviteonly|
+  |`FriendsOnly`|`2`|protocol.enum.friendsonly|
+  |`FriendsOfFriends`|`3`|protocol.enum.friendsoffriends|
+  |`Public`|`4`|protocol.enum.public|
+
 
 
 ////
 //// define
 Platform Broadcast Setting：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.platform_broadcast_setting.description
+- 基本类型枚举。protocol.type.levelsettings.platform_broadcast_setting.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`NoMultiPlay`|`0`|protocol.enum.nomultiplay|
+  |`InviteOnly`|`1`|protocol.enum.inviteonly|
+  |`FriendsOnly`|`2`|protocol.enum.friendsonly|
+  |`FriendsOfFriends`|`3`|protocol.enum.friendsoffriends|
+  |`Public`|`4`|protocol.enum.public|
+
 
 
 ////
@@ -416,7 +480,15 @@ Start with Map Enabled?：<!-- md:samp bool -->
 //// define
 Player Permissions：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.levelsettings.player_permissions.description
+- 基本类型枚举。protocol.type.levelsettings.player_permissions.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Visitor`|`0`|protocol.enum.visitor|
+  |`Member`|`1`|protocol.enum.member|
+  |`Operator`|`2`|protocol.enum.operator|
+  |`Custom`|`3`|protocol.enum.custom|
+
 
 
 ////
@@ -542,7 +614,14 @@ Override force experimental gameplay has value：<!-- md:samp bool -->
 //// define
 ChatRestriction Level：<!-- md:samp byte -->
 
-- 基本类型。protocol.type.levelsettings.chatrestriction_level.description
+- 基本类型枚举。protocol.type.levelsettings.chatrestriction_level.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`Dropped`|`1`|protocol.enum.dropped|
+  |`Disabled`|`2`|protocol.enum.disabled|
+
 
 
 ////

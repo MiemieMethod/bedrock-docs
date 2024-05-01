@@ -92,7 +92,13 @@ rankdir = LR
 //// define
 Score Packet Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.setscorepacket.score_packet_type.description
+- 基本类型枚举。protocol.packet.setscorepacket.score_packet_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Change`|`0`|protocol.enum.change|
+  |`Remove`|`1`|protocol.enum.remove|
+
 
 
 ////
@@ -104,7 +110,7 @@ Score Packet Type：<!-- md:samp byte -->
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.setscorepacket.数组大小.description
+- 基本类型。protocol.packet.setscorepacket.score_packet_info.array_size.description
 
 
 /////
@@ -116,21 +122,21 @@ Score Packet Type：<!-- md:samp byte -->
 ////// define
 Id：[<!-- md:samp ScoreboardId -->](../types/scoreboardid.md)
 
-- 特殊类型。protocol.packet.setscorepacket.id.description
+- 特殊类型。protocol.packet.setscorepacket.score_packet_info.example_element.id.description
 
 
 //////
 ////// define
 Objective Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.setscorepacket.objective_name.description
+- 特殊类型。protocol.packet.setscorepacket.score_packet_info.example_element.objective_name.description
 
 
 //////
 ////// define
 Score Value：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.setscorepacket.score_value.description
+- 基本类型。protocol.packet.setscorepacket.score_packet_info.example_element.score_value.description
 
 
 //////
@@ -164,14 +170,22 @@ if (0)：<!-- md:samp [No Data] -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.setscorepacket.identity_definition_type.description
+- 基本类型枚举。protocol.packet.setscorepacket.score_packet_info.example_element.dependency_on_is_change_type.if_1.dependency_on_identity_definition_type.if_1.identity_definition_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Player`|`1`|protocol.enum.player|
+  |`Entity`|`2`|protocol.enum.entity|
+  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
+
 
 
 ////////////
 //////////// define
 Player Unique Id：<!-- md:samp varint64 -->
 
-- 基本类型。protocol.packet.setscorepacket.player_unique_id.description
+- 基本类型。protocol.packet.setscorepacket.score_packet_info.example_element.dependency_on_is_change_type.if_1.dependency_on_identity_definition_type.if_1.player_unique_id.description
 
 
 ////////////
@@ -189,14 +203,22 @@ Player Unique Id：<!-- md:samp varint64 -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.setscorepacket.identity_definition_type.description
+- 基本类型枚举。protocol.packet.setscorepacket.score_packet_info.example_element.dependency_on_is_change_type.if_1.dependency_on_identity_definition_type.if_2.identity_definition_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Player`|`1`|protocol.enum.player|
+  |`Entity`|`2`|protocol.enum.entity|
+  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
+
 
 
 ////////////
 //////////// define
 Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
-- 特殊类型。protocol.packet.setscorepacket.actor_id.description
+- 特殊类型。protocol.packet.setscorepacket.score_packet_info.example_element.dependency_on_is_change_type.if_1.dependency_on_identity_definition_type.if_2.actor_id.description
 
 
 ////////////
@@ -214,14 +236,22 @@ Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.setscorepacket.identity_definition_type.description
+- 基本类型枚举。protocol.packet.setscorepacket.score_packet_info.example_element.dependency_on_is_change_type.if_1.dependency_on_identity_definition_type.if_3.identity_definition_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`Player`|`1`|protocol.enum.player|
+  |`Entity`|`2`|protocol.enum.entity|
+  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
+
 
 
 ////////////
 //////////// define
 Fake Player Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.setscorepacket.fake_player_name.description
+- 特殊类型。protocol.packet.setscorepacket.score_packet_info.example_element.dependency_on_is_change_type.if_1.dependency_on_identity_definition_type.if_3.fake_player_name.description
 
 
 ////////////

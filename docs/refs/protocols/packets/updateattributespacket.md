@@ -108,7 +108,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updateattributespacket.数组大小.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.array_size.description
 
 
 /////
@@ -120,35 +120,35 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 ////// define
 Min Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.updateattributespacket.min_value.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.example_element.min_value.description
 
 
 //////
 ////// define
 Max Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.updateattributespacket.max_value.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.example_element.max_value.description
 
 
 //////
 ////// define
 Current Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.updateattributespacket.current_value.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.example_element.current_value.description
 
 
 //////
 ////// define
 Default Value：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.updateattributespacket.default_value.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.example_element.default_value.description
 
 
 //////
 ////// define
 Attribute Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.updateattributespacket.attribute_name.description
+- 特殊类型。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_name.description
 
 
 //////
@@ -160,7 +160,7 @@ Attribute Name：[<!-- md:samp string -->](../types/string.md)
 /////// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updateattributespacket.数组大小.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_modifier.array_size.description
 
 
 ///////
@@ -172,42 +172,61 @@ Attribute Name：[<!-- md:samp string -->](../types/string.md)
 //////// define
 ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.updateattributespacket.id.description
+- 特殊类型。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_modifier.example_element.id.description
 
 
 ////////
 //////// define
 Name：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.updateattributespacket.name.description
+- 特殊类型。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_modifier.example_element.name.description
 
 
 ////////
 //////// define
 Amount：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.updateattributespacket.amount.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_modifier.example_element.amount.description
 
 
 ////////
 //////// define
 Operation：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.updateattributespacket.operation.description
+- 基本类型枚举。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_modifier.example_element.operation.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`OPERATION_ADDITION`|`0`|protocol.enum.operation_addition|
+  |`OPERATION_MULTIPLY_BASE`|`1`|protocol.enum.operation_multiply_base|
+  |`OPERATION_MULTIPLY_TOTAL`|`2`|protocol.enum.operation_multiply_total|
+  |`OPERATION_CAP`|`3`|protocol.enum.operation_cap|
+  |`TOTAL_OPERATIONS`|`4`|protocol.enum.total_operations|
+  |`OPERATION_INVALID`|`TOTAL_OPERATIONS`|protocol.enum.operation_invalid|
+
 
 
 ////////
 //////// define
 Operand：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.updateattributespacket.operand.description
+- 基本类型枚举。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_modifier.example_element.operand.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`OPERAND_MIN`|`0`|protocol.enum.operand_min|
+  |`OPERAND_MAX`|`1`|protocol.enum.operand_max|
+  |`OPERAND_CURRENT`|`2`|protocol.enum.operand_current|
+  |`TOTAL_OPERANDS`|`3`|protocol.enum.total_operands|
+  |`OPERAND_INVALID`|`TOTAL_OPERANDS`|protocol.enum.operand_invalid|
+
 
 
 ////////
 //////// define
 isSerializable?：<!-- md:samp bool -->
 
-- 基本类型。protocol.packet.updateattributespacket.isserializable.description
+- 基本类型。protocol.packet.updateattributespacket.attribute_list.example_element.attribute_modifier.example_element.isserializable.description
 
 
 ////////

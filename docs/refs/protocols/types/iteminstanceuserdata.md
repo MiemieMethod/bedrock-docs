@@ -90,7 +90,7 @@ User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ///// define
 数组大小：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.iteminstanceuserdata.数组大小.description
+- 基本类型。protocol.type.iteminstanceuserdata.can_place_on_blocks.array_size.description
 
 
 /////
@@ -102,7 +102,7 @@ User Data Tag(s)：[<!-- md:samp CompoundTag -->](../types/compoundtag.md)
 ////// define
 Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.iteminstanceuserdata.block_raw_name_id.description
+- 特殊类型。protocol.type.iteminstanceuserdata.can_place_on_blocks.example_element.block_raw_name_id.description
 
 
 //////
@@ -118,7 +118,7 @@ Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.type.iteminstanceuserdata.数组大小.description
+- 基本类型。protocol.type.iteminstanceuserdata.can_destroy_blocks.array_size.description
 
 
 /////
@@ -130,7 +130,7 @@ Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Block Raw Name ID：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.type.iteminstanceuserdata.block_raw_name_id.description
+- 特殊类型。protocol.type.iteminstanceuserdata.can_destroy_blocks.example_element.block_raw_name_id.description
 
 
 //////

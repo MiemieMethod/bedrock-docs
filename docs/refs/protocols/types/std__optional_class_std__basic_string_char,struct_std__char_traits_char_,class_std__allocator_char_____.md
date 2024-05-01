@@ -32,7 +32,7 @@ rankdir = LR
 //// define
 Has Value：<!-- md:samp bool -->
 
-- 基本类型。protocol.type.std::optional&lt;std::string&gt;.has_value.descriptionIf true, follow with appropriate data type, otherwise nothing
+- 基本类型。protocol.type.std::optional&lt;class_std::basic_string&lt;charstruct_std::char_traits&lt;char&gt;class_std::allocator&lt;char&gt;_g_&gt;.has_value.descriptionIf true, follow with appropriate data type, otherwise nothing
 
 
 ////

@@ -76,7 +76,13 @@ Criteria Name：[<!-- md:samp string -->](../types/string.md)
 //// define
 Sort Order：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.setdisplayobjectivepacket.sort_order.description
+- 基本类型枚举。protocol.packet.setdisplayobjectivepacket.sort_order.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Ascending`|`0`|protocol.enum.ascending|
+  |`Descending`|`1`|protocol.enum.descending|
+
 
 
 ////

@@ -60,7 +60,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.updatesoftenumpacket.数组大小.description
+- 基本类型。protocol.packet.updatesoftenumpacket.values.array_size.description
 
 
 /////
@@ -72,7 +72,7 @@ Enum Name：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Enum Value：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.updatesoftenumpacket.enum_value.description
+- 特殊类型。protocol.packet.updatesoftenumpacket.values.example_element.enum_value.description
 
 
 //////
@@ -83,7 +83,14 @@ Enum Value：[<!-- md:samp string -->](../types/string.md)
 //// define
 Update Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.updatesoftenumpacket.update_type.description
+- 基本类型枚举。protocol.packet.updatesoftenumpacket.update_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Add`|`0`|protocol.enum.add|
+  |`Remove`|`1`|protocol.enum.remove|
+  |`Replace`|`2`|protocol.enum.replace|
+
 
 
 ////

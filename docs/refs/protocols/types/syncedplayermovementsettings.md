@@ -40,7 +40,14 @@ rankdir = LR
 //// define
 Authority Mode：<!-- md:samp varint -->
 
-- 基本类型。protocol.type.syncedplayermovementsettings.authority_mode.description
+- 基本类型枚举。protocol.type.syncedplayermovementsettings.authority_mode.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`ClientAuthoritative`|`0`|protocol.enum.clientauthoritative|
+  |`ServerAuthoritative`|`1`|protocol.enum.serverauthoritative|
+  |`ServerAuthoritativeWithRewind`|`2`|protocol.enum.serverauthoritativewithrewind|
+
 
 
 ////

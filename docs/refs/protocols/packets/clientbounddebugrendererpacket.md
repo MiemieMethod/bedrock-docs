@@ -72,7 +72,14 @@ rankdir = LR
 //// define
 Debug Marker Type：<!-- md:samp unsigned int -->
 
-- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_type.description
+- 基本类型枚举。protocol.packet.clientbounddebugrendererpacket.debug_marker_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Invalid`|`0`|protocol.enum.invalid|
+  |`ClearDebugMarkers`|`1`|protocol.enum.cleardebugmarkers|
+  |`AddDebugMarkerCube`|`2`|protocol.enum.adddebugmarkercube|
+
 
 
 ////
@@ -109,49 +116,49 @@ if (1)：<!-- md:samp [No Data] -->
 /////// define
 Debug Marker Text：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_text.description
+- 特殊类型。protocol.packet.clientbounddebugrendererpacket.dependency_on_debug_marker_type.if_2.debug_marker_text.description
 
 
 ///////
 /////// define
 Debug Marker Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
-- 特殊类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_position.description
+- 特殊类型。protocol.packet.clientbounddebugrendererpacket.dependency_on_debug_marker_type.if_2.debug_marker_position.description
 
 
 ///////
 /////// define
 Debug Marker Color red：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_red.description
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.dependency_on_debug_marker_type.if_2.debug_marker_color_red.description
 
 
 ///////
 /////// define
 Debug Marker Color green：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_green.description
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.dependency_on_debug_marker_type.if_2.debug_marker_color_green.description
 
 
 ///////
 /////// define
 Debug Marker Color blue：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_blue.description
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.dependency_on_debug_marker_type.if_2.debug_marker_color_blue.description
 
 
 ///////
 /////// define
 Debug Marker Color alpha：<!-- md:samp float -->
 
-- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_color_alpha.description
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.dependency_on_debug_marker_type.if_2.debug_marker_color_alpha.description
 
 
 ///////
 /////// define
 Debug Marker Duration Milliseconds：<!-- md:samp unsigned int64 -->
 
-- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_duration_milliseconds.description
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.dependency_on_debug_marker_type.if_2.debug_marker_duration_milliseconds.description
 
 
 ///////

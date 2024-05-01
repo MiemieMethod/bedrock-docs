@@ -36,14 +36,14 @@ rankdir = LR
 //// define
 Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.type.std::vector&lt;std::unique_ptr&lt;dataitem&gt;&gt;.count.description
+- 基本类型。protocol.type.std::vector&lt;class_std::unique_ptr&lt;class_dataitemstruct_std::default_delete&lt;class_dataitem&gt;_&gt;class_std::allocator&lt;class_std::unique_ptr&lt;class_dataitemstruct_std::default_delete&lt;class_dataitem&gt;_g_&gt;_&gt;.count.description
 
 
 ////
 //// define
 Item：[<!-- md:samp DataItem -->](../types/dataitem.md)
 
-- 特殊类型。protocol.type.std::vector&lt;std::unique_ptr&lt;dataitem&gt;&gt;.item.description
+- 特殊类型。protocol.type.std::vector&lt;class_std::unique_ptr&lt;class_dataitemstruct_std::default_delete&lt;class_dataitem&gt;_&gt;class_std::allocator&lt;class_std::unique_ptr&lt;class_dataitemstruct_std::default_delete&lt;class_dataitem&gt;_g_&gt;_&gt;.item.description
 
 
 ////

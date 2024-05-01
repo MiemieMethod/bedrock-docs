@@ -45,7 +45,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.purchasereceiptpacket.数组大小.description
+- 基本类型。protocol.packet.purchasereceiptpacket.purchase_receipts.array_size.description
 
 
 /////
@@ -57,7 +57,7 @@ rankdir = LR
 ////// define
 Proof of Purchase：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.purchasereceiptpacket.proof_of_purchase.description
+- 特殊类型。protocol.packet.purchasereceiptpacket.purchase_receipts.example_element.proof_of_purchase.description
 
 
 //////

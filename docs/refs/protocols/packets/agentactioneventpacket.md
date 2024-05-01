@@ -47,7 +47,29 @@ Request Id：[<!-- md:samp string -->](../types/string.md)
 //// define
 Action：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.agentactioneventpacket.action.description
+- 基本类型枚举。protocol.packet.agentactioneventpacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Attack`|`1`|protocol.enum.attack|
+  |`Collect`|`2`|protocol.enum.collect|
+  |`Destroy`|`3`|protocol.enum.destroy|
+  |`DetectRedstone`|`4`|protocol.enum.detectredstone|
+  |`DetectObstacle`|`5`|protocol.enum.detectobstacle|
+  |`Drop`|`6`|protocol.enum.drop|
+  |`DropAll`|`7`|protocol.enum.dropall|
+  |`Inspect`|`8`|protocol.enum.inspect|
+  |`InspectData`|`9`|protocol.enum.inspectdata|
+  |`InspectItemCount`|`10`|protocol.enum.inspectitemcount|
+  |`InspectItemDetail`|`11`|protocol.enum.inspectitemdetail|
+  |`InspectItemSpace`|`12`|protocol.enum.inspectitemspace|
+  |`Interact`|`13`|protocol.enum.interact|
+  |`Move`|`14`|protocol.enum.move|
+  |`PlaceBlock`|`15`|protocol.enum.placeblock|
+  |`Till`|`16`|protocol.enum.till|
+  |`TransferItemTo`|`17`|protocol.enum.transferitemto|
+  |`Turn`|`18`|protocol.enum.turn|
+
 
 
 ////

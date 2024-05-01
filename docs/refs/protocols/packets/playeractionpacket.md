@@ -55,7 +55,50 @@ Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Action：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.playeractionpacket.action.description
+- 基本类型枚举。protocol.packet.playeractionpacket.action.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Unknown`|`-1`|protocol.enum.unknown|
+  |`StartDestroyBlock`|`0`|protocol.enum.startdestroyblock|
+  |`AbortDestroyBlock`|`1`|protocol.enum.abortdestroyblock|
+  |`StopDestroyBlock`|`2`|protocol.enum.stopdestroyblock|
+  |`GetUpdatedBlock`|`3`|protocol.enum.getupdatedblock|
+  |`DropItem`|`4`|protocol.enum.dropitem|
+  |`StartSleeping`|`5`|protocol.enum.startsleeping|
+  |`StopSleeping`|`6`|protocol.enum.stopsleeping|
+  |`Respawn`|`7`|protocol.enum.respawn|
+  |`StartJump`|`8`|protocol.enum.startjump|
+  |`StartSprinting`|`9`|protocol.enum.startsprinting|
+  |`StopSprinting`|`10`|protocol.enum.stopsprinting|
+  |`StartSneaking`|`11`|protocol.enum.startsneaking|
+  |`StopSneaking`|`12`|protocol.enum.stopsneaking|
+  |`CreativeDestroyBlock`|`13`|protocol.enum.creativedestroyblock|
+  |`ChangeDimensionAck`|`14`|protocol.enum.changedimensionack|
+  |`StartGliding`|`15`|protocol.enum.startgliding|
+  |`StopGliding`|`16`|protocol.enum.stopgliding|
+  |`DenyDestroyBlock`|`17`|protocol.enum.denydestroyblock|
+  |`CrackBlock`|`18`|protocol.enum.crackblock|
+  |`ChangeSkin`|`19`|protocol.enum.changeskin|
+  |`DEPRECATED_UpdatedEnchantingSeed`|`20`|protocol.enum.deprecated_updatedenchantingseed|
+  |`StartSwimming`|`21`|protocol.enum.startswimming|
+  |`StopSwimming`|`22`|protocol.enum.stopswimming|
+  |`StartSpinAttack`|`23`|protocol.enum.startspinattack|
+  |`StopSpinAttack`|`24`|protocol.enum.stopspinattack|
+  |`InteractWithBlock`|`25`|protocol.enum.interactwithblock|
+  |`PredictDestroyBlock`|`26`|protocol.enum.predictdestroyblock|
+  |`ContinueDestroyBlock`|`27`|protocol.enum.continuedestroyblock|
+  |`StartItemUseOn`|`28`|protocol.enum.startitemuseon|
+  |`StopItemUseOn`|`29`|protocol.enum.stopitemuseon|
+  |`HandledTeleport`|`30`|protocol.enum.handledteleport|
+  |`MissedSwing`|`31`|protocol.enum.missedswing|
+  |`StartCrawling`|`32`|protocol.enum.startcrawling|
+  |`StopCrawling`|`33`|protocol.enum.stopcrawling|
+  |`StartFlying`|`34`|protocol.enum.startflying|
+  |`StopFlying`|`35`|protocol.enum.stopflying|
+  |`ClientAckServerData`|`36`|protocol.enum.clientackserverdata|
+  |`Count`|`37`|protocol.enum.count|
+
 
 
 ////

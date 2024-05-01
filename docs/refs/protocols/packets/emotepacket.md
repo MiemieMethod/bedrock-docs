@@ -76,7 +76,13 @@ PlatformId：[<!-- md:samp string -->](../types/string.md)
 //// define
 Flags：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.emotepacket.flags.description
+- 基本类型枚举。protocol.packet.emotepacket.flags.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`SERVER_SIDE`|`1 << 0`|protocol.enum.server_side|
+  |`MUTE_EMOTE_CHAT`|`1 << 1`|protocol.enum.mute_emote_chat|
+
 
 
 ////

@@ -55,7 +55,18 @@ NPC Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 //// define
 Request Type：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.npcrequestpacket.request_type.description
+- 基本类型枚举。protocol.packet.npcrequestpacket.request_type.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`SetActions`|`0`|protocol.enum.setactions|
+  |`ExecuteAction`|`1`|protocol.enum.executeaction|
+  |`ExecuteClosingCommands`|`2`|protocol.enum.executeclosingcommands|
+  |`SetName`|`3`|protocol.enum.setname|
+  |`SetSkin`|`4`|protocol.enum.setskin|
+  |`SetInteractText`|`5`|protocol.enum.setinteracttext|
+  |`ExecuteOpeningCommands`|`6`|protocol.enum.executeopeningcommands|
+
 
 
 ////

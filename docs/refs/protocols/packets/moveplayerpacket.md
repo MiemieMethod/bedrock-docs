@@ -104,7 +104,15 @@ Y-Head Rotation：<!-- md:samp float -->
 //// define
 Position Mode：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.moveplayerpacket.position_mode.description
+- 基本类型枚举。protocol.packet.moveplayerpacket.position_mode.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Normal`|`0`|protocol.enum.normal|
+  |`Respawn`|`1`|protocol.enum.respawn|
+  |`Teleport`|`2`|protocol.enum.teleport|
+  |`OnlyHeadRot`|`3`|protocol.enum.onlyheadrot|
+
 
 
 ////
@@ -144,14 +152,14 @@ if (0)：<!-- md:samp [No Data] -->
 /////// define
 Teleportation Cause：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.moveplayerpacket.teleportation_cause.description
+- 基本类型。protocol.packet.moveplayerpacket.dependency_on_position_mode_is_teleport.if_1.teleportation_cause.description
 
 
 ///////
 /////// define
 Source Actor Type：<!-- md:samp int -->
 
-- 基本类型。protocol.packet.moveplayerpacket.source_actor_type.description
+- 基本类型。protocol.packet.moveplayerpacket.dependency_on_position_mode_is_teleport.if_1.source_actor_type.description
 
 
 ///////

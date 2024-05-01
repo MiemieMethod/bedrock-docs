@@ -49,7 +49,7 @@ rankdir = LR
 ///// define
 数组大小：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.creativecontentpacket.数组大小.description
+- 基本类型。protocol.packet.creativecontentpacket.write_entries.array_size.description
 
 
 /////
@@ -61,14 +61,14 @@ rankdir = LR
 ////// define
 Creative Net Id：[<!-- md:samp TypedServerNetId&lt;struct CreativeItemNetIdTag,unsigned int,0&gt; -->](../types/typedservernetid_struct_creativeitemnetidtag,unsigned_int,0_.md)
 
-- 特殊类型。protocol.packet.creativecontentpacket.creative_net_id.description
+- 特殊类型。protocol.packet.creativecontentpacket.write_entries.example_element.creative_net_id.description
 
 
 //////
 ////// define
 Item Instance：[<!-- md:samp NetworkItemInstanceDescriptor -->](../types/networkiteminstancedescriptor.md)
 
-- 特殊类型。protocol.packet.creativecontentpacket.item_instance.description
+- 特殊类型。protocol.packet.creativecontentpacket.write_entries.example_element.item_instance.description
 
 
 //////
