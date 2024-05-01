@@ -1,6 +1,6 @@
 # <!-- md:samp SetScorePacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SetScorePacket -->数据包，数字ID是`108`。该数据包用于protocol.packet.setscorepacket.description
 
@@ -44,7 +44,7 @@ rankdir = LR
 34 -> 35
 
 0 [label="SetScorePacket",comment="name: \"SetScorePacket\", typeName: \"\", id: 0, branchId: 108, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Score Packet Type",comment="name: \"Score Packet Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ScorePacketType\""];
+1 [label="Score Packet Type",comment="name: \"Score Packet Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Score Packet Info",comment="name: \"Score Packet Info\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
 4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -62,17 +62,17 @@ rankdir = LR
 19 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 19, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
 20 [label="Dependency on 'Identity Definition Type'",shape=note,comment="name: \"Dependency on 'Identity Definition Type'\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 21 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 21, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
-22 [label="Identity Definition Type",comment="name: \"Identity Definition Type\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: IdentityDefinition::Type\""];
+22 [label="Identity Definition Type",comment="name: \"Identity Definition Type\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 23 [label="byte",comment="name: \"byte\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 24 [label="Player Unique Id",comment="name: \"Player Unique Id\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 25 [label="varint64",comment="name: \"varint64\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 26 [label="if (2)",shape=diamond,comment="name: \"if (2)\", typeName: \"\", id: 26, branchId: 2, recurseId: -1, attributes: 4, notes: \"\""];
-27 [label="Identity Definition Type",comment="name: \"Identity Definition Type\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: IdentityDefinition::Type\""];
+27 [label="Identity Definition Type",comment="name: \"Identity Definition Type\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 28 [label="byte",comment="name: \"byte\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 29 [label="Actor Id",comment="name: \"Actor Id\", typeName: \"ActorUniqueID\", id: 29, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 30 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 31 [label="if (3)",shape=diamond,comment="name: \"if (3)\", typeName: \"\", id: 31, branchId: 3, recurseId: -1, attributes: 4, notes: \"\""];
-32 [label="Identity Definition Type",comment="name: \"Identity Definition Type\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: IdentityDefinition::Type\""];
+32 [label="Identity Definition Type",comment="name: \"Identity Definition Type\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 33 [label="byte",comment="name: \"byte\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 34 [label="Fake Player Name",comment="name: \"Fake Player Name\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 35 [label="string",comment="name: \"string\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -92,13 +92,7 @@ rankdir = LR
 //// define
 Score Packet Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.setscorepacket.score_packet_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Change`|`0`|protocol.enum.change|
-  |`Remove`|`1`|protocol.enum.remove|
-
+- 基本类型。protocol.packet.setscorepacket.score_packet_type.description
 
 
 ////
@@ -170,15 +164,7 @@ if (0)：<!-- md:samp [No Data] -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.setscorepacket.identity_definition_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`Player`|`1`|protocol.enum.player|
-  |`Entity`|`2`|protocol.enum.entity|
-  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
-
+- 基本类型。protocol.packet.setscorepacket.identity_definition_type.description
 
 
 ////////////
@@ -203,15 +189,7 @@ Player Unique Id：<!-- md:samp varint64 -->
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.setscorepacket.identity_definition_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`Player`|`1`|protocol.enum.player|
-  |`Entity`|`2`|protocol.enum.entity|
-  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
-
+- 基本类型。protocol.packet.setscorepacket.identity_definition_type.description
 
 
 ////////////
@@ -236,15 +214,7 @@ Actor Id：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //////////// define
 Identity Definition Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.setscorepacket.identity_definition_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`Player`|`1`|protocol.enum.player|
-  |`Entity`|`2`|protocol.enum.entity|
-  |`FakePlayer`|`3`|protocol.enum.fakeplayer|
-
+- 基本类型。protocol.packet.setscorepacket.identity_definition_type.description
 
 
 ////////////

@@ -1,6 +1,6 @@
 # <!-- md:samp SetSpawnPositionPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SetSpawnPositionPacket -->数据包，数字ID是`43`。该数据包用于protocol.packet.setspawnpositionpacket.description
 
@@ -20,7 +20,7 @@ rankdir = LR
 7 -> 8
 
 0 [label="SetSpawnPositionPacket",comment="name: \"SetSpawnPositionPacket\", typeName: \"\", id: 0, branchId: 43, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Spawn Position Type",comment="name: \"Spawn Position Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SpawnPositionType\""];
+1 [label="Spawn Position Type",comment="name: \"Spawn Position Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Block Position",comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 4 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -44,13 +44,7 @@ rankdir = LR
 //// define
 Spawn Position Type：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.setspawnpositionpacket.spawn_position_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`PlayerRespawn`|`0`|protocol.enum.playerrespawn|
-  |`WorldSpawn`|`1`|protocol.enum.worldspawn|
-
+- 基本类型。protocol.packet.setspawnpositionpacket.spawn_position_type.description
 
 
 ////

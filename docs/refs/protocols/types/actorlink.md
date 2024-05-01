@@ -1,6 +1,6 @@
 # <!-- md:samp ActorLink -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ActorLink -->类型。该类型用于活动对象链接。
 
@@ -26,7 +26,7 @@ rankdir = LR
 112 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 112, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 113 [label="Actor Unique ID - B",comment="name: \"Actor Unique ID - B\", typeName: \"ActorUniqueID\", id: 113, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 114 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-115 [label="Link Type",comment="name: \"Link Type\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorLinkType\""];
+115 [label="Link Type",comment="name: \"Link Type\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 116 [label="byte",comment="name: \"byte\", typeName: \"\", id: 116, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 117 [label="Immediate",comment="name: \"Immediate\", typeName: \"\", id: 117, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 118 [label="bool",comment="name: \"bool\", typeName: \"\", id: 118, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -62,14 +62,7 @@ Actor Unique ID - B：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md
 //// define
 Link Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.actorlink.link_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`Riding`|`1`|protocol.enum.riding|
-  |`Passenger`|`2`|protocol.enum.passenger|
-
+- 基本类型。protocol.type.actorlink.link_type.description
 
 
 ////

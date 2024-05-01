@@ -1,6 +1,6 @@
 # <!-- md:samp UpdateAttributesPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp UpdateAttributesPacket -->数据包，数字ID是`29`。该数据包用于protocol.packet.updateattributespacket.description
 
@@ -72,9 +72,9 @@ rankdir = LR
 24 [label="string",comment="name: \"string\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 25 [label="Amount",comment="name: \"Amount\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 26 [label="float",comment="name: \"float\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-27 [label="Operation",comment="name: \"Operation\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AttributeModifierOperation\""];
+27 [label="Operation",comment="name: \"Operation\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 28 [label="int",comment="name: \"int\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-29 [label="Operand",comment="name: \"Operand\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AttributeOperands\""];
+29 [label="Operand",comment="name: \"Operand\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 30 [label="int",comment="name: \"int\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 31 [label="isSerializable?",comment="name: \"isSerializable?\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 32 [label="bool",comment="name: \"bool\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -193,33 +193,14 @@ Amount：<!-- md:samp float -->
 //////// define
 Operation：<!-- md:samp int -->
 
-- 基本类型枚举。protocol.packet.updateattributespacket.operation.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`OPERATION_ADDITION`|`0`|protocol.enum.operation_addition|
-  |`OPERATION_MULTIPLY_BASE`|`1`|protocol.enum.operation_multiply_base|
-  |`OPERATION_MULTIPLY_TOTAL`|`2`|protocol.enum.operation_multiply_total|
-  |`OPERATION_CAP`|`3`|protocol.enum.operation_cap|
-  |`TOTAL_OPERATIONS`|`4`|protocol.enum.total_operations|
-  |`OPERATION_INVALID`|`TOTAL_OPERATIONS`|protocol.enum.operation_invalid|
-
+- 基本类型。protocol.packet.updateattributespacket.operation.description
 
 
 ////////
 //////// define
 Operand：<!-- md:samp int -->
 
-- 基本类型枚举。protocol.packet.updateattributespacket.operand.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`OPERAND_MIN`|`0`|protocol.enum.operand_min|
-  |`OPERAND_MAX`|`1`|protocol.enum.operand_max|
-  |`OPERAND_CURRENT`|`2`|protocol.enum.operand_current|
-  |`TOTAL_OPERANDS`|`3`|protocol.enum.total_operands|
-  |`OPERAND_INVALID`|`TOTAL_OPERANDS`|protocol.enum.operand_invalid|
-
+- 基本类型。protocol.packet.updateattributespacket.operand.description
 
 
 ////////

@@ -1,6 +1,6 @@
 # <!-- md:samp CommandOriginData -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CommandOriginData -->类型。该类型用于protocol.type.commandorigindata.description
 
@@ -29,7 +29,7 @@ rankdir = LR
 20 -> 21
 
 4 [label="CommandOriginData",comment="name: \"CommandOriginData\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-5 [label="Command Type",comment="name: \"Command Type\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CommandOriginType\""];
+5 [label="Command Type",comment="name: \"Command Type\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 7 [label="Command UUID",comment="name: \"Command UUID\", typeName: \"mce::UUID\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"Unique UUID that represents an instantiation of a command. Each time a command is run it should be given a UUID to represent that instance.\""];
 8 [label="mce::UUID",comment="name: \"mce::UUID\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -62,27 +62,7 @@ rankdir = LR
 //// define
 Command Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.type.commandorigindata.command_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Player`|`0`|protocol.enum.player|
-  |`CommandBlock`|`1`|protocol.enum.commandblock|
-  |`MinecartCommandBlock`|`2`|protocol.enum.minecartcommandblock|
-  |`DevConsole`|`3`|protocol.enum.devconsole|
-  |`Test`|`4`|protocol.enum.test|
-  |`AutomationPlayer`|`5`|protocol.enum.automationplayer|
-  |`ClientAutomation`|`6`|protocol.enum.clientautomation|
-  |`DedicatedServer`|`7`|protocol.enum.dedicatedserver|
-  |`Entity`|`8`|protocol.enum.entity|
-  |`Virtual`|`9`|protocol.enum.virtual|
-  |`GameArgument`|`10`|protocol.enum.gameargument|
-  |`EntityServer`|`11`|protocol.enum.entityserver|
-  |`Precompiled`|`12`|protocol.enum.precompiled|
-  |`GameDirectorEntityServer`|`13`|protocol.enum.gamedirectorentityserver|
-  |`Scripting`|`14`|protocol.enum.scripting|
-  |`ExecuteContext`|`15`|protocol.enum.executecontext|
-
+- 基本类型。protocol.type.commandorigindata.command_type.description
 
 
 ////

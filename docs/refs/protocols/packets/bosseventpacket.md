@@ -1,6 +1,6 @@
 # <!-- md:samp BossEventPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp BossEventPacket -->数据包，数字ID是`74`。该数据包用于protocol.packet.bosseventpacket.description
 
@@ -59,8 +59,8 @@ rankdir = LR
 0 [label="BossEventPacket",comment="name: \"BossEventPacket\", typeName: \"\", id: 0, branchId: 74, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Target Actor ID",comment="name: \"Target Actor ID\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 2 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Event Type",comment="name: \"Event Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: BossEventUpdateType\""];
-4 [label="int",comment="name: \"int\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Event Type",comment="name: \"Event Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+4 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Dependency on 'Event Type'",shape=note,comment="name: \"Dependency on 'Event Type'\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 6 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
 7 [label="Name",comment="name: \"Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Name of the boss to add\""];
@@ -123,22 +123,9 @@ Target Actor ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 ////
 //// define
-Event Type：<!-- md:samp int -->
+Event Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.bosseventpacket.event_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Add`|`0`|protocol.enum.add|
-  |`PlayerAdded`|`1`|protocol.enum.playeradded|
-  |`Remove`|`2`|protocol.enum.remove|
-  |`PlayerRemoved`|`3`|protocol.enum.playerremoved|
-  |`Update_Percent`|`4`|protocol.enum.update_percent|
-  |`Update_Name`|`5`|protocol.enum.update_name|
-  |`Update_Properties`|`6`|protocol.enum.update_properties|
-  |`Update_Style`|`7`|protocol.enum.update_style|
-  |`Query`|`8`|protocol.enum.query|
-
+- 基本类型。protocol.packet.bosseventpacket.event_type.description
 
 
 ////

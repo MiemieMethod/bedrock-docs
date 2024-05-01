@@ -1,6 +1,6 @@
 # <!-- md:samp MobEquipmentPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp MobEquipmentPacket -->数据包，数字ID是`31`。该数据包用于protocol.packet.mobequipmentpacket.description
 
@@ -30,7 +30,7 @@ rankdir = LR
 6 [label="byte",comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 7 [label="Selected Slot",comment="name: \"Selected Slot\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="byte",comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="Container ID",comment="name: \"Container ID\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ContainerID\""];
+9 [label="Container ID",comment="name: \"Container ID\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10}
 
@@ -76,19 +76,7 @@ Selected Slot：<!-- md:samp byte -->
 //// define
 Container ID：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.mobequipmentpacket.container_id.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`CONTAINER_ID_NONE`|`-1`|protocol.enum.container_id_none|
-  |`CONTAINER_ID_INVENTORY`|`0`|protocol.enum.container_id_inventory|
-  |`CONTAINER_ID_FIRST`|`1`|protocol.enum.container_id_first|
-  |`CONTAINER_ID_LAST`|`100`|protocol.enum.container_id_last|
-  |`CONTAINER_ID_OFFHAND`|`119`|protocol.enum.container_id_offhand|
-  |`CONTAINER_ID_ARMOR`|`120`|protocol.enum.container_id_armor|
-  |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
-  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
-
+- 基本类型。protocol.packet.mobequipmentpacket.container_id.description
 
 
 ////

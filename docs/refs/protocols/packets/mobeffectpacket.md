@@ -1,6 +1,6 @@
 # <!-- md:samp MobEffectPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp MobEffectPacket -->数据包，数字ID是`28`。该数据包用于protocol.packet.mobeffectpacket.description
 
@@ -28,7 +28,7 @@ rankdir = LR
 0 [label="MobEffectPacket",comment="name: \"MobEffectPacket\", typeName: \"\", id: 0, branchId: 28, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Target Runtime ID",comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Event ID",comment="name: \"Event ID\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: MobEffectPacket::Event\""];
+3 [label="Event ID",comment="name: \"Event ID\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Effect ID",comment="name: \"Effect ID\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="varint",comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -63,15 +63,7 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Event ID：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.mobeffectpacket.event_id.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`Add`|`1`|protocol.enum.add|
-  |`Update`|`2`|protocol.enum.update|
-  |`Remove`|`3`|protocol.enum.remove|
-
+- 基本类型。protocol.packet.mobeffectpacket.event_id.description
 
 
 ////

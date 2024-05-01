@@ -1,6 +1,6 @@
 # <!-- md:samp SpawnSettings -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SpawnSettings -->类型。该类型用于protocol.type.spawnsettings.description
 
@@ -18,7 +18,7 @@ rankdir = LR
 32 -> 33
 
 27 [label="SpawnSettings",comment="name: \"SpawnSettings\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-28 [label="Type",comment="name: \"Type\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SpawnBiomeType\""];
+28 [label="Type",comment="name: \"Type\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 29 [label="short",comment="name: \"short\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 30 [label="User Defined Biome Name",comment="name: \"User Defined Biome Name\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 31 [label="string",comment="name: \"string\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -40,13 +40,7 @@ rankdir = LR
 //// define
 Type：<!-- md:samp short -->
 
-- 基本类型枚举。protocol.type.spawnsettings.type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Default`|`0`|protocol.enum.default|
-  |`UserDefined`|`1`|protocol.enum.userdefined|
-
+- 基本类型。protocol.type.spawnsettings.type.description
 
 
 ////

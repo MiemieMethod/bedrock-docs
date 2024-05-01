@@ -1,6 +1,6 @@
 # <!-- md:samp CorrectPlayerMovePredictionPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CorrectPlayerMovePredictionPacket -->数据包，数字ID是`161`。该数据包用于protocol.packet.correctplayermovepredictionpacket.description
 
@@ -22,16 +22,16 @@ rankdir = LR
 9 -> 10
 
 0 [label="CorrectPlayerMovePredictionPacket",comment="name: \"CorrectPlayerMovePredictionPacket\", typeName: \"\", id: 0, branchId: 161, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Pos",comment="name: \"Pos\", typeName: \"Vec3\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"Corrected position\""];
-2 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Pos Delta",comment="name: \"Pos Delta\", typeName: \"Vec3\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"Corrected velocity\""];
+1 [label="PredictionType",comment="name: \"PredictionType\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Vehicle or Player Prediction\""];
+2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Pos",comment="name: \"Pos\", typeName: \"Vec3\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"Corrected position\""];
 4 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-5 [label="On Ground",comment="name: \"On Ground\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"Is on ground\""];
-6 [label="bool",comment="name: \"bool\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-7 [label="Tick",comment="name: \"Tick\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Which frame we're correcting; should match the tick in the Player Auth Input packet\""];
-8 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="PredictionType",comment="name: \"PredictionType\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"Vehicle or Player Prediction\""];
-10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Pos Delta",comment="name: \"Pos Delta\", typeName: \"Vec3\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"Corrected velocity\""];
+6 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="On Ground",comment="name: \"On Ground\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Is on ground\""];
+8 [label="bool",comment="name: \"bool\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Tick",comment="name: \"Tick\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"Which frame we're correcting; should match the tick in the Player Auth Input packet\""];
+10 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10}
 
 }
@@ -41,10 +41,17 @@ rankdir = LR
 ## 字段
 
 ```title='CorrectPlayerMovePredictionPacket'
-[pos][pos_delta][on_ground][tick][predictiontype]
+[predictiontype][pos][pos_delta][on_ground][tick]
 ```
 
 /// html | div.result
+//// define
+PredictionType：<!-- md:samp byte -->
+
+- 基本类型。protocol.packet.correctplayermovepredictionpacket.predictiontype.descriptionVehicle or Player Prediction
+
+
+////
 //// define
 Pos：[<!-- md:samp Vec3 -->](../types/vec3.md)
 
@@ -70,13 +77,6 @@ On Ground：<!-- md:samp bool -->
 Tick：<!-- md:samp unsigned varint64 -->
 
 - 基本类型。protocol.packet.correctplayermovepredictionpacket.tick.descriptionWhich frame we're correcting; should match the tick in the Player Auth Input packet
-
-
-////
-//// define
-PredictionType：<!-- md:samp byte -->
-
-- 基本类型。protocol.packet.correctplayermovepredictionpacket.predictiontype.descriptionVehicle or Player Prediction
 
 
 ////

@@ -1,6 +1,6 @@
 # <!-- md:samp CameraPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CameraPacket -->数据包，数字ID是`73`。该数据包用于protocol.packet.camerapacket.description
 

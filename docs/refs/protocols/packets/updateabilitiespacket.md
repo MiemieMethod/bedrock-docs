@@ -1,6 +1,6 @@
 # <!-- md:samp UpdateAbilitiesPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp UpdateAbilitiesPacket -->数据包，数字ID是`187`。该数据包用于protocol.packet.updateabilitiespacket.description
 

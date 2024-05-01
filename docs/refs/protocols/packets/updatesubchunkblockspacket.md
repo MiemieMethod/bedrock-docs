@@ -1,6 +1,6 @@
 # <!-- md:samp UpdateSubChunkBlocksPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp UpdateSubChunkBlocksPacket -->数据包，数字ID是`172`。该数据包用于protocol.packet.updatesubchunkblockspacket.description
 
@@ -56,7 +56,7 @@ rankdir = LR
 12 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 13 [label="Sync Message - Entity Unique ID",comment="name: \"Sync Message - Entity Unique ID\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 14 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-15 [label="Sync Message - Message",comment="name: \"Sync Message - Message\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorBlockSyncMessage::MessageId\""];
+15 [label="Sync Message - Message",comment="name: \"Sync Message - Message\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 16 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 17 [label="Blocks Changed - Extras",comment="name: \"Blocks Changed - Extras\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
 18 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -70,7 +70,7 @@ rankdir = LR
 26 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 27 [label="Sync Message - Entity Unique ID",comment="name: \"Sync Message - Entity Unique ID\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 28 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-29 [label="Sync Message - Message",comment="name: \"Sync Message - Message\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorBlockSyncMessage::MessageId\""];
+29 [label="Sync Message - Message",comment="name: \"Sync Message - Message\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 30 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;5;8;10;12;14;16;19;22;24;26;28;30}
 
@@ -140,14 +140,7 @@ Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.updatesubchunkblockspacket.sync_message_message.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`NONE`|`0`|无|
-  |`CREATE`|`1`|protocol.enum.create|
-  |`DESTROY`|`2`|protocol.enum.destroy|
-
+- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_message.description
 
 
 //////
@@ -203,14 +196,7 @@ Sync Message - Entity Unique ID：<!-- md:samp unsigned varint64 -->
 ////// define
 Sync Message - Message：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.updatesubchunkblockspacket.sync_message_message.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`NONE`|`0`|无|
-  |`CREATE`|`1`|protocol.enum.create|
-  |`DESTROY`|`2`|protocol.enum.destroy|
-
+- 基本类型。protocol.packet.updatesubchunkblockspacket.sync_message_message.description
 
 
 //////

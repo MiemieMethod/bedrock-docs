@@ -1,6 +1,6 @@
 # <!-- md:samp StructureTemplateDataRequestPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp StructureTemplateDataRequestPacket -->数据包，数字ID是`132`。该数据包用于protocol.packet.structuretemplatedatarequestpacket.description
 
@@ -26,7 +26,7 @@ rankdir = LR
 4 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Structure Settings",comment="name: \"Structure Settings\", typeName: \"StructureSettings\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 6 [label="StructureSettings",comment="name: \"StructureSettings\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-7 [label="Requested Operation",comment="name: \"Requested Operation\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureTemplateRequestOperation\""];
+7 [label="Requested Operation",comment="name: \"Requested Operation\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="byte",comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8}
 
@@ -65,16 +65,7 @@ Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresett
 //// define
 Requested Operation：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.structuretemplatedatarequestpacket.requested_operation.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`ExportFromSaveMode`|`1`|protocol.enum.exportfromsavemode|
-  |`ExportFromLoadMode`|`2`|protocol.enum.exportfromloadmode|
-  |`QuerySavedStructure`|`3`|protocol.enum.querysavedstructure|
-  |`Import`|`4`|protocol.enum.import|
-
+- 基本类型。protocol.packet.structuretemplatedatarequestpacket.requested_operation.description
 
 
 ////

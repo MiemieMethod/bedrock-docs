@@ -1,6 +1,6 @@
 # <!-- md:samp InventoryTransaction -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp InventoryTransaction -->类型。该类型用于protocol.type.inventorytransaction.description
 

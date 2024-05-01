@@ -1,6 +1,6 @@
 # <!-- md:samp CraftingDataEntry -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CraftingDataEntry -->类型。该类型用于protocol.type.craftingdataentry.description
 
@@ -71,7 +71,7 @@ rankdir = LR
 59 -> 60
 
 1 [label="CraftingDataEntry",comment="name: \"CraftingDataEntry\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-2 [label="Crafting Type",comment="name: \"Crafting Type\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CraftingDataEntryType\""];
+2 [label="Crafting Type",comment="name: \"Crafting Type\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 3 [label="varint",comment="name: \"varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 4 [label="Dependency on 'Crafting Type'",shape=note,comment="name: \"Dependency on 'Crafting Type'\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 5 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -146,22 +146,7 @@ rankdir = LR
 //// define
 Crafting Type：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.type.craftingdataentry.crafting_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`ShapelessRecipe`|`0`|protocol.enum.shapelessrecipe|
-  |`ShapedRecipe`|`1`|protocol.enum.shapedrecipe|
-  |`FurnaceRecipe`|`2`|protocol.enum.furnacerecipe|
-  |`FurnaceAuxRecipe`|`3`|protocol.enum.furnaceauxrecipe|
-  |`MultiRecipe`|`4`|protocol.enum.multirecipe|
-  |`ShulkerBoxRecipe`|`5`|protocol.enum.shulkerboxrecipe|
-  |`ShapelessChemistryRecipe`|`6`|protocol.enum.shapelesschemistryrecipe|
-  |`ShapedChemistryRecipe`|`7`|protocol.enum.shapedchemistryrecipe|
-  |`SmithingTransformRecipe`|`8`|protocol.enum.smithingtransformrecipe|
-  |`SmithingTrimRecipe`|`9`|protocol.enum.smithingtrimrecipe|
-  |`COUNT`|`10`|protocol.enum.count|
-
+- 基本类型。protocol.type.craftingdataentry.crafting_type.description
 
 
 ////

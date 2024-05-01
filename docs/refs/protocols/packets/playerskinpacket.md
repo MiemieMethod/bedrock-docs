@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerSkinPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp PlayerSkinPacket -->数据包，数字ID是`93`。该数据包用于protocol.packet.playerskinpacket.description
 

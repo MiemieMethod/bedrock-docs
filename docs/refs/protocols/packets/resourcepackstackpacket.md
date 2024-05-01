@@ -1,6 +1,6 @@
 # <!-- md:samp ResourcePackStackPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ResourcePackStackPacket -->数据包，数字ID是`7`。该数据包用于protocol.packet.resourcepackstackpacket.description
 
@@ -36,6 +36,8 @@ rankdir = LR
 23 -> 27
 0 -> 28
 28 -> 44
+0 -> 45
+45 -> 46
 
 0 [label="ResourcePackStackPacket",comment="name: \"ResourcePackStackPacket\", typeName: \"\", id: 0, branchId: 7, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Texture Pack Required",comment="name: \"Texture Pack Required\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -64,7 +66,9 @@ rankdir = LR
 27 [label="BaseGameVersion",comment="name: \"BaseGameVersion\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 28 [label="Experiments",comment="name: \"Experiments\", typeName: \"Experiments\", id: 28, branchId: 0, recurseId: -1, attributes: 256, notes: \"Refer to the Experiments type for how to serialize\""];
 44 [label="Experiments",comment="name: \"Experiments\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;5;8;10;12;15;18;20;22;27;44}
+45 [label="Include Editor Packs",comment="name: \"Include Editor Packs\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 0, notes: \"When connecting to an Editor world, include the vanilla editor packs in the stack\""];
+46 [label="bool",comment="name: \"bool\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;5;8;10;12;15;18;20;22;27;44;46}
 
 }
 
@@ -73,7 +77,7 @@ rankdir = LR
 ## 字段
 
 ```title='ResourcePackStackPacket'
-[texture_pack_required][add-on_list][texture_pack_list][base_game_version][experiments]
+[texture_pack_required][add-on_list][texture_pack_list][base_game_version][experiments][include_editor_packs]
 ```
 
 /// html | div.result
@@ -179,6 +183,13 @@ Base Game Version：[<!-- md:samp BaseGameVersion -->](../types/basegameversion.
 Experiments：[<!-- md:samp Experiments -->](../types/experiments.md)
 
 - 特殊类型。protocol.packet.resourcepackstackpacket.experiments.descriptionRefer to the Experiments type for how to serialize
+
+
+////
+//// define
+Include Editor Packs：<!-- md:samp bool -->
+
+- 基本类型。protocol.packet.resourcepackstackpacket.include_editor_packs.descriptionWhen connecting to an Editor world, include the vanilla editor packs in the stack
 
 
 ////

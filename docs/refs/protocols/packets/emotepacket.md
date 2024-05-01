@@ -1,6 +1,6 @@
 # <!-- md:samp EmotePacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp EmotePacket -->数据包，数字ID是`138`。该数据包用于protocol.packet.emotepacket.description
 
@@ -30,7 +30,7 @@ rankdir = LR
 6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 7 [label="PlatformId",comment="name: \"PlatformId\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="Flags",comment="name: \"Flags\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: EmotePacket::Flags\""];
+9 [label="Flags",comment="name: \"Flags\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10}
 
@@ -76,13 +76,7 @@ PlatformId：[<!-- md:samp string -->](../types/string.md)
 //// define
 Flags：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.emotepacket.flags.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`SERVER_SIDE`|`1 << 0`|protocol.enum.server_side|
-  |`MUTE_EMOTE_CHAT`|`1 << 1`|protocol.enum.mute_emote_chat|
-
+- 基本类型。protocol.packet.emotepacket.flags.description
 
 
 ////

@@ -1,6 +1,6 @@
 # <!-- md:samp NetworkSettingsPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp NetworkSettingsPacket -->数据包，数字ID是`143`。该数据包用于protocol.packet.networksettingspacket.description
 
@@ -24,7 +24,7 @@ rankdir = LR
 0 [label="NetworkSettingsPacket",comment="name: \"NetworkSettingsPacket\", typeName: \"\", id: 0, branchId: 143, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Compression Threshold",comment="name: \"Compression Threshold\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"Determines the smallest size of raw network payload to compress. OTE: 0 is disable compression, 1 is compress everything 1 byte or larger (so everything)\""];
 2 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="CompressionAlgorithm",comment="name: \"CompressionAlgorithm\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PacketCompressionAlgorithm\""];
+3 [label="CompressionAlgorithm",comment="name: \"CompressionAlgorithm\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Client Throttle Enabled",comment="name: \"Client Throttle Enabled\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="bool",comment="name: \"bool\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -55,14 +55,7 @@ Compression Threshold：<!-- md:samp unsigned short -->
 //// define
 CompressionAlgorithm：<!-- md:samp unsigned short -->
 
-- 基本类型枚举。protocol.packet.networksettingspacket.compressionalgorithm.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`ZLib`|`0`|protocol.enum.zlib|
-  |`Snappy`|`1`|protocol.enum.snappy|
-  |`None`|`0xffff`|无|
-
+- 基本类型。protocol.packet.networksettingspacket.compressionalgorithm.description
 
 
 ////

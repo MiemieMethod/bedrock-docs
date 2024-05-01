@@ -1,6 +1,6 @@
 # <!-- md:samp SetHudPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SetHudPacket -->数据包，数字ID是`308`。该数据包用于protocol.packet.sethudpacket.description
 
@@ -24,9 +24,9 @@ rankdir = LR
 2 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 3 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 4 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
-5 [label="Hud Element",comment="name: \"Hud Element\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: HudElement\""];
+5 [label="Hud Element",comment="name: \"Hud Element\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="varint",comment="name: \"varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-7 [label="isHudVisible",comment="name: \"isHudVisible\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: HudVisibility\""];
+7 [label="isHudVisible",comment="name: \"isHudVisible\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="varint",comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;3;6;8}
 
@@ -61,23 +61,7 @@ rankdir = LR
 ////// define
 Hud Element：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.sethudpacket.hud_element.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`PaperDoll`|`0`|protocol.enum.paperdoll|
-  |`Armor`|`1`|protocol.enum.armor|
-  |`ToolTips`|`2`|protocol.enum.tooltips|
-  |`TouchControls`|`3`|protocol.enum.touchcontrols|
-  |`Crosshair`|`4`|protocol.enum.crosshair|
-  |`HotBar`|`5`|protocol.enum.hotbar|
-  |`Health`|`6`|protocol.enum.health|
-  |`ProgressBar`|`7`|protocol.enum.progressbar|
-  |`Hunger`|`8`|protocol.enum.hunger|
-  |`AirBubbles`|`9`|protocol.enum.airbubbles|
-  |`HorseHealth`|`10`|protocol.enum.horsehealth|
-  |`Count`|`11`|protocol.enum.count|
-
+- 基本类型。protocol.packet.sethudpacket.hud_element.description
 
 
 //////
@@ -88,14 +72,7 @@ Hud Element：<!-- md:samp varint -->
 //// define
 isHudVisible：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.sethudpacket.ishudvisible.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Hide`|`0`|protocol.enum.hide|
-  |`Reset`|`1`|protocol.enum.reset|
-  |`Count`|`2`|protocol.enum.count|
-
+- 基本类型。protocol.packet.sethudpacket.ishudvisible.description
 
 
 ////

@@ -1,6 +1,6 @@
 # <!-- md:samp RequestAbilityPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp RequestAbilityPacket -->数据包，数字ID是`184`。该数据包用于protocol.packet.requestabilitypacket.description
 
@@ -27,9 +27,9 @@ rankdir = LR
 14 -> 15
 
 0 [label="RequestAbilityPacket",comment="name: \"RequestAbilityPacket\", typeName: \"\", id: 0, branchId: 184, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Ability",comment="name: \"Ability\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AbilitiesIndex\""];
-2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Value Type",comment="name: \"Value Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: RequestAbilityPacket::Type\""];
+1 [label="Ability",comment="name: \"Ability\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+3 [label="Value Type",comment="name: \"Value Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Dependency on 'Value Type'",shape=note,comment="name: \"Dependency on 'Value Type'\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 6 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 6, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
@@ -56,48 +56,16 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Ability：<!-- md:samp byte -->
+Ability：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.requestabilitypacket.ability.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`-1`|protocol.enum.invalid|
-  |`Build`|`0`|protocol.enum.build|
-  |`Mine`|`1`|protocol.enum.mine|
-  |`DoorsAndSwitches`|`2`|protocol.enum.doorsandswitches|
-  |`OpenContainers`|`3`|protocol.enum.opencontainers|
-  |`AttackPlayers`|`4`|protocol.enum.attackplayers|
-  |`AttackMobs`|`5`|protocol.enum.attackmobs|
-  |`OperatorCommands`|`6`|protocol.enum.operatorcommands|
-  |`Teleport`|`7`|protocol.enum.teleport|
-  |`Invulnerable`|`8`|protocol.enum.invulnerable|
-  |`Flying`|`9`|protocol.enum.flying|
-  |`MayFly`|`10`|protocol.enum.mayfly|
-  |`Instabuild`|`11`|protocol.enum.instabuild|
-  |`Lightning`|`12`|protocol.enum.lightning|
-  |`FlySpeed`|`13`|protocol.enum.flyspeed|
-  |`WalkSpeed`|`14`|protocol.enum.walkspeed|
-  |`Muted`|`15`|protocol.enum.muted|
-  |`WorldBuilder`|`16`|protocol.enum.worldbuilder|
-  |`NoClip`|`17`|protocol.enum.noclip|
-  |`PrivilegedBuilder`|`18`|protocol.enum.privilegedbuilder|
-  |`AbilityCount`|`19`|protocol.enum.abilitycount|
-
+- 基本类型。protocol.packet.requestabilitypacket.ability.description
 
 
 ////
 //// define
 Value Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.requestabilitypacket.value_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Unset`|`0`|protocol.enum.unset|
-  |`Bool`|`1`|protocol.enum.bool|
-  |`Float`|`2`|protocol.enum.float|
-
+- 基本类型。protocol.packet.requestabilitypacket.value_type.description
 
 
 ////

@@ -1,6 +1,6 @@
 # <!-- md:samp ShapedChemistryRecipe -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ShapedChemistryRecipe -->类型。该类型用于protocol.type.shapedchemistryrecipe.description
 
@@ -30,6 +30,8 @@ rankdir = LR
 23 -> 24
 6 -> 25
 25 -> 26
+6 -> 27
+27 -> 28
 
 6 [label="ShapedChemistryRecipe",comment="name: \"ShapedChemistryRecipe\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 7 [label="Recipe Id",comment="name: \"Recipe Id\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -52,7 +54,9 @@ rankdir = LR
 24 [label="string",comment="name: \"string\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 25 [label="Priority",comment="name: \"Priority\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 26 [label="varint",comment="name: \"varint\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;8;10;12;14;17;20;22;24;26}
+27 [label="Assume Symmetry",comment="name: \"Assume Symmetry\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+28 [label="bool",comment="name: \"bool\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;8;10;12;14;17;20;22;24;26;28}
 
 }
 
@@ -61,7 +65,7 @@ rankdir = LR
 ## 字段
 
 ```title='ShapedChemistryRecipe'
-[recipe_id][width][height][ingredient][result_items][id][tag][priority]
+[recipe_id][width][height][ingredient][result_items][id][tag][priority][assume_symmetry]
 ```
 
 /// html | div.result
@@ -139,6 +143,13 @@ Tag：[<!-- md:samp string -->](../types/string.md)
 Priority：<!-- md:samp varint -->
 
 - 基本类型。protocol.type.shapedchemistryrecipe.priority.description
+
+
+////
+//// define
+Assume Symmetry：<!-- md:samp bool -->
+
+- 基本类型。protocol.type.shapedchemistryrecipe.assume_symmetry.description
 
 
 ////

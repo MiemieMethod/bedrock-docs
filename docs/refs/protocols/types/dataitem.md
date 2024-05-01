@@ -1,6 +1,6 @@
 # <!-- md:samp DataItem -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp DataItem -->类型。该类型用于protocol.type.dataitem.description
 
@@ -46,8 +46,8 @@ rankdir = LR
 1 [label="DataItem",comment="name: \"DataItem\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="ID",comment="name: \"ID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 3 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-4 [label="Type",comment="name: \"Type\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: DataItemType\""];
-5 [label="byte",comment="name: \"byte\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+4 [label="Type",comment="name: \"Type\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 6 [label="Dependency on 'Type'",shape=note,comment="name: \"Dependency on 'Type'\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 7 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
 8 [label="Value",comment="name: \"Value\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -97,23 +97,9 @@ ID：<!-- md:samp unsigned varint -->
 
 ////
 //// define
-Type：<!-- md:samp byte -->
+Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.type.dataitem.type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Byte`|`0`|protocol.enum.byte|
-  |`Short`|`1`|protocol.enum.short|
-  |`Int`|`2`|protocol.enum.int|
-  |`Float`|`3`|protocol.enum.float|
-  |`String`|`4`|protocol.enum.string|
-  |`CompoundTag`|`5`|protocol.enum.compoundtag|
-  |`Pos`|`6`|protocol.enum.pos|
-  |`Int64`|`7`|protocol.enum.int64|
-  |`Vec3`|`8`|protocol.enum.vec3|
-  |`Unknown`|`9`|protocol.enum.unknown|
-
+- 基本类型。protocol.type.dataitem.type.description
 
 
 ////

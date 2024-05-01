@@ -1,6 +1,6 @@
 # <!-- md:samp PositionTrackingDBClientRequestPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp PositionTrackingDBClientRequestPacket -->数据包，数字ID是`154`。该数据包用于protocol.packet.positiontrackingdbclientrequestpacket.description
 
@@ -16,7 +16,7 @@ rankdir = LR
 3 -> 4
 
 0 [label="PositionTrackingDBClientRequestPacket",comment="name: \"PositionTrackingDBClientRequestPacket\", typeName: \"\", id: 0, branchId: 154, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PositionTrackingDBClientRequestPacket::Action\""];
+1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Id",comment="name: \"Id\", typeName: \"PositionTrackingId\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 4 [label="PositionTrackingId",comment="name: \"PositionTrackingId\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -36,12 +36,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.positiontrackingdbclientrequestpacket.action.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Query`|`0`|protocol.enum.query|
-
+- 基本类型。protocol.packet.positiontrackingdbclientrequestpacket.action.description
 
 
 ////

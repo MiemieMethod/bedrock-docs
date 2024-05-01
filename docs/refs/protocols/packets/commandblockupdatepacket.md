@@ -1,6 +1,6 @@
 # <!-- md:samp CommandBlockUpdatePacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CommandBlockUpdatePacket -->数据包，数字ID是`78`。该数据包用于protocol.packet.commandblockupdatepacket.description
 
@@ -48,7 +48,7 @@ rankdir = LR
 7 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 7, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
 8 [label="Block Position",comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 8, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 9 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-10 [label="Command Block Mode",comment="name: \"Command Block Mode\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CommandBlockMode\""];
+10 [label="Command Block Mode",comment="name: \"Command Block Mode\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 11 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 12 [label="Redstone Mode",comment="name: \"Redstone Mode\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 13 [label="bool",comment="name: \"bool\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -122,14 +122,7 @@ Block Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockpo
 /////// define
 Command Block Mode：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.commandblockupdatepacket.command_block_mode.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Normal`|`0`|protocol.enum.normal|
-  |`Repeating`|`1`|protocol.enum.repeating|
-  |`Chain`|`2`|protocol.enum.chain|
-
+- 基本类型。protocol.packet.commandblockupdatepacket.command_block_mode.description
 
 
 ///////

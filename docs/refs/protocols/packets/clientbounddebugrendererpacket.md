@@ -1,6 +1,6 @@
 # <!-- md:samp ClientboundDebugRendererPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ClientboundDebugRendererPacket -->数据包，数字ID是`164`。该数据包用于protocol.packet.clientbounddebugrendererpacket.description
 
@@ -34,8 +34,8 @@ rankdir = LR
 21 -> 22
 
 0 [label="ClientboundDebugRendererPacket",comment="name: \"ClientboundDebugRendererPacket\", typeName: \"\", id: 0, branchId: 164, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Debug Marker Type",comment="name: \"Debug Marker Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ClientboundDebugRendererPacket::Type\""];
-2 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+1 [label="Debug Marker Type",comment="name: \"Debug Marker Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+2 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Dependency on 'Debug Marker Type'",shape=note,comment="name: \"Dependency on 'Debug Marker Type'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 4 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
 5 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -70,16 +70,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Debug Marker Type：<!-- md:samp unsigned varint -->
+Debug Marker Type：<!-- md:samp unsigned int -->
 
-- 基本类型枚举。protocol.packet.clientbounddebugrendererpacket.debug_marker_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`ClearDebugMarkers`|`1`|protocol.enum.cleardebugmarkers|
-  |`AddDebugMarkerCube`|`2`|protocol.enum.adddebugmarkercube|
-
+- 基本类型。protocol.packet.clientbounddebugrendererpacket.debug_marker_type.description
 
 
 ////

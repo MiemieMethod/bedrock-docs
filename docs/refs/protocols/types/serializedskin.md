@@ -1,6 +1,6 @@
 # <!-- md:samp SerializedSkin -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SerializedSkin -->类型。该类型用于protocol.type.serializedskin.description
 
@@ -124,11 +124,11 @@ rankdir = LR
 42 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 43 [label="Image Bytes",comment="name: \"Image Bytes\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 0, notes: \"Serialized into a string\""];
 44 [label="string",comment="name: \"string\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-45 [label="Animation Type",comment="name: \"Animation Type\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: persona::AnimatedTextureType\""];
+45 [label="Animation Type",comment="name: \"Animation Type\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 46 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 47 [label="Frame Count",comment="name: \"Frame Count\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 48 [label="float",comment="name: \"float\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-49 [label="Animation Expression",comment="name: \"Animation Expression\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: persona::AnimationExpression\""];
+49 [label="Animation Expression",comment="name: \"Animation Expression\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 50 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 51 [label="CapeImage Width",comment="name: \"CapeImage Width\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 52 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -288,15 +288,7 @@ Image Bytes：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Animation Type：<!-- md:samp unsigned int -->
 
-- 基本类型枚举。protocol.type.serializedskin.animation_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`Face`|`1`|protocol.enum.face|
-  |`Body32x32`|`2`|protocol.enum.body32x32|
-  |`Body128x128`|`3`|protocol.enum.body128x128|
-
+- 基本类型。protocol.type.serializedskin.animation_type.description
 
 
 //////
@@ -310,13 +302,7 @@ Frame Count：<!-- md:samp float -->
 ////// define
 Animation Expression：<!-- md:samp unsigned int -->
 
-- 基本类型枚举。protocol.type.serializedskin.animation_expression.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Linear`|`0`|protocol.enum.linear|
-  |`Blinking`|`1`|protocol.enum.blinking|
-
+- 基本类型。protocol.type.serializedskin.animation_expression.description
 
 
 //////

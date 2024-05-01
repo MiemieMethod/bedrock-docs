@@ -1,6 +1,6 @@
 # <!-- md:samp GameRulesChangedPacketData -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp GameRulesChangedPacketData -->类型。该类型用于protocol.type.gameruleschangedpacketdata.description
 
@@ -36,7 +36,7 @@ rankdir = LR
 7 [label="string",comment="name: \"string\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 8 [label="Can Be Modified By Player",comment="name: \"Can Be Modified By Player\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 9 [label="bool",comment="name: \"bool\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-10 [label="Rule Type",comment="name: \"Rule Type\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: GameRule::Type\""];
+10 [label="Rule Type",comment="name: \"Rule Type\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 11 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 16 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 17 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];

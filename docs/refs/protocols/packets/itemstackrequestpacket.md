@@ -1,6 +1,6 @@
 # <!-- md:samp ItemStackRequestPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ItemStackRequestPacket -->数据包，数字ID是`147`。该数据包用于protocol.packet.itemstackrequestpacket.description
 
@@ -48,7 +48,7 @@ rankdir = LR
 8 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 9 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 10 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
-11 [label="Action type",comment="name: \"Action type\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ItemStackRequestActionType\""];
+11 [label="Action type",comment="name: \"Action type\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 12 [label="byte",comment="name: \"byte\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 13 [label="Amount",comment="name: \"Amount\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 14 [label="byte",comment="name: \"byte\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -62,7 +62,7 @@ rankdir = LR
 22 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 23 [label="String To Filter",comment="name: \"String To Filter\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"Indivdiual string that needs checking\""];
 24 [label="string",comment="name: \"string\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-25 [label="StringsToFilterOrigin",comment="name: \"StringsToFilterOrigin\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: TextProcessingEventOrigin\""];
+25 [label="StringsToFilterOrigin",comment="name: \"StringsToFilterOrigin\", typeName: \"\", id: 25, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 26 [label="int",comment="name: \"int\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;3;6;9;12;14;16;18;21;24;26}
 
@@ -121,35 +121,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 //////// define
 Action type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.itemstackrequestpacket.action_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Take`|`0`|protocol.enum.take|
-  |`Place`|`1`|protocol.enum.place|
-  |`Swap`|`2`|protocol.enum.swap|
-  |`Drop`|`3`|protocol.enum.drop|
-  |`Destroy`|`4`|protocol.enum.destroy|
-  |`Consume`|`5`|protocol.enum.consume|
-  |`Create`|`6`|protocol.enum.create|
-  |`PlaceInItemContainer`|`7`|protocol.enum.placeinitemcontainer|
-  |`TakeFromItemContainer`|`8`|protocol.enum.takefromitemcontainer|
-  |`ScreenLabTableCombine`|`9`|protocol.enum.screenlabtablecombine|
-  |`ScreenBeaconPayment`|`10`|protocol.enum.screenbeaconpayment|
-  |`ScreenHUDMineBlock`|`11`|protocol.enum.screenhudmineblock|
-  |`CraftRecipe`|`12`|protocol.enum.craftrecipe|
-  |`CraftRecipeAuto`|`13`|protocol.enum.craftrecipeauto|
-  |`CraftCreative`|`14`|protocol.enum.craftcreative|
-  |`CraftRecipeOptional`|`15`|protocol.enum.craftrecipeoptional|
-  |`CraftRepairAndDisenchant`|`16`|protocol.enum.craftrepairanddisenchant|
-  |`CraftLoom`|`17`|protocol.enum.craftloom|
-  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`|protocol.enum.craftnonimplemented_deprecatedasktylaing|
-  |`CraftResults_DEPRECATEDASKTYLAING`|`19`|protocol.enum.craftresults_deprecatedasktylaing|
-  |`ifdef`|`20`|protocol.enum.ifdef|
-  |`TEST_INFRASTRUCTURE_ENABLED`|`21`|protocol.enum.test_infrastructure_enabled|
-  |`Test`|`22`|protocol.enum.test|
-  |`endif`|`23`|protocol.enum.endif|
-
+- 基本类型。protocol.packet.itemstackrequestpacket.action_type.description
 
 
 ////////
@@ -209,28 +181,7 @@ String To Filter：[<!-- md:samp string -->](../types/string.md)
 ////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 基本类型枚举。protocol.packet.itemstackrequestpacket.stringstofilterorigin.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`unknown`|`-1`|protocol.enum.unknown|
-  |`ServerChatPublic`|`0`|protocol.enum.serverchatpublic|
-  |`ServerChatWhisper`|`1`|protocol.enum.serverchatwhisper|
-  |`SignText`|`2`|protocol.enum.signtext|
-  |`AnvilText`|`3`|protocol.enum.anviltext|
-  |`BookAndQuillText`|`4`|protocol.enum.bookandquilltext|
-  |`CommandBlockText`|`5`|protocol.enum.commandblocktext|
-  |`BlockActorDataText`|`6`|protocol.enum.blockactordatatext|
-  |`JoinEventText`|`7`|protocol.enum.joineventtext|
-  |`LeaveEventText`|`8`|protocol.enum.leaveeventtext|
-  |`SlashCommandChat`|`9`|protocol.enum.slashcommandchat|
-  |`CartographyText`|`10`|protocol.enum.cartographytext|
-  |`KickCommand`|`11`|protocol.enum.kickcommand|
-  |`TitleCommand`|`12`|protocol.enum.titlecommand|
-  |`SummonCommand`|`13`|protocol.enum.summoncommand|
-  |`ServerForm`|`14`|protocol.enum.serverform|
-  |`COUNT`|`15`|protocol.enum.count|
-
+- 基本类型。protocol.packet.itemstackrequestpacket.stringstofilterorigin.description
 
 
 //////

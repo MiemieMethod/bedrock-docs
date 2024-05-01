@@ -3882,7 +3882,6 @@ nav:
         - <samp>EmoteListPacket</samp>: refs/protocols/packets/emotelistpacket.md
         - <samp>EmotePacket</samp>: refs/protocols/packets/emotepacket.md
         - <samp>FeatureRegistryPacket</samp>: refs/protocols/packets/featureregistrypacket.md
-        - <samp>FilterTextPacket</samp>: refs/protocols/packets/filtertextpacket.md
         - <samp>GameRulesChangedPacket</samp>: refs/protocols/packets/gameruleschangedpacket.md
         - <samp>GameTestRequestPacket</samp>: refs/protocols/packets/gametestrequestpacket.md
         - <samp>GameTestResultsPacket</samp>: refs/protocols/packets/gametestresultspacket.md

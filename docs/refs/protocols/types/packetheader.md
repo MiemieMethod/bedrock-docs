@@ -1,6 +1,6 @@
 # <!-- md:samp Packet Header -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp Packet Header -->类型。该类型用于protocol.type.packet_header.description
 

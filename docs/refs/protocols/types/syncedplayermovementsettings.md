@@ -1,6 +1,6 @@
 # <!-- md:samp SyncedPlayerMovementSettings -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SyncedPlayerMovementSettings -->类型。该类型用于protocol.type.syncedplayermovementsettings.description
 
@@ -9,22 +9,22 @@
 ```viz
 digraph "SyncedPlayerMovementSettings" {
 rankdir = LR
-147
-147 -> 148
-148 -> 149
-147 -> 150
+149
+149 -> 150
 150 -> 151
-147 -> 152
+149 -> 152
 152 -> 153
+149 -> 154
+154 -> 155
 
-147 [label="SyncedPlayerMovementSettings",comment="name: \"SyncedPlayerMovementSettings\", typeName: \"\", id: 147, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-148 [label="Authority Mode",comment="name: \"Authority Mode\", typeName: \"\", id: 148, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ServerAuthMovementMode\""];
-149 [label="byte",comment="name: \"byte\", typeName: \"\", id: 149, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-150 [label="Rewind History Size",comment="name: \"Rewind History Size\", typeName: \"\", id: 150, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+149 [label="SyncedPlayerMovementSettings",comment="name: \"SyncedPlayerMovementSettings\", typeName: \"\", id: 149, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+150 [label="Authority Mode",comment="name: \"Authority Mode\", typeName: \"\", id: 150, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 151 [label="varint",comment="name: \"varint\", typeName: \"\", id: 151, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-152 [label="Server Authoratative Block Breaking",comment="name: \"Server Authoratative Block Breaking\", typeName: \"\", id: 152, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-153 [label="bool",comment="name: \"bool\", typeName: \"\", id: 153, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;149;151;153}
+152 [label="Rewind History Size",comment="name: \"Rewind History Size\", typeName: \"\", id: 152, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+153 [label="varint",comment="name: \"varint\", typeName: \"\", id: 153, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+154 [label="Server Authoratative Block Breaking",comment="name: \"Server Authoratative Block Breaking\", typeName: \"\", id: 154, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+155 [label="bool",comment="name: \"bool\", typeName: \"\", id: 155, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;151;153;155}
 
 }
 
@@ -38,16 +38,9 @@ rankdir = LR
 
 /// html | div.result
 //// define
-Authority Mode：<!-- md:samp byte -->
+Authority Mode：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.type.syncedplayermovementsettings.authority_mode.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`ClientAuthoritative`|`0`|protocol.enum.clientauthoritative|
-  |`ServerAuthoritative`|`1`|protocol.enum.serverauthoritative|
-  |`ServerAuthoritativeWithRewind`|`2`|protocol.enum.serverauthoritativewithrewind|
-
+- 基本类型。protocol.type.syncedplayermovementsettings.authority_mode.description
 
 
 ////

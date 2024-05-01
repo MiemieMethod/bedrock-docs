@@ -1,6 +1,6 @@
 # <!-- md:samp FeatureRegistryPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp FeatureRegistryPacket -->数据包，数字ID是`191`。该数据包用于protocol.packet.featureregistrypacket.description
 

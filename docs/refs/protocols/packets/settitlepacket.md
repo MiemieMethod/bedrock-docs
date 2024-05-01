@@ -1,6 +1,6 @@
 # <!-- md:samp SetTitlePacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SetTitlePacket -->数据包，数字ID是`88`。该数据包用于protocol.packet.settitlepacket.description
 
@@ -26,7 +26,7 @@ rankdir = LR
 13 -> 14
 
 0 [label="SetTitlePacket",comment="name: \"SetTitlePacket\", typeName: \"\", id: 0, branchId: 88, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Title Type",comment="name: \"Title Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SetTitlePacket::TitleType\""];
+1 [label="Title Type",comment="name: \"Title Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Title Text",comment="name: \"Title Text\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -56,20 +56,7 @@ rankdir = LR
 //// define
 Title Type：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.settitlepacket.title_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Clear`|`0`|protocol.enum.clear|
-  |`Reset`|`1`|protocol.enum.reset|
-  |`Title`|`2`|protocol.enum.title|
-  |`Subtitle`|`3`|protocol.enum.subtitle|
-  |`Actionbar`|`4`|protocol.enum.actionbar|
-  |`Times`|`5`|protocol.enum.times|
-  |`TitleTextObject`|`6`|protocol.enum.titletextobject|
-  |`SubtitleTextObject`|`7`|protocol.enum.subtitletextobject|
-  |`ActionbarTextObject`|`8`|protocol.enum.actionbartextobject|
-
+- 基本类型。protocol.packet.settitlepacket.title_type.description
 
 
 ////

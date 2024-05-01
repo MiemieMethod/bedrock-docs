@@ -1,6 +1,6 @@
 # <!-- md:samp CompoundTag -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CompoundTag -->类型。该类型用于protocol.type.compoundtag.description
 
@@ -79,7 +79,7 @@ rankdir = LR
 73 -> 74
 
 0 [label="CompoundTag",comment="name: \"CompoundTag\", typeName: \"\", id: 0, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Tag Type",comment="name: \"Tag Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Tag::Type\""];
+1 [label="Tag Type",comment="name: \"Tag Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Dependency on 'if 'Tag Type' is 0'",shape=note,comment="name: \"Dependency on 'if 'Tag Type' is 0'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 4 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -119,10 +119,10 @@ rankdir = LR
 38 [label="if (9)",shape=diamond,comment="name: \"if (9)\", typeName: \"\", id: 38, branchId: 9, recurseId: -1, attributes: 4, notes: \"\""];
 39 [label="Dependency on 'if empty list'",shape=note,comment="name: \"Dependency on 'if empty list'\", typeName: \"\", id: 39, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 40 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 40, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
-41 [label="Tag Type for list",comment="name: \"Tag Type for list\", typeName: \"\", id: 41, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Tag::Type\""];
+41 [label="Tag Type for list",comment="name: \"Tag Type for list\", typeName: \"\", id: 41, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 42 [label="byte",comment="name: \"byte\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 43 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 43, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
-44 [label="Tag Type (must be 1)",comment="name: \"Tag Type (must be 1)\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Tag::Type\""];
+44 [label="Tag Type (must be 1)",comment="name: \"Tag Type (must be 1)\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 45 [label="byte",comment="name: \"byte\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 46 [label="Tag Array",comment="name: \"Tag Array\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
 47 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -162,24 +162,7 @@ rankdir = LR
 //// define
 Tag Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.compoundtag.tag_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`End`|`0`|protocol.enum.end|
-  |`Byte`|`1`|protocol.enum.byte|
-  |`Short`|`2`|protocol.enum.short|
-  |`Int`|`3`|protocol.enum.int|
-  |`Int64`|`4`|protocol.enum.int64|
-  |`Float`|`5`|protocol.enum.float|
-  |`Double`|`6`|protocol.enum.double|
-  |`ByteArray`|`7`|protocol.enum.bytearray|
-  |`String`|`8`|protocol.enum.string|
-  |`List`|`9`|protocol.enum.list|
-  |`Compound`|`10`|protocol.enum.compound|
-  |`IntArray`|`11`|protocol.enum.intarray|
-  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
-
+- 基本类型。protocol.type.compoundtag.tag_type.description
 
 
 ////
@@ -393,24 +376,7 @@ Tag Value：[<!-- md:samp string -->](../types/string.md)
 ///////////// define
 Tag Type for list：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.compoundtag.tag_type_for_list.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`End`|`0`|protocol.enum.end|
-  |`Byte`|`1`|protocol.enum.byte|
-  |`Short`|`2`|protocol.enum.short|
-  |`Int`|`3`|protocol.enum.int|
-  |`Int64`|`4`|protocol.enum.int64|
-  |`Float`|`5`|protocol.enum.float|
-  |`Double`|`6`|protocol.enum.double|
-  |`ByteArray`|`7`|protocol.enum.bytearray|
-  |`String`|`8`|protocol.enum.string|
-  |`List`|`9`|protocol.enum.list|
-  |`Compound`|`10`|protocol.enum.compound|
-  |`IntArray`|`11`|protocol.enum.intarray|
-  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
-
+- 基本类型。protocol.type.compoundtag.tag_type_for_list.description
 
 
 /////////////
@@ -428,24 +394,7 @@ Tag Type for list：<!-- md:samp byte -->
 ///////////// define
 Tag Type (must be 1)：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.compoundtag.tag_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`End`|`0`|protocol.enum.end|
-  |`Byte`|`1`|protocol.enum.byte|
-  |`Short`|`2`|protocol.enum.short|
-  |`Int`|`3`|protocol.enum.int|
-  |`Int64`|`4`|protocol.enum.int64|
-  |`Float`|`5`|protocol.enum.float|
-  |`Double`|`6`|protocol.enum.double|
-  |`ByteArray`|`7`|protocol.enum.bytearray|
-  |`String`|`8`|protocol.enum.string|
-  |`List`|`9`|protocol.enum.list|
-  |`Compound`|`10`|protocol.enum.compound|
-  |`IntArray`|`11`|protocol.enum.intarray|
-  |`NumTagTypes`|`12`|protocol.enum.numtagtypes|
-
+- 基本类型。protocol.type.compoundtag.tag_type.description
 
 
 /////////////

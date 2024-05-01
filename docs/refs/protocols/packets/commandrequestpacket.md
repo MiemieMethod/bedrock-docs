@@ -1,6 +1,6 @@
 # <!-- md:samp CommandRequestPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CommandRequestPacket -->数据包，数字ID是`77`。该数据包用于protocol.packet.commandrequestpacket.description
 

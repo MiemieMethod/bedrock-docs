@@ -1,6 +1,6 @@
 # <!-- md:samp MapItemTrackedActor::UniqueId -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp MapItemTrackedActor::UniqueId -->类型。该类型用于protocol.type.mapitemtrackedactor::uniqueid.description
 
@@ -23,7 +23,7 @@ rankdir = LR
 52 -> 53
 
 42 [label="MapItemTrackedActor::UniqueId",comment="name: \"MapItemTrackedActor::UniqueId\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-43 [label="Type",comment="name: \"Type\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: MapItemTrackedActor::Type\""];
+43 [label="Type",comment="name: \"Type\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 44 [label="int",comment="name: \"int\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 45 [label="Dependency on 'Type'",shape=note,comment="name: \"Dependency on 'Type'\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 46 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -50,15 +50,7 @@ rankdir = LR
 //// define
 Type：<!-- md:samp int -->
 
-- 基本类型枚举。protocol.type.mapitemtrackedactor::uniqueid.type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Entity`|`0`|protocol.enum.entity|
-  |`BlockEntity`|`1`|protocol.enum.blockentity|
-  |`Other`|`2`|protocol.enum.other|
-  |`COUNT`|`3`|protocol.enum.count|
-
+- 基本类型。protocol.type.mapitemtrackedactor::uniqueid.type.description
 
 
 ////

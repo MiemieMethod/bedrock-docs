@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerAuthInputPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp PlayerAuthInputPacket -->数据包，数字ID是`144`。该数据包用于protocol.packet.playerauthinputpacket.description
 
@@ -96,12 +96,12 @@ rankdir = LR
 8 [label="float",comment="name: \"float\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 9 [label="Input Data",comment="name: \"Input Data\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 10 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-11 [label="Input Mode",comment="name: \"Input Mode\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InputMode\""];
+11 [label="Input Mode",comment="name: \"Input Mode\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 12 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-13 [label="Play Mode",comment="name: \"Play Mode\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ClientPlayMode\""];
+13 [label="Play Mode",comment="name: \"Play Mode\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 14 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-15 [label="New Interaction Model",comment="name: \"New Interaction Model\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: NewInteractionModel\""];
-16 [label="varint",comment="name: \"varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+15 [label="New Interaction Model",comment="name: \"New Interaction Model\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+16 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 17 [label="Dependency on 'Play Mode == ClientPlayMode::Reality'",shape=note,comment="name: \"Dependency on 'Play Mode == ClientPlayMode::Reality'\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 18 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
 19 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -128,7 +128,7 @@ rankdir = LR
 87 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 87, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 88 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 88, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 89 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 89, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
-90 [label="Action type",comment="name: \"Action type\", typeName: \"\", id: 90, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ItemStackRequestActionType\""];
+90 [label="Action type",comment="name: \"Action type\", typeName: \"\", id: 90, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 91 [label="byte",comment="name: \"byte\", typeName: \"\", id: 91, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 92 [label="Amount",comment="name: \"Amount\", typeName: \"\", id: 92, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 93 [label="byte",comment="name: \"byte\", typeName: \"\", id: 93, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -142,7 +142,7 @@ rankdir = LR
 108 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 108, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 109 [label="String To Filter",comment="name: \"String To Filter\", typeName: \"\", id: 109, branchId: 0, recurseId: -1, attributes: 0, notes: \"Indivdiual string that needs checking\""];
 110 [label="string",comment="name: \"string\", typeName: \"\", id: 110, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-111 [label="StringsToFilterOrigin",comment="name: \"StringsToFilterOrigin\", typeName: \"\", id: 111, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: TextProcessingEventOrigin\""];
+111 [label="StringsToFilterOrigin",comment="name: \"StringsToFilterOrigin\", typeName: \"\", id: 111, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 112 [label="int",comment="name: \"int\", typeName: \"\", id: 112, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 113 [label="Dependency on 'PerformBlockActions bit set'",shape=note,comment="name: \"Dependency on 'PerformBlockActions bit set'\", typeName: \"\", id: 113, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 114 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -211,53 +211,21 @@ Input Data：<!-- md:samp unsigned varint64 -->
 //// define
 Input Mode：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.playerauthinputpacket.input_mode.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Undefined`|`0`|protocol.enum.undefined|
-  |`Mouse`|`1`|protocol.enum.mouse|
-  |`Touch`|`2`|protocol.enum.touch|
-  |`GamePad`|`3`|protocol.enum.gamepad|
-  |`MotionController`|`4`|protocol.enum.motioncontroller|
-  |`Count`|`5`|protocol.enum.count|
-
+- 基本类型。protocol.packet.playerauthinputpacket.input_mode.description
 
 
 ////
 //// define
 Play Mode：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.playerauthinputpacket.play_mode.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Normal`|`0`|protocol.enum.normal|
-  |`Teaser`|`1`|protocol.enum.teaser|
-  |`Screen`|`2`|protocol.enum.screen|
-  |`Viewer`|`3`|protocol.enum.viewer|
-  |`Reality`|`4`|protocol.enum.reality|
-  |`Placement`|`5`|protocol.enum.placement|
-  |`LivingRoom`|`6`|protocol.enum.livingroom|
-  |`ExitLevel`|`7`|protocol.enum.exitlevel|
-  |`ExitLevelLivingRoom`|`8`|protocol.enum.exitlevellivingroom|
-  |`NumModes`|`9`|protocol.enum.nummodes|
-
+- 基本类型。protocol.packet.playerauthinputpacket.play_mode.description
 
 
 ////
 //// define
-New Interaction Model：<!-- md:samp varint -->
+New Interaction Model：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.playerauthinputpacket.new_interaction_model.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Touch`|`0`|protocol.enum.touch|
-  |`Crosshair`|`1`|protocol.enum.crosshair|
-  |`Classic`|`2`|protocol.enum.classic|
-  |`Count`|`3`|protocol.enum.count|
-
+- 基本类型。protocol.packet.playerauthinputpacket.new_interaction_model.description
 
 
 ////
@@ -381,35 +349,7 @@ Client Request Id：[<!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdT
 ///////// define
 Action type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.playerauthinputpacket.action_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Take`|`0`|protocol.enum.take|
-  |`Place`|`1`|protocol.enum.place|
-  |`Swap`|`2`|protocol.enum.swap|
-  |`Drop`|`3`|protocol.enum.drop|
-  |`Destroy`|`4`|protocol.enum.destroy|
-  |`Consume`|`5`|protocol.enum.consume|
-  |`Create`|`6`|protocol.enum.create|
-  |`PlaceInItemContainer`|`7`|protocol.enum.placeinitemcontainer|
-  |`TakeFromItemContainer`|`8`|protocol.enum.takefromitemcontainer|
-  |`ScreenLabTableCombine`|`9`|protocol.enum.screenlabtablecombine|
-  |`ScreenBeaconPayment`|`10`|protocol.enum.screenbeaconpayment|
-  |`ScreenHUDMineBlock`|`11`|protocol.enum.screenhudmineblock|
-  |`CraftRecipe`|`12`|protocol.enum.craftrecipe|
-  |`CraftRecipeAuto`|`13`|protocol.enum.craftrecipeauto|
-  |`CraftCreative`|`14`|protocol.enum.craftcreative|
-  |`CraftRecipeOptional`|`15`|protocol.enum.craftrecipeoptional|
-  |`CraftRepairAndDisenchant`|`16`|protocol.enum.craftrepairanddisenchant|
-  |`CraftLoom`|`17`|protocol.enum.craftloom|
-  |`CraftNonImplemented_DEPRECATEDASKTYLAING`|`18`|protocol.enum.craftnonimplemented_deprecatedasktylaing|
-  |`CraftResults_DEPRECATEDASKTYLAING`|`19`|protocol.enum.craftresults_deprecatedasktylaing|
-  |`ifdef`|`20`|protocol.enum.ifdef|
-  |`TEST_INFRASTRUCTURE_ENABLED`|`21`|protocol.enum.test_infrastructure_enabled|
-  |`Test`|`22`|protocol.enum.test|
-  |`endif`|`23`|protocol.enum.endif|
-
+- 基本类型。protocol.packet.playerauthinputpacket.action_type.description
 
 
 /////////
@@ -469,28 +409,7 @@ String To Filter：[<!-- md:samp string -->](../types/string.md)
 /////// define
 StringsToFilterOrigin：<!-- md:samp int -->
 
-- 基本类型枚举。protocol.packet.playerauthinputpacket.stringstofilterorigin.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`unknown`|`-1`|protocol.enum.unknown|
-  |`ServerChatPublic`|`0`|protocol.enum.serverchatpublic|
-  |`ServerChatWhisper`|`1`|protocol.enum.serverchatwhisper|
-  |`SignText`|`2`|protocol.enum.signtext|
-  |`AnvilText`|`3`|protocol.enum.anviltext|
-  |`BookAndQuillText`|`4`|protocol.enum.bookandquilltext|
-  |`CommandBlockText`|`5`|protocol.enum.commandblocktext|
-  |`BlockActorDataText`|`6`|protocol.enum.blockactordatatext|
-  |`JoinEventText`|`7`|protocol.enum.joineventtext|
-  |`LeaveEventText`|`8`|protocol.enum.leaveeventtext|
-  |`SlashCommandChat`|`9`|protocol.enum.slashcommandchat|
-  |`CartographyText`|`10`|protocol.enum.cartographytext|
-  |`KickCommand`|`11`|protocol.enum.kickcommand|
-  |`TitleCommand`|`12`|protocol.enum.titlecommand|
-  |`SummonCommand`|`13`|protocol.enum.summoncommand|
-  |`ServerForm`|`14`|protocol.enum.serverform|
-  |`COUNT`|`15`|protocol.enum.count|
-
+- 基本类型。protocol.packet.playerauthinputpacket.stringstofilterorigin.description
 
 
 ///////

@@ -1,6 +1,6 @@
 # <!-- md:samp PhotoTransferPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp PhotoTransferPacket -->数据包，数字ID是`99`。该数据包用于protocol.packet.phototransferpacket.description
 
@@ -32,9 +32,9 @@ rankdir = LR
 4 [label="string",comment="name: \"string\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Book ID",comment="name: \"Book ID\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-7 [label="Type",comment="name: \"Type\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PhotoType\""];
+7 [label="Type",comment="name: \"Type\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="byte",comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="Source Type",comment="name: \"Source Type\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PhotoType\""];
+9 [label="Source Type",comment="name: \"Source Type\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 11 [label="Owner ID",comment="name: \"Owner ID\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 12 [label="int64",comment="name: \"int64\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -77,28 +77,14 @@ Book ID：[<!-- md:samp string -->](../types/string.md)
 //// define
 Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.phototransferpacket.type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Portfolio`|`0`|protocol.enum.portfolio|
-  |`PhotoItem`|`1`|protocol.enum.photoitem|
-  |`Book`|`2`|protocol.enum.book|
-
+- 基本类型。protocol.packet.phototransferpacket.type.description
 
 
 ////
 //// define
 Source Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.phototransferpacket.source_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Portfolio`|`0`|protocol.enum.portfolio|
-  |`PhotoItem`|`1`|protocol.enum.photoitem|
-  |`Book`|`2`|protocol.enum.book|
-
+- 基本类型。protocol.packet.phototransferpacket.source_type.description
 
 
 ////

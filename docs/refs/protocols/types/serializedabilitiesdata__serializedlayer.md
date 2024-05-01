@@ -1,6 +1,6 @@
 # <!-- md:samp SerializedAbilitiesData::SerializedLayer -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SerializedAbilitiesData::SerializedLayer -->类型。该类型用于protocol.type.serializedabilitiesdata::serializedlayer.description
 
@@ -22,7 +22,7 @@ rankdir = LR
 101 -> 102
 
 92 [label="SerializedAbilitiesData::SerializedLayer",comment="name: \"SerializedAbilitiesData::SerializedLayer\", typeName: \"\", id: 92, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-93 [label="SerializedLayer",comment="name: \"SerializedLayer\", typeName: \"\", id: 93, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SerializedAbilitiesData::SerializedAbilitiesLayer\""];
+93 [label="SerializedLayer",comment="name: \"SerializedLayer\", typeName: \"\", id: 93, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 94 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 94, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 95 [label="AbilitiesSet",comment="name: \"AbilitiesSet\", typeName: \"\", id: 95, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 96 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 96, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -48,16 +48,7 @@ rankdir = LR
 //// define
 SerializedLayer：<!-- md:samp unsigned short -->
 
-- 基本类型枚举。protocol.type.serializedabilitiesdata::serializedlayer.serializedlayer.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`CustomCache`|`0`|protocol.enum.customcache|
-  |`Base`|`1`|protocol.enum.base|
-  |`Spectator`|`2`|protocol.enum.spectator|
-  |`Commands`|`3`|protocol.enum.commands|
-  |`Editor`|`4`|protocol.enum.editor|
-
+- 基本类型。protocol.type.serializedabilitiesdata::serializedlayer.serializedlayer.description
 
 
 ////

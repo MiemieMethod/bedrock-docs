@@ -1,6 +1,6 @@
 # <!-- md:samp BookEditPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp BookEditPacket -->数据包，数字ID是`97`。该数据包用于protocol.packet.bookeditpacket.description
 
@@ -46,7 +46,7 @@ rankdir = LR
 33 -> 34
 
 0 [label="BookEditPacket",comment="name: \"BookEditPacket\", typeName: \"\", id: 0, branchId: 97, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: BookEditAction\""];
+1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Book Slot",comment="name: \"Book Slot\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -96,16 +96,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.bookeditpacket.action.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`ReplacePage`|`0`|protocol.enum.replacepage|
-  |`AddPage`|`1`|protocol.enum.addpage|
-  |`DeletePage`|`2`|protocol.enum.deletepage|
-  |`SwapPages`|`3`|protocol.enum.swappages|
-  |`Finalize`|`4`|protocol.enum.finalize|
-
+- 基本类型。protocol.packet.bookeditpacket.action.description
 
 
 ////

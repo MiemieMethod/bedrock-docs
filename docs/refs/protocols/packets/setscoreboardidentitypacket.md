@@ -1,6 +1,6 @@
 # <!-- md:samp SetScoreboardIdentityPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SetScoreboardIdentityPacket -->数据包，数字ID是`112`。该数据包用于protocol.packet.setscoreboardidentitypacket.description
 
@@ -26,7 +26,7 @@ rankdir = LR
 13 -> 14
 
 0 [label="SetScoreboardIdentityPacket",comment="name: \"SetScoreboardIdentityPacket\", typeName: \"\", id: 0, branchId: 112, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Scoreboard Identity Packet Type",comment="name: \"Scoreboard Identity Packet Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ScoreboardIdentityPacketType\""];
+1 [label="Scoreboard Identity Packet Type",comment="name: \"Scoreboard Identity Packet Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Identity Info",comment="name: \"Identity Info\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
 4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -56,13 +56,7 @@ rankdir = LR
 //// define
 Scoreboard Identity Packet Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.setscoreboardidentitypacket.scoreboard_identity_packet_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Update`|`0`|protocol.enum.update|
-  |`Remove`|`1`|protocol.enum.remove|
-
+- 基本类型。protocol.packet.setscoreboardidentitypacket.scoreboard_identity_packet_type.description
 
 
 ////

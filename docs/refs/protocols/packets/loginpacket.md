@@ -1,6 +1,6 @@
 # <!-- md:samp LoginPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp LoginPacket -->数据包，数字ID是`1`。该数据包用于protocol.packet.loginpacket.description
 

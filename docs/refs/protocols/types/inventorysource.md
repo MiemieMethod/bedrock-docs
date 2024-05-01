@@ -1,6 +1,6 @@
 # <!-- md:samp InventorySource -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp InventorySource -->类型。该类型用于protocol.type.inventorysource.description
 
@@ -25,16 +25,16 @@ rankdir = LR
 42 -> 43
 
 30 [label="InventorySource",comment="name: \"InventorySource\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-31 [label="Source Type",comment="name: \"Source Type\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventorySourceType\""];
+31 [label="Source Type",comment="name: \"Source Type\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 32 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 33 [label="Dependency on 'Source Type'",shape=note,comment="name: \"Dependency on 'Source Type'\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 34 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
-35 [label="Container ID",comment="name: \"Container ID\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ContainerID\""];
+35 [label="Container ID",comment="name: \"Container ID\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 36 [label="varint",comment="name: \"varint\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 37 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 37, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
 38 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 39 [label="if (2)",shape=diamond,comment="name: \"if (2)\", typeName: \"\", id: 39, branchId: 2, recurseId: -1, attributes: 4, notes: \"\""];
-40 [label="Bit Flags",comment="name: \"Bit Flags\", typeName: \"\", id: 40, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InventorySource::InventorySourceFlags\""];
+40 [label="Bit Flags",comment="name: \"Bit Flags\", typeName: \"\", id: 40, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 41 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 41, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 42 [label="if (3)",shape=diamond,comment="name: \"if (3)\", typeName: \"\", id: 42, branchId: 3, recurseId: -1, attributes: 4, notes: \"\""];
 43 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -54,17 +54,7 @@ rankdir = LR
 //// define
 Source Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.type.inventorysource.source_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`InvalidInventory`|`std::numeric_limits<uint32_t>::max()`|protocol.enum.invalidinventory|
-  |`ContainerInventory`|`0`|protocol.enum.containerinventory|
-  |`GlobalInventory`|`1`|protocol.enum.globalinventory|
-  |`WorldInteraction`|`2`|protocol.enum.worldinteraction|
-  |`CreativeInventory`|`3`|protocol.enum.creativeinventory|
-  |`NonImplementedFeatureTODO`|`99999`|protocol.enum.nonimplementedfeaturetodo|
-
+- 基本类型。protocol.type.inventorysource.source_type.description
 
 
 ////
@@ -79,19 +69,7 @@ Source Type：<!-- md:samp unsigned varint -->
 /////// define
 Container ID：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.type.inventorysource.container_id.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`CONTAINER_ID_NONE`|`-1`|protocol.enum.container_id_none|
-  |`CONTAINER_ID_INVENTORY`|`0`|protocol.enum.container_id_inventory|
-  |`CONTAINER_ID_FIRST`|`1`|protocol.enum.container_id_first|
-  |`CONTAINER_ID_LAST`|`100`|protocol.enum.container_id_last|
-  |`CONTAINER_ID_OFFHAND`|`119`|protocol.enum.container_id_offhand|
-  |`CONTAINER_ID_ARMOR`|`120`|protocol.enum.container_id_armor|
-  |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
-  |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
-
+- 基本类型。protocol.type.inventorysource.container_id.description
 
 
 ///////
@@ -120,13 +98,7 @@ if (1)：<!-- md:samp [No Data] -->
 /////// define
 Bit Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.type.inventorysource.bit_flags.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`NoFlag`|`0`|protocol.enum.noflag|
-  |`WorldInteraction_Random`|`1`|protocol.enum.worldinteraction_random|
-
+- 基本类型。protocol.type.inventorysource.bit_flags.description
 
 
 ///////

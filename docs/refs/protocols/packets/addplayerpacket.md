@@ -1,6 +1,6 @@
 # <!-- md:samp AddPlayerPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp AddPlayerPacket -->数据包，数字ID是`12`。该数据包用于protocol.packet.addplayerpacket.description
 
@@ -71,7 +71,7 @@ rankdir = LR
 16 [label="float",comment="name: \"float\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 17 [label="Carried Item",comment="name: \"Carried Item\", typeName: \"NetworkItemStackDescriptor\", id: 17, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 45 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-46 [label="Player Game Type",comment="name: \"Player Game Type\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: GameType\""];
+46 [label="Player Game Type",comment="name: \"Player Game Type\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 47 [label="varint",comment="name: \"varint\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 48 [label="Dependency on 'SynchedActorDataEntityWrapper exist?'",shape=note,comment="name: \"Dependency on 'SynchedActorDataEntityWrapper exist?'\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 49 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -92,7 +92,7 @@ rankdir = LR
 121 [label="ActorLink",comment="name: \"ActorLink\", typeName: \"\", id: 121, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 122 [label="Device Id",comment="name: \"Device Id\", typeName: \"\", id: 122, branchId: 0, recurseId: -1, attributes: 0, notes: \"A unique device id obtained from the connection request.\""];
 123 [label="string",comment="name: \"string\", typeName: \"\", id: 123, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-124 [label="Build Platform",comment="name: \"Build Platform\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: BuildPlatform\""];
+124 [label="Build Platform",comment="name: \"Build Platform\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 125 [label="int",comment="name: \"int\", typeName: \"\", id: 125, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10;12;14;16;45;47;56;59;78;104;107;121;123;125}
 
@@ -173,18 +173,7 @@ Carried Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkite
 //// define
 Player Game Type：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.addplayerpacket.player_game_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Undefined`|`-1`|protocol.enum.undefined|
-  |`Survival`|`0`|protocol.enum.survival|
-  |`Creative`|`1`|protocol.enum.creative|
-  |`Adventure`|`2`|protocol.enum.adventure|
-  |`Default`|`5`|protocol.enum.default|
-  |`Spectator`|`6`|protocol.enum.spectator|
-  |`WorldDefault`|`Survival`|protocol.enum.worlddefault|
-
+- 基本类型。protocol.packet.addplayerpacket.player_game_type.description
 
 
 ////
@@ -277,26 +266,7 @@ Device Id：[<!-- md:samp string -->](../types/string.md)
 //// define
 Build Platform：<!-- md:samp int -->
 
-- 基本类型枚举。protocol.packet.addplayerpacket.build_platform.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Google`|`1`|protocol.enum.google|
-  |`iOS`|`2`|protocol.enum.ios|
-  |`OSX`|`3`|protocol.enum.osx|
-  |`Amazon`|`4`|protocol.enum.amazon|
-  |`GearVR`|`5`|protocol.enum.gearvr|
-  |`UWP`|`7`|protocol.enum.uwp|
-  |`Win32`|`8`|protocol.enum.win32|
-  |`Dedicated`|`9`|protocol.enum.dedicated|
-  |`tvOS_Deprecated`|`10`|protocol.enum.tvos_deprecated|
-  |`Sony`|`11`|protocol.enum.sony|
-  |`Nx`|`12`|protocol.enum.nx|
-  |`Xbox`|`13`|protocol.enum.xbox|
-  |`WindowsPhone_Deprecated`|`14`|protocol.enum.windowsphone_deprecated|
-  |`Linux`|`15`|protocol.enum.linux|
-  |`Unknown`|`-1`|protocol.enum.unknown|
-
+- 基本类型。protocol.packet.addplayerpacket.build_platform.description
 
 
 ////

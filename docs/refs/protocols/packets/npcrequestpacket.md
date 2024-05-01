@@ -1,6 +1,6 @@
 # <!-- md:samp NpcRequestPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp NpcRequestPacket -->数据包，数字ID是`98`。该数据包用于protocol.packet.npcrequestpacket.description
 
@@ -24,7 +24,7 @@ rankdir = LR
 0 [label="NpcRequestPacket",comment="name: \"NpcRequestPacket\", typeName: \"\", id: 0, branchId: 98, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="NPC Runtime ID",comment="name: \"NPC Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Request Type",comment="name: \"Request Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: NpcRequestPacket::RequestType\""];
+3 [label="Request Type",comment="name: \"Request Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Actions",comment="name: \"Actions\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -55,18 +55,7 @@ NPC Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 //// define
 Request Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.npcrequestpacket.request_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`SetActions`|`0`|protocol.enum.setactions|
-  |`ExecuteAction`|`1`|protocol.enum.executeaction|
-  |`ExecuteClosingCommands`|`2`|protocol.enum.executeclosingcommands|
-  |`SetName`|`3`|protocol.enum.setname|
-  |`SetSkin`|`4`|protocol.enum.setskin|
-  |`SetInteractText`|`5`|protocol.enum.setinteracttext|
-  |`ExecuteOpeningCommands`|`6`|protocol.enum.executeopeningcommands|
-
+- 基本类型。protocol.packet.npcrequestpacket.request_type.description
 
 
 ////

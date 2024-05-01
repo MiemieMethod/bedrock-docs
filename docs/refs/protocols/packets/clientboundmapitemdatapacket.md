@@ -1,6 +1,6 @@
 # <!-- md:samp ClientboundMapItemDataPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ClientboundMapItemDataPacket -->数据包，数字ID是`67`。该数据包用于protocol.packet.clientboundmapitemdatapacket.description
 
@@ -82,7 +82,7 @@ rankdir = LR
 0 [label="ClientboundMapItemDataPacket",comment="name: \"ClientboundMapItemDataPacket\", typeName: \"\", id: 0, branchId: 67, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Map ID",comment="name: \"Map ID\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 2 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Type Flags",comment="name: \"Type Flags\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ClientboundMapItemDataPacket::Type\""];
+3 [label="Type Flags",comment="name: \"Type Flags\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Dimension",comment="name: \"Dimension\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="byte",comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -171,15 +171,7 @@ Map ID：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Type Flags：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.clientboundmapitemdatapacket.type_flags.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`TextureUpdate`|`1 << 1`|protocol.enum.textureupdate|
-  |`DecorationUpdate`|`1 << 2`|protocol.enum.decorationupdate|
-  |`Creation`|`1 << 3`|protocol.enum.creation|
-
+- 基本类型。protocol.packet.clientboundmapitemdatapacket.type_flags.description
 
 
 ////

@@ -1,6 +1,6 @@
 # <!-- md:samp TextPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp TextPacket -->数据包，数字ID是`9`。该数据包用于protocol.packet.textpacket.description
 
@@ -81,7 +81,7 @@ rankdir = LR
 68 -> 69
 
 0 [label="TextPacket",comment="name: \"TextPacket\", typeName: \"\", id: 0, branchId: 9, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Message Type",comment="name: \"Message Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: TextPacketType\""];
+1 [label="Message Type",comment="name: \"Message Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Localize?",comment="name: \"Localize?\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="bool",comment="name: \"bool\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -166,23 +166,7 @@ rankdir = LR
 //// define
 Message Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.textpacket.message_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Raw`|`0`|protocol.enum.raw|
-  |`Chat`|`1`|protocol.enum.chat|
-  |`Translate`|`2`|protocol.enum.translate|
-  |`Popup`|`3`|protocol.enum.popup|
-  |`JukeboxPopup`|`4`|protocol.enum.jukeboxpopup|
-  |`Tip`|`5`|protocol.enum.tip|
-  |`SystemMessage`|`6`|protocol.enum.systemmessage|
-  |`Whisper`|`7`|protocol.enum.whisper|
-  |`Announcement`|`8`|protocol.enum.announcement|
-  |`TextObjectWhisper`|`9`|protocol.enum.textobjectwhisper|
-  |`TextObject`|`10`|protocol.enum.textobject|
-  |`TextObjectAnnouncement`|`11`|protocol.enum.textobjectannouncement|
-
+- 基本类型。protocol.packet.textpacket.message_type.description
 
 
 ////

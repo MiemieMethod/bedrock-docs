@@ -1,6 +1,6 @@
 # <!-- md:samp ResourcePackDataInfoPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ResourcePackDataInfoPacket -->数据包，数字ID是`82`。该数据包用于protocol.packet.resourcepackdatainfopacket.description
 
@@ -38,7 +38,7 @@ rankdir = LR
 10 [label="string",comment="name: \"string\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 11 [label="Is Premium Pack",comment="name: \"Is Premium Pack\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"Do you need an entitlement to use this pack?\""];
 12 [label="bool",comment="name: \"bool\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-13 [label="Pack Type",comment="name: \"Pack Type\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PackType\""];
+13 [label="Pack Type",comment="name: \"Pack Type\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 14 [label="byte",comment="name: \"byte\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10;12;14}
 
@@ -98,21 +98,7 @@ Is Premium Pack：<!-- md:samp bool -->
 //// define
 Pack Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.resourcepackdatainfopacket.pack_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`Addon`|`1`|protocol.enum.addon|
-  |`Cached`|`2`|protocol.enum.cached|
-  |`CopyProtected`|`3`|protocol.enum.copyprotected|
-  |`Behavior`|`4`|protocol.enum.behavior|
-  |`PersonaPiece`|`5`|protocol.enum.personapiece|
-  |`Resources`|`6`|protocol.enum.resources|
-  |`Skins`|`7`|protocol.enum.skins|
-  |`WorldTemplate`|`8`|protocol.enum.worldtemplate|
-  |`Count`|`9`|protocol.enum.count|
-
+- 基本类型。protocol.packet.resourcepackdatainfopacket.pack_type.description
 
 
 ////

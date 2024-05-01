@@ -1,6 +1,6 @@
 # <!-- md:samp AvailableActorIdentifiersPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp AvailableActorIdentifiersPacket -->数据包，数字ID是`119`。该数据包用于protocol.packet.availableactoridentifierspacket.description
 

@@ -1,6 +1,6 @@
 # 原版方块标签
 
-> 文档版本：1.20.72.01
+> 文档版本：1.20.80.05
 
 /// abstract | 描述
 [方块标签]是一种用于标记方块的字符串。它们可以用于选择性地标记方块，以便在别处引用它们。当前页面给出了方块标签的原版使用情况。
@@ -15,7 +15,7 @@
 |`dark_oak`|`dark_oak_log`|
 |`diamond_pick_diggable`|`raw_gold_block`<br/>`obsidian`<br/>`gold_ore`<br/>`coal_ore`<br/>`redstone_ore`<br/>`diamond_ore`<br/>`lit_redstone_ore`<br/>`iron_ore`<br/>`deepslate_gold_ore`<br/>`deepslate_emerald_ore`<br/>`deepslate_redstone_ore`<br/>`deepslate_coal_ore`<br/>`deepslate_iron_ore`<br/>`emerald_ore`<br/>`lit_deepslate_redstone_ore`<br/>`lapis_ore`<br/>`deepslate_diamond_ore`<br/>`raw_iron_block`|
 |`dirt`|`muddy_mangrove_roots`<br/>`mycelium`<br/>`farmland`<br/>`podzol`<br/>`dirt_with_roots`<br/>`dirt`<br/>`grass_block`<br/>`moss_block`<br/>`mud`|
-|`fertilize_area`|`yellow_flower`<br/>`red_flower`<br/>`crimson_nylium`<br/>`grass_block`<br/>`warped_nylium`<br/>`moss_block`|
+|`fertilize_area`|`azure_bluet`<br/>`lily_of_the_valley`<br/>`yellow_flower`<br/>`allium`<br/>`poppy`<br/>`blue_orchid`<br/>`crimson_nylium`<br/>`pink_tulip`<br/>`white_tulip`<br/>`cornflower`<br/>`grass_block`<br/>`warped_nylium`<br/>`moss_block`<br/>`orange_tulip`<br/>`oxeye_daisy`<br/>`red_tulip`|
 |`gold_pick_diggable`|无|
 |`grass`|`dirt`<br/>`grass_block`<br/>`grass_path`|
 |`gravel`|`suspicious_gravel`<br/>`gravel`|
@@ -27,7 +27,7 @@
 |`mob_spawner`|`mob_spawner`|
 |`not_feature_replaceable`|`chiseled_bookshelf`<br/>`mob_spawner`<br/>`end_portal_frame`<br/>`vault`<br/>`bedrock`<br/>`chest`<br/>`trial_spawner`|
 |`oak`|`oak_log`|
-|`plant`|`pitcher_crop`<br/>`sapling`<br/>`pitcher_plant`<br/>`double_plant`|
+|`plant`|`pitcher_crop`<br/>`dark_oak_sapling`<br/>`oak_sapling`<br/>`pitcher_plant`<br/>`spruce_sapling`<br/>`double_plant`<br/>`jungle_sapling`<br/>`acacia_sapling`<br/>`birch_sapling`|
 |`pumpkin`|`pumpkin`<br/>`lit_pumpkin`<br/>`carved_pumpkin`|
 |`rail`|`activator_rail`<br/>`rail`<br/>`detector_rail`<br/>`golden_rail`|
 |`sand`|`suspicious_sand`<br/>`sand`|

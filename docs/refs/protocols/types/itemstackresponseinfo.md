@@ -1,6 +1,6 @@
 # <!-- md:samp ItemStackResponseInfo -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp ItemStackResponseInfo -->类型。该类型用于protocol.type.itemstackresponseinfo.description
 
@@ -26,7 +26,7 @@ rankdir = LR
 44 -> 45
 
 6 [label="ItemStackResponseInfo",comment="name: \"ItemStackResponseInfo\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-7 [label="Result",comment="name: \"Result\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ItemStackNetResult\""];
+7 [label="Result",comment="name: \"Result\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="byte",comment="name: \"byte\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 9 [label="Client Request Id",comment="name: \"Client Request Id\", typeName: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 10 [label="TypedClientNetId<struct ItemStackRequestIdTag,int,0>",comment="name: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -56,79 +56,7 @@ rankdir = LR
 //// define
 Result：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.itemstackresponseinfo.result.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Success`|`0`|protocol.enum.success|
-  |`Error`|`1`|protocol.enum.error|
-  |`InvalidRequestActionType`|`2`|protocol.enum.invalidrequestactiontype|
-  |`ActionRequestNotAllowed`|`3`|protocol.enum.actionrequestnotallowed|
-  |`ScreenHandlerEndRequestFailed`|`4`|protocol.enum.screenhandlerendrequestfailed|
-  |`ItemRequestActionHandlerCommitFailed`|`5`|protocol.enum.itemrequestactionhandlercommitfailed|
-  |`InvalidRequestCraftActionType`|`6`|protocol.enum.invalidrequestcraftactiontype|
-  |`InvalidCraftRequest`|`7`|protocol.enum.invalidcraftrequest|
-  |`InvalidCraftRequestScreen`|`8`|protocol.enum.invalidcraftrequestscreen|
-  |`InvalidCraftResult`|`9`|protocol.enum.invalidcraftresult|
-  |`InvalidCraftResultIndex`|`10`|protocol.enum.invalidcraftresultindex|
-  |`InvalidCraftResultItem`|`11`|protocol.enum.invalidcraftresultitem|
-  |`InvalidItemNetId`|`12`|protocol.enum.invaliditemnetid|
-  |`MissingCreatedOutputContainer`|`13`|protocol.enum.missingcreatedoutputcontainer|
-  |`FailedToSetCreatedItemOutputSlot`|`14`|protocol.enum.failedtosetcreateditemoutputslot|
-  |`RequestAlreadyInProgress`|`15`|protocol.enum.requestalreadyinprogress|
-  |`FailedToInitSparseContainer`|`16`|protocol.enum.failedtoinitsparsecontainer|
-  |`ResultTransferFailed`|`17`|protocol.enum.resulttransferfailed|
-  |`ExpectedItemSlotNotFullyConsumed`|`18`|protocol.enum.expecteditemslotnotfullyconsumed|
-  |`ExpectedAnywhereItemNotFullyConsumed`|`19`|protocol.enum.expectedanywhereitemnotfullyconsumed|
-  |`ItemAlreadyConsumedFromSlot`|`20`|protocol.enum.itemalreadyconsumedfromslot|
-  |`ConsumedTooMuchFromSlot`|`21`|protocol.enum.consumedtoomuchfromslot|
-  |`MismatchSlotExpectedConsumedItem`|`22`|protocol.enum.mismatchslotexpectedconsumeditem|
-  |`MismatchSlotExpectedConsumedItemNetIdVariant`|`23`|protocol.enum.mismatchslotexpectedconsumeditemnetidvariant|
-  |`FailedToMatchExpectedSlotConsumedItem`|`24`|protocol.enum.failedtomatchexpectedslotconsumeditem|
-  |`FailedToMatchExpectedAllowedAnywhereConsumedItem`|`25`|protocol.enum.failedtomatchexpectedallowedanywhereconsumeditem|
-  |`ConsumedItemOutOfAllowedSlotRange`|`26`|protocol.enum.consumeditemoutofallowedslotrange|
-  |`ConsumedItemNotAllowed`|`27`|protocol.enum.consumeditemnotallowed|
-  |`PlayerNotInCreativeMode`|`28`|protocol.enum.playernotincreativemode|
-  |`InvalidExperimentalRecipeRequest`|`29`|protocol.enum.invalidexperimentalreciperequest|
-  |`FailedToCraftCreative`|`30`|protocol.enum.failedtocraftcreative|
-  |`FailedToGetLevelRecipe`|`31`|protocol.enum.failedtogetlevelrecipe|
-  |`FailedToFindRecipeByNetId`|`32`|protocol.enum.failedtofindrecipebynetid|
-  |`MismatchedCraftingSize`|`33`|protocol.enum.mismatchedcraftingsize|
-  |`MissingInputSparseContainer`|`34`|protocol.enum.missinginputsparsecontainer|
-  |`MismatchedRecipeForInputGridItems`|`35`|protocol.enum.mismatchedrecipeforinputgriditems|
-  |`EmptyCraftResults`|`36`|protocol.enum.emptycraftresults|
-  |`FailedToEnchant`|`37`|protocol.enum.failedtoenchant|
-  |`MissingInputItem`|`38`|protocol.enum.missinginputitem|
-  |`InsufficientPlayerLevelToEnchant`|`39`|protocol.enum.insufficientplayerleveltoenchant|
-  |`MissingMaterialItem`|`40`|protocol.enum.missingmaterialitem|
-  |`MissingActor`|`41`|protocol.enum.missingactor|
-  |`UnknownPrimaryEffect`|`42`|protocol.enum.unknownprimaryeffect|
-  |`PrimaryEffectOutOfRange`|`43`|protocol.enum.primaryeffectoutofrange|
-  |`PrimaryEffectUnavailable`|`44`|protocol.enum.primaryeffectunavailable|
-  |`SecondaryEffectOutOfRange`|`45`|protocol.enum.secondaryeffectoutofrange|
-  |`SecondaryEffectUnavailable`|`46`|protocol.enum.secondaryeffectunavailable|
-  |`DstContainerEqualToCreatedOutputContainer`|`47`|protocol.enum.dstcontainerequaltocreatedoutputcontainer|
-  |`DstContainerAndSlotEqualToSrcContainerAndSlot`|`48`|protocol.enum.dstcontainerandslotequaltosrccontainerandslot|
-  |`FailedToValidateSrcSlot`|`49`|protocol.enum.failedtovalidatesrcslot|
-  |`FailedToValidateDstSlot`|`50`|protocol.enum.failedtovalidatedstslot|
-  |`InvalidAdjustedAmount`|`51`|protocol.enum.invalidadjustedamount|
-  |`InvalidItemSetType`|`52`|protocol.enum.invaliditemsettype|
-  |`InvalidTransferAmount`|`53`|protocol.enum.invalidtransferamount|
-  |`CannotSwapItem`|`54`|protocol.enum.cannotswapitem|
-  |`CannotPlaceItem`|`55`|protocol.enum.cannotplaceitem|
-  |`UnhandledItemSetType`|`56`|protocol.enum.unhandleditemsettype|
-  |`InvalidRemovedAmount`|`57`|protocol.enum.invalidremovedamount|
-  |`InvalidRegion`|`58`|protocol.enum.invalidregion|
-  |`CannotDropItem`|`59`|protocol.enum.cannotdropitem|
-  |`CannotDestroyItem`|`60`|protocol.enum.cannotdestroyitem|
-  |`InvalidSourceContainer`|`61`|protocol.enum.invalidsourcecontainer|
-  |`ItemNotConsumed`|`62`|protocol.enum.itemnotconsumed|
-  |`InvalidNumCrafts`|`63`|protocol.enum.invalidnumcrafts|
-  |`InvalidCraftResultStackSize`|`64`|protocol.enum.invalidcraftresultstacksize|
-  |`CannotRemoveItem`|`65`|protocol.enum.cannotremoveitem|
-  |`CannotConsumeItem`|`66`|protocol.enum.cannotconsumeitem|
-  |`ScreenStackError`|`67`|protocol.enum.screenstackerror|
-
+- 基本类型。protocol.type.itemstackresponseinfo.result.description
 
 
 ////

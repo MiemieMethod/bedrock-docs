@@ -1,6 +1,6 @@
 # <!-- md:samp SubChunkPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SubChunkPacket -->数据包，数字ID是`174`。该数据包用于protocol.packet.subchunkpacket.description
 
@@ -568,7 +568,7 @@ rankdir = LR
 17 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 18 [label="SubChunk Pos Offset",comment="name: \"SubChunk Pos Offset\", typeName: \"SubChunkPacket::SubChunkPosOffset\", id: 18, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 26 [label="SubChunkPacket::SubChunkPosOffset",comment="name: \"SubChunkPacket::SubChunkPosOffset\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-27 [label="SubChunk Request Result",comment="name: \"SubChunk Request Result\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SubChunkPacket::SubChunkRequestResult\""];
+27 [label="SubChunk Request Result",comment="name: \"SubChunk Request Result\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 28 [label="byte",comment="name: \"byte\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 29 [label="Dependency on 'Is SubChunk Request Result SuccessAllAir? or Cache Enabled?'",shape=note,comment="name: \"Dependency on 'Is SubChunk Request Result SuccessAllAir? or Cache Enabled?'\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 30 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -576,7 +576,7 @@ rankdir = LR
 32 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 32, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
 33 [label="Serialized Sub Chunk",comment="name: \"Serialized Sub Chunk\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 34 [label="string",comment="name: \"string\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-35 [label="Height Map Data Type",comment="name: \"Height Map Data Type\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SubChunkPacket::HeightMapDataType\""];
+35 [label="Height Map Data Type",comment="name: \"Height Map Data Type\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 36 [label="byte",comment="name: \"byte\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 37 [label="Dependency on 'Height Map Has Data'",shape=note,comment="name: \"Dependency on 'Height Map Has Data'\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 38 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -1161,18 +1161,7 @@ SubChunk Pos Offset：[<!-- md:samp SubChunkPacket::SubChunkPosOffset -->](../ty
 ////// define
 SubChunk Request Result：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.subchunkpacket.subchunk_request_result.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Undefined`|`0`|protocol.enum.undefined|
-  |`Success`|`1`|protocol.enum.success|
-  |`LevelChunkDoesntExist`|`2`|protocol.enum.levelchunkdoesntexist|
-  |`WrongDimension`|`3`|protocol.enum.wrongdimension|
-  |`PlayerDoesntExist`|`4`|protocol.enum.playerdoesntexist|
-  |`IndexOutOfBounds`|`5`|protocol.enum.indexoutofbounds|
-  |`SuccessAllAir`|`6`|protocol.enum.successallair|
-
+- 基本类型。protocol.packet.subchunkpacket.subchunk_request_result.description
 
 
 //////
@@ -1209,15 +1198,7 @@ Serialized Sub Chunk：[<!-- md:samp string -->](../types/string.md)
 ////// define
 Height Map Data Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.subchunkpacket.height_map_data_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`NoData`|`0`|protocol.enum.nodata|
-  |`HasData`|`1`|protocol.enum.hasdata|
-  |`AllTooHigh`|`2`|protocol.enum.alltoohigh|
-  |`AllTooLow`|`3`|protocol.enum.alltoolow|
-
+- 基本类型。protocol.packet.subchunkpacket.height_map_data_type.description
 
 
 //////

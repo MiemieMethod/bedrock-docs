@@ -1,6 +1,6 @@
 # <!-- md:samp InventoryTransactionPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp InventoryTransactionPacket -->数据包，数字ID是`30`。该数据包用于protocol.packet.inventorytransactionpacket.description
 
@@ -52,7 +52,7 @@ rankdir = LR
 16 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 17 [label="Slot",comment="name: \"Slot\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 18 [label="byte",comment="name: \"byte\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-19 [label="Transaction Type",comment="name: \"Transaction Type\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ComplexInventoryTransaction::Type\""];
+19 [label="Transaction Type",comment="name: \"Transaction Type\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 20 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 21 [label="mTransaction->mTransaction",comment="name: \"mTransaction->mTransaction\", typeName: \"InventoryTransaction\", id: 21, branchId: 0, recurseId: -1, attributes: 256, notes: \"Our ComplexInventoryTransaction contains an InventoryTransaction within it\""];
 52 [label="InventoryTransaction",comment="name: \"InventoryTransaction\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -158,16 +158,7 @@ Slot：<!-- md:samp byte -->
 //// define
 Transaction Type：<!-- md:samp unsigned varint -->
 
-- 基本类型枚举。protocol.packet.inventorytransactionpacket.transaction_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`NormalTransaction`|`0`|protocol.enum.normaltransaction|
-  |`InventoryMismatch`|`1`|protocol.enum.inventorymismatch|
-  |`ItemUseTransaction`|`2`|protocol.enum.itemusetransaction|
-  |`ItemUseOnEntityTransaction`|`3`|protocol.enum.itemuseonentitytransaction|
-  |`ItemReleaseTransaction`|`4`|protocol.enum.itemreleasetransaction|
-
+- 基本类型。protocol.packet.inventorytransactionpacket.transaction_type.description
 
 
 ////

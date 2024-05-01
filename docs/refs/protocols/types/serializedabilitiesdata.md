@@ -1,6 +1,6 @@
 # <!-- md:samp SerializedAbilitiesData -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SerializedAbilitiesData -->类型。该类型用于protocol.type.serializedabilitiesdata.description
 
@@ -26,9 +26,9 @@ rankdir = LR
 80 [label="SerializedAbilitiesData",comment="name: \"SerializedAbilitiesData\", typeName: \"\", id: 80, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 81 [label="TargetPlayer.rawID",comment="name: \"TargetPlayer.rawID\", typeName: \"\", id: 81, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 82 [label="int64",comment="name: \"int64\", typeName: \"\", id: 82, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-83 [label="mPlayerPermissions",comment="name: \"mPlayerPermissions\", typeName: \"\", id: 83, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PlayerPermissionLevel\""];
+83 [label="mPlayerPermissions",comment="name: \"mPlayerPermissions\", typeName: \"\", id: 83, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 84 [label="byte",comment="name: \"byte\", typeName: \"\", id: 84, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-85 [label="mCommandPermissions",comment="name: \"mCommandPermissions\", typeName: \"\", id: 85, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CommandPermissionLevel\""];
+85 [label="mCommandPermissions",comment="name: \"mCommandPermissions\", typeName: \"\", id: 85, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 86 [label="byte",comment="name: \"byte\", typeName: \"\", id: 86, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 87 [label="Layers",comment="name: \"Layers\", typeName: \"\", id: 87, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
 88 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 88, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -59,32 +59,14 @@ TargetPlayer.rawID：<!-- md:samp int64 -->
 //// define
 mPlayerPermissions：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.serializedabilitiesdata.mplayerpermissions.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Visitor`|`0`|protocol.enum.visitor|
-  |`Member`|`1`|protocol.enum.member|
-  |`Operator`|`2`|protocol.enum.operator|
-  |`Custom`|`3`|protocol.enum.custom|
-
+- 基本类型。protocol.type.serializedabilitiesdata.mplayerpermissions.description
 
 
 ////
 //// define
 mCommandPermissions：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.serializedabilitiesdata.mcommandpermissions.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Any`|`0`|protocol.enum.any|
-  |`GameDirectors`|`1`|protocol.enum.gamedirectors|
-  |`Admin`|`2`|protocol.enum.admin|
-  |`Host`|`3`|protocol.enum.host|
-  |`Owner`|`4`|protocol.enum.owner|
-  |`Internal`|`5`|protocol.enum.internal|
-
+- 基本类型。protocol.type.serializedabilitiesdata.mcommandpermissions.description
 
 
 ////

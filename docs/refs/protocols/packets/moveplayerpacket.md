@@ -1,6 +1,6 @@
 # <!-- md:samp MovePlayerPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp MovePlayerPacket -->数据包，数字ID是`19`。该数据包用于protocol.packet.moveplayerpacket.description
 
@@ -44,7 +44,7 @@ rankdir = LR
 6 [label="Vec2",comment="name: \"Vec2\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 7 [label="Y-Head Rotation",comment="name: \"Y-Head Rotation\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="float",comment="name: \"float\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="Position Mode",comment="name: \"Position Mode\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PlayerPositionModeComponent::PositionMode\""];
+9 [label="Position Mode",comment="name: \"Position Mode\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 11 [label="On Ground",comment="name: \"On Ground\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 12 [label="bool",comment="name: \"bool\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -104,15 +104,7 @@ Y-Head Rotation：<!-- md:samp float -->
 //// define
 Position Mode：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.moveplayerpacket.position_mode.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Normal`|`0`|protocol.enum.normal|
-  |`Respawn`|`1`|protocol.enum.respawn|
-  |`Teleport`|`2`|protocol.enum.teleport|
-  |`OnlyHeadRot`|`3`|protocol.enum.onlyheadrot|
-
+- 基本类型。protocol.packet.moveplayerpacket.position_mode.description
 
 
 ////

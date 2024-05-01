@@ -1,6 +1,6 @@
 # <!-- md:samp SetDisplayObjectivePacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp SetDisplayObjectivePacket -->数据包，数字ID是`107`。该数据包用于protocol.packet.setdisplayobjectivepacket.description
 
@@ -30,8 +30,8 @@ rankdir = LR
 6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 7 [label="Criteria Name",comment="name: \"Criteria Name\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="Sort Order",comment="name: \"Sort Order\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ObjectiveSortOrder\""];
-10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Sort Order",comment="name: \"Sort Order\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="varint",comment="name: \"varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10}
 
 }
@@ -74,15 +74,9 @@ Criteria Name：[<!-- md:samp string -->](../types/string.md)
 
 ////
 //// define
-Sort Order：<!-- md:samp byte -->
+Sort Order：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.setdisplayobjectivepacket.sort_order.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Ascending`|`0`|protocol.enum.ascending|
-  |`Descending`|`1`|protocol.enum.descending|
-
+- 基本类型。protocol.packet.setdisplayobjectivepacket.sort_order.description
 
 
 ////

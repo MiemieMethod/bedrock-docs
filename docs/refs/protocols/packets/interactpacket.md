@@ -1,6 +1,6 @@
 # <!-- md:samp InteractPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp InteractPacket -->数据包，数字ID是`33`。该数据包用于protocol.packet.interactpacket.description
 
@@ -26,7 +26,7 @@ rankdir = LR
 13 -> 14
 
 0 [label="InteractPacket",comment="name: \"InteractPacket\", typeName: \"\", id: 0, branchId: 33, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: InteractPacket::Action\""];
+1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Target Runtime ID",comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 4 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -56,16 +56,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.interactpacket.action.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Invalid`|`0`|protocol.enum.invalid|
-  |`StopRiding`|`3`|protocol.enum.stopriding|
-  |`InteractUpdate`|`4`|protocol.enum.interactupdate|
-  |`NpcOpen`|`5`|protocol.enum.npcopen|
-  |`OpenInventory`|`6`|protocol.enum.openinventory|
-
+- 基本类型。protocol.packet.interactpacket.action.description
 
 
 ////

@@ -1,6 +1,6 @@
 # <!-- md:samp GameTestRequestPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp GameTestRequestPacket -->数据包，数字ID是`194`。该数据包用于protocol.packet.gametestrequestpacket.description
 
@@ -30,7 +30,7 @@ rankdir = LR
 2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="RepeatCount",comment="name: \"RepeatCount\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="varint",comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-5 [label="Rotation",comment="name: \"Rotation\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Rotation\""];
+5 [label="Rotation",comment="name: \"Rotation\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="byte",comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 7 [label="StopOnFailure",comment="name: \"StopOnFailure\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="bool",comment="name: \"bool\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -70,16 +70,7 @@ RepeatCount：<!-- md:samp varint -->
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.gametestrequestpacket.rotation.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`Rotate90`|`1`|protocol.enum.rotate90|
-  |`Rotate180`|`2`|protocol.enum.rotate180|
-  |`Rotate270`|`3`|protocol.enum.rotate270|
-  |`Total`|`4`|protocol.enum.total|
-
+- 基本类型。protocol.packet.gametestrequestpacket.rotation.description
 
 
 ////

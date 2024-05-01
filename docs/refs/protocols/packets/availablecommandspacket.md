@@ -1,6 +1,6 @@
 # <!-- md:samp AvailableCommandsPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp AvailableCommandsPacket -->数据包，数字ID是`76`。该数据包用于protocol.packet.availablecommandspacket.description
 
@@ -194,7 +194,7 @@ rankdir = LR
 62 [label="string",comment="name: \"string\", typeName: \"\", id: 62, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 63 [label="Flags",comment="name: \"Flags\", typeName: \"\", id: 63, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 64 [label="unsigned short",comment="name: \"unsigned short\", typeName: \"\", id: 64, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-65 [label="Permission Level",comment="name: \"Permission Level\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CommandPermissionLevel\""];
+65 [label="Permission Level",comment="name: \"Permission Level\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 66 [label="byte",comment="name: \"byte\", typeName: \"\", id: 66, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 67 [label="Alias Enum",comment="name: \"Alias Enum\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 68 [label="int",comment="name: \"int\", typeName: \"\", id: 68, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -565,17 +565,7 @@ Flags：<!-- md:samp unsigned short -->
 ////// define
 Permission Level：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.availablecommandspacket.permission_level.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Any`|`0`|protocol.enum.any|
-  |`GameDirectors`|`1`|protocol.enum.gamedirectors|
-  |`Admin`|`2`|protocol.enum.admin|
-  |`Host`|`3`|protocol.enum.host|
-  |`Owner`|`4`|protocol.enum.owner|
-  |`Internal`|`5`|protocol.enum.internal|
-
+- 基本类型。protocol.packet.availablecommandspacket.permission_level.description
 
 
 //////

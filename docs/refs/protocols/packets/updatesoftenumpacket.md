@@ -1,6 +1,6 @@
 # <!-- md:samp UpdateSoftEnumPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp UpdateSoftEnumPacket -->数据包，数字ID是`114`。该数据包用于protocol.packet.updatesoftenumpacket.description
 
@@ -30,8 +30,8 @@ rankdir = LR
 6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 7 [label="Enum Value",comment="name: \"Enum Value\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="Update Type",comment="name: \"Update Type\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: SoftEnumUpdateType\""];
-10 [label="unsigned int",comment="name: \"unsigned int\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+9 [label="Update Type",comment="name: \"Update Type\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="byte",comment="name: \"byte\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;5;8;10}
 
 }
@@ -81,16 +81,9 @@ Enum Value：[<!-- md:samp string -->](../types/string.md)
 
 ////
 //// define
-Update Type：<!-- md:samp unsigned int -->
+Update Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.updatesoftenumpacket.update_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Add`|`0`|protocol.enum.add|
-  |`Remove`|`1`|protocol.enum.remove|
-  |`Replace`|`2`|protocol.enum.replace|
-
+- 基本类型。protocol.packet.updatesoftenumpacket.update_type.description
 
 
 ////

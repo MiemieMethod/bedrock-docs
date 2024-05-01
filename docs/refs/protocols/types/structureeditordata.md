@@ -1,6 +1,6 @@
 # <!-- md:samp StructureEditorData -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp StructureEditorData -->类型。该类型用于protocol.type.structureeditordata.description
 
@@ -34,11 +34,11 @@ rankdir = LR
 10 [label="bool",comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 11 [label="Should show bounding box?",comment="name: \"Should show bounding box?\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 12 [label="bool",comment="name: \"bool\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-13 [label="Structure Block Type",comment="name: \"Structure Block Type\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureBlockType\""];
+13 [label="Structure Block Type",comment="name: \"Structure Block Type\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 14 [label="varint",comment="name: \"varint\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 15 [label="Structure Settings",comment="name: \"Structure Settings\", typeName: \"StructureSettings\", id: 15, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 45 [label="StructureSettings",comment="name: \"StructureSettings\", typeName: \"\", id: 45, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-46 [label="Redstone Save Mode",comment="name: \"Redstone Save Mode\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: StructureRedstoneSaveMode\""];
+46 [label="Redstone Save Mode",comment="name: \"Redstone Save Mode\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 47 [label="varint",comment="name: \"varint\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;6;8;10;12;14;45;47}
 
@@ -84,18 +84,7 @@ Should show bounding box?：<!-- md:samp bool -->
 //// define
 Structure Block Type：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.type.structureeditordata.structure_block_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Data`|`0`|protocol.enum.data|
-  |`Save`|`1`|protocol.enum.save|
-  |`Load`|`2`|protocol.enum.load|
-  |`Corner`|`3`|protocol.enum.corner|
-  |`Invalid`|`4`|protocol.enum.invalid|
-  |`Export`|`5`|protocol.enum.export|
-  |`_count`|`6`|protocol.enum._count|
-
+- 基本类型。protocol.type.structureeditordata.structure_block_type.description
 
 
 ////
@@ -109,13 +98,7 @@ Structure Settings：[<!-- md:samp StructureSettings -->](../types/structuresett
 //// define
 Redstone Save Mode：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.type.structureeditordata.redstone_save_mode.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`SavesToMemory`|`0`|protocol.enum.savestomemory|
-  |`SavesToDisk`|`1`|protocol.enum.savestodisk|
-
+- 基本类型。protocol.type.structureeditordata.redstone_save_mode.description
 
 
 ////

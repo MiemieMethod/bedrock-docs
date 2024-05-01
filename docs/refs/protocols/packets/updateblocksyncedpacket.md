@@ -1,6 +1,6 @@
 # <!-- md:samp UpdateBlockSyncedPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp UpdateBlockSyncedPacket -->数据包，数字ID是`110`。该数据包用于protocol.packet.updateblocksyncedpacket.description
 
@@ -33,9 +33,9 @@ rankdir = LR
 7 [label="Layer",comment="name: \"Layer\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 9 [label="Unique Actor Id",comment="name: \"Unique Actor Id\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"Id for the Moving Block Actor\""];
-10 [label="varint64",comment="name: \"varint64\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-11 [label="Actor Sync Message",comment="name: \"Actor Sync Message\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: ActorBlockSyncMessage::MessageId\""];
-12 [label="varint64",comment="name: \"varint64\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+10 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="Actor Sync Message",comment="name: \"Actor Sync Message\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10;12}
 
 }
@@ -78,23 +78,16 @@ Layer：<!-- md:samp unsigned varint -->
 
 ////
 //// define
-Unique Actor Id：<!-- md:samp varint64 -->
+Unique Actor Id：<!-- md:samp unsigned varint64 -->
 
 - 基本类型。protocol.packet.updateblocksyncedpacket.unique_actor_id.descriptionId for the Moving Block Actor
 
 
 ////
 //// define
-Actor Sync Message：<!-- md:samp varint64 -->
+Actor Sync Message：<!-- md:samp unsigned varint64 -->
 
-- 基本类型枚举。protocol.packet.updateblocksyncedpacket.actor_sync_message.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`NONE`|`0`|无|
-  |`CREATE`|`1`|protocol.enum.create|
-  |`DESTROY`|`2`|protocol.enum.destroy|
-
+- 基本类型。protocol.packet.updateblocksyncedpacket.actor_sync_message.description
 
 
 ////

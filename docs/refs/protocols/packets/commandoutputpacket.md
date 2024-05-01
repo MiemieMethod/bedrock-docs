@@ -1,6 +1,6 @@
 # <!-- md:samp CommandOutputPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CommandOutputPacket -->数据包，数字ID是`79`。该数据包用于protocol.packet.commandoutputpacket.description
 
@@ -40,7 +40,7 @@ rankdir = LR
 0 [label="CommandOutputPacket",comment="name: \"CommandOutputPacket\", typeName: \"\", id: 0, branchId: 79, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Origin Data",comment="name: \"Origin Data\", typeName: \"CommandOriginData\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 2 [label="CommandOriginData",comment="name: \"CommandOriginData\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Output Type",comment="name: \"Output Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CommandOutputType\""];
+3 [label="Output Type",comment="name: \"Output Type\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Success Count",comment="name: \"Success Count\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -87,16 +87,7 @@ Origin Data：[<!-- md:samp CommandOriginData -->](../types/commandorigindata.md
 //// define
 Output Type：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.commandoutputpacket.output_type.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`LastOutput`|`1`|protocol.enum.lastoutput|
-  |`Silent`|`2`|protocol.enum.silent|
-  |`AllOutput`|`3`|protocol.enum.alloutput|
-  |`DataSet`|`4`|protocol.enum.dataset|
-
+- 基本类型。protocol.packet.commandoutputpacket.output_type.description
 
 
 ////

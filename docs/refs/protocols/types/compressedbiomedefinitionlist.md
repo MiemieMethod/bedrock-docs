@@ -1,6 +1,6 @@
 # <!-- md:samp CompressedBiomeDefinitionList -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CompressedBiomeDefinitionList -->类型，数字ID是`301`。该类型用于protocol.packet.compressedbiomedefinitionlist.description
 

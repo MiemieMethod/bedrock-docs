@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerListPacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp PlayerListPacket -->数据包，数字ID是`63`。该数据包用于protocol.packet.playerlistpacket.description
 
@@ -49,7 +49,7 @@ rankdir = LR
 127 -> 128
 
 0 [label="PlayerListPacket",comment="name: \"PlayerListPacket\", typeName: \"\", id: 0, branchId: 63, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: PlayerListPacketType\""];
+1 [label="Action",comment="name: \"Action\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Dependency on 'Action'",shape=note,comment="name: \"Dependency on 'Action'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 4 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
@@ -67,7 +67,7 @@ rankdir = LR
 16 [label="string",comment="name: \"string\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 17 [label="Platform Chat Id",comment="name: \"Platform Chat Id\", typeName: \"\", id: 17, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 18 [label="string",comment="name: \"string\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-19 [label="Build Platform",comment="name: \"Build Platform\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: BuildPlatform\""];
+19 [label="Build Platform",comment="name: \"Build Platform\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 20 [label="int",comment="name: \"int\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 21 [label="Serialized Skin",comment="name: \"Serialized Skin\", typeName: \"SerializedSkin\", id: 21, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 113 [label="SerializedSkin",comment="name: \"SerializedSkin\", typeName: \"\", id: 113, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -102,13 +102,7 @@ rankdir = LR
 //// define
 Action：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.playerlistpacket.action.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Add`|`0`|protocol.enum.add|
-  |`Remove`|`1`|protocol.enum.remove|
-
+- 基本类型。protocol.packet.playerlistpacket.action.description
 
 
 ////
@@ -175,26 +169,7 @@ Platform Chat Id：[<!-- md:samp string -->](../types/string.md)
 ///////// define
 Build Platform：<!-- md:samp int -->
 
-- 基本类型枚举。protocol.packet.playerlistpacket.build_platform.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`Google`|`1`|protocol.enum.google|
-  |`iOS`|`2`|protocol.enum.ios|
-  |`OSX`|`3`|protocol.enum.osx|
-  |`Amazon`|`4`|protocol.enum.amazon|
-  |`GearVR`|`5`|protocol.enum.gearvr|
-  |`UWP`|`7`|protocol.enum.uwp|
-  |`Win32`|`8`|protocol.enum.win32|
-  |`Dedicated`|`9`|protocol.enum.dedicated|
-  |`tvOS_Deprecated`|`10`|protocol.enum.tvos_deprecated|
-  |`Sony`|`11`|protocol.enum.sony|
-  |`Nx`|`12`|protocol.enum.nx|
-  |`Xbox`|`13`|protocol.enum.xbox|
-  |`WindowsPhone_Deprecated`|`14`|protocol.enum.windowsphone_deprecated|
-  |`Linux`|`15`|protocol.enum.linux|
-  |`Unknown`|`-1`|protocol.enum.unknown|
-
+- 基本类型。protocol.packet.playerlistpacket.build_platform.description
 
 
 /////////

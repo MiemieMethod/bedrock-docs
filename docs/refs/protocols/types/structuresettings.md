@@ -1,6 +1,6 @@
 # <!-- md:samp StructureSettings -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp StructureSettings -->类型。该类型用于protocol.type.structuresettings.description
 
@@ -54,11 +54,11 @@ rankdir = LR
 28 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 29 [label="Last Edit Player",comment="name: \"Last Edit Player\", typeName: \"ActorUniqueID\", id: 29, branchId: 0, recurseId: -1, attributes: 256, notes: \"Player who last edited the structure block.\""];
 30 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-31 [label="Rotation",comment="name: \"Rotation\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Rotation\""];
+31 [label="Rotation",comment="name: \"Rotation\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 32 [label="byte",comment="name: \"byte\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-33 [label="Mirror",comment="name: \"Mirror\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: Mirror\""];
+33 [label="Mirror",comment="name: \"Mirror\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 34 [label="byte",comment="name: \"byte\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-35 [label="Animation Mode",comment="name: \"Animation Mode\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: AnimationMode\""];
+35 [label="Animation Mode",comment="name: \"Animation Mode\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 36 [label="byte",comment="name: \"byte\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 37 [label="Animation Seconds",comment="name: \"Animation Seconds\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 38 [label="float",comment="name: \"float\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -133,45 +133,21 @@ Last Edit Player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 //// define
 Rotation：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.structuresettings.rotation.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`Rotate90`|`1`|protocol.enum.rotate90|
-  |`Rotate180`|`2`|protocol.enum.rotate180|
-  |`Rotate270`|`3`|protocol.enum.rotate270|
-  |`Total`|`4`|protocol.enum.total|
-
+- 基本类型。protocol.type.structuresettings.rotation.description
 
 
 ////
 //// define
 Mirror：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.structuresettings.mirror.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`X`|`1`|protocol.enum.x|
-  |`Z`|`2`|protocol.enum.z|
-  |`XZ`|`3`|protocol.enum.xz|
-
+- 基本类型。protocol.type.structuresettings.mirror.description
 
 
 ////
 //// define
 Animation Mode：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.type.structuresettings.animation_mode.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`Layers`|`1`|protocol.enum.layers|
-  |`Blocks`|`2`|protocol.enum.blocks|
-
+- 基本类型。protocol.type.structuresettings.animation_mode.description
 
 
 ////

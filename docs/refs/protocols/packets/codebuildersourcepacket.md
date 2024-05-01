@@ -1,6 +1,6 @@
 # <!-- md:samp CodeBuilderSourcePacket -->
 
-> 文档版本：r/20_u7<br/>协议版本：662
+> 文档版本：r/20_u8<br/>协议版本：671
 
 <!-- md:samp CodeBuilderSourcePacket -->数据包，数字ID是`178`。该数据包用于protocol.packet.codebuildersourcepacket.description
 
@@ -18,9 +18,9 @@ rankdir = LR
 5 -> 6
 
 0 [label="CodeBuilderSourcePacket",comment="name: \"CodeBuilderSourcePacket\", typeName: \"\", id: 0, branchId: 178, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Operation",comment="name: \"Operation\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CodeBuilderStorageQueryOptions::Operation\""];
+1 [label="Operation",comment="name: \"Operation\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Category",comment="name: \"Category\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"enumeration: CodeBuilderStorageQueryOptions::Category\""];
+3 [label="Category",comment="name: \"Category\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Value",comment="name: \"Value\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -40,29 +40,14 @@ rankdir = LR
 //// define
 Operation：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.codebuildersourcepacket.operation.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`Get`|`1`|protocol.enum.get|
-  |`Set`|`2`|protocol.enum.set|
-  |`Reset`|`3`|protocol.enum.reset|
-
+- 基本类型。protocol.packet.codebuildersourcepacket.operation.description
 
 
 ////
 //// define
 Category：<!-- md:samp byte -->
 
-- 基本类型枚举。protocol.packet.codebuildersourcepacket.category.description枚举值如下：
-
-  |键|值|描述|
-  |---|---|---|
-  |`None`|`0`|无|
-  |`CodeStatus`|`1`|protocol.enum.codestatus|
-  |`Instantiation`|`2`|protocol.enum.instantiation|
-
+- 基本类型。protocol.packet.codebuildersourcepacket.category.description
 
 
 ////
