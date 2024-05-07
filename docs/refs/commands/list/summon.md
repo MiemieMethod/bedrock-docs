@@ -1,6 +1,6 @@
 # `/summon`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/summon`命令command.summon.description
 

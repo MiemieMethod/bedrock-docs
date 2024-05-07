@@ -1,6 +1,6 @@
 # `/replaceitem`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/replaceitem`命令command.replaceitem.description
 
@@ -223,6 +223,8 @@ command.replaceitem.1.description
   |`mangrove_log`|command.enum.item.mangrove_log|
   |`minecraft:oxidized_cut_copper_stairs`|command.enum.item.minecraft:oxidized_cut_copper_stairs|
   |`oxidized_cut_copper_stairs`|command.enum.item.oxidized_cut_copper_stairs|
+  |`minecraft:sandstone_slab`|command.enum.item.minecraft:sandstone_slab|
+  |`sandstone_slab`|command.enum.item.sandstone_slab|
   |`minecraft:raw_gold_block`|command.enum.item.minecraft:raw_gold_block|
   |`raw_gold_block`|command.enum.item.raw_gold_block|
   |`minecraft:allium`|command.enum.item.minecraft:allium|
@@ -575,6 +577,8 @@ command.replaceitem.1.description
   |`red_glazed_terracotta`|command.enum.item.red_glazed_terracotta|
   |`minecraft:dark_oak_fence_gate`|command.enum.item.minecraft:dark_oak_fence_gate|
   |`dark_oak_fence_gate`|command.enum.item.dark_oak_fence_gate|
+  |`minecraft:cobblestone_slab`|command.enum.item.minecraft:cobblestone_slab|
+  |`cobblestone_slab`|command.enum.item.cobblestone_slab|
   |`minecraft:crimson_nylium`|command.enum.item.minecraft:crimson_nylium|
   |`crimson_nylium`|command.enum.item.crimson_nylium|
   |`minecraft:structure_void`|command.enum.item.minecraft:structure_void|
@@ -607,8 +611,6 @@ command.replaceitem.1.description
   |`frame`|command.enum.item.frame|
   |`minecraft:spruce_log`|command.enum.item.minecraft:spruce_log|
   |`spruce_log`|command.enum.item.spruce_log|
-  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
-  |`stone_block_slab`|command.enum.item.stone_block_slab|
   |`minecraft:lapis_block`|command.enum.item.minecraft:lapis_block|
   |`lapis_block`|command.enum.item.lapis_block|
   |`minecraft:coal_ore`|command.enum.item.minecraft:coal_ore|
@@ -749,6 +751,8 @@ command.replaceitem.1.description
   |`cherry_button`|command.enum.item.cherry_button|
   |`minecraft:mangrove_fence_gate`|command.enum.item.minecraft:mangrove_fence_gate|
   |`mangrove_fence_gate`|command.enum.item.mangrove_fence_gate|
+  |`minecraft:sunflower`|command.enum.item.minecraft:sunflower|
+  |`sunflower`|command.enum.item.sunflower|
   |`minecraft:pink_petals`|command.enum.item.minecraft:pink_petals|
   |`pink_petals`|command.enum.item.pink_petals|
   |`minecraft:bamboo_hanging_sign`|command.enum.item.minecraft:bamboo_hanging_sign|
@@ -903,8 +907,6 @@ command.replaceitem.1.description
   |`composter`|command.enum.item.composter|
   |`minecraft:kelp`|command.enum.item.minecraft:kelp|
   |`kelp`|command.enum.item.kelp|
-  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
-  |`double_plant`|command.enum.item.double_plant|
   |`minecraft:waxed_exposed_copper_door`|command.enum.item.minecraft:waxed_exposed_copper_door|
   |`waxed_exposed_copper_door`|command.enum.item.waxed_exposed_copper_door|
   |`minecraft:deepslate_bricks`|command.enum.item.minecraft:deepslate_bricks|
@@ -913,6 +915,8 @@ command.replaceitem.1.description
   |`blue_glazed_terracotta`|command.enum.item.blue_glazed_terracotta|
   |`minecraft:light_blue_glazed_terracotta`|command.enum.item.minecraft:light_blue_glazed_terracotta|
   |`light_blue_glazed_terracotta`|command.enum.item.light_blue_glazed_terracotta|
+  |`minecraft:rose_bush`|command.enum.item.minecraft:rose_bush|
+  |`rose_bush`|command.enum.item.rose_bush|
   |`minecraft:flowering_azalea`|command.enum.item.minecraft:flowering_azalea|
   |`flowering_azalea`|command.enum.item.flowering_azalea|
   |`minecraft:oxidized_cut_copper`|command.enum.item.minecraft:oxidized_cut_copper|
@@ -1108,6 +1112,8 @@ command.replaceitem.1.description
   |`weathered_cut_copper_slab`|command.enum.item.weathered_cut_copper_slab|
   |`minecraft:dark_oak_leaves`|command.enum.item.minecraft:dark_oak_leaves|
   |`dark_oak_leaves`|command.enum.item.dark_oak_leaves|
+  |`minecraft:nether_brick_slab`|command.enum.item.minecraft:nether_brick_slab|
+  |`nether_brick_slab`|command.enum.item.nether_brick_slab|
   |`minecraft:fern`|command.enum.item.minecraft:fern|
   |`fern`|command.enum.item.fern|
   |`minecraft:torchflower`|command.enum.item.minecraft:torchflower|
@@ -1168,6 +1174,8 @@ command.replaceitem.1.description
   |`exposed_copper_bulb`|command.enum.item.exposed_copper_bulb|
   |`minecraft:dead_fire_coral`|command.enum.item.minecraft:dead_fire_coral|
   |`dead_fire_coral`|command.enum.item.dead_fire_coral|
+  |`minecraft:stone_brick_slab`|command.enum.item.minecraft:stone_brick_slab|
+  |`stone_brick_slab`|command.enum.item.stone_brick_slab|
   |`minecraft:crimson_stairs`|command.enum.item.minecraft:crimson_stairs|
   |`crimson_stairs`|command.enum.item.crimson_stairs|
   |`minecraft:stripped_spruce_log`|command.enum.item.minecraft:stripped_spruce_log|
@@ -1204,6 +1212,8 @@ command.replaceitem.1.description
   |`pearlescent_froglight`|command.enum.item.pearlescent_froglight|
   |`minecraft:bamboo_button`|command.enum.item.minecraft:bamboo_button|
   |`bamboo_button`|command.enum.item.bamboo_button|
+  |`minecraft:tall_grass`|command.enum.item.minecraft:tall_grass|
+  |`tall_grass`|command.enum.item.tall_grass|
   |`minecraft:nether_sprouts`|command.enum.item.minecraft:nether_sprouts|
   |`nether_sprouts`|command.enum.item.nether_sprouts|
   |`minecraft:cyan_stained_glass_pane`|command.enum.item.minecraft:cyan_stained_glass_pane|
@@ -1220,6 +1230,8 @@ command.replaceitem.1.description
   |`horn_coral_fan`|command.enum.item.horn_coral_fan|
   |`minecraft:green_shulker_box`|command.enum.item.minecraft:green_shulker_box|
   |`green_shulker_box`|command.enum.item.green_shulker_box|
+  |`minecraft:large_fern`|command.enum.item.minecraft:large_fern|
+  |`large_fern`|command.enum.item.large_fern|
   |`minecraft:stripped_crimson_hyphae`|command.enum.item.minecraft:stripped_crimson_hyphae|
   |`stripped_crimson_hyphae`|command.enum.item.stripped_crimson_hyphae|
   |`minecraft:lever`|command.enum.item.minecraft:lever|
@@ -1280,6 +1292,8 @@ command.replaceitem.1.description
   |`mangrove_leaves`|command.enum.item.mangrove_leaves|
   |`minecraft:cobbled_deepslate`|command.enum.item.minecraft:cobbled_deepslate|
   |`cobbled_deepslate`|command.enum.item.cobbled_deepslate|
+  |`minecraft:quartz_slab`|command.enum.item.minecraft:quartz_slab|
+  |`quartz_slab`|command.enum.item.quartz_slab|
   |`minecraft:bookshelf`|command.enum.item.minecraft:bookshelf|
   |`bookshelf`|command.enum.item.bookshelf|
   |`minecraft:mud`|command.enum.item.minecraft:mud|
@@ -1490,6 +1504,8 @@ command.replaceitem.1.description
   |`heavy_core`|command.enum.item.heavy_core|
   |`minecraft:cobbled_deepslate_slab`|command.enum.item.minecraft:cobbled_deepslate_slab|
   |`cobbled_deepslate_slab`|command.enum.item.cobbled_deepslate_slab|
+  |`minecraft:lilac`|command.enum.item.minecraft:lilac|
+  |`lilac`|command.enum.item.lilac|
   |`minecraft:spore_blossom`|command.enum.item.minecraft:spore_blossom|
   |`spore_blossom`|command.enum.item.spore_blossom|
   |`minecraft:emerald_ore`|command.enum.item.minecraft:emerald_ore|
@@ -1536,12 +1552,16 @@ command.replaceitem.1.description
   |`dark_oak_trapdoor`|command.enum.item.dark_oak_trapdoor|
   |`minecraft:orange_terracotta`|command.enum.item.minecraft:orange_terracotta|
   |`orange_terracotta`|command.enum.item.orange_terracotta|
+  |`minecraft:brick_slab`|command.enum.item.minecraft:brick_slab|
+  |`brick_slab`|command.enum.item.brick_slab|
   |`minecraft:waxed_oxidized_copper`|command.enum.item.minecraft:waxed_oxidized_copper|
   |`waxed_oxidized_copper`|command.enum.item.waxed_oxidized_copper|
   |`minecraft:oak_planks`|command.enum.item.minecraft:oak_planks|
   |`oak_planks`|command.enum.item.oak_planks|
   |`minecraft:stripped_oak_log`|command.enum.item.minecraft:stripped_oak_log|
   |`stripped_oak_log`|command.enum.item.stripped_oak_log|
+  |`minecraft:smooth_stone_slab`|command.enum.item.minecraft:smooth_stone_slab|
+  |`smooth_stone_slab`|command.enum.item.smooth_stone_slab|
   |`minecraft:polished_andesite`|command.enum.item.minecraft:polished_andesite|
   |`polished_andesite`|command.enum.item.polished_andesite|
   |`minecraft:sea_lantern`|command.enum.item.minecraft:sea_lantern|
@@ -1786,6 +1806,8 @@ command.replaceitem.1.description
   |`waxed_copper_door`|command.enum.item.waxed_copper_door|
   |`minecraft:birch_button`|command.enum.item.minecraft:birch_button|
   |`birch_button`|command.enum.item.birch_button|
+  |`minecraft:peony`|command.enum.item.minecraft:peony|
+  |`peony`|command.enum.item.peony|
   |`minecraft:command_block`|command.enum.item.minecraft:command_block|
   |`command_block`|command.enum.item.command_block|
   |`minecraft:polished_blackstone_button`|command.enum.item.minecraft:polished_blackstone_button|
@@ -1943,6 +1965,10 @@ command.replaceitem.1.description
   |`minecraft:tallgrass`|command.enum.item.minecraft:tallgrass|
   |`coral_block`|command.enum.item.coral_block|
   |`minecraft:coral_block`|command.enum.item.minecraft:coral_block|
+  |`double_plant`|command.enum.item.double_plant|
+  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
+  |`stone_block_slab`|command.enum.item.stone_block_slab|
+  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
   |`minecraft:chicken`|command.enum.item.minecraft:chicken|
   |`chicken`|command.enum.item.chicken|
   |`minecraft:rabbit`|command.enum.item.minecraft:rabbit|
@@ -2481,6 +2507,12 @@ command.replaceitem.1.description
   |`music_disc_pigstep`|command.enum.item.music_disc_pigstep|
   |`minecraft:music_disc_relic`|command.enum.item.minecraft:music_disc_relic|
   |`music_disc_relic`|command.enum.item.music_disc_relic|
+  |`minecraft:music_disc_creator`|command.enum.item.minecraft:music_disc_creator|
+  |`music_disc_creator`|command.enum.item.music_disc_creator|
+  |`minecraft:music_disc_creator_music_box`|command.enum.item.minecraft:music_disc_creator_music_box|
+  |`music_disc_creator_music_box`|command.enum.item.music_disc_creator_music_box|
+  |`minecraft:music_disc_precipice`|command.enum.item.minecraft:music_disc_precipice|
+  |`music_disc_precipice`|command.enum.item.music_disc_precipice|
   |`minecraft:disc_fragment_5`|command.enum.item.minecraft:disc_fragment_5|
   |`disc_fragment_5`|command.enum.item.disc_fragment_5|
   |`minecraft:glowstone_dust`|command.enum.item.minecraft:glowstone_dust|
@@ -2842,10 +2874,13 @@ command.replaceitem.1.description
   |`real_double_stone_slab2`|command.enum.item.real_double_stone_slab2|
   |`real_double_stone_slab3`|command.enum.item.real_double_stone_slab3|
   |`record_cat`|command.enum.item.record_cat|
+  |`record_creator`|command.enum.item.record_creator|
   |`record_13`|command.enum.item.record_13|
   |`fish`|command.enum.item.fish|
   |`clownfish`|command.enum.item.clownfish|
   |`muttoncooked`|command.enum.item.muttoncooked|
+  |`record_creator_music_box`|command.enum.item.record_creator_music_box|
+  |`record_precipice`|command.enum.item.record_precipice|
   |`appleenchanted`|command.enum.item.appleenchanted|
   |`fireworkscharge`|command.enum.item.fireworkscharge|
   |`fireworks`|command.enum.item.fireworks|
@@ -2877,7 +2912,6 @@ command.replaceitem.1.description
   |`dye`|command.enum.item.dye|
   |`banner_pattern`|command.enum.item.banner_pattern|
   |`spawn_egg`|command.enum.item.spawn_egg|
-  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
   |`minecraft:dye`|command.enum.item.minecraft:dye|
   |`minecraft:suspicious_stew`|command.enum.item.minecraft:suspicious_stew|
   |`suspicious_stew`|command.enum.item.suspicious_stew|
@@ -2886,6 +2920,7 @@ command.replaceitem.1.description
   |`minecraft:jigsaw`|command.enum.item.minecraft:jigsaw|
   |`jigsaw`|command.enum.item.jigsaw|
   |`minecraft:banner_pattern`|command.enum.item.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
 
 
 `amount`：<!-- md:samp int -->
@@ -3137,6 +3172,8 @@ command.replaceitem.2.description
   |`mangrove_log`|command.enum.item.mangrove_log|
   |`minecraft:oxidized_cut_copper_stairs`|command.enum.item.minecraft:oxidized_cut_copper_stairs|
   |`oxidized_cut_copper_stairs`|command.enum.item.oxidized_cut_copper_stairs|
+  |`minecraft:sandstone_slab`|command.enum.item.minecraft:sandstone_slab|
+  |`sandstone_slab`|command.enum.item.sandstone_slab|
   |`minecraft:raw_gold_block`|command.enum.item.minecraft:raw_gold_block|
   |`raw_gold_block`|command.enum.item.raw_gold_block|
   |`minecraft:allium`|command.enum.item.minecraft:allium|
@@ -3489,6 +3526,8 @@ command.replaceitem.2.description
   |`red_glazed_terracotta`|command.enum.item.red_glazed_terracotta|
   |`minecraft:dark_oak_fence_gate`|command.enum.item.minecraft:dark_oak_fence_gate|
   |`dark_oak_fence_gate`|command.enum.item.dark_oak_fence_gate|
+  |`minecraft:cobblestone_slab`|command.enum.item.minecraft:cobblestone_slab|
+  |`cobblestone_slab`|command.enum.item.cobblestone_slab|
   |`minecraft:crimson_nylium`|command.enum.item.minecraft:crimson_nylium|
   |`crimson_nylium`|command.enum.item.crimson_nylium|
   |`minecraft:structure_void`|command.enum.item.minecraft:structure_void|
@@ -3521,8 +3560,6 @@ command.replaceitem.2.description
   |`frame`|command.enum.item.frame|
   |`minecraft:spruce_log`|command.enum.item.minecraft:spruce_log|
   |`spruce_log`|command.enum.item.spruce_log|
-  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
-  |`stone_block_slab`|command.enum.item.stone_block_slab|
   |`minecraft:lapis_block`|command.enum.item.minecraft:lapis_block|
   |`lapis_block`|command.enum.item.lapis_block|
   |`minecraft:coal_ore`|command.enum.item.minecraft:coal_ore|
@@ -3663,6 +3700,8 @@ command.replaceitem.2.description
   |`cherry_button`|command.enum.item.cherry_button|
   |`minecraft:mangrove_fence_gate`|command.enum.item.minecraft:mangrove_fence_gate|
   |`mangrove_fence_gate`|command.enum.item.mangrove_fence_gate|
+  |`minecraft:sunflower`|command.enum.item.minecraft:sunflower|
+  |`sunflower`|command.enum.item.sunflower|
   |`minecraft:pink_petals`|command.enum.item.minecraft:pink_petals|
   |`pink_petals`|command.enum.item.pink_petals|
   |`minecraft:bamboo_hanging_sign`|command.enum.item.minecraft:bamboo_hanging_sign|
@@ -3817,8 +3856,6 @@ command.replaceitem.2.description
   |`composter`|command.enum.item.composter|
   |`minecraft:kelp`|command.enum.item.minecraft:kelp|
   |`kelp`|command.enum.item.kelp|
-  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
-  |`double_plant`|command.enum.item.double_plant|
   |`minecraft:waxed_exposed_copper_door`|command.enum.item.minecraft:waxed_exposed_copper_door|
   |`waxed_exposed_copper_door`|command.enum.item.waxed_exposed_copper_door|
   |`minecraft:deepslate_bricks`|command.enum.item.minecraft:deepslate_bricks|
@@ -3827,6 +3864,8 @@ command.replaceitem.2.description
   |`blue_glazed_terracotta`|command.enum.item.blue_glazed_terracotta|
   |`minecraft:light_blue_glazed_terracotta`|command.enum.item.minecraft:light_blue_glazed_terracotta|
   |`light_blue_glazed_terracotta`|command.enum.item.light_blue_glazed_terracotta|
+  |`minecraft:rose_bush`|command.enum.item.minecraft:rose_bush|
+  |`rose_bush`|command.enum.item.rose_bush|
   |`minecraft:flowering_azalea`|command.enum.item.minecraft:flowering_azalea|
   |`flowering_azalea`|command.enum.item.flowering_azalea|
   |`minecraft:oxidized_cut_copper`|command.enum.item.minecraft:oxidized_cut_copper|
@@ -4022,6 +4061,8 @@ command.replaceitem.2.description
   |`weathered_cut_copper_slab`|command.enum.item.weathered_cut_copper_slab|
   |`minecraft:dark_oak_leaves`|command.enum.item.minecraft:dark_oak_leaves|
   |`dark_oak_leaves`|command.enum.item.dark_oak_leaves|
+  |`minecraft:nether_brick_slab`|command.enum.item.minecraft:nether_brick_slab|
+  |`nether_brick_slab`|command.enum.item.nether_brick_slab|
   |`minecraft:fern`|command.enum.item.minecraft:fern|
   |`fern`|command.enum.item.fern|
   |`minecraft:torchflower`|command.enum.item.minecraft:torchflower|
@@ -4082,6 +4123,8 @@ command.replaceitem.2.description
   |`exposed_copper_bulb`|command.enum.item.exposed_copper_bulb|
   |`minecraft:dead_fire_coral`|command.enum.item.minecraft:dead_fire_coral|
   |`dead_fire_coral`|command.enum.item.dead_fire_coral|
+  |`minecraft:stone_brick_slab`|command.enum.item.minecraft:stone_brick_slab|
+  |`stone_brick_slab`|command.enum.item.stone_brick_slab|
   |`minecraft:crimson_stairs`|command.enum.item.minecraft:crimson_stairs|
   |`crimson_stairs`|command.enum.item.crimson_stairs|
   |`minecraft:stripped_spruce_log`|command.enum.item.minecraft:stripped_spruce_log|
@@ -4118,6 +4161,8 @@ command.replaceitem.2.description
   |`pearlescent_froglight`|command.enum.item.pearlescent_froglight|
   |`minecraft:bamboo_button`|command.enum.item.minecraft:bamboo_button|
   |`bamboo_button`|command.enum.item.bamboo_button|
+  |`minecraft:tall_grass`|command.enum.item.minecraft:tall_grass|
+  |`tall_grass`|command.enum.item.tall_grass|
   |`minecraft:nether_sprouts`|command.enum.item.minecraft:nether_sprouts|
   |`nether_sprouts`|command.enum.item.nether_sprouts|
   |`minecraft:cyan_stained_glass_pane`|command.enum.item.minecraft:cyan_stained_glass_pane|
@@ -4134,6 +4179,8 @@ command.replaceitem.2.description
   |`horn_coral_fan`|command.enum.item.horn_coral_fan|
   |`minecraft:green_shulker_box`|command.enum.item.minecraft:green_shulker_box|
   |`green_shulker_box`|command.enum.item.green_shulker_box|
+  |`minecraft:large_fern`|command.enum.item.minecraft:large_fern|
+  |`large_fern`|command.enum.item.large_fern|
   |`minecraft:stripped_crimson_hyphae`|command.enum.item.minecraft:stripped_crimson_hyphae|
   |`stripped_crimson_hyphae`|command.enum.item.stripped_crimson_hyphae|
   |`minecraft:lever`|command.enum.item.minecraft:lever|
@@ -4194,6 +4241,8 @@ command.replaceitem.2.description
   |`mangrove_leaves`|command.enum.item.mangrove_leaves|
   |`minecraft:cobbled_deepslate`|command.enum.item.minecraft:cobbled_deepslate|
   |`cobbled_deepslate`|command.enum.item.cobbled_deepslate|
+  |`minecraft:quartz_slab`|command.enum.item.minecraft:quartz_slab|
+  |`quartz_slab`|command.enum.item.quartz_slab|
   |`minecraft:bookshelf`|command.enum.item.minecraft:bookshelf|
   |`bookshelf`|command.enum.item.bookshelf|
   |`minecraft:mud`|command.enum.item.minecraft:mud|
@@ -4404,6 +4453,8 @@ command.replaceitem.2.description
   |`heavy_core`|command.enum.item.heavy_core|
   |`minecraft:cobbled_deepslate_slab`|command.enum.item.minecraft:cobbled_deepslate_slab|
   |`cobbled_deepslate_slab`|command.enum.item.cobbled_deepslate_slab|
+  |`minecraft:lilac`|command.enum.item.minecraft:lilac|
+  |`lilac`|command.enum.item.lilac|
   |`minecraft:spore_blossom`|command.enum.item.minecraft:spore_blossom|
   |`spore_blossom`|command.enum.item.spore_blossom|
   |`minecraft:emerald_ore`|command.enum.item.minecraft:emerald_ore|
@@ -4450,12 +4501,16 @@ command.replaceitem.2.description
   |`dark_oak_trapdoor`|command.enum.item.dark_oak_trapdoor|
   |`minecraft:orange_terracotta`|command.enum.item.minecraft:orange_terracotta|
   |`orange_terracotta`|command.enum.item.orange_terracotta|
+  |`minecraft:brick_slab`|command.enum.item.minecraft:brick_slab|
+  |`brick_slab`|command.enum.item.brick_slab|
   |`minecraft:waxed_oxidized_copper`|command.enum.item.minecraft:waxed_oxidized_copper|
   |`waxed_oxidized_copper`|command.enum.item.waxed_oxidized_copper|
   |`minecraft:oak_planks`|command.enum.item.minecraft:oak_planks|
   |`oak_planks`|command.enum.item.oak_planks|
   |`minecraft:stripped_oak_log`|command.enum.item.minecraft:stripped_oak_log|
   |`stripped_oak_log`|command.enum.item.stripped_oak_log|
+  |`minecraft:smooth_stone_slab`|command.enum.item.minecraft:smooth_stone_slab|
+  |`smooth_stone_slab`|command.enum.item.smooth_stone_slab|
   |`minecraft:polished_andesite`|command.enum.item.minecraft:polished_andesite|
   |`polished_andesite`|command.enum.item.polished_andesite|
   |`minecraft:sea_lantern`|command.enum.item.minecraft:sea_lantern|
@@ -4700,6 +4755,8 @@ command.replaceitem.2.description
   |`waxed_copper_door`|command.enum.item.waxed_copper_door|
   |`minecraft:birch_button`|command.enum.item.minecraft:birch_button|
   |`birch_button`|command.enum.item.birch_button|
+  |`minecraft:peony`|command.enum.item.minecraft:peony|
+  |`peony`|command.enum.item.peony|
   |`minecraft:command_block`|command.enum.item.minecraft:command_block|
   |`command_block`|command.enum.item.command_block|
   |`minecraft:polished_blackstone_button`|command.enum.item.minecraft:polished_blackstone_button|
@@ -4857,6 +4914,10 @@ command.replaceitem.2.description
   |`minecraft:tallgrass`|command.enum.item.minecraft:tallgrass|
   |`coral_block`|command.enum.item.coral_block|
   |`minecraft:coral_block`|command.enum.item.minecraft:coral_block|
+  |`double_plant`|command.enum.item.double_plant|
+  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
+  |`stone_block_slab`|command.enum.item.stone_block_slab|
+  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
   |`minecraft:chicken`|command.enum.item.minecraft:chicken|
   |`chicken`|command.enum.item.chicken|
   |`minecraft:rabbit`|command.enum.item.minecraft:rabbit|
@@ -5395,6 +5456,12 @@ command.replaceitem.2.description
   |`music_disc_pigstep`|command.enum.item.music_disc_pigstep|
   |`minecraft:music_disc_relic`|command.enum.item.minecraft:music_disc_relic|
   |`music_disc_relic`|command.enum.item.music_disc_relic|
+  |`minecraft:music_disc_creator`|command.enum.item.minecraft:music_disc_creator|
+  |`music_disc_creator`|command.enum.item.music_disc_creator|
+  |`minecraft:music_disc_creator_music_box`|command.enum.item.minecraft:music_disc_creator_music_box|
+  |`music_disc_creator_music_box`|command.enum.item.music_disc_creator_music_box|
+  |`minecraft:music_disc_precipice`|command.enum.item.minecraft:music_disc_precipice|
+  |`music_disc_precipice`|command.enum.item.music_disc_precipice|
   |`minecraft:disc_fragment_5`|command.enum.item.minecraft:disc_fragment_5|
   |`disc_fragment_5`|command.enum.item.disc_fragment_5|
   |`minecraft:glowstone_dust`|command.enum.item.minecraft:glowstone_dust|
@@ -5756,10 +5823,13 @@ command.replaceitem.2.description
   |`real_double_stone_slab2`|command.enum.item.real_double_stone_slab2|
   |`real_double_stone_slab3`|command.enum.item.real_double_stone_slab3|
   |`record_cat`|command.enum.item.record_cat|
+  |`record_creator`|command.enum.item.record_creator|
   |`record_13`|command.enum.item.record_13|
   |`fish`|command.enum.item.fish|
   |`clownfish`|command.enum.item.clownfish|
   |`muttoncooked`|command.enum.item.muttoncooked|
+  |`record_creator_music_box`|command.enum.item.record_creator_music_box|
+  |`record_precipice`|command.enum.item.record_precipice|
   |`appleenchanted`|command.enum.item.appleenchanted|
   |`fireworkscharge`|command.enum.item.fireworkscharge|
   |`fireworks`|command.enum.item.fireworks|
@@ -5791,7 +5861,6 @@ command.replaceitem.2.description
   |`dye`|command.enum.item.dye|
   |`banner_pattern`|command.enum.item.banner_pattern|
   |`spawn_egg`|command.enum.item.spawn_egg|
-  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
   |`minecraft:dye`|command.enum.item.minecraft:dye|
   |`minecraft:suspicious_stew`|command.enum.item.minecraft:suspicious_stew|
   |`suspicious_stew`|command.enum.item.suspicious_stew|
@@ -5800,6 +5869,7 @@ command.replaceitem.2.description
   |`minecraft:jigsaw`|command.enum.item.minecraft:jigsaw|
   |`jigsaw`|command.enum.item.jigsaw|
   |`minecraft:banner_pattern`|command.enum.item.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
 
 
 `amount`：<!-- md:samp int -->
@@ -6044,6 +6114,8 @@ command.replaceitem.3.description
   |`mangrove_log`|command.enum.item.mangrove_log|
   |`minecraft:oxidized_cut_copper_stairs`|command.enum.item.minecraft:oxidized_cut_copper_stairs|
   |`oxidized_cut_copper_stairs`|command.enum.item.oxidized_cut_copper_stairs|
+  |`minecraft:sandstone_slab`|command.enum.item.minecraft:sandstone_slab|
+  |`sandstone_slab`|command.enum.item.sandstone_slab|
   |`minecraft:raw_gold_block`|command.enum.item.minecraft:raw_gold_block|
   |`raw_gold_block`|command.enum.item.raw_gold_block|
   |`minecraft:allium`|command.enum.item.minecraft:allium|
@@ -6396,6 +6468,8 @@ command.replaceitem.3.description
   |`red_glazed_terracotta`|command.enum.item.red_glazed_terracotta|
   |`minecraft:dark_oak_fence_gate`|command.enum.item.minecraft:dark_oak_fence_gate|
   |`dark_oak_fence_gate`|command.enum.item.dark_oak_fence_gate|
+  |`minecraft:cobblestone_slab`|command.enum.item.minecraft:cobblestone_slab|
+  |`cobblestone_slab`|command.enum.item.cobblestone_slab|
   |`minecraft:crimson_nylium`|command.enum.item.minecraft:crimson_nylium|
   |`crimson_nylium`|command.enum.item.crimson_nylium|
   |`minecraft:structure_void`|command.enum.item.minecraft:structure_void|
@@ -6428,8 +6502,6 @@ command.replaceitem.3.description
   |`frame`|command.enum.item.frame|
   |`minecraft:spruce_log`|command.enum.item.minecraft:spruce_log|
   |`spruce_log`|command.enum.item.spruce_log|
-  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
-  |`stone_block_slab`|command.enum.item.stone_block_slab|
   |`minecraft:lapis_block`|command.enum.item.minecraft:lapis_block|
   |`lapis_block`|command.enum.item.lapis_block|
   |`minecraft:coal_ore`|command.enum.item.minecraft:coal_ore|
@@ -6570,6 +6642,8 @@ command.replaceitem.3.description
   |`cherry_button`|command.enum.item.cherry_button|
   |`minecraft:mangrove_fence_gate`|command.enum.item.minecraft:mangrove_fence_gate|
   |`mangrove_fence_gate`|command.enum.item.mangrove_fence_gate|
+  |`minecraft:sunflower`|command.enum.item.minecraft:sunflower|
+  |`sunflower`|command.enum.item.sunflower|
   |`minecraft:pink_petals`|command.enum.item.minecraft:pink_petals|
   |`pink_petals`|command.enum.item.pink_petals|
   |`minecraft:bamboo_hanging_sign`|command.enum.item.minecraft:bamboo_hanging_sign|
@@ -6724,8 +6798,6 @@ command.replaceitem.3.description
   |`composter`|command.enum.item.composter|
   |`minecraft:kelp`|command.enum.item.minecraft:kelp|
   |`kelp`|command.enum.item.kelp|
-  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
-  |`double_plant`|command.enum.item.double_plant|
   |`minecraft:waxed_exposed_copper_door`|command.enum.item.minecraft:waxed_exposed_copper_door|
   |`waxed_exposed_copper_door`|command.enum.item.waxed_exposed_copper_door|
   |`minecraft:deepslate_bricks`|command.enum.item.minecraft:deepslate_bricks|
@@ -6734,6 +6806,8 @@ command.replaceitem.3.description
   |`blue_glazed_terracotta`|command.enum.item.blue_glazed_terracotta|
   |`minecraft:light_blue_glazed_terracotta`|command.enum.item.minecraft:light_blue_glazed_terracotta|
   |`light_blue_glazed_terracotta`|command.enum.item.light_blue_glazed_terracotta|
+  |`minecraft:rose_bush`|command.enum.item.minecraft:rose_bush|
+  |`rose_bush`|command.enum.item.rose_bush|
   |`minecraft:flowering_azalea`|command.enum.item.minecraft:flowering_azalea|
   |`flowering_azalea`|command.enum.item.flowering_azalea|
   |`minecraft:oxidized_cut_copper`|command.enum.item.minecraft:oxidized_cut_copper|
@@ -6929,6 +7003,8 @@ command.replaceitem.3.description
   |`weathered_cut_copper_slab`|command.enum.item.weathered_cut_copper_slab|
   |`minecraft:dark_oak_leaves`|command.enum.item.minecraft:dark_oak_leaves|
   |`dark_oak_leaves`|command.enum.item.dark_oak_leaves|
+  |`minecraft:nether_brick_slab`|command.enum.item.minecraft:nether_brick_slab|
+  |`nether_brick_slab`|command.enum.item.nether_brick_slab|
   |`minecraft:fern`|command.enum.item.minecraft:fern|
   |`fern`|command.enum.item.fern|
   |`minecraft:torchflower`|command.enum.item.minecraft:torchflower|
@@ -6989,6 +7065,8 @@ command.replaceitem.3.description
   |`exposed_copper_bulb`|command.enum.item.exposed_copper_bulb|
   |`minecraft:dead_fire_coral`|command.enum.item.minecraft:dead_fire_coral|
   |`dead_fire_coral`|command.enum.item.dead_fire_coral|
+  |`minecraft:stone_brick_slab`|command.enum.item.minecraft:stone_brick_slab|
+  |`stone_brick_slab`|command.enum.item.stone_brick_slab|
   |`minecraft:crimson_stairs`|command.enum.item.minecraft:crimson_stairs|
   |`crimson_stairs`|command.enum.item.crimson_stairs|
   |`minecraft:stripped_spruce_log`|command.enum.item.minecraft:stripped_spruce_log|
@@ -7025,6 +7103,8 @@ command.replaceitem.3.description
   |`pearlescent_froglight`|command.enum.item.pearlescent_froglight|
   |`minecraft:bamboo_button`|command.enum.item.minecraft:bamboo_button|
   |`bamboo_button`|command.enum.item.bamboo_button|
+  |`minecraft:tall_grass`|command.enum.item.minecraft:tall_grass|
+  |`tall_grass`|command.enum.item.tall_grass|
   |`minecraft:nether_sprouts`|command.enum.item.minecraft:nether_sprouts|
   |`nether_sprouts`|command.enum.item.nether_sprouts|
   |`minecraft:cyan_stained_glass_pane`|command.enum.item.minecraft:cyan_stained_glass_pane|
@@ -7041,6 +7121,8 @@ command.replaceitem.3.description
   |`horn_coral_fan`|command.enum.item.horn_coral_fan|
   |`minecraft:green_shulker_box`|command.enum.item.minecraft:green_shulker_box|
   |`green_shulker_box`|command.enum.item.green_shulker_box|
+  |`minecraft:large_fern`|command.enum.item.minecraft:large_fern|
+  |`large_fern`|command.enum.item.large_fern|
   |`minecraft:stripped_crimson_hyphae`|command.enum.item.minecraft:stripped_crimson_hyphae|
   |`stripped_crimson_hyphae`|command.enum.item.stripped_crimson_hyphae|
   |`minecraft:lever`|command.enum.item.minecraft:lever|
@@ -7101,6 +7183,8 @@ command.replaceitem.3.description
   |`mangrove_leaves`|command.enum.item.mangrove_leaves|
   |`minecraft:cobbled_deepslate`|command.enum.item.minecraft:cobbled_deepslate|
   |`cobbled_deepslate`|command.enum.item.cobbled_deepslate|
+  |`minecraft:quartz_slab`|command.enum.item.minecraft:quartz_slab|
+  |`quartz_slab`|command.enum.item.quartz_slab|
   |`minecraft:bookshelf`|command.enum.item.minecraft:bookshelf|
   |`bookshelf`|command.enum.item.bookshelf|
   |`minecraft:mud`|command.enum.item.minecraft:mud|
@@ -7311,6 +7395,8 @@ command.replaceitem.3.description
   |`heavy_core`|command.enum.item.heavy_core|
   |`minecraft:cobbled_deepslate_slab`|command.enum.item.minecraft:cobbled_deepslate_slab|
   |`cobbled_deepslate_slab`|command.enum.item.cobbled_deepslate_slab|
+  |`minecraft:lilac`|command.enum.item.minecraft:lilac|
+  |`lilac`|command.enum.item.lilac|
   |`minecraft:spore_blossom`|command.enum.item.minecraft:spore_blossom|
   |`spore_blossom`|command.enum.item.spore_blossom|
   |`minecraft:emerald_ore`|command.enum.item.minecraft:emerald_ore|
@@ -7357,12 +7443,16 @@ command.replaceitem.3.description
   |`dark_oak_trapdoor`|command.enum.item.dark_oak_trapdoor|
   |`minecraft:orange_terracotta`|command.enum.item.minecraft:orange_terracotta|
   |`orange_terracotta`|command.enum.item.orange_terracotta|
+  |`minecraft:brick_slab`|command.enum.item.minecraft:brick_slab|
+  |`brick_slab`|command.enum.item.brick_slab|
   |`minecraft:waxed_oxidized_copper`|command.enum.item.minecraft:waxed_oxidized_copper|
   |`waxed_oxidized_copper`|command.enum.item.waxed_oxidized_copper|
   |`minecraft:oak_planks`|command.enum.item.minecraft:oak_planks|
   |`oak_planks`|command.enum.item.oak_planks|
   |`minecraft:stripped_oak_log`|command.enum.item.minecraft:stripped_oak_log|
   |`stripped_oak_log`|command.enum.item.stripped_oak_log|
+  |`minecraft:smooth_stone_slab`|command.enum.item.minecraft:smooth_stone_slab|
+  |`smooth_stone_slab`|command.enum.item.smooth_stone_slab|
   |`minecraft:polished_andesite`|command.enum.item.minecraft:polished_andesite|
   |`polished_andesite`|command.enum.item.polished_andesite|
   |`minecraft:sea_lantern`|command.enum.item.minecraft:sea_lantern|
@@ -7607,6 +7697,8 @@ command.replaceitem.3.description
   |`waxed_copper_door`|command.enum.item.waxed_copper_door|
   |`minecraft:birch_button`|command.enum.item.minecraft:birch_button|
   |`birch_button`|command.enum.item.birch_button|
+  |`minecraft:peony`|command.enum.item.minecraft:peony|
+  |`peony`|command.enum.item.peony|
   |`minecraft:command_block`|command.enum.item.minecraft:command_block|
   |`command_block`|command.enum.item.command_block|
   |`minecraft:polished_blackstone_button`|command.enum.item.minecraft:polished_blackstone_button|
@@ -7764,6 +7856,10 @@ command.replaceitem.3.description
   |`minecraft:tallgrass`|command.enum.item.minecraft:tallgrass|
   |`coral_block`|command.enum.item.coral_block|
   |`minecraft:coral_block`|command.enum.item.minecraft:coral_block|
+  |`double_plant`|command.enum.item.double_plant|
+  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
+  |`stone_block_slab`|command.enum.item.stone_block_slab|
+  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
   |`minecraft:chicken`|command.enum.item.minecraft:chicken|
   |`chicken`|command.enum.item.chicken|
   |`minecraft:rabbit`|command.enum.item.minecraft:rabbit|
@@ -8302,6 +8398,12 @@ command.replaceitem.3.description
   |`music_disc_pigstep`|command.enum.item.music_disc_pigstep|
   |`minecraft:music_disc_relic`|command.enum.item.minecraft:music_disc_relic|
   |`music_disc_relic`|command.enum.item.music_disc_relic|
+  |`minecraft:music_disc_creator`|command.enum.item.minecraft:music_disc_creator|
+  |`music_disc_creator`|command.enum.item.music_disc_creator|
+  |`minecraft:music_disc_creator_music_box`|command.enum.item.minecraft:music_disc_creator_music_box|
+  |`music_disc_creator_music_box`|command.enum.item.music_disc_creator_music_box|
+  |`minecraft:music_disc_precipice`|command.enum.item.minecraft:music_disc_precipice|
+  |`music_disc_precipice`|command.enum.item.music_disc_precipice|
   |`minecraft:disc_fragment_5`|command.enum.item.minecraft:disc_fragment_5|
   |`disc_fragment_5`|command.enum.item.disc_fragment_5|
   |`minecraft:glowstone_dust`|command.enum.item.minecraft:glowstone_dust|
@@ -8663,10 +8765,13 @@ command.replaceitem.3.description
   |`real_double_stone_slab2`|command.enum.item.real_double_stone_slab2|
   |`real_double_stone_slab3`|command.enum.item.real_double_stone_slab3|
   |`record_cat`|command.enum.item.record_cat|
+  |`record_creator`|command.enum.item.record_creator|
   |`record_13`|command.enum.item.record_13|
   |`fish`|command.enum.item.fish|
   |`clownfish`|command.enum.item.clownfish|
   |`muttoncooked`|command.enum.item.muttoncooked|
+  |`record_creator_music_box`|command.enum.item.record_creator_music_box|
+  |`record_precipice`|command.enum.item.record_precipice|
   |`appleenchanted`|command.enum.item.appleenchanted|
   |`fireworkscharge`|command.enum.item.fireworkscharge|
   |`fireworks`|command.enum.item.fireworks|
@@ -8698,7 +8803,6 @@ command.replaceitem.3.description
   |`dye`|command.enum.item.dye|
   |`banner_pattern`|command.enum.item.banner_pattern|
   |`spawn_egg`|command.enum.item.spawn_egg|
-  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
   |`minecraft:dye`|command.enum.item.minecraft:dye|
   |`minecraft:suspicious_stew`|command.enum.item.minecraft:suspicious_stew|
   |`suspicious_stew`|command.enum.item.suspicious_stew|
@@ -8707,6 +8811,7 @@ command.replaceitem.3.description
   |`minecraft:jigsaw`|command.enum.item.minecraft:jigsaw|
   |`jigsaw`|command.enum.item.jigsaw|
   |`minecraft:banner_pattern`|command.enum.item.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
 
 
 `amount`：<!-- md:samp int -->
@@ -8968,6 +9073,8 @@ command.replaceitem.4.description
   |`mangrove_log`|command.enum.item.mangrove_log|
   |`minecraft:oxidized_cut_copper_stairs`|command.enum.item.minecraft:oxidized_cut_copper_stairs|
   |`oxidized_cut_copper_stairs`|command.enum.item.oxidized_cut_copper_stairs|
+  |`minecraft:sandstone_slab`|command.enum.item.minecraft:sandstone_slab|
+  |`sandstone_slab`|command.enum.item.sandstone_slab|
   |`minecraft:raw_gold_block`|command.enum.item.minecraft:raw_gold_block|
   |`raw_gold_block`|command.enum.item.raw_gold_block|
   |`minecraft:allium`|command.enum.item.minecraft:allium|
@@ -9320,6 +9427,8 @@ command.replaceitem.4.description
   |`red_glazed_terracotta`|command.enum.item.red_glazed_terracotta|
   |`minecraft:dark_oak_fence_gate`|command.enum.item.minecraft:dark_oak_fence_gate|
   |`dark_oak_fence_gate`|command.enum.item.dark_oak_fence_gate|
+  |`minecraft:cobblestone_slab`|command.enum.item.minecraft:cobblestone_slab|
+  |`cobblestone_slab`|command.enum.item.cobblestone_slab|
   |`minecraft:crimson_nylium`|command.enum.item.minecraft:crimson_nylium|
   |`crimson_nylium`|command.enum.item.crimson_nylium|
   |`minecraft:structure_void`|command.enum.item.minecraft:structure_void|
@@ -9352,8 +9461,6 @@ command.replaceitem.4.description
   |`frame`|command.enum.item.frame|
   |`minecraft:spruce_log`|command.enum.item.minecraft:spruce_log|
   |`spruce_log`|command.enum.item.spruce_log|
-  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
-  |`stone_block_slab`|command.enum.item.stone_block_slab|
   |`minecraft:lapis_block`|command.enum.item.minecraft:lapis_block|
   |`lapis_block`|command.enum.item.lapis_block|
   |`minecraft:coal_ore`|command.enum.item.minecraft:coal_ore|
@@ -9494,6 +9601,8 @@ command.replaceitem.4.description
   |`cherry_button`|command.enum.item.cherry_button|
   |`minecraft:mangrove_fence_gate`|command.enum.item.minecraft:mangrove_fence_gate|
   |`mangrove_fence_gate`|command.enum.item.mangrove_fence_gate|
+  |`minecraft:sunflower`|command.enum.item.minecraft:sunflower|
+  |`sunflower`|command.enum.item.sunflower|
   |`minecraft:pink_petals`|command.enum.item.minecraft:pink_petals|
   |`pink_petals`|command.enum.item.pink_petals|
   |`minecraft:bamboo_hanging_sign`|command.enum.item.minecraft:bamboo_hanging_sign|
@@ -9648,8 +9757,6 @@ command.replaceitem.4.description
   |`composter`|command.enum.item.composter|
   |`minecraft:kelp`|command.enum.item.minecraft:kelp|
   |`kelp`|command.enum.item.kelp|
-  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
-  |`double_plant`|command.enum.item.double_plant|
   |`minecraft:waxed_exposed_copper_door`|command.enum.item.minecraft:waxed_exposed_copper_door|
   |`waxed_exposed_copper_door`|command.enum.item.waxed_exposed_copper_door|
   |`minecraft:deepslate_bricks`|command.enum.item.minecraft:deepslate_bricks|
@@ -9658,6 +9765,8 @@ command.replaceitem.4.description
   |`blue_glazed_terracotta`|command.enum.item.blue_glazed_terracotta|
   |`minecraft:light_blue_glazed_terracotta`|command.enum.item.minecraft:light_blue_glazed_terracotta|
   |`light_blue_glazed_terracotta`|command.enum.item.light_blue_glazed_terracotta|
+  |`minecraft:rose_bush`|command.enum.item.minecraft:rose_bush|
+  |`rose_bush`|command.enum.item.rose_bush|
   |`minecraft:flowering_azalea`|command.enum.item.minecraft:flowering_azalea|
   |`flowering_azalea`|command.enum.item.flowering_azalea|
   |`minecraft:oxidized_cut_copper`|command.enum.item.minecraft:oxidized_cut_copper|
@@ -9853,6 +9962,8 @@ command.replaceitem.4.description
   |`weathered_cut_copper_slab`|command.enum.item.weathered_cut_copper_slab|
   |`minecraft:dark_oak_leaves`|command.enum.item.minecraft:dark_oak_leaves|
   |`dark_oak_leaves`|command.enum.item.dark_oak_leaves|
+  |`minecraft:nether_brick_slab`|command.enum.item.minecraft:nether_brick_slab|
+  |`nether_brick_slab`|command.enum.item.nether_brick_slab|
   |`minecraft:fern`|command.enum.item.minecraft:fern|
   |`fern`|command.enum.item.fern|
   |`minecraft:torchflower`|command.enum.item.minecraft:torchflower|
@@ -9913,6 +10024,8 @@ command.replaceitem.4.description
   |`exposed_copper_bulb`|command.enum.item.exposed_copper_bulb|
   |`minecraft:dead_fire_coral`|command.enum.item.minecraft:dead_fire_coral|
   |`dead_fire_coral`|command.enum.item.dead_fire_coral|
+  |`minecraft:stone_brick_slab`|command.enum.item.minecraft:stone_brick_slab|
+  |`stone_brick_slab`|command.enum.item.stone_brick_slab|
   |`minecraft:crimson_stairs`|command.enum.item.minecraft:crimson_stairs|
   |`crimson_stairs`|command.enum.item.crimson_stairs|
   |`minecraft:stripped_spruce_log`|command.enum.item.minecraft:stripped_spruce_log|
@@ -9949,6 +10062,8 @@ command.replaceitem.4.description
   |`pearlescent_froglight`|command.enum.item.pearlescent_froglight|
   |`minecraft:bamboo_button`|command.enum.item.minecraft:bamboo_button|
   |`bamboo_button`|command.enum.item.bamboo_button|
+  |`minecraft:tall_grass`|command.enum.item.minecraft:tall_grass|
+  |`tall_grass`|command.enum.item.tall_grass|
   |`minecraft:nether_sprouts`|command.enum.item.minecraft:nether_sprouts|
   |`nether_sprouts`|command.enum.item.nether_sprouts|
   |`minecraft:cyan_stained_glass_pane`|command.enum.item.minecraft:cyan_stained_glass_pane|
@@ -9965,6 +10080,8 @@ command.replaceitem.4.description
   |`horn_coral_fan`|command.enum.item.horn_coral_fan|
   |`minecraft:green_shulker_box`|command.enum.item.minecraft:green_shulker_box|
   |`green_shulker_box`|command.enum.item.green_shulker_box|
+  |`minecraft:large_fern`|command.enum.item.minecraft:large_fern|
+  |`large_fern`|command.enum.item.large_fern|
   |`minecraft:stripped_crimson_hyphae`|command.enum.item.minecraft:stripped_crimson_hyphae|
   |`stripped_crimson_hyphae`|command.enum.item.stripped_crimson_hyphae|
   |`minecraft:lever`|command.enum.item.minecraft:lever|
@@ -10025,6 +10142,8 @@ command.replaceitem.4.description
   |`mangrove_leaves`|command.enum.item.mangrove_leaves|
   |`minecraft:cobbled_deepslate`|command.enum.item.minecraft:cobbled_deepslate|
   |`cobbled_deepslate`|command.enum.item.cobbled_deepslate|
+  |`minecraft:quartz_slab`|command.enum.item.minecraft:quartz_slab|
+  |`quartz_slab`|command.enum.item.quartz_slab|
   |`minecraft:bookshelf`|command.enum.item.minecraft:bookshelf|
   |`bookshelf`|command.enum.item.bookshelf|
   |`minecraft:mud`|command.enum.item.minecraft:mud|
@@ -10235,6 +10354,8 @@ command.replaceitem.4.description
   |`heavy_core`|command.enum.item.heavy_core|
   |`minecraft:cobbled_deepslate_slab`|command.enum.item.minecraft:cobbled_deepslate_slab|
   |`cobbled_deepslate_slab`|command.enum.item.cobbled_deepslate_slab|
+  |`minecraft:lilac`|command.enum.item.minecraft:lilac|
+  |`lilac`|command.enum.item.lilac|
   |`minecraft:spore_blossom`|command.enum.item.minecraft:spore_blossom|
   |`spore_blossom`|command.enum.item.spore_blossom|
   |`minecraft:emerald_ore`|command.enum.item.minecraft:emerald_ore|
@@ -10281,12 +10402,16 @@ command.replaceitem.4.description
   |`dark_oak_trapdoor`|command.enum.item.dark_oak_trapdoor|
   |`minecraft:orange_terracotta`|command.enum.item.minecraft:orange_terracotta|
   |`orange_terracotta`|command.enum.item.orange_terracotta|
+  |`minecraft:brick_slab`|command.enum.item.minecraft:brick_slab|
+  |`brick_slab`|command.enum.item.brick_slab|
   |`minecraft:waxed_oxidized_copper`|command.enum.item.minecraft:waxed_oxidized_copper|
   |`waxed_oxidized_copper`|command.enum.item.waxed_oxidized_copper|
   |`minecraft:oak_planks`|command.enum.item.minecraft:oak_planks|
   |`oak_planks`|command.enum.item.oak_planks|
   |`minecraft:stripped_oak_log`|command.enum.item.minecraft:stripped_oak_log|
   |`stripped_oak_log`|command.enum.item.stripped_oak_log|
+  |`minecraft:smooth_stone_slab`|command.enum.item.minecraft:smooth_stone_slab|
+  |`smooth_stone_slab`|command.enum.item.smooth_stone_slab|
   |`minecraft:polished_andesite`|command.enum.item.minecraft:polished_andesite|
   |`polished_andesite`|command.enum.item.polished_andesite|
   |`minecraft:sea_lantern`|command.enum.item.minecraft:sea_lantern|
@@ -10531,6 +10656,8 @@ command.replaceitem.4.description
   |`waxed_copper_door`|command.enum.item.waxed_copper_door|
   |`minecraft:birch_button`|command.enum.item.minecraft:birch_button|
   |`birch_button`|command.enum.item.birch_button|
+  |`minecraft:peony`|command.enum.item.minecraft:peony|
+  |`peony`|command.enum.item.peony|
   |`minecraft:command_block`|command.enum.item.minecraft:command_block|
   |`command_block`|command.enum.item.command_block|
   |`minecraft:polished_blackstone_button`|command.enum.item.minecraft:polished_blackstone_button|
@@ -10688,6 +10815,10 @@ command.replaceitem.4.description
   |`minecraft:tallgrass`|command.enum.item.minecraft:tallgrass|
   |`coral_block`|command.enum.item.coral_block|
   |`minecraft:coral_block`|command.enum.item.minecraft:coral_block|
+  |`double_plant`|command.enum.item.double_plant|
+  |`minecraft:double_plant`|command.enum.item.minecraft:double_plant|
+  |`stone_block_slab`|command.enum.item.stone_block_slab|
+  |`minecraft:stone_block_slab`|command.enum.item.minecraft:stone_block_slab|
   |`minecraft:chicken`|command.enum.item.minecraft:chicken|
   |`chicken`|command.enum.item.chicken|
   |`minecraft:rabbit`|command.enum.item.minecraft:rabbit|
@@ -11226,6 +11357,12 @@ command.replaceitem.4.description
   |`music_disc_pigstep`|command.enum.item.music_disc_pigstep|
   |`minecraft:music_disc_relic`|command.enum.item.minecraft:music_disc_relic|
   |`music_disc_relic`|command.enum.item.music_disc_relic|
+  |`minecraft:music_disc_creator`|command.enum.item.minecraft:music_disc_creator|
+  |`music_disc_creator`|command.enum.item.music_disc_creator|
+  |`minecraft:music_disc_creator_music_box`|command.enum.item.minecraft:music_disc_creator_music_box|
+  |`music_disc_creator_music_box`|command.enum.item.music_disc_creator_music_box|
+  |`minecraft:music_disc_precipice`|command.enum.item.minecraft:music_disc_precipice|
+  |`music_disc_precipice`|command.enum.item.music_disc_precipice|
   |`minecraft:disc_fragment_5`|command.enum.item.minecraft:disc_fragment_5|
   |`disc_fragment_5`|command.enum.item.disc_fragment_5|
   |`minecraft:glowstone_dust`|command.enum.item.minecraft:glowstone_dust|
@@ -11587,10 +11724,13 @@ command.replaceitem.4.description
   |`real_double_stone_slab2`|command.enum.item.real_double_stone_slab2|
   |`real_double_stone_slab3`|command.enum.item.real_double_stone_slab3|
   |`record_cat`|command.enum.item.record_cat|
+  |`record_creator`|command.enum.item.record_creator|
   |`record_13`|command.enum.item.record_13|
   |`fish`|command.enum.item.fish|
   |`clownfish`|command.enum.item.clownfish|
   |`muttoncooked`|command.enum.item.muttoncooked|
+  |`record_creator_music_box`|command.enum.item.record_creator_music_box|
+  |`record_precipice`|command.enum.item.record_precipice|
   |`appleenchanted`|command.enum.item.appleenchanted|
   |`fireworkscharge`|command.enum.item.fireworkscharge|
   |`fireworks`|command.enum.item.fireworks|
@@ -11622,7 +11762,6 @@ command.replaceitem.4.description
   |`dye`|command.enum.item.dye|
   |`banner_pattern`|command.enum.item.banner_pattern|
   |`spawn_egg`|command.enum.item.spawn_egg|
-  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
   |`minecraft:dye`|command.enum.item.minecraft:dye|
   |`minecraft:suspicious_stew`|command.enum.item.minecraft:suspicious_stew|
   |`suspicious_stew`|command.enum.item.suspicious_stew|
@@ -11631,6 +11770,7 @@ command.replaceitem.4.description
   |`minecraft:jigsaw`|command.enum.item.minecraft:jigsaw|
   |`jigsaw`|command.enum.item.jigsaw|
   |`minecraft:banner_pattern`|command.enum.item.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.item.minecraft:spawn_egg|
 
 
 `amount`：<!-- md:samp int -->

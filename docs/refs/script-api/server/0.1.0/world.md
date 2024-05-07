@@ -1,6 +1,6 @@
 # `World`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `World`类。script_api.mojang-minecraft.world.description
 
@@ -170,7 +170,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.mojang-minecraft.world.getplayers.options.description
 
@@ -210,7 +210,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.mojang-minecraft.world.playmusic.musicoptions.description
 
@@ -250,7 +250,7 @@ playSound(soundID: string, soundOptions?: SoundOptions): void
 ////
 
 //// define
-`soundOptions`：[`SoundOptions`](./soundoptions.md)|`undefined`
+`soundOptions`?：[`SoundOptions`](./soundoptions.md)＝`null`
 
 - script_api.mojang-minecraft.world.playsound.soundoptions.description
 
@@ -290,7 +290,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.mojang-minecraft.world.queuemusic.musicoptions.description
 

@@ -1,6 +1,6 @@
 # `TransactionManager`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `TransactionManager`类。script_api.@minecraft/server-editor-bindings.transactionmanager.description
 
@@ -36,7 +36,7 @@ addUserDefinedOperation(transactionHandlerId: UserDefinedTransactionHandlerId, o
 ////
 
 //// define
-`operationName`：`string`|`undefined`
+`operationName`?：`string`＝`null`
 
 - script_api.@minecraft/server-editor-bindings.transactionmanager.adduserdefinedoperation.operationname.description
 

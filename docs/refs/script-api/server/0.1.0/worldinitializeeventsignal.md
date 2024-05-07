@@ -1,6 +1,6 @@
 # `WorldInitializeEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `WorldInitializeEventSignal`类。script_api.mojang-minecraft.worldinitializeeventsignal.description
 

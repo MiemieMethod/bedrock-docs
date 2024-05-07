@@ -1,6 +1,6 @@
 # `ProbabilityBlockPaletteItem`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ProbabilityBlockPaletteItem`类，扩展自[`IBlockPaletteItem`](./iblockpaletteitem.md)。script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.description
 
@@ -60,7 +60,7 @@ new constructor(displayName?: string): ProbabilityBlockPaletteItem
 
 /// html | div.result
 //// define
-`displayName`：`string`|`undefined`
+`displayName`?：`string`＝`null`
 
 - script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.constructor.displayname.description
 

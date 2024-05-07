@@ -1,6 +1,6 @@
 # `GameTestDebug`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `GameTestDebug`类。script_api.@minecraft/server-gametest.gametestdebug.description
 

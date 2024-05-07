@@ -1,6 +1,6 @@
 # `Entity`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Entity`类。script_api.mojang-minecraft.entity.description
 
@@ -258,7 +258,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 ////
 
 //// define
-`amplifier`：`int32`
+`amplifier`：`int32`＝`0`∈[`0`, `255`]
 
 - script_api.mojang-minecraft.entity.addeffect.amplifier.description
 
@@ -266,7 +266,7 @@ addEffect(effectType: EffectType, duration: int32, amplifier: int32, showParticl
 ////
 
 //// define
-`showParticles`：`boolean`
+`showParticles`：`boolean`＝`True`
 
 - script_api.mojang-minecraft.entity.addeffect.showparticles.description
 
@@ -330,7 +330,7 @@ getBlockFromViewVector(options?: BlockRaycastOptions): Block | undefined
 
 /// html | div.result
 //// define
-`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
+`options`?：[`BlockRaycastOptions`](./blockraycastoptions.md)＝`null`
 
 - script_api.mojang-minecraft.entity.getblockfromviewvector.options.description
 
@@ -482,7 +482,7 @@ getEntitiesFromViewVector(options?: EntityRaycastOptions): Entity[]
 
 /// html | div.result
 //// define
-`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
+`options`?：[`EntityRaycastOptions`](./entityraycastoptions.md)＝`null`
 
 - script_api.mojang-minecraft.entity.getentitiesfromviewvector.options.description
 
@@ -866,7 +866,7 @@ teleport(location: Location, dimension: Dimension, xRotation: float, yRotation: 
 ////
 
 //// define
-`keepVelocity`：`boolean`
+`keepVelocity`：`boolean`＝`False`
 
 - script_api.mojang-minecraft.entity.teleport.keepvelocity.description
 
@@ -922,7 +922,7 @@ teleportFacing(location: Location, dimension: Dimension, facingLocation: Locatio
 ////
 
 //// define
-`keepVelocity`：`boolean`
+`keepVelocity`：`boolean`＝`False`
 
 - script_api.mojang-minecraft.entity.teleportfacing.keepvelocity.description
 

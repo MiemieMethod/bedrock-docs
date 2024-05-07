@@ -1,6 +1,6 @@
 # `ItemStack`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemStack`类。script_api.@minecraft/server.itemstack.description
 
@@ -206,7 +206,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 ////
 
 //// define
-`amount`：`int32`
+`amount`：`int32`＝`1`∈[`1`, `255`]
 
 - script_api.@minecraft/server.itemstack.constructor.amount.description
 
@@ -382,7 +382,7 @@ setLore(loreList?: string[]): void
 
 /// html | div.result
 //// define
-`loreList`：`string[]`|`undefined`
+`loreList`?：`string[]`＝`null`
 
 - script_api.@minecraft/server.itemstack.setlore.lorelist.description
 

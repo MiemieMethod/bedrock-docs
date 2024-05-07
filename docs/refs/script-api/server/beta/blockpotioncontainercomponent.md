@@ -1,6 +1,6 @@
 # `BlockPotionContainerComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockPotionContainerComponent`类，扩展自[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)。script_api.@minecraft/server.blockpotioncontainercomponent.description
 

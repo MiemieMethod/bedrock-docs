@@ -1,6 +1,6 @@
 # `Scoreboard`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Scoreboard`类。script_api.@minecraft/server.scoreboard.description
 
@@ -28,7 +28,7 @@ addObjective(objectiveId: string, displayName?: string): ScoreboardObjective
 ////
 
 //// define
-`displayName`：`string`|`undefined`
+`displayName`?：`string`＝`null`
 
 - script_api.@minecraft/server.scoreboard.addobjective.displayname.description
 

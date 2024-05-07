@@ -1,6 +1,6 @@
 # `CompoundBlockVolume`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `CompoundBlockVolume`类。script_api.@minecraft/server.compoundblockvolume.description
 
@@ -134,7 +134,7 @@ new constructor(origin?: Vector3): CompoundBlockVolume
 
 /// html | div.result
 //// define
-`origin`：[`Vector3`](./vector3.md)|`undefined`
+`origin`?：[`Vector3`](./vector3.md)＝`null`
 
 - script_api.@minecraft/server.compoundblockvolume.constructor.origin.description
 
@@ -342,7 +342,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 
 /// html | div.result
 //// define
-`forceRelativity`：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)|`undefined`
+`forceRelativity`?：[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)＝`null`
 
 - script_api.@minecraft/server.compoundblockvolume.peeklastvolume.forcerelativity.description
 
@@ -470,7 +470,7 @@ setOrigin(position: Vector3, preserveExistingVolumes?: boolean): void
 ////
 
 //// define
-`preserveExistingVolumes`：`boolean`|`undefined`
+`preserveExistingVolumes`?：`boolean`＝`null`
 
 - script_api.@minecraft/server.compoundblockvolume.setorigin.preserveexistingvolumes.description
 
@@ -510,7 +510,7 @@ translateOrigin(delta: Vector3, preserveExistingVolumes?: boolean): void
 ////
 
 //// define
-`preserveExistingVolumes`：`boolean`|`undefined`
+`preserveExistingVolumes`?：`boolean`＝`null`
 
 - script_api.@minecraft/server.compoundblockvolume.translateorigin.preserveexistingvolumes.description
 

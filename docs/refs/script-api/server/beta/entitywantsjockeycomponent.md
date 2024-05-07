@@ -1,6 +1,6 @@
 # `EntityWantsJockeyComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityWantsJockeyComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitywantsjockeycomponent.description
 

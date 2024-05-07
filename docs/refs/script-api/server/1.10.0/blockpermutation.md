@@ -1,6 +1,6 @@
 # `BlockPermutation`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockPermutation`类。代表方块的置换。
 
@@ -44,7 +44,7 @@ getItemStack(amount: int32): ItemStack | undefined
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`＝`1`∈[`1`, `255`]
 
 - 该物品堆叠所含物品的数量。
 
@@ -116,7 +116,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 ////
 
 //// define
-`states`：`Record<string, boolean | int32 | string>`|`undefined`
+`states`?：`Record<string, boolean | int32 | string>`＝`null`
 
 - 要测试的方块状态。
 
@@ -156,7 +156,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 ////
 
 //// define
-`states`：`Record<string, boolean | int32 | string>`|`undefined`
+`states`?：`Record<string, boolean | int32 | string>`＝`null`
 
 - 置换中的方块状态。
 

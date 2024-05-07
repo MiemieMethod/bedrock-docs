@@ -1,6 +1,6 @@
 # `System`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `System`类。script_api.@minecraft/server.system.description
 
@@ -88,7 +88,7 @@ clearJob(jobId: uint32): void
 
 /// html | div.result
 //// define
-`jobId`：`uint32`
+`jobId`：`uint32`∈[`0`, +∞]
 
 - script_api.@minecraft/server.system.clearjob.jobid.description
 
@@ -120,7 +120,7 @@ clearRun(runId: uint32): void
 
 /// html | div.result
 //// define
-`runId`：`uint32`
+`runId`：`uint32`∈[`0`, +∞]
 
 - script_api.@minecraft/server.system.clearrun.runid.description
 
@@ -192,7 +192,7 @@ runInterval(callback: () => void, tickInterval?: uint32): uint32
 ////
 
 //// define
-`tickInterval`：`uint32`|`undefined`
+`tickInterval`?：`uint32`＝`null`
 
 - script_api.@minecraft/server.system.runinterval.tickinterval.description
 
@@ -264,7 +264,7 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 ////
 
 //// define
-`tickDelay`：`uint32`|`undefined`
+`tickDelay`?：`uint32`＝`null`
 
 - script_api.@minecraft/server.system.runtimeout.tickdelay.description
 
@@ -275,6 +275,38 @@ runTimeout(callback: () => void, tickDelay?: uint32): uint32
 返回值：`uint32`
 
 - script_api.@minecraft/server.system.runtimeout.return
+
+
+////
+
+///
+
+
+/// define
+`waitTicks`
+
+
+///
+
+script_api.@minecraft/server.system.waitticks.description
+
+```js
+waitTicks(ticks: uint32): Promise<void>
+```
+
+/// html | div.result
+//// define
+`ticks`：`uint32`∈[`1`, +∞]
+
+- script_api.@minecraft/server.system.waitticks.ticks.description
+
+
+////
+
+//// define
+返回值：`Promise<void>`
+
+- script_api.@minecraft/server.system.waitticks.return
 
 
 ////

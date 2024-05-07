@@ -1,6 +1,6 @@
 # `Entity`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Entity`类。script_api.@minecraft/server.entity.description
 
@@ -172,7 +172,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 ////
 
 //// define
-`options`：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)|`undefined`
+`options`?：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)＝`null`
 
 - script_api.@minecraft/server.entity.applydamage.options.description
 

@@ -1,6 +1,6 @@
 # `WidgetGroup`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `WidgetGroup`类。script_api.@minecraft/server-editor-bindings.widgetgroup.description
 
@@ -84,7 +84,7 @@ createCustomWidget(customEntityName: string, location: Vector3, rotation?: Vecto
 ////
 
 //// define
-`rotation`：[`Vector2`](../../server/beta/vector2.md)|`undefined`
+`rotation`?：[`Vector2`](../../server/beta/vector2.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.rotation.description
 
@@ -92,7 +92,7 @@ createCustomWidget(customEntityName: string, location: Vector3, rotation?: Vecto
 ////
 
 //// define
-`options`：[`CustomWidgetCreateOptions`](./customwidgetcreateoptions.md)|`undefined`
+`options`?：[`CustomWidgetCreateOptions`](./customwidgetcreateoptions.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.options.description
 

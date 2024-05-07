@@ -1,6 +1,6 @@
 # `Player`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Player`类，扩展自[`Entity`](./entity.md)。script_api.@minecraft/server.player.description
 
@@ -183,6 +183,28 @@ read-only onScreenDisplay: ScreenDisplay;
 
 
 /// define
+`selectedSlotIndex`
+
+
+///
+
+```js
+selectedSlotIndex: int32;
+```
+
+/// html | div.result
+//// define
+`selectedSlotIndex`：`int32`
+
+- script_api.@minecraft/server.player.selectedslotindex.description
+
+
+////
+
+///
+
+
+/// define
 `totalXpNeededForNextLevel`
 
 
@@ -242,7 +264,7 @@ addExperience(amount: int32): uint32
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`∈[`-16777216`, `16777216`]
 
 - script_api.@minecraft/server.player.addexperience.amount.description
 
@@ -274,7 +296,7 @@ addLevels(amount: int32): int32
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`∈[`-16777216`, `16777216`]
 
 - script_api.@minecraft/server.player.addlevels.amount.description
 
@@ -285,6 +307,62 @@ addLevels(amount: int32): int32
 返回值：`int32`
 
 - script_api.@minecraft/server.player.addlevels.return
+
+
+////
+
+///
+
+
+/// define
+`getGameMode`
+
+
+///
+
+script_api.@minecraft/server.player.getgamemode.description
+
+```js
+getGameMode(): GameMode
+```
+
+/// html | div.result
+//// define
+返回值：[`GameMode`](./gamemode.md)
+
+- script_api.@minecraft/server.player.getgamemode.return
+
+
+////
+
+///
+
+
+/// define
+`getItemCooldown`
+
+
+///
+
+script_api.@minecraft/server.player.getitemcooldown.description
+
+```js
+getItemCooldown(cooldownCategory: string): int32
+```
+
+/// html | div.result
+//// define
+`cooldownCategory`：`string`
+
+- script_api.@minecraft/server.player.getitemcooldown.cooldowncategory.description
+
+
+////
+
+//// define
+返回值：`int32`
+
+- script_api.@minecraft/server.player.getitemcooldown.return
 
 
 ////
@@ -362,7 +440,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.@minecraft/server.player.playmusic.musicoptions.description
 
@@ -402,7 +480,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ////
 
 //// define
-`soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
+`soundOptions`?：[`PlayerSoundOptions`](./playersoundoptions.md)＝`null`
 
 - script_api.@minecraft/server.player.playsound.soundoptions.description
 
@@ -442,7 +520,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.@minecraft/server.player.queuemusic.musicoptions.description
 
@@ -517,6 +595,38 @@ sendMessage(message: (RawMessage | string)[] | RawMessage | string): void
 
 
 /// define
+`setGameMode`
+
+
+///
+
+script_api.@minecraft/server.player.setgamemode.description
+
+```js
+setGameMode(gameMode?: GameMode): void
+```
+
+/// html | div.result
+//// define
+`gameMode`?：[`GameMode`](./gamemode.md)＝`null`
+
+- script_api.@minecraft/server.player.setgamemode.gamemode.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.player.setgamemode.return
+
+
+////
+
+///
+
+
+/// define
 `setSpawnPoint`
 
 
@@ -530,7 +640,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 
 /// html | div.result
 //// define
-`spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
+`spawnPoint`?：[`DimensionLocation`](./dimensionlocation.md)＝`null`
 
 - script_api.@minecraft/server.player.setspawnpoint.spawnpoint.description
 
@@ -541,6 +651,46 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 返回值：`void`
 
 - script_api.@minecraft/server.player.setspawnpoint.return
+
+
+////
+
+///
+
+
+/// define
+`startItemCooldown`
+
+
+///
+
+script_api.@minecraft/server.player.startitemcooldown.description
+
+```js
+startItemCooldown(cooldownCategory: string, tickDuration: int32): void
+```
+
+/// html | div.result
+//// define
+`cooldownCategory`：`string`
+
+- script_api.@minecraft/server.player.startitemcooldown.cooldowncategory.description
+
+
+////
+
+//// define
+`tickDuration`：`int32`∈[`0`, `32767`]
+
+- script_api.@minecraft/server.player.startitemcooldown.tickduration.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.player.startitemcooldown.return
 
 
 ////

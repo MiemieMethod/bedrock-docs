@@ -1,6 +1,6 @@
 # `StructureManager`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `StructureManager`类。script_api.@minecraft/server.structuremanager.description
 
@@ -36,7 +36,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 ////
 
 //// define
-`saveMode`：[`StructureSaveMode`](./structuresavemode.md)
+`saveMode`：[`StructureSaveMode`](./structuresavemode.md)＝`0`
 
 - script_api.@minecraft/server.structuremanager.createempty.savemode.description
 
@@ -156,7 +156,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 ////
 
 //// define
-`options`：[`StructurePlaceOptions`](./structureplaceoptions.md)|`undefined`
+`options`?：[`StructurePlaceOptions`](./structureplaceoptions.md)＝`null`
 
 - script_api.@minecraft/server.structuremanager.place.options.description
 

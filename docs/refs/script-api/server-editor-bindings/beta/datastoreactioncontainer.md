@@ -1,6 +1,6 @@
 # `DataStoreActionContainer`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `DataStoreActionContainer`类。script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.description
 
@@ -68,7 +68,7 @@ removeActionFromControl(controlId: string, actionPayload?: string): void
 ////
 
 //// define
-`actionPayload`：`string`|`undefined`
+`actionPayload`?：`string`＝`null`
 
 - script_api.@minecraft/server-editor-bindings.datastoreactioncontainer.removeactionfromcontrol.actionpayload.description
 

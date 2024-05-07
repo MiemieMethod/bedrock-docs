@@ -1,6 +1,6 @@
 # `@minecraft/server-gametest`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `@minecraft/server-gametest`模块的`1.0.0-internal`版本，UUID为`6f4b6893-1bb6-42fd-b458-7fa3d0c89616`。该模块是script_api.@minecraft/server-gametest.description
 

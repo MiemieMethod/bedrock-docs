@@ -1,6 +1,6 @@
 # `ItemStack`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemStack`类。script_api.@minecraft/server.itemstack.description
 
@@ -254,7 +254,7 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 ////
 
 //// define
-`amount`：`int32`
+`amount`：`int32`＝`1`∈[`1`, `255`]
 
 - script_api.@minecraft/server.itemstack.constructor.amount.description
 
@@ -614,7 +614,7 @@ setCanDestroy(blockIdentifiers?: string[]): void
 
 /// html | div.result
 //// define
-`blockIdentifiers`：`string[]`|`undefined`
+`blockIdentifiers`?：`string[]`＝`null`
 
 - script_api.@minecraft/server.itemstack.setcandestroy.blockidentifiers.description
 
@@ -646,7 +646,7 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 
 /// html | div.result
 //// define
-`blockIdentifiers`：`string[]`|`undefined`
+`blockIdentifiers`?：`string[]`＝`null`
 
 - script_api.@minecraft/server.itemstack.setcanplaceon.blockidentifiers.description
 
@@ -686,7 +686,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
+`value`?：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)＝`null`
 
 - script_api.@minecraft/server.itemstack.setdynamicproperty.value.description
 
@@ -718,7 +718,7 @@ setLore(loreList?: string[]): void
 
 /// html | div.result
 //// define
-`loreList`：`string[]`|`undefined`
+`loreList`?：`string[]`＝`null`
 
 - script_api.@minecraft/server.itemstack.setlore.lorelist.description
 

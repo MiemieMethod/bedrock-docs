@@ -1,6 +1,6 @@
 # `GameRule`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `GameRule`枚举。script_api.@minecraft/server.gamerule.description
 
@@ -333,6 +333,17 @@ static read-only ShowBorderEffect = "showBorderEffect";
 
 ```js
 static read-only ShowCoordinates = "showCoordinates";
+```
+
+
+/// define
+`ShowDaysPlayed`
+
+
+///
+
+```js
+static read-only ShowDaysPlayed = "showDaysPlayed";
 ```
 
 

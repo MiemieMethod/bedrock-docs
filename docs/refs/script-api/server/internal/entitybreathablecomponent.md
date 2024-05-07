@@ -1,6 +1,6 @@
 # `EntityBreathableComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityBreathableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitybreathablecomponent.description
 
@@ -259,7 +259,7 @@ setAirSupply(value: int16): void
 
 /// html | div.result
 //// define
-`value`：`int16`
+`value`：`int16`∈[`-32768`, `32767`]
 
 - script_api.@minecraft/server.entitybreathablecomponent.setairsupply.value.description
 

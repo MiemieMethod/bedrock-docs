@@ -1,6 +1,6 @@
 # `EntityHealthChangedAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityHealthChangedAfterEventSignal`类。script_api.@minecraft/server.entityhealthchangedaftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: EntityHealthChangedAfterEvent) => void, options?: Enti
 ////
 
 //// define
-`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+`options`?：[`EntityEventOptions`](./entityeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.entityhealthchangedaftereventsignal.subscribe.options.description
 

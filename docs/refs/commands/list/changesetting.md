@@ -1,6 +1,6 @@
 # `/changesetting`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/changesetting`命令command.changesetting.description
 

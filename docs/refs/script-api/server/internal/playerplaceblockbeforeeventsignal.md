@@ -1,6 +1,6 @@
 # `PlayerPlaceBlockBeforeEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `PlayerPlaceBlockBeforeEventSignal`类。script_api.@minecraft/server.playerplaceblockbeforeeventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: PlayerPlaceBlockBeforeEvent) => void, options?: BlockE
 ////
 
 //// define
-`options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
+`options`?：[`BlockEventOptions`](./blockeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.playerplaceblockbeforeeventsignal.subscribe.options.description
 

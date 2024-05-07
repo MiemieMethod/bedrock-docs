@@ -1,6 +1,6 @@
 # `PlayerBreakBlockAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `PlayerBreakBlockAfterEventSignal`类。script_api.@minecraft/server.playerbreakblockaftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: PlayerBreakBlockAfterEvent) => void, options?: BlockEv
 ////
 
 //// define
-`options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
+`options`?：[`BlockEventOptions`](./blockeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.playerbreakblockaftereventsignal.subscribe.options.description
 

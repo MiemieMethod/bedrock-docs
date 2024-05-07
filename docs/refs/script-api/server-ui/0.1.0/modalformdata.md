@@ -1,6 +1,6 @@
 # `ModalFormData`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ModalFormData`类。script_api.mojang-minecraft-ui.modalformdata.description
 
@@ -60,7 +60,7 @@ dropdown(label: string, options: string[], defaultValueIndex?: int32): ModalForm
 ////
 
 //// define
-`defaultValueIndex`：`int32`|`undefined`
+`defaultValueIndex`?：`int32`＝`null`
 
 - script_api.mojang-minecraft-ui.modalformdata.dropdown.defaultvalueindex.description
 
@@ -188,7 +188,7 @@ slider(label: string, minimumValue: float, maximumValue: float, valueStep: float
 ////
 
 //// define
-`defaultValue`：`float`|`undefined`
+`defaultValue`?：`float`＝`null`
 
 - script_api.mojang-minecraft-ui.modalformdata.slider.defaultvalue.description
 
@@ -236,7 +236,7 @@ textField(label: string, placeholderText: string, defaultValue?: string): ModalF
 ////
 
 //// define
-`defaultValue`：`string`|`undefined`
+`defaultValue`?：`string`＝`null`
 
 - script_api.mojang-minecraft-ui.modalformdata.textfield.defaultvalue.description
 
@@ -308,7 +308,7 @@ toggle(label: string, defaultValue?: boolean): ModalFormData
 ////
 
 //// define
-`defaultValue`：`boolean`|`undefined`
+`defaultValue`?：`boolean`＝`null`
 
 - script_api.mojang-minecraft-ui.modalformdata.toggle.defaultvalue.description
 

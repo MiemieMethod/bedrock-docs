@@ -1,6 +1,6 @@
 # `Structure`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Structure`类。script_api.@minecraft/server.structure.description
 
@@ -162,7 +162,7 @@ saveAs(identifier: string, saveMode: StructureSaveMode): Structure
 ////
 
 //// define
-`saveMode`：[`StructureSaveMode`](./structuresavemode.md)
+`saveMode`：[`StructureSaveMode`](./structuresavemode.md)＝`1`
 
 - script_api.@minecraft/server.structure.saveas.savemode.description
 
@@ -213,7 +213,7 @@ saveToWorld(): void
 script_api.@minecraft/server.structure.setblockpermutation.description
 
 ```js
-setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, waterlogged: boolean): void
+setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation): void
 ```
 
 /// html | div.result
@@ -226,17 +226,9 @@ setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, wate
 ////
 
 //// define
-`blockPermutation`：[`BlockPermutation`](./blockpermutation.md)|`undefined`
+`blockPermutation`?：[`BlockPermutation`](./blockpermutation.md)＝`null`
 
 - script_api.@minecraft/server.structure.setblockpermutation.blockpermutation.description
-
-
-////
-
-//// define
-`waterlogged`：`boolean`
-
-- script_api.@minecraft/server.structure.setblockpermutation.waterlogged.description
 
 
 ////

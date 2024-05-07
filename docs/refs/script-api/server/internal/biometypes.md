@@ -1,6 +1,6 @@
 # `BiomeTypes`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BiomeTypes`类。Minecraft中可用生物群系的集合。
 

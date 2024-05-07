@@ -1,6 +1,6 @@
 # `DynamicPropertiesDefinition`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `DynamicPropertiesDefinition`类。script_api.mojang-minecraft.dynamicpropertiesdefinition.description
 
@@ -52,7 +52,7 @@ defineBoolean(identifier: string, defaultValue?: boolean): DynamicPropertiesDefi
 ////
 
 //// define
-`defaultValue`：`boolean`|`undefined`
+`defaultValue`?：`boolean`＝`null`
 
 - script_api.mojang-minecraft.dynamicpropertiesdefinition.defineboolean.defaultvalue.description
 
@@ -92,7 +92,7 @@ defineNumber(identifier: string, defaultValue?: float): DynamicPropertiesDefinit
 ////
 
 //// define
-`defaultValue`：`float`|`undefined`
+`defaultValue`?：`float`＝`null`
 
 - script_api.mojang-minecraft.dynamicpropertiesdefinition.definenumber.defaultvalue.description
 
@@ -132,7 +132,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 ////
 
 //// define
-`maxLength`：`uint32`
+`maxLength`：`uint32`∈[`0`, +∞]
 
 - script_api.mojang-minecraft.dynamicpropertiesdefinition.definestring.maxlength.description
 
@@ -140,7 +140,7 @@ defineString(identifier: string, maxLength: uint32, defaultValue?: string): Dyna
 ////
 
 //// define
-`defaultValue`：`string`|`undefined`
+`defaultValue`?：`string`＝`null`
 
 - script_api.mojang-minecraft.dynamicpropertiesdefinition.definestring.defaultvalue.description
 

@@ -1,6 +1,6 @@
 # `EntityHurtAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityHurtAfterEventSignal`类。script_api.@minecraft/server.entityhurtaftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: EntityHurtAfterEvent) => void, options?: EntityEventOp
 ////
 
 //// define
-`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+`options`?：[`EntityEventOptions`](./entityeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.entityhurtaftereventsignal.subscribe.options.description
 

@@ -1,6 +1,6 @@
 # `WidgetManager`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `WidgetManager`类。script_api.@minecraft/server-editor-bindings.widgetmanager.description
 
@@ -20,7 +20,7 @@ createGroup(options?: WidgetGroupCreateOptions): WidgetGroup
 
 /// html | div.result
 //// define
-`options`：[`WidgetGroupCreateOptions`](./widgetgroupcreateoptions.md)|`undefined`
+`options`?：[`WidgetGroupCreateOptions`](./widgetgroupcreateoptions.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.widgetmanager.creategroup.options.description
 

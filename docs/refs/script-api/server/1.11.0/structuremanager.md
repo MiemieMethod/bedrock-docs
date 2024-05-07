@@ -1,6 +1,6 @@
 # `StructureManager`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `StructureManager`类。script_api.@minecraft/server.structuremanager.description
 
@@ -36,7 +36,7 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 ////
 
 //// define
-`saveMode`：[`StructureSaveMode`](./structuresavemode.md)
+`saveMode`：[`StructureSaveMode`](./structuresavemode.md)＝`0`
 
 - script_api.@minecraft/server.structuremanager.createempty.savemode.description
 
@@ -47,6 +47,70 @@ createEmpty(identifier: string, size: Vector3, saveMode: StructureSaveMode): Str
 返回值：[`Structure`](./structure.md)
 
 - script_api.@minecraft/server.structuremanager.createempty.return
+
+
+////
+
+///
+
+
+/// define
+`createFromWorld`
+
+
+///
+
+script_api.@minecraft/server.structuremanager.createfromworld.description
+
+```js
+createFromWorld(identifier: string, dimension: Dimension, from: Vector3, to: Vector3, options?: StructureCreateOptions): Structure
+```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- script_api.@minecraft/server.structuremanager.createfromworld.identifier.description
+
+
+////
+
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- script_api.@minecraft/server.structuremanager.createfromworld.dimension.description
+
+
+////
+
+//// define
+`from`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.structuremanager.createfromworld.from.description
+
+
+////
+
+//// define
+`to`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.structuremanager.createfromworld.to.description
+
+
+////
+
+//// define
+`options`?：[`StructureCreateOptions`](./structurecreateoptions.md)＝`null`
+
+- script_api.@minecraft/server.structuremanager.createfromworld.options.description
+
+
+////
+
+//// define
+返回值：[`Structure`](./structure.md)
+
+- script_api.@minecraft/server.structuremanager.createfromworld.return
 
 
 ////
@@ -119,6 +183,30 @@ get(identifier: string): Structure | undefined
 
 
 /// define
+`getWorldStructureIds`
+
+
+///
+
+script_api.@minecraft/server.structuremanager.getworldstructureids.description
+
+```js
+getWorldStructureIds(): string[]
+```
+
+/// html | div.result
+//// define
+返回值：`string[]`
+
+- script_api.@minecraft/server.structuremanager.getworldstructureids.return
+
+
+////
+
+///
+
+
+/// define
 `place`
 
 
@@ -156,7 +244,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 ////
 
 //// define
-`options`：[`StructurePlaceOptions`](./structureplaceoptions.md)|`undefined`
+`options`?：[`StructurePlaceOptions`](./structureplaceoptions.md)＝`null`
 
 - script_api.@minecraft/server.structuremanager.place.options.description
 

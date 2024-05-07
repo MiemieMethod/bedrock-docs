@@ -1,6 +1,6 @@
 # `PlaytestGameOptions`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `PlaytestGameOptions`接口。script_api.@minecraft/server-editor-bindings.playtestgameoptions.description
 
@@ -43,6 +43,28 @@ difficulty: Difficulty | undefined;
 `difficulty`：[`Difficulty`](../../server/beta/difficulty.md)|`undefined`
 
 - script_api.@minecraft/server-editor-bindings.playtestgameoptions.difficulty.description
+
+
+////
+
+///
+
+
+/// define
+`dimensionId`
+
+
+///
+
+```js
+dimensionId: string | undefined;
+```
+
+/// html | div.result
+//// define
+`dimensionId`：`string`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.playtestgameoptions.dimensionid.description
 
 
 ////

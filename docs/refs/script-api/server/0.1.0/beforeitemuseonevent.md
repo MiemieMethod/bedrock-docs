@@ -1,6 +1,6 @@
 # `BeforeItemUseOnEvent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BeforeItemUseOnEvent`类，扩展自[`ItemUseOnEvent`](./itemuseonevent.md)。script_api.mojang-minecraft.beforeitemuseonevent.description
 

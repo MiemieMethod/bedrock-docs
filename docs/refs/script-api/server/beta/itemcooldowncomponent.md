@@ -1,6 +1,6 @@
 # `ItemCooldownComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemCooldownComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.@minecraft/server.itemcooldowncomponent.description
 

@@ -1,6 +1,6 @@
 # `ItemStopChargeEvent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemStopChargeEvent`类。script_api.mojang-minecraft.itemstopchargeevent.description
 

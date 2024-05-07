@@ -1,6 +1,6 @@
 # `Block`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Block`类。代表维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
 
@@ -198,7 +198,7 @@ above(steps: int32): Block | undefined
 
 /// html | div.result
 //// define
-`steps`：`int32`
+`steps`：`int32`＝`1`
 
 - 向Y轴正方向延伸的距离（以米为单位）。
 
@@ -230,7 +230,7 @@ below(steps: int32): Block | undefined
 
 /// html | div.result
 //// define
-`steps`：`int32`
+`steps`：`int32`＝`1`
 
 - 向Y轴负方向延伸的距离（以米为单位）。
 
@@ -310,7 +310,7 @@ east(steps: int32): Block | undefined
 
 /// html | div.result
 //// define
-`steps`：`int32`
+`steps`：`int32`＝`1`
 
 - 向X轴正方向延伸的距离（以米为单位）。
 
@@ -374,7 +374,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`＝`1`∈[`1`, `255`]
 
 - 该物品堆叠所含物品的数量。
 
@@ -382,7 +382,7 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 ////
 
 //// define
-`withData`：`boolean`
+`withData`：`boolean`＝`False`
 
 - 该物品堆叠是否附加用户数据。
 
@@ -494,7 +494,7 @@ north(steps: int32): Block | undefined
 
 /// html | div.result
 //// define
-`steps`：`int32`
+`steps`：`int32`＝`1`
 
 - 向Z轴负方向延伸的距离（以米为单位）。
 
@@ -590,7 +590,7 @@ south(steps: int32): Block | undefined
 
 /// html | div.result
 //// define
-`steps`：`int32`
+`steps`：`int32`＝`1`
 
 - 向Z轴正方向延伸的距离（以米为单位）。
 
@@ -622,7 +622,7 @@ west(steps: int32): Block | undefined
 
 /// html | div.result
 //// define
-`steps`：`int32`
+`steps`：`int32`＝`1`
 
 - 向X轴负方向延伸的距离（以米为单位）。
 

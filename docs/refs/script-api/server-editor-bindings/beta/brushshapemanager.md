@@ -1,6 +1,6 @@
 # `BrushShapeManager`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BrushShapeManager`类。script_api.@minecraft/server-editor-bindings.brushshapemanager.description
 

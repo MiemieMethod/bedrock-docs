@@ -1,6 +1,6 @@
 # `WorldBeforeEvents`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `WorldBeforeEvents`类。script_api.@minecraft/server.worldbeforeevents.description
 
@@ -131,6 +131,28 @@ read-only playerBreakBlock: PlayerBreakBlockBeforeEventSignal;
 `playerBreakBlock`：[`PlayerBreakBlockBeforeEventSignal`](./playerbreakblockbeforeeventsignal.md)
 
 - script_api.@minecraft/server.worldbeforeevents.playerbreakblock.description
+
+
+////
+
+///
+
+
+/// define
+`playerGameModeChange`
+
+
+///
+
+```js
+read-only playerGameModeChange: PlayerGameModeChangeBeforeEventSignal;
+```
+
+/// html | div.result
+//// define
+`playerGameModeChange`：[`PlayerGameModeChangeBeforeEventSignal`](./playergamemodechangebeforeeventsignal.md)
+
+- script_api.@minecraft/server.worldbeforeevents.playergamemodechange.description
 
 
 ////

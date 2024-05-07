@@ -1,6 +1,6 @@
 # `StringBlockProperty`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `StringBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。script_api.mojang-minecraft.stringblockproperty.description
 

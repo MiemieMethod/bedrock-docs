@@ -1,6 +1,6 @@
 # `ItemStack`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemStack`类。script_api.mojang-minecraft.itemstack.description
 
@@ -118,7 +118,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 ////
 
 //// define
-`amount`：`int32`
+`amount`：`int32`＝`1`∈[`0`, `255`]
 
 - script_api.mojang-minecraft.itemstack.constructor.amount.description
 
@@ -126,7 +126,7 @@ new constructor(itemType: ItemType | string, amount: int32, data: int32): ItemSt
 ////
 
 //// define
-`data`：`int32`
+`data`：`int32`＝`0`∈[`0`, `32767`]
 
 - script_api.mojang-minecraft.itemstack.constructor.data.description
 
@@ -270,7 +270,7 @@ setLore(loreList?: string[]): void
 
 /// html | div.result
 //// define
-`loreList`：`string[]`|`undefined`
+`loreList`?：`string[]`＝`null`
 
 - script_api.mojang-minecraft.itemstack.setlore.lorelist.description
 

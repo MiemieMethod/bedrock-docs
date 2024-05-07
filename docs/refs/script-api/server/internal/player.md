@@ -1,6 +1,6 @@
 # `Player`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Player`类，扩展自[`Entity`](./entity.md)。script_api.@minecraft/server.player.description
 
@@ -205,20 +205,20 @@ read-only onScreenDisplay: ScreenDisplay;
 
 
 /// define
-`selectedSlot`
+`selectedSlotIndex`
 
 
 ///
 
 ```js
-selectedSlot: int32;
+selectedSlotIndex: int32;
 ```
 
 /// html | div.result
 //// define
-`selectedSlot`：`int32`
+`selectedSlotIndex`：`int32`
 
-- script_api.@minecraft/server.player.selectedslot.description
+- script_api.@minecraft/server.player.selectedslotindex.description
 
 
 ////
@@ -286,7 +286,7 @@ addExperience(amount: int32): uint32
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`∈[`-16777216`, `16777216`]
 
 - script_api.@minecraft/server.player.addexperience.amount.description
 
@@ -318,7 +318,7 @@ addLevels(amount: int32): int32
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`∈[`-16777216`, `16777216`]
 
 - script_api.@minecraft/server.player.addlevels.amount.description
 
@@ -518,7 +518,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.@minecraft/server.player.playmusic.musicoptions.description
 
@@ -558,7 +558,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ////
 
 //// define
-`soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
+`soundOptions`?：[`PlayerSoundOptions`](./playersoundoptions.md)＝`null`
 
 - script_api.@minecraft/server.player.playsound.soundoptions.description
 
@@ -638,7 +638,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.@minecraft/server.player.queuemusic.musicoptions.description
 
@@ -726,7 +726,7 @@ setGameMode(gameMode?: GameMode): void
 
 /// html | div.result
 //// define
-`gameMode`：[`GameMode`](./gamemode.md)|`undefined`
+`gameMode`?：[`GameMode`](./gamemode.md)＝`null`
 
 - script_api.@minecraft/server.player.setgamemode.gamemode.description
 
@@ -790,7 +790,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 
 /// html | div.result
 //// define
-`spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
+`spawnPoint`?：[`DimensionLocation`](./dimensionlocation.md)＝`null`
 
 - script_api.@minecraft/server.player.setspawnpoint.spawnpoint.description
 
@@ -838,7 +838,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 ////
 
 //// define
-`molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
+`molangVariables`?：[`MolangVariableMap`](./molangvariablemap.md)＝`null`
 
 - script_api.@minecraft/server.player.spawnparticle.molangvariables.description
 
@@ -878,7 +878,7 @@ startItemCooldown(cooldownCategory: string, tickDuration: int32): void
 ////
 
 //// define
-`tickDuration`：`int32`
+`tickDuration`：`int32`∈[`0`, `32767`]
 
 - script_api.@minecraft/server.player.startitemcooldown.tickduration.description
 

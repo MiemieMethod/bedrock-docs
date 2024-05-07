@@ -1,6 +1,6 @@
 # `Dimension`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Dimension`类。script_api.mojang-minecraft.dimension.description
 
@@ -140,7 +140,7 @@ getBlockFromRay(location: Location, direction: Vector, options?: BlockRaycastOpt
 ////
 
 //// define
-`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
+`options`?：[`BlockRaycastOptions`](./blockraycastoptions.md)＝`null`
 
 - script_api.mojang-minecraft.dimension.getblockfromray.options.description
 
@@ -172,7 +172,7 @@ getEntities(options?: EntityQueryOptions): EntityIterator
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.mojang-minecraft.dimension.getentities.options.description
 
@@ -252,7 +252,7 @@ getEntitiesFromRay(location: Location, direction: Vector, options?: EntityRaycas
 ////
 
 //// define
-`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
+`options`?：[`EntityRaycastOptions`](./entityraycastoptions.md)＝`null`
 
 - script_api.mojang-minecraft.dimension.getentitiesfromray.options.description
 
@@ -284,7 +284,7 @@ getPlayers(options?: EntityQueryOptions): PlayerIterator
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.mojang-minecraft.dimension.getplayers.options.description
 

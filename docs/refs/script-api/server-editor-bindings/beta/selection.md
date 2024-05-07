@@ -1,6 +1,6 @@
 # `Selection`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Selection`类。script_api.@minecraft/server-editor-bindings.selection.description
 
@@ -274,7 +274,7 @@ peekLastVolume(forceRelativity?: CompoundBlockVolumePositionRelativity): Compoun
 
 /// html | div.result
 //// define
-`forceRelativity`：[`CompoundBlockVolumePositionRelativity`](../../server/beta/compoundblockvolumepositionrelativity.md)|`undefined`
+`forceRelativity`?：[`CompoundBlockVolumePositionRelativity`](../../server/beta/compoundblockvolumepositionrelativity.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.selection.peeklastvolume.forcerelativity.description
 

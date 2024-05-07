@@ -1,6 +1,6 @@
 # `WorldAfterEvents`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `WorldAfterEvents`类。script_api.@minecraft/server.worldafterevents.description
 
@@ -271,6 +271,28 @@ read-only explosion: ExplosionAfterEventSignal;
 
 
 /// define
+`gameRuleChange`
+
+
+///
+
+```js
+read-only gameRuleChange: GameRuleChangeAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`gameRuleChange`：[`GameRuleChangeAfterEventSignal`](./gamerulechangeaftereventsignal.md)
+
+- script_api.@minecraft/server.worldafterevents.gamerulechange.description
+
+
+////
+
+///
+
+
+/// define
 `itemCompleteUse`
 
 
@@ -527,6 +549,28 @@ read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal;
 `playerDimensionChange`：[`PlayerDimensionChangeAfterEventSignal`](./playerdimensionchangeaftereventsignal.md)
 
 - script_api.@minecraft/server.worldafterevents.playerdimensionchange.description
+
+
+////
+
+///
+
+
+/// define
+`playerGameModeChange`
+
+
+///
+
+```js
+read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`playerGameModeChange`：[`PlayerGameModeChangeAfterEventSignal`](./playergamemodechangeaftereventsignal.md)
+
+- script_api.@minecraft/server.worldafterevents.playergamemodechange.description
 
 
 ////

@@ -1,6 +1,6 @@
 # `Structure`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Structure`类。script_api.@minecraft/server.structure.description
 
@@ -133,6 +133,110 @@ isValid(): boolean
 返回值：`boolean`
 
 - script_api.@minecraft/server.structure.isvalid.return
+
+
+////
+
+///
+
+
+/// define
+`saveAs`
+
+
+///
+
+script_api.@minecraft/server.structure.saveas.description
+
+```js
+saveAs(identifier: string, saveMode: StructureSaveMode): Structure
+```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- script_api.@minecraft/server.structure.saveas.identifier.description
+
+
+////
+
+//// define
+`saveMode`：[`StructureSaveMode`](./structuresavemode.md)＝`1`
+
+- script_api.@minecraft/server.structure.saveas.savemode.description
+
+
+////
+
+//// define
+返回值：[`Structure`](./structure.md)
+
+- script_api.@minecraft/server.structure.saveas.return
+
+
+////
+
+///
+
+
+/// define
+`saveToWorld`
+
+
+///
+
+script_api.@minecraft/server.structure.savetoworld.description
+
+```js
+saveToWorld(): void
+```
+
+/// html | div.result
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.structure.savetoworld.return
+
+
+////
+
+///
+
+
+/// define
+`setBlockPermutation`
+
+
+///
+
+script_api.@minecraft/server.structure.setblockpermutation.description
+
+```js
+setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation): void
+```
+
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.structure.setblockpermutation.location.description
+
+
+////
+
+//// define
+`blockPermutation`?：[`BlockPermutation`](./blockpermutation.md)＝`null`
+
+- script_api.@minecraft/server.structure.setblockpermutation.blockpermutation.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.structure.setblockpermutation.return
 
 
 ////

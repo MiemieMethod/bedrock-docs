@@ -1,6 +1,6 @@
 # `/loot`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/loot`命令command.loot.description
 
@@ -156,6 +156,7 @@ command.loot.1.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -197,19 +198,18 @@ command.loot.1.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -218,6 +218,7 @@ command.loot.1.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -323,9 +324,10 @@ command.loot.1.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -548,8 +550,8 @@ command.loot.1.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -780,6 +782,7 @@ command.loot.1.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -794,7 +797,6 @@ command.loot.1.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -802,6 +804,7 @@ command.loot.1.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -898,9 +901,9 @@ command.loot.1.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -946,8 +949,8 @@ command.loot.1.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -989,6 +992,7 @@ command.loot.1.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -1001,11 +1005,8 @@ command.loot.1.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -1023,6 +1024,7 @@ command.loot.1.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -1033,6 +1035,8 @@ command.loot.1.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -1045,6 +1049,9 @@ command.loot.1.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -1053,7 +1060,13 @@ command.loot.1.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -1138,8 +1151,8 @@ command.loot.1.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -1172,6 +1185,8 @@ command.loot.1.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -1186,7 +1201,6 @@ command.loot.1.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -1235,7 +1249,6 @@ command.loot.1.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -1268,12 +1281,16 @@ command.loot.1.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -1522,7 +1539,6 @@ command.loot.1.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -1781,6 +1797,7 @@ command.loot.2.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -1822,19 +1839,18 @@ command.loot.2.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -1843,6 +1859,7 @@ command.loot.2.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -1948,9 +1965,10 @@ command.loot.2.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -2173,8 +2191,8 @@ command.loot.2.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -2405,6 +2423,7 @@ command.loot.2.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -2419,7 +2438,6 @@ command.loot.2.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -2427,6 +2445,7 @@ command.loot.2.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -2523,9 +2542,9 @@ command.loot.2.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -2571,8 +2590,8 @@ command.loot.2.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -2614,6 +2633,7 @@ command.loot.2.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -2626,11 +2646,8 @@ command.loot.2.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -2648,6 +2665,7 @@ command.loot.2.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -2658,6 +2676,8 @@ command.loot.2.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -2670,6 +2690,9 @@ command.loot.2.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -2678,7 +2701,13 @@ command.loot.2.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -2763,8 +2792,8 @@ command.loot.2.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -2797,6 +2826,8 @@ command.loot.2.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -2811,7 +2842,6 @@ command.loot.2.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -2860,7 +2890,6 @@ command.loot.2.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -2893,12 +2922,16 @@ command.loot.2.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -3147,7 +3180,6 @@ command.loot.2.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -3406,6 +3438,7 @@ command.loot.3.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -3447,19 +3480,18 @@ command.loot.3.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -3468,6 +3500,7 @@ command.loot.3.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -3573,9 +3606,10 @@ command.loot.3.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -3798,8 +3832,8 @@ command.loot.3.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -4030,6 +4064,7 @@ command.loot.3.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -4044,7 +4079,6 @@ command.loot.3.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -4052,6 +4086,7 @@ command.loot.3.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -4148,9 +4183,9 @@ command.loot.3.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -4196,8 +4231,8 @@ command.loot.3.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -4239,6 +4274,7 @@ command.loot.3.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -4251,11 +4287,8 @@ command.loot.3.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -4273,6 +4306,7 @@ command.loot.3.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -4283,6 +4317,8 @@ command.loot.3.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -4295,6 +4331,9 @@ command.loot.3.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -4303,7 +4342,13 @@ command.loot.3.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -4388,8 +4433,8 @@ command.loot.3.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -4422,6 +4467,8 @@ command.loot.3.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -4436,7 +4483,6 @@ command.loot.3.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -4485,7 +4531,6 @@ command.loot.3.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -4518,12 +4563,16 @@ command.loot.3.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -4772,7 +4821,6 @@ command.loot.3.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -5031,6 +5079,7 @@ command.loot.4.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -5072,19 +5121,18 @@ command.loot.4.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -5093,6 +5141,7 @@ command.loot.4.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -5198,9 +5247,10 @@ command.loot.4.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -5423,8 +5473,8 @@ command.loot.4.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -5655,6 +5705,7 @@ command.loot.4.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -5669,7 +5720,6 @@ command.loot.4.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -5677,6 +5727,7 @@ command.loot.4.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -5773,9 +5824,9 @@ command.loot.4.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -5821,8 +5872,8 @@ command.loot.4.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -5864,6 +5915,7 @@ command.loot.4.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -5876,11 +5928,8 @@ command.loot.4.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -5898,6 +5947,7 @@ command.loot.4.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -5908,6 +5958,8 @@ command.loot.4.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -5920,6 +5972,9 @@ command.loot.4.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -5928,7 +5983,13 @@ command.loot.4.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -6013,8 +6074,8 @@ command.loot.4.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -6047,6 +6108,8 @@ command.loot.4.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -6061,7 +6124,6 @@ command.loot.4.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -6110,7 +6172,6 @@ command.loot.4.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -6143,12 +6204,16 @@ command.loot.4.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -6397,7 +6462,6 @@ command.loot.4.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -6656,6 +6720,7 @@ command.loot.5.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -6697,19 +6762,18 @@ command.loot.5.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -6718,6 +6782,7 @@ command.loot.5.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -6823,9 +6888,10 @@ command.loot.5.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -7048,8 +7114,8 @@ command.loot.5.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -7280,6 +7346,7 @@ command.loot.5.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -7294,7 +7361,6 @@ command.loot.5.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -7302,6 +7368,7 @@ command.loot.5.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -7398,9 +7465,9 @@ command.loot.5.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -7446,8 +7513,8 @@ command.loot.5.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -7489,6 +7556,7 @@ command.loot.5.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -7501,11 +7569,8 @@ command.loot.5.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -7523,6 +7588,7 @@ command.loot.5.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -7533,6 +7599,8 @@ command.loot.5.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -7545,6 +7613,9 @@ command.loot.5.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -7553,7 +7624,13 @@ command.loot.5.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -7638,8 +7715,8 @@ command.loot.5.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -7672,6 +7749,8 @@ command.loot.5.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -7686,7 +7765,6 @@ command.loot.5.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -7735,7 +7813,6 @@ command.loot.5.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -7768,12 +7845,16 @@ command.loot.5.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -8022,7 +8103,6 @@ command.loot.5.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -8281,6 +8361,7 @@ command.loot.6.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -8322,19 +8403,18 @@ command.loot.6.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -8343,6 +8423,7 @@ command.loot.6.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -8448,9 +8529,10 @@ command.loot.6.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -8673,8 +8755,8 @@ command.loot.6.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -8905,6 +8987,7 @@ command.loot.6.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -8919,7 +9002,6 @@ command.loot.6.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -8927,6 +9009,7 @@ command.loot.6.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -9023,9 +9106,9 @@ command.loot.6.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -9071,8 +9154,8 @@ command.loot.6.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -9114,6 +9197,7 @@ command.loot.6.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -9126,11 +9210,8 @@ command.loot.6.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -9148,6 +9229,7 @@ command.loot.6.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -9158,6 +9240,8 @@ command.loot.6.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -9170,6 +9254,9 @@ command.loot.6.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -9178,7 +9265,13 @@ command.loot.6.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -9263,8 +9356,8 @@ command.loot.6.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -9297,6 +9390,8 @@ command.loot.6.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -9311,7 +9406,6 @@ command.loot.6.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -9360,7 +9454,6 @@ command.loot.6.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -9393,12 +9486,16 @@ command.loot.6.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -9647,7 +9744,6 @@ command.loot.6.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -9939,6 +10035,7 @@ command.loot.7.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -9980,19 +10077,18 @@ command.loot.7.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -10001,6 +10097,7 @@ command.loot.7.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -10106,9 +10203,10 @@ command.loot.7.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -10331,8 +10429,8 @@ command.loot.7.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -10563,6 +10661,7 @@ command.loot.7.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -10577,7 +10676,6 @@ command.loot.7.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -10585,6 +10683,7 @@ command.loot.7.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -10681,9 +10780,9 @@ command.loot.7.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -10729,8 +10828,8 @@ command.loot.7.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -10772,6 +10871,7 @@ command.loot.7.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -10784,11 +10884,8 @@ command.loot.7.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -10806,6 +10903,7 @@ command.loot.7.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -10816,6 +10914,8 @@ command.loot.7.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -10828,6 +10928,9 @@ command.loot.7.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -10836,7 +10939,13 @@ command.loot.7.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -10921,8 +11030,8 @@ command.loot.7.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -10955,6 +11064,8 @@ command.loot.7.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -10969,7 +11080,6 @@ command.loot.7.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -11018,7 +11128,6 @@ command.loot.7.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -11051,12 +11160,16 @@ command.loot.7.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -11305,7 +11418,6 @@ command.loot.7.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -11593,6 +11705,7 @@ command.loot.8.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -11634,19 +11747,18 @@ command.loot.8.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -11655,6 +11767,7 @@ command.loot.8.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -11760,9 +11873,10 @@ command.loot.8.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -11985,8 +12099,8 @@ command.loot.8.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -12217,6 +12331,7 @@ command.loot.8.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -12231,7 +12346,6 @@ command.loot.8.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -12239,6 +12353,7 @@ command.loot.8.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -12335,9 +12450,9 @@ command.loot.8.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -12383,8 +12498,8 @@ command.loot.8.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -12426,6 +12541,7 @@ command.loot.8.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -12438,11 +12554,8 @@ command.loot.8.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -12460,6 +12573,7 @@ command.loot.8.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -12470,6 +12584,8 @@ command.loot.8.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -12482,6 +12598,9 @@ command.loot.8.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -12490,7 +12609,13 @@ command.loot.8.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -12575,8 +12700,8 @@ command.loot.8.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -12609,6 +12734,8 @@ command.loot.8.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -12623,7 +12750,6 @@ command.loot.8.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -12672,7 +12798,6 @@ command.loot.8.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -12705,12 +12830,16 @@ command.loot.8.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -12959,7 +13088,6 @@ command.loot.8.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -13247,6 +13375,7 @@ command.loot.9.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -13288,19 +13417,18 @@ command.loot.9.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -13309,6 +13437,7 @@ command.loot.9.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -13414,9 +13543,10 @@ command.loot.9.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -13639,8 +13769,8 @@ command.loot.9.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -13871,6 +14001,7 @@ command.loot.9.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -13885,7 +14016,6 @@ command.loot.9.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -13893,6 +14023,7 @@ command.loot.9.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -13989,9 +14120,9 @@ command.loot.9.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -14037,8 +14168,8 @@ command.loot.9.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -14080,6 +14211,7 @@ command.loot.9.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -14092,11 +14224,8 @@ command.loot.9.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -14114,6 +14243,7 @@ command.loot.9.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -14124,6 +14254,8 @@ command.loot.9.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -14136,6 +14268,9 @@ command.loot.9.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -14144,7 +14279,13 @@ command.loot.9.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -14229,8 +14370,8 @@ command.loot.9.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -14263,6 +14404,8 @@ command.loot.9.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -14277,7 +14420,6 @@ command.loot.9.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -14326,7 +14468,6 @@ command.loot.9.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -14359,12 +14500,16 @@ command.loot.9.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -14613,7 +14758,6 @@ command.loot.9.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -14897,6 +15041,7 @@ command.loot.10.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -14938,19 +15083,18 @@ command.loot.10.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -14959,6 +15103,7 @@ command.loot.10.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -15064,9 +15209,10 @@ command.loot.10.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -15289,8 +15435,8 @@ command.loot.10.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -15521,6 +15667,7 @@ command.loot.10.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -15535,7 +15682,6 @@ command.loot.10.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -15543,6 +15689,7 @@ command.loot.10.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -15639,9 +15786,9 @@ command.loot.10.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -15687,8 +15834,8 @@ command.loot.10.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -15730,6 +15877,7 @@ command.loot.10.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -15742,11 +15890,8 @@ command.loot.10.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -15764,6 +15909,7 @@ command.loot.10.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -15774,6 +15920,8 @@ command.loot.10.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -15786,6 +15934,9 @@ command.loot.10.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -15794,7 +15945,13 @@ command.loot.10.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -15879,8 +16036,8 @@ command.loot.10.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -15913,6 +16070,8 @@ command.loot.10.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -15927,7 +16086,6 @@ command.loot.10.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -15976,7 +16134,6 @@ command.loot.10.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -16009,12 +16166,16 @@ command.loot.10.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -16263,7 +16424,6 @@ command.loot.10.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -16538,6 +16698,7 @@ command.loot.11.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -16579,19 +16740,18 @@ command.loot.11.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -16600,6 +16760,7 @@ command.loot.11.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -16705,9 +16866,10 @@ command.loot.11.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -16930,8 +17092,8 @@ command.loot.11.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -17162,6 +17324,7 @@ command.loot.11.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -17176,7 +17339,6 @@ command.loot.11.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -17184,6 +17346,7 @@ command.loot.11.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -17280,9 +17443,9 @@ command.loot.11.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -17328,8 +17491,8 @@ command.loot.11.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -17371,6 +17534,7 @@ command.loot.11.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -17383,11 +17547,8 @@ command.loot.11.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -17405,6 +17566,7 @@ command.loot.11.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -17415,6 +17577,8 @@ command.loot.11.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -17427,6 +17591,9 @@ command.loot.11.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -17435,7 +17602,13 @@ command.loot.11.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -17520,8 +17693,8 @@ command.loot.11.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -17554,6 +17727,8 @@ command.loot.11.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -17568,7 +17743,6 @@ command.loot.11.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -17617,7 +17791,6 @@ command.loot.11.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -17650,12 +17823,16 @@ command.loot.11.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -17904,7 +18081,6 @@ command.loot.11.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -18175,6 +18351,7 @@ command.loot.12.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -18216,19 +18393,18 @@ command.loot.12.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -18237,6 +18413,7 @@ command.loot.12.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -18342,9 +18519,10 @@ command.loot.12.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -18567,8 +18745,8 @@ command.loot.12.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -18799,6 +18977,7 @@ command.loot.12.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -18813,7 +18992,6 @@ command.loot.12.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -18821,6 +18999,7 @@ command.loot.12.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -18917,9 +19096,9 @@ command.loot.12.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -18965,8 +19144,8 @@ command.loot.12.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -19008,6 +19187,7 @@ command.loot.12.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -19020,11 +19200,8 @@ command.loot.12.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -19042,6 +19219,7 @@ command.loot.12.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -19052,6 +19230,8 @@ command.loot.12.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -19064,6 +19244,9 @@ command.loot.12.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -19072,7 +19255,13 @@ command.loot.12.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -19157,8 +19346,8 @@ command.loot.12.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -19191,6 +19380,8 @@ command.loot.12.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -19205,7 +19396,6 @@ command.loot.12.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -19254,7 +19444,6 @@ command.loot.12.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -19287,12 +19476,16 @@ command.loot.12.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -19541,7 +19734,6 @@ command.loot.12.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -19816,6 +20008,7 @@ command.loot.13.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -19857,19 +20050,18 @@ command.loot.13.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -19878,6 +20070,7 @@ command.loot.13.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -19983,9 +20176,10 @@ command.loot.13.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -20208,8 +20402,8 @@ command.loot.13.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -20440,6 +20634,7 @@ command.loot.13.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -20454,7 +20649,6 @@ command.loot.13.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -20462,6 +20656,7 @@ command.loot.13.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -20558,9 +20753,9 @@ command.loot.13.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -20606,8 +20801,8 @@ command.loot.13.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -20649,6 +20844,7 @@ command.loot.13.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -20661,11 +20857,8 @@ command.loot.13.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -20683,6 +20876,7 @@ command.loot.13.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -20693,6 +20887,8 @@ command.loot.13.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -20705,6 +20901,9 @@ command.loot.13.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -20713,7 +20912,13 @@ command.loot.13.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -20798,8 +21003,8 @@ command.loot.13.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -20832,6 +21037,8 @@ command.loot.13.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -20846,7 +21053,6 @@ command.loot.13.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -20895,7 +21101,6 @@ command.loot.13.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -20928,12 +21133,16 @@ command.loot.13.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -21182,7 +21391,6 @@ command.loot.13.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|
@@ -21453,6 +21661,7 @@ command.loot.14.description
   |`minecraft:hay_block`|command.enum.tool.minecraft:hay_block|
   |`minecraft:nautilus_shell`|command.enum.tool.minecraft:nautilus_shell|
   |`minecraft:wooden_shovel`|command.enum.tool.minecraft:wooden_shovel|
+  |`minecraft:music_disc_creator_music_box`|command.enum.tool.minecraft:music_disc_creator_music_box|
   |`minecraft:stonecutter_block`|command.enum.tool.minecraft:stonecutter_block|
   |`minecraft:exposed_copper`|command.enum.tool.minecraft:exposed_copper|
   |`minecraft:cooked_beef`|command.enum.tool.minecraft:cooked_beef|
@@ -21494,19 +21703,18 @@ command.loot.14.description
   |`minecraft:pumpkin_seeds`|command.enum.tool.minecraft:pumpkin_seeds|
   |`minecraft:element_2`|command.enum.tool.minecraft:element_2|
   |`minecraft:melon_seeds`|command.enum.tool.minecraft:melon_seeds|
-  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:raw_iron`|command.enum.tool.minecraft:raw_iron|
   |`minecraft:iron_axe`|command.enum.tool.minecraft:iron_axe|
   |`minecraft:nether_wart`|command.enum.tool.minecraft:nether_wart|
   |`minecraft:bamboo_double_slab`|command.enum.tool.minecraft:bamboo_double_slab|
   |`minecraft:element_35`|command.enum.tool.minecraft:element_35|
   |`minecraft:beetroot_seeds`|command.enum.tool.minecraft:beetroot_seeds|
-  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
-  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
   |`minecraft:iron_bars`|command.enum.tool.minecraft:iron_bars|
   |`minecraft:polar_bear_spawn_egg`|command.enum.tool.minecraft:polar_bear_spawn_egg|
   |`minecraft:pitcher_pod`|command.enum.tool.minecraft:pitcher_pod|
   |`minecraft:element_80`|command.enum.tool.minecraft:element_80|
+  |`minecraft:powder_snow`|command.enum.tool.minecraft:powder_snow|
+  |`minecraft:lime_carpet`|command.enum.tool.minecraft:lime_carpet|
   |`minecraft:iron_shovel`|command.enum.tool.minecraft:iron_shovel|
   |`minecraft:element_104`|command.enum.tool.minecraft:element_104|
   |`minecraft:zoglin_spawn_egg`|command.enum.tool.minecraft:zoglin_spawn_egg|
@@ -21515,6 +21723,7 @@ command.loot.14.description
   |`minecraft:mourner_pottery_sherd`|command.enum.tool.minecraft:mourner_pottery_sherd|
   |`minecraft:stone_shovel`|command.enum.tool.minecraft:stone_shovel|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.tool.minecraft:light_gray_stained_glass_pane|
+  |`minecraft:smooth_stone_slab`|command.enum.tool.minecraft:smooth_stone_slab|
   |`minecraft:melon_block`|command.enum.tool.minecraft:melon_block|
   |`minecraft:arrow`|command.enum.tool.minecraft:arrow|
   |`minecraft:oxeye_daisy`|command.enum.tool.minecraft:oxeye_daisy|
@@ -21620,9 +21829,10 @@ command.loot.14.description
   |`minecraft:hard_cyan_stained_glass_pane`|command.enum.tool.minecraft:hard_cyan_stained_glass_pane|
   |`minecraft:ender_eye`|command.enum.tool.minecraft:ender_eye|
   |`minecraft:diamond_helmet`|command.enum.tool.minecraft:diamond_helmet|
-  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:stone_pressure_plate`|command.enum.tool.minecraft:stone_pressure_plate|
   |`minecraft:diamond_chestplate`|command.enum.tool.minecraft:diamond_chestplate|
+  |`minecraft:rose_bush`|command.enum.tool.minecraft:rose_bush|
+  |`minecraft:sand`|command.enum.tool.minecraft:sand|
   |`minecraft:cut_copper_slab`|command.enum.tool.minecraft:cut_copper_slab|
   |`minecraft:axolotl_spawn_egg`|command.enum.tool.minecraft:axolotl_spawn_egg|
   |`minecraft:diamond_leggings`|command.enum.tool.minecraft:diamond_leggings|
@@ -21845,8 +22055,8 @@ command.loot.14.description
   |`minecraft:andesite`|command.enum.tool.minecraft:andesite|
   |`minecraft:bamboo_hanging_sign`|command.enum.tool.minecraft:bamboo_hanging_sign|
   |`minecraft:rib_armor_trim_smithing_template`|command.enum.tool.minecraft:rib_armor_trim_smithing_template|
-  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:fence_gate`|command.enum.tool.minecraft:fence_gate|
+  |`minecraft:skeleton_spawn_egg`|command.enum.tool.minecraft:skeleton_spawn_egg|
   |`minecraft:bleach`|command.enum.tool.minecraft:bleach|
   |`minecraft:spider_spawn_egg`|command.enum.tool.minecraft:spider_spawn_egg|
   |`minecraft:colored_torch_rg`|command.enum.tool.minecraft:colored_torch_rg|
@@ -22077,6 +22287,7 @@ command.loot.14.description
   |`minecraft:element_22`|command.enum.tool.minecraft:element_22|
   |`minecraft:ominous_bottle`|command.enum.tool.minecraft:ominous_bottle|
   |`minecraft:compound`|command.enum.tool.minecraft:compound|
+  |`minecraft:stone_brick_slab`|command.enum.tool.minecraft:stone_brick_slab|
   |`minecraft:ice_bomb`|command.enum.tool.minecraft:ice_bomb|
   |`minecraft:medicine`|command.enum.tool.minecraft:medicine|
   |`minecraft:hard_light_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_light_blue_stained_glass_pane|
@@ -22091,7 +22302,6 @@ command.loot.14.description
   |`minecraft:loom`|command.enum.tool.minecraft:loom|
   |`minecraft:polished_deepslate_double_slab`|command.enum.tool.minecraft:polished_deepslate_double_slab|
   |`minecraft:eye_armor_trim_smithing_template`|command.enum.tool.minecraft:eye_armor_trim_smithing_template|
-  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:netherite_axe`|command.enum.tool.minecraft:netherite_axe|
   |`minecraft:netherite_hoe`|command.enum.tool.minecraft:netherite_hoe|
   |`minecraft:black_candle_cake`|command.enum.tool.minecraft:black_candle_cake|
@@ -22099,6 +22309,7 @@ command.loot.14.description
   |`minecraft:mud`|command.enum.tool.minecraft:mud|
   |`minecraft:netherite_helmet`|command.enum.tool.minecraft:netherite_helmet|
   |`minecraft:netherite_scrap`|command.enum.tool.minecraft:netherite_scrap|
+  |`minecraft:quartz_slab`|command.enum.tool.minecraft:quartz_slab|
   |`minecraft:crimson_sign`|command.enum.tool.minecraft:crimson_sign|
   |`minecraft:concrete`|command.enum.tool.minecraft:concrete|
   |`minecraft:sponge`|command.enum.tool.minecraft:sponge|
@@ -22195,9 +22406,9 @@ command.loot.14.description
   |`minecraft:shelter_pottery_sherd`|command.enum.tool.minecraft:shelter_pottery_sherd|
   |`minecraft:sentry_armor_trim_smithing_template`|command.enum.tool.minecraft:sentry_armor_trim_smithing_template|
   |`minecraft:ward_armor_trim_smithing_template`|command.enum.tool.minecraft:ward_armor_trim_smithing_template|
-  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
-  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
   |`minecraft:red_stained_glass_pane`|command.enum.tool.minecraft:red_stained_glass_pane|
+  |`minecraft:bamboo_block`|command.enum.tool.minecraft:bamboo_block|
+  |`minecraft:tide_armor_trim_smithing_template`|command.enum.tool.minecraft:tide_armor_trim_smithing_template|
   |`minecraft:wayfinder_armor_trim_smithing_template`|command.enum.tool.minecraft:wayfinder_armor_trim_smithing_template|
   |`minecraft:red_carpet`|command.enum.tool.minecraft:red_carpet|
   |`minecraft:music_disc_relic`|command.enum.tool.minecraft:music_disc_relic|
@@ -22243,8 +22454,8 @@ command.loot.14.description
   |`minecraft:waxed_exposed_copper_door`|command.enum.tool.minecraft:waxed_exposed_copper_door|
   |`minecraft:waxed_oxidized_copper_door`|command.enum.tool.minecraft:waxed_oxidized_copper_door|
   |`minecraft:acacia_log`|command.enum.tool.minecraft:acacia_log|
-  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:nether_brick_stairs`|command.enum.tool.minecraft:nether_brick_stairs|
+  |`minecraft:white_wool`|command.enum.tool.minecraft:white_wool|
   |`minecraft:magenta_wool`|command.enum.tool.minecraft:magenta_wool|
   |`minecraft:yellow_wool`|command.enum.tool.minecraft:yellow_wool|
   |`minecraft:lime_wool`|command.enum.tool.minecraft:lime_wool|
@@ -22286,6 +22497,7 @@ command.loot.14.description
   |`minecraft:element_53`|command.enum.tool.minecraft:element_53|
   |`minecraft:pink_concrete`|command.enum.tool.minecraft:pink_concrete|
   |`minecraft:stonebrick`|command.enum.tool.minecraft:stonebrick|
+  |`minecraft:tall_grass`|command.enum.tool.minecraft:tall_grass|
   |`minecraft:brain_coral_block`|command.enum.tool.minecraft:brain_coral_block|
   |`minecraft:bubble_coral_block`|command.enum.tool.minecraft:bubble_coral_block|
   |`minecraft:horn_coral_block`|command.enum.tool.minecraft:horn_coral_block|
@@ -22298,11 +22510,8 @@ command.loot.14.description
   |`minecraft:lit_blast_furnace`|command.enum.tool.minecraft:lit_blast_furnace|
   |`minecraft:bamboo_stairs`|command.enum.tool.minecraft:bamboo_stairs|
   |`minecraft:coral_block`|command.enum.tool.minecraft:coral_block|
-  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
-  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
   |`minecraft:stone_block_slab2`|command.enum.tool.minecraft:stone_block_slab2|
   |`minecraft:leaves2`|command.enum.tool.minecraft:leaves2|
-  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:chiseled_polished_blackstone`|command.enum.tool.minecraft:chiseled_polished_blackstone|
   |`minecraft:stone_block_slab3`|command.enum.tool.minecraft:stone_block_slab3|
   |`minecraft:normal_stone_stairs`|command.enum.tool.minecraft:normal_stone_stairs|
@@ -22320,6 +22529,7 @@ command.loot.14.description
   |`minecraft:dead_brain_coral_fan`|command.enum.tool.minecraft:dead_brain_coral_fan|
   |`minecraft:dead_bubble_coral_fan`|command.enum.tool.minecraft:dead_bubble_coral_fan|
   |`minecraft:dead_horn_coral_fan`|command.enum.tool.minecraft:dead_horn_coral_fan|
+  |`minecraft:brick_slab`|command.enum.tool.minecraft:brick_slab|
   |`minecraft:lily_of_the_valley`|command.enum.tool.minecraft:lily_of_the_valley|
   |`minecraft:polished_blackstone_button`|command.enum.tool.minecraft:polished_blackstone_button|
   |`minecraft:sea_pickle`|command.enum.tool.minecraft:sea_pickle|
@@ -22330,6 +22540,8 @@ command.loot.14.description
   |`minecraft:oak_leaves`|command.enum.tool.minecraft:oak_leaves|
   |`minecraft:spruce_leaves`|command.enum.tool.minecraft:spruce_leaves|
   |`minecraft:jungle_leaves`|command.enum.tool.minecraft:jungle_leaves|
+  |`minecraft:leaves`|command.enum.tool.minecraft:leaves|
+  |`minecraft:stone_block_slab`|command.enum.tool.minecraft:stone_block_slab|
   |`minecraft:dark_oak_leaves`|command.enum.tool.minecraft:dark_oak_leaves|
   |`minecraft:azalea_leaves`|command.enum.tool.minecraft:azalea_leaves|
   |`minecraft:soul_fire`|command.enum.tool.minecraft:soul_fire|
@@ -22342,6 +22554,9 @@ command.loot.14.description
   |`minecraft:acacia_slab`|command.enum.tool.minecraft:acacia_slab|
   |`minecraft:redstone_lamp`|command.enum.tool.minecraft:redstone_lamp|
   |`minecraft:dark_oak_slab`|command.enum.tool.minecraft:dark_oak_slab|
+  |`minecraft:sandstone_slab`|command.enum.tool.minecraft:sandstone_slab|
+  |`minecraft:cobblestone_slab`|command.enum.tool.minecraft:cobblestone_slab|
+  |`minecraft:nether_brick_slab`|command.enum.tool.minecraft:nether_brick_slab|
   |`minecraft:nether_wart_block`|command.enum.tool.minecraft:nether_wart_block|
   |`minecraft:element_116`|command.enum.tool.minecraft:element_116|
   |`minecraft:crimson_roots`|command.enum.tool.minecraft:crimson_roots|
@@ -22350,7 +22565,13 @@ command.loot.14.description
   |`minecraft:allium`|command.enum.tool.minecraft:allium|
   |`minecraft:cornflower`|command.enum.tool.minecraft:cornflower|
   |`minecraft:lime_concrete`|command.enum.tool.minecraft:lime_concrete|
+  |`minecraft:large_fern`|command.enum.tool.minecraft:large_fern|
   |`minecraft:red_flower`|command.enum.tool.minecraft:red_flower|
+  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
+  |`minecraft:sunflower`|command.enum.tool.minecraft:sunflower|
+  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
+  |`minecraft:lilac`|command.enum.tool.minecraft:lilac|
+  |`minecraft:peony`|command.enum.tool.minecraft:peony|
   |`minecraft:daylight_detector`|command.enum.tool.minecraft:daylight_detector|
   |`minecraft:snow_layer`|command.enum.tool.minecraft:snow_layer|
   |`minecraft:red_nether_brick_stairs`|command.enum.tool.minecraft:red_nether_brick_stairs|
@@ -22435,8 +22656,8 @@ command.loot.14.description
   |`minecraft:item.dark_oak_door`|command.enum.tool.minecraft:item.dark_oak_door|
   |`minecraft:magenta_stained_glass_pane`|command.enum.tool.minecraft:magenta_stained_glass_pane|
   |`minecraft:light_block`|command.enum.tool.minecraft:light_block|
-  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:end_crystal`|command.enum.tool.minecraft:end_crystal|
+  |`minecraft:light_blue_stained_glass_pane`|command.enum.tool.minecraft:light_blue_stained_glass_pane|
   |`minecraft:hard_purple_stained_glass_pane`|command.enum.tool.minecraft:hard_purple_stained_glass_pane|
   |`minecraft:pink_stained_glass_pane`|command.enum.tool.minecraft:pink_stained_glass_pane|
   |`minecraft:cyan_stained_glass_pane`|command.enum.tool.minecraft:cyan_stained_glass_pane|
@@ -22469,6 +22690,8 @@ command.loot.14.description
   |`minecraft:stripped_birch_wood`|command.enum.tool.minecraft:stripped_birch_wood|
   |`minecraft:dark_oak_wood`|command.enum.tool.minecraft:dark_oak_wood|
   |`minecraft:stripped_dark_oak_wood`|command.enum.tool.minecraft:stripped_dark_oak_wood|
+  |`minecraft:music_disc_creator`|command.enum.tool.minecraft:music_disc_creator|
+  |`minecraft:music_disc_precipice`|command.enum.tool.minecraft:music_disc_precipice|
   |`minecraft:hard_white_stained_glass`|command.enum.tool.minecraft:hard_white_stained_glass|
   |`minecraft:packed_ice`|command.enum.tool.minecraft:packed_ice|
   |`minecraft:hard_orange_stained_glass`|command.enum.tool.minecraft:hard_orange_stained_glass|
@@ -22483,7 +22706,6 @@ command.loot.14.description
   |`minecraft:hard_stained_glass`|command.enum.tool.minecraft:hard_stained_glass|
   |`minecraft:element_84`|command.enum.tool.minecraft:element_84|
   |`minecraft:hard_yellow_stained_glass_pane`|command.enum.tool.minecraft:hard_yellow_stained_glass_pane|
-  |`minecraft:hard_pink_stained_glass_pane`|command.enum.tool.minecraft:hard_pink_stained_glass_pane|
   |`minecraft:hard_blue_stained_glass_pane`|command.enum.tool.minecraft:hard_blue_stained_glass_pane|
   |`minecraft:hard_stained_glass_pane`|command.enum.tool.minecraft:hard_stained_glass_pane|
   |`minecraft:crimson_slab`|command.enum.tool.minecraft:crimson_slab|
@@ -22532,7 +22754,6 @@ command.loot.14.description
   |`minecraft:element_70`|command.enum.tool.minecraft:element_70|
   |`minecraft:element_71`|command.enum.tool.minecraft:element_71|
   |`minecraft:element_72`|command.enum.tool.minecraft:element_72|
-  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:element_77`|command.enum.tool.minecraft:element_77|
   |`minecraft:crafter`|command.enum.tool.minecraft:crafter|
   |`minecraft:redstone_torch`|command.enum.tool.minecraft:redstone_torch|
@@ -22565,12 +22786,16 @@ command.loot.14.description
   |`minecraft:respawn_anchor`|command.enum.tool.minecraft:respawn_anchor|
   |`minecraft:crying_obsidian`|command.enum.tool.minecraft:crying_obsidian|
   |`minecraft:banner_pattern`|command.enum.tool.minecraft:banner_pattern|
+  |`minecraft:spawn_egg`|command.enum.tool.minecraft:spawn_egg|
   |`minecraft:glow_berries`|command.enum.tool.minecraft:glow_berries|
+  |`minecraft:birch_standing_sign`|command.enum.tool.minecraft:birch_standing_sign|
   |`minecraft:polished_basalt`|command.enum.tool.minecraft:polished_basalt|
   |`minecraft:nether_gold_ore`|command.enum.tool.minecraft:nether_gold_ore|
+  |`minecraft:item.warped_door`|command.enum.tool.minecraft:item.warped_door|
   |`minecraft:mangrove_trapdoor`|command.enum.tool.minecraft:mangrove_trapdoor|
   |`minecraft:piston_arm_collision`|command.enum.tool.minecraft:piston_arm_collision|
   |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.tool.minecraft:waxed_oxidized_chiseled_copper|
+  |`minecraft:dark_oak_button`|command.enum.tool.minecraft:dark_oak_button|
   |`minecraft:deepslate_copper_ore`|command.enum.tool.minecraft:deepslate_copper_ore|
   |`minecraft:target`|command.enum.tool.minecraft:target|
   |`minecraft:blackstone_double_slab`|command.enum.tool.minecraft:blackstone_double_slab|
@@ -22819,7 +23044,6 @@ command.loot.14.description
   |`minecraft:item.jungle_door`|command.enum.tool.minecraft:item.jungle_door|
   |`minecraft:glass`|command.enum.tool.minecraft:glass|
   |`minecraft:wither_rose`|command.enum.tool.minecraft:wither_rose|
-  |`minecraft:exposed_cut_copper`|command.enum.tool.minecraft:exposed_cut_copper|
   |`minecraft:waxed_weathered_cut_copper_stairs`|command.enum.tool.minecraft:waxed_weathered_cut_copper_stairs|
   |`minecraft:bamboo_mosaic_stairs`|command.enum.tool.minecraft:bamboo_mosaic_stairs|
   |`minecraft:polished_blackstone_pressure_plate`|command.enum.tool.minecraft:polished_blackstone_pressure_plate|

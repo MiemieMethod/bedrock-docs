@@ -1,6 +1,6 @@
 # `Dimension`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Dimension`类。script_api.@minecraft/server.dimension.description
 
@@ -82,7 +82,7 @@ containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks:
 ////
 
 //// define
-`allowUnloadedChunks`：`boolean`
+`allowUnloadedChunks`：`boolean`＝`False`
 
 - script_api.@minecraft/server.dimension.containsblock.allowunloadedchunks.description
 
@@ -122,7 +122,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 ////
 
 //// define
-`radius`：`float`
+`radius`：`float`∈[`0.0`, `1000.0`]
 
 - script_api.@minecraft/server.dimension.createexplosion.radius.description
 
@@ -130,7 +130,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 ////
 
 //// define
-`explosionOptions`：[`ExplosionOptions`](./explosionoptions.md)|`undefined`
+`explosionOptions`?：[`ExplosionOptions`](./explosionoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.createexplosion.explosionoptions.description
 
@@ -157,22 +157,14 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 script_api.@minecraft/server.dimension.fillblocks.description
 
 ```js
-fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | string, options?: BlockFillOptions): uint32
+fillBlocks(volume: BlockVolumeBase | CompoundBlockVolume, block: BlockPermutation | BlockType | string, options?: BlockFillOptions): ListBlockVolume
 ```
 
 /// html | div.result
 //// define
-`begin`：[`Vector3`](./vector3.md)
+`volume`：[`BlockVolumeBase`](./blockvolumebase.md)|[`CompoundBlockVolume`](./compoundblockvolume.md)
 
-- script_api.@minecraft/server.dimension.fillblocks.begin.description
-
-
-////
-
-//// define
-`end`：[`Vector3`](./vector3.md)
-
-- script_api.@minecraft/server.dimension.fillblocks.end.description
+- script_api.@minecraft/server.dimension.fillblocks.volume.description
 
 
 ////
@@ -186,7 +178,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 ////
 
 //// define
-`options`：[`BlockFillOptions`](./blockfilloptions.md)|`undefined`
+`options`?：[`BlockFillOptions`](./blockfilloptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.fillblocks.options.description
 
@@ -194,7 +186,7 @@ fillBlocks(begin: Vector3, end: Vector3, block: BlockPermutation | BlockType | s
 ////
 
 //// define
-返回值：`uint32`
+返回值：[`ListBlockVolume`](./listblockvolume.md)
 
 - script_api.@minecraft/server.dimension.fillblocks.return
 
@@ -234,7 +226,7 @@ findClosestBiome(pos: Vector3, biomeToFind: BiomeType | string, options?: BiomeS
 ////
 
 //// define
-`options`：[`BiomeSearchOptions`](./biomesearchoptions.md)|`undefined`
+`options`?：[`BiomeSearchOptions`](./biomesearchoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.findclosestbiome.options.description
 
@@ -285,6 +277,86 @@ getBlock(location: Vector3): Block | undefined
 
 
 /// define
+`getBlockAbove`
+
+
+///
+
+script_api.@minecraft/server.dimension.getblockabove.description
+
+```js
+getBlockAbove(location: Vector3, options?: BlockRaycastOptions): Block | undefined
+```
+
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.dimension.getblockabove.location.description
+
+
+////
+
+//// define
+`options`?：[`BlockRaycastOptions`](./blockraycastoptions.md)＝`null`
+
+- script_api.@minecraft/server.dimension.getblockabove.options.description
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- script_api.@minecraft/server.dimension.getblockabove.return
+
+
+////
+
+///
+
+
+/// define
+`getBlockBelow`
+
+
+///
+
+script_api.@minecraft/server.dimension.getblockbelow.description
+
+```js
+getBlockBelow(location: Vector3, options?: BlockRaycastOptions): Block | undefined
+```
+
+/// html | div.result
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.dimension.getblockbelow.location.description
+
+
+////
+
+//// define
+`options`?：[`BlockRaycastOptions`](./blockraycastoptions.md)＝`null`
+
+- script_api.@minecraft/server.dimension.getblockbelow.options.description
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- script_api.@minecraft/server.dimension.getblockbelow.return
+
+
+////
+
+///
+
+
+/// define
 `getBlockFromRay`
 
 
@@ -314,7 +386,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 ////
 
 //// define
-`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
+`options`?：[`BlockRaycastOptions`](./blockraycastoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getblockfromray.options.description
 
@@ -362,7 +434,7 @@ getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks: boo
 ////
 
 //// define
-`allowUnloadedChunks`：`boolean`
+`allowUnloadedChunks`：`boolean`＝`False`
 
 - script_api.@minecraft/server.dimension.getblocks.allowunloadedchunks.description
 
@@ -394,7 +466,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getentities.options.description
 
@@ -474,7 +546,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 ////
 
 //// define
-`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
+`options`?：[`EntityRaycastOptions`](./entityraycastoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getentitiesfromray.options.description
 
@@ -506,7 +578,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getplayers.options.description
 
@@ -517,6 +589,46 @@ getPlayers(options?: EntityQueryOptions): Player[]
 返回值：<code><a href="../player/">Player</a>[]</code>
 
 - script_api.@minecraft/server.dimension.getplayers.return
+
+
+////
+
+///
+
+
+/// define
+`getTopmostBlock`
+
+
+///
+
+script_api.@minecraft/server.dimension.gettopmostblock.description
+
+```js
+getTopmostBlock(locationXZ: VectorXZ, minHeight?: float): Block | undefined
+```
+
+/// html | div.result
+//// define
+`locationXZ`：[`VectorXZ`](./vectorxz.md)
+
+- script_api.@minecraft/server.dimension.gettopmostblock.locationxz.description
+
+
+////
+
+//// define
+`minHeight`?：`float`＝`null`
+
+- script_api.@minecraft/server.dimension.gettopmostblock.minheight.description
+
+
+////
+
+//// define
+返回值：[`Block`](./block.md)|`undefined`
+
+- script_api.@minecraft/server.dimension.gettopmostblock.return
 
 
 ////
@@ -578,7 +690,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 ////
 
 //// define
-`soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
+`soundOptions`?：[`WorldSoundOptions`](./worldsoundoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.playsound.soundoptions.description
 
@@ -762,7 +874,7 @@ setWeather(weatherType: WeatherType, duration?: int32): void
 ////
 
 //// define
-`duration`：`int32`|`undefined`
+`duration`?：`int32`＝`null`∈[`1`, `1000000`]
 
 - script_api.@minecraft/server.dimension.setweather.duration.description
 
@@ -810,7 +922,7 @@ spawnEntity(identifier: string, location: Vector3, options?: SpawnEntityOptions)
 ////
 
 //// define
-`options`：[`SpawnEntityOptions`](./spawnentityoptions.md)|`undefined`
+`options`?：[`SpawnEntityOptions`](./spawnentityoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.spawnentity.options.description
 
@@ -898,7 +1010,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 ////
 
 //// define
-`molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
+`molangVariables`?：[`MolangVariableMap`](./molangvariablemap.md)＝`null`
 
 - script_api.@minecraft/server.dimension.spawnparticle.molangvariables.description
 

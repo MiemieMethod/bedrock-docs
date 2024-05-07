@@ -1,6 +1,6 @@
 # `@minecraft/server`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `@minecraft/server`模块的`1.11.0`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
 
@@ -117,6 +117,7 @@ static read-only world: World;
 |[`BlockStateType`](./blockstatetype.md)||
 |[`BlockType`](./blocktype.md)||
 |[`BlockTypes`](./blocktypes.md)||
+|[`BlockVolumeBase`](./blockvolumebase.md)||
 |[`ButtonPushAfterEvent`](./buttonpushafterevent.md)||
 |[`ButtonPushAfterEventSignal`](./buttonpushaftereventsignal.md)||
 |[`Camera`](./camera.md)||
@@ -139,11 +140,13 @@ static read-only world: World;
 |[`EnchantmentType`](./enchantmenttype.md)||
 |[`EnchantmentTypes`](./enchantmenttypes.md)||
 |[`Entity`](./entity.md)||
+|[`EntityAddRiderComponent`](./entityaddridercomponent.md)||
 |[`EntityAttributeComponent`](./entityattributecomponent.md)||
 |[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)||
 |[`EntityCanClimbComponent`](./entitycanclimbcomponent.md)||
 |[`EntityCanFlyComponent`](./entitycanflycomponent.md)||
 |[`EntityCanPowerJumpComponent`](./entitycanpowerjumpcomponent.md)||
+|[`EntityColor2Component`](./entitycolor2component.md)||
 |[`EntityColorComponent`](./entitycolorcomponent.md)||
 |[`EntityComponent`](./entitycomponent.md)||
 |[`EntityDieAfterEvent`](./entitydieafterevent.md)||
@@ -189,6 +192,13 @@ static read-only world: World;
 |[`EntityMovementHoverComponent`](./entitymovementhovercomponent.md)||
 |[`EntityMovementJumpComponent`](./entitymovementjumpcomponent.md)||
 |[`EntityMovementSkipComponent`](./entitymovementskipcomponent.md)||
+|[`EntityNavigationClimbComponent`](./entitynavigationclimbcomponent.md)||
+|[`EntityNavigationComponent`](./entitynavigationcomponent.md)||
+|[`EntityNavigationFloatComponent`](./entitynavigationfloatcomponent.md)||
+|[`EntityNavigationFlyComponent`](./entitynavigationflycomponent.md)||
+|[`EntityNavigationGenericComponent`](./entitynavigationgenericcomponent.md)||
+|[`EntityNavigationHoverComponent`](./entitynavigationhovercomponent.md)||
+|[`EntityNavigationWalkComponent`](./entitynavigationwalkcomponent.md)||
 |[`EntityOnFireComponent`](./entityonfirecomponent.md)||
 |[`EntityProjectileComponent`](./entityprojectilecomponent.md)||
 |[`EntityPushThroughComponent`](./entitypushthroughcomponent.md)||
@@ -196,10 +206,13 @@ static read-only world: World;
 |[`EntityRemoveAfterEventSignal`](./entityremoveaftereventsignal.md)||
 |[`EntityRemoveBeforeEvent`](./entityremovebeforeevent.md)||
 |[`EntityRemoveBeforeEventSignal`](./entityremovebeforeeventsignal.md)||
+|[`EntityRideableComponent`](./entityrideablecomponent.md)||
+|[`EntityRidingComponent`](./entityridingcomponent.md)||
 |[`EntityScaleComponent`](./entityscalecomponent.md)||
 |[`EntitySkinIdComponent`](./entityskinidcomponent.md)||
 |[`EntitySpawnAfterEvent`](./entityspawnafterevent.md)||
 |[`EntitySpawnAfterEventSignal`](./entityspawnaftereventsignal.md)||
+|[`EntityTameMountComponent`](./entitytamemountcomponent.md)||
 |[`EntityType`](./entitytype.md)||
 |[`EntityTypeFamilyComponent`](./entitytypefamilycomponent.md)||
 |[`EntityTypes`](./entitytypes.md)||
@@ -211,6 +224,9 @@ static read-only world: World;
 |[`ExplosionBeforeEventSignal`](./explosionbeforeeventsignal.md)||
 |[`FeedItem`](./feeditem.md)||
 |[`FeedItemEffect`](./feeditemeffect.md)||
+|[`GameRuleChangeAfterEvent`](./gamerulechangeafterevent.md)||
+|[`GameRuleChangeAfterEventSignal`](./gamerulechangeaftereventsignal.md)||
+|[`GameRules`](./gamerules.md)||
 |[`IButtonPushAfterEventSignal`](./ibuttonpushaftereventsignal.md)||
 |[`ILeverActionAfterEventSignal`](./ileveractionaftereventsignal.md)||
 |[`IPlayerJoinAfterEventSignal`](./iplayerjoinaftereventsignal.md)||
@@ -245,6 +261,7 @@ static read-only world: World;
 |[`ItemUseOnBeforeEventSignal`](./itemuseonbeforeeventsignal.md)||
 |[`LeverActionAfterEvent`](./leveractionafterevent.md)||
 |[`LeverActionAfterEventSignal`](./leveractionaftereventsignal.md)||
+|[`ListBlockVolume`](./listblockvolume.md)||
 |[`MinecraftDimensionTypes`](./minecraftdimensiontypes.md)||
 |[`MolangVariableMap`](./molangvariablemap.md)||
 |[`PistonActivateAfterEvent`](./pistonactivateafterevent.md)||
@@ -256,6 +273,10 @@ static read-only world: World;
 |[`PlayerBreakBlockBeforeEventSignal`](./playerbreakblockbeforeeventsignal.md)||
 |[`PlayerDimensionChangeAfterEvent`](./playerdimensionchangeafterevent.md)||
 |[`PlayerDimensionChangeAfterEventSignal`](./playerdimensionchangeaftereventsignal.md)||
+|[`PlayerGameModeChangeAfterEvent`](./playergamemodechangeafterevent.md)||
+|[`PlayerGameModeChangeAfterEventSignal`](./playergamemodechangeaftereventsignal.md)||
+|[`PlayerGameModeChangeBeforeEvent`](./playergamemodechangebeforeevent.md)||
+|[`PlayerGameModeChangeBeforeEventSignal`](./playergamemodechangebeforeeventsignal.md)||
 |[`PlayerInteractWithBlockAfterEvent`](./playerinteractwithblockafterevent.md)||
 |[`PlayerInteractWithBlockAfterEventSignal`](./playerinteractwithblockaftereventsignal.md)||
 |[`PlayerInteractWithBlockBeforeEvent`](./playerinteractwithblockbeforeevent.md)||
@@ -289,6 +310,7 @@ static read-only world: World;
 |[`ScreenDisplay`](./screendisplay.md)||
 |[`ScriptEventCommandMessageAfterEvent`](./scripteventcommandmessageafterevent.md)||
 |[`ScriptEventCommandMessageAfterEventSignal`](./scripteventcommandmessageaftereventsignal.md)||
+|[`Seat`](./seat.md)||
 |[`Structure`](./structure.md)||
 |[`StructureManager`](./structuremanager.md)||
 |[`System`](./system.md)||
@@ -376,12 +398,14 @@ static read-only world: World;
 |[`EquipmentSlot`](./equipmentslot.md)||
 |[`FluidType`](./fluidtype.md)||
 |[`GameMode`](./gamemode.md)||
+|[`GameRule`](./gamerule.md)||
 |[`HudElement`](./hudelement.md)||
 |[`HudVisibility`](./hudvisibility.md)||
 |[`ItemComponentTypes`](./itemcomponenttypes.md)||
 |[`ItemLockMode`](./itemlockmode.md)||
 |[`MoonPhase`](./moonphase.md)||
 |[`ObjectiveSortOrder`](./objectivesortorder.md)||
+|[`PaletteColor`](./palettecolor.md)||
 |[`ScoreboardIdentityType`](./scoreboardidentitytype.md)||
 |[`ScriptEventSource`](./scripteventsource.md)||
 |[`SignSide`](./signside.md)||

@@ -1,6 +1,6 @@
 # `PlayerIterator`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `PlayerIterator`类，实现了<code>Iterator&lt;<a href="../player/">Player</a>&gt;</code>。script_api.@minecraft/server.playeriterator.description
 

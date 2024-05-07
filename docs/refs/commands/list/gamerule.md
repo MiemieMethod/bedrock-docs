@@ -1,6 +1,6 @@
 # `/gamerule`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/gamerule`命令command.gamerule.description
 
@@ -58,6 +58,7 @@ command.gamerule.2.description
   |`mobgriefing`|command.enum.boolgamerule.mobgriefing|
   |`pvp`|command.enum.boolgamerule.pvp|
   |`showcoordinates`|command.enum.boolgamerule.showcoordinates|
+  |`showdaysplayed`|command.enum.boolgamerule.showdaysplayed|
   |`naturalregeneration`|command.enum.boolgamerule.naturalregeneration|
   |`tntexplodes`|command.enum.boolgamerule.tntexplodes|
   |`sendcommandfeedback`|command.enum.boolgamerule.sendcommandfeedback|

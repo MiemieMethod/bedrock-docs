@@ -1,6 +1,6 @@
 # `/recipe`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/recipe`命令command.recipe.description
 
@@ -34,8 +34,10 @@ command.recipe.1.description
   |值|描述|
   |---|---|
   |`*`|command.enum.unlockablerecipevalues.*|
+  |`minecraft:armor_stand`|command.enum.unlockablerecipevalues.minecraft:armor_stand|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate_waxed`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate_waxed|
+  |`minecraft:chiseled_nether_bricks`|command.enum.unlockablerecipevalues.minecraft:chiseled_nether_bricks|
   |`minecraft:chiseled_tuff`|command.enum.unlockablerecipevalues.minecraft:chiseled_tuff|
   |`minecraft:chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:chiseled_tuff_bricks|
   |`minecraft:crafter`|command.enum.unlockablerecipevalues.minecraft:crafter|
@@ -44,46 +46,66 @@ command.recipe.1.description
   |`minecraft:copper_door`|command.enum.unlockablerecipevalues.minecraft:copper_door|
   |`minecraft:copper_grate`|command.enum.unlockablerecipevalues.minecraft:copper_grate|
   |`minecraft:copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:copper_trapdoor|
+  |`minecraft:exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:exposed_chiseled_copper|
   |`minecraft:exposed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_bulb|
-  |`minecraft:exposed_copper_door`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_door|
   |`minecraft:exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_grate|
-  |`minecraft:exposed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_trapdoor|
+  |`minecraft:oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:oxidized_chiseled_copper|
   |`minecraft:oxidized_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_bulb|
-  |`minecraft:oxidized_copper_door`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_door|
   |`minecraft:oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_grate|
-  |`minecraft:oxidized_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_trapdoor|
-  |`minecraft:crafting_table_waxed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_chiseled_copper|
+  |`minecraft:waxed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_chiseled_copper|
   |`minecraft:waxed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_copper_bulb|
   |`minecraft:crafting_table_waxed_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_copper_door|
-  |`minecraft:crafting_table_waxed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_copper_trapdoor|
+  |`minecraft:waxed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_copper_grate|
+  |`minecraft:waxed_exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_chiseled_copper|
   |`minecraft:waxed_exposed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_copper_bulb|
-  |`minecraft:crafting_table_waxed_exposed_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_exposed_copper_door|
-  |`minecraft:crafting_table_waxed_exposed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_exposed_copper_trapdoor|
+  |`minecraft:waxed_exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_copper_grate|
+  |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_chiseled_copper|
   |`minecraft:waxed_oxidized_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_copper_bulb|
-  |`minecraft:crafting_table_waxed_oxidized_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_oxidized_copper_door|
-  |`minecraft:crafting_table_waxed_oxidized_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_oxidized_copper_trapdoor|
+  |`minecraft:waxed_oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_copper_grate|
+  |`minecraft:waxed_weathered_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_chiseled_copper|
   |`minecraft:waxed_weathered_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_copper_bulb|
-  |`minecraft:crafting_table_waxed_weathered_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_weathered_copper_door|
-  |`minecraft:crafting_table_waxed_weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_weathered_copper_trapdoor|
+  |`minecraft:waxed_weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_copper_grate|
+  |`minecraft:weathered_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:weathered_chiseled_copper|
   |`minecraft:weathered_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_bulb|
-  |`minecraft:weathered_copper_door`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_door|
   |`minecraft:weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_grate|
-  |`minecraft:weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_trapdoor|
   |`minecraft:flow_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:flow_armor_trim_smithing_template_duplicate|
   |`minecraft:mace`|command.enum.unlockablerecipevalues.minecraft:mace|
+  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
+  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
   |`minecraft:polished_tuff`|command.enum.unlockablerecipevalues.minecraft:polished_tuff|
   |`minecraft:polished_tuff_slab`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_slab|
   |`minecraft:polished_tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_stairs|
   |`minecraft:polished_tuff_wall`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_wall|
+  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
+  |`minecraft:stonecutter_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab|
+  |`minecraft:stonecutter_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobbledouble_stone_slab|
   |`minecraft:stonecutter_copper_block_to_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_chiseled_copper|
   |`minecraft:stonecutter_copper_block_to_copper_grate`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_copper_grate|
   |`minecraft:stonecutter_cut_copper_to_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cut_copper_to_chiseled_copper|
   |`minecraft:stonecutter_exposed_copper_to_exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_exposed_chiseled_copper|
   |`minecraft:stonecutter_exposed_copper_to_exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_exposed_copper_grate|
   |`minecraft:stonecutter_exposed_cut_copper_to_exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_cut_copper_to_exposed_chiseled_copper|
+  |`minecraft:stonecutter_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_slab|
   |`minecraft:stonecutter_oxidized_copper_to_oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_oxidized_chiseled_copper|
   |`minecraft:stonecutter_oxidized_copper_to_oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_oxidized_copper_grate|
   |`minecraft:stonecutter_oxidized_cut_copper_to_oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_cut_copper_to_oxidized_chiseled_copper|
+  |`minecraft:stonecutter_polished_tuff_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_chiseled_tuff_bricks|
+  |`minecraft:stonecutter_polished_tuff_to_polished_tuff_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_polished_tuff_slab|
+  |`minecraft:stonecutter_polished_tuff_to_polished_tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_polished_tuff_stairs|
+  |`minecraft:stonecutter_polished_tuff_to_polished_tuff_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_polished_tuff_wall|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_bricks|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_brick_slab|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_brick_stairs|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_brick_wall|
+  |`minecraft:stonecutter_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_slab|
+  |`minecraft:stonecutter_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sanddouble_stone_slab|
+  |`minecraft:stonecutter_smooth_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_double_stone_slab|
+  |`minecraft:stonecutter_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab|
+  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
+  |`minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks|
+  |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab|
+  |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs|
+  |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_wall|
   |`minecraft:stonecutter_tuff_to_chiseled_tuff`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_to_chiseled_tuff|
   |`minecraft:stonecutter_tuff_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_to_chiseled_tuff_bricks|
   |`minecraft:stonecutter_tuff_to_polished_tuff`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_to_polished_tuff|
@@ -119,23 +141,28 @@ command.recipe.1.description
   |`minecraft:tuff_slab`|command.enum.unlockablerecipevalues.minecraft:tuff_slab|
   |`minecraft:tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:tuff_stairs|
   |`minecraft:tuff_wall`|command.enum.unlockablerecipevalues.minecraft:tuff_wall|
+  |`minecraft:waxing_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxing_chiseled_copper|
   |`minecraft:waxing_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_bulb|
   |`minecraft:waxing_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_door|
   |`minecraft:waxing_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_grate|
   |`minecraft:waxing_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_trapdoor|
+  |`minecraft:waxed_exposed_chiseled_copper_from_honeycomb`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_chiseled_copper_from_honeycomb|
   |`minecraft:waxing_exposed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_bulb|
   |`minecraft:waxing_exposed_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_door|
   |`minecraft:waxing_exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_grate|
   |`minecraft:waxing_exposed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_trapdoor|
+  |`minecraft:waxed_oxidized_chiseled_copper_from_honeycomb`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_chiseled_copper_from_honeycomb|
   |`minecraft:waxing_oxidized_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_bulb|
   |`minecraft:waxing_oxidized_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_door|
   |`minecraft:waxing_oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_grate|
   |`minecraft:waxing_oxidized_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_trapdoor|
+  |`minecraft:waxed_weathered_chiseled_copper_from_honeycomb`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_chiseled_copper_from_honeycomb|
   |`minecraft:waxing_weathered_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_bulb|
   |`minecraft:waxing_weathered_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_door|
   |`minecraft:waxing_weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_grate|
   |`minecraft:waxing_weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_trapdoor|
   |`minecraft:wind_charge`|command.enum.unlockablerecipevalues.minecraft:wind_charge|
+  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
   |`minecraft:banner_pattern_flower`|command.enum.unlockablerecipevalues.minecraft:banner_pattern_flower|
   |`minecraft:blue_dye_from_cornflower`|command.enum.unlockablerecipevalues.minecraft:blue_dye_from_cornflower|
   |`minecraft:WorkBench_recipeId_from_oak`|command.enum.unlockablerecipevalues.minecraft:workbench_recipeid_from_oak|
@@ -242,7 +269,6 @@ command.recipe.1.description
   |`minecraft:andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:andesite_stairs|
   |`minecraft:andesite_wall`|command.enum.unlockablerecipevalues.minecraft:andesite_wall|
   |`minecraft:anvil`|command.enum.unlockablerecipevalues.minecraft:anvil|
-  |`minecraft:armor_stand`|command.enum.unlockablerecipevalues.minecraft:armor_stand|
   |`minecraft:arrow`|command.enum.unlockablerecipevalues.minecraft:arrow|
   |`minecraft:bamboo_block`|command.enum.unlockablerecipevalues.minecraft:bamboo_block|
   |`minecraft:bamboo_button`|command.enum.unlockablerecipevalues.minecraft:bamboo_button|
@@ -368,7 +394,6 @@ command.recipe.1.description
   |`minecraft:chiseled_bookshelf`|command.enum.unlockablerecipevalues.minecraft:chiseled_bookshelf|
   |`minecraft:chiseled_deepslate`|command.enum.unlockablerecipevalues.minecraft:chiseled_deepslate|
   |`minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting|
-  |`minecraft:chiseled_nether_bricks`|command.enum.unlockablerecipevalues.minecraft:chiseled_nether_bricks|
   |`minecraft:chiseled_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:chiseled_polished_blackstone|
   |`minecraft:clay`|command.enum.unlockablerecipevalues.minecraft:clay|
   |`minecraft:clock`|command.enum.unlockablerecipevalues.minecraft:clock|
@@ -671,7 +696,6 @@ command.recipe.1.description
   |`minecraft:magenta_dye_from_lapis_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_ink_bonemeal|
   |`minecraft:magenta_dye_from_lapis_ink_white`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_ink_white|
   |`minecraft:magenta_dye_from_lapis_red_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_red_pink|
-  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
   |`minecraft:magenta_dye_from_purple_and_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_purple_and_pink|
   |`minecraft:magenta_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_hardened_clay|
   |`minecraft:magma`|command.enum.unlockablerecipevalues.minecraft:magma|
@@ -749,7 +773,6 @@ command.recipe.1.description
   |`minecraft:pink_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:pink_carpet_from_white|
   |`minecraft:pink_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:pink_concrete_powder|
   |`minecraft:pink_dye`|command.enum.unlockablerecipevalues.minecraft:pink_dye|
-  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
   |`minecraft:pink_dye_from_pink_petals`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_pink_petals|
   |`minecraft:pink_dye_from_red_bonemeal`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_red_bonemeal|
   |`minecraft:pink_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:pink_stained_hardened_clay|
@@ -826,7 +849,6 @@ command.recipe.1.description
   |`minecraft:red_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:red_carpet_from_white|
   |`minecraft:red_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:red_concrete_powder|
   |`minecraft:red_dye_from_beetroot`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_beetroot|
-  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
   |`minecraft:red_nether_brick`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick|
   |`minecraft:red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_stairs|
   |`minecraft:red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_wall|
@@ -893,7 +915,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_blackstone_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_stairs_from_blackstone|
   |`minecraft:stonecutter_blackstone_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_wall_from_blackstone|
   |`minecraft:stonecutter_bricks_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_bricks_from_polished_blackstone|
-  |`minecraft:stonecutter_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab|
   |`minecraft:stonecutter_brick_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab_from_polished_blackstone|
   |`minecraft:stonecutter_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs|
   |`minecraft:stonecutter_brick_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs_from_polished_blackstone|
@@ -902,7 +923,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_chiseled_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_from_polished_blackstone|
   |`minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick|
   |`minecraft:stonecutter_chiseled_polished_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_polished_from_blackstone|
-  |`minecraft:stonecutter_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobbledouble_stone_slab|
   |`minecraft:stonecutter_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_stairs|
   |`minecraft:stonecutter_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_wall|
   |`minecraft:stonecutter_copper_block_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper|
@@ -939,7 +959,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_mud_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_slab|
   |`minecraft:stonecutter_mud_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_stairs|
   |`minecraft:stonecutter_mud_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_wall|
-  |`minecraft:stonecutter_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_slab|
   |`minecraft:stonecutter_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_stairs|
   |`minecraft:stonecutter_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_wall|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper|
@@ -982,7 +1001,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_quartz_bricks_from_quartz_block`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_bricks_from_quartz_block|
   |`minecraft:stonecutter_quartz_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_chiseled|
   |`minecraft:stonecutter_quartz_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_lines|
-  |`minecraft:stonecutter_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_slab|
   |`minecraft:stonecutter_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_stairs|
   |`minecraft:stonecutter_red_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_slab|
   |`minecraft:stonecutter_red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_stairs|
@@ -994,7 +1012,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_wall|
   |`minecraft:stonecutter_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_cut|
   |`minecraft:stonecutter_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_heiroglyphs|
-  |`minecraft:stonecutter_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sanddouble_stone_slab|
   |`minecraft:stonecutter_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_stairs|
   |`minecraft:stonecutter_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_wall|
   |`minecraft:stonecutter_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_slab_from_polished_blackstone|
@@ -1005,13 +1022,10 @@ command.recipe.1.description
   |`minecraft:stonecutter_smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sandstone_stairs|
   |`minecraft:stonecutter_smooth_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sanddouble_stone_slab|
   |`minecraft:stonecutter_smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sandstone_stairs|
-  |`minecraft:stonecutter_smooth_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_double_stone_slab|
   |`minecraft:stonecutter_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stairs_from_polished_blackstone|
   |`stonecutter_stairs_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.stonecutter_stairs_from_polished_blackstone_bricks|
   |`minecraft:stonecutter_stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick|
   |`minecraft:stonecutter_stonebrick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled|
-  |`minecraft:stonecutter_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab|
-  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
   |`minecraft:stonecutter_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs|
   |`minecraft:stonecutter_stonebrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs2|
   |`minecraft:stonecutter_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall|
@@ -1127,7 +1141,6 @@ command.recipe.1.description
   |`minecraft:yellow_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet_from_white|
   |`minecraft:yellow_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:yellow_concrete_powder|
   |`minecraft:yellow_dye_from_dandelion`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_dandelion|
-  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
   |`minecraft:yellow_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_hardened_clay|
   |`wool_dye_wool_19_14`|command.enum.unlockablerecipevalues.wool_dye_wool_19_14|
   |`wool_dye_wool_19_13`|command.enum.unlockablerecipevalues.wool_dye_wool_19_13|
@@ -1922,8 +1935,10 @@ command.recipe.2.description
   |值|描述|
   |---|---|
   |`*`|command.enum.unlockablerecipevalues.*|
+  |`minecraft:armor_stand`|command.enum.unlockablerecipevalues.minecraft:armor_stand|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate_waxed`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate_waxed|
+  |`minecraft:chiseled_nether_bricks`|command.enum.unlockablerecipevalues.minecraft:chiseled_nether_bricks|
   |`minecraft:chiseled_tuff`|command.enum.unlockablerecipevalues.minecraft:chiseled_tuff|
   |`minecraft:chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:chiseled_tuff_bricks|
   |`minecraft:crafter`|command.enum.unlockablerecipevalues.minecraft:crafter|
@@ -1932,46 +1947,66 @@ command.recipe.2.description
   |`minecraft:copper_door`|command.enum.unlockablerecipevalues.minecraft:copper_door|
   |`minecraft:copper_grate`|command.enum.unlockablerecipevalues.minecraft:copper_grate|
   |`minecraft:copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:copper_trapdoor|
+  |`minecraft:exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:exposed_chiseled_copper|
   |`minecraft:exposed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_bulb|
-  |`minecraft:exposed_copper_door`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_door|
   |`minecraft:exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_grate|
-  |`minecraft:exposed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:exposed_copper_trapdoor|
+  |`minecraft:oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:oxidized_chiseled_copper|
   |`minecraft:oxidized_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_bulb|
-  |`minecraft:oxidized_copper_door`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_door|
   |`minecraft:oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_grate|
-  |`minecraft:oxidized_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:oxidized_copper_trapdoor|
-  |`minecraft:crafting_table_waxed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_chiseled_copper|
+  |`minecraft:waxed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_chiseled_copper|
   |`minecraft:waxed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_copper_bulb|
   |`minecraft:crafting_table_waxed_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_copper_door|
-  |`minecraft:crafting_table_waxed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_copper_trapdoor|
+  |`minecraft:waxed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_copper_grate|
+  |`minecraft:waxed_exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_chiseled_copper|
   |`minecraft:waxed_exposed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_copper_bulb|
-  |`minecraft:crafting_table_waxed_exposed_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_exposed_copper_door|
-  |`minecraft:crafting_table_waxed_exposed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_exposed_copper_trapdoor|
+  |`minecraft:waxed_exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_copper_grate|
+  |`minecraft:waxed_oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_chiseled_copper|
   |`minecraft:waxed_oxidized_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_copper_bulb|
-  |`minecraft:crafting_table_waxed_oxidized_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_oxidized_copper_door|
-  |`minecraft:crafting_table_waxed_oxidized_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_oxidized_copper_trapdoor|
+  |`minecraft:waxed_oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_copper_grate|
+  |`minecraft:waxed_weathered_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_chiseled_copper|
   |`minecraft:waxed_weathered_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_copper_bulb|
-  |`minecraft:crafting_table_waxed_weathered_copper_door`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_weathered_copper_door|
-  |`minecraft:crafting_table_waxed_weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crafting_table_waxed_weathered_copper_trapdoor|
+  |`minecraft:waxed_weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_copper_grate|
+  |`minecraft:weathered_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:weathered_chiseled_copper|
   |`minecraft:weathered_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_bulb|
-  |`minecraft:weathered_copper_door`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_door|
   |`minecraft:weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_grate|
-  |`minecraft:weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_trapdoor|
   |`minecraft:flow_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:flow_armor_trim_smithing_template_duplicate|
   |`minecraft:mace`|command.enum.unlockablerecipevalues.minecraft:mace|
+  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
+  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
   |`minecraft:polished_tuff`|command.enum.unlockablerecipevalues.minecraft:polished_tuff|
   |`minecraft:polished_tuff_slab`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_slab|
   |`minecraft:polished_tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_stairs|
   |`minecraft:polished_tuff_wall`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_wall|
+  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
+  |`minecraft:stonecutter_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab|
+  |`minecraft:stonecutter_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobbledouble_stone_slab|
   |`minecraft:stonecutter_copper_block_to_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_chiseled_copper|
   |`minecraft:stonecutter_copper_block_to_copper_grate`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_copper_grate|
   |`minecraft:stonecutter_cut_copper_to_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cut_copper_to_chiseled_copper|
   |`minecraft:stonecutter_exposed_copper_to_exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_exposed_chiseled_copper|
   |`minecraft:stonecutter_exposed_copper_to_exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_exposed_copper_grate|
   |`minecraft:stonecutter_exposed_cut_copper_to_exposed_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_cut_copper_to_exposed_chiseled_copper|
+  |`minecraft:stonecutter_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_slab|
   |`minecraft:stonecutter_oxidized_copper_to_oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_oxidized_chiseled_copper|
   |`minecraft:stonecutter_oxidized_copper_to_oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_oxidized_copper_grate|
   |`minecraft:stonecutter_oxidized_cut_copper_to_oxidized_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_cut_copper_to_oxidized_chiseled_copper|
+  |`minecraft:stonecutter_polished_tuff_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_chiseled_tuff_bricks|
+  |`minecraft:stonecutter_polished_tuff_to_polished_tuff_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_polished_tuff_slab|
+  |`minecraft:stonecutter_polished_tuff_to_polished_tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_polished_tuff_stairs|
+  |`minecraft:stonecutter_polished_tuff_to_polished_tuff_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_polished_tuff_wall|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_bricks|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_brick_slab|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_brick_stairs|
+  |`minecraft:stonecutter_polished_tuff_to_tuff_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_tuff_to_tuff_brick_wall|
+  |`minecraft:stonecutter_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_slab|
+  |`minecraft:stonecutter_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sanddouble_stone_slab|
+  |`minecraft:stonecutter_smooth_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_double_stone_slab|
+  |`minecraft:stonecutter_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab|
+  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
+  |`minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks|
+  |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab|
+  |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs|
+  |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_wall|
   |`minecraft:stonecutter_tuff_to_chiseled_tuff`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_to_chiseled_tuff|
   |`minecraft:stonecutter_tuff_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_to_chiseled_tuff_bricks|
   |`minecraft:stonecutter_tuff_to_polished_tuff`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_to_polished_tuff|
@@ -2007,23 +2042,28 @@ command.recipe.2.description
   |`minecraft:tuff_slab`|command.enum.unlockablerecipevalues.minecraft:tuff_slab|
   |`minecraft:tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:tuff_stairs|
   |`minecraft:tuff_wall`|command.enum.unlockablerecipevalues.minecraft:tuff_wall|
+  |`minecraft:waxing_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:waxing_chiseled_copper|
   |`minecraft:waxing_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_bulb|
   |`minecraft:waxing_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_door|
   |`minecraft:waxing_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_grate|
   |`minecraft:waxing_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_copper_trapdoor|
+  |`minecraft:waxed_exposed_chiseled_copper_from_honeycomb`|command.enum.unlockablerecipevalues.minecraft:waxed_exposed_chiseled_copper_from_honeycomb|
   |`minecraft:waxing_exposed_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_bulb|
   |`minecraft:waxing_exposed_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_door|
   |`minecraft:waxing_exposed_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_grate|
   |`minecraft:waxing_exposed_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_exposed_copper_trapdoor|
+  |`minecraft:waxed_oxidized_chiseled_copper_from_honeycomb`|command.enum.unlockablerecipevalues.minecraft:waxed_oxidized_chiseled_copper_from_honeycomb|
   |`minecraft:waxing_oxidized_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_bulb|
   |`minecraft:waxing_oxidized_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_door|
   |`minecraft:waxing_oxidized_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_grate|
   |`minecraft:waxing_oxidized_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_oxidized_copper_trapdoor|
+  |`minecraft:waxed_weathered_chiseled_copper_from_honeycomb`|command.enum.unlockablerecipevalues.minecraft:waxed_weathered_chiseled_copper_from_honeycomb|
   |`minecraft:waxing_weathered_copper_bulb`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_bulb|
   |`minecraft:waxing_weathered_copper_door`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_door|
   |`minecraft:waxing_weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_grate|
   |`minecraft:waxing_weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_trapdoor|
   |`minecraft:wind_charge`|command.enum.unlockablerecipevalues.minecraft:wind_charge|
+  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
   |`minecraft:banner_pattern_flower`|command.enum.unlockablerecipevalues.minecraft:banner_pattern_flower|
   |`minecraft:blue_dye_from_cornflower`|command.enum.unlockablerecipevalues.minecraft:blue_dye_from_cornflower|
   |`minecraft:WorkBench_recipeId_from_oak`|command.enum.unlockablerecipevalues.minecraft:workbench_recipeid_from_oak|
@@ -2130,7 +2170,6 @@ command.recipe.2.description
   |`minecraft:andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:andesite_stairs|
   |`minecraft:andesite_wall`|command.enum.unlockablerecipevalues.minecraft:andesite_wall|
   |`minecraft:anvil`|command.enum.unlockablerecipevalues.minecraft:anvil|
-  |`minecraft:armor_stand`|command.enum.unlockablerecipevalues.minecraft:armor_stand|
   |`minecraft:arrow`|command.enum.unlockablerecipevalues.minecraft:arrow|
   |`minecraft:bamboo_block`|command.enum.unlockablerecipevalues.minecraft:bamboo_block|
   |`minecraft:bamboo_button`|command.enum.unlockablerecipevalues.minecraft:bamboo_button|
@@ -2256,7 +2295,6 @@ command.recipe.2.description
   |`minecraft:chiseled_bookshelf`|command.enum.unlockablerecipevalues.minecraft:chiseled_bookshelf|
   |`minecraft:chiseled_deepslate`|command.enum.unlockablerecipevalues.minecraft:chiseled_deepslate|
   |`minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting|
-  |`minecraft:chiseled_nether_bricks`|command.enum.unlockablerecipevalues.minecraft:chiseled_nether_bricks|
   |`minecraft:chiseled_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:chiseled_polished_blackstone|
   |`minecraft:clay`|command.enum.unlockablerecipevalues.minecraft:clay|
   |`minecraft:clock`|command.enum.unlockablerecipevalues.minecraft:clock|
@@ -2559,7 +2597,6 @@ command.recipe.2.description
   |`minecraft:magenta_dye_from_lapis_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_ink_bonemeal|
   |`minecraft:magenta_dye_from_lapis_ink_white`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_ink_white|
   |`minecraft:magenta_dye_from_lapis_red_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_red_pink|
-  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
   |`minecraft:magenta_dye_from_purple_and_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_purple_and_pink|
   |`minecraft:magenta_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_hardened_clay|
   |`minecraft:magma`|command.enum.unlockablerecipevalues.minecraft:magma|
@@ -2637,7 +2674,6 @@ command.recipe.2.description
   |`minecraft:pink_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:pink_carpet_from_white|
   |`minecraft:pink_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:pink_concrete_powder|
   |`minecraft:pink_dye`|command.enum.unlockablerecipevalues.minecraft:pink_dye|
-  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
   |`minecraft:pink_dye_from_pink_petals`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_pink_petals|
   |`minecraft:pink_dye_from_red_bonemeal`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_red_bonemeal|
   |`minecraft:pink_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:pink_stained_hardened_clay|
@@ -2714,7 +2750,6 @@ command.recipe.2.description
   |`minecraft:red_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:red_carpet_from_white|
   |`minecraft:red_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:red_concrete_powder|
   |`minecraft:red_dye_from_beetroot`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_beetroot|
-  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
   |`minecraft:red_nether_brick`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick|
   |`minecraft:red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_stairs|
   |`minecraft:red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_wall|
@@ -2781,7 +2816,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_blackstone_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_stairs_from_blackstone|
   |`minecraft:stonecutter_blackstone_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_wall_from_blackstone|
   |`minecraft:stonecutter_bricks_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_bricks_from_polished_blackstone|
-  |`minecraft:stonecutter_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab|
   |`minecraft:stonecutter_brick_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab_from_polished_blackstone|
   |`minecraft:stonecutter_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs|
   |`minecraft:stonecutter_brick_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs_from_polished_blackstone|
@@ -2790,7 +2824,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_chiseled_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_from_polished_blackstone|
   |`minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick|
   |`minecraft:stonecutter_chiseled_polished_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_polished_from_blackstone|
-  |`minecraft:stonecutter_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobbledouble_stone_slab|
   |`minecraft:stonecutter_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_stairs|
   |`minecraft:stonecutter_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_wall|
   |`minecraft:stonecutter_copper_block_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper|
@@ -2827,7 +2860,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_mud_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_slab|
   |`minecraft:stonecutter_mud_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_stairs|
   |`minecraft:stonecutter_mud_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_wall|
-  |`minecraft:stonecutter_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_slab|
   |`minecraft:stonecutter_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_stairs|
   |`minecraft:stonecutter_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_wall|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper|
@@ -2870,7 +2902,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_quartz_bricks_from_quartz_block`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_bricks_from_quartz_block|
   |`minecraft:stonecutter_quartz_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_chiseled|
   |`minecraft:stonecutter_quartz_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_lines|
-  |`minecraft:stonecutter_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_slab|
   |`minecraft:stonecutter_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_stairs|
   |`minecraft:stonecutter_red_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_slab|
   |`minecraft:stonecutter_red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_stairs|
@@ -2882,7 +2913,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_wall|
   |`minecraft:stonecutter_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_cut|
   |`minecraft:stonecutter_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_heiroglyphs|
-  |`minecraft:stonecutter_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sanddouble_stone_slab|
   |`minecraft:stonecutter_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_stairs|
   |`minecraft:stonecutter_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_wall|
   |`minecraft:stonecutter_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_slab_from_polished_blackstone|
@@ -2893,13 +2923,10 @@ command.recipe.2.description
   |`minecraft:stonecutter_smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sandstone_stairs|
   |`minecraft:stonecutter_smooth_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sanddouble_stone_slab|
   |`minecraft:stonecutter_smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sandstone_stairs|
-  |`minecraft:stonecutter_smooth_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_double_stone_slab|
   |`minecraft:stonecutter_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stairs_from_polished_blackstone|
   |`stonecutter_stairs_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.stonecutter_stairs_from_polished_blackstone_bricks|
   |`minecraft:stonecutter_stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick|
   |`minecraft:stonecutter_stonebrick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled|
-  |`minecraft:stonecutter_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab|
-  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
   |`minecraft:stonecutter_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs|
   |`minecraft:stonecutter_stonebrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs2|
   |`minecraft:stonecutter_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall|
@@ -3015,7 +3042,6 @@ command.recipe.2.description
   |`minecraft:yellow_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet_from_white|
   |`minecraft:yellow_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:yellow_concrete_powder|
   |`minecraft:yellow_dye_from_dandelion`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_dandelion|
-  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
   |`minecraft:yellow_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_hardened_clay|
   |`wool_dye_wool_19_14`|command.enum.unlockablerecipevalues.wool_dye_wool_19_14|
   |`wool_dye_wool_19_13`|command.enum.unlockablerecipevalues.wool_dye_wool_19_13|

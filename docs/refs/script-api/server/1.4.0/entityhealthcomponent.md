@@ -1,6 +1,6 @@
 # `EntityHealthComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityHealthComponent`类，扩展自[`EntityAttributeComponent`](./entityattributecomponent.md)。script_api.@minecraft/server.entityhealthcomponent.description
 

@@ -1,6 +1,6 @@
 # `MoonPhase`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `MoonPhase`枚举。script_api.@minecraft/server.moonphase.description
 

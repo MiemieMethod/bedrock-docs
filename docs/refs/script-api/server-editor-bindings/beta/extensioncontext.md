@@ -1,6 +1,6 @@
 # `ExtensionContext`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ExtensionContext`类。script_api.@minecraft/server-editor-bindings.extensioncontext.description
 
@@ -109,6 +109,28 @@ read-only cursor: Cursor;
 `cursor`：[`Cursor`](./cursor.md)
 
 - script_api.@minecraft/server-editor-bindings.extensioncontext.cursor.description
+
+
+////
+
+///
+
+
+/// define
+`exportManager`
+
+
+///
+
+```js
+read-only exportManager: ExportManager;
+```
+
+/// html | div.result
+//// define
+`exportManager`：[`ExportManager`](./exportmanager.md)
+
+- script_api.@minecraft/server-editor-bindings.extensioncontext.exportmanager.description
 
 
 ////

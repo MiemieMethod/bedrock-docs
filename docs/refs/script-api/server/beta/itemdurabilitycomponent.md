@@ -1,6 +1,6 @@
 # `ItemDurabilityComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemDurabilityComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.@minecraft/server.itemdurabilitycomponent.description
 
@@ -79,7 +79,7 @@ getDamageChance(unbreakingEnchantmentLevel: int32): int32
 
 /// html | div.result
 //// define
-`unbreakingEnchantmentLevel`：`int32`
+`unbreakingEnchantmentLevel`：`int32`＝`0`∈[`0`, `3`]
 
 - script_api.@minecraft/server.itemdurabilitycomponent.getdamagechance.unbreakingenchantmentlevel.description
 

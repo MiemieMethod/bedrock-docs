@@ -1,6 +1,6 @@
 # `MinecraftEditorInternal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `MinecraftEditorInternal`类。script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.description
 
@@ -76,7 +76,7 @@ registerExtension(extensionName: string, activationFunction: (arg: ExtensionCont
 ////
 
 //// define
-`options`：[`ExtensionOptionalParameters`](./extensionoptionalparameters.md)|`undefined`
+`options`?：[`ExtensionOptionalParameters`](./extensionoptionalparameters.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.registerextension.options.description
 

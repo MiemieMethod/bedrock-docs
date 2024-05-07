@@ -1,6 +1,6 @@
 # `/codebuilder_actorinfo`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/codebuilder_actorinfo`命令command.codebuilder_actorinfo.description
 

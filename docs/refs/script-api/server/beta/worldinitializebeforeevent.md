@@ -1,6 +1,6 @@
 # `WorldInitializeBeforeEvent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `WorldInitializeBeforeEvent`类。script_api.@minecraft/server.worldinitializebeforeevent.description
 

@@ -1,6 +1,6 @@
 # `ItemCustomComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemCustomComponent`接口。script_api.@minecraft/server.itemcustomcomponent.description
 
@@ -21,6 +21,50 @@ onBeforeDurabilityDamage: (arg: ItemComponentBeforeDurabilityDamageEvent) => voi
 `onBeforeDurabilityDamage`：<code>(<a href="../itemcomponentbeforedurabilitydamageevent/">ItemComponentBeforeDurabilityDamageEvent</a>) =&gt; void</code>|`undefined`
 
 - script_api.@minecraft/server.itemcustomcomponent.onbeforedurabilitydamage.description
+
+
+////
+
+///
+
+
+/// define
+`onCompleteUse`
+
+
+///
+
+```js
+onCompleteUse: (arg: ItemComponentCompleteUseEvent) => void | undefined;
+```
+
+/// html | div.result
+//// define
+`onCompleteUse`：<code>(<a href="../itemcomponentcompleteuseevent/">ItemComponentCompleteUseEvent</a>) =&gt; void</code>|`undefined`
+
+- script_api.@minecraft/server.itemcustomcomponent.oncompleteuse.description
+
+
+////
+
+///
+
+
+/// define
+`onConsume`
+
+
+///
+
+```js
+onConsume: (arg: ItemComponentConsumeEvent) => void | undefined;
+```
+
+/// html | div.result
+//// define
+`onConsume`：<code>(<a href="../itemcomponentconsumeevent/">ItemComponentConsumeEvent</a>) =&gt; void</code>|`undefined`
+
+- script_api.@minecraft/server.itemcustomcomponent.onconsume.description
 
 
 ////

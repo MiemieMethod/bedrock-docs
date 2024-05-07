@@ -1,6 +1,6 @@
 # `BlockComponentPlayerDestroyEvent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockComponentPlayerDestroyEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含被玩家破坏的方块的信息。
 

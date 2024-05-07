@@ -1,6 +1,6 @@
 # `Player`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Player`类，扩展自[`Entity`](./entity.md)。script_api.@minecraft/server.player.description
 
@@ -242,7 +242,7 @@ addExperience(amount: int32): uint32
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`∈[`-16777216`, `16777216`]
 
 - script_api.@minecraft/server.player.addexperience.amount.description
 
@@ -274,7 +274,7 @@ addLevels(amount: int32): int32
 
 /// html | div.result
 //// define
-`amount`：`int32`
+`amount`：`int32`∈[`-16777216`, `16777216`]
 
 - script_api.@minecraft/server.player.addlevels.amount.description
 
@@ -362,7 +362,7 @@ playSound(soundId: string, soundOptions?: PlayerSoundOptions): void
 ////
 
 //// define
-`soundOptions`：[`PlayerSoundOptions`](./playersoundoptions.md)|`undefined`
+`soundOptions`?：[`PlayerSoundOptions`](./playersoundoptions.md)＝`null`
 
 - script_api.@minecraft/server.player.playsound.soundoptions.description
 
@@ -450,7 +450,7 @@ setSpawnPoint(spawnPoint?: DimensionLocation): void
 
 /// html | div.result
 //// define
-`spawnPoint`：[`DimensionLocation`](./dimensionlocation.md)|`undefined`
+`spawnPoint`?：[`DimensionLocation`](./dimensionlocation.md)＝`null`
 
 - script_api.@minecraft/server.player.setspawnpoint.spawnpoint.description
 

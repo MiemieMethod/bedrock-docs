@@ -1,6 +1,6 @@
 # `ContainerSlot`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ContainerSlot`类。script_api.@minecraft/server.containerslot.description
 
@@ -534,7 +534,7 @@ setCanDestroy(blockIdentifiers?: string[]): void
 
 /// html | div.result
 //// define
-`blockIdentifiers`：`string[]`|`undefined`
+`blockIdentifiers`?：`string[]`＝`null`
 
 - script_api.@minecraft/server.containerslot.setcandestroy.blockidentifiers.description
 
@@ -566,7 +566,7 @@ setCanPlaceOn(blockIdentifiers?: string[]): void
 
 /// html | div.result
 //// define
-`blockIdentifiers`：`string[]`|`undefined`
+`blockIdentifiers`?：`string[]`＝`null`
 
 - script_api.@minecraft/server.containerslot.setcanplaceon.blockidentifiers.description
 
@@ -606,7 +606,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
+`value`?：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)＝`null`
 
 - script_api.@minecraft/server.containerslot.setdynamicproperty.value.description
 
@@ -638,7 +638,7 @@ setItem(itemStack?: ItemStack): void
 
 /// html | div.result
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+`itemStack`?：[`ItemStack`](./itemstack.md)＝`null`
 
 - script_api.@minecraft/server.containerslot.setitem.itemstack.description
 
@@ -670,7 +670,7 @@ setLore(loreList?: string[]): void
 
 /// html | div.result
 //// define
-`loreList`：`string[]`|`undefined`
+`loreList`?：`string[]`＝`null`
 
 - script_api.@minecraft/server.containerslot.setlore.lorelist.description
 

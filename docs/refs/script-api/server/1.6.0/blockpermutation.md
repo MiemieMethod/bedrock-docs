@@ -1,6 +1,6 @@
 # `BlockPermutation`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockPermutation`类。代表方块的置换。
 
@@ -28,7 +28,7 @@ matches(blockName: string, states?: Record<string, boolean | int32 | string>): b
 ////
 
 //// define
-`states`：`Record<string, boolean | int32 | string>`|`undefined`
+`states`?：`Record<string, boolean | int32 | string>`＝`null`
 
 - 要测试的方块状态。
 
@@ -68,7 +68,7 @@ static resolve(blockName: string, states?: Record<string, boolean | int32 | stri
 ////
 
 //// define
-`states`：`Record<string, boolean | int32 | string>`|`undefined`
+`states`?：`Record<string, boolean | int32 | string>`＝`null`
 
 - 置换中的方块状态。
 

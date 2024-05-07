@@ -1,6 +1,6 @@
 # `EntityHurtEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityHurtEventSignal`类。script_api.mojang-minecraft.entityhurteventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: EntityHurtEvent) => void, options?: EntityEventOptions
 ////
 
 //// define
-`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+`options`?：[`EntityEventOptions`](./entityeventoptions.md)＝`null`
 
 - script_api.mojang-minecraft.entityhurteventsignal.subscribe.options.description
 

@@ -1,6 +1,6 @@
 # `Entity`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Entity`类。script_api.@minecraft/server.entity.description
 
@@ -162,7 +162,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 ////
 
 //// define
-`duration`：`int32`
+`duration`：`int32`∈[`1`, `20000000`]
 
 - script_api.@minecraft/server.entity.addeffect.duration.description
 
@@ -170,7 +170,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 ////
 
 //// define
-`options`：[`EntityEffectOptions`](./entityeffectoptions.md)|`undefined`
+`options`?：[`EntityEffectOptions`](./entityeffectoptions.md)＝`null`
 
 - script_api.@minecraft/server.entity.addeffect.options.description
 
@@ -242,7 +242,7 @@ applyDamage(amount: float, options?: EntityApplyDamageByProjectileOptions | Enti
 ////
 
 //// define
-`options`：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)|`undefined`
+`options`?：[`EntityApplyDamageByProjectileOptions`](./entityapplydamagebyprojectileoptions.md)|[`EntityApplyDamageOptions`](./entityapplydamageoptions.md)＝`null`
 
 - script_api.@minecraft/server.entity.applydamage.options.description
 
@@ -386,7 +386,7 @@ getBlockFromViewDirection(options?: BlockRaycastOptions): BlockRaycastHit | unde
 
 /// html | div.result
 //// define
-`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
+`options`?：[`BlockRaycastOptions`](./blockraycastoptions.md)＝`null`
 
 - script_api.@minecraft/server.entity.getblockfromviewdirection.options.description
 
@@ -530,7 +530,7 @@ getEntitiesFromViewDirection(options?: EntityRaycastOptions): EntityRaycastHit[]
 
 /// html | div.result
 //// define
-`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
+`options`?：[`EntityRaycastOptions`](./entityraycastoptions.md)＝`null`
 
 - script_api.@minecraft/server.entity.getentitiesfromviewdirection.options.description
 
@@ -906,7 +906,7 @@ teleport(location: Vector3, teleportOptions?: TeleportOptions): void
 ////
 
 //// define
-`teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
+`teleportOptions`?：[`TeleportOptions`](./teleportoptions.md)＝`null`
 
 - script_api.@minecraft/server.entity.teleport.teleportoptions.description
 
@@ -946,7 +946,7 @@ tryTeleport(location: Vector3, teleportOptions?: TeleportOptions): boolean
 ////
 
 //// define
-`teleportOptions`：[`TeleportOptions`](./teleportoptions.md)|`undefined`
+`teleportOptions`?：[`TeleportOptions`](./teleportoptions.md)＝`null`
 
 - script_api.@minecraft/server.entity.tryteleport.teleportoptions.description
 

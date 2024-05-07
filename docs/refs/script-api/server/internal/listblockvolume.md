@@ -1,6 +1,6 @@
 # `ListBlockVolume`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ListBlockVolume`类，扩展自[`BlockVolumeBase`](./blockvolumebase.md)。script_api.@minecraft/server.listblockvolume.description
 

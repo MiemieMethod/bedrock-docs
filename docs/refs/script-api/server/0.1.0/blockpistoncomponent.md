@@ -1,6 +1,6 @@
 # `BlockPistonComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockPistonComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.mojang-minecraft.blockpistoncomponent.description
 

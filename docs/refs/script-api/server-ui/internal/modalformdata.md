@@ -1,6 +1,6 @@
 # `ModalFormData`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ModalFormData`类。script_api.@minecraft/server-ui.modalformdata.description
 
@@ -60,7 +60,7 @@ dropdown(label: RawMessage | string, options: (RawMessage | string)[], defaultVa
 ////
 
 //// define
-`defaultValueIndex`：`int32`|`undefined`
+`defaultValueIndex`?：`int32`＝`null`
 
 - script_api.@minecraft/server-ui.modalformdata.dropdown.defaultvalueindex.description
 
@@ -156,7 +156,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 ////
 
 //// define
-`defaultValue`：`float`|`undefined`
+`defaultValue`?：`float`＝`null`
 
 - script_api.@minecraft/server-ui.modalformdata.slider.defaultvalue.description
 
@@ -236,7 +236,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 ////
 
 //// define
-`defaultValue`：[`RawMessage`](../../server/internal/rawmessage.md)|`string`|`undefined`
+`defaultValue`?：[`RawMessage`](../../server/internal/rawmessage.md)|`string`＝`null`
 
 - script_api.@minecraft/server-ui.modalformdata.textfield.defaultvalue.description
 
@@ -308,7 +308,7 @@ toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 ////
 
 //// define
-`defaultValue`：`boolean`|`undefined`
+`defaultValue`?：`boolean`＝`null`
 
 - script_api.@minecraft/server-ui.modalformdata.toggle.defaultvalue.description
 

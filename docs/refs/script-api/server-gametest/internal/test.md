@@ -1,6 +1,6 @@
 # `Test`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Test`类。script_api.@minecraft/server-gametest.test.description
 
@@ -76,7 +76,7 @@ assertBlockPresent(blockType: BlockType | string, blockLocation: Vector3, isPres
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertblockpresent.ispresent.description
 
@@ -164,7 +164,7 @@ assertCanReachLocation(mob: Entity, blockLocation: Vector3, canReach: boolean): 
 ////
 
 //// define
-`canReach`：`boolean`
+`canReach`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertcanreachlocation.canreach.description
 
@@ -308,7 +308,7 @@ assertEntityHasArmor(entityTypeIdentifier: string, armorSlot: int32, armorName: 
 ////
 
 //// define
-`hasArmor`：`boolean`
+`hasArmor`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertentityhasarmor.hasarmor.description
 
@@ -364,7 +364,7 @@ assertEntityHasComponent(entityTypeIdentifier: string, componentIdentifier: stri
 ////
 
 //// define
-`hasComponent`：`boolean`
+`hasComponent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertentityhascomponent.hascomponent.description
 
@@ -412,7 +412,7 @@ assertEntityInstancePresent(entity: Entity, blockLocation: Vector3, isPresent: b
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertentityinstancepresent.ispresent.description
 
@@ -452,7 +452,7 @@ assertEntityInstancePresentInArea(entity: Entity, isPresent: boolean): void
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertentityinstancepresentinarea.ispresent.description
 
@@ -500,7 +500,7 @@ assertEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, search
 ////
 
 //// define
-`searchDistance`：`float`
+`searchDistance`：`float`＝`0.0`
 
 - script_api.@minecraft/server-gametest.test.assertentitypresent.searchdistance.description
 
@@ -508,7 +508,7 @@ assertEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, search
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertentitypresent.ispresent.description
 
@@ -548,7 +548,7 @@ assertEntityPresentInArea(entityTypeIdentifier: string, isPresent: boolean): voi
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertentitypresentinarea.ispresent.description
 
@@ -644,7 +644,7 @@ assertEntityTouching(entityTypeIdentifier: string, location: Vector3, isTouching
 ////
 
 //// define
-`isTouching`：`boolean`
+`isTouching`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertentitytouching.istouching.description
 
@@ -684,7 +684,7 @@ assertIsWaterlogged(blockLocation: Vector3, isWaterlogged: boolean): void
 ////
 
 //// define
-`isWaterlogged`：`boolean`
+`isWaterlogged`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertiswaterlogged.iswaterlogged.description
 
@@ -788,7 +788,7 @@ assertItemEntityPresent(itemType: ItemType | string, blockLocation: Vector3, sea
 ////
 
 //// define
-`searchDistance`：`float`
+`searchDistance`：`float`＝`0.0`
 
 - script_api.@minecraft/server-gametest.test.assertitementitypresent.searchdistance.description
 
@@ -796,7 +796,7 @@ assertItemEntityPresent(itemType: ItemType | string, blockLocation: Vector3, sea
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.assertitementitypresent.ispresent.description
 
@@ -876,7 +876,7 @@ destroyBlock(blockLocation: Vector3, dropResources: boolean): void
 ////
 
 //// define
-`dropResources`：`boolean`
+`dropResources`：`boolean`＝`False`
 
 - script_api.@minecraft/server-gametest.test.destroyblock.dropresources.description
 
@@ -1876,7 +1876,7 @@ spawnSimulatedPlayer(blockLocation: Vector3, name: string, gameMode: GameMode): 
 ////
 
 //// define
-`name`：`string`
+`name`：`string`＝`Simulated Player`
 
 - script_api.@minecraft/server-gametest.test.spawnsimulatedplayer.name.description
 
@@ -1884,7 +1884,7 @@ spawnSimulatedPlayer(blockLocation: Vector3, name: string, gameMode: GameMode): 
 ////
 
 //// define
-`gameMode`：[`GameMode`](../../server/1.8.0/gamemode.md)
+`gameMode`：[`GameMode`](../../server/1.8.0/gamemode.md)＝`0`
 
 - script_api.@minecraft/server-gametest.test.spawnsimulatedplayer.gamemode.description
 
@@ -2244,7 +2244,7 @@ succeedWhenBlockPresent(blockType: BlockType | string, blockLocation: Vector3, i
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.succeedwhenblockpresent.ispresent.description
 
@@ -2348,7 +2348,7 @@ succeedWhenEntityPresent(entityTypeIdentifier: string, blockLocation: Vector3, i
 ////
 
 //// define
-`isPresent`：`boolean`
+`isPresent`：`boolean`＝`True`
 
 - script_api.@minecraft/server-gametest.test.succeedwhenentitypresent.ispresent.description
 
@@ -2396,7 +2396,7 @@ triggerInternalBlockEvent(blockLocation: Vector3, event: string, eventParameters
 ////
 
 //// define
-`eventParameters`：`float[]`
+`eventParameters`：`float[]`＝`[]`
 
 - script_api.@minecraft/server-gametest.test.triggerinternalblockevent.eventparameters.description
 
@@ -2476,7 +2476,7 @@ walkTo(mob: Entity, blockLocation: Vector3, speedModifier: float): void
 ////
 
 //// define
-`speedModifier`：`float`
+`speedModifier`：`float`＝`1.0`
 
 - script_api.@minecraft/server-gametest.test.walkto.speedmodifier.description
 
@@ -2524,7 +2524,7 @@ walkToLocation(mob: Entity, location: Vector3, speedModifier: float): void
 ////
 
 //// define
-`speedModifier`：`float`
+`speedModifier`：`float`＝`1.0`
 
 - script_api.@minecraft/server-gametest.test.walktolocation.speedmodifier.description
 

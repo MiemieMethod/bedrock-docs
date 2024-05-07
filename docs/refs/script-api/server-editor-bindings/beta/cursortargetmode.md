@@ -1,6 +1,6 @@
 # `CursorTargetMode`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `CursorTargetMode`枚举。script_api.@minecraft/server-editor-bindings.cursortargetmode.description
 

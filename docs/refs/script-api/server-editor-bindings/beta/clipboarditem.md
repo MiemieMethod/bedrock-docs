@@ -1,6 +1,6 @@
 # `ClipboardItem`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ClipboardItem`类。script_api.@minecraft/server-editor-bindings.clipboarditem.description
 
@@ -76,7 +76,7 @@ getPredictedWriteAsCompoundBlockVolume(location: Vector3, options?: ClipboardWri
 ////
 
 //// define
-`options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
+`options`?：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteascompoundblockvolume.options.description
 
@@ -116,7 +116,7 @@ getPredictedWriteAsSelection(location: Vector3, options?: ClipboardWriteOptions)
 ////
 
 //// define
-`options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
+`options`?：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.clipboarditem.getpredictedwriteasselection.options.description
 
@@ -252,7 +252,7 @@ writeToWorld(location: Vector3, options?: ClipboardWriteOptions): boolean
 ////
 
 //// define
-`options`：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)|`undefined`
+`options`?：[`ClipboardWriteOptions`](./clipboardwriteoptions.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.clipboarditem.writetoworld.options.description
 

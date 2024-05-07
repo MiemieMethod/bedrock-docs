@@ -1,6 +1,6 @@
 # `SettingsUIElement`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `SettingsUIElement`类。script_api.@minecraft/server-editor-bindings.settingsuielement.description
 
@@ -178,7 +178,7 @@ new constructor(name: string, initialValue: boolean | float | string | Vector3, 
 ////
 
 //// define
-`min`：`int32`|`undefined`
+`min`?：`int32`＝`null`
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.min.description
 
@@ -186,7 +186,7 @@ new constructor(name: string, initialValue: boolean | float | string | Vector3, 
 ////
 
 //// define
-`max`：`int32`|`undefined`
+`max`?：`int32`＝`null`
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.max.description
 
@@ -194,7 +194,7 @@ new constructor(name: string, initialValue: boolean | float | string | Vector3, 
 ////
 
 //// define
-`options`：`string[]`|`undefined`
+`options`?：`string[]`＝`null`
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.options.description
 

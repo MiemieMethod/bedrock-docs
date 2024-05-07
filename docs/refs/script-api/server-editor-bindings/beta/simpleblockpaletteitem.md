@@ -1,6 +1,6 @@
 # `SimpleBlockPaletteItem`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `SimpleBlockPaletteItem`类，扩展自[`IBlockPaletteItem`](./iblockpaletteitem.md)。script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.description
 
@@ -20,7 +20,7 @@ new constructor(displayName?: string): SimpleBlockPaletteItem
 
 /// html | div.result
 //// define
-`displayName`：`string`|`undefined`
+`displayName`?：`string`＝`null`
 
 - script_api.@minecraft/server-editor-bindings.simpleblockpaletteitem.constructor.displayname.description
 

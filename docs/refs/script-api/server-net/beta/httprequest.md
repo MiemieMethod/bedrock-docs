@@ -1,6 +1,6 @@
 # `HttpRequest`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `HttpRequest`类。script_api.@minecraft/server-net.httprequest.description
 
@@ -300,7 +300,7 @@ setTimeout(timeout: uint32): HttpRequest
 
 /// html | div.result
 //// define
-`timeout`：`uint32`
+`timeout`：`uint32`∈[`0`, +∞]
 
 - script_api.@minecraft/server-net.httprequest.settimeout.timeout.description
 

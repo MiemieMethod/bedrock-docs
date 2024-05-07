@@ -1,6 +1,6 @@
 # `ActionFormData`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ActionFormData`类。script_api.mojang-minecraft-ui.actionformdata.description
 
@@ -60,7 +60,7 @@ button(text: string, iconPath?: string): ActionFormData
 ////
 
 //// define
-`iconPath`：`string`|`undefined`
+`iconPath`?：`string`＝`null`
 
 - script_api.mojang-minecraft-ui.actionformdata.button.iconpath.description
 

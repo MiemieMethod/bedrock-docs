@@ -1,6 +1,6 @@
 # `/spreadplayers`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/spreadplayers`命令command.spreadplayers.description
 

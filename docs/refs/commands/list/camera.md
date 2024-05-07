@@ -1,6 +1,6 @@
 # `/camera`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/camera`命令command.camera.description
 
@@ -37,9 +37,6 @@ command.camera.1.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -144,9 +141,6 @@ command.camera.2.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -247,9 +241,6 @@ command.camera.3.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -350,9 +341,6 @@ command.camera.4.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -445,9 +433,6 @@ command.camera.5.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -544,9 +529,6 @@ command.camera.6.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -639,9 +621,6 @@ command.camera.7.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -734,9 +713,6 @@ command.camera.8.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `ease`：<!-- md:samp ease -->
@@ -825,9 +801,6 @@ command.camera.9.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `pos`：<!-- md:samp pos -->
@@ -884,9 +857,6 @@ command.camera.10.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `pos`：<!-- md:samp pos -->
@@ -939,9 +909,6 @@ command.camera.11.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `pos`：<!-- md:samp pos -->
@@ -994,9 +961,6 @@ command.camera.12.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `pos`：<!-- md:samp pos -->
@@ -1041,9 +1005,6 @@ command.camera.13.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `rot`：<!-- md:samp rot -->
@@ -1092,9 +1053,6 @@ command.camera.14.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `facing`：<!-- md:samp facing -->
@@ -1139,9 +1097,6 @@ command.camera.15.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `facing`：<!-- md:samp facing -->
@@ -1186,9 +1141,6 @@ command.camera.16.description
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-  |`example:example_free`|command.enum.camerapresets.example:example_free|
-  |`example:example_player_effects`|command.enum.camerapresets.example:example_player_effects|
-  |`example:example_player_listener`|command.enum.camerapresets.example:example_player_listener|
 
 
 `default`：<!-- md:samp default -->

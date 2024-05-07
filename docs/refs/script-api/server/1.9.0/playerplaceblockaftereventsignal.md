@@ -1,6 +1,6 @@
 # `PlayerPlaceBlockAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `PlayerPlaceBlockAfterEventSignal`类。script_api.@minecraft/server.playerplaceblockaftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: PlayerPlaceBlockAfterEvent) => void, options?: BlockEv
 ////
 
 //// define
-`options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
+`options`?：[`BlockEventOptions`](./blockeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.playerplaceblockaftereventsignal.subscribe.options.description
 

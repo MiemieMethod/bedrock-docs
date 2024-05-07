@@ -1,6 +1,6 @@
 # `@minecraft/server`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `@minecraft/server`模块的`1.12.0-internal`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
 
@@ -300,8 +300,11 @@ static read-only world: World;
 |[`IPlayerSpawnAfterEventSignal`](./iplayerspawnaftereventsignal.md)||
 |[`ItemCompleteUseAfterEvent`](./itemcompleteuseafterevent.md)||
 |[`ItemCompleteUseAfterEventSignal`](./itemcompleteuseaftereventsignal.md)||
+|[`ItemCompleteUseEvent`](./itemcompleteuseevent.md)||
 |[`ItemComponent`](./itemcomponent.md)||
 |[`ItemComponentBeforeDurabilityDamageEvent`](./itemcomponentbeforedurabilitydamageevent.md)||
+|[`ItemComponentCompleteUseEvent`](./itemcomponentcompleteuseevent.md)||
+|[`ItemComponentConsumeEvent`](./itemcomponentconsumeevent.md)||
 |[`ItemComponentHitEntityEvent`](./itemcomponenthitentityevent.md)||
 |[`ItemComponentMineBlockEvent`](./itemcomponentmineblockevent.md)||
 |[`ItemComponentRegistry`](./itemcomponentregistry.md)||
@@ -482,6 +485,7 @@ static read-only world: World;
 |[`TitleDisplayOptions`](./titledisplayoptions.md)||
 |[`Vector2`](./vector2.md)||
 |[`Vector3`](./vector3.md)||
+|[`VectorXZ`](./vectorxz.md)||
 |[`WorldSoundOptions`](./worldsoundoptions.md)||
 
 ## 枚举

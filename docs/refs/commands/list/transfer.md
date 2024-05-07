@@ -1,6 +1,6 @@
 # `/transfer`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/transfer`命令command.transfer.description
 

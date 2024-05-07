@@ -1,10 +1,21 @@
 # `EntityComponentTypes`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityComponentTypes`枚举。script_api.@minecraft/server.entitycomponenttypes.description
 
 ## 常量
+
+/// define
+`AddRider`
+
+
+///
+
+```js
+static read-only AddRider = "minecraft:addrider";
+```
+
 
 /// define
 `CanClimb`
@@ -47,6 +58,17 @@ static read-only CanPowerJump = "minecraft:can_power_jump";
 
 ```js
 static read-only Color = "minecraft:color";
+```
+
+
+/// define
+`Color2`
+
+
+///
+
+```js
+static read-only Color2 = "minecraft:color2";
 ```
 
 
@@ -392,6 +414,72 @@ static read-only MovementSkip = "minecraft:movement.skip";
 
 
 /// define
+`NavigationClimb`
+
+
+///
+
+```js
+static read-only NavigationClimb = "minecraft:navigation.climb";
+```
+
+
+/// define
+`NavigationFloat`
+
+
+///
+
+```js
+static read-only NavigationFloat = "minecraft:navigation.float";
+```
+
+
+/// define
+`NavigationFly`
+
+
+///
+
+```js
+static read-only NavigationFly = "minecraft:navigation.fly";
+```
+
+
+/// define
+`NavigationGeneric`
+
+
+///
+
+```js
+static read-only NavigationGeneric = "minecraft:navigation.generic";
+```
+
+
+/// define
+`NavigationHover`
+
+
+///
+
+```js
+static read-only NavigationHover = "minecraft:navigation.hover";
+```
+
+
+/// define
+`NavigationWalk`
+
+
+///
+
+```js
+static read-only NavigationWalk = "minecraft:navigation.walk";
+```
+
+
+/// define
 `OnFire`
 
 
@@ -425,6 +513,28 @@ static read-only PushThrough = "minecraft:push_through";
 
 
 /// define
+`Rideable`
+
+
+///
+
+```js
+static read-only Rideable = "minecraft:rideable";
+```
+
+
+/// define
+`Riding`
+
+
+///
+
+```js
+static read-only Riding = "minecraft:riding";
+```
+
+
+/// define
 `Scale`
 
 
@@ -443,6 +553,17 @@ static read-only Scale = "minecraft:scale";
 
 ```js
 static read-only SkinId = "minecraft:skin_id";
+```
+
+
+/// define
+`TameMount`
+
+
+///
+
+```js
+static read-only TameMount = "minecraft:tamemount";
 ```
 
 

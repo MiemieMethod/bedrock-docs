@@ -1,6 +1,6 @@
 # `EffectAddAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EffectAddAfterEventSignal`类。script_api.@minecraft/server.effectaddaftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: EffectAddAfterEvent) => void, options?: EntityEventOpt
 ////
 
 //// define
-`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+`options`?：[`EntityEventOptions`](./entityeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.effectaddaftereventsignal.subscribe.options.description
 

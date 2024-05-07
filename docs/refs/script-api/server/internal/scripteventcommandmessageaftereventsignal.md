@@ -1,6 +1,6 @@
 # `ScriptEventCommandMessageAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ScriptEventCommandMessageAfterEventSignal`类。script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: ScriptEventCommandMessageAfterEvent) => void, options?
 ////
 
 //// define
-`options`：[`ScriptEventMessageFilterOptions`](./scripteventmessagefilteroptions.md)|`undefined`
+`options`?：[`ScriptEventMessageFilterOptions`](./scripteventmessagefilteroptions.md)＝`null`
 
 - script_api.@minecraft/server.scripteventcommandmessageaftereventsignal.subscribe.options.description
 

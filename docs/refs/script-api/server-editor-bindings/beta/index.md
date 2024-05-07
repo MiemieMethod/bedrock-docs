@@ -1,6 +1,6 @@
 # `@minecraft/server-editor-bindings`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `@minecraft/server-editor-bindings`模块的`0.1.0-beta`版本，UUID为`8518d9c7-a1f5-4bf3-acc7-78e87df595fc`。该模块是script_api.@minecraft/server-editor-bindings.description
 
@@ -77,6 +77,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`DataStoreMenuContainer`](./datastoremenucontainer.md)||
 |[`DataStorePayloadAfterEvent`](./datastorepayloadafterevent.md)||
 |[`DataStorePayloadAfterEventSignal`](./datastorepayloadaftereventsignal.md)||
+|[`ExportManager`](./exportmanager.md)||
 |[`Extension`](./extension.md)||
 |[`ExtensionContext`](./extensioncontext.md)||
 |[`ExtensionContextAfterEvents`](./extensioncontextafterevents.md)||
@@ -117,6 +118,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`ExtensionOptionalParameters`](./extensionoptionalparameters.md)||
 |[`LogProperties`](./logproperties.md)||
 |[`PlaytestGameOptions`](./playtestgameoptions.md)||
+|[`ProjectExportOptions`](./projectexportoptions.md)||
 |[`WidgetCreateOptions`](./widgetcreateoptions.md)||
 |[`WidgetGroupCreateOptions`](./widgetgroupcreateoptions.md)||
 
@@ -128,6 +130,8 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`CursorControlMode`](./cursorcontrolmode.md)||
 |[`CursorTargetMode`](./cursortargetmode.md)||
 |[`EditorMode`](./editormode.md)||
+|[`ExportResult`](./exportresult.md)||
 |[`GraphicsSettingsProperty`](./graphicssettingsproperty.md)||
 |[`PlaytestSessionResult`](./playtestsessionresult.md)||
+|[`ProjectExportType`](./projectexporttype.md)||
 |[`WidgetGroupSelectionMode`](./widgetgroupselectionmode.md)||

@@ -1,6 +1,6 @@
 # `SimulatedPlayer`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `SimulatedPlayer`类，扩展自[`Player`](../../server/1.8.0/player.md)。script_api.@minecraft/server-gametest.simulatedplayer.description
 
@@ -130,7 +130,7 @@ breakBlock(blockLocation: Vector3, direction: Direction): boolean
 ////
 
 //// define
-`direction`：[`Direction`](../../server/1.8.0/direction.md)
+`direction`：[`Direction`](../../server/1.8.0/direction.md)＝`1`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.breakblock.direction.description
 
@@ -274,7 +274,7 @@ giveItem(itemStack: ItemStack, selectSlot: boolean): boolean
 ////
 
 //// define
-`selectSlot`：`boolean`
+`selectSlot`：`boolean`＝`False`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.giveitem.selectslot.description
 
@@ -362,7 +362,7 @@ interactWithBlock(blockLocation: Vector3, direction: Direction): boolean
 ////
 
 //// define
-`direction`：[`Direction`](../../server/1.8.0/direction.md)
+`direction`：[`Direction`](../../server/1.8.0/direction.md)＝`1`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.interactwithblock.direction.description
 
@@ -458,7 +458,7 @@ lookAtBlock(blockLocation: Vector3, duration: LookDuration): void
 ////
 
 //// define
-`duration`：[`LookDuration`](./lookduration.md)
+`duration`：[`LookDuration`](./lookduration.md)＝`2`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.lookatblock.duration.description
 
@@ -498,7 +498,7 @@ lookAtEntity(entity: Entity, duration: LookDuration): void
 ////
 
 //// define
-`duration`：[`LookDuration`](./lookduration.md)
+`duration`：[`LookDuration`](./lookduration.md)＝`2`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.lookatentity.duration.description
 
@@ -538,7 +538,7 @@ lookAtLocation(location: Vector3, duration: LookDuration): void
 ////
 
 //// define
-`duration`：[`LookDuration`](./lookduration.md)
+`duration`：[`LookDuration`](./lookduration.md)＝`2`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.lookatlocation.duration.description
 
@@ -586,7 +586,7 @@ move(westEast: float, northSouth: float, speed: float): void
 ////
 
 //// define
-`speed`：`float`
+`speed`：`float`＝`1.0`∈[`0.0`, `1.0`]
 
 - script_api.@minecraft/server-gametest.simulatedplayer.move.speed.description
 
@@ -634,7 +634,7 @@ moveRelative(leftRight: float, backwardForward: float, speed: float): void
 ////
 
 //// define
-`speed`：`float`
+`speed`：`float`＝`1.0`∈[`0.0`, `1.0`]
 
 - script_api.@minecraft/server-gametest.simulatedplayer.moverelative.speed.description
 
@@ -674,7 +674,7 @@ moveToBlock(blockLocation: Vector3, options?: MoveToOptions): void
 ////
 
 //// define
-`options`：[`MoveToOptions`](./movetooptions.md)|`undefined`
+`options`?：[`MoveToOptions`](./movetooptions.md)＝`null`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.movetoblock.options.description
 
@@ -714,7 +714,7 @@ moveToLocation(location: Vector3, options?: MoveToOptions): void
 ////
 
 //// define
-`options`：[`MoveToOptions`](./movetooptions.md)|`undefined`
+`options`?：[`MoveToOptions`](./movetooptions.md)＝`null`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.movetolocation.options.description
 
@@ -754,7 +754,7 @@ navigateToBlock(blockLocation: Vector3, speed: float): NavigationResult
 ////
 
 //// define
-`speed`：`float`
+`speed`：`float`＝`1.0`∈[`0.0`, `1.0`]
 
 - script_api.@minecraft/server-gametest.simulatedplayer.navigatetoblock.speed.description
 
@@ -794,7 +794,7 @@ navigateToEntity(entity: Entity, speed: float): NavigationResult
 ////
 
 //// define
-`speed`：`float`
+`speed`：`float`＝`1.0`∈[`0.0`, `1.0`]
 
 - script_api.@minecraft/server-gametest.simulatedplayer.navigatetoentity.speed.description
 
@@ -834,7 +834,7 @@ navigateToLocation(location: Vector3, speed: float): NavigationResult
 ////
 
 //// define
-`speed`：`float`
+`speed`：`float`＝`1.0`∈[`0.0`, `1.0`]
 
 - script_api.@minecraft/server-gametest.simulatedplayer.navigatetolocation.speed.description
 
@@ -874,7 +874,7 @@ navigateToLocations(locations: Vector3[], speed: float): void
 ////
 
 //// define
-`speed`：`float`
+`speed`：`float`＝`1.0`∈[`0.0`, `1.0`]
 
 - script_api.@minecraft/server-gametest.simulatedplayer.navigatetolocations.speed.description
 
@@ -1010,7 +1010,7 @@ setItem(itemStack: ItemStack, slot: int32, selectSlot: boolean): boolean
 ////
 
 //// define
-`selectSlot`：`boolean`
+`selectSlot`：`boolean`＝`False`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.setitem.selectslot.description
 
@@ -1042,7 +1042,7 @@ startBuild(slot: int32): void
 
 /// html | div.result
 //// define
-`slot`：`int32`
+`slot`：`int32`＝`0`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.startbuild.slot.description
 
@@ -1370,7 +1370,7 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 ////
 
 //// define
-`direction`：[`Direction`](../../server/1.8.0/direction.md)
+`direction`：[`Direction`](../../server/1.8.0/direction.md)＝`1`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.useiteminslotonblock.direction.description
 
@@ -1378,7 +1378,7 @@ useItemInSlotOnBlock(slot: int32, blockLocation: Vector3, direction: Direction, 
 ////
 
 //// define
-`faceLocation`：[`Vector3`](../../server/1.8.0/vector3.md)|`undefined`
+`faceLocation`?：[`Vector3`](../../server/1.8.0/vector3.md)＝`null`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.useiteminslotonblock.facelocation.description
 
@@ -1426,7 +1426,7 @@ useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Directio
 ////
 
 //// define
-`direction`：[`Direction`](../../server/1.8.0/direction.md)
+`direction`：[`Direction`](../../server/1.8.0/direction.md)＝`1`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.useitemonblock.direction.description
 
@@ -1434,7 +1434,7 @@ useItemOnBlock(itemStack: ItemStack, blockLocation: Vector3, direction: Directio
 ////
 
 //// define
-`faceLocation`：[`Vector3`](../../server/1.8.0/vector3.md)|`undefined`
+`faceLocation`?：[`Vector3`](../../server/1.8.0/vector3.md)＝`null`
 
 - script_api.@minecraft/server-gametest.simulatedplayer.useitemonblock.facelocation.description
 

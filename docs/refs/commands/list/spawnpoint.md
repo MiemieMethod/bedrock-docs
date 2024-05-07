@@ -1,6 +1,6 @@
 # `/spawnpoint`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/spawnpoint`命令command.spawnpoint.description
 

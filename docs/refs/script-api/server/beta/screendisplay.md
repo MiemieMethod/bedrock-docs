@@ -1,6 +1,6 @@
 # `ScreenDisplay`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ScreenDisplay`类。script_api.@minecraft/server.screendisplay.description
 
@@ -44,7 +44,7 @@ hideAllExcept(hudElements?: HudElement[]): void
 
 /// html | div.result
 //// define
-`hudElements`：<code><a href="../hudelement/">HudElement</a>[]</code>|`undefined`
+`hudElements`?：<code><a href="../hudelement/">HudElement</a>[]</code>＝`null`
 
 - script_api.@minecraft/server.screendisplay.hideallexcept.hudelements.description
 
@@ -196,7 +196,7 @@ setHudVisibility(visible: HudVisibility, hudElements?: HudElement[]): void
 ////
 
 //// define
-`hudElements`：<code><a href="../hudelement/">HudElement</a>[]</code>|`undefined`
+`hudElements`?：<code><a href="../hudelement/">HudElement</a>[]</code>＝`null`
 
 - script_api.@minecraft/server.screendisplay.sethudvisibility.hudelements.description
 
@@ -236,7 +236,7 @@ setTitle(title: (RawMessage | string)[] | RawMessage | string, options?: TitleDi
 ////
 
 //// define
-`options`：[`TitleDisplayOptions`](./titledisplayoptions.md)|`undefined`
+`options`?：[`TitleDisplayOptions`](./titledisplayoptions.md)＝`null`
 
 - script_api.@minecraft/server.screendisplay.settitle.options.description
 

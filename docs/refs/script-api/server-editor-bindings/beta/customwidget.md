@@ -1,6 +1,6 @@
 # `CustomWidget`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `CustomWidget`类，扩展自[`Widget`](./widget.md)。script_api.@minecraft/server-editor-bindings.customwidget.description
 

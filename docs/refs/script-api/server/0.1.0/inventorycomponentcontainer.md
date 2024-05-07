@@ -1,6 +1,6 @@
 # `InventoryComponentContainer`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `InventoryComponentContainer`类。script_api.mojang-minecraft.inventorycomponentcontainer.description
 

@@ -1,6 +1,6 @@
 # `EntityStrengthComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityStrengthComponent`类，扩展自[`IEntityComponent`](./ientitycomponent.md)。script_api.mojang-minecraft.entitystrengthcomponent.description
 

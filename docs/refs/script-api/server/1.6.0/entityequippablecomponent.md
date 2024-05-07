@@ -1,6 +1,6 @@
 # `EntityEquippableComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityEquippableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityequippablecomponent.description
 
@@ -73,7 +73,7 @@ setEquipment(equipmentSlot: EquipmentSlot, itemStack?: ItemStack): boolean
 ////
 
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+`itemStack`?：[`ItemStack`](./itemstack.md)＝`null`
 
 - script_api.@minecraft/server.entityequippablecomponent.setequipment.itemstack.description
 

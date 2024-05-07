@@ -1,6 +1,6 @@
 # `Dimension`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Dimension`类。script_api.@minecraft/server.dimension.description
 
@@ -74,7 +74,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 ////
 
 //// define
-`radius`：`float`
+`radius`：`float`∈[`0.0`, `1000.0`]
 
 - script_api.@minecraft/server.dimension.createexplosion.radius.description
 
@@ -82,7 +82,7 @@ createExplosion(location: Vector3, radius: float, explosionOptions?: ExplosionOp
 ////
 
 //// define
-`explosionOptions`：[`ExplosionOptions`](./explosionoptions.md)|`undefined`
+`explosionOptions`?：[`ExplosionOptions`](./explosionoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.createexplosion.explosionoptions.description
 
@@ -162,7 +162,7 @@ getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOpt
 ////
 
 //// define
-`options`：[`BlockRaycastOptions`](./blockraycastoptions.md)|`undefined`
+`options`?：[`BlockRaycastOptions`](./blockraycastoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getblockfromray.options.description
 
@@ -194,7 +194,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getentities.options.description
 
@@ -274,7 +274,7 @@ getEntitiesFromRay(location: Vector3, direction: Vector3, options?: EntityRaycas
 ////
 
 //// define
-`options`：[`EntityRaycastOptions`](./entityraycastoptions.md)|`undefined`
+`options`?：[`EntityRaycastOptions`](./entityraycastoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getentitiesfromray.options.description
 
@@ -306,7 +306,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getplayers.options.description
 
@@ -317,6 +317,54 @@ getPlayers(options?: EntityQueryOptions): Player[]
 返回值：<code><a href="../player/">Player</a>[]</code>
 
 - script_api.@minecraft/server.dimension.getplayers.return
+
+
+////
+
+///
+
+
+/// define
+`playSound`
+
+
+///
+
+script_api.@minecraft/server.dimension.playsound.description
+
+```js
+playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions): void
+```
+
+/// html | div.result
+//// define
+`soundId`：`string`
+
+- script_api.@minecraft/server.dimension.playsound.soundid.description
+
+
+////
+
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.dimension.playsound.location.description
+
+
+////
+
+//// define
+`soundOptions`?：[`WorldSoundOptions`](./worldsoundoptions.md)＝`null`
+
+- script_api.@minecraft/server.dimension.playsound.soundoptions.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.dimension.playsound.return
 
 
 ////
@@ -410,7 +458,7 @@ setWeather(weatherType: WeatherType, duration?: int32): void
 ////
 
 //// define
-`duration`：`int32`|`undefined`
+`duration`?：`int32`＝`null`∈[`1`, `1000000`]
 
 - script_api.@minecraft/server.dimension.setweather.duration.description
 
@@ -538,7 +586,7 @@ spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVar
 ////
 
 //// define
-`molangVariables`：[`MolangVariableMap`](./molangvariablemap.md)|`undefined`
+`molangVariables`?：[`MolangVariableMap`](./molangvariablemap.md)＝`null`
 
 - script_api.@minecraft/server.dimension.spawnparticle.molangvariables.description
 

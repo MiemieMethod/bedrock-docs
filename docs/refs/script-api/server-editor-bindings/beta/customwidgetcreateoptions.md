@@ -1,6 +1,6 @@
 # `CustomWidgetCreateOptions`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `CustomWidgetCreateOptions`接口，扩展自[`WidgetCreateOptions`](./widgetcreateoptions.md)。script_api.@minecraft/server-editor-bindings.customwidgetcreateoptions.description
 

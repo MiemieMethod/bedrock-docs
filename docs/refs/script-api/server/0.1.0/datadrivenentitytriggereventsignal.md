@@ -1,6 +1,6 @@
 # `DataDrivenEntityTriggerEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `DataDrivenEntityTriggerEventSignal`类。script_api.mojang-minecraft.datadrivenentitytriggereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerEvent) => void, options?: Entit
 ////
 
 //// define
-`options`：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)|`undefined`
+`options`?：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)＝`null`
 
 - script_api.mojang-minecraft.datadrivenentitytriggereventsignal.subscribe.options.description
 

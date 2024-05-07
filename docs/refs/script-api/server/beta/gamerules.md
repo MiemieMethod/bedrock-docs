@@ -1,6 +1,6 @@
 # `GameRules`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `GameRules`类。script_api.@minecraft/server.gamerules.description
 
@@ -659,6 +659,28 @@ showCoordinates: boolean;
 `showCoordinates`：`boolean`
 
 - script_api.@minecraft/server.gamerules.showcoordinates.description
+
+
+////
+
+///
+
+
+/// define
+`showDaysPlayed`
+
+
+///
+
+```js
+showDaysPlayed: boolean;
+```
+
+/// html | div.result
+//// define
+`showDaysPlayed`：`boolean`
+
+- script_api.@minecraft/server.gamerules.showdaysplayed.description
 
 
 ////

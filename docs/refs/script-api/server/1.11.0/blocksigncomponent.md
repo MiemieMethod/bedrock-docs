@@ -1,6 +1,6 @@
 # `BlockSignComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockSignComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blocksigncomponent.description
 
@@ -57,7 +57,7 @@ getRawText(side: SignSide): RawText | undefined
 
 /// html | div.result
 //// define
-`side`：[`SignSide`](./signside.md)
+`side`：[`SignSide`](./signside.md)＝`0`
 
 - script_api.@minecraft/server.blocksigncomponent.getrawtext.side.description
 
@@ -89,7 +89,7 @@ getText(side: SignSide): string | undefined
 
 /// html | div.result
 //// define
-`side`：[`SignSide`](./signside.md)
+`side`：[`SignSide`](./signside.md)＝`0`
 
 - script_api.@minecraft/server.blocksigncomponent.gettext.side.description
 
@@ -121,7 +121,7 @@ getTextDyeColor(side: SignSide): DyeColor | undefined
 
 /// html | div.result
 //// define
-`side`：[`SignSide`](./signside.md)
+`side`：[`SignSide`](./signside.md)＝`0`
 
 - script_api.@minecraft/server.blocksigncomponent.gettextdyecolor.side.description
 
@@ -161,7 +161,7 @@ setText(message: RawMessage | RawText | string, side: SignSide): void
 ////
 
 //// define
-`side`：[`SignSide`](./signside.md)
+`side`：[`SignSide`](./signside.md)＝`0`
 
 - script_api.@minecraft/server.blocksigncomponent.settext.side.description
 
@@ -193,7 +193,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 
 /// html | div.result
 //// define
-`color`：[`DyeColor`](./dyecolor.md)|`undefined`
+`color`?：[`DyeColor`](./dyecolor.md)＝`null`
 
 - script_api.@minecraft/server.blocksigncomponent.settextdyecolor.color.description
 
@@ -201,7 +201,7 @@ setTextDyeColor(color?: DyeColor, side: SignSide): void
 ////
 
 //// define
-`side`：[`SignSide`](./signside.md)
+`side`：[`SignSide`](./signside.md)＝`0`
 
 - script_api.@minecraft/server.blocksigncomponent.settextdyecolor.side.description
 

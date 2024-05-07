@@ -1,6 +1,6 @@
 # `/reloadconfig`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `/reloadconfig`命令command.reloadconfig.description
 

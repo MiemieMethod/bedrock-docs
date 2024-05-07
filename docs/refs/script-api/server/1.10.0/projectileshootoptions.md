@@ -1,6 +1,6 @@
 # `ProjectileShootOptions`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ProjectileShootOptions`接口。script_api.@minecraft/server.projectileshootoptions.description
 

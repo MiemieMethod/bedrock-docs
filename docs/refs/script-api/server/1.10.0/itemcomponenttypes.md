@@ -1,6 +1,6 @@
 # `ItemComponentTypes`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `ItemComponentTypes`枚举。script_api.@minecraft/server.itemcomponenttypes.description
 

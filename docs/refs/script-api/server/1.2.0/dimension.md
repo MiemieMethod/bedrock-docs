@@ -1,6 +1,6 @@
 # `Dimension`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Dimension`类。script_api.@minecraft/server.dimension.description
 
@@ -76,7 +76,7 @@ getEntities(options?: EntityQueryOptions): Entity[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getentities.options.description
 
@@ -140,7 +140,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.@minecraft/server.dimension.getplayers.options.description
 

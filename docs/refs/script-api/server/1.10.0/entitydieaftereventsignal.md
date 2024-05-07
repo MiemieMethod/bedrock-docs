@@ -1,6 +1,6 @@
 # `EntityDieAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityDieAfterEventSignal`类。script_api.@minecraft/server.entitydieaftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: EntityDieAfterEvent) => void, options?: EntityEventOpt
 ////
 
 //// define
-`options`：[`EntityEventOptions`](./entityeventoptions.md)|`undefined`
+`options`?：[`EntityEventOptions`](./entityeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.entitydieaftereventsignal.subscribe.options.description
 

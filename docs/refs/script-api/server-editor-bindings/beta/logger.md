@@ -1,6 +1,6 @@
 # `Logger`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Logger`类。script_api.@minecraft/server-editor-bindings.logger.description
 
@@ -28,7 +28,7 @@ debug(message: string, properties?: LogProperties): void
 ////
 
 //// define
-`properties`：[`LogProperties`](./logproperties.md)|`undefined`
+`properties`?：[`LogProperties`](./logproperties.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.logger.debug.properties.description
 
@@ -68,7 +68,7 @@ error(message: string, properties?: LogProperties): void
 ////
 
 //// define
-`properties`：[`LogProperties`](./logproperties.md)|`undefined`
+`properties`?：[`LogProperties`](./logproperties.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.logger.error.properties.description
 
@@ -108,7 +108,7 @@ info(message: string, properties?: LogProperties): void
 ////
 
 //// define
-`properties`：[`LogProperties`](./logproperties.md)|`undefined`
+`properties`?：[`LogProperties`](./logproperties.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.logger.info.properties.description
 
@@ -148,7 +148,7 @@ warning(message: string, properties?: LogProperties): void
 ////
 
 //// define
-`properties`：[`LogProperties`](./logproperties.md)|`undefined`
+`properties`?：[`LogProperties`](./logproperties.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.logger.warning.properties.description
 

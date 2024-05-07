@@ -1,6 +1,6 @@
 # `EntityProjectileComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `EntityProjectileComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityprojectilecomponent.description
 
@@ -351,7 +351,7 @@ shoot(velocity: Vector3, options?: ProjectileShootOptions): void
 ////
 
 //// define
-`options`：[`ProjectileShootOptions`](./projectileshootoptions.md)|`undefined`
+`options`?：[`ProjectileShootOptions`](./projectileshootoptions.md)＝`null`
 
 - script_api.@minecraft/server.entityprojectilecomponent.shoot.options.description
 

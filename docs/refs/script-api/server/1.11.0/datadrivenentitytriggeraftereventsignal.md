@@ -1,6 +1,6 @@
 # `DataDrivenEntityTriggerAfterEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `DataDrivenEntityTriggerAfterEventSignal`类。script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: DataDrivenEntityTriggerAfterEvent) => void, options?: 
 ////
 
 //// define
-`options`：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)|`undefined`
+`options`?：[`EntityDataDrivenTriggerEventOptions`](./entitydatadriventriggereventoptions.md)＝`null`
 
 - script_api.@minecraft/server.datadrivenentitytriggeraftereventsignal.subscribe.options.description
 

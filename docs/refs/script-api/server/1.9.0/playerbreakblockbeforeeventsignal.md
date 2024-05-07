@@ -1,6 +1,6 @@
 # `PlayerBreakBlockBeforeEventSignal`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `PlayerBreakBlockBeforeEventSignal`类。script_api.@minecraft/server.playerbreakblockbeforeeventsignal.description
 
@@ -28,7 +28,7 @@ subscribe(callback: (arg: PlayerBreakBlockBeforeEvent) => void, options?: BlockE
 ////
 
 //// define
-`options`：[`BlockEventOptions`](./blockeventoptions.md)|`undefined`
+`options`?：[`BlockEventOptions`](./blockeventoptions.md)＝`null`
 
 - script_api.@minecraft/server.playerbreakblockbeforeeventsignal.subscribe.options.description
 

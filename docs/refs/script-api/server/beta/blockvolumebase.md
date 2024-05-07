@@ -1,6 +1,6 @@
 # `BlockVolumeBase`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockVolumeBase`类。script_api.@minecraft/server.blockvolumebase.description
 
@@ -159,14 +159,14 @@ getSpan(): Vector3
 script_api.@minecraft/server.blockvolumebase.isinside.description
 
 ```js
-isInside(pos: Vector3): boolean
+isInside(location: Vector3): boolean
 ```
 
 /// html | div.result
 //// define
-`pos`：[`Vector3`](./vector3.md)
+`location`：[`Vector3`](./vector3.md)
 
-- script_api.@minecraft/server.blockvolumebase.isinside.pos.description
+- script_api.@minecraft/server.blockvolumebase.isinside.location.description
 
 
 ////

@@ -1,6 +1,6 @@
 # `World`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `World`类。script_api.@minecraft/server.world.description
 
@@ -376,7 +376,7 @@ getPlayers(options?: EntityQueryOptions): Player[]
 
 /// html | div.result
 //// define
-`options`：[`EntityQueryOptions`](./entityqueryoptions.md)|`undefined`
+`options`?：[`EntityQueryOptions`](./entityqueryoptions.md)＝`null`
 
 - script_api.@minecraft/server.world.getplayers.options.description
 
@@ -440,7 +440,7 @@ playMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.@minecraft/server.world.playmusic.musicoptions.description
 
@@ -488,7 +488,7 @@ playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions):
 ////
 
 //// define
-`soundOptions`：[`WorldSoundOptions`](./worldsoundoptions.md)|`undefined`
+`soundOptions`?：[`WorldSoundOptions`](./worldsoundoptions.md)＝`null`
 
 - script_api.@minecraft/server.world.playsound.soundoptions.description
 
@@ -528,7 +528,7 @@ queueMusic(trackId: string, musicOptions?: MusicOptions): void
 ////
 
 //// define
-`musicOptions`：[`MusicOptions`](./musicoptions.md)|`undefined`
+`musicOptions`?：[`MusicOptions`](./musicoptions.md)＝`null`
 
 - script_api.@minecraft/server.world.queuemusic.musicoptions.description
 
@@ -664,7 +664,7 @@ setDynamicProperty(identifier: string, value?: boolean | double | float | string
 ////
 
 //// define
-`value`：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)|`undefined`
+`value`?：`boolean`|`double`|`float`|`string`|[`Vector3`](./vector3.md)＝`null`
 
 - script_api.@minecraft/server.world.setdynamicproperty.value.description
 

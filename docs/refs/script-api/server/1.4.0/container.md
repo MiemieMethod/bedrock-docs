@@ -1,6 +1,6 @@
 # `Container`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `Container`类。script_api.@minecraft/server.container.description
 
@@ -234,7 +234,7 @@ setItem(slot: int32, itemStack?: ItemStack): void
 ////
 
 //// define
-`itemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+`itemStack`?：[`ItemStack`](./itemstack.md)＝`null`
 
 - script_api.@minecraft/server.container.setitem.itemstack.description
 

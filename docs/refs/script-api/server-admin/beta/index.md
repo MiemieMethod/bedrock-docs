@@ -1,6 +1,6 @@
 # `@minecraft/server-admin`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `@minecraft/server-admin`模块的`1.0.0-beta`版本，UUID为`53d7f2bf-bf9c-49c4-ad1f-7c803d947920`。该模块是script_api.@minecraft/server-admin.description
 

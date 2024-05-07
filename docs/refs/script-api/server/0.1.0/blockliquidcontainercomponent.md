@@ -1,6 +1,6 @@
 # `BlockLiquidContainerComponent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockLiquidContainerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.mojang-minecraft.blockliquidcontainercomponent.description
 

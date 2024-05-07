@@ -1,6 +1,6 @@
 # `BlockComponentEntityFallOnEvent`
 
-> 文档版本：1.21.0.21
+> 文档版本：1.21.0.24
 
 `BlockComponentEntityFallOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含掉落在方块上的实体的信息。
 
