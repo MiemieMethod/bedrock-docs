@@ -938,6 +938,7 @@ nav:
             - <code>BlockStateType</code>: refs/script-api/server/1.11.0/blockstatetype.md
             - <code>BlockType</code>: refs/script-api/server/1.11.0/blocktype.md
             - <code>BlockTypes</code>: refs/script-api/server/1.11.0/blocktypes.md
+            - <code>BlockVolumeBase</code>: refs/script-api/server/1.11.0/blockvolumebase.md
             - <code>ButtonPushAfterEvent</code>: refs/script-api/server/1.11.0/buttonpushafterevent.md
             - <code>ButtonPushAfterEventSignal</code>: refs/script-api/server/1.11.0/buttonpushaftereventsignal.md
             - <code>Camera</code>: refs/script-api/server/1.11.0/camera.md
@@ -960,11 +961,13 @@ nav:
             - <code>EnchantmentType</code>: refs/script-api/server/1.11.0/enchantmenttype.md
             - <code>EnchantmentTypes</code>: refs/script-api/server/1.11.0/enchantmenttypes.md
             - <code>Entity</code>: refs/script-api/server/1.11.0/entity.md
+            - <code>EntityAddRiderComponent</code>: refs/script-api/server/1.11.0/entityaddridercomponent.md
             - <code>EntityAttributeComponent</code>: refs/script-api/server/1.11.0/entityattributecomponent.md
             - <code>EntityBaseMovementComponent</code>: refs/script-api/server/1.11.0/entitybasemovementcomponent.md
             - <code>EntityCanClimbComponent</code>: refs/script-api/server/1.11.0/entitycanclimbcomponent.md
             - <code>EntityCanFlyComponent</code>: refs/script-api/server/1.11.0/entitycanflycomponent.md
             - <code>EntityCanPowerJumpComponent</code>: refs/script-api/server/1.11.0/entitycanpowerjumpcomponent.md
+            - <code>EntityColor2Component</code>: refs/script-api/server/1.11.0/entitycolor2component.md
             - <code>EntityColorComponent</code>: refs/script-api/server/1.11.0/entitycolorcomponent.md
             - <code>EntityComponent</code>: refs/script-api/server/1.11.0/entitycomponent.md
             - <code>EntityDieAfterEvent</code>: refs/script-api/server/1.11.0/entitydieafterevent.md
@@ -1010,6 +1013,13 @@ nav:
             - <code>EntityMovementHoverComponent</code>: refs/script-api/server/1.11.0/entitymovementhovercomponent.md
             - <code>EntityMovementJumpComponent</code>: refs/script-api/server/1.11.0/entitymovementjumpcomponent.md
             - <code>EntityMovementSkipComponent</code>: refs/script-api/server/1.11.0/entitymovementskipcomponent.md
+            - <code>EntityNavigationClimbComponent</code>: refs/script-api/server/1.11.0/entitynavigationclimbcomponent.md
+            - <code>EntityNavigationComponent</code>: refs/script-api/server/1.11.0/entitynavigationcomponent.md
+            - <code>EntityNavigationFloatComponent</code>: refs/script-api/server/1.11.0/entitynavigationfloatcomponent.md
+            - <code>EntityNavigationFlyComponent</code>: refs/script-api/server/1.11.0/entitynavigationflycomponent.md
+            - <code>EntityNavigationGenericComponent</code>: refs/script-api/server/1.11.0/entitynavigationgenericcomponent.md
+            - <code>EntityNavigationHoverComponent</code>: refs/script-api/server/1.11.0/entitynavigationhovercomponent.md
+            - <code>EntityNavigationWalkComponent</code>: refs/script-api/server/1.11.0/entitynavigationwalkcomponent.md
             - <code>EntityOnFireComponent</code>: refs/script-api/server/1.11.0/entityonfirecomponent.md
             - <code>EntityProjectileComponent</code>: refs/script-api/server/1.11.0/entityprojectilecomponent.md
             - <code>EntityPushThroughComponent</code>: refs/script-api/server/1.11.0/entitypushthroughcomponent.md
@@ -1017,10 +1027,13 @@ nav:
             - <code>EntityRemoveAfterEventSignal</code>: refs/script-api/server/1.11.0/entityremoveaftereventsignal.md
             - <code>EntityRemoveBeforeEvent</code>: refs/script-api/server/1.11.0/entityremovebeforeevent.md
             - <code>EntityRemoveBeforeEventSignal</code>: refs/script-api/server/1.11.0/entityremovebeforeeventsignal.md
+            - <code>EntityRideableComponent</code>: refs/script-api/server/1.11.0/entityrideablecomponent.md
+            - <code>EntityRidingComponent</code>: refs/script-api/server/1.11.0/entityridingcomponent.md
             - <code>EntityScaleComponent</code>: refs/script-api/server/1.11.0/entityscalecomponent.md
             - <code>EntitySkinIdComponent</code>: refs/script-api/server/1.11.0/entityskinidcomponent.md
             - <code>EntitySpawnAfterEvent</code>: refs/script-api/server/1.11.0/entityspawnafterevent.md
             - <code>EntitySpawnAfterEventSignal</code>: refs/script-api/server/1.11.0/entityspawnaftereventsignal.md
+            - <code>EntityTameMountComponent</code>: refs/script-api/server/1.11.0/entitytamemountcomponent.md
             - <code>EntityType</code>: refs/script-api/server/1.11.0/entitytype.md
             - <code>EntityTypeFamilyComponent</code>: refs/script-api/server/1.11.0/entitytypefamilycomponent.md
             - <code>EntityTypes</code>: refs/script-api/server/1.11.0/entitytypes.md
@@ -1032,6 +1045,9 @@ nav:
             - <code>ExplosionBeforeEventSignal</code>: refs/script-api/server/1.11.0/explosionbeforeeventsignal.md
             - <code>FeedItem</code>: refs/script-api/server/1.11.0/feeditem.md
             - <code>FeedItemEffect</code>: refs/script-api/server/1.11.0/feeditemeffect.md
+            - <code>GameRuleChangeAfterEvent</code>: refs/script-api/server/1.11.0/gamerulechangeafterevent.md
+            - <code>GameRuleChangeAfterEventSignal</code>: refs/script-api/server/1.11.0/gamerulechangeaftereventsignal.md
+            - <code>GameRules</code>: refs/script-api/server/1.11.0/gamerules.md
             - <code>IButtonPushAfterEventSignal</code>: refs/script-api/server/1.11.0/ibuttonpushaftereventsignal.md
             - <code>ILeverActionAfterEventSignal</code>: refs/script-api/server/1.11.0/ileveractionaftereventsignal.md
             - <code>IPlayerJoinAfterEventSignal</code>: refs/script-api/server/1.11.0/iplayerjoinaftereventsignal.md
@@ -1066,6 +1082,7 @@ nav:
             - <code>ItemUseOnBeforeEventSignal</code>: refs/script-api/server/1.11.0/itemuseonbeforeeventsignal.md
             - <code>LeverActionAfterEvent</code>: refs/script-api/server/1.11.0/leveractionafterevent.md
             - <code>LeverActionAfterEventSignal</code>: refs/script-api/server/1.11.0/leveractionaftereventsignal.md
+            - <code>ListBlockVolume</code>: refs/script-api/server/1.11.0/listblockvolume.md
             - <code>MinecraftDimensionTypes</code>: refs/script-api/server/1.11.0/minecraftdimensiontypes.md
             - <code>MolangVariableMap</code>: refs/script-api/server/1.11.0/molangvariablemap.md
             - <code>PistonActivateAfterEvent</code>: refs/script-api/server/1.11.0/pistonactivateafterevent.md
@@ -1077,6 +1094,10 @@ nav:
             - <code>PlayerBreakBlockBeforeEventSignal</code>: refs/script-api/server/1.11.0/playerbreakblockbeforeeventsignal.md
             - <code>PlayerDimensionChangeAfterEvent</code>: refs/script-api/server/1.11.0/playerdimensionchangeafterevent.md
             - <code>PlayerDimensionChangeAfterEventSignal</code>: refs/script-api/server/1.11.0/playerdimensionchangeaftereventsignal.md
+            - <code>PlayerGameModeChangeAfterEvent</code>: refs/script-api/server/1.11.0/playergamemodechangeafterevent.md
+            - <code>PlayerGameModeChangeAfterEventSignal</code>: refs/script-api/server/1.11.0/playergamemodechangeaftereventsignal.md
+            - <code>PlayerGameModeChangeBeforeEvent</code>: refs/script-api/server/1.11.0/playergamemodechangebeforeevent.md
+            - <code>PlayerGameModeChangeBeforeEventSignal</code>: refs/script-api/server/1.11.0/playergamemodechangebeforeeventsignal.md
             - <code>PlayerInteractWithBlockAfterEvent</code>: refs/script-api/server/1.11.0/playerinteractwithblockafterevent.md
             - <code>PlayerInteractWithBlockAfterEventSignal</code>: refs/script-api/server/1.11.0/playerinteractwithblockaftereventsignal.md
             - <code>PlayerInteractWithBlockBeforeEvent</code>: refs/script-api/server/1.11.0/playerinteractwithblockbeforeevent.md
@@ -1110,6 +1131,7 @@ nav:
             - <code>ScreenDisplay</code>: refs/script-api/server/1.11.0/screendisplay.md
             - <code>ScriptEventCommandMessageAfterEvent</code>: refs/script-api/server/1.11.0/scripteventcommandmessageafterevent.md
             - <code>ScriptEventCommandMessageAfterEventSignal</code>: refs/script-api/server/1.11.0/scripteventcommandmessageaftereventsignal.md
+            - <code>Seat</code>: refs/script-api/server/1.11.0/seat.md
             - <code>Structure</code>: refs/script-api/server/1.11.0/structure.md
             - <code>StructureManager</code>: refs/script-api/server/1.11.0/structuremanager.md
             - <code>System</code>: refs/script-api/server/1.11.0/system.md
@@ -1189,12 +1211,14 @@ nav:
             - <code>EquipmentSlot</code>: refs/script-api/server/1.11.0/equipmentslot.md
             - <code>FluidType</code>: refs/script-api/server/1.11.0/fluidtype.md
             - <code>GameMode</code>: refs/script-api/server/1.11.0/gamemode.md
+            - <code>GameRule</code>: refs/script-api/server/1.11.0/gamerule.md
             - <code>HudElement</code>: refs/script-api/server/1.11.0/hudelement.md
             - <code>HudVisibility</code>: refs/script-api/server/1.11.0/hudvisibility.md
             - <code>ItemComponentTypes</code>: refs/script-api/server/1.11.0/itemcomponenttypes.md
             - <code>ItemLockMode</code>: refs/script-api/server/1.11.0/itemlockmode.md
             - <code>MoonPhase</code>: refs/script-api/server/1.11.0/moonphase.md
             - <code>ObjectiveSortOrder</code>: refs/script-api/server/1.11.0/objectivesortorder.md
+            - <code>PaletteColor</code>: refs/script-api/server/1.11.0/palettecolor.md
             - <code>ScoreboardIdentityType</code>: refs/script-api/server/1.11.0/scoreboardidentitytype.md
             - <code>ScriptEventSource</code>: refs/script-api/server/1.11.0/scripteventsource.md
             - <code>SignSide</code>: refs/script-api/server/1.11.0/signside.md
@@ -2844,8 +2868,11 @@ nav:
             - <code>IPlayerSpawnAfterEventSignal</code>: refs/script-api/server/beta/iplayerspawnaftereventsignal.md
             - <code>ItemCompleteUseAfterEvent</code>: refs/script-api/server/beta/itemcompleteuseafterevent.md
             - <code>ItemCompleteUseAfterEventSignal</code>: refs/script-api/server/beta/itemcompleteuseaftereventsignal.md
+            - <code>ItemCompleteUseEvent</code>: refs/script-api/server/beta/itemcompleteuseevent.md
             - <code>ItemComponent</code>: refs/script-api/server/beta/itemcomponent.md
             - <code>ItemComponentBeforeDurabilityDamageEvent</code>: refs/script-api/server/beta/itemcomponentbeforedurabilitydamageevent.md
+            - <code>ItemComponentCompleteUseEvent</code>: refs/script-api/server/beta/itemcomponentcompleteuseevent.md
+            - <code>ItemComponentConsumeEvent</code>: refs/script-api/server/beta/itemcomponentconsumeevent.md
             - <code>ItemComponentHitEntityEvent</code>: refs/script-api/server/beta/itemcomponenthitentityevent.md
             - <code>ItemComponentMineBlockEvent</code>: refs/script-api/server/beta/itemcomponentmineblockevent.md
             - <code>ItemComponentRegistry</code>: refs/script-api/server/beta/itemcomponentregistry.md
@@ -3022,6 +3049,7 @@ nav:
             - <code>TitleDisplayOptions</code>: refs/script-api/server/beta/titledisplayoptions.md
             - <code>Vector2</code>: refs/script-api/server/beta/vector2.md
             - <code>Vector3</code>: refs/script-api/server/beta/vector3.md
+            - <code>VectorXZ</code>: refs/script-api/server/beta/vectorxz.md
             - <code>WorldSoundOptions</code>: refs/script-api/server/beta/worldsoundoptions.md
           - 枚举:
             - <code>BlockComponentTypes</code>: refs/script-api/server/beta/blockcomponenttypes.md
@@ -3255,8 +3283,11 @@ nav:
             - <code>IPlayerSpawnAfterEventSignal</code>: refs/script-api/server/internal/iplayerspawnaftereventsignal.md
             - <code>ItemCompleteUseAfterEvent</code>: refs/script-api/server/internal/itemcompleteuseafterevent.md
             - <code>ItemCompleteUseAfterEventSignal</code>: refs/script-api/server/internal/itemcompleteuseaftereventsignal.md
+            - <code>ItemCompleteUseEvent</code>: refs/script-api/server/internal/itemcompleteuseevent.md
             - <code>ItemComponent</code>: refs/script-api/server/internal/itemcomponent.md
             - <code>ItemComponentBeforeDurabilityDamageEvent</code>: refs/script-api/server/internal/itemcomponentbeforedurabilitydamageevent.md
+            - <code>ItemComponentCompleteUseEvent</code>: refs/script-api/server/internal/itemcomponentcompleteuseevent.md
+            - <code>ItemComponentConsumeEvent</code>: refs/script-api/server/internal/itemcomponentconsumeevent.md
             - <code>ItemComponentHitEntityEvent</code>: refs/script-api/server/internal/itemcomponenthitentityevent.md
             - <code>ItemComponentMineBlockEvent</code>: refs/script-api/server/internal/itemcomponentmineblockevent.md
             - <code>ItemComponentRegistry</code>: refs/script-api/server/internal/itemcomponentregistry.md
@@ -3433,6 +3464,7 @@ nav:
             - <code>TitleDisplayOptions</code>: refs/script-api/server/internal/titledisplayoptions.md
             - <code>Vector2</code>: refs/script-api/server/internal/vector2.md
             - <code>Vector3</code>: refs/script-api/server/internal/vector3.md
+            - <code>VectorXZ</code>: refs/script-api/server/internal/vectorxz.md
             - <code>WorldSoundOptions</code>: refs/script-api/server/internal/worldsoundoptions.md
           - 枚举:
             - <code>BlockComponentTypes</code>: refs/script-api/server/internal/blockcomponenttypes.md
@@ -3615,6 +3647,7 @@ nav:
             - <code>DataStoreMenuContainer</code>: refs/script-api/server-editor-bindings/beta/datastoremenucontainer.md
             - <code>DataStorePayloadAfterEvent</code>: refs/script-api/server-editor-bindings/beta/datastorepayloadafterevent.md
             - <code>DataStorePayloadAfterEventSignal</code>: refs/script-api/server-editor-bindings/beta/datastorepayloadaftereventsignal.md
+            - <code>ExportManager</code>: refs/script-api/server-editor-bindings/beta/exportmanager.md
             - <code>Extension</code>: refs/script-api/server-editor-bindings/beta/extension.md
             - <code>ExtensionContext</code>: refs/script-api/server-editor-bindings/beta/extensioncontext.md
             - <code>ExtensionContextAfterEvents</code>: refs/script-api/server-editor-bindings/beta/extensioncontextafterevents.md
@@ -3651,6 +3684,7 @@ nav:
             - <code>ExtensionOptionalParameters</code>: refs/script-api/server-editor-bindings/beta/extensionoptionalparameters.md
             - <code>LogProperties</code>: refs/script-api/server-editor-bindings/beta/logproperties.md
             - <code>PlaytestGameOptions</code>: refs/script-api/server-editor-bindings/beta/playtestgameoptions.md
+            - <code>ProjectExportOptions</code>: refs/script-api/server-editor-bindings/beta/projectexportoptions.md
             - <code>WidgetCreateOptions</code>: refs/script-api/server-editor-bindings/beta/widgetcreateoptions.md
             - <code>WidgetGroupCreateOptions</code>: refs/script-api/server-editor-bindings/beta/widgetgroupcreateoptions.md
           - 枚举:
@@ -3658,8 +3692,10 @@ nav:
             - <code>CursorControlMode</code>: refs/script-api/server-editor-bindings/beta/cursorcontrolmode.md
             - <code>CursorTargetMode</code>: refs/script-api/server-editor-bindings/beta/cursortargetmode.md
             - <code>EditorMode</code>: refs/script-api/server-editor-bindings/beta/editormode.md
+            - <code>ExportResult</code>: refs/script-api/server-editor-bindings/beta/exportresult.md
             - <code>GraphicsSettingsProperty</code>: refs/script-api/server-editor-bindings/beta/graphicssettingsproperty.md
             - <code>PlaytestSessionResult</code>: refs/script-api/server-editor-bindings/beta/playtestsessionresult.md
+            - <code>ProjectExportType</code>: refs/script-api/server-editor-bindings/beta/projectexporttype.md
             - <code>WidgetGroupSelectionMode</code>: refs/script-api/server-editor-bindings/beta/widgetgroupselectionmode.md
       - <code>@minecraft/server-editor</code>:
         - <code>beta</code>:
