@@ -4788,5 +4788,7 @@ nav:
         - 原版方块标签: refs/tables/blocks/vanilla_tags.md
       - 物品:
         - 原版物品标签: refs/tables/items/vanilla_tags.md
+      - 生物群系:
+        - 原版生物群系标签: refs/tables/biomes/vanilla_tags.md
   - 专栏:
     - blog/index.md
