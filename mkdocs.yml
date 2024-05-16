@@ -431,6 +431,40 @@ nav:
     - refs/index.md
     - 数据驱动（来自Blockception）:
       - refs/data-driven/blockception/index.md
+      - 物品:
+        - 行为定义:
+          - refs/data-driven/blockception/item/behavior/index.md
+          - 组件:
+            - <code>minecraft:allow_off_hand</code>: refs/data-driven/blockception/item/behavior/components/allow_off_hand.md
+            - <code>minecraft:block_placer</code>: refs/data-driven/blockception/item/behavior/components/block_placer.md
+            - <code>minecraft:can_destroy_in_creative</code>: refs/data-driven/blockception/item/behavior/components/can_destroy_in_creative.md
+            - <code>minecraft:cooldown</code>: refs/data-driven/blockception/item/behavior/components/cooldown.md
+            - <code>minecraft:damage</code>: refs/data-driven/blockception/item/behavior/components/damage.md
+            - <code>minecraft:digger</code>: refs/data-driven/blockception/item/behavior/components/digger.md
+            - <code>minecraft:display_name</code>: refs/data-driven/blockception/item/behavior/components/display_name.md
+            - <code>minecraft:durability</code>: refs/data-driven/blockception/item/behavior/components/durability.md
+            - <code>minecraft:enchantable</code>: refs/data-driven/blockception/item/behavior/components/enchantable.md
+            - <code>minecraft:entity_placer</code>: refs/data-driven/blockception/item/behavior/components/entity_placer.md
+            - <code>minecraft:food</code>: refs/data-driven/blockception/item/behavior/components/food.md
+            - <code>minecraft:fuel</code>: refs/data-driven/blockception/item/behavior/components/fuel.md
+            - <code>minecraft:glint</code>: refs/data-driven/blockception/item/behavior/components/glint.md
+            - <code>minecraft:hand_equipped</code>: refs/data-driven/blockception/item/behavior/components/hand_equipped.md
+            - <code>minecraft:icon</code>: refs/data-driven/blockception/item/behavior/components/icon.md
+            - <code>minecraft:liquid_clipped</code>: refs/data-driven/blockception/item/behavior/components/liquid_clipped.md
+            - <code>minecraft:max_stack_size</code>: refs/data-driven/blockception/item/behavior/components/max_stack_size.md
+            - <code>minecraft:projectile</code>: refs/data-driven/blockception/item/behavior/components/projectile.md
+            - <code>minecraft:record</code>: refs/data-driven/blockception/item/behavior/components/record.md
+            - <code>minecraft:repairable</code>: refs/data-driven/blockception/item/behavior/components/repairable.md
+            - <code>minecraft:shooter</code>: refs/data-driven/blockception/item/behavior/components/shooter.md
+            - <code>minecraft:should_despawn</code>: refs/data-driven/blockception/item/behavior/components/should_despawn.md
+            - <code>minecraft:stacked_by_data</code>: refs/data-driven/blockception/item/behavior/components/stacked_by_data.md
+            - <code>minecraft:tags</code>: refs/data-driven/blockception/item/behavior/components/tags.md
+            - <code>minecraft:throwable</code>: refs/data-driven/blockception/item/behavior/components/throwable.md
+            - <code>minecraft:use_animation</code>: refs/data-driven/blockception/item/behavior/components/use_animation.md
+            - <code>minecraft:use_modifiers</code>: refs/data-driven/blockception/item/behavior/components/use_modifiers.md
+            - <code>minecraft:wearable</code>: refs/data-driven/blockception/item/behavior/components/wearable.md
+        - 资源定义:
+          - refs/data-driven/blockception/item/resource/index.md
       - 方块:
         - 行为定义:
           - refs/data-driven/blockception/block/behavior/index.md
