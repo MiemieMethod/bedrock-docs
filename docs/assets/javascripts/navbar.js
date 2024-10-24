@@ -20,3 +20,40 @@ document$.subscribe(function() {
     }
 });
 })
+
+document$.subscribe(function() {
+  const links = document.querySelectorAll('a.md-nav__link.md-nav__link--active');
+
+  links.forEach(link => {
+    const ellipsisSpan = link.querySelector('span.md-ellipsis');
+    const activeSpan = ellipsisSpan.querySelector('span.md-nav__link.md-nav__link--active');
+
+    if (activeSpan) {
+      const childNodes = activeSpan.childNodes;
+
+      childNodes.forEach(node => {
+        link.appendChild(node.cloneNode(true));
+      });
+
+      link.removeChild(ellipsisSpan);
+    }
+});
+})
+
+
+document$.subscribe(function() {
+  const links = document.querySelectorAll('a.md-nav__link');
+
+  links.forEach(link => {
+    const ellipsisSpan = link.querySelector('span.md-ellipsis');
+    const activeSpan = ellipsisSpan.querySelector('span.md-nav__link.md-nav__link--active');
+
+    if (activeSpan) {
+      const childNodes = Array.from(activeSpan.childNodes);
+
+      link.prepend(...childNodes);
+
+      link.removeChild(ellipsisSpan);
+    }
+});
+})
