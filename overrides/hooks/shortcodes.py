@@ -162,7 +162,7 @@ def _badge_for_version(text: str, page: Page, files: Files):
 
     # Return badge
     icon = "material-tag-outline"
-    href = _resolve_path("contributing.md#version", page, files)
+    href = _resolve_path("help/docs/contributing.md#version", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '最小版本')",
         text = f"[{text}]({_resolve_path(path, page, files)})" if spec else ""
@@ -188,7 +188,7 @@ def _badge_for_version_range(args: str, page: Page, files: Files, iconText: str 
 
     # Return badge
     icon = "material-tag-check-outline"
-    href = _resolve_path("contributing.md#version", page, files)
+    href = _resolve_path("help/docs/contributing.md#version", page, files)
     return _double_badge(
         icon = f"[:{icon}:]({href} '{iconText}')",
         text1 = f"{text1}" if spec1 else "",
@@ -202,7 +202,7 @@ def _badge_for_version_insiders(text: str, page: Page, files: Files):
 
     # Return badge
     icon = "material-tag-heart-outline"
-    href = _resolve_path("contributing.md#version-insiders", page, files)
+    href = _resolve_path("help/docs/contributing.md#version-insiders", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '最小版本')",
         text = f"[{text}]({_resolve_path(path, page, files)})" if spec else ""
@@ -211,7 +211,7 @@ def _badge_for_version_insiders(text: str, page: Page, files: Files):
 # Create badge for feature
 def _badge_for_optional(text: str, page: Page, files: Files):
     icon = "material-toggle-switch"
-    href = _resolve_path("contributing.md#optional", page, files)
+    href = _resolve_path("help/docs/contributing.md#optional", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '可选')",
         text = text
@@ -220,7 +220,7 @@ def _badge_for_optional(text: str, page: Page, files: Files):
 # Create badge for plugin
 def _badge_for_plugin(text: str, page: Page, files: Files):
     icon = "material-floppy"
-    href = _resolve_path("contributing.md#plugin", page, files)
+    href = _resolve_path("help/docs/contributing.md#plugin", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '插件')",
         text = text
@@ -229,7 +229,7 @@ def _badge_for_plugin(text: str, page: Page, files: Files):
 # Create badge for extension
 def _badge_for_extension(text: str, page: Page, files: Files):
     icon = "material-language-markdown"
-    href = _resolve_path("contributing.md#extension", page, files)
+    href = _resolve_path("help/docs/contributing.md#extension", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} 'Markdown扩展')",
         text = text
@@ -238,7 +238,7 @@ def _badge_for_extension(text: str, page: Page, files: Files):
 # Create badge for utility
 def _badge_for_utility(text: str, page: Page, files: Files):
     icon = "material-package-variant"
-    href = _resolve_path("contributing.md#utility", page, files)
+    href = _resolve_path("help/docs/contributing.md#utility", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '第三方工具')",
         text = text
@@ -273,7 +273,7 @@ def _badge_for_example_download(text: str, page: Page, files: Files):
 # Create badge for default value
 def _badge_for_default(text: str, page: Page, files: Files):
     icon = "material-water"
-    href = _resolve_path("contributing.md#default", page, files)
+    href = _resolve_path("help/docs/contributing.md#default", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '默认值')",
         text = text
@@ -282,7 +282,7 @@ def _badge_for_default(text: str, page: Page, files: Files):
 # Create badge for empty default value
 def _badge_for_default_none(page: Page, files: Files):
     icon = "material-water-outline"
-    href = _resolve_path("contributing.md#default", page, files)
+    href = _resolve_path("help/docs/contributing.md#default", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '默认值为空')"
     )
@@ -290,7 +290,7 @@ def _badge_for_default_none(page: Page, files: Files):
 # Create badge for computed default value
 def _badge_for_default_computed(page: Page, files: Files):
     icon = "material-water-check"
-    href = _resolve_path("contributing.md#default", page, files)
+    href = _resolve_path("help/docs/contributing.md#default", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '默认值由实时计算得到')"
     )
@@ -298,7 +298,7 @@ def _badge_for_default_computed(page: Page, files: Files):
 # Create badge for metadata property flag
 def _badge_for_metadata(page: Page, files: Files):
     icon = "material-list-box-outline"
-    href = _resolve_path("contributing.md#metadata", page, files)
+    href = _resolve_path("help/docs/contributing.md#metadata", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '元数据属性')"
     )
@@ -306,7 +306,7 @@ def _badge_for_metadata(page: Page, files: Files):
 # Create badge for required value flag
 def _badge_for_required(page: Page, files: Files):
     icon = "material-alert"
-    href = _resolve_path("contributing.md#required", page, files)
+    href = _resolve_path("help/docs/contributing.md#required", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '必选')"
     )
@@ -314,7 +314,7 @@ def _badge_for_required(page: Page, files: Files):
 # Create badge for customization flag
 def _badge_for_customization(page: Page, files: Files):
     icon = "material-brush-variant"
-    href = _resolve_path("contributing.md#customization", page, files)
+    href = _resolve_path("help/docs/contributing.md#customization", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '自定义')"
     )
@@ -322,7 +322,7 @@ def _badge_for_customization(page: Page, files: Files):
 # Create badge for multiple instance flag
 def _badge_for_multiple(page: Page, files: Files):
     icon = "material-inbox-multiple"
-    href = _resolve_path("contributing.md#multiple-instances", page, files)
+    href = _resolve_path("help/docs/contributing.md#multiple-instances", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '多态')"
     )
@@ -330,7 +330,7 @@ def _badge_for_multiple(page: Page, files: Files):
 # Create badge for experimental flag
 def _badge_for_experimental(page: Page, files: Files):
     icon = "material-flask-outline"
-    href = _resolve_path("contributing.md#experimental", page, files)
+    href = _resolve_path("help/docs/contributing.md#experimental", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '实验性')"
     )
