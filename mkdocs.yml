@@ -126,6 +126,7 @@ extra_javascript:
   # - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - assets/javascripts/viz-standalone.js
   - assets/javascripts/viz.js
+  - assets/javascripts/navbar.js # navbar label position fix
 
 # Plugins
 plugins:
@@ -344,15 +345,16 @@ markdown_extensions:
       alternate_style: true
       combine_header_slug: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - pymdownx.fancylists
 
 # Page tree
 nav:
-  - 首页:
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></svg></span><span class="md-ellipsis">首页</span></span>':
     - 欢迎: index.md
     - 贡献: contributing.md
-  - 文档:
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4zm11 3h5.5L15 1.5zM8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2zm3-4v-2H8v2z"></path></svg></span><span class="md-ellipsis">文档</span></span>':
     - docs/index.md
-  - 教程:
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1zm6-10h3v2h-3zM1 11h3v2H1zM13 1v3h-2V1zM4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93zm12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12z"></path></svg></span><span class="md-ellipsis">教程</span></span>':
     - guides/index.md
     - 附加包:
       - guides/addons/index.md
@@ -427,7 +429,11 @@ nav:
         - guides/outdated/1.16.100/index.md
       - '1.10':
         - guides/outdated/1.10/index.md
-  - 参考:
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.368 1.01a.75.75 0 0 1 .623.859L6.57 4.5h3.98l.46-2.868a.75.75 0 0 1 1.48.237L12.07 4.5h2.18a.75.75 0 0 1 0 1.5h-2.42l-.64 4h2.56a.75.75 0 0 1 0 1.5h-2.8l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H5.45l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H1.75a.75.75 0 0 1 0-1.5h2.42l.64-4H2.25a.75.75 0 0 1 0-1.5h2.8l.46-2.868a.75.75 0 0 1 .858-.622M9.67 10l.64-4H6.33l-.64 4Z"></path></svg></span><span class="md-ellipsis">话题</span></span>':
+    - topics/index.md
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 20v2H4c-1.1 0-2-.9-2-2V7h2v13zm4-18H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m-5 12h-2v-2h2zm1.8-5.2c-.3.4-.7.7-1.1.9-.2.2-.4.3-.5.5-.2.2-.2.5-.2.8h-2q0-.75.3-1.2c.2-.3.5-.6 1-.9q.45-.3.6-.6c.2-.2.2-.5.2-.8s-.1-.6-.3-.8-.4-.3-.8-.3c-.3 0-.5.1-.7.2-.2.2-.3.4-.3.7h-1.9c0-.8.2-1.4.8-1.8.7-.3 1.4-.5 2.3-.5s1.7.2 2.2.7.8 1.1.8 1.8c0 .5-.2.9-.4 1.3"></path></svg></span><span class="md-ellipsis">帮助</span></span>':
+    - help/index.md
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96m0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32m32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16m16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16"></path></svg></span><span class="md-ellipsis">参考</span></span>':
     - refs/index.md
     - 数据驱动（来自Blockception）:
       - refs/data-driven/blockception/index.md
@@ -4824,5 +4830,7 @@ nav:
         - 原版物品标签: refs/tables/items/vanilla_tags.md
       - 生物群系:
         - 原版生物群系标签: refs/tables/biomes/vanilla_tags.md
-  - 专栏:
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 64C0 28.7 28.7 0 64 0h320c35.3 0 64 28.7 64 64v384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm183 214.8c-27.9-13.2-48.4-39.4-53.7-70.8h39.1c1.6 30.4 7.7 53.8 14.6 70.8m41.3 9.2h-.6c-2.4-3.5-5.7-8.9-9.1-16.5-6-13.6-12.4-34.3-14.2-63.5h47.1c-1.8 29.2-8.1 49.9-14.2 63.5-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8h39.1c-5.3 31.4-25.8 57.6-53.7 70.8M279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8 27.9 13.2 48.4 39.4 53.7 70.8zm-55.9-80h.6c2.4 3.5 5.7 8.9 9.1 16.5 6 13.6 12.4 34.3 14.2 63.5h-47.1c1.8-29.2 8.1-49.9 14.2-63.5 3.4-7.6 6.7-13 9.1-16.5zm-40.7 9.2c-6.8 17.1-12.9 40.4-14.6 70.8h-39.1c5.3-31.4 25.8-57.6 53.7-70.8M352 192a128 128 0 1 0-256 0 128 128 0 1 0 256 0M112 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h224c8.8 0 16-7.2 16-16s-7.2-16-16-16z"></path></svg></span><span class="md-ellipsis">翻译</span></span>':
+    - translations/index.md
+  - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17V5H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5v2H8v-2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM5 7h6v4H5zm0 6h6v2H5zm8-6h6v2h-6zm0 4h6v4h-6z"></path></svg></span><span class="md-ellipsis">专栏</span></span>':
     - blog/index.md
