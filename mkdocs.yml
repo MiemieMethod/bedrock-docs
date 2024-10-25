@@ -4422,6 +4422,7 @@ nav:
       - 列表:
         - <code>ability</code>: refs/commands/list/ability.md
         - <code>agent</code>: refs/commands/list/agent.md
+        - <code>aimassist</code>: refs/commands/list/aimassist.md
         - <code>allowlist</code>: refs/commands/list/allowlist.md
         - <code>camera</code>: refs/commands/list/camera.md
         - <code>camerashake</code>: refs/commands/list/camerashake.md
@@ -4518,7 +4519,6 @@ nav:
         - <code>titleraw</code>: refs/commands/list/titleraw.md
         - <code>toggledownfall</code>: refs/commands/list/toggledownfall.md
         - <code>transfer</code>: refs/commands/list/transfer.md
-        - <code>volumearea</code>: refs/commands/list/volumearea.md
         - <code>weather</code>: refs/commands/list/weather.md
         - <code>worldbuilder</code>: refs/commands/list/worldbuilder.md
         - <code>wsserver</code>: refs/commands/list/wsserver.md
