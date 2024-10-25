@@ -172,8 +172,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
       block_tag: 'pre'
-  - pymdownx.betterem:
-      smart_enable: all
+  - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -4829,6 +4828,34 @@ nav:
         - 原版生物群系标签: refs/tables/biomes/vanilla_tags.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 64C0 28.7 28.7 0 64 0h320c35.3 0 64 28.7 64 64v384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm183 214.8c-27.9-13.2-48.4-39.4-53.7-70.8h39.1c1.6 30.4 7.7 53.8 14.6 70.8m41.3 9.2h-.6c-2.4-3.5-5.7-8.9-9.1-16.5-6-13.6-12.4-34.3-14.2-63.5h47.1c-1.8 29.2-8.1 49.9-14.2 63.5-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8h39.1c-5.3 31.4-25.8 57.6-53.7 70.8M279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8 27.9 13.2 48.4 39.4 53.7 70.8zm-55.9-80h.6c2.4 3.5 5.7 8.9 9.1 16.5 6 13.6 12.4 34.3 14.2 63.5h-47.1c1.8-29.2 8.1-49.9 14.2-63.5 3.4-7.6 6.7-13 9.1-16.5zm-40.7 9.2c-6.8 17.1-12.9 40.4-14.6 70.8h-39.1c5.3-31.4 25.8-57.6 53.7-70.8M352 192a128 128 0 1 0-256 0 128 128 0 1 0 256 0M112 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h224c8.8 0 16-7.2 16-16s-7.2-16-16-16z"></path></svg></span><span class="md-ellipsis">翻译</span></span>':
     - translations/index.md
+    - bridge.:
+      - translations/bridge/index.md
+      - <samp>bridge-core.github.io</samp>:
+        - translations/bridge/bridge-core-github-io/index.md
+        - 编辑器:
+          - translations/bridge/bridge-core-github-io/editor/index.md
+          - 功能概述: translations/bridge/bridge-core-github-io/editor/features.md
+          - 入门指南: translations/bridge/bridge-core-github-io/editor/getting-started/index.md
+          - 'bridge. v2迁移': translations/bridge/bridge-core-github-io/editor/migration-guide/index.md
+          - 常见问题: translations/bridge/bridge-core-github-io/editor/faq/index.md
+          - model-viewer: translations/bridge/bridge-core-github-io/editor/other/model-viewer.md
+          - MoLang: translations/bridge/bridge-core-github-io/editor/other/molang.md
+        - 扩展:
+          - translations/bridge/bridge-core-github-io/extension/index.md
+          - 贡献扩展: translations/bridge/bridge-core-github-io/extension/contributing.md
+          - 扩展清单: translations/bridge/bridge-core-github-io/extension/extension-manifest.md
+          - 默认文件类型: translations/bridge/bridge-core-github-io/extension/other/default-file-types.md
+          - 编译器插件: translations/bridge/bridge-core-github-io/extension/compiler-plugins.md
+          - 自定义MoLang: translations/bridge/bridge-core-github-io/extension/custom-molang.md
+          - 自定义命令: translations/bridge/bridge-core-github-io/extension/custom-commands.md
+          - 自定义组件: translations/bridge/bridge-core-github-io/extension/custom-components.md
+          - 文件定义: translations/bridge/bridge-core-github-io/extension/json/file-definitions.md
+          - 闪电缓存: translations/bridge/bridge-core-github-io/extension/json/lightning-cache.md
+          - 预设: translations/bridge/bridge-core-github-io/extension/json/presets.md
+          - 代码片段: translations/bridge/bridge-core-github-io/extension/json/snippets.md
+          - 主题: translations/bridge/bridge-core-github-io/extension/json/themes.md
+      - <samp>bridge-core.app</samp>:
+        - translations/bridge/bridge-core-app/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17V5H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5v2H8v-2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM5 7h6v4H5zm0 6h6v2H5zm8-6h6v2h-6zm0 4h6v4h-6z"></path></svg></span><span class="md-ellipsis">专栏</span></span>':
     - blog/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 20v2H4c-1.1 0-2-.9-2-2V7h2v13zm4-18H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m-5 12h-2v-2h2zm1.8-5.2c-.3.4-.7.7-1.1.9-.2.2-.4.3-.5.5-.2.2-.2.5-.2.8h-2q0-.75.3-1.2c.2-.3.5-.6 1-.9q.45-.3.6-.6c.2-.2.2-.5.2-.8s-.1-.6-.3-.8-.4-.3-.8-.3c-.3 0-.5.1-.7.2-.2.2-.3.4-.3.7h-1.9c0-.8.2-1.4.8-1.8.7-.3 1.4-.5 2.3-.5s1.7.2 2.2.7.8 1.1.8 1.8c0 .5-.2.9-.4 1.3"></path></svg></span><span class="md-ellipsis">帮助</span></span>':

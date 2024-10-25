@@ -61,6 +61,24 @@ pip install mkdocs-glightbox
 
 值得注意的是，如果上下标中含有空格，空格需要转义，即使用<code>\\ </code>代替单纯的<code> </code>。快捷键语法中的各键位标识符详见[Keys扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)。进度条允许[注入](#注入特性)一些类使其变成糖衣色、动态糖衣色或窄进度条，具体详见[ProgressBar扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#overview)。
 
+对于强调语法（斜体和加粗），我们区分了`*`、`**`与`_`、`__`的用法。`*`、`**`未开启智能语法；`_`、`__`开启了智能语法，具体的智能语法可以参考[BetterEm扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/betterem/)，但智能语法具有在中文中必须空格才能被正确解析的缺点。例如：
+
+```markdown
+能够*被正确强调*。
+
+不能_被正确强调_。
+
+能够 _被正确强调_。
+```
+
+/// html | div.result
+能够*被正确强调*。
+
+不能_被正确强调_。
+
+能够 _被正确强调_。
+///
+
 ### 注入特性
 
 依赖于[Attribute Lists扩展](https://python-markdown.github.io/extensions/attr_list/)，本文档支持向HTML标签注入特性。在一个可能会被解析为HTML标签的语法结构之后使用语法`{:.class #id key=value key="spaced value"}`来注入特性，其中`.class`代表类，`#id`代表锚点ID，`key=value`代表键值对，`key="spaced value"`代表键值对中的值含有空格，每一种皆是可选的，其中类和键值对可以有任意多个。此外，`{: }`中的冒号可以省略，即`{.class #id key=value key="spaced value"}`也是合法的。例如给一个段落的`#!html <p>`标签注入：
