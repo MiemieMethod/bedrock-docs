@@ -88,6 +88,24 @@ block:
   }
   object "components" : opt
   {
+    minecraft:breathability "minecraft:breathability"
+    minecraft:collision_box "minecraft:collision_box"
+    minecraft:crafting_table "minecraft:crafting_table"
+    minecraft:destructible_by_explosion "minecraft:destructible_by_explosion"
+    minecraft:destructible_by_mining "minecraft:destructible_by_mining"
+    minecraft:display_name "minecraft:display_name"
+    minecraft:flammable "minecraft:flammable"
+    minecraft:friction "minecraft:friction"
+    minecraft:geometry "minecraft:geometry"
+    minecraft:light_dampening "minecraft:light_dampening"
+    minecraft:light_emission "minecraft:light_emission"
+    minecraft:loot "minecraft:loot"
+    minecraft:map_color "minecraft:map_color"
+    minecraft:material_instances "minecraft:material_instances"
+    minecraft:placement_filter "minecraft:placement_filter"
+    minecraft:selection_box "minecraft:selection_box"
+    tag: "tag:"
+    minecraft:transformation "minecraft:transformation"
     netease:tier "netease:tier"
     netease:aabb "netease:aabb"
     netease:face_directional "netease:face_directional"
@@ -196,6 +214,150 @@ block:
 <div class="language-text highlight"><span class="filename"><code>components</code></span><pre id="__code_1"><span></span></pre></div>
 
 ///// html | div.result
+////// define
+`minecraft:breathability`：<samp>minecraft:breathability</samp>
+
+- [`minecraft:breathability`](./components/minecraft_breathability.md)组件。
+
+
+//////
+
+////// define
+`minecraft:collision_box`：<samp>minecraft:collision_box</samp>
+
+- [`minecraft:collision_box`](./components/minecraft_collision_box.md)组件。
+
+
+//////
+
+////// define
+`minecraft:crafting_table`：<samp>minecraft:crafting_table</samp>
+
+- [`minecraft:crafting_table`](./components/minecraft_crafting_table.md)组件。
+
+
+//////
+
+////// define
+`minecraft:destructible_by_explosion`：<samp>minecraft:destructible_by_explosion</samp>
+
+- [`minecraft:destructible_by_explosion`](./components/minecraft_destructible_by_explosion.md)组件。
+
+
+//////
+
+////// define
+`minecraft:destructible_by_mining`：<samp>minecraft:destructible_by_mining</samp>
+
+- [`minecraft:destructible_by_mining`](./components/minecraft_destructible_by_mining.md)组件。
+
+
+//////
+
+////// define
+`minecraft:display_name`：<samp>minecraft:display_name</samp>
+
+- [`minecraft:display_name`](./components/minecraft_display_name.md)组件。
+
+
+//////
+
+////// define
+`minecraft:flammable`：<samp>minecraft:flammable</samp>
+
+- [`minecraft:flammable`](./components/minecraft_flammable.md)组件。
+
+
+//////
+
+////// define
+`minecraft:friction`：<samp>minecraft:friction</samp>
+
+- [`minecraft:friction`](./components/minecraft_friction.md)组件。
+
+
+//////
+
+////// define
+`minecraft:geometry`：<samp>minecraft:geometry</samp>
+
+- [`minecraft:geometry`](./components/minecraft_geometry.md)组件。
+
+
+//////
+
+////// define
+`minecraft:light_dampening`：<samp>minecraft:light_dampening</samp>
+
+- [`minecraft:light_dampening`](./components/minecraft_light_dampening.md)组件。
+
+
+//////
+
+////// define
+`minecraft:light_emission`：<samp>minecraft:light_emission</samp>
+
+- [`minecraft:light_emission`](./components/minecraft_light_emission.md)组件。
+
+
+//////
+
+////// define
+`minecraft:loot`：<samp>minecraft:loot</samp>
+
+- [`minecraft:loot`](./components/minecraft_loot.md)组件。
+
+
+//////
+
+////// define
+`minecraft:map_color`：<samp>minecraft:map_color</samp>
+
+- [`minecraft:map_color`](./components/minecraft_map_color.md)组件。
+
+
+//////
+
+////// define
+`minecraft:material_instances`：<samp>minecraft:material_instances</samp>
+
+- [`minecraft:material_instances`](./components/minecraft_material_instances.md)组件。
+
+
+//////
+
+////// define
+`minecraft:placement_filter`：<samp>minecraft:placement_filter</samp>
+
+- [`minecraft:placement_filter`](./components/minecraft_placement_filter.md)组件。
+
+
+//////
+
+////// define
+`minecraft:selection_box`：<samp>minecraft:selection_box</samp>
+
+- [`minecraft:selection_box`](./components/minecraft_selection_box.md)组件。
+
+
+//////
+
+////// define
+`tag:`：<samp>tag:</samp>
+
+- [`tag:`](./components/tag.md)组件。
+
+
+//////
+
+////// define
+`minecraft:transformation`：<samp>minecraft:transformation</samp>
+
+- [`minecraft:transformation`](./components/minecraft_transformation.md)组件。
+
+
+//////
+
 ////// define
 `netease:tier`：<samp>netease:tier</samp>
 

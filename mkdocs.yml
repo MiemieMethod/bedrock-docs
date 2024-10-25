@@ -1040,6 +1040,24 @@ nav:
         - 行为定义:
           - refs/data-driven/block/behavior/index.md
           - 组件:
+            - <code>minecraft:breathability</code>: refs/data-driven/block/behavior/components/minecraft_breathability.md
+            - <code>minecraft:collision_box</code>: refs/data-driven/block/behavior/components/minecraft_collision_box.md
+            - <code>minecraft:crafting_table</code>: refs/data-driven/block/behavior/components/minecraft_crafting_table.md
+            - <code>minecraft:destructible_by_explosion</code>: refs/data-driven/block/behavior/components/minecraft_destructible_by_explosion.md
+            - <code>minecraft:destructible_by_mining</code>: refs/data-driven/block/behavior/components/minecraft_destructible_by_mining.md
+            - <code>minecraft:display_name</code>: refs/data-driven/block/behavior/components/minecraft_display_name.md
+            - <code>minecraft:flammable</code>: refs/data-driven/block/behavior/components/minecraft_flammable.md
+            - <code>minecraft:friction</code>: refs/data-driven/block/behavior/components/minecraft_friction.md
+            - <code>minecraft:geometry</code>: refs/data-driven/block/behavior/components/minecraft_geometry.md
+            - <code>minecraft:light_dampening</code>: refs/data-driven/block/behavior/components/minecraft_light_dampening.md
+            - <code>minecraft:light_emission</code>: refs/data-driven/block/behavior/components/minecraft_light_emission.md
+            - <code>minecraft:loot</code>: refs/data-driven/block/behavior/components/minecraft_loot.md
+            - <code>minecraft:map_color</code>: refs/data-driven/block/behavior/components/minecraft_map_color.md
+            - <code>minecraft:material_instances</code>: refs/data-driven/block/behavior/components/minecraft_material_instances.md
+            - <code>minecraft:placement_filter</code>: refs/data-driven/block/behavior/components/minecraft_placement_filter.md
+            - <code>minecraft:selection_box</code>: refs/data-driven/block/behavior/components/minecraft_selection_box.md
+            - <code>tag:</code>: refs/data-driven/block/behavior/components/tag.md
+            - <code>minecraft:transformation</code>: refs/data-driven/block/behavior/components/minecraft_transformation.md
             - <code>netease:tier</code>: refs/data-driven/block/behavior/components/netease_tier.md
             - <code>netease:aabb</code>: refs/data-driven/block/behavior/components/netease_aabb.md
             - <code>netease:face_directional</code>: refs/data-driven/block/behavior/components/netease_face_directional.md
