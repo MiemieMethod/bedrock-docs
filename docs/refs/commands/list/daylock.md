@@ -1,6 +1,6 @@
 # `/daylock`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/daylock`命令command.daylock.description
 

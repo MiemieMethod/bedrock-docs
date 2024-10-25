@@ -1,6 +1,6 @@
 # `/help`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/help`命令command.help.description
 
@@ -31,10 +31,13 @@ command.help.1.description
   |---|---|
   |`tag`|command.enum.commandname.tag|
   |`camera`|command.enum.commandname.camera|
+  |`script`|command.enum.commandname.script|
+  |`connect`|command.enum.commandname.connect|
+  |`stop`|command.enum.commandname.stop|
   |`transfer`|command.enum.commandname.transfer|
   |`clear`|command.enum.commandname.clear|
+  |`aimassist`|command.enum.commandname.aimassist|
   |`time`|command.enum.commandname.time|
-  |`stop`|command.enum.commandname.stop|
   |`camerashake`|command.enum.commandname.camerashake|
   |`clearspawnpoint`|command.enum.commandname.clearspawnpoint|
   |`clone`|command.enum.commandname.clone|
@@ -106,10 +109,8 @@ command.help.1.description
   |`toggledownfall`|command.enum.commandname.toggledownfall|
   |`weather`|command.enum.commandname.weather|
   |`wsserver`|command.enum.commandname.wsserver|
-  |`connect`|command.enum.commandname.connect|
   |`xp`|command.enum.commandname.xp|
   |`recipe`|command.enum.commandname.recipe|
-  |`volumearea`|command.enum.commandname.volumearea|
   |`worldbuilder`|command.enum.commandname.worldbuilder|
   |`ability`|command.enum.commandname.ability|
   |`codebuilder`|command.enum.commandname.codebuilder|
@@ -136,7 +137,6 @@ command.help.1.description
   |`dedicatedwsserver`|command.enum.commandname.dedicatedwsserver|
   |`closewebsocket`|command.enum.commandname.closewebsocket|
   |`enableencryption`|command.enum.commandname.enableencryption|
-  |`script`|command.enum.commandname.script|
   |`closechat`|command.enum.commandname.closechat|
   |`geteduclientinfo`|command.enum.commandname.geteduclientinfo|
   |`getlocalplayername`|command.enum.commandname.getlocalplayername|

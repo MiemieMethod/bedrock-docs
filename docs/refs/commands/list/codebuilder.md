@@ -1,6 +1,6 @@
 # `/codebuilder`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/codebuilder`命令command.codebuilder.description
 
@@ -200,8 +200,8 @@ command.codebuilder.6.description
 
   |值|描述|
   |---|---|
-  |`stop`|command.enum.codebuilderruntime.stop|
   |`start`|command.enum.codebuilderruntime.start|
+  |`stop`|command.enum.codebuilderruntime.stop|
   |`pause`|command.enum.codebuilderruntime.pause|
 
 

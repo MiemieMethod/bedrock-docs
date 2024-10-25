@@ -1,6 +1,6 @@
 # `/summon`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/summon`命令command.summon.description
 
@@ -40,8 +40,6 @@ command.summon.1.description
   |`bee`|command.enum.entitytype.bee|
   |`minecraft:axolotl`|command.enum.entitytype.minecraft:axolotl|
   |`axolotl`|command.enum.entitytype.axolotl|
-  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
-  |`breeze`|command.enum.entitytype.breeze|
   |`minecraft:pig`|command.enum.entitytype.minecraft:pig|
   |`pig`|command.enum.entitytype.pig|
   |`minecraft:hoglin`|command.enum.entitytype.minecraft:hoglin|
@@ -62,8 +60,6 @@ command.summon.1.description
   |`villager`|command.enum.entitytype.villager|
   |`minecraft:wandering_trader`|command.enum.entitytype.minecraft:wandering_trader|
   |`wandering_trader`|command.enum.entitytype.wandering_trader|
-  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
-  |`bogged`|command.enum.entitytype.bogged|
   |`minecraft:mooshroom`|command.enum.entitytype.minecraft:mooshroom|
   |`mooshroom`|command.enum.entitytype.mooshroom|
   |`minecraft:squid`|command.enum.entitytype.minecraft:squid|
@@ -106,6 +102,8 @@ command.summon.1.description
   |`tadpole`|command.enum.entitytype.tadpole|
   |`minecraft:allay`|command.enum.entitytype.minecraft:allay|
   |`allay`|command.enum.entitytype.allay|
+  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
+  |`husk`|command.enum.entitytype.husk|
   |`minecraft:tropicalfish`|command.enum.entitytype.minecraft:tropicalfish|
   |`tropicalfish`|command.enum.entitytype.tropicalfish|
   |`minecraft:cod`|command.enum.entitytype.minecraft:cod|
@@ -128,6 +126,8 @@ command.summon.1.description
   |`zombie_horse`|command.enum.entitytype.zombie_horse|
   |`minecraft:zombie`|command.enum.entitytype.minecraft:zombie|
   |`zombie`|command.enum.entitytype.zombie|
+  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
+  |`stray`|command.enum.entitytype.stray|
   |`minecraft:drowned`|command.enum.entitytype.minecraft:drowned|
   |`drowned`|command.enum.entitytype.drowned|
   |`minecraft:creeper`|command.enum.entitytype.minecraft:creeper|
@@ -152,10 +152,6 @@ command.summon.1.description
   |`blaze`|command.enum.entitytype.blaze|
   |`minecraft:warden`|command.enum.entitytype.minecraft:warden|
   |`warden`|command.enum.entitytype.warden|
-  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
-  |`stray`|command.enum.entitytype.stray|
-  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
-  |`husk`|command.enum.entitytype.husk|
   |`minecraft:wither_skeleton`|command.enum.entitytype.minecraft:wither_skeleton|
   |`wither_skeleton`|command.enum.entitytype.wither_skeleton|
   |`minecraft:guardian`|command.enum.entitytype.minecraft:guardian|
@@ -190,6 +186,12 @@ command.summon.1.description
   |`piglin`|command.enum.entitytype.piglin|
   |`minecraft:zoglin`|command.enum.entitytype.minecraft:zoglin|
   |`zoglin`|command.enum.entitytype.zoglin|
+  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
+  |`breeze`|command.enum.entitytype.breeze|
+  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
+  |`bogged`|command.enum.entitytype.bogged|
+  |`minecraft:creaking`|command.enum.entitytype.minecraft:creaking|
+  |`creaking`|command.enum.entitytype.creaking|
   |`minecraft:minecart`|command.enum.entitytype.minecraft:minecart|
   |`minecart`|command.enum.entitytype.minecart|
   |`minecraft:hopper_minecart`|command.enum.entitytype.minecraft:hopper_minecart|
@@ -216,6 +218,8 @@ command.summon.1.description
   |`splash_potion`|command.enum.entitytype.splash_potion|
   |`minecraft:leash_knot`|command.enum.entitytype.minecraft:leash_knot|
   |`leash_knot`|command.enum.entitytype.leash_knot|
+  |`minecraft:wind_charge_projectile`|command.enum.entitytype.minecraft:wind_charge_projectile|
+  |`wind_charge_projectile`|command.enum.entitytype.wind_charge_projectile|
   |`minecraft:boat`|command.enum.entitytype.minecraft:boat|
   |`boat`|command.enum.entitytype.boat|
   |`minecraft:chest_boat`|command.enum.entitytype.minecraft:chest_boat|
@@ -230,6 +234,10 @@ command.summon.1.description
   |`fireworks_rocket`|command.enum.entitytype.fireworks_rocket|
   |`minecraft:npc`|command.enum.entitytype.minecraft:npc|
   |`npc`|command.enum.entitytype.npc|
+  |`editor:ruler_pointer_selected`|command.enum.entitytype.editor:ruler_pointer_selected|
+  |`editor:location_pointer_idle`|command.enum.entitytype.editor:location_pointer_idle|
+  |`editor:location_pointer_selected`|command.enum.entitytype.editor:location_pointer_selected|
+  |`editor:ruler_idle`|command.enum.entitytype.editor:ruler_idle|
   |`editor:map_marker`|command.enum.entitytype.editor:map_marker|
 
 
@@ -285,6 +293,8 @@ command.summon.1.description
   |`minecraft:add_attributes`|command.enum.entityevents.minecraft:add_attributes|
   |`minecraft:add_biome_and_skin`|command.enum.entityevents.minecraft:add_biome_and_skin|
   |`minecraft:add_can_ride`|command.enum.entityevents.minecraft:add_can_ride|
+  |`minecraft:add_damage_timer`|command.enum.entityevents.minecraft:add_damage_timer|
+  |`minecraft:add_periodic_damage`|command.enum.entityevents.minecraft:add_periodic_damage|
   |`minecraft:ageable_grow_up`|command.enum.entityevents.minecraft:ageable_grow_up|
   |`minecraft:ageable_set_baby`|command.enum.entityevents.minecraft:ageable_set_baby|
   |`minecraft:ambient_night`|command.enum.entityevents.minecraft:ambient_night|
@@ -303,6 +313,8 @@ command.summon.1.description
   |`minecraft:ate_rose`|command.enum.entityevents.minecraft:ate_rose|
   |`minecraft:ate_torchflower`|command.enum.entityevents.minecraft:ate_torchflower|
   |`minecraft:ate_tulip`|command.enum.entityevents.minecraft:ate_tulip|
+  |`minecraft:attacked_by_mob`|command.enum.entityevents.minecraft:attacked_by_mob|
+  |`minecraft:attacked_by_player`|command.enum.entityevents.minecraft:attacked_by_player|
   |`minecraft:baby_on_calm`|command.enum.entityevents.minecraft:baby_on_calm|
   |`minecraft:become_aggressive`|command.enum.entityevents.minecraft:become_aggressive|
   |`minecraft:become_aggro`|command.enum.entityevents.minecraft:become_aggro|
@@ -366,6 +378,7 @@ command.summon.1.description
   |`minecraft:command_block_deactivate`|command.enum.entityevents.minecraft:command_block_deactivate|
   |`minecraft:convert_to_drowned`|command.enum.entityevents.minecraft:convert_to_drowned|
   |`minecraft:convert_to_zombie`|command.enum.entityevents.minecraft:convert_to_zombie|
+  |`minecraft:crumble`|command.enum.entityevents.minecraft:crumble|
   |`minecraft:crystal_explode`|command.enum.entityevents.minecraft:crystal_explode|
   |`minecraft:defend_wandering_trader`|command.enum.entityevents.minecraft:defend_wandering_trader|
   |`minecraft:donkey_saddled`|command.enum.entityevents.minecraft:donkey_saddled|
@@ -377,6 +390,7 @@ command.summon.1.description
   |`minecraft:entity_born`|command.enum.entityevents.minecraft:entity_born|
   |`minecraft:entity_born_wild`|command.enum.entityevents.minecraft:entity_born_wild|
   |`minecraft:entity_spawned`|command.enum.entityevents.minecraft:entity_spawned|
+  |`minecraft:entity_spawned_by_creaking_heart`|command.enum.entityevents.minecraft:entity_spawned_by_creaking_heart|
   |`minecraft:entity_transformed`|command.enum.entityevents.minecraft:entity_transformed|
   |`minecraft:exited_bubble_column`|command.enum.entityevents.minecraft:exited_bubble_column|
   |`minecraft:exited_disturbed_hive`|command.enum.entityevents.minecraft:exited_disturbed_hive|
@@ -437,6 +451,8 @@ command.summon.1.description
   |`minecraft:on_scared`|command.enum.entityevents.minecraft:on_scared|
   |`minecraft:on_sheared`|command.enum.entityevents.minecraft:on_sheared|
   |`minecraft:on_tame`|command.enum.entityevents.minecraft:on_tame|
+  |`minecraft:on_target_start_looking`|command.enum.entityevents.minecraft:on_target_start_looking|
+  |`minecraft:on_target_stop_looking`|command.enum.entityevents.minecraft:on_target_stop_looking|
   |`minecraft:on_trust`|command.enum.entityevents.minecraft:on_trust|
   |`minecraft:on_unleash`|command.enum.entityevents.minecraft:on_unleash|
   |`minecraft:panda_aggressive`|command.enum.entityevents.minecraft:panda_aggressive|
@@ -517,7 +533,9 @@ command.summon.1.description
   |`minecraft:start_playing_idle_ground_sound`|command.enum.entityevents.minecraft:start_playing_idle_ground_sound|
   |`minecraft:start_roar`|command.enum.entityevents.minecraft:start_roar|
   |`minecraft:start_sitting`|command.enum.entityevents.minecraft:start_sitting|
+  |`minecraft:start_swaying`|command.enum.entityevents.minecraft:start_swaying|
   |`minecraft:start_transforming`|command.enum.entityevents.minecraft:start_transforming|
+  |`minecraft:start_twitching`|command.enum.entityevents.minecraft:start_twitching|
   |`minecraft:start_unrolling`|command.enum.entityevents.minecraft:start_unrolling|
   |`minecraft:stop_aggro`|command.enum.entityevents.minecraft:stop_aggro|
   |`minecraft:stop_celebrating`|command.enum.entityevents.minecraft:stop_celebrating|
@@ -526,6 +544,7 @@ command.summon.1.description
   |`minecraft:stop_peeking`|command.enum.entityevents.minecraft:stop_peeking|
   |`minecraft:stop_playing_idle_ground_sound`|command.enum.entityevents.minecraft:stop_playing_idle_ground_sound|
   |`minecraft:stop_sitting`|command.enum.entityevents.minecraft:stop_sitting|
+  |`minecraft:stop_swaying`|command.enum.entityevents.minecraft:stop_swaying|
   |`minecraft:stop_transforming`|command.enum.entityevents.minecraft:stop_transforming|
   |`minecraft:switch_to_melee`|command.enum.entityevents.minecraft:switch_to_melee|
   |`minecraft:switch_to_ranged`|command.enum.entityevents.minecraft:switch_to_ranged|
@@ -644,8 +663,6 @@ command.summon.2.description
   |`bee`|command.enum.entitytype.bee|
   |`minecraft:axolotl`|command.enum.entitytype.minecraft:axolotl|
   |`axolotl`|command.enum.entitytype.axolotl|
-  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
-  |`breeze`|command.enum.entitytype.breeze|
   |`minecraft:pig`|command.enum.entitytype.minecraft:pig|
   |`pig`|command.enum.entitytype.pig|
   |`minecraft:hoglin`|command.enum.entitytype.minecraft:hoglin|
@@ -666,8 +683,6 @@ command.summon.2.description
   |`villager`|command.enum.entitytype.villager|
   |`minecraft:wandering_trader`|command.enum.entitytype.minecraft:wandering_trader|
   |`wandering_trader`|command.enum.entitytype.wandering_trader|
-  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
-  |`bogged`|command.enum.entitytype.bogged|
   |`minecraft:mooshroom`|command.enum.entitytype.minecraft:mooshroom|
   |`mooshroom`|command.enum.entitytype.mooshroom|
   |`minecraft:squid`|command.enum.entitytype.minecraft:squid|
@@ -710,6 +725,8 @@ command.summon.2.description
   |`tadpole`|command.enum.entitytype.tadpole|
   |`minecraft:allay`|command.enum.entitytype.minecraft:allay|
   |`allay`|command.enum.entitytype.allay|
+  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
+  |`husk`|command.enum.entitytype.husk|
   |`minecraft:tropicalfish`|command.enum.entitytype.minecraft:tropicalfish|
   |`tropicalfish`|command.enum.entitytype.tropicalfish|
   |`minecraft:cod`|command.enum.entitytype.minecraft:cod|
@@ -732,6 +749,8 @@ command.summon.2.description
   |`zombie_horse`|command.enum.entitytype.zombie_horse|
   |`minecraft:zombie`|command.enum.entitytype.minecraft:zombie|
   |`zombie`|command.enum.entitytype.zombie|
+  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
+  |`stray`|command.enum.entitytype.stray|
   |`minecraft:drowned`|command.enum.entitytype.minecraft:drowned|
   |`drowned`|command.enum.entitytype.drowned|
   |`minecraft:creeper`|command.enum.entitytype.minecraft:creeper|
@@ -756,10 +775,6 @@ command.summon.2.description
   |`blaze`|command.enum.entitytype.blaze|
   |`minecraft:warden`|command.enum.entitytype.minecraft:warden|
   |`warden`|command.enum.entitytype.warden|
-  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
-  |`stray`|command.enum.entitytype.stray|
-  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
-  |`husk`|command.enum.entitytype.husk|
   |`minecraft:wither_skeleton`|command.enum.entitytype.minecraft:wither_skeleton|
   |`wither_skeleton`|command.enum.entitytype.wither_skeleton|
   |`minecraft:guardian`|command.enum.entitytype.minecraft:guardian|
@@ -794,6 +809,12 @@ command.summon.2.description
   |`piglin`|command.enum.entitytype.piglin|
   |`minecraft:zoglin`|command.enum.entitytype.minecraft:zoglin|
   |`zoglin`|command.enum.entitytype.zoglin|
+  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
+  |`breeze`|command.enum.entitytype.breeze|
+  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
+  |`bogged`|command.enum.entitytype.bogged|
+  |`minecraft:creaking`|command.enum.entitytype.minecraft:creaking|
+  |`creaking`|command.enum.entitytype.creaking|
   |`minecraft:minecart`|command.enum.entitytype.minecraft:minecart|
   |`minecart`|command.enum.entitytype.minecart|
   |`minecraft:hopper_minecart`|command.enum.entitytype.minecraft:hopper_minecart|
@@ -820,6 +841,8 @@ command.summon.2.description
   |`splash_potion`|command.enum.entitytype.splash_potion|
   |`minecraft:leash_knot`|command.enum.entitytype.minecraft:leash_knot|
   |`leash_knot`|command.enum.entitytype.leash_knot|
+  |`minecraft:wind_charge_projectile`|command.enum.entitytype.minecraft:wind_charge_projectile|
+  |`wind_charge_projectile`|command.enum.entitytype.wind_charge_projectile|
   |`minecraft:boat`|command.enum.entitytype.minecraft:boat|
   |`boat`|command.enum.entitytype.boat|
   |`minecraft:chest_boat`|command.enum.entitytype.minecraft:chest_boat|
@@ -834,6 +857,10 @@ command.summon.2.description
   |`fireworks_rocket`|command.enum.entitytype.fireworks_rocket|
   |`minecraft:npc`|command.enum.entitytype.minecraft:npc|
   |`npc`|command.enum.entitytype.npc|
+  |`editor:ruler_pointer_selected`|command.enum.entitytype.editor:ruler_pointer_selected|
+  |`editor:location_pointer_idle`|command.enum.entitytype.editor:location_pointer_idle|
+  |`editor:location_pointer_selected`|command.enum.entitytype.editor:location_pointer_selected|
+  |`editor:ruler_idle`|command.enum.entitytype.editor:ruler_idle|
   |`editor:map_marker`|command.enum.entitytype.editor:map_marker|
 
 
@@ -897,6 +924,8 @@ command.summon.2.description
   |`minecraft:add_attributes`|command.enum.entityevents.minecraft:add_attributes|
   |`minecraft:add_biome_and_skin`|command.enum.entityevents.minecraft:add_biome_and_skin|
   |`minecraft:add_can_ride`|command.enum.entityevents.minecraft:add_can_ride|
+  |`minecraft:add_damage_timer`|command.enum.entityevents.minecraft:add_damage_timer|
+  |`minecraft:add_periodic_damage`|command.enum.entityevents.minecraft:add_periodic_damage|
   |`minecraft:ageable_grow_up`|command.enum.entityevents.minecraft:ageable_grow_up|
   |`minecraft:ageable_set_baby`|command.enum.entityevents.minecraft:ageable_set_baby|
   |`minecraft:ambient_night`|command.enum.entityevents.minecraft:ambient_night|
@@ -915,6 +944,8 @@ command.summon.2.description
   |`minecraft:ate_rose`|command.enum.entityevents.minecraft:ate_rose|
   |`minecraft:ate_torchflower`|command.enum.entityevents.minecraft:ate_torchflower|
   |`minecraft:ate_tulip`|command.enum.entityevents.minecraft:ate_tulip|
+  |`minecraft:attacked_by_mob`|command.enum.entityevents.minecraft:attacked_by_mob|
+  |`minecraft:attacked_by_player`|command.enum.entityevents.minecraft:attacked_by_player|
   |`minecraft:baby_on_calm`|command.enum.entityevents.minecraft:baby_on_calm|
   |`minecraft:become_aggressive`|command.enum.entityevents.minecraft:become_aggressive|
   |`minecraft:become_aggro`|command.enum.entityevents.minecraft:become_aggro|
@@ -978,6 +1009,7 @@ command.summon.2.description
   |`minecraft:command_block_deactivate`|command.enum.entityevents.minecraft:command_block_deactivate|
   |`minecraft:convert_to_drowned`|command.enum.entityevents.minecraft:convert_to_drowned|
   |`minecraft:convert_to_zombie`|command.enum.entityevents.minecraft:convert_to_zombie|
+  |`minecraft:crumble`|command.enum.entityevents.minecraft:crumble|
   |`minecraft:crystal_explode`|command.enum.entityevents.minecraft:crystal_explode|
   |`minecraft:defend_wandering_trader`|command.enum.entityevents.minecraft:defend_wandering_trader|
   |`minecraft:donkey_saddled`|command.enum.entityevents.minecraft:donkey_saddled|
@@ -989,6 +1021,7 @@ command.summon.2.description
   |`minecraft:entity_born`|command.enum.entityevents.minecraft:entity_born|
   |`minecraft:entity_born_wild`|command.enum.entityevents.minecraft:entity_born_wild|
   |`minecraft:entity_spawned`|command.enum.entityevents.minecraft:entity_spawned|
+  |`minecraft:entity_spawned_by_creaking_heart`|command.enum.entityevents.minecraft:entity_spawned_by_creaking_heart|
   |`minecraft:entity_transformed`|command.enum.entityevents.minecraft:entity_transformed|
   |`minecraft:exited_bubble_column`|command.enum.entityevents.minecraft:exited_bubble_column|
   |`minecraft:exited_disturbed_hive`|command.enum.entityevents.minecraft:exited_disturbed_hive|
@@ -1049,6 +1082,8 @@ command.summon.2.description
   |`minecraft:on_scared`|command.enum.entityevents.minecraft:on_scared|
   |`minecraft:on_sheared`|command.enum.entityevents.minecraft:on_sheared|
   |`minecraft:on_tame`|command.enum.entityevents.minecraft:on_tame|
+  |`minecraft:on_target_start_looking`|command.enum.entityevents.minecraft:on_target_start_looking|
+  |`minecraft:on_target_stop_looking`|command.enum.entityevents.minecraft:on_target_stop_looking|
   |`minecraft:on_trust`|command.enum.entityevents.minecraft:on_trust|
   |`minecraft:on_unleash`|command.enum.entityevents.minecraft:on_unleash|
   |`minecraft:panda_aggressive`|command.enum.entityevents.minecraft:panda_aggressive|
@@ -1129,7 +1164,9 @@ command.summon.2.description
   |`minecraft:start_playing_idle_ground_sound`|command.enum.entityevents.minecraft:start_playing_idle_ground_sound|
   |`minecraft:start_roar`|command.enum.entityevents.minecraft:start_roar|
   |`minecraft:start_sitting`|command.enum.entityevents.minecraft:start_sitting|
+  |`minecraft:start_swaying`|command.enum.entityevents.minecraft:start_swaying|
   |`minecraft:start_transforming`|command.enum.entityevents.minecraft:start_transforming|
+  |`minecraft:start_twitching`|command.enum.entityevents.minecraft:start_twitching|
   |`minecraft:start_unrolling`|command.enum.entityevents.minecraft:start_unrolling|
   |`minecraft:stop_aggro`|command.enum.entityevents.minecraft:stop_aggro|
   |`minecraft:stop_celebrating`|command.enum.entityevents.minecraft:stop_celebrating|
@@ -1138,6 +1175,7 @@ command.summon.2.description
   |`minecraft:stop_peeking`|command.enum.entityevents.minecraft:stop_peeking|
   |`minecraft:stop_playing_idle_ground_sound`|command.enum.entityevents.minecraft:stop_playing_idle_ground_sound|
   |`minecraft:stop_sitting`|command.enum.entityevents.minecraft:stop_sitting|
+  |`minecraft:stop_swaying`|command.enum.entityevents.minecraft:stop_swaying|
   |`minecraft:stop_transforming`|command.enum.entityevents.minecraft:stop_transforming|
   |`minecraft:switch_to_melee`|command.enum.entityevents.minecraft:switch_to_melee|
   |`minecraft:switch_to_ranged`|command.enum.entityevents.minecraft:switch_to_ranged|
@@ -1255,8 +1293,6 @@ command.summon.3.description
   |`bee`|command.enum.entitytype.bee|
   |`minecraft:axolotl`|command.enum.entitytype.minecraft:axolotl|
   |`axolotl`|command.enum.entitytype.axolotl|
-  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
-  |`breeze`|command.enum.entitytype.breeze|
   |`minecraft:pig`|command.enum.entitytype.minecraft:pig|
   |`pig`|command.enum.entitytype.pig|
   |`minecraft:hoglin`|command.enum.entitytype.minecraft:hoglin|
@@ -1277,8 +1313,6 @@ command.summon.3.description
   |`villager`|command.enum.entitytype.villager|
   |`minecraft:wandering_trader`|command.enum.entitytype.minecraft:wandering_trader|
   |`wandering_trader`|command.enum.entitytype.wandering_trader|
-  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
-  |`bogged`|command.enum.entitytype.bogged|
   |`minecraft:mooshroom`|command.enum.entitytype.minecraft:mooshroom|
   |`mooshroom`|command.enum.entitytype.mooshroom|
   |`minecraft:squid`|command.enum.entitytype.minecraft:squid|
@@ -1321,6 +1355,8 @@ command.summon.3.description
   |`tadpole`|command.enum.entitytype.tadpole|
   |`minecraft:allay`|command.enum.entitytype.minecraft:allay|
   |`allay`|command.enum.entitytype.allay|
+  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
+  |`husk`|command.enum.entitytype.husk|
   |`minecraft:tropicalfish`|command.enum.entitytype.minecraft:tropicalfish|
   |`tropicalfish`|command.enum.entitytype.tropicalfish|
   |`minecraft:cod`|command.enum.entitytype.minecraft:cod|
@@ -1343,6 +1379,8 @@ command.summon.3.description
   |`zombie_horse`|command.enum.entitytype.zombie_horse|
   |`minecraft:zombie`|command.enum.entitytype.minecraft:zombie|
   |`zombie`|command.enum.entitytype.zombie|
+  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
+  |`stray`|command.enum.entitytype.stray|
   |`minecraft:drowned`|command.enum.entitytype.minecraft:drowned|
   |`drowned`|command.enum.entitytype.drowned|
   |`minecraft:creeper`|command.enum.entitytype.minecraft:creeper|
@@ -1367,10 +1405,6 @@ command.summon.3.description
   |`blaze`|command.enum.entitytype.blaze|
   |`minecraft:warden`|command.enum.entitytype.minecraft:warden|
   |`warden`|command.enum.entitytype.warden|
-  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
-  |`stray`|command.enum.entitytype.stray|
-  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
-  |`husk`|command.enum.entitytype.husk|
   |`minecraft:wither_skeleton`|command.enum.entitytype.minecraft:wither_skeleton|
   |`wither_skeleton`|command.enum.entitytype.wither_skeleton|
   |`minecraft:guardian`|command.enum.entitytype.minecraft:guardian|
@@ -1405,6 +1439,12 @@ command.summon.3.description
   |`piglin`|command.enum.entitytype.piglin|
   |`minecraft:zoglin`|command.enum.entitytype.minecraft:zoglin|
   |`zoglin`|command.enum.entitytype.zoglin|
+  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
+  |`breeze`|command.enum.entitytype.breeze|
+  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
+  |`bogged`|command.enum.entitytype.bogged|
+  |`minecraft:creaking`|command.enum.entitytype.minecraft:creaking|
+  |`creaking`|command.enum.entitytype.creaking|
   |`minecraft:minecart`|command.enum.entitytype.minecraft:minecart|
   |`minecart`|command.enum.entitytype.minecart|
   |`minecraft:hopper_minecart`|command.enum.entitytype.minecraft:hopper_minecart|
@@ -1431,6 +1471,8 @@ command.summon.3.description
   |`splash_potion`|command.enum.entitytype.splash_potion|
   |`minecraft:leash_knot`|command.enum.entitytype.minecraft:leash_knot|
   |`leash_knot`|command.enum.entitytype.leash_knot|
+  |`minecraft:wind_charge_projectile`|command.enum.entitytype.minecraft:wind_charge_projectile|
+  |`wind_charge_projectile`|command.enum.entitytype.wind_charge_projectile|
   |`minecraft:boat`|command.enum.entitytype.minecraft:boat|
   |`boat`|command.enum.entitytype.boat|
   |`minecraft:chest_boat`|command.enum.entitytype.minecraft:chest_boat|
@@ -1445,6 +1487,10 @@ command.summon.3.description
   |`fireworks_rocket`|command.enum.entitytype.fireworks_rocket|
   |`minecraft:npc`|command.enum.entitytype.minecraft:npc|
   |`npc`|command.enum.entitytype.npc|
+  |`editor:ruler_pointer_selected`|command.enum.entitytype.editor:ruler_pointer_selected|
+  |`editor:location_pointer_idle`|command.enum.entitytype.editor:location_pointer_idle|
+  |`editor:location_pointer_selected`|command.enum.entitytype.editor:location_pointer_selected|
+  |`editor:ruler_idle`|command.enum.entitytype.editor:ruler_idle|
   |`editor:map_marker`|command.enum.entitytype.editor:map_marker|
 
 
@@ -1493,8 +1539,6 @@ command.summon.4.description
   |`bee`|command.enum.entitytype.bee|
   |`minecraft:axolotl`|command.enum.entitytype.minecraft:axolotl|
   |`axolotl`|command.enum.entitytype.axolotl|
-  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
-  |`breeze`|command.enum.entitytype.breeze|
   |`minecraft:pig`|command.enum.entitytype.minecraft:pig|
   |`pig`|command.enum.entitytype.pig|
   |`minecraft:hoglin`|command.enum.entitytype.minecraft:hoglin|
@@ -1515,8 +1559,6 @@ command.summon.4.description
   |`villager`|command.enum.entitytype.villager|
   |`minecraft:wandering_trader`|command.enum.entitytype.minecraft:wandering_trader|
   |`wandering_trader`|command.enum.entitytype.wandering_trader|
-  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
-  |`bogged`|command.enum.entitytype.bogged|
   |`minecraft:mooshroom`|command.enum.entitytype.minecraft:mooshroom|
   |`mooshroom`|command.enum.entitytype.mooshroom|
   |`minecraft:squid`|command.enum.entitytype.minecraft:squid|
@@ -1559,6 +1601,8 @@ command.summon.4.description
   |`tadpole`|command.enum.entitytype.tadpole|
   |`minecraft:allay`|command.enum.entitytype.minecraft:allay|
   |`allay`|command.enum.entitytype.allay|
+  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
+  |`husk`|command.enum.entitytype.husk|
   |`minecraft:tropicalfish`|command.enum.entitytype.minecraft:tropicalfish|
   |`tropicalfish`|command.enum.entitytype.tropicalfish|
   |`minecraft:cod`|command.enum.entitytype.minecraft:cod|
@@ -1581,6 +1625,8 @@ command.summon.4.description
   |`zombie_horse`|command.enum.entitytype.zombie_horse|
   |`minecraft:zombie`|command.enum.entitytype.minecraft:zombie|
   |`zombie`|command.enum.entitytype.zombie|
+  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
+  |`stray`|command.enum.entitytype.stray|
   |`minecraft:drowned`|command.enum.entitytype.minecraft:drowned|
   |`drowned`|command.enum.entitytype.drowned|
   |`minecraft:creeper`|command.enum.entitytype.minecraft:creeper|
@@ -1605,10 +1651,6 @@ command.summon.4.description
   |`blaze`|command.enum.entitytype.blaze|
   |`minecraft:warden`|command.enum.entitytype.minecraft:warden|
   |`warden`|command.enum.entitytype.warden|
-  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
-  |`stray`|command.enum.entitytype.stray|
-  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
-  |`husk`|command.enum.entitytype.husk|
   |`minecraft:wither_skeleton`|command.enum.entitytype.minecraft:wither_skeleton|
   |`wither_skeleton`|command.enum.entitytype.wither_skeleton|
   |`minecraft:guardian`|command.enum.entitytype.minecraft:guardian|
@@ -1643,6 +1685,12 @@ command.summon.4.description
   |`piglin`|command.enum.entitytype.piglin|
   |`minecraft:zoglin`|command.enum.entitytype.minecraft:zoglin|
   |`zoglin`|command.enum.entitytype.zoglin|
+  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
+  |`breeze`|command.enum.entitytype.breeze|
+  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
+  |`bogged`|command.enum.entitytype.bogged|
+  |`minecraft:creaking`|command.enum.entitytype.minecraft:creaking|
+  |`creaking`|command.enum.entitytype.creaking|
   |`minecraft:minecart`|command.enum.entitytype.minecraft:minecart|
   |`minecart`|command.enum.entitytype.minecart|
   |`minecraft:hopper_minecart`|command.enum.entitytype.minecraft:hopper_minecart|
@@ -1669,6 +1717,8 @@ command.summon.4.description
   |`splash_potion`|command.enum.entitytype.splash_potion|
   |`minecraft:leash_knot`|command.enum.entitytype.minecraft:leash_knot|
   |`leash_knot`|command.enum.entitytype.leash_knot|
+  |`minecraft:wind_charge_projectile`|command.enum.entitytype.minecraft:wind_charge_projectile|
+  |`wind_charge_projectile`|command.enum.entitytype.wind_charge_projectile|
   |`minecraft:boat`|command.enum.entitytype.minecraft:boat|
   |`boat`|command.enum.entitytype.boat|
   |`minecraft:chest_boat`|command.enum.entitytype.minecraft:chest_boat|
@@ -1683,6 +1733,10 @@ command.summon.4.description
   |`fireworks_rocket`|command.enum.entitytype.fireworks_rocket|
   |`minecraft:npc`|command.enum.entitytype.minecraft:npc|
   |`npc`|command.enum.entitytype.npc|
+  |`editor:ruler_pointer_selected`|command.enum.entitytype.editor:ruler_pointer_selected|
+  |`editor:location_pointer_idle`|command.enum.entitytype.editor:location_pointer_idle|
+  |`editor:location_pointer_selected`|command.enum.entitytype.editor:location_pointer_selected|
+  |`editor:ruler_idle`|command.enum.entitytype.editor:ruler_idle|
   |`editor:map_marker`|command.enum.entitytype.editor:map_marker|
 
 
@@ -1746,6 +1800,8 @@ command.summon.4.description
   |`minecraft:add_attributes`|command.enum.entityevents.minecraft:add_attributes|
   |`minecraft:add_biome_and_skin`|command.enum.entityevents.minecraft:add_biome_and_skin|
   |`minecraft:add_can_ride`|command.enum.entityevents.minecraft:add_can_ride|
+  |`minecraft:add_damage_timer`|command.enum.entityevents.minecraft:add_damage_timer|
+  |`minecraft:add_periodic_damage`|command.enum.entityevents.minecraft:add_periodic_damage|
   |`minecraft:ageable_grow_up`|command.enum.entityevents.minecraft:ageable_grow_up|
   |`minecraft:ageable_set_baby`|command.enum.entityevents.minecraft:ageable_set_baby|
   |`minecraft:ambient_night`|command.enum.entityevents.minecraft:ambient_night|
@@ -1764,6 +1820,8 @@ command.summon.4.description
   |`minecraft:ate_rose`|command.enum.entityevents.minecraft:ate_rose|
   |`minecraft:ate_torchflower`|command.enum.entityevents.minecraft:ate_torchflower|
   |`minecraft:ate_tulip`|command.enum.entityevents.minecraft:ate_tulip|
+  |`minecraft:attacked_by_mob`|command.enum.entityevents.minecraft:attacked_by_mob|
+  |`minecraft:attacked_by_player`|command.enum.entityevents.minecraft:attacked_by_player|
   |`minecraft:baby_on_calm`|command.enum.entityevents.minecraft:baby_on_calm|
   |`minecraft:become_aggressive`|command.enum.entityevents.minecraft:become_aggressive|
   |`minecraft:become_aggro`|command.enum.entityevents.minecraft:become_aggro|
@@ -1827,6 +1885,7 @@ command.summon.4.description
   |`minecraft:command_block_deactivate`|command.enum.entityevents.minecraft:command_block_deactivate|
   |`minecraft:convert_to_drowned`|command.enum.entityevents.minecraft:convert_to_drowned|
   |`minecraft:convert_to_zombie`|command.enum.entityevents.minecraft:convert_to_zombie|
+  |`minecraft:crumble`|command.enum.entityevents.minecraft:crumble|
   |`minecraft:crystal_explode`|command.enum.entityevents.minecraft:crystal_explode|
   |`minecraft:defend_wandering_trader`|command.enum.entityevents.minecraft:defend_wandering_trader|
   |`minecraft:donkey_saddled`|command.enum.entityevents.minecraft:donkey_saddled|
@@ -1838,6 +1897,7 @@ command.summon.4.description
   |`minecraft:entity_born`|command.enum.entityevents.minecraft:entity_born|
   |`minecraft:entity_born_wild`|command.enum.entityevents.minecraft:entity_born_wild|
   |`minecraft:entity_spawned`|command.enum.entityevents.minecraft:entity_spawned|
+  |`minecraft:entity_spawned_by_creaking_heart`|command.enum.entityevents.minecraft:entity_spawned_by_creaking_heart|
   |`minecraft:entity_transformed`|command.enum.entityevents.minecraft:entity_transformed|
   |`minecraft:exited_bubble_column`|command.enum.entityevents.minecraft:exited_bubble_column|
   |`minecraft:exited_disturbed_hive`|command.enum.entityevents.minecraft:exited_disturbed_hive|
@@ -1898,6 +1958,8 @@ command.summon.4.description
   |`minecraft:on_scared`|command.enum.entityevents.minecraft:on_scared|
   |`minecraft:on_sheared`|command.enum.entityevents.minecraft:on_sheared|
   |`minecraft:on_tame`|command.enum.entityevents.minecraft:on_tame|
+  |`minecraft:on_target_start_looking`|command.enum.entityevents.minecraft:on_target_start_looking|
+  |`minecraft:on_target_stop_looking`|command.enum.entityevents.minecraft:on_target_stop_looking|
   |`minecraft:on_trust`|command.enum.entityevents.minecraft:on_trust|
   |`minecraft:on_unleash`|command.enum.entityevents.minecraft:on_unleash|
   |`minecraft:panda_aggressive`|command.enum.entityevents.minecraft:panda_aggressive|
@@ -1978,7 +2040,9 @@ command.summon.4.description
   |`minecraft:start_playing_idle_ground_sound`|command.enum.entityevents.minecraft:start_playing_idle_ground_sound|
   |`minecraft:start_roar`|command.enum.entityevents.minecraft:start_roar|
   |`minecraft:start_sitting`|command.enum.entityevents.minecraft:start_sitting|
+  |`minecraft:start_swaying`|command.enum.entityevents.minecraft:start_swaying|
   |`minecraft:start_transforming`|command.enum.entityevents.minecraft:start_transforming|
+  |`minecraft:start_twitching`|command.enum.entityevents.minecraft:start_twitching|
   |`minecraft:start_unrolling`|command.enum.entityevents.minecraft:start_unrolling|
   |`minecraft:stop_aggro`|command.enum.entityevents.minecraft:stop_aggro|
   |`minecraft:stop_celebrating`|command.enum.entityevents.minecraft:stop_celebrating|
@@ -1987,6 +2051,7 @@ command.summon.4.description
   |`minecraft:stop_peeking`|command.enum.entityevents.minecraft:stop_peeking|
   |`minecraft:stop_playing_idle_ground_sound`|command.enum.entityevents.minecraft:stop_playing_idle_ground_sound|
   |`minecraft:stop_sitting`|command.enum.entityevents.minecraft:stop_sitting|
+  |`minecraft:stop_swaying`|command.enum.entityevents.minecraft:stop_swaying|
   |`minecraft:stop_transforming`|command.enum.entityevents.minecraft:stop_transforming|
   |`minecraft:switch_to_melee`|command.enum.entityevents.minecraft:switch_to_melee|
   |`minecraft:switch_to_ranged`|command.enum.entityevents.minecraft:switch_to_ranged|
@@ -2105,8 +2170,6 @@ command.summon.5.description
   |`bee`|command.enum.entitytype.bee|
   |`minecraft:axolotl`|command.enum.entitytype.minecraft:axolotl|
   |`axolotl`|command.enum.entitytype.axolotl|
-  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
-  |`breeze`|command.enum.entitytype.breeze|
   |`minecraft:pig`|command.enum.entitytype.minecraft:pig|
   |`pig`|command.enum.entitytype.pig|
   |`minecraft:hoglin`|command.enum.entitytype.minecraft:hoglin|
@@ -2127,8 +2190,6 @@ command.summon.5.description
   |`villager`|command.enum.entitytype.villager|
   |`minecraft:wandering_trader`|command.enum.entitytype.minecraft:wandering_trader|
   |`wandering_trader`|command.enum.entitytype.wandering_trader|
-  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
-  |`bogged`|command.enum.entitytype.bogged|
   |`minecraft:mooshroom`|command.enum.entitytype.minecraft:mooshroom|
   |`mooshroom`|command.enum.entitytype.mooshroom|
   |`minecraft:squid`|command.enum.entitytype.minecraft:squid|
@@ -2171,6 +2232,8 @@ command.summon.5.description
   |`tadpole`|command.enum.entitytype.tadpole|
   |`minecraft:allay`|command.enum.entitytype.minecraft:allay|
   |`allay`|command.enum.entitytype.allay|
+  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
+  |`husk`|command.enum.entitytype.husk|
   |`minecraft:tropicalfish`|command.enum.entitytype.minecraft:tropicalfish|
   |`tropicalfish`|command.enum.entitytype.tropicalfish|
   |`minecraft:cod`|command.enum.entitytype.minecraft:cod|
@@ -2193,6 +2256,8 @@ command.summon.5.description
   |`zombie_horse`|command.enum.entitytype.zombie_horse|
   |`minecraft:zombie`|command.enum.entitytype.minecraft:zombie|
   |`zombie`|command.enum.entitytype.zombie|
+  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
+  |`stray`|command.enum.entitytype.stray|
   |`minecraft:drowned`|command.enum.entitytype.minecraft:drowned|
   |`drowned`|command.enum.entitytype.drowned|
   |`minecraft:creeper`|command.enum.entitytype.minecraft:creeper|
@@ -2217,10 +2282,6 @@ command.summon.5.description
   |`blaze`|command.enum.entitytype.blaze|
   |`minecraft:warden`|command.enum.entitytype.minecraft:warden|
   |`warden`|command.enum.entitytype.warden|
-  |`minecraft:stray`|command.enum.entitytype.minecraft:stray|
-  |`stray`|command.enum.entitytype.stray|
-  |`minecraft:husk`|command.enum.entitytype.minecraft:husk|
-  |`husk`|command.enum.entitytype.husk|
   |`minecraft:wither_skeleton`|command.enum.entitytype.minecraft:wither_skeleton|
   |`wither_skeleton`|command.enum.entitytype.wither_skeleton|
   |`minecraft:guardian`|command.enum.entitytype.minecraft:guardian|
@@ -2255,6 +2316,12 @@ command.summon.5.description
   |`piglin`|command.enum.entitytype.piglin|
   |`minecraft:zoglin`|command.enum.entitytype.minecraft:zoglin|
   |`zoglin`|command.enum.entitytype.zoglin|
+  |`minecraft:breeze`|command.enum.entitytype.minecraft:breeze|
+  |`breeze`|command.enum.entitytype.breeze|
+  |`minecraft:bogged`|command.enum.entitytype.minecraft:bogged|
+  |`bogged`|command.enum.entitytype.bogged|
+  |`minecraft:creaking`|command.enum.entitytype.minecraft:creaking|
+  |`creaking`|command.enum.entitytype.creaking|
   |`minecraft:minecart`|command.enum.entitytype.minecraft:minecart|
   |`minecart`|command.enum.entitytype.minecart|
   |`minecraft:hopper_minecart`|command.enum.entitytype.minecraft:hopper_minecart|
@@ -2281,6 +2348,8 @@ command.summon.5.description
   |`splash_potion`|command.enum.entitytype.splash_potion|
   |`minecraft:leash_knot`|command.enum.entitytype.minecraft:leash_knot|
   |`leash_knot`|command.enum.entitytype.leash_knot|
+  |`minecraft:wind_charge_projectile`|command.enum.entitytype.minecraft:wind_charge_projectile|
+  |`wind_charge_projectile`|command.enum.entitytype.wind_charge_projectile|
   |`minecraft:boat`|command.enum.entitytype.minecraft:boat|
   |`boat`|command.enum.entitytype.boat|
   |`minecraft:chest_boat`|command.enum.entitytype.minecraft:chest_boat|
@@ -2295,6 +2364,10 @@ command.summon.5.description
   |`fireworks_rocket`|command.enum.entitytype.fireworks_rocket|
   |`minecraft:npc`|command.enum.entitytype.minecraft:npc|
   |`npc`|command.enum.entitytype.npc|
+  |`editor:ruler_pointer_selected`|command.enum.entitytype.editor:ruler_pointer_selected|
+  |`editor:location_pointer_idle`|command.enum.entitytype.editor:location_pointer_idle|
+  |`editor:location_pointer_selected`|command.enum.entitytype.editor:location_pointer_selected|
+  |`editor:ruler_idle`|command.enum.entitytype.editor:ruler_idle|
   |`editor:map_marker`|command.enum.entitytype.editor:map_marker|
 
 
@@ -2358,6 +2431,8 @@ command.summon.5.description
   |`minecraft:add_attributes`|command.enum.entityevents.minecraft:add_attributes|
   |`minecraft:add_biome_and_skin`|command.enum.entityevents.minecraft:add_biome_and_skin|
   |`minecraft:add_can_ride`|command.enum.entityevents.minecraft:add_can_ride|
+  |`minecraft:add_damage_timer`|command.enum.entityevents.minecraft:add_damage_timer|
+  |`minecraft:add_periodic_damage`|command.enum.entityevents.minecraft:add_periodic_damage|
   |`minecraft:ageable_grow_up`|command.enum.entityevents.minecraft:ageable_grow_up|
   |`minecraft:ageable_set_baby`|command.enum.entityevents.minecraft:ageable_set_baby|
   |`minecraft:ambient_night`|command.enum.entityevents.minecraft:ambient_night|
@@ -2376,6 +2451,8 @@ command.summon.5.description
   |`minecraft:ate_rose`|command.enum.entityevents.minecraft:ate_rose|
   |`minecraft:ate_torchflower`|command.enum.entityevents.minecraft:ate_torchflower|
   |`minecraft:ate_tulip`|command.enum.entityevents.minecraft:ate_tulip|
+  |`minecraft:attacked_by_mob`|command.enum.entityevents.minecraft:attacked_by_mob|
+  |`minecraft:attacked_by_player`|command.enum.entityevents.minecraft:attacked_by_player|
   |`minecraft:baby_on_calm`|command.enum.entityevents.minecraft:baby_on_calm|
   |`minecraft:become_aggressive`|command.enum.entityevents.minecraft:become_aggressive|
   |`minecraft:become_aggro`|command.enum.entityevents.minecraft:become_aggro|
@@ -2439,6 +2516,7 @@ command.summon.5.description
   |`minecraft:command_block_deactivate`|command.enum.entityevents.minecraft:command_block_deactivate|
   |`minecraft:convert_to_drowned`|command.enum.entityevents.minecraft:convert_to_drowned|
   |`minecraft:convert_to_zombie`|command.enum.entityevents.minecraft:convert_to_zombie|
+  |`minecraft:crumble`|command.enum.entityevents.minecraft:crumble|
   |`minecraft:crystal_explode`|command.enum.entityevents.minecraft:crystal_explode|
   |`minecraft:defend_wandering_trader`|command.enum.entityevents.minecraft:defend_wandering_trader|
   |`minecraft:donkey_saddled`|command.enum.entityevents.minecraft:donkey_saddled|
@@ -2450,6 +2528,7 @@ command.summon.5.description
   |`minecraft:entity_born`|command.enum.entityevents.minecraft:entity_born|
   |`minecraft:entity_born_wild`|command.enum.entityevents.minecraft:entity_born_wild|
   |`minecraft:entity_spawned`|command.enum.entityevents.minecraft:entity_spawned|
+  |`minecraft:entity_spawned_by_creaking_heart`|command.enum.entityevents.minecraft:entity_spawned_by_creaking_heart|
   |`minecraft:entity_transformed`|command.enum.entityevents.minecraft:entity_transformed|
   |`minecraft:exited_bubble_column`|command.enum.entityevents.minecraft:exited_bubble_column|
   |`minecraft:exited_disturbed_hive`|command.enum.entityevents.minecraft:exited_disturbed_hive|
@@ -2510,6 +2589,8 @@ command.summon.5.description
   |`minecraft:on_scared`|command.enum.entityevents.minecraft:on_scared|
   |`minecraft:on_sheared`|command.enum.entityevents.minecraft:on_sheared|
   |`minecraft:on_tame`|command.enum.entityevents.minecraft:on_tame|
+  |`minecraft:on_target_start_looking`|command.enum.entityevents.minecraft:on_target_start_looking|
+  |`minecraft:on_target_stop_looking`|command.enum.entityevents.minecraft:on_target_stop_looking|
   |`minecraft:on_trust`|command.enum.entityevents.minecraft:on_trust|
   |`minecraft:on_unleash`|command.enum.entityevents.minecraft:on_unleash|
   |`minecraft:panda_aggressive`|command.enum.entityevents.minecraft:panda_aggressive|
@@ -2590,7 +2671,9 @@ command.summon.5.description
   |`minecraft:start_playing_idle_ground_sound`|command.enum.entityevents.minecraft:start_playing_idle_ground_sound|
   |`minecraft:start_roar`|command.enum.entityevents.minecraft:start_roar|
   |`minecraft:start_sitting`|command.enum.entityevents.minecraft:start_sitting|
+  |`minecraft:start_swaying`|command.enum.entityevents.minecraft:start_swaying|
   |`minecraft:start_transforming`|command.enum.entityevents.minecraft:start_transforming|
+  |`minecraft:start_twitching`|command.enum.entityevents.minecraft:start_twitching|
   |`minecraft:start_unrolling`|command.enum.entityevents.minecraft:start_unrolling|
   |`minecraft:stop_aggro`|command.enum.entityevents.minecraft:stop_aggro|
   |`minecraft:stop_celebrating`|command.enum.entityevents.minecraft:stop_celebrating|
@@ -2599,6 +2682,7 @@ command.summon.5.description
   |`minecraft:stop_peeking`|command.enum.entityevents.minecraft:stop_peeking|
   |`minecraft:stop_playing_idle_ground_sound`|command.enum.entityevents.minecraft:stop_playing_idle_ground_sound|
   |`minecraft:stop_sitting`|command.enum.entityevents.minecraft:stop_sitting|
+  |`minecraft:stop_swaying`|command.enum.entityevents.minecraft:stop_swaying|
   |`minecraft:stop_transforming`|command.enum.entityevents.minecraft:stop_transforming|
   |`minecraft:switch_to_melee`|command.enum.entityevents.minecraft:switch_to_melee|
   |`minecraft:switch_to_ranged`|command.enum.entityevents.minecraft:switch_to_ranged|

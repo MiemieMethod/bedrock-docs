@@ -1,6 +1,6 @@
 # `/recipe`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/recipe`命令command.recipe.description
 
@@ -34,6 +34,349 @@ command.recipe.1.description
   |值|描述|
   |---|---|
   |`*`|command.enum.unlockablerecipevalues.*|
+  |`minecraft:chiseled_resin_bricks_from_slabs`|command.enum.unlockablerecipevalues.minecraft:chiseled_resin_bricks_from_slabs|
+  |`minecraft:creaking_heart`|command.enum.unlockablerecipevalues.minecraft:creaking_heart|
+  |`minecraft:gray_dye_from_closed_eyeblossom`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_closed_eyeblossom|
+  |`minecraft:orange_dye_from_open_eyeblossom`|command.enum.unlockablerecipevalues.minecraft:orange_dye_from_open_eyeblossom|
+  |`minecraft:pale_moss_carpet`|command.enum.unlockablerecipevalues.minecraft:pale_moss_carpet|
+  |`minecraft:pale_oak_boat`|command.enum.unlockablerecipevalues.minecraft:pale_oak_boat|
+  |`minecraft:pale_oak_button`|command.enum.unlockablerecipevalues.minecraft:pale_oak_button|
+  |`minecraft:pale_oak_chest_boat`|command.enum.unlockablerecipevalues.minecraft:pale_oak_chest_boat|
+  |`minecraft:pale_oak_door`|command.enum.unlockablerecipevalues.minecraft:pale_oak_door|
+  |`minecraft:pale_oak_fence`|command.enum.unlockablerecipevalues.minecraft:pale_oak_fence|
+  |`minecraft:pale_oak_fence_gate`|command.enum.unlockablerecipevalues.minecraft:pale_oak_fence_gate|
+  |`minecraft:pale_oak_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:pale_oak_hanging_sign|
+  |`minecraft:pale_oak_planks_from_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_log|
+  |`minecraft:pale_oak_planks_from_stripped_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_stripped_log|
+  |`minecraft:pale_oak_planks_from_stripped_wood`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_stripped_wood|
+  |`minecraft:pale_oak_planks_from_wood`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_wood|
+  |`minecraft:pale_oak_pressure_plate`|command.enum.unlockablerecipevalues.minecraft:pale_oak_pressure_plate|
+  |`minecraft:pale_oak_sign`|command.enum.unlockablerecipevalues.minecraft:pale_oak_sign|
+  |`minecraft:pale_oak_slab`|command.enum.unlockablerecipevalues.minecraft:pale_oak_slab|
+  |`minecraft:pale_oak_stairs`|command.enum.unlockablerecipevalues.minecraft:pale_oak_stairs|
+  |`minecraft:pale_oak_wood_from_stripped_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_wood_from_stripped_log|
+  |`minecraft:pale_oak_trapdoor`|command.enum.unlockablerecipevalues.minecraft:pale_oak_trapdoor|
+  |`minecraft:pale_oak_wood_from_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_wood_from_log|
+  |`minecraft:purpur_slab`|command.enum.unlockablerecipevalues.minecraft:purpur_slab|
+  |`minecraft:red_sandstone_stairs_from_chiseled`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_stairs_from_chiseled|
+  |`minecraft:red_sandstone_stairs_from_cut`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_stairs_from_cut|
+  |`minecraft:resin_block`|command.enum.unlockablerecipevalues.minecraft:resin_block|
+  |`minecraft:resin_bricks`|command.enum.unlockablerecipevalues.minecraft:resin_bricks|
+  |`minecraft:resin_brick_slab`|command.enum.unlockablerecipevalues.minecraft:resin_brick_slab|
+  |`minecraft:resin_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:resin_brick_stairs|
+  |`minecraft:resin_brick_wall`|command.enum.unlockablerecipevalues.minecraft:resin_brick_wall|
+  |`minecraft:resin_clump_from_resin_block`|command.enum.unlockablerecipevalues.minecraft:resin_clump_from_resin_block|
+  |`minecraft:sandstone_stairs_from_chiseled`|command.enum.unlockablerecipevalues.minecraft:sandstone_stairs_from_chiseled|
+  |`minecraft:sandstone_stairs_from_cut`|command.enum.unlockablerecipevalues.minecraft:sandstone_stairs_from_cut|
+  |`minecraft:stonecutter_resin_brick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_chiseled|
+  |`minecraft:stonecutter_resin_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_slab|
+  |`minecraft:stonecutter_resin_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_stairs|
+  |`minecraft:stonecutter_resin_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_wall|
+  |`minecraft:stonecutter_stonebrick_chiseled2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled2|
+  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
+  |`minecraft:stonecutter_stonebrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs2|
+  |`minecraft:stonecutter_stonebrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall2|
+  |`minecraft:acacia_boat`|command.enum.unlockablerecipevalues.minecraft:acacia_boat|
+  |`minecraft:acacia_door`|command.enum.unlockablerecipevalues.minecraft:acacia_door|
+  |`minecraft:acacia_fence`|command.enum.unlockablerecipevalues.minecraft:acacia_fence|
+  |`minecraft:acacia_fence_gate`|command.enum.unlockablerecipevalues.minecraft:acacia_fence_gate|
+  |`minecraft:acacia_planks`|command.enum.unlockablerecipevalues.minecraft:acacia_planks|
+  |`minecraft:acacia_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:acacia_planks_from_stripped|
+  |`minecraft:acacia_stairs`|command.enum.unlockablerecipevalues.minecraft:acacia_stairs|
+  |`minecraft:acacia_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:acacia_wooden_slab|
+  |`minecraft:andesite`|command.enum.unlockablerecipevalues.minecraft:andesite|
+  |`minecraft:andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:andesite_stairs|
+  |`minecraft:birch_boat`|command.enum.unlockablerecipevalues.minecraft:birch_boat|
+  |`minecraft:birch_door`|command.enum.unlockablerecipevalues.minecraft:birch_door|
+  |`minecraft:birch_fence`|command.enum.unlockablerecipevalues.minecraft:birch_fence|
+  |`minecraft:birch_fence_gate`|command.enum.unlockablerecipevalues.minecraft:birch_fence_gate|
+  |`minecraft:birch_planks`|command.enum.unlockablerecipevalues.minecraft:birch_planks|
+  |`minecraft:birch_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:birch_planks_from_stripped|
+  |`minecraft:birch_stairs`|command.enum.unlockablerecipevalues.minecraft:birch_stairs|
+  |`minecraft:birch_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:birch_wooden_slab|
+  |`minecraft:black_banner`|command.enum.unlockablerecipevalues.minecraft:black_banner|
+  |`minecraft:black_carpet`|command.enum.unlockablerecipevalues.minecraft:black_carpet|
+  |`minecraft:black_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:black_carpet_from_white|
+  |`minecraft:black_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder|
+  |`minecraft:black_concrete_powder_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder_from_ink_sac|
+  |`minecraft:black_stained_glass`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass|
+  |`minecraft:black_stained_glass_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_from_ink_sac|
+  |`minecraft:black_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_pane_from_pane|
+  |`minecraft:black_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay|
+  |`minecraft:black_stained_hardened_clay_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay_from_ink_sac|
+  |`minecraft:blue_banner`|command.enum.unlockablerecipevalues.minecraft:blue_banner|
+  |`minecraft:blue_carpet`|command.enum.unlockablerecipevalues.minecraft:blue_carpet|
+  |`minecraft:blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:blue_carpet_from_white|
+  |`minecraft:blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder|
+  |`minecraft:blue_concrete_powder_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder_from_lapis_lazuli|
+  |`minecraft:blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass|
+  |`minecraft:blue_stained_glass_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_from_lapis_lazuli|
+  |`minecraft:blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_pane_from_pane|
+  |`minecraft:blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay|
+  |`minecraft:blue_stained_hardened_clay_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay_from_lapis_lazuli|
+  |`minecraft:boat`|command.enum.unlockablerecipevalues.minecraft:boat|
+  |`minecraft:brown_banner`|command.enum.unlockablerecipevalues.minecraft:brown_banner|
+  |`minecraft:brown_carpet`|command.enum.unlockablerecipevalues.minecraft:brown_carpet|
+  |`minecraft:brown_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:brown_carpet_from_white|
+  |`minecraft:brown_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder|
+  |`minecraft:brown_concrete_powder_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder_from_cocoa_beans|
+  |`minecraft:brown_stained_glass`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass|
+  |`minecraft:brown_stained_glass_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_from_cocoa_beans|
+  |`minecraft:brown_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_pane_from_pane|
+  |`minecraft:brown_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay|
+  |`minecraft:brown_stained_hardened_clay_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay_from_cocoa_beans|
+  |`minecraft:bundle`|command.enum.unlockablerecipevalues.minecraft:bundle|
+  |`minecraft:cyan_banner`|command.enum.unlockablerecipevalues.minecraft:cyan_banner|
+  |`minecraft:cyan_carpet`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet|
+  |`minecraft:cyan_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet_from_white|
+  |`minecraft:cyan_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:cyan_concrete_powder|
+  |`minecraft:cyan_stained_glass`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass|
+  |`minecraft:cyan_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass_pane_from_pane|
+  |`minecraft:cyan_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_hardened_clay|
+  |`minecraft:dark_oak_boat`|command.enum.unlockablerecipevalues.minecraft:dark_oak_boat|
+  |`minecraft:dark_oak_door`|command.enum.unlockablerecipevalues.minecraft:dark_oak_door|
+  |`minecraft:dark_oak_fence`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence|
+  |`minecraft:dark_oak_fence_gate`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence_gate|
+  |`minecraft:dark_oak_planks`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks|
+  |`minecraft:dark_oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks_from_stripped|
+  |`minecraft:dark_oak_stairs`|command.enum.unlockablerecipevalues.minecraft:dark_oak_stairs|
+  |`minecraft:dark_oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:dark_oak_wooden_slab|
+  |`minecraft:dark_prismarine`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine|
+  |`minecraft:dark_prismarine_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine_from_ink_sac|
+  |`minecraft:diorite`|command.enum.unlockablerecipevalues.minecraft:diorite|
+  |`minecraft:diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:diorite_stairs|
+  |`minecraft:fence`|command.enum.unlockablerecipevalues.minecraft:fence|
+  |`minecraft:fence_gate`|command.enum.unlockablerecipevalues.minecraft:fence_gate|
+  |`minecraft:granite`|command.enum.unlockablerecipevalues.minecraft:granite|
+  |`minecraft:granite_stairs`|command.enum.unlockablerecipevalues.minecraft:granite_stairs|
+  |`minecraft:gray_banner`|command.enum.unlockablerecipevalues.minecraft:gray_banner|
+  |`minecraft:gray_carpet`|command.enum.unlockablerecipevalues.minecraft:gray_carpet|
+  |`minecraft:gray_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:gray_carpet_from_white|
+  |`minecraft:gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:gray_concrete_powder|
+  |`minecraft:gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass|
+  |`minecraft:gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass_pane_from_pane|
+  |`minecraft:gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:gray_stained_hardened_clay|
+  |`minecraft:green_banner`|command.enum.unlockablerecipevalues.minecraft:green_banner|
+  |`minecraft:green_carpet`|command.enum.unlockablerecipevalues.minecraft:green_carpet|
+  |`minecraft:green_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:green_carpet_from_white|
+  |`minecraft:green_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:green_concrete_powder|
+  |`minecraft:green_stained_glass`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass|
+  |`minecraft:green_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass_pane_from_pane|
+  |`minecraft:green_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:green_stained_hardened_clay|
+  |`minecraft:jungle_boat`|command.enum.unlockablerecipevalues.minecraft:jungle_boat|
+  |`minecraft:jungle_door`|command.enum.unlockablerecipevalues.minecraft:jungle_door|
+  |`minecraft:jungle_fence`|command.enum.unlockablerecipevalues.minecraft:jungle_fence|
+  |`minecraft:jungle_fence_gate`|command.enum.unlockablerecipevalues.minecraft:jungle_fence_gate|
+  |`minecraft:jungle_planks`|command.enum.unlockablerecipevalues.minecraft:jungle_planks|
+  |`minecraft:jungle_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:jungle_planks_from_stripped|
+  |`minecraft:jungle_stairs`|command.enum.unlockablerecipevalues.minecraft:jungle_stairs|
+  |`minecraft:jungle_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:jungle_wooden_slab|
+  |`minecraft:light_blue_banner`|command.enum.unlockablerecipevalues.minecraft:light_blue_banner|
+  |`minecraft:light_blue_carpet`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet|
+  |`minecraft:light_blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet_from_white|
+  |`minecraft:light_blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_blue_concrete_powder|
+  |`minecraft:light_blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass|
+  |`minecraft:light_blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass_pane_from_pane|
+  |`minecraft:light_blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_hardened_clay|
+  |`minecraft:light_gray_banner`|command.enum.unlockablerecipevalues.minecraft:light_gray_banner|
+  |`minecraft:light_gray_carpet`|command.enum.unlockablerecipevalues.minecraft:light_gray_carpet|
+  |`minecraft:light_gray__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_gray__carpet_from_white|
+  |`minecraft:light_gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_gray_concrete_powder|
+  |`minecraft:light_gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass|
+  |`minecraft:light_gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass_pane_from_pane|
+  |`minecraft:light_gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_hardened_clay|
+  |`minecraft:lime_banner`|command.enum.unlockablerecipevalues.minecraft:lime_banner|
+  |`minecraft:lime_carpet`|command.enum.unlockablerecipevalues.minecraft:lime_carpet|
+  |`minecraft:lime__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:lime__carpet_from_white|
+  |`minecraft:lime_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:lime_concrete_powder|
+  |`minecraft:lime_stained_glass`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass|
+  |`minecraft:lime_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass_pane_from_pane|
+  |`minecraft:lime_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:lime_stained_hardened_clay|
+  |`minecraft:magenta_banner`|command.enum.unlockablerecipevalues.minecraft:magenta_banner|
+  |`minecraft:magenta_carpet`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet|
+  |`minecraft:magenta_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet_from_white|
+  |`minecraft:magenta_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:magenta_concrete_powder|
+  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
+  |`minecraft:magenta_stained_glass`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass|
+  |`minecraft:magenta_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass_pane_from_pane|
+  |`minecraft:magenta_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_hardened_clay|
+  |`minecraft:oak_fence`|command.enum.unlockablerecipevalues.minecraft:oak_fence|
+  |`minecraft:oak_planks`|command.enum.unlockablerecipevalues.minecraft:oak_planks|
+  |`minecraft:oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:oak_planks_from_stripped|
+  |`minecraft:oak_stairs`|command.enum.unlockablerecipevalues.minecraft:oak_stairs|
+  |`minecraft:oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:oak_wooden_slab|
+  |`minecraft:orange_banner`|command.enum.unlockablerecipevalues.minecraft:orange_banner|
+  |`minecraft:orange_carpet`|command.enum.unlockablerecipevalues.minecraft:orange_carpet|
+  |`minecraft:orange_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:orange_carpet_from_white|
+  |`minecraft:orange_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:orange_concrete_powder|
+  |`minecraft:orange_stained_glass`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass|
+  |`minecraft:orange_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass_pane_from_pane|
+  |`minecraft:orange_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:orange_stained_hardened_clay|
+  |`minecraft:painting`|command.enum.unlockablerecipevalues.minecraft:painting|
+  |`minecraft:pink_banner`|command.enum.unlockablerecipevalues.minecraft:pink_banner|
+  |`minecraft:pink_carpet`|command.enum.unlockablerecipevalues.minecraft:pink_carpet|
+  |`minecraft:pink_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:pink_carpet_from_white|
+  |`minecraft:pink_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:pink_concrete_powder|
+  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
+  |`minecraft:pink_stained_glass`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass|
+  |`minecraft:pink_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass_pane_from_pane|
+  |`minecraft:pink_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:pink_stained_hardened_clay|
+  |`minecraft:polished_andesite`|command.enum.unlockablerecipevalues.minecraft:polished_andesite|
+  |`minecraft:polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_andesite_stairs|
+  |`minecraft:polished_diorite`|command.enum.unlockablerecipevalues.minecraft:polished_diorite|
+  |`minecraft:polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_diorite_stairs|
+  |`minecraft:polished_granite`|command.enum.unlockablerecipevalues.minecraft:polished_granite|
+  |`minecraft:polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_granite_stairs|
+  |`minecraft:prismarine_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_bricks|
+  |`minecraft:prismarine_stairs_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_bricks|
+  |`minecraft:prismarine_stairs_dark`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_dark|
+  |`minecraft:purple_banner`|command.enum.unlockablerecipevalues.minecraft:purple_banner|
+  |`minecraft:purple_carpet`|command.enum.unlockablerecipevalues.minecraft:purple_carpet|
+  |`minecraft:purple_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:purple_carpet_from_white|
+  |`minecraft:purple_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:purple_concrete_powder|
+  |`minecraft:purple_stained_glass`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass|
+  |`minecraft:purple_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass_pane_from_pane|
+  |`minecraft:purple_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:purple_stained_hardened_clay|
+  |`minecraft:red_banner`|command.enum.unlockablerecipevalues.minecraft:red_banner|
+  |`minecraft:red_carpet`|command.enum.unlockablerecipevalues.minecraft:red_carpet|
+  |`minecraft:red_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:red_carpet_from_white|
+  |`minecraft:red_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:red_concrete_powder|
+  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
+  |`minecraft:red_stained_glass`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass|
+  |`minecraft:red_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass_pane_from_pane|
+  |`minecraft:red_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:red_stained_hardened_clay|
+  |`minecraft:sign_acacia`|command.enum.unlockablerecipevalues.minecraft:sign_acacia|
+  |`minecraft:sign_birch`|command.enum.unlockablerecipevalues.minecraft:sign_birch|
+  |`minecraft:sign_darkoak`|command.enum.unlockablerecipevalues.minecraft:sign_darkoak|
+  |`minecraft:sign_jungle`|command.enum.unlockablerecipevalues.minecraft:sign_jungle|
+  |`minecraft:sign_oak`|command.enum.unlockablerecipevalues.minecraft:sign_oak|
+  |`minecraft:sign_spruce`|command.enum.unlockablerecipevalues.minecraft:sign_spruce|
+  |`minecraft:spruce_boat`|command.enum.unlockablerecipevalues.minecraft:spruce_boat|
+  |`minecraft:spruce_door`|command.enum.unlockablerecipevalues.minecraft:spruce_door|
+  |`minecraft:spruce_fence`|command.enum.unlockablerecipevalues.minecraft:spruce_fence|
+  |`minecraft:spruce_fence_gate`|command.enum.unlockablerecipevalues.minecraft:spruce_fence_gate|
+  |`minecraft:spruce_planks`|command.enum.unlockablerecipevalues.minecraft:spruce_planks|
+  |`minecraft:spruce_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:spruce_planks_from_stripped|
+  |`minecraft:spruce_stairs`|command.enum.unlockablerecipevalues.minecraft:spruce_stairs|
+  |`minecraft:spruce_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:spruce_wooden_slab|
+  |`minecraft:stonecutter_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_stairs|
+  |`minecraft:stonecutter_dark_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_slab|
+  |`minecraft:stonecutter_dark_prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_stairs|
+  |`minecraft:stonecutter_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_stairs|
+  |`minecraft:stonecutter_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_stairs|
+  |`minecraft:stonecutter_mossy_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobbledouble_stone_slab|
+  |`minecraft:stonecutter_polished_andesite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite|
+  |`minecraft:stonecutter_polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs|
+  |`minecraft:stonecutter_polished_andesite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs2|
+  |`minecraft:stonecutter_polished_diorite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite|
+  |`minecraft:stonecutter_polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs|
+  |`minecraft:stonecutter_polished_diorite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs2|
+  |`minecraft:stonecutter_polished_granite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite|
+  |`minecraft:stonecutter_polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs|
+  |`minecraft:stonecutter_polished_granite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs2|
+  |`minecraft:stonecutter_prismarine_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_slab|
+  |`minecraft:stonecutter_prismarine_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_stairs|
+  |`minecraft:stonecutter_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_slab|
+  |`minecraft:stonecutter_purpur_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_lines|
+  |`minecraft:stonecutter_purpur_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_slab|
+  |`minecraft:stonecutter_red_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_slab|
+  |`minecraft:stonecutter_smooth_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sanddouble_stone_slab|
+  |`minecraft:string_to_wool`|command.enum.unlockablerecipevalues.minecraft:string_to_wool|
+  |`minecraft:white_banner`|command.enum.unlockablerecipevalues.minecraft:white_banner|
+  |`minecraft:white_carpet`|command.enum.unlockablerecipevalues.minecraft:white_carpet|
+  |`minecraft:white_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder|
+  |`minecraft:white_concrete_powder_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder_from_bonemeal|
+  |`minecraft:white_stained_glass`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass|
+  |`minecraft:white_stained_glass_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_from_bonemeal|
+  |`minecraft:white_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_pane_from_pane|
+  |`minecraft:white_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay|
+  |`minecraft:white_stained_hardened_clay_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay_from_bonemeal|
+  |`minecraft:wooden_door`|command.enum.unlockablerecipevalues.minecraft:wooden_door|
+  |`minecraft:yellow_banner`|command.enum.unlockablerecipevalues.minecraft:yellow_banner|
+  |`minecraft:yellow_carpet`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet|
+  |`minecraft:yellow_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet_from_white|
+  |`minecraft:yellow_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:yellow_concrete_powder|
+  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
+  |`minecraft:yellow_stained_glass`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass|
+  |`minecraft:yellow_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass_pane_from_pane|
+  |`minecraft:yellow_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_hardened_clay|
+  |`minecraft:andesite_wall`|command.enum.unlockablerecipevalues.minecraft:andesite_wall|
+  |`minecraft:brick_wall`|command.enum.unlockablerecipevalues.minecraft:brick_wall|
+  |`minecraft:cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:cobblestone_wall|
+  |`minecraft:cyan_dye_from_pitcher_plant`|command.enum.unlockablerecipevalues.minecraft:cyan_dye_from_pitcher_plant|
+  |`minecraft:diorite_wall`|command.enum.unlockablerecipevalues.minecraft:diorite_wall|
+  |`minecraft:end_brick_wall`|command.enum.unlockablerecipevalues.minecraft:end_brick_wall|
+  |`minecraft:granite_wall`|command.enum.unlockablerecipevalues.minecraft:granite_wall|
+  |`minecraft:mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_wall|
+  |`minecraft:mossy_stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_wall|
+  |`minecraft:nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:nether_brick_wall|
+  |`minecraft:prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:prismarine_wall|
+  |`minecraft:red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_wall|
+  |`minecraft:red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_wall|
+  |`minecraft:sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:sandstone_wall|
+  |`minecraft:stonecutter_andesite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_wall|
+  |`minecraft:stonecutter_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_wall|
+  |`minecraft:stonecutter_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_wall|
+  |`minecraft:stonecutter_diorite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_wall|
+  |`minecraft:stonecutter_endbrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall|
+  |`minecraft:stonecutter_endbrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall2|
+  |`minecraft:stonecutter_granite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_wall|
+  |`minecraft:stonecutter_mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobblestone_wall|
+  |`minecraft:stonecutter_mossy_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_wall|
+  |`minecraft:stonecutter_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_wall|
+  |`minecraft:stonecutter_prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_wall|
+  |`minecraft:stonecutter_red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_wall|
+  |`minecraft:stonecutter_red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_wall|
+  |`minecraft:stonecutter_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_wall|
+  |`minecraft:stonecutter_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall|
+  |`minecraft:stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stone_brick_wall|
+  |`minecraft:coarse_dirt`|command.enum.unlockablerecipevalues.minecraft:coarse_dirt|
+  |`minecraft:quartz_block`|command.enum.unlockablerecipevalues.minecraft:quartz_block|
+  |`minecraft:quartz_bricks`|command.enum.unlockablerecipevalues.minecraft:quartz_bricks|
+  |`minecraft:pillar_quartz_block`|command.enum.unlockablerecipevalues.minecraft:pillar_quartz_block|
+  |`minecraft:red_sandstone`|command.enum.unlockablerecipevalues.minecraft:red_sandstone|
+  |`minecraft:sandstone`|command.enum.unlockablerecipevalues.minecraft:sandstone|
+  |`minecraft:smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_quartz_stairs|
+  |`minecraft:smooth_red_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone|
+  |`minecraft:smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone_stairs|
+  |`minecraft:smooth_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone|
+  |`minecraft:smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone_stairs|
+  |`minecraft:stonecutter_quartz_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_chiseled|
+  |`minecraft:stonecutter_quartz_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_lines|
+  |`minecraft:stonecutter_red_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_cut|
+  |`minecraft:stonecutter_red_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_heiroglyphs|
+  |`minecraft:stonecutter_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sanddouble_stone_slab|
+  |`minecraft:stonecutter_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_cut|
+  |`minecraft:stonecutter_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_heiroglyphs|
+  |`minecraft:stonecutter_smooth_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_slab|
+  |`minecraft:stonecutter_smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_stairs|
+  |`minecraft:stonecutter_smooth_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sanddouble_stone_slab|
+  |`minecraft:stonecutter_smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sandstone_stairs|
+  |`minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab|
+  |`minecraft:yellow_dye_from_dandelion`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_dandelion|
+  |`minecraft:grindstone`|command.enum.unlockablerecipevalues.minecraft:grindstone|
+  |`minecraft:lodestone`|command.enum.unlockablerecipevalues.minecraft:lodestone|
+  |`minecraft:mossy_stonebrick`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick|
+  |`minecraft:mossy_stonebrick_from_moss`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick_from_moss|
+  |`minecraft:mossy_stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_stairs|
+  |`minecraft:stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonebrick|
+  |`minecraft:stonecutter_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_slab|
+  |`minecraft:stonecutter_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_slab|
+  |`minecraft:stonecutter_endbrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab|
+  |`minecraft:stonecutter_endbrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab2|
+  |`minecraft:stonecutter_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_slab|
+  |`minecraft:stonecutter_mossy_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_slab|
+  |`minecraft:stonecutter_mossy_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_stairs|
+  |`minecraft:stonecutter_polished_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab|
+  |`minecraft:stonecutter_polished_andesite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab2|
+  |`minecraft:stonecutter_polished_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab|
+  |`minecraft:stonecutter_polished_diorite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab2|
+  |`minecraft:stonecutter_polished_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab|
+  |`minecraft:stonecutter_polished_granite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab2|
+  |`minecraft:stonecutter_stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick|
+  |`minecraft:stonecutter_stonebrick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled|
+  |`minecraft:stonecutter_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_double_stone_slab|
+  |`minecraft:stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stone_brick_stairs|
   |`minecraft:armor_stand`|command.enum.unlockablerecipevalues.minecraft:armor_stand|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate_waxed`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate_waxed|
@@ -70,13 +413,10 @@ command.recipe.1.description
   |`minecraft:weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_grate|
   |`minecraft:flow_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:flow_armor_trim_smithing_template_duplicate|
   |`minecraft:mace`|command.enum.unlockablerecipevalues.minecraft:mace|
-  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
-  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
   |`minecraft:polished_tuff`|command.enum.unlockablerecipevalues.minecraft:polished_tuff|
   |`minecraft:polished_tuff_slab`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_slab|
   |`minecraft:polished_tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_stairs|
   |`minecraft:polished_tuff_wall`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_wall|
-  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
   |`minecraft:stonecutter_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab|
   |`minecraft:stonecutter_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobbledouble_stone_slab|
   |`minecraft:stonecutter_copper_block_to_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_chiseled_copper|
@@ -101,7 +441,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sanddouble_stone_slab|
   |`minecraft:stonecutter_smooth_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_double_stone_slab|
   |`minecraft:stonecutter_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab|
-  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
   |`minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks|
   |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab|
   |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs|
@@ -162,7 +501,6 @@ command.recipe.1.description
   |`minecraft:waxing_weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_grate|
   |`minecraft:waxing_weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_trapdoor|
   |`minecraft:wind_charge`|command.enum.unlockablerecipevalues.minecraft:wind_charge|
-  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
   |`minecraft:banner_pattern_flower`|command.enum.unlockablerecipevalues.minecraft:banner_pattern_flower|
   |`minecraft:blue_dye_from_cornflower`|command.enum.unlockablerecipevalues.minecraft:blue_dye_from_cornflower|
   |`minecraft:WorkBench_recipeId_from_oak`|command.enum.unlockablerecipevalues.minecraft:workbench_recipeid_from_oak|
@@ -201,73 +539,26 @@ command.recipe.1.description
   |`minecraft:spruce_planks_from_wood`|command.enum.unlockablerecipevalues.minecraft:spruce_planks_from_wood|
   |`minecraft:spruce_wood`|command.enum.unlockablerecipevalues.minecraft:spruce_wood|
   |`minecraft:spruce_wood_stripped`|command.enum.unlockablerecipevalues.minecraft:spruce_wood_stripped|
-  |`minecraft:black_stained_glass`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass|
-  |`minecraft:black_stained_glass_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_from_ink_sac|
   |`minecraft:black_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_pane|
-  |`minecraft:black_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_pane_from_pane|
-  |`minecraft:blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass|
-  |`minecraft:blue_stained_glass_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_from_lapis_lazuli|
   |`minecraft:blue_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_pane|
-  |`minecraft:blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_pane_from_pane|
-  |`minecraft:brown_stained_glass`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass|
-  |`minecraft:brown_stained_glass_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_from_cocoa_beans|
   |`minecraft:brown_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_pane|
-  |`minecraft:brown_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_pane_from_pane|
-  |`minecraft:cyan_stained_glass`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass|
   |`minecraft:cyan_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass_pane|
-  |`minecraft:cyan_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass_pane_from_pane|
-  |`minecraft:gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass|
   |`minecraft:gray_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass_pane|
-  |`minecraft:gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass_pane_from_pane|
-  |`minecraft:green_stained_glass`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass|
   |`minecraft:green_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass_pane|
-  |`minecraft:green_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass_pane_from_pane|
-  |`minecraft:light_blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass|
   |`minecraft:light_blue_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass_pane|
-  |`minecraft:light_blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass_pane_from_pane|
-  |`minecraft:light_gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass_pane|
-  |`minecraft:light_gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass_pane_from_pane|
-  |`minecraft:lime_stained_glass`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass|
   |`minecraft:lime_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass_pane|
-  |`minecraft:lime_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass_pane_from_pane|
-  |`minecraft:magenta_stained_glass`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass|
   |`minecraft:magenta_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass_pane|
-  |`minecraft:magenta_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass_pane_from_pane|
-  |`minecraft:orange_stained_glass`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass|
   |`minecraft:orange_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass_pane|
-  |`minecraft:orange_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass_pane_from_pane|
-  |`minecraft:pink_stained_glass`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass|
   |`minecraft:pink_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass_pane|
-  |`minecraft:pink_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass_pane_from_pane|
-  |`minecraft:purple_stained_glass`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass|
   |`minecraft:purple_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass_pane|
-  |`minecraft:purple_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass_pane_from_pane|
-  |`minecraft:red_stained_glass`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass|
   |`minecraft:red_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass_pane|
-  |`minecraft:red_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass_pane_from_pane|
-  |`minecraft:white_stained_glass`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass|
-  |`minecraft:white_stained_glass_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_from_bonemeal|
   |`minecraft:white_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_pane|
-  |`minecraft:white_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_pane_from_pane|
-  |`minecraft:yellow_stained_glass`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass|
   |`minecraft:yellow_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass_pane|
-  |`minecraft:yellow_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass_pane_from_pane|
-  |`minecraft:acacia_boat`|command.enum.unlockablerecipevalues.minecraft:acacia_boat|
   |`minecraft:acacia_chest_boat`|command.enum.unlockablerecipevalues.minecraft:acacia_chest_boat|
-  |`minecraft:acacia_door`|command.enum.unlockablerecipevalues.minecraft:acacia_door|
-  |`minecraft:acacia_fence`|command.enum.unlockablerecipevalues.minecraft:acacia_fence|
-  |`minecraft:acacia_fence_gate`|command.enum.unlockablerecipevalues.minecraft:acacia_fence_gate|
   |`minecraft:acacia_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:acacia_hanging_sign|
-  |`minecraft:acacia_planks`|command.enum.unlockablerecipevalues.minecraft:acacia_planks|
-  |`minecraft:acacia_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:acacia_planks_from_stripped|
-  |`minecraft:acacia_stairs`|command.enum.unlockablerecipevalues.minecraft:acacia_stairs|
-  |`minecraft:acacia_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:acacia_wooden_slab|
   |`minecraft:activator_rail`|command.enum.unlockablerecipevalues.minecraft:activator_rail|
   |`minecraft:amethyst_block`|command.enum.unlockablerecipevalues.minecraft:amethyst_block|
-  |`minecraft:andesite`|command.enum.unlockablerecipevalues.minecraft:andesite|
-  |`minecraft:andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:andesite_stairs|
-  |`minecraft:andesite_wall`|command.enum.unlockablerecipevalues.minecraft:andesite_wall|
   |`minecraft:anvil`|command.enum.unlockablerecipevalues.minecraft:anvil|
   |`minecraft:arrow`|command.enum.unlockablerecipevalues.minecraft:arrow|
   |`minecraft:bamboo_block`|command.enum.unlockablerecipevalues.minecraft:bamboo_block|
@@ -298,44 +589,21 @@ command.recipe.1.description
   |`minecraft:beacon`|command.enum.unlockablerecipevalues.minecraft:beacon|
   |`minecraft:beehive`|command.enum.unlockablerecipevalues.minecraft:beehive|
   |`minecraft:beetroot_soup`|command.enum.unlockablerecipevalues.minecraft:beetroot_soup|
-  |`minecraft:birch_boat`|command.enum.unlockablerecipevalues.minecraft:birch_boat|
   |`minecraft:birch_chest_boat`|command.enum.unlockablerecipevalues.minecraft:birch_chest_boat|
-  |`minecraft:birch_door`|command.enum.unlockablerecipevalues.minecraft:birch_door|
-  |`minecraft:birch_fence`|command.enum.unlockablerecipevalues.minecraft:birch_fence|
-  |`minecraft:birch_fence_gate`|command.enum.unlockablerecipevalues.minecraft:birch_fence_gate|
   |`minecraft:birch_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:birch_hanging_sign|
-  |`minecraft:birch_planks`|command.enum.unlockablerecipevalues.minecraft:birch_planks|
-  |`minecraft:birch_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:birch_planks_from_stripped|
-  |`minecraft:birch_stairs`|command.enum.unlockablerecipevalues.minecraft:birch_stairs|
-  |`minecraft:birch_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:birch_wooden_slab|
   |`minecraft:blackstone_slab`|command.enum.unlockablerecipevalues.minecraft:blackstone_slab|
   |`minecraft:blackstone_stairs`|command.enum.unlockablerecipevalues.minecraft:blackstone_stairs|
   |`minecraft:blackstone_wall`|command.enum.unlockablerecipevalues.minecraft:blackstone_wall|
-  |`minecraft:black_banner`|command.enum.unlockablerecipevalues.minecraft:black_banner|
   |`minecraft:black_candle`|command.enum.unlockablerecipevalues.minecraft:black_candle|
   |`minecraft:black_candle_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_candle_from_ink_sac|
-  |`minecraft:black_carpet`|command.enum.unlockablerecipevalues.minecraft:black_carpet|
-  |`minecraft:black_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:black_carpet_from_white|
-  |`minecraft:black_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder|
-  |`minecraft:black_concrete_powder_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder_from_ink_sac|
   |`minecraft:black_dye_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_dye_from_ink_sac|
   |`minecraft:black_dye_from_wither_rose`|command.enum.unlockablerecipevalues.minecraft:black_dye_from_wither_rose|
-  |`minecraft:black_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay|
-  |`minecraft:black_stained_hardened_clay_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay_from_ink_sac|
   |`minecraft:blast_furnace`|command.enum.unlockablerecipevalues.minecraft:blast_furnace|
   |`minecraft:blaze_powder`|command.enum.unlockablerecipevalues.minecraft:blaze_powder|
-  |`minecraft:blue_banner`|command.enum.unlockablerecipevalues.minecraft:blue_banner|
   |`minecraft:blue_candle`|command.enum.unlockablerecipevalues.minecraft:blue_candle|
   |`minecraft:blue_candle_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_candle_from_lapis_lazuli|
-  |`minecraft:blue_carpet`|command.enum.unlockablerecipevalues.minecraft:blue_carpet|
-  |`minecraft:blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:blue_carpet_from_white|
-  |`minecraft:blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder|
-  |`minecraft:blue_concrete_powder_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder_from_lapis_lazuli|
   |`minecraft:blue_dye_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_dye_from_lapis_lazuli|
   |`minecraft:blue_ice`|command.enum.unlockablerecipevalues.minecraft:blue_ice|
-  |`minecraft:blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay|
-  |`minecraft:blue_stained_hardened_clay_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay_from_lapis_lazuli|
-  |`minecraft:boat`|command.enum.unlockablerecipevalues.minecraft:boat|
   |`minecraft:bone_block`|command.enum.unlockablerecipevalues.minecraft:bone_block|
   |`minecraft:bone_meal_from_block`|command.enum.unlockablerecipevalues.minecraft:bone_meal_from_block|
   |`minecraft:bone_meal_from_bone`|command.enum.unlockablerecipevalues.minecraft:bone_meal_from_bone|
@@ -347,17 +615,9 @@ command.recipe.1.description
   |`minecraft:brewing_stand`|command.enum.unlockablerecipevalues.minecraft:brewing_stand|
   |`minecraft:brick_block`|command.enum.unlockablerecipevalues.minecraft:brick_block|
   |`minecraft:brick_stairs`|command.enum.unlockablerecipevalues.minecraft:brick_stairs|
-  |`minecraft:brick_wall`|command.enum.unlockablerecipevalues.minecraft:brick_wall|
-  |`minecraft:brown_banner`|command.enum.unlockablerecipevalues.minecraft:brown_banner|
   |`minecraft:brown_candle`|command.enum.unlockablerecipevalues.minecraft:brown_candle|
   |`minecraft:brown_candle_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_candle_from_cocoa_beans|
-  |`minecraft:brown_carpet`|command.enum.unlockablerecipevalues.minecraft:brown_carpet|
-  |`minecraft:brown_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:brown_carpet_from_white|
-  |`minecraft:brown_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder|
-  |`minecraft:brown_concrete_powder_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder_from_cocoa_beans|
   |`minecraft:brown_dye_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_dye_from_cocoa_beans|
-  |`minecraft:brown_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay|
-  |`minecraft:brown_stained_hardened_clay_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay_from_cocoa_beans|
   |`minecraft:brush`|command.enum.unlockablerecipevalues.minecraft:brush|
   |`minecraft:bucket`|command.enum.unlockablerecipevalues.minecraft:bucket|
   |`minecraft:cake`|command.enum.unlockablerecipevalues.minecraft:cake|
@@ -399,7 +659,6 @@ command.recipe.1.description
   |`minecraft:clock`|command.enum.unlockablerecipevalues.minecraft:clock|
   |`minecraft:coal`|command.enum.unlockablerecipevalues.minecraft:coal|
   |`minecraft:coal_block`|command.enum.unlockablerecipevalues.minecraft:coal_block|
-  |`minecraft:coarse_dirt`|command.enum.unlockablerecipevalues.minecraft:coarse_dirt|
   |`minecraft:coast_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:coast_armor_trim_smithing_template_duplicate|
   |`minecraft:cobbled_deepslate_slab`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_slab|
   |`minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting|
@@ -408,7 +667,6 @@ command.recipe.1.description
   |`minecraft:cobbled_deepslate_wall`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_wall|
   |`minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting|
   |`minecraft:cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:cobblestone_stairs|
-  |`minecraft:cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:cobblestone_wall|
   |`minecraft:comparator`|command.enum.unlockablerecipevalues.minecraft:comparator|
   |`minecraft:compass`|command.enum.unlockablerecipevalues.minecraft:compass|
   |`minecraft:composter`|command.enum.unlockablerecipevalues.minecraft:composter|
@@ -457,27 +715,11 @@ command.recipe.1.description
   |`minecraft:crimson_stairs`|command.enum.unlockablerecipevalues.minecraft:crimson_stairs|
   |`minecraft:crimson_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crimson_trapdoor|
   |`minecraft:crossbow`|command.enum.unlockablerecipevalues.minecraft:crossbow|
-  |`minecraft:cyan_banner`|command.enum.unlockablerecipevalues.minecraft:cyan_banner|
   |`minecraft:cyan_candle`|command.enum.unlockablerecipevalues.minecraft:cyan_candle|
-  |`minecraft:cyan_carpet`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet|
-  |`minecraft:cyan_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet_from_white|
-  |`minecraft:cyan_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:cyan_concrete_powder|
   |`minecraft:cyan_dye`|command.enum.unlockablerecipevalues.minecraft:cyan_dye|
   |`minecraft:cyan_dye_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:cyan_dye_from_lapis_lazuli|
-  |`minecraft:cyan_dye_from_pitcher_plant`|command.enum.unlockablerecipevalues.minecraft:cyan_dye_from_pitcher_plant|
-  |`minecraft:cyan_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_hardened_clay|
-  |`minecraft:dark_oak_boat`|command.enum.unlockablerecipevalues.minecraft:dark_oak_boat|
   |`minecraft:dark_oak_chest_boat`|command.enum.unlockablerecipevalues.minecraft:dark_oak_chest_boat|
-  |`minecraft:dark_oak_door`|command.enum.unlockablerecipevalues.minecraft:dark_oak_door|
-  |`minecraft:dark_oak_fence`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence|
-  |`minecraft:dark_oak_fence_gate`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence_gate|
   |`minecraft:dark_oak_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:dark_oak_hanging_sign|
-  |`minecraft:dark_oak_planks`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks|
-  |`minecraft:dark_oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks_from_stripped|
-  |`minecraft:dark_oak_stairs`|command.enum.unlockablerecipevalues.minecraft:dark_oak_stairs|
-  |`minecraft:dark_oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:dark_oak_wooden_slab|
-  |`minecraft:dark_prismarine`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine|
-  |`minecraft:dark_prismarine_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine_from_ink_sac|
   |`minecraft:DaylightDetector_recipeId`|command.enum.unlockablerecipevalues.minecraft:daylightdetector_recipeid|
   |`minecraft:deepslate_bricks`|command.enum.unlockablerecipevalues.minecraft:deepslate_bricks|
   |`minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting|
@@ -525,9 +767,6 @@ command.recipe.1.description
   |`minecraft:diamond_pickaxe`|command.enum.unlockablerecipevalues.minecraft:diamond_pickaxe|
   |`minecraft:diamond_shovel`|command.enum.unlockablerecipevalues.minecraft:diamond_shovel|
   |`minecraft:diamond_sword`|command.enum.unlockablerecipevalues.minecraft:diamond_sword|
-  |`minecraft:diorite`|command.enum.unlockablerecipevalues.minecraft:diorite|
-  |`minecraft:diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:diorite_stairs|
-  |`minecraft:diorite_wall`|command.enum.unlockablerecipevalues.minecraft:diorite_wall|
   |`minecraft:dispenser`|command.enum.unlockablerecipevalues.minecraft:dispenser|
   |`minecraft:dried_kelp`|command.enum.unlockablerecipevalues.minecraft:dried_kelp|
   |`minecraft:dried_kelp_block`|command.enum.unlockablerecipevalues.minecraft:dried_kelp_block|
@@ -542,12 +781,9 @@ command.recipe.1.description
   |`minecraft:ender_eye`|command.enum.unlockablerecipevalues.minecraft:ender_eye|
   |`minecraft:end_bricks`|command.enum.unlockablerecipevalues.minecraft:end_bricks|
   |`minecraft:end_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:end_brick_stairs|
-  |`minecraft:end_brick_wall`|command.enum.unlockablerecipevalues.minecraft:end_brick_wall|
   |`minecraft:end_crystal`|command.enum.unlockablerecipevalues.minecraft:end_crystal|
   |`minecraft:end_rod`|command.enum.unlockablerecipevalues.minecraft:end_rod|
   |`minecraft:eye_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:eye_armor_trim_smithing_template_duplicate|
-  |`minecraft:fence`|command.enum.unlockablerecipevalues.minecraft:fence|
-  |`minecraft:fence_gate`|command.enum.unlockablerecipevalues.minecraft:fence_gate|
   |`minecraft:fermented_spider_eye`|command.enum.unlockablerecipevalues.minecraft:fermented_spider_eye|
   |`minecraft:FireCharge_coal_sulphur_recipeId`|command.enum.unlockablerecipevalues.minecraft:firecharge_coal_sulphur_recipeid|
   |`minecraft:fishing_rod`|command.enum.unlockablerecipevalues.minecraft:fishing_rod|
@@ -577,26 +813,12 @@ command.recipe.1.description
   |`minecraft:gold_ingot_from_block`|command.enum.unlockablerecipevalues.minecraft:gold_ingot_from_block|
   |`minecraft:gold_ingot_from_nuggets`|command.enum.unlockablerecipevalues.minecraft:gold_ingot_from_nuggets|
   |`minecraft:gold_nugget`|command.enum.unlockablerecipevalues.minecraft:gold_nugget|
-  |`minecraft:granite`|command.enum.unlockablerecipevalues.minecraft:granite|
-  |`minecraft:granite_stairs`|command.enum.unlockablerecipevalues.minecraft:granite_stairs|
-  |`minecraft:granite_wall`|command.enum.unlockablerecipevalues.minecraft:granite_wall|
-  |`minecraft:gray_banner`|command.enum.unlockablerecipevalues.minecraft:gray_banner|
   |`minecraft:gray_candle`|command.enum.unlockablerecipevalues.minecraft:gray_candle|
-  |`minecraft:gray_carpet`|command.enum.unlockablerecipevalues.minecraft:gray_carpet|
-  |`minecraft:gray_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:gray_carpet_from_white|
-  |`minecraft:gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:gray_concrete_powder|
   |`minecraft:gray_dye`|command.enum.unlockablerecipevalues.minecraft:gray_dye|
   |`minecraft:gray_dye_from_black_bonemeal`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_black_bonemeal|
   |`minecraft:gray_dye_from_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_ink_bonemeal|
   |`minecraft:gray_dye_from_ink_white`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_ink_white|
-  |`minecraft:gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:gray_stained_hardened_clay|
-  |`minecraft:green_banner`|command.enum.unlockablerecipevalues.minecraft:green_banner|
   |`minecraft:green_candle`|command.enum.unlockablerecipevalues.minecraft:green_candle|
-  |`minecraft:green_carpet`|command.enum.unlockablerecipevalues.minecraft:green_carpet|
-  |`minecraft:green_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:green_carpet_from_white|
-  |`minecraft:green_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:green_concrete_powder|
-  |`minecraft:green_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:green_stained_hardened_clay|
-  |`minecraft:grindstone`|command.enum.unlockablerecipevalues.minecraft:grindstone|
   |`minecraft:hay_block`|command.enum.unlockablerecipevalues.minecraft:hay_block|
   |`minecraft:heavy_weighted_pressure_plate`|command.enum.unlockablerecipevalues.minecraft:heavy_weighted_pressure_plate|
   |`minecraft:honeycomb_block`|command.enum.unlockablerecipevalues.minecraft:honeycomb_block|
@@ -626,16 +848,8 @@ command.recipe.1.description
   |`minecraft:iron_trapdoor`|command.enum.unlockablerecipevalues.minecraft:iron_trapdoor|
   |`minecraft:item_frame`|command.enum.unlockablerecipevalues.minecraft:item_frame|
   |`minecraft:Jukebox_recipeId`|command.enum.unlockablerecipevalues.minecraft:jukebox_recipeid|
-  |`minecraft:jungle_boat`|command.enum.unlockablerecipevalues.minecraft:jungle_boat|
   |`minecraft:jungle_chest_boat`|command.enum.unlockablerecipevalues.minecraft:jungle_chest_boat|
-  |`minecraft:jungle_door`|command.enum.unlockablerecipevalues.minecraft:jungle_door|
-  |`minecraft:jungle_fence`|command.enum.unlockablerecipevalues.minecraft:jungle_fence|
-  |`minecraft:jungle_fence_gate`|command.enum.unlockablerecipevalues.minecraft:jungle_fence_gate|
   |`minecraft:jungle_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:jungle_hanging_sign|
-  |`minecraft:jungle_planks`|command.enum.unlockablerecipevalues.minecraft:jungle_planks|
-  |`minecraft:jungle_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:jungle_planks_from_stripped|
-  |`minecraft:jungle_stairs`|command.enum.unlockablerecipevalues.minecraft:jungle_stairs|
-  |`minecraft:jungle_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:jungle_wooden_slab|
   |`minecraft:ladder`|command.enum.unlockablerecipevalues.minecraft:ladder|
   |`minecraft:lantern`|command.enum.unlockablerecipevalues.minecraft:lantern|
   |`minecraft:lapis_block`|command.enum.unlockablerecipevalues.minecraft:lapis_block|
@@ -650,46 +864,26 @@ command.recipe.1.description
   |`minecraft:lectern`|command.enum.unlockablerecipevalues.minecraft:lectern|
   |`minecraft:lever`|command.enum.unlockablerecipevalues.minecraft:lever|
   |`minecraft:lightning_rod`|command.enum.unlockablerecipevalues.minecraft:lightning_rod|
-  |`minecraft:light_blue_banner`|command.enum.unlockablerecipevalues.minecraft:light_blue_banner|
   |`minecraft:light_blue_candle`|command.enum.unlockablerecipevalues.minecraft:light_blue_candle|
-  |`minecraft:light_blue_carpet`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet|
-  |`minecraft:light_blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet_from_white|
-  |`minecraft:light_blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_blue_concrete_powder|
   |`minecraft:light_blue_dye`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye|
   |`minecraft:light_blue_dye_from_blue_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye_from_blue_bonemeal|
   |`minecraft:light_blue_dye_from_lapis_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye_from_lapis_bonemeal|
   |`minecraft:light_blue_dye_from_lapis_white`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye_from_lapis_white|
-  |`minecraft:light_blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_hardened_clay|
-  |`minecraft:light_gray_banner`|command.enum.unlockablerecipevalues.minecraft:light_gray_banner|
   |`minecraft:light_gray_candle`|command.enum.unlockablerecipevalues.minecraft:light_gray_candle|
-  |`minecraft:light_gray_carpet`|command.enum.unlockablerecipevalues.minecraft:light_gray_carpet|
-  |`minecraft:light_gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_gray_concrete_powder|
   |`minecraft:light_gray_dye`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye|
   |`minecraft:light_gray_dye_from_black_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_black_bonemeal|
   |`minecraft:light_gray_dye_from_gray_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_gray_bonemeal|
   |`minecraft:light_gray_dye_from_gray_white`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_gray_white|
   |`minecraft:light_gray_dye_from_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_ink_bonemeal|
   |`minecraft:light_gray_dye_from_ink_white`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_ink_white|
-  |`minecraft:light_gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_hardened_clay|
-  |`minecraft:light_gray__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_gray__carpet_from_white|
   |`minecraft:light_weighted_pressure_plate`|command.enum.unlockablerecipevalues.minecraft:light_weighted_pressure_plate|
-  |`minecraft:lime_banner`|command.enum.unlockablerecipevalues.minecraft:lime_banner|
   |`minecraft:lime_candle`|command.enum.unlockablerecipevalues.minecraft:lime_candle|
-  |`minecraft:lime_carpet`|command.enum.unlockablerecipevalues.minecraft:lime_carpet|
-  |`minecraft:lime_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:lime_concrete_powder|
   |`minecraft:lime_dye`|command.enum.unlockablerecipevalues.minecraft:lime_dye|
   |`minecraft:lime_dye_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:lime_dye_from_bonemeal|
-  |`minecraft:lime_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:lime_stained_hardened_clay|
-  |`minecraft:lime__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:lime__carpet_from_white|
   |`minecraft:lit_pumpkin`|command.enum.unlockablerecipevalues.minecraft:lit_pumpkin|
   |`minecraft:locator_map`|command.enum.unlockablerecipevalues.minecraft:locator_map|
-  |`minecraft:lodestone`|command.enum.unlockablerecipevalues.minecraft:lodestone|
   |`minecraft:loom`|command.enum.unlockablerecipevalues.minecraft:loom|
-  |`minecraft:magenta_banner`|command.enum.unlockablerecipevalues.minecraft:magenta_banner|
   |`minecraft:magenta_candle`|command.enum.unlockablerecipevalues.minecraft:magenta_candle|
-  |`minecraft:magenta_carpet`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet|
-  |`minecraft:magenta_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet_from_white|
-  |`minecraft:magenta_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:magenta_concrete_powder|
   |`minecraft:magenta_dye`|command.enum.unlockablerecipevalues.minecraft:magenta_dye|
   |`minecraft:magenta_dye_from_blue_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_blue_ink_bonemeal|
   |`minecraft:magenta_dye_from_blue_ink_white`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_blue_ink_white|
@@ -697,7 +891,6 @@ command.recipe.1.description
   |`minecraft:magenta_dye_from_lapis_ink_white`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_ink_white|
   |`minecraft:magenta_dye_from_lapis_red_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_red_pink|
   |`minecraft:magenta_dye_from_purple_and_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_purple_and_pink|
-  |`minecraft:magenta_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_hardened_clay|
   |`minecraft:magma`|command.enum.unlockablerecipevalues.minecraft:magma|
   |`minecraft:magma_cream`|command.enum.unlockablerecipevalues.minecraft:magma_cream|
   |`minecraft:mangrove_boat`|command.enum.unlockablerecipevalues.minecraft:mangrove_boat|
@@ -725,11 +918,6 @@ command.recipe.1.description
   |`minecraft:mossy_cobblestone`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone|
   |`minecraft:mossy_cobblestone_from_moss`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_from_moss|
   |`minecraft:mossy_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_stairs|
-  |`minecraft:mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_wall|
-  |`minecraft:mossy_stonebrick`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick|
-  |`minecraft:mossy_stonebrick_from_moss`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick_from_moss|
-  |`minecraft:mossy_stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_stairs|
-  |`minecraft:mossy_stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_wall|
   |`minecraft:moss_carpet`|command.enum.unlockablerecipevalues.minecraft:moss_carpet|
   |`minecraft:muddy_mangrove_roots`|command.enum.unlockablerecipevalues.minecraft:muddy_mangrove_roots|
   |`minecraft:mud_bricks`|command.enum.unlockablerecipevalues.minecraft:mud_bricks|
@@ -744,41 +932,21 @@ command.recipe.1.description
   |`minecraft:nether_brick`|command.enum.unlockablerecipevalues.minecraft:nether_brick|
   |`minecraft:nether_brick_fence`|command.enum.unlockablerecipevalues.minecraft:nether_brick_fence|
   |`minecraft:nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:nether_brick_stairs|
-  |`minecraft:nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:nether_brick_wall|
   |`minecraft:nether_wart_block`|command.enum.unlockablerecipevalues.minecraft:nether_wart_block|
   |`minecraft:noteblock`|command.enum.unlockablerecipevalues.minecraft:noteblock|
-  |`minecraft:oak_fence`|command.enum.unlockablerecipevalues.minecraft:oak_fence|
   |`minecraft:oak_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:oak_hanging_sign|
-  |`minecraft:oak_planks`|command.enum.unlockablerecipevalues.minecraft:oak_planks|
-  |`minecraft:oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:oak_planks_from_stripped|
-  |`minecraft:oak_stairs`|command.enum.unlockablerecipevalues.minecraft:oak_stairs|
-  |`minecraft:oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:oak_wooden_slab|
   |`minecraft:observer`|command.enum.unlockablerecipevalues.minecraft:observer|
-  |`minecraft:orange_banner`|command.enum.unlockablerecipevalues.minecraft:orange_banner|
   |`minecraft:orange_candle`|command.enum.unlockablerecipevalues.minecraft:orange_candle|
-  |`minecraft:orange_carpet`|command.enum.unlockablerecipevalues.minecraft:orange_carpet|
-  |`minecraft:orange_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:orange_carpet_from_white|
-  |`minecraft:orange_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:orange_concrete_powder|
   |`minecraft:orange_dye_from_red_yellow`|command.enum.unlockablerecipevalues.minecraft:orange_dye_from_red_yellow|
   |`minecraft:orange_dye_from_torchflower`|command.enum.unlockablerecipevalues.minecraft:orange_dye_from_torchflower|
-  |`minecraft:orange_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:orange_stained_hardened_clay|
   |`minecraft:packed_ice`|command.enum.unlockablerecipevalues.minecraft:packed_ice|
   |`minecraft:packed_mud`|command.enum.unlockablerecipevalues.minecraft:packed_mud|
-  |`minecraft:painting`|command.enum.unlockablerecipevalues.minecraft:painting|
   |`minecraft:paper`|command.enum.unlockablerecipevalues.minecraft:paper|
-  |`minecraft:pillar_quartz_block`|command.enum.unlockablerecipevalues.minecraft:pillar_quartz_block|
-  |`minecraft:pink_banner`|command.enum.unlockablerecipevalues.minecraft:pink_banner|
   |`minecraft:pink_candle`|command.enum.unlockablerecipevalues.minecraft:pink_candle|
-  |`minecraft:pink_carpet`|command.enum.unlockablerecipevalues.minecraft:pink_carpet|
-  |`minecraft:pink_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:pink_carpet_from_white|
-  |`minecraft:pink_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:pink_concrete_powder|
   |`minecraft:pink_dye`|command.enum.unlockablerecipevalues.minecraft:pink_dye|
   |`minecraft:pink_dye_from_pink_petals`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_pink_petals|
   |`minecraft:pink_dye_from_red_bonemeal`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_red_bonemeal|
-  |`minecraft:pink_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:pink_stained_hardened_clay|
   |`minecraft:piston`|command.enum.unlockablerecipevalues.minecraft:piston|
-  |`minecraft:polished_andesite`|command.enum.unlockablerecipevalues.minecraft:polished_andesite|
-  |`minecraft:polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_andesite_stairs|
   |`minecraft:polished_basalt`|command.enum.unlockablerecipevalues.minecraft:polished_basalt|
   |`minecraft:polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:polished_blackstone|
   |`minecraft:polished_blackstone_bricks`|command.enum.unlockablerecipevalues.minecraft:polished_blackstone_bricks|
@@ -801,30 +969,15 @@ command.recipe.1.description
   |`minecraft:polished_deepslate_wall`|command.enum.unlockablerecipevalues.minecraft:polished_deepslate_wall|
   |`minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecut`|command.enum.unlockablerecipevalues.minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecut|
   |`minecraft:polished_deepslate_wall_from_polished_deepslate_stonecut`|command.enum.unlockablerecipevalues.minecraft:polished_deepslate_wall_from_polished_deepslate_stonecut|
-  |`minecraft:polished_diorite`|command.enum.unlockablerecipevalues.minecraft:polished_diorite|
-  |`minecraft:polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_diorite_stairs|
-  |`minecraft:polished_granite`|command.enum.unlockablerecipevalues.minecraft:polished_granite|
-  |`minecraft:polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_granite_stairs|
   |`minecraft:prismarine`|command.enum.unlockablerecipevalues.minecraft:prismarine|
-  |`minecraft:prismarine_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_bricks|
   |`minecraft:prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs|
-  |`minecraft:prismarine_stairs_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_bricks|
-  |`minecraft:prismarine_stairs_dark`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_dark|
-  |`minecraft:prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:prismarine_wall|
   |`minecraft:pumpkin_pie`|command.enum.unlockablerecipevalues.minecraft:pumpkin_pie|
   |`minecraft:pumpkin_seeds`|command.enum.unlockablerecipevalues.minecraft:pumpkin_seeds|
-  |`minecraft:purple_banner`|command.enum.unlockablerecipevalues.minecraft:purple_banner|
   |`minecraft:purple_candle`|command.enum.unlockablerecipevalues.minecraft:purple_candle|
-  |`minecraft:purple_carpet`|command.enum.unlockablerecipevalues.minecraft:purple_carpet|
-  |`minecraft:purple_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:purple_carpet_from_white|
-  |`minecraft:purple_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:purple_concrete_powder|
   |`minecraft:purple_dye`|command.enum.unlockablerecipevalues.minecraft:purple_dye|
   |`minecraft:purple_dye_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:purple_dye_from_lapis_lazuli|
-  |`minecraft:purple_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:purple_stained_hardened_clay|
   |`minecraft:purpur_block`|command.enum.unlockablerecipevalues.minecraft:purpur_block|
   |`minecraft:purpur_stairs`|command.enum.unlockablerecipevalues.minecraft:purpur_stairs|
-  |`minecraft:quartz_block`|command.enum.unlockablerecipevalues.minecraft:quartz_block|
-  |`minecraft:quartz_bricks`|command.enum.unlockablerecipevalues.minecraft:quartz_bricks|
   |`minecraft:quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:quartz_stairs|
   |`minecraft:rabbit_stew_from_brown_mushroom`|command.enum.unlockablerecipevalues.minecraft:rabbit_stew_from_brown_mushroom|
   |`minecraft:rabbit_stew_from_red_mushroom`|command.enum.unlockablerecipevalues.minecraft:rabbit_stew_from_red_mushroom|
@@ -843,25 +996,15 @@ command.recipe.1.description
   |`minecraft:redstone_block`|command.enum.unlockablerecipevalues.minecraft:redstone_block|
   |`minecraft:redstone_lamp`|command.enum.unlockablerecipevalues.minecraft:redstone_lamp|
   |`minecraft:redstone_torch`|command.enum.unlockablerecipevalues.minecraft:redstone_torch|
-  |`minecraft:red_banner`|command.enum.unlockablerecipevalues.minecraft:red_banner|
   |`minecraft:red_candle`|command.enum.unlockablerecipevalues.minecraft:red_candle|
-  |`minecraft:red_carpet`|command.enum.unlockablerecipevalues.minecraft:red_carpet|
-  |`minecraft:red_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:red_carpet_from_white|
-  |`minecraft:red_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:red_concrete_powder|
   |`minecraft:red_dye_from_beetroot`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_beetroot|
   |`minecraft:red_nether_brick`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick|
   |`minecraft:red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_stairs|
-  |`minecraft:red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_wall|
-  |`minecraft:red_sandstone`|command.enum.unlockablerecipevalues.minecraft:red_sandstone|
   |`minecraft:red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_stairs|
-  |`minecraft:red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_wall|
-  |`minecraft:red_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:red_stained_hardened_clay|
   |`minecraft:repeater`|command.enum.unlockablerecipevalues.minecraft:repeater|
   |`minecraft:respawn_anchor`|command.enum.unlockablerecipevalues.minecraft:respawn_anchor|
   |`minecraft:rib_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:rib_armor_trim_smithing_template_duplicate|
-  |`minecraft:sandstone`|command.enum.unlockablerecipevalues.minecraft:sandstone|
   |`minecraft:sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:sandstone_stairs|
-  |`minecraft:sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:sandstone_wall|
   |`minecraft:scaffolding`|command.enum.unlockablerecipevalues.minecraft:scaffolding|
   |`minecraft:sealantern`|command.enum.unlockablerecipevalues.minecraft:sealantern|
   |`minecraft:sentry_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:sentry_armor_trim_smithing_template_duplicate|
@@ -869,22 +1012,11 @@ command.recipe.1.description
   |`minecraft:shears`|command.enum.unlockablerecipevalues.minecraft:shears|
   |`minecraft:shield`|command.enum.unlockablerecipevalues.minecraft:shield|
   |`minecraft:shulker_box`|command.enum.unlockablerecipevalues.minecraft:shulker_box|
-  |`minecraft:sign_acacia`|command.enum.unlockablerecipevalues.minecraft:sign_acacia|
-  |`minecraft:sign_birch`|command.enum.unlockablerecipevalues.minecraft:sign_birch|
-  |`minecraft:sign_darkoak`|command.enum.unlockablerecipevalues.minecraft:sign_darkoak|
-  |`minecraft:sign_jungle`|command.enum.unlockablerecipevalues.minecraft:sign_jungle|
-  |`minecraft:sign_oak`|command.enum.unlockablerecipevalues.minecraft:sign_oak|
-  |`minecraft:sign_spruce`|command.enum.unlockablerecipevalues.minecraft:sign_spruce|
   |`minecraft:silence_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:silence_armor_trim_smithing_template_duplicate|
   |`minecraft:slime`|command.enum.unlockablerecipevalues.minecraft:slime|
   |`minecraft:slime_ball`|command.enum.unlockablerecipevalues.minecraft:slime_ball|
   |`minecraft:smithing_table`|command.enum.unlockablerecipevalues.minecraft:smithing_table|
   |`minecraft:smoker`|command.enum.unlockablerecipevalues.minecraft:smoker|
-  |`minecraft:smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_quartz_stairs|
-  |`minecraft:smooth_red_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone|
-  |`minecraft:smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone_stairs|
-  |`minecraft:smooth_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone|
-  |`minecraft:smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone_stairs|
   |`minecraft:snout_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:snout_armor_trim_smithing_template_duplicate|
   |`minecraft:snow`|command.enum.unlockablerecipevalues.minecraft:snow|
   |`minecraft:snow_layer`|command.enum.unlockablerecipevalues.minecraft:snow_layer|
@@ -893,24 +1025,12 @@ command.recipe.1.description
   |`minecraft:soul_torch`|command.enum.unlockablerecipevalues.minecraft:soul_torch|
   |`minecraft:speckled_melon`|command.enum.unlockablerecipevalues.minecraft:speckled_melon|
   |`minecraft:spire_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:spire_armor_trim_smithing_template_duplicate|
-  |`minecraft:spruce_boat`|command.enum.unlockablerecipevalues.minecraft:spruce_boat|
   |`minecraft:spruce_chest_boat`|command.enum.unlockablerecipevalues.minecraft:spruce_chest_boat|
-  |`minecraft:spruce_door`|command.enum.unlockablerecipevalues.minecraft:spruce_door|
-  |`minecraft:spruce_fence`|command.enum.unlockablerecipevalues.minecraft:spruce_fence|
-  |`minecraft:spruce_fence_gate`|command.enum.unlockablerecipevalues.minecraft:spruce_fence_gate|
   |`minecraft:spruce_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:spruce_hanging_sign|
-  |`minecraft:spruce_planks`|command.enum.unlockablerecipevalues.minecraft:spruce_planks|
-  |`minecraft:spruce_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:spruce_planks_from_stripped|
-  |`minecraft:spruce_stairs`|command.enum.unlockablerecipevalues.minecraft:spruce_stairs|
-  |`minecraft:spruce_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:spruce_wooden_slab|
   |`minecraft:spyglass`|command.enum.unlockablerecipevalues.minecraft:spyglass|
   |`minecraft:stick`|command.enum.unlockablerecipevalues.minecraft:stick|
   |`minecraft:sticky_piston`|command.enum.unlockablerecipevalues.minecraft:sticky_piston|
-  |`minecraft:stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonebrick|
   |`minecraft:stonecutter`|command.enum.unlockablerecipevalues.minecraft:stonecutter|
-  |`minecraft:stonecutter_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_slab|
-  |`minecraft:stonecutter_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_stairs|
-  |`minecraft:stonecutter_andesite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_wall|
   |`minecraft:stonecutter_blackstone_slab_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_slab_from_blackstone|
   |`minecraft:stonecutter_blackstone_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_stairs_from_blackstone|
   |`minecraft:stonecutter_blackstone_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_wall_from_blackstone|
@@ -918,119 +1038,56 @@ command.recipe.1.description
   |`minecraft:stonecutter_brick_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab_from_polished_blackstone|
   |`minecraft:stonecutter_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs|
   |`minecraft:stonecutter_brick_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs_from_polished_blackstone|
-  |`minecraft:stonecutter_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_wall|
   |`minecraft:stonecutter_brick_wall_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_wall_from_polished_blackstone|
   |`minecraft:stonecutter_chiseled_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_from_polished_blackstone|
   |`minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick|
   |`minecraft:stonecutter_chiseled_polished_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_polished_from_blackstone|
   |`minecraft:stonecutter_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_stairs|
-  |`minecraft:stonecutter_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_wall|
   |`minecraft:stonecutter_copper_block_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper|
   |`minecraft:stonecutter_copper_block_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper_slab|
   |`minecraft:stonecutter_copper_block_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper_stairs|
   |`minecraft:stonecutter_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cut_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_dark_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_slab|
-  |`minecraft:stonecutter_dark_prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_stairs|
-  |`minecraft:stonecutter_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_slab|
-  |`minecraft:stonecutter_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_stairs|
-  |`minecraft:stonecutter_diorite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_wall|
   |`minecraft:stonecutter_endbricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbricks|
-  |`minecraft:stonecutter_endbrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab|
-  |`minecraft:stonecutter_endbrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab2|
   |`minecraft:stonecutter_endbrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_stairs|
   |`minecraft:stonecutter_endbrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_stairs2|
-  |`minecraft:stonecutter_endbrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall|
-  |`minecraft:stonecutter_endbrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall2|
   |`minecraft:stonecutter_exposed_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_cut_copper|
   |`minecraft:stonecutter_exposed_copper_to_exposed_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_exposed_cut_copper_slab|
   |`minecraft:stonecutter_exposed_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_cut_copper_stairs|
   |`minecraft:stonecutter_exposed_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_exposed_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_cut_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_slab|
-  |`minecraft:stonecutter_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_stairs|
-  |`minecraft:stonecutter_granite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_wall|
-  |`minecraft:stonecutter_mossy_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobbledouble_stone_slab|
   |`minecraft:stonecutter_mossy_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobblestone_stairs|
-  |`minecraft:stonecutter_mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobblestone_wall|
-  |`minecraft:stonecutter_mossy_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_slab|
-  |`minecraft:stonecutter_mossy_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_stairs|
-  |`minecraft:stonecutter_mossy_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_wall|
   |`minecraft:stonecutter_mud_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_slab|
   |`minecraft:stonecutter_mud_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_stairs|
   |`minecraft:stonecutter_mud_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_wall|
   |`minecraft:stonecutter_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_stairs|
-  |`minecraft:stonecutter_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_wall|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper_stairs|
   |`minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_polished_andesite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite|
-  |`minecraft:stonecutter_polished_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab|
-  |`minecraft:stonecutter_polished_andesite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab2|
-  |`minecraft:stonecutter_polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs|
-  |`minecraft:stonecutter_polished_andesite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs2|
   |`minecraft:stonecutter_polished_basalt_from_basalt`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_basalt_from_basalt|
   |`minecraft:stonecutter_polished_bricks_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_bricks_from_blackstone|
   |`minecraft:stonecutter_polished_brick_slab_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_brick_slab_from_blackstone|
   |`minecraft:stonecutter_polished_brick_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_brick_stairs_from_blackstone|
   |`minecraft:stonecutter_polished_brick_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_brick_wall_from_blackstone|
-  |`minecraft:stonecutter_polished_diorite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite|
-  |`minecraft:stonecutter_polished_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab|
-  |`minecraft:stonecutter_polished_diorite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab2|
-  |`minecraft:stonecutter_polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs|
-  |`minecraft:stonecutter_polished_diorite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs2|
   |`minecraft:stonecutter_polished_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_from_blackstone|
-  |`minecraft:stonecutter_polished_granite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite|
-  |`minecraft:stonecutter_polished_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab|
-  |`minecraft:stonecutter_polished_granite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab2|
-  |`minecraft:stonecutter_polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs|
-  |`minecraft:stonecutter_polished_granite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs2|
   |`minecraft:stonecutter_polished_slab_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_slab_from_blackstone|
   |`minecraft:stonecutter_polished_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_stairs_from_blackstone|
   |`minecraft:stonecutter_polished_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_wall_from_blackstone|
-  |`minecraft:stonecutter_prismarine_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_slab|
-  |`minecraft:stonecutter_prismarine_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_stairs|
-  |`minecraft:stonecutter_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_slab|
   |`minecraft:stonecutter_prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_stairs|
-  |`minecraft:stonecutter_prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_wall|
-  |`minecraft:stonecutter_purpur_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_lines|
-  |`minecraft:stonecutter_purpur_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_slab|
   |`minecraft:stonecutter_purpur_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_stairs|
   |`minecraft:stonecutter_quartz_bricks_from_quartz_block`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_bricks_from_quartz_block|
-  |`minecraft:stonecutter_quartz_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_chiseled|
-  |`minecraft:stonecutter_quartz_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_lines|
   |`minecraft:stonecutter_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_stairs|
-  |`minecraft:stonecutter_red_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_slab|
   |`minecraft:stonecutter_red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_stairs|
-  |`minecraft:stonecutter_red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_wall|
-  |`minecraft:stonecutter_red_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_cut|
-  |`minecraft:stonecutter_red_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_heiroglyphs|
-  |`minecraft:stonecutter_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sanddouble_stone_slab|
   |`minecraft:stonecutter_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_stairs|
-  |`minecraft:stonecutter_red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_wall|
-  |`minecraft:stonecutter_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_cut|
-  |`minecraft:stonecutter_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_heiroglyphs|
   |`minecraft:stonecutter_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_stairs|
-  |`minecraft:stonecutter_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_wall|
   |`minecraft:stonecutter_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_slab_from_polished_blackstone|
   |`minecraft:stonecutter_slab_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_slab_from_polished_blackstone_bricks|
-  |`minecraft:stonecutter_smooth_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_slab|
-  |`minecraft:stonecutter_smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_stairs|
-  |`minecraft:stonecutter_smooth_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sanddouble_stone_slab|
-  |`minecraft:stonecutter_smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sandstone_stairs|
-  |`minecraft:stonecutter_smooth_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sanddouble_stone_slab|
   |`minecraft:stonecutter_smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sandstone_stairs|
   |`minecraft:stonecutter_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stairs_from_polished_blackstone|
   |`stonecutter_stairs_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.stonecutter_stairs_from_polished_blackstone_bricks|
-  |`minecraft:stonecutter_stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick|
-  |`minecraft:stonecutter_stonebrick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled|
   |`minecraft:stonecutter_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs|
-  |`minecraft:stonecutter_stonebrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs2|
-  |`minecraft:stonecutter_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall|
-  |`minecraft:stonecutter_stonebrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall2|
-  |`minecraft:stonecutter_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_double_stone_slab|
   |`minecraft:stonecutter_stone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stone_stairs|
   |`minecraft:stonecutter_wall_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_wall_from_polished_blackstone|
   |`minecraft:stonecutter_wall_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_wall_from_polished_blackstone_bricks|
@@ -1052,7 +1109,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper|
   |`minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_stairs|
   |`minecraft:stonecutter_waxed_weathered_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_copper_to_cut_copper|
   |`minecraft:stonecutter_waxed_weathered_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_copper_to_cut_copper_slab|
@@ -1060,8 +1116,6 @@ command.recipe.1.description
   |`minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_stairs|
   |`minecraft:stone_axe`|command.enum.unlockablerecipevalues.minecraft:stone_axe|
-  |`minecraft:stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stone_brick_stairs|
-  |`minecraft:stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stone_brick_wall|
   |`minecraft:stone_button`|command.enum.unlockablerecipevalues.minecraft:stone_button|
   |`minecraft:stone_hoe`|command.enum.unlockablerecipevalues.minecraft:stone_hoe|
   |`minecraft:stone_pickaxe`|command.enum.unlockablerecipevalues.minecraft:stone_pickaxe|
@@ -1069,7 +1123,6 @@ command.recipe.1.description
   |`minecraft:stone_shovel`|command.enum.unlockablerecipevalues.minecraft:stone_shovel|
   |`minecraft:stone_stairs`|command.enum.unlockablerecipevalues.minecraft:stone_stairs|
   |`minecraft:stone_sword`|command.enum.unlockablerecipevalues.minecraft:stone_sword|
-  |`minecraft:string_to_wool`|command.enum.unlockablerecipevalues.minecraft:string_to_wool|
   |`minecraft:stripped_mangrove_wood`|command.enum.unlockablerecipevalues.minecraft:stripped_mangrove_wood|
   |`minecraft:sugar`|command.enum.unlockablerecipevalues.minecraft:sugar|
   |`minecraft:target`|command.enum.unlockablerecipevalues.minecraft:target|
@@ -1118,30 +1171,17 @@ command.recipe.1.description
   |`minecraft:waxing_weathered_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_cut_copper_stairs|
   |`minecraft:wayfinder_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:wayfinder_armor_trim_smithing_template_duplicate|
   |`minecraft:wheat`|command.enum.unlockablerecipevalues.minecraft:wheat|
-  |`minecraft:white_banner`|command.enum.unlockablerecipevalues.minecraft:white_banner|
   |`minecraft:white_candle`|command.enum.unlockablerecipevalues.minecraft:white_candle|
   |`minecraft:white_candle_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_candle_from_bonemeal|
-  |`minecraft:white_carpet`|command.enum.unlockablerecipevalues.minecraft:white_carpet|
-  |`minecraft:white_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder|
-  |`minecraft:white_concrete_powder_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder_from_bonemeal|
   |`minecraft:white_dye_from_bone_meal`|command.enum.unlockablerecipevalues.minecraft:white_dye_from_bone_meal|
-  |`minecraft:white_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay|
-  |`minecraft:white_stained_hardened_clay_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay_from_bonemeal|
   |`minecraft:wild_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:wild_armor_trim_smithing_template_duplicate|
   |`minecraft:wooden_axe`|command.enum.unlockablerecipevalues.minecraft:wooden_axe|
-  |`minecraft:wooden_door`|command.enum.unlockablerecipevalues.minecraft:wooden_door|
   |`minecraft:wooden_hoe`|command.enum.unlockablerecipevalues.minecraft:wooden_hoe|
   |`minecraft:wooden_pickaxe`|command.enum.unlockablerecipevalues.minecraft:wooden_pickaxe|
   |`minecraft:wooden_shovel`|command.enum.unlockablerecipevalues.minecraft:wooden_shovel|
   |`minecraft:wooden_sword`|command.enum.unlockablerecipevalues.minecraft:wooden_sword|
   |`minecraft:writable_book`|command.enum.unlockablerecipevalues.minecraft:writable_book|
-  |`minecraft:yellow_banner`|command.enum.unlockablerecipevalues.minecraft:yellow_banner|
   |`minecraft:yellow_candle`|command.enum.unlockablerecipevalues.minecraft:yellow_candle|
-  |`minecraft:yellow_carpet`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet|
-  |`minecraft:yellow_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet_from_white|
-  |`minecraft:yellow_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:yellow_concrete_powder|
-  |`minecraft:yellow_dye_from_dandelion`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_dandelion|
-  |`minecraft:yellow_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_hardened_clay|
   |`wool_dye_wool_19_14`|command.enum.unlockablerecipevalues.wool_dye_wool_19_14|
   |`wool_dye_wool_19_13`|command.enum.unlockablerecipevalues.wool_dye_wool_19_13|
   |`wool_dye_wool_19_12`|command.enum.unlockablerecipevalues.wool_dye_wool_19_12|
@@ -1443,325 +1483,717 @@ command.recipe.1.description
   |`wool_dye_wool_0_2`|command.enum.unlockablerecipevalues.wool_dye_wool_0_2|
   |`wool_dye_wool_0_1`|command.enum.unlockablerecipevalues.wool_dye_wool_0_1|
   |`shulkerBox_shulker_box_color_dye_19_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_19_0|
-  |`shulkerBox_shulker_box_color_block_19_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_0_0|
-  |`shulkerBox_shulker_box_color_block_19_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_1_0|
-  |`shulkerBox_shulker_box_color_block_19_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_2_0|
-  |`shulkerBox_shulker_box_color_block_19_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_3_0|
-  |`shulkerBox_shulker_box_color_block_19_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_4_0|
-  |`shulkerBox_shulker_box_color_block_19_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_5_0|
-  |`shulkerBox_shulker_box_color_block_19_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_6_0|
-  |`shulkerBox_shulker_box_color_block_19_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_7_0|
-  |`shulkerBox_shulker_box_color_block_19_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_8_0|
-  |`shulkerBox_shulker_box_color_block_19_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_9_0|
-  |`shulkerBox_shulker_box_color_block_19_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_10_0|
-  |`shulkerBox_shulker_box_color_block_19_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_11_0|
-  |`shulkerBox_shulker_box_color_block_19_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_12_0|
-  |`shulkerBox_shulker_box_color_block_19_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_13_0|
   |`shulkerBox_shulker_box_color_block_19_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_14_0|
+  |`shulkerBox_shulker_box_color_block_19_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_13_0|
+  |`shulkerBox_shulker_box_color_block_19_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_12_0|
+  |`shulkerBox_shulker_box_color_block_19_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_11_0|
+  |`shulkerBox_shulker_box_color_block_19_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_10_0|
+  |`shulkerBox_shulker_box_color_block_19_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_9_0|
+  |`shulkerBox_shulker_box_color_block_19_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_8_0|
+  |`shulkerBox_shulker_box_color_block_19_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_7_0|
+  |`shulkerBox_shulker_box_color_block_19_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_6_0|
+  |`shulkerBox_shulker_box_color_block_19_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_5_0|
+  |`shulkerBox_shulker_box_color_block_19_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_4_0|
+  |`shulkerBox_shulker_box_color_block_19_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_3_0|
+  |`shulkerBox_shulker_box_color_block_19_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_2_0|
+  |`shulkerBox_shulker_box_color_block_19_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_1_0|
+  |`shulkerBox_shulker_box_color_block_19_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_0_0|
   |`shulkerBox_shulker_box_color_dye_18_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_18_0|
-  |`shulkerBox_shulker_box_color_block_18_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_0_0|
-  |`shulkerBox_shulker_box_color_block_18_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_1_0|
-  |`shulkerBox_shulker_box_color_block_18_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_2_0|
-  |`shulkerBox_shulker_box_color_block_18_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_3_0|
-  |`shulkerBox_shulker_box_color_block_18_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_5_0|
-  |`shulkerBox_shulker_box_color_block_18_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_6_0|
-  |`shulkerBox_shulker_box_color_block_18_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_7_0|
-  |`shulkerBox_shulker_box_color_block_18_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_8_0|
-  |`shulkerBox_shulker_box_color_block_18_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_9_0|
-  |`shulkerBox_shulker_box_color_block_18_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_10_0|
-  |`shulkerBox_shulker_box_color_block_18_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_11_0|
-  |`shulkerBox_shulker_box_color_block_18_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_12_0|
-  |`shulkerBox_shulker_box_color_block_18_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_13_0|
-  |`shulkerBox_shulker_box_color_block_18_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_14_0|
   |`shulkerBox_shulker_box_color_block_18_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_15_0|
+  |`shulkerBox_shulker_box_color_block_18_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_14_0|
+  |`shulkerBox_shulker_box_color_block_18_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_13_0|
+  |`shulkerBox_shulker_box_color_block_18_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_12_0|
+  |`shulkerBox_shulker_box_color_block_18_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_11_0|
+  |`shulkerBox_shulker_box_color_block_18_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_10_0|
+  |`shulkerBox_shulker_box_color_block_18_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_9_0|
+  |`shulkerBox_shulker_box_color_block_18_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_8_0|
+  |`shulkerBox_shulker_box_color_block_18_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_7_0|
+  |`shulkerBox_shulker_box_color_block_18_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_6_0|
+  |`shulkerBox_shulker_box_color_block_18_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_5_0|
+  |`shulkerBox_shulker_box_color_block_18_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_3_0|
+  |`shulkerBox_shulker_box_color_block_18_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_2_0|
+  |`shulkerBox_shulker_box_color_block_18_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_1_0|
+  |`shulkerBox_shulker_box_color_block_18_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_0_0|
   |`shulkerBox_shulker_box_color_dye_17_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_17_0|
-  |`shulkerBox_shulker_box_color_block_17_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_0_0|
-  |`shulkerBox_shulker_box_color_block_17_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_1_0|
-  |`shulkerBox_shulker_box_color_block_17_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_2_0|
-  |`shulkerBox_shulker_box_color_block_17_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_4_0|
-  |`shulkerBox_shulker_box_color_block_17_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_5_0|
-  |`shulkerBox_shulker_box_color_block_17_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_6_0|
-  |`shulkerBox_shulker_box_color_block_17_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_7_0|
-  |`shulkerBox_shulker_box_color_block_17_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_8_0|
-  |`shulkerBox_shulker_box_color_block_17_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_9_0|
-  |`shulkerBox_shulker_box_color_block_17_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_10_0|
-  |`shulkerBox_shulker_box_color_block_17_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_11_0|
-  |`shulkerBox_shulker_box_color_block_17_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_12_0|
-  |`shulkerBox_shulker_box_color_block_17_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_13_0|
-  |`shulkerBox_shulker_box_color_block_17_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_14_0|
   |`shulkerBox_shulker_box_color_block_17_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_15_0|
+  |`shulkerBox_shulker_box_color_block_17_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_14_0|
+  |`shulkerBox_shulker_box_color_block_17_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_13_0|
+  |`shulkerBox_shulker_box_color_block_17_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_12_0|
+  |`shulkerBox_shulker_box_color_block_17_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_11_0|
+  |`shulkerBox_shulker_box_color_block_17_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_10_0|
+  |`shulkerBox_shulker_box_color_block_17_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_9_0|
+  |`shulkerBox_shulker_box_color_block_17_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_8_0|
+  |`shulkerBox_shulker_box_color_block_17_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_7_0|
+  |`shulkerBox_shulker_box_color_block_17_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_6_0|
+  |`shulkerBox_shulker_box_color_block_17_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_5_0|
+  |`shulkerBox_shulker_box_color_block_17_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_4_0|
+  |`shulkerBox_shulker_box_color_block_17_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_2_0|
+  |`shulkerBox_shulker_box_color_block_17_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_1_0|
+  |`shulkerBox_shulker_box_color_block_17_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_0_0|
   |`shulkerBox_shulker_box_color_dye_16_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_16_0|
-  |`shulkerBox_shulker_box_color_block_16_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_1_0|
-  |`shulkerBox_shulker_box_color_block_16_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_2_0|
-  |`shulkerBox_shulker_box_color_block_16_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_3_0|
-  |`shulkerBox_shulker_box_color_block_16_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_4_0|
-  |`shulkerBox_shulker_box_color_block_16_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_5_0|
-  |`shulkerBox_shulker_box_color_block_16_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_6_0|
-  |`shulkerBox_shulker_box_color_block_16_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_7_0|
-  |`shulkerBox_shulker_box_color_block_16_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_8_0|
-  |`shulkerBox_shulker_box_color_block_16_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_9_0|
-  |`shulkerBox_shulker_box_color_block_16_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_10_0|
-  |`shulkerBox_shulker_box_color_block_16_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_11_0|
-  |`shulkerBox_shulker_box_color_block_16_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_12_0|
-  |`shulkerBox_shulker_box_color_block_16_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_13_0|
-  |`shulkerBox_shulker_box_color_block_16_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_14_0|
   |`shulkerBox_shulker_box_color_block_16_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_15_0|
+  |`shulkerBox_shulker_box_color_block_16_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_14_0|
+  |`shulkerBox_shulker_box_color_block_16_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_13_0|
+  |`shulkerBox_shulker_box_color_block_16_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_12_0|
+  |`shulkerBox_shulker_box_color_block_16_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_11_0|
+  |`shulkerBox_shulker_box_color_block_16_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_10_0|
+  |`shulkerBox_shulker_box_color_block_16_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_9_0|
+  |`shulkerBox_shulker_box_color_block_16_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_8_0|
+  |`shulkerBox_shulker_box_color_block_16_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_7_0|
+  |`shulkerBox_shulker_box_color_block_16_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_6_0|
+  |`shulkerBox_shulker_box_color_block_16_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_5_0|
+  |`shulkerBox_shulker_box_color_block_16_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_4_0|
+  |`shulkerBox_shulker_box_color_block_16_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_3_0|
+  |`shulkerBox_shulker_box_color_block_16_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_2_0|
+  |`shulkerBox_shulker_box_color_block_16_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_1_0|
   |`shulkerBox_shulker_box_color_dye_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_15_0|
-  |`shulkerBox_shulker_box_color_block_15_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_0_0|
-  |`shulkerBox_shulker_box_color_block_15_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_1_0|
-  |`shulkerBox_shulker_box_color_block_15_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_2_0|
-  |`shulkerBox_shulker_box_color_block_15_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_3_0|
-  |`shulkerBox_shulker_box_color_block_15_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_4_0|
-  |`shulkerBox_shulker_box_color_block_15_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_5_0|
-  |`shulkerBox_shulker_box_color_block_15_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_6_0|
-  |`shulkerBox_shulker_box_color_block_15_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_7_0|
-  |`shulkerBox_shulker_box_color_block_15_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_8_0|
-  |`shulkerBox_shulker_box_color_block_15_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_9_0|
-  |`shulkerBox_shulker_box_color_block_15_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_10_0|
-  |`shulkerBox_shulker_box_color_block_15_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_11_0|
-  |`shulkerBox_shulker_box_color_block_15_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_12_0|
-  |`shulkerBox_shulker_box_color_block_15_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_13_0|
   |`shulkerBox_shulker_box_color_block_15_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_14_0|
+  |`shulkerBox_shulker_box_color_block_15_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_13_0|
+  |`shulkerBox_shulker_box_color_block_15_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_12_0|
+  |`shulkerBox_shulker_box_color_block_15_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_11_0|
+  |`shulkerBox_shulker_box_color_block_15_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_10_0|
+  |`shulkerBox_shulker_box_color_block_15_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_9_0|
+  |`shulkerBox_shulker_box_color_block_15_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_8_0|
+  |`shulkerBox_shulker_box_color_block_15_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_7_0|
+  |`shulkerBox_shulker_box_color_block_15_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_6_0|
+  |`shulkerBox_shulker_box_color_block_15_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_5_0|
+  |`shulkerBox_shulker_box_color_block_15_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_4_0|
+  |`shulkerBox_shulker_box_color_block_15_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_3_0|
+  |`shulkerBox_shulker_box_color_block_15_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_2_0|
+  |`shulkerBox_shulker_box_color_block_15_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_1_0|
+  |`shulkerBox_shulker_box_color_block_15_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_0_0|
   |`shulkerBox_shulker_box_color_dye_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_14_0|
-  |`shulkerBox_shulker_box_color_block_14_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_0_0|
-  |`shulkerBox_shulker_box_color_block_14_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_1_0|
-  |`shulkerBox_shulker_box_color_block_14_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_2_0|
-  |`shulkerBox_shulker_box_color_block_14_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_3_0|
-  |`shulkerBox_shulker_box_color_block_14_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_4_0|
-  |`shulkerBox_shulker_box_color_block_14_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_5_0|
-  |`shulkerBox_shulker_box_color_block_14_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_6_0|
-  |`shulkerBox_shulker_box_color_block_14_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_7_0|
-  |`shulkerBox_shulker_box_color_block_14_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_8_0|
-  |`shulkerBox_shulker_box_color_block_14_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_9_0|
-  |`shulkerBox_shulker_box_color_block_14_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_10_0|
-  |`shulkerBox_shulker_box_color_block_14_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_11_0|
-  |`shulkerBox_shulker_box_color_block_14_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_12_0|
-  |`shulkerBox_shulker_box_color_block_14_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_13_0|
   |`shulkerBox_shulker_box_color_block_14_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_15_0|
+  |`shulkerBox_shulker_box_color_block_14_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_13_0|
+  |`shulkerBox_shulker_box_color_block_14_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_12_0|
+  |`shulkerBox_shulker_box_color_block_14_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_11_0|
+  |`shulkerBox_shulker_box_color_block_14_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_10_0|
+  |`shulkerBox_shulker_box_color_block_14_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_9_0|
+  |`shulkerBox_shulker_box_color_block_14_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_8_0|
+  |`shulkerBox_shulker_box_color_block_14_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_7_0|
+  |`shulkerBox_shulker_box_color_block_14_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_6_0|
+  |`shulkerBox_shulker_box_color_block_14_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_5_0|
+  |`shulkerBox_shulker_box_color_block_14_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_4_0|
+  |`shulkerBox_shulker_box_color_block_14_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_3_0|
+  |`shulkerBox_shulker_box_color_block_14_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_2_0|
+  |`shulkerBox_shulker_box_color_block_14_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_1_0|
+  |`shulkerBox_shulker_box_color_block_14_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_0_0|
   |`shulkerBox_shulker_box_color_dye_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_13_0|
-  |`shulkerBox_shulker_box_color_block_13_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_0_0|
-  |`shulkerBox_shulker_box_color_block_13_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_1_0|
-  |`shulkerBox_shulker_box_color_block_13_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_2_0|
-  |`shulkerBox_shulker_box_color_block_13_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_3_0|
-  |`shulkerBox_shulker_box_color_block_13_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_4_0|
-  |`shulkerBox_shulker_box_color_block_13_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_5_0|
-  |`shulkerBox_shulker_box_color_block_13_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_6_0|
-  |`shulkerBox_shulker_box_color_block_13_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_7_0|
-  |`shulkerBox_shulker_box_color_block_13_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_8_0|
-  |`shulkerBox_shulker_box_color_block_13_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_9_0|
-  |`shulkerBox_shulker_box_color_block_13_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_10_0|
-  |`shulkerBox_shulker_box_color_block_13_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_11_0|
-  |`shulkerBox_shulker_box_color_block_13_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_12_0|
-  |`shulkerBox_shulker_box_color_block_13_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_14_0|
   |`shulkerBox_shulker_box_color_block_13_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_15_0|
+  |`shulkerBox_shulker_box_color_block_13_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_14_0|
+  |`shulkerBox_shulker_box_color_block_13_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_12_0|
+  |`shulkerBox_shulker_box_color_block_13_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_11_0|
+  |`shulkerBox_shulker_box_color_block_13_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_10_0|
+  |`shulkerBox_shulker_box_color_block_13_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_9_0|
+  |`shulkerBox_shulker_box_color_block_13_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_8_0|
+  |`shulkerBox_shulker_box_color_block_13_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_7_0|
+  |`shulkerBox_shulker_box_color_block_13_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_6_0|
+  |`shulkerBox_shulker_box_color_block_13_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_5_0|
+  |`shulkerBox_shulker_box_color_block_13_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_4_0|
+  |`shulkerBox_shulker_box_color_block_13_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_3_0|
+  |`shulkerBox_shulker_box_color_block_13_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_2_0|
+  |`shulkerBox_shulker_box_color_block_13_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_1_0|
+  |`shulkerBox_shulker_box_color_block_13_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_0_0|
   |`shulkerBox_shulker_box_color_dye_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_12_0|
-  |`shulkerBox_shulker_box_color_block_12_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_0_0|
-  |`shulkerBox_shulker_box_color_block_12_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_1_0|
-  |`shulkerBox_shulker_box_color_block_12_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_2_0|
-  |`shulkerBox_shulker_box_color_block_12_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_3_0|
-  |`shulkerBox_shulker_box_color_block_12_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_4_0|
-  |`shulkerBox_shulker_box_color_block_12_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_5_0|
-  |`shulkerBox_shulker_box_color_block_12_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_6_0|
-  |`shulkerBox_shulker_box_color_block_12_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_7_0|
-  |`shulkerBox_shulker_box_color_block_12_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_8_0|
-  |`shulkerBox_shulker_box_color_block_12_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_9_0|
-  |`shulkerBox_shulker_box_color_block_12_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_10_0|
-  |`shulkerBox_shulker_box_color_block_12_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_11_0|
-  |`shulkerBox_shulker_box_color_block_12_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_13_0|
-  |`shulkerBox_shulker_box_color_block_12_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_14_0|
   |`shulkerBox_shulker_box_color_block_12_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_15_0|
+  |`shulkerBox_shulker_box_color_block_12_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_14_0|
+  |`shulkerBox_shulker_box_color_block_12_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_13_0|
+  |`shulkerBox_shulker_box_color_block_12_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_11_0|
+  |`shulkerBox_shulker_box_color_block_12_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_10_0|
+  |`shulkerBox_shulker_box_color_block_12_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_9_0|
+  |`shulkerBox_shulker_box_color_block_12_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_8_0|
+  |`shulkerBox_shulker_box_color_block_12_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_7_0|
+  |`shulkerBox_shulker_box_color_block_12_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_6_0|
+  |`shulkerBox_shulker_box_color_block_12_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_5_0|
+  |`shulkerBox_shulker_box_color_block_12_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_4_0|
+  |`shulkerBox_shulker_box_color_block_12_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_3_0|
+  |`shulkerBox_shulker_box_color_block_12_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_2_0|
+  |`shulkerBox_shulker_box_color_block_12_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_1_0|
+  |`shulkerBox_shulker_box_color_block_12_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_0_0|
   |`shulkerBox_shulker_box_color_dye_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_11_0|
-  |`shulkerBox_shulker_box_color_block_11_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_0_0|
-  |`shulkerBox_shulker_box_color_block_11_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_1_0|
-  |`shulkerBox_shulker_box_color_block_11_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_2_0|
-  |`shulkerBox_shulker_box_color_block_11_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_3_0|
-  |`shulkerBox_shulker_box_color_block_11_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_4_0|
-  |`shulkerBox_shulker_box_color_block_11_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_5_0|
-  |`shulkerBox_shulker_box_color_block_11_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_6_0|
-  |`shulkerBox_shulker_box_color_block_11_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_7_0|
-  |`shulkerBox_shulker_box_color_block_11_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_8_0|
-  |`shulkerBox_shulker_box_color_block_11_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_9_0|
-  |`shulkerBox_shulker_box_color_block_11_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_10_0|
-  |`shulkerBox_shulker_box_color_block_11_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_12_0|
-  |`shulkerBox_shulker_box_color_block_11_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_13_0|
-  |`shulkerBox_shulker_box_color_block_11_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_14_0|
   |`shulkerBox_shulker_box_color_block_11_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_15_0|
+  |`shulkerBox_shulker_box_color_block_11_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_14_0|
+  |`shulkerBox_shulker_box_color_block_11_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_13_0|
+  |`shulkerBox_shulker_box_color_block_11_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_12_0|
+  |`shulkerBox_shulker_box_color_block_11_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_10_0|
+  |`shulkerBox_shulker_box_color_block_11_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_9_0|
+  |`shulkerBox_shulker_box_color_block_11_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_8_0|
+  |`shulkerBox_shulker_box_color_block_11_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_7_0|
+  |`shulkerBox_shulker_box_color_block_11_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_6_0|
+  |`shulkerBox_shulker_box_color_block_11_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_5_0|
+  |`shulkerBox_shulker_box_color_block_11_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_4_0|
+  |`shulkerBox_shulker_box_color_block_11_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_3_0|
+  |`shulkerBox_shulker_box_color_block_11_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_2_0|
+  |`shulkerBox_shulker_box_color_block_11_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_1_0|
+  |`shulkerBox_shulker_box_color_block_11_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_0_0|
   |`shulkerBox_shulker_box_color_dye_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_10_0|
-  |`shulkerBox_shulker_box_color_block_10_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_0_0|
-  |`shulkerBox_shulker_box_color_block_10_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_1_0|
-  |`shulkerBox_shulker_box_color_block_10_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_2_0|
-  |`shulkerBox_shulker_box_color_block_10_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_3_0|
-  |`shulkerBox_shulker_box_color_block_10_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_4_0|
-  |`shulkerBox_shulker_box_color_block_10_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_5_0|
-  |`shulkerBox_shulker_box_color_block_10_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_6_0|
-  |`shulkerBox_shulker_box_color_block_10_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_7_0|
-  |`shulkerBox_shulker_box_color_block_10_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_8_0|
-  |`shulkerBox_shulker_box_color_block_10_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_9_0|
-  |`shulkerBox_shulker_box_color_block_10_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_11_0|
-  |`shulkerBox_shulker_box_color_block_10_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_12_0|
-  |`shulkerBox_shulker_box_color_block_10_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_13_0|
-  |`shulkerBox_shulker_box_color_block_10_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_14_0|
   |`shulkerBox_shulker_box_color_block_10_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_15_0|
+  |`shulkerBox_shulker_box_color_block_10_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_14_0|
+  |`shulkerBox_shulker_box_color_block_10_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_13_0|
+  |`shulkerBox_shulker_box_color_block_10_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_12_0|
+  |`shulkerBox_shulker_box_color_block_10_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_11_0|
+  |`shulkerBox_shulker_box_color_block_10_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_9_0|
+  |`shulkerBox_shulker_box_color_block_10_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_8_0|
+  |`shulkerBox_shulker_box_color_block_10_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_7_0|
+  |`shulkerBox_shulker_box_color_block_10_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_6_0|
+  |`shulkerBox_shulker_box_color_block_10_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_5_0|
+  |`shulkerBox_shulker_box_color_block_10_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_4_0|
+  |`shulkerBox_shulker_box_color_block_10_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_3_0|
+  |`shulkerBox_shulker_box_color_block_10_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_2_0|
+  |`shulkerBox_shulker_box_color_block_10_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_1_0|
+  |`shulkerBox_shulker_box_color_block_10_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_0_0|
   |`shulkerBox_shulker_box_color_dye_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_9_0|
-  |`shulkerBox_shulker_box_color_block_9_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_0_0|
-  |`shulkerBox_shulker_box_color_block_9_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_1_0|
-  |`shulkerBox_shulker_box_color_block_9_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_2_0|
-  |`shulkerBox_shulker_box_color_block_9_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_3_0|
-  |`shulkerBox_shulker_box_color_block_9_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_4_0|
-  |`shulkerBox_shulker_box_color_block_9_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_5_0|
-  |`shulkerBox_shulker_box_color_block_9_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_6_0|
-  |`shulkerBox_shulker_box_color_block_9_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_7_0|
-  |`shulkerBox_shulker_box_color_block_9_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_8_0|
-  |`shulkerBox_shulker_box_color_block_9_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_10_0|
-  |`shulkerBox_shulker_box_color_block_9_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_11_0|
-  |`shulkerBox_shulker_box_color_block_9_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_12_0|
-  |`shulkerBox_shulker_box_color_block_9_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_13_0|
-  |`shulkerBox_shulker_box_color_block_9_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_14_0|
   |`shulkerBox_shulker_box_color_block_9_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_15_0|
+  |`shulkerBox_shulker_box_color_block_9_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_14_0|
+  |`shulkerBox_shulker_box_color_block_9_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_13_0|
+  |`shulkerBox_shulker_box_color_block_9_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_12_0|
+  |`shulkerBox_shulker_box_color_block_9_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_11_0|
+  |`shulkerBox_shulker_box_color_block_9_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_10_0|
+  |`shulkerBox_shulker_box_color_block_9_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_8_0|
+  |`shulkerBox_shulker_box_color_block_9_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_7_0|
+  |`shulkerBox_shulker_box_color_block_9_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_6_0|
+  |`shulkerBox_shulker_box_color_block_9_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_5_0|
+  |`shulkerBox_shulker_box_color_block_9_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_4_0|
+  |`shulkerBox_shulker_box_color_block_9_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_3_0|
+  |`shulkerBox_shulker_box_color_block_9_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_2_0|
+  |`shulkerBox_shulker_box_color_block_9_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_1_0|
+  |`shulkerBox_shulker_box_color_block_9_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_0_0|
   |`shulkerBox_shulker_box_color_dye_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_8_0|
-  |`shulkerBox_shulker_box_color_block_8_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_0_0|
-  |`shulkerBox_shulker_box_color_block_8_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_1_0|
-  |`shulkerBox_shulker_box_color_block_8_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_2_0|
-  |`shulkerBox_shulker_box_color_block_8_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_3_0|
-  |`shulkerBox_shulker_box_color_block_8_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_4_0|
-  |`shulkerBox_shulker_box_color_block_8_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_5_0|
-  |`shulkerBox_shulker_box_color_block_8_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_6_0|
-  |`shulkerBox_shulker_box_color_block_8_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_7_0|
-  |`shulkerBox_shulker_box_color_block_8_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_9_0|
-  |`shulkerBox_shulker_box_color_block_8_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_10_0|
-  |`shulkerBox_shulker_box_color_block_8_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_11_0|
-  |`shulkerBox_shulker_box_color_block_8_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_12_0|
-  |`shulkerBox_shulker_box_color_block_8_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_13_0|
-  |`shulkerBox_shulker_box_color_block_8_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_14_0|
   |`shulkerBox_shulker_box_color_block_8_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_15_0|
+  |`shulkerBox_shulker_box_color_block_8_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_14_0|
+  |`shulkerBox_shulker_box_color_block_8_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_13_0|
+  |`shulkerBox_shulker_box_color_block_8_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_12_0|
+  |`shulkerBox_shulker_box_color_block_8_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_11_0|
+  |`shulkerBox_shulker_box_color_block_8_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_10_0|
+  |`shulkerBox_shulker_box_color_block_8_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_9_0|
+  |`shulkerBox_shulker_box_color_block_8_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_7_0|
+  |`shulkerBox_shulker_box_color_block_8_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_6_0|
+  |`shulkerBox_shulker_box_color_block_8_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_5_0|
+  |`shulkerBox_shulker_box_color_block_8_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_4_0|
+  |`shulkerBox_shulker_box_color_block_8_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_3_0|
+  |`shulkerBox_shulker_box_color_block_8_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_2_0|
+  |`shulkerBox_shulker_box_color_block_8_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_1_0|
+  |`shulkerBox_shulker_box_color_block_8_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_0_0|
   |`shulkerBox_shulker_box_color_dye_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_7_0|
-  |`shulkerBox_shulker_box_color_block_7_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_0_0|
-  |`shulkerBox_shulker_box_color_block_7_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_1_0|
-  |`shulkerBox_shulker_box_color_block_7_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_2_0|
-  |`shulkerBox_shulker_box_color_block_7_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_3_0|
-  |`shulkerBox_shulker_box_color_block_7_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_4_0|
-  |`shulkerBox_shulker_box_color_block_7_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_5_0|
-  |`shulkerBox_shulker_box_color_block_7_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_6_0|
-  |`shulkerBox_shulker_box_color_block_7_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_8_0|
-  |`shulkerBox_shulker_box_color_block_7_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_9_0|
-  |`shulkerBox_shulker_box_color_block_7_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_10_0|
-  |`shulkerBox_shulker_box_color_block_7_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_11_0|
-  |`shulkerBox_shulker_box_color_block_7_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_12_0|
-  |`shulkerBox_shulker_box_color_block_7_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_13_0|
-  |`shulkerBox_shulker_box_color_block_7_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_14_0|
   |`shulkerBox_shulker_box_color_block_7_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_15_0|
+  |`shulkerBox_shulker_box_color_block_7_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_14_0|
+  |`shulkerBox_shulker_box_color_block_7_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_13_0|
+  |`shulkerBox_shulker_box_color_block_7_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_12_0|
+  |`shulkerBox_shulker_box_color_block_7_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_11_0|
+  |`shulkerBox_shulker_box_color_block_7_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_10_0|
+  |`shulkerBox_shulker_box_color_block_7_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_9_0|
+  |`shulkerBox_shulker_box_color_block_7_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_8_0|
+  |`shulkerBox_shulker_box_color_block_7_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_6_0|
+  |`shulkerBox_shulker_box_color_block_7_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_5_0|
+  |`shulkerBox_shulker_box_color_block_7_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_4_0|
+  |`shulkerBox_shulker_box_color_block_7_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_3_0|
+  |`shulkerBox_shulker_box_color_block_7_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_2_0|
+  |`shulkerBox_shulker_box_color_block_7_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_1_0|
+  |`shulkerBox_shulker_box_color_block_7_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_0_0|
   |`shulkerBox_shulker_box_color_dye_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_6_0|
-  |`shulkerBox_shulker_box_color_block_6_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_0_0|
-  |`shulkerBox_shulker_box_color_block_6_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_1_0|
-  |`shulkerBox_shulker_box_color_block_6_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_2_0|
-  |`shulkerBox_shulker_box_color_block_6_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_3_0|
-  |`shulkerBox_shulker_box_color_block_6_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_4_0|
-  |`shulkerBox_shulker_box_color_block_6_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_5_0|
-  |`shulkerBox_shulker_box_color_block_6_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_7_0|
-  |`shulkerBox_shulker_box_color_block_6_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_8_0|
-  |`shulkerBox_shulker_box_color_block_6_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_9_0|
-  |`shulkerBox_shulker_box_color_block_6_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_10_0|
-  |`shulkerBox_shulker_box_color_block_6_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_11_0|
-  |`shulkerBox_shulker_box_color_block_6_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_12_0|
-  |`shulkerBox_shulker_box_color_block_6_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_13_0|
-  |`shulkerBox_shulker_box_color_block_6_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_14_0|
   |`shulkerBox_shulker_box_color_block_6_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_15_0|
+  |`shulkerBox_shulker_box_color_block_6_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_14_0|
+  |`shulkerBox_shulker_box_color_block_6_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_13_0|
+  |`shulkerBox_shulker_box_color_block_6_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_12_0|
+  |`shulkerBox_shulker_box_color_block_6_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_11_0|
+  |`shulkerBox_shulker_box_color_block_6_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_10_0|
+  |`shulkerBox_shulker_box_color_block_6_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_9_0|
+  |`shulkerBox_shulker_box_color_block_6_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_8_0|
+  |`shulkerBox_shulker_box_color_block_6_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_7_0|
+  |`shulkerBox_shulker_box_color_block_6_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_5_0|
+  |`shulkerBox_shulker_box_color_block_6_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_4_0|
+  |`shulkerBox_shulker_box_color_block_6_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_3_0|
+  |`shulkerBox_shulker_box_color_block_6_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_2_0|
+  |`shulkerBox_shulker_box_color_block_6_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_1_0|
+  |`shulkerBox_shulker_box_color_block_6_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_0_0|
   |`shulkerBox_shulker_box_color_dye_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_5_0|
-  |`shulkerBox_shulker_box_color_block_5_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_0_0|
-  |`shulkerBox_shulker_box_color_block_5_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_1_0|
-  |`shulkerBox_shulker_box_color_block_5_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_2_0|
-  |`shulkerBox_shulker_box_color_block_5_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_3_0|
-  |`shulkerBox_shulker_box_color_block_5_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_4_0|
-  |`shulkerBox_shulker_box_color_block_5_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_6_0|
-  |`shulkerBox_shulker_box_color_block_5_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_7_0|
-  |`shulkerBox_shulker_box_color_block_5_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_8_0|
-  |`shulkerBox_shulker_box_color_block_5_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_9_0|
-  |`shulkerBox_shulker_box_color_block_5_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_10_0|
-  |`shulkerBox_shulker_box_color_block_5_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_11_0|
-  |`shulkerBox_shulker_box_color_block_5_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_12_0|
-  |`shulkerBox_shulker_box_color_block_5_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_13_0|
-  |`shulkerBox_shulker_box_color_block_5_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_14_0|
   |`shulkerBox_shulker_box_color_block_5_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_15_0|
+  |`shulkerBox_shulker_box_color_block_5_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_14_0|
+  |`shulkerBox_shulker_box_color_block_5_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_13_0|
+  |`shulkerBox_shulker_box_color_block_5_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_12_0|
+  |`shulkerBox_shulker_box_color_block_5_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_11_0|
+  |`shulkerBox_shulker_box_color_block_5_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_10_0|
+  |`shulkerBox_shulker_box_color_block_5_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_9_0|
+  |`shulkerBox_shulker_box_color_block_5_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_8_0|
+  |`shulkerBox_shulker_box_color_block_5_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_7_0|
+  |`shulkerBox_shulker_box_color_block_5_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_6_0|
+  |`shulkerBox_shulker_box_color_block_5_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_4_0|
+  |`shulkerBox_shulker_box_color_block_5_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_3_0|
+  |`shulkerBox_shulker_box_color_block_5_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_2_0|
+  |`shulkerBox_shulker_box_color_block_5_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_1_0|
+  |`shulkerBox_shulker_box_color_block_5_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_0_0|
   |`shulkerBox_shulker_box_color_dye_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_4_0|
-  |`shulkerBox_shulker_box_color_block_4_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_0_0|
-  |`shulkerBox_shulker_box_color_block_4_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_1_0|
-  |`shulkerBox_shulker_box_color_block_4_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_2_0|
-  |`shulkerBox_shulker_box_color_block_4_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_3_0|
-  |`shulkerBox_shulker_box_color_block_4_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_5_0|
-  |`shulkerBox_shulker_box_color_block_4_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_6_0|
-  |`shulkerBox_shulker_box_color_block_4_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_7_0|
-  |`shulkerBox_shulker_box_color_block_4_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_8_0|
-  |`shulkerBox_shulker_box_color_block_4_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_9_0|
-  |`shulkerBox_shulker_box_color_block_4_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_10_0|
-  |`shulkerBox_shulker_box_color_block_4_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_11_0|
-  |`shulkerBox_shulker_box_color_block_4_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_12_0|
-  |`shulkerBox_shulker_box_color_block_4_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_13_0|
-  |`shulkerBox_shulker_box_color_block_4_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_14_0|
   |`shulkerBox_shulker_box_color_block_4_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_15_0|
+  |`shulkerBox_shulker_box_color_block_4_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_14_0|
+  |`shulkerBox_shulker_box_color_block_4_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_13_0|
+  |`shulkerBox_shulker_box_color_block_4_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_12_0|
+  |`shulkerBox_shulker_box_color_block_4_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_11_0|
+  |`shulkerBox_shulker_box_color_block_4_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_10_0|
+  |`shulkerBox_shulker_box_color_block_4_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_9_0|
+  |`shulkerBox_shulker_box_color_block_4_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_8_0|
+  |`shulkerBox_shulker_box_color_block_4_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_7_0|
+  |`shulkerBox_shulker_box_color_block_4_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_6_0|
+  |`shulkerBox_shulker_box_color_block_4_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_5_0|
+  |`shulkerBox_shulker_box_color_block_4_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_3_0|
+  |`shulkerBox_shulker_box_color_block_4_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_2_0|
+  |`shulkerBox_shulker_box_color_block_4_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_1_0|
+  |`shulkerBox_shulker_box_color_block_4_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_0_0|
   |`shulkerBox_shulker_box_color_dye_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_3_0|
-  |`shulkerBox_shulker_box_color_block_3_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_0_0|
-  |`shulkerBox_shulker_box_color_block_3_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_1_0|
-  |`shulkerBox_shulker_box_color_block_3_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_2_0|
-  |`shulkerBox_shulker_box_color_block_3_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_4_0|
-  |`shulkerBox_shulker_box_color_block_3_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_5_0|
-  |`shulkerBox_shulker_box_color_block_3_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_6_0|
-  |`shulkerBox_shulker_box_color_block_3_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_7_0|
-  |`shulkerBox_shulker_box_color_block_3_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_8_0|
-  |`shulkerBox_shulker_box_color_block_3_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_9_0|
-  |`shulkerBox_shulker_box_color_block_3_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_10_0|
-  |`shulkerBox_shulker_box_color_block_3_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_11_0|
-  |`shulkerBox_shulker_box_color_block_3_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_12_0|
-  |`shulkerBox_shulker_box_color_block_3_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_13_0|
-  |`shulkerBox_shulker_box_color_block_3_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_14_0|
   |`shulkerBox_shulker_box_color_block_3_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_15_0|
+  |`shulkerBox_shulker_box_color_block_3_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_14_0|
+  |`shulkerBox_shulker_box_color_block_3_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_13_0|
+  |`shulkerBox_shulker_box_color_block_3_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_12_0|
+  |`shulkerBox_shulker_box_color_block_3_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_11_0|
+  |`shulkerBox_shulker_box_color_block_3_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_10_0|
+  |`shulkerBox_shulker_box_color_block_3_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_9_0|
+  |`shulkerBox_shulker_box_color_block_3_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_8_0|
+  |`shulkerBox_shulker_box_color_block_3_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_7_0|
+  |`shulkerBox_shulker_box_color_block_3_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_6_0|
+  |`shulkerBox_shulker_box_color_block_3_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_5_0|
+  |`shulkerBox_shulker_box_color_block_3_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_4_0|
+  |`shulkerBox_shulker_box_color_block_3_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_2_0|
+  |`shulkerBox_shulker_box_color_block_3_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_1_0|
+  |`shulkerBox_shulker_box_color_block_3_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_0_0|
   |`shulkerBox_shulker_box_color_dye_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_2_0|
-  |`shulkerBox_shulker_box_color_block_2_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_0_0|
-  |`shulkerBox_shulker_box_color_block_2_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_1_0|
-  |`shulkerBox_shulker_box_color_block_2_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_3_0|
-  |`shulkerBox_shulker_box_color_block_2_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_4_0|
-  |`shulkerBox_shulker_box_color_block_2_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_5_0|
-  |`shulkerBox_shulker_box_color_block_2_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_6_0|
-  |`shulkerBox_shulker_box_color_block_2_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_7_0|
-  |`shulkerBox_shulker_box_color_block_2_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_8_0|
-  |`shulkerBox_shulker_box_color_block_2_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_9_0|
-  |`shulkerBox_shulker_box_color_block_2_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_10_0|
-  |`shulkerBox_shulker_box_color_block_2_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_11_0|
-  |`shulkerBox_shulker_box_color_block_2_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_12_0|
-  |`shulkerBox_shulker_box_color_block_2_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_13_0|
-  |`shulkerBox_shulker_box_color_block_2_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_14_0|
   |`shulkerBox_shulker_box_color_block_2_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_15_0|
+  |`shulkerBox_shulker_box_color_block_2_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_14_0|
+  |`shulkerBox_shulker_box_color_block_2_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_13_0|
+  |`shulkerBox_shulker_box_color_block_2_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_12_0|
+  |`shulkerBox_shulker_box_color_block_2_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_11_0|
+  |`shulkerBox_shulker_box_color_block_2_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_10_0|
+  |`shulkerBox_shulker_box_color_block_2_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_9_0|
+  |`shulkerBox_shulker_box_color_block_2_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_8_0|
+  |`shulkerBox_shulker_box_color_block_2_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_7_0|
+  |`shulkerBox_shulker_box_color_block_2_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_6_0|
+  |`shulkerBox_shulker_box_color_block_2_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_5_0|
+  |`shulkerBox_shulker_box_color_block_2_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_4_0|
+  |`shulkerBox_shulker_box_color_block_2_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_3_0|
+  |`shulkerBox_shulker_box_color_block_2_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_1_0|
+  |`shulkerBox_shulker_box_color_block_2_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_0_0|
   |`shulkerBox_shulker_box_color_dye_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_1_0|
-  |`shulkerBox_shulker_box_color_block_1_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_0_0|
-  |`shulkerBox_shulker_box_color_block_1_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_2_0|
-  |`shulkerBox_shulker_box_color_block_1_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_3_0|
-  |`shulkerBox_shulker_box_color_block_1_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_4_0|
-  |`shulkerBox_shulker_box_color_block_1_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_5_0|
-  |`shulkerBox_shulker_box_color_block_1_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_6_0|
-  |`shulkerBox_shulker_box_color_block_1_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_7_0|
-  |`shulkerBox_shulker_box_color_block_1_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_8_0|
-  |`shulkerBox_shulker_box_color_block_1_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_9_0|
-  |`shulkerBox_shulker_box_color_block_1_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_10_0|
-  |`shulkerBox_shulker_box_color_block_1_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_11_0|
-  |`shulkerBox_shulker_box_color_block_1_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_12_0|
-  |`shulkerBox_shulker_box_color_block_1_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_13_0|
-  |`shulkerBox_shulker_box_color_block_1_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_14_0|
   |`shulkerBox_shulker_box_color_block_1_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_15_0|
+  |`shulkerBox_shulker_box_color_block_1_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_14_0|
+  |`shulkerBox_shulker_box_color_block_1_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_13_0|
+  |`shulkerBox_shulker_box_color_block_1_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_12_0|
+  |`shulkerBox_shulker_box_color_block_1_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_11_0|
+  |`shulkerBox_shulker_box_color_block_1_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_10_0|
+  |`shulkerBox_shulker_box_color_block_1_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_9_0|
+  |`shulkerBox_shulker_box_color_block_1_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_8_0|
+  |`shulkerBox_shulker_box_color_block_1_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_7_0|
+  |`shulkerBox_shulker_box_color_block_1_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_6_0|
+  |`shulkerBox_shulker_box_color_block_1_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_5_0|
+  |`shulkerBox_shulker_box_color_block_1_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_4_0|
+  |`shulkerBox_shulker_box_color_block_1_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_3_0|
+  |`shulkerBox_shulker_box_color_block_1_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_2_0|
+  |`shulkerBox_shulker_box_color_block_1_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_0_0|
   |`shulkerBox_shulker_box_color_dye_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_0_0|
-  |`shulkerBox_shulker_box_color_block_0_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_1_0|
-  |`shulkerBox_shulker_box_color_block_0_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_2_0|
-  |`shulkerBox_shulker_box_color_block_0_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_3_0|
-  |`shulkerBox_shulker_box_color_block_0_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_4_0|
-  |`shulkerBox_shulker_box_color_block_0_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_5_0|
-  |`shulkerBox_shulker_box_color_block_0_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_6_0|
-  |`shulkerBox_shulker_box_color_block_0_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_7_0|
-  |`shulkerBox_shulker_box_color_block_0_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_8_0|
-  |`shulkerBox_shulker_box_color_block_0_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_9_0|
-  |`shulkerBox_shulker_box_color_block_0_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_10_0|
-  |`shulkerBox_shulker_box_color_block_0_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_11_0|
-  |`shulkerBox_shulker_box_color_block_0_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_12_0|
-  |`shulkerBox_shulker_box_color_block_0_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_13_0|
-  |`shulkerBox_shulker_box_color_block_0_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_14_0|
   |`shulkerBox_shulker_box_color_block_0_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_15_0|
+  |`shulkerBox_shulker_box_color_block_0_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_14_0|
+  |`shulkerBox_shulker_box_color_block_0_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_13_0|
+  |`shulkerBox_shulker_box_color_block_0_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_12_0|
+  |`shulkerBox_shulker_box_color_block_0_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_11_0|
+  |`shulkerBox_shulker_box_color_block_0_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_10_0|
+  |`shulkerBox_shulker_box_color_block_0_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_9_0|
+  |`shulkerBox_shulker_box_color_block_0_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_8_0|
+  |`shulkerBox_shulker_box_color_block_0_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_7_0|
+  |`shulkerBox_shulker_box_color_block_0_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_6_0|
+  |`shulkerBox_shulker_box_color_block_0_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_5_0|
+  |`shulkerBox_shulker_box_color_block_0_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_4_0|
+  |`shulkerBox_shulker_box_color_block_0_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_3_0|
+  |`shulkerBox_shulker_box_color_block_0_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_2_0|
+  |`shulkerBox_shulker_box_color_block_0_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_1_0|
+  |`bundle_dye_19`|command.enum.unlockablerecipevalues.bundle_dye_19|
+  |`bundle_dye_19_18`|command.enum.unlockablerecipevalues.bundle_dye_19_18|
+  |`bundle_dye_19_17`|command.enum.unlockablerecipevalues.bundle_dye_19_17|
+  |`bundle_dye_19_16`|command.enum.unlockablerecipevalues.bundle_dye_19_16|
+  |`bundle_dye_19_14`|command.enum.unlockablerecipevalues.bundle_dye_19_14|
+  |`bundle_dye_19_13`|command.enum.unlockablerecipevalues.bundle_dye_19_13|
+  |`bundle_dye_19_12`|command.enum.unlockablerecipevalues.bundle_dye_19_12|
+  |`bundle_dye_19_11`|command.enum.unlockablerecipevalues.bundle_dye_19_11|
+  |`bundle_dye_19_10`|command.enum.unlockablerecipevalues.bundle_dye_19_10|
+  |`bundle_dye_19_9`|command.enum.unlockablerecipevalues.bundle_dye_19_9|
+  |`bundle_dye_19_8`|command.enum.unlockablerecipevalues.bundle_dye_19_8|
+  |`bundle_dye_19_7`|command.enum.unlockablerecipevalues.bundle_dye_19_7|
+  |`bundle_dye_19_6`|command.enum.unlockablerecipevalues.bundle_dye_19_6|
+  |`bundle_dye_19_5`|command.enum.unlockablerecipevalues.bundle_dye_19_5|
+  |`bundle_dye_19_4`|command.enum.unlockablerecipevalues.bundle_dye_19_4|
+  |`bundle_dye_19_3`|command.enum.unlockablerecipevalues.bundle_dye_19_3|
+  |`bundle_dye_19_2`|command.enum.unlockablerecipevalues.bundle_dye_19_2|
+  |`bundle_dye_19_1`|command.enum.unlockablerecipevalues.bundle_dye_19_1|
+  |`bundle_dye_19_0`|command.enum.unlockablerecipevalues.bundle_dye_19_0|
+  |`bundle_dye_18`|command.enum.unlockablerecipevalues.bundle_dye_18|
+  |`bundle_dye_18_19`|command.enum.unlockablerecipevalues.bundle_dye_18_19|
+  |`bundle_dye_18_17`|command.enum.unlockablerecipevalues.bundle_dye_18_17|
+  |`bundle_dye_18_16`|command.enum.unlockablerecipevalues.bundle_dye_18_16|
+  |`bundle_dye_18_15`|command.enum.unlockablerecipevalues.bundle_dye_18_15|
+  |`bundle_dye_18_14`|command.enum.unlockablerecipevalues.bundle_dye_18_14|
+  |`bundle_dye_18_13`|command.enum.unlockablerecipevalues.bundle_dye_18_13|
+  |`bundle_dye_18_12`|command.enum.unlockablerecipevalues.bundle_dye_18_12|
+  |`bundle_dye_18_11`|command.enum.unlockablerecipevalues.bundle_dye_18_11|
+  |`bundle_dye_18_10`|command.enum.unlockablerecipevalues.bundle_dye_18_10|
+  |`bundle_dye_18_9`|command.enum.unlockablerecipevalues.bundle_dye_18_9|
+  |`bundle_dye_18_8`|command.enum.unlockablerecipevalues.bundle_dye_18_8|
+  |`bundle_dye_18_7`|command.enum.unlockablerecipevalues.bundle_dye_18_7|
+  |`bundle_dye_18_6`|command.enum.unlockablerecipevalues.bundle_dye_18_6|
+  |`bundle_dye_18_5`|command.enum.unlockablerecipevalues.bundle_dye_18_5|
+  |`bundle_dye_18_3`|command.enum.unlockablerecipevalues.bundle_dye_18_3|
+  |`bundle_dye_18_2`|command.enum.unlockablerecipevalues.bundle_dye_18_2|
+  |`bundle_dye_18_1`|command.enum.unlockablerecipevalues.bundle_dye_18_1|
+  |`bundle_dye_18_0`|command.enum.unlockablerecipevalues.bundle_dye_18_0|
+  |`bundle_dye_17`|command.enum.unlockablerecipevalues.bundle_dye_17|
+  |`bundle_dye_17_19`|command.enum.unlockablerecipevalues.bundle_dye_17_19|
+  |`bundle_dye_17_18`|command.enum.unlockablerecipevalues.bundle_dye_17_18|
+  |`bundle_dye_17_16`|command.enum.unlockablerecipevalues.bundle_dye_17_16|
+  |`bundle_dye_17_15`|command.enum.unlockablerecipevalues.bundle_dye_17_15|
+  |`bundle_dye_17_14`|command.enum.unlockablerecipevalues.bundle_dye_17_14|
+  |`bundle_dye_17_13`|command.enum.unlockablerecipevalues.bundle_dye_17_13|
+  |`bundle_dye_17_12`|command.enum.unlockablerecipevalues.bundle_dye_17_12|
+  |`bundle_dye_17_11`|command.enum.unlockablerecipevalues.bundle_dye_17_11|
+  |`bundle_dye_17_10`|command.enum.unlockablerecipevalues.bundle_dye_17_10|
+  |`bundle_dye_17_9`|command.enum.unlockablerecipevalues.bundle_dye_17_9|
+  |`bundle_dye_17_8`|command.enum.unlockablerecipevalues.bundle_dye_17_8|
+  |`bundle_dye_17_7`|command.enum.unlockablerecipevalues.bundle_dye_17_7|
+  |`bundle_dye_17_6`|command.enum.unlockablerecipevalues.bundle_dye_17_6|
+  |`bundle_dye_17_5`|command.enum.unlockablerecipevalues.bundle_dye_17_5|
+  |`bundle_dye_17_4`|command.enum.unlockablerecipevalues.bundle_dye_17_4|
+  |`bundle_dye_17_2`|command.enum.unlockablerecipevalues.bundle_dye_17_2|
+  |`bundle_dye_17_1`|command.enum.unlockablerecipevalues.bundle_dye_17_1|
+  |`bundle_dye_17_0`|command.enum.unlockablerecipevalues.bundle_dye_17_0|
+  |`bundle_dye_16`|command.enum.unlockablerecipevalues.bundle_dye_16|
+  |`bundle_dye_16_19`|command.enum.unlockablerecipevalues.bundle_dye_16_19|
+  |`bundle_dye_16_18`|command.enum.unlockablerecipevalues.bundle_dye_16_18|
+  |`bundle_dye_16_17`|command.enum.unlockablerecipevalues.bundle_dye_16_17|
+  |`bundle_dye_16_15`|command.enum.unlockablerecipevalues.bundle_dye_16_15|
+  |`bundle_dye_16_14`|command.enum.unlockablerecipevalues.bundle_dye_16_14|
+  |`bundle_dye_16_13`|command.enum.unlockablerecipevalues.bundle_dye_16_13|
+  |`bundle_dye_16_12`|command.enum.unlockablerecipevalues.bundle_dye_16_12|
+  |`bundle_dye_16_11`|command.enum.unlockablerecipevalues.bundle_dye_16_11|
+  |`bundle_dye_16_10`|command.enum.unlockablerecipevalues.bundle_dye_16_10|
+  |`bundle_dye_16_9`|command.enum.unlockablerecipevalues.bundle_dye_16_9|
+  |`bundle_dye_16_8`|command.enum.unlockablerecipevalues.bundle_dye_16_8|
+  |`bundle_dye_16_7`|command.enum.unlockablerecipevalues.bundle_dye_16_7|
+  |`bundle_dye_16_6`|command.enum.unlockablerecipevalues.bundle_dye_16_6|
+  |`bundle_dye_16_5`|command.enum.unlockablerecipevalues.bundle_dye_16_5|
+  |`bundle_dye_16_4`|command.enum.unlockablerecipevalues.bundle_dye_16_4|
+  |`bundle_dye_16_3`|command.enum.unlockablerecipevalues.bundle_dye_16_3|
+  |`bundle_dye_16_2`|command.enum.unlockablerecipevalues.bundle_dye_16_2|
+  |`bundle_dye_16_1`|command.enum.unlockablerecipevalues.bundle_dye_16_1|
+  |`bundle_dye_15`|command.enum.unlockablerecipevalues.bundle_dye_15|
+  |`bundle_dye_15_18`|command.enum.unlockablerecipevalues.bundle_dye_15_18|
+  |`bundle_dye_15_17`|command.enum.unlockablerecipevalues.bundle_dye_15_17|
+  |`bundle_dye_15_16`|command.enum.unlockablerecipevalues.bundle_dye_15_16|
+  |`bundle_dye_15_14`|command.enum.unlockablerecipevalues.bundle_dye_15_14|
+  |`bundle_dye_15_13`|command.enum.unlockablerecipevalues.bundle_dye_15_13|
+  |`bundle_dye_15_12`|command.enum.unlockablerecipevalues.bundle_dye_15_12|
+  |`bundle_dye_15_11`|command.enum.unlockablerecipevalues.bundle_dye_15_11|
+  |`bundle_dye_15_10`|command.enum.unlockablerecipevalues.bundle_dye_15_10|
+  |`bundle_dye_15_9`|command.enum.unlockablerecipevalues.bundle_dye_15_9|
+  |`bundle_dye_15_8`|command.enum.unlockablerecipevalues.bundle_dye_15_8|
+  |`bundle_dye_15_7`|command.enum.unlockablerecipevalues.bundle_dye_15_7|
+  |`bundle_dye_15_6`|command.enum.unlockablerecipevalues.bundle_dye_15_6|
+  |`bundle_dye_15_5`|command.enum.unlockablerecipevalues.bundle_dye_15_5|
+  |`bundle_dye_15_4`|command.enum.unlockablerecipevalues.bundle_dye_15_4|
+  |`bundle_dye_15_3`|command.enum.unlockablerecipevalues.bundle_dye_15_3|
+  |`bundle_dye_15_2`|command.enum.unlockablerecipevalues.bundle_dye_15_2|
+  |`bundle_dye_15_1`|command.enum.unlockablerecipevalues.bundle_dye_15_1|
+  |`bundle_dye_15_0`|command.enum.unlockablerecipevalues.bundle_dye_15_0|
+  |`bundle_dye_14`|command.enum.unlockablerecipevalues.bundle_dye_14|
+  |`bundle_dye_14_19`|command.enum.unlockablerecipevalues.bundle_dye_14_19|
+  |`bundle_dye_14_18`|command.enum.unlockablerecipevalues.bundle_dye_14_18|
+  |`bundle_dye_14_17`|command.enum.unlockablerecipevalues.bundle_dye_14_17|
+  |`bundle_dye_14_16`|command.enum.unlockablerecipevalues.bundle_dye_14_16|
+  |`bundle_dye_14_15`|command.enum.unlockablerecipevalues.bundle_dye_14_15|
+  |`bundle_dye_14_13`|command.enum.unlockablerecipevalues.bundle_dye_14_13|
+  |`bundle_dye_14_12`|command.enum.unlockablerecipevalues.bundle_dye_14_12|
+  |`bundle_dye_14_11`|command.enum.unlockablerecipevalues.bundle_dye_14_11|
+  |`bundle_dye_14_10`|command.enum.unlockablerecipevalues.bundle_dye_14_10|
+  |`bundle_dye_14_9`|command.enum.unlockablerecipevalues.bundle_dye_14_9|
+  |`bundle_dye_14_8`|command.enum.unlockablerecipevalues.bundle_dye_14_8|
+  |`bundle_dye_14_7`|command.enum.unlockablerecipevalues.bundle_dye_14_7|
+  |`bundle_dye_14_6`|command.enum.unlockablerecipevalues.bundle_dye_14_6|
+  |`bundle_dye_14_5`|command.enum.unlockablerecipevalues.bundle_dye_14_5|
+  |`bundle_dye_14_4`|command.enum.unlockablerecipevalues.bundle_dye_14_4|
+  |`bundle_dye_14_3`|command.enum.unlockablerecipevalues.bundle_dye_14_3|
+  |`bundle_dye_14_2`|command.enum.unlockablerecipevalues.bundle_dye_14_2|
+  |`bundle_dye_14_1`|command.enum.unlockablerecipevalues.bundle_dye_14_1|
+  |`bundle_dye_14_0`|command.enum.unlockablerecipevalues.bundle_dye_14_0|
+  |`bundle_dye_13`|command.enum.unlockablerecipevalues.bundle_dye_13|
+  |`bundle_dye_13_19`|command.enum.unlockablerecipevalues.bundle_dye_13_19|
+  |`bundle_dye_13_18`|command.enum.unlockablerecipevalues.bundle_dye_13_18|
+  |`bundle_dye_13_17`|command.enum.unlockablerecipevalues.bundle_dye_13_17|
+  |`bundle_dye_13_16`|command.enum.unlockablerecipevalues.bundle_dye_13_16|
+  |`bundle_dye_13_15`|command.enum.unlockablerecipevalues.bundle_dye_13_15|
+  |`bundle_dye_13_14`|command.enum.unlockablerecipevalues.bundle_dye_13_14|
+  |`bundle_dye_13_12`|command.enum.unlockablerecipevalues.bundle_dye_13_12|
+  |`bundle_dye_13_11`|command.enum.unlockablerecipevalues.bundle_dye_13_11|
+  |`bundle_dye_13_10`|command.enum.unlockablerecipevalues.bundle_dye_13_10|
+  |`bundle_dye_13_9`|command.enum.unlockablerecipevalues.bundle_dye_13_9|
+  |`bundle_dye_13_8`|command.enum.unlockablerecipevalues.bundle_dye_13_8|
+  |`bundle_dye_13_7`|command.enum.unlockablerecipevalues.bundle_dye_13_7|
+  |`bundle_dye_13_6`|command.enum.unlockablerecipevalues.bundle_dye_13_6|
+  |`bundle_dye_13_5`|command.enum.unlockablerecipevalues.bundle_dye_13_5|
+  |`bundle_dye_13_4`|command.enum.unlockablerecipevalues.bundle_dye_13_4|
+  |`bundle_dye_13_3`|command.enum.unlockablerecipevalues.bundle_dye_13_3|
+  |`bundle_dye_13_2`|command.enum.unlockablerecipevalues.bundle_dye_13_2|
+  |`bundle_dye_13_1`|command.enum.unlockablerecipevalues.bundle_dye_13_1|
+  |`bundle_dye_13_0`|command.enum.unlockablerecipevalues.bundle_dye_13_0|
+  |`bundle_dye_12`|command.enum.unlockablerecipevalues.bundle_dye_12|
+  |`bundle_dye_12_19`|command.enum.unlockablerecipevalues.bundle_dye_12_19|
+  |`bundle_dye_12_18`|command.enum.unlockablerecipevalues.bundle_dye_12_18|
+  |`bundle_dye_12_17`|command.enum.unlockablerecipevalues.bundle_dye_12_17|
+  |`bundle_dye_12_16`|command.enum.unlockablerecipevalues.bundle_dye_12_16|
+  |`bundle_dye_12_15`|command.enum.unlockablerecipevalues.bundle_dye_12_15|
+  |`bundle_dye_12_14`|command.enum.unlockablerecipevalues.bundle_dye_12_14|
+  |`bundle_dye_12_13`|command.enum.unlockablerecipevalues.bundle_dye_12_13|
+  |`bundle_dye_12_11`|command.enum.unlockablerecipevalues.bundle_dye_12_11|
+  |`bundle_dye_12_10`|command.enum.unlockablerecipevalues.bundle_dye_12_10|
+  |`bundle_dye_12_9`|command.enum.unlockablerecipevalues.bundle_dye_12_9|
+  |`bundle_dye_12_8`|command.enum.unlockablerecipevalues.bundle_dye_12_8|
+  |`bundle_dye_12_7`|command.enum.unlockablerecipevalues.bundle_dye_12_7|
+  |`bundle_dye_12_6`|command.enum.unlockablerecipevalues.bundle_dye_12_6|
+  |`bundle_dye_12_5`|command.enum.unlockablerecipevalues.bundle_dye_12_5|
+  |`bundle_dye_12_4`|command.enum.unlockablerecipevalues.bundle_dye_12_4|
+  |`bundle_dye_12_3`|command.enum.unlockablerecipevalues.bundle_dye_12_3|
+  |`bundle_dye_12_2`|command.enum.unlockablerecipevalues.bundle_dye_12_2|
+  |`bundle_dye_12_1`|command.enum.unlockablerecipevalues.bundle_dye_12_1|
+  |`bundle_dye_12_0`|command.enum.unlockablerecipevalues.bundle_dye_12_0|
+  |`bundle_dye_11`|command.enum.unlockablerecipevalues.bundle_dye_11|
+  |`bundle_dye_11_19`|command.enum.unlockablerecipevalues.bundle_dye_11_19|
+  |`bundle_dye_11_18`|command.enum.unlockablerecipevalues.bundle_dye_11_18|
+  |`bundle_dye_11_17`|command.enum.unlockablerecipevalues.bundle_dye_11_17|
+  |`bundle_dye_11_16`|command.enum.unlockablerecipevalues.bundle_dye_11_16|
+  |`bundle_dye_11_15`|command.enum.unlockablerecipevalues.bundle_dye_11_15|
+  |`bundle_dye_11_14`|command.enum.unlockablerecipevalues.bundle_dye_11_14|
+  |`bundle_dye_11_13`|command.enum.unlockablerecipevalues.bundle_dye_11_13|
+  |`bundle_dye_11_12`|command.enum.unlockablerecipevalues.bundle_dye_11_12|
+  |`bundle_dye_11_10`|command.enum.unlockablerecipevalues.bundle_dye_11_10|
+  |`bundle_dye_11_9`|command.enum.unlockablerecipevalues.bundle_dye_11_9|
+  |`bundle_dye_11_8`|command.enum.unlockablerecipevalues.bundle_dye_11_8|
+  |`bundle_dye_11_7`|command.enum.unlockablerecipevalues.bundle_dye_11_7|
+  |`bundle_dye_11_6`|command.enum.unlockablerecipevalues.bundle_dye_11_6|
+  |`bundle_dye_11_5`|command.enum.unlockablerecipevalues.bundle_dye_11_5|
+  |`bundle_dye_11_4`|command.enum.unlockablerecipevalues.bundle_dye_11_4|
+  |`bundle_dye_11_3`|command.enum.unlockablerecipevalues.bundle_dye_11_3|
+  |`bundle_dye_11_2`|command.enum.unlockablerecipevalues.bundle_dye_11_2|
+  |`bundle_dye_11_1`|command.enum.unlockablerecipevalues.bundle_dye_11_1|
+  |`bundle_dye_11_0`|command.enum.unlockablerecipevalues.bundle_dye_11_0|
+  |`bundle_dye_10`|command.enum.unlockablerecipevalues.bundle_dye_10|
+  |`bundle_dye_10_19`|command.enum.unlockablerecipevalues.bundle_dye_10_19|
+  |`bundle_dye_10_18`|command.enum.unlockablerecipevalues.bundle_dye_10_18|
+  |`bundle_dye_10_17`|command.enum.unlockablerecipevalues.bundle_dye_10_17|
+  |`bundle_dye_10_16`|command.enum.unlockablerecipevalues.bundle_dye_10_16|
+  |`bundle_dye_10_15`|command.enum.unlockablerecipevalues.bundle_dye_10_15|
+  |`bundle_dye_10_14`|command.enum.unlockablerecipevalues.bundle_dye_10_14|
+  |`bundle_dye_10_13`|command.enum.unlockablerecipevalues.bundle_dye_10_13|
+  |`bundle_dye_10_12`|command.enum.unlockablerecipevalues.bundle_dye_10_12|
+  |`bundle_dye_10_11`|command.enum.unlockablerecipevalues.bundle_dye_10_11|
+  |`bundle_dye_10_9`|command.enum.unlockablerecipevalues.bundle_dye_10_9|
+  |`bundle_dye_10_8`|command.enum.unlockablerecipevalues.bundle_dye_10_8|
+  |`bundle_dye_10_7`|command.enum.unlockablerecipevalues.bundle_dye_10_7|
+  |`bundle_dye_10_6`|command.enum.unlockablerecipevalues.bundle_dye_10_6|
+  |`bundle_dye_10_5`|command.enum.unlockablerecipevalues.bundle_dye_10_5|
+  |`bundle_dye_10_4`|command.enum.unlockablerecipevalues.bundle_dye_10_4|
+  |`bundle_dye_10_3`|command.enum.unlockablerecipevalues.bundle_dye_10_3|
+  |`bundle_dye_10_2`|command.enum.unlockablerecipevalues.bundle_dye_10_2|
+  |`bundle_dye_10_1`|command.enum.unlockablerecipevalues.bundle_dye_10_1|
+  |`bundle_dye_10_0`|command.enum.unlockablerecipevalues.bundle_dye_10_0|
+  |`bundle_dye_9`|command.enum.unlockablerecipevalues.bundle_dye_9|
+  |`bundle_dye_9_19`|command.enum.unlockablerecipevalues.bundle_dye_9_19|
+  |`bundle_dye_9_18`|command.enum.unlockablerecipevalues.bundle_dye_9_18|
+  |`bundle_dye_9_17`|command.enum.unlockablerecipevalues.bundle_dye_9_17|
+  |`bundle_dye_9_16`|command.enum.unlockablerecipevalues.bundle_dye_9_16|
+  |`bundle_dye_9_15`|command.enum.unlockablerecipevalues.bundle_dye_9_15|
+  |`bundle_dye_9_14`|command.enum.unlockablerecipevalues.bundle_dye_9_14|
+  |`bundle_dye_9_13`|command.enum.unlockablerecipevalues.bundle_dye_9_13|
+  |`bundle_dye_9_12`|command.enum.unlockablerecipevalues.bundle_dye_9_12|
+  |`bundle_dye_9_11`|command.enum.unlockablerecipevalues.bundle_dye_9_11|
+  |`bundle_dye_9_10`|command.enum.unlockablerecipevalues.bundle_dye_9_10|
+  |`bundle_dye_9_8`|command.enum.unlockablerecipevalues.bundle_dye_9_8|
+  |`bundle_dye_9_7`|command.enum.unlockablerecipevalues.bundle_dye_9_7|
+  |`bundle_dye_9_6`|command.enum.unlockablerecipevalues.bundle_dye_9_6|
+  |`bundle_dye_9_5`|command.enum.unlockablerecipevalues.bundle_dye_9_5|
+  |`bundle_dye_9_4`|command.enum.unlockablerecipevalues.bundle_dye_9_4|
+  |`bundle_dye_9_3`|command.enum.unlockablerecipevalues.bundle_dye_9_3|
+  |`bundle_dye_9_2`|command.enum.unlockablerecipevalues.bundle_dye_9_2|
+  |`bundle_dye_9_1`|command.enum.unlockablerecipevalues.bundle_dye_9_1|
+  |`bundle_dye_9_0`|command.enum.unlockablerecipevalues.bundle_dye_9_0|
+  |`bundle_dye_8`|command.enum.unlockablerecipevalues.bundle_dye_8|
+  |`bundle_dye_8_19`|command.enum.unlockablerecipevalues.bundle_dye_8_19|
+  |`bundle_dye_8_18`|command.enum.unlockablerecipevalues.bundle_dye_8_18|
+  |`bundle_dye_8_17`|command.enum.unlockablerecipevalues.bundle_dye_8_17|
+  |`bundle_dye_8_16`|command.enum.unlockablerecipevalues.bundle_dye_8_16|
+  |`bundle_dye_8_15`|command.enum.unlockablerecipevalues.bundle_dye_8_15|
+  |`bundle_dye_8_14`|command.enum.unlockablerecipevalues.bundle_dye_8_14|
+  |`bundle_dye_8_13`|command.enum.unlockablerecipevalues.bundle_dye_8_13|
+  |`bundle_dye_8_12`|command.enum.unlockablerecipevalues.bundle_dye_8_12|
+  |`bundle_dye_8_11`|command.enum.unlockablerecipevalues.bundle_dye_8_11|
+  |`bundle_dye_8_10`|command.enum.unlockablerecipevalues.bundle_dye_8_10|
+  |`bundle_dye_8_9`|command.enum.unlockablerecipevalues.bundle_dye_8_9|
+  |`bundle_dye_8_7`|command.enum.unlockablerecipevalues.bundle_dye_8_7|
+  |`bundle_dye_8_6`|command.enum.unlockablerecipevalues.bundle_dye_8_6|
+  |`bundle_dye_8_5`|command.enum.unlockablerecipevalues.bundle_dye_8_5|
+  |`bundle_dye_8_4`|command.enum.unlockablerecipevalues.bundle_dye_8_4|
+  |`bundle_dye_8_3`|command.enum.unlockablerecipevalues.bundle_dye_8_3|
+  |`bundle_dye_8_2`|command.enum.unlockablerecipevalues.bundle_dye_8_2|
+  |`bundle_dye_8_1`|command.enum.unlockablerecipevalues.bundle_dye_8_1|
+  |`bundle_dye_8_0`|command.enum.unlockablerecipevalues.bundle_dye_8_0|
+  |`bundle_dye_7`|command.enum.unlockablerecipevalues.bundle_dye_7|
+  |`bundle_dye_7_19`|command.enum.unlockablerecipevalues.bundle_dye_7_19|
+  |`bundle_dye_7_18`|command.enum.unlockablerecipevalues.bundle_dye_7_18|
+  |`bundle_dye_7_17`|command.enum.unlockablerecipevalues.bundle_dye_7_17|
+  |`bundle_dye_7_16`|command.enum.unlockablerecipevalues.bundle_dye_7_16|
+  |`bundle_dye_7_15`|command.enum.unlockablerecipevalues.bundle_dye_7_15|
+  |`bundle_dye_7_14`|command.enum.unlockablerecipevalues.bundle_dye_7_14|
+  |`bundle_dye_7_13`|command.enum.unlockablerecipevalues.bundle_dye_7_13|
+  |`bundle_dye_7_12`|command.enum.unlockablerecipevalues.bundle_dye_7_12|
+  |`bundle_dye_7_11`|command.enum.unlockablerecipevalues.bundle_dye_7_11|
+  |`bundle_dye_7_10`|command.enum.unlockablerecipevalues.bundle_dye_7_10|
+  |`bundle_dye_7_9`|command.enum.unlockablerecipevalues.bundle_dye_7_9|
+  |`bundle_dye_7_8`|command.enum.unlockablerecipevalues.bundle_dye_7_8|
+  |`bundle_dye_7_6`|command.enum.unlockablerecipevalues.bundle_dye_7_6|
+  |`bundle_dye_7_5`|command.enum.unlockablerecipevalues.bundle_dye_7_5|
+  |`bundle_dye_7_4`|command.enum.unlockablerecipevalues.bundle_dye_7_4|
+  |`bundle_dye_7_3`|command.enum.unlockablerecipevalues.bundle_dye_7_3|
+  |`bundle_dye_7_2`|command.enum.unlockablerecipevalues.bundle_dye_7_2|
+  |`bundle_dye_7_1`|command.enum.unlockablerecipevalues.bundle_dye_7_1|
+  |`bundle_dye_7_0`|command.enum.unlockablerecipevalues.bundle_dye_7_0|
+  |`bundle_dye_6`|command.enum.unlockablerecipevalues.bundle_dye_6|
+  |`bundle_dye_6_19`|command.enum.unlockablerecipevalues.bundle_dye_6_19|
+  |`bundle_dye_6_18`|command.enum.unlockablerecipevalues.bundle_dye_6_18|
+  |`bundle_dye_6_17`|command.enum.unlockablerecipevalues.bundle_dye_6_17|
+  |`bundle_dye_6_16`|command.enum.unlockablerecipevalues.bundle_dye_6_16|
+  |`bundle_dye_6_15`|command.enum.unlockablerecipevalues.bundle_dye_6_15|
+  |`bundle_dye_6_14`|command.enum.unlockablerecipevalues.bundle_dye_6_14|
+  |`bundle_dye_6_13`|command.enum.unlockablerecipevalues.bundle_dye_6_13|
+  |`bundle_dye_6_12`|command.enum.unlockablerecipevalues.bundle_dye_6_12|
+  |`bundle_dye_6_11`|command.enum.unlockablerecipevalues.bundle_dye_6_11|
+  |`bundle_dye_6_10`|command.enum.unlockablerecipevalues.bundle_dye_6_10|
+  |`bundle_dye_6_9`|command.enum.unlockablerecipevalues.bundle_dye_6_9|
+  |`bundle_dye_6_8`|command.enum.unlockablerecipevalues.bundle_dye_6_8|
+  |`bundle_dye_6_7`|command.enum.unlockablerecipevalues.bundle_dye_6_7|
+  |`bundle_dye_6_5`|command.enum.unlockablerecipevalues.bundle_dye_6_5|
+  |`bundle_dye_6_4`|command.enum.unlockablerecipevalues.bundle_dye_6_4|
+  |`bundle_dye_6_3`|command.enum.unlockablerecipevalues.bundle_dye_6_3|
+  |`bundle_dye_6_2`|command.enum.unlockablerecipevalues.bundle_dye_6_2|
+  |`bundle_dye_6_1`|command.enum.unlockablerecipevalues.bundle_dye_6_1|
+  |`bundle_dye_6_0`|command.enum.unlockablerecipevalues.bundle_dye_6_0|
+  |`bundle_dye_5`|command.enum.unlockablerecipevalues.bundle_dye_5|
+  |`bundle_dye_5_19`|command.enum.unlockablerecipevalues.bundle_dye_5_19|
+  |`bundle_dye_5_18`|command.enum.unlockablerecipevalues.bundle_dye_5_18|
+  |`bundle_dye_5_17`|command.enum.unlockablerecipevalues.bundle_dye_5_17|
+  |`bundle_dye_5_16`|command.enum.unlockablerecipevalues.bundle_dye_5_16|
+  |`bundle_dye_5_15`|command.enum.unlockablerecipevalues.bundle_dye_5_15|
+  |`bundle_dye_5_14`|command.enum.unlockablerecipevalues.bundle_dye_5_14|
+  |`bundle_dye_5_13`|command.enum.unlockablerecipevalues.bundle_dye_5_13|
+  |`bundle_dye_5_12`|command.enum.unlockablerecipevalues.bundle_dye_5_12|
+  |`bundle_dye_5_11`|command.enum.unlockablerecipevalues.bundle_dye_5_11|
+  |`bundle_dye_5_10`|command.enum.unlockablerecipevalues.bundle_dye_5_10|
+  |`bundle_dye_5_9`|command.enum.unlockablerecipevalues.bundle_dye_5_9|
+  |`bundle_dye_5_8`|command.enum.unlockablerecipevalues.bundle_dye_5_8|
+  |`bundle_dye_5_7`|command.enum.unlockablerecipevalues.bundle_dye_5_7|
+  |`bundle_dye_5_6`|command.enum.unlockablerecipevalues.bundle_dye_5_6|
+  |`bundle_dye_5_4`|command.enum.unlockablerecipevalues.bundle_dye_5_4|
+  |`bundle_dye_5_3`|command.enum.unlockablerecipevalues.bundle_dye_5_3|
+  |`bundle_dye_5_2`|command.enum.unlockablerecipevalues.bundle_dye_5_2|
+  |`bundle_dye_5_1`|command.enum.unlockablerecipevalues.bundle_dye_5_1|
+  |`bundle_dye_5_0`|command.enum.unlockablerecipevalues.bundle_dye_5_0|
+  |`bundle_dye_4`|command.enum.unlockablerecipevalues.bundle_dye_4|
+  |`bundle_dye_4_19`|command.enum.unlockablerecipevalues.bundle_dye_4_19|
+  |`bundle_dye_4_17`|command.enum.unlockablerecipevalues.bundle_dye_4_17|
+  |`bundle_dye_4_16`|command.enum.unlockablerecipevalues.bundle_dye_4_16|
+  |`bundle_dye_4_15`|command.enum.unlockablerecipevalues.bundle_dye_4_15|
+  |`bundle_dye_4_14`|command.enum.unlockablerecipevalues.bundle_dye_4_14|
+  |`bundle_dye_4_13`|command.enum.unlockablerecipevalues.bundle_dye_4_13|
+  |`bundle_dye_4_12`|command.enum.unlockablerecipevalues.bundle_dye_4_12|
+  |`bundle_dye_4_11`|command.enum.unlockablerecipevalues.bundle_dye_4_11|
+  |`bundle_dye_4_10`|command.enum.unlockablerecipevalues.bundle_dye_4_10|
+  |`bundle_dye_4_9`|command.enum.unlockablerecipevalues.bundle_dye_4_9|
+  |`bundle_dye_4_8`|command.enum.unlockablerecipevalues.bundle_dye_4_8|
+  |`bundle_dye_4_7`|command.enum.unlockablerecipevalues.bundle_dye_4_7|
+  |`bundle_dye_4_6`|command.enum.unlockablerecipevalues.bundle_dye_4_6|
+  |`bundle_dye_4_5`|command.enum.unlockablerecipevalues.bundle_dye_4_5|
+  |`bundle_dye_4_3`|command.enum.unlockablerecipevalues.bundle_dye_4_3|
+  |`bundle_dye_4_2`|command.enum.unlockablerecipevalues.bundle_dye_4_2|
+  |`bundle_dye_4_1`|command.enum.unlockablerecipevalues.bundle_dye_4_1|
+  |`bundle_dye_4_0`|command.enum.unlockablerecipevalues.bundle_dye_4_0|
+  |`bundle_dye_3`|command.enum.unlockablerecipevalues.bundle_dye_3|
+  |`bundle_dye_3_19`|command.enum.unlockablerecipevalues.bundle_dye_3_19|
+  |`bundle_dye_3_18`|command.enum.unlockablerecipevalues.bundle_dye_3_18|
+  |`bundle_dye_3_16`|command.enum.unlockablerecipevalues.bundle_dye_3_16|
+  |`bundle_dye_3_15`|command.enum.unlockablerecipevalues.bundle_dye_3_15|
+  |`bundle_dye_3_14`|command.enum.unlockablerecipevalues.bundle_dye_3_14|
+  |`bundle_dye_3_13`|command.enum.unlockablerecipevalues.bundle_dye_3_13|
+  |`bundle_dye_3_12`|command.enum.unlockablerecipevalues.bundle_dye_3_12|
+  |`bundle_dye_3_11`|command.enum.unlockablerecipevalues.bundle_dye_3_11|
+  |`bundle_dye_3_10`|command.enum.unlockablerecipevalues.bundle_dye_3_10|
+  |`bundle_dye_3_9`|command.enum.unlockablerecipevalues.bundle_dye_3_9|
+  |`bundle_dye_3_8`|command.enum.unlockablerecipevalues.bundle_dye_3_8|
+  |`bundle_dye_3_7`|command.enum.unlockablerecipevalues.bundle_dye_3_7|
+  |`bundle_dye_3_6`|command.enum.unlockablerecipevalues.bundle_dye_3_6|
+  |`bundle_dye_3_5`|command.enum.unlockablerecipevalues.bundle_dye_3_5|
+  |`bundle_dye_3_4`|command.enum.unlockablerecipevalues.bundle_dye_3_4|
+  |`bundle_dye_3_2`|command.enum.unlockablerecipevalues.bundle_dye_3_2|
+  |`bundle_dye_3_1`|command.enum.unlockablerecipevalues.bundle_dye_3_1|
+  |`bundle_dye_3_0`|command.enum.unlockablerecipevalues.bundle_dye_3_0|
+  |`bundle_dye_2`|command.enum.unlockablerecipevalues.bundle_dye_2|
+  |`bundle_dye_2_19`|command.enum.unlockablerecipevalues.bundle_dye_2_19|
+  |`bundle_dye_2_18`|command.enum.unlockablerecipevalues.bundle_dye_2_18|
+  |`bundle_dye_2_17`|command.enum.unlockablerecipevalues.bundle_dye_2_17|
+  |`bundle_dye_2_16`|command.enum.unlockablerecipevalues.bundle_dye_2_16|
+  |`bundle_dye_2_15`|command.enum.unlockablerecipevalues.bundle_dye_2_15|
+  |`bundle_dye_2_14`|command.enum.unlockablerecipevalues.bundle_dye_2_14|
+  |`bundle_dye_2_13`|command.enum.unlockablerecipevalues.bundle_dye_2_13|
+  |`bundle_dye_2_12`|command.enum.unlockablerecipevalues.bundle_dye_2_12|
+  |`bundle_dye_2_11`|command.enum.unlockablerecipevalues.bundle_dye_2_11|
+  |`bundle_dye_2_10`|command.enum.unlockablerecipevalues.bundle_dye_2_10|
+  |`bundle_dye_2_9`|command.enum.unlockablerecipevalues.bundle_dye_2_9|
+  |`bundle_dye_2_8`|command.enum.unlockablerecipevalues.bundle_dye_2_8|
+  |`bundle_dye_2_7`|command.enum.unlockablerecipevalues.bundle_dye_2_7|
+  |`bundle_dye_2_6`|command.enum.unlockablerecipevalues.bundle_dye_2_6|
+  |`bundle_dye_2_5`|command.enum.unlockablerecipevalues.bundle_dye_2_5|
+  |`bundle_dye_2_4`|command.enum.unlockablerecipevalues.bundle_dye_2_4|
+  |`bundle_dye_2_3`|command.enum.unlockablerecipevalues.bundle_dye_2_3|
+  |`bundle_dye_2_1`|command.enum.unlockablerecipevalues.bundle_dye_2_1|
+  |`bundle_dye_2_0`|command.enum.unlockablerecipevalues.bundle_dye_2_0|
+  |`bundle_dye_1`|command.enum.unlockablerecipevalues.bundle_dye_1|
+  |`bundle_dye_1_19`|command.enum.unlockablerecipevalues.bundle_dye_1_19|
+  |`bundle_dye_1_18`|command.enum.unlockablerecipevalues.bundle_dye_1_18|
+  |`bundle_dye_1_17`|command.enum.unlockablerecipevalues.bundle_dye_1_17|
+  |`bundle_dye_1_16`|command.enum.unlockablerecipevalues.bundle_dye_1_16|
+  |`bundle_dye_1_15`|command.enum.unlockablerecipevalues.bundle_dye_1_15|
+  |`bundle_dye_1_14`|command.enum.unlockablerecipevalues.bundle_dye_1_14|
+  |`bundle_dye_1_13`|command.enum.unlockablerecipevalues.bundle_dye_1_13|
+  |`bundle_dye_1_12`|command.enum.unlockablerecipevalues.bundle_dye_1_12|
+  |`bundle_dye_1_11`|command.enum.unlockablerecipevalues.bundle_dye_1_11|
+  |`bundle_dye_1_10`|command.enum.unlockablerecipevalues.bundle_dye_1_10|
+  |`bundle_dye_1_9`|command.enum.unlockablerecipevalues.bundle_dye_1_9|
+  |`bundle_dye_1_8`|command.enum.unlockablerecipevalues.bundle_dye_1_8|
+  |`bundle_dye_1_7`|command.enum.unlockablerecipevalues.bundle_dye_1_7|
+  |`bundle_dye_1_6`|command.enum.unlockablerecipevalues.bundle_dye_1_6|
+  |`bundle_dye_1_5`|command.enum.unlockablerecipevalues.bundle_dye_1_5|
+  |`bundle_dye_1_4`|command.enum.unlockablerecipevalues.bundle_dye_1_4|
+  |`bundle_dye_1_3`|command.enum.unlockablerecipevalues.bundle_dye_1_3|
+  |`bundle_dye_1_2`|command.enum.unlockablerecipevalues.bundle_dye_1_2|
+  |`bundle_dye_1_0`|command.enum.unlockablerecipevalues.bundle_dye_1_0|
+  |`bundle_dye_0`|command.enum.unlockablerecipevalues.bundle_dye_0|
+  |`bundle_dye_0_19`|command.enum.unlockablerecipevalues.bundle_dye_0_19|
+  |`bundle_dye_0_18`|command.enum.unlockablerecipevalues.bundle_dye_0_18|
+  |`bundle_dye_0_17`|command.enum.unlockablerecipevalues.bundle_dye_0_17|
+  |`bundle_dye_0_15`|command.enum.unlockablerecipevalues.bundle_dye_0_15|
+  |`bundle_dye_0_14`|command.enum.unlockablerecipevalues.bundle_dye_0_14|
+  |`bundle_dye_0_13`|command.enum.unlockablerecipevalues.bundle_dye_0_13|
+  |`bundle_dye_0_12`|command.enum.unlockablerecipevalues.bundle_dye_0_12|
+  |`bundle_dye_0_11`|command.enum.unlockablerecipevalues.bundle_dye_0_11|
+  |`bundle_dye_0_10`|command.enum.unlockablerecipevalues.bundle_dye_0_10|
+  |`bundle_dye_0_9`|command.enum.unlockablerecipevalues.bundle_dye_0_9|
+  |`bundle_dye_0_8`|command.enum.unlockablerecipevalues.bundle_dye_0_8|
+  |`bundle_dye_0_7`|command.enum.unlockablerecipevalues.bundle_dye_0_7|
+  |`bundle_dye_0_6`|command.enum.unlockablerecipevalues.bundle_dye_0_6|
+  |`bundle_dye_0_5`|command.enum.unlockablerecipevalues.bundle_dye_0_5|
+  |`bundle_dye_0_4`|command.enum.unlockablerecipevalues.bundle_dye_0_4|
+  |`bundle_dye_0_3`|command.enum.unlockablerecipevalues.bundle_dye_0_3|
+  |`bundle_dye_0_2`|command.enum.unlockablerecipevalues.bundle_dye_0_2|
+  |`bundle_dye_0_1`|command.enum.unlockablerecipevalues.bundle_dye_0_1|
   |`bed_color_19`|command.enum.unlockablerecipevalues.bed_color_19|
   |`bed_color_18`|command.enum.unlockablerecipevalues.bed_color_18|
   |`bed_color_17`|command.enum.unlockablerecipevalues.bed_color_17|
@@ -1935,6 +2367,349 @@ command.recipe.2.description
   |值|描述|
   |---|---|
   |`*`|command.enum.unlockablerecipevalues.*|
+  |`minecraft:chiseled_resin_bricks_from_slabs`|command.enum.unlockablerecipevalues.minecraft:chiseled_resin_bricks_from_slabs|
+  |`minecraft:creaking_heart`|command.enum.unlockablerecipevalues.minecraft:creaking_heart|
+  |`minecraft:gray_dye_from_closed_eyeblossom`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_closed_eyeblossom|
+  |`minecraft:orange_dye_from_open_eyeblossom`|command.enum.unlockablerecipevalues.minecraft:orange_dye_from_open_eyeblossom|
+  |`minecraft:pale_moss_carpet`|command.enum.unlockablerecipevalues.minecraft:pale_moss_carpet|
+  |`minecraft:pale_oak_boat`|command.enum.unlockablerecipevalues.minecraft:pale_oak_boat|
+  |`minecraft:pale_oak_button`|command.enum.unlockablerecipevalues.minecraft:pale_oak_button|
+  |`minecraft:pale_oak_chest_boat`|command.enum.unlockablerecipevalues.minecraft:pale_oak_chest_boat|
+  |`minecraft:pale_oak_door`|command.enum.unlockablerecipevalues.minecraft:pale_oak_door|
+  |`minecraft:pale_oak_fence`|command.enum.unlockablerecipevalues.minecraft:pale_oak_fence|
+  |`minecraft:pale_oak_fence_gate`|command.enum.unlockablerecipevalues.minecraft:pale_oak_fence_gate|
+  |`minecraft:pale_oak_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:pale_oak_hanging_sign|
+  |`minecraft:pale_oak_planks_from_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_log|
+  |`minecraft:pale_oak_planks_from_stripped_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_stripped_log|
+  |`minecraft:pale_oak_planks_from_stripped_wood`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_stripped_wood|
+  |`minecraft:pale_oak_planks_from_wood`|command.enum.unlockablerecipevalues.minecraft:pale_oak_planks_from_wood|
+  |`minecraft:pale_oak_pressure_plate`|command.enum.unlockablerecipevalues.minecraft:pale_oak_pressure_plate|
+  |`minecraft:pale_oak_sign`|command.enum.unlockablerecipevalues.minecraft:pale_oak_sign|
+  |`minecraft:pale_oak_slab`|command.enum.unlockablerecipevalues.minecraft:pale_oak_slab|
+  |`minecraft:pale_oak_stairs`|command.enum.unlockablerecipevalues.minecraft:pale_oak_stairs|
+  |`minecraft:pale_oak_wood_from_stripped_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_wood_from_stripped_log|
+  |`minecraft:pale_oak_trapdoor`|command.enum.unlockablerecipevalues.minecraft:pale_oak_trapdoor|
+  |`minecraft:pale_oak_wood_from_log`|command.enum.unlockablerecipevalues.minecraft:pale_oak_wood_from_log|
+  |`minecraft:purpur_slab`|command.enum.unlockablerecipevalues.minecraft:purpur_slab|
+  |`minecraft:red_sandstone_stairs_from_chiseled`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_stairs_from_chiseled|
+  |`minecraft:red_sandstone_stairs_from_cut`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_stairs_from_cut|
+  |`minecraft:resin_block`|command.enum.unlockablerecipevalues.minecraft:resin_block|
+  |`minecraft:resin_bricks`|command.enum.unlockablerecipevalues.minecraft:resin_bricks|
+  |`minecraft:resin_brick_slab`|command.enum.unlockablerecipevalues.minecraft:resin_brick_slab|
+  |`minecraft:resin_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:resin_brick_stairs|
+  |`minecraft:resin_brick_wall`|command.enum.unlockablerecipevalues.minecraft:resin_brick_wall|
+  |`minecraft:resin_clump_from_resin_block`|command.enum.unlockablerecipevalues.minecraft:resin_clump_from_resin_block|
+  |`minecraft:sandstone_stairs_from_chiseled`|command.enum.unlockablerecipevalues.minecraft:sandstone_stairs_from_chiseled|
+  |`minecraft:sandstone_stairs_from_cut`|command.enum.unlockablerecipevalues.minecraft:sandstone_stairs_from_cut|
+  |`minecraft:stonecutter_resin_brick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_chiseled|
+  |`minecraft:stonecutter_resin_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_slab|
+  |`minecraft:stonecutter_resin_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_stairs|
+  |`minecraft:stonecutter_resin_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_resin_brick_wall|
+  |`minecraft:stonecutter_stonebrick_chiseled2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled2|
+  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
+  |`minecraft:stonecutter_stonebrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs2|
+  |`minecraft:stonecutter_stonebrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall2|
+  |`minecraft:acacia_boat`|command.enum.unlockablerecipevalues.minecraft:acacia_boat|
+  |`minecraft:acacia_door`|command.enum.unlockablerecipevalues.minecraft:acacia_door|
+  |`minecraft:acacia_fence`|command.enum.unlockablerecipevalues.minecraft:acacia_fence|
+  |`minecraft:acacia_fence_gate`|command.enum.unlockablerecipevalues.minecraft:acacia_fence_gate|
+  |`minecraft:acacia_planks`|command.enum.unlockablerecipevalues.minecraft:acacia_planks|
+  |`minecraft:acacia_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:acacia_planks_from_stripped|
+  |`minecraft:acacia_stairs`|command.enum.unlockablerecipevalues.minecraft:acacia_stairs|
+  |`minecraft:acacia_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:acacia_wooden_slab|
+  |`minecraft:andesite`|command.enum.unlockablerecipevalues.minecraft:andesite|
+  |`minecraft:andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:andesite_stairs|
+  |`minecraft:birch_boat`|command.enum.unlockablerecipevalues.minecraft:birch_boat|
+  |`minecraft:birch_door`|command.enum.unlockablerecipevalues.minecraft:birch_door|
+  |`minecraft:birch_fence`|command.enum.unlockablerecipevalues.minecraft:birch_fence|
+  |`minecraft:birch_fence_gate`|command.enum.unlockablerecipevalues.minecraft:birch_fence_gate|
+  |`minecraft:birch_planks`|command.enum.unlockablerecipevalues.minecraft:birch_planks|
+  |`minecraft:birch_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:birch_planks_from_stripped|
+  |`minecraft:birch_stairs`|command.enum.unlockablerecipevalues.minecraft:birch_stairs|
+  |`minecraft:birch_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:birch_wooden_slab|
+  |`minecraft:black_banner`|command.enum.unlockablerecipevalues.minecraft:black_banner|
+  |`minecraft:black_carpet`|command.enum.unlockablerecipevalues.minecraft:black_carpet|
+  |`minecraft:black_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:black_carpet_from_white|
+  |`minecraft:black_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder|
+  |`minecraft:black_concrete_powder_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder_from_ink_sac|
+  |`minecraft:black_stained_glass`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass|
+  |`minecraft:black_stained_glass_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_from_ink_sac|
+  |`minecraft:black_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_pane_from_pane|
+  |`minecraft:black_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay|
+  |`minecraft:black_stained_hardened_clay_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay_from_ink_sac|
+  |`minecraft:blue_banner`|command.enum.unlockablerecipevalues.minecraft:blue_banner|
+  |`minecraft:blue_carpet`|command.enum.unlockablerecipevalues.minecraft:blue_carpet|
+  |`minecraft:blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:blue_carpet_from_white|
+  |`minecraft:blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder|
+  |`minecraft:blue_concrete_powder_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder_from_lapis_lazuli|
+  |`minecraft:blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass|
+  |`minecraft:blue_stained_glass_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_from_lapis_lazuli|
+  |`minecraft:blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_pane_from_pane|
+  |`minecraft:blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay|
+  |`minecraft:blue_stained_hardened_clay_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay_from_lapis_lazuli|
+  |`minecraft:boat`|command.enum.unlockablerecipevalues.minecraft:boat|
+  |`minecraft:brown_banner`|command.enum.unlockablerecipevalues.minecraft:brown_banner|
+  |`minecraft:brown_carpet`|command.enum.unlockablerecipevalues.minecraft:brown_carpet|
+  |`minecraft:brown_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:brown_carpet_from_white|
+  |`minecraft:brown_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder|
+  |`minecraft:brown_concrete_powder_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder_from_cocoa_beans|
+  |`minecraft:brown_stained_glass`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass|
+  |`minecraft:brown_stained_glass_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_from_cocoa_beans|
+  |`minecraft:brown_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_pane_from_pane|
+  |`minecraft:brown_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay|
+  |`minecraft:brown_stained_hardened_clay_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay_from_cocoa_beans|
+  |`minecraft:bundle`|command.enum.unlockablerecipevalues.minecraft:bundle|
+  |`minecraft:cyan_banner`|command.enum.unlockablerecipevalues.minecraft:cyan_banner|
+  |`minecraft:cyan_carpet`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet|
+  |`minecraft:cyan_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet_from_white|
+  |`minecraft:cyan_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:cyan_concrete_powder|
+  |`minecraft:cyan_stained_glass`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass|
+  |`minecraft:cyan_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass_pane_from_pane|
+  |`minecraft:cyan_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_hardened_clay|
+  |`minecraft:dark_oak_boat`|command.enum.unlockablerecipevalues.minecraft:dark_oak_boat|
+  |`minecraft:dark_oak_door`|command.enum.unlockablerecipevalues.minecraft:dark_oak_door|
+  |`minecraft:dark_oak_fence`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence|
+  |`minecraft:dark_oak_fence_gate`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence_gate|
+  |`minecraft:dark_oak_planks`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks|
+  |`minecraft:dark_oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks_from_stripped|
+  |`minecraft:dark_oak_stairs`|command.enum.unlockablerecipevalues.minecraft:dark_oak_stairs|
+  |`minecraft:dark_oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:dark_oak_wooden_slab|
+  |`minecraft:dark_prismarine`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine|
+  |`minecraft:dark_prismarine_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine_from_ink_sac|
+  |`minecraft:diorite`|command.enum.unlockablerecipevalues.minecraft:diorite|
+  |`minecraft:diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:diorite_stairs|
+  |`minecraft:fence`|command.enum.unlockablerecipevalues.minecraft:fence|
+  |`minecraft:fence_gate`|command.enum.unlockablerecipevalues.minecraft:fence_gate|
+  |`minecraft:granite`|command.enum.unlockablerecipevalues.minecraft:granite|
+  |`minecraft:granite_stairs`|command.enum.unlockablerecipevalues.minecraft:granite_stairs|
+  |`minecraft:gray_banner`|command.enum.unlockablerecipevalues.minecraft:gray_banner|
+  |`minecraft:gray_carpet`|command.enum.unlockablerecipevalues.minecraft:gray_carpet|
+  |`minecraft:gray_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:gray_carpet_from_white|
+  |`minecraft:gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:gray_concrete_powder|
+  |`minecraft:gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass|
+  |`minecraft:gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass_pane_from_pane|
+  |`minecraft:gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:gray_stained_hardened_clay|
+  |`minecraft:green_banner`|command.enum.unlockablerecipevalues.minecraft:green_banner|
+  |`minecraft:green_carpet`|command.enum.unlockablerecipevalues.minecraft:green_carpet|
+  |`minecraft:green_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:green_carpet_from_white|
+  |`minecraft:green_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:green_concrete_powder|
+  |`minecraft:green_stained_glass`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass|
+  |`minecraft:green_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass_pane_from_pane|
+  |`minecraft:green_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:green_stained_hardened_clay|
+  |`minecraft:jungle_boat`|command.enum.unlockablerecipevalues.minecraft:jungle_boat|
+  |`minecraft:jungle_door`|command.enum.unlockablerecipevalues.minecraft:jungle_door|
+  |`minecraft:jungle_fence`|command.enum.unlockablerecipevalues.minecraft:jungle_fence|
+  |`minecraft:jungle_fence_gate`|command.enum.unlockablerecipevalues.minecraft:jungle_fence_gate|
+  |`minecraft:jungle_planks`|command.enum.unlockablerecipevalues.minecraft:jungle_planks|
+  |`minecraft:jungle_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:jungle_planks_from_stripped|
+  |`minecraft:jungle_stairs`|command.enum.unlockablerecipevalues.minecraft:jungle_stairs|
+  |`minecraft:jungle_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:jungle_wooden_slab|
+  |`minecraft:light_blue_banner`|command.enum.unlockablerecipevalues.minecraft:light_blue_banner|
+  |`minecraft:light_blue_carpet`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet|
+  |`minecraft:light_blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet_from_white|
+  |`minecraft:light_blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_blue_concrete_powder|
+  |`minecraft:light_blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass|
+  |`minecraft:light_blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass_pane_from_pane|
+  |`minecraft:light_blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_hardened_clay|
+  |`minecraft:light_gray_banner`|command.enum.unlockablerecipevalues.minecraft:light_gray_banner|
+  |`minecraft:light_gray_carpet`|command.enum.unlockablerecipevalues.minecraft:light_gray_carpet|
+  |`minecraft:light_gray__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_gray__carpet_from_white|
+  |`minecraft:light_gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_gray_concrete_powder|
+  |`minecraft:light_gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass|
+  |`minecraft:light_gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass_pane_from_pane|
+  |`minecraft:light_gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_hardened_clay|
+  |`minecraft:lime_banner`|command.enum.unlockablerecipevalues.minecraft:lime_banner|
+  |`minecraft:lime_carpet`|command.enum.unlockablerecipevalues.minecraft:lime_carpet|
+  |`minecraft:lime__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:lime__carpet_from_white|
+  |`minecraft:lime_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:lime_concrete_powder|
+  |`minecraft:lime_stained_glass`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass|
+  |`minecraft:lime_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass_pane_from_pane|
+  |`minecraft:lime_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:lime_stained_hardened_clay|
+  |`minecraft:magenta_banner`|command.enum.unlockablerecipevalues.minecraft:magenta_banner|
+  |`minecraft:magenta_carpet`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet|
+  |`minecraft:magenta_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet_from_white|
+  |`minecraft:magenta_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:magenta_concrete_powder|
+  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
+  |`minecraft:magenta_stained_glass`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass|
+  |`minecraft:magenta_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass_pane_from_pane|
+  |`minecraft:magenta_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_hardened_clay|
+  |`minecraft:oak_fence`|command.enum.unlockablerecipevalues.minecraft:oak_fence|
+  |`minecraft:oak_planks`|command.enum.unlockablerecipevalues.minecraft:oak_planks|
+  |`minecraft:oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:oak_planks_from_stripped|
+  |`minecraft:oak_stairs`|command.enum.unlockablerecipevalues.minecraft:oak_stairs|
+  |`minecraft:oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:oak_wooden_slab|
+  |`minecraft:orange_banner`|command.enum.unlockablerecipevalues.minecraft:orange_banner|
+  |`minecraft:orange_carpet`|command.enum.unlockablerecipevalues.minecraft:orange_carpet|
+  |`minecraft:orange_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:orange_carpet_from_white|
+  |`minecraft:orange_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:orange_concrete_powder|
+  |`minecraft:orange_stained_glass`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass|
+  |`minecraft:orange_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass_pane_from_pane|
+  |`minecraft:orange_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:orange_stained_hardened_clay|
+  |`minecraft:painting`|command.enum.unlockablerecipevalues.minecraft:painting|
+  |`minecraft:pink_banner`|command.enum.unlockablerecipevalues.minecraft:pink_banner|
+  |`minecraft:pink_carpet`|command.enum.unlockablerecipevalues.minecraft:pink_carpet|
+  |`minecraft:pink_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:pink_carpet_from_white|
+  |`minecraft:pink_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:pink_concrete_powder|
+  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
+  |`minecraft:pink_stained_glass`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass|
+  |`minecraft:pink_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass_pane_from_pane|
+  |`minecraft:pink_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:pink_stained_hardened_clay|
+  |`minecraft:polished_andesite`|command.enum.unlockablerecipevalues.minecraft:polished_andesite|
+  |`minecraft:polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_andesite_stairs|
+  |`minecraft:polished_diorite`|command.enum.unlockablerecipevalues.minecraft:polished_diorite|
+  |`minecraft:polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_diorite_stairs|
+  |`minecraft:polished_granite`|command.enum.unlockablerecipevalues.minecraft:polished_granite|
+  |`minecraft:polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_granite_stairs|
+  |`minecraft:prismarine_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_bricks|
+  |`minecraft:prismarine_stairs_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_bricks|
+  |`minecraft:prismarine_stairs_dark`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_dark|
+  |`minecraft:purple_banner`|command.enum.unlockablerecipevalues.minecraft:purple_banner|
+  |`minecraft:purple_carpet`|command.enum.unlockablerecipevalues.minecraft:purple_carpet|
+  |`minecraft:purple_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:purple_carpet_from_white|
+  |`minecraft:purple_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:purple_concrete_powder|
+  |`minecraft:purple_stained_glass`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass|
+  |`minecraft:purple_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass_pane_from_pane|
+  |`minecraft:purple_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:purple_stained_hardened_clay|
+  |`minecraft:red_banner`|command.enum.unlockablerecipevalues.minecraft:red_banner|
+  |`minecraft:red_carpet`|command.enum.unlockablerecipevalues.minecraft:red_carpet|
+  |`minecraft:red_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:red_carpet_from_white|
+  |`minecraft:red_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:red_concrete_powder|
+  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
+  |`minecraft:red_stained_glass`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass|
+  |`minecraft:red_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass_pane_from_pane|
+  |`minecraft:red_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:red_stained_hardened_clay|
+  |`minecraft:sign_acacia`|command.enum.unlockablerecipevalues.minecraft:sign_acacia|
+  |`minecraft:sign_birch`|command.enum.unlockablerecipevalues.minecraft:sign_birch|
+  |`minecraft:sign_darkoak`|command.enum.unlockablerecipevalues.minecraft:sign_darkoak|
+  |`minecraft:sign_jungle`|command.enum.unlockablerecipevalues.minecraft:sign_jungle|
+  |`minecraft:sign_oak`|command.enum.unlockablerecipevalues.minecraft:sign_oak|
+  |`minecraft:sign_spruce`|command.enum.unlockablerecipevalues.minecraft:sign_spruce|
+  |`minecraft:spruce_boat`|command.enum.unlockablerecipevalues.minecraft:spruce_boat|
+  |`minecraft:spruce_door`|command.enum.unlockablerecipevalues.minecraft:spruce_door|
+  |`minecraft:spruce_fence`|command.enum.unlockablerecipevalues.minecraft:spruce_fence|
+  |`minecraft:spruce_fence_gate`|command.enum.unlockablerecipevalues.minecraft:spruce_fence_gate|
+  |`minecraft:spruce_planks`|command.enum.unlockablerecipevalues.minecraft:spruce_planks|
+  |`minecraft:spruce_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:spruce_planks_from_stripped|
+  |`minecraft:spruce_stairs`|command.enum.unlockablerecipevalues.minecraft:spruce_stairs|
+  |`minecraft:spruce_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:spruce_wooden_slab|
+  |`minecraft:stonecutter_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_stairs|
+  |`minecraft:stonecutter_dark_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_slab|
+  |`minecraft:stonecutter_dark_prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_stairs|
+  |`minecraft:stonecutter_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_stairs|
+  |`minecraft:stonecutter_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_stairs|
+  |`minecraft:stonecutter_mossy_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobbledouble_stone_slab|
+  |`minecraft:stonecutter_polished_andesite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite|
+  |`minecraft:stonecutter_polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs|
+  |`minecraft:stonecutter_polished_andesite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs2|
+  |`minecraft:stonecutter_polished_diorite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite|
+  |`minecraft:stonecutter_polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs|
+  |`minecraft:stonecutter_polished_diorite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs2|
+  |`minecraft:stonecutter_polished_granite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite|
+  |`minecraft:stonecutter_polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs|
+  |`minecraft:stonecutter_polished_granite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs2|
+  |`minecraft:stonecutter_prismarine_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_slab|
+  |`minecraft:stonecutter_prismarine_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_stairs|
+  |`minecraft:stonecutter_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_slab|
+  |`minecraft:stonecutter_purpur_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_lines|
+  |`minecraft:stonecutter_purpur_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_slab|
+  |`minecraft:stonecutter_red_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_slab|
+  |`minecraft:stonecutter_smooth_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sanddouble_stone_slab|
+  |`minecraft:string_to_wool`|command.enum.unlockablerecipevalues.minecraft:string_to_wool|
+  |`minecraft:white_banner`|command.enum.unlockablerecipevalues.minecraft:white_banner|
+  |`minecraft:white_carpet`|command.enum.unlockablerecipevalues.minecraft:white_carpet|
+  |`minecraft:white_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder|
+  |`minecraft:white_concrete_powder_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder_from_bonemeal|
+  |`minecraft:white_stained_glass`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass|
+  |`minecraft:white_stained_glass_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_from_bonemeal|
+  |`minecraft:white_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_pane_from_pane|
+  |`minecraft:white_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay|
+  |`minecraft:white_stained_hardened_clay_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay_from_bonemeal|
+  |`minecraft:wooden_door`|command.enum.unlockablerecipevalues.minecraft:wooden_door|
+  |`minecraft:yellow_banner`|command.enum.unlockablerecipevalues.minecraft:yellow_banner|
+  |`minecraft:yellow_carpet`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet|
+  |`minecraft:yellow_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet_from_white|
+  |`minecraft:yellow_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:yellow_concrete_powder|
+  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
+  |`minecraft:yellow_stained_glass`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass|
+  |`minecraft:yellow_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass_pane_from_pane|
+  |`minecraft:yellow_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_hardened_clay|
+  |`minecraft:andesite_wall`|command.enum.unlockablerecipevalues.minecraft:andesite_wall|
+  |`minecraft:brick_wall`|command.enum.unlockablerecipevalues.minecraft:brick_wall|
+  |`minecraft:cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:cobblestone_wall|
+  |`minecraft:cyan_dye_from_pitcher_plant`|command.enum.unlockablerecipevalues.minecraft:cyan_dye_from_pitcher_plant|
+  |`minecraft:diorite_wall`|command.enum.unlockablerecipevalues.minecraft:diorite_wall|
+  |`minecraft:end_brick_wall`|command.enum.unlockablerecipevalues.minecraft:end_brick_wall|
+  |`minecraft:granite_wall`|command.enum.unlockablerecipevalues.minecraft:granite_wall|
+  |`minecraft:mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_wall|
+  |`minecraft:mossy_stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_wall|
+  |`minecraft:nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:nether_brick_wall|
+  |`minecraft:prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:prismarine_wall|
+  |`minecraft:red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_wall|
+  |`minecraft:red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_wall|
+  |`minecraft:sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:sandstone_wall|
+  |`minecraft:stonecutter_andesite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_wall|
+  |`minecraft:stonecutter_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_wall|
+  |`minecraft:stonecutter_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_wall|
+  |`minecraft:stonecutter_diorite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_wall|
+  |`minecraft:stonecutter_endbrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall|
+  |`minecraft:stonecutter_endbrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall2|
+  |`minecraft:stonecutter_granite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_wall|
+  |`minecraft:stonecutter_mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobblestone_wall|
+  |`minecraft:stonecutter_mossy_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_wall|
+  |`minecraft:stonecutter_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_wall|
+  |`minecraft:stonecutter_prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_wall|
+  |`minecraft:stonecutter_red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_wall|
+  |`minecraft:stonecutter_red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_wall|
+  |`minecraft:stonecutter_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_wall|
+  |`minecraft:stonecutter_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall|
+  |`minecraft:stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stone_brick_wall|
+  |`minecraft:coarse_dirt`|command.enum.unlockablerecipevalues.minecraft:coarse_dirt|
+  |`minecraft:quartz_block`|command.enum.unlockablerecipevalues.minecraft:quartz_block|
+  |`minecraft:quartz_bricks`|command.enum.unlockablerecipevalues.minecraft:quartz_bricks|
+  |`minecraft:pillar_quartz_block`|command.enum.unlockablerecipevalues.minecraft:pillar_quartz_block|
+  |`minecraft:red_sandstone`|command.enum.unlockablerecipevalues.minecraft:red_sandstone|
+  |`minecraft:sandstone`|command.enum.unlockablerecipevalues.minecraft:sandstone|
+  |`minecraft:smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_quartz_stairs|
+  |`minecraft:smooth_red_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone|
+  |`minecraft:smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone_stairs|
+  |`minecraft:smooth_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone|
+  |`minecraft:smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone_stairs|
+  |`minecraft:stonecutter_quartz_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_chiseled|
+  |`minecraft:stonecutter_quartz_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_lines|
+  |`minecraft:stonecutter_red_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_cut|
+  |`minecraft:stonecutter_red_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_heiroglyphs|
+  |`minecraft:stonecutter_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sanddouble_stone_slab|
+  |`minecraft:stonecutter_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_cut|
+  |`minecraft:stonecutter_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_heiroglyphs|
+  |`minecraft:stonecutter_smooth_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_slab|
+  |`minecraft:stonecutter_smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_stairs|
+  |`minecraft:stonecutter_smooth_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sanddouble_stone_slab|
+  |`minecraft:stonecutter_smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sandstone_stairs|
+  |`minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab|
+  |`minecraft:yellow_dye_from_dandelion`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_dandelion|
+  |`minecraft:grindstone`|command.enum.unlockablerecipevalues.minecraft:grindstone|
+  |`minecraft:lodestone`|command.enum.unlockablerecipevalues.minecraft:lodestone|
+  |`minecraft:mossy_stonebrick`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick|
+  |`minecraft:mossy_stonebrick_from_moss`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick_from_moss|
+  |`minecraft:mossy_stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_stairs|
+  |`minecraft:stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonebrick|
+  |`minecraft:stonecutter_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_slab|
+  |`minecraft:stonecutter_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_slab|
+  |`minecraft:stonecutter_endbrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab|
+  |`minecraft:stonecutter_endbrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab2|
+  |`minecraft:stonecutter_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_slab|
+  |`minecraft:stonecutter_mossy_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_slab|
+  |`minecraft:stonecutter_mossy_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_stairs|
+  |`minecraft:stonecutter_polished_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab|
+  |`minecraft:stonecutter_polished_andesite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab2|
+  |`minecraft:stonecutter_polished_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab|
+  |`minecraft:stonecutter_polished_diorite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab2|
+  |`minecraft:stonecutter_polished_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab|
+  |`minecraft:stonecutter_polished_granite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab2|
+  |`minecraft:stonecutter_stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick|
+  |`minecraft:stonecutter_stonebrick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled|
+  |`minecraft:stonecutter_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_double_stone_slab|
+  |`minecraft:stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stone_brick_stairs|
   |`minecraft:armor_stand`|command.enum.unlockablerecipevalues.minecraft:armor_stand|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate|
   |`minecraft:bolt_armor_trim_smithing_template_duplicate_waxed`|command.enum.unlockablerecipevalues.minecraft:bolt_armor_trim_smithing_template_duplicate_waxed|
@@ -1971,13 +2746,10 @@ command.recipe.2.description
   |`minecraft:weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:weathered_copper_grate|
   |`minecraft:flow_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:flow_armor_trim_smithing_template_duplicate|
   |`minecraft:mace`|command.enum.unlockablerecipevalues.minecraft:mace|
-  |`minecraft:magenta_dye_from_lilac`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lilac|
-  |`minecraft:pink_dye_from_peony`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_peony|
   |`minecraft:polished_tuff`|command.enum.unlockablerecipevalues.minecraft:polished_tuff|
   |`minecraft:polished_tuff_slab`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_slab|
   |`minecraft:polished_tuff_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_stairs|
   |`minecraft:polished_tuff_wall`|command.enum.unlockablerecipevalues.minecraft:polished_tuff_wall|
-  |`minecraft:red_dye_from_rose_bush`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_rose_bush|
   |`minecraft:stonecutter_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab|
   |`minecraft:stonecutter_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobbledouble_stone_slab|
   |`minecraft:stonecutter_copper_block_to_chiseled_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_chiseled_copper|
@@ -2002,7 +2774,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sanddouble_stone_slab|
   |`minecraft:stonecutter_smooth_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_double_stone_slab|
   |`minecraft:stonecutter_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab|
-  |`minecraft:stonecutter_stonebrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_slab2|
   |`minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_chiseled_tuff_bricks|
   |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_slab|
   |`minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_tuff_bricks_to_tuff_brick_stairs|
@@ -2063,7 +2834,6 @@ command.recipe.2.description
   |`minecraft:waxing_weathered_copper_grate`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_grate|
   |`minecraft:waxing_weathered_copper_trapdoor`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_copper_trapdoor|
   |`minecraft:wind_charge`|command.enum.unlockablerecipevalues.minecraft:wind_charge|
-  |`minecraft:yellow_dye_from_sunflower`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_sunflower|
   |`minecraft:banner_pattern_flower`|command.enum.unlockablerecipevalues.minecraft:banner_pattern_flower|
   |`minecraft:blue_dye_from_cornflower`|command.enum.unlockablerecipevalues.minecraft:blue_dye_from_cornflower|
   |`minecraft:WorkBench_recipeId_from_oak`|command.enum.unlockablerecipevalues.minecraft:workbench_recipeid_from_oak|
@@ -2102,73 +2872,26 @@ command.recipe.2.description
   |`minecraft:spruce_planks_from_wood`|command.enum.unlockablerecipevalues.minecraft:spruce_planks_from_wood|
   |`minecraft:spruce_wood`|command.enum.unlockablerecipevalues.minecraft:spruce_wood|
   |`minecraft:spruce_wood_stripped`|command.enum.unlockablerecipevalues.minecraft:spruce_wood_stripped|
-  |`minecraft:black_stained_glass`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass|
-  |`minecraft:black_stained_glass_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_from_ink_sac|
   |`minecraft:black_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_pane|
-  |`minecraft:black_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:black_stained_glass_pane_from_pane|
-  |`minecraft:blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass|
-  |`minecraft:blue_stained_glass_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_from_lapis_lazuli|
   |`minecraft:blue_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_pane|
-  |`minecraft:blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:blue_stained_glass_pane_from_pane|
-  |`minecraft:brown_stained_glass`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass|
-  |`minecraft:brown_stained_glass_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_from_cocoa_beans|
   |`minecraft:brown_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_pane|
-  |`minecraft:brown_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:brown_stained_glass_pane_from_pane|
-  |`minecraft:cyan_stained_glass`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass|
   |`minecraft:cyan_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass_pane|
-  |`minecraft:cyan_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_glass_pane_from_pane|
-  |`minecraft:gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass|
   |`minecraft:gray_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass_pane|
-  |`minecraft:gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:gray_stained_glass_pane_from_pane|
-  |`minecraft:green_stained_glass`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass|
   |`minecraft:green_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass_pane|
-  |`minecraft:green_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:green_stained_glass_pane_from_pane|
-  |`minecraft:light_blue_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass|
   |`minecraft:light_blue_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass_pane|
-  |`minecraft:light_blue_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_glass_pane_from_pane|
-  |`minecraft:light_gray_stained_glass`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass|
   |`minecraft:light_gray_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass_pane|
-  |`minecraft:light_gray_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_glass_pane_from_pane|
-  |`minecraft:lime_stained_glass`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass|
   |`minecraft:lime_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass_pane|
-  |`minecraft:lime_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:lime_stained_glass_pane_from_pane|
-  |`minecraft:magenta_stained_glass`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass|
   |`minecraft:magenta_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass_pane|
-  |`minecraft:magenta_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_glass_pane_from_pane|
-  |`minecraft:orange_stained_glass`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass|
   |`minecraft:orange_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass_pane|
-  |`minecraft:orange_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:orange_stained_glass_pane_from_pane|
-  |`minecraft:pink_stained_glass`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass|
   |`minecraft:pink_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass_pane|
-  |`minecraft:pink_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:pink_stained_glass_pane_from_pane|
-  |`minecraft:purple_stained_glass`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass|
   |`minecraft:purple_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass_pane|
-  |`minecraft:purple_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:purple_stained_glass_pane_from_pane|
-  |`minecraft:red_stained_glass`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass|
   |`minecraft:red_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass_pane|
-  |`minecraft:red_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:red_stained_glass_pane_from_pane|
-  |`minecraft:white_stained_glass`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass|
-  |`minecraft:white_stained_glass_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_from_bonemeal|
   |`minecraft:white_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_pane|
-  |`minecraft:white_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:white_stained_glass_pane_from_pane|
-  |`minecraft:yellow_stained_glass`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass|
   |`minecraft:yellow_stained_glass_pane`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass_pane|
-  |`minecraft:yellow_stained_glass_pane_from_pane`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_glass_pane_from_pane|
-  |`minecraft:acacia_boat`|command.enum.unlockablerecipevalues.minecraft:acacia_boat|
   |`minecraft:acacia_chest_boat`|command.enum.unlockablerecipevalues.minecraft:acacia_chest_boat|
-  |`minecraft:acacia_door`|command.enum.unlockablerecipevalues.minecraft:acacia_door|
-  |`minecraft:acacia_fence`|command.enum.unlockablerecipevalues.minecraft:acacia_fence|
-  |`minecraft:acacia_fence_gate`|command.enum.unlockablerecipevalues.minecraft:acacia_fence_gate|
   |`minecraft:acacia_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:acacia_hanging_sign|
-  |`minecraft:acacia_planks`|command.enum.unlockablerecipevalues.minecraft:acacia_planks|
-  |`minecraft:acacia_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:acacia_planks_from_stripped|
-  |`minecraft:acacia_stairs`|command.enum.unlockablerecipevalues.minecraft:acacia_stairs|
-  |`minecraft:acacia_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:acacia_wooden_slab|
   |`minecraft:activator_rail`|command.enum.unlockablerecipevalues.minecraft:activator_rail|
   |`minecraft:amethyst_block`|command.enum.unlockablerecipevalues.minecraft:amethyst_block|
-  |`minecraft:andesite`|command.enum.unlockablerecipevalues.minecraft:andesite|
-  |`minecraft:andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:andesite_stairs|
-  |`minecraft:andesite_wall`|command.enum.unlockablerecipevalues.minecraft:andesite_wall|
   |`minecraft:anvil`|command.enum.unlockablerecipevalues.minecraft:anvil|
   |`minecraft:arrow`|command.enum.unlockablerecipevalues.minecraft:arrow|
   |`minecraft:bamboo_block`|command.enum.unlockablerecipevalues.minecraft:bamboo_block|
@@ -2199,44 +2922,21 @@ command.recipe.2.description
   |`minecraft:beacon`|command.enum.unlockablerecipevalues.minecraft:beacon|
   |`minecraft:beehive`|command.enum.unlockablerecipevalues.minecraft:beehive|
   |`minecraft:beetroot_soup`|command.enum.unlockablerecipevalues.minecraft:beetroot_soup|
-  |`minecraft:birch_boat`|command.enum.unlockablerecipevalues.minecraft:birch_boat|
   |`minecraft:birch_chest_boat`|command.enum.unlockablerecipevalues.minecraft:birch_chest_boat|
-  |`minecraft:birch_door`|command.enum.unlockablerecipevalues.minecraft:birch_door|
-  |`minecraft:birch_fence`|command.enum.unlockablerecipevalues.minecraft:birch_fence|
-  |`minecraft:birch_fence_gate`|command.enum.unlockablerecipevalues.minecraft:birch_fence_gate|
   |`minecraft:birch_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:birch_hanging_sign|
-  |`minecraft:birch_planks`|command.enum.unlockablerecipevalues.minecraft:birch_planks|
-  |`minecraft:birch_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:birch_planks_from_stripped|
-  |`minecraft:birch_stairs`|command.enum.unlockablerecipevalues.minecraft:birch_stairs|
-  |`minecraft:birch_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:birch_wooden_slab|
   |`minecraft:blackstone_slab`|command.enum.unlockablerecipevalues.minecraft:blackstone_slab|
   |`minecraft:blackstone_stairs`|command.enum.unlockablerecipevalues.minecraft:blackstone_stairs|
   |`minecraft:blackstone_wall`|command.enum.unlockablerecipevalues.minecraft:blackstone_wall|
-  |`minecraft:black_banner`|command.enum.unlockablerecipevalues.minecraft:black_banner|
   |`minecraft:black_candle`|command.enum.unlockablerecipevalues.minecraft:black_candle|
   |`minecraft:black_candle_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_candle_from_ink_sac|
-  |`minecraft:black_carpet`|command.enum.unlockablerecipevalues.minecraft:black_carpet|
-  |`minecraft:black_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:black_carpet_from_white|
-  |`minecraft:black_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder|
-  |`minecraft:black_concrete_powder_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_concrete_powder_from_ink_sac|
   |`minecraft:black_dye_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_dye_from_ink_sac|
   |`minecraft:black_dye_from_wither_rose`|command.enum.unlockablerecipevalues.minecraft:black_dye_from_wither_rose|
-  |`minecraft:black_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay|
-  |`minecraft:black_stained_hardened_clay_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:black_stained_hardened_clay_from_ink_sac|
   |`minecraft:blast_furnace`|command.enum.unlockablerecipevalues.minecraft:blast_furnace|
   |`minecraft:blaze_powder`|command.enum.unlockablerecipevalues.minecraft:blaze_powder|
-  |`minecraft:blue_banner`|command.enum.unlockablerecipevalues.minecraft:blue_banner|
   |`minecraft:blue_candle`|command.enum.unlockablerecipevalues.minecraft:blue_candle|
   |`minecraft:blue_candle_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_candle_from_lapis_lazuli|
-  |`minecraft:blue_carpet`|command.enum.unlockablerecipevalues.minecraft:blue_carpet|
-  |`minecraft:blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:blue_carpet_from_white|
-  |`minecraft:blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder|
-  |`minecraft:blue_concrete_powder_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_concrete_powder_from_lapis_lazuli|
   |`minecraft:blue_dye_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_dye_from_lapis_lazuli|
   |`minecraft:blue_ice`|command.enum.unlockablerecipevalues.minecraft:blue_ice|
-  |`minecraft:blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay|
-  |`minecraft:blue_stained_hardened_clay_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:blue_stained_hardened_clay_from_lapis_lazuli|
-  |`minecraft:boat`|command.enum.unlockablerecipevalues.minecraft:boat|
   |`minecraft:bone_block`|command.enum.unlockablerecipevalues.minecraft:bone_block|
   |`minecraft:bone_meal_from_block`|command.enum.unlockablerecipevalues.minecraft:bone_meal_from_block|
   |`minecraft:bone_meal_from_bone`|command.enum.unlockablerecipevalues.minecraft:bone_meal_from_bone|
@@ -2248,17 +2948,9 @@ command.recipe.2.description
   |`minecraft:brewing_stand`|command.enum.unlockablerecipevalues.minecraft:brewing_stand|
   |`minecraft:brick_block`|command.enum.unlockablerecipevalues.minecraft:brick_block|
   |`minecraft:brick_stairs`|command.enum.unlockablerecipevalues.minecraft:brick_stairs|
-  |`minecraft:brick_wall`|command.enum.unlockablerecipevalues.minecraft:brick_wall|
-  |`minecraft:brown_banner`|command.enum.unlockablerecipevalues.minecraft:brown_banner|
   |`minecraft:brown_candle`|command.enum.unlockablerecipevalues.minecraft:brown_candle|
   |`minecraft:brown_candle_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_candle_from_cocoa_beans|
-  |`minecraft:brown_carpet`|command.enum.unlockablerecipevalues.minecraft:brown_carpet|
-  |`minecraft:brown_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:brown_carpet_from_white|
-  |`minecraft:brown_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder|
-  |`minecraft:brown_concrete_powder_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_concrete_powder_from_cocoa_beans|
   |`minecraft:brown_dye_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_dye_from_cocoa_beans|
-  |`minecraft:brown_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay|
-  |`minecraft:brown_stained_hardened_clay_from_cocoa_beans`|command.enum.unlockablerecipevalues.minecraft:brown_stained_hardened_clay_from_cocoa_beans|
   |`minecraft:brush`|command.enum.unlockablerecipevalues.minecraft:brush|
   |`minecraft:bucket`|command.enum.unlockablerecipevalues.minecraft:bucket|
   |`minecraft:cake`|command.enum.unlockablerecipevalues.minecraft:cake|
@@ -2300,7 +2992,6 @@ command.recipe.2.description
   |`minecraft:clock`|command.enum.unlockablerecipevalues.minecraft:clock|
   |`minecraft:coal`|command.enum.unlockablerecipevalues.minecraft:coal|
   |`minecraft:coal_block`|command.enum.unlockablerecipevalues.minecraft:coal_block|
-  |`minecraft:coarse_dirt`|command.enum.unlockablerecipevalues.minecraft:coarse_dirt|
   |`minecraft:coast_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:coast_armor_trim_smithing_template_duplicate|
   |`minecraft:cobbled_deepslate_slab`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_slab|
   |`minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting|
@@ -2309,7 +3000,6 @@ command.recipe.2.description
   |`minecraft:cobbled_deepslate_wall`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_wall|
   |`minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting|
   |`minecraft:cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:cobblestone_stairs|
-  |`minecraft:cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:cobblestone_wall|
   |`minecraft:comparator`|command.enum.unlockablerecipevalues.minecraft:comparator|
   |`minecraft:compass`|command.enum.unlockablerecipevalues.minecraft:compass|
   |`minecraft:composter`|command.enum.unlockablerecipevalues.minecraft:composter|
@@ -2358,27 +3048,11 @@ command.recipe.2.description
   |`minecraft:crimson_stairs`|command.enum.unlockablerecipevalues.minecraft:crimson_stairs|
   |`minecraft:crimson_trapdoor`|command.enum.unlockablerecipevalues.minecraft:crimson_trapdoor|
   |`minecraft:crossbow`|command.enum.unlockablerecipevalues.minecraft:crossbow|
-  |`minecraft:cyan_banner`|command.enum.unlockablerecipevalues.minecraft:cyan_banner|
   |`minecraft:cyan_candle`|command.enum.unlockablerecipevalues.minecraft:cyan_candle|
-  |`minecraft:cyan_carpet`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet|
-  |`minecraft:cyan_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:cyan_carpet_from_white|
-  |`minecraft:cyan_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:cyan_concrete_powder|
   |`minecraft:cyan_dye`|command.enum.unlockablerecipevalues.minecraft:cyan_dye|
   |`minecraft:cyan_dye_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:cyan_dye_from_lapis_lazuli|
-  |`minecraft:cyan_dye_from_pitcher_plant`|command.enum.unlockablerecipevalues.minecraft:cyan_dye_from_pitcher_plant|
-  |`minecraft:cyan_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:cyan_stained_hardened_clay|
-  |`minecraft:dark_oak_boat`|command.enum.unlockablerecipevalues.minecraft:dark_oak_boat|
   |`minecraft:dark_oak_chest_boat`|command.enum.unlockablerecipevalues.minecraft:dark_oak_chest_boat|
-  |`minecraft:dark_oak_door`|command.enum.unlockablerecipevalues.minecraft:dark_oak_door|
-  |`minecraft:dark_oak_fence`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence|
-  |`minecraft:dark_oak_fence_gate`|command.enum.unlockablerecipevalues.minecraft:dark_oak_fence_gate|
   |`minecraft:dark_oak_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:dark_oak_hanging_sign|
-  |`minecraft:dark_oak_planks`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks|
-  |`minecraft:dark_oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:dark_oak_planks_from_stripped|
-  |`minecraft:dark_oak_stairs`|command.enum.unlockablerecipevalues.minecraft:dark_oak_stairs|
-  |`minecraft:dark_oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:dark_oak_wooden_slab|
-  |`minecraft:dark_prismarine`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine|
-  |`minecraft:dark_prismarine_from_ink_sac`|command.enum.unlockablerecipevalues.minecraft:dark_prismarine_from_ink_sac|
   |`minecraft:DaylightDetector_recipeId`|command.enum.unlockablerecipevalues.minecraft:daylightdetector_recipeid|
   |`minecraft:deepslate_bricks`|command.enum.unlockablerecipevalues.minecraft:deepslate_bricks|
   |`minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting`|command.enum.unlockablerecipevalues.minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting|
@@ -2426,9 +3100,6 @@ command.recipe.2.description
   |`minecraft:diamond_pickaxe`|command.enum.unlockablerecipevalues.minecraft:diamond_pickaxe|
   |`minecraft:diamond_shovel`|command.enum.unlockablerecipevalues.minecraft:diamond_shovel|
   |`minecraft:diamond_sword`|command.enum.unlockablerecipevalues.minecraft:diamond_sword|
-  |`minecraft:diorite`|command.enum.unlockablerecipevalues.minecraft:diorite|
-  |`minecraft:diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:diorite_stairs|
-  |`minecraft:diorite_wall`|command.enum.unlockablerecipevalues.minecraft:diorite_wall|
   |`minecraft:dispenser`|command.enum.unlockablerecipevalues.minecraft:dispenser|
   |`minecraft:dried_kelp`|command.enum.unlockablerecipevalues.minecraft:dried_kelp|
   |`minecraft:dried_kelp_block`|command.enum.unlockablerecipevalues.minecraft:dried_kelp_block|
@@ -2443,12 +3114,9 @@ command.recipe.2.description
   |`minecraft:ender_eye`|command.enum.unlockablerecipevalues.minecraft:ender_eye|
   |`minecraft:end_bricks`|command.enum.unlockablerecipevalues.minecraft:end_bricks|
   |`minecraft:end_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:end_brick_stairs|
-  |`minecraft:end_brick_wall`|command.enum.unlockablerecipevalues.minecraft:end_brick_wall|
   |`minecraft:end_crystal`|command.enum.unlockablerecipevalues.minecraft:end_crystal|
   |`minecraft:end_rod`|command.enum.unlockablerecipevalues.minecraft:end_rod|
   |`minecraft:eye_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:eye_armor_trim_smithing_template_duplicate|
-  |`minecraft:fence`|command.enum.unlockablerecipevalues.minecraft:fence|
-  |`minecraft:fence_gate`|command.enum.unlockablerecipevalues.minecraft:fence_gate|
   |`minecraft:fermented_spider_eye`|command.enum.unlockablerecipevalues.minecraft:fermented_spider_eye|
   |`minecraft:FireCharge_coal_sulphur_recipeId`|command.enum.unlockablerecipevalues.minecraft:firecharge_coal_sulphur_recipeid|
   |`minecraft:fishing_rod`|command.enum.unlockablerecipevalues.minecraft:fishing_rod|
@@ -2478,26 +3146,12 @@ command.recipe.2.description
   |`minecraft:gold_ingot_from_block`|command.enum.unlockablerecipevalues.minecraft:gold_ingot_from_block|
   |`minecraft:gold_ingot_from_nuggets`|command.enum.unlockablerecipevalues.minecraft:gold_ingot_from_nuggets|
   |`minecraft:gold_nugget`|command.enum.unlockablerecipevalues.minecraft:gold_nugget|
-  |`minecraft:granite`|command.enum.unlockablerecipevalues.minecraft:granite|
-  |`minecraft:granite_stairs`|command.enum.unlockablerecipevalues.minecraft:granite_stairs|
-  |`minecraft:granite_wall`|command.enum.unlockablerecipevalues.minecraft:granite_wall|
-  |`minecraft:gray_banner`|command.enum.unlockablerecipevalues.minecraft:gray_banner|
   |`minecraft:gray_candle`|command.enum.unlockablerecipevalues.minecraft:gray_candle|
-  |`minecraft:gray_carpet`|command.enum.unlockablerecipevalues.minecraft:gray_carpet|
-  |`minecraft:gray_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:gray_carpet_from_white|
-  |`minecraft:gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:gray_concrete_powder|
   |`minecraft:gray_dye`|command.enum.unlockablerecipevalues.minecraft:gray_dye|
   |`minecraft:gray_dye_from_black_bonemeal`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_black_bonemeal|
   |`minecraft:gray_dye_from_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_ink_bonemeal|
   |`minecraft:gray_dye_from_ink_white`|command.enum.unlockablerecipevalues.minecraft:gray_dye_from_ink_white|
-  |`minecraft:gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:gray_stained_hardened_clay|
-  |`minecraft:green_banner`|command.enum.unlockablerecipevalues.minecraft:green_banner|
   |`minecraft:green_candle`|command.enum.unlockablerecipevalues.minecraft:green_candle|
-  |`minecraft:green_carpet`|command.enum.unlockablerecipevalues.minecraft:green_carpet|
-  |`minecraft:green_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:green_carpet_from_white|
-  |`minecraft:green_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:green_concrete_powder|
-  |`minecraft:green_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:green_stained_hardened_clay|
-  |`minecraft:grindstone`|command.enum.unlockablerecipevalues.minecraft:grindstone|
   |`minecraft:hay_block`|command.enum.unlockablerecipevalues.minecraft:hay_block|
   |`minecraft:heavy_weighted_pressure_plate`|command.enum.unlockablerecipevalues.minecraft:heavy_weighted_pressure_plate|
   |`minecraft:honeycomb_block`|command.enum.unlockablerecipevalues.minecraft:honeycomb_block|
@@ -2527,16 +3181,8 @@ command.recipe.2.description
   |`minecraft:iron_trapdoor`|command.enum.unlockablerecipevalues.minecraft:iron_trapdoor|
   |`minecraft:item_frame`|command.enum.unlockablerecipevalues.minecraft:item_frame|
   |`minecraft:Jukebox_recipeId`|command.enum.unlockablerecipevalues.minecraft:jukebox_recipeid|
-  |`minecraft:jungle_boat`|command.enum.unlockablerecipevalues.minecraft:jungle_boat|
   |`minecraft:jungle_chest_boat`|command.enum.unlockablerecipevalues.minecraft:jungle_chest_boat|
-  |`minecraft:jungle_door`|command.enum.unlockablerecipevalues.minecraft:jungle_door|
-  |`minecraft:jungle_fence`|command.enum.unlockablerecipevalues.minecraft:jungle_fence|
-  |`minecraft:jungle_fence_gate`|command.enum.unlockablerecipevalues.minecraft:jungle_fence_gate|
   |`minecraft:jungle_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:jungle_hanging_sign|
-  |`minecraft:jungle_planks`|command.enum.unlockablerecipevalues.minecraft:jungle_planks|
-  |`minecraft:jungle_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:jungle_planks_from_stripped|
-  |`minecraft:jungle_stairs`|command.enum.unlockablerecipevalues.minecraft:jungle_stairs|
-  |`minecraft:jungle_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:jungle_wooden_slab|
   |`minecraft:ladder`|command.enum.unlockablerecipevalues.minecraft:ladder|
   |`minecraft:lantern`|command.enum.unlockablerecipevalues.minecraft:lantern|
   |`minecraft:lapis_block`|command.enum.unlockablerecipevalues.minecraft:lapis_block|
@@ -2551,46 +3197,26 @@ command.recipe.2.description
   |`minecraft:lectern`|command.enum.unlockablerecipevalues.minecraft:lectern|
   |`minecraft:lever`|command.enum.unlockablerecipevalues.minecraft:lever|
   |`minecraft:lightning_rod`|command.enum.unlockablerecipevalues.minecraft:lightning_rod|
-  |`minecraft:light_blue_banner`|command.enum.unlockablerecipevalues.minecraft:light_blue_banner|
   |`minecraft:light_blue_candle`|command.enum.unlockablerecipevalues.minecraft:light_blue_candle|
-  |`minecraft:light_blue_carpet`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet|
-  |`minecraft:light_blue_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_blue_carpet_from_white|
-  |`minecraft:light_blue_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_blue_concrete_powder|
   |`minecraft:light_blue_dye`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye|
   |`minecraft:light_blue_dye_from_blue_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye_from_blue_bonemeal|
   |`minecraft:light_blue_dye_from_lapis_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye_from_lapis_bonemeal|
   |`minecraft:light_blue_dye_from_lapis_white`|command.enum.unlockablerecipevalues.minecraft:light_blue_dye_from_lapis_white|
-  |`minecraft:light_blue_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_blue_stained_hardened_clay|
-  |`minecraft:light_gray_banner`|command.enum.unlockablerecipevalues.minecraft:light_gray_banner|
   |`minecraft:light_gray_candle`|command.enum.unlockablerecipevalues.minecraft:light_gray_candle|
-  |`minecraft:light_gray_carpet`|command.enum.unlockablerecipevalues.minecraft:light_gray_carpet|
-  |`minecraft:light_gray_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:light_gray_concrete_powder|
   |`minecraft:light_gray_dye`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye|
   |`minecraft:light_gray_dye_from_black_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_black_bonemeal|
   |`minecraft:light_gray_dye_from_gray_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_gray_bonemeal|
   |`minecraft:light_gray_dye_from_gray_white`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_gray_white|
   |`minecraft:light_gray_dye_from_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_ink_bonemeal|
   |`minecraft:light_gray_dye_from_ink_white`|command.enum.unlockablerecipevalues.minecraft:light_gray_dye_from_ink_white|
-  |`minecraft:light_gray_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:light_gray_stained_hardened_clay|
-  |`minecraft:light_gray__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:light_gray__carpet_from_white|
   |`minecraft:light_weighted_pressure_plate`|command.enum.unlockablerecipevalues.minecraft:light_weighted_pressure_plate|
-  |`minecraft:lime_banner`|command.enum.unlockablerecipevalues.minecraft:lime_banner|
   |`minecraft:lime_candle`|command.enum.unlockablerecipevalues.minecraft:lime_candle|
-  |`minecraft:lime_carpet`|command.enum.unlockablerecipevalues.minecraft:lime_carpet|
-  |`minecraft:lime_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:lime_concrete_powder|
   |`minecraft:lime_dye`|command.enum.unlockablerecipevalues.minecraft:lime_dye|
   |`minecraft:lime_dye_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:lime_dye_from_bonemeal|
-  |`minecraft:lime_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:lime_stained_hardened_clay|
-  |`minecraft:lime__carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:lime__carpet_from_white|
   |`minecraft:lit_pumpkin`|command.enum.unlockablerecipevalues.minecraft:lit_pumpkin|
   |`minecraft:locator_map`|command.enum.unlockablerecipevalues.minecraft:locator_map|
-  |`minecraft:lodestone`|command.enum.unlockablerecipevalues.minecraft:lodestone|
   |`minecraft:loom`|command.enum.unlockablerecipevalues.minecraft:loom|
-  |`minecraft:magenta_banner`|command.enum.unlockablerecipevalues.minecraft:magenta_banner|
   |`minecraft:magenta_candle`|command.enum.unlockablerecipevalues.minecraft:magenta_candle|
-  |`minecraft:magenta_carpet`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet|
-  |`minecraft:magenta_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:magenta_carpet_from_white|
-  |`minecraft:magenta_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:magenta_concrete_powder|
   |`minecraft:magenta_dye`|command.enum.unlockablerecipevalues.minecraft:magenta_dye|
   |`minecraft:magenta_dye_from_blue_ink_bonemeal`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_blue_ink_bonemeal|
   |`minecraft:magenta_dye_from_blue_ink_white`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_blue_ink_white|
@@ -2598,7 +3224,6 @@ command.recipe.2.description
   |`minecraft:magenta_dye_from_lapis_ink_white`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_ink_white|
   |`minecraft:magenta_dye_from_lapis_red_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_lapis_red_pink|
   |`minecraft:magenta_dye_from_purple_and_pink`|command.enum.unlockablerecipevalues.minecraft:magenta_dye_from_purple_and_pink|
-  |`minecraft:magenta_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:magenta_stained_hardened_clay|
   |`minecraft:magma`|command.enum.unlockablerecipevalues.minecraft:magma|
   |`minecraft:magma_cream`|command.enum.unlockablerecipevalues.minecraft:magma_cream|
   |`minecraft:mangrove_boat`|command.enum.unlockablerecipevalues.minecraft:mangrove_boat|
@@ -2626,11 +3251,6 @@ command.recipe.2.description
   |`minecraft:mossy_cobblestone`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone|
   |`minecraft:mossy_cobblestone_from_moss`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_from_moss|
   |`minecraft:mossy_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_stairs|
-  |`minecraft:mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_cobblestone_wall|
-  |`minecraft:mossy_stonebrick`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick|
-  |`minecraft:mossy_stonebrick_from_moss`|command.enum.unlockablerecipevalues.minecraft:mossy_stonebrick_from_moss|
-  |`minecraft:mossy_stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_stairs|
-  |`minecraft:mossy_stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:mossy_stone_brick_wall|
   |`minecraft:moss_carpet`|command.enum.unlockablerecipevalues.minecraft:moss_carpet|
   |`minecraft:muddy_mangrove_roots`|command.enum.unlockablerecipevalues.minecraft:muddy_mangrove_roots|
   |`minecraft:mud_bricks`|command.enum.unlockablerecipevalues.minecraft:mud_bricks|
@@ -2645,41 +3265,21 @@ command.recipe.2.description
   |`minecraft:nether_brick`|command.enum.unlockablerecipevalues.minecraft:nether_brick|
   |`minecraft:nether_brick_fence`|command.enum.unlockablerecipevalues.minecraft:nether_brick_fence|
   |`minecraft:nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:nether_brick_stairs|
-  |`minecraft:nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:nether_brick_wall|
   |`minecraft:nether_wart_block`|command.enum.unlockablerecipevalues.minecraft:nether_wart_block|
   |`minecraft:noteblock`|command.enum.unlockablerecipevalues.minecraft:noteblock|
-  |`minecraft:oak_fence`|command.enum.unlockablerecipevalues.minecraft:oak_fence|
   |`minecraft:oak_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:oak_hanging_sign|
-  |`minecraft:oak_planks`|command.enum.unlockablerecipevalues.minecraft:oak_planks|
-  |`minecraft:oak_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:oak_planks_from_stripped|
-  |`minecraft:oak_stairs`|command.enum.unlockablerecipevalues.minecraft:oak_stairs|
-  |`minecraft:oak_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:oak_wooden_slab|
   |`minecraft:observer`|command.enum.unlockablerecipevalues.minecraft:observer|
-  |`minecraft:orange_banner`|command.enum.unlockablerecipevalues.minecraft:orange_banner|
   |`minecraft:orange_candle`|command.enum.unlockablerecipevalues.minecraft:orange_candle|
-  |`minecraft:orange_carpet`|command.enum.unlockablerecipevalues.minecraft:orange_carpet|
-  |`minecraft:orange_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:orange_carpet_from_white|
-  |`minecraft:orange_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:orange_concrete_powder|
   |`minecraft:orange_dye_from_red_yellow`|command.enum.unlockablerecipevalues.minecraft:orange_dye_from_red_yellow|
   |`minecraft:orange_dye_from_torchflower`|command.enum.unlockablerecipevalues.minecraft:orange_dye_from_torchflower|
-  |`minecraft:orange_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:orange_stained_hardened_clay|
   |`minecraft:packed_ice`|command.enum.unlockablerecipevalues.minecraft:packed_ice|
   |`minecraft:packed_mud`|command.enum.unlockablerecipevalues.minecraft:packed_mud|
-  |`minecraft:painting`|command.enum.unlockablerecipevalues.minecraft:painting|
   |`minecraft:paper`|command.enum.unlockablerecipevalues.minecraft:paper|
-  |`minecraft:pillar_quartz_block`|command.enum.unlockablerecipevalues.minecraft:pillar_quartz_block|
-  |`minecraft:pink_banner`|command.enum.unlockablerecipevalues.minecraft:pink_banner|
   |`minecraft:pink_candle`|command.enum.unlockablerecipevalues.minecraft:pink_candle|
-  |`minecraft:pink_carpet`|command.enum.unlockablerecipevalues.minecraft:pink_carpet|
-  |`minecraft:pink_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:pink_carpet_from_white|
-  |`minecraft:pink_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:pink_concrete_powder|
   |`minecraft:pink_dye`|command.enum.unlockablerecipevalues.minecraft:pink_dye|
   |`minecraft:pink_dye_from_pink_petals`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_pink_petals|
   |`minecraft:pink_dye_from_red_bonemeal`|command.enum.unlockablerecipevalues.minecraft:pink_dye_from_red_bonemeal|
-  |`minecraft:pink_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:pink_stained_hardened_clay|
   |`minecraft:piston`|command.enum.unlockablerecipevalues.minecraft:piston|
-  |`minecraft:polished_andesite`|command.enum.unlockablerecipevalues.minecraft:polished_andesite|
-  |`minecraft:polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_andesite_stairs|
   |`minecraft:polished_basalt`|command.enum.unlockablerecipevalues.minecraft:polished_basalt|
   |`minecraft:polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:polished_blackstone|
   |`minecraft:polished_blackstone_bricks`|command.enum.unlockablerecipevalues.minecraft:polished_blackstone_bricks|
@@ -2702,30 +3302,15 @@ command.recipe.2.description
   |`minecraft:polished_deepslate_wall`|command.enum.unlockablerecipevalues.minecraft:polished_deepslate_wall|
   |`minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecut`|command.enum.unlockablerecipevalues.minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecut|
   |`minecraft:polished_deepslate_wall_from_polished_deepslate_stonecut`|command.enum.unlockablerecipevalues.minecraft:polished_deepslate_wall_from_polished_deepslate_stonecut|
-  |`minecraft:polished_diorite`|command.enum.unlockablerecipevalues.minecraft:polished_diorite|
-  |`minecraft:polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_diorite_stairs|
-  |`minecraft:polished_granite`|command.enum.unlockablerecipevalues.minecraft:polished_granite|
-  |`minecraft:polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:polished_granite_stairs|
   |`minecraft:prismarine`|command.enum.unlockablerecipevalues.minecraft:prismarine|
-  |`minecraft:prismarine_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_bricks|
   |`minecraft:prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs|
-  |`minecraft:prismarine_stairs_bricks`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_bricks|
-  |`minecraft:prismarine_stairs_dark`|command.enum.unlockablerecipevalues.minecraft:prismarine_stairs_dark|
-  |`minecraft:prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:prismarine_wall|
   |`minecraft:pumpkin_pie`|command.enum.unlockablerecipevalues.minecraft:pumpkin_pie|
   |`minecraft:pumpkin_seeds`|command.enum.unlockablerecipevalues.minecraft:pumpkin_seeds|
-  |`minecraft:purple_banner`|command.enum.unlockablerecipevalues.minecraft:purple_banner|
   |`minecraft:purple_candle`|command.enum.unlockablerecipevalues.minecraft:purple_candle|
-  |`minecraft:purple_carpet`|command.enum.unlockablerecipevalues.minecraft:purple_carpet|
-  |`minecraft:purple_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:purple_carpet_from_white|
-  |`minecraft:purple_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:purple_concrete_powder|
   |`minecraft:purple_dye`|command.enum.unlockablerecipevalues.minecraft:purple_dye|
   |`minecraft:purple_dye_from_lapis_lazuli`|command.enum.unlockablerecipevalues.minecraft:purple_dye_from_lapis_lazuli|
-  |`minecraft:purple_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:purple_stained_hardened_clay|
   |`minecraft:purpur_block`|command.enum.unlockablerecipevalues.minecraft:purpur_block|
   |`minecraft:purpur_stairs`|command.enum.unlockablerecipevalues.minecraft:purpur_stairs|
-  |`minecraft:quartz_block`|command.enum.unlockablerecipevalues.minecraft:quartz_block|
-  |`minecraft:quartz_bricks`|command.enum.unlockablerecipevalues.minecraft:quartz_bricks|
   |`minecraft:quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:quartz_stairs|
   |`minecraft:rabbit_stew_from_brown_mushroom`|command.enum.unlockablerecipevalues.minecraft:rabbit_stew_from_brown_mushroom|
   |`minecraft:rabbit_stew_from_red_mushroom`|command.enum.unlockablerecipevalues.minecraft:rabbit_stew_from_red_mushroom|
@@ -2744,25 +3329,15 @@ command.recipe.2.description
   |`minecraft:redstone_block`|command.enum.unlockablerecipevalues.minecraft:redstone_block|
   |`minecraft:redstone_lamp`|command.enum.unlockablerecipevalues.minecraft:redstone_lamp|
   |`minecraft:redstone_torch`|command.enum.unlockablerecipevalues.minecraft:redstone_torch|
-  |`minecraft:red_banner`|command.enum.unlockablerecipevalues.minecraft:red_banner|
   |`minecraft:red_candle`|command.enum.unlockablerecipevalues.minecraft:red_candle|
-  |`minecraft:red_carpet`|command.enum.unlockablerecipevalues.minecraft:red_carpet|
-  |`minecraft:red_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:red_carpet_from_white|
-  |`minecraft:red_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:red_concrete_powder|
   |`minecraft:red_dye_from_beetroot`|command.enum.unlockablerecipevalues.minecraft:red_dye_from_beetroot|
   |`minecraft:red_nether_brick`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick|
   |`minecraft:red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_stairs|
-  |`minecraft:red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:red_nether_brick_wall|
-  |`minecraft:red_sandstone`|command.enum.unlockablerecipevalues.minecraft:red_sandstone|
   |`minecraft:red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_stairs|
-  |`minecraft:red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:red_sandstone_wall|
-  |`minecraft:red_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:red_stained_hardened_clay|
   |`minecraft:repeater`|command.enum.unlockablerecipevalues.minecraft:repeater|
   |`minecraft:respawn_anchor`|command.enum.unlockablerecipevalues.minecraft:respawn_anchor|
   |`minecraft:rib_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:rib_armor_trim_smithing_template_duplicate|
-  |`minecraft:sandstone`|command.enum.unlockablerecipevalues.minecraft:sandstone|
   |`minecraft:sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:sandstone_stairs|
-  |`minecraft:sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:sandstone_wall|
   |`minecraft:scaffolding`|command.enum.unlockablerecipevalues.minecraft:scaffolding|
   |`minecraft:sealantern`|command.enum.unlockablerecipevalues.minecraft:sealantern|
   |`minecraft:sentry_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:sentry_armor_trim_smithing_template_duplicate|
@@ -2770,22 +3345,11 @@ command.recipe.2.description
   |`minecraft:shears`|command.enum.unlockablerecipevalues.minecraft:shears|
   |`minecraft:shield`|command.enum.unlockablerecipevalues.minecraft:shield|
   |`minecraft:shulker_box`|command.enum.unlockablerecipevalues.minecraft:shulker_box|
-  |`minecraft:sign_acacia`|command.enum.unlockablerecipevalues.minecraft:sign_acacia|
-  |`minecraft:sign_birch`|command.enum.unlockablerecipevalues.minecraft:sign_birch|
-  |`minecraft:sign_darkoak`|command.enum.unlockablerecipevalues.minecraft:sign_darkoak|
-  |`minecraft:sign_jungle`|command.enum.unlockablerecipevalues.minecraft:sign_jungle|
-  |`minecraft:sign_oak`|command.enum.unlockablerecipevalues.minecraft:sign_oak|
-  |`minecraft:sign_spruce`|command.enum.unlockablerecipevalues.minecraft:sign_spruce|
   |`minecraft:silence_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:silence_armor_trim_smithing_template_duplicate|
   |`minecraft:slime`|command.enum.unlockablerecipevalues.minecraft:slime|
   |`minecraft:slime_ball`|command.enum.unlockablerecipevalues.minecraft:slime_ball|
   |`minecraft:smithing_table`|command.enum.unlockablerecipevalues.minecraft:smithing_table|
   |`minecraft:smoker`|command.enum.unlockablerecipevalues.minecraft:smoker|
-  |`minecraft:smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_quartz_stairs|
-  |`minecraft:smooth_red_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone|
-  |`minecraft:smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_red_sandstone_stairs|
-  |`minecraft:smooth_sandstone`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone|
-  |`minecraft:smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:smooth_sandstone_stairs|
   |`minecraft:snout_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:snout_armor_trim_smithing_template_duplicate|
   |`minecraft:snow`|command.enum.unlockablerecipevalues.minecraft:snow|
   |`minecraft:snow_layer`|command.enum.unlockablerecipevalues.minecraft:snow_layer|
@@ -2794,24 +3358,12 @@ command.recipe.2.description
   |`minecraft:soul_torch`|command.enum.unlockablerecipevalues.minecraft:soul_torch|
   |`minecraft:speckled_melon`|command.enum.unlockablerecipevalues.minecraft:speckled_melon|
   |`minecraft:spire_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:spire_armor_trim_smithing_template_duplicate|
-  |`minecraft:spruce_boat`|command.enum.unlockablerecipevalues.minecraft:spruce_boat|
   |`minecraft:spruce_chest_boat`|command.enum.unlockablerecipevalues.minecraft:spruce_chest_boat|
-  |`minecraft:spruce_door`|command.enum.unlockablerecipevalues.minecraft:spruce_door|
-  |`minecraft:spruce_fence`|command.enum.unlockablerecipevalues.minecraft:spruce_fence|
-  |`minecraft:spruce_fence_gate`|command.enum.unlockablerecipevalues.minecraft:spruce_fence_gate|
   |`minecraft:spruce_hanging_sign`|command.enum.unlockablerecipevalues.minecraft:spruce_hanging_sign|
-  |`minecraft:spruce_planks`|command.enum.unlockablerecipevalues.minecraft:spruce_planks|
-  |`minecraft:spruce_planks_from_stripped`|command.enum.unlockablerecipevalues.minecraft:spruce_planks_from_stripped|
-  |`minecraft:spruce_stairs`|command.enum.unlockablerecipevalues.minecraft:spruce_stairs|
-  |`minecraft:spruce_wooden_slab`|command.enum.unlockablerecipevalues.minecraft:spruce_wooden_slab|
   |`minecraft:spyglass`|command.enum.unlockablerecipevalues.minecraft:spyglass|
   |`minecraft:stick`|command.enum.unlockablerecipevalues.minecraft:stick|
   |`minecraft:sticky_piston`|command.enum.unlockablerecipevalues.minecraft:sticky_piston|
-  |`minecraft:stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonebrick|
   |`minecraft:stonecutter`|command.enum.unlockablerecipevalues.minecraft:stonecutter|
-  |`minecraft:stonecutter_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_slab|
-  |`minecraft:stonecutter_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_stairs|
-  |`minecraft:stonecutter_andesite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_andesite_wall|
   |`minecraft:stonecutter_blackstone_slab_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_slab_from_blackstone|
   |`minecraft:stonecutter_blackstone_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_stairs_from_blackstone|
   |`minecraft:stonecutter_blackstone_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_blackstone_wall_from_blackstone|
@@ -2819,119 +3371,56 @@ command.recipe.2.description
   |`minecraft:stonecutter_brick_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_slab_from_polished_blackstone|
   |`minecraft:stonecutter_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs|
   |`minecraft:stonecutter_brick_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_stairs_from_polished_blackstone|
-  |`minecraft:stonecutter_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_wall|
   |`minecraft:stonecutter_brick_wall_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_brick_wall_from_polished_blackstone|
   |`minecraft:stonecutter_chiseled_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_from_polished_blackstone|
   |`minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_nether_bricks_from_nether_brick|
   |`minecraft:stonecutter_chiseled_polished_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_chiseled_polished_from_blackstone|
   |`minecraft:stonecutter_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_stairs|
-  |`minecraft:stonecutter_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cobblestone_wall|
   |`minecraft:stonecutter_copper_block_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper|
   |`minecraft:stonecutter_copper_block_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper_slab|
   |`minecraft:stonecutter_copper_block_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_copper_block_to_cut_copper_stairs|
   |`minecraft:stonecutter_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_cut_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_dark_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_slab|
-  |`minecraft:stonecutter_dark_prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_dark_prismarine_stairs|
-  |`minecraft:stonecutter_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_slab|
-  |`minecraft:stonecutter_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_stairs|
-  |`minecraft:stonecutter_diorite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_diorite_wall|
   |`minecraft:stonecutter_endbricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbricks|
-  |`minecraft:stonecutter_endbrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab|
-  |`minecraft:stonecutter_endbrick_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_slab2|
   |`minecraft:stonecutter_endbrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_stairs|
   |`minecraft:stonecutter_endbrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_stairs2|
-  |`minecraft:stonecutter_endbrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall|
-  |`minecraft:stonecutter_endbrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_endbrick_wall2|
   |`minecraft:stonecutter_exposed_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_cut_copper|
   |`minecraft:stonecutter_exposed_copper_to_exposed_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_exposed_cut_copper_slab|
   |`minecraft:stonecutter_exposed_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_copper_to_cut_copper_stairs|
   |`minecraft:stonecutter_exposed_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_exposed_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_exposed_cut_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_slab|
-  |`minecraft:stonecutter_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_stairs|
-  |`minecraft:stonecutter_granite_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_granite_wall|
-  |`minecraft:stonecutter_mossy_cobbledouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobbledouble_stone_slab|
   |`minecraft:stonecutter_mossy_cobblestone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobblestone_stairs|
-  |`minecraft:stonecutter_mossy_cobblestone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_cobblestone_wall|
-  |`minecraft:stonecutter_mossy_stonebrick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_slab|
-  |`minecraft:stonecutter_mossy_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_stairs|
-  |`minecraft:stonecutter_mossy_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mossy_stonebrick_wall|
   |`minecraft:stonecutter_mud_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_slab|
   |`minecraft:stonecutter_mud_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_stairs|
   |`minecraft:stonecutter_mud_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_mud_brick_wall|
   |`minecraft:stonecutter_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_stairs|
-  |`minecraft:stonecutter_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_nether_brick_wall|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_oxidized_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_copper_to_cut_copper_stairs|
   |`minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_oxidized_cut_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_polished_andesite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite|
-  |`minecraft:stonecutter_polished_andesite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab|
-  |`minecraft:stonecutter_polished_andesite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_slab2|
-  |`minecraft:stonecutter_polished_andesite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs|
-  |`minecraft:stonecutter_polished_andesite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_andesite_stairs2|
   |`minecraft:stonecutter_polished_basalt_from_basalt`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_basalt_from_basalt|
   |`minecraft:stonecutter_polished_bricks_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_bricks_from_blackstone|
   |`minecraft:stonecutter_polished_brick_slab_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_brick_slab_from_blackstone|
   |`minecraft:stonecutter_polished_brick_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_brick_stairs_from_blackstone|
   |`minecraft:stonecutter_polished_brick_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_brick_wall_from_blackstone|
-  |`minecraft:stonecutter_polished_diorite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite|
-  |`minecraft:stonecutter_polished_diorite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab|
-  |`minecraft:stonecutter_polished_diorite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_slab2|
-  |`minecraft:stonecutter_polished_diorite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs|
-  |`minecraft:stonecutter_polished_diorite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_diorite_stairs2|
   |`minecraft:stonecutter_polished_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_from_blackstone|
-  |`minecraft:stonecutter_polished_granite`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite|
-  |`minecraft:stonecutter_polished_granite_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab|
-  |`minecraft:stonecutter_polished_granite_slab2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_slab2|
-  |`minecraft:stonecutter_polished_granite_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs|
-  |`minecraft:stonecutter_polished_granite_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_granite_stairs2|
   |`minecraft:stonecutter_polished_slab_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_slab_from_blackstone|
   |`minecraft:stonecutter_polished_stairs_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_stairs_from_blackstone|
   |`minecraft:stonecutter_polished_wall_from_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_polished_wall_from_blackstone|
-  |`minecraft:stonecutter_prismarine_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_slab|
-  |`minecraft:stonecutter_prismarine_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_brick_stairs|
-  |`minecraft:stonecutter_prismarine_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_slab|
   |`minecraft:stonecutter_prismarine_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_stairs|
-  |`minecraft:stonecutter_prismarine_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_prismarine_wall|
-  |`minecraft:stonecutter_purpur_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_lines|
-  |`minecraft:stonecutter_purpur_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_slab|
   |`minecraft:stonecutter_purpur_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_purpur_stairs|
   |`minecraft:stonecutter_quartz_bricks_from_quartz_block`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_bricks_from_quartz_block|
-  |`minecraft:stonecutter_quartz_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_chiseled|
-  |`minecraft:stonecutter_quartz_lines`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_lines|
   |`minecraft:stonecutter_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_quartz_stairs|
-  |`minecraft:stonecutter_red_nether_brick_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_slab|
   |`minecraft:stonecutter_red_nether_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_stairs|
-  |`minecraft:stonecutter_red_nether_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_nether_brick_wall|
-  |`minecraft:stonecutter_red_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_cut|
-  |`minecraft:stonecutter_red_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_heiroglyphs|
-  |`minecraft:stonecutter_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sanddouble_stone_slab|
   |`minecraft:stonecutter_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_stairs|
-  |`minecraft:stonecutter_red_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_red_sandstone_wall|
-  |`minecraft:stonecutter_sandstone_cut`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_cut|
-  |`minecraft:stonecutter_sandstone_heiroglyphs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_heiroglyphs|
   |`minecraft:stonecutter_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_stairs|
-  |`minecraft:stonecutter_sandstone_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_sandstone_wall|
   |`minecraft:stonecutter_slab_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_slab_from_polished_blackstone|
   |`minecraft:stonecutter_slab_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_slab_from_polished_blackstone_bricks|
-  |`minecraft:stonecutter_smooth_quartz_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_slab|
-  |`minecraft:stonecutter_smooth_quartz_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_quartz_stairs|
-  |`minecraft:stonecutter_smooth_red_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sanddouble_stone_slab|
-  |`minecraft:stonecutter_smooth_red_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_red_sandstone_stairs|
-  |`minecraft:stonecutter_smooth_sanddouble_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sanddouble_stone_slab|
   |`minecraft:stonecutter_smooth_sandstone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_smooth_sandstone_stairs|
   |`minecraft:stonecutter_stairs_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stairs_from_polished_blackstone|
   |`stonecutter_stairs_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.stonecutter_stairs_from_polished_blackstone_bricks|
-  |`minecraft:stonecutter_stonebrick`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick|
-  |`minecraft:stonecutter_stonebrick_chiseled`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_chiseled|
   |`minecraft:stonecutter_stonebrick_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs|
-  |`minecraft:stonecutter_stonebrick_stairs2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_stairs2|
-  |`minecraft:stonecutter_stonebrick_wall`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall|
-  |`minecraft:stonecutter_stonebrick_wall2`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stonebrick_wall2|
-  |`minecraft:stonecutter_double_stone_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_double_stone_slab|
   |`minecraft:stonecutter_stone_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_stone_stairs|
   |`minecraft:stonecutter_wall_from_polished_blackstone`|command.enum.unlockablerecipevalues.minecraft:stonecutter_wall_from_polished_blackstone|
   |`minecraft:stonecutter_wall_from_polished_blackstone_bricks`|command.enum.unlockablerecipevalues.minecraft:stonecutter_wall_from_polished_blackstone_bricks|
@@ -2953,7 +3442,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper|
   |`minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_copper_to_cut_copper_stairs|
-  |`minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_oxidized_cut_copper_to_cut_copper_stairs|
   |`minecraft:stonecutter_waxed_weathered_copper_to_cut_copper`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_copper_to_cut_copper|
   |`minecraft:stonecutter_waxed_weathered_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_copper_to_cut_copper_slab|
@@ -2961,8 +3449,6 @@ command.recipe.2.description
   |`minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_slab`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_slab|
   |`minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:stonecutter_waxed_weathered_cut_copper_to_cut_copper_stairs|
   |`minecraft:stone_axe`|command.enum.unlockablerecipevalues.minecraft:stone_axe|
-  |`minecraft:stone_brick_stairs`|command.enum.unlockablerecipevalues.minecraft:stone_brick_stairs|
-  |`minecraft:stone_brick_wall`|command.enum.unlockablerecipevalues.minecraft:stone_brick_wall|
   |`minecraft:stone_button`|command.enum.unlockablerecipevalues.minecraft:stone_button|
   |`minecraft:stone_hoe`|command.enum.unlockablerecipevalues.minecraft:stone_hoe|
   |`minecraft:stone_pickaxe`|command.enum.unlockablerecipevalues.minecraft:stone_pickaxe|
@@ -2970,7 +3456,6 @@ command.recipe.2.description
   |`minecraft:stone_shovel`|command.enum.unlockablerecipevalues.minecraft:stone_shovel|
   |`minecraft:stone_stairs`|command.enum.unlockablerecipevalues.minecraft:stone_stairs|
   |`minecraft:stone_sword`|command.enum.unlockablerecipevalues.minecraft:stone_sword|
-  |`minecraft:string_to_wool`|command.enum.unlockablerecipevalues.minecraft:string_to_wool|
   |`minecraft:stripped_mangrove_wood`|command.enum.unlockablerecipevalues.minecraft:stripped_mangrove_wood|
   |`minecraft:sugar`|command.enum.unlockablerecipevalues.minecraft:sugar|
   |`minecraft:target`|command.enum.unlockablerecipevalues.minecraft:target|
@@ -3019,30 +3504,17 @@ command.recipe.2.description
   |`minecraft:waxing_weathered_cut_copper_stairs`|command.enum.unlockablerecipevalues.minecraft:waxing_weathered_cut_copper_stairs|
   |`minecraft:wayfinder_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:wayfinder_armor_trim_smithing_template_duplicate|
   |`minecraft:wheat`|command.enum.unlockablerecipevalues.minecraft:wheat|
-  |`minecraft:white_banner`|command.enum.unlockablerecipevalues.minecraft:white_banner|
   |`minecraft:white_candle`|command.enum.unlockablerecipevalues.minecraft:white_candle|
   |`minecraft:white_candle_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_candle_from_bonemeal|
-  |`minecraft:white_carpet`|command.enum.unlockablerecipevalues.minecraft:white_carpet|
-  |`minecraft:white_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder|
-  |`minecraft:white_concrete_powder_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_concrete_powder_from_bonemeal|
   |`minecraft:white_dye_from_bone_meal`|command.enum.unlockablerecipevalues.minecraft:white_dye_from_bone_meal|
-  |`minecraft:white_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay|
-  |`minecraft:white_stained_hardened_clay_from_bonemeal`|command.enum.unlockablerecipevalues.minecraft:white_stained_hardened_clay_from_bonemeal|
   |`minecraft:wild_armor_trim_smithing_template_duplicate`|command.enum.unlockablerecipevalues.minecraft:wild_armor_trim_smithing_template_duplicate|
   |`minecraft:wooden_axe`|command.enum.unlockablerecipevalues.minecraft:wooden_axe|
-  |`minecraft:wooden_door`|command.enum.unlockablerecipevalues.minecraft:wooden_door|
   |`minecraft:wooden_hoe`|command.enum.unlockablerecipevalues.minecraft:wooden_hoe|
   |`minecraft:wooden_pickaxe`|command.enum.unlockablerecipevalues.minecraft:wooden_pickaxe|
   |`minecraft:wooden_shovel`|command.enum.unlockablerecipevalues.minecraft:wooden_shovel|
   |`minecraft:wooden_sword`|command.enum.unlockablerecipevalues.minecraft:wooden_sword|
   |`minecraft:writable_book`|command.enum.unlockablerecipevalues.minecraft:writable_book|
-  |`minecraft:yellow_banner`|command.enum.unlockablerecipevalues.minecraft:yellow_banner|
   |`minecraft:yellow_candle`|command.enum.unlockablerecipevalues.minecraft:yellow_candle|
-  |`minecraft:yellow_carpet`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet|
-  |`minecraft:yellow_carpet_from_white`|command.enum.unlockablerecipevalues.minecraft:yellow_carpet_from_white|
-  |`minecraft:yellow_concrete_powder`|command.enum.unlockablerecipevalues.minecraft:yellow_concrete_powder|
-  |`minecraft:yellow_dye_from_dandelion`|command.enum.unlockablerecipevalues.minecraft:yellow_dye_from_dandelion|
-  |`minecraft:yellow_stained_hardened_clay`|command.enum.unlockablerecipevalues.minecraft:yellow_stained_hardened_clay|
   |`wool_dye_wool_19_14`|command.enum.unlockablerecipevalues.wool_dye_wool_19_14|
   |`wool_dye_wool_19_13`|command.enum.unlockablerecipevalues.wool_dye_wool_19_13|
   |`wool_dye_wool_19_12`|command.enum.unlockablerecipevalues.wool_dye_wool_19_12|
@@ -3344,325 +3816,717 @@ command.recipe.2.description
   |`wool_dye_wool_0_2`|command.enum.unlockablerecipevalues.wool_dye_wool_0_2|
   |`wool_dye_wool_0_1`|command.enum.unlockablerecipevalues.wool_dye_wool_0_1|
   |`shulkerBox_shulker_box_color_dye_19_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_19_0|
-  |`shulkerBox_shulker_box_color_block_19_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_0_0|
-  |`shulkerBox_shulker_box_color_block_19_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_1_0|
-  |`shulkerBox_shulker_box_color_block_19_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_2_0|
-  |`shulkerBox_shulker_box_color_block_19_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_3_0|
-  |`shulkerBox_shulker_box_color_block_19_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_4_0|
-  |`shulkerBox_shulker_box_color_block_19_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_5_0|
-  |`shulkerBox_shulker_box_color_block_19_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_6_0|
-  |`shulkerBox_shulker_box_color_block_19_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_7_0|
-  |`shulkerBox_shulker_box_color_block_19_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_8_0|
-  |`shulkerBox_shulker_box_color_block_19_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_9_0|
-  |`shulkerBox_shulker_box_color_block_19_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_10_0|
-  |`shulkerBox_shulker_box_color_block_19_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_11_0|
-  |`shulkerBox_shulker_box_color_block_19_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_12_0|
-  |`shulkerBox_shulker_box_color_block_19_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_13_0|
   |`shulkerBox_shulker_box_color_block_19_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_14_0|
+  |`shulkerBox_shulker_box_color_block_19_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_13_0|
+  |`shulkerBox_shulker_box_color_block_19_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_12_0|
+  |`shulkerBox_shulker_box_color_block_19_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_11_0|
+  |`shulkerBox_shulker_box_color_block_19_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_10_0|
+  |`shulkerBox_shulker_box_color_block_19_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_9_0|
+  |`shulkerBox_shulker_box_color_block_19_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_8_0|
+  |`shulkerBox_shulker_box_color_block_19_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_7_0|
+  |`shulkerBox_shulker_box_color_block_19_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_6_0|
+  |`shulkerBox_shulker_box_color_block_19_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_5_0|
+  |`shulkerBox_shulker_box_color_block_19_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_4_0|
+  |`shulkerBox_shulker_box_color_block_19_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_3_0|
+  |`shulkerBox_shulker_box_color_block_19_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_2_0|
+  |`shulkerBox_shulker_box_color_block_19_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_1_0|
+  |`shulkerBox_shulker_box_color_block_19_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_19_0_0|
   |`shulkerBox_shulker_box_color_dye_18_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_18_0|
-  |`shulkerBox_shulker_box_color_block_18_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_0_0|
-  |`shulkerBox_shulker_box_color_block_18_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_1_0|
-  |`shulkerBox_shulker_box_color_block_18_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_2_0|
-  |`shulkerBox_shulker_box_color_block_18_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_3_0|
-  |`shulkerBox_shulker_box_color_block_18_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_5_0|
-  |`shulkerBox_shulker_box_color_block_18_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_6_0|
-  |`shulkerBox_shulker_box_color_block_18_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_7_0|
-  |`shulkerBox_shulker_box_color_block_18_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_8_0|
-  |`shulkerBox_shulker_box_color_block_18_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_9_0|
-  |`shulkerBox_shulker_box_color_block_18_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_10_0|
-  |`shulkerBox_shulker_box_color_block_18_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_11_0|
-  |`shulkerBox_shulker_box_color_block_18_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_12_0|
-  |`shulkerBox_shulker_box_color_block_18_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_13_0|
-  |`shulkerBox_shulker_box_color_block_18_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_14_0|
   |`shulkerBox_shulker_box_color_block_18_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_15_0|
+  |`shulkerBox_shulker_box_color_block_18_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_14_0|
+  |`shulkerBox_shulker_box_color_block_18_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_13_0|
+  |`shulkerBox_shulker_box_color_block_18_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_12_0|
+  |`shulkerBox_shulker_box_color_block_18_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_11_0|
+  |`shulkerBox_shulker_box_color_block_18_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_10_0|
+  |`shulkerBox_shulker_box_color_block_18_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_9_0|
+  |`shulkerBox_shulker_box_color_block_18_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_8_0|
+  |`shulkerBox_shulker_box_color_block_18_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_7_0|
+  |`shulkerBox_shulker_box_color_block_18_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_6_0|
+  |`shulkerBox_shulker_box_color_block_18_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_5_0|
+  |`shulkerBox_shulker_box_color_block_18_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_3_0|
+  |`shulkerBox_shulker_box_color_block_18_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_2_0|
+  |`shulkerBox_shulker_box_color_block_18_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_1_0|
+  |`shulkerBox_shulker_box_color_block_18_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_18_0_0|
   |`shulkerBox_shulker_box_color_dye_17_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_17_0|
-  |`shulkerBox_shulker_box_color_block_17_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_0_0|
-  |`shulkerBox_shulker_box_color_block_17_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_1_0|
-  |`shulkerBox_shulker_box_color_block_17_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_2_0|
-  |`shulkerBox_shulker_box_color_block_17_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_4_0|
-  |`shulkerBox_shulker_box_color_block_17_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_5_0|
-  |`shulkerBox_shulker_box_color_block_17_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_6_0|
-  |`shulkerBox_shulker_box_color_block_17_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_7_0|
-  |`shulkerBox_shulker_box_color_block_17_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_8_0|
-  |`shulkerBox_shulker_box_color_block_17_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_9_0|
-  |`shulkerBox_shulker_box_color_block_17_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_10_0|
-  |`shulkerBox_shulker_box_color_block_17_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_11_0|
-  |`shulkerBox_shulker_box_color_block_17_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_12_0|
-  |`shulkerBox_shulker_box_color_block_17_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_13_0|
-  |`shulkerBox_shulker_box_color_block_17_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_14_0|
   |`shulkerBox_shulker_box_color_block_17_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_15_0|
+  |`shulkerBox_shulker_box_color_block_17_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_14_0|
+  |`shulkerBox_shulker_box_color_block_17_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_13_0|
+  |`shulkerBox_shulker_box_color_block_17_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_12_0|
+  |`shulkerBox_shulker_box_color_block_17_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_11_0|
+  |`shulkerBox_shulker_box_color_block_17_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_10_0|
+  |`shulkerBox_shulker_box_color_block_17_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_9_0|
+  |`shulkerBox_shulker_box_color_block_17_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_8_0|
+  |`shulkerBox_shulker_box_color_block_17_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_7_0|
+  |`shulkerBox_shulker_box_color_block_17_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_6_0|
+  |`shulkerBox_shulker_box_color_block_17_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_5_0|
+  |`shulkerBox_shulker_box_color_block_17_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_4_0|
+  |`shulkerBox_shulker_box_color_block_17_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_2_0|
+  |`shulkerBox_shulker_box_color_block_17_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_1_0|
+  |`shulkerBox_shulker_box_color_block_17_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_17_0_0|
   |`shulkerBox_shulker_box_color_dye_16_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_16_0|
-  |`shulkerBox_shulker_box_color_block_16_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_1_0|
-  |`shulkerBox_shulker_box_color_block_16_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_2_0|
-  |`shulkerBox_shulker_box_color_block_16_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_3_0|
-  |`shulkerBox_shulker_box_color_block_16_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_4_0|
-  |`shulkerBox_shulker_box_color_block_16_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_5_0|
-  |`shulkerBox_shulker_box_color_block_16_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_6_0|
-  |`shulkerBox_shulker_box_color_block_16_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_7_0|
-  |`shulkerBox_shulker_box_color_block_16_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_8_0|
-  |`shulkerBox_shulker_box_color_block_16_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_9_0|
-  |`shulkerBox_shulker_box_color_block_16_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_10_0|
-  |`shulkerBox_shulker_box_color_block_16_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_11_0|
-  |`shulkerBox_shulker_box_color_block_16_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_12_0|
-  |`shulkerBox_shulker_box_color_block_16_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_13_0|
-  |`shulkerBox_shulker_box_color_block_16_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_14_0|
   |`shulkerBox_shulker_box_color_block_16_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_15_0|
+  |`shulkerBox_shulker_box_color_block_16_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_14_0|
+  |`shulkerBox_shulker_box_color_block_16_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_13_0|
+  |`shulkerBox_shulker_box_color_block_16_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_12_0|
+  |`shulkerBox_shulker_box_color_block_16_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_11_0|
+  |`shulkerBox_shulker_box_color_block_16_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_10_0|
+  |`shulkerBox_shulker_box_color_block_16_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_9_0|
+  |`shulkerBox_shulker_box_color_block_16_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_8_0|
+  |`shulkerBox_shulker_box_color_block_16_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_7_0|
+  |`shulkerBox_shulker_box_color_block_16_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_6_0|
+  |`shulkerBox_shulker_box_color_block_16_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_5_0|
+  |`shulkerBox_shulker_box_color_block_16_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_4_0|
+  |`shulkerBox_shulker_box_color_block_16_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_3_0|
+  |`shulkerBox_shulker_box_color_block_16_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_2_0|
+  |`shulkerBox_shulker_box_color_block_16_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_16_1_0|
   |`shulkerBox_shulker_box_color_dye_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_15_0|
-  |`shulkerBox_shulker_box_color_block_15_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_0_0|
-  |`shulkerBox_shulker_box_color_block_15_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_1_0|
-  |`shulkerBox_shulker_box_color_block_15_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_2_0|
-  |`shulkerBox_shulker_box_color_block_15_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_3_0|
-  |`shulkerBox_shulker_box_color_block_15_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_4_0|
-  |`shulkerBox_shulker_box_color_block_15_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_5_0|
-  |`shulkerBox_shulker_box_color_block_15_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_6_0|
-  |`shulkerBox_shulker_box_color_block_15_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_7_0|
-  |`shulkerBox_shulker_box_color_block_15_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_8_0|
-  |`shulkerBox_shulker_box_color_block_15_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_9_0|
-  |`shulkerBox_shulker_box_color_block_15_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_10_0|
-  |`shulkerBox_shulker_box_color_block_15_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_11_0|
-  |`shulkerBox_shulker_box_color_block_15_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_12_0|
-  |`shulkerBox_shulker_box_color_block_15_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_13_0|
   |`shulkerBox_shulker_box_color_block_15_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_14_0|
+  |`shulkerBox_shulker_box_color_block_15_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_13_0|
+  |`shulkerBox_shulker_box_color_block_15_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_12_0|
+  |`shulkerBox_shulker_box_color_block_15_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_11_0|
+  |`shulkerBox_shulker_box_color_block_15_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_10_0|
+  |`shulkerBox_shulker_box_color_block_15_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_9_0|
+  |`shulkerBox_shulker_box_color_block_15_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_8_0|
+  |`shulkerBox_shulker_box_color_block_15_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_7_0|
+  |`shulkerBox_shulker_box_color_block_15_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_6_0|
+  |`shulkerBox_shulker_box_color_block_15_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_5_0|
+  |`shulkerBox_shulker_box_color_block_15_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_4_0|
+  |`shulkerBox_shulker_box_color_block_15_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_3_0|
+  |`shulkerBox_shulker_box_color_block_15_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_2_0|
+  |`shulkerBox_shulker_box_color_block_15_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_1_0|
+  |`shulkerBox_shulker_box_color_block_15_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_15_0_0|
   |`shulkerBox_shulker_box_color_dye_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_14_0|
-  |`shulkerBox_shulker_box_color_block_14_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_0_0|
-  |`shulkerBox_shulker_box_color_block_14_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_1_0|
-  |`shulkerBox_shulker_box_color_block_14_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_2_0|
-  |`shulkerBox_shulker_box_color_block_14_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_3_0|
-  |`shulkerBox_shulker_box_color_block_14_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_4_0|
-  |`shulkerBox_shulker_box_color_block_14_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_5_0|
-  |`shulkerBox_shulker_box_color_block_14_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_6_0|
-  |`shulkerBox_shulker_box_color_block_14_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_7_0|
-  |`shulkerBox_shulker_box_color_block_14_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_8_0|
-  |`shulkerBox_shulker_box_color_block_14_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_9_0|
-  |`shulkerBox_shulker_box_color_block_14_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_10_0|
-  |`shulkerBox_shulker_box_color_block_14_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_11_0|
-  |`shulkerBox_shulker_box_color_block_14_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_12_0|
-  |`shulkerBox_shulker_box_color_block_14_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_13_0|
   |`shulkerBox_shulker_box_color_block_14_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_15_0|
+  |`shulkerBox_shulker_box_color_block_14_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_13_0|
+  |`shulkerBox_shulker_box_color_block_14_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_12_0|
+  |`shulkerBox_shulker_box_color_block_14_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_11_0|
+  |`shulkerBox_shulker_box_color_block_14_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_10_0|
+  |`shulkerBox_shulker_box_color_block_14_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_9_0|
+  |`shulkerBox_shulker_box_color_block_14_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_8_0|
+  |`shulkerBox_shulker_box_color_block_14_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_7_0|
+  |`shulkerBox_shulker_box_color_block_14_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_6_0|
+  |`shulkerBox_shulker_box_color_block_14_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_5_0|
+  |`shulkerBox_shulker_box_color_block_14_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_4_0|
+  |`shulkerBox_shulker_box_color_block_14_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_3_0|
+  |`shulkerBox_shulker_box_color_block_14_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_2_0|
+  |`shulkerBox_shulker_box_color_block_14_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_1_0|
+  |`shulkerBox_shulker_box_color_block_14_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_14_0_0|
   |`shulkerBox_shulker_box_color_dye_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_13_0|
-  |`shulkerBox_shulker_box_color_block_13_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_0_0|
-  |`shulkerBox_shulker_box_color_block_13_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_1_0|
-  |`shulkerBox_shulker_box_color_block_13_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_2_0|
-  |`shulkerBox_shulker_box_color_block_13_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_3_0|
-  |`shulkerBox_shulker_box_color_block_13_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_4_0|
-  |`shulkerBox_shulker_box_color_block_13_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_5_0|
-  |`shulkerBox_shulker_box_color_block_13_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_6_0|
-  |`shulkerBox_shulker_box_color_block_13_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_7_0|
-  |`shulkerBox_shulker_box_color_block_13_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_8_0|
-  |`shulkerBox_shulker_box_color_block_13_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_9_0|
-  |`shulkerBox_shulker_box_color_block_13_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_10_0|
-  |`shulkerBox_shulker_box_color_block_13_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_11_0|
-  |`shulkerBox_shulker_box_color_block_13_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_12_0|
-  |`shulkerBox_shulker_box_color_block_13_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_14_0|
   |`shulkerBox_shulker_box_color_block_13_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_15_0|
+  |`shulkerBox_shulker_box_color_block_13_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_14_0|
+  |`shulkerBox_shulker_box_color_block_13_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_12_0|
+  |`shulkerBox_shulker_box_color_block_13_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_11_0|
+  |`shulkerBox_shulker_box_color_block_13_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_10_0|
+  |`shulkerBox_shulker_box_color_block_13_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_9_0|
+  |`shulkerBox_shulker_box_color_block_13_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_8_0|
+  |`shulkerBox_shulker_box_color_block_13_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_7_0|
+  |`shulkerBox_shulker_box_color_block_13_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_6_0|
+  |`shulkerBox_shulker_box_color_block_13_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_5_0|
+  |`shulkerBox_shulker_box_color_block_13_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_4_0|
+  |`shulkerBox_shulker_box_color_block_13_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_3_0|
+  |`shulkerBox_shulker_box_color_block_13_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_2_0|
+  |`shulkerBox_shulker_box_color_block_13_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_1_0|
+  |`shulkerBox_shulker_box_color_block_13_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_13_0_0|
   |`shulkerBox_shulker_box_color_dye_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_12_0|
-  |`shulkerBox_shulker_box_color_block_12_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_0_0|
-  |`shulkerBox_shulker_box_color_block_12_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_1_0|
-  |`shulkerBox_shulker_box_color_block_12_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_2_0|
-  |`shulkerBox_shulker_box_color_block_12_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_3_0|
-  |`shulkerBox_shulker_box_color_block_12_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_4_0|
-  |`shulkerBox_shulker_box_color_block_12_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_5_0|
-  |`shulkerBox_shulker_box_color_block_12_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_6_0|
-  |`shulkerBox_shulker_box_color_block_12_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_7_0|
-  |`shulkerBox_shulker_box_color_block_12_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_8_0|
-  |`shulkerBox_shulker_box_color_block_12_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_9_0|
-  |`shulkerBox_shulker_box_color_block_12_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_10_0|
-  |`shulkerBox_shulker_box_color_block_12_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_11_0|
-  |`shulkerBox_shulker_box_color_block_12_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_13_0|
-  |`shulkerBox_shulker_box_color_block_12_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_14_0|
   |`shulkerBox_shulker_box_color_block_12_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_15_0|
+  |`shulkerBox_shulker_box_color_block_12_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_14_0|
+  |`shulkerBox_shulker_box_color_block_12_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_13_0|
+  |`shulkerBox_shulker_box_color_block_12_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_11_0|
+  |`shulkerBox_shulker_box_color_block_12_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_10_0|
+  |`shulkerBox_shulker_box_color_block_12_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_9_0|
+  |`shulkerBox_shulker_box_color_block_12_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_8_0|
+  |`shulkerBox_shulker_box_color_block_12_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_7_0|
+  |`shulkerBox_shulker_box_color_block_12_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_6_0|
+  |`shulkerBox_shulker_box_color_block_12_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_5_0|
+  |`shulkerBox_shulker_box_color_block_12_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_4_0|
+  |`shulkerBox_shulker_box_color_block_12_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_3_0|
+  |`shulkerBox_shulker_box_color_block_12_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_2_0|
+  |`shulkerBox_shulker_box_color_block_12_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_1_0|
+  |`shulkerBox_shulker_box_color_block_12_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_12_0_0|
   |`shulkerBox_shulker_box_color_dye_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_11_0|
-  |`shulkerBox_shulker_box_color_block_11_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_0_0|
-  |`shulkerBox_shulker_box_color_block_11_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_1_0|
-  |`shulkerBox_shulker_box_color_block_11_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_2_0|
-  |`shulkerBox_shulker_box_color_block_11_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_3_0|
-  |`shulkerBox_shulker_box_color_block_11_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_4_0|
-  |`shulkerBox_shulker_box_color_block_11_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_5_0|
-  |`shulkerBox_shulker_box_color_block_11_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_6_0|
-  |`shulkerBox_shulker_box_color_block_11_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_7_0|
-  |`shulkerBox_shulker_box_color_block_11_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_8_0|
-  |`shulkerBox_shulker_box_color_block_11_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_9_0|
-  |`shulkerBox_shulker_box_color_block_11_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_10_0|
-  |`shulkerBox_shulker_box_color_block_11_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_12_0|
-  |`shulkerBox_shulker_box_color_block_11_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_13_0|
-  |`shulkerBox_shulker_box_color_block_11_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_14_0|
   |`shulkerBox_shulker_box_color_block_11_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_15_0|
+  |`shulkerBox_shulker_box_color_block_11_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_14_0|
+  |`shulkerBox_shulker_box_color_block_11_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_13_0|
+  |`shulkerBox_shulker_box_color_block_11_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_12_0|
+  |`shulkerBox_shulker_box_color_block_11_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_10_0|
+  |`shulkerBox_shulker_box_color_block_11_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_9_0|
+  |`shulkerBox_shulker_box_color_block_11_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_8_0|
+  |`shulkerBox_shulker_box_color_block_11_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_7_0|
+  |`shulkerBox_shulker_box_color_block_11_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_6_0|
+  |`shulkerBox_shulker_box_color_block_11_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_5_0|
+  |`shulkerBox_shulker_box_color_block_11_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_4_0|
+  |`shulkerBox_shulker_box_color_block_11_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_3_0|
+  |`shulkerBox_shulker_box_color_block_11_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_2_0|
+  |`shulkerBox_shulker_box_color_block_11_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_1_0|
+  |`shulkerBox_shulker_box_color_block_11_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_11_0_0|
   |`shulkerBox_shulker_box_color_dye_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_10_0|
-  |`shulkerBox_shulker_box_color_block_10_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_0_0|
-  |`shulkerBox_shulker_box_color_block_10_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_1_0|
-  |`shulkerBox_shulker_box_color_block_10_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_2_0|
-  |`shulkerBox_shulker_box_color_block_10_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_3_0|
-  |`shulkerBox_shulker_box_color_block_10_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_4_0|
-  |`shulkerBox_shulker_box_color_block_10_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_5_0|
-  |`shulkerBox_shulker_box_color_block_10_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_6_0|
-  |`shulkerBox_shulker_box_color_block_10_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_7_0|
-  |`shulkerBox_shulker_box_color_block_10_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_8_0|
-  |`shulkerBox_shulker_box_color_block_10_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_9_0|
-  |`shulkerBox_shulker_box_color_block_10_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_11_0|
-  |`shulkerBox_shulker_box_color_block_10_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_12_0|
-  |`shulkerBox_shulker_box_color_block_10_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_13_0|
-  |`shulkerBox_shulker_box_color_block_10_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_14_0|
   |`shulkerBox_shulker_box_color_block_10_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_15_0|
+  |`shulkerBox_shulker_box_color_block_10_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_14_0|
+  |`shulkerBox_shulker_box_color_block_10_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_13_0|
+  |`shulkerBox_shulker_box_color_block_10_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_12_0|
+  |`shulkerBox_shulker_box_color_block_10_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_11_0|
+  |`shulkerBox_shulker_box_color_block_10_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_9_0|
+  |`shulkerBox_shulker_box_color_block_10_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_8_0|
+  |`shulkerBox_shulker_box_color_block_10_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_7_0|
+  |`shulkerBox_shulker_box_color_block_10_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_6_0|
+  |`shulkerBox_shulker_box_color_block_10_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_5_0|
+  |`shulkerBox_shulker_box_color_block_10_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_4_0|
+  |`shulkerBox_shulker_box_color_block_10_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_3_0|
+  |`shulkerBox_shulker_box_color_block_10_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_2_0|
+  |`shulkerBox_shulker_box_color_block_10_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_1_0|
+  |`shulkerBox_shulker_box_color_block_10_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_10_0_0|
   |`shulkerBox_shulker_box_color_dye_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_9_0|
-  |`shulkerBox_shulker_box_color_block_9_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_0_0|
-  |`shulkerBox_shulker_box_color_block_9_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_1_0|
-  |`shulkerBox_shulker_box_color_block_9_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_2_0|
-  |`shulkerBox_shulker_box_color_block_9_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_3_0|
-  |`shulkerBox_shulker_box_color_block_9_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_4_0|
-  |`shulkerBox_shulker_box_color_block_9_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_5_0|
-  |`shulkerBox_shulker_box_color_block_9_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_6_0|
-  |`shulkerBox_shulker_box_color_block_9_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_7_0|
-  |`shulkerBox_shulker_box_color_block_9_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_8_0|
-  |`shulkerBox_shulker_box_color_block_9_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_10_0|
-  |`shulkerBox_shulker_box_color_block_9_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_11_0|
-  |`shulkerBox_shulker_box_color_block_9_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_12_0|
-  |`shulkerBox_shulker_box_color_block_9_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_13_0|
-  |`shulkerBox_shulker_box_color_block_9_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_14_0|
   |`shulkerBox_shulker_box_color_block_9_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_15_0|
+  |`shulkerBox_shulker_box_color_block_9_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_14_0|
+  |`shulkerBox_shulker_box_color_block_9_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_13_0|
+  |`shulkerBox_shulker_box_color_block_9_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_12_0|
+  |`shulkerBox_shulker_box_color_block_9_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_11_0|
+  |`shulkerBox_shulker_box_color_block_9_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_10_0|
+  |`shulkerBox_shulker_box_color_block_9_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_8_0|
+  |`shulkerBox_shulker_box_color_block_9_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_7_0|
+  |`shulkerBox_shulker_box_color_block_9_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_6_0|
+  |`shulkerBox_shulker_box_color_block_9_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_5_0|
+  |`shulkerBox_shulker_box_color_block_9_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_4_0|
+  |`shulkerBox_shulker_box_color_block_9_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_3_0|
+  |`shulkerBox_shulker_box_color_block_9_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_2_0|
+  |`shulkerBox_shulker_box_color_block_9_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_1_0|
+  |`shulkerBox_shulker_box_color_block_9_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_9_0_0|
   |`shulkerBox_shulker_box_color_dye_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_8_0|
-  |`shulkerBox_shulker_box_color_block_8_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_0_0|
-  |`shulkerBox_shulker_box_color_block_8_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_1_0|
-  |`shulkerBox_shulker_box_color_block_8_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_2_0|
-  |`shulkerBox_shulker_box_color_block_8_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_3_0|
-  |`shulkerBox_shulker_box_color_block_8_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_4_0|
-  |`shulkerBox_shulker_box_color_block_8_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_5_0|
-  |`shulkerBox_shulker_box_color_block_8_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_6_0|
-  |`shulkerBox_shulker_box_color_block_8_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_7_0|
-  |`shulkerBox_shulker_box_color_block_8_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_9_0|
-  |`shulkerBox_shulker_box_color_block_8_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_10_0|
-  |`shulkerBox_shulker_box_color_block_8_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_11_0|
-  |`shulkerBox_shulker_box_color_block_8_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_12_0|
-  |`shulkerBox_shulker_box_color_block_8_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_13_0|
-  |`shulkerBox_shulker_box_color_block_8_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_14_0|
   |`shulkerBox_shulker_box_color_block_8_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_15_0|
+  |`shulkerBox_shulker_box_color_block_8_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_14_0|
+  |`shulkerBox_shulker_box_color_block_8_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_13_0|
+  |`shulkerBox_shulker_box_color_block_8_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_12_0|
+  |`shulkerBox_shulker_box_color_block_8_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_11_0|
+  |`shulkerBox_shulker_box_color_block_8_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_10_0|
+  |`shulkerBox_shulker_box_color_block_8_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_9_0|
+  |`shulkerBox_shulker_box_color_block_8_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_7_0|
+  |`shulkerBox_shulker_box_color_block_8_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_6_0|
+  |`shulkerBox_shulker_box_color_block_8_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_5_0|
+  |`shulkerBox_shulker_box_color_block_8_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_4_0|
+  |`shulkerBox_shulker_box_color_block_8_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_3_0|
+  |`shulkerBox_shulker_box_color_block_8_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_2_0|
+  |`shulkerBox_shulker_box_color_block_8_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_1_0|
+  |`shulkerBox_shulker_box_color_block_8_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_8_0_0|
   |`shulkerBox_shulker_box_color_dye_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_7_0|
-  |`shulkerBox_shulker_box_color_block_7_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_0_0|
-  |`shulkerBox_shulker_box_color_block_7_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_1_0|
-  |`shulkerBox_shulker_box_color_block_7_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_2_0|
-  |`shulkerBox_shulker_box_color_block_7_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_3_0|
-  |`shulkerBox_shulker_box_color_block_7_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_4_0|
-  |`shulkerBox_shulker_box_color_block_7_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_5_0|
-  |`shulkerBox_shulker_box_color_block_7_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_6_0|
-  |`shulkerBox_shulker_box_color_block_7_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_8_0|
-  |`shulkerBox_shulker_box_color_block_7_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_9_0|
-  |`shulkerBox_shulker_box_color_block_7_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_10_0|
-  |`shulkerBox_shulker_box_color_block_7_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_11_0|
-  |`shulkerBox_shulker_box_color_block_7_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_12_0|
-  |`shulkerBox_shulker_box_color_block_7_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_13_0|
-  |`shulkerBox_shulker_box_color_block_7_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_14_0|
   |`shulkerBox_shulker_box_color_block_7_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_15_0|
+  |`shulkerBox_shulker_box_color_block_7_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_14_0|
+  |`shulkerBox_shulker_box_color_block_7_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_13_0|
+  |`shulkerBox_shulker_box_color_block_7_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_12_0|
+  |`shulkerBox_shulker_box_color_block_7_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_11_0|
+  |`shulkerBox_shulker_box_color_block_7_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_10_0|
+  |`shulkerBox_shulker_box_color_block_7_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_9_0|
+  |`shulkerBox_shulker_box_color_block_7_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_8_0|
+  |`shulkerBox_shulker_box_color_block_7_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_6_0|
+  |`shulkerBox_shulker_box_color_block_7_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_5_0|
+  |`shulkerBox_shulker_box_color_block_7_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_4_0|
+  |`shulkerBox_shulker_box_color_block_7_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_3_0|
+  |`shulkerBox_shulker_box_color_block_7_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_2_0|
+  |`shulkerBox_shulker_box_color_block_7_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_1_0|
+  |`shulkerBox_shulker_box_color_block_7_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_7_0_0|
   |`shulkerBox_shulker_box_color_dye_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_6_0|
-  |`shulkerBox_shulker_box_color_block_6_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_0_0|
-  |`shulkerBox_shulker_box_color_block_6_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_1_0|
-  |`shulkerBox_shulker_box_color_block_6_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_2_0|
-  |`shulkerBox_shulker_box_color_block_6_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_3_0|
-  |`shulkerBox_shulker_box_color_block_6_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_4_0|
-  |`shulkerBox_shulker_box_color_block_6_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_5_0|
-  |`shulkerBox_shulker_box_color_block_6_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_7_0|
-  |`shulkerBox_shulker_box_color_block_6_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_8_0|
-  |`shulkerBox_shulker_box_color_block_6_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_9_0|
-  |`shulkerBox_shulker_box_color_block_6_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_10_0|
-  |`shulkerBox_shulker_box_color_block_6_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_11_0|
-  |`shulkerBox_shulker_box_color_block_6_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_12_0|
-  |`shulkerBox_shulker_box_color_block_6_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_13_0|
-  |`shulkerBox_shulker_box_color_block_6_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_14_0|
   |`shulkerBox_shulker_box_color_block_6_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_15_0|
+  |`shulkerBox_shulker_box_color_block_6_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_14_0|
+  |`shulkerBox_shulker_box_color_block_6_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_13_0|
+  |`shulkerBox_shulker_box_color_block_6_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_12_0|
+  |`shulkerBox_shulker_box_color_block_6_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_11_0|
+  |`shulkerBox_shulker_box_color_block_6_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_10_0|
+  |`shulkerBox_shulker_box_color_block_6_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_9_0|
+  |`shulkerBox_shulker_box_color_block_6_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_8_0|
+  |`shulkerBox_shulker_box_color_block_6_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_7_0|
+  |`shulkerBox_shulker_box_color_block_6_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_5_0|
+  |`shulkerBox_shulker_box_color_block_6_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_4_0|
+  |`shulkerBox_shulker_box_color_block_6_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_3_0|
+  |`shulkerBox_shulker_box_color_block_6_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_2_0|
+  |`shulkerBox_shulker_box_color_block_6_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_1_0|
+  |`shulkerBox_shulker_box_color_block_6_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_6_0_0|
   |`shulkerBox_shulker_box_color_dye_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_5_0|
-  |`shulkerBox_shulker_box_color_block_5_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_0_0|
-  |`shulkerBox_shulker_box_color_block_5_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_1_0|
-  |`shulkerBox_shulker_box_color_block_5_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_2_0|
-  |`shulkerBox_shulker_box_color_block_5_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_3_0|
-  |`shulkerBox_shulker_box_color_block_5_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_4_0|
-  |`shulkerBox_shulker_box_color_block_5_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_6_0|
-  |`shulkerBox_shulker_box_color_block_5_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_7_0|
-  |`shulkerBox_shulker_box_color_block_5_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_8_0|
-  |`shulkerBox_shulker_box_color_block_5_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_9_0|
-  |`shulkerBox_shulker_box_color_block_5_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_10_0|
-  |`shulkerBox_shulker_box_color_block_5_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_11_0|
-  |`shulkerBox_shulker_box_color_block_5_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_12_0|
-  |`shulkerBox_shulker_box_color_block_5_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_13_0|
-  |`shulkerBox_shulker_box_color_block_5_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_14_0|
   |`shulkerBox_shulker_box_color_block_5_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_15_0|
+  |`shulkerBox_shulker_box_color_block_5_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_14_0|
+  |`shulkerBox_shulker_box_color_block_5_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_13_0|
+  |`shulkerBox_shulker_box_color_block_5_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_12_0|
+  |`shulkerBox_shulker_box_color_block_5_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_11_0|
+  |`shulkerBox_shulker_box_color_block_5_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_10_0|
+  |`shulkerBox_shulker_box_color_block_5_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_9_0|
+  |`shulkerBox_shulker_box_color_block_5_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_8_0|
+  |`shulkerBox_shulker_box_color_block_5_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_7_0|
+  |`shulkerBox_shulker_box_color_block_5_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_6_0|
+  |`shulkerBox_shulker_box_color_block_5_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_4_0|
+  |`shulkerBox_shulker_box_color_block_5_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_3_0|
+  |`shulkerBox_shulker_box_color_block_5_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_2_0|
+  |`shulkerBox_shulker_box_color_block_5_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_1_0|
+  |`shulkerBox_shulker_box_color_block_5_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_5_0_0|
   |`shulkerBox_shulker_box_color_dye_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_4_0|
-  |`shulkerBox_shulker_box_color_block_4_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_0_0|
-  |`shulkerBox_shulker_box_color_block_4_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_1_0|
-  |`shulkerBox_shulker_box_color_block_4_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_2_0|
-  |`shulkerBox_shulker_box_color_block_4_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_3_0|
-  |`shulkerBox_shulker_box_color_block_4_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_5_0|
-  |`shulkerBox_shulker_box_color_block_4_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_6_0|
-  |`shulkerBox_shulker_box_color_block_4_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_7_0|
-  |`shulkerBox_shulker_box_color_block_4_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_8_0|
-  |`shulkerBox_shulker_box_color_block_4_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_9_0|
-  |`shulkerBox_shulker_box_color_block_4_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_10_0|
-  |`shulkerBox_shulker_box_color_block_4_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_11_0|
-  |`shulkerBox_shulker_box_color_block_4_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_12_0|
-  |`shulkerBox_shulker_box_color_block_4_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_13_0|
-  |`shulkerBox_shulker_box_color_block_4_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_14_0|
   |`shulkerBox_shulker_box_color_block_4_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_15_0|
+  |`shulkerBox_shulker_box_color_block_4_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_14_0|
+  |`shulkerBox_shulker_box_color_block_4_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_13_0|
+  |`shulkerBox_shulker_box_color_block_4_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_12_0|
+  |`shulkerBox_shulker_box_color_block_4_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_11_0|
+  |`shulkerBox_shulker_box_color_block_4_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_10_0|
+  |`shulkerBox_shulker_box_color_block_4_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_9_0|
+  |`shulkerBox_shulker_box_color_block_4_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_8_0|
+  |`shulkerBox_shulker_box_color_block_4_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_7_0|
+  |`shulkerBox_shulker_box_color_block_4_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_6_0|
+  |`shulkerBox_shulker_box_color_block_4_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_5_0|
+  |`shulkerBox_shulker_box_color_block_4_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_3_0|
+  |`shulkerBox_shulker_box_color_block_4_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_2_0|
+  |`shulkerBox_shulker_box_color_block_4_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_1_0|
+  |`shulkerBox_shulker_box_color_block_4_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_4_0_0|
   |`shulkerBox_shulker_box_color_dye_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_3_0|
-  |`shulkerBox_shulker_box_color_block_3_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_0_0|
-  |`shulkerBox_shulker_box_color_block_3_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_1_0|
-  |`shulkerBox_shulker_box_color_block_3_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_2_0|
-  |`shulkerBox_shulker_box_color_block_3_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_4_0|
-  |`shulkerBox_shulker_box_color_block_3_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_5_0|
-  |`shulkerBox_shulker_box_color_block_3_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_6_0|
-  |`shulkerBox_shulker_box_color_block_3_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_7_0|
-  |`shulkerBox_shulker_box_color_block_3_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_8_0|
-  |`shulkerBox_shulker_box_color_block_3_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_9_0|
-  |`shulkerBox_shulker_box_color_block_3_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_10_0|
-  |`shulkerBox_shulker_box_color_block_3_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_11_0|
-  |`shulkerBox_shulker_box_color_block_3_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_12_0|
-  |`shulkerBox_shulker_box_color_block_3_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_13_0|
-  |`shulkerBox_shulker_box_color_block_3_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_14_0|
   |`shulkerBox_shulker_box_color_block_3_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_15_0|
+  |`shulkerBox_shulker_box_color_block_3_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_14_0|
+  |`shulkerBox_shulker_box_color_block_3_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_13_0|
+  |`shulkerBox_shulker_box_color_block_3_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_12_0|
+  |`shulkerBox_shulker_box_color_block_3_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_11_0|
+  |`shulkerBox_shulker_box_color_block_3_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_10_0|
+  |`shulkerBox_shulker_box_color_block_3_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_9_0|
+  |`shulkerBox_shulker_box_color_block_3_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_8_0|
+  |`shulkerBox_shulker_box_color_block_3_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_7_0|
+  |`shulkerBox_shulker_box_color_block_3_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_6_0|
+  |`shulkerBox_shulker_box_color_block_3_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_5_0|
+  |`shulkerBox_shulker_box_color_block_3_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_4_0|
+  |`shulkerBox_shulker_box_color_block_3_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_2_0|
+  |`shulkerBox_shulker_box_color_block_3_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_1_0|
+  |`shulkerBox_shulker_box_color_block_3_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_3_0_0|
   |`shulkerBox_shulker_box_color_dye_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_2_0|
-  |`shulkerBox_shulker_box_color_block_2_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_0_0|
-  |`shulkerBox_shulker_box_color_block_2_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_1_0|
-  |`shulkerBox_shulker_box_color_block_2_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_3_0|
-  |`shulkerBox_shulker_box_color_block_2_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_4_0|
-  |`shulkerBox_shulker_box_color_block_2_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_5_0|
-  |`shulkerBox_shulker_box_color_block_2_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_6_0|
-  |`shulkerBox_shulker_box_color_block_2_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_7_0|
-  |`shulkerBox_shulker_box_color_block_2_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_8_0|
-  |`shulkerBox_shulker_box_color_block_2_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_9_0|
-  |`shulkerBox_shulker_box_color_block_2_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_10_0|
-  |`shulkerBox_shulker_box_color_block_2_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_11_0|
-  |`shulkerBox_shulker_box_color_block_2_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_12_0|
-  |`shulkerBox_shulker_box_color_block_2_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_13_0|
-  |`shulkerBox_shulker_box_color_block_2_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_14_0|
   |`shulkerBox_shulker_box_color_block_2_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_15_0|
+  |`shulkerBox_shulker_box_color_block_2_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_14_0|
+  |`shulkerBox_shulker_box_color_block_2_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_13_0|
+  |`shulkerBox_shulker_box_color_block_2_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_12_0|
+  |`shulkerBox_shulker_box_color_block_2_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_11_0|
+  |`shulkerBox_shulker_box_color_block_2_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_10_0|
+  |`shulkerBox_shulker_box_color_block_2_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_9_0|
+  |`shulkerBox_shulker_box_color_block_2_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_8_0|
+  |`shulkerBox_shulker_box_color_block_2_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_7_0|
+  |`shulkerBox_shulker_box_color_block_2_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_6_0|
+  |`shulkerBox_shulker_box_color_block_2_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_5_0|
+  |`shulkerBox_shulker_box_color_block_2_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_4_0|
+  |`shulkerBox_shulker_box_color_block_2_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_3_0|
+  |`shulkerBox_shulker_box_color_block_2_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_1_0|
+  |`shulkerBox_shulker_box_color_block_2_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_2_0_0|
   |`shulkerBox_shulker_box_color_dye_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_1_0|
-  |`shulkerBox_shulker_box_color_block_1_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_0_0|
-  |`shulkerBox_shulker_box_color_block_1_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_2_0|
-  |`shulkerBox_shulker_box_color_block_1_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_3_0|
-  |`shulkerBox_shulker_box_color_block_1_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_4_0|
-  |`shulkerBox_shulker_box_color_block_1_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_5_0|
-  |`shulkerBox_shulker_box_color_block_1_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_6_0|
-  |`shulkerBox_shulker_box_color_block_1_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_7_0|
-  |`shulkerBox_shulker_box_color_block_1_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_8_0|
-  |`shulkerBox_shulker_box_color_block_1_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_9_0|
-  |`shulkerBox_shulker_box_color_block_1_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_10_0|
-  |`shulkerBox_shulker_box_color_block_1_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_11_0|
-  |`shulkerBox_shulker_box_color_block_1_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_12_0|
-  |`shulkerBox_shulker_box_color_block_1_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_13_0|
-  |`shulkerBox_shulker_box_color_block_1_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_14_0|
   |`shulkerBox_shulker_box_color_block_1_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_15_0|
+  |`shulkerBox_shulker_box_color_block_1_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_14_0|
+  |`shulkerBox_shulker_box_color_block_1_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_13_0|
+  |`shulkerBox_shulker_box_color_block_1_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_12_0|
+  |`shulkerBox_shulker_box_color_block_1_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_11_0|
+  |`shulkerBox_shulker_box_color_block_1_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_10_0|
+  |`shulkerBox_shulker_box_color_block_1_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_9_0|
+  |`shulkerBox_shulker_box_color_block_1_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_8_0|
+  |`shulkerBox_shulker_box_color_block_1_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_7_0|
+  |`shulkerBox_shulker_box_color_block_1_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_6_0|
+  |`shulkerBox_shulker_box_color_block_1_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_5_0|
+  |`shulkerBox_shulker_box_color_block_1_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_4_0|
+  |`shulkerBox_shulker_box_color_block_1_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_3_0|
+  |`shulkerBox_shulker_box_color_block_1_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_2_0|
+  |`shulkerBox_shulker_box_color_block_1_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_1_0_0|
   |`shulkerBox_shulker_box_color_dye_0_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_dye_0_0|
-  |`shulkerBox_shulker_box_color_block_0_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_1_0|
-  |`shulkerBox_shulker_box_color_block_0_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_2_0|
-  |`shulkerBox_shulker_box_color_block_0_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_3_0|
-  |`shulkerBox_shulker_box_color_block_0_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_4_0|
-  |`shulkerBox_shulker_box_color_block_0_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_5_0|
-  |`shulkerBox_shulker_box_color_block_0_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_6_0|
-  |`shulkerBox_shulker_box_color_block_0_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_7_0|
-  |`shulkerBox_shulker_box_color_block_0_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_8_0|
-  |`shulkerBox_shulker_box_color_block_0_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_9_0|
-  |`shulkerBox_shulker_box_color_block_0_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_10_0|
-  |`shulkerBox_shulker_box_color_block_0_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_11_0|
-  |`shulkerBox_shulker_box_color_block_0_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_12_0|
-  |`shulkerBox_shulker_box_color_block_0_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_13_0|
-  |`shulkerBox_shulker_box_color_block_0_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_14_0|
   |`shulkerBox_shulker_box_color_block_0_15_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_15_0|
+  |`shulkerBox_shulker_box_color_block_0_14_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_14_0|
+  |`shulkerBox_shulker_box_color_block_0_13_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_13_0|
+  |`shulkerBox_shulker_box_color_block_0_12_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_12_0|
+  |`shulkerBox_shulker_box_color_block_0_11_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_11_0|
+  |`shulkerBox_shulker_box_color_block_0_10_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_10_0|
+  |`shulkerBox_shulker_box_color_block_0_9_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_9_0|
+  |`shulkerBox_shulker_box_color_block_0_8_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_8_0|
+  |`shulkerBox_shulker_box_color_block_0_7_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_7_0|
+  |`shulkerBox_shulker_box_color_block_0_6_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_6_0|
+  |`shulkerBox_shulker_box_color_block_0_5_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_5_0|
+  |`shulkerBox_shulker_box_color_block_0_4_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_4_0|
+  |`shulkerBox_shulker_box_color_block_0_3_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_3_0|
+  |`shulkerBox_shulker_box_color_block_0_2_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_2_0|
+  |`shulkerBox_shulker_box_color_block_0_1_0`|command.enum.unlockablerecipevalues.shulkerbox_shulker_box_color_block_0_1_0|
+  |`bundle_dye_19`|command.enum.unlockablerecipevalues.bundle_dye_19|
+  |`bundle_dye_19_18`|command.enum.unlockablerecipevalues.bundle_dye_19_18|
+  |`bundle_dye_19_17`|command.enum.unlockablerecipevalues.bundle_dye_19_17|
+  |`bundle_dye_19_16`|command.enum.unlockablerecipevalues.bundle_dye_19_16|
+  |`bundle_dye_19_14`|command.enum.unlockablerecipevalues.bundle_dye_19_14|
+  |`bundle_dye_19_13`|command.enum.unlockablerecipevalues.bundle_dye_19_13|
+  |`bundle_dye_19_12`|command.enum.unlockablerecipevalues.bundle_dye_19_12|
+  |`bundle_dye_19_11`|command.enum.unlockablerecipevalues.bundle_dye_19_11|
+  |`bundle_dye_19_10`|command.enum.unlockablerecipevalues.bundle_dye_19_10|
+  |`bundle_dye_19_9`|command.enum.unlockablerecipevalues.bundle_dye_19_9|
+  |`bundle_dye_19_8`|command.enum.unlockablerecipevalues.bundle_dye_19_8|
+  |`bundle_dye_19_7`|command.enum.unlockablerecipevalues.bundle_dye_19_7|
+  |`bundle_dye_19_6`|command.enum.unlockablerecipevalues.bundle_dye_19_6|
+  |`bundle_dye_19_5`|command.enum.unlockablerecipevalues.bundle_dye_19_5|
+  |`bundle_dye_19_4`|command.enum.unlockablerecipevalues.bundle_dye_19_4|
+  |`bundle_dye_19_3`|command.enum.unlockablerecipevalues.bundle_dye_19_3|
+  |`bundle_dye_19_2`|command.enum.unlockablerecipevalues.bundle_dye_19_2|
+  |`bundle_dye_19_1`|command.enum.unlockablerecipevalues.bundle_dye_19_1|
+  |`bundle_dye_19_0`|command.enum.unlockablerecipevalues.bundle_dye_19_0|
+  |`bundle_dye_18`|command.enum.unlockablerecipevalues.bundle_dye_18|
+  |`bundle_dye_18_19`|command.enum.unlockablerecipevalues.bundle_dye_18_19|
+  |`bundle_dye_18_17`|command.enum.unlockablerecipevalues.bundle_dye_18_17|
+  |`bundle_dye_18_16`|command.enum.unlockablerecipevalues.bundle_dye_18_16|
+  |`bundle_dye_18_15`|command.enum.unlockablerecipevalues.bundle_dye_18_15|
+  |`bundle_dye_18_14`|command.enum.unlockablerecipevalues.bundle_dye_18_14|
+  |`bundle_dye_18_13`|command.enum.unlockablerecipevalues.bundle_dye_18_13|
+  |`bundle_dye_18_12`|command.enum.unlockablerecipevalues.bundle_dye_18_12|
+  |`bundle_dye_18_11`|command.enum.unlockablerecipevalues.bundle_dye_18_11|
+  |`bundle_dye_18_10`|command.enum.unlockablerecipevalues.bundle_dye_18_10|
+  |`bundle_dye_18_9`|command.enum.unlockablerecipevalues.bundle_dye_18_9|
+  |`bundle_dye_18_8`|command.enum.unlockablerecipevalues.bundle_dye_18_8|
+  |`bundle_dye_18_7`|command.enum.unlockablerecipevalues.bundle_dye_18_7|
+  |`bundle_dye_18_6`|command.enum.unlockablerecipevalues.bundle_dye_18_6|
+  |`bundle_dye_18_5`|command.enum.unlockablerecipevalues.bundle_dye_18_5|
+  |`bundle_dye_18_3`|command.enum.unlockablerecipevalues.bundle_dye_18_3|
+  |`bundle_dye_18_2`|command.enum.unlockablerecipevalues.bundle_dye_18_2|
+  |`bundle_dye_18_1`|command.enum.unlockablerecipevalues.bundle_dye_18_1|
+  |`bundle_dye_18_0`|command.enum.unlockablerecipevalues.bundle_dye_18_0|
+  |`bundle_dye_17`|command.enum.unlockablerecipevalues.bundle_dye_17|
+  |`bundle_dye_17_19`|command.enum.unlockablerecipevalues.bundle_dye_17_19|
+  |`bundle_dye_17_18`|command.enum.unlockablerecipevalues.bundle_dye_17_18|
+  |`bundle_dye_17_16`|command.enum.unlockablerecipevalues.bundle_dye_17_16|
+  |`bundle_dye_17_15`|command.enum.unlockablerecipevalues.bundle_dye_17_15|
+  |`bundle_dye_17_14`|command.enum.unlockablerecipevalues.bundle_dye_17_14|
+  |`bundle_dye_17_13`|command.enum.unlockablerecipevalues.bundle_dye_17_13|
+  |`bundle_dye_17_12`|command.enum.unlockablerecipevalues.bundle_dye_17_12|
+  |`bundle_dye_17_11`|command.enum.unlockablerecipevalues.bundle_dye_17_11|
+  |`bundle_dye_17_10`|command.enum.unlockablerecipevalues.bundle_dye_17_10|
+  |`bundle_dye_17_9`|command.enum.unlockablerecipevalues.bundle_dye_17_9|
+  |`bundle_dye_17_8`|command.enum.unlockablerecipevalues.bundle_dye_17_8|
+  |`bundle_dye_17_7`|command.enum.unlockablerecipevalues.bundle_dye_17_7|
+  |`bundle_dye_17_6`|command.enum.unlockablerecipevalues.bundle_dye_17_6|
+  |`bundle_dye_17_5`|command.enum.unlockablerecipevalues.bundle_dye_17_5|
+  |`bundle_dye_17_4`|command.enum.unlockablerecipevalues.bundle_dye_17_4|
+  |`bundle_dye_17_2`|command.enum.unlockablerecipevalues.bundle_dye_17_2|
+  |`bundle_dye_17_1`|command.enum.unlockablerecipevalues.bundle_dye_17_1|
+  |`bundle_dye_17_0`|command.enum.unlockablerecipevalues.bundle_dye_17_0|
+  |`bundle_dye_16`|command.enum.unlockablerecipevalues.bundle_dye_16|
+  |`bundle_dye_16_19`|command.enum.unlockablerecipevalues.bundle_dye_16_19|
+  |`bundle_dye_16_18`|command.enum.unlockablerecipevalues.bundle_dye_16_18|
+  |`bundle_dye_16_17`|command.enum.unlockablerecipevalues.bundle_dye_16_17|
+  |`bundle_dye_16_15`|command.enum.unlockablerecipevalues.bundle_dye_16_15|
+  |`bundle_dye_16_14`|command.enum.unlockablerecipevalues.bundle_dye_16_14|
+  |`bundle_dye_16_13`|command.enum.unlockablerecipevalues.bundle_dye_16_13|
+  |`bundle_dye_16_12`|command.enum.unlockablerecipevalues.bundle_dye_16_12|
+  |`bundle_dye_16_11`|command.enum.unlockablerecipevalues.bundle_dye_16_11|
+  |`bundle_dye_16_10`|command.enum.unlockablerecipevalues.bundle_dye_16_10|
+  |`bundle_dye_16_9`|command.enum.unlockablerecipevalues.bundle_dye_16_9|
+  |`bundle_dye_16_8`|command.enum.unlockablerecipevalues.bundle_dye_16_8|
+  |`bundle_dye_16_7`|command.enum.unlockablerecipevalues.bundle_dye_16_7|
+  |`bundle_dye_16_6`|command.enum.unlockablerecipevalues.bundle_dye_16_6|
+  |`bundle_dye_16_5`|command.enum.unlockablerecipevalues.bundle_dye_16_5|
+  |`bundle_dye_16_4`|command.enum.unlockablerecipevalues.bundle_dye_16_4|
+  |`bundle_dye_16_3`|command.enum.unlockablerecipevalues.bundle_dye_16_3|
+  |`bundle_dye_16_2`|command.enum.unlockablerecipevalues.bundle_dye_16_2|
+  |`bundle_dye_16_1`|command.enum.unlockablerecipevalues.bundle_dye_16_1|
+  |`bundle_dye_15`|command.enum.unlockablerecipevalues.bundle_dye_15|
+  |`bundle_dye_15_18`|command.enum.unlockablerecipevalues.bundle_dye_15_18|
+  |`bundle_dye_15_17`|command.enum.unlockablerecipevalues.bundle_dye_15_17|
+  |`bundle_dye_15_16`|command.enum.unlockablerecipevalues.bundle_dye_15_16|
+  |`bundle_dye_15_14`|command.enum.unlockablerecipevalues.bundle_dye_15_14|
+  |`bundle_dye_15_13`|command.enum.unlockablerecipevalues.bundle_dye_15_13|
+  |`bundle_dye_15_12`|command.enum.unlockablerecipevalues.bundle_dye_15_12|
+  |`bundle_dye_15_11`|command.enum.unlockablerecipevalues.bundle_dye_15_11|
+  |`bundle_dye_15_10`|command.enum.unlockablerecipevalues.bundle_dye_15_10|
+  |`bundle_dye_15_9`|command.enum.unlockablerecipevalues.bundle_dye_15_9|
+  |`bundle_dye_15_8`|command.enum.unlockablerecipevalues.bundle_dye_15_8|
+  |`bundle_dye_15_7`|command.enum.unlockablerecipevalues.bundle_dye_15_7|
+  |`bundle_dye_15_6`|command.enum.unlockablerecipevalues.bundle_dye_15_6|
+  |`bundle_dye_15_5`|command.enum.unlockablerecipevalues.bundle_dye_15_5|
+  |`bundle_dye_15_4`|command.enum.unlockablerecipevalues.bundle_dye_15_4|
+  |`bundle_dye_15_3`|command.enum.unlockablerecipevalues.bundle_dye_15_3|
+  |`bundle_dye_15_2`|command.enum.unlockablerecipevalues.bundle_dye_15_2|
+  |`bundle_dye_15_1`|command.enum.unlockablerecipevalues.bundle_dye_15_1|
+  |`bundle_dye_15_0`|command.enum.unlockablerecipevalues.bundle_dye_15_0|
+  |`bundle_dye_14`|command.enum.unlockablerecipevalues.bundle_dye_14|
+  |`bundle_dye_14_19`|command.enum.unlockablerecipevalues.bundle_dye_14_19|
+  |`bundle_dye_14_18`|command.enum.unlockablerecipevalues.bundle_dye_14_18|
+  |`bundle_dye_14_17`|command.enum.unlockablerecipevalues.bundle_dye_14_17|
+  |`bundle_dye_14_16`|command.enum.unlockablerecipevalues.bundle_dye_14_16|
+  |`bundle_dye_14_15`|command.enum.unlockablerecipevalues.bundle_dye_14_15|
+  |`bundle_dye_14_13`|command.enum.unlockablerecipevalues.bundle_dye_14_13|
+  |`bundle_dye_14_12`|command.enum.unlockablerecipevalues.bundle_dye_14_12|
+  |`bundle_dye_14_11`|command.enum.unlockablerecipevalues.bundle_dye_14_11|
+  |`bundle_dye_14_10`|command.enum.unlockablerecipevalues.bundle_dye_14_10|
+  |`bundle_dye_14_9`|command.enum.unlockablerecipevalues.bundle_dye_14_9|
+  |`bundle_dye_14_8`|command.enum.unlockablerecipevalues.bundle_dye_14_8|
+  |`bundle_dye_14_7`|command.enum.unlockablerecipevalues.bundle_dye_14_7|
+  |`bundle_dye_14_6`|command.enum.unlockablerecipevalues.bundle_dye_14_6|
+  |`bundle_dye_14_5`|command.enum.unlockablerecipevalues.bundle_dye_14_5|
+  |`bundle_dye_14_4`|command.enum.unlockablerecipevalues.bundle_dye_14_4|
+  |`bundle_dye_14_3`|command.enum.unlockablerecipevalues.bundle_dye_14_3|
+  |`bundle_dye_14_2`|command.enum.unlockablerecipevalues.bundle_dye_14_2|
+  |`bundle_dye_14_1`|command.enum.unlockablerecipevalues.bundle_dye_14_1|
+  |`bundle_dye_14_0`|command.enum.unlockablerecipevalues.bundle_dye_14_0|
+  |`bundle_dye_13`|command.enum.unlockablerecipevalues.bundle_dye_13|
+  |`bundle_dye_13_19`|command.enum.unlockablerecipevalues.bundle_dye_13_19|
+  |`bundle_dye_13_18`|command.enum.unlockablerecipevalues.bundle_dye_13_18|
+  |`bundle_dye_13_17`|command.enum.unlockablerecipevalues.bundle_dye_13_17|
+  |`bundle_dye_13_16`|command.enum.unlockablerecipevalues.bundle_dye_13_16|
+  |`bundle_dye_13_15`|command.enum.unlockablerecipevalues.bundle_dye_13_15|
+  |`bundle_dye_13_14`|command.enum.unlockablerecipevalues.bundle_dye_13_14|
+  |`bundle_dye_13_12`|command.enum.unlockablerecipevalues.bundle_dye_13_12|
+  |`bundle_dye_13_11`|command.enum.unlockablerecipevalues.bundle_dye_13_11|
+  |`bundle_dye_13_10`|command.enum.unlockablerecipevalues.bundle_dye_13_10|
+  |`bundle_dye_13_9`|command.enum.unlockablerecipevalues.bundle_dye_13_9|
+  |`bundle_dye_13_8`|command.enum.unlockablerecipevalues.bundle_dye_13_8|
+  |`bundle_dye_13_7`|command.enum.unlockablerecipevalues.bundle_dye_13_7|
+  |`bundle_dye_13_6`|command.enum.unlockablerecipevalues.bundle_dye_13_6|
+  |`bundle_dye_13_5`|command.enum.unlockablerecipevalues.bundle_dye_13_5|
+  |`bundle_dye_13_4`|command.enum.unlockablerecipevalues.bundle_dye_13_4|
+  |`bundle_dye_13_3`|command.enum.unlockablerecipevalues.bundle_dye_13_3|
+  |`bundle_dye_13_2`|command.enum.unlockablerecipevalues.bundle_dye_13_2|
+  |`bundle_dye_13_1`|command.enum.unlockablerecipevalues.bundle_dye_13_1|
+  |`bundle_dye_13_0`|command.enum.unlockablerecipevalues.bundle_dye_13_0|
+  |`bundle_dye_12`|command.enum.unlockablerecipevalues.bundle_dye_12|
+  |`bundle_dye_12_19`|command.enum.unlockablerecipevalues.bundle_dye_12_19|
+  |`bundle_dye_12_18`|command.enum.unlockablerecipevalues.bundle_dye_12_18|
+  |`bundle_dye_12_17`|command.enum.unlockablerecipevalues.bundle_dye_12_17|
+  |`bundle_dye_12_16`|command.enum.unlockablerecipevalues.bundle_dye_12_16|
+  |`bundle_dye_12_15`|command.enum.unlockablerecipevalues.bundle_dye_12_15|
+  |`bundle_dye_12_14`|command.enum.unlockablerecipevalues.bundle_dye_12_14|
+  |`bundle_dye_12_13`|command.enum.unlockablerecipevalues.bundle_dye_12_13|
+  |`bundle_dye_12_11`|command.enum.unlockablerecipevalues.bundle_dye_12_11|
+  |`bundle_dye_12_10`|command.enum.unlockablerecipevalues.bundle_dye_12_10|
+  |`bundle_dye_12_9`|command.enum.unlockablerecipevalues.bundle_dye_12_9|
+  |`bundle_dye_12_8`|command.enum.unlockablerecipevalues.bundle_dye_12_8|
+  |`bundle_dye_12_7`|command.enum.unlockablerecipevalues.bundle_dye_12_7|
+  |`bundle_dye_12_6`|command.enum.unlockablerecipevalues.bundle_dye_12_6|
+  |`bundle_dye_12_5`|command.enum.unlockablerecipevalues.bundle_dye_12_5|
+  |`bundle_dye_12_4`|command.enum.unlockablerecipevalues.bundle_dye_12_4|
+  |`bundle_dye_12_3`|command.enum.unlockablerecipevalues.bundle_dye_12_3|
+  |`bundle_dye_12_2`|command.enum.unlockablerecipevalues.bundle_dye_12_2|
+  |`bundle_dye_12_1`|command.enum.unlockablerecipevalues.bundle_dye_12_1|
+  |`bundle_dye_12_0`|command.enum.unlockablerecipevalues.bundle_dye_12_0|
+  |`bundle_dye_11`|command.enum.unlockablerecipevalues.bundle_dye_11|
+  |`bundle_dye_11_19`|command.enum.unlockablerecipevalues.bundle_dye_11_19|
+  |`bundle_dye_11_18`|command.enum.unlockablerecipevalues.bundle_dye_11_18|
+  |`bundle_dye_11_17`|command.enum.unlockablerecipevalues.bundle_dye_11_17|
+  |`bundle_dye_11_16`|command.enum.unlockablerecipevalues.bundle_dye_11_16|
+  |`bundle_dye_11_15`|command.enum.unlockablerecipevalues.bundle_dye_11_15|
+  |`bundle_dye_11_14`|command.enum.unlockablerecipevalues.bundle_dye_11_14|
+  |`bundle_dye_11_13`|command.enum.unlockablerecipevalues.bundle_dye_11_13|
+  |`bundle_dye_11_12`|command.enum.unlockablerecipevalues.bundle_dye_11_12|
+  |`bundle_dye_11_10`|command.enum.unlockablerecipevalues.bundle_dye_11_10|
+  |`bundle_dye_11_9`|command.enum.unlockablerecipevalues.bundle_dye_11_9|
+  |`bundle_dye_11_8`|command.enum.unlockablerecipevalues.bundle_dye_11_8|
+  |`bundle_dye_11_7`|command.enum.unlockablerecipevalues.bundle_dye_11_7|
+  |`bundle_dye_11_6`|command.enum.unlockablerecipevalues.bundle_dye_11_6|
+  |`bundle_dye_11_5`|command.enum.unlockablerecipevalues.bundle_dye_11_5|
+  |`bundle_dye_11_4`|command.enum.unlockablerecipevalues.bundle_dye_11_4|
+  |`bundle_dye_11_3`|command.enum.unlockablerecipevalues.bundle_dye_11_3|
+  |`bundle_dye_11_2`|command.enum.unlockablerecipevalues.bundle_dye_11_2|
+  |`bundle_dye_11_1`|command.enum.unlockablerecipevalues.bundle_dye_11_1|
+  |`bundle_dye_11_0`|command.enum.unlockablerecipevalues.bundle_dye_11_0|
+  |`bundle_dye_10`|command.enum.unlockablerecipevalues.bundle_dye_10|
+  |`bundle_dye_10_19`|command.enum.unlockablerecipevalues.bundle_dye_10_19|
+  |`bundle_dye_10_18`|command.enum.unlockablerecipevalues.bundle_dye_10_18|
+  |`bundle_dye_10_17`|command.enum.unlockablerecipevalues.bundle_dye_10_17|
+  |`bundle_dye_10_16`|command.enum.unlockablerecipevalues.bundle_dye_10_16|
+  |`bundle_dye_10_15`|command.enum.unlockablerecipevalues.bundle_dye_10_15|
+  |`bundle_dye_10_14`|command.enum.unlockablerecipevalues.bundle_dye_10_14|
+  |`bundle_dye_10_13`|command.enum.unlockablerecipevalues.bundle_dye_10_13|
+  |`bundle_dye_10_12`|command.enum.unlockablerecipevalues.bundle_dye_10_12|
+  |`bundle_dye_10_11`|command.enum.unlockablerecipevalues.bundle_dye_10_11|
+  |`bundle_dye_10_9`|command.enum.unlockablerecipevalues.bundle_dye_10_9|
+  |`bundle_dye_10_8`|command.enum.unlockablerecipevalues.bundle_dye_10_8|
+  |`bundle_dye_10_7`|command.enum.unlockablerecipevalues.bundle_dye_10_7|
+  |`bundle_dye_10_6`|command.enum.unlockablerecipevalues.bundle_dye_10_6|
+  |`bundle_dye_10_5`|command.enum.unlockablerecipevalues.bundle_dye_10_5|
+  |`bundle_dye_10_4`|command.enum.unlockablerecipevalues.bundle_dye_10_4|
+  |`bundle_dye_10_3`|command.enum.unlockablerecipevalues.bundle_dye_10_3|
+  |`bundle_dye_10_2`|command.enum.unlockablerecipevalues.bundle_dye_10_2|
+  |`bundle_dye_10_1`|command.enum.unlockablerecipevalues.bundle_dye_10_1|
+  |`bundle_dye_10_0`|command.enum.unlockablerecipevalues.bundle_dye_10_0|
+  |`bundle_dye_9`|command.enum.unlockablerecipevalues.bundle_dye_9|
+  |`bundle_dye_9_19`|command.enum.unlockablerecipevalues.bundle_dye_9_19|
+  |`bundle_dye_9_18`|command.enum.unlockablerecipevalues.bundle_dye_9_18|
+  |`bundle_dye_9_17`|command.enum.unlockablerecipevalues.bundle_dye_9_17|
+  |`bundle_dye_9_16`|command.enum.unlockablerecipevalues.bundle_dye_9_16|
+  |`bundle_dye_9_15`|command.enum.unlockablerecipevalues.bundle_dye_9_15|
+  |`bundle_dye_9_14`|command.enum.unlockablerecipevalues.bundle_dye_9_14|
+  |`bundle_dye_9_13`|command.enum.unlockablerecipevalues.bundle_dye_9_13|
+  |`bundle_dye_9_12`|command.enum.unlockablerecipevalues.bundle_dye_9_12|
+  |`bundle_dye_9_11`|command.enum.unlockablerecipevalues.bundle_dye_9_11|
+  |`bundle_dye_9_10`|command.enum.unlockablerecipevalues.bundle_dye_9_10|
+  |`bundle_dye_9_8`|command.enum.unlockablerecipevalues.bundle_dye_9_8|
+  |`bundle_dye_9_7`|command.enum.unlockablerecipevalues.bundle_dye_9_7|
+  |`bundle_dye_9_6`|command.enum.unlockablerecipevalues.bundle_dye_9_6|
+  |`bundle_dye_9_5`|command.enum.unlockablerecipevalues.bundle_dye_9_5|
+  |`bundle_dye_9_4`|command.enum.unlockablerecipevalues.bundle_dye_9_4|
+  |`bundle_dye_9_3`|command.enum.unlockablerecipevalues.bundle_dye_9_3|
+  |`bundle_dye_9_2`|command.enum.unlockablerecipevalues.bundle_dye_9_2|
+  |`bundle_dye_9_1`|command.enum.unlockablerecipevalues.bundle_dye_9_1|
+  |`bundle_dye_9_0`|command.enum.unlockablerecipevalues.bundle_dye_9_0|
+  |`bundle_dye_8`|command.enum.unlockablerecipevalues.bundle_dye_8|
+  |`bundle_dye_8_19`|command.enum.unlockablerecipevalues.bundle_dye_8_19|
+  |`bundle_dye_8_18`|command.enum.unlockablerecipevalues.bundle_dye_8_18|
+  |`bundle_dye_8_17`|command.enum.unlockablerecipevalues.bundle_dye_8_17|
+  |`bundle_dye_8_16`|command.enum.unlockablerecipevalues.bundle_dye_8_16|
+  |`bundle_dye_8_15`|command.enum.unlockablerecipevalues.bundle_dye_8_15|
+  |`bundle_dye_8_14`|command.enum.unlockablerecipevalues.bundle_dye_8_14|
+  |`bundle_dye_8_13`|command.enum.unlockablerecipevalues.bundle_dye_8_13|
+  |`bundle_dye_8_12`|command.enum.unlockablerecipevalues.bundle_dye_8_12|
+  |`bundle_dye_8_11`|command.enum.unlockablerecipevalues.bundle_dye_8_11|
+  |`bundle_dye_8_10`|command.enum.unlockablerecipevalues.bundle_dye_8_10|
+  |`bundle_dye_8_9`|command.enum.unlockablerecipevalues.bundle_dye_8_9|
+  |`bundle_dye_8_7`|command.enum.unlockablerecipevalues.bundle_dye_8_7|
+  |`bundle_dye_8_6`|command.enum.unlockablerecipevalues.bundle_dye_8_6|
+  |`bundle_dye_8_5`|command.enum.unlockablerecipevalues.bundle_dye_8_5|
+  |`bundle_dye_8_4`|command.enum.unlockablerecipevalues.bundle_dye_8_4|
+  |`bundle_dye_8_3`|command.enum.unlockablerecipevalues.bundle_dye_8_3|
+  |`bundle_dye_8_2`|command.enum.unlockablerecipevalues.bundle_dye_8_2|
+  |`bundle_dye_8_1`|command.enum.unlockablerecipevalues.bundle_dye_8_1|
+  |`bundle_dye_8_0`|command.enum.unlockablerecipevalues.bundle_dye_8_0|
+  |`bundle_dye_7`|command.enum.unlockablerecipevalues.bundle_dye_7|
+  |`bundle_dye_7_19`|command.enum.unlockablerecipevalues.bundle_dye_7_19|
+  |`bundle_dye_7_18`|command.enum.unlockablerecipevalues.bundle_dye_7_18|
+  |`bundle_dye_7_17`|command.enum.unlockablerecipevalues.bundle_dye_7_17|
+  |`bundle_dye_7_16`|command.enum.unlockablerecipevalues.bundle_dye_7_16|
+  |`bundle_dye_7_15`|command.enum.unlockablerecipevalues.bundle_dye_7_15|
+  |`bundle_dye_7_14`|command.enum.unlockablerecipevalues.bundle_dye_7_14|
+  |`bundle_dye_7_13`|command.enum.unlockablerecipevalues.bundle_dye_7_13|
+  |`bundle_dye_7_12`|command.enum.unlockablerecipevalues.bundle_dye_7_12|
+  |`bundle_dye_7_11`|command.enum.unlockablerecipevalues.bundle_dye_7_11|
+  |`bundle_dye_7_10`|command.enum.unlockablerecipevalues.bundle_dye_7_10|
+  |`bundle_dye_7_9`|command.enum.unlockablerecipevalues.bundle_dye_7_9|
+  |`bundle_dye_7_8`|command.enum.unlockablerecipevalues.bundle_dye_7_8|
+  |`bundle_dye_7_6`|command.enum.unlockablerecipevalues.bundle_dye_7_6|
+  |`bundle_dye_7_5`|command.enum.unlockablerecipevalues.bundle_dye_7_5|
+  |`bundle_dye_7_4`|command.enum.unlockablerecipevalues.bundle_dye_7_4|
+  |`bundle_dye_7_3`|command.enum.unlockablerecipevalues.bundle_dye_7_3|
+  |`bundle_dye_7_2`|command.enum.unlockablerecipevalues.bundle_dye_7_2|
+  |`bundle_dye_7_1`|command.enum.unlockablerecipevalues.bundle_dye_7_1|
+  |`bundle_dye_7_0`|command.enum.unlockablerecipevalues.bundle_dye_7_0|
+  |`bundle_dye_6`|command.enum.unlockablerecipevalues.bundle_dye_6|
+  |`bundle_dye_6_19`|command.enum.unlockablerecipevalues.bundle_dye_6_19|
+  |`bundle_dye_6_18`|command.enum.unlockablerecipevalues.bundle_dye_6_18|
+  |`bundle_dye_6_17`|command.enum.unlockablerecipevalues.bundle_dye_6_17|
+  |`bundle_dye_6_16`|command.enum.unlockablerecipevalues.bundle_dye_6_16|
+  |`bundle_dye_6_15`|command.enum.unlockablerecipevalues.bundle_dye_6_15|
+  |`bundle_dye_6_14`|command.enum.unlockablerecipevalues.bundle_dye_6_14|
+  |`bundle_dye_6_13`|command.enum.unlockablerecipevalues.bundle_dye_6_13|
+  |`bundle_dye_6_12`|command.enum.unlockablerecipevalues.bundle_dye_6_12|
+  |`bundle_dye_6_11`|command.enum.unlockablerecipevalues.bundle_dye_6_11|
+  |`bundle_dye_6_10`|command.enum.unlockablerecipevalues.bundle_dye_6_10|
+  |`bundle_dye_6_9`|command.enum.unlockablerecipevalues.bundle_dye_6_9|
+  |`bundle_dye_6_8`|command.enum.unlockablerecipevalues.bundle_dye_6_8|
+  |`bundle_dye_6_7`|command.enum.unlockablerecipevalues.bundle_dye_6_7|
+  |`bundle_dye_6_5`|command.enum.unlockablerecipevalues.bundle_dye_6_5|
+  |`bundle_dye_6_4`|command.enum.unlockablerecipevalues.bundle_dye_6_4|
+  |`bundle_dye_6_3`|command.enum.unlockablerecipevalues.bundle_dye_6_3|
+  |`bundle_dye_6_2`|command.enum.unlockablerecipevalues.bundle_dye_6_2|
+  |`bundle_dye_6_1`|command.enum.unlockablerecipevalues.bundle_dye_6_1|
+  |`bundle_dye_6_0`|command.enum.unlockablerecipevalues.bundle_dye_6_0|
+  |`bundle_dye_5`|command.enum.unlockablerecipevalues.bundle_dye_5|
+  |`bundle_dye_5_19`|command.enum.unlockablerecipevalues.bundle_dye_5_19|
+  |`bundle_dye_5_18`|command.enum.unlockablerecipevalues.bundle_dye_5_18|
+  |`bundle_dye_5_17`|command.enum.unlockablerecipevalues.bundle_dye_5_17|
+  |`bundle_dye_5_16`|command.enum.unlockablerecipevalues.bundle_dye_5_16|
+  |`bundle_dye_5_15`|command.enum.unlockablerecipevalues.bundle_dye_5_15|
+  |`bundle_dye_5_14`|command.enum.unlockablerecipevalues.bundle_dye_5_14|
+  |`bundle_dye_5_13`|command.enum.unlockablerecipevalues.bundle_dye_5_13|
+  |`bundle_dye_5_12`|command.enum.unlockablerecipevalues.bundle_dye_5_12|
+  |`bundle_dye_5_11`|command.enum.unlockablerecipevalues.bundle_dye_5_11|
+  |`bundle_dye_5_10`|command.enum.unlockablerecipevalues.bundle_dye_5_10|
+  |`bundle_dye_5_9`|command.enum.unlockablerecipevalues.bundle_dye_5_9|
+  |`bundle_dye_5_8`|command.enum.unlockablerecipevalues.bundle_dye_5_8|
+  |`bundle_dye_5_7`|command.enum.unlockablerecipevalues.bundle_dye_5_7|
+  |`bundle_dye_5_6`|command.enum.unlockablerecipevalues.bundle_dye_5_6|
+  |`bundle_dye_5_4`|command.enum.unlockablerecipevalues.bundle_dye_5_4|
+  |`bundle_dye_5_3`|command.enum.unlockablerecipevalues.bundle_dye_5_3|
+  |`bundle_dye_5_2`|command.enum.unlockablerecipevalues.bundle_dye_5_2|
+  |`bundle_dye_5_1`|command.enum.unlockablerecipevalues.bundle_dye_5_1|
+  |`bundle_dye_5_0`|command.enum.unlockablerecipevalues.bundle_dye_5_0|
+  |`bundle_dye_4`|command.enum.unlockablerecipevalues.bundle_dye_4|
+  |`bundle_dye_4_19`|command.enum.unlockablerecipevalues.bundle_dye_4_19|
+  |`bundle_dye_4_17`|command.enum.unlockablerecipevalues.bundle_dye_4_17|
+  |`bundle_dye_4_16`|command.enum.unlockablerecipevalues.bundle_dye_4_16|
+  |`bundle_dye_4_15`|command.enum.unlockablerecipevalues.bundle_dye_4_15|
+  |`bundle_dye_4_14`|command.enum.unlockablerecipevalues.bundle_dye_4_14|
+  |`bundle_dye_4_13`|command.enum.unlockablerecipevalues.bundle_dye_4_13|
+  |`bundle_dye_4_12`|command.enum.unlockablerecipevalues.bundle_dye_4_12|
+  |`bundle_dye_4_11`|command.enum.unlockablerecipevalues.bundle_dye_4_11|
+  |`bundle_dye_4_10`|command.enum.unlockablerecipevalues.bundle_dye_4_10|
+  |`bundle_dye_4_9`|command.enum.unlockablerecipevalues.bundle_dye_4_9|
+  |`bundle_dye_4_8`|command.enum.unlockablerecipevalues.bundle_dye_4_8|
+  |`bundle_dye_4_7`|command.enum.unlockablerecipevalues.bundle_dye_4_7|
+  |`bundle_dye_4_6`|command.enum.unlockablerecipevalues.bundle_dye_4_6|
+  |`bundle_dye_4_5`|command.enum.unlockablerecipevalues.bundle_dye_4_5|
+  |`bundle_dye_4_3`|command.enum.unlockablerecipevalues.bundle_dye_4_3|
+  |`bundle_dye_4_2`|command.enum.unlockablerecipevalues.bundle_dye_4_2|
+  |`bundle_dye_4_1`|command.enum.unlockablerecipevalues.bundle_dye_4_1|
+  |`bundle_dye_4_0`|command.enum.unlockablerecipevalues.bundle_dye_4_0|
+  |`bundle_dye_3`|command.enum.unlockablerecipevalues.bundle_dye_3|
+  |`bundle_dye_3_19`|command.enum.unlockablerecipevalues.bundle_dye_3_19|
+  |`bundle_dye_3_18`|command.enum.unlockablerecipevalues.bundle_dye_3_18|
+  |`bundle_dye_3_16`|command.enum.unlockablerecipevalues.bundle_dye_3_16|
+  |`bundle_dye_3_15`|command.enum.unlockablerecipevalues.bundle_dye_3_15|
+  |`bundle_dye_3_14`|command.enum.unlockablerecipevalues.bundle_dye_3_14|
+  |`bundle_dye_3_13`|command.enum.unlockablerecipevalues.bundle_dye_3_13|
+  |`bundle_dye_3_12`|command.enum.unlockablerecipevalues.bundle_dye_3_12|
+  |`bundle_dye_3_11`|command.enum.unlockablerecipevalues.bundle_dye_3_11|
+  |`bundle_dye_3_10`|command.enum.unlockablerecipevalues.bundle_dye_3_10|
+  |`bundle_dye_3_9`|command.enum.unlockablerecipevalues.bundle_dye_3_9|
+  |`bundle_dye_3_8`|command.enum.unlockablerecipevalues.bundle_dye_3_8|
+  |`bundle_dye_3_7`|command.enum.unlockablerecipevalues.bundle_dye_3_7|
+  |`bundle_dye_3_6`|command.enum.unlockablerecipevalues.bundle_dye_3_6|
+  |`bundle_dye_3_5`|command.enum.unlockablerecipevalues.bundle_dye_3_5|
+  |`bundle_dye_3_4`|command.enum.unlockablerecipevalues.bundle_dye_3_4|
+  |`bundle_dye_3_2`|command.enum.unlockablerecipevalues.bundle_dye_3_2|
+  |`bundle_dye_3_1`|command.enum.unlockablerecipevalues.bundle_dye_3_1|
+  |`bundle_dye_3_0`|command.enum.unlockablerecipevalues.bundle_dye_3_0|
+  |`bundle_dye_2`|command.enum.unlockablerecipevalues.bundle_dye_2|
+  |`bundle_dye_2_19`|command.enum.unlockablerecipevalues.bundle_dye_2_19|
+  |`bundle_dye_2_18`|command.enum.unlockablerecipevalues.bundle_dye_2_18|
+  |`bundle_dye_2_17`|command.enum.unlockablerecipevalues.bundle_dye_2_17|
+  |`bundle_dye_2_16`|command.enum.unlockablerecipevalues.bundle_dye_2_16|
+  |`bundle_dye_2_15`|command.enum.unlockablerecipevalues.bundle_dye_2_15|
+  |`bundle_dye_2_14`|command.enum.unlockablerecipevalues.bundle_dye_2_14|
+  |`bundle_dye_2_13`|command.enum.unlockablerecipevalues.bundle_dye_2_13|
+  |`bundle_dye_2_12`|command.enum.unlockablerecipevalues.bundle_dye_2_12|
+  |`bundle_dye_2_11`|command.enum.unlockablerecipevalues.bundle_dye_2_11|
+  |`bundle_dye_2_10`|command.enum.unlockablerecipevalues.bundle_dye_2_10|
+  |`bundle_dye_2_9`|command.enum.unlockablerecipevalues.bundle_dye_2_9|
+  |`bundle_dye_2_8`|command.enum.unlockablerecipevalues.bundle_dye_2_8|
+  |`bundle_dye_2_7`|command.enum.unlockablerecipevalues.bundle_dye_2_7|
+  |`bundle_dye_2_6`|command.enum.unlockablerecipevalues.bundle_dye_2_6|
+  |`bundle_dye_2_5`|command.enum.unlockablerecipevalues.bundle_dye_2_5|
+  |`bundle_dye_2_4`|command.enum.unlockablerecipevalues.bundle_dye_2_4|
+  |`bundle_dye_2_3`|command.enum.unlockablerecipevalues.bundle_dye_2_3|
+  |`bundle_dye_2_1`|command.enum.unlockablerecipevalues.bundle_dye_2_1|
+  |`bundle_dye_2_0`|command.enum.unlockablerecipevalues.bundle_dye_2_0|
+  |`bundle_dye_1`|command.enum.unlockablerecipevalues.bundle_dye_1|
+  |`bundle_dye_1_19`|command.enum.unlockablerecipevalues.bundle_dye_1_19|
+  |`bundle_dye_1_18`|command.enum.unlockablerecipevalues.bundle_dye_1_18|
+  |`bundle_dye_1_17`|command.enum.unlockablerecipevalues.bundle_dye_1_17|
+  |`bundle_dye_1_16`|command.enum.unlockablerecipevalues.bundle_dye_1_16|
+  |`bundle_dye_1_15`|command.enum.unlockablerecipevalues.bundle_dye_1_15|
+  |`bundle_dye_1_14`|command.enum.unlockablerecipevalues.bundle_dye_1_14|
+  |`bundle_dye_1_13`|command.enum.unlockablerecipevalues.bundle_dye_1_13|
+  |`bundle_dye_1_12`|command.enum.unlockablerecipevalues.bundle_dye_1_12|
+  |`bundle_dye_1_11`|command.enum.unlockablerecipevalues.bundle_dye_1_11|
+  |`bundle_dye_1_10`|command.enum.unlockablerecipevalues.bundle_dye_1_10|
+  |`bundle_dye_1_9`|command.enum.unlockablerecipevalues.bundle_dye_1_9|
+  |`bundle_dye_1_8`|command.enum.unlockablerecipevalues.bundle_dye_1_8|
+  |`bundle_dye_1_7`|command.enum.unlockablerecipevalues.bundle_dye_1_7|
+  |`bundle_dye_1_6`|command.enum.unlockablerecipevalues.bundle_dye_1_6|
+  |`bundle_dye_1_5`|command.enum.unlockablerecipevalues.bundle_dye_1_5|
+  |`bundle_dye_1_4`|command.enum.unlockablerecipevalues.bundle_dye_1_4|
+  |`bundle_dye_1_3`|command.enum.unlockablerecipevalues.bundle_dye_1_3|
+  |`bundle_dye_1_2`|command.enum.unlockablerecipevalues.bundle_dye_1_2|
+  |`bundle_dye_1_0`|command.enum.unlockablerecipevalues.bundle_dye_1_0|
+  |`bundle_dye_0`|command.enum.unlockablerecipevalues.bundle_dye_0|
+  |`bundle_dye_0_19`|command.enum.unlockablerecipevalues.bundle_dye_0_19|
+  |`bundle_dye_0_18`|command.enum.unlockablerecipevalues.bundle_dye_0_18|
+  |`bundle_dye_0_17`|command.enum.unlockablerecipevalues.bundle_dye_0_17|
+  |`bundle_dye_0_15`|command.enum.unlockablerecipevalues.bundle_dye_0_15|
+  |`bundle_dye_0_14`|command.enum.unlockablerecipevalues.bundle_dye_0_14|
+  |`bundle_dye_0_13`|command.enum.unlockablerecipevalues.bundle_dye_0_13|
+  |`bundle_dye_0_12`|command.enum.unlockablerecipevalues.bundle_dye_0_12|
+  |`bundle_dye_0_11`|command.enum.unlockablerecipevalues.bundle_dye_0_11|
+  |`bundle_dye_0_10`|command.enum.unlockablerecipevalues.bundle_dye_0_10|
+  |`bundle_dye_0_9`|command.enum.unlockablerecipevalues.bundle_dye_0_9|
+  |`bundle_dye_0_8`|command.enum.unlockablerecipevalues.bundle_dye_0_8|
+  |`bundle_dye_0_7`|command.enum.unlockablerecipevalues.bundle_dye_0_7|
+  |`bundle_dye_0_6`|command.enum.unlockablerecipevalues.bundle_dye_0_6|
+  |`bundle_dye_0_5`|command.enum.unlockablerecipevalues.bundle_dye_0_5|
+  |`bundle_dye_0_4`|command.enum.unlockablerecipevalues.bundle_dye_0_4|
+  |`bundle_dye_0_3`|command.enum.unlockablerecipevalues.bundle_dye_0_3|
+  |`bundle_dye_0_2`|command.enum.unlockablerecipevalues.bundle_dye_0_2|
+  |`bundle_dye_0_1`|command.enum.unlockablerecipevalues.bundle_dye_0_1|
   |`bed_color_19`|command.enum.unlockablerecipevalues.bed_color_19|
   |`bed_color_18`|command.enum.unlockablerecipevalues.bed_color_18|
   |`bed_color_17`|command.enum.unlockablerecipevalues.bed_color_17|

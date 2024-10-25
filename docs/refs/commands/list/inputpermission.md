@@ -1,6 +1,6 @@
 # `/inputpermission`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/inputpermission`命令command.inputpermission.description
 
@@ -33,8 +33,17 @@ command.inputpermission.1.description
 
   |值|描述|
   |---|---|
-  |`movement`|command.enum.permission.movement|
   |`camera`|command.enum.permission.camera|
+  |`movement`|command.enum.permission.movement|
+  |`jump`|command.enum.permission.jump|
+  |`lateral_movement`|command.enum.permission.lateral_movement|
+  |`sneak`|command.enum.permission.sneak|
+  |`dismount`|command.enum.permission.dismount|
+  |`mount`|command.enum.permission.mount|
+  |`move_backward`|command.enum.permission.move_backward|
+  |`move_forward`|command.enum.permission.move_forward|
+  |`move_left`|command.enum.permission.move_left|
+  |`move_right`|command.enum.permission.move_right|
 
 
 `state`：<!-- md:samp state -->
@@ -77,8 +86,17 @@ command.inputpermission.2.description
 
   |值|描述|
   |---|---|
-  |`movement`|command.enum.permission.movement|
   |`camera`|command.enum.permission.camera|
+  |`movement`|command.enum.permission.movement|
+  |`jump`|command.enum.permission.jump|
+  |`lateral_movement`|command.enum.permission.lateral_movement|
+  |`sneak`|command.enum.permission.sneak|
+  |`dismount`|command.enum.permission.dismount|
+  |`mount`|command.enum.permission.mount|
+  |`move_backward`|command.enum.permission.move_backward|
+  |`move_forward`|command.enum.permission.move_forward|
+  |`move_left`|command.enum.permission.move_left|
+  |`move_right`|command.enum.permission.move_right|
 
 
 `state`：<!-- md:samp state -->

@@ -1,6 +1,6 @@
 # `/locate`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/locate`命令command.locate.description
 
@@ -22,34 +22,7 @@ command.locate.1.description
 ///// define
 `feature`：<!-- md:samp Structure -->
 
-- 枚举类型。command.enum.structure.description枚举值如下：
-
-  |值|描述|
-  |---|---|
-  |`end_city`|command.enum.structure.end_city|
-  |`fortress`|command.enum.structure.fortress|
-  |`mineshaft`|command.enum.structure.mineshaft|
-  |`monument`|command.enum.structure.monument|
-  |`stronghold`|command.enum.structure.stronghold|
-  |`temple`|command.enum.structure.temple|
-  |`village`|command.enum.structure.village|
-  |`mansion`|command.enum.structure.mansion|
-  |`shipwreck`|command.enum.structure.shipwreck|
-  |`buried_treasure`|command.enum.structure.buried_treasure|
-  |`ruins`|command.enum.structure.ruins|
-  |`pillager_outpost`|command.enum.structure.pillager_outpost|
-  |`ruined_portal`|command.enum.structure.ruined_portal|
-  |`bastion_remnant`|command.enum.structure.bastion_remnant|
-  |`ancient_city`|command.enum.structure.ancient_city|
-  |`trail_ruins`|command.enum.structure.trail_ruins|
-  |`trial_chambers`|command.enum.structure.trial_chambers|
-  |`ancientcity`|command.enum.structure.ancientcity|
-  |`bastionremnant`|command.enum.structure.bastionremnant|
-  |`buriedtreasure`|command.enum.structure.buriedtreasure|
-  |`endcity`|command.enum.structure.endcity|
-  |`pillageroutpost`|command.enum.structure.pillageroutpost|
-  |`ruinedportal`|command.enum.structure.ruinedportal|
-
+- 基本类型。command.locate.feature.description
 
 `useNewChunksOnly`：<!-- md:samp Boolean -->
 
@@ -70,7 +43,7 @@ command.locate.1.description
 
 /// tab | 重载2
 ```mcfunction
-/locate structure <structure:Structure> [useNewChunksOnly:Boolean]
+/locate structure <structure:StructureFeature> [useNewChunksOnly:Boolean]
 ```
 
 //// html | div.result
@@ -82,35 +55,29 @@ command.locate.2.description
 
 - 枚举类型。command.enum.locatesubcommandstructure.description单值枚举，请直接使用`structure`。
 
-`structure`：<!-- md:samp Structure -->
+`structure`：<!-- md:samp StructureFeature -->
 
-- 枚举类型。command.enum.structure.description枚举值如下：
+- 枚举类型。command.enum.structurefeature.description枚举值如下：
 
   |值|描述|
   |---|---|
-  |`end_city`|command.enum.structure.end_city|
-  |`fortress`|command.enum.structure.fortress|
-  |`mineshaft`|command.enum.structure.mineshaft|
-  |`monument`|command.enum.structure.monument|
-  |`stronghold`|command.enum.structure.stronghold|
-  |`temple`|command.enum.structure.temple|
-  |`village`|command.enum.structure.village|
-  |`mansion`|command.enum.structure.mansion|
-  |`shipwreck`|command.enum.structure.shipwreck|
-  |`buried_treasure`|command.enum.structure.buried_treasure|
-  |`ruins`|command.enum.structure.ruins|
-  |`pillager_outpost`|command.enum.structure.pillager_outpost|
-  |`ruined_portal`|command.enum.structure.ruined_portal|
-  |`bastion_remnant`|command.enum.structure.bastion_remnant|
-  |`ancient_city`|command.enum.structure.ancient_city|
-  |`trail_ruins`|command.enum.structure.trail_ruins|
-  |`trial_chambers`|command.enum.structure.trial_chambers|
-  |`ancientcity`|command.enum.structure.ancientcity|
-  |`bastionremnant`|command.enum.structure.bastionremnant|
-  |`buriedtreasure`|command.enum.structure.buriedtreasure|
-  |`endcity`|command.enum.structure.endcity|
-  |`pillageroutpost`|command.enum.structure.pillageroutpost|
-  |`ruinedportal`|command.enum.structure.ruinedportal|
+  |`minecraft:end_city`|command.enum.structurefeature.minecraft:end_city|
+  |`minecraft:fortress`|command.enum.structurefeature.minecraft:fortress|
+  |`minecraft:mineshaft`|command.enum.structurefeature.minecraft:mineshaft|
+  |`minecraft:monument`|command.enum.structurefeature.minecraft:monument|
+  |`minecraft:stronghold`|command.enum.structurefeature.minecraft:stronghold|
+  |`minecraft:temple`|command.enum.structurefeature.minecraft:temple|
+  |`minecraft:village`|command.enum.structurefeature.minecraft:village|
+  |`minecraft:mansion`|command.enum.structurefeature.minecraft:mansion|
+  |`minecraft:shipwreck`|command.enum.structurefeature.minecraft:shipwreck|
+  |`minecraft:buried_treasure`|command.enum.structurefeature.minecraft:buried_treasure|
+  |`minecraft:ruins`|command.enum.structurefeature.minecraft:ruins|
+  |`minecraft:pillager_outpost`|command.enum.structurefeature.minecraft:pillager_outpost|
+  |`minecraft:ruined_portal`|command.enum.structurefeature.minecraft:ruined_portal|
+  |`minecraft:bastion_remnant`|command.enum.structurefeature.minecraft:bastion_remnant|
+  |`minecraft:ancient_city`|command.enum.structurefeature.minecraft:ancient_city|
+  |`minecraft:trail_ruins`|command.enum.structurefeature.minecraft:trail_ruins|
+  |`minecraft:trial_chambers`|command.enum.structurefeature.minecraft:trial_chambers|
 
 
 `useNewChunksOnly`：<!-- md:samp Boolean -->
@@ -235,6 +202,7 @@ command.locate.3.description
   |`deep_dark`|command.enum.biome.deep_dark|
   |`mangrove_swamp`|command.enum.biome.mangrove_swamp|
   |`cherry_grove`|command.enum.biome.cherry_grove|
+  |`pale_garden`|command.enum.biome.pale_garden|
 
 
 

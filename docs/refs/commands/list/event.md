@@ -1,6 +1,6 @@
 # `/event`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/event`命令command.event.description
 
@@ -75,6 +75,8 @@ command.event.1.description
   |`minecraft:add_attributes`|command.enum.entityevents.minecraft:add_attributes|
   |`minecraft:add_biome_and_skin`|command.enum.entityevents.minecraft:add_biome_and_skin|
   |`minecraft:add_can_ride`|command.enum.entityevents.minecraft:add_can_ride|
+  |`minecraft:add_damage_timer`|command.enum.entityevents.minecraft:add_damage_timer|
+  |`minecraft:add_periodic_damage`|command.enum.entityevents.minecraft:add_periodic_damage|
   |`minecraft:ageable_grow_up`|command.enum.entityevents.minecraft:ageable_grow_up|
   |`minecraft:ageable_set_baby`|command.enum.entityevents.minecraft:ageable_set_baby|
   |`minecraft:ambient_night`|command.enum.entityevents.minecraft:ambient_night|
@@ -93,6 +95,8 @@ command.event.1.description
   |`minecraft:ate_rose`|command.enum.entityevents.minecraft:ate_rose|
   |`minecraft:ate_torchflower`|command.enum.entityevents.minecraft:ate_torchflower|
   |`minecraft:ate_tulip`|command.enum.entityevents.minecraft:ate_tulip|
+  |`minecraft:attacked_by_mob`|command.enum.entityevents.minecraft:attacked_by_mob|
+  |`minecraft:attacked_by_player`|command.enum.entityevents.minecraft:attacked_by_player|
   |`minecraft:baby_on_calm`|command.enum.entityevents.minecraft:baby_on_calm|
   |`minecraft:become_aggressive`|command.enum.entityevents.minecraft:become_aggressive|
   |`minecraft:become_aggro`|command.enum.entityevents.minecraft:become_aggro|
@@ -156,6 +160,7 @@ command.event.1.description
   |`minecraft:command_block_deactivate`|command.enum.entityevents.minecraft:command_block_deactivate|
   |`minecraft:convert_to_drowned`|command.enum.entityevents.minecraft:convert_to_drowned|
   |`minecraft:convert_to_zombie`|command.enum.entityevents.minecraft:convert_to_zombie|
+  |`minecraft:crumble`|command.enum.entityevents.minecraft:crumble|
   |`minecraft:crystal_explode`|command.enum.entityevents.minecraft:crystal_explode|
   |`minecraft:defend_wandering_trader`|command.enum.entityevents.minecraft:defend_wandering_trader|
   |`minecraft:donkey_saddled`|command.enum.entityevents.minecraft:donkey_saddled|
@@ -167,6 +172,7 @@ command.event.1.description
   |`minecraft:entity_born`|command.enum.entityevents.minecraft:entity_born|
   |`minecraft:entity_born_wild`|command.enum.entityevents.minecraft:entity_born_wild|
   |`minecraft:entity_spawned`|command.enum.entityevents.minecraft:entity_spawned|
+  |`minecraft:entity_spawned_by_creaking_heart`|command.enum.entityevents.minecraft:entity_spawned_by_creaking_heart|
   |`minecraft:entity_transformed`|command.enum.entityevents.minecraft:entity_transformed|
   |`minecraft:exited_bubble_column`|command.enum.entityevents.minecraft:exited_bubble_column|
   |`minecraft:exited_disturbed_hive`|command.enum.entityevents.minecraft:exited_disturbed_hive|
@@ -227,6 +233,8 @@ command.event.1.description
   |`minecraft:on_scared`|command.enum.entityevents.minecraft:on_scared|
   |`minecraft:on_sheared`|command.enum.entityevents.minecraft:on_sheared|
   |`minecraft:on_tame`|command.enum.entityevents.minecraft:on_tame|
+  |`minecraft:on_target_start_looking`|command.enum.entityevents.minecraft:on_target_start_looking|
+  |`minecraft:on_target_stop_looking`|command.enum.entityevents.minecraft:on_target_stop_looking|
   |`minecraft:on_trust`|command.enum.entityevents.minecraft:on_trust|
   |`minecraft:on_unleash`|command.enum.entityevents.minecraft:on_unleash|
   |`minecraft:panda_aggressive`|command.enum.entityevents.minecraft:panda_aggressive|
@@ -307,7 +315,9 @@ command.event.1.description
   |`minecraft:start_playing_idle_ground_sound`|command.enum.entityevents.minecraft:start_playing_idle_ground_sound|
   |`minecraft:start_roar`|command.enum.entityevents.minecraft:start_roar|
   |`minecraft:start_sitting`|command.enum.entityevents.minecraft:start_sitting|
+  |`minecraft:start_swaying`|command.enum.entityevents.minecraft:start_swaying|
   |`minecraft:start_transforming`|command.enum.entityevents.minecraft:start_transforming|
+  |`minecraft:start_twitching`|command.enum.entityevents.minecraft:start_twitching|
   |`minecraft:start_unrolling`|command.enum.entityevents.minecraft:start_unrolling|
   |`minecraft:stop_aggro`|command.enum.entityevents.minecraft:stop_aggro|
   |`minecraft:stop_celebrating`|command.enum.entityevents.minecraft:stop_celebrating|
@@ -316,6 +326,7 @@ command.event.1.description
   |`minecraft:stop_peeking`|command.enum.entityevents.minecraft:stop_peeking|
   |`minecraft:stop_playing_idle_ground_sound`|command.enum.entityevents.minecraft:stop_playing_idle_ground_sound|
   |`minecraft:stop_sitting`|command.enum.entityevents.minecraft:stop_sitting|
+  |`minecraft:stop_swaying`|command.enum.entityevents.minecraft:stop_swaying|
   |`minecraft:stop_transforming`|command.enum.entityevents.minecraft:stop_transforming|
   |`minecraft:switch_to_melee`|command.enum.entityevents.minecraft:switch_to_melee|
   |`minecraft:switch_to_ranged`|command.enum.entityevents.minecraft:switch_to_ranged|

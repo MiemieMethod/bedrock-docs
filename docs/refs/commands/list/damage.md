@@ -1,6 +1,6 @@
 # `/damage`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/damage`命令command.damage.description
 
@@ -51,6 +51,7 @@ command.damage.1.description
   |`entity_attack`|command.enum.damagecause.entity_attack|
   |`projectile`|command.enum.damagecause.projectile|
   |`suffocation`|command.enum.damagecause.suffocation|
+  |`mace_smash`|command.enum.damagecause.mace_smash|
   |`fall`|command.enum.damagecause.fall|
   |`starve`|command.enum.damagecause.starve|
   |`ram_attack`|command.enum.damagecause.ram_attack|
@@ -118,6 +119,7 @@ command.damage.2.description
   |`entity_attack`|command.enum.damagecause.entity_attack|
   |`projectile`|command.enum.damagecause.projectile|
   |`suffocation`|command.enum.damagecause.suffocation|
+  |`mace_smash`|command.enum.damagecause.mace_smash|
   |`fall`|command.enum.damagecause.fall|
   |`starve`|command.enum.damagecause.starve|
   |`ram_attack`|command.enum.damagecause.ram_attack|

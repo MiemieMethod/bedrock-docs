@@ -1,6 +1,6 @@
 # `/spreadplayers`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/spreadplayers`命令command.spreadplayers.description
 
@@ -12,7 +12,7 @@
 
 /// tab | 重载1
 ```mcfunction
-/spreadplayers <x:value> <z:value> <spreadDistance:float> <maxRange:float> <victim:target>
+/spreadplayers <x:value> <z:value> <spreadDistance:float> <maxRange:float> <victim:target> [maxHeight:value]
 ```
 
 //// html | div.result
@@ -38,6 +38,10 @@ command.spreadplayers.1.description
 `victim`：<!-- md:samp target -->
 
 - 基本类型。command.spreadplayers.victim.description
+
+`maxHeight`：<!-- md:samp value -->
+
+- 基本类型，可选。command.spreadplayers.maxHeight.description
 
 
 /////

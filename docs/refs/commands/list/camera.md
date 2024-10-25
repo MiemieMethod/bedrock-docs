@@ -1,6 +1,6 @@
 # `/camera`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/camera`命令command.camera.description
 
@@ -34,9 +34,11 @@ command.camera.1.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -138,9 +140,11 @@ command.camera.2.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -238,9 +242,11 @@ command.camera.3.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -338,9 +344,11 @@ command.camera.4.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -430,9 +438,11 @@ command.camera.5.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -526,9 +536,11 @@ command.camera.6.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -618,9 +630,11 @@ command.camera.7.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -710,9 +724,11 @@ command.camera.8.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `ease`：<!-- md:samp ease -->
@@ -798,9 +814,11 @@ command.camera.9.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `pos`：<!-- md:samp pos -->
@@ -854,9 +872,11 @@ command.camera.10.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `pos`：<!-- md:samp pos -->
@@ -906,9 +926,11 @@ command.camera.11.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `pos`：<!-- md:samp pos -->
@@ -936,7 +958,7 @@ command.camera.11.description
 
 /// tab | 重载12
 ```mcfunction
-/camera <players:target> set <preset:CameraPresets> pos <position:x y z>
+/camera <players:target> target_entity <entity:target>
 ```
 
 //// html | div.result
@@ -947,29 +969,13 @@ command.camera.12.description
 
 - 基本类型。command.camera.players.description
 
-`set`：<!-- md:samp set -->
+`targetEntity`：<!-- md:samp target_entity -->
 
-- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+- 枚举类型。command.enum.target_entity.description单值枚举，请直接使用`target_entity`。
 
-`preset`：<!-- md:samp CameraPresets -->
+`entity`：<!-- md:samp target -->
 
-- 枚举类型。command.enum.camerapresets.description枚举值如下：
-
-  |值|描述|
-  |---|---|
-  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
-  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
-  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
-  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-
-
-`pos`：<!-- md:samp pos -->
-
-- 枚举类型。command.enum.pos.description单值枚举，请直接使用`pos`。
-
-`position`：<!-- md:samp x y z -->
-
-- 基本类型。command.camera.position.description
+- 基本类型。command.camera.entity.description
 
 
 /////
@@ -980,7 +986,7 @@ command.camera.12.description
 
 /// tab | 重载13
 ```mcfunction
-/camera <players:target> set <preset:CameraPresets> rot <xRot:value> <yRot:value>
+/camera <players:target> target_entity <entity:target> target_center_offset <xTargetCenterOffset:float> <yTargetCenterOffset:float> <zTargetCenterOffset:float>
 ```
 
 //// html | div.result
@@ -991,33 +997,29 @@ command.camera.13.description
 
 - 基本类型。command.camera.players.description
 
-`set`：<!-- md:samp set -->
+`targetEntity`：<!-- md:samp target_entity -->
 
-- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+- 枚举类型。command.enum.target_entity.description单值枚举，请直接使用`target_entity`。
 
-`preset`：<!-- md:samp CameraPresets -->
+`entity`：<!-- md:samp target -->
 
-- 枚举类型。command.enum.camerapresets.description枚举值如下：
+- 基本类型。command.camera.entity.description
 
-  |值|描述|
-  |---|---|
-  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
-  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
-  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
-  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+`targetCenterOffset`：<!-- md:samp target_center_offset -->
 
+- 枚举类型。command.enum.target_center_offset.description单值枚举，请直接使用`target_center_offset`。
 
-`rot`：<!-- md:samp rot -->
+`xTargetCenterOffset`：<!-- md:samp float -->
 
-- 枚举类型。command.enum.rot.description单值枚举，请直接使用`rot`。
+- 基本类型。command.camera.xTargetCenterOffset.description
 
-`xRot`：<!-- md:samp value -->
+`yTargetCenterOffset`：<!-- md:samp float -->
 
-- 基本类型。command.camera.xRot.description
+- 基本类型。command.camera.yTargetCenterOffset.description
 
-`yRot`：<!-- md:samp value -->
+`zTargetCenterOffset`：<!-- md:samp float -->
 
-- 基本类型。command.camera.yRot.description
+- 基本类型。command.camera.zTargetCenterOffset.description
 
 
 /////
@@ -1028,7 +1030,7 @@ command.camera.13.description
 
 /// tab | 重载14
 ```mcfunction
-/camera <players:target> set <preset:CameraPresets> facing <lookAtEntity:target>
+/camera <players:target> remove_target
 ```
 
 //// html | div.result
@@ -1039,29 +1041,9 @@ command.camera.14.description
 
 - 基本类型。command.camera.players.description
 
-`set`：<!-- md:samp set -->
+`removeTarget`：<!-- md:samp remove_target -->
 
-- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
-
-`preset`：<!-- md:samp CameraPresets -->
-
-- 枚举类型。command.enum.camerapresets.description枚举值如下：
-
-  |值|描述|
-  |---|---|
-  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
-  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
-  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
-  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
-
-
-`facing`：<!-- md:samp facing -->
-
-- 枚举类型。command.enum.facing.description单值枚举，请直接使用`facing`。
-
-`lookAtEntity`：<!-- md:samp target -->
-
-- 基本类型。command.camera.lookAtEntity.description
+- 枚举类型。command.enum.remove_target.description单值枚举，请直接使用`remove_target`。
 
 
 /////
@@ -1072,7 +1054,7 @@ command.camera.14.description
 
 /// tab | 重载15
 ```mcfunction
-/camera <players:target> set <preset:CameraPresets> facing <lookAtPosition:x y z>
+/camera <players:target> set <preset:CameraPresets> view_offset <xViewOffset:float> <yViewOffset:float>
 ```
 
 //// html | div.result
@@ -1094,18 +1076,24 @@ command.camera.15.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
-`facing`：<!-- md:samp facing -->
+`view_offset`：<!-- md:samp view_offset -->
 
-- 枚举类型。command.enum.facing.description单值枚举，请直接使用`facing`。
+- 枚举类型。command.enum.view_offset.description单值枚举，请直接使用`view_offset`。
 
-`lookAtPosition`：<!-- md:samp x y z -->
+`xViewOffset`：<!-- md:samp float -->
 
-- 基本类型。command.camera.lookAtPosition.description
+- 基本类型。command.camera.xViewOffset.description
+
+`yViewOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yViewOffset.description
 
 
 /////
@@ -1116,7 +1104,7 @@ command.camera.15.description
 
 /// tab | 重载16
 ```mcfunction
-/camera <players:target> set <preset:CameraPresets> default
+/camera <players:target> set <preset:CameraPresets> entity_offset <xEntityOffset:float> <yEntityOffset:float> <zEntityOffset:float>
 ```
 
 //// html | div.result
@@ -1138,9 +1126,525 @@ command.camera.16.description
   |值|描述|
   |---|---|
   |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
   |`minecraft:free`|command.enum.camerapresets.minecraft:free|
   |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
   |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`entity_offset`：<!-- md:samp entity_offset -->
+
+- 枚举类型。command.enum.entity_offset.description单值枚举，请直接使用`entity_offset`。
+
+`xEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.xEntityOffset.description
+
+`yEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yEntityOffset.description
+
+`zEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.zEntityOffset.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载17
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> rot <xRot:value> <yRot:value> view_offset <xViewOffset:float> <yViewOffset:float>
+```
+
+//// html | div.result
+command.camera.17.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`rot`：<!-- md:samp rot -->
+
+- 枚举类型。command.enum.rot.description单值枚举，请直接使用`rot`。
+
+`xRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.xRot.description
+
+`yRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.yRot.description
+
+`view_offset`：<!-- md:samp view_offset -->
+
+- 枚举类型。command.enum.view_offset.description单值枚举，请直接使用`view_offset`。
+
+`xViewOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.xViewOffset.description
+
+`yViewOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yViewOffset.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载18
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> rot <xRot:value> <yRot:value> entity_offset <xEntityOffset:float> <yEntityOffset:float> <zEntityOffset:float>
+```
+
+//// html | div.result
+command.camera.18.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`rot`：<!-- md:samp rot -->
+
+- 枚举类型。command.enum.rot.description单值枚举，请直接使用`rot`。
+
+`xRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.xRot.description
+
+`yRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.yRot.description
+
+`entity_offset`：<!-- md:samp entity_offset -->
+
+- 枚举类型。command.enum.entity_offset.description单值枚举，请直接使用`entity_offset`。
+
+`xEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.xEntityOffset.description
+
+`yEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yEntityOffset.description
+
+`zEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.zEntityOffset.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载19
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> view_offset <xViewOffset:float> <yViewOffset:float> entity_offset <xEntityOffset:float> <yEntityOffset:float> <zEntityOffset:float>
+```
+
+//// html | div.result
+command.camera.19.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`view_offset`：<!-- md:samp view_offset -->
+
+- 枚举类型。command.enum.view_offset.description单值枚举，请直接使用`view_offset`。
+
+`xViewOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.xViewOffset.description
+
+`yViewOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yViewOffset.description
+
+`entity_offset`：<!-- md:samp entity_offset -->
+
+- 枚举类型。command.enum.entity_offset.description单值枚举，请直接使用`entity_offset`。
+
+`xEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.xEntityOffset.description
+
+`yEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yEntityOffset.description
+
+`zEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.zEntityOffset.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载20
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> rot <xRot:value> <yRot:value> view_offset <xViewOffset:float> <yViewOffset:float> entity_offset <xEntityOffset:float> <yEntityOffset:float> <zEntityOffset:float>
+```
+
+//// html | div.result
+command.camera.20.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`rot`：<!-- md:samp rot -->
+
+- 枚举类型。command.enum.rot.description单值枚举，请直接使用`rot`。
+
+`xRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.xRot.description
+
+`yRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.yRot.description
+
+`view_offset`：<!-- md:samp view_offset -->
+
+- 枚举类型。command.enum.view_offset.description单值枚举，请直接使用`view_offset`。
+
+`xViewOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.xViewOffset.description
+
+`yViewOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yViewOffset.description
+
+`entity_offset`：<!-- md:samp entity_offset -->
+
+- 枚举类型。command.enum.entity_offset.description单值枚举，请直接使用`entity_offset`。
+
+`xEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.xEntityOffset.description
+
+`yEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.yEntityOffset.description
+
+`zEntityOffset`：<!-- md:samp float -->
+
+- 基本类型。command.camera.zEntityOffset.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载21
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> pos <position:x y z>
+```
+
+//// html | div.result
+command.camera.21.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`pos`：<!-- md:samp pos -->
+
+- 枚举类型。command.enum.pos.description单值枚举，请直接使用`pos`。
+
+`position`：<!-- md:samp x y z -->
+
+- 基本类型。command.camera.position.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载22
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> rot <xRot:value> <yRot:value>
+```
+
+//// html | div.result
+command.camera.22.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`rot`：<!-- md:samp rot -->
+
+- 枚举类型。command.enum.rot.description单值枚举，请直接使用`rot`。
+
+`xRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.xRot.description
+
+`yRot`：<!-- md:samp value -->
+
+- 基本类型。command.camera.yRot.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载23
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> facing <lookAtEntity:target>
+```
+
+//// html | div.result
+command.camera.23.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`facing`：<!-- md:samp facing -->
+
+- 枚举类型。command.enum.facing.description单值枚举，请直接使用`facing`。
+
+`lookAtEntity`：<!-- md:samp target -->
+
+- 基本类型。command.camera.lookAtEntity.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载24
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> facing <lookAtPosition:x y z>
+```
+
+//// html | div.result
+command.camera.24.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
+
+
+`facing`：<!-- md:samp facing -->
+
+- 枚举类型。command.enum.facing.description单值枚举，请直接使用`facing`。
+
+`lookAtPosition`：<!-- md:samp x y z -->
+
+- 基本类型。command.camera.lookAtPosition.description
+
+
+/////
+
+////
+
+///
+
+/// tab | 重载25
+```mcfunction
+/camera <players:target> set <preset:CameraPresets> default
+```
+
+//// html | div.result
+command.camera.25.description
+
+///// define
+`players`：<!-- md:samp target -->
+
+- 基本类型。command.camera.players.description
+
+`set`：<!-- md:samp set -->
+
+- 枚举类型。command.enum.set.description单值枚举，请直接使用`set`。
+
+`preset`：<!-- md:samp CameraPresets -->
+
+- 枚举类型。command.enum.camerapresets.description枚举值如下：
+
+  |值|描述|
+  |---|---|
+  |`minecraft:first_person`|command.enum.camerapresets.minecraft:first_person|
+  |`minecraft:follow_orbit`|command.enum.camerapresets.minecraft:follow_orbit|
+  |`minecraft:free`|command.enum.camerapresets.minecraft:free|
+  |`minecraft:third_person`|command.enum.camerapresets.minecraft:third_person|
+  |`minecraft:third_person_front`|command.enum.camerapresets.minecraft:third_person_front|
+  |`minecraft:fixed_boom`|command.enum.camerapresets.minecraft:fixed_boom|
 
 
 `default`：<!-- md:samp default -->
@@ -1154,13 +1658,13 @@ command.camera.16.description
 
 ///
 
-/// tab | 重载17
+/// tab | 重载26
 ```mcfunction
 /camera <players:target> clear
 ```
 
 //// html | div.result
-command.camera.17.description
+command.camera.26.description
 
 ///// define
 `players`：<!-- md:samp target -->
@@ -1178,13 +1682,13 @@ command.camera.17.description
 
 ///
 
-/// tab | 重载18
+/// tab | 重载27
 ```mcfunction
 /camera <players:target> fade time <fadeInSeconds:float> <holdSeconds:float> <fadeOutSeconds:float> color <red:int> <green:int> <blue:int>
 ```
 
 //// html | div.result
-command.camera.18.description
+command.camera.27.description
 
 ///// define
 `players`：<!-- md:samp target -->
@@ -1234,13 +1738,13 @@ command.camera.18.description
 
 ///
 
-/// tab | 重载19
+/// tab | 重载28
 ```mcfunction
 /camera <players:target> fade time <fadeInSeconds:float> <holdSeconds:float> <fadeOutSeconds:float>
 ```
 
 //// html | div.result
-command.camera.19.description
+command.camera.28.description
 
 ///// define
 `players`：<!-- md:samp target -->
@@ -1274,13 +1778,13 @@ command.camera.19.description
 
 ///
 
-/// tab | 重载20
+/// tab | 重载29
 ```mcfunction
 /camera <players:target> fade color <red:int> <green:int> <blue:int>
 ```
 
 //// html | div.result
-command.camera.20.description
+command.camera.29.description
 
 ///// define
 `players`：<!-- md:samp target -->
@@ -1314,13 +1818,13 @@ command.camera.20.description
 
 ///
 
-/// tab | 重载21
+/// tab | 重载30
 ```mcfunction
 /camera <players:target> fade
 ```
 
 //// html | div.result
-command.camera.21.description
+command.camera.30.description
 
 ///// define
 `players`：<!-- md:samp target -->

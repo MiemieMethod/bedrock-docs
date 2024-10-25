@@ -1,6 +1,6 @@
 # `/globalpause`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/globalpause`命令command.globalpause.description
 

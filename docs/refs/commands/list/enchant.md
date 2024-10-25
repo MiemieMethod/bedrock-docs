@@ -1,6 +1,6 @@
 # `/enchant`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `/enchant`命令command.enchant.description
 
