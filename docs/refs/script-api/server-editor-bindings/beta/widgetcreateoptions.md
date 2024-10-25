@@ -1,26 +1,26 @@
 # `WidgetCreateOptions`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `WidgetCreateOptions`接口。script_api.@minecraft/server-editor-bindings.widgetcreateoptions.description
 
 ## 属性
 
 /// define
-`initialVisibility`
+`collisionOffset`
 
 
 ///
 
 ```js
-initialVisibility: boolean | undefined;
+collisionOffset: Vector3 | undefined;
 ```
 
 /// html | div.result
 //// define
-`initialVisibility`：`boolean`|`undefined`
+`collisionOffset`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.initialvisibility.description
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.collisionoffset.description
 
 
 ////
@@ -29,20 +29,64 @@ initialVisibility: boolean | undefined;
 
 
 /// define
-`isSelectable`
+`collisionRadius`
 
 
 ///
 
 ```js
-isSelectable: boolean | undefined;
+collisionRadius: float | undefined;
 ```
 
 /// html | div.result
 //// define
-`isSelectable`：`boolean`|`undefined`
+`collisionRadius`：`float`|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.isselectable.description
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.collisionradius.description
+
+
+////
+
+///
+
+
+/// define
+`selectable`
+
+
+///
+
+```js
+selectable: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`selectable`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.selectable.description
+
+
+////
+
+///
+
+
+/// define
+`snapToBlockLocation`
+
+
+///
+
+```js
+snapToBlockLocation: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`snapToBlockLocation`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.snaptoblocklocation.description
 
 
 ////
@@ -65,6 +109,28 @@ stateChangeEvent: (arg: WidgetStateChangeEventData) => void | undefined;
 `stateChangeEvent`：<code>(<a href="../widgetstatechangeeventdata/">WidgetStateChangeEventData</a>) =&gt; void</code>|`undefined`
 
 - script_api.@minecraft/server-editor-bindings.widgetcreateoptions.statechangeevent.description
+
+
+////
+
+///
+
+
+/// define
+`visible`
+
+
+///
+
+```js
+visible: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`visible`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.visible.description
 
 
 ////

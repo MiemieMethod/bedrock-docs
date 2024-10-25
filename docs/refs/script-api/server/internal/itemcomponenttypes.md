@@ -1,6 +1,6 @@
 # `ItemComponentTypes`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ItemComponentTypes`枚举。script_api.@minecraft/server.itemcomponenttypes.description
 
@@ -29,6 +29,17 @@ static read-only Durability = "minecraft:durability";
 
 
 /// define
+`Dyeable`
+
+
+///
+
+```js
+static read-only Dyeable = "minecraft:dyeable";
+```
+
+
+/// define
 `Enchantable`
 
 
@@ -47,5 +58,16 @@ static read-only Enchantable = "minecraft:enchantable";
 
 ```js
 static read-only Food = "minecraft:food";
+```
+
+
+/// define
+`Potion`
+
+
+///
+
+```js
+static read-only Potion = "minecraft:potion";
 ```
 

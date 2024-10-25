@@ -1,6 +1,6 @@
 # `System`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `System`类。script_api.@minecraft/server.system.description
 
@@ -65,6 +65,28 @@ read-only currentTick: uint32;
 `currentTick`：`uint32`
 
 - script_api.@minecraft/server.system.currenttick.description
+
+
+////
+
+///
+
+
+/// define
+`serverSystemInfo`
+
+
+///
+
+```js
+read-only serverSystemInfo: SystemInfo;
+```
+
+/// html | div.result
+//// define
+`serverSystemInfo`：[`SystemInfo`](./systeminfo.md)
+
+- script_api.@minecraft/server.system.serversysteminfo.description
 
 
 ////

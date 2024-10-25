@@ -1,6 +1,6 @@
 # `SettingsManager`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `SettingsManager`类。script_api.@minecraft/server-editor-bindings.settingsmanager.description
 
@@ -21,6 +21,28 @@ read-only graphics: GraphicsSettings;
 `graphics`：[`GraphicsSettings`](./graphicssettings.md)
 
 - script_api.@minecraft/server-editor-bindings.settingsmanager.graphics.description
+
+
+////
+
+///
+
+
+/// define
+`theme`
+
+
+///
+
+```js
+read-only theme: ThemeSettings;
+```
+
+/// html | div.result
+//// define
+`theme`：[`ThemeSettings`](./themesettings.md)
+
+- script_api.@minecraft/server-editor-bindings.settingsmanager.theme.description
 
 
 ////

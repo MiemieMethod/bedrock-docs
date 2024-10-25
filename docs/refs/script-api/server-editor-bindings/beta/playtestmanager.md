@@ -1,6 +1,6 @@
 # `PlaytestManager`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `PlaytestManager`类。script_api.@minecraft/server-editor-bindings.playtestmanager.description
 
@@ -15,12 +15,12 @@
 script_api.@minecraft/server-editor-bindings.playtestmanager.beginplaytest.description
 
 ```js
-beginPlaytest(options: PlaytestGameOptions): Promise<PlaytestSessionResult>
+beginPlaytest(options: GameOptions): Promise<PlaytestSessionResult>
 ```
 
 /// html | div.result
 //// define
-`options`：[`PlaytestGameOptions`](./playtestgameoptions.md)
+`options`：[`GameOptions`](./gameoptions.md)
 
 - script_api.@minecraft/server-editor-bindings.playtestmanager.beginplaytest.options.description
 

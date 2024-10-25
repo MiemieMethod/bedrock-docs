@@ -1,6 +1,6 @@
 # `MusicOptions`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `MusicOptions`类。script_api.mojang-minecraft.musicoptions.description
 

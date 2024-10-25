@@ -1,10 +1,98 @@
 # `ExtensionContextAfterEvents`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ExtensionContextAfterEvents`类。script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.description
 
 ## 属性
+
+/// define
+`clipboardChange`
+
+
+///
+
+```js
+read-only clipboardChange: ClipboardChangeAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`clipboardChange`：[`ClipboardChangeAfterEventSignal`](./clipboardchangeaftereventsignal.md)
+
+- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.clipboardchange.description
+
+
+////
+
+///
+
+
+/// define
+`currentThemeChange`
+
+
+///
+
+```js
+read-only currentThemeChange: CurrentThemeChangeAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`currentThemeChange`：[`CurrentThemeChangeAfterEventSignal`](./currentthemechangeaftereventsignal.md)
+
+- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.currentthemechange.description
+
+
+////
+
+///
+
+
+/// define
+`currentThemeColorChange`
+
+
+///
+
+```js
+read-only currentThemeColorChange: CurrentThemeColorChangeAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`currentThemeColorChange`：[`CurrentThemeColorChangeAfterEventSignal`](./currentthemecolorchangeaftereventsignal.md)
+
+- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.currentthemecolorchange.description
+
+
+////
+
+///
+
+
+/// define
+`cursorAttachmentPropertyChange`
+
+
+///
+
+```js
+read-only cursorAttachmentPropertyChange: CursorAttachmentPropertyChangeAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`cursorAttachmentPropertyChange`：[`CursorAttachmentPropertyChangeAfterEventSignal`](./cursorattachmentpropertychangeaftereventsignal.md)
+
+- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.cursorattachmentpropertychange.description
+
+
+////
+
+///
+
 
 /// define
 `cursorPropertyChange`

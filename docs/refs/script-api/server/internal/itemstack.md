@@ -1,6 +1,6 @@
 # `ItemStack`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ItemStack`类。script_api.@minecraft/server.itemstack.description
 
@@ -265,6 +265,38 @@ new constructor(itemType: ItemType | string, amount: int32): ItemStack
 返回值：[`ItemStack`](./itemstack.md)
 
 - script_api.@minecraft/server.itemstack.constructor.return
+
+
+////
+
+///
+
+
+/// define
+`createPotion`
+
+
+///
+
+script_api.@minecraft/server.itemstack.createpotion.description
+
+```js
+static createPotion(options: PotionOptions): ItemStack
+```
+
+/// html | div.result
+//// define
+`options`：[`PotionOptions`](./potionoptions.md)
+
+- script_api.@minecraft/server.itemstack.createpotion.options.description
+
+
+////
+
+//// define
+返回值：[`ItemStack`](./itemstack.md)
+
+- script_api.@minecraft/server.itemstack.createpotion.return
 
 
 ////

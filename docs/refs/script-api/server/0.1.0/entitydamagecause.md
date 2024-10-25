@@ -1,6 +1,6 @@
 # `EntityDamageCause`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `EntityDamageCause`枚举。script_api.mojang-minecraft.entitydamagecause.description
 
@@ -190,6 +190,17 @@ static read-only lava = "lava";
 
 ```js
 static read-only lightning = "lightning";
+```
+
+
+/// define
+`maceSmash`
+
+
+///
+
+```js
+static read-only maceSmash = "mace_smash";
 ```
 
 

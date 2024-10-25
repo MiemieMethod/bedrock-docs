@@ -1,6 +1,6 @@
 # `ItemComponentUseOnEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ItemComponentUseOnEvent`类，扩展自[`ItemUseOnEvent`](./itemuseonevent.md)。script_api.@minecraft/server.itemcomponentuseonevent.description
 

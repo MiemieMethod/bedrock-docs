@@ -1,8 +1,8 @@
 # `@minecraft/server`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
-`@minecraft/server`模块的`1.12.0-beta`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
+`@minecraft/server`模块的`1.17.0-beta`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
 
 /// info | 依赖
 该模块依赖于以下模块：
@@ -134,23 +134,19 @@ static read-only world: World;
 |[`BlockEvent`](./blockevent.md)||
 |[`BlockExplodeAfterEvent`](./blockexplodeafterevent.md)||
 |[`BlockExplodeAfterEventSignal`](./blockexplodeaftereventsignal.md)||
+|[`BlockFluidContainerComponent`](./blockfluidcontainercomponent.md)||
 |[`BlockInventoryComponent`](./blockinventorycomponent.md)||
-|[`BlockLavaContainerComponent`](./blocklavacontainercomponent.md)||
-|[`BlockLiquidContainerComponent`](./blockliquidcontainercomponent.md)||
 |[`BlockLocationIterator`](./blocklocationiterator.md)||
 |[`BlockPermutation`](./blockpermutation.md)||
 |[`BlockPistonComponent`](./blockpistoncomponent.md)||
-|[`BlockPotionContainerComponent`](./blockpotioncontainercomponent.md)||
 |[`BlockRecordPlayerComponent`](./blockrecordplayercomponent.md)||
 |[`BlockSignComponent`](./blocksigncomponent.md)||
-|[`BlockSnowContainerComponent`](./blocksnowcontainercomponent.md)||
 |[`BlockStates`](./blockstates.md)||
 |[`BlockStateType`](./blockstatetype.md)||
 |[`BlockType`](./blocktype.md)||
 |[`BlockTypes`](./blocktypes.md)||
 |[`BlockVolume`](./blockvolume.md)||
 |[`BlockVolumeBase`](./blockvolumebase.md)||
-|[`BlockWaterContainerComponent`](./blockwatercontainercomponent.md)||
 |[`BoundingBoxUtils`](./boundingboxutils.md)||
 |[`ButtonPushAfterEvent`](./buttonpushafterevent.md)||
 |[`ButtonPushAfterEventSignal`](./buttonpushaftereventsignal.md)||
@@ -159,6 +155,7 @@ static read-only world: World;
 |[`ChatSendAfterEventSignal`](./chatsendaftereventsignal.md)||
 |[`ChatSendBeforeEvent`](./chatsendbeforeevent.md)||
 |[`ChatSendBeforeEventSignal`](./chatsendbeforeeventsignal.md)||
+|[`ClientSystemInfo`](./clientsysteminfo.md)||
 |[`CommandResult`](./commandresult.md)||
 |[`Component`](./component.md)||
 |[`CompoundBlockVolume`](./compoundblockvolume.md)||
@@ -284,6 +281,7 @@ static read-only world: World;
 |[`GameRules`](./gamerules.md)||
 |[`IButtonPushAfterEventSignal`](./ibuttonpushaftereventsignal.md)||
 |[`ILeverActionAfterEventSignal`](./ileveractionaftereventsignal.md)||
+|[`InputInfo`](./inputinfo.md)||
 |[`IPlayerJoinAfterEventSignal`](./iplayerjoinaftereventsignal.md)||
 |[`IPlayerLeaveAfterEventSignal`](./iplayerleaveaftereventsignal.md)||
 |[`IPlayerSpawnAfterEventSignal`](./iplayerspawnaftereventsignal.md)||
@@ -301,8 +299,10 @@ static read-only world: World;
 |[`ItemComponentUseOnEvent`](./itemcomponentuseonevent.md)||
 |[`ItemCooldownComponent`](./itemcooldowncomponent.md)||
 |[`ItemDurabilityComponent`](./itemdurabilitycomponent.md)||
+|[`ItemDyeableComponent`](./itemdyeablecomponent.md)||
 |[`ItemEnchantableComponent`](./itemenchantablecomponent.md)||
 |[`ItemFoodComponent`](./itemfoodcomponent.md)||
+|[`ItemPotionComponent`](./itempotioncomponent.md)||
 |[`ItemReleaseUseAfterEvent`](./itemreleaseuseafterevent.md)||
 |[`ItemReleaseUseAfterEventSignal`](./itemreleaseuseaftereventsignal.md)||
 |[`ItemStack`](./itemstack.md)||
@@ -338,12 +338,19 @@ static read-only world: World;
 |[`PlayerBreakBlockAfterEventSignal`](./playerbreakblockaftereventsignal.md)||
 |[`PlayerBreakBlockBeforeEvent`](./playerbreakblockbeforeevent.md)||
 |[`PlayerBreakBlockBeforeEventSignal`](./playerbreakblockbeforeeventsignal.md)||
+|[`PlayerButtonInputAfterEvent`](./playerbuttoninputafterevent.md)||
+|[`PlayerButtonInputAfterEventSignal`](./playerbuttoninputaftereventsignal.md)||
+|[`PlayerCursorInventoryComponent`](./playercursorinventorycomponent.md)||
 |[`PlayerDimensionChangeAfterEvent`](./playerdimensionchangeafterevent.md)||
 |[`PlayerDimensionChangeAfterEventSignal`](./playerdimensionchangeaftereventsignal.md)||
+|[`PlayerEmoteAfterEvent`](./playeremoteafterevent.md)||
+|[`PlayerEmoteAfterEventSignal`](./playeremoteaftereventsignal.md)||
 |[`PlayerGameModeChangeAfterEvent`](./playergamemodechangeafterevent.md)||
 |[`PlayerGameModeChangeAfterEventSignal`](./playergamemodechangeaftereventsignal.md)||
 |[`PlayerGameModeChangeBeforeEvent`](./playergamemodechangebeforeevent.md)||
 |[`PlayerGameModeChangeBeforeEventSignal`](./playergamemodechangebeforeeventsignal.md)||
+|[`PlayerInputModeChangeAfterEvent`](./playerinputmodechangeafterevent.md)||
+|[`PlayerInputModeChangeAfterEventSignal`](./playerinputmodechangeaftereventsignal.md)||
 |[`PlayerInputPermissionCategoryChangeAfterEvent`](./playerinputpermissioncategorychangeafterevent.md)||
 |[`PlayerInputPermissionCategoryChangeAfterEventSignal`](./playerinputpermissioncategorychangeaftereventsignal.md)||
 |[`PlayerInputPermissions`](./playerinputpermissions.md)||
@@ -368,6 +375,10 @@ static read-only world: World;
 |[`PlayerPlaceBlockBeforeEventSignal`](./playerplaceblockbeforeeventsignal.md)||
 |[`PlayerSpawnAfterEvent`](./playerspawnafterevent.md)||
 |[`PlayerSpawnAfterEventSignal`](./playerspawnaftereventsignal.md)||
+|[`PotionEffectType`](./potioneffecttype.md)||
+|[`PotionLiquidType`](./potionliquidtype.md)||
+|[`PotionModifierType`](./potionmodifiertype.md)||
+|[`Potions`](./potions.md)||
 |[`PressurePlatePopAfterEvent`](./pressureplatepopafterevent.md)||
 |[`PressurePlatePopAfterEventSignal`](./pressureplatepopaftereventsignal.md)||
 |[`PressurePlatePushAfterEvent`](./pressureplatepushafterevent.md)||
@@ -390,6 +401,7 @@ static read-only world: World;
 |[`System`](./system.md)||
 |[`SystemAfterEvents`](./systemafterevents.md)||
 |[`SystemBeforeEvents`](./systembeforeevents.md)||
+|[`SystemInfo`](./systeminfo.md)||
 |[`TargetBlockHitAfterEvent`](./targetblockhitafterevent.md)||
 |[`TargetBlockHitAfterEventSignal`](./targetblockhitaftereventsignal.md)||
 |[`Trigger`](./trigger.md)||
@@ -426,6 +438,7 @@ static read-only world: World;
 |[`CameraEaseOptions`](./cameraeaseoptions.md)||
 |[`CameraFadeOptions`](./camerafadeoptions.md)||
 |[`CameraFadeTimeOptions`](./camerafadetimeoptions.md)||
+|[`CameraFixedBoomOptions`](./camerafixedboomoptions.md)||
 |[`CameraSetFacingOptions`](./camerasetfacingoptions.md)||
 |[`CameraSetLocationOptions`](./camerasetlocationoptions.md)||
 |[`CameraSetPosOptions`](./camerasetposoptions.md)||
@@ -451,13 +464,17 @@ static read-only world: World;
 |[`ExplosionOptions`](./explosionoptions.md)||
 |[`GreaterThanComparison`](./greaterthancomparison.md)||
 |[`GreaterThanOrEqualsComparison`](./greaterthanorequalscomparison.md)||
+|[`InputEventOptions`](./inputeventoptions.md)||
 |[`ItemCustomComponent`](./itemcustomcomponent.md)||
+|[`JigsawPlaceOptions`](./jigsawplaceoptions.md)||
+|[`JigsawStructurePlaceOptions`](./jigsawstructureplaceoptions.md)||
 |[`LessThanComparison`](./lessthancomparison.md)||
 |[`LessThanOrEqualsComparison`](./lessthanorequalscomparison.md)||
 |[`MusicOptions`](./musicoptions.md)||
 |[`NotEqualsComparison`](./notequalscomparison.md)||
 |[`PlayAnimationOptions`](./playanimationoptions.md)||
 |[`PlayerSoundOptions`](./playersoundoptions.md)||
+|[`PotionOptions`](./potionoptions.md)||
 |[`ProjectileShootOptions`](./projectileshootoptions.md)||
 |[`RangeComparison`](./rangecomparison.md)||
 |[`RawMessage`](./rawmessage.md)||
@@ -484,8 +501,10 @@ static read-only world: World;
 |[`BlockComponentTypes`](./blockcomponenttypes.md)||
 |[`BlockPistonState`](./blockpistonstate.md)||
 |[`BlockVolumeIntersection`](./blockvolumeintersection.md)||
+|[`ButtonState`](./buttonstate.md)||
 |[`CompoundBlockVolumeAction`](./compoundblockvolumeaction.md)||
 |[`CompoundBlockVolumePositionRelativity`](./compoundblockvolumepositionrelativity.md)||
+|[`CustomComponentNameErrorReason`](./customcomponentnameerrorreason.md)||
 |[`Difficulty`](./difficulty.md)||
 |[`Direction`](./direction.md)||
 |[`DisplaySlotId`](./displayslotid.md)||
@@ -495,19 +514,22 @@ static read-only world: World;
 |[`EntityComponentTypes`](./entitycomponenttypes.md)||
 |[`EntityDamageCause`](./entitydamagecause.md)||
 |[`EntityInitializationCause`](./entityinitializationcause.md)||
-|[`EntityLifetimeState`](./entitylifetimestate.md)||
 |[`EquipmentSlot`](./equipmentslot.md)||
 |[`FluidType`](./fluidtype.md)||
 |[`GameMode`](./gamemode.md)||
 |[`GameRule`](./gamerule.md)||
 |[`HudElement`](./hudelement.md)||
 |[`HudVisibility`](./hudvisibility.md)||
+|[`InputButton`](./inputbutton.md)||
+|[`InputMode`](./inputmode.md)||
 |[`InputPermissionCategory`](./inputpermissioncategory.md)||
 |[`ItemComponentTypes`](./itemcomponenttypes.md)||
 |[`ItemLockMode`](./itemlockmode.md)||
+|[`MemoryTier`](./memorytier.md)||
 |[`MoonPhase`](./moonphase.md)||
 |[`ObjectiveSortOrder`](./objectivesortorder.md)||
 |[`PaletteColor`](./palettecolor.md)||
+|[`PlatformType`](./platformtype.md)||
 |[`ScoreboardIdentityType`](./scoreboardidentitytype.md)||
 |[`ScriptEventSource`](./scripteventsource.md)||
 |[`SignSide`](./signside.md)||
@@ -531,17 +553,25 @@ static read-only world: World;
 
 |错误|描述|
 |---|---|
+|[`BlockCustomComponentAlreadyRegisteredError`](./blockcustomcomponentalreadyregisterederror.md)||
+|[`BlockCustomComponentReloadNewComponentError`](./blockcustomcomponentreloadnewcomponenterror.md)||
+|[`BlockCustomComponentReloadNewEventError`](./blockcustomcomponentreloadneweventerror.md)||
+|[`BlockCustomComponentReloadVersionError`](./blockcustomcomponentreloadversionerror.md)||
 |[`CommandError`](./commanderror.md)||
+|[`CustomComponentInvalidRegistryError`](./customcomponentinvalidregistryerror.md)||
+|[`CustomComponentNameError`](./customcomponentnameerror.md)||
 |[`EnchantmentLevelOutOfBoundsError`](./enchantmentleveloutofboundserror.md)||
 |[`EnchantmentTypeNotCompatibleError`](./enchantmenttypenotcompatibleerror.md)||
 |[`EnchantmentTypeUnknownIdError`](./enchantmenttypeunknowniderror.md)||
 |[`InvalidContainerSlotError`](./invalidcontainersloterror.md)||
+|[`InvalidEntityError`](./invalidentityerror.md)||
+|[`InvalidIteratorError`](./invaliditeratorerror.md)||
 |[`InvalidStructureError`](./invalidstructureerror.md)||
 |[`ItemCustomComponentAlreadyRegisteredError`](./itemcustomcomponentalreadyregisterederror.md)||
-|[`ItemCustomComponentNameError`](./itemcustomcomponentnameerror.md)||
 |[`ItemCustomComponentReloadNewComponentError`](./itemcustomcomponentreloadnewcomponenterror.md)||
 |[`ItemCustomComponentReloadNewEventError`](./itemcustomcomponentreloadneweventerror.md)||
 |[`ItemCustomComponentReloadVersionError`](./itemcustomcomponentreloadversionerror.md)||
 |[`LocationInUnloadedChunkError`](./locationinunloadedchunkerror.md)||
 |[`LocationOutOfWorldBoundariesError`](./locationoutofworldboundarieserror.md)||
+|[`PlaceJigsawError`](./placejigsawerror.md)||
 |[`UnloadedChunksError`](./unloadedchunkserror.md)||

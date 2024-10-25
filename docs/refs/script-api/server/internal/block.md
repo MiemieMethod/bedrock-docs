@@ -1,6 +1,6 @@
 # `Block`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `Block`类。代表维度中的一个方块。一个方块对应了一维度中唯一的X、Y和Z轴坐标值，可读取或修改该坐标下的方块状态等数据。
 
@@ -521,6 +521,30 @@ getItemStack(amount: int32, withData: boolean): ItemStack | undefined
 返回值：[`ItemStack`](./itemstack.md)|`undefined`
 
 - 创建出的物品堆叠对象。如果方块类型不兼容则返回`undefined`。
+
+
+////
+
+///
+
+
+/// define
+`getMapColor`
+
+
+///
+
+script_api.@minecraft/server.block.getmapcolor.description
+
+```js
+getMapColor(): RGBA
+```
+
+/// html | div.result
+//// define
+返回值：[`RGBA`](./rgba.md)
+
+- script_api.@minecraft/server.block.getmapcolor.return
 
 
 ////

@@ -1,6 +1,6 @@
 # `World`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `World`类。script_api.@minecraft/server.world.description
 
@@ -65,6 +65,28 @@ read-only gameRules: GameRules;
 `gameRules`：[`GameRules`](./gamerules.md)
 
 - script_api.@minecraft/server.world.gamerules.description
+
+
+////
+
+///
+
+
+/// define
+`isHardcore`
+
+
+///
+
+```js
+read-only isHardcore: boolean;
+```
+
+/// html | div.result
+//// define
+`isHardcore`：`boolean`
+
+- script_api.@minecraft/server.world.ishardcore.description
 
 
 ////

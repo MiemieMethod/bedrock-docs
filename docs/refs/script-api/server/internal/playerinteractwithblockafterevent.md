@@ -1,10 +1,32 @@
 # `PlayerInteractWithBlockAfterEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `PlayerInteractWithBlockAfterEvent`类。script_api.@minecraft/server.playerinteractwithblockafterevent.description
 
 ## 属性
+
+/// define
+`beforeItemStack`
+
+
+///
+
+```js
+read-only beforeItemStack: ItemStack | undefined;
+```
+
+/// html | div.result
+//// define
+`beforeItemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- script_api.@minecraft/server.playerinteractwithblockafterevent.beforeitemstack.description
+
+
+////
+
+///
+
 
 /// define
 `block`
@@ -65,6 +87,28 @@ read-only faceLocation: Vector3;
 `faceLocation`：[`Vector3`](./vector3.md)
 
 - script_api.@minecraft/server.playerinteractwithblockafterevent.facelocation.description
+
+
+////
+
+///
+
+
+/// define
+`isFirstEvent`
+
+
+///
+
+```js
+read-only isFirstEvent: boolean;
+```
+
+/// html | div.result
+//// define
+`isFirstEvent`：`boolean`
+
+- script_api.@minecraft/server.playerinteractwithblockafterevent.isfirstevent.description
 
 
 ////

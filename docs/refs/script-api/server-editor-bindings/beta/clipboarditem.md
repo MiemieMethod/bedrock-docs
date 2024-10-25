@@ -1,6 +1,6 @@
 # `ClipboardItem`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ClipboardItem`类。script_api.@minecraft/server-editor-bindings.clipboarditem.description
 
@@ -183,6 +183,38 @@ readFromSelection(selection: Selection): void
 返回值：`void`
 
 - script_api.@minecraft/server-editor-bindings.clipboarditem.readfromselection.return
+
+
+////
+
+///
+
+
+/// define
+`readFromStructure`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.clipboarditem.readfromstructure.description
+
+```js
+readFromStructure(structure: EditorStructure): void
+```
+
+/// html | div.result
+//// define
+`structure`：[`EditorStructure`](./editorstructure.md)
+
+- script_api.@minecraft/server-editor-bindings.clipboarditem.readfromstructure.structure.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.clipboarditem.readfromstructure.return
 
 
 ////

@@ -1,6 +1,6 @@
 # `Camera`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `Camera`类。script_api.@minecraft/server.camera.description
 
@@ -71,7 +71,7 @@ fade(fadeCameraOptions?: CameraFadeOptions): void
 script_api.@minecraft/server.camera.setcamera.description
 
 ```js
-setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFacingOptions | CameraSetLocationOptions | CameraSetPosOptions | CameraSetRotOptions): void
+setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraFixedBoomOptions | CameraSetFacingOptions | CameraSetLocationOptions | CameraSetPosOptions | CameraSetRotOptions): void
 ```
 
 /// html | div.result
@@ -84,7 +84,7 @@ setCamera(cameraPreset: string, setOptions?: CameraDefaultOptions | CameraSetFac
 ////
 
 //// define
-`setOptions`?：[`CameraDefaultOptions`](./cameradefaultoptions.md)|[`CameraSetFacingOptions`](./camerasetfacingoptions.md)|[`CameraSetLocationOptions`](./camerasetlocationoptions.md)|[`CameraSetPosOptions`](./camerasetposoptions.md)|[`CameraSetRotOptions`](./camerasetrotoptions.md)＝`null`
+`setOptions`?：[`CameraDefaultOptions`](./cameradefaultoptions.md)|[`CameraFixedBoomOptions`](./camerafixedboomoptions.md)|[`CameraSetFacingOptions`](./camerasetfacingoptions.md)|[`CameraSetLocationOptions`](./camerasetlocationoptions.md)|[`CameraSetPosOptions`](./camerasetposoptions.md)|[`CameraSetRotOptions`](./camerasetrotoptions.md)＝`null`
 
 - script_api.@minecraft/server.camera.setcamera.setoptions.description
 

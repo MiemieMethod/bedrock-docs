@@ -1,10 +1,50 @@
 # `TransactionManager`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `TransactionManager`类。script_api.@minecraft/server-editor-bindings.transactionmanager.description
 
 ## 方法
+
+/// define
+`addEntityOperation`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.transactionmanager.addentityoperation.description
+
+```js
+addEntityOperation(entity: Entity, type: EntityOperationType): boolean
+```
+
+/// html | div.result
+//// define
+`entity`：[`Entity`](../../server/beta/entity.md)
+
+- script_api.@minecraft/server-editor-bindings.transactionmanager.addentityoperation.entity.description
+
+
+////
+
+//// define
+`type`：[`EntityOperationType`](./entityoperationtype.md)
+
+- script_api.@minecraft/server-editor-bindings.transactionmanager.addentityoperation.type.description
+
+
+////
+
+//// define
+返回值：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.transactionmanager.addentityoperation.return
+
+
+////
+
+///
+
 
 /// define
 `addUserDefinedOperation`

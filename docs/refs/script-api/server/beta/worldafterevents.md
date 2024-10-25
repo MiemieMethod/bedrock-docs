@@ -1,6 +1,6 @@
 # `WorldAfterEvents`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `WorldAfterEvents`类。script_api.@minecraft/server.worldafterevents.description
 
@@ -601,6 +601,28 @@ read-only playerBreakBlock: PlayerBreakBlockAfterEventSignal;
 
 
 /// define
+`playerButtonInput`
+
+
+///
+
+```js
+read-only playerButtonInput: PlayerButtonInputAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`playerButtonInput`：[`PlayerButtonInputAfterEventSignal`](./playerbuttoninputaftereventsignal.md)
+
+- script_api.@minecraft/server.worldafterevents.playerbuttoninput.description
+
+
+////
+
+///
+
+
+/// define
 `playerDimensionChange`
 
 
@@ -623,6 +645,28 @@ read-only playerDimensionChange: PlayerDimensionChangeAfterEventSignal;
 
 
 /// define
+`playerEmote`
+
+
+///
+
+```js
+read-only playerEmote: PlayerEmoteAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`playerEmote`：[`PlayerEmoteAfterEventSignal`](./playeremoteaftereventsignal.md)
+
+- script_api.@minecraft/server.worldafterevents.playeremote.description
+
+
+////
+
+///
+
+
+/// define
 `playerGameModeChange`
 
 
@@ -637,6 +681,28 @@ read-only playerGameModeChange: PlayerGameModeChangeAfterEventSignal;
 `playerGameModeChange`：[`PlayerGameModeChangeAfterEventSignal`](./playergamemodechangeaftereventsignal.md)
 
 - script_api.@minecraft/server.worldafterevents.playergamemodechange.description
+
+
+////
+
+///
+
+
+/// define
+`playerInputModeChange`
+
+
+///
+
+```js
+read-only playerInputModeChange: PlayerInputModeChangeAfterEventSignal;
+```
+
+/// html | div.result
+//// define
+`playerInputModeChange`：[`PlayerInputModeChangeAfterEventSignal`](./playerinputmodechangeaftereventsignal.md)
+
+- script_api.@minecraft/server.worldafterevents.playerinputmodechange.description
 
 
 ////

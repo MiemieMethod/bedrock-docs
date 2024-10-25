@@ -1,6 +1,6 @@
 # `CursorProperties`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `CursorProperties`接口。script_api.@minecraft/server-editor-bindings.cursorproperties.description
 
@@ -21,6 +21,28 @@ controlMode: CursorControlMode | undefined;
 `controlMode`：[`CursorControlMode`](./cursorcontrolmode.md)|`undefined`
 
 - script_api.@minecraft/server-editor-bindings.cursorproperties.controlmode.description
+
+
+////
+
+///
+
+
+/// define
+`fillColor`
+
+
+///
+
+```js
+fillColor: RGBA | undefined;
+```
+
+/// html | div.result
+//// define
+`fillColor`：[`RGBA`](../../server/beta/rgba.md)|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.cursorproperties.fillcolor.description
 
 
 ////

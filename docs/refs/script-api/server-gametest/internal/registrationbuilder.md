@@ -1,6 +1,6 @@
 # `RegistrationBuilder`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `RegistrationBuilder`类。script_api.@minecraft/server-gametest.registrationbuilder.description
 
@@ -255,6 +255,38 @@ setupTicks(tickCount: int32): RegistrationBuilder
 返回值：[`RegistrationBuilder`](./registrationbuilder.md)
 
 - script_api.@minecraft/server-gametest.registrationbuilder.setupticks.return
+
+
+////
+
+///
+
+
+/// define
+`structureLocation`
+
+
+///
+
+script_api.@minecraft/server-gametest.registrationbuilder.structurelocation.description
+
+```js
+structureLocation(structureLocation: Vector3): RegistrationBuilder
+```
+
+/// html | div.result
+//// define
+`structureLocation`：[`Vector3`](../../server/1.8.0/vector3.md)
+
+- script_api.@minecraft/server-gametest.registrationbuilder.structurelocation.structurelocation.description
+
+
+////
+
+//// define
+返回值：[`RegistrationBuilder`](./registrationbuilder.md)
+
+- script_api.@minecraft/server-gametest.registrationbuilder.structurelocation.return
 
 
 ////

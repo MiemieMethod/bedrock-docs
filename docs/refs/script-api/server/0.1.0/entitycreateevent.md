@@ -1,6 +1,6 @@
 # `EntityCreateEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `EntityCreateEvent`类。script_api.mojang-minecraft.entitycreateevent.description
 

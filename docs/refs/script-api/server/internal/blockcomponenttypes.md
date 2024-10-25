@@ -1,10 +1,21 @@
 # `BlockComponentTypes`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BlockComponentTypes`枚举。script_api.@minecraft/server.blockcomponenttypes.description
 
 ## 常量
+
+/// define
+`FluidContainer`
+
+
+///
+
+```js
+static read-only FluidContainer = "minecraft:fluidContainer";
+```
+
 
 /// define
 `Inventory`
@@ -14,17 +25,6 @@
 
 ```js
 static read-only Inventory = "minecraft:inventory";
-```
-
-
-/// define
-`LavaContainer`
-
-
-///
-
-```js
-static read-only LavaContainer = "minecraft:lavaContainer";
 ```
 
 
@@ -40,24 +40,13 @@ static read-only Piston = "minecraft:piston";
 
 
 /// define
-`PotionContainer`
-
-
-///
-
-```js
-static read-only PotionContainer = "minecraft:potionContainer";
-```
-
-
-/// define
 `RecordPlayer`
 
 
 ///
 
 ```js
-static read-only RecordPlayer = "minecraft:recordPlayer";
+static read-only RecordPlayer = "minecraft:record_player";
 ```
 
 
@@ -69,27 +58,5 @@ static read-only RecordPlayer = "minecraft:recordPlayer";
 
 ```js
 static read-only Sign = "minecraft:sign";
-```
-
-
-/// define
-`SnowContainer`
-
-
-///
-
-```js
-static read-only SnowContainer = "minecraft:snowContainer";
-```
-
-
-/// define
-`WaterContainer`
-
-
-///
-
-```js
-static read-only WaterContainer = "minecraft:waterContainer";
 ```
 

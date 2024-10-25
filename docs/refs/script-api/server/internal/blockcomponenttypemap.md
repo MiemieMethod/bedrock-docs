@@ -1,6 +1,6 @@
 # `BlockComponentTypeMap`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BlockComponentTypeMap`类型别名。script_api.@minecraft/server.blockcomponenttypemap.description
 
@@ -19,23 +19,11 @@
 
 - 映射。
 
-`minecraft:lavaContainer`：[`BlockLavaContainerComponent`](./blocklavacontainercomponent.md)
+`minecraft:fluidContainer`：[`BlockFluidContainerComponent`](./blockfluidcontainercomponent.md)
 
 - 映射。
 
-`minecraft:potionContainer`：[`BlockPotionContainerComponent`](./blockpotioncontainercomponent.md)
-
-- 映射。
-
-`minecraft:snowContainer`：[`BlockSnowContainerComponent`](./blocksnowcontainercomponent.md)
-
-- 映射。
-
-`minecraft:waterContainer`：[`BlockWaterContainerComponent`](./blockwatercontainercomponent.md)
-
-- 映射。
-
-`minecraft:recordPlayer`：[`BlockRecordPlayerComponent`](./blockrecordplayercomponent.md)
+`minecraft:record_player`：[`BlockRecordPlayerComponent`](./blockrecordplayercomponent.md)
 
 - 映射。
 

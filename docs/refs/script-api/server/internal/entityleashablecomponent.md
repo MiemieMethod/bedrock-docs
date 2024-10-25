@@ -1,6 +1,6 @@
 # `EntityLeashableComponent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `EntityLeashableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityleashablecomponent.description
 
@@ -18,6 +18,138 @@ static read-only componentId = "minecraft:leashable";
 
 
 ## 属性
+
+/// define
+`canBeStolen`
+
+
+///
+
+```js
+read-only canBeStolen: boolean;
+```
+
+/// html | div.result
+//// define
+`canBeStolen`：`boolean`
+
+- script_api.@minecraft/server.entityleashablecomponent.canbestolen.description
+
+
+////
+
+///
+
+
+/// define
+`hardDistance`
+
+
+///
+
+```js
+read-only hardDistance: float;
+```
+
+/// html | div.result
+//// define
+`hardDistance`：`float`
+
+- script_api.@minecraft/server.entityleashablecomponent.harddistance.description
+
+
+////
+
+///
+
+
+/// define
+`isLeashed`
+
+
+///
+
+```js
+read-only isLeashed: boolean;
+```
+
+/// html | div.result
+//// define
+`isLeashed`：`boolean`
+
+- script_api.@minecraft/server.entityleashablecomponent.isleashed.description
+
+
+////
+
+///
+
+
+/// define
+`leashHolder`
+
+
+///
+
+```js
+read-only leashHolder: Entity | undefined;
+```
+
+/// html | div.result
+//// define
+`leashHolder`：[`Entity`](./entity.md)|`undefined`
+
+- script_api.@minecraft/server.entityleashablecomponent.leashholder.description
+
+
+////
+
+///
+
+
+/// define
+`leashHolderEntityId`
+
+
+///
+
+```js
+read-only leashHolderEntityId: string | undefined;
+```
+
+/// html | div.result
+//// define
+`leashHolderEntityId`：`string`|`undefined`
+
+- script_api.@minecraft/server.entityleashablecomponent.leashholderentityid.description
+
+
+////
+
+///
+
+
+/// define
+`maxDistance`
+
+
+///
+
+```js
+read-only maxDistance: float;
+```
+
+/// html | div.result
+//// define
+`maxDistance`：`float`
+
+- script_api.@minecraft/server.entityleashablecomponent.maxdistance.description
+
+
+////
+
+///
+
 
 /// define
 `softDistance`
@@ -44,22 +176,22 @@ read-only softDistance: float;
 ## 方法
 
 /// define
-`leash`
+`leashTo`
 
 
 ///
 
-script_api.@minecraft/server.entityleashablecomponent.leash.description
+script_api.@minecraft/server.entityleashablecomponent.leashto.description
 
 ```js
-leash(leashHolder: Entity): void
+leashTo(leashHolder: Entity): void
 ```
 
 /// html | div.result
 //// define
 `leashHolder`：[`Entity`](./entity.md)
 
-- script_api.@minecraft/server.entityleashablecomponent.leash.leashholder.description
+- script_api.@minecraft/server.entityleashablecomponent.leashto.leashholder.description
 
 
 ////
@@ -67,7 +199,7 @@ leash(leashHolder: Entity): void
 //// define
 返回值：`void`
 
-- script_api.@minecraft/server.entityleashablecomponent.leash.return
+- script_api.@minecraft/server.entityleashablecomponent.leashto.return
 
 
 ////

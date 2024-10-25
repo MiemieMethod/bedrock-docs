@@ -1,6 +1,6 @@
 # `Entity`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `Entity`类。script_api.@minecraft/server.entity.description
 
@@ -325,7 +325,7 @@ read-only typeId: string;
 script_api.@minecraft/server.entity.addeffect.description
 
 ```js
-addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffectOptions): void
+addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffectOptions): Effect | undefined
 ```
 
 /// html | div.result
@@ -354,7 +354,7 @@ addEffect(effectType: EffectType | string, duration: int32, options?: EntityEffe
 ////
 
 //// define
-返回值：`void`
+返回值：[`Effect`](./effect.md)|`undefined`
 
 - script_api.@minecraft/server.entity.addeffect.return
 

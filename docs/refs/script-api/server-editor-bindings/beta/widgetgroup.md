@@ -1,26 +1,70 @@
 # `WidgetGroup`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `WidgetGroup`类。script_api.@minecraft/server-editor-bindings.widgetgroup.description
 
 ## 属性
 
 /// define
-`valid`
+`selectedWidgetCount`
 
 
 ///
 
 ```js
-read-only valid: boolean;
+read-only selectedWidgetCount: int32;
 ```
 
 /// html | div.result
 //// define
-`valid`：`boolean`
+`selectedWidgetCount`：`int32`
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.valid.description
+- script_api.@minecraft/server-editor-bindings.widgetgroup.selectedwidgetcount.description
+
+
+////
+
+///
+
+
+/// define
+`visible`
+
+
+///
+
+```js
+visible: boolean;
+```
+
+/// html | div.result
+//// define
+`visible`：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.widgetgroup.visible.description
+
+
+////
+
+///
+
+
+/// define
+`visibleBounds`
+
+
+///
+
+```js
+visibleBounds: boolean;
+```
+
+/// html | div.result
+//// define
+`visibleBounds`：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.widgetgroup.visiblebounds.description
 
 
 ////
@@ -31,22 +75,38 @@ read-only valid: boolean;
 ## 方法
 
 /// define
-`areAnySelected`
+`createWidget`
 
 
 ///
 
-script_api.@minecraft/server-editor-bindings.widgetgroup.areanyselected.description
+script_api.@minecraft/server-editor-bindings.widgetgroup.createwidget.description
 
 ```js
-areAnySelected(): boolean
+createWidget(location: Vector3, options?: WidgetCreateOptions): Widget
 ```
 
 /// html | div.result
 //// define
-返回值：`boolean`
+`location`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.areanyselected.return
+- script_api.@minecraft/server-editor-bindings.widgetgroup.createwidget.location.description
+
+
+////
+
+//// define
+`options`?：[`WidgetCreateOptions`](./widgetcreateoptions.md)＝`null`
+
+- script_api.@minecraft/server-editor-bindings.widgetgroup.createwidget.options.description
+
+
+////
+
+//// define
+返回值：[`Widget`](./widget.md)
+
+- script_api.@minecraft/server-editor-bindings.widgetgroup.createwidget.return
 
 
 ////
@@ -55,54 +115,22 @@ areAnySelected(): boolean
 
 
 /// define
-`createCustomWidget`
+`delete`
 
 
 ///
 
-script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.description
+script_api.@minecraft/server-editor-bindings.widgetgroup.delete.description
 
 ```js
-createCustomWidget(customEntityName: string, location: Vector3, rotation?: Vector2, options?: CustomWidgetCreateOptions): CustomWidget
+delete(): void
 ```
 
 /// html | div.result
 //// define
-`customEntityName`：`string`
+返回值：`void`
 
-- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.customentityname.description
-
-
-////
-
-//// define
-`location`：[`Vector3`](../../server/beta/vector3.md)
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.location.description
-
-
-////
-
-//// define
-`rotation`?：[`Vector2`](../../server/beta/vector2.md)＝`null`
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.rotation.description
-
-
-////
-
-//// define
-`options`?：[`CustomWidgetCreateOptions`](./customwidgetcreateoptions.md)＝`null`
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.options.description
-
-
-////
-
-//// define
-返回值：[`CustomWidget`](./customwidget.md)
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.createcustomwidget.return
+- script_api.@minecraft/server-editor-bindings.widgetgroup.delete.return
 
 
 ////
@@ -167,62 +195,6 @@ deselectAllWidgets(): void
 
 
 /// define
-`getIsVisible`
-
-
-///
-
-script_api.@minecraft/server-editor-bindings.widgetgroup.getisvisible.description
-
-```js
-getIsVisible(): boolean
-```
-
-/// html | div.result
-//// define
-返回值：`boolean`
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.getisvisible.return
-
-
-////
-
-///
-
-
-/// define
-`moveSelectedWidgets`
-
-
-///
-
-script_api.@minecraft/server-editor-bindings.widgetgroup.moveselectedwidgets.description
-
-```js
-moveSelectedWidgets(delta: Vector3): void
-```
-
-/// html | div.result
-//// define
-`delta`：[`Vector3`](../../server/beta/vector3.md)
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.moveselectedwidgets.delta.description
-
-
-////
-
-//// define
-返回值：`void`
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.moveselectedwidgets.return
-
-
-////
-
-///
-
-
-/// define
 `selectAllWidgets`
 
 
@@ -239,38 +211,6 @@ selectAllWidgets(): void
 返回值：`void`
 
 - script_api.@minecraft/server-editor-bindings.widgetgroup.selectallwidgets.return
-
-
-////
-
-///
-
-
-/// define
-`setIsVisible`
-
-
-///
-
-script_api.@minecraft/server-editor-bindings.widgetgroup.setisvisible.description
-
-```js
-setIsVisible(isVisible: boolean): void
-```
-
-/// html | div.result
-//// define
-`isVisible`：`boolean`
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.setisvisible.isvisible.description
-
-
-////
-
-//// define
-返回值：`void`
-
-- script_api.@minecraft/server-editor-bindings.widgetgroup.setisvisible.return
 
 
 ////

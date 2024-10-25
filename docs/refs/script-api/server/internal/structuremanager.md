@@ -1,6 +1,6 @@
 # `StructureManager`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `StructureManager`类。script_api.@minecraft/server.structuremanager.description
 
@@ -255,6 +255,134 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 返回值：`void`
 
 - script_api.@minecraft/server.structuremanager.place.return
+
+
+////
+
+///
+
+
+/// define
+`placeJigsaw`
+
+
+///
+
+script_api.@minecraft/server.structuremanager.placejigsaw.description
+
+```js
+placeJigsaw(pool: string, targetJigsaw: string, maxDepth: int32, dimension: Dimension, location: Vector3, options?: JigsawPlaceOptions): void
+```
+
+/// html | div.result
+//// define
+`pool`：`string`
+
+- script_api.@minecraft/server.structuremanager.placejigsaw.pool.description
+
+
+////
+
+//// define
+`targetJigsaw`：`string`
+
+- script_api.@minecraft/server.structuremanager.placejigsaw.targetjigsaw.description
+
+
+////
+
+//// define
+`maxDepth`：`int32`∈[`1`, `20`]
+
+- script_api.@minecraft/server.structuremanager.placejigsaw.maxdepth.description
+
+
+////
+
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- script_api.@minecraft/server.structuremanager.placejigsaw.dimension.description
+
+
+////
+
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.structuremanager.placejigsaw.location.description
+
+
+////
+
+//// define
+`options`?：[`JigsawPlaceOptions`](./jigsawplaceoptions.md)＝`null`
+
+- script_api.@minecraft/server.structuremanager.placejigsaw.options.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.structuremanager.placejigsaw.return
+
+
+////
+
+///
+
+
+/// define
+`placeJigsawStructure`
+
+
+///
+
+script_api.@minecraft/server.structuremanager.placejigsawstructure.description
+
+```js
+placeJigsawStructure(identifier: string, dimension: Dimension, location: Vector3, options?: JigsawStructurePlaceOptions): void
+```
+
+/// html | div.result
+//// define
+`identifier`：`string`
+
+- script_api.@minecraft/server.structuremanager.placejigsawstructure.identifier.description
+
+
+////
+
+//// define
+`dimension`：[`Dimension`](./dimension.md)
+
+- script_api.@minecraft/server.structuremanager.placejigsawstructure.dimension.description
+
+
+////
+
+//// define
+`location`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.structuremanager.placejigsawstructure.location.description
+
+
+////
+
+//// define
+`options`?：[`JigsawStructurePlaceOptions`](./jigsawstructureplaceoptions.md)＝`null`
+
+- script_api.@minecraft/server.structuremanager.placejigsawstructure.options.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.structuremanager.placejigsawstructure.return
 
 
 ////

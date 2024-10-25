@@ -1,6 +1,6 @@
 # `BlockComponentStepOffEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BlockComponentStepOffEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含实体离开方块表面时的信息。
 

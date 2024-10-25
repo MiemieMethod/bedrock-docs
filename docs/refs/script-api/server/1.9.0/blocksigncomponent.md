@@ -1,6 +1,6 @@
 # `BlockSignComponent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BlockSignComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blocksigncomponent.description
 

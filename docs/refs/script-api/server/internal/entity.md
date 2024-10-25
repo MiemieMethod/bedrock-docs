@@ -1,6 +1,6 @@
 # `Entity`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `Entity`类。script_api.@minecraft/server.entity.description
 
@@ -21,28 +21,6 @@ read-only dimension: Dimension;
 `dimension`：[`Dimension`](./dimension.md)
 
 - script_api.@minecraft/server.entity.dimension.description
-
-
-////
-
-///
-
-
-/// define
-`fallDistance`
-
-
-///
-
-```js
-read-only fallDistance: float;
-```
-
-/// html | div.result
-//// define
-`fallDistance`：`float`
-
-- script_api.@minecraft/server.entity.falldistance.description
 
 
 ////
@@ -241,28 +219,6 @@ read-only isSwimming: boolean;
 `isSwimming`：`boolean`
 
 - script_api.@minecraft/server.entity.isswimming.description
-
-
-////
-
-///
-
-
-/// define
-`lifetimeState`
-
-
-///
-
-```js
-read-only lifetimeState: EntityLifetimeState;
-```
-
-/// html | div.result
-//// define
-`lifetimeState`：[`EntityLifetimeState`](./entitylifetimestate.md)
-
-- script_api.@minecraft/server.entity.lifetimestate.description
 
 
 ////
@@ -1183,6 +1139,38 @@ kill(): boolean
 返回值：`boolean`
 
 - script_api.@minecraft/server.entity.kill.return
+
+
+////
+
+///
+
+
+/// define
+`lookAt`
+
+
+///
+
+script_api.@minecraft/server.entity.lookat.description
+
+```js
+lookAt(targetLocation: Vector3): void
+```
+
+/// html | div.result
+//// define
+`targetLocation`：[`Vector3`](./vector3.md)
+
+- script_api.@minecraft/server.entity.lookat.targetlocation.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.entity.lookat.return
 
 
 ////

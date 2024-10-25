@@ -1,6 +1,6 @@
 # `SettingsUIElement`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `SettingsUIElement`类。script_api.@minecraft/server-editor-bindings.settingsuielement.description
 
@@ -21,50 +21,6 @@ read-only initialValue: boolean | float | string | Vector3;
 `initialValue`：`boolean`|`float`|`string`|[`Vector3`](../../server/beta/vector3.md)
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.initialvalue.description
-
-
-////
-
-///
-
-
-/// define
-`max`
-
-
-///
-
-```js
-read-only max: int32 | undefined;
-```
-
-/// html | div.result
-//// define
-`max`：`int32`|`undefined`
-
-- script_api.@minecraft/server-editor-bindings.settingsuielement.max.description
-
-
-////
-
-///
-
-
-/// define
-`min`
-
-
-///
-
-```js
-read-only min: int32 | undefined;
-```
-
-/// html | div.result
-//// define
-`min`：`int32`|`undefined`
-
-- script_api.@minecraft/server-editor-bindings.settingsuielement.min.description
 
 
 ////
@@ -101,12 +57,12 @@ read-only name: string;
 ///
 
 ```js
-read-only onChange: (arg: boolean | float | string | Vector3) => boolean;
+read-only onChange: (arg: boolean | float | string | Vector3) => void;
 ```
 
 /// html | div.result
 //// define
-`onChange`：<code>(boolean | float | string | Vector3) =&gt; boolean</code>
+`onChange`：<code>(boolean | float | string | Vector3) =&gt; void</code>
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.onchange.description
 
@@ -123,12 +79,12 @@ read-only onChange: (arg: boolean | float | string | Vector3) => boolean;
 ///
 
 ```js
-read-only options: string[] | undefined;
+read-only options: SettingsUIElementOptions;
 ```
 
 /// html | div.result
 //// define
-`options`：`string[]`|`undefined`
+`options`：[`SettingsUIElementOptions`](./settingsuielementoptions.md)
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.options.description
 
@@ -149,7 +105,7 @@ read-only options: string[] | undefined;
 script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.description
 
 ```js
-new constructor(name: string, initialValue: boolean | float | string | Vector3, onChange: (arg: boolean | float | string | Vector3) => boolean, min?: int32, max?: int32, options?: string[]): SettingsUIElement
+new constructor(name: string, initialValue: boolean | float | string | Vector3, onChange: (arg: boolean | float | string | Vector3) => void, options?: SettingsUIElementOptions): SettingsUIElement
 ```
 
 /// html | div.result
@@ -170,7 +126,7 @@ new constructor(name: string, initialValue: boolean | float | string | Vector3, 
 ////
 
 //// define
-`onChange`：<code>(boolean | float | string | Vector3) =&gt; boolean</code>
+`onChange`：<code>(boolean | float | string | Vector3) =&gt; void</code>
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.onchange.description
 
@@ -178,23 +134,7 @@ new constructor(name: string, initialValue: boolean | float | string | Vector3, 
 ////
 
 //// define
-`min`?：`int32`＝`null`
-
-- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.min.description
-
-
-////
-
-//// define
-`max`?：`int32`＝`null`
-
-- script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.max.description
-
-
-////
-
-//// define
-`options`?：`string[]`＝`null`
+`options`?：[`SettingsUIElementOptions`](./settingsuielementoptions.md)＝`null`
 
 - script_api.@minecraft/server-editor-bindings.settingsuielement.constructor.options.description
 

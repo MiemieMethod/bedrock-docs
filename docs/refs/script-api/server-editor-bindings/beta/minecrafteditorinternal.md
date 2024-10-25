@@ -1,36 +1,76 @@
 # `MinecraftEditorInternal`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `MinecraftEditorInternal`类。script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.description
 
 ## 方法
 
 /// define
-`getDataStore`
+`getMapColorUnsafe`
 
 
 ///
 
-script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getdatastore.description
+script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getmapcolorunsafe.description
 
 ```js
-getDataStore(player: Player): DataStore
+getMapColorUnsafe(player: Player, coordinate: Vector3): RGBA
 ```
 
 /// html | div.result
 //// define
 `player`：[`Player`](../../server/beta/player.md)
 
-- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getdatastore.player.description
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getmapcolorunsafe.player.description
 
 
 ////
 
 //// define
-返回值：[`DataStore`](./datastore.md)
+`coordinate`：[`Vector3`](../../server/beta/vector3.md)
 
-- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getdatastore.return
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getmapcolorunsafe.coordinate.description
+
+
+////
+
+//// define
+返回值：[`RGBA`](../../server/beta/rgba.md)
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getmapcolorunsafe.return
+
+
+////
+
+///
+
+
+/// define
+`getPlayerServices`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getplayerservices.description
+
+```js
+getPlayerServices(player: Player): InternalPlayerServiceContext
+```
+
+/// html | div.result
+//// define
+`player`：[`Player`](../../server/beta/player.md)
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getplayerservices.player.description
+
+
+////
+
+//// define
+返回值：[`InternalPlayerServiceContext`](./internalplayerservicecontext.md)
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.getplayerservices.return
 
 
 ////

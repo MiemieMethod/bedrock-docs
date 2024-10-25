@@ -1,6 +1,6 @@
 # `BrushShapeManager`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BrushShapeManager`类。script_api.@minecraft/server-editor-bindings.brushshapemanager.description
 
@@ -51,20 +51,20 @@ read-only activeBrushVolume: CompoundBlockVolume | undefined;
 
 
 /// define
-`brushShapeNames`
+`brushShapeList`
 
 
 ///
 
 ```js
-read-only brushShapeNames: string[];
+read-only brushShapeList: BrushShape[];
 ```
 
 /// html | div.result
 //// define
-`brushShapeNames`：`string[]`
+`brushShapeList`：<code><a href="../brushshape/">BrushShape</a>[]</code>
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.brushshapenames.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.brushshapelist.description
 
 
 ////
@@ -75,30 +75,134 @@ read-only brushShapeNames: string[];
 ## 方法
 
 /// define
-`activateBrushShape`
+`activateBrushTool`
 
 
 ///
 
-script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushshape.description
+script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushtool.description
 
 ```js
-activateBrushShape(name: string): CompoundBlockVolume
+activateBrushTool(): void
 ```
 
 /// html | div.result
 //// define
-`name`：`string`
+返回值：`void`
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushshape.name.description
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushtool.return
+
+
+////
+
+///
+
+
+/// define
+`beginPainting`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.beginpainting.description
+
+```js
+beginPainting(onComplete: (arg: PaintCompletionState) => void): void
+```
+
+/// html | div.result
+//// define
+`onComplete`：<code>(<a href="../paintcompletionstate/">PaintCompletionState</a>) =&gt; void</code>
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.beginpainting.oncomplete.description
 
 
 ////
 
 //// define
-返回值：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)
+返回值：`void`
 
-- script_api.@minecraft/server-editor-bindings.brushshapemanager.activatebrushshape.return
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.beginpainting.return
+
+
+////
+
+///
+
+
+/// define
+`deactivateBrushTool`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.deactivatebrushtool.description
+
+```js
+deactivateBrushTool(): void
+```
+
+/// html | div.result
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.deactivatebrushtool.return
+
+
+////
+
+///
+
+
+/// define
+`endPainting`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.endpainting.description
+
+```js
+endPainting(cancelled: boolean): void
+```
+
+/// html | div.result
+//// define
+`cancelled`：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.endpainting.cancelled.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.endpainting.return
+
+
+////
+
+///
+
+
+/// define
+`getBrushShapeOffset`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.getbrushshapeoffset.description
+
+```js
+getBrushShapeOffset(): Vector3
+```
+
+/// html | div.result
+//// define
+返回值：[`Vector3`](../../server/beta/vector3.md)
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.getbrushshapeoffset.return
 
 
 ////
@@ -187,6 +291,198 @@ registerBrushShape(name: string, icon: string, rebuild: () => CompoundBlockVolum
 返回值：`void`
 
 - script_api.@minecraft/server-editor-bindings.brushshapemanager.registerbrushshape.return
+
+
+////
+
+///
+
+
+/// define
+`setBrushMask`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushmask.description
+
+```js
+setBrushMask(mask: BlockMaskList): void
+```
+
+/// html | div.result
+//// define
+`mask`：[`BlockMaskList`](./blockmasklist.md)
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushmask.mask.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushmask.return
+
+
+////
+
+///
+
+
+/// define
+`setBrushShape`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshape.description
+
+```js
+setBrushShape(shape: Vector3[] | CompoundBlockVolume): void
+```
+
+/// html | div.result
+//// define
+`shape`：<code><a href="../../../server/beta/vector3/">Vector3</a>[]</code>|[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshape.shape.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshape.return
+
+
+////
+
+///
+
+
+/// define
+`setBrushShapeOffset`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshapeoffset.description
+
+```js
+setBrushShapeOffset(offset: Vector3): void
+```
+
+/// html | div.result
+//// define
+`offset`：[`Vector3`](../../server/beta/vector3.md)
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshapeoffset.offset.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshapeoffset.return
+
+
+////
+
+///
+
+
+/// define
+`singlePaint`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.singlepaint.description
+
+```js
+singlePaint(onComplete: (arg: PaintCompletionState) => void): void
+```
+
+/// html | div.result
+//// define
+`onComplete`：<code>(<a href="../paintcompletionstate/">PaintCompletionState</a>) =&gt; void</code>
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.singlepaint.oncomplete.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.singlepaint.return
+
+
+////
+
+///
+
+
+/// define
+`switchBrushPaintMode`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.switchbrushpaintmode.description
+
+```js
+switchBrushPaintMode(paintMode: PaintMode): void
+```
+
+/// html | div.result
+//// define
+`paintMode`：[`PaintMode`](./paintmode.md)
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.switchbrushpaintmode.paintmode.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.switchbrushpaintmode.return
+
+
+////
+
+///
+
+
+/// define
+`switchBrushShape`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.switchbrushshape.description
+
+```js
+switchBrushShape(name: string): CompoundBlockVolume
+```
+
+/// html | div.result
+//// define
+`name`：`string`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.switchbrushshape.name.description
+
+
+////
+
+//// define
+返回值：[`CompoundBlockVolume`](../../server/beta/compoundblockvolume.md)
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.switchbrushshape.return
 
 
 ////

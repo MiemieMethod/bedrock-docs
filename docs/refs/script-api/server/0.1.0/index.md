@@ -1,6 +1,6 @@
 # `mojang-minecraft`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `mojang-minecraft`模块的`0.1.0`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块，在最新模块版本中已改名为`@minecraft/server`。
 
@@ -91,7 +91,6 @@ static read-only world: World;
 |[`EntityAgeableComponent`](./entityageablecomponent.md)||
 |[`EntityAttributeComponent`](./entityattributecomponent.md)||
 |[`EntityBaseMovementComponent`](./entitybasemovementcomponent.md)||
-|[`EntityBreathableComponent`](./entitybreathablecomponent.md)||
 |[`EntityCanClimbComponent`](./entitycanclimbcomponent.md)||
 |[`EntityCanFlyComponent`](./entitycanflycomponent.md)||
 |[`EntityCanPowerJumpComponent`](./entitycanpowerjumpcomponent.md)||
@@ -129,7 +128,6 @@ static read-only world: World;
 |[`EntityItemComponent`](./entityitemcomponent.md)||
 |[`EntityIterator`](./entityiterator.md)||
 |[`EntityLavaMovementComponent`](./entitylavamovementcomponent.md)||
-|[`EntityLeashableComponent`](./entityleashablecomponent.md)||
 |[`EntityMarkVariantComponent`](./entitymarkvariantcomponent.md)||
 |[`EntityMovementAmphibiousComponent`](./entitymovementamphibiouscomponent.md)||
 |[`EntityMovementBasicComponent`](./entitymovementbasiccomponent.md)||

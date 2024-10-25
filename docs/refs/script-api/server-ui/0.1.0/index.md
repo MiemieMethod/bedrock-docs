@@ -1,6 +1,6 @@
 # `mojang-minecraft-ui`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `mojang-minecraft-ui`模块的`0.1.0`版本，UUID为`2bd50a27-ab5f-4f40-a596-3641627c635e`。该模块是script_api.mojang-minecraft-ui.description
 

@@ -1,6 +1,6 @@
 # `ProbabilityBlockPaletteItem`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ProbabilityBlockPaletteItem`类，扩展自[`IBlockPaletteItem`](./iblockpaletteitem.md)。script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.description
 
@@ -28,7 +28,7 @@ addBlock(block: BlockPermutation | BlockType | string, weight: int32): void
 ////
 
 //// define
-`weight`：`int32`
+`weight`：`int32`∈[`1`, `100`]
 
 - script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.addblock.weight.description
 
@@ -71,6 +71,30 @@ new constructor(displayName?: string): ProbabilityBlockPaletteItem
 返回值：[`ProbabilityBlockPaletteItem`](./probabilityblockpaletteitem.md)
 
 - script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.constructor.return
+
+
+////
+
+///
+
+
+/// define
+`getBlocks`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.getblocks.description
+
+```js
+getBlocks(): WeightedBlock[]
+```
+
+/// html | div.result
+//// define
+返回值：<code><a href="../weightedblock/">WeightedBlock</a>[]</code>
+
+- script_api.@minecraft/server-editor-bindings.probabilityblockpaletteitem.getblocks.return
 
 
 ////

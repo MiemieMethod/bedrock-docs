@@ -1,10 +1,21 @@
 # `EquipmentSlot`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `EquipmentSlot`枚举。script_api.@minecraft/server.equipmentslot.description
 
 ## 常量
+
+/// define
+`Body`
+
+
+///
+
+```js
+static read-only Body = "Body";
+```
+
 
 /// define
 `Chest`

@@ -1,6 +1,6 @@
 # `ExportManager`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ExportManager`类。script_api.@minecraft/server-editor-bindings.exportmanager.description
 
@@ -15,12 +15,12 @@
 script_api.@minecraft/server-editor-bindings.exportmanager.beginexportproject.description
 
 ```js
-beginExportProject(options: ProjectExportOptions): Promise<ExportResult>
+beginExportProject(options: GameOptions): Promise<ExportResult>
 ```
 
 /// html | div.result
 //// define
-`options`：[`ProjectExportOptions`](./projectexportoptions.md)
+`options`：[`GameOptions`](./gameoptions.md)
 
 - script_api.@minecraft/server-editor-bindings.exportmanager.beginexportproject.options.description
 
@@ -55,6 +55,62 @@ canExportProject(): boolean
 返回值：`boolean`
 
 - script_api.@minecraft/server-editor-bindings.exportmanager.canexportproject.return
+
+
+////
+
+///
+
+
+/// define
+`getGameOptions`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.exportmanager.getgameoptions.description
+
+```js
+getGameOptions(useDefault?: boolean): GameOptions
+```
+
+/// html | div.result
+//// define
+`useDefault`?：`boolean`＝`null`
+
+- script_api.@minecraft/server-editor-bindings.exportmanager.getgameoptions.usedefault.description
+
+
+////
+
+//// define
+返回值：[`GameOptions`](./gameoptions.md)
+
+- script_api.@minecraft/server-editor-bindings.exportmanager.getgameoptions.return
+
+
+////
+
+///
+
+
+/// define
+`getGameVersion`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.exportmanager.getgameversion.description
+
+```js
+getGameVersion(): string
+```
+
+/// html | div.result
+//// define
+返回值：`string`
+
+- script_api.@minecraft/server-editor-bindings.exportmanager.getgameversion.return
 
 
 ////

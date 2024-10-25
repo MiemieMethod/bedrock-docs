@@ -1,6 +1,6 @@
 # `Cursor`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `Cursor`类。script_api.@minecraft/server-editor-bindings.cursor.description
 
@@ -51,6 +51,86 @@ read-only isVisible: boolean;
 
 
 ## 方法
+
+/// define
+`attachClipboardItem`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.cursor.attachclipboarditem.description
+
+```js
+attachClipboardItem(item: ClipboardItem): void
+```
+
+/// html | div.result
+//// define
+`item`：[`ClipboardItem`](./clipboarditem.md)
+
+- script_api.@minecraft/server-editor-bindings.cursor.attachclipboarditem.item.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.cursor.attachclipboarditem.return
+
+
+////
+
+///
+
+
+/// define
+`clearAttachment`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.cursor.clearattachment.description
+
+```js
+clearAttachment(): void
+```
+
+/// html | div.result
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.cursor.clearattachment.return
+
+
+////
+
+///
+
+
+/// define
+`getAttachmentProperties`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.cursor.getattachmentproperties.description
+
+```js
+getAttachmentProperties(): CursorAttachmentProperties
+```
+
+/// html | div.result
+//// define
+返回值：[`CursorAttachmentProperties`](./cursorattachmentproperties.md)
+
+- script_api.@minecraft/server-editor-bindings.cursor.getattachmentproperties.return
+
+
+////
+
+///
+
 
 /// define
 `getPosition`
@@ -173,6 +253,38 @@ resetToDefaultState(): void
 返回值：`void`
 
 - script_api.@minecraft/server-editor-bindings.cursor.resettodefaultstate.return
+
+
+////
+
+///
+
+
+/// define
+`setAttachmentProperties`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.cursor.setattachmentproperties.description
+
+```js
+setAttachmentProperties(properties: CursorAttachmentProperties): void
+```
+
+/// html | div.result
+//// define
+`properties`：[`CursorAttachmentProperties`](./cursorattachmentproperties.md)
+
+- script_api.@minecraft/server-editor-bindings.cursor.setattachmentproperties.properties.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.cursor.setattachmentproperties.return
 
 
 ////

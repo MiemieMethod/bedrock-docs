@@ -1,6 +1,6 @@
 # `BlockLocationIterator`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BlockLocationIterator`类，实现了<code>Iterator&lt;<a href="../vector3/">Vector3</a>&gt;</code>。一个方块坐标迭代器。
 

@@ -1,10 +1,32 @@
 # `PlayerInteractWithEntityAfterEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `PlayerInteractWithEntityAfterEvent`类。script_api.@minecraft/server.playerinteractwithentityafterevent.description
 
 ## 属性
+
+/// define
+`beforeItemStack`
+
+
+///
+
+```js
+read-only beforeItemStack: ItemStack | undefined;
+```
+
+/// html | div.result
+//// define
+`beforeItemStack`：[`ItemStack`](./itemstack.md)|`undefined`
+
+- script_api.@minecraft/server.playerinteractwithentityafterevent.beforeitemstack.description
+
+
+////
+
+///
+
 
 /// define
 `itemStack`

@@ -1,6 +1,6 @@
 # `ItemUseOnBeforeEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ItemUseOnBeforeEvent`类，扩展自[`ItemUseOnAfterEvent`](./itemuseonafterevent.md)。script_api.@minecraft/server.itemuseonbeforeevent.description
 

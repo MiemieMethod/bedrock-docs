@@ -1,6 +1,6 @@
 # `PlayerInteractWithBlockBeforeEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `PlayerInteractWithBlockBeforeEvent`类。script_api.@minecraft/server.playerinteractwithblockbeforeevent.description
 
@@ -87,6 +87,28 @@ read-only faceLocation: Vector3;
 `faceLocation`：[`Vector3`](./vector3.md)
 
 - script_api.@minecraft/server.playerinteractwithblockbeforeevent.facelocation.description
+
+
+////
+
+///
+
+
+/// define
+`isFirstEvent`
+
+
+///
+
+```js
+read-only isFirstEvent: boolean;
+```
+
+/// html | div.result
+//// define
+`isFirstEvent`：`boolean`
+
+- script_api.@minecraft/server.playerinteractwithblockbeforeevent.isfirstevent.description
 
 
 ////

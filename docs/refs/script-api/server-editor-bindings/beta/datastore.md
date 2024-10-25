@@ -1,10 +1,32 @@
 # `DataStore`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `DataStore`类。script_api.@minecraft/server-editor-bindings.datastore.description
 
 ## 属性
+
+/// define
+`actionBarContainer`
+
+
+///
+
+```js
+read-only actionBarContainer: DataStoreActionBarContainer;
+```
+
+/// html | div.result
+//// define
+`actionBarContainer`：[`DataStoreActionBarContainer`](./datastoreactionbarcontainer.md)
+
+- script_api.@minecraft/server-editor-bindings.datastore.actionbarcontainer.description
+
+
+////
+
+///
+
 
 /// define
 `actionContainer`
@@ -65,6 +87,28 @@ read-only menuContainer: DataStoreMenuContainer;
 `menuContainer`：[`DataStoreMenuContainer`](./datastoremenucontainer.md)
 
 - script_api.@minecraft/server-editor-bindings.datastore.menucontainer.description
+
+
+////
+
+///
+
+
+/// define
+`modalToolContainer`
+
+
+///
+
+```js
+read-only modalToolContainer: DataStoreModalToolContainer;
+```
+
+/// html | div.result
+//// define
+`modalToolContainer`：[`DataStoreModalToolContainer`](./datastoremodaltoolcontainer.md)
+
+- script_api.@minecraft/server-editor-bindings.datastore.modaltoolcontainer.description
 
 
 ////

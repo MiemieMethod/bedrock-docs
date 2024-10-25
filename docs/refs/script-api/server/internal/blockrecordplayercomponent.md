@@ -1,6 +1,6 @@
 # `BlockRecordPlayerComponent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BlockRecordPlayerComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。script_api.@minecraft/server.blockrecordplayercomponent.description
 
@@ -13,29 +13,53 @@
 ///
 
 ```js
-static read-only componentId = "minecraft:recordPlayer";
+static read-only componentId = "minecraft:record_player";
 ```
 
 
 ## 方法
 
 /// define
-`clearRecord`
+`ejectRecord`
 
 
 ///
 
-script_api.@minecraft/server.blockrecordplayercomponent.clearrecord.description
+script_api.@minecraft/server.blockrecordplayercomponent.ejectrecord.description
 
 ```js
-clearRecord(): void
+ejectRecord(): void
 ```
 
 /// html | div.result
 //// define
 返回值：`void`
 
-- script_api.@minecraft/server.blockrecordplayercomponent.clearrecord.return
+- script_api.@minecraft/server.blockrecordplayercomponent.ejectrecord.return
+
+
+////
+
+///
+
+
+/// define
+`getRecord`
+
+
+///
+
+script_api.@minecraft/server.blockrecordplayercomponent.getrecord.description
+
+```js
+getRecord(): ItemStack | undefined
+```
+
+/// html | div.result
+//// define
+返回值：[`ItemStack`](./itemstack.md)|`undefined`
+
+- script_api.@minecraft/server.blockrecordplayercomponent.getrecord.return
 
 
 ////
@@ -68,6 +92,54 @@ isPlaying(): boolean
 
 
 /// define
+`pauseRecord`
+
+
+///
+
+script_api.@minecraft/server.blockrecordplayercomponent.pauserecord.description
+
+```js
+pauseRecord(): void
+```
+
+/// html | div.result
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.blockrecordplayercomponent.pauserecord.return
+
+
+////
+
+///
+
+
+/// define
+`playRecord`
+
+
+///
+
+script_api.@minecraft/server.blockrecordplayercomponent.playrecord.description
+
+```js
+playRecord(): void
+```
+
+/// html | div.result
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server.blockrecordplayercomponent.playrecord.return
+
+
+////
+
+///
+
+
+/// define
 `setRecord`
 
 
@@ -76,14 +148,22 @@ isPlaying(): boolean
 script_api.@minecraft/server.blockrecordplayercomponent.setrecord.description
 
 ```js
-setRecord(recordItemType: ItemType | string): void
+setRecord(recordItemType?: ItemType | string, startPlaying: boolean): void
 ```
 
 /// html | div.result
 //// define
-`recordItemType`：[`ItemType`](./itemtype.md)|`string`
+`recordItemType`?：[`ItemType`](./itemtype.md)|`string`＝`null`
 
 - script_api.@minecraft/server.blockrecordplayercomponent.setrecord.recorditemtype.description
+
+
+////
+
+//// define
+`startPlaying`：`boolean`＝`True`
+
+- script_api.@minecraft/server.blockrecordplayercomponent.setrecord.startplaying.description
 
 
 ////

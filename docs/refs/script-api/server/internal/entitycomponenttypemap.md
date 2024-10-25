@@ -1,6 +1,6 @@
 # `EntityComponentTypeMap`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `EntityComponentTypeMap`类型别名。script_api.@minecraft/server.entitycomponenttypemap.description
 
@@ -16,6 +16,10 @@
 - 映射。
 
 `minecraft:breathable`：[`EntityBreathableComponent`](./entitybreathablecomponent.md)
+
+- 映射。
+
+`minecraft:cursor_inventory`：[`PlayerCursorInventoryComponent`](./playercursorinventorycomponent.md)
 
 - 映射。
 

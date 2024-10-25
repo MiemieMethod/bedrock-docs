@@ -1,26 +1,26 @@
 # `WorldInitializeBeforeEvent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `WorldInitializeBeforeEvent`类。script_api.@minecraft/server.worldinitializebeforeevent.description
 
 ## 属性
 
 /// define
-`blockTypeRegistry`
+`blockComponentRegistry`
 
 
 ///
 
 ```js
-read-only blockTypeRegistry: BlockComponentRegistry;
+read-only blockComponentRegistry: BlockComponentRegistry;
 ```
 
 /// html | div.result
 //// define
-`blockTypeRegistry`：[`BlockComponentRegistry`](./blockcomponentregistry.md)
+`blockComponentRegistry`：[`BlockComponentRegistry`](./blockcomponentregistry.md)
 
-- script_api.@minecraft/server.worldinitializebeforeevent.blocktyperegistry.description
+- script_api.@minecraft/server.worldinitializebeforeevent.blockcomponentregistry.description
 
 
 ////

@@ -1,6 +1,6 @@
 # `ItemDurabilityComponent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ItemDurabilityComponent`类，扩展自[`ItemComponent`](./itemcomponent.md)。script_api.mojang-minecraft.itemdurabilitycomponent.description
 

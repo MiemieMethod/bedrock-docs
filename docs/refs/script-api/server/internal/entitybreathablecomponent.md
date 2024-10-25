@@ -1,6 +1,6 @@
 # `EntityBreathableComponent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `EntityBreathableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitybreathablecomponent.description
 
@@ -18,6 +18,28 @@ static read-only componentId = "minecraft:breathable";
 
 
 ## 属性
+
+/// define
+`airSupply`
+
+
+///
+
+```js
+airSupply: int16;
+```
+
+/// html | div.result
+//// define
+`airSupply`：`int16`
+
+- script_api.@minecraft/server.entitybreathablecomponent.airsupply.description
+
+
+////
+
+///
+
 
 /// define
 `breathesAir`
@@ -100,6 +122,28 @@ read-only breathesWater: boolean;
 `breathesWater`：`boolean`
 
 - script_api.@minecraft/server.entitybreathablecomponent.breatheswater.description
+
+
+////
+
+///
+
+
+/// define
+`canBreathe`
+
+
+///
+
+```js
+read-only canBreathe: boolean;
+```
+
+/// html | div.result
+//// define
+`canBreathe`：`boolean`
+
+- script_api.@minecraft/server.entitybreathablecomponent.canbreathe.description
 
 
 ////
@@ -238,38 +282,6 @@ getNonBreatheBlocks(): BlockPermutation[]
 返回值：<code><a href="../blockpermutation/">BlockPermutation</a>[]</code>
 
 - script_api.@minecraft/server.entitybreathablecomponent.getnonbreatheblocks.return
-
-
-////
-
-///
-
-
-/// define
-`setAirSupply`
-
-
-///
-
-script_api.@minecraft/server.entitybreathablecomponent.setairsupply.description
-
-```js
-setAirSupply(value: int16): void
-```
-
-/// html | div.result
-//// define
-`value`：`int16`∈[`-32768`, `32767`]
-
-- script_api.@minecraft/server.entitybreathablecomponent.setairsupply.value.description
-
-
-////
-
-//// define
-返回值：`void`
-
-- script_api.@minecraft/server.entitybreathablecomponent.setairsupply.return
 
 
 ////

@@ -1,6 +1,6 @@
 # `BrushShape`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BrushShape`接口。script_api.@minecraft/server-editor-bindings.brushshape.description
 

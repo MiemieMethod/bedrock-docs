@@ -1,6 +1,6 @@
 # `ExtensionContext`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `ExtensionContext`类。script_api.@minecraft/server-editor-bindings.extensioncontext.description
 
@@ -241,6 +241,28 @@ read-only settings: SettingsManager;
 `settings`：[`SettingsManager`](./settingsmanager.md)
 
 - script_api.@minecraft/server-editor-bindings.extensioncontext.settings.description
+
+
+////
+
+///
+
+
+/// define
+`structureManager`
+
+
+///
+
+```js
+read-only structureManager: EditorStructureManager;
+```
+
+/// html | div.result
+//// define
+`structureManager`：[`EditorStructureManager`](./editorstructuremanager.md)
+
+- script_api.@minecraft/server-editor-bindings.extensioncontext.structuremanager.description
 
 
 ////

@@ -1,6 +1,6 @@
 # `WidgetStateChangeEventData`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `WidgetStateChangeEventData`类。script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.description
 
@@ -29,20 +29,20 @@ read-only group: WidgetGroup;
 
 
 /// define
-`isSelected`
+`location`
 
 
 ///
 
 ```js
-read-only isSelected: boolean | undefined;
+read-only location: Vector3 | undefined;
 ```
 
 /// html | div.result
 //// define
-`isSelected`：`boolean`|`undefined`
+`location`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.isselected.description
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.location.description
 
 
 ////
@@ -51,20 +51,64 @@ read-only isSelected: boolean | undefined;
 
 
 /// define
-`isVisible`
+`mouseEvent`
 
 
 ///
 
 ```js
-read-only isVisible: boolean | undefined;
+read-only mouseEvent: WidgetMouseButtonEventData | undefined;
 ```
 
 /// html | div.result
 //// define
-`isVisible`：`boolean`|`undefined`
+`mouseEvent`：[`WidgetMouseButtonEventData`](./widgetmousebuttoneventdata.md)|`undefined`
 
-- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.isvisible.description
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.mouseevent.description
+
+
+////
+
+///
+
+
+/// define
+`selected`
+
+
+///
+
+```js
+read-only selected: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`selected`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.selected.description
+
+
+////
+
+///
+
+
+/// define
+`visible`
+
+
+///
+
+```js
+read-only visible: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`visible`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.widgetstatechangeeventdata.visible.description
 
 
 ////

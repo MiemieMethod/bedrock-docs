@@ -1,6 +1,6 @@
 # `BlockInventoryComponent`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `BlockInventoryComponent`类，扩展自[`BlockComponent`](./blockcomponent.md)。代表一个物品栏容器方块的物品栏组件。
 

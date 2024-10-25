@@ -1,6 +1,6 @@
 # `Player`
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 `Player`类，扩展自[`Entity`](./entity.md)。script_api.@minecraft/server.player.description
 
@@ -21,6 +21,50 @@ read-only camera: Camera;
 `camera`：[`Camera`](./camera.md)
 
 - script_api.@minecraft/server.player.camera.description
+
+
+////
+
+///
+
+
+/// define
+`clientSystemInfo`
+
+
+///
+
+```js
+read-only clientSystemInfo: ClientSystemInfo;
+```
+
+/// html | div.result
+//// define
+`clientSystemInfo`：[`ClientSystemInfo`](./clientsysteminfo.md)
+
+- script_api.@minecraft/server.player.clientsysteminfo.description
+
+
+////
+
+///
+
+
+/// define
+`inputInfo`
+
+
+///
+
+```js
+read-only inputInfo: InputInfo;
+```
+
+/// html | div.result
+//// define
+`inputInfo`：[`InputInfo`](./inputinfo.md)
+
+- script_api.@minecraft/server.player.inputinfo.description
 
 
 ////
