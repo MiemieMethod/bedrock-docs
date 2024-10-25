@@ -1,6 +1,6 @@
 # <!-- md:samp ItemStackResponseContainerInfo -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp ItemStackResponseContainerInfo -->类型。该类型用于protocol.type.itemstackresponsecontainerinfo.description
 
@@ -20,8 +20,8 @@ rankdir = LR
 25 -> 42
 
 18 [label="ItemStackResponseContainerInfo",comment="name: \"ItemStackResponseContainerInfo\", typeName: \"\", id: 18, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-19 [label="Open Container Net Id",comment="name: \"Open Container Net Id\", typeName: \"\", id: 19, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-20 [label="byte",comment="name: \"byte\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+19 [label="Full Container Name",comment="name: \"Full Container Name\", typeName: \"FullContainerName\", id: 19, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+20 [label="FullContainerName",comment="name: \"FullContainerName\", typeName: \"\", id: 20, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 21 [label="Slots",comment="name: \"Slots\", typeName: \"\", id: 21, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
 22 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 23 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -37,14 +37,14 @@ rankdir = LR
 ## 字段
 
 ```title='ItemStackResponseContainerInfo'
-[open_container_net_id][slots]
+[full_container_name][slots]
 ```
 
 /// html | div.result
 //// define
-Open Container Net Id：<!-- md:samp byte -->
+Full Container Name：[<!-- md:samp FullContainerName -->](../types/fullcontainername.md)
 
-- 基本类型。protocol.type.itemstackresponsecontainerinfo.open_container_net_id.description
+- 特殊类型。protocol.type.itemstackresponsecontainerinfo.full_container_name.description
 
 
 ////

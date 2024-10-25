@@ -1,6 +1,6 @@
 # <!-- md:samp ItemEnchants -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp ItemEnchants -->类型。该类型用于protocol.type.itemenchants.description
 
@@ -108,46 +108,49 @@ Enchant Type：<!-- md:samp byte -->
 
   |键|值|描述|
   |---|---|---|
-  |`ArmorAll`|`0`|protocol.enum.armorall|
-  |`ArmorFire`|`1`|protocol.enum.armorfire|
-  |`ArmorFall`|`2`|protocol.enum.armorfall|
-  |`ArmorExplosive`|`3`|protocol.enum.armorexplosive|
-  |`ArmorProjectile`|`4`|protocol.enum.armorprojectile|
-  |`ArmorThorns`|`5`|protocol.enum.armorthorns|
-  |`WaterBreath`|`6`|protocol.enum.waterbreath|
-  |`WaterSpeed`|`7`|protocol.enum.waterspeed|
-  |`WaterAffinity`|`8`|protocol.enum.wateraffinity|
-  |`WeaponDamage`|`9`|protocol.enum.weapondamage|
-  |`WeaponUndead`|`10`|protocol.enum.weaponundead|
-  |`WeaponArthropod`|`11`|protocol.enum.weaponarthropod|
-  |`WeaponKnockback`|`12`|protocol.enum.weaponknockback|
-  |`WeaponFire`|`13`|protocol.enum.weaponfire|
-  |`WeaponLoot`|`14`|protocol.enum.weaponloot|
-  |`MiningEfficiency`|`15`|protocol.enum.miningefficiency|
-  |`MiningSilkTouch`|`16`|protocol.enum.miningsilktouch|
-  |`MiningDurability`|`17`|protocol.enum.miningdurability|
-  |`MiningLoot`|`18`|protocol.enum.miningloot|
-  |`BowDamage`|`19`|protocol.enum.bowdamage|
-  |`BowKnockback`|`20`|protocol.enum.bowknockback|
-  |`BowFire`|`21`|protocol.enum.bowfire|
-  |`BowInfinity`|`22`|protocol.enum.bowinfinity|
-  |`FishingLoot`|`23`|protocol.enum.fishingloot|
-  |`FishingLure`|`24`|protocol.enum.fishinglure|
+  |`Protection`|`0`|protocol.enum.protection|
+  |`FireProtection`|`1`|protocol.enum.fireprotection|
+  |`FeatherFalling`|`2`|protocol.enum.featherfalling|
+  |`BlastProtection`|`3`|protocol.enum.blastprotection|
+  |`ProjectileProtection`|`4`|protocol.enum.projectileprotection|
+  |`Thorns`|`5`|protocol.enum.thorns|
+  |`Respiration`|`6`|protocol.enum.respiration|
+  |`DepthStrider`|`7`|protocol.enum.depthstrider|
+  |`AquaAffinity`|`8`|protocol.enum.aquaaffinity|
+  |`Sharpness`|`9`|protocol.enum.sharpness|
+  |`Smite`|`10`|protocol.enum.smite|
+  |`BaneOfArthropods`|`11`|protocol.enum.baneofarthropods|
+  |`Knockback`|`12`|protocol.enum.knockback|
+  |`FireAspect`|`13`|protocol.enum.fireaspect|
+  |`Looting`|`14`|protocol.enum.looting|
+  |`Efficiency`|`15`|protocol.enum.efficiency|
+  |`SilkTouch`|`16`|protocol.enum.silktouch|
+  |`Unbreaking`|`17`|protocol.enum.unbreaking|
+  |`Fortune`|`18`|protocol.enum.fortune|
+  |`Power`|`19`|protocol.enum.power|
+  |`Punch`|`20`|protocol.enum.punch|
+  |`Flame`|`21`|protocol.enum.flame|
+  |`Infinity`|`22`|protocol.enum.infinity|
+  |`LuckOfTheSea`|`23`|protocol.enum.luckofthesea|
+  |`Lure`|`24`|protocol.enum.lure|
   |`FrostWalker`|`25`|protocol.enum.frostwalker|
   |`Mending`|`26`|protocol.enum.mending|
-  |`CurseBinding`|`27`|protocol.enum.cursebinding|
-  |`CurseVanishing`|`28`|protocol.enum.cursevanishing|
-  |`TridentImpaling`|`29`|protocol.enum.tridentimpaling|
-  |`TridentRiptide`|`30`|protocol.enum.tridentriptide|
-  |`TridentLoyalty`|`31`|protocol.enum.tridentloyalty|
-  |`TridentChanneling`|`32`|protocol.enum.tridentchanneling|
-  |`CrossbowMultishot`|`33`|protocol.enum.crossbowmultishot|
-  |`CrossbowPiercing`|`34`|protocol.enum.crossbowpiercing|
-  |`CrossbowQuickCharge`|`35`|protocol.enum.crossbowquickcharge|
+  |`CurseOfBinding`|`27`|protocol.enum.curseofbinding|
+  |`CurseOfVanishing`|`28`|protocol.enum.curseofvanishing|
+  |`Impaling`|`29`|protocol.enum.impaling|
+  |`Riptide`|`30`|protocol.enum.riptide|
+  |`Loyalty`|`31`|protocol.enum.loyalty|
+  |`Channeling`|`32`|protocol.enum.channeling|
+  |`Multishot`|`33`|protocol.enum.multishot|
+  |`Piercing`|`34`|protocol.enum.piercing|
+  |`QuickCharge`|`35`|protocol.enum.quickcharge|
   |`SoulSpeed`|`36`|protocol.enum.soulspeed|
   |`SwiftSneak`|`37`|protocol.enum.swiftsneak|
-  |`NumEnchantments`|`38`|protocol.enum.numenchantments|
-  |`InvalidEnchantment`|`39`|protocol.enum.invalidenchantment|
+  |`WindBurst`|`38`|protocol.enum.windburst|
+  |`Density`|`39`|protocol.enum.density|
+  |`Breach`|`40`|protocol.enum.breach|
+  |`NumEnchantments`|`41`|protocol.enum.numenchantments|
+  |`InvalidEnchantment`|`42`|protocol.enum.invalidenchantment|
 
 
 
@@ -187,46 +190,49 @@ Enchant Type：<!-- md:samp byte -->
 
   |键|值|描述|
   |---|---|---|
-  |`ArmorAll`|`0`|protocol.enum.armorall|
-  |`ArmorFire`|`1`|protocol.enum.armorfire|
-  |`ArmorFall`|`2`|protocol.enum.armorfall|
-  |`ArmorExplosive`|`3`|protocol.enum.armorexplosive|
-  |`ArmorProjectile`|`4`|protocol.enum.armorprojectile|
-  |`ArmorThorns`|`5`|protocol.enum.armorthorns|
-  |`WaterBreath`|`6`|protocol.enum.waterbreath|
-  |`WaterSpeed`|`7`|protocol.enum.waterspeed|
-  |`WaterAffinity`|`8`|protocol.enum.wateraffinity|
-  |`WeaponDamage`|`9`|protocol.enum.weapondamage|
-  |`WeaponUndead`|`10`|protocol.enum.weaponundead|
-  |`WeaponArthropod`|`11`|protocol.enum.weaponarthropod|
-  |`WeaponKnockback`|`12`|protocol.enum.weaponknockback|
-  |`WeaponFire`|`13`|protocol.enum.weaponfire|
-  |`WeaponLoot`|`14`|protocol.enum.weaponloot|
-  |`MiningEfficiency`|`15`|protocol.enum.miningefficiency|
-  |`MiningSilkTouch`|`16`|protocol.enum.miningsilktouch|
-  |`MiningDurability`|`17`|protocol.enum.miningdurability|
-  |`MiningLoot`|`18`|protocol.enum.miningloot|
-  |`BowDamage`|`19`|protocol.enum.bowdamage|
-  |`BowKnockback`|`20`|protocol.enum.bowknockback|
-  |`BowFire`|`21`|protocol.enum.bowfire|
-  |`BowInfinity`|`22`|protocol.enum.bowinfinity|
-  |`FishingLoot`|`23`|protocol.enum.fishingloot|
-  |`FishingLure`|`24`|protocol.enum.fishinglure|
+  |`Protection`|`0`|protocol.enum.protection|
+  |`FireProtection`|`1`|protocol.enum.fireprotection|
+  |`FeatherFalling`|`2`|protocol.enum.featherfalling|
+  |`BlastProtection`|`3`|protocol.enum.blastprotection|
+  |`ProjectileProtection`|`4`|protocol.enum.projectileprotection|
+  |`Thorns`|`5`|protocol.enum.thorns|
+  |`Respiration`|`6`|protocol.enum.respiration|
+  |`DepthStrider`|`7`|protocol.enum.depthstrider|
+  |`AquaAffinity`|`8`|protocol.enum.aquaaffinity|
+  |`Sharpness`|`9`|protocol.enum.sharpness|
+  |`Smite`|`10`|protocol.enum.smite|
+  |`BaneOfArthropods`|`11`|protocol.enum.baneofarthropods|
+  |`Knockback`|`12`|protocol.enum.knockback|
+  |`FireAspect`|`13`|protocol.enum.fireaspect|
+  |`Looting`|`14`|protocol.enum.looting|
+  |`Efficiency`|`15`|protocol.enum.efficiency|
+  |`SilkTouch`|`16`|protocol.enum.silktouch|
+  |`Unbreaking`|`17`|protocol.enum.unbreaking|
+  |`Fortune`|`18`|protocol.enum.fortune|
+  |`Power`|`19`|protocol.enum.power|
+  |`Punch`|`20`|protocol.enum.punch|
+  |`Flame`|`21`|protocol.enum.flame|
+  |`Infinity`|`22`|protocol.enum.infinity|
+  |`LuckOfTheSea`|`23`|protocol.enum.luckofthesea|
+  |`Lure`|`24`|protocol.enum.lure|
   |`FrostWalker`|`25`|protocol.enum.frostwalker|
   |`Mending`|`26`|protocol.enum.mending|
-  |`CurseBinding`|`27`|protocol.enum.cursebinding|
-  |`CurseVanishing`|`28`|protocol.enum.cursevanishing|
-  |`TridentImpaling`|`29`|protocol.enum.tridentimpaling|
-  |`TridentRiptide`|`30`|protocol.enum.tridentriptide|
-  |`TridentLoyalty`|`31`|protocol.enum.tridentloyalty|
-  |`TridentChanneling`|`32`|protocol.enum.tridentchanneling|
-  |`CrossbowMultishot`|`33`|protocol.enum.crossbowmultishot|
-  |`CrossbowPiercing`|`34`|protocol.enum.crossbowpiercing|
-  |`CrossbowQuickCharge`|`35`|protocol.enum.crossbowquickcharge|
+  |`CurseOfBinding`|`27`|protocol.enum.curseofbinding|
+  |`CurseOfVanishing`|`28`|protocol.enum.curseofvanishing|
+  |`Impaling`|`29`|protocol.enum.impaling|
+  |`Riptide`|`30`|protocol.enum.riptide|
+  |`Loyalty`|`31`|protocol.enum.loyalty|
+  |`Channeling`|`32`|protocol.enum.channeling|
+  |`Multishot`|`33`|protocol.enum.multishot|
+  |`Piercing`|`34`|protocol.enum.piercing|
+  |`QuickCharge`|`35`|protocol.enum.quickcharge|
   |`SoulSpeed`|`36`|protocol.enum.soulspeed|
   |`SwiftSneak`|`37`|protocol.enum.swiftsneak|
-  |`NumEnchantments`|`38`|protocol.enum.numenchantments|
-  |`InvalidEnchantment`|`39`|protocol.enum.invalidenchantment|
+  |`WindBurst`|`38`|protocol.enum.windburst|
+  |`Density`|`39`|protocol.enum.density|
+  |`Breach`|`40`|protocol.enum.breach|
+  |`NumEnchantments`|`41`|protocol.enum.numenchantments|
+  |`InvalidEnchantment`|`42`|protocol.enum.invalidenchantment|
 
 
 
@@ -266,46 +272,49 @@ Enchant Type：<!-- md:samp byte -->
 
   |键|值|描述|
   |---|---|---|
-  |`ArmorAll`|`0`|protocol.enum.armorall|
-  |`ArmorFire`|`1`|protocol.enum.armorfire|
-  |`ArmorFall`|`2`|protocol.enum.armorfall|
-  |`ArmorExplosive`|`3`|protocol.enum.armorexplosive|
-  |`ArmorProjectile`|`4`|protocol.enum.armorprojectile|
-  |`ArmorThorns`|`5`|protocol.enum.armorthorns|
-  |`WaterBreath`|`6`|protocol.enum.waterbreath|
-  |`WaterSpeed`|`7`|protocol.enum.waterspeed|
-  |`WaterAffinity`|`8`|protocol.enum.wateraffinity|
-  |`WeaponDamage`|`9`|protocol.enum.weapondamage|
-  |`WeaponUndead`|`10`|protocol.enum.weaponundead|
-  |`WeaponArthropod`|`11`|protocol.enum.weaponarthropod|
-  |`WeaponKnockback`|`12`|protocol.enum.weaponknockback|
-  |`WeaponFire`|`13`|protocol.enum.weaponfire|
-  |`WeaponLoot`|`14`|protocol.enum.weaponloot|
-  |`MiningEfficiency`|`15`|protocol.enum.miningefficiency|
-  |`MiningSilkTouch`|`16`|protocol.enum.miningsilktouch|
-  |`MiningDurability`|`17`|protocol.enum.miningdurability|
-  |`MiningLoot`|`18`|protocol.enum.miningloot|
-  |`BowDamage`|`19`|protocol.enum.bowdamage|
-  |`BowKnockback`|`20`|protocol.enum.bowknockback|
-  |`BowFire`|`21`|protocol.enum.bowfire|
-  |`BowInfinity`|`22`|protocol.enum.bowinfinity|
-  |`FishingLoot`|`23`|protocol.enum.fishingloot|
-  |`FishingLure`|`24`|protocol.enum.fishinglure|
+  |`Protection`|`0`|protocol.enum.protection|
+  |`FireProtection`|`1`|protocol.enum.fireprotection|
+  |`FeatherFalling`|`2`|protocol.enum.featherfalling|
+  |`BlastProtection`|`3`|protocol.enum.blastprotection|
+  |`ProjectileProtection`|`4`|protocol.enum.projectileprotection|
+  |`Thorns`|`5`|protocol.enum.thorns|
+  |`Respiration`|`6`|protocol.enum.respiration|
+  |`DepthStrider`|`7`|protocol.enum.depthstrider|
+  |`AquaAffinity`|`8`|protocol.enum.aquaaffinity|
+  |`Sharpness`|`9`|protocol.enum.sharpness|
+  |`Smite`|`10`|protocol.enum.smite|
+  |`BaneOfArthropods`|`11`|protocol.enum.baneofarthropods|
+  |`Knockback`|`12`|protocol.enum.knockback|
+  |`FireAspect`|`13`|protocol.enum.fireaspect|
+  |`Looting`|`14`|protocol.enum.looting|
+  |`Efficiency`|`15`|protocol.enum.efficiency|
+  |`SilkTouch`|`16`|protocol.enum.silktouch|
+  |`Unbreaking`|`17`|protocol.enum.unbreaking|
+  |`Fortune`|`18`|protocol.enum.fortune|
+  |`Power`|`19`|protocol.enum.power|
+  |`Punch`|`20`|protocol.enum.punch|
+  |`Flame`|`21`|protocol.enum.flame|
+  |`Infinity`|`22`|protocol.enum.infinity|
+  |`LuckOfTheSea`|`23`|protocol.enum.luckofthesea|
+  |`Lure`|`24`|protocol.enum.lure|
   |`FrostWalker`|`25`|protocol.enum.frostwalker|
   |`Mending`|`26`|protocol.enum.mending|
-  |`CurseBinding`|`27`|protocol.enum.cursebinding|
-  |`CurseVanishing`|`28`|protocol.enum.cursevanishing|
-  |`TridentImpaling`|`29`|protocol.enum.tridentimpaling|
-  |`TridentRiptide`|`30`|protocol.enum.tridentriptide|
-  |`TridentLoyalty`|`31`|protocol.enum.tridentloyalty|
-  |`TridentChanneling`|`32`|protocol.enum.tridentchanneling|
-  |`CrossbowMultishot`|`33`|protocol.enum.crossbowmultishot|
-  |`CrossbowPiercing`|`34`|protocol.enum.crossbowpiercing|
-  |`CrossbowQuickCharge`|`35`|protocol.enum.crossbowquickcharge|
+  |`CurseOfBinding`|`27`|protocol.enum.curseofbinding|
+  |`CurseOfVanishing`|`28`|protocol.enum.curseofvanishing|
+  |`Impaling`|`29`|protocol.enum.impaling|
+  |`Riptide`|`30`|protocol.enum.riptide|
+  |`Loyalty`|`31`|protocol.enum.loyalty|
+  |`Channeling`|`32`|protocol.enum.channeling|
+  |`Multishot`|`33`|protocol.enum.multishot|
+  |`Piercing`|`34`|protocol.enum.piercing|
+  |`QuickCharge`|`35`|protocol.enum.quickcharge|
   |`SoulSpeed`|`36`|protocol.enum.soulspeed|
   |`SwiftSneak`|`37`|protocol.enum.swiftsneak|
-  |`NumEnchantments`|`38`|protocol.enum.numenchantments|
-  |`InvalidEnchantment`|`39`|protocol.enum.invalidenchantment|
+  |`WindBurst`|`38`|protocol.enum.windburst|
+  |`Density`|`39`|protocol.enum.density|
+  |`Breach`|`40`|protocol.enum.breach|
+  |`NumEnchantments`|`41`|protocol.enum.numenchantments|
+  |`InvalidEnchantment`|`42`|protocol.enum.invalidenchantment|
 
 
 

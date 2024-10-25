@@ -1,6 +1,6 @@
 # <!-- md:samp MobArmorEquipmentPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp MobArmorEquipmentPacket -->数据包，数字ID是`32`。该数据包用于protocol.packet.mobarmorequipmentpacket.description
 
@@ -20,6 +20,8 @@ rankdir = LR
 7 -> 8
 0 -> 9
 9 -> 10
+0 -> 11
+11 -> 12
 
 0 [label="MobArmorEquipmentPacket",comment="name: \"MobArmorEquipmentPacket\", typeName: \"\", id: 0, branchId: 32, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Target Runtime ID",comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
@@ -32,7 +34,9 @@ rankdir = LR
 8 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 9 [label="Feet",comment="name: \"Feet\", typeName: \"NetworkItemStackDescriptor\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 10 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;6;8;10}
+11 [label="Body",comment="name: \"Body\", typeName: \"NetworkItemStackDescriptor\", id: 11, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+12 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10;12}
 
 }
 
@@ -41,7 +45,7 @@ rankdir = LR
 ## 字段
 
 ```title='MobArmorEquipmentPacket'
-[target_runtime_id][head][torso][legs][feet]
+[target_runtime_id][head][torso][legs][feet][body]
 ```
 
 /// html | div.result
@@ -77,6 +81,13 @@ Legs：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackde
 Feet：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
 - 特殊类型。protocol.packet.mobarmorequipmentpacket.feet.description
+
+
+////
+//// define
+Body：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
+
+- 特殊类型。protocol.packet.mobarmorequipmentpacket.body.description
 
 
 ////

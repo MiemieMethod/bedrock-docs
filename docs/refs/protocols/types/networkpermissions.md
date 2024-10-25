@@ -1,6 +1,6 @@
 # <!-- md:samp NetworkPermissions -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp NetworkPermissions -->类型。该类型用于protocol.type.networkpermissions.description
 
@@ -9,14 +9,14 @@
 ```viz
 digraph "NetworkPermissions" {
 rankdir = LR
-199
-199 -> 200
-200 -> 201
+205
+205 -> 206
+206 -> 207
 
-199 [label="NetworkPermissions",comment="name: \"NetworkPermissions\", typeName: \"\", id: 199, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-200 [label="serverAuthSoundEnabled",comment="name: \"serverAuthSoundEnabled\", typeName: \"\", id: 200, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-201 [label="bool",comment="name: \"bool\", typeName: \"\", id: 201, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;201}
+205 [label="NetworkPermissions",comment="name: \"NetworkPermissions\", typeName: \"\", id: 205, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+206 [label="serverAuthSoundEnabled",comment="name: \"serverAuthSoundEnabled\", typeName: \"\", id: 206, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+207 [label="bool",comment="name: \"bool\", typeName: \"\", id: 207, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;207}
 
 }
 

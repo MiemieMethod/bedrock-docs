@@ -1,6 +1,6 @@
 # <!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt; -->类型。该类型用于protocol.type.std::vector&lt;std::unique_ptr&lt;dataitem&gt;&gt;.description
 

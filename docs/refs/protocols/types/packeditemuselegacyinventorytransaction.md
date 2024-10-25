@@ -1,6 +1,6 @@
 # <!-- md:samp PackedItemUseLegacyInventoryTransaction -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp PackedItemUseLegacyInventoryTransaction -->类型。该类型用于protocol.type.packeditemuselegacyinventorytransaction.description
 
@@ -50,6 +50,10 @@ rankdir = LR
 72 -> 73
 32 -> 74
 74 -> 75
+32 -> 76
+76 -> 77
+32 -> 78
+78 -> 79
 
 32 [label="PackedItemUseLegacyInventoryTransaction",comment="name: \"PackedItemUseLegacyInventoryTransaction\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 33 [label="ID",comment="name: \"ID\", typeName: \"TypedClientNetId<struct ItemStackLegacyRequestIdTag,int,0>\", id: 33, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
@@ -78,21 +82,25 @@ rankdir = LR
 59 [label="InventoryAction",comment="name: \"InventoryAction\", typeName: \"\", id: 59, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 60 [label="Action Type",comment="name: \"Action Type\", typeName: \"\", id: 60, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 61 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 61, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-62 [label="Position",comment="name: \"Position\", typeName: \"NetworkBlockPosition\", id: 62, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-63 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 63, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-64 [label="Face",comment="name: \"Face\", typeName: \"\", id: 64, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-65 [label="varint",comment="name: \"varint\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-66 [label="Slot",comment="name: \"Slot\", typeName: \"\", id: 66, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+62 [label="Trigger Type",comment="name: \"Trigger Type\", typeName: \"\", id: 62, branchId: 0, recurseId: -1, attributes: 0, notes: \"PlayerInput if it's a direct result from a player's initial button input,		SimulationTick if the player is holding down the input button started from a previous tick.\""];
+63 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 63, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+64 [label="Position",comment="name: \"Position\", typeName: \"NetworkBlockPosition\", id: 64, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+65 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 65, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+66 [label="Face",comment="name: \"Face\", typeName: \"\", id: 66, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 67 [label="varint",comment="name: \"varint\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-68 [label="Item",comment="name: \"Item\", typeName: \"NetworkItemStackDescriptor\", id: 68, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-69 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 69, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-70 [label="From Position",comment="name: \"From Position\", typeName: \"Vec3\", id: 70, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-71 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 71, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-72 [label="Click Position",comment="name: \"Click Position\", typeName: \"Vec3\", id: 72, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+68 [label="Slot",comment="name: \"Slot\", typeName: \"\", id: 68, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+69 [label="varint",comment="name: \"varint\", typeName: \"\", id: 69, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+70 [label="Item",comment="name: \"Item\", typeName: \"NetworkItemStackDescriptor\", id: 70, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+71 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 71, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+72 [label="From Position",comment="name: \"From Position\", typeName: \"Vec3\", id: 72, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 73 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 73, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-74 [label="Target Block Id",comment="name: \"Target Block Id\", typeName: \"\", id: 74, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-75 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 75, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;37;40;44;47;50;53;56;59;61;63;65;67;69;71;73;75}
+74 [label="Click Position",comment="name: \"Click Position\", typeName: \"Vec3\", id: 74, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+75 [label="Vec3",comment="name: \"Vec3\", typeName: \"\", id: 75, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+76 [label="Target Block Id",comment="name: \"Target Block Id\", typeName: \"\", id: 76, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+77 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 77, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+78 [label="Client Interact Prediction",comment="name: \"Client Interact Prediction\", typeName: \"\", id: 78, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+79 [label="byte",comment="name: \"byte\", typeName: \"\", id: 79, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;37;40;44;47;50;53;56;59;61;63;65;67;69;71;73;75;77;79}
 
 }
 
@@ -101,7 +109,7 @@ rankdir = LR
 ## 字段
 
 ```title='PackedItemUseLegacyInventoryTransaction'
-[id][dependency_on_valid_id][actions][action_type][position][face][slot][item][from_position][click_position][target_block_id]
+[id][dependency_on_valid_id][actions][action_type][trigger_type][position][face][slot][item][from_position][click_position][target_block_id][client_interact_prediction]
 ```
 
 /// html | div.result
@@ -218,6 +226,7 @@ Container Enum Name：<!-- md:samp byte -->
   |`CreatedOutputContainer`|`60`|protocol.enum.createdoutputcontainer|
   |`SmithingTableTemplateContainer`|`61`|protocol.enum.smithingtabletemplatecontainer|
   |`CrafterLevelEntityContainer`|`62`|protocol.enum.crafterlevelentitycontainer|
+  |`DynamicContainer`|`63`|protocol.enum.dynamiccontainer|
 
 
 
@@ -301,6 +310,20 @@ Action Type：<!-- md:samp unsigned varint -->
 
 ////
 //// define
+Trigger Type：<!-- md:samp unsigned varint -->
+
+- 基本类型枚举。protocol.type.packeditemuselegacyinventorytransaction.trigger_type.descriptionPlayerInput if it's a direct result from a player's initial button input,		SimulationTick if the player is holding down the input button started from a previous tick.枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Unknown`|`0`|protocol.enum.unknown|
+  |`PlayerInput`|`1`|protocol.enum.playerinput|
+  |`SimulationTick`|`2`|protocol.enum.simulationtick|
+
+
+
+////
+//// define
 Position：[<!-- md:samp NetworkBlockPosition -->](../types/networkblockposition.md)
 
 - 特殊类型。protocol.type.packeditemuselegacyinventorytransaction.position.description
@@ -346,6 +369,19 @@ Click Position：[<!-- md:samp Vec3 -->](../types/vec3.md)
 Target Block Id：<!-- md:samp unsigned varint -->
 
 - 基本类型。protocol.type.packeditemuselegacyinventorytransaction.target_block_id.description
+
+
+////
+//// define
+Client Interact Prediction：<!-- md:samp byte -->
+
+- 基本类型枚举。protocol.type.packeditemuselegacyinventorytransaction.client_interact_prediction.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`Failure`|`0`|protocol.enum.failure|
+  |`Success`|`1`|protocol.enum.success|
+
 
 
 ////

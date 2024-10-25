@@ -1,6 +1,6 @@
 # <!-- md:samp SetLastHurtByPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp SetLastHurtByPacket -->数据包，数字ID是`96`。该数据包用于protocol.packet.setlasthurtbypacket.description
 
@@ -185,7 +185,8 @@ Last Hurt By：<!-- md:samp varint -->
   |`BreezeWindChargeProjectile`|`141 | Projectile`|protocol.enum.breezewindchargeprojectile|
   |`Armadillo`|`142 | Animal`|protocol.enum.armadillo|
   |`WindChargeProjectile`|`143 | Projectile`|protocol.enum.windchargeprojectile|
-  |`Bogged`|`144| SkeletonMonster`|protocol.enum.bogged|
+  |`Bogged`|`144 | SkeletonMonster`|protocol.enum.bogged|
+  |`OminousItemSpawner`|`145`|protocol.enum.ominousitemspawner|
 
 
 

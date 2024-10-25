@@ -1,6 +1,6 @@
 # <!-- md:samp SerializedAbilitiesData::SerializedLayer -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp SerializedAbilitiesData::SerializedLayer -->类型。该类型用于protocol.type.serializedabilitiesdata::serializedlayer.description
 
@@ -57,6 +57,7 @@ SerializedLayer：<!-- md:samp unsigned short -->
   |`Spectator`|`2`|protocol.enum.spectator|
   |`Commands`|`3`|protocol.enum.commands|
   |`Editor`|`4`|protocol.enum.editor|
+  |`LoadingScreen`|`5`|protocol.enum.loadingscreen|
 
 
 

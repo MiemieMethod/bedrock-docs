@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerHotbarPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp PlayerHotbarPacket -->数据包，数字ID是`48`。该数据包用于protocol.packet.playerhotbarpacket.description
 
@@ -59,6 +59,8 @@ Container ID：<!-- md:samp byte -->
   |`CONTAINER_ID_ARMOR`|`120`|protocol.enum.container_id_armor|
   |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
   |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
+  |`CONTAINER_ID_REGISTRY`|`125`|protocol.enum.container_id_registry|
+  |`CONTAINER_ID_REGISTRY_INVENTORY`|`126`|protocol.enum.container_id_registry_inventory|
 
 
 

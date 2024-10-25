@@ -1,6 +1,6 @@
 # <!-- md:samp LevelSoundEventPacketV2 -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp LevelSoundEventPacketV2 -->类型，数字ID是`120`。该类型用于protocol.packet.levelsoundeventpacketv2.description
 

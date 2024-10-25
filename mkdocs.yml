@@ -7089,12 +7089,14 @@ nav:
         - <samp>AutomationClientConnectPacket</samp>: refs/protocols/packets/automationclientconnectpacket.md
         - <samp>AvailableActorIdentifiersPacket</samp>: refs/protocols/packets/availableactoridentifierspacket.md
         - <samp>AvailableCommandsPacket</samp>: refs/protocols/packets/availablecommandspacket.md
+        - <samp>AwardAchievementPacket</samp>: refs/protocols/packets/awardachievementpacket.md
         - <samp>BiomeDefinitionListPacket</samp>: refs/protocols/packets/biomedefinitionlistpacket.md
         - <samp>BlockActorDataPacket</samp>: refs/protocols/packets/blockactordatapacket.md
         - <samp>BlockEventPacket</samp>: refs/protocols/packets/blockeventpacket.md
         - <samp>BlockPickRequestPacket</samp>: refs/protocols/packets/blockpickrequestpacket.md
         - <samp>BookEditPacket</samp>: refs/protocols/packets/bookeditpacket.md
         - <samp>BossEventPacket</samp>: refs/protocols/packets/bosseventpacket.md
+        - <samp>CameraAimAssistPacket</samp>: refs/protocols/packets/cameraaimassistpacket.md
         - <samp>CameraInstructionPacket</samp>: refs/protocols/packets/camerainstructionpacket.md
         - <samp>CameraPacket</samp>: refs/protocols/packets/camerapacket.md
         - <samp>CameraPresetsPacket</samp>: refs/protocols/packets/camerapresetspacket.md
@@ -7102,6 +7104,7 @@ nav:
         - <samp>ChangeDimensionPacket</samp>: refs/protocols/packets/changedimensionpacket.md
         - <samp>ChangeMobPropertyPacket</samp>: refs/protocols/packets/changemobpropertypacket.md
         - <samp>ChunkRadiusUpdatedPacket</samp>: refs/protocols/packets/chunkradiusupdatedpacket.md
+        - <samp>ClientboundCloseFormPacket</samp>: refs/protocols/packets/clientboundcloseformpacket.md
         - <samp>ClientboundDebugRendererPacket</samp>: refs/protocols/packets/clientbounddebugrendererpacket.md
         - <samp>ClientboundMapItemDataPacket</samp>: refs/protocols/packets/clientboundmapitemdatapacket.md
         - <samp>ClientCacheBlobStatusPacket</samp>: refs/protocols/packets/clientcacheblobstatuspacket.md
@@ -7116,11 +7119,13 @@ nav:
         - <samp>CompletedUsingItemPacket</samp>: refs/protocols/packets/completedusingitempacket.md
         - <samp>ContainerClosePacket</samp>: refs/protocols/packets/containerclosepacket.md
         - <samp>ContainerOpenPacket</samp>: refs/protocols/packets/containeropenpacket.md
+        - <samp>ContainerRegistryCleanupPacket</samp>: refs/protocols/packets/containerregistrycleanuppacket.md
         - <samp>ContainerSetDataPacket</samp>: refs/protocols/packets/containersetdatapacket.md
         - <samp>CorrectPlayerMovePredictionPacket</samp>: refs/protocols/packets/correctplayermovepredictionpacket.md
         - <samp>CraftingDataPacket</samp>: refs/protocols/packets/craftingdatapacket.md
         - <samp>CreatePhotoPacket</samp>: refs/protocols/packets/createphotopacket.md
         - <samp>CreativeContentPacket</samp>: refs/protocols/packets/creativecontentpacket.md
+        - <samp>CurrentStructureFeaturePacket</samp>: refs/protocols/packets/currentstructurefeaturepacket.md
         - <samp>DeathInfoPacket</samp>: refs/protocols/packets/deathinfopacket.md
         - <samp>DebugInfoPacket</samp>: refs/protocols/packets/debuginfopacket.md
         - <samp>DimensionDataPacket</samp>: refs/protocols/packets/dimensiondatapacket.md
@@ -7143,6 +7148,7 @@ nav:
         - <samp>ItemComponentPacket</samp>: refs/protocols/packets/itemcomponentpacket.md
         - <samp>ItemStackRequestPacket</samp>: refs/protocols/packets/itemstackrequestpacket.md
         - <samp>ItemStackResponsePacket</samp>: refs/protocols/packets/itemstackresponsepacket.md
+        - <samp>JigsawStructureDataPacket</samp>: refs/protocols/packets/jigsawstructuredatapacket.md
         - <samp>LabTablePacket</samp>: refs/protocols/packets/labtablepacket.md
         - <samp>LecternUpdatePacket</samp>: refs/protocols/packets/lecternupdatepacket.md
         - <samp>LegacyTelemetryEventPacket</samp>: refs/protocols/packets/legacytelemetryeventpacket.md
@@ -7206,6 +7212,8 @@ nav:
         - <samp>ResourcePackStackPacket</samp>: refs/protocols/packets/resourcepackstackpacket.md
         - <samp>RespawnPacket</samp>: refs/protocols/packets/respawnpacket.md
         - <samp>ScriptMessagePacket</samp>: refs/protocols/packets/scriptmessagepacket.md
+        - <samp>ServerboundDiagnosticsPacket</samp>: refs/protocols/packets/serverbounddiagnosticspacket.md
+        - <samp>ServerboundLoadingScreenPacket</samp>: refs/protocols/packets/serverboundloadingscreenpacket.md
         - <samp>ServerPlayerPostMovePositionPacket</samp>: refs/protocols/packets/serverplayerpostmovepositionpacket.md
         - <samp>ServerSettingsRequestPacket</samp>: refs/protocols/packets/serversettingsrequestpacket.md
         - <samp>ServerSettingsResponsePacket</samp>: refs/protocols/packets/serversettingsresponsepacket.md
@@ -7249,7 +7257,6 @@ nav:
         - <samp>TakeItemActorPacket</samp>: refs/protocols/packets/takeitemactorpacket.md
         - <samp>TextPacket</samp>: refs/protocols/packets/textpacket.md
         - <samp>TickingAreasLoadStatusPacket</samp>: refs/protocols/packets/tickingareasloadstatuspacket.md
-        - <samp>TickSyncPacket</samp>: refs/protocols/packets/ticksyncpacket.md
         - <samp>ToastRequestPacket</samp>: refs/protocols/packets/toastrequestpacket.md
         - <samp>TransferPacket</samp>: refs/protocols/packets/transferpacket.md
         - <samp>TrimDataPacket</samp>: refs/protocols/packets/trimdatapacket.md
@@ -7291,6 +7298,7 @@ nav:
         - <samp>EntityNetId</samp>: refs/protocols/types/entitynetid.md
         - <samp>Experiments</samp>: refs/protocols/types/experiments.md
         - <samp>fixed float</samp>: refs/protocols/types/fixed_float.md
+        - <samp>FullContainerName</samp>: refs/protocols/types/fullcontainername.md
         - <samp>GameRulesChangedPacketData</samp>: refs/protocols/types/gameruleschangedpacketdata.md
         - <samp>InventoryAction</samp>: refs/protocols/types/inventoryaction.md
         - <samp>InventorySource</samp>: refs/protocols/types/inventorysource.md
@@ -7325,6 +7333,7 @@ nav:
         - <samp>PotionMixDataEntry</samp>: refs/protocols/types/potionmixdataentry.md
         - <samp>PropertySyncData</samp>: refs/protocols/types/propertysyncdata.md
         - <samp>RecipeIngredient</samp>: refs/protocols/types/recipeingredient.md
+        - <samp>RecipeUnlockingRequirement</samp>: refs/protocols/types/recipeunlockingrequirement.md
         - <samp>Reliability Header</samp>: refs/protocols/types/reliabilityheader.md
         - <samp>ScoreboardId</samp>: refs/protocols/types/scoreboardid.md
         - <samp>SerializedAbilitiesData</samp>: refs/protocols/types/serializedabilitiesdata.md
@@ -7342,13 +7351,17 @@ nav:
         - <samp>std::optional&lt;class Json::Value&gt;</samp>: refs/protocols/types/std__optional_class_json__value_.md
         - <samp>std::optional&lt;class MolangVariableMap&gt;</samp>: refs/protocols/types/std__optional_class_molangvariablemap_.md
         - <samp>std::optional&lt;std::string&gt;</samp>: refs/protocols/types/std__optional_class_std__basic_string_char,struct_std__char_traits_char_,class_std__allocator_char_____.md
+        - <samp>std::optional&lt;class Vec2&gt;</samp>: refs/protocols/types/std__optional_class_vec2_.md
+        - <samp>std::optional&lt;class Vec3&gt;</samp>: refs/protocols/types/std__optional_class_vec3_.md
         - <samp>std::optional&lt;enum CameraPreset::AudioListener&gt;</samp>: refs/protocols/types/std__optional_enum_camerapreset__audiolistener_.md
         - <samp>std::optional&lt;enum ModalFormCancelReason&gt;</samp>: refs/protocols/types/std__optional_enum_modalformcancelreason_.md
         - <samp>std::optional&lt;float&gt;</samp>: refs/protocols/types/std__optional_float_.md
         - <samp>std::optional&lt;struct AgentCapabilities&gt;</samp>: refs/protocols/types/std__optional_struct_agentcapabilities_.md
         - <samp>std::optional&lt;struct CameraInstruction::FadeInstruction&gt;</samp>: refs/protocols/types/std__optional_struct_camerainstruction__fadeinstruction_.md
         - <samp>std::optional&lt;struct CameraInstruction::SetInstruction&gt;</samp>: refs/protocols/types/std__optional_struct_camerainstruction__setinstruction_.md
+        - <samp>std::optional&lt;struct CameraInstruction::TargetInstruction&gt;</samp>: refs/protocols/types/std__optional_struct_camerainstruction__targetinstruction_.md
         - <samp>std::optional&lt;struct ExternalLinkSettings&gt;</samp>: refs/protocols/types/std__optional_struct_externallinksettings_.md
+        - <samp>std::optional&lt;unsigned int&gt;</samp>: refs/protocols/types/std__optional_unsigned_int_.md
         - <samp>std::vector&lt;std::unique_ptr&lt;DataItem&gt;&gt;</samp>: refs/protocols/types/std__vector_class_std__unique_ptr_class_dataitem,struct_std__default_delete_class_dataitem___,class_std__allocator_class_std__u.md
         - <samp>string</samp>: refs/protocols/types/string.md
         - <samp>StructureEditorData</samp>: refs/protocols/types/structureeditordata.md

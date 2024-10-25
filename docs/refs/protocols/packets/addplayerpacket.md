@@ -1,6 +1,6 @@
 # <!-- md:samp AddPlayerPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp AddPlayerPacket -->数据包，数字ID是`12`。该数据包用于protocol.packet.addplayerpacket.description
 
@@ -46,11 +46,11 @@ rankdir = LR
 106 -> 107
 105 -> 108
 108 -> 109
-109 -> 121
-0 -> 122
-122 -> 123
+109 -> 123
 0 -> 124
 124 -> 125
+0 -> 126
+126 -> 127
 
 0 [label="AddPlayerPacket",comment="name: \"AddPlayerPacket\", typeName: \"\", id: 0, branchId: 12, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="UUID",comment="name: \"UUID\", typeName: \"mce::UUID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
@@ -89,12 +89,12 @@ rankdir = LR
 107 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 107, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 108 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 108, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 109 [label="Link",comment="name: \"Link\", typeName: \"ActorLink\", id: 109, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-121 [label="ActorLink",comment="name: \"ActorLink\", typeName: \"\", id: 121, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-122 [label="Device Id",comment="name: \"Device Id\", typeName: \"\", id: 122, branchId: 0, recurseId: -1, attributes: 0, notes: \"A unique device id obtained from the connection request.\""];
-123 [label="string",comment="name: \"string\", typeName: \"\", id: 123, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-124 [label="Build Platform",comment="name: \"Build Platform\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-125 [label="int",comment="name: \"int\", typeName: \"\", id: 125, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;6;8;10;12;14;16;45;47;56;59;78;104;107;121;123;125}
+123 [label="ActorLink",comment="name: \"ActorLink\", typeName: \"\", id: 123, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+124 [label="Device Id",comment="name: \"Device Id\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"A unique device id obtained from the connection request.\""];
+125 [label="string",comment="name: \"string\", typeName: \"\", id: 125, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+126 [label="Build Platform",comment="name: \"Build Platform\", typeName: \"\", id: 126, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+127 [label="int",comment="name: \"int\", typeName: \"\", id: 127, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10;12;14;16;45;47;56;59;78;104;107;123;125;127}
 
 }
 

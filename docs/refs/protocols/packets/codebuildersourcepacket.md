@@ -1,6 +1,6 @@
 # <!-- md:samp CodeBuilderSourcePacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp CodeBuilderSourcePacket -->数据包，数字ID是`178`。该数据包用于protocol.packet.codebuildersourcepacket.description
 
@@ -22,8 +22,8 @@ rankdir = LR
 2 [label="byte",comment="name: \"byte\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Category",comment="name: \"Category\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 4 [label="byte",comment="name: \"byte\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-5 [label="Value",comment="name: \"Value\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-6 [label="string",comment="name: \"string\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="CodeStatus",comment="name: \"CodeStatus\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="byte",comment="name: \"byte\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6}
 
 }
@@ -33,7 +33,7 @@ rankdir = LR
 ## 字段
 
 ```title='CodeBuilderSourcePacket'
-[operation][category][value]
+[operation][category][codestatus]
 ```
 
 /// html | div.result
@@ -67,9 +67,19 @@ Category：<!-- md:samp byte -->
 
 ////
 //// define
-Value：[<!-- md:samp string -->](../types/string.md)
+CodeStatus：<!-- md:samp byte -->
 
-- 特殊类型。protocol.packet.codebuildersourcepacket.value.description
+- 基本类型枚举。protocol.packet.codebuildersourcepacket.codestatus.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`None`|`0`|无|
+  |`NotStarted`|`1`|protocol.enum.notstarted|
+  |`InProgress`|`2`|protocol.enum.inprogress|
+  |`Paused`|`3`|protocol.enum.paused|
+  |`Error`|`4`|protocol.enum.error|
+  |`Succeeded`|`5`|protocol.enum.succeeded|
+
 
 
 ////

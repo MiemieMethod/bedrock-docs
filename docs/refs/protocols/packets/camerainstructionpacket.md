@@ -1,6 +1,6 @@
 # <!-- md:samp CameraInstructionPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp CameraInstructionPacket -->数据包，数字ID是`300`。该数据包用于protocol.packet.camerainstructionpacket.description
 
@@ -11,12 +11,12 @@ digraph "CameraInstructionPacket" {
 rankdir = LR
 0
 0 -> 1
-1 -> 15
+1 -> 22
 
 0 [label="CameraInstructionPacket",comment="name: \"CameraInstructionPacket\", typeName: \"\", id: 0, branchId: 300, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Camera Instruction",comment="name: \"Camera Instruction\", typeName: \"CameraInstruction\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-15 [label="CameraInstruction",comment="name: \"CameraInstruction\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;15}
+22 [label="CameraInstruction",comment="name: \"CameraInstruction\", typeName: \"\", id: 22, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;22}
 
 }
 

@@ -1,6 +1,6 @@
 # <!-- md:samp SimpleEventPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp SimpleEventPacket -->数据包，数字ID是`64`。该数据包用于protocol.packet.simpleeventpacket.description
 

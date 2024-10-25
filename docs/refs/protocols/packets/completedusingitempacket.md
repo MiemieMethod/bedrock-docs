@@ -1,6 +1,6 @@
 # <!-- md:samp CompletedUsingItemPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp CompletedUsingItemPacket -->数据包，数字ID是`142`。该数据包用于protocol.packet.completedusingitempacket.description
 
@@ -64,7 +64,8 @@ Item Use Method：<!-- md:samp int -->
   |`Dyed`|`13`|protocol.enum.dyed|
   |`Traded`|`14`|protocol.enum.traded|
   |`BrushingCompleted`|`15`|protocol.enum.brushingcompleted|
-  |`_Count`|`16`|protocol.enum._count|
+  |`OpenedVault`|`16`|protocol.enum.openedvault|
+  |`_Count`|`17`|protocol.enum._count|
 
 
 

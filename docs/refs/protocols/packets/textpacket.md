@@ -1,6 +1,6 @@
 # <!-- md:samp TextPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp TextPacket -->数据包，数字ID是`9`。该数据包用于protocol.packet.textpacket.description
 
@@ -79,6 +79,8 @@ rankdir = LR
 66 -> 67
 0 -> 68
 68 -> 69
+0 -> 70
+70 -> 71
 
 0 [label="TextPacket",comment="name: \"TextPacket\", typeName: \"\", id: 0, branchId: 9, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Message Type",comment="name: \"Message Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -150,7 +152,9 @@ rankdir = LR
 67 [label="string",comment="name: \"string\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 68 [label="Platform Id",comment="name: \"Platform Id\", typeName: \"\", id: 68, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 69 [label="string",comment="name: \"string\", typeName: \"\", id: 69, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;8;11;13;16;19;22;25;28;31;34;37;40;43;46;49;51;54;56;59;62;65;67;69}
+70 [label="Filtered Message",comment="name: \"Filtered Message\", typeName: \"\", id: 70, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+71 [label="string",comment="name: \"string\", typeName: \"\", id: 71, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;8;11;13;16;19;22;25;28;31;34;37;40;43;46;49;51;54;56;59;62;65;67;69;71}
 
 }
 
@@ -159,7 +163,7 @@ rankdir = LR
 ## 字段
 
 ```title='TextPacket'
-[message_type][localize][dependency_on_message_type][senders_xuid][platform_id]
+[message_type][localize][dependency_on_message_type][senders_xuid][platform_id][filtered_message]
 ```
 
 /// html | div.result
@@ -526,6 +530,13 @@ Sender's XUID：[<!-- md:samp string -->](../types/string.md)
 Platform Id：[<!-- md:samp string -->](../types/string.md)
 
 - 特殊类型。protocol.packet.textpacket.platform_id.description
+
+
+////
+//// define
+Filtered Message：[<!-- md:samp string -->](../types/string.md)
+
+- 特殊类型。protocol.packet.textpacket.filtered_message.description
 
 
 ////

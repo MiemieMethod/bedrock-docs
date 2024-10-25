@@ -1,6 +1,6 @@
 # <!-- md:samp LevelEventPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp LevelEventPacket -->数据包，数字ID是`25`。该数据包用于protocol.packet.leveleventpacket.description
 
@@ -44,6 +44,7 @@ Event ID：<!-- md:samp varint -->
 
   |键|值|描述|
   |---|---|---|
+  |`9800`|`3619`|protocol.enum.9800|
   |`Undefined`|`0`|protocol.enum.undefined|
   |`SoundClick`|`1000`|protocol.enum.soundclick|
   |`SoundClickFail`|`1001`|protocol.enum.soundclickfail|
@@ -163,13 +164,17 @@ Event ID：<!-- md:samp varint -->
   |`ParticlesTrialSpawnerSpawning`|`3612`|protocol.enum.particlestrialspawnerspawning|
   |`ParticlesTrialSpawnerEjecting`|`3613`|protocol.enum.particlestrialspawnerejecting|
   |`ParticlesWindExplosion`|`3614`|protocol.enum.particleswindexplosion|
-  |`AllPlayersSleeping`|`3615`|protocol.enum.allplayerssleeping|
-  |`deprecated`|`3616`|protocol.enum.deprecated|
+  |`ParticlesTrialSpawnerDetectionCharged`|`3615`|protocol.enum.particlestrialspawnerdetectioncharged|
+  |`ParticlesTrialSpawnerBecomeCharged`|`3616`|protocol.enum.particlestrialspawnerbecomecharged|
+  |`AllPlayersSleeping`|`3617`|protocol.enum.allplayerssleeping|
+  |`deprecated`|`3618`|protocol.enum.deprecated|
   |`SleepingPlayers`|`9801`|protocol.enum.sleepingplayers|
   |`JumpPrevented`|`9810`|protocol.enum.jumpprevented|
   |`AnimationVaultActivate`|`9811`|protocol.enum.animationvaultactivate|
   |`AnimationVaultDeactivate`|`9812`|protocol.enum.animationvaultdeactivate|
   |`AnimationVaultEjectItem`|`9813`|protocol.enum.animationvaultejectitem|
+  |`AnimationSpawnCobweb`|`9814`|protocol.enum.animationspawncobweb|
+  |`ParticleSmashAttackGroundDust`|`9815`|protocol.enum.particlesmashattackgrounddust|
   |`ParticleLegacyEvent`|`0x4000`|protocol.enum.particlelegacyevent|
 
 

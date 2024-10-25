@@ -1,6 +1,6 @@
 # <!-- md:samp LevelSettings -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp LevelSettings -->类型。该类型用于protocol.type.levelsettings.description
 
@@ -106,6 +106,12 @@ rankdir = LR
 135 -> 136
 23 -> 137
 137 -> 138
+23 -> 139
+139 -> 140
+23 -> 141
+141 -> 142
+23 -> 143
+143 -> 144
 
 23 [label="LevelSettings",comment="name: \"LevelSettings\", typeName: \"\", id: 23, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 24 [label="Seed",comment="name: \"Seed\", typeName: \"\", id: 24, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -204,7 +210,13 @@ rankdir = LR
 136 [label="byte",comment="name: \"byte\", typeName: \"\", id: 136, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 137 [label="DisablePlayerInteractions ?",comment="name: \"DisablePlayerInteractions ?\", typeName: \"\", id: 137, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 138 [label="bool",comment="name: \"bool\", typeName: \"\", id: 138, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;25;34;36;38;40;42;51;53;55;57;59;61;63;65;67;69;71;73;75;77;79;81;83;85;87;89;91;93;95;97;99;101;103;105;107;109;111;113;115;117;119;121;123;125;132;134;136;138}
+139 [label="Server Identifier",comment="name: \"Server Identifier\", typeName: \"\", id: 139, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+140 [label="string",comment="name: \"string\", typeName: \"\", id: 140, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+141 [label="World Identifier from the server.",comment="name: \"World Identifier from the server.\", typeName: \"\", id: 141, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+142 [label="string",comment="name: \"string\", typeName: \"\", id: 142, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+143 [label="Scenario Identifier from the server.",comment="name: \"Scenario Identifier from the server.\", typeName: \"\", id: 143, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+144 [label="string",comment="name: \"string\", typeName: \"\", id: 144, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;25;34;36;38;40;42;51;53;55;57;59;61;63;65;67;69;71;73;75;77;79;81;83;85;87;89;91;93;95;97;99;101;103;105;107;109;111;113;115;117;119;121;123;125;132;134;136;138;140;142;144}
 
 }
 
@@ -213,7 +225,7 @@ rankdir = LR
 ## 字段
 
 ```title='LevelSettings'
-[seed][spawn_settings][generator_type][game_type][is_hardcore_mode_enabled][game_difficulty][default_spawn_block_position][achievements_disabled][editor_world_type][is_created_in_editor][is_exported_from_editor][day_cycle_stop_time][education_edition_offer][are_education_features_enabled][education_product_id][rain_level][lightning_level][has_confirmed_platform_locked_content][was_multiplayer_intended_to_be_enabled][was_lan_broadcasting_intended_to_be_enabled][xbox_live_broadcast_setting][platform_broadcast_setting][commands_enabled][texture_packs_required][rule_data][experiments][has_bonus_chest_enabled][start_with_map_enabled][player_permissions][server_chunk_tick_range][has_locked_behavior_pack][has_locked_resource_pack][is_from_locked_template][use_msa_gamertags_only][indicates_if_this_world_was_created_from_a_template.][indicates_if_this_world_is_a_template_with_locked_settings.][only_spawn_v1_villagers][personadisabled][customskinsdisabled][emote_chat_muted][base_game_version][limited_world_width][limited_world_depth][nether_type][edu_shared_uri_resource][override_force_experimental_gameplay_has_value][chatrestriction_level][disableplayerinteractions]
+[seed][spawn_settings][generator_type][game_type][is_hardcore_mode_enabled][game_difficulty][default_spawn_block_position][achievements_disabled][editor_world_type][is_created_in_editor][is_exported_from_editor][day_cycle_stop_time][education_edition_offer][are_education_features_enabled][education_product_id][rain_level][lightning_level][has_confirmed_platform_locked_content][was_multiplayer_intended_to_be_enabled][was_lan_broadcasting_intended_to_be_enabled][xbox_live_broadcast_setting][platform_broadcast_setting][commands_enabled][texture_packs_required][rule_data][experiments][has_bonus_chest_enabled][start_with_map_enabled][player_permissions][server_chunk_tick_range][has_locked_behavior_pack][has_locked_resource_pack][is_from_locked_template][use_msa_gamertags_only][indicates_if_this_world_was_created_from_a_template.][indicates_if_this_world_is_a_template_with_locked_settings.][only_spawn_v1_villagers][personadisabled][customskinsdisabled][emote_chat_muted][base_game_version][limited_world_width][limited_world_depth][nether_type][edu_shared_uri_resource][override_force_experimental_gameplay_has_value][chatrestriction_level][disableplayerinteractions][server_identifier][world_identifier_from_the_server.][scenario_identifier_from_the_server.]
 ```
 
 /// html | div.result
@@ -629,6 +641,27 @@ ChatRestriction Level：<!-- md:samp byte -->
 DisablePlayerInteractions ?：<!-- md:samp bool -->
 
 - 基本类型。protocol.type.levelsettings.disableplayerinteractions.description
+
+
+////
+//// define
+Server Identifier：[<!-- md:samp string -->](../types/string.md)
+
+- 特殊类型。protocol.type.levelsettings.server_identifier.description
+
+
+////
+//// define
+World Identifier from the server.：[<!-- md:samp string -->](../types/string.md)
+
+- 特殊类型。protocol.type.levelsettings.world_identifier_from_the_server..description
+
+
+////
+//// define
+Scenario Identifier from the server.：[<!-- md:samp string -->](../types/string.md)
+
+- 特殊类型。protocol.type.levelsettings.scenario_identifier_from_the_server..description
 
 
 ////

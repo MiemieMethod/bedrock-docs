@@ -1,6 +1,6 @@
 # <!-- md:samp ActorEventPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp ActorEventPacket -->数据包，数字ID是`27`。该数据包用于通信活动对象事件。
 
@@ -97,7 +97,7 @@ Event ID：<!-- md:samp byte -->
   |`LEASH_DESTROYED`|`63`|protocol.enum.leash_destroyed|
   |`CARAVAN_UPDATED`|`64`|protocol.enum.caravan_updated|
   |`TALISMAN_ACTIVATE`|`65`|protocol.enum.talisman_activate|
-  |`UPDATE_STRUCTURE_FEATURE`|`66`|protocol.enum.update_structure_feature|
+  |`DEPRECATED_UPDATE_STRUCTURE_FEATURE`|`66`|protocol.enum.deprecated_update_structure_feature|
   |`PLAYER_SPAWNED_MOB`|`67`|protocol.enum.player_spawned_mob|
   |`PUKE`|`68`|protocol.enum.puke|
   |`UPDATE_STACK_SIZE`|`69`|protocol.enum.update_stack_size|

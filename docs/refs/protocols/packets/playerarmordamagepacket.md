@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerArmorDamagePacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp PlayerArmorDamagePacket -->数据包，数字ID是`149`。该数据包用于protocol.packet.playerarmordamagepacket.description
 
@@ -20,6 +20,8 @@ rankdir = LR
 7 -> 8
 0 -> 9
 9 -> 10
+0 -> 11
+11 -> 12
 
 0 [label="PlayerArmorDamagePacket",comment="name: \"PlayerArmorDamagePacket\", typeName: \"\", id: 0, branchId: 149, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Slots Bitset",comment="name: \"Slots Bitset\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -32,7 +34,9 @@ rankdir = LR
 8 [label="varint",comment="name: \"varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 9 [label="Damage For Slot (Only Gets Written If Bit Is Set)",comment="name: \"Damage For Slot (Only Gets Written If Bit Is Set)\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 10 [label="varint",comment="name: \"varint\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;6;8;10}
+11 [label="Damage For Slot (Only Gets Written If Bit Is Set)",comment="name: \"Damage For Slot (Only Gets Written If Bit Is Set)\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+12 [label="varint",comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10;12}
 
 }
 
@@ -41,7 +45,7 @@ rankdir = LR
 ## 字段
 
 ```title='PlayerArmorDamagePacket'
-[slots_bitset][damage_for_slot][damage_for_slot][damage_for_slot][damage_for_slot]
+[slots_bitset][damage_for_slot][damage_for_slot][damage_for_slot][damage_for_slot][damage_for_slot]
 ```
 
 /// html | div.result
@@ -49,6 +53,13 @@ rankdir = LR
 Slots Bitset：<!-- md:samp byte -->
 
 - 基本类型。protocol.packet.playerarmordamagepacket.slots_bitset.description
+
+
+////
+//// define
+Damage For Slot (Only Gets Written If Bit Is Set)：<!-- md:samp varint -->
+
+- 基本类型。protocol.packet.playerarmordamagepacket.damage_for_slot.description
 
 
 ////

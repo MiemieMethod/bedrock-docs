@@ -1,6 +1,6 @@
 # <!-- md:samp SetTitlePacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp SetTitlePacket -->数据包，数字ID是`88`。该数据包用于protocol.packet.settitlepacket.description
 
@@ -24,6 +24,8 @@ rankdir = LR
 11 -> 12
 0 -> 13
 13 -> 14
+0 -> 15
+15 -> 16
 
 0 [label="SetTitlePacket",comment="name: \"SetTitlePacket\", typeName: \"\", id: 0, branchId: 88, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Title Type",comment="name: \"Title Type\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -40,7 +42,9 @@ rankdir = LR
 12 [label="string",comment="name: \"string\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 13 [label="Platform Online Id",comment="name: \"Platform Online Id\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 14 [label="string",comment="name: \"string\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;6;8;10;12;14}
+15 [label="Filtered Title Message",comment="name: \"Filtered Title Message\", typeName: \"\", id: 15, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+16 [label="string",comment="name: \"string\", typeName: \"\", id: 16, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10;12;14;16}
 
 }
 
@@ -49,7 +53,7 @@ rankdir = LR
 ## 字段
 
 ```title='SetTitlePacket'
-[title_type][title_text][fade_in_time][stay_time][fade_out_time][xuid][platform_online_id]
+[title_type][title_text][fade_in_time][stay_time][fade_out_time][xuid][platform_online_id][filtered_title_message]
 ```
 
 /// html | div.result
@@ -112,6 +116,13 @@ Xuid：[<!-- md:samp string -->](../types/string.md)
 Platform Online Id：[<!-- md:samp string -->](../types/string.md)
 
 - 特殊类型。protocol.packet.settitlepacket.platform_online_id.description
+
+
+////
+//// define
+Filtered Title Message：[<!-- md:samp string -->](../types/string.md)
+
+- 特殊类型。protocol.packet.settitlepacket.filtered_title_message.description
 
 
 ////

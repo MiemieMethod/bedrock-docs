@@ -1,6 +1,6 @@
 # <!-- md:samp StructureSettings -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp StructureSettings -->类型。该类型用于protocol.type.structuresettings.description
 
@@ -141,6 +141,9 @@ Rotation：<!-- md:samp byte -->
   |`Rotate90`|`1`|protocol.enum.rotate90|
   |`Rotate180`|`2`|protocol.enum.rotate180|
   |`Rotate270`|`3`|protocol.enum.rotate270|
+  |`Clockwise90`|`Rotate90`|protocol.enum.clockwise90|
+  |`Clockwise180`|`Rotate180`|protocol.enum.clockwise180|
+  |`CounterClockwise90`|`Rotate270`|protocol.enum.counterclockwise90|
   |`Total`|`4`|protocol.enum.total|
 
 

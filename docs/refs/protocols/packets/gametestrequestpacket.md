@@ -1,6 +1,6 @@
 # <!-- md:samp GameTestRequestPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp GameTestRequestPacket -->数据包，数字ID是`194`。该数据包用于protocol.packet.gametestrequestpacket.description
 
@@ -78,6 +78,9 @@ Rotation：<!-- md:samp byte -->
   |`Rotate90`|`1`|protocol.enum.rotate90|
   |`Rotate180`|`2`|protocol.enum.rotate180|
   |`Rotate270`|`3`|protocol.enum.rotate270|
+  |`Clockwise90`|`Rotate90`|protocol.enum.clockwise90|
+  |`Clockwise180`|`Rotate180`|protocol.enum.clockwise180|
+  |`CounterClockwise90`|`Rotate270`|protocol.enum.counterclockwise90|
   |`Total`|`4`|protocol.enum.total|
 
 

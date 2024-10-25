@@ -1,6 +1,6 @@
 # <!-- md:samp ScriptMessagePacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp ScriptMessagePacket -->数据包，数字ID是`177`。该数据包用于protocol.packet.scriptmessagepacket.description
 

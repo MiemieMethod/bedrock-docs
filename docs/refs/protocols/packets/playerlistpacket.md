@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerListPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp PlayerListPacket -->数据包，数字ID是`63`。该数据包用于protocol.packet.playerlistpacket.description
 
@@ -54,7 +54,7 @@ rankdir = LR
 3 [label="Dependency on 'Action'",shape=note,comment="name: \"Dependency on 'Action'\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
 4 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
 5 [label="Add Player List",comment="name: \"Add Player List\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
-6 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+6 [label="Entries Count",comment="name: \"Entries Count\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 7 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 8 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 9 [label="UUID",comment="name: \"UUID\", typeName: \"mce::UUID\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
@@ -81,7 +81,7 @@ rankdir = LR
 121 [label="bool",comment="name: \"bool\", typeName: \"\", id: 121, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 122 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 122, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
 123 [label="Remove Player List",comment="name: \"Remove Player List\", typeName: \"\", id: 123, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
-124 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+124 [label="Entries Count",comment="name: \"Entries Count\", typeName: \"\", id: 124, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 125 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 125, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 126 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 126, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 127 [label="UUID",comment="name: \"UUID\", typeName: \"mce::UUID\", id: 127, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
@@ -121,14 +121,14 @@ Action：<!-- md:samp byte -->
 
 ////// html | div.result
 ```title='Add Player List'
-[array_size][[example_element]..]
+[entries_count][[example_element]..]
 ```
 
 /////// html | div.result
 //////// define
-数组大小：<!-- md:samp unsigned varint -->
+Entries Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.array_size.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_0.add_player_list.entries_count.description
 
 
 ////////
@@ -249,14 +249,14 @@ Is trusted skin：<!-- md:samp bool -->
 
 ////// html | div.result
 ```title='Remove Player List'
-[array_size][[example_element]..]
+[entries_count][[example_element]..]
 ```
 
 /////// html | div.result
 //////// define
-数组大小：<!-- md:samp unsigned varint -->
+Entries Count：<!-- md:samp unsigned varint -->
 
-- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_1.remove_player_list.array_size.description
+- 基本类型。protocol.packet.playerlistpacket.dependency_on_action.if_1.remove_player_list.entries_count.description
 
 
 ////////

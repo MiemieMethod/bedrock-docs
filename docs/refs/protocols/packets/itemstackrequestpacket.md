@@ -1,6 +1,6 @@
 # <!-- md:samp ItemStackRequestPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp ItemStackRequestPacket -->数据包，数字ID是`147`。该数据包用于protocol.packet.itemstackrequestpacket.description
 
@@ -132,8 +132,8 @@ Action type：<!-- md:samp byte -->
   |`Destroy`|`4`|protocol.enum.destroy|
   |`Consume`|`5`|protocol.enum.consume|
   |`Create`|`6`|protocol.enum.create|
-  |`PlaceInItemContainer`|`7`|protocol.enum.placeinitemcontainer|
-  |`TakeFromItemContainer`|`8`|protocol.enum.takefromitemcontainer|
+  |`PlaceInItemContainer_DEPRECATED`|`7`|protocol.enum.placeinitemcontainer_deprecated|
+  |`TakeFromItemContainer_DEPRECATED`|`8`|protocol.enum.takefromitemcontainer_deprecated|
   |`ScreenLabTableCombine`|`9`|protocol.enum.screenlabtablecombine|
   |`ScreenBeaconPayment`|`10`|protocol.enum.screenbeaconpayment|
   |`ScreenHUDMineBlock`|`11`|protocol.enum.screenhudmineblock|

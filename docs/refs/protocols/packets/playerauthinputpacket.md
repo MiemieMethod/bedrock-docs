@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerAuthInputPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp PlayerAuthInputPacket -->数据包，数字ID是`144`。该数据包用于protocol.packet.playerauthinputpacket.description
 
@@ -41,49 +41,49 @@ rankdir = LR
 28 -> 29
 27 -> 30
 30 -> 31
-31 -> 76
-0 -> 77
-77 -> 78
-78 -> 79
-77 -> 80
-80 -> 81
-81 -> 85
-80 -> 86
-86 -> 87
-87 -> 88
-86 -> 89
-89 -> 90
+31 -> 80
+0 -> 81
+81 -> 82
+82 -> 83
+81 -> 84
+84 -> 85
+85 -> 89
+84 -> 90
 90 -> 91
-89 -> 92
-92 -> 93
-89 -> 94
-94 -> 102
-89 -> 103
-103 -> 104
-80 -> 105
-105 -> 106
-106 -> 107
-105 -> 108
-108 -> 109
+91 -> 92
+90 -> 93
+93 -> 94
+94 -> 95
+93 -> 96
+96 -> 97
+93 -> 98
+98 -> 106
+93 -> 107
+107 -> 108
+84 -> 109
 109 -> 110
-80 -> 111
-111 -> 112
-0 -> 113
+110 -> 111
+109 -> 112
+112 -> 113
 113 -> 114
-114 -> 115
-113 -> 116
-116 -> 117
-117 -> 159
-0 -> 160
-160 -> 161
-161 -> 162
-160 -> 163
-163 -> 164
+84 -> 115
+115 -> 116
+0 -> 117
+117 -> 118
+118 -> 119
+117 -> 120
+120 -> 121
+121 -> 163
+0 -> 164
 164 -> 165
-163 -> 166
-166 -> 167
-0 -> 168
+165 -> 166
+164 -> 167
+167 -> 168
 168 -> 169
+167 -> 170
+170 -> 171
+0 -> 172
+172 -> 173
 
 0 [label="PlayerAuthInputPacket",comment="name: \"PlayerAuthInputPacket\", typeName: \"\", id: 0, branchId: 144, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Player Rotation",comment="name: \"Player Rotation\", typeName: \"Vec2\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
@@ -117,50 +117,50 @@ rankdir = LR
 29 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 30 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 30, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
 31 [label="Item Use Transaction",comment="name: \"Item Use Transaction\", typeName: \"PackedItemUseLegacyInventoryTransaction\", id: 31, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-76 [label="PackedItemUseLegacyInventoryTransaction",comment="name: \"PackedItemUseLegacyInventoryTransaction\", typeName: \"\", id: 76, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-77 [label="Dependency on 'ItemStackRequest and PerformItemStackRequest bit set'",shape=note,comment="name: \"Dependency on 'ItemStackRequest and PerformItemStackRequest bit set'\", typeName: \"\", id: 77, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
-78 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 78, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
-79 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 79, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-80 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 80, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
-81 [label="Client Request Id",comment="name: \"Client Request Id\", typeName: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", id: 81, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-85 [label="TypedClientNetId<struct ItemStackRequestIdTag,int,0>",comment="name: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", typeName: \"\", id: 85, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-86 [label="Actions",comment="name: \"Actions\", typeName: \"\", id: 86, branchId: 0, recurseId: -1, attributes: 8, notes: \"There are a variety of possible actions each with their own schema; this (Take) is just one example. Refer to the Item Stack Net Manager documentation.\""];
-87 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 87, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-88 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 88, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-89 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 89, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
-90 [label="Action type",comment="name: \"Action type\", typeName: \"\", id: 90, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-91 [label="byte",comment="name: \"byte\", typeName: \"\", id: 91, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-92 [label="Amount",comment="name: \"Amount\", typeName: \"\", id: 92, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-93 [label="byte",comment="name: \"byte\", typeName: \"\", id: 93, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-94 [label="Source",comment="name: \"Source\", typeName: \"ItemStackRequestSlotInfo\", id: 94, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-102 [label="ItemStackRequestSlotInfo",comment="name: \"ItemStackRequestSlotInfo\", typeName: \"\", id: 102, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-103 [label="Destination",comment="name: \"Destination\", typeName: \"ItemStackRequestSlotInfo\", id: 103, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-104 [label="ItemStackRequestSlotInfo",comment="name: \"ItemStackRequestSlotInfo\", typeName: \"\", id: 104, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-105 [label="Strings To Filter",comment="name: \"Strings To Filter\", typeName: \"\", id: 105, branchId: 0, recurseId: -1, attributes: 8, notes: \"Array of strings to submit to profanity filtering service\""];
-106 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 106, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-107 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 107, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-108 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 108, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
-109 [label="String To Filter",comment="name: \"String To Filter\", typeName: \"\", id: 109, branchId: 0, recurseId: -1, attributes: 0, notes: \"Indivdiual string that needs checking\""];
-110 [label="string",comment="name: \"string\", typeName: \"\", id: 110, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-111 [label="StringsToFilterOrigin",comment="name: \"StringsToFilterOrigin\", typeName: \"\", id: 111, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-112 [label="int",comment="name: \"int\", typeName: \"\", id: 112, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-113 [label="Dependency on 'PerformBlockActions bit set'",shape=note,comment="name: \"Dependency on 'PerformBlockActions bit set'\", typeName: \"\", id: 113, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
-114 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
-115 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-116 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 116, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
-117 [label="Player Block Actions",comment="name: \"Player Block Actions\", typeName: \"PlayerBlockActions\", id: 117, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-159 [label="PlayerBlockActions",comment="name: \"PlayerBlockActions\", typeName: \"\", id: 159, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-160 [label="Dependency on 'IsInClientPredictedVehicle bit set'",shape=note,comment="name: \"Dependency on 'IsInClientPredictedVehicle bit set'\", typeName: \"\", id: 160, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
-161 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 161, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
-162 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 162, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-163 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 163, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
-164 [label="Vehicle Rotation",comment="name: \"Vehicle Rotation\", typeName: \"Vec2\", id: 164, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-165 [label="Vec2",comment="name: \"Vec2\", typeName: \"\", id: 165, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-166 [label="Client Predicted Vehicle",comment="name: \"Client Predicted Vehicle\", typeName: \"ActorUniqueID\", id: 166, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-167 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 167, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-168 [label="Analog MoveVector",comment="name: \"Analog MoveVector\", typeName: \"Vec2\", id: 168, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+80 [label="PackedItemUseLegacyInventoryTransaction",comment="name: \"PackedItemUseLegacyInventoryTransaction\", typeName: \"\", id: 80, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+81 [label="Dependency on 'ItemStackRequest and PerformItemStackRequest bit set'",shape=note,comment="name: \"Dependency on 'ItemStackRequest and PerformItemStackRequest bit set'\", typeName: \"\", id: 81, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+82 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 82, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+83 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 83, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+84 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 84, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+85 [label="Client Request Id",comment="name: \"Client Request Id\", typeName: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", id: 85, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+89 [label="TypedClientNetId<struct ItemStackRequestIdTag,int,0>",comment="name: \"TypedClientNetId<struct ItemStackRequestIdTag,int,0>\", typeName: \"\", id: 89, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+90 [label="Actions",comment="name: \"Actions\", typeName: \"\", id: 90, branchId: 0, recurseId: -1, attributes: 8, notes: \"There are a variety of possible actions each with their own schema; this (Take) is just one example. Refer to the Item Stack Net Manager documentation.\""];
+91 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 91, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+92 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 92, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+93 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 93, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+94 [label="Action type",comment="name: \"Action type\", typeName: \"\", id: 94, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+95 [label="byte",comment="name: \"byte\", typeName: \"\", id: 95, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+96 [label="Amount",comment="name: \"Amount\", typeName: \"\", id: 96, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+97 [label="byte",comment="name: \"byte\", typeName: \"\", id: 97, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+98 [label="Source",comment="name: \"Source\", typeName: \"ItemStackRequestSlotInfo\", id: 98, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+106 [label="ItemStackRequestSlotInfo",comment="name: \"ItemStackRequestSlotInfo\", typeName: \"\", id: 106, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+107 [label="Destination",comment="name: \"Destination\", typeName: \"ItemStackRequestSlotInfo\", id: 107, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+108 [label="ItemStackRequestSlotInfo",comment="name: \"ItemStackRequestSlotInfo\", typeName: \"\", id: 108, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+109 [label="Strings To Filter",comment="name: \"Strings To Filter\", typeName: \"\", id: 109, branchId: 0, recurseId: -1, attributes: 8, notes: \"Array of strings to submit to profanity filtering service\""];
+110 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 110, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+111 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 111, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+112 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 112, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
+113 [label="String To Filter",comment="name: \"String To Filter\", typeName: \"\", id: 113, branchId: 0, recurseId: -1, attributes: 0, notes: \"Indivdiual string that needs checking\""];
+114 [label="string",comment="name: \"string\", typeName: \"\", id: 114, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+115 [label="StringsToFilterOrigin",comment="name: \"StringsToFilterOrigin\", typeName: \"\", id: 115, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+116 [label="int",comment="name: \"int\", typeName: \"\", id: 116, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+117 [label="Dependency on 'PerformBlockActions bit set'",shape=note,comment="name: \"Dependency on 'PerformBlockActions bit set'\", typeName: \"\", id: 117, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+118 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 118, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+119 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 119, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+120 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 120, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+121 [label="Player Block Actions",comment="name: \"Player Block Actions\", typeName: \"PlayerBlockActions\", id: 121, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+163 [label="PlayerBlockActions",comment="name: \"PlayerBlockActions\", typeName: \"\", id: 163, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+164 [label="Dependency on 'IsInClientPredictedVehicle bit set'",shape=note,comment="name: \"Dependency on 'IsInClientPredictedVehicle bit set'\", typeName: \"\", id: 164, branchId: 0, recurseId: -1, attributes: 2, notes: \"\""];
+165 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 165, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
+166 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 166, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+167 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 167, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+168 [label="Vehicle Rotation",comment="name: \"Vehicle Rotation\", typeName: \"Vec2\", id: 168, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 169 [label="Vec2",comment="name: \"Vec2\", typeName: \"\", id: 169, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;6;8;10;12;14;16;19;22;24;26;29;76;79;85;88;91;93;102;104;107;110;112;115;159;162;165;167;169}
+170 [label="Client Predicted Vehicle",comment="name: \"Client Predicted Vehicle\", typeName: \"ActorUniqueID\", id: 170, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+171 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 171, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+172 [label="Analog MoveVector",comment="name: \"Analog MoveVector\", typeName: \"Vec2\", id: 172, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+173 [label="Vec2",comment="name: \"Vec2\", typeName: \"\", id: 173, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;8;10;12;14;16;19;22;24;26;29;80;83;89;92;95;97;106;108;111;114;116;119;163;166;169;171;173}
 
 }
 
@@ -392,8 +392,8 @@ Action type：<!-- md:samp byte -->
   |`Destroy`|`4`|protocol.enum.destroy|
   |`Consume`|`5`|protocol.enum.consume|
   |`Create`|`6`|protocol.enum.create|
-  |`PlaceInItemContainer`|`7`|protocol.enum.placeinitemcontainer|
-  |`TakeFromItemContainer`|`8`|protocol.enum.takefromitemcontainer|
+  |`PlaceInItemContainer_DEPRECATED`|`7`|protocol.enum.placeinitemcontainer_deprecated|
+  |`TakeFromItemContainer_DEPRECATED`|`8`|protocol.enum.takefromitemcontainer_deprecated|
   |`ScreenLabTableCombine`|`9`|protocol.enum.screenlabtablecombine|
   |`ScreenBeaconPayment`|`10`|protocol.enum.screenbeaconpayment|
   |`ScreenHUDMineBlock`|`11`|protocol.enum.screenhudmineblock|

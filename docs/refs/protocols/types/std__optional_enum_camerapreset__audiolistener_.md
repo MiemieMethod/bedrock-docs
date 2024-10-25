@@ -1,6 +1,6 @@
 # <!-- md:samp std::optional&lt;enum CameraPreset::AudioListener&gt; -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp std::optional&lt;enum CameraPreset::AudioListener&gt; -->类型。该类型用于protocol.type.std::optional&lt;enum_camerapreset::audiolistener&gt;.description
 
@@ -9,14 +9,14 @@
 ```viz
 digraph "std::optional<enum CameraPreset::AudioListener>" {
 rankdir = LR
-27
-27 -> 28
-28 -> 29
+46
+46 -> 47
+47 -> 48
 
-27 [label="std::optional<enum CameraPreset::AudioListener>",comment="name: \"std::optional<enum CameraPreset::AudioListener>\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-28 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
-29 [label="bool",comment="name: \"bool\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;29}
+46 [label="std::optional<enum CameraPreset::AudioListener>",comment="name: \"std::optional<enum CameraPreset::AudioListener>\", typeName: \"\", id: 46, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+47 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 47, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+48 [label="bool",comment="name: \"bool\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;48}
 
 }
 

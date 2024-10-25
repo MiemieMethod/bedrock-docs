@@ -1,6 +1,6 @@
 # <!-- md:samp PacketViolationWarningPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp PacketViolationWarningPacket -->数据包，数字ID是`156`。该数据包用于protocol.packet.packetviolationwarningpacket.description
 
@@ -99,7 +99,7 @@ Violating packet id：<!-- md:samp varint -->
   |`PassengerJump`|`20`|protocol.enum.passengerjump|
   |`UpdateBlock`|`21`|protocol.enum.updateblock|
   |`AddPainting`|`22`|protocol.enum.addpainting|
-  |`TickSync`|`23`|protocol.enum.ticksync|
+  |`TickSync_deprecated`|`23`|protocol.enum.ticksync_deprecated|
   |`LevelSoundEventV1`|`24`|protocol.enum.levelsoundeventv1|
   |`LevelEvent`|`25`|protocol.enum.levelevent|
   |`TileEvent`|`26`|protocol.enum.tileevent|
@@ -192,7 +192,7 @@ Violating packet id：<!-- md:samp varint -->
   |`SetLocalPlayerAsInit`|`113`|protocol.enum.setlocalplayerasinit|
   |`UpdateSoftEnum`|`114`|protocol.enum.updatesoftenum|
   |`Ping`|`115`|protocol.enum.ping|
-  |`BlockPalette`|`116`|protocol.enum.blockpalette|
+  |`BlockPalette_deprecated`|`116`|protocol.enum.blockpalette_deprecated|
   |`ScriptCustomEvent`|`117`|protocol.enum.scriptcustomevent|
   |`SpawnParticleEffect`|`118`|protocol.enum.spawnparticleeffect|
   |`AvailableActorIDList`|`119`|protocol.enum.availableactoridlist|
@@ -276,6 +276,8 @@ Violating packet id：<!-- md:samp varint -->
   |`ClientCheatAbilityPacket_Deprecated`|`197`|protocol.enum.clientcheatabilitypacket_deprecated|
   |`CameraPresets`|`198`|protocol.enum.camerapresets|
   |`UnlockedRecipes`|`199`|protocol.enum.unlockedrecipes|
+  |`TitleSpecificPacketsStart`|`200`|protocol.enum.titlespecificpacketsstart|
+  |`TitleSpecificPacketsEnd`|`299`|protocol.enum.titlespecificpacketsend|
   |`CameraInstruction`|`300`|protocol.enum.camerainstruction|
   |`CompressedBiomeDefinitionList`|`301`|protocol.enum.compressedbiomedefinitionlist|
   |`TrimData`|`302`|protocol.enum.trimdata|
@@ -285,7 +287,16 @@ Violating packet id：<!-- md:samp varint -->
   |`PlayerToggleCrafterSlotRequestPacket`|`306`|protocol.enum.playertogglecrafterslotrequestpacket|
   |`SetPlayerInventoryOptions`|`307`|protocol.enum.setplayerinventoryoptions|
   |`SetHudPacket`|`308`|protocol.enum.sethudpacket|
-  |`EndId`|`309`|protocol.enum.endid|
+  |`AwardAchievementPacket`|`309`|protocol.enum.awardachievementpacket|
+  |`ClientboundCloseScreen`|`310`|protocol.enum.clientboundclosescreen|
+  |`ClientboundLoadingScreenPacket_Deprecated`|`311`|protocol.enum.clientboundloadingscreenpacket_deprecated|
+  |`ServerboundLoadingScreenPacket`|`312`|protocol.enum.serverboundloadingscreenpacket|
+  |`JigsawStructureDataPacket`|`313`|protocol.enum.jigsawstructuredatapacket|
+  |`CurrentStructureFeaturePacket`|`314`|protocol.enum.currentstructurefeaturepacket|
+  |`ServerboundDiagnosticsPacket`|`315`|protocol.enum.serverbounddiagnosticspacket|
+  |`CameraAimAssist`|`316`|protocol.enum.cameraaimassist|
+  |`ContainerRegistryCleanup`|`317`|protocol.enum.containerregistrycleanup|
+  |`EndId`|`318`|protocol.enum.endid|
 
 
 

@@ -1,6 +1,6 @@
 # <!-- md:samp PlayerActionPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp PlayerActionPacket -->数据包，数字ID是`36`。该数据包用于protocol.packet.playeractionpacket.description
 
@@ -83,7 +83,7 @@ Action：<!-- md:samp varint -->
   |`DEPRECATED_UpdatedEnchantingSeed`|`20`|protocol.enum.deprecated_updatedenchantingseed|
   |`StartSwimming`|`21`|protocol.enum.startswimming|
   |`StopSwimming`|`22`|protocol.enum.stopswimming|
-  |`StartSpinAttack`|`23`|protocol.enum.startspinattack|
+  |`DEPRECATED_StartSpinAttack`|`23`|protocol.enum.deprecated_startspinattack|
   |`StopSpinAttack`|`24`|protocol.enum.stopspinattack|
   |`InteractWithBlock`|`25`|protocol.enum.interactwithblock|
   |`PredictDestroyBlock`|`26`|protocol.enum.predictdestroyblock|

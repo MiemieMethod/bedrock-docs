@@ -1,6 +1,6 @@
 # <!-- md:samp TypedServerNetId&lt;struct CreativeItemNetIdTag,unsigned int,0&gt; -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp TypedServerNetId&lt;struct CreativeItemNetIdTag,unsigned int,0&gt; -->类型。该类型用于protocol.type.typedservernetid&lt;struct_creativeitemnetidtag,unsigned_int,0&gt;.description
 

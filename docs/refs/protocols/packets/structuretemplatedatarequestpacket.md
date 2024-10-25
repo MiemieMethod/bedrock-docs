@@ -1,6 +1,6 @@
 # <!-- md:samp StructureTemplateDataRequestPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp StructureTemplateDataRequestPacket -->数据包，数字ID是`132`。该数据包用于protocol.packet.structuretemplatedatarequestpacket.description
 
@@ -73,7 +73,6 @@ Requested Operation：<!-- md:samp byte -->
   |`ExportFromSaveMode`|`1`|protocol.enum.exportfromsavemode|
   |`ExportFromLoadMode`|`2`|protocol.enum.exportfromloadmode|
   |`QuerySavedStructure`|`3`|protocol.enum.querysavedstructure|
-  |`Import`|`4`|protocol.enum.import|
 
 
 

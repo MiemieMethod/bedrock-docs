@@ -1,6 +1,6 @@
 # <!-- md:samp CameraPresets -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp CameraPresets -->类型。该类型用于protocol.type.camerapresets.description
 
@@ -15,7 +15,7 @@ rankdir = LR
 4 -> 5
 3 -> 6
 6 -> 7
-7 -> 36
+7 -> 52
 
 2 [label="CameraPresets",comment="name: \"CameraPresets\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 3 [label="Presets",comment="name: \"Presets\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
@@ -23,8 +23,8 @@ rankdir = LR
 5 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 6 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
 7 [label="Camera Preset",comment="name: \"Camera Preset\", typeName: \"CameraPreset\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-36 [label="CameraPreset",comment="name: \"CameraPreset\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;5;36}
+52 [label="CameraPreset",comment="name: \"CameraPreset\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;5;52}
 
 }
 

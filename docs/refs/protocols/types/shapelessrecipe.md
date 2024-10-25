@@ -1,6 +1,6 @@
 # <!-- md:samp ShapelessRecipe -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp ShapelessRecipe -->类型。该类型用于protocol.type.shapelessrecipe.description
 
@@ -30,6 +30,8 @@ rankdir = LR
 49 -> 50
 6 -> 51
 51 -> 52
+6 -> 53
+53 -> 67
 
 6 [label="ShapelessRecipe",comment="name: \"ShapelessRecipe\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 7 [label="Recipe Unique Id",comment="name: \"Recipe Unique Id\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -52,7 +54,9 @@ rankdir = LR
 50 [label="string",comment="name: \"string\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 51 [label="Priority",comment="name: \"Priority\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 52 [label="varint",comment="name: \"varint\", typeName: \"\", id: 52, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;8;11;19;22;41;48;50;52}
+53 [label="Unlocking Requirement",comment="name: \"Unlocking Requirement\", typeName: \"RecipeUnlockingRequirement\", id: 53, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+67 [label="RecipeUnlockingRequirement",comment="name: \"RecipeUnlockingRequirement\", typeName: \"\", id: 67, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;8;11;19;22;41;48;50;52;67}
 
 }
 
@@ -61,7 +65,7 @@ rankdir = LR
 ## 字段
 
 ```title='ShapelessRecipe'
-[recipe_unique_id][ingredient_list][production_list][recipe_id][recipe_tag][priority]
+[recipe_unique_id][ingredient_list][production_list][recipe_id][recipe_tag][priority][unlocking_requirement]
 ```
 
 /// html | div.result
@@ -159,6 +163,13 @@ Recipe Tag：[<!-- md:samp string -->](../types/string.md)
 Priority：<!-- md:samp varint -->
 
 - 基本类型。protocol.type.shapelessrecipe.priority.description
+
+
+////
+//// define
+Unlocking Requirement：[<!-- md:samp RecipeUnlockingRequirement -->](../types/recipeunlockingrequirement.md)
+
+- 特殊类型。protocol.type.shapelessrecipe.unlocking_requirement.description
 
 
 ////

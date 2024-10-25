@@ -1,6 +1,6 @@
 # <!-- md:samp CameraPresetsPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp CameraPresetsPacket -->数据包，数字ID是`198`。该数据包用于protocol.packet.camerapresetspacket.description
 
@@ -11,12 +11,12 @@ digraph "CameraPresetsPacket" {
 rankdir = LR
 0
 0 -> 1
-1 -> 37
+1 -> 53
 
 0 [label="CameraPresetsPacket",comment="name: \"CameraPresetsPacket\", typeName: \"\", id: 0, branchId: 198, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Camera Presets",comment="name: \"Camera Presets\", typeName: \"CameraPresets\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-37 [label="CameraPresets",comment="name: \"CameraPresets\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;37}
+53 [label="CameraPresets",comment="name: \"CameraPresets\", typeName: \"\", id: 53, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;53}
 
 }
 

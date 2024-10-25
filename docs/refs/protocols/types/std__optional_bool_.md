@@ -1,6 +1,6 @@
 # <!-- md:samp std::optional&lt;bool&gt; -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp std::optional&lt;bool&gt; -->类型。该类型用于protocol.type.std::optional&lt;bool&gt;.description
 
@@ -9,14 +9,14 @@
 ```viz
 digraph "std::optional<bool>" {
 rankdir = LR
-32
-32 -> 33
-33 -> 34
+29
+29 -> 30
+30 -> 31
 
-32 [label="std::optional<bool>",comment="name: \"std::optional<bool>\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-33 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
-34 [label="bool",comment="name: \"bool\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;34}
+29 [label="std::optional<bool>",comment="name: \"std::optional<bool>\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+30 [label="Has Value",comment="name: \"Has Value\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 0, notes: \"If true, follow with appropriate data type, otherwise nothing\""];
+31 [label="bool",comment="name: \"bool\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;31}
 
 }
 

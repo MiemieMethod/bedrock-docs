@@ -1,6 +1,6 @@
 # <!-- md:samp ShapedRecipe -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp ShapedRecipe -->类型。该类型用于protocol.type.shapedrecipe.description
 
@@ -35,6 +35,8 @@ rankdir = LR
 28 -> 29
 6 -> 30
 30 -> 31
+6 -> 32
+32 -> 33
 
 6 [label="ShapedRecipe",comment="name: \"ShapedRecipe\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 7 [label="Recipe Unique Id",comment="name: \"Recipe Unique Id\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -62,7 +64,9 @@ rankdir = LR
 29 [label="varint",comment="name: \"varint\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 30 [label="Assume Symmetry",comment="name: \"Assume Symmetry\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 31 [label="bool",comment="name: \"bool\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;8;11;13;17;20;23;25;27;29;31}
+32 [label="Unlocking Requirement",comment="name: \"Unlocking Requirement\", typeName: \"RecipeUnlockingRequirement\", id: 32, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+33 [label="RecipeUnlockingRequirement",comment="name: \"RecipeUnlockingRequirement\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;8;11;13;17;20;23;25;27;29;31;33}
 
 }
 
@@ -71,7 +75,7 @@ rankdir = LR
 ## 字段
 
 ```title='ShapedRecipe'
-[recipe_unique_id][ingredient_grid][production_list][recipe_id][recipe_tag][priority][assume_symmetry]
+[recipe_unique_id][ingredient_grid][production_list][recipe_id][recipe_tag][priority][assume_symmetry][unlocking_requirement]
 ```
 
 /// html | div.result
@@ -190,6 +194,13 @@ Priority：<!-- md:samp varint -->
 Assume Symmetry：<!-- md:samp bool -->
 
 - 基本类型。protocol.type.shapedrecipe.assume_symmetry.description
+
+
+////
+//// define
+Unlocking Requirement：[<!-- md:samp RecipeUnlockingRequirement -->](../types/recipeunlockingrequirement.md)
+
+- 特殊类型。protocol.type.shapedrecipe.unlocking_requirement.description
 
 
 ////

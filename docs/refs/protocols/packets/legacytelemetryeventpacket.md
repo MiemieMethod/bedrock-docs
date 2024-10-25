@@ -1,6 +1,6 @@
 # <!-- md:samp LegacyTelemetryEventPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp LegacyTelemetryEventPacket -->数据包，数字ID是`65`。该数据包用于protocol.packet.legacytelemetryeventpacket.description
 
@@ -164,6 +164,15 @@ rankdir = LR
 151 -> 152
 7 -> 153
 153 -> 154
+7 -> 155
+155 -> 156
+156 -> 157
+155 -> 158
+158 -> 159
+155 -> 160
+160 -> 161
+155 -> 162
+162 -> 163
 
 0 [label="LegacyTelemetryEventPacket",comment="name: \"LegacyTelemetryEventPacket\", typeName: \"\", id: 0, branchId: 65, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Target Actor ID",comment="name: \"Target Actor ID\", typeName: \"ActorUniqueID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
@@ -320,7 +329,16 @@ rankdir = LR
 152 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 152, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 153 [label="if (30)",shape=diamond,comment="name: \"if (30)\", typeName: \"\", id: 153, branchId: 30, recurseId: -1, attributes: 4, notes: \"\""];
 154 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 154, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;6;10;13;15;17;19;21;24;27;29;32;34;36;38;40;42;45;47;49;52;54;56;58;61;63;65;68;70;72;74;76;78;80;83;85;87;89;91;94;96;98;100;103;105;108;110;113;116;119;121;123;125;127;129;132;135;137;140;143;146;148;150;152;154}
+155 [label="if (31)",shape=diamond,comment="name: \"if (31)\", typeName: \"\", id: 155, branchId: 31, recurseId: -1, attributes: 4, notes: \"\""];
+156 [label="Item Id",comment="name: \"Item Id\", typeName: \"\", id: 156, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+157 [label="short",comment="name: \"short\", typeName: \"\", id: 157, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+158 [label="Item Aux",comment="name: \"Item Aux\", typeName: \"\", id: 158, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+159 [label="int",comment="name: \"int\", typeName: \"\", id: 159, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+160 [label="Use Method",comment="name: \"Use Method\", typeName: \"\", id: 160, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+161 [label="int",comment="name: \"int\", typeName: \"\", id: 161, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+162 [label="Use Count",comment="name: \"Use Count\", typeName: \"\", id: 162, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+163 [label="int",comment="name: \"int\", typeName: \"\", id: 163, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;10;13;15;17;19;21;24;27;29;32;34;36;38;40;42;45;47;49;52;54;56;58;61;63;65;68;70;72;74;76;78;80;83;85;87;89;91;94;96;98;100;103;105;108;110;113;116;119;121;123;125;127;129;132;135;137;140;143;146;148;150;152;154;157;159;161;163}
 
 }
 
@@ -378,6 +396,7 @@ Event Type：<!-- md:samp varint -->
   |`StriderRiddenInLavaInOverworld`|`28`|protocol.enum.striderriddeninlavainoverworld|
   |`SneakCloseToSculkSensor`|`29`|protocol.enum.sneakclosetosculksensor|
   |`CarefulRestoration`|`30`|protocol.enum.carefulrestoration|
+  |`ItemUsedEvent`|`31`|protocol.enum.itemusedevent|
 
 
 
@@ -605,7 +624,8 @@ Interaction Actor Type：<!-- md:samp varint -->
   |`BreezeWindChargeProjectile`|`141 | Projectile`|protocol.enum.breezewindchargeprojectile|
   |`Armadillo`|`142 | Animal`|protocol.enum.armadillo|
   |`WindChargeProjectile`|`143 | Projectile`|protocol.enum.windchargeprojectile|
-  |`Bogged`|`144| SkeletonMonster`|protocol.enum.bogged|
+  |`Bogged`|`144 | SkeletonMonster`|protocol.enum.bogged|
+  |`OminousItemSpawner`|`145`|protocol.enum.ominousitemspawner|
 
 
 
@@ -848,7 +868,8 @@ Instigator's Child Actor Type：<!-- md:samp varint -->
   |`BreezeWindChargeProjectile`|`141 | Projectile`|protocol.enum.breezewindchargeprojectile|
   |`Armadillo`|`142 | Animal`|protocol.enum.armadillo|
   |`WindChargeProjectile`|`143 | Projectile`|protocol.enum.windchargeprojectile|
-  |`Bogged`|`144| SkeletonMonster`|protocol.enum.bogged|
+  |`Bogged`|`144 | SkeletonMonster`|protocol.enum.bogged|
+  |`OminousItemSpawner`|`145`|protocol.enum.ominousitemspawner|
 
 
 
@@ -895,7 +916,8 @@ Damage Source：<!-- md:samp varint -->
   |`SonicBoom`|`31`|protocol.enum.sonicboom|
   |`Campfire`|`32`|protocol.enum.campfire|
   |`SoulCampfire`|`33`|protocol.enum.soulcampfire|
-  |`All`|`34`|protocol.enum.all|
+  |`MaceSmash`|`34`|protocol.enum.macesmash|
+  |`All`|`35`|protocol.enum.all|
 
 
 
@@ -1013,7 +1035,8 @@ Damage Source：<!-- md:samp varint -->
   |`SonicBoom`|`31`|protocol.enum.sonicboom|
   |`Campfire`|`32`|protocol.enum.campfire|
   |`SoulCampfire`|`33`|protocol.enum.soulcampfire|
-  |`All`|`34`|protocol.enum.all|
+  |`MaceSmash`|`34`|protocol.enum.macesmash|
+  |`All`|`35`|protocol.enum.all|
 
 
 
@@ -1206,7 +1229,8 @@ Boss Type：<!-- md:samp varint -->
   |`BreezeWindChargeProjectile`|`141 | Projectile`|protocol.enum.breezewindchargeprojectile|
   |`Armadillo`|`142 | Animal`|protocol.enum.armadillo|
   |`WindChargeProjectile`|`143 | Projectile`|protocol.enum.windchargeprojectile|
-  |`Bogged`|`144| SkeletonMonster`|protocol.enum.bogged|
+  |`Bogged`|`144 | SkeletonMonster`|protocol.enum.bogged|
+  |`OminousItemSpawner`|`145`|protocol.enum.ominousitemspawner|
 
 
 
@@ -1728,6 +1752,45 @@ if (30)：<!-- md:samp [No Data] -->
 
 - 无数据
 
+
+//////
+
+/////
+
+///// tab | `Event Type`如果为`31`
+```title='if (31)'
+[item_id][item_aux][use_method][use_count]
+```
+
+////// html | div.result
+/////// define
+Item Id：<!-- md:samp short -->
+
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_31.item_id.description
+
+
+///////
+/////// define
+Item Aux：<!-- md:samp int -->
+
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_31.item_aux.description
+
+
+///////
+/////// define
+Use Method：<!-- md:samp int -->
+
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_31.use_method.description
+
+
+///////
+/////// define
+Use Count：<!-- md:samp int -->
+
+- 基本类型。protocol.packet.legacytelemetryeventpacket.dependency_on_event_type.if_31.use_count.description
+
+
+///////
 
 //////
 

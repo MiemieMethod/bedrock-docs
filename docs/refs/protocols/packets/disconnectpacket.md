@@ -1,6 +1,6 @@
 # <!-- md:samp DisconnectPacket -->
 
-> 文档版本：r/20_u8<br/>协议版本：671
+> 文档版本：r/21_u3<br/>协议版本：729
 
 <!-- md:samp DisconnectPacket -->数据包，数字ID是`5`。该数据包用于protocol.packet.disconnectpacket.description
 
@@ -18,8 +18,10 @@ rankdir = LR
 5 -> 6
 6 -> 7
 7 -> 8
-5 -> 9
+6 -> 9
 9 -> 10
+5 -> 11
+11 -> 12
 
 0 [label="DisconnectPacket",comment="name: \"DisconnectPacket\", typeName: \"\", id: 0, branchId: 5, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Reason",comment="name: \"Reason\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -30,9 +32,11 @@ rankdir = LR
 6 [label="if (0)",shape=diamond,comment="name: \"if (0)\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 4, notes: \"\""];
 7 [label="Message",comment="name: \"Message\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 8 [label="string",comment="name: \"string\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-9 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 9, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
-10 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;8;10}
+9 [label="Filtered Message",comment="name: \"Filtered Message\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+10 [label="string",comment="name: \"string\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+11 [label="if (1)",shape=diamond,comment="name: \"if (1)\", typeName: \"\", id: 11, branchId: 1, recurseId: -1, attributes: 4, notes: \"\""];
+12 [label="[No Data]",comment="name: \"[No Data]\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;8;10;12}
 
 }
 
@@ -141,7 +145,7 @@ Reason：<!-- md:samp varint -->
   |`NetherNetNegotiationTimeout`|`86`|protocol.enum.nethernetnegotiationtimeout|
   |`NetherNetInactivityTimeout`|`87`|protocol.enum.nethernetinactivitytimeout|
   |`StaleConnectionBeingReplaced`|`88`|protocol.enum.staleconnectionbeingreplaced|
-  |`RealmsSessionNotFound`|`89`|protocol.enum.realmssessionnotfound|
+  |`RealmsSessionNotFound_DEPRECATED`|`89`|protocol.enum.realmssessionnotfound_deprecated|
   |`BadPacket`|`90`|protocol.enum.badpacket|
   |`NetherNetFailedToCreateOffer`|`91`|protocol.enum.nethernetfailedtocreateoffer|
   |`NetherNetFailedToCreateAnswer`|`92`|protocol.enum.nethernetfailedtocreateanswer|
@@ -168,6 +172,8 @@ Reason：<!-- md:samp varint -->
   |`NetherNetNoSignalingChannel`|`113`|protocol.enum.nethernetnosignalingchannel|
   |`NetherNetNotLoggedIn`|`114`|protocol.enum.nethernetnotloggedin|
   |`NetherNetClientSignalingError`|`115`|protocol.enum.nethernetclientsignalingerror|
+  |`SubClientLoginDisabled`|`116`|protocol.enum.subclientlogindisabled|
+  |`DeepLinkTryingToOpenDemoWorldWhileSignedIn`|`117`|protocol.enum.deeplinktryingtoopendemoworldwhilesignedin|
 
 
 
@@ -183,7 +189,7 @@ Skip Message：<!-- md:samp bool -->
 
 ///// tab | `Skip Message`如果为`0`
 ```title='if (0)'
-[message]
+[message][filtered_message]
 ```
 
 ////// html | div.result
@@ -191,6 +197,13 @@ Skip Message：<!-- md:samp bool -->
 Message：[<!-- md:samp string -->](../types/string.md)
 
 - 特殊类型。protocol.packet.disconnectpacket.dependency_on_skip_message.if_0.message.description
+
+
+///////
+/////// define
+Filtered Message：[<!-- md:samp string -->](../types/string.md)
+
+- 特殊类型。protocol.packet.disconnectpacket.dependency_on_skip_message.if_0.filtered_message.description
 
 
 ///////
