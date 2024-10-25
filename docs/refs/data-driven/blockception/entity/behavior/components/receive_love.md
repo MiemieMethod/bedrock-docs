@@ -1,6 +1,6 @@
 # Receive Love
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the villager to stop so another villager can breed with it. Can only be used by a Villager.
 

@@ -1,6 +1,6 @@
 # Features
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Features are decorations scattered throughout the world. Things such as trees, plants, flowers, springs, ore, and coral are all features. Basically, if it isn't the terrain or a mob, it's probably a feature!
 
@@ -1462,28 +1462,31 @@ scatter_feature:
   description "description"
   identifier "places_feature"
   boolean "project_input_to_floor" : opt
-  0 "iterations"
-  object "scatter_chance" : opt
+  object "distribution" : opt
   {
-    integer "numerator" : opt
-    integer "denominator" : opt
-  }
-  0 "scatter_chance"
-  string "coordinate_eval_order" : opt
-  0 "x"
-  object "x" : opt
-  {
-    string "distribution" : opt
-    integer "step_size" : opt
-    integer "grid_offset" : opt
-    array "extent" : opt
+    string "coordinate_eval_order" : opt
+    0 "iterations"
+    0 "scatter_chance"
+    object "scatter_chance" : opt
     {
-      0 "0..0"
-      0 "1..1"
+      number "numerator" : opt
+      number "denominator" : opt
     }
+    0 "x"
+    object "x" : opt
+    {
+      string "distribution" : opt
+      integer "step_size" : opt
+      integer "grid_offset" : opt
+      array "extent" : opt
+      {
+        0 "0..0"
+        0 "1..1"
+      }
+    }
+     "z" : opt
+     "y" : opt
   }
-   "y" : opt
-   "z" : opt
 }
 
 ```
@@ -1515,136 +1518,150 @@ scatter_feature:
 
 
 ///// define
-`iterations`：<samp>[0](#assets.schemas-blockception.molang.number.json)</samp>
+`distribution`：<samp>object</samp>
 
-- Number of scattered positions to generate.
-
-
-/////
-
-
-///// define
-`scatter_chance`：<samp>object</samp>
-
-- Probability numerator / denominator that this scatter will occur.  Not evaluated each iteration; either no iterations will run, or all will.
+- Parameters controlling the initial scatter of the feature.
 
 
 /////
 
-<div class="language-text highlight"><span class="filename"><code>scatter_chance</code></span><pre id="__code_1"><span></span></pre></div>
+<div class="language-text highlight"><span class="filename"><code>distribution</code></span><pre id="__code_1"><span></span></pre></div>
 
 ///// html | div.result
 ////// define
-`numerator`：<samp>integer</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-
-////// define
-`denominator`：<samp>integer</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-
-/////
-
-
-///// define
-`scatter_chance`：<samp>[0](#assets.schemas-blockception.molang.number.json)</samp>
-
-- Probability (0-100] that this scatter will occur. Not evaluated each iteration; either no iterations will run, or all will.
-
-
-/////
-
-
-
-///// define
 `coordinate_eval_order`：<samp>string</samp>
 
 - The order in which coordinates will be evaluated. Should be used when a coordinate depends on another. If omitted, defaults to `xzy`.
 
 
-/////
+//////
 
 
-///// define
+////// define
+`iterations`：<samp>[0](#assets.schemas-blockception.molang.number.json)</samp>
+
+- Number of scattered positions to generate.
+
+
+//////
+
+
+////// define
+`scatter_chance`：<samp>[0](#assets.schemas-blockception.molang.number.json)</samp>
+
+- Probability (0-100] that this scatter will occur.  Not evaluated each iteration; either no iterations will run, or all will.
+
+
+//////
+
+
+////// define
+`scatter_chance`：<samp>object</samp>
+
+- Probability numerator / denominator that this scatter will occur.  Not evaluated each iteration; either no iterations will run, or all will.
+
+
+//////
+
+<div class="language-text highlight"><span class="filename"><code>scatter_chance</code></span><pre id="__code_1"><span></span></pre></div>
+
+////// html | div.result
+/////// define
+`numerator`：<samp>number</samp>
+
+- UNDOCUMENTED.
+
+
+///////
+
+
+/////// define
+`denominator`：<samp>number</samp>
+
+- UNDOCUMENTED.
+
+
+///////
+
+
+//////
+
+
+
+////// define
 `x`：<samp>[0](#assets.schemas-blockception.molang.number.json)</samp>
 
 - Expression for the coordinate (evaluated each iteration). Mutually exclusive with random distribution object below.
 
 
-/////
+//////
 
 
-///// define
+////// define
 `x`：<samp>object</samp>
 
 - Distribution for the coordinate (evaluated each iteration). Mutually exclusive with Molang expression above.
 
 
-/////
+//////
 
 <div class="language-text highlight"><span class="filename"><code>x</code></span><pre id="__code_1"><span></span></pre></div>
 
-///// html | div.result
-////// define
+////// html | div.result
+/////// define
 `distribution`：<samp>string</samp>
 
 - Type of distribution - uniform random, gaussian (centered in the range),  triangle (centered in the range), or grid (either fixed-step or jittered).
 
 
-//////
+///////
 
 
-////// define
+/////// define
 `step_size`：<samp>integer</samp>
 
 - When the distribution type is grid, defines the distance between steps along this axis.
 
 
-//////
+///////
 
 
-////// define
+/////// define
 `grid_offset`：<samp>integer</samp>
 
 - When the distribution type is grid, defines the offset along this axis.
 
 
-//////
+///////
 
 
-////// define
+/////// define
 `extent`：<samp>array</samp>
 
 - The lower and upper bound as an offset from the input position
 
 
-//////
+///////
 
 <div class="language-text highlight"><span class="filename"><code>extent</code></span><pre id="__code_1"><span></span></pre></div>
 
-////// html | div.result
-/////// define
+/////// html | div.result
+//////// define
 `0..0`：<samp>[0](#assets.schemas-blockception.molang.number.json)</samp>
 
 - Lower bound (inclusive) of the scatter range, as an offset from the input point to scatter around.
 
 
-///////
+////////
 
 
-/////// define
+//////// define
 `1..1`：<samp>[0](#assets.schemas-blockception.molang.number.json)</samp>
 
 - Upper bound (inclusive) of the scatter range, as an offset from the input point to scatter around.
+
+
+////////
 
 
 ///////
@@ -1653,19 +1670,19 @@ scatter_feature:
 //////
 
 
-/////
+
+////// define
+`z`
 
 
+//////
 
-///// define
+
+////// define
 `y`
 
 
-/////
-
-
-///// define
-`z`
+//////
 
 
 /////

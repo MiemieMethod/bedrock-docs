@@ -1,6 +1,6 @@
 # Move Towards Dwelling Restriction
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows mobs with the dweller component to move toward their Village area that the mob should be restricted to.
 

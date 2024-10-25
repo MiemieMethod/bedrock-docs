@@ -1,6 +1,6 @@
 # Mob Effect
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 A component that applies a mob effect to entities that get within range.
 
@@ -13,7 +13,7 @@ mob_effect:
   number "effect_range" : opt
   integer "effect_time" : opt
   filters "entity_filter"
-  string "mob_effect" : opt
+  effect "mob_effect"
 }
 
 ```
@@ -56,12 +56,23 @@ mob_effect:
 
 
 //// define
-`mob_effect`：<samp>string</samp>
+`mob_effect`：<samp>effect</samp> {#assets.schemas-blockception.general.vanilla.effect.json}
 
 - The mob effect that is applied to entities that enter this entities effect range.
 
 
 ////
+
+```mcschema
+effect:
+string
+
+```
+
+//// html | div.result
+
+////
+
 
 
 ///

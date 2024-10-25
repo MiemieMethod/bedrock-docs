@@ -1,6 +1,6 @@
 # Defend Village Target
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to stay in a village and defend the village from aggressors. If a player is in bad standing with the village this goal will cause the entity to attack the player regardless of filter conditions.
 

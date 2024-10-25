@@ -1,6 +1,6 @@
 # Shareables
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines a list of items the mob wants to share or pick up. Each item must have the following parameters:
 

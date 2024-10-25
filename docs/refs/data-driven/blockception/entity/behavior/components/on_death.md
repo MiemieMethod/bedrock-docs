@@ -1,6 +1,6 @@
 # On Death
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Adds a trigger to call on this entity's death. minecraft:on_death can only be used by the `ender_dragon` entity.
 

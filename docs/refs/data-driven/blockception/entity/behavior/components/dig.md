@@ -1,6 +1,6 @@
 # Dig
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 [EXPERIMENTAL BEHAVIOR] Activates the `DIGGING` actor flag during the specified duration. Currently only Warden can use the Dig goal
 

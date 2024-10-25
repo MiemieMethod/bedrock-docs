@@ -1,6 +1,6 @@
 # Hide
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows a mob with the hide component to attempt to move to - and hide at - an owned or nearby POI.
 

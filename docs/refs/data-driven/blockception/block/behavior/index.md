@@ -1,6 +1,6 @@
 # Block Behavior
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 The minecraft block behavior specification.
 
@@ -63,7 +63,6 @@ blocks:
       placement_position "minecraft:placement_position"
     }
   }
-  events "events"
   object "components" : opt
   {
     collision_box "minecraft:collision_box"
@@ -80,17 +79,12 @@ blocks:
     map_color "minecraft:map_color"
     material_instances "minecraft:material_instances"
     placement_filter "minecraft:placement_filter"
+    redstone_conductivity "minecraft:redstone_conductivity"
     selection_box "minecraft:selection_box"
     transformation "minecraft:transformation"
-    on_fall_on "minecraft:on_fall_on"
-    on_interact "minecraft:on_interact"
-    on_placed "minecraft:on_placed"
-    on_player_destroyed "minecraft:on_player_destroyed"
-    on_player_placing "minecraft:on_player_placing"
-    on_step_off "minecraft:on_step_off"
-    on_step_on "minecraft:on_step_on"
-    random_ticking "minecraft:queued_ticking"
-    random_ticking "minecraft:random_ticking"
+    custom_components "minecraft:custom_components"
+    tick "minecraft:tick"
+    entity_fall_on "minecraft:entity_fall_on"
     object "tag:.+" : opt
     {
     }
@@ -454,179 +448,6 @@ placement_position:
 
 
 ///// define
-`events`：<samp>events</samp> {#assets.schemas-blockception.behavior.blocks.format.events.json}
-
-
-/////
-
-```mcschema
-events:
-{
-  object "minecraft:on_fall_on" : opt
-  {
-    string "condition" : opt
-    string "event" : opt
-    string "target" : opt
-  }
-  object "minecraft:on_interact" : opt
-  {
-  }
-  object "minecraft:on_placed" : opt
-  {
-  }
-  object "minecraft:on_player_destroyed" : opt
-  {
-  }
-  object "minecraft:on_player_placing" : opt
-  {
-  }
-  object "minecraft:on_step_off" : opt
-  {
-  }
-  object "minecraft:on_step_on" : opt
-  {
-  }
-}
-
-```
-
-///// html | div.result
-////// define
-`minecraft:on_fall_on`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>minecraft:on_fall_on</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-/////// define
-`condition`：<samp>string</samp>
-
-- The condition of event to be executed on the block.
-
-
-///////
-
-
-/////// define
-`event`：<samp>string</samp>
-
-- The event executed on the block.
-
-
-///////
-
-
-/////// define
-`target`：<samp>string</samp>
-
-- The target of event executed on the block.
-
-
-///////
-
-
-//////
-
-
-////// define
-`minecraft:on_interact`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>minecraft:on_interact</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
-
-////// define
-`minecraft:on_placed`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>minecraft:on_placed</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
-
-////// define
-`minecraft:on_player_destroyed`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>minecraft:on_player_destroyed</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
-
-////// define
-`minecraft:on_player_placing`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>minecraft:on_player_placing</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
-
-////// define
-`minecraft:on_step_off`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>minecraft:on_step_off</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
-
-////// define
-`minecraft:on_step_on`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>minecraft:on_step_on</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
-
-/////
-
-
-
-///// define
 `components`：<samp>object</samp>
 
 - UNDOCUMENTED.
@@ -750,6 +571,14 @@ events:
 //////
 
 ////// define
+`minecraft:redstone_conductivity`：<samp>redstone_conductivity</samp>
+
+- [`minecraft:redstone_conductivity`](./components/redstone_conductivity.md)组件。UNDOCUMENTED.
+
+
+//////
+
+////// define
 `minecraft:selection_box`：<samp>selection_box</samp>
 
 - [`minecraft:selection_box`](./components/selection_box.md)组件。UNDOCUMENTED.
@@ -766,73 +595,25 @@ events:
 //////
 
 ////// define
-`minecraft:on_fall_on`：<samp>on_fall_on</samp>
+`minecraft:custom_components`：<samp>custom_components</samp>
 
-- [`minecraft:on_fall_on`](./components/on_fall_on.md)组件。UNDOCUMENTED.
-
-
-//////
-
-////// define
-`minecraft:on_interact`：<samp>on_interact</samp>
-
-- [`minecraft:on_interact`](./components/on_interact.md)组件。UNDOCUMENTED.
+- [`minecraft:custom_components`](./components/custom_components.md)组件。UNDOCUMENTED.
 
 
 //////
 
 ////// define
-`minecraft:on_placed`：<samp>on_placed</samp>
+`minecraft:tick`：<samp>tick</samp>
 
-- [`minecraft:on_placed`](./components/on_placed.md)组件。UNDOCUMENTED.
-
-
-//////
-
-////// define
-`minecraft:on_player_destroyed`：<samp>on_player_destroyed</samp>
-
-- [`minecraft:on_player_destroyed`](./components/on_player_destroyed.md)组件。UNDOCUMENTED.
+- [`minecraft:tick`](./components/tick.md)组件。UNDOCUMENTED.
 
 
 //////
 
 ////// define
-`minecraft:on_player_placing`：<samp>on_player_placing</samp>
+`minecraft:entity_fall_on`：<samp>entity_fall_on</samp>
 
-- [`minecraft:on_player_placing`](./components/on_player_placing.md)组件。UNDOCUMENTED.
-
-
-//////
-
-////// define
-`minecraft:on_step_off`：<samp>on_step_off</samp>
-
-- [`minecraft:on_step_off`](./components/on_step_off.md)组件。UNDOCUMENTED.
-
-
-//////
-
-////// define
-`minecraft:on_step_on`：<samp>on_step_on</samp>
-
-- [`minecraft:on_step_on`](./components/on_step_on.md)组件。UNDOCUMENTED.
-
-
-//////
-
-////// define
-`minecraft:queued_ticking`：<samp>random_ticking</samp>
-
-- [`minecraft:queued_ticking`](./components/queued_ticking.md)组件。UNDOCUMENTED.
-
-
-//////
-
-////// define
-`minecraft:random_ticking`：<samp>random_ticking</samp>
-
-- [`minecraft:random_ticking`](./components/random_ticking.md)组件。UNDOCUMENTED.
+- [`minecraft:entity_fall_on`](./components/entity_fall_on.md)组件。UNDOCUMENTED.
 
 
 //////

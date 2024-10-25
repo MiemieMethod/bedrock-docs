@@ -1,6 +1,6 @@
 # Controlled By Player
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to be controlled by the player using an item in the item_controllable property (required). Also requires the minecraft:movement property, and the minecraft:rideable property. On every tick, the entity will attempt to rotate towards where the player is facing with the control item whilst simultaneously moving forward.
 

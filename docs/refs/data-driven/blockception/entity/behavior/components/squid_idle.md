@@ -1,6 +1,6 @@
 # Squid Idle
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the squid to swim in place idly. Can only be used by the Squid.
 

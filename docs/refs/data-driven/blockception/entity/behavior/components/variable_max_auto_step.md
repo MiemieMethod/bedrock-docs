@@ -1,6 +1,6 @@
 # Variable Max Auto Step
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Entities with this component will have a maximum auto step height that is different depending on wether they are on a block that prevents jumping. Incompatible with "runtime_identifier": "minecraft:horse".
 

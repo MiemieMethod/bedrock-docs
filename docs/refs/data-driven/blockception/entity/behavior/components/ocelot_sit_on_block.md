@@ -1,6 +1,6 @@
 # Ocelot Sit On Block
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows an entity to sit in place, similar to the ocelot entity animation pose.
 

@@ -1,6 +1,6 @@
 # Animation Controller
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 UNDOCUMENTED.
 
@@ -9,7 +9,7 @@ UNDOCUMENTED.
 ```mcschema
 animation_controller:
 {
-  format_version "format_version"
+  string "format_version" : opt
   object "animation_controllers" : opt
   {
     object "^controller\.animation\.[a-z\.]+" : opt
@@ -84,21 +84,10 @@ animation_controller:
 
 /// html | div.result
 //// define
-`format_version`：<samp>format_version</samp> {#assets.schemas-blockception.general.format_version.json}
+`format_version`：<samp>string</samp>
 
 
 ////
-
-```mcschema
-format_version:
-string
-
-```
-
-//// html | div.result
-
-////
-
 
 
 //// define

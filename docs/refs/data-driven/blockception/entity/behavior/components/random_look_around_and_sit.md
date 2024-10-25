@@ -1,6 +1,6 @@
 # Random Look Around And Sit
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to randomly sit and look around for a duration. Note: Must have a sitting animation set up to use this.
 

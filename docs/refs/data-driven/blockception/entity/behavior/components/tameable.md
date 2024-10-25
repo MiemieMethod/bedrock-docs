@@ -1,6 +1,6 @@
 # Tameable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the rules for a mob to be tamed by the player.
 

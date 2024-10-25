@@ -1,6 +1,6 @@
 # Sniff
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Sniff compels this entity to detect the nearest player within "sniffing_radius" and update its minecraft:suspect_tracking component state.
 

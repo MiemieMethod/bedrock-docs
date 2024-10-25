@@ -1,6 +1,6 @@
 # 未命名
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 
 
@@ -37,7 +37,7 @@ attachables:
       }
       object "materials" : opt
       {
-        string "<any object property>" : opt
+        material "<any object property>"
       }
       string "min_engine_version" : opt
       object "particle_effects" : opt
@@ -260,8 +260,6 @@ string
 ////// define
 `materials`：<samp>object</samp>
 
-- UNDOCUMENTED: materials.
-
 
 //////
 
@@ -269,12 +267,23 @@ string
 
 ////// html | div.result
 /////// define
-`<any object property>`：<samp>string</samp>
+`<any object property>`：<samp>material</samp> {#assets.schemas-blockception.general.vanilla.material.json}
 
-- UNDOCUMENTED: additionalProperties.
+- Material Reference.
 
 
 ///////
+
+```mcschema
+material:
+string
+
+```
+
+/////// html | div.result
+
+///////
+
 
 
 //////
@@ -613,7 +622,7 @@ attachables:
       }
       object "materials" : opt
       {
-        string "<any object property>" : opt
+        material "<any object property>"
       }
       string "min_engine_version" : opt
       object "particle_effects" : opt
@@ -816,7 +825,7 @@ attachables:
 
 ////// html | div.result
 /////// define
-`<any object property>`：<samp>string</samp>
+`<any object property>`：<samp>[material](#assets.schemas-blockception.general.vanilla.material.json)</samp>
 
 - A single material reference.
 

@@ -1,6 +1,6 @@
 # Combat Regeneration
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Gives Regeneration I and removes Mining Fatigue from the mob that kills the Actor`s attack target.
 

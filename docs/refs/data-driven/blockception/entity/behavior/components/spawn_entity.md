@@ -1,6 +1,6 @@
 # Spawn Entity
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Adds a timer after which this entity will spawn another entity or item (similar to vanilla's chicken's egg-laying behavior).
 

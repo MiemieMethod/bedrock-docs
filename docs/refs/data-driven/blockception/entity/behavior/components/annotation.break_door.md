@@ -1,6 +1,6 @@
 # Annotation.break Door
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the actor to break doors assuming that that flags set up for the component to use in navigation.
 

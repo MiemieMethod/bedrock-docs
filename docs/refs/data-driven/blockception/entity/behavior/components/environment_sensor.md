@@ -1,6 +1,6 @@
 # Environment Sensor
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Creates a trigger based on environment conditions.
 

@@ -439,12 +439,17 @@ nav:
           - 组件:
             - <code>minecraft:allow_off_hand</code>: refs/data-driven/blockception/item/behavior/components/allow_off_hand.md
             - <code>minecraft:block_placer</code>: refs/data-driven/blockception/item/behavior/components/block_placer.md
+            - <code>minecraft:bundle_interaction</code>: refs/data-driven/blockception/item/behavior/components/bundle_interaction.md
             - <code>minecraft:can_destroy_in_creative</code>: refs/data-driven/blockception/item/behavior/components/can_destroy_in_creative.md
             - <code>minecraft:cooldown</code>: refs/data-driven/blockception/item/behavior/components/cooldown.md
+            - <code>minecraft:custom_components</code>: refs/data-driven/blockception/item/behavior/components/custom_components.md
             - <code>minecraft:damage</code>: refs/data-driven/blockception/item/behavior/components/damage.md
+            - <code>minecraft:damage_absorption</code>: refs/data-driven/blockception/item/behavior/components/damage_absorption.md
             - <code>minecraft:digger</code>: refs/data-driven/blockception/item/behavior/components/digger.md
             - <code>minecraft:display_name</code>: refs/data-driven/blockception/item/behavior/components/display_name.md
+            - <code>minecraft:durability_sensor</code>: refs/data-driven/blockception/item/behavior/components/durability_sensor.md
             - <code>minecraft:durability</code>: refs/data-driven/blockception/item/behavior/components/durability.md
+            - <code>minecraft:dyeable</code>: refs/data-driven/blockception/item/behavior/components/dyeable.md
             - <code>minecraft:enchantable</code>: refs/data-driven/blockception/item/behavior/components/enchantable.md
             - <code>minecraft:entity_placer</code>: refs/data-driven/blockception/item/behavior/components/entity_placer.md
             - <code>minecraft:food</code>: refs/data-driven/blockception/item/behavior/components/food.md
@@ -456,10 +461,12 @@ nav:
             - <code>minecraft:max_stack_size</code>: refs/data-driven/blockception/item/behavior/components/max_stack_size.md
             - <code>minecraft:projectile</code>: refs/data-driven/blockception/item/behavior/components/projectile.md
             - <code>minecraft:record</code>: refs/data-driven/blockception/item/behavior/components/record.md
+            - <code>minecraft:rarity</code>: refs/data-driven/blockception/item/behavior/components/rarity.md
             - <code>minecraft:repairable</code>: refs/data-driven/blockception/item/behavior/components/repairable.md
             - <code>minecraft:shooter</code>: refs/data-driven/blockception/item/behavior/components/shooter.md
             - <code>minecraft:should_despawn</code>: refs/data-driven/blockception/item/behavior/components/should_despawn.md
             - <code>minecraft:stacked_by_data</code>: refs/data-driven/blockception/item/behavior/components/stacked_by_data.md
+            - <code>minecraft:storage_item</code>: refs/data-driven/blockception/item/behavior/components/storage_item.md
             - <code>minecraft:tags</code>: refs/data-driven/blockception/item/behavior/components/tags.md
             - <code>minecraft:throwable</code>: refs/data-driven/blockception/item/behavior/components/throwable.md
             - <code>minecraft:use_animation</code>: refs/data-driven/blockception/item/behavior/components/use_animation.md
@@ -485,24 +492,19 @@ nav:
             - <code>minecraft:map_color</code>: refs/data-driven/blockception/block/behavior/components/map_color.md
             - <code>minecraft:material_instances</code>: refs/data-driven/blockception/block/behavior/components/material_instances.md
             - <code>minecraft:placement_filter</code>: refs/data-driven/blockception/block/behavior/components/placement_filter.md
+            - <code>minecraft:redstone_conductivity</code>: refs/data-driven/blockception/block/behavior/components/redstone_conductivity.md
             - <code>minecraft:selection_box</code>: refs/data-driven/blockception/block/behavior/components/selection_box.md
             - <code>minecraft:transformation</code>: refs/data-driven/blockception/block/behavior/components/transformation.md
-            - <code>minecraft:on_fall_on</code>: refs/data-driven/blockception/block/behavior/components/on_fall_on.md
-            - <code>minecraft:on_interact</code>: refs/data-driven/blockception/block/behavior/components/on_interact.md
-            - <code>minecraft:on_placed</code>: refs/data-driven/blockception/block/behavior/components/on_placed.md
-            - <code>minecraft:on_player_destroyed</code>: refs/data-driven/blockception/block/behavior/components/on_player_destroyed.md
-            - <code>minecraft:on_player_placing</code>: refs/data-driven/blockception/block/behavior/components/on_player_placing.md
-            - <code>minecraft:on_step_off</code>: refs/data-driven/blockception/block/behavior/components/on_step_off.md
-            - <code>minecraft:on_step_on</code>: refs/data-driven/blockception/block/behavior/components/on_step_on.md
-            - <code>minecraft:queued_ticking</code>: refs/data-driven/blockception/block/behavior/components/queued_ticking.md
-            - <code>minecraft:random_ticking</code>: refs/data-driven/blockception/block/behavior/components/random_ticking.md
+            - <code>minecraft:custom_components</code>: refs/data-driven/blockception/block/behavior/components/custom_components.md
+            - <code>minecraft:tick</code>: refs/data-driven/blockception/block/behavior/components/tick.md
+            - <code>minecraft:entity_fall_on</code>: refs/data-driven/blockception/block/behavior/components/entity_fall_on.md
         - 资源定义:
           - refs/data-driven/blockception/block/resource/index.md
       - 实体:
         - 行为定义:
           - refs/data-driven/blockception/entity/behavior/index.md
           - 组件:
-            - <code>minecraft:absorption:</code>: refs/data-driven/blockception/entity/behavior/components/attribute.md
+            - <code>minecraft:absorption</code>: refs/data-driven/blockception/entity/behavior/components/attribute.md
             - <code>minecraft:addrider</code>: refs/data-driven/blockception/entity/behavior/components/addrider.md
             - <code>minecraft:admire_item</code>: refs/data-driven/blockception/entity/behavior/components/admire_item.md
             - <code>minecraft:ageable</code>: refs/data-driven/blockception/entity/behavior/components/ageable.md
@@ -609,6 +611,7 @@ nav:
             - <code>minecraft:managed_wandering_trader</code>: refs/data-driven/blockception/entity/behavior/components/managed_wandering_trader.md
             - <code>minecraft:mark_variant</code>: refs/data-driven/blockception/entity/behavior/components/mark_variant.md
             - <code>minecraft:mob_effect</code>: refs/data-driven/blockception/entity/behavior/components/mob_effect.md
+            - <code>minecraft:mob_effect_immunity</code>: refs/data-driven/blockception/entity/behavior/components/mob_effect_immunity.md
             - <code>minecraft:movement_sound_distance_offset</code>: refs/data-driven/blockception/entity/behavior/components/movement_sound_distance_offset.md
             - <code>minecraft:movement.amphibious</code>: refs/data-driven/blockception/entity/behavior/components/movement.amphibious.md
             - <code>minecraft:movement.basic</code>: refs/data-driven/blockception/entity/behavior/components/movement.basic.md
@@ -656,6 +659,7 @@ nav:
             - <code>minecraft:rail_sensor</code>: refs/data-driven/blockception/entity/behavior/components/rail_sensor.md
             - <code>minecraft:ravager_blocked</code>: refs/data-driven/blockception/entity/behavior/components/ravager_blocked.md
             - <code>minecraft:rideable</code>: refs/data-driven/blockception/entity/behavior/components/rideable.md
+            - <code>minecraft:reflect_projectiles</code>: refs/data-driven/blockception/entity/behavior/components/reflect_projectiles.md
             - <code>minecraft:scale_by_age</code>: refs/data-driven/blockception/entity/behavior/components/scale_by_age.md
             - <code>minecraft:scale</code>: refs/data-driven/blockception/entity/behavior/components/scale.md
             - <code>minecraft:scheduler</code>: refs/data-driven/blockception/entity/behavior/components/scheduler.md
@@ -731,6 +735,7 @@ nav:
             - <code>minecraft:behavior.find_cover</code>: refs/data-driven/blockception/entity/behavior/components/find_cover.md
             - <code>minecraft:behavior.find_mount</code>: refs/data-driven/blockception/entity/behavior/components/find_mount.md
             - <code>minecraft:behavior.find_underwater_treasure</code>: refs/data-driven/blockception/entity/behavior/components/find_underwater_treasure.md
+            - <code>minecraft:behavior.fire_at_target</code>: refs/data-driven/blockception/entity/behavior/components/fire_at_target.md
             - <code>minecraft:behavior.flee_sun</code>: refs/data-driven/blockception/entity/behavior/components/flee_sun.md
             - <code>minecraft:behavior.float_wander</code>: refs/data-driven/blockception/entity/behavior/components/float_wander.md
             - <code>minecraft:behavior.float</code>: refs/data-driven/blockception/entity/behavior/components/float.md
@@ -749,6 +754,7 @@ nav:
             - <code>minecraft:behavior.hurt_by_target</code>: refs/data-driven/blockception/entity/behavior/components/hurt_by_target.md
             - <code>minecraft:behavior.inspect_bookshelf</code>: refs/data-driven/blockception/entity/behavior/components/inspect_bookshelf.md
             - <code>minecraft:behavior.investigate_suspicious_location</code>: refs/data-driven/blockception/entity/behavior/components/investigate_suspicious_location.md
+            - <code>minecraft:behavior.jump_around_target</code>: refs/data-driven/blockception/entity/behavior/components/jump_around_target.md
             - <code>minecraft:behavior.jump_to_block</code>: refs/data-driven/blockception/entity/behavior/components/jump_to_block.md
             - <code>minecraft:behavior.knockback_roar</code>: refs/data-driven/blockception/entity/behavior/components/knockback_roar.md
             - <code>minecraft:behavior.lay_down</code>: refs/data-driven/blockception/entity/behavior/components/lay_down.md
@@ -788,7 +794,6 @@ nav:
             - <code>minecraft:behavior.owner_hurt_by_target</code>: refs/data-driven/blockception/entity/behavior/components/owner_hurt_by_target.md
             - <code>minecraft:behavior.owner_hurt_target</code>: refs/data-driven/blockception/entity/behavior/components/owner_hurt_target.md
             - <code>minecraft:behavior.panic</code>: refs/data-driven/blockception/entity/behavior/components/panic.md
-            - <code>minecraft:behavior.peek</code>: refs/data-driven/blockception/entity/behavior/components/peek.md
             - <code>minecraft:behavior.pet_sleep_with_owner</code>: refs/data-driven/blockception/entity/behavior/components/pet_sleep_with_owner.md
             - <code>minecraft:behavior.pickup_items</code>: refs/data-driven/blockception/entity/behavior/components/pickup_items.md
             - <code>minecraft:behavior.play_dead</code>: refs/data-driven/blockception/entity/behavior/components/play_dead.md
@@ -842,10 +847,13 @@ nav:
             - <code>minecraft:behavior.summon_entity</code>: refs/data-driven/blockception/entity/behavior/components/summon_entity.md
             - <code>minecraft:behavior.swell</code>: refs/data-driven/blockception/entity/behavior/components/swell.md
             - <code>minecraft:behavior.swim_idle</code>: refs/data-driven/blockception/entity/behavior/components/swim_idle.md
+            - <code>minecraft:behavior.swim_up_for_breath</code>: refs/data-driven/blockception/entity/behavior/components/swim_up_for_breath.md
             - <code>minecraft:behavior.swim_wander</code>: refs/data-driven/blockception/entity/behavior/components/swim_wander.md
             - <code>minecraft:behavior.swim_with_entity</code>: refs/data-driven/blockception/entity/behavior/components/swim_with_entity.md
             - <code>minecraft:behavior.swoop_attack</code>: refs/data-driven/blockception/entity/behavior/components/swoop_attack.md
             - <code>minecraft:behavior.take_flower</code>: refs/data-driven/blockception/entity/behavior/components/take_flower.md
+            - <code>minecraft:behavior.teleport_to_owner</code>: refs/data-driven/blockception/entity/behavior/components/teleport_to_owner.md
+            - <code>minecraft:behavior.move_around_target</code>: refs/data-driven/blockception/entity/behavior/components/move_around_target.md
             - <code>minecraft:behavior.target_when_pushed</code>: refs/data-driven/blockception/entity/behavior/components/target_when_pushed.md
             - <code>minecraft:behavior.tempt</code>: refs/data-driven/blockception/entity/behavior/components/tempt.md
             - <code>minecraft:behavior.timer_flag_1</code>: refs/data-driven/blockception/entity/behavior/components/timer_flag.md
@@ -891,9 +899,6 @@ nav:
       - 交易:
         - 定义:
           - refs/data-driven/blockception/trading/definition/index.md
-      - 功能域:
-        - 定义:
-          - refs/data-driven/blockception/volume/definition/index.md
       - 对话:
         - 定义:
           - refs/data-driven/blockception/dialogue/definition/index.md

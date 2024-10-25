@@ -1,6 +1,6 @@
 # Geometry
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 The description identifier of the geometry file to use to render this block. This identifier must match an existing geometry identifier in any of the currently loaded resource packs.
 

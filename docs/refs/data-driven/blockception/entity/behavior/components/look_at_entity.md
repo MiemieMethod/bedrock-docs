@@ -1,6 +1,6 @@
 # Look At Entity
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to look at nearby entities.
 
@@ -51,7 +51,7 @@ integer
 //// define
 `probability`：<samp>number</samp>
 
-- The probability of looking at the target. A value of 1.00 is 100%
+- The probability of looking at the target. A value of 1.00 is 100%.
 
 
 ////
@@ -60,7 +60,7 @@ integer
 //// define
 `look_time`：<samp>range_number_type</samp> {#assets.schemas-blockception.behavior.entities.format.types.range_number_type.json}
 
-- Time range to look at the entity.
+- Time range to look at the nearest entity.
 
 
 ////

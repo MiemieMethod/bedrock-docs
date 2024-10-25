@@ -1,6 +1,6 @@
 # Rideable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Determines whether this entity can be ridden. Allows specifying the different seat positions and quantity.
 

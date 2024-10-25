@@ -1,6 +1,6 @@
 # Persistent
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines whether an entity should be persistent in the game world.
 

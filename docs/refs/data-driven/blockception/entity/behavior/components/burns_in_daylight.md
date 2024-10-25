@@ -1,6 +1,6 @@
 # Burns In Daylight
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Specifies if/how a mob burns in daylight.
 

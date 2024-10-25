@@ -1,6 +1,6 @@
 # Projectile
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Compels the item shoot, like an arrow.  Pair with minecraft:shooter for dispensers or as ammunition.  Pair with minecraft:throwable to set the entity spawned.
 

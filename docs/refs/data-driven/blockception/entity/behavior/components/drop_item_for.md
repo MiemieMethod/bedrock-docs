@@ -1,6 +1,6 @@
 # Drop Item For
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to move toward a target, and drop an item near the target. This goal requires a "minecraft:navigation" to execute.
 

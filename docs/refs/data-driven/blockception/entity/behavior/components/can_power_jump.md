@@ -1,6 +1,6 @@
 # Can Power Jump
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to power jump like the horse does in vanilla.
 

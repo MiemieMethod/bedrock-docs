@@ -1,6 +1,6 @@
 # Hurt By Target
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to target another mob that hurts them.
 

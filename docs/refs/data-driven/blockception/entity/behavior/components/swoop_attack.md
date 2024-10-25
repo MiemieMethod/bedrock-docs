@@ -1,6 +1,6 @@
 # Swoop Attack
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to move to attack a target. The goal ends if it has a horizontal collision or gets hit. Built to be used with flying mobs.
 

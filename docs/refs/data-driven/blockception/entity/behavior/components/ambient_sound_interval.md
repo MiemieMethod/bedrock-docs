@@ -1,6 +1,6 @@
 # Ambient Sound Interval
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Sets the entity's delay between playing its ambient sound.
 
@@ -15,7 +15,7 @@ ambient_sound_interval:
     object "<any array element>" : opt
     {
       string "condition" : opt
-      sound_event "event_name"
+      string "event_name" : opt
     }
   }
   number "range" : opt
@@ -64,23 +64,12 @@ ambient_sound_interval:
 
 
 ////// define
-`event_name`：<samp>sound_event</samp> {#assets.schemas-blockception.general.sound_event.json}
+`event_name`：<samp>string</samp>
 
 - Level sound event to be played as the ambient sound.
 
 
 //////
-
-```mcschema
-sound_event:
-string
-
-```
-
-////// html | div.result
-
-//////
-
 
 
 /////

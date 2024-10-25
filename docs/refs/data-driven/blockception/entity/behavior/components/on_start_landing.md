@@ -1,6 +1,6 @@
 # On Start Landing
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Only usable by the Ender Dragon. Adds a trigger to call when this entity lands.
 

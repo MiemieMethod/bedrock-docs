@@ -1,6 +1,6 @@
 # 未命名
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 
 
@@ -35,7 +35,7 @@ entity:
       identifier "identifier"
       object "materials" : opt
       {
-        string "<any object property>" : opt
+        material "<any object property>"
       }
       string "min_engine_version" : opt
       object "particle_effects" : opt
@@ -261,12 +261,23 @@ string
 
 ////// html | div.result
 /////// define
-`<any object property>`：<samp>string</samp>
+`<any object property>`：<samp>material</samp> {#assets.schemas-blockception.general.vanilla.material.json}
 
 - Material reference.
 
 
 ///////
+
+```mcschema
+material:
+string
+
+```
+
+/////// html | div.result
+
+///////
+
 
 
 //////
@@ -611,7 +622,7 @@ entity:
       identifier "identifier"
       object "materials" : opt
       {
-        string "<any object property>" : opt
+        material "<any object property>"
       }
       string "min_engine_version" : opt
       object "particle_effects" : opt
@@ -828,7 +839,7 @@ string
 
 ////// html | div.result
 /////// define
-`<any object property>`：<samp>string</samp>
+`<any object property>`：<samp>[material](#assets.schemas-blockception.general.vanilla.material.json)</samp>
 
 - Material reference.
 

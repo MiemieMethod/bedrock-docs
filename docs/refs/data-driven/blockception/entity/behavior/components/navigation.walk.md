@@ -1,6 +1,6 @@
 # Navigation Walk
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to generate paths by walking around and jumping up and down a block like regular mobs.
 

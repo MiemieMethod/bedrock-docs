@@ -1,6 +1,6 @@
 # Melee Box Attack
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Permits an entity to deal damage through a melee attack with reach calculations based on bounding boxes.
 

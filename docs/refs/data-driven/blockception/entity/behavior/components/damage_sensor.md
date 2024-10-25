@@ -1,6 +1,6 @@
 # Damage Sensor
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines what events to call when this entity is damaged by specific entities or items.
 

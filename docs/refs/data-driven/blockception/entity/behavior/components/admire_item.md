@@ -1,6 +1,6 @@
 # Admire Item
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Enables the mob to admire items that have been configured as admirable. Must be used in combination with the admire_item component.
 

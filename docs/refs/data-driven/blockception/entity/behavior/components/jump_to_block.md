@@ -1,6 +1,6 @@
 # Jump To Block
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows an entity to jump to another random block.
 

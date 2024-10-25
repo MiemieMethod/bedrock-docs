@@ -1,6 +1,6 @@
 # Fertilize Farm Block
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to search within an area for a growable crop block. If found, the mob will use any available fertilizer in their inventory on the crop. This goal will not execute if the mob does not have a fertilizer item in its inventory.
 

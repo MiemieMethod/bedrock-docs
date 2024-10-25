@@ -1,6 +1,6 @@
 # Repairable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Repairable item component: how much damage can this item repair, what items can repair it.
 

@@ -1,6 +1,6 @@
 # Home
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Saves a home pos for when the the entity is spawned.
 

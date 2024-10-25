@@ -1,6 +1,6 @@
 # Cooldown
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Cool down time for a component. After you use an item it becomes unusable for the duration specified by the `cool down time` setting in this component.
 

@@ -1,6 +1,6 @@
 # Offer Flower
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to offer the player a flower like the Iron Golem does.
 

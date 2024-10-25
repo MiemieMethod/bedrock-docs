@@ -1,6 +1,6 @@
 # Inside Block Notifier
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Verifies whether the entity is inside any of the listed blocks.
 

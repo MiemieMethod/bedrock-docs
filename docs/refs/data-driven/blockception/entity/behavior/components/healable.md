@@ -1,6 +1,6 @@
 # Healable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the interactions with this entity for healing it.
 
@@ -20,7 +20,7 @@ healable:
       descriptor "item"
       object "effects" : opt
       {
-        string "name" : opt
+        effect "name"
         integer "duration" : opt
         integer "amplifier" : opt
       }
@@ -238,12 +238,23 @@ descriptor:
 
 ////// html | div.result
 /////// define
-`name`：<samp>string</samp>
+`name`：<samp>effect</samp> {#assets.schemas-blockception.general.vanilla.effect.json}
 
-- UNDOCUMENTED.
+- Effect name.
 
 
 ///////
+
+```mcschema
+effect:
+string
+
+```
+
+/////// html | div.result
+
+///////
+
 
 
 /////// define

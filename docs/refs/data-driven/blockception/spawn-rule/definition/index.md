@@ -1,6 +1,6 @@
 # Spawn Rules
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Data-Driven spawning allows you to adjust the spawn conditions of mobs.
 

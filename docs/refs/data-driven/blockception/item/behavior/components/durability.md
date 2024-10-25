@@ -1,6 +1,6 @@
 # Durability
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Durability item component: how much damage can this item take before breaking.
 

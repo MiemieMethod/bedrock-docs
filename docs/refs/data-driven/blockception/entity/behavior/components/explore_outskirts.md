@@ -1,6 +1,6 @@
 # Explore Outskirts
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to first travel to a random point on the outskirts of the village, and then explore random points within a small distance. This goal requires "minecraft:dweller" and "minecraft:navigation" to execute.
 

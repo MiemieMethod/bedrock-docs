@@ -1,6 +1,6 @@
 # Equippable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines an entity's behavior for having items equipped to it.
 

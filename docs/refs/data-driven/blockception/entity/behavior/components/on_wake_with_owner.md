@@ -1,6 +1,6 @@
 # On Wake With Owner
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Adds a trigger to call when this pet's owner awakes after sleeping with the pet.
 

@@ -1,6 +1,6 @@
 # Destructible By Explosion
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Describes the destructible by explosion properties for this block. If set to true, the block will have the default explosion resistance. If set to false, this block is indestructible by explosion. If the component is omitted, the block will have the default explosion resistance.
 

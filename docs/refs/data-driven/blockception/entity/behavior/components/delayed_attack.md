@@ -1,6 +1,6 @@
 # Delayed Attack
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows an entity to attack, while also delaying the damage-dealt until a specific time in the attack animation.
 

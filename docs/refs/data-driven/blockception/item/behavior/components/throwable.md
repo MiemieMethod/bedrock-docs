@@ -1,6 +1,6 @@
 # Throwable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Throwable item component. Throwable items, such as a snowball.
 

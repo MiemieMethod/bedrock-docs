@@ -1,6 +1,6 @@
 # Target Nearby Sensor
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the entity's range within which it can see or sense other entities to target them.
 

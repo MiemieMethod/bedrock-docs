@@ -1,6 +1,6 @@
 # Spell Effects
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines what mob effects to add and remove to the entity when adding this component.
 
@@ -11,14 +11,14 @@ spell_effects:
 {
   array "add_effects" : opt
   {
-    string "<any array element>" : opt
+    effect "<any array element>"
     object "<any array element>" : opt
     {
       integer "amplifier" : opt
       boolean "ambient" : opt
       number "duration" : opt
       boolean "display_on_screen_animation" : opt
-      string "effect" : opt
+      effect "effect"
       boolean "visible" : opt
     }
   }
@@ -44,10 +44,21 @@ spell_effects:
 
 //// html | div.result
 ///// define
-`<any array element>`：<samp>string</samp>
+`<any array element>`：<samp>effect</samp> {#assets.schemas-blockception.general.vanilla.effect.json}
 
 
 /////
+
+```mcschema
+effect:
+string
+
+```
+
+///// html | div.result
+
+/////
+
 
 
 ///// define
@@ -96,7 +107,7 @@ spell_effects:
 
 
 ////// define
-`effect`：<samp>string</samp>
+`effect`：<samp>[effect](#assets.schemas-blockception.general.vanilla.effect.json)</samp>
 
 - The string identifier of the status effect to add. These are the same as used in the /effect command.
 

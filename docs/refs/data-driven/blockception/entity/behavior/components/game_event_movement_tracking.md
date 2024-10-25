@@ -1,6 +1,6 @@
 # Game Event Movement Tracking
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows an entity to emit `entityMove`, `swim` and `flap` game events, depending on the block the entity is moving through. It is added by default to every mob. Add it again to override its behavior.
 

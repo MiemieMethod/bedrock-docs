@@ -1,6 +1,6 @@
 # Dragonchargeplayer
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to attack a player by charging at them. The player is chosen by the "minecraft:behavior.dragonscanning". Note: This behavior can only be used by the ender_dragon entity type.
 

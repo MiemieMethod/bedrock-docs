@@ -1,6 +1,6 @@
 # UI Texture File
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 The file that specifies either 9slice texture or Aseprite flipbook.
 

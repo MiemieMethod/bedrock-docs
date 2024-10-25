@@ -1,8 +1,8 @@
 # Item Controllable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
-Efines what items can be used to control this entity while ridden.
+Defines what items can be used to control this entity while ridden.
 
 ## 架构
 

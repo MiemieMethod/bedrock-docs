@@ -1,6 +1,6 @@
 # Selection Box
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the area of the block that is selected by the player's cursor. If set to true, default values are used. If set to false, this block is not selectable by the player's cursor. If this component is omitted, default values are used.
 

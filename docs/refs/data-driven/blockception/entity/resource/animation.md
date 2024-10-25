@@ -1,6 +1,6 @@
 # Actor Animation
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 The RP animation that changes an actors models, or molang data.
 
@@ -9,7 +9,7 @@ The RP animation that changes an actors models, or molang data.
 ```mcschema
 actor_animation:
 {
-  format_version "format_version"
+  string "format_version" : opt
   object "animations" : opt
   {
     object "^animation\.[a-z\.]+" : opt
@@ -129,21 +129,10 @@ actor_animation:
 
 /// html | div.result
 //// define
-`format_version`：<samp>format_version</samp> {#assets.schemas-blockception.general.format_version.json}
+`format_version`：<samp>string</samp>
 
 
 ////
-
-```mcschema
-format_version:
-string
-
-```
-
-//// html | div.result
-
-////
-
 
 
 //// define

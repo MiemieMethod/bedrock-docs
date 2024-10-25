@@ -1,6 +1,6 @@
 # Navigation Hover
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to generate paths in the air like the vanilla Bees do. Keeps them from falling out of the skies and doing predictive movement.
 

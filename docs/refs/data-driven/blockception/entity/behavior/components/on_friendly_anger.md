@@ -1,6 +1,6 @@
 # On Friendly Anger
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Adds a trigger that will run when a nearby entity of the same type as this entity becomes Angry.
 

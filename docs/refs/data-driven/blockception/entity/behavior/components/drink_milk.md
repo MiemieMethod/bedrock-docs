@@ -1,6 +1,6 @@
 # Drink Milk
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to drink milk based on specified environment conditions.
 

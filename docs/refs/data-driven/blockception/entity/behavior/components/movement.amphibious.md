@@ -1,6 +1,6 @@
 # Movement Amphibious
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 This move control allows the mob to swim in water and walk on land.
 

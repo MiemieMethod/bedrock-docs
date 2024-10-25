@@ -1,6 +1,6 @@
 # Stay While Sitting
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to stay put while it is in a sitting state instead of doing something else.
 

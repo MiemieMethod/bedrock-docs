@@ -1,10 +1,21 @@
 # Damage
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 The damage component determines how much extra damage the item does on attack.
 
 ## 架构
+
+```mcschema
+minecraft:damage:
+number
+
+```
+
+/// html | div.result
+
+///
+
 
 ```mcschema
 minecraft:damage:
@@ -25,4 +36,5 @@ minecraft:damage:
 
 
 ///
+
 

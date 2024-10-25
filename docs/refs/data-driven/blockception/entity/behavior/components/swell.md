@@ -1,6 +1,6 @@
 # Swell
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the creeper to swell up when a player is nearby. It can only be used by Creepers.
 

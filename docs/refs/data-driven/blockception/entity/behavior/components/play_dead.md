@@ -1,6 +1,6 @@
 # Play Dead
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to play dead when attacked by other entities. When playing dead, other entities will not target this mob.
 

@@ -1,6 +1,6 @@
 # Enderman Take Block
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the enderman to take a block and carry it around. Can only be used by Endermen.
 

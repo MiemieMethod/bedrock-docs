@@ -1,6 +1,6 @@
 # Crafting Table
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Makes your block into a custom crafting table which enables the crafting table UI and the ability to craft recipes.
 

@@ -1,6 +1,6 @@
 # Silverfish Merge With Stone
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to go into stone blocks like Silverfish do. Currently it can only be used by Silverfish.
 

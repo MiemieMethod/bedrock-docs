@@ -1,6 +1,6 @@
 # Damage Over Time
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Applies defined amount of damage to the entity at specified intervals.
 

@@ -1,6 +1,6 @@
 # Global Variables
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Global variables that can be used in any JSON file.
 

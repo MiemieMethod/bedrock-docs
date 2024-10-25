@@ -1,6 +1,6 @@
 # Projectile
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to be a thrown entity.
 
@@ -17,6 +17,11 @@ projectile:
   string "filter" : opt
   boolean "fire_affected_by_griefing" : opt
   number "gravity" : opt
+  boolean "hit_nearest_passenger" : opt
+  array "ignored_entities" : opt
+  {
+    string "<any array element>" : opt
+  }
   sound_event "hit_ground_sound"
   sound_event "hit_sound"
   boolean "homing" : opt
@@ -93,7 +98,7 @@ projectile:
       integer "durationeasy" : opt
       integer "durationhard" : opt
       integer "durationnormal" : opt
-      string "effect" : opt
+      effect "effect"
       boolean "visible" : opt
     }
     number "on_fire_time" : opt
@@ -222,6 +227,36 @@ projectile:
 `gravity`：<samp>number</samp>
 
 - The gravity applied to this entity when thrown. When this actor is not on the ground, subtracts this amount from the actors change in vertical position every tick. The higher the value, the faster the entity falls.
+
+
+////
+
+
+//// define
+`hit_nearest_passenger`：<samp>boolean</samp>
+
+- If true, when hitting a vehicle, and there's at least one passenger in the vehicle, the damage will be dealt to the passenger closest to the projectile impact point. If there are no passengers, this setting does nothing.
+
+
+////
+
+
+//// define
+`ignored_entities`：<samp>array</samp>
+
+- [EXPERIMENTAL] An array of strings defining the types of entities that this entity does not collide with.
+
+
+////
+
+<div class="language-text highlight"><span class="filename"><code>ignored_entities</code></span><pre id="__code_1"><span></span></pre></div>
+
+//// html | div.result
+///// define
+`<any array element>`：<samp>string</samp>
+
+
+/////
 
 
 ////
@@ -900,12 +935,23 @@ event:
 
 
 ////// define
-`effect`：<samp>string</samp>
+`effect`：<samp>effect</samp> {#assets.schemas-blockception.general.vanilla.effect.json}
 
 - The identifier of the mob entity to affect.
 
 
 //////
+
+```mcschema
+effect:
+string
+
+```
+
+////// html | div.result
+
+//////
+
 
 
 ////// define

@@ -1,6 +1,6 @@
 # Mount Pathing
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to move around on its own while mounted seeking a target to attack.
 

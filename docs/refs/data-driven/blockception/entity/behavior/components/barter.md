@@ -1,6 +1,6 @@
 # Barter
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Enables the mob to barter for items that have been configured as barter currency. Must be used in combination with the barter component
 

@@ -1,10 +1,21 @@
 # Can Destroy In Creative
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 The can destroy in creative component determines if the item will break blocks in creative when swinging.
 
 ## 架构
+
+```mcschema
+minecraft:can_destroy_in_creative:
+boolean
+
+```
+
+/// html | div.result
+
+///
+
 
 ```mcschema
 minecraft:can_destroy_in_creative:
@@ -25,4 +36,5 @@ minecraft:can_destroy_in_creative:
 
 
 ///
+
 

@@ -1,6 +1,6 @@
 # Wither Target Highest Damage
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the wither to focus its attacks on whichever mob has dealt the most damage to it. Can only be used by the Wither Boss.
 

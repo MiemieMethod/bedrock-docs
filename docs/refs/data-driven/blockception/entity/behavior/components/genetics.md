@@ -1,6 +1,6 @@
 # Genetics
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the way a mob's genes and alleles are passed on to it's offspring, and how those traits manifest in the child. Compatible parent genes are crossed together, the alleles are handed down from the parents to the child, and any matching genetic variants fire off JSON events to modify the child and express the traits.
 

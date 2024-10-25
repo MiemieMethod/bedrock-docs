@@ -1,6 +1,6 @@
 # Follow Owner
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to follow the player that owns them.
 
@@ -10,6 +10,7 @@ Allows the mob to follow the player that owns them.
 follow_owner:
 {
   priority "priority"
+  number "post_teleport_distance" : opt
   speed_multiplier "speed_multiplier"
   boolean "can_teleport" : opt
   boolean "ignore_vibration" : opt
@@ -37,6 +38,15 @@ integer
 
 ////
 
+
+
+//// define
+`post_teleport_distance`：<samp>number</samp>
+
+- Defines how far (in blocks) the entity will be from its owner after teleporting. If not specified, it defaults to "stop_distance" + 1, allowing the entity to seamlessly resume navigation.
+
+
+////
 
 
 //// define

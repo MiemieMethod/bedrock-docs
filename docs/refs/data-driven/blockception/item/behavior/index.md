@@ -1,6 +1,6 @@
 # Item
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Minecraft items
 
@@ -58,12 +58,17 @@ items:
   {
     minecraft:allow_off_hand "minecraft:allow_off_hand"
     minecraft:block_placer "minecraft:block_placer"
+    minecraft:bundle_interaction "minecraft:bundle_interaction"
     minecraft:can_destroy_in_creative "minecraft:can_destroy_in_creative"
     minecraft:cooldown "minecraft:cooldown"
+    custom_components "minecraft:custom_components"
     minecraft:damage "minecraft:damage"
+    minecraft:damage_absorption "minecraft:damage_absorption"
     minecraft:digger "minecraft:digger"
     minecraft:display_name "minecraft:display_name"
+    764203503 "minecraft:durability_sensor"
     minecraft:durability "minecraft:durability"
+    minecraft:dyeable "minecraft:dyeable"
     minecraft:enchantable "minecraft:enchantable"
     minecraft:entity_placer "minecraft:entity_placer"
     minecraft:food "minecraft:food"
@@ -75,10 +80,12 @@ items:
     minecraft:max_stack_size "minecraft:max_stack_size"
     minecraft:projectile "minecraft:projectile"
     minecraft:record "minecraft:record"
+    minecraft:rarity "minecraft:rarity"
     minecraft:repairable "minecraft:repairable"
     minecraft:shooter "minecraft:shooter"
     minecraft:should_despawn "minecraft:should_despawn"
     minecraft:stacked_by_data "minecraft:stacked_by_data"
+    minecraft:storage_item "minecraft:storage_item"
     minecraft:tags "minecraft:tags"
     minecraft: "minecraft:throwable"
     minecraft:use_animation "minecraft:use_animation"
@@ -88,7 +95,6 @@ items:
     {
     }
   }
-  events "events"
 }
 
 ```
@@ -224,6 +230,14 @@ string
 //////
 
 ////// define
+`minecraft:bundle_interaction`：<samp>minecraft:bundle_interaction</samp>
+
+- [`minecraft:bundle_interaction`](./components/bundle_interaction.md)组件。The components of this item.
+
+
+//////
+
+////// define
 `minecraft:can_destroy_in_creative`：<samp>minecraft:can_destroy_in_creative</samp>
 
 - [`minecraft:can_destroy_in_creative`](./components/can_destroy_in_creative.md)组件。The components of this item.
@@ -240,9 +254,25 @@ string
 //////
 
 ////// define
+`minecraft:custom_components`：<samp>custom_components</samp>
+
+- [`minecraft:custom_components`](./components/custom_components.md)组件。The components of this item.
+
+
+//////
+
+////// define
 `minecraft:damage`：<samp>minecraft:damage</samp>
 
 - [`minecraft:damage`](./components/damage.md)组件。The components of this item.
+
+
+//////
+
+////// define
+`minecraft:damage_absorption`：<samp>minecraft:damage_absorption</samp>
+
+- [`minecraft:damage_absorption`](./components/damage_absorption.md)组件。The components of this item.
 
 
 //////
@@ -264,9 +294,25 @@ string
 //////
 
 ////// define
+`minecraft:durability_sensor`：<samp>764203503</samp>
+
+- [`minecraft:durability_sensor`](./components/durability_sensor.md)组件。The components of this item.
+
+
+//////
+
+////// define
 `minecraft:durability`：<samp>minecraft:durability</samp>
 
 - [`minecraft:durability`](./components/durability.md)组件。The components of this item.
+
+
+//////
+
+////// define
+`minecraft:dyeable`：<samp>minecraft:dyeable</samp>
+
+- [`minecraft:dyeable`](./components/dyeable.md)组件。The components of this item.
 
 
 //////
@@ -360,6 +406,14 @@ string
 //////
 
 ////// define
+`minecraft:rarity`：<samp>minecraft:rarity</samp>
+
+- [`minecraft:rarity`](./components/rarity.md)组件。The components of this item.
+
+
+//////
+
+////// define
 `minecraft:repairable`：<samp>minecraft:repairable</samp>
 
 - [`minecraft:repairable`](./components/repairable.md)组件。The components of this item.
@@ -387,6 +441,14 @@ string
 `minecraft:stacked_by_data`：<samp>minecraft:stacked_by_data</samp>
 
 - [`minecraft:stacked_by_data`](./components/stacked_by_data.md)组件。The components of this item.
+
+
+//////
+
+////// define
+`minecraft:storage_item`：<samp>minecraft:storage_item</samp>
+
+- [`minecraft:storage_item`](./components/storage_item.md)组件。The components of this item.
 
 
 //////
@@ -445,183 +507,6 @@ string
 
 
 /////
-
-
-///// define
-`events`：<samp>events</samp> {#assets.schemas-blockception.behavior.items.format.events.json}
-
-
-/////
-
-```mcschema
-events:
-{
-  object "on_consume" : opt
-  {
-    array "sequence" : opt
-    {
-      object "<any array element>" : opt
-      {
-      }
-    }
-    array "randomize" : opt
-    {
-      object "<any array element>" : opt
-      {
-      }
-    }
-    object "run_command" : opt
-    {
-      array "command" : opt
-      {
-        string "<any array element>" : opt
-      }
-      string "target" : opt
-    }
-  }
-  object "<any object property>" : opt
-  {
-  }
-}
-
-```
-
-///// html | div.result
-////// define
-`on_consume`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>on_consume</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-/////// define
-`sequence`：<samp>array</samp>
-
-- UNDOCUMENTED.
-
-
-///////
-
-<div class="language-text highlight"><span class="filename"><code>sequence</code></span><pre id="__code_1"><span></span></pre></div>
-
-/////// html | div.result
-//////// define
-`<any array element>`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-////////
-
-<div class="language-text highlight"><span class="filename"><code>&lt;any array element&gt;</code></span><pre id="__code_1"><span></span></pre></div>
-
-//////// html | div.result
-
-////////
-
-
-///////
-
-
-/////// define
-`randomize`：<samp>array</samp>
-
-- UNDOCUMENTED.
-
-
-///////
-
-<div class="language-text highlight"><span class="filename"><code>randomize</code></span><pre id="__code_1"><span></span></pre></div>
-
-/////// html | div.result
-//////// define
-`<any array element>`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-////////
-
-<div class="language-text highlight"><span class="filename"><code>&lt;any array element&gt;</code></span><pre id="__code_1"><span></span></pre></div>
-
-//////// html | div.result
-
-////////
-
-
-///////
-
-
-/////// define
-`run_command`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-///////
-
-<div class="language-text highlight"><span class="filename"><code>run_command</code></span><pre id="__code_1"><span></span></pre></div>
-
-/////// html | div.result
-//////// define
-`command`：<samp>array</samp>
-
-- UNDOCUMENTED.
-
-
-////////
-
-<div class="language-text highlight"><span class="filename"><code>command</code></span><pre id="__code_1"><span></span></pre></div>
-
-//////// html | div.result
-///////// define
-`<any array element>`：<samp>string</samp>
-
-- UNDOCUMENTED.
-
-
-/////////
-
-
-////////
-
-
-//////// define
-`target`：<samp>string</samp>
-
-- UNDOCUMENTED.
-
-
-////////
-
-
-///////
-
-
-//////
-
-
-////// define
-`<any object property>`：<samp>object</samp>
-
-- UNDOCUMENTED.
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>&lt;any object property&gt;</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
-
-/////
-
 
 
 ////

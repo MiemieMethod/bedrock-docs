@@ -1,6 +1,6 @@
 # Guardian Attack
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to use a laser beam attack. Can only be used by Guardians and Elder Guardians.
 

@@ -1,6 +1,6 @@
 # Grows Crop
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Could increase crop growth when entity walks over crop.
 

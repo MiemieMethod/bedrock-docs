@@ -1,6 +1,6 @@
 # Stalk And Pounce On Target
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows an entity to stalk a specific target. Once within range of the target, the entity will then leap at the target and deal damage based upon its attack attribute.
 

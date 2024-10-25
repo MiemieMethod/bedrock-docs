@@ -1,6 +1,6 @@
 # Avoid Mob Type
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to run away from other entities that meet the criteria specified.
 

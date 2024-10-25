@@ -1,6 +1,6 @@
 # Breedable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the way an entity can get into the `love` state.
 
@@ -280,7 +280,7 @@ descriptor:
 
 
 ///// define
-`breed_event`：<samp>event_object</samp> {#assets.schemas-blockception.behavior.entities.format.types.event_object_filters.json}
+`breed_event`：<samp>event_object</samp> {#assets.schemas-blockception.behavior.entities.format.types.event_object.json}
 
 - Event to run when this entity breeds.
 
@@ -290,14 +290,23 @@ descriptor:
 ```mcschema
 event_object:
 {
+  filters "filters"
   string "event" : opt
   string "target" : opt
-  filters "filters"
 }
 
 ```
 
 ///// html | div.result
+////// define
+`filters`：<samp>filters</samp>
+
+- 一个[过滤器组](../filter.md)。
+
+
+//////
+
+
 ////// define
 `event`：<samp>string</samp>
 
@@ -311,15 +320,6 @@ event_object:
 `target`：<samp>string</samp>
 
 - The target of the event.
-
-
-//////
-
-
-////// define
-`filters`：<samp>filters</samp>
-
-- 一个[过滤器组](../filter.md)。
 
 
 //////

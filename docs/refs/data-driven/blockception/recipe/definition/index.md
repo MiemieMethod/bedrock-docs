@@ -1,6 +1,6 @@
 # Recipe
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Minecraft recipe
 
@@ -610,7 +610,6 @@ shapeless:
   definition "description"
   tags "tags"
   unlock "unlock"
-  item "ingredients"
   array "ingredients" : opt
   {
     item "<any array element>"
@@ -649,15 +648,6 @@ shapeless:
 
 
 ///// define
-`ingredients`：<samp>[item](#assets.schemas-blockception.behavior.recipes.types.base types.item.json)</samp>
-
-- Items used as input (without a shape) for the recipe.
-
-
-/////
-
-
-///// define
 `ingredients`：<samp>array</samp>
 
 - Items used as input (without a shape) for the recipe.
@@ -676,7 +666,6 @@ shapeless:
 
 
 /////
-
 
 
 ///// define

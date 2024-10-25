@@ -1,6 +1,6 @@
 # Panic
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to enter the panic state, which makes it run around and away from the damage source that made it enter this state.
 

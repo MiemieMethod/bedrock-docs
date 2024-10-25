@@ -1,6 +1,6 @@
 # Entity Sensor
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 A component that fires an event when a set of conditions are met by other entities within the defined range.
 

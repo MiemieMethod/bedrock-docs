@@ -1,6 +1,6 @@
 # Timer Flag
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Fires an event when this behavior starts, then waits for a duration before stopping. When stopping due to that timeout or due to being interrupted by another behavior, fires another event. query.timer_flag_<n> will return 1.0 on both the client and server when this behavior is running, and 0.0 otherwise.
 

@@ -1,10 +1,21 @@
 # Use Animation
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 This component determines which animation plays when using the item.
 
 ## 架构
+
+```mcschema
+minecraft:use_animation:
+string
+
+```
+
+/// html | div.result
+
+///
+
 
 ```mcschema
 minecraft:use_animation:
@@ -25,4 +36,5 @@ minecraft:use_animation:
 
 
 ///
+
 

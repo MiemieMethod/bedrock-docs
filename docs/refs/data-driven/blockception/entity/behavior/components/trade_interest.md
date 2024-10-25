@@ -1,6 +1,6 @@
 # Trade Interest
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to look at a player that is holding a tradable item.
 

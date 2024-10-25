@@ -1,6 +1,6 @@
 # Croak
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 [EXPERIMENTAL BEHAVIOR] Allows the entity to croak at a random time interval with configurable conditions.
 

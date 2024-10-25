@@ -1,6 +1,6 @@
 # Snacking
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to take a load off and snack on food that it found nearby.
 

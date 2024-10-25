@@ -1,6 +1,6 @@
 # Giveable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines sets of items that can be used to trigger events when used on this entity. The item will also be taken and placed in the entity's inventory.
 

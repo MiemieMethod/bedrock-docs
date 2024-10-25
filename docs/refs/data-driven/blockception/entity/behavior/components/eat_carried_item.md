@@ -1,6 +1,6 @@
 # Eat Carried Item
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 If the mob is carrying a food item, the mob will eat it and the effects will be applied to the mob.
 

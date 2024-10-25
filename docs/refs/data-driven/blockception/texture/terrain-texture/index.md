@@ -1,6 +1,6 @@
 # Terrain Texture File
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 An collection of texture definitions.
 
@@ -14,7 +14,7 @@ terrain_texture:
   string "resource_pack_name" : opt
   object "texture_data" : opt
   {
-    object "^[\w_\-\.]+$" : opt
+    object "^[a-z0-9_:\-]*$" : opt
     {
       string "textures" : opt
       object "textures" : opt
@@ -46,7 +46,7 @@ terrain_texture:
 //// define
 `num_mip_levels`：<samp>integer</samp>
 
-- UNDOCUMENTED.
+- Sets the number of mipmap levels for better texture quality at varying distances.
 
 
 ////
@@ -55,7 +55,7 @@ terrain_texture:
 //// define
 `padding`：<samp>integer</samp>
 
-- UNDOCUMENTED.
+- Adds buffer space to prevent textures from bleeding into each other.
 
 
 ////
@@ -82,14 +82,14 @@ terrain_texture:
 
 //// html | div.result
 ///// define
-`^[\w_\-\.]+$`：<samp>object</samp>
+`^[a-z0-9_:\-]*$`：<samp>object</samp>
 
 - UNDOCUMENTED.
 
 
 /////
 
-<div class="language-text highlight"><span class="filename"><code>^[\w_\-\.]+$</code></span><pre id="__code_1"><span></span></pre></div>
+<div class="language-text highlight"><span class="filename"><code>^[a-z0-9_:\-]*$</code></span><pre id="__code_1"><span></span></pre></div>
 
 ///// html | div.result
 ////// define

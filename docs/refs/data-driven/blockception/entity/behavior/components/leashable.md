@@ -1,6 +1,6 @@
 # Leashable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to be leashed and defines the conditions and events for this entity when is leashed.
 

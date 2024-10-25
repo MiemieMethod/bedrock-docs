@@ -1,6 +1,6 @@
 # Nearest Prioritized Attackable Target
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to check for and pursue the nearest valid target.
 

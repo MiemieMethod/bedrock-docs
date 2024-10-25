@@ -1,6 +1,6 @@
 # Flammable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Describes the flammable properties for this block. If set to true, default values are used. If set to false, or if this component is omitted, the block will not be able to catch on fire naturally from neighbors, but it can still be directly ignited.
 

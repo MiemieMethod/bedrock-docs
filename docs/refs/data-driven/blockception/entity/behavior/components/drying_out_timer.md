@@ -1,6 +1,6 @@
 # Drying Out Timer
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Adds a timer for drying out that will count down and fire `dried_out_event` or will stop as soon as the entity will get under rain or water and fire `stopped_drying_out_event`.
 

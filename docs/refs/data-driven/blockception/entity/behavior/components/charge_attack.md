@@ -1,6 +1,6 @@
 # Charge Attack
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to damage a target by using a running attack.
 

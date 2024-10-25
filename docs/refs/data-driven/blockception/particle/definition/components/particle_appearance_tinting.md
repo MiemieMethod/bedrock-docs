@@ -1,6 +1,6 @@
 # Particle Appearance Tinting Component For 1.10.0
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Color fields are special, they can be either an RGB, or a `#RRGGBB` field (or RGBA or `AARRGGBB`).  If RGB(A), the channels are from 0 to 1.  If the string `#AARRGGBB`, then the values are hex from 00 to ff.
 

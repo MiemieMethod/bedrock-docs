@@ -1,6 +1,6 @@
 # Eat Block
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity to consume a block, replace the eaten block with another block, and trigger an event as a result.
 

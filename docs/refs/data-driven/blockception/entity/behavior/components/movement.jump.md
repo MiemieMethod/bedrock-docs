@@ -1,6 +1,6 @@
 # Movement Jump
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Move control that causes the mob to jump as it moves with a specified delay between jumps.
 

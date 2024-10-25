@@ -1,6 +1,6 @@
 # Dragondeath
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Controls the entity's death state and animation. Note: This behavior can only be used by the ender_dragon entity type.
 

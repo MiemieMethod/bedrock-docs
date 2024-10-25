@@ -1,6 +1,6 @@
 # Hurt On Condition
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines a set of conditions under which an entity should take damage.
 

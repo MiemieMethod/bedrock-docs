@@ -1,6 +1,6 @@
 # Block Culling
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 A resource pack file that helps the system determine how to change the appearance of this block.
 

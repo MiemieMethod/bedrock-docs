@@ -1,6 +1,6 @@
 # Attack Cooldown
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Adds a cooldown to a mob. The intention of this cooldown is to be used to prevent the mob from attempting to aquire new attack targets.
 

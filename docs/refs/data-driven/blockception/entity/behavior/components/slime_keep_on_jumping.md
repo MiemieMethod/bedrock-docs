@@ -1,6 +1,6 @@
 # Slime Keep On Jumping
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Can only be used by Slimes and Magma Cubes. Allows the mob to continuously jump around like a slime.
 

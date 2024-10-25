@@ -1,6 +1,6 @@
 # Tick
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Mcfunction that are to be called per game tick (20 times per second).
 

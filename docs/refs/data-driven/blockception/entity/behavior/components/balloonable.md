@@ -1,6 +1,6 @@
 # Balloonable
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 allows the entity to have a balloon attached and defines the conditions and events for the entity when is ballooned.
 

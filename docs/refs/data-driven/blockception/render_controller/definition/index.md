@@ -1,6 +1,6 @@
 # Render Controllers
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 A collection of render controllers to apply.
 
@@ -9,7 +9,7 @@ A collection of render controllers to apply.
 ```mcschema
 render_controllers:
 {
-  format_version "format_version"
+  string "format_version" : opt
   object "render_controllers" : opt
   {
     object "^controller\.render\.[a-z\.]+" : opt
@@ -111,21 +111,10 @@ render_controllers:
 
 /// html | div.result
 //// define
-`format_version`：<samp>format_version</samp> {#assets.schemas-blockception.general.format_version.json}
+`format_version`：<samp>string</samp>
 
 
 ////
-
-```mcschema
-format_version:
-string
-
-```
-
-//// html | div.result
-
-////
-
 
 
 //// define

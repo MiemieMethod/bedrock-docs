@@ -1,6 +1,6 @@
 # Rail Sensor
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the behavior of the entity when the rail gets activated or deactivated.
 

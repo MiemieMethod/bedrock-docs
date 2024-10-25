@@ -1,6 +1,6 @@
 # Wither Random Attack Pos Goal
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the wither to launch random attacks. Can only be used by the Wither Boss.
 

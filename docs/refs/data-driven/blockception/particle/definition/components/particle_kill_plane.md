@@ -1,6 +1,6 @@
 # Particle Kill Plane Component For 1.10.0
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 A*x + B*y + C*z + D = 0
 with the parameters being [ A, B, C, D ].

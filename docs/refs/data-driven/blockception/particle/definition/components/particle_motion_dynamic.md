@@ -1,6 +1,6 @@
 # Particle Motion Dynamic Component For 1.10.0
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 This component specifies the dynamic properties of the particle, from a simulation standpoint what forces act upon the particle? These dynamics alter the velocity of the particle, which is a combination of the direction of the particle and the speed. Particle direction will always be in the direction of the velocity of the particle.
 

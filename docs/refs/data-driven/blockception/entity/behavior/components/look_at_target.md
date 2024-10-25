@@ -1,6 +1,6 @@
 # Look At Target
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to look at the entity they are targetting.
 
@@ -41,7 +41,7 @@ integer
 //// define
 `look_distance`：<samp>number</samp>
 
-- The distance in blocks from which the entity will look at.
+- The distance in blocks from which the entity will look at this mob's current target.
 
 
 ////
@@ -50,7 +50,7 @@ integer
 //// define
 `probability`：<samp>number</samp>
 
-- The probability of looking at the target. A value of 1.00 is 100%
+- The probability of looking at the target. A value of 1.00 is 100%.
 
 
 ////
@@ -59,7 +59,7 @@ integer
 //// define
 `look_time`：<samp>range_number_type</samp> {#assets.schemas-blockception.behavior.entities.format.types.range_number_type.json}
 
-- Time range to look at the entity.
+- Time range to look at this mob's current target.
 
 
 ////

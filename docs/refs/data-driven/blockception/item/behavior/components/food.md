@@ -1,6 +1,6 @@
 # Food
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 When an item has a food component, it becomes edible to the player.
 

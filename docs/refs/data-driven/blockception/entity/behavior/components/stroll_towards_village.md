@@ -1,6 +1,6 @@
 # Stroll Towards Village
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to move into a random location within a village within the search range.
 

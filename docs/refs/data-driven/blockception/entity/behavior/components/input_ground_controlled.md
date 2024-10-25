@@ -1,6 +1,6 @@
 # Input Ground Controlled
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 When configured as a rideable entity, the entity will be controlled using WASD controls.
 

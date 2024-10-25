@@ -1,6 +1,6 @@
 # Move Towards Restriction
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows Guardians, Iron Golems and Villagers to move within their pre-defined area that the mob should be restricted to. Other mobs don't have a restriction defined.
 

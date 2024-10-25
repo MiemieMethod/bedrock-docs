@@ -1,8 +1,8 @@
 # Sonic Boom
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
-[EXPERIMENTAL BEHAVIOR] Plays the provided sounds and activates the `SONIC BOOM` actor flag during the specified duration
+Plays the provided sounds and activates the `SONIC BOOM` actor flag during the specified duration
 
 ## 架构
 

@@ -1,6 +1,6 @@
 # Attribute
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Specifies the initial value of a specific attribute for an entity when spawned.
 

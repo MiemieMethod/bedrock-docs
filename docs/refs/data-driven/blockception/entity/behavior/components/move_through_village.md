@@ -1,6 +1,6 @@
 # Move Through Village
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Can only be used by Villagers. Allows the villagers to create paths around the village.
 

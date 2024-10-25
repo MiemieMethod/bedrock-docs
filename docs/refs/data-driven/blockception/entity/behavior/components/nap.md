@@ -1,6 +1,6 @@
 # Nap
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows mobs to occassionally stop and take a nap under certain conditions.
 

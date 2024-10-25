@@ -1,6 +1,6 @@
 # Move Towards Home Restriction
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows mobs with the home component to move toward their pre-defined area that the mob should be restricted to.
 

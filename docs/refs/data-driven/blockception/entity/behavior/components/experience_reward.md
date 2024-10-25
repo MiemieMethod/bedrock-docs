@@ -1,6 +1,6 @@
 # Experience Reward
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the amount of experience rewarded when the entity dies or is successfully bred.
 

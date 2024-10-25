@@ -1,6 +1,6 @@
 # Skin Id
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Skin ID value. Can be used to differentiate skins, such as base skins for villagers.
 

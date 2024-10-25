@@ -1,6 +1,6 @@
 # Swim With Entity
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the entity follow another entity. Both entities must be swimming and in water.
 

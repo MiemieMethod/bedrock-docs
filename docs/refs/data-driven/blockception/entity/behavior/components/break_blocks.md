@@ -1,6 +1,6 @@
 # Break Blocks
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Specifies the blocks that this entity can break as it moves around.
 

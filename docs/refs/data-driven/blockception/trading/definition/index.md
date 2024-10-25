@@ -1,6 +1,6 @@
 # Trading
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 UNDOCUMENTED.
 
@@ -44,7 +44,7 @@ trading:
                   array "functions" : opt
                   array "biomes" : opt
                   {
-                    item "<any array element>"
+                    biome "<any array element>"
                   }
                   integer "quantity" : opt
                   object "quantity" : opt
@@ -1643,6 +1643,39 @@ set_name:
 
 
 ```mcschema
+set_potion:
+{
+  string "function" : opt
+  string "id" : opt
+}
+
+```
+
+/////////// html | div.result
+//////////// define
+`function`：<samp>string</samp>
+
+- This function sets the potion type of compatible items with a potion id..
+
+
+////////////
+
+
+//////////// define
+`id`：<samp>string</samp>
+
+- ID of the potion to set.
+
+
+////////////
+
+
+///////////
+
+
+
+
+```mcschema
 specific_enchants:
 {
   string "function" : opt
@@ -1845,13 +1878,13 @@ specific_enchants:
 
 //////////// html | div.result
 ///////////// define
-`<any array element>`：<samp>item</samp> {#assets.schemas-blockception.general.biome_item.json}
+`<any array element>`：<samp>biome</samp> {#assets.schemas-blockception.general.vanilla.biome.json}
 
 
 /////////////
 
 ```mcschema
-item:
+biome:
 string
 
 ```

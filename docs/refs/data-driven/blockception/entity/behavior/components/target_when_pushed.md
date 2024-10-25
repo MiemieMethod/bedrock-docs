@@ -1,6 +1,6 @@
 # Target When Pushed
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows an entity to select a valid target entity that pushed it.
 

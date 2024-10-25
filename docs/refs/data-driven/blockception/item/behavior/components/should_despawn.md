@@ -1,10 +1,21 @@
 # Should Despawn
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Should despawn component determines if the item should eventually despawn while floating in the world
 
 ## 架构
+
+```mcschema
+minecraft:should_despawn:
+boolean
+
+```
+
+/// html | div.result
+
+///
+
 
 ```mcschema
 minecraft:should_despawn:
@@ -25,4 +36,5 @@ minecraft:should_despawn:
 
 
 ///
+
 

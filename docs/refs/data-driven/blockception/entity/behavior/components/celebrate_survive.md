@@ -1,6 +1,6 @@
 # Celebrate Survive
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to celebrate surviving a raid by shooting fireworks.
 

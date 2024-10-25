@@ -1,6 +1,6 @@
 # Loot Table
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 A minecraft loot table.
 
@@ -1621,6 +1621,39 @@ set_name:
 `name`：<samp>string</samp>
 
 - UNDOCUMENTED.
+
+
+//////////
+
+
+/////////
+
+
+
+
+```mcschema
+set_potion:
+{
+  string "function" : opt
+  string "id" : opt
+}
+
+```
+
+///////// html | div.result
+////////// define
+`function`：<samp>string</samp>
+
+- This function sets the potion type of compatible items with a potion id..
+
+
+//////////
+
+
+////////// define
+`id`：<samp>string</samp>
+
+- ID of the potion to set.
 
 
 //////////

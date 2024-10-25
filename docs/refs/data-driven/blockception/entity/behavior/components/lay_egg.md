@@ -1,6 +1,6 @@
 # Lay Egg
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to lay an egg block on a sand block if the mob is pregnant.
 
@@ -222,7 +222,7 @@ descriptor:
 //// define
 `lay_egg_sound`：<samp>sound_event</samp> {#assets.schemas-blockception.general.sound_event.json}
 
-- [EXPERIMENTAL] Sound event name for laying egg. Defaulted to lay_egg which is used for Turtles.
+- Sound event name for laying egg. Defaulted to lay_egg which is used for Turtles.
 
 
 ////
@@ -242,7 +242,7 @@ string
 //// define
 `lay_seconds`：<samp>number</samp>
 
-- [EXPERIMENTAL] Duration of the laying egg process in seconds.
+- Duration of the laying egg process in seconds.
 
 
 ////
@@ -373,7 +373,7 @@ array
 //// define
 `target_blocks`：<samp>array</samp>
 
-- [EXPERIMENTAL] Blocks that the mob can lay its eggs on top of.
+- Blocks that the mob can lay its eggs on top of.
 
 
 ////
@@ -394,7 +394,7 @@ array
 //// define
 `target_materials_above_block`：<samp>array</samp>
 
-- [EXPERIMENTAL] Types of materials that can exist above the target block. Valid types are Air, Water, and Lava.
+- Types of materials that can exist above the target block. Valid types are Air, Water, and Lava.
 
 
 ////
@@ -409,7 +409,7 @@ array
 //// define
 `use_default_animation`：<samp>boolean</samp>
 
-- [EXPERIMENTAL] Specifies if the default lay-egg animation should be played when the egg is placed or not.
+- Specifies if the default lay-egg animation should be played when the egg is placed or not.
 
 
 ////

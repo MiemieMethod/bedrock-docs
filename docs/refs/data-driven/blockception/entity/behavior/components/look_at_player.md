@@ -1,6 +1,6 @@
 # Look At Player
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to look at the player when the player is nearby.
 
@@ -73,7 +73,7 @@ integer
 //// define
 `probability`：<samp>number</samp>
 
-- The probability of looking at the target. A value of 1.00 is 100%
+- The probability of looking at the target. A value of 1.00 is 100%.
 
 
 ////
@@ -82,7 +82,7 @@ integer
 //// define
 `look_time`：<samp>array</samp>
 
-- Time range to look at the entity.
+- Time range to look at the nearest player.
 
 
 ////

@@ -1,6 +1,6 @@
 # Squid Move Away From Ground
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the squid to move away from ground blocks and back to water. Can only be used by the Squid.
 

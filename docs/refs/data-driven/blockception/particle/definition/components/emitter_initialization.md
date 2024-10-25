@@ -1,6 +1,6 @@
 # Emitter Initialization Component For 1.10.0
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 This component allows the emitter to run some Molang at creation, primarily to populate any Molang variables that get used later.
 

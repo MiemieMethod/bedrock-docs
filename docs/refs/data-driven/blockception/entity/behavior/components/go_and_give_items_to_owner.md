@@ -1,6 +1,6 @@
 # Go And Give Items To Owner
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 [EXPERIMENTAL BEHAVIOR] The entity will attempt to toss the items from its inventory to its owner.
 

@@ -1,6 +1,6 @@
 # Attack
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines an entity's melee attack and any additional effects on it.
 
@@ -10,7 +10,7 @@ Defines an entity's melee attack and any additional effects on it.
 attack:
 {
   range_number_type "damage"
-  string "effect_name" : opt
+  effect "effect_name"
   number "effect_duration" : opt
 }
 
@@ -102,12 +102,23 @@ range_number_type:
 
 
 //// define
-`effect_name`：<samp>string</samp>
+`effect_name`：<samp>effect</samp> {#assets.schemas-blockception.general.vanilla.effect.json}
 
 - Identifier of the status ailment to apply to an entity attacked by this entity's melee attack.
 
 
 ////
+
+```mcschema
+effect:
+string
+
+```
+
+//// html | div.result
+
+////
+
 
 
 //// define

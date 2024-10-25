@@ -1,6 +1,6 @@
 # Player Ride Tamed
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to be ridden by the player after being tamed.
 

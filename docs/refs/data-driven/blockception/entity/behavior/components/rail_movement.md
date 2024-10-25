@@ -1,6 +1,6 @@
 # Rail Movement
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Defines the entity's movement on the rails. An entity with this component is only allowed to move on the rail.
 

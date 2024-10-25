@@ -1,76 +1,94 @@
-# 未命名
+# Feature Rules
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
-
+Each feature rule controls exactly one feature and serves as the root of a chain of feature data.
 
 ## 架构
 
 ```mcschema
-0:
+feature_rules:
 {
-   "format_version" : opt
-  object "minecraft:feature_rules" : opt
-  {
-    object "description" : opt
-    {
-      identifier "identifier"
-      string "places_feature" : opt
-    }
-    object "conditions" : opt
-    {
-      string "placement_pass" : opt
-      filters "minecraft:biome_filter"
-    }
-    object "distribution" : opt
-    {
-      string "coordinate_eval_order" : opt
-      0 "iterations"
-      0 "scatter_chance"
-      object "scatter_chance" : opt
-      {
-        number "numerator" : opt
-        number "denominator" : opt
-      }
-      0 "x"
-      object "x" : opt
-      {
-        number "numerator" : opt
-        number "denominator" : opt
-      }
-       "z" : opt
-       "y" : opt
-    }
-  }
+  format_version "format_version"
+  feature_rules "minecraft:feature_rules"
 }
 
 ```
 
 /// html | div.result
 //// define
-`format_version`
-
-- Specifies the version of the game this entity was made in. Minimum supported version is 1.13.0. Current supported version is 1.13.0.
+`format_version`：<samp>format_version</samp> {#assets.schemas-blockception.general.format_version.json}
 
 
 ////
+
+```mcschema
+format_version:
+string
+
+```
+
+//// html | div.result
+
+////
+
 
 
 //// define
-`minecraft:feature_rules`：<samp>object</samp>
-
-- Each feature rule controls exactly one feature and serves as the root of a chain of feature data.
+`minecraft:feature_rules`：<samp>feature_rules</samp> {#assets.schemas-blockception.behavior.feature_rules.format.minecraft.feature_rules.json}
 
 
 ////
 
-<div class="language-text highlight"><span class="filename"><code>minecraft:feature_rules</code></span><pre id="__code_1"><span></span></pre></div>
+```mcschema
+feature_rules:
+{
+  object "description" : opt
+  {
+    identifier "identifier"
+    string "places_feature" : opt
+  }
+  object "conditions" : opt
+  {
+    string "placement_pass" : opt
+    filters "minecraft:biome_filter"
+  }
+  object "distribution" : opt
+  {
+    string "coordinate_eval_order" : opt
+    0 "iterations"
+    0 "scatter_chance"
+    object "scatter_chance" : opt
+    {
+      number "numerator" : opt
+      number "denominator" : opt
+    }
+    0 "x"
+    object "x" : opt
+    {
+      number "numerator" : opt
+      number "denominator" : opt
+    }
+    object "x" : opt
+    {
+      string "distribution" : opt
+      array "extent" : opt
+      {
+        number "<any array element>" : opt
+      }
+    }
+     "z" : opt
+     "y" : opt
+  }
+}
+
+```
 
 //// html | div.result
 ///// define
 `description`：<samp>object</samp>
 
-- UNDOCUMENTED.
+- The description of this feature rule.
 
 
 /////
@@ -276,6 +294,50 @@ number
 //////
 
 
+////// define
+`x`：<samp>object</samp>
+
+- UNDOCUMENTED.
+
+
+//////
+
+<div class="language-text highlight"><span class="filename"><code>x</code></span><pre id="__code_1"><span></span></pre></div>
+
+////// html | div.result
+/////// define
+`distribution`：<samp>string</samp>
+
+- Distribution type
+
+
+///////
+
+
+/////// define
+`extent`：<samp>array</samp>
+
+- Represents the range of values on which that distribution operates, from minimum to maximum.
+
+
+///////
+
+<div class="language-text highlight"><span class="filename"><code>extent</code></span><pre id="__code_1"><span></span></pre></div>
+
+/////// html | div.result
+//////// define
+`<any array element>`：<samp>number</samp>
+
+
+////////
+
+
+///////
+
+
+//////
+
+
 
 ////// define
 `z`
@@ -301,38 +363,6 @@ number
 ////
 
 
-///
-
-
-
-
-```mcschema
-feature_rules:
-{
-  format_version "format_version"
-}
-
-```
-
-/// html | div.result
-//// define
-`format_version`：<samp>format_version</samp> {#assets.schemas-blockception.general.format_version.json}
-
-
-////
-
-```mcschema
-format_version:
-string
-
-```
-
-//// html | div.result
-
-////
-
-
 
 ///
-
 

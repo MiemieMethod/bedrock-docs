@@ -1,6 +1,6 @@
 # Entity Behavior
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 The minecraft entity behavior specification.
 
@@ -564,7 +564,7 @@ number
 ```mcschema
 components:
 {
-  attribute "minecraft:absorption:"
+  attribute "minecraft:absorption"
   addrider "minecraft:addrider"
   admire_item "minecraft:admire_item"
   ageable "minecraft:ageable"
@@ -671,6 +671,7 @@ components:
   managed_wandering_trader "minecraft:managed_wandering_trader"
   mark_variant "minecraft:mark_variant"
   mob_effect "minecraft:mob_effect"
+  mob_effect_immunity "minecraft:mob_effect_immunity"
   movement_sound_distance_offset "minecraft:movement_sound_distance_offset"
   amphibious "minecraft:movement.amphibious"
   basic "minecraft:movement.basic"
@@ -718,6 +719,7 @@ components:
   rail_sensor "minecraft:rail_sensor"
   ravager_blocked "minecraft:ravager_blocked"
   rideable "minecraft:rideable"
+  reflect_projectiles "minecraft:reflect_projectiles"
   scale_by_age "minecraft:scale_by_age"
   scale "minecraft:scale"
   scheduler "minecraft:scheduler"
@@ -793,6 +795,7 @@ components:
   find_cover "minecraft:behavior.find_cover"
   find_mount "minecraft:behavior.find_mount"
   find_underwater_treasure "minecraft:behavior.find_underwater_treasure"
+  fire_at_target "minecraft:behavior.fire_at_target"
   flee_sun "minecraft:behavior.flee_sun"
   float_wander "minecraft:behavior.float_wander"
   float "minecraft:behavior.float"
@@ -811,6 +814,7 @@ components:
   hurt_by_target "minecraft:behavior.hurt_by_target"
   inspect_bookshelf "minecraft:behavior.inspect_bookshelf"
   investigate_suspicious_location "minecraft:behavior.investigate_suspicious_location"
+  jump_around_target "minecraft:behavior.jump_around_target"
   jump_to_block "minecraft:behavior.jump_to_block"
   knockback_roar "minecraft:behavior.knockback_roar"
   lay_down "minecraft:behavior.lay_down"
@@ -850,7 +854,6 @@ components:
   owner_hurt_by_target "minecraft:behavior.owner_hurt_by_target"
   owner_hurt_target "minecraft:behavior.owner_hurt_target"
   panic "minecraft:behavior.panic"
-  peek "minecraft:behavior.peek"
   pet_sleep_with_owner "minecraft:behavior.pet_sleep_with_owner"
   pickup_items "minecraft:behavior.pickup_items"
   play_dead "minecraft:behavior.play_dead"
@@ -904,10 +907,13 @@ components:
   summon_entity "minecraft:behavior.summon_entity"
   swell "minecraft:behavior.swell"
   swim_idle "minecraft:behavior.swim_idle"
+  swim_up_for_breath "minecraft:behavior.swim_up_for_breath"
   swim_wander "minecraft:behavior.swim_wander"
   swim_with_entity "minecraft:behavior.swim_with_entity"
   swoop_attack "minecraft:behavior.swoop_attack"
   take_flower "minecraft:behavior.take_flower"
+  teleport_to_owner "minecraft:behavior.teleport_to_owner"
+  move_around_target "minecraft:behavior.move_around_target"
   target_when_pushed "minecraft:behavior.target_when_pushed"
   tempt "minecraft:behavior.tempt"
   timer_flag "minecraft:behavior.timer_flag_1"
@@ -927,9 +933,9 @@ components:
 
 ////// html | div.result
 /////// define
-`minecraft:absorption:`：<samp>attribute</samp>
+`minecraft:absorption`：<samp>attribute</samp>
 
-- [`minecraft:absorption:`](./components/attribute.md)组件。A collection of components.
+- [`minecraft:absorption`](./components/attribute.md)组件。A collection of components.
 
 
 ///////
@@ -1783,6 +1789,14 @@ components:
 ///////
 
 /////// define
+`minecraft:mob_effect_immunity`：<samp>mob_effect_immunity</samp>
+
+- [`minecraft:mob_effect_immunity`](./components/mob_effect_immunity.md)组件。A collection of components.
+
+
+///////
+
+/////// define
 `minecraft:movement_sound_distance_offset`：<samp>movement_sound_distance_offset</samp>
 
 - [`minecraft:movement_sound_distance_offset`](./components/movement_sound_distance_offset.md)组件。A collection of components.
@@ -2154,6 +2168,14 @@ components:
 `minecraft:rideable`：<samp>rideable</samp>
 
 - [`minecraft:rideable`](./components/rideable.md)组件。A collection of components.
+
+
+///////
+
+/////// define
+`minecraft:reflect_projectiles`：<samp>reflect_projectiles</samp>
+
+- [`minecraft:reflect_projectiles`](./components/reflect_projectiles.md)组件。A collection of components.
 
 
 ///////
@@ -2759,6 +2781,14 @@ components:
 ///////
 
 /////// define
+`minecraft:behavior.fire_at_target`：<samp>fire_at_target</samp>
+
+- [`minecraft:behavior.fire_at_target`](./components/fire_at_target.md)组件。A collection of components.
+
+
+///////
+
+/////// define
 `minecraft:behavior.flee_sun`：<samp>flee_sun</samp>
 
 - [`minecraft:behavior.flee_sun`](./components/flee_sun.md)组件。A collection of components.
@@ -2898,6 +2928,14 @@ components:
 `minecraft:behavior.investigate_suspicious_location`：<samp>investigate_suspicious_location</samp>
 
 - [`minecraft:behavior.investigate_suspicious_location`](./components/investigate_suspicious_location.md)组件。A collection of components.
+
+
+///////
+
+/////// define
+`minecraft:behavior.jump_around_target`：<samp>jump_around_target</samp>
+
+- [`minecraft:behavior.jump_around_target`](./components/jump_around_target.md)组件。A collection of components.
 
 
 ///////
@@ -3210,14 +3248,6 @@ components:
 `minecraft:behavior.panic`：<samp>panic</samp>
 
 - [`minecraft:behavior.panic`](./components/panic.md)组件。A collection of components.
-
-
-///////
-
-/////// define
-`minecraft:behavior.peek`：<samp>peek</samp>
-
-- [`minecraft:behavior.peek`](./components/peek.md)组件。A collection of components.
 
 
 ///////
@@ -3647,6 +3677,14 @@ components:
 ///////
 
 /////// define
+`minecraft:behavior.swim_up_for_breath`：<samp>swim_up_for_breath</samp>
+
+- [`minecraft:behavior.swim_up_for_breath`](./components/swim_up_for_breath.md)组件。A collection of components.
+
+
+///////
+
+/////// define
 `minecraft:behavior.swim_wander`：<samp>swim_wander</samp>
 
 - [`minecraft:behavior.swim_wander`](./components/swim_wander.md)组件。A collection of components.
@@ -3674,6 +3712,22 @@ components:
 `minecraft:behavior.take_flower`：<samp>take_flower</samp>
 
 - [`minecraft:behavior.take_flower`](./components/take_flower.md)组件。A collection of components.
+
+
+///////
+
+/////// define
+`minecraft:behavior.teleport_to_owner`：<samp>teleport_to_owner</samp>
+
+- [`minecraft:behavior.teleport_to_owner`](./components/teleport_to_owner.md)组件。A collection of components.
+
+
+///////
+
+/////// define
+`minecraft:behavior.move_around_target`：<samp>move_around_target</samp>
+
+- [`minecraft:behavior.move_around_target`](./components/move_around_target.md)组件。A collection of components.
 
 
 ///////

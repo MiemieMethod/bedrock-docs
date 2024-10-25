@@ -1,6 +1,6 @@
 # Random Look Around
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows this entity to locate a random target block that it can path find to. Once found, the entity will move towards it and dig up an item.
 
@@ -154,7 +154,7 @@ array
 //// define
 `item_table`：<samp>string</samp>
 
-- File path relative to the resource pack root for items to spawn list (loot table format).
+- File path relative to the behavior pack root for items to spawn list (loot table format).
 
 
 ////

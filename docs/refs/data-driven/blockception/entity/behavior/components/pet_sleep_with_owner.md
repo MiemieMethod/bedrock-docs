@@ -1,6 +1,6 @@
 # Pet Sleep With Owner
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 Allows the mob to be tempted by food they like.
 

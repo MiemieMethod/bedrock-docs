@@ -1,6 +1,6 @@
 # Filters
 
-> 文档版本：1.21.0.24
+> 文档版本：1.21.50.25
 
 
 
@@ -74,6 +74,7 @@ array
   is_mark_variant "<any array element>"
   is_missing_health "<any array element>"
   is_moving "<any array element>"
+  is_moving "<any array element>"
   is_owner "<any array element>"
   is_persistent "<any array element>"
   is_riding "<any array element>"
@@ -101,6 +102,7 @@ array
   surface_mob "<any array element>"
   taking_fire_damage "<any array element>"
   target_distance "<any array element>"
+  owner_distance "<any array element>"
   trusts "<any array element>"
   weather_at_position "<any array element>"
   weather "<any array element>"
@@ -192,6 +194,7 @@ filters:
   is_mark_variant "all_of"
   is_missing_health "all_of"
   is_moving "all_of"
+  is_moving "all_of"
   is_owner "all_of"
   is_persistent "all_of"
   is_riding "all_of"
@@ -219,6 +222,7 @@ filters:
   surface_mob "all_of"
   taking_fire_damage "all_of"
   target_distance "all_of"
+  owner_distance "all_of"
   trusts "all_of"
   weather_at_position "all_of"
   weather "all_of"
@@ -807,7 +811,8 @@ has_biome_tag:
   string "test" : opt
   operator "operator"
   subject "subject"
-  string "value" : opt
+  biome_tag "value"
+  biome "value"
 }
 
 ```
@@ -837,12 +842,44 @@ has_biome_tag:
 
 
 //// define
-`value`：<samp>string</samp>
+`value`：<samp>biome_tag</samp> {#assets.schemas-blockception.general.vanilla.biome_tag.json}
 
-- (Required) The tag to look for.
+- The tag to look for.
 
 
 ////
+
+```mcschema
+biome_tag:
+string
+
+```
+
+//// html | div.result
+
+////
+
+
+
+//// define
+`value`：<samp>biome</samp> {#assets.schemas-blockception.general.vanilla.biome.json}
+
+- The tag to look for.
+
+
+////
+
+```mcschema
+biome:
+string
+
+```
+
+//// html | div.result
+
+////
+
+
 
 
 ///
@@ -954,7 +991,7 @@ has_damage:
   string "test" : opt
   operator "operator"
   subject "subject"
-  entity_damage_source "value"
+  string "value" : opt
 }
 
 ```
@@ -984,23 +1021,12 @@ has_damage:
 
 
 //// define
-`value`：<samp>entity_damage_source</samp> {#assets.schemas-blockception.general.entity.damage_source.json}
+`value`：<samp>string</samp>
 
 - The Damage type to test.
 
 
 ////
-
-```mcschema
-entity_damage_source:
-string
-
-```
-
-//// html | div.result
-
-////
-
 
 
 ///
@@ -1143,7 +1169,7 @@ has_mob_effect:
   string "test" : opt
   operator "operator"
   subject "subject"
-  string "value" : opt
+  effect "value"
 }
 
 ```
@@ -1173,12 +1199,23 @@ has_mob_effect:
 
 
 //// define
-`value`：<samp>string</samp>
+`value`：<samp>effect</samp> {#assets.schemas-blockception.general.vanilla.effect.json}
 
 - The specified mob effect.
 
 
 ////
+
+```mcschema
+effect:
+string
+
+```
+
+//// html | div.result
+
+////
+
 
 
 ///
@@ -2253,7 +2290,7 @@ is_biome:
   string "test" : opt
   operator "operator"
   subject "subject"
-  string "value" : opt
+  biome "value"
 }
 
 ```
@@ -2283,9 +2320,9 @@ is_biome:
 
 
 //// define
-`value`：<samp>string</samp>
+`value`：<samp>[biome](#assets.schemas-blockception.general.vanilla.biome.json)</samp>
 
-- The Biome type to test.
+- The biome type to test.
 
 
 ////
@@ -3076,6 +3113,9 @@ is_moving:
 
 
 ///
+
+
+
 
 
 
@@ -4404,6 +4444,55 @@ target_distance:
 
 
 ```mcschema
+owner_distance:
+{
+  string "test" : opt
+  operator "operator"
+  subject "subject"
+  number "value" : opt
+}
+
+```
+
+/// html | div.result
+//// define
+`test`：<samp>string</samp>
+
+- The test property.
+
+
+////
+
+
+//// define
+`operator`：<samp>[operator](#assets.schemas-blockception.behavior.entities.filters.filters.types.operator.json)</samp>
+
+
+////
+
+
+//// define
+`subject`：<samp>[subject](#assets.schemas-blockception.behavior.entities.filters.filters.types.subject.json)</samp>
+
+
+////
+
+
+//// define
+`value`：<samp>number</samp>
+
+- (Required) A floating point value.
+
+
+////
+
+
+///
+
+
+
+
+```mcschema
 trusts:
 {
   string "test" : opt
@@ -4617,6 +4706,7 @@ filters:
   is_mark_variant "all_of"
   is_missing_health "all_of"
   is_moving "all_of"
+  is_moving "all_of"
   is_owner "all_of"
   is_persistent "all_of"
   is_riding "all_of"
@@ -4644,6 +4734,7 @@ filters:
   surface_mob "all_of"
   taking_fire_damage "all_of"
   target_distance "all_of"
+  owner_distance "all_of"
   trusts "all_of"
   weather_at_position "all_of"
   weather "all_of"
