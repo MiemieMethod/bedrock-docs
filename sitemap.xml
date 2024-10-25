@@ -881,6 +881,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/custom_components/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/destructible_by_explosion/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -890,6 +894,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/display_name/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/entity_fall_on/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -925,47 +933,19 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/on_fall_on/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/on_interact/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/on_placed/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/on_player_destroyed/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/on_player_placing/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/on_step_off/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/on_step_on/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/placement_filter/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/queued_ticking/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/random_ticking/</loc>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/redstone_conductivity/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/selection_box/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/block/behavior/components/tick/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -1369,6 +1349,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/fire_at_target/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/fire_immune/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -1605,6 +1589,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/jump_around_target/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/jump_to_block/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -1681,7 +1669,15 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/mob_effect_immunity/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/mount_pathing/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/move_around_target/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -2037,6 +2033,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/reflect_projectiles/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/restrict_open_door/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -2229,6 +2229,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/swim_up_for_breath/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/swim_wander/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -2262,6 +2266,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/teleport/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/entity/behavior/components/teleport_to_owner/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -2417,6 +2425,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/bundle_interaction/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/can_destroy_in_creative/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -2425,7 +2437,15 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/custom_components/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/damage/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/damage_absorption/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -2438,6 +2458,14 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/durability/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/durability_sensor/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/dyeable/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -2481,6 +2509,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/rarity/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/record/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -2498,6 +2530,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/stacked_by_data/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/item/behavior/components/storage_item/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -2710,10 +2746,6 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/ui/ui-definition/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/data-driven/blockception/volume/definition/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -3109,6 +3141,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/awardachievementpacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/biomedefinitionlistpacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -3130,6 +3166,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/bosseventpacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/cameraaimassistpacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -3158,6 +3198,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/chunkradiusupdatedpacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/clientboundcloseformpacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -3217,6 +3261,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/containerregistrycleanuppacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/containersetdatapacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -3234,6 +3282,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/creativecontentpacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/currentstructurefeaturepacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -3322,6 +3374,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/itemstackresponsepacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/jigsawstructuredatapacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
@@ -3577,6 +3633,14 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/serverbounddiagnosticspacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/serverboundloadingscreenpacket/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/serverplayerpostmovepositionpacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -3749,10 +3813,6 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/ticksyncpacket/</loc>
-         <lastmod>2024-10-25</lastmod>
-    </url>
-    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/toastrequestpacket/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -3913,6 +3973,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/fullcontainername/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/gameruleschangedpacketdata/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -4049,6 +4113,10 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/recipeunlockingrequirement/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/reliabilityheader/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -4117,6 +4185,14 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/std__optional_class_vec2_/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/std__optional_class_vec3_/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/std__optional_enum_camerapreset__audiolistener_/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -4141,7 +4217,15 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/std__optional_struct_camerainstruction__targetinstruction_/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/std__optional_struct_externallinksettings_/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/std__optional_unsigned_int_/</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
