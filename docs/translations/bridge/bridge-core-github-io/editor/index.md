@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://bridge-core.github.io/editor-docs/](https://bridge-core.github.io/editor-docs/)
-- 该页面仓库地址为[https://github.com/bridge-core/docs/blob/main/docs/extensions/index.md](https://github.com/bridge-core/docs/blob/main/docs/extensions/index.md)
+- 该页面仓库地址为[https://github.com/bridge-core/bridge-core.github.io/blob/master/content/docs/editor-docs/index.md](https://github.com/bridge-core/bridge-core.github.io/blob/master/content/docs/editor-docs/index.md)
 - 该页面的版本为<!-- md:samp bridge-core/bridge-core.github.io@7d4b15496ca7041748d7fc16fd063005550c1f5a -->
 - 该页面的作者有：
     - <!-- md:samp @joelant05 -->

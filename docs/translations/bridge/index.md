@@ -18,7 +18,8 @@ bridge.是一款Minecraft基岩版附加包开发工具，它具有两个不同�
 
     最新版本的bridge.官方网站，目前正在更新。
 
-    [:octicons-arrow-right-24: 开始阅读](./bridge-core-app/index.md)
+    :octicons-arrow-right-24: 开始阅读
+    <!-- [:octicons-arrow-right-24: 开始阅读](./bridge-core-app/index.md) -->
 
 </div>
 

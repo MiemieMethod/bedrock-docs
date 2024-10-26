@@ -25,14 +25,20 @@
 ## 已翻译的文档
 
 <div class="grid cards" markdown>
+-   <span class="twemoji lg middle"><img src="../assets/images/brands/bedrock-wiki.ico" width="24" height="24" style="width: var(--md-icon-size); height: auto;"></span> __基岩维基__
 
--   <span class="twemoji lg middle"><img src="../assets/images/brands/favicon.svg" width="24" height="24" style="width: var(--md-icon-size); height: auto;"></span> __bridge.__
+    ---
+
+    基岩维基是一个社区维护的Minecraft基岩版的开发文档网站。
+
+    [:octicons-arrow-right-24: 开始阅读](./bedrock-wiki/index.md)
+
+-   <span class="twemoji lg middle"><img src="../assets/images/brands/bridge.svg" width="24" height="24" style="width: var(--md-icon-size); height: auto;"></span> __bridge.__
 
     ---
 
     bridge.是一款Minecraft基岩版附加包开发工具。
 
     [:octicons-arrow-right-24: 开始阅读](./bridge/index.md)
-
 </div>
 
