@@ -1225,7 +1225,7 @@ rankdir = LR
 
 #### {{samp|nbt}}与{{samp|json}}
 
-`{/{samp|nbt}}`和`{/{samp|json}}`用于NBT标签和JSON字段，通常配合[树状视图](#树状视图)使用，例如：
+`{/{nbt}}`和`{/{json}}`用于NBT标签和JSON字段，通常配合[树状视图](#树状视图)使用，例如：
 
 ```markdown
 <div class="treeview" markdown>
