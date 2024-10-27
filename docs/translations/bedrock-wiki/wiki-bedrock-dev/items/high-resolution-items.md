@@ -15,7 +15,7 @@ description: 学习如何以正确的方式制作高分辨率纹理的物品。
 在创建物品时，标准的16x16分辨率通常已经足够。然而，有时您可能希望拥有更详细的物品。不过，您可能会注意到高分辨率物品的一个问题：它们看起来更大，而不是更详细！
 
 <WikiImage
-	src="/assets/images/items/high-resolution-items/large_item_broken_thirdperson.png"
+	src="../assets/images/items/high-resolution-items/large_item_broken_thirdperson.png"
 	alt="替代文本"
 	width=1080
 />
@@ -153,7 +153,7 @@ description: 学习如何以正确的方式制作高分辨率纹理的物品。
 将所有这些文件放在一起后，您的物品应该看起来好多了！例如，以下是我在第一张图片中使用的物品，当我将本教程中的所有文件添加到资源包中，并将所有适当的值替换为我物品中使用的值时的样子：
 
 <WikiImage
-	src="/assets/images/items/high-resolution-items/large_item_fixed_thirdperson.png"
+	src="../assets/images/items/high-resolution-items/large_item_fixed_thirdperson.png"
 	alt="替代文本"
 	width=1080
 />

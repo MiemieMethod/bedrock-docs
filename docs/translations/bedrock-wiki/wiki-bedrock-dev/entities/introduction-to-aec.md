@@ -15,7 +15,7 @@ description: AOE云的介绍。
 
 区域效果云具有几个我们可以利用的特殊功能：
 
--   作为[虚拟实体](/entities/dummy-entities)，它们性能高，几乎不影响帧率，并且完全静态，与世界没有碰撞。这使得它们非常适合玩家周围或需要精确定位的情况。
+-   作为[虚拟实体](../entities/dummy-entities.md)，它们性能高，几乎不影响帧率，并且完全静态，与世界没有碰撞。这使得它们非常适合玩家周围或需要精确定位的情况。
 -   它不会向客户端发送更新。一旦生成，它在视觉上会看起来被冻结，直到消失。然而，它仍然可以通过命令进行移动。
 -   它可以以高度可配置的方式应用任何药水效果。持续时间可以精确到每个刻，并且可以设置效果是否为环境效果、是否在屏幕上显示、是否发出粒子等。
 -   具有运行时标识符`minecraft:area_effect_cloud`的实体继承这些相同的属性。
@@ -24,7 +24,7 @@ description: AOE云的介绍。
 
 投射物组件支持在命中时生成区域效果云。Minecraft使用此功能从持续药水中生成AOE云。
 
-[投射物文档](/entities/projectiles#spawn-aoe-cloud)
+[投射物文档](../entities/projectiles.md#spawn-aoe-cloud)
 
 ## 方法2：NBT编辑
 
@@ -41,11 +41,11 @@ description: AOE云的介绍。
 
 为了方便，本文包含一个预制的结构文件，您可以下载并使用。里面有一个存在时间最长的AOE云。
 
-<Button link="/assets/packs/entities/aec/aec.mcstructure" download>
+<Button link="../assets/packs/entities/aec/aec.mcstructure" download>
     下载MCSTRUCTURE
 </Button>
 
-请参考本文以编辑结构文件：[.mcstructure](/nbt/mcstructure)
+请参考本文以编辑结构文件：[.mcstructure](../nbt/mcstructure.md)
 
 ### NBT格式
 

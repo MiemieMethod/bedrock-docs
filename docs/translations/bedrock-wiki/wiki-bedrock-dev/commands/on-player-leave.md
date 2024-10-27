@@ -14,7 +14,7 @@ description: 此系统将在玩家离开世界时运行您所需的命令。
 
 此系统将在玩家离开世界时运行您所需的命令。
 
-> 注意：您无法使用目标选择器对离开的*玩家*执行命令。但是，您可以使用 [玩家加入时](/commands/on-player-join) 系统在他们重新加入时执行命令。
+> 注意：您无法使用目标选择器对离开的*玩家*执行命令。但是，您可以使用 [玩家加入时](../commands/on-player-join.md) 系统在他们重新加入时执行命令。
 
 ## 设置
 
@@ -22,7 +22,7 @@ description: 此系统将在玩家离开世界时运行您所需的命令。
 
 `/scoreboard objectives add total dummy`
 
-如果您正在使用函数并希望在世界初始化时自动添加目标，请按照 [首次加载世界](/commands/on-first-world-load) 中概述的过程进行操作。
+如果您正在使用函数并希望在世界初始化时自动添加目标，请按照 [首次加载世界](../commands/on-first-world-load.md) 中概述的过程进行操作。
 
 ## 系统
 
@@ -49,7 +49,7 @@ scoreboard players reset playerCount total
 execute as @a run scoreboard players add playerCount total 1
 ```
 
-![六个命令方块的链](/assets/images/commands/commandBlockChain/6.png)
+![六个命令方块的链](../assets/images/commands/commandBlockChain/6.png)
 
 在这里，我们使用了 `/say` 命令作为示例，但您可以使用任何您喜欢的命令，并根据需要使用多个命令。
 
@@ -62,7 +62,7 @@ execute as @a run scoreboard players add playerCount total 1
 
 由于 `PlayerCount` 仅在命令循环结束时更新，因此可以在下一个游戏刻的命令循环开始时使用它来检查与 `NewPlayerCount` 的差异。
 
-该计数是使用 [实体计数器](/commands/entity-counter) 系统获得的。参考该页面可能有助于更好地理解此页面。当参考该页面时，您会注意到我们使用了目标名称 `total` 而不是 `count`。这是为了防止两个系统之间的冲突。
+该计数是使用 [实体计数器](../commands/entity-counter.md) 系统获得的。参考该页面可能有助于更好地理解此页面。当参考该页面时，您会注意到我们使用了目标名称 `total` 而不是 `count`。这是为了防止两个系统之间的冲突。
 
 通过从 `NewPlayerCount` 总数中减去 `PlayerCount` 总数，我们将能够识别玩家数量是否：
 - 减少 ` ..-1 `
@@ -81,12 +81,12 @@ execute as @a run scoreboard players add playerCount total 1
 :::tip
 所有涉及命令方块链或函数的命令将按顺序一个接一个地运行，但所有操作仍然发生在同一刻，无论涉及多少命令。我们能够实现此系统是因为命令在游戏刻结束时运行，在所有事件（如玩家登录、登出、死亡等）发生后。
 
-![游戏刻](/assets/images/commands/gametick.png)
+![游戏刻](../assets/images/commands/gametick.png)
 :::
 
 ## Tick JSON
 
-如果您使用函数而不是命令方块，则必须将 `on_leave` 函数添加到 `tick.json` 中，以便循环并持续运行它。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参考 [函数](/commands/mcfunctions#tick-json) 文档。
+如果您使用函数而不是命令方块，则必须将 `on_leave` 函数添加到 `tick.json` 中，以便循环并持续运行它。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参考 [函数](../commands/mcfunctions.md#tick-json) 文档。
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 ```json

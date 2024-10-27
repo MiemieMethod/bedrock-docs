@@ -13,7 +13,7 @@ description: 附加物的文档。
 ---
 
 ::: tip
-本文件假设您对Molang、渲染控制器、动画和客户端实体定义有基本了解。请确保您熟悉[客户端实体](/entities/entity-intro-rp)的基础知识！
+本文件假设您对Molang、渲染控制器、动画和客户端实体定义有基本了解。请确保您熟悉[客户端实体](../entities/entity-intro-rp.md)的基础知识！
 :::
 
 ## 介绍

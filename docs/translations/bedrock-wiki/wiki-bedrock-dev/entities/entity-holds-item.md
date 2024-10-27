@@ -28,7 +28,7 @@ description: 在本教程中，您将学习如何让实体手中持有物品。
 首先，您需要在Blockbench中创建一个名为`rightArm`的映射。在这个映射中，需要有一个名为`rightItem`的子映射。
 现在设置这个子映射的支点位置，使其位于您希望实体持有物品的位置。
 
-![](/assets/images/tutorials/entity-holds-item/blockbench.png)
+![](../assets/images/tutorials/entity-holds-item/blockbench.png)
 
 ## 行为包部分
 
@@ -75,7 +75,7 @@ description: 在本教程中，您将学习如何让实体手中持有物品。
 
 如果一切顺利，您将得到如下所示的结果：
 
-![](/assets/images/tutorials/entity-holds-item/finished_result.png)
+![](../assets/images/tutorials/entity-holds-item/finished_result.png)
 
 ## 常见问题
 

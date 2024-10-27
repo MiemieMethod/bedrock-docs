@@ -20,7 +20,7 @@ description: 脚本介绍。
 
 :::danger 停止！
 
-此脚本 API 不再受支持。请参阅新的 [脚本 API](/scripting/starting-scripts)。
+此脚本 API 不再受支持。请参阅新的 [脚本 API](../scripting/starting-scripts.md)。
 
 :::
 
@@ -85,7 +85,7 @@ description: 脚本介绍。
 
 最后但同样重要的是，下载此图像并将其放置在 `HelloWorld` 文件夹中：
 
-![](/assets/images/scripting/hello-world-tutorial/pack_icon.png)
+![](../assets/images/scripting/hello-world-tutorial/pack_icon.png)
 
 你的文件夹结构现在应如下所示：
 
@@ -237,44 +237,44 @@ UUID 本身不具有任何独特的值——对于我们的用途，它们只是
 
 转到“创建新世界”，然后点击左下方“附加包”子菜单中的“行为附加包”按钮。
 
-![](/assets/images/scripting/hello-world-tutorial/addons-menu.png)
+![](../assets/images/scripting/hello-world-tutorial/addons-menu.png)
 
 你的 Hello World 附加包应会出现在行为附加包列表中！
 
 点击你的附加包应会出现一个标题为“激活”的按钮。点击它。
 
-![](/assets/images/scripting/hello-world-tutorial/load-pack-menu-activate.png)
+![](../assets/images/scripting/hello-world-tutorial/load-pack-menu-activate.png)
 
 点击“激活”后，应该会出现一个标题为“关闭成就？”的弹出窗口。
 由于某些原因，在加载附加包时必须关闭成就获取，因为附加包可能会使获取成就变得更容易。
 
-![](/assets/images/scripting/hello-world-tutorial/turn-off-achievements-popup.png)
+![](../assets/images/scripting/hello-world-tutorial/turn-off-achievements-popup.png)
 
 点击“继续”后，你的行为附加包应已移动到“已激活”部分！
 
-![](/assets/images/scripting/hello-world-tutorial/active-hello-world-addon.png)
+![](../assets/images/scripting/hello-world-tutorial/active-hello-world-addon.png)
 
 接下来最重要的部分是在“实验”下启用“附加模组功能”。
 如果不启用此选项，你的脚本将根本无法运行！
 向下滚动直到看到此切换按钮并将其打开。
 
-![](/assets/images/scripting/hello-world-tutorial/additional-modding-capabilities-toggle.png)
+![](../assets/images/scripting/hello-world-tutorial/additional-modding-capabilities-toggle.png)
 
 启用后，你将看到一个标题为“激活实验性游戏玩法？”的弹出窗口。
 选择“继续”。
 
-![](/assets/images/scripting/hello-world-tutorial/activate-experimental-gameplay-popup.png)
+![](../assets/images/scripting/hello-world-tutorial/activate-experimental-gameplay-popup.png)
 
 在这里，你可以切换任何其他让开发更容易的选项。
 以下是我喜欢开启的一些选项。
 
 世界选项：
 
-![](/assets/images/scripting/hello-world-tutorial/world-options.png)
+![](../assets/images/scripting/hello-world-tutorial/world-options.png)
 
 世界作弊：
 
-![](/assets/images/scripting/hello-world-tutorial/world-cheats.png)
+![](../assets/images/scripting/hello-world-tutorial/world-cheats.png)
 
 就这样吧！
 
@@ -284,11 +284,11 @@ UUID 本身不具有任何独特的值——对于我们的用途，它们只是
 这样每个人都明确知道在他们加入你的世界时将运行一些非官方代码。
 这有助于让其他玩家为因附加包或你作为模组作者引入的随机 bug 做好准备 :)
 
-![](/assets/images/scripting/hello-world-tutorial/enable-scripts-popup.png)
+![](../assets/images/scripting/hello-world-tutorial/enable-scripts-popup.png)
 
 选择“进入世界”后，你将最终加入你的新 Minecraft 基岩版世界，并安装了最新的行为附加包，... 没有发生任何事情，哈哈。
 
-![](/assets/images/scripting/hello-world-tutorial/addon-loaded-scripts-off.png)
+![](../assets/images/scripting/hello-world-tutorial/addon-loaded-scripts-off.png)
 
 那是因为我们还没有编写代码！现在让我们来做吧——进入有趣的部分！
 
@@ -411,7 +411,7 @@ systemServer.log = function (...items) {
 现在我们了解了这个脚本的所有内容，让我们测试一下！
 加载你之前创建的 Minecraft 世界！
 
-![](/assets/images/scripting/hello-world-tutorial/addon-loaded-scripts-on-server-only.png)
+![](../assets/images/scripting/hello-world-tutorial/addon-loaded-scripts-on-server-only.png)
 
 你应该会看到类似这样的内容！
 
@@ -496,7 +496,7 @@ systemClient.log = function (...items) {
 就这样吧！
 重新加载你的 Minecraft 世界。
 
-![](/assets/images/scripting/hello-world-tutorial/addon-loaded-scripts-on-both.png)
+![](../assets/images/scripting/hello-world-tutorial/addon-loaded-scripts-on-both.png)
 
 你应该会看到类似这样的内容！
 

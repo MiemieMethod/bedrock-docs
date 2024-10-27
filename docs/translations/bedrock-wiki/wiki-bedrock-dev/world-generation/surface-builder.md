@@ -15,7 +15,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 单方块地物将是我们地表构建器的基础。它们将定义我们将使用哪些方块。在本教程中，我将使用粗糙土、腐殖土和圆石。
 
-了解更多关于单方块地物的信息 [这里](/world-generation/feature-types#single-block-features)
+了解更多关于单方块地物的信息 [这里](../world-generation/feature-types.md#single-block-features)
 
 粗糙土文件
 
@@ -90,7 +90,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 加权随机地物将是我们选择每种类型方块的随机器。
 
-了解更多关于加权随机地物的信息 [这里](/world-generation/feature-types#weighted-random-features)
+了解更多关于加权随机地物的信息 [这里](../world-generation/feature-types.md#weighted-random-features)
 
 <CodeHeader>BP/features/select_surface_block_feature.json</CodeHeader>
 
@@ -123,7 +123,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 散布地物是我们地表构建器的重要组成部分。它将决定一个块状物的大小、形状和方块数量。
 
-了解更多关于散布地物的信息 [这里](/world-generation/feature-types#scatter-features)
+了解更多关于散布地物的信息 [这里](../world-generation/feature-types.md#scatter-features)
 
 <CodeHeader>BP/features/scatter_surface_block_feature.json</CodeHeader>
 

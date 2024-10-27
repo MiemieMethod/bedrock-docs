@@ -99,7 +99,7 @@ effect @a [tag=inNether] fire_resistance 12 255 true
 
 - 无法运行条件命令。这些仍然需要以某种方式利用命令方块，或者可以利用1.19.50执行语法。
 
-- 在函数中以指定延迟运行命令涉及使用记分板计时器逐步计算每个刻，直到某个点，并在文件中的特定分数下执行命令。有关设置的详细信息，请参见[记分板计时器](/commands/scoreboard-timers)页面。
+- 在函数中以指定延迟运行命令涉及使用记分板计时器逐步计算每个刻，直到某个点，并在文件中的特定分数下执行命令。有关设置的详细信息，请参见[记分板计时器](../commands/scoreboard-timers.md)页面。
 
 ## 注释样式指南
 
@@ -145,7 +145,7 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 
 这种做法有助于创建一致的格式，使每个人都能更容易遵循，并保持函数之间的统一性。
 
-有关记分板和标签的样式指南，请参见**[这里](/meta/style-guide#scoreboard-and-tags)**。
+有关记分板和标签的样式指南，请参见**[这里](../meta/style-guide.md#scoreboard-and-tags)**。
 
 ## 创建函数
 
@@ -189,11 +189,11 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 <Spoiler title="示例 🖼 pack_icon.png">
 
 示例A:
-![pack_icon.png](/assets/images/commands/pack_icon.png)
+![pack_icon.png](../assets/images/commands/pack_icon.png)
 
 示例B:
 
-![pack_icon.png](/assets/images/guide/project-setup/pack_icon.png)
+![pack_icon.png](../assets/images/guide/project-setup/pack_icon.png)
 
 </Spoiler>
 
@@ -235,7 +235,7 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 
 ## 示例函数包
 
-<Card image="/assets/images/commands/BClogo.png" title="下载" link="https://github.com/Bedrock-OSS/wiki-addon/releases/download/download/functions_sample.mcpack">
+<Card image="../assets/images/commands/BClogo.png" title="下载" link="https://github.com/Bedrock-OSS/wiki-addon/releases/download/download/functions_sample.mcpack">
 
 </Card>
 
@@ -243,10 +243,10 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 
 当使用`/function`时，您的函数可能不会出现在命令建议中。这通常是由于函数中的一个或多个命令出现错误。
 
-在创建者设置中启用[内容日志](/guide/troubleshooting#content-log)可以让您查看函数包中是否有任何错误，错误出现在哪个函数中，在哪一行，以及该命令的确切语法错误是什么。
+在创建者设置中启用[内容日志](../guide/troubleshooting.md#content-log)可以让您查看函数包中是否有任何错误，错误出现在哪个函数中，在哪一行，以及该命令的确切语法错误是什么。
 
 每次加载世界或运行`/reload`以反映编辑文件后的更改时，错误列表将生成。该列表可以在屏幕上查看几秒钟，也可以在设置中的内容日志历史记录中查看。
 
-![contentLogToggles](/assets/images/commands/contentLogToggles.png)
+![contentLogToggles](../assets/images/commands/contentLogToggles.png)
 
-![contentLogHistory](/assets/images/commands/contentLogHistory.png)
+![contentLogHistory](../assets/images/commands/contentLogHistory.png)

@@ -12,8 +12,8 @@ description: 创建可旋转的方块。
 ---
 
 ::: tip 格式与最低引擎版本 `1.21.40`
-本教程假设您对方块有基本的了解，包括 [方块状态](/blocks/block-states) 和 [方块特性](/blocks/block-traits)。
-在开始之前，请查看 [方块指南](/blocks/blocks-intro)。
+本教程假设您对方块有基本的了解，包括 [方块状态](../blocks/block-states.md) 和 [方块特性](../blocks/block-traits.md)。
+在开始之前，请查看 [方块指南](../blocks/blocks-intro.md)。
 :::
 
 ## 旋转类型
@@ -38,7 +38,7 @@ description: 创建可旋转的方块。
     -   被原木和玄武岩使用
     -   3 个轴对齐方向
 
--   ### [精确旋转](/blocks/precise-rotation)
+-   ### [精确旋转](../blocks/precise-rotation.md)
     -   被头骨、标志和横幅使用
     -   16 个方向（22.5 度倍数）
     -   4 个基本侧附着方向

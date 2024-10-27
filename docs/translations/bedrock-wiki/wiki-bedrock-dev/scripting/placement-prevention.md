@@ -85,7 +85,7 @@ import { world, system } from "@minecraft/server";
 ```
 
 ::: tip
-了解更多关于 `system` 的信息，请访问 [系统事件](/scripting/script-server#events)。
+了解更多关于 `system` 的信息，请访问 [系统事件](../scripting/script-server.md#events)。
 :::
 
 添加模块后，我们将添加阻止方块放置的措施。
@@ -120,4 +120,4 @@ world.beforeEvents.playerPlaceBlock.subscribe((event) => {
 
 您还可以更改在 `event.permutationBeingPlaced.type.id === 'minecraft:bedrock'` 中检查的方块的 typeId。将命名空间和标识符替换为 `minecraft:bedrock`。
 
-要了解更多关于脚本 API 的信息，您可以查看 [维基](/scripting/starting-scripts) 或 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptdevelopertools)。
+要了解更多关于脚本 API 的信息，您可以查看 [维基](../scripting/starting-scripts.md) 或 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptdevelopertools)。

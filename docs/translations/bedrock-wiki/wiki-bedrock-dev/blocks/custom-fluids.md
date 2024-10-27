@@ -16,7 +16,7 @@ hidden: true
 
 ::: tip 格式 & 最低引擎版本 `1.21.40`
 本教程假设您对方块和执行命令有高级理解。
-在开始之前，请查看[方块指南](/blocks/blocks-intro)。
+在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
 :::
 
 ::: warning 实验性
@@ -39,7 +39,7 @@ hidden: true
 **由于当前复杂性，此实现不包括面剔除。**
 
 <WikiImage
-  src="/assets/images/blocks/custom-fluids/fluid_display.png"
+  src="../assets/images/blocks/custom-fluids/fluid_display.png"
   alt=""
   pixelated
   width=608

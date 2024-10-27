@@ -116,7 +116,7 @@ interface IPresetFileOpts {
 
 变量可以在清单的`createFiles`和`expandFile`组件中使用，也可以在预设的任何其他文件中使用，只要它们被“注入”到文件中。
 
-变量可以通过在两个大括号中使用它们来引用：`{{VARIABLE}}`。桥接会自动用当前相应的变量值替换变量。
+变量可以通过在两个大括号中使用它们来引用：`{/{VARIABLE}}`。桥接会自动用当前相应的变量值替换变量。
 
 注意：变量`PROJECT_PREFIX`已预定义，并包含项目的命名空间（不包括冒号）。
 
@@ -164,12 +164,12 @@ interface IPresetFileOpts {
     "./myPresetScript.js",
     [
       "entity.json",
-      "BP/entities/{{IDENTIFIER}}.json",
+      "BP/entities/{/{IDENTIFIER}}.json",
       { "inject": ["IDENTIFIER", "PROJECT_PREFIX"] }
     ],
     [
       "animation.json",
-      "RP/animations/{{IDENTIFIER}}.json",
+      "RP/animations/{/{IDENTIFIER}}.json",
       { "inject": ["IDENTIFIER"] }
     ]
   ],
@@ -188,8 +188,8 @@ interface IPresetFileOpts {
 ```json
 {
   "texture_data": {
-    "{{IDENTIFIER}}": {
-      "textures": ["textures/items/{{IDENTIFIER}}"]
+    "{/{IDENTIFIER}}": {
+      "textures": ["textures/items/{/{IDENTIFIER}}"]
     }
   }
 }

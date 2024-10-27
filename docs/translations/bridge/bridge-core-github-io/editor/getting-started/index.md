@@ -141,13 +141,13 @@ bridge.包含“跳转到定义”数据，可以让你快速地在相关数据�
 
 ### 自定义语法
 
-bridge.有许多不同的自定义语法能力。它的专用编译器使得在项目中添加自定义语法更加容易。你甚至可以创建你自己的[编译器插件](../extension/compiler-plugins.md)！
+bridge.有许多不同的自定义语法能力。它的专用编译器使得在项目中添加自定义语法更加容易。你甚至可以创建你自己的[编译器插件](../../extension/compiler-plugins.md)！
 
 内置的自定义语法包括：
 
--   [自定义组件](../extension-docs/custom-components.md)
--   [自定义命令](../extension-docs/custom-commands.md)
--   [自定义molang](../extension-docs/custom-molang.md)
+-   [自定义组件](../../extension/custom-components.md)
+-   [自定义命令](../../extension/custom-commands.md)
+-   [自定义molang](../../extension/custom-molang.md)
 
 在扩展商店中还有更多可用的选项！
 
@@ -155,7 +155,7 @@ bridge.有许多不同的自定义语法能力。它的专用编译器使得在�
 
 bridge.提供了一个扩展API，允许你自定义用户界面，添加新的标签类型、预设、主题等等！
 
-你可以[创建你自己的扩展](../extension/index.md)，或者从扩展商店下载其他创作者制作的扩展。
+你可以[创建你自己的扩展](../../extension/index.md)，或者从扩展商店下载其他创作者制作的扩展。
 你可以通过点击侧边栏上的**扩展**按钮找到它。从这里你可以下载一系列的扩展来修改和增强你的bridge.体验。
 
 ![扩展商店](./getting-started-14.png)

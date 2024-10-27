@@ -16,7 +16,7 @@ description: 如何设置正确的自定义矿石生成。
 使用地物和地物规则需要在您的世界设置中启用自定义生物群系的创建。如果您的方块没有生成，请确保它已启用！
 
 :::tip
-在本教程中，我将使用两个自定义方块，泰坦矿石和深层泰坦矿石。有关如何制作自定义方块的信息，请访问 [方块介绍](/blocks/blocks-intro) 页面。
+在本教程中，我将使用两个自定义方块，泰坦矿石和深层泰坦矿石。有关如何制作自定义方块的信息，请访问 [方块介绍](../blocks/blocks-intro.md) 页面。
 :::
 
 ## 地物文件
@@ -110,8 +110,8 @@ description: 如何设置正确的自定义矿石生成。
 
 石矿：
 
-![](/assets/images/world-generation/generating-custom-ores/stone_ore.png)
+![](../assets/images/world-generation/generating-custom-ores/stone_ore.png)
 
 深层矿石：
 
-![](/assets/images/world-generation/generating-custom-ores/deepslate_ore.png)
+![](../assets/images/world-generation/generating-custom-ores/deepslate_ore.png)

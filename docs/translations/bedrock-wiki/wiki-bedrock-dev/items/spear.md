@@ -257,7 +257,7 @@ description: 制作自定义长矛。
 确保您的实体模型与下面的图像相似！
 :::
 
-![](/assets/images/items/spears/spear_model.png)
+![](../assets/images/items/spears/spear_model.png)
 
 ## 动画
 
@@ -382,9 +382,9 @@ world.afterEvents.itemReleaseUse.subscribe((ev) => {
 
 按照本指南操作后，您应该在游戏中拥有自己的工作长矛。
 
-![](/assets/images/items/spears/spear_first_person.png)
+![](../assets/images/items/spears/spear_first_person.png)
 
-![](/assets/images/items/spears/spear_third_person.png)
+![](../assets/images/items/spears/spear_third_person.png)
 
 示例包下载：
 

@@ -15,7 +15,7 @@ description: 此系统将在应用您的附加包后，首次加载世界时运�
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
 此系统将在应用您的附加包后，首次加载世界时运行您所需的命令。
-> 注意：要实现此系统，需要一个 [功能](/commands/mcfunctions) 包，因为 `tick.json` 文件使我们能够在世界初始化后立即运行命令。
+> 注意：要实现此系统，需要一个 [功能](../commands/mcfunctions.md) 包，因为 `tick.json` 文件使我们能够在世界初始化后立即运行命令。
 
 ## Tick JSON
 

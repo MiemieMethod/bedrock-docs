@@ -15,7 +15,7 @@ description: 理解相对坐标。
 
 Minecraft使用三维坐标系统来存储世界中方块和实体的位置，每个坐标表示一维轴上的一个值。它们以X、Y和Z的格式存储。无论是放置结构和方块，还是传送和召唤实体，您都可以并且有时需要输入坐标。然而，这些坐标不一定总是实际值；您可以用相对值替代世界坐标，这些相对值可以基于世界空间或局部空间。
 
-![](/assets/images/commands/relative-coordinates/coordinates.png)
+![](../assets/images/commands/relative-coordinates/coordinates.png)
 
 _如果您启用了“显示坐标”世界选项，您可能已经对坐标有所了解！_
 

@@ -30,7 +30,7 @@ JSON UI 正在被 [Ore UI](https://github.com/Mojang/ore-ui) 取代。请注意�
 :::
 
 :::tip
-本页概述了包含 JSON UI 基础知识的信息。有关更详细的文档，请查看 [JSON UI 文档](/json-ui/json-ui-documentation) 页面。
+本页概述了包含 JSON UI 基础知识的信息。有关更详细的文档，请查看 [JSON UI 文档](../json-ui/json-ui-documentation.md) 页面。
 :::
 
 游戏的用户界面是数据驱动的，可以被修改。它允许我们修改某些用户界面如何渲染以及在某种程度上如何行为。要开始，所有原版 UI 文件存储在 `RP/ui/...` 文件夹中。
@@ -239,7 +239,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 -   `uv` - 接受一个数组，根据 UV 纹理动画化图像
 -   `color` - 接受从 0.0 到 1.0 的浮点 RGB 值，动画化元素的颜色
 -   `wait` - 接受数字值，用于等待/停留
--   `aseprite_flip_book` - 类似于 `flip_book` 动画，使用精灵表。更多信息 [这里](/json-ui/aseprite-animations)
+-   `aseprite_flip_book` - 类似于 `flip_book` 动画，使用精灵表。更多信息 [这里](../json-ui/aseprite-animations.md)
 -   `clip`
 
 ## 使用运算符

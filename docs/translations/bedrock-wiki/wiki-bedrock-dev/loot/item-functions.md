@@ -9,7 +9,7 @@ mentions:
     - ThomasOrs
 ---
 
-物品函数修改物品在 [战利品表](/loot/loot-tables) 和 [交易表](/loot/trade-tables) 中的属性。
+物品函数修改物品在 [战利品表](../loot/loot-tables.md) 和 [交易表](../loot/trade-tables.md) 中的属性。
 
 TODO  
 can enchantments be prefixed with minecraft:/whatever?
@@ -48,7 +48,7 @@ Java 版本的附加函数或属性均未成功
 | 交易表           | ❌     |
 
 ::: tip 注意
-交易表使用 [`"quantity"` 属性](/loot/trade-tables#quantity) 来设置其数量。
+交易表使用 [`"quantity"` 属性](../loot/trade-tables.md#quantity) 来设置其数量。
 :::
 
 `set_count` 函数设置该物品条目的数量。

@@ -20,7 +20,7 @@ description: 使用计分板创建世界定时器或实体定时器。
 - 每 10 分钟运行一次“清理延迟”功能。
 - 每 30 秒给玩家施加“速度”效果。
 
-该系统特别适用于管理您世界中的多个定时器。在使用命令方块时，您可以使用 [Tick Delay](/commands/intro-to-command-blocks#command-block-tick-delay) 选项来延迟命令的执行时间。然而，在使用函数时，您需要使用像这样的系统。
+该系统特别适用于管理您世界中的多个定时器。在使用命令方块时，您可以使用 [Tick Delay](../commands/intro-to-command-blocks.md#command-block-tick-delay) 选项来延迟命令的执行时间。然而，在使用函数时，您需要使用像这样的系统。
 
 建议在使用命令方块时使用此系统，尤其是当您希望所有世界定时器同步运行时，即具有相同的开始时间。
 
@@ -78,7 +78,7 @@ scoreboard players operation SpeedEffect events %= 30s ticks
 execute if score SpeedEffect events matches 0 run effect @a speed 10 2 true
 ```
 
-![8 个命令方块的链](/assets/images/commands/commandBlockChain/8.png)
+![8 个命令方块的链](../assets/images/commands/commandBlockChain/8.png)
 
 在这里，我们提供了 3 个示例来展示如何实现它们，但您可以添加任何您喜欢的定时器，并根据需要添加多个定时器。
 
@@ -124,7 +124,7 @@ _注意：这 4 个都是目标中的虚拟玩家名称。_
 
 :::info 注意：
 在 Minecraft 中，计分板除法仅计算到整数，十进制值被忽略。
-![](/assets/images/commands/longDivision.png)
+![](../assets/images/commands/longDivision.png)
 :::
 
 **命令 4：** 从计算中获得的余数应用于相应事件的虚拟玩家名称。基于此知识，我们可以在其分数等于 `0` 时运行我们的命令。
@@ -165,7 +165,7 @@ execute if score SpeedEffect events matches 0 if score SpeedEffect intervals mat
 execute if score SpeedEffect events matches 0 if score SpeedEffect intervals matches 1.. run scoreboard players remove SpeedEffect intervals 1
 ```
 
-![8 个命令方块的链](/assets/images/commands/commandBlockChain/8.png)
+![8 个命令方块的链](../assets/images/commands/commandBlockChain/8.png)
 
 ## 在时间范围内执行命令
 
@@ -223,6 +223,6 @@ execute as @e [name=station, scores={ticks=6000}] at @s if entity @e [family=mon
 kill @e [name=station, scores={ticks=6000}]
 ```
 
-![7 个命令方块的链](/assets/images/commands/commandBlockChain/7.png)
+![7 个命令方块的链](../assets/images/commands/commandBlockChain/7.png)
 
 如所示，在完成时间范围时将分数设置为 `0` 将循环定时器。而将分数设置为 `-1` 将停止/禁用它。您仍然可以将分数设置为 `0` 以重新启动定时器。

@@ -14,7 +14,7 @@ description: 重现原版树木。
 
 ::: tip 格式与最小引擎版本 `1.21.40`
 本教程假设你对区块有高级理解。
-在开始之前，请查看[区块指南](/blocks/blocks-intro)。
+在开始之前，请查看[区块指南](../blocks/blocks-intro.md)。
 :::
 
 创建具有衰变树叶的自定义树木虽然复杂，但完全可行！按照本教程操作，很快你就能拥有自己的树木。
@@ -34,7 +34,7 @@ description: 重现原版树木。
 你会立刻注意到，我们的自定义树叶具有一个长列表，用于通过其区块标签搜索原木/自定义木材，尽管代码示例在本教程中使用的是自定义木材。该值为4，此方法用于在圆形半径内搜索最近的原木。
 
 <WikiImage
-  src="/assets/images/blocks/custom-trees/decaying_leaves_showcase_example.png"
+  src="../assets/images/blocks/custom-trees/decaying_leaves_showcase_example.png"
   alt="衰变树叶展示"
   width=420
 />
@@ -699,7 +699,7 @@ description: 重现原版树木。
 
 为你的树苗构建一棵树木！
 
-![](/assets/images/blocks/custom-trees/export_tree.png)
+![](../assets/images/blocks/custom-trees/export_tree.png)
 
 ## 树木特征
 
@@ -1075,7 +1075,7 @@ item.wiki:custom_sapling_placer=自定义树苗放置器
     'RP/textures/item_texture.json'
 ]" />
 
-![](/assets/images/blocks/custom-trees/result.png)
+![](../assets/images/blocks/custom-trees/result.png)
 
 ## 下载示例包
 

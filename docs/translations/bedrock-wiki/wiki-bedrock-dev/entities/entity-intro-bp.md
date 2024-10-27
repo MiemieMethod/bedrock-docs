@@ -87,7 +87,7 @@ description: 实体行为包简介。
 
 所有组件组都是自定义创建的。你不能在你的实体中使用其他实体的组件组。
 
-在原版Minecraft实体中，组件组以`minecraft:`命名空间命名，如上面的`minecraft:cat_persian`。但重要的是要记住，它们_不是组件_。当你创建组件组时，可以使用任意名称/命名空间:名称组合。例如，上面的`wiki:example_group`。有关命名空间的更多信息，请查看[这里](/concepts/namespaces)。
+在原版Minecraft实体中，组件组以`minecraft:`命名空间命名，如上面的`minecraft:cat_persian`。但重要的是要记住，它们_不是组件_。当你创建组件组时，可以使用任意名称/命名空间:名称组合。例如，上面的`wiki:example_group`。有关命名空间的更多信息，请查看[这里](../concepts/namespaces.md)。
 
 当组件放入组中时，它_不会_自动添加到你的实体中。在组被添加之前，它不会做任何事情。当组被添加时，组件将变为活动状态，并开始影响你的实体行为。你也可以同时添加多个组件组。
 
@@ -162,7 +162,7 @@ description: 实体行为包简介。
 
 有关事件可以做什么的更深入教程，请查看我们关于实体事件的页面。
 
-<Button link="/entities/entity-events">实体事件</Button>
+<Button link="../entities/entity-events.md">实体事件</Button>
 
 ## 原版中的用途
 

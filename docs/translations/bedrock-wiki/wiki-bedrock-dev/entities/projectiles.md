@@ -144,7 +144,7 @@ _具体行为未知_
 | radius              | Decimal                 | 云的半径                                                                                                                                                                  |
 | radius_on_use       | Decimal                 |                                                                                                                                                                          |
 | potion              | Integer                 | 持续药水 ID                                                                                                                                                              |
-| particle            | String                  | [原版粒子](/particles/vanilla-particles) 云的发射器。只接受原版粒子。**dragonbreath** 允许使用瓶子获得龙息                                                                  |
+| particle            | String                  | [原版粒子](../particles/vanilla-particles.md) 云的发射器。只接受原版粒子。**dragonbreath** 允许使用瓶子获得龙息                                                                  |
 | duration            | Integer                 | 云的持续时间（秒）                                                                                                                                                         |
 | color               | Integer array [r, g, b] | 粒子的颜色                                                                                                                                                                 |
 | affect_owner        | Boolean                 | 药水效果是否影响射手。不适用于玩家                                                                                                                                         |
@@ -196,7 +196,7 @@ _具体行为未知_
 
 | 名称          | 类型    | 描述                                              |
 |---------------|---------|---------------------------------------------------|
-| particle_type | String  | 要使用的 [原版粒子](/particles/vanilla-particles) |
+| particle_type | String  | 要使用的 [原版粒子](../particles/vanilla-particles.md) |
 | num_particles | Integer | 粒子数量                                          |
 | on_entity_hit | Boolean | 是否应在实体命中时生成粒子                      |
 | on_other_hit  | Boolean | 是否应在其他命中时生成粒子                      |
@@ -255,4 +255,4 @@ _具体行为未知。目前会导致 Minecraft 崩溃，可能是因为参数�
 _具体行为未知。目前会导致 Minecraft 崩溃，可能是因为它只对抛射药水有效。_
 
 ## 附加信息
-在创建自定义投射物（例如箭矢或三叉戟变体，或完全自定义的投射物）时，您可能需要考虑定义一个 [runtime identifier](/entities/runtime-identifier)，以确保其按预期运作。如果不这样做，可能会导致不期望的行为，从奇怪的视觉效果到不正确的击退方向，以及用徒手就能杀死的箭矢。
+在创建自定义投射物（例如箭矢或三叉戟变体，或完全自定义的投射物）时，您可能需要考虑定义一个 [runtime identifier](../entities/runtime-identifier.md)，以确保其按预期运作。如果不这样做，可能会导致不期望的行为，从奇怪的视觉效果到不正确的击退方向，以及用徒手就能杀死的箭矢。

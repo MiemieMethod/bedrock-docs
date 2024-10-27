@@ -173,9 +173,9 @@ Minecraft的原版文件是很好的参考材料。您应下载这些包，并�
 
 ### 故障排除与额外帮助
 
--   如果JSON格式对您来说非常棘手，可以考虑阅读[理解JSON指南](/guide/understanding-json)。
--   如果您遇到奇怪的错误，可以考虑阅读[故障排除指南](/guide/troubleshooting)。
--   您可以在[这里](/meta/useful-links)探索其他工具。
+-   如果JSON格式对您来说非常棘手，可以考虑阅读[理解JSON指南](../guide/understanding-json.md)。
+-   如果您遇到奇怪的错误，可以考虑阅读[故障排除指南](../guide/troubleshooting.md)。
+-   您可以在[这里](../meta/useful-links.md)探索其他工具。
 
 ## 下一步
 
@@ -188,4 +188,4 @@ Minecraft的原版文件是很好的参考材料。您应下载这些包，并�
 
 :::
 
-<Button link="/guide/project-setup">下一步：项目设置</Button>
+<Button link="../guide/project-setup.md">下一步：项目设置</Button>

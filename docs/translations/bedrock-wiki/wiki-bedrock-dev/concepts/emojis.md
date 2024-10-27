@@ -32,189 +32,189 @@ Minecraft有一堆硬编码的[私用区Unicode符号](https://en.wikipedia.org/
 
 | 名称   | 字母（复制/粘贴此） | Unicode | 图片                                              |
 |--------|---------------------|---------|---------------------------------------------------|
-| 食物   |                    | U+E100  | ![](/assets/images/concepts/emojis/hud/food.png)  |
-| 护甲   |                    | U+E101  | ![](/assets/images/concepts/emojis/hud/armor.png) |
-| 心脏   |                    | U+E10C  | ![](/assets/images/concepts/emojis/hud/heart.png) |
+| 食物   |                    | U+E100  | ![](../assets/images/concepts/emojis/hud/food.png)  |
+| 护甲   |                    | U+E101  | ![](../assets/images/concepts/emojis/hud/armor.png) |
+| 心脏   |                    | U+E10C  | ![](../assets/images/concepts/emojis/hud/heart.png) |
 
 ### 物品与方块
 
 | 名称             | 字母（复制/粘贴此） | Unicode | 图片                                                          |
 |------------------|---------------------|---------|---------------------------------------------------------------|
-| 木镐             |                    | U+E108  | ![](/assets/images/concepts/emojis/items/wooden_pickaxe.png) |
-| 木剑             |                    | U+E109  | ![](/assets/images/concepts/emojis/items/wooden_sword.png)   |
-| 工作台           |                    | U+E10A  | ![](/assets/images/concepts/emojis/items/crafting_table.png) |
-| 熔炉             |                    | U+E10B  | ![](/assets/images/concepts/emojis/items/furnace.png)        |
+| 木镐             |                    | U+E108  | ![](../assets/images/concepts/emojis/items/wooden_pickaxe.png) |
+| 木剑             |                    | U+E109  | ![](../assets/images/concepts/emojis/items/wooden_sword.png)   |
+| 工作台           |                    | U+E10A  | ![](../assets/images/concepts/emojis/items/crafting_table.png) |
+| 熔炉             |                    | U+E10B  | ![](../assets/images/concepts/emojis/items/furnace.png)        |
 
 ### 市场
 
 | 名称      | 字母（复制/粘贴此） | Unicode | 图片                                                           |
 |-----------|---------------------|---------|----------------------------------------------------------------|
-| Minecoin  |                    | U+E102  | ![](/assets/images/concepts/emojis/marketplace/minecoin.png) |
-| 代币      |                    | U+E105  | ![](/assets/images/concepts/emojis/marketplace/token.png)    |
+| Minecoin  |                    | U+E102  | ![](../assets/images/concepts/emojis/marketplace/minecoin.png) |
+| 代币      |                    | U+E105  | ![](../assets/images/concepts/emojis/marketplace/token.png)    |
 
 ### 背包
 
 | 名称               | 字母（复制/粘贴此） | Unicode | 图片                                                             |
 |--------------------|---------------------|---------|------------------------------------------------------------------|
-| 制作开关开启       |                    | U+E0A0  | ![](/assets/images/concepts/emojis/inventory/craft_toggle_on.png)  |
-| 制作开关关闭       |                    | U+E0A1  | ![](/assets/images/concepts/emojis/inventory/craft_toggle_off.png) |
+| 制作开关开启       |                    | U+E0A0  | ![](../assets/images/concepts/emojis/inventory/craft_toggle_on.png)  |
+| 制作开关关闭       |                    | U+E0A1  | ![](../assets/images/concepts/emojis/inventory/craft_toggle_off.png) |
 
 ### 新触控
 
 | 名称       | 字母（复制/粘贴此） | Unicode | 输入键                                         | 图片                                                    |
 |------------|---------------------|---------|------------------------------------------------|---------------------------------------------------------|
-| 跳跃       |                    | U+E014  | :tip_virtual_button_jump:                      | ![](/assets/images/concepts/emojis/new_touch/jump.png)     |
-| 攻击       |                    | U+E015  | :tip_virtual_button_action_attack_or_destroy:  | ![](/assets/images/concepts/emojis/new_touch/attack.png)   |
-| 操纵杆     |                    | U+E016  | :tip_virtual_joystick:                         | ![](/assets/images/concepts/emojis/new_touch/joystick.png) |
-| 放置       |                    | U+E018  | :tip_virtual_button_action_build_or_use:       | ![](/assets/images/concepts/emojis/new_touch/place.png)    |
-| 潜行       |                    | U+E019  | :tip_virtual_button_sneak:                     | ![](/assets/images/concepts/emojis/new_touch/sneak.png)    |
-| 冲刺       |                    | U+E01A  | :tip_virtual_button_sprint:                    | ![](/assets/images/concepts/emojis/new_touch/sprint.png)   |
-| 向上飞行   |                    | U+E01B  | :tip_virtual_button_fly_up:                    | ![](/assets/images/concepts/emojis/new_touch/fly_up.png)   |
-| 向下飞行   |                    | U+E01C  | :tip_virtual_button_fly_down:                  | ![](/assets/images/concepts/emojis/new_touch/fly_down.png) |
-| 下车       |                    | U+E01D  | :tip_virtual_button_dismount:                  | ![](/assets/images/concepts/emojis/new_touch/dismount.png) |
+| 跳跃       |                    | U+E014  | :tip_virtual_button_jump:                      | ![](../assets/images/concepts/emojis/new_touch/jump.png)     |
+| 攻击       |                    | U+E015  | :tip_virtual_button_action_attack_or_destroy:  | ![](../assets/images/concepts/emojis/new_touch/attack.png)   |
+| 操纵杆     |                    | U+E016  | :tip_virtual_joystick:                         | ![](../assets/images/concepts/emojis/new_touch/joystick.png) |
+| 放置       |                    | U+E018  | :tip_virtual_button_action_build_or_use:       | ![](../assets/images/concepts/emojis/new_touch/place.png)    |
+| 潜行       |                    | U+E019  | :tip_virtual_button_sneak:                     | ![](../assets/images/concepts/emojis/new_touch/sneak.png)    |
+| 冲刺       |                    | U+E01A  | :tip_virtual_button_sprint:                    | ![](../assets/images/concepts/emojis/new_touch/sprint.png)   |
+| 向上飞行   |                    | U+E01B  | :tip_virtual_button_fly_up:                    | ![](../assets/images/concepts/emojis/new_touch/fly_up.png)   |
+| 向下飞行   |                    | U+E01C  | :tip_virtual_button_fly_down:                  | ![](../assets/images/concepts/emojis/new_touch/fly_down.png) |
+| 下车       |                    | U+E01D  | :tip_virtual_button_dismount:                  | ![](../assets/images/concepts/emojis/new_touch/dismount.png) |
 
 ### 触控
 
 | 名称             | 字母（复制/粘贴此） | Unicode | 输入键           | 图片                                                        |
 |------------------|---------------------|---------|-------------------|-------------------------------------------------------------|
-| 跳跃             |                    | U+E084  | :touch_jump:      | ![](/assets/images/concepts/emojis/touch/jump.png)           |
-| 蹲下             |                    | U+E085  | :touch_sneak:     | ![](/assets/images/concepts/emojis/touch/crouch.png)         |
-| 向上飞行         |                    | U+E086  | :touch_fly_up:    | ![](/assets/images/concepts/emojis/touch/fly_up.png)         |
-| 向下飞行         |                    | U+E087  | :touch_fly_down:  | ![](/assets/images/concepts/emojis/touch/fly_down.png)       |
-| 停止飞行         |                    | U+E088  | :touch_stop_flying: | ![](/assets/images/concepts/emojis/touch/stop_flying.png)  |
-| 左箭头           |                    | U+E081  | :touch_left:      | ![](/assets/images/concepts/emojis/touch/left_arrow.png)     |
-| 右箭头           |                    | U+E083  | :touch_right:     | ![](/assets/images/concepts/emojis/touch/right_arrow.png)    |
-| 上箭头           |                    | U+E080  | :touch_forward:   | ![](/assets/images/concepts/emojis/touch/up_arrow.png)       |
-| 下箭头           |                    | U+E082  | :touch_back:      | ![](/assets/images/concepts/emojis/touch/down_arrow.png)     |
-| 小跳跃           |                    | U+E059  | :tip_touch_jump:  | ![](/assets/images/concepts/emojis/touch/smalljump.png)      |
-| 小蹲下           |                    | U+E05A  | :tip_touch_sneak: | ![](/assets/images/concepts/emojis/touch/smallcrouch.png)    |
-| 小向上飞行       |                    | U+E05C  | :tip_touch_fly_up: | ![](/assets/images/concepts/emojis/touch/smallflyup.png)    |
-| 小向下飞行       |                    | U+E05D  | :tip_touch_fly_down: | ![](/assets/images/concepts/emojis/touch/smallflydown.png)  |
-| 小左箭头         |                    | U+E056  | :tip_touch_left:  | ![](/assets/images/concepts/emojis/touch/smallleftarrow.png) |
-| 小右箭头         |                    | U+E058  | :tip_touch_right: | ![](/assets/images/concepts/emojis/touch/smallrightarrow.png)|
-| 小上箭头         |                    | U+E055  | :tip_touch_forward: | ![](/assets/images/concepts/emojis/touch/smalluparrow.png)    |
-| 小下箭头         |                    | U+E057  | :tip_touch_back:  | ![](/assets/images/concepts/emojis/touch/smalldownarrow.png)  |
-| 小背包           |                    | U+E05B  | :tip_touch_inventory: | ![](/assets/images/concepts/emojis/touch/smallinventory.png)  |
+| 跳跃             |                    | U+E084  | :touch_jump:      | ![](../assets/images/concepts/emojis/touch/jump.png)           |
+| 蹲下             |                    | U+E085  | :touch_sneak:     | ![](../assets/images/concepts/emojis/touch/crouch.png)         |
+| 向上飞行         |                    | U+E086  | :touch_fly_up:    | ![](../assets/images/concepts/emojis/touch/fly_up.png)         |
+| 向下飞行         |                    | U+E087  | :touch_fly_down:  | ![](../assets/images/concepts/emojis/touch/fly_down.png)       |
+| 停止飞行         |                    | U+E088  | :touch_stop_flying: | ![](../assets/images/concepts/emojis/touch/stop_flying.png)  |
+| 左箭头           |                    | U+E081  | :touch_left:      | ![](../assets/images/concepts/emojis/touch/left_arrow.png)     |
+| 右箭头           |                    | U+E083  | :touch_right:     | ![](../assets/images/concepts/emojis/touch/right_arrow.png)    |
+| 上箭头           |                    | U+E080  | :touch_forward:   | ![](../assets/images/concepts/emojis/touch/up_arrow.png)       |
+| 下箭头           |                    | U+E082  | :touch_back:      | ![](../assets/images/concepts/emojis/touch/down_arrow.png)     |
+| 小跳跃           |                    | U+E059  | :tip_touch_jump:  | ![](../assets/images/concepts/emojis/touch/smalljump.png)      |
+| 小蹲下           |                    | U+E05A  | :tip_touch_sneak: | ![](../assets/images/concepts/emojis/touch/smallcrouch.png)    |
+| 小向上飞行       |                    | U+E05C  | :tip_touch_fly_up: | ![](../assets/images/concepts/emojis/touch/smallflyup.png)    |
+| 小向下飞行       |                    | U+E05D  | :tip_touch_fly_down: | ![](../assets/images/concepts/emojis/touch/smallflydown.png)  |
+| 小左箭头         |                    | U+E056  | :tip_touch_left:  | ![](../assets/images/concepts/emojis/touch/smallleftarrow.png) |
+| 小右箭头         |                    | U+E058  | :tip_touch_right: | ![](../assets/images/concepts/emojis/touch/smallrightarrow.png)|
+| 小上箭头         |                    | U+E055  | :tip_touch_forward: | ![](../assets/images/concepts/emojis/touch/smalluparrow.png)    |
+| 小下箭头         |                    | U+E057  | :tip_touch_back:  | ![](../assets/images/concepts/emojis/touch/smalldownarrow.png)  |
+| 小背包           |                    | U+E05B  | :tip_touch_inventory: | ![](../assets/images/concepts/emojis/touch/smallinventory.png)  |
 
 ### 键盘与鼠标
 
 | 名称               | 字母（复制/粘贴此） | Unicode | 输入键                   | 图片                                                              |
 |--------------------|---------------------|---------|---------------------------|-------------------------------------------------------------------|
-| 左键点击           |                    | U+E060  | :mouse_left_button:       | ![](/assets/images/concepts/emojis/keyboard/left_click.png)      |
-| 右键点击           |                    | U+E061  | :mouse_right_button:      | ![](/assets/images/concepts/emojis/keyboard/right_click.png)     |
-| 中键点击           |                    | U+E062  | :mouse_middle_button:     | ![](/assets/images/concepts/emojis/keyboard/middle_click.png)    |
-| 小左键点击         |                    | U+E070  | :light_mouse_left_button: | ![](/assets/images/concepts/emojis/keyboard/small_left_click.png) |
-| 小右键点击         |                    | U+E071  | :light_mouse_right_button: | ![](/assets/images/concepts/emojis/keyboard/small_right_click.png) |
-| 小中键点击         |                    | U+E072  | :light_mouse_middle_button: | ![](/assets/images/concepts/emojis/keyboard/small_middle_click.png) |
-| 小鼠标             |                    | U+E073  | :light_mouse_button:      | ![](/assets/images/concepts/emojis/keyboard/small_mouse.png)     |
+| 左键点击           |                    | U+E060  | :mouse_left_button:       | ![](../assets/images/concepts/emojis/keyboard/left_click.png)      |
+| 右键点击           |                    | U+E061  | :mouse_right_button:      | ![](../assets/images/concepts/emojis/keyboard/right_click.png)     |
+| 中键点击           |                    | U+E062  | :mouse_middle_button:     | ![](../assets/images/concepts/emojis/keyboard/middle_click.png)    |
+| 小左键点击         |                    | U+E070  | :light_mouse_left_button: | ![](../assets/images/concepts/emojis/keyboard/small_left_click.png) |
+| 小右键点击         |                    | U+E071  | :light_mouse_right_button: | ![](../assets/images/concepts/emojis/keyboard/small_right_click.png) |
+| 小中键点击         |                    | U+E072  | :light_mouse_middle_button: | ![](../assets/images/concepts/emojis/keyboard/small_middle_click.png) |
+| 小鼠标             |                    | U+E073  | :light_mouse_button:      | ![](../assets/images/concepts/emojis/keyboard/small_mouse.png)     |
 
 ### Xbox
 
 | 名称               | 字母（复制/粘贴此） | Unicode | 图片                                                    |
 |--------------------|---------------------|---------|---------------------------------------------------------|
-| Y                  |                    | U+E003  | ![](/assets/images/concepts/emojis/xbox/y_button.png)   |
-| B                  |                    | U+E001  | ![](/assets/images/concepts/emojis/xbox/b_button.png)   |
-| A                  |                    | U+E000  | ![](/assets/images/concepts/emojis/xbox/a_button.png)   |
-| X                  |                    | U+E002  | ![](/assets/images/concepts/emojis/xbox/x_button.png)   |
-| 取消               |                    | U+E008  | ![](/assets/images/concepts/emojis/xbox/back.png)       |
-| 开始               |                    | U+E009  | ![](/assets/images/concepts/emojis/xbox/start.png)      |
-| LB（左肩键）        |                    | U+E004  | ![](/assets/images/concepts/emojis/xbox/left_bumper.png) |
-| RB（右肩键）        |                    | U+E005  | ![](/assets/images/concepts/emojis/xbox/right_bumper.png)|
-| LT（左触发键）      |                    | U+E006  | ![](/assets/images/concepts/emojis/xbox/left_trigger.png) |
-| RT（右触发键）      |                    | U+E007  | ![](/assets/images/concepts/emojis/xbox/right_trigger.png)|
-| LS（左摇杆）         |                    | U+E00A  | ![](/assets/images/concepts/emojis/xbox/left_stick.png)   |
-| RS（右摇杆）         |                    | U+E00B  | ![](/assets/images/concepts/emojis/xbox/right_stick.png)  |
-| 十字键上            |                    | U+E00C  | ![](/assets/images/concepts/emojis/xbox/dpad_up.png)      |
-| 十字键右            |                    | U+E00F  | ![](/assets/images/concepts/emojis/xbox/dpad_right.png)   |
-| 十字键下            |                    | U+E00E  | ![](/assets/images/concepts/emojis/xbox/dpad_down.png)    |
-| 十字键左            |                    | U+E00D  | ![](/assets/images/concepts/emojis/xbox/dpad_left.png)    |
+| Y                  |                    | U+E003  | ![](../assets/images/concepts/emojis/xbox/y_button.png)   |
+| B                  |                    | U+E001  | ![](../assets/images/concepts/emojis/xbox/b_button.png)   |
+| A                  |                    | U+E000  | ![](../assets/images/concepts/emojis/xbox/a_button.png)   |
+| X                  |                    | U+E002  | ![](../assets/images/concepts/emojis/xbox/x_button.png)   |
+| 取消               |                    | U+E008  | ![](../assets/images/concepts/emojis/xbox/back.png)       |
+| 开始               |                    | U+E009  | ![](../assets/images/concepts/emojis/xbox/start.png)      |
+| LB（左肩键）        |                    | U+E004  | ![](../assets/images/concepts/emojis/xbox/left_bumper.png) |
+| RB（右肩键）        |                    | U+E005  | ![](../assets/images/concepts/emojis/xbox/right_bumper.png)|
+| LT（左触发键）      |                    | U+E006  | ![](../assets/images/concepts/emojis/xbox/left_trigger.png) |
+| RT（右触发键）      |                    | U+E007  | ![](../assets/images/concepts/emojis/xbox/right_trigger.png)|
+| LS（左摇杆）         |                    | U+E00A  | ![](../assets/images/concepts/emojis/xbox/left_stick.png)   |
+| RS（右摇杆）         |                    | U+E00B  | ![](../assets/images/concepts/emojis/xbox/right_stick.png)  |
+| 十字键上            |                    | U+E00C  | ![](../assets/images/concepts/emojis/xbox/dpad_up.png)      |
+| 十字键右            |                    | U+E00F  | ![](../assets/images/concepts/emojis/xbox/dpad_right.png)   |
+| 十字键下            |                    | U+E00E  | ![](../assets/images/concepts/emojis/xbox/dpad_down.png)    |
+| 十字键左            |                    | U+E00D  | ![](../assets/images/concepts/emojis/xbox/dpad_left.png)    |
 
 ### 任天堂Switch
 
 | 名称               | 字母（复制/粘贴此） | Unicode | 图片                                                             |
 |--------------------|---------------------|---------|------------------------------------------------------------------|
-| X                  |                    | U+E042  | ![](/assets/images/concepts/emojis/switch/x_button.png)         |
-| A                  |                    | U+E040  | ![](/assets/images/concepts/emojis/switch/a_button.png)         |
-| B                  |                    | U+E041  | ![](/assets/images/concepts/emojis/switch/b_button.png)         |
-| Y                  |                    | U+E043  | ![](/assets/images/concepts/emojis/switch/y_button.png)         |
-| +                  |                    | U+E049  | ![](/assets/images/concepts/emojis/switch/plus.png)             |
-| -                  |                    | U+E048  | ![](/assets/images/concepts/emojis/switch/minus.png)            |
-| L（左肩键）         |                    | U+E044  | ![](/assets/images/concepts/emojis/switch/left_bumper.png)      |
-| R（右肩键）         |                    | U+E045  | ![](/assets/images/concepts/emojis/switch/right_bumper.png)     |
-| ZL（左触发键）      |                    | U+E046  | ![](/assets/images/concepts/emojis/switch/left_trigger.png)     |
-| RL（右触发键）      |                    | U+E047  | ![](/assets/images/concepts/emojis/switch/right_trigger.png)    |
-| L（左摇杆）         |                    | U+E04A  | ![](/assets/images/concepts/emojis/switch/left_stick.png)       |
-| R（右摇杆）         |                    | U+E04B  | ![](/assets/images/concepts/emojis/switch/right_stick.png)      |
-| 十字键上            |                    | U+E04C  | ![](/assets/images/concepts/emojis/switch/dpad_up.png)          |
-| 十字键右            |                    | U+E04F  | ![](/assets/images/concepts/emojis/switch/dpad_right.png)       |
-| 十字键下            |                    | U+E04E  | ![](/assets/images/concepts/emojis/switch/dpad_down.png)        |
-| 十字键左            |                    | U+E04D  | ![](/assets/images/concepts/emojis/switch/dpad_left.png)        |
+| X                  |                    | U+E042  | ![](../assets/images/concepts/emojis/switch/x_button.png)         |
+| A                  |                    | U+E040  | ![](../assets/images/concepts/emojis/switch/a_button.png)         |
+| B                  |                    | U+E041  | ![](../assets/images/concepts/emojis/switch/b_button.png)         |
+| Y                  |                    | U+E043  | ![](../assets/images/concepts/emojis/switch/y_button.png)         |
+| +                  |                    | U+E049  | ![](../assets/images/concepts/emojis/switch/plus.png)             |
+| -                  |                    | U+E048  | ![](../assets/images/concepts/emojis/switch/minus.png)            |
+| L（左肩键）         |                    | U+E044  | ![](../assets/images/concepts/emojis/switch/left_bumper.png)      |
+| R（右肩键）         |                    | U+E045  | ![](../assets/images/concepts/emojis/switch/right_bumper.png)     |
+| ZL（左触发键）      |                    | U+E046  | ![](../assets/images/concepts/emojis/switch/left_trigger.png)     |
+| RL（右触发键）      |                    | U+E047  | ![](../assets/images/concepts/emojis/switch/right_trigger.png)    |
+| L（左摇杆）         |                    | U+E04A  | ![](../assets/images/concepts/emojis/switch/left_stick.png)       |
+| R（右摇杆）         |                    | U+E04B  | ![](../assets/images/concepts/emojis/switch/right_stick.png)      |
+| 十字键上            |                    | U+E04C  | ![](../assets/images/concepts/emojis/switch/dpad_up.png)          |
+| 十字键右            |                    | U+E04F  | ![](../assets/images/concepts/emojis/switch/dpad_right.png)       |
+| 十字键下            |                    | U+E04E  | ![](../assets/images/concepts/emojis/switch/dpad_down.png)        |
+| 十字键左            |                    | U+E04D  | ![](../assets/images/concepts/emojis/switch/dpad_left.png)        |
 
 ### PlayStation (4/5)
 
 | 名称               | 字母（复制/粘贴此） | Unicode | 图片                                                             |
 |--------------------|---------------------|---------|------------------------------------------------------------------|
-| 三角形             |                    | U+E023  | ![](/assets/images/concepts/emojis/playstation/triangle.png)      |
-| 圆圈               |                    | U+E021  | ![](/assets/images/concepts/emojis/playstation/circle.png)        |
-| 叉叉               |                    | U+E020  | ![](/assets/images/concepts/emojis/playstation/cross.png)         |
-| 方块               |                    | U+E022  | ![](/assets/images/concepts/emojis/playstation/square.png)        |
-| 选项/分享          |                    | U+E029  | ![](/assets/images/concepts/emojis/playstation/options_share.png) |
-| 触控板             |                    | U+E028  | ![](/assets/images/concepts/emojis/playstation/touch_pad.png)     |
-| L1（左肩键）        |                    | U+E024  | ![](/assets/images/concepts/emojis/playstation/left_bumper.png)   |
-| R1（右肩键）        |                    | U+E025  | ![](/assets/images/concepts/emojis/playstation/right_bumper.png)  |
-| L2（左触发键）      |                    | U+E026  | ![](/assets/images/concepts/emojis/playstation/left_trigger.png)  |
-| R2（右触发键）      |                    | U+E027  | ![](/assets/images/concepts/emojis/playstation/right_trigger.png) |
-| L3（左摇杆）         |                    | U+E02A  | ![](/assets/images/concepts/emojis/playstation/left_stick.png)    |
-| R3（右摇杆）         |                    | U+E02B  | ![](/assets/images/concepts/emojis/playstation/right_stick.png)   |
-| 十字键上            |                    | U+E02C  | ![](/assets/images/concepts/emojis/playstation/dpad_up.png)       |
-| 十字键右            |                    | U+E02F  | ![](/assets/images/concepts/emojis/playstation/dpad_right.png)    |
-| 十字键下            |                    | U+E02E  | ![](/assets/images/concepts/emojis/playstation/dpad_down.png)     |
-| 十字键左            |                    | U+E02D  | ![](/assets/images/concepts/emojis/playstation/dpad_left.png)     |
+| 三角形             |                    | U+E023  | ![](../assets/images/concepts/emojis/playstation/triangle.png)      |
+| 圆圈               |                    | U+E021  | ![](../assets/images/concepts/emojis/playstation/circle.png)        |
+| 叉叉               |                    | U+E020  | ![](../assets/images/concepts/emojis/playstation/cross.png)         |
+| 方块               |                    | U+E022  | ![](../assets/images/concepts/emojis/playstation/square.png)        |
+| 选项/分享          |                    | U+E029  | ![](../assets/images/concepts/emojis/playstation/options_share.png) |
+| 触控板             |                    | U+E028  | ![](../assets/images/concepts/emojis/playstation/touch_pad.png)     |
+| L1（左肩键）        |                    | U+E024  | ![](../assets/images/concepts/emojis/playstation/left_bumper.png)   |
+| R1（右肩键）        |                    | U+E025  | ![](../assets/images/concepts/emojis/playstation/right_bumper.png)  |
+| L2（左触发键）      |                    | U+E026  | ![](../assets/images/concepts/emojis/playstation/left_trigger.png)  |
+| R2（右触发键）      |                    | U+E027  | ![](../assets/images/concepts/emojis/playstation/right_trigger.png) |
+| L3（左摇杆）         |                    | U+E02A  | ![](../assets/images/concepts/emojis/playstation/left_stick.png)    |
+| R3（右摇杆）         |                    | U+E02B  | ![](../assets/images/concepts/emojis/playstation/right_stick.png)   |
+| 十字键上            |                    | U+E02C  | ![](../assets/images/concepts/emojis/playstation/dpad_up.png)       |
+| 十字键右            |                    | U+E02F  | ![](../assets/images/concepts/emojis/playstation/dpad_right.png)    |
+| 十字键下            |                    | U+E02E  | ![](../assets/images/concepts/emojis/playstation/dpad_down.png)     |
+| 十字键左            |                    | U+E02D  | ![](../assets/images/concepts/emojis/playstation/dpad_left.png)     |
 
 ### Oculus (Rift/Rift S)
 
 | 名称               | 字母（复制/粘贴此） | Unicode | 图片                                                          |
 |--------------------|---------------------|---------|---------------------------------------------------------------|
-| 0                  |                    | U+E0E0  | ![](/assets/images/concepts/emojis/oculus/0_button.png)      |
-| B                  |                    | U+E0E2  | ![](/assets/images/concepts/emojis/oculus/b_button.png)      |
-| A                  |                    | U+E0E1  | ![](/assets/images/concepts/emojis/oculus/a_button.png)      |
-| Y                  |                    | U+E0EA  | ![](/assets/images/concepts/emojis/oculus/y_button.png)      |
-| X                  |                    | U+E0E9  | ![](/assets/images/concepts/emojis/oculus/x_button.png)      |
-| LG（左抓握键）       |                    | U+E0E3  | ![](/assets/images/concepts/emojis/oculus/left_grip.png)     |
-| RG（右抓握键）       |                    | U+E0E4  | ![](/assets/images/concepts/emojis/oculus/right_grip.png)    |
-| LT（左触发键）      |                    | U+E0E7  | ![](/assets/images/concepts/emojis/oculus/left_trigger.png)  |
-| RT（右触发键）      |                    | U+E0E8  | ![](/assets/images/concepts/emojis/oculus/right_trigger.png) |
-| LS（左摇杆）         |                    | U+E0E5  | ![](/assets/images/concepts/emojis/oculus/left_stick.png)    |
-| RS（右摇杆）         |                    | U+E0E6  | ![](/assets/images/concepts/emojis/oculus/right_stick.png)   |
+| 0                  |                    | U+E0E0  | ![](../assets/images/concepts/emojis/oculus/0_button.png)      |
+| B                  |                    | U+E0E2  | ![](../assets/images/concepts/emojis/oculus/b_button.png)      |
+| A                  |                    | U+E0E1  | ![](../assets/images/concepts/emojis/oculus/a_button.png)      |
+| Y                  |                    | U+E0EA  | ![](../assets/images/concepts/emojis/oculus/y_button.png)      |
+| X                  |                    | U+E0E9  | ![](../assets/images/concepts/emojis/oculus/x_button.png)      |
+| LG（左抓握键）       |                    | U+E0E3  | ![](../assets/images/concepts/emojis/oculus/left_grip.png)     |
+| RG（右抓握键）       |                    | U+E0E4  | ![](../assets/images/concepts/emojis/oculus/right_grip.png)    |
+| LT（左触发键）      |                    | U+E0E7  | ![](../assets/images/concepts/emojis/oculus/left_trigger.png)  |
+| RT（右触发键）      |                    | U+E0E8  | ![](../assets/images/concepts/emojis/oculus/right_trigger.png) |
+| LS（左摇杆）         |                    | U+E0E5  | ![](../assets/images/concepts/emojis/oculus/left_stick.png)    |
+| RS（右摇杆）         |                    | U+E0E6  | ![](../assets/images/concepts/emojis/oculus/right_stick.png)   |
 
 ### Windows MR（混合现实）
 
 | 名称                    | 字母（复制/粘贴此） | Unicode | 图片                                                                               |
 |-------------------------|---------------------|---------|------------------------------------------------------------------------------------|
-| 菜单                    |                    | U+E0C2  | ![](/assets/images/concepts/emojis/windowsMR/menu.png)                            |
-| Windows                 |                    | U+E0CD  | ![](/assets/images/concepts/emojis/windowsMR/windows.png)                         |
-| 左触控板                |                    | U+E0C5  | ![](/assets/images/concepts/emojis/windowsMR/left_touchpad.png)                   |
-| 左横向触控板            |                    | U+E0C6  | ![](/assets/images/concepts/emojis/windowsMR/left_touchpad_horizontal.png)        |
-| 左纵向触控板            |                    | U+E0C7  | ![](/assets/images/concepts/emojis/windowsMR/left_touchpad_vertical.png)          |
-| 右触控板                |                    | U+E0C8  | ![](/assets/images/concepts/emojis/windowsMR/right_touchpad.png)                  |
-| 右横向触控板            |                    | U+E0C9  | ![](/assets/images/concepts/emojis/windowsMR/right_touchpad_horizontal.png)       |
-| 右纵向触控板            |                    | U+E0CA  | ![](/assets/images/concepts/emojis/windowsMR/right_touchpad_vertical.png)         |
-| LT（左触发键）          |                    | U+E0CB  | ![](/assets/images/concepts/emojis/windowsMR/left_trigger.png)                    |
-| RT（右触发键）          |                    | U+E0CC  | ![](/assets/images/concepts/emojis/windowsMR/right_trigger.png)                   |
-| LG（左抓握键）           |                    | U+E0C0  | ![](/assets/images/concepts/emojis/windowsMR/left_grab.png)                       |
-| RG（右抓握键）           |                    | U+E0C1  | ![](/assets/images/concepts/emojis/windowsMR/right_grab.png)                      |
-| LS（左摇杆）             |                    | U+E0C3  | ![](/assets/images/concepts/emojis/windowsMR/left_stick.png)                      |
-| RS（右摇杆）             |                    | U+E0C4  | ![](/assets/images/concepts/emojis/windowsMR/right_stick.png)                     |
+| 菜单                    |                    | U+E0C2  | ![](../assets/images/concepts/emojis/windowsMR/menu.png)                            |
+| Windows                 |                    | U+E0CD  | ![](../assets/images/concepts/emojis/windowsMR/windows.png)                         |
+| 左触控板                |                    | U+E0C5  | ![](../assets/images/concepts/emojis/windowsMR/left_touchpad.png)                   |
+| 左横向触控板            |                    | U+E0C6  | ![](../assets/images/concepts/emojis/windowsMR/left_touchpad_horizontal.png)        |
+| 左纵向触控板            |                    | U+E0C7  | ![](../assets/images/concepts/emojis/windowsMR/left_touchpad_vertical.png)          |
+| 右触控板                |                    | U+E0C8  | ![](../assets/images/concepts/emojis/windowsMR/right_touchpad.png)                  |
+| 右横向触控板            |                    | U+E0C9  | ![](../assets/images/concepts/emojis/windowsMR/right_touchpad_horizontal.png)       |
+| 右纵向触控板            |                    | U+E0CA  | ![](../assets/images/concepts/emojis/windowsMR/right_touchpad_vertical.png)         |
+| LT（左触发键）          |                    | U+E0CB  | ![](../assets/images/concepts/emojis/windowsMR/left_trigger.png)                    |
+| RT（右触发键）          |                    | U+E0CC  | ![](../assets/images/concepts/emojis/windowsMR/right_trigger.png)                   |
+| LG（左抓握键）           |                    | U+E0C0  | ![](../assets/images/concepts/emojis/windowsMR/left_grab.png)                       |
+| RG（右抓握键）           |                    | U+E0C1  | ![](../assets/images/concepts/emojis/windowsMR/right_grab.png)                      |
+| LS（左摇杆）             |                    | U+E0C3  | ![](../assets/images/concepts/emojis/windowsMR/left_stick.png)                      |
+| RS（右摇杆）             |                    | U+E0C4  | ![](../assets/images/concepts/emojis/windowsMR/right_stick.png)                     |
 
 ### 其他
 
 | 名称              | 字母（复制/粘贴此） | Unicode | 图片                                                              |
 |-------------------|---------------------|---------|-------------------------------------------------------------------|
-| 准星              |                    | U+E017  | ![](/assets/images/concepts/emojis/other/crosshair.png)        |
-| 代理              |                    | U+E103  | ![](/assets/images/concepts/emojis/other/agent.png)            |
-| 沉浸式阅读器      |                    | U+E104  | ![](/assets/images/concepts/emojis/other/immersive_reader.png) |
-| 空心星星          |                    | U+E106  | ![](/assets/images/concepts/emojis/other/hollow_star.png)      |
-| 实心星星          |                    | U+E107  | ![](/assets/images/concepts/emojis/other/solid_star.png)       |
+| 准星              |                    | U+E017  | ![](../assets/images/concepts/emojis/other/crosshair.png)        |
+| 代理              |                    | U+E103  | ![](../assets/images/concepts/emojis/other/agent.png)            |
+| 沉浸式阅读器      |                    | U+E104  | ![](../assets/images/concepts/emojis/other/immersive_reader.png) |
+| 空心星星          |                    | U+E106  | ![](../assets/images/concepts/emojis/other/hollow_star.png)      |
+| 实心星星          |                    | U+E107  | ![](../assets/images/concepts/emojis/other/solid_star.png)       |
 
 ### 附加输入键
 
@@ -224,19 +224,19 @@ Minecraft有一堆硬编码的[私用区Unicode符号](https://en.wikipedia.org/
 
 | 名称              | 输入键                       | 键盘与鼠标                                               | 触控                                                           | Xbox                                                        | 任天堂Switch                                               | PlayStation (4/5)                                               |
 |-------------------|------------------------------|----------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------------------------|
-| 跳跃              | :_input_key.jump:            | SPACE                                                    | ![](/assets/images/concepts/emojis/touch/jump.png)          | ![](/assets/images/concepts/emojis/xbox/a_button.png)       | ![](/assets/images/concepts/emojis/switch/a_button.png)    | ![](/assets/images/concepts/emojis/playstation/cross.png)        |
-| 潜行              | :_input_key.sneak:           | SHIFT                                                    | ![](/assets/images/concepts/emojis/touch/crouch.png)        | ![](/assets/images/concepts/emojis/xbox/b_button.png)       | ![](/assets/images/concepts/emojis/switch/b_button.png)     | ![](/assets/images/concepts/emojis/playstation/circle.png)       |
-| 冲刺              | :_input_key.sprint:          | CONTROL                                                  | 未分配                                                        | ![](/assets/images/concepts/emojis/xbox/left_stick.png)     | ![](/assets/images/concepts/emojis/switch/left_stick.png)  | ![](/assets/images/concepts/emojis/playstation/left_stick.png)   |
-| 前进              | :_input_key.forward:         | W                                                        | ![](/assets/images/concepts/emojis/touch/up_arrow.png)      | 未分配                                                       | 未分配                                                     | 未分配                                                        |
-| 后退              | :_input_key.back:            | S                                                        | ![](/assets/images/concepts/emojis/touch/down_arrow.png)    | 未分配                                                       | 未分配                                                     | 未分配                                                        |
-| 左移              | :_input_key.left:            | A                                                        | ![](/assets/images/concepts/emojis/touch/left_arrow.png)    | 未分配                                                       | 未分配                                                     | 未分配                                                        |
-| 右移              | :_input_key.right:           | D                                                        | ![](/assets/images/concepts/emojis/touch/right_arrow.png)   | 未分配                                                       | 未分配                                                     | 未分配                                                        |
-| 攻击              | :_input_key.attack:          | ![](/assets/images/concepts/emojis/keyboard/left_click.png) | 未分配                                                        | ![](/assets/images/concepts/emojis/xbox/right_trigger.png) | ![](/assets/images/concepts/emojis/switch/right_trigger.png)| ![](/assets/images/concepts/emojis/playstation/right_trigger.png)|
-| 背包              | :_input_key.inventory:       | E                                                        | 未分配                                                        | ![](/assets/images/concepts/emojis/xbox/y_button.png)       | ![](/assets/images/concepts/emojis/switch/x_button.png)     | ![](/assets/images/concepts/emojis/playstation/triangle.png)     |
-| 向左切换物品      | :_input_key.cycleItemLeft:   | 未分配                                                   | 未分配                                                        | ![](/assets/images/concepts/emojis/xbox/left_bumper.png)    | ![](/assets/images/concepts/emojis/switch/left_bumper.png)  | ![](/assets/images/concepts/emojis/playstation/left_bumper.png)  |
-| 向右切换物品      | :_input_key.cycleItemRight:  | 未分配                                                   | 未分配                                                        | ![](/assets/images/concepts/emojis/xbox/right_bumper.png)   | ![](/assets/images/concepts/emojis/switch/right_bumper.png) | ![](/assets/images/concepts/emojis/playstation/right_bumper.png) |
-| 使用              | :_input_key.use:             | ![](/assets/images/concepts/emojis/keyboard/right_click.png) | 未分配                                                        | ![](/assets/images/concepts/emojis/xbox/left_trigger.png)   | ![](/assets/images/concepts/emojis/switch/left_trigger.png) | ![](/assets/images/concepts/emojis/playstation/left_trigger.png) |
-| 丢弃              | :_input_key.drop:            | Q                                                        | 未分配                                                        | ![](/assets/images/concepts/emojis/xbox/dpad_down.png)      | ![](/assets/images/concepts/emojis/switch/dpad_down.png)    | ![](/assets/images/concepts/emojis/playstation/dpad_down.png)    |
+| 跳跃              | :_input_key.jump:            | SPACE                                                    | ![](../assets/images/concepts/emojis/touch/jump.png)          | ![](../assets/images/concepts/emojis/xbox/a_button.png)       | ![](../assets/images/concepts/emojis/switch/a_button.png)    | ![](../assets/images/concepts/emojis/playstation/cross.png)        |
+| 潜行              | :_input_key.sneak:           | SHIFT                                                    | ![](../assets/images/concepts/emojis/touch/crouch.png)        | ![](../assets/images/concepts/emojis/xbox/b_button.png)       | ![](../assets/images/concepts/emojis/switch/b_button.png)     | ![](../assets/images/concepts/emojis/playstation/circle.png)       |
+| 冲刺              | :_input_key.sprint:          | CONTROL                                                  | 未分配                                                        | ![](../assets/images/concepts/emojis/xbox/left_stick.png)     | ![](../assets/images/concepts/emojis/switch/left_stick.png)  | ![](../assets/images/concepts/emojis/playstation/left_stick.png)   |
+| 前进              | :_input_key.forward:         | W                                                        | ![](../assets/images/concepts/emojis/touch/up_arrow.png)      | 未分配                                                       | 未分配                                                     | 未分配                                                        |
+| 后退              | :_input_key.back:            | S                                                        | ![](../assets/images/concepts/emojis/touch/down_arrow.png)    | 未分配                                                       | 未分配                                                     | 未分配                                                        |
+| 左移              | :_input_key.left:            | A                                                        | ![](../assets/images/concepts/emojis/touch/left_arrow.png)    | 未分配                                                       | 未分配                                                     | 未分配                                                        |
+| 右移              | :_input_key.right:           | D                                                        | ![](../assets/images/concepts/emojis/touch/right_arrow.png)   | 未分配                                                       | 未分配                                                     | 未分配                                                        |
+| 攻击              | :_input_key.attack:          | ![](../assets/images/concepts/emojis/keyboard/left_click.png) | 未分配                                                        | ![](../assets/images/concepts/emojis/xbox/right_trigger.png) | ![](../assets/images/concepts/emojis/switch/right_trigger.png)| ![](../assets/images/concepts/emojis/playstation/right_trigger.png)|
+| 背包              | :_input_key.inventory:       | E                                                        | 未分配                                                        | ![](../assets/images/concepts/emojis/xbox/y_button.png)       | ![](../assets/images/concepts/emojis/switch/x_button.png)     | ![](../assets/images/concepts/emojis/playstation/triangle.png)     |
+| 向左切换物品      | :_input_key.cycleItemLeft:   | 未分配                                                   | 未分配                                                        | ![](../assets/images/concepts/emojis/xbox/left_bumper.png)    | ![](../assets/images/concepts/emojis/switch/left_bumper.png)  | ![](../assets/images/concepts/emojis/playstation/left_bumper.png)  |
+| 向右切换物品      | :_input_key.cycleItemRight:  | 未分配                                                   | 未分配                                                        | ![](../assets/images/concepts/emojis/xbox/right_bumper.png)   | ![](../assets/images/concepts/emojis/switch/right_bumper.png) | ![](../assets/images/concepts/emojis/playstation/right_bumper.png) |
+| 使用              | :_input_key.use:             | ![](../assets/images/concepts/emojis/keyboard/right_click.png) | 未分配                                                        | ![](../assets/images/concepts/emojis/xbox/left_trigger.png)   | ![](../assets/images/concepts/emojis/switch/left_trigger.png) | ![](../assets/images/concepts/emojis/playstation/left_trigger.png) |
+| 丢弃              | :_input_key.drop:            | Q                                                        | 未分配                                                        | ![](../assets/images/concepts/emojis/xbox/dpad_down.png)      | ![](../assets/images/concepts/emojis/switch/dpad_down.png)    | ![](../assets/images/concepts/emojis/playstation/dpad_down.png)    |
 | 代码构建器        | :_input_key.codeBuilder:     | 未分配                                                   | 未分配                                                        | 未分配                                                       | 未分配                                                     | 未分配                                                        |
 
 ## 自定义表情符号
@@ -255,17 +255,17 @@ Minecraft有一堆硬编码的[私用区Unicode符号](https://en.wikipedia.org/
 
 ### RP/font/glyph_E0.png
 
-![](/assets/images/concepts/emojis/custom/annotated/glyph_E0.png)
-![](/assets/images/concepts/emojis/custom/glyph_E0.png)
+![](../assets/images/concepts/emojis/custom/annotated/glyph_E0.png)
+![](../assets/images/concepts/emojis/custom/glyph_E0.png)
 
 ### RP/font/glyph_E1.png
 
-![](/assets/images/concepts/emojis/custom/annotated/glyph_E1.png)
-![](/assets/images/concepts/emojis/custom/glyph_E1.png)
+![](../assets/images/concepts/emojis/custom/annotated/glyph_E1.png)
+![](../assets/images/concepts/emojis/custom/glyph_E1.png)
 
 _由@zheaEvyline共享的免费使用编辑样本glyph_E1.png：_
 
-![](/assets/images/concepts/emojis/custom/edited/glyph_E1.png)
+![](../assets/images/concepts/emojis/custom/edited/glyph_E1.png)
 
 如果你想将现有原版物品添加到字形并在游戏中用作表情符号，可以使用@Minato创建的**[物品到字形网络工具](https://minato-mba.github.io/content/Items%20to%20Glyph.html)**轻松完成。
 

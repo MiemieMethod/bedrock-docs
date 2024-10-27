@@ -270,7 +270,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 ### 结果
 
-![](/assets/images/tutorials/sleeping-entities/result.png)
+![](../assets/images/tutorials/sleeping-entities/result.png)
 
 ## 小憩
 
@@ -394,4 +394,4 @@ description: 本教程将解释如何让实体进入睡眠状态。
 }
 ```
 
-最后，你需要为你的实体创建并注册一个睡眠动画。如果你不知道如何做，可以查看[BlockBench页面](/guide/blockbench.html#animating)。
+最后，你需要为你的实体创建并注册一个睡眠动画。如果你不知道如何做，可以查看[BlockBench页面](../guide/blockbench.md#animating)。

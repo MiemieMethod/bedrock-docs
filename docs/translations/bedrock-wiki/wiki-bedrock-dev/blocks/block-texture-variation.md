@@ -14,7 +14,7 @@ mentions:
 ---
 
 :::warning 材料实例
-[材料实例](/blocks/block-components#material-instances)组件不支持纹理变化。要应用变化纹理，您必须确保块上没有应用[几何体](/blocks/block-components#geometry)组件，并且纹理必须在`RP/blocks.json`中引用。
+[材料实例](../blocks/block-components.md#material-instances)组件不支持纹理变化。要应用变化纹理，您必须确保块上没有应用[几何体](../blocks/block-components.md#geometry)组件，并且纹理必须在`RP/blocks.json`中引用。
 :::
 
 块纹理变化是指一种块类型可以根据其在世界中的位置随机应用多种纹理。这对于像泥土或草地这样的块非常有用，因为某些块可能有细微的变化，例如小石头，而其他块则没有。

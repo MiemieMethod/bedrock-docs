@@ -9,14 +9,14 @@ mentions:
 description: 记分板可以用于执行复杂的操作，类似于 MoLang。操作分为两种类型：数学操作和逻辑操作。
 ---
 
-记分板可以用于执行复杂的操作，类似于 [Molang](/concepts/molang)。操作分为两种类型：数学操作和逻辑操作。
+记分板可以用于执行复杂的操作，类似于 [Molang](../concepts/molang.md)。操作分为两种类型：数学操作和逻辑操作。
 
 ## 概述
 操作使用 `/scoreboard players operation` 命令执行。完整的语法如下：
 ```
 /scoreboard players operation <目标分数> <目标> <操作> <源分数> <目标>
 ```
-该命令由两个分数持有者组成：目标分数和源分数。目标分数是被操作的值，而源分数是影响操作的值。操作的结果写入目标分数，源分数的值不受影响，除了 [一个操作](/commands/scoreboard-operations#swap-operator)。
+该命令由两个分数持有者组成：目标分数和源分数。目标分数是被操作的值，而源分数是影响操作的值。操作的结果写入目标分数，源分数的值不受影响，除了 [一个操作](../commands/scoreboard-operations.md#swap-operator)。
 
 ## 数学运算符
 数学运算符使用算术运算来影响目标分数。可用的数学操作有五种：加法、减法、乘法、向下取整除法和向下取整模除法。

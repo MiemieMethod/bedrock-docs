@@ -171,7 +171,7 @@ meeting_area
 
 ### 睡眠
 
-您可以在[这里](/entities/sleeping-entities)了解如何让您的实体睡觉。
+您可以在[这里](../entities/sleeping-entities.md)了解如何让您的实体睡觉。
 
 ### 工作
 

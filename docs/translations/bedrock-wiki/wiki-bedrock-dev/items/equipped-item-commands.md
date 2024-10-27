@@ -22,7 +22,7 @@ description: 当物品被装备时运行命令。
 
 ## 服务器动画
 
-第一步是创建一个服务器动画，这是一个在特定关键帧运行命令或事件的文件。虽然客户端动画在资源包中，但服务器动画在行为包中。您可以在[这里](/entities/timers#animation-based-timers)阅读更多信息。我们可以使用以下内容作为模板：
+第一步是创建一个服务器动画，这是一个在特定关键帧运行命令或事件的文件。虽然客户端动画在资源包中，但服务器动画在行为包中。您可以在[这里](../entities/timers.md#animation-based-timers)阅读更多信息。我们可以使用以下内容作为模板：
 
 <CodeHeader>BP/animations/player.json</CodeHeader>
 

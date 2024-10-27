@@ -156,7 +156,7 @@ description: 学习如何优化你的附加包。
 
 ### texture_list.json
 
--   大量纹理会严重影响游戏性能。创建一个[`texture_list.json`](/concepts/textures-list)文件。
+-   大量纹理会严重影响游戏性能。创建一个[`texture_list.json`](../concepts/textures-list.md)文件。
 
 ### 数量
 
@@ -216,4 +216,4 @@ description: 学习如何优化你的附加包。
 
 ## 文件
 
--   大量文件会严重影响游戏性能。创建一个[`contents.json`](/concepts/contents)文件。
+-   大量文件会严重影响游戏性能。创建一个[`contents.json`](../concepts/contents.md)文件。

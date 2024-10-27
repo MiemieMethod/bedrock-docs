@@ -18,7 +18,7 @@ description: 学习如何制作自定义护甲。
 ---
 
 ::: tip
-强烈建议在开始本节内容之前，先浏览初学者指南中的 [Blockbench 建模与贴图](/guide/blockbench) 部分。
+强烈建议在开始本节内容之前，先浏览初学者指南中的 [Blockbench 建模与贴图](../guide/blockbench.md) 部分。
 :::
 
 制作自定义护甲出乎意料地简单，你只需要进行一些调整，因为需要添加几个文件，并且可能涉及一些贴图工作，但你可以根据需要在这里做得多或少。
@@ -81,7 +81,7 @@ description: 学习如何制作自定义护甲。
 
 此时，你只需在 `RP/textures/item_texture.json` 中添加一个键为 `my_chest` 的物品纹理，你就可以开始了。如果你想按步骤操作，我们已经为你的护甲附加了一个默认的物品纹理。
 
-![](/assets/images/tutorials/custom-armor/custom_chestplate.png)
+![](../assets/images/tutorials/custom-armor/custom_chestplate.png)
 
 <Button link="https://raw.githubusercontent.com/Bedrock-OSS/bedrock-wiki/wiki/docs/public/assets/images/tutorials/custom-armor/custom_chestplate.png">
     在这里下载纹理
@@ -131,13 +131,13 @@ description: 学习如何制作自定义护甲。
 
 如果你没有创意，我们为本教程提供了一个重新着色的钻石护甲皮肤。只需“另存为”并将它们放入文件夹中。
 
-![](/assets/images/tutorials/custom-armor/custom_main.png)
+![](../assets/images/tutorials/custom-armor/custom_main.png)
 
 <Button link="https://raw.githubusercontent.com/Bedrock-OSS/bedrock-wiki/wiki/docs/public/assets/images/tutorials/custom-armor/custom_main.png">
     在这里下载纹理
 </Button>
 
-![](/assets/images/tutorials/custom-armor/custom_legs.png)
+![](../assets/images/tutorials/custom-armor/custom_legs.png)
 
 <Button link="https://raw.githubusercontent.com/Bedrock-OSS/bedrock-wiki/wiki/docs/public/assets/images/tutorials/custom-armor/custom_legs.png">
     在这里下载纹理
@@ -146,9 +146,9 @@ description: 学习如何制作自定义护甲。
 在现实中，你可能希望使用 Blockbench 或其他图像编辑程序来编辑纹理，并且最好在将它们添加到附加包之前查看它们在模型上的效果。
 如果你现在进入游戏检查你制作的内容，你应该能够穿上你的胸甲，并为自己完成的工作感到自豪。
 
-![](/assets/images/tutorials/custom-armor/armor-item-image.jpg)
+![](../assets/images/tutorials/custom-armor/armor-item-image.jpg)
 
-![](/assets/images/tutorials/custom-armor/armor-model-image.jpg)
+![](../assets/images/tutorials/custom-armor/armor-model-image.jpg)
 
 ## 护腿
 
@@ -202,7 +202,7 @@ description: 学习如何制作自定义护甲。
 
 这很好，和之前一样，你需要添加自己的物品纹理，虽然这里有一个如果你想继续使用的话。
 
-![](/assets/images/tutorials/custom-armor/custom_leggings.png)
+![](../assets/images/tutorials/custom-armor/custom_leggings.png)
 
 <Button link="https://raw.githubusercontent.com/Bedrock-OSS/bedrock-wiki/wiki/docs/public/assets/images/tutorials/custom-armor/custom_leggings.png">
     在这里下载纹理
@@ -297,7 +297,7 @@ description: 学习如何制作自定义护甲。
 
 如你所见，变化不大，我们只是更新类别/槽以适应头盔，然后添加附加文件（如果需要，以下是物品纹理）。
 
-![](/assets/images/tutorials/custom-armor/custom_helmet.png)
+![](../assets/images/tutorials/custom-armor/custom_helmet.png)
 
 <Button link="https://raw.githubusercontent.com/Bedrock-OSS/bedrock-wiki/wiki/docs/public/assets/images/tutorials/custom-armor/custom_helmet.png">
     在这里下载纹理
@@ -391,7 +391,7 @@ description: 学习如何制作自定义护甲。
 
 自定义靴子纹理，如果需要的话。
 
-![](/assets/images/tutorials/custom-armor/custom_boots.png)
+![](../assets/images/tutorials/custom-armor/custom_boots.png)
 
 <Button link="https://raw.githubusercontent.com/Bedrock-OSS/bedrock-wiki/wiki/docs/public/assets/images/tutorials/custom-armor/custom_boots.png">
     在这里下载纹理
@@ -436,7 +436,7 @@ description: 学习如何制作自定义护甲。
 
 > 值得注意的是，我们在这里使用了两个独立的纹理，你也可以为每个附加部件使用一个纹理，但每个新纹理都会消耗内存，所以最好尽可能少用。因此，你应该最终拥有如下所示的内容，作为额外奖励，还有一节关于使用过滤器制作套装效果，这有点高级，但很有趣。
 
-![](/assets/images/tutorials/custom-armor/custom-set-image.jpg)
+![](../assets/images/tutorials/custom-armor/custom-set-image.jpg)
 
 ## 额外内容 - 制作套装效果
 

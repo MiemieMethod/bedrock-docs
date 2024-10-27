@@ -150,4 +150,4 @@ world.beforeEvents.chatSend.subscribe((eventData) => {
 
 用简单的话来说，`if (!eventData.sender.hasTag('Admin')) return;` 的意思是：“如果玩家没有 (`!`) 'Admin' 标签，则停止脚本继续执行 (`return`)”
 
-有关脚本 API 的更多信息，您可以参考 [wiki](/scripting/starting-scripts) 或 [Microsoft 文档](https://docs.microsoft.com/en-us/minecraft/creator/documents/gametestgettingstarted)
+有关脚本 API 的更多信息，您可以参考 [wiki](../scripting/starting-scripts.md) 或 [Microsoft 文档](https://docs.microsoft.com/en-us/minecraft/creator/documents/gametestgettingstarted)

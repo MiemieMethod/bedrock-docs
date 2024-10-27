@@ -21,7 +21,7 @@ description: 实体碰撞是玩家可以与之碰撞、踩踏或以其他方式�
 
 ## 运行时标识符
 
-[运行时标识符](/entities/runtime-identifier)可用于实现实体碰撞，但目前仅有两个，每个都有特定形状和自身的副作用。碰撞形状无法更改或缩放。
+[运行时标识符](../entities/runtime-identifier.md)可用于实现实体碰撞，但目前仅有两个，每个都有特定形状和自身的副作用。碰撞形状无法更改或缩放。
 
 ### 船
 
@@ -87,10 +87,10 @@ description: 实体碰撞是玩家可以与之碰撞、踩踏或以其他方式�
 `/fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air 0 replace barrier`
 在 3x3x3 区域内移除障碍物。
 
-这些 [命令](/animation-controllers/entity-commands) 必须以恒定的速率触发，以确保一致性。它们可以通过实体组件或动画控制器触发。
+这些 [命令](../animation-controllers/entity-commands.md) 必须以恒定的速率触发，以确保一致性。它们可以通过实体组件或动画控制器触发。
 
 ## 命令方法
 
 此方法由 Reddit 用户 [u/Maxed_Out10](https://www.reddit.com/user/Maxed_Out10/) 开发，允许您使用盔甲架和一些顺序的 `/playanimation` 命令创建几乎完美的 Minecraft 方块实体复制。
 
-<Button link="/commands/block-entities">方块实体</Button>
+<Button link="../commands/block-entities.md">方块实体</Button>

@@ -26,11 +26,11 @@ description: 此技术允许您将相机旋转限制在围绕玩家、实体或�
 ```yaml
 execute as @p at @s anchored eyes rotated ~ 0 positioned ^^1^-2 run camera @s set minecraft:free ease 0.1 linear pos ~~~ facing @s
 ```
-![一个重复命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 **二维可视化：**
 
-![OrbitCamVisualRep](/assets/images/commands/orbitcam/OrbitCamVisualRep.gif)
+![OrbitCamVisualRep](../assets/images/commands/orbitcam/OrbitCamVisualRep.gif)
 
 **命令解析：**
 
@@ -43,7 +43,7 @@ execute as @p at @s anchored eyes rotated ~ 0 positioned ^^1^-2 run camera @s se
 - `rotated ~ 0`
   - 将执行旋转设置为相对于目标玩家的水平旋转，但将垂直旋转限制为 0°（水平）。
   - 如果您希望锁定水平旋转，只需使用：`rotated 0 ~`
-     - 注意：值 `0` 可以更改为您需要的方向。有关更多信息，请参见 [旋转](/commands/selectors#rotation)。
+     - 注意：值 `0` 可以更改为您需要的方向。有关更多信息，请参见 [旋转](../commands/selectors.md#rotation)。
   - 如果您不希望锁定垂直旋转，只需完全省略此部分，以获得完整的球形旋转。然而，这不会阻止相机进入地下。
 - `positioned ^^1^-2`
   - 将执行位置推送到玩家上方 1 个区块并向后 2 个区块。
@@ -51,7 +51,7 @@ execute as @p at @s anchored eyes rotated ~ 0 positioned ^^1^-2 run camera @s se
   - 增加或减少值 -2 以增加/减少轨道半径。
      - 负值将设置位置在玩家后方。
      - 正值将设置位置在玩家前方。
-     - 要了解更多，请参见：[坐标系统](/commands/relative-coordinates)。
+     - 要了解更多，请参见：[坐标系统](../commands/relative-coordinates.md)。
 - `run camera @s set minecraft:free ease 0.1 linear pos ~~~`
   - 为目标玩家设置相机，使用 `minecraft:free` 预设，线性缓动值为 `0.1`，相对坐标为（目标玩家视线的上方 1 个区块和后方 2 个区块）。
   - 要调整相机移动速度，请增加/减少缓动值 `0.1`。
@@ -69,7 +69,7 @@ execute as @p at @s anchored eyes rotated ~ 0 positioned ^^1^-2 run camera @s se
 # 使相机围绕标记为 'orbit_center' 的实体旋转
 execute as @p at @e [tag=orbit_center] anchored eyes rotated as @s rotated ~ 0 positioned ^^1^-5 run camera @s set minecraft:free ease 0.1 linear pos ~~~ facing @e [tag=orbit_center]
 ```
-![一个重复命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 <CodeHeader>BP/functions/cameras/orbital.mcfunction</CodeHeader>
 
@@ -77,4 +77,4 @@ execute as @p at @e [tag=orbit_center] anchored eyes rotated as @s rotated ~ 0 p
 # 使相机围绕位置 6 7 8 旋转
 execute as @p positioned 6 7 8 rotated as @s rotated ~ 0 positioned ^^1^-5 run camera @s set minecraft:free ease 0.1 linear pos ~~~ facing 6 7 8
 ```
-![一个重复命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)

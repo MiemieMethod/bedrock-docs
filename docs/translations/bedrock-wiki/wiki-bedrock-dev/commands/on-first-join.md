@@ -30,7 +30,7 @@ give @a [tag=!joined] bread 16
 tag @a [tag=!joined] add joined
 ```
 
-![三个命令方块的链](/assets/images/commands/commandBlockChain/3.png)
+![三个命令方块的链](../assets/images/commands/commandBlockChain/3.png)
 
 在这里，我们使用了两个 `/give` 命令作为示例，但您可以使用任何您喜欢的命令，并根据需要添加多个命令。
 
@@ -46,7 +46,7 @@ tag @a [tag=!joined] add joined
 
 ## Tick JSON
 
-如果您使用函数而不是命令方块，则必须将 `on_first_join` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号来将多个文件添加到 `tick.json` 中。有关更多信息，请参阅 [Functions](/commands/mcfunctions#tick-json) 文档。
+如果您使用函数而不是命令方块，则必须将 `on_first_join` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号来将多个文件添加到 `tick.json` 中。有关更多信息，请参阅 [Functions](../commands/mcfunctions.md#tick-json) 文档。
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 ```json

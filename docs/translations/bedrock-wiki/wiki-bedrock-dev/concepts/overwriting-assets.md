@@ -79,7 +79,7 @@ description: 解释覆盖资源的相关内容。
 以下文件以这种方式工作：
 
 -   所有UI文件
--   [所有语言文件](/concepts/text-and-translations)
+-   [所有语言文件](../concepts/text-and-translations.md)
 -   `item_textures.json`
 -   `flipbook_textures.json`
 -   `terrain_textures.json`

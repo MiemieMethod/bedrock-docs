@@ -25,15 +25,15 @@ description: Minecraft基岩版命令方块简介。
 
 ## 命令方块用户界面
 
-![commandBlockUI](/assets/images/commands/commandBlockUI.png)
+![commandBlockUI](../assets/images/commands/commandBlockUI.png)
 
 ## 命令方块类型
 
-![impulseCommandBlock](/assets/images/commands/impulseCommandBlock.png) **脉冲**每次被激活时运行命令 **一次**。
+![impulseCommandBlock](../assets/images/commands/impulseCommandBlock.png) **脉冲**每次被激活时运行命令 **一次**。
 
-![chainCommandBlock](/assets/images/commands/chainCommandBlock.png) **链**按顺序运行命令，即仅在连接的前一个命令方块运行后才会执行。
+![chainCommandBlock](../assets/images/commands/chainCommandBlock.png) **链**按顺序运行命令，即仅在连接的前一个命令方块运行后才会执行。
 
-![repeatingCommandBlock](/assets/images/commands/repeatingCommandBlock.png) **重复**每个游戏刻运行命令。每秒大约有20个刻。可以应用延迟来调整命令执行的频率，具体说明见[下文](/commands/intro-to-command-blocks#command-block-tick-delay)。
+![repeatingCommandBlock](../assets/images/commands/repeatingCommandBlock.png) **重复**每个游戏刻运行命令。每秒大约有20个刻。可以应用延迟来调整命令执行的频率，具体说明见[下文](../commands/intro-to-command-blocks.md#command-block-tick-delay)。
 
 ## 命令方块条件
 
@@ -41,9 +41,9 @@ description: Minecraft基岩版命令方块简介。
 
 > 条件命令方块的状态通过命令方块箭头纹理的小凹陷显示，如下所示：
 >
-> -   ![pasteCommandButton](/assets/images/commands/impulseConditionalCommandBlock.png) 脉冲条件命令方块
-> -   ![chainConditionalCommandBlock](/assets/images/commands/chainConditionalCommandBlock.png) 链条件命令方块
-> -   ![repeatingConditionalCommandBlock](/assets/images/commands/repeatingConditionalCommandBlock.png) 重复条件命令方块
+> -   ![pasteCommandButton](../assets/images/commands/impulseConditionalCommandBlock.png) 脉冲条件命令方块
+> -   ![chainConditionalCommandBlock](../assets/images/commands/chainConditionalCommandBlock.png) 链条件命令方块
+> -   ![repeatingConditionalCommandBlock](../assets/images/commands/repeatingConditionalCommandBlock.png) 重复条件命令方块
 
 **无条件**命令方块无论结果如何都会运行命令。无论连接的前一个命令方块的输出是成功（`true`）还是失败（`false`），命令方块仍会运行命令。
 
@@ -60,7 +60,7 @@ description: Minecraft基岩版命令方块简介。
 刻是指Minecraft游戏刻。一个 **刻** 只是游戏中时间的度量单位。现实生活中的1秒大约等于Minecraft中的20个游戏刻。
 
 :::tip
-![gametick.png](/assets/images/commands/gametick.png)
+![gametick.png](../assets/images/commands/gametick.png)
 :::
 
 ## 命令方块悬停备注
@@ -68,11 +68,11 @@ description: Minecraft基岩版命令方块简介。
 此选项允许您在命令方块上方放置悬停文本。它对于在处理多个命令方块链时提供简短名称以便于识别非常有用。
 
 当命令运行时，如果游戏规则 `commandblockoutput` 被启用，悬停备注将与聊天中的输出一起显示。
-![hover_note](/assets/images/commands/hover_note.png)
+![hover_note](../assets/images/commands/hover_note.png)
 
 ## 粘贴按钮
 
-![pasteCommandButton](/assets/images/commands/pasteCommandButton.png)
+![pasteCommandButton](../assets/images/commands/pasteCommandButton.png)
 
 粘贴按钮允许您将剪贴板中的命令粘贴到“命令输入”框中。
 
@@ -102,10 +102,10 @@ description: Minecraft基岩版命令方块简介。
 箭头/朝向可以从命令方块侧面的纹理中观察到。
 
 **✅ 正确放置**
-![correctCommandBlockPlacement](/assets/images/commands/correctCommandBlockPlacement.png)
+![correctCommandBlockPlacement](../assets/images/commands/correctCommandBlockPlacement.png)
 
 **❌ 错误放置**
-![incorrectCommandBlockPlacement](/assets/images/commands/incorrectCommandBlockPlacement.png)
+![incorrectCommandBlockPlacement](../assets/images/commands/incorrectCommandBlockPlacement.png)
 
 ## 故障排除命令方块
 
@@ -136,10 +136,10 @@ description: Minecraft基岩版命令方块简介。
 
 :::
 
-为了将您所学到的知识付诸实践，请尝试制作这个简单的 [实体计数器](/commands/entity-counter) 系统。
+为了将您所学到的知识付诸实践，请尝试制作这个简单的 [实体计数器](../commands/entity-counter.md) 系统。
 
-> 在设置命令方块系统时，始终记住第一个命令方块将是 ![repeatingCommandBlock](/assets/images/commands/repeatingCommandBlock.png) **`无条件始终激活`**，其余命令方块将是 ![chainCommandBlock](/assets/images/commands/chainCommandBlock.png) **`无条件始终激活`**。所有设置为0刻延迟，除非另有说明。
+> 在设置命令方块系统时，始终记住第一个命令方块将是 ![repeatingCommandBlock](../assets/images/commands/repeatingCommandBlock.png) **`无条件始终激活`**，其余命令方块将是 ![chainCommandBlock](../assets/images/commands/chainCommandBlock.png) **`无条件始终激活`**。所有设置为0刻延迟，除非另有说明。
 >
-> ![commandBlockChain4](/assets/images/commands/commandBlockChain/4.png)
+> ![commandBlockChain4](../assets/images/commands/commandBlockChain/4.png)
 
-**（推荐）下一步阅读: [理解选择器](/commands/selectors)**
+**（推荐）下一步阅读: [理解选择器](../commands/selectors.md)**

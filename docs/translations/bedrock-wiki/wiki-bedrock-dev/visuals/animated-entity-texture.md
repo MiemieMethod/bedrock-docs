@@ -26,7 +26,7 @@ description: 为你的实体动画纹理。
 首先，我们需要为我们的实体绘制一些新的纹理帧。在本教程中，我们将以一头四处张望的牛为例。
 
 <WikiImage
-	src="/assets/images/visuals/animated-entity-texture/cow.png"
+	src="../assets/images/visuals/animated-entity-texture/cow.png"
 	alt="牛"
 	width=180
 />
@@ -64,7 +64,7 @@ description: 为你的实体动画纹理。
 ]
 ```
 
-<Button link="/assets/packs/visuals/animated-entity-texture/entity.material" download>
+<Button link="../assets/packs/visuals/animated-entity-texture/entity.material" download>
     下载默认的entity.material文件
 </Button>
 
@@ -107,7 +107,7 @@ description: 为你的实体动画纹理。
 
 现在，是时候测试你的创作了！
 
-![](/assets/images/visuals/animated-entity-texture/result.gif)
+![](../assets/images/visuals/animated-entity-texture/result.gif)
 
 ## 下载示例
 

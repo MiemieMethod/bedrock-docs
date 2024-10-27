@@ -12,7 +12,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 交易表代表实体进行物品交易交易的基本数据。交易表不是独立的；它们必须从[实体组件](https://bedrock.dev/docs/stable/Entities#minecraft%3Aeconomy_trade_table)中引用。利用交易表可用的随机化属性，即使所有实体实例都指向相同的交易表，交易报价、物品数量和成本计算也可能因实体实例而异。
 
-![](/assets/images/loot/trade_tables/trading.png)
+![](../assets/images/loot/trade_tables/trading.png)
 
 交易表没有被标识或版本控制。像战利品表一样，交易表不支持 Molang，而是依赖于 JSON 结构，例如范围对象和[函数](#函数)。尽管不同，交易表仍然支持注释。
 
@@ -674,7 +674,7 @@ _c_ = _p_ × (1 + _m_ × _d_)
 
 ## 覆盖
 
-因为交易表不使用数据内标识符，它们被简单地通过用新的交易表替换先前的交易表来覆盖。您可以在[此处](/concepts/overwriting-assets)了解更多关于[资产覆盖]的信息。
+因为交易表不使用数据内标识符，它们被简单地通过用新的交易表替换先前的交易表来覆盖。您可以在[此处](../concepts/overwriting-assets.md)了解更多关于[资产覆盖]的信息。
 
 以下是每个交易者当前使用的原版交易表：
 

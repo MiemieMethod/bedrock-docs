@@ -15,13 +15,13 @@ description: 这些命令技术允许您检测特定玩家/实体的“状态”
 
 这些命令技术允许您检测特定玩家/实体的“状态”，并随后执行您所需的命令。
 
-> 注意：为了更高效和更高精度的方法，建议使用 [动画控制器](/animation-controllers/animation-controllers-intro)
+> 注意：为了更高效和更高精度的方法，建议使用 [动画控制器](../animation-controllers/animation-controllers-intro.md)
 
 ## is_moving
 
 此技术允许您检测目标是否在移动，即使是细微的移动也会被考虑。
 
-![](/assets/images/commands/movement-detections/moving.gif)
+![](../assets/images/commands/movement-detections/moving.gif)
 
 :::warning 已知问题：
 
@@ -55,7 +55,7 @@ execute as @a [scores={is_moving=1}] run say 我开始移动
 execute as @a [scores={is_moving=1..}] run say 我仍在移动
 ```
 
-![commandBlockChain7](/assets/images/commands/commandBlockChain/7.png)
+![commandBlockChain7](../assets/images/commands/commandBlockChain/7.png)
 
 您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
 
@@ -116,7 +116,7 @@ execute as @a [scores={is_walking=0}] run say 我没有行走
 execute as @a [scores={is_walking=1}] run say 我在行走
 ```
 
-![commandBlockChain10](/assets/images/commands/commandBlockChain/10.png)
+![commandBlockChain10](../assets/images/commands/commandBlockChain/10.png)
 
 所有命令的功能与前述解释相同。唯一的区别在于行走/短跑检测命令中距离参数 `r` 和 `rm` 的值。
 
@@ -142,7 +142,7 @@ execute as @a [scores={is_walking=1}] run say 我在行走
 
 此技术允许您检测玩家是否在睡觉。
 
-![](/assets/images/commands/movement-detections/sleeping.jpg)
+![](../assets/images/commands/movement-detections/sleeping.jpg)
 
 注意：睡觉时，玩家的碰撞盒减少到0.2区块。
 
@@ -166,7 +166,7 @@ execute as @a [scores={is_sleeping=1}] run say 我开始睡觉
 execute as @a [scores={is_sleeping=1..}] run say 我仍在睡觉
 ```
 
-![commandBlockChain5](/assets/images/commands/commandBlockChain/5.png)
+![commandBlockChain5](../assets/images/commands/commandBlockChain/5.png)
 
 您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
 
@@ -187,7 +187,7 @@ execute as @a [scores={is_sleeping=1..}] run say 我仍在睡觉
 
 此技术允许您检测玩家是否在潜行。
 
-![](/assets/images/commands/movement-detections/sneaking.png)
+![](../assets/images/commands/movement-detections/sneaking.png)
 
 感谢在1.20.10中引入的短潜行平衡，它将玩家的碰撞盒减少到1.5区块，使仅使用命令进行正确的潜行检测成为可能，此前这需要附加包的帮助。
 
@@ -211,7 +211,7 @@ execute as @a [scores={is_sneaking=1}] run say 我开始潜行
 execute as @a [scores={is_sneaking=1..}] run say 我仍在潜行
 ```
 
-![commandBlockChain5](/assets/images/commands/commandBlockChain/5.png)
+![commandBlockChain5](../assets/images/commands/commandBlockChain/5.png)
 
 您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
 
@@ -233,7 +233,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在潜行
 
 此技术允许您检测玩家是否在爬行。
 
-![](/assets/images/commands/movement-detections/crawling.png)
+![](../assets/images/commands/movement-detections/crawling.png)
 
 注意：爬行时，玩家的碰撞盒减少到0.6区块。
 
@@ -261,7 +261,7 @@ execute as @a [scores={is_crawling=1}] run say 我开始爬行
 execute as @a [scores={is_sneaking=1..}] run say 我仍在爬行
 ```
 
-![commandBlockChain5](/assets/images/commands/commandBlockChain/5.png)
+![commandBlockChain5](../assets/images/commands/commandBlockChain/5.png)
 
 您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
 
@@ -287,9 +287,9 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在爬行
 
 1. 在接触地面/天花板滑翔或直撞到墙壁时，将被检测为爬行。
 2. 在没有相邻方块上下的情况下，穿戴鞘翅从方块的绝对角落爬行，将被检测为滑翔。
-    - ![issue2](/assets/images/commands/movement-detections/issue2.png)
+    - ![issue2](../assets/images/commands/movement-detections/issue2.png)
 3. 在另一个含水方块下的含水方块中游泳，将被检测为爬行。
-    - ![issue3](/assets/images/commands/movement-detections/issue3.png)
+    - ![issue3](../assets/images/commands/movement-detections/issue3.png)
 
 :::
 
@@ -318,7 +318,7 @@ execute as @a [scores={is_crawling=1}] run say 我开始爬行
 execute as @a [scores={is_gliding=1..}] run say 我仍在滑翔
 ```
 
-![commandBlockChain9](/assets/images/commands/commandBlockChain/9.png)
+![commandBlockChain9](../assets/images/commands/commandBlockChain/9.png)
 
 **每个命令的目的：**
 

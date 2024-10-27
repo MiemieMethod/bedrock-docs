@@ -45,7 +45,7 @@ description: 学习如何为你的实体创建飞行行为。
 
 现在我们将在下落时给予实体缓慢下落和速度效果，以防止其瞬间下落。为此，我们将创建一个动画控制器，并在实体不在地面时给予这些效果，如下所示：
 
-（你可以在 [这里](/animation-controllers/entity-commands) 阅读关于如何使用动画控制器执行命令的教程。）
+（你可以在 [这里](../animation-controllers/entity-commands.md) 阅读关于如何使用动画控制器执行命令的教程。）
 
 <CodeHeader></CodeHeader>
 

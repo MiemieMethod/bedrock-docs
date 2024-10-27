@@ -13,7 +13,7 @@ description: 处理JSON UI的最佳方法。
 ---
 
 :::tip 信息
-本文内容假设您对JSON-UI系统有一定了解。如果您是JSON-UI的新手，请通过阅读[JSON-UI简介](/json-ui/json-ui-intro)和[JSON-UI文档](/json-ui/json-ui-documentation)来熟悉它。
+本文内容假设您对JSON-UI系统有一定了解。如果您是JSON-UI的新手，请通过阅读[JSON-UI简介](../json-ui/json-ui-intro.md)和[JSON-UI文档](../json-ui/json-ui-documentation.md)来熟悉它。
 :::
 
 ## 最大化兼容性并最小化UI出错的可能性
@@ -62,7 +62,7 @@ JSON-UI与所有其他附加包系统不同，因为**JSON-UI没有版本控制*
 通过仅修改必要的部分，您减少了UI中潜在的故障点数量，这大大有助于防止随着原版UI的更新而出错您的自定义UI。最后一点，**如果您在附加包中包含了原版UI文件的所有内容以及您的更改，您就错误地使用了JSON-UI**。
 
 ### 利用修改策略
-使用[维基文档中记录的修改策略](/json-ui/json-ui-intro#modifications)是另一个减少在Mojang更新UI时出错机会的好方法。例如，许多附加包制作者在HUD中添加元素以显示与游戏玩法相关的信息。一个常用的策略是将自定义UI (`custom_ui@namespace.custom_ui`) 合并到`hud_screen.json`的根面板中。
+使用[维基文档中记录的修改策略](../json-ui/json-ui-intro.md#modifications)是另一个减少在Mojang更新UI时出错机会的好方法。例如，许多附加包制作者在HUD中添加元素以显示与游戏玩法相关的信息。一个常用的策略是将自定义UI (`custom_ui@namespace.custom_ui`) 合并到`hud_screen.json`的根面板中。
 
 ```json
 {
@@ -96,7 +96,7 @@ JSON-UI与所有其他附加包系统不同，因为**JSON-UI没有版本控制*
 
 通过将您的自定义控件直接与原版根面板合并，您大大增加了UI在未来出错的几率。例如，如果Mojang将来更改根面板中的控件名称，您的UI可能会引用不存在或已大幅更改的UI元素，这*可能*会导致错误和/或崩溃。
 
-为避免这种情况，请利用[修改策略](/json-ui/json-ui-intro#modifications)。
+为避免这种情况，请利用[修改策略](../json-ui/json-ui-intro.md#modifications)。
 
 ```json
 {
@@ -246,7 +246,7 @@ JSON-UI与所有其他附加包系统不同，因为**JSON-UI没有版本控制*
 使用单一入口点减少了UI出错的可能性，因为如果Mojang更新了`hud_content`控件名称，某些自定义UI可能会出错。使用单一入口点还使您的UI更易于调试，因为您只需处理一个入口点。
 
 ### 避免在原版命名空间中工作
-如果您修改大量UI或添加大量自定义UI，应尽量避免在原版命名空间文件中工作。您可以通过在[UI定义文件](/json-ui/json-ui-intro#ui-defs)中添加具有唯一[命名空间](/json-ui/json-ui-intro#namespaces)的自定义UI文件来实现。记住，当您需要将UI合并到入口点时，可以使用`element@namespace.element`语法引用其他命名空间中的元素。通过在自定义命名空间中添加自定义UI，您减少了与原版控件名称冲突的可能性，这可能会引发问题。此外，像大多数其他附加包系统一样，命名空间可以支持前缀，例如`wiki:namespace`，可以引用为`element@wiki:namespace.element`。前缀还可以帮助避免与原版命名空间的冲突。
+如果您修改大量UI或添加大量自定义UI，应尽量避免在原版命名空间文件中工作。您可以通过在[UI定义文件](../json-ui/json-ui-intro.md#ui-defs)中添加具有唯一[命名空间](../json-ui/json-ui-intro.md#namespaces)的自定义UI文件来实现。记住，当您需要将UI合并到入口点时，可以使用`element@namespace.element`语法引用其他命名空间中的元素。通过在自定义命名空间中添加自定义UI，您减少了与原版控件名称冲突的可能性，这可能会引发问题。此外，像大多数其他附加包系统一样，命名空间可以支持前缀，例如`wiki:namespace`，可以引用为`element@wiki:namespace.element`。前缀还可以帮助避免与原版命名空间的冲突。
 
 ## 最大化性能
 
@@ -254,10 +254,10 @@ JSON-UI与所有其他附加包系统不同，因为**JSON-UI没有版本控制*
 
 ### 最小化UI中的运算符数量
 
-[运算符](/json-ui/json-ui-intro#using-operators)用于UI中评估条件、执行数学运算和修改字符串。这些运算符对于[条件渲染](/json-ui/json-ui-intro#conditional-rendering)等技术有用，但使用这些会**增加大量开销**。例如，如果您有一个变量`"$var": "(2 * (-1 * $number))"`，将其简化为`"$var": "(-2 * $number)"`性能更高。最好尽可能简化表达式，删除不需要的表达式，以尽可能加快评估速度。
+[运算符](../json-ui/json-ui-intro.md#using-operators)用于UI中评估条件、执行数学运算和修改字符串。这些运算符对于[条件渲染](../json-ui/json-ui-intro.md#conditional-rendering)等技术有用，但使用这些会**增加大量开销**。例如，如果您有一个变量`"$var": "(2 * (-1 * $number))"`，将其简化为`"$var": "(-2 * $number)"`性能更高。最好尽可能简化表达式，删除不需要的表达式，以尽可能加快评估速度。
 
 ### 最小化UI中的绑定数量
-类似于运算符，使用许多[绑定](/json-ui/json-ui-intro#bindings)**也会增加显著的开销**。设置界面打开时间过长的部分原因是所有切换和选项都链接到特定的绑定，数量众多。删除不影响功能的绑定，或简化绑定，是提高性能的另一个极佳方法。
+类似于运算符，使用许多[绑定](../json-ui/json-ui-intro.md#bindings)**也会增加显著的开销**。设置界面打开时间过长的部分原因是所有切换和选项都链接到特定的绑定，数量众多。删除不影响功能的绑定，或简化绑定，是提高性能的另一个极佳方法。
 
 ### 避免添加不必要的控件
 也许提高JSON-UI性能的最佳方法是删除未使用或不必要的控件。在此示例中，子控件`panel`是不需要的，因为它是一个空面板。

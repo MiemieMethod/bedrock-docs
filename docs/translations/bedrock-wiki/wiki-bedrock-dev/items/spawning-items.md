@@ -46,7 +46,7 @@ description: 生成一个物品实体。
 
 ## 虚拟实体死亡
 
-我们可以在一个[虚拟实体](/entities/dummy-entities)上使用 `minecraft:loot`，该实体在生成时会死亡，从而创建一个 `drop_entity`。可以通过 `/summon wiki:drop_entity` 来召唤此实体以生成物品。这在死亡粒子或声音不是问题的情况下非常有用。
+我们可以在一个[虚拟实体](../entities/dummy-entities.md)上使用 `minecraft:loot`，该实体在生成时会死亡，从而创建一个 `drop_entity`。可以通过 `/summon wiki:drop_entity` 来召唤此实体以生成物品。这在死亡粒子或声音不是问题的情况下非常有用。
 
 行为：
 
@@ -175,4 +175,4 @@ description: 生成一个物品实体。
 这种方法允许我们保留物品数据（例如耐久度）。
 然后，您可以在任何时候和任何地方加载此结构。
 
-![](/assets/images/items/spawning-items/structure-method.png)
+![](../assets/images/items/spawning-items/structure-method.png)

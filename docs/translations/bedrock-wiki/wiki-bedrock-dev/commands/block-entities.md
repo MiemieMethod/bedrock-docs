@@ -74,7 +74,7 @@ execute as @e [type=armor_stand, name=Grumm] at @s run tp ~~~
 effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 ```
 
-![commandBlockChain6](/assets/images/commands/commandBlockChain/6.png)
+![commandBlockChain6](../assets/images/commands/commandBlockChain/6.png)
 
 ### 每个命令的目的
 

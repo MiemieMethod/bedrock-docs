@@ -121,7 +121,7 @@ description: 关于 .mcstructure 格式。
 
 ## NBT 编辑器
 
-您可以在 [这里](/meta/useful-links#software-installed) 找到一些 NBT 编辑器的下载链接。
+您可以在 [这里](../meta/useful-links.md#software-installed) 找到一些 NBT 编辑器的下载链接。
 
 ---
 

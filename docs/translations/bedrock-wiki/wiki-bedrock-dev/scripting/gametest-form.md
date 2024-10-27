@@ -111,7 +111,7 @@ form.button("谋杀之谜", "textures/items/iron_sword");
 form.button("床战", "textures/minigames/bedwars.png");
 ```
 
-![image](/assets/images/gametest/gametest-form/action-form.png)
+![image](../assets/images/gametest/gametest-form/action-form.png)
 
 ### MessageFormData
 消息表单是由 2 个按钮和一个大描述（主体）组成的表单。此表单非常适合是/否问题或确定/取消表单。
@@ -163,7 +163,7 @@ form.button1("不，保持默认设置！");
 form.button2("是的，执行！");
 ```
 
-![image](/assets/images/gametest/gametest-form/message-form.png)
+![image](../assets/images/gametest/gametest-form/message-form.png)
 
 ### ModalFormData
 模态表单具有表单中可用的最多输入类型。它具有文本字段、滑块、下拉菜单和切换。模态表单适用于复杂的表单，例如效果生成器。模态表单没有主体属性。
@@ -254,7 +254,7 @@ form.slider("效果等级", 0, 255, 1)
 form.toggle("隐藏效果粒子", true)
 ```
 
-![image](/assets/images/gametest/gametest-form/modal-form.png)
+![image](../assets/images/gametest/gametest-form/modal-form.png)
 
 ## 显示和响应
 创建表单后，我们需要向玩家显示表单并保存响应以执行其他任务。我们需要一些事件来显示我们的表单。最常用的事件是使用 `itemUse` 事件，它会在玩家使用（右键单击）物品时触发。

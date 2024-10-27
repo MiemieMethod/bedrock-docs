@@ -118,7 +118,7 @@ loop(0);
 
 - **[脚本][信息]**
 
-  你可以使用`console.log()`或`console.info()`来显示JavaScript值，但它们仅显示在[内容日志文件](/guide/troubleshooting#content-log-file)中，你可以在[这里](/guide/troubleshooting#content-log-file)查看它们。
+  你可以使用`console.log()`或`console.info()`来显示JavaScript值，但它们仅显示在[内容日志文件](../guide/troubleshooting.md#content-log-file)中，你可以在[这里](../guide/troubleshooting.md#content-log-file)查看它们。
 
   `00:00:00-[脚本][信息]-`: 当使用`console.log()`或`console.info()`时触发此文本。
 

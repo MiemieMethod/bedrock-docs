@@ -14,7 +14,7 @@ description: 配方是处理多种物品交易的方式，特别是在工作台�
 
 配方是处理多种物品交易的方式，特别是在工作台、熔炉、篝火和酿造架中发生的交易。
 
-![](/assets/images/loot/recipes/recipe.png)
+![](../assets/images/loot/recipes/recipe.png)
 
 ::: tip
 铁砧的交互在[物品定义](/items/item-components)中处理，而不是通过配方文件。目前Loom交易不可用。
@@ -80,7 +80,7 @@ description: 配方是处理多种物品交易的方式，特别是在工作台�
 
 ### 格式版本
 
-[格式版本](/guide/format-version)用于版本化配方主体所使用的模式。它通过顶级的 `"format_version"` 属性提供。
+[格式版本](../guide/format-version.md)用于版本化配方主体所使用的模式。它通过顶级的 `"format_version"` 属性提供。
 
 <CodeHeader>#/</CodeHeader>
 ```json
@@ -147,7 +147,7 @@ description: 配方是处理多种物品交易的方式，特别是在工作台�
 -   `material_reducer`
 
 ::: tip 
-此外，[自定义工作台](/blocks/block-components#crafting-table)可以声明自定义标签以供酿造配方使用。自定义烹饪和熔炼方块以及自定义酿造架当前不可用。
+此外，[自定义工作台](../blocks/block-components.md#crafting-table)可以声明自定义标签以供酿造配方使用。自定义烹饪和熔炼方块以及自定义酿造架当前不可用。
 :::
 
 ::: tip
@@ -223,7 +223,7 @@ Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方
 :::
 
 ::: warning
-尽管与贸易[表物品描述符](/loot/trade-tables#items)有相似之处，但配方物品描述符不能使用函数。
+尽管与贸易[表物品描述符](../loot/trade-tables.md#items)有相似之处，但配方物品描述符不能使用函数。
 :::
 
 #### 标识符补充
@@ -269,13 +269,13 @@ Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方
 "tags": ["crafting_table", "stonecutter"]
 ```
 
-`"crafting_table"` 适用于原版工作台和玩家库存中的 2 × 2 制作网格。目前没有办法只选择其中一个而不选择另一个。制作配方还支持自定义标签，将配方链接到[自定义方块提供的制作网格](/blocks/block-components#crafting-table)。
+`"crafting_table"` 适用于原版工作台和玩家库存中的 2 × 2 制作网格。目前没有办法只选择其中一个而不选择另一个。制作配方还支持自定义标签，将配方链接到[自定义方块提供的制作网格](../blocks/block-components.md#crafting-table)。
 
 ### 无形状配方
 
 无形状配方仅将一组输入绑定到制作网格上的单一输出。
 
-![](/assets/images/loot/recipes/shapeless_recipe.png)
+![](../assets/images/loot/recipes/shapeless_recipe.png)
 
 <CodeHeader>BP/recipes/decorations/knobs/brass.json</CodeHeader>
 ```json
@@ -347,7 +347,7 @@ Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方
 
 形状配方强制在制作过程中使用的成分符合严格的形状。
 
-![](/assets/images/loot/recipes/shaped_recipe.png)
+![](../assets/images/loot/recipes/shaped_recipe.png)
 
 <CodeHeader>BP/recipes/covered_arch.json</CodeHeader>
 ```json
@@ -611,7 +611,7 @@ Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方
 
 熔炉配方用于使用热源在一段时间内转换一个物品。稍有不当的命名，熔炉配方可用于任何涉及热源的界面，包括篝火。
 
-![](/assets/images/loot/recipes/furnace_recipe.png)
+![](../assets/images/loot/recipes/furnace_recipe.png)
 
 <CodeHeader>BP/recipes/magic/magic_ash.json</CodeHeader>
 ```json
@@ -691,7 +691,7 @@ Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方
 
 酿造混合是简单的酿造配方，理论上设计用于将输入的数据值与输出的数据值隔离。
 
-![](/assets/images/loot/recipes/brewing_mix_recipe.png)
+![](../assets/images/loot/recipes/brewing_mix_recipe.png)
 
 <CodeHeader>BP/recipes/brewing/negative/paralysis.json</CodeHeader>
 ```json
@@ -726,7 +726,7 @@ Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方
 
 酿造容器旨在将输入的数据值传递给转换后的输出。
 
-![](/assets/images/loot/recipes/brewing_container_recipe.png)
+![](../assets/images/loot/recipes/brewing_container_recipe.png)
 
 <CodeHeader>BP/recipes/illumination_potion.json</CodeHeader>
 ```json

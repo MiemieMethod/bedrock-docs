@@ -24,11 +24,11 @@ description: 此命令技术允许您检测目标何时注视玩家/实体/坐�
 ```yaml
 execute as <target> at @s anchored eyes facing <entity | coordinate> positioned ^^^1 positioned ~~-1.62~ rotated as @s positioned ^^^-1 if entity @s [r=0.2] run <command>
 ```
-![一个重复的命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复的命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 **可视化:**
 
-![Alex 注视猪的头部](/assets/images/commands/lookDetectionVisualRep.gif)
+![Alex 注视猪的头部](../assets/images/commands/lookDetectionVisualRep.gif)
 
 > *注意: 这是一个粗略的可视化表示，并非精确测量。*
 
@@ -73,7 +73,7 @@ execute as <target> at @s anchored eyes facing <entity | coordinate> positioned 
 execute as @a at @s anchored eyes facing entity @e [type=cow, tag=target] eyes positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello cow!
 execute as @a at @s anchored eyes facing entity @e [type=sheep, tag=target] eyes positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello sheep!
 ```
-![一个重复的命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复的命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 2. 当注视位置`(10, 20, 30)`或`(6, 7, 8)`时运行`/say`命令：
 
@@ -83,7 +83,7 @@ execute as @a at @s anchored eyes facing entity @e [type=sheep, tag=target] eyes
 execute as @a at @s anchored eyes facing 10 20 30 positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello block!
 execute as @a at @s anchored eyes facing 6 7 8 positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello block!
 ```
-![一个重复的命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复的命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 **替代结构:**
 
@@ -92,7 +92,7 @@ execute as @a at @s anchored eyes facing 6 7 8 positioned ~~-1.62~ positioned ^^
 ```yaml
 execute as <target> at <coordinate | entity> facing entity @s eyes positioned as @s positioned ^^^1 rotated as @s positioned ^^^1 if entity @s[r=0.02] run <command>
 ```
-![一个重复的命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复的命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 如果您不需要检测目标注视实体的*眼睛*而是它们的脚或某个坐标，您可以使用此结构，这样就不需要`anchored eyes`指令，因为执行位置是从实体/坐标开始的，而不是目标。
 

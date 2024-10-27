@@ -62,7 +62,7 @@ description: 更改或禁用实体死亡动画。
 
 我们还可以取消实体的旋转值，使实体以更传统的方式死亡（粒子、红色着色、掉落物），而不进行90度旋转。
 
-如果你需要有关从实体死亡触发动画的更多信息，请参阅[此文档](/animation-controllers/death-commands)了解死亡效果。
+如果你需要有关从实体死亡触发动画的更多信息，请参阅[此文档](../animation-controllers/death-commands.md)了解死亡效果。
 
 旋转需要应用于所有其他骨骼的骨骼父级，枢轴位于 [0,0,0]，并且动画应仅在 `!q.is_alive` 时开始。
 
@@ -118,7 +118,7 @@ description: 更改或禁用实体死亡动画。
 
 你可以移除/自定义实体的伤害颜色覆盖。
 
-在开始之前，你必须了解渲染控制器的基础知识，因此请查看[渲染控制器教程](/entities/render-controllers)。
+在开始之前，你必须了解渲染控制器的基础知识，因此请查看[渲染控制器教程](../entities/render-controllers.md)。
 
 要在实体受到伤害时移除其伤害覆盖颜色，我们将使用 `is_hurt_color` 并在实体受到岩浆或火焰伤害时移除伤害覆盖颜色，使用 `on_fire_color`。
 首先，你需要将 rgba 值设置为 0。
@@ -360,4 +360,4 @@ description: 更改或禁用实体死亡动画。
 
 ### 使用命令检测死亡
 
-<Button link="/commands/tick_json-creations#death-detection">查看</Button>
+<Button link="../commands/tick_json-creations.md#death-detection">查看</Button>

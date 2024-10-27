@@ -64,7 +64,7 @@ description: 理解命令中的目标选择器。
 
 改变选择器开始搜索的位置。它还修改距离和体积参数的位置。任何未定义的参数将默认为命令的当前位置。
 
-可以使用[相对坐标](/commands/relative-coordinates#relative-coordinates)来定义相对于命令位置的偏移。
+可以使用[相对坐标](../commands/relative-coordinates.md#relative-coordinates)来定义相对于命令位置的偏移。
 
 -   `x=<value>`、`y=<value>` 和 `z=<value>`—为目标选择器定义一个位置。
 
@@ -110,7 +110,7 @@ description: 理解命令中的目标选择器。
 
 即使目标的碰撞箱仅部分包含在体积内，目标仍将被选中。
 
-![](/assets/images/commands/selectors/volume.png)
+![](../assets/images/commands/selectors/volume.png)
 
 在这个可视化表示中，我们可以看到，碰撞箱较大的马被选中，而碰撞箱较小的玩家没有被选中，尽管他们站在同一个点上。
 
@@ -186,11 +186,11 @@ description: 理解命令中的目标选择器。
 
 _x 旋转图示由 @SpacebarNinja 分享：_
 
-<img src="/assets/images/commands/selectors/x-rotation.png" width="400">
+<img src="../assets/images/commands/selectors/x-rotation.png" width="400">
 
 _y 旋转图示由 @SpacebarNinja 分享：_
 
-<img src="/assets/images/commands/selectors/y-rotation.png" width="400">
+<img src="../assets/images/commands/selectors/y-rotation.png" width="400">
 
 **示例：**
 
@@ -259,7 +259,7 @@ _y 旋转图示由 @SpacebarNinja 分享：_
 根据玩家在其库存中拥有的物品限制目标的选择。此参数表示为一个对象或对象数组，最多包含以下参数之一：
 
 -   `item=<string>`—要测试的物品的标识符，这是唯一的必需参数。此参数也可以接受自定义标识符。
--   `quantity=<int>`—要测试的物品数量。接受[范围](/commands/selectors#scores)作为值。此参数也可以被否定。
+-   `quantity=<int>`—要测试的物品数量。接受[范围](../commands/selectors.md#scores)作为值。此参数也可以被否定。
 -   `data=<int>`—要测试的物品的数据值。默认为 -1。**当前不可用：** [MCPE-151920](https://bugs.mojang.com/browse/MCPE-151920)
 -   `location=<string>`—物品应该位于的槽位。接受与 `/replaceitem` 命令中的 slotType 参数相同的参数。
 -   `slot=<int>`—在“location”参数中使用的槽位索引，仅能与“location”一起使用。接受范围作为值。此参数可以被否定。

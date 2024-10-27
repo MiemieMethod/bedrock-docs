@@ -71,7 +71,7 @@ description: 当其他实体靠近时触发事件。
 }
 ```
 
-第一个用于检测实体是否存在，另一个用于检测实体是否不存在。`/execute`命令中的`/event`部分使用的事件可以用于添加[虚拟组件](/entities/dummy-components)或更新[实体属性](https://learn.microsoft.com/en-us/minecraft/creator/documents/introductiontoentityproperties)。
+第一个用于检测实体是否存在，另一个用于检测实体是否不存在。`/execute`命令中的`/event`部分使用的事件可以用于添加[虚拟组件](../entities/dummy-components.md)或更新[实体属性](https://learn.microsoft.com/en-us/minecraft/creator/documents/introductiontoentityproperties)。
 
 接下来，复制并粘贴以下BP动画控制器。这假设你已设置`/execute`命令的`/event`部分以添加或移除`minecraft:is_sheared`。
 

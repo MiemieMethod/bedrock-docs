@@ -232,7 +232,7 @@ system.runTimeout(() => {
 
 通过 `@minecraft/server` 模块，开发者可以定义自己的自定义属性，称为动态属性，可以在Minecraft中使用和存储。这些数据专门存储在世界的 db 文件夹中，使用行为包模块的 UUID。
 
-![dynamic_properties](/assets/images/gametest/script-server/dynamic_properties.png)
+![dynamic_properties](../assets/images/gametest/script-server/dynamic_properties.png)
 
 为了保存数据，必须先初始化属性。有多种方式声明动态属性，可以在实体、世界或物品上声明。你可以定义任意数量的数字和布尔值属性，然而Minecraft API仅允许每个行为包在每个动态属性上保存有限数量的数据。
 

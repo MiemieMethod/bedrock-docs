@@ -51,7 +51,7 @@ mentions:
 }
 ```
 
--   掉落表由“`pools`”组成。每个池定义了不同的掉落。一个池由三个部分组成：“`rolls`”、“`entries`”和“`conditions`”。“`conditions`”是可选的，本指南将不涵盖。要了解更多关于条件的信息，请查看[掉落表](/loot/loot-tables)。
+-   掉落表由“`pools`”组成。每个池定义了不同的掉落。一个池由三个部分组成：“`rolls`”、“`entries`”和“`conditions`”。“`conditions`”是可选的，本指南将不涵盖。要了解更多关于条件的信息，请查看[掉落表](../loot/loot-tables.md)。
 -   “`rolls`”部分定义了从以下“`entries`”对象中随机选择多少次。
 -   “`entries`”部分定义了掉落表可以选择的物品。每次掷骰子时都会选择一个新物品。
 -   “`type`”定义了将要选择的内容。可以将其设置为“`item`”或“`loot_table`”，以选择物品或其他掉落表。
@@ -59,7 +59,7 @@ mentions:
 -   “`weight`”是可选的，定义了选择此物品的可能性。如果“`entries`”部分中有多个物品，可以使用“`weight`”属性来调整某个物品的概率。如果未设置，则默认为1。
 -   “`functions`”提供了一种强大的方式来定制将返回的物品。它们可以为物品添加附魔、设置物品名称或简单地设置将掉落的物品数量。要定义物品数量，我们使用“`set_count`”。它接受“`count`”属性，设置将掉落的物品的最大和最小数量。
 
-有关掉落表的更多信息，请查看我们的扩展指南：[掉落表](/loot/loot-tables)!
+有关掉落表的更多信息，请查看我们的扩展指南：[掉落表](../loot/loot-tables.md)!
 
 ## 生成规则
 
@@ -108,7 +108,7 @@ mentions:
 -   你已经知道“`format_version`”的作用。
 -   在“`minecraft:spawn_rules`”部分中，我们定义了我们的生成规则。
 -   “`description`”定义了文件的基本属性。“`identifier`”用于定义此生成规则适用于哪个实体。“`population_control`”用于限制生成的实体数量。一旦“`population_control`”中定义的池满了，就不会再生成实体。
--   使用“`conditions`”，我们可以定义限制此实体生成的特殊规则。我们将简要描述此处使用的每个条件，但你可以在[这里](/entities/vanilla-usage-spawn-rules)了解更多条件及其用法。
+-   使用“`conditions`”，我们可以定义限制此实体生成的特殊规则。我们将简要描述此处使用的每个条件，但你可以在[这里](../entities/vanilla-usage-spawn-rules.md)了解更多条件及其用法。
     -   “`spawns_on_surface`”允许生物仅在表面生成。
     -   “`minecraft:brightness_filter`”限制生成到光照水平在定义值之间的区域。如果“`adjust_for_weather`”为`true`，则在雨天和风暴期间光照水平的降低将被忽略。
     -   “`minecraft:difficulty_filter`”定义生成实体所需的难度级别。
@@ -116,7 +116,7 @@ mentions:
     -   “`minecraft:herd`”定义一次生成多少实体。
     -   使用“`minecraft:biome_filter`”，我们定义实体能够生成的生物群落。
 
-要了解有关生成规则的更多信息，请查看我们的[原版生成规则](/entities/vanilla-usage-spawn-rules)指南。
+要了解有关生成规则的更多信息，请查看我们的[原版生成规则](../entities/vanilla-usage-spawn-rules.md)指南。
 
 ## 合成配方
 
@@ -146,13 +146,13 @@ mentions:
 ```
 
 -   “`format_version`”已经知道。
--   使用“`recipe_shaped`”，我们定义每个材料在合成网格中的固定位置。还有其他一些类型可以使用，更多信息请查看[这里](/loot/recipes)。
+-   使用“`recipe_shaped`”，我们定义每个材料在合成网格中的固定位置。还有其他一些类型可以使用，更多信息请查看[这里](../loot/recipes.md)。
 -   在“`description`”中，我们定义此配方的“`identifier`”，即配方的名称。
 -   “`tags`”是能够使用此配方的工作台（合成台、熔炉等）的列表。在版本b1.16.100之后，可以使用由附加包创建的自定义工作台。
 -   “`pattern`”定义了物品在合成网格中的排列。每个`#`代表在“`key`”下设置的物品。在这种情况下，整个3x3网格必须填满“`wiki:ectoplasm`”，我们的自定义物品。可以定义更多物品，只需向“`key`”添加一个条目，并将键设置为可以在“`pattern`”中使用的字符。
 -   “`result`”包含一个“`item`”，该项设置为此配方的输出物品。
 
-有关此主题的更多信息，请访问我们关于[配方](/loot/recipes)的页面！
+有关此主题的更多信息，请访问我们关于[配方](../loot/recipes.md)的页面！
 
 ## 你学到了什么
 

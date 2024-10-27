@@ -32,35 +32,35 @@ description: JSON UI 的文档。
 
 | 名称 | 描述 | 允许的属性 |
 | - | - | - |
-| panel | 一个容器，类似于 HTML 中的 `<div>` | [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| stack_panel | 类似于 `panel`，但根据 `orientation` 属性值堆叠其子元素 | [Stack Panel](/json-ui/json-ui-documentation#stack-panel) <br> [Collection](/json-ui/json-ui-documentation#collection) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| collection_panel | 类似于 `stack_panel`，但没有 `orientation` 属性 | [Collection](/json-ui/json-ui-documentation#collection) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| grid | 元素的网格 | [Grid](/json-ui/json-ui-documentation#grid) <br> [Collection](/json-ui/json-ui-documentation#collection) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| label | 文本元素 | [Text](/json-ui/json-ui-documentation#text) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| image | 精灵元素。绘制纹理。 | [Sprite](/json-ui/json-ui-documentation#sprite) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| input_panel | 接受输入的 `panel` | [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Sound](/json-ui/json-ui-documentation#sound) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| button | 一个按钮，可以有 4 种状态（默认、悬停、按下和锁定） | [Button](/json-ui/json-ui-documentation#button) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Sound](/json-ui/json-ui-documentation#sound) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| toggle | 一个切换按钮，有 2 种状态（选中或未选中）。每种状态有悬停和锁定变体 | [Toggle](/json-ui/json-ui-documentation#toggle) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Sound](/json-ui/json-ui-documentation#sound) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| dropdown | 用于下拉菜单的切换按钮 | [Dropdown](/json-ui/json-ui-documentation#dropdown) <br> [Toggle](/json-ui/json-ui-documentation#toggle) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Sound](/json-ui/json-ui-documentation#sound) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| slider | 范围输入元素 | [Slider](/json-ui/json-ui-documentation#slider) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Sound](/json-ui/json-ui-documentation#sound) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| slider_box | 用于更改滑块值的滑块按钮 | [Slider Box](/json-ui/json-ui-documentation#slider-box) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| edit_box | 文本字段元素。默认是单行 | [Text Edit](/json-ui/json-ui-documentation#text-edit) <br> [Button](/json-ui/json-ui-documentation#button) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| scroll_view | 创建一个可滚动的面板元素 | [Scroll View](/json-ui/json-ui-documentation#scroll-view) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| scrollbar_track | 滚动条轨道 | [Input](/json-ui/json-ui-documentation#input) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) |
-| scrollbar_box | 滚动条的“拇指”/按钮。可拖动的滚动手柄。默认是垂直方向的 | [Input](/json-ui/json-ui-documentation#input) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) |
-| factory | 元素生成器 | [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) |
-| screen | 屏幕元素 | [Screen](/json-ui/json-ui-documentation#screen) [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| custom | 在代码中创建的特殊渲染器元素，因为它对 JSON UI 来说太复杂 | [Custom Render](/json-ui/json-ui-documentation#custom-render) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| selection_wheel | | [Selection Wheel](/json-ui/json-ui-documentation#selection-wheel) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Sound](/json-ui/json-ui-documentation#sound) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
+| panel | 一个容器，类似于 HTML 中的 `<div>` | [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| stack_panel | 类似于 `panel`，但根据 `orientation` 属性值堆叠其子元素 | [Stack Panel](../json-ui/json-ui-documentation.md#stack-panel) <br> [Collection](../json-ui/json-ui-documentation.md#collection) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| collection_panel | 类似于 `stack_panel`，但没有 `orientation` 属性 | [Collection](../json-ui/json-ui-documentation.md#collection) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| grid | 元素的网格 | [Grid](../json-ui/json-ui-documentation.md#grid) <br> [Collection](../json-ui/json-ui-documentation.md#collection) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| label | 文本元素 | [Text](../json-ui/json-ui-documentation.md#text) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| image | 精灵元素。绘制纹理。 | [Sprite](../json-ui/json-ui-documentation.md#sprite) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| input_panel | 接受输入的 `panel` | [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Sound](../json-ui/json-ui-documentation.md#sound) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| button | 一个按钮，可以有 4 种状态（默认、悬停、按下和锁定） | [Button](../json-ui/json-ui-documentation.md#button) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Sound](../json-ui/json-ui-documentation.md#sound) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| toggle | 一个切换按钮，有 2 种状态（选中或未选中）。每种状态有悬停和锁定变体 | [Toggle](../json-ui/json-ui-documentation.md#toggle) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Sound](../json-ui/json-ui-documentation.md#sound) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| dropdown | 用于下拉菜单的切换按钮 | [Dropdown](../json-ui/json-ui-documentation.md#dropdown) <br> [Toggle](../json-ui/json-ui-documentation.md#toggle) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Sound](../json-ui/json-ui-documentation.md#sound) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| slider | 范围输入元素 | [Slider](../json-ui/json-ui-documentation.md#slider) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Sound](../json-ui/json-ui-documentation.md#sound) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| slider_box | 用于更改滑块值的滑块按钮 | [Slider Box](../json-ui/json-ui-documentation.md#slider-box) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| edit_box | 文本字段元素。默认是单行 | [Text Edit](../json-ui/json-ui-documentation.md#text-edit) <br> [Button](../json-ui/json-ui-documentation.md#button) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| scroll_view | 创建一个可滚动的面板元素 | [Scroll View](../json-ui/json-ui-documentation.md#scroll-view) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| scrollbar_track | 滚动条轨道 | [Input](../json-ui/json-ui-documentation.md#input) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) |
+| scrollbar_box | 滚动条的“拇指”/按钮。可拖动的滚动手柄。默认是垂直方向的 | [Input](../json-ui/json-ui-documentation.md#input) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) |
+| factory | 元素生成器 | [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) |
+| screen | 屏幕元素 | [Screen](../json-ui/json-ui-documentation.md#screen) [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| custom | 在代码中创建的特殊渲染器元素，因为它对 JSON UI 来说太复杂 | [Custom Render](../json-ui/json-ui-documentation.md#custom-render) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| selection_wheel | | [Selection Wheel](../json-ui/json-ui-documentation.md#selection-wheel) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Sound](../json-ui/json-ui-documentation.md#sound) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
 
 #### 旧版元素类型（不再工作）
 
 | 名称 | 描述 | 允许的属性 |
 | - | - | - |
-| tab | 在添加切换按钮之前制作标签页的方式 | [Tab](/json-ui/json-ui-documentation#tab-legacy) <br> [Button](/json-ui/json-ui-documentation#button) <br> [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Sound](/json-ui/json-ui-documentation#sound) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| carousel_label | | [Carousel Text](/json-ui/json-ui-documentation#carousel-text-legacy) <br> [Text](/json-ui/json-ui-documentation#text) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| grid_item | 一个 `panel`，但专门作为网格的项目/子项 | [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
-| scrollbar | | [Input](/json-ui/json-ui-documentation#input) <br> [Focus](/json-ui/json-ui-documentation#focus) <br> [Control](/json-ui/json-ui-documentation#control) <br> [Layout](/json-ui/json-ui-documentation#layout) <br> [Data Binding](/json-ui/json-ui-documentation#data-binding) |
+| tab | 在添加切换按钮之前制作标签页的方式 | [Tab](../json-ui/json-ui-documentation.md#tab-legacy) <br> [Button](../json-ui/json-ui-documentation.md#button) <br> [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Sound](../json-ui/json-ui-documentation.md#sound) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| carousel_label | | [Carousel Text](../json-ui/json-ui-documentation.md#carousel-text-legacy) <br> [Text](../json-ui/json-ui-documentation.md#text) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| grid_item | 一个 `panel`，但专门作为网格的项目/子项 | [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
+| scrollbar | | [Input](../json-ui/json-ui-documentation.md#input) <br> [Focus](../json-ui/json-ui-documentation.md#focus) <br> [Control](../json-ui/json-ui-documentation.md#control) <br> [Layout](../json-ui/json-ui-documentation.md#layout) <br> [Data Binding](../json-ui/json-ui-documentation.md#data-binding) |
 
 ## 属性
 
@@ -78,7 +78,7 @@ description: JSON UI 的文档。
 | clip_offset | Vector [x, y] | `[0, 0]` | 剪切的起始偏移 |
 | clip_state_change_event | string | | |
 | enable_scissor_test | boolean | | [https://www.khronos.org/opengl/wiki/Scissor_Test](https://www.khronos.org/opengl/wiki/Scissor_Test) |
-| property_bag | object | | [Property bag](/json-ui/json-ui-documentation#property-bag) 包含更多与数据相关的属性/变量，而不是 UI 元素的结构和外观 |
+| property_bag | object | | [Property bag](../json-ui/json-ui-documentation.md#property-bag) 包含更多与数据相关的属性/变量，而不是 UI 元素的结构和外观 |
 | selected | boolean | | 如果文本框默认被选中 |
 | use_child_anchors | boolean | `false` | 使用 UI 元素子元素的 `anchor_from` 和 `anchor_to` |
 | controls | array | | 用于向元素添加子元素 |
@@ -120,7 +120,7 @@ description: JSON UI 的文档。
 
 | 属性名称 | 类型 | 默认值 | 描述 |
 | - | :-: | :-: | - |
-| bindings | Vector of [binding object](/json-ui/json-ui-documentation#data-binding-array-object) | | 绑定并处理元素中的硬编码值 |
+| bindings | Vector of [binding object](../json-ui/json-ui-documentation.md#data-binding-array-object) | | 绑定并处理元素中的硬编码值 |
 
 #### 数据绑定数组对象
 
@@ -241,7 +241,7 @@ description: JSON UI 的文档。
 
 | 属性名称 | 类型 | 默认值 | 描述 |
 | - | :-: | :-: | - |
-| button_mappings | Vector of [mapping object](/json-ui/json-ui-documentation#button-mapping-array-object) | | |
+| button_mappings | Vector of [mapping object](../json-ui/json-ui-documentation.md#button-mapping-array-object) | | |
 | modal | boolean | | |
 | inline_modal | boolean | | |
 | always_listen_to_input | boolean | | |
@@ -289,10 +289,10 @@ description: JSON UI 的文档。
 | focus_navigation_mode_right | enum | | 可能的值：`none` <br> `stop` <br> `custom` <br> `contained` |
 | focus_navigation_mode_down | enum | | 可能的值：`none` <br> `stop` <br> `custom` <br> `contained` |
 | focus_navigation_mode_up | enum | | 可能的值：`none` <br> `stop` <br> `custom` <br> `contained` |
-| focus_container_custom_left | Vector of [focus container custom object](/json-ui/json-ui-documentation#focus-container-custom-array-object) | | |
-| focus_container_custom_right | Vector of [focus container custom object](/json-ui/json-ui-documentation#focus-container-custom-array-object) | | |
-| focus_container_custom_down | Vector of [focus container custom object](/json-ui/json-ui-documentation#focus-container-custom-array-object) | | |
-| focus_container_custom_up | Vector of [focus container custom object](/json-ui/json-ui-documentation#focus-container-custom-array-object) | | |
+| focus_container_custom_left | Vector of [focus container custom object](../json-ui/json-ui-documentation.md#focus-container-custom-array-object) | | |
+| focus_container_custom_right | Vector of [focus container custom object](../json-ui/json-ui-documentation.md#focus-container-custom-array-object) | | |
+| focus_container_custom_down | Vector of [focus container custom object](../json-ui/json-ui-documentation.md#focus-container-custom-array-object) | | |
+| focus_container_custom_up | Vector of [focus container custom object](../json-ui/json-ui-documentation.md#focus-container-custom-array-object) | | |
 
 #### 焦点容器自定义数组对象
 
@@ -391,7 +391,7 @@ $creative_layout_index - $items_index
 | sound_name | string | 在按下事件触发时播放的 `RP/sounds/sound_definitions.json` 文件中定义的声音名称 |
 | sound_volume | float | 声音的音量 |
 | sound_pitch | float | 声音的音调 |
-| sounds | Vector of [sound object](/json-ui/json-ui-documentation#sound-array-object) | 在按下事件触发时播放的声音数组 |
+| sounds | Vector of [sound object](../json-ui/json-ui-documentation.md#sound-array-object) | 在按下事件触发时播放的声音数组 |
 
 #### 声音数组对象
 
@@ -636,7 +636,7 @@ $creative_layout_index - $items_index
 ```
 
 <WikiImage
-	src="/assets/images/json-ui/json-ui-documentation/anchor_same_value.png"
+	src="../assets/images/json-ui/json-ui-documentation/anchor_same_value.png"
 	alt="锚点具有相同值"
 	pixelated
 	width=782
@@ -656,7 +656,7 @@ $creative_layout_index - $items_index
 ```
 
 <WikiImage
-	src="/assets/images/json-ui/json-ui-documentation/anchor_center_top_left.png"
+	src="../assets/images/json-ui/json-ui-documentation/anchor_center_top_left.png"
 	alt="锚点从中心到左上角"
 	pixelated
 	width=782
@@ -667,7 +667,7 @@ $creative_layout_index - $items_index
 另一个示例：
 
 <WikiImage
-	src="/assets/images/json-ui/json-ui-documentation/anchor_ce_rm_tm_tl.png"
+	src="../assets/images/json-ui/json-ui-documentation/anchor_ce_rm_tm_tl.png"
 	alt="锚点从中心到右中部和锚点从上中部到左上角"
 	pixelated
 	width=782
@@ -850,7 +850,7 @@ $creative_layout_index - $items_index
 | scale_from_starting_alpha | boolean | |
 | activated | boolean | |
 
-有关 `aseprite_flip_book` 动画类型的更多信息，请参阅我们的 [Aseprite 动画](/json-ui/aseprite-animations) 页面。
+有关 `aseprite_flip_book` 动画类型的更多信息，请参阅我们的 [Aseprite 动画](../json-ui/aseprite-animations.md) 页面。
 
 ## 全局变量
 

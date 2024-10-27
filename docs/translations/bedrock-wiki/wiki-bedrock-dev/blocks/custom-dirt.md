@@ -15,7 +15,7 @@
 
 :::tip 格式 & 最低引擎版本 `1.21.40`
 本教程假设您对区块有良好的理解。
-开始前请查看 [区块指南](/blocks/blocks-intro)、[区块状态](/blocks/block-states) 和 [区块排列](/blocks/block-permutations)。
+开始前请查看 [区块指南](../blocks/blocks-intro.md)、[区块状态](../blocks/block-states.md) 和 [区块排列](../blocks/block-permutations.md)。
 :::
 
 :::warning EXPERIMENTAL

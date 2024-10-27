@@ -28,7 +28,7 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 
 在这里，我们定义了一个将要使用的粒子的短名称。
 
-你可以在 [这里](https://minecraft.wiki/w/Particles) 或 [这里](/particles/vanilla-particles) 找到粒子列表。
+你可以在 [这里](https://minecraft.wiki/w/Particles) 或 [这里](../particles/vanilla-particles.md) 找到粒子列表。
 
 :::warning 警告！
 并不是每个粒子都能在这里工作。如果遇到问题，请考虑尝试其他粒子。例如，使用这个粒子。
@@ -151,23 +151,23 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 
 首先为我们的粒子添加一个定位器。进入“编辑”部分，选择一个组，右键点击并选择“添加定位器”：
 
-![](/assets/images/visuals/animation-effects/add-locator.png)
+![](../assets/images/visuals/animation-effects/add-locator.png)
 
 重命名并移动到你想要的位置。
 
 然后进入“动画”部分，选择一个动画并点击魔法棒图标：
 
-![](/assets/images/visuals/animation-effects/add-effect.png)
+![](../assets/images/visuals/animation-effects/add-effect.png)
 
 现在点击“+”以打开菜单并指定数据：
 
-![](/assets/images/visuals/animation-effects/specify-data.png)
+![](../assets/images/visuals/animation-effects/specify-data.png)
 
 你可以以相同的方式将声音附加到动画上。
 
 现在保存你的动画并启动游戏！
 
-![](/assets/images/visuals/animation-effects/showcase.png)
+![](../assets/images/visuals/animation-effects/showcase.png)
 
 :::warning 警告！
 目前（1.21.1）定位器在可附加物体上是有问题的。

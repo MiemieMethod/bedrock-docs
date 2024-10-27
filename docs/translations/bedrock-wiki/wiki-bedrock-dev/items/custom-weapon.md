@@ -89,7 +89,7 @@ mentions:
 如果你没有自己的纹理可以使用，这里有一个示例纹理，只需“另存为”并放入`RP/textures/items`目录中。
 
 <WikiImage
-    src="/assets/images/tutorials/custom-weapons/my_sword.png"
+    src="../assets/images/tutorials/custom-weapons/my_sword.png"
     alt="剑纹理"
     pixelated="true"
     width="128"
@@ -106,11 +106,11 @@ mentions:
 
 完成上述所有步骤后，进入创造模式，你应该能够通过名称找到你的剑，或者在剑类别下找到，如下所示。
 
-![](/assets/images/tutorials/custom-weapons/custom_sword.jpg)
+![](../assets/images/tutorials/custom-weapons/custom_sword.jpg)
 
 然后，如果你将其放在手中，你应该在游戏中看到它，如下所示。
 
-![](/assets/images/tutorials/custom-weapons/held_sword.jpg)
+![](../assets/images/tutorials/custom-weapons/held_sword.jpg)
 
 这并不难，对吧？现在你可以制作任意数量的自定义剑，不过如果你有兴趣，这里还有更多有趣的内容可以做。
 
@@ -174,6 +174,6 @@ mentions:
 }
 ```
 
-![](/assets/images/tutorials/custom-weapons/sword_recipe.jpg)
+![](../assets/images/tutorials/custom-weapons/sword_recipe.jpg)
 
 如果你将其放入游戏中，那么你现在可以在游戏中制作你的剑，并希望你能继续制作任何其他自定义剑，甚至是弓或三叉戟。

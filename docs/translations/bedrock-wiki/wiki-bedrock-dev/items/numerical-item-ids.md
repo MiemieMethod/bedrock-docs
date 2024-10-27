@@ -10,7 +10,7 @@ description: 数值物品ID。
 
 ## 概述
 
-物品ID（与类型ID不同）是一个较旧的系统，目前主要用于通过[JSON UI](/json-ui/json-ui-documentation#item-id-aux-item-id-aux)渲染物品。所有物品和区块（甚至是自定义的！）都有自己唯一的ID。
+物品ID（与类型ID不同）是一个较旧的系统，目前主要用于通过[JSON UI](../json-ui/json-ui-documentation.md#item-id-aux-item-id-aux)渲染物品。所有物品和区块（甚至是自定义的！）都有自己唯一的ID。
 
 ## ID格式
 

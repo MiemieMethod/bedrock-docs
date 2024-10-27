@@ -14,8 +14,8 @@ description: 本教程旨在展示如何在实体站在方块上时应用状态�
 ---
 
 ::: tip 格式 & 最小引擎版本 `1.21.40`
-本教程假设您对方块有基本的理解，包括 [方块状态](/blocks/block-states)。
-在开始之前，请查看 [方块指南](/blocks/blocks-intro)。
+本教程假设您对方块有基本的理解，包括 [方块状态](../blocks/block-states.md)。
+在开始之前，请查看 [方块指南](../blocks/blocks-intro.md)。
 :::
 
 本教程旨在展示如何在实体站在方块上时应用状态效果。
@@ -34,7 +34,7 @@ description: 本教程旨在展示如何在实体站在方块上时应用状态�
 }
 ```
 
-现在我们需要注册我们的自定义组件，以便挂钩 [`stepOn`](/blocks/block-events#step-on) 和 [`stepOff`](/blocks/block-events#step-off) 事件：
+现在我们需要注册我们的自定义组件，以便挂钩 [`stepOn`](../blocks/block-events.md#step-on) 和 [`stepOff`](../blocks/block-events.md#step-off) 事件：
 
 <CodeHeader>minecraft:block > components</CodeHeader>
 
@@ -85,7 +85,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ### 方块 JSON
 
-我们还需要让方块每个 tick 都进行更新，以便应用所需的效果。为此，我们将使用 [变体](/blocks/block-permutations) 数组，以便仅在方块被踩踏时应用自定义组件：
+我们还需要让方块每个 tick 都进行更新，以便应用所需的效果。为此，我们将使用 [变体](../blocks/block-permutations.md) 数组，以便仅在方块被踩踏时应用自定义组件：
 
 <CodeHeader>minecraft:block</CodeHeader>
 

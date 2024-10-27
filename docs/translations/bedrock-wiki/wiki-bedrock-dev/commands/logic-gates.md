@@ -21,7 +21,7 @@ description: 逻辑门是接收一个或多个二进制输入的设备，顾名�
 
 **图表：**
 
-![logicGatesTable](/assets/images/commands/logicGatesTable.jpg)
+![logicGatesTable](../assets/images/commands/logicGatesTable.jpg)
 
 **转换为命令：**
 

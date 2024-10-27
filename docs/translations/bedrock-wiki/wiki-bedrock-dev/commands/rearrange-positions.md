@@ -228,7 +228,7 @@ scoreboard players set Initialised world 1
 
 为方便起见，您可以在此处下载功能包的 `.mcpack` 文件：
 
-<Card image="/assets/images/commands/BClogo.png" title="下载" link="https://github.com/BedrockCommands/developer-packs/releases/download/mpd/Multiplayer_Position_Derangement.FP.mcpack">
+<Card image="../assets/images/commands/BClogo.png" title="下载" link="https://github.com/BedrockCommands/developer-packs/releases/download/mpd/Multiplayer_Position_Derangement.FP.mcpack">
 
 </Card>
 

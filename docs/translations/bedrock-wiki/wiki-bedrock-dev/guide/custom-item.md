@@ -24,7 +24,7 @@ mentions:
 
 在本教程中，我们将学习如何创建一个简单的“灵异物质”物品，稍后我们将把它用作我们幽灵实体的掉落物。
 
-<WikiImage src="/assets/images/guide/custom_item/ectoplasm_view.png" width="150" />
+<WikiImage src="../assets/images/guide/custom_item/ectoplasm_view.png" width="150" />
 
 从概念上讲，物品由两个部分组成：
 
@@ -71,7 +71,7 @@ mentions:
 -   ID（`egg`）
 
 命名空间是唯一的，你将在整个项目中使用它。这是为了减少如果有人向你的游戏添加两个包而都添加了灵异物质物品时可能出现的问题；命名空间减少了标识符相同的可能性。
-Minecraft使用的命名空间是 `minecraft`。你的命名空间应该是唯一的，例如作者的首字母缩写或包名称的缩写。在我们的示例中，我们将使用命名空间 `wiki`；有关创建命名空间的更多信息，请查看我们的页面 [这里](/concepts/namespaces)。
+Minecraft使用的命名空间是 `minecraft`。你的命名空间应该是唯一的，例如作者的首字母缩写或包名称的缩写。在我们的示例中，我们将使用命名空间 `wiki`；有关创建命名空间的更多信息，请查看我们的页面 [这里](../concepts/namespaces.md)。
 
 ID是物品的简短信息名称。在这里我们将使用 `ectoplasm`。
 
@@ -97,7 +97,7 @@ ID是物品的简短信息名称。在这里我们将使用 `ectoplasm`。
 ```
 
 你包中的大多数文件将有两个顶级定义，`"format_version"` 和 `"minecraft:<file_type>"`。
-格式版本定义Minecraft将使用哪个版本的附加包系统来读取此文件。对于我们的物品，我们将使用 `1.21.40` 以允许我们使用最新的功能。有关格式版本的更多信息，请查看 [这里](/guide/format-version)。
+格式版本定义Minecraft将使用哪个版本的附加包系统来读取此文件。对于我们的物品，我们将使用 `1.21.40` 以允许我们使用最新的功能。有关格式版本的更多信息，请查看 [这里](../guide/format-version.md)。
 
 第二个定义定义了这是什么类型的文件。在我们的例子中，由于这是一个物品定义，因此它是 `minecraft:item`。在这里我们将放置所有信息。这将始终包含一个 `description` 键。
 
@@ -229,7 +229,7 @@ ID是物品的简短信息名称。在这里我们将使用 `ectoplasm`。
 
 ### 物品名称
 
-最后要添加的是物品的名称。目前它将显示为 `item.wiki:ectoplasm`。这是物品名称的翻译键，用于实现 [本地化](/concepts/text-and-translations)。要设置它，我们只需在语言文件中定义它。
+最后要添加的是物品的名称。目前它将显示为 `item.wiki:ectoplasm`。这是物品名称的翻译键，用于实现 [本地化](../concepts/text-and-translations.md)。要设置它，我们只需在语言文件中定义它。
 
 我们在创建 `RP` 和 `BP` 时已经创建了这些文件，因此我们只需向其中添加内容。
 

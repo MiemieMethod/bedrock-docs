@@ -29,7 +29,7 @@ _**这个系统最初是由CrunchyCookie创建的。所有关于这个系统的�
 完成后，你应该得到如下结构：
 
 <WikiImage
-    src="/assets/images/commands/customCrafterEnd.png"
+    src="../assets/images/commands/customCrafterEnd.png"
     alt="替代文本"
     width=800
 />
@@ -46,7 +46,7 @@ _**这个系统最初是由CrunchyCookie创建的。所有关于这个系统的�
 
 以下是一个示例结构：
 
-<Button link="/assets/packs/structures/customCrafter/customCrafterExample.mcstructure" download>
+<Button link="../assets/packs/structures/customCrafter/customCrafterExample.mcstructure" download>
     下载 MCSTRUCTURE
 </Button>
 

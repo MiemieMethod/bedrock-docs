@@ -30,7 +30,7 @@ description: 使用数学创建流畅而惊艳的动画。
 
 这是动画平滑和理想循环的代价。
 
-![](/assets/images/visuals/math-based-animations/animation-1.gif)
+![](../assets/images/visuals/math-based-animations/animation-1.gif)
 
 ## 编写数学动画
 

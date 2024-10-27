@@ -17,13 +17,13 @@ description: 保存和加载脚本数据。
 
 :::danger 停止！
 
-此脚本 API 不再支持。请参考新的 [脚本 API](/scripting/starting-scripts)。
+此脚本 API 不再支持。请参考新的 [脚本 API](../scripting/starting-scripts.md)。
 
 :::
 
 在基岩版中，保存和加载数据是比较棘手的，因为脚本无法直接访问本地文件系统。
 
-尽管如此，我们可以通过 [标记](https://www.youtube.com/watch?v=tjragqkAlMc) 一个 [虚拟实体](/entities/dummy-entities) 来保存数据。
+尽管如此，我们可以通过 [标记](https://www.youtube.com/watch?v=tjragqkAlMc) 一个 [虚拟实体](../entities/dummy-entities.md) 来保存数据。
 
 有关 `executeCommand` 和 `broadcastEvent` 函数的详细信息，请 [点击这里](https://bedrock.dev/docs/stable/Scripting)。
 
@@ -46,7 +46,7 @@ description: 保存和加载脚本数据。
 
 ## 保存
 
-1. 将 [虚拟实体教程](/entities/dummy-entities) 中的虚拟 JSON 文件添加到您的行为包和资源包中。
+1. 将 [虚拟实体教程](../entities/dummy-entities.md) 中的虚拟 JSON 文件添加到您的行为包和资源包中。
 2. 在您的服务器脚本中添加一个保存函数，调用 `executeCommand`。此函数将检查虚拟实体是否已创建。如果没有，它将创建该实体并保存数据。
 3. 在服务器的初始化函数中添加一个监听器，该监听器将监听客户端脚本广播的保存事件。在这里调用您的保存代码。
 4. 在您的客户端中广播一个事件，以通知服务器何时需要保存数据。

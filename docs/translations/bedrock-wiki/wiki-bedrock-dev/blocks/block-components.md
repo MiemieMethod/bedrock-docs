@@ -24,12 +24,12 @@ mentions:
 在创建自定义区块时使用最新的格式版本可以访问新功能和改进。维基旨在分享有关自定义区块的最新信息，当前目标格式版本为 `1.21.40`。
 :::
 :::danger 覆盖组件
-每种组件只能同时激活一个实例。重复的组件将被最新的[排列](/blocks/block-permutations)条目覆盖。
+每种组件只能同时激活一个实例。重复的组件将被最新的[排列](../blocks/block-permutations.md)条目覆盖。
 :::
 
 ## 应用组件
 
-区块组件用于改变您的区块在世界中的外观和功能。它们应用于`minecraft:block`的`components`子项或[排列](/blocks/block-permutations)。
+区块组件用于改变您的区块在世界中的外观和功能。它们应用于`minecraft:block`的`components`子项或[排列](../blocks/block-permutations.md)。
 
 <CodeHeader>BP/blocks/lamp.json</CodeHeader>
 
@@ -311,7 +311,7 @@ _在格式版本 1.19.40 及更高版本中，取消了实验性功能 `Holiday 
 
 在模型中隐藏骨骼的直接子立方体。
 
-**Molang 表达式必须遵守[排列条件](/blocks/block-permutations#permutation-conditions)的限制。**
+**Molang 表达式必须遵守[排列条件](../blocks/block-permutations.md#permutation-conditions)的限制。**
 
 _在格式版本 1.20.10 及更高版本中，`bone_visibility` 支持 Molang 表达式。_
 
@@ -395,7 +395,7 @@ _在格式版本 1.20.10 及更高版本中，`bone_visibility` 支持 Molang �
 -   所有实例必须具有相同的渲染方法。
 -   如果与另一个区块相交，区块面将无条件地变暗。
 
-材质实例可以与`RP/blocks.json`条目组合，以创建表现出不透明属性的区块。这主要用于启用[自定义玻璃区块](/blocks/custom-glass-blocks)的面剔除。
+材质实例可以与`RP/blocks.json`条目组合，以创建表现出不透明属性的区块。这主要用于启用[自定义玻璃区块](../blocks/custom-glass-blocks.md)的面剔除。
 
 _在格式版本 1.19.40 及更高版本中，取消了实验性功能 `Holiday Creator Features`。_
 
@@ -512,7 +512,7 @@ _在格式版本 1.19.60 及更高版本中，取消了实验性功能 `Holiday 
     }
 ```
 
-参见 [此页面](/blocks/block-tags) 获取原版标签和相关区块的列表。
+参见 [此页面](../blocks/block-tags.md) 获取原版标签和相关区块的列表。
 
 ### 红石导电性
 
@@ -597,7 +597,7 @@ _在格式版本 1.21.10 及更高版本中，取消了实验性功能 `Beta API
 **转换后的模型不得超过[区块几何体限制](#几何体)。**
 
 :::tip
-了解[可旋转区块](/blocks/rotatable-blocks)，根据区块的放置方式应用旋转，就像熔炉和生物头部一样！
+了解[可旋转区块](../blocks/rotatable-blocks.md)，根据区块的放置方式应用旋转，就像熔炉和生物头部一样！
 :::
 
 类型：对象

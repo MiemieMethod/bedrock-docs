@@ -20,21 +20,21 @@ Minecraft虚拟现实曾可通过Oculus商店下载，但该版本已很长时�
 
 右键单击桌面并创建一个新的快捷方式：
 
-![](/assets/images/vr/install/vr_desktop.png)
+![](../assets/images/vr/install/vr_desktop.png)
 
 位置填写为`minecraft://Mode/?OpenXR=true`。
 
-![](/assets/images/vr/install/vr_shortcut_path.png)
+![](../assets/images/vr/install/vr_shortcut_path.png)
 
 您可以随意命名，最终您应该拥有一个如下所示的快捷方式：
 
-![](/assets/images/vr/install/vr_shortcut_icon.png)
+![](../assets/images/vr/install/vr_shortcut_icon.png)
 
 ## 在虚拟现实中打开Minecraft
 
 首先确保您的头显已正确连接：
 
-![](/assets/images/vr/install/vr_headset.png)
+![](../assets/images/vr/install/vr_headset.png)
 
 当您的头显设置完成后，就可以打开快捷方式了。
 

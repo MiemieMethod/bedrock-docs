@@ -13,7 +13,7 @@ description: MCBE的RakNet协议。
 
 Minecraft基岩版使用一种称为[RakNet](http://www.jenkinssoftware.com/)的协议。与Minecraft Java版不同，基岩版在19132端口上使用UDP。
 
-您可以在[这里](/servers/server-software#active-software)找到Minecraft基岩版服务器软件的列表。
+您可以在[这里](../servers/server-software.md#active-software)找到Minecraft基岩版服务器软件的列表。
 
 ## RakNet注意事项
 

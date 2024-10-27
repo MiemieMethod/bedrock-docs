@@ -25,4 +25,4 @@ JavaScript是一种广为人知的脚本语言。学习JavaScript将对您构建
 
 -   [脚本API示例](https://github.com/JaylyDev/ScriptAPI) - 仅使用脚本API模块的JavaScript代码片段。
 
--   [脚本API入门项目](https://github.com/JaylyDev/scriptapi-starter) - 专为脚本API设置的Visual Studio Code工作区。这是一个用于编写JavaScript代码的项目（[针对TypeScript用户](/scripting/typescript#script-api)）。
+-   [脚本API入门项目](https://github.com/JaylyDev/scriptapi-starter) - 专为脚本API设置的Visual Studio Code工作区。这是一个用于编写JavaScript代码的项目（[针对TypeScript用户](../scripting/typescript.md#script-api)）。

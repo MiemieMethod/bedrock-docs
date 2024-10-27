@@ -66,6 +66,7 @@ hooks:
   - overrides/hooks/shortcodes.py
   - overrides/hooks/wikilink.py
   - overrides/hooks/abbr.py
+  - overrides/hooks/templates.py
 
 # Additional configuration
 extra:
@@ -116,6 +117,7 @@ extra_css:
   - assets/stylesheets/admonition.css
   - assets/stylesheets/badge.css
   - assets/stylesheets/tabbed.css
+  - assets/stylesheets/treeview.css
 extra_javascript:
   - assets/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -181,6 +183,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       pygments_lang_class: true
       # auto_title: true

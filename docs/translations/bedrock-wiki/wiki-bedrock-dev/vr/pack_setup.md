@@ -26,19 +26,19 @@ description: 用于未来使用的设置包。
 
 模板包含两个可编辑的文件夹：`holograms` 和 `textures`，这些文件夹包含了VR对象的模型和纹理。
 
-![](/assets/images/vr/setup/vr-template-contents.png)
+![](../assets/images/vr/setup/vr-template-contents.png)
 
 ## 全息图
 
 这个文件夹包含了Minecraft VR版本使用的所有模型，例如VR手部模型。
 
-![](/assets/images/vr/setup/vr-template-holograms.png)
+![](../assets/images/vr/setup/vr-template-holograms.png)
 
 ## 纹理
 
 这个文件夹存储了所有模型的纹理。
 
-![](/assets/images/vr/setup/vr-template-textures.png)
+![](../assets/images/vr/setup/vr-template-textures.png)
 
 ## 将VR模板与自己的包合并
 

@@ -19,17 +19,17 @@ description: 在自己的细节中重现末影人的发光眼睛。
 
 - 找到 __橡皮擦__ 工具，并将其不透明度/alpha 设置为较低的值，比如 71 或 23。
 
-![](/assets/images/visuals/glowing-texture/eraser.png)
+![](../assets/images/visuals/glowing-texture/eraser.png)
 
-![](/assets/images/visuals/glowing-texture/opacity.png)
+![](../assets/images/visuals/glowing-texture/opacity.png)
 
 - 然后，擦除您希望发光的纹理部分。像素越不明显，发光效果越强，但请确保它不是 100% 擦除。
 
-![](/assets/images/visuals/glowing-texture/erase-pixels.png)
+![](../assets/images/visuals/glowing-texture/erase-pixels.png)
 
 示例猪纹理：
 
-![](/assets/images/visuals/glowing-texture/pig.png)
+![](../assets/images/visuals/glowing-texture/pig.png)
 
 ## 材料
 
@@ -98,4 +98,4 @@ description: 在自己的细节中重现末影人的发光眼睛。
 
 现在，启动 Minecraft 并打开启用了此资源包的世界。将时间设置为 _午夜_ 或找到附近的洞穴进行测试。实体应该如预期般发光。
 
-![](/assets/images/visuals/glowing-texture/result.png)
+![](../assets/images/visuals/glowing-texture/result.png)

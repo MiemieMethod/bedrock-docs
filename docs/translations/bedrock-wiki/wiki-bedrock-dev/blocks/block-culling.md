@@ -10,7 +10,7 @@ mentions:
 ---
 
 :::tip 创建您的模型
-在开始之前，请确保您已为您的区块[创建了模型](/blocks/block-models)。否则您将没有内容可应用剔除规则！
+在开始之前，请确保您已为您的区块[创建了模型](../blocks/block-models.md)。否则您将没有内容可应用剔除规则！
 :::
 
 ## 应用剔除规则
@@ -33,7 +33,7 @@ mentions:
 }
 ```
 
-然后将其应用于区块模型的[`minecraft:geometry`](/blocks/block-components#geometry)组件中：
+然后将其应用于区块模型的[`minecraft:geometry`](../blocks/block-components.md#geometry)组件中：
 
 <CodeHeader>minecraft:block > components</CodeHeader>
 

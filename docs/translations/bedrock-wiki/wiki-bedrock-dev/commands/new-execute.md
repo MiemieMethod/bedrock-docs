@@ -97,7 +97,7 @@ description: /execute 命令的解释。
 /execute positioned <position: x y z> -> execute
 ```
 
-将命令的位置设置为特定值。[相对和本地坐标](/commands/relative-coordinates) 是基于命令的当前位置。
+将命令的位置设置为特定值。[相对和本地坐标](../commands/relative-coordinates.md) 是基于命令的当前位置。
 
 ```
 /execute positioned as <origin: target> -> execute
@@ -171,7 +171,7 @@ description: /execute 命令的解释。
 /execute facing entity <origin: target> (eyes|feet) -> execute
 ```
 
-设置旋转以面向目标的位置。将锚点设置为 `feet` 将使旋转面向他们当前站立的位置，而将锚点设置为 `eyes` 将使命令朝向该目标的“眼睛位置”（见 [`/execute anchored`](/commands/new-execute#execute-anchored)）。
+设置旋转以面向目标的位置。将锚点设置为 `feet` 将使旋转面向他们当前站立的位置，而将锚点设置为 `eyes` 将使命令朝向该目标的“眼睛位置”（见 [`/execute anchored`](../commands/new-execute.md#execute-anchored)）。
 
 如果指定了多个目标，则每个目标将各自运行一次命令，将旋转上下文设置为面向该目标。
 
@@ -264,4 +264,4 @@ description: /execute 命令的解释。
 /execute as @a at @s if entity @e[type=armor_stand,r=10] run gamemode survival @s
 ```
 
-**（推荐）接下来阅读: [执行逻辑门](/commands/logic-gates)**
+**（推荐）接下来阅读: [执行逻辑门](../commands/logic-gates.md)**

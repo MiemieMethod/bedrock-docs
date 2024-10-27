@@ -21,7 +21,7 @@ description: 附加包允许您在不同的附加包“配置”之间进行选�
 
 放置在您的附加包文件夹中的文件将覆盖放置在主附加包文件夹中的文件，前提是选择了该附加包。例如，如果您的附加包同时包含 `RP/textures/entities/ghost.png` 和 `RP/subpacks/pack_1/textures/ghost.png`，则第二个图像文件将在选择附加包 `pack_1` 时替换第一个。
 
-有关文件如何相互覆盖的更多信息，请参见我们关于 [覆盖原版资源](/concepts/overwriting-assets) 的页面。
+有关文件如何相互覆盖的更多信息，请参见我们关于 [覆盖原版资源](../concepts/overwriting-assets.md) 的页面。
 
 ## 创建附加包
 

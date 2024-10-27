@@ -28,13 +28,13 @@ description: 本页将讨论如何在Minecraft中不同坐标系之间进行转�
 
 如果你看到一个充满值的4x4矩阵，如果你不习惯使用它们，可能会觉得需要特殊的能力才能理解它们，如下所示。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-1.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-1.png" />
 
 但通常我们处理的3D变换矩阵只是简单的位移和由描述X、Y和Z轴的“轴向量”表示的旋转，每个轴向量都是一个3分量向量。
 
 当以3x3矩阵书写时，方向向量是单位长度向量（除非有缩放），这些向量就像你习惯看到的任何方向向量一样，它们有定义该空间轴向的x、y、z分量。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image.png" />
 
 在3x3矩阵中（尤其是在教科书中），它们沿列以二维数组的形式排列，如下所示：
 
@@ -50,11 +50,11 @@ description: 本页将讨论如何在Minecraft中不同坐标系之间进行转�
 
 因此，对于**行主序**，向量和矩阵的乘法是：`row_vector * matrix = row_vector`：
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-2.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-2.png" />
 
 对于**列主序**，要进行与行主序相同的乘法，你需要反转顺序：
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-3.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-3.png" />
 
 上述区别非常重要，特别是如果你在线阅读一些材料，以便理解数据转换的顺序将如何受到影响。
 
@@ -93,7 +93,7 @@ A_To_B = A_To_Something * Something_To_B
 
 在创建实体时，我建议从Blockbench开始，并使你创建的第一个实体成为一个简单的三轴框架，如下所示：
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-4.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-4.png" />
 
 此时有几个奇怪的事情需要注意。请密切关注Blockbench标记的“北、东、南和西”的方向。
 
@@ -104,27 +104,27 @@ A_To_B = A_To_Something * Something_To_B
 让我们尝试将我们的三轴框架归类到一个骨骼下。
 然后复制该组，这样我们就可以在实体中保留一个，并将另一个移动到世界位置。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-5.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-5.png" />
 
 1. 转到动画选项卡。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-6.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-6.png" />
 
 2. 创建一个新动画。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-7.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-7.png" />
 
 3. 为移动器添加一个位置关键帧。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-8.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-8.png" />
 
 4. 尝试在X轴上移动并确认情况很奇怪。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-9.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-9.png" />
 
 6. 现在让我们使用变量设置位置，我们将在`pre_animation`脚本中设置。
 
-<WikiImage src="/assets/images/tutorials/entity-transforms/image-11.png" />
+<WikiImage src="../assets/images/tutorials/entity-transforms/image-11.png" />
 
 7. 你应该能够从最小机器人示例中混合搭配，以了解如何启动你的实体。此外，你将保存你的Blockbench几何体和动画。在行为方面，目前你不需要太多。也许只需：
 

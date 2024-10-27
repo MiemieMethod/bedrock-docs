@@ -15,7 +15,7 @@ description: 原版作物的再创作。
 
 :::tip 格式 & 最低引擎版本 `1.21.40`
 本教程假设您对区块和脚本有良好的理解。
-在开始之前，请查看[区块指南](/blocks/blocks-intro)、[区块状态](/blocks/block-states)和[区块事件](/blocks/block-events)。
+在开始之前，请查看[区块指南](../blocks/blocks-intro.md)、[区块状态](../blocks/block-states.md)和[区块事件](../blocks/block-events.md)。
 :::
 
 如果您不喜欢胡萝卜，也没关系。您可以制作自己的（更优越的）作物！
@@ -35,7 +35,7 @@ description: 原版作物的再创作。
 
 通过将位置向下移动一个像素，作物将完美地位于地农之上，使我们的方块世界一切正常。以下是作物的模板模型。
 
-![](/assets/images/blocks/custom-crops/model.png)
+![](../assets/images/blocks/custom-crops/model.png)
 
 <Button link="https://github.com/Bedrock-OSS/wiki-addon/blob/main/ma-custom_crops/rp/models/blocks/crop.geo.json">
     下载自定义作物几何体
@@ -86,8 +86,8 @@ description: 原版作物的再创作。
 
 下面的事件执行三个重要功能，使您的作物能够运作：
 
--   [`onRandomTick`](/blocks/block-events#random-tick) 事件钩子用于在随机间隔增加 `wiki:growth` 状态。
--   [`onPlayerInteract`](/blocks/block-events#player-interact) 事件钩子用于支持骨粉，在生存模式下为 `wiki:growth` 增加随机值或在创造模式下使作物完全生长。
+-   [`onRandomTick`](../blocks/block-events.md#random-tick) 事件钩子用于在随机间隔增加 `wiki:growth` 状态。
+-   [`onPlayerInteract`](../blocks/block-events.md#player-interact) 事件钩子用于支持骨粉，在生存模式下为 `wiki:growth` 增加随机值或在创造模式下使作物完全生长。
 
 <CodeHeader>BP/scripts/custom_crop.js</CodeHeader>
 

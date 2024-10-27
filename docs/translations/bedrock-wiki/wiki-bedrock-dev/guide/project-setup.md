@@ -127,7 +127,7 @@ _本指南其余部分假设你使用的是VSCode。你也可以使用其他编�
 
 -   "`format_version`" 定义你使用的清单语法版本。版本2是最新的稳定版本；请使用它。
 
--   "`name`" 是你的行为包的名称。 "`description`" 将在游戏中显示。我们以“代码形式”定义这些文件，以便稍后可以将其翻译成其他语言。有关本地化的更多信息，请查看[这里](/concepts/text-and-translations)。
+-   "`name`" 是你的行为包的名称。 "`description`" 将在游戏中显示。我们以“代码形式”定义这些文件，以便稍后可以将其翻译成其他语言。有关本地化的更多信息，请查看[这里](../concepts/text-and-translations.md)。
 
 -   "`UUID`" 字段是**必需的**，将在下面详细讨论。
 
@@ -179,9 +179,9 @@ UUID（_通用唯一标识符_）用于识别你的包，以便其他程序（�
 
 包图标是一个图像文件，用于标识你的附加包在游戏中的外观。如果你有一个低分辨率的正方形图像，可以使用它。否则，请下载并使用这个示例图标：
 
-<WikiImage src="/assets/images/guide/project-setup/pack_icon.png" alt="包图标" pixelated />
+<WikiImage src="../assets/images/guide/project-setup/pack_icon.png" alt="包图标" pixelated />
 
-<Button link="/assets/images/guide/project-setup/pack_icon.png" download>
+<Button link="../assets/images/guide/project-setup/pack_icon.png" download>
     下载图像
 </Button>
 
@@ -219,9 +219,9 @@ pack.description=一个幽灵指南
 
 ## 检查你的工作
 
-如果你做的一切正确，你的包现在应该在Minecraft中显示！如果你没有看到你的包，你应该遵循[故障排除指南](/guide/troubleshooting)。
+如果你做的一切正确，你的包现在应该在Minecraft中显示！如果你没有看到你的包，你应该遵循[故障排除指南](../guide/troubleshooting.md)。
 
-![](/assets/images/guide/project-setup/active_pack.png)
+![](../assets/images/guide/project-setup/active_pack.png)
 
 ## 开启内容日志
 
@@ -229,11 +229,11 @@ pack.description=一个幽灵指南
 内容日志是你调试附加包时最有用的工具。请不要跳过这一步！
 :::
 
-![](/assets/images/guide/content_log.png)
+![](../assets/images/guide/content_log.png)
 
 内容日志是一个极其重要的调试工具，你应该始终保持开启。
 
-在 `设置 > 创建者` 中打开两个内容日志设置。这将在你进入应用了该附加包的世界时显示任何错误。你可以通过按 `ctrl+h` 或在创建者设置面板中按 `内容日志历史` 打开内容日志GUI。了解更多关于内容日志的信息，请查看[这里](/guide/troubleshooting)。
+在 `设置 > 创建者` 中打开两个内容日志设置。这将在你进入应用了该附加包的世界时显示任何错误。你可以通过按 `ctrl+h` 或在创建者设置面板中按 `内容日志历史` 打开内容日志GUI。了解更多关于内容日志的信息，请查看[这里](../guide/troubleshooting.md)。
 
 ## 创建你的测试世界
 
@@ -243,8 +243,8 @@ pack.description=一个幽灵指南
 
 2. 确保以下设置已设置。
 
-    ![](/assets/images/guide/project-setup/settings_1.png)
-    ![](/assets/images/guide/project-setup/settings_2.png)
+    ![](../assets/images/guide/project-setup/settings_1.png)
+    ![](../assets/images/guide/project-setup/settings_2.png)
 
 3. 现在激活你的行为包和资源包。你可以通过选择这些包并点击“应用”来做到这一点。
 
@@ -293,4 +293,4 @@ pack.description=一个幽灵指南
 
 :::
 
-<Button link="/guide/custom-item">下一步：自定义物品</Button>
+<Button link="../guide/custom-item.md">下一步：自定义物品</Button>

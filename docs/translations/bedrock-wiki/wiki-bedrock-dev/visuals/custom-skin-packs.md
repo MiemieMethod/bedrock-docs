@@ -52,7 +52,7 @@ description: 创建您自己的皮肤包。
 
 -   `format_version`也可以是1，因为v2对皮肤包的影响不大。
 -   `name`是显而易见的。然而，它并不是特别重要。
--   `uuid`和`version`我们已经很熟悉。清单中的两个UUID必须不同。您可以通过链接在[有用链接](/meta/useful-links)中的生成器生成它们。提醒一下，您不能使用相同的UUID两次。
+-   `uuid`和`version`我们已经很熟悉。清单中的两个UUID必须不同。您可以通过链接在[有用链接](../meta/useful-links.md)中的生成器生成它们。提醒一下，您不能使用相同的UUID两次。
 -   `modules`中的`type`当然需要设置为`skin_pack`。
 
 ## skins.json
@@ -119,10 +119,10 @@ skin.tutorial.tutorial_skin_2=皮肤 2
 
 如果您在MC版本低于1.18.30的情况下游戏，您可能会遇到“装备”按钮未显示的错误。您需要下载一个特殊的纹理包。
 
-![](/assets/images/visuals/skin-packs/troubleshooting-1.png)
+![](../assets/images/visuals/skin-packs/troubleshooting-1.png)
 
-<Button link="/assets/packs/visuals/skin-packs/equip_button_fix.mcpack" download>
+<Button link="../assets/packs/visuals/skin-packs/equip_button_fix.mcpack" download>
     下载装备按钮修复
 </Button>
 
-![](/assets/images/visuals/skin-packs/troubleshooting-2.png)
+![](../assets/images/visuals/skin-packs/troubleshooting-2.png)

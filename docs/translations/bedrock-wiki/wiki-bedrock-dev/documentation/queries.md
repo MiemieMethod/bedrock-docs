@@ -567,4 +567,4 @@ variable.zNorm = query.movement_direction(2) / variable.mag;
 
 要使用多个标签，可以使用 `q.correct_query(0,-1,0,'grass', 'plant')`，其中 `correct_query` 需替换为正确的查询。
 
-请注意，这也可以检测自定义标签和[原版标签](/blocks/block-tags)。
+请注意，这也可以检测自定义标签和[原版标签](../blocks/block-tags.md)。

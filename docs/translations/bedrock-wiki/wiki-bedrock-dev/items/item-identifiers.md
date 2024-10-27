@@ -35,7 +35,7 @@ description: 原版物品标识符效果。
 
 ## 已知标识符效果
 
-命名空间是可以更改的，了解更多关于命名空间的信息请[点击这里](/concepts/namespaces)。
+命名空间是可以更改的，了解更多关于命名空间的信息请[点击这里](../concepts/namespaces.md)。
 
 ### namespace:banner
 

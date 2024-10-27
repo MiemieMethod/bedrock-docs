@@ -20,7 +20,7 @@ _在聊天中输入：_
 
 `/scoreboard objectives add is_alive dummy`
 
-如果您正在使用函数并希望在世界初始化时自动添加目标，请按照 [首次加载世界](/commands/on-first-world-load) 中的流程进行操作。
+如果您正在使用函数并希望在世界初始化时自动添加目标，请按照 [首次加载世界](../commands/on-first-world-load.md) 中的流程进行操作。
 
 ## 系统
 
@@ -40,7 +40,7 @@ execute as @a [scores={is_alive=0}] run say 我死了
 scoreboard players set @a [scores={is_alive=0}] is_alive 2
 ```
 
-![commandBlockChain4](/assets/images/commands/commandBlockChain/4.png)
+![commandBlockChain4](../assets/images/commands/commandBlockChain/4.png)
 
 在这里，我们使用了 `/execute - say` 命令作为示例，但您可以使用任何您喜欢的命令，并根据需要添加多个命令。
 
@@ -64,7 +64,7 @@ scoreboard players set @a [scores={is_alive=0}] is_alive 2
 
 ## Tick JSON
 
-如果您使用函数而不是命令方块，则必须将 `on_death` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参考 [函数](/commands/mcfunctions#tick-json) 文档。
+如果您使用函数而不是命令方块，则必须将 `on_death` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参考 [函数](../commands/mcfunctions.md#tick-json) 文档。
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 ```json
@@ -126,7 +126,7 @@ execute as @a [scores={is_dead=1}] at @s run summon armor_stand "死去的玩家
 execute as @a [scores={is_dead=1..}] run say 我死了，还没有复活..
 ```
 
-![commandBlockChain4](/assets/images/commands/commandBlockChain/4.png)
+![commandBlockChain4](../assets/images/commands/commandBlockChain/4.png)
 
 **状态：**
 

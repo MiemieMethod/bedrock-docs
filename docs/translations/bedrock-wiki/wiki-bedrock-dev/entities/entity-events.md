@@ -505,7 +505,7 @@ description: 学习实体最重要的内容之一——事件。
 }
 ```
 
-这里的 `@s` 用于将事件应用于实体自身。动画控制器功能强大，可以用于创建更自定义的行为，尽管它们更为高级。有关更多信息，请查看我们的[页面](/animation-controllers/animation-controllers-intro)。
+这里的 `@s` 用于将事件应用于实体自身。动画控制器功能强大，可以用于创建更自定义的行为，尽管它们更为高级。有关更多信息，请查看我们的[页面](../animation-controllers/animation-controllers-intro.md)。
 
 在一个事件内，除了添加和移除组件组，我们还可以 `trigger` 其他事件。这只猪灵中的事件在 `minecraft:entity_born` 事件中调用 `spawn_baby` 事件。
 

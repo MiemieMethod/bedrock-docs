@@ -70,7 +70,7 @@ Acode是目前在安卓上唯一一个积极开发的强大代码编辑器。其
 在文件管理器或某些文本或代码应用程序中创建新文件时，`.txt` 扩展名会自动添加到文件名末尾。为确保我们的文件按预期工作，请务必删除 `.txt`。与名称一样，错误的文件扩展名也是导致错误的常见原因。如果你使用Acode，你会注意到 `untitled.txt` 被完全高亮显示，而不仅仅是 `untitled`。这是命名编程语言文件的常见做法。
 :::
 
-清单文件是Minecraft用来识别你的附加包的文件。每个附加包都有一个（且仅有一个）清单。具有正确格式化清单的文件夹将在Minecraft中显示。在开始添加内容之前，我们将确保我们的“最小”包是可见的。清单使用 `JSON` 编程语言编写。如果你不熟悉JSON，可以在[这里](/guide/understanding-json)了解更多。
+清单文件是Minecraft用来识别你的附加包的文件。每个附加包都有一个（且仅有一个）清单。具有正确格式化清单的文件夹将在Minecraft中显示。在开始添加内容之前，我们将确保我们的“最小”包是可见的。清单使用 `JSON` 编程语言编写。如果你不熟悉JSON，可以在[这里](../guide/understanding-json.md)了解更多。
 
 在你的附加包的行为包文件夹中创建一个名为 `manifest.json` 的新文本文件。首先，将以下代码复制并粘贴到 `manifest.json` 文件中。创建这些文件后，将提供清单文件的完整分解。
 
@@ -140,9 +140,9 @@ UUID，或**通用唯一标识符**，既用于识别你的包以供其他程序
 
 注意其他包有图标吗？它是一个图像文件，可以快速识别你的附加包在游戏中的外观。你有一个低分辨率的方形PNG图像吗？你可以使用它！否则，你可以使用这个示例图标。
 
-<WikiImage src="/assets/images/guide/project-setup/pack_icon.png" alt="Pack Icon" pixelated />
+<WikiImage src="../assets/images/guide/project-setup/pack_icon.png" alt="Pack Icon" pixelated />
 
-<Button link="/assets/images/guide/project-setup/pack_icon.png" download>
+<Button link="../assets/images/guide/project-setup/pack_icon.png" download>
     下载图像
 </Button>
 
@@ -150,7 +150,7 @@ UUID，或**通用唯一标识符**，既用于识别你的包以供其他程序
 
 ## 语言文件
 
-还记得我们之前说过会在代码形式中定义包的名称和描述吗？现在是时候做这最后一步来设置你的附加包。你需要创建4个新文件和2个新文件夹（每个包2个文件和1个文件夹）。你可以在[这里](/concepts/text-and-translations)了解更多关于Minecraft处理本地化的信息。你也可以使用 `§` 符号来格式化你的定义。你可以在[这里](https://htmlcolorcodes.com/minecraft-color-codes/)查看颜色和格式的列表。如果使用任何格式化，请确保在更改格式时使用 `§r` 重置：`§kl My pack l` 将使 “My pack” 无法读取，而 `§kl §rMy pack §kl` 可以正确读取。
+还记得我们之前说过会在代码形式中定义包的名称和描述吗？现在是时候做这最后一步来设置你的附加包。你需要创建4个新文件和2个新文件夹（每个包2个文件和1个文件夹）。你可以在[这里](../concepts/text-and-translations.md)了解更多关于Minecraft处理本地化的信息。你也可以使用 `§` 符号来格式化你的定义。你可以在[这里](https://htmlcolorcodes.com/minecraft-color-codes/)查看颜色和格式的列表。如果使用任何格式化，请确保在更改格式时使用 `§r` 重置：`§kl My pack l` 将使 “My pack” 无法读取，而 `§kl §rMy pack §kl` 可以正确读取。
 
 <codeHeader>BP/texts/en_US.lang</codeHeader>
 
@@ -185,10 +185,10 @@ pack.description=这个附加包由Wiki贡献者制作！
 1. 打开你喜欢的文件管理器，导航到包含你的行为包和资源包的文件夹。
 2. 使用多选，选择两个包并创建一个ZIP文件。
 3. 当被要求输入文件名时，确保将 `.zip` 更改为 `.mcaddon`。
-   ![](/assets/images/guide/project-setup-android/zip-addon.png)
+   ![](../assets/images/guide/project-setup-android/zip-addon.png)
 4. 当文件管理器完成后，它应该是一个以Minecraft为图标的 `MCADDON` 文件。点击此文件应启动Minecraft。
 
-如果操作正确，Minecraft将为两个包显示一个横幅。首先显示的是 `正在导入...`。之后应显示 `成功导入 "<你的包名称>"`。你也可以进入 `设置 > 存储` 来验证你的包是否已导入。如果你没有看到任何一个包，请查看我们的[故障排除指南](/guide/troubleshooting)。
+如果操作正确，Minecraft将为两个包显示一个横幅。首先显示的是 `正在导入...`。之后应显示 `成功导入 "<你的包名称>"`。你也可以进入 `设置 > 存储` 来验证你的包是否已导入。如果你没有看到任何一个包，请查看我们的[故障排除指南](../guide/troubleshooting.md)。
 
 ## 开启内容日志
 
@@ -196,11 +196,11 @@ pack.description=这个附加包由Wiki贡献者制作！
 内容日志是调试附加包时最有用的工具。请勿跳过此步骤。
 :::
 
-![](/assets/images/guide/content_log.png)
+![](../assets/images/guide/content_log.png)
 
 内容日志是一个极其重要的调试工具，你应该始终开启。
 
-在 `设置 > 创作者` 中打开两个内容日志设置。这将在你进入应用了附加包的世界时显示附加包中的任何错误。你也可以通过按 `ctrl+h` 在游戏内打开内容日志GUI。了解更多关于内容日志的信息，请访问[这里](/guide/troubleshooting)。
+在 `设置 > 创作者` 中打开两个内容日志设置。这将在你进入应用了附加包的世界时显示附加包中的任何错误。你也可以通过按 `ctrl+h` 在游戏内打开内容日志GUI。了解更多关于内容日志的信息，请访问[这里](../guide/troubleshooting.md)。
 
 ## 创建你的测试世界
 
@@ -209,8 +209,8 @@ pack.description=这个附加包由Wiki贡献者制作！
 1. 点击 “**创建新世界**”；
 2. 确保以下设置已正确配置。
 
-    ![](/assets/images/guide/project-setup/settings_1.png)
-    ![](/assets/images/guide/project-setup/settings_2.png)
+    ![](../assets/images/guide/project-setup/settings_1.png)
+    ![](../assets/images/guide/project-setup/settings_2.png)
 
 3. 现在激活你的行为包和资源包。你可以通过选择这些包并点击“应用”来完成。
 4. 现在点击 “**创建**”！

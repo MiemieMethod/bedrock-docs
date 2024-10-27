@@ -40,9 +40,9 @@
     - vanilla_experiments
     - wild_update
 
-![](/assets/images/nbt/experiments-education-edition/byte-add.png)
+![](../assets/images/nbt/experiments-education-edition/byte-add.png)
 
-![](/assets/images/nbt/experiments-education-edition/experiments-file.png)
+![](../assets/images/nbt/experiments-education-edition/experiments-file.png)
 
 最后，保存文件并将其放回世界包或目录中。
 

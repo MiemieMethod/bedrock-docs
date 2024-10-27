@@ -12,7 +12,7 @@ mentions:
 在处理方块状态时，请确保您的包清单中的 `min_engine_version` 至少为 `1.20.20` 或更高。
 :::
 
-方块状态允许您的方块具有变体，每个变体都有其独特的功能和外观，通过使用[排列组合](/blocks/block-permutations)实现。
+方块状态允许您的方块具有变体，每个变体都有其独特的功能和外观，通过使用[排列组合](../blocks/block-permutations.md)实现。
 
 ## 定义状态
 
@@ -61,7 +61,7 @@ q.block_state('wiki:string_state_example') == 'blue'
 
 ### 命令参数
 
-[方块状态参数](/commands/block-states)包含在 `execute` 和 `testforblock` 等命令中，可用于检查方块状态的值。
+[方块状态参数](../commands/block-states.md)包含在 `execute` 和 `testforblock` 等命令中，可用于检查方块状态的值。
 
 <CodeHeader></CodeHeader>
 
@@ -83,7 +83,7 @@ customBlock.permutation.getState("wiki:integer_state_example") === 3;
 
 ### 命令参数
 
-[方块状态参数](/commands/block-states)包含在 `setblock` 和 `fill` 等命令中，可用于将状态更改为非默认值。
+[方块状态参数](../commands/block-states.md)包含在 `setblock` 和 `fill` 等命令中，可用于将状态更改为非默认值。
 
 <CodeHeader></CodeHeader>
 

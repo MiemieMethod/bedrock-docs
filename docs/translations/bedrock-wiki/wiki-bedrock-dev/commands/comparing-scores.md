@@ -27,7 +27,7 @@ scoreboard players operation Highest <objective> > * <objective>
 execute as <target> if score @s <objective> = Highest <objective> run <command>
 ```
 
-![两个命令方块的链](/assets/images/commands/commandBlockChain/2.png)
+![两个命令方块的链](../assets/images/commands/commandBlockChain/2.png)
 
 **命令 1：** 此命令将 `Highest` 分数与指定目标中的每个其他跟踪分数进行比较，如果 `Highest` 分数小于正在比较的分数，则将 `Highest` 分数赋值为该分数。举例说明：
 
@@ -62,7 +62,7 @@ tag @a remove topKills
 execute as @a if score @s kills = Highest kills run tag @s add topKills
 ```
 
-![三个命令方块的链](/assets/images/commands/commandBlockChain/3.png)
+![三个命令方块的链](../assets/images/commands/commandBlockChain/3.png)
 
 ## 获取最低分数 ( < )
 
@@ -78,7 +78,7 @@ scoreboard players operation Lowest <objective> < * <objective>
 execute as <target> if score @s <objective> = Lowest <objective> run <command>
 ```
 
-![两个命令方块的链](/assets/images/commands/commandBlockChain/2.png)
+![两个命令方块的链](../assets/images/commands/commandBlockChain/2.png)
 
 **命令 1：** 此命令将 `Lowest` 分数与指定目标中的每个其他跟踪分数进行比较，如果 `Lowest` 分数大于正在比较的分数，则将 `Lowest` 分数赋值为该分数。举例说明：
 
@@ -115,7 +115,7 @@ tag @a remove eliminate
 execute as @a if score @s distance_travelled = Lowest distance_travelled run tag @s add eliminate
 ```
 
-![三个命令方块的链](/assets/images/commands/commandBlockChain/3.png)
+![三个命令方块的链](../assets/images/commands/commandBlockChain/3.png)
 
 ## 获取匹配分数 ( = )
 
@@ -129,7 +129,7 @@ execute as @a if score @s distance_travelled = Lowest distance_travelled run tag
 execute as @a at @s at @a [rm=0.01] if score @s <objective> = @p <objective> run say @s 和 @p 的分数匹配！
 ```
 
-![一个重复命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 :::info 注意：
 
@@ -138,7 +138,7 @@ execute as @a at @s at @a [rm=0.01] if score @s <objective> = @p <objective> run
 
 **可视化：**
 
-![](/assets/images/commands/comparing-scores/GetMatchingScores.gif)
+![](../assets/images/commands/comparing-scores/GetMatchingScores.gif)
 
 **示例 1：** 如果距离超过 6 个区块，则将宠物传送到主人：
 
@@ -149,7 +149,7 @@ execute as @a at @s at @a [rm=0.01] if score @s <objective> = @p <objective> run
 execute as @e [tag=pet] at @s at @a [rm=7] if score @s id = @p id run tp @s @p
 ```
 
-![一个重复命令方块](/assets/images/commands/commandBlockChain/1.png)
+![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)
 
 **示例 2：** 将地块拥有者设置为创造模式，其他人设置为冒险模式：
 
@@ -163,4 +163,4 @@ execute as @e [tag=plot] at @s at @a [r=16] if score @s id = @p id run gamemode 
 execute as @e [tag=plot] at @s at @a [r=16] unless score @s id = @p id run gamemode a @p [m=!a]
 ```
 
-![两个命令方块的链](/assets/images/commands/commandBlockChain/2.png)
+![两个命令方块的链](../assets/images/commands/commandBlockChain/2.png)

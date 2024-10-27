@@ -14,7 +14,7 @@ Minecraft基岩版允许我们添加自定义陶器碎片。本文将介绍如�
 
 现在我们已经注册了我们的碎片，可以通过将碎片放入工作台来测试它。如果您正确应用了标签，工作台应该会输出一个装饰陶罐！
 
-![工作台输出图像](/assets/images/items/custom-pottery-sherd/crafting.png)
+![工作台输出图像](../assets/images/items/custom-pottery-sherd/crafting.png)
 
 然而，装饰陶罐仍然不会显示碎片本身。这是因为我们还没有告诉装饰陶罐要显示哪个图像！
 

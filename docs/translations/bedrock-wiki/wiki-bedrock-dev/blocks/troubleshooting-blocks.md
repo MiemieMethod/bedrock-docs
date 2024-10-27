@@ -14,7 +14,7 @@ description: 块的故障排除指南。
 ---
 
 :::tip
-本页面包含有关 _块_ 的故障排除信息。在继续之前，请阅读我们的 [全局故障排除](/guide/troubleshooting) 文档。
+本页面包含有关 _块_ 的故障排除信息。在继续之前，请阅读我们的 [全局故障排除](../guide/troubleshooting.md) 文档。
 :::
 
 ## 0.0 - 问题
@@ -29,7 +29,7 @@ description: 块的故障排除指南。
 
 ## 1.1 - 纹理为黑色和品红色
 
-我将审查三种不同类型的块，它们具有不同的布局：类似泥土的 ![](/assets/images/blocks/block_tr/tr_dirt.png)、类似木头的 ![](/assets/images/blocks/block_tr/tr_log.png)、类似草的 ![](/assets/images/blocks/block_tr/tr_grass.png)
+我将审查三种不同类型的块，它们具有不同的布局：类似泥土的 ![](../assets/images/blocks/block_tr/tr_dirt.png)、类似木头的 ![](../assets/images/blocks/block_tr/tr_log.png)、类似草的 ![](../assets/images/blocks/block_tr/tr_grass.png)
 
 导航到您的 `RP/textures/terrain_texture.json`。确保文件命名正确。
 
@@ -150,7 +150,7 @@ description: 块的故障排除指南。
 问题：我的自定义块变成了一个带问号的泥土块。
 
 <WikiImage
-    src="/assets/images/blocks/block_tr/unknown.png"
+    src="../assets/images/blocks/block_tr/unknown.png"
     pixelated="true"
     width="128"
     class="my-4"

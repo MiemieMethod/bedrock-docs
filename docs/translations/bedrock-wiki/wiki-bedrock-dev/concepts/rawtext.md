@@ -11,7 +11,7 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-![](/assets/images/documentation/tellrawshow.png)
+![](../assets/images/documentation/tellrawshow.png)
 
 原始文本用于向玩家发送和显示富文本。这可以在 `/tellraw` 或 `/titleraw` 命令中使用。
 
@@ -66,10 +66,10 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 /tellraw @a {"rawtext":[{"text":"\u263a"}]}
 ```
 - 在聊天中的输出：
-    - ![](/assets/images/concepts/emojis/hud/food.png)
+    - ![](../assets/images/concepts/emojis/hud/food.png)
 > 注意：Unicode 符号将在 Minecraft 中显示为其对应的图标/表情符号。
 
-有关更多信息和 Bedrock 中可用的完整 Unicode 列表，请参阅 [表情符号与符号](/concepts/emojis) 页面。
+有关更多信息和 Bedrock 中可用的完整 Unicode 列表，请参阅 [表情符号与符号](../concepts/emojis.md) 页面。
 
 ## 选择器组件
 
@@ -144,7 +144,7 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 #    Steve 加入了游戏
 ```
 
-![](/assets/images/documentation/tellrawtranslate.png)
+![](../assets/images/documentation/tellrawtranslate.png)
 
 ### %%s
 

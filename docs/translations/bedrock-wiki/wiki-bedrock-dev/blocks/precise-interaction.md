@@ -12,7 +12,7 @@ mentions:
 ---
 
 ::: tip 格式 & 最低引擎版本 `1.21.40`
-本教程假设您对区块和脚本有高级理解。在开始之前，请先查看 [区块](/blocks/blocks-intro) 和 [脚本](/scripting/starting-scripts) 指南。
+本教程假设您对区块和脚本有高级理解。在开始之前，请先查看 [区块](../blocks/blocks-intro.md) 和 [脚本](../scripting/starting-scripts.md) 指南。
 :::
 
 创建玩家可以互动的自定义区块的能力从实现上可能非常基础，但仍然允许复杂的功能。然而，有时基于简单右键点击或轻敲区块而没有位置特定条件的默认交互模式不足以实现所需的功能。
@@ -21,9 +21,9 @@ mentions:
 
 这就是精确交互发挥作用的地方！以下的精确交互方法允许您在一个区块中定义多个可以单独交互的区域，并为每个区域分配不同的功能。在本教程中，我们将向您展示如何使用脚本为您的区块添加精确交互，并提供每种方法的示例。
 
-**注意：** 精确交互并不能使区块拥有多个/自定义形状的 [`minecraft:selection_box`](/blocks/block-components#selection-box) 组件。选择框必须位于所有定义的区域内，以确保精确交互正常工作。
+**注意：** 精确交互并不能使区块拥有多个/自定义形状的 [`minecraft:selection_box`](../blocks/block-components.md#selection-box) 组件。选择框必须位于所有定义的区域内，以确保精确交互正常工作。
 
-![展示图像显示示例鸽槽和双花盆区块](/assets/images/blocks/precise-interaction/showcase.png)
+![展示图像显示示例鸽槽和双花盆区块](../assets/images/blocks/precise-interaction/showcase.png)
 
 ## 工作原理
 
@@ -207,7 +207,7 @@ const quadrants = new FaceSelectionPlains(
 );
 ```
 
-这可以在一个 [自定义组件](/blocks/block-events) 中使用，以获取所选的象限：
+这可以在一个 [自定义组件](../blocks/block-events.md) 中使用，以获取所选的象限：
 
 ```js
 const QuadrantInteractionBlockComponent = {
@@ -412,7 +412,7 @@ world.afterEvents.itemUseOn.subscribe((e) => {
 
 与纸张互动将填充选定的槽。销毁区块会释放所有存储的纸张物品。
 
-![鸽槽展示](/assets/images/blocks/precise-interaction/pigeonholes.png)
+![鸽槽展示](../assets/images/blocks/precise-interaction/pigeonholes.png)
 
 <Button link="https://github.com/Bedrock-OSS/wiki-addon/blob/main/ma-precise_interaction/rp/models/blocks/pigeonholes.geo.json">
     下载鸽槽模型
@@ -628,7 +628,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 **注意**：此示例中的花盆仅支持种植蒲公英和仙人掌，简单起见——您可以自行进一步扩展。
 
-![双花盆展示](/assets/images/blocks/precise-interaction/double_flower_pot.png)
+![双花盆展示](../assets/images/blocks/precise-interaction/double_flower_pot.png)
 
 <Button link="https://github.com/Bedrock-OSS/wiki-addon/blob/main/ma-precise_interaction/rp/models/blocks/double_flower_pot.geo.json">
     下载双花盆模型

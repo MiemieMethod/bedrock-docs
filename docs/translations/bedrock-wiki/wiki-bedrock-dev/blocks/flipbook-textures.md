@@ -52,7 +52,7 @@ description: 方块的翻书（动画）纹理。
 }
 ```
 
-![](/assets/images/blocks/flipbook-textures/animated_texture_1.gif)
+![](../assets/images/blocks/flipbook-textures/animated_texture_1.gif)
 
 现在它有了动画纹理！
 
@@ -163,6 +163,6 @@ description: 方块的翻书（动画）纹理。
 
 ## 结果
 
-![](/assets/images/blocks/flipbook-textures/animated_texture_2.gif)
+![](../assets/images/blocks/flipbook-textures/animated_texture_2.gif)
 
 现在您可以修改原版翻书纹理或创建自己的纹理！

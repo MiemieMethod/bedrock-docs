@@ -19,7 +19,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 :::tip 格式版本 `1.21.40`
 本教程假设您对方块有基本的了解。
-在开始之前，请查看[方块指南](/blocks/blocks-intro)。
+在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
 :::
 
 本教程旨在展示一种创建自定义矿石方块及其掉落表的新方法。`minecraft:loot`组件将运行指定的掉落表，无论使用何种工具，但通过在掉落表中添加`match_tool`条件，您可以指定每个掉落池所需的工具。
@@ -93,7 +93,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 ## XP奖励脚本
 
-要在矿石方块被破坏时生成经验球，可以使用自定义组件。在这里，我们使用[onPlayerDestroy](/blocks/block-events#player-destroy)事件钩子。如果您不希望方块生成经验球，可以忽略此步骤。
+要在矿石方块被破坏时生成经验球，可以使用自定义组件。在这里，我们使用[onPlayerDestroy](../blocks/block-events.md#player-destroy)事件钩子。如果您不希望方块生成经验球，可以忽略此步骤。
 
 与掉落表类似，我们检查玩家手中的物品，然后在方块的位置生成随机数量的经验球。
 
@@ -168,4 +168,4 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 结果
 
-![](/assets/images/blocks/ore-loot/result.gif)
+![](../assets/images/blocks/ore-loot/result.gif)

@@ -12,7 +12,7 @@ description: 在MCBE中开始脚本编写。
 ---
 
 ::: tip
-本脚本API页面假设您对附加包的打包设置有基本了解。有关如何设置行为包的信息，请参阅[附加包简介](/guide/introduction)页面。
+本脚本API页面假设您对附加包的打包设置有基本了解。有关如何设置行为包的信息，请参阅[附加包简介](../guide/introduction.md)页面。
 :::
 
 ::: warning
@@ -21,7 +21,7 @@ description: 在MCBE中开始脚本编写。
 
 ## 概述
 
-脚本API（前称GameTests，且与[遗留脚本API](/scripting/scripting-intro)不同）是一项允许创建新类型创作的功能，这些创作使用行为包文件夹中的JavaScript文件构建。脚本API的某些部分并非实验性。
+脚本API（前称GameTests，且与[遗留脚本API](../scripting/scripting-intro.md)不同）是一项允许创建新类型创作的功能，这些创作使用行为包文件夹中的JavaScript文件构建。脚本API的某些部分并非实验性。
 
 本页面将为您介绍Minecraft创作者API概念中您每天将使用的80%。
 
@@ -150,7 +150,7 @@ description: 在MCBE中开始脚本编写。
 
 ## 使用JS编写脚本
 
-Minecraft的脚本引擎仅运行JavaScript，类似于其他JavaScript项目。请查看[使用TypeScript编写脚本](/scripting/typescript#script-api)以将TS直接编译为JavaScript。
+Minecraft的脚本引擎仅运行JavaScript，类似于其他JavaScript项目。请查看[使用TypeScript编写脚本](../scripting/typescript.md#script-api)以将TS直接编译为JavaScript。
 
 <CodeHeader>BP/scripts/main.js</CodeHeader>
 

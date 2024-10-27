@@ -30,9 +30,9 @@ description: 学习如何制作一个合适的实体移动行为。
 
 | 组件名称                                                                                  | 备注                                 |
 |-----------------------------------------------------------------------------------------|--------------------------------------|
-| [minecraft:movement](/entities/vanilla-usage-components#movement)                       | 设置移动速度（必需）                 |
-| [minecraft:underwater_movement](/entities/vanilla-usage-components#underwater-movement) | 设置水中的移动速度。                 |
-| [minecraft:flying_speed](/entities/vanilla-usage-components#flying-speed)               | 设置空中的速度。                     |
+| [minecraft:movement](../entities/vanilla-usage-components.md#movement)                       | 设置移动速度（必需）                 |
+| [minecraft:underwater_movement](../entities/vanilla-usage-components.md#underwater-movement) | 设置水中的移动速度。                 |
+| [minecraft:flying_speed](../entities/vanilla-usage-components.md#flying-speed)               | 设置空中的速度。                     |
 
 你应该始终包含 `minecraft:movement`。根据需要添加其他两个组件。
 
@@ -126,7 +126,7 @@ AI目标以 `behavior` 为前缀，并遵循优先级系统来选择运行哪个
 ### 路径查找
 
 让实体前往特定地点是市场内容中最常见的需求之一。
-实现路径查找的最佳方式是使用第二个实体，第一个实体会被其吸引。我将这个次要实体称为 **标记**。如果你不清楚如何创建标记，请访问 [虚拟实体](/entities/dummy-entities) 页面。
+实现路径查找的最佳方式是使用第二个实体，第一个实体会被其吸引。我将这个次要实体称为 **标记**。如果你不清楚如何创建标记，请访问 [虚拟实体](../entities/dummy-entities.md) 页面。
 
 #### 思路
 

@@ -27,7 +27,7 @@ mentions:
 ---
 
 :::tip 格式与最低引擎版本 `1.21.40`
-本页面讨论基本方块特性。您可以在[这里](/blocks/block-components)了解更多关于其他方块组件的信息。
+本页面讨论基本方块特性。您可以在[这里](../blocks/block-components.md)了解更多关于其他方块组件的信息。
 :::
 :::danger 注意
 原版方块是硬编码的。您无法覆盖或访问它们。
@@ -70,11 +70,11 @@ Minecraft基岩版允许我们将自定义方块添加到我们的世界中，�
 -   配置方块放置的`menu_category`。
     -   还可以使用可选参数`group`和`is_hidden_in_commands`。
 
-_方块描述也是[状态](/blocks/block-states)和[特性](/blocks/block-traits)的所在，它们在各自的页面中进行了介绍。_
+_方块描述也是[状态](../blocks/block-states.md)和[特性](../blocks/block-traits.md)的所在，它们在各自的页面中进行了介绍。_
 
 ## 添加组件
 
-现在，我们的自定义方块使用的是默认组件值（可以在[这里](/blocks/block-components)找到）。
+现在，我们的自定义方块使用的是默认组件值（可以在[这里](../blocks/block-components.md)找到）。
 
 让我们配置我们自己的功能吧！
 
@@ -107,15 +107,15 @@ _方块描述也是[状态](/blocks/block-states)和[特性](/blocks/block-trait
 }
 ```
 
--   [`minecraft:destructible_by_mining`](/blocks/block-components#destructible-by-mining) 定义玩家需要挖掘方块到破坏所需的时间。目前，无法为不同工具设置不同的破坏时间。
--   [`minecraft:destructible_by_explosion`](/blocks/block-components#destructible-by-explosion) 定义对爆炸的抵抗力。值越高，破坏的几率越低。
--   [`minecraft:friction`](/blocks/block-components#friction) 定义方块的摩擦力。例如，灵魂沙的摩擦力值较高，因此会减缓玩家的移动。冰的摩擦力值较低，因此具有滑动效果。经典方块如木头或石头的摩擦力为`0.4`。
--   [`minecraft:map_color`](/blocks/block-components#map-color) 是在Minecraft地图上显示该方块的十六进制颜色代码。`#ffffff`表示白色。您可以在[这里](https://www.google.com/search?q=hex+color+picker)获取其他颜色的十六进制代码。
--   [`minecraft:light_dampening`](/blocks/block-components#light-dampening) 定义有多少光线会被阻挡。
--   [`minecraft:light_emission`](/blocks/block-components#light-emission) 定义方块输出的光照等级。
--   [`minecraft:loot`](/blocks/block-components#loot) 定义方块掉落的战利品表路径。如果删除此项，方块将掉落自身。您可以在[这里](/loot/loot-tables)了解更多关于战利品表的信息。
+-   [`minecraft:destructible_by_mining`](../blocks/block-components.md#destructible-by-mining) 定义玩家需要挖掘方块到破坏所需的时间。目前，无法为不同工具设置不同的破坏时间。
+-   [`minecraft:destructible_by_explosion`](../blocks/block-components.md#destructible-by-explosion) 定义对爆炸的抵抗力。值越高，破坏的几率越低。
+-   [`minecraft:friction`](../blocks/block-components.md#friction) 定义方块的摩擦力。例如，灵魂沙的摩擦力值较高，因此会减缓玩家的移动。冰的摩擦力值较低，因此具有滑动效果。经典方块如木头或石头的摩擦力为`0.4`。
+-   [`minecraft:map_color`](../blocks/block-components.md#map-color) 是在Minecraft地图上显示该方块的十六进制颜色代码。`#ffffff`表示白色。您可以在[这里](https://www.google.com/search?q=hex+color+picker)获取其他颜色的十六进制代码。
+-   [`minecraft:light_dampening`](../blocks/block-components.md#light-dampening) 定义有多少光线会被阻挡。
+-   [`minecraft:light_emission`](../blocks/block-components.md#light-emission) 定义方块输出的光照等级。
+-   [`minecraft:loot`](../blocks/block-components.md#loot) 定义方块掉落的战利品表路径。如果删除此项，方块将掉落自身。您可以在[这里](../loot/loot-tables.md)了解更多关于战利品表的信息。
 
-_在[这里](/blocks/block-components)浏览更多方块组件！_
+_在[这里](../blocks/block-components.md)浏览更多方块组件！_
 
 ## 应用纹理
 
@@ -123,12 +123,12 @@ _在[这里](/blocks/block-components)浏览更多方块组件！_
 `RP/blocks.json`忽略标识符命名空间。您可以在此处放置任何内容，或者根本不包含命名空间，结果没有区别。如果您创建一个与现有原版方块同名（但没有命名空间）的自定义方块，可能会导致问题。
 :::
 :::tip <nbsp/>
-[方块声音](/blocks/block-sounds)也可以在`RP/blocks.json`中定义。
+[方块声音](../blocks/block-sounds.md)也可以在`RP/blocks.json`中定义。
 :::
 
 对于我们的基本16×16×16像素方块，纹理应在`RP/blocks.json`中定义。
 
-如果您想应用自定义模型，则应使用[几何体](/blocks/block-components#geometry)和[材质实例](/blocks/block-components#material-instances)组件。
+如果您想应用自定义模型，则应使用[几何体](../blocks/block-components.md#geometry)和[材质实例](../blocks/block-components.md#material-instances)组件。
 
 <CodeHeader>RP/blocks.json</CodeHeader>
 
@@ -168,19 +168,19 @@ _在[这里](/blocks/block-components)浏览更多方块组件！_
 -   `textures/blocks/compass_block_down.png`
 
     <WikiImage
-        src="/assets/images/blocks/blocks-intro/compass_block_down.png"
+        src="../assets/images/blocks/blocks-intro/compass_block_down.png"
         pixelated
         width="64"
     />
 
 -   `textures/blocks/compass_block_up.png`
 
-    <WikiImage src="/assets/images/blocks/blocks-intro/compass_block_up.png" pixelated width="64" />
+    <WikiImage src="../assets/images/blocks/blocks-intro/compass_block_up.png" pixelated width="64" />
 
 -   `textures/blocks/compass_block_north.png`
 
     <WikiImage
-        src="/assets/images/blocks/blocks-intro/compass_block_north.png"
+        src="../assets/images/blocks/blocks-intro/compass_block_north.png"
         pixelated
         width="64"
     />
@@ -188,7 +188,7 @@ _在[这里](/blocks/block-components)浏览更多方块组件！_
 -   `textures/blocks/compass_block_east.png`
 
     <WikiImage
-        src="/assets/images/blocks/blocks-intro/compass_block_east.png"
+        src="../assets/images/blocks/blocks-intro/compass_block_east.png"
         pixelated
         width="64"
     />
@@ -196,7 +196,7 @@ _在[这里](/blocks/block-components)浏览更多方块组件！_
 -   `textures/blocks/compass_block_south.png`
 
     <WikiImage
-        src="/assets/images/blocks/blocks-intro/compass_block_south.png"
+        src="../assets/images/blocks/blocks-intro/compass_block_south.png"
         pixelated
         width="64"
     />
@@ -204,7 +204,7 @@ _在[这里](/blocks/block-components)浏览更多方块组件！_
 -   `textures/blocks/compass_block_west.png`
 
     <WikiImage
-        src="/assets/images/blocks/blocks-intro/compass_block_west.png"
+        src="../assets/images/blocks/blocks-intro/compass_block_west.png"
         pixelated
         width="64"
     />
@@ -229,7 +229,7 @@ _在[这里](/blocks/block-components)浏览更多方块组件！_
 }
 ```
 
-或者，如果您使用[材质实例](/blocks/block-components#material-instances)，它们应如下所示：
+或者，如果您使用[材质实例](../blocks/block-components.md#material-instances)，它们应如下所示：
 
 <CodeHeader>minecraft:block > components</CodeHeader>
 
@@ -300,7 +300,7 @@ tile.wiki:custom_block.name=自定义方块
 tile.wiki:compass_block.name=指南针方块
 ```
 
-您可以在[这里](/concepts/text-and-translations)了解更多关于翻译的信息。
+您可以在[这里](../concepts/text-and-translations.md)了解更多关于翻译的信息。
 
 ## 结果
 
@@ -315,26 +315,26 @@ tile.wiki:compass_block.name=指南针方块
 ## 接下来做什么？
 
 <CardGrid>
-<Card title="添加功能" image="/assets/images/homepage/crafting_table_0.png">
+<Card title="添加功能" image="../assets/images/homepage/crafting_table_0.png">
 
-了解可用的方块[组件](/blocks/block-components)，以打造独特的游戏体验。
+了解可用的方块[组件](../blocks/block-components.md)，以打造独特的游戏体验。
 
-为什么不为您的方块添加一个自定义模型，使用[几何体](/blocks/block-components#geometry)组件呢？
-您还可以配置自己的[碰撞](/blocks/block-components#collision-box)和[选择](/blocks/block-components#selection-box)框，以匹配！
+为什么不为您的方块添加一个自定义模型，使用[几何体](../blocks/block-components.md#geometry)组件呢？
+您还可以配置自己的[碰撞](../blocks/block-components.md#collision-box)和[选择](../blocks/block-components.md#selection-box)框，以匹配！
 
 </Card>
-<Card title="创建变体" image="/assets/images/homepage/scripting.png">
+<Card title="创建变体" image="../assets/images/homepage/scripting.png">
 
-利用方块[状态](/blocks/block-states)和[排列](/blocks/block-permutations)有条件地启用方块上的组件。
+利用方块[状态](../blocks/block-states.md)和[排列](../blocks/block-permutations.md)有条件地启用方块上的组件。
 
 例如，您可以为自定义水箱方块添加液体深度级别，支持多种液体类型。
 
 </Card>
-<Card title="复制原版" image="/assets/images/homepage/diamond_ore_0.png">
+<Card title="复制原版" image="../assets/images/homepage/diamond_ore_0.png">
 
 浏览**原版重建**类别中现有方块的多个完整复制品。
 
-从[自定义玻璃方块](/blocks/custom-glass-blocks)开始，使用[材质实例](/blocks/block-components#material-instances)进行简单的实现！
+从[自定义玻璃方块](../blocks/custom-glass-blocks.md)开始，使用[材质实例](../blocks/block-components.md#material-instances)进行简单的实现！
 
 </Card>
 </CardGrid>

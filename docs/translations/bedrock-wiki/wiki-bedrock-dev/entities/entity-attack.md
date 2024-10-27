@@ -24,7 +24,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 ### 移动
 
-在一个怪物能够攻击之前，它需要各种[移动组件](/entities/entity-movement)。
+在一个怪物能够攻击之前，它需要各种[移动组件](../entities/entity-movement.md)。
 
 在开始创建实体攻击之前，你应该确保你的实体能够行走并导航其周围环境。
 
@@ -232,7 +232,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 ### 远程
 
-向目标以设定的间隔发射指定的[投射物](/entities/projectiles)。
+向目标以设定的间隔发射指定的[投射物](../entities/projectiles.md)。
 
 <CodeHeader></CodeHeader>
 
@@ -389,7 +389,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 ### 模式切换
 
-你可以使用事件使你的怪物仅在特定情况下攻击，或在不同类型的攻击之间切换。这可以通过简单地使用[事件](/entities/entity-events)和组件组来实现。两个典型的例子是 `minecraft:environment_sensor` 和 `minecraft:target_nearby_sensor`。两者在结构上非常相似，区别在于一个用于感知环境，另一个用于测试目标距离。
+你可以使用事件使你的怪物仅在特定情况下攻击，或在不同类型的攻击之间切换。这可以通过简单地使用[事件](../entities/entity-events.md)和组件组来实现。两个典型的例子是 `minecraft:environment_sensor` 和 `minecraft:target_nearby_sensor`。两者在结构上非常相似，区别在于一个用于感知环境，另一个用于测试目标距离。
 
 #### 攻击
 
@@ -542,7 +542,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 ### 动画
 
-动画不言自明。文件本身包含给定实体的所有具体动画。推荐使用[Blockbench](/guide/blockbench)制作动画。
+动画不言自明。文件本身包含给定实体的所有具体动画。推荐使用[Blockbench](../guide/blockbench.md)制作动画。
 
 尽管也可以在简单的文本编辑器中创建它们。
 

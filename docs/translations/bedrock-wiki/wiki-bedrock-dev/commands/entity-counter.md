@@ -22,7 +22,7 @@ _在聊天中输入：_
 
 `/scoreboard objectives add count dummy`
 
-如果您正在使用函数，并希望在世界初始化时自动添加目标，请按照[首次加载世界](/commands/on-first-world-load)中的流程进行操作。
+如果您正在使用函数，并希望在世界初始化时自动添加目标，请按照[首次加载世界](../commands/on-first-world-load.md)中的流程进行操作。
 
 ## 系统
 
@@ -45,7 +45,7 @@ execute if score AlivePlayers count matches 4.. run title @a actionbar 世界中
 execute if score Creepers count matches ..3 run title @a actionbar 世界中有少于3只苦力怕。
 ```
 
-![5个命令方块的链](/assets/images/commands/commandBlockChain/5.png)
+![5个命令方块的链](../assets/images/commands/commandBlockChain/5.png)
 
 在这里，我们跟踪活着的玩家和苦力怕作为示例，但您可以跟踪任何您喜欢的实体，并根据需要跟踪多个实体。您还可以根据自己的喜好更改假玩家名称。例如：将 'AlivePlayers' 改为 'Players'。
 
@@ -70,7 +70,7 @@ execute if score Creepers count matches ..3 run title @a actionbar 世界中有�
 
 ## Tick JSON
 
-如果您使用函数而不是命令方块，则必须将 `entity_counter` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号来将多个文件添加到 `tick.json` 中。有关更多信息，请参阅[函数](/commands/mcfunctions#tick-json)文档。
+如果您使用函数而不是命令方块，则必须将 `entity_counter` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号来将多个文件添加到 `tick.json` 中。有关更多信息，请参阅[函数](../commands/mcfunctions.md#tick-json)文档。
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 ```json

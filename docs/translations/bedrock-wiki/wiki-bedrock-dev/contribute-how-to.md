@@ -43,7 +43,7 @@ description: 进行你的第一次贡献！
 
 [Visual Studio Code (VSCode)](https://code.visualstudio.com/Download) 是一个很好的环境，用于编辑所有文件、编写代码等。你也可以使用其他编辑器，但在本教程中我们将指导你安装VSCode。
 
-![](/assets/images/contribute/setting_up_software/vscode/vsc_download.png)
+![](./assets/images/contribute/setting_up_software/vscode/vsc_download.png)
 
 #### 安装
 
@@ -77,7 +77,7 @@ description: 进行你的第一次贡献！
 
 [GitHub Desktop](https://desktop.github.com) 用于下载GitHub仓库，以便你可以在本地编辑它们。你也可以使用Git，一个命令行工具来完成此操作，但这有点复杂，本教程将不涵盖此内容。
 
-![](/assets/images/contribute/setting_up_software/ghdesktop/ghd_download.png)
+![](./assets/images/contribute/setting_up_software/ghdesktop/ghd_download.png)
 
 #### 安装
 
@@ -90,11 +90,11 @@ description: 进行你的第一次贡献！
 
 接下来，它会要求你登录。如果你已经有GitHub账户，点击`登录到GitHub.com`。在浏览器标签中，登录你的账户。如果你没有GitHub账户，点击`创建你的免费账户`并创建一个账户。然后正常继续。
 
-![](/assets/images/contribute/setting_up_software/ghdesktop/ghd_login.png)
+![](./assets/images/contribute/setting_up_software/ghdesktop/ghd_login.png)
 
 现在在GitHub Desktop中，不要更改任何内容，点击“完成”。
 
-![](/assets/images/contribute/setting_up_software/ghdesktop/ghd_configure.png)
+![](./assets/images/contribute/setting_up_software/ghdesktop/ghd_configure.png)
 
 现在，你可以关闭GitHub Desktop。
 
@@ -102,7 +102,7 @@ description: 进行你的第一次贡献！
 
 通过[NodeJS](https://www.nodejs.org)，我们可以在本地查看维基，就像它在网络上显示的一样。这非常适合在推送之前发现拼写错误或错误，以免在合并时出现问题。
 
-![](/assets/images/contribute/setting_up_software/nodejs/njs_download.png)
+![](./assets/images/contribute/setting_up_software/nodejs/njs_download.png)
 
 #### 安装
 
@@ -114,19 +114,19 @@ description: 进行你的第一次贡献！
 
 打开我们的[GitHub仓库](https://github.com/Bedrock-OSS/bedrock-wiki)，点击`复制`。如果你已经复制过了，没问题！继续下面的步骤。
 
-![](/assets/images/contribute/setting_up_local/setup_fork.png)
+![](./assets/images/contribute/setting_up_local/setup_fork.png)
 
 打开GitHub Desktop，点击`从互联网克隆仓库`。
 
-![](/assets/images/contribute/setting_up_local/setup_clone.png)
+![](./assets/images/contribute/setting_up_local/setup_clone.png)
 
 现在选择你的复制，并点击“克隆”。你的仓库将自动被克隆。
 
-![](/assets/images/contribute/setting_up_local/setup_clone_2.png)
+![](./assets/images/contribute/setting_up_local/setup_clone_2.png)
 
 之后，你将看到克隆的概览。要在其上工作，只需点击“在Visual Studio Code中打开”。VSCode将自动打开我们的维基。如果VSCode询问是否信任该文件夹，请点击`是，我信任作者`。
 
-![](/assets/images/contribute/setting_up_local/setup_vsc.png)
+![](./assets/images/contribute/setting_up_local/setup_vsc.png)
 
 现在你已经成功将维基克隆到本地设备，可以编辑所有文件！
 
@@ -138,11 +138,11 @@ description: 进行你的第一次贡献！
 
 确认在GitHub Desktop中的更改后，你可以给你的提交命名和描述（但两者都不是必需的），然后点击`提交到主分支`。
 
-![](/assets/images/contribute/committing_changes/committing.png)
+![](./assets/images/contribute/committing_changes/committing.png)
 
 提交更改后，你需要将本地克隆推送到GitHub。只需点击`推送提交到原始远程`。
 
-![](/assets/images/contribute/committing_changes/committing_push.png)
+![](./assets/images/contribute/committing_changes/committing_push.png)
 
 GitHub现在将你的本地克隆发送到他们的服务器。
 
@@ -152,11 +152,11 @@ GitHub现在将你的本地克隆发送到他们的服务器。
 
 有很多方法可以做到这一点。现在，只需在GitHub Desktop中点击`创建拉取请求`。
 
-![](/assets/images/contribute/creating_pr/pr.png)
+![](./assets/images/contribute/creating_pr/pr.png)
 
 GitHub Desktop将在浏览器中打开你的PR。你可以编辑你的PR，但不需要。所有内容应该已经正确并足够我们合并。只需点击`创建拉取请求`。
 
-![](/assets/images/contribute/creating_pr/pr_2.png)
+![](./assets/images/contribute/creating_pr/pr_2.png)
 
 你完成了！现在轮到我们将你的更改合并到我们的维基中！
 
@@ -166,11 +166,11 @@ GitHub Desktop将在浏览器中打开你的PR。你可以编辑你的PR，但�
 
 在浏览器中打开GitHub，打开你的复制。你会看到一个字段，显示你已过期。只需点击`获取上游`，然后点击`获取并合并`。
 
-![](/assets/images/contribute/updating_local/updating.png)
+![](./assets/images/contribute/updating_local/updating.png)
 
 现在在GitHub Desktop中，你需要通过点击`拉取原始`来拉取更新。你的本地克隆应该会自动更新。
 
-![](/assets/images/contribute/updating_local/updating_pull.png)
+![](./assets/images/contribute/updating_local/updating_pull.png)
 
 你的本地克隆现在已是最新的！
 
@@ -178,7 +178,7 @@ GitHub Desktop将在浏览器中打开你的PR。你可以编辑你的PR，但�
 
 每当其他人更新我们的维基时，都需要执行此过程。如果你忘记这样做，可能会遇到一些问题，例如我们无法自动合并你的PR（当你尝试打开PR时会看到这个问题）。
 
-![](/assets/images/contribute/troubleshooting/merge/merge_merge.png)
+![](./assets/images/contribute/troubleshooting/merge/merge_merge.png)
 
 如果发生这种情况，别担心。你可以轻松解决这个问题。
 
@@ -186,7 +186,7 @@ GitHub Desktop将在浏览器中打开你的PR。你可以编辑你的PR，但�
 
 像我们在前一步中所做的那样更新你的复制。之后，你不能直接在GitHub Desktop中拉取更改到你的本地克隆，因为这会导致问题。相反，点击`当前分支`。
 
-![](/assets/images/contribute/troubleshooting/merge/merge_branch.png)
+![](./assets/images/contribute/troubleshooting/merge/merge_branch.png)
 
 现在点击`选择一个分支进行合并...`。
 
@@ -201,15 +201,15 @@ GitHub Desktop将在浏览器中打开你的PR。你可以编辑你的PR，但�
 
 现在在VSCode中打开。
 
-![](/assets/images/contribute/troubleshooting/merge/merge_open.png)
+![](./assets/images/contribute/troubleshooting/merge/merge_open.png)
 
 点击`接受当前更改`，因为你希望更新你的更改，而不是其他人的。此步骤必须针对每个存在的问题执行。如果你不对每个问题执行此操作，我们将无法合并你的PR。
 
-![](/assets/images/contribute/troubleshooting/merge/merge_accept.png)
+![](./assets/images/contribute/troubleshooting/merge/merge_accept.png)
 
 否则，你可以选择`接受传入更改`以接受其他人所做的更改。然后保存并返回GitHub Desktop。然后你只需点击`继续合并`。
 
-![](/assets/images/contribute/troubleshooting/merge/merge_continue.png)
+![](./assets/images/contribute/troubleshooting/merge/merge_continue.png)
 
 现在这个问题已解决！你可以安全地继续，提交到你的分支并创建一个PR。
 

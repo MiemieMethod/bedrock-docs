@@ -30,7 +30,7 @@ Minecraft是一款在全球范围内拥有完全本地化文本的游戏。为�
 ]"
 ></FolderView>
 
-目前，Minecraft支持29种语言，具体描述见[§ 原版语言](/concepts/text-and-translations#vanilla-languages)。
+目前，Minecraft支持29种语言，具体描述见[§ 原版语言](../concepts/text-and-translations.md#vanilla-languages)。
 
 ### 格式
 
@@ -52,7 +52,7 @@ wiki.example_translation.line_2=第一行之后的一些信息。
 item.flint_and_steel.name=火石与史蒂夫	##[sic]
 ```
 
-翻译可以包含文本的替代项。替代项可以是有序的（`%1`、`%2`等）或无序的（`%s`）。原版翻译的值由游戏填充，而玩家可以通过使用原始JSON文本格式的命令手动设置替代项的值，例如使用[`/tellraw`](/concepts/rawtext)。
+翻译可以包含文本的替代项。替代项可以是有序的（`%1`、`%2`等）或无序的（`%s`）。原版翻译的值由游戏填充，而玩家可以通过使用原始JSON文本格式的命令手动设置替代项的值，例如使用[`/tellraw`](../concepts/rawtext.md)。
 
 ```toml
 commands.op.success=已提升权限：%s

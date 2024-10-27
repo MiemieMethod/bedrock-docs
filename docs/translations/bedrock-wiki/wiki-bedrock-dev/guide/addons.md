@@ -23,7 +23,7 @@ mentions:
 
 附加包允许我们通过_修改_或_移除_现有内容以及_添加_我们自己的内容来修改我们的Minecraft体验。附加包非常强大，允许我们创建自定义实体、物品和区块，以及自定义掉落表和合成配方等内容。你的想象力是唯一的限制！
 
-附加包主要使用[json](/guide/understanding-json)编写，这是一种结构化的数据格式。附加包本质上是一个包含json文件、图像和声音的集合，以某种方式修改或添加到游戏中。
+附加包主要使用[json](../guide/understanding-json.md)编写，这是一种结构化的数据格式。附加包本质上是一个包含json文件、图像和声音的集合，以某种方式修改或添加到游戏中。
 
 :::tip JavaScript编程
 自本指南编写以来，"附加包"的定义已扩展到包括JavaScript脚本API。你可以在本网站的其他地方了解更多关于此API的信息。
@@ -69,4 +69,4 @@ mentions:
 
 :::
 
-<Button link="/guide/software-preparation">下一步：软件和准备</Button>
+<Button link="../guide/software-preparation.md">下一步：软件和准备</Button>

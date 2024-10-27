@@ -12,7 +12,7 @@ tags:
 description: 深入了解NBT。
 ---
 
-NBT（命名二进制标签）是一种在二进制级别的数据编码格式，您一定知道基于文本级别的JSON格式。因此，我们将能够使用JSON格式进行一些示例，您可能还会注意到Minecraft本身在命令中使用JSON来表示NBT，例如Java命令或简化的基岩命令（`/give`、`/replaceitem`）。请参见[NBT命令](/commands/nbt-commands)。
+NBT（命名二进制标签）是一种在二进制级别的数据编码格式，您一定知道基于文本级别的JSON格式。因此，我们将能够使用JSON格式进行一些示例，您可能还会注意到Minecraft本身在命令中使用JSON来表示NBT，例如Java命令或简化的基岩命令（`/give`、`/replaceitem`）。请参见[NBT命令](../commands/nbt-commands.md)。
 
 在本文中，我们将比您预期的更详细地展示NBT。您在命令部分看到的内容与实际的NBT相去甚远，我们将向您展示NBT是如何工作的，如何读取它们，以及`Minecraft基岩版`本身是如何使用它们的。
 

@@ -97,7 +97,7 @@ description: 将您的结构添加到世界生成中。
 }
 ```
 
-![](/assets/images/world-generation/structure-features/house.png)
+![](../assets/images/world-generation/structure-features/house.png)
 
 ## 地下结构
 
@@ -173,7 +173,7 @@ description: 将您的结构添加到世界生成中。
 }
 ```
 
-![](/assets/images/world-generation/structure-features/bunker.png)
+![](../assets/images/world-generation/structure-features/bunker.png)
 
 ## 漂浮地物
 
@@ -248,7 +248,7 @@ description: 将您的结构添加到世界生成中。
 }
 ```
 
-![](/assets/images/world-generation/structure-features/balloon.png)
+![](../assets/images/world-generation/structure-features/balloon.png)
 
 ## 水下结构
 
@@ -321,7 +321,7 @@ description: 将您的结构添加到世界生成中。
 }
 ```
 
-![](/assets/images/world-generation/structure-features/aqua_temple.png)
+![](../assets/images/world-generation/structure-features/aqua_temple.png)
 
 ## 水面结构
 
@@ -391,4 +391,4 @@ description: 将您的结构添加到世界生成中。
 }
 ```
 
-![](/assets/images/world-generation/structure-features/raft.png)
+![](../assets/images/world-generation/structure-features/raft.png)

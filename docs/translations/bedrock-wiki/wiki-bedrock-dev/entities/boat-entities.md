@@ -19,7 +19,7 @@ description: 学习如何制作船只行为。
 
 ## 使用运行时标识符
 
-你可以在[这里](/entities/runtime-identifier)了解更多关于运行时标识符的信息。使用运行时标识符，你可以实现大多数船只的硬编码行为。然而，你的船只不会随你旋转，并且始终面朝北方。
+你可以在[这里](../entities/runtime-identifier.md)了解更多关于运行时标识符的信息。使用运行时标识符，你可以实现大多数船只的硬编码行为。然而，你的船只不会随你旋转，并且始终面朝北方。
 
 ## 使用组件
 
@@ -166,4 +166,4 @@ description: 学习如何制作船只行为。
 
 ## 自定义受伤动画
 
-你可能还对[自定义受伤动画](/visuals/custom-hurt-animations)感兴趣。
+你可能还对[自定义受伤动画](../visuals/custom-hurt-animations.md)感兴趣。

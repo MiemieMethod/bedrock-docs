@@ -26,7 +26,7 @@ mentions:
 
 ## 环境
 
-预防棘手错误的最佳方法是工作在正确的环境中。你应该查看[软件准备文档](/guide/software-preparation)以获取编辑器推荐。最重要的部分是获取一个JSON校验器（[或使用在线json校验器](https://jsonlint.com/)），并将你的包存储在`development_behavior_packs`和`development_resource_packs`中。
+预防棘手错误的最佳方法是工作在正确的环境中。你应该查看[软件准备文档](../guide/software-preparation.md)以获取编辑器推荐。最重要的部分是获取一个JSON校验器（[或使用在线json校验器](https://jsonlint.com/)），并将你的包存储在`development_behavior_packs`和`development_resource_packs`中。
 
 如果你的附加包在普通文件夹中，你可能会遇到“包缓存”问题，即你在一个位置编辑文件，但游戏仍在使用旧文件。
 
@@ -44,7 +44,7 @@ mentions:
 
 内容日志可以在`设置 > 创作者`中开启。内容日志将在游戏加载时显示，并且如果在游戏过程中发生更多错误，也会显示。
 
-![](/assets/images/guide/content_log.png)
+![](../assets/images/guide/content_log.png)
 
 ### 内容日志文件
 
@@ -59,13 +59,13 @@ mentions:
 
 ## JSON架构
 
-JSON架构是文件验证的有价值工具。你可以在[这里](/meta/using-schemas)了解更多关于JSON架构的信息。
+JSON架构是文件验证的有价值工具。你可以在[这里](../meta/using-schemas.md)了解更多关于JSON架构的信息。
 
 ## 故障排除你的附加包
 
 ### 实体
 
-<Button link="/entities/troubleshooting-entities">故障排除你的实体。</Button>
+<Button link="../entities/troubleshooting-entities.md">故障排除你的实体。</Button>
 
 ### 物品
 
@@ -73,4 +73,4 @@ JSON架构是文件验证的有价值工具。你可以在[这里](/meta/using-s
 
 ### 方块
 
-<Button link="/blocks/troubleshooting-blocks">故障排除你的方块。</Button>
+<Button link="../blocks/troubleshooting-blocks.md">故障排除你的方块。</Button>

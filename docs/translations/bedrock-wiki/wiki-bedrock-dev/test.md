@@ -201,7 +201,7 @@ scoreboard players set initialised world 1
 
 `Ctrl + Space`
 
-![](/assets/images/contribute/snippets/snippets.png)
+![](./assets/images/contribute/snippets/snippets.png)
 
 ## 剧透
 

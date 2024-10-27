@@ -34,12 +34,12 @@ description: 扩展结构限制。
 > > > > ![][compound] block_position_data
 > > > > > ![][compound] 0
 
-![](/assets/images/nbt/structure-limits/nbt-screenshot-1.png)
+![](../assets/images/nbt/structure-limits/nbt-screenshot-1.png)
 
 3. 将`xStructureSize`、`yStructureSize`和`zStructureSize`的值设置为您想要的大小。
 4. 保存结构并在游戏中加载。
 
-![](/assets/images/nbt/structure-limits/result.png)
+![](../assets/images/nbt/structure-limits/result.png)
 
 ## 提示
 

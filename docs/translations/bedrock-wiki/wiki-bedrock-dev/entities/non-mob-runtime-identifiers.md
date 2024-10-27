@@ -461,7 +461,7 @@ _Last updated for 1.19.10_
 | 脚步声音     | ❌    |
 
 ### `minecraft:splash_potion` & `minecraft:lingering_potion`
-* `minecraft:variant` 被重载用于使用此运行时标识符的实体。虽然 `is_variant` 实体过滤器将正常反映正确的变体，`q.variant` 将根据实体上的顶级 NBT 字段 `potionId` 返回不同的值（在服务器和客户端上）。`potionId` 所代表的效果类型 [如这里所述](/entities/projectiles#potion-ids)，无论效果强度如何，决定了其值：
+* `minecraft:variant` 被重载用于使用此运行时标识符的实体。虽然 `is_variant` 实体过滤器将正常反映正确的变体，`q.variant` 将根据实体上的顶级 NBT 字段 `potionId` 返回不同的值（在服务器和客户端上）。`potionId` 所代表的效果类型 [如这里所述](../entities/projectiles.md#potion-ids)，无论效果强度如何，决定了其值：
 
 | 效果               | `q.variant` 值 |
 |--------------------|----------------|

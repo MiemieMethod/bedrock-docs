@@ -49,13 +49,13 @@ description: 动画控制器的介绍。
 
 以下是状态机的可视化流程图：
 
-![](/assets/images/concepts/animation-controllers/two_state_FSM.png)
+![](../assets/images/concepts/animation-controllers/two_state_FSM.png)
 
 在这个流程图中，状态用矩形表示，箭头表示从一个状态到另一个状态的_转移_。
 
 流程图是一种很好的可视化多状态有限状态机的方法，它允许你跟随动画的逻辑_流程_。让我们看一个更详细的示例，增加一个第三个`爆炸`状态：
 
-![](/assets/images/concepts/animation-controllers/three_state_FSM.png)
+![](../assets/images/concepts/animation-controllers/three_state_FSM.png)
 
 如你所见，状态可以同时转移到多个状态。状态也可以是死胡同（因为直升机已经坠毁，不需要进一步的动画）。动画控制器的分支流程是其强大之处的重要组成部分。
 

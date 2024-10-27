@@ -150,4 +150,4 @@ GLSL版本的调试着色器可能会导致Minecraft崩溃，仅用于调试。
 
 [下载调试着色器](http://files.stirante.com/debugShader.zip)
 
-![](/assets/images/knowledge/shaders/debugShader.gif)
+![](../assets/images/knowledge/shaders/debugShader.gif)

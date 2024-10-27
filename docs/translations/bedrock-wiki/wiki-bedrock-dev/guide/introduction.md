@@ -43,9 +43,9 @@ mentions:
 
 除了逐步指南外，我们在本节中还有其他一些页面，供你随时浏览。
 
--   [理解JSON](/guide/understanding-json)
--   [下载示例包](/guide/download-packs)
--   [故障排除](/guide/troubleshooting)
+-   [理解JSON](../guide/understanding-json.md)
+-   [下载示例包](../guide/download-packs.md)
+-   [故障排除](../guide/troubleshooting.md)
 
 ## 完成指南后该做什么
 

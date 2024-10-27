@@ -106,7 +106,7 @@ mentions:
 
 要在本地查看 Wiki，请输入 `npm run dev` 并按回车，等待加载完成。当您看到以下内容时，表示已准备就绪：
 
-![](/assets/images/contribute/npm/npm_dev.png)
+![](./assets/images/contribute/npm/npm_dev.png)
 
 将光标悬停在显示 `http://localhost:5173/` 的部分，按住 `Ctrl` 并左键点击。
 您的浏览器将打开一个新标签页，显示本地版本的 Wiki。
@@ -249,10 +249,10 @@ https://bedrock.dev
 ---
 
 ```md
-[JSON 数组](/guide/understanding-json#arrays)
+[JSON 数组](./guide/understanding-json.md#arrays)
 ```
 
-[JSON 数组](/guide/understanding-json#arrays)
+[JSON 数组](./guide/understanding-json.md#arrays)
 
 ---
 
@@ -329,7 +329,7 @@ https://bedrock.dev
 :::tip 代码片段
 我们有这些组件的代码片段。要查看它们，请在 Markdown 文件中开始输入 `wiki.`，然后按 `Ctrl + Space`。
 
-![](/assets/images/contribute/snippets/snippets.png)
+![](./assets/images/contribute/snippets/snippets.png)
 :::
 
 ### 强调颜色
@@ -469,7 +469,7 @@ https://bedrock.dev
 }
 ```
 
-文件路径放在两个 HTML 标签之间。描述文件路径时，请确保遵循我们的 [风格指南](/meta/style-guide)：
+文件路径放在两个 HTML 标签之间。描述文件路径时，请确保遵循我们的 [风格指南](./meta/style-guide.md)：
 
 -   如果您在 Behavior-Pack 内链接，请在所有其他文件前加上 `BP`：
 
@@ -487,7 +487,7 @@ https://bedrock.dev
 
 ### 文件夹视图
 
-文件夹视图可用于显示文件的设置，例如在我们的 [项目设置](/guide/project-setup) 指南中。
+文件夹视图可用于显示文件的设置，例如在我们的 [项目设置](./guide/project-setup.md) 指南中。
 
 ```md
 <FolderView :paths="[
@@ -537,7 +537,7 @@ https://bedrock.dev
 ### WikiImage
 
 默认的添加图片方法如下：
-`![](/assets/images/...)`
+`![](./assets/images/...)`
 WikiImage 是在文章中添加图片的替代方法，提供比常规 Markdown 图片更多的参数，包括像素渲染。
 请注意，图片位于 `docs/public/assets/images/` 文件夹中，但组件中定义的路径不包括 `docs/public`。
 
@@ -619,7 +619,7 @@ WikiImage 是在文章中添加图片的替代方法，提供比常规 Markdown 
 
 ### 一般规则
 
-1.  对于命名包、文件夹等，请参阅我们的 [风格指南](/meta/style-guide)。
+1.  对于命名包、文件夹等，请参阅我们的 [风格指南](./meta/style-guide.md)。
 
 ### 标题大小写
 
