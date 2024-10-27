@@ -107,16 +107,15 @@ def build_nbt_key(icon: str, key: str, required: bool, existonsave: bool, page: 
 
     text = samp(key) if key else ""
 
-    indicator = ""
+    indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     if required or existonsave:
-        indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
         if required:
-            indicator += "<span class=\"nbt-required minetip\" title=\"此项为必选项\">*</span>"
+            indicator += "<span class=\"nbt-required minetip\" title=\"此项为必选项\">&#42</span>"
             if existonsave:
                 indicator += "<br>"
         if existonsave:
-            indicator += "<span class=\"nbt-existed minetip\" title=\"存储时必存在\">*</span>"
-        indicator += "</span>"
+            indicator += "<span class=\"nbt-existed minetip\" title=\"存储时必存在\">&#42</span>"
+    indicator += "</span>"
 
     return f"[:nbt-tag-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}**{text}**"
 
@@ -148,10 +147,9 @@ def build_json_key(icon: str, key: str, required: bool, page: Page, files: Files
 
     text = samp(key) if key else ""
 
-    indicator = ""
+    indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     if required:
-        indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
-        indicator += "<span class=\"nbt-required minetip\" title=\"此项为必选项\">*</span>"
-        indicator += "</span>"
+        indicator += "<span class=\"nbt-required minetip\" title=\"此项为必选项\">&#42</span>"
+    indicator += "</span>"
 
     return f"[:json-field-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}**{text}**"

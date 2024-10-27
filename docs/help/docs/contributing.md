@@ -1052,6 +1052,34 @@ rankdir = LR
 
 ### 网格
 
+### 树状视图
+
+树状视图是一种特殊的无序列表，需要在无序列表外面包裹`<div>`标签，并在`<div>`标签中指定`class="treeview"`和`markdown`特性。例如：
+
+```markdown
+<div class="treeview" markdown>
+- 根
+    - 分支1
+        - 叶1
+        - 叶2
+    - 分支12
+        - 叶3
+        - 叶4
+</div>
+```
+
+/// html | div.result
+<div class="treeview" markdown>
+- 根
+    - 分支1
+        - 叶1
+        - 叶2
+    - 分支12
+        - 叶3
+        - 叶4
+</div>
+///
+
 ### 工具提示
 
 ### 符号
@@ -1174,3 +1202,51 @@ rankdir = LR
 ///
 
 更多关于嵌入文件的信息可以参考[Snippets扩展文档](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/)。本站嵌入文件的默认基路径是`includes/`。
+
+### 模板
+
+仿照维基文本的模板语法，本站支持了模板。模板是通过内联实现的，语法如下：
+
+```markdown
+{/{模板名|参数1|参数2|赋值参数1=值1|赋值参数2=值2|...}}
+```
+
+#### {{samp|samp}}
+
+`{/{samp}}`用于等宽显示文本，是前文介绍的`samp`符号的一种等效替代，例如：
+
+```markdown
+{/{samp|text}}
+```
+
+/// html | div.result
+{{samp|text}}
+///
+
+#### {{samp|nbt}}与{{samp|json}}
+
+`{/{samp|nbt}}`和`{/{samp|json}}`用于NBT标签和JSON字段，通常配合[树状视图](#树状视图)使用，例如：
+
+```markdown
+<div class="treeview" markdown>
+- {/{json|object|minecraft:crafting_table}}：根对象。
+    - {/{json|string|table_name}}：定义合成界面显示的标题。
+    - {/{json|array|crafting_tags|required=1}}：定义合成配方的标签，最多64个元素。定义的标签将用于配方JSON文件中确定该配方可用的范围。
+        - 4
+    - {/{nbt|int|Health|required=1|existonsave=1}}：这是一个序列化和反序列化都必须存在的NBT标签。
+    - 6
+</div>
+```
+
+/// html | div.result
+<div class="treeview" markdown>
+- {{json|object|minecraft:crafting_table}}：根对象。
+    - {{json|string|table_name}}：定义合成界面显示的标题。
+    - {{json|array|crafting_tags|required=1}}：定义合成配方的标签，最多64个元素。定义的标签将用于配方JSON文件中确定该配方可用的范围。
+        - 4
+    - {{nbt|int|Health|required=1|existonsave=1}}：这是一个序列化和反序列化都必须存在的NBT标签。
+    - 6
+</div>
+///
+
+其中，第一个参数是类型，第二个参数是键名。参数还可以指定`required`和`existonsave`属性，分别表示序列化和反序列化时是否必须存在和是否在保存时存在。
