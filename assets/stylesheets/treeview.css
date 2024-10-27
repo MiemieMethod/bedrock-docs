@@ -1,0 +1,91 @@
+:root {
+	--custom-nbt-inherit-color: #e6e6fa;
+}
+
+/* Turn a list into a tree view style (From Minecraft Wiki) */
+.treeview {
+	margin-top: 0.3em !important;
+	display: flow-root !important;
+}
+
+.treeview .treeview-header {
+	padding-left: 3px !important;
+	font-weight: bold !important;
+}
+.treeview .treeview-header:last-child {
+	border-color: #636363 !important;
+	border-left-style: dotted !important;
+}
+.treeview .treeview-header:not(:last-child)::before {
+	content: none !important;
+}
+.treeview .treeview-header:last-child::before {
+	border-bottom: 0 !important;
+}
+
+.treeview ul,
+.treeview li {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+
+.treeview-identblock {
+	position: relative !important;
+	padding-left: 13px !important;
+	margin-left: 7px !important;
+}
+.treeview li li,
+.treeview-block {
+	position: relative !important;
+	padding-left: 13px !important;
+	margin-left: 7px !important;
+	border-left: 1px solid #636363 !important;
+    line-height: 1.4 !important;
+}
+.treeview li li::before {
+	content: "" !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: -1px !important;
+	width: 11px !important;
+	height: 11px !important;
+	border-bottom: 1px solid #636363 !important;
+}
+
+.treeview li li:last-child:not(.treeview-continue) {
+	border-color: transparent !important;
+}
+.treeview li li:last-child:not(.treeview-continue)::before {
+	border-left: 1px solid #636363 !important;
+	width: 10px !important;
+}
+
+.treeview dl,
+.treeview dt {
+	margin-bottom: 0 !important;
+}
+
+.nbttree-inherited {
+	background-color: var(--custom-nbt-inherit-color) !important;
+}
+
+.nbt-indicators {
+	-webkit-user-select: none;
+	user-select: none;
+	line-height: 0.5;
+	display: inline-block;
+	vertical-align: middle;
+	width: 8px;
+	text-align: right;
+	font-size: 115%;
+}
+
+.nbt-indicators .nbt-required {
+	color: red;
+}
+
+.nbt-indicators .nbt-existed {
+	color: blue;
+}
