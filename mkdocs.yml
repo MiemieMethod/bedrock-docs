@@ -7399,6 +7399,7 @@ nav:
         - translations/bedrock-wiki/wiki-bedrock-dev/index.md
         - 初学者指南:
           - translations/bedrock-wiki/wiki-bedrock-dev/guide/index.md
+          - 引言: translations/bedrock-wiki/wiki-bedrock-dev/guide/introduction.md
     - bridge.:
       - translations/bridge/index.md
       - <samp>bridge-core.github.io</samp>:
