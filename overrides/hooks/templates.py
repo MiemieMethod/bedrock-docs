@@ -102,7 +102,9 @@ def build_nbt_key(icon: str, key: str, required: bool, existonsave: bool, page: 
         "compound": "复合",
         "int-array": "整型数组",
         "long-array": "长整型数组",
-        "boolean": "布尔值"
+        "boolean": "布尔值",
+        "empty-compound": "空复合",
+        "empty-list": "空列表"
     }
 
     text = samp(key) if key else ""
@@ -142,7 +144,9 @@ def build_json_key(icon: str, key: str, required: bool, page: Page, files: Files
         "string": "字符串",
         "array": "数组",
         "object": "对象",
-        "boolean": "布尔值"
+        "boolean": "布尔值",
+        "empty-object": "空对象",
+        "empty-array": "空数组",
     }
 
     text = samp(key) if key else ""
