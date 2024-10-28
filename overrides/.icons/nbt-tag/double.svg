@@ -6,31 +6,31 @@
      id="defs1">
     <style
        id="style1">
-            .cls-1 {
+            .double-cls-1 {
                 fill: #166323;
             }
         </style>
   </defs>
   <rect
-     class="cls-2"
+     class="double-cls-2"
      width="16"
      height="16"
      id="rect1"
      style="fill:#539349;" />
   <polygon
-     class="cls-1"
+     class="double-cls-1"
      points="15 1 0 1 0 0 16 0 15 1"
      id="polygon2" />
   <polygon
-     class="cls-1"
+     class="double-cls-1"
      points="1 15 1 0 0 0 0 16 1 15"
      id="polygon3" />
   <polygon
-     class="cls-1"
+     class="double-cls-1"
      points="1 15 16 15 16 16 0 16 1 15"
      id="polygon4" />
   <polygon
-     class="cls-1"
+     class="double-cls-1"
      points="15 1 15 16 16 16 16 0 15 1"
      id="polygon5" />
   <path
