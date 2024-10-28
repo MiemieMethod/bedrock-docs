@@ -18,7 +18,7 @@ absolutePosition: Vector3;
 
 /// html | div.result
 //// define
-`absolutePosition`：[`Vector3`](../../server/2.0.0-alpha/vector3.md)
+`absolutePosition`：[`Vector3`](../../server/alpha/vector3.md)
 
 - script_api.@minecraft/server-gametest.gametesterrorcontext.absoluteposition.description
 
@@ -40,7 +40,7 @@ relativePosition: Vector3;
 
 /// html | div.result
 //// define
-`relativePosition`：[`Vector3`](../../server/2.0.0-alpha/vector3.md)
+`relativePosition`：[`Vector3`](../../server/alpha/vector3.md)
 
 - script_api.@minecraft/server-gametest.gametesterrorcontext.relativeposition.description
 

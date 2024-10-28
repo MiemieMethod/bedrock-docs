@@ -11,7 +11,7 @@
     - <!-- md:samp @QuazChick -->
 ///
 
-<WikiImage src="/assets/images/homepage/wikilogo.png" alt="基岩版维基标志" />
+![基岩维基徽标](./assets/images/homepage/wikilogo.png){ float=left }
 
 这个维基是一个分享Minecraft基岩版技术特性的知识网站，包含文档、教程和一般的操作信息。
 

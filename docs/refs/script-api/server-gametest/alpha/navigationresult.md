@@ -44,7 +44,7 @@ getPath(): Vector3[]
 
 /// html | div.result
 //// define
-返回值：<code><a href="../../../server/2.0.0-alpha/vector3/">Vector3</a>[]</code>
+返回值：<code><a href="../../../server/alpha/vector3/">Vector3</a>[]</code>
 
 - script_api.@minecraft/server-gametest.navigationresult.getpath.return
 

@@ -117,7 +117,7 @@ def build_nbt_key(icon: str, key: str, required: bool, existonsave: bool, page: 
             indicator += "<span class=\"nbt-existed minetip\" title=\"存储时必存在\">&#42</span>"
     indicator += "</span>"
 
-    return f"[:nbt-tag-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}**{text}**"
+    return f"[:nbt-tag-{icon}:]({href} '{tagNames.get(icon, "")}标签'){indicator}**{text}**"
 
 def json(args: str, page: Page, files: Files):
     splitted = args.split("|")

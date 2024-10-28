@@ -44,7 +44,7 @@ addCursorsWithOffset(offset: Vector3, charge: int32): void
 
 /// html | div.result
 //// define
-`offset`：[`Vector3`](../../server/2.0.0-alpha/vector3.md)
+`offset`：[`Vector3`](../../server/alpha/vector3.md)
 
 - script_api.@minecraft/server-gametest.sculkspreader.addcursorswithoffset.offset.description
 
@@ -92,7 +92,7 @@ getCursorPosition(index: int32): Vector3
 ////
 
 //// define
-返回值：[`Vector3`](../../server/2.0.0-alpha/vector3.md)
+返回值：[`Vector3`](../../server/alpha/vector3.md)
 
 - script_api.@minecraft/server-gametest.sculkspreader.getcursorposition.return
 

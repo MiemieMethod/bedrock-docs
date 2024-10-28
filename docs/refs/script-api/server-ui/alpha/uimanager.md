@@ -20,7 +20,7 @@ closeAllForms(player: Player): void
 
 /// html | div.result
 //// define
-`player`：[`Player`](../../server/2.0.0-alpha/player.md)
+`player`：[`Player`](../../server/alpha/player.md)
 
 - script_api.@minecraft/server-ui.uimanager.closeallforms.player.description
 

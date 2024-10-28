@@ -44,7 +44,7 @@ dropdown(label: RawMessage | string, options: (RawMessage | string)[], defaultVa
 
 /// html | div.result
 //// define
-`label`：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`
+`label`：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`
 
 - script_api.@minecraft/server-ui.modalformdata.dropdown.label.description
 
@@ -92,7 +92,7 @@ show(player: Player): Promise<ModalFormResponse>
 
 /// html | div.result
 //// define
-`player`：[`Player`](../../server/2.0.0-alpha/player.md)
+`player`：[`Player`](../../server/alpha/player.md)
 
 - script_api.@minecraft/server-ui.modalformdata.show.player.description
 
@@ -124,7 +124,7 @@ slider(label: RawMessage | string, minimumValue: float, maximumValue: float, val
 
 /// html | div.result
 //// define
-`label`：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`
+`label`：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`
 
 - script_api.@minecraft/server-ui.modalformdata.slider.label.description
 
@@ -188,7 +188,7 @@ submitButton(submitButtonText: RawMessage | string): ModalFormData
 
 /// html | div.result
 //// define
-`submitButtonText`：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`
+`submitButtonText`：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`
 
 - script_api.@minecraft/server-ui.modalformdata.submitbutton.submitbuttontext.description
 
@@ -220,7 +220,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 
 /// html | div.result
 //// define
-`label`：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`
+`label`：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`
 
 - script_api.@minecraft/server-ui.modalformdata.textfield.label.description
 
@@ -228,7 +228,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 ////
 
 //// define
-`placeholderText`：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`
+`placeholderText`：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`
 
 - script_api.@minecraft/server-ui.modalformdata.textfield.placeholdertext.description
 
@@ -236,7 +236,7 @@ textField(label: RawMessage | string, placeholderText: RawMessage | string, defa
 ////
 
 //// define
-`defaultValue`?：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`＝`null`
+`defaultValue`?：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`＝`null`
 
 - script_api.@minecraft/server-ui.modalformdata.textfield.defaultvalue.description
 
@@ -268,7 +268,7 @@ title(titleText: RawMessage | string): ModalFormData
 
 /// html | div.result
 //// define
-`titleText`：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`
+`titleText`：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`
 
 - script_api.@minecraft/server-ui.modalformdata.title.titletext.description
 
@@ -300,7 +300,7 @@ toggle(label: RawMessage | string, defaultValue?: boolean): ModalFormData
 
 /// html | div.result
 //// define
-`label`：[`RawMessage`](../../server/2.0.0-alpha/rawmessage.md)|`string`
+`label`：[`RawMessage`](../../server/alpha/rawmessage.md)|`string`
 
 - script_api.@minecraft/server-ui.modalformdata.toggle.label.description
 

@@ -276,7 +276,7 @@ structureLocation(structureLocation: Vector3): RegistrationBuilder
 
 /// html | div.result
 //// define
-`structureLocation`：[`Vector3`](../../server/2.0.0-alpha/vector3.md)
+`structureLocation`：[`Vector3`](../../server/alpha/vector3.md)
 
 - script_api.@minecraft/server-gametest.registrationbuilder.structurelocation.structurelocation.description
 
