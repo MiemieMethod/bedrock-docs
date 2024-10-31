@@ -6,6 +6,8 @@ tags:
     - 指南
 ---
 
+# 引言
+
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/introduction.html](https://wiki.bedrock.dev/guide/introduction.html)
 - 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/introduction.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/introduction.md)

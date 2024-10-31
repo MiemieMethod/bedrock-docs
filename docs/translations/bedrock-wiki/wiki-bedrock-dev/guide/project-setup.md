@@ -2,27 +2,33 @@
 title: 项目设置
 category: 指南
 description: 如何设置你的项目
-nav_order: 4
-prefix: "4. "
-mentions:
-    - SirLich
-    - sovledDev
-    - Joelant05
-    - Dreamedc2015
-    - BlueFrog130
-    - sermah
-    - cda94581
-    - MedicalJewel105
-    - TheItsNameless
-    - ThijsHankelMC
-    - TheHyperWhale
-    - stirante
-    - ChibiMango
-    - Etanarvazac
-    - retr0cube
-    - ThomasOrs
-    - lescx
 ---
+
+# 项目设置
+
+/// details-info | 署名信息
+- 该页面翻译自[https://wiki.bedrock.dev/guide/project-setup.html](https://wiki.bedrock.dev/guide/project-setup.html)
+- 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/project-setup.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/project-setup.md)
+- 该页面的版本为<!-- md:samp Bedrock-OSS/bedrock-wiki@416639be6f771e63146c53557ecab9ca40a9852c -->
+- 该页面的作者有：
+    - <!-- md:samp SirLich -->
+    - <!-- md:samp sovledDev -->
+    - <!-- md:samp Joelant05 -->
+    - <!-- md:samp Dreamedc2015 -->
+    - <!-- md:samp BlueFrog130 -->
+    - <!-- md:samp sermah -->
+    - <!-- md:samp cda94581 -->
+    - <!-- md:samp MedicalJewel105 -->
+    - <!-- md:samp TheItsNameless -->
+    - <!-- md:samp ThijsHankelMC -->
+    - <!-- md:samp TheHyperWhale -->
+    - <!-- md:samp stirante -->
+    - <!-- md:samp ChibiMango -->
+    - <!-- md:samp Etanarvazac -->
+    - <!-- md:samp retr0cube -->
+    - <!-- md:samp ThomasOrs -->
+    - <!-- md:samp lescx -->
+///
 
 ## 介绍
 

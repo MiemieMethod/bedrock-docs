@@ -7402,6 +7402,7 @@ nav:
           - 指南:
             - '1. 引言': translations/bedrock-wiki/wiki-bedrock-dev/guide/introduction.md
             - '2. 解释附加包': translations/bedrock-wiki/wiki-bedrock-dev/guide/addons.md
+            - '3. 软件与准备': translations/bedrock-wiki/wiki-bedrock-dev/guide/software-preparation.md
     - bridge.:
       - translations/bridge/index.md
       - <samp>bridge-core.github.io</samp>:

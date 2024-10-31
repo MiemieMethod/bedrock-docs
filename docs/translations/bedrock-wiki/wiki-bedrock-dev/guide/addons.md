@@ -4,6 +4,8 @@ category: 指南
 description: 附加包的基础知识
 ---
 
+# 解释附加包
+
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/addons.html](https://wiki.bedrock.dev/guide/addons.html)
 - 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/addons.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/addons.md)
