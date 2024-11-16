@@ -8,7 +8,7 @@ description: 自动生成的原版物品组件列表。
 
 此页面由[Wiki内容生成器](https://github.com/Bedrock-OSS/bedrock-wiki-content-generator)创建。如有问题，请在[Bedrock OSS](https://discord.gg/XjV87YN) Discord服务器上联系我们。
 请注意，每个组件最多显示8个示例，以保持页面加载速度。命名空间`minecraft`也已移除。
-如果您想查看完整页面，可以[点击这里](/items/vui-full)。_最后更新于1.21.0_
+如果你想查看完整页面，可以[点击这里](/items/vui-full)。_最后更新于1.21.0_
 
 ## block
 

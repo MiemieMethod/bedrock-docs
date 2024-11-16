@@ -17,7 +17,7 @@ description: 实体碰撞是玩家可以与之碰撞、踩踏或以其他方式�
 
 本页将讨论一些创建实体碰撞的方法。
 
-并非所有技术都适用于所有场景。请进行实验，找出最适合您的方法。
+并非所有技术都适用于所有场景。请进行实验，找出最适合你的方法。
 
 ## 运行时标识符
 
@@ -66,12 +66,12 @@ description: 实体碰撞是玩家可以与之碰撞、踩踏或以其他方式�
 
 ## minecraft:is_stackable
 
-将 `minecraft:is_stackable` 添加到您希望被视为实体碰撞的实体中。
+将 `minecraft:is_stackable` 添加到你希望被视为实体碰撞的实体中。
 **注意：** 如果希望该实体对玩家是实体碰撞，则需要编辑 `player.json`。
 
 `"minecraft:is_stackable": {}`
 
-您还需要添加 `minecraft:push_through` 并将其 `value` 参数设置为 1。
+你还需要添加 `minecraft:push_through` 并将其 `value` 参数设置为 1。
 
 `"minecraft:push_through": 1`
 
@@ -91,6 +91,6 @@ description: 实体碰撞是玩家可以与之碰撞、踩踏或以其他方式�
 
 ## 命令方法
 
-此方法由 Reddit 用户 [u/Maxed_Out10](https://www.reddit.com/user/Maxed_Out10/) 开发，允许您使用盔甲架和一些顺序的 `/playanimation` 命令创建几乎完美的 Minecraft 方块实体复制。
+此方法由 Reddit 用户 [u/Maxed_Out10](https://www.reddit.com/user/Maxed_Out10/) 开发，允许你使用盔甲架和一些顺序的 `/playanimation` 命令创建几乎完美的 Minecraft 方块实体复制。
 
 <Button link="../commands/block-entities.md">方块实体</Button>

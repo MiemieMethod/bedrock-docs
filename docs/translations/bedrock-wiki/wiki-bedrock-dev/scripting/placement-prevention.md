@@ -6,13 +6,13 @@ category: 教程
 description: 通过脚本阻止方块放置。
 ---
 
-本教程分为两个部分：一个是稳定方法，一个是测试版方法。您可以根据使用的脚本 API 版本独立使用这两个部分。
+本教程分为两个部分：一个是稳定方法，一个是测试版方法。你可以根据使用的脚本 API 版本独立使用这两个部分。
 
 ::: warning
 脚本 API 当前正在积极开发中，可能会频繁发生重大更改。本页面假设使用的是 Minecraft 1.21.20 的格式。
 :::
 
-是否曾经需要阻止特定方块的放置？在 1.20.10 中，一些危险的不可获取方块可以被获取，因此您可以使用此脚本来保护您的世界或服务器！
+是否曾经需要阻止特定方块的放置？在 1.20.10 中，一些危险的不可获取方块可以被获取，因此你可以使用此脚本来保护你的世界或服务器！
 
 ## 设置
 
@@ -20,7 +20,7 @@ description: 通过脚本阻止方块放置。
 在创建脚本之前，建议先学习 JavaScript、附加包和脚本 API 的基础知识。要了解脚本 API 的功能，请参见 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/)。
 :::
 
-与其他脚本一样，您需要在 `manifest.json` 中添加依赖项。我们使用的是 `@minecraft/server` 模块，具体版本为 `1.14.0-beta`。
+与其他脚本一样，你需要在 `manifest.json` 中添加依赖项。我们使用的是 `@minecraft/server` 模块，具体版本为 `1.14.0-beta`。
 
 <CodeHeader>manifest.json</CodeHeader>
 
@@ -72,9 +72,9 @@ description: 通过脚本阻止方块放置。
 
 ## 第一个预防措施（稳定版）
 
-即使您打算使用其他方块，如果这是您第一次创建此脚本，请严格按照教程进行。在确认脚本正确后，您可以更改方块。
+即使你打算使用其他方块，如果这是你第一次创建此脚本，请严格按照教程进行。在确认脚本正确后，你可以更改方块。
 
-这是因为方块的标识符通常与您想象的不同。例如，发光物品框在内部被称为 `minecraft:glow_frame`。
+这是因为方块的标识符通常与你想象的不同。例如，发光物品框在内部被称为 `minecraft:glow_frame`。
 
 我们将首先添加将在代码中使用的模块导入。
 
@@ -98,7 +98,7 @@ world.beforeEvents.playerPlaceBlock.subscribe((event) => {
     if (event.permutationBeingPlaced.type.id === "minecraft:bedrock") {
         event.cancel = true;
         system.run(() => {
-            player.sendMessage("您无法放置基岩");
+            player.sendMessage("你无法放置基岩");
         });
     }
 });
@@ -116,8 +116,8 @@ world.beforeEvents.playerPlaceBlock.subscribe((event) => {
 
 ## 结论（稳定版）
 
-消息 `您无法放置基岩` 可以根据需要修改或替换为您自己的逻辑。
+消息 `你无法放置基岩` 可以根据需要修改或替换为你自己的逻辑。
 
-您还可以更改在 `event.permutationBeingPlaced.type.id === 'minecraft:bedrock'` 中检查的方块的 typeId。将命名空间和标识符替换为 `minecraft:bedrock`。
+你还可以更改在 `event.permutationBeingPlaced.type.id === 'minecraft:bedrock'` 中检查的方块的 typeId。将命名空间和标识符替换为 `minecraft:bedrock`。
 
-要了解更多关于脚本 API 的信息，您可以查看 [维基](../scripting/starting-scripts.md) 或 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptdevelopertools)。
+要了解更多关于脚本 API 的信息，你可以查看 [维基](../scripting/starting-scripts.md) 或 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptdevelopertools)。

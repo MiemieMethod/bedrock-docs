@@ -15,9 +15,9 @@ Minecraft：基岩版使用其自有版本的JavaScript，该版本基于QuickJS
 
 -   **SetTimeout支持**
 
-在开始使用Minecraft脚本时，人们常常会遇到与时间相关的问题。您可能知道，时间代码的标准是`setTimeout`和`setInterval`函数及其取消函数。
+在开始使用Minecraft脚本时，人们常常会遇到与时间相关的问题。你可能知道，时间代码的标准是`setTimeout`和`setInterval`函数及其取消函数。
 
-这些标准化的方法被帧系统使用，您可以将延迟设置为毫秒精度，但Minecraft使用tick来处理世界中的变化。这就是为什么这些方法不可用且将不会可用的原因。Minecraft则使用[`system.runTimeout`](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/system#runtimeout)和[`system.runInterval`](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/system#runinterval)系统方法，这些方法在1.19.70版本中首次添加，延迟精度为一个tick。您可以在[Microsoft Docs](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/system)或[Wiki教程](../scripting/script-server.md#scheduling)中了解更多信息。
+这些标准化的方法被帧系统使用，你可以将延迟设置为毫秒精度，但Minecraft使用tick来处理世界中的变化。这就是为什么这些方法不可用且将不会可用的原因。Minecraft则使用[`system.runTimeout`](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/system#runtimeout)和[`system.runInterval`](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/system#runinterval)系统方法，这些方法在1.19.70版本中首次添加，延迟精度为一个tick。你可以在[Microsoft Docs](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/system)或[Wiki教程](../scripting/script-server.md#scheduling)中了解更多信息。
 
 -   **Eval权限**
 
@@ -25,7 +25,7 @@ Minecraft：基岩版使用其自有版本的JavaScript，该版本基于QuickJS
 
 一些浏览器也禁止使用这些方法，主要是eval方法，因为使用eval存在恶意代码的风险，因此默认情况下被禁用。
 
-要启用这些评估代码的方法，您必须在清单中添加它。这项功能还增加了`Function()`构造函数的使用。
+要启用这些评估代码的方法，你必须在清单中添加它。这项功能还增加了`Function()`构造函数的使用。
 
 <CodeHeader>BP/manifest.json</CodeHeader>
 

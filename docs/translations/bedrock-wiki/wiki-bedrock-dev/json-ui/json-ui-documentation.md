@@ -71,7 +71,7 @@ description: JSON UI 的文档。
 | visible | boolean | `true` | UI 元素是否可见 |
 | enabled | boolean | `true` | 如果为 true，并且 UI 元素或其任何子元素处于锁定状态，则它们将处于锁定状态 |
 | layer | int | `0` | 相对于父元素的 Z-索引/层级（类似于 CSS 中的 zindex）。较高的层级将渲染在上方 |
-| alpha | float | `1.0` | 元素的 Alpha/透明度。它只会影响 UI 元素，其子元素不受影响。如果您希望 Alpha 同时应用于父元素和子元素，请使用 `propagate_alpha` |
+| alpha | float | `1.0` | 元素的 Alpha/透明度。它只会影响 UI 元素，其子元素不受影响。如果你希望 Alpha 同时应用于父元素和子元素，请使用 `propagate_alpha` |
 | propagate_alpha | boolean | `false` | 如果 `alpha` 不仅应用于父元素（如果可能），还应用于其所有子元素 |
 | clips_children | boolean | `false` | 在视觉上和交互上剪切 UI 元素边界之外的所有内容 |
 | allow_clipping | boolean | `true` | 是否允许 UI 元素的 `clips_children` 属性生效。否则，它不会有任何效果 |
@@ -103,7 +103,7 @@ description: JSON UI 的文档。
 
 | 属性名称 | 类型 | 默认值 | 描述 |
 | - | :-: | :-: | - |
-| size | Vector [width, height] | `["default", "default"]` | UI 元素的大小。 <br> 可能的值： <br> `"default"`（默认值为 `"100%"`） <br> `0`（像素数值） <br> `"0px"`（像素数值。与 0 相同，但以字符串形式表示，并在末尾添加 px。当您想要将基于百分比的值与特定像素数相加或相减时使用。例如 `"75% + 12px"`） <br> `"0%"`（相对于父元素的百分比） <br> `"0%c"`（相对于元素子元素总宽度/高度的百分比） <br> `"0%cm"`（相对于该元素最大可见子元素的宽度/高度的百分比） <br> `"0%sm"`（相对于兄弟元素的宽度/高度的百分比） <br> `"0%y"`（元素的高度百分比） <br> `"0%x"`（元素的宽度百分比） <br> `"fill"`（扩展到父元素剩余的宽度/高度） |
+| size | Vector [width, height] | `["default", "default"]` | UI 元素的大小。 <br> 可能的值： <br> `"default"`（默认值为 `"100%"`） <br> `0`（像素数值） <br> `"0px"`（像素数值。与 0 相同，但以字符串形式表示，并在末尾添加 px。当你想要将基于百分比的值与特定像素数相加或相减时使用。例如 `"75% + 12px"`） <br> `"0%"`（相对于父元素的百分比） <br> `"0%c"`（相对于元素子元素总宽度/高度的百分比） <br> `"0%cm"`（相对于该元素最大可见子元素的宽度/高度的百分比） <br> `"0%sm"`（相对于兄弟元素的宽度/高度的百分比） <br> `"0%y"`（元素的高度百分比） <br> `"0%x"`（元素的宽度百分比） <br> `"fill"`（扩展到父元素剩余的宽度/高度） |
 | max_size | Vector [width, height] | `["default", "default"]` | UI 元素可拥有的最大大小 |
 | min_size | Vector [width, height] | `["default", "default"]` | UI 元素可拥有的最小大小 |
 | offset | Vector [x, y] | `[0, 0]` | UI 元素相对于父 UI 元素的位置。基于左上角，坐标 [0, 0] 从屏幕左上角开始。 <br> `10` - 像素 <br> `"10px"` - 像素 <br> `"50%"` - 父元素的宽度/高度 <br> `"50%x"` - 元素的宽度 <br> `"50%y"` - 元素的高度 |

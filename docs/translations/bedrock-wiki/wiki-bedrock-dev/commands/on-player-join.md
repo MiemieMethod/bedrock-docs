@@ -5,14 +5,14 @@ mentions:
     - BedrockCommands
     - zheaEvyline
 nav_order: 2
-description: 此系统将在玩家加入世界时运行您所需的命令。
+description: 此系统将在玩家加入世界时运行你所需的命令。
 ---
 
 ## 介绍
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-此系统将在玩家加入世界时运行您所需的命令。
+此系统将在玩家加入世界时运行你所需的命令。
 
 ## 设置
 
@@ -20,7 +20,7 @@ _在聊天中输入：_
 
 `/scoreboard objectives add joined dummy`
 
-如果您正在使用函数，并希望在世界初始化时自动添加目标，请按照 [首次加载世界](../commands/on-first-world-load.md) 中的流程进行操作。
+如果你正在使用函数，并希望在世界初始化时自动添加目标，请按照 [首次加载世界](../commands/on-first-world-load.md) 中的流程进行操作。
 
 ## 系统
 
@@ -30,7 +30,7 @@ _在聊天中输入：_
 ## 注册首次加入或之前被清除的玩家到 'joined' 目标
 scoreboard players add @a joined 0
 
-## 在此处输入您的命令（示例）
+## 在此处输入你的命令（示例）
 tp @a [scores={joined=0}] 0 65 0
 
 ### 标记玩家为已加入
@@ -42,7 +42,7 @@ scoreboard players set @a joined 1
 
 ![四个命令方块的链](../assets/images/commands/commandBlockChain/4.png)
 
-在这里，我们使用了 `/tp` 命令作为示例，但您可以使用任何您喜欢的命令，并根据需要使用多个命令。
+在这里，我们使用了 `/tp` 命令作为示例，但你可以使用任何你喜欢的命令，并根据需要使用多个命令。
 
 只需确保遵循给定的顺序，并正确应用 `scores={joined=0}` 选择器参数，如示例所示。
 
@@ -60,7 +60,7 @@ scoreboard players set @a joined 1
 
 ## Tick JSON
 
-如果您使用函数而不是命令方块，则必须将 `on_join` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参阅 [函数](../commands/mcfunctions.md#tick-json) 文档。
+如果你使用函数而不是命令方块，则必须将 `on_join` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参阅 [函数](../commands/mcfunctions.md#tick-json) 文档。
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 ```json
@@ -71,7 +71,7 @@ scoreboard players set @a joined 1
 }
 ```
 
-如果使用函数，则您的包文件夹结构将如下所示：
+如果使用函数，则你的包文件夹结构将如下所示：
 
 <FolderView
 	:paths="[

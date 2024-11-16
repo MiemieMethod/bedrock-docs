@@ -12,14 +12,14 @@ mentions:
 ---
 
 ::: tip 格式 & 最低引擎版本 `1.21.40`
-本教程假设您对区块和脚本有高级理解。在开始之前，请先查看 [区块](../blocks/blocks-intro.md) 和 [脚本](../scripting/starting-scripts.md) 指南。
+本教程假设你对区块和脚本有高级理解。在开始之前，请先查看 [区块](../blocks/blocks-intro.md) 和 [脚本](../scripting/starting-scripts.md) 指南。
 :::
 
 创建玩家可以互动的自定义区块的能力从实现上可能非常基础，但仍然允许复杂的功能。然而，有时基于简单右键点击或轻敲区块而没有位置特定条件的默认交互模式不足以实现所需的功能。
 
-例如，如果您想创建一个在一侧有多个按钮的区块，每个按钮触发不同的动作，该怎么办？或者一个分段显示器，其中多个单独点亮的灯可以包含在一个区块内。
+例如，如果你想创建一个在一侧有多个按钮的区块，每个按钮触发不同的动作，该怎么办？或者一个分段显示器，其中多个单独点亮的灯可以包含在一个区块内。
 
-这就是精确交互发挥作用的地方！以下的精确交互方法允许您在一个区块中定义多个可以单独交互的区域，并为每个区域分配不同的功能。在本教程中，我们将向您展示如何使用脚本为您的区块添加精确交互，并提供每种方法的示例。
+这就是精确交互发挥作用的地方！以下的精确交互方法允许你在一个区块中定义多个可以单独交互的区域，并为每个区域分配不同的功能。在本教程中，我们将向你展示如何使用脚本为你的区块添加精确交互，并提供每种方法的示例。
 
 **注意：** 精确交互并不能使区块拥有多个/自定义形状的 [`minecraft:selection_box`](../blocks/block-components.md#selection-box) 组件。选择框必须位于所有定义的区域内，以确保精确交互正常工作。
 
@@ -35,7 +35,7 @@ mentions:
 
 ## FaceSelectionPlains 类
 
-此类允许您在区块的表面定义二维区域并获取被选择的平面。
+此类允许你在区块的表面定义二维区域并获取被选择的平面。
 
 要使用此方法进行精确交互，请创建文件 `BP/scripts/utilities/face_selection_plains.js` 并将以下代码粘贴到其中。
 
@@ -50,7 +50,7 @@ const isInRange = (value, min, max) => value >= min && value <= max;
 
 export default class FaceSelectionPlains {
     /**
-     * 允许您在区块的表面定义二维区域并获取被选择的平面。
+     * 允许你在区块的表面定义二维区域并获取被选择的平面。
      *
      * @param {Object[]} plains 定义区块表面上可能被选择的二维区域的数组。
      * @param {[number, number]} plains[].origin [U, V] 数组定义平面相对于区块表面左上角的偏移量（像素）。
@@ -234,12 +234,12 @@ const QuadrantInteractionBlockComponent = {
 ## SelectionBoxes 类
 
 ::: warning
-与 `minecraft:selection_box` 和 `minecraft:collision_box` 组件一样，在设置您的选择框时，请勿使用 Blockbench 显示的位置值，因为它们是从西北方向测量的，而不是东北方向。请改用导出 `.geo.json` 文件中的 origin 值。
+与 `minecraft:selection_box` 和 `minecraft:collision_box` 组件一样，在设置你的选择框时，请勿使用 Blockbench 显示的位置值，因为它们是从西北方向测量的，而不是东北方向。请改用导出 `.geo.json` 文件中的 origin 值。
 
-如果您希望使用 Blockbench 的值，应该在 [`getSelected`](#getselected-1) 中将 `invertX` 选项设置为 true。
+如果你希望使用 Blockbench 的值，应该在 [`getSelected`](#getselected-1) 中将 `invertX` 选项设置为 true。
 :::
 
-此类允许您在区块中定义三维区域，并获取面选择所在的盒子。
+此类允许你在区块中定义三维区域，并获取面选择所在的盒子。
 
 要使用此方法进行精确交互，请创建文件 `BP/scripts/utilities/selection_boxes.js` 并将以下代码粘贴到其中。
 
@@ -253,7 +253,7 @@ const isInRange = (value, min, max) => value >= min && value <= max;
 
 export default class SelectionBoxes {
     /**
-     * 允许您在区块中定义三维区域，并获取面选择所在的盒子。
+     * 允许你在区块中定义三维区域，并获取面选择所在的盒子。
      *
      * @param {Object[]} boxes 定义区块内可能被选择的三维区域的数组。
      * @param {[number, number, number]} boxes[].origin [X, Y, Z] 数组定义盒子相对于区块水平中线和垂直底部的偏移量（像素），从东北方向延伸。
@@ -626,7 +626,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 使用我们的 [SelectionBoxes](#selectionboxes-类) 类，玩家可以分别与每个花盆进行交互。以下文件是实现新的双花盆区块的基础，其他资源（纹理等）包含在 [示例附加包](#下载示例附加包) 中。
 
-**注意**：此示例中的花盆仅支持种植蒲公英和仙人掌，简单起见——您可以自行进一步扩展。
+**注意**：此示例中的花盆仅支持种植蒲公英和仙人掌，简单起见——你可以自行进一步扩展。
 
 ![双花盆展示](../assets/images/blocks/precise-interaction/double_flower_pot.png)
 
@@ -839,7 +839,7 @@ world.afterEvents.blockExplode.subscribe((e) => {
 
 ## 导入脚本
 
-别忘了将您的脚本导入到附加包的入口文件中！
+别忘了将你的脚本导入到附加包的入口文件中！
 
 <pre><code>BP/manifest.json</code></pre>
 
@@ -849,7 +849,7 @@ world.afterEvents.blockExplode.subscribe((e) => {
         {
             "type": "script",
             "language": "javascript",
-            "entry": "index.js", // 您定义的入口文件
+            "entry": "index.js", // 你定义的入口文件
             "uuid": "...",
             "version": "1.0.0"
         }
@@ -866,7 +866,7 @@ world.afterEvents.blockExplode.subscribe((e) => {
 <pre><code>BP/scripts/index.js</code></pre>
 
 ```js
-// 在此处导入您的精确交互脚本...
+// 在此处导入你的精确交互脚本...
 import "./blocks/pigeonholes";
 import "./blocks/double_flower_pot";
 ```
@@ -879,4 +879,4 @@ import "./blocks/double_flower_pot";
     下载 MCADDON
 </Button>
 
-如果您在精确交互方面需要额外的帮助，欢迎在 [Bedrock Add-Ons Discord](/discord) 中提问！记得在提问时包含此页面的链接，因为此处提供的类并未内置到 Minecraft 中。
+如果你在精确交互方面需要额外的帮助，欢迎在 [Bedrock Add-Ons Discord](/discord) 中提问！记得在提问时包含此页面的链接，因为此处提供的类并未内置到 Minecraft 中。

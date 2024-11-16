@@ -47,7 +47,7 @@ description: 学习如何在命令中使用方块状态。
 - 字符串用引号 ` " " ` 括起来，例如 `"birch"`、`"spruce"` 等。
 - 整数值 `0, 1, 2..` 和布尔值 `true/false` 不应使用引号。
 - 留空方括号将默认为 0。
-    - 示例：`wool 0` 是白色羊毛。因此，您可以简单地写为 `wool []` 或 `wool`，而不是 `wool ["color"="white"]`。
+    - 示例：`wool 0` 是白色羊毛。因此，你可以简单地写为 `wool []` 或 `wool`，而不是 `wool ["color"="white"]`。
 
 ### 初学者注意事项
 
@@ -55,13 +55,13 @@ description: 学习如何在命令中使用方块状态。
     - 示例：红石电力 1 到 15
     - `["redstone_power"=10]`
 
-- **布尔值** 是一个编程术语，指的是 `true/false` 值。您可以将其理解为是非问题。
+- **布尔值** 是一个编程术语，指的是 `true/false` 值。你可以将其理解为是非问题。
     - 这个活塞是否通电？ `是/否`
     - 这个按钮是否被按下？ `是/否`
     - 这个原木是否被剥离？ `是/否`
     - 示例：`["stripped_bit"=true]`
 
-- **字符串** 是独特的“文本”输入。您可以将其理解为多项选择问题。
+- **字符串** 是独特的“文本”输入。你可以将其理解为多项选择问题。
     - 这个羊毛是什么颜色？ `"white"`、`"orange"`、`"brown"` 等。
     - 这个原木是什么木材类型？ `"spruce"`、`"birch"`、`"acacia"` 等。
     - 示例：`["wood_type"="spruce"]`。
@@ -76,7 +76,7 @@ https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockrefer
 
 ## 将辅助值转换为方块状态
 
-为了方便您使用，您可以通过 *@SmokeyStack* 提供的 [查找表](https://auxval-to-blockstates.netlify.app/) 获取所有方块 ID、其辅助值和方块状态等效的最新列表。
+为了方便你使用，你可以通过 *@SmokeyStack* 提供的 [查找表](https://auxval-to-blockstates.netlify.app/) 获取所有方块 ID、其辅助值和方块状态等效的最新列表。
 
 ## 已知问题
 

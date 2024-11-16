@@ -129,7 +129,7 @@ Minecraft基岩版允许我们向世界中添加具有各种类似原版属性�
 
 ## 定义名称
 
-最后，我们将为物品命名。此外，您可以使用[显示名称](/items/item-components#display-name)组件。
+最后，我们将为物品命名。此外，你可以使用[显示名称](/items/item-components#display-name)组件。
 
 <CodeHeader>RP/texts/en_US.lang</CodeHeader>
 
@@ -139,7 +139,7 @@ tile.wiki:custom_item.name=自定义物品
 
 ## 结果
 
-在本页中，您已了解以下内容：
+在本页中，你已了解以下内容：
 
 -   [x] 物品的基本特性
 -   [x] 如何应用纹理

@@ -67,13 +67,19 @@ description: 关于 .mcstructure 格式。
 > > > > >
 > > > > > > ![字符串][string] `name`：方块的标识符，例如 `minecraft:planks`。
 > > > > > > ![复合][compound] `states`：方块的状态作为键值对。示例：`wood_type:"acacia"`、`bite_counter:3`、`open_bit:1b`。值为状态的适当 NBT 类型：字符串用于枚举值，整数用于标量数字，字节用于布尔值。
-> > > > > > ![整数][int] `version`：此方块的兼容性版本号（截至撰写时为 `17959425`，在 1.19 中）。
+> > > > > > ![整数][int] `version`：此方块的兼容性版本号（截至撰写时为 `17959425`，在 1.19 中）。例如，`17879555`是十六进制`01 10 D2 03`，表示 1.16.210.03。
 > > > >
 > > > > ![复合][compound] `block_position_data`：包含结构中单个方块的附加数据。每个键是 `block_indices` 中扁平化方块列表的整数索引。层是未指定的，因为它无关紧要。
 > > > >
 > > > > > ![复合][compound] `<index>`：应用于其索引位置的单个附加方块数据。
 > > > > >
-> > > > > > ![复合][compound] `block_entity_data`：作为 NBT 存储的方块实体数据，存储方式与世界文件中的方块实体相同。位置标签被保存，但在加载时会被替换。目前似乎没有其他对象与此对象相邻。
+> > > > > > ![复合][compound] `block_entity_data`：作为 NBT 存储的方块实体数据，存储方式与世界文件中的方块实体完全相同。位置标签被保存，但在加载时会被替换。层是未指定的，因为多个方块实体不能共存于同一个方块空间中。
+> > > > > >
+> > > > > > ![列表][list] `tick_queue_data`: Contains one more compounds of scheduled tick information. This is used for blocks like coral to make it die, water to make it flow, and other various scheduled updates.
+> > > > > > 
+> > > > > > > ![复合][compound] A single pending tick.
+> > > > > > > 
+> > > > > > > > ![整数][int] `tick_delay`: The amount of ticks remaining until this block should be updated. No other values seem to exist adjacent to this one at this time.
 >
 > ![列表][list] `structure_world_origin`：包含三个整数的列表，描述结构最初保存时在世界中的位置。等于保存结构方块的位置，加上其偏移设置。这用于确定加载时实体应放置的位置。实体的新绝对位置等于其旧位置减去这些值，加上结构加载位置的原点。
 >
@@ -121,7 +127,7 @@ description: 关于 .mcstructure 格式。
 
 ## NBT 编辑器
 
-您可以在 [这里](../meta/useful-links.md#software-installed) 找到一些 NBT 编辑器的下载链接。
+你可以在 [这里](../meta/useful-links.md#software-installed) 找到一些 NBT 编辑器的下载链接。
 
 ---
 

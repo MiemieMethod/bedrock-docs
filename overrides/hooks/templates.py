@@ -24,6 +24,7 @@ def on_page_markdown(
         args = args.strip('|')
         if type == "nbt":        return nbt(args, page, files)
         elif type == "json":     return json(args, page, files)
+        elif type == "file":     return file(args, page, files)
         elif type == "samp":     return samp(args)
 
         # Otherwise, raise an error
@@ -72,9 +73,9 @@ def parse_arg(arg: str, key: str):
 def nbt(args: str, page: Page, files: Files):
     splitted = args.split("|")
     if len(splitted) == 1:
-        return build_nbt_key(args, "", page, files)
+        return build_nbt_key(args, "", False, False, page, files)
     type, *nextArgs = splitted
-    key = nextArgs[0] if nextArgs else ""
+    key = nextArgs[0]
     required = False
     existonsave = False
     if len(nextArgs) > 1:
@@ -110,11 +111,11 @@ def build_nbt_key(icon: str, key: str, required: bool, existonsave: bool, page: 
     indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     if required or existonsave:
         if required:
-            indicator += "<span class=\"nbt-required minetip\" title=\"此项为必选项\">&#42</span>"
+            indicator += "<span class=\"nbt-required\" title=\"此项为必选项\">&#42</span>"
             if existonsave:
                 indicator += "<br>"
         if existonsave:
-            indicator += "<span class=\"nbt-existed minetip\" title=\"存储时必存在\">&#42</span>"
+            indicator += "<span class=\"nbt-existed\" title=\"存储时必存在\">&#42</span>"
     indicator += "</span>"
 
     return f"[:nbt-tag-{icon}:]({href} '{tagNames.get(icon, "")}标签'){indicator}**{text}**"
@@ -122,9 +123,9 @@ def build_nbt_key(icon: str, key: str, required: bool, existonsave: bool, page: 
 def json(args: str, page: Page, files: Files):
     splitted = args.split("|")
     if len(splitted) == 1:
-        return build_json_key(args, "", page, files)
+        return build_json_key(args, "", False, page, files)
     type, *nextArgs = splitted
-    key = nextArgs[0] if nextArgs else ""
+    key = nextArgs[0]
     required = False
     if len(nextArgs) > 1:
         for arg in nextArgs[1:]:
@@ -149,7 +150,138 @@ def build_json_key(icon: str, key: str, required: bool, page: Page, files: Files
 
     indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     if required:
-        indicator += "<span class=\"nbt-required minetip\" title=\"此项为必选项\">&#42</span>"
+        indicator += "<span class=\"nbt-required\" title=\"此项为必选项\">&#42</span>"
     indicator += "</span>"
 
     return f"[:json-field-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}**{text}**"
+
+def file(args: str, page: Page, files: Files):
+    splitted = args.split("|")
+    if len(splitted) == 1:
+        splitted = args.split(".")
+        if len(splitted) == 1:
+            return build_file_key("file", args, False, page, files)
+        else:
+            if splitted[0] == "":
+                return build_file_key(args, splitted[-1], True, page, files)
+            else:
+                return build_file_key(args, splitted[-1], False, page, files)
+    key, *nextArgs = splitted
+    type = nextArgs[0]
+    hide = False
+    if key.split(".") == "":
+        hide = True
+    if len(nextArgs) > 1:
+        for arg in nextArgs[1:]:
+            if parse_arg(arg, "hide") and parse_arg(arg, "hide") != "0":
+                hide = True
+            else:
+                hide = False
+    return build_json_key(type, key, hide, page, files)
+
+def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
+    href = _resolve_path(f"help/docs/contributing.md#{icon}", page, files)
+
+    tagNames = {
+        "file": "文件",
+        "text": "文本",
+        "txt": "纯文本",
+        "doc": "DOC文档",
+        "docx": "DOCX文档",
+        "wps": "WPS文档",
+        "image": "图片",
+        "png": "PNG图片",
+        "jpg": "JPG图片",
+        "tga": "TGA图片",
+        "gif": "GIF图片",
+        "script": "脚本",
+        "js": "JavaScript脚本",
+        "py": "Python脚本",
+        "lua": "Lua脚本",
+        "php": "PHP脚本",
+        "sh": "Shell脚本",
+        "compress": "压缩包",
+        "zip": "ZIP压缩包",
+        "rar": "RAR压缩包",
+        "gz": "GZ压缩包",
+        "video": "视频",
+        "mov": "MOV视频",
+        "flv": "FLV视频",
+        "avi": "AVI视频",
+        "wmv": "WMV视频",
+        "mp4": "MP4视频",
+        "dat": "DAT视频",
+        "audio": "音频",
+        "wav": "WAV音频",
+        "ogg": "OGG音频",
+        "fsb": "FSB音频",
+        "mp3": "MP3音频",
+        "log": "日志",
+        "db": "存档数据库",
+        "bin": "二进制编码文件",
+        "apk": "Android应用程序包",
+        "apks": "Android应用程序包",
+        "xapk": "Android应用程序包",
+        "ipa": "苹果系统应用程序包",
+        "json": "JSON数据文件",
+        "xml": "可扩展标记语言文件",
+        "html": "超文本标记语言文件",
+        "css": "层叠样式表文件",
+        "java": "Java源文件",
+        "cpp": "C++源文件",
+        "glsl": "OpenGL着色器文件",
+        "hlsl": "HLSL着色器文件",
+        "xls ": "XLS表格",
+        "xlsx": "XLSX表格",
+        "ppt": "PPT演示文稿",
+        "pptx": "PPTX演示文稿",
+        "pdf": "可携带文档格式文件",
+        "exe": "可执行程序",
+        "data": "数据",
+        "ttf": "字体",
+        "dex": "Dalvik可执行文件",
+        "arsc": "Android应用程序资源文件",
+        "mcpack": "Minecraft基岩版附加包",
+        "mcaddon": "Minecraft基岩版附加包集合",
+        "mcworld": "Minecraft基岩版世界存档",
+        "mctemplate": "Minecraft基岩版世界模板",
+        "mcstructure": "Minecraft基岩版结构文件",
+        "mcfunction": "Minecraft基岩版函数文件",
+        "lang": "Minecraft基岩版语言文件",
+        "material": "Minecraft基岩版材质文件",
+        "h": "C++头文件",
+        "c": "C源文件",
+        "wikitext": "WikiText",
+        "jar": "Java归档",
+        "smali": "Dalvik指令集",
+        "class": "Java字节码文件",
+        "lib": "静态链接库",
+        "folder": "文件夹",
+        "dll": "动态链接库",
+        "bak": "备份",
+        "kt": "Kotlin文件",
+        "cfg": "配置文件",
+        "nbt": "Minecraft二进制命名标签",
+        "mcdat": "Minecraft基岩版存档数据",
+        "mca": "Minecraft基岩版区域文件",
+        "mcr": "Minecraft基岩版世界片区文件",
+        "mcmeta": "Minecraft基岩版资源包配置文件",
+        "mcgame": "Minecraft基岩版游戏备份数据",
+        "mcproject": "Minecraft基岩版项目",
+        "tmp": "临时文件",
+        "bat": "Bat脚本",
+        "ts": "TypeScript脚本",
+        "svg": "SVG矢量图",
+        "md": "MarkDown文档",
+        "so": "Linux共享对象库文件",
+        "tgz": "TGZ压缩包",
+        "webm": "WEBM视频",
+    }
+
+    text = samp(key) if key else ""
+
+    indicator = ""
+    if hide:
+        indicator = '{: style="opacity:0.5;" }'
+
+    return f"[:file-type-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}**{text}**"

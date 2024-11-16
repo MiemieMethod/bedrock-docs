@@ -1,6 +1,6 @@
 ---
 title: 自定义玻璃
-description: 本页面将向您展示如何使用材质实例实现完整方块的纹理半透明效果。
+description: 本页面将向你展示如何使用材质实例实现完整方块的纹理半透明效果。
 category: 原版重现
 tags:
     - 初学者
@@ -16,9 +16,9 @@ mentions:
 在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
 :::
 
-制作玻璃方块看起来可能是个简单的任务，但当您第一次尝试时，您的方块可能会显得不透明。本页面将向您展示如何使用[材质实例](../blocks/block-components.md#material-instances)实现纹理的半透明效果。
+制作玻璃方块看起来可能是个简单的任务，但当你第一次尝试时，你的方块可能会显得不透明。本页面将向你展示如何使用[材质实例](../blocks/block-components.md#material-instances)实现纹理的半透明效果。
 
-到最后，您应该能够创建如下所示的效果！
+到最后，你应该能够创建如下所示的效果！
 
 ![一组自定义玻璃方块](../assets/images/blocks/custom-glass-blocks/showcase.png)
 
@@ -52,7 +52,7 @@ mentions:
 
 ## 应用纹理与声音
 
-为了使您的玻璃方块正确进行面剔除，纹理必须在 `RP/blocks.json` 中定义，而不是在材质实例和几何组件中定义。
+为了使你的玻璃方块正确进行面剔除，纹理必须在 `RP/blocks.json` 中定义，而不是在材质实例和几何组件中定义。
 
 <CodeHeader>RP/blocks.json</CodeHeader>
 

@@ -19,13 +19,13 @@ description: 基岩版专用服务器的脚本请求API。
 此模块仅可在基岩版专用服务器上使用。
 :::
 
-在脚本API中，您可以发送和接收基于HTTP的请求与互联网进行交互。有关更详细的信息，请访问[Microsoft文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server-net/minecraft-server-net)。
+在脚本API中，你可以发送和接收基于HTTP的请求与互联网进行交互。有关更详细的信息，请访问[Microsoft文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server-net/minecraft-server-net)。
 
 ## 设置
 
 **依赖项**
 
-与其他模块一样，您需要在`manifest.json`中添加依赖项。
+与其他模块一样，你需要在`manifest.json`中添加依赖项。
 
 ```json
 {
@@ -132,7 +132,7 @@ http.get('http://example.com/').then((response) => {
 ```js
 import { HttpRequest } from "@minecraft/server-net";
 
-const request = new HttpRequest("http://localhost:8000/"); // 您必须将URL作为参数传入
+const request = new HttpRequest("http://localhost:8000/"); // 你必须将URL作为参数传入
 ```
 
 **设置HTTP方法**

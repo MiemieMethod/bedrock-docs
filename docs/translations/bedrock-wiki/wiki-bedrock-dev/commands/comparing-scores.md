@@ -11,7 +11,7 @@ description: 学习如何测试匹配分数的目标/具有最高或最低分数
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-在本指南中，您将学习如何测试匹配分数的目标/具有最高或最低分数的目标。
+在本指南中，你将学习如何测试匹配分数的目标/具有最高或最低分数的目标。
 
 ## 获取最高分数 ( > )
 
@@ -23,7 +23,7 @@ description: 学习如何测试匹配分数的目标/具有最高或最低分数
 ## 获取最高分数
 scoreboard players operation Highest <objective> > * <objective>
 
-## 您的命令在这里（示例）
+## 你的命令在这里（示例）
 execute as <target> if score @s <objective> = Highest <objective> run <command>
 ```
 
@@ -45,9 +45,9 @@ _在比较玩家 2 之后，`Highest` 分数与玩家 1 的比较没有变化（
 
 :::
 
-**命令 2：** 此命令可以修改或扩展。如果 `<target>` 的分数等于 `Highest` 分数，则允许您运行所需的命令。
+**命令 2：** 此命令可以修改或扩展。如果 `<target>` 的分数等于 `Highest` 分数，则允许你运行所需的命令。
 
--   注意：如果您希望将选择限制为仅一个，请使用 `@p` 或 `@e [c=1]` 替代 `<target>`。
+-   注意：如果你希望将选择限制为仅一个，请使用 `@p` 或 `@e [c=1]` 替代 `<target>`。
 
 **示例：**
 
@@ -74,7 +74,7 @@ execute as @a if score @s kills = Highest kills run tag @s add topKills
 ## 获取最低分数
 scoreboard players operation Lowest <objective> < * <objective>
 
-## 您的命令在这里
+## 你的命令在这里
 execute as <target> if score @s <objective> = Lowest <objective> run <command>
 ```
 
@@ -96,9 +96,9 @@ _在比较玩家 3 之后，`Lowest` 分数与玩家 2 的比较没有变化（�
 
 :::
 
-**命令 2：** 此命令可以修改或扩展。如果 `<target>` 的分数等于 `Lowest` 分数，则允许您运行所需的命令。
+**命令 2：** 此命令可以修改或扩展。如果 `<target>` 的分数等于 `Lowest` 分数，则允许你运行所需的命令。
 
--   注意：如果您希望将选择限制为仅一个，请使用 `@p` 或 `@e [c=1]` 替代 `<target>`。
+-   注意：如果你希望将选择限制为仅一个，请使用 `@p` 或 `@e [c=1]` 替代 `<target>`。
 
 **示例：**
 

@@ -91,7 +91,7 @@ effect @a [tag=atSpawn] weakness 12 255 true
 effect @a [tag=inNether] fire_resistance 12 255 true
 ```
 
-- 函数中的命令不能以斜杠（`/`）开头。函数文件中的每一新行表示一个新命令（如果留空则被忽略）。您可以用井号（`#`）开头来添加注释——`#`后面的空格仅为格式偏好。有关函数的注释样式指南，请参见**[下文](#comments-style-guide)**部分。
+- 函数中的命令不能以斜杠（`/`）开头。函数文件中的每一新行表示一个新命令（如果留空则被忽略）。你可以用井号（`#`）开头来添加注释——`#`后面的空格仅为格式偏好。有关函数的注释样式指南，请参见**[下文](#comments-style-guide)**部分。
 
 - 函数中的所有命令在_同一刻_运行。因此，导致大变化的函数可能会导致突然的延迟峰值，如果可能，建议将某些命令分配到多个刻中。函数中的命令仍然按顺序运行。
 
@@ -104,11 +104,11 @@ effect @a [tag=inNether] fire_resistance 12 255 true
 ## 注释样式指南
 
 - 在处理包含许多命令的函数时，使用多个井号在注释中指示不同的标题级别有助于保持组织。
-- _可选地_，为了进一步区分这些级别，您可以应用不同的样式：
+- _可选地_，为了进一步区分这些级别，你可以应用不同的样式：
     - 级别1标题 - **# 大写**
     - 级别2标题 - **## 标题式**
     - 级别3标题 - **### 句子式**
-- 尽量避免使用超过三个标题级别或太多标题，因为这会使代码看起来杂乱。供您参考，以下是示例文件：
+- 尽量避免使用超过三个标题级别或太多标题，因为这会使代码看起来杂乱。供你参考，以下是示例文件：
 
 <Spoiler title="示例函数文件">
 
@@ -166,8 +166,8 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 {
     "format_version": 2,
     "header": {
-        "description": "在这里写下您的包描述",
-        "name": "在这里写下您的包名称",
+        "description": "在这里写下你的包描述",
+        "name": "在这里写下你的包名称",
         "uuid": "00000000-0000-0000-0000-000000000000",
         "version": [1, 0, 0],
         "min_engine_version": [1, 19, 73]
@@ -183,7 +183,7 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 }
 ```
 
-请注意，uuid字段需要替换为实际的uuid，并且两个生成的uuid必须不同。您可以在**[uuidgenerator.net](https://uuidgenerator.net/)**上生成uuid。
+请注意，uuid字段需要替换为实际的uuid，并且两个生成的uuid必须不同。你可以在**[uuidgenerator.net](https://uuidgenerator.net/)**上生成uuid。
 
 </Spoiler>
 <Spoiler title="示例 🖼 pack_icon.png">
@@ -241,9 +241,9 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 
 ## 故障排除函数
 
-当使用`/function`时，您的函数可能不会出现在命令建议中。这通常是由于函数中的一个或多个命令出现错误。
+当使用`/function`时，你的函数可能不会出现在命令建议中。这通常是由于函数中的一个或多个命令出现错误。
 
-在创建者设置中启用[内容日志](../guide/troubleshooting.md#content-log)可以让您查看函数包中是否有任何错误，错误出现在哪个函数中，在哪一行，以及该命令的确切语法错误是什么。
+在创建者设置中启用[内容日志](../guide/troubleshooting.md#content-log)可以让你查看函数包中是否有任何错误，错误出现在哪个函数中，在哪一行，以及该命令的确切语法错误是什么。
 
 每次加载世界或运行`/reload`以反映编辑文件后的更改时，错误列表将生成。该列表可以在屏幕上查看几秒钟，也可以在设置中的内容日志历史记录中查看。
 

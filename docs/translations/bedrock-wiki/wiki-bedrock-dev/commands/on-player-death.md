@@ -5,14 +5,14 @@ mentions:
     - BedrockCommands
     - zheaEvyline
 nav_order: 4
-description: 当玩家死亡时，此系统将执行您指定的命令。
+description: 当玩家死亡时，此系统将执行你指定的命令。
 ---
 
 ## 介绍
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-当玩家死亡时，此系统将执行您指定的命令。
+当玩家死亡时，此系统将执行你指定的命令。
 
 ## 设置
 
@@ -20,7 +20,7 @@ _在聊天中输入：_
 
 `/scoreboard objectives add is_alive dummy`
 
-如果您正在使用函数并希望在世界初始化时自动添加目标，请按照 [首次加载世界](../commands/on-first-world-load.md) 中的流程进行操作。
+如果你正在使用函数并希望在世界初始化时自动添加目标，请按照 [首次加载世界](../commands/on-first-world-load.md) 中的流程进行操作。
 
 ## 系统
 
@@ -33,7 +33,7 @@ scoreboard players set @a [scores={is_alive=!2}] is_alive 0
 ### 活跃
 scoreboard players set @e [type=player] is_alive 1
 
-## 在此处输入您的命令（示例）
+## 在此处输入你的命令（示例）
 execute as @a [scores={is_alive=0}] run say 我死了
 
 ## 标记已执行死者命令
@@ -42,9 +42,9 @@ scoreboard players set @a [scores={is_alive=0}] is_alive 2
 
 ![commandBlockChain4](../assets/images/commands/commandBlockChain/4.png)
 
-在这里，我们使用了 `/execute - say` 命令作为示例，但您可以使用任何您喜欢的命令，并根据需要添加多个命令。
+在这里，我们使用了 `/execute - say` 命令作为示例，但你可以使用任何你喜欢的命令，并根据需要添加多个命令。
 
-只需确保按照给定的顺序，并正确应用 `scores={alive=0}` 选择器参数，如所示，以便执行您想要的命令。
+只需确保按照给定的顺序，并正确应用 `scores={alive=0}` 选择器参数，如所示，以便执行你想要的命令。
 
 ## 解释
 
@@ -64,7 +64,7 @@ scoreboard players set @a [scores={is_alive=0}] is_alive 2
 
 ## Tick JSON
 
-如果您使用函数而不是命令方块，则必须将 `on_death` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参考 [函数](../commands/mcfunctions.md#tick-json) 文档。
+如果你使用函数而不是命令方块，则必须将 `on_death` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号将多个文件添加到 `tick.json` 中。有关更多信息，请参考 [函数](../commands/mcfunctions.md#tick-json) 文档。
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 ```json
@@ -75,7 +75,7 @@ scoreboard players set @a [scores={is_alive=0}] is_alive 2
 }
 ```
 
-如果使用函数，您的包文件夹结构将如下所示：
+如果使用函数，你的包文件夹结构将如下所示：
 
 <FolderView
 	:paths="[
@@ -119,7 +119,7 @@ scoreboard players set @e [type=player] is_dead 0
 ### 死亡
 execute as @a at @s unless entity @e [type=player, r=0.01] run scoreboard players add @s is_dead 1
 
-## 在此处输入您的命令（示例）
+## 在此处输入你的命令（示例）
 ### 在死亡位置召唤盔甲架
 execute as @a [scores={is_dead=1}] at @s run summon armor_stand "死去的玩家" ~~~
 ### 聊天中的死亡消息

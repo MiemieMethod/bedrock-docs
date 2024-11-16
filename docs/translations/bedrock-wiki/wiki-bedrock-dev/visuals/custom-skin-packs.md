@@ -6,13 +6,13 @@ mentions:
     - Joelant05
     - TheItsNameless
 category: 一般
-description: 创建您自己的皮肤包。
+description: 创建你自己的皮肤包。
 ---
 
 许多人错误地认为皮肤包只能由市场合作伙伴创建。其实不然！这是一个非常简单的过程，可以通过Python轻松实现完全自动化。但这还不是全部。让我们学习如何制作皮肤包吧！
 
 :::warning
-`development_skin_packs`似乎无法正常工作。您需要使用`skin_packs`文件夹，并在每次更改后重新加载Minecraft。
+`development_skin_packs`似乎无法正常工作。你需要使用`skin_packs`文件夹，并在每次更改后重新加载Minecraft。
 :::
 
 ## 需要什么
@@ -52,7 +52,7 @@ description: 创建您自己的皮肤包。
 
 -   `format_version`也可以是1，因为v2对皮肤包的影响不大。
 -   `name`是显而易见的。然而，它并不是特别重要。
--   `uuid`和`version`我们已经很熟悉。清单中的两个UUID必须不同。您可以通过链接在[有用链接](../meta/useful-links.md)中的生成器生成它们。提醒一下，您不能使用相同的UUID两次。
+-   `uuid`和`version`我们已经很熟悉。清单中的两个UUID必须不同。你可以通过链接在[有用链接](../meta/useful-links.md)中的生成器生成它们。提醒一下，你不能使用相同的UUID两次。
 -   `modules`中的`type`当然需要设置为`skin_pack`。
 
 ## skins.json
@@ -86,9 +86,9 @@ description: 创建您自己的皮肤包。
 -   `geometry`对象在每个对象中必须与示例代码相同。Mojang移除了通过皮肤包添加自定义几何体的能力，因为该功能被滥用。
 -   `serialize_name`用于市场。
 -   `localization_name`是包的标识符。**请勿在其他皮肤包中使用**，因为这会影响翻译。
--   `skins`数组，您在此定义每个皮肤。皮肤将在Minecraft中按此处定义的顺序显示。
+-   `skins`数组，你在此定义每个皮肤。皮肤将在Minecraft中按此处定义的顺序显示。
     > -   `localization_name`将在.lang文件中使用。可以将其视为皮肤的标识符。
-    > -   `geometry`您可以在这里使用`geometry.humanoid.custom`和`geometry.humanoid.customSlim`。
+    > -   `geometry`你可以在这里使用`geometry.humanoid.custom`和`geometry.humanoid.customSlim`。
     > -   `texture`是位于主皮肤包文件夹中的图像文件的名称。
     > -   `type`仅供市场合作伙伴使用，保持为`free`，否则将被锁定。
 
@@ -113,11 +113,11 @@ skin.tutorial.tutorial_skin_2=皮肤 2
 
 `skin.[包的localization_name].[皮肤的localization_name]=实际皮肤名称`
 
-完成了！现在，当您打开角色创建器时，您将看到可以选择的皮肤！
+完成了！现在，当你打开角色创建器时，你将看到可以选择的皮肤！
 
 ## 故障排除
 
-如果您在MC版本低于1.18.30的情况下游戏，您可能会遇到“装备”按钮未显示的错误。您需要下载一个特殊的纹理包。
+如果你在MC版本低于1.18.30的情况下游戏，你可能会遇到“装备”按钮未显示的错误。你需要下载一个特殊的纹理包。
 
 ![](../assets/images/visuals/skin-packs/troubleshooting-1.png)
 

@@ -53,7 +53,7 @@ description: 学习如何制作无敌实体。
 
 `minecraft:health` 组件中的 `min` 属性允许我们制作无法死亡的无敌实体。这包括使用 `/kill @e` 时。这并不是一个好的解决方案，因为这样的实体很难处理。
 
-如果选择使用此组件，请确保有其他方法可以消灭该实体。通过环境传感器、计时器或交互触发 `minecraft:instant_despawn` 是一个不错的解决方案。您也可以使用 `/event` 调用它。
+如果选择使用此组件，请确保有其他方法可以消灭该实体。通过环境传感器、计时器或交互触发 `minecraft:instant_despawn` 是一个不错的解决方案。你也可以使用 `/event` 调用它。
 
 <CodeHeader>BP/entities/entity.json#minecraft:entity/components</CodeHeader>
 

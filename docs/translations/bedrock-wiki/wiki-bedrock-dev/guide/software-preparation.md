@@ -27,9 +27,9 @@ description: 如何设置开发环境
     - <!-- md:samp ThomasOrs -->
 ///
 
-在开始创建附加包之前，您需要先安装所需的工具和应用程序。虽然在Windows 10上进行开发会更为方便，但我们也提供了适用于Android和iOS的移动替代方案（如适用）。
+在开始创建附加包之前，你需要先安装所需的工具和应用程序。虽然在Windows 10上进行开发会更为方便，但我们也提供了适用于Android和iOS的移动替代方案（如适用）。
 
-本页面将为您提供需要安装的软件列表以及设置的配置提示。
+本页面将为你提供需要安装的软件列表以及设置的配置提示。
 
 ## 下载Minecraft基岩版
 
@@ -42,11 +42,11 @@ description: 如何设置开发环境
 
 附加包可以使用任何文本编辑器创建，但在专用编辑器中工作会更加舒适。一个好的编辑器可以提供代码补全、错误检测和内置文档。
 
-关于初学者最佳编辑器的看法各不相同，但一般来说，选择VSCode或bridge都不会出错。如果您使用移动设备，则需要使用移动替代方案。
+关于初学者最佳编辑器的看法各不相同，但一般来说，选择VSCode或bridge都不会出错。如果你使用移动设备，则需要使用移动替代方案。
 
 ### VSCode
 
-VSCode是一个通用文本编辑器和集成开发环境（IDE）。使用VSCode，您可以以纯文本编辑附加包，并借助强大的扩展和附加包进行指导。VSCode是程序员和高级用户的绝佳选择。
+VSCode是一个通用文本编辑器和集成开发环境（IDE）。使用VSCode，你可以以纯文本编辑附加包，并借助强大的扩展和附加包进行指导。VSCode是程序员和高级用户的绝佳选择。
 
 [⚙️安装VSCode](https://code.visualstudio.com/)
 
@@ -67,7 +67,7 @@ VSCode是一个通用文本编辑器和集成开发环境（IDE）。使用VSCod
 
 ### bridge.
 
-[bridge.](https://bridge-core.app/)是一个轻量级的专用IDE，用于Minecraft附加包开发。它具有[创新功能](https://bridge-core.app/guide/features/)，如[实体和方块预览](https://bridge-core.app/guide/features/index.html#file-previews)、[丰富的自动补全和文件验证](https://bridge-core.app/guide/features/index.html#auto-completions-and-validation)以及[带预设的高级文件创建](https://bridge-core.app/guide/features/index.html#advanced-file-creation)。bridge.包括一个常规文本编辑器，适合经验丰富的附加包创作者，以及一个树状编辑器，方便初学者开始编辑JSON文件。
+[bridge.](https://bridge-core.app/)是一个轻量级的专用IDE，用于Minecraft附加包开发。它具有[创新性的功能](https://bridge-core.app/guide/features/)，如[实体和方块预览](https://bridge-core.app/guide/features/index.html#file-previews)、[丰富的自动补全和文件验证](https://bridge-core.app/guide/features/index.html#auto-completions-and-validation)以及[带预设的高级文件创建](https://bridge-core.app/guide/features/index.html#advanced-file-creation)。bridge.包括一个常规文本编辑器，适合经验丰富的附加包创作者，以及一个树状编辑器，方便初学者开始编辑JSON文件。
 
 /// details-info | 配置Bridge
 
@@ -95,15 +95,15 @@ VSCode是一个通用文本编辑器和集成开发环境（IDE）。使用VSCod
 
 ## 图像编辑器
 
-选择图像编辑器时，重要的是要记住传统的Minecraft风格由简单的16x16像素艺术组成。有许多强大且免费的艺术创作程序可供您使用。然而，许多这些程序的工具超出了您在Minecraft图形设计中所需的范围，并且这些工具需要时间去学习。
+选择图像编辑器时，重要的是要记住传统的Minecraft风格由简单的16x16像素艺术组成。有许多强大且免费的艺术创作程序可供你使用。然而，许多这些程序的工具超出了你在Minecraft图形设计中所需的范围，并且这些工具需要时间去学习。
 
 /// tip | 提示
-选择一个让您感到舒适且易于使用的程序。许多附加包创作者会为不同的任务使用不同的艺术创作程序。（例如：一个人可能会使用paint.net进行大部分艺术创作，而使用piskel进行Minecraft方块动画）。请选择最适合您的工具！
+选择一个让你感到舒适且易于使用的程序。许多附加包创作者会为不同的任务使用不同的艺术创作程序。（例如：一个人可能会使用paint.net进行大部分艺术创作，而使用piskel进行Minecraft方块动画）。请选择最适合你的工具！
 ///
 
 ### Krita
 
-Krita是一个强大的开源艺术程序，旨在为艺术家提供免费的强大数字艺术创作工具。Krita拥有足够的功能来满足您的Minecraft需求，并可在MAC或PC上运行。
+Krita是一个强大的开源艺术程序，旨在为艺术家提供免费的强大数字艺术创作工具。Krita拥有足够的功能来满足你的Minecraft需求，并可在MAC或PC上运行。
 
 - **+优点：**功能丰富，包括直观用户界面的像素画笔。
 - **-缺点：**需要一些时间来熟悉工具。
@@ -130,10 +130,10 @@ Paint.net是一个简单但功能强大的图像编辑和艺术创作软件。Pa
 
 ### Pixilart
 
-Pixilart是一个基于网页的像素艺术软件。由于专注于像素艺术，它非常简单易用。它还具有强大的调整大小选项，可以在不失去像素艺术细节的情况下调整您的艺术作品大小。
+Pixilart是一个基于网页的像素艺术软件。由于专注于像素艺术，它非常简单易用。它还具有强大的调整大小选项，可以在不失去像素艺术细节的情况下调整你的艺术作品大小。
 
 - **+优点：**易于使用和学习。专门为像素艺术设计。
-- **-缺点：**必须连接互联网。可能缺少您所需的工具。
+- **-缺点：**必须连接互联网。可能缺少你所需的工具。
 
 [使用Pixilart](https://www.pixilart.com/)
 
@@ -148,7 +148,7 @@ Piskel是一个基于网页的像素艺术软件，专注于制作像素化的�
 
 ### Libresprite
 
-LibreSprite是一个免费的开源程序，用于创建和动画化您的精灵图。基于最后一个GPLv2协议提交的aseprite程序所制作。
+LibreSprite是一个免费的开源程序，用于创建和动画化你的精灵图。基于最后一个GPLv2协议提交的aseprite程序所制作。
 
 - **+优点：**基本且易于使用，可定制，专为像素艺术家设计。
 - **-缺点：**可能无法在Mac上运行，仅由小型社区维护。
@@ -156,7 +156,7 @@ LibreSprite是一个免费的开源程序，用于创建和动画化您的精灵
 ## 附加材料
 
 /// tip | 提示
-本指南将引导您完成附加包开发的初始阶段，但并不全面！要了解更多关于附加包的信息，您需要使用和参考其他信息来源，我们将在此处提供链接。
+本指南将引导你完成附加包开发的初始阶段，但并不全面！要了解更多关于附加包的信息，你需要使用和参考其他信息来源，我们将在此处提供链接。
 ///
 
 ### 加入Discord
@@ -165,7 +165,7 @@ LibreSprite是一个免费的开源程序，用于创建和动画化您的精灵
 
 ### 原版包
 
-Minecraft的原版文件是很好的参考材料。您应下载这些包，并将其存储在计算机上您方便的位置。当您需要某个物品、实体或动画的示例时，可以参考这些文件以获取灵感。
+Minecraft的原版文件是很好的参考材料。你应下载这些包，并将其存储在计算机上你方便的位置。当你需要某个物品、实体或动画的示例时，可以参考这些文件以获取灵感。
 
 - [原版包](https://github.com/Mojang/bedrock-samples/releases)
 
@@ -179,9 +179,9 @@ Minecraft的原版文件是很好的参考材料。您应下载这些包，并�
 
 ### 故障排除与额外帮助
 
--   如果JSON格式对您来说非常棘手，可以考虑阅读[理解JSON指南](./understanding-json.md)。
--   如果您遇到奇怪的错误，可以考虑阅读[故障排除指南](./troubleshooting.md)。
--   您可以在[这里](../meta/useful-links.md)探索其他工具。
+-   如果JSON格式对你来说非常棘手，可以考虑阅读[理解JSON指南](./understanding-json.md)。
+-   如果你遇到奇怪的错误，可以考虑阅读[故障排除指南](./troubleshooting.md)。
+-   你可以在[这里](../meta/useful-links.md)探索其他工具。
 
 ## 下一步
 
@@ -189,8 +189,8 @@ Minecraft的原版文件是很好的参考材料。您应下载这些包，并�
 
 -   [x] 安装了必要的软件
 -   [x] 下载了原版示例文件
--   [ ] 找到您的`com.mojang`文件夹并创建附加包的工作区。
--   [ ] 为您的第一个附加包创建清单和包图标。
+-   [ ] 找到你的`com.mojang`文件夹并创建附加包的工作区。
+-   [ ] 为你的第一个附加包创建清单和包图标。
 
 ///
 

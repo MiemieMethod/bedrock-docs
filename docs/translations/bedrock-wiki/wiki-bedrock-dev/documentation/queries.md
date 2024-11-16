@@ -130,13 +130,13 @@ _注意：自 `1.16.100.51` 版本起，此查询会导致 Minecraft 崩溃。�
 
 格式如下：`query.get_equipped_item_name('main_hand') = 'item_name'`
 
-接受一个可选的手槽参数（0 或 `'main_hand'` 为主手，1 或 `'off_hand'` 为副手），以及第二个参数（0=默认）如果您希望获取已装备的物品或任何非零数以获取当前渲染的物品，并返回请求槽位中的物品名称（如果未提供参数，默认为主手），否则返回 ''。
+接受一个可选的手槽参数（0 或 `'main_hand'` 为主手，1 或 `'off_hand'` 为副手），以及第二个参数（0=默认）如果你希望获取已装备的物品或任何非零数以获取当前渲染的物品，并返回请求槽位中的物品名称（如果未提供参数，默认为主手），否则返回 ''。
 
-其中 `item_name` 是您要测试的物品名称。无需命名空间，请注意引号。
+其中 `item_name` 是你要测试的物品名称。无需命名空间，请注意引号。
 
 示例：`"query.get_equipped_item_name == 'diamond'"`
 
-**您可以测试库存中的物品吗？可以！使用新的查询 `query.is_item_name_any`。**
+**你可以测试库存中的物品吗？可以！使用新的查询 `query.is_item_name_any`。**
 
 ## query.get_name
 
@@ -258,7 +258,7 @@ _注意：自 `1.16.100.51` 版本起，此查询会导致 Minecraft 崩溃。�
 
 格式如下：`t.val = 0; t.i = 0; loop(27, {t.val = q.is_item_name_any('slot.inventory', t.i, 'namespace:item_name'); t.val ? {return t.val;}; t.i = t.i+1;});`
 
-将 `namespace:item_name` 替换为您想要检查的任何物品。这将简单地循环检查库存的所有27个槽位，如果找到任何具有指定物品的槽位，则返回 `1.0`。请注意，快捷栏与主库存槽位不同，因此需要单独检查。
+将 `namespace:item_name` 替换为你想要检查的任何物品。这将简单地循环检查库存的所有27个槽位，如果找到任何具有指定物品的槽位，则返回 `1.0`。请注意，快捷栏与主库存槽位不同，因此需要单独检查。
 
 ## query.is_enchanted
 
@@ -534,7 +534,7 @@ Credit: [Analysis of query.time_of_day](https://gist.github.com/DoubleF3lix/a03a
 
 **注意**：根据当前文档撰写时的情况，任何轴返回的值将根据实体的速度而变化（如果实体在地面上，值将小于实体在空中时的值，即使它们朝相同方向移动）。
 
-要获取实体移动的实际归一化速度向量，您需要对值进行归一化。以下是 Molang 设置：
+要获取实体移动的实际归一化速度向量，你需要对值进行归一化。以下是 Molang 设置：
 
 ```
 variable.mag = math.sqrt( math.pow( query.movement_direction(0), 2 ) + math.pow( query.movement_direction(1), 2) + math.pow( query.movement_direction(2), 2));
@@ -543,7 +543,7 @@ variable.yNorm = query.movement_direction(1) / variable.mag;
 variable.zNorm = query.movement_direction(2) / variable.mag;
 ```
 
-有关归一化向量的更多信息，您可以尝试使用这个 <a href=https://www.desmos.com/calculator/hhoamwgve2>Desmos 图表</a>
+有关归一化向量的更多信息，你可以尝试使用这个 <a href=https://www.desmos.com/calculator/hhoamwgve2>Desmos 图表</a>
 
 | 参数 | 轴 |
 | ---- | -- |

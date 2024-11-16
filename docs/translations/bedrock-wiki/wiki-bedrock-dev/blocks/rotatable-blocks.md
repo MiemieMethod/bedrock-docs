@@ -12,7 +12,7 @@ description: 创建可旋转的方块。
 ---
 
 ::: tip 格式与最低引擎版本 `1.21.40`
-本教程假设您对方块有基本的了解，包括 [方块状态](../blocks/block-states.md) 和 [方块特性](../blocks/block-traits.md)。
+本教程假设你对方块有基本的了解，包括 [方块状态](../blocks/block-states.md) 和 [方块特性](../blocks/block-traits.md)。
 在开始之前，请查看 [方块指南](../blocks/blocks-intro.md)。
 :::
 
@@ -68,7 +68,7 @@ description: 创建可旋转的方块。
 
 旋转利用方块排列。每个排列包含 `minecraft:transformation` 组件，通过检查 `minecraft:cardinal_direction` 状态并应用适当的旋转来实现基本旋转。
 
-**以下旋转值假设您的模型正面朝北。**
+**以下旋转值假设你的模型正面朝北。**
 
 <CodeHeader>minecraft:block</CodeHeader>
 
@@ -129,7 +129,7 @@ description: 创建可旋转的方块。
 
 旋转利用方块排列。每个排列包含 `minecraft:transformation` 组件，通过检查 `minecraft:facing_direction` 状态并应用适当的旋转来实现基本旋转。
 
-**以下旋转值假设您的模型正面朝北。**
+**以下旋转值假设你的模型正面朝北。**
 
 <CodeHeader>minecraft:block</CodeHeader>
 
@@ -204,7 +204,7 @@ description: 创建可旋转的方块。
 
 旋转利用方块排列。每个排列包含 `minecraft:transformation` 组件，通过检查 `minecraft:block_face` 状态并应用适当的旋转来实现基本旋转。
 
-**以下旋转值假设您的模型正面朝北。**
+**以下旋转值假设你的模型正面朝北。**
 
 <CodeHeader>minecraft:block</CodeHeader>
 

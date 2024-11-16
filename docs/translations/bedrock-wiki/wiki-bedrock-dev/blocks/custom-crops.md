@@ -14,13 +14,13 @@ description: 原版作物的再创作。
 ---
 
 :::tip 格式 & 最低引擎版本 `1.21.40`
-本教程假设您对区块和脚本有良好的理解。
+本教程假设你对区块和脚本有良好的理解。
 在开始之前，请查看[区块指南](../blocks/blocks-intro.md)、[区块状态](../blocks/block-states.md)和[区块事件](../blocks/block-events.md)。
 :::
 
-如果您不喜欢胡萝卜，也没关系。您可以制作自己的（更优越的）作物！
+如果你不喜欢胡萝卜，也没关系。你可以制作自己的（更优越的）作物！
 
-制作作物并不像您想象的那么困难，只需在编写特定事件序列的代码时稍加练习和深思熟虑。本页面将指导您创建一个独特的作物方块及其种子和食物项目的过程。
+制作作物并不像你想象的那么困难，只需在编写特定事件序列的代码时稍加练习和深思熟虑。本页面将指导你创建一个独特的作物方块及其种子和食物项目的过程。
 
 **问题:**
 
@@ -29,9 +29,9 @@ description: 原版作物的再创作。
 
 ## 作物模型
 
-如果您在游戏中查看胡萝卜和土豆等作物，您会看到它们由四个平面组成，每个边缘距离4个像素，如下图所示。可见的面朝内指向，以防止作物在被其他方块包围时产生阴影。
+如果你在游戏中查看胡萝卜和土豆等作物，你会看到它们由四个平面组成，每个边缘距离4个像素，如下图所示。可见的面朝内指向，以防止作物在被其他方块包围时产生阴影。
 
-值得注意的是，每个平面向下移动1个像素，不同于传统的方块。如果您忘记将平面向下移动一个像素，作物将会显示得比地农高出一个像素，而地农的模型较短。
+值得注意的是，每个平面向下移动1个像素，不同于传统的方块。如果你忘记将平面向下移动一个像素，作物将会显示得比地农高出一个像素，而地农的模型较短。
 
 通过将位置向下移动一个像素，作物将完美地位于地农之上，使我们的方块世界一切正常。以下是作物的模板模型。
 
@@ -84,7 +84,7 @@ description: 原版作物的再创作。
 
 ## 自定义生长组件
 
-下面的事件执行三个重要功能，使您的作物能够运作：
+下面的事件执行三个重要功能，使你的作物能够运作：
 
 -   [`onRandomTick`](../blocks/block-events.md#random-tick) 事件钩子用于在随机间隔增加 `wiki:growth` 状态。
 -   [`onPlayerInteract`](../blocks/block-events.md#player-interact) 事件钩子用于支持骨粉，在生存模式下为 `wiki:growth` 增加随机值或在创造模式下使作物完全生长。
@@ -296,7 +296,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 ]
 ```
 
-您可以根据希望作物具有的生长阶段数量添加更多排列。但不要忘记同时更改状态的 `max` 值和脚本中的 `maxGrowth` 值。
+你可以根据希望作物具有的生长阶段数量添加更多排列。但不要忘记同时更改状态的 `max` 值和脚本中的 `maxGrowth` 值。
 
 ## 最终方块 JSON
 
@@ -476,7 +476,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 作物战利品
 
-以下是您的自定义作物可以使用的一些示例战利品表：
+以下是你的自定义作物可以使用的一些示例战利品表：
 
 ### 幼年作物战利品表
 
@@ -568,7 +568,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 自定义食物
 
-您的作物不仅能掉落种子！使用下面的模板创建自定义食物。
+你的作物不仅能掉落种子！使用下面的模板创建自定义食物。
 
 <CodeHeader>BP/items/custom_food.json</CodeHeader>
 
@@ -601,7 +601,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 结果
 
-您的数据包现在应包含以下文件：
+你的数据包现在应包含以下文件：
 
 <FolderView
     :paths="[
@@ -613,11 +613,11 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
     ]"
 ></FolderView>
 
-借助本教程/模板，您现在具备创建自定义作物及其种子和食物项目的知识和技能。
+借助本教程/模板，你现在具备创建自定义作物及其种子和食物项目的知识和技能。
 
 ## 下载示例数据包
 
-如果您需要进一步的帮助或想访问完整的模板文件，请使用下面提供的下载按钮。祝您设计愉快！
+如果你需要进一步的帮助或想访问完整的模板文件，请使用下面提供的下载按钮。祝你设计愉快！
 
 <Button link="https://github.com/Bedrock-OSS/wiki-addon/releases/download/download/custom_crops.mcaddon">
     下载 MCADDON

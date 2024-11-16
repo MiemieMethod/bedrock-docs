@@ -69,7 +69,7 @@ onBeforeDurabilityDamage(event) {
 ### 完成使用
 
 :::tip 依赖项
-完成使用事件需要在您的物品上激活 [`minecraft:use_modifiers`](/items/item-components#use-modifiers) 组件才能触发。
+完成使用事件需要在你的物品上激活 [`minecraft:use_modifiers`](/items/item-components#use-modifiers) 组件才能触发。
 :::
 
 当包含此组件的物品的使用持续时间完成时，将调用此事件。
@@ -96,7 +96,7 @@ onCompleteUse(event) {
 当包含此组件的物品被实体食用时，将调用此事件。
 
 :::tip 依赖项
-完成使用事件需要在您的物品上激活 [`minecraft:use_modifiers`](/items/item-components#use-modifiers) 和 [`minecraft:food`](/items/item-components#food) 组件才能触发。
+完成使用事件需要在你的物品上激活 [`minecraft:use_modifiers`](/items/item-components#use-modifiers) 和 [`minecraft:food`](/items/item-components#food) 组件才能触发。
 :::
 
 <CodeHeader>minecraft:item > components</CodeHeader>

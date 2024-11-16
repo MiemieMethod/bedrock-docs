@@ -7,9 +7,9 @@ mentions:
 description: 有用的脚本链接。
 ---
 
-JavaScript是一种广为人知的脚本语言。学习JavaScript将对您构建和开发使用脚本API的附加包有所帮助。
+JavaScript是一种广为人知的脚本语言。学习JavaScript将对你构建和开发使用脚本API的附加包有所帮助。
 
-建议您通过在线课程学习JavaScript，以下是一些可用的免费资源：
+建议你通过在线课程学习JavaScript，以下是一些可用的免费资源：
 
 -   [MDN JavaScript：JavaScript语言概述](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview)
 -   [Codecademy：JavaScript入门](https://www.codecademy.com/learn/introduction-to-javascript)

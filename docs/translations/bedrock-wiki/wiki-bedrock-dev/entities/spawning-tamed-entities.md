@@ -10,14 +10,14 @@ mentions:
     - MedicalJewel105
     - SmokeyStack
     - ThomasOrs
-description: 在本教程中，您将学习如何通过在目标玩家上运行事件并投掷一个在碰撞时变为驯服实体的物品来生成一个预先驯服的实体。
+description: 在本教程中，你将学习如何通过在目标玩家上运行事件并投掷一个在碰撞时变为驯服实体的物品来生成一个预先驯服的实体。
 ---
 
-在本教程中，您将学习如何通过在目标玩家上运行事件并投掷一个在碰撞时变为驯服实体的物品来生成一个预先驯服的实体。
+在本教程中，你将学习如何通过在目标玩家上运行事件并投掷一个在碰撞时变为驯服实体的物品来生成一个预先驯服的实体。
 
 ## 概述
 
-传统上，如果您想让玩家驯服一个实体，您必须强制玩家通过 `minecraft:tameable` 与该实体进行交互。然而，您也可以利用原版投射物跟踪生成它们的实体这一事实，来生成一个预先驯服的实体。
+传统上，如果你想让玩家驯服一个实体，你必须强制玩家通过 `minecraft:tameable` 与该实体进行交互。然而，你也可以利用原版投射物跟踪生成它们的实体这一事实，来生成一个预先驯服的实体。
 
 为此，我们将通过 `minecraft:spawn_entity` 召唤一个虚拟的中介投射物实体，该实体将立即转变为我们在本教程中想要生成的预先驯服的实体，即通过 `minecraft:transformation` 将其转变为原版狼，并将 `keep_owner` 设置为 `true`。
 
@@ -27,7 +27,7 @@ description: 在本教程中，您将学习如何通过在目标玩家上运行�
 
 在这里，我们需要一份玩家行为文件的副本，我们将稍作修改。我们将添加一个简单的事件，添加一个组件组，以生成我们的自定义中介实体。
 
-您可以在 Mojang 提供的原版行为包中找到 BP 玩家实体文件 [这里](https://aka.ms/behaviorpacktemplate)。
+你可以在 Mojang 提供的原版行为包中找到 BP 玩家实体文件 [这里](https://aka.ms/behaviorpacktemplate)。
 
 <CodeHeader>BP/entities/player.json</CodeHeader>
 
@@ -96,10 +96,10 @@ description: 在本教程中，您将学习如何通过在目标玩家上运行�
 }
 ```
 
-现在，您可以通过 `/event entity @p wiki:spawn_tamed_wolf` 在玩家旁边生成一只驯服的狼。您还可以通过将 `is_spawnable` 设置为 `true` 使用 `wiki:pretamed_wolf` 生成蛋来生成它！
+现在，你可以通过 `/event entity @p wiki:spawn_tamed_wolf` 在玩家旁边生成一只驯服的狼。你还可以通过将 `is_spawnable` 设置为 `true` 使用 `wiki:pretamed_wolf` 生成蛋来生成它！
 
 :::warning
-如果您想使用此方法生成自定义实体而不是狼，您需要确保该实体具有 `minecraft:is_tamed` 组件，以使其正常工作。否则，一些行为将无法按预期在驯服实体上正常运作。
+如果你想使用此方法生成自定义实体而不是狼，你需要确保该实体具有 `minecraft:is_tamed` 组件，以使其正常工作。否则，一些行为将无法按预期在驯服实体上正常运作。
 :::
 
 ## 集成物品投射物（替代方法）

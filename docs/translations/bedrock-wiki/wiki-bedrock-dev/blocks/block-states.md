@@ -1,6 +1,6 @@
 ---
 title: 方块状态
-description: 方块状态允许您的方块具有变体，每个变体都有其独特的功能和外观，通过使用排列组合实现。
+description: 方块状态允许你的方块具有变体，每个变体都有其独特的功能和外观，通过使用排列组合实现。
 category: 一般
 nav_order: 4
 mentions:
@@ -9,10 +9,10 @@ mentions:
 ---
 
 :::tip 格式与最低引擎版本 `1.21.40`
-在处理方块状态时，请确保您的包清单中的 `min_engine_version` 至少为 `1.20.20` 或更高。
+在处理方块状态时，请确保你的包清单中的 `min_engine_version` 至少为 `1.20.20` 或更高。
 :::
 
-方块状态允许您的方块具有变体，每个变体都有其独特的功能和外观，通过使用[排列组合](../blocks/block-permutations.md)实现。
+方块状态允许你的方块具有变体，每个变体都有其独特的功能和外观，通过使用[排列组合](../blocks/block-permutations.md)实现。
 
 ## 定义状态
 
@@ -71,7 +71,7 @@ execute if block ~~~ wiki:custom_block["wiki:string_state_example"="blue", "wiki
 
 ### 脚本 API
 
-[`BlockPermutation.getState()`](https://learn.microsoft.com/minecraft/creator/scriptapi/minecraft/server/blockpermutation#getstate) 方法允许您获取不同状态的当前值。
+[`BlockPermutation.getState()`](https://learn.microsoft.com/minecraft/creator/scriptapi/minecraft/server/blockpermutation#getstate) 方法允许你获取不同状态的当前值。
 
 <CodeHeader></CodeHeader>
 

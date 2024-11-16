@@ -24,7 +24,7 @@ description: 菜单类别决定了物品和方块在创造模式库存和配方�
 
 如果省略 `menu_category`，该物品将只能通过命令访问，并且不会出现在创造模式库存或配方书中。
 
-**注意：** 自定义生成蛋的菜单类别无法修改。您必须创建一个带有 `minecraft:entity_placer` 组件的自定义物品。
+**注意：** 自定义生成蛋的菜单类别无法修改。你必须创建一个带有 `minecraft:entity_placer` 组件的自定义物品。
 
 <CodeHeader></CodeHeader>
 

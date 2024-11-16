@@ -27,7 +27,7 @@ mentions:
 description: 基岩服务器的软件。
 ---
 
-Minecraft服务器允许玩家在线或通过局域网与其他人一起游戏。这在Java版Minecraft中非常常见，但在基岩版中也同样可行。[您可以在此处下载官方的Mojang BDS软件。](https://www.minecraft.net/en-us/download/server/bedrock)。
+Minecraft服务器允许玩家在线或通过局域网与其他人一起游戏。这在Java版Minecraft中非常常见，但在基岩版中也同样可行。[你可以在此处下载官方的Mojang BDS软件。](https://www.minecraft.net/en-us/download/server/bedrock)。
 
 除了原版BDS提供的服务外，还有许多社区项目，涵盖多种编程语言。
 

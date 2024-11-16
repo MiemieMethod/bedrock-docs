@@ -12,7 +12,7 @@ description: 理解 /playsound 命令。
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-您可以使用 `/playsound` 命令在您的世界中向任何地方的玩家播放音效。
+你可以使用 `/playsound` 命令在你的世界中向任何地方的玩家播放音效。
 
 ## 语法
 
@@ -22,14 +22,14 @@ description: 理解 /playsound 命令。
 
 ### 声音
 
-- 这是您希望播放的音效。
-- 您可以在以下链接找到当前可用的音效 ID 列表：
+- 这是你希望播放的音效。
+- 你可以在以下链接找到当前可用的音效 ID 列表：
     - https://www.digminecraft.com/lists/sound_list_pe.php
 
 ### 玩家
 
 - 这是一个可选参数。
-- 它指的是您通常使用的目标选择器（您希望播放声音的对象）` @a `、` @r `等。然而，`@e`选择器在没有`type=player`参数的情况下不适用。
+- 它指的是你通常使用的目标选择器（你希望播放声音的对象）` @a `、` @r `等。然而，`@e`选择器在没有`type=player`参数的情况下不适用。
 
 ### 位置
 

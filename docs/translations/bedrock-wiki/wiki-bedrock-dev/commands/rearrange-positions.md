@@ -12,7 +12,7 @@ description: 随机重新定位所有选定目标，确保没有目标保持在�
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-多人位置重排函数，或更准确地说是多人位置错排函数，由 @ZheaEvyline 创建，允许您随机重新定位所有选定目标，确保没有目标保持在其原始位置。
+多人位置重排函数，或更准确地说是多人位置错排函数，由 @ZheaEvyline 创建，允许你随机重新定位所有选定目标，确保没有目标保持在其原始位置。
 
 错排是指 'N' 个元素的一个排列，其中没有元素出现在其原始位置。
 
@@ -80,7 +80,7 @@ scoreboard players operation @r [scores={id=0}] id = Total id
 
 <br>
 
-这是您每次需要错排所有目标位置时运行的函数（仅需运行一次）：
+这是你每次需要错排所有目标位置时运行的函数（仅需运行一次）：
 
 - `/function events/player/derange_position/initiate`
 
@@ -166,7 +166,7 @@ scoreboard objectives add count dummy
 
 <br>
 
-如果您希望在加载世界时自动添加目标，可以创建以下函数文件：
+如果你希望在加载世界时自动添加目标，可以创建以下函数文件：
 
 <CodeHeader>BP/functions/events/world/on_initialise.mcfunction</CodeHeader>
 
@@ -186,7 +186,7 @@ scoreboard players set Initialised world 1
 
 ## Tick JSON
 
-最后，创建您的 `tick.json` 文件：
+最后，创建你的 `tick.json` 文件：
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 
@@ -226,13 +226,13 @@ scoreboard players set Initialised world 1
 
 ## 下载功能包
 
-为方便起见，您可以在此处下载功能包的 `.mcpack` 文件：
+为方便起见，你可以在此处下载功能包的 `.mcpack` 文件：
 
 <Card image="../assets/images/commands/BClogo.png" title="下载" link="https://github.com/BedrockCommands/developer-packs/releases/download/mpd/Multiplayer_Position_Derangement.FP.mcpack">
 
 </Card>
 
-只需在您的世界中激活该包，并在多人模式下运行以下命令（每次需要时）：
+只需在你的世界中激活该包，并在多人模式下运行以下命令（每次需要时）：
 
 ```yaml
 /function events/player/derange_position/initiate

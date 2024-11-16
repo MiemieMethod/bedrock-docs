@@ -7,7 +7,7 @@ description: 自动生成的 vanilla 使用的生成规则组件列表。
 ---
 
 此页面是使用 [Wiki内容生成器](https://github.com/Bedrock-OSS/bedrock-wiki-content-generator) 创建的。如果有问题，请在 [Bedrock OSS](https://discord.gg/XjV87YN) Discord 服务器联系我们。
-请注意，为了保持页面加载速度，每个组件最多只显示8个示例。命名空间 `minecraft` 也已移除。如果您想查看完整页面，可以点击[这里](../entities/vusr-full.md)。*最后更新于1.21.0*
+请注意，为了保持页面加载速度，每个组件最多只显示8个示例。命名空间 `minecraft` 也已移除。如果你想查看完整页面，可以点击[这里](../entities/vusr-full.md)。*最后更新于1.21.0*
 
 ## biome_filter
 

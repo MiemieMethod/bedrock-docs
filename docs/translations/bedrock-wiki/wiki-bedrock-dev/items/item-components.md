@@ -1,6 +1,6 @@
 ---
 title: 物品组件
-description: 物品组件用于改变您的物品在世界中的外观和功能。
+description: 物品组件用于改变你的物品在世界中的外观和功能。
 category: 综合
 nav_order: 2
 mentions:
@@ -14,7 +14,7 @@ mentions:
 
 ## 应用组件
 
-物品组件用于改变您的物品在世界中的外观和功能。它们被应用在 `minecraft:item` 的 `components` 子项中。
+物品组件用于改变你的物品在世界中的外观和功能。它们被应用在 `minecraft:item` 的 `components` 子项中。
 
 <CodeHeader>BP/items/custom_item.json</CodeHeader>
 

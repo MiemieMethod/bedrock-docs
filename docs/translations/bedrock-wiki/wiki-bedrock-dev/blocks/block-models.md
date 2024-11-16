@@ -1,6 +1,6 @@
 ---
 title: 创建方块模型
-description: 学习如何为您的方块设置自定义模型。
+description: 学习如何为你的方块设置自定义模型。
 category: 教程
 tags:
     - 初学者
@@ -10,7 +10,7 @@ mentions:
     - SmokeyStack
 ---
 
-尽管自定义方块无法使用原版的[方块形状](../blocks/block-shapes.md)，我们可以创建遵循类似于实体模型格式的自定义模型。本教程将引导您使用[Blockbench](https://blockbench.net)创建一个“纸袋”的自定义方块模型。您应该能够从本教程中学习到Minecraft几何体的主要特性，以便创建自定义方块。
+尽管自定义方块无法使用原版的[方块形状](../blocks/block-shapes.md)，我们可以创建遵循类似于实体模型格式的自定义模型。本教程将引导你使用[Blockbench](https://blockbench.net)创建一个“纸袋”的自定义方块模型。你应该能够从本教程中学习到Minecraft几何体的主要特性，以便创建自定义方块。
 
 **注意：** 自定义方块模型必须在[模型大小限制](../blocks/block-components.md#geometry)之内。
 
@@ -20,7 +20,7 @@ mentions:
 
 ![新项目面板，选择了Bedrock Block](../assets/images/blocks/block-models/new_project.png)
 
-现在您可以为模型指定一个标识符！文件名可以在此处决定，或稍后更改。
+现在你可以为模型指定一个标识符！文件名可以在此处决定，或稍后更改。
 
 UV模式和纹理大小应保持不变。
 
@@ -54,7 +54,7 @@ UV模式和纹理大小应保持不变。
 
 <WikiImage src="../assets/images/blocks/block-models/paper_bag_top_removed.png" alt="" width="600" />
 
-此外，手柄的北面和南面应该是可见的。您可以通过按住Ctrl并点击UV面板中的面名称来选择多个面。
+此外，手柄的北面和南面应该是可见的。你可以通过按住Ctrl并点击UV面板中的面名称来选择多个面。
 
 <WikiImage
     src="../assets/images/blocks/block-models/paper_bag_handle_faces_removed.png"
@@ -107,7 +107,7 @@ UV模式和纹理大小应保持不变。
 
 ## 重新排列UV
 
-为了将纹理放置到正确的位置，您可能需要重新定位/调整面UV映射的大小。这可以通过选择受影响的面并使用UV面板来完成。
+为了将纹理放置到正确的位置，你可能需要重新定位/调整面UV映射的大小。这可以通过选择受影响的面并使用UV面板来完成。
 
 <WikiImage src="../assets/images/blocks/block-models/paper_bag_handle_uv.png" alt="" width="300" />
 
@@ -127,14 +127,14 @@ UV模式和纹理大小应保持不变。
 
 ## 应用几何体和纹理
 
-一旦从`文件 > 导出 > 导出Bedrock几何体`导出到您的`RP/models/blocks`文件夹中，您可以在方块JSON中引用模型。
+一旦从`文件 > 导出 > 导出Bedrock几何体`导出到你的`RP/models/blocks`文件夹中，你可以在方块JSON中引用模型。
 
 然后，可以通过其`RP/textures/terrian_texture.json`短名称通过材质实例应用纹理。在这个例子中，纸袋不应该阻挡光线，因此其光线减弱设置为0。
 
 :::warning BLOCKS.JSON
-将[`minecraft:geometry`](../blocks/block-components.md#geometry)添加到您的方块将导致游戏忽略`RP/blocks.json`中的纹理定义。
+将[`minecraft:geometry`](../blocks/block-components.md#geometry)添加到你的方块将导致游戏忽略`RP/blocks.json`中的纹理定义。
 
-如果您在该文件中定义了方块的纹理，请确保将它们迁移到[`minecraft:material_instances`](../blocks/block-components.md#material-instances)中，以便它们能够出现。
+如果你在该文件中定义了方块的纹理，请确保将它们迁移到[`minecraft:material_instances`](../blocks/block-components.md#material-instances)中，以便它们能够出现。
 :::
 
 <CodeHeader>BP/blocks/paper_bag.json</CodeHeader>
@@ -184,7 +184,7 @@ UV模式和纹理大小应保持不变。
     image="../assets/images/homepage/crafting_table_0.png"
 >
 
-为您的模型创建剔除规则可以通过告诉游戏不渲染隐藏部分来提高性能。
+为你的模型创建剔除规则可以通过告诉游戏不渲染隐藏部分来提高性能。
 
 </Card>
 <Card

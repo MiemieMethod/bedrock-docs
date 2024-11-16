@@ -127,7 +127,7 @@ description: 配方是处理多种物品交易的方式，特别是在工作台�
 -   `stonecutter`
 -   `smithing_table`
 
-::: warning 注意，如果您想制作锻造配方，您需要在第二个槽中使用 `<namespace>:netherite_ingot`，虽然使用不同的标识符将不起作用。**在1.18.30之后，这将不再有效**。
+::: warning 注意，如果你想制作锻造配方，你需要在第二个槽中使用 `<namespace>:netherite_ingot`，虽然使用不同的标识符将不起作用。**在1.18.30之后，这将不再有效**。
 :::
 
 烹饪和熔炼：
@@ -156,7 +156,7 @@ description: 配方是处理多种物品交易的方式，特别是在工作台�
 
 ### 配方解锁
 
-Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方使用此功能，您的 `manifest.json` 必须具有 `min_engine_version` 为 1.20.11（推荐使用1.20.30）。您还需要在配方中添加 `unlock` 数组及其对象。
+Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让你的配方使用此功能，你的 `manifest.json` 必须具有 `min_engine_version` 为 1.20.11（推荐使用1.20.30）。你还需要在配方中添加 `unlock` 数组及其对象。
 ```json
 		"unlock": [
 			{
@@ -534,7 +534,7 @@ _OO
 :::
 
 ### 配方解锁
-Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让您的配方使用此功能，您的 `manifest.json` 必须具有 `min_engine_version` 为 1.20.11（推荐使用1.20.30）。您还需要在配方中添加 `unlock` 数组及其对象。
+Minecraft 1.20.30在游戏中添加了配方解锁功能。为了让你的配方使用此功能，你的 `manifest.json` 必须具有 `min_engine_version` 为 1.20.11（推荐使用1.20.30）。你还需要在配方中添加 `unlock` 数组及其对象。
 ```json
 		"unlock": [
 			{

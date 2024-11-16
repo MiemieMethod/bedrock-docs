@@ -4,7 +4,7 @@ category: 技术
 mention:
     - BedrockCommands
     - zheaEvyline
-description: 这些命令技术允许您检测特定玩家/实体的“状态”，并随后执行您所需的命令。
+description: 这些命令技术允许你检测特定玩家/实体的“状态”，并随后执行你所需的命令。
 ---
 
 ## 介绍
@@ -13,13 +13,13 @@ description: 这些命令技术允许您检测特定玩家/实体的“状态”
 
 [图片来源：非官方 Minecraft 维基 - ](https://minecraft.wiki/)**[CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)**
 
-这些命令技术允许您检测特定玩家/实体的“状态”，并随后执行您所需的命令。
+这些命令技术允许你检测特定玩家/实体的“状态”，并随后执行你所需的命令。
 
 > 注意：为了更高效和更高精度的方法，建议使用 [动画控制器](../animation-controllers/animation-controllers-intro.md)
 
 ## is_moving
 
-此技术允许您检测目标是否在移动，即使是细微的移动也会被考虑。
+此技术允许你检测目标是否在移动，即使是细微的移动也会被考虑。
 
 ![](../assets/images/commands/movement-detections/moving.gif)
 
@@ -57,7 +57,7 @@ execute as @a [scores={is_moving=1..}] run say 我仍在移动
 
 ![commandBlockChain7](../assets/images/commands/commandBlockChain/7.png)
 
-您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
+你需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足你所需的命令。
 
 **状态：**
 
@@ -78,7 +78,7 @@ execute as @a [scores={is_moving=1..}] run say 我仍在移动
 
 ## 区分行走和短跑
 
-如果您迫切需要**仅使用命令**单独检测行走和短跑，可以使用下面的技术。
+如果你迫切需要**仅使用命令**单独检测行走和短跑，可以使用下面的技术。
 
 :::warning 已知问题：
 行走/短跑检测在有效果和附魔时可能无法按预期工作。
@@ -136,11 +136,11 @@ execute as @a [scores={is_walking=1}] run say 我在行走
 - **短跑检测命令：**
     1. 默认情况下，玩家被标记为**未**短跑（0）。
     2. 如果玩家的位移在 `0.2806` 和 `0.9` 区块之间，则将玩家标记为短跑（1）。
-        - 如果您希望将短跑跳跃与短跑分开，尽管其速度波动，可以将值从 `0.9` 更改为 `0.35635`。
+        - 如果你希望将短跑跳跃与短跑分开，尽管其速度波动，可以将值从 `0.9` 更改为 `0.35635`。
 
 ## is_sleeping
 
-此技术允许您检测玩家是否在睡觉。
+此技术允许你检测玩家是否在睡觉。
 
 ![](../assets/images/commands/movement-detections/sleeping.jpg)
 
@@ -168,7 +168,7 @@ execute as @a [scores={is_sleeping=1..}] run say 我仍在睡觉
 
 ![commandBlockChain5](../assets/images/commands/commandBlockChain/5.png)
 
-您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
+你需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足你所需的命令。
 
 **状态：**
 
@@ -185,7 +185,7 @@ execute as @a [scores={is_sleeping=1..}] run say 我仍在睡觉
 
 ## is_sneaking
 
-此技术允许您检测玩家是否在潜行。
+此技术允许你检测玩家是否在潜行。
 
 ![](../assets/images/commands/movement-detections/sneaking.png)
 
@@ -213,7 +213,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在潜行
 
 ![commandBlockChain5](../assets/images/commands/commandBlockChain/5.png)
 
-您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
+你需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足你所需的命令。
 
 **状态：**
 
@@ -231,7 +231,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在潜行
 
 ## is_crawling
 
-此技术允许您检测玩家是否在爬行。
+此技术允许你检测玩家是否在爬行。
 
 ![](../assets/images/commands/movement-detections/crawling.png)
 
@@ -263,7 +263,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在爬行
 
 ![commandBlockChain5](../assets/images/commands/commandBlockChain/5.png)
 
-您需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足您所需的命令。
+你需要按照相同的顺序，并正确应用 `scores` 选择器参数，以满足你所需的命令。
 
 **状态：**
 
@@ -281,7 +281,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在爬行
 
 ## 区分爬行、滑翔和游泳
 
-如果您迫切需要**仅使用命令**单独检测这三种状态，可以使用下面的技术。
+如果你迫切需要**仅使用命令**单独检测这三种状态，可以使用下面的技术。
 
 :::warning 已知问题：
 
@@ -332,7 +332,7 @@ execute as @a [scores={is_gliding=1..}] run say 我仍在滑翔
 
 ## 文件夹结构
 
-如果您使用函数，您的文件夹结构可能如下所示：
+如果你使用函数，你的文件夹结构可能如下所示：
 
 <FolderView
 	:paths="[

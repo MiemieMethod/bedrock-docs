@@ -20,7 +20,7 @@
 
     ---
 
-    循序渐进的教程，旨在帮助您首次接触附加包。
+    循序渐进的教程，旨在帮助你首次接触附加包。
 
     [:octicons-arrow-right-24: 开始阅读](./guide/introduction.md)
 
@@ -49,7 +49,7 @@
     ---
 
     [新手指南](./blocks/blocks-intro.md) —
-    创建您的第一个方块的“你好，世界！”指南。
+    创建你的第一个方块的“你好，世界！”指南。
     
     [方块组件](./blocks/block-components.md) —
     了解自定义方块的功能，例如碰撞。
@@ -73,7 +73,7 @@
     ---
 
     [新手指南](./items/items-intro.md) —
-    创建您的第一个物品的“你好，世界！”指南。
+    创建你的第一个物品的“你好，世界！”指南。
     
     [物品组件](./items/item-components.md) —
     了解自定义物品的功能，例如耐久度。
@@ -88,7 +88,7 @@
     了解Minecraft提供的脚本API基础知识。
     
     [自定义命令](./scripting/custom-command.md) —
-    学习如何监听聊天事件以创建您自己的自定义命令！
+    学习如何监听聊天事件以创建你自己的自定义命令！
 
     [:octicons-arrow-right-24: 开始阅读](./scripting/starting-scripts.md)
 
@@ -104,7 +104,7 @@
 
     ---
 
-    这个维基是由社区构建和维护的！如果您觉得可以改善维基，或有问题或反馈，请与我们联系。
+    这个维基是由社区构建和维护的！如果你觉得可以改善维基，或有问题或反馈，请与我们联系。
 
     [:octicons-arrow-right-24: 开始阅读](./contribute.md)
 

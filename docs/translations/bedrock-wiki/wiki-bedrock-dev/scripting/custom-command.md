@@ -25,7 +25,7 @@ description: 使用脚本创建自定义命令。
 脚本 API 目前正在积极开发中，破坏性更改频繁。此页面假设使用 Minecraft 1.21.30 的格式。
 :::
 
-谁不想要酷炫的自定义命令呢？通过脚本 API，您可以创建自己的命令。在本文中，我们将使用脚本 API 创建这些命令。
+谁不想要酷炫的自定义命令呢？通过脚本 API，你可以创建自己的命令。在本文中，我们将使用脚本 API 创建这些命令。
 
 ## 设置包
 
@@ -33,7 +33,7 @@ description: 使用脚本创建自定义命令。
 在创建脚本之前，建议先学习 JavaScript、附加包和脚本 API 的基础知识。要了解脚本 API 的功能，请参见 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/)
 :::
 
-假设您已经理解了脚本的基础知识，让我们开始创建包。
+假设你已经理解了脚本的基础知识，让我们开始创建包。
 
 <CodeHeader>manifest.json</CodeHeader>
 
@@ -150,4 +150,4 @@ world.beforeEvents.chatSend.subscribe((eventData) => {
 
 用简单的话来说，`if (!eventData.sender.hasTag('Admin')) return;` 的意思是：“如果玩家没有 (`!`) 'Admin' 标签，则停止脚本继续执行 (`return`)”
 
-有关脚本 API 的更多信息，您可以参考 [wiki](../scripting/starting-scripts.md) 或 [Microsoft 文档](https://docs.microsoft.com/en-us/minecraft/creator/documents/gametestgettingstarted)
+有关脚本 API 的更多信息，你可以参考 [wiki](../scripting/starting-scripts.md) 或 [Microsoft 文档](https://docs.microsoft.com/en-us/minecraft/creator/documents/gametestgettingstarted)

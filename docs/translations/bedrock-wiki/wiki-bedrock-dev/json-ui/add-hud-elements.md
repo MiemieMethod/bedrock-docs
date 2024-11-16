@@ -6,16 +6,16 @@ tags:
 mentions:
     - shanewolf38
     - SmokeyStack
-description: 在本教程中，您将学习如何向HUD屏幕添加元素。
+description: 在本教程中，你将学习如何向HUD屏幕添加元素。
 ---
 
-在本教程中，您将学习如何向HUD屏幕添加元素。
+在本教程中，你将学习如何向HUD屏幕添加元素。
 
 ## 概述
 
-HUD屏幕是游戏中大部分时间显示的界面，展示了玩家的关键信息。您可能会想在这个屏幕上添加许多元素，例如在完成某些事件后弹出的文本、显示玩家能量的耐力条、显示玩家速度的速度计等等！
+HUD屏幕是游戏中大部分时间显示的界面，展示了玩家的关键信息。你可能会想在这个屏幕上添加许多元素，例如在完成某些事件后弹出的文本、显示玩家能量的耐力条、显示玩家速度的速度计等等！
 
-要将您创建的元素添加到HUD屏幕上，您需要使用`modification`参数将新的`control`（元素）添加到`root_panel`。根面板是一种面板类型元素，几乎包含了所有显示在HUD上的元素。
+要将你创建的元素添加到HUD屏幕上，你需要使用`modification`参数将新的`control`（元素）添加到`root_panel`。根面板是一种面板类型元素，几乎包含了所有显示在HUD上的元素。
 
 ## 单个元素
 
@@ -55,7 +55,7 @@ HUD屏幕是游戏中大部分时间显示的界面，展示了玩家的关键�
 },
 ```
 
-所有添加到HUD屏幕的元素都在根面板`modifications`的`value`部分列出。添加元素时指定的命名空间（例如`@hud.hud_square`）可以更改，如果添加的元素存在于另一个命名空间中。例如，如果`hud_square`元素是在`scoreboard`命名空间下的scoreboards.json UI页面中创建的，您在将元素添加到根面板时应使用`@scoreboard.hud_square`。
+所有添加到HUD屏幕的元素都在根面板`modifications`的`value`部分列出。添加元素时指定的命名空间（例如`@hud.hud_square`）可以更改，如果添加的元素存在于另一个命名空间中。例如，如果`hud_square`元素是在`scoreboard`命名空间下的scoreboards.json UI页面中创建的，你在将元素添加到根面板时应使用`@scoreboard.hud_square`。
 
 ## 组合元素
 

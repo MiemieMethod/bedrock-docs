@@ -2092,7 +2092,7 @@ _Last updated for 1.19.10_
     * 如果 `minecraft:nameable` 未激活，`allow_name_tag_renaming` 被视为 `false`，`always_show` 被视为 `true`。
     * 如果 `minecraft:nameable` 被激活，可以覆盖 `always_show`，但不能覆盖 `allow_name_tag_renaming`。
     * 被拥有时，命名为 `§9Player.Agent`，其中 `Player` 是拥有玩家的名称
-* 只能通过使用NPC、`/execute` 命令和 `/agent` 命令作为玩家的实际代理使用，可以将此命令放入NPC按钮命令，使您的代理转向左侧或生成一个代理（如果您还没有）："/execute as @initiator run /agent turn left"，此命令仅在由NPC执行时有效。
+* 只能通过使用NPC、`/execute` 命令和 `/agent` 命令作为玩家的实际代理使用，可以将此命令放入NPC按钮命令，使你的代理转向左侧或生成一个代理（如果你还没有）："/execute as @initiator run /agent turn left"，此命令仅在由NPC执行时有效。
 
 #### 硬编码变量
 由于自定义实体无法使用核心代理功能，所有变量都是固定的。

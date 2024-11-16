@@ -6,11 +6,11 @@ mentions:
     - SirLich
 tags:
     - 实验性
-description: 将您的结构添加到世界生成中。
+description: 将你的结构添加到世界生成中。
 ---
 
 结构地物是最基本的地物之一。它在世界中放置导出的 `.mcstructure` 文件。
-本教程将向您展示如何制作：
+本教程将向你展示如何制作：
 
 -   地面结构，
 

@@ -9,16 +9,16 @@ mentions:
 ---
 
 :::tip 格式与最低引擎版本 `1.21.40`
-在学习方块排列之前，您应该对[方块状态](../blocks/block-states.md)有一定的了解。
+在学习方块排列之前，你应该对[方块状态](../blocks/block-states.md)有一定的了解。
 
-在处理方块状态时，请确保您的包清单中的 `min_engine_version` 至少为 `1.20.20` 或更高。
+在处理方块状态时，请确保你的包清单中的 `min_engine_version` 至少为 `1.20.20` 或更高。
 :::
 
 ## 什么是排列？
 
 方块排列表示每个方块可能处于的所有状态值配置。
 
-例如，如果您添加了一个具有两个布尔状态的自定义方块……
+例如，如果你添加了一个具有两个布尔状态的自定义方块……
 
 <CodeHeader>minecraft:block</CodeHeader>
 
@@ -41,7 +41,7 @@ mentions:
 | wiki:permutations_example | false            | true              |
 | wiki:permutations_example | true             | true              |
 
-要计算您的方块有多少个排列，请将每个状态的有效状态值数量相乘。
+要计算你的方块有多少个排列，请将每个状态的有效状态值数量相乘。
 例如，上述示例的计算为 2 &times; 2，这意味着该方块有 4 种排列。
 
 ### 误解

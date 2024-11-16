@@ -12,7 +12,7 @@ description: 在MCBE中开始脚本编写。
 ---
 
 ::: tip
-本脚本API页面假设您对附加包的打包设置有基本了解。有关如何设置行为包的信息，请参阅[附加包简介](../guide/introduction.md)页面。
+本脚本API页面假设你对附加包的打包设置有基本了解。有关如何设置行为包的信息，请参阅[附加包简介](../guide/introduction.md)页面。
 :::
 
 ::: warning
@@ -23,13 +23,13 @@ description: 在MCBE中开始脚本编写。
 
 脚本API（前称GameTests，且与[遗留脚本API](../scripting/scripting-intro.md)不同）是一项允许创建新类型创作的功能，这些创作使用行为包文件夹中的JavaScript文件构建。脚本API的某些部分并非实验性。
 
-本页面将为您介绍Minecraft创作者API概念中您每天将使用的80%。
+本页面将为你介绍Minecraft创作者API概念中你每天将使用的80%。
 
-## 创建您的第一个项目
+## 创建你的第一个项目
 
 目前，脚本只能在行为包中使用。
 
-在行为包的清单中，您需要添加一个`script`模块并为您的脚本项目设置一个`entry`点。目前，仅支持`"javascript"`作为有效语言。
+在行为包的清单中，你需要添加一个`script`模块并为你的脚本项目设置一个`entry`点。目前，仅支持`"javascript"`作为有效语言。
 
 <CodeHeader>BP/manifest.json#modules[0]</CodeHeader>
 
@@ -43,10 +43,10 @@ description: 在MCBE中开始脚本编写。
 }
 ```
 
-此外，依赖项需要根据使用的模块进行设置。要导入和使用脚本API模块，您必须使用`module_name`和`version`指定依赖项。在此示例中，使用了`@minecraft/server`模块。
+此外，依赖项需要根据使用的模块进行设置。要导入和使用脚本API模块，你必须使用`module_name`和`version`指定依赖项。在此示例中，使用了`@minecraft/server`模块。
 
 :::warning
-存在一个错误，您无法将资源包应用于具有脚本模块的依赖项。
+存在一个错误，你无法将资源包应用于具有脚本模块的依赖项。
 
 此问题导致Minecraft停止运行脚本并抛出与“未知依赖项”相关的错误。
 :::
@@ -68,12 +68,12 @@ description: 在MCBE中开始脚本编写。
             "type": "script",
             "language": "javascript",
             "uuid": "<UUID>",
-            // 您的入口文件；Minecraft将从中读取您的代码。
+            // 你的入口文件；Minecraft将从中读取你的代码。
             "entry": "scripts/main.js",
             "version": [0, 1, 0]
         }
     ],
-    // 如果您的代码中需要使用eval()和Function()，请在不必要时移除
+    // 如果你的代码中需要使用eval()和Function()，请在不必要时移除
     "capabilities": ["script_eval"],
     "dependencies": [
         {
@@ -90,7 +90,7 @@ description: 在MCBE中开始脚本编写。
 }
 ```
 
-如果您的项目需要其他模块来运行代码，请按照上述格式添加其他依赖项。
+如果你的项目需要其他模块来运行代码，请按照上述格式添加其他依赖项。
 
 **稳定API模块**，这些模块不需要启用Beta API实验。大多数功能包含在稳定API中，并且在Minecraft更新时不会破坏或更改。
 
@@ -136,7 +136,7 @@ description: 在MCBE中开始脚本编写。
 
     -   [`1.0.0-beta`](https://www.npmjs.com/package/@minecraft/server-admin/v/1.0.0-beta.1.21.20-stable)（仅限基岩专用服务器模块）
 
-为了在您的代码中使用`eval()`函数或`Function()`构造函数，您可以在清单功能中添加以下内容：
+为了在你的代码中使用`eval()`函数或`Function()`构造函数，你可以在清单功能中添加以下内容：
 
 <CodeHeader>BP/manifest.json</CodeHeader>
 
@@ -186,7 +186,7 @@ system.runInterval(() => {
 -   [`@minecraft/server-admin`](https://www.npmjs.com/package/@minecraft/server-admin/v/beta)
 -   [`@minecraft/server-net`](https://www.npmjs.com/package/@minecraft/server-net/v/beta)
 
-这些可以在您的编辑器中提供增强的自动补全和验证。
+这些可以在你的编辑器中提供增强的自动补全和验证。
 
 -   bridge. v2：内置GameTest支持。
 -   Visual Studio Code：安装Node.js和npm，然后在命令行中运行以下命令：

@@ -17,15 +17,15 @@ hidden: true
 
 Hacktoberfest是一个为期一个月的开源庆祝活动，旨在促进和发展开源技术。在十月份的整个过程中，所有人都被邀请加入开源软件爱好者、初学者和开发者社区，为开源项目做出贡献。这个年度活动在鼓励对开源生态系统的有意义贡献、推广开源项目以及支持一个欢迎所有人的健康社区方面发挥了重要作用。
 
-作为一个基岩版开源项目，我们也希望提供帮助，并正在寻找对开源项目感兴趣的贡献者，您可以在[贡献地点部分](#where-to-contribute)查看可以参与的项目。如果您不知道如何提供帮助，我们建议您阅读[如何入门](#how-to-get-started)。
+作为一个基岩版开源项目，我们也希望提供帮助，并正在寻找对开源项目感兴趣的贡献者，你可以在[贡献地点部分](#where-to-contribute)查看可以参与的项目。如果你不知道如何提供帮助，我们建议你阅读[如何入门](#how-to-get-started)。
 
 :::warning 注意！
-经过十年的发展，Hacktoberfest将从历史悠久的T恤奖励转向数字奖励包，您可以在[这里](https://hacktoberfest.com/about/#digital-rewards)了解更多信息。
+经过十年的发展，Hacktoberfest将从历史悠久的T恤奖励转向数字奖励包，你可以在[这里](https://hacktoberfest.com/about/#digital-rewards)了解更多信息。
 :::
 
 ## 如何入门
 
-阅读官方的[Hacktoberfest指南](https://hacktoberfest.com/participation/#beginner-resources)以开始您的旅程。之后，请查看下面的组织/项目。如果您有任何疑问，可以[加入Discord](https://discord.gg/XjV87YN)与我们联系，我们是友好的人！
+阅读官方的[Hacktoberfest指南](https://hacktoberfest.com/participation/#beginner-resources)以开始你的旅程。之后，请查看下面的组织/项目。如果你有任何疑问，可以[加入Discord](https://discord.gg/XjV87YN)与我们联系，我们是友好的人！
 
 ## 贡献地点
 
@@ -101,6 +101,6 @@ _查看所有参与的bridge.项目[这里](https://github.com/orgs/bridge-core/
 </Card>
 </CardGrid>
 
-## 感谢您
+## 感谢你
 
-如果您正在阅读这篇文章，说明您对为开源项目做出贡献感兴趣，这真是太棒了！我们希望您在为上述项目做出贡献时度过愉快的时光，并期待您成为我们社区的一部分！
+如果你正在阅读这篇文章，说明你对为开源项目做出贡献感兴趣，这真是太棒了！我们希望你在为上述项目做出贡献时度过愉快的时光，并期待你成为我们社区的一部分！

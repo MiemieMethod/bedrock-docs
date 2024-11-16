@@ -11,16 +11,16 @@ mentions:
 description: 方块的翻书（动画）纹理。
 ---
 
-通过本页面，您将学习：
+通过本页面，你将学习：
 
 - 如何将翻书纹理应用于方块。
 - 在 `RP/textures/flipbook_textures.json` 中可以应用哪些值以及它们的作用。
 
 ## 应用翻书纹理
 
-翻书纹理是动画纹理。像火、水、岩浆和熔岩等方块使用它们。您也可以为您的方块使用动画纹理！
+翻书纹理是动画纹理。像火、水、岩浆和熔岩等方块使用它们。你也可以为你的方块使用动画纹理！
 第一次让我们使用岩浆的动画纹理。
-您只需将岩浆的动画纹理应用于您的方块，通过将 `texture` 值更改为在 `Vanilla RP/textures/terrain_texture.json` 中定义的值：
+你只需将岩浆的动画纹理应用于你的方块，通过将 `texture` 值更改为在 `Vanilla RP/textures/terrain_texture.json` 中定义的值：
 
 ```json
 "magma": {
@@ -67,7 +67,7 @@ description: 方块的翻书（动画）纹理。
 ```json
 {
     "texture_name": "atlas.terrain",
-    "resource_pack_name": "wiki", // 您的资源包的 ID
+    "resource_pack_name": "wiki", // 你的资源包的 ID
     "padding": 8, // 防止纹理在视觉上溢出
     "num_mip_levels": 4, // 从远处或角度查看时的纹理质量
     "texture_data": {
@@ -98,7 +98,7 @@ description: 方块的翻书（动画）纹理。
 
 ## 翻书纹理参数
 
-在查看原版翻书纹理文件时，您可能会注意到一些额外的参数：
+在查看原版翻书纹理文件时，你可能会注意到一些额外的参数：
 
 | 组件               | 类型             | 描述                                                                                                   |
 | ------------------ | ---------------- | ------------------------------------------------------------------------------------------------------ |
@@ -113,7 +113,7 @@ description: 方块的翻书（动画）纹理。
 
 ### `atlas_index`
 
-一个组件，您将在其中定义要动画的方块纹理索引。
+一个组件，你将在其中定义要动画的方块纹理索引。
 
 <CodeHeader>RP/textures/terrain_texture.json#texture_data</CodeHeader>
 
@@ -121,16 +121,16 @@ description: 方块的翻书（动画）纹理。
 "dirt": {
     "textures": [
         "textures/blocks/dirt",
-        "textures/blocks/coarse_dirt" // 假设这是您想要动画的路径
+        "textures/blocks/coarse_dirt" // 假设这是你想要动画的路径
     ]
 }
 ```
 
-由于路径 2 有动画纹理，因此您将在泥土方块的翻书纹理上放置 `"atlas_index": 1`。
+由于路径 2 有动画纹理，因此你将在泥土方块的翻书纹理上放置 `"atlas_index": 1`。
 
 ### `atlas_tile_variant`
 
-一个组件，您将在其中定义要动画的方块变体（已注册到 `variations` 数组中）。
+一个组件，你将在其中定义要动画的方块变体（已注册到 `variations` 数组中）。
 
 <CodeHeader>RP/textures/terrain_texture.json#texture_data</CodeHeader>
 
@@ -139,7 +139,7 @@ description: 方块的翻书（动画）纹理。
     "textures": [
         {
             "variations": [
-                { "path": "textures/blocks/dirt_va" }, // 假设这是您想要动画的方块变体
+                { "path": "textures/blocks/dirt_va" }, // 假设这是你想要动画的方块变体
                 { "path": "textures/blocks/dirt0" },
                 { "path": "textures/blocks/dirt1" }
             ]
@@ -148,7 +148,7 @@ description: 方块的翻书（动画）纹理。
 }
 ```
 
-现在假设我们想要路径 1 动画，那么您需要在泥土方块的翻书纹理上放置 `"atlas_tile_variant": 1`。
+现在假设我们想要路径 1 动画，那么你需要在泥土方块的翻书纹理上放置 `"atlas_tile_variant": 1`。
 
 ### `replicate`
 
@@ -165,4 +165,4 @@ description: 方块的翻书（动画）纹理。
 
 ![](../assets/images/blocks/flipbook-textures/animated_texture_2.gif)
 
-现在您可以修改原版翻书纹理或创建自己的纹理！
+现在你可以修改原版翻书纹理或创建自己的纹理！

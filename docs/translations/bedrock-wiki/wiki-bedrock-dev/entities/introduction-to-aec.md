@@ -39,7 +39,7 @@ description: AOE云的介绍。
 
 ### 结构文件
 
-为了方便，本文包含一个预制的结构文件，您可以下载并使用。里面有一个存在时间最长的AOE云。
+为了方便，本文包含一个预制的结构文件，你可以下载并使用。里面有一个存在时间最长的AOE云。
 
 <Button link="../assets/packs/entities/aec/aec.mcstructure" download>
     下载MCSTRUCTURE

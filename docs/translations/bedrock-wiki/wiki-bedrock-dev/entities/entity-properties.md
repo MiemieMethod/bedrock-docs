@@ -88,7 +88,7 @@
 
 #### `default`
 
-您可以通过在定义的属性对象内的`default`字段设置实体属性的默认值（默认情况下为枚举数组索引的第一个值）：
+你可以通过在定义的属性对象内的`default`字段设置实体属性的默认值（默认情况下为枚举数组索引的第一个值）：
 
 <CodeHeader></CodeHeader>
 
@@ -102,7 +102,7 @@
 }
 ```
 
-如您所见，默认属性在实体生成到世界时被设置为`false`而不是`true`。
+如你所见，默认属性在实体生成到世界时被设置为`false`而不是`true`。
 
 #### `client_sync`
 
@@ -122,13 +122,13 @@
 
 ### 操作和访问实体属性
 
-您可以通过Molang实体查询访问实体属性： - `q.property` - `q.has_property`
+你可以通过Molang实体查询访问实体属性： - `q.property` - `q.has_property`
 
 :::warning
 这些Molang实体查询是实验性功能的一部分。
 :::
 
-通过实体事件，您可以使用`set_property`事件响应将实体属性设置为某个值：
+通过实体事件，你可以使用`set_property`事件响应将实体属性设置为某个值：
 
 <CodeHeader></CodeHeader>
 
@@ -150,7 +150,7 @@
 此功能已被弃用，需指定版本号为1.21.10或更高。
 :::
 
-您可以为实体定义别名，以通过`summon`命令召唤具有设置的实体属性值的实体。实体可以具有多个别名，使用自定义实体标识符：
+你可以为实体定义别名，以通过`summon`命令召唤具有设置的实体属性值的实体。实体可以具有多个别名，使用自定义实体标识符：
 
 <CodeHeader></CodeHeader>
 
@@ -187,4 +187,4 @@
 }
 ```
 
-现在，实体有多个别名，您可以通过`summon`命令使用定义的别名标识符来生成具有设置属性的实体：`/summon ewiki:first_alias`将生成属性`property:property_index`设置为1的实体。
+现在，实体有多个别名，你可以通过`summon`命令使用定义的别名标识符来生成具有设置属性的实体：`/summon ewiki:first_alias`将生成属性`property:property_index`设置为1的实体。

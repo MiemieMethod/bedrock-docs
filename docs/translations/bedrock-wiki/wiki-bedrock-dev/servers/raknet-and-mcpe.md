@@ -13,7 +13,7 @@ description: MCBE的RakNet协议。
 
 Minecraft基岩版使用一种称为[RakNet](http://www.jenkinssoftware.com/)的协议。与Minecraft Java版不同，基岩版在19132端口上使用UDP。
 
-您可以在[这里](../servers/server-software.md#active-software)找到Minecraft基岩版服务器软件的列表。
+你可以在[这里](../servers/server-software.md#active-software)找到Minecraft基岩版服务器软件的列表。
 
 ## RakNet注意事项
 
@@ -133,7 +133,7 @@ Minecraft基岩版会向所有列出的服务器（以及本地网络）发送�
 > 0xd4 0x0b 0xa7 0x86 0xdd 0x98 0x33 0x00 0x00
 > 每个字节替换9个缺失的客户端机器地址中的一个。
 
-发送此数据包后，您必须定期发送连接ping以保持连接活跃。服务器有时也会发送连接ping，回应时发送连接pong。
+发送此数据包后，你必须定期发送连接ping以保持连接活跃。服务器有时也会发送连接ping，回应时发送连接pong。
 
 ### 连接Ping
 
@@ -150,7 +150,7 @@ Minecraft基岩版会向所有列出的服务器（以及本地网络）发送�
 ## 资料来源
 
 ::: tip
-如果您感兴趣并想了解更多信息，这里是基岩协议和RakNet的文档：
+如果你感兴趣并想了解更多信息，这里是基岩协议和RakNet的文档：
 
 [Mojang官方协议文档](https://github.com/Mojang/bedrock-protocol-docs)
 

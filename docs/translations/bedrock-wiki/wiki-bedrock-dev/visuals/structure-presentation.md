@@ -38,6 +38,17 @@
 
 ![](../assets/images/visuals/structure-presentation/structure-block-1.png)
 
+Or you can use the **Structure Presentation Pack** by @minato4743 to simplify the process. It includes some default colors and gradients as well as a toggle to hide the preview arrows.
+
+<Button link="/assets/packs/visuals/structure-presentation/structure_presentation_pack.mcpack" download>
+    Download Pack
+</Button>
+
+![](/assets/images/visuals/structure-presentation/structure_presentation_pack.png)
+
+![](/assets/images/visuals/structure-presentation/pack_gradient_result.png)
+
+
 ### 渲染的3D对象
 
 结构可以导出为3D模型。如果3D导出按钮对你无效，可以尝试应用3d-export-fix包。

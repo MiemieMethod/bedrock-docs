@@ -6,21 +6,21 @@ mentions:
     - zheaEvyline
     - SmokeyStack
 nav_order: 1
-description: 此系统将在玩家首次加入世界时运行您指定的命令。
+description: 此系统将在玩家首次加入世界时运行你指定的命令。
 ---
 
 ## 介绍
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-此系统将在玩家首次加入世界时运行您指定的命令。
+此系统将在玩家首次加入世界时运行你指定的命令。
 
 ## 系统
 
 <CodeHeader>BP/functions/events/player/on_first_join.mcfunction</CodeHeader>
 
 ```yaml
-## 在这里输入您的命令（示例）
+## 在这里输入你的命令（示例）
 ### 给石镐 ×1
 give @a [tag=!joined] stone_pickaxe
 ### 给面包 ×16
@@ -32,7 +32,7 @@ tag @a [tag=!joined] add joined
 
 ![三个命令方块的链](../assets/images/commands/commandBlockChain/3.png)
 
-在这里，我们使用了两个 `/give` 命令作为示例，但您可以使用任何您喜欢的命令，并根据需要添加多个命令。
+在这里，我们使用了两个 `/give` 命令作为示例，但你可以使用任何你喜欢的命令，并根据需要添加多个命令。
 
 只需确保遵循给定的顺序，并正确应用 `tag=!joined` 选择器参数，如示例所示。
 
@@ -46,7 +46,7 @@ tag @a [tag=!joined] add joined
 
 ## Tick JSON
 
-如果您使用函数而不是命令方块，则必须将 `on_first_join` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号来将多个文件添加到 `tick.json` 中。有关更多信息，请参阅 [Functions](../commands/mcfunctions.md#tick-json) 文档。
+如果你使用函数而不是命令方块，则必须将 `on_first_join` 函数添加到 `tick.json` 中，以便循环并持续运行。可以通过在每个字符串后添加逗号来将多个文件添加到 `tick.json` 中。有关更多信息，请参阅 [Functions](../commands/mcfunctions.md#tick-json) 文档。
 
 <CodeHeader>BP/functions/tick.json</CodeHeader>
 ```json
@@ -57,7 +57,7 @@ tag @a [tag=!joined] add joined
 }
 ```
 
-如果使用函数，您的包文件夹结构将如下所示：
+如果使用函数，你的包文件夹结构将如下所示：
 
 <FolderView
 	:paths="[

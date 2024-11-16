@@ -15,7 +15,7 @@ hidden: true
 ---
 
 ::: tip 格式 & 最低引擎版本 `1.21.40`
-本教程假设您对方块和执行命令有高级理解。
+本教程假设你对方块和执行命令有高级理解。
 在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
 :::
 
@@ -25,7 +25,7 @@ hidden: true
 需要 `Beta APIs` 以使用 [@minecraft/server](https://learn.microsoft.com/minecraft/creator/scriptapi/minecraft/server/minecraft-server) 模块版本 `1.6.0-beta`。
 :::
 
-创建与原版流体完全相同的流体目前还不可能，但您可以制作类似的东西！此模板/教程旨在帮助您创建自定义的“半流体”。
+创建与原版流体完全相同的流体目前还不可能，但你可以制作类似的东西！此模板/教程旨在帮助你创建自定义的“半流体”。
 
 ## 流动逻辑
 
@@ -47,7 +47,7 @@ hidden: true
 
 ## 源流体方块
 
-以下是自定义流体的代码。将 `custom_fluid` 替换为您的流体名称。当源方块在周围检测到空气时，它将用外部流体方块替换。如果源方块在下方检测到空气，它还将在下方放置一个下落流体方块。
+以下是自定义流体的代码。将 `custom_fluid` 替换为你的流体名称。当源方块在周围检测到空气时，它将用外部流体方块替换。如果源方块在下方检测到空气，它还将在下方放置一个下落流体方块。
 
 <Button link="https://github.com/Bedrock-OSS/wiki-addon/blob/main/ma-custom_fluids/rp/models/blocks/fluid.geo.json">
     下载自定义流体几何体
@@ -249,7 +249,7 @@ hidden: true
 
 ## 流体桶
 
-要放置您的自定义流体，您需要一个自定义桶物品。以下是自定义桶的 JSON。将任何 `custom_fluid` 的实例替换为您的流体名称。
+要放置你的自定义流体，你需要一个自定义桶物品。以下是自定义桶的 JSON。将任何 `custom_fluid` 的实例替换为你的流体名称。
 
 <Spoiler title="自定义桶物品 JSON">
 
@@ -282,7 +282,7 @@ hidden: true
 
 ## 脚本
 
-这些流体使用脚本来增加玩家在流体中漂浮/下沉的能力。脚本还增加了雾效。要将您的流体添加到脚本中，请将新流体的 ID 放入 `fluids` 字符串数组中。
+这些流体使用脚本来增加玩家在流体中漂浮/下沉的能力。脚本还增加了雾效。要将你的流体添加到脚本中，请将新流体的 ID 放入 `fluids` 字符串数组中。
 
 <CodeHeader>BP/manifest.json</CodeHeader>
 
@@ -357,7 +357,7 @@ system.runInterval(() => {
 
 ## 结果
 
-到最后，您的 BP 文件夹应如下所示：
+到最后，你的 BP 文件夹应如下所示：
 
 <FolderView
   :paths="[
@@ -370,7 +370,7 @@ system.runInterval(() => {
 
 ## 下载示例包
 
-如果出现任何问题，或者您需要所有模板文件，它们可以在此处下载。该包包含功能性流体所需的一切。
+如果出现任何问题，或者你需要所有模板文件，它们可以在此处下载。该包包含功能性流体所需的一切。
 
 <Button link="https://github.com/Bedrock-OSS/wiki-addon/releases/download/download/custom_fluids.mcaddon">
     下载 MCADDON

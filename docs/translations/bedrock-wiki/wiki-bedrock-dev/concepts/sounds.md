@@ -53,10 +53,10 @@ description: 添加自定义声音而不覆盖任何原版声音。
 }
 ```
 
-以这种方式添加的声音可以通过`/playsound`触发。请注意，`playsound`不会自动纠正，因此您需要小心输入。
+以这种方式添加的声音可以通过`/playsound`触发。请注意，`playsound`不会自动纠正，因此你需要小心输入。
 
 :::warning
-通过文件路径引用的新文件，如声音，确实需要完全重启客户端才能加载。这意味着如果声音无法正常工作，您应该重启整个Minecraft客户端，而不仅仅是重新加载世界。
+通过文件路径引用的新文件，如声音，确实需要完全重启客户端才能加载。这意味着如果声音无法正常工作，你应该重启整个Minecraft客户端，而不仅仅是重新加载世界。
 :::
 
 ### /playsound音量说明
@@ -71,7 +71,7 @@ description: 添加自定义声音而不覆盖任何原版声音。
 ![](../assets/images/concepts/sounds/sound_graph.png)
 
 上图显示了**对于播放音量参数大于或等于1的声音的近似声音衰减因子**。请注意，playsound `<volume>`限制了声音的可听范围。
-轴`distance`是声音听众（玩家）与声音源之间的距离。相应的`volume`轴的值是将playsound音量限制在1后，乘以声音定义的音量以获得您听到的声音的最终音量。可以写成这样的表达式：`final_volume = min(playsound_volume, 1) * graph_volume * sound_definition_volume`。
+轴`distance`是声音听众（玩家）与声音源之间的距离。相应的`volume`轴的值是将playsound音量限制在1后，乘以声音定义的音量以获得你听到的声音的最终音量。可以写成这样的表达式：`final_volume = min(playsound_volume, 1) * graph_volume * sound_definition_volume`。
 
 **注意：**可听声音音量的距离衰减不受命令中给定的音量参数的影响。
 
@@ -296,7 +296,7 @@ description: 添加自定义声音而不覆盖任何原版声音。
 
 ## 将声音添加到动画控制器
 
-您可以在动画控制器中播放声音，方式与动画相似。
+你可以在动画控制器中播放声音，方式与动画相似。
 
 以下示例显示了播放与动画控制器同步的爆炸声音。
 

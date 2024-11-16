@@ -18,11 +18,11 @@ description: 为自定义矿石创建类似原版的掉落系统。
 ---
 
 :::tip 格式版本 `1.21.40`
-本教程假设您对方块有基本的了解。
+本教程假设你对方块有基本的了解。
 在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
 :::
 
-本教程旨在展示一种创建自定义矿石方块及其掉落表的新方法。`minecraft:loot`组件将运行指定的掉落表，无论使用何种工具，但通过在掉落表中添加`match_tool`条件，您可以指定每个掉落池所需的工具。
+本教程旨在展示一种创建自定义矿石方块及其掉落表的新方法。`minecraft:loot`组件将运行指定的掉落表，无论使用何种工具，但通过在掉落表中添加`match_tool`条件，你可以指定每个掉落池所需的工具。
 
 此外，通过使用脚本和自定义组件，我们可以创建原版矿石在使用正确工具破坏方块时提供的经验球奖励。
 
@@ -39,7 +39,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 ## 掉落表
 
-在下面的示例中，您可以看到如何使用`match_tool`条件来测试`minecraft:iron_pickaxe`：
+在下面的示例中，你可以看到如何使用`match_tool`条件来测试`minecraft:iron_pickaxe`：
 
 <CodeHeader>BP/loot_tables/blocks/silver_ore.json</CodeHeader>
 
@@ -68,7 +68,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 ### 指定附魔
 
-如果需要，您可以将附魔部分添加到条件中，但请记住，每种工具和等级必须作为单独的池列出。
+如果需要，你可以将附魔部分添加到条件中，但请记住，每种工具和等级必须作为单独的池列出。
 
 还要注意，它只能正确检测第1和第2级附魔。
 
@@ -93,7 +93,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 ## XP奖励脚本
 
-要在矿石方块被破坏时生成经验球，可以使用自定义组件。在这里，我们使用[onPlayerDestroy](../blocks/block-events.md#player-destroy)事件钩子。如果您不希望方块生成经验球，可以忽略此步骤。
+要在矿石方块被破坏时生成经验球，可以使用自定义组件。在这里，我们使用[onPlayerDestroy](../blocks/block-events.md#player-destroy)事件钩子。如果你不希望方块生成经验球，可以忽略此步骤。
 
 与掉落表类似，我们检查玩家手中的物品，然后在方块的位置生成随机数量的经验球。
 
@@ -140,7 +140,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 以下方块行为可以作为模板使用。不要忘记使用`terrain_texture.json`设置方块的纹理。
 
-在这里，您需要做两件事：
+在这里，你需要做两件事：
 
 -   使用`minecraft:loot`组件指向新的掉落表。
 -   将我们的经验奖励自定义组件添加到`minecraft:custom_components`数组中。

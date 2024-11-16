@@ -10,10 +10,10 @@ mentions:
 ---
 
 :::tip 开始之前
-本页面要求您对基本的 JavaScript 有一定了解，并需要掌握现代 [物品事件](/items/item-events) 的工作原理。
+本页面要求你对基本的 JavaScript 有一定了解，并需要掌握现代 [物品事件](/items/item-events) 的工作原理。
 :::
 
-在将您的物品 JSON 事件升级为 [自定义组件](/items/item-events#registering-custom-components) 时遇到困难吗？别担心！本页面将帮助您理解已弃用的 JSON 事件响应在脚本 API 中的实现方式。
+在将你的物品 JSON 事件升级为 [自定义组件](/items/item-events#registering-custom-components) 时遇到困难吗？别担心！本页面将帮助你理解已弃用的 JSON 事件响应在脚本 API 中的实现方式。
 
 ## 添加生物效果
 

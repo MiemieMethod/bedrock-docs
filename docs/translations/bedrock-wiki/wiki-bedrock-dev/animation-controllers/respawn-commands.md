@@ -15,7 +15,7 @@ description: 实体重生时运行命令。
 
 此动画控制器可用于在玩家重生时运行命令，例如重新添加药水效果或给予物品。
 
-只需将以下动画控制器添加到 `player.json` 中，您就完成了！
+只需将以下动画控制器添加到 `player.json` 中，你就完成了！
 
 <CodeHeader>BP/animation_controllers/respawn.ac.json</CodeHeader>
 

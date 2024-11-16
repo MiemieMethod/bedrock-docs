@@ -11,7 +11,7 @@ description: 使用命令创建Max的区块实体系统。
 
 [来源于Bedrock Commands社区Discord](https://discord.gg/SYstTYx5G5)
 
-此方法由Reddit用户 [u/Maxed_Out10](https://www.reddit.com/user/Maxed_Out10/) 开发，允许您使用盔甲架和一些顺序的 `/playanimation` 命令创建几乎完美的Minecraft区块实体复制品。
+此方法由Reddit用户 [u/Maxed_Out10](https://www.reddit.com/user/Maxed_Out10/) 开发，允许你使用盔甲架和一些顺序的 `/playanimation` 命令创建几乎完美的Minecraft区块实体复制品。
 
 为了保留创作者的版权，社区将此方法称为“Max的区块实体”，简称MBE。
 
@@ -37,7 +37,7 @@ _在聊天中输入：_
 
 -   蹲下并右键点击（在mcpe中：长按）盔甲架6次，使其处于“娱乐”姿势。
 -   这样做可以省去下面系统中第一个命令的需要。
--   **仅在您希望减少系统中的一个命令时使用此方法。**
+-   **仅在你希望减少系统中的一个命令时使用此方法。**
 
 :::
 
@@ -78,11 +78,11 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 
 ### 每个命令的目的
 
-1. 自动将盔甲架姿势设置为“娱乐”，以对齐手臂。如果您希望手动设置，请跳过此命令。
+1. 自动将盔甲架姿势设置为“娱乐”，以对齐手臂。如果你希望手动设置，请跳过此命令。
 2. **必需命令**。增加大小以呈现为微型区块。
 3. _可选命令。_ 增加大小以呈现为完整区块。
 4. _可选命令。_ 正确对齐完整区块大小的MBE。
-    - 如果您不需要完整区块大小的MBE，请跳过3和4。
+    - 如果你不需要完整区块大小的MBE，请跳过3和4。
 5. 锁定盔甲架位置，以防止在下面的区块被移除时掉落。
 6. 隐藏盔甲架身体。
 
@@ -205,4 +205,4 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 2. 要加载，请运行：
     - `/structure load wiki <to: x y z>`
 
-> 注意：结构名称`wiki`可以更改为您喜欢的名称。
+> 注意：结构名称`wiki`可以更改为你喜欢的名称。

@@ -7,15 +7,15 @@ tags:
 mentions:
     - QuazChick
     - SmokeyStack
-description: 本教程将指导您制作具有子基数旋转的方块（例如苦力怕头颅和标志），并提供具有此旋转类型的“壳”方块示例。
+description: 本教程将指导你制作具有子基数旋转的方块（例如苦力怕头颅和标志），并提供具有此旋转类型的“壳”方块示例。
 ---
 
 ::: tip 格式与最小引擎版本 `1.21.40`
-本教程假设您对方块和脚本编写有高级理解。
+本教程假设你对方块和脚本编写有高级理解。
 在开始之前，请先查看[方块指南](../blocks/blocks-intro.md)。
 :::
 
-本教程将指导您制作具有子基数旋转的方块（例如苦力怕头颅和标志），并提供具有此旋转类型的“壳”方块示例。
+本教程将指导你制作具有子基数旋转的方块（例如苦力怕头颅和标志），并提供具有此旋转类型的“壳”方块示例。
 
 _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更多！_
 
@@ -29,7 +29,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 ## 方块模型
 
-为了实现更精确的旋转，您的方块模型需要一些额外的骨骼。
+为了实现更精确的旋转，你的方块模型需要一些额外的骨骼。
 
 精确地面旋转需要4个骨骼，每个骨骼具有不同的Y轴旋转：
 
@@ -224,7 +224,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 ## 方块状态
 
-对于类似头颅的旋转，您需要为您的方块添加2个状态：
+对于类似头颅的旋转，你需要为你的方块添加2个状态：
 
 <CodeHeader>minecraft:block</CodeHeader>
 
@@ -248,7 +248,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 ## 初始脚本
 
-在开始编写脚本之前，请确保您已通过将其导入到入口文件中将其链接到您的包清单。
+在开始编写脚本之前，请确保你已通过将其导入到入口文件中将其链接到你的包清单。
 
 <CodeHeader>BP/scripts/main.js</CodeHeader>
 
@@ -268,7 +268,7 @@ import { world } from "@minecraft/server";
 
 与其手动为每个 `wiki:rotation` 值输入边界，不如使用一些除法和舍入来返回所需的值！
 
-将以下函数添加到您的脚本中：
+将以下函数添加到你的脚本中：
 
 <CodeHeader>BP/scripts/shell.js</CodeHeader>
 
@@ -287,11 +287,11 @@ function getPreciseRotation(playerYRotation) {
 
 ## 设置旋转
 
-现在是时候使用此函数设置您添加的方块状态了！
+现在是时候使用此函数设置你添加的方块状态了！
 
 我们将通过使用[自定义组件](../blocks/block-events.md)和更具体地说，[beforeOnPlayerPlace](../blocks/block-events.md#before-player-place)钩子，在方块放置之前更新我们的方块状态。这意味着在我们的事件处理程序中，我们可以访问玩家的旋转。
 
-将以下内容添加到您的脚本中以注册自定义 `wiki:shell_rotation` 组件：
+将以下内容添加到你的脚本中以注册自定义 `wiki:shell_rotation` 组件：
 
 :::tip
 请为自定义组件标识符选择一个唯一的名称。不同包之间不能有重复的自定义组件！
@@ -326,7 +326,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 });
 ```
 
-现在，您可以将此自定义组件应用于您的方块！
+现在，你可以将此自定义组件应用于你的方块！
 
 <CodeHeader>minecraft:block</CodeHeader>
 
@@ -341,7 +341,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 然后，使用[排列](../blocks/block-permutations.md)来定义基础基数旋转，这将通过我们模型中的精确骨骼进行扩展。
 
-将以下排列插入到您的方块 JSON 中（按呈现顺序）：
+将以下排列插入到你的方块 JSON 中（按呈现顺序）：
 
 <CodeHeader>minecraft:block</CodeHeader>
 
@@ -372,7 +372,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 并非模型中的所有骨骼都应该可见，因此我们利用骨骼可见性的 `minecraft:geometry` 属性来确保仅渲染所需的骨骼。之所以需要多个骨骼，是因为 `minecraft:transformation` 仅支持90度的倍数，而精确旋转需要22.5度的步进。
 
-向您的方块添加以下组件：
+向你的方块添加以下组件：
 
 <CodeHeader>minecraft:block > components</CodeHeader>
 
@@ -391,7 +391,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 碰撞/选择框
 
-如果您希望方块在放置在另一个方块的侧面时具有不同的碰撞/选择框，就像我的“壳”方块一样，请添加类似以下排列：
+如果你希望方块在放置在另一个方块的侧面时具有不同的碰撞/选择框，就像我的“壳”方块一样，请添加类似以下排列：
 
 <CodeHeader>minecraft:block > permutations</CodeHeader>
 
@@ -399,7 +399,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 {
     "condition": "q.block_property('minecraft:block_face') != 'up'",
     "components": {
-        // 添加您的碰撞/选择框
+        // 添加你的碰撞/选择框
         "minecraft:collision_box": {
             "origin": [-3, 5, 5],
             "size": [6, 6, 3]
@@ -414,7 +414,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 最终方块 JSON 和脚本
 
-完成上述步骤后，您的方块 JSON 和脚本文件应类似于以下内容：
+完成上述步骤后，你的方块 JSON 和脚本文件应类似于以下内容：
 
 <Spoiler title="壳方块示例 JSON">
 
@@ -555,7 +555,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 结果
 
-您已经创建了：
+你已经创建了：
 
 - [x] 支持精确旋转的方块模型
 - [x] 具有16个支持旋转值的方块，允许在5个方块面上放置（总共20种方向）

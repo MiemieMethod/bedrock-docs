@@ -15,13 +15,13 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 
 原始文本用于向玩家发送和显示富文本。这可以在 `/tellraw` 或 `/titleraw` 命令中使用。
 
-在方括号 `[]` 内，这是您将列出多个文本对象的地方。
+在方括号 `[]` 内，这是你将列出多个文本对象的地方。
 
 ```json
 {"rawtext":[]}
 ```
 
-您可以通过在组件末尾添加逗号 `,` 来组合组件。
+你可以通过在组件末尾添加逗号 `,` 来组合组件。
 
 ## 文本组件
 
@@ -30,7 +30,7 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 **语法：**
 
 ```json
-{"text":"<您的文本在这里>"}
+{"text":"<你的文本在这里>"}
 ```
 
 **示例：**
@@ -73,7 +73,7 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 
 ## 选择器组件
 
-显示您选择的目标的名称。允许使用目标选择器参数。
+显示你选择的目标的名称。允许使用目标选择器参数。
 
 **语法：**
 
@@ -102,8 +102,8 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 ```
 
 - **`name`** - 这可以是任何选择器，如 `@p` 或玩家的名称。
-    - 您还可以使用 **`*`** 通配符来显示读者自己的分数。
-- **`objective`** - 您想要显示分数的记分板的名称。
+    - 你还可以使用 **`*`** 通配符来显示读者自己的分数。
+- **`objective`** - 你想要显示分数的记分板的名称。
 
 在使用分数组件时，两个字段都是必需的。
 
@@ -176,7 +176,7 @@ description: 理解在 /tellraw 和 /titleraw 命令中使用的原始文本 JSO
 #    Hello Alex and Steve
 ```
 
-而且，您可以使用原始文本组件，如下所示。
+而且，你可以使用原始文本组件，如下所示。
 
 ```json
 /tellraw @a {"rawtext":[{"translate":"Hello %%s and %%s","with": {"rawtext":[{"text":"Steve"},{"translate":"item.apple.name"}]}}]}

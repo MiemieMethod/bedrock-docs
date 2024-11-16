@@ -12,9 +12,9 @@ description: Minecraft基岩版粒子介绍。
 
 ## 粒子系统
 
-[粒子系统](https://www.wikiwand.com/en/Particle_system)是一种在游戏物理、运动图形和计算机图形中使用的技术，它利用许多小精灵来创建逼真的效果，如烟雾、火焰或昆虫群。您可以通过使用自定义纹理和运动逻辑在Minecraft基岩版中创建新的粒子系统。这使得粒子变得非常有趣和强大！
+[粒子系统](https://www.wikiwand.com/en/Particle_system)是一种在游戏物理、运动图形和计算机图形中使用的技术，它利用许多小精灵来创建逼真的效果，如烟雾、火焰或昆虫群。你可以通过使用自定义纹理和运动逻辑在Minecraft基岩版中创建新的粒子系统。这使得粒子变得非常有趣和强大！
 
-粒子中的MoLang集成也非常成熟，这允许您在不同粒子之间，或在实体与粒子之间传递数据。
+粒子中的MoLang集成也非常成熟，这允许你在不同粒子之间，或在实体与粒子之间传递数据。
 
 ### 粒子
 
@@ -32,9 +32,9 @@ description: Minecraft基岩版粒子介绍。
 -   一场雨storm（生成雨滴）
 -   一根冒烟的烟囱（生成烟雾）
 
-## 创建您的第一个粒子
+## 创建你的第一个粒子
 
-要创建一个粒子，您需要一个资源包、一个纹理和一个粒子定义文件：
+要创建一个粒子，你需要一个资源包、一个纹理和一个粒子定义文件：
 
 <FolderView
 :paths="[
@@ -43,4 +43,4 @@ description: Minecraft基岩版粒子介绍。
 ]"
 > </FolderView>
  
-您可以使用[Snowstorm](https://jannisx11.github.io/snowstorm/)来创建粒子。
+你可以使用[Snowstorm](https://jannisx11.github.io/snowstorm/)来创建粒子。

@@ -78,7 +78,7 @@ immersive_reader.book_page_header=第%1页，共%2页
 为每种主要语言创建语言文件的副本是一种良好的实践。例如，为了支持完整的英语，应该分别创建`en_US.lang`和`en_GB.lang`文件，以覆盖美国和英国的英语。
 :::
 
-在编辑语言文件时，还必须在`texts`文件夹中添加一个`languages.json`文件，包含一个数组，列出您计划更改的每种语言。这让Minecraft知道应该为这些语言应用本地化。
+在编辑语言文件时，还必须在`texts`文件夹中添加一个`languages.json`文件，包含一个数组，列出你计划更改的每种语言。这让Minecraft知道应该为这些语言应用本地化。
 
 <CodeHeader>RP/texts/languages.json</CodeHeader>
 
@@ -121,14 +121,14 @@ immersive_reader.book_page_header=第%1页，共%2页
 :::
 
 ### 工具
-如果微软正在本地化您的.lang文件，则必须遵循特定的技术要求。
+如果微软正在本地化你的.lang文件，则必须遵循特定的技术要求。
 
 - 确保注释前是&lt;tab&gt;#（**而不是**空格）。
 - 确保换行符为Windows风格（CR+LF），而不是Unix风格。
 - 不能包含重复的键。
 - 字符串必须添加注释以便于翻译。
 
-您可以使用免费的基于浏览器的[LangUtil工具](https://langutil.bedrockexplorer.com)来帮助处理这些问题。
+你可以使用免费的基于浏览器的[LangUtil工具](https://langutil.bedrockexplorer.com)来帮助处理这些问题。
 
 ### 原版语言
 

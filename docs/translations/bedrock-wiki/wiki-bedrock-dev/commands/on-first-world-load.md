@@ -7,14 +7,14 @@ mentions:
     - SmokeyStack
     - cda94581
 nav_order: 6
-description: 此系统将在应用您的附加包后，首次加载世界时运行您所需的命令。
+description: 此系统将在应用你的附加包后，首次加载世界时运行你所需的命令。
 ---
 
 ## 介绍
 
 [来源于 Bedrock Commands 社区 Discord](https://discord.gg/SYstTYx5G5)
 
-此系统将在应用您的附加包后，首次加载世界时运行您所需的命令。
+此系统将在应用你的附加包后，首次加载世界时运行你所需的命令。
 > 注意：要实现此系统，需要一个 [功能](../commands/mcfunctions.md) 包，因为 `tick.json` 文件使我们能够在世界初始化后立即运行命令。
 
 ## Tick JSON
@@ -38,16 +38,16 @@ scoreboard objectives add world dummy
 ### 注册到目标
 scoreboard players add Initialised world 0
 
-## 在此处输入您的命令（示例）
+## 在此处输入你的命令（示例）
 execute if score Initialised world matches 0 run say 新世界已创建！
 
 ## 标记为已初始化
 scoreboard players set Initialised world 1
 ```
 
-在这里，我们使用了一个 `/execute - say` 命令作为示例，但您可以使用任何您喜欢的命令，并根据需要使用多个命令。
+在这里，我们使用了一个 `/execute - say` 命令作为示例，但你可以使用任何你喜欢的命令，并根据需要使用多个命令。
 
-只需确保遵循给定的顺序，并正确应用 `/execute if score` 条件，如所示，以运行您所需的命令。
+只需确保遵循给定的顺序，并正确应用 `/execute if score` 条件，如所示，以运行你所需的命令。
 
 ## 解释
 
