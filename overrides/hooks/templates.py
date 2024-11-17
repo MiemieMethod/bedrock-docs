@@ -169,7 +169,7 @@ def file(args: str, page: Page, files: Files):
     key, *nextArgs = splitted
     type = nextArgs[0]
     hide = False
-    if key.split(".") == "":
+    if key.split(".")[0] == "":
         hide = True
     if len(nextArgs) > 1:
         for arg in nextArgs[1:]:
@@ -182,7 +182,7 @@ def file(args: str, page: Page, files: Files):
 def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
     href = _resolve_path(f"help/docs/contributing.md#{icon}", page, files)
 
-    tagNames = {
+    typeNames = {
         "file": "文件",
         "text": "文本",
         "txt": "纯文本",
@@ -251,7 +251,7 @@ def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
         "material": "Minecraft基岩版材质文件",
         "h": "C++头文件",
         "c": "C源文件",
-        "wikitext": "WikiText",
+        "wikitext": "维基文本",
         "jar": "Java归档",
         "smali": "Dalvik指令集",
         "class": "Java字节码文件",
@@ -280,8 +280,10 @@ def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
 
     text = samp(key) if key else ""
 
-    indicator = ""
+    inject = ""
     if hide:
-        indicator = '{: style="opacity:0.5;" }'
+        inject = "{ style=\"opacity:0.5;\" }"
+    indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
+    indicator += "</span>"
 
-    return f"[:file-type-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}**{text}**"
+    return f"[:file-type-{icon}:{inject}]({href} '{typeNames.get(icon, "")}'){indicator}**{text}**"

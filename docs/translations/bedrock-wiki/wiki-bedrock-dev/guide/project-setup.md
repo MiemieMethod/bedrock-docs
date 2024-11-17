@@ -181,9 +181,9 @@ UUID（_通用唯一标识符_）用于识别你的包，以便其他程序（�
 
 包图标是一个图像文件，用于标识你的附加包在游戏中的外观。如果你有一个低分辨率的正方形图像，可以使用它。否则，请下载并使用这个示例图标：
 
-![包图标](../assets/images/guide/project-setup/pack_icon.png){ align=left styles="image-rendering: pixelated;" }
+![包图标](../assets/images/guide/project-setup/pack_icon.png){ align=left style="image-rendering: pixelated;" }
 
-[下载图像](../assets/images/guide/project-setup/pack_icon.png){ .md-button download=true }
+[下载图像](../assets/images/guide/project-setup/pack_icon.png){ .md-button download }
 
 你应该将所需图像的副本放入RP和BP中。图像需要命名为`pack_icon.png`
 
