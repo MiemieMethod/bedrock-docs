@@ -163,9 +163,9 @@ def file(args: str, page: Page, files: Files):
             return build_file_key("file", args, False, page, files)
         else:
             if splitted[0] == "":
-                return build_file_key(args, splitted[-1], True, page, files)
+                return build_file_key(splitted[-1], args, True, page, files)
             else:
-                return build_file_key(args, splitted[-1], False, page, files)
+                return build_file_key(splitted[-1], args, False, page, files)
     key, *nextArgs = splitted
     type = nextArgs[0]
     hide = False
@@ -177,7 +177,7 @@ def file(args: str, page: Page, files: Files):
                 hide = True
             else:
                 hide = False
-    return build_json_key(type, key, hide, page, files)
+    return build_file_key(type, key, hide, page, files)
 
 def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
     href = _resolve_path(f"help/docs/contributing.md#{icon}", page, files)
