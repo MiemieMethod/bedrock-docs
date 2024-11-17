@@ -252,6 +252,9 @@ pack.description=一个幽灵指南
 
 <div class="treeview" markdown>
 - {{file|com.mojang|folder}}
+    - {{file|development_resource_packs|folder}}
+        - {{file|guide_RP|folder}}
+            - {{file|manifest.json}}
 </div>
 
 ## 你所学到的内容
