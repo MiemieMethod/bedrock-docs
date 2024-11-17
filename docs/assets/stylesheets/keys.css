@@ -6,3 +6,6 @@
 .md-typeset .keys span {
     font-family: Roboto;
 }
+.md-typeset .keys {
+    padding: 0 0.2em 0 0.2em;
+}
