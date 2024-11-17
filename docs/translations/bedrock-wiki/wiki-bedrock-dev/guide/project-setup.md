@@ -251,6 +251,7 @@ pack.description=一个幽灵指南
 请记住，在以后，我们将把`com.mojang/development_behavior_packs/guide_RP/`表示为`RP`，将`com.mojang/development_behavior_packs/guide_BP/`表示为`BP`。
 
 <div class="treeview" markdown>
+- {{file|com.mojang|folder}}
 </div>
 
 ## 你所学到的内容
