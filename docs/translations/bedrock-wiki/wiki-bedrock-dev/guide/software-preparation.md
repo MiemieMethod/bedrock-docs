@@ -161,7 +161,7 @@ LibreSprite是一个免费的开源程序，用于创建和动画化你的精灵
 
 ### 加入Discord
 
-获取本指南帮助的最佳地方是加入[Discord服务器](/discord)（们）。
+获取本指南帮助的最佳地方是加入[Discord服务器](../discord.md)（们）。
 
 ### 原版包
 

@@ -183,7 +183,7 @@ UUID（_通用唯一标识符_）用于识别你的包，以便其他程序（�
 
 ![包图标](../assets/images/guide/project-setup/pack_icon.png){ align=left styles="image-rendering: pixelated;" }
 
-[下载图像](../assets/images/guide/project-setup/pack_icon.png){ .md-button download }
+[下载图像](../assets/images/guide/project-setup/pack_icon.png){ .md-button download=true }
 
 你应该将所需图像的副本放入RP和BP中。图像需要命名为`pack_icon.png`
 
