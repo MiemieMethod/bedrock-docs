@@ -11,23 +11,23 @@ description: 如何设置你的项目
 - 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/project-setup.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/project-setup.md)
 - 该页面的版本为<!-- md:samp Bedrock-OSS/bedrock-wiki@60593ceb65e7bf8258290ccaa1d1bbd610062a0d -->
 - 该页面的作者有：
-  - <!-- md:samp SirLich -->
-  - <!-- md:samp sovledDev -->
-  - <!-- md:samp Joelant05 -->
-  - <!-- md:samp Dreamedc2015 -->
-  - <!-- md:samp BlueFrog130 -->
-  - <!-- md:samp sermah -->
-  - <!-- md:samp cda94581 -->
-  - <!-- md:samp MedicalJewel105 -->
-  - <!-- md:samp TheItsNameless -->
-  - <!-- md:samp ThijsHankelMC -->
-  - <!-- md:samp TheHyperWhale -->
-  - <!-- md:samp stirante -->
-  - <!-- md:samp ChibiMango -->
-  - <!-- md:samp Etanarvazac -->
-  - <!-- md:samp retr0cube -->
-  - <!-- md:samp ThomasOrs -->
-  - <!-- md:samp lescx -->
+    - <!-- md:samp @SirLich -->
+    - <!-- md:samp @sovledDev -->
+    - <!-- md:samp @Joelant05 -->
+    - <!-- md:samp @Dreamedc2015 -->
+    - <!-- md:samp @BlueFrog130 -->
+    - <!-- md:samp @sermah -->
+    - <!-- md:samp @cda94581 -->
+    - <!-- md:samp @MedicalJewel105 -->
+    - <!-- md:samp @TheItsNameless -->
+    - <!-- md:samp @ThijsHankelMC -->
+    - <!-- md:samp @TheHyperWhale -->
+    - <!-- md:samp @stirante -->
+    - <!-- md:samp @ChibiMango -->
+    - <!-- md:samp @Etanarvazac -->
+    - <!-- md:samp @retr0cube -->
+    - <!-- md:samp @ThomasOrs -->
+    - <!-- md:samp @lescx -->
 ///
 
 ## 介绍
@@ -183,7 +183,7 @@ UUID（_通用唯一标识符_）用于识别你的包，以便其他程序（�
 
 ![包图标](../assets/images/guide/project-setup/pack_icon.png){ align=left styles="image-rendering: pixelated;" }
 
-[下载图像](../assets/images/guide/project-setup/pack_icon.png){ .md-button }
+[下载图像](../assets/images/guide/project-setup/pack_icon.png){ .md-button download }
 
 你应该将所需图像的副本放入RP和BP中。图像需要命名为`pack_icon.png`
 
@@ -191,12 +191,12 @@ UUID（_通用唯一标识符_）用于识别你的包，以便其他程序（�
 
 最后一步是为你的附加包设置语言支持。你需要为RP和BP创建一个语言文件。你可以在[这里](https://minecraft.fandom.com/wiki/Language)了解更多关于Minecraft如何处理本地化的信息。
 
-```json title="RP/texts/en_US.lang"
+```lang title="RP/texts/en_US.lang"
 pack.name=Wiki资源包
 pack.description=一个幽灵指南
 ```
 
-```json title="BP/texts/en_US.lang"
+```lang title="BP/texts/en_US.lang"
 pack.name=Wiki行为包
 pack.description=一个幽灵指南
 ```
@@ -235,8 +235,8 @@ pack.description=一个幽灵指南
 
 2. 确保以下设置已设置。
 
-   ![](../assets/images/guide/project-setup/settings_1.png)
-   ![](../assets/images/guide/project-setup/settings_2.png)
+    ![](../assets/images/guide/project-setup/settings_1.png)
+    ![](../assets/images/guide/project-setup/settings_2.png)
 
 3. 现在激活你的行为包和资源包。你可以通过选择这些包并点击“应用”来做到这一点。
 
