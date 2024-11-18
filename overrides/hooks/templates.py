@@ -282,8 +282,8 @@ def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
 
     inject = ""
     if hide:
-        inject = "{ style=\"opacity:0.5;\" }"
+        inject = "style=\"opacity:0.5;\""
     indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     indicator += "</span>"
 
-    return f"[:file-type-{icon}:{inject}]({href} '{typeNames.get(icon, "")}'){indicator}**{text}**"
+    return f":file-type-{icon}:{{ title=\"{typeNames.get(icon, "")}\" {inject} }}{indicator}**{text}**"

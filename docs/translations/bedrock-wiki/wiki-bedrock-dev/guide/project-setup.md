@@ -255,6 +255,17 @@ pack.description=一个幽灵指南
     - {{file|development_resource_packs|folder}}
         - {{file|guide_RP|folder}}
             - {{file|manifest.json}}
+            - {{file|pack_icon.png}}
+            - {{file|texts|folder}}
+                - {{file|en_US.lang}}
+                - {{file|languages.json}}
+    - {{file|development_behavior_packs|folder}}
+        - {{file|guide_BP|folder}}
+            - {{file|manifest.json}}
+            - {{file|pack_icon.png}}
+            - {{file|texts|folder}}
+                - {{file|en_US.lang}}
+                - {{file|languages.json}}
 </div>
 
 ## 你所学到的内容
