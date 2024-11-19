@@ -353,7 +353,7 @@ mentions:
 
 - **问**：我们已经可以通过脚本做到这一点，但它不太符合“原版”感觉。
     如果我们能够禁用方块在丝触时掉落，或改变丝触时的掉落物，那将很好。
-- **答**：在自定义方块上，可以通过在掉落表中添加 `match_tool` 条件，包括丝触附魔来实现。
-    [掉落表条件](https://learn.microsoft.com/en-us/minecraft/creator/documents/loottableconditions?view=minecraft-bedrock-stable#match_tool)
+- **答**：在自定义方块上，可以通过在战利品表中添加 `match_tool` 条件，包括丝触附魔来实现。
+    [战利品表条件](https://learn.microsoft.com/en-us/minecraft/creator/documents/loottableconditions?view=minecraft-bedrock-stable#match_tool)
 
-    在我们的短期路线图上有一种方法，可以在销毁时更改原版方块的掉落表。
+    在我们的短期路线图上有一种方法，可以在销毁时更改原版方块的战利品表。

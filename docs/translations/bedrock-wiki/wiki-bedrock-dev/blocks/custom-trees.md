@@ -602,7 +602,7 @@ description: 重现原版树木。
 
 ///
 
-## 掉落表
+## 战利品表
 
 /// details-info | 代码">
 

@@ -78,7 +78,7 @@ description: 生成规则定义了实体如何在世界中生成。
 -   "`minecraft:difficulty_filter`" 设置启用该实体生成的难度等级范围。
 -   "`minecraft:herd`" 设置一起生成的实体数量，适用于同一生成规则。
 -   "`minecraft:permute_type`" 通过 "`weight`" 和 "`entity_type`" 设置生成的实体变异为不同实体的几率。
--   "`minecraft:biome_filter`" 测试特定的生物群落标签。请查阅文档中的过滤器语法和生物群落标签列表，或在原版示例包中搜索示例。
+-   "`minecraft:biome_filter`" 测试特定的生物群系标签。请查阅文档中的过滤器语法和生物群系标签列表，或在原版示例包中搜索示例。
 
 ## 所有已知组件
 

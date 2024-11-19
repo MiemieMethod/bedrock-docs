@@ -18,7 +18,7 @@ description: 在本教程中，你将学习如何让实体手中持有物品。
 ---
 
 /// tip
-本教程假设你对实体、掉落表和Blockbench有基本的了解。
+本教程假设你对实体、战利品表和Blockbench有基本的了解。
 ///
 
 在本教程中，你将学习如何让实体手中持有物品。我将使用一个自定义的`mandalorian_armorer`实体和一个自定义的`hammer`物品作为示例。
@@ -32,7 +32,7 @@ description: 在本教程中，你将学习如何让实体手中持有物品。
 
 ## 行为包部分
 
-接下来，你需要在实体的组件列表中添加一个`minecraft:equipment`组件，并添加一个包含所需物品的掉落表。
+接下来，你需要在实体的组件列表中添加一个`minecraft:equipment`组件，并添加一个包含所需物品的战利品表。
 
 在我们的示例中，它将如下所示：
 
@@ -42,15 +42,15 @@ description: 在本教程中，你将学习如何让实体手中持有物品。
 }
 ```
 
-## 掉落表
+## 战利品表
 
-最后，为你的实体添加掉落表。它需要位于行为包中的`loot_tables/entities/<your_loot_table_name>.json`。在我们的案例中，它被称为`mandolorian.json`。
+最后，为你的实体添加战利品表。它需要位于行为包中的`loot_tables/entities/<your_loot_table_name>.json`。在我们的案例中，它被称为`mandolorian.json`。
 
 :::warning
-这与实体死亡时掉落的物品掉落表不同。因此，请确保它有一个不同的名称。
+这与实体死亡时掉落的物品战利品表不同。因此，请确保它有一个不同的名称。
 :::
 
-要让实体始终持有相同的物品，请添加以下掉落表：
+要让实体始终持有相同的物品，请添加以下战利品表：
 
 ```json title="BP/loot_tables/entities/gear/mandolorian.json"
 {

@@ -1,5 +1,5 @@
 ---
-title: 矿石掉落表
+title: 矿石战利品表
 category: 教程
 tags:
     - 简单
@@ -22,7 +22,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
 ///
 
-本教程旨在展示一种创建自定义矿石方块及其掉落表的新方法。`minecraft:loot`组件将运行指定的掉落表，无论使用何种工具，但通过在掉落表中添加`match_tool`条件，你可以指定每个掉落池所需的工具。
+本教程旨在展示一种创建自定义矿石方块及其战利品表的新方法。`minecraft:loot`组件将运行指定的战利品表，无论使用何种工具，但通过在战利品表中添加`match_tool`条件，你可以指定每个掉落池所需的工具。
 
 此外，通过使用脚本和自定义组件，我们可以创建原版矿石在使用正确工具破坏方块时提供的经验球奖励。
 
@@ -37,7 +37,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
     -   所有物品必须单独指定
     -   非玩家破坏方块的方法（爆炸、命令等）将无法掉落物品
 
-## 掉落表
+## 战利品表
 
 在下面的示例中，你可以看到如何使用`match_tool`条件来测试`minecraft:iron_pickaxe`：
 
@@ -91,7 +91,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 要在矿石方块被破坏时生成经验球，可以使用自定义组件。在这里，我们使用[onPlayerDestroy](../blocks/block-events.md#player-destroy)事件钩子。如果你不希望方块生成经验球，可以忽略此步骤。
 
-与掉落表类似，我们检查玩家手中的物品，然后在方块的位置生成随机数量的经验球。
+与战利品表类似，我们检查玩家手中的物品，然后在方块的位置生成随机数量的经验球。
 
 ```js title="BP/scripts/silver_ore.js"
 import { world, EquipmentSlot } from "@minecraft/server";
@@ -136,7 +136,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 在这里，你需要做两件事：
 
--   使用`minecraft:loot`组件指向新的掉落表。
+-   使用`minecraft:loot`组件指向新的战利品表。
 -   将我们的经验奖励自定义组件添加到`minecraft:custom_components`数组中。
 
 ```json title="BP/blocks/silver_ore.json"
