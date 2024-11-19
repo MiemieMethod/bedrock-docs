@@ -28,10 +28,10 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 
 你可以在 [这里](https://minecraft.wiki/w/Particles) 或 [这里](../particles/vanilla-particles.md) 找到粒子列表。
 
-:::warning 警告！
+/// warning | 警告！
 并不是每个粒子都能在这里工作。如果遇到问题，请考虑尝试其他粒子。例如，使用这个粒子。
 另外请注意，有些粒子会持续发射。
-:::
+///
 
 ### 声音
 
@@ -44,9 +44,9 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 }
 ```
 
-:::warning 警告！
+/// warning | 警告！
 并不是每个声音都能在这里工作。如果遇到问题，请考虑尝试其他声音。例如，使用这个声音。
-:::
+///
 
 ## 为动画添加特效
 
@@ -159,9 +159,9 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 
 ![](../assets/images/visuals/animation-effects/showcase.png)
 
-:::warning 警告！
+/// warning | 警告！
 目前（1.21.1）定位器在可附加物体上是有问题的。
-:::
+///
 
 ## 离屏更新
 

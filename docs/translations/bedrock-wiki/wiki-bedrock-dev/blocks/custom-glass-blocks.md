@@ -11,10 +11,10 @@ mentions:
     - SmokeyStack
 ---
 
-::: tip 格式版本 `1.21.40`
+/// tip | 格式版本 `1.21.40`
 本示例需要对方块有基本了解。
 在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
-:::
+///
 
 制作玻璃方块看起来可能是个简单的任务，但当你第一次尝试时，你的方块可能会显得不透明。本页面将向你展示如何使用[材质实例](../blocks/block-components.md#material-instances)实现纹理的半透明效果。
 

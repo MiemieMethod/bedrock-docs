@@ -18,11 +18,11 @@ mentions:
 description: 脚本介绍。
 ---
 
-:::danger 停止！
+/// danger | 停止！
 
 此脚本 API 不再受支持。请参阅新的 [脚本 API](../scripting/starting-scripts.md)。
 
-:::
+///
 
 本教程将教你如何作为 Minecraft 基岩版（Windows 10）的脚本模组开发者开始和运行！
 

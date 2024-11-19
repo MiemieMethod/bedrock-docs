@@ -17,9 +17,9 @@ _**这个系统最初是由CrunchyCookie创建的。所有关于这个系统的�
 
 ## 系统
 
-:::info 注意
+/// info | 注意
 每当我们使用词语 `<crafter>` 时，我们指的是用作合成器的投掷器的坐标。如果你看到 `<crafterX>`、`<crafterY>` 或 `<crafterZ>`，我们指的是投掷器的 X、Y、Z 坐标。
-:::
+///
 
 1. 放置一个朝下的投掷器。这将用于模拟原版合成器，并将在本页面的其余部分中称为“合成器”。
 2. 将一个重复命令方块横向放置，并粘贴以下命令：`execute if blocks ~ ~1 ~ ~ ~1 ~ <crafter> masked run playsound random.orb @a[x=<crafterX>, y=<crafterY>, z=<crafterZ>, r=6]`
@@ -50,6 +50,6 @@ _**这个系统最初是由CrunchyCookie创建的。所有关于这个系统的�
     下载 MCSTRUCTURE
 </Button>
 
-:::info 注意
+/// info | 注意
 你仍然需要在命令中将 `<crafter>` 替换为玩家将要交互的输入投掷器的坐标。
-:::
+///

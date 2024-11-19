@@ -21,9 +21,9 @@ mentions:
     - BlazeDrake
 ---
 
-:::tip 格式版本 `1.21.40`
+/// tip | 格式版本 `1.21.40`
 在创建自定义方块时使用最新的格式版本可以访问新功能和改进。维基旨在分享关于自定义方块的最新信息，目前目标格式版本为 `1.21.40`。
-:::
+///
 
 ## 注册自定义组件
 
@@ -83,11 +83,11 @@ beforeOnPlayerPlace(event) {
 
 ### 实体落在上面
 
-:::tip 依赖项
+/// tip | 依赖项
 实体落在上面的事件需要在方块上激活 [`minecraft:entity_fall_on`](../blocks/block-components.md#entity-fall-on) 组件才能触发。
 
 实体落在上面的事件要求 [`minecraft:collision_box`](../blocks/block-components.md#collision-box) 组件在 Y 轴上为 4 或更高才能触发。
-:::
+///
 
 当实体落在方块上时运行。
 
@@ -158,9 +158,9 @@ onRandomTick(event) {
 
 ### 脚步离开
 
-:::tip 依赖项
+/// tip | 依赖项
 脚步离开事件要求 [`minecraft:collision_box`](../blocks/block-components.md#collision-box) 组件在 Y 轴上为 4 或更高才能触发。
-:::
+///
 
 当实体离开方块时运行。
 
@@ -174,9 +174,9 @@ onStepOff(event) {
 
 ### 脚步踩上
 
-:::tip 依赖项
+/// tip | 依赖项
 脚步踩上事件要求 [`minecraft:collision_box`](../blocks/block-components.md#collision-box) 组件在 Y 轴上为 4 或更高才能触发。
-:::
+///
 
 当实体踩上方块时运行。
 
@@ -190,9 +190,9 @@ onStepOn(event) {
 
 ### 滴答
 
-:::tip 依赖项
+/// tip | 依赖项
 滴答事件要求在方块上激活 [`minecraft:tick`](../blocks/block-components.md#tick) 组件才能触发。
-:::
+///
 
 在方块的 [`minecraft:tick`](../blocks/block-components.md#tick) 组件的 `interval_range` 内的 X 和 Y 次滴答之间触发。
 

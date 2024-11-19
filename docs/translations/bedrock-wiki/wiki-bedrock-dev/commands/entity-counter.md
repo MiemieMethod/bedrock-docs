@@ -93,11 +93,11 @@ execute if score Creepers count matches ..3 run title @a actionbar 世界中有�
 ]"
 ></FolderView>
 
-:::info 注意：
+/// info | 注意：
 
 记分板名称（在本例中为 'count'）可能会被其他人使用。在后面附加 `_` 和一组随机生成的字符将减少冲突的概率。类似的技术也可以用于 `.mcfunction` 文件名。例如：
 
 -   `count_0fe678`
 -   `entity_counter_0fe678.mcfunction`
 
-:::
+///

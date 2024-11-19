@@ -19,9 +19,9 @@ mentions:
 description: 创建表单用户界面，无需处理 JSON 用户界面。
 ---
 
-::: warning
+/// warning
 脚本 API 目前正在积极开发中，破坏性更改频繁。此页面假设 Minecraft 版本为 1.20.60。
-:::
+///
 
 在 1.18.30 版本中，Minecraft 发布了一个新的脚本模块 `@minecraft/server-ui`（之前称为 `mojang-minecraft-ui`）。通过这个模块，我们可以创建表单用户界面，无需处理 JSON 用户界面。
 

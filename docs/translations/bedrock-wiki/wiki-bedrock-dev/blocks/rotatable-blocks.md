@@ -11,10 +11,10 @@ mentions:
 description: 创建可旋转的方块。
 ---
 
-::: tip 格式与最低引擎版本 `1.21.40`
+/// tip | 格式与最低引擎版本 `1.21.40`
 本教程假设你对方块有基本的了解，包括 [方块状态](../blocks/block-states.md) 和 [方块特性](../blocks/block-traits.md)。
 在开始之前，请查看 [方块指南](../blocks/blocks-intro.md)。
-:::
+///
 
 ## 旋转类型
 

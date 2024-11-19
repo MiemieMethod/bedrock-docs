@@ -14,13 +14,13 @@ hidden: true
 description: 制作自定义长矛。
 ---
 
-::: tip
+/// tip
 强烈建议你对JavaScript和脚本API有基本的了解。
-:::
+///
 
-::: warning
+/// warning
 强烈建议你为本指南准备基本的纹理和模型。
-:::
+///
 
 在开始之前，让我们确保你的文件结构已设置好：
 
@@ -245,9 +245,9 @@ description: 制作自定义长矛。
 
 在我们的客户端实体文件中，你可能注意到绑定了动画。这个动画将使我们的投射物在飞行时旋转。
 
-::: warning
+/// warning
 确保你的实体模型与下面的图像相似！
-:::
+///
 
 ![](../assets/images/items/spears/spear_model.png)
 

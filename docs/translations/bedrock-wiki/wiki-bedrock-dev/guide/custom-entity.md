@@ -11,21 +11,21 @@ description: 如何创建你的第一个自定义实体。
 - 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/custom-entity.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/custom-entity.md)
 - 该页面的版本为<!-- md:samp Bedrock-OSS/bedrock-wiki@60593ceb65e7bf8258290ccaa1d1bbd610062a0d -->
 - 该页面的作者有：
-  - <!-- md:samp @ThijsHankelMC -->
-  - <!-- md:samp @TheItsNameless -->
-  - <!-- md:samp @SmokeyStack -->
-  - <!-- md:samp @MedicalJewel105 -->
-  - <!-- md:samp @SirLich -->
-  - <!-- md:samp @ChibiMango -->
-  - <!-- md:samp @smell-of-curry -->
-  - <!-- md:samp @Hatchibombotar -->
-  - <!-- md:samp @Sephodious -->
-  - <!-- md:samp @LeGend077 -->
-  - <!-- md:samp @Ascent817 -->
-  - <!-- md:samp @BaHuu -->
-  - <!-- md:samp @Sprunkles317 -->
-  - <!-- md:samp @ThomasOrs -->
-  - <!-- md:samp @QuazChick -->
+    - <!-- md:samp @ThijsHankelMC -->
+    - <!-- md:samp @TheItsNameless -->
+    - <!-- md:samp @SmokeyStack -->
+    - <!-- md:samp @MedicalJewel105 -->
+    - <!-- md:samp @SirLich -->
+    - <!-- md:samp @ChibiMango -->
+    - <!-- md:samp @smell-of-curry -->
+    - <!-- md:samp @Hatchibombotar -->
+    - <!-- md:samp @Sephodious -->
+    - <!-- md:samp @LeGend077 -->
+    - <!-- md:samp @Ascent817 -->
+    - <!-- md:samp @BaHuu -->
+    - <!-- md:samp @Sprunkles317 -->
+    - <!-- md:samp @ThomasOrs -->
+    - <!-- md:samp @QuazChick -->
 ///
 
 与自定义物品类似，我们也可以创建具有许多与游戏中原版实体相似机制的自定义实体。这些实体可以非常强大，允许你制作自己的动物，这些动物可以被繁殖和驯服，或者成为攻击任何它看到的目标的攻击性生物。
@@ -937,26 +937,41 @@ item.spawn_egg.entity.wiki:ghost.name=Ghost
 
 你的文件夹结构应如下所示：
 
-<FolderView :paths="[
-  'RP/animations/ghost.a.json',
-  'RP/animation_controllers/ghost.ac.json',
-  'RP/entity/ghost.ce.json',
-  'RP/models/entity/ghost.geo.json',
-  'RP/render_controllers/ghost.rc.json',
-  'RP/textures/entity/ghost.png',
-  'RP/textures/items/ectoplasm.png',
-  'RP/textures/item_texture.json',
-  'RP/texts/en_US.lang',
-  'RP/texts/languages.json',
-  'RP/manifest.json',
-  'RP/pack_icon.png',
-  'BP/entities/ghost.se.json',
-  'BP/items/ectoplasm.json',
-  'BP/texts/en_US.lang',
-  'BP/texts/languages.json',
-  'BP/manifest.json',
-  'BP/pack_icon.png',
-]"></FolderView>
+<div class="treeview" markdown>
+- {{file|RP|folder}}
+    - {{file|animations|folder}}
+        - {{file|ghost.a.json}}
+    - {{file|animation_controllers|folder}}
+        - {{file|ghost.ac.json}}
+    - {{file|entity|folder}}
+        - {{file|ghost.ce.json}}
+    - {{file|models|folder}}
+        - {{file|entity|folder}}
+            - {{file|ghost.geo.json}}
+    - {{file|render_controllers|folder}}
+        - {{file|ghost.rc.json}}
+    - {{file|textures|folder}}
+        - {{file|entity|folder}}
+            - {{file|ghost.png}}
+        - {{file|items|folder}}
+            - {{file|ectoplasm.png}}
+        - {{file|item_texture.json}}
+    - {{file|texts|folder}}
+        - {{file|en_US.lang}}
+        - {{file|languages.json}}
+    - {{file|manifest.json}}
+    - {{file|pack_icon.png}}
+- {{file|BP|folder}}
+    - {{file|entities|folder}}
+        - {{file|ghost.se.json}}
+    - {{file|items|folder}}
+        - {{file|ectoplasm.json}}
+    - {{file|texts|folder}}
+        - {{file|en_US.lang}}
+        - {{file|languages.json}}
+    - {{file|manifest.json}}
+    - {{file|pack_icon.png}}
+</div>
 
 /// details-info | 完整的ghost.se.json
 

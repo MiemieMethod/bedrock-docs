@@ -9,9 +9,9 @@ mentions:
     - SmokeyStack
 ---
 
-:::tip 格式版本 `1.21.40`
+/// tip | 格式版本 `1.21.40`
 在创建自定义物品时使用最新的格式版本可以访问新的功能和改进。维基旨在分享关于自定义物品的最新信息，目前针对格式版本 `1.21.40`。
-:::
+///
 
 ## 注册自定义组件
 
@@ -62,9 +62,9 @@ onBeforeDurabilityDamage(event) {
 
 ### 完成使用
 
-:::tip 依赖项
+/// tip | 依赖项
 完成使用事件需要在你的物品上激活 [`minecraft:use_modifiers`](/items/item-components#use-modifiers) 组件才能触发。
-:::
+///
 
 当包含此组件的物品的使用持续时间完成时，将调用此事件。
 
@@ -85,9 +85,9 @@ onCompleteUse(event) {
 
 当包含此组件的物品被实体食用时，将调用此事件。
 
-:::tip 依赖项
+/// tip | 依赖项
 完成使用事件需要在你的物品上激活 [`minecraft:use_modifiers`](/items/item-components#use-modifiers) 和 [`minecraft:food`](/items/item-components#food) 组件才能触发。
-:::
+///
 
 ```json title="minecraft:item > components"
 "minecraft:food": {},

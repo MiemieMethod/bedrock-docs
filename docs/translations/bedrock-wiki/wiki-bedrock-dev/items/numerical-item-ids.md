@@ -4,9 +4,9 @@ category: 文档
 description: 数值物品ID。
 ---
 
-::: tip
+/// tip
 本页面是[此页面](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/addonsreference/examples/addonitems)的更准确版本，当前版本为1.21.20。
-:::
+///
 
 ## 概述
 

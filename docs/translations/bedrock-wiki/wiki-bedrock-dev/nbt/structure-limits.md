@@ -14,9 +14,9 @@ description: 扩展结构限制。
 [compound]: /assets/images/nbt/compound.png
 [string]: /assets/images/nbt/string.png
 
-:::warning 已弃用
+/// warning | 已弃用
 此方法在1.20.50更新后不再有效。
-:::
+///
 
 默认情况下，Minecraft不允许你保存超过64x255x64大小的结构。在本指南中，你将学习如何扩展结构块的结构框大小。
 

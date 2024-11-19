@@ -70,11 +70,11 @@ tag @a [tag=!joined] add joined
 ]"
 ></FolderView>
 
-:::info 注意：
+/// info | 注意：
 
 标签名称（在本例中为 'joined'）可能会被其他人使用。可以在后面附加 `_` 和一组随机生成的字符，以减少冲突的概率。类似的技术也可以应用于 `.mcfunction` 文件名。例如：
 
 -   `joined_0fe678`
 -   `on_first_join_0fe678.mcfunction`
 
-:::
+///

@@ -9,9 +9,9 @@ mentions:
     - QuazChick
 ---
 
-:::tip 开始之前
+/// tip | 开始之前
 此页面要求你对基本 JavaScript 感到熟悉，并了解现代 [区块事件](../blocks/block-events.md) 的工作原理。
-:::
+///
 
 在将你的区块 JSON 事件升级为 [自定义组件](../blocks/block-events.md#registering-custom-components) 时遇到困难吗？别担心！本页面将帮助你理解已弃用的 JSON 事件响应在脚本 API 中的实现方式。
 

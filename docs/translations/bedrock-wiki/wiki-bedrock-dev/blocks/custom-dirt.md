@@ -13,14 +13,14 @@
 隐藏: true
 ---
 
-:::tip 格式 & 最低引擎版本 `1.21.40`
+/// tip | 格式 & 最低引擎版本 `1.21.40`
 本教程假设你对区块有良好的理解。
 开始前请查看 [区块指南](../blocks/blocks-intro.md)、[区块状态](../blocks/block-states.md) 和 [区块排列](../blocks/block-permutations.md)。
-:::
+///
 
-:::warning EXPERIMENTAL
+/// warning | EXPERIMENTAL
 需要启用 `Holiday Creator Features` 来触发区块事件，并使用区块标签 Molang 查询和 `minecraft:unit_cube` 区块组件。
-:::
+///
 
 ## 自定义泥土
 

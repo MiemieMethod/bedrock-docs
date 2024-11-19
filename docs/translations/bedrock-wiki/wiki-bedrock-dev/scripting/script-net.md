@@ -11,13 +11,13 @@ mentions:
 description: 基岩版专用服务器的脚本请求API。
 ---
 
-::: warning
+/// warning
 脚本API目前正在积极开发中，可能会频繁发生破坏性更改。本页面假设使用Minecraft 1.21.20的格式。
-:::
+///
 
-::: warning
+/// warning
 此模块仅可在基岩版专用服务器上使用。
-:::
+///
 
 在脚本API中，你可以发送和接收基于HTTP的请求与互联网进行交互。有关更详细的信息，请访问[Microsoft文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server-net/minecraft-server-net)。
 

@@ -37,7 +37,7 @@ description: 如何在安卓上设置你的项目
 
 1. **Acode：**[免费版](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree)包含广告，但可以在不付费的情况下关闭。支持使用个人访问令牌的GitHub集成、FTP/SFTP、支持100多种语言的语法高亮（包括JSON）、多文件编辑的标签视图、数十种主题等。该应用是开源的，并有一个[付费版](https://play.google.com/store/apps/details?id=com.foxdebug.acode)，允许更深入的主题自定义。
 
-/// info | 信息
+/// info
 Acode是目前在安卓上唯一一个积极开发的强大代码编辑器。其他编辑器功能非常有限或已被放弃，从Google Play商店消失。如果你知道有其他代码应用，可以为本指南做贡献。
 ///
 
@@ -49,7 +49,7 @@ Acode是目前在安卓上唯一一个积极开发的强大代码编辑器。其
 
 ## 工作区
 
-/// tip | 提示
+/// tip
 在本指南的此版本中，“BP”指的是你的行为包文件夹，“RP”指的是你的资源包文件夹。对于文件或目录中的位置，`../<current location>`表示“从上一个位置”后跟添加的空间（例如：`/one/two/three/file.txt`将缩短为`../three/file.txt`）
 
 如果你的设备已root，你可以直接使用`/Android/data/com.mojang.minecraftpe/files/games/com.mojang`进行主要项目设置，使用开发版本的行为包和资源包文件夹。否则，请按以下步骤操作。
@@ -72,7 +72,7 @@ Acode是目前在安卓上唯一一个积极开发的强大代码编辑器。其
 
 ## BP & RP清单
 
-/// warning | 警告
+/// warning
 从现在开始，所有文件和文件夹都有非常具体的名称，除非另有说明。文件和/或文件夹命名错误是导致错误的常见原因。请确保按照提供的示例仔细检查你的工作。如果提到的文件或文件夹尚未创建，请在适当的目录中创建它。
 
 在文件管理器或某些文本或代码应用程序中创建新文件时，`.txt`扩展名会自动添加到文件名末尾。为确保我们的文件按预期工作，请务必删除`.txt`。与名称一样，错误的文件扩展名也是导致错误的常见原因。如果你使用Acode，你会注意到`untitled.txt`被完全高亮显示，而不仅仅是`untitled`。这是命名编程语言文件的常见做法。
@@ -186,7 +186,7 @@ pack.description=这个附加包由Wiki贡献者制作！
 
 ## 开启内容日志
 
-/// warning | 警告
+/// warning
 内容日志是调试附加包时最有用的工具。请勿跳过此步骤。
 ///
 

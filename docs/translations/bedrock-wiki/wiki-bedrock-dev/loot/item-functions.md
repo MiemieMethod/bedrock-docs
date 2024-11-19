@@ -47,9 +47,9 @@ Java 版本的附加函数或属性均未成功
 | 实体装备         | ✅     |
 | 交易表           | ❌     |
 
-::: tip 注意
+/// tip | 注意
 交易表使用 [`"quantity"` 属性](../loot/trade-tables.md#quantity) 来设置其数量。
-:::
+///
 
 `set_count` 函数设置该物品条目的数量。
 

@@ -11,9 +11,9 @@ mentions:
     - SmokeyStack
 ---
 
-::: tip 格式 & 最低引擎版本 `1.21.40`
+/// tip | 格式 & 最低引擎版本 `1.21.40`
 本教程假设你对区块和脚本有高级理解。在开始之前，请先查看 [区块](../blocks/blocks-intro.md) 和 [脚本](../scripting/starting-scripts.md) 指南。
-:::
+///
 
 创建玩家可以互动的自定义区块的能力从实现上可能非常基础，但仍然允许复杂的功能。然而，有时基于简单右键点击或轻敲区块而没有位置特定条件的默认交互模式不足以实现所需的功能。
 
@@ -233,11 +233,11 @@ const QuadrantInteractionBlockComponent = {
 
 ## SelectionBoxes 类
 
-::: warning
+/// warning
 与 `minecraft:selection_box` 和 `minecraft:collision_box` 组件一样，在设置你的选择框时，请勿使用 Blockbench 显示的位置值，因为它们是从西北方向测量的，而不是东北方向。请改用导出 `.geo.json` 文件中的 origin 值。
 
 如果你希望使用 Blockbench 的值，应该在 [`getSelected`](#getselected-1) 中将 `invertX` 选项设置为 true。
-:::
+///
 
 此类允许你在区块中定义三维区域，并获取面选择所在的盒子。
 

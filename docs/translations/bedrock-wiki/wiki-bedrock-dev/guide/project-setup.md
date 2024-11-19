@@ -80,7 +80,7 @@ _提示：你可以在搜索栏中输入`%appdata%`直接跳转到`C:\Users\<USE
 
 ## 你的工作区
 
-/// tip | 提示
+/// tip
 在本指南中，BP指的是你在`development_behavior_packs`中创建的文件夹（“行为包”），RP指的是你在`development_resource_packs`中创建的文件夹（“资源包”）。
 ///
 

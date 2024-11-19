@@ -37,11 +37,11 @@ execute as <target> if score @s <objective> = Highest <objective> run <command>
 
 _在比较玩家 2 之后，`Highest` 分数与玩家 1 的比较没有变化（因为 10 已经大于 5）。_
 
-:::info 注意：
+/// info | 注意：
 
 通配符 (`*`) 与所有跟踪分数进行比较——包括离线玩家。要仅与在线玩家或实体进行比较，请使用 `@a` 或 `@e`。
 
-:::
+///
 
 **命令 2：** 此命令可以修改或扩展。如果 `<target>` 的分数等于 `Highest` 分数，则允许你运行所需的命令。
 
@@ -84,11 +84,11 @@ execute as <target> if score @s <objective> = Lowest <objective> run <command>
 
 _在比较玩家 3 之后，`Lowest` 分数与玩家 2 的比较没有变化（因为 50 已经小于 200）。_
 
-:::info 注意：
+/// info | 注意：
 
 通配符 (`*`) 与所有跟踪分数进行比较——包括离线玩家。要仅与在线玩家或实体进行比较，请使用 `@a` 或 `@e`。
 
-:::
+///
 
 **命令 2：** 此命令可以修改或扩展。如果 `<target>` 的分数等于 `Lowest` 分数，则允许你运行所需的命令。
 
@@ -123,10 +123,10 @@ execute as @a at @s at @a [rm=0.01] if score @s <objective> = @p <objective> run
 
 ![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)
 
-:::info 注意：
+/// info | 注意：
 
 在 `<command>` 中（以 `/say` 为例），`@s` 指的是执行实体或玩家（目标），而 `@p` 或 `@e [c=1]` 指的是正在比较的实体或玩家。
-:::
+///
 
 **可视化：**
 

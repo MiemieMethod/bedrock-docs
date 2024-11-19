@@ -8,17 +8,17 @@ description: 通过脚本阻止方块放置。
 
 本教程分为两个部分：一个是稳定方法，一个是测试版方法。你可以根据使用的脚本 API 版本独立使用这两个部分。
 
-::: warning
+/// warning
 脚本 API 当前正在积极开发中，可能会频繁发生重大更改。本页面假设使用的是 Minecraft 1.21.20 的格式。
-:::
+///
 
 是否曾经需要阻止特定方块的放置？在 1.20.10 中，一些危险的不可获取方块可以被获取，因此你可以使用此脚本来保护你的世界或服务器！
 
 ## 设置
 
-::: tip
+/// tip
 在创建脚本之前，建议先学习 JavaScript、附加包和脚本 API 的基础知识。要了解脚本 API 的功能，请参见 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/)。
-:::
+///
 
 与其他脚本一样，你需要在 `manifest.json` 中添加依赖项。我们使用的是 `@minecraft/server` 模块，具体版本为 `1.14.0-beta`。
 
@@ -80,9 +80,9 @@ description: 通过脚本阻止方块放置。
 import { world, system } from "@minecraft/server";
 ```
 
-::: tip
+/// tip
 了解更多关于 `system` 的信息，请访问 [系统事件](../scripting/script-server.md#events)。
-:::
+///
 
 添加模块后，我们将添加阻止方块放置的措施。
 

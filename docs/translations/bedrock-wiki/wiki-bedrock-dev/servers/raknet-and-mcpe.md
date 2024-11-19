@@ -149,7 +149,7 @@ Minecraft基岩版会向所有列出的服务器（以及本地网络）发送�
 
 ## 资料来源
 
-::: tip
+/// tip
 如果你感兴趣并想了解更多信息，这里是基岩协议和RakNet的文档：
 
 [Mojang官方协议文档](https://github.com/Mojang/bedrock-protocol-docs)
@@ -157,6 +157,6 @@ Minecraft基岩版会向所有列出的服务器（以及本地网络）发送�
 [RakNet协议文档](https://wiki.vg/Raknet_Protocol)
 
 [另一个RakNet协议文档](https://github.com/vp817/RakNetProtocolDoc)
-:::
+///
 
 此页面正在进行中，欢迎贡献，因为它仍在完善中。

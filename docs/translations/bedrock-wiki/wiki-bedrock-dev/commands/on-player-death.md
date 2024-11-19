@@ -88,22 +88,22 @@ scoreboard players set @a [scores={is_alive=0}] is_alive 2
 ]"
 ></FolderView>
 
-:::info 注意：
+/// info | 注意：
 
 记分板名称（在本例中为 'is*alive'）可能会被其他人使用。在后面附加 ` * ` 和一组随机生成的字符将减少冲突的可能性。类似的技术也可以用于 `.mcfunction` 文件名。例如：
 
 -   `is_alive_0fe678`
 -   `on_death_0fe678.mcfunction`
 
-:::
+///
 
 ## 替代方法
 
 此方法在 Minecraft `1.19.50` 中引入了新的 `/execute` 语法后成为可能。
 
-:::warning 已知问题：
+/// warning | 已知问题：
 如果两个或更多玩家被传送到同一点，其中一个玩家死亡而其他玩家不移动，系统将无法执行命令。
-:::
+///
 
 -   确保添加 `is_dead` 记分板目标：
     -   `/scoreboard objectives add is_dead dummy`

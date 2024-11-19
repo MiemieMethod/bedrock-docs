@@ -11,11 +11,11 @@ mentions:
     - TheItsNameless
 description: 学习如何制作船只行为。
 ---
-:::warning 需要格式版本 1.16.100 或更低
+/// warning | 需要格式版本 1.16.100 或更低
 
 行为格式版本现在要求 `minecraft:behavior.rise_to_liquid_level` 和 `minecraft:buoyant` 方法在 1.16.100 或更低版本中才能正常工作。
 如果你发现了在更新格式版本中有效的新方法，欢迎你通过更新维基来贡献你的力量。
-:::
+///
 
 ## 使用运行时标识符
 

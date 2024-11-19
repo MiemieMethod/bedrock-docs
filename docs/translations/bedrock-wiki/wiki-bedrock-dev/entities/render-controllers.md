@@ -81,13 +81,13 @@ description: 了解渲染控制器。
 
 例如，上面的渲染控制器用于`minecraft:cow`实体。如果你想在自己的包中使用这个渲染控制器，只需在实体文件中定义为：`"render_controllers": [ "controller.render.cow" ]`。
 
-:::warning 请记住！
+/// warning | 请记住！
 渲染控制器基于短名称工作。如果你想使用牛的渲染控制器，你需要提供它所使用的短名称。在这种情况下，你需要提供：
 
 - `default`几何体
 - `default`纹理
 - `default`材料
-:::
+///
 
 ## 创建自定义渲染控制器
 

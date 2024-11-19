@@ -20,11 +20,11 @@
 
 ## 编辑NBT
 
-::: 警告
+/// warning
 在编辑NBT文件之前，请务必备份你的数据！
 
 实验功能可能与每个设备不兼容，并可能导致你的世界出现意外行为。
-:::
+///
 
 1. 从你的.mcworld、.mctemplate或com.mojang世界文件夹中提取level.dat。
 2. 使用NBT编辑器（例如NBT Studio）打开该文件。

@@ -24,9 +24,9 @@ mentions:
 
 UV模式和纹理大小应保持不变。
 
-:::danger 命名空间
+/// danger | 命名空间
 模型标识符**不带命名空间且不能包含冒号**。冒号以前用于模型继承，在现代几何格式中无效。
-:::
+///
 
 ![](../assets/images/blocks/block-models/project_settings.png)
 
@@ -131,11 +131,11 @@ UV模式和纹理大小应保持不变。
 
 然后，可以通过其`RP/textures/terrian_texture.json`短名称通过材质实例应用纹理。在这个例子中，纸袋不应该阻挡光线，因此其光线减弱设置为0。
 
-:::warning BLOCKS.JSON
+/// warning | BLOCKS.JSON
 将[`minecraft:geometry`](../blocks/block-components.md#geometry)添加到你的方块将导致游戏忽略`RP/blocks.json`中的纹理定义。
 
 如果你在该文件中定义了方块的纹理，请确保将它们迁移到[`minecraft:material_instances`](../blocks/block-components.md#material-instances)中，以便它们能够出现。
-:::
+///
 
 ```json title="BP/blocks/paper_bag.json"
 {

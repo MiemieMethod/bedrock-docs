@@ -17,9 +17,9 @@ mentions:
 description: 在本教程中，你将学习如何让实体手中持有物品。
 ---
 
-::: tip
+/// tip
 本教程假设你对实体、掉落表和Blockbench有基本的了解。
-:::
+///
 
 在本教程中，你将学习如何让实体手中持有物品。我将使用一个自定义的`mandalorian_armorer`实体和一个自定义的`hammer`物品作为示例。
 

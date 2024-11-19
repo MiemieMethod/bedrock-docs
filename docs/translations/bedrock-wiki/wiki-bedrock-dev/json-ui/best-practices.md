@@ -12,9 +12,9 @@ mentions:
 description: 处理JSON UI的最佳方法。
 ---
 
-:::tip 信息
+/// tip | 信息
 本文内容假设你对JSON-UI系统有一定了解。如果你是JSON-UI的新手，请通过阅读[JSON-UI简介](../json-ui/json-ui-intro.md)和[JSON-UI文档](../json-ui/json-ui-documentation.md)来熟悉它。
-:::
+///
 
 ## 最大化兼容性并最小化UI出错的可能性
 

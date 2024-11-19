@@ -85,10 +85,10 @@ function damage_item(item) {
 
 ### 使用脚本
 
-:::warning 实验性脚本
+/// warning | 实验性脚本
 
 此脚本使用 `@minecraft/server 1.9.0-beta`，在下一个Minecraft更新中将会更改。
-:::
+///
 
 对于格式版本 1.20.40 及之后，`on_hurt_entity` 不再有效。
 
@@ -143,10 +143,10 @@ world.afterEvents.entityHurt.subscribe((event) => {
 
 ### 使用脚本
 
-:::warning 实验性脚本
+/// warning | 实验性脚本
 
 此脚本使用 `@minecraft/server 1.9.0-beta`，在下一个Minecraft更新中将会更改。
-:::
+///
 
 对于格式版本 1.20.20 及之后，`on_dig` 不再有效。
 

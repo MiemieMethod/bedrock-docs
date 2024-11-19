@@ -8,9 +8,9 @@ mentions:
     - QuazChick
 ---
 
-:::tip FORMAT & MIN ENGINE VERSION `1.21.40`
+/// tip | FORMAT & MIN ENGINE VERSION `1.21.40`
 使用最新的格式版本创建自定义物品可以访问新的功能和改进。维基旨在分享关于自定义物品的最新信息，目前目标格式版本为 `1.21.40`。
-:::
+///
 
 ## 应用组件
 

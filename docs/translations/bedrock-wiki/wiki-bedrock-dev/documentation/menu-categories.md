@@ -34,9 +34,9 @@ description: 菜单类别决定了物品和方块在创造模式物品栏和配�
 }
 ```
 
-:::danger 隐藏物品在命令中无法访问 ([MCPE-177866](https://bugs.mojang.com/browse/MCPE-177866))
+/// danger | 隐藏物品在命令中无法访问 ([MCPE-177866](https://bugs.mojang.com/browse/MCPE-177866))
 目前，在自定义物品（非方块）中将类别设置为 "none" 会阻止该物品在命令中使用，覆盖 "is_hidden_in_commands" 选项。此问题不影响方块。
-:::
+///
 
 ## 方块示例
 

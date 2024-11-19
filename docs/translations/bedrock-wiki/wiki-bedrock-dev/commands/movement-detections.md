@@ -23,7 +23,7 @@ description: 这些命令技术允许你检测特定玩家/实体的“状态”
 
 ![](../assets/images/commands/movement-detections/moving.gif)
 
-:::warning 已知问题：
+/// warning | 已知问题：
 
 1. 在望远镜缩放或缓慢效果等级6或更高时，不考虑移动。
 2. 跳跃会导致检测触发两次。
@@ -78,7 +78,7 @@ execute as @a [scores={is_moving=1..}] run say 我仍在移动
 
 如果你迫切需要**仅使用命令**单独检测行走和短跑，可以使用下面的技术。
 
-:::warning 已知问题：
+///warning 已知问题：
 行走/短跑检测在有效果和附魔时可能无法按预期工作。
 :::
 
@@ -229,9 +229,9 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在潜行
 
 注意：爬行时，玩家的碰撞盒减少到0.6区块。
 
-:::warning 已知问题：
+/// warning | 已知问题：
 在水中游泳或使用鞘翅滑翔将被检测为爬行。
-:::
+///
 
 **命令：**
 
@@ -273,7 +273,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在爬行
 
 如果你迫切需要**仅使用命令**单独检测这三种状态，可以使用下面的技术。
 
-:::warning 已知问题：
+/// warning | 已知问题：
 
 1. 在接触地面/天花板滑翔或直撞到墙壁时，将被检测为爬行。
 2. 在没有相邻方块上下的情况下，穿戴鞘翅从方块的绝对角落爬行，将被检测为滑翔。
@@ -281,7 +281,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在爬行
 3. 在另一个含水方块下的含水方块中游泳，将被检测为爬行。
     - ![issue3](../assets/images/commands/movement-detections/issue3.png)
 
-:::
+///
 
 ```yaml title="BP/functions/states/player/is_crawling.mcfunction"
 ## 设置玩家状态

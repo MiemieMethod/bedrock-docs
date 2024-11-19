@@ -11,9 +11,9 @@ mentions:
 description: 对部分核心API机制的介绍。
 ---
 
-::: warning
+/// warning
 脚本API目前正在积极开发中，且经常有重大变更。本页面基于Minecraft 1.21.20版本的格式。
-:::
+///
 
 在脚本API中，大多数核心功能都在 `@minecraft/server` 模块中实现，该模块包含许多与Minecraft世界交互的方法，包括实体、方块、维度等。本文对部分核心API机制进行了基本介绍。欲了解更详细的信息，请访问 [微软文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/minecraft-server) 页面。
 
@@ -40,13 +40,13 @@ description: 对部分核心API机制的介绍。
 
 世界事件API提供了许多事件监听器，当Minecraft世界中发生特定类型的事件时触发，例如 `chatSend`、`entityHurt`、`playerSpawn`、`worldInitialize` 等等。
 
-::: tip
+/// tip
 查看微软文档以了解Minecraft中可用的世界事件。
 
 -   事件前触发器会在事件发生前触发，且为只读但可以被取消。 [事件前文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/worldbeforeevents)。
 -   事件后触发器会在事件执行后触发，且不能被取消。 [事件后文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/worldafterevents)
 -   除非需要取消事件，否则应始终使用事件后触发器。
-:::
+///
 
 为了订阅事件，需要从世界对象中获取 `afterEvents` 属性。在这个例子中，我们将订阅破坏方块事件。
 
@@ -69,13 +69,13 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
 
 系统事件在Minecraft附加包系统范围内发生特定类型的事件时触发。
 
-::: tip
+/// tip
 查看微软文档以了解Minecraft中可用的系统事件。
 
 -   事件前触发器会在事件发生前触发，且为只读但可以被取消。 [事件前文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/systembeforeevents)。
 -   事件后触发器会在事件执行后触发，且不能被取消。 [事件后文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/systemafterevents)
 -   两种类型的事件用于不同的目的。
-:::
+///
 
 从系统对象中获取 `beforeEvents` 属性。在这个例子中，我们将订阅 watchdogTerminate 事件，允许API在游戏超出性能边界时取消性能看门狗关闭世界，具体取决于脚本环境的配置。
 
@@ -366,9 +366,9 @@ import { world } from "@minecraft/server";
 
 ## BeforeEvents 权限系统
 
-::: tip
+/// tip
 开发者可能会在微软文档中发布讨论此主题的文章，但目前这是社区收集的信息。
-:::
+///
 
 在1.20.0版本中，Minecraft脚本API为事件前触发器（如 `ChatSendBeforeEvent`）中的回调发布了权限系统。
 

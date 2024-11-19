@@ -11,13 +11,13 @@ mentions:
 description: 在MCBE中开始脚本编写。
 ---
 
-::: tip
+/// tip
 本脚本API页面假设你对附加包的打包设置有基本了解。有关如何设置行为包的信息，请参阅[附加包简介](../guide/introduction.md)页面。
-:::
+///
 
-::: warning
+/// warning
 脚本API目前正在积极开发中，破坏性更改频繁。此页面假设使用的是Minecraft 1.21.20的格式。
-:::
+///
 
 ## 概述
 

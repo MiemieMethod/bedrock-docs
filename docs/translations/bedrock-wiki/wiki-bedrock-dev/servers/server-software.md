@@ -212,8 +212,8 @@ Minecraft服务器允许玩家在线或通过局域网与其他人一起游戏�
 
 ## 许可
 
-:::tip 许可证
+/// tip | 许可证
 本页面根据 `GNU较宽松公共许可证v3.0` 进行许可。
 
 原始来源由 `xinghao2003` 编写，可在[此处找到。](https://github.com/xinghao2003/MCBE-ServerSoftware-List)
-:::
+///

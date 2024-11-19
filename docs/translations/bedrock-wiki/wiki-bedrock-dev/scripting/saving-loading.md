@@ -15,11 +15,11 @@ mentions:
 description: 保存和加载脚本数据。
 ---
 
-:::danger 停止！
+/// danger | 停止！
 
 此脚本 API 不再支持。请参考新的 [脚本 API](../scripting/starting-scripts.md)。
 
-:::
+///
 
 在基岩版中，保存和加载数据是比较棘手的，因为脚本无法直接访问本地文件系统。
 

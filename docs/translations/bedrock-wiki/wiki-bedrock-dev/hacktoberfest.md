@@ -19,9 +19,9 @@ Hacktoberfest是一个为期一个月的开源庆祝活动，旨在促进和发�
 
 作为一个基岩版开源项目，我们也希望提供帮助，并正在寻找对开源项目感兴趣的贡献者，你可以在[贡献地点部分](#where-to-contribute)查看可以参与的项目。如果你不知道如何提供帮助，我们建议你阅读[如何入门](#how-to-get-started)。
 
-:::warning 注意！
+/// warning | 注意！
 经过十年的发展，Hacktoberfest将从历史悠久的T恤奖励转向数字奖励包，你可以在[这里](https://hacktoberfest.com/about/#digital-rewards)了解更多信息。
-:::
+///
 
 ## 如何入门
 

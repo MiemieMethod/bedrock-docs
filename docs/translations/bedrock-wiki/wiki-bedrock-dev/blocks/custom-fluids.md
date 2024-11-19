@@ -14,16 +14,16 @@ description: 重现原版流体。
 hidden: true
 ---
 
-::: tip 格式 & 最低引擎版本 `1.21.40`
+/// tip | 格式 & 最低引擎版本 `1.21.40`
 本教程假设你对方块和执行命令有高级理解。
 在开始之前，请查看[方块指南](../blocks/blocks-intro.md)。
-:::
+///
 
-::: warning 实验性
+/// warning | 实验性
 需要使用 `Holiday Creator Features` 以使用方块标签 Molang 查询和触发方块事件。
 
 需要 `Beta APIs` 以使用 [@minecraft/server](https://learn.microsoft.com/minecraft/creator/scriptapi/minecraft/server/minecraft-server) 模块版本 `1.6.0-beta`。
-:::
+///
 
 创建与原版流体完全相同的流体目前还不可能，但你可以制作类似的东西！此模板/教程旨在帮助你创建自定义的“半流体”。
 

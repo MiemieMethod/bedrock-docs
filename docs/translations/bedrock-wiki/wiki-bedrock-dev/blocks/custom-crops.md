@@ -13,10 +13,10 @@ mentions:
 description: 原版作物的再创作。
 ---
 
-:::tip 格式 & 最低引擎版本 `1.21.40`
+/// tip | 格式 & 最低引擎版本 `1.21.40`
 本教程假设你对区块和脚本有良好的理解。
 在开始之前，请查看[区块指南](../blocks/blocks-intro.md)、[区块状态](../blocks/block-states.md)和[区块事件](../blocks/block-events.md)。
-:::
+///
 
 如果你不喜欢胡萝卜，也没关系。你可以制作自己的（更优越的）作物！
 

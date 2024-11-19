@@ -81,11 +81,11 @@ npm install @minecraft/server-net@beta
   'package.json',
 ]"></FolderView>
 
-::: tip
+/// tip
 
 如果你收到`command npm not found`的错误，请确保你已安装Node.js并将其添加到PATH中。
 
-:::
+///
 
 现在可以初始化项目。下一步是在当前目录创建一个`tsconfig.json`文件，内容如下，模拟Minecraft脚本API文件系统。
 
