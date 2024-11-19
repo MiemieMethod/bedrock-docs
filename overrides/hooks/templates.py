@@ -200,7 +200,7 @@ def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
         "lua": "Lua脚本",
         "php": "PHP脚本",
         "sh": "Shell脚本",
-        "compress": "压缩包",
+        "archive": "压缩包",
         "zip": "ZIP压缩包",
         "rar": "RAR压缩包",
         "gz": "GZ压缩包",
