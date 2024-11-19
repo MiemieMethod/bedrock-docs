@@ -79,5 +79,6 @@
     下载NBT文件
 </Button>
 
-:::tip 重要事项 - 文件可能包含NBT基岩头，因此请注意可能出现这种情况。请参见 [深入了解NBT](../nbt/nbt-in-depth.md)>[NBT基岩头](../nbt/nbt-in-depth.md#bedrock-nbt-file-header)。 - 结束的空字节并不终止NBT的读取，而只是标记当前复合的结束。 - 所有读取的数字都需要使用小端格式读取，详见 [深入了解NBT](../nbt/nbt-in-depth.md)>[小端格式](../nbt/nbt-in-depth.md#little-endian)。 - 文件中的第一个根NBT元素只能是复合或列表。NBT文件中的根元素/属性也有自己的名称，尽管它通常是空的，但仍需要读取以避免复杂情况。
-:::
+/// tip
+重要事项 - 文件可能包含NBT基岩头，因此请注意可能出现这种情况。请参见 [深入了解NBT](../nbt/nbt-in-depth.md)>[NBT基岩头](../nbt/nbt-in-depth.md#bedrock-nbt-file-header)。 - 结束的空字节并不终止NBT的读取，而只是标记当前复合的结束。 - 所有读取的数字都需要使用小端格式读取，详见 [深入了解NBT](../nbt/nbt-in-depth.md)>[小端格式](../nbt/nbt-in-depth.md#little-endian)。 - 文件中的第一个根NBT元素只能是复合或列表。NBT文件中的根元素/属性也有自己的名称，尽管它通常是空的，但仍需要读取以避免复杂情况。
+///

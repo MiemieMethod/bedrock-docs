@@ -46,9 +46,9 @@ description: 在本教程中，你将学习如何让实体手中持有物品。
 
 最后，为你的实体添加战利品表。它需要位于行为包中的`loot_tables/entities/<your_loot_table_name>.json`。在我们的案例中，它被称为`mandolorian.json`。
 
-:::warning
+/// warning
 这与实体死亡时掉落的物品战利品表不同。因此，请确保它有一个不同的名称。
-:::
+///
 
 要让实体始终持有相同的物品，请添加以下战利品表：
 

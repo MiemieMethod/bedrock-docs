@@ -9,9 +9,9 @@ mentions:
 description: MCBE的着色器。
 ---
 
-:::warning
+/// warning
 本页面上的着色器与[Render Dragon](https://help.minecraft.net/hc/en-us/articles/360052771272-About-the-1-16-200-Update-for-Windows-10-)不兼容。这意味着它们在1.16.200及之后的Windows和主机设备上无法使用，也无法在1.18.30及之后的其他设备上使用！
-:::
+///
 
 ## 概述
 

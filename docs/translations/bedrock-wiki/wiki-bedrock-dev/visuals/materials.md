@@ -11,9 +11,9 @@ mentions:
 description: 了解Minecraft基岩版中的材料。
 ---
 
-:::warning
+/// warning
 材料并不适合心志脆弱的人。请准备好应对潜在的崩溃、内容日志错误和较长的加载时间。
-:::
+///
 
 ## 概述
 
@@ -36,9 +36,9 @@ description: 了解Minecraft基岩版中的材料。
 }
 ```
 
-:::warning
+/// warning
 尽管看起来相似，但不要混淆包中的材料格式文件。材料中不使用命名空间。
-:::
+///
 
 一些材料文件包含广泛的材料分支树。例如，几乎所有默认实体使用的材料最终都是材料`entity_static`在entity.material文件中的派生物。如果我们查看当前村民使用的材料：
 

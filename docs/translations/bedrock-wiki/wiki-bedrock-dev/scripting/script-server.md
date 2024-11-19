@@ -241,9 +241,9 @@ system.runTimeout(() => {
 
 要获取和设置动态属性，可以使用 `getDynamicProperty` 和 `setDynamicProperty` 方法。
 
-:::tip
+/// tip
 请注意，获取动态属性并不保证其有保存的值。第一次获取属性时，方法会返回 `undefined`。
-:::
+///
 
 考虑到这一点，以下是如何在Minecraft中获取和设置动态属性的一些示例：
 

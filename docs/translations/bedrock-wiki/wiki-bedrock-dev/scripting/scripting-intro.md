@@ -26,8 +26,9 @@ description: 脚本介绍。
 
 本教程将教你如何作为 Minecraft 基岩版（Windows 10）的脚本模组开发者开始和运行！
 
-:::warning 自 1.17.40 版本起，脚本仅支持 Windows，不支持移动平台（Android/iOS）或主机设备。
-:::
+/// warning
+自 1.17.40 版本起，脚本仅支持 Windows，不支持移动平台（Android/iOS）或主机设备。
+///
 
 ## 前提条件
 

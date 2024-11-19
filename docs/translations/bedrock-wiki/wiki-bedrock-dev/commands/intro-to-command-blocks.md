@@ -59,9 +59,9 @@ description: Minecraft基岩版命令方块简介。
 
 刻是指Minecraft游戏刻。一个 **刻** 只是游戏中时间的度量单位。现实生活中的1秒大约等于Minecraft中的20个游戏刻。
 
-:::tip
+/// tip
 ![gametick.png](../assets/images/commands/gametick.png)
-:::
+///
 
 ## 命令方块悬停备注
 

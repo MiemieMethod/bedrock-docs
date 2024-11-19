@@ -42,9 +42,9 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 这些骨骼可能是彼此的复制品，除了旋转变化。
 
-:::tip
+/// tip
 保持骨骼的旋转点设置为 `[0, 0, 0]`，以便围绕方块的中心旋转。
-:::
+///
 
 此外，还需要一个 `side` 骨骼用于放置在侧面。
 
@@ -281,9 +281,9 @@ function getPreciseRotation(playerYRotation) {
 
 将以下内容添加到你的脚本中以注册自定义 `wiki:shell_rotation` 组件：
 
-:::tip
+/// tip
 请为自定义组件标识符选择一个唯一的名称。不同包之间不能有重复的自定义组件！
-:::
+///
 
 ```js title="BP/scripts/shell.js"
 /** @type {import("@minecraft/server").BlockCustomComponent} */

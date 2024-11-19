@@ -76,11 +76,11 @@ execute as @a run scoreboard players add playerCount total 1
 
 - 首先获得 `NewPlayerCount` 总数，然后执行减法以运行你所需的命令，最后获得 `PlayerCount` 总数以便在下一个游戏刻使用。
 
-:::tip
+/// tip
 所有涉及命令方块链或函数的命令将按顺序一个接一个地运行，但所有操作仍然发生在同一刻，无论涉及多少命令。我们能够实现此系统是因为命令在游戏刻结束时运行，在所有事件（如玩家登录、登出、死亡等）发生后。
 
 ![游戏刻](../assets/images/commands/gametick.png)
-:::
+///
 
 ## Tick JSON
 

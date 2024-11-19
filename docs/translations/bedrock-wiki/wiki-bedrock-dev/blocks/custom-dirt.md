@@ -26,9 +26,9 @@
 
 下面是一个自定义泥土区块的示例。使用锄头可以将此自定义泥土转化为 `wiki:custom_farmland`，使用铲子可以转化为泥土小径。
 
-:::tip
+/// tip
 将 `minecraft:is_hoe` 或 `minecraft:is_shovel` 项标签添加到任何自定义工具中，以使它们能够与我们的自定义泥土配合使用！
-:::
+///
 
 /// details-info | 自定义泥土区块 JSON
 

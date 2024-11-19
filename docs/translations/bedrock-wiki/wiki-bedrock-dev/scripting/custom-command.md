@@ -29,9 +29,9 @@ description: 使用脚本创建自定义命令。
 
 ## 设置包
 
-:::tip
+/// tip
 在创建脚本之前，建议先学习 JavaScript、附加包和脚本 API 的基础知识。要了解脚本 API 的功能，请参见 [Microsoft 文档](https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/)
-:::
+///
 
 假设你已经理解了脚本的基础知识，让我们开始创建包。
 

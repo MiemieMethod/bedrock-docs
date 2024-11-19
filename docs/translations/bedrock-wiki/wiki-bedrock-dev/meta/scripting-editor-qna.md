@@ -8,9 +8,9 @@ mentions:
 
 此次问答在[基岩附加包Discord](https://discord.gg/uZF75ZxcJq)中举行。十名微软/Mojang员工加入我们，回答了关于脚本和编辑器API的问题。问题来自社区。
 
-:::warning
+/// warning
 并非所有消息都被复制过来，有些内容经过了复制编辑。如果你想查看全部内容，请加入上述Discord，并获取“事件存档”角色。
-:::
+///
 
 ## 脚本
 

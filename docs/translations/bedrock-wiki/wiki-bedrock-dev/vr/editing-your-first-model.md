@@ -14,9 +14,9 @@
 本教程将教你如何制作你的第一个虚拟现实模型。
 为了本教程，我们将编辑右手模型。
 
-:::提示
+/// tip
 本教程使用程序[Blender](https://www.blender.org/download/)，请确保在跟随本教程之前已安装该程序。
-:::
+///
 
 ## 在Blender中查看模型
 
@@ -82,10 +82,10 @@ UV编辑看起来几乎与Blockbench相同。
 
 ![](../assets/images/vr/tutorial-hand-right/uv-map.png)
 
-:::提示
+/// tip
 开启这个像磁铁一样的图标会更精确。
 ![](../assets/images/vr/tutorial-hand-right/magnet-icon.png)
-:::
+///
 
 我们首先选择手的顶部和底部。
 

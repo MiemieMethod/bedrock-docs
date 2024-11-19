@@ -94,9 +94,9 @@ description: 在本教程中，你将学习如何通过在目标玩家上运行�
 
 现在，你可以通过 `/event entity @p wiki:spawn_tamed_wolf` 在玩家旁边生成一只驯服的狼。你还可以通过将 `is_spawnable` 设置为 `true` 使用 `wiki:pretamed_wolf` 生成蛋来生成它！
 
-:::warning
+/// warning
 如果你想使用此方法生成自定义实体而不是狼，你需要确保该实体具有 `minecraft:is_tamed` 组件，以使其正常工作。否则，一些行为将无法按预期在驯服实体上正常运作。
-:::
+///
 
 ## 集成物品投射物（替代方法）
 

@@ -27,7 +27,7 @@ description: 这些命令技术允许你检测特定玩家/实体的“状态”
 
 1. 在望远镜缩放或缓慢效果等级6或更高时，不考虑移动。
 2. 跳跃会导致检测触发两次。
-   :::
+   /// 
 
 **命令：**
 
@@ -80,7 +80,7 @@ execute as @a [scores={is_moving=1..}] run say 我仍在移动
 
 ///warning 已知问题：
 行走/短跑检测在有效果和附魔时可能无法按预期工作。
-:::
+///
 
 ```yaml title="BP/functions/states/player/is_moving.mcfunction"
 ## 移动检测

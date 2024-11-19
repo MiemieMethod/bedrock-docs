@@ -25,13 +25,13 @@ description: JSON UI介绍。
 
 ## 介绍
 
-:::warning
+/// warning
 JSON UI 正在被 [Ore UI](https://github.com/Mojang/ore-ui) 取代。请注意，任何使用 JSON UI 的附加包将在未来几年内失效。
-:::
+///
 
-:::tip
+/// tip
 本页概述了包含 JSON UI 基础知识的信息。有关更详细的文档，请查看 [JSON UI 文档](../json-ui/json-ui-documentation.md) 页面。
-:::
+///
 
 游戏的用户界面是数据驱动的，可以被修改。它允许我们修改某些用户界面如何渲染以及在某种程度上如何行为。要开始，所有原版 UI 文件存储在 `RP/ui/...` 文件夹中。
 

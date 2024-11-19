@@ -18,9 +18,9 @@ description: 用于未来使用的设置包。
     获取模板！
 </Button>
 
-:::warning
+/// warning
 请勿删除模板中的 `contents.json` 和 `textures_list.json` 文件。
-:::
+///
 
 ## 模板包含了什么？
 

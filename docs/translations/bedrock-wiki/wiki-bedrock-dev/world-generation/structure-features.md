@@ -22,9 +22,9 @@ description: 将你的结构添加到世界生成中。
 
 -   水面结构
 
-:::tip
+/// tip
 要在安卓设备上导出结构，请使用这个 [资源包](https://mcpedl.com/export-structure-button-android-addon/)
-:::
+///
 
 确保将 `.mcstructure` 文件放在 `BP/structures/` 目录下！
 

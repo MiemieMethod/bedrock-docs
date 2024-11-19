@@ -15,13 +15,13 @@ mentions:
 description: 实体故障排除指南。
 ---
 
-:::tip
+/// tip
 本页面包含关于_实体_的故障排除信息。在继续之前，请阅读我们的[全局故障排除](../guide/troubleshooting.md)文档。
-:::
+///
 
-:::warning
+/// warning
 请务必检查内容日志！
-:::
+///
 
 ## 0.0.0 - 你搞错了
 

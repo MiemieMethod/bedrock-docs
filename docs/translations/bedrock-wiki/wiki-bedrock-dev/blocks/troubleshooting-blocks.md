@@ -13,9 +13,9 @@ mentions:
 description: 块的故障排除指南。
 ---
 
-:::tip
+/// tip
 本页面包含有关 _块_ 的故障排除信息。在继续之前，请阅读我们的 [全局故障排除](../guide/troubleshooting.md) 文档。
-:::
+///
 
 ## 0.0 - 问题
 

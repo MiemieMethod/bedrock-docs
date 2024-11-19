@@ -7,9 +7,9 @@ mentions:
 
 此次问答在 [Bedrock Add-Ons discord](https://discord.gg/uZF75ZxcJq) 上进行。六位Mojang/Microsoft员工加入我们，回答了关于延迟技术预览API的问题。问题来自社区。
 
-:::warning
+/// warning
 并非所有消息都被复制，有些内容经过编辑。如果你想查看全部内容，请加入上述Discord，并获取“events archive”角色。
-:::
+///
 
 ## 延迟渲染管线开发了多久
 

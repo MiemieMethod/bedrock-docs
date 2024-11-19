@@ -7,9 +7,9 @@ mentions:
 
 这次问答在 [基岩附加包 Discord](https://discord.gg/uZF75ZxcJq) 中进行。几位Mojang/Microsoft的员工加入我们，回答了关于自定义方块和物品API的问题。这些问题来自社区。
 
-:::warning
+/// warning
 并非所有消息都有完整复制，部分经过编辑。如果你想查看全部内容，请加入上述Discord，并获取“事件档案”角色。
-:::
+///
 
 ## 关于定位图的计划？
 

@@ -20,9 +20,9 @@ mentions:
 
 Molang 的基岩版文档以其糟糕著称。本页面将尝试通过为个别查询提供额外细节来改善这一点，**在可能的情况下**。本页面旨在供搜索使用，而非全文阅读。请使用侧边栏或使用 `ctrl-f` 进行导航。
 
-:::tip
+/// tip
 本页面并非详尽无遗！它只包含我们为其编写了额外信息的查询。完整的查询列表可在[此处](https://bedrock.dev/docs/stable/Molang#List%20of%20Entity%20Queries)找到！
-:::
+///
 
 ## query.armor_texture_slot
 
@@ -124,9 +124,9 @@ _注意：自 `1.16.100.51` 版本起，此查询会导致 Minecraft 崩溃。�
 
 ## query.get_equipped_item_name
 
-:::warning
+/// warning
 **已弃用查询：** 建议尽可能使用新的查询（`query.is_item_name_any`），因为它是此查询的更新版本。然而，为了向后兼容，此查询未来仍将继续有效。
-:::
+///
 
 格式如下：`query.get_equipped_item_name('main_hand') = 'item_name'`
 
@@ -140,9 +140,9 @@ _注意：自 `1.16.100.51` 版本起，此查询会导致 Minecraft 崩溃。�
 
 ## query.get_name
 
-:::warning
+/// warning
 **已弃用查询：** 建议尽可能使用新的查询（`query.is_name_any`），因为它是此查询的更新版本。然而，为了向后兼容，此查询未来仍将继续有效。
-:::
+///
 
 格式如下：`query.get_name == 'Name'`
 

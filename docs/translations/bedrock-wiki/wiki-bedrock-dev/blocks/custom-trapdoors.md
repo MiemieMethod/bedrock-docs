@@ -242,6 +242,6 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 </Spoiler>
 
-:::tip
+/// tip
 原版活板门在某些面上的纹理方向存在一些问题，并且高度为2.95，而应该为3。此方块模板和几何体修复了这两个问题。
-:::
+///

@@ -21,9 +21,9 @@ description: 本教程提供了一种资源包方法，用于检测玩家何时�
 ],
 ```
 
-:::tip
+/// tip
 由于查询 `q.rotation_to_camera` 是基于实体的原点（其脚部），因此垂直检测范围将围绕实体的底部进行。以下代码创建了一个修改后的变量，用于垂直角度，考虑了位置偏移，使垂直检测范围围绕实体的中心进行。
-:::
+///
 
 ```json title="RP/entity/mob.entity.json"
 "pre_animation": [

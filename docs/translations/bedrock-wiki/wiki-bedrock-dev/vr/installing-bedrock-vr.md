@@ -12,9 +12,9 @@ description: 在Minecraft中开启虚拟现实。
 
 Minecraft虚拟现实曾可通过Oculus商店下载，但该版本已很长时间未更新。本文将向你展示如何在Windows PC上启用最新版本的Minecraft虚拟现实。
 
-:::warning
+/// warning
 如果你使用的是Playstation，则无需遵循本指南。
-:::
+///
 
 ## 创建桌面快捷方式
 

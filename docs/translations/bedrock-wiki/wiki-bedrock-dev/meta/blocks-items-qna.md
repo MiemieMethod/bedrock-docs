@@ -7,9 +7,9 @@ mentions:
 
 此次问答在[基岩附加包 Discord 服务器](https://discord.gg/uZF75ZxcJq)举行。九位 Mojang/Microsoft 员工参与回答了关于自定义方块与物品 API 的问题。问题由社区收集。
 
-:::warning
+/// warning
 并非所有消息都被复制过来，并且部分内容经过了编辑修改。如果你想查看全部内容，请加入上述 Discord 并获取“事件存档”角色。
-:::
+///
 
 ## HCF 已弃用/移除功能的替代方案？
 

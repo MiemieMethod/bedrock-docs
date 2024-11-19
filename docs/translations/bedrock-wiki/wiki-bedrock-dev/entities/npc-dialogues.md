@@ -168,7 +168,7 @@ summon npc "§r" 0 1 0
 
 此函数将在0, 0处创建一个计时区域，并在该计时区域的基岩层生成一个没有名称的NPC。你需要运行此函数一次，可以手动运行，或使用`player.json`或`tick.json`。
 
-:::tip
+/// tip
 
 你可以在玩家内部使用`/dialogue`命令触发NPC对话，而无需事先生成NPC。
 
@@ -176,7 +176,7 @@ summon npc "§r" 0 1 0
 2. 指定来自BP/dialogue文件夹的场景。
 3. 从玩家运行`/dialogue`命令，提供`scene_tag`：
 
-:::
+///
 
 ```
 /dialogue open @s @s <scene_tag>

@@ -124,10 +124,10 @@ world.afterEvents.entityHurt.subscribe((event) => {
 
 ### on_hurt_entity
 
-:::warning
+/// warning
 
 `on_hurt_entity` 在格式版本 1.20.40 中被移除。
-:::
+///
 
 `on_hurt_entity` 可以在 "minecraft:weapon" 组件中定义。它告诉游戏当玩家使用此物品伤害实体时应该发生什么事件。
 
@@ -181,10 +181,10 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
 
 ### on_dig
 
-:::warning
+/// warning
 
 `on_dig` 在格式版本 1.20.20 中被移除。
-:::
+///
 
 `on_dig` 可以在 "minecraft:digger" 组件中定义。它告诉游戏当玩家使用此物品挖掘方块时应该发生什么事件。
 

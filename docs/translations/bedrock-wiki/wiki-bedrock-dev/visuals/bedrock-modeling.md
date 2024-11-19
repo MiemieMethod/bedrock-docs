@@ -99,10 +99,10 @@ description: 在为Minecraft基岩版建模时需要了解的技巧、窍门和�
 
 并非所有这些都会“循环”在一起。这就是组列的意义。具有相同数字的将一起工作。否则，它们将在循环中出现明显的“故障”。
 
-:::tip
+/// tip
 你可以通过单击以下设置来使动画循环：
 ![](../assets/images/visuals/bedrock-modeling/setting-loop.png)
-:::
+///
 
 通过这个函数和创造力，动物和恐龙被动画化为行走、奔跑和攻击。
 你可以在[这里](https://bedrock.dev/docs/stable/Molang)了解更多关于查询和函数的信息。

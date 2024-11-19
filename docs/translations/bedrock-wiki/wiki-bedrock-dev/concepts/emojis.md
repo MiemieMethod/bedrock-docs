@@ -17,9 +17,9 @@ mentions:
 description: 向MCBE添加你自己的表情符号和符号。
 ---
 
-:::warning
+/// warning
 修改此页面上的原版表情符号和符号的纹理与Nintendo Switch平台不兼容！
-:::
+///
 
 Minecraft有一堆硬编码的[私用区Unicode符号](https://en.wikipedia.org/wiki/Private_Use_Areas)，它会自动将其转换为类似表情符号的符号。
 这些符号可以在任何普通字母可以使用的地方使用——符号、书籍、物品名称、聊天等。

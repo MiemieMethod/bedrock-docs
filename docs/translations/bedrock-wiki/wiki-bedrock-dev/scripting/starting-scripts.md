@@ -43,11 +43,11 @@ description: 在MCBE中开始脚本编写。
 
 此外，依赖项需要根据使用的模块进行设置。要导入和使用脚本API模块，你必须使用`module_name`和`version`指定依赖项。在此示例中，使用了`@minecraft/server`模块。
 
-:::warning
+/// warning
 存在一个错误，你无法将资源包应用于具有脚本模块的依赖项。
 
 此问题导致Minecraft停止运行脚本并抛出与“未知依赖项”相关的错误。
-:::
+///
 
 ```json title="BP/manifest.json"
 {

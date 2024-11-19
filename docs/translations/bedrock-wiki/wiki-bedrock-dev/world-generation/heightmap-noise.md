@@ -9,9 +9,9 @@ mentions:
 description: 基于噪声的地形。
 ---
 
-:::tip
+/// tip
 本教程假设你对Molang、地物和地物规则有基本了解。
-:::
+///
 
 在本教程中，我们将学习如何使用`q.noise` Molang查询创建基于噪声的地形。
 

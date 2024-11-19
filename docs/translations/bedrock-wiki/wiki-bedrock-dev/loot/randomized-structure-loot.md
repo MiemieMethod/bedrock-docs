@@ -97,9 +97,9 @@ description: 为结构中的容器设置战利品表。
 
 ## Loot Tabler（浏览器应用程序）
 
-:::tip
+/// tip
 要在移动设备上导出结构，[下载此包。](https://mcpedl.com/export-structure-button-android-addon/)
-:::
+///
 
 ### 添加战利品表
 

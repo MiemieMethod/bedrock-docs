@@ -12,9 +12,9 @@ description: 学习如何使用区块条件。
 
 有时你可能需要根据其下方或上方的区块来有条件地放置某个地物。例如，并不是所有地物都有这样的条件放置选项，但通过一个简单的技巧，我们可以在任何我们想要的地方使用它。
 
-:::tip
+/// tip
 此技巧利用了 `aggregate_feature` 和 `single_block_feature` 地物。如果你想了解更多关于这些内容的信息，请访问 [地物类型](../world-generation/feature-types.md) 文章。
-:::
+///
 
 ## 文件
 
@@ -108,9 +108,9 @@ description: 学习如何使用区块条件。
 	}
 }
 ```
-:::tip
+/// tip
 如果你想了解更多关于矿石地物的信息，可以访问 [生成自定义矿石](../world-generation/custom-ores.md) 教程。
-:::
+///
 
 ### 地物规则
 
