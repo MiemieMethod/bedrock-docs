@@ -11,17 +11,17 @@ description: Blockbench的初步介绍
 - 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/blockbench.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/blockbench.md)
 - 该页面的版本为<!-- md:samp Bedrock-OSS/bedrock-wiki@60593ceb65e7bf8258290ccaa1d1bbd610062a0d -->
 - 该页面的作者有：
-  - <!-- md:samp @KaiFireborn -->
-  - <!-- md:samp @SirLich -->
-  - <!-- md:samp @Dreamedc2015 -->
-  - <!-- md:samp @SmokeyStack -->
-  - <!-- md:samp @sermah -->
-  - <!-- md:samp @cda94581 -->
-  - <!-- md:samp @TheItsNameless -->
-  - <!-- md:samp @ThijsHankelMC -->
-  - <!-- md:samp @MedicalJewel105 -->
-  - <!-- md:samp @ChibiMango -->
-  - <!-- md:samp @smell-of-curry -->
+    - <!-- md:samp @KaiFireborn -->
+    - <!-- md:samp @SirLich -->
+    - <!-- md:samp @Dreamedc2015 -->
+    - <!-- md:samp @SmokeyStack -->
+    - <!-- md:samp @sermah -->
+    - <!-- md:samp @cda94581 -->
+    - <!-- md:samp @TheItsNameless -->
+    - <!-- md:samp @ThijsHankelMC -->
+    - <!-- md:samp @MedicalJewel105 -->
+    - <!-- md:samp @ChibiMango -->
+    - <!-- md:samp @smell-of-curry -->
 ///
 
 Blockbench是一款免费的软件，旨在实现Minecraft的建模、纹理和动画功能。它可在移动浏览器、Windows 10和macOS上使用。请访问[blockbench.net](https://blockbench.net/)进行安装。

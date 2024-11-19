@@ -118,7 +118,7 @@ _在[这里](../blocks/block-components.md)浏览更多方块组件！_
 /// warning
 `RP/blocks.json`忽略标识符命名空间。你可以在此处放置任何内容，或者根本不包含命名空间，结果没有区别。如果你创建一个与现有原版方块同名（但没有命名空间）的自定义方块，可能会导致问题。
 ///
-/// tip | <nbsp/>
+/// tip | <nbsp/>　
 [方块声音](../blocks/block-sounds.md)也可以在`RP/blocks.json`中定义。
 ///
 

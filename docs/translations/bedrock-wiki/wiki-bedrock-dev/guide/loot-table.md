@@ -31,27 +31,27 @@ description: 如何添加你的第一个战利品表、生成规则和合成配�
 
 ```json title="BP/loot_tables/entities/ghost.json"
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "wiki:ectoplasm",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
+          "type": "item",
+          "name": "wiki:ectoplasm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
 ```
 
@@ -71,39 +71,39 @@ description: 如何添加你的第一个战利品表、生成规则和合成配�
 
 ```json title="BP/spawn_rules/ghost.json"
 {
-    "format_version": "1.8.0",
-    "minecraft:spawn_rules": {
-        "description": {
-            "identifier": "wiki:ghost",
-            "population_control": "monster"
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "wiki:ghost",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
         },
-        "conditions": [
-            {
-                "minecraft:spawns_on_surface": {},
-                "minecraft:brightness_filter": {
-                    "min": 0,
-                    "max": 7,
-                    "adjust_for_weather": true
-                },
-                "minecraft:difficulty_filter": {
-                    "min": "easy",
-                    "max": "hard"
-                },
-                "minecraft:weight": {
-                    "default": 80
-                },
-                "minecraft:herd": {
-                    "min_size": 1,
-                    "max_size": 3
-                },
-                "minecraft:biome_filter": {
-                    "test": "has_biome_tag",
-                    "operator": "==",
-                    "value": "desert"
-                }
-            }
-        ]
-    }
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:weight": {
+          "default": 80
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 3
+        },
+        "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "desert"
+        }
+      }
+    ]
+  }
 }
 ```
 
@@ -111,12 +111,12 @@ description: 如何添加你的第一个战利品表、生成规则和合成配�
 -   在`minecraft:spawn_rules`部分中，我们定义了我们的生成规则。
 -   `description`定义了文件的基本属性。`identifier`用于定义此生成规则适用于哪个实体。`population_control`用于限制生成的实体数量。一旦`population_control`中定义的池满了，就不会再生成实体。
 -   使用`conditions`，我们可以定义限制此实体生成的特殊规则。我们将简要描述此处使用的每个条件，但你可以在[这里](../entities/vanilla-usage-spawn-rules.md)了解更多条件及其用法。
-    -   `spawns_on_surface`允许生物仅在表面生成。
-    -   `minecraft:brightness_filter`限制生成到光照水平在定义值之间的区域。如果`adjust_for_weather`为`true`，则在雨雪和雷暴期间光照水平的降低将被忽略。
-    -   `minecraft:difficulty_filter`定义生成实体所需的难度级别。
-    -   `weight`定义此实体生成的频率。此值越高，生物生成的频率越高。
-    -   `minecraft:herd`定义一次生成多少实体。
-    -   使用`minecraft:biome_filter`，我们定义实体能够生成的生物群系。
+  -   `spawns_on_surface`允许生物仅在表面生成。
+  -   `minecraft:brightness_filter`限制生成到光照水平在定义值之间的区域。如果`adjust_for_weather`为`true`，则在雨雪和雷暴期间光照水平的降低将被忽略。
+  -   `minecraft:difficulty_filter`定义生成实体所需的难度级别。
+  -   `weight`定义此实体生成的频率。此值越高，生物生成的频率越高。
+  -   `minecraft:herd`定义一次生成多少实体。
+  -   使用`minecraft:biome_filter`，我们定义实体能够生成的生物群系。
 
 要了解有关生成规则的更多信息，请查看我们的[原版生成规则](../entities/vanilla-usage-spawn-rules.md)指南。
 
@@ -126,22 +126,22 @@ description: 如何添加你的第一个战利品表、生成规则和合成配�
 
 ```json title="BP/recipes/ectoplasm_slime_blocks.json"
 {
-    "format_version": "1.12.0",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "wiki:ectoplasm_slime_block"
-        },
-        "tags": ["crafting_table"],
-        "pattern": ["###", "###", "###"],
-        "key": {
-            "#": {
-                "item": "wiki:ectoplasm"
-            }
-        },
-        "result": {
-            "item": "minecraft:slime"
-        }
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wiki:ectoplasm_slime_block"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["###", "###", "###"],
+    "key": {
+      "#": {
+        "item": "wiki:ectoplasm"
+      }
+    },
+    "result": {
+      "item": "minecraft:slime"
     }
+  }
 }
 ```
 
