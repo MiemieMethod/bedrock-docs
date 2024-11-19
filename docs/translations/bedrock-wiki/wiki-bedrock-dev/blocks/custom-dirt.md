@@ -30,7 +30,7 @@
 将 `minecraft:is_hoe` 或 `minecraft:is_shovel` 项标签添加到任何自定义工具中，以使它们能够与我们的自定义泥土配合使用！
 :::
 
-<Spoiler title="自定义泥土区块 JSON">
+/// details-info | 自定义泥土区块 JSON
 
 ```json title="BP/blocks/custom_dirt.json"
 {
@@ -102,7 +102,7 @@
 }
 ```
 
-</Spoiler>
+///
 
 ## 自定义农田
 
@@ -230,7 +230,7 @@
 
 这里是完整的 `wiki:custom_farmland` JSON 供参考。
 
-<Spoiler title="自定义农田区块 JSON">
+/// details-info | 自定义农田区块 JSON
 
 ```json title="BP/blocks/custom_farmland.json"
 {
@@ -335,4 +335,4 @@
 }
 ```
 
-</Spoiler>
+///

@@ -147,7 +147,7 @@ description: 重现原版树木。
 ]
 ```
 
-<Spoiler title="代码">
+/// details-info | 代码
 
 ```json title="BP/blocks/custom_leaves.json"
 {
@@ -287,11 +287,11 @@ description: 重现原版树木。
 }
 ```
 
-</Spoiler>
+///
 
 ## 自定义原木
 
-<Spoiler title="代码">
+/// details-info | 代码
 
 ```json title="BP/blocks/custom_log.json"
 {
@@ -399,13 +399,13 @@ description: 重现原版树木。
 }
 ```
 
-</Spoiler>
+///
 
 ## 剥离原木
 
 这里所有组件都是相同的
 
-<Spoiler title="代码">
+/// details-info | 代码
 
 ```json title="BP/blocks/custom_stripped_log.json"
 {
@@ -475,13 +475,13 @@ description: 重现原版树木。
 }
 ```
 
-</Spoiler>
+///
 
 ## 自定义树苗
 
 对于树苗，我们需要树木的结构，使树苗看起来半真实，因为目前无法在 Minecraft 基岩版上通过命令放置特征。
 
-<Spoiler title="代码">
+/// details-info | 代码
 
 ```json title="BP/blocks/custom_sapling.json"
 {
@@ -570,11 +570,11 @@ description: 重现原版树木。
 }
 ```
 
-</Spoiler>
+///
 
 ## 树苗放置器
 
-<Spoiler title="代码">
+/// details-info | 代码
 
 ```json title="BP/items/custom_sapling_placer.json"
 {
@@ -600,11 +600,11 @@ description: 重现原版树木。
 }
 ```
 
-</Spoiler>
+///
 
 ## 掉落表
 
-<Spoiler title="代码">
+/// details-info | 代码">
 
 此掉落物将在使用剪刀破坏时生成树叶区块
 
@@ -685,7 +685,7 @@ description: 重现原版树木。
 树木特征是制作真正自定义树木的非常棒的方式。你需要了解它们的工作原理，但在本教程中，你可以使用这些模板。
 :::
 
-<Spoiler title="特征">
+<Spoiler title="特征
 
 ```json title="BP/feature/custom_tree_feature.json"
 {
@@ -847,9 +847,9 @@ description: 重现原版树木。
 }
 ```
 
-</Spoiler>
+///
 
-<Spoiler title="特征规则">
+/// details-info | 特征规则
 
 ```json title="BP/feature_rules/custom_tree_feature_rule.json"
 {
@@ -885,7 +885,7 @@ description: 重现原版树木。
 }
 ```
 
-</Spoiler>
+///
 
 ## 资源包（可选指南）
 

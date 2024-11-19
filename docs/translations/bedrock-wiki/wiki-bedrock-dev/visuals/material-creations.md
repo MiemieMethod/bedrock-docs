@@ -20,7 +20,7 @@ description: 社区提供的有用材料创作。
 
 “customblend”是你在实体中调用的材料名称。
 
-<Spoiler title="显示">
+/// details-info | 显示
 
 ```json title=""
 {
@@ -38,7 +38,7 @@ description: 社区提供的有用材料创作。
 }
 ```
 
-</Spoiler>
+///
 
 致谢：StealthyX。
 
@@ -46,7 +46,7 @@ description: 社区提供的有用材料创作。
 
 允许使用Alpha通道纹理的材料，适用于Render Dragon：
 
-<Spoiler title="显示">
+/// details-info | 显示
 
 ```json title=""
 {
@@ -104,7 +104,7 @@ description: 社区提供的有用材料创作。
 }
 ```
 
-</Spoiler>
+///
 
 经过进一步测试发现，这仅在第三人称视角下有效，但仍然有用，因为无论视角如何，原版混合材料仍然存在问题。
 
@@ -114,7 +114,7 @@ description: 社区提供的有用材料创作。
 
 不允许在渲染控制器中使用overlay_color的材料：
 
-<Spoiler title="显示">
+/// details-info | 显示
 
 ```json title=""
 {
@@ -204,7 +204,7 @@ description: 社区提供的有用材料创作。
 }
 ```
 
-</Spoiler>
+///
 
 可能对特定骨骼而非整个几何体的应用有用。
 

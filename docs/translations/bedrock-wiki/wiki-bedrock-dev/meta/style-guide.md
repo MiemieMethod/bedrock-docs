@@ -147,7 +147,7 @@ BP/functions/quests/jungle/1.mcfunction
     - 级别 3 标题 - **### 句子大小写**
 - 尽量避免使用超过三个标题级别或过多的标题，因为这可能会使代码显得杂乱。供你参考，见下面的示例文件：
 
-<Spoiler title="示例函数文件">
+/// details-info | 示例函数文件
 
 ```yaml title="BP/functions/abilities/fire_trail.mcfunction"
 # 玩家物品掉落时
@@ -174,7 +174,7 @@ execute at @a [scores={abilities.fire_trail=1..}] run particle minecraft:basic_f
 scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_trail 1
 ```
 
-</Spoiler>
+///
 
 请注意，在级别 1 标题前使用两行空格，在级别 2 标题前使用一行空格，以提高可读性。
 

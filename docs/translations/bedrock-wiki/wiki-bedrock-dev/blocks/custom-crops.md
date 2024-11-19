@@ -296,7 +296,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 以下是完整的 `wiki:custom_crop` 文件，供参考。
 
-<Spoiler title="自定义作物方块 JSON">
+/// details-info | 自定义作物方块 JSON
 
 ```json title="BP/blocks/custom_crop.json"
 {
@@ -464,7 +464,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 }
 ```
 
-</Spoiler>
+///
 
 ## 作物战利品
 

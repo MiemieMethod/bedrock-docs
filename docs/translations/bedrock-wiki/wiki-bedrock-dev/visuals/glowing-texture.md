@@ -41,7 +41,7 @@ description: 在自己的细节中重现末影人的发光眼睛。
 }
 ```
 
-<Spoiler title="示例猪实体文件">
+/// details-info | 示例猪实体文件
 
 ```json title="RP/entity/pig.entity.json"
 {
@@ -88,7 +88,7 @@ description: 在自己的细节中重现末影人的发光眼睛。
 }
 ```
 
-</Spoiler>
+///
 
 ## 测试
 

@@ -25,7 +25,7 @@ description: 玩家客户端实体文件。
 
 `geometry.npc.alex`
 
-<Spoiler title="几何体">
+/// details-info | 几何体
 
 ```json title=""
 {
@@ -457,7 +457,7 @@ description: 玩家客户端实体文件。
 }
 ```
 
-</Spoiler>
+///
 
 ## 实体文件
 
@@ -469,7 +469,7 @@ description: 玩家客户端实体文件。
 
 如果你需要更完整的动画集，可以考虑复制默认的玩家RP实体文件，并尝试手动处理动画。
 
-<Spoiler title="实体文件">
+/// details-info | 实体文件
 
 ```json title=""
 {
@@ -510,4 +510,4 @@ description: 玩家客户端实体文件。
 }
 ```
 
-</Spoiler>
+///

@@ -94,7 +94,7 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 
 > 注意：这些旋转命令（当物品放置在主手中时）需要通过命令方块触发一次。
 
-<Spoiler title="完整区块">
+/// details-info | 完整区块
 
 ```yaml title=""
 # 面朝北
@@ -110,9 +110,9 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2260 ~1.1245 350
 ```
 
-</Spoiler>
+///
 
-<Spoiler title="微型区块">
+/// details-info | 微型区块
 
 ```yaml title=""
 # 面朝北
@@ -128,27 +128,9 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-0.035 ~-0.5 ~0.417 350
 ```
 
-</Spoiler>
+///
 
-<Spoiler title="楼梯">
-
-```yaml title=""
-# 面朝北
-/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 350
-
-# 面朝南
-/tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2325 ~-1.1245 171
-
-# 面朝东
-/tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2325 ~-0.097 81
-
-# 面朝西
-/tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2325 ~0.097 260
-```
-
-</Spoiler>
-
-<Spoiler title="底部半砖">
+/// details-info | 楼梯
 
 ```yaml title=""
 # 面朝北
@@ -164,9 +146,27 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 /tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2325 ~0.097 260
 ```
 
-</Spoiler>
+///
 
-<Spoiler title="顶部半砖">
+/// details-info | 底部半砖
+
+```yaml title=""
+# 面朝北
+/tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 350
+
+# 面朝南
+/tp @e [type=armor_stand, name=Grumm, c=1] ~0.097 ~0.2325 ~-1.1245 171
+
+# 面朝东
+/tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2325 ~-0.097 81
+
+# 面朝西
+/tp @e [type=armor_stand, name=Grumm, c=1] ~1.1245 ~0.2325 ~0.097 260
+```
+
+///
+
+/// details-info | 顶部半砖
 
 ```yaml title=""
 # 面朝北
@@ -182,7 +182,7 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.484 ~1.1245 350
 ```
 
-</Spoiler>
+///
 
 ## 保存与加载MBE
 

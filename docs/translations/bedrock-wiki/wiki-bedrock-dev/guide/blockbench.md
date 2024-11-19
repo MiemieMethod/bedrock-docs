@@ -83,7 +83,7 @@ Blockbench是一款免费的软件，旨在实现Minecraft的建模、纹理和�
 
 _同时，为什么不升级你自己独特实体的视觉效果，或者创建另一个呢？_
 
-<Spoiler title="显示代码">
+/// details-info | 显示代码
 
 ```json title="RP/models/entity/ghost.geo.json"
 {
@@ -268,7 +268,7 @@ _同时，为什么不升级你自己独特实体的视觉效果，或者创建�
 }
 ```
 
-</Spoiler>
+///
 
 ## 你所学到的
 

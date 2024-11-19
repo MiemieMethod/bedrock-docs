@@ -31,7 +31,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 以下示例在整个文档中被引用和分析：
 
-<Spoiler title="交易表文件示例">
+/// details-info | 交易表文件示例
 
 ```json title="BP/trading/minister.json"
 {
@@ -156,7 +156,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 }
 ```
 
-</Spoiler>
+///
 
 ## 结构
 

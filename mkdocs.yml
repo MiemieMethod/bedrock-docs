@@ -7406,6 +7406,7 @@ nav:
             - '3. 软件与准备': translations/bedrock-wiki/wiki-bedrock-dev/guide/software-preparation.md
             - '4. 项目设置': translations/bedrock-wiki/wiki-bedrock-dev/guide/project-setup.md
             - '5. 创建自定义物品': translations/bedrock-wiki/wiki-bedrock-dev/guide/custom-item.md
+            - '6. 创建自定义实体': translations/bedrock-wiki/wiki-bedrock-dev/guide/custom-entity.md
           - 附录:
             - 安卓项目设置: translations/bedrock-wiki/wiki-bedrock-dev/guide/project-setup-android.md
     - bridge.:

@@ -108,7 +108,7 @@ effect @a [tag=inNether] fire_resistance 12 255 true
     - 级别3标题 - **### 句子式**
 - 尽量避免使用超过三个标题级别或太多标题，因为这会使代码看起来杂乱。供你参考，以下是示例文件：
 
-<Spoiler title="示例函数文件">
+/// details-info | 示例函数文件
 
 ```yaml title="BP/functions/abilities/fire_trail.mcfunction"
 # 玩家物品丢弃时
@@ -135,7 +135,7 @@ execute at @a [scores={abilities.fire_trail=1..}] run particle minecraft:basic_f
 scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_trail 1
 ```
 
-</Spoiler>
+///
 
 请注意，在级别1标题前留有两行空白，在级别2标题前留有一行空白，以提高可读性。
 

@@ -11,19 +11,19 @@ description: 如何创建你的第一个自定义物品。
 - 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/custom-item.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/custom-item.md)
 - 该页面的版本为<!-- md:samp Bedrock-OSS/bedrock-wiki@60593ceb65e7bf8258290ccaa1d1bbd610062a0d -->
 - 该页面的作者有：
-  - <!-- md:samp @KaiFireborn -->
-  - <!-- md:samp @SirLich -->
-  - <!-- md:samp @cda94581 -->
-  - <!-- md:samp @TheItsNameless -->
-  - <!-- md:samp @MedicalJewel105 -->
-  - <!-- md:samp @ChibiMango -->
-  - <!-- md:samp @TheDoctor15 -->
-  - <!-- md:samp @SmokeyStack -->
-  - <!-- md:samp @unickorn -->
-  - <!-- md:samp @Sprunkles317 -->
-  - <!-- md:samp @ThomasOrs -->
-  - <!-- md:samp @davedavis -->
-  - <!-- md:samp @QuazChick -->
+    - <!-- md:samp @KaiFireborn -->
+    - <!-- md:samp @SirLich -->
+    - <!-- md:samp @cda94581 -->
+    - <!-- md:samp @TheItsNameless -->
+    - <!-- md:samp @MedicalJewel105 -->
+    - <!-- md:samp @ChibiMango -->
+    - <!-- md:samp @TheDoctor15 -->
+    - <!-- md:samp @SmokeyStack -->
+    - <!-- md:samp @unickorn -->
+    - <!-- md:samp @Sprunkles317 -->
+    - <!-- md:samp @ThomasOrs -->
+    - <!-- md:samp @davedavis -->
+    - <!-- md:samp @QuazChick -->
 ///
 
 在Minecraft中，我们可以创建自定义物品，这些物品可以像普通物品一样被掉落、交易、合成和使用。这个系统具有很大的灵活性，包括制作食物、燃料和工具的能力。
@@ -224,7 +224,7 @@ ID是物品的简短信息名称。在这里我们将使用`ectoplasm`。
 
 我们在创建`RP`和`BP`时已经创建了这些文件，因此我们只需向其中添加内容。
 
-``` title="RP/texts/en_US.lang"
+```lang title="RP/texts/en_US.lang"
 item.wiki:ectoplasm=灵异物质
 ```
 

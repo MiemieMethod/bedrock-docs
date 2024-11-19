@@ -73,7 +73,7 @@ description: 制作自定义长矛。
 
 我们可以安全地说，我们得到了长矛的重要组件。接下来我们转到投射物。这个投射物将是一个简单的实体，带有一些附加组件和一个运行时标识符，以获取正确的行为。
 
-<Spoiler title="投射物">
+/// details-info | 投射物
 
 ```json title="BP/entities/spear.json"
 {
@@ -150,7 +150,7 @@ description: 制作自定义长矛。
 }
 ```
 
-</Spoiler>
+///
 这里是我们的简单投射物实体。我们缺少一个部分，使其成为有用的投射物。我们的玩家无法从地面上捡起它。为了做到这一点，我们需要事件和实体传感器：
 
 ```json title="BP/entities/spear.json"
@@ -212,7 +212,7 @@ description: 制作自定义长矛。
 
 我们将为我们的投射物使用一个基本的客户端实体文件，并添加代码。
 
-<Spoiler title="客户端实体">
+/// details-info | 客户端实体
 
 ```json title="RP/entities/spear.json"
 {
@@ -241,7 +241,7 @@ description: 制作自定义长矛。
 }
 ```
 
-</Spoiler>
+///
 
 在我们的客户端实体文件中，你可能注意到绑定了动画。这个动画将使我们的投射物在飞行时旋转。
 

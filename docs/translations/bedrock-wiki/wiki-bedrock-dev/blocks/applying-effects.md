@@ -126,7 +126,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ## 示例 JSON
 
-<Spoiler title="示例凋零方块">
+/// details-info | 示例凋零方块
 
 ```json title="BP/blocks/wither_block.json"
 {
@@ -165,4 +165,4 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 }
 ```
 
-</Spoiler>
+///

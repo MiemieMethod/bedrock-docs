@@ -53,7 +53,7 @@ hidden: true
     下载自定义流体几何体
 </Button>
 
-<Spoiler title="自定义流体方块 JSON">
+/// details-info | 自定义流体方块 JSON
 
 ```json title="BP/blocks/custom_fluid.json"
 {
@@ -243,13 +243,13 @@ hidden: true
 }
 ```
 
-</Spoiler>
+///
 
 ## 流体桶
 
 要放置你的自定义流体，你需要一个自定义桶物品。以下是自定义桶的 JSON。将任何 `custom_fluid` 的实例替换为你的流体名称。
 
-<Spoiler title="自定义桶物品 JSON">
+/// details-info | 自定义桶物品 JSON
 
 ```json title="BP/items/custom_fluid_bucket.json"
 {
@@ -274,7 +274,7 @@ hidden: true
 }
 ```
 
-</Spoiler>
+///
 
 ## 脚本
 
@@ -301,7 +301,7 @@ hidden: true
 }
 ```
 
-<Spoiler title="流体移动与雾效脚本">
+/// details-info | 流体移动与雾效脚本
 
 ```javascript title="BP/scripts/fluids.js"
 import { system, world } from "@minecraft/server";
@@ -345,7 +345,7 @@ system.runInterval(() => {
 });
 ```
 
-</Spoiler>
+///
 
 ## 结果
 

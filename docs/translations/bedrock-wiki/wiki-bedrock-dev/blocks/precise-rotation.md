@@ -52,7 +52,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 ![](../assets/images/blocks/precise-rotation/model_bones.png)
 
-<Spoiler title="壳方块示例模型">
+/// details-info | 壳方块示例模型
 
 ```json title="RP/models/blocks/shell.geo.json"
 {
@@ -174,7 +174,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 }
 ```
 
-</Spoiler>
+///
 
 ## 初始方块 JSON
 
@@ -394,7 +394,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 完成上述步骤后，你的方块 JSON 和脚本文件应类似于以下内容：
 
-<Spoiler title="壳方块示例 JSON">
+/// details-info | 壳方块示例 JSON
 
 ```json title="BP/blocks/shell.json"
 {
@@ -486,9 +486,9 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 }
 ```
 
-</Spoiler>
+///
 
-<Spoiler title="壳方块示例脚本">
+/// details-info | 壳方块示例脚本
 
 ```js title="BP/scripts/shell.js"
 import { world } from "@minecraft/server";
@@ -525,7 +525,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 });
 ```
 
-</Spoiler>
+///
 
 ## 结果
 
