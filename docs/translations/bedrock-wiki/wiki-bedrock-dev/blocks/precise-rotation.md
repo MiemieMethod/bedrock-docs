@@ -54,9 +54,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 <Spoiler title="壳方块示例模型">
 
-<CodeHeader>RP/models/blocks/shell.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/blocks/shell.geo.json"
 {
     "format_version": "1.21.40",
     "minecraft:geometry": [
@@ -182,9 +180,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 以下是我们将添加高级旋转的基础“壳”方块。
 
-<CodeHeader>BP/blocks/shell.json</CodeHeader>
-
-```json
+```json title="BP/blocks/shell.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -226,9 +222,7 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 对于类似头颅的旋转，你需要为你的方块添加2个状态：
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "description": {
   ...
   "traits": {
@@ -250,17 +244,13 @@ _寻找常规旋转？请[点击这里](../blocks/rotatable-blocks.md)了解更�
 
 在开始编写脚本之前，请确保你已通过将其导入到入口文件中将其链接到你的包清单。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 import "./shell.js";
 ```
 
 现在，在我们的 `shell.js` 文件中，我们需要从 [`@minecraft/server`](https://learn.microsoft.com/minecraft/creator/scriptapi/minecraft/server/minecraft-server) 导入 `world` 对象：
 
-<CodeHeader>BP/scripts/shell.js</CodeHeader>
-
-```js
+```js title="BP/scripts/shell.js"
 import { world } from "@minecraft/server";
 ```
 
@@ -270,9 +260,7 @@ import { world } from "@minecraft/server";
 
 将以下函数添加到你的脚本中：
 
-<CodeHeader>BP/scripts/shell.js</CodeHeader>
-
-```js
+```js title="BP/scripts/shell.js"
 /** @param {number} playerYRotation */
 function getPreciseRotation(playerYRotation) {
     // 将玩家的头部 Y 旋转转换为正值
@@ -297,9 +285,7 @@ function getPreciseRotation(playerYRotation) {
 请为自定义组件标识符选择一个唯一的名称。不同包之间不能有重复的自定义组件！
 :::
 
-<CodeHeader>BP/scripts/shell.js</CodeHeader>
-
-```js
+```js title="BP/scripts/shell.js"
 /** @type {import("@minecraft/server").BlockCustomComponent} */
 const ShellRotationBlockComponent = {
     beforeOnPlayerPlace(event) {
@@ -328,9 +314,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 现在，你可以将此自定义组件应用于你的方块！
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "components": {
   ...
   "minecraft:custom_components": ["wiki:shell_rotation"]
@@ -343,9 +327,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 将以下排列插入到你的方块 JSON 中（按呈现顺序）：
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
   {
     "condition": "q.block_property('wiki:rotation') >= 4 || q.block_property('minecraft:block_face') == 'east'",
@@ -374,9 +356,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 向你的方块添加以下组件：
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:geometry": {
   "identifier": "geometry.shell", // 第一步中创建的模型
   "bone_visibility": {
@@ -393,9 +373,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 如果你希望方块在放置在另一个方块的侧面时具有不同的碰撞/选择框，就像我的“壳”方块一样，请添加类似以下排列：
 
-<CodeHeader>minecraft:block > permutations</CodeHeader>
-
-```json
+```json title="minecraft:block > permutations"
 {
     "condition": "q.block_property('minecraft:block_face') != 'up'",
     "components": {
@@ -418,9 +396,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 <Spoiler title="壳方块示例 JSON">
 
-<CodeHeader>BP/blocks/shell.json</CodeHeader>
-
-```json
+```json title="BP/blocks/shell.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -514,9 +490,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 <Spoiler title="壳方块示例脚本">
 
-<CodeHeader>BP/scripts/shell.js</CodeHeader>
-
-```js
+```js title="BP/scripts/shell.js"
 import { world } from "@minecraft/server";
 
 /** @param {number} playerYRotation */

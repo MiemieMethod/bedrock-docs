@@ -34,9 +34,7 @@ description: 这些命令技术允许你检测特定玩家/实体的“状态”
 - 确保添加 `is_moving` 记分板目标：
     - `/scoreboard objectives add is_moving dummy`
 
-<CodeHeader>BP/functions/states/player/is_moving.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_moving.mcfunction"
 ## 移动检测
 ### 标记为未移动
 execute as @a at @s positioned ~~10000~ if entity @e [type=leash_knot, r=0.1252] run scoreboard players set @s is_moving 0
@@ -84,9 +82,7 @@ execute as @a [scores={is_moving=1..}] run say 我仍在移动
 行走/短跑检测在有效果和附魔时可能无法按预期工作。
 :::
 
-<CodeHeader>BP/functions/states/player/is_moving.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_moving.mcfunction"
 ## 移动检测
 ### 标记为未移动
 execute as @a at @s positioned ~~10000~ if entity @e [type=leash_knot, r=0.1252] run scoreboard players set @s is_moving 0
@@ -151,9 +147,7 @@ execute as @a [scores={is_walking=1}] run say 我在行走
 - 确保添加 `is_sleeping` 记分板目标：
     - `/scoreboard objectives add is_sleeping dummy`
 
-<CodeHeader>BP/functions/states/player/is_sleeping.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_sleeping.mcfunction"
 ## 睡眠检测
 ### 标记为未睡眠
 execute as @a at @s if entity @s [y=~0.3, dy=0] run scoreboard players set @s is_sleeping 0
@@ -196,9 +190,7 @@ execute as @a [scores={is_sleeping=1..}] run say 我仍在睡觉
 - 确保添加 `is_sneaking` 记分板目标：
     - `/scoreboard objectives add is_sneaking dummy`
 
-<CodeHeader>BP/functions/states/player/is_sneaking.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_sneaking.mcfunction"
 ## 潜行检测
 ### 标记为未潜行
 execute as @a at @s if entity @s [y=~1.5, dy=0] run scoreboard players set @s is_sneaking 0
@@ -246,9 +238,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在潜行
 - 确保添加 `is_crawling` 记分板目标：
     - `/scoreboard objectives add is_crawling dummy`
 
-<CodeHeader>BP/functions/states/player/is_crawling.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_crawling.mcfunction"
 ## 爬行检测
 ### 标记为未爬行
 execute as @a at @s if entity @s [y=~0.7, dy=0] run scoreboard players set @s is_crawling 0
@@ -293,9 +283,7 @@ execute as @a [scores={is_sneaking=1..}] run say 我仍在爬行
 
 :::
 
-<CodeHeader>BP/functions/states/player/is_crawling.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_crawling.mcfunction"
 ## 设置玩家状态
 ### 未滑翔
 execute as @a at @s if entity @s [y=~0.7, dy=0] run scoreboard players set @s is_gliding 0

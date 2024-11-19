@@ -22,9 +22,7 @@ description: 通过脚本阻止方块放置。
 
 与其他脚本一样，你需要在 `manifest.json` 中添加依赖项。我们使用的是 `@minecraft/server` 模块，具体版本为 `1.14.0-beta`。
 
-<CodeHeader>manifest.json</CodeHeader>
-
-```json
+```json title="manifest.json"
 {
     "format_version": 2,
     "header": {
@@ -78,9 +76,7 @@ description: 通过脚本阻止方块放置。
 
 我们将首先添加将在代码中使用的模块导入。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 import { world, system } from "@minecraft/server";
 ```
 
@@ -90,9 +86,7 @@ import { world, system } from "@minecraft/server";
 
 添加模块后，我们将添加阻止方块放置的措施。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 world.beforeEvents.playerPlaceBlock.subscribe((event) => {
     const player = event.source;
     if (event.permutationBeingPlaced.type.id === "minecraft:bedrock") {

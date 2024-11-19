@@ -26,9 +26,7 @@ description: 本教程旨在展示如何在实体站在方块上时应用状态�
 
 我们需要在代码中添加一些内容，首先让我们从一个状态开始，当站在上面时为 `true`，否则为 `false`：
 
-<CodeHeader>minecraft:block > description</CodeHeader>
-
-```json
+```json title="minecraft:block > description"
 "states": {
     "wiki:stood_on": [false, true]
 }
@@ -36,9 +34,7 @@ description: 本教程旨在展示如何在实体站在方块上时应用状态�
 
 现在我们需要注册我们的自定义组件，以便挂钩 [`stepOn`](../blocks/block-events.md#step-on) 和 [`stepOff`](../blocks/block-events.md#step-off) 事件：
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:custom_components": [
     "wiki:detect_treaders"
 ]
@@ -46,9 +42,7 @@ description: 本教程旨在展示如何在实体站在方块上时应用状态�
 
 ### 自定义组件脚本
 
-<CodeHeader>BP/scripts/detect_treaders.js</CodeHeader>
-
-```js
+```js title="BP/scripts/detect_treaders.js"
 import { BlockPermutation, GameMode, Player, world } from "@minecraft/server";
 
 /** @type {import("@minecraft/server").BlockCustomComponent} */
@@ -87,9 +81,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 我们还需要让方块每个 tick 都进行更新，以便应用所需的效果。为此，我们将使用 [变体](../blocks/block-permutations.md) 数组，以便仅在方块被踩踏时应用自定义组件：
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
     {
         "condition": "q.block_state('wiki:stood_on')",
@@ -108,9 +100,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 现在，让我们添加一个事件，使实体获得凋零效果：
 
-<CodeHeader>BP/scripts/wither_treaders.js</CodeHeader>
-
-```js
+```js title="BP/scripts/wither_treaders.js"
 import { Entity, GameMode, Player, world } from "@minecraft/server";
 
 /** @type {import("@minecraft/server").BlockCustomComponent} */
@@ -138,9 +128,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 <Spoiler title="示例凋零方块">
 
-<CodeHeader>BP/blocks/wither_block.json</CodeHeader>
-
-```json
+```json title="BP/blocks/wither_block.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {

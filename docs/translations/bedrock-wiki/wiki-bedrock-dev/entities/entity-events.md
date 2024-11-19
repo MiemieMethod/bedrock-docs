@@ -25,9 +25,7 @@ description: 学习实体最重要的内容之一——事件。
 
 事件最基本和最常见的用途是直接添加和/或移除组件组。这些几乎总是在你的事件中使用，并与其他键一起使用。以下名为 `wiki:ranged_attacker` 的事件添加了两个组件组 "attacker" 和 "ranged"，并移除了组件组 "standby" 和 "melee"：
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "wiki:ranged_attacker": {
     "add": {
         "component_groups": [
@@ -52,9 +50,7 @@ description: 学习实体最重要的内容之一——事件。
 
 将命令排队，由目标在当前刻的结束时执行。
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "wiki:execute_event": {
     "queue_command": {
         "target": "self", // 可选 - 默认是 'self'（目标实体）
@@ -65,9 +61,7 @@ description: 学习实体最重要的内容之一——事件。
 
 可以使用数组来排队多个命令：
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "wiki:execute_event": {
     "queue_command": {
         "target": "self", // 可选 - 默认是 'self'（目标实体）
@@ -85,9 +79,7 @@ description: 学习实体最重要的内容之一——事件。
 
 牛的 `minecraft:entity_spawned` 事件使用随机化，使牛以95%的概率生成成年牛，5%的概率生成小牛（组件组 `minecraft:cow_adult` 和 `minecraft:cow_baby`）。
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "minecraft:entity_spawned": {
     "randomize": [
         {
@@ -116,9 +108,7 @@ description: 学习实体最重要的内容之一——事件。
 
 序列是一个可以在实体事件中使用的参数，根据过滤器添加或移除组件组。过滤器允许我们创建条件事件，只有在满足条件时才会添加/移除组件组。僵尸的 `minecraft:convert_to_drowned` 事件使用 `sequence` 参数，根据僵尸是否是幼年来添加不同的组件组。
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "minecraft:convert_to_drowned": {
     "sequence": [
         {
@@ -170,9 +160,7 @@ description: 学习实体最重要的内容之一——事件。
 
 当实体被玩家或投射物击中时运行此事件。有60%的机会什么都不会发生，有40%的机会激活攻击序列。此攻击序列根据实体当前的健康状态（实体低于半血时给予更高的强攻机会）和与最近玩家的距离（当玩家距离较远时，远程攻击优先级较高）选择一个随机攻击。
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "wiki:on_hit": {
     "randomize":[
         // 60%的机会什么都不会发生
@@ -375,9 +363,7 @@ description: 学习实体最重要的内容之一——事件。
 字符串值将作为Molang进行评估。这意味着，要设置字符串属性，必须将值括在 `'` 中（如下例所示）。
 :::
 
-<CodeHeader>minecraft:block > events</CodeHeader>
-
-```json
+```json title="minecraft:block > events"
 "wiki:change_properties": {
     "set_property": {
         "wiki:boolean_property_example": false,
@@ -393,9 +379,7 @@ description: 学习实体最重要的内容之一——事件。
 
 我们还可以为事件指定过滤器和目标。目标参数将在后面详细讨论。如果以下事件由 `minecraft:interact` 组件调用，那么如果被互动的实体具有 `pig` 家族标签，它将运行玩家与该实体互动时的 `wiki:interacted` 事件。
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "wiki:on_interact": {
     "trigger": {
         "filters": {
@@ -415,9 +399,7 @@ description: 学习实体最重要的内容之一——事件。
 
 将其与 `sequence` 参数结合使用，这允许我们在多个实体中运行事件，只要有相应的上下文。我们将在目标部分中进一步讨论这一点。
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "wiki:on_interact": {
     "sequence": [
         {
@@ -448,9 +430,7 @@ description: 学习实体最重要的内容之一——事件。
 
 一些组件允许玩家基于设置的参数调用事件。在这里，我们输入当满足参数时要运行的事件。例如，僵尸使用的 `minecraft:environment_sensor` 组件在实体处于水下时调用事件 `minecraft:start_transforming`。
 
-<CodeHeader>minecraft:entity > components</CodeHeader>
-
-```json
+```json title="minecraft:entity > components"
 "minecraft:environment_sensor": {
     "triggers": {
         "filters": {
@@ -465,9 +445,7 @@ description: 学习实体最重要的内容之一——事件。
 
 我们还可以在动画和动画控制器内直接在实体上运行事件。这种基于行为的动画用于在10秒后调用事件 `wiki:start_pouncing`。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "animation.entity.pounce_timer": {
     "timeline": {
         "10.0": "@s wiki:start_pouncing"
@@ -478,9 +456,7 @@ description: 学习实体最重要的内容之一——事件。
 
 这种基于行为的动画控制器用于在转换到 "run" 状态时调用事件 `wiki:running`。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.entity.movement":{
     "initial_state":"walk",
     "states":{
@@ -509,9 +485,7 @@ description: 学习实体最重要的内容之一——事件。
 
 在一个事件内，除了添加和移除组件组，我们还可以 `trigger` 其他事件。这只猪灵中的事件在 `minecraft:entity_born` 事件中调用 `spawn_baby` 事件。
 
-<CodeHeader>minecraft:entity > events</CodeHeader>
-
-```json
+```json title="minecraft:entity > events"
 "minecraft:entity_born": {
     "trigger": "spawn_baby"
 }
@@ -526,9 +500,7 @@ description: 学习实体最重要的内容之一——事件。
 
 `minecraft:behavior.send_event` 组件用于在召唤师的激活范围内调用任何蓝色羊群中的 `wololo` 事件。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:behavior.send_event": {
     "priority": 3,
     "event_choices": [
@@ -568,9 +540,7 @@ description: 学习实体最重要的内容之一——事件。
 
 你也可以在生成实体时调用事件。为此，在可以召唤实体的组件的字符串末尾添加 `<my:event_name>`。
 
-<CodeHeader>BP/entities/zombie.json#component_groups/minecraft:convert_to_drowned</CodeHeader>
-
-```json
+```json title="BP/entities/zombie.json#component_groups/minecraft:convert_to_drowned"
 "minecraft:transformation": {
     "into": "minecraft:drowned<minecraft:as_adult>",
     "transformation_sound": "convert_to_drowned",
@@ -585,9 +555,7 @@ description: 学习实体最重要的内容之一——事件。
 
 `minecraft:damage_sensor` 组件内的组件调用事件 `minecraft:gain_bad_omen` 给杀死它的玩家。注意事件的目标被设置为 "other"。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:damage_sensor": {
     "triggers": {
         "on_damage": {
@@ -624,9 +592,7 @@ description: 学习实体最重要的内容之一——事件。
 
 一个很好的使用例子是牛。这展示了我们如何确保牛在生成/转变时始终具有 `minecraft:cow_adult` 或 `minecraft:cow_baby` 之一。
 
-<CodeHeader>BP/entities/cow.json#events</CodeHeader>
-
-```json
+```json title="BP/entities/cow.json#events"
 "events": {
     "minecraft:entity_spawned": {
         "randomize": [

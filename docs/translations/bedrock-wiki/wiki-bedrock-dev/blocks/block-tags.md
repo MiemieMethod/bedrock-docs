@@ -23,9 +23,7 @@ description: 方块标签可用于确保方块满足特定条件。
 
 方块标签可以像物品一样应用于方块的 `components` 中，如下所示：
 
-<CodeHeader>BP/blocks/tree_stump.json</CodeHeader>
-
-```json
+```json title="BP/blocks/tree_stump.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -59,9 +57,7 @@ description: 方块标签可用于确保方块满足特定条件。
 
 查询方块标签的物品示例：
 
-<CodeHeader>BP/items/custom_pickaxe.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_pickaxe.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {

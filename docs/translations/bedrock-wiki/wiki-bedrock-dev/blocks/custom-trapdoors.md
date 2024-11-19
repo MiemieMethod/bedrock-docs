@@ -22,9 +22,7 @@ mentions:
 
 这是你需要的基本活板门功能的方块 JSON。它包含了活板门每种排列的旋转信息，意味着它可以以与原版活板门相同的方向放置。
 
-<CodeHeader>BP/blocks/custom_trapdoor.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_trapdoor.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -175,9 +173,7 @@ mentions:
 
 现在，是时候将这些排列付诸实践了。以下脚本将允许玩家通过与活板门交互来打开和关闭它。别忘了将此脚本导入到你的主脚本入口中。
 
-<CodeHeader>BP/scripts/custom_trapdoor.js</CodeHeader>
-
-```js
+```js title="BP/scripts/custom_trapdoor.js"
 import { world } from "@minecraft/server";
 
 /** @type {import("@minecraft/server").BlockCustomComponent} */
@@ -209,9 +205,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 <Spoiler title="几何 JSON">
   
-<CodeHeader>RP/models/blocks/trapdoor.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/blocks/trapdoor.geo.json"
 {
     "format_version": "1.21.40",
     "minecraft:geometry": [

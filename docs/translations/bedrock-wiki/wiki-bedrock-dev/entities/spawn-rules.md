@@ -22,9 +22,7 @@ description: 生成规则定义了实体如何在世界中生成。
 
 以下是一个生成规则示例，并对各字段进行解释。
 
-<CodeHeader>BP/spawn_rules/zombie.json</CodeHeader>
-
-```json
+```json title="BP/spawn_rules/zombie.json"
 {
 	"format_version": "1.8.0",
 	"minecraft:spawn_rules": {
@@ -116,9 +114,7 @@ minecraft:player_in_village_filter
 
 ### minecraft:herd
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
           "min_size": 1,
           "max_size": 2,
@@ -132,9 +128,7 @@ minecraft:player_in_village_filter
 
 ### minecraft:spawns_above_block_filter
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
         "minecraft:spawns_above_block_filter": {
           "blocks": "minecraft:stone",
           "distance": 10
@@ -145,9 +139,7 @@ minecraft:player_in_village_filter
 
 ### minecraft:spawns_on_block_prevented_filter
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
         "minecraft:spawns_on_block_prevented_filter": [
           "minecraft:nether_wart_block",
           "minecraft:shroomlight"

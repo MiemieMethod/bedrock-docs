@@ -48,9 +48,7 @@ description: 附加物的文档。
 
 以下是一个附加物的基本示例。
 
-<CodeHeader>RP/attachables/stick.entity.json</CodeHeader>
-
-```json
+```json title="RP/attachables/stick.entity.json"
 {
     "format_version": "1.10.0",
     "minecraft:attachable": {
@@ -164,9 +162,7 @@ description: 附加物的文档。
 
 接下来是修改我们几何体的根骨骼，使其绑定到物品放置的装备槽。请注意以下来自骨架头几何体文件的第4行：
 
-<CodeHeader>RP/models/entity/skeleton_head.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/entity/skeleton_head.geo.json"
 // 一个骨骼
 {
     "name": "skeleton_head",

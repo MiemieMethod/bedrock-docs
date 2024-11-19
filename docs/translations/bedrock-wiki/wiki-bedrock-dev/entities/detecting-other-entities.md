@@ -19,9 +19,7 @@ description: 当其他实体靠近时触发事件。
 
 这可能是检测其他实体的最基本方法。主要问题是它只接受一个条目，测试实体是否超出范围可能非常棘手。由于它是一个实体组件，你可以直接将其放入你的实体行为文件中，并编辑Minecraft过滤器。以下是一个示例：
 
-<CodeHeader>BP/entities/my_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#components"
 "minecraft:entity_sensor": {
     "sensor_range": 2.5, //这是它将检测其他实体的半径（以区块为单位）
     "relative_range": false, //如果为true，传感器范围将在实体的碰撞箱大小上加成
@@ -43,9 +41,7 @@ description: 当其他实体靠近时触发事件。
 
 你将遵循的这个示例将使猪在检测到玩家时说“哼哼”，不过你可以将其替换为你想要的任何内容。首先，复制并粘贴以下BP动画。
 
-<CodeHeader>BP/animations/detection_animation.json</CodeHeader>
-
-```json
+```json title="BP/animations/detection_animation.json"
 {
         "format_version": "1.10.0",
         "animations": {
@@ -75,9 +71,7 @@ description: 当其他实体靠近时触发事件。
 
 接下来，复制并粘贴以下BP动画控制器。这假设你已设置`/execute`命令的`/event`部分以添加或移除`minecraft:is_sheared`。
 
-<CodeHeader>BP/animation_controllers/pig_animation_controllers.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/pig_animation_controllers.json"
 {
         "format_version": "1.10.0",
         "animation_controllers": {
@@ -109,9 +103,7 @@ description: 当其他实体靠近时触发事件。
 
 最后，将以下代码片段复制并粘贴到猪类的行为文件中。确保将其插入到`description`中。
 
-<CodeHeader>BP/entities/my_entity.json#description</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#description"
 "animations": {
         "manage_find_player": "controller.animation.pig_find_player",
         "find_player": "animation.pig.find_player",
@@ -130,9 +122,7 @@ description: 当其他实体靠近时触发事件。
 
 就像在前面的方法中一样，我们将使猪在检测到玩家时说“哼哼”，不过你可以将其替换为你想要的任何内容。首先，复制并粘贴以下BP动画：
 
-<CodeHeader>BP/animations/detection_animation.json</CodeHeader>
-
-```json
+```json title="BP/animations/detection_animation.json"
 {
 	"format_version": "1.10.0",
 	"animations": {
@@ -153,9 +143,7 @@ description: 当其他实体靠近时触发事件。
 
 现在这很好，但如果你想让猪通过某个可以用Molang检测的属性来检测玩家，可以使用以下代码。
 
-<CodeHeader>BP/animations/detection_animation.json</CodeHeader>
-
-```json
+```json title="BP/animations/detection_animation.json"
 {
 	"format_version": "1.10.0",
 	"animations": {
@@ -174,9 +162,7 @@ description: 当其他实体靠近时触发事件。
 
 接下来，复制并粘贴以下BP动画控制器：
 
-<CodeHeader>BP/animation_controllers/pig_animation_controllers.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/pig_animation_controllers.json"
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -208,9 +194,7 @@ description: 当其他实体靠近时触发事件。
 
 最后，将以下代码片段复制并粘贴到猪类的行为文件中。确保将其插入到`description`中。
 
-<CodeHeader>BP/entities/my_entity.json#description</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#description"
 "animations": {
 	"manage_find_player": "controller.animation.pig_find_player",
 	"find_player": "animation.pig.find_player"

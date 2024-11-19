@@ -21,9 +21,7 @@ description: 在本教程中，你将学习如何保持绑定数据，并根据�
 
 以下代码创建一个标签元素，当添加到根面板时，如果该标题包含字符串“update”，则在屏幕上显示该标题（“update”文本从显示的文本中移除）。在此之后传入的任何标题仅在包含字符串“update”时更新显示的文本。
 
-<CodeHeader>RP/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="RP/ui/hud_screen.json"
 "preserved_title_display": {
 	"$update_string": "update",   // 标题必须包含此字符串才能更新元素
 	"type": "label",

@@ -35,9 +35,7 @@ mentions:
 -   将`dirt0.png`、`dirt1.png`和`dirt2.png`复制到路径变量中指定的位置。如果你想保持整洁，可以包含额外的文件夹。
 -   将以下内容添加到泥土的纹理条目中：
 
-<CodeHeader>RP/textures/terrain_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json"
 {
     "texture_name": "atlas.terrain",
     "resource_pack_name": "wiki", // 你的资源包ID
@@ -63,9 +61,7 @@ mentions:
 
 要计算纹理变化的可能性，请将所有权重相加（在此情况下为70 + 20 + 10 = 100），然后将权重除以这个总和。例如，选择`dirt0`变化的概率为70 &div; 100，因此如果在该位置放置泥土，70%的位置将显示`dirt0`。
 
-<CodeHeader>RP/textures/terrain_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json"
 {
     "texture_name": "atlas.terrain",
     "resource_pack_name": "wiki", // 你的资源包ID

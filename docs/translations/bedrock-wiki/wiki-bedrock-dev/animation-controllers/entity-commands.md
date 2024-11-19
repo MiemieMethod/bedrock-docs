@@ -33,9 +33,7 @@ description: 从实体触发斜杠命令。
 
 以下是一个示例动画控制器：
 
-<CodeHeader>BP/animation_controllers/entity_commands.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/entity_commands.ac.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {
@@ -71,9 +69,7 @@ description: 从实体触发斜杠命令。
 
 要将此动画控制器添加到我们的实体中，我们可以在实体定义描述中使用以下代码：
 
-<CodeHeader>BP/entities/entity_commands.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity_commands.se.json"
 "description": {
     "identifier": "wiki:entity_commands",
     "scripts": {
@@ -97,9 +93,7 @@ description: 从实体触发斜杠命令。
 
 我们可以更新我们的动画控制器以基于 `skin_id` 触发：
 
-<CodeHeader>BP/animation_controllers/entity_commands.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/entity_commands.ac.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {
@@ -154,9 +148,7 @@ description: 从实体触发斜杠命令。
 
 `skin_id` 组件如下所示：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:skin_id": {
     "value": 1
 }
@@ -164,9 +156,7 @@ description: 从实体触发斜杠命令。
 
 我们可以添加包含 skin_ids 的组件组：
 
-<CodeHeader>BP/entities/entity_commands.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity_commands.se.json"
 "component_groups": {
     "execute_no_commands": {
         "minecraft:skin_id": {
@@ -190,9 +180,7 @@ description: 从实体触发斜杠命令。
 
 现在让我们创建事件，以便我们可以轻松添加这些组：
 
-<CodeHeader>BP/entities/entity_commands.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity_commands.se.json"
 "events": {
     "minecraft:entity_spawned": {
         "add": {
@@ -233,9 +221,7 @@ description: 从实体触发斜杠命令。
 
 此组件将在你点击他时生成僵尸。
 
-<CodeHeader>BP/entities/entity_commands.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity_commands.se.json"
 "minecraft:interact": {
     "interactions": [{
         "on_interact": {
@@ -257,9 +243,7 @@ description: 从实体触发斜杠命令。
 
 此组件将每 10 秒触发示例命令：
 
-<CodeHeader>BP/entities/entity_commands.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity_commands.se.json"
 "minecraft:timer": {
     "looping": true,
     "time": 10,

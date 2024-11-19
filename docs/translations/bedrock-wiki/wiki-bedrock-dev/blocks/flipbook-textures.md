@@ -28,9 +28,7 @@ description: 方块的翻书（动画）纹理。
 }
 ```
 
-<CodeHeader>BP/blocks/flipbook_block.json</CodeHeader>
-
-```json
+```json title="BP/blocks/flipbook_block.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -62,9 +60,7 @@ description: 方块的翻书（动画）纹理。
 
 1. Minecraft 获取在 `terrain_texture.json` 中定义的纹理名称和路径。
 
-<CodeHeader>RP/textures/terrain_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json"
 {
     "texture_name": "atlas.terrain",
     "resource_pack_name": "wiki", // 你的资源包的 ID
@@ -80,9 +76,7 @@ description: 方块的翻书（动画）纹理。
 
 2. Minecraft 在 `flipbook_textures.json` 中查找该名称（`magma`）的动画参数。
 
-<CodeHeader>RP/textures/flipbook_textures.json</CodeHeader>
-
-```json
+```json title="RP/textures/flipbook_textures.json"
 [
     {
         "atlas_tile": "magma",
@@ -115,9 +109,7 @@ description: 方块的翻书（动画）纹理。
 
 一个组件，你将在其中定义要动画的方块纹理索引。
 
-<CodeHeader>RP/textures/terrain_texture.json#texture_data</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json#texture_data"
 "dirt": {
     "textures": [
         "textures/blocks/dirt",
@@ -132,9 +124,7 @@ description: 方块的翻书（动画）纹理。
 
 一个组件，你将在其中定义要动画的方块变体（已注册到 `variations` 数组中）。
 
-<CodeHeader>RP/textures/terrain_texture.json#texture_data</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json#texture_data"
 "dirt": {
     "textures": [
         {

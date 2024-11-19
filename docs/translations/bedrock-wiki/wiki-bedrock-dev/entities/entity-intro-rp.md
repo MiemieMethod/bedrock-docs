@@ -23,9 +23,7 @@ description: 实体资源包简介。
 
 ## 文件大纲
 
-<CodeHeader>RP/entity/example.json</CodeHeader>
-
-```json
+```json title="RP/entity/example.json"
 {
     "format_version": "1.10.0",
     "minecraft:client_entity": {
@@ -55,9 +53,7 @@ description: 实体资源包简介。
 ## 材料
 材料描述了纹理的渲染方式。例如，骷髅有一种材料使其纹理透明，而末影人有一种材料使其眼睛发光。你可以使用许多现成的材料，而无需自己制作。
 
-<CodeHeader>RP/entity/spider.entity.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/spider.entity.json#minecraft:client_entity/description"
 "materials": {
     "default": "spider",
     "invisible": "spider_invisible"
@@ -70,9 +66,7 @@ description: 实体资源包简介。
 ## 纹理
 纹理是映射到我们几何体上的图像。每个实体都有不同的纹理。与材料类似，这个键也是一个短名称定义，但这里的引用是纹理的路径。
 
-<CodeHeader>RP/entity/bee.entity.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/bee.entity.json#minecraft:client_entity/description"
 "textures": {
     "default": "textures/entity/bee/bee",
     "angry": "textures/entity/bee/bee_angry",
@@ -85,9 +79,7 @@ description: 实体资源包简介。
 ## 几何体
 几何体是一个定义组成我们实体形状的*骨骼*集合的文件。你可以使用像Blockbench这样的应用程序自动创建此文件。有关如何制作你自己模型的更多详细信息，请查看我们的[指南](../guide/blockbench.md)。
 
-<CodeHeader>RP/entity/creeper.entity.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/creeper.entity.json#minecraft:client_entity/description"
 "geometry": {
     "default": "geometry.creeper",
     "charged": "geometry.creeper.charged"
@@ -95,9 +87,7 @@ description: 实体资源包简介。
 ```
 这里我们的短名称引用了几何体的标识符。
 
-<CodeHeader>RP/entity/creeper.entity.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/creeper.entity.json#minecraft:client_entity/description"
 {
 	"format_version" : "1.12.0",
 	"minecraft:geometry" : [
@@ -118,9 +108,7 @@ description: 实体资源包简介。
 ## 渲染控制器
 渲染控制器简单地控制你的实体将如何被渲染。此文件使用材料、纹理和几何体的短名称，并通过它们定义何时渲染每个元素。
 
-<CodeHeader>RP/render_controllers/example.rc.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/example.rc.json"
 {
 	"format_version": "1.10.0",
 	"render_controllers": {
@@ -140,9 +128,7 @@ description: 实体资源包简介。
 
 要告诉我们的实体使用哪个渲染控制器，我们只需将渲染控制器标识符添加到我们的文件中。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "render_controllers": [
     "controller.render.example"
 ]
@@ -153,9 +139,7 @@ description: 实体资源包简介。
 ## 动画
 动画描述了我们的实体可能如何移动。这可以包括行走动画、攻击或实体如何看向玩家。它们由代码定义，描述几何体在某些时间如何移动或使用数学方程。你需要一个几何体才能使动画正常工作。
 
-<CodeHeader>RP/animations/example.a.json</CodeHeader>
-
-```json
+```json title="RP/animations/example.a.json"
 {
 	"format_version" : "1.8.0",
 	"animations" : {
@@ -166,9 +150,7 @@ description: 实体资源包简介。
 ```
 每个动画由其标识符定义。我们的动画键是动画的另一个短名称定义。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "animations": {
     "walk": "animation.example.walk",
     "attack": "animation.example.attack",
@@ -187,9 +169,7 @@ description: 实体资源包简介。
 ## 脚本
 脚本键定义了实体在某些时间运行的特定脚本。这使我们能够运行动画、设置变量甚至控制实体的大小。此外，我们可以使用*Molang*来定义这些。有关Molang的更深入了解，请查看我们的页面[这里](../concepts/molang.md)。总体而言，Molang本质上是一种使用变量的数学方程。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "scripts": {
     "initialize": [...],
     "pre_animation": [...],
@@ -213,9 +193,7 @@ Molang中的一些有用内容包括：
 ### 动画
 此脚本在`pre_animation`之后的每帧运行。在这里，你运行动画和动画控制器。每帧此键中的每个动画或动画控制器都将被运行。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "scripts": {
     "animate": [
         "attack_controller",
@@ -237,9 +215,7 @@ Molang中的一些有用内容包括：
 
 `scale`的另一个不同之处在于，你可以使用Molang，并且有三个附加组件：`scaleX`、`scaleY`和`scaleZ`。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "scripts": {
     "scale": "q.variant",
     "scaleX": 2,
@@ -252,9 +228,7 @@ Molang中的一些有用内容包括：
 
 一个使用案例可能是拥有一个随机大小的气氛实体。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "scripts": {
     "initialize": [
         "v.scale = math.random_integer(1, 5);"
@@ -268,9 +242,7 @@ Molang中的一些有用内容包括：
 ## 音效
 音效是可以在游戏中某些时刻播放的音频文件。此键再次定义音效的短名称，实体可以在动画中使用。这对于创建更动态的声音非常有用，例如，你可能希望实体在攻击时播放3个声音。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "sound_effects": {
     "attack_1": "mob.entity.attack_1",
     "attack_2": "mob.entity.attack_2",
@@ -283,9 +255,7 @@ Molang中的一些有用内容包括：
 ## 粒子效果
 粒子效果是包含许多小尖刺运动信息的文件，用于创建烟雾或火焰等效果。与音效类似，此键定义了粒子效果的短名称，以便在动画中使用。例如，幻影在飞行时其翅膀上有粒子效果。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "particle_effects": {
     "smoke": "wiki:smoke_particle"
 }
@@ -294,11 +264,9 @@ Molang中的一些有用内容包括：
 在这里，短名称引用了粒子的标识符。有关粒子及其制作的更多信息，请查看我们的粒子页面[这里](../particles/particles.md)。有关在动画中使用音效和粒子效果的更多信息，你还可以查看我们的页面[这里](../visuals/animation-effects.md)。
 
 ## 生成蛋
-生成蛋键允许我们为实体生成一个生成蛋。使用时，这将生成我们的实体，并自动添加到创造模式库存中。生成蛋的外观有两种选择，颜色和纹理。
+生成蛋键允许我们为实体生成一个生成蛋。使用时，这将生成我们的实体，并自动添加到创造模式物品栏中。生成蛋的外观有两种选择，颜色和纹理。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "spawn_egg": {
     "base_color": "#db7500",
     "overlay_color": "#242222"
@@ -307,9 +275,7 @@ Molang中的一些有用内容包括：
 
 使用`base_color`和`overlay_color`将创建一个类似于原版的纹理蛋，使用提供的颜色。
 
-<CodeHeader>RP/entity/example.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entity/example.json#minecraft:client_entity/description"
 "spawn_egg": {
     "texture": "wiki.example",
 }

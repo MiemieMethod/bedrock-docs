@@ -23,9 +23,7 @@ mentions:
 
 与其他物品教程一样，我们将首先制作一个简单的自定义剑，如下所示。
 
-<CodeHeader>BP/items/my_sword.json</CodeHeader>
-
-```json
+```json title="BP/items/my_sword.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -50,7 +48,7 @@ mentions:
                 "value": 10,
                 "slot": "sword"
             },
-            // 此纹理用于库存和手部模型
+            // 此纹理用于物品栏和手部模型
             "minecraft:icon": "my_sword",
             "minecraft:display_name": {
                 "value": "我的自定义剑"
@@ -71,9 +69,7 @@ mentions:
 
 这至少足以将剑放入游戏中，我们仍然需要在资源包中注册图标，但这不是大问题，因为我们只需进入资源包文件夹并按如下方式输入即可。
 
-<CodeHeader>RP/textures/item_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/item_texture.json"
 {
     "resource_pack_name": "custom-weapon",
     "texture_name": "atlas.items",
@@ -118,9 +114,7 @@ mentions:
 
 你还可以混合其他组件，比如`minecraft:digger`，以便更快地破坏网或竹子，如下所示：
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:digger": {
     "use_efficiency": true,
     "destroy_speeds": [
@@ -140,9 +134,7 @@ mentions:
 
 你可能需要为其制作一个配方，这在之前的章节中已经涵盖，因为那里没有什么新内容，但如果你不确定，这里有一个示例配方，用于用末影之眼和末影珍珠制作剑。
 
-<CodeHeader>BP/recipes/my_sword.json</CodeHeader>
-
-```json
+```json title="BP/recipes/my_sword.json"
 {
     "format_version": "1.21.40",
     "minecraft:recipe_shaped": {

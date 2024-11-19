@@ -138,9 +138,7 @@ AI目标以 `behavior` 为前缀，并遵循优先级系统来选择运行哪个
 
 别忘了添加一些基本的移动和导航组件，以便你的实体能够移动。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:behavior.nearest_attackable_target": {
     "priority": 0,
     "reselect_targets": true,
@@ -178,9 +176,7 @@ AI目标以 `behavior` 为前缀，并遵循优先级系统来选择运行哪个
 
 你可以使用 `minecraft:target_nearby_sensor` 来检测何时到达标记实体：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:target_nearby_sensor": {
     "inside_range": 2.0,
     "outside_range": 4.0,

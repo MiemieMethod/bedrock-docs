@@ -21,9 +21,7 @@ HUD屏幕是游戏中大部分时间显示的界面，展示了玩家的关键�
 
 以下代码创建了一个图像元素，在屏幕顶部显示一个黑色方块，创建了一个标签元素，在屏幕右上角显示文本“hud text”，并对`root_panel`进行修改，将图像和标签元素添加到HUD屏幕。
 
-<CodeHeader>RP/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="RP/ui/hud_screen.json"
 "hud_square": {
 	"type": "image",
 	"texture": "textures/ui/Black",   // 原版纹理

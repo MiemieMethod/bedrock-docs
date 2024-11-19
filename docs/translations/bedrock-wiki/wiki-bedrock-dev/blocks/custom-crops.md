@@ -47,9 +47,7 @@ description: 原版作物的再创作。
 
 此代码示例还包括我们作物的基本组件，这些组件将在每个排列中激活。
 
-<CodeHeader>BP/blocks/custom_crop.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_crop.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -89,9 +87,7 @@ description: 原版作物的再创作。
 -   [`onRandomTick`](../blocks/block-events.md#random-tick) 事件钩子用于在随机间隔增加 `wiki:growth` 状态。
 -   [`onPlayerInteract`](../blocks/block-events.md#player-interact) 事件钩子用于支持骨粉，在生存模式下为 `wiki:growth` 增加随机值或在创造模式下使作物完全生长。
 
-<CodeHeader>BP/scripts/custom_crop.js</CodeHeader>
-
-```js
+```js title="BP/scripts/custom_crop.js"
 import { EquipmentSlot, GameMode, world } from "@minecraft/server";
 
 /**
@@ -159,9 +155,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 例如，如果 `wiki:growth` 为7，纹理将设置为 `custom_crop_3`，并且作物能够掉落食物。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
     {
         "condition": "q.block_state('wiki:growth') < 7",
@@ -304,9 +298,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 <Spoiler title="自定义作物方块 JSON">
 
-<CodeHeader>BP/blocks/custom_crop.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_crop.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -480,9 +472,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ### 幼年作物战利品表
 
-<CodeHeader>BP/loot_tables/blocks/custom_crop_young.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/blocks/custom_crop_young.json"
 {
     "pools": [
         {
@@ -500,9 +490,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 ### 成熟作物战利品表
 
-<CodeHeader>BP/loot_tables/blocks/custom_crop_mature.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/blocks/custom_crop_mature.json"
 {
     "pools": [
         {
@@ -543,9 +531,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 手持作物方块看起来不太合适，因此我们使用种子来种植作物！以下是用于放置作物的自定义项目的 JSON。
 
-<CodeHeader>BP/items/custom_seeds.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_seeds.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -570,9 +556,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 你的作物不仅能掉落种子！使用下面的模板创建自定义食物。
 
-<CodeHeader>BP/items/custom_food.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_food.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {

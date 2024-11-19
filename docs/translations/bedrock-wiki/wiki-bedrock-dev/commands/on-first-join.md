@@ -17,9 +17,7 @@ description: 此系统将在玩家首次加入世界时运行你指定的命令�
 
 ## 系统
 
-<CodeHeader>BP/functions/events/player/on_first_join.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/on_first_join.mcfunction"
 ## 在这里输入你的命令（示例）
 ### 给石镐 ×1
 give @a [tag=!joined] stone_pickaxe

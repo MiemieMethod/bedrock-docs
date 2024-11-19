@@ -33,9 +33,7 @@ mentions:
 
 _此示例防止玩家在非创造模式下放置方块：_
 
-<CodeHeader>BP/scripts/creative_mode_only_component.js</CodeHeader>
-
-```js
+```js title="BP/scripts/creative_mode_only_component.js"
 import { world, GameMode } from "@minecraft/server";
 
 /** @type {import("@minecraft/server").BlockCustomComponent} */
@@ -60,9 +58,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 与任何普通组件一样，自定义组件可以根据方块的 [排列](../blocks/block-permutations.md) 添加或移除。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "components": {
     "minecraft:custom_components": ["wiki:creative_mode_only"]
 }
@@ -74,9 +70,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 在玩家放置方块之前运行。
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 beforeOnPlayerPlace(event) {
     event.block // 此事件影响的方块。即将被替换的方块。
     event.cancel // 如果设置为 true，取消放置方块事件。
@@ -97,17 +91,13 @@ beforeOnPlayerPlace(event) {
 
 当实体落在方块上时运行。
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:entity_fall_on": {
     "min_fall_distance": 5 // 实体必须下落的最小距离以触发此事件（可选）。
 }
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onEntityFallOn(event) {
     event.block // 此事件影响的方块。
     event.dimension // 包含该方块的维度。
@@ -120,9 +110,7 @@ onEntityFallOn(event) {
 
 当方块被放置时运行。
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onPlace(event) {
     event.block // 此事件影响的方块。
     event.dimension // 包含该方块的维度。
@@ -134,9 +122,7 @@ onPlace(event) {
 
 当玩家破坏方块时运行。
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onPlayerDestroy(event) {
     event.block // 此事件影响的方块。即被破坏后的方块。
     event.destroyedBlockPermutation // 被破坏前方块的排列。
@@ -149,9 +135,7 @@ onPlayerDestroy(event) {
 
 当玩家与方块交互/使用方块时运行。
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onPlayerInteract(event) {
     event.block // 此事件影响的方块。
     event.dimension // 包含该方块的维度。
@@ -165,9 +149,7 @@ onPlayerInteract(event) {
 
 在每个随机滴答时触发，允许实现随机作物生长等行为。
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onRandomTick(event) {
     event.block // 此事件影响的方块。
     event.dimension // 包含该方块的维度。
@@ -182,9 +164,7 @@ onRandomTick(event) {
 
 当实体离开方块时运行。
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOff(event) {
     event.block // 此事件影响的方块。
     event.dimension // 包含该方块的维度。
@@ -200,9 +180,7 @@ onStepOff(event) {
 
 当实体踩上方块时运行。
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn(event) {
     event.block // 此事件影响的方块。
     event.dimension // 包含该方块的维度。
@@ -218,18 +196,14 @@ onStepOn(event) {
 
 在方块的 [`minecraft:tick`](../blocks/block-components.md#tick) 组件的 `interval_range` 内的 X 和 Y 次滴答之间触发。
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:tick": {
     "interval_range": [10, 20],
     "looping": true
 }
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onTick(event) {
     event.block // 此事件影响的方块。
     event.dimension // 包含该方块的维度。

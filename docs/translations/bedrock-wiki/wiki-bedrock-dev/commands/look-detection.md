@@ -19,9 +19,7 @@ description: 此命令技术允许你检测目标何时注视玩家/实体/坐�
 
 ## 命令
 
-<CodeHeader>BP/functions/states/player/is_looking_at.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_looking_at.mcfunction"
 execute as <target> at @s anchored eyes facing <entity | coordinate> positioned ^^^1 positioned ~~-1.62~ rotated as @s positioned ^^^-1 if entity @s [r=0.2] run <command>
 ```
 ![一个重复的命令方块](../assets/images/commands/commandBlockChain/1.png)
@@ -67,9 +65,7 @@ execute as <target> at @s anchored eyes facing <entity | coordinate> positioned 
 
 1. 当注视标记为'target'的牛或羊的眼睛时运行`/say`命令：
 
-<CodeHeader>BP/functions/states/player/is_looking_at/target.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_looking_at/target.mcfunction"
 execute as @a at @s anchored eyes facing entity @e [type=cow, tag=target] eyes positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello cow!
 execute as @a at @s anchored eyes facing entity @e [type=sheep, tag=target] eyes positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello sheep!
 ```
@@ -77,9 +73,7 @@ execute as @a at @s anchored eyes facing entity @e [type=sheep, tag=target] eyes
 
 2. 当注视位置`(10, 20, 30)`或`(6, 7, 8)`时运行`/say`命令：
 
-<CodeHeader>BP/functions/states/player/is_looking_at/position.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_looking_at/position.mcfunction"
 execute as @a at @s anchored eyes facing 10 20 30 positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello block!
 execute as @a at @s anchored eyes facing 6 7 8 positioned ~~-1.62~ positioned ^^^1 rotated as @s positioned ^^^-1 if entity @s [r=0.2] run say hello block!
 ```
@@ -87,9 +81,7 @@ execute as @a at @s anchored eyes facing 6 7 8 positioned ~~-1.62~ positioned ^^
 
 **替代结构:**
 
-<CodeHeader>BP/functions/states/player/is_looking_at.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/player/is_looking_at.mcfunction"
 execute as <target> at <coordinate | entity> facing entity @s eyes positioned as @s positioned ^^^1 rotated as @s positioned ^^^1 if entity @s[r=0.02] run <command>
 ```
 ![一个重复的命令方块](../assets/images/commands/commandBlockChain/1.png)

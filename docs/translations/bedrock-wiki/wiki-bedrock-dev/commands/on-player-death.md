@@ -24,9 +24,7 @@ _在聊天中输入：_
 
 ## 系统
 
-<CodeHeader>BP/functions/events/player/on_death.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/on_death.mcfunction"
 ## 设置玩家状态
 ### 不活跃
 scoreboard players set @a [scores={is_alive=!2}] is_alive 0
@@ -110,9 +108,7 @@ scoreboard players set @a [scores={is_alive=0}] is_alive 2
 -   确保添加 `is_dead` 记分板目标：
     -   `/scoreboard objectives add is_dead dummy`
 
-<CodeHeader>BP/functions/states/is_dead.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/states/is_dead.mcfunction"
 ## 设置玩家状态
 ### 不死亡
 scoreboard players set @e [type=player] is_dead 0

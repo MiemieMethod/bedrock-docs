@@ -27,9 +27,7 @@ description: 实体死亡时执行命令。
 
 以下是一个示例动画控制器：
 
-<CodeHeader>BP/animation_controllers/death.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/death.ac.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {
@@ -56,9 +54,7 @@ description: 实体死亡时执行命令。
 
 对于玩家实体，必须在第二个动画状态中添加额外的过渡，以确保状态在死亡之间重置：
 
-<CodeHeader>BP/animation_controllers/death.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/death.ac.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {

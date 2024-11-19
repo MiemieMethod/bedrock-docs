@@ -187,9 +187,7 @@ description: JSON UI 的文档。
 
 使用 `notify_on_ellipses`。主要用于硬编码文本。
 
-<CodeHeader>RP/ui/example_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/example_file.json"
 {
  "label": {
  ...
@@ -301,9 +299,7 @@ description: JSON UI 的文档。
 | other_focus_container_name | string | 当按下 `button.menu_left`、`button.menu_right`、`button.menu_up` 或 `button.menu_down` 时，将接收焦点的 UI 控件的名称 |
 | focus_id_inside | string | `focus_identifier`，将接收焦点的 `other_focus_container_name` 中的可聚焦子控件的标识符 |
 
-<CodeHeader>RP/ui/example_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/example_file.json"
 ...
 {
  "other_panel": {
@@ -624,9 +620,7 @@ $creative_layout_index - $items_index
 
 大多数人通过给它们相同的值来使用它们：
 
-<CodeHeader>RP/ui/example_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/example_file.json"
 {
  "element": {
  "anchor_from": "top_left",
@@ -644,9 +638,7 @@ $creative_layout_index - $items_index
 
 然而，当它们具有不同的值时会发生什么？让我们看看当 `anchor_from: center` 和 `anchor_to: top_left` 时会发生什么。这是展示实际发生情况的最佳示例。
 
-<CodeHeader>RP/ui/example_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/example_file.json"
 {
  "element": {
  "anchor_from": "center",
@@ -685,9 +677,7 @@ $creative_layout_index - $items_index
 
 如果你只有一个变量需要使用，应该仅使用 `"variables": {}`
 
-<CodeHeader>RP/ui/example_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/example_file.json"
 {
  "element": {
  ...
@@ -703,9 +693,7 @@ $creative_layout_index - $items_index
 
 如果有多个变量，请使用 `"variables": [{}]`
 
-<CodeHeader>RP/ui/example_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/example_file.json"
 {
  "element": {
  ...

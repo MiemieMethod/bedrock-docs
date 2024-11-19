@@ -45,9 +45,7 @@ description: 重现原版树木。
 
 让我们开始吧。我们将从树叶区块的 JSON 代码开始。
 
-<CodeHeader>BP/blocks/custom_leaves.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_leaves.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -88,9 +86,7 @@ description: 重现原版树木。
 
 我们已经定义了自定义树叶区块所需的基础内容。我们的自定义树叶仍然缺少一些功能，例如状态、排列以及自定义组件的 JS 代码。让我们添加以下区块状态。
 
-<CodeHeader>"minecraft:block" > "description"</CodeHeader>
-
-```json
+```json title=""minecraft:block" > "description""
 "states": {
     "wiki:decay_tier": [4, 3, 2, 1, 0], // 搜索原木的区块距离
     "wiki:should_decay": [true, false], // 当由玩家或特征放置时使用
@@ -102,9 +98,7 @@ description: 重现原版树木。
 
 让我们添加排列代码，以帮助塑造区块的行为。
 
-<CodeHeader>"minecraft:block" > "description"</CodeHeader>
-
-```json
+```json title=""minecraft:block" > "description""
 "permutations": [
     {
         "condition": "q.block_state('wiki:decay_tier') == 0",
@@ -155,9 +149,7 @@ description: 重现原版树木。
 
 <Spoiler title="代码">
 
-<CodeHeader>BP/blocks/custom_leaves.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_leaves.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -301,9 +293,7 @@ description: 重现原版树木。
 
 <Spoiler title="代码">
 
-<CodeHeader>BP/blocks/custom_log.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_log.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -417,9 +407,7 @@ description: 重现原版树木。
 
 <Spoiler title="代码">
 
-<CodeHeader>BP/blocks/custom_stripped_log.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_stripped_log.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -495,9 +483,7 @@ description: 重现原版树木。
 
 <Spoiler title="代码">
 
-<CodeHeader>BP/blocks/custom_sapling.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_sapling.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -590,9 +576,7 @@ description: 重现原版树木。
 
 <Spoiler title="代码">
 
-<CodeHeader>BP/items/custom_sapling_placer.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_sapling_placer.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -624,9 +608,7 @@ description: 重现原版树木。
 
 此掉落物将在使用剪刀破坏时生成树叶区块
 
-<CodeHeader>BP/loot_tables/blocks/custom_leaves_shears.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/blocks/custom_leaves_shears.json"
 {
     "pools": [
         {
@@ -644,9 +626,7 @@ description: 重现原版树木。
 
 树叶默认掉落
 
-<CodeHeader>BP/loot_tables/blocks/custom_leaves.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/blocks/custom_leaves.json"
 {
     "pools": [
         {
@@ -675,9 +655,7 @@ description: 重现原版树木。
 
 这将生成 `wiki:custom_sapling`
 
-<CodeHeader>BP/loot_tables/blocks/custom_sapling.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/blocks/custom_sapling.json"
 {
     "pools": [
         {
@@ -709,9 +687,7 @@ description: 重现原版树木。
 
 <Spoiler title="特征">
 
-<CodeHeader>BP/feature/custom_tree_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature/custom_tree_feature.json"
 {
     "format_version": "1.13.0",
     "minecraft:tree_feature": {
@@ -875,9 +851,7 @@ description: 重现原版树木。
 
 <Spoiler title="特征规则">
 
-<CodeHeader>BP/feature_rules/custom_tree_feature_rule.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/custom_tree_feature_rule.json"
 {
     "format_version": "1.13.0",
     "minecraft:feature_rules": {
@@ -919,9 +893,7 @@ description: 重现原版树木。
 
 为区块制作翻译：
 
-<CodeHeader>RP/texts/en_US.lang</CodeHeader>
-
-```
+``` title="RP/texts/en_US.lang"
 tile.wiki:custom_log.name=自定义原木
 tile.wiki:custom_leaves.name=自定义树叶
 tile.wiki:custom_stripped_log.name=自定义剥离原木
@@ -931,9 +903,7 @@ item.wiki:custom_sapling_placer=自定义树苗放置器
 
 制作 terrain_texture.json 和纹理。
 
-<CodeHeader>RP/textures/terrain_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json"
 {
     "resource_pack_name": "custom-trees",
     "texture_name": "atlas.terrain",
@@ -964,9 +934,7 @@ item.wiki:custom_sapling_placer=自定义树苗放置器
 
 为树苗制作几何图形：
 
-<CodeHeader>RP/models/blocks/custom_sapling.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/blocks/custom_sapling.geo.json"
 {
     "format_version": "1.12.0",
     "minecraft:geometry": [
@@ -1012,9 +980,7 @@ item.wiki:custom_sapling_placer=自定义树苗放置器
 
 制作 item_texture 文件
 
-<CodeHeader>RP/textures/item_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/item_texture.json"
 {
     "resource_pack_name": "custom-trees",
     "texture_name": "atlas.items",
@@ -1028,9 +994,7 @@ item.wiki:custom_sapling_placer=自定义树苗放置器
 
 为区块添加声音
 
-<CodeHeader>RP/blocks.json</CodeHeader>
-
-```json
+```json title="RP/blocks.json"
 {
     "format_version": "1.21.40",
     "wiki:custom_leaves": {

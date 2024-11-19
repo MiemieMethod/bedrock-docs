@@ -22,9 +22,7 @@ description: 学习如何使用区块条件。
 
 此地物放置一个 `single_block_feature`，可以根据我们需要的其他地物的条件进行指定。如果该区块不会干扰你想要的地物，可以保留它，但我们将在下一个地物中将其替换为空气，以避免后续出现任何问题。此地物充当“虚拟”地物，因为我们只需要它的条件部分，而不需要它实际放置任何东西。
 
-<CodeHeader>BP/features/block_condition_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/block_condition_feature.json"
 {
     "format_version": "1.18.0",
     "minecraft:single_block_feature": {
@@ -45,9 +43,7 @@ description: 学习如何使用区块条件。
 
 下一个地物将把原本的空气区块替换为石头，但如果你选择一个你实际想要的区块，或者它不会在后续造成任何问题，则可以省略此地物。
 
-<CodeHeader>BP/features/block_replacement_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/block_replacement_feature.json"
 {
     "format_version": "1.18.0",
     "minecraft:single_block_feature": {
@@ -65,9 +61,7 @@ description: 学习如何使用区块条件。
 
 这是一个放置条件“虚拟”地物的地物，该地物去掉由条件放置的“虚拟”区块，然后放置我们想要有条件放置的实际地物。它使用 `early_out` 设置为 `first_failure`，以确保如果条件放置失败，聚合将停止。它是由地物规则放置的地物。
 
-<CodeHeader>BP/features/aggregate_placement_rock_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/aggregate_placement_rock_feature.json"
 {
     "format_version": "1.18.0",
     "minecraft:aggregate_feature": {
@@ -88,9 +82,7 @@ description: 学习如何使用区块条件。
 
 这是我们想要有条件放置的实际地物。它是 `ore_feature`，没有实际条件来允许它仅放置在空气中和草方块上，因此这个技巧帮助我们实现了这一点。
 
-<CodeHeader>BP/features/rock_ore_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/rock_ore_feature.json"
 {
 	"format_version": "1.18.0",
 	"minecraft:ore_feature": {
@@ -122,9 +114,7 @@ description: 学习如何使用区块条件。
 
 ### 地物规则
 
-<CodeHeader>BP/feature_rules/overworld_after_surface_rock_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/overworld_after_surface_rock_feature.json"
 {
 	"format_version": "1.18.0",
 	"minecraft:feature_rules": {

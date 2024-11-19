@@ -19,9 +19,7 @@ description: 学习如何在命令中使用方块状态。
 
 在基岩版中，我们使用辅助值（也称为元数据）来定义方块。然而，从 1.19.70 及之后的版本开始，这种方式不再支持，已完全被方块状态所取代。
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 辅助值示例:
 /setblock ~ ~ ~ wool 1
 # 它的方块状态等效:
@@ -33,9 +31,7 @@ description: 学习如何在命令中使用方块状态。
 
 ## 方块状态示例与语法
 
-<CodeHeader>示例</CodeHeader>
-
-```yaml
+```yaml title="示例"
 /setblock ~ ~ ~ wool ["color"="white"]
 /setblock ~ ~ ~ wheat ["growth"=0]
 /setblock ~ ~ ~ wood ["wood_type"="birch","stripped_bit"=true]
@@ -83,9 +79,7 @@ https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockrefer
 指定方块的命令必须留空方块状态字段，或包含 **所有** 相应的方块状态。否则，命令将无法工作。
 
 例如，以下命令将正常工作：
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 测试石按钮（辅助值 0）
 /execute if block ~~~ stone_button run say success
 
@@ -100,9 +94,7 @@ https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockrefer
     - 按钮没有其他方块状态。
 
 现在，如果我们想测试一个可能朝 *任意* 方向的按下的石按钮，我们可以使用如下命令：
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 /execute if block ~~~ stone_button [“button_pressed_bit”=true] run say success
 ```
 

@@ -25,9 +25,7 @@ description: 有时候你的区块需要具备Minecraft不允许的特性。一�
 
 以下组件是使实体表现得像一个区块所必需的，并且不要在其中添加`"minecraft:physics": {}`组件，因为这会使你的实体掉落或与某些区块（如水或岩浆）发生碰撞。
 
-<CodeHeader>BP/entities/your_entity.json#minecraft:entity/components</CodeHeader>
-
-```json
+```json title="BP/entities/your_entity.json#minecraft:entity/components"
 {
     // 击退抗性是为了使其不被实体击退。
     "minecraft:knockback_resistance": {
@@ -58,9 +56,7 @@ description: 有时候你的区块需要具备Minecraft不允许的特性。一�
 
 要对齐实体的旋转，你需要一些数学运算。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "rotation": [ 0, "-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)", 0 ]
 ```
 
@@ -78,9 +74,7 @@ description: 有时候你的区块需要具备Minecraft不允许的特性。一�
 
 首先，在`minecraft:entity_spawned`事件中，创建一个带有queue_command的自定义区块，并创建一个新的虚拟实体，通过变换事件将虚拟实体转换为原始实体，以避免再次触发`minecraft:entity_spawned`。
 
-<CodeHeader>BP/entities/your_entity.json#minecraft:entity/events</CodeHeader>
-
-```json
+```json title="BP/entities/your_entity.json#minecraft:entity/events"
 // 原始实体中的事件。
 "minecraft:entity_spawned": {
     "add": {
@@ -94,9 +88,7 @@ description: 有时候你的区块需要具备Minecraft不允许的特性。一�
 }
 ```
 
-<CodeHeader>BP/entities/your_entity.json#minecraft:entity/component_groups</CodeHeader>
-
-```json
+```json title="BP/entities/your_entity.json#minecraft:entity/component_groups"
 // 原始实体中的组件组。
 "component_groups": {
     "despawn": {
@@ -107,9 +99,7 @@ description: 有时候你的区块需要具备Minecraft不允许的特性。一�
 
 用于在区块上召唤虚拟实体的区块，由于区块是居中的，实体也会居中：
 
-<CodeHeader>BP/blocks/your_dummy_block.json</CodeHeader>
-
-```json
+```json title="BP/blocks/your_dummy_block.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -156,9 +146,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 });
 ```
 
-<CodeHeader>BP/entities/your_dummy_entity.json</CodeHeader>
-
-```json
+```json title="BP/entities/your_dummy_entity.json"
 {
     "format_version": "1.13.0",
     "minecraft:entity": {
@@ -208,9 +196,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 首先，我们需要在你的实体文件中添加一些纹理，确保使用原版纹理而不是自定义纹理（这是为了与资源包兼容）。
 
-<CodeHeader>RP/entity/your_entity.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/your_entity.json#description"
 {
     "textures": {
         "default": "textures/entity/your_texture",
@@ -230,9 +216,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 并添加一个几何体，其所有立方体的膨胀值为0.1，以避免Z-Fighting。
 
-<CodeHeader>RP/entity/your_entity.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/your_entity.json#description"
 {
     "geometry": {
         "default": "geometry.your_geometry",
@@ -243,9 +227,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 
 现在我们需要添加一个新的渲染控制器。这个控制器将根据破坏阶段选择不同的纹理。（记得不要替换你的实际控制器，你需要两个控制器，第一个是添加模型、纹理和材料到你的正常实体，第二个是定义裂纹纹理的控制器）
 
-<CodeHeader>RP/render_controllers/my_entity.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/my_entity.json"
 {
     "controller.render.broken": {
         "arrays": {

@@ -137,9 +137,7 @@ UV模式和纹理大小应保持不变。
 如果你在该文件中定义了方块的纹理，请确保将它们迁移到[`minecraft:material_instances`](../blocks/block-components.md#material-instances)中，以便它们能够出现。
 :::
 
-<CodeHeader>BP/blocks/paper_bag.json</CodeHeader>
-
-```json
+```json title="BP/blocks/paper_bag.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {

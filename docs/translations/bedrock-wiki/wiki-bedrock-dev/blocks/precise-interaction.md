@@ -114,9 +114,9 @@ export default class FaceSelectionPlains {
 
 - #### constructor
 
-    ```ts
+  ```ts
     new FaceSelectionPlains(...plains: { origin: [number, number]; size: [number, number]; name?: string }[])
-    ```
+  ```
 
     创建一个新的 `FaceSelectionPlains` 实例。
 
@@ -143,9 +143,9 @@ export default class FaceSelectionPlains {
 
 - #### getSelected
 
-    ```ts
+  ```ts
     getSelected(selection: { face: Direction; faceLocation: Vector3 }, options?: { invertU?: boolean; invertV?: boolean }): number | string | undefined
-    ```
+  ```
 
     返回相关平面的数组索引或提供的名称。如果没有选择平面，则返回 `undefined`。
 
@@ -314,9 +314,9 @@ export default class SelectionBoxes {
 
 - #### constructor
 
-    ```ts
+  ```ts
     new SelectionBoxes(...boxes: { origin: [number, number, number]; size: [number, number, number]; name?: string }[])
-    ```
+  ```
 
     创建一个新的 `SelectionBoxes` 实例。
 
@@ -343,9 +343,9 @@ export default class SelectionBoxes {
 
 - #### getSelected
 
-    ```ts
+  ```ts
     getSelected(faceLocation: Vector3, options?: { invertX?: boolean; invertY?: boolean; invertZ?: boolean }): number | string | undefined
-    ```
+  ```
 
     获取 `faceLocation` 所在的盒子。
 

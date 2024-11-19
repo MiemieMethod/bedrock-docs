@@ -33,9 +33,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 <Spoiler title="交易表文件示例">
 
-<CodeHeader>BP/trading/minister.json</CodeHeader>
-
-```json
+```json title="BP/trading/minister.json"
 {
     "tiers": [
         {
@@ -164,9 +162,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 交易表以未版本化、无命名空间的对象表示。
 
-<CodeHeader>#</CodeHeader>
-
-```json
+```json title="#"
 {
 	"tiers": [
 		{
@@ -187,17 +183,13 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 层级充当可解锁的交易集，代表交易表中的最高分组级别。
 
-<CodeHeader>#/tiers/0</CodeHeader>
-
-```json
+```json title="#/tiers/0"
 {
 	"groups": […]
 }
 ```
 
-<CodeHeader>#/tiers/1</CodeHeader>
-
-```json
+```json title="#/tiers/1"
 {
 	"total_exp_required": 28,
 
@@ -217,9 +209,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 当 _交易者_ 达到经验阈值时，层级被解锁。每个交易者都有其自己的内部生命周期经验，与玩家交易时积累。每笔交易获得的经验量取决于该交易的[经验奖励](#交易者经验)。可选的 `"total_exp_required"` 属性指定交易者需要多少经验才能解锁该层级。
 
-<CodeHeader>#/tiers/1/</CodeHeader>
-
-```json
+```json title="#/tiers/1/"
 "total_exp_required": 28
 ```
 
@@ -245,9 +235,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 除[初始层级](#初始层级经验)外，可以在某个层级冻结交易：
 
-<CodeHeader>示例层级冻结</CodeHeader>
-
-```json
+```json title="示例层级冻结"
 "total_exp_required": -1
 ```
 
@@ -257,9 +245,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 交易组是一种随机选择个别交易者应为某个层级使用哪些交易的方法。
 
-<CodeHeader>#/tiers/0/groups/0</CodeHeader>
-
-```json
+```json title="#/tiers/0/groups/0"
 {
 	"num_to_select": 1,
 
@@ -281,9 +267,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 交易表示交易者与玩家之间的交易。
 
-<CodeHeader>#/tiers/0/trades/1</CodeHeader>
-
-```json
+```json title="#/tiers/0/trades/1"
 {
 	"wants": […],
 	"gives": […],
@@ -304,9 +288,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 基本的交易单位使用 `"wants"` 和 `"gives"` 声明；玩家用 `"wants"` 交换 `"gives"`。这两个属性必须是数组且为必需。
 
-<CodeHeader>#/tiers/0/trades/1/</CodeHeader>
-
-```json
+```json title="#/tiers/0/trades/1/"
 "wants": […],
 "gives": […]
 ```
@@ -323,9 +305,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 交易者通常只能对单个交易执行设定次数的交易，之后需要补给。数字 `"max_uses"` 属性配置这一限制。
 
-<CodeHeader>#/tiers/0/trades/1/</CodeHeader>
-
-```json
+```json title="#/tiers/0/trades/1/"
 "max_uses": 2
 ```
 
@@ -341,9 +321,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 可以使用可选的布尔属性 `"reward_exp"` 禁用针对 _玩家_ 的经验球。
 
-<CodeHeader>#/tiers/0/trades/1/</CodeHeader>
-
-```json
+```json title="#/tiers/0/trades/1/"
 "reward_exp": false
 ```
 
@@ -353,9 +331,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 当玩家完成交易时，交易者可能会获得经验。此属性是使用[层级](#层级)与交易者建立交易进展系统的关键。
 
-<CodeHeader>#/tiers/0/trades/1/</CodeHeader>
-
-```json
+```json title="#/tiers/0/trades/1/"
 "trader_exp": 8
 ```
 
@@ -369,9 +345,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 选择是用于随机选择用于交易的物品的简单对象。每个交易实例的交易者将通过均匀随机选择一个物品进行交易。
 
-<CodeHeader>#/tiers/1/trades/0/wants/0</CodeHeader>
-
-```json
+```json title="#/tiers/1/trades/0/wants/0"
 {
 	"choice": [
 		{
@@ -400,9 +374,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 物品是交易的对象。它们的定义在所需和给予的物品之间是共享的，但根据使用的位置有一些不同的含义。
 
-<CodeHeader>#/tiers/1/trades/0/wants/0/choice/0</CodeHeader>
-
-```json
+```json title="#/tiers/1/trades/0/wants/0/choice/0"
 {
     "item": "wiki:sacred_stones",
     "quantity": {
@@ -414,9 +386,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 }
 ```
 
-<CodeHeader>#/tiers/0/groups/0/trades/1/gives/0</CodeHeader>
-
-```json
+```json title="#/tiers/0/groups/0/trades/1/gives/0"
 {
     "item": "wiki:exalted_blade",
     "functions": [
@@ -437,17 +407,13 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 物品在交易中通过必需的 `"item"` 字符串属性进行引用。
 
-<CodeHeader>#/tiers/1/trades/0/wants/0/choice/0/</CodeHeader>
-
-```json
+```json title="#/tiers/1/trades/0/wants/0/choice/0/"
 "item": "wiki:exalted_blade"
 ```
 
 物品引用必须指向物品的标识符。可以在引用后缀中提供数据值：
 
-<CodeHeader>示例数据赋值</CodeHeader>
-
-```json
+```json title="示例数据赋值"
 "item": "minecraft:log:2"
 ```
 
@@ -461,9 +427,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 可选的 `"quantity"` 属性指定交易中所需或给予物品的数量。
 
-<CodeHeader>#/tiers/1/trades/0/wants/0/choice/0/</CodeHeader>
-
-```json
+```json title="#/tiers/1/trades/0/wants/0/choice/0/"
 "quantity": {
 	"min": 4,
 	"max": 6
@@ -480,9 +444,7 @@ description: 交易表代表实体进行物品交易交易的基本数据。
 
 价格乘数决定了由于某些事件，物品的[基础数量](#数量)如何被改变。
 
-<CodeHeader>#/tiers/1/trades/0/wants/0/choice/0/</CodeHeader>
-
-```json
+```json title="#/tiers/1/trades/0/wants/0/choice/0/"
 "price_multiplier": 0.5
 ```
 
@@ -530,9 +492,7 @@ _c_ = _p_ × (1 + _m_ × _d_)
 
 函数用于修改物品的性质。可选的 `"functions"` 数组包含要应用于物品的函数集合。
 
-<CodeHeader>#/tiers/0/groups/0/trades/1/gives/0/</CodeHeader>
-
-```json
+```json title="#/tiers/0/groups/0/trades/1/gives/0/"
 "functions": [
 	{
 		"function": "enchant_with_levels",
@@ -589,9 +549,7 @@ _c_ = _p_ × (1 + _m_ × _d_)
 
 `enchant_with_levels` 随机附魔物品，仿佛通过附魔台附魔一样。
 
-<CodeHeader>#/tiers/0/groups/0/trades/1/gives/0/functions/0</CodeHeader>
-
-```json
+```json title="#/tiers/0/groups/0/trades/1/gives/0/functions/0"
 {
     "function": "enchant_with_levels",
 
@@ -609,9 +567,7 @@ _c_ = _p_ × (1 + _m_ × _d_)
 
 `enchant_book_for_trading` 仅用于交易。其属性组合决定第一个所需物品的成本。
 
-<CodeHeader>#/tiers/0/groups/0/trades/0/gives/0/functions/0</CodeHeader>
-
-```json
+```json title="#/tiers/0/groups/0/trades/0/gives/0/functions/0"
 {
     "function": "enchant_book_for_trading",
 
@@ -643,9 +599,7 @@ _c_ = _p_ × (1 + _m_ × _d_)
 ::: tip
 如果总的组合成本为负（假设未使用负随机成本属性），则使用提供的 [数量](#数量) 作为受影响所需物品的成本。例如，最简单的方式是：
 
-<CodeHeader>示例基于数量的附魔书成本</CodeHeader>
-
-```json
+```json title="示例基于数量的附魔书成本"
 {
     "function": "enchant_book_for_trading",
 
@@ -662,9 +616,7 @@ _c_ = _p_ × (1 + _m_ × _d_)
 
 `"set_actor_id"` 函数用于根据提供的实体标识符，通过 `"id"` 设置生成蛋的数据值。
 
-<CodeHeader>示例生成蛋交易绑定</CodeHeader>
-
-```json
+```json title="示例生成蛋交易绑定"
 {
     "function": "set_actor_id"
 }

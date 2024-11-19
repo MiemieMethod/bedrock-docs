@@ -15,9 +15,7 @@ description: 使你的实体具备像村民一样交易的能力。
 1. 在你的实体组件中添加 `"minecraft:behavior.trade_with_player": {}`。
 2. 将以下代码复制到你的实体的组件组中。我将其称为 `"wiki:trader"`；
 
-<CodeHeader>BP/entities/trader.json</CodeHeader>
-
-```json
+```json title="BP/entities/trader.json"
 "minecraft:trade_table": {
 	"display_name": "交易实体", // 显示的文本。
 	"table": "trading/trading_entity_trades.json", // 交易表文件的路径

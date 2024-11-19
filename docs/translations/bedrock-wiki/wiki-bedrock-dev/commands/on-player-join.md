@@ -24,9 +24,7 @@ _在聊天中输入：_
 
 ## 系统
 
-<CodeHeader>BP/functions/events/player/on_join.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/on_join.mcfunction"
 ## 注册首次加入或之前被清除的玩家到 'joined' 目标
 scoreboard players add @a joined 0
 

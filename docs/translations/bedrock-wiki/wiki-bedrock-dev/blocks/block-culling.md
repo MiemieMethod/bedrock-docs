@@ -19,9 +19,7 @@ mentions:
 
 剔除规则添加在资源包的“block_culling”文件夹中，格式如下所示：
 
-<CodeHeader>RP/block_culling/lamp.json</CodeHeader>
-
-```json
+```json title="RP/block_culling/lamp.json"
 {
     "format_version": "1.21.40",
     "minecraft:block_culling_rules": {
@@ -35,9 +33,7 @@ mentions:
 
 然后将其应用于区块模型的[`minecraft:geometry`](../blocks/block-components.md#geometry)组件中：
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:geometry": {
     "identifier": "geometry.lamp", // 模型标识符
     "culling": "wiki:lamp_culling" // 区块剔除规则标识符
@@ -48,9 +44,7 @@ mentions:
 
 如果一个骨骼仅从一个方向可见，则应使用此类型的规则，这意味着整个骨骼可以被剔除，而不是单个立方体的面。
 
-<CodeHeader>minecraft:block_culling_rules > rules</CodeHeader>
-
-```json
+```json title="minecraft:block_culling_rules > rules"
 {
     "direction": "up", // 如果上方有一个完整的不透明区块，则该骨骼将被剔除。
     "geometry_part": {
@@ -63,9 +57,7 @@ mentions:
 
 当你想隐藏与完整不透明区块相邻的立方体的特定面时，应使用此类型的规则。
 
-<CodeHeader>minecraft:block_culling_rules > rules</CodeHeader>
-
-```json
+```json title="minecraft:block_culling_rules > rules"
 {
     "direction": "down", // 如果下方有一个完整的不透明区块，则该骨骼将被剔除。
     "geometry_part": {

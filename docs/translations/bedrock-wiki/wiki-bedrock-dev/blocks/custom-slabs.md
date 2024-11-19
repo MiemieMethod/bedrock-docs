@@ -30,9 +30,7 @@ description: 原版半砖的重建。
 
 这将创建一个类似于原版的自定义半砖。
 
-<CodeHeader>BP/blocks/custom_slab.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_slab.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -121,9 +119,7 @@ description: 原版半砖的重建。
 
 <Spoiler title="几何体 JSON">
   
-<CodeHeader>RP/models/blocks/slab.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/blocks/slab.geo.json"
 {
     "format_version": "1.21.40",
     "minecraft:geometry": [

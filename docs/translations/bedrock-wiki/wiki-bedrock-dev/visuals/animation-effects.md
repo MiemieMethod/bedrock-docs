@@ -18,9 +18,7 @@ description: 学习如何为动画添加粒子和声音。
 
 Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不断发出 minecraft:phantom_trail 粒子。让我们尝试为我们实体的攻击动画添加一个粒子。
 
-<CodeHeader>RP/entity/my_entity.json</CodeHeader>
-
-```json
+```json title="RP/entity/my_entity.json"
 "particle_effects": {
 	"flames": "minecraft:mobflame_emitter"
 }
@@ -40,9 +38,7 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 如果你想使用声音，你也需要进行定义。
 你可以在 [ZapSplat](https://www.zapsplat.com/) 获取声音。
 
-<CodeHeader>RP/entity/my_entity.json</CodeHeader>
-
-```json
+```json title="RP/entity/my_entity.json"
 "sound_effects": {
 	"meow": "mob.cat.meow"
 }
@@ -60,9 +56,7 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 
 你需要在动画中添加以下内容：
 
-<CodeHeader>RP/animations/my_animation.json#my.animation</CodeHeader>
-
-```json
+```json title="RP/animations/my_animation.json#my.animation"
 "particle_effects": {
     "0.0": {
         "effect": "flames",
@@ -71,9 +65,7 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 }
 ```
 
-<CodeHeader>RP/animations/my_animation.json#my.animation</CodeHeader>
-
-```json
+```json title="RP/animations/my_animation.json#my.animation"
 "sound_effects": {
     "0.0": {
         "effect": "meow"
@@ -100,9 +92,7 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 
 <Spoiler title="示例">
 
-<CodeHeader>RP/animations/my_animation.json</CodeHeader>
-
-```json
+```json title="RP/animations/my_animation.json"
 {
 	"format_version" : "1.8.0",
 	"animations" : {
@@ -177,9 +167,7 @@ Minecraft 粒子可以用于实体动画。例如，幻影有一个动画会不�
 
 你可以在实体 RP 脚本中将 `"should_update_bones_and_effects_offscreen"` 设置为 `true`，以使粒子和声音特效在离屏时更新，默认情况下，如果实体未在显示中渲染，它们将停止播放。
 
-<CodeHeader>RP/entity/my_entity.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/my_entity.json#description"
 "scripts": {
 	"should_update_bones_and_effects_offscreen": true
 }

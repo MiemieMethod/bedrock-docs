@@ -31,9 +31,7 @@ mentions:
 
 区块组件用于改变你的区块在世界中的外观和功能。它们应用于`minecraft:block`的`components`子项或[排列](../blocks/block-permutations.md)。
 
-<CodeHeader>BP/blocks/lamp.json</CodeHeader>
-
-```json
+```json title="BP/blocks/lamp.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -78,17 +76,13 @@ _在格式版本 1.19.50 及更高版本中，取消了实验性功能 `Holiday 
 
 #### 使用布尔值的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:collision_box": true
 ```
 
 #### 使用对象的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:collision_box": {
     "origin": [-8, 0, -8],
     "size": [16, 16, 16]
@@ -109,9 +103,7 @@ _在格式版本 1.19.50 及更高版本中，取消了实验性功能 `Holiday 
 -   `table_name`: 字符串
     -   指定映射到此合成台界面中显示文本的语言文件键。如果给定的字符串无法解析为本地化字符串，将显示原始字符串。如果省略此字段，显示的名称将默认使用“display_name”组件中指定的名称。如果该区块没有“display_name”组件，显示的名称将默认使用区块的名称。
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:crafting_table": {
     "table_name": "Wiki Workbench",
     "crafting_tags": [
@@ -132,17 +124,13 @@ _在格式版本 1.19.50 及更高版本中，取消了实验性功能 `Holiday 
 
 #### 使用布尔值的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:destructible_by_explosion": false
 ```
 
 #### 使用对象的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:destructible_by_explosion": {
     "explosion_resistance": 20
 }
@@ -160,17 +148,13 @@ _在格式版本 1.19.50 及更高版本中，取消了实验性功能 `Holiday 
 
 #### 使用布尔值的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:destructible_by_mining": false
 ```
 
 #### 使用对象的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:destructible_by_mining": {
     "seconds_to_destroy": 20
 }
@@ -178,7 +162,7 @@ _在格式版本 1.19.50 及更高版本中，取消了实验性功能 `Holiday 
 
 ### 显示名称
 
-指定映射到当你在库存和快捷栏中悬停区块时显示的文本的语言文件键。如果给定的字符串无法解析为本地化字符串，将显示原始字符串。如果省略此组件，区块的名称将作为显示名称使用。
+指定映射到当你在物品栏和快捷栏中悬停区块时显示的文本的语言文件键。如果给定的字符串无法解析为本地化字符串，将显示原始字符串。如果省略此组件，区块的名称将作为显示名称使用。
 
 _在格式版本 1.19.60 及更高版本中，取消了实验性功能 `Holiday Creator Features`。_
 
@@ -186,23 +170,17 @@ _在格式版本 1.19.60 及更高版本中，取消了实验性功能 `Holiday 
 
 #### 使用字符串的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:display_name": "Custom Block"
 ```
 
 #### 使用本地化字符串的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:display_name": "tile.wiki:custom_block.name"
 ```
 
-<CodeHeader>RP/texts/en_US.lang</CodeHeader>
-
-```c
+```c title="RP/texts/en_US.lang"
 tile.wiki:custom_block.name=Custom Block
 ```
 
@@ -217,9 +195,7 @@ tile.wiki:custom_block.name=Custom Block
 
 _在格式版本 1.21.10 及更高版本中，取消了实验性功能 `Beta APIs`。_
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:entity_fall_on": {
     "min_fall_distance": 5
 }
@@ -236,17 +212,13 @@ _在格式版本 1.21.10 及更高版本中，取消了实验性功能 `Beta API
 
 #### 使用布尔值的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:flammable": true
 ```
 
 #### 使用对象的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:flammable": {
     "catch_chance_modifier": 5,
     "destroy_chance_modifier": 20
@@ -259,9 +231,7 @@ _在格式版本 1.21.10 及更高版本中，取消了实验性功能 `Beta API
 
 类型：双精度
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:friction": 0.4
 ```
 
@@ -289,17 +259,13 @@ _在格式版本 1.19.40 及更高版本中，取消了实验性功能 `Holiday 
 
 #### 使用字符串的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:geometry": "geometry.example_block"
 ```
 
 #### 使用对象的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:geometry": {
     "identifier": "geometry.example_block"
 }
@@ -315,9 +281,7 @@ _在格式版本 1.19.40 及更高版本中，取消了实验性功能 `Holiday 
 
 _在格式版本 1.20.10 及更高版本中，`bone_visibility` 支持 Molang 表达式。_
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:geometry": {
     "identifier": "geometry.example_block",
     "bone_visibility": {
@@ -334,9 +298,7 @@ _在格式版本 1.20.10 及更高版本中，`bone_visibility` 支持 Molang �
 
 类型：整数
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:light_dampening": 7
 ```
 
@@ -346,9 +308,7 @@ _在格式版本 1.20.10 及更高版本中，`bone_visibility` 支持 Molang �
 
 类型：整数
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:light_emission": 10
 ```
 
@@ -360,9 +320,7 @@ _在格式版本 1.20.10 及更高版本中，`bone_visibility` 支持 Molang �
 
 类型：字符串
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:loot": "loot_tables/blocks/custom_block.json"
 ```
 
@@ -374,17 +332,13 @@ _在格式版本 1.20.10 及更高版本中，`bone_visibility` 支持 Molang �
 
 #### 使用字符串的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:map_color": "#FFFFFF"
 ```
 
 #### 使用向量 [a, b, c] 的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:map_color": [255, 255, 255]
 ```
 
@@ -416,9 +370,7 @@ _在格式版本 1.19.40 及更高版本中，取消了实验性功能 `Holiday 
 -   **_背面剔除_** - 从后方查看时，面将变得不可见。
 -   **_远程剔除_** - 区块在达到完全渲染距离之前变得不可见。
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:material_instances": {
   // '*' 实例必需 - 区块的默认实例（也用于破坏粒子效果）
   // 通配符遵循渲染控制器语法
@@ -440,9 +392,7 @@ _在格式版本 1.19.40 及更高版本中，取消了实验性功能 `Holiday 
 
 可以在材质实例中定义自定义实例名称，并且可以通过内置实例名称或在区块模型中引用。
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:material_instances": {
   "*": {
     "texture": "texture_name",
@@ -486,9 +436,7 @@ _在格式版本 1.19.60 及更高版本中，取消了实验性功能 `Holiday 
 -   `tags`: 字符串
     -   使用 Molang 查询的条件，结果为 true/false，可用于查询具有特定标签的区块。
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
     "minecraft:placement_filter": {
         "conditions": [
             {
@@ -527,9 +475,7 @@ _在格式版本 1.21.40 及更高版本中，取消了实验性功能 `Upcoming
 -   `allows_wire_to_step_down`: 布尔值
     -   决定红石线是否可以沿此区块的侧面向下传导。
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:redstone_conductivity": {
     "redstone_conductor": true,
     "allows_wire_to_step_down": false
@@ -551,17 +497,13 @@ _在格式版本 1.19.60 及更高版本中，取消了实验性功能 `Holiday 
 
 #### 使用布尔值的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:selection_box": true
 ```
 
 #### 使用对象的示例
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:selection_box": {
     "origin": [-8, 0, -8],
     "size": [16, 16, 16]
@@ -581,9 +523,7 @@ _在格式版本 1.19.60 及更高版本中，取消了实验性功能 `Holiday 
 
 _在格式版本 1.21.10 及更高版本中，取消了实验性功能 `Beta APIs`。_
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:tick": {
     "interval_range": [10, 20],
     "looping": true
@@ -613,9 +553,7 @@ _在格式版本 1.21.10 及更高版本中，取消了实验性功能 `Beta API
 -   `translation`: 向量 [a, b, c]
     -   几何体平移的像素数。[x, y, z]
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:transformation": {
     "translation": [-5, 8, 0 ],
     "rotation": [90, 180, 0],

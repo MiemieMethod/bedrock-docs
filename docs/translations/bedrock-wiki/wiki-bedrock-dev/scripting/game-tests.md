@@ -43,9 +43,7 @@ description: 游戏测试框架允许我们创建单元测试（“游戏测试�
 
 要使用游戏测试框架，必须使用 `@minecraft/server-gametest` 模块。游戏测试 API 模块还需要 `@minecraft/server` 模块，因此在你的 manifest.json 中的依赖项需要如下所示：
 
-<CodeHeader>BP/manifest.json/</CodeHeader>
-
-```json
+```json title="BP/manifest.json/"
 "dependencies": [
     {
         "module_name": "@minecraft/server",
@@ -60,9 +58,7 @@ description: 游戏测试框架允许我们创建单元测试（“游戏测试�
 
 要运行游戏测试，你的行为包中需要一个结构文件，并且命令需要通过 `register` 函数进行注册。
 
-<CodeHeader>BP/scripts/Main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/Main.js"
 import * as GameTest from "@minecraft/server-gametest";
 
 // 注册我们测试的代码

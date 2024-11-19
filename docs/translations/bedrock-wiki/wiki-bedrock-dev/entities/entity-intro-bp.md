@@ -34,9 +34,7 @@ description: 实体行为包简介。
 
 以下是实体中几个组件的示例：
 
-<CodeHeader>BP/entities/example.json#minecraft:entity</CodeHeader>
-
-```json
+```json title="BP/entities/example.json#minecraft:entity"
 "components": {
     "minecraft:type_family": {
         "family": [
@@ -59,9 +57,7 @@ description: 实体行为包简介。
 
 以下是一个示例：
 
-<CodeHeader>BP/entities/example.json#minecraft:entity</CodeHeader>
-
-```json
+```json title="BP/entities/example.json#minecraft:entity"
 "component_groups": {
 
     //组件组的名称
@@ -97,9 +93,7 @@ description: 实体行为包简介。
 
 以下是一个示例：
 
-<CodeHeader>BP/entities/example.json#minecraft:entity#events</CodeHeader>
-
-```json
+```json title="BP/entities/example.json#minecraft:entity#events"
 "minecraft:ageable_grow_up": { //事件名称
     "remove": { //要移除的组件组列表
         "component_groups": [
@@ -120,9 +114,7 @@ description: 实体行为包简介。
 
 事件在某些组件内部激活，当满足某些条件时。以下是一个示例：
 
-<CodeHeader>BP/entities/example.json#minecraft:entity</CodeHeader>
-
-```json
+```json title="BP/entities/example.json#minecraft:entity"
 "components": {
     "minecraft:interact": {
         "interactions": [

@@ -41,9 +41,7 @@ description: 为你的实体动画纹理。
 要使用动画纹理，我们需要将实体材料更改为具有`USE_UV_ANIM`属性的材料。
 我们可以简单地添加一个新材料：
 
-<CodeHeader>RP/materials/entity.material</CodeHeader>
-
-```json
+```json title="RP/materials/entity.material"
 {
     "materials": {
         "version": "1.0.0",
@@ -56,9 +54,7 @@ description: 为你的实体动画纹理。
 
 或者你可以将其添加到现有材料中，检查默认材料文件。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "+defines":[
     "USE_UV_ANIM"
 ]
@@ -77,9 +73,7 @@ description: 为你的实体动画纹理。
 
 在继续之前，我们需要在客户端实体文件中定义一个新材料。
 
-<CodeHeader>RP/entity/cow.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/cow.json#description"
 "materials": {
 	"default": "custom_animated"
 }
@@ -91,9 +85,7 @@ description: 为你的实体动画纹理。
 
 在这里，我们将添加`uv_anim`组件，并设置偏移和缩放属性：
 
-<CodeHeader>RP/render_controllers/cow.render_controllers.json#controller.render.cow</CodeHeader>
-
-```json
+```json title="RP/render_controllers/cow.render_controllers.json#controller.render.cow"
 "uv_anim": {
     "offset": [ 0.0, "math.mod(math.floor(q.life_time * frames_per_second),frame_count) / frame_count" ],
     "scale": [ 1.0, "1 / frame_count" ]

@@ -63,9 +63,7 @@ _Last updated for 1.16.210_
 
 与行为包中的所有构造资产一样，生物群系定义使用JSON编写，例如：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -116,9 +114,7 @@ _Last updated for 1.16.210_
 
 #### 格式版本
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "format_version": "1.13.0"
 ```
 
@@ -130,9 +126,7 @@ _Last updated for 1.16.210_
 
 #### 生物群系规范
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome": {
 	…
 }
@@ -142,9 +136,7 @@ _Last updated for 1.16.210_
 
 ##### 描述
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "description": {
 	"identifier": "pumpkin_pastures"
 }
@@ -156,9 +148,7 @@ _Last updated for 1.16.210_
 
 ##### 组件
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
 	…
 }
@@ -201,9 +191,7 @@ _Last updated for 1.16.210_
 
 ###### 标签
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
 	…
 
@@ -247,9 +235,7 @@ Minecraft目前无法创建新的维度。末地不允许添加新的生物群�
 
 ### 主世界
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_generation_rules": {
 	"generate_for_climates": [
 		["cold", 1]
@@ -270,9 +256,7 @@ Minecraft目前无法创建新的维度。末地不允许添加新的生物群�
 
 #### 气候
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "generate_for_climates": [
 	["frozen", 2],
 	["cold", 1]
@@ -320,9 +304,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 与[区域槽](#regions)不同，生物群系可以注册到多个气候中。例如，可以将一个生物群系分布到不同的气候中，如果这在主题上是合适的。例如草原生物群系分布在3种气候中：
 
-<CodeHeader>biomes/plains.json</CodeHeader>
-
-```json
+```json title="biomes/plains.json"
 "generate_for_climates": [
 	["cold", 1],
 	["medium", 3],
@@ -350,9 +332,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 常见陆地
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "generate_for_climates": [
 	["cold", 1]
 ]
@@ -378,9 +358,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 稀有陆地
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_generation_rules": {
 	"generate_for_climates": [
 		["medium", 1]
@@ -394,9 +372,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 稀有陆地区域是主世界中一些较大但非常罕见的区域，专门用于生物群系的放置。生物群系在此处被插入时应用了`"rare"`标签。香草生成中稀有生物群系的例子包括在中等气候中的叢林、在温暖气候中的石柱地貌和在冷凉气候中的巨型树针叶林。香草生成中在寒冷气候中不存在稀有陆地，但可以通过自定义添加：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_generation_rules": {
 	"generate_for_climates": [
 		["frozen", 1]
@@ -420,9 +396,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 基本海洋
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_generation_rules": {
 	"generate_for_climates": [
 		["lukewarm", 1]
@@ -438,9 +412,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 深海
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_generation_rules": {
 	"generate_for_climates": [
 		["frozen", 1]
@@ -457,9 +429,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 岛屿
 
-<CodeHeader>biomes/ocean.json</CodeHeader>
-
-```json
+```json title="biomes/ocean.json"
 "minecraft:overworld_generation_rules": {
 	"hills_transformation": "tropical_island"
 },
@@ -471,9 +441,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 <CodeHeader>biomes/deep_ocean.json</CodeHeader>
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_generation_rules": {
 	"hills_transformation": "deep_ocean"
 },
@@ -489,9 +457,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 层级
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_generation_rules": {
 	…
 	"hills_transformation": [
@@ -514,9 +480,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ##### 权重
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "mutate_transformation": [
 	["crater", 2],
 	["lava_pit", 1]
@@ -535,9 +499,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 例如，如果早期的定义声明了：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "hills_transformation": [
 	["rolling_hills", 2],
 	["spiky_hills", 1]
@@ -546,9 +508,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 而新的定义声明了：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "hills_transformation": [
 	["tall_hills", 1],
 	["short_hills", 1]
@@ -557,9 +517,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 只有 `"tall_hills"` 和 `"short_hills"` 子生物群系会作为丘陵转换生成。之前的列表将被 _完全_ 忽略。如果要将两组子生物群系一起使用，必须在新的定义中重新声明之前的子生物群系：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "hills_transformation": [
 	["rolling_hills", 2],
 	["spiky_hills", 1],
@@ -585,9 +543,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 丘陵
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "hills_transformation": "pumpkin_pastures_hills"
 ```
 
@@ -595,9 +551,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 变异
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "mutate_transformation": "mushroom_forest_dense"
 ```
 
@@ -605,15 +559,11 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 变异丘陵
 
-<CodeHeader>biomes/mangrove_forest.json</CodeHeader>
-
-```json
+```json title="biomes/mangrove_forest.json"
 "hills_transformation": "mangrove_forest_hills"
 ```
 
-<CodeHeader>biomes/mangrove_forest_hills.json</CodeHeader>
-
-```json
+```json title="biomes/mangrove_forest_hills.json"
 "mutate_transformation": "mangrove_forest_hills_mutated"
 ```
 
@@ -623,9 +573,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 河流
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "river_transformation": "riverbed_dry"
 ```
 
@@ -633,9 +581,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 默认情况下，如果 `"river_transformation"` 属性未在 `"minecraft:overworld_generation_rules"` 组件中声明，或如果此组件根本未声明，Minecraft 将使用河流生物群系。要有效移除生物群系中的河流，可以通过其标识符将 `"river_transformation"` 属性指向声明生物群系本身：
 
-<CodeHeader>biomes/ivory_shallows.json</CodeHeader>
-
-```json
+```json title="biomes/ivory_shallows.json"
 {
 	"format_version": "1.13.0",
 
@@ -661,9 +607,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ###### 海岸
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "shore_transformation": "cliffs_steep"
 ```
 
@@ -671,9 +615,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 像河流一样，海岸作为陆地生物群系的一部分声明，这次使用 `"shore_transformation"`。在陆地和海洋生物群系之间生成的海岸 _始终_ 从陆地生物群系中选择；向海洋添加海岸对生成没有影响。[槽分配标签](#overworld-generation-aspects)的添加对海岸没有影响。海岸默认生成海滩，可以通过引用声明生物群系本身来有效移除：
 
-<CodeHeader>biomes/lava_fields.json</CodeHeader>
-
-```json
+```json title="biomes/lava_fields.json"
 {
 	"format_version": "1.13.0",
 
@@ -705,9 +647,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ### 下界
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:nether_generation_rules": {
 	"target_temperature": 0.5,
 	"target_humidity": 0.75,
@@ -914,9 +854,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 例如，如果一个生物群系有以下下界生成规则：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:nether_generation_rules": {
 	"target_temperature": 0.2,
 	"target_humidity": -0.6,
@@ -936,18 +874,14 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 例如，如果目标生物群系具有以下目标值（其他2个方面被忽略）：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "target_temperature": 1,
 "target_humidity": -1
 ```
 
 则可以使用以下值建立过渡生物群系：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "target_temperature": 0.8,
 "target_humidity": -0.8
 ```
@@ -1015,9 +949,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 状态符号表示法是具有 `"name"` 字符串属性（引用方块标识符，如基本符号表示法）和 `"states"` 对象属性（提供状态声明）的对象。状态声明的一个示例如下：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"name": "minecraft:concrete",
 
@@ -1029,9 +961,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 ### 高度图
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:overworld_height": {
 	"noise_type": "lowlands"
 }
@@ -1049,9 +979,7 @@ Minecraft仅允许玩家首次加载时出现在少数几个生物群系中：
 
 #### 噪声参数
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "noise_params": [0.5, 0.125]
 ```
 
@@ -1079,9 +1007,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 #### 噪声预设
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "noise_type": "ocean"
 ```
 
@@ -1149,9 +1075,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 ### 地表调整
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:surface_material_adjustments": {
 	"adjustments": [
 		{
@@ -1177,9 +1101,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 #### 噪声交集
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "noise_range": [-1, -0.5],
 "noise_frequency_scale": 0.125,
 ```
@@ -1192,9 +1114,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 ##### 区间
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "noise_range": [0.5, 1]
 ```
 
@@ -1204,9 +1124,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 ##### 尺寸调整
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "noise_frequency_scale": 0.25
 ```
 
@@ -1214,9 +1132,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 ### 高度限制
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "height_range": [
 	"math.random_integer(30, 40)",
 	"math.random_integer(60, 70)"
@@ -1239,9 +1155,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 可以通过跨相关条件匹配生物群系的[地表构建器](#surface-builders)的定义，移除之前定义的地表调整。例如，恢复 Shattered Savanna 的原始地表调整：
 
-<CodeHeader>biomes/savanna_mutated.json</CodeHeader>
-
-```json
+```json title="biomes/savanna_mutated.json"
 "minecraft:surface_parameters": {
 	"foundation_material": "minecraft:stone",
 
@@ -1283,9 +1197,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 要将地表恢复到其原始状态，“覆盖回去”地表，使用原始块，例如：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:surface_material_adjustments": {
 	"adjustments": [
 		{
@@ -1311,9 +1223,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 ### 气候
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:climate": {
 	"temperature": 1,
 	"downfall": 0.25,
@@ -1328,9 +1238,7 @@ _f_(_y_) = (_y_ - 67) / 16
 
 #### 温度
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:climate": {
 	"temperature": 0.5
 	…
@@ -1365,9 +1273,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 #### 降水
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:climate": {
 	"downfall": 0.5
 	…
@@ -1384,9 +1290,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 #### 雪层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:climate": {
 	"snow_accumulation": [1, 0.5],
 	…
@@ -1407,9 +1311,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 #### 粒子装饰
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:climate": {
 	…
 
@@ -1438,9 +1340,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 ### 地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:forced_features": {
 	"surface_pass": {
 		"identifier": "wiki:grasslands_caravan_feature",
@@ -1468,9 +1368,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 #### 强制地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:forced_features": {
 	"surface_pass": [
 		{
@@ -1537,9 +1435,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 ### 标签化
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
  …
  
@@ -1555,9 +1451,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 生物群系的性质不会隐含任何标签。例如，如果一个生物群系设置为在主世界中生成，使用在此类生物群系上的 `"overworld"` 标签需要手动添加以选择加入该标签的后果。另一个显著的影响是，自定义生物群系的指定子生物群系需要重新声明与该生物群系集群相关的标签。例如，想象一个基础生物群系及其有树林突变的子生物群系。无论突变如何，这两个生物群系都应有高草，通过 `"highlands"` 标签在这些生物群系中放置高草。基础生物群系的示例：
 
-<CodeHeader>biomes/highlands.json</CodeHeader>
-
-```json
+```json title="biomes/highlands.json"
 {
 	"format_version": "1.13.0",
 
@@ -1589,9 +1483,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 子生物群系 _必须_ 重新声明 `"highlands"` 标签以选择加入其功能 —— 在这种情况下，是在地表散布高草：
 
-<CodeHeader>biomes/highlands_forest.json</CodeHeader>
-
-```json
+```json title="biomes/highlands_forest.json"
 {
 	"format_version": "1.13.0",
 
@@ -1640,9 +1532,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 原版生物群系历来依赖分类系统进行生物群系选择，经常导致生成或生成的成功条件冗长。以下是 `wolf.json` 生成规则的一个片段：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
 	"all_of": [
 		{"test": "has_biome_tag", "operator":"==", "value": "forest"},
@@ -1686,9 +1576,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 ###### 维度
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
 	…
  
@@ -1711,9 +1599,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 ###### 生物群系
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
 	…
  
@@ -1774,9 +1660,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 ###### 主世界生成方面
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
 	…
  
@@ -1826,9 +1710,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 ###### 动物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
 	…
  
@@ -1842,9 +1724,7 @@ _t_(_y_) = 0.15 + ((_y_ - _s_) / 600)
 
 ###### 其他生物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "components": {
 	…
  

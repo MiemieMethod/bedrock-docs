@@ -24,9 +24,7 @@ description: 该系统将在玩家从死亡状态重生时执行你所需的命�
 
 ## 系统
 
-<CodeHeader>BP/functions/events/player/on_respawn.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/on_respawn.mcfunction"
 ## 在此输入你的命令（示例）
 execute as @e [scores={respawn=1}] run say 我死了并重生了。
 

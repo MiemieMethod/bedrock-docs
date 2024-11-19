@@ -85,9 +85,7 @@ _同时，为什么不升级你自己独特实体的视觉效果，或者创建�
 
 <Spoiler title="显示代码">
 
-<CodeHeader>RP/models/entity/ghost.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/entity/ghost.geo.json"
 {
     "format_version": "1.12.0",
     "minecraft:geometry": [
@@ -156,9 +154,7 @@ _同时，为什么不升级你自己独特实体的视觉效果，或者创建�
 }
 ```
 
-<CodeHeader>RP/animations/ghost.a.animations.json</CodeHeader>
-
-```json
+```json title="RP/animations/ghost.a.animations.json"
 {
     "format_version": "1.8.0",
     "animations": {

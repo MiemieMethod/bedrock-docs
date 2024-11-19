@@ -11,24 +11,22 @@ mentions:
     - retr0cube
     - TheItsNameless
     - QuazChick
-description: 菜单类别决定了物品和方块在创造模式库存和配方书中的显示位置。
+description: 菜单类别决定了物品和方块在创造模式物品栏和配方书中的显示位置。
 ---
 
-菜单类别决定了物品和方块在创造模式库存和配方书中的显示位置。
+菜单类别决定了物品和方块在创造模式物品栏和配方书中的显示位置。
 
 -   可以定义一个 `category` 来将物品放置在某个标签下（例如建筑）。点击 [这里](#list-of-categories) 查看有效类别的列表。
 
--   `group` 指定了物品放置到哪个可扩展组中。如果使用自定义值，则不会创建新的可扩展组，但具有相同组的物品将会在创造模式库存中相邻放置。点击 [这里](#list-of-groups) 查看可扩展组的列表。
+-   `group` 指定了物品放置到哪个可扩展组中。如果使用自定义值，则不会创建新的可扩展组，但具有相同组的物品将会在创造模式物品栏中相邻放置。点击 [这里](#list-of-groups) 查看可扩展组的列表。
 
 -   还可以将 `is_hidden_in_commands` 设置为 true，以从命令中移除此方块/物品，例如 `/give` 和 `/setblock`。
 
-如果省略 `menu_category`，该物品将只能通过命令访问，并且不会出现在创造模式库存或配方书中。
+如果省略 `menu_category`，该物品将只能通过命令访问，并且不会出现在创造模式物品栏或配方书中。
 
 **注意：** 自定义生成蛋的菜单类别无法修改。你必须创建一个带有 `minecraft:entity_placer` 组件的自定义物品。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "menu_category": {
     "category": "construction", // 物品放置的标签
     "group": "itemGroup.name.door", // 可选 - 物品放置的组
@@ -42,9 +40,7 @@ description: 菜单类别决定了物品和方块在创造模式库存和配方�
 
 ## 方块示例
 
-<CodeHeader>BP/blocks/balsa_wood.json</CodeHeader>
-
-```json
+```json title="BP/blocks/balsa_wood.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -61,9 +57,7 @@ description: 菜单类别决定了物品和方块在创造模式库存和配方�
 
 ## 物品示例
 
-<CodeHeader>BP/items/dagger.json</CodeHeader>
-
-```json
+```json title="BP/items/dagger.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {

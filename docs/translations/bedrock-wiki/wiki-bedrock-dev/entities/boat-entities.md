@@ -27,9 +27,7 @@ description: 学习如何制作船只行为。
 
 ## 第一种方法：minecraft:behavior.rise_to_liquid_level
 
-<CodeHeader>BP/entities/bar</CodeHeader>
-
-```json
+```json title="BP/entities/bar"
 {
 	"minecraft:entity": {
 		"format_version": "1.14.0",
@@ -92,9 +90,7 @@ description: 学习如何制作船只行为。
 
 ## 第二种方法：minecraft:buoyant
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"minecraft:entity": {
 		"format_version": "1.14.0",

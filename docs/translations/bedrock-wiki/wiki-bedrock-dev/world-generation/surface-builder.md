@@ -19,9 +19,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 粗糙土文件
 
-<CodeHeader>BP/features/coarse_dirt_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/coarse_dirt_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
@@ -46,9 +44,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 腐殖土文件
 
-<CodeHeader>BP/features/podzol_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/podzol_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
@@ -67,9 +63,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 圆石文件
 
-<CodeHeader>BP/features/cobblestone_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/cobblestone_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
@@ -92,9 +86,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 了解更多关于加权随机地物的信息 [这里](../world-generation/feature-types.md#weighted-random-features)
 
-<CodeHeader>BP/features/select_surface_block_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/select_surface_block_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:weighted_random_feature": {
@@ -125,9 +117,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 了解更多关于散布地物的信息 [这里](../world-generation/feature-types.md#scatter-features)
 
-<CodeHeader>BP/features/scatter_surface_block_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/scatter_surface_block_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:scatter_feature": {
@@ -161,9 +151,7 @@ description: 基于地物的地表构建器是一个将一组方块组合在一�
 
 这是我们地表构建器的最后一步。我们地表构建器的地物规则略有不同。
 
-<CodeHeader>BP/feature_rules/overworld_surface_blocks_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/overworld_surface_blocks_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {

@@ -75,9 +75,7 @@ Alpha 版本是模块的过时版本，此版本不应在当前附加包中使�
 :::
 
 以下是 `@minecraft/server` 版本为 `1.13.0` 的示例。
-<CodeHeader>BP/manifest.json#dependencies[0]</CodeHeader>
-
-```json
+```json title="BP/manifest.json#dependencies[0]"
 {
 	"module_name": "@minecraft/server",
 	"version": "1.13.0"
@@ -86,9 +84,7 @@ Alpha 版本是模块的过时版本，此版本不应在当前附加包中使�
 
 标记你的包为编辑器扩展所需的能力，在这种情况下允许使用编辑器模块。
 
-<CodeHeader>BP/manifest.json</CodeHeader>
-
-```json
+```json title="BP/manifest.json"
 {
 	"capabilities": [
 		"editorExtension"

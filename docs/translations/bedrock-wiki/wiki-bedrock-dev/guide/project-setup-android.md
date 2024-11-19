@@ -86,18 +86,18 @@ Acode是目前在安卓上唯一一个积极开发的强大代码编辑器。其
 {
     "format_version": 2,
     "header": {
-        "name": "pack.name",
-        "description": "pack.description",
-        "uuid": "...",
-        "version": [0, 0, 1],
-        "min_engine_version": [1, 16, 0]
+      "name": "pack.name",
+      "description": "pack.description",
+      "uuid": "...",
+      "version": [0, 0, 1],
+      "min_engine_version": [1, 16, 0]
     },
     "modules": [
-        {
-            "type": "data",
-            "uuid": "...",
-            "version": [0, 0, 1]
-        }
+      {
+        "type": "data",
+        "uuid": "...",
+        "version": [0, 0, 1]
+      }
     ]
 }
 ```
@@ -106,21 +106,21 @@ Acode是目前在安卓上唯一一个积极开发的强大代码编辑器。其
 
 ```json title="RP/manifest.json"
 {
-	"format_version": 2,
-	"header": {
-		"name": "pack.name",
-		"description": "pack.description",
-		"uuid": "...",
-		"version": [0, 0, 1],
-		"min_engine_version": [1, 16, 0]
-	},
-	"modules": [
-		{
-			"type": "resources",
-			"uuid": "...",
-			"version": [0, 0, 1]
-		}
-	]
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "...",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "...",
+      "version": [0, 0, 1]
+    }
+  ]
 }
 ```
 

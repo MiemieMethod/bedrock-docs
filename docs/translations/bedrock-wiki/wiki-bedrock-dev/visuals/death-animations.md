@@ -39,9 +39,7 @@ description: 更改或禁用实体死亡动画。
 
 与传送类似，实体在死亡时触发实体转换。使用动画控制器中的 `!q.is_alive` 发送一个事件，该事件将添加包含 `"minecraft:transformation"` 组件的组件组。使用此组件，实体将转换为另一个实体：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:transformation": {
 	"into": "wiki:death_animation_entity",
 	"transformation_sound" : "converted_to_zombified",
@@ -68,9 +66,7 @@ description: 更改或禁用实体死亡动画。
 
 动画：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "rotation" : [ 0, 0, "Math.min(Math.sqrt(Math.max(0, q.anim_time * 20 - 0.5) / 20 * 1.6), 1) * -90" ]
 ```
 
@@ -78,9 +74,7 @@ description: 更改或禁用实体死亡动画。
 
 （`q.all_animations_finished` 仅在重生实体时需要，例如玩家）
 
-<CodeHeader>RP/animation_controllers/custom_death.animation.controllers.json</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/custom_death.animation.controllers.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {
@@ -124,9 +118,7 @@ description: 更改或禁用实体死亡动画。
 首先，你需要将 rgba 值设置为 0。
 以下是移除伤害和火焰覆盖颜色的示例。
 
-<CodeHeader>RP/render_controllers/custom_death.render_controllers.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/custom_death.render_controllers.json"
 {
     "format_version": "1.8.0",
     "render_controllers": {
@@ -146,9 +138,7 @@ description: 更改或禁用实体死亡动画。
 你还可以通过将不同的值放入 rgba 来更改伤害颜色覆盖为不同的颜色。你可以查看各种网站以获取所有颜色的 rgba 值。
 以下是另一个示例，其中伤害颜色覆盖变为粉色。
 
-<CodeHeader>RP/render_controllers/custom_death.render_controllers.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/custom_death.render_controllers.json"
 {
     "format_version": "1.8.0",
     "render_controllers": {
@@ -179,13 +169,11 @@ description: 更改或禁用实体死亡动画。
 
 当实体受到致命伤害时，会触发一个事件，添加一个虚拟组件。然后我们可以使用这个虚拟组件播放动画，并使用 `minecraft:timer` 来使其消失。
 
-请注意，你需要为具有库存的实体找到其他方法。你还应确保在使用 entity_spawned 事件生成实体时不添加消失组件组。如果你有一个执行其他动作（移动和攻击）的实体，你可能还想移除那些组件。
+请注意，你需要为具有物品栏的实体找到其他方法。你还应确保在使用 entity_spawned 事件生成实体时不添加消失组件组。如果你有一个执行其他动作（移动和攻击）的实体，你可能还想移除那些组件。
 
 以下是 BP 中的示例文件
 
-<CodeHeader>BP/entities/entity.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity.json"
 {
     "format_version": "1.14.0",
     "min_engine_version": "1.16.100",
@@ -271,9 +259,7 @@ description: 更改或禁用实体死亡动画。
 
 以下是动画控制器的示例文件。
 
-<CodeHeader>RP/animation_controllers/animation_controller.entity.json</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/animation_controller.entity.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {
@@ -299,9 +285,7 @@ description: 更改或禁用实体死亡动画。
 
 注意：你还可以通过设置 `"spawn_item"` 为你的实体 ID 和一个 `spawn_egg` 的后缀，使用 `minecraft:spawn_entity` 组件生成自定义生成蛋物品，效果如下。
 
-<CodeHeader>BP/entities/my_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#components"
 {
     "minecraft:spawn_entity": [
         {
@@ -316,9 +300,7 @@ description: 更改或禁用实体死亡动画。
 
 如果你想掉落一个掉落表，你可以触发一个事件（如下所示），并召唤另一个具有此组件的实体：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "minecraft:behavior.drop_item_for": {
         "seconds_before_pickup": 0.0,

@@ -89,9 +89,7 @@ npm install @minecraft/server-net@beta
 
 现在可以初始化项目。下一步是在当前目录创建一个`tsconfig.json`文件，内容如下，模拟Minecraft脚本API文件系统。
 
-<CodeHeader>tsconfig.json</CodeHeader>
-
-```json
+```json title="tsconfig.json"
 {
   "compilerOptions": {
     "module": "ES2020",
@@ -127,9 +125,7 @@ npm install @minecraft/server-net@beta
 
 现在在`src`目录中编写你的第一个TypeScript代码，例如如下所示：
 
-<CodeHeader>BP/src/Main.ts</CodeHeader>
-
-```ts
+```ts title="BP/src/Main.ts"
 import { Player, EntityQueryOptions, GameMode, Vector3, world } from '@minecraft/server';
 
 // 使用提供的类型的示例函数
@@ -178,9 +174,7 @@ tsc --watch
 
 现在`src/Main.ts`文件应已转译为`scripts/Main.js`，其代码如下：
 
-<CodeHeader>BP/scripts/Main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/Main.js"
 import { GameMode, world } from '@minecraft/server';
 // 使用提供的类型的示例函数
 function findPlayersInSurvivalMode(location) {

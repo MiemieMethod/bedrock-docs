@@ -29,9 +29,7 @@ description: 在本教程中，你将学习如何通过在目标玩家上运行�
 
 你可以在 Mojang 提供的原版行为包中找到 BP 玩家实体文件 [这里](https://aka.ms/behaviorpacktemplate)。
 
-<CodeHeader>BP/entities/player.json</CodeHeader>
-
-```json
+```json title="BP/entities/player.json"
 {
     "format_version":"1.16.0",
     "minecraft:entity":{
@@ -72,9 +70,7 @@ description: 在本教程中，你将学习如何通过在目标玩家上运行�
 
 接下来，我们需要创建一个简单的自定义实体，该实体将具有 `minecraft:arrow` 的运行时标识符（其他投射物的运行时标识符也可以），一个空的投射物组件，以及一个转换组件以变为驯服的狼。
 
-<CodeHeader>BP/entities/pretamed_wolf.json</CodeHeader>
-
-```json
+```json title="BP/entities/pretamed_wolf.json"
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -106,9 +102,7 @@ description: 在本教程中，你将学习如何通过在目标玩家上运行�
 
 作为 [1.16 的实验性物品功能之一](/items/item-components)，`shoot` 事件属性可用于制作在碰撞时变为驯服实体的投射物。
 
-<CodeHeader>BP/items/throwable_pretamed_wolf.json</CodeHeader>
-
-```json
+```json title="BP/items/throwable_pretamed_wolf.json"
 {
     "format_version":"1.16.100",
     "minecraft:item":{
@@ -135,9 +129,7 @@ description: 在本教程中，你将学习如何通过在目标玩家上运行�
 
 我们还需要对我们的自定义投射物实体进行一些调整，以便它在生成时不会立即转变。
 
-<CodeHeader>BP/entities/pretamed_wolf.json</CodeHeader>
-
-```json
+```json title="BP/entities/pretamed_wolf.json"
 {
     "minecraft:entity":{
         "description":{

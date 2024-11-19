@@ -121,9 +121,7 @@ description: 记分板可以用于执行复杂的操作，类似于 MoLang。操
 
 如果你想在记分板中检查一个值是否等于另一个值，可以将第一个值复制到临时值中，减去另一个值并将临时值与零进行比较。给定值 A 和 B：
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 scoreboard objectives add temp dummy
 scoreboard players operation @e temp = @s A
 scoreboard players operation @e temp -= @s B

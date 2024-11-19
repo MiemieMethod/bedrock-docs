@@ -36,9 +36,7 @@ description: 在本教程中，你将学习如何让实体手中持有物品。
 
 在我们的示例中，它将如下所示：
 
-<CodeHeader>BP/entity/mandolorian.json#components</CodeHeader>
-
-```json
+```json title="BP/entity/mandolorian.json#components"
 "minecraft:equipment": {
     "table": "loot_tables/entities/gear/mandolorian.json"
 }
@@ -54,9 +52,7 @@ description: 在本教程中，你将学习如何让实体手中持有物品。
 
 要让实体始终持有相同的物品，请添加以下掉落表：
 
-<CodeHeader>BP/loot_tables/entities/gear/mandolorian.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/entities/gear/mandolorian.json"
 {
 	"pools": [
 		{

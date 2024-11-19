@@ -16,9 +16,7 @@ description: 将 MoLang 变量值转换为记分板值。
 `/scoreboard objectives add MoLang dummy`
 `/scoreboard players set "#10" MoLang 10`
 
-<CodeHeader>BP/animation_controllers/molang_to_score.animation_controllers.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/molang_to_score.animation_controllers.json"
 "controller.animation.namespace.molang_to_score": {
   "initial_state": "idle",
   "states": {
@@ -46,9 +44,7 @@ description: 将 MoLang 变量值转换为记分板值。
 }
 ```
 
-<CodeHeader>BP/animations/molang_to_score.animation.json</CodeHeader>
-
-```json
+```json title="BP/animations/molang_to_score.animation.json"
 "animation.namespace.molang_to_score": {
   "animation_length": 10.0,
   "anim_time_update": "t.digit = Math.mod(Math.floor(v.convert / v.digit), 10) + 0.1; v.digit = v.digit / 10; return t.digit;",

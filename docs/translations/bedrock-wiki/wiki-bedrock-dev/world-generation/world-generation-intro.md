@@ -36,9 +36,7 @@ _使用 bridge. 生成煤矿地物。_
 
 ## 自定义生物群系
 
-<CodeHeader>BP/biomes/cold_biome.json</CodeHeader>
-
-```json
+```json title="BP/biomes/cold_biome.json"
 {
     "format_version": "1.13.0",
     "minecraft:biome": {
@@ -109,9 +107,9 @@ _使用 bridge. 生成煤矿地物。_
     
 -   最后但同样重要的是，生物群系标签！它们非常简单但有用。你可以通过在 `components` 中添加以下格式的标签，设置任意多个香草或自定义标签：
     
-    ```
+  ```
     "tagName": {}
-    ```
+  ```
     
     然后，你可以在 _environment_sensors_、_filters_、_has_biome_ 测试、_spawn rules_ 等中测试你的标签。
     
@@ -141,9 +139,7 @@ _如果你在安装 bridge. 时遇到问题，你完全可以轻松地从头编�
 
 你可以在 [bedrock.dev/r/Features](https://bedrock.dev/r/Features) 找到它们的文档。
 
-<CodeHeader>BP/features/blocky_ore_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/blocky_ore_feature.json"
 {
     "format_version": "1.13.0",
     "minecraft:ore_feature": {
@@ -210,9 +206,7 @@ _如果你在安装 bridge. 时遇到问题，你完全可以轻松地从头编�
 
 **地物规则** 控制 _地物_（以及未来的 _结构_) 的放置位置和方式。
 
-<CodeHeader>BP/feature_rules/overworld_underground_blocky_ore_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/overworld_underground_blocky_ore_feature.json"
 {
     "format_version": "1.13.0",
     "minecraft:feature_rules": {
@@ -296,7 +290,7 @@ _如果你在安装 bridge. 时遇到问题，你完全可以轻松地从头编�
     
     <CodeHeader></CodeHeader>
     
-    ```json
+  ```json
     {
         "format_version": "1.13.0",
         "minecraft:structure_template_feature": {
@@ -314,7 +308,7 @@ _如果你在安装 bridge. 时遇到问题，你完全可以轻松地从头编�
             }
         }
     }
-    ```
+  ```
     
     -   `structure_name` 是结构的标识符，即你通过结构块保存的标识符。
     

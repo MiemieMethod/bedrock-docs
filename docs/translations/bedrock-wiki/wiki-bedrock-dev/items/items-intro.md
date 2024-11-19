@@ -32,11 +32,9 @@ Minecraft基岩版允许我们向世界中添加具有各种类似原版属性�
 
 物品定义的结构与实体相似：它们包含描述和定义物品行为的组件列表。
 
-以下是将自定义物品添加到创造模式库存的**最低**行为代码。
+以下是将自定义物品添加到创造模式物品栏的**最低**行为代码。
 
-<CodeHeader>BP/items/custom_item.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_item.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -63,9 +61,7 @@ Minecraft基岩版允许我们向世界中添加具有各种类似原版属性�
 
 让我们配置自己的功能吧！
 
-<CodeHeader>BP/items/custom_item.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_item.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -92,9 +88,7 @@ Minecraft基岩版允许我们向世界中添加具有各种类似原版属性�
 
 我们需要创建一个纹理短名称，将其链接到`RP/textures/item_texture.json`中的图像。
 
-<CodeHeader>RP/textures/item_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/item_texture.json"
 {
     "resource_pack_name": "wiki",
     "texture_name": "atlas.items",
@@ -108,9 +102,7 @@ Minecraft基岩版允许我们向世界中添加具有各种类似原版属性�
 
 在我们的物品文件中，我们将添加`minecraft:icon`组件以应用纹理。
 
-<CodeHeader>BP/items/custom_item.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_item.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -131,9 +123,7 @@ Minecraft基岩版允许我们向世界中添加具有各种类似原版属性�
 
 最后，我们将为物品命名。此外，你可以使用[显示名称](/items/item-components#display-name)组件。
 
-<CodeHeader>RP/texts/en_US.lang</CodeHeader>
-
-```c
+```c title="RP/texts/en_US.lang"
 tile.wiki:custom_item.name=自定义物品
 ```
 

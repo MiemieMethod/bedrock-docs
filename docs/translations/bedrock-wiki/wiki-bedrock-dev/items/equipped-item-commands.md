@@ -24,9 +24,7 @@ description: 当物品被装备时运行命令。
 
 第一步是创建一个服务器动画，这是一个在特定关键帧运行命令或事件的文件。虽然客户端动画在资源包中，但服务器动画在行为包中。你可以在[这里](../entities/timers.md#animation-based-timers)阅读更多信息。我们可以使用以下内容作为模板：
 
-<CodeHeader>BP/animations/player.json</CodeHeader>
-
-```json
+```json title="BP/animations/player.json"
 {
     "format_version": "1.10.0",
     "animations": {
@@ -50,9 +48,7 @@ description: 当物品被装备时运行命令。
 
 我们可以在时间线的`0.0`数组中添加要执行的命令，例如`/effect`命令，如下所示：
 
-<CodeHeader>BP/animations/player.json#timeline</CodeHeader>
-
-```json
+```json title="BP/animations/player.json#timeline"
 {
     "0.0": ["/effect @s speed 1 0"]
 }
@@ -75,9 +71,7 @@ description: 当物品被装备时运行命令。
 
 在我们物品的行为中，我们需要在`components`中添加一个标签。例如，如果我们想添加`example:emerald_tier`标签，我们将添加`tag:example:emerald_tier`组件：
 
-<CodeHeader>BP/items/my_item.json#components</CodeHeader>
-
-```json
+```json title="BP/items/my_item.json#components"
 "tag:example:emerald_tier": {}
 ```
 
@@ -89,9 +83,7 @@ description: 当物品被装备时运行命令。
 
 首先，我们需要为我们的动画设置一个短名称。如果你有任何客户端动画的经验，这个过程会非常相似。将`animations`添加到`description`中，并设置一个短名称，如下所示：
 
-<CodeHeader>BP/entities/player.json#description</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#description"
 {
     "identifier": "minecraft:player",
     "is_spawnable": false,
@@ -127,9 +119,7 @@ q.equipped_item_all_tags('slot.armor.head','example:ancient_tier','example:emera
 
 让我们看看一个使用`q.equipped_item_any_tag`的示例：
 
-<CodeHeader>BP/entities/player.json#description</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#description"
 {
     "identifier": "minecraft:player",
     "is_spawnable": false,
@@ -162,9 +152,7 @@ q.equipped_item_all_tags('slot.armor.head','example:ancient_tier','example:emera
 
 如果你希望在装备多个盔甲套装的部件时运行命令，我们可以扩展之前的Molang：
 
-<CodeHeader>BP/entities/player.json#scripts</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#scripts"
 "animate": [
     {
         "emerald_armor": "q.equipped_item_any_tag('slot.armor.head','example:emerald_tier') && q.equipped_item_any_tag('slot.armor.chest','example:emerald_tier') && q.equipped_item_any_tag('slot.armor.legs','example:emerald_tier') && q.equipped_item_any_tag('slot.armor.feet','example:emerald_tier')"
@@ -178,9 +166,7 @@ q.equipped_item_all_tags('slot.armor.head','example:ancient_tier','example:emera
 
 海龟壳并不总是施加水下呼吸效果，而是仅在玩家首次进入水中时持续10秒。如果我们希望我们的翡翠盔甲仅在我们健康值较低时运行动画，我们可以在Molang中添加另一个查询：
 
-<CodeHeader>BP/entities/player.json#scripts</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#scripts"
 "animate": [
     {
         "emerald_armor": "q.equipped_item_any_tag('slot.armor.head','example:emerald_tier') && q.health <= 5"
@@ -192,9 +178,7 @@ q.equipped_item_all_tags('slot.armor.head','example:ancient_tier','example:emera
 
 我们还可以将其应用于要求多个盔甲件，使用更长的Molang：
 
-<CodeHeader>BP/entities/player.json#scripts</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#scripts"
 {
     "animate": [
         {
@@ -210,9 +194,7 @@ q.equipped_item_all_tags('slot.armor.head','example:ancient_tier','example:emera
 
 如果你想添加更多具有独特效果的物品，不用担心；这很简单。你可以创建一个新的服务器动画文件，或者在之前的文件中添加，如下所示：
 
-<CodeHeader>BP/animations/player.json</CodeHeader>
-
-```json
+```json title="BP/animations/player.json"
 {
     "format_version": "1.10.0",
     "animations": {
@@ -236,9 +218,7 @@ q.equipped_item_all_tags('slot.armor.head','example:ancient_tier','example:emera
 
 在我们的玩家行为中，你还需要在`animations`和`scripts`中添加内容。
 
-<CodeHeader>BP/entities/player.json#description</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#description"
 {
     "identifier": "minecraft:player",
     "is_spawnable": false,

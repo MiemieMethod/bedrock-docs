@@ -22,9 +22,7 @@ description: 在本教程中，你将学习如何将数字字符串转换为数�
 
 以下代码创建了一个标签元素，当添加到根面板时，如果记分板侧边栏中的最高值在100到999之间，则显示该值。
 
-<CodeHeader>RP/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="RP/ui/hud_screen.json"
 "string_to_number": {
     "type": "label",
     "text": "#player_score_sidebar",
@@ -56,9 +54,7 @@ description: 在本教程中，你将学习如何将数字字符串转换为数�
 
 以下代码创建了一个标签元素，当添加到根面板时，显示格式为“strength: #”的标题中传入的数字#。
 
-<CodeHeader>RP/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="RP/ui/hud_screen.json"
 "number_to_string": {
 	"type": "label",
 	"text": "#text",

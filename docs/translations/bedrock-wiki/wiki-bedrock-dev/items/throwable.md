@@ -25,9 +25,7 @@ description: 重现原版投掷机制。
 
 首先，你需要创建实际的物品：
 
-<CodeHeader>BP/items/throwable_item.item.json</CodeHeader>
-
-```json
+```json title="BP/items/throwable_item.item.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -53,9 +51,7 @@ description: 重现原版投掷机制。
 该实体将是实际被投掷的物品，并且它将像投射物一样行为。
 确保添加雪球的运行时标识符，以使你的投射物实际被射出，而不是生成。你还可以尝试其他投射物的运行时ID。
 
-<CodeHeader>BP/entities/throwable_item_entity.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/throwable_item_entity.se.json"
 {
     "format_version": "1.16.0",
     "minecraft:entity": {

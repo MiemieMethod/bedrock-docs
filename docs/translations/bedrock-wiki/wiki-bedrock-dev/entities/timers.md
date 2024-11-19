@@ -37,9 +37,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 一个简单的示例，在5.6秒后触发事件：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:timer": {
   "time": 5.6,
   "time_down_event": {
@@ -50,9 +48,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 一个更复杂的示例，在随机延迟后触发事件，使用加权值：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:timer": {
   "looping": false, // true将在每次执行后触发事件，false只会触发一次。
   "random_time_choices": [
@@ -82,9 +78,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 处理时间事件的一个特别有用的方法是使用单个循环的`minecraft:timer`组件，并在每个刻（tick）上处理事件（或根据你决定的频率触发计时器）。这可以通过在事件中使用`randomize`参数来实现，其中权重可以用来确定其他事件的运行频率。这可以让你从单个计时器组件中获得更多的额外收益。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:do_event": {
   "randomize": [
     {
@@ -116,9 +110,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 以下是一个示例，在白天开始后800个刻（ticks）触发事件（有效范围为0到24000）：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:environment_sensor": {
   "triggers": [
     {
@@ -139,9 +131,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 以下是一个在四秒后触发事件的示例：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:is_baby": {},
 "minecraft:ageable": {
   "duration": 4,
@@ -174,9 +164,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 你可以这样设置时间线：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.8.0",
 	"animations": {
@@ -206,9 +194,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 计时器组件的一个非常有用的功能是能够定义一个随机间隔，在该间隔内事件将被触发。此功能可以通过动画和控制器复制。以下是一个示例，通过将`minecraft:is_sheared`组件添加到实体上触发的动画，该动画在激活后随机在2到7秒之间触发事件。动画和控制器版本为1.10.0。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.shanewolf.random_interval": {
   "initial_state": "inactive",
   "states": {
@@ -241,9 +227,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "animation.shanewolf.random_interval": {
   "animation_length": 100
 }
@@ -261,9 +245,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 
 计时器组件的另一个有用功能是能够在由加权值列表确定的时间触发事件。此功能也可以通过动画和控制器复制。以下是一个示例，通过将`minecraft:is_charged`组件添加到实体上触发的动画，该动画在2、5或9秒时随机触发事件，权重分别为30、60和10。动画和控制器版本为1.10.0。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.shanewolf.random_choices": {
   "initial_state": "inactive",
   "states": {
@@ -302,9 +284,7 @@ description: 本文旨在提供一个详尽的列表，详细说明实体计时�
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "animation.shanewolf.random_choices": {
   "animation_length": 100
 }

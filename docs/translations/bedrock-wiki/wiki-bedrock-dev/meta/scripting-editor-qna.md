@@ -263,12 +263,12 @@ entity.setMolangFunction("wiki", "getMyAngle", () => {
 
     例如：
 
-    ```js
+  ```js
     Block.rawName; // tile.dirt.name
     ItemStack.rawName; // item.bow.name
     Entity.rawName; // entity.cow.name
     Enchantment.rawName; // enchantment.durability
-    ```
+  ```
     
 - **A**: 好的反馈！我们绝对希望在尽可能多的地方支持本地化的文本字符串，如果我们不公开物品/方块等的本地化键，使用它们会很困难 😛
 

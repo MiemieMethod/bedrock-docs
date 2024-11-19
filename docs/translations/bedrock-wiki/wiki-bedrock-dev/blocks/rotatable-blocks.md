@@ -49,9 +49,7 @@ description: 创建可旋转的方块。
 
 为了设置决定方块方向的状态，我们将使用 `minecraft:placement_direction` 方块特性，并启用 `minecraft:cardinal_direction` 状态。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "description": {
   "identifier": "wiki:cardinal_direction_example",
   // 方块特性在此定义
@@ -70,9 +68,7 @@ description: 创建可旋转的方块。
 
 **以下旋转值假设你的模型正面朝北。**
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
   // 面朝北
   {
@@ -111,9 +107,7 @@ description: 创建可旋转的方块。
 
 为了设置决定方块方向的状态，我们将使用 `minecraft:placement_direction` 方块特性，并启用 `minecraft:facing_direction` 状态。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "description": {
   "identifier": "wiki:facing_direction_example",
   // 方块特性在此定义
@@ -131,9 +125,7 @@ description: 创建可旋转的方块。
 
 **以下旋转值假设你的模型正面朝北。**
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
   // 面朝下
   {
@@ -186,9 +178,7 @@ description: 创建可旋转的方块。
 
 为了设置决定方块附着的状态，我们将使用 `minecraft:placement_position` 方块特性，并启用 `minecraft:block_face` 状态。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "description": {
   "identifier": "wiki:facing_direction_example",
   // 方块特性在此定义
@@ -206,9 +196,7 @@ description: 创建可旋转的方块。
 
 **以下旋转值假设你的模型正面朝北。**
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
   // 面朝下
   {
@@ -265,9 +253,7 @@ description: 创建可旋转的方块。
 
 该状态包含的值比我们需要的原木旋转更多，因此某些排列看起来是相同的。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "description": {
   "identifier": "wiki:log_rotation_example",
   // 方块特性在此定义
@@ -283,9 +269,7 @@ description: 创建可旋转的方块。
 
 旋转利用方块排列。每个排列包含 `minecraft:transformation` 组件，通过检查 `minecraft:block_face` 状态并应用适当的旋转来实现基本旋转。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
   // X 轴
   {

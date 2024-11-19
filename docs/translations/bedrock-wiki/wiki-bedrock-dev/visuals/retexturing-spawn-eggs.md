@@ -29,9 +29,7 @@ description: 更改生成蛋的默认纹理。
 
 现在我们需要给我们的纹理一个短名称。这可以在 item_texture 文件中完成：
 
-<CodeHeader>RP/textures/item_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/item_texture.json"
 {
 	"resource_pack_name": "我的地图名称", //我不确定这个字段是否有用。
 	"texture_name": "atlas.items",
@@ -48,9 +46,7 @@ description: 更改生成蛋的默认纹理。
 
 现在我们可以在资源包实体文件中使用我们的新纹理：
 
-<CodeHeader>RP/entity/my_entity.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/my_entity.json#description"
 "spawn_egg": {
     "texture": "my_entity", //"my_entity" 应与我们在第一步创建的纹理短名称匹配。
     "texture_index": 0

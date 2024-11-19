@@ -66,9 +66,7 @@ description: 基岩版专用服务器的脚本请求API。
 - 修改默认配置文件夹中的文件允许每个带有server-net模块的附加包访问`@minecraft/server-net`模块。
 - 建议为每个脚本行为包分配单独的权限。
 
-<CodeHeader>BedrockServer/config/default/permissions.json</CodeHeader>
-
-```json
+```json title="BedrockServer/config/default/permissions.json"
 {
   "allowed_modules": [
     "@minecraft/server-gametest",

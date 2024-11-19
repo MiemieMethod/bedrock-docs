@@ -25,9 +25,7 @@ description: 了解Minecraft基岩版中的材料。
 
 大多数材料继承先前定义材料的设置，然后在此基础上进一步构建。其格式如下：
 
-<CodeHeader>RP/materials/name.material</CodeHeader>
-
-```json
+```json title="RP/materials/name.material"
 {
 	"materials": {
 		"version": "1.0.0",
@@ -44,9 +42,7 @@ description: 了解Minecraft基岩版中的材料。
 
 一些材料文件包含广泛的材料分支树。例如，几乎所有默认实体使用的材料最终都是材料`entity_static`在entity.material文件中的派生物。如果我们查看当前村民使用的材料：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "villager_v2_masked:entity_multitexture_masked": {
     "depthFunc": "LessEqual"
 },
@@ -54,9 +50,7 @@ description: 了解Minecraft基岩版中的材料。
 
 我们可以看到材料的名称是`villager_v2_masked`，并且基于名为`entity_multitexture_masked`的材料。在文件中向上滚动，我们可以找到“entity_multitexture_masked”继承自“entity_alphatest”的设置，并在此基础上进一步构建：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "entity_multitexture_masked:entity_alphatest":{
     "+defines":[
         "MASKED_MULTITEXTURE"
@@ -76,9 +70,7 @@ description: 了解Minecraft基岩版中的材料。
 
 “entity_alphatest”可以继续追溯到“entity_nocull”
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "entity_alphatest:entity_nocull":{
     "+defines":[
         "ALPHA_TEST"
@@ -95,9 +87,7 @@ description: 了解Minecraft基岩版中的材料。
 
 可以继续追溯到普通的“entity”
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "entity_nocull:entity":{
     "+states":[
         "DisableCulling"
@@ -107,9 +97,7 @@ description: 了解Minecraft基岩版中的材料。
 
 最终可以追溯到“entity_static”
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "entity:entity_static":{
     "+defines":[
         "USE_OVERLAY"
@@ -120,9 +108,7 @@ description: 了解Minecraft基岩版中的材料。
 
 “entity_static”后面没有冒号和其他材料，表明它是这个继承树的底部。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "entity_static":{
     "vertexShader":"shaders/entity.vertex",
     "vrGeometryShader":"shaders/entity.geometry",

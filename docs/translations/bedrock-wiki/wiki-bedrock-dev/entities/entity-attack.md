@@ -36,9 +36,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 有许多方法可以触发敌意。最常见的类型 `nearest_attackable_target`，如下所示。它通常允许你定义这个实体有兴趣攻击哪些实体：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:behavior.nearest_attackable_target": {
   "must_see": true, //如果为真，潜在目标必须在怪物的视线范围内
   "reselect_targets": true, //如果有更近的目标，允许怪物选择新的目标
@@ -69,9 +67,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 这个最后的组件与其他三个稍有不同，因为它用于检测并锁定试图进行眼神接触的实体。其结构如下：
 
-<CodeHeader>BP/entities/enderman.json</CodeHeader>
-
-```json
+```json title="BP/entities/enderman.json"
 "minecraft:lookat": {
   "search_radius": 64.0,
   "set_target": true, //如果为真，成为一个有效目标
@@ -103,9 +99,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 怪物通过使用[过滤器](https://bedrock.dev/docs/stable/Entities#Filters)来查找目标，可以通过 `test`、`subject`、`operator` 和 `value` 来确定哪些实体是有效目标。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "entity_types":[
     {
         "filters":{
@@ -168,9 +162,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 近战攻击是最常见的攻击类型，它会造成击退，并且在准确率上有100%的成功率。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:melee_attack": {
   "minecraft:attack": {
     "damage": 3,
@@ -234,9 +226,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 向目标以设定的间隔发射指定的[投射物](../entities/projectiles.md)。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:ranged_attack": {
   "minecraft:behavior.ranged_attack": {
     "priority": 2,
@@ -274,9 +264,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 只有一种物品会影响实体的远程攻击。十字弓。如果装备了十字弓，则首先需要“充能”它，然后实体才能发射任何东西。无论 `minecraft:shooter` 中指定的投射物是什么，用于充能十字弓的物品应始终是 `minecraft:arrow`。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:behavior.charge_held_item": {
   "priority": 2,
   "items": [
@@ -291,9 +279,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 这些攻击对设定半径内的所有实体造成伤害。它不同于远程和近战，因为此组件实际上不需要目标。无论实体行为如何，所有实体都将受到影响。它类似于近战攻击，因为它以类似的方式造成击退，但以恒定的速率造成伤害。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:area_attack" : {
   "damage_range": 1, //距离，以区块为单位
   "damage_per_tick": 2,
@@ -321,9 +307,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 与 `minecraft:area_attack` 有许多相似之处，但此组件具有更高的灵活性。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:roar_attack": {
   "minecraft:behavior.knockback_roar":{
     "priority":2,
@@ -363,9 +347,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 表达每个难度级别使用的组件和数值。
 
-<CodeHeader>BP/entities/bee.json</CodeHeader>
-
-```json
+```json title="BP/entities/bee.json"
 "easy_attack": {
     "minecraft:attack": {
         "damage": 2
@@ -395,9 +377,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 需要使用组件组来定义不同的攻击模式，例如：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:ranged_components": {
   "minecraft:shooter": {
     "def": "wiki:projectile"
@@ -412,9 +392,7 @@ description: 学习如何以正确的方式制作实体攻击。
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:melee_components": {
   "minecraft:attack": {
     "damage": 6
@@ -431,9 +409,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 这些组件组本身不会实际做任何事情。需要另一个组件组和一些事件来添加/移除攻击模式。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:melee_swap": {    //触发时，添加远程组件组并移除近战组件组
   "remove": {
     "component_groups": [
@@ -448,9 +424,7 @@ description: 学习如何以正确的方式制作实体攻击。
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:ranged_swap": {   //触发时，添加近战组件组并移除远程组件组
   "remove": {
     "component_groups": [
@@ -473,9 +447,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 - 感知怪物与目标之间的距离
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:switcher_range": {
   "minecraft:target_nearby_sensor": {
     "inside_range": 4.0,
@@ -495,9 +467,7 @@ description: 学习如何以正确的方式制作实体攻击。
 
 - 感知怪物所处环境的某些特征
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "wiki:switcher_environment": {
   "minecraft:environment_sensor": {
     "triggers": [

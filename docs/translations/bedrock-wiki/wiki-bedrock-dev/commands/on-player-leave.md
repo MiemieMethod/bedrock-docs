@@ -26,9 +26,7 @@ description: 此系统将在玩家离开世界时运行你所需的命令。
 
 ## 系统
 
-<CodeHeader>BP/functions/events/player/on_leave.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/on_leave.mcfunction"
 ## 实体计数器
 ### 重置当前玩家数量
 scoreboard players reset NewPlayerCount total

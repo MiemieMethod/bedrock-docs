@@ -19,9 +19,7 @@ description: 了解渲染控制器。
 
 让我们看一个简化版的蜘蛛RP实体文件：
 
-<CodeHeader>RP/entity/spider.json</CodeHeader>
-
-```json
+```json title="RP/entity/spider.json"
 {
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
@@ -58,9 +56,7 @@ description: 了解渲染控制器。
 
 一个简单的渲染控制器如下所示：
 
-<CodeHeader>RP/render_controllers/cow.render.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/cow.render.json"
 {
 	"format_version": "1.8.0",
 	"render_controllers": {
@@ -115,9 +111,7 @@ description: 了解渲染控制器。
 
 #### 渲染控制器
 
-<CodeHeader>RP/render_controllers/controller.render.texture_layering.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/controller.render.texture_layering.json"
 {
 	"format_version": "1.10.0",
 	"render_controllers": {
@@ -142,9 +136,7 @@ description: 了解渲染控制器。
 
 你需要在实体中定义所有纹理，并使用`villager_v2_masked`材料。
 
-<CodeHeader>RP/entity/my_entity.json</CodeHeader>
-
-```json
+```json title="RP/entity/my_entity.json"
 "materials": {
 	"default": "villager_v2_masked"
 },
@@ -163,9 +155,7 @@ description: 了解渲染控制器。
 
 设置多个顶部纹理，稍后我们将进行索引。
 
-<CodeHeader>RP/entity/my_entity.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/my_entity.json#description"
 "textures": {
 	"top_1": "textures/top_1",
 	"top_2": "textures/top_2",
@@ -176,9 +166,7 @@ description: 了解渲染控制器。
 
 #### 渲染控制器
 
-<CodeHeader>RP/render_controllers/controller.render.wool_only</CodeHeader>
-
-```json
+```json title="RP/render_controllers/controller.render.wool_only"
 {
 	"format_version": "1.10.0",
 	"render_controllers": {
@@ -213,9 +201,7 @@ description: 了解渲染控制器。
 
 现在，为了选择哪个层将显示，我们只需在实体中设置变体组件：
 
-<CodeHeader>BP/entities/my_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#components"
 "minecraft:variant": {
 	"value": 0
 }
@@ -241,9 +227,7 @@ description: 了解渲染控制器。
 请注意，与纹理不同，你不能分层几何体，因此不应包含“基础底层”几何体。
 这仍然需要使用`villager_v2_masked`材料。
 
-<CodeHeader>RP/render_controllers/controller.render.player.third_person.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/controller.render.player.third_person.json"
 {
 	"format_version": "1.8.0",
 	"render_controllers": {
@@ -283,9 +267,7 @@ description: 了解渲染控制器。
 
 记得在实体文件中包含几何体变体。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "geometry": {
 	"default": "geometry.entity.default",
 	"custom_1": "geometry.entity.custom_1",

@@ -19,9 +19,7 @@ description: 基于噪声的地形。
 
 首先，我们将定义单块地物。它将定义要生成的方块。在本教程中，我将使用石头。
 
-<CodeHeader>BP/features/stone_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/stone_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:single_block_feature": {
@@ -39,9 +37,7 @@ description: 基于噪声的地形。
 
 散布地物是我们将用于生成地形的主要地物。
 
-<CodeHeader>BP/features/column.json</CodeHeader>
-
-```json
+```json title="BP/features/column.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:scatter_feature": {
@@ -70,9 +66,7 @@ description: 基于噪声的地形。
 
 ## 地物规则
 
-<CodeHeader>BP/feature_rules/column_grid_placement.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/column_grid_placement.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {

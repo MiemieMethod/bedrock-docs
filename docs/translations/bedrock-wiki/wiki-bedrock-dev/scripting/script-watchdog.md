@@ -16,9 +16,7 @@ description: 脚本监视器是一个性能系统，默认在Minecraft脚本插�
 
 自1.19.20版本以来，有一组脚本监视器配置用于管理脚本环境的性能。这些选项无法在世界或领域中修改，但可以通过[专用服务器](https://www.minecraft.net/en-us/download/server/bedrock)中的`server.properties`进行修改。以下是默认的脚本监视器设置，这些设置在所有设备的世界和领域中都是相同的。
 
-<CodeHeader>bedrock-server/server.properties</CodeHeader>
-
-```ini
+```ini title="bedrock-server/server.properties"
 # 启用脚本监视器（默认 = true）
 script-watchdog-enable=true
 

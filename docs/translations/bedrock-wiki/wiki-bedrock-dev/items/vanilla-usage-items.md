@@ -16,9 +16,7 @@ description: 自动生成的原版物品组件列表。
 
 camera
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:block": "minecraft:camera"
 ```
 
@@ -30,9 +28,7 @@ camera
 
 camera
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:camera": {
     "black_bars_duration": 0.2,
     "black_bars_screen_ratio": 0.08,
@@ -50,9 +46,7 @@ camera
 
 wind_charge
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:cooldown": {
     "category": "wind_charge",
     "duration": 0.5
@@ -67,9 +61,7 @@ wind_charge
 
 apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:display_name": {
     "value": "item.apple.name"
 }
@@ -77,9 +69,7 @@ apple
 
 breeze_rod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:display_name": {
     "value": "item.breeze_rod.name"
 }
@@ -87,9 +77,7 @@ breeze_rod
 
 ominous_trial_key
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:display_name": {
     "value": "item.ominous_trial_key.name"
 }
@@ -97,9 +85,7 @@ ominous_trial_key
 
 trial_key
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:display_name": {
     "value": "item.trial_key.name"
 }
@@ -107,9 +93,7 @@ trial_key
 
 wind_charge
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:display_name": {
     "value": "item.wind_charge.name"
 }
@@ -123,17 +107,13 @@ wind_charge
 
 appleEnchanted
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:foil": true
 ```
 
 golden_apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:foil": false
 ```
 
@@ -145,9 +125,7 @@ golden_apple
 
 apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 4,
     "saturation_modifier": 0.3
@@ -156,9 +134,7 @@ apple
 
 appleEnchanted
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 4,
     "saturation_modifier": "supernatural",
@@ -194,9 +170,7 @@ appleEnchanted
 
 baked_potato
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 5,
     "saturation_modifier": "normal"
@@ -205,9 +179,7 @@ baked_potato
 
 beef
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 3,
     "saturation_modifier": "low"
@@ -216,9 +188,7 @@ beef
 
 beetroot
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 1,
     "saturation_modifier": "normal"
@@ -227,9 +197,7 @@ beetroot
 
 beetroot_soup
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 6,
     "saturation_modifier": "normal",
@@ -239,9 +207,7 @@ beetroot_soup
 
 bread
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 5,
     "saturation_modifier": "normal"
@@ -250,9 +216,7 @@ bread
 
 carrot
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:food": {
     "nutrition": 3,
     "saturation_modifier": "normal"
@@ -267,9 +231,7 @@ carrot
 
 appleEnchanted
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:hand_equipped": false
 ```
 
@@ -281,9 +243,7 @@ appleEnchanted
 
 apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:icon": {
     "texture": "apple"
 }
@@ -291,9 +251,7 @@ apple
 
 breeze_rod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:icon": {
     "texture": "breeze_rod"
 }
@@ -301,9 +259,7 @@ breeze_rod
 
 ominous_trial_key
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:icon": {
     "texture": "ominous_trial_key"
 }
@@ -311,9 +267,7 @@ ominous_trial_key
 
 trial_key
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:icon": {
     "texture": "trial_key"
 }
@@ -321,9 +275,7 @@ trial_key
 
 wind_charge
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:icon": {
     "texture": "wind_charge"
 }
@@ -337,49 +289,37 @@ wind_charge
 
 clownfish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_damage": 0
 ```
 
 cooked_fish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_damage": 0
 ```
 
 cooked_salmon
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_damage": 0
 ```
 
 fish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_damage": 0
 ```
 
 pufferfish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_damage": 0
 ```
 
 salmon
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_damage": 0
 ```
 
@@ -391,41 +331,31 @@ salmon
 
 beetroot_soup
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_stack_size": 1
 ```
 
 honey_bottle
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_stack_size": 16
 ```
 
 mushroom_stew
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_stack_size": 1
 ```
 
 rabbit_stew
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_stack_size": 1
 ```
 
 suspicious_stew
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:max_stack_size": 1
 ```
 
@@ -437,9 +367,7 @@ suspicious_stew
 
 wind_charge
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:projectile": {
     "projectile_entity": "wind_charge_projectile"
 }
@@ -453,9 +381,7 @@ wind_charge
 
 beetroot_seeds
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "crop_result": "beetroot"
 }
@@ -463,9 +389,7 @@ beetroot_seeds
 
 carrot
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "crop_result": "carrots"
 }
@@ -473,9 +397,7 @@ carrot
 
 glow_berries
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "crop_result": "cave_vines",
     "plant_at": [
@@ -489,9 +411,7 @@ glow_berries
 
 melon_seeds
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "crop_result": "melon_stem"
 }
@@ -499,9 +419,7 @@ melon_seeds
 
 nether_wart
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "plant_at": "soul_sand",
     "crop_result": "nether_wart"
@@ -510,9 +428,7 @@ nether_wart
 
 pitcher_pod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "crop_result": "pitcher_crop"
 }
@@ -520,9 +436,7 @@ pitcher_pod
 
 potato
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "crop_result": "potatoes"
 }
@@ -530,9 +444,7 @@ potato
 
 pumpkin_seeds
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:seed": {
     "crop_result": "pumpkin_stem"
 }
@@ -546,65 +458,49 @@ pumpkin_seeds
 
 appleEnchanted
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
 clownfish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
 cooked_fish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
 cooked_salmon
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
 fish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
 golden_apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
 pufferfish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
 salmon
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:stacked_by_data": true
 ```
 
@@ -616,9 +512,7 @@ salmon
 
 apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:tags": {
     "tags": [
         "minecraft:is_food"
@@ -634,9 +528,7 @@ apple
 
 wind_charge
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:throwable": {
     "do_swing_animation": true,
     "launch_power_scale": 1.5,
@@ -654,9 +546,7 @@ wind_charge
 
 apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_animation": "eat"
 ```
 
@@ -668,65 +558,49 @@ apple
 
 appleEnchanted
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 32
 ```
 
 baked_potato
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 32
 ```
 
 beef
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 32
 ```
 
 beetroot
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 32
 ```
 
 beetroot_soup
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 32
 ```
 
 bread
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 32
 ```
 
 camera
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 100000
 ```
 
 carrot
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_duration": 32
 ```
 
@@ -738,9 +612,7 @@ carrot
 
 apple
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:use_modifiers": {
     "use_duration": 1.6,
     "movement_modifier": 0.35

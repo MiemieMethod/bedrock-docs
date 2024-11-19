@@ -22,9 +22,7 @@ description: 社区提供的有用材料创作。
 
 <Spoiler title="显示">
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "customblend:entity_alphablend": {
         "+defines": [
@@ -50,9 +48,7 @@ description: 社区提供的有用材料创作。
 
 <Spoiler title="显示">
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "ambient_alpha:entity": {
         "+states": [
@@ -120,9 +116,7 @@ description: 社区提供的有用材料创作。
 
 <Spoiler title="显示">
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "materials": {
         "version": "1.0.0",

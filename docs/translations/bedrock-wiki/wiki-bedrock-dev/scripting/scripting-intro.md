@@ -126,7 +126,7 @@ description: 脚本介绍。
 - 物理服务器
     - 通常称为专用服务器，物理服务器是每次你启动任何不显示可玩 GUI 的 [bedrock_server.exe](https://www.minecraft.net/en-us/download/server/bedrock) 时运行的整个程序。
 - 逻辑服务器
-    - 逻辑服务器运行游戏逻辑：怪物生成、天气、更新库存、健康、AI 和所有其他游戏机制。逻辑服务器存在于物理服务器内，也可以在带有逻辑客户端的物理客户端内运行，作为单人世界。逻辑服务器总是在名为 Server Thread 的线程中运行。
+    - 逻辑服务器运行游戏逻辑：怪物生成、天气、更新物品栏、健康、AI 和所有其他游戏机制。逻辑服务器存在于物理服务器内，也可以在带有逻辑客户端的物理客户端内运行，作为单人世界。逻辑服务器总是在名为 Server Thread 的线程中运行。
 - 逻辑客户端
     - 逻辑客户端是接受玩家输入并将其传递给逻辑服务器的部分。此外，它还从逻辑服务器接收信息并将其图形化地提供给玩家。逻辑客户端运行在 Client Thread 中，尽管通常会生成几个其他线程来处理音频和区块渲染批处理等内容。
 
@@ -143,9 +143,7 @@ description: 脚本介绍。
 
 将以下内容复制/粘贴到你的 `manifest.json` 中：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "format_version": 2,
     "metadata": {
@@ -215,9 +213,7 @@ UUID 本身不具有任何独特的值——对于我们的用途，它们只是
 例如，假设你创建了一个包含新方块、物品和合成配方的资源附加包，并希望确保每次用户加载你的附加包时都始终加载它。
 如下所示：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "dependencies": [
   {
     "uuid": "<your-resource-packs-uuid>",

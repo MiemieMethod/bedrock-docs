@@ -32,9 +32,7 @@
 
 <Spoiler title="自定义泥土区块 JSON">
 
-<CodeHeader>BP/blocks/custom_dirt.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_dirt.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -131,9 +129,7 @@
 
 在你的区块中添加一个湿度状态，以开始我们的自定义逻辑。
 
-<CodeHeader>minecraft:block > description</CodeHeader>
-
-```json
+```json title="minecraft:block > description"
 "states": {
     "wiki:moisture": {
         "values": { "min": 0, "max": 7 }
@@ -143,9 +139,7 @@
 
 以下排列在 `wiki:moisture` 值不为 `0` 时将顶部纹理设置为湿润。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "permutations": [
     {
         "condition": "q.block_state('wiki:moisture')",
@@ -169,9 +163,7 @@
 
 每个随机刻点，我们的农田应触发一个事件以确定区块当前的湿度状态。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "components": {
   ...
     "minecraft:random_ticking": {
@@ -211,9 +203,7 @@
 
 如果我们的自定义农田被踩踏，它应该有机会衰变。
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "components": {
     ...
     "minecraft:on_fall_on": {
@@ -242,9 +232,7 @@
 
 <Spoiler title="自定义农田区块 JSON">
 
-<CodeHeader>BP/blocks/custom_farmland.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_farmland.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {

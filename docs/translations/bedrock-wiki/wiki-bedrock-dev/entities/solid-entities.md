@@ -25,9 +25,7 @@ description: 实体碰撞是玩家可以与之碰撞、踩踏或以其他方式�
 
 ### 船
 
-<CodeHeader>BP/entities/entity_name.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity_name.json"
 {
   "format_version": "1.16.0",
   "minecraft:entity": {
@@ -45,9 +43,7 @@ description: 实体碰撞是玩家可以与之碰撞、踩踏或以其他方式�
 
 ### 末影箱
 
-<CodeHeader>BP/entities/entity_name.json</CodeHeader>
-
-```json
+```json title="BP/entities/entity_name.json"
 {
   "format_version": "1.16.0",
   "minecraft:entity": {

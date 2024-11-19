@@ -23,9 +23,7 @@ mentions:
 
 首先，我们将让幽灵在死亡时掉落灵质：创建以下文件：
 
-<CodeHeader>BP/loot_tables/entities/ghost.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/entities/ghost.json"
 {
     "pools": [
         {
@@ -65,9 +63,7 @@ mentions:
 
 接下来，我们将让幽灵在夜间的沙漠中生成：
 
-<CodeHeader>BP/spawn_rules/ghost.json</CodeHeader>
-
-```json
+```json title="BP/spawn_rules/ghost.json"
 {
     "format_version": "1.8.0",
     "minecraft:spawn_rules": {
@@ -122,9 +118,7 @@ mentions:
 
 最后，作为配方的介绍，我们将使灵质可以合成成粘液块：
 
-<CodeHeader>BP/recipes/ectoplasm_slime_blocks.json</CodeHeader>
-
-```json
+```json title="BP/recipes/ectoplasm_slime_blocks.json"
 {
     "format_version": "1.12.0",
     "minecraft:recipe_shaped": {

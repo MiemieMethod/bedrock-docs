@@ -17,9 +17,7 @@ description: 教程：如何在实体受伤时触发自定义动画。
 
 在实体描述中添加以下内容：
 
-<CodeHeader>BP/entity/my_entity.json#description</CodeHeader>
-
-```json
+```json title="BP/entity/my_entity.json#description"
 "properties": {
     "wiki:is_hurt": {
         "client_sync": true, // 以便我们可以在资源包中使用
@@ -31,9 +29,7 @@ description: 教程：如何在实体受伤时触发自定义动画。
 
 在组件组中添加以下内容：
 
-<CodeHeader>BP/entity/my_entity.json#component_groups</CodeHeader>
-
-```json
+```json title="BP/entity/my_entity.json#component_groups"
 "wiki:hurt_group": {
     "minecraft:timer": {
         "time": 0.1,
@@ -46,9 +42,7 @@ description: 教程：如何在实体受伤时触发自定义动画。
 
 添加此组件组和切换属性的事件：
 
-<CodeHeader>BP/entity/my_entity.json#events</CodeHeader>
-
-```json
+```json title="BP/entity/my_entity.json#events"
 "wiki:on_hurt_event": {
     "set_property": {
         "wiki:is_hurt": true
@@ -73,9 +67,7 @@ description: 教程：如何在实体受伤时触发自定义动画。
 
 要调用此事件，请在组件中添加 `damage_sensor`：
 
-<CodeHeader>BP/entity/my_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entity/my_entity.json#components"
 "minecraft:damage_sensor": {
     "triggers": {
         "cause": "all",

@@ -35,9 +35,7 @@ description: 在自己的细节中重现末影人的发光眼睛。
 
 我们需要修改我们希望发光的生物的 `RP/entity/my_entity.entity.json` 文件。现在，找到 `"materials":{}` 并将值设置为 `"entity_emissive_alpha"`。（确保纹理已正确定义）。
 
-<CodeHeader>RP/entity/pig.entity.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/pig.entity.json#description"
 "materials": {
     "default": "entity_emissive_alpha"
 }
@@ -45,9 +43,7 @@ description: 在自己的细节中重现末影人的发光眼睛。
 
 <Spoiler title="示例猪实体文件">
 
-<CodeHeader>RP/entity/pig.entity.json</CodeHeader>
-
-```json
+```json title="RP/entity/pig.entity.json"
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {

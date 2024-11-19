@@ -23,9 +23,7 @@ description: 方块形状本质上是硬编码在原版中的方块几何体或�
 
 它们在资源包的文件 `blocks.json` 中添加，使用子项 `"blockshape"` 在方块对象中。这看起来像这样：
 
-<CodeHeader>RP/blocks.json</CodeHeader>
-
-```json
+```json title="RP/blocks.json"
 "wiki:invisible_aluminium_ore": {
   "blockshape": "invisible",
   "sound": "stone",

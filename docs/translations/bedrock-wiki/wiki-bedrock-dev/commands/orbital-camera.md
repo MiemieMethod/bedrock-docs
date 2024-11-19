@@ -21,9 +21,7 @@ description: 此技术允许你将相机旋转限制在围绕玩家、实体或�
 
 ## 命令
 
-<CodeHeader>BP/functions/cameras/orbital.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/cameras/orbital.mcfunction"
 execute as @p at @s anchored eyes rotated ~ 0 positioned ^^1^-2 run camera @s set minecraft:free ease 0.1 linear pos ~~~ facing @s
 ```
 ![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)
@@ -63,17 +61,13 @@ execute as @p at @s anchored eyes rotated ~ 0 positioned ^^1^-2 run camera @s se
 
 **类似示例：**
 
-<CodeHeader>BP/functions/cameras/orbital.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/cameras/orbital.mcfunction"
 # 使相机围绕标记为 'orbit_center' 的实体旋转
 execute as @p at @e [tag=orbit_center] anchored eyes rotated as @s rotated ~ 0 positioned ^^1^-5 run camera @s set minecraft:free ease 0.1 linear pos ~~~ facing @e [tag=orbit_center]
 ```
 ![一个重复命令方块](../assets/images/commands/commandBlockChain/1.png)
 
-<CodeHeader>BP/functions/cameras/orbital.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/cameras/orbital.mcfunction"
 # 使相机围绕位置 6 7 8 旋转
 execute as @p positioned 6 7 8 rotated as @s rotated ~ 0 positioned ^^1^-5 run camera @s set minecraft:free ease 0.1 linear pos ~~~ facing 6 7 8
 ```

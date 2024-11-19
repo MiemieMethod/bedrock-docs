@@ -35,9 +35,7 @@ description: 使用脚本创建自定义命令。
 
 假设你已经理解了脚本的基础知识，让我们开始创建包。
 
-<CodeHeader>manifest.json</CodeHeader>
-
-```json
+```json title="manifest.json"
 {
 	"format_version": 2,
 	"header": {
@@ -86,17 +84,13 @@ description: 使用脚本创建自定义命令。
 
 现在进入有趣的部分 - 创建我们的自定义命令。首先，我们将添加模块。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 import { world } from '@minecraft/server';
 ```
 
 接下来，我们将添加简单的命令，例如 `!gmc` 用于将游戏模式更改为创造模式，`!gms` 用于更改为生存模式。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 world.beforeEvents.chatSend.subscribe((eventData) => {
 	const player = eventData.sender;
 	switch (eventData.message) {
@@ -126,9 +120,7 @@ world.beforeEvents.chatSend.subscribe((eventData) => {
 
 例如，让我们使我们的命令仅对拥有 `Admin` 标签的玩家可用。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 import { world } from "@minecraft/server";
 
 world.beforeEvents.chatSend.subscribe((eventData) => {

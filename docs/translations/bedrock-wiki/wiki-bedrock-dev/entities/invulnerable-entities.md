@@ -19,9 +19,7 @@ description: 学习如何制作无敌实体。
 
 ### 完全无敌实体
 
-<CodeHeader>BP/entities/entity.json#minecraft:entity/components</CodeHeader>
-
-```json
+```json title="BP/entities/entity.json#minecraft:entity/components"
 "minecraft:damage_sensor": {
     "triggers": {
         "cause": "all",
@@ -32,9 +30,7 @@ description: 学习如何制作无敌实体。
 
 ### 禁用玩家造成的伤害
 
-<CodeHeader>BP/entities/entity.json#minecraft:entity/components</CodeHeader>
-
-```json
+```json title="BP/entities/entity.json#minecraft:entity/components"
 "minecraft:damage_sensor": {
     "triggers": {
         "on_damage": {
@@ -55,9 +51,7 @@ description: 学习如何制作无敌实体。
 
 如果选择使用此组件，请确保有其他方法可以消灭该实体。通过环境传感器、计时器或交互触发 `minecraft:instant_despawn` 是一个不错的解决方案。你也可以使用 `/event` 调用它。
 
-<CodeHeader>BP/entities/entity.json#minecraft:entity/components</CodeHeader>
-
-```json
+```json title="BP/entities/entity.json#minecraft:entity/components"
 "minecraft:health": {
     "value": 1,
     "max": 1,

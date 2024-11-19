@@ -33,9 +33,7 @@ JSON架构本身就是JSON文件，并不会单独执行任何操作。你可以
 
 它应该看起来像这样：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "format_version": "1.14.0",
 "$schema": "https://aexer0e.github.io/bedrock-schema/"
 ```
@@ -46,9 +44,7 @@ JSON架构本身就是JSON文件，并不会单独执行任何操作。你可以
 
 为此，请确保你在工作区中，然后按`Ctrl+Shift+P`，输入并选择`>Preferences: Open Workspace Settings (JSON)`。之后，将以下内容添加到根对象中：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "settings": {
     "json.schemas": [
         {

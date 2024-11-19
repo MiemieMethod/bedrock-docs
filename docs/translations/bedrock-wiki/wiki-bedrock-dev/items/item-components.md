@@ -16,9 +16,7 @@ mentions:
 
 物品组件用于改变你的物品在世界中的外观和功能。它们被应用在 `minecraft:item` 的 `components` 子项中。
 
-<CodeHeader>BP/items/custom_item.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_item.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -43,13 +41,11 @@ mentions:
 
 ### 允许副手
 
-确定物品是否可以放置在库存的副手槽中。
+确定物品是否可以放置在物品栏的副手槽中。
 
 类型：布尔值
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:allow_off_hand": {
     "value": true
 }
@@ -69,9 +65,7 @@ mentions:
     - 包含此物品可用于的方块描述符的方块列表。如果留空，则允许所有方块。有关使用行为的更多信息，请参见 自定义物品使用优先级。
     - 这也适用于创造模式。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:block_placer": {
     "block": "wiki:custom_block",
     "use_on": [
@@ -94,9 +88,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
     - 定义从包裹顶部可访问的物品堆叠的最大数量。
     - 槽位按行从工具提示的底部从右到左填充访问。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:bundle_interaction": {
     "num_viewable_slots": 12
 }
@@ -108,9 +100,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
 
 类型：布尔值
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:can_destroy_in_creative": {
     "value": true
 }
@@ -130,9 +120,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
     - 具有匹配类别的物品在再次可用之前将花费冷却时间（以秒为单位）。
     - 如果此值为负数，则物品不可用。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:cooldown": {
     "category": "attack",
     "duration": 0.2
@@ -147,9 +135,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
 
 类型：数组
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:custom_component": [
     "wiki:custom_component"
 ]
@@ -168,9 +154,7 @@ https://bugs.mojang.com/browse/MCPE-180073
 
 类型：整数
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:damage": {
     "value": 10
 }
@@ -185,9 +169,7 @@ https://bugs.mojang.com/browse/MCPE-180073
 - `absorbable_causes`: 数组
     - 可以被物品吸收的伤害原因列表（例如 `entity_attack` 和 `magma`）。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:damage_absorption": {
 	"absorbable_causes": ["all"]
 }
@@ -212,9 +194,7 @@ https://bugs.mojang.com/browse/MCPE-180073
     - 确定如果物品应用了 `效率` 附魔，物品是否应该受到影响。
     - 似乎不起作用。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:digger": {
 	"use_efficiency": true,
 	"destroy_speeds": [
@@ -238,9 +218,7 @@ https://bugs.mojang.com/browse/MCPE-180073
 
 #### 示例
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:display_name": {
     "value": "secret_weapon"
 }
@@ -248,9 +226,7 @@ https://bugs.mojang.com/browse/MCPE-180073
 
 #### 使用本地化键的示例
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:display_name": {
     "value": "item.snowball.name"
 }
@@ -291,9 +267,7 @@ https://bugs.mojang.com/browse/MCPE-180112
 
 最大值不能大于最小值
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:durability": {
     "damage_chance": {
         "min": 0,
@@ -324,9 +298,7 @@ https://bugs.mojang.com/browse/MCPE-180112
 - `sound_event`: 字符串
     - 达到阈值时发出的声音效果。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:durability_sensor": {
     "durability_thresholds": [
         {
@@ -351,9 +323,7 @@ https://bugs.mojang.com/browse/MCPE-180112
 - `default_color`: 字符串
     - 可选的默认颜色，在玩家尚未染色物品之前使用。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:dyeable": {
 	"default_color": "#ffffff"
 }
@@ -415,9 +385,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 有关附魔性及其对游戏影响的深入探讨，请参阅 [非官方Minecraft维基的附魔机制](https://minecraft.wiki/w/Enchanting_mechanics#Enchantability)。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:enchantable": {
     "slot": "sword",
     "value": 10
@@ -438,9 +406,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 - `use_on`: 数组
     - 物品可以用于的方块描述符的方块列表。如果留空，则允许所有方块。有关使用行为的更多信息，请参见 自定义物品使用优先级。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
     "minecraft:entity_placer": {
         "entity": "minecraft:spider",
         "dispense_on": [
@@ -472,9 +438,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 - `using_converts_to`: 字符串
     - 使用时，转换为此字段中指定的物品。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:food": {
     "can_always_eat": false,
     "nutrition": 3,
@@ -494,9 +458,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 - `duration`: 浮点数
     - 此燃料烹饪物品的持续时间（以秒为单位）。最小值：0.05。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:fuel": {
     "duration": 3.0
 }
@@ -508,9 +470,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 类型：布尔值
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:glint": {
     "value": false
 }
@@ -522,9 +482,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 类型：布尔值
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:hand_equipped": {
     "value": true
 }
@@ -538,9 +496,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 类型：字符串
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:hover_text_color": "minecoin_gold"
 ```
 
@@ -561,9 +517,7 @@ https://bugs.mojang.com/browse/MCPE-180331
             - 物品有饰边时的图标覆盖。
             - `icon_trim` 隐式回退到 `minecraft:wearable` 组件中的槽位类型。目前，仅当短名称与物品标识符匹配时，图标才会覆盖。尚不清楚这是一个错误还是功能。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:icon":{
     "textures": {
         "default": "custom_item"
@@ -577,15 +531,11 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 类型：布尔值/字符串
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:interact_button": "Use This Custom Item"
 ```
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:interact_button": {
     "value": true
 }
@@ -599,9 +549,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 类型：布尔值
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:liquid_clipped": {
     "value": true
 }
@@ -613,9 +561,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 类型：整数
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:max_stack_size": {
     "value": 64
 }
@@ -632,9 +578,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 - `projectile_entity`: 字符串
     - 作为投射物发射的实体。如果未指定命名空间，则假定为 `minecraft`。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:projectile": {
     "minimum_critical_power": 1.25,
     "projectile_entity": "arrow"
@@ -656,9 +600,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 - `rare` 结果为青色名称。
 - `epic` 结果为浅紫色名称。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:rarity": "rare"
 ```
 
@@ -679,9 +621,7 @@ https://bugs.mojang.com/browse/MCPE-180331
     - 无论使用何种声音类型，物品的文本颜色都将像原版音乐唱片一样变为青色。
     - 仅允许原版声音事件。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:record": {
     "comparator_signal": 1,
     "duration": 5,
@@ -710,9 +650,7 @@ https://bugs.mojang.com/browse/MCPE-180331
             - 用于修复物品的物品
             - 必填字段
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:repairable":{
     "repair_items": [
         {
@@ -725,9 +663,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 }
 ```
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:repairable":{
     "repair_items": [
         {
@@ -740,9 +676,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 }
 ```
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:repairable":{
     "repair_items": [
         {
@@ -767,7 +701,7 @@ https://bugs.mojang.com/browse/MCPE-180331
     - `use_offhand`: 布尔值
         - 设置为 `true` 时，可以从副手使用弹药。
     - `search_inventory`: 布尔值
-        - 确定是否可以搜索库存以使用弹药。在生存模式中必须为 `true`。在创造模式中，如果 `use_in_creative` 为 `false`，则必须为 `true`。在创造模式中不会消耗弹药。
+        - 确定是否可以搜索物品栏以使用弹药。在生存模式中必须为 `true`。在创造模式中，如果 `use_in_creative` 为 `false`，则必须为 `true`。在创造模式中不会消耗弹药。
     - `use_in_creative`: 布尔值
         - 确定是否可以在创造模式中使用弹药。
 - `charge_on_draw`: 布尔值
@@ -780,11 +714,9 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 #### 弹药
 
-设置用作弹药的实体。使用物品的优先级如下：首先，检查副手槽是否有匹配的弹药。如果匹配，则查看该物品是否设置了 `use_offhand`。如果副手没有匹配的物品，则按数组顺序遍历，无论库存顺序如何。
+设置用作弹药的实体。使用物品的优先级如下：首先，检查副手槽是否有匹配的弹药。如果匹配，则查看该物品是否设置了 `use_offhand`。如果副手没有匹配的物品，则按数组顺序遍历，无论物品栏顺序如何。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:shooter": {
     "ammunition": [
         {
@@ -806,9 +738,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 类型：布尔值
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:should_despawn": {
     "value": true
 }
@@ -818,9 +748,7 @@ https://bugs.mojang.com/browse/MCPE-180331
 
 确定具有不同辅助值的相同物品是否可以堆叠。此外，定义物品在世界中漂浮时，物品行为者是否可以合并。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:stacked_by_data": {
     "value": true
 }
@@ -852,9 +780,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
     - 定义物品在另一个存储物品内时增加的额外重量。
         - 值为0表示不允许此物品放入另一个存储物品中。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:storage_item": {
     "max_slots": 64,
     "max_weight_limit": 64,
@@ -876,9 +802,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
 - `tags`: 数组
     - 附加到物品的标签列表。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:tags": {
     "tags": [
         "custom_tag"
@@ -910,9 +834,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
 - `scale_power_by_draw_duration`: 布尔值
     - 投掷力量是否随充能持续时间增加而增加。当为 `true` 时，持有时间越长，释放时力量越大。
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:throwable": {
     "do_swing_animation": false,
     "launch_power_scale": 1.0,
@@ -929,9 +851,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
 
 类型：字符串
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:use_animation": {
     "value": "eat"
 }
@@ -963,9 +883,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
     - 使用物品所需的时间（以秒为单位）。
     - 必填字段
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:use_modifiers": {
     "movement_modifier": 0.5,
     "use_duration": 1.0
@@ -981,9 +899,7 @@ _在格式版本 1.21.40 及更高版本中，`Bundles` 从实验中发布。_
 - `protection`: 整数
 - `slot`: 字符串
 
-<CodeHeader>minecraft:item > components</CodeHeader>
-
-```json
+```json title="minecraft:item > components"
 "minecraft:wearable": {
     "protection": 10,
     "slot": "slot.armor.chest"

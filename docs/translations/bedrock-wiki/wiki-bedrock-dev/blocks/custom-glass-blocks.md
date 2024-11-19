@@ -24,9 +24,7 @@ mentions:
 
 ## 方块 JSON
 
-<CodeHeader>BP/blocks/custom_glass.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_glass.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -54,9 +52,7 @@ mentions:
 
 为了使你的玻璃方块正确进行面剔除，纹理必须在 `RP/blocks.json` 中定义，而不是在材质实例和几何组件中定义。
 
-<CodeHeader>RP/blocks.json</CodeHeader>
-
-```json
+```json title="RP/blocks.json"
 {
     "format_version": "1.21.40",
     "wiki:custom_glass": {

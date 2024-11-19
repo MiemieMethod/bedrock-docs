@@ -21,9 +21,7 @@ description: 为结构中的容器设置战利品表。
 
 你可以在[初学者指南](../guide/loot-table.md)中学习如何制作战利品表。
 
-<CodeHeader>BP/loot_tables/chests/my_structure_loot.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/chests/my_structure_loot.json"
 {
 	"pools": [
 		{

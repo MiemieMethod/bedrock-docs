@@ -22,9 +22,7 @@ Minecraft基岩版允许我们添加自定义陶器碎片。本文将介绍如�
 
 要告诉游戏碎片应该显示哪个图像，我们需要编辑装饰陶罐的客户端实体文件。添加以下JSON文件：
 
-<CodeHeader>RP/entity/decorated_pot.json</CodeHeader>
-
-```json
+```json title="RP/entity/decorated_pot.json"
 {
     "format_version": "1.8.0",
     "minecraft:client_entity": {

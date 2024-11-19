@@ -79,9 +79,7 @@ BP/functions/quests/jungle/1.mcfunction
 
 _以下是供初学者参考的示例函数文件：_
 
-<CodeHeader>BP/functions/effects.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/effects.mcfunction"
 # 这些效果用于生成
 effect @a [tag=atSpawn] regeneration 12 255 true
 effect @a [tag=atSpawn] saturation 12 255 true
@@ -112,9 +110,7 @@ effect @a [tag=inNether] fire_resistance 12 255 true
 
 <Spoiler title="示例函数文件">
 
-<CodeHeader>BP/functions/abilities/fire_trail.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/abilities/fire_trail.mcfunction"
 # 玩家物品丢弃时
 
 ## 给予效果
@@ -160,9 +156,7 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 
 <Spoiler title="示例 📄 manifest.json">
 
-<CodeHeader>BP/manifest.json</CodeHeader>
-
-```json
+```json title="BP/manifest.json"
 {
     "format_version": 2,
     "header": {

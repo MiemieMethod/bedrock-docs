@@ -22,9 +22,7 @@ description: 原版釉面陶瓦的重建。
 
 这将创建一个类似原版的自定义釉面陶瓦。
 
-<CodeHeader>BP/blocks/custom_glazed_terracotta.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_glazed_terracotta.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -123,9 +121,7 @@ description: 原版釉面陶瓦的重建。
 
 <Spoiler title="几何体 JSON">
   
-<CodeHeader>RP/models/blocks/glazed_terracotta.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/blocks/glazed_terracotta.geo.json"
 {
     "format_version": "1.21.40",
     "minecraft:geometry": [

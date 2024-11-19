@@ -149,9 +149,7 @@ BP/functions/quests/jungle/1.mcfunction
 
 <Spoiler title="示例函数文件">
 
-<CodeHeader>BP/functions/abilities/fire_trail.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/abilities/fire_trail.mcfunction"
 # 玩家物品掉落时
 
 ## 给予效果
@@ -223,9 +221,7 @@ scoreboard players remove @a [scores={abilities.fire_trail=1..}] abilities.fire_
 
 示例：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "format_version": "1.8.0",
     "animations": {

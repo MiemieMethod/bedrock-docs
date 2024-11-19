@@ -27,9 +27,7 @@ Minecraft：基岩版使用其自有版本的JavaScript，该版本基于QuickJS
 
 要启用这些评估代码的方法，你必须在清单中添加它。这项功能还增加了`Function()`构造函数的使用。
 
-<CodeHeader>BP/manifest.json</CodeHeader>
-
-```json
+```json title="BP/manifest.json"
 {
     "capabilities": ["script_eval"]
 }

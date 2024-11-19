@@ -15,18 +15,14 @@ description: 自动生成的 vanilla 使用的生成规则组件列表。
 
 armadillo
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
     "test": "has_biome_tag",
     "value": "savanna"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
     "all_of": [
         {
@@ -42,9 +38,7 @@ armadillo
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
     "all_of": [
         {
@@ -61,9 +55,7 @@ armadillo
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
     "test": "has_biome_tag",
     "operator": "==",
@@ -73,9 +65,7 @@ axolotl
 
 bat
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
     "test": "has_biome_tag",
     "operator": "==",
@@ -85,9 +75,7 @@ bat
 
 bee
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": [
     {
         "test": "has_biome_tag",
@@ -109,9 +97,7 @@ bee
 
 bogged
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
     "any_of": [
         {
@@ -130,9 +116,7 @@ bogged
 
 chicken
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:biome_filter": {
     "test": "has_biome_tag",
     "operator": "==",
@@ -148,9 +132,7 @@ chicken
 
 armadillo
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 7,
     "max": 15,
@@ -158,9 +140,7 @@ armadillo
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 7,
     "max": 15,
@@ -168,9 +148,7 @@ armadillo
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 7,
     "max": 15,
@@ -180,9 +158,7 @@ armadillo
 
 bat
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 0,
     "max": 4,
@@ -192,9 +168,7 @@ bat
 
 bee
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 7,
     "max": 15,
@@ -204,9 +178,7 @@ bee
 
 bogged
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 0,
     "max": 7,
@@ -216,9 +188,7 @@ bogged
 
 chicken
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 7,
     "max": 15,
@@ -228,9 +198,7 @@ chicken
 
 cow
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:brightness_filter": {
     "min": 7,
     "max": 15,
@@ -246,9 +214,7 @@ cow
 
 pillager_patrol
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:delay_filter": {
     "min": 600,
     "max": 660,
@@ -257,9 +223,7 @@ pillager_patrol
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:delay_filter": {
     "min": 600,
     "max": 660,
@@ -268,9 +232,7 @@ pillager_patrol
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:delay_filter": {
     "min": 600,
     "max": 660,
@@ -287,9 +249,7 @@ pillager_patrol
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "underground": 5
 }
@@ -297,9 +257,7 @@ axolotl
 
 bat
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "surface": 5
 }
@@ -307,9 +265,7 @@ bat
 
 cod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "surface": 20
 }
@@ -317,9 +273,7 @@ cod
 
 creeper
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "surface": 5
 }
@@ -327,9 +281,7 @@ creeper
 
 dolphin
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "surface": 5,
     "underground": 0
@@ -338,25 +290,19 @@ dolphin
 
 drowned
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "surface": 5
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "surface": 2
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:density_limit": {
     "surface": 2
 }
@@ -370,9 +316,7 @@ drowned
 
 bogged
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
@@ -381,9 +325,7 @@ bogged
 
 creeper
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
@@ -392,27 +334,21 @@ creeper
 
 drowned
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
@@ -421,27 +357,21 @@ drowned
 
 enderman
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:difficulty_filter": {
     "min": "easy",
     "max": "hard"
@@ -456,9 +386,7 @@ enderman
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:disallow_spawns_in_bubble": {}
 ```
 
@@ -470,9 +398,7 @@ axolotl
 
 cod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 12,
     "max": 32
@@ -481,27 +407,21 @@ cod
 
 pillager_patrol
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 24,
     "max": 48
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 24,
     "max": 48
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 24,
     "max": 48
@@ -510,9 +430,7 @@ pillager_patrol
 
 pufferfish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 12,
     "max": 32
@@ -521,18 +439,14 @@ pufferfish
 
 salmon
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 12,
     "max": 32
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 12,
     "max": 32
@@ -541,9 +455,7 @@ salmon
 
 tropicalfish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:distance_filter": {
     "min": 12,
     "max": 32
@@ -558,9 +470,7 @@ tropicalfish
 
 bat
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": -63,
     "max": 63
@@ -569,9 +479,7 @@ bat
 
 cod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": 0,
     "max": 64
@@ -580,9 +488,7 @@ cod
 
 dolphin
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": 0,
     "max": 64
@@ -591,9 +497,7 @@ dolphin
 
 glow_squid
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": -64,
     "max": 30
@@ -602,9 +506,7 @@ glow_squid
 
 pufferfish
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": 0,
     "max": 64
@@ -613,18 +515,14 @@ pufferfish
 
 salmon
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": 0,
     "max": 64
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": 50,
     "max": 64
@@ -633,9 +531,7 @@ salmon
 
 stray
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:height_filter": {
     "min": 60,
     "max": 66
@@ -650,27 +546,21 @@ stray
 
 armadillo
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 2,
     "max_size": 3
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 1,
     "max_size": 2
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 1,
     "max_size": 2
@@ -679,9 +569,7 @@ armadillo
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 4,
     "max_size": 6,
@@ -692,9 +580,7 @@ axolotl
 
 bat
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 2,
     "max_size": 2
@@ -703,9 +589,7 @@ bat
 
 bee
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 1,
     "max_size": 1
@@ -714,9 +598,7 @@ bee
 
 bogged
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 1,
     "max_size": 2
@@ -725,9 +607,7 @@ bogged
 
 chicken
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:herd": {
     "min_size": 2,
     "max_size": 4
@@ -742,25 +622,19 @@ chicken
 
 pillager_patrol
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:mob_event_filter": {
     "event": "minecraft:pillager_patrols_event"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:mob_event_filter": {
     "event": "minecraft:pillager_patrols_event"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:mob_event_filter": {
     "event": "minecraft:pillager_patrols_event"
 }
@@ -774,9 +648,7 @@ pillager_patrol
 
 pillager_patrol
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:permute_type": [
     {
         "weight": 100,
@@ -785,9 +657,7 @@ pillager_patrol
 ]
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:permute_type": [
     {
         "weight": 100,
@@ -796,9 +666,7 @@ pillager_patrol
 ]
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:permute_type": [
     {
         "weight": 100,
@@ -809,9 +677,7 @@ pillager_patrol
 
 zombie
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:permute_type": [
     {
         "weight": 95
@@ -831,27 +697,21 @@ zombie
 
 pillager_patrol
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:player_in_village_filter": {
     "distance": 48,
     "village_border_tolerance": 32
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:player_in_village_filter": {
     "distance": 48,
     "village_border_tolerance": 32
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:player_in_village_filter": {
     "distance": 48,
     "village_border_tolerance": 32
@@ -866,17 +726,13 @@ pillager_patrol
 
 stray
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawn_event": {
     "event": "change_to_skeleton"
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawn_event": {
     "event": "change_to_skeleton"
 }
@@ -890,9 +746,7 @@ stray
 
 strider
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_lava": {}
 ```
 
@@ -904,9 +758,7 @@ strider
 
 armadillo
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": [
     {
         "name": "minecraft:grass_block"
@@ -947,9 +799,7 @@ armadillo
 ]
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": [
     {
         "name": "minecraft:grass_block"
@@ -990,9 +840,7 @@ armadillo
 ]
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": [
     {
         "name": "minecraft:grass_block"
@@ -1035,39 +883,29 @@ armadillo
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": "minecraft:clay"
 ```
 
 chicken
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": "minecraft:grass"
 ```
 
 cow
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": "minecraft:grass"
 ```
 
 donkey
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": "minecraft:grass"
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_filter": "minecraft:grass"
 ```
 
@@ -1079,9 +917,7 @@ donkey
 
 hoglin
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
@@ -1090,18 +926,14 @@ hoglin
 
 magma_cube
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
 ]
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
@@ -1110,18 +942,14 @@ magma_cube
 
 piglin
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
 ]
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
@@ -1130,9 +958,7 @@ piglin
 
 skeleton
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
@@ -1141,18 +967,14 @@ skeleton
 
 zombie_pigman
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
 ]
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_block_prevented_filter": [
     "minecraft:nether_wart_block",
     "minecraft:shroomlight"
@@ -1167,61 +989,45 @@ zombie_pigman
 
 armadillo
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
 bee
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
 bogged
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
 chicken
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
 cod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
 cow
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_on_surface": {}
 ```
 
@@ -1233,61 +1039,45 @@ cow
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
 bat
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
 creeper
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
 enderman
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
 ghast
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
 glow_squid
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underground": {}
 ```
 
@@ -1299,61 +1089,45 @@ glow_squid
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
 cod
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
 dolphin
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
 drowned
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
 glow_squid
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
 guardian
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:spawns_underwater": {}
 ```
 
@@ -1365,26 +1139,20 @@ guardian
 
 armadillo
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 10
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 6,
     "rarity": 3
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 6,
     "rarity": 2
@@ -1393,9 +1161,7 @@ armadillo
 
 axolotl
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 10
 }
@@ -1403,9 +1169,7 @@ axolotl
 
 bat
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 10
 }
@@ -1413,9 +1177,7 @@ bat
 
 bee
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 10
 }
@@ -1423,9 +1185,7 @@ bee
 
 bogged
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 40
 }
@@ -1433,9 +1193,7 @@ bogged
 
 chicken
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:weight": {
     "default": 10
 }
@@ -1449,25 +1207,19 @@ chicken
 
 pillager_patrol
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:world_age_filter": {
     "min": 6000
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:world_age_filter": {
     "min": 6000
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:world_age_filter": {
     "min": 6000
 }

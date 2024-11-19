@@ -27,9 +27,7 @@ description: 玩家客户端实体文件。
 
 <Spoiler title="几何体">
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.12.0",
 	"minecraft:geometry": [
@@ -473,9 +471,7 @@ description: 玩家客户端实体文件。
 
 <Spoiler title="实体文件">
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {

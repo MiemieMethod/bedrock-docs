@@ -26,9 +26,7 @@ hidden: true
 
 ### 组件
 
-<CodeHeader>BP/items/my_item.json#components</CodeHeader>
-
-```json
+```json title="BP/items/my_item.json#components"
 "minecraft:durability": {
     "max_durability": 200
 }
@@ -40,9 +38,7 @@ hidden: true
 
 ### 物品事件
 
-<CodeHeader>BP/items/my_item.json#events</CodeHeader>
-
-```json
+```json title="BP/items/my_item.json#events"
 "durability_update": {
     "damage": {
         "type": "none",
@@ -60,9 +56,7 @@ hidden: true
 
 此函数支持物品的无破坏性。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 function damage_item(item) {
     // 获取耐久度
     const durabilityComponent = item.getComponent("durability");
@@ -100,9 +94,7 @@ function damage_item(item) {
 
 这提供了一种通过脚本损坏武器的方法。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 // 将你的物品ID添加到此数组中
 const my_items = ["wiki:silver_dagger"];
 
@@ -139,9 +131,7 @@ world.afterEvents.entityHurt.subscribe((event) => {
 
 `on_hurt_entity` 可以在 "minecraft:weapon" 组件中定义。它告诉游戏当玩家使用此物品伤害实体时应该发生什么事件。
 
-<CodeHeader>BP/items/my_item.json#components</CodeHeader>
-
-```json
+```json title="BP/items/my_item.json#components"
 "minecraft:weapon": {
     "on_hurt_entity": {
         "event": "durability_update"
@@ -162,9 +152,7 @@ world.afterEvents.entityHurt.subscribe((event) => {
 
 这提供了一种通过脚本损坏挖掘工具的方法。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 // 将你的物品ID添加到此数组中
 const my_items = ["wiki:obsidian_pickaxe"];
 
@@ -200,9 +188,7 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
 
 `on_dig` 可以在 "minecraft:digger" 组件中定义。它告诉游戏当玩家使用此物品挖掘方块时应该发生什么事件。
 
-<CodeHeader>BP/items/my_item.json#components</CodeHeader>
-
-```json
+```json title="BP/items/my_item.json#components"
 "minecraft:digger": {
     "use_efficiency": true,
     "destroy_speeds": [
@@ -228,9 +214,7 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
 
 `repair_amount` 可以在 "minecraft:repairable" 组件中定义。它告诉游戏修理时物品的耐久度应该恢复多少。
 
-<CodeHeader>BP/items/my_item.json#components</CodeHeader>
-
-```json
+```json title="BP/items/my_item.json#components"
 "minecraft:repairable": {
     "repair_items": [
         {
@@ -266,8 +250,6 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
 
 你可以通过以下方式应用这些标签：
 
-<CodeHeader>BP/items/my_item.json#components</CodeHeader>
-
-```json
+```json title="BP/items/my_item.json#components"
 "tag:minecraft:is_axe": {}
 ```

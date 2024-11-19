@@ -80,9 +80,7 @@ immersive_reader.book_page_header=第%1页，共%2页
 
 在编辑语言文件时，还必须在`texts`文件夹中添加一个`languages.json`文件，包含一个数组，列出你计划更改的每种语言。这让Minecraft知道应该为这些语言应用本地化。
 
-<CodeHeader>RP/texts/languages.json</CodeHeader>
-
-```json
+```json title="RP/texts/languages.json"
 [
   "en_US",
   "en_GB",
@@ -96,9 +94,7 @@ immersive_reader.book_page_header=第%1页，共%2页
 
 在以下示例中，假设我们有两个功能齐全的语言文件，一个名为`xx_XX.lang`，另一个名为`yy_YY.lang`。
 
-<CodeHeader>RP/texts/languages.json</CodeHeader>
-
-```json
+```json title="RP/texts/languages.json"
 [
   "xx_XX",
   "yy_YY"
@@ -107,9 +103,7 @@ immersive_reader.book_page_header=第%1页，共%2页
 
 `language_names.json`也是一个数组，但这次用于定义显示的语言名称。
 
-<CodeHeader>RP/texts/language_names.json</CodeHeader>
-
-```json
+```json title="RP/texts/language_names.json"
 [
   [ "xx_XX", "新语言（自定义语言#1）" ],
   [ "yy_YY", "维基语（自定义语言#2）" ]

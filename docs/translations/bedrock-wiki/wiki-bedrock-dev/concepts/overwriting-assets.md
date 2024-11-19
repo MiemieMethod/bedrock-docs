@@ -90,9 +90,7 @@ description: 解释覆盖资源的相关内容。
 :::tip
 **示例**：假设你想使用参考文件覆盖`sugar`纹理。你可以通过创建一个新的`item_textures.json`，并包含以下内容来实现：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"resource_pack_name": "vanilla",
 	"texture_data": {

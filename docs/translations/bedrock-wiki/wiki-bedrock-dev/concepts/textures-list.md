@@ -21,9 +21,7 @@ description: textures_list 文件是 Minecraft 用于缓存每个纹理的方式
 
 结构很简单。文件本身位于 `RP/textures` 中，名为 `textures_list.json`。该文件包含你想要在文件中列出的每个纹理的文件路径：
 
-<CodeHeader>RP/textures/textures_list.json</CodeHeader>
-
-```json
+```json title="RP/textures/textures_list.json"
 [
 	"textures/blocks/foo",
 	"textures/blocks/bar",

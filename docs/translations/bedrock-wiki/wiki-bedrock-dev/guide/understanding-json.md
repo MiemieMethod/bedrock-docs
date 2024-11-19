@@ -77,9 +77,7 @@ JSON是一种简单的文本文件格式，既易于人类理解，也易于计�
 
 下面是一个对象的示例，包含几个_键值对_。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"a_list_of_integers": [1, 2, 3],
 	"is_json_cool": true
@@ -96,9 +94,7 @@ JSON是一种简单的文本文件格式，既易于人类理解，也易于计�
 
 以下是一个用于Minecraft附加包的简单json文件示例：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.12.0",
 	"animations": {

@@ -21,9 +21,7 @@ description: 摆脱那些恼人的阴影。
 
 一种可能性是将碰撞组件的大小设置得非常小。这将使得很难与该实体进行交互/攻击，但它会使阴影消失！
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:collision_box": {
     "width": 0.1,
     "height": 0.1
@@ -32,9 +30,7 @@ description: 摆脱那些恼人的阴影。
 
 你还可以添加[自定义命中测试组件](https://bedrock.dev/docs/stable/Entities#minecraft:custom_hit_test)。`custom_hit_test`组件将允许你攻击该实体，尽管你将无法与其交互。`custom_hit_test`不会产生阴影。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:custom_hit_test": {
     "hitboxes": [
         {
@@ -69,9 +65,7 @@ description: 摆脱那些恼人的阴影。
 
 #### 有效阴影代码：所有实体的阴影：
 
-<CodeHeader>RP/materials/shadows.material</CodeHeader>
-
-```json
+```json title="RP/materials/shadows.material"
 "shadow_overlay":{
     "+states":[
         "DisableDepthTest",
@@ -93,9 +87,7 @@ description: 摆脱那些恼人的阴影。
 
 #### 禁用阴影代码：所有实体无阴影：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "shadow_overlay":{
     "+states":[
         "DisableDepthTest",

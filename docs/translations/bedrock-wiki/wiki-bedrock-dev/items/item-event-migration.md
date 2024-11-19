@@ -17,9 +17,7 @@ mentions:
 
 ## 添加生物效果
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onHitEntity({ hitEntity }) {
     hitEntity.addEffect("regeneration", 30, {
         amplifier: 10,
@@ -34,9 +32,7 @@ onHitEntity({ hitEntity }) {
 import { EntityDamageCause } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onUse({ source }) {
     source.applyDamage(2, {
         cause: EntityDamageCause.drowning
@@ -50,9 +46,7 @@ onUse({ source }) {
 import { EquipmentSlot, GameMode, Player } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onMineBlock({ source }) {
     // 获取主手槽
     if (!(source instanceof Player)) return;
@@ -98,9 +92,7 @@ onMineBlock({ source }) {
 import { EquipmentSlot, GameMode } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onUse({ source }) {
     if (!source) return;
 
@@ -122,9 +114,7 @@ onUse({ source }) {
 
 ## 移除生物效果
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onHitEntity({ hitEntity }) {
     hitEntity.removeEffect("regeneration");
 }
@@ -132,9 +122,7 @@ onHitEntity({ hitEntity }) {
 
 ## 执行命令
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onUse({ source }) {
     source.runCommand("say Hello there!")
     source.runCommand("say Welcome to my world!")
@@ -143,9 +131,7 @@ onUse({ source }) {
 
 ## 传送
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onConsume({ source }) {
     source.teleport({ x: 100, y: 20, z: 786 });
 }
@@ -157,9 +143,7 @@ onConsume({ source }) {
 import { EquipmentSlot, ItemStack } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onUse({ source }) {
     const equippable = source?.getComponent("minecraft:equippable");
     if (!equippable) return;

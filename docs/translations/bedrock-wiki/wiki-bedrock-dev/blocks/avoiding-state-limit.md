@@ -47,9 +47,7 @@ description: 方块每个状态的有效值限制为16个，无法超过。本�
 
 以上述示例为参考，你的状态将如下所示：
 
-<CodeHeader>minecraft:block > description</CodeHeader>
-
-```json
+```json title="minecraft:block > description"
 "states": {
   "wiki:value": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
   "wiki:division": [1, 2]

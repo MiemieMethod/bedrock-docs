@@ -46,9 +46,7 @@ mentions:
 
 以下是文件的基本概述：
 
-<CodeHeader>BP/entities/ghost.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json"
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -62,9 +60,7 @@ mentions:
 
 对于实体，在 `description` 下我们有更多的信息：
 
-<CodeHeader>BP/entities/ghost.se.json#minecraft:entity</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json#minecraft:entity"
 "description": {
 	"identifier": "wiki:ghost",
 	"is_summonable": true,
@@ -92,9 +88,7 @@ mentions:
 
 这些是你通常会在每个实体上拥有的组件。这些组件定义了实体的一些核心属性。
 
-<CodeHeader>BP/entities/ghost.se.json#minecraft:entity#components</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json#minecraft:entity#components"
 "minecraft:type_family": {
 	"family": ["ghost", "monster"]
 },
@@ -129,9 +123,7 @@ mentions:
 
 如果你希望实体能够移动，你将始终需要一个 `movement` 和 `navigation` 组件。
 
-<CodeHeader>BP/entities/ghost.se.json#minecraft:entity#components</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json#minecraft:entity#components"
 "minecraft:physics": {},
 "minecraft:jump.static": {},
 "minecraft:movement.basic": {},
@@ -160,9 +152,7 @@ mentions:
 
 我们希望我们的鬼魂能够闲逛和四处张望，靠近时以玩家为目标，然后攻击他们。以下是我们使用的组件：
 
-<CodeHeader>BP/entities/ghost.se.json#minecraft:entity#components</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json#minecraft:entity#components"
 // 允许随机移动和四处张望
 "minecraft:behavior.random_stroll": {...},
 "minecraft:behavior.random_look_around": {...},
@@ -184,9 +174,7 @@ mentions:
 
 每个这些行为都有进一步的设置来调整我们想要的确切行为。
 
-<CodeHeader>BP/entities/ghost.se.json#minecraft:entity#components</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json#minecraft:entity#components"
 "minecraft:behavior.random_stroll": {
 	"priority": 6,
 	"speed_multiplier": 1
@@ -248,9 +236,7 @@ mentions:
 
 <Spoiler title="完整的 ghost.se.json">
 
-<CodeHeader>BP/entities/ghost.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json"
 {
     "format_version": "1.16.0",
     "minecraft:entity": {
@@ -363,9 +349,7 @@ mentions:
 
 此文件由 Blockbench 自动为我们生成，因此无需手动学习其语法。因此，我们在查看该文件时不会详细介绍。它存储了关于模型中每个块的数据，如大小、位置和旋转。
 
-<CodeHeader>RP/models/entity/ghost.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/entity/ghost.geo.json"
 {
     "format_version": "1.12.0",
     "minecraft:geometry": [
@@ -458,9 +442,7 @@ mentions:
 
 一个动画文件可以包含一个或多个动画。我们的动画都在一个名为 `ghost.a.json` 的文件中，位于 `RP/animations/` 下。
 
-<CodeHeader>RP/animations/ghost.a.json</CodeHeader>
-
-```json
+```json title="RP/animations/ghost.a.json"
 {
 	"format_version": "1.8.0",
 	"animations": {
@@ -480,9 +462,7 @@ mentions:
 
 <Spoiler title="完整的动画文件">
 
-<CodeHeader>RP/animations/ghost.a.json</CodeHeader>
-
-```json
+```json title="RP/animations/ghost.a.json"
 {
     "format_version": "1.8.0",
     "animations": {
@@ -607,9 +587,7 @@ mentions:
 
 让我们看看我们的攻击动画控制器。
 
-<CodeHeader>RP/animation_controllers/ghost.ac.json#animation_controllers</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/ghost.ac.json#animation_controllers"
 "controller.animation.ghost.attack": {
 	"states": {
 		"default": {
@@ -636,9 +614,7 @@ mentions:
 
 你可以在 `transitions` 下看到有一个条件，当条件为真时会将实体转移到某个状态。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "attacking": "q.is_delayed_attacking"
 }
@@ -654,9 +630,7 @@ mentions:
 
 我们还可以为我们的 `move` 和 `idle` 动画制作一个类似的控制器。
 
-<CodeHeader>RP/animation_controllers/ghost.ac.json#animation_controllers</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/ghost.ac.json#animation_controllers"
 "controller.animation.ghost.walk": {
 	"initial_state": "standing",
 	"states": {
@@ -690,9 +664,7 @@ mentions:
 
 我们的文件将命名为 `ghost.ac.json`，并将放置在 `RP/animation_controllers/` 中。
 
-<CodeHeader>RP/animation_controllers/ghost.ac.json</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/ghost.ac.json"
 {
     "format_version": "1.12.0",
     "animation_controllers": {
@@ -750,9 +722,7 @@ mentions:
 客户端文件包含对实体视觉组件的所有引用。
 我们的客户端文件将位于 `RP/entity/` 中，我们将此文件命名为 `ghost.ce.json`。此文件将在 `description` 键下包含所有信息。我们从熟悉的格式开始：
 
-<CodeHeader>RP/entity/ghost.ce.json</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json"
 {
     "format_version": "1.10.0",
     "minecraft:client_entity": {
@@ -775,9 +745,7 @@ mentions:
 
 为了使用这些资源，我们需要在实体文件中用简短名称定义它们。这与我们在 `item_texture.json` 文件中为物品分配简短名称类似，只是在这里我们在实体客户端文件中进行。以下是布局。
 
-<CodeHeader>RP/entity/ghost.ce.json</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json"
 {
     "format_version": "1.10.0",
     "minecraft:client_entity": {
@@ -804,9 +772,7 @@ mentions:
 渲染控制器在一个单独的文件中定义，并使用我们在实体文件中定义的简短名称。
 该文件命名为 `ghost.rc.json`，位于 `RP/render_controllers/` 中：
 
-<CodeHeader>RP/render_controllers/entity/ghost.rc.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/entity/ghost.rc.json"
 {
     "format_version": "1.10.0",
     "render_controllers": {
@@ -832,16 +798,12 @@ mentions:
 
 现在要告诉你的实体使用此渲染控制器，我们将其添加到实体文件中，如下所示：
 
-<CodeHeader>RP/entity/ghost.ce.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json#description"
 ```
 
 至此，我们的实体文件应该如下所示。
 
-<CodeHeader>RP/entity/ghost.ce.json</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json"
 {
     "format_version": "1.10.0",
     "minecraft:client_entity": {
@@ -868,9 +830,7 @@ mentions:
 
 现在让我们添加我们的动画。与其他资源一样，我们需要为它们定义简短名称。请记住，我们还需要为我们的动画控制器定义简短名称。
 
-<CodeHeader>RP/entity/ghost.ce.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json#description"
 "animations": {
 	"walk_controller": "controller.animation.ghost.walk",
 	"attack_controller": "controller.animation.ghost.attack",
@@ -884,9 +844,7 @@ mentions:
 
 现在我们已经引用了动画和动画控制器，我们需要决定实体何时运行它们。这是通过 `scripts` 完成的：
 
-<CodeHeader>RP/entity/ghost.ce.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json#description"
 "scripts": {
 	"animate": [
 		"walk_controller",
@@ -903,9 +861,7 @@ mentions:
 
 完成实体客户端文件的最后一步是为我们的实体创建一个生成蛋。幸运的是，我们的文件可以通过 `spawn_egg` 键为我们生成一个。
 
-<CodeHeader>RP/entity/ghost.ce.json#description</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json#description"
 "spawn_egg": {
 	"overlay_color": "#bdd1d1",
 	"base_color": "#9fb3b3"
@@ -924,9 +880,7 @@ mentions:
 
 <Spoiler title="完整的 ghost.ce.json">
 
-<CodeHeader>RP/entity/ghost.ce.json</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json"
 {
     "format_version": "1.10.0",
     "minecraft:client_entity": {
@@ -967,9 +921,7 @@ mentions:
 
 最后的步骤是将实体的名称添加到语言文件中。你可能还注意到，如果你创建了生成蛋，它也会有一个名称的翻译键；我们也将添加此项。在 `en_US.lang` 中，确保为实体和实体生成蛋项添加名称。它们应类似于：
 
-<CodeHeader>RP/texts/en_US.lang</CodeHeader>
-
-```json
+```json title="RP/texts/en_US.lang"
 entity.wiki:ghost.name=Ghost
 item.spawn_egg.entity.wiki:ghost.name=Ghost
 ```
@@ -1003,9 +955,7 @@ item.spawn_egg.entity.wiki:ghost.name=Ghost
 
 <Spoiler title="完整的 ghost.se.json">
 
-<CodeHeader>BP/entities/ghost.se.json</CodeHeader>
-
-```json
+```json title="BP/entities/ghost.se.json"
 {
     "format_version": "1.16.0",
     "minecraft:entity": {
@@ -1100,9 +1050,7 @@ item.spawn_egg.entity.wiki:ghost.name=Ghost
 
 <Spoiler title="完整的 ghost.ce.json">
 
-<CodeHeader>RP/entity/ghost.ce.json</CodeHeader>
-
-```json
+```json title="RP/entity/ghost.ce.json"
 {
     "format_version": "1.10.0",
     "minecraft:client_entity": {
@@ -1141,9 +1089,7 @@ item.spawn_egg.entity.wiki:ghost.name=Ghost
 
 <Spoiler title="完整的 ghost.geo.json">
 
-<CodeHeader>RP/models/entity/ghost.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/entity/ghost.geo.json"
 {
     "format_version": "1.12.0",
     "minecraft:geometry": [
@@ -1216,9 +1162,7 @@ item.spawn_egg.entity.wiki:ghost.name=Ghost
 
 <Spoiler title="完整的 ghost.a.json">
 
-<CodeHeader>RP/animations/ghost.a.json</CodeHeader>
-
-```json
+```json title="RP/animations/ghost.a.json"
 {
     "format_version": "1.8.0",
     "animations": {
@@ -1336,9 +1280,7 @@ item.spawn_egg.entity.wiki:ghost.name=Ghost
 
 <Spoiler title="完整的 ghost.ac.json">
 
-<CodeHeader>RP/animation_controllers/ghost.ac.json</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/ghost.ac.json"
 {
     "format_version": "1.12.0",
     "animation_controllers": {
@@ -1393,9 +1335,7 @@ item.spawn_egg.entity.wiki:ghost.name=Ghost
 
 <Spoiler title="完整的 ghost.rc.json">
 
-<CodeHeader>RP/render_controllers/entity/ghost.rc.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/entity/ghost.rc.json"
 {
     "format_version": "1.10.0",
     "render_controllers": {

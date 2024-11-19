@@ -21,9 +21,7 @@ description: 对部分核心API机制的介绍。
 
 你需要在你的 `manifest.json` 中将脚本模块添加为依赖项。
 
-<CodeHeader>BP/manifest.json</CodeHeader>
-
-```json
+```json title="BP/manifest.json"
 {
     "dependencies": [
         {

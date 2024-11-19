@@ -17,9 +17,7 @@ mentions:
 
 ## 添加生物效果
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ entity }) {
     entity?.addEffect("regeneration", 30, {
         amplifier: 10,
@@ -34,9 +32,7 @@ onStepOn({ entity }) {
 import { EntityDamageCause } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ entity }) {
     entity?.applyDamage(2, {
         cause: EntityDamageCause.drowning
@@ -50,9 +46,7 @@ onStepOn({ entity }) {
 import { EquipmentSlot, GameMode } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onPlayerInteract({ player }) {
     // 获取主手槽
     if (!player) return;
@@ -98,9 +92,7 @@ onPlayerInteract({ player }) {
 import { EquipmentSlot, GameMode } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onPlayerInteract({ player }) {
     if (!player) return;
 
@@ -122,9 +114,7 @@ onPlayerInteract({ player }) {
 
 ## 死亡（区块）
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ block }) {
     block.setType("minecraft:air");
 }
@@ -132,9 +122,7 @@ onStepOn({ block }) {
 
 ## 死亡（实体）
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ entity }) {
     entity?.kill();
 }
@@ -142,9 +130,7 @@ onStepOn({ entity }) {
 
 ## 播放效果
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ dimension, block }) {
     dimension.spawnParticle("minecraft:campfire_smoke_particle", block.center());
 }
@@ -152,9 +138,7 @@ onStepOn({ dimension, block }) {
 
 ## 播放声音
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ dimension, block }) {
     dimension.playSound("dig.stone", block.center());
 }
@@ -162,9 +146,7 @@ onStepOn({ dimension, block }) {
 
 ## 移除生物效果
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ entity }) {
     entity?.removeEffect("regeneration");
 }
@@ -172,9 +154,7 @@ onStepOn({ entity }) {
 
 ## 执行命令
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ dimension }) {
     dimension.runCommand("say Hello there!");
     dimension.runCommand("say Welcome to my world!");
@@ -183,9 +163,7 @@ onStepOn({ dimension }) {
 
 ## 设置区块
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ block }) {
     block.setType("minecraft:grass_block");
 }
@@ -195,9 +173,7 @@ onStepOn({ block }) {
 import { BlockPermutation } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ block }) {
     block.setPermutation(BlockPermutation.resolve("minecraft:campfire", {
         "minecraft:cardinal_direction": "east",
@@ -208,9 +184,7 @@ onStepOn({ block }) {
 
 ## 在位置设置区块
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ dimension, block }) {
     const offset = { x: -1, y: 1, z: 5 };
 
@@ -228,9 +202,7 @@ onStepOn({ dimension, block }) {
 import { BlockPermutation } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ dimension, block }) {
     const offset = { x: -1, y: 1, z: 5 };
 
@@ -249,9 +221,7 @@ onStepOn({ dimension, block }) {
 
 ## 设置区块状态
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ block }) {
     block.setPermutation(
         block.permutation.withState("wiki:integer_example", 5)
@@ -263,9 +233,7 @@ onStepOn({ block }) {
 import { BlockPermutation } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ block }) {
     const states = {
         ...block.permutation.getAllStates(),
@@ -286,17 +254,13 @@ onStepOn({ block }) {
 import { ItemStack } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ dimension, block }) {
     dimension.spawnItem(new ItemStack("minecraft:stick", 3), block.center());
 }
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ dimension, block }) {
     const { x, y, z } = block.center();
 
@@ -306,9 +270,7 @@ onStepOn({ dimension, block }) {
 
 ## 传送
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onStepOn({ entity }) {
     entity?.teleport({ x: 100, y: 20, z: 786 });
 }
@@ -320,9 +282,7 @@ onStepOn({ entity }) {
 import { EquipmentSlot, ItemStack } from "@minecraft/server";
 ```
 
-<CodeHeader>自定义组件</CodeHeader>
-
-```js
+```js title="自定义组件"
 onPlayerInteract({ player }) {
     const equippable = player?.getComponent("minecraft:equippable");
     if (!equippable) return;

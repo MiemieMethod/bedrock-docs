@@ -17,9 +17,7 @@ description: 实体重生时运行命令。
 
 只需将以下动画控制器添加到 `player.json` 中，你就完成了！
 
-<CodeHeader>BP/animation_controllers/respawn.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/respawn.ac.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {

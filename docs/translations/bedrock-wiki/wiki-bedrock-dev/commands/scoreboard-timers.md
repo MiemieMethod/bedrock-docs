@@ -28,9 +28,7 @@ description: 使用计分板创建世界定时器或实体定时器。
 
 _在聊天中输入：_
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 /scoreboard objectives add ticks dummy
 /scoreboard objectives add events dummy
 ```
@@ -39,9 +37,7 @@ _在聊天中输入：_
 
 为此，你首先需要知道在 Minecraft 中 1 秒大约等于 20 个游戏刻。基于此知识，你需要进行一些基本计算，以获得你想要定义的每个间隔的等效刻数。
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 2h = 20(t) × 60(s) × 60(m) × 2(h) = 144000t
 /scoreboard players set 2h ticks 144000
 
@@ -56,9 +52,7 @@ _在聊天中输入：_
 
 ## 系统
 
-<CodeHeader>BP/functions/scoreboards/world_timer.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/world_timer.mcfunction"
 ## 世界定时器/时钟
 ### 增加 +1 刻
 scoreboard players add Timer ticks 1
@@ -135,9 +129,7 @@ _注意：这 4 个都是目标中的虚拟玩家名称。_
 
 要限制事件发生的次数，你需要创建一个新的目标 `intervals` 并定义该事件应发生的次数，如下所示。
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 /scoreboard objectives add intervals dummy
 /scoreboard players set ChatMessage intervals 5
 /scoreboard players set SpeedEffect intervals 10
@@ -145,9 +137,7 @@ _注意：这 4 个都是目标中的虚拟玩家名称。_
 
 完成后，修改你的系统，如下所示。
 
-<CodeHeader>BP/functions/scoreboards/world_timer.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/world_timer.mcfunction"
 ## 世界定时器/时钟
 ### 增加 +1 刻
 scoreboard players add Timer ticks 1
@@ -171,9 +161,7 @@ execute if score SpeedEffect events matches 0 if score SpeedEffect intervals mat
 
 要在事件的间隔之间持续运行命令，你可以使用如下所示的技术。
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 ## 速度效果（每 30 秒） + 粒子（每刻）
 scoreboard players operation SpeedEffect events %= 30s ticks
 execute if score SpeedEffect intervals matches 1.. as @a at @s run particle minecraft:shulker_bullet ~~~
@@ -198,9 +186,7 @@ execute if score SpeedEffect events matches 0 if score SpeedEffect intervals mat
 5. 如果附近有被动生物，则停止计时器。
 6. 如果附近有敌对生物，则循环计时器。
 
-<CodeHeader>BP/functions/scoreboards/entity_timer.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/entity_timer.mcfunction"
 ## 运行定时器
 scoreboard players add @e [name=station, scores={ticks=0..}] ticks 1
 

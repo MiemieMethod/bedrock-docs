@@ -7405,6 +7405,9 @@ nav:
             - '2. 解释附加包': translations/bedrock-wiki/wiki-bedrock-dev/guide/addons.md
             - '3. 软件与准备': translations/bedrock-wiki/wiki-bedrock-dev/guide/software-preparation.md
             - '4. 项目设置': translations/bedrock-wiki/wiki-bedrock-dev/guide/project-setup.md
+            - '5. 创建自定义物品': translations/bedrock-wiki/wiki-bedrock-dev/guide/custom-item.md
+          - 附录:
+            - 安卓项目设置: translations/bedrock-wiki/wiki-bedrock-dev/guide/project-setup-android.md
     - bridge.:
       - translations/bridge/index.md
       - <samp>bridge-core.github.io</samp>:

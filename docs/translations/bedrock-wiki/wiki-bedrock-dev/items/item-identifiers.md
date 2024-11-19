@@ -18,9 +18,7 @@ description: 原版物品标识符效果。
 
 `identifier`是一个必需的参数，位于物品行为文件的描述中。它接受原版Minecraft名称，如`<namespace>:<vanilla item>`，这将根据所使用的标识符应用某些硬编码的物品行为。
 
-<CodeHeader>BP/items/custom_item.json#minecraft:item</CodeHeader>
-
-```json
+```json title="BP/items/custom_item.json#minecraft:item"
 "description": {
     "identifier": "wiki:totem_of_undying",
     "category": "items"

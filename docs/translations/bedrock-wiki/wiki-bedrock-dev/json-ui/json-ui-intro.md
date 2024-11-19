@@ -65,9 +65,7 @@ JSON UI 可能包含以下文件：
 
 你可以创建新文件，例如我们将添加 `RP/ui/button.json` 和 `RP/my_ui/main_menu.json`。在文件中，我们会这样列出它们：
 
-<CodeHeader>RP/ui/_ui_defs.json</CodeHeader>
-
-```json
+```json title="RP/ui/_ui_defs.json"
 {
     "ui_defs": ["ui/button.json", "my_ui/main_menu.json"]
 }
@@ -82,9 +80,7 @@ JSON UI 可能包含以下文件：
 
 我们可以在 `_global_variables.json` 文件中这样标示一个变量 `"$info_text_color"` 及其值 `[0.8, 0.8, 0.8]`：
 
-<CodeHeader>RP/ui/_global_variables.json</CodeHeader>
-
-```json
+```json title="RP/ui/_global_variables.json"
 {
     "$info_text_color": [0.8, 0.8, 0.8]
 }
@@ -92,9 +88,7 @@ JSON UI 可能包含以下文件：
 
 不同 JSON UI 文件中的其他元素可以引用这个变量以便后续使用：
 
-<CodeHeader>vanilla/my_ui/file1.json</CodeHeader>
-
-```json
+```json title="vanilla/my_ui/file1.json"
 {
   "some_info": {
     ...
@@ -104,9 +98,7 @@ JSON UI 可能包含以下文件：
 }
 ```
 
-<CodeHeader>vanilla/my_ui/file2.json</CodeHeader>
-
-```json
+```json title="vanilla/my_ui/file2.json"
 {
   "info": {
     ...
@@ -125,9 +117,7 @@ JSON UI 可能包含以下文件：
 
 例如，我们在命名空间 `one` 中有一个元素 `foobar`：
 
-<CodeHeader>vanilla/ui/file_a.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/file_a.json"
 {
   "namespace": "one",
 
@@ -137,9 +127,7 @@ JSON UI 可能包含以下文件：
 
 然后我们可以在不同的命名空间 `two` 中引用相同的元素：
 
-<CodeHeader>vanilla/ui/file_b.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/file_b.json"
 {
   "namespace": "two",
 
@@ -165,9 +153,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 这里元素 `type` 是 `label`，所以调用时会渲染 `Hello World` 的文本：
 
-<CodeHeader>vanilla/ui/example_file.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/example_file.json"
 {
     "test_element": {
         "type": "label",
@@ -196,9 +182,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 动画元素可以在其他非动画元素类型（如 `label` 和 `panel`）中被引用。
 
-<CodeHeader>vanilla/ui/example_file.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/example_file.json"
 {
   "namespace": "example_nm",
 
@@ -269,9 +253,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 在每个字符串前面添加符号 `$` 以标示其为变量。变量可以存储整数、浮点数、布尔值、字符串和数组。
 
-<CodeHeader>vanilla/ui/example_file.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/example_file.json"
 {
   "test_element": {
     ...
@@ -298,9 +280,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 你也可以从另一个元素派生变量，如下所示：
 
-<CodeHeader>vanilla/ui/example_file.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/example_file.json"
 {
   "foobar": {
     ...
@@ -326,9 +306,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 `text` 属性的值是 `#hardtext`。通过使用 `bindings`，我可以获取硬编码变量 `#hardtext` 的值，因此 `text` 属性可以使用它。
 这里它直接将 `#hardtext` 的值赋给 `text` 属性。
 
-<CodeHeader>vanilla/ui/example_file.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/example_file.json"
 {
     "label": {
         "type": "label",
@@ -344,9 +322,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 或者，有时看起来如下所示：
 
-<CodeHeader>vanilla/ui/example_file.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/example_file.json"
 {
     "label": {
         "type": "label",
@@ -365,9 +341,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 这种情况在 `visible` 和 `enabled` 属性中经常发生。以下是两者的示例：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "send_button": {
         "bindings": [
@@ -397,9 +371,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 假设你想在选择/勾选特定切换时显示一个带有内容的面板。你需要不同类型的绑定结构。
 我们必须告诉源元素值将来自何处，告诉我们想要从源元素中获取哪个属性的值，以及我们想要覆盖其值的哪个属性。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
   "panel": {
     ...
@@ -429,9 +401,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 变量可用于有条件地渲染 UI 控件。回想一下，UI 变量是前面有 `$` 的属性。在 `hud_screen.json` 中携带引擎数据的一个变量示例是 `$actionbar_text`。查看 `hud_actionbar_text`，我们可以看到 `$actionbar_text` 用于显示动作栏文本。
 
-<CodeHeader>vanilla/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/hud_screen.json"
 {
 ...
   "hud_actionbar_text": {
@@ -461,9 +431,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 在使用携带 Bedrock 引擎数据的变量时，`visible` 属性用于有条件地渲染 UI 控件。考虑以下示例。创建了 `$actionbar_text` 变量的副本，以允许我们修改和对其进行比较（无法直接对硬编码变量执行此操作）。副本变量 `$atext` 然后用于添加的 `visible` 属性，其含义是“如果动作栏文本不等于 `hello world`，则使文本标签可见”。
 
-<CodeHeader>vanilla/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/hud_screen.json"
 {
 ...
   "hud_actionbar_text": {
@@ -496,9 +464,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 将上述 JSON 修改为资源包中使用的不显眼 UI 文件应与此相同：
 
-<CodeHeader>vanilla/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/hud_screen.json"
 {
     "hud_actionbar_text/actionbar_message": {
         "$atext": "$actionbar_text",
@@ -511,9 +477,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 以下是使用变量的条件渲染的一个更复杂示例。在这种情况下，必须使用动作栏工厂。工厂是元素生成器，有些具有特定名称，如 `hud_actionbar_text_factory`，它们具有硬编码的属性。每当运行动作栏命令时，此工厂会生成/重置其 `control_id` 内的元素，并传递一些有用的变量，如 `$actionbar_text`、`$tool_tip_text` 等，这些数据只能通过工厂访问。
 
-<CodeHeader>vanilla/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/hud_screen.json"
 {
     "black_conditional_image": {
         "type": "image",
@@ -554,9 +518,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 继上述使用动作栏的示例，你可能会逻辑上推断标题也使用变量。但事实并非如此。标题使用绑定来处理其数据，如下所示。
 
-<CodeHeader>vanilla/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/hud_screen.json"
 {
 ...
   "hud_title_text": {
@@ -623,9 +585,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 你需要向文本添加另一个绑定对象以控制其可见性。回想一下，`#visible` 包含通过绑定直接控制的可见性。以下示例不会渲染标题字符串 `hello world`，但会渲染所有其他字符串。尝试在游戏中输入 `/title @s title hello world` 以查看效果。
 
-<CodeHeader>vanilla/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="vanilla/ui/hud_screen.json"
 {
 ...
   "hud_title_text": {
@@ -697,9 +657,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 将上述 JSON 修改为资源包中使用的不显眼 UI 文件应与此相同：
 
-<CodeHeader>RP/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="RP/ui/hud_screen.json"
 {
     "hud_title_text/title_frame/title": {
         "modifications": [
@@ -719,9 +677,7 @@ JSON UI 元素是 JSON UI 中数据的基本形式。每个命名空间的元素
 
 与之前一样，以下是使用绑定的条件渲染的一个更复杂示例。在这种情况下，只有当标题文本字符串等于 `hello world` 时，16x16 的黑色图像才会渲染。虽然在这种情况下你不需要使用标题工厂，但如果你打算使用 UI 动画，应该使用它。
 
-<CodeHeader>RP/ui/hud_screen.json</CodeHeader>
-
-```json
+```json title="RP/ui/hud_screen.json"
 {
     "black_conditional_image": {
         "type": "image",

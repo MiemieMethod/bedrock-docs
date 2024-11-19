@@ -10,7 +10,7 @@ mentions:
 
 ## 自动块物品
 
-当你手中握着一个块时，实际上你握着的是一个放置该块的物品。当一个自定义块被注册到游戏中时，Minecraft也会自动注册一个新的物品来代表该块在库存中的显示。
+当你手中握着一个块时，实际上你握着的是一个放置该块的物品。当一个自定义块被注册到游戏中时，Minecraft也会自动注册一个新的物品来代表该块在物品栏中的显示。
 
 该物品使用块定义的菜单类别和显示名称，但自动块物品的其他组件无法被修改。
 为了应用其他组件，例如为你的块提供一个2D图标，你需要用自己的物品替换块的物品。
@@ -30,9 +30,7 @@ mentions:
 
 一个需要替换块物品的情况示例是花块，它们应该以物品形式显示为图标，而不是3D形式。
 
-<CodeHeader>BP/blocks/daffodil.json</CodeHeader>
-
-```json
+```json title="BP/blocks/daffodil.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -52,9 +50,7 @@ mentions:
 }
 ```
 
-<CodeHeader>BP/items/daffodil.json</CodeHeader>
-
-```json
+```json title="BP/items/daffodil.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {

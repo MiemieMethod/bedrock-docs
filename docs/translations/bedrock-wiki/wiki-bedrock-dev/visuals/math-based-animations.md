@@ -18,9 +18,7 @@ description: 使用数学创建流畅而惊艳的动画。
 
 数学动画是关键帧动画的强大替代方案。一般来说，“基于数学的动画”是使用Molang表达式来动画化实体几何体的概念。所有原版动画都是基于数学的，以下是一个示例：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "leftarm" : {
     "rotation" : [ "((-0.2 + 1.5 * (math.abs(math.mod(q.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * q.modified_move_speed) * 57.3 - v.agent.armxrotationfactor", 0.0, "-v.agent.armzrotation" ]
 },
@@ -70,9 +68,7 @@ Blockbench在一定程度上允许创建和实时预览大多数基于数学的�
 
 以下是基于数学动画的具体应用示例。该示例利用了Molang查询`"q.modified_distance_moved"`：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.12.0",
 	"animations": {

@@ -55,9 +55,7 @@ hidden: true
 
 <Spoiler title="自定义流体方块 JSON">
 
-<CodeHeader>BP/blocks/custom_fluid.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_fluid.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -253,9 +251,7 @@ hidden: true
 
 <Spoiler title="自定义桶物品 JSON">
 
-<CodeHeader>BP/items/custom_fluid_bucket.json</CodeHeader>
-
-```json
+```json title="BP/items/custom_fluid_bucket.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -284,9 +280,7 @@ hidden: true
 
 这些流体使用脚本来增加玩家在流体中漂浮/下沉的能力。脚本还增加了雾效。要将你的流体添加到脚本中，请将新流体的 ID 放入 `fluids` 字符串数组中。
 
-<CodeHeader>BP/manifest.json</CodeHeader>
-
-```json
+```json title="BP/manifest.json"
 {
   "modules": [
     ...
@@ -309,9 +303,7 @@ hidden: true
 
 <Spoiler title="流体移动与雾效脚本">
 
-<CodeHeader>BP/scripts/fluids.js</CodeHeader>
-
-```javascript
+```javascript title="BP/scripts/fluids.js"
 import { system, world } from "@minecraft/server";
 
 const fluids = ["wiki:custom_fluid"];

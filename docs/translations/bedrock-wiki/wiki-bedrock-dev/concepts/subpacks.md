@@ -50,9 +50,7 @@ description: 附加包允许你在不同的附加包“配置”之间进行选�
 
 示例：
 
-<CodeHeader>RP/manifest.json</CodeHeader>
-
-```json
+```json title="RP/manifest.json"
 {
 	"format_version": 2,
 	"header": {

@@ -29,9 +29,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 让我们从一些基本组件开始，这些组件需要添加到你的实体中。
 
-<CodeHeader>BP/entities/sleeping_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/sleeping_entity.json#components"
 "minecraft:dweller": {
     "dwelling_type": "village",
     "dweller_role": "inhabitant",
@@ -41,9 +39,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 未记录，实体能够入睡所需。
 
-<CodeHeader>BP/entities/sleeping_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/sleeping_entity.json#components"
 "minecraft:environment_sensor": {
     "triggers": [
         {
@@ -68,9 +64,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 现在你需要为你的实体添加一些组件组。
 
-<CodeHeader>BP/entities/sleeping_entity.json#component_groups</CodeHeader>
-
-```json
+```json title="BP/entities/sleeping_entity.json#component_groups"
 "sleeping": {
     "minecraft:behavior.sleep": {
         "priority": 0,
@@ -136,9 +130,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 这使得玩家能够在不伤害实体的情况下将其唤醒。
 
-<CodeHeader>BP/entities/sleeping_entity.json#component_groups</CodeHeader>
-
-```json
+```json title="BP/entities/sleeping_entity.json#component_groups"
 "sleep_timer": {
     "minecraft:timer": {
         "time": 15,
@@ -156,9 +148,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 在这里你将找到所有需要的事件。
 我认为不需要解释。
 
-<CodeHeader>BP/entities/sleeping_entity.json#events</CodeHeader>
-
-```json
+```json title="BP/entities/sleeping_entity.json#events"
 "sleep": {
     "add": {
         "component_groups": [
@@ -207,9 +197,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 只需复制/粘贴即可。
 
-<CodeHeader>RP/animations/sleeping_entity.animation.json</CodeHeader>
-
-```json
+```json title="RP/animations/sleeping_entity.animation.json"
 {
 	"format_version": "1.8.0",
 	"animations": {
@@ -234,9 +222,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 如果需要，再次复制/粘贴即可。
 
-<CodeHeader>RP/animations_controllers/ac.sleeping_entity.sleep.json</CodeHeader>
-
-```json
+```json title="RP/animations_controllers/ac.sleeping_entity.sleep.json"
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -290,9 +276,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 对于此行为，你只需要一个组件：
 
-<CodeHeader>BP/entities/sleeping_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/sleeping_entity.json#components"
 "minecraft:behavior.nap": {
     "priority": 8,
     "cooldown_min": 2.0,
@@ -354,9 +338,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 如果你还想使用信任机制，请添加：
 
-<CodeHeader>BP/entities/sleeping_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/sleeping_entity.json#components"
 "minecraft:trust": {}
 ```
 
@@ -364,9 +346,7 @@ description: 本教程将解释如何让实体进入睡眠状态。
 
 在我们的资源包中，当实体开始睡觉时，你可以运行一个动画。
 
-<CodeHeader>RP/animations_controllers/ac.sleeping_entity.sleep.json</CodeHeader>
-
-```json
+```json title="RP/animations_controllers/ac.sleeping_entity.sleep.json"
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {

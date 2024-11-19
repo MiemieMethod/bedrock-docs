@@ -21,9 +21,7 @@ mentions:
 
 NPC对话数据存储在对话文件中，这些文件位于行为包根目录下的`dialogue`文件夹中。以下是一个基本的NPC对话文件：
 
-<CodeHeader>dialogue/example.diag.json</CodeHeader>
-
-```json
+```json title="dialogue/example.diag.json"
 {
     "format_version": "1.17",
     "minecraft:npc_dialogue": {
@@ -56,9 +54,7 @@ NPC的显示名称。可选，如果未指定，将使用NPC实体的名称，�
 
 在对话打开时运行的命令字符串数组。可选。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "on_open_commands": [
   "/say Hello"
 ]
@@ -68,9 +64,7 @@ NPC的显示名称。可选，如果未指定，将使用NPC实体的名称，�
 
 在对话关闭时运行的命令字符串数组。可选。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "on_close_commands": [
   "/say Goodbye"
 ]
@@ -80,9 +74,7 @@ NPC的显示名称。可选，如果未指定，将使用NPC实体的名称，�
 
 指定在对话中显示的按钮的对象数组。可选。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "buttons": [
     {
         "name": "按钮一",
@@ -104,9 +96,7 @@ NPC的显示名称。可选，如果未指定，将使用NPC实体的名称，�
 
 在`on_open_commands`、`on_close_commands`和每个按钮对象的`commands`属性中，可以使用普通选择器，例如`@p`来选择最近的玩家。然而，这些选择器是相对于NPC实体运行的，因此在多人游戏中可能会造成困惑。为了解决这个问题，有一个特殊选择器`@initiator`，它始终选择打开对话的玩家。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "buttons": [
     {
         "name": "请施加漂浮效果",
@@ -123,9 +113,7 @@ NPC的显示名称。可选，如果未指定，将使用NPC实体的名称，�
 
 所有将显示给用户的对话属性也可以被翻译：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "npc_name": {
     "rawtext": [
         {
@@ -173,9 +161,7 @@ NPC的显示名称。可选，如果未指定，将使用NPC实体的名称，�
 
 即使NPC永远不可见，`/dialogue`命令始终需要一个NPC实体。为此，你需要生成NPC并将其放入一个计时区域，以便从任何地方都可以访问：
 
-<CodeHeader>functions/setup.mcfunction</CodeHeader>
-
-```
+``` title="functions/setup.mcfunction"
 tickingarea add 0 1 0 0 2 0
 summon npc "§r" 0 1 0
 ```
@@ -205,9 +191,7 @@ summon npc "§r" 0 1 0
 
 为避免这种情况，可以将`minecraft:interaction`添加到实体中，这将替代NPC交互。NPC的功能仍然有效，但如果玩家点击另一个玩家，则不会弹出NPC。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:interact": {
     "interactions": [
         {
@@ -231,9 +215,7 @@ summon npc "§r" 0 1 0
 
 此对话文件包含两个对话，每个对话都有两个传送按钮和一个切换按钮。
 
-<CodeHeader>dialogue/example.diag.json</CodeHeader>
-
-```json
+```json title="dialogue/example.diag.json"
 {
     "format_version": "1.17",
     "minecraft:npc_dialogue": {
@@ -291,9 +273,7 @@ summon npc "§r" 0 1 0
 
 #### 物品JSON
 
-<CodeHeader>BP/items/teleport_menu.json</CodeHeader>
-
-```json
+```json title="BP/items/teleport_menu.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -317,9 +297,7 @@ summon npc "§r" 0 1 0
 
 #### 自定义组件脚本
 
-<CodeHeader>BP/scripts/teleportMenu.js</CodeHeader>
-
-```js
+```js title="BP/scripts/teleportMenu.js"
 import { world } from "@minecraft/server";
 
 const TeleportMenuItemComponent = {

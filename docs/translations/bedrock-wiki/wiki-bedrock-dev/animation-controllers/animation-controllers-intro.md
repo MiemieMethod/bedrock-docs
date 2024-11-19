@@ -72,9 +72,7 @@ description: 动画控制器的介绍。
 
 以下是一个示例`description`，展示了如何在`animations`中首先定义AC，然后在`scripts/animate`中播放。
 
-<CodeHeader>RP/entity/helicopter.ce.json 或 BP/entities/helicopter.se.json</CodeHeader>
-
-```json
+```json title="RP/entity/helicopter.ce.json 或 BP/entities/helicopter.se.json"
 "description": {
 	"identifier": "wiki:helicopter",
 	"animations": {
@@ -90,9 +88,7 @@ description: 动画控制器的介绍。
 
 如果你想有条件地播放动画控制器，可以提供一个可选的molang参数。如果该参数评估为真，则控制器将播放：
 
-<CodeHeader>RP/entity/helicopter.ce.json 或 BP/entities/helicopter.se.json</CodeHeader>
-
-```json
+```json title="RP/entity/helicopter.ce.json 或 BP/entities/helicopter.se.json"
 "scripts": {
 	"animate": [
 		{
@@ -117,9 +113,7 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 ### 简单示例
 
-<CodeHeader>RP/animation_controllers/helicopter.ac.json</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/helicopter.ac.json"
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -159,9 +153,7 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 你可以注意到`"initial_state": "ground"`意味着我们的动画控制器将从`ground`状态开始。
 
-<CodeHeader>RP/animation_controllers/helicopter.ac.json#animation_controllers/controller.animation.helicopter.blade/states</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/helicopter.ac.json#animation_controllers/controller.animation.helicopter.blade/states"
 "ground": {
     "transitions": [
         {
@@ -173,9 +165,7 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 `ground`状态包含一个_转移_列表，这就是我们如何转移到其他状态。在这个例子中，默认状态表示：_当`q.is_on_ground`为假时，转移到`flying`状态_。换句话说——当我们飞到空中时，开始飞行动画！
 
-<CodeHeader>RP/animation_controllers/helicopter.ac.json#animation_controllers/controller.animation.helicopter.blade/states</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/helicopter.ac.json#animation_controllers/controller.animation.helicopter.blade/states"
 "flying": {
     "animations": [
         "flying"
@@ -199,9 +189,7 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 - 具有多个转移的状态
 - 没有转移的状态
 
-<CodeHeader>RP/animation_controllers/helicopter.ac.json</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/helicopter.ac.json"
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -242,9 +230,7 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 资源包动画控制器也可以运行声音和粒子。在AC中调用声音或粒子之前，你需要在客户端实体文件中定义它们。
 
-<CodeHeader>RP/entities/custom_tnt.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entities/custom_tnt.json#minecraft:client_entity/description"
 "sound_effects": {
     "explosion": "wiki.custom_tnt.explosion" // 其中wiki.custom_tnt.explosion是像动画声音一样在sound_definitions中定义的声音。
 },
@@ -255,9 +241,7 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 然后你才能在AC中调用它们：
 
-<CodeHeader>RP/animation_controllers/custom_tnt.animation_controllers.json#controller.animation.custom_tnt</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/custom_tnt.animation_controllers.json#controller.animation.custom_tnt"
 "states":{
     "default":{
         "transitions":[
@@ -305,9 +289,7 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 以下是一个BP动画控制器的示例，展示了一些这种行为：
 
-<CodeHeader>BP/animation_controllers/helicopter.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/helicopter.ac.json"
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {

@@ -52,9 +52,7 @@ _在聊天中输入：_
 
 ## 系统
 
-<CodeHeader>BP/functions/mbe/render.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/mbe/render.mcfunction"
 ## 对齐手臂
 playanimation @e [type=armor_stand, name=Grumm] animation.armor_stand.entertain_pose null 0 "0" wiki:align.arms
 
@@ -98,9 +96,7 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 
 <Spoiler title="完整区块">
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 面朝北
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.2260 ~-0.097 81
 
@@ -118,9 +114,7 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 
 <Spoiler title="微型区块">
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 面朝北
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-0.417~-0.5 ~-0.035 81
 
@@ -138,9 +132,7 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 
 <Spoiler title="楼梯">
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 面朝北
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 350
 
@@ -158,9 +150,7 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 
 <Spoiler title="底部半砖">
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 面朝北
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-0.097 ~0.2325 ~1.1245 350
 
@@ -178,9 +168,7 @@ effect @e [type=armor_stand, name=Grumm] invisibility 999999 1 true
 
 <Spoiler title="顶部半砖">
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 面朝北
 /tp @e [type=armor_stand, name=Grumm, c=1] ~-1.1245 ~0.484 ~-0.097 81
 

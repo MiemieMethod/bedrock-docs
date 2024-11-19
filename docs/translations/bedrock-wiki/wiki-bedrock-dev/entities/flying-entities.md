@@ -25,9 +25,7 @@ description: 学习如何为你的实体创建飞行行为。
 
 要实现这一点，我们需要为实体添加 `"minecraft:horse.jump_strength"` 组件。添加此组件后，你可以控制其跳跃力量，并在玩家按下跳跃按钮时禁用下马。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:horse.jump_strength": {
     "value": 7
 }
@@ -35,9 +33,7 @@ description: 学习如何为你的实体创建飞行行为。
 
 我们还可以将 `"value"` 作为对象来利用玩家按住跳跃按钮时看到的 **范围条**。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:horse.jump_strength": {
     "value": { "range_min": 0.6, "range_max": 1.2 }
 }
@@ -47,9 +43,7 @@ description: 学习如何为你的实体创建飞行行为。
 
 （你可以在 [这里](../animation-controllers/entity-commands.md) 阅读关于如何使用动画控制器执行命令的教程。）
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.dragon.flying":{
     "states":{
         "default":{
@@ -79,9 +73,7 @@ description: 学习如何为你的实体创建飞行行为。
 
 我们还需要将其连接到我们的实体，如下所示：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "description":{
     "identifier":"wiki:dragon",
     "is_spawnable":true,
@@ -108,9 +100,7 @@ description: 学习如何为你的实体创建飞行行为。
 
 有多种方法可以实现这一点，但在本教程中，我们将使用目标选择器 `rym`（最小 y 旋转）和 `ry`（最大 y 旋转）在一系列重复的命令方块中检测玩家的俯仰，并根据范围给予我们的实体漂浮或缓慢下落。
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 execute as @a[rxm=-90,rx=-25] run effect @e[type=wiki:dragon,r=1] levitation 1 6 true
 execute as @a[rxm=-25,rx=-15] run effect @e[type=wiki:dragon,r=1] levitation 1 3 true
 execute as @a[rxm=-15,rx=-5] run effect @e[type=wiki:dragon,r=1] levitation 1 2 true
@@ -125,9 +115,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1] clear
 
 建议将此动画控制器链接到玩家。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -162,9 +150,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1] clear
 
 当飞行时，实体可能仍然太慢，因此我们将借用第一种方法的动画控制器，并进行一些更改，以在飞行时给予实体速度。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.dragon.flying":{
     "states":{
         "default":{
@@ -218,9 +204,7 @@ _由于在飞行时可能会清除实体的效果，我们更改了动画控制�
 
 你可能还会注意到，当你靠近实体时，它会漂浮。我们可以通过在骑乘时给予实体一个标签（在不骑乘时移除它），并仅在实体拥有该标签时应用这些效果，来修复此问题。我们可以创建并动画化另一个动画控制器，并更新我们的命令。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.dragon.test_rider":{
     "states":{
         "default":{
@@ -247,9 +231,7 @@ _由于在飞行时可能会清除实体的效果，我们更改了动画控制�
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 execute as @a[rxm=-90,rx=-25] run effect @e[type=wiki:dragon,r=1,tag=has_rider] levitation 1 6 true
 execute as @a[rxm=-25,rx=-15] run effect @e[type=wiki:dragon,r=1,tag=has_rider] levitation 1 3 true
 execute as @a[rxm=-15,rx=-5] run effect @e[type=wiki:dragon,r=1,tag=has_rider] levitation 1 2 true
@@ -266,9 +248,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1,tag=has_rider] cl
 
 首先，在实体上禁用下马和跳跃：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:horse.jump_strength": {
     "value": 0
 },
@@ -277,9 +257,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1,tag=has_rider] cl
 
 接下来，我们需要一个动画控制器，当玩家使用跳跃按钮时使实体漂浮，并在他们释放跳跃按钮时重置漂浮。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.fly_dragon":{
     "initial_state":"falling",
     "states":{
@@ -309,9 +287,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1,tag=has_rider] cl
 
 现在，我们需要玩家行为文件的副本，我们将稍作修改。你可以在 Mojang 提供的原版行为包中找到玩家的行为文件（可以在 [这里](https://aka.ms/behaviorpacktemplate) 找到）。将玩家的行为文件复制到你自己的行为包后，找到他们的 `"description"` 对象并添加动画控制器。我们还希望确保实体仅在玩家骑乘时对玩家的跳跃输入做出响应，因此我们可以在玩家的行为中使用 Molang 查询，仅在玩家骑乘时激活动画控制器。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "description":{
     "identifier":"minecraft:player",
     "is_spawnable":false,
@@ -331,9 +307,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1,tag=has_rider] cl
 
 现在，实体可以通过跳跃键进行控制，但存在一个错误。如果玩家在按住跳跃键时下马，实体将继续上升。我们可以通过在实体本身上添加一个动画控制器来修复此问题，该控制器在玩家下马时重置漂浮。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "controller.animation.reset_levitation":{
     "initial_state":"no_rider",
     "states":{
@@ -362,9 +336,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1,tag=has_rider] cl
 
 第四种方法允许我们调整下落速度、移动速度，并在玩家跳跃时生效。重要的是要添加马的跳跃功能，以便当玩家跳跃时，他们不会从实体上掉下来，同时也很重要的是添加表示可以飞行的家族类型，因为我们在脚本中处理这个。
 
-<CodeHeader>minecraft:entity</CodeHeader>
-
-```json
+```json title="minecraft:entity"
 "components": {
     "minecraft:behavior.player_ride_tamed": {},
     "minecraft:input_ground_controlled": {},
@@ -396,9 +368,7 @@ execute as @a[rxm=35,rx=90] run effect @e[type=wiki:dragon,r=1,tag=has_rider] cl
 
 在用之前的配置调整实体后，我们将添加脚本以赋予其功能。
 
-<CodeHeader>BP/scripts/utils.js</CodeHeader>
-
-```js
+```js title="BP/scripts/utils.js"
 import { Entity } from "@minecraft/server";
 class Utils {
     /**
@@ -437,9 +407,7 @@ export default Utils;
 utils.js 文件创建了一个函数，使实体能够飞行。
 现在我们需要将其应用于我们的实体，以使其生效。
 
-<CodeHeader>BP/scripts/index.js</CodeHeader>
-
-```js
+```js title="BP/scripts/index.js"
 import { system, world } from "@minecraft/server";
 import Utils from "./utils";
 

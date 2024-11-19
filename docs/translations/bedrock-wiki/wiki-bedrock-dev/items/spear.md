@@ -47,9 +47,7 @@ description: 制作自定义长矛。
 
 显然，你需要一个物品来制作长矛，但我们不使用一些“基本”行为。让我们获取一个物品文件，并添加以下组件。我们从主要组件开始：
 
-<CodeHeader>BP/items/spear.json</CodeHeader>
-
-```json
+```json title="BP/items/spear.json"
 {
     //使用持续时间是我们可以使用物品的最大时间。
     "minecraft:use_duration": 3600,
@@ -77,9 +75,7 @@ description: 制作自定义长矛。
 
 <Spoiler title="投射物">
 
-<CodeHeader>BP/entities/spear.json</CodeHeader>
-
-```json
+```json title="BP/entities/spear.json"
 {
     "format_version": "1.12.0",
     "minecraft:entity": {
@@ -157,9 +153,7 @@ description: 制作自定义长矛。
 </Spoiler>
 这里是我们的简单投射物实体。我们缺少一个部分，使其成为有用的投射物。我们的玩家无法从地面上捡起它。为了做到这一点，我们需要事件和实体传感器：
 
-<CodeHeader>BP/entities/spear.json</CodeHeader>
-
-```json
+```json title="BP/entities/spear.json"
 {
     "components": {
         //实体传感器检测投射物是否在地面上，以及玩家是否靠近该实体。
@@ -220,9 +214,7 @@ description: 制作自定义长矛。
 
 <Spoiler title="客户端实体">
 
-<CodeHeader>RP/entities/spear.json</CodeHeader>
-
-```json
+```json title="RP/entities/spear.json"
 {
     "format_version": "1.10.0",
     "minecraft:client_entity": {
@@ -263,9 +255,7 @@ description: 制作自定义长矛。
 
 我们为投射物使用的动画不是普通的实体动画。这个动画使用 [molang](https://bedrock.dev/docs/stable/Molang) 来定义旋转。
 
-<CodeHeader>BP/animations/spear.json</CodeHeader>
-
-```json
+```json title="BP/animations/spear.json"
 {
     "format_version": "1.8.0",
     "animations": {
@@ -286,9 +276,7 @@ description: 制作自定义长矛。
 
 我们将使用三叉戟附加物，因为它已经包含了物品位置和使用动画。它应该看起来像这样：
 
-<CodeHeader>BP/attachables/spear.json</CodeHeader>
-
-```json
+```json title="BP/attachables/spear.json"
 {
     "format_version": "1.10.0",
     "minecraft:attachable": {
@@ -343,7 +331,7 @@ system.beforeEvents.watchdogTerminate.subscribe((data) => {
 world.afterEvents.itemReleaseUse.subscribe((ev) => {
     //这是为了支持多人游戏
     for (const player of world.getPlayers()) {
-        //获取玩家库存和持有物品的基本变量。
+        //获取玩家物品栏和持有物品的基本变量。
         let inv = player.getComponent("inventory").container;
         //我们的itemStack用于保存物品。这也保存了物品数据。
         const itemStack = inv.getItem(player.selectedSlot);

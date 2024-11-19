@@ -452,18 +452,14 @@ https://bedrock.dev
 记得格式化 JSON。你可以使用 [这个](https://jsonformatter.curiousconcept.com) 工具。
 
 ````json
-<CodeHeader>BP/blocks/example.json</CodeHeader>
-
-```json
+```json title="BP/blocks/example.json"
 {
     "some": "json"
 }
 ```
 ````
 
-<CodeHeader>BP/blocks/example.json</CodeHeader>
-
-```json
+```json title="BP/blocks/example.json"
 {
     "some": "json"
 }
@@ -602,9 +598,7 @@ WikiImage 是在文章中添加图片的替代方法，提供比常规 Markdown 
 -   一
 -   二
 
-<CodeHeader>BP/blocks/example.json</CodeHeader>
-
-```json
+```json title="BP/blocks/example.json"
 {
     "some": "json"
 }
@@ -673,9 +667,7 @@ WikiImage 是在文章中添加图片的替代方法，提供比常规 Markdown 
 在 JSON 内部的注释中描述最重要的内容，可以在代码之后描述其他组件。同时，遵循我们的注释风格。
 示例：
 
-<CodeHeader>BP/items/copper_coin.json</CodeHeader>
-
-```json
+```json title="BP/items/copper_coin.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {

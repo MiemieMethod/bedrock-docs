@@ -39,9 +39,7 @@ description: 添加自定义声音而不覆盖任何原版声音。
 
 `sound_definitions.json`是我们定义新声音短名称的地方。这应该被视为将`short-name`或`id`输入到物理声音路径。以下是一个示例`sound_definitions.json`，添加了一个名为`example.toot`的新小号声音：
 
-<CodeHeader>RP/sounds/sound_definitions.json</CodeHeader>
-
-```json
+```json title="RP/sounds/sound_definitions.json"
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -112,9 +110,7 @@ description: 添加自定义声音而不覆盖任何原版声音。
 
 在上面的示例中，我将`sounds`简单地显示为一个包含单一路径的列表。这适用于简单的声音，但功能不强。首先，我可以向列表中添加多个声音。这些声音在播放时将随机化：
 
-<CodeHeader>RP/sounds/sound_definitions.json</CodeHeader>
-
-```json
+```json title="RP/sounds/sound_definitions.json"
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
@@ -169,9 +165,7 @@ description: 添加自定义声音而不覆盖任何原版声音。
 
 以下是一个包含这些选项的更现实的示例：
 
-<CodeHeader>RP/sounds/sound_definitions.json#sound_definitions</CodeHeader>
-
-```json
+```json title="RP/sounds/sound_definitions.json#sound_definitions"
 "block.beehive.drip": {
     "category": "block",
     "max_distance": 8,
@@ -243,9 +237,7 @@ description: 添加自定义声音而不覆盖任何原版声音。
 
 ### 示例
 
-<CodeHeader>RP/sounds.json</CodeHeader>
-
-```json
+```json title="RP/sounds.json"
 {
 	"entity_sounds": {
 		"entities": {
@@ -276,17 +268,13 @@ description: 添加自定义声音而不覆盖任何原版声音。
 
 以下示例显示了播放与动画同步的翅膀拍打声音。
 
-<CodeHeader>RP/entities/dragon.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entities/dragon.json#minecraft:client_entity/description"
 "sound_effects": {
     "wing_flap": "wiki.dragon.wing_flap" //其中wiki.dragon.roar是sound_definitions中定义的声音
 }
 ```
 
-<CodeHeader>RP/animations/dragon.json#animations/animation.dragon.flying</CodeHeader>
-
-```json
+```json title="RP/animations/dragon.json#animations/animation.dragon.flying"
 "sound_effects": {
     "3.16": {
         "effect": "wing_flap"
@@ -300,17 +288,13 @@ description: 添加自定义声音而不覆盖任何原版声音。
 
 以下示例显示了播放与动画控制器同步的爆炸声音。
 
-<CodeHeader>RP/entities/custom_tnt.json#minecraft:client_entity/description</CodeHeader>
-
-```json
+```json title="RP/entities/custom_tnt.json#minecraft:client_entity/description"
 "sound_effects": {
     "explosion": "wiki.custom_tnt.explosion" //其中wiki.custom_tnt.explosion是sound_definitions中定义的声音，就像动画声音一样。
 }
 ```
 
-<CodeHeader>RP/animation_controllers/custom_tnt.animation_controllers.json#controller.animation.custom_tnt</CodeHeader>
-
-```json
+```json title="RP/animation_controllers/custom_tnt.animation_controllers.json#controller.animation.custom_tnt"
 "states":{
     "default":{
         "transitions":[

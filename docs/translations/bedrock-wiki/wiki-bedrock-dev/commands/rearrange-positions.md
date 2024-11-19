@@ -65,9 +65,7 @@ description: 随机重新定位所有选定目标，确保没有目标保持在�
 
 需要一个ID系统来索引所有目标的位置，从1到N，以便我们跟踪每个目标的原始位置。我们将在 `tick.json` 中运行此文件以自动分配ID。
 
-<CodeHeader>BP/functions/scoreboards/player/id.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/player/id.mcfunction"
 ## 注册新玩家到 ID 目标
 scoreboard players add @a id 0
 
@@ -84,9 +82,7 @@ scoreboard players operation @r [scores={id=0}] id = Total id
 
 - `/function events/player/derange_position/initiate`
 
-<CodeHeader>BP/functions/events/player/derange_position/initiate.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/derange_position/initiate.mcfunction"
 ## 召唤位置标记
 execute at @a run summon armor_stand "位置标记" ~~~
 
@@ -113,9 +109,7 @@ tag @a remove posAllocated
 
 实际的随机错排过程将由以下函数执行：
 
-<CodeHeader>BP/functions/events/player/derange_position/process.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/derange_position/process.mcfunction"
 ## 移动到不同位置
 execute as @a [tag=!posAllocated] at @s run function events/player/derange_position/teleport
 
@@ -145,9 +139,7 @@ execute if score NonAllocatedPlayers count matches 2.. run function events/playe
 
 直接使用此命令进行传送到新位置仅在当前维度内有效。因此，我们使用以下三个命令的函数以实现跨维度兼容性：
 
-<CodeHeader>BP/functions/events/player/derange_position/teleport.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/player/derange_position/teleport.mcfunction"
 tag @e [type=armor_stand, name="位置标记", r=0.01, c=1] add ignoredPos
 tp @s @r [type=armor_stand, name="位置标记", tag=!ignoredPos]
 tag @e remove ignoredPos
@@ -157,9 +149,7 @@ tag @e remove ignoredPos
 
 现在，为了使我们的函数实际工作，我们需要在我们的世界中添加以下目标：
 
-<CodeHeader>BP/functions/scoreboards/objective/add_all.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/objective/add_all.mcfunction"
 scoreboard objectives add id dummy
 scoreboard objectives add count dummy
 ```
@@ -168,9 +158,7 @@ scoreboard objectives add count dummy
 
 如果你希望在加载世界时自动添加目标，可以创建以下函数文件：
 
-<CodeHeader>BP/functions/events/world/on_initialise.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/events/world/on_initialise.mcfunction"
 ## 初始化
 ### 添加目标
 scoreboard objectives add world dummy
@@ -188,9 +176,7 @@ scoreboard players set Initialised world 1
 
 最后，创建你的 `tick.json` 文件：
 
-<CodeHeader>BP/functions/tick.json</CodeHeader>
-
-```json
+```json title="BP/functions/tick.json"
 {
   "values": [
     "events/world/on_initialise",

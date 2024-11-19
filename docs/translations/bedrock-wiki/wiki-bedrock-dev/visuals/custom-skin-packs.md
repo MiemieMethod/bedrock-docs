@@ -30,9 +30,7 @@ description: 创建你自己的皮肤包。
 
 ## manifest.json
 
-<CodeHeader>skin_packs/tutorial_skin_pack/manifest.json</CodeHeader>
-
-```json
+```json title="skin_packs/tutorial_skin_pack/manifest.json"
 {
     "format_version": 2,
     "header": {
@@ -59,9 +57,7 @@ description: 创建你自己的皮肤包。
 
 此文件用于定义皮肤的纹理和短名称。然而，大多数选项是硬编码或不可更改的。
 
-<CodeHeader>skin_packs/tutorial_skin_pack/skins.json</CodeHeader>
-
-```json
+```json title="skin_packs/tutorial_skin_pack/skins.json"
 {
     "geometry": "geometry.json",
     "serialize_name": "教程皮肤包",
@@ -96,9 +92,7 @@ description: 创建你自己的皮肤包。
 
 最后，我们将在`.lang`文件中定义皮肤包和每个皮肤的名称。当然，“en_US”可以替换为任何语言。
 
-<CodeHeader>skin_packs/tutorial_skin_pack/texts/en_US.lang</CodeHeader>
-
-```
+``` title="skin_packs/tutorial_skin_pack/texts/en_US.lang"
 skinpack.tutorial=教程皮肤包
 
 skin.tutorial.tutorial_skin_1=皮肤 1

@@ -39,9 +39,7 @@ description: MCBE的着色器。
 
 示例：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"materials": {
 		"version": "1.0.0",
@@ -94,9 +92,7 @@ description: MCBE的着色器。
 
 `TIME`变量是以`float`表示的秒数，并且对所有着色器都是全局的。对于基于粒子生命周期的时间，你需要传递以下内容：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:particle_appearance_tinting": {
     "color": ["variable.particle_age/variable.particle_lifetime", 0, 0, 1]
 }
@@ -110,17 +106,13 @@ description: MCBE的着色器。
 
 - 在顶点和片段着色器的`PS_Input`中添加新字段
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 float3 viewDir: POSITION;
 ```
 
 - 然后，在顶点着色器中添加这一行
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 PSInput.viewDir = normalize((mul(WORLD, mul(BONES[VSInput.boneId], float4(VSInput.position, 1)))).xyz);
 ```
 
@@ -130,9 +122,7 @@ PSInput.viewDir = normalize((mul(WORLD, mul(BONES[VSInput.boneId], float4(VSInpu
 
 调试值的最简单方法是将其转换为颜色并像这样渲染。
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 PSOutput.color = float4(PSInput.uv, 0., 1.);
 ```
 
@@ -140,9 +130,7 @@ PSOutput.color = float4(PSInput.uv, 0., 1.);
 
 你可以使用我编写的调试着色器[基于此着色器](http://mew.cx/drawtext/drawtext)。现在，这个着色器将显示传递给着色器的颜色值。要显示其他值，请将hlsl着色器中的第70行更改为
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 int ascii = getFloatCharacter( cellIndex, <float4 vector here> );
 ```
 

@@ -111,9 +111,7 @@ description: 在为Minecraft基岩版建模时需要了解的技巧、窍门和�
 
 要轻松更改动画的速度，你只需在我们的动画中乘以`anim_time_update`的默认值（默认为`q.delta_time + q.anim_time`）：
 
-<CodeHeader>RP/animations/myentity.animation.json#animations</CodeHeader>
-
-```json
+```json title="RP/animations/myentity.animation.json#animations"
 "animation.myentity.myanimation": {
     "anim_time_update":"2 * q.delta_time + q.anim_time"
     //你的动画在这里！

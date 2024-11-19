@@ -15,9 +15,7 @@ description: 当玩家处于 AFK 状态时运行命令。
 
 以下是一个可以用来跟踪 AFK 玩家示例。
 
-<CodeHeader>BP/animation_controllers/afk.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/afk.ac.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {

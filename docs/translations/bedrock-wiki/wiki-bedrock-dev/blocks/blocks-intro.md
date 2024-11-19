@@ -43,18 +43,16 @@ Minecraft基岩版允许我们将自定义方块添加到我们的世界中，�
 
 与实体不同，方块除了在`RP/blocks.json`中没有其他资源定义。
 
-以下是将自定义方块添加到创造模式库存的**最小**行为侧代码。
+以下是将自定义方块添加到创造模式物品栏的**最小**行为侧代码。
 
-<CodeHeader>BP/blocks/custom_block.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_block.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_block",
             "menu_category": {
-                "category": "construction", // 方块放置的创造模式库存或配方书标签
+                "category": "construction", // 方块放置的创造模式物品栏或配方书标签
                 "group": "itemGroup.name.concrete", // 方块所属的可扩展组。（可选）
                 "is_hidden_in_commands": false // 方块是否在命令中隐藏？（可选）
             }
@@ -78,9 +76,7 @@ _方块描述也是[状态](../blocks/block-states.md)和[特性](../blocks/bloc
 
 让我们配置我们自己的功能吧！
 
-<CodeHeader>BP/blocks/custom_block.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_block.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -130,9 +126,7 @@ _在[这里](../blocks/block-components.md)浏览更多方块组件！_
 
 如果你想应用自定义模型，则应使用[几何体](../blocks/block-components.md#geometry)和[材质实例](../blocks/block-components.md#material-instances)组件。
 
-<CodeHeader>RP/blocks.json</CodeHeader>
-
-```json
+```json title="RP/blocks.json"
 {
     "format_version": "1.21.40",
     "wiki:custom_block": {
@@ -144,9 +138,7 @@ _在[这里](../blocks/block-components.md)浏览更多方块组件！_
 
 现在，我们需要在`RP/textures/terrain_texture.json`中将纹理短名称链接到图像文件路径：
 
-<CodeHeader>RP/textures/terrain_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json"
 {
     "texture_name": "atlas.terrain",
     "resource_pack_name": "wiki", // 你的资源包ID
@@ -211,9 +203,7 @@ _在[这里](../blocks/block-components.md)浏览更多方块组件！_
 
 `blocks.json`条目将如下所示：
 
-<CodeHeader>RP/blocks.json</CodeHeader>
-
-```json
+```json title="RP/blocks.json"
 {
     "format_version": "1.21.40",
     "wiki:compass_block": {
@@ -231,9 +221,7 @@ _在[这里](../blocks/block-components.md)浏览更多方块组件！_
 
 或者，如果你使用[材质实例](../blocks/block-components.md#material-instances)，它们应如下所示：
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:material_instances": {
   "*": {
     "texture": "compass_block_down" // 此纹理出现在破坏粒子中
@@ -258,9 +246,7 @@ _在[这里](../blocks/block-components.md)浏览更多方块组件！_
 
 以及以下`terrain_texture.json`数据：
 
-<CodeHeader>RP/textures/terrain_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json"
 {
     "texture_name": "atlas.terrain",
     "resource_pack_name": "wiki",
@@ -293,9 +279,7 @@ _在[这里](../blocks/block-components.md)浏览更多方块组件！_
 
 最后，让我们像这样定义我们的方块名称：
 
-<CodeHeader>RP/texts/en_US.lang</CodeHeader>
-
-```c
+```c title="RP/texts/en_US.lang"
 tile.wiki:custom_block.name=自定义方块
 tile.wiki:compass_block.name=指南针方块
 ```

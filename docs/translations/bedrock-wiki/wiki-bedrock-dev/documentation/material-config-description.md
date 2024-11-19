@@ -22,9 +22,7 @@ description: 本文将详细介绍材质文件的结构和配置。
 
 首先让我们看看 sad.json 和 fancy.json。它们用于控制图像质量性能。每个文件定义了一系列材质文件。fancy.json 通常定义的材质文件比 sad.json 多，可能在某些材质文件中添加了一些额外的宏，着色器可以通过判断这些宏来进行特殊处理：
 
-<CodeHeader>sad.json</CodeHeader>
-
-```json
+```json title="sad.json"
 [
 	{"path":"materials/sad.material"},
 	{"path":"materials/entity.material"},
@@ -35,9 +33,7 @@ description: 本文将详细介绍材质文件的结构和配置。
 ]
 ```
 
-<CodeHeader>fancy.json</CodeHeader>
-
-```json
+```json title="fancy.json"
 [
 	{"path":"materials/fancy.material", "+defines":["FANCY"]},
 	{"path":"materials/entity.material", "+defines":["FANCY"]},
@@ -53,9 +49,7 @@ description: 本文将详细介绍材质文件的结构和配置。
 
 为了实现更好的性能，fancy.json 中的材质文件通常具有更复杂的操作，而 sad.json 中的材质通常会稍微牺牲一些渲染性能以换取更好的性能。如果开发者需要编写更复杂的着色器，建议同时编写一个低成本版本，并分别在 fancy 和 sad 中定义，让玩家通过游戏中的精美纹理选项控制是否开启相应的效果。
 
-<CodeHeader>common.json</CodeHeader>
-
-```json
+```json title="common.json"
 [
 	{"path":"materials/particles.material"},
 	{"path":"materials/shadows.material"},

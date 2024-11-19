@@ -41,9 +41,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 在下面的示例中，你可以看到如何使用`match_tool`条件来测试`minecraft:iron_pickaxe`：
 
-<CodeHeader>BP/loot_tables/blocks/silver_ore.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/blocks/silver_ore.json"
 {
     "pools": [
         {
@@ -72,9 +70,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 还要注意，它只能正确检测第1和第2级附魔。
 
-<CodeHeader>BP/loot_tables/blocks/silver_ore.json > pools</CodeHeader>
-
-```json
+```json title="BP/loot_tables/blocks/silver_ore.json > pools"
 "conditions": [
   {
     "condition": "match_tool",
@@ -97,9 +93,7 @@ description: 为自定义矿石创建类似原版的掉落系统。
 
 与掉落表类似，我们检查玩家手中的物品，然后在方块的位置生成随机数量的经验球。
 
-<CodeHeader>BP/scripts/silver_ore.js</CodeHeader>
-
-```js
+```js title="BP/scripts/silver_ore.js"
 import { world, EquipmentSlot } from "@minecraft/server";
 
 /**
@@ -145,9 +139,7 @@ world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
 -   使用`minecraft:loot`组件指向新的掉落表。
 -   将我们的经验奖励自定义组件添加到`minecraft:custom_components`数组中。
 
-<CodeHeader>BP/blocks/silver_ore.json</CodeHeader>
-
-```json
+```json title="BP/blocks/silver_ore.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {

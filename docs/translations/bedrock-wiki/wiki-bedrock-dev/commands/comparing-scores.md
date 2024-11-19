@@ -17,9 +17,7 @@ description: 学习如何测试匹配分数的目标/具有最高或最低分数
 
 **命令：**
 
-<CodeHeader>BP/functions/scoreboards/player/get_highest_score.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/player/get_highest_score.mcfunction"
 ## 获取最高分数
 scoreboard players operation Highest <objective> > * <objective>
 
@@ -51,9 +49,7 @@ _在比较玩家 2 之后，`Highest` 分数与玩家 1 的比较没有变化（
 
 **示例：**
 
-<CodeHeader>BP/functions/scoreboards/player/get_highest_score/kills.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/player/get_highest_score/kills.mcfunction"
 ## 获取最高分数
 scoreboard players operation Highest kills > * kills
 
@@ -68,9 +64,7 @@ execute as @a if score @s kills = Highest kills run tag @s add topKills
 
 **命令：**
 
-<CodeHeader>BP/functions/scoreboards/player/get_lowest_score.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/player/get_lowest_score.mcfunction"
 ## 获取最低分数
 scoreboard players operation Lowest <objective> < * <objective>
 
@@ -123,9 +117,7 @@ execute as @a if score @s distance_travelled = Lowest distance_travelled run tag
 
 **命令：**
 
-<CodeHeader>BP/functions/scoreboards/player/get_matching_score.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/player/get_matching_score.mcfunction"
 execute as @a at @s at @a [rm=0.01] if score @s <objective> = @p <objective> run say @s 和 @p 的分数匹配！
 ```
 
@@ -142,9 +134,7 @@ execute as @a at @s at @a [rm=0.01] if score @s <objective> = @p <objective> run
 
 **示例 1：** 如果距离超过 6 个区块，则将宠物传送到主人：
 
-<CodeHeader>BP/functions/scoreboards/player/get_matching_score/pet.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/player/get_matching_score/pet.mcfunction"
 ## 传送到主人
 execute as @e [tag=pet] at @s at @a [rm=7] if score @s id = @p id run tp @s @p
 ```
@@ -153,9 +143,7 @@ execute as @e [tag=pet] at @s at @a [rm=7] if score @s id = @p id run tp @s @p
 
 **示例 2：** 将地块拥有者设置为创造模式，其他人设置为冒险模式：
 
-<CodeHeader>BP/functions/scoreboards/player/get_matching_score/plot.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/player/get_matching_score/plot.mcfunction"
 ## 将拥有者设置为创造模式
 execute as @e [tag=plot] at @s at @a [r=16] if score @s id = @p id run gamemode c @p [m=!c]
 

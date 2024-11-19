@@ -20,9 +20,7 @@ description: 在本教程中，你将学习开关/按钮的工作原理、如何
 
 以下代码将创建一个从原版文件(`ui/ui_template_toggles.json`)引用的开关。点击开关后，它将显示我们创建的`toggled_image`。
 
-<CodeHeader>RP/ui/your_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/your_file.json"
 "custom_toggle@common_toggles.light_text_toggle": {
   "$toggle_name": "our_toggle",
   "$button_text": "模板开关",
@@ -61,9 +59,7 @@ description: 在本教程中，你将学习开关/按钮的工作原理、如何
 
 按钮具有硬编码的按钮ID，这意味着我们只能使用原版ID，而不能使用自定义ID。唯一的例外是如果按钮用作动画播放器。
 
-<CodeHeader>RP/ui/your_file.json</CodeHeader>
-
-```json
+```json title="RP/ui/your_file.json"
 "custom_button@common_buttons.light_text_button": {
   "$pressed_button_name": "button.menu_exit",
   "$button_text": "退出游戏",

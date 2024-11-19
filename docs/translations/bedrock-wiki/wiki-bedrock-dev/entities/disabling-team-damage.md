@@ -26,9 +26,7 @@ description: 学习如何禁用玩家之间的团队伤害。
 
 现在将此伤害传感器组件添加到你的`player.json`的`"components": {}`中。请参阅注释以获取说明。
 
-<CodeHeader>BP/entities/player.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#components"
 "minecraft:damage_sensor": {
     "triggers": [
         {
@@ -86,9 +84,7 @@ description: 学习如何禁用玩家之间的团队伤害。
 - 条件伤害
 - 函数
 
-<CodeHeader>BP/entities/player.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#components"
 
 //"components"
 "minecraft:timer": { //用于将团队应用于附近的投射物
@@ -145,18 +141,14 @@ description: 学习如何禁用玩家之间的团队伤害。
 }
 ```
 
-<CodeHeader>BP/functions/wiki-apply_team.mcfunction</CodeHeader>
-
-```
+``` title="BP/functions/wiki-apply_team.mcfunction"
 execute @s[tag=team1] ~ ~ ~ tag @e[rm=0,r=1,c=1,type=arrow,tag=] add team1
 execute @s[tag=team2] ~ ~ ~ tag @e[rm=0,r=1,c=1,type=arrow,tag=] add team2
 execute @s[tag=team3] ~ ~ ~ tag @e[rm=0,r=1,c=1,type=arrow,tag=] add team3
 execute @s[tag=team4] ~ ~ ~ tag @e[rm=0,r=1,c=1,type=arrow,tag=] add team4
 ```
 
-<CodeHeader>BP/entities/arrow.json</CodeHeader>
-
-```json
+```json title="BP/entities/arrow.json"
 
 //"components"
 "on_hit": {               //命中时，触发一个事件...
@@ -180,9 +172,7 @@ execute @s[tag=team4] ~ ~ ~ tag @e[rm=0,r=1,c=1,type=arrow,tag=] add team4
 }
 ```
 
-<CodeHeader>BP/functions/wiki-apply_damage.mcfunction</CodeHeader>
-
-```
+``` title="BP/functions/wiki-apply_damage.mcfunction"
 execute @s[tag=team1] ~ ~ ~ tag @p[rm=0,r=1,tag=!team1] add damage
 execute @s[tag=team2] ~ ~ ~ tag @p[rm=0,r=1,tag=!team2] add damage
 execute @s[tag=team3] ~ ~ ~ tag @p[rm=0,r=1,tag=!team3] add damage

@@ -21,9 +21,7 @@ description: runtime_identifier 是一个可选参数，位于实体行为文件
 
 `runtime_identifier` 是一个可选参数，位于实体行为文件的描述中，用于模仿原版实体的硬编码元素。它接受原版Minecraft的标识符，例如 `minecraft:shulker`。
 
-<CodeHeader>行为实体描述</CodeHeader>
-
-```json
+```json title="行为实体描述"
 "description": {
     "identifier": "wiki:my_box",
     "runtime_identifier": "minecraft:shulker", // 这是运行时标识符。它将为该实体添加Shulker的硬编码行为。

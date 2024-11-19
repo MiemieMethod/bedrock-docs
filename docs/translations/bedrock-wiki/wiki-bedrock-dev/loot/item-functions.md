@@ -53,9 +53,7 @@ Java 版本的附加函数或属性均未成功
 
 `set_count` 函数设置该物品条目的数量。
 
-<CodeHeader>数量函数</CodeHeader>
-
-```json
+```json title="数量函数"
 {
     "function": "set_count",
 
@@ -81,9 +79,7 @@ Java 版本的附加函数或属性均未成功
 
 可以使用 `set_name` 函数设置物品的名称。名称在用户界面中悬停物品时可见。玩家可以使用铁砧更改名称。
 
-<CodeHeader>名称函数</CodeHeader>
-
-```json
+```json title="名称函数"
 {
     "function": "set_name",
 
@@ -106,9 +102,7 @@ Java 版本的附加函数或属性均未成功
 
 `set_lore` 函数设置物品的描述。
 
-<CodeHeader>描述函数</CodeHeader>
-
-```json
+```json title="描述函数"
 {
     "function": "set_lore",
 
@@ -131,9 +125,7 @@ Java 版本的附加函数或属性均未成功
 
 `set_data` 为给定物品建立数据，类似于 `/give` 命令中的参数。如果用于方块，它将设置方块的数据值。如果用于物品，它将设置其辅助值。然而，与命令不同，`set_data` 无法设置物品的耐久度。要设置耐久度，请使用 [`durability`](#durability)。
 
-<CodeHeader>数据函数</CodeHeader>
-
-```json
+```json title="数据函数"
 {
     "function": "set_data",
 
@@ -173,9 +165,7 @@ Java 版本的附加函数或属性均未成功
 
 `random_block_state` 为方块设置一个单独的方块状态。
 
-<CodeHeader>方块状态函数</CodeHeader>
-
-```json
+```json title="方块状态函数"
 {
     "function": "random_block_state",
 
@@ -204,9 +194,7 @@ values
 
 `random_aux_value`
 
-<CodeHeader>辅助值函数</CodeHeader>
-
-```json
+```json title="辅助值函数"
 {
     "function": "random_aux_value",
 
@@ -238,9 +226,7 @@ values
 
 可以使用 `set_damage` 函数设置物品的耐久度。
 
-<CodeHeader>耐久度函数</CodeHeader>
-
-```json
+```json title="耐久度函数"
 {
     "function": "set_damage",
 
@@ -280,9 +266,7 @@ values
 
 `furnace_smelt`
 
-<CodeHeader>加热物品函数</CodeHeader>
-
-```json
+```json title="加热物品函数"
 {
     "function": "furnace_smelt"
 }
@@ -304,9 +288,7 @@ values
 
 `set_book_contents`
 
-<CodeHeader>书籍内容函数</CodeHeader>
-
-```json
+```json title="书籍内容函数"
 {
     "function": "set_book_contents",
 
@@ -344,9 +326,7 @@ pages
 
 `exploration_map`
 
-<CodeHeader>探险地图函数</CodeHeader>
-
-```json
+```json title="探险地图函数"
 {
     "function": "exploration_map",
 
@@ -381,9 +361,7 @@ Destination
 
 `set_banner_details`
 
-<CodeHeader>旗帜类型函数</CodeHeader>
-
-```json
+```json title="旗帜类型函数"
 {
     "function": "set_banner_details"
 }
@@ -408,9 +386,7 @@ type
 
 `random_dye`
 
-<CodeHeader>随机染色函数</CodeHeader>
-
-```json
+```json title="随机染色函数"
 {
     "function": "random_dye"
 }
@@ -432,9 +408,7 @@ type
 
 `set_actor_id`
 
-<CodeHeader>生成蛋函数</CodeHeader>
-
-```json
+```json title="生成蛋函数"
 {
     "function": "set_actor_id"
 }
@@ -458,9 +432,7 @@ id
 
 `fill_container`
 
-<CodeHeader>容器内容函数</CodeHeader>
-
-```json
+```json title="容器内容函数"
 {
     "function": "fill_container"
 }
@@ -497,9 +469,7 @@ loot_table
 
 `enchant_book_for_trading`
 
-<CodeHeader>交易用书籍附魔函数</CodeHeader>
-
-```json
+```json title="交易用书籍附魔函数"
 {
     "function": "enchant_book_for_trading"
 }
@@ -520,9 +490,7 @@ loot_table
 
 `enchant_with_levels` 使用附魔台的逻辑为物品附魔，选择性允许宝藏附魔。
 
-<CodeHeader>基于等级的附魔函数</CodeHeader>
-
-```json
+```json title="基于等级的附魔函数"
 {
     "function": "enchant_with_levels",
 
@@ -559,9 +527,7 @@ levels
 
 `enchant_randomly`
 
-<CodeHeader>随机附魔函数</CodeHeader>
-
-```json
+```json title="随机附魔函数"
 {
     "function": "enchant_randomly"
 }
@@ -585,9 +551,7 @@ treasure
 
 `enchant_random_gear`
 
-<CodeHeader>附魔装备函数</CodeHeader>
-
-```json
+```json title="附魔装备函数"
 {
     "function": "enchant_random_gear"
 }
@@ -615,9 +579,7 @@ chance
 
 `specific_enchants`
 
-<CodeHeader>特定附魔函数</CodeHeader>
-
-```json
+```json title="特定附魔函数"
 {
     "function": "specific_enchants"
 }
@@ -658,9 +620,7 @@ level
 
 `looting_enchant`
 
-<CodeHeader>持有工具的抢夺函数</CodeHeader>
-
-```json
+```json title="持有工具的抢夺函数"
 {
     "function": "looting_enchant",
 
@@ -686,9 +646,7 @@ count 可以是整数或最小/最大
 
 `explosion_decay`
 
-<CodeHeader>爆炸衰减函数</CodeHeader>
-
-```json
+```json title="爆炸衰减函数"
 {
     "function": "explosion_decay"
 }
@@ -709,9 +667,7 @@ count 可以是整数或最小/最大
 
 `set_data_from_color_index`
 
-<CodeHeader>实体颜色函数</CodeHeader>
-
-```json
+```json title="实体颜色函数"
 {
     "function": "set_data_from_color_index"
 }
@@ -732,9 +688,7 @@ count 可以是整数或最小/最大
  
 `trader_material_type`
 
-<CodeHeader>交易员材料类型函数</CodeHeader>
-
-```json
+```json title="交易员材料类型函数"
 {
     "function": "trader_material_type"
 }

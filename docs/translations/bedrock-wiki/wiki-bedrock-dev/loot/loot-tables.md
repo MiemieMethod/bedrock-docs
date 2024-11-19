@@ -39,9 +39,7 @@ description: 关于战利品表的所有内容。
 ## 结构
 战利品表表示为具有单个必需的 `"pools"` 数组属性的 JSON 对象。
 
-<CodeHeader>#</CodeHeader>
-
-```json
+```json title="#"
 {
 	"pools": [
 		…
@@ -54,9 +52,7 @@ description: 关于战利品表的所有内容。
 ### 池
 池作为选择物品的独立构造；池的结果不能受到其他池的影响。
 
-<CodeHeader>#</CodeHeader>
-
-```json
+```json title="#"
 {
 	"rolls": 1,
 	
@@ -74,9 +70,7 @@ description: 关于战利品表的所有内容。
 #### 加权随机池
 传统的加权随机池根据相对权重选择物品，根据配置的投掷次数选择一定数量的产出。
 
-<CodeHeader>artifacts.json/pools/0</CodeHeader>
-
-```json
+```json title="artifacts.json/pools/0"
 {
 	"rolls": {
 		"min": 2,
@@ -222,9 +216,7 @@ description: 关于战利品表的所有内容。
 ### 函数
 函数使战利品表如此强大。它们可以为战利品表中的每个条目执行广泛的任务。例如，它们可以改变掉落物品的数量、物品上存在的附魔（即使在通常不能附魔的物品上）、物品名称、物品描述，甚至可以写书！查看 [物品函数](../loot/item-functions.md) 以获取完整的函数列表及其用法。
 
-<CodeHeader>artifacts.json/pools/entries</CodeHeader>
-
-```json
+```json title="artifacts.json/pools/entries"
 {
 	"type": "item",
 	"name": "minecraft:dirt",
@@ -248,9 +240,7 @@ description: 关于战利品表的所有内容。
 ### 条件
 条件用于检查某个标准是否满足。例如：“僵尸是被玩家杀死的”、“剑上是否有掠夺附魔？如果有，是什么等级？”
 
-<CodeHeader>artifacts.json/pools/entries</CodeHeader>
-
-```json
+```json title="artifacts.json/pools/entries"
 {
 	"conditions": [
 		{

@@ -14,9 +14,7 @@ description: 为物品添加标签。
 
 ### 从1.20.50及以后版本
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -34,9 +32,7 @@ description: 为物品添加标签。
 
 ### 在1.20.50之前
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "format_version": "1.20.40",
     "minecraft:item": {

@@ -18,9 +18,7 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 首先，我们从一些基本的导航行为开始。
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:preferred_path":{
     "max_fall_blocks":1,
     "jump_cost":5,
@@ -52,9 +50,7 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 允许实体进行随机漫步。
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:behavior.random_stroll":{
     "priority":9,
     "speed_multiplier":0.55,
@@ -65,9 +61,7 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 使实体返回到住宅范围内，在这种情况下是村庄边界内。需要下面将要解释的minecraft:dweller组件。
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:behavior.move_towards_dwelling_restriction": {
     "priority": 4,
     "speed_multiplier": 1.0
@@ -76,9 +70,7 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 通过创建巡逻路径使实体在村庄内导航。铁傀儡使用此行为。
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:behavior.move_through_village": {
 	"priority": 3,
 	"speed_multiplier": 0.6,
@@ -88,9 +80,7 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 允许实体进入建筑物，并在下雨时寻找庇护。需要开放门的能力。
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:behavior.move_indoors":{
     "priority":5
 }
@@ -98,9 +88,7 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 使实体在太阳下山时待在室内。
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:behavior.restrict_open_door":{
     "priority": 5
 }
@@ -108,26 +96,20 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 与以下内容配合使用：
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:annotation.open_door":{
     "priority": 5
 }
 ```
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:navigation.walk":{
     "can_pass_doors":true,
     "can_open_doors":true
 }
 ```
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
  "minecraft:behavior.open_door":{
     "priority":6,
     "close_door_after":true
@@ -136,9 +118,7 @@ description: 本文适用于任何想要模仿村庄机制的实体开发者。
 
 ## 主要行为
 
-<CodeHeader>BP/entities/custom_villager.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/custom_villager.json#components"
 "minecraft:dweller": {
 	"dwelling_type": "village",
 	"dweller_role": "inhabitant",
@@ -177,9 +157,7 @@ meeting_area
 
 需要将“dweller_role”设置为“inhabitant”，如果“preferred_profession”不存在，实体将尝试移动到最近的任何工作地点。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:behavior.work": {
 	"priority": 4,
 	"active_time": 250,
@@ -218,9 +196,7 @@ meeting_area
 首先做一些简单的事情。
 将工作行为放入组件组工作中，如下所示：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "component_groups":{
     "work_schedule":{
         "minecraft:behavior.work":{
@@ -253,9 +229,7 @@ meeting_area
 
 接下来，让你的实体工作。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "minecraft:scheduler":{
     "min_delay_secs":0,
     "max_delay_secs":10,
@@ -300,9 +274,7 @@ meeting_area
 
 事件部分看起来像这样：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "events":{
     "work":{
         "remove":{

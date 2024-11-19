@@ -26,9 +26,7 @@ _在聊天中输入：_
 
 ## 系统
 
-<CodeHeader>BP/functions/scoreboards/entity_counter.mcfunction</CodeHeader>
-
-```yaml
+```yaml title="BP/functions/scoreboards/entity_counter.mcfunction"
 ## 重置先前的计数
 scoreboard players set * count 0
 

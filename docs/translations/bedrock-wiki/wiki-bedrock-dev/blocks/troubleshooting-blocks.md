@@ -33,9 +33,7 @@ description: 块的故障排除指南。
 
 导航到你的 `RP/textures/terrain_texture.json`。确保文件命名正确。
 
-<CodeHeader>RP/textures/terrain_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/terrain_texture.json"
 {
     "texture_name": "atlas.terrain",
     "resource_pack_name": "wiki",
@@ -68,9 +66,7 @@ description: 块的故障排除指南。
 
 类似泥土的块示例：
 
-<CodeHeader>BP/blocks/dirt_like.json</CodeHeader>
-
-```json
+```json title="BP/blocks/dirt_like.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -90,9 +86,7 @@ description: 块的故障排除指南。
 
 类似木头的块示例：
 
-<CodeHeader>BP/blocks/log_like.json</CodeHeader>
-
-```json
+```json title="BP/blocks/log_like.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -117,9 +111,7 @@ description: 块的故障排除指南。
 
 类似草的块示例：
 
-<CodeHeader>BP/blocks/custom_grass.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_grass.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {
@@ -172,9 +164,7 @@ description: 块的故障排除指南。
 
 解决方案：导航到你的块文件。导航到你的 `material_instances` 组件。将以下内容添加到你的组件中：
 
-<CodeHeader>BP/blocks/your_block.json</CodeHeader>
-
-```json
+```json title="BP/blocks/your_block.json"
 {
   "format_version": "1.21.40",
   "minecraft:block": {
@@ -196,9 +186,7 @@ description: 块的故障排除指南。
 
 解决方案：将以下组件添加到你的块代码中：
 
-<CodeHeader>minecraft:block > components</CodeHeader>
-
-```json
+```json title="minecraft:block > components"
 "minecraft:light_dampening": 0
 ```
 

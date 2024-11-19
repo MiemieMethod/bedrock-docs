@@ -27,9 +27,7 @@ description: 学习如何制作自定义护甲。
 
 创建胸甲部分：
 
-<CodeHeader>BP/items/my_chest.json</CodeHeader>
-
-```json
+```json title="BP/items/my_chest.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -93,9 +91,7 @@ description: 学习如何制作自定义护甲。
 
 首先，你需要在你的 RP 中创建一个 `attachables` 文件夹（你可能已经有了）。
 
-<CodeHeader>RP/attachables/my_chest.json</CodeHeader>
-
-```json
+```json title="RP/attachables/my_chest.json"
 {
     "format_version": "1.8.0",
     "minecraft:attachable": {
@@ -154,9 +150,7 @@ description: 学习如何制作自定义护甲。
 
 虽然单独的胸甲已经很好了，但你可能想要一整套，因此从这里开始，如果你为护靴制作另一个物品 JSON，如下所示。
 
-<CodeHeader>BP/items/my_leggings.json</CodeHeader>
-
-```json
+```json title="BP/items/my_leggings.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -210,9 +204,7 @@ description: 学习如何制作自定义护甲。
 
 完成这里后，我们需要像这样创建附加文件：
 
-<CodeHeader>RP/attachables/my_leggings.json</CodeHeader>
-
-```json
+```json title="RP/attachables/my_leggings.json"
 {
     "format_version": "1.8.0",
     "minecraft:attachable": {
@@ -250,9 +242,7 @@ description: 学习如何制作自定义护甲。
 
 这与胸甲类似，只需更改一些类别和槽，如下所示。
 
-<CodeHeader>BP/items/my_helm.json</CodeHeader>
-
-```json
+```json title="BP/items/my_helm.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -303,9 +293,7 @@ description: 学习如何制作自定义护甲。
     在这里下载纹理
 </Button>
 
-<CodeHeader>RP/attachables/my_helm.json</CodeHeader>
-
-```json
+```json title="RP/attachables/my_helm.json"
 {
     "format_version": "1.8.0",
     "minecraft:attachable": {
@@ -344,9 +332,7 @@ description: 学习如何制作自定义护甲。
 
 你已经了解了模式，所以让我们制作物品和附加 JSON 文件。
 
-<CodeHeader>BP/items/my_boots.json</CodeHeader>
-
-```json
+```json title="BP/items/my_boots.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {
@@ -397,9 +383,7 @@ description: 学习如何制作自定义护甲。
     在这里下载纹理
 </Button>
 
-<CodeHeader>RP/attachables/my_boots.json</CodeHeader>
-
-```json
+```json title="RP/attachables/my_boots.json"
 {
     "format_version": "1.8.0",
     "minecraft:attachable": {
@@ -452,9 +436,7 @@ description: 学习如何制作自定义护甲。
 
 首先，让我们在 `components` 部分添加伤害传感器组件，它会监听你受到伤害时并触发事件。
 
-<CodeHeader>BP/entities/player.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#components"
 "minecraft:damage_sensor": {
 	"triggers": {
 		"on_damage": {
@@ -508,9 +490,7 @@ description: 学习如何制作自定义护甲。
 > 事件可以命名为任何名称，但通常最好更加具体，以防你最终有多个相似事件等，这也有助于查找如果你有多个相关部分，例如我可以在 "armour_sets" 上搜索并找到所有相关事件。
 > 然后完成后，在同一个文件中，我们决定如何处理该事件，将其放入 `events` 部分。
 
-<CodeHeader>BP/entities/player.json#events</CodeHeader>
-
-```json
+```json title="BP/entities/player.json#events"
 "wiki:armor_sets.my_custom.taken_damage": {
 	"randomize": [
 		{

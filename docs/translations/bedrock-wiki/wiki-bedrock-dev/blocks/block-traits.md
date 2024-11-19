@@ -18,9 +18,7 @@ mentions:
 
 方块特性可以轻松地将原版方块状态（例如方向）应用于你的自定义方块，无需事件和触发器。
 
-<CodeHeader>BP/blocks/custom_slab.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_slab.json"
 {
   "format_version": "1.21.40",
   "minecraft:block": {
@@ -69,9 +67,7 @@ _已从实验 `即将推出的创作者功能` 发布，适用于格式版本 1.
 
 -   `y_rotation_offset` - 此旋转偏移仅适用于水平状态值（北、南、东、西）。只能指定轴对齐的角度（例如 90、180、-90）。
 
-<CodeHeader>minecraft:block > description > traits</CodeHeader>
-
-```json
+```json title="minecraft:block > description > traits"
 "minecraft:placement_direction": {
   "enabled_states": ["minecraft:cardinal_direction"],
   "y_rotation_offset": 180
@@ -91,9 +87,7 @@ _已从实验 `即将推出的创作者功能` 发布，适用于格式版本 1.
 | `minecraft:block_face`    | `"down"` _(默认)_<br>`"up"`<br>`"south"`<br>`"north"`<br>`"west"`<br>`"east"`   | 方块被放置的面。                             |
 | `minecraft:vertical_half` | `"top"`<br>`"bottom"` _(默认)_                                                    | 方块被放置的垂直半部分。                     |
 
-<CodeHeader>minecraft:block > description > traits</CodeHeader>
-
-```json
+```json title="minecraft:block > description > traits"
 "minecraft:placement_position": {
   "enabled_states": [
     "minecraft:block_face",

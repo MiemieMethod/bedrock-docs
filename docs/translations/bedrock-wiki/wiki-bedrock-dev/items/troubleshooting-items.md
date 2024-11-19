@@ -41,9 +41,7 @@ description: 物品故障排除指南。
 
 以下是一个可供对比的示例文件：
 
-<CodeHeader>RP/textures/item_texture.json</CodeHeader>
-
-```json
+```json title="RP/textures/item_texture.json"
 {
     "resource_pack_name": "wiki",
     "texture_name": "atlas.items",
@@ -57,9 +55,7 @@ description: 物品故障排除指南。
 
 接下来，导航到你的物品 BP 文件。在组件部分下，将 `minecraft:icon` 组件放入你的物品文件中。确保其命名正确。
 
-<CodeHeader>BP/items/your_item.json</CodeHeader>
-
-```json
+```json title="BP/items/your_item.json"
 {
     "format_version": "1.21.40",
     "minecraft:item": {

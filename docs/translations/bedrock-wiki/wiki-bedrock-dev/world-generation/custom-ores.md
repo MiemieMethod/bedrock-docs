@@ -21,9 +21,7 @@ description: 如何设置正确的自定义矿石生成。
 
 ## 地物文件
 
-<CodeHeader>BP/features/titanite_ore_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/titanite_ore_feature.json"
 {
 	"format_version": "1.17.0",
 	"minecraft:ore_feature": {
@@ -49,9 +47,7 @@ description: 如何设置正确的自定义矿石生成。
 
 ## 地物规则
 
-<CodeHeader>BP/feature_rules/overworld_underground_titanite_ore_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/overworld_underground_titanite_ore_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {

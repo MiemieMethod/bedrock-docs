@@ -31,9 +31,7 @@ description: 在MCBE中开始脚本编写。
 
 在行为包的清单中，你需要添加一个`script`模块并为你的脚本项目设置一个`entry`点。目前，仅支持`"javascript"`作为有效语言。
 
-<CodeHeader>BP/manifest.json#modules[0]</CodeHeader>
-
-```json
+```json title="BP/manifest.json#modules[0]"
 {
     "uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
     "version": [1, 0, 0],
@@ -51,9 +49,7 @@ description: 在MCBE中开始脚本编写。
 此问题导致Minecraft停止运行脚本并抛出与“未知依赖项”相关的错误。
 :::
 
-<CodeHeader>BP/manifest.json</CodeHeader>
-
-```json
+```json title="BP/manifest.json"
 {
     "format_version": 2,
     "header": {
@@ -138,9 +134,7 @@ description: 在MCBE中开始脚本编写。
 
 为了在你的代码中使用`eval()`函数或`Function()`构造函数，你可以在清单功能中添加以下内容：
 
-<CodeHeader>BP/manifest.json</CodeHeader>
-
-```json
+```json title="BP/manifest.json"
 {
     "capabilities": ["script_eval"]
 }
@@ -152,9 +146,7 @@ description: 在MCBE中开始脚本编写。
 
 Minecraft的脚本引擎仅运行JavaScript，类似于其他JavaScript项目。请查看[使用TypeScript编写脚本](../scripting/typescript.md#script-api)以将TS直接编译为JavaScript。
 
-<CodeHeader>BP/scripts/main.js</CodeHeader>
-
-```js
+```js title="BP/scripts/main.js"
 // 此文件演示代码是否正常工作，通过
 // 在聊天中重复发送“Hello World”
 

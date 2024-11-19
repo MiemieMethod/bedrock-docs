@@ -40,9 +40,7 @@ description: /damage 命令说明。
 
 ## 示例
 
-<CodeHeader></CodeHeader>
-
-```yaml
+```yaml title=""
 # 对所有玩家造成4点伤害
 /damage @a 4
 
@@ -57,9 +55,7 @@ description: /damage 命令说明。
 
 以下是当前在MCBE中可用于 `/damage` 命令的所有“伤害来源”：
 
-<CodeHeader></CodeHeader>
-
-```
+``` title=""
 all
 anvil
 block_explosion

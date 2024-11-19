@@ -28,9 +28,7 @@ description: 学习如何以正确的方式制作高分辨率纹理的物品。
 
 以下是几何体文件。它的作用是使用纹理网格读取你附加包中使用的纹理，并基于此创建几何体，而无需费力地建模与物品匹配的立方体！此文件不需要任何编辑。
 
-<CodeHeader>RP/models/entity/large_item.geo.json</CodeHeader>
-
-```json
+```json title="RP/models/entity/large_item.geo.json"
 {
     "format_version": "1.16.0",
     "minecraft:geometry": [
@@ -63,9 +61,7 @@ description: 学习如何以正确的方式制作高分辨率纹理的物品。
 
 这是渲染控制器文件的样子。这个文件也很简单，因此不需要任何编辑。
 
-<CodeHeader>RP/render_controllers/large_item.render_controllers.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/large_item.render_controllers.json"
 {
     "format_version": "1.8.0",
     "render_controllers": {
@@ -80,9 +76,7 @@ description: 学习如何以正确的方式制作高分辨率纹理的物品。
 
 这是附加包文件的样子。请注意，你需要将`<identifier>`更改为与你的物品标识符匹配，并将`<path>`替换为你的物品纹理的文件路径（与`item_texture.json`中使用的相同）。
 
-<CodeHeader>RP/attachables/large_item.json</CodeHeader>
-
-```json
+```json title="RP/attachables/large_item.json"
 {
     "format_version": "1.10.0",
     "minecraft:attachable": {
@@ -115,9 +109,7 @@ description: 学习如何以正确的方式制作高分辨率纹理的物品。
 
 现在我们已经准备好这些文件，可以创建执行所有魔法的动画！这个动画将旋转你的物品，使其与持有时的原版物品旋转方式相匹配。它还会将你的物品缩小到正确的大小。
 
-<CodeHeader>RP/animations/large_item.animation.json</CodeHeader>
-
-```json
+```json title="RP/animations/large_item.animation.json"
 {
     "format_version": "1.10.0",
     "animations": {

@@ -32,9 +32,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物文件
 
-<CodeHeader>BP/features/house_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/house_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:structure_template_feature": {
@@ -59,9 +57,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物规则
 
-<CodeHeader>BP/feature_rules/plains_house_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/plains_house_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -103,9 +99,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物文件
 
-<CodeHeader>BP/features/bunker_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/bunker_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:structure_template_feature": {
@@ -129,9 +123,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物规则
 
-<CodeHeader>BP/feature_rules/overworld_bunker_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/overworld_bunker_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -179,9 +171,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物文件
 
-<CodeHeader>BP/features/balloon_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/balloon_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:structure_template_feature": {
@@ -204,9 +194,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物规则
 
-<CodeHeader>BP/feature_rules/overworld_balloon_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/overworld_balloon_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -258,9 +246,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物文件
 
-<CodeHeader>BP/features/aqua_temple_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/aqua_temple_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:structure_template_feature": {
@@ -283,9 +269,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物规则
 
-<CodeHeader>BP/feature_rules/ocean_aqua_temple_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/ocean_aqua_temple_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
@@ -327,9 +311,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物文件
 
-<CodeHeader>BP/features/raft_feature.json</CodeHeader>
-
-```json
+```json title="BP/features/raft_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:structure_template_feature": {
@@ -353,9 +335,7 @@ description: 将你的结构添加到世界生成中。
 
 ### 地物规则
 
-<CodeHeader>BP/feature_rules/ocean_raft_feature.json</CodeHeader>
-
-```json
+```json title="BP/feature_rules/ocean_raft_feature.json"
 {
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {

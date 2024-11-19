@@ -13,9 +13,7 @@ description: 共享的JSON构造。
 
 范围对象定义了两个数字之间的范围。
 
-<CodeHeader>范围对象示例</CodeHeader>
-
-```json
+```json title="范围对象示例"
 {
 	"min": 2,
 	"max": 4
@@ -28,9 +26,7 @@ description: 共享的JSON构造。
 
 分数对象使用分子和分母定义一个分数。
 
-<CodeHeader>分数对象示例</CodeHeader>
-
-```json
+```json title="分数对象示例"
 {
 	"numerator": 3,
 	"denominator": 5

@@ -25,9 +25,7 @@ _最后更新于1.17.10_
 
 ### 单方块地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -75,9 +73,7 @@ _最后更新于1.17.10_
 
 ##### 替换条件
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "may_replace": [
 	"minecraft:air",
 	"minecraft:leaves",
@@ -93,9 +89,7 @@ _最后更新于1.17.10_
 
 ##### 附着条件
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "may_attach_to": {
 	"top": "minecraft:air",
 	"sides": [
@@ -116,9 +110,7 @@ _最后更新于1.17.10_
 
 每个属性接受一个单独的直接方块引用或此类引用的数组：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "bottom": {
 	"name": "minecraft:stone",
 
@@ -128,9 +120,7 @@ _最后更新于1.17.10_
 }
 ```
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "top": [
 	"minecraft:netherrack",
 	"minecraft:soul_sand"
@@ -145,9 +135,7 @@ _最后更新于1.17.10_
 
 `"auto_rotate"` 使侧面定义被解释为相对关联而不是严格方向。例如，如果一个方块应该在一个方向在两个其他方块之间被横向挤压，但方向不重要，启用自动旋转并指定相对侧面将允许任何方向的工作。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -175,9 +163,7 @@ _最后更新于1.17.10_
 
 ### 矿石地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -205,9 +191,7 @@ _最后更新于1.17.10_
 
 #### 替换规则
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "replace_rules": [
 	{
 		"places_block": "infinitum:exposed_pylon",
@@ -228,9 +212,7 @@ _最后更新于1.17.10_
 
 ### 结构模板地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 	"minecraft:structure_template_feature": {
@@ -279,9 +261,7 @@ _最后更新于1.17.10_
 
 #### 旋转
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "facing_direction": "south"
 ```
 
@@ -308,9 +288,7 @@ _最后更新于1.17.10_
 
 #### 约束
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "constraints": {
 	"block_intersection": {
 		"block_whitelist": [
@@ -328,9 +306,7 @@ _最后更新于1.17.10_
 
 ##### 方块交叉
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "block_intersection": {
 	"block_whitelist": [
 		"minecraft:end_stone"
@@ -346,9 +322,7 @@ _最后更新于1.17.10_
 
 ##### 地面附着
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "grounded": {}
 ```
 
@@ -356,9 +330,7 @@ _最后更新于1.17.10_
 
 ##### 顶部净空
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "unburied": {}
 ```
 
@@ -370,9 +342,7 @@ _最后更新于1.17.10_
 
 #### 放置调整
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "adjustment_radius": 4
 ```
 
@@ -384,9 +354,7 @@ _最后更新于1.17.10_
 
 ### 生长植物地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 	"minecraft:growing_plant_feature": {
@@ -418,9 +386,7 @@ _最后更新于1.17.10_
 
 #### 柱体方块
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "body_blocks" : [
 	["arctica:ice", 4],
 	["arctica:ice_crystallized", 1]
@@ -433,9 +399,7 @@ _最后更新于1.17.10_
 
 生长植物分为**柱体方块**，构成大部分地物，以及**头部方块**，仅作为植物生成的最后一个方块。两者都作为**方块条目**的数组提供。每个方块条目是一个将方块引用绑定到整数[权重](#)的数组：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 ["crestfallen:fungi_stem", 2]
 ```
 
@@ -445,17 +409,13 @@ _最后更新于1.17.10_
 
 整数：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "age": 12
 ```
 
 范围对象：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "age": {"range_min": 4, "range_max": 8}
 ```
 
@@ -465,9 +425,7 @@ _最后更新于1.17.10_
 
 #### 柱体生成
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "growth_direction": "down",
 "height_distribution":  [
 	[{"range_min": 8, "range_max": 12}, 4],
@@ -483,17 +441,13 @@ _最后更新于1.17.10_
 
 作为整数：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 [6, 3]
 ```
 
 作为范围对象：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 [{ "range_min": 2, "range_max": 8 }, 1]
 ```
 
@@ -507,9 +461,7 @@ _最后更新于1.17.10_
 
 ### 树地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 	"minecraft:tree_feature": {
@@ -565,9 +517,7 @@ _最后更新于1.17.10_
 
 #### 设置属性
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "base_block": [
 	"minecraft:dirt",
 	"minecraft:grass"
@@ -599,41 +549,31 @@ _最后更新于1.17.10_
 
 ##### 树干
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 金合欢树干
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 精致树干
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 巨型树干
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 倾倒树干
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
@@ -643,73 +583,55 @@ _最后更新于1.17.10_
 
 ##### 冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 精致冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 巨型冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 云杉冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 松树冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 巨型松树冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 金合欢冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 屋顶冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
 ##### 随机扩展冠层
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 
 ```
 
@@ -719,9 +641,7 @@ _最后更新于1.17.10_
 多面地物目前存在漏洞，不应使用。最多只会放置2次——无论扩展几率如何。[散布地物](#散布地物)目前是可行的替代方案。
 :::
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 	"minecraft:multiface_feature": {
@@ -750,9 +670,7 @@ _最后更新于1.17.10_
 
 #### 扩展机制
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "search_range": 4,
 "chance_of_spreading": 0.75
 ```
@@ -761,9 +679,7 @@ _最后更新于1.17.10_
 
 #### 放置限制
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "can_place_on_ceiling": true,
 "can_place_on_floor": false,
 "can_place_on_wall": true,
@@ -796,9 +712,7 @@ _最后更新于1.17.10_
 
 ### 散布地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -837,9 +751,7 @@ _最后更新于1.17.10_
 
 散布地物每次迭代尝试放置一个[目标地物](#proxy-features)：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "places_feature": "lostlands:shimmerfields_spire"
 ```
 
@@ -847,9 +759,7 @@ _最后更新于1.17.10_
 
 #### 生成潜力
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "scatter_chance": 25,
 "iterations": 12
 ```
@@ -860,9 +770,7 @@ _最后更新于1.17.10_
 
 数值字面量：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "scatter_chance": 12.5
 ```
 
@@ -872,17 +780,13 @@ _最后更新于1.17.10_
 
 Molang表达式：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "scatter_chance": "1 / 8"
 ```
 
 分数对象：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "scatter_chance": {
 	"numerator": 1,
 	"denominator": 8
@@ -895,9 +799,7 @@ Molang表达式：
 
 #### 分布
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "x": {
 	"distribution": "fixed_grid",
 	"extent": [0, 15]
@@ -913,25 +815,19 @@ Molang表达式：
 
 整数字面量：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "x": 0
 ```
 
 Molang表达式：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "x": "math.random_integer(0, v.surface_grass.spread - 1)"
 ```
 
 或使用多种对象形式方便地分配坐标：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "x": {
 	"distribution": "uniform",
 	"extent": [0, 16]
@@ -942,9 +838,7 @@ Molang表达式：
 
 由于地物放置通常相对于高度图，因此散布地物的输入**y**原点可以**投影到地面**：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "project_input_to_floor": true
 ```
 
@@ -968,9 +862,7 @@ Molang表达式：
 
 ###### 均匀分布
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "z": {
 	"distribution": "uniform",
 	"extent": ["v.boulder_spread.start", "v.boulder_spread.end"]
@@ -985,9 +877,7 @@ _最小范围_ <= _x_ < _最大范围_
 
 ###### 高斯分布
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "y": {
 	"distribution": "gaussian",
 	"extent": [0, "2 * v.vine_cluster.radius"]
@@ -998,9 +888,7 @@ _最小范围_ <= _x_ < _最大范围_
 
 ###### 网格分布
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "x": {
 	"distribution": "jittered_grid",
 	"extent": [0, 15],
@@ -1021,9 +909,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 举个简单的例子：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "iterations": 21,
 
 "x": {
@@ -1060,9 +946,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 默认情况下，坐标顺序为_x_，然后_z_，然后_y_。这涵盖了大多数用例：如果坐标不是独立的，很可能垂直位置依赖于横向坐标。然而，散布地物可以声明非典型的**坐标评估顺序**，以完全控制坐标依赖性：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "coordinate_eval_order": "zyx"
 ```
 
@@ -1072,9 +956,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 条件列表
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1107,9 +989,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 #### 条件列表
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "conditional_features": [
 	{
 		"places_feature": "summer_fun:beachadjustment_water",
@@ -1128,9 +1008,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 **条件列表**，`"conditional_features"`，是一个有序数组，由**地物条目**对象组成。地物条目将[**目标地物**](#proxy-features)绑定到其**条件**：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"places_feature": "verona:evergreen_trees_stumps",
 	"condition": "v.evergreen_forest.type == v.evergreen_forest.types.lumberjack_ruined"
@@ -1143,9 +1021,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 #### 成功判定
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "early_out_scheme": "placement_success"
 ```
 
@@ -1153,9 +1029,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 聚合地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1179,9 +1053,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 #### 放置逃逸
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "early_out": "first_success"
 ```
 
@@ -1199,9 +1071,7 @@ _最小范围_ <= _x_ <= _最大范围_
 序列地物目前存在错误，不应使用。目前，地物列表中的所有地物都在相同的输入位置生成，类似于[聚合地物](#aggregate-features)。
 :::
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1225,9 +1095,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 对齐到表面地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.16.0",
 
@@ -1248,9 +1116,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 #### 表面搜索
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "surface": "ceiling",
 "vertical_search_range": 16
 ```
@@ -1265,9 +1131,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 搜索地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1295,9 +1159,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 #### 搜索体积
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "search_volume": {
 	"min": [-12, 0, -12],
 	"max": [11, 11, 11]
@@ -1306,9 +1168,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 **搜索体积**声明搜索将发生的空间。两个向量定义了此体积的边界：`"min"`指向具有最低坐标的角，`"max"`指向棱柱对角面的块原点。因此，最大角的坐标在每个维度上延伸比`"max"`向量多1块。例如，以下搜索体积实际上覆盖了8个块（每个维度2块），而不是1：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "search_volume": {
 	"min": [0, 0, 0],
 	"max": [1, 1, 1]
@@ -1319,9 +1179,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 #### 搜索规格
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "search_axis": "z",
 "required_successes": 16
 ```
@@ -1344,9 +1202,7 @@ _最小范围_ <= _x_ <= _最大范围_
 矩形布局目前存在错误，不应使用。尚未提供其工作方式的任何信息。大概，矩形布局将区块的表面积划分为`"area_dimensions"`指定的矩形，并根据声明的空闲空间比例放置其关联的地物。
 :::
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1372,9 +1228,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 扫描表面地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1394,9 +1248,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 加权随机地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1431,9 +1283,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 晶体地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 	"minecraft:geode_feature": {
@@ -1481,9 +1331,7 @@ _最小范围_ <= _x_ <= _最大范围_
 胡须与剃刀目前存在错误，应避免使用。特别是，该平台构造不佳，表面方块通常在错误的层上生成，形状被切割得很尴尬。
 :::
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1510,9 +1358,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 ### 植被补丁地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1549,9 +1395,7 @@ _最小范围_ <= _x_ <= _最大范围_
 
 #### 补丁形状
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "horizontal_radius": 3,
 "extra_edge_column_chance": 0.25
 ```
@@ -1566,9 +1410,7 @@ _横向半径_ \* 2 + 1
 
 #### 补丁搜索
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "surface": "ceiling",
 "vertical_range": 8
 ```
@@ -1581,9 +1423,7 @@ _横向半径_ \* 2 + 1
 
 #### 补丁列放置
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "ground_block": "arabia:lush_sand",
 "waterlogged": true,
 "replaceable_blocks": [
@@ -1610,9 +1450,7 @@ _横向半径_ \* 2 + 1
 
 #### 植被放置
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "vegetation_feature": "tension:shiitake_mushroom",
 "vegetation_chance": 0.125
 ```
@@ -1651,9 +1489,7 @@ _横向半径_ \* 2 + 1
 
 ### 洞穴切割地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1673,9 +1509,7 @@ _横向半径_ \* 2 + 1
 
 ### 水下洞穴切割地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 
@@ -1703,9 +1537,7 @@ _横向半径_ \* 2 + 1
 
 ### 地狱洞穴切割地物
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
 	"format_version": "1.13.0",
 

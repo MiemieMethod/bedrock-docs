@@ -24,9 +24,7 @@ description: 生成一个物品实体。
 /loot spawn ~ ~ ~ loot "entities/cow"
 ```
 
-<CodeHeader>BP/loot_tables/entities/cow.json</CodeHeader>
-
-```json
+```json title="BP/loot_tables/entities/cow.json"
 "minecraft:loot": {
 	"table": "loot_tables/entities/cow.json"
 }
@@ -36,9 +34,7 @@ description: 生成一个物品实体。
 
 另一种简单的生成物品的方法——通常也是最常见的方法——是在实体死亡时掉落物品。这是通过将 `minecraft:loot` 组件添加到实体并将其链接到相应的掉落表（以下示例中的 `forium`）来实现的，该掉落表包含你希望掉落的物品。
 
-<CodeHeader>BP/entities/my_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#components"
 "minecraft:loot": {
 	"table": "loot_tables/entities/forium.json"
 }
@@ -50,9 +46,7 @@ description: 生成一个物品实体。
 
 行为：
 
-<CodeHeader>BP/entities/my_entity.json</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json"
 {
     "format_version": "1.16.0",
     "minecraft:entity": {
@@ -82,9 +76,7 @@ description: 生成一个物品实体。
 
 请注意，如果实体在交互时未被移除，则可以再次与其交互并生成物品。如果实体在交互后应保持存在，可以向实体添加 `cooldown` 参数，以防止在指定时间内进行交互。或者，可以调用一个事件来移除包含此 `minecraft:interact` 组件的组件组。
 
-<CodeHeader>BP/entities/my_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#components"
 "minecraft:interact": {
 	"interactions": [
 		{
@@ -118,9 +110,7 @@ description: 生成一个物品实体。
 
 这种行为似乎会在掉落物品时将生物推开。因此，召唤实体时应稍微高于地面（或在以下动画控制器中将其传送到上方），以避免物品在生成位置几块地方掉落。减小碰撞盒的大小也可能有所帮助。
 
-<CodeHeader>BP/entities/my_entity.json#components</CodeHeader>
-
-```json
+```json title="BP/entities/my_entity.json#components"
 "minecraft:navigation.walk": {},
 "minecraft:behavior.drop_item_for": {
 	"priority": 1,
@@ -136,9 +126,7 @@ description: 生成一个物品实体。
 
 将实体传送到虚空不会产生死亡动画、声音或粒子。使用两个过渡以确保它不会在生成的同一刻被杀死。
 
-<CodeHeader>BP/animation_controllers/my_entity.ac.json</CodeHeader>
-
-```json
+```json title="BP/animation_controllers/my_entity.ac.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {

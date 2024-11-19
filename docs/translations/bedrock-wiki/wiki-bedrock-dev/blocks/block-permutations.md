@@ -20,9 +20,7 @@ mentions:
 
 例如，如果你添加了一个具有两个布尔状态的自定义方块……
 
-<CodeHeader>minecraft:block</CodeHeader>
-
-```json
+```json title="minecraft:block"
 "description": {
     "identifier": "wiki:permutations_example",
     "states": {
@@ -57,9 +55,7 @@ mentions:
 
 _从实验 `假日创作者功能` 中发布，适用于格式版本 1.19.70 及更高版本。_
 
-<CodeHeader>BP/blocks/custom_block.json</CodeHeader>
-
-```json
+```json title="BP/blocks/custom_block.json"
 {
     "format_version": "1.21.40",
     "minecraft:block": {

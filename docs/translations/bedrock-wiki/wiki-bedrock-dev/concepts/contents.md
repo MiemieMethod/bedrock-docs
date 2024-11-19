@@ -20,9 +20,7 @@
 `contents.json` 位于附加包目录的根目录。它包含包中包含的文件列表。
 示例：
 
-<CodeHeader>RP/contents.json</CodeHeader>
-
-```json
+```json title="RP/contents.json"
 {
 	"content": [
 		{
@@ -70,9 +68,7 @@
 
 `contents.json` 文件可以由游戏自动生成，强烈建议这样做以减少出错的风险。然而，文件必须先准备好。在你的附加包根目录中创建一个名为 `contents.json` 的新空文件，并添加空括号。
 
-<CodeHeader>BP|RP/contents.json</CodeHeader>
-
-```json
+```json title="BP|RP/contents.json"
 {}
 ```
 

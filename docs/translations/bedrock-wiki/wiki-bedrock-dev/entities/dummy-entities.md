@@ -28,9 +28,7 @@ description: 虚拟实体是用于游戏玩法目的的隐形实体。
 
 你可以使用任何你喜欢的行为，但这里有一个不错的模板。重要的方面是：无伤害，且无法被推动。
 
-<CodeHeader>BP/entities/dummy.json</CodeHeader>
-
-```json
+```json title="BP/entities/dummy.json"
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -79,9 +77,7 @@ description: 虚拟实体是用于游戏玩法目的的隐形实体。
 
 ### 资源实体
 
-<CodeHeader>RP/entity/dummy.json</CodeHeader>
-
-```json
+```json title="RP/entity/dummy.json"
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -104,9 +100,7 @@ description: 虚拟实体是用于游戏玩法目的的隐形实体。
 
 ### 几何体
 
-<CodeHeader>RP/models/entity/dummy.json</CodeHeader>
-
-```json
+```json title="RP/models/entity/dummy.json"
 {
 	"format_version": "1.12.0",
 	"minecraft:geometry": [
@@ -123,9 +117,7 @@ description: 虚拟实体是用于游戏玩法目的的隐形实体。
 
 ### 渲染控制器（可选）
 
-<CodeHeader>RP/render_controllers/dummy.json</CodeHeader>
-
-```json
+```json title="RP/render_controllers/dummy.json"
 {
 	"format_version": "1.10.0",
 	"render_controllers": {

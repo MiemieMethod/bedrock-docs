@@ -23,9 +23,7 @@
 
 实体属性定义：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "minecraft:entity": {
         "description": {
@@ -62,9 +60,7 @@
 
 `values`字段可以被评估为枚举值的数组，或最小值和最大值的范围（注意：整数、浮点数和布尔枚举值目前仅支持两个值）：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "property:range_example": {
     "values": {
       "min": 0,
@@ -75,9 +71,7 @@
 
 **或者**
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "property:enum_example":{
     "values":[
         1,
@@ -90,9 +84,7 @@
 
 你可以通过在定义的属性对象内的`default`字段设置实体属性的默认值（默认情况下为枚举数组索引的第一个值）：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "property:default_value_example":{
     "values":[
         true,
@@ -108,9 +100,7 @@
 
 要通过资源包（客户端）进行同步，可以使用`client_sync`字段允许客户端实体访问实体属性。默认情况下，该值设置为`false`。
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "property:client_sync_example": {
     "values": {
       "min": 0,
@@ -130,9 +120,7 @@
 
 通过实体事件，你可以使用`set_property`事件响应将实体属性设置为某个值：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 "events":{
     "event:set_entity_property":{
         "set_property":{
@@ -152,9 +140,7 @@
 
 你可以为实体定义别名，以通过`summon`命令召唤具有设置的实体属性值的实体。实体可以具有多个别名，使用自定义实体标识符：
 
-<CodeHeader></CodeHeader>
-
-```json
+```json title=""
 {
     "format_version": "1.16.0",
     "minecraft:entity": {
