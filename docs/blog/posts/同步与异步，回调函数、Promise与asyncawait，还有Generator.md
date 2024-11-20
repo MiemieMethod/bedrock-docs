@@ -7,6 +7,9 @@ categories:
 description: >
   JavaScript中的同步与异步、回调函数、Promise与async/await，还有Generator介绍
 title: 小白也能理解的同步与异步，回调函数、Promise与async/await，还有Generator
+comments: true
+hide:
+  - feedback
 ---
 
 # 小白也能理解的同步与异步，回调函数、Promise与async/await，还有Generator
@@ -134,7 +137,7 @@ functionA()
     .then(/* F, G, H ... */);
 ```
 
-如果想知道更多可参见下文：[Promise 为什么能做到这个](#Promise 为什么能做到这个)
+如果想知道更多可参见下文：[Promise为什么能做到这个](#Promise为什么能实现链式调用？)
 
 ## promise.then的替代品
 
