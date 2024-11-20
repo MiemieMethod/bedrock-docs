@@ -1,5 +1,9 @@
 authors:
   mojang:
     name: Mojang
-    description: Official Mojang Studios
+    description: 官方，原作者
     avatar: /bedrock-docs/assets/images/authors/mojang.ico
+  xero:
+    name: ProjectXero
+    description: 开发者
+    avatar: /bedrock-docs/assets/images/authors/xero.jpg

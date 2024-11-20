@@ -23,7 +23,7 @@ description: JSON的初步了解
 这是一个附录页面。你可以从[这里](../guide/index.md)开始阅读指南。
 ///
 
-JSON是一种简单的文本文件格式，既易于人类理解，也易于计算机处理。基岩版使用.json文件作为附加包的“语言”，因此你需要扎实地理解如何读取和编写JSON！如果你之前从未听说过JSON，建议你阅读[本教程](https://www.digitalocean.com/community/tutorials/an-introduction-to-json)。它将教你编写有效JSON文件所需的所有知识。
+JSON是一种简单的文本文件格式，既易于人类理解，也易于计算机处理。基岩版使用.json文件作为附加包的“语言”，因此你需要扎实地理解如何读取和编写JSON！如果你之前从未听说过JSON，建议你阅读[此教程](https://www.digitalocean.com/community/tutorials/an-introduction-to-json)。它将教给你编写有效JSON文件所需的所有知识。
 
 ## 有效的JSON
 
