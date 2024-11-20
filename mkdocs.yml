@@ -7410,6 +7410,11 @@ nav:
             - '7. Blockbench：建模、纹理和动画': translations/bedrock-wiki/wiki-bedrock-dev/guide/blockbench.md
             - '8. 添加战利品表、生成规则和合成配方': translations/bedrock-wiki/wiki-bedrock-dev/guide/loot-table.md
           - 附录:
+            - 'a. 理解JSON': translations/bedrock-wiki/wiki-bedrock-dev/guide/understanding-json.md
+            - 'b. 下载示例包': translations/bedrock-wiki/wiki-bedrock-dev/guide/download-packs.md
+            - 'c. 故障排除': translations/bedrock-wiki/wiki-bedrock-dev/guide/troubleshooting.md
+            - 'd. 清单进阶': translations/bedrock-wiki/wiki-bedrock-dev/guide/advancedmanifest.md
+            - 'e. 格式版本': translations/bedrock-wiki/wiki-bedrock-dev/guide/format-version.md
             - 安卓项目设置: translations/bedrock-wiki/wiki-bedrock-dev/guide/project-setup-android.md
     - bridge.:
       - translations/bridge/index.md

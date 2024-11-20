@@ -2,16 +2,22 @@
 title: 理解JSON
 category: 额外
 description: JSON的初步了解
-nav_order: 1
-prefix: 'a. '
-mentions:
-    - SirLich
-    - solvedDev
-    - Joelant05
-    - Dreamedc2015
-    - sermah
-    - cda94581
 ---
+
+# 理解JSON
+
+/// details-info | 署名信息
+- 该页面翻译自[https://wiki.bedrock.dev/guide/understanding-json.html](https://wiki.bedrock.dev/guide/understanding-json.html)
+- 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/understanding-json.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/guide/understanding-json.md)
+- 该页面的版本为<!-- md:samp Bedrock-OSS/bedrock-wiki@a8f9908938d012a976ac9ee3b2b5b11095fd7570 -->
+- 该页面的作者有：
+    - <!-- md:samp @SirLich -->
+    - <!-- md:samp @solvedDev -->
+    - <!-- md:samp @Joelant05 -->
+    - <!-- md:samp @Dreamedc2015 -->
+    - <!-- md:samp @sermah -->
+    - <!-- md:samp @cda94581 -->
+///
 
 /// tip
 这是一个附录页面。你可以从[这里](../guide/index.md)开始阅读指南。
@@ -21,7 +27,7 @@ JSON是一种简单的文本文件格式，既易于人类理解，也易于计�
 
 ## 有效的JSON
 
-编写JSON时需要记住的重要一点是，它必须是_完全无错误的_，否则将无法正常工作。即使是一个错误的字符或一个多余的逗号也会导致整个文件失败。因此，编写有效的JSON至关重要。
+编写JSON时需要记住的重要一点是，它必须是*完全无错误的*，否则将无法正常工作。即使是一个错误的字符或一个多余的逗号也会导致整个文件失败。因此，编写有效的JSON至关重要。
 
 我们可以使用一个名为[json lint](https://jsonlint.com/)的在线工具来检查我们的JSON是否有效。只需将你的代码粘贴到网站中，然后按`Validate JSON`。你将收到一个响应，指示你的代码是否正确，以及任何错误的位置和类型。
 
@@ -51,7 +57,7 @@ JSON是一种简单的文本文件格式，既易于人类理解，也易于计�
 
 ### 数组
 
-数组用两个方括号`[]`表示。它们代表一个_列表_。我们可以在列表中放入_其他数据结构_。列表中的每个_元素_应以逗号分隔。
+数组用两个方括号`[]`表示。它们代表一个*列表*。我们可以在列表中放入*其他数据结构*。列表中的每个*元素*应以逗号分隔。
 
 一些示例：
 
@@ -71,46 +77,46 @@ JSON是一种简单的文本文件格式，既易于人类理解，也易于计�
 
 ### 对象
 
-对象用两个大括号`{}`表示。对象是一种特殊的语法，包含_命名_的数据结构。名称称为`key`，结构称为`value`。本页之前的示例是一个包含其他数据类型示例的*字典*。
+对象用两个大括号`{}`表示。对象是一种特殊的语法，包含*具名*的数据结构。名称称为`key`，结构称为`value`。本页之前的示例是一个包含其他数据类型示例的*字典*。
 
 这种键值语法的格式如下：`"<key>": <任何结构>`。注意键周围的引号和冒号。
 
-下面是一个对象的示例，包含几个_键值对_。
+下面是一个对象的示例，包含几个*键值对*。
 
 ```json title=""
 {
-	"a_list_of_integers": [1, 2, 3],
-	"is_json_cool": true
+  "a_list_of_integers": [1, 2, 3],
+  "is_json_cool": true
 }
 ```
 
 我们需要用逗号分隔每个键值对。
 
-我们将对象的键值对称为其_子项_或称为_在_对象内。
+我们将对象的键值对称为其*子项*或称为在对象*内部*。
 
 ## JSON结构
 
-在Minecraft中，JSON文件总是以一个_对象_开始，你可以记住这是两个大括号`{}`。我们在这个对象_内部_编写代码，以键值对的形式表示。
+在Minecraft中，JSON文件总是以一个*对象*开始，你可以记住这是两个大括号`{}`。我们在这个对象*内部*编写代码，以键值对的形式表示。
 
 以下是一个用于Minecraft附加包的简单json文件示例：
 
 ```json title=""
 {
-	"format_version": "1.12.0",
-	"animations": {
-		"animation.car.wheel_spin": {
-			"loop": true,
-			"animation_length": 1.0,
-			"bones": {
-				"front_wheels": {
-					"rotation": ["q.modified_distance_moved * -30", 0, 0]
-				},
-				"back_wheels": {
-					"rotation": ["q.modified_distance_moved * -30", 0, 0]
-				}
-			}
-		}
-	}
+  "format_version": "1.12.0",
+  "animations": {
+    "animation.car.wheel_spin": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "front_wheels": {
+          "rotation": ["q.modified_distance_moved * -30", 0, 0]
+        },
+        "back_wheels": {
+          "rotation": ["q.modified_distance_moved * -30", 0, 0]
+        }
+      }
+    }
+  }
 }
 ```
 
@@ -128,20 +134,20 @@ JSON是一种简单的文本文件格式，既易于人类理解，也易于计�
 
 你写道：`"format_version": 1.12`
 
-他们说："_format_version的值类型错误。它应该是一个字符串。_"
+他们说：“*format_version的值写错类型了。它应该是一个字符串。*”
 
-请记住，`type`指的是结构之一：`String`、`Int`、`Float`、`Array`或`Object`。如果我们检查代码，会发现我们将`format_version`设置为`Float`，而不是`String`。我们可以通过在`"1.12"`周围添加引号来解决此问题。
+请记住，`类型`指的是结构之一：`字符串`、`整数`、`浮点数`、`数组`或`对象`。如果我们检查代码，会发现我们将`format_version`设置为了`浮点数`，而不是`字符串`。我们可以通过在`"1.12"`周围添加引号来解决此问题。
 
 ---
 
 你写道：`[1 2 5 6]`
 
-他们说："_你的数组缺少逗号。_"
+他们说：“*你的数组没写逗号。*”
 
 请记住，数组元素需要用逗号分隔。你的数组应该是这样的：`[1, 2, 5, 6]`
 
 ---
 
-他们说：_"你不小心将格式版本放在了描述内部。它应该放在顶层外部。_"
+他们说：“*你把格式版本错放到描述内部了。它应该外放在顶层。*”
 
-这意味着`"format_version"`的键值对作为描述的_子项_。你应该将键值对从描述对象中复制/粘贴出来，并放置在顶层。
+这意味着`"format_version"`的键值对目前是描述的一个*子项*。你应该将键值对从描述对象中复制/粘贴出来，并放置在顶层。
