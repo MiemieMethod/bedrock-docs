@@ -134,7 +134,8 @@ extra_javascript:
 plugins:
   - search
   - social
-  - blog
+  - blog:
+      post_excerpt_separator: <!-- more -->
   - rss
   - tags
   - minify:
