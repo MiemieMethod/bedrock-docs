@@ -26,11 +26,12 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install \
-          mkdocs-material[recommended,git,imaging] \
-          mkdocs-rss-plugin \
-          mkdocs-git-revision-date-localized-plugin \
-          mkdocs-git-committers-plugin-2 \
-          mkdocs-minify-plugin \
+      - run: >-
+          pip install
+          mkdocs-material[recommended,git,imaging]
+          mkdocs-rss-plugin
+          mkdocs-git-revision-date-localized-plugin
+          mkdocs-git-committers-plugin-2
+          mkdocs-minify-plugin
           mkdocs-glightbox
       - run:  python -m mkdocs gh-deploy --force

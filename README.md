@@ -1,5 +1,7 @@
 # bedrock-docs
 
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
 ## 贡献
 
 克隆本仓库至本地。复制`tools`文件夹，粘贴至`docs`文件夹的根目录上。

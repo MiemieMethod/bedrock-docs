@@ -109,7 +109,7 @@ functionA(function() {
 
 `Promise`提供了一个链式调用的写法，如下：
 
-```
+```js
 functionA()
     .then(function() {
         return functionB();
@@ -125,7 +125,7 @@ functionA()
 
 或者用箭头函数写起来更简洁：
 
-```
+```js
 functionA()
     .then(() => functionB())
     .then(() => functionC())
@@ -228,21 +228,21 @@ sequenceDiagram
     participant P2 as promiseB
     participant P3 as promiseC
     participant P4 as promiseD
-    Main ->> P1: 调用 functionA
+    Main ->> P1: 调用functionA
     activate P1
-    Main -->> P2: 调用 promiseA.then
+    Main -->> P2: 调用promiseA.then
     activate P2
-    Main -->> P3: 调用 promiseB.then
+    Main -->> P3: 调用promiseB.then
     activate P3
-    Note right of P1: functionA 异步操作
-    P1 ->> P2: 调用 then 回调函数
+    Note right of P1: functionA异步操作
+    P1 ->> P2: 调用then回调函数
     deactivate P1
-    P2 ->> P4: 调用 functionB
+    P2 ->> P4: 调用functionB
     activate P4
-    Note left of P4: functionB 异步操作
+    Note left of P4: functionB异步操作
     P4 ->> P2: 
     deactivate P4
-    P2 ->> P3: 调用 then 回调函数
+    P2 ->> P3: 调用then回调函数
     deactivate P2
     Note left of P3: console.log("Success!")
     deactivate P3
