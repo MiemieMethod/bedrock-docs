@@ -16,6 +16,8 @@ hide:
 
 **前置知识：JavaScript基础知识**
 
+<!-- more -->
+
 ## 同步执行和异步回调
 
 首先先讲一下同步和异步。简单的来说，**同步就是可以立即返回，异步就是不能立即返回。**
@@ -31,8 +33,6 @@ functionB(function callback(b) {
 ```
 
 `a`可以被`functionA`立即返回，时间顺序可以这样表示：
-
-<!-- more -->
 
 1. 主线程执行`functionA`。
 2. `functionA`立即返回值。
@@ -137,7 +137,7 @@ functionA()
     .then(/* F, G, H ... */);
 ```
 
-如果想知道更多可参见下文：[Promise为什么能做到这个](#Promise为什么能实现链式调用？)
+如果想知道更多可参见下文：[Promise为什么能做到这个](#Promise为什么能实现链式调用)
 
 ## promise.then的替代品
 
