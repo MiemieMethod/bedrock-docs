@@ -43,23 +43,23 @@
 </span><span id=__span-27-9><a id=__codelineno-27-9 name=__codelineno-27-9 href=#__codelineno-27-9></a><span class=w>        </span><span class=p>})</span>
 </span><span id=__span-27-10><a id=__codelineno-27-10 name=__codelineno-27-10 href=#__codelineno-27-10></a><span class=w>    </span><span class=p>})</span>
 </span><span id=__span-27-11><a id=__codelineno-27-11 name=__codelineno-27-11 href=#__codelineno-27-11></a><span class=p>})</span>
-</span></code></pre></div> <p>明明是线性的执行顺序，却使用了层叠结构的代码，而且使用的数量越多，叠的层也越多。这就是所谓的“回调地狱”。</p> <h3 id=promise的链式调用><a class=toclink href=../../2024/11/20/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E7%90%86%E8%A7%A3%E7%9A%84%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%BC%82%E6%AD%A5%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0promise%E4%B8%8Easyncawait%E8%BF%98%E6%9C%89generator/#promise的链式调用>Promise的链式调用</a></h3> <p>为了解决这一问题，<code>Promise</code>应运而生。</p> <p><code>Promise</code>提供了一个链式调用的写法，如下：</p> <div class="language-text highlight"><pre><span></span><code><span id=__span-28-1><a id=__codelineno-28-1 name=__codelineno-28-1 href=#__codelineno-28-1></a>functionA()
-</span><span id=__span-28-2><a id=__codelineno-28-2 name=__codelineno-28-2 href=#__codelineno-28-2></a>    .then(function() {
-</span><span id=__span-28-3><a id=__codelineno-28-3 name=__codelineno-28-3 href=#__codelineno-28-3></a>        return functionB();
-</span><span id=__span-28-4><a id=__codelineno-28-4 name=__codelineno-28-4 href=#__codelineno-28-4></a>    }).then(function() {
-</span><span id=__span-28-5><a id=__codelineno-28-5 name=__codelineno-28-5 href=#__codelineno-28-5></a>        return functionC();
-</span><span id=__span-28-6><a id=__codelineno-28-6 name=__codelineno-28-6 href=#__codelineno-28-6></a>    }).then(function() {
-</span><span id=__span-28-7><a id=__codelineno-28-7 name=__codelineno-28-7 href=#__codelineno-28-7></a>        return functionD();
-</span><span id=__span-28-8><a id=__codelineno-28-8 name=__codelineno-28-8 href=#__codelineno-28-8></a>    }).then(function() {
-</span><span id=__span-28-9><a id=__codelineno-28-9 name=__codelineno-28-9 href=#__codelineno-28-9></a>        return functionE();
-</span><span id=__span-28-10><a id=__codelineno-28-10 name=__codelineno-28-10 href=#__codelineno-28-10></a>    })
-</span><span id=__span-28-11><a id=__codelineno-28-11 name=__codelineno-28-11 href=#__codelineno-28-11></a>    .then(/* F, G, H ... */);
-</span></code></pre></div> <p>或者用箭头函数写起来更简洁：</p> <div class="language-text highlight"><pre><span></span><code><span id=__span-29-1><a id=__codelineno-29-1 name=__codelineno-29-1 href=#__codelineno-29-1></a>functionA()
-</span><span id=__span-29-2><a id=__codelineno-29-2 name=__codelineno-29-2 href=#__codelineno-29-2></a>    .then(() =&gt; functionB())
-</span><span id=__span-29-3><a id=__codelineno-29-3 name=__codelineno-29-3 href=#__codelineno-29-3></a>    .then(() =&gt; functionC())
-</span><span id=__span-29-4><a id=__codelineno-29-4 name=__codelineno-29-4 href=#__codelineno-29-4></a>    .then(() =&gt; functionD())
-</span><span id=__span-29-5><a id=__codelineno-29-5 name=__codelineno-29-5 href=#__codelineno-29-5></a>    .then(() =&gt; functionE())
-</span><span id=__span-29-6><a id=__codelineno-29-6 name=__codelineno-29-6 href=#__codelineno-29-6></a>    .then(/* F, G, H ... */);
+</span></code></pre></div> <p>明明是线性的执行顺序，却使用了层叠结构的代码，而且使用的数量越多，叠的层也越多。这就是所谓的“回调地狱”。</p> <h3 id=promise的链式调用><a class=toclink href=../../2024/11/20/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E7%90%86%E8%A7%A3%E7%9A%84%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%BC%82%E6%AD%A5%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0promise%E4%B8%8Easyncawait%E8%BF%98%E6%9C%89generator/#promise的链式调用>Promise的链式调用</a></h3> <p>为了解决这一问题，<code>Promise</code>应运而生。</p> <p><code>Promise</code>提供了一个链式调用的写法，如下：</p> <div class="language-js highlight"><pre><span></span><code><span id=__span-28-1><a id=__codelineno-28-1 name=__codelineno-28-1 href=#__codelineno-28-1></a><span class=nx>functionA</span><span class=p>()</span>
+</span><span id=__span-28-2><a id=__codelineno-28-2 name=__codelineno-28-2 href=#__codelineno-28-2></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(</span><span class=kd>function</span><span class=p>()</span><span class=w> </span><span class=p>{</span>
+</span><span id=__span-28-3><a id=__codelineno-28-3 name=__codelineno-28-3 href=#__codelineno-28-3></a><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=nx>functionB</span><span class=p>();</span>
+</span><span id=__span-28-4><a id=__codelineno-28-4 name=__codelineno-28-4 href=#__codelineno-28-4></a><span class=w>    </span><span class=p>}).</span><span class=nx>then</span><span class=p>(</span><span class=kd>function</span><span class=p>()</span><span class=w> </span><span class=p>{</span>
+</span><span id=__span-28-5><a id=__codelineno-28-5 name=__codelineno-28-5 href=#__codelineno-28-5></a><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=nx>functionC</span><span class=p>();</span>
+</span><span id=__span-28-6><a id=__codelineno-28-6 name=__codelineno-28-6 href=#__codelineno-28-6></a><span class=w>    </span><span class=p>}).</span><span class=nx>then</span><span class=p>(</span><span class=kd>function</span><span class=p>()</span><span class=w> </span><span class=p>{</span>
+</span><span id=__span-28-7><a id=__codelineno-28-7 name=__codelineno-28-7 href=#__codelineno-28-7></a><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=nx>functionD</span><span class=p>();</span>
+</span><span id=__span-28-8><a id=__codelineno-28-8 name=__codelineno-28-8 href=#__codelineno-28-8></a><span class=w>    </span><span class=p>}).</span><span class=nx>then</span><span class=p>(</span><span class=kd>function</span><span class=p>()</span><span class=w> </span><span class=p>{</span>
+</span><span id=__span-28-9><a id=__codelineno-28-9 name=__codelineno-28-9 href=#__codelineno-28-9></a><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=nx>functionE</span><span class=p>();</span>
+</span><span id=__span-28-10><a id=__codelineno-28-10 name=__codelineno-28-10 href=#__codelineno-28-10></a><span class=w>    </span><span class=p>})</span>
+</span><span id=__span-28-11><a id=__codelineno-28-11 name=__codelineno-28-11 href=#__codelineno-28-11></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(</span><span class=cm>/* F, G, H ... */</span><span class=p>);</span>
+</span></code></pre></div> <p>或者用箭头函数写起来更简洁：</p> <div class="language-js highlight"><pre><span></span><code><span id=__span-29-1><a id=__codelineno-29-1 name=__codelineno-29-1 href=#__codelineno-29-1></a><span class=nx>functionA</span><span class=p>()</span>
+</span><span id=__span-29-2><a id=__codelineno-29-2 name=__codelineno-29-2 href=#__codelineno-29-2></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(()</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=nx>functionB</span><span class=p>())</span>
+</span><span id=__span-29-3><a id=__codelineno-29-3 name=__codelineno-29-3 href=#__codelineno-29-3></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(()</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=nx>functionC</span><span class=p>())</span>
+</span><span id=__span-29-4><a id=__codelineno-29-4 name=__codelineno-29-4 href=#__codelineno-29-4></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(()</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=nx>functionD</span><span class=p>())</span>
+</span><span id=__span-29-5><a id=__codelineno-29-5 name=__codelineno-29-5 href=#__codelineno-29-5></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(()</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=nx>functionE</span><span class=p>())</span>
+</span><span id=__span-29-6><a id=__codelineno-29-6 name=__codelineno-29-6 href=#__codelineno-29-6></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(</span><span class=cm>/* F, G, H ... */</span><span class=p>);</span>
 </span></code></pre></div> <p>如果想知道更多可参见下文：<a href="../../2024/11/20/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E7%90%86%E8%A7%A3%E7%9A%84%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%BC%82%E6%AD%A5%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0promise%E4%B8%8Easyncawait%E8%BF%98%E6%9C%89generator/#Promise 为什么能做到这个">Promise 为什么能做到这个</a></p> <h3 id=promisethen的替代品><a class=toclink href=../../2024/11/20/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E7%90%86%E8%A7%A3%E7%9A%84%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%BC%82%E6%AD%A5%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0promise%E4%B8%8Easyncawait%E8%BF%98%E6%9C%89generator/#promisethen的替代品>promise.then的替代品</a></h3> <p>虽然<code>Promise</code>的链式用法方便了很多，但本质上还是回调。因此在变量传递、判断结构、顺序结构等方面还是不够方便。于是<code>async</code>/<code>await</code>语法糖出现了。</p> <p>考虑一下这一段代码：</p> <div class="language-js highlight"><pre><span></span><code><span id=__span-30-1><a id=__codelineno-30-1 name=__codelineno-30-1 href=#__codelineno-30-1></a><span class=nx>funcA</span><span class=p>()</span>
 </span><span id=__span-30-2><a id=__codelineno-30-2 name=__codelineno-30-2 href=#__codelineno-30-2></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>((</span><span class=nx>a</span><span class=p>)</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=nx>funcB</span><span class=p>(</span><span class=nx>a</span><span class=p>).</span><span class=nx>then</span><span class=p>((</span><span class=nx>b</span><span class=p>)</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=p>[</span><span class=nx>a</span><span class=p>,</span><span class=w> </span><span class=nx>b</span><span class=p>]))</span>
 </span><span id=__span-30-3><a id=__codelineno-30-3 name=__codelineno-30-3 href=#__codelineno-30-3></a><span class=w>    </span><span class=p>.</span><span class=nx>then</span><span class=p>(([</span><span class=nx>a</span><span class=p>,</span><span class=w> </span><span class=nx>b</span><span class=p>])</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=nx>funcC</span><span class=p>(</span><span class=nx>a</span><span class=p>).</span><span class=nx>then</span><span class=p>((</span><span class=nx>c</span><span class=p>)</span><span class=w> </span><span class=p>=&gt;</span><span class=w> </span><span class=p>[</span><span class=nx>a</span><span class=p>,</span><span class=w> </span><span class=nx>b</span><span class=p>,</span><span class=w> </span><span class=nx>c</span><span class=p>]))</span>
@@ -93,21 +93,21 @@
     participant P2 as promiseB
     participant P3 as promiseC
     participant P4 as promiseD
-    Main -&gt;&gt; P1: 调用 functionA
+    Main -&gt;&gt; P1: 调用functionA
     activate P1
-    Main --&gt;&gt; P2: 调用 promiseA.then
+    Main --&gt;&gt; P2: 调用promiseA.then
     activate P2
-    Main --&gt;&gt; P3: 调用 promiseB.then
+    Main --&gt;&gt; P3: 调用promiseB.then
     activate P3
-    Note right of P1: functionA 异步操作
-    P1 -&gt;&gt; P2: 调用 then 回调函数
+    Note right of P1: functionA异步操作
+    P1 -&gt;&gt; P2: 调用then回调函数
     deactivate P1
-    P2 -&gt;&gt; P4: 调用 functionB
+    P2 -&gt;&gt; P4: 调用functionB
     activate P4
-    Note left of P4: functionB 异步操作
+    Note left of P4: functionB异步操作
     P4 -&gt;&gt; P2: 
     deactivate P4
-    P2 -&gt;&gt; P3: 调用 then 回调函数
+    P2 -&gt;&gt; P3: 调用then回调函数
     deactivate P2
     Note left of P3: console.log("Success!")
     deactivate P3</code></pre> <h3 id=generator函数与async函数的联系><a class=toclink href=../../2024/11/20/%E5%B0%8F%E7%99%BD%E4%B9%9F%E8%83%BD%E7%90%86%E8%A7%A3%E7%9A%84%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%BC%82%E6%AD%A5%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0promise%E4%B8%8Easyncawait%E8%BF%98%E6%9C%89generator/#generator函数与async函数的联系>Generator函数与async函数的联系</a></h3> <p>Generator函数曾经是async函数的替代。</p> <p>这是因为Generator函数允许使用<code>yield</code>来暂停函数的执行，同时还可以传入和返回值。</p> <div class="language-js highlight"><pre><span></span><code><span id=__span-34-1><a id=__codelineno-34-1 name=__codelineno-34-1 href=#__codelineno-34-1></a><span class=kd>function</span><span class=o>*</span><span class=w> </span><span class=nx>gen</span><span class=p>()</span><span class=w> </span><span class=p>{</span>
