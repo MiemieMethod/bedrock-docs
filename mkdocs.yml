@@ -136,7 +136,6 @@ plugins:
   - social
   - blog:
       post_excerpt_separator: <more/>
-      post_excerpt: required
   - rss
   - tags
   - minify:
