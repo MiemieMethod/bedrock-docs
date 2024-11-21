@@ -238,10 +238,10 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 ```json title="RP/entities/custom_tnt.json#minecraft:client_entity/description"
 "sound_effects": {
-    "explosion": "wiki.custom_tnt.explosion" // 其中wiki.custom_tnt.explosion是像动画声音一样在sound_definitions中定义的声音。
+  "explosion": "wiki.custom_tnt.explosion" // 其中wiki.custom_tnt.explosion是像动画声音一样在sound_definitions中定义的声音。
 },
 "particle_effects": {
-    "fuse_lit": "wiki:tnt_fuse_lit_particle"
+  "fuse_lit": "wiki:tnt_fuse_lit_particle"
 }
 ```
 
@@ -249,31 +249,31 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 ```json title="RP/animation_controllers/custom_tnt.animation_controllers.json#controller.animation.custom_tnt"
 "states":{
-    "default":{
-        "transitions":[
-            {
-                "explode_state":"q.mark_variant == 1"
-            }
-        ]
-    },
-    "explode_state":{
-        "sound_effects":[
-            {
-                "effect":"explosion"
-            }
-        ],
-    "particle_effects": [
+  "default":{
+    "transitions":[
       {
-        "effect": "fuse_lit"
-        // "locator": "<bone>" 定位器也可以在这里
+        "explode_state":"q.mark_variant == 1"
+      }
+    ]
+  },
+  "explode_state":{
+    "sound_effects":[
+      {
+        "effect":"explosion"
       }
     ],
-        "transitions":[
-            {
-                "default":"q.mark_variant == 0"
-            }
-        ]
+  "particle_effects": [
+    {
+    "effect": "fuse_lit"
+    // "locator": "<bone>" 定位器也可以在这里
     }
+  ],
+    "transitions":[
+      {
+        "default":"q.mark_variant == 0"
+      }
+    ]
+  }
 }
 ```
 
@@ -350,29 +350,29 @@ BP动画控制器位于BP中，可以附加到BP实体。它们允许你执行�
 
 ```json
 {
-    "format_version": "1.17.30",
-    "animation_controllers": {
-        "controller.animation.sheep.move": {
-            "states": {
-                "default": {
-                    "variables": {
-                        "ground_speed_curve": {
-                            "input": "q.ground_speed",
-                            "remap_curve": {
-                                "0.0": 0.2,
-                                "1.0": 0.7
-                            }
-                        }
-                    },
-                    "animations": [
-                        "wiggle_nose",
-                        {
-                            "walk": "v.ground_speed_curve"
-                        }
-                    ]
-                }
+  "format_version": "1.17.30",
+  "animation_controllers": {
+    "controller.animation.sheep.move": {
+      "states": {
+        "default": {
+          "variables": {
+            "ground_speed_curve": {
+              "input": "q.ground_speed",
+              "remap_curve": {
+                "0.0": 0.2,
+                "1.0": 0.7
+              }
             }
+          },
+          "animations": [
+            "wiggle_nose",
+            {
+              "walk": "v.ground_speed_curve"
+            }
+          ]
         }
+      }
     }
+  }
 }
 ```

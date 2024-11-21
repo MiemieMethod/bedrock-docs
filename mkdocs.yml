@@ -7420,6 +7420,7 @@ nav:
         - 动画控制器:
           - translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/index.md
           - 动画控制器简介: translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/animation-controllers-intro.md
+          - 实体命令: translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/entity-commands.md
     - bridge.:
       - translations/bridge/index.md
       - <samp>bridge-core.github.io</samp>:
