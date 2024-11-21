@@ -1,5 +1,6 @@
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
+*[API]: Application Programming Interface
 *[GTK]: GIMP Toolkit
 *[MTPE]: Machine Translation Post-Editing
 *[GPT]: Generative Pre-Trained Transformer
