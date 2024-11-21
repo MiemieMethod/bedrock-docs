@@ -7417,6 +7417,9 @@ nav:
             - 'd. 清单进阶': translations/bedrock-wiki/wiki-bedrock-dev/guide/advancedmanifest.md
             - 'e. 格式版本': translations/bedrock-wiki/wiki-bedrock-dev/guide/format-version.md
             - 安卓项目设置: translations/bedrock-wiki/wiki-bedrock-dev/guide/project-setup-android.md
+        - 动画控制器:
+          - translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/index.md
+          - 动画控制器简介: translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/animation-controllers-intro.md
     - bridge.:
       - translations/bridge/index.md
       - <samp>bridge-core.github.io</samp>:
