@@ -69,9 +69,11 @@ class AbbrTreeprocessor(Treeprocessor):
         # Step through tree and modify on matches
         self.iter_element(root)
 
+primalExtendMarkdown = AbbrExtension.extendMarkdown
+
 def extendMarkdown(self, md):
     """ Insert `AbbrTreeprocessor` and `AbbrBlockprocessor`. """
-    AbbrExtension.extendMarkdown(self, md)
+    primalExtendMarkdown(self, md)
     md.treeprocessors.deregister('abbr')
     md.treeprocessors.register(AbbrTreeprocessor(md, self.abbrs), 'abbr', 7)
 
