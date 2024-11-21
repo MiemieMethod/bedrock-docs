@@ -7421,6 +7421,8 @@ nav:
           - translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/index.md
           - 动画控制器简介: translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/animation-controllers-intro.md
           - 实体命令: translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/entity-commands.md
+          - AFK检测器: translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/afk-animation-controller.md
+          - 死亡命令: translations/bedrock-wiki/wiki-bedrock-dev/animation-controllers/death-commands.md
     - bridge.:
       - translations/bridge/index.md
       - <samp>bridge-core.github.io</samp>:
