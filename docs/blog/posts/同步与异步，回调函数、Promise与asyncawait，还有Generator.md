@@ -32,7 +32,7 @@ functionB(function callback(b) {
 
 `a`可以被`functionA`立即返回，时间顺序可以这样表示：
 
-<!-- more -->
+<more/>
 
 1. 主线程执行`functionA`。
 2. `functionA`立即返回值。

@@ -17,3 +17,4 @@
 *[SP]: Skin Pack
 *[WT]: World Template
 *[JSON]: JavaScript Object Notation
+*[JS]: JavaScript
