@@ -3,9 +3,7 @@ from markdown.treeprocessors import Treeprocessor
 from markdown.util import AtomicString
 import re
 import xml.etree.ElementTree as etree
-from typing import TYPE_CHECKING
-if TYPE_CHECKING:  # pragma: no cover
-    from markdown import Markdown
+from markdown import Markdown
 
 def _generate_pattern(self, text: str) -> str:
     """
