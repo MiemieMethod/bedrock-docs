@@ -18,3 +18,8 @@
 *[WT]: World Template
 *[JSON]: JavaScript Object Notation
 *[JS]: JavaScript
+*[TS]: TypeScript
+*[UI]: User Interface
+*[UX]: User Experience
+*[CLI]: Command Line Interface
+*[GUI]: Graphical User Interface
