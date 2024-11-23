@@ -1,6 +1,6 @@
 # `WidgetComponentBase`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `WidgetComponentBase`类。script_api.@minecraft/server-editor-bindings.widgetcomponentbase.description
 
@@ -43,6 +43,28 @@ read-only location: Vector3;
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
 - script_api.@minecraft/server-editor-bindings.widgetcomponentbase.location.description
+
+
+////
+
+///
+
+
+/// define
+`lockToSurface`
+
+
+///
+
+```js
+lockToSurface: boolean;
+```
+
+/// html | div.result
+//// define
+`lockToSurface`：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.widgetcomponentbase.locktosurface.description
 
 
 ////
@@ -179,6 +201,38 @@ delete(): void
 返回值：`void`
 
 - script_api.@minecraft/server-editor-bindings.widgetcomponentbase.delete.return
+
+
+////
+
+///
+
+
+/// define
+`setStateChangeEvent`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.widgetcomponentbase.setstatechangeevent.description
+
+```js
+setStateChangeEvent(eventFunction?: (arg: WidgetComponentStateChangeEventData) => void): void
+```
+
+/// html | div.result
+//// define
+`eventFunction`?：<code>(<a href="../widgetcomponentstatechangeeventdata/">WidgetComponentStateChangeEventData</a>) =&gt; void</code>＝`null`
+
+- script_api.@minecraft/server-editor-bindings.widgetcomponentbase.setstatechangeevent.eventfunction.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.widgetcomponentbase.setstatechangeevent.return
 
 
 ////

@@ -1,6 +1,6 @@
 # `/event`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/event`命令command.event.description
 
@@ -56,6 +56,8 @@ command.event.1.description
   |`dried_out`|command.enum.entityevents.dried_out|
   |`enter_water`|command.enum.entityevents.enter_water|
   |`escaped_event`|command.enum.entityevents.escaped_event|
+  |`fed_open_eyeblossom`|command.enum.entityevents.fed_open_eyeblossom|
+  |`fed_wither_rose`|command.enum.entityevents.fed_wither_rose|
   |`find_flower_timeout`|command.enum.entityevents.find_flower_timeout|
   |`find_hive_event`|command.enum.entityevents.find_hive_event|
   |`find_hive_timeout`|command.enum.entityevents.find_hive_timeout|
@@ -86,17 +88,17 @@ command.event.1.description
   |`minecraft:as_baby`|command.enum.entityevents.minecraft:as_baby|
   |`minecraft:ate_allium`|command.enum.entityevents.minecraft:ate_allium|
   |`minecraft:ate_bluet`|command.enum.entityevents.minecraft:ate_bluet|
+  |`minecraft:ate_closed_eyeblossom`|command.enum.entityevents.minecraft:ate_closed_eyeblossom|
   |`minecraft:ate_cornflower`|command.enum.entityevents.minecraft:ate_cornflower|
   |`minecraft:ate_daisy`|command.enum.entityevents.minecraft:ate_daisy|
   |`minecraft:ate_dandelion`|command.enum.entityevents.minecraft:ate_dandelion|
   |`minecraft:ate_lily`|command.enum.entityevents.minecraft:ate_lily|
+  |`minecraft:ate_open_eyeblossom`|command.enum.entityevents.minecraft:ate_open_eyeblossom|
   |`minecraft:ate_orchid`|command.enum.entityevents.minecraft:ate_orchid|
   |`minecraft:ate_poppy`|command.enum.entityevents.minecraft:ate_poppy|
   |`minecraft:ate_rose`|command.enum.entityevents.minecraft:ate_rose|
   |`minecraft:ate_torchflower`|command.enum.entityevents.minecraft:ate_torchflower|
   |`minecraft:ate_tulip`|command.enum.entityevents.minecraft:ate_tulip|
-  |`minecraft:attacked_by_mob`|command.enum.entityevents.minecraft:attacked_by_mob|
-  |`minecraft:attacked_by_player`|command.enum.entityevents.minecraft:attacked_by_player|
   |`minecraft:baby_on_calm`|command.enum.entityevents.minecraft:baby_on_calm|
   |`minecraft:become_aggressive`|command.enum.entityevents.minecraft:become_aggressive|
   |`minecraft:become_aggro`|command.enum.entityevents.minecraft:become_aggro|
@@ -161,7 +163,10 @@ command.event.1.description
   |`minecraft:convert_to_drowned`|command.enum.entityevents.minecraft:convert_to_drowned|
   |`minecraft:convert_to_zombie`|command.enum.entityevents.minecraft:convert_to_zombie|
   |`minecraft:crumble`|command.enum.entityevents.minecraft:crumble|
+  |`minecraft:crumble_and_notify_creaking_heart`|command.enum.entityevents.minecraft:crumble_and_notify_creaking_heart|
   |`minecraft:crystal_explode`|command.enum.entityevents.minecraft:crystal_explode|
+  |`minecraft:damaged_by_entity`|command.enum.entityevents.minecraft:damaged_by_entity|
+  |`minecraft:damaged_by_player`|command.enum.entityevents.minecraft:damaged_by_player|
   |`minecraft:defend_wandering_trader`|command.enum.entityevents.minecraft:defend_wandering_trader|
   |`minecraft:donkey_saddled`|command.enum.entityevents.minecraft:donkey_saddled|
   |`minecraft:donkey_unsaddled`|command.enum.entityevents.minecraft:donkey_unsaddled|
@@ -199,6 +204,7 @@ command.event.1.description
   |`minecraft:horse_saddled`|command.enum.entityevents.minecraft:horse_saddled|
   |`minecraft:horse_unsaddled`|command.enum.entityevents.minecraft:horse_unsaddled|
   |`minecraft:increase_max_health`|command.enum.entityevents.minecraft:increase_max_health|
+  |`minecraft:increment_swaying_ticks`|command.enum.entityevents.minecraft:increment_swaying_ticks|
   |`minecraft:join_caravan`|command.enum.entityevents.minecraft:join_caravan|
   |`minecraft:laid_egg`|command.enum.entityevents.minecraft:laid_egg|
   |`minecraft:leave_caravan`|command.enum.entityevents.minecraft:leave_caravan|
@@ -250,6 +256,7 @@ command.event.1.description
   |`minecraft:ranged_mode`|command.enum.entityevents.minecraft:ranged_mode|
   |`minecraft:remove_persistence`|command.enum.entityevents.minecraft:remove_persistence|
   |`minecraft:remove_raid_trigger`|command.enum.entityevents.minecraft:remove_raid_trigger|
+  |`minecraft:reset_swaying_ticks`|command.enum.entityevents.minecraft:reset_swaying_ticks|
   |`minecraft:resupply_trades`|command.enum.entityevents.minecraft:resupply_trades|
   |`minecraft:roll_up`|command.enum.entityevents.minecraft:roll_up|
   |`minecraft:schedule_bed_villager`|command.enum.entityevents.minecraft:schedule_bed_villager|
@@ -315,7 +322,6 @@ command.event.1.description
   |`minecraft:start_playing_idle_ground_sound`|command.enum.entityevents.minecraft:start_playing_idle_ground_sound|
   |`minecraft:start_roar`|command.enum.entityevents.minecraft:start_roar|
   |`minecraft:start_sitting`|command.enum.entityevents.minecraft:start_sitting|
-  |`minecraft:start_swaying`|command.enum.entityevents.minecraft:start_swaying|
   |`minecraft:start_transforming`|command.enum.entityevents.minecraft:start_transforming|
   |`minecraft:start_twitching`|command.enum.entityevents.minecraft:start_twitching|
   |`minecraft:start_unrolling`|command.enum.entityevents.minecraft:start_unrolling|
@@ -326,7 +332,6 @@ command.event.1.description
   |`minecraft:stop_peeking`|command.enum.entityevents.minecraft:stop_peeking|
   |`minecraft:stop_playing_idle_ground_sound`|command.enum.entityevents.minecraft:stop_playing_idle_ground_sound|
   |`minecraft:stop_sitting`|command.enum.entityevents.minecraft:stop_sitting|
-  |`minecraft:stop_swaying`|command.enum.entityevents.minecraft:stop_swaying|
   |`minecraft:stop_transforming`|command.enum.entityevents.minecraft:stop_transforming|
   |`minecraft:switch_to_melee`|command.enum.entityevents.minecraft:switch_to_melee|
   |`minecraft:switch_to_ranged`|command.enum.entityevents.minecraft:switch_to_ranged|
@@ -363,10 +368,12 @@ command.event.1.description
   |`on_feeling_happy_end`|command.enum.entityevents.on_feeling_happy_end|
   |`on_item_found`|command.enum.entityevents.on_item_found|
   |`on_not_riding_parent`|command.enum.entityevents.on_not_riding_parent|
+  |`on_poison_effect_added`|command.enum.entityevents.on_poison_effect_added|
   |`on_pregnant`|command.enum.entityevents.on_pregnant|
   |`on_rising_end`|command.enum.entityevents.on_rising_end|
   |`on_scenting_success`|command.enum.entityevents.on_scenting_success|
   |`on_search_and_digging_success`|command.enum.entityevents.on_search_and_digging_success|
+  |`on_wither_effect_added`|command.enum.entityevents.on_wither_effect_added|
   |`perish_event`|command.enum.entityevents.perish_event|
   |`pickup_item_delay`|command.enum.entityevents.pickup_item_delay|
   |`pickup_item_delay_complete`|command.enum.entityevents.pickup_item_delay_complete|

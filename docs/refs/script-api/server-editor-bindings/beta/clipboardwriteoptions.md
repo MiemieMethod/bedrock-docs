@@ -1,32 +1,10 @@
 # `ClipboardWriteOptions`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ClipboardWriteOptions`接口。script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.description
 
 ## 属性
-
-/// define
-`anchor`
-
-
-///
-
-```js
-anchor: Vector3 | undefined;
-```
-
-/// html | div.result
-//// define
-`anchor`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
-
-- script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.anchor.description
-
-
-////
-
-///
-
 
 /// define
 `mirror`
@@ -43,6 +21,28 @@ mirror: StructureMirrorAxis | undefined;
 `mirror`：[`StructureMirrorAxis`](../../server/beta/structuremirroraxis.md)|`undefined`
 
 - script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.mirror.description
+
+
+////
+
+///
+
+
+/// define
+`normalizedOrigin`
+
+
+///
+
+```js
+normalizedOrigin: Vector3 | undefined;
+```
+
+/// html | div.result
+//// define
+`normalizedOrigin`：[`Vector3`](../../server/beta/vector3.md)|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.clipboardwriteoptions.normalizedorigin.description
 
 
 ////

@@ -1,6 +1,6 @@
 # `IBlockPaletteItem`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `IBlockPaletteItem`类。script_api.@minecraft/server-editor-bindings.iblockpaletteitem.description
 
@@ -39,12 +39,12 @@ getBlock(): BlockType | undefined
 script_api.@minecraft/server-editor-bindings.iblockpaletteitem.getdisplayname.description
 
 ```js
-getDisplayName(): string
+getDisplayName(): string | undefined
 ```
 
 /// html | div.result
 //// define
-返回值：`string`
+返回值：`string`|`undefined`
 
 - script_api.@minecraft/server-editor-bindings.iblockpaletteitem.getdisplayname.return
 

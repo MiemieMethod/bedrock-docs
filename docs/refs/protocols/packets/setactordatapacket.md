@@ -26,8 +26,8 @@ rankdir = LR
 4 [label="std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >",comment="name: \"std::vector<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> >,class std::allocator<class std::unique_ptr<class DataItem,struct std::default_delete<class DataItem> > > >\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Synched Properties",comment="name: \"Synched Properties\", typeName: \"PropertySyncData\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 6 [label="PropertySyncData",comment="name: \"PropertySyncData\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-7 [label="Tick",comment="name: \"Tick\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Which frame we're correcting; should match the tick in the Player Auth Input packet. (Can be 0 if not doing server auth movement.)\""];
-8 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Tick",comment="name: \"Tick\", typeName: \"PlayerInputTick\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"If this packet is referring to the player or a client predicted vehicle they are in control of, this should be the most recently processed PlayerInputTick from their PlayerAuthInputPacket. Otherwise zero.\""];
+8 [label="PlayerInputTick",comment="name: \"PlayerInputTick\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8}
 
 }
@@ -63,9 +63,9 @@ Synched Properties：[<!-- md:samp PropertySyncData -->](../types/propertysyncda
 
 ////
 //// define
-Tick：<!-- md:samp unsigned varint64 -->
+Tick：[<!-- md:samp PlayerInputTick -->](../types/playerinputtick.md)
 
-- 基本类型。protocol.packet.setactordatapacket.tick.descriptionWhich frame we're correcting; should match the tick in the Player Auth Input packet. (Can be 0 if not doing server auth movement.)
+- 特殊类型。protocol.packet.setactordatapacket.tick.descriptionIf this packet is referring to the player or a client predicted vehicle they are in control of, this should be the most recently processed PlayerInputTick from their PlayerAuthInputPacket. Otherwise zero.
 
 
 ////

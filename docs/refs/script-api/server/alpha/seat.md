@@ -1,6 +1,6 @@
 # `Seat`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `Seat`类。script_api.@minecraft/server.seat.description
 

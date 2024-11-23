@@ -1,6 +1,6 @@
 # `mojang-minecraft`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `mojang-minecraft`模块的`0.1.0`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块，在最新模块版本中已改名为`@minecraft/server`。
 

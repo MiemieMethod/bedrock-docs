@@ -1,6 +1,6 @@
 # `EntityQueryOptions`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `EntityQueryOptions`接口，扩展自[`EntityFilter`](./entityfilter.md)。script_api.@minecraft/server.entityqueryoptions.description
 

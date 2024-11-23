@@ -1,6 +1,6 @@
 # `StructureManager`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `StructureManager`类。script_api.@minecraft/server.structuremanager.description
 
@@ -271,7 +271,7 @@ place(structure: string | Structure, dimension: Dimension, location: Vector3, op
 script_api.@minecraft/server.structuremanager.placejigsaw.description
 
 ```js
-placeJigsaw(pool: string, targetJigsaw: string, maxDepth: int32, dimension: Dimension, location: Vector3, options?: JigsawPlaceOptions): void
+placeJigsaw(pool: string, targetJigsaw: string, maxDepth: int32, dimension: Dimension, location: Vector3, options?: JigsawPlaceOptions): BoundingBox
 ```
 
 /// html | div.result
@@ -324,7 +324,7 @@ placeJigsaw(pool: string, targetJigsaw: string, maxDepth: int32, dimension: Dime
 ////
 
 //// define
-返回值：`void`
+返回值：[`BoundingBox`](./boundingbox.md)
 
 - script_api.@minecraft/server.structuremanager.placejigsaw.return
 
@@ -343,7 +343,7 @@ placeJigsaw(pool: string, targetJigsaw: string, maxDepth: int32, dimension: Dime
 script_api.@minecraft/server.structuremanager.placejigsawstructure.description
 
 ```js
-placeJigsawStructure(identifier: string, dimension: Dimension, location: Vector3, options?: JigsawStructurePlaceOptions): void
+placeJigsawStructure(identifier: string, dimension: Dimension, location: Vector3, options?: JigsawStructurePlaceOptions): BoundingBox
 ```
 
 /// html | div.result
@@ -380,7 +380,7 @@ placeJigsawStructure(identifier: string, dimension: Dimension, location: Vector3
 ////
 
 //// define
-返回值：`void`
+返回值：[`BoundingBox`](./boundingbox.md)
 
 - script_api.@minecraft/server.structuremanager.placejigsawstructure.return
 

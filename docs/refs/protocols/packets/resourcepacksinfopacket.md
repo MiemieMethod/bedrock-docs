@@ -38,14 +38,8 @@ rankdir = LR
 25 -> 26
 10 -> 27
 27 -> 28
-0 -> 29
+10 -> 29
 29 -> 30
-30 -> 31
-29 -> 32
-32 -> 33
-33 -> 34
-32 -> 35
-35 -> 36
 
 0 [label="ResourcePacksInfoPacket",comment="name: \"ResourcePacksInfoPacket\", typeName: \"\", id: 0, branchId: 6, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Resource Pack Required",comment="name: \"Resource Pack Required\", typeName: \"\", id: 1, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -76,15 +70,9 @@ rankdir = LR
 26 [label="bool",comment="name: \"bool\", typeName: \"\", id: 26, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 27 [label="Is Ray Tracing Capable",comment="name: \"Is Ray Tracing Capable\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 28 [label="bool",comment="name: \"bool\", typeName: \"\", id: 28, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-29 [label="CDN URLs",comment="name: \"CDN URLs\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 8, notes: \"\""];
-30 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-31 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 31, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-32 [label="example element",style=dotted,comment="name: \"example element\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 16, notes: \"\""];
-33 [label="First",comment="name: \"First\", typeName: \"\", id: 33, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-34 [label="string",comment="name: \"string\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-35 [label="Second",comment="name: \"Second\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-36 [label="string",comment="name: \"string\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;2;4;6;9;12;14;16;18;20;22;24;26;28;31;34;36}
+29 [label="CDN URL",comment="name: \"CDN URL\", typeName: \"\", id: 29, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+30 [label="string",comment="name: \"string\", typeName: \"\", id: 30, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;2;4;6;9;12;14;16;18;20;22;24;26;28;30}
 
 }
 
@@ -93,7 +81,7 @@ rankdir = LR
 ## 字段
 
 ```title='ResourcePacksInfoPacket'
-[resource_pack_required][has_add-on_packs][has_scripts][resource_packs][cdn_urls]
+[resource_pack_required][has_add-on_packs][has_scripts][resource_packs]
 ```
 
 /// html | div.result
@@ -131,7 +119,7 @@ Resource Pack Count：<!-- md:samp unsigned short -->
 
 /////
 ```title='示例元素'
-[id][version][size][content_key][sub_pack_name][content_identity][has_scripts][is_addon_pack][is_ray_tracing_capable]
+[id][version][size][content_key][sub_pack_name][content_identity][has_scripts][is_addon_pack][is_ray_tracing_capable][cdn_url]
 ```
 
 ///// html | div.result
@@ -198,38 +186,10 @@ Is Ray Tracing Capable：<!-- md:samp bool -->
 
 
 //////
-
-/////
-
-////
-```title='CDN URLs'
-[array_size][[example_element]..]
-```
-
-//// html | div.result
-///// define
-数组大小：<!-- md:samp unsigned varint -->
-
-- 基本类型。protocol.packet.resourcepacksinfopacket.cdn_urls.array_size.description
-
-
-/////
-```title='示例元素'
-[first][second]
-```
-
-///// html | div.result
 ////// define
-First：[<!-- md:samp string -->](../types/string.md)
+CDN URL：[<!-- md:samp string -->](../types/string.md)
 
-- 特殊类型。protocol.packet.resourcepacksinfopacket.cdn_urls.example_element.first.description
-
-
-//////
-////// define
-Second：[<!-- md:samp string -->](../types/string.md)
-
-- 特殊类型。protocol.packet.resourcepacksinfopacket.cdn_urls.example_element.second.description
+- 特殊类型。protocol.packet.resourcepacksinfopacket.resource_packs.example_element.cdn_url.description
 
 
 //////

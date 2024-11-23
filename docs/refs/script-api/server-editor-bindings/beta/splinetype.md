@@ -1,6 +1,6 @@
 # `SplineType`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `SplineType`枚举。script_api.@minecraft/server-editor-bindings.splinetype.description
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only Hermite = "Hermite";
+static read-only Hermite = 1;
 ```
 
 
@@ -24,6 +24,6 @@ static read-only Hermite = "Hermite";
 ///
 
 ```js
-static read-only Line = "Line";
+static read-only Line = 0;
 ```
 

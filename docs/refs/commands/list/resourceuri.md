@@ -1,6 +1,6 @@
 # `/resourceuri`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/resourceuri`命令command.resourceuri.description
 

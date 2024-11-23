@@ -1,6 +1,6 @@
 # `TickingAreaManager`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `TickingAreaManager`类。script_api.@minecraft/server-editor-bindings.tickingareamanager.description
 

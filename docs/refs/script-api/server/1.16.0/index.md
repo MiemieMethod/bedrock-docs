@@ -1,6 +1,6 @@
 # `@minecraft/server`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `@minecraft/server`模块的`1.16.0`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
 
@@ -137,6 +137,7 @@ static read-only world: World;
 |[`ButtonPushAfterEvent`](./buttonpushafterevent.md)||
 |[`ButtonPushAfterEventSignal`](./buttonpushaftereventsignal.md)||
 |[`Camera`](./camera.md)||
+|[`ClientSystemInfo`](./clientsysteminfo.md)||
 |[`CommandResult`](./commandresult.md)||
 |[`Component`](./component.md)||
 |[`Container`](./container.md)||
@@ -360,6 +361,7 @@ static read-only world: World;
 |[`StructureManager`](./structuremanager.md)||
 |[`System`](./system.md)||
 |[`SystemAfterEvents`](./systemafterevents.md)||
+|[`SystemInfo`](./systeminfo.md)||
 |[`TargetBlockHitAfterEvent`](./targetblockhitafterevent.md)||
 |[`TargetBlockHitAfterEventSignal`](./targetblockhitaftereventsignal.md)||
 |[`Trigger`](./trigger.md)||
@@ -383,6 +385,7 @@ static read-only world: World;
 |---|---|
 |[`BlockCustomComponent`](./blockcustomcomponent.md)||
 |[`BlockEventOptions`](./blockeventoptions.md)||
+|[`BlockFillOptions`](./blockfilloptions.md)||
 |[`BlockFilter`](./blockfilter.md)||
 |[`BlockHitInformation`](./blockhitinformation.md)||
 |[`BlockRaycastHit`](./blockraycasthit.md)||
@@ -465,9 +468,11 @@ static read-only world: World;
 |[`InputPermissionCategory`](./inputpermissioncategory.md)||
 |[`ItemComponentTypes`](./itemcomponenttypes.md)||
 |[`ItemLockMode`](./itemlockmode.md)||
+|[`MemoryTier`](./memorytier.md)||
 |[`MoonPhase`](./moonphase.md)||
 |[`ObjectiveSortOrder`](./objectivesortorder.md)||
 |[`PaletteColor`](./palettecolor.md)||
+|[`PlatformType`](./platformtype.md)||
 |[`ScoreboardIdentityType`](./scoreboardidentitytype.md)||
 |[`ScriptEventSource`](./scripteventsource.md)||
 |[`SignSide`](./signside.md)||
@@ -501,3 +506,4 @@ static read-only world: World;
 |[`ItemCustomComponentReloadVersionError`](./itemcustomcomponentreloadversionerror.md)||
 |[`LocationInUnloadedChunkError`](./locationinunloadedchunkerror.md)||
 |[`LocationOutOfWorldBoundariesError`](./locationoutofworldboundarieserror.md)||
+|[`UnloadedChunksError`](./unloadedchunkserror.md)||

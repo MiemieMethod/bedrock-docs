@@ -1,6 +1,6 @@
 # `BoolBlockProperty`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BoolBlockProperty`类，扩展自[`IBlockProperty`](./iblockproperty.md)。script_api.mojang-minecraft.boolblockproperty.description
 

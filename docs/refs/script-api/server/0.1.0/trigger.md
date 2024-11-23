@@ -1,6 +1,6 @@
 # `Trigger`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `Trigger`类。script_api.mojang-minecraft.trigger.description
 

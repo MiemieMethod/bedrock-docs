@@ -1,6 +1,6 @@
 # `EntityComponentTypeMap`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `EntityComponentTypeMap`类型别名。script_api.@minecraft/server.entitycomponenttypemap.description
 
@@ -19,66 +19,6 @@
 
 - 映射。
 
-`minecraft:cursor_inventory`：[`PlayerCursorInventoryComponent`](./playercursorinventorycomponent.md)
-
-- 映射。
-
-`minecraft:equippable`：[`EntityEquippableComponent`](./entityequippablecomponent.md)
-
-- 映射。
-
-`minecraft:healable`：[`EntityHealableComponent`](./entityhealablecomponent.md)
-
-- 映射。
-
-`minecraft:inventory`：[`EntityInventoryComponent`](./entityinventorycomponent.md)
-
-- 映射。
-
-`minecraft:item`：[`EntityItemComponent`](./entityitemcomponent.md)
-
-- 映射。
-
-`minecraft:leashable`：[`EntityLeashableComponent`](./entityleashablecomponent.md)
-
-- 映射。
-
-`minecraft:tamemount`：[`EntityTameMountComponent`](./entitytamemountcomponent.md)
-
-- 映射。
-
-`minecraft:npc`：[`EntityNpcComponent`](./entitynpccomponent.md)
-
-- 映射。
-
-`minecraft:onfire`：[`EntityOnFireComponent`](./entityonfirecomponent.md)
-
-- 映射。
-
-`minecraft:projectile`：[`EntityProjectileComponent`](./entityprojectilecomponent.md)
-
-- 映射。
-
-`minecraft:rideable`：[`EntityRideableComponent`](./entityrideablecomponent.md)
-
-- 映射。
-
-`minecraft:riding`：[`EntityRidingComponent`](./entityridingcomponent.md)
-
-- 映射。
-
-`minecraft:strength`：[`EntityStrengthComponent`](./entitystrengthcomponent.md)
-
-- 映射。
-
-`minecraft:tameable`：[`EntityTameableComponent`](./entitytameablecomponent.md)
-
-- 映射。
-
-`minecraft:type_family`：[`EntityTypeFamilyComponent`](./entitytypefamilycomponent.md)
-
-- 映射。
-
 `minecraft:can_climb`：[`EntityCanClimbComponent`](./entitycanclimbcomponent.md)
 
 - 映射。
@@ -91,11 +31,51 @@
 
 - 映射。
 
+`minecraft:color`：[`EntityColorComponent`](./entitycolorcomponent.md)
+
+- 映射。
+
+`minecraft:color2`：[`EntityColor2Component`](./entitycolor2component.md)
+
+- 映射。
+
+`minecraft:cursor_inventory`：[`PlayerCursorInventoryComponent`](./playercursorinventorycomponent.md)
+
+- 映射。
+
+`minecraft:equippable`：[`EntityEquippableComponent`](./entityequippablecomponent.md)
+
+- 映射。
+
 `minecraft:fire_immune`：[`EntityFireImmuneComponent`](./entityfireimmunecomponent.md)
 
 - 映射。
 
 `minecraft:floats_in_liquid`：[`EntityFloatsInLiquidComponent`](./entityfloatsinliquidcomponent.md)
+
+- 映射。
+
+`minecraft:flying_speed`：[`EntityFlyingSpeedComponent`](./entityflyingspeedcomponent.md)
+
+- 映射。
+
+`minecraft:friction_modifier`：[`EntityFrictionModifierComponent`](./entityfrictionmodifiercomponent.md)
+
+- 映射。
+
+`minecraft:ground_offset`：[`EntityGroundOffsetComponent`](./entitygroundoffsetcomponent.md)
+
+- 映射。
+
+`minecraft:healable`：[`EntityHealableComponent`](./entityhealablecomponent.md)
+
+- 映射。
+
+`minecraft:health`：[`EntityHealthComponent`](./entityhealthcomponent.md)
+
+- 映射。
+
+`minecraft:inventory`：[`EntityInventoryComponent`](./entityinventorycomponent.md)
 
 - 映射。
 
@@ -151,27 +131,15 @@
 
 - 映射。
 
-`minecraft:wants_jockey`：[`EntityWantsJockeyComponent`](./entitywantsjockeycomponent.md)
+`minecraft:item`：[`EntityItemComponent`](./entityitemcomponent.md)
 
 - 映射。
 
-`minecraft:color`：[`EntityColorComponent`](./entitycolorcomponent.md)
+`minecraft:lava_movement`：[`EntityLavaMovementComponent`](./entitylavamovementcomponent.md)
 
 - 映射。
 
-`minecraft:color2`：[`EntityColor2Component`](./entitycolor2component.md)
-
-- 映射。
-
-`minecraft:flying_speed`：[`EntityFlyingSpeedComponent`](./entityflyingspeedcomponent.md)
-
-- 映射。
-
-`minecraft:friction_modifier`：[`EntityFrictionModifierComponent`](./entityfrictionmodifiercomponent.md)
-
-- 映射。
-
-`minecraft:ground_offset`：[`EntityGroundOffsetComponent`](./entitygroundoffsetcomponent.md)
+`minecraft:leashable`：[`EntityLeashableComponent`](./entityleashablecomponent.md)
 
 - 映射。
 
@@ -179,27 +147,7 @@
 
 - 映射。
 
-`minecraft:push_through`：[`EntityPushThroughComponent`](./entitypushthroughcomponent.md)
-
-- 映射。
-
-`minecraft:scale`：[`EntityScaleComponent`](./entityscalecomponent.md)
-
-- 映射。
-
-`minecraft:skin_id`：[`EntitySkinIdComponent`](./entityskinidcomponent.md)
-
-- 映射。
-
-`minecraft:variant`：[`EntityVariantComponent`](./entityvariantcomponent.md)
-
-- 映射。
-
-`minecraft:health`：[`EntityHealthComponent`](./entityhealthcomponent.md)
-
-- 映射。
-
-`minecraft:lava_movement`：[`EntityLavaMovementComponent`](./entitylavamovementcomponent.md)
+`minecraft:movement`：[`EntityMovementComponent`](./entitymovementcomponent.md)
 
 - 映射。
 
@@ -208,10 +156,6 @@
 - 映射。
 
 `minecraft:movement.basic`：[`EntityMovementBasicComponent`](./entitymovementbasiccomponent.md)
-
-- 映射。
-
-`minecraft:movement`：[`EntityMovementComponent`](./entitymovementcomponent.md)
 
 - 映射。
 
@@ -267,7 +211,63 @@
 
 - 映射。
 
+`minecraft:npc`：[`EntityNpcComponent`](./entitynpccomponent.md)
+
+- 映射。
+
+`minecraft:onfire`：[`EntityOnFireComponent`](./entityonfirecomponent.md)
+
+- 映射。
+
+`minecraft:projectile`：[`EntityProjectileComponent`](./entityprojectilecomponent.md)
+
+- 映射。
+
+`minecraft:push_through`：[`EntityPushThroughComponent`](./entitypushthroughcomponent.md)
+
+- 映射。
+
+`minecraft:rideable`：[`EntityRideableComponent`](./entityrideablecomponent.md)
+
+- 映射。
+
+`minecraft:riding`：[`EntityRidingComponent`](./entityridingcomponent.md)
+
+- 映射。
+
+`minecraft:scale`：[`EntityScaleComponent`](./entityscalecomponent.md)
+
+- 映射。
+
+`minecraft:skin_id`：[`EntitySkinIdComponent`](./entityskinidcomponent.md)
+
+- 映射。
+
+`minecraft:strength`：[`EntityStrengthComponent`](./entitystrengthcomponent.md)
+
+- 映射。
+
+`minecraft:tameable`：[`EntityTameableComponent`](./entitytameablecomponent.md)
+
+- 映射。
+
+`minecraft:tamemount`：[`EntityTameMountComponent`](./entitytamemountcomponent.md)
+
+- 映射。
+
+`minecraft:type_family`：[`EntityTypeFamilyComponent`](./entitytypefamilycomponent.md)
+
+- 映射。
+
 `minecraft:underwater_movement`：[`EntityUnderwaterMovementComponent`](./entityunderwatermovementcomponent.md)
+
+- 映射。
+
+`minecraft:variant`：[`EntityVariantComponent`](./entityvariantcomponent.md)
+
+- 映射。
+
+`minecraft:wants_jockey`：[`EntityWantsJockeyComponent`](./entitywantsjockeycomponent.md)
 
 - 映射。
 

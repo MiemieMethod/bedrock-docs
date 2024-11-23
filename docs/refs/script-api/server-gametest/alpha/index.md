@@ -1,6 +1,6 @@
 # `@minecraft/server-gametest`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `@minecraft/server-gametest`模块的`2.0.0-alpha`版本，UUID为`6f4b6893-1bb6-42fd-b458-7fa3d0c89616`。该模块是script_api.@minecraft/server-gametest.description
 

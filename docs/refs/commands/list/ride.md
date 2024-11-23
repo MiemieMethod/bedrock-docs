@@ -1,6 +1,6 @@
 # `/ride`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/ride`命令command.ride.description
 

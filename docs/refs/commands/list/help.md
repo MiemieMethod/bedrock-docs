@@ -1,6 +1,6 @@
 # `/help`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/help`命令command.help.description
 
@@ -58,6 +58,7 @@ command.help.1.description
   |`gametest`|command.enum.commandname.gametest|
   |`gettopsolidblock`|command.enum.commandname.gettopsolidblock|
   |`give`|command.enum.commandname.give|
+  |`globalpause`|command.enum.commandname.globalpause|
   |`help`|command.enum.commandname.help|
   |`?`|command.enum.commandname.?|
   |`hud`|command.enum.commandname.hud|
@@ -77,6 +78,7 @@ command.help.1.description
   |`reload`|command.enum.commandname.reload|
   |`permission`|command.enum.commandname.permission|
   |`ops`|command.enum.commandname.ops|
+  |`place`|command.enum.commandname.place|
   |`playanimation`|command.enum.commandname.playanimation|
   |`playsound`|command.enum.commandname.playsound|
   |`querytarget`|command.enum.commandname.querytarget|
@@ -117,7 +119,6 @@ command.help.1.description
   |`getchunkdata`|command.enum.commandname.getchunkdata|
   |`getchunks`|command.enum.commandname.getchunks|
   |`getspawnpoint`|command.enum.commandname.getspawnpoint|
-  |`globalpause`|command.enum.commandname.globalpause|
   |`immutableworld`|command.enum.commandname.immutableworld|
   |`lesson`|command.enum.commandname.lesson|
   |`takepicture`|command.enum.commandname.takepicture|

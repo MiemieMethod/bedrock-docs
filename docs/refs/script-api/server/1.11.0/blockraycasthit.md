@@ -1,6 +1,6 @@
 # `BlockRaycastHit`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BlockRaycastHit`接口。script_api.@minecraft/server.blockraycasthit.description
 

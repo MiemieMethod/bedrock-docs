@@ -1,6 +1,6 @@
 # `MemoryTier`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `MemoryTier`枚举。script_api.@minecraft/server.memorytier.description
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only High = 4;
+static read-only High = 3;
 ```
 
 
@@ -24,7 +24,7 @@ static read-only High = 4;
 ///
 
 ```js
-static read-only Low = 2;
+static read-only Low = 1;
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Low = 2;
 ///
 
 ```js
-static read-only Mid = 3;
+static read-only Mid = 2;
 ```
 
 
@@ -46,7 +46,7 @@ static read-only Mid = 3;
 ///
 
 ```js
-static read-only SuperHigh = 5;
+static read-only SuperHigh = 4;
 ```
 
 
@@ -57,17 +57,6 @@ static read-only SuperHigh = 5;
 ///
 
 ```js
-static read-only SuperLow = 1;
-```
-
-
-/// define
-`Undetermined`
-
-
-///
-
-```js
-static read-only Undetermined = 0;
+static read-only SuperLow = 0;
 ```
 

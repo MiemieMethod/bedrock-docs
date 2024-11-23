@@ -24,7 +24,7 @@ rankdir = LR
 0 [label="PlayerActionPacket",comment="name: \"PlayerActionPacket\", typeName: \"\", id: 0, branchId: 36, recurseId: -1, attributes: 0, notes: \"\""];
 1 [label="Player Runtime ID",comment="name: \"Player Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-3 [label="Action",comment="name: \"Action\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
+3 [label="Action",comment="name: \"Action\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 0, notes: \"See enum table for use cases\""];
 4 [label="varint",comment="name: \"varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Block Position",comment="name: \"Block Position\", typeName: \"NetworkBlockPosition\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 6 [label="NetworkBlockPosition",comment="name: \"NetworkBlockPosition\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
@@ -55,7 +55,7 @@ Player Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Action：<!-- md:samp varint -->
 
-- 基本类型枚举。protocol.packet.playeractionpacket.action.description枚举值如下：
+- 基本类型枚举。protocol.packet.playeractionpacket.action.descriptionSee enum table for use cases枚举值如下：
 
   |键|值|描述|
   |---|---|---|
@@ -83,7 +83,7 @@ Action：<!-- md:samp varint -->
   |`DEPRECATED_UpdatedEnchantingSeed`|`20`|protocol.enum.deprecated_updatedenchantingseed|
   |`StartSwimming`|`21`|protocol.enum.startswimming|
   |`StopSwimming`|`22`|protocol.enum.stopswimming|
-  |`DEPRECATED_StartSpinAttack`|`23`|protocol.enum.deprecated_startspinattack|
+  |`StartSpinAttack`|`23`|protocol.enum.startspinattack|
   |`StopSpinAttack`|`24`|protocol.enum.stopspinattack|
   |`InteractWithBlock`|`25`|protocol.enum.interactwithblock|
   |`PredictDestroyBlock`|`26`|protocol.enum.predictdestroyblock|
@@ -97,7 +97,8 @@ Action：<!-- md:samp varint -->
   |`StartFlying`|`34`|protocol.enum.startflying|
   |`StopFlying`|`35`|protocol.enum.stopflying|
   |`ClientAckServerData`|`36`|protocol.enum.clientackserverdata|
-  |`Count`|`37`|protocol.enum.count|
+  |`StartUsingItem`|`37`|protocol.enum.startusingitem|
+  |`Count`|`38`|protocol.enum.count|
 
 
 

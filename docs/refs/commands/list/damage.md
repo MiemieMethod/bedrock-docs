@@ -1,6 +1,6 @@
 # `/damage`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/damage`命令command.damage.description
 

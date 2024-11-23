@@ -1,6 +1,6 @@
 # `@minecraft/common`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `@minecraft/common`模块的`1.0.0`版本，UUID为`77ec12b4-1b2b-4c98-8d34-d1cd63f849d5`。该模块是script_api.@minecraft/common.description
 

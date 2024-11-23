@@ -1,6 +1,6 @@
 # `SettingsManager`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `SettingsManager`类。script_api.@minecraft/server-editor-bindings.settingsmanager.description
 
@@ -21,6 +21,28 @@ read-only graphics: GraphicsSettings;
 `graphics`：[`GraphicsSettings`](./graphicssettings.md)
 
 - script_api.@minecraft/server-editor-bindings.settingsmanager.graphics.description
+
+
+////
+
+///
+
+
+/// define
+`speed`
+
+
+///
+
+```js
+read-only speed: SpeedSettings;
+```
+
+/// html | div.result
+//// define
+`speed`：[`SpeedSettings`](./speedsettings.md)
+
+- script_api.@minecraft/server-editor-bindings.settingsmanager.speed.description
 
 
 ////

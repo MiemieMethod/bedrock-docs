@@ -1,10 +1,66 @@
 # `MinecraftEditorInternal`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `MinecraftEditorInternal`类。script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.description
 
 ## 方法
+
+/// define
+`fireTelemetryEvent`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.firetelemetryevent.description
+
+```js
+fireTelemetryEvent(player: Player, source: string, eventName: string, metadata: string): void
+```
+
+/// html | div.result
+//// define
+`player`：[`Player`](../../server/beta/player.md)
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.firetelemetryevent.player.description
+
+
+////
+
+//// define
+`source`：`string`
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.firetelemetryevent.source.description
+
+
+////
+
+//// define
+`eventName`：`string`
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.firetelemetryevent.eventname.description
+
+
+////
+
+//// define
+`metadata`：`string`
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.firetelemetryevent.metadata.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.minecrafteditorinternal.firetelemetryevent.return
+
+
+////
+
+///
+
 
 /// define
 `getMapColorUnsafe`

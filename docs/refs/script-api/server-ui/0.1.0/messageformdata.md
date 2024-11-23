@@ -1,6 +1,6 @@
 # `MessageFormData`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `MessageFormData`类。script_api.mojang-minecraft-ui.messageformdata.description
 

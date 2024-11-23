@@ -1,6 +1,6 @@
 # `InputBindingInfo`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `InputBindingInfo`接口。script_api.@minecraft/server-editor-bindings.inputbindinginfo.description
 

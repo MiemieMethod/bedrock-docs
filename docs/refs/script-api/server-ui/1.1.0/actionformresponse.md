@@ -1,6 +1,6 @@
 # `ActionFormResponse`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ActionFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。script_api.@minecraft/server-ui.actionformresponse.description
 

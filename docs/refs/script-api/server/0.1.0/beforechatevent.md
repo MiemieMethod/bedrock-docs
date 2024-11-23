@@ -1,6 +1,6 @@
 # `BeforeChatEvent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BeforeChatEvent`类，扩展自[`ChatEvent`](./chatevent.md)。script_api.mojang-minecraft.beforechatevent.description
 

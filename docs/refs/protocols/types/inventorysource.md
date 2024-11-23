@@ -92,7 +92,6 @@ Container ID：<!-- md:samp varint -->
   |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
   |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
   |`CONTAINER_ID_REGISTRY`|`125`|protocol.enum.container_id_registry|
-  |`CONTAINER_ID_REGISTRY_INVENTORY`|`126`|protocol.enum.container_id_registry_inventory|
 
 
 

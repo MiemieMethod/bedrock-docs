@@ -1,6 +1,6 @@
 # `BlockComponentTypes`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BlockComponentTypes`枚举。script_api.@minecraft/server.blockcomponenttypes.description
 

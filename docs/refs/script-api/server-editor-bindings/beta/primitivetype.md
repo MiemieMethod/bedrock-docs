@@ -1,6 +1,6 @@
 # `PrimitiveType`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `PrimitiveType`枚举。script_api.@minecraft/server-editor-bindings.primitivetype.description
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only AxialSphere = "AxialSphere";
+static read-only AxialSphere = 5;
 ```
 
 
@@ -24,7 +24,7 @@ static read-only AxialSphere = "AxialSphere";
 ///
 
 ```js
-static read-only Box = "Box";
+static read-only Box = 1;
 ```
 
 
@@ -35,7 +35,7 @@ static read-only Box = "Box";
 ///
 
 ```js
-static read-only Disc = "Disc";
+static read-only Disc = 4;
 ```
 
 
@@ -46,7 +46,7 @@ static read-only Disc = "Disc";
 ///
 
 ```js
-static read-only Line = "Line";
+static read-only Line = 2;
 ```
 
 
@@ -57,6 +57,6 @@ static read-only Line = "Line";
 ///
 
 ```js
-static read-only Text = "Text";
+static read-only Text = 0;
 ```
 

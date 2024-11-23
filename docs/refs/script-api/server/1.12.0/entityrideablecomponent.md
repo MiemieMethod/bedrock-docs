@@ -1,6 +1,6 @@
 # `EntityRideableComponent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `EntityRideableComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entityrideablecomponent.description
 

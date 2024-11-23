@@ -64,6 +64,7 @@ Target Mode：<!-- md:samp byte -->
   |---|---|---|
   |`Angle`|`0`|protocol.enum.angle|
   |`Distance`|`1`|protocol.enum.distance|
+  |`_count`|`2`|protocol.enum._count|
 
 
 
@@ -77,6 +78,7 @@ Action：<!-- md:samp byte -->
   |---|---|---|
   |`Set`|`0`|protocol.enum.set|
   |`Clear`|`1`|protocol.enum.clear|
+  |`_count`|`2`|protocol.enum._count|
 
 
 

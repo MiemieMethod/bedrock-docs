@@ -1,6 +1,6 @@
 # `BlockComponentRegistry`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BlockComponentRegistry`类。用于提供方块数据驱动自定义组件注册功能。
 

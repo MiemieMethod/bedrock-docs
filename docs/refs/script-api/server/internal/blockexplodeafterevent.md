@@ -1,6 +1,6 @@
 # `BlockExplodeAfterEvent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BlockExplodeAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含方块爆炸后事件的信息。
 

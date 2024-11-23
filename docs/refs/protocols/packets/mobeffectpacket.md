@@ -38,8 +38,8 @@ rankdir = LR
 10 [label="bool",comment="name: \"bool\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 11 [label="Effect Duration Ticks",comment="name: \"Effect Duration Ticks\", typeName: \"\", id: 11, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 12 [label="varint",comment="name: \"varint\", typeName: \"\", id: 12, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-13 [label="Tick",comment="name: \"Tick\", typeName: \"\", id: 13, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-14 [label="unsigned int64",comment="name: \"unsigned int64\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+13 [label="Tick",comment="name: \"Tick\", typeName: \"PlayerInputTick\", id: 13, branchId: 0, recurseId: -1, attributes: 256, notes: \"If this packet is referring to the player or a client predicted vehicle they are in control of, this should be the most recently processed PlayerInputTick from their PlayerAuthInputPacket. Otherwise zero.\""];
+14 [label="PlayerInputTick",comment="name: \"PlayerInputTick\", typeName: \"\", id: 14, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10;12;14}
 
 }
@@ -104,9 +104,9 @@ Effect Duration Ticks：<!-- md:samp varint -->
 
 ////
 //// define
-Tick：<!-- md:samp unsigned int64 -->
+Tick：[<!-- md:samp PlayerInputTick -->](../types/playerinputtick.md)
 
-- 基本类型。protocol.packet.mobeffectpacket.tick.description
+- 特殊类型。protocol.packet.mobeffectpacket.tick.descriptionIf this packet is referring to the player or a client predicted vehicle they are in control of, this should be the most recently processed PlayerInputTick from their PlayerAuthInputPacket. Otherwise zero.
 
 
 ////

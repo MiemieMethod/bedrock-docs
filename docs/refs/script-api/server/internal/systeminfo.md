@@ -1,6 +1,6 @@
 # `SystemInfo`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `SystemInfo`类。script_api.@minecraft/server.systeminfo.description
 

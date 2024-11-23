@@ -28,8 +28,8 @@ rankdir = LR
 4 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 5 [label="Full Container Name",comment="name: \"Full Container Name\", typeName: \"FullContainerName\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"Used to reference a specific container within a given screen container context\""];
 6 [label="FullContainerName",comment="name: \"FullContainerName\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-7 [label="Dynamic Container Size",comment="name: \"Dynamic Container Size\", typeName: \"\", id: 7, branchId: 0, recurseId: -1, attributes: 0, notes: \"Size of the container if it is dynamic, zero otherwise\""];
-8 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+7 [label="Storage Item",comment="name: \"Storage Item\", typeName: \"NetworkItemStackDescriptor\", id: 7, branchId: 0, recurseId: -1, attributes: 256, notes: \"Optional storage item to set into. Only the item type is relevant, not any stack information.\""];
+8 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 9 [label="Item",comment="name: \"Item\", typeName: \"NetworkItemStackDescriptor\", id: 9, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 10 [label="NetworkItemStackDescriptor",comment="name: \"NetworkItemStackDescriptor\", typeName: \"\", id: 10, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6;8;10}
@@ -41,7 +41,7 @@ rankdir = LR
 ## 字段
 
 ```title='InventorySlotPacket'
-[container_id][slot][full_container_name][dynamic_container_size][item]
+[container_id][slot][full_container_name][storage_item][item]
 ```
 
 /// html | div.result
@@ -61,7 +61,6 @@ Container ID：<!-- md:samp unsigned varint -->
   |`CONTAINER_ID_SELECTION_SLOTS`|`122`|protocol.enum.container_id_selection_slots|
   |`CONTAINER_ID_PLAYER_ONLY_UI`|`124`|protocol.enum.container_id_player_only_ui|
   |`CONTAINER_ID_REGISTRY`|`125`|protocol.enum.container_id_registry|
-  |`CONTAINER_ID_REGISTRY_INVENTORY`|`126`|protocol.enum.container_id_registry_inventory|
 
 
 
@@ -81,9 +80,9 @@ Full Container Name：[<!-- md:samp FullContainerName -->](../types/fullcontaine
 
 ////
 //// define
-Dynamic Container Size：<!-- md:samp unsigned varint -->
+Storage Item：[<!-- md:samp NetworkItemStackDescriptor -->](../types/networkitemstackdescriptor.md)
 
-- 基本类型。protocol.packet.inventoryslotpacket.dynamic_container_size.descriptionSize of the container if it is dynamic, zero otherwise
+- 特殊类型。protocol.packet.inventoryslotpacket.storage_item.descriptionOptional storage item to set into. Only the item type is relevant, not any stack information.
 
 
 ////

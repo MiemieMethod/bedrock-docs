@@ -1,6 +1,6 @@
 # `Plane`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `Plane`枚举。script_api.@minecraft/server-editor-bindings.plane.description
 
@@ -13,7 +13,7 @@
 ///
 
 ```js
-static read-only XY = "XY";
+static read-only XY = 1;
 ```
 
 
@@ -24,7 +24,7 @@ static read-only XY = "XY";
 ///
 
 ```js
-static read-only XZ = "XZ";
+static read-only XZ = 2;
 ```
 
 
@@ -35,6 +35,6 @@ static read-only XZ = "XZ";
 ///
 
 ```js
-static read-only YZ = "YZ";
+static read-only YZ = 4;
 ```
 

@@ -1,10 +1,32 @@
 # `Widget`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `Widget`类。script_api.@minecraft/server-editor-bindings.widget.description
 
 ## 属性
+
+/// define
+`bindPositionToBlockCursor`
+
+
+///
+
+```js
+bindPositionToBlockCursor: boolean;
+```
+
+/// html | div.result
+//// define
+`bindPositionToBlockCursor`：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.widget.bindpositiontoblockcursor.description
+
+
+////
+
+///
+
 
 /// define
 `collisionOffset`
@@ -65,6 +87,28 @@ location: Vector3;
 `location`：[`Vector3`](../../server/beta/vector3.md)
 
 - script_api.@minecraft/server-editor-bindings.widget.location.description
+
+
+////
+
+///
+
+
+/// define
+`lockPositionToSurface`
+
+
+///
+
+```js
+lockPositionToSurface: boolean;
+```
+
+/// html | div.result
+//// define
+`lockPositionToSurface`：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.widget.lockpositiontosurface.description
 
 
 ////
@@ -207,6 +251,54 @@ visible: boolean;
 ## 方法
 
 /// define
+`addClipboardComponent`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.widget.addclipboardcomponent.description
+
+```js
+addClipboardComponent(componentName: string, clipboardItem?: ClipboardItem, options?: WidgetComponentClipboardOptions): WidgetComponentClipboard
+```
+
+/// html | div.result
+//// define
+`componentName`：`string`
+
+- script_api.@minecraft/server-editor-bindings.widget.addclipboardcomponent.componentname.description
+
+
+////
+
+//// define
+`clipboardItem`?：[`ClipboardItem`](./clipboarditem.md)＝`null`
+
+- script_api.@minecraft/server-editor-bindings.widget.addclipboardcomponent.clipboarditem.description
+
+
+////
+
+//// define
+`options`?：[`WidgetComponentClipboardOptions`](./widgetcomponentclipboardoptions.md)＝`null`
+
+- script_api.@minecraft/server-editor-bindings.widget.addclipboardcomponent.options.description
+
+
+////
+
+//// define
+返回值：[`WidgetComponentClipboard`](./widgetcomponentclipboard.md)
+
+- script_api.@minecraft/server-editor-bindings.widget.addclipboardcomponent.return
+
+
+////
+
+///
+
+
+/// define
 `addEntityComponent`
 
 
@@ -343,7 +435,7 @@ addGuideComponent(componentName: string, options?: WidgetComponentGuideOptions):
 script_api.@minecraft/server-editor-bindings.widget.addrenderprimitivecomponent.description
 
 ```js
-addRenderPrimitiveComponent(componentName: string, primitiveType: WidgetComponentRenderPrimitiveAxialSphere | WidgetComponentRenderPrimitiveBox | WidgetComponentRenderPrimitiveDisc | WidgetComponentRenderPrimitiveLine, options?: WidgetComponentRenderPrimitiveOptions): WidgetComponentRenderPrimitive
+addRenderPrimitiveComponent(componentName: string, primitiveType: WidgetComponentRenderPrimitiveTypeAxialSphere | WidgetComponentRenderPrimitiveTypeBox | WidgetComponentRenderPrimitiveTypeDisc | WidgetComponentRenderPrimitiveTypeLine, options?: WidgetComponentRenderPrimitiveOptions): WidgetComponentRenderPrimitive
 ```
 
 /// html | div.result
@@ -356,7 +448,7 @@ addRenderPrimitiveComponent(componentName: string, primitiveType: WidgetComponen
 ////
 
 //// define
-`primitiveType`：[`WidgetComponentRenderPrimitiveAxialSphere`](./widgetcomponentrenderprimitiveaxialsphere.md)|[`WidgetComponentRenderPrimitiveBox`](./widgetcomponentrenderprimitivebox.md)|[`WidgetComponentRenderPrimitiveDisc`](./widgetcomponentrenderprimitivedisc.md)|[`WidgetComponentRenderPrimitiveLine`](./widgetcomponentrenderprimitiveline.md)
+`primitiveType`：[`WidgetComponentRenderPrimitiveTypeAxialSphere`](./widgetcomponentrenderprimitivetypeaxialsphere.md)|[`WidgetComponentRenderPrimitiveTypeBox`](./widgetcomponentrenderprimitivetypebox.md)|[`WidgetComponentRenderPrimitiveTypeDisc`](./widgetcomponentrenderprimitivetypedisc.md)|[`WidgetComponentRenderPrimitiveTypeLine`](./widgetcomponentrenderprimitivetypeline.md)
 
 - script_api.@minecraft/server-editor-bindings.widget.addrenderprimitivecomponent.primitivetype.description
 

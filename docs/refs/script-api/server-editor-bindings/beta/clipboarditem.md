@@ -1,10 +1,32 @@
 # `ClipboardItem`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ClipboardItem`类。script_api.@minecraft/server-editor-bindings.clipboarditem.description
 
 ## 属性
+
+/// define
+`id`
+
+
+///
+
+```js
+read-only id: string;
+```
+
+/// html | div.result
+//// define
+`id`：`string`
+
+- script_api.@minecraft/server-editor-bindings.clipboarditem.id.description
+
+
+////
+
+///
+
 
 /// define
 `isEmpty`

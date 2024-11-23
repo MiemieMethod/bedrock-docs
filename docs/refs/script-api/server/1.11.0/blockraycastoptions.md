@@ -1,6 +1,6 @@
 # `BlockRaycastOptions`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BlockRaycastOptions`接口，扩展自[`BlockFilter`](./blockfilter.md)。script_api.@minecraft/server.blockraycastoptions.description
 

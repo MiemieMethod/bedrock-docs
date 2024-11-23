@@ -1,6 +1,6 @@
 # `ItemCompleteUseEvent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ItemCompleteUseEvent`类。script_api.@minecraft/server.itemcompleteuseevent.description
 

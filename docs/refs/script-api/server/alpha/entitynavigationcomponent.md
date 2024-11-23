@@ -1,6 +1,6 @@
 # `EntityNavigationComponent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `EntityNavigationComponent`类，扩展自[`EntityComponent`](./entitycomponent.md)。script_api.@minecraft/server.entitynavigationcomponent.description
 

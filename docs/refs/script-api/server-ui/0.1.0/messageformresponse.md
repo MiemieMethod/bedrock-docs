@@ -1,6 +1,6 @@
 # `MessageFormResponse`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `MessageFormResponse`类，扩展自[`FormResponse`](./formresponse.md)。script_api.mojang-minecraft-ui.messageformresponse.description
 

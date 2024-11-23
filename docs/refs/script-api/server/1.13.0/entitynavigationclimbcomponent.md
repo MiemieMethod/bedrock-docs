@@ -1,6 +1,6 @@
 # `EntityNavigationClimbComponent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `EntityNavigationClimbComponent`类，扩展自[`EntityNavigationComponent`](./entitynavigationcomponent.md)。script_api.@minecraft/server.entitynavigationclimbcomponent.description
 

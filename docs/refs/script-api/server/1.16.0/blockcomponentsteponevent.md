@@ -1,6 +1,6 @@
 # `BlockComponentStepOnEvent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BlockComponentStepOnEvent`类，扩展自[`BlockEvent`](./blockevent.md)。包含实体走上方块表面时的信息。
 

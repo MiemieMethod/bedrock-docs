@@ -1,10 +1,21 @@
 # `ItemComponentTypes`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ItemComponentTypes`枚举。script_api.@minecraft/server.itemcomponenttypes.description
 
 ## 常量
+
+/// define
+`Compostable`
+
+
+///
+
+```js
+static read-only Compostable = "minecraft:compostable";
+```
+
 
 /// define
 `Cooldown`

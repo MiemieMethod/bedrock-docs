@@ -1,6 +1,6 @@
 # `ExtensionContext`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ExtensionContext`类。script_api.@minecraft/server-editor-bindings.extensioncontext.description
 
@@ -43,6 +43,28 @@ read-only blockPalette: BlockPaletteManager;
 `blockPalette`：[`BlockPaletteManager`](./blockpalettemanager.md)
 
 - script_api.@minecraft/server-editor-bindings.extensioncontext.blockpalette.description
+
+
+////
+
+///
+
+
+/// define
+`blockUtilities`
+
+
+///
+
+```js
+read-only blockUtilities: BlockUtilities;
+```
+
+/// html | div.result
+//// define
+`blockUtilities`：[`BlockUtilities`](./blockutilities.md)
+
+- script_api.@minecraft/server-editor-bindings.extensioncontext.blockutilities.description
 
 
 ////

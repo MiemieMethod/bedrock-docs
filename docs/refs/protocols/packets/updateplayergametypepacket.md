@@ -22,8 +22,8 @@ rankdir = LR
 2 [label="varint",comment="name: \"varint\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Target player",comment="name: \"Target player\", typeName: \"ActorUniqueID\", id: 3, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 4 [label="ActorUniqueID",comment="name: \"ActorUniqueID\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-5 [label="Player ReplayStateComponent tick",comment="name: \"Player ReplayStateComponent tick\", typeName: \"\", id: 5, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-6 [label="unsigned varint",comment="name: \"unsigned varint\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+5 [label="Tick",comment="name: \"Tick\", typeName: \"PlayerInputTick\", id: 5, branchId: 0, recurseId: -1, attributes: 256, notes: \"Most relevant to supply for transitioning into and out of spectator while in motion\""];
+6 [label="PlayerInputTick",comment="name: \"PlayerInputTick\", typeName: \"\", id: 6, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;4;6}
 
 }
@@ -33,7 +33,7 @@ rankdir = LR
 ## 字段
 
 ```title='UpdatePlayerGameTypePacket'
-[player_game_type][target_player][player_replaystatecomponent_tick]
+[player_game_type][target_player][tick]
 ```
 
 /// html | div.result
@@ -63,9 +63,9 @@ Target player：[<!-- md:samp ActorUniqueID -->](../types/actoruniqueid.md)
 
 ////
 //// define
-Player ReplayStateComponent tick：<!-- md:samp unsigned varint -->
+Tick：[<!-- md:samp PlayerInputTick -->](../types/playerinputtick.md)
 
-- 基本类型。protocol.packet.updateplayergametypepacket.player_replaystatecomponent_tick.description
+- 特殊类型。protocol.packet.updateplayergametypepacket.tick.descriptionMost relevant to supply for transitioning into and out of spectator while in motion
 
 
 ////

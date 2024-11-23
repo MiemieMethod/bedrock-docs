@@ -1,6 +1,6 @@
 # `EntityTypeIterator`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `EntityTypeIterator`类，实现了<code>Iterator&lt;<a href="../entitytype/">EntityType</a>&gt;</code>。script_api.mojang-minecraft.entitytypeiterator.description
 

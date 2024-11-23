@@ -31,13 +31,21 @@ rankdir = LR
 8 -> 33
 33 -> 37
 8 -> 38
-38 -> 42
-8 -> 43
-43 -> 44
-8 -> 45
-45 -> 49
-8 -> 50
-50 -> 51
+38 -> 39
+8 -> 40
+40 -> 41
+8 -> 42
+42 -> 43
+8 -> 44
+44 -> 48
+8 -> 49
+49 -> 50
+8 -> 51
+51 -> 55
+8 -> 56
+56 -> 57
+8 -> 58
+58 -> 59
 
 8 [label="CameraPreset",comment="name: \"CameraPreset\", typeName: \"\", id: 8, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 9 [label="Name",comment="name: \"Name\", typeName: \"\", id: 9, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -58,17 +66,25 @@ rankdir = LR
 27 [label="std::optional<float>",comment="name: \"std::optional<float>\", typeName: \"\", id: 27, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 28 [label="Snap to Target",comment="name: \"Snap to Target\", typeName: \"std::optional<bool>\", id: 28, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 32 [label="std::optional<bool>",comment="name: \"std::optional<bool>\", typeName: \"\", id: 32, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-33 [label="View Offset",comment="name: \"View Offset\", typeName: \"std::optional<class Vec2>\", id: 33, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+33 [label="Horizontal Rotation Limit",comment="name: \"Horizontal Rotation Limit\", typeName: \"std::optional<class Vec2>\", id: 33, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 37 [label="std::optional<class Vec2>",comment="name: \"std::optional<class Vec2>\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-38 [label="Entity Offset",comment="name: \"Entity Offset\", typeName: \"std::optional<class Vec3>\", id: 38, branchId: 0, recurseId: -1, attributes: 256, notes: \"Changing the camera's pivot point from the center of the entity\""];
-42 [label="std::optional<class Vec3>",comment="name: \"std::optional<class Vec3>\", typeName: \"\", id: 42, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-43 [label="Radius",comment="name: \"Radius\", typeName: \"std::optional<float>\", id: 43, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-44 [label="std::optional<float>",comment="name: \"std::optional<float>\", typeName: \"\", id: 44, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-45 [label="Listener",comment="name: \"Listener\", typeName: \"std::optional<enum CameraPreset::AudioListener>\", id: 45, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-49 [label="std::optional<enum CameraPreset::AudioListener>",comment="name: \"std::optional<enum CameraPreset::AudioListener>\", typeName: \"\", id: 49, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-50 [label="Player Effects",comment="name: \"Player Effects\", typeName: \"std::optional<bool>\", id: 50, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-51 [label="std::optional<bool>",comment="name: \"std::optional<bool>\", typeName: \"\", id: 51, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-{ rank = max;10;12;17;19;21;23;25;27;32;37;42;44;49;51}
+38 [label="Vertical Rotation Limit",comment="name: \"Vertical Rotation Limit\", typeName: \"std::optional<class Vec2>\", id: 38, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+39 [label="std::optional<class Vec2>",comment="name: \"std::optional<class Vec2>\", typeName: \"\", id: 39, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+40 [label="Continue Targeting",comment="name: \"Continue Targeting\", typeName: \"std::optional<bool>\", id: 40, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+41 [label="std::optional<bool>",comment="name: \"std::optional<bool>\", typeName: \"\", id: 41, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+42 [label="View Offset",comment="name: \"View Offset\", typeName: \"std::optional<class Vec2>\", id: 42, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+43 [label="std::optional<class Vec2>",comment="name: \"std::optional<class Vec2>\", typeName: \"\", id: 43, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+44 [label="Entity Offset",comment="name: \"Entity Offset\", typeName: \"std::optional<class Vec3>\", id: 44, branchId: 0, recurseId: -1, attributes: 256, notes: \"Changing the camera's pivot point from the center of the entity\""];
+48 [label="std::optional<class Vec3>",comment="name: \"std::optional<class Vec3>\", typeName: \"\", id: 48, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+49 [label="Radius",comment="name: \"Radius\", typeName: \"std::optional<float>\", id: 49, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+50 [label="std::optional<float>",comment="name: \"std::optional<float>\", typeName: \"\", id: 50, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+51 [label="Listener",comment="name: \"Listener\", typeName: \"std::optional<enum CameraPreset::AudioListener>\", id: 51, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+55 [label="std::optional<enum CameraPreset::AudioListener>",comment="name: \"std::optional<enum CameraPreset::AudioListener>\", typeName: \"\", id: 55, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+56 [label="Player Effects",comment="name: \"Player Effects\", typeName: \"std::optional<bool>\", id: 56, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+57 [label="std::optional<bool>",comment="name: \"std::optional<bool>\", typeName: \"\", id: 57, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+58 [label="Align target and camera forward",comment="name: \"Align target and camera forward\", typeName: \"std::optional<bool>\", id: 58, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+59 [label="std::optional<bool>",comment="name: \"std::optional<bool>\", typeName: \"\", id: 59, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+{ rank = max;10;12;17;19;21;23;25;27;32;37;39;41;43;48;50;55;57;59}
 
 }
 
@@ -77,7 +93,7 @@ rankdir = LR
 ## 字段
 
 ```title='CameraPreset'
-[name][inherit_from][pos_x][pos_y][pos_z][rot_x][rot_y][rotation_speed][snap_to_target][view_offset][entity_offset][radius][listener][player_effects]
+[name][inherit_from][pos_x][pos_y][pos_z][rot_x][rot_y][rotation_speed][snap_to_target][horizontal_rotation_limit][vertical_rotation_limit][continue_targeting][view_offset][entity_offset][radius][listener][player_effects][align_target_and_camera_forward]
 ```
 
 /// html | div.result
@@ -145,6 +161,27 @@ Snap to Target：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__opti
 
 ////
 //// define
+Horizontal Rotation Limit：[<!-- md:samp std::optional&lt;class Vec2&gt; -->](../types/std__optional_class_vec2_.md)
+
+- 特殊类型。protocol.type.camerapreset.horizontal_rotation_limit.description
+
+
+////
+//// define
+Vertical Rotation Limit：[<!-- md:samp std::optional&lt;class Vec2&gt; -->](../types/std__optional_class_vec2_.md)
+
+- 特殊类型。protocol.type.camerapreset.vertical_rotation_limit.description
+
+
+////
+//// define
+Continue Targeting：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__optional_bool_.md)
+
+- 特殊类型。protocol.type.camerapreset.continue_targeting.description
+
+
+////
+//// define
 View Offset：[<!-- md:samp std::optional&lt;class Vec2&gt; -->](../types/std__optional_class_vec2_.md)
 
 - 特殊类型。protocol.type.camerapreset.view_offset.description
@@ -176,6 +213,13 @@ Listener：[<!-- md:samp std::optional&lt;enum CameraPreset::AudioListener&gt; -
 Player Effects：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__optional_bool_.md)
 
 - 特殊类型。protocol.type.camerapreset.player_effects.description
+
+
+////
+//// define
+Align target and camera forward：[<!-- md:samp std::optional&lt;bool&gt; -->](../types/std__optional_bool_.md)
+
+- 特殊类型。protocol.type.camerapreset.align_target_and_camera_forward.description
 
 
 ////

@@ -1,6 +1,6 @@
 # `/clearrealmevents`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/clearrealmevents`命令command.clearrealmevents.description
 

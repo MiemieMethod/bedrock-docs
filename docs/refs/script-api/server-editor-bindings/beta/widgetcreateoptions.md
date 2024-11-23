@@ -1,10 +1,32 @@
 # `WidgetCreateOptions`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `WidgetCreateOptions`接口。script_api.@minecraft/server-editor-bindings.widgetcreateoptions.description
 
 ## 属性
+
+/// define
+`bindPositionToBlockCursor`
+
+
+///
+
+```js
+bindPositionToBlockCursor: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`bindPositionToBlockCursor`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.bindpositiontoblockcursor.description
+
+
+////
+
+///
+
 
 /// define
 `collisionOffset`
@@ -43,6 +65,28 @@ collisionRadius: float | undefined;
 `collisionRadius`：`float`|`undefined`
 
 - script_api.@minecraft/server-editor-bindings.widgetcreateoptions.collisionradius.description
+
+
+////
+
+///
+
+
+/// define
+`lockToSurface`
+
+
+///
+
+```js
+lockToSurface: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`lockToSurface`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.widgetcreateoptions.locktosurface.description
 
 
 ////

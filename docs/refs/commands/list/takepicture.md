@@ -1,6 +1,6 @@
 # `/takepicture`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/takepicture`命令command.takepicture.description
 

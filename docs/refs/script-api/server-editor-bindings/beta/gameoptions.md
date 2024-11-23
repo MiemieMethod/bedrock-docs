@@ -1,10 +1,32 @@
 # `GameOptions`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `GameOptions`接口。script_api.@minecraft/server-editor-bindings.gameoptions.description
 
 ## 属性
+
+/// define
+`bedsWork`
+
+
+///
+
+```js
+bedsWork: boolean | undefined;
+```
+
+/// html | div.result
+//// define
+`bedsWork`：`boolean`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.gameoptions.bedswork.description
+
+
+////
+
+///
+
 
 /// define
 `bonusChest`
@@ -681,6 +703,28 @@ simulationDistance: int32 | undefined;
 `simulationDistance`：`int32`|`undefined`
 
 - script_api.@minecraft/server-editor-bindings.gameoptions.simulationdistance.description
+
+
+////
+
+///
+
+
+/// define
+`sleepSkipPercent`
+
+
+///
+
+```js
+sleepSkipPercent: int32 | undefined;
+```
+
+/// html | div.result
+//// define
+`sleepSkipPercent`：`int32`|`undefined`
+
+- script_api.@minecraft/server-editor-bindings.gameoptions.sleepskippercent.description
 
 
 ////

@@ -1,6 +1,6 @@
 # `ItemCompleteChargeEvent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ItemCompleteChargeEvent`类。script_api.mojang-minecraft.itemcompletechargeevent.description
 

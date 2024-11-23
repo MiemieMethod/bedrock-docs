@@ -50,7 +50,7 @@ rankdir = LR
 37 -> 38
 
 0 [label="UpdateAttributesPacket",comment="name: \"UpdateAttributesPacket\", typeName: \"\", id: 0, branchId: 29, recurseId: -1, attributes: 0, notes: \"\""];
-1 [label="Target Runtime ID",comment="name: \"Target Runtime ID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+1 [label="RuntimeID",comment="name: \"RuntimeID\", typeName: \"ActorRuntimeID\", id: 1, branchId: 0, recurseId: -1, attributes: 256, notes: \"Target Runtime ID\""];
 2 [label="ActorRuntimeID",comment="name: \"ActorRuntimeID\", typeName: \"\", id: 2, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 3 [label="Attribute List",comment="name: \"Attribute List\", typeName: \"\", id: 3, branchId: 0, recurseId: -1, attributes: 8, notes: \"AttributeData - Helper Struct\""];
 4 [label="Array Size",comment="name: \"Array Size\", typeName: \"\", id: 4, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
@@ -86,8 +86,8 @@ rankdir = LR
 34 [label="int",comment="name: \"int\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 35 [label="isSerializable?",comment="name: \"isSerializable?\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
 36 [label="bool",comment="name: \"bool\", typeName: \"\", id: 36, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
-37 [label="Count of ticks since simulation started",comment="name: \"Count of ticks since simulation started\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 0, notes: \"\""];
-38 [label="unsigned varint64",comment="name: \"unsigned varint64\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+37 [label="Tick",comment="name: \"Tick\", typeName: \"PlayerInputTick\", id: 37, branchId: 0, recurseId: -1, attributes: 256, notes: \"If this packet is referring to the player or a client predicted vehicle they are in control of, this should be the most recently processed PlayerInputTick from their PlayerAuthInputPacket. Otherwise zero.\""];
+38 [label="PlayerInputTick",comment="name: \"PlayerInputTick\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 { rank = max;2;5;8;10;12;14;16;18;20;23;26;28;30;32;34;36;38}
 
 }
@@ -97,14 +97,14 @@ rankdir = LR
 ## 字段
 
 ```title='UpdateAttributesPacket'
-[target_runtime_id][attribute_list][count_of_ticks_since_simulation_started]
+[runtimeid][attribute_list][tick]
 ```
 
 /// html | div.result
 //// define
-Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
+RuntimeID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md)
 
-- 特殊类型。protocol.packet.updateattributespacket.target_runtime_id.description
+- 特殊类型。protocol.packet.updateattributespacket.runtimeid.descriptionTarget Runtime ID
 
 
 ////
@@ -261,9 +261,9 @@ isSerializable?：<!-- md:samp bool -->
 
 ////
 //// define
-Count of ticks since simulation started：<!-- md:samp unsigned varint64 -->
+Tick：[<!-- md:samp PlayerInputTick -->](../types/playerinputtick.md)
 
-- 基本类型。protocol.packet.updateattributespacket.count_of_ticks_since_simulation_started.description
+- 特殊类型。protocol.packet.updateattributespacket.tick.descriptionIf this packet is referring to the player or a client predicted vehicle they are in control of, this should be the most recently processed PlayerInputTick from their PlayerAuthInputPacket. Otherwise zero.
 
 
 ////

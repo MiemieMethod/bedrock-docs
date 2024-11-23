@@ -1,6 +1,6 @@
 # `/recipe`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `/recipe`命令command.recipe.description
 

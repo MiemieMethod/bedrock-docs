@@ -1,6 +1,6 @@
 # `BrushShapeManager`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BrushShapeManager`类。script_api.@minecraft/server-editor-bindings.brushshapemanager.description
 
@@ -387,6 +387,134 @@ setBrushShapeOffset(offset: Vector3): void
 返回值：`void`
 
 - script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshapeoffset.return
+
+
+////
+
+///
+
+
+/// define
+`setBrushShapeVisible`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshapevisible.description
+
+```js
+setBrushShapeVisible(visible: boolean): void
+```
+
+/// html | div.result
+//// define
+`visible`：`boolean`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshapevisible.visible.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setbrushshapevisible.return
+
+
+////
+
+///
+
+
+/// define
+`setFlattenHeight`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.setflattenheight.description
+
+```js
+setFlattenHeight(flattenHeight: int32): void
+```
+
+/// html | div.result
+//// define
+`flattenHeight`：`int32`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setflattenheight.flattenheight.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setflattenheight.return
+
+
+////
+
+///
+
+
+/// define
+`setFlattenRadius`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.setflattenradius.description
+
+```js
+setFlattenRadius(flattenRadius: int32): void
+```
+
+/// html | div.result
+//// define
+`flattenRadius`：`int32`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setflattenradius.flattenradius.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setflattenradius.return
+
+
+////
+
+///
+
+
+/// define
+`setTerrainStrength`
+
+
+///
+
+script_api.@minecraft/server-editor-bindings.brushshapemanager.setterrainstrength.description
+
+```js
+setTerrainStrength(terrainStrength: int32): void
+```
+
+/// html | div.result
+//// define
+`terrainStrength`：`int32`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setterrainstrength.terrainstrength.description
+
+
+////
+
+//// define
+返回值：`void`
+
+- script_api.@minecraft/server-editor-bindings.brushshapemanager.setterrainstrength.return
 
 
 ////

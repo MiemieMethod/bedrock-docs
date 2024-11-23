@@ -1,6 +1,6 @@
 # `BlockExplodeAfterEventSignal`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `BlockExplodeAfterEventSignal`类。用于管理与方块爆炸后事件有关的回调函数。
 

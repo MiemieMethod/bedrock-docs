@@ -1,6 +1,6 @@
 # `ExtensionContextAfterEvents`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `ExtensionContextAfterEvents`类。script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.description
 
@@ -65,28 +65,6 @@ read-only currentThemeColorChange: CurrentThemeColorChangeAfterEventSignal;
 `currentThemeColorChange`：[`CurrentThemeColorChangeAfterEventSignal`](./currentthemecolorchangeaftereventsignal.md)
 
 - script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.currentthemecolorchange.description
-
-
-////
-
-///
-
-
-/// define
-`cursorAttachmentPropertyChange`
-
-
-///
-
-```js
-read-only cursorAttachmentPropertyChange: CursorAttachmentPropertyChangeAfterEventSignal;
-```
-
-/// html | div.result
-//// define
-`cursorAttachmentPropertyChange`：[`CursorAttachmentPropertyChangeAfterEventSignal`](./cursorattachmentpropertychangeaftereventsignal.md)
-
-- script_api.@minecraft/server-editor-bindings.extensioncontextafterevents.cursorattachmentpropertychange.description
 
 
 ////

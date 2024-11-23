@@ -296,7 +296,9 @@ Violating packet id：<!-- md:samp varint -->
   |`ServerboundDiagnosticsPacket`|`315`|protocol.enum.serverbounddiagnosticspacket|
   |`CameraAimAssist`|`316`|protocol.enum.cameraaimassist|
   |`ContainerRegistryCleanup`|`317`|protocol.enum.containerregistrycleanup|
-  |`EndId`|`318`|protocol.enum.endid|
+  |`MovementEffect`|`318`|protocol.enum.movementeffect|
+  |`SetMovementAuthorityMode`|`319`|protocol.enum.setmovementauthoritymode|
+  |`EndId`|`320`|protocol.enum.endid|
 
 
 

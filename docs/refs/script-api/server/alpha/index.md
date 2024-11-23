@@ -1,6 +1,6 @@
 # `@minecraft/server`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `@minecraft/server`模块的`2.0.0-alpha`版本，UUID为`b26a4d4c-afdf-4690-88f8-931846312678`。该模块是服务端的基础模块。
 
@@ -314,6 +314,7 @@ static read-only world: World;
 |[`ItemComponentRegistry`](./itemcomponentregistry.md)||
 |[`ItemComponentUseEvent`](./itemcomponentuseevent.md)||
 |[`ItemComponentUseOnEvent`](./itemcomponentuseonevent.md)||
+|[`ItemCompostableComponent`](./itemcompostablecomponent.md)||
 |[`ItemCooldownComponent`](./itemcooldowncomponent.md)||
 |[`ItemDurabilityComponent`](./itemdurabilitycomponent.md)||
 |[`ItemDyeableComponent`](./itemdyeablecomponent.md)||
@@ -461,6 +462,7 @@ static read-only world: World;
 |[`CameraSetLocationOptions`](./camerasetlocationoptions.md)||
 |[`CameraSetPosOptions`](./camerasetposoptions.md)||
 |[`CameraSetRotOptions`](./camerasetrotoptions.md)||
+|[`CameraTargetOptions`](./cameratargetoptions.md)||
 |[`CompoundBlockVolumeItem`](./compoundblockvolumeitem.md)||
 |[`DefinitionModifier`](./definitionmodifier.md)||
 |[`DimensionLocation`](./dimensionlocation.md)||

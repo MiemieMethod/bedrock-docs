@@ -1,6 +1,6 @@
 # `@minecraft/server-ui`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `@minecraft/server-ui`模块的`1.4.0-internal`版本，UUID为`2bd50a27-ab5f-4f40-a596-3641627c635e`。该模块是script_api.@minecraft/server-ui.description
 
@@ -8,7 +8,7 @@
 该模块依赖于以下模块：
 
 - `@minecraft/common`|`1.0.0`|`77ec12b4-1b2b-4c98-8d34-d1cd63f849d5`
-- `@minecraft/server`|`1.17.0-internal`|`b26a4d4c-afdf-4690-88f8-931846312678`
+- `@minecraft/server`|`1.18.0-internal`|`b26a4d4c-afdf-4690-88f8-931846312678`
 ///
 
 ## 对象

@@ -1,6 +1,6 @@
 # `PacketId`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `PacketId`枚举。script_api.@minecraft/server-net.packetid.description
 
@@ -183,13 +183,13 @@ static read-only AwardAchievementPacket = "AwardAchievementPacket";
 
 
 /// define
-`BiomeDefinitionList`
+`BiomeDefinitionListPacket`
 
 
 ///
 
 ```js
-static read-only BiomeDefinitionList = "BiomeDefinitionList";
+static read-only BiomeDefinitionListPacket = "BiomeDefinitionListPacket";
 ```
 
 
@@ -370,6 +370,17 @@ static read-only ClientboundDebugRendererPacket = "ClientboundDebugRendererPacke
 
 
 /// define
+`ClientboundMapItemDataPacket`
+
+
+///
+
+```js
+static read-only ClientboundMapItemDataPacket = "ClientboundMapItemDataPacket";
+```
+
+
+/// define
 `ClientCacheBlobStatusPacket`
 
 
@@ -399,6 +410,17 @@ static read-only ClientCacheMissResponsePacket = "ClientCacheMissResponsePacket"
 
 ```js
 static read-only ClientCacheStatusPacket = "ClientCacheStatusPacket";
+```
+
+
+/// define
+`ClientCameraAimAssistPacket`
+
+
+///
+
+```js
+static read-only ClientCameraAimAssistPacket = "ClientCameraAimAssistPacket";
 ```
 
 
@@ -982,17 +1004,6 @@ static read-only MapCreateLockedCopyPacket = "MapCreateLockedCopyPacket";
 
 ```js
 static read-only MapInfoRequestPacket = "MapInfoRequestPacket";
-```
-
-
-/// define
-`MapItemDataPacket`
-
-
-///
-
-```js
-static read-only MapItemDataPacket = "MapItemDataPacket";
 ```
 
 

@@ -1,6 +1,6 @@
 # `WidgetComponentEntity`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `WidgetComponentEntity`类，扩展自[`WidgetComponentBase`](./widgetcomponentbase.md)。script_api.@minecraft/server-editor-bindings.widgetcomponententity.description
 

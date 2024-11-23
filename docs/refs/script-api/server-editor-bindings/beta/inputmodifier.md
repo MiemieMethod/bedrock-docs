@@ -1,6 +1,6 @@
 # `InputModifier`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `InputModifier`枚举。script_api.@minecraft/server-editor-bindings.inputmodifier.description
 

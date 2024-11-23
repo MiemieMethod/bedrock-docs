@@ -106,8 +106,8 @@ rankdir = LR
 34 [label="Net id",comment="name: \"Net id\", typeName: \"\", id: 34, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 35 [label="TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>",comment="name: \"TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>\", typeName: \"\", id: 35, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 36 [label="if (5)",shape=diamond,comment="name: \"if (5)\", typeName: \"\", id: 36, branchId: 5, recurseId: -1, attributes: 4, notes: \"\""];
-37 [label="Shulker Box Recipe",comment="name: \"Shulker Box Recipe\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
-38 [label="ShulkerBoxRecipe",comment="name: \"ShulkerBoxRecipe\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
+37 [label="User Data Shapeless Recipe",comment="name: \"User Data Shapeless Recipe\", typeName: \"\", id: 37, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
+38 [label="UserDataShapelessRecipe",comment="name: \"UserDataShapelessRecipe\", typeName: \"\", id: 38, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 39 [label="Net id",comment="name: \"Net id\", typeName: \"\", id: 39, branchId: 0, recurseId: -1, attributes: 256, notes: \"\""];
 40 [label="TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>",comment="name: \"TypedServerNetId<struct RecipeNetIdTag,unsigned int,0>\", typeName: \"\", id: 40, branchId: 0, recurseId: -1, attributes: 512, notes: \"\""];
 41 [label="if (6)",shape=diamond,comment="name: \"if (6)\", typeName: \"\", id: 41, branchId: 6, recurseId: -1, attributes: 4, notes: \"\""];
@@ -155,7 +155,7 @@ Crafting Type：<!-- md:samp varint -->
   |`FurnaceRecipe`|`2`|protocol.enum.furnacerecipe|
   |`FurnaceAuxRecipe`|`3`|protocol.enum.furnaceauxrecipe|
   |`MultiRecipe`|`4`|protocol.enum.multirecipe|
-  |`ShulkerBoxRecipe`|`5`|protocol.enum.shulkerboxrecipe|
+  |`UserDataShapelessRecipe`|`5`|protocol.enum.userdatashapelessrecipe|
   |`ShapelessChemistryRecipe`|`6`|protocol.enum.shapelesschemistryrecipe|
   |`ShapedChemistryRecipe`|`7`|protocol.enum.shapedchemistryrecipe|
   |`SmithingTransformRecipe`|`8`|protocol.enum.smithingtransformrecipe|
@@ -337,14 +337,14 @@ Net id：[<!-- md:samp TypedServerNetId&lt;struct RecipeNetIdTag,unsigned int,0&
 
 ///// tab | `Crafting Type`如果为`5`
 ```title='if (5)'
-[shulker_box_recipe][net_id]
+[user_data_shapeless_recipe][net_id]
 ```
 
 ////// html | div.result
 /////// define
-Shulker Box Recipe：[<!-- md:samp ShulkerBoxRecipe -->](../types/shulkerboxrecipe.md)
+User Data Shapeless Recipe：[<!-- md:samp UserDataShapelessRecipe -->](../types/userdatashapelessrecipe.md)
 
-- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_5.shulker_box_recipe.description
+- 特殊类型。protocol.type.craftingdataentry.dependency_on_crafting_type.if_5.user_data_shapeless_recipe.description
 
 
 ///////

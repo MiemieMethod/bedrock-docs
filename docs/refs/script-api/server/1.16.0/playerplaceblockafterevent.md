@@ -1,6 +1,6 @@
 # `PlayerPlaceBlockAfterEvent`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `PlayerPlaceBlockAfterEvent`类，扩展自[`BlockEvent`](./blockevent.md)。script_api.@minecraft/server.playerplaceblockafterevent.description
 

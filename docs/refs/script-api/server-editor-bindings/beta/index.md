@@ -1,6 +1,6 @@
 # `@minecraft/server-editor-bindings`
 
-> 文档版本：1.21.50.25
+> 文档版本：1.21.60.21
 
 `@minecraft/server-editor-bindings`模块的`0.1.0-beta`版本，UUID为`8518d9c7-a1f5-4bf3-acc7-78e87df595fc`。该模块是script_api.@minecraft/server-editor-bindings.description
 
@@ -8,7 +8,7 @@
 该模块依赖于以下模块：
 
 - `@minecraft/common`|`1.0.0`|`77ec12b4-1b2b-4c98-8d34-d1cd63f849d5`
-- `@minecraft/server`|`1.17.0-beta`|`b26a4d4c-afdf-4690-88f8-931846312678`
+- `@minecraft/server`|`1.18.0-beta`|`b26a4d4c-afdf-4690-88f8-931846312678`
 ///
 
 ## 对象
@@ -63,6 +63,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 |---|---|
 |[`BlockPalette`](./blockpalette.md)||
 |[`BlockPaletteManager`](./blockpalettemanager.md)||
+|[`BlockUtilities`](./blockutilities.md)||
 |[`BrushShapeManager`](./brushshapemanager.md)||
 |[`ClipboardChangeAfterEvent`](./clipboardchangeafterevent.md)||
 |[`ClipboardChangeAfterEventSignal`](./clipboardchangeaftereventsignal.md)||
@@ -73,8 +74,6 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`CurrentThemeColorChangeAfterEvent`](./currentthemecolorchangeafterevent.md)||
 |[`CurrentThemeColorChangeAfterEventSignal`](./currentthemecolorchangeaftereventsignal.md)||
 |[`Cursor`](./cursor.md)||
-|[`CursorAttachmentPropertiesChangeAfterEvent`](./cursorattachmentpropertieschangeafterevent.md)||
-|[`CursorAttachmentPropertyChangeAfterEventSignal`](./cursorattachmentpropertychangeaftereventsignal.md)||
 |[`CursorPropertiesChangeAfterEvent`](./cursorpropertieschangeafterevent.md)||
 |[`CursorPropertyChangeAfterEventSignal`](./cursorpropertychangeaftereventsignal.md)||
 |[`DataStore`](./datastore.md)||
@@ -114,21 +113,25 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`SettingsUIElement`](./settingsuielement.md)||
 |[`SimpleBlockPaletteItem`](./simpleblockpaletteitem.md)||
 |[`SimulationState`](./simulationstate.md)||
+|[`SpeedSettings`](./speedsettings.md)||
 |[`ThemeSettings`](./themesettings.md)||
 |[`TickingAreaManager`](./tickingareamanager.md)||
 |[`TransactionManager`](./transactionmanager.md)||
 |[`UserDefinedTransactionHandlerId`](./userdefinedtransactionhandlerid.md)||
 |[`Widget`](./widget.md)||
 |[`WidgetComponentBase`](./widgetcomponentbase.md)||
+|[`WidgetComponentClipboard`](./widgetcomponentclipboard.md)||
 |[`WidgetComponentEntity`](./widgetcomponententity.md)||
 |[`WidgetComponentGizmo`](./widgetcomponentgizmo.md)||
 |[`WidgetComponentGuide`](./widgetcomponentguide.md)||
 |[`WidgetComponentRenderPrimitive`](./widgetcomponentrenderprimitive.md)||
-|[`WidgetComponentRenderPrimitiveAxialSphere`](./widgetcomponentrenderprimitiveaxialsphere.md)||
-|[`WidgetComponentRenderPrimitiveBox`](./widgetcomponentrenderprimitivebox.md)||
-|[`WidgetComponentRenderPrimitiveDisc`](./widgetcomponentrenderprimitivedisc.md)||
-|[`WidgetComponentRenderPrimitiveLine`](./widgetcomponentrenderprimitiveline.md)||
+|[`WidgetComponentRenderPrimitiveTypeAxialSphere`](./widgetcomponentrenderprimitivetypeaxialsphere.md)||
+|[`WidgetComponentRenderPrimitiveTypeBase`](./widgetcomponentrenderprimitivetypebase.md)||
+|[`WidgetComponentRenderPrimitiveTypeBox`](./widgetcomponentrenderprimitivetypebox.md)||
+|[`WidgetComponentRenderPrimitiveTypeDisc`](./widgetcomponentrenderprimitivetypedisc.md)||
+|[`WidgetComponentRenderPrimitiveTypeLine`](./widgetcomponentrenderprimitivetypeline.md)||
 |[`WidgetComponentSpline`](./widgetcomponentspline.md)||
+|[`WidgetComponentStateChangeEventData`](./widgetcomponentstatechangeeventdata.md)||
 |[`WidgetComponentText`](./widgetcomponenttext.md)||
 |[`WidgetGroup`](./widgetgroup.md)||
 |[`WidgetManager`](./widgetmanager.md)||
@@ -142,8 +145,8 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`BlockMaskList`](./blockmasklist.md)||
 |[`BrushShape`](./brushshape.md)||
 |[`ClipboardWriteOptions`](./clipboardwriteoptions.md)||
-|[`CursorAttachmentProperties`](./cursorattachmentproperties.md)||
 |[`CursorProperties`](./cursorproperties.md)||
+|[`CursorRay`](./cursorray.md)||
 |[`DataTransferCollectionNameData`](./datatransfercollectionnamedata.md)||
 |[`EditorStructure`](./editorstructure.md)||
 |[`EditorStructureSearchOptions`](./editorstructuresearchoptions.md)||
@@ -155,6 +158,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`SettingsUIElementOptions`](./settingsuielementoptions.md)||
 |[`WeightedBlock`](./weightedblock.md)||
 |[`WidgetComponentBaseOptions`](./widgetcomponentbaseoptions.md)||
+|[`WidgetComponentClipboardOptions`](./widgetcomponentclipboardoptions.md)||
 |[`WidgetComponentEntityOptions`](./widgetcomponententityoptions.md)||
 |[`WidgetComponentGizmoOptions`](./widgetcomponentgizmooptions.md)||
 |[`WidgetComponentGuideOptions`](./widgetcomponentguideoptions.md)||
@@ -168,6 +172,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 
 |枚举|描述|
 |---|---|
+|[`Axis`](./axis.md)||
 |[`BlockMaskListType`](./blockmasklisttype.md)||
 |[`BlockPaletteItemType`](./blockpaletteitemtype.md)||
 |[`BrushShapeType`](./brushshapetype.md)||
@@ -188,6 +193,7 @@ static read-only editorInternal: MinecraftEditorInternal;
 |[`PlaytestSessionResult`](./playtestsessionresult.md)||
 |[`PrimitiveType`](./primitivetype.md)||
 |[`ProjectExportType`](./projectexporttype.md)||
+|[`SpeedSettingsProperty`](./speedsettingsproperty.md)||
 |[`SplineType`](./splinetype.md)||
 |[`ThemeSettingsColorKey`](./themesettingscolorkey.md)||
 |[`WidgetComponentType`](./widgetcomponenttype.md)||
