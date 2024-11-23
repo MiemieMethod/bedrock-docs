@@ -501,6 +501,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/commands/list/place/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/commands/list/playanimation/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -3465,6 +3469,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/movementeffectpacket/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/moveplayerpacket/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -3710,6 +3718,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/setlocalplayerasinitializedpacket/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/packets/setmovementauthoritypacket/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -4105,6 +4117,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/playerinputtick/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/positiontrackingid/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -4158,10 +4174,6 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/shapelessrecipe/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/shulkerboxrecipe/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -4289,6 +4301,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/userdatashapelessrecipe/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/protocols/types/vec2/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -4362,6 +4378,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/common/1.2.0/propertyoutofboundserror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/common/1.2.0/runtimeconditionerror/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -13493,6 +13513,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/blockfilloptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/blockfilter/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -13610,6 +13634,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/camerasetrotoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/clientsysteminfo/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -14493,6 +14521,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/memorytier/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/minecraftdimensiontypes/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -14526,6 +14558,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/pistonactivateaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/platformtype/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -14829,6 +14865,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/systeminfo/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/targetblockhitafterevent/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -14858,6 +14898,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/tripwiretripaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/unloadedchunkserror/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -14922,6 +14966,1554 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.16.0/worldsoundoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/block/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponententityfallonevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentonplaceevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentplayerdestroyevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentplayerinteractevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentplayerplacebeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentrandomtickevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentregistry/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentstepoffevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponentsteponevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponenttickevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcomponenttypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcustomcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcustomcomponentalreadyregisterederror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcustomcomponentreloadnewcomponenterror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcustomcomponentreloadneweventerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockcustomcomponentreloadversionerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockeventoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockexplodeafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockexplodeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockfilloptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockfilter/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockfluidcontainercomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockhitinformation/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockinventorycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blocklocationiterator/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockpermutation/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockpistoncomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockpistonstate/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockraycasthit/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockraycastoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockrecordplayercomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blocksigncomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockstates/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockstatetype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blocktype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blocktypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockvolume/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockvolumebase/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/blockvolumeintersection/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/buttonpushafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/buttonpushaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/camera/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/cameradefaultoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/cameraeaseoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/camerafadeoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/camerafadetimeoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/camerasetfacingoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/camerasetlocationoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/camerasetposoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/camerasetrotoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/clientsysteminfo/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/commanderror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/commandresult/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/component/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/container/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/containerslot/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/customcomponentinvalidregistryerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/customcomponentnameerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/customcomponentnameerrorreason/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/datadrivenentitytriggerafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/datadrivenentitytriggeraftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/definitionmodifier/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/dimension/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/dimensionlocation/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/dimensiontype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/dimensiontypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/direction/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/displayslotid/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/dyecolor/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/easingtype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/effect/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/effectaddafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/effectaddaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/effectaddbeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/effectaddbeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/effecttype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/effecttypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/enchantment/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/enchantmentleveloutofboundserror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/enchantmentslot/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/enchantmenttype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/enchantmenttypenotcompatibleerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/enchantmenttypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/enchantmenttypeunknowniderror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entity/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityaddridercomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityageablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityapplydamagebyprojectileoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityapplydamageoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityattributecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitybasemovementcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitybreathablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitycanclimbcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitycanflycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitycanpowerjumpcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitycolor2component/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitycolorcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitycomponenttypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitydamagecause/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitydamagesource/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitydatadriventriggereventoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitydefinitionfeeditem/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitydieafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitydieaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityeffectoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityequippablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityeventoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityfilter/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityfireimmunecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityfloatsinliquidcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityflyingspeedcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityfrictionmodifiercomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitygroundoffsetcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhealablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhealthchangedafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhealthchangedaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhealthcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhitblockafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhitblockaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhitentityafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhitentityaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhitinformation/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhurtafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityhurtaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityinitializationcause/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityinventorycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisbabycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityischargedcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityischestedcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisdyeablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityishiddenwheninvisiblecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisignitedcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisillagercaptaincomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityissaddledcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisshakingcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisshearedcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisstackablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityisstunnedcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityistamedcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityitemcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitylavamovementcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityleashablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityloadafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityloadaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymarkvariantcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementamphibiouscomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementbasiccomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementflycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementgenericcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementglidecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementhovercomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementjumpcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementskipcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitymovementswaycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitynavigationclimbcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitynavigationcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitynavigationfloatcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitynavigationflycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitynavigationgenericcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitynavigationhovercomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitynavigationwalkcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityonfirecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityprojectilecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitypushthroughcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityqueryoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityquerypropertyoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityqueryscoreoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityraycasthit/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityraycastoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityremoveafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityremoveaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityremovebeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityremovebeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityrideablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityridingcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityscalecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityskinidcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityspawnafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityspawnaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitystrengthcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitytameablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitytamemountcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitytype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitytypefamilycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitytypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityunderwatermovementcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entityvariantcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/entitywantsjockeycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/equalscomparison/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/equipmentslot/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/explosionafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/explosionaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/explosionbeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/explosionbeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/explosionoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/feeditem/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/feeditemeffect/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/fluidcontainer/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/fluidtype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/gamemode/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/gamerule/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/gamerulechangeafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/gamerulechangeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/gamerules/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/greaterthancomparison/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/greaterthanorequalscomparison/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/hudelement/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/hudvisibility/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/ibuttonpushaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/ileveractionaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/inputpermissioncategory/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/invalidcontainersloterror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/invaliditeratorerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/invalidstructureerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/iplayerjoinaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/iplayerleaveaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/iplayerspawnaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcompleteuseafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcompleteuseaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcompleteuseevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponentbeforedurabilitydamageevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponentcompleteuseevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponentconsumeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponenthitentityevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponentmineblockevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponentregistry/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponenttypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponentuseevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcomponentuseonevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcooldowncomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcustomcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcustomcomponentalreadyregisterederror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcustomcomponentreloadnewcomponenterror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcustomcomponentreloadneweventerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemcustomcomponentreloadversionerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemdurabilitycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemenchantablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemfoodcomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemlockmode/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemreleaseuseafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemreleaseuseaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstack/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstartuseafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstartuseaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstartuseonafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstartuseonaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstopuseafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstopuseaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstopuseonafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemstopuseonaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemtype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemtypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemuseafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemuseaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemusebeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemusebeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemuseonafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemuseonaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemuseonbeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemuseonbeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/itemuseonevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/lessthancomparison/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/lessthanorequalscomparison/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/leveractionafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/leveractionaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/listblockvolume/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/locationinunloadedchunkerror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/locationoutofworldboundarieserror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/memorytier/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/minecraftdimensiontypes/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/molangvariablemap/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/moonphase/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/musicoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/notequalscomparison/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/objectivesortorder/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/palettecolor/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/pistonactivateafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/pistonactivateaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/platformtype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playanimationoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/player/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerbreakblockafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerbreakblockaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerbreakblockbeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerbreakblockbeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playercursorinventorycomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerdimensionchangeafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerdimensionchangeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playeremoteafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playeremoteaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playergamemodechangeafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playergamemodechangeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playergamemodechangebeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playergamemodechangebeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinputpermissioncategorychangeafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinputpermissioncategorychangeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinputpermissions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithblockafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithblockaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithblockbeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithblockbeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithentityafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithentityaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithentitybeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerinteractwithentitybeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerjoinafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerjoinaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerleaveafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerleaveaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerleavebeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerleavebeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerplaceblockafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerplaceblockaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playersoundoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerspawnafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/playerspawnaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/pressureplatepopafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/pressureplatepopaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/pressureplatepushafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/pressureplatepushaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/projectilehitblockafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/projectilehitblockaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/projectilehitentityafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/projectilehitentityaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/projectileshootoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/rangecomparison/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/rawmessage/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/rawmessagescore/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/rawtext/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/rgb/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/rgba/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scoreboard/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scoreboardidentity/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scoreboardidentitytype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scoreboardobjective/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scoreboardobjectivedisplayoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scoreboardscoreinfo/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/screendisplay/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scripteventcommandmessageafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scripteventcommandmessageaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scripteventmessagefilteroptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/scripteventsource/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/seat/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/signside/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structure/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structureanimationmode/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structurecreateoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structuremanager/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structuremirroraxis/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structureplaceoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structurerotation/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/structuresavemode/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/system/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/systemafterevents/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/systeminfo/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/targetblockhitafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/targetblockhitaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/teleportoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/timeofday/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/titledisplayoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/trigger/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/tripwiretripafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/tripwiretripaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/unloadedchunkserror/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/vector2/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/vector3/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/vectorxz/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/weatherchangeafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/weatherchangeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/weatherchangebeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/weatherchangebeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/weathertype/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/world/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/worldafterevents/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/worldbeforeevents/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/worldinitializeafterevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/worldinitializeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/worldinitializebeforeevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/worldinitializebeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/1.17.0/worldsoundoptions/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -20837,6 +22429,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/alpha/cameratargetoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/alpha/chatsendafterevent/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -21622,6 +23218,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/alpha/itemcomponentuseonevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/alpha/itemcompostablecomponent/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -22577,6 +24177,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/cameratargetoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/chatsendafterevent/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -23385,6 +24989,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcompostablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/itemcooldowncomponent/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -23917,6 +25525,14 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/shutdownbeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/shutdownevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/beta/signside/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -24330,6 +25946,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/internal/camerasetrotoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/internal/cameratargetoptions/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -25141,6 +26761,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/internal/itemcompostablecomponent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/internal/itemcooldowncomponent/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -25673,6 +27297,14 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/internal/shutdownbeforeeventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/internal/shutdownevent/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server/internal/signside/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -25865,6 +27497,10 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/axis/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/blockmasklist/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -25882,6 +27518,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/blockpalettemanager/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/blockutilities/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -25937,18 +27577,6 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/cursorattachmentproperties/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/cursorattachmentpropertieschangeafterevent/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/cursorattachmentpropertychangeaftereventsignal/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/cursorcontrolmode/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -25962,6 +27590,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/cursorpropertychangeaftereventsignal/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/cursorray/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -26225,6 +27857,14 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/speedsettings/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/speedsettingsproperty/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/splinetype/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -26265,6 +27905,14 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentclipboard/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentclipboardoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponententity/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
@@ -26293,23 +27941,27 @@
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitiveaxialsphere/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitivebox/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitivedisc/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitiveline/</loc>
-         <lastmod>2024-11-23</lastmod>
-    </url>
-    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitiveoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitivetypeaxialsphere/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitivetypebase/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitivetypebox/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitivetypedisc/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentrenderprimitivetypeline/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
@@ -26318,6 +27970,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentsplineoptions/</loc>
+         <lastmod>2024-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/script-api/server-editor-bindings/beta/widgetcomponentstatechangeeventdata/</loc>
          <lastmod>2024-11-23</lastmod>
     </url>
     <url>
