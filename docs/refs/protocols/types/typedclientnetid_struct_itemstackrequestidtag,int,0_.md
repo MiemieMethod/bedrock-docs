@@ -1,6 +1,6 @@
 # <!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->
 
-> 文档版本：r/21_u3<br/>协议版本：729
+> 文档版本：r/21_u4<br/>协议版本：748
 
 <!-- md:samp TypedClientNetId&lt;struct ItemStackRequestIdTag,int,0&gt; -->类型。该类型用于protocol.type.typedclientnetid&lt;struct_itemstackrequestidtag,int,0&gt;.description
 

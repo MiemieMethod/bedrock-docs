@@ -1,6 +1,6 @@
 # <!-- md:samp DataItem -->
 
-> 文档版本：r/21_u3<br/>协议版本：729
+> 文档版本：r/21_u4<br/>协议版本：748
 
 <!-- md:samp DataItem -->类型。该类型用于protocol.type.dataitem.description
 

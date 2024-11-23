@@ -1,6 +1,6 @@
 # <!-- md:samp LessonProgressPacket -->
 
-> 文档版本：r/21_u3<br/>协议版本：729
+> 文档版本：r/21_u4<br/>协议版本：748
 
 <!-- md:samp LessonProgressPacket -->数据包，数字ID是`183`。该数据包用于protocol.packet.lessonprogresspacket.description
 

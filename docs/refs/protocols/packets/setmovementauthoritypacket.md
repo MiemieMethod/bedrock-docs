@@ -1,6 +1,6 @@
 # <!-- md:samp SetMovementAuthorityPacket -->
 
-> 文档版本：r/21_u3<br/>协议版本：729
+> 文档版本：r/21_u4<br/>协议版本：748
 
 <!-- md:samp SetMovementAuthorityPacket -->数据包，数字ID是`319`。该数据包用于protocol.packet.setmovementauthoritypacket.description
 
@@ -32,7 +32,14 @@ rankdir = LR
 //// define
 NewAuthMovementMode：<!-- md:samp byte -->
 
-- 基本类型。protocol.packet.setmovementauthoritypacket.newauthmovementmode.description
+- 基本类型枚举。protocol.packet.setmovementauthoritypacket.newauthmovementmode.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`LegacyClientAuthoritativeV1`|`0`|protocol.enum.legacyclientauthoritativev1|
+  |`ClientAuthoritativeV2`|`1`|protocol.enum.clientauthoritativev2|
+  |`ServerAuthoritativeV3`|`2`|protocol.enum.serverauthoritativev3|
+
 
 
 ////

@@ -1,6 +1,6 @@
 # <!-- md:samp RemoveObjectivePacket -->
 
-> 文档版本：r/21_u3<br/>协议版本：729
+> 文档版本：r/21_u4<br/>协议版本：748
 
 <!-- md:samp RemoveObjectivePacket -->数据包，数字ID是`106`。该数据包用于protocol.packet.removeobjectivepacket.description
 

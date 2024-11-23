@@ -1,6 +1,6 @@
 # <!-- md:samp MovementEffectPacket -->
 
-> 文档版本：r/21_u3<br/>协议版本：729
+> 文档版本：r/21_u4<br/>协议版本：748
 
 <!-- md:samp MovementEffectPacket -->数据包，数字ID是`318`。该数据包用于protocol.packet.movementeffectpacket.description
 
@@ -51,7 +51,14 @@ Target Runtime ID：[<!-- md:samp ActorRuntimeID -->](../types/actorruntimeid.md
 //// define
 Effect ID：<!-- md:samp varint -->
 
-- 基本类型。protocol.packet.movementeffectpacket.effect_id.description
+- 基本类型枚举。protocol.packet.movementeffectpacket.effect_id.description枚举值如下：
+
+  |键|值|描述|
+  |---|---|---|
+  |`INVALID`|`-1`|protocol.enum.invalid|
+  |`GLIDE_BOOST`|`0`|protocol.enum.glide_boost|
+  |`COUNT`|`1`|protocol.enum.count|
+
 
 
 ////
