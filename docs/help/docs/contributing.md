@@ -1273,18 +1273,18 @@ rankdir = LR
 {{file|example.md|mp3}}
 ///
 
-带有前缀`.`的文件会自动判定为隐藏文件，你也可以用`hide`手动指定文件是否隐藏：
+带有前缀`.`的文件会自动判定为隐藏文件，你也可以用`hide`手动指定文件是否隐藏（前两个参数必须已经设置）：
 
 ```markdown
 {/{file|.example.md}}
 
-{/{file|example.md|hide=1}}
+{/{file|example.md|md|hide=1}}
 ```
 
 /// html | div.result
 {{file|.example.md}}
 
-{{file|example.md|hide=1}}
+{{file|example.md|md|hide=1}}
 ///
 
 #### {{samp|video}}
