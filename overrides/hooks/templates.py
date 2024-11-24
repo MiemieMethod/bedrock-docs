@@ -26,6 +26,7 @@ def on_page_markdown(
         elif type == "json":     return json(args, page, files)
         elif type == "file":     return file(args, page, files)
         elif type == "samp":     return samp(args)
+        elif type == "video":    return video(args)
 
         # Otherwise, raise an error
         raise RuntimeError(f"Unknown template name: {type}")
@@ -287,3 +288,15 @@ def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
     indicator += "</span>"
 
     return f":file-type-{icon}:{{ title=\"{typeNames.get(icon, "")}\" {inject} }}{indicator}**{text}**"
+
+def video(args: str):
+    splitted = args.split("|")
+    if len(splitted) != 2:
+        raise RuntimeError(f"video template wrong: {type}")
+    type, id = splitted
+    if type == "youtube":
+        return build_youtube(id)
+    return ""
+
+def build_youtube(id):
+    return f"<div style=\"max-width: 700px; aspect-ratio: 16 / 9;\"><iframe src=\"https://www.youtube-nocookie.com/embed/{id}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe></div>"
