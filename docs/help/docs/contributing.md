@@ -1054,30 +1054,30 @@ rankdir = LR
 
 ### 树状视图
 
-树状视图是一种特殊的无序列表，需要在无序列表外面包裹`<div>`标签，并在`<div>`标签中指定`class="treeview"`和`markdown`特性。例如：
+树状视图是一种特殊的无序列表，需要在无序列表外面包裹`<div>`标签，并在`<div>`标签中指定`class="treeview"`和`markdown`特性。你也可以用HTML块快速实现`<div>`标签。例如：
 
 ```markdown
-<div class="treeview" markdown>
+/// html | div.treeview
 - 根
-    - 分支1
+    - 枝1
         - 叶1
         - 叶2
-    - 分支12
+    - 枝2
         - 叶3
         - 叶4
-</div>
+///
 ```
 
 /// html | div.result
-<div class="treeview" markdown>
+//// html | div.treeview
 - 根
-    - 分支1
+    - 枝1
         - 叶1
         - 叶2
-    - 分支12
+    - 枝2
         - 叶3
         - 叶4
-</div>
+////
 ///
 
 ### 工具提示
@@ -1228,25 +1228,66 @@ rankdir = LR
 `{/{nbt}}`和`{/{json}}`用于NBT标签和JSON字段，通常配合[树状视图](#树状视图)使用，例如：
 
 ```markdown
-<div class="treeview" markdown>
+/// html | div.treeview
 - {/{json|object|minecraft:crafting_table}}：根对象。
     - {/{json|string|table_name}}：定义合成界面显示的标题。
     - {/{json|array|crafting_tags|required=1}}：定义合成配方的标签，最多64个元素。定义的标签将用于配方JSON文件中确定该配方可用的范围。
         - 4
     - {/{nbt|int|Health|required=1|existonsave=1}}：这是一个序列化和反序列化都必须存在的NBT标签。
     - 6
-</div>
+///
 ```
 
 /// html | div.result
-<div class="treeview" markdown>
+//// html | div.treeview
 - {{json|object|minecraft:crafting_table}}：根对象。
     - {{json|string|table_name}}：定义合成界面显示的标题。
     - {{json|array|crafting_tags|required=1}}：定义合成配方的标签，最多64个元素。定义的标签将用于配方JSON文件中确定该配方可用的范围。
         - 4
     - {{nbt|int|Health|required=1|existonsave=1}}：这是一个序列化和反序列化都必须存在的NBT标签。
     - 6
-</div>
+////
 ///
 
 其中，第一个参数是类型，第二个参数是键名。参数还可以指定`required`和`existonsave`属性，分别表示序列化和反序列化时是否必须存在和是否在保存时存在。
+
+#### {{samp|file}}
+
+`{/{file}}`用于显示文件图标和文件名，例如：
+
+```markdown
+{/{file|example.md}}
+```
+
+/// html | div.result
+{{file|example.md}}
+///
+
+该模板会自动根据文件扩展名显示相应的图标。但是你也可以手动指定图标：
+
+```markdown
+{/{file|example.md|mp3}}
+```
+
+/// html | div.result
+{{file|example.md|mp3}}
+///
+
+带有前缀`.`的文件会自动判定为隐藏文件，你也可以用`hide`手动指定文件是否隐藏：
+
+```markdown
+{/{file|.example.md}}
+
+{/{file|example.md|hide=1}}
+```
+
+/// html | div.result
+{{file|.example.md}}
+
+{{file|example.md|hide=1}}
+///
+
+#### {{samp|video}}
+
+`{/{video}}`用于显示一个视频播放器，目前只支持YouTube视频，格式为`{/{video|youtube|视频ID}}`。
+

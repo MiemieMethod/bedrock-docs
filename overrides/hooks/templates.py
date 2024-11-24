@@ -299,4 +299,4 @@ def video(args: str):
     return ""
 
 def build_youtube(id):
-    return f"<div style=\"max-width: 700px; aspect-ratio: 16 / 9;\"><iframe src=\"https://www.youtube-nocookie.com/embed/{id}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe></div>"
+    return f"<div style=\"max-width: 700px; aspect-ratio: 16 / 9;\"><iframe src=\"https://www.youtube-nocookie.com/embed/{id}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" style=\"\width: 100%; height: 100%;\"></iframe></div>"
