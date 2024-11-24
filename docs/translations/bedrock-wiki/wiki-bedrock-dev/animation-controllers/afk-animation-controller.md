@@ -8,11 +8,11 @@ description: 当玩家处于AFK状态时运行命令。
 - 该页面仓库地址为[https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/animation-controllers/afk-animation-controller.md](https://github.com/Bedrock-OSS/bedrock-wiki/blob/wiki/docs/animation-controllers/afk-animation-controller.md)
 - 该页面的版本为<!-- md:samp Bedrock-OSS/bedrock-wiki@6e3dce1648e897cff9141561e8fa8a5a1befec04 -->
 - 该页面的作者有：
-  - <!-- md:samp @SirLich -->
-  - <!-- md:samp @BlueFrog130 -->
-  - <!-- md:samp @SmokeyStack -->
-  - <!-- md:samp @Keyyard -->
-  - <!-- md:samp @Ultr4Anubis -->
+    - <!-- md:samp @SirLich -->
+    - <!-- md:samp @BlueFrog130 -->
+    - <!-- md:samp @SmokeyStack -->
+    - <!-- md:samp @Keyyard -->
+    - <!-- md:samp @Ultr4Anubis -->
 ///
 
 ### AFK检测器动画控制器
