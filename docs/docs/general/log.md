@@ -8,9 +8,9 @@ Minecraft自身拥有一个日志目录，用于存放各类日志文件。该�
 
 在Windows系统中：
 
-- 国际版零售构建和Playtest构建：{{samp|%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\logs}}
-- 中国版零售构建和ModPC开发包：{{samp|%AppData%\MinecraftPE_Netease\logs}}
-- 中国版编辑器构建：{{samp|%AppData%\MinecraftPE_Netease_Editor\logs}}
+- 国际版零售构建和Playtest构建：{{samp|%LocalAppData%\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\logs}}
+- 中国版零售构建和ModPC开发包：{{samp|%AppData%\\MinecraftPE_Netease\\logs}}
+- 中国版编辑器构建：{{samp|%AppData%\\MinecraftPE_Netease_Editor\\logs}}
 
 在Android系统中：
 
@@ -30,4 +30,4 @@ Minecraft自身拥有一个日志目录，用于存放各类日志文件。该�
 
 ## 脚本日志
 
-对于中国版的ModPC开发包，会连接MCStudio所唤起的一个名为Safaia的服务端并输出Python脚本日志。这些日志会保存在{{samp|%LocalAppData%\NetEase\MCSafaiaServer\log_storages}}文件夹中。你也可以在调试窗口中手动保存当前实例的日志到其他位置。
+对于中国版的ModPC开发包，会连接MCStudio所唤起的一个名为Safaia的服务端并输出Python脚本日志。这些日志会保存在{{samp|%LocalAppData%\\NetEase\\MCSafaiaServer\\log_storages}}文件夹中。你也可以在调试窗口中手动保存当前实例的日志到其他位置。
