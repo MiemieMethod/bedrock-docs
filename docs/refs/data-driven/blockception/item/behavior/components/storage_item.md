@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.50.25
 
-[EXPERIMENTAL] Storage Items can be used by other components to store other items within this item.
+Storage Items can be used by other components to store other items within this item.
 
 ## 架构
 

@@ -1911,8 +1911,17 @@ single_block_feature:
 {
   description "description"
   identifier "places_block"
+  array "places_block" : opt
+  {
+    array "<any array element>" : opt
+    {
+      identifier "0..0"
+      number "1..1" : opt
+    }
+  }
   boolean "enforce_placement_rules" : opt
   boolean "enforce_survivability_rules" : opt
+  boolean "randomize_rotation" : opt
   object "may_attach_to" : opt
   {
      "min_sides_must_attach" : opt
@@ -1929,6 +1938,19 @@ single_block_feature:
      "west" : opt
      "all" : opt
      "sides" : opt
+     "diagonal" : opt
+  }
+  object "may_not_attach_to" : opt
+  {
+     "top" : opt
+     "bottom" : opt
+     "north" : opt
+     "south" : opt
+     "east" : opt
+     "west" : opt
+     "all" : opt
+     "sides" : opt
+     "diagonal" : opt
   }
   array "may_replace" : opt
   {
@@ -1956,6 +1978,53 @@ single_block_feature:
 
 
 ///// define
+`places_block`：<samp>array</samp>
+
+-  Collection of weighted block references that will be placed.
+
+
+/////
+
+<div class="language-text highlight"><span class="filename"><code>places_block</code></span><pre id="__code_1"><span></span></pre></div>
+
+///// html | div.result
+////// define
+`<any array element>`：<samp>array</samp>
+
+- Reference to the block to be placed.
+
+
+//////
+
+<div class="language-text highlight"><span class="filename"><code>&lt;any array element&gt;</code></span><pre id="__code_1"><span></span></pre></div>
+
+////// html | div.result
+/////// define
+`0..0`：<samp>[identifier](#assets.schemas-blockception.general.block.identifier.json)</samp>
+
+- Reference to the block to be placed.
+
+
+///////
+
+
+/////// define
+`1..1`：<samp>number</samp>
+
+- Random weight of this block. A higher number will increase the probability of this block to be picked during placement.
+
+
+///////
+
+
+//////
+
+
+/////
+
+
+
+///// define
 `enforce_placement_rules`：<samp>boolean</samp>
 
 - If true, enforce the block's canPlace check.
@@ -1968,6 +2037,15 @@ single_block_feature:
 `enforce_survivability_rules`：<samp>boolean</samp>
 
 - If true, enforce the block's canSurvive check.
+
+
+/////
+
+
+///// define
+`randomize_rotation`：<samp>boolean</samp>
+
+- If true, randomizes the block's cardinal orientation.
 
 
 /////
@@ -2091,6 +2169,110 @@ single_block_feature:
 
 ////// define
 `sides`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`diagonal`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+/////
+
+
+///// define
+`may_not_attach_to`：<samp>object</samp>
+
+- Denylist which specifies where the block can't be placed.
+
+
+/////
+
+<div class="language-text highlight"><span class="filename"><code>may_not_attach_to</code></span><pre id="__code_1"><span></span></pre></div>
+
+///// html | div.result
+////// define
+`top`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`bottom`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`north`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`south`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`east`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`west`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`all`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`sides`
+
+- UNDOCUMENTED.
+
+
+//////
+
+
+////// define
+`diagonal`
 
 - UNDOCUMENTED.
 

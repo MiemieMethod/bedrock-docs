@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.50.25
 
-[EXPERIMENTAL] Adds bundle-specific interactions and tooltip to the item.
+Adds bundle-specific interactions and tooltip to the item.
 
 ## 架构
 

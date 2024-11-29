@@ -696,6 +696,39 @@ killed_by_player_or_pets:
 
 
 ```mcschema
+killed_by_entity:
+{
+  string "condition" : opt
+  string "entity_type" : opt
+}
+
+```
+
+///////////// html | div.result
+////////////// define
+`condition`：<samp>string</samp>
+
+- UNDOCUMENTED.
+
+
+//////////////
+
+
+////////////// define
+`entity_type`：<samp>string</samp>
+
+- The entity type to match
+
+
+//////////////
+
+
+/////////////
+
+
+
+
+```mcschema
 random_chance:
 {
   string "condition" : opt

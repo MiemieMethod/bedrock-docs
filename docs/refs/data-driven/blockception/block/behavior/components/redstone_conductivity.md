@@ -2,7 +2,7 @@
 
 > 文档版本：1.21.50.25
 
-The basic redstone properties of a block; if the component is not provided the default values are used. Requires the Upcoming Creator Features experiment.
+The basic redstone properties of a block; if the component is not provided the default values are used.
 
 ## 架构
 

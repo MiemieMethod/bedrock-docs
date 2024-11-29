@@ -17,6 +17,7 @@ minecraft:block_placer:
       0 "tags"
     }
   }
+  boolean "replace_block_item" : opt
 }
 
 ```
@@ -74,6 +75,15 @@ string
 
 
 /////
+
+
+////
+
+
+//// define
+`replace_block_item`：<samp>boolean</samp>
+
+- Allows you to specify that this item should replace the default item created for the data-driven block it places.
 
 
 ////

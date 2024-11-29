@@ -145,6 +145,7 @@ projectile:
   string "particle" : opt
   integer "potion_effect" : opt
   number "power" : opt
+  number "reflect_immunity" : opt
   boolean "reflect_on_hurt" : opt
   boolean "semi_random_diff_damage" : opt
   sound_event "shoot_sound"
@@ -1276,6 +1277,15 @@ string
 `power`：<samp>number</samp>
 
 - Determines the velocity of the projectile.
+
+
+////
+
+
+//// define
+`reflect_immunity`：<samp>number</samp>
+
+- During the specified time, in seconds, the projectile cannot be reflected by hitting it
 
 
 ////

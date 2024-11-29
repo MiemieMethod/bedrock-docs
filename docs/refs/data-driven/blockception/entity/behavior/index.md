@@ -606,6 +606,7 @@ components:
   dash "minecraft:dash"
   default_look_angle "minecraft:default_look_angle"
   despawn "minecraft:despawn"
+  dimension_bound "minecraft:dimension_bound"
   drying_out_timer "minecraft:drying_out_timer"
   dweller "minecraft:dweller"
   economy_trade_table "minecraft:economy_trade_table"
@@ -665,7 +666,7 @@ components:
   attribute "minecraft:knockback_resistance"
   attribute "minecraft:lava_movement"
   leashable "minecraft:leashable"
-  lookat "minecraft:lookat"
+  looked_at "minecraft:looked_at"
   loot "minecraft:loot"
   attribute "minecraft:luck"
   managed_wandering_trader "minecraft:managed_wandering_trader"
@@ -742,6 +743,7 @@ components:
   trade_table "minecraft:trade_table"
   trail "minecraft:trail"
   transformation "minecraft:transformation"
+  transient "minecraft:transient"
   trust "minecraft:trust"
   trusting "minecraft:trusting"
   type_family "minecraft:type_family"
@@ -1269,6 +1271,14 @@ components:
 ///////
 
 /////// define
+`minecraft:dimension_bound`：<samp>dimension_bound</samp>
+
+- [`minecraft:dimension_bound`](./components/dimension_bound.md)组件。A collection of components.
+
+
+///////
+
+/////// define
 `minecraft:drying_out_timer`：<samp>drying_out_timer</samp>
 
 - [`minecraft:drying_out_timer`](./components/drying_out_timer.md)组件。A collection of components.
@@ -1741,9 +1751,9 @@ components:
 ///////
 
 /////// define
-`minecraft:lookat`：<samp>lookat</samp>
+`minecraft:looked_at`：<samp>looked_at</samp>
 
-- [`minecraft:lookat`](./components/lookat.md)组件。A collection of components.
+- [`minecraft:looked_at`](./components/looked_at.md)组件。A collection of components.
 
 
 ///////
@@ -2352,6 +2362,14 @@ components:
 `minecraft:transformation`：<samp>transformation</samp>
 
 - [`minecraft:transformation`](./components/transformation.md)组件。A collection of components.
+
+
+///////
+
+/////// define
+`minecraft:transient`：<samp>transient</samp>
+
+- [`minecraft:transient`](./components/transient.md)组件。A collection of components.
 
 
 ///////
@@ -3926,6 +3944,13 @@ events:
       {
       }
     }
+    object "execute_event_on_home_block" : opt
+    {
+      string "event" : opt
+    }
+    object "reset_target" : opt
+    {
+    }
     object "emit_vibration" : opt
     {
       string "vibration" : opt
@@ -4395,6 +4420,44 @@ array
 
 ////////
 
+
+///////
+
+
+/////// define
+`execute_event_on_home_block`：<samp>object</samp>
+
+- Allows the entity to execute an event on the block at its home position
+
+
+///////
+
+<div class="language-text highlight"><span class="filename"><code>execute_event_on_home_block</code></span><pre id="__code_1"><span></span></pre></div>
+
+/////// html | div.result
+//////// define
+`event`：<samp>string</samp>
+
+- The event to execute
+
+
+////////
+
+
+///////
+
+
+/////// define
+`reset_target`：<samp>object</samp>
+
+- Allows an entity to reset its target.
+
+
+///////
+
+<div class="language-text highlight"><span class="filename"><code>reset_target</code></span><pre id="__code_1"><span></span></pre></div>
+
+/////// html | div.result
 
 ///////
 

@@ -91,9 +91,6 @@ items:
     minecraft:use_animation "minecraft:use_animation"
     minecraft:use_modifiers "minecraft:use_modifiers"
     minecraft:wearable "minecraft:wearable"
-    object "<any object property>" : opt
-    {
-    }
   }
 }
 
@@ -492,19 +489,6 @@ string
 
 
 //////
-
-////// define
-`<any object property>`：<samp>object</samp>
-
-
-//////
-
-<div class="language-text highlight"><span class="filename"><code>&lt;any object property&gt;</code></span><pre id="__code_1"><span></span></pre></div>
-
-////// html | div.result
-
-//////
-
 
 /////
 

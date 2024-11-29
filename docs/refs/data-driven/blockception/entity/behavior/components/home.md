@@ -14,6 +14,7 @@ home:
   {
     identifier "<any array element>"
   }
+  string "restriction_type" : opt
 }
 
 ```
@@ -57,6 +58,18 @@ string
 
 /////
 
+
+
+////
+
+
+//// define
+`restriction_type`：<samp>string</samp>
+
+- Defines how the the entity will be restricted to its home position. The possible values are:
+- 'none', which poses no restriction.
+- 'random_movement', which restricts randomized movement to be around the home position.
+- [Beta] 'all_movement', which restricts any kind of movement to be around the home position. However, entities that somehow got too far away from their home will always be able to move closer to it, if prompted to do so.
 
 
 ////

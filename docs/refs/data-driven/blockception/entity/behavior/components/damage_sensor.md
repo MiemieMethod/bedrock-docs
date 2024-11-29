@@ -17,6 +17,7 @@ damage_sensor:
       number "damage_modifier" : opt
       number "damage_multiplier" : opt
       boolean "deals_damage" : opt
+      string "deals_damage" : opt
       trigger "on_damage"
       sound_event "on_damage_sound_event"
     }
@@ -96,6 +97,19 @@ string
 
 
 //////
+
+
+////// define
+`deals_damage`：<samp>string</samp>
+
+- Defines how received damage affects the entity:
+- 'yes', received damage is applied to the entity.
+- 'no', received damage is not applied to the entity.
+- 'no_but_side_effects_apply', received damage is not applied to the entity, but the side effects of the attack are. This means that the attacker's weapon loses durability, enchantment side effects are applied, and so on.
+
+
+//////
+
 
 
 ////// define
