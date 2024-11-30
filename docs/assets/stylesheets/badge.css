@@ -19,6 +19,11 @@
     --md-accent-fg-color:#ff4281;
     --md-accent-fg-color--transparent:#e920631a
 }
+.md-typeset .mdx-badge--china{
+    --md-typeset-a-color:#e92063;
+    --md-accent-fg-color:#ff4281;
+    --md-accent-fg-color--transparent:#e920631a
+}
 .md-typeset .mdx-badge--heart .twemoji{
     animation:heart 1s infinite
 }

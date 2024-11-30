@@ -346,20 +346,11 @@ def _badge_for_deprecated(page: Page, files: Files):
         type = "deprecated"
     )
 
-# Create badge for deprecated flag
-def _badge_for_deprecated(page: Page, files: Files):
-    icon = "octicons-trash-24"
-    href = _resolve_path("help/docs/contributing.md#deprecated", page, files)
-    return _badge(
-        icon = f"[:{icon}:]({href} '已弃用')",
-        type = "deprecated"
-    )
-
 # Create badge for china flag
 def _badge_for_china(page: Page, files: Files):
     icon = "material-inbox-full"
     href = _resolve_path("help/docs/contributing.md#deprecated", page, files)
     return _badge(
-        icon = f"[:{icon}:]({href} '版本独有')",
-        text = "中国版独有"
+        icon = f"[:{icon}:]({href} '中国版独有')",
+        type = "china"
     )
