@@ -62,7 +62,6 @@
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
             - {{json|boolean|minecraft:hand_equipped}}：
-            - {{json|string|minecraft:icon}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:seed}}：
@@ -237,7 +236,7 @@
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:hover_text_color}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:icon}}：<!-- md:flag experimental -->
                 - {{json|string|texture}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
@@ -449,7 +448,6 @@
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
             - {{json|boolean|minecraft:hand_equipped}}：
-            - {{json|string|minecraft:icon}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:seed}}：
@@ -624,7 +622,7 @@
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:hover_text_color}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:icon}}：<!-- md:flag experimental -->
                 - {{json|string|texture}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
@@ -917,7 +915,7 @@
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:hover_text_color}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:icon}}：<!-- md:flag experimental -->
                 - {{json|string|texture}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
@@ -1210,7 +1208,7 @@
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:hover_text_color}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
@@ -1504,10 +1502,10 @@
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
@@ -1679,7 +1677,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -1812,15 +1810,15 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
             - {{json|string|minecraft:interact_button}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -1916,10 +1914,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：<!-- md:flag experimental -->
@@ -2001,7 +1999,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -2118,15 +2116,15 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -2219,10 +2217,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：<!-- md:flag experimental -->
@@ -2291,7 +2289,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -2408,15 +2406,15 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -2459,10 +2457,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：<!-- md:flag experimental -->
@@ -2506,7 +2504,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -2607,15 +2605,15 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -2658,10 +2656,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -2705,7 +2703,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -2806,10 +2804,10 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|string|default}}：
@@ -2818,7 +2816,7 @@
                     - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -2861,10 +2859,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -2908,7 +2906,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -3011,10 +3009,10 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|string|default}}：
@@ -3023,7 +3021,7 @@
                     - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -3066,10 +3064,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -3113,7 +3111,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -3225,10 +3223,10 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|string|default}}：
@@ -3237,7 +3235,7 @@
                     - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -3280,10 +3278,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -3327,7 +3325,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -3445,10 +3443,10 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|string|default}}：
@@ -3457,7 +3455,7 @@
                     - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -3503,10 +3501,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：<!-- md:flag experimental -->
@@ -3563,7 +3561,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -3682,10 +3680,10 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|string|default}}：
@@ -3694,7 +3692,7 @@
                     - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -3740,10 +3738,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：
@@ -3800,7 +3798,7 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:allow_off_hand}}：
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
@@ -3921,10 +3919,10 @@
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:hover_text_color}}：
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:icon}}：
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|string|default}}：
@@ -3933,7 +3931,7 @@
                     - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:liquid_clipped}}：
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -3979,10 +3977,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:should_despawn}}：
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：
