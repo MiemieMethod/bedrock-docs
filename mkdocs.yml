@@ -448,6 +448,9 @@ nav:
       - 行为包:
         - 物品:
           - refs/data-driven/versioned/behavior/item.md
+      - 资源包:
+        - 物品:
+          - refs/data-driven/versioned/resource/item.md
     - 数据驱动（来自Blockception）:
       - refs/data-driven/blockception/index.md
       - 物品:

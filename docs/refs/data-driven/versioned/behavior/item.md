@@ -16,8 +16,8 @@
         - {{json|object|description|required=1}}：
             - {{json|string|identifier}}：
             - {{json|string|category}}：
-            - {{json|string|custom_item_type}}：
-            - {{json|boolean|register_to_create_menu}}：
+            - {{json|string|custom_item_type}}：<!-- md:flag china -->
+            - {{json|boolean|register_to_create_menu}}：<!-- md:flag china -->
         - {{json|object|components|required=1}}：
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:camera}}：
@@ -27,7 +27,6 @@
                 - {{json|float|shutter_screen_ratio}}：
                 - {{json|float|picture_duration}}：
                 - {{json|float|slide_away_duration}}：
-            - {{json|object|minecraft:creative_category}}：
             - {{json|boolean|minecraft:foil}}：
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
@@ -35,8 +34,6 @@
                 - {{json|float|saturation_modifier}}：
                 - {{json|string|saturation_modifier}}：
                 - {{json|string|using_converts_to}}：
-                - {{json|object|using_converts_to}}：
-                    - {{json|string|<*任意键名*>}}：
                 - {{json|string|on_use_action}}：
                 - {{json|array|on_use_range}}：
                     - {{json|float|}}：
@@ -50,17 +47,6 @@
                         - {{json|float|chance}}：
                 - {{json|array|remove_effects}}：
                     - {{json|string|}}：
-                - {{json|object|on_consume}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-            - {{json|float|minecraft:fuel}}：
-            - {{json|object|minecraft:fuel}}：
-                - {{json|float|duration}}：
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -70,29 +56,63 @@
                     - {{json|object|}}：
                         - {{json|string|name}}：
                         - {{json|object|states}}：
-                            - {{json|string|<*任意键名*>}}：
                             - {{json|int|<*任意键名*>}}：
+                            - {{json|string|<*任意键名*>}}：
+                            - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
                 - {{json|boolean|plant_at_any_solid_surface}}：
                 - {{json|string|plant_at_face}}：
             - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|float|minecraft:use_duration}}：
-            - {{json|object|netease:allow_offhand}}：
-                - {{json|boolean|value}}：
-            - {{json|object|netease:cooldown}}：
-                - {{json|int|duration}}：
-                - {{json|string|category}}：
-            - {{json|object|netease:customtips}}：
-                - {{json|string|value}}：
-            - {{json|object|netease:enchant_material}}：
-                - {{json|boolean|value}}：
-            - {{json|object|netease:fire_resistant}}：
-                - {{json|boolean|value}}：
-            - {{json|object|netease:fuel}}：
-                - {{json|int|duration}}：
-            - {{json|object|netease:show_in_hand}}：
-                - {{json|boolean|value}}：
+            - {{json|object|netease:allow_offhand}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:armor}}：<!-- md:flag china -->
+                - {{json|int|defense}}：<!-- md:flag china -->
+                - {{json|int|enchantment}}：<!-- md:flag china -->
+                - {{json|int|armor_slot}}：<!-- md:flag china -->
+                - {{json|int|toughness}}：<!-- md:flag china -->
+                - {{json|int|knockback_resistance}}：<!-- md:flag china -->
+            - {{json|object|netease:bucket}}：<!-- md:flag china -->
+                - {{json|string|fill_liquid}}：<!-- md:flag china -->
+            - {{json|int|netease:compostable}}：<!-- md:flag china -->
+            - {{json|object|netease:cooldown}}：<!-- md:flag china -->
+                - {{json|int|duration}}：<!-- md:flag china -->
+                - {{json|string|category}}：<!-- md:flag china -->
+            - {{json|object|netease:customtips}}：<!-- md:flag china -->
+                - {{json|string|value}}：<!-- md:flag china -->
+            - {{json|object|netease:egg}}：<!-- md:flag china -->
+                - {{json|string|entity}}：<!-- md:flag china -->
+            - {{json|object|netease:enchant_material}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:fire_resistant}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:frame_animation}}：<!-- md:flag china -->
+                - {{json|int|frame_count}}：<!-- md:flag china -->
+                - {{json|string|texture_name}}：<!-- md:flag china -->
+                - {{json|boolean|animate_in_toolbar}}：<!-- md:flag china -->
+            - {{json|object|netease:fuel}}：<!-- md:flag china -->
+                - {{json|int|duration}}：<!-- md:flag china -->
+            - {{json|object|netease:render_offsets}}：<!-- md:flag china -->
+                - {{json|array|controller_position_adjust}}：<!-- md:flag china -->
+                    - {{json|float|}}：<!-- md:flag china -->
+                - {{json|array|controller_rotation_adjust}}：<!-- md:flag china -->
+                    - {{json|float|}}：<!-- md:flag china -->
+                - {{json|float|controller_scale}}：<!-- md:flag china -->
+            - {{json|object|netease:shield}}：<!-- md:flag china -->
+                - {{json|array|defence_damage_source_list}}：<!-- md:flag china -->
+                    - {{json|string|}}：<!-- md:flag china -->
+                - {{json|array|undefence_damage_source_list}}：<!-- md:flag china -->
+                    - {{json|string|}}：<!-- md:flag china -->
+                - {{json|boolean|is_consume_damage}}：<!-- md:flag china -->
+            - {{json|object|netease:show_in_hand}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:weapon}}：<!-- md:flag china -->
+                - {{json|string|type}}：<!-- md:flag china -->
+                - {{json|int|level}}：<!-- md:flag china -->
+                - {{json|int|speed}}：<!-- md:flag china -->
+                - {{json|int|attack_damage}}：<!-- md:flag china -->
+                - {{json|int|enchantment}}：<!-- md:flag china -->
 
 ////
 
@@ -402,8 +422,8 @@
         - {{json|object|description|required=1}}：
             - {{json|string|identifier}}：
             - {{json|string|category}}：
-            - {{json|string|custom_item_type}}：
-            - {{json|boolean|register_to_create_menu}}：
+            - {{json|string|custom_item_type}}：<!-- md:flag china -->
+            - {{json|boolean|register_to_create_menu}}：<!-- md:flag china -->
         - {{json|object|components|required=1}}：
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:camera}}：
@@ -413,7 +433,6 @@
                 - {{json|float|shutter_screen_ratio}}：
                 - {{json|float|picture_duration}}：
                 - {{json|float|slide_away_duration}}：
-            - {{json|object|minecraft:creative_category}}：
             - {{json|boolean|minecraft:foil}}：
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
@@ -421,8 +440,6 @@
                 - {{json|float|saturation_modifier}}：
                 - {{json|string|saturation_modifier}}：
                 - {{json|string|using_converts_to}}：
-                - {{json|object|using_converts_to}}：
-                    - {{json|string|<*任意键名*>}}：
                 - {{json|string|on_use_action}}：
                 - {{json|array|on_use_range}}：
                     - {{json|float|}}：
@@ -436,17 +453,6 @@
                         - {{json|float|chance}}：
                 - {{json|array|remove_effects}}：
                     - {{json|string|}}：
-                - {{json|object|on_consume}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-            - {{json|float|minecraft:fuel}}：
-            - {{json|object|minecraft:fuel}}：
-                - {{json|float|duration}}：
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
@@ -456,29 +462,63 @@
                     - {{json|object|}}：
                         - {{json|string|name}}：
                         - {{json|object|states}}：
-                            - {{json|string|<*任意键名*>}}：
                             - {{json|int|<*任意键名*>}}：
+                            - {{json|string|<*任意键名*>}}：
+                            - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
                 - {{json|boolean|plant_at_any_solid_surface}}：
                 - {{json|string|plant_at_face}}：
             - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|float|minecraft:use_duration}}：
-            - {{json|object|netease:allow_offhand}}：
-                - {{json|boolean|value}}：
-            - {{json|object|netease:cooldown}}：
-                - {{json|int|duration}}：
-                - {{json|string|category}}：
-            - {{json|object|netease:customtips}}：
-                - {{json|string|value}}：
-            - {{json|object|netease:enchant_material}}：
-                - {{json|boolean|value}}：
-            - {{json|object|netease:fire_resistant}}：
-                - {{json|boolean|value}}：
-            - {{json|object|netease:fuel}}：
-                - {{json|int|duration}}：
-            - {{json|object|netease:show_in_hand}}：
-                - {{json|boolean|value}}：
+            - {{json|object|netease:allow_offhand}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:armor}}：<!-- md:flag china -->
+                - {{json|int|defense}}：<!-- md:flag china -->
+                - {{json|int|enchantment}}：<!-- md:flag china -->
+                - {{json|int|armor_slot}}：<!-- md:flag china -->
+                - {{json|int|toughness}}：<!-- md:flag china -->
+                - {{json|int|knockback_resistance}}：<!-- md:flag china -->
+            - {{json|object|netease:bucket}}：<!-- md:flag china -->
+                - {{json|string|fill_liquid}}：<!-- md:flag china -->
+            - {{json|int|netease:compostable}}：<!-- md:flag china -->
+            - {{json|object|netease:cooldown}}：<!-- md:flag china -->
+                - {{json|int|duration}}：<!-- md:flag china -->
+                - {{json|string|category}}：<!-- md:flag china -->
+            - {{json|object|netease:customtips}}：<!-- md:flag china -->
+                - {{json|string|value}}：<!-- md:flag china -->
+            - {{json|object|netease:egg}}：<!-- md:flag china -->
+                - {{json|string|entity}}：<!-- md:flag china -->
+            - {{json|object|netease:enchant_material}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:fire_resistant}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:frame_animation}}：<!-- md:flag china -->
+                - {{json|int|frame_count}}：<!-- md:flag china -->
+                - {{json|string|texture_name}}：<!-- md:flag china -->
+                - {{json|boolean|animate_in_toolbar}}：<!-- md:flag china -->
+            - {{json|object|netease:fuel}}：<!-- md:flag china -->
+                - {{json|int|duration}}：<!-- md:flag china -->
+            - {{json|object|netease:render_offsets}}：<!-- md:flag china -->
+                - {{json|array|controller_position_adjust}}：<!-- md:flag china -->
+                    - {{json|float|}}：<!-- md:flag china -->
+                - {{json|array|controller_rotation_adjust}}：<!-- md:flag china -->
+                    - {{json|float|}}：<!-- md:flag china -->
+                - {{json|float|controller_scale}}：<!-- md:flag china -->
+            - {{json|object|netease:shield}}：<!-- md:flag china -->
+                - {{json|array|defence_damage_source_list}}：<!-- md:flag china -->
+                    - {{json|string|}}：<!-- md:flag china -->
+                - {{json|array|undefence_damage_source_list}}：<!-- md:flag china -->
+                    - {{json|string|}}：<!-- md:flag china -->
+                - {{json|boolean|is_consume_damage}}：<!-- md:flag china -->
+            - {{json|object|netease:show_in_hand}}：<!-- md:flag china -->
+                - {{json|boolean|value}}：<!-- md:flag china -->
+            - {{json|object|netease:weapon}}：<!-- md:flag china -->
+                - {{json|string|type}}：<!-- md:flag china -->
+                - {{json|int|level}}：<!-- md:flag china -->
+                - {{json|int|speed}}：<!-- md:flag china -->
+                - {{json|int|attack_damage}}：<!-- md:flag china -->
+                - {{json|int|enchantment}}：<!-- md:flag china -->
 
 ////
 
