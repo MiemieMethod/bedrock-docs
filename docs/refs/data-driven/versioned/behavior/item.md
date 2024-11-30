@@ -64,8 +64,6 @@
             - {{json|boolean|minecraft:glint}}：
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:icon}}：
-            - {{json|boolean|minecraft:interact_button}}：
-            - {{json|string|minecraft:interact_button}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
             - {{json|string|minecraft:render_offsets}}：
@@ -273,9 +271,6 @@
             - {{json|object|minecraft:projectile}}：<!-- md:flag experimental -->
                 - {{json|float|minimum_critical_power}}：<!-- md:flag experimental -->
                 - {{json|string|projectile_entity|required=1}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:rarity}}：
-            - {{json|object|minecraft:rarity}}：
-                - {{json|string|value}}：
             - {{json|object|minecraft:record}}：<!-- md:flag experimental -->
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
@@ -463,8 +458,6 @@
             - {{json|boolean|minecraft:glint}}：
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:icon}}：
-            - {{json|boolean|minecraft:interact_button}}：
-            - {{json|string|minecraft:interact_button}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
             - {{json|string|minecraft:render_offsets}}：
@@ -672,9 +665,6 @@
             - {{json|object|minecraft:projectile}}：<!-- md:flag experimental -->
                 - {{json|float|minimum_critical_power}}：<!-- md:flag experimental -->
                 - {{json|string|projectile_entity|required=1}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:rarity}}：
-            - {{json|object|minecraft:rarity}}：
-                - {{json|string|value}}：
             - {{json|object|minecraft:record}}：<!-- md:flag experimental -->
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
@@ -970,9 +960,6 @@
             - {{json|object|minecraft:projectile}}：<!-- md:flag experimental -->
                 - {{json|float|minimum_critical_power}}：<!-- md:flag experimental -->
                 - {{json|string|projectile_entity|required=1}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:rarity}}：
-            - {{json|object|minecraft:rarity}}：
-                - {{json|string|value}}：
             - {{json|object|minecraft:record}}：<!-- md:flag experimental -->
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
@@ -1268,9 +1255,6 @@
             - {{json|object|minecraft:projectile}}：<!-- md:flag experimental -->
                 - {{json|float|minimum_critical_power}}：<!-- md:flag experimental -->
                 - {{json|string|projectile_entity|required=1}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:rarity}}：
-            - {{json|object|minecraft:rarity}}：
-                - {{json|string|value}}：
             - {{json|object|minecraft:record}}：<!-- md:flag experimental -->
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
@@ -1572,9 +1556,6 @@
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
-            - {{json|string|minecraft:rarity}}：
-            - {{json|object|minecraft:rarity}}：
-                - {{json|string|value}}：
             - {{json|object|minecraft:record}}：
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
@@ -3641,8 +3622,8 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|object|minecraft:bundle_interaction}}：<!-- md:flag experimental -->
-                - {{json|int|num_viewable_slots}}：<!-- md:flag experimental -->
+            - {{json|object|minecraft:bundle_interaction}}：
+                - {{json|int|num_viewable_slots}}：
             - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
@@ -3807,19 +3788,19 @@
             - {{json|boolean|minecraft:stacked_by_data}}：
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:storage_item}}：<!-- md:flag experimental -->
-                - {{json|boolean|allow_nested_storage_items}}：<!-- md:flag experimental -->
-                - {{json|array|allowed_items}}：<!-- md:flag experimental -->
-                    - {{json|string|}}：<!-- md:flag experimental -->
-                    - {{json|object|}}：<!-- md:flag experimental -->
-                        - {{json|string|<*任意键名*>}}：<!-- md:flag experimental -->
-                - {{json|array|banned_items}}：<!-- md:flag experimental -->
-                    - {{json|string|}}：<!-- md:flag experimental -->
-                    - {{json|object|}}：<!-- md:flag experimental -->
-                        - {{json|string|<*任意键名*>}}：<!-- md:flag experimental -->
-                - {{json|int|max_slots}}：<!-- md:flag experimental -->
-                - {{json|int|max_weight_limit}}：<!-- md:flag experimental -->
-                - {{json|int|weight_in_storage_item}}：<!-- md:flag experimental -->
+            - {{json|object|minecraft:storage_item}}：
+                - {{json|boolean|allow_nested_storage_items}}：
+                - {{json|array|allowed_items}}：
+                    - {{json|string|}}：
+                    - {{json|object|}}：
+                        - {{json|string|<*任意键名*>}}：
+                - {{json|array|banned_items}}：
+                    - {{json|string|}}：
+                    - {{json|object|}}：
+                        - {{json|string|<*任意键名*>}}：
+                - {{json|int|max_slots}}：
+                - {{json|int|max_weight_limit}}：
+                - {{json|int|weight_in_storage_item}}：
             - {{json|object|minecraft:tags}}：
                 - {{json|array|tags}}：
                     - {{json|string|}}：
