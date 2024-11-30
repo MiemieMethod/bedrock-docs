@@ -387,6 +387,7 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -773,6 +774,7 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -1065,6 +1067,7 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -1357,6 +1360,7 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -1655,6 +1659,7 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -1976,6 +1981,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -2265,6 +2271,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -2479,6 +2486,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：
 
 ////
 
@@ -2677,6 +2685,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：<!-- md:flag deprecated -->
 
 ////
 
@@ -2879,6 +2888,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：<!-- md:flag deprecated -->
 
 ////
 
@@ -3083,6 +3093,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：<!-- md:flag deprecated -->
 
 ////
 
@@ -3296,6 +3307,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：<!-- md:flag deprecated -->
 
 ////
 
@@ -3531,6 +3543,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：<!-- md:flag deprecated -->
 
 ////
 
@@ -3767,6 +3780,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：<!-- md:flag deprecated -->
 
 ////
 
@@ -4005,6 +4019,7 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
+            - {{json|object|^tag:[a-zA-Z0-9_.:-]+$}}：<!-- md:flag deprecated -->
 
 ////
 
