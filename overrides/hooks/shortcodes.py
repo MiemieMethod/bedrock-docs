@@ -338,7 +338,7 @@ def _badge_for_experimental(page: Page, files: Files):
 
 # Create badge for deprecated flag
 def _badge_for_deprecated(page: Page, files: Files):
-    icon = ":material-weather-sunset:"
+    icon = "material-weather-sunset"
     href = _resolve_path("help/docs/contributing.md#deprecated", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '已弃用')",
