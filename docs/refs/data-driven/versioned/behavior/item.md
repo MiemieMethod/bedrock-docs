@@ -61,12 +61,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:icon}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:seed}}：
                 - {{json|string|crop_result}}：
                 - {{json|array|plant_at}}：
@@ -96,9 +94,6 @@
                 - {{json|int|duration}}：
             - {{json|object|netease:show_in_hand}}：
                 - {{json|boolean|value}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -237,7 +232,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -392,9 +387,6 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -455,12 +447,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:icon}}：
             - {{json|int|minecraft:max_damage}}：
             - {{json|int|minecraft:max_stack_size}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:seed}}：
                 - {{json|string|crop_result}}：
                 - {{json|array|plant_at}}：
@@ -490,9 +480,6 @@
                 - {{json|int|duration}}：
             - {{json|object|netease:show_in_hand}}：
                 - {{json|boolean|value}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -631,7 +618,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -786,9 +773,6 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -926,7 +910,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -1081,9 +1065,6 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -1221,7 +1202,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -1376,9 +1357,6 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -1413,7 +1391,7 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：<!-- md:flag experimental -->
                 - {{json|int|num_viewable_slots}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -1518,7 +1496,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -1531,7 +1509,7 @@
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
             - {{json|string|minecraft:interact_button}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:liquid_clipped}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：
@@ -1677,9 +1655,6 @@
                         - {{json|int|version|required=1}}：
             - {{json|object|minecraft:wearable}}：<!-- md:flag experimental -->
                 - {{json|string|slot|required=1}}：<!-- md:flag experimental -->
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -1719,7 +1694,7 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：<!-- md:flag experimental -->
                 - {{json|int|num_viewable_slots}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -1740,7 +1715,7 @@
             - {{json|object|minecraft:creative_category}}：
                 - {{json|string|parent}}：<!-- md:flag deprecated -->
                 - {{json|string|category}}：<!-- md:flag deprecated -->
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -1826,10 +1801,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -1843,7 +1818,7 @@
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：
@@ -1967,7 +1942,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|float|minecraft:use_duration}}：<!-- md:flag deprecated -->
@@ -2001,9 +1976,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -2041,7 +2013,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -2060,7 +2032,7 @@
             - {{json|object|minecraft:creative_category}}：
                 - {{json|string|parent}}：<!-- md:flag deprecated -->
                 - {{json|string|category}}：<!-- md:flag deprecated -->
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2134,10 +2106,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -2151,7 +2123,7 @@
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -2259,7 +2231,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|float|minecraft:use_duration}}：<!-- md:flag deprecated -->
@@ -2293,9 +2265,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -2333,7 +2302,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -2352,7 +2321,7 @@
             - {{json|object|minecraft:creative_category}}：
                 - {{json|string|parent}}：<!-- md:flag deprecated -->
                 - {{json|string|category}}：<!-- md:flag deprecated -->
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2426,10 +2395,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -2443,7 +2412,7 @@
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -2454,7 +2423,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -2502,7 +2470,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|float|minecraft:use_duration}}：<!-- md:flag deprecated -->
@@ -2511,9 +2479,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -2551,7 +2516,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
@@ -2570,7 +2535,7 @@
             - {{json|object|minecraft:creative_category}}：
                 - {{json|string|parent}}：<!-- md:flag deprecated -->
                 - {{json|string|category}}：<!-- md:flag deprecated -->
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2628,10 +2593,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -2645,7 +2610,7 @@
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -2656,7 +2621,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -2704,7 +2668,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -2713,9 +2677,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -2753,7 +2714,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
@@ -2772,7 +2733,7 @@
             - {{json|object|minecraft:creative_category}}：
                 - {{json|string|parent}}：<!-- md:flag deprecated -->
                 - {{json|string|category}}：<!-- md:flag deprecated -->
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2830,10 +2791,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -2842,15 +2803,16 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
-                    - {{json|object|textures}}：
-                        - {{json|string|default}}：
-                        - {{json|string|<*任意键名*>}}：
+                    - {{json|string|default}}：
+                    - {{json|string|trim}}：
+                    - {{json|string|dyed}}：
+                    - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -2861,7 +2823,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -2909,7 +2870,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -2918,9 +2879,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -2958,7 +2916,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
@@ -2979,7 +2937,7 @@
                 - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：<!-- md:flag experimental -->
                 - {{json|string|}}：<!-- md:flag experimental -->
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -3037,10 +2995,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -3049,15 +3007,16 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
-                    - {{json|object|textures}}：
-                        - {{json|string|default}}：
-                        - {{json|string|<*任意键名*>}}：
+                    - {{json|string|default}}：
+                    - {{json|string|trim}}：
+                    - {{json|string|dyed}}：
+                    - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -3068,7 +3027,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -3116,7 +3074,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3125,9 +3083,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -3165,7 +3120,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
@@ -3186,7 +3141,7 @@
                 - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3253,10 +3208,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -3265,15 +3220,16 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
-                    - {{json|object|textures}}：
-                        - {{json|string|default}}：
-                        - {{json|string|<*任意键名*>}}：
+                    - {{json|string|default}}：
+                    - {{json|string|trim}}：
+                    - {{json|string|dyed}}：
+                    - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -3284,7 +3240,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -3332,7 +3287,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3341,9 +3296,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -3383,7 +3335,7 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：<!-- md:flag experimental -->
                 - {{json|int|num_viewable_slots}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
@@ -3404,7 +3356,7 @@
                 - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3475,10 +3427,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -3487,15 +3439,16 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
-                    - {{json|object|textures}}：
-                        - {{json|string|default}}：
-                        - {{json|string|<*任意键名*>}}：
+                    - {{json|string|default}}：
+                    - {{json|string|trim}}：
+                    - {{json|string|dyed}}：
+                    - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -3509,7 +3462,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -3570,7 +3522,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3579,9 +3531,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -3622,7 +3571,7 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：
                 - {{json|int|num_viewable_slots}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
@@ -3643,7 +3592,7 @@
                 - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3714,10 +3663,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -3726,15 +3675,16 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
-                    - {{json|object|textures}}：
-                        - {{json|string|default}}：
-                        - {{json|string|<*任意键名*>}}：
+                    - {{json|string|default}}：
+                    - {{json|string|trim}}：
+                    - {{json|string|dyed}}：
+                    - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -3748,7 +3698,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -3809,7 +3758,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3818,9 +3767,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
@@ -3861,7 +3807,7 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：
                 - {{json|int|num_viewable_slots}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
@@ -3884,7 +3830,7 @@
                 - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3955,10 +3901,10 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:glint}}：
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
+            - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
             - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
@@ -3967,15 +3913,16 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
-                    - {{json|object|textures}}：
-                        - {{json|string|default}}：
-                        - {{json|string|<*任意键名*>}}：
+                    - {{json|string|default}}：
+                    - {{json|string|trim}}：
+                    - {{json|string|dyed}}：
+                    - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
             - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:max_stack_size}}：
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
@@ -3989,7 +3936,6 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -4050,7 +3996,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -4059,9 +4005,6 @@
             - {{json|object|minecraft:wearable}}：
                 - {{json|int|protection}}：
                 - {{json|string|slot|required=1}}：
-        - {{json|object|events}}：
-            - {{json|object|on_tool_used}}：
-            - {{json|null|<*任意键名*>}}：
 
 ////
 
