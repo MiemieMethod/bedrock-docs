@@ -107,7 +107,7 @@ def build_nbt_key(icon: str, key: str, required: bool, existonsave: bool, page: 
         "boolean": "布尔值",
     }
 
-    text = samp(key) if key else ""
+    text = f'**{samp(key)}**' if key else ""
 
     indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     if required or existonsave:
@@ -119,7 +119,7 @@ def build_nbt_key(icon: str, key: str, required: bool, existonsave: bool, page: 
             indicator += "<span class=\"nbt-existed\" title=\"存储时必存在\">&#42</span>"
     indicator += "</span>"
 
-    return f"[:nbt-tag-{icon}:]({href} '{tagNames.get(icon, "")}标签'){indicator}**{text}**"
+    return f"[:nbt-tag-{icon}:]({href} '{tagNames.get(icon, "")}标签'){indicator}{text}"
 
 def json(args: str, page: Page, files: Files):
     splitted = args.split("|")
@@ -147,14 +147,14 @@ def build_json_key(icon: str, key: str, required: bool, page: Page, files: Files
         "boolean": "布尔值",
     }
 
-    text = samp(key) if key else ""
+    text = f'**{samp(key)}**' if key else ""
 
     indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     if required:
         indicator += "<span class=\"nbt-required\" title=\"此项为必选项\">&#42</span>"
     indicator += "</span>"
 
-    return f"[:json-field-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}**{text}**"
+    return f"[:json-field-{icon}:]({href} '{tagNames.get(icon, "")}'){indicator}{text}"
 
 def file(args: str, page: Page, files: Files):
     splitted = args.split("|")
@@ -279,7 +279,7 @@ def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
         "webm": "WEBM视频",
     }
 
-    text = samp(key) if key else ""
+    text = f'**{samp(key)}**' if key else ""
 
     inject = ""
     if hide:
@@ -287,7 +287,7 @@ def build_file_key(icon: str, key: str, hide: bool, page: Page, files: Files):
     indicator = f"<span class=\"nbt-indicators\" style=\"width:0.312em;\">"
     indicator += "</span>"
 
-    return f":file-type-{icon}:{{ title=\"{typeNames.get(icon, "")}\" {inject} }}{indicator}**{text}**"
+    return f":file-type-{icon}:{{ title=\"{typeNames.get(icon, "")}\" {inject} }}{indicator}{text}"
 
 def video(args: str):
     splitted = args.split("|")
