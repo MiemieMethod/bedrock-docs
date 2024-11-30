@@ -237,7 +237,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -275,7 +275,7 @@
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
                 - {{json|string|sound_event}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:render_offsets}}：
+            - {{json|string|minecraft:render_offsets}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:render_offsets}}：
                 - {{json|object|main_hand}}：
                     - {{json|object|first_person}}：
@@ -631,7 +631,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -669,7 +669,7 @@
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
                 - {{json|string|sound_event}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:render_offsets}}：
+            - {{json|string|minecraft:render_offsets}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:render_offsets}}：
                 - {{json|object|main_hand}}：
                     - {{json|object|first_person}}：
@@ -926,7 +926,7 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
@@ -964,7 +964,7 @@
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
                 - {{json|string|sound_event}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:render_offsets}}：
+            - {{json|string|minecraft:render_offsets}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:render_offsets}}：
                 - {{json|object|main_hand}}：
                     - {{json|object|first_person}}：
@@ -1221,12 +1221,12 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
             - {{json|string|minecraft:hover_text_color}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
@@ -1259,7 +1259,7 @@
                 - {{json|int|comparator_signal}}：<!-- md:flag experimental -->
                 - {{json|float|duration}}：<!-- md:flag experimental -->
                 - {{json|string|sound_event}}：<!-- md:flag experimental -->
-            - {{json|string|minecraft:render_offsets}}：
+            - {{json|string|minecraft:render_offsets}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:render_offsets}}：
                 - {{json|object|main_hand}}：
                     - {{json|object|first_person}}：
@@ -1413,7 +1413,7 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：<!-- md:flag experimental -->
                 - {{json|int|num_viewable_slots}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -1518,20 +1518,20 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：<!-- md:flag experimental -->
                 - {{json|boolean|value}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:hand_equipped}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
             - {{json|string|minecraft:interact_button}}：<!-- md:flag experimental -->
             - {{json|boolean|minecraft:liquid_clipped}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：
@@ -1560,38 +1560,38 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
-            - {{json|object|minecraft:render_offsets}}：
-                - {{json|object|main_hand}}：
-                    - {{json|object|first_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                    - {{json|object|third_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                - {{json|object|off_hand}}：
-                    - {{json|object|first_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                    - {{json|object|third_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
+            - {{json|string|minecraft:render_offsets}}：<!-- md:flag deprecated -->
+            - {{json|object|minecraft:render_offsets}}：<!-- md:flag deprecated -->
+                - {{json|object|main_hand}}：<!-- md:flag deprecated -->
+                    - {{json|object|first_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                    - {{json|object|third_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                - {{json|object|off_hand}}：<!-- md:flag deprecated -->
+                    - {{json|object|first_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                    - {{json|object|third_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -1699,12 +1699,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -1719,7 +1719,7 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：<!-- md:flag experimental -->
                 - {{json|int|num_viewable_slots}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -1738,9 +1738,9 @@
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
-            - {{json|int|minecraft:damage}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -1806,7 +1806,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -1826,24 +1826,24 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：<!-- md:flag experimental -->
             - {{json|string|minecraft:interact_button}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
             - {{json|int|minecraft:mining_speed}}：
@@ -1875,38 +1875,38 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
-            - {{json|object|minecraft:render_offsets}}：
-                - {{json|object|main_hand}}：
-                    - {{json|object|first_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                    - {{json|object|third_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                - {{json|object|off_hand}}：
-                    - {{json|object|first_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                    - {{json|object|third_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
+            - {{json|string|minecraft:render_offsets}}：<!-- md:flag deprecated -->
+            - {{json|object|minecraft:render_offsets}}：<!-- md:flag deprecated -->
+                - {{json|object|main_hand}}：<!-- md:flag deprecated -->
+                    - {{json|object|first_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                    - {{json|object|third_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                - {{json|object|off_hand}}：<!-- md:flag deprecated -->
+                    - {{json|object|first_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                    - {{json|object|third_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -1936,10 +1936,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：<!-- md:flag experimental -->
@@ -1967,10 +1967,10 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
-            - {{json|float|minecraft:use_duration}}：
+            - {{json|float|minecraft:use_duration}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_duration}}：
                 - {{json|float|value}}：
             - {{json|object|minecraft:weapon}}：
@@ -2023,12 +2023,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -2041,7 +2041,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -2058,9 +2058,9 @@
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
-            - {{json|int|minecraft:damage}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2122,7 +2122,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -2134,27 +2134,27 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:on_use}}：<!-- md:flag experimental -->
                 - {{json|object|on_use}}：<!-- md:flag experimental -->
                     - {{json|string|condition}}：<!-- md:flag experimental -->
@@ -2180,38 +2180,38 @@
                 - {{json|int|comparator_signal}}：
                 - {{json|float|duration}}：
                 - {{json|string|sound_event}}：
-            - {{json|string|minecraft:render_offsets}}：
-            - {{json|object|minecraft:render_offsets}}：
-                - {{json|object|main_hand}}：
-                    - {{json|object|first_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                    - {{json|object|third_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                - {{json|object|off_hand}}：
-                    - {{json|object|first_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
-                    - {{json|object|third_person}}：
-                        - {{json|array|position}}：
-                            - {{json|float|}}：
-                        - {{json|array|rotation}}：
-                            - {{json|float|}}：
-                        - {{json|array|scale}}：
-                            - {{json|float|}}：
+            - {{json|string|minecraft:render_offsets}}：<!-- md:flag deprecated -->
+            - {{json|object|minecraft:render_offsets}}：<!-- md:flag deprecated -->
+                - {{json|object|main_hand}}：<!-- md:flag deprecated -->
+                    - {{json|object|first_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                    - {{json|object|third_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                - {{json|object|off_hand}}：<!-- md:flag deprecated -->
+                    - {{json|object|first_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                    - {{json|object|third_person}}：<!-- md:flag deprecated -->
+                        - {{json|array|position}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|rotation}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
+                        - {{json|array|scale}}：<!-- md:flag deprecated -->
+                            - {{json|float|}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:repairable}}：
                 - {{json|array|repair_items}}：
                     - {{json|array|}}：
@@ -2241,10 +2241,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：<!-- md:flag experimental -->
@@ -2259,10 +2259,10 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
-            - {{json|float|minecraft:use_duration}}：
+            - {{json|float|minecraft:use_duration}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_duration}}：
                 - {{json|float|value}}：
             - {{json|object|minecraft:weapon}}：
@@ -2315,12 +2315,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -2333,7 +2333,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:chargeable}}：
@@ -2350,9 +2350,9 @@
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
-            - {{json|int|minecraft:damage}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2414,7 +2414,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -2426,27 +2426,27 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -2484,10 +2484,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：<!-- md:flag experimental -->
@@ -2502,10 +2502,10 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
-            - {{json|float|minecraft:use_duration}}：
+            - {{json|float|minecraft:use_duration}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_duration}}：
                 - {{json|float|value}}：
             - {{json|object|minecraft:wearable}}：
@@ -2533,12 +2533,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -2551,26 +2551,26 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:chargeable}}：
-                - {{json|object|on_complete}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-                - {{json|float|movement_modifier}}：
+            - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
+                - {{json|object|on_complete}}：<!-- md:flag deprecated -->
+                    - {{json|string|event}}：<!-- md:flag deprecated -->
+                    - {{json|string|target}}：<!-- md:flag deprecated -->
+                    - {{json|string|condition}}：<!-- md:flag deprecated -->
+                    - {{json|float|condition}}：<!-- md:flag deprecated -->
+                    - {{json|object|condition}}：<!-- md:flag deprecated -->
+                        - {{json|string|expression|required=1}}：<!-- md:flag deprecated -->
+                        - {{json|int|version|required=1}}：<!-- md:flag deprecated -->
+                - {{json|float|movement_modifier}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:cooldown}}：
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
-            - {{json|int|minecraft:damage}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2616,7 +2616,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -2628,27 +2628,27 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|string|texture}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -2686,10 +2686,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -2704,7 +2704,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -2735,12 +2735,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -2753,26 +2753,26 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:chargeable}}：
-                - {{json|object|on_complete}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-                - {{json|float|movement_modifier}}：
+            - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
+                - {{json|object|on_complete}}：<!-- md:flag deprecated -->
+                    - {{json|string|event}}：<!-- md:flag deprecated -->
+                    - {{json|string|target}}：<!-- md:flag deprecated -->
+                    - {{json|string|condition}}：<!-- md:flag deprecated -->
+                    - {{json|float|condition}}：<!-- md:flag deprecated -->
+                    - {{json|object|condition}}：<!-- md:flag deprecated -->
+                        - {{json|string|expression|required=1}}：<!-- md:flag deprecated -->
+                        - {{json|int|version|required=1}}：<!-- md:flag deprecated -->
+                - {{json|float|movement_modifier}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:cooldown}}：
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
-            - {{json|int|minecraft:damage}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -2818,7 +2818,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -2830,16 +2830,16 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|object|textures}}：
@@ -2847,13 +2847,13 @@
                         - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -2891,10 +2891,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -2909,7 +2909,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -2940,12 +2940,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -2958,28 +2958,28 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:chargeable}}：
-                - {{json|object|on_complete}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-                - {{json|float|movement_modifier}}：
+            - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
+                - {{json|object|on_complete}}：<!-- md:flag deprecated -->
+                    - {{json|string|event}}：<!-- md:flag deprecated -->
+                    - {{json|string|target}}：<!-- md:flag deprecated -->
+                    - {{json|string|condition}}：<!-- md:flag deprecated -->
+                    - {{json|float|condition}}：<!-- md:flag deprecated -->
+                    - {{json|object|condition}}：<!-- md:flag deprecated -->
+                        - {{json|string|expression|required=1}}：<!-- md:flag deprecated -->
+                        - {{json|int|version|required=1}}：<!-- md:flag deprecated -->
+                - {{json|float|movement_modifier}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:cooldown}}：
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：<!-- md:flag experimental -->
                 - {{json|string|}}：<!-- md:flag experimental -->
-            - {{json|int|minecraft:damage}}：
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:digger}}：
@@ -3025,7 +3025,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -3037,16 +3037,16 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|object|textures}}：
@@ -3054,13 +3054,13 @@
                         - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -3098,10 +3098,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -3116,7 +3116,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3147,12 +3147,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -3165,28 +3165,28 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:chargeable}}：
-                - {{json|object|on_complete}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-                - {{json|float|movement_modifier}}：
+            - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
+                - {{json|object|on_complete}}：<!-- md:flag deprecated -->
+                    - {{json|string|event}}：<!-- md:flag deprecated -->
+                    - {{json|string|target}}：<!-- md:flag deprecated -->
+                    - {{json|string|condition}}：<!-- md:flag deprecated -->
+                    - {{json|float|condition}}：<!-- md:flag deprecated -->
+                    - {{json|object|condition}}：<!-- md:flag deprecated -->
+                        - {{json|string|expression|required=1}}：<!-- md:flag deprecated -->
+                        - {{json|int|version|required=1}}：<!-- md:flag deprecated -->
+                - {{json|float|movement_modifier}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:cooldown}}：
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3241,7 +3241,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -3253,16 +3253,16 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|object|textures}}：
@@ -3270,13 +3270,13 @@
                         - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -3314,10 +3314,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:tags}}：
@@ -3332,7 +3332,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3363,12 +3363,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -3383,28 +3383,28 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：<!-- md:flag experimental -->
                 - {{json|int|num_viewable_slots}}：<!-- md:flag experimental -->
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:chargeable}}：
-                - {{json|object|on_complete}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-                - {{json|float|movement_modifier}}：
+            - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
+                - {{json|object|on_complete}}：<!-- md:flag deprecated -->
+                    - {{json|string|event}}：<!-- md:flag deprecated -->
+                    - {{json|string|target}}：<!-- md:flag deprecated -->
+                    - {{json|string|condition}}：<!-- md:flag deprecated -->
+                    - {{json|float|condition}}：<!-- md:flag deprecated -->
+                    - {{json|object|condition}}：<!-- md:flag deprecated -->
+                        - {{json|string|expression|required=1}}：<!-- md:flag deprecated -->
+                        - {{json|int|version|required=1}}：<!-- md:flag deprecated -->
+                - {{json|float|movement_modifier}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:cooldown}}：
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3463,7 +3463,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -3475,16 +3475,16 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|object|textures}}：
@@ -3492,13 +3492,13 @@
                         - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -3539,10 +3539,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：<!-- md:flag experimental -->
@@ -3570,7 +3570,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3601,12 +3601,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -3622,28 +3622,28 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：
                 - {{json|int|num_viewable_slots}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:chargeable}}：
-                - {{json|object|on_complete}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-                - {{json|float|movement_modifier}}：
+            - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
+                - {{json|object|on_complete}}：<!-- md:flag deprecated -->
+                    - {{json|string|event}}：<!-- md:flag deprecated -->
+                    - {{json|string|target}}：<!-- md:flag deprecated -->
+                    - {{json|string|condition}}：<!-- md:flag deprecated -->
+                    - {{json|float|condition}}：<!-- md:flag deprecated -->
+                    - {{json|object|condition}}：<!-- md:flag deprecated -->
+                        - {{json|string|expression|required=1}}：<!-- md:flag deprecated -->
+                        - {{json|int|version|required=1}}：<!-- md:flag deprecated -->
+                - {{json|float|movement_modifier}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:cooldown}}：
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3702,7 +3702,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -3714,16 +3714,16 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|object|textures}}：
@@ -3731,13 +3731,13 @@
                         - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -3778,10 +3778,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：
@@ -3809,7 +3809,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：
@@ -3840,12 +3840,12 @@
                 - {{json|string|group}}：
                 - {{json|boolean|is_hidden_in_commands}}：
         - {{json|object|components|required=1}}：
-            - {{json|boolean|minecraft:allow_off_hand}}：
+            - {{json|boolean|minecraft:allow_off_hand}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:allow_off_hand}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:armor}}：
-                - {{json|string|texture_type}}：
-                - {{json|int|protection}}：
+            - {{json|object|minecraft:armor}}：<!-- md:flag deprecated -->
+                - {{json|string|texture_type}}：<!-- md:flag deprecated -->
+                - {{json|int|protection}}：<!-- md:flag deprecated -->
             - {{json|string|minecraft:block}}：
             - {{json|object|minecraft:block_placer}}：
                 - {{json|string|block|required=1}}：
@@ -3861,30 +3861,30 @@
                     - {{json|string|}}：
             - {{json|object|minecraft:bundle_interaction}}：
                 - {{json|int|num_viewable_slots}}：
-            - {{json|boolean|minecraft:can_destroy_in_creative}}：
+            - {{json|boolean|minecraft:can_destroy_in_creative}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:can_destroy_in_creative}}：
                 - {{json|boolean|value}}：
-            - {{json|object|minecraft:chargeable}}：
-                - {{json|object|on_complete}}：
-                    - {{json|string|event}}：
-                    - {{json|string|target}}：
-                    - {{json|string|condition}}：
-                    - {{json|float|condition}}：
-                    - {{json|object|condition}}：
-                        - {{json|string|expression|required=1}}：
-                        - {{json|int|version|required=1}}：
-                - {{json|float|movement_modifier}}：
+            - {{json|object|minecraft:chargeable}}：<!-- md:flag deprecated -->
+                - {{json|object|on_complete}}：<!-- md:flag deprecated -->
+                    - {{json|string|event}}：<!-- md:flag deprecated -->
+                    - {{json|string|target}}：<!-- md:flag deprecated -->
+                    - {{json|string|condition}}：<!-- md:flag deprecated -->
+                    - {{json|float|condition}}：<!-- md:flag deprecated -->
+                    - {{json|object|condition}}：<!-- md:flag deprecated -->
+                        - {{json|string|expression|required=1}}：<!-- md:flag deprecated -->
+                        - {{json|int|version|required=1}}：<!-- md:flag deprecated -->
+                - {{json|float|movement_modifier}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:compostable}}：<!-- md:flag experimental -->
                 - {{json|int|composting_chance|required=1}}：<!-- md:flag experimental -->
             - {{json|object|minecraft:cooldown}}：
                 - {{json|string|category|required=1}}：
                 - {{json|float|duration|required=1}}：
             - {{json|object|minecraft:creative_category}}：
-                - {{json|string|parent}}：
-                - {{json|string|category}}：
+                - {{json|string|parent}}：<!-- md:flag deprecated -->
+                - {{json|string|category}}：<!-- md:flag deprecated -->
             - {{json|array|minecraft:custom_components}}：
                 - {{json|string|}}：
-            - {{json|int|minecraft:damage}}：
+            - {{json|int|minecraft:damage}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:damage}}：
                 - {{json|int|value}}：
             - {{json|object|minecraft:damage_absorption}}：
@@ -3943,7 +3943,7 @@
                             - {{json|boolean|<*任意键名*>}}：
                         - {{json|string|tags}}：
                     - {{json|string|}}：
-            - {{json|boolean|minecraft:foil}}：
+            - {{json|boolean|minecraft:foil}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:food}}：
                 - {{json|boolean|can_always_eat}}：
                 - {{json|int|nutrition}}：
@@ -3955,16 +3955,16 @@
             - {{json|float|minecraft:fuel}}：
             - {{json|object|minecraft:fuel}}：
                 - {{json|float|duration}}：
-            - {{json|boolean|minecraft:glint}}：
+            - {{json|boolean|minecraft:glint}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:glint}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:hand_equipped}}：
+            - {{json|boolean|minecraft:hand_equipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hand_equipped}}：
                 - {{json|boolean|value}}：
-            - {{json|string|minecraft:hover_text_color}}：
+            - {{json|string|minecraft:hover_text_color}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:hover_text_color}}：
                 - {{json|string|value}}：
-            - {{json|string|minecraft:icon}}：
+            - {{json|string|minecraft:icon}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:icon}}：
                 - {{json|object|textures}}：
                     - {{json|object|textures}}：
@@ -3972,13 +3972,13 @@
                         - {{json|string|<*任意键名*>}}：
             - {{json|boolean|minecraft:interact_button}}：
             - {{json|string|minecraft:interact_button}}：
-            - {{json|boolean|minecraft:liquid_clipped}}：
+            - {{json|boolean|minecraft:liquid_clipped}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:liquid_clipped}}：
                 - {{json|boolean|value}}：
-            - {{json|int|minecraft:max_stack_size}}：
+            - {{json|int|minecraft:max_stack_size}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:max_stack_size}}：
                 - {{json|int|value}}：
-            - {{json|int|minecraft:mining_speed}}：
+            - {{json|int|minecraft:mining_speed}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:projectile}}：
                 - {{json|float|minimum_critical_power}}：
                 - {{json|string|projectile_entity|required=1}}：
@@ -4019,10 +4019,10 @@
                 - {{json|boolean|charge_on_draw}}：
                 - {{json|float|max_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|boolean|minecraft:should_despawn}}：
+            - {{json|boolean|minecraft:should_despawn}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:should_despawn}}：
                 - {{json|boolean|value}}：
-            - {{json|boolean|minecraft:stacked_by_data}}：
+            - {{json|boolean|minecraft:stacked_by_data}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:stacked_by_data}}：
                 - {{json|boolean|value}}：
             - {{json|object|minecraft:storage_item}}：
@@ -4050,7 +4050,7 @@
                 - {{json|float|max_launch_power}}：
                 - {{json|float|min_draw_duration}}：
                 - {{json|boolean|scale_power_by_draw_duration}}：
-            - {{json|string|minecraft:use_animation}}：
+            - {{json|string|minecraft:use_animation}}：<!-- md:flag deprecated -->
             - {{json|object|minecraft:use_animation}}：
                 - {{json|string|value}}：
             - {{json|object|minecraft:use_modifiers}}：

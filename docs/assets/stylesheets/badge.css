@@ -9,7 +9,7 @@
 .md-typeset .mdx-badge{
     font-size:.85em
 }
-.md-typeset .mdx-badge--heart{
+.md-typeset .mdx-badge--heart .mdx-badge--deprecated{
     --md-typeset-a-color:#e92063;
     --md-accent-fg-color:#ff4281;
     --md-accent-fg-color--transparent:#e920631a

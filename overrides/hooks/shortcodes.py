@@ -79,6 +79,7 @@ def flag(args: str, page: Page, files: Files):
     elif type == "customization": return _badge_for_customization(page, files)
     elif type == "metadata":      return _badge_for_metadata(page, files)
     elif type == "multiple":      return _badge_for_multiple(page, files)
+    elif type == "deprecated":    return _badge_for_deprecated(page, files)
     raise RuntimeError(f"Unknown type: {type}")
 
 # Create a linkable option
@@ -333,4 +334,13 @@ def _badge_for_experimental(page: Page, files: Files):
     href = _resolve_path("help/docs/contributing.md#experimental", page, files)
     return _badge(
         icon = f"[:{icon}:]({href} '实验性')"
+    )
+
+# Create badge for deprecated flag
+def _badge_for_deprecated(page: Page, files: Files):
+    icon = ":material-weather-sunset:"
+    href = _resolve_path("help/docs/contributing.md#deprecated", page, files)
+    return _badge(
+        icon = f"[:{icon}:]({href} '已弃用')",
+        type = "deprecated"
     )
