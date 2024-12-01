@@ -21,8 +21,7 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag china -->
             - {{json|string|minecraft:icon_atlas}}：
             - {{json|string|minecraft:icon_variant}}：<!-- md:flag china -->
-            - {{json|object|minecraft:use_animation}}：
-                - {{json|string|value}}：
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|netease:frame_animation}}：<!-- md:flag china -->
                 - {{json|int|frame_count}}：<!-- md:flag china -->
                 - {{json|string|texture_name}}：<!-- md:flag china -->
@@ -63,8 +62,7 @@
             - {{json|string|minecraft:icon}}：<!-- md:flag china -->
             - {{json|string|minecraft:icon_atlas}}：
             - {{json|string|minecraft:icon_variant}}：<!-- md:flag china -->
-            - {{json|object|minecraft:use_animation}}：
-                - {{json|string|value}}：
+            - {{json|string|minecraft:use_animation}}：
             - {{json|object|netease:frame_animation}}：<!-- md:flag china -->
                 - {{json|int|frame_count}}：<!-- md:flag china -->
                 - {{json|string|texture_name}}：<!-- md:flag china -->
