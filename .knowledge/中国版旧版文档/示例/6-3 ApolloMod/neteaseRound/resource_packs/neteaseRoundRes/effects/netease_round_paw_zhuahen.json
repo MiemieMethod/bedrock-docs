@@ -1,0 +1,25 @@
+{
+  "frameeffect": {
+    "cylinder_enable": false,
+    "depth_test": true,
+    "face_camera": false,
+    "fps": 15,
+    "loop": true,
+    "rot_speed": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1.5,
+      1.5,
+      0.9
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/zhuahen_3"
+  }
+}

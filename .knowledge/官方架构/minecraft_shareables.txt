@@ -1,0 +1,42 @@
+{
+    bool "singular_pickup" : opt
+    string "items" : opt
+    object "items" : opt
+    {
+        string "item" : opt // The name of the item. Aux value can be specified, for instance 'minecraft:skull:1'.
+        int "want_amount" : opt // Number of this item this entity wants to share.
+        int "surplus_amount" : opt // Number of this item considered extra that the entity wants to share.
+        int "max_amount" : opt // Maximum number of this item the mob will hold.
+        int "pickup_limit" : opt // Maximum number items the mob will pick up during a single goal tick.
+        string "craft_into" : opt // Defines the item this entity wants to craft with the item defined by "item". Should be an item name.
+        int "priority" : opt // Prioritizes which items the entity prefers. 0 is the highest priority.
+        bool "admire" : opt // Mob will admire the item after picking up by looking at it. For this to happen the mob needs to have an Admire component and an Admire goal.
+        bool "barter" : opt // Mob will barter for the item after picking it up. For this to work the mob needs to have a Barter component and a Barter goal.
+        bool "stored_in_inventory" : opt // Determines whether the mob will try to put the item in its inventory if it has the inventory component and if it can't be equipped.
+        bool "consume_item" : opt // Determines whether the mob will consume the item or not.
+        bool "pickup_only" : opt // Determines whether the mob can only pickup the item and not drop it.
+    }
+    array "items" : opt
+    {
+        object "<any array element>" : opt
+        {
+            string "item" : opt // The name of the item. Aux value can be specified, for instance 'minecraft:skull:1'.
+            int "want_amount" : opt // Number of this item this entity wants to share.
+            int "surplus_amount" : opt // Number of this item considered extra that the entity wants to share.
+            int "max_amount" : opt // Maximum number of this item the mob will hold.
+            int "pickup_limit" : opt // Maximum number items the mob will pick up during a single goal tick.
+            string "craft_into" : opt // Defines the item this entity wants to craft with the item defined by "item". Should be an item name.
+            int "priority" : opt // Prioritizes which items the entity prefers. 0 is the highest priority.
+            bool "admire" : opt // Mob will admire the item after picking up by looking at it. For this to happen the mob needs to have an Admire component and an Admire goal.
+            bool "barter" : opt // Mob will barter for the item after picking it up. For this to work the mob needs to have a Barter component and a Barter goal.
+            bool "stored_in_inventory" : opt // Determines whether the mob will try to put the item in its inventory if it has the inventory component and if it can't be equipped.
+            bool "consume_item" : opt // Determines whether the mob will consume the item or not.
+            bool "pickup_only" : opt // Determines whether the mob can only pickup the item and not drop it.
+        }
+    }
+    bool "all_items" : opt
+    int "all_items_want_amount" : opt
+    int "all_items_surplus_amount" : opt
+    int "all_items_max_amount" : opt
+}
+

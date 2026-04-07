@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+	  "description": {
+		"identifier": "customrangedweapon:projectile",
+		"category": "Nature"
+	  },
+  
+	  "components": {
+		"minecraft:icon": "customrangedweapon:projectile"
+	  }
+	}
+  }

@@ -1,0 +1,8 @@
+﻿tile.customcrop:customcrop_stage0.name=自定义方块stage0	#
+tile.customcrop:customcrop_stage1.name=自定义方块stage1	#
+tile.customcrop:customcrop_stage2.name=自定义方块stage2	#
+item.customcrop:custom_wheat_seeds.name=测试自定义种子	#
+tile.customcrop:customcrop_1_stage0.name=自定义方块纯脚本stage0	#
+tile.customcrop:customcrop_1_stage1.name=自定义方块纯脚本stage1	#
+tile.customcrop:customcrop_1_stage2.name=自定义方块纯脚本stage2	#
+item.customcrop:custom_item.name=测试自定义物品纯脚本	#

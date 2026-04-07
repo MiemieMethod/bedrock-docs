@@ -1,0 +1,224 @@
+{
+  "frames": [
+    {
+      "filename": "yanwu3_00000.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 260,
+        "y": 130
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "yanwu3_00001.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 130,
+        "y": 260
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "yanwu3_00002.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 130,
+        "y": 130
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "yanwu3_00003.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 260,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "yanwu3_00004.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 130,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "yanwu3_00005.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 260
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "yanwu3_00006.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 130
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "yanwu3_00007.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "format": "RGBA8888",
+    "image": "yanwu_03.png",
+    "scale": "1",
+    "size": {
+      "h": 390,
+      "w": 390
+    },
+    "smartupdate": "$TexturePacker:SmartUpdate:b277480139a03b9bf65405d2a188dfed$",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "customrangedweapon:bow": {
+      "textures": "textures/items/customitems_ranged_weapon_0"
+    },
+    "customrangedweapon:bow_frame": {
+      "textures": [
+        "textures/items/customitems_ranged_weapon_0",
+        "textures/items/customitems_ranged_weapon_1",
+        "textures/items/customitems_ranged_weapon_2"
+      ]
+    },
+    "customrangedweapon:cross_bow": {
+      "textures": "textures/items/customitems_crossbow_pulling_0"
+    },
+    "customrangedweapon:cross_bow_frame": {
+      "textures": [
+        "textures/items/customitems_crossbow_pulling_0",
+        "textures/items/customitems_crossbow_pulling_1",
+        "textures/items/customitems_crossbow_pulling_2",
+        "textures/items/customitems_crossbow_arrow",
+        "textures/items/customitems_crossbow_firework"
+      ]
+    },
+    "customrangedweapon:projectile": {
+      "textures": "textures/items/customitems_projectile"
+    }
+  }
+}

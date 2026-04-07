@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "auth description",
+        "name": "auth",
+        "uuid": "4f7089c9-f43e-4001-ab0c-d7b81ec6e96e",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "988aa55c-8e90-4525-8ffd-d62c4067dea3",
+            "version": [0, 0, 1]
+        }
+    ]
+}

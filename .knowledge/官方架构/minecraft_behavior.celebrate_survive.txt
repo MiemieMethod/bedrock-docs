@@ -1,0 +1,11 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "duration" : opt
+    float_range "fireworks_interval" : opt
+     "on_celebration_end_event" : opt
+}
+

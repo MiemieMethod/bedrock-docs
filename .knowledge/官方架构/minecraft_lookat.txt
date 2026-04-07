@@ -1,0 +1,9 @@
+{
+    bool "set_target" : opt
+    float "search_radius" : opt
+    bool "allow_invulnerable" : opt
+    float_range "look_cooldown" : opt
+     "filters" : opt
+     "look_event" : opt
+}
+

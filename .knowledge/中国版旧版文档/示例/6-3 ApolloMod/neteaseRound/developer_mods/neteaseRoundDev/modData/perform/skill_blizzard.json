@@ -1,0 +1,166 @@
+{
+    "_comment": "技能演出效果的唯一ID",
+    "identifier": "neteaseRound:skill:blizzard",
+    "_comment": "演出效果的字典",
+    "_comment": "演出效果的管理逻辑在客户端的【neteaseRoundScript.battleClient.perform.roundPerform】中",
+    "_comment": "单个演出效果的播放逻辑在客户端的【neteaseRoundScript.battleClient.perform.roundPerformAction】中",
+    "actionData": {
+        "_comment": "单个演出效果的key，用于单个技能唯一",
+        "attack": {
+            "_comment": "演出效果启动的前提条件，空列表表示从第一帧开始就启动",
+            "condition": [],
+            "_comment": "演出效果的类型，【playAni】表示播放模型动画（非循环），对应roundPerformAction.RoundActionPlayAni类",
+            "type": "playAni",
+            "_comment": "演出效果持续时间，由于目前动画没有播放结束回调，只能使用计时方式控制演出效果结束",
+            "costTime": 1.0,
+            "_comment": "播放动画的对象，【actor】表示当前技能的释放者",
+            "actor": "actor", 
+            "_comment": "播放的模型动画名称，具体动画名字通过模型的名字和动画名称定位，见【neteaseRoundScript.battleClient.roundViewConst.ModelAnimateToName】",
+            "animate": "skill2"
+        },
+        "attackEffect": {
+            "condition": [],
+            "_comment": "演出效果的类型，【playBindEffect】表示在模型上播放绑定特效，并且在演出效果终结时删除，对应roundPerformAction.RoundActionPlayBindEffect类",
+            "type": "playBindEffect",
+            "_comment": "演出效果持续时间，使用计时方式控制演出效果结束，演出效果结束时销毁绑定的特效",
+            "costTime": 1.0,
+            "_comment": "播放动画的对象，actor表示当前技能的释放者",
+            "bind": "actor",
+            "_comment": "需要绑定的特效的列表",
+            "effectList": [
+                {
+                    "_comment": "加载目标特效的文件路径",
+                    "path": "effects/netease_round_xue01.json",
+                    "_comment": "特效的类型，particle代表粒子特效，sfx代表序列帧动画特效，均需要通过编辑器转化输出",
+                    "style": "particle",
+                    "_comment": "特效绑定的位置偏移",
+                    "pos": [0, 0.0, 1.52],
+                    "_comment": "特效绑定的旋转偏移",
+                    "rot": [0, 0, 0],
+                    "_comment": "特效绑定的目标骨骼名称",
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_xue02.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 1.52],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_baodian03.json",
+                    "style": "particle",
+                    "pos": [0.05, 0.01, 1.31],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_ring04.json",
+                    "style": "particle",
+                    "pos": [0, -0.11, 1.32],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_baodian01.json",
+                    "style": "particle",
+                    "pos": [0, 0.25, -0.04],
+                    "rot": [0, 0, 0],
+                    "bone": "spine"
+                },
+                {
+                    "path": "effects/netease_round_baodian02.json",
+                    "style": "particle",
+                    "pos": [0, 0.25, -0.04],
+                    "rot": [0, 0, 0],
+                    "bone": "spine"
+                },
+                {
+                    "path": "effects/netease_round_ring08.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 1.27],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                }
+            ]
+        },
+        "snowEffect": {
+            "_comment": "演出效果启动的前提条件，列表中全部条件满足即可启动演出效果，【finAction】表示指定key的单个演出效果播放完毕",
+            "condition": [
+                {"type":"finAction", "param":"attack"}
+            ],
+            "type": "playBindEffect",
+            "costTime": 1.8,
+            "_comment": "播放动画的对象，【allTarget】表示技能的全部释放目标",
+            "bind": "allTarget",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_blizzard_di.json",
+                    "style": "sfx",
+                    "pos": [0, 0.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_bfxlz.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 2.90],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_bklz.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_xhlz.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 2.90],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_dimian.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_xhlz_02.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 2.90],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_yw_03.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.19],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_bklz_02.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.19],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                }
+            ]
+        },
+        "applySkillResult": {
+            "condition": [
+                {"type":"finAction", "param":"snowEffect"}
+            ],
+            "_comment": "演出效果的类型，【applySkillResult】表示应用服务端传过来的技能释放效果，比如扣除生命值，恢复生命值，获得buff/debuff等",
+            "type": "applySkillResult",
+            "costTime": 0.1,
+            "_comment": "需要应用的技能释放效果的index（一个技能不一定只有一个释放效果，比如说可以是扣除生命值+获得debuff），null代表应用全部效果",
+            "index": null
+        }
+    }
+}

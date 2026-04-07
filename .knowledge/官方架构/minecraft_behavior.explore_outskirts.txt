@@ -1,0 +1,19 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "next_xz" : opt
+    int "next_y" : opt
+    float "min_wait_time" : opt
+    float "max_wait_time" : opt
+    float "max_travel_time" : opt
+    float "speed_multiplier" : opt
+    float "explore_dist" : opt
+    float "min_perimeter" : opt
+    float "min_dist_from_target" : opt
+    float "timer_ratio" : opt
+    vec3 "dist_from_boundary" : opt
+}
+

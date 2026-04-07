@@ -1,0 +1,25 @@
+{
+    "identifier": "neteaseRound:yohko",
+    "modelName": "netease_round_jmm",
+    "showName": "九命猫",
+    "headIcon": "textures/ui/netease_round/jmm_icon",
+    "battleAttr": {
+        "health": 360,
+        "attack": 50,
+        "defence": 30,
+        "crit": 0.15,
+        "tough": 0.1,
+        "critDamage": 1.5,
+        "critImmune": 0.0,
+        "effectHit": 0.2,
+        "effectResist": 0.6,
+        "speed": 60,
+        "energy": 8
+    },
+    "skill": [
+        "neteaseRound:claw",
+        "neteaseRound:weak",
+        "neteaseRound:heal",
+        "neteaseRound:haste"
+    ]
+}

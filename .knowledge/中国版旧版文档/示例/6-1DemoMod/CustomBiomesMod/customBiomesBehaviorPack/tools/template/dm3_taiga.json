@@ -1,0 +1,19 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm3_taiga", 
+            "inherits": "taiga"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "hills_transformation": "dm3_taiga_hills", 
+                "mutate_transformation": "dm3_taiga_mutated", 
+                "generate_for_climates": [
+                    ["cold", 1]
+                ]
+            },
+            "dm3": {}
+        }
+    }
+}

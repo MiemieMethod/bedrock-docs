@@ -1,0 +1,36 @@
+{
+    object "entities" : opt
+    {
+        int "min_wait_time" : opt
+        int "max_wait_time" : opt
+        string "spawn_sound" : opt
+         "spawn_item" : opt
+        string "spawn_entity" : opt
+        string "spawn_method" : opt
+        string "spawn_event" : opt
+         "spawn_item_event" : opt
+         "filters" : opt
+        bool "single_use" : opt
+        bool "should_leash" : opt
+        int "num_to_spawn" : opt
+    }
+    array "entities" : opt
+    {
+        object "<any array element>" : opt
+        {
+            int "min_wait_time" : opt
+            int "max_wait_time" : opt
+            string "spawn_sound" : opt
+             "spawn_item" : opt
+            string "spawn_entity" : opt
+            string "spawn_method" : opt
+            string "spawn_event" : opt
+             "spawn_item_event" : opt
+             "filters" : opt
+            bool "single_use" : opt
+            bool "should_leash" : opt
+            int "num_to_spawn" : opt
+        }
+    }
+}
+

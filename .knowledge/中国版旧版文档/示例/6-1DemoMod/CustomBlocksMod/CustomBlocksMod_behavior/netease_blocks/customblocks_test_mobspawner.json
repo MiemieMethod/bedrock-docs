@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "customblocks:customblocks_test_mobspawner",
+	  "register_to_creative_menu": true,
+	  "is_experimental": false,
+	  "base_block": "mob_spawner",
+    "category": "custom"
+    },
+    "components": {
+	  "netease:mob_spawner": {
+	    "type": "minecraft:parrot"
+	  }
+    }
+  }
+}

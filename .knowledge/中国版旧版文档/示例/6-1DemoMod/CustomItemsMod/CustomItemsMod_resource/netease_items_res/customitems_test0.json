@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customitems:test0",
+      "category": "Items"
+    },
+
+    "components": {
+      "minecraft:icon": "customitems:test0"
+    }
+  }
+}

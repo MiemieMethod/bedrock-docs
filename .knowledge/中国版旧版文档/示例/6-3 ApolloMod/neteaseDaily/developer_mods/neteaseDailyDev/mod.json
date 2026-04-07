@@ -1,0 +1,249 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseDailyDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.3",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.16.0.release20200220",
+  "_comment": "插件实现的功能",
+  "description": "每日登录奖励",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，每日登录奖励插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseDaily",
+  "_comment": "以下为可配置项",
+  "_comment": "每日登录奖励配置",
+  "_comment": "列表，元素按日期从小到大排列，便于查阅",
+  "Rewards": [
+    {
+      "_comment": "起始日期，该日必须为周一，否则该段配置失效，日期格式为%Y-%m-%d",
+      "date": "2020-02-17",
+      "_comment": "自上一行配置的日期至出现下一个比该日期晚的日期为止都生效的奖励配置",
+      "_comment": "周日到周六对应数字0-6的字符，若某日无奖励，则字典中不得出现该日对应的键值",
+      "weekly": {
+        "0": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 7,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "1": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 1,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "2": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 2,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "3": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 3,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "4": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 4,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "5": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 5,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "6": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 6,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        }
+      }
+    },
+    {
+      "_comment": "起始日期，该日必须为周一，否则该段配置失效，日期格式为%Y-%m-%d",
+      "date": "2020-03-02",
+      "_comment": "自上一行配置的日期至出现下一个比该日期晚的日期为止都生效的奖励配置",
+      "_comment": "周日到周六对应数字0-6的字符，若某日无奖励，则字典中不得出现该日对应的键值",
+      "weekly": {
+        "0": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 1,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "2": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 1,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "4": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 1,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        },
+        "6": {
+          "_comment": "奖励物品列表",
+          "rewards": [
+            {
+              "reward_item_id": "minecraft:wool:1",
+              "reward_item_count": 1
+            },
+            {
+              "reward_item_id": "minecraft:wool:2",
+              "reward_item_count": 2
+            }
+          ],
+          "_comment": "奖励显示在界面的图标",
+          "display_icon": "textures/ui/netease_daily/img_reward_01@3x",
+          "_comment": "奖励显示在界面的数量",
+          "display_count": 1,
+          "_comment": "奖励说明",
+          "display_desc": "礼包中包含500钻石"
+        }
+      }
+    }
+  ]
+}

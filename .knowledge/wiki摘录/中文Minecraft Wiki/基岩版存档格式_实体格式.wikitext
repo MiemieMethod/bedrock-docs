@@ -1,0 +1,527 @@
+{{exclusive|bedrock}}
+{{needs update}}
+这是[[基岩版]]中实体NBT结构文件的页面。
+
+== 实体 ==
+{{#if:{{#var:isIncluded}}||<div class="treeview">
+实体共通标签：
+*{{nbt|compound}}：根标签。}}
+**{{nbt|string|identifier}}：实体的命名空间ID。
+**{{nbt|list|definitions}}:（可能不存在）此实体的命名空间ID及其当前和之前的[[定义]]组件群。
+*** {{nbt|string}}：具体内容。
+**{{nbt|long|UniqueID}}：实体的唯一ID。
+**{{nbt|list|Pos}}：三个浮点型数据值定义了实体的当前位置的坐标。
+*** {{nbt|float}}：X
+*** {{nbt|float}}：Y
+*** {{nbt|float}}：Z
+**{{nbt|list|Rotation}}：两个浮点型数据值定义了实体的朝向角度。
+*** {{nbt|float}}: 实体绕Y轴顺时针旋转的朝向（称为偏航）。正南方向为0。不超过360度。
+*** {{nbt|float}}: 实体与地平线的偏角（称为俯仰角）。水平方向为0。向下看产生正值。不超过±90度。
+**{{nbt|list|Motion}}：（可能不存在）三个浮点型数据值定义实体的当前dX、dY和dZ速度，以米/刻为单位。
+*** {{nbt|float}}：dX
+*** {{nbt|float}}：dY
+*** {{nbt|float}}：dZ
+**{{nbt|boolean|CustomNameVisible}}：（可能不存在）如果值为true且实体拥有自定义名称，名称会显示在实体的顶部，无论光标是否瞄准它。如果该实体没有自定义名称，则会显示默认的名称。
+**{{nbt|int|LastDimensionId}}：（可能不存在）未知。
+**{{nbt|float|FallDistance}}：实体的坠落高度，越大的值会给予实体更大的坠落伤害。
+**{{nbt|short|Fire}}：实体身上的火焰熄灭前的刻数，默认为0即没有着火。
+**{{nbt|boolean|OnGround}}：实体接触地面时值为true。
+**{{nbt|boolean|Invulnerable}}：实体是否可以受伤。这适用于生物和非生物实体——生物不应受到任何来源的伤害（包括药水效果），并且不能被钓鱼竿、实体攻击、爆炸或弹射物移动，并且不能摧毁载具等物体。无敌的玩家实体也会被任何敌对生物忽略。请注意，这些实体可能会在创造模式下被玩家造成伤害。{{needs testing}}
+**{{nbt|int|PortalCooldown}}：实体可以通过下界传送门传送回来的刻数。在传送后300刻（15秒）处开始，倒计时至0。
+**{{nbt|boolean|IsGlobal}}：实体为全局实体时为true（例如[[闪电]]和[[末影龙]]）。
+**{{nbt|boolean|IsAutonomous}}：实体为自治型实体时值为true。{{more info|什么是自治型实体？}}
+**{{nbt|compound|LinksTag}}：（可能不存在）未知。
+***{{nbt|long|entityID}}：实体的唯一ID。
+***{{nbt|int|LinkID}}：未知。<!--
+
+==EntityFlags==-->
+**{{nbt|boolean|LootDropped}}：是否允许实体从[[战利品表]]中掉落战利品。
+**{{nbt|byte|Color}}：实体的品种（被[[猫]]、[[马]]和[[热带鱼]]等生物使用）。默认值为0。
+**{{nbt|byte|Color2}}：实体的斑纹（仅被[[热带鱼]]使用）。默认值为0。
+**{{nbt|int|Strength}}：决定实体的“强度”值（仅被[[羊驼]]使用）。
+**{{nbt|int|StrengthMax}}：决定实体的最大“强度”值（仅被[[羊驼]]使用）。
+**{{nbt|boolean|Sheared}}：实体被剪去羊毛时值为true。
+**{{nbt|boolean|IsIllagerCaptain}}：该实体是否作为[[袭击队长]]而生成。
+**{{nbt|long|OwnerNew}}：未知。默认值为-1。
+**{{nbt|boolean|Sitting}}：实体坐下时值为true。
+**{{nbt|boolean|IsBaby}}：实体处于幼年状态时值为true。
+**{{nbt|boolean|IsTamed}}：实体被驯服时值为true。
+**{{nbt|boolean|IsTrusting}}：实体信任玩家时值为true。
+**{{nbt|boolean|IsOrphaned}}：幼年实体没有可以跟随的成年实体时为true（被动物使用）。
+**{{nbt|boolean|IsAngry}}：实体发怒时值为true（例如敌对状态下的[[狼]]）。
+**{{nbt|boolean|IsOutOfControl}}：实体是否不受控制（仅被[[船]]使用）。
+**{{nbt|int|Variant}}：控制实体的变种（例如[[猫]]、[[马]]和[[狐狸]]的不同变种）。
+**{{nbt|int|MarkVariant}}：控制实体的标记变种（例如[[村民]]的不同着装变种）。
+**{{nbt|boolean|Saddled}}：实体被装上鞍时值为true。
+**{{nbt|boolean|Chested}}：实体被装上箱子时值为true。
+**{{nbt|boolean|ShowBottom}}：底部展示基岩基座时值为true（仅被[[末地水晶]]使用）。{{Needs testing}}
+**{{nbt|boolean|IsGliding}}：实体在使用[[鞘翅]]滑翔时值为true。
+**{{nbt|boolean|IsSwimming}}：实体在游泳时值为true。
+**{{nbt|boolean|IsEating}}：实体在进食时值为true。
+**{{nbt|boolean|IsScared}}：实体在受到惊吓时值为true（受惊的生物会四处逃窜）。
+**{{nbt|boolean|IsStunned}}：实体在眩晕时值为true（仅被[[劫掠兽]]使用）。
+**{{nbt|boolean|IsRoaring}}：实体在咆哮时值为true（仅被[[劫掠兽]]使用）。
+**{{nbt|int|SkinID}}：实体的皮肤ID（被[[村民]]和[[僵尸村民]]使用）。默认值为0。<!--
+==others==-->
+**{{nbt|boolean|Persistent}}：是否为[[生成#持久性|持久性]]生物。
+**{{nbt|list|Tags}}：（可能不存在）实体的[[记分板]]标签列表。
+***{{nbt|string}}：记分板的标签。
+
+== 实体类别的附加字段 ==
+=== 矿车 ===
+{{#if:{{#var:isIncluded}}||
+矿车实体包括：
+**{{EntityLink|Minecart}}
+**{{EntityLink|Minecart with Chest}}
+**{{EntityLink|Minecart with Hopper}}
+**{{EntityLink|Minecart with TNT}}
+**{{EntityLink|Minecart with Command Block}}
+矿车的实体附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|boolean|CustomDisplayTile}}：（可能不存在）矿车内显示的自定义的方块模型。
+**{{nbt|compound|DisplayBlock}}：（可能不存在）矿车装载的方块。
+***{{bedrock nbt|方块}}
+**{{nbt|int|DisplayOffset}}：（可能不存在）矿车中显示的方块的偏移量。以像素为单位，正值向上移动，而负值向下移动块。值为16则恰好是其高度的一倍。{{Needs testing}}
+
+=== 村民 ===
+{{#if:{{#var:isIncluded}}||
+村民实体包括：
+**{{EntityLink|id=Villager|link=村民/村庄与掠夺前|旧版村民}}
+**{{EntityLink|id=Villager|link=村民|新版村民}}（<code>villager_v2</code>）
+村民的实体附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|boolean|Willing}}：村民愿意进行交配时值为true。会在进行过一个特定的交易（使得交易菜单刷新的交易）后变成true，然后在交配后变成false。
+
+=== 敌对生物 ===
+{{#if:{{#var:isIncluded}}||
+敌对生物实体包括：
+**{{EnvSprite|mob}} [[#人形敌对生物|人-{}-形敌对生物]]
+**{{EntityLink|Blaze}}
+**{{EntityLink|Cave Spider}}
+**{{EntityLink|Creeper}}
+**{{EntityLink|Enderman}}
+**{{EntityLink|Endermite}}
+**{{EntityLink|Evoker}}
+**{{EntityLink|Ghast}}
+**{{EntityLink|Guardian}}
+**{{EntityLink|Ravager}}
+**{{EntityLink|Magma Cube}}
+**{{EntityLink|Phantom}}
+**{{EntityLink|Piglin}}
+**{{EntityLink|Pillager}}
+**{{EntityLink|Shulker}}
+**{{EntityLink|Silverfish}}
+**{{EntityLink|Skeleton}}
+**{{EntityLink|Wither Skeleton}}
+**{{EntityLink|Stray}}
+**{{EntityLink|Slime}}
+**{{EntityLink|Spider}}
+**{{EntityLink|Vex}}
+**{{EntityLink|Warden}}
+**{{EntityLink|Wither}}
+**{{EntityLink|Ender Dragon}}
+敌对生物的实体附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|boolean|SpawnedByNight}}：在夜间生成时值为true。
+
+=== 人-{}-形敌对生物{{anchor|人形敌对生物}} ===
+{{#if:{{#var:isIncluded}}||
+人-{}-形敌对生物包括：
+**{{EntityLink|Witch}}
+**{{EntityLink|Zombie}}
+**{{EntityLink|Zombie Villager}}
+**{{EntityLink|Vindicator}}
+**{{EntityLink|Zombified Piglin}}
+人-{}-形敌对生物的实体附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**敌对生物
+**{{nbt|compound|ItemInHand}}：（可能不存在）实体手持的物品。
+***{{bedrock nbt|物品堆叠|item}}
+
+=== 生物 ===
+{{#if:{{#var:isIncluded}}||
+生物实体包括：
+**{{EnvSprite|mobs}} [[#敌对生物|敌对生物]]
+**{{EntityLink|NPC}}
+**{{EntitySprite|Villager}} [[#村民|村民]]
+***{{EntityLink|id=Villager|link=村民/村庄与掠夺前|旧版村民}}
+***{{EntityLink|id=Villager|link=村民|新版村民}}（<code>villager_v2</code>）
+**{{EntityLink|Wandering Trader}}
+**{{EntityLink|Allay}}
+**{{EntityLink|Agent}}
+**{{EntityLink|Armor Stand}}
+**{{EntityLink|Camera}}
+**动物
+***{{EntityLink|Bat}}
+***{{EntityLink|Frog}}
+***{{EntityLink|Tadpole}}
+***{{EntityLink|Goat}}
+***{{EntityLink|Sheep}}
+***{{EntityLink|Strider}}
+***{{EntityLink|Turtle}}
+***{{EntityLink|Wolf}}
+***{{EntityLink|Axolotl}}
+***{{EntityLink|Bee}}
+***{{EntityLink|Cat}}
+***{{EntityLink|Camel}}
+***{{EntityLink|Sniffer}}
+***{{EntityLink|Chicken}}
+***{{EntityLink|Horse}}
+***{{EntityLink|Llama}}
+***{{EntityLink|Mooshroom}}
+***{{EntityLink|Panda}}
+***{{EntityLink|Parrot}}
+***{{EntityLink|Pig}}
+***{{EntityLink|Polar Bear}}
+***{{EntityLink|Rabbit}}
+***{{EntityLink|Iron Golem}}
+***{{EntityLink|Squid}}
+***{{EntityLink|Glow Squid}}
+**水生生物
+***{{EntityLink|Cod}}
+***{{EntityLink|Salmon}}
+***{{EntityLink|Dolphin}}
+***{{EntityLink|Pufferfish}}
+***{{EntityLink|Tropical Fish}}
+生物的实体附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|long|limitedLife}}：实体消失前的剩余刻数。目前仅被[[唤魔者尖牙]]使用，其余实体的值被设置为0。
+**{{nbt|long|LeasherID}}：实体被使用拴绳牵引时牵引者的唯一ID。没有牵引者时值为-1。
+**{{nbt|int|TradeTier}}：（可能不存在）交易者的交易等级。
+**{{nbt|int|TradeExperience}}：（可能不存在）交易者的交易经验值。
+**{{nbt|boolean|canPickupItems}}：实体可以捡起物品时值为true。
+**{{nbt|boolean|hasSetCanPickupItems}}：在<code>canPickupItems</code>被游戏设置后值为true。
+**{{nbt|compound|persistingOffers}}：（可能不存在）未知。
+**{{nbt|int|persistingRiches}}：（可能不存在）未知。<!--Mob-->
+**{{nbt|list|Mainhand}}：实体主手持有的物品。
+***{{nbt|compound}}：具体物品。
+****{{bedrock nbt|物品堆叠|item}}
+**{{nbt|list|Offhand}}：实体副手持有的物品。
+***{{nbt|compound}}：具体物品。
+****{{bedrock nbt|物品堆叠|item}}
+**{{nbt|list|Armor}}：实体佩戴的盔甲。
+***{{nbt|compound}}：头部物品。
+****{{bedrock nbt|物品堆叠|item}}
+***{{nbt|compound}}：胸部物品。
+****{{bedrock nbt|物品堆叠|item}}
+***{{nbt|compound}}：腿部物品。
+****{{bedrock nbt|物品堆叠|item}}
+***{{nbt|compound}}：脚部物品。
+****{{bedrock nbt|物品堆叠|item}}
+**{{nbt|short|HurtTime}}：实体在受伤后变红的持续时间（刻），用于控制无敌状态。0表示生物无敌时间已经冷却。
+**{{nbt|short|DeathTime}}：实体死亡后持续的一段时间（刻），用于控制死亡动画。0表示生物未死亡。
+**{{nbt|boolean|Dead}}：实体死后值为true。
+**{{nbt|short|AttackTime}}：实体攻击时间，用于控制攻击动画。0表示未处于攻击状态。
+**{{nbt|boolean|Surface}}：实体在地表时值为true。
+**{{nbt|boolean|NaturalSpawn}}：自然生成时值为true。
+**{{nbt|long|TargetID}}：实体抱有敌意的目标的唯一实体ID。
+**{{nbt|boolean|hasBoundOrigin}}：实体的绑定对象，目前仅被[[恼鬼]]使用。{{needs testing}}恼鬼在空闲的时候，它会四处飘浮，选择大小为15×11×15的空间，其中心为X,Y,Z = {{cd|BoundX}}、{{cd|BoundY}}和{{cd|BoundZ}}。生成恼鬼后此值会设为true，且这个绑定中心即是唤魔者召唤它时的位置。若恼鬼并不是唤魔者召唤的，这个中心是该恼鬼第一次开始空闲飘浮的地点。
+**{{nbt|int|boundX}}：绑定中心的X轴坐标。
+**{{nbt|int|boundY}}：绑定中心的Y轴坐标。
+**{{nbt|int|boundZ}}：绑定中心的Z轴坐标。
+**{{nbt|list|Attributes}}: 此生物的属性列表。这些值在内部运算中用于许多目的。[[属性]]条目中列出了生物的有效属性。
+***{{nbt|compound}}：具体的属性。
+****{{bedrock nbt|单个属性}}
+**{{nbt|list|ActiveEffects}}：（可能不存在）实体拥有的[[状态效果]]。
+***{{nbt|compound}}：具体的效果。
+****{{bedrock nbt|生物效果}}
+**{{nbt|float|BodyRot}}：（可能不存在）未知。
+**{{nbt|boolean|WantsToBeJockey}}：实体允许成为骑士时值为true。
+**{{bedrock nbt|hide|component}}
+**{{nbt|boolean|IsPregnant}}：[[海龟]]即将产卵时值为true。
+**{{nbt|long|TargetCaptainID}}：（可能不存在）未知。
+
+=== 类箭实体 ===
+{{#if:{{#var:isIncluded}}||
+类箭实体包括：
+**{{EntityLink|Trident}}
+**{{EntityLink|Arrow}}
+类箭实体的实体附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|long|OwnerID}}：射出此弹射物的实体的唯一ID。设置为-1表示不存在该实体。
+**{{nbt|boolean|player}}：射出此弹射物的实体为玩家时值为true。
+**{{nbt|boolean|isCreative}}：玩家处于创造模式时值为true。
+
+=== 可投掷物 ===
+{{#if:{{#var:isIncluded}}||
+可投掷物包括：
+**{{ItemLink|Bottle o' Enchanting}}
+**{{ItemLink|Ender Pearl}}
+**{{ItemLink|Splash Potion}}
+**{{ItemLink|Lingering Potion}}
+可投掷物的实体附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|byte|shake}}：实体是否在摇晃。
+**{{nbt|byte|inGround}}：实体是否接触到地面。
+**{{nbt|long|OwnerID}}：掷出此弹射物的实体的唯一ID。
+
+== 实体种类的附加字段 ==
+=== 箭 ===
+{{#if:{{#var:isIncluded}}||
+箭的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|byte|enchantPower}}：箭由附有[[力量（魔咒）|{{tr|力量|強力}}]]的弓射出。数字代表了附魔等级。0表示没有此魔咒。
+**{{nbt|byte|enchantPunch}}：箭由附有[[冲击]]的弓射出。数字代表了附魔等级。0表示没有此魔咒。
+**{{nbt|byte|enchantFlame}}：箭由附有[[火矢]]的弓射出。数字代表了附魔等级。0表示没有此魔咒。
+**{{nbt|byte|enchantInfinity}}：箭由附有[[无限]]的弓射出。数字代表了附魔等级。0表示没有此魔咒。
+**{{nbt|list|mobEffects}}：药箭携带的[[状态效果]]。
+***{{nbt|compound}}：具体的效果。
+****{{bedrock nbt|生物效果}}
+**{{nbt|byte|auxValue}}：箭的元数据。参见{{slink|箭|物品数据}}。
+
+=== 玩家 ===
+{{#if:{{#var:isIncluded}}||
+玩家的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|compound|Offhand}}：玩家副手持有的物品。
+**{{nbt|list|Inventory}}：玩家的物品栏。
+***{{nbt|compound}}：物品栏内的物品，以及槽位标签。
+****{{nbt|byte|Slot}}：物品所在的槽位编号。
+****{{bedrock nbt|物品堆叠|item}}
+**{{nbt|string|format_version}}：NBT的格式版本。
+**{{nbt|int|SelectedInventorySlot}}：物品栏内被选中的槽位。
+**{{nbt|int|SelectedContainerId}}：未知。
+**{{nbt|boolean|Sleeping}}：玩家睡觉时值为true。
+**{{nbt|short|SleepTimer}}：玩家上床后度过的时间（刻）。0表示没有入睡。入睡后的值会逐渐增加到100，然后停止。在所有入睡玩家的值都达到100后才能跳过夜晚。在玩家离开床后，值会被直接设置为100，然后增加到109再回退至0。{{needs testing}}
+**{{nbt|int|SpawnBlockPositionX}}：玩家出生点下方块的X轴坐标。
+**{{nbt|int|SpawnBlockPositionY}}：玩家出生点下方块的Y轴坐标。
+**{{nbt|int|SpawnBlockPositionZ}}：玩家出生点下方块的Z轴坐标。
+**{{nbt|int|SpawnDimension}}：玩家出生点所在的维度。0表示主世界。
+**{{nbt|int|SpawnX}}：玩家出生点的X轴坐标。
+**{{nbt|int|SpawnY}}：玩家出生点的Y轴坐标。
+**{{nbt|int|SpawnZ}}：玩家出生点的Z轴坐标。
+**{{nbt|int|EnchantmentSeed}}：[[附魔台]]上准备附魔的附魔种子。
+**{{nbt|long|RideID}}：玩家所骑乘的实体的唯一ID。
+**{{nbt|long|LeftShoulderRiderID}}：玩家左肩膀上实体的唯一ID。
+**{{nbt|long|RightShoulderRiderID}}：玩家右肩膀上实体的唯一ID。
+**{{nbt|int|PlayerGameMode}}：玩家的[[游戏模式]]。
+**{{nbt|int|PlayerLevel}}：玩家经验条上的经验等级。
+**{{nbt|float|PlayerLevelProgress}}：玩家经验条上的经验百分比。
+**{{nbt|int|DimensionId}}：玩家所处维度的ID。
+**{{nbt|list|EnderChestInventory}}：玩家拥有的[[末影箱]]的物品栏数据。
+***{{nbt|compound}}：物品栏内的单个物品。
+****{{nbt|byte|Slot}}：物品所在的槽位编号。
+****{{bedrock nbt|物品堆叠|item}}
+**{{nbt|boolean|HasSeenCredits}}：玩家是否已经通过[[返回传送门]]从[[末地]]回到主世界。
+**{{nbt|list|PlayerUIItems}}：玩家UI上的物品。
+***{{nbt|compound}}：玩家UI上的单个物品，以及所在槽位。
+****{{nbt|byte|Slot}}：物品所在的槽位编号。
+****{{bedrock nbt|物品堆叠|item}}
+**{{nbt|int|MapIndex}}：未知。
+**{{nbt|boolean|Sneaking}}：玩家在潜行时值为true。
+**{{nbt|boolean|HasDiedBefore}}：默认不存在，当玩家在[[极限模式]]中死亡后值为true。
+**{{nbt|long|AgentID}}：玩家所持[[智能体]]的唯一ID。
+**{{bedrock nbt|玩家能力}}
+
+=== 恼鬼 ===
+{{#if:{{#var:isIncluded}}||
+恼鬼的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|compound|ItemInHand}}：（可能不存在）恼鬼所持的物品。默认为铁[[剑]]。
+***{{bedrock nbt|物品堆叠|item}}
+
+=== 僵尸村民 ===
+{{#if:{{#var:isIncluded}}||
+僵尸村民的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|boolean|SpawnedFromVillage}}：在[[僵尸村庄]]中自然生成时值为true。
+
+=== 区域效果云 ===
+{{#if:{{#var:isIncluded}}||
+区域效果云的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|Duration}}：效果云的持续时间。
+**{{nbt|int|ReapplicationDelay}}：重新应用效果前的刻数。
+**{{nbt|int|DurationOnUse}}：应用效果时效果云持续时间的变化量。
+**{{nbt|float|InitialRadius}}：效果云的最初范围。
+**{{nbt|float|RadiusOnUse}}：应用效果时效果云范围的变化量。默认为负值。
+**{{nbt|float|RadiusPerTick}}：效果云范围每刻的变化量。默认为负值。
+**{{nbt|float|Radius}}：效果云的当前范围半径。
+**{{nbt|long|OwnerId}}：区域效果云的创建者。-1表示没有创建者。
+**{{nbt|short|PotionId}}：药水效果的默认名称。参见{{slink|药水|物品数据}}。
+**{{nbt|int|ParticleId}}：显示的[[粒子]]。
+**{{nbt|int|ParticleColor}}：粒子的颜色。
+**{{nbt|list|mobEffects}}：已经应用的状态效果的列表。
+***{{bedrock nbt|生物效果}}
+**{{nbt|long|SpawnTick}}：生成时间。
+**{{nbt|float|RadiusChangeOnPickup}}：在被[[玻璃瓶]]装起时效果云范围的变化量。
+**{{nbt|int|PickupCount}}：可以捡起的[[龙息]]的最大数量。
+
+=== 盔甲架 ===
+{{#if:{{#var:isIncluded}}||
+盔甲架的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|compound|Pose}}：盔甲架的姿势。
+***{{nbt|int|PoseIndex}}：盔甲架姿势的编号。
+***{{nbt|int|LastSignal}}：收到的[[红石]]信号的强度。
+
+=== 画 ===
+{{#if:{{#var:isIncluded}}||
+画的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|string|Motive}}：（可能不存在）画的作品ID。
+**{{nbt|byte|Direction}}：画实体的朝向。
+**{{nbt|byte|Dir}}：画实体的实际朝向。0为南，1为西，2为北，3为东。{{needs testing}}
+
+=== 火球 ===
+{{#if:{{#var:isIncluded}}||
+火球的附加字段：
+*{{nbt|compound}}：实体的根标签}}
+**{{nbt|byte|inGround}}：是否已经接触地面。
+**{{nbt|list|Direction}}：3个浮点数值的组合。用于确定火球的位置。{{needs testing}}
+***{{nbt|float}}: X
+***{{nbt|float}}: Y
+***{{nbt|float}}: Z
+**{{nbt|list|power}}：3个浮点数值的组合，用于每刻增加到<code>Direction</code>，并以此表示为加速度。
+***{{nbt|float}}: X
+***{{nbt|float}}: Y
+***{{nbt|float}}: Z
+
+=== 掷出的药水 ===
+{{#if:{{#var:isIncluded}}||
+掷出的药水的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|short|PotionId}}: 药水的[[药水#物品数据|状态效果ID]]。
+
+=== 掷出的三叉戟 ===
+{{#if:{{#var:isIncluded}}||
+掷出的三叉戟的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|favoredSlot}}：掷出后选择的物品栏槽位，用于附有[[忠诚]]三叉戟返回时需要进入的物品栏槽位。-1表示该三叉戟没有附上忠诚魔咒。
+**{{nbt|compound|Trident}}：实体捡起后的物品。
+***{{bedrock nbt|物品堆叠|item}}
+
+=== 末影螨 ===
+{{#if:{{#var:isIncluded}}||
+末影螨的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|Lifetime}}：末影螨存在的时间。每刻增加1，达到2400（2分钟）时消失。
+
+=== 僵尸猪灵 ===
+{{#if:{{#var:isIncluded}}||
+僵尸猪灵的附加字段。
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|short|Anger}}：僵尸猪灵的愤怒对象的唯一ID。
+
+=== 潜影贝 ===
+{{#if:{{#var:isIncluded}}||
+潜影贝的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|list|<s>AttachPosnm</s>}}：不再使用的值。{{more info}}
+***{{nbt|int}}: X
+***{{nbt|int}}: Y
+***{{nbt|int}}: Z
+**{{nbt|byte|<s>AttachFace</s>}}：不再使用的值。{{more info}}
+**{{nbt|byte|<s>Peek</s>}}：不再使用的值。{{more info}}
+
+=== 史莱姆 ===
+{{#if:{{#var:isIncluded}}||
+史莱姆的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|byte|Size}}：史莱姆的体型。0表示最小体型。
+
+=== 兔子 ===
+{{#if:{{#var:isIncluded}}||
+兔子的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|MoreCarrotTicks}}：兔子在食用胡萝卜作物时值会设置为40，每刻减少0-2直到值归零为止。{{needs testing}}
+**{{nbt|int|CarrotsEaten}}：吃掉的胡萝卜的数量。
+
+=== 山羊 ===
+{{#if:{{#var:isIncluded}}||
+山羊的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|GoatHornCount}}：山羊头部羊角的数量。
+
+=== 末地水晶 ===
+{{#if:{{#var:isIncluded}}||
+末地水晶的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|BlockTargetX}}：（可能不存在）发射的光柱的X轴位置。
+**{{nbt|int|BlockTargetY}}：（可能不存在）发射的光柱的Y轴位置。
+**{{nbt|int|BlockTargetZ}}：（可能不存在）发射的光柱的Z轴位置。
+
+=== 烟花火箭 ===
+{{#if:{{#var:isIncluded}}||
+烟花火箭的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|Life}}：烟花火箭发射后经过的刻数。
+**{{nbt|int|LifeTime}}：烟花火箭爆炸前的刻数。值会随机赋予。{{Needs testing}}
+
+=== 掉落物 ===
+{{#if:{{#var:isIncluded}}||
+掉落物的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|short|Health}}：掉落物的生命值，预设值为5，在受到爆炸、火焰等伤害来源后会减少，达到0时消失。{{Needs testing}}
+**{{nbt|short|Age}}：掉落物在被捡起前的持续时间（刻）。在达到6000（5分钟）后会消失。设置为-1会使得物品不会消失。
+**{{nbt|compound|Item}}：掉落物的具体内容。
+***{{bedrock nbt|物品堆叠|item}}
+**{{nbt|long|OwnerID}}：若设置此值，只有匹配的玩家唯一ID才能捡起该掉落物。设置为-1时使得物品无法被捡起。{{Needs testing}}
+
+=== 凋灵 ===
+{{#if:{{#var:isIncluded}}||
+凋灵的特殊字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|int|Invul}}：凋灵的无敌时间（刻），值会逐渐减少到0。{{Needs testing}}
+**{{nbt|boolean|AirAttack}}：未知。
+**{{nbt|int|ShieldHealth}}：未知。
+**{{nbt|int|Phase}}：未知。
+**{{nbt|int|SpawningFrames}}：生成后在进行攻击前的时间（刻）。用于控制生成动画。
+**{{nbt|int|maxHealth}}：凋灵的最大生命值。
+**{{nbt|int|lastHealthInterval}}：未知。
+**{{nbt|int|dyingFrames}}：死亡后在消失前的时间（刻）。用于控制死亡动画。
+**{{nbt|float|overlayAlpha}}：外观的透明度。
+**{{nbt|float|swellAmount}}：未知。
+**{{nbt|float|oldSwellAmount}}：未知。
+**{{nbt|float|firerate}}：未知。
+
+=== 蝙蝠 ===
+{{#if:{{#var:isIncluded}}||
+蝙蝠的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|byte|BatFlags}}：当倒挂在方块时为1，当飞行时则为0。
+
+=== 守卫者和远古守卫者 ===
+{{#if:{{#var:isIncluded}}||
+守卫者和远古守卫者的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|boolean|Elder}}：是远古守卫者时值为true。
+
+=== 经验球 ===
+{{#if:{{#var:isIncluded}}||
+经验球的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|short|Age}}：经验球在被捡起前的持续时间（刻）。在达到6000（5分钟）后会消失。设置为-1会使得物品不会消失。{{Needs testing}}
+**{{nbt|int|experience_value}}：经验球捡起后给予的经验值。
+
+=== 下落的方块 ===
+{{#if:{{#var:isIncluded}}||
+下落的方块的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|compound|FallingBlock}}：具体的方块。
+***{{bedrock nbt|方块}}
+**{{nbt|byte|Time}}：实体存在时间（刻）。如果设置为0，则在增加到1时如果所在位置的方块ID与实体的<code>FallingBlock.Name</code>值不同，实体就会消失。如果在<code>Time</code>从0增加到1时，该方块所在位置的ID与其 <code>FallingBlock.Name</code>相同，则该方块被删除并变成实体继续下落。当值超过600或超过100而实体低于Y=1或超出建筑范围时，实体会被删除。{{Needs testing}}
+**{{nbt|byte|<s>Tile</s>}}：不再使用。方块的数字ID。
+**{{nbt|byte|<s>Data</s>}}：不再使用。方块的元数据。
+
+=== 末影人 ===
+{{#if:{{#var:isIncluded}}||
+末影人的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|compound|carriedBlock}}：末影人捡起的物品。
+***{{bedrock nbt|方块}}
+**{{nbt|short|<s>carriedData</s>}}：不再使用。方块的数字ID。
+**{{nbt|short|<s>carried</s>}}：不再使用。方块的元数据。
+
+=== 不祥之物生成器 ===
+{{#if:{{#var:isIncluded}}||
+不祥之物生成器的附加字段：
+*{{nbt|compound}}：实体的根标签。}}
+**{{nbt|compound|item}}：不祥之物生成器内存储的物品。如果物品是任何弹射物物品，则在倒计时结束生成时变为对应的弹射物实体并向下发射；如果不是，则直接生成对应物品实体。
+***{{bedrock nbt|物品堆叠|item}}
+**{{nbt|int|ticks_before_removal}}：不祥之物生成器被删除的剩余时间（刻）。
+
+{{#if:{{#var:isIncluded}}||</div>}}
+
+[[en:Bedrock Edition level format/Entity format]]
+[[pt:Formato de nível da Edição Bedrock/Formato de entidade]]

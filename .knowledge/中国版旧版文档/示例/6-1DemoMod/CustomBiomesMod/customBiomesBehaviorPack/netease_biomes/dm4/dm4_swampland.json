@@ -1,0 +1,21 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm4_swampland", 
+            "inherits": "swampland"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "mutate_transformation": "dm4_swampland_mutated", 
+                "generate_for_climates": [
+                    [
+                        "medium", 
+                        0
+                    ]
+                ]
+            },
+            "dm4": {}
+        }
+    }
+}

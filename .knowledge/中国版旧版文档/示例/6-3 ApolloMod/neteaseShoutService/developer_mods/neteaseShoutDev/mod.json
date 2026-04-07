@@ -1,0 +1,29 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseShoutService",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.2",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.17.0.release20200709",
+  "_comment": "插件实现的功能",
+  "description": "喇叭",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "service"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，喇叭插件由Master插件，Service插件，lobby/game插件",
+  "group": "neteaseShout",
+  "_comment": "配置service使用到的module_names，对应deploy.json中service下module_names配置",
+  "module_names": [
+    "neteaseShout"
+  ],
+  "_comment": "以下为可配置项",
+  "_comment": "使用间隔限制（秒）",
+  "interval": 5,
+  "_comment": "单次内容字数限制",
+  "wc": 100,
+  "_comment": "最大等待发送喇叭消息数",
+  "qsize": 100
+}

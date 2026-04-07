@@ -1,0 +1,5686 @@
+{
+  "default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$default_texture",
+    "type": "image"
+  },
+  "pressed": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$pressed_texture",
+    "type": "image"
+  },
+  "hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$hover_texture",
+    "type": "image"
+  },
+  "button_label": {
+    "color": "$label_color",
+    "font_scale_factor": "$label_font_scale_factor",
+    "font_size": "$label_font_size",
+    "font_type": "smooth",
+    "layer": "$label_layer",
+    "max_size": [
+      "100%",
+      "100%"
+    ],
+    "offset": "$label_offset",
+    "shadow": false,
+    "text": "$label_text",
+    "text_alignment": "center",
+    "type": "label"
+  },
+  "edit_box_background_default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$edit_box_default_texture",
+    "type": "image"
+  },
+  "edit_box_background_hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$edit_box_hover_texture",
+    "type": "image"
+  },
+  "alert_bg@common.button": {
+    "$default_texture": "textures/ui/netease_sale/dual",
+    "$hover_texture": "textures/ui/netease_sale/dual",
+    "$is_new_nine_slice": true,
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.3397509765625,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/dual",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "alert_board_bg@netease_trade_sale_ui.alert_board_bg": {}
+      }
+    ],
+    "is_handle_button_move_event": false,
+    "layer": 1000,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "visible": true
+  },
+  "alert_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "-3.33333351%+0 px",
+      "-3.968254%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "80.0%+0 px",
+      "47.6190478%+0px"
+    ],
+    "text": "摊位还有剩余时间，收起摊位后，其他人将无法看到你的摊位，是否确定？",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "alert_board_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "alert_board_title_text@netease_trade_sale_ui.alert_board_title_text": {}
+      },
+      {
+        "cancel_btn@netease_trade_sale_ui.cancel_btn": {}
+      },
+      {
+        "confirm_btn@netease_trade_sale_ui.confirm_btn": {}
+      },
+      {
+        "alert_board_fee_panel@netease_trade_sale_ui.alert_board_fee_panel": {}
+      },
+      {
+        "alert_board_merch_panel@netease_trade_sale_ui.alert_board_merch_panel": {}
+      },
+      {
+        "alert_text@netease_trade_sale_ui.alert_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "39.0625%",
+      "58.3333333333%"
+    ],
+    "texture": "textures/ui/netease_sale/panel01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "alert_board_fee_panel": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "alert_fee_bg@netease_trade_sale_ui.alert_fee_bg": {}
+      },
+      {
+        "alert_fee_text@netease_trade_sale_ui.alert_fee_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-46.0%+0 px",
+      "-33.3333343%+0px"
+    ],
+    "size": [
+      "91.3333356%+0 px",
+      "53.9682567%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "alert_board_merch_panel": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "alert_merch_bg@netease_trade_sale_ui.alert_merch_bg": {}
+      },
+      {
+        "alert_merch_text@netease_trade_sale_ui.alert_merch_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-46.0%+0 px",
+      "-33.3333343%+0px"
+    ],
+    "size": [
+      "91.3333356%+0 px",
+      "53.9682567%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "alert_board_title_text": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.8008415876116071,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "-46.0%+0 px",
+      "-44.4444448%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "59.2%+0 px",
+      "6.984127%+0px"
+    ],
+    "text": "上架商品",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "alert_fee_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "alert_fee_panel@netease_trade_sale_ui.alert_fee_panel": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 5,
+    "nine_slice_left": 50,
+    "nine_slice_right": 5,
+    "nine_slice_top": 50,
+    "offset": [
+      "2.33576633%+0 px",
+      "28.5294116%+0px"
+    ],
+    "size": [
+      "95.6204355%+0 px",
+      "35.29412%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "alert_fee_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "32.967034%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "43.9560443%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "alert_fee_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "29.67033%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "43.9560443%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "alert_fee_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "alert_fee_icon@netease_trade_sale_ui.alert_fee_icon": {}
+      },
+      {
+        "alert_fee_count_text@netease_trade_sale_ui.alert_fee_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "35.57252%+0 px",
+      "7.5%+0px"
+    ],
+    "size": [
+      "30.53435%+0 px",
+      "75.83333%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "alert_fee_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "4.379562%+0 px",
+      "68.52941%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "187.59124%+0 px",
+      "29.4117659%+0px"
+    ],
+    "text": "需要消耗以上货币摆摊 99 小时，是否确定？",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "alert_merch_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "alert_price_text@netease_trade_sale_ui.alert_price_text": {}
+      },
+      {
+        "alert_qty_text@netease_trade_sale_ui.alert_qty_text": {}
+      },
+      {
+        "alert_slot_bg@netease_trade_sale_ui.alert_slot_bg": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 5,
+    "nine_slice_left": 50,
+    "nine_slice_right": 5,
+    "nine_slice_top": 50,
+    "offset": [
+      "2.33576633%+0 px",
+      "7.352941%+0px"
+    ],
+    "size": [
+      "95.6204355%+0 px",
+      "72.647053%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "alert_merch_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "2.919708%+0 px",
+      "84.70588%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "87.59124%+0 px",
+      "29.4117659%+0px"
+    ],
+    "text": "是否上架以上商品？",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "alert_qty_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_right",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "91.60305%+0 px",
+      "74.08907%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "67.78626%+0 px",
+      "17.8137645%+0px"
+    ],
+    "text": "总数：3000",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "alert_slot_bg": {
+    "controls": [
+      {
+        "item_img@netease_trade_sale_ui.item_img": {}
+      }
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "40.76336%+0 px",
+      "12.1457487%+0px"
+    ],
+    "size": [
+      "18.3206111%+0 px",
+      "48.5829949%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/box01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "alert_price_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "alert_price_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "alert_unit_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "alert_price_icon@netease_trade_sale_ui.alert_price_icon": {}
+      },
+      {
+        "alert_price_count_text@netease_trade_sale_ui.alert_price_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "18.0180177%+0 px",
+      "-68.18182%+0px"
+    ],
+    "size": [
+      "45.045045%+0 px",
+      "227.272725%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "alert_price_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "alert_unit_panel@netease_trade_sale_ui.alert_unit_panel": {}
+      }
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "8.396947%+0 px",
+      "72.87449%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "67.78626%+0 px",
+      "17.8137645%+0px"
+    ],
+    "text": "单价：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "bag_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "bag_grid@netease_trade_bag_ui.bagGrid": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "btn_1@common.button": {
+    "$default_texture": "textures/ui/netease_sale/tab01@3x",
+    "$hover_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$is_new_nine_slice": true,
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.3397509765625,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "pinned_icon_1@netease_trade_sale_ui.pinned_icon_1": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "41.61948%+0 px",
+      "10.5263159%+0px"
+    ],
+    "size": [
+      "8.380521%+0 px",
+      "13.1578952%+0px"
+    ],
+    "visible": true
+  },
+  "btn_2@common.button": {
+    "$default_texture": "textures/ui/netease_sale/tab01@3x",
+    "$hover_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.3397509765625,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "pinned_icon_2@netease_trade_sale_ui.pinned_icon_2": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "41.61948%+0 px",
+      "23.6842111%+0px"
+    ],
+    "size": [
+      "8.380521%+0 px",
+      "13.1578952%+0px"
+    ],
+    "visible": true
+  },
+  "btn_3@common.button": {
+    "$default_texture": "textures/ui/netease_sale/tab01@3x",
+    "$hover_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.3397509765625,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "pinned_icon_3@netease_trade_sale_ui.pinned_icon_3": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "41.61948%+0 px",
+      "36.8421048%+0px"
+    ],
+    "size": [
+      "8.380521%+0 px",
+      "13.1578952%+0px"
+    ],
+    "visible": true
+  },
+  "btn_4@common.button": {
+    "$default_texture": "textures/ui/netease_sale/tab01@3x",
+    "$hover_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.3397509765625,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/tab01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "pinned_icon_4@netease_trade_sale_ui.pinned_icon_4": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "41.61948%+0 px",
+      "50.0%+0px"
+    ],
+    "size": [
+      "8.380521%+0 px",
+      "13.1578952%+0px"
+    ],
+    "visible": true
+  },
+  "cancel_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            0.25882352941176473,
+            0.25882352941176473,
+            0.25882352941176473
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "取消",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "-23.6%+0 px",
+      "35.2380961%+0px"
+    ],
+    "size": [
+      "46.4%+0 px",
+      "19.04762%+0px"
+    ],
+    "visible": true
+  },
+  "close_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn05@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn05_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.3397509765625,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn05_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "45.979616%+0 px",
+      "-43.6090231%+0px"
+    ],
+    "size": [
+      "1.69875417%+0 px",
+      "2.819549%+0px"
+    ],
+    "visible": true
+  },
+  "confirm_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            0.25882352941176473,
+            0.25882352941176473,
+            0.25882352941176473
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "确定",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "23.6%+0 px",
+      "35.2380961%+0px"
+    ],
+    "size": [
+      "46.4%+0 px",
+      "19.04762%+0px"
+    ],
+    "visible": true
+  },
+  "consequence_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_right",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "97.78086%+0 px",
+      "30.000186%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "61.5811348%+0 px",
+      "55.0%+0px"
+    ],
+    "text": "已下架",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "cost_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "cost_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "cost_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "cost_icon@netease_trade_sale_ui.cost_icon": {}
+      },
+      {
+        "cost_count_text@netease_trade_sale_ui.cost_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "50.0%+0 px",
+      "-75.0%+0px"
+    ],
+    "size": [
+      "125.0%+0 px",
+      "250.0%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "cost_resp_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "cost_resp_text@netease_trade_sale_ui.cost_resp_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 21,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 50,
+    "nine_slice_right": 50,
+    "nine_slice_top": 0,
+    "offset": [
+      "-0.9485095%+0 px",
+      "94.57755%+0px"
+    ],
+    "size": [
+      "101.76152%+0 px",
+      "12.61034%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "cost_resp_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "2.13049259%+0 px",
+      "10.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "未知错误",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "cost_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "cost_panel@netease_trade_sale_ui.cost_panel": {}
+      }
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "33.87534%+0 px",
+      "41.9924349%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "21.6802165%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "花费：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "count_edit_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/input01@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "999999999",
+    "$pressed_texture": "textures/ui/netease_sale/input01@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "28.4552842%+0 px",
+      "63.0517%+0px"
+    ],
+    "size": [
+      "27.10027%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "count_minus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "minus_icon@netease_trade_sale_ui.minus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "12.8726289%+0 px",
+      "63.0517%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "count_peak_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "peak_icon@netease_trade_sale_ui.peak_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "73.30623%+0 px",
+      "63.05171%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "count_plus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "plus_icon@netease_trade_sale_ui.plus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "54.87805%+0 px",
+      "63.0517%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "40.6504065%+0 px",
+      "55.98991%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "21.6802165%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "购买数量",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "currency_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "currency_panel@netease_trade_sale_ui.currency_panel": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 69,
+    "nine_slice_left": 50,
+    "nine_slice_right": 69,
+    "nine_slice_top": 50,
+    "offset": [
+      "16.93767%+0 px",
+      "34.5523328%+0px"
+    ],
+    "size": [
+      "65.7181561%+0 px",
+      "15.1324078%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/input01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "currency_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "currency_name_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "绿宝石",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "currency_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "currency_icon@netease_trade_sale_ui.currency_icon": {}
+      },
+      {
+        "currency_name_text@netease_trade_sale_ui.currency_name_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "32.98969%+0 px",
+      "8.33333358%+0px"
+    ],
+    "size": [
+      "41.2371129%+0 px",
+      "83.33334%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "currency_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0.9485095%+0 px",
+      "27.2383362%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "21.6802165%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "货币类型：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "datetime_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_right",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "97.78086%+0 px",
+      "30.000186%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "61.5811348%+0 px",
+      "55.0%+0px"
+    ],
+    "text": "2020-05-18 13:00:49",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "deal_1": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "deal_info_bg@netease_trade_sale_ui.deal_info_bg": {}
+      },
+      {
+        "deal_shortcut_bg@netease_trade_sale_ui.deal_shortcut_bg": {}
+      },
+      {
+        "deal_unit_text@netease_trade_sale_ui.deal_unit_text": {}
+      },
+      {
+        "deal_subtotal_text@netease_trade_sale_ui.deal_subtotal_text": {}
+      },
+      {
+        "deal_sale_text@netease_trade_sale_ui.deal_sale_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 69,
+    "nine_slice_left": 50,
+    "nine_slice_right": 69,
+    "nine_slice_top": 50,
+    "offset": [
+      "0.542005431%+0 px",
+      "0.430107536%+0px"
+    ],
+    "size": [
+      "98.78049%+0 px",
+      "22.6881728%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel07@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "deal_info_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "rich_name_text@netease_trade_sale_ui.rich_name_text": {}
+      },
+      {
+        "datetime_text@netease_trade_sale_ui.datetime_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0.548696844%+0 px",
+      "60.189575%+0px"
+    ],
+    "size": [
+      "98.902607%+0 px",
+      "37.9146934%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel06@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "deal_list_view@common.scrolling_panel": {
+    "$scroll_bar_right_padding_size": [
+      0,
+      0
+    ],
+    "$scroll_box_mouse_image_control": "common-classic.button_state_default",
+    "$scroll_size": [
+      4,
+      "100.000000%+0px"
+    ],
+    "$scroll_view_name": "scroll_view",
+    "$scrolling_content": "netease_trade_sale_ui.deal_list_panel",
+    "$scrolling_pane_offset": [
+      0,
+      0
+    ],
+    "$scrolling_pane_size": [
+      "100.000000%+0 px",
+      "100.000000%+0px"
+    ],
+    "$show_background": false,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "visible": true
+  },
+  "deal_list_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "deal_1@netease_trade_sale_ui.deal_1": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "deal_sale_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "19.7530866%+0 px",
+      "37.9146934%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "60.90535%+0 px",
+      "20.85308%+0px"
+    ],
+    "text": "数量：1000",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "deal_shortcut_bg": {
+    "controls": [
+      {
+        "item_img@netease_trade_sale_ui.item_img": {}
+      }
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "3.292181%+0 px",
+      "7.582939%+0px"
+    ],
+    "size": [
+      "13.71742%+0 px",
+      "47.3933637%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/box01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "deal_subtotal_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "deal_subtotal_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "deal_subtotal_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "deal_subtotal_icon@netease_trade_sale_ui.deal_subtotal_icon": {}
+      },
+      {
+        "deal_subtotal_count_text@netease_trade_sale_ui.deal_subtotal_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "15.54054%+0 px",
+      "-68.18182%+0px"
+    ],
+    "size": [
+      "45.045045%+0 px",
+      "227.272725%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "deal_subtotal_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "deal_subtotal_panel@netease_trade_sale_ui.deal_subtotal_panel": {}
+      }
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "60.90535%+0 px",
+      "12.7962083%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "60.90535%+0 px",
+      "20.85308%+0px"
+    ],
+    "text": "收入：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "deal_unit_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "deal_unit_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "deal_unit_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "deal_unit_icon@netease_trade_sale_ui.deal_unit_icon": {}
+      },
+      {
+        "deal_unit_count_text@netease_trade_sale_ui.deal_unit_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "15.54054%+0 px",
+      "-68.18182%+0px"
+    ],
+    "size": [
+      "45.045045%+0 px",
+      "227.272725%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "deal_unit_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "deal_unit_panel@netease_trade_sale_ui.deal_unit_panel": {}
+      }
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "19.7530866%+0 px",
+      "12.7962083%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "60.90535%+0 px",
+      "20.85308%+0px"
+    ],
+    "text": "单价：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "duration_edit_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/input01@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "0",
+    "$pressed_texture": "textures/ui/netease_sale/input01@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "16.93767%+0 px",
+      "34.5523328%+0px"
+    ],
+    "size": [
+      "25.7452577%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "duration_minus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "minus_icon@netease_trade_sale_ui.minus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "1.35501353%+0 px",
+      "34.5523328%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "duration_plus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "plus_icon@netease_trade_sale_ui.plus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "42.00542%+0 px",
+      "34.5523328%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "duration_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "plain_text_bg@netease_trade_sale_ui.plain_text_bg": {}
+      }
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0.9485095%+0 px",
+      "27.2383362%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "48.78049%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "摆摊时间： （小时）",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "empty_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "19.5356742%+0 px",
+      "9.398496%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "33.6500571%+0 px",
+      "44.7969923%+0px"
+    ],
+    "text": "请在左侧选择商品",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "fee_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "fee_panel@netease_trade_sale_ui.fee_panel": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "1.35501353%+0 px",
+      "58.51198%+0px"
+    ],
+    "size": [
+      "97.56098%+0 px",
+      "13.8713747%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel04@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "fee_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.4999976%+0 px",
+      "32.7272743%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "43.6363637%+0px"
+    ],
+    "text": "1000",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "fee_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "4.9999997%+0 px",
+      "29.4545472%+0px"
+    ],
+    "size": [
+      "19.9999988%+0 px",
+      "43.6363637%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "fee_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "fee_icon@netease_trade_sale_ui.fee_icon": {}
+      },
+      {
+        "fee_count_text@netease_trade_sale_ui.fee_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "1.3888889%+0 px",
+      "8.181818%+0px"
+    ],
+    "size": [
+      "27.77778%+0 px",
+      "83.33333%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "plain_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.970717075892857,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "2.7777778%+0 px",
+      "27.2727281%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "99时99分",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "plain_text_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "plain_text@netease_trade_sale_ui.plain_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0.8333334%+0 px",
+      "135.0%+0px"
+    ],
+    "size": [
+      "200%+0 px",
+      "275.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel04@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "fee_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "plain_text_bg@netease_trade_sale_ui.plain_text_bg": {}
+      }
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0.9485095%+0 px",
+      "51.7024%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "48.78049%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "摆摊费用：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "interact_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "interact_btn@netease_trade_sale_ui.interact_btn": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 45,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "19.5356742%+0 px",
+      "40.8834577%+0px"
+    ],
+    "size": [
+      "43.48811%+0 px",
+      "13.1578952%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel05@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "interact_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            0.25882352941176473,
+            0.25882352941176473,
+            0.25882352941176473
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "上架（0 / 10）",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "interact_mask_bg@netease_trade_sale_ui.interact_mask_bg": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0.130208337%+0 px",
+      "5.0%+0px"
+    ],
+    "size": [
+      "97.0052063%+0 px",
+      "89.2857134%+0px"
+    ],
+    "visible": true
+  },
+  "interact_mask_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/bg_mask_01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "left_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "left_icon@netease_trade_sale_ui.left_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "1.35501353%+0 px",
+      "34.5523328%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "left_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "20.0%+0 px",
+      "20.8333328%+0px"
+    ],
+    "size": [
+      "58.33333%+0 px",
+      "58.33333%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon08@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "left_title_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "-27.18007%+0 px",
+      "-45.1127827%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "28.31257%+0 px",
+      "4.699248%+0px"
+    ],
+    "text": "可出售的商品",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "sale_panel": {
+    "controls": [
+      {
+        "scope_panel@netease_trade_sale_ui.scope_panel": {}
+      }
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "panel",
+    "clips_children": false
+  },
+  "main@common.base_screen": {
+    "$screen_content": "netease_trade_sale_ui.sale_panel"
+  },
+  "manage_view@common.scrolling_panel": {
+    "$scroll_bar_right_padding_size": [
+      0,
+      0
+    ],
+    "$scroll_box_mouse_image_control": "common-classic.button_state_default",
+    "$scroll_size": [
+      4,
+      "100.000000%+0px"
+    ],
+    "$scroll_view_name": "scroll_view",
+    "$scrolling_content": "netease_trade_sale_ui.manage_panel",
+    "$scrolling_pane_offset": [
+      0,
+      0
+    ],
+    "$scrolling_pane_size": [
+      "100.000000%+0 px",
+      "100.000000%+0px"
+    ],
+    "$show_background": false,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "visible": true
+  },
+  "manage_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "option_1@netease_trade_sale_ui.option_1": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "mask_bg@common.button": {
+    "$default_texture": "textures/ui/netease_sale/bg_mask_01@3x",
+    "$hover_texture": "textures/ui/netease_sale/bg_mask_01@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/bg_mask_01@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": false,
+    "layer": 21,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "visible": true
+  },
+  "merch_1@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01@3x",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "merch_shortcut_bg@netease_trade_sale_ui.merch_shortcut_bg": {}
+      },
+      {
+        "merch_stock_text@netease_trade_sale_ui.merch_stock_text": {}
+      },
+      {
+        "price_text@netease_trade_sale_ui.price_text": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "-49.1869926%+0 px",
+      "-49.4623661%+0px"
+    ],
+    "size": [
+      "98.5094845%+0 px",
+      "16.1290318%+0px"
+    ],
+    "visible": true
+  },
+  "merch_bg": {
+    "controls": [
+      {
+        "item_img@netease_trade_sale_ui.item_img": {}
+      }
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "39.5663947%+0 px",
+      "20.1765448%+0px"
+    ],
+    "size": [
+      "21.6802165%+0 px",
+      "20.1765448%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/box01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_list_empty_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "-0.135501358%+0 px",
+      0
+    ],
+    "shadow": false,
+    "size": [
+      "40.6504065%+0 px",
+      "10.7526883%+0px"
+    ],
+    "text": "摊主尚未上架商品\n待会再来看看吧",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "merch_list_view@common.scrolling_panel": {
+    "$scroll_bar_right_padding_size": [
+      0,
+      0
+    ],
+    "$scroll_box_mouse_image_control": "common-classic.button_state_default",
+    "$scroll_size": [
+      4,
+      "100.000000%+0px"
+    ],
+    "$scroll_view_name": "scroll_view",
+    "$scrolling_content": "netease_trade_sale_ui.merch_list_panel",
+    "$scrolling_pane_offset": [
+      0,
+      0
+    ],
+    "$scrolling_pane_size": [
+      "100.000000%+0 px",
+      "100.000000%+0px"
+    ],
+    "$show_background": false,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "visible": true
+  },
+  "merch_list_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "merch_1@netease_trade_sale_ui.merch_1": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "merch_shortcut_bg": {
+    "controls": [
+      {
+        "item_img@netease_trade_sale_ui.item_img": {}
+      }
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "3.301238%+0 px",
+      "16.0%+0px"
+    ],
+    "size": [
+      "13.7551576%+0 px",
+      "66.66667%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/box01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_stock_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 6,
+    "offset": [
+      "21.1829439%+0 px",
+      "36.6666675%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "61.0729039%+0 px",
+      "29.3333322%+0px"
+    ],
+    "text": "库存：999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "minus_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "25.000003%+0 px",
+      "25.000003%+0px"
+    ],
+    "size": [
+      "50.0%+0 px",
+      "50.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "namespace": "netease_trade_sale_ui",
+  "option_1": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "option_info_bg@netease_trade_sale_ui.option_info_bg": {}
+      },
+      {
+        "option_shortcut_bg@netease_trade_sale_ui.option_shortcut_bg": {}
+      },
+      {
+        "option_unit_text@netease_trade_sale_ui.option_unit_text": {}
+      },
+      {
+        "option_subtotal_text@netease_trade_sale_ui.option_subtotal_text": {}
+      },
+      {
+        "option_sale_text@netease_trade_sale_ui.option_sale_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 69,
+    "nine_slice_left": 50,
+    "nine_slice_right": 69,
+    "nine_slice_top": 50,
+    "offset": [
+      "0.542005431%+0 px",
+      "0.430107536%+0px"
+    ],
+    "size": [
+      "98.78049%+0 px",
+      "22.6881728%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel07@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_info_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "consequence_text@netease_trade_sale_ui.consequence_text": {}
+      },
+      {
+        "withdraw_btn@netease_trade_sale_ui.withdraw_btn": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0.548696844%+0 px",
+      "60.189575%+0px"
+    ],
+    "size": [
+      "98.902607%+0 px",
+      "37.9146934%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel06@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_sale_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "19.7530866%+0 px",
+      "37.9146934%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "60.90535%+0 px",
+      "20.85308%+0px"
+    ],
+    "text": "售出：10 / 32",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "option_shortcut_bg": {
+    "controls": [
+      {
+        "item_img@netease_trade_sale_ui.item_img": {}
+      }
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "3.292181%+0 px",
+      "7.582939%+0px"
+    ],
+    "size": [
+      "13.71742%+0 px",
+      "47.3933637%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/box01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_subtotal_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "option_subtotal_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_subtotal_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "option_subtotal_icon@netease_trade_sale_ui.option_subtotal_icon": {}
+      },
+      {
+        "option_subtotal_count_text@netease_trade_sale_ui.option_subtotal_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "15.54054%+0 px",
+      "-68.18182%+0px"
+    ],
+    "size": [
+      "45.045045%+0 px",
+      "227.272725%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "option_subtotal_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "option_subtotal_panel@netease_trade_sale_ui.option_subtotal_panel": {}
+      }
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "60.90535%+0 px",
+      "12.7962083%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "60.90535%+0 px",
+      "20.85308%+0px"
+    ],
+    "text": "收入：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "option_unit_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "option_unit_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_unit_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "option_unit_icon@netease_trade_sale_ui.option_unit_icon": {}
+      },
+      {
+        "option_unit_count_text@netease_trade_sale_ui.option_unit_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "15.54054%+0 px",
+      "-68.18182%+0px"
+    ],
+    "size": [
+      "45.045045%+0 px",
+      "227.272725%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "option_unit_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "option_unit_panel@netease_trade_sale_ui.option_unit_panel": {}
+      }
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "19.7530866%+0 px",
+      "12.7962083%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "60.90535%+0 px",
+      "20.85308%+0px"
+    ],
+    "text": "单价：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "panel_1": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "title_text@netease_trade_sale_ui.title_text": {}
+      },
+      {
+        "title_input_field@netease_trade_sale_ui.title_input_field": {}
+      },
+      {
+        "duration_text@netease_trade_sale_ui.duration_text": {}
+      },
+      {
+        "duration_minus_btn@netease_trade_sale_ui.duration_minus_btn": {}
+      },
+      {
+        "duration_plus_btn@netease_trade_sale_ui.duration_plus_btn": {}
+      },
+      {
+        "duration_edit_btn@netease_trade_sale_ui.duration_edit_btn": {}
+      },
+      {
+        "fee_text@netease_trade_sale_ui.fee_text": {}
+      },
+      {
+        "fee_bg@netease_trade_sale_ui.fee_bg": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-1.24575309%+0 px",
+      "-40.7894731%+0px"
+    ],
+    "size": [
+      "41.7893559%+0 px",
+      "74.530077%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "panel_2": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "slot_bg@netease_trade_sale_ui.slot_bg": {}
+      },
+      {
+        "currency_text@netease_trade_sale_ui.currency_text": {}
+      },
+      {
+        "left_btn@netease_trade_sale_ui.left_btn": {}
+      },
+      {
+        "right_btn@netease_trade_sale_ui.right_btn": {}
+      },
+      {
+        "currency_bg@netease_trade_sale_ui.currency_bg": {}
+      },
+      {
+        "unit_text@netease_trade_sale_ui.unit_text": {}
+      },
+      {
+        "unit_minus_btn@netease_trade_sale_ui.unit_minus_btn": {}
+      },
+      {
+        "unit_plus_btn@netease_trade_sale_ui.unit_plus_btn": {}
+      },
+      {
+        "unit_edit_btn@netease_trade_sale_ui.unit_edit_btn": {}
+      },
+      {
+        "qty_text@netease_trade_sale_ui.qty_text": {}
+      },
+      {
+        "qty_minus_btn@netease_trade_sale_ui.qty_minus_btn": {}
+      },
+      {
+        "qty_plus_btn@netease_trade_sale_ui.qty_plus_btn": {}
+      },
+      {
+        "qty_edit_btn@netease_trade_sale_ui.qty_edit_btn": {}
+      },
+      {
+        "resp_bg@netease_trade_sale_ui.resp_bg": {}
+      },
+      {
+        "mask_bg@netease_trade_sale_ui.mask_bg": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-1.24575309%+0 px",
+      "-40.7894731%+0px"
+    ],
+    "size": [
+      "41.7893559%+0 px",
+      "74.530077%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "panel_3": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "manage_view@netease_trade_sale_ui.manage_view": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-1.24575309%+0 px",
+      "-40.7894731%+0px"
+    ],
+    "size": [
+      "41.7893559%+0 px",
+      "87.4060154%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "panel_4": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "deal_list_view@netease_trade_sale_ui.deal_list_view": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-1.24575309%+0 px",
+      "-40.7894731%+0px"
+    ],
+    "size": [
+      "41.7893559%+0 px",
+      "87.4060154%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "panel_5": {
+    "anchor_from": "center",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "merch_bg@netease_trade_sale_ui.merch_bg": {}
+      },
+      {
+        "cost_text@netease_trade_sale_ui.cost_text": {}
+      },
+      {
+        "count_text@netease_trade_sale_ui.count_text": {}
+      },
+      {
+        "count_minus_btn@netease_trade_sale_ui.count_minus_btn": {}
+      },
+      {
+        "count_plus_btn@netease_trade_sale_ui.count_plus_btn": {}
+      },
+      {
+        "count_peak_btn@netease_trade_sale_ui.count_peak_btn": {}
+      },
+      {
+        "count_edit_btn@netease_trade_sale_ui.count_edit_btn": {}
+      },
+      {
+        "cost_resp_bg@netease_trade_sale_ui.cost_resp_bg": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-1.24575309%+0 px",
+      "-40.789488%+0px"
+    ],
+    "size": [
+      "41.7893559%+0 px",
+      "74.530077%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "peak_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "25.000003%+0 px",
+      "25.000003%+0px"
+    ],
+    "size": [
+      "50.0%+0 px",
+      "50.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "pinned_icon_1": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "22.2972974%+0 px",
+      "-21.4285716%+0px"
+    ],
+    "size": [
+      "54.05405%+0 px",
+      "57.14286%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon04@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "pinned_icon_2": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "22.2972974%+0 px",
+      "-21.4285716%+0px"
+    ],
+    "size": [
+      "54.05405%+0 px",
+      "57.14286%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon05@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "pinned_icon_3": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "22.2972974%+0 px",
+      "-21.4285716%+0px"
+    ],
+    "size": [
+      "54.05405%+0 px",
+      "57.14286%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon06@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "pinned_icon_4": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "22.2972974%+0 px",
+      "-21.4285716%+0px"
+    ],
+    "size": [
+      "54.05405%+0 px",
+      "57.14286%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon07@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "plus_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "25.000003%+0 px",
+      "25.000003%+0px"
+    ],
+    "size": [
+      "50.0%+0 px",
+      "50.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "price_count_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "27.5%+0 px",
+      "33.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "44.0%+0px"
+    ],
+    "text": "999999999",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "price_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "5.0%+0 px",
+      "30.0%+0px"
+    ],
+    "size": [
+      "20.0%+0 px",
+      "40.0%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "price_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "price_icon@netease_trade_sale_ui.price_icon": {}
+      },
+      {
+        "price_count_text@netease_trade_sale_ui.price_count_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "18.0180177%+0 px",
+      "-68.18182%+0px"
+    ],
+    "size": [
+      "45.045045%+0 px",
+      "227.272725%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "price_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "controls": [
+      {
+        "price_panel@netease_trade_sale_ui.price_panel": {}
+      }
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 6,
+    "offset": [
+      "55.57084%+0 px",
+      "36.6666675%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "61.0729039%+0 px",
+      "29.3333322%+0px"
+    ],
+    "text": "单价：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "qty_edit_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/input01@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "999999999",
+    "$pressed_texture": "textures/ui/netease_sale/input01@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "16.93767%+0 px",
+      "83.22825%+0px"
+    ],
+    "size": [
+      "27.10027%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "qty_minus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "minus_icon@netease_trade_sale_ui.minus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "1.35501353%+0 px",
+      "83.22825%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "qty_plus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "plus_icon@netease_trade_sale_ui.plus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "43.360433%+0 px",
+      "83.22825%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "qty_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0.9485095%+0 px",
+      "76.92308%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "21.6802165%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "出售数量：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "resp_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "resp_text@netease_trade_sale_ui.resp_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 31,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 50,
+    "nine_slice_right": 50,
+    "nine_slice_top": 0,
+    "offset": [
+      "-0.9485095%+0 px",
+      "94.57755%+0px"
+    ],
+    "size": [
+      "101.76152%+0 px",
+      "12.61034%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/panel03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "resp_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "2.13049259%+0 px",
+      "10.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "未知错误",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "rich_name_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.6309660993303571,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "2.21914016%+0 px",
+      "30.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "61.5811348%+0 px",
+      "55.0%+0px"
+    ],
+    "text": "购买者：丁叔叔",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "right_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "right_icon@netease_trade_sale_ui.right_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "81.97832%+0 px",
+      "34.5523328%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "right_icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "21.6666684%+0 px",
+      "20.8333328%+0px"
+    ],
+    "size": [
+      "58.33333%+0 px",
+      "58.33333%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/icon09@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "right_title_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "19.5356742%+0 px",
+      "-44.73684%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "28.31257%+0 px",
+      "4.699248%+0px"
+    ],
+    "text": "摊位",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "sale_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "left_title_text@netease_trade_sale_ui.left_title_text": {}
+      },
+      {
+        "right_title_text@netease_trade_sale_ui.right_title_text": {}
+      },
+      {
+        "close_btn@netease_trade_sale_ui.close_btn": {}
+      },
+      {
+        "interact_bg@netease_trade_sale_ui.interact_bg": {}
+      },
+      {
+        "panel_1@netease_trade_sale_ui.panel_1": {}
+      },
+      {
+        "panel_2@netease_trade_sale_ui.panel_2": {}
+      },
+      {
+        "panel_3@netease_trade_sale_ui.panel_3": {}
+      },
+      {
+        "panel_4@netease_trade_sale_ui.panel_4": {}
+      },
+      {
+        "panel_5@netease_trade_sale_ui.panel_5": {}
+      },
+      {
+        "btn_1@netease_trade_sale_ui.btn_1": {}
+      },
+      {
+        "btn_2@netease_trade_sale_ui.btn_2": {}
+      },
+      {
+        "btn_3@netease_trade_sale_ui.btn_3": {}
+      },
+      {
+        "btn_4@netease_trade_sale_ui.btn_4": {}
+      },
+      {
+        "select_panel@netease_trade_sale_ui.select_panel": {}
+      },
+      {
+        "empty_text@netease_trade_sale_ui.empty_text": {}
+      },
+      {
+        "calculator_panel@netease_trade_sale_ui.calculator_panel": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "91.9791666667%",
+      "98.5185185185%"
+    ],
+    "texture": "textures/ui/netease_sale/panel02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "calculator_panel": {
+    "anchor_from": "center",
+    "anchor_to": "bottom_left",
+    "controls": [
+      {
+        "num_1@netease_trade_sale_ui.num_1": {}
+      },
+      {
+        "num_2@netease_trade_sale_ui.num_2": {}
+      },
+      {
+        "num_3@netease_trade_sale_ui.num_3": {}
+      },
+      {
+        "num_4@netease_trade_sale_ui.num_4": {}
+      },
+      {
+        "num_5@netease_trade_sale_ui.num_5": {}
+      },
+      {
+        "num_6@netease_trade_sale_ui.num_6": {}
+      },
+      {
+        "num_7@netease_trade_sale_ui.num_7": {}
+      },
+      {
+        "num_8@netease_trade_sale_ui.num_8": {}
+      },
+      {
+        "num_9@netease_trade_sale_ui.num_9": {}
+      },
+      {
+        "num_0@netease_trade_sale_ui.num_0": {}
+      },
+      {
+        "C@netease_trade_sale_ui.C": {}
+      },
+      {
+        "OK@netease_trade_sale_ui.OK": {}
+      }
+    ],
+    "layer": 55,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "16.9875428%+0 px",
+      "37.5939846%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "num_0@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "0",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "33.3333343%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_1@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "1",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "-25.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_2@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "2",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "33.3333343%+0 px",
+      "-25.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_3@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "3",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "66.66667%+0 px",
+      "-25.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_4@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "4",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "-50.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_5@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "5",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "33.3333343%+0 px",
+      "-50.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_6@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "6",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "66.66667%+0 px",
+      "-50.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_7@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "7",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "-75.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_8@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "8",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "33.3333343%+0 px",
+      "-75.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "num_9@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "9",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "66.66667%+0 px",
+      "-75.0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "C@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "C",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "OK@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.7280378069196427,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "OK",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_hover@3x",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "66.66667%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "33.3333343%+0 px",
+      "25.0%+0px"
+    ],
+    "visible": true
+  },
+  "scope_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "sale_bg@netease_trade_sale_ui.sale_bg": {}
+      },
+      {
+        "alert_bg@netease_trade_sale_ui.alert_bg": {}
+      }
+    ],
+    "layer": 100,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "347.905px",
+      "195.6965625px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "select_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "bag_panel@netease_trade_sale_ui.bag_panel": {}
+      },
+      {
+        "merch_list_view@netease_trade_sale_ui.merch_list_view": {}
+      },
+      {
+        "merch_list_empty_text@netease_trade_sale_ui.merch_list_empty_text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "-27.1234423%+0 px",
+      "2.9135298%+0px"
+    ],
+    "size": [
+      "41.7893559%+0 px",
+      "87.4060154%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "item_img": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "custom",
+    "visible": true,
+    "renderer": "inventory_item_renderer"
+  },
+  "slot_bg": {
+    "controls": [
+      {
+        "item_img@netease_trade_sale_ui.item_img": {}
+      }
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "39.9728984%+0 px",
+      "5.0441362%+0px"
+    ],
+    "size": [
+      "21.6802165%+0 px",
+      "20.1765448%+0px"
+    ],
+    "texture": "textures/ui/netease_sale/box01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "input_text_field@common.text_edit_box": {
+    "$edit_box_default_texture": "textures/ui/edit_box_indent",
+    "$edit_box_hover_texture": "textures/ui/edit_box_indent_hover",
+    "$font_size": "normal",
+    "$is_new_nine_slice": false,
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$place_holder_text": "",
+    "$place_holder_text_color": [
+      0.50,
+      0.50,
+      0.50
+    ],
+    "$text_background_default": "netease_trade_sale_ui.edit_box_background_default",
+    "$text_background_hover": "netease_trade_sale_ui.edit_box_background_hover",
+    "$text_box_name": "%netease_trade_sale_ui.set_input_string",
+    "$text_box_text_color": [
+      1,
+      1,
+      1
+    ],
+    "$text_edit_box_content_binding_name": "#netease_trade_sale_ui.get_input_string",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "enabled_newline": false,
+    "layer": 1,
+    "max_length": 10,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "type": "edit_box",
+    "visible": true
+  },
+  "title_input_field": {
+    "controls": [
+      {
+        "input_text_field@netease_trade_sale_ui.input_text_field": {}
+      }
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "offset": [
+      "1.35501353%+0 px",
+      "8.82723853%+0px"
+    ],
+    "size": [
+      "97.56098%+0 px",
+      "15.1324078%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "title_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "plain_text_bg@netease_trade_sale_ui.plain_text_bg": {}
+      }
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0.9485095%+0 px",
+      "2.01765448%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "48.78049%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "摊位名称：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "unit_edit_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/input01@3x",
+    "$hover_texture": "textures/ui/netease_sale/input01@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "999999999",
+    "$pressed_texture": "textures/ui/netease_sale/input01@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "16.93767%+0 px",
+      "58.51198%+0px"
+    ],
+    "size": [
+      "27.10027%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "unit_minus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "minus_icon@netease_trade_sale_ui.minus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "1.35501353%+0 px",
+      "58.51198%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "unit_plus_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+    "$label_font_scale_factor": 0.8008415876116071,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$pressed_texture": "textures/ui/netease_sale/btn01_click@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      },
+      {
+        "plus_icon@netease_trade_sale_ui.plus_icon": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 11,
+    "offset": [
+      "43.360433%+0 px",
+      "58.51198%+0px"
+    ],
+    "size": [
+      "16.260162%+0 px",
+      "15.1324078%+0px"
+    ],
+    "visible": true
+  },
+  "unit_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.7280378069196427,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0.9485095%+0 px",
+      "51.7024%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "21.6802165%+0 px",
+      "5.0441362%+0px"
+    ],
+    "text": "单价：",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "withdraw_btn@common.button": {
+    "$default_texture": "textures/ui/netease_sale/btn01@3x",
+    "$hover_texture": "textures/ui/netease_sale/btn01@3x",
+    "$is_new_nine_slice": true,
+	"$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$label_color": [
+            0.25882352941176473,
+            0.25882352941176473,
+            0.25882352941176473
+          ],
+    "$label_font_scale_factor": 0.6309660993303571,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "下架",
+    "$pressed_texture": "textures/ui/netease_sale/btn01@3x",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_sale_ui.default": {}
+      },
+      {
+        "hover@netease_trade_sale_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_sale_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_sale_ui.button_label": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 10,
+    "offset": [
+      "77.13731%+0 px",
+      "13.75%+0px"
+    ],
+    "size": [
+      "20.643551%+0 px",
+      "75.0%+0px"
+    ],
+    "visible": true
+  }
+}

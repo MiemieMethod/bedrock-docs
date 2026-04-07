@@ -1,0 +1,18 @@
+{
+    object "hitboxes" : opt
+    {
+        vec3 "pivot" : opt // In local coordinates, where the hitbox is positioned.
+        float "width" : opt // Width of the hitbox. Must not be negative.
+        float "height" : opt // Height of the hitbox. Must not be negative.
+    }
+    array "hitboxes" : opt
+    {
+        object "<any array element>" : opt
+        {
+            vec3 "pivot" : opt // In local coordinates, where the hitbox is positioned.
+            float "width" : opt // Width of the hitbox. Must not be negative.
+            float "height" : opt // Height of the hitbox. Must not be negative.
+        }
+    }
+}
+

@@ -1,0 +1,147 @@
+{
+  "namespace": "netease_trade_bag_ui",
+  "bagGrid": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_rescaling_type": "horizontal",
+    "collection_name": "bag_grid",
+    "grid_item_template": "netease_trade_bag_ui.itemBtn",
+    "layer": 1,
+    "maximum_grid_items": 36,
+    "size": [
+      "100%",
+      "default"
+    ],
+    "type": "grid",
+    "visible": true
+  },
+  "itemBtn@common.button": {
+    "$default_texture": "textures/ui/netease_bag/bg_frame_01",
+    "$hover_texture": "textures/ui/netease_bag/bg_frame_01",
+    "$pressed_button_name": "%netease_trade_sale_ui.opt",
+    "$pressed_texture": "textures/ui/netease_bag/bg_frame_01",
+    "$texture_layer": 2,
+    "$item_button_anchor_from|default": "center",
+    "$item_button_anchor_to|default": "center",
+    "anchor_from": "$item_button_anchor_from",
+    "anchor_to": "$item_button_anchor_to",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "controls": [
+      {
+        "selectedImg@netease_trade_bag_ui.selectedImg": {}
+      },
+      {
+        "default@netease_trade_bag_ui.default": {}
+      },
+      {
+        "hover@netease_trade_bag_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_bag_ui.pressed": {}
+      },
+      {
+        "itemImg@netease_trade_bag_ui.itemImg": {}
+      }
+    ],
+    "$item_button_layer|default": 1,
+    "$item_button_offset|default": [
+      0,
+      0
+    ],
+    "$item_button_size|default": [
+      20.3,
+      20.3
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "layer": "$item_button_layer",
+    "offset": "$item_button_offset",
+    "pressed_control": "pressed",
+    "size": "$item_button_size",
+    "type": "button",
+    "visible": true
+  },
+  "itemImg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "itemNum@netease_trade_bag_ui.itemNum": {}
+      }
+    ],
+    "layer": 3,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "85.71428571428571%",
+      "85.71428571428571%"
+    ],
+    "type": "custom",
+    "visible": true,
+    "renderer": "inventory_item_renderer"
+  },
+  "itemNum": {
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "font_scale_factor": 0.6523218749999999,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 4,
+    "offset": [
+      1.6,
+      4
+    ],
+    "shadow": true,
+    "size": [
+      "50%",
+      "50%"
+    ],
+    "text": "",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "selectedImg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 5,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "114.28571428571428%",
+      "114.28571428571428%"
+    ],
+    "texture": "textures/ui/netease_bag/bg_frame_02",
+    "type": "image",
+    "nineslice_size": 4,
+    "visible": false
+  },
+  "pressed": {
+    "layer": "$texture_layer",
+    "texture": "$pressed_texture",
+    "type": "image",
+    "nineslice_size": 1
+  },
+  "hover": {
+    "layer": "$texture_layer",
+    "texture": "$hover_texture",
+    "type": "image",
+    "nineslice_size": 1
+  },
+  "default": {
+    "layer": "$texture_layer",
+    "texture": "$default_texture",
+    "type": "image",
+    "nineslice_size": 1
+  }
+}

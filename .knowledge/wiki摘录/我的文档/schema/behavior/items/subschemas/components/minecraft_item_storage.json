@@ -1,0 +1,28 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "capacity",
+        "type": {
+          "name": "integer"
+        },
+        "details": {
+          "default_value": 64
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

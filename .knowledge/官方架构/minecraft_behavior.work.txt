@@ -1,0 +1,16 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "sound_delay_min" : opt
+    int "sound_delay_max" : opt
+    int "goal_cooldown" : opt
+    int "active_time" : opt
+    bool "can_work_in_rain" : opt
+    int "work_in_rain_tolerance" : opt
+     "on_arrival" : opt
+    float "speed_multiplier" : opt
+}
+

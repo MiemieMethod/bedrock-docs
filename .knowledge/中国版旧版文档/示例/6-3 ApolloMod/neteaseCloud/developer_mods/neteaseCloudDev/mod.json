@@ -1,0 +1,69 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseCloudDev",
+   "_comment": "插件版本",
+  "netgame_mod_version": "1.0.5",
+   "_comment": "最低引擎版本",
+  "min_app_version": "1.17.0.release20200528",
+   "_comment": "插件实现的功能",
+  "description": "实现云端玩家信息功能，可以将本服背包、装备、状态效果、左右手物品同步到其他服",
+   "_comment": "列表，支持的服务器类型，包括game/lobby/master几种类型",
+  "support_server_type": ["lobby","game"],
+   "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+   "_comment": "所属插件组合的名字，云端玩家信息插件由Master插件，lobby/game插件组合而成",
+  "group": "neteaseCloud",
+
+  "_comment": "不同类型服务器玩家数据处理方式",
+  "servers_conf": {
+    "_comment": "服务器类型",
+    "lobby": {
+      "_comment": "信息处理方式，包含三种：0表示不做任何处理；1表示不使用和同步云端玩家信息，且进入服务器时清空本地信息（可配置清空的信息类型），离开服务器时特定类型的物品通过邮件发送给玩家, 2表示使用云端玩家信息，可配置要使用的云端信息类型，进入服务器（包括登录和切换）时会同步云端信息到本地，而且信息变化时会同步到云端。",
+      "process_type" : 0,
+
+      "_comment": "数据适用的tag，当云端插件用于不同服务器类型时生效。tag相同的云端插件数据共通",
+      "apply_tag": "tag0"
+    },
+
+    "_comment": "服务器类型",
+    "gameA" : {
+      "_comment": "信息处理方式，1表示进入服务器时清空玩家本地信息，离开服务器时把特定类型的物品邮件发送给玩家。gameA类型服务器必须部署公告插件，公告插件部署方式可以参见公告插件说明",
+      "process_type" : 1,
+
+      "_comment": "需要清除信息类型，包括inventory、armor、hands、effect，分表表示背包、装备、左右手物品、状态效果（如漂浮、隐身、伤害吸收等等）",
+      "_comment": "示例：一些玩法地图可以重复玩，玩家上一局的本地背包里有1把钻石剑、1个隐身状态效果，配置清空所有信息，那么下一次进来时，钻石剑和隐身状态效果都会被清掉",
+      "clear_types" : ["inventory", "hands"],
+
+      "_comment": "保留物品类型列表，配置形式为minecraft:wool:1，1是auxValue。玩家退出游戏后，这类型物品会通过邮件发给玩家，玩家再次登录即可领取。注意，针对自定义物品/装备，要求所在服务器存在这个物品，否则该物品/装备不生效",
+      "_comment": "保留特定类型的物品，需包括装备栏、盾牌栏内的物品，比如保留钻石头盔，那么离开服务器时，如果玩家身上穿着钻石头盔，也需将其发送给玩家",
+      "save_item_names" : ["minecraft:wool:1"],
+
+      "_comment": "邮件名字",
+      "mail_title": "邮件名字test",
+
+      "_comment": "邮件内容",
+      "mail_content": "邮件内容test",
+
+      "_comment": "发送人",
+      "mail_sender": "发送人test",
+
+      "_comment": "邮件保留时间，单位秒",
+      "mail_expire": 86400,
+
+      "_comment": "数据适用的tag，当云端插件用于不同服务器类型时生效。tag相同的云端插件数据共通",
+      "apply_tag": "tag0"
+    },
+
+    "_comment": "服务器类型",
+    "gameB" : {
+      "_comment": "信息处理方式，2表示使用云端玩家信息，可配置要使用的云端信息类型，进入服务器（包括登录和切换）时会同步云端信息到本地，而且信息变化时会同步到云端。",
+      "process_type" : 2,
+
+      "_comment": "需要保存的信息类型，包括inventory、armor、hands、effect、extraData，分表表示背包、装备、左手物品和右手持有物品在快捷栏位置、状态效果（如漂浮、隐身、伤害吸收等等）、额外数据（SetExtraData API设置的玩家数据）",
+      "save_types" : ["inventory", "hands", "effect", "armor", "extraData"],
+
+      "_comment": "数据适用的tag，当云端插件用于不同服务器类型时生效。tag相同的云端插件数据共通",
+      "apply_tag": "tag0"
+    }
+  }
+}

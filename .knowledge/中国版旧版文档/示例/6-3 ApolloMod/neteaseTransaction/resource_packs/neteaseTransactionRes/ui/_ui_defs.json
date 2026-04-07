@@ -1,0 +1,7 @@
+{
+  "ui_defs": [
+    "ui/transactionCommonUI.json",
+    "ui/transactionScreenUI.json",
+    "ui/transactionHudUI.json"
+  ]
+}

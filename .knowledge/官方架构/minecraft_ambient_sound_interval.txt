@@ -1,0 +1,14 @@
+{
+    float "value" : opt
+    float "range" : opt
+    string "event_name" : opt
+    array "event_names" : opt
+    {
+        object "<any array element>" : opt
+        {
+            molang "condition" : opt
+            string "event_name" : opt
+        }
+    }
+}
+

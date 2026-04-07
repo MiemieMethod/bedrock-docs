@@ -1,0 +1,86 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.1"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.000000 1.000000 0.752941 0.000000",
+        "time": "0.0"
+      },
+      {
+        "color": "1.000000 1.000000 0.415686 0.410714",
+        "time": "0.26842105263157895"
+      },
+      {
+        "color": "1.000000 0.843137 0.447059 0.375000",
+        "time": "0.5973684210526315"
+      },
+      {
+        "color": "1.000000 0.992157 0.862745 0.000000",
+        "time": "1.0"
+      }
+    ],
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "1.0",
+      "min": "1.0"
+    },
+    "emitterscale": [
+
+    ],
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "inactivetime": {
+      "value": "0.1"
+    },
+    "layer": 0,
+    "numparticles": {
+      "value": "1"
+    },
+    "particlesize": {
+      "max": "1.4 1.4",
+      "min": "1.4 1.4"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.08 1.08",
+        "time": "0.0"
+      },
+      {
+        "scale": "1.08 1.08",
+        "time": "0.4"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/e_mc_star06"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.0",
+      "min": "0.0"
+    }
+  }
+}

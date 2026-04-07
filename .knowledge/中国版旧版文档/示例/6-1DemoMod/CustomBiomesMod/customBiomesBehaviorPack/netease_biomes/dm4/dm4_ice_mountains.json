@@ -1,0 +1,12 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm4_ice_mountains", 
+            "inherits": "ice_mountains"
+        },
+        "components": {
+            "dm4": {}
+        }
+    }
+}

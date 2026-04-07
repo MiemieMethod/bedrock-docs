@@ -1,0 +1,5 @@
+{
+    float "radius" : opt // Keeps track of entity group size in the given radius inclusive of the entity itself.
+     "filters" : opt
+}
+

@@ -1,0 +1,29 @@
+{
+    object "set_property" : opt
+    {
+        molang "<scope_identifier>" : opt
+    }
+    object "queue_command" : opt
+    {
+        string "command" : opt
+        array "command" : opt
+        {
+            string "<any array element>" : opt
+        }
+        enumerated_value "target" : opt
+    }
+    object "emit_vibration" : opt
+    {
+        string "vibration"
+    }
+    object "run_command" : opt
+    {
+        string "command" : opt
+        array "command" : opt
+        {
+            string "<any array element>" : opt
+        }
+        enumerated_value "target" : opt
+    }
+}
+

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Addup",
+        "uuid": "69cb3fb7-f61b-4e7c-a403-4fac01a3d6ee",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "a37afb32-8096-4320-b371-262d38d377c3",
+            "version": [0, 0, 1]
+        }
+    ]
+}

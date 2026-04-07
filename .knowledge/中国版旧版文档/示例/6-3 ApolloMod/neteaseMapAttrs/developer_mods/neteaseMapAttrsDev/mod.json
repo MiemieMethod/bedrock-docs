@@ -1,0 +1,55 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseMapAttrs",
+
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.2",
+
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.17.0.release20200430",
+
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["game", "lobby"],
+
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseMapAttrs",
+
+  "_comment": "是否开启主城保护",
+  "open_map_protect": true,
+  "_comment": "是否禁止藤蔓生长",
+  "forbid_vine_spread": true,
+  "_comment": "是否禁止流体流动",
+  "forbid_liquid_flow": true,
+
+  "_comment": "是否定时清理掉落物",
+  "enable_clean_drop_item": true,
+  "_comment": "定时清理掉落物间隔",
+  "clean_drop_item_interval": 5,
+
+  "_comment": "浮空字",
+  "text_with_place_list": [
+    {"text":"this-is-board-1", "pos":[0.0, 6, 0]},
+    {"text":"this-is-board-2", "pos":[6.0, 6, 0]},
+    {"text":"this-is-board-3", "pos":[0.0, 6, 6]},
+    {"text":"this-is-board-4", "pos":[0.0, 6, -6]}
+  ],
+
+  "_comment": "地图边界",
+  "map_area_limit": [[-1000,-1000,-3000], [7000,5000,3000]],
+
+  "_comment": "是否禁止玩家丢弃物品",
+  "forbid_drop_item": true,
+  "_comment": "是否禁止玩家捡起物品",
+  "forbid_pickup_item": true,
+
+  "_comment": "可以改变地图结构的uid，服主请配置自己的uid",
+  "change_uid": 2147585411,
+
+  "_comment": "改变地图结构的维度",
+  "change_map_dimension": 0
+
+
+}

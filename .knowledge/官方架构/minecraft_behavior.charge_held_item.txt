@@ -1,0 +1,12 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    array "items"
+    {
+        string "<any array element>"
+    }
+}
+

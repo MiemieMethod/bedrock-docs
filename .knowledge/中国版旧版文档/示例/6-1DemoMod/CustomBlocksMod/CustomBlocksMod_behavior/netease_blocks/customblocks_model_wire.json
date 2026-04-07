@@ -1,0 +1,99 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+   "description": {
+     "identifier": "customblocks:customblocks_model_wire",
+	 "register_to_creative_menu": true,
+	 "is_experimental": false,
+	 "category": "custom"
+   },
+   "components": {
+	  "minecraft:block_light_absorption":{
+		"value": 0
+	  },
+	  "netease:aabb": {
+	    "collision": [
+			{
+			  "min": [0.375, 0.375, 0.375],
+			  "max": [0.625, 0.625, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(0)",
+			  "min": [0.375, 0.0, 0.375],
+			  "max": [0.625, 0.375, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(1)",
+			  "min": [0.375, 0.625, 0.375],
+			  "max": [0.625, 1.0, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(2)",
+			  "min": [0.375, 0.375, 0.0],
+			  "max": [0.625, 0.625, 0.375]
+			},
+			{
+			  "enable": "query.is_connect(3)",
+			  "min": [0.375, 0.375, 0.625],
+			  "max": [0.625, 0.625, 1.0]
+			},
+			{
+			  "enable": "query.is_connect(4)",
+			  "min": [0.0, 0.375, 0.375],
+			  "max": [0.375, 0.625, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(5)",
+			  "min": [0.625, 0.375, 0.375],
+			  "max": [1.0, 0.625, 0.625]
+			}
+		],
+	    "clip": [
+			{
+			  "min": [0.375, 0.375, 0.375],
+			  "max": [0.625, 0.625, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(0)",
+			  "min": [0.375, 0.0, 0.375],
+			  "max": [0.625, 0.375, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(1)",
+			  "min": [0.375, 0.625, 0.375],
+			  "max": [0.625, 1.0, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(2)",
+			  "min": [0.375, 0.375, 0.0],
+			  "max": [0.625, 0.625, 0.375]
+			},
+			{
+			  "enable": "query.is_connect(3)",
+			  "min": [0.375, 0.375, 0.625],
+			  "max": [0.625, 0.625, 1.0]
+			},
+			{
+			  "enable": "query.is_connect(4)",
+			  "min": [0.0, 0.375, 0.375],
+			  "max": [0.375, 0.625, 0.625]
+			},
+			{
+			  "enable": "query.is_connect(5)",
+			  "min": [0.625, 0.375, 0.375],
+			  "max": [1.0, 0.625, 0.625]
+			}
+		]
+	  },
+	  "netease:solid": {
+	    "value": false
+	  },
+	  "netease:pathable": {
+	    "value": true
+	  },
+	  "netease:connection": {
+		"blocks": ["minecraft:furnace", "customblocks:customblocks_model_wire", "minecraft:grass"]
+	  }
+    }
+  }
+}

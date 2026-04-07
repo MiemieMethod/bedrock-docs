@@ -1,0 +1,152 @@
+{
+   "carousel_bg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "carousel_lbl@netease_announce_carouselUI.carousel_lbl" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ "0%+0 px", "-35.0%+0px" ],
+      "size" : [ "219.0 px", "15.0px" ],
+      "texture" : "textures/ui/panel06@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "carousel_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.205357142857143,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "0%+0 px", "26.6666681%+0px" ],
+      "shadow" : false,
+      "size" : [ "218.25 px", "17.5px" ],
+      "text" : "恭喜小丸子人品爆发，获得了SSR大天狗",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "carousel_pnl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "carousel_bg@netease_announce_carouselUI.carousel_bg" : {}
+         }
+      ],
+      "layer" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ "320px", "180px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "img_base_carousel" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_carousel@netease_announce_carouselUI.lb_carousel" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0.0, 29.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 180.0, 13.0 ],
+      "texture" : "textures/ui/netease_announce/panel06@3x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "lb_carousel" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 177.0, 8.0 ],
+      "text" : "恭喜小丸子人品爆发，获得了SSR大天狗 ",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "main_pnl@netease_announce_carouselUI.main_pnl" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "main_pnl" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_base_carousel@netease_announce_carouselUI.img_base_carousel" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "namespace" : "netease_announce_carouselUI"
+}

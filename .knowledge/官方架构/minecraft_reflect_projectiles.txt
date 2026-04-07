@@ -1,0 +1,11 @@
+{
+    array "reflected_projectiles" : opt
+    {
+        string "<any array element>" : opt
+    }
+    molang "azimuth_angle" : opt
+    molang "elevation_angle" : opt
+    molang "reflection_scale" : opt
+    string "reflection_sound" : opt
+}
+

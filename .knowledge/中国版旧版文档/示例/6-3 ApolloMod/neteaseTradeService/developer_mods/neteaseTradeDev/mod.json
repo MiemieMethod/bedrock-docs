@@ -1,0 +1,211 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseTradeService",
+  "_comment": "插件版本",
+  "netgame_mod_version": "2.0.10",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.22.0.release20210513",
+  "_comment": "插件实现的功能",
+  "description": "经济插件用于服主管理货币和商店",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "service"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，经济插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseTrade",
+  "_comment": "配置service使用到的module_names，对应deploy.json中service下module_names配置",
+  "module_names": [
+    "neteaseTrade"
+  ],
+  "_comment": "以下为可配置项",
+  "_comment": "货币大列表",
+  "Doughs": [
+    {
+      "_comment": "货币类型，字符串ID，该种类货币的唯一标识",
+      "dough_id": "RMB",
+      "_comment": "该种类货币的描述",
+      "dough_desc": "人民币",
+      "_comment": "该种类货币的贴图路径，必须已存在于资源文件夹下，货币的贴图资源必须为正方形，例如现在预设的金币贴图为40*40",
+      "dough_icon": "textures/ui/netease_trade/icon03@3x.png",
+      "_comment": "新玩家登录获得该种类货币的初始值",
+      "dough_default": 0,
+      "_comment": "玩家持有该种类货币的上限值",
+      "dough_limit": 99999999
+    },
+    {
+      "dough_id": "USD",
+      "dough_desc": "美金",
+      "dough_icon": "textures/ui/netease_trade/icon03@3x.png",
+      "dough_default": 0,
+      "dough_limit": 99999999
+    }
+  ],
+  "_comment": "商店大列表",
+  "Groceries": [
+    {
+      "_comment": "配置一个普通商店，支持配置使用的货币，可以用API控制商店界面的显示",
+      "_comment": "可以通过配置多个不同的普通商店，并且控制不同服务器类型下打开的具体商店品类，来调整不同服务器下可见的商品和可使用的货币",
+      "_comment": "商店类型，字符串ID，该种类商店的唯一标识",
+      "grocery_id": "DRUGS",
+      "_comment": "商店的名称，用于界面显示",
+      "grocery_desc": "好货",
+      "_comment": "商店界面右上角需要展示的货币类型",
+      "grocery_doughs": [
+        "RMB",
+        "USD"
+      ],
+      "_comment": "该商店类型的商品列表",
+      "grocery_goods": [
+        {
+          "_comment": "该商品于该商店下的唯一标识，字符串ID",
+          "good_id": "REAL",
+          "_comment": "该商品显示在界面的名称",
+          "good_desc": "一发入魂",
+          "_comment": "该商品对应MC内物品的道具ID",
+          "good_item_id": "minecraft:wool:1",
+          "_comment": "该商品购买一次获得的道具数量",
+          "good_item_count": 1,
+          "_comment": "该商品显示在界面的图标",
+          "good_icon": "textures/ui/netease_trade/img05.png",
+          "_comment": "以下为新版价格配置，支持配置的货币种类为《商店界面右上角需要展示的货币类型》中的一种或多种",
+          "_comment": "下面示例配置代表该商品需要128个RMB加上68个USD才可以购买",
+          "good_cost": {
+            "RMB": 128,
+            "USD": 68
+          },
+          "_comment": "该商品在刷新该商店刷新周期内的限购次数",
+          "good_limit": 10
+        },
+        {
+          "good_id": "FAKE",
+          "good_desc": "五连绝世",
+          "good_item_id": "minecraft:wool:0",
+          "good_item_count": 5,
+          "good_icon": "textures/ui/netease_trade/img05.png",
+          "good_dough": "USD",
+          "good_price": 648,
+          "good_cost": {
+            "USD": 648
+          },
+          "good_limit": 10
+        }
+      ],
+      "_comment": "该商店的刷新策略（0：不刷新，1：每日刷新，2：每周刷新，3：每月刷新），主要用于刷新商品限购",
+      "grocery_update_policy": 0,
+      "_comment": "根据上一行填写的刷新策略来生效的刷新时间点",
+      "_comment": "根据刷新方式不同，可配置不同的刷新时刻，如每日刷新（只填到小时，例：13就是每日13点刷新），每周刷新（填周几（周日为0周六为6）-小时，例：0-13就是每周日13点刷新），每月刷新（填月第几天-小时，例：31-13就是每月31号13点刷新，超过月天数上限则为该月最后一天）",
+      "grocery_update_time": 0,
+      "_comment": "该商店界面的刷新提示文本",
+      "grocery_update_desc": ""
+    },
+    {
+      "_comment": "配置一个领地插件专属商店，可配置新建领地和转移领地坐标需要消耗的货币",
+      "_comment": "可以通过配置多个不同的领地插件专属商店，调整不同服务器类型下，新建领地和转移领地坐标的消耗",
+      "_comment": "唯一的商店名称，和领地商店对应的【grocery_id】一致",
+      "grocery_id": "RESIDENCE_A",
+      "grocery_desc": "此配置在领地插件专属商店中无效",
+      "_comment": "用到的货币类型",
+      "grocery_doughs": [
+        "RMB",
+        "USD"
+      ],
+      "grocery_goods": [
+        {
+          "_comment": "对应新建领地消耗的商品，名称固定为【RESIDENCE_OPEN】",
+          "good_id": "RESIDENCE_OPEN",
+          "_comment": "以下四项配置在领地插件专属商店中无效，但不能为空",
+          "good_desc": "此配置在领地插件专属商店中无效",
+          "good_item_id": "此配置在领地插件专属商店中无效",
+          "good_item_count": 1,
+          "good_icon": "此配置在领地插件专属商店中无效",
+          "_comment": "购买该商品所需货币的ID（只支持一种），对应grocery_doughs中的货币ID，这个货币ID就是用来解锁领地花费的货币，必须正确",
+          "good_cost": {
+            "RMB": 10
+          }
+        },
+        {
+          "_comment": "对应转移领地坐标消耗的商品，名称固定为【RESIDENCE_CHANGE】",
+          "good_id": "RESIDENCE_CHANGE",
+          "_comment": "以下四项配置在领地插件专属商店中无效，但不能为空",
+          "good_desc": "此配置在领地插件专属商店中无效",
+          "good_item_id": "此配置在领地插件专属商店中无效",
+          "good_item_count": 1,
+          "good_icon": "此配置在领地插件专属商店中无效",
+          "_comment": "购买该商品所需货币的ID（只支持一种），对应grocery_doughs中的货币ID，这个货币ID就是用来修改领地花费的货币，必须正确",
+          "good_cost": {
+            "USD": 10
+          }
+        }
+      ],
+      "_comment": "以下配置在领地插件专属商店中无效，但不能为空",
+      "grocery_update_policy": 0,
+      "grocery_update_time": 0,
+      "grocery_update_desc": ""
+    },
+    {
+      "_comment": "配置一个领地插件专属商店，可配置新建领地和转移领地坐标需要消耗的货币",
+      "_comment": "可以通过配置多个不同的领地插件专属商店，调整不同服务器类型下，新建领地和转移领地坐标的消耗",
+      "_comment": "唯一的商店名称，和领地商店对应的【grocery_id】一致",
+      "grocery_id": "RESIDENCE_B",
+      "grocery_desc": "此配置在领地插件专属商店中无效",
+      "_comment": "用到的货币类型",
+      "grocery_doughs": [
+        "RMB",
+        "USD"
+      ],
+      "grocery_goods": [
+        {
+          "_comment": "对应新建领地消耗的商品，名称固定为【RESIDENCE_OPEN】",
+          "good_id": "RESIDENCE_OPEN",
+          "_comment": "以下四项配置在领地插件专属商店中无效，但不能为空",
+          "good_desc": "此配置在领地插件专属商店中无效",
+          "good_item_id": "此配置在领地插件专属商店中无效",
+          "good_item_count": 1,
+          "good_icon": "此配置在领地插件专属商店中无效",
+          "_comment": "购买该商品所需货币的ID（只支持一种），对应grocery_doughs中的货币ID，这个货币ID就是用来解锁领地花费的货币，必须正确",
+          "good_cost": {
+            "RMB": 100
+          }
+        },
+        {
+          "_comment": "对应转移领地坐标消耗的商品，名称固定为【RESIDENCE_CHANGE】",
+          "good_id": "RESIDENCE_CHANGE",
+          "_comment": "以下四项配置在领地插件专属商店中无效，但不能为空",
+          "good_desc": "此配置在领地插件专属商店中无效",
+          "good_item_id": "此配置在领地插件专属商店中无效",
+          "good_item_count": 1,
+          "good_icon": "此配置在领地插件专属商店中无效",
+          "_comment": "购买该商品所需货币的ID（只支持一种），对应grocery_doughs中的货币ID，这个货币ID就是用来修改领地花费的货币，必须正确",
+          "good_cost": {
+            "USD": 100
+          }
+        }
+      ],
+      "_comment": "以下配置在领地插件专属商店中无效，但不能为空",
+      "grocery_update_policy": 0,
+      "grocery_update_time": 0,
+      "grocery_update_desc": ""
+    }
+  ],
+  "_comment": "摆摊相关的配置，由于摆摊的出售和购买都是全局的，所以目前开启摆摊的消耗货币的种类和数量也是全局配置的，不支持不同服务器类型消耗不同",
+  "_comment": "可以在game端的经济插件配置中，控制不同服务器的可摆摊的区域",
+  "Sales": {
+    "_comment": "个人摊位商品上限",
+    "merch_count_limit": 8,
+    "_comment": "商品可设置的货币类型",
+    "sale_doughs": [
+      "RMB",
+      "USD"
+    ],
+    "_comment": "单次摆摊时长上限，单位为小时",
+    "sale_time_limit": 24,
+    "_comment": "单件商品售价上限",
+    "unit_price_limit": 999999,
+    "_comment": "摆摊一小时所需的费用",
+    "hourly_fee": 10,
+    "_comment": "摆摊扣除费用的货币类型",
+    "fee_dough": "USD"
+  }
+}

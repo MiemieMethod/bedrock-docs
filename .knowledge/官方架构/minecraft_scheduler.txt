@@ -1,0 +1,9 @@
+{
+    array "scheduled_events" : opt
+    {
+         "<any array element>" : opt
+    }
+    float "min_delay_secs" : opt
+    float "max_delay_secs" : opt
+}
+

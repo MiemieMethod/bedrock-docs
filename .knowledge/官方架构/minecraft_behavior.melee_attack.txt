@@ -1,0 +1,29 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    bool "attack_once" : opt
+    bool "require_complete_path" : opt
+    bool "track_target" : opt
+    int "random_stop_interval" : opt
+    float "cooldown_time" : opt
+    float "min_path_time" : opt
+    float "max_path_time" : opt
+    float "path_fail_time_increase" : opt
+    float "inner_boundary_time_increase" : opt
+    float "outer_boundary_time_increase" : opt
+    float "path_inner_boundary" : opt
+    float "path_outer_boundary" : opt
+    float "melee_fov" : opt
+    float "x_max_rotation" : opt
+    float "y_max_head_rotation" : opt
+    float "speed_multiplier" : opt
+    string "attack_types" : opt
+     "on_attack" : opt
+     "on_kill" : opt
+    bool "can_spread_on_fire" : opt
+    float "reach_multiplier" : opt
+}
+

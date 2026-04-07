@@ -1,0 +1,37 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseSquadService",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.8",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+  "_comment": "插件实现的功能",
+  "description": "组队系统",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "service"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseSquad",
+  "_comment": "配置service使用到的module_names，对应deploy.json中service下module_names配置",
+  "module_names": [
+    "neteaseSquad"
+  ],
+  "_comment": "以下为可配置项",
+  "_comment": "队伍人数上限，默认为5，小于1视为5处理",
+  "SquadMemberCountLimit": 5,
+  "_comment": "队伍申请列表人数上限，默认为5，小于1视为5处理",
+  "SquadApplicantCountLimit": 5,
+  "_comment": "队伍发布招募操作间隔，单位为秒，默认为5，小于1视为5处理",
+  "SquadRecruitCD": 5,
+  "_comment": "队伍召集队员操作间隔，单位为秒，默认为5，小于1视为5处理",
+  "SquadAssembleCD": 5,
+  "_comment": "禁止召集队友的服务器类型",
+  "AssembleForbiddenServerKinds": [],
+  "_comment": "禁止离开队伍的服务器类型",
+  "LeaveForbiddenServerKinds": [],
+  "_comment": "招募队伍显示限制，-1为不限制",
+  "RecruitmentShowLimit": -1
+}

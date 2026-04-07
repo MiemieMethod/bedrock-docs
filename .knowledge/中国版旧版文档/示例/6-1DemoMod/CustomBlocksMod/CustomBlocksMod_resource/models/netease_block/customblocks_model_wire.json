@@ -1,0 +1,206 @@
+{
+	"format_version": "1.13.0",
+	"netease:block_geometry": 
+		{
+			"description": {
+				"identifier": "customblocks:customblocks_model_wire",
+				"textures": ["customblocks:customblocks_model_wire"],	//模型的贴图
+				"item_texture": "customblocks:customblocks_model_wire_item",	//物品形式不用模型渲染，而使用面片渲染的贴图
+				"use_ao": true	//开启环境光遮蔽
+			},
+			"bones": [
+				// 这里为了优化，将root拆为6个骨骼，每个骨骼包含一个面
+				{
+					"name": "root_down",
+					"pivot": [0, 0, 0],
+					"texture": 0,	// 贴图的下标，0的时候也可以不写
+					"enable": "!query.is_connect(0)", // 使用molang控制该骨骼及其子骨骼是否渲染。
+													   // 可使用is_connect查询该方块与某个临面的方块是否有“连接”属性。
+													   // 参数：0-down, 1-up, 2-north, 3-south, 4-west, 5-east
+					"cubes": [
+						{
+							"origin": [-10, 6, 6],
+							"size": [4, 4, 4],
+							"uv": {
+								"down": {"uv": [0, 2], "uv_size": [4, 4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_up",
+					"pivot": [0, 0, 0],
+					"enable": "!query.is_connect(1)",
+					"cubes": [
+						{
+							"origin": [-10, 6, 6],
+							"size": [4, 4, 4],
+							"uv": {
+								"up": {"uv": [4, 6], "uv_size": [-4, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_north",
+					"pivot": [0, 0, 0],
+					"enable": "!query.is_connect(2)",
+					"cubes": [
+						{
+							"origin": [-10, 6, 6],
+							"size": [4, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 2], "uv_size": [4, 4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_south",
+					"pivot": [0, 0, 0],
+					"enable": "!query.is_connect(3)",
+					"cubes": [
+						{
+							"origin": [-10, 6, 6],
+							"size": [4, 4, 4],
+							"uv": {
+								"south": {"uv": [0, 2], "uv_size": [4, 4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_west",
+					"pivot": [0, 0, 0],
+					"enable": "!query.is_connect(4)",
+					"cubes": [
+						{
+							"origin": [-10, 6, 6],
+							"size": [4, 4, 4],
+							"uv": {
+								"west": {"uv": [0, 2], "uv_size": [4, 4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_east",
+					"pivot": [0, 0, 0],
+					"enable": "!query.is_connect(5)",
+					"cubes": [
+						{
+							"origin": [-10, 6, 6],
+							"size": [4, 4, 4],
+							"uv": {
+								"east": {"uv": [0, 2], "uv_size": [4, 4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "down",
+					"pivot": [0, 0, 0],
+					"enable": "query.is_connect(0)",
+					"cubes": [
+						{
+							"origin": [-10, 0, 6],
+							"size": [4, 6, 4],
+							"uv": {
+								// 这个及下面的骨骼都减去了不必要的面
+								"north": {"uv": [2, 0], "uv_size": [4, 6]},
+								"east": {"uv": [2, 0], "uv_size": [4, 6]},
+								"south": {"uv": [2, 0], "uv_size": [4, 6]},
+								"west": {"uv": [2, 0], "uv_size": [4, 6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "up",
+					"pivot": [0, 0, 0],
+					"enable": "query.is_connect(1)",
+					"cubes": [
+						{
+							"origin": [-10, 10, 6],
+							"size": [4, 6, 4],
+							"uv": {
+								"north": {"uv": [2, 0], "uv_size": [4, 6]},
+								"east": {"uv": [2, 0], "uv_size": [4, 6]},
+								"south": {"uv": [2, 0], "uv_size": [4, 6]},
+								"west": {"uv": [2, 0], "uv_size": [4, 6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "north",
+					"pivot": [0, 0, 0],
+					"enable": "query.is_connect(2)",
+					"cubes": [
+						{
+							"origin": [-10, 6, 0],
+							"size": [4, 4, 6],
+							"uv": {
+								"east": {"uv": [0, 2], "uv_size": [6, 4]},
+								"west": {"uv": [0, 2], "uv_size": [6, 4]},
+								"up": {"uv": [6, 6], "uv_size": [-4, -6]},
+								"down": {"uv": [2, 0], "uv_size": [4, 6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "south",
+					"pivot": [0, 0, 0],
+					"enable": "query.is_connect(3)",
+					"cubes": [
+						{
+							"origin": [-10, 6, 10],
+							"size": [4, 4, 6],
+							"uv": {
+								"east": {"uv": [0, 2], "uv_size": [6, 4]},
+								"west": {"uv": [0, 2], "uv_size": [6, 4]},
+								"up": {"uv": [6, 6], "uv_size": [-4, -6]},
+								"down": {"uv": [2, 0], "uv_size": [4, 6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "east",
+					"pivot": [0, 0, 0],
+					"enable": "query.is_connect(5)",
+					"cubes": [
+						{
+							"origin": [-16, 6, 6],
+							"size": [6, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 2], "uv_size": [6, 4]},
+								"south": {"uv": [0, 2], "uv_size": [6, 4]},
+								"up": {"uv": [6, 6], "uv_size": [-6, -4]},
+								"down": {"uv": [0, 2], "uv_size": [6, 4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "west",
+					"pivot": [0, 0, 0],
+					"enable": "query.is_connect(4)",
+					"cubes": [
+						{
+							"origin": [-6, 6, 6],
+							"size": [6, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 2], "uv_size": [6, 4]},
+								"south": {"uv": [0, 2], "uv_size": [6, 4]},
+								"up": {"uv": [6, 6], "uv_size": [-6, -4]},
+								"down": {"uv": [0, 2], "uv_size": [6, 4]}
+							}
+						}
+					]
+				}
+			]
+		}
+	
+}

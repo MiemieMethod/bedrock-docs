@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "micro_block_n9": {
+        "textures": "textures/models/sun"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+     "triggered_event" : opt // Event to run we attempt to trigger a raid on the village.
+}
+

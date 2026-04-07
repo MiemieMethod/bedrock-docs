@@ -1,0 +1,104 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseCommandDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.2",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.22.0.release20210408",
+
+  "_comment":"该服务器Mod隶属于“权限”插件",
+  "description":"Command mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["lobby","game"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment":"玩家分组，normal：普通；vip：会员；op：管理员, admin:超级管理员",
+  "group" : {
+    "0":"normal",
+    "1":"vip",
+    "2":"op",
+    "3":"admin"
+  },
+
+  "_comment":"分组对应的权限",
+  "groupAuth": {
+
+    "_comment":"普通玩家",
+    "normal": {
+        "_comment":"聊天的权限",
+        "chat": {
+           "_comment":"聊天前缀",
+           "chatPrefix": "§5普通玩家",
+
+           "_comment":"聊天后缀",
+           "chatSuffix": "§5Purple"
+        },
+        "_comment":"登陆的权限",
+        "login": {
+           "_comment":"登陆欢迎语",
+           "welcomeMessage": "玩家%s进入游戏",
+
+           "_comment":"欢迎语延迟发送时间，单位：秒",
+           "welMesDelayTime": 5
+       }
+    },
+
+    "_comment":"VIP玩家",
+    "vip": {
+        "chat": {
+          "_comment":"聊天前缀",
+          "chatPrefix": "§cVIP",
+
+          "_comment":"聊天后缀",
+          "chatSuffix": "§6Gold"
+        },
+        "login": {
+          "_comment":"登陆欢迎语",
+          "welcomeMessage": "尊贵§cVIP§r的玩家%s进入游戏，热烈欢迎！",
+
+          "_comment":"欢迎语延迟发送时间，单位：秒",
+          "welMesDelayTime": 5
+       }
+    },
+
+    "_comment":"管理员玩家",
+    "op": {
+        "chat": {
+          "_comment":"聊天前缀",
+          "chatPrefix": "§b管理员",
+
+          "_comment":"聊天后缀",
+          "chatSuffix": "§bPink"
+        },
+        "login": {
+          "_comment":"登陆欢迎语",
+          "welcomeMessage": "管理员玩家%s进入游戏",
+
+          "_comment":"欢迎语延迟发送时间，单位：秒",
+          "welMesDelayTime": 5
+        }
+      },
+      "_comment":"超级管理员玩家",
+      "admin": {
+        "chat": {
+          "_comment":"聊天前缀",
+          "chatPrefix": "§b超级管理员",
+
+          "_comment":"聊天后缀",
+          "chatSuffix": "§bPink"
+        },
+        "login": {
+          "_comment":"登陆欢迎语",
+          "welcomeMessage": "超级管理员玩家%s进入游戏",
+
+          "_comment":"欢迎语延迟发送时间，单位：秒",
+          "welMesDelayTime": 5
+        }
+      }
+    }
+  }

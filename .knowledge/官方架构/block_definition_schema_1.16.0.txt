@@ -1,0 +1,14 @@
+{
+    string "identifier" // The identifier for this block. The name must include a namespace and must not use the Minecraft namespace unless overriding a Vanilla block.
+    object "properties" : opt
+    {
+        object "<identifier>" : opt
+    }
+    object "menu_category" : opt // The creative group name and category for this block.
+    {
+        string "group" : opt // The Creative Group that this block belongs to. Group name is limited to 256 characters.
+        string "category" : opt // The Creative Category that this block belongs to.
+        bool "is_hidden_in_commands" : opt // Determines whether or not this block can be used with commands. Commands can use blocks by default, but you may use this to disable that functionality.
+    }
+}
+

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "3797408210",
+    "x-format-version": "1.21.20",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "AnchorAbsolute",
+    "type": "object",
+    "properties": {
+        "absolute": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "absolute"
+    ]
+}

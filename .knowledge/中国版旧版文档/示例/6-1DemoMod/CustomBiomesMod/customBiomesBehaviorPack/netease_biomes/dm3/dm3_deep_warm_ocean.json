@@ -1,0 +1,12 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm3_deep_warm_ocean", 
+            "inherits": "deep_warm_ocean"
+        },
+        "components": {
+            "dm3": {}
+        }
+    }
+}

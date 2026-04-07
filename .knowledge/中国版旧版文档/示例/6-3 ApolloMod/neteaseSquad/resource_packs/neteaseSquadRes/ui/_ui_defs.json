@@ -1,0 +1,9 @@
+{
+  "ui_defs": [
+	"ui/netease_squadUI.json",
+	"ui/netease_squad_alertUI.json",
+	"ui/netease_squad_applyUI.json",
+	"ui/netease_squad_clsbtnUI.json",
+	"ui/netease_squad_replyUI.json"
+  ]
+}

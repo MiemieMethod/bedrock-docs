@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "UI Demo By @SDKTeam",
+        "name": "UIDemo",
+        "uuid": "b48b6c2b-32af-4dfd-b6c5-cce25572a057",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "UI Demo By @SDKTeam",
+            "type": "resources",
+            "uuid": "0ff85069-844d-42cc-b0cf-0ff2bf3bd015",
+            "version": [0, 0, 1]
+        }
+    ]
+}

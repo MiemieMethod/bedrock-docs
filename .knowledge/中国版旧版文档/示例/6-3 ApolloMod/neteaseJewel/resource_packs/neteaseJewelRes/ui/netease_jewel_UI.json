@@ -1,0 +1,1505 @@
+{
+   "base_screen_attribute" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_attribute@netease_jewel_UI.pnl_attribute" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "base_screen_bag" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_bag@netease_jewel_UI.pnl_bag" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "btn_close@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_jewel/btn053x",
+      "$hover_texture" : "textures/ui/netease_jewel/btn05_click3x",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "$pressed_button_name" : "%gemUI.click",
+      "$pressed_texture" : "textures/ui/netease_jewel/btn05_click3x",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_jewel_UI.default" : {}
+         },
+         {
+            "hover@netease_jewel_UI.hover" : {}
+         },
+         {
+            "pressed@netease_jewel_UI.pressed" : {}
+         },
+         {
+            "button_label@netease_jewel_UI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 4,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -5.0, -1.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 15.0, 15.0 ],
+      "visible" : true
+   },
+   "btn_equip@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_jewel/empty01",
+      "$hover_texture" : "textures/ui/netease_jewel/empty01",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_jewel_UI.click",
+      "$pressed_texture" : "textures/ui/netease_jewel/empty01",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_jewel_UI.default" : {}
+         },
+         {
+            "hover@netease_jewel_UI.hover" : {}
+         },
+         {
+            "pressed@netease_jewel_UI.pressed" : {}
+         },
+         {
+            "button_label@netease_jewel_UI.button_label" : {}
+         },
+         {
+            "equip@netease_jewel_UI.equip" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, -18.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "visible" : true
+   },
+   "btn_equip_base@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_jewel/box01",
+      "$hover_texture" : "textures/ui/netease_jewel/box01",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%gemUI.click",
+      "$pressed_texture" : "textures/ui/netease_jewel/box01",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_jewel_UI.default" : {}
+         },
+         {
+            "hover@netease_jewel_UI.hover" : {}
+         },
+         {
+            "pressed@netease_jewel_UI.pressed" : {}
+         },
+         {
+            "button_label@netease_jewel_UI.button_label" : {}
+         },
+         {
+            "equip_renderer@netease_jewel_UI.equip_renderer" : {}
+         },
+         {
+            "lb_equip_name@netease_jewel_UI.lb_equip_name" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 3.0, 16.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_gem_0@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_jewel/empty01",
+      "$hover_texture" : "textures/ui/netease_jewel/empty01",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_jewel_UI.click",
+      "$pressed_texture" : "textures/ui/netease_jewel/empty01",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_jewel_UI.default" : {}
+         },
+         {
+            "gem_0@netease_jewel_UI.gem_0" : {}
+         },
+         {
+            "hover@netease_jewel_UI.hover" : {}
+         },
+         {
+            "pressed@netease_jewel_UI.pressed" : {}
+         },
+         {
+            "button_label@netease_jewel_UI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -44.0, 17.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "visible" : true
+   },
+   "btn_gem_1@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_jewel/empty01",
+      "$hover_texture" : "textures/ui/netease_jewel/empty01",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_jewel_UI.click",
+      "$pressed_texture" : "textures/ui/netease_jewel/empty01",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_jewel_UI.default" : {}
+         },
+         {
+            "gem_1@netease_jewel_UI.gem_1" : {}
+         },
+         {
+            "hover@netease_jewel_UI.hover" : {}
+         },
+         {
+            "pressed@netease_jewel_UI.pressed" : {}
+         },
+         {
+            "button_label@netease_jewel_UI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 17.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "visible" : true
+   },
+   "btn_gem_2@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_jewel/empty01",
+      "$hover_texture" : "textures/ui/netease_jewel/empty01",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_jewel_UI.click",
+      "$pressed_texture" : "textures/ui/netease_jewel/empty01",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_jewel_UI.default" : {}
+         },
+         {
+            "gem_2@netease_jewel_UI.gem_2" : {}
+         },
+         {
+            "hover@netease_jewel_UI.hover" : {}
+         },
+         {
+            "pressed@netease_jewel_UI.pressed" : {}
+         },
+         {
+            "button_label@netease_jewel_UI.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 44.0, 17.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "visible" : true
+   },
+   "btn_gem_base@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_jewel/box01",
+      "$hover_texture" : "textures/ui/netease_jewel/box01",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%gemUI.click",
+      "$pressed_texture" : "textures/ui/netease_jewel/box01",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_jewel_UI.default" : {}
+         },
+         {
+            "hover@netease_jewel_UI.hover" : {}
+         },
+         {
+            "pressed@netease_jewel_UI.pressed" : {}
+         },
+         {
+            "button_label@netease_jewel_UI.button_label" : {}
+         },
+         {
+            "gem_renderer@netease_jewel_UI.gem_renderer" : {}
+         },
+         {
+            "lb_gem_name@netease_jewel_UI.lb_gem_name" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 3.0, 150.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "alpha" : "$control_alpha",
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "equip" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "equip_renderer" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 5,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 18.0, 18.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "gem_0" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "gem_1" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "gem_2" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "gem_renderer" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 5,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 18.0, 18.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "hover" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "img_attr_icon" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 4.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 8.0, 8.0 ],
+      "texture" : "textures/ui/netease_battle/icon_attribute_01@3x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 40, 40 ],
+      "visible" : true
+   },
+   "img_base" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_base_attribute@netease_jewel_UI.img_base_attribute" : {}
+         },
+         {
+            "img_inset@netease_jewel_UI.img_inset" : {}
+         },
+         {
+            "img_base_bag@netease_jewel_UI.img_base_bag" : {}
+         },
+         {
+            "img_base_tips@netease_jewel_UI.img_base_tips" : {}
+         },
+         {
+            "img_base_title@netease_jewel_UI.img_base_title" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 5,
+      "nine_slice_left" : 5,
+      "nine_slice_right" : 5,
+      "nine_slice_top" : 5,
+      "nineslice_size" : [ 5.0, 5.0, 5.0, 5.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "texture" : "textures/ui/netease_jewel/panel013",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 32, 31 ],
+      "visible" : true
+   },
+   "img_base_attr" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_attr_name@netease_jewel_UI.lb_attr_name" : {}
+         },
+         {
+            "img_attr_icon@netease_jewel_UI.img_attr_icon" : {}
+         },
+         {
+            "lb_attr_value@netease_jewel_UI.lb_attr_value" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1.0, 1.0, 1.0, 1.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", 14.0 ],
+      "texture" : "textures/ui/netease_jewel/panel05",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_base_attribute" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_attribute@netease_jewel_UI.lb_attribute" : {}
+         },
+         {
+            "scroll_attribute@netease_jewel_UI.scroll_attribute" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1.0, 1.0, 1.0, 1.0 ],
+      "offset" : [ -7.0, -8.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "46.36%+0.0px", "34.56%+0.0px" ],
+      "texture" : "textures/ui/netease_jewel/panel04",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_base_bag" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_left",
+      "anchor_to" : "bottom_left",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "scroll_bag@netease_jewel_UI.scroll_bag" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 0.0, 1.0, 0.0, 1.0 ],
+      "offset" : [ 7.0, -8.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "44.14%+0.0px", "81.81%+0.0px" ],
+      "texture" : "textures/ui/netease_jewel/panel023x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_base_tips" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_tips@netease_jewel_UI.lb_tips" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1.0, 1.0, 0.0, 0.0 ],
+      "offset" : [ 0.0, 18.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "4.61%+0.0px" ],
+      "texture" : "textures/ui/netease_jewel/panel05",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_base_title" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_title@netease_jewel_UI.lb_title" : {}
+         },
+         {
+            "btn_close@netease_jewel_UI.btn_close" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 2,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0.0, 0.0, 0.0, 2.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", 18.0 ],
+      "texture" : "textures/ui/netease_jewel/panel033x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 32, 33 ],
+      "visible" : true
+   },
+   "img_inset" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_inset_equipment@netease_jewel_UI.lb_inset_equipment" : {}
+         },
+         {
+            "lb_inset_gem01@netease_jewel_UI.lb_inset_gem01" : {}
+         },
+         {
+            "lb_inset_gem02@netease_jewel_UI.lb_inset_gem02" : {}
+         },
+         {
+            "lb_inset_gem03@netease_jewel_UI.lb_inset_gem03" : {}
+         },
+         {
+            "btn_equip@netease_jewel_UI.btn_equip" : {}
+         },
+         {
+            "btn_gem_0@netease_jewel_UI.btn_gem_0" : {}
+         },
+         {
+            "btn_gem_1@netease_jewel_UI.btn_gem_1" : {}
+         },
+         {
+            "btn_gem_2@netease_jewel_UI.btn_gem_2" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ -34.0, 34.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 115.0, 80.0 ],
+      "texture" : "textures/ui/netease_jewel/img01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 135, 73 ],
+      "visible" : true
+   },
+   "lb_attr_name" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 15.0, -1.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 30.0, 5.0 ],
+      "text" : "生命上限",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_attr_value" : {
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -6.0, -1.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 30.0, 5.0 ],
+      "text" : "20",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_attribute" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, -9.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 100.0, 6.0 ],
+      "text" : "装备属性",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_equip" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 6.0, 6.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 50.0, 7.0 ],
+      "text" : "装备",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_equip_name" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 1.0, 6.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 16.0, 8.0 ],
+      "text" : "64",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_gem" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 6.0, 140.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 50.0, 7.0 ],
+      "text" : "宝石",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_gem_name" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 1.0, 6.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 16.0, 8.0 ],
+      "text" : "64",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_inset_equipment" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 100.0, 6.0 ],
+      "text" : "装备",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_inset_gem01" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_left",
+      "anchor_to" : "bottom_left",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 26.0, 6.0 ],
+      "text" : "宝石",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_inset_gem02" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 26.0, 6.0 ],
+      "text" : "宝石",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_inset_gem03" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 26.0, 6.0 ],
+      "text" : "宝石",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_tips" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 8,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 320.0, 7.0 ],
+      "text" : "从装备、宝石背包点击物品可进行镶嵌，反之放回。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_title" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 3,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 100.0, 9.0 ],
+      "text" : "镶嵌宝石",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "main_pnl@netease_jewel_UI.main_pnl" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "main_pnl" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_base@netease_jewel_UI.img_base" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "namespace" : "netease_jewel_UI",
+   "pnl_attribute" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "pnl_scroll_attribute@netease_jewel_UI.pnl_scroll_attribute" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 10.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 200.0, 133.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_bag" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "pnl_scroll_bag@netease_jewel_UI.pnl_scroll_bag" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 143.0, 170.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_scroll_attribute" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_base_attr@netease_jewel_UI.img_base_attr" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+11.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_scroll_bag" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_equip@netease_jewel_UI.lb_equip" : {}
+         },
+         {
+            "lb_gem@netease_jewel_UI.lb_gem" : {}
+         },
+         {
+            "btn_equip_base@netease_jewel_UI.btn_equip_base" : {}
+         },
+         {
+            "btn_gem_base@netease_jewel_UI.btn_gem_base" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+40.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pressed" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "scroll_attribute@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 2,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 2,
+      "$box_nineslice_size" : [ 0.0, 2.0, 0.0, 2.0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "netease_jewel_UI.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/netease_jewel/ScrollRail",
+      "$scroll_box_mouse_image_control" : "netease_jewel_UI.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/netease_jewel/scroll_slide",
+      "$scroll_box_touch_image_control" : "netease_jewel_UI.scroll_box_image",
+      "$scroll_track_image_control" : "netease_jewel_UI.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/netease_jewel/scroll_slide02",
+      "$scrolling_content" : "netease_jewel_UI.pnl_scroll_attribute",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 2,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 2,
+      "$track_nine_slice_top" : 2,
+      "$track_nineslice_size" : [ 0.0, 2.0, 0.0, 2.0 ],
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 1.0, -1.0 ],
+      "propagate_alpha" : true,
+      "size" : [ "100.0%+0.0px", "100.0%+-2.0px" ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "nineslice_size" : "$background_nineslice_size",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_bag@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 4,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 3,
+      "$box_nineslice_size" : [ 0.0, 3.0, 0.0, 4.0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "netease_jewel_UI.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/netease_jewel/ScrollRail",
+      "$scroll_box_mouse_image_control" : "netease_jewel_UI.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/netease_jewel/scroll_slide",
+      "$scroll_box_touch_image_control" : "netease_jewel_UI.scroll_box_image",
+      "$scroll_track_image_control" : "netease_jewel_UI.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/netease_jewel/scroll_slide02",
+      "$scrolling_content" : "netease_jewel_UI.pnl_scroll_bag",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 1,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 1,
+      "$track_nine_slice_top" : 1,
+      "$track_nineslice_size" : [ 0.0, 1.0, 0.0, 1.0 ],
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : true,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "nineslice_size" : "$box_nineslice_size",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "nineslice_size" : "$track_nineslice_size",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   }
+}

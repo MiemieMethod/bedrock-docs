@@ -1,0 +1,25 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseAlertDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.1",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.17.0.release20200709",
+  "_comment": "插件实现的功能",
+  "description": "通用提示",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "通用提示插件为lobby/game插件",
+  "group": "neteaseAlert",
+  "_comment": "默认展示秒数",
+  "default_show_time":3,
+  "_comment": "默认文本框中心点于屏幕横轴方向的偏移百分比",
+  "default_xratio": 0.5,
+  "_comment": "默认文本框中心点于屏幕纵轴方向的偏移百分比",
+  "default_yratio": 0.5
+}

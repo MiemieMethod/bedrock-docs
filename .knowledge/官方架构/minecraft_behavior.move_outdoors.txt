@@ -1,0 +1,14 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "speed_multiplier" : opt
+    int "search_range" : opt
+    int "search_height" : opt
+    int "search_count" : opt
+    float "goal_radius" : opt
+    float "timeout_cooldown" : opt
+}
+

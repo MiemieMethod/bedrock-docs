@@ -1,0 +1,326 @@
+{
+    "bg_image": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "color": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "is_new_nine_slice": true,
+        "layer": 1,
+        "nine_slice_buttom": 0,
+        "nine_slice_left": 0,
+        "nine_slice_right": 0,
+        "nine_slice_top": 0,
+        "offset": [
+            "0%+0 px",
+            "0%+0px"
+        ],
+        "size": [
+            "99.86595%+0 px",
+            "100%+0px"
+        ],
+        "texture": "textures/ui/bg_tip_popup@3x",
+        "texture_file_system": "",
+        "type": "image",
+        "visible": true,
+        "zip_folder": ""
+    },
+    "cancel_button@common.button": {
+        "$default_color": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "$labelText": "",
+        "$nine_slice_buttom": 49,
+        "$nine_slice_left": 50,
+        "$nine_slice_right": 49,
+        "$nine_slice_top": 50,
+        "$pressed_button_name": "click",
+        "$text_offset": [
+            0,
+            0
+        ],
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "button_mappings": [],
+        "controls": [
+            {
+                "default": {
+                    "color": "$default_color",
+                    "is_new_nine_slice": true,
+                    "layer": 1,
+                    "nine_slice_buttom": "$nine_slice_buttom",
+                    "nine_slice_left": "$nine_slice_left",
+                    "nine_slice_right": "$nine_slice_right",
+                    "nine_slice_top": "$nine_slice_top",
+                    "texture": "textures/ui/btn@3x",
+                    "type": "image"
+                }
+            },
+            {
+                "hover": {
+                    "color": "$default_color",
+                    "is_new_nine_slice": true,
+                    "layer": 2,
+                    "nine_slice_buttom": "$nine_slice_buttom",
+                    "nine_slice_left": "$nine_slice_left",
+                    "nine_slice_right": "$nine_slice_right",
+                    "nine_slice_top": "$nine_slice_top",
+                    "texture": "textures/ui/btn@3x",
+                    "type": "image"
+                }
+            },
+            {
+                "pressed": {
+                    "color": "$default_color",
+                    "is_new_nine_slice": true,
+                    "layer": 3,
+                    "nine_slice_buttom": "$nine_slice_buttom",
+                    "nine_slice_left": "$nine_slice_left",
+                    "nine_slice_right": "$nine_slice_right",
+                    "nine_slice_top": "$nine_slice_top",
+                    "texture": "textures/ui/btn@3x",
+                    "type": "image"
+                }
+            },
+            {
+                "button_label": {
+                    "color": [
+                        0.2823529411764706,
+                        0.2784313725490196,
+                        0.2784313725490196
+                    ],
+                    "font_scale_factor": 1.0044642857142856,
+                    "font_size": "normal",
+                    "layer": 4,
+                    "max_size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "offset": "$text_offset",
+                    "shadow": false,
+                    "text": "取消",
+                    "type": "label"
+                }
+            }
+        ],
+        "is_handle_button_move_event": true,
+        "layer": 1,
+        "offset": [
+            "-23.5924929%+0 px",
+            "33.3333343%+0px"
+        ],
+        "size": [
+            "46.7828423%+0 px",
+            "20.8920181%+0px"
+        ],
+        "visible": true
+    },
+    "confirm_button@common.button": {
+        "$default_color": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "$labelText": "",
+        "$nine_slice_buttom": 49,
+        "$nine_slice_left": 50,
+        "$nine_slice_right": 49,
+        "$nine_slice_top": 50,
+        "$pressed_button_name": "click",
+        "$text_offset": [
+            0,
+            0
+        ],
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "button_mappings": [],
+        "controls": [
+            {
+                "default": {
+                    "color": "$default_color",
+                    "is_new_nine_slice": true,
+                    "layer": 1,
+                    "nine_slice_buttom": "$nine_slice_buttom",
+                    "nine_slice_left": "$nine_slice_left",
+                    "nine_slice_right": "$nine_slice_right",
+                    "nine_slice_top": "$nine_slice_top",
+                    "texture": "textures/ui/btn@3x",
+                    "type": "image"
+                }
+            },
+            {
+                "hover": {
+                    "color": "$default_color",
+                    "is_new_nine_slice": true,
+                    "layer": 2,
+                    "nine_slice_buttom": "$nine_slice_buttom",
+                    "nine_slice_left": "$nine_slice_left",
+                    "nine_slice_right": "$nine_slice_right",
+                    "nine_slice_top": "$nine_slice_top",
+                    "texture": "textures/ui/btn@3x",
+                    "type": "image"
+                }
+            },
+            {
+                "pressed": {
+                    "color": "$default_color",
+                    "is_new_nine_slice": true,
+                    "layer": 3,
+                    "nine_slice_buttom": "$nine_slice_buttom",
+                    "nine_slice_left": "$nine_slice_left",
+                    "nine_slice_right": "$nine_slice_right",
+                    "nine_slice_top": "$nine_slice_top",
+                    "texture": "textures/ui/btn@3x",
+                    "type": "image"
+                }
+            },
+            {
+                "button_label": {
+                    "color": [
+                        0.2823529411764706,
+                        0.2784313725490196,
+                        0.2784313725490196
+                    ],
+                    "font_scale_factor": 1.0044642857142856,
+                    "font_size": "normal",
+                    "layer": 4,
+                    "max_size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "offset": "$text_offset",
+                    "shadow": false,
+                    "text": "确认",
+                    "type": "label"
+                }
+            }
+        ],
+        "is_handle_button_move_event": true,
+        "layer": 1,
+        "offset": [
+            "23.5924929%+0 px",
+            "33.3333343%+0px"
+        ],
+        "size": [
+            "46.7828423%+0 px",
+            "20.8920181%+0px"
+        ],
+        "visible": true
+    },
+    "content_panel": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "bg_image@Sure.bg_image": {}
+            },
+            {
+                "title_label@Sure.title_label": {}
+            },
+            {
+                "cancel_button@Sure.cancel_button": {}
+            },
+            {
+                "message_label@Sure.message_label": {}
+            },
+            {
+                "confirm_button@Sure.confirm_button": {}
+            }
+        ],
+        "layer": 1,
+        "offset": [
+            "0%+0 px",
+            "0%+0px"
+        ],
+        "size": [
+            "38.8541669%+0 px",
+            "39.4444436%+0px"
+        ],
+        "type": "panel",
+        "visible": true
+    },
+    "main@common.base_screen": {
+        "controls": [
+            {
+                "SurePanel@Sure.SurePanel": {}
+            }
+        ]
+    },
+    "message_label": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "auto_expand": false,
+        "color": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "font_scale_factor": 1.1383928571428572,
+        "font_size": "normal",
+        "layer": 2,
+        "offset": [
+            "0%+0 px",
+            "-5.86854443%+0px"
+        ],
+        "shadow": false,
+        "size": [
+            "75.0670254%+0 px",
+            "24.88263%+0px"
+        ],
+        "text": "你的代币不足，请及时充值。",
+        "text_alignment": "left",
+        "type": "label",
+        "visible": true
+    },
+    "namespace": "Sure",
+    "SurePanel": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "content_panel@Sure.content_panel": {}
+            }
+        ],
+        "layer": 20,
+        "offset": [
+            0,
+            0
+        ],
+        "size": [
+            "200.000000%+0 px",
+            "200.000000%+0px"
+        ],
+        "type": "panel",
+        "visible": true
+    },
+    "title_label": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "auto_expand": false,
+        "color": [
+            0.2823529411764706,
+            0.2784313725490196,
+            0.2784313725490196
+        ],
+        "font_scale_factor": 1.0714285714285714,
+        "font_size": "normal",
+        "layer": 2,
+        "offset": [
+            "-26.80965%+0 px",
+            "-39.43662%+0px"
+        ],
+        "shadow": false,
+        "size": [
+            "40.214476%+0 px",
+            "10.56338%+0px"
+        ],
+        "text": "Tips",
+        "text_alignment": "left",
+        "type": "label",
+        "visible": true
+    }
+}

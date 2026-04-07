@@ -1,0 +1,8 @@
+{
+	"modName":"hziGachaChest",
+	"modRequire":[
+		"neteaseMenus",
+		"neteaseTrade",
+		"neteaseAlert"
+	]
+}

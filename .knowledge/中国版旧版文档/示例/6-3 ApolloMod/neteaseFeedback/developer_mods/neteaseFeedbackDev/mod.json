@@ -1,0 +1,22 @@
+{
+  "_comment": "mod的名字",
+  "netgame_mod_name": "neteaseFeedback",
+  "_comment": "mod的版本号",
+  "netgame_mod_version": "1.0.2",
+  "_comment": "适用最低的引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+  "_comment": "该服务器Mod隶属于“反馈”插件",
+  "description": "反馈插件，在游戏内收集玩家反馈的问题。",
+  "_comment": "适用的服务器类型",
+  "support_server_type": [
+    "Lobby",
+    "Game"
+  ],
+  "_comment": "作者名字",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseFeedback",
+
+  "_comment": "标签tag内容，tags最多10个，超过则取前10个",
+  "tags": ["作弊", "系统功能", "画面", "数值", "经济", "好友", "玩法", "故事背景", "模型", "场景"]
+}

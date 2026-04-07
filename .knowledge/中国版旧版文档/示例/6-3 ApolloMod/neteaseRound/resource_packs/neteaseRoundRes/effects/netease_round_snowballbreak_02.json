@@ -1,0 +1,29 @@
+{
+  "frameeffect": {
+    "cylinder_enable": true,
+    "cylinder_frac_num": 40,
+    "cylinder_height": 0.0,
+    "cylinder_radius_down": 0.5,
+    "cylinder_radius_up": 1.8,
+    "depth_test": true,
+    "face_camera": false,
+    "fps": 18,
+    "loop": true,
+    "rot_speed": [
+      0.0,
+      360.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "shuffle": false,
+    "tex_repeat_num": [
+      1,
+      1
+    ],
+    "texture": "textures/sfxs/hengxian01_xq01lsj"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseTradeDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "2.0.10",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.22.0.release20210513",
+  "_comment": "插件实现的功能",
+  "description": "插件实现2个功能，1个是定义货币，1个是定义商店",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，经济插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseTrade",
+
+  "_comment": "配置字典，【服务器类型】作为一级的key，部署在不同服务器的插件，会优先读取【服务器类型】下的配置信息作为当前服务器的配置",
+  "_comment": "当对应的【服务器类型】的配置项不存在时，会读取【default】下的对应配置项，作为当前服务器的配置",
+  "typeDefineConfig": {
+    "default": {
+      "_comment": "是否允许摆摊",
+      "openStall": false
+    },
+    "lobby": {
+      "openStall": true,
+      "_comment": "是否限制摆摊区域，假如配置为true，则需要配置【validStallArea】，以AABB包围盒的方式配置允许摆摊区域",
+      "limitStallArea": true,
+      "_comment": "允许摆摊的区域，单个区域以AABB包围盒的方式配置，min代表最小点，max代表最大点",
+      "validStallArea": [
+        {
+          "min": [0, 0, 0],
+          "max": [100, 256, 100]
+        },
+        {
+          "min": [-100, 0, -100],
+          "max": [0, 0, 0]
+        }
+      ]
+    },
+    "gameA": {
+      "openStall": true,
+      "limitStallArea": false
+    }
+  },
+  "Sales": {
+    "_comment": "允许摆摊的服务器类型，类型名称不在下方列表的服务器不允许摆摊",
+    "server_kinds": [
+      "lobby"
+    ],
+    "_comment": "允许摆摊的区域，与允许摆摊的服务器类型对应，若某服务器允许摆摊但其类型名称不存在于下方，则该服务器无摆摊区域限制（即不配置则不限制摆摊区域）",
+    "valid_mapping": {
+      "lobby": [
+        {
+          "_comment": "区域最小点，判断坐标时三值均大于该点才属于合法",
+          "min": [
+            -999,
+            -9999,
+            -999
+          ],
+          "_comment": "区域最大点，判断坐标时三值均小于该点才属于合法",
+          "max": [
+            999,
+            9999,
+            999
+          ]
+        },
+        {
+          "min": [
+            2000,
+            -2000,
+            2000
+          ],
+          "max": [
+            4444,
+            4444,
+            4444
+          ]
+        }
+      ]
+    }
+  }
+}

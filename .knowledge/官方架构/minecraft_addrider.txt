@@ -1,0 +1,5 @@
+{
+    string "entity_type" : opt
+    string "spawn_event" : opt
+}
+

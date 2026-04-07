@@ -1,0 +1,4 @@
+{
+    bool "remove_child_entities" : opt
+}
+

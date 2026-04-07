@@ -1,0 +1,76 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseDungeonDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.2",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.21.0.release20210401",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["game"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment":"对应deploy.json中service下module_names配置",
+  "module_names": ["neteaseDungeon"],
+
+  "_comment":"副本类型列表",
+  "dungeon_type_list" : [
+    {
+      "_comment":"副本类型，唯一标记一个副本类型",
+      "unique_type": "dungeonA",
+
+      "_comment":"副本名字",
+      "name": "dungeonNameA",
+
+      "_comment":"该副本开启期间可进入多少人",
+      "max_players": 1,
+
+      "_comment":"立方区域顶点，为立方区域的最小值，是个相对坐标，area_offset + area_min_vertex计算得到绝对坐标",
+      "area_min_vertex": [1374, 42, 14],
+
+      "_comment":"立方区域顶点，为立方区域的最大值，是个相对坐标，area_offset + area_max_vertex计算得到绝对坐标",
+      "area_max_vertex": [1394, 62, 34],
+
+      "_comment":"玩家出生点，是个相对坐标，born_pos + area_max_vertex计算得到绝对坐标",
+      "born_pos":[1384.009, 52, 24.437]
+    },
+    {
+      "unique_type": "dungeonB",
+      "name": "dungeonNameB",
+      "max_players": 2,
+      "area_min_vertex": [1444, 68, 54],
+      "area_max_vertex": [1464, 88, 74],
+      "born_pos":[1454.701, 72, 64.195]
+    }
+  ],
+
+  "_comment":"game内包含的副本列表",
+  "game_dungeon_list": {
+    "_comment":"gameTypeA表示游戏类型，对应deploy.json文件中game的type配置",
+    "gameTypeA": [
+      {
+        "_comment":"副本类型，对应dungeon_type_list中unique_type配置",
+        "dungeon_type": "dungeonA",
+
+        "_comment":"副本区域相对于(0, 0, 0)坐标的偏移量。area_offset + area_vertex/born_pos表示绝对坐标",
+        "area_offset": [10, 20, 30]
+      },
+      {
+        "dungeon_type": "dungeonB",
+        "area_offset": [0, 0, 0]
+      }
+    ],
+
+    "gameTypeB": [
+      {
+        "dungeon_type": "dungeonB",
+        "area_offset": [1, 2, 3]
+      }
+    ]
+  }
+
+}

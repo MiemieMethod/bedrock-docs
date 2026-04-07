@@ -1,0 +1,98 @@
+{
+  "particleeffect": {
+    "rotationspeed": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "activetime": {
+      "value": "1.0"
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "enablecolor": {
+      "enable": "true"
+    },
+    "timetolive": {
+      "max": "0.8",
+      "min": "0.4"
+    },
+    "particlesize": {
+      "max": "0.3 0.3",
+      "min": "0.2 0.2"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "0.4"
+    },
+    "enableloop": {
+      "enable": "false"
+    },
+    "sizedelta": {
+      "add": "0.1",
+      "mul": "0.87"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "faceCameraMode": {
+      "value": "Rotate XYZ"
+    },
+    "scaled": {
+      "enable": "true"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "sorted": {
+      "enable": "false"
+    },
+    "fixedscreensize": {
+      "enable": "false"
+    },
+    "colorfade": [
+      {
+        "color": "1.0 0.615686 0.0 1.0",
+        "time": "0.0"
+      },
+      {
+        "color": "1.0 0.333333 0.023529 0.7",
+        "time": "0.15"
+      },
+      {
+        "color": "0.560784 0.043137 0.043137 0.0",
+        "time": "0.7"
+      }
+    ],
+    "texture": {
+      "name": "textures/particle/sun"
+    },
+    "blend": {
+      "name": "blend"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "40.0"
+    },
+    "material": {
+      "name": "Materials/Particle.xml"
+    },
+    "constantforce": {
+      "value": "0.0 0.0 0.0"
+    },
+    "direction": {
+      "max": "1.0 1.0 1.0",
+      "min": "-1.0 -1.0 -1.0"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseRandomTpDev",
+   "_comment": "插件版本",
+  "netgame_mod_version": "1.0.0",
+   "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210318",
+   "_comment": "插件实现的功能",
+  "description": "插件实现玩家随机传送功能",
+   "_comment": "列表，支持的服务器类型，包括game/lobby/service几种类型",
+  "support_server_type": ["lobby","game"],
+   "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+   "_comment": "所属插件组合的名字，随机传送插件由Service插件，lobby/game插件组合而成",
+  "group": "neteaseRandomTp",
+
+  "_comment": "以下为可配置项",
+  "configParams": {
+    "_comment": "禁止传送的方块黑名单：list ['minecraft:water','minecraft:flowing_water']",
+    "blockBlackList": [
+      "minecraft:water", 
+      "minecraft:flowing_water", 
+      "minecraft:lava", 
+      "minecraft:flowing_lava"
+    ],
+
+    "_comment": "本维度传送配置",
+    "InDimension": {
+      "_comment": "冷却时间",
+      "coolingTime": 10,
+      "_comment": "读秒时间",
+      "readingTime": 3,
+      "_comment": "打断类型：0 不能被打断； 1 移动打断； 2 受伤害打断； 3 移动或受伤害都打断；",
+      "interruptType": 1,
+      "_comment": "被打断后是否进入冷却：0 不进入； 1 进入；",
+      "isCoolingAfterInterrupt": 0,
+      "_comment": "随机范围：list [Xmin, Zmin, Xmax, Zmax]",
+      "randomRange": [-64, -64, 64, 64]
+    },
+
+    "_comment": "跨纬度传送配置",
+    "CrossDimension": {
+      "_comment": "冷却时间",
+      "coolingTime": 10,
+      "_comment": "读秒时间",
+      "readingTime": 3,
+      "_comment": "打断类型：0 不能被打断； 1 移动打断； 2 受伤害打断； 3 移动或受伤害都打断；",
+      "interruptType": 1,
+      "_comment": "被打断后是否进入冷却：0 不进入； 1 进入；",
+      "isCoolingAfterInterrupt": 0,
+      "_comment": "随机范围：list [Xmin, Zmin, Xmax, Zmax]",
+      "randomRange": [-64, -64, 64, 64]
+    },
+
+    "_comment": "跨服传送配置",
+    "CrossServer": {
+      "_comment": "冷却时间",
+      "coolingTime": 10,
+      "_comment": "读秒时间",
+      "readingTime": 3,
+      "_comment": "打断类型：0 不能被打断； 1 移动打断； 2 受伤害打断； 3 移动或受伤害都打断；",
+      "interruptType": 1,
+      "_comment": "被打断后是否进入冷却：0 不进入； 1 进入；",
+      "isCoolingAfterInterrupt": 0,
+      "_comment": "随机范围：list [Xmin, Zmin, Xmax, Zmax]",
+      "randomRange": [-64, -64, 64, 64]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "minecraft:customblocks_model_flower"
+		},
+
+		"tags": ["furnace", "blast_furnace"],
+		"input": "customblocks:customblocks_model_flower",
+		"output": "customblocks:customblocks_test0"
+	}
+
+}

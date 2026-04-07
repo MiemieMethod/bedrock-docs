@@ -1,0 +1,16 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.player.custom.move.arms" : {
+			"loop" : true,
+			"bones" : {
+				"leftarm" : {
+					"rotation" : [ "variable.tcos0 + 30", 0.0, 0.0 ]
+				},
+				"rightarm" : {
+					"rotation" : [ "-variable.tcos0 + 30", 0.0, 0.0 ]
+				}
+			}
+		}
+	}
+}

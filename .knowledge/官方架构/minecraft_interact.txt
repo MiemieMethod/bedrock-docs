@@ -1,0 +1,102 @@
+{
+    object "interactions" : opt
+    {
+        float "cooldown" : opt
+        float "cooldown_after_being_attacked" : opt
+        bool "swing" : opt
+        bool "use_item" : opt
+        bool "barter" : opt
+        bool "admire" : opt
+        bool "give_item" : opt
+        bool "take_item" : opt
+        int "hurt_item" : opt
+        int "health_amount" : opt
+        string "equip_item_slot" : opt
+        string "drop_item_slot" : opt
+        object "repair_entity_item" : opt
+        {
+            string "slot" : opt
+            int "amount" : opt
+        }
+        string "transform_to_item" : opt
+        string "interact_text" : opt
+        object "add_items" : opt
+        {
+            string "table" : opt
+        }
+        object "spawn_items" : opt
+        {
+            string "table" : opt
+        }
+        object "particle_on_start" : opt
+        {
+            string "particle_type" : opt
+            bool "particle_offset_towards_interactor" : opt
+            float "particle_y_offset" : opt
+        }
+        string "vibration" : opt
+        string "play_sounds" : opt
+        array "play_sounds" : opt
+        {
+            string "<any array element>" : opt
+        }
+        string "spawn_entities" : opt
+        array "spawn_entities" : opt
+        {
+            string "<any array element>" : opt
+        }
+         "on_interact" : opt
+    }
+    array "interactions" : opt
+    {
+        object "<any array element>" : opt
+        {
+            float "cooldown" : opt
+            float "cooldown_after_being_attacked" : opt
+            bool "swing" : opt
+            bool "use_item" : opt
+            bool "barter" : opt
+            bool "admire" : opt
+            bool "give_item" : opt
+            bool "take_item" : opt
+            int "hurt_item" : opt
+            int "health_amount" : opt
+            string "equip_item_slot" : opt
+            string "drop_item_slot" : opt
+            object "repair_entity_item" : opt
+            {
+                string "slot" : opt
+                int "amount" : opt
+            }
+            string "transform_to_item" : opt
+            string "interact_text" : opt
+            object "add_items" : opt
+            {
+                string "table" : opt
+            }
+            object "spawn_items" : opt
+            {
+                string "table" : opt
+            }
+            object "particle_on_start" : opt
+            {
+                string "particle_type" : opt
+                bool "particle_offset_towards_interactor" : opt
+                float "particle_y_offset" : opt
+            }
+            string "vibration" : opt
+            string "play_sounds" : opt
+            array "play_sounds" : opt
+            {
+                string "<any array element>" : opt
+            }
+            string "spawn_entities" : opt
+            array "spawn_entities" : opt
+            {
+                string "<any array element>" : opt
+            }
+             "on_interact" : opt
+        }
+    }
+}
+

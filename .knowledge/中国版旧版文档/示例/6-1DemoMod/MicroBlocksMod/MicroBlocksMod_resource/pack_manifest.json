@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "MicroBlocksMod",
+        "name": "MicroBlocksMod",
+        "uuid": "5741237b-98c3-4a69-8ad5-fc115262ed7e",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "MicroBlocksMod",
+            "type": "resources",
+            "uuid": "5bf43ad2-6123-4376-a55b-9bcb9442f490",
+            "version": [0, 0, 1]
+        }
+    ]
+}

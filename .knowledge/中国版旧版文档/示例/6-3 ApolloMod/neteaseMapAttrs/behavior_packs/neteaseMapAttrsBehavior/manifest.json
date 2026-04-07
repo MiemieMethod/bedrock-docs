@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "mapAttrs description",
+        "name": "mapAttrs",
+        "uuid": "6e5e2064-219b-40e0-a286-6049e2b9a148",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "b026e307-87f5-40b8-81e2-898c4e9d5ca4",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "speed" : opt
+    float "start_distance" : opt
+    float "stop_distance" : opt
+    int "listen_time" : opt
+}
+

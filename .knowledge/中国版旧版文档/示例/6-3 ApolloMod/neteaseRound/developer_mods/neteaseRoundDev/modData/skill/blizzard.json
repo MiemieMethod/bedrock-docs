@@ -1,0 +1,34 @@
+{
+    "_comment": "技能的唯一ID",
+    "identifier": "neteaseRound:blizzard",
+    "_comment": "技能的名字",
+    "showName": "暴风雪",
+    "_comment": "技能的图标（可用状态）",
+    "icon": "textures/ui/netease_round/skill_03", 
+    "_comment": "技能的图标（不可用状态）",
+    "iconDisable": "textures/ui/netease_round/skill_03_unuse", 
+    "_comment": "技能的描述",
+    "desc": "对随机3个敌人造成150%攻击力伤害，并有一定概率造成眩晕1回合。",
+    "_comment": "技能的演出效果的identifier",
+    "perform": "neteaseRound:skill:blizzard",
+    "_comment": "技能消耗的能量",
+    "costEnergy": 3,
+    "_comment": "技能的目标类型：0（仅自己）、1（可选1个友方对象）、2（可选1个敌方对象）、3（随机n个友方对象）、4（随机n个敌方对象）",
+    "targetType": 4,
+    "targetNum": 3,
+    "_comment": "技能的普通伤害，单次技能伤害 = 攻击*技能伤害系数multi + 技能伤害系数extra，技能没有普通伤害的话，配置为一个空列表",
+    "damageList": [
+        {"multi":1.5, "extra":0}
+    ],
+    "_comment": "技能的特殊效果，每个效果独立计算命中，技能没有特殊效果的话，配置为一个空列表",
+    "effectList": [
+        {
+            "_comment": "持续效果的唯一ID",
+            "identifier":"neteaseRound:stun",
+            "_comment": "命中判定的形式，0（必定命中）、1（需要判定命中，技能命中 = 效果命中*命中系数multi + 命中系数extra）",
+            "hitStyle": 1,
+            "multi":1.0,
+            "extra":0.0
+        }
+    ]
+}

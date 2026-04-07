@@ -1,0 +1,2426 @@
+{
+   "base_screen0" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_attribute@netease_battle_battleUi.pnl_attribute" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "bg_img" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1, 1, 1, 1 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "size" : [ "100%+0 px", "100%+0px" ],
+      "texture" : "textures/ui/netease_battle/form_01@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "btn_close@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_battle/btn05@3x",
+      "$hover_texture" : "textures/ui/netease_battle/btn05_click@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_battle/btn05_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$pressed_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "alpha" : "$control_alpha",
+               "color" : "$label_color",
+               "font_scale_factor" : "$label_font_scale_factor",
+               "font_size" : "$label_font_size",
+               "font_type" : "smooth",
+               "layer" : "$label_layer",
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$label_offset",
+               "shadow" : false,
+               "text" : "$label_text",
+               "text_alignment" : "center",
+               "type" : "label"
+            }
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 10,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 2.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 14.0, 14.0 ],
+      "visible" : true
+   },
+   "btn_item@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_battle/box@3x",
+      "$hover_texture" : "textures/ui/netease_battle/box@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_battle/box@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$pressed_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "alpha" : "$control_alpha",
+               "color" : "$label_color",
+               "font_scale_factor" : "$label_font_scale_factor",
+               "font_size" : "$label_font_size",
+               "font_type" : "smooth",
+               "layer" : "$label_layer",
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$label_offset",
+               "shadow" : false,
+               "text" : "$label_text",
+               "text_alignment" : "center",
+               "type" : "label"
+            }
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 10,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 18.0, 18.0 ],
+      "visible" : true
+   },
+   "btn_part_0@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_0@netease_battle_battleUi.img_select_0" : {}
+         },
+         {
+            "empty_0@netease_battle_battleUi.empty_0" : {}
+         },
+         {
+            "equip_0@netease_battle_battleUi.equip_0" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 6.0, 16.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_1@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_1@netease_battle_battleUi.img_select_1" : {}
+         },
+         {
+            "empty_1@netease_battle_battleUi.empty_1" : {}
+         },
+         {
+            "equip_1@netease_battle_battleUi.equip_1" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 6.0, 37.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_2@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_2@netease_battle_battleUi.img_select_2" : {}
+         },
+         {
+            "empty_2@netease_battle_battleUi.empty_2" : {}
+         },
+         {
+            "equip_2@netease_battle_battleUi.equip_2" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 6.0, 58.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_3@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_3@netease_battle_battleUi.img_select_3" : {}
+         },
+         {
+            "empty_3@netease_battle_battleUi.empty_3" : {}
+         },
+         {
+            "equip_3@netease_battle_battleUi.equip_3" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 6.0, 79.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_4@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_4@netease_battle_battleUi.img_select_4" : {}
+         },
+         {
+            "empty_4@netease_battle_battleUi.empty_4" : {}
+         },
+         {
+            "equip_4@netease_battle_battleUi.equip_4" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 6.0, 100.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_5@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_5@netease_battle_battleUi.img_select_5" : {}
+         },
+         {
+            "empty_5@netease_battle_battleUi.empty_5" : {}
+         },
+         {
+            "equip_5@netease_battle_battleUi.equip_5" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 121.0, 16.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_6@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_6@netease_battle_battleUi.img_select_6" : {}
+         },
+         {
+            "empty_6@netease_battle_battleUi.empty_6" : {}
+         },
+         {
+            "equip_6@netease_battle_battleUi.equip_6" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 121.0, 37.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_7@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_7@netease_battle_battleUi.img_select_7" : {}
+         },
+         {
+            "empty_7@netease_battle_battleUi.empty_7" : {}
+         },
+         {
+            "equip_7@netease_battle_battleUi.equip_7" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 121.0, 58.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "btn_part_8@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$hover_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_battle_battleUi.click",
+      "$pressed_texture" : "textures/ui/netease_battle/spanel_inside_03",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_battle_battleUi.default" : {}
+         },
+         {
+            "hover@netease_battle_battleUi.hover" : {}
+         },
+         {
+            "pressed@netease_battle_battleUi.pressed" : {}
+         },
+         {
+            "button_label@netease_battle_battleUi.button_label" : {}
+         },
+         {
+            "img_select_8@netease_battle_battleUi.img_select_8" : {}
+         },
+         {
+            "empty_8@netease_battle_battleUi.empty_8" : {}
+         },
+         {
+            "equip_8@netease_battle_battleUi.equip_8" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 25,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 121.0, 79.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "alpha" : "$control_alpha",
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "empty_0" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 20.0, 20.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_01@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_1" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 18.0, 18.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_02@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_2" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 19.0, 19.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_03@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_3" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 19.0, 19.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_04@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_4" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 19.0, 19.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_05@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_5" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 18.0, 18.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_06@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_6" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 18.0, 18.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_07@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_7" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 18.0, 18.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_08@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "empty_8" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 35,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 19.0, 19.0 ],
+      "texture" : "textures/ui/netease_battle/icon_equipment_09@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 50, 50 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "equip_0" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_1" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_2" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_3" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_4" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_5" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_6" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_7" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "equip_8" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 36,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 16.0, 16.0 ],
+      "type" : "custom",
+      "visible" : false
+   },
+   "hover" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "icon_img" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : true,
+      "layer" : 2,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ "-44.9528933%+0 px", "0%+0px" ],
+      "size" : [ "8.47913846%+0 px", "90.0%+0px" ],
+      "texture" : "textures/ui/netease_battle/icon_attribute_05@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_attr_base" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_attr_icon@netease_battle_battleUi.img_attr_icon" : {}
+         },
+         {
+            "lb_attr_name@netease_battle_battleUi.lb_attr_name" : {}
+         },
+         {
+            "lb_attr_value@netease_battle_battleUi.lb_attr_value" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ -3.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 130.0, 14.0 ],
+      "texture" : "textures/ui/netease_battle/form_02@3x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_attr_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "scroll_avatar@netease_battle_battleUi.scroll_avatar" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 23,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 10,
+      "nine_slice_left" : 10,
+      "nine_slice_right" : 10,
+      "nine_slice_top" : 10,
+      "nineslice_size" : [ 10.0, 10.0, 10.0, 10.0 ],
+      "offset" : [ 0.0, -6.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 135.0, 67.0 ],
+      "texture" : "textures/ui/netease_battle/spanel_inside_02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_attr_icon" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "2.0%+0.0px", 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "7.33%+0.0px", "70.33%+0.0px" ],
+      "texture" : "textures/ui/netease_battle/icon_attribute_02@3x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 40, 40 ],
+      "visible" : true
+   },
+   "img_avatar_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "player_avatar@netease_battle_battleUi.player_avatar" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 20,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0.0, -30.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 88.0, 105.0 ],
+      "texture" : "textures/ui/netease_battle/spanel_inside_01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_base_bag" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "item_bag@netease_battle_battleUi.item_bag" : {}
+         },
+         {
+            "lb_bag_title@netease_battle_battleUi.lb_bag_title" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 7,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 10,
+      "nine_slice_left" : 10,
+      "nine_slice_right" : 10,
+      "nine_slice_top" : 20,
+      "nineslice_size" : [ 10.0, 20.0, 10.0, 10.0 ],
+      "offset" : [ 3.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 146.0, 194.0 ],
+      "texture" : "textures/ui/netease_battle/spanel01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 64, 64 ],
+      "visible" : true
+   },
+   "img_base_equip" : {
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "img_avatar_bg@netease_battle_battleUi.img_avatar_bg" : {}
+         },
+         {
+            "img_attr_bg@netease_battle_battleUi.img_attr_bg" : {}
+         },
+         {
+            "btn_part_0@netease_battle_battleUi.btn_part_0" : {}
+         },
+         {
+            "lb_equip_title@netease_battle_battleUi.lb_equip_title" : {}
+         },
+         {
+            "btn_part_5@netease_battle_battleUi.btn_part_5" : {}
+         },
+         {
+            "btn_part_1@netease_battle_battleUi.btn_part_1" : {}
+         },
+         {
+            "btn_part_2@netease_battle_battleUi.btn_part_2" : {}
+         },
+         {
+            "btn_part_3@netease_battle_battleUi.btn_part_3" : {}
+         },
+         {
+            "btn_part_4@netease_battle_battleUi.btn_part_4" : {}
+         },
+         {
+            "btn_part_6@netease_battle_battleUi.btn_part_6" : {}
+         },
+         {
+            "btn_part_7@netease_battle_battleUi.btn_part_7" : {}
+         },
+         {
+            "btn_part_8@netease_battle_battleUi.btn_part_8" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 18,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 10,
+      "nine_slice_left" : 10,
+      "nine_slice_right" : 10,
+      "nine_slice_top" : 10,
+      "nineslice_size" : [ 10.0, 10.0, 10.0, 10.0 ],
+      "offset" : [ -24.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 148.0, 196.0 ],
+      "texture" : "textures/ui/netease_battle/spanel02",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 56, 64 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "img_close" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "btn_close@netease_battle_battleUi.btn_close" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 6,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ -2.0, 8.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 29.0, 24.0 ],
+      "texture" : "textures/ui/netease_battle/stab01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 32, 32 ],
+      "visible" : true
+   },
+   "img_select" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 14,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 22.0, 22.0 ],
+      "texture" : "textures/ui/netease_battle/box_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "img_select_0" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_1" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_2" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_3" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_4" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_5" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_6" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_7" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "img_select_8" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 34,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4, 4, 4, 4 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 25.0, 25.0 ],
+      "texture" : "textures/ui/netease_battle/equipment_active@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false,
+      "zip_folder" : ""
+   },
+   "item_bag" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "single_item_base@netease_battle_battleUi.single_item_base" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 8,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -1.0, 4.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 127.0, 172.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "item_render" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 15,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ "80%+0 px", "80%+0px" ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "lb_attr_name" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "11.0%+0.0px", "-3.0%+0.0px" ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 100.0, 8.0 ],
+      "text" : "生命上限",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_attr_value" : {
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "-5.0%+0.0px", 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 32.0, 8.0 ],
+      "text" : "20",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_bag_title" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "auto_expand" : false,
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.3019607843137255, 0.3019607843137255, 0.3019607843137255 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.205356955528259,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 17,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 3.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 64.0, 14.0 ],
+      "text" : "背包",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_equip_title" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "auto_expand" : false,
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.3019607843137255, 0.3019607843137255, 0.3019607843137255 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.205356955528259,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 19,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 3.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 64.0, 14.0 ],
+      "text" : "装备和属性",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_item_num" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_left",
+      "anchor_to" : "bottom_left",
+      "auto_expand" : false,
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 16,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ "96.0%+0.0px", "35.0%+0.0px" ],
+      "text" : "99",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "main_pnl@netease_battle_battleUi.main_pnl" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "main_pnl" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_base_bag@netease_battle_battleUi.img_base_bag" : {}
+         },
+         {
+            "img_base_equip@netease_battle_battleUi.img_base_equip" : {}
+         },
+         {
+            "img_close@netease_battle_battleUi.img_close" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "320px", "210px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "namespace" : "netease_battle_battleUi",
+   "player_avatar" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "animation" : "",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "modelname" : "",
+      "modelsize" : 1.0,
+      "offset" : [ 0.0, -9.0 ],
+      "propagate_alpha" : false,
+      "renderer" : "paper_doll_renderer",
+      "size" : [ 80.0, 80.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "pnl_attribute" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_attr_base@netease_battle_battleUi.img_attr_base" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 135.0, 67.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pressed" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "scroll" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "single_attr@battleUi.single_attr" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "0 px", "0px" ],
+      "size" : [ "100%+0 px", "100%+0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "scroll_avatar@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 2,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 2,
+      "$box_nineslice_size" : [ 0.0, 2.0, 0.0, 2.0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "netease_battle_battleUi.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "netease_battle_battleUi.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/netease_battle/slide_bar",
+      "$scroll_box_touch_image_control" : "netease_battle_battleUi.scroll_box_image",
+      "$scroll_track_image_control" : "netease_battle_battleUi.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/netease_battle/slide_bar_bg",
+      "$scrolling_content" : "netease_battle_battleUi.pnl_attribute",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 1,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 1,
+      "$track_nine_slice_top" : 1,
+      "$track_nineslice_size" : [ 0.0, 1.0, 0.0, 1.0 ],
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : true,
+      "size" : [ "100.0%+-2.0px", "100.0%+-2.0px" ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "nineslice_size" : "$background_nineslice_size",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "nineslice_size" : "$box_nineslice_size",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "nineslice_size" : "$track_nineslice_size",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   },
+   "single_attr" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "bg_img@battleUi.bg_img" : {}
+         },
+         {
+            "icon_img@battleUi.icon_img" : {}
+         },
+         {
+            "title_label@battleUi.title_label" : {}
+         },
+         {
+            "value_label@battleUi.value_label" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "-0.133155787%+0 px", "-41.3597733%+0px" ],
+      "size" : [ "98.93475%+0 px", "18.1303114%+0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "single_item_base" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "btn_item@netease_battle_battleUi.btn_item" : {}
+         },
+         {
+            "img_select@netease_battle_battleUi.img_select" : {}
+         },
+         {
+            "item_render@netease_battle_battleUi.item_render" : {}
+         },
+         {
+            "lb_item_num@netease_battle_battleUi.lb_item_num" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 9,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "-43.24%+2.0px", "-43.96%+1.0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "18px", "18px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "title_label" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428571428571,
+      "font_size" : "small",
+      "font_type" : "smooth",
+      "layer" : 3,
+      "offset" : [ "-16.4199188%+0 px", "7.8125%+0px" ],
+      "shadow" : false,
+      "size" : [ "46.51163%+0 px", "74.4047642%+0px" ],
+      "text" : "生命上限",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "value_label" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428571428571,
+      "font_size" : "small",
+      "font_type" : "smooth",
+      "layer" : 3,
+      "offset" : [ "23.418574%+0 px", "7.8125%+0px" ],
+      "shadow" : false,
+      "size" : [ "46.51163%+0 px", "74.4047642%+0px" ],
+      "text" : "100",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   }
+}

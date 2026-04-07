@@ -1,0 +1,17 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "active_speed" : opt
+    float "active_speed" : opt
+    float "flight_speed" : opt
+    float "turn_speed" : opt
+    float_range "target_zone" : opt
+    float "switch_direction_probability" : opt
+    float "target_in_range_and_in_view_time" : opt
+    float "fireball_range" : opt
+    float "view_angle" : opt
+}
+

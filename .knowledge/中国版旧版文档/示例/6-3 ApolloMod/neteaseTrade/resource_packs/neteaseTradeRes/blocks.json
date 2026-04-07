@@ -1,0 +1,16 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "netease_trade:stall": {
+    "blockshape": "facing_block",
+    "sound": "stone",
+    "textures": {
+      "up": "netease_trade:stall_up",
+      "side": "netease_trade:stall_side",
+      "down": "netease_trade:stall_down"
+    }
+  }
+}

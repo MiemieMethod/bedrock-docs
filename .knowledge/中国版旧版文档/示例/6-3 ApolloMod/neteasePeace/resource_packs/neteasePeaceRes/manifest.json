@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Peace",
+        "uuid": "20200806-6f25-4504-bf61-515ad171199e",
+        "version": [0, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "20200806-0f8d-40cb-b4bf-ff41a0be7337",
+            "version": [0, 0, 1]
+        }
+    ]
+}

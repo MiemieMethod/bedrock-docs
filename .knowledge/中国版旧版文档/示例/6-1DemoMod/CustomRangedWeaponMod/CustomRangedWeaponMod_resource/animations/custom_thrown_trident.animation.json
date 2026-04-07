@@ -1,0 +1,14 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.custom_thrown_trident.move" : {
+			"loop" : true,
+			"bones" : {
+				"pole" : {
+					"rotation" : [ "-query.target_x_rotation", "-query.target_y_rotation", 0.0 ],
+					"scale" : [ 0.7, 0.7, 0.9 ]
+				}
+			}
+		}
+	}
+}

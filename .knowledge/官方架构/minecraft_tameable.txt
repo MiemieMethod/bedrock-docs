@@ -1,0 +1,10 @@
+{
+    float "probability" : opt
+    string "tame_items|tameItems" : opt
+    array "tame_items|tameItems" : opt
+    {
+        string "<any array element>" : opt
+    }
+     "tame_event" : opt
+}
+

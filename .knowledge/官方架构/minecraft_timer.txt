@@ -1,0 +1,15 @@
+{
+    bool "looping" : opt
+    bool "randomInterval" : opt
+    float_range "time" : opt
+     "time_down_event" : opt
+    array "random_time_choices" : opt
+    {
+        object "<any array element>" : opt
+        {
+            float "value" : opt
+            int "weight" : opt
+        }
+    }
+}
+

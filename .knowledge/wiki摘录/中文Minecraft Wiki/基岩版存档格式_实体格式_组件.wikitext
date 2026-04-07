@@ -1,0 +1,230 @@
+{{#vardefine:roottag|*{{nbt|compound}}：实体的根标签。}}
+{{exclusive|bedrock}}
+此页面列出具有特定组件的实体所独有的NBT标签。
+
+在基岩版，实体的行为主要由[[Addon|原版行为包]]数据驱动。实体的行为由其中的各个组件控制，单个组件控制着实体的某一种特定行为。各个实体组件详见[https://learn.microsoft.com/zh-cn/minecraft/creator/reference/content/entityreference/examples/componentlist?view=minecraft-bedrock-stable 官方文档]。
+
+同一种实体可能有不同的状态，每种状态下的行为有明显差异（如成年与幼年、驯服与未驯服）。这些状态由组件组定义，每个组件组中有若干组件。实体拥有某一组件组，就意味着拥有了该组件组内的各个组件，从而表现出特定的行为。实体状态发生变换，意味着该实体所拥有的组件组发生了改变，因而实体所拥有的组件也发生了变化。
+
+一个实体当前拥有的组件组由根标签下的{{nbt|list|definitions}}[[定义]]标签储存。各种实体的组件组可参考原版行为包的[https://github.com/Mojang/bedrock-samples/blob/preview/behavior_pack/entities 实体JSON文件]。
+
+实体的某些基本组件会在实体的nbt中添加一些附加字段，以储存该组件运作所需的数据。当实体拥有该页面列出的特定组件时，该组件就会为实体的nbt增加相应的附加字段。
+__TOC__
+<div class="treeview">
+
+== economy_trade_table ==
+{{#if:{{#var:isIncluded}}||这个组件被[[村民]]和[[流浪商人]]使用。}}
+{{#var:roottag}}
+**{{nbt|int|Riches}}：村民或流浪商人获得的[[绿宝石]]的数量，不会因购入物品而减少且总是为非负数。
+**{{nbt|compound|Offers}}：（可能不存在）[[交易]]内容。
+***{{nbt|list|Recipes}}：交易组合。
+****{{nbt|compound}}：单个交易选项。
+*****{{nbt|compound|buyA}}：需要花费的第一个物品（例如[[绿宝石]]）。
+******{{bedrock nbt|物品堆叠|item}}
+*****{{nbt|compound|buyB}}：（可能不存在）需要花费的第二个物品（例如[[指南针]]或者[[书]]）。
+******{{bedrock nbt|物品堆叠|item}}
+*****{{nbt|compound|sell}}：出售的物品。
+******{{bedrock nbt|物品堆叠|item}}
+*****{{nbt|int|tier}}：解锁配方需要的交易等级。
+*****{{nbt|int|uses}}：物品的交易次数，值在大于或等于{{cd|maxUses}}后会锁定此交易选项。
+*****{{nbt|int|maxUses}}：在交易锁定前的最大交易次数。在交易刷新后，值会在2-12之间随机选择一个数值增加。{{needs testing}}
+*****{{nbt|int|traderExp}}：交易者的经验值。
+*****{{nbt|boolean|rewardExp}}：交易选项是否给予经验球。
+*****{{nbt|int|demand}}：基于需求调整的需要花费的第一个物品。数值在重新补给后刷新。
+*****{{nbt|int|buyCountA}}：需要花费的第一个物品的数量。
+*****{{nbt|int|buyCountB}}：需要花费的第二个物品的数量。
+*****{{nbt|float|priceMultiplierA}}：用于调整需求和折扣价的乘数，最终数值会增加至需要花费的第一个物品的价格基础上。
+*****{{nbt|float|priceMultiplierB}}: 用于调整需求和折扣价的乘数，最终数值会增加至需要花费的第二个物品的价格基础上。
+***{{nbt|list|TierExpRequirements}}：交易等级与其所需的经验值。
+****{{nbt|compound}}：交易等级。
+*****{{nbt|int|<''tier_level_num''>}}：交易等级所需的经验值。
+**{{nbt|boolean|ConvertedFromVillagerV1}}：当村民是由[[村庄与掠夺]]更新前的转变而来时值为true。
+**{{nbt|string|TradeTablePath}}：（可能不存在）储存交易选项的json路径。
+**{{nbt|int|LowTierCuredDiscount}}：（可能不存在）用于调整被治愈的村民的交易折扣价（下限值）。
+**{{nbt|int|HighTierCuredDiscount}}：（可能不存在）用于调整被治愈的村民的交易折扣价（上限值）。
+**{{nbt|int|NearbyCuredDiscount}}：（可能不存在）用于调整被治愈的村民的交易折扣价（参考值）。
+**{{nbt|int|NearbyCuredDiscountTimeStamp}}：（可能不存在）用于调整被治愈的村民的交易折扣价（时间戳）。
+
+== ageable ==
+{{#if:{{#var:isIncluded}}||这个组件被美西螈、蜜蜂、猫、鸡、牛、海豚、驴、狐狸、山羊、疣猪兽、马、羊驼、哞菇、骡、豹猫、熊猫、猪、北极熊、兔子、羊、骷髅马、嗅探兽、炽足兽、蝌蚪、海龟、村民、狼、僵尸马使用。}}
+{{#var:roottag}}
+**{{nbt|int|Age}}：实体的年龄。当实体处于幼年状态时，值为负数并会随时间推移而增加；0表示实体已经成年。
+
+== ballonable ==
+{{#if:{{#var:isIncluded}}||这个组件被悦灵、蜜蜂、鸡、牛、驴、狐狸、发光鱿鱼、马、铁傀儡、羊驼、哞菇、骡、熊猫、猪、兔子、羊、骷髅马、雪傀儡、僵尸马使用。}}
+{{#var:roottag}}
+**{{nbt|long|ballon_attached}}：被绑定实体的唯一ID。
+**{{nbt|float|ballon_max_height}}：气球上升最大高度。
+**{{nbt|boolean|ballon_should_drop}}：气球因为绑定了质量较重的实体（例如[[铁傀儡]]）而导致无法上浮时为true。
+
+== breathable ==
+{{#if:{{#var:isIncluded}}||这个组件被悦灵、美西螈、蝙蝠、蜜蜂、猫、洞穴蜘蛛、鸡、牛、苦力怕、海豚、驴、溺尸、远古守卫者、末影人、末影螨、唤魔者、鱼、狐狸、青蛙、恶魂、发光鱿鱼、山羊、守卫者、疣猪兽、马、尸壳、羊驼、岩浆怪、哞菇、骡、豹猫、熊猫、鹦鹉、幻翼、猪灵、猪灵蛮兵、掠夺者、猪、玩家、北极熊、河豚、兔子、掠夺兽、鲑鱼、羊、潜影贝、蠹虫、骷髅、骷髅马、史莱姆、嗅探兽、雪傀儡、热带鱼、蜘蛛、鱿鱼、海龟、流浪者、村民、卫道士、监守者、流浪商人、凋灵、凋灵骷髅、蝌蚪、女巫、狼、僵尸、僵尸疣猪兽、僵尸马、僵尸猪灵、僵尸村民使用。}}
+{{#var:roottag}}
+**{{nbt|short|Air}}：实体在水下时的呼吸持续时间（刻）。
+
+== breedable ==
+{{#if:{{#var:isIncluded}}||这个组件被美西螈、蜜蜂、猫、鸡、牛、驴、青蛙、狐狸、山羊、疣猪兽、马、羊驼、哞菇、豹猫、熊猫、猪、兔子、羊、嗅探兽、炽足兽、海龟、狼使用。}}
+{{#var:roottag}}
+**{{nbt|int|InLove}}：实体在失去繁殖意愿前的时间（刻）。0表示实体没有繁殖意愿。{{needs testing}}
+**{{nbt|long|LoveCause}}：使得该实体获得繁殖意愿的实体的唯一ID。
+**{{nbt|int|BreedCooldown}}：繁殖完成后允许进行下次繁殖前的冷却时间（刻）。
+
+== bribeable ==
+{{#if:{{#var:isIncluded}}||这个组件仅被海豚使用。}}
+{{#var:roottag}}
+**{{nbt|int|BribeTime}}：允许[[海豚]]进行下一次寻找[[海底废墟]]或[[沉船]]行为前的冷却时间（刻）。
+
+== inventory ==
+{{#if:{{#var:isIncluded}}||这个组件被运输矿车、命令方块矿车、漏斗矿车、马、驴、羊驼、骡、熊猫、村民使用。}}
+{{#var:roottag}}
+**{{nbt|list|ChestItems}}：物品栏。
+*** {{nbt|compound}}：物品栏内的物品，以及其槽位标签。
+**** {{nbt|byte|Slot}}：物品所在槽位的编号。
+**** {{bedrock nbt|物品堆叠|item}}
+**{{nbt|string|InventoryVersion}}：物品栏的版本号。例如在[[基岩版1.18.10.26]]中创建的世界为<code>1.18.10-beta26</code>。
+**{{nbt|string|LootTable}}：用于在下次打开时填充物品栏的战利品表，或者以其他方式与之交互的物品。
+**{{nbt|int|LootTableSeed}}：生成战利品表所需的种子号，0表示随机生成。{{needs testing}}
+
+== damage_over_time ==
+{{#if:{{#var:isIncluded}}||这个组件被美西螈和海豚使用。}}
+{{#var:roottag}}
+**{{nbt|short|DamageTime}}：实体持续性受伤的计时器（如[[海豚]]和[[美西螈]]因干涸而受伤时）。{{needs testing}}
+
+== drying_out_timer ==
+{{#if:{{#var:isIncluded}}||这个组件被美西螈和海豚使用。}}
+{{#var:roottag}}
+**{{nbt|long|CompleteTick}}：实体在干旱而死前的时间（刻）。
+**{{nbt|int|State}}：实体是否已经干旱而死。
+
+== dweller ==
+{{#if:{{#var:isIncluded}}||这个组件被猫、铁傀儡、村民、唤魔者、掠夺者、劫掠兽、卫道士、女巫使用。组件内将这些生物按照“角色”分类，其中猫为“passive”（被动生物），铁傀儡为“defender”（保卫者），唤魔者、掠夺者、劫掠兽、卫道士和女巫为“hostile”（敌对生物）、村民为“inhabitant”（常住居民）。}}
+{{#var:roottag}}
+**{{nbt|string|DwellingUniqueID}}：村庄居民们的唯一ID。
+**{{nbt|boolean|RewardPlayersOnFirstFounding}}：给予首次发现村庄的玩家奖励时为true。用于控制[[袭击]]胜利后给予的[[村庄英雄]]效果。{{needs testing}}
+**{{nbt|string|PreferredProfession}}：（可能不存在）村民的偏好职业。
+
+== explode ==
+{{#if:{{#var:isIncluded}}||这个组件被TNT、TNT矿车、苦力怕、恶魂火球、末地水晶、凋灵之首使用。}}
+{{#var:roottag}}
+**{{nbt|byte|Fuse}}：（可能不存在）爆炸前的持续时间（刻）。
+**{{nbt|byte|IsFuseLit}}：（可能不存在）是否由[[打火石]]等方法激活。
+**{{nbt|boolean|AllowUnderwater}}：是否允许在水下爆炸时造成破坏。
+
+== genetics ==
+{{#if:{{#var:isIncluded}}||这个组件被山羊和熊猫使用。}}
+{{#var:roottag}}
+**{{nbt|list|GeneArray}}：生物的基因组合。
+***{{nbt|compound}}：基因组合。
+****{{nbt|int|HiddenAllele}}：隐性基因。{{more info}}
+****{{nbt|int|MainAllele}}：显性基因。{{more info}}
+
+== home ==
+{{#if:{{#var:isIncluded}}||这个组件被蜜蜂、远古守卫者、守卫者、猪灵蛮兵、海龟使用。}}
+{{#var:roottag}}
+**{{nbt|list|HomePos}}：出生地坐标。
+***{{nbt|float}}: X
+***{{nbt|float}}: Y
+***{{nbt|float}}: Z
+**{{nbt|int|HomeDimensionId}}：出生地坐标所在的维度。0表示主世界，-1表示下界，1表示末地。
+
+== insomnia ==
+{{#if:{{#var:isIncluded}}||这个组件仅被玩家使用。}}
+{{#var:roottag}}
+**{{nbt|int|TimeSinceRest}}：[[玩家]]自上次入睡时经过的时间。用于控制[[幻翼]]的生成。
+
+== trade_table ==
+{{#if:{{#var:isIncluded}}||这个组件仅被旧版村民使用。}}
+{{#var:roottag}}
+**{{nbt|int|sizeOfTradeFirstTimeVector}}：未知。
+**{{nbt|int|FirstTimeTrade}}：（可能不存在）未知。
+**{{nbt|int|TradeTier}}：交易等级。
+**{{nbt|int|Riches}}：村民获得的绿宝石的数量，不会因购入物品而减少且总是为非负数。
+**{{nbt|boolean|Willing}}：是否有繁殖意愿。
+**{{nbt|list|Offers}}：交易选项。
+
+== tamemount ==
+{{#if:{{#var:isIncluded}}||这个组件被马、驴、骡、羊驼使用。}}
+{{#var:roottag}}
+**{{nbt|int|Temper}}：值为0到100的随机数。在喂食或试图驯服时增加，更高的值使得更容易驯服。
+
+== npc ==
+{{#if:{{#var:isIncluded}}||这个组件仅被NPC使用。}}
+{{#var:roottag}}
+**{{nbt|string|RawtextName}}：该[[NPC]]的名称。{{more info}}
+**{{nbt|string|InteractiveText}}：（可能不存在）与其交互后出现的信息。{{more info}}
+**{{nbt|string|Actions}}：NPC的动作。{{more info}}
+**{{nbt|list|PlayerSceneMapping}}：（可能不存在）未知。
+***{{nbt|compound}}：一个键值对。
+****{{nbt|long|PlayerID}}：玩家的独有ID。
+****{{nbt|string|SceneName}}：未知。
+
+== projectile ==
+{{#if:{{#var:isIncluded}}||这个组件被箭、末影龙火球、蛋、雪球、末影珍珠、恶魂火球、浮漂、滞留药水、喷溅药水、羊驼唾液、潜影贝子弹、烈焰人火球、三叉戟、凋灵之首、附魔之瓶使用。}}
+{{#var:roottag}}
+**{{nbt|long|TargetID}}：目标实体的唯一ID。
+**{{nbt|list|StuckToBlockPos}}：弹射物射进的方块的坐标。
+***{{nbt|int}}: X
+***{{nbt|int}}: Y
+***{{nbt|int}}: Z
+**{{nbt|list|CollisionPos}}：判定箱的坐标。
+***{{nbt|float}}: X
+***{{nbt|float}}: Y
+***{{nbt|float}}: Z
+
+== spawn_entity ==
+{{#if:{{#var:isIncluded}}||这个组件被鸡和流浪商人使用。}}
+{{#var:roottag}}
+**{{nbt|list|entries}}：一个列表。
+***{{nbt|compound}}：具体组件。
+****{{nbt|int|SpawnTimer}}：实体生成生物的冷却时间（刻）。
+****{{nbt|boolean|StopSpawning}}：实体停止生成生物时值为true。
+
+== timer ==
+{{#if:{{#var:isIncluded}}||这个组件被蜜蜂、船、守卫者、疣猪兽、尸壳、猪灵、猪灵蛮兵、玩家、河豚、劫掠兽、骷髅、流浪商人、僵尸使用。}}
+{{#var:roottag}}
+**{{nbt|long|TimeStamp}}：一个时间戳。
+**{{nbt|boolean|HasExecuted}}：未知。
+**{{nbt|int|<s>CountTime</s>}}：不再使用的未知值。
+
+== trade_resupply ==
+{{#if:{{#var:isIncluded}}||这个组件仅被村民使用。}}
+{{#var:roottag}}
+**{{nbt|boolean|HasResupplied}}：交易选项是否已经刷新。
+
+== trust ==
+{{#if:{{#var:isIncluded}}||这个组件仅被狐狸使用。}}
+{{#var:roottag}}
+**{{nbt|int|TrustedPlayersAmount}}：此实体信任的玩家的数量。
+**{{nbt|long|TrustedPlayer<''num''>}}：玩家的唯一ID。<''num''>编号从0开始。
+
+== CommandBlockComponent ==
+{{#if:{{#var:isIncluded}}||这个组件可能不能通过[[行为包]]访问，但能通过[[连锁型命令方块]]激活。}}
+{{#var:roottag}}
+**{{nbt|boolean|Ticking}}：是否已经在执行刻。
+**{{nbt|int|CurrentTickCount}}：再次执行命令之前的刻数。
+
+== FogCommandComponent ==
+{{#if:{{#var:isIncluded}}||这个组件可能不能通过[[行为包]]访问，但是能够被玩家实体使用。}}
+{{#var:roottag}}
+**{{nbt|list|fogCommandStack}}：未知。
+***{{nbt|string}}：未知。
+
+== FreezingComponent ==
+{{#if:{{#var:isIncluded}}||这个组件可能不能通过[[行为包]]访问。}}
+{{#var:roottag}}
+**{{nbt|float|FreezingEffectStrength}}：（可能不存在）实体陷入[[细雪]]后的效果强度。
+
+== PropertyComponent ==
+{{#if:{{#var:isIncluded}}||这个组件可能不能通过[[行为包]]访问。}}
+{{#var:roottag}}
+**{{nbt|compound|properties}}：[[属性]]。
+
+== hide ==
+{{#if:{{#var:isIncluded}}||这个组件仅被村民使用。}}
+{{#var:roottag}}
+**{{nbt|boolean|IsInRaid}}：[[村民]]是否处于[[袭击]]中。
+**{{nbt|boolean|ReactToBell}}：是否对敲响的[[钟]]做出反应。
+{{#if:{{#var:isIncluded}}||</div>}}<noinclude>
+[[en:Bedrock Edition level format/Entity format/Components]]
+[[pt:Formato de nível da Edição Bedrock/Formato de entidade/Componentes]]
+</noinclude>

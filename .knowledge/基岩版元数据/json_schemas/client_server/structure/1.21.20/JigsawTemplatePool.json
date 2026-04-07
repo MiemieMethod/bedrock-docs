@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "2866644962",
+    "x-format-version": "1.21.20",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "3634282923": {
+            "title": "Reference",
+            "type": "string"
+        }
+    },
+    "title": "JigsawTemplatePool",
+    "type": "object",
+    "properties": {
+        "data": {
+            "$ref": "#/definitions/3634282923"
+        },
+        "weight": {
+            "type": "integer",
+            "minimum": 0.0
+        }
+    },
+    "required": [
+        "data",
+        "weight"
+    ]
+}

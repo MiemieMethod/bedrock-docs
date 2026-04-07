@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "3378607947",
+    "x-format-version": "1.20.50",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:throwable",
+    "type": "object",
+    "properties": {
+        "do_swing_animation": {
+            "type": "boolean",
+            "default": false
+        },
+        "launch_power_scale": {
+            "type": "number",
+            "default": 1.0
+        },
+        "max_draw_duration": {
+            "type": "number",
+            "default": 0.0
+        },
+        "max_launch_power": {
+            "type": "number",
+            "default": 1.0
+        },
+        "min_draw_duration": {
+            "type": "number",
+            "default": 0.0
+        },
+        "scale_power_by_draw_duration": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

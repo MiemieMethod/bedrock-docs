@@ -1,0 +1,123 @@
+{
+    "particleeffect": {
+        "blend": {
+            "name": "add"
+        },
+        "colorfade": [
+            {
+                "color": "0.1804 0.8941 1.0000 0.0179",
+                "time": "0.0"
+            },
+            {
+                "color": "0.2353 0.7961 1.0000 1.0000",
+                "time": "0.1736842105263158"
+            },
+            {
+                "color": "1.0000 0.0275 1.0000 1.0000",
+                "time": "0.7736842105263158"
+            },
+            {
+                "color": "0.2784 0.1725 0.5098 0.0000",
+                "time": "1.0"
+            }
+        ],
+        "dampingforce": {
+            "value": "1.0"
+        },
+        "depthtest": {
+            "enable": "false"
+        },
+        "direction": {
+            "max": "0.0 0.0 -1.0",
+            "min": "0.0 0.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "5.0",
+            "min": "5.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterpath": [
+
+        ],
+        "emitterscale": [
+            {
+                "time": "0.0",
+                "value": "1.350"
+            },
+            {
+                "time": "1.0",
+                "value": "0.000"
+            }
+        ],
+        "emittersize": {
+            "value": "0.25 0.1 0.6"
+        },
+        "emittertype": {
+            "value": "Box"
+        },
+        "enableloop": {
+            "enable": "true"
+        },
+        "numparticles": {
+            "value": "12"
+        },
+        "particlesize": {
+            "max": "0.02 0.02",
+            "min": "0.01 0.01"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "sizedelta": [
+            {
+                "scale": "0.06 0.06",
+                "time": "0.00"
+            },
+            {
+                "scale": "1.05 1.05",
+                "time": "0.30"
+            },
+            {
+                "scale": "1.26 1.26",
+                "time": "0.90"
+            },
+            {
+                "scale": "1.2 1.2",
+                "time": "1.50"
+            },
+            {
+                "scale": "0.0 0.0",
+                "time": "2.00"
+            },
+            {
+                "scale": "0.0 0.0",
+                "time": "2.00"
+            },
+            {
+                "scale": "0.0 0.0",
+                "time": "2.00"
+            },
+            {
+                "scale": "0.0 0.0",
+                "time": "2.00"
+            },
+            {
+                "scale": "0.0 0.0",
+                "time": "2.00"
+            }
+        ],
+        "texture": {
+            "name": "textures/sfxs/cs_mffgzuoqi_02_0_03"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "velocity": {
+            "max": "0.5",
+            "min": "0.2"
+        }
+    }
+}

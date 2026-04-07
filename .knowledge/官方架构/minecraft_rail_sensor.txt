@@ -1,0 +1,10 @@
+{
+    bool "check_block_types" : opt
+    bool "tick_command_block_on_activate" : opt
+    bool "tick_command_block_on_deactivate" : opt
+    bool "eject_on_activate" : opt
+    bool "eject_on_deactivate" : opt
+     "on_activate" : opt
+     "on_deactivate" : opt
+}
+

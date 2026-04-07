@@ -1,0 +1,24 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseQuestDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.4",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.17.0.release20200430",
+  "_comment": "插件实现的功能",
+  "description": "任务系统",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseQuest",
+  "_comment": "以下为可配置项",
+  "_comment": "是否开启插件内置的任务寻路功能，true为开启，false为关闭",
+  "QuestEnableDefaultNavi": true,
+  "_comment": "是否显示任务栏UI",
+  "EnableUI": true
+}

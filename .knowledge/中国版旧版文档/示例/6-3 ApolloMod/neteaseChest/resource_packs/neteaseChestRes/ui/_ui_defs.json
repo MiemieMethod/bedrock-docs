@@ -1,0 +1,6 @@
+{
+    "ui_defs" : [
+        "ui/TipsUI.json",
+        "ui/ManageUI.json"
+    ]
+}

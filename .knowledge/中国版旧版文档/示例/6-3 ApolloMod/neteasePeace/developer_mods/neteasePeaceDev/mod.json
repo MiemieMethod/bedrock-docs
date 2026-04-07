@@ -1,0 +1,30 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteasePeaceDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.4",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.18.0.release20200806",
+  "_comment": "插件实现的功能",
+  "description": "PVP",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字",
+  "group": "neteasePeace",
+  "_comment": "以下为可配置项",
+  "_comment": "设置本服玩家死亡是否不掉落物品，true为死亡不掉落",
+  "DropProtect": true,
+  "_comment": "PVP有两种模式，为0时需双方都打开PVP才能相互造成伤害，为1时则打开PVP开关的玩家就可以对其他人造成伤害",
+  "PVPMode": 0,
+  "_comment": "个人仇敌列表记录上限条数",
+  "FoeListLenLimit": 20,
+  "_comment": "个人击败对象列表记录上限条数",
+  "LoserListLenLimit": 10,
+  "_comment": "开关PVP冷却时间",
+  "SwitchCD": 24
+}

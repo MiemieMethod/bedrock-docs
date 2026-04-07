@@ -1,0 +1,9 @@
+{
+    float "soft_distance" : opt
+    float "hard_distance" : opt
+    float "max_distance" : opt
+     "on_leash" : opt
+     "on_unleash" : opt
+    bool "can_be_stolen" : opt
+}
+

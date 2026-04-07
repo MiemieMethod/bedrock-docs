@@ -1,0 +1,27 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "customitems:test0": {
+      "textures": "textures/items/customitems_test0"
+    },
+	"customitems:test1": {
+      "textures": "textures/items/customitems_test1"
+    },
+	
+	"customitems:modarmor1": {
+        "textures": "textures/items/spider_helmet.png"
+      },
+    "customitems:modarmor2": {
+        "textures": "textures/items/spider_helmet.png"
+    },
+	
+	"customitems:test_sword": {
+      "textures": "textures/items/customitems_test_sword"
+    },
+	
+    "customitems:test_egg": {
+      "textures": "textures/items/customitems_test_egg"
+    }
+  }
+}

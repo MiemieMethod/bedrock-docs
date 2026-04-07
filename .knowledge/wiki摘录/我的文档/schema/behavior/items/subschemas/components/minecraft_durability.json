@@ -1,0 +1,62 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "damage_chance",
+        "type": {
+          "name": "reference",
+          "reference": "../../../../common/struct/int_range.json"
+        }
+      },
+      {
+        "name": "max_durability",
+        "type": {
+          "name": "integer",
+          "minimum": 0.0
+        }
+      },
+      {
+        "name": "max_damage",
+        "type": {
+          "name": "integer",
+          "minimum": 0.0,
+          "experiment": [
+            {
+              "value": "1.16.100"
+            },
+            {
+              "min": "1.17.0",
+              "max": "1.18.0",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.0",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

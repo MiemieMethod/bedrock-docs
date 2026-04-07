@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By dev",
+        "name": "ntes_sample",
+        "uuid": "5c850d23-64f4-46be-aec0-16c8e4618072",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By dev",
+            "type": "resources",
+            "uuid": "937ff742-7003-4a8b-8d99-722a1b704f12",
+            "version": [0, 0, 1]
+        }
+    ]
+}

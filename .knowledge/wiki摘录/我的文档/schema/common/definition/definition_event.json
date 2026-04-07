@@ -1,0 +1,54 @@
+{
+  "name": "top",
+  "type": {
+    "name": "reference",
+    "reference": "#/definition_types/definition_event"
+  },
+  "definition_types": {
+    "definition_event": {
+      "name": "object",
+      "properties": [
+        {
+          "name": "weight",
+          "type": {
+            "name": "number"
+          }
+        },
+        {
+          "name": "condition",
+          "type": {
+            "name": "reference",
+            "reference": "../molang/expression_node_no_version.json"
+          }
+        },
+        {
+          "name": "randomize",
+          "type": {
+            "name": "array",
+            "additional_element_type": {
+              "name": "reference",
+              "reference": "#/definition_types/definition_event"
+            }
+          }
+        },
+        {
+          "name": "sequence",
+          "type": {
+            "name": "array",
+            "additional_element_type": {
+              "name": "reference",
+              "reference": "#/definition_types/definition_event"
+            }
+          }
+        },
+        {
+          "name": "trigger",
+          "type": {
+            "name": "reference",
+            "reference": "./definition_trigger_no_condition.json"
+          }
+        }
+      ]
+    }
+  }
+}

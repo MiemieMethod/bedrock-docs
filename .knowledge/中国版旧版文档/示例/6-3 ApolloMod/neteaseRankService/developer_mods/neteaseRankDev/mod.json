@@ -1,0 +1,89 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseRankDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.3",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.21.0.release20210401",
+
+  "_comment":"该服务器Mod隶属于“排行榜”插件",
+  "description":"排行榜 mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["Service"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseRank",
+
+  "_comment": "配置service使用到的module_names，对应deploy.json中service下module_names配置",
+  "module_names": [
+    "neteaseRank"
+  ],
+
+  "_comment": "排行榜的格式",
+  "rankCol": [
+    {
+      "colName": "col1",
+      "dataType": "str",
+      "title": "玩家名字",
+      "priority": 1
+    },
+    {
+      "colName": "col2",
+      "dataType": "int",
+      "title": "金币",
+      "priority": 2
+    },
+    {
+      "colName": "col3",
+      "dataType": "int",
+      "title": "积分",
+      "priority": 3
+    },
+    {
+      "colName": "col4",
+      "dataType": "int",
+      "title": "等级",
+      "priority": 4
+    },{
+      "colName": "col5",
+      "dataType": "int",
+      "title": "经验",
+      "priority": 5
+    },{
+      "colName": "col6",
+      "dataType": "int",
+      "title": "血量",
+      "priority": 6
+    }
+  ],
+  "_comment": "排行榜刷新频率",
+  "refresh_frequency": "high",
+
+  "_comment": "排行榜结算时间",
+  "award_time": {
+    "year": "*",
+    "month": "*",
+    "day": "*",
+    "week": "*",
+    "hour": 10,
+    "minute": 43
+  },
+
+  "_comment": "排行榜数据来源的game服名字，*代表全服排行",
+  "rank_data_from_server": "*",
+
+  "_comment": "是否覆盖旧的数据",
+  "is_cover": false,
+
+  "_comment": "备注内容",
+  "remarks_content": "备注：这是网易我的世界官方排行榜！",
+
+  "_comment": "排行榜名字",
+  "rank_name": "官方排行榜"
+}

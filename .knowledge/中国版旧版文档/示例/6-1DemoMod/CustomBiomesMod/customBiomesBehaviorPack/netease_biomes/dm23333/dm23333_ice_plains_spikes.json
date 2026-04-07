@@ -1,0 +1,12 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm23333_ice_plains_spikes", 
+            "inherits": "ice_plains_spikes"
+        },
+        "components": {
+            "dm23333": {}
+        }
+    }
+}

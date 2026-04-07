@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "2214603747",
+    "x-format-version": "1.21.70",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "994075170": {
+            "title": "Reference",
+            "type": "string"
+        }
+    },
+    "title": "minecraft:lighting_identifier",
+    "type": "object",
+    "properties": {
+        "lighting_identifier": {
+            "$ref": "#/definitions/994075170"
+        }
+    },
+    "required": [
+        "lighting_identifier"
+    ]
+}

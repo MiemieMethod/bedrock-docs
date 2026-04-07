@@ -1,0 +1,5 @@
+{
+    float "width" : opt
+    float "height" : opt
+}
+

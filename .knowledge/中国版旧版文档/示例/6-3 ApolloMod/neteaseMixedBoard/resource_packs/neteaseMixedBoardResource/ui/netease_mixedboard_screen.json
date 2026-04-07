@@ -1,0 +1,455 @@
+{
+   "btn_bottom_0@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_MixedBoard/bnt01",
+      "$hover_texture" : "textures/ui/netease_MixedBoard/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.1647058823529412, 0.1647058823529412, 0.1647058823529412 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0.0, 0.0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%netease_InputBoardUI.click",
+      "$pressed_texture" : "textures/ui/netease_MixedBoard/btn01_click",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_mixedboard_screen.default" : {}
+         },
+         {
+            "hover@netease_mixedboard_screen.hover" : {}
+         },
+         {
+            "pressed@netease_mixedboard_screen.pressed" : {}
+         },
+         {
+            "button_label@netease_mixedboard_screen.button_label" : {}
+         },
+         {
+            "item_renderer" : {
+               "alpha" : 1.0,
+               "anchor_from" : "left_middle",
+               "anchor_to" : "left_middle",
+               "clip_offset" : [ 0, 0 ],
+               "clips_children" : false,
+               "enabled" : true,
+               "layer" : 13,
+               "max_size" : [ 0, 0 ],
+               "min_size" : [ 0, 0 ],
+               "offset" : [ 4, 0 ],
+               "propagate_alpha" : false,
+               "property_bag" : {
+                  "#item_id_aux" : 131072
+               },
+               "renderer" : "inventory_item_renderer",
+               "size" : [ 16, 16 ],
+               "type" : "custom",
+               "visible" : true
+            }
+         },
+         {
+            "label@netease_mixedboard_screen.label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 18,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -4, 107 ],
+      "propagate_alpha" : false,
+      "size" : [ 169, 25 ],
+      "visible" : true
+   },
+   "btn_close@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_MixedBoard/icon_close",
+      "$hover_texture" : "",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_InputBoardUI.click",
+      "$pressed_texture" : "",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_mixedboard_screen.default" : {}
+         },
+         {
+            "hover@netease_mixedboard_screen.hover" : {}
+         },
+         {
+            "pressed@netease_mixedboard_screen.pressed" : {}
+         },
+         {
+            "button_label@netease_mixedboard_screen.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -7, 6 ],
+      "propagate_alpha" : false,
+      "size" : [ 15, 15 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "alpha" : "$control_alpha",
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "img_mixboard_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_top_title@netease_mixedboard_screen.lb_top_title" : {}
+         },
+         {
+            "btn_close@netease_mixedboard_screen.btn_close" : {}
+         },
+         {
+            "scroll_view@netease_mixedboard_screen.scroll_view" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : false,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 10,
+      "nine_slice_left" : 8,
+      "nine_slice_right" : 8,
+      "nine_slice_top" : 24,
+      "nineslice_size" : [ 8.0, 24.0, 8.0, 10.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 198, 181 ],
+      "texture" : "textures/ui/netease_MixedBoard/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 32, 64 ],
+      "visible" : true
+   },
+   "label" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.0, 0.0, 0.0 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 13,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 25.0, 1 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 142, 20 ],
+      "text" : "前往活动区域\n§2(活动时间：周末19:30~21:00)",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_top_title" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.1647058823529412, 0.1647058823529412, 0.1647058823529412 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 8 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 51, 8 ],
+      "text" : "新春年兽活动",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_mixedboard_window@netease_mixedboard_screen.pnl_mixedboard_window" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "namespace" : "netease_mixedboard_screen",
+   "pnl_mixedboard_window" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_mixboard_bg@netease_mixedboard_screen.img_mixboard_bg" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 320, 210 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_scroll_content" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "scroll_text_content@netease_mixedboard_screen.scroll_text_content" : {}
+         },
+         {
+            "btn_bottom_0@netease_mixedboard_screen.btn_bottom_0" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 184, 160 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pressed" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "screen_scroll_view" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_scroll_content@netease_mixedboard_screen.pnl_scroll_content" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "nineslice_size" : "$background_nineslice_size",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "nineslice_size" : "$box_nineslice_size",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_text_content" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0.0, 330.0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -4, 5 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 169, "default" ],
+      "text" : "每晚19:30~21:00将会在活动场地中刷出一只年兽击败后将会根据伤害排行榜发奖,若能成功击败年兽,活动场地还会下红包雨\n第1名：5000钻石+【英雄】称号（7天）\n第2名：3000钻石+【勇士】称号（7天）\n第3名：3000钻石+【勇士】称号（7天）\n第3名：3000钻石+【勇士】称号（7天）\n第3名：3000钻石+【勇士】称号（7天）\n第3名：3000钻石+【勇士】称号（7天）",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "nineslice_size" : "$track_nineslice_size",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   },
+   "scroll_view@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 2,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 2,
+      "$box_nineslice_size" : [ 0.0, 2.0, 0.0, 2.0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "netease_mixedboard_screen.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "netease_mixedboard_screen.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/netease_MixedBoard/progress_bar_01",
+      "$scroll_box_touch_image_control" : "netease_mixedboard_screen.scroll_box_image",
+      "$scroll_track_image_control" : "netease_mixedboard_screen.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/netease_MixedBoard/progress_bar_01_bg",
+      "$scrolling_content" : "netease_mixedboard_screen.pnl_scroll_content",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 2,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 2,
+      "$track_nine_slice_top" : 2,
+      "$track_nineslice_size" : [ 0.0, 2.0, 2.0, 2.0 ],
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 20,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 7 ],
+      "propagate_alpha" : true,
+      "size" : [ 182, 148 ],
+      "type" : "scroll_view",
+      "visible" : true
+   }
+}

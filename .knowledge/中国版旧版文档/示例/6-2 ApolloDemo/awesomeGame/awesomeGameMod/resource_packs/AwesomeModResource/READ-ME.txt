@@ -1,0 +1,23 @@
+###################################################################################
+
+Resource packs are add-ons that can modify textures, models, animations, music sounds, user interfaces, and languages.  
+
+WARNING:
+		1.	pack_manifest.json must be in this floder, you can't remove it.
+
+NOTIFYING:
+		1. 	pack_icon.jpg can be replaced. It is used for sign this addon's resource.
+		2. 	pack_manifest.json need to modify something that is null, but is not necessary.
+		   	But be careful, don't modify the existed thing. 
+		3. 	/model for model.
+		   	/shader for shader, modify the shadow.
+		   	/texts for languagegs.
+		   	/textures for textures.
+		   	/ui for ui.
+		   	sound.json for sound, now it is null.
+
+Know More: https://minecraft.gamepedia.com/Tutorials/Creating_resource_pack_add-ons
+
+Good Luck!!!
+
+###################################################################################

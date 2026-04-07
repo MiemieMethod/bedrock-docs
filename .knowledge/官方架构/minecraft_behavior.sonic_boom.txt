@@ -1,0 +1,20 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "duration" : opt
+    float "speed_multiplier" : opt
+    float "attack_damage" : opt
+    float "attack_range_horizontal" : opt
+    float "attack_range_vertical" : opt
+    float "attack_cooldown" : opt
+    float "knockback_vertical_strength" : opt
+    float "knockback_horizontal_strength" : opt
+    float "knockback_height_cap" : opt
+    float "duration_until_attack_sound" : opt
+    string "attack_sound" : opt
+    string "charge_sound" : opt
+}
+

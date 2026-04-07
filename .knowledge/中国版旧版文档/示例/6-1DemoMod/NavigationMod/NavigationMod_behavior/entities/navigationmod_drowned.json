@@ -1,0 +1,57 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "navigationmod:drowned",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "components": {
+    
+      "minecraft:follow_range": {
+        "value": 48,
+        "max": 48
+      },
+    
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.06
+      },
+      "minecraft:movement.generic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:movement": {
+        "value": 0.23
+      },
+      
+      "minecraft:navigation.generic": {
+          "is_amphibious": true,
+          "can_path_over_water": false,
+          "can_break_doors": true,
+          "can_swim": true,
+          "can_walk": true,
+          "avoid_sun": true
+      },
+
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+
+  }
+}

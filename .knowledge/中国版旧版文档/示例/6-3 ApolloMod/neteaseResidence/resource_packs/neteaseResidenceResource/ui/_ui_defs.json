@@ -1,0 +1,9 @@
+{
+    "ui_defs": [
+        "ui/netease_residence_applyUI.json",
+        "ui/netease_residence_giveUI.json",
+        "ui/netease_residence_managerUI.json",
+        "ui/netease_residence_myUI.json",
+        "ui/netease_residence_transferUI.json"
+    ]
+}

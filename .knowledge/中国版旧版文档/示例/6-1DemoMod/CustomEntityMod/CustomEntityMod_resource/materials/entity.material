@@ -1,0 +1,18 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "custom_entity:entity_static": {
+      "+defines": [ "USE_OVERLAY", "USE_SKINNING", "RNGL_PLAYER", "SELF_DEFINE" ],
+      "msaaSupport": "Both"
+    },
+    "custom_player_bloom:entity_alphatest": {
+      "+defines": [ "USE_BLOOM" ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 1,
+          "textureFilter": "Point"
+        }
+      ]
+    }
+  }
+}

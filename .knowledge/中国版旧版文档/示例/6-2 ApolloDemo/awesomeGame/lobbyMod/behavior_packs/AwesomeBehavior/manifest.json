@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By netease",
+        "name": "ntes_awesome",
+        "uuid": "5329e014-d5fb-407b-8d88-f5cb78974339",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By netease",
+            "type": "data",
+            "uuid": "930ca1b6-c799-4bf2-8269-ada633d15932",
+            "version": [0, 0, 1]
+        }
+    ]
+}

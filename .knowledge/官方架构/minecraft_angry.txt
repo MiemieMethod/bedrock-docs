@@ -1,0 +1,19 @@
+{
+    int "duration" : opt
+    int "duration_delta|durationDelta" : opt
+    bool "broadcast_anger|broadcastAnger" : opt
+    bool "broadcast_anger_on_attack|broadcast_anger_on_attack" : opt
+    bool "broadcast_anger_on_being_attacked|broadcast_anger_on_being_attacked" : opt
+    int "broadcast_range|broadcastRange" : opt
+     "broadcast_filters|broadcastFilters" : opt
+     "calm_event|calmEvent" : opt
+    string "broadcast_targets|broadcastTargets" : opt
+    array "broadcast_targets|broadcastTargets" : opt
+    {
+        string "<any array element>" : opt
+    }
+     "filters" : opt
+    string "angry_sound|angrySound" : opt // The sound event to play when the mob is angry
+    float_range "sound_interval|soundInterval" : opt // The range of time in seconds to randomly wait before playing the sound again
+}
+

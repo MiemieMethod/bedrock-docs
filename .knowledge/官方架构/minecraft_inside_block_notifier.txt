@@ -1,0 +1,7 @@
+{
+    array "block_list"
+    {
+        inside_block_event_map "<any array element>" : opt
+    }
+}
+

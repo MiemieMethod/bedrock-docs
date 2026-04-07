@@ -1,0 +1,24 @@
+{
+    int "minTemper|min_temper" : opt
+    int "maxTemper|max_temper" : opt
+    int "attemptTemperMod|attempt_temper_mod" : opt
+    string "feed_text" : opt
+    string "ride_text" : opt
+     "tame_event" : opt
+    array "feedItems|feed_items" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "item" : opt
+            int "temperMod|temper_mod" : opt
+        }
+    }
+    array "autoRejectItems|auto_reject_items" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "item" : opt
+        }
+    }
+}
+

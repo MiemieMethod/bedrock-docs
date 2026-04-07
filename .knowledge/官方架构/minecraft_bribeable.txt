@@ -1,0 +1,9 @@
+{
+    float "bribe_cooldown" : opt
+     "bribe_items" : opt
+    array "bribe_items" : opt
+    {
+         "<any array element>" : opt
+    }
+}
+

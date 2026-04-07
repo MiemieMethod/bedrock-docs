@@ -1,0 +1,13 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "duration" : opt
+    float "sniffing_radius" : opt
+    float "suspicion_radius_horizontal" : opt
+    float "suspicion_radius_vertical" : opt
+    float_range "cooldown_range" : opt
+}
+

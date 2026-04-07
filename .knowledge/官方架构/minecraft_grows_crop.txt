@@ -1,0 +1,5 @@
+{
+    int "charges" : opt
+    float "chance" : opt
+}
+

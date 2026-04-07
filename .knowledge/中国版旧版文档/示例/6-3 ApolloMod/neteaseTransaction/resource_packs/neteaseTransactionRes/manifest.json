@@ -1,0 +1,17 @@
+{
+    "header": {
+        "uuid": "a94e3514-8677-4265-b388-107aa2b965c1",
+        "version": [ 0, 0, 1 ],
+        "description": "By Netease lioneldy",
+        "name": "neteaseTransaction"
+    },
+    "modules": [
+        {
+            "version": [ 0, 0, 1 ],
+            "type": "resources",
+            "description": "By Netease lioneldy",
+            "uuid": "1032763f-96de-48f2-b2d2-ca5222767e7e"
+        }
+    ],
+    "format_version": 1
+}

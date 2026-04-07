@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+   "description": {
+     "identifier": "customcrop:customcrop_stage1",
+      "register_to_creative_menu": true,
+      "is_experimental": false,
+      "base_block": "custom_crop_block"
+    },
+    "components": {
+      "minecraft:block_light_absorption": {
+        "value": 0
+      },
+      "netease:render_layer": {
+        "value": "alpha"
+      },
+      "netease:aabb": {
+        "collision": {
+          "min": [0.0, 0.0, 0.0],
+          "max": [0.0, 0.0, 0.0]
+        },
+        "clip": {
+          "min": [0.0, 0.0, 0.0],
+          "max": [1.0, 0.625, 1.0]
+        }
+      },
+      "netease:transform": {
+        "conditions": {
+          "brightness": {
+            "max": 15,
+            "min": 9
+          },
+          "random_tick_count": {
+            "value": 1
+          },
+          "surrouding": {
+            "value": "minecraft:sand",
+            "radius": 1
+          }
+        },
+        "result": "customcrop:customcrop_stage2"
+      },
+      "netease:block_entity": {
+        "tick": false,
+        "movable": true
+      }
+    }
+  }
+}

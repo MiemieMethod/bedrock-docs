@@ -1,0 +1,159 @@
+{
+	"format_version": "1.13.0",
+	"netease:block_geometry": 
+		{
+			"description": {
+				"identifier": "customblocks:customblocks_model_decoration",
+				"textures": ["customblocks:customblocks_model_decoration0", "customblocks:customblocks_model_decoration1", "emerald_block"],	//模型的贴图，包括两张自定义贴图，以及复用原版绿宝石块的贴图
+				"use_ao": true	//开启环境光遮蔽
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [-8, 0, 8],
+					"rotation": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "root",
+					"pivot": [-4, 4, 4],
+					"rotation": [-20, -20, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 0],
+							"size": [4, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [4, 4]},
+								"east": {"uv": [12, 0], "uv_size": [4, 4]},
+								"south": {"uv": [4, 0], "uv_size": [4, 4]},
+								"west": {"uv": [8, 0], "uv_size": [4, 4]},
+								"up": {"uv": [4, 8], "uv_size": [-4, -4]},
+								"down": {"uv": [4, 4], "uv_size": [4, 4]}
+							}
+						},
+						{
+							"origin": [-6, 1, 1],
+							"size": [2, 2, 2],
+							"pivot": [4, -4, -4],
+							"rotation": [-15, -15, 15],
+							"uv": {
+								"north": {"uv": [0, 8], "uv_size": [2, 2]},
+								"east": {"uv": [6, 8], "uv_size": [2, 2]},
+								"south": {"uv": [2, 8], "uv_size": [2, 2]},
+								"west": {"uv": [4, 8], "uv_size": [2, 2]},
+								"up": {"uv": [2, 12], "uv_size": [-2, -2]},
+								"down": {"uv": [2, 10], "uv_size": [2, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [-6, 12, 2],
+					"rotation": [0, 20, -10],
+					"texture": 1,	//该bone使用第二张贴图
+					"cubes": [
+						{
+							"origin": [-12, 5, 2],
+							"size": [4, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [4, 4]},
+								"east": {"uv": [12, 0], "uv_size": [4, 4]},
+								"south": {"uv": [4, 0], "uv_size": [4, 4]},
+								"west": {"uv": [8, 0], "uv_size": [4, 4]},
+								"up": {"uv": [4, 8], "uv_size": [-4, -4]},
+								"down": {"uv": [4, 4], "uv_size": [4, 4]}
+							}
+						},
+						{
+							"origin": [-14, 6, 3],
+							"size": [2, 2, 2],
+							"pivot": [-8, 5, 2],
+							"rotation": [-15, -15, 15],
+							"uv": {
+								"north": {"uv": [0, 8], "uv_size": [2, 2]},
+								"east": {"uv": [6, 8], "uv_size": [2, 2]},
+								"south": {"uv": [2, 8], "uv_size": [2, 2]},
+								"west": {"uv": [4, 8], "uv_size": [2, 2]},
+								"up": {"uv": [2, 12], "uv_size": [-2, -2]},
+								"down": {"uv": [2, 10], "uv_size": [2, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone2",
+					"pivot": [-5, 7, 4],
+					"rotation": [0, 15, 10],
+					"cubes": [
+						{
+							"origin": [-17, 9, 3],
+							"size": [4, 4, 4],
+							"texture": 1,	//该cube会使用第二张贴图
+							"uv": {
+								"north": {"uv": [6, 6], "uv_size": [4, 4], "texture": 2},	//该face会使用第三张贴图
+								"east": {"uv": [6, 6], "uv_size": [4, 4], "texture": 2},	//该face会使用第三张贴图
+								"south": {"uv": [6, 6], "uv_size": [4, 4], "texture": 2},	//该face会使用第三张贴图
+								"west": {"uv": [6, 6], "uv_size": [4, 4], "texture": 2},	//该face会使用第三张贴图
+								"up": {"uv": [4, 8], "uv_size": [-4, -4]},
+								"down": {"uv": [4, 4], "uv_size": [4, 4]}
+							}
+						},
+						{
+							"origin": [-19, 10, 4],
+							"size": [2, 2, 2],
+							"pivot": [-13, 9, 3],
+							"rotation": [-15, -15, 15],
+							"texture": 1,	//该cube会使用第二张贴图
+							"uv": {
+								"north": {"uv": [7, 7], "uv_size": [2, 2], "texture": 2},	//该face会使用第三张贴图
+								"east": {"uv": [7, 7], "uv_size": [2, 2], "texture": 2},	//该face会使用第三张贴图
+								"south": {"uv": [7, 7], "uv_size": [2, 2], "texture": 2},	//该face会使用第三张贴图
+								"west": {"uv": [7, 7], "uv_size": [2, 2], "texture": 2},	//该face会使用第三张贴图
+								"up": {"uv": [2, 12], "uv_size": [-2, -2]},
+								"down": {"uv": [2, 10], "uv_size": [2, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone3",
+					"pivot": [-6, 6, 11],
+					"rotation": [25, 30, 40],
+					"cubes": [
+						{
+							"origin": [-18, 9, 5],
+							"size": [4, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [4, 4], "rot": 90},	//顺时针旋转90度
+								"east": {"uv": [12, 4], "uv_size": [4, -4]},	//UV Mirror Y
+								"south": {"uv": [4, 0], "uv_size": [4, 4], "rot": 270},	//顺时针旋转270度
+								"west": {"uv": [12, 0], "uv_size": [-4, 4]},	//UV Mirror X
+								"up": {"uv": [0, 8], "uv_size": [4, -4], "rot": 90},	//UV Mirror X，并顺时针旋转90度
+								"down": {"uv": [4, 8], "uv_size": [4, -4], "rot": 270}	//UV Mirror Y，并顺时针旋转270度
+							}
+						},
+						{
+							"origin": [-16, 9, 4],
+							"size": [2, 2, 2],
+							"pivot": [-14, 14, 7],
+							"rotation": [-15, -15, 15],
+							"uv": {
+								"north": {"uv": [0, 8], "uv_size": [2, 2]},
+								"east": {"uv": [6, 8], "uv_size": [2, 2]},
+								"south": {"uv": [2, 8], "uv_size": [2, 2]},
+								"west": {"uv": [4, 8], "uv_size": [2, 2]},
+								"up": {"uv": [2, 12], "uv_size": [-2, -2]},
+								"down": {"uv": [2, 10], "uv_size": [2, 2]}
+							}
+						}
+					]
+				}
+			]
+		
+		}
+
+}

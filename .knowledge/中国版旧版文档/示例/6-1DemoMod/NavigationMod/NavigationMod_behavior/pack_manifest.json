@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "NavigationMod",
+        "name": "NavigationMod",
+        "uuid": "5f9fcad6-7735-4a78-8f20-13a5532179fe",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+            "description": "NavigationMod",
+            "type": "data",
+            "uuid": "7517165b-de9a-4544-8a5e-7b2845c9c504",
+            "version": [0, 0, 1],
+            "min_engine_version": [1, 13, 0]
+        }
+    ]
+}

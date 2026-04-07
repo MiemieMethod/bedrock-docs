@@ -1,0 +1,337 @@
+{
+    "namespace": "customFurnaceUI",
+    "main": {
+        "controls": [
+            {
+                "customContainerPanel@customFurnaceUI.customFurnacePanel": {}
+            }
+        ],
+        "type": "screen"
+    },
+    "customFurnacePanel": {
+        "anchor_from": "top_middle",
+        "anchor_to": "top_middle",
+        "type": "panel",
+        "controls": [
+            {
+                "headerContentStackPanel@customFurnaceUI.headerContentStackPanel": {}
+            },
+            {
+                "background@neteaseCommonUI.background": {}
+            },
+            {
+                "itemDetail@neteaseCommonUI.itemDetail": {}
+            },
+            {
+                "dropArea@neteaseCommonUI.dropButton": {
+                    "layer": 3
+                }
+            },
+            {
+                "progressiveBar@neteaseCommonUI.progressBar": {
+                    "$progressBarSize": [
+                        18,
+                        3
+                    ],
+                    "$barMaskSize": [
+                        "100.0%+0.0px",
+                        "100.0%+0.0px"
+                    ]
+                }
+            }
+        ],
+        "layer": 1,
+        "offset": [
+            0,
+            0
+        ],
+        "visible": true
+    },
+    "headerContentStackPanel": {
+        "$header_name": "自定义熔炉",
+        "type": "stack_panel",
+        "orientation": "vertical",
+        "size": [
+            "100%",
+            "100%"
+        ],
+        "layer": 2,
+        "controls": [
+            {
+                "header@neteaseCommonUI.header": {}
+            },
+            {
+                "contentPanel@customFurnaceUI.contentPanel": {}
+            }
+        ]
+    },
+    "contentPanel": {
+        "type": "panel",
+        "controls": [
+            {
+                "leftPanel@customFurnaceUI.leftPanel": {}
+            },
+            {
+                "rightPanel@customFurnaceUI.rightPanel": {}
+            },
+            {
+                "flyImgTemplate@customFurnaceUI.flyImg": {}
+            }
+        ]
+    },
+    "leftPanel": {
+        "anchor_from": "left_middle",
+        "anchor_to": "left_middle",
+        "controls": [
+            {
+                "bagContent@neteaseCommonUI.bagContent": {}
+            }
+        ],
+        "layer": 0,
+        "offset": [
+            0,
+            0
+        ],
+        "size": [
+            "50%",
+            "100%"
+        ],
+        "type": "panel",
+        "visible": true
+    },
+    "rightPanel": {
+        "anchor_from": "right_middle",
+        "anchor_to": "right_middle",
+        "controls": [
+            {
+                "furnaceSlot2@customFurnaceUI.furnaceSlot2": {}
+            },
+            {
+                "furnaceSlot1@customFurnaceUI.furnaceSlot1": {}
+            },
+            {
+                "furnaceSlot0@customFurnaceUI.furnaceSlot0": {}
+            },
+            {
+                "resultName@customFurnaceUI.resultName": {}
+            },
+            {
+                "fuelName@customFurnaceUI.fuelName": {}
+            },
+            {
+                "inputName@customFurnaceUI.inputName": {}
+            },
+            {
+                "fire@customFurnaceUI.fire": {}
+            },
+            {
+                "arrow@customFurnaceUI.arrow": {}
+            }
+        ],
+        "layer": 0,
+        "offset": [
+            0,
+            0
+        ],
+        "size": [
+            "50%",
+            "100%"
+        ],
+        "type": "panel",
+        "visible": true
+    },
+    "arrow": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "arrowMask@customFurnaceUI.arrowMask": {}
+            }
+        ],
+        "layer": 20,
+        "offset": [
+            0,
+            -16
+        ],
+        "size": [
+            22,
+            15
+        ],
+        "texture": "textures/ui/arrow_img",
+        "type": "image",
+        "visible": true
+    },
+    "arrowMask": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "layer": 21,
+        "offset": [
+            0,
+            0
+        ],
+        "size": [
+            "100.0%+0.0px",
+            "100.0%+0.0px"
+        ],
+        "clip_direction": "left",
+        "texture": "textures/ui/arrow_mask",
+        "type": "image",
+        "visible": true
+    },
+    "fire": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "fireMask@customFurnaceUI.fireMask": {}
+            }
+        ],
+        "layer": 18,
+        "offset": [
+            -40,
+            -16
+        ],
+        "size": [
+            13,
+            13
+        ],
+        "texture": "textures/ui/flame_img",
+        "type": "image",
+        "visible": true
+    },
+    "fireMask": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "layer": 19,
+        "offset": [
+            0,
+            0
+        ],
+        "size": [
+            "100.0%+0.0px",
+            "100.0%+0.0px"
+        ],
+        "texture": "textures/ui/flame_mask",
+        "type": "image",
+        "clip_direction": "down",
+        "visible": true
+    },
+    "furnaceSlot0@neteaseCommonUI.itemBtn": {
+        "$item_button_layer": 14,
+        "$item_button_offset": [
+            42,
+            -16
+        ],
+        "$item_button_size": [
+            32,
+            32
+        ]
+    },
+    "resultName": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "color": [
+            0,
+            0,
+            0
+        ],
+        "layer": 23,
+        "offset": [
+            42,
+            -42
+        ],
+        "shadow": false,
+        "size": [
+            64,
+            "default"
+        ],
+        "text": "结果",
+        "text_alignment": "center",
+        "type": "label",
+        "visible": true
+    },
+    "furnaceSlot1@neteaseCommonUI.itemBtn": {
+        "$item_button_layer": 10,
+        "$item_button_offset": [
+            -40,
+            16
+        ],
+        "$item_button_size": [
+            32,
+            32
+        ]
+    },
+    "fuelName": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "color": [
+            0,
+            0,
+            0
+        ],
+        "layer": 23,
+        "offset": [
+            -40,
+            42
+        ],
+        "shadow": false,
+        "size": [
+            64,
+            "default"
+        ],
+        "text": "燃料",
+        "text_alignment": "center",
+        "type": "label",
+        "visible": true
+    },
+    "furnaceSlot2@neteaseCommonUI.itemBtn": {
+        "$item_button_layer": 6,
+        "$item_button_offset": [
+            -40,
+            -48
+        ],
+        "$item_button_size": [
+            32,
+            32
+        ]
+    },
+    "inputName": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "color": [
+            0,
+            0,
+            0
+        ],
+        "layer": 23,
+        "offset": [
+            -40,
+            -74
+        ],
+        "shadow": false,
+        "size": [
+            64,
+            "default"
+        ],
+        "text": "输入",
+        "text_alignment": "center",
+        "type": "label",
+        "visible": true
+    },
+    "flyImg": {
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "layer": 33,
+        "offset": [
+            0,
+            0
+        ],
+        "size": [
+            24,
+            24
+        ],
+        "type": "custom",
+        "visible": true,
+        "renderer": "inventory_item_renderer"
+    }
+}

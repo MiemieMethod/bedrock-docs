@@ -1,0 +1,6 @@
+{
+    int "regeneration_duration" : opt
+    bool "apply_to_self" : opt
+    bool "apply_to_family" : opt
+}
+

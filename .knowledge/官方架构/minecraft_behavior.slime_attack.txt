@@ -1,0 +1,13 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "x_max_rotation" : opt
+    float "y_max_rotation" : opt
+    float "speed_multiplier" : opt
+    float "grow_tired_cooldown_time" : opt
+    bool "set_persistent" : opt
+}
+

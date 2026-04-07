@@ -1,0 +1,657 @@
+\documentclass[a4,11pt]{aleph-notas}
+% Se recomienda leer la documentación de esta
+% clase en https://www.alephsub0.org/recursos/
+
+% -- Paquetes adicionales
+\usepackage{amsmath,latexsym,amssymb,amsthm,mathrsfs,graphicx,fancyhdr,lastpage,enumerate,tablists,dashrule}
+\usepackage[UTF8]{ctex}
+\usepackage{aleph-comandos}
+\usepackage{enumitem}
+%\usepackage{amssymb}
+\usepackage{fontspec}
+\usepackage{siunitx}
+\usepackage{stmaryrd}
+\usepackage{braket}
+\usepackage{longtable}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\algrenewcommand\algorithmicrequire{\textsc{Input}:}
+\algrenewcommand\algorithmicensure{\textsc{Output}:}
+\DeclareSIUnit\tick{t}
+\DeclareSIUnit\rtick{rt}
+\DeclareSIUnit\mspt{mspt}
+\DeclareSIUnit\tps{tps}
+\setmainfont{texgyrepagella-regular.otf}[
+  BoldFont=texgyrepagella-bold.otf,
+  ItalicFont=texgyrepagella-italic.otf
+]
+\setmonofont{consola}[
+    Path=./Fonts/,
+    Scale=0.85,
+    Extension = .ttf,
+    UprightFont=*,
+    BoldFont=*b,
+    ItalicFont=*i,
+    BoldItalicFont=*z
+]
+\setCJKmainfont{ChillDuanHeiSong}[
+    Path=./Fonts/,
+    Extension = .otf,
+    UprightFont=*Regular,
+    BoldFont=*Bold,
+    SwashFont=*Soft
+]
+\usepackage{polyglossia}
+\usepackage{minted}
+% -- Datos de las notas
+\universidad{Minecraft基岩版开发Wiki}
+\autor{方法放寒假 a.k.a. Miemie Method}
+\materia{Lecture Series}
+\nota{附加包理论与应用 - 附录}
+\fecha{\today}
+
+\longtitulo{0.65\linewidth}
+\logouno[4.0cm]{Logos/logo}
+\logodos[1.2cm]{Logos/wiki}
+
+% -- Comandos adicionales
+
+
+\begin{document}
+
+\encabezado
+
+\appendix
+
+\vspace*{-8mm}
+\section{红石系统基础 Redstone System Basis}
+
+\subsection{引言 Introduction}
+
+由于世界模板是附加包的一种，因此在创作一个世界模板中遇到的任何技术性问题都应归结为附加包技术性问题，这包括Minecraft世界的创造过程中产生的问题。因此，地形、建筑和红石系统自然而然地被认为是一类与附加包相关的技术性问题。同时，由于命令与函数是附加包开发绕不开的一环，而用于执行命令和函数的命令方块也部分隶属于红石系统，因此了解一定的红石系统运作原理将是附加包开发者必不可少的一项任务。
+
+在本节附录中，我们将通过尽可能接近程序底层的语言表述来了解红石系统运作必不可少的基础知识。
+
+\subsection{预备知识 Preliminaries}
+
+\begin{defi}[维度 dimension]
+    \textbf{维度}是Minecraft中的一个无限三维空间，即$\R^3$。Minecraft中允许独立地存在多个维度，我们以$\mathcal{D}_i$来代表一个维度，其中指标$i$是该维度的数字标识符。特别地，对于原版的维度，我们分别用$\mathcal{D}_0,\mathcal{D}_1,\mathcal{D}_2$来代表主世界、下界和末地。
+\end{defi}
+
+\begin{defi}[存档 level]
+    \textbf{存档}是一个完整的Minecraft游戏实例，封装并控制了游戏内所有对象的运行。
+\end{defi}
+
+\begin{defi}[世界 world]
+    \textbf{世界}是全体维度及维度内所有物体的集合。
+\end{defi}
+
+\begin{defi}[方块 block]
+    \textbf{方块}是可以出现在世界的某一个维度中并占据一个整分量坐标的物体。严格地说，方块$\mathcal{B}=(\mathrm{id},P,\mathcal{A})$是一个三元组，其中$\mathrm{id}$是一个字符串，代表该方块所属类型的赋命名空间标识符。赋命名空间标识符分为命名空间和名称两部分，格式为\texttt{<namespace>:<name>}。$P$是一个集合，代表该方块当前位于的置换。$\mathcal{A}$是一个方块实体，代表该方块当前所绑定的方块实体。
+\end{defi}
+
+\begin{defi}[方块状态 block state]
+    \textbf{方块状态}是用于控制方块基本表现的属性。每个方块状态$s=(\mathsf{State},v)$是一个二元组，其中$\mathsf{State}$代表该方块状态的状态名，$v$是当前状态的取值，值的类型由$\mathsf{State}$确定，可能的类型为整数、布尔值和字符串。
+\end{defi}
+
+\begin{defi}[方块置换 block permutation]
+    \textbf{方块置换}是方块状态的集合。置换$P=\{s_i\}_{i\in I}$，其中$s_i$是方块状态，$I$是指标集。
+\end{defi}
+
+\begin{defi}[方块实体 block entity]
+    \textbf{方块实体}是一种伴随特定方块一同出现和消失的物体，其具有类似于实体一样的存储能力。方块实体$\mathcal{A}=(\mathrm{id},\mathbf{D})$是一个二元组，其中$\mathrm{id}$是一个字符串，代表该方块实体所属类型的标识符，格式为\texttt{<name>}。$\mathbf{D}$是方块实体的数据，格式为NBT中的复合标签。有些方块没有方块实体，这样的方块被视作具有空方块实体。空方块实体记作$\mathcal{O}$。
+\end{defi}
+
+\begin{defi}[位置 position]
+    \textbf{位置}是世界中每个维度的一个三维向量。严格地说，位置$p=(x,y,z)^\top\in\R^3$是一个三维向量。\textbf{方块位置}是一种特殊的位置，是一个整分量三维向量，即方块位置$p=(x,y,z)^\top\in\Z^3$。更为特别地，\textbf{区块位置}是一个整分量二维向量，只有$x$和$z$坐标，即区块位置$p=(x,z)^\top\in\Z^2$。
+\end{defi}
+
+我们可以将定义1中的第一句话用位置的语言重新表述，即方块是出现在世界的某一个维度中并占据一个方块位置的物体。在所处维度没有歧义的情况下，如果方块$\mathcal{B}$占据了位置$p$，我们用$(p,\mathcal{B})$来记这件事。如果同时需要指定所处维度为$\mathcal{D}$，我们用$(\mathcal{D},p,\mathcal{B})$来记这件事。
+
+\begin{defi}[滴答 ticking]
+    游戏主循环每循环一次，称作\textbf{滴答}一次。滴答一次所需要的时间称为\textbf{刻}，作为单位时缩写为\textbf{t}。
+\end{defi}
+
+每刻被分为两部分，分别为主要逻辑执行所消耗的时间和刻意留出的空闲时间。当时间单位换算为毫秒时，前者所耗时间代表着每刻实际逻辑执行的毫秒数，作为单位被称为\textbf{毫秒每刻}，缩写为\textbf{mspt}。后者是为了使每秒滴答次数固定在一个值而设置的延时时间，这个固定的值被称为每秒最大滴答数。实际每秒滴答数作为单位被称为\textbf{刻每秒}，缩写为\textbf{tps}
+
+\begin{fact}
+    Minecraft的每秒最大滴答数为$20$。
+\end{fact}
+
+这意味着每刻换算为毫秒后最小时间是$\qty{50}{\ms}$。如果某一刻的mspt超过了$50$，那么该刻总耗时将超过$\qty{50}{\ms}$，这意味着此时tps将小于$20$。在每次滴答中，游戏内的各个组件都将按照特定的顺序依次滴答，这包括实体、方块、方块实体、红石系统的滴答等等。
+
+\begin{conv}
+    我们约定，对任意对象$x$，我们将其滴答的算法一概记作$\mathsf{tick}(x)$，参数可变。游戏主循环的滴答本质上是存档自身的滴答，我们单纯将其记作$\mathsf{tick}$。
+\end{conv}
+
+由于刻意的游戏设计，存档每滴答两次，红石系统才会滴答一次，我们把红石系统滴答的那一刻称为\textbf{红石刻}。可以看出，每$20$刻内只有$10$红石刻。因此我们也将红石刻作为单位使用，缩写为\textbf{rt}。$\qty{1}{\rtick}=\qty{2}{\tick}$。在本文中，谈及刻，如果没有特别指明是红石刻，那么谈及的都是每秒$\qty{20}{\tick}$的一般的刻。
+
+\begin{defi}[存档区块 level chunk]
+    在Minecraft世界中，每个$l+[0,16)\times\R\times[0,16)$的区域被称为\textbf{存档区块}，简称\textbf{区块}，其中$l=(16i,0,16j)^\top,i,j\in\Z$。每个存档区块记作$\mathcal{C}=(\mathcal{D},p)$，其中$\mathcal{D}$是该存档区块所处维度，$p=(i,j)^\top\in\Z^2$是区块位置。
+\end{defi}
+
+每个存档区块具有诸多属性。对每个存档区块，我们有其\textbf{子区块}集$C=\{\mathcal{C}_i\}_{i\in\llbracket-4,19\rrbracket}$，其中每个子区块$\mathcal{C}_i=\{(p=(x,16i+y,z)^\top,\mathcal{B}_p)\}_{x,y,z\in\llbracket0,15\rrbracket}$是一个$16\times16\times16$的集合，代表一个$16\times16\times16$的区域里方块及其位置分布。有生物群系集$B=\{(p=(x,y,z)^\top,\mathscr{B}_p)\}_{x,z\in\llbracket0,12\rrbracket_4,y\in\llbracket-64,316\rrbracket_4}$，代表整个区块内每个方块位置的生物群系分布，其中$\llbracket\cdot,\cdot\rrbracket_4$代表步长为$4$的整数区间。有实体集$E=\{\mathcal{E}_i\}_i$和方块实体集$A=\{\mathcal{A}_i\}_i$，代表区块内所有实体和方块实体。有硬编码生成区域集$H=\{\mathcal{H}_i\}_i$，代表整个区块内所有的硬编码生成区域。
+
+\subsection{电路元件 Circuit Component}
+
+\begin{defi}[电路系统 circuit system]
+    \textbf{电路系统}是Minecraft中用于更新红石电路状态的系统，独立于存档区块而存在。
+\end{defi}
+
+\begin{fact}
+    对每个维度$\mathcal{D}$，有且仅有一个电路系统。
+\end{fact}
+
+电路系统仅负责存储和更新整个维度中电路的连接情况及每坐标的电路信号强度，而不负责使各坐标处的方块做出响应。方块和实体做出响应依赖于方块、方块实体和实体自身的滴答，这部分隶属于存档区块系统的滴答。我们把电路系统和与红石相关的所有对象的滴答放在一起，合称为\textbf{红石系统}。
+
+\begin{defi}[电路场景图 circuit scene graph]
+    每个电路系统内记录了一个图，这个图记录了当前维度内全体红石电路，被称为\textbf{电路场景图}，简称\textbf{场景图}。每个场景图是一个有向带权图，记为$G=(V,E)$，其中$V=\Set{v=(p,\mathfrak{c}_p)|p\in\Z^3}$是全体顶点的集合，代表电路元件及其位置，$E=\Set{e_{ij}=(v_i,v_j)|v_i,v_j\in V}$是全体边的集合，代表电路元件之间的关系。
+\end{defi}
+
+\begin{defi}[电路元件 circuit component]
+    \textbf{电路元件}是电路系统内的基本组件，记作$\mathfrak{c}=(\mathrm{tp},s)$，其中$\mathrm{tp}$是该元件的类型，$s\in\llbracket0,15\rrbracket$是红石信号的强度。空元件记作$\mathfrak{o}$。
+\end{defi}
+
+电路元件具有诸多类型。\textbf{产能器}元件是一类可以生产能量的元件，又称作\textbf{电源}、\textbf{信号源}，主要为其他元件提供能量，其类型记作$\mathrm{tp}=\mathsf{producer}$。\textbf{耗能器}元件是一类能消耗能量的元件，又称作\textbf{机械元件}，主要表现在其对应的方块可以响应非$0$的红石信号强度，其类型记作$\mathrm{tp}=\mathsf{consumer}$。\textbf{传输器}元件是一类能传输能量的元件，又称作\textbf{传输元件}，其类型记作$\mathrm{tp}=\mathsf{transporter}$。\textbf{受能方块}是一类特殊的元件，其本身可以具备非$0$的红石信号强度，并且在特定情况下某些受能方块可以作为信号源继续为其他方块供能，其类型记作$\mathrm{tp}=\mathsf{poweredblock}$。
+
+值得注意的是，虽然一个红石元件的类型是由该红石元件对应位置的方块决定的，但是红石元件一旦确定，其本身的性质在对应方块发生变化之前就不再受该方块影响，这意味着红石元件本身并不会存储关于方块的任何信息。比如，如果两个不同的方块决定的红石元件一模一样，比如泥土和草方块决定的受能方块元件所有属性都是一模一样的，那么这两个元件自产生后在电路中便不会再有任何区别。仅凭电路系统自身是无法分辨泥土产生的元件和草方块产生的元件除了位置坐标外有何不同的，即电路系统无法知道哪个元件是泥土产生的，也无法知道哪个元件是草方块产生的。其他种类的元件亦然。这告诉我们在分析电路系统时，我们只需要关注元件本身即可。这也促使着我们更加细分各元件类型。
+
+产能器分为三大类。其中最重要的一类称作\textbf{电容器}，这是一类在一些方向接收信号，经过一定的逻辑运算后再在另一些方向产生信号的产能器，我们专门将其类型记作$\mathrm{tp}=\mathsf{capacitor}$。第二类称作\textbf{方向性产能器}，这类产能器在生产能量时具有方向性，记作$\mathrm{tp}=\mathsf{directionalproducer}$。剩余的一类被称为一般的产能器，他们在性质上大同小异。
+
+电容器依旧分为三类。\textbf{脉冲电容器}是可以发出脉冲信号的电容器，记作$\mathrm{tp}=\mathsf{pulsecapacitor}$。\textbf{红石火把电容器}是专门为红石火把方块设计的电容器，记作$\mathrm{tp}=\mathsf{redstonetorchcapacitor}$。\textbf{侧受能电容器}是可以在侧面受能并产生额外的供能逻辑的电容器，记作$\mathrm{tp}=\mathsf{sidepoweredcapacitor}$。侧受能电容器进一步分为\textbf{比较器电容器}和\textbf{中继器电容器}，分别记作$\mathrm{tp}=\mathsf{comparatorcapacitor}$和$\mathsf{repeatercapacitor}$。
+
+耗能器被分为两大类。\textbf{活塞耗能器}由于设计特殊，被单独分为一类，是专供于活塞类方块使用的耗能器，记作$\mathrm{tp}=\mathsf{pistonconsumer}$。其他的耗能器被称为一般的耗能器，单独占据一类。
+
+传输器依旧只有两类。\textbf{铁轨传输器}被用于铁轨类元件，记作$\mathrm{tp}=\mathsf{railtransporter}$。红石线作为一般的传输器，单独占据一类。
+
+我们把上述分类视作继承，例如电容器继承自产能器。我们为元件的类型定义关系$\le$，如果$\mathsf{sometype}$继承自$\mathsf{anothertype}$，那么$\mathsf{sometype}\le\mathsf{anothertype}$。容易见到，这是一个序关系。定义基类型$\mathsf{base}$作为该序关系的极大元，也就是说，我们定义任意元件类型都继承自该基类型，即有$\mathsf{producer},\mathsf{consumer},\mathsf{transporter},\mathsf{poweredblock}\le\mathsf{base}$。
+
+在下文中，为了简便起见，我们复用记号，将类型记号中每个单词首字母改成大写，并以此代表所有包含该类型元件的集合，即对于一个元件$\mathfrak{c}=(\mathrm{tp},s)$，如果有$\mathrm{tp}=\mathsf{sometype}$，我们称$\mathfrak{c}\in\mathsf{SomeType}$。类型之间的继承关系在这里便是集合的包含关系，例如，如果$\mathfrak{c}\in\mathsf{PistonConsumer}$，则$\mathfrak{c}\in\mathsf{Consumer}$。下表中我们给出了当前所有红石元件类型以及能够产生该类型的方块类型。
+
+\begin{longtable}{ p{0.15\linewidth}  p{0.15\linewidth}  p{0.5\linewidth} }
+    产能器&一般&拉杆、按钮、压力板、唱片机、讲台、避雷针、阳光探测器、探测铁轨、陷阱箱、绊线钩、触发的标靶、红石块、幽匿感测体\\
+    &电容器&脉冲：侦测器\\
+    &&红石火把：红石火把\\
+    &&侧受能：比较器、中继器\\
+    &方向性&校频幽匿感测体\\
+    耗能器&一般&门、栅栏门、转弯铁轨、音符盒、漏斗、发射器、投掷器、钟、TNT、活板门、命令方块、结构方块、红石灯、大型垂滴叶、生物头颅、铜灯、闭合的潜影盒\\
+    &活塞&活塞、粘性活塞\\
+    传输器&一般&红石线\\
+    &铁轨&充能铁轨、激活铁轨\\
+    受能方块&&所有不在上述方块之列的固体或阻止向下供能的方块
+\end{longtable}
+
+每种红石元件在六个方向上都有可能接受能量，也有可能产生能量。如果一个红石元件可以在一个方向上接受红石信号，那么称该方向为该元件的\textbf{输入端}。如果一个红石元件可以在某个方向上产生并发出红石信号，那么称该方向为该元件的\textbf{输出端}。当一个元件的输出端和另一个元件的输入端首尾相连时，如果他们被允许建立关系，我们称建立关系的过程为\textbf{连接}。某些元件的输入端允许与所有种类的元件的输出端连接，但另一些元件的输入端可能只允许与特定类型的元件的特定输出端连接。
+
+\begin{defi}[供能 powering]
+    当一个元件的输出端与另一个元件的输入端连接时，如果前者具有非$0$的红石信号强度，那么势必会对后者产生影响，我们称该过程为\textbf{供能}。我们将“被供能”称为\textbf{受能}。
+\end{defi}
+
+\begin{defi}[激活 activating]
+    在供能过程中，如果受能的元件对应的方块产生了某种响应，例如改变方块状态、召唤实体、生成粒子、播放声音、执行命令等，我们将该供能过程称为\textbf{激活}。
+\end{defi}
+
+\begin{defi}[充能 charging]
+    在供能过程之后，如果受能的元件是耗能器或受能方块，且其具有了充当产能器的能力，我们将之前这次供能过程称为\textbf{充能}。
+\end{defi}
+
+能够被充能的元件称为\textbf{红石导体}。如果红石导体被充能后，能够激活毗邻的红石线和耗能器，那么称此次充能为\textbf{强充能}；如果红石导体被充能后，只能激活耗能器，不能激活红石线，那么称此次充能为\textbf{弱充能}。
+
+在每一刻中，红石元件被创建和移除之后并不会立刻更新整个红石系统。红石元件被创建和移除后会分别被加入两个等待更新的列表，这两个等待更新的列表被称为\textbf{挂起添加}列表和\textbf{挂起移除}列表，分别可以记作两个集合$\textsf{PendingAdd}=\{(p,\mathfrak{c}_p)\}_p$和$\textsf{PendingRemove}=\{(p,\mathfrak{c}_p)\}_p$。当该刻内滴答至红石系统滴答时，$\textsf{PendingAdd}$和$\textsf{PendingRemove}$两个列表将会被集中处理，同时整个红石系统会被集中更新。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{add}$
+\begin{algorithmic}[1]
+    \Require $G,p\in\Z^3,\mathfrak{c}$
+    \Ensure $\bot$
+    \If{$\exists (p_0,\mathfrak{c}_0)\in\textsf{PendingAdd}_G$ s.t. $p_0=p$}
+        \If{$\mathfrak{c}_0\in\mathsf{PoweredBlock}$}
+            \If{$\mathfrak{c}_0$阻止向上供能}
+                \State $\mathfrak{c}_0\gets\mathfrak{c}$
+            \EndIf
+            \State \Return
+        \ElsIf{$\mathfrak{c}\in\mathsf{PoweredBlock}$}
+            \If{$\mathfrak{c}$允许向上供能}
+                \State $\mathfrak{c}_0\gets\mathfrak{c}$
+            \EndIf
+            \State \Return
+        \EndIf
+    \EndIf
+    \State $\textsf{PendingAdd}_G\gets\textsf{PendingAdd}_G\cup\{(p,\mathfrak{c})\}$
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{remove}$
+\begin{algorithmic}[1]
+    \Require $G,p\in\Z^3,\mathfrak{c}$
+    \Ensure $\bot$
+    \If{$\exists (p_0,\mathfrak{c}_0)\in\textsf{PendingAdd}_G$ s.t. $p_0=p$}
+        \State $\textsf{PendingAdd}_G\gets\textsf{PendingAdd}_G\backslash\{(p,\mathfrak{c})\}$
+    \EndIf
+    \State 设置$\mathfrak{c}$状态为已移除
+    \State $\textsf{PendingRemove}_G\gets\textsf{PendingRemove}_G\cup\{(p,\mathfrak{c})\}$
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+大部分元件在其对应的方块放置或满足要求后就会立刻创建，但也并非所有类型的元件都是如此。在创建时，每一种元件都有其默认值，我们把默认值列出如下。
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{base}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item 忽略首次更新：否
+    \item 首次出现：是
+    \item 需要更新：否
+    \item 应当计算：是
+    \item 强度$s$：$0$
+    \item 朝向：无
+    \item 允许向上供能：否
+    \item 允许向下供能：是
+    \item 已移除：否
+    \item 在任意方向上消耗能量：否
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{producer}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{base}$的所有默认值
+    \item 下一刻强度$s_{\mathrm{next}}$：$0$
+    \item 允许附着：否
+    \item 停止供能：否
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{capacitor}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{producer}$的所有默认值
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{directionalproducer}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{producer}$的所有默认值
+    \item 允许连接方向：无
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{pulsecapacitor}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{capacitor}$的所有默认值
+    \item 已触发：否
+    \item 新已触发：否
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{redstonetorchcapacitor}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{capacitor}$的所有默认值
+    \item NextOrder：$\mathfrak{o}$
+    \item 自供能次数：$0$
+    \item 状态0：开启：否；半帧：否；变更：否
+    \item 状态1 ：开启：否；半帧：否；变更：否
+    \item 能从燃烬状态再次点燃：否
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{sidepoweredcapacitor}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{capacitor}$的所有默认值
+    \item 侧元件列表：$\emptyset$
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{comparatorcapacitor}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{sidepoweredcapacitor}$的所有默认值
+    \item 背面模拟强度$\Tilde{s}_{\mathrm{rear}}$：$-1$
+    \item 左侧模拟强度$\Tilde{s}_{\mathrm{left}}$：$-1$
+    \item 右侧模拟强度$\Tilde{s}_{\mathrm{right}}$：$-1$
+    \item 旧强度$s_{\mathrm{old}}$：$0$
+    \item 模式：比较模式
+    \item 背面强度$s_{\mathrm{rear}}$：$0$
+    \item 侧面强度$s_{\mathrm{side}}$：$0$
+    \item 已设置模拟：否
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{repeatercapacitor}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{sidepoweredcapacitor}$的所有默认值
+    \item 开启状态0：锁存关闭
+    \item 开启状态1：锁存关闭
+    \item 开启状态2：锁存关闭
+    \item 开启状态3：锁存关闭
+    \item 开启状态4：关闭
+    \item InsertAt：$0$
+    \item 已受能：否
+    \item 下一刻供能：否
+    \item 已锁存：是
+    \item 脉冲次数：$0$
+    \item 脉冲：否
+    \item 下一刻脉冲：否
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{consumer}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{base}$的所有默认值
+    \item 已次级受能：否
+    \item 传播能量：否
+    \item 已晋升为产能器：否
+    \item 接受半脉冲：否
+    \item 接受相同朝向：是
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{pistonconsumer}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{consumer}$的所有默认值
+    \item 受阻面向：无
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{transporter}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{base}$的所有默认值
+    \item 下一刻强度$s_{\mathrm{next}}$：$0$
+\end{enumerate}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Defaults}\ \ \ \ $\mathsf{railtransporter}$
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+    \item $\mathsf{base}$的所有默认值
+    \item 铁轨类型：激活铁轨
+\end{enumerate}
+\end{codigo}
+
+\begin{warning}
+    注意，铁轨传输器元件本质上是直接继承了基类型元件。为了便于表述，本文红石线和铁轨两种传输器归为了一类，并将铁轨传输器视为传输器的特例。事实上，两种传输器是互相独立的。不过，在下文中，当涉及两种传输器时，我们将依旧按照本文表达的继承关系来表达，并用差集的记号引用一般的红石线传输器（即“红石线传输器集$=\mathsf{Transporter}\backslash\mathsf{RailTransporter}$”和“铁轨传输器集$\mathsf{=RailTransporter}$”）
+\end{warning}
+
+下面，我们来查看每种元件是如何创建并初始化的。给出下列算法，其中$d\in\llbracket0,6\rrbracket$代表一个方向，$6$代表无方向。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{create}$
+\begin{algorithmic}[1]
+    \Require $G,p\in\Z^3,\mathrm{tp},d$
+    \Ensure $\mathfrak{c}=(\mathrm{tp},s)$
+    \State $\mathfrak{c}\gets(\mathrm{tp},0)$
+    \State 设置$\mathfrak{c}$的朝向为$d$
+    \State 执行$\mathsf{add}(G,p,\mathfrak{c})$
+    \State \Return $\textsf{PendingAdd}_G$中坐标$p$处的元件
+\end{algorithmic}
+\end{codigo}
+
+我们先考虑产能器。对于拉杆、按钮、压力板、唱片机、讲台、避雷针、阳光探测器、探测铁轨、陷阱箱、绊线钩、红石块、幽匿感测体等方块，他们会在被放置或从存档中加载时在各自的响应回调中执行下述$\mathsf{setup}$算法。以被放置为例。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{onPlace}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B},\mathcal{D},p\in\Z^3,\cdots$
+    \Ensure $\bot$
+    \State $\cdots$
+    \State 执行$\mathsf{setup}(\mathcal{D},p,\mathcal{B})$
+    \State $\cdots$
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{setup}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B},\mathcal{D},p\in\Z^3$
+    \Ensure $\bot$
+    \State 获取维度$\mathcal{D}$中的电路场景图$G$
+    \State $d\gets\mathcal{B}$的面向的反向或硬编码
+    \State $\mathfrak{c}\gets\mathsf{create}(G,p,\mathsf{producer},d)$
+    \State 执行$\mathsf{postSetup}(p,\mathcal{B},\mathfrak{c})$
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{postSetup}$
+\begin{algorithmic}[1]
+    \Require $p\in\Z^3,\mathcal{B}=(\mathrm{id},P,\mathcal{A}),\mathfrak{c}=(\mathrm{tp},s)$
+    \Ensure $\bot$
+    \If{$\mathcal{B}\in$按钮$\cup$唱片机$\cup$避雷针$\cup$绊线钩}
+        \State 设置$\mathfrak{c}$为允许附着
+        \State 设置$\mathfrak{c}$为允许向上供能
+    \EndIf
+    \If{$\mathcal{B}\in$陷阱箱}
+        \State 设置$\mathfrak{c}$为允许附着
+        \State 设置$\mathfrak{c}$为允许向上供能
+        \State 设置$\mathfrak{c}$停止供能
+    \EndIf
+    \If{$\mathcal{B}\in$幽匿感测体}
+        \State 设置$\mathfrak{c}$为允许向上供能
+    \EndIf
+    \If{$\mathcal{B}\in$红石块}
+        \State $s\gets15$
+    \EndIf
+    \If{$\mathcal{B}\in$拉杆}
+        \If{$P$中$\mathsf{OpenBit}$取值为$\mathtt{true}$}
+            \State $s\gets15$
+        \EndIf
+        \State 设置$\mathfrak{c}$为允许附着
+        \State 设置$\mathfrak{c}$为允许向上供能
+    \EndIf
+    \If{$\mathcal{B}\in$讲台}
+        \If{$P$中$\mathsf{PoweredBit}$取值为$\mathtt{true}$}
+            \State $s\gets15$
+        \EndIf
+        \State 设置$\mathfrak{c}$为允许附着
+    \EndIf
+    \If{$\mathcal{B}\in$阳光探测器}
+        \State $s\gets P$中$\mathsf{RedstoneSignal}$的取值
+        \State 设置$\mathfrak{c}$为允许向上供能
+    \EndIf
+    \If{$\mathcal{B}\in$探测铁轨}
+        \If{$P$中$\mathsf{RailDataBit}$取值$\ne0$}
+            \State $s\gets15$
+        \EndIf
+        \State 设置$\mathfrak{c}$为允许附着
+    \EndIf
+    \If{$\mathcal{B}\in$压力板}
+        \If{$\mathcal{B}\in$木质，且$\#\Set{\mathcal{E}\notin\text{经验球}|\text{位于}p+\left[\dfrac{1}{16},\dfrac{15}{16}\right]\times\left[0,\dfrac{1}{4}\right]\times\left[\dfrac{1}{16},\dfrac{15}{16}\right]\text{区域内}}>0$}
+            \State $s\gets15$
+        \EndIf
+        \If{$\mathcal{B}\in$石质，且$\#\Set{\mathcal{E}\in\text{生物}|\text{位于}p+\left[\dfrac{1}{16},\dfrac{15}{16}\right]\times\left[0,\dfrac{1}{4}\right]\times\left[\dfrac{1}{16},\dfrac{15}{16}\right]\text{区域内}}>0$}
+            \State $s\gets15$
+        \EndIf
+        \If{$\mathcal{B}\in$测重}
+            \State $w\gets15$（轻质）或$150$（重质）
+            \State $k\gets\#\Set{\mathcal{E}\notin\text{经验球}|\text{位于}p+\left[\dfrac{1}{16},\dfrac{15}{16}\right]\times\left[0,\dfrac{1}{4}\right]\times\left[\dfrac{1}{16},\dfrac{15}{16}\right]\text{区域内}}$
+            \State $s\gets\left\lceil\dfrac{k}{w}\right\rceil$
+        \EndIf
+        \State 设置$\mathfrak{c}$为允许附着
+    \EndIf
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+对于朝向$d$，唱片机、红石块、幽匿感测体硬编码为$6$，压力板、讲台、探测铁轨、陷阱箱硬编码为$0$，阳光探测器硬编码为$1$。上述方块中的其余方块如果具有$\mathsf{FacingDirection}$方块状态，取方块状态的值并反向，即$0\leftrightarrow1,2\leftrightarrow3,4\leftrightarrow5$，如果具有$\mathsf{Direction}$方块状态，取方块状态的值并使其转化成物理意义上对应的六面向对应的取值的反向，即作映射$\begin{pmatrix}
+    0&1&2&3\\
+    2&5&3&4
+\end{pmatrix}$，并将其赋值给$d$。
+
+我们再来看标靶。由于标靶只有在触发状态下是产能器，而未触发状态下是受能方块，所以标靶实际上执行的是如下逻辑。当标靶被放置或加载时，在当前位置创建受能方块，朝向$d=6$。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{setup}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B},\mathcal{D},p\in\Z^3$
+    \Ensure $\bot$
+    \State 获取维度$\mathcal{D}$中的电路场景图$G$
+    \State $\mathfrak{c}\gets\mathsf{create}(G,p,\mathsf{poweredblock},6)$
+    \State 设置$\mathfrak{c}$为在任意方向上消耗能量
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+当标靶被弹射物击中后，将当前位置的受能方块元件从场景图中移除，并创建产能器，其中$p\in\Z^3$是当前方块的方块位置，$q\in\R^3$是弹射物击中方块的具体位置坐标，$\mathcal{E}$是弹射物实体。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{onProjectileHit}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B},\mathcal{D},p\in\Z^3,q\in\R^3,\mathcal{E},\cdots$
+    \Ensure $\bot$
+    \State $\cdots$
+    \State $r=(r_0,r_1,r_2)^\top\gets p-q$
+    \State $j\gets\mathrm{argmax}_{i\in\llbracket0,3\rrbracket}|r_i|$
+    \State $\Tilde{r}\gets(r_k,r_l),k,l\in\llbracket0,3\rrbracket,k\ne l\ne j$
+    \State 获取维度$\mathcal{D}$中的电路场景图$G=(V,E)$
+    \State $V\gets V\backslash\{(p,\mathfrak{c}_p)\}$
+    \State 执行$\mathsf{remove}(G,p,\mathfrak{c}_p)$
+    \State $\mathfrak{c}=(\mathrm{tp},s)\gets\mathsf{create}(G,p,\mathsf{producer},6)$
+    \State $s\gets\mathrm{clamp}\left(16\cdot\dfrac{0.5-\left\Vert\Tilde{r}\right\Vert_2}{0.5},1,15\right)$
+    \State 设置$\mathfrak{c}$为允许向上供能
+    \State $t\gets8$
+    \If{$\mathcal{E}\in\mathsf{AbstractArrow}$}
+        \State $t\gets20$
+    \EndIf
+    \State 将$\mathcal{B}$加入方块滴答队列，使其在$t$刻后执行$\mathsf{tick}(\mathcal{B},\mathcal{D},p)$
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{tick}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B},\mathcal{D},p\in\Z^3$
+    \Ensure $\bot$
+    \State 获取维度$\mathcal{D}$中的电路场景图$G=(V,E)$
+    \State $V\gets V\backslash\{(p,\mathfrak{c}_p)\}$
+    \State 执行$\mathsf{remove}(G,p,\mathfrak{c}_p)$
+    \State $\mathfrak{c}\gets\mathsf{create}(G,p,\mathsf{poweredblock},6)$
+    \State 设置$\mathfrak{c}$为在任意方向上消耗能量
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+这里我们预先给出了标靶的滴答算法，这是为了便于理解标靶方块相关元件的初始化逻辑。在下面其他红石元件创建过程的内容中，也可能出现个别其他元件的滴答算法。未出现的其他与红石系统相关联的滴答算法将在后续专门的小节给出。
+
+接下来我们查看电容器的创建。首先查看当前唯一的脉冲电容器侦测器的逻辑。侦测器会在放置、加载或被活塞推动时在当前位置创建其电容器元件。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{setup}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B}=(\mathrm{id},P,\mathcal{A}),\mathcal{D},p\in\Z^3$
+    \Ensure $\bot$
+    \State 获取维度$\mathcal{D}$中的电路场景图$G$
+    \State $d\gets P$中$\mathsf{FacingDirection}$的取值
+    \State $\mathfrak{c}=(\mathrm{tp},s)\gets\mathsf{create}(G,p,\mathsf{pulsecapacitor},d)$
+    \State 设置$\mathfrak{c}$为允许附着
+    \State 设置$\mathfrak{c}$为允许向上供能
+    \If{调用自加载}
+        \If{$P$中$\mathsf{PoweredBit}$的取值}
+            \State $s\gets15$
+        \EndIf
+    \Else
+        \State $b\gets\mathtt{false}$（调用自放置）或$\mathtt{true}$（调用自推动）
+        \State 执行$\mathsf{update}(\mathcal{B},\mathcal{D},p,\mathfrak{c},b)$
+    \EndIf
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+$\mathsf{update}$是侦测器方块的状态更新函数，其中$b$是一个布尔值，代表是将侦测器更新为触发态还是非触发态。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{update}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B}=(\mathrm{id},P,\mathcal{A}),\mathcal{D},p\in\Z^3,\mathfrak{c}=(\mathrm{tp},s),b\in\Z_2$
+    \Ensure $\bot$
+    \State $P$中$\mathsf{PoweredBit}$的取值$\gets b$
+    \State 执行$\mathsf{set}(\mathcal{D},p,\mathcal{B})$
+    \If{$b$}
+        \State $s\gets15$
+        \If{$\mathsf{BaseGameVersion}\ge\mathrm{1.13.0}$，且方块滴答队列中已有当前方块的挂起刻}
+            \State \Return
+        \EndIf
+        \State $\ell\gets0$（当前刻是红石刻）或$1$（当前刻非红石刻）
+        \State 将$\mathcal{B}$加入方块滴答队列，使其在$\ell+2$刻后执行$\mathsf{tick}(\mathcal{B},\mathcal{D},p)$
+    \EndIf
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+设置方块函数$\mathsf{set}$中，如果旧方块与新方块$\mathrm{id}$一致，则不会触发方块的$\mathsf{onPlace}$回调，因此并不会反复调用$\mathsf{setup}$。此处的执行$\mathsf{set}$仅仅为了更新方块状态而存在。
+
+\begin{codigo}
+\textsc{Algorithm}\ \ \ \ $\mathsf{tick}$
+\begin{algorithmic}[1]
+    \Require $\mathcal{B},\mathcal{D},p\in\Z^3$
+    \Ensure $\bot$
+    \If{当前刻是红石刻}
+        \State 获取维度$\mathcal{D}$中的电路场景图$G=(V,E)$
+        \State $\mathfrak{c}\gets V\cup\textsf{PendingAdd}_G$中坐标$p$处的元件
+        \State $b\gets P$中$\mathsf{PoweredBit}$的取值
+        \State 执行$\mathsf{update}(\mathcal{B},\mathcal{D},p,\mathfrak{c},\neg b)$
+    \Else
+        \State 将$\mathcal{B}$加入方块滴答队列，使其在$1$刻后执行$\mathsf{tick}(\mathcal{B},\mathcal{D},p)$
+    \EndIf
+    \State \Return
+\end{algorithmic}
+\end{codigo}
+
+可以看出，当放置侦测器时，仅仅会创建产能器元件，但当侦测器被移动时，不仅会在新位置创建产能器元件，而且该产能器元件会立刻变更为触发状态，并持续$2$或$3$刻。
+
+\bibliographystyle{alpha}
+\bibliography{credits}
+
+
+\end{document}

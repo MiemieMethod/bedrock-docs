@@ -1,0 +1,10 @@
+{
+    string "name"
+    object "states"
+    {
+        bool "\w*:?\w+" : opt
+        int "\w*:?\w+" : opt
+        string "\w*:?\w+" : opt
+    }
+}
+

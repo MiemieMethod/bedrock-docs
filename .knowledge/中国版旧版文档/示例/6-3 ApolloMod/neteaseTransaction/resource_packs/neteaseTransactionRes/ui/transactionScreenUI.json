@@ -1,0 +1,993 @@
+{
+    "main": {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+        "controls": [
+            {
+                "transactionPanel@transactionScreenUI.transactionPanel": {}
+            },
+            {
+                "helpPanel@transactionScreenUI.helpPanel": {}
+            }
+        ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+    },
+    "transactionPanel": {
+        "size": [ "85%", "100%" ],
+        "offset": [0, 0],
+        "layer": 5,
+        "controls": [
+            {
+                "leftPanel@transactionScreenUI.leftPanel": {}
+            },
+            {
+                "splitLine@transactionScreenUI.splitLine": {}
+            },
+            {
+                "rightPanel@transactionScreenUI.rightPanel": {}
+            }
+        ],
+        "type": "panel"
+    },
+    "leftPanel": {
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "size": [ "50% - 3px", "100%" ],
+        "controls": [
+            {
+                "bg@transactionCommonUI.transactionPanelBg": {
+                    "layer": 1
+                }
+            },
+            {
+                "title": {
+                    "anchor_to": "top_middle",
+                    "anchor_from": "top_middle",
+                    "offset": [ 0, 6 ],
+                    "type": "label",
+                    "color": [ 0, 0, 0 ],
+                    "text": "背 包",
+                    "layer": 2
+                }
+            },
+            {
+                "bagPanel@transactionScreenUI.bagPanel": {
+                    "layer": 2
+                }
+            }
+        ],
+        "type": "panel"
+    },
+    "bagPanel": {
+        "anchor_to": "bottom_middle",
+        "anchor_from": "bottom_middle",
+        "size": ["100% - 20px", "100% - 30px"],
+        "offset": [ 0, -8 ],
+        "controls": [
+            {
+                "bg": {
+                    "texture": "textures/ui/White",
+                    "color": [ 0.36, 0.36, 0.36 ],
+                    "type": "image"
+                }
+            },
+            {
+                "bagContent@transactionCommonUI.bagContent": {}
+            }
+        ],
+        "type": "panel"
+    },
+    "splitLine": {
+        "size": [ "6px", "100% - 4px" ],
+        "texture": "textures/ui/netease_transaction/split_line",
+        "nineslice_size": [1, 3, 1, 3],
+        "type": "image"
+    },
+    "rightPanel": {
+        "anchor_to": "top_right",
+        "anchor_from": "top_right",
+        "size": [ "50% - 3px", "100%" ],
+        "controls": [
+            {
+                "bg@transactionCommonUI.transactionPanelBg": {
+                    "layer": 3
+                }
+            },
+            {
+                "title": {
+                    "anchor_to": "top_middle",
+                    "anchor_from": "top_middle",
+                    "offset": [ 0, 6 ],
+                    "type": "label",
+                    "color": [ 0, 0, 0 ],
+                    "text": "交易信息",
+                    "layer": 5
+                }
+            },
+            {
+                "closeBtn@transactionScreenUI.closeBtn": {}
+            },
+            {
+                "helpBtn@transactionScreenUI.helpBtn": {}
+            },
+            {
+                "transactionInfoPanel@transactionScreenUI.transactionInfoPanel": {}
+            }
+        ],
+        "type": "panel"
+    },
+    "transactionInfoPanel": {
+        "anchor_to": "bottom_middle",
+        "anchor_from": "bottom_middle",
+        "size": ["100% - 20px", "100% - 30px"],
+        "offset": [ 0, -8 ],
+        "controls": [
+            {
+                "transactionInfoHeader@transactionScreenUI.transactionInfoHeader": {}
+            },
+            {
+                "content_padding": {
+                    "size": [ "100.0%", 2 ],
+                    "type": "panel"
+                 }
+            },
+            {
+                "patnerTransactionInfo@transactionScreenUI.patnerTransactionInfo": {}
+            },
+            {
+                "content_padding": {
+                    "size": [ "100.0%", 4 ],
+                    "type": "panel"
+                 }
+            },
+            {
+                "myTransactionInfo@transactionScreenUI.myTransactionInfo": {}
+            },
+            {
+                "content_padding": {
+                    "size": [ "100.0%", 4 ],
+                    "type": "panel"
+                 }
+            },
+            {
+                "btnPanel@transactionScreenUI.btnPanel": {}
+            }
+        ],
+        "layer" : 5,
+        "type" : "stack_panel"
+    },
+    "transactionInfoHeader": {
+        "size": [ "100%", 16 ],
+        "orientation": "horizontal",
+        "controls": [
+            {
+                "todayLimit": {
+                    "size": [ 90, "100%" ],
+                    "controls": [
+                        {
+                            "label": {
+                                "anchor_to": "left_middle",
+                                "anchor_from": "left_middle",
+                                "type": "label",
+                                "text": "今日剩余交易次数:",
+                                "color": [ 0, 0, 0 ],
+                                "size": [ 74, "default" ]
+                            }
+                        },
+                        {
+                            "limitNum": {
+                                "anchor_to": "left_middle",
+                                "anchor_from": "left_middle",
+                                "type": "label",
+                                "text": "3",
+                                "font_type": "smooth",
+                                "color": [ 0, 0, 0 ],
+                                "size": [ 16, "default" ],
+                                "offset": [ 74, 0 ]
+                            }
+                        }
+                    ],
+                    "type": "panel"
+                }
+            },
+            {
+                "content_padding": {
+                    "size": [ "100.0%-128.0px", "100%" ],
+                    "type": "panel"
+                 }
+            },
+            {
+                "currencyPanel": {
+                    "size": [ 38, "100%" ],
+                    "controls": [
+                        {
+                            "bg@transactionScreenUI.transactionInfoBg": {}
+                        },
+                        {
+                            "currencyNum": {
+                                "anchor_to": "left_middle",
+                                "anchor_from": "left_middle",
+                                "size": [ "100% - 12px", "default"],
+                                "offset": [ 0, 0 ],
+                                "text": "99999",
+                                "type": "label",
+                                "text_alignment": "right",
+                                "layer": 2
+                            }
+                        },
+                        {
+                            "icon@transactionScreenUI.currencyIcon": {
+                                "anchor_to": "right_middle",
+                                "anchor_from": "right_middle",
+                                "size": [ 10, 10 ],
+                                "offset": [ -2, 0 ],
+                                "layer": 2
+                            }
+                        }
+                    ],
+                    "type": "panel"
+                }
+            }
+        ],
+        "type": "stack_panel"
+    },
+    "currencyIcon": {
+        "texture": "#bindCurrencyIcon",
+        "type": "image",
+        "bindings": [
+            {
+                "binding_type": "global",
+                "binding_name": "#bindCurrencyIcon",
+                "binding_name_override": "#texture"
+            }
+        ]
+    },
+    "closeBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/close_btn_bg",
+        "$hover_texture": "textures/ui/netease_transaction/close_btn_bg",
+        "$pressed_texture": "textures/ui/netease_transaction/close_btn_bg",
+        "$nineslice_size": 4,
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$default_text_color": [ 1, 1, 1 ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "closeIcon": {
+                    "type": "image",
+                    "size": [ 7, 7 ],
+                    "offset": [ 2, 0 ],
+                    "texture": "textures/ui/netease_transaction/close_icon",
+                    "layer": 2
+                }
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "default",
+        "pressed_control": "default",
+        "layer": 1,
+        "offset": [ 28, 0 ],
+        "size": [ 32, 28 ],
+        "type": "button",
+        "visible": true
+    },
+    "helpBtn@common.button": {
+        "$default_texture": "",
+        "$hover_texture": "",
+        "$pressed_texture": "",
+        "$nineslice_size": 2,
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$label_text": "?",
+        "$label_shadow": true,
+        "$label_offset": [ 4, -2 ],
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "layer": 7,
+        "offset": [ -10, 0 ],
+        "size": [ 28, 28 ],
+        "type": "button",
+        "visible": true
+    },
+    "helpPanel": {
+        "type": "input_panel",
+        "layer": 100,
+        "visible": false,
+        "controls": [
+            {
+                "bg": {
+                    "type": "image",
+                    "texture": "textures/ui/White",
+                    "color": [ 0, 0, 0 ],
+                    "alpha": 0.5,
+                    "layer": 1
+                }
+            },
+            {
+                "helpInfoPanel@transactionScreenUI.helpInfoPanel": {}
+            }
+        ]
+    },
+    "helpInfoPanel": {
+        "type": "image",
+        "texture": "textures/ui/netease_transaction/help_bg",
+        "nineslice_size": [ 10, 20, 10, 32],
+        "size": [ 180, 108 ],
+        "controls": [
+            {
+                "header": {
+                    "type": "panel",
+                    "size": [ "100%", 20 ],
+                    "anchor_to": "top_middle",
+                    "anchor_from": "top_middle",
+                    "controls": [
+                        {
+                            "headerText": {
+                                "type": "label",
+                                "color": [ 0.3255, 0.3255, 0.3255 ],
+                                "text": "如何进行交易",
+                                "layer": 1
+                            }
+                        }
+                    ],
+                    "layer": 2
+                }
+            },
+            {
+                "helpText": {
+                    "anchor_to": "top_middle",
+                    "anchor_from": "top_middle",
+                    "offset": [ 0, 22 ],
+                    "type": "label",
+                    "size": [ 156, "default" ],
+                    "text": "将需要交易的物品由背包内点击放入右侧交易内容，调整交易的数量后，点击锁定按钮锁定交易内容。\n锁定后对方将看到交易内容，交易双方皆确认交易后完成交易。",
+                    "layer": 1
+                }
+            },
+            {
+                "iKnowBtn@transactionScreenUI.iKnowBtn": {}
+            }
+        ],
+        "layer": 2
+    },
+    "iKnowBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$nineslice_size": 4,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$label_text": "我知道了",
+        "anchor_from": "bottom_middle",
+        "anchor_to": "bottom_middle",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "layer": 5,
+        "offset": [ 0, -5 ],
+        "size": [ 164, 22 ],
+        "type": "button",
+        "visible": true
+    },
+    "btnPanel": {
+        "type": "panel",
+        "size": [ "100%", 20 ],
+        "controls": [
+            {
+                "lockTransactionBtn@transactionScreenUI.lockTransactionBtn": {}
+            },
+            {
+                "confirmTradeBtn@transactionScreenUI.confirmTradeBtn": {}
+            }
+        ]
+    },
+    "lockTransactionBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$locked_texture" : "textures/ui/netease_transaction/btn_unuse",
+        "$nineslice_size": 4,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$locked_text_color": [ 0.698, 0.698, 0.698 ],
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$label_text": "锁定",
+        "$label_offset": [ 7, 0 ],
+        "enabled": "#enabled",
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "locked@transactionCommonUI.locked": {}
+            },
+            {
+                "img": {
+                    "anchor_to": "left_middle",
+                    "anchor_from": "left_middle",
+                    "layer": 2,
+                    "size": [ 12, 12 ],
+                    "offset": [ 4, 0 ],
+                    "texture": "textures/ui/netease_transaction/locked",
+                    "type": "image"
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_type": "global",
+                "binding_name": "#bindLockBtnEnable",
+                "binding_name_override": "#enabled"
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "locked_control" : "locked",
+        "layer": 1,
+        "offset": [ -64, 0 ],
+        "size": [ 60, "100%" ],
+        "type": "button",
+        "visible": true
+    },
+    "confirmTradeBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$locked_texture" : "textures/ui/netease_transaction/btn_unuse",
+        "$nineslice_size": 4,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$locked_text_color": [ 0.698, 0.698, 0.698 ],
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$label_text": "确认交易",
+        "enabled": "#enabled",
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "locked@transactionCommonUI.locked": {}
+            }
+        ],
+        "bindings": [
+            {
+                "binding_condition": "always",
+                "binding_name": "#bindTradeBtnEnable",
+                "binding_name_override": "#enabled"
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "locked_control" : "locked",
+        "layer": 1,
+        "offset": [ 0, 0 ],
+        "size": [ 60, "100%" ],
+        "type": "button",
+        "visible": true
+    },
+    "patnerTransactionInfo": {
+        "type": "panel",
+        "size": [ "100%", "50% - 33px" ],
+        "controls": [
+            {
+                "bg@transactionScreenUI.transactionInfoBg": {}
+            },
+            {
+                "nameInfo@transactionScreenUI.nameInfo": {}
+            },
+            {
+                "hintLabel": {
+                    "offset": [ 0, 5 ],
+                    "type": "label",
+                    "text": "对方未锁定交易内容",
+                    "color": [ 0.698, 0.698, 0.698 ],
+                    "layer": 5
+                }
+            },
+            {
+                "lockedInfo@transactionScreenUI.lockedInfo": {}
+            },
+            {
+                "confirmTag@transactionScreenUI.confirmTag": {}
+            }
+        ]
+    },
+    "myTransactionInfo": {
+        "type": "panel",
+        "size": [ "100%", "50% - 13px" ],
+        "controls": [
+            {
+                "bg@transactionScreenUI.transactionInfoBg": {}
+            },
+            {
+                "nameInfo@transactionScreenUI.nameInfo": {}
+            },
+            {
+                "lockedInfo@transactionScreenUI.lockedInfo": {}
+            },
+            {
+                "tradeContentPanel@transactionScreenUI.tradeContentPanel": {}
+            },
+            {
+                "currencyInputPanel@transactionScreenUI.currencyInputPanel": {}
+            },
+            {
+                "confirmTag@transactionScreenUI.confirmTag": {}
+            }
+        ]
+    },
+    "nameInfo": {
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "type": "panel",
+        "size": ["100%", 18],
+        "controls": [
+            {
+                "bg": {
+                    "type": "image",
+                    "texture": "textures/ui/White",
+                    "color": [ 0.2863, 0.2863, 0.2863 ],
+                    "nineslice_size": 1,
+                    "size": [ "100% - 2px", "100% - 2px"],
+                    "layer": 5
+                }
+            },
+            {
+                "name": {
+                    "type": "label",
+                    "text": "名字要求是八个字",
+                    "layer": 10
+                }
+            }
+        ]
+    },
+    "currencyInputPanel": {
+        "anchor_to": "bottom_middle",
+        "anchor_from": "bottom_middle",
+        "type": "panel",
+        "size": ["100%", 22],
+        "controls": [
+            {
+                "bg": {
+                    "type": "image",
+                    "texture": "textures/ui/White",
+                    "color": [ 0.545, 0.545, 0.545 ],
+                    "nineslice_size": 1,
+                    "size": [ "100% - 2px", "100% - 2px"],
+                    "layer": 5
+                }
+            },
+            {
+                "label": {
+                    "anchor_to": "left_middle",
+                    "anchor_from": "left_middle",
+                    "type": "label",
+                    "color": [ 0, 0, 0 ],
+                    "offset": [ 4, 0 ],
+                    "text": "请输入交易金额",
+                    "layer": 10
+                }
+            },
+            {
+                "icon@transactionScreenUI.currencyIcon": {
+                    "anchor_to": "right_middle",
+                    "anchor_from": "right_middle",
+                    "size": [ 18, 18 ],
+                    "offset": [ -40, 0 ],
+                    "layer": 10
+                }
+            },
+            {
+                "currencyInputEditBox@common.text_edit_box": {
+                    "anchor_to": "right_middle",
+                    "anchor_from": "right_middle",
+                    "size": [ 38, "100% - 6px"],
+                    "offset": [ -3, 0 ],
+                    "$text_alignment": "right",
+                    "enabled_newline" : false,
+                    "text_type": "NumberChars",
+                    "layer": 10,
+                    "$text_box_name" : "%transactionScreenUI.BindCurrencyEditChanged",
+                    "$text_edit_box_content_binding_name" : "#transactionScreenUI.BindCurrencyEditText"
+                }
+            }
+        ]
+    },
+    "tradeContentPanel": {
+        "anchor_to": "center",
+        "anchor_from": "center",
+        "type": "panel",
+        "size": [ "100%", 52 ],
+        "offset": [ 0, -2 ],
+        "layer": 5,
+        "controls": [
+            {
+                "tradeItem@transactionCommonUI.itemBtn": {
+                    "anchor_to": "top_middle",
+                    "anchor_from": "top_middle",
+                    "size": [ 28, 28 ],
+                    "offset": [ 0, 0 ]
+                }
+            },
+            {
+                "tradeOperatePanel": {
+                    "type": "stack_panel",
+                    "anchor_to": "top_middle",
+                    "anchor_from": "top_middle",
+                    "orientation": "horizontal",
+                    "size": [ "default", 16 ],
+                    "offset": [ 0, 32 ],
+                    "controls": [
+                        {
+                            "content_padding": {
+                                "size": [ 18, "100.0%" ],
+                                "type": "panel"
+                             }
+                        },
+                        {
+                            "subBtn@transactionScreenUI.subBtn": {}
+                        },
+                        {
+                            "tradeNum@transactionScreenUI.tradeNum": {}
+                        },
+                        {
+                            "addBtn@transactionScreenUI.addBtn": {}
+                        },
+                        {
+                            "content_padding": {
+                                "size": [ 2, "100.0%" ],
+                                "type": "panel"
+                             }
+                        },
+                        {
+                            "maxBtn@transactionScreenUI.maxBtn": {}
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "addBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$locked_texture" : "textures/ui/netease_transaction/btn_unuse",
+        "$nineslice_size": 2,
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$locked_text_color": [ 0.698, 0.698, 0.698 ],
+        "$label_text": "+",
+        "enabled": false,
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "locked@transactionCommonUI.locked": {}
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "locked_control" : "locked",
+        "layer": 1,
+        "offset": [ 0, 0 ],
+        "size": [ 16, "100%" ],
+        "type": "button",
+        "visible": true
+    },
+    "subBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$locked_texture" : "textures/ui/netease_transaction/btn_unuse",
+        "$nineslice_size": 2,
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$locked_text_color": [ 0.698, 0.698, 0.698 ],
+        "$label_text": "-",
+        "enabled": false,
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "locked@transactionCommonUI.locked": {}
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "locked_control" : "locked",
+        "layer": 1,
+        "offset": [ 0, 0 ],
+        "size": [ 16, "100%" ],
+        "type": "button",
+        "visible": true
+    },
+    "maxBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$locked_texture" : "textures/ui/netease_transaction/btn_unuse",
+        "$nineslice_size": 2,
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$locked_text_color": [ 0.698, 0.698, 0.698 ],
+        "enabled": false,
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "locked@transactionCommonUI.locked": {}
+            },
+            {
+                "btnImg": {
+                    "type": "image",
+                    "size": [ 6, 6 ],
+                    "texture": "textures/ui/netease_transaction/max_icon_unuse",
+                    "layer": 3
+                }
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "locked_control" : "locked",
+        "layer": 1,
+        "offset": [ 0, 0 ],
+        "size": [ 16, "100%" ],
+        "type": "button",
+        "visible": true
+    },
+    "tradeNum": {
+        "type": "panel",
+        "size": [ 28, "100%" ],
+        "controls": [
+            {
+                "bg": {
+                    "type": "image",
+                    "nineslice_size": 2,
+                    "texture": "textures/ui/edit_box_indent",
+                    "layer": 1
+                }
+            },
+            {
+                "numLabel": {
+                    "type": "label",
+                    "text": "0",
+                    "font_type": "smooth",
+                    "layer": 2
+                }
+            }
+        ]
+    },
+    "lockedInfo": {
+        "anchor_to": "center",
+        "anchor_from": "center",
+        "controls": [
+            {
+                "itemInfo": {
+                    "type": "stack_panel",
+                    "orientation": "horizontal",
+                    "size": [ "100%c", 16 ],
+                    "controls": [
+                        {
+                            "itemImg": {
+                                "size": [ 16, 16 ],
+                                "type": "custom",
+                                "renderer": "inventory_item_renderer"
+                            }
+                        },
+                        {
+                            "content_padding": {
+                                "size": [ 4, "100.0%" ],
+                                "type": "panel"
+                             }
+                        },
+                        {
+                            "tradeNumPanel": {
+                                "size": [ "100%c", "100%" ],
+                                "type": "panel",
+                                "controls": [
+                                    {
+                                        "tradeNum": {
+                                            "type": "label",
+                                            "anchor_to": "left_middle",
+                                            "anchor_from": "left_middle",
+                                            "font_type": "smooth",
+                                            "text": "0"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "content_padding": {
+                    "size": [ 1, 4 ],
+                    "type": "panel"
+                 }
+            },
+            {
+                "currencyInfo": {
+                    "type": "stack_panel",
+                    "orientation": "horizontal",
+                    "size": [ "100%c", 16 ],
+                    "controls": [
+                        {
+                            "icon@transactionScreenUI.currencyIcon": {
+                                "anchor_to": "left_middle",
+                                "anchor_from": "left_middle",
+                                "size": [ 16, 16 ],
+                                "layer": 2
+                            }
+                        },
+                        {
+                            "content_padding": {
+                                "size": [ 4, "100.0%" ],
+                                "type": "panel"
+                             }
+                        },
+                        {
+                            "tradeNumPanel": {
+                                "size": [ "100%c", "100%" ],
+                                "type": "panel",
+                                "controls": [
+                                    {
+                                        "tradeNum": {
+                                            "type": "label",
+                                            "anchor_to": "left_middle",
+                                            "anchor_from": "left_middle",
+                                            "font_type": "smooth",
+                                            "text": "0"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "stack_panel",
+        "size": [ 40, "default" ],
+        "offset": [ 0, 5 ],
+        "layer": 5,
+        "visible": false
+    },
+    "confirmTag": {
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "nineslice_size": [ 12, 2, 12, 2 ],
+        "size": [ 40, 18 ],
+        "offset": [ -4, 2 ],
+        "texture": "textures/ui/netease_transaction/confirm_tag",
+        "controls": [
+            {
+                "label": {
+                    "type": "label",
+                    "text": "已确认",
+                    "layer": 2,
+                    "offset": [ 0, -2 ]
+                }
+            }
+        ],
+        "type": "image",
+        "layer": 7,
+        "visible": false
+    },
+    "transactionInfoBg": {
+        "nineslice_size": 2,
+        "type": "image",
+        "texture": "textures/ui/netease_transaction/transactionInfo_bg",
+        "layer": 1
+    },
+    "namespace": "transactionScreenUI"
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm4_mega_taiga", 
+            "inherits": "mega_taiga"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "hills_transformation": "dm4_mega_taiga", 
+                "mutate_transformation": "dm4_mega_taiga", 
+                "generate_for_climates": [
+                    [
+                        "medium", 
+                        0
+                    ]
+                ]
+            },
+            "dm4": {}
+        }
+    }
+}

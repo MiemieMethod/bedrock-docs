@@ -1,0 +1,8 @@
+{
+    int "restriction_radius" : opt
+    array "home_block_list" : opt
+    {
+        string "<any array element>" : opt
+    }
+}
+

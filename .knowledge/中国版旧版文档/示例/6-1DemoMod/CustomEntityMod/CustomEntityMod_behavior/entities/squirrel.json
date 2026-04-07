@@ -1,0 +1,137 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "netease:squirrel",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"runtime_identifier": "minecraft:squirrel"
+		},
+		"component_groups": {
+			"minecraft:color_red": {
+				"minecraft:type_family": {
+					"family": [
+						"red_squirrel",
+						"squirrel"
+					]
+				},
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"minecraft:color_gray": {
+				"minecraft:type_family": {
+					"family": [
+						"gray_squirrel",
+						"squirrel"
+					]
+				},
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"components": {
+			"minecraft:hurt_on_condition": {
+			  "damage_conditions": [
+			    {
+				  "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+				  "cause": "lava",
+				  "damage_per_tick": 4
+			    }
+			  ]
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:experience_reward": {
+			  "on_death": "query.last_hit_by_player ? Math.Random(0,1) : 0"
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:movement.skip": {},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true
+			},
+			"minecraft:jump.dynamic": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 2.2
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 8,
+						"walk_speed_multiplier": 1.5,
+						"sprint_speed_multiplier": 1.8
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "monster"
+						},
+						"max_dist": 4,
+						"walk_speed_multiplier": 1.5,
+						"sprint_speed_multiplier": 1.8
+					}
+				],
+				"priority": 2
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 3
+			},
+			"minecraft:physics": {},
+			"minecraft:collision_box": {
+				"width": 0.7,
+				"height": 0.7
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+			"minecraft:health": {
+				"value": 10,
+				"max": 10
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"weight": 1,
+								"add": {
+									"component_groups": [
+										"minecraft:color_red"
+									]
+								}
+							},
+							{
+								"weight": 1,
+								"add": {
+									"component_groups": [
+										"minecraft:color_gray"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

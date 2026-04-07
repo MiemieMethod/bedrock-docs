@@ -1,0 +1,17 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "run_speed" : opt
+    float "reach_mob_distance" : opt
+    float "throw_force" : opt
+    float "vertical_throw_mul" : opt
+    array "on_item_throw" : opt
+    {
+         "<any array element>" : opt
+    }
+    string "throw_sound" : opt
+}
+

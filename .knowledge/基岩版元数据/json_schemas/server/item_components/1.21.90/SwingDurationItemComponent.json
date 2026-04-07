@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "1039498256",
+    "x-format-version": "1.21.90",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:swing_duration",
+    "type": "object",
+    "properties": {
+        "value": {
+            "type": "number",
+            "default": 0.30000001192092898,
+            "minimum": 0.0
+        }
+    }
+}

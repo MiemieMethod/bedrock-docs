@@ -1,0 +1,15 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm3_savanna_plateau", 
+            "inherits": "savanna_plateau"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "mutate_transformation": "dm3_savanna_plateau_mutated"
+            },
+            "dm3": {}
+        }
+    }
+}

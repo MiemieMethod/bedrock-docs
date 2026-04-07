@@ -1,0 +1,21 @@
+{
+    "identifier": "neteaseRound:snowTrap",
+    "showName": "雪陷阱",
+    "icon": "textures/ui/netease_round/skill_04", 
+    "iconDisable": "textures/ui/netease_round/skill_04_unuse", 
+    "desc": "使指定敌人速度降低30点，持续2回合。",
+    "perform": "neteaseRound:skill:snowTrap",
+    "costEnergy": 2,
+    "_comment": "技能的目标类型：0（仅自己）、1（可选1个友方对象）、2（可选1个敌方对象）、3（随机n个友方对象）、4（随机n个敌方对象）",
+    "targetType": 2,
+    "damageList": [
+    ],
+    "effectList": [
+        {
+            "_comment": "持续效果的唯一ID",
+            "identifier":"neteaseRound:slow",
+            "_comment": "命中判定的形式，0（必定命中）、1（需要判定命中，技能命中 = 效果命中*命中系数multi + 命中系数extra）",
+            "hitStyle": 0
+        }
+    ]
+}

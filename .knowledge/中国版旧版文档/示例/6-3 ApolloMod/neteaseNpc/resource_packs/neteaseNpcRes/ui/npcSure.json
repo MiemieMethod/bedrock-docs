@@ -1,0 +1,297 @@
+{
+   "Sure" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "mask_bg@npcSure.mask_bg" : {}
+         }
+      ],
+      "layer" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ 320.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "button_label" : {
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "main@common.base_screen" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "Sure@npcSure.Sure" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "mask_bg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "npc_bg@npcSure.npc_bg" : {}
+         },
+         {
+            "npc_img@npcSure.npc_img" : {}
+         },
+         {
+            "npc_name@npcSure.npc_name" : {}
+         },
+         {
+            "npc_main@npcSure.npc_main" : {}
+         },
+         {
+            "npc_canel_btn@npcSure.npc_canel_btn" : {}
+         },
+         {
+            "npc_keepon_btn@npcSure.npc_keepon_btn" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ -4.0, -8.0 ],
+      "size" : [ "100.0%+-66.0px", "100.0%+-69.0px" ],
+      "texture" : "",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "namespace" : "npcSure",
+   "npc_bg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ "0%+0 px", "28.425926%+0px" ],
+      "size" : [ "100.3125%+0 px", "42.9629624%+0px" ],
+      "texture" : "textures/ui/netease_npc/panel01@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "npc_canel_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_npc/btn01@3x",
+      "$hover_texture" : "textures/ui/netease_npc/btn01@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 0.0, 0.0, 0.0 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "取消",
+      "$nine_slice_buttom" : 49,
+      "$nine_slice_left" : 50,
+      "$nine_slice_right" : 129,
+      "$nine_slice_top" : 50,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_npc/btn01_select@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@npcSure.default" : {}
+         },
+         {
+            "hover@npcSure.hover" : {}
+         },
+         {
+            "pressed@npcSure.pressed" : {}
+         },
+         {
+            "button_label@npcSure.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "23.54%+0.0px", "41.37%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ "15.63%+0.0px", "9.19%+0.0px" ],
+      "type" : "button",
+      "visible" : true
+   },
+   "npc_img" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : true,
+      "layer" : 10,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ "-36.40625%+0 px", "17.12963%+0px" ],
+      "size" : [ "20.46875%+0 px", "59.72222%+0px" ],
+      "texture" : "textures/ui/netease_npc/villager_farmer_01@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "npc_keepon_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_npc/btn01@3x",
+      "$hover_texture" : "textures/ui/netease_npc/btn01@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 0.0, 0.0, 0.0 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "继续",
+      "$nine_slice_buttom" : 49,
+      "$nine_slice_left" : 50,
+      "$nine_slice_right" : 129,
+      "$nine_slice_top" : 50,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_npc/btn01_select@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@npcSure.default" : {}
+         },
+         {
+            "hover@npcSure.hover" : {}
+         },
+         {
+            "pressed@npcSure.pressed" : {}
+         },
+         {
+            "button_label@npcSure.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "39.58%+0.0px", "41.37%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ "15.63%+0.0px", "9.19%+0.0px" ],
+      "type" : "button",
+      "visible" : true
+   },
+   "npc_main" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "10.0%+0.0px", "30.0%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "70.3125%+0 px", "15.74074%+0px" ],
+      "text" : "邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文邮件正文",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "npc_name" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 0.3019607843137255, 0.3019607843137255, 0.3019607843137255 ],
+      "font_scale_factor" : 1.205357193946838,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-4.0%+0 px", "13.0%+0px" ],
+      "shadow" : false,
+      "size" : [ "40.4166664%+0 px", "5.5555556%+0px" ],
+      "text" : "村民",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "pressed" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   }
+}

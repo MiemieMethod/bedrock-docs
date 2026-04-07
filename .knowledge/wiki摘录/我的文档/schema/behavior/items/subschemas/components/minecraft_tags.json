@@ -1,0 +1,39 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "tags",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "string"
+          }
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.50",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

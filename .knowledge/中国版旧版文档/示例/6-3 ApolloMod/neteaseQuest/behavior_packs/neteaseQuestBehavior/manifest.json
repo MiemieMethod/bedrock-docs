@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Quest",
+        "uuid": "2ebe2543-72d9-4bd9-b765-858cc7c42973",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "60f03a18-a1e2-4459-be2e-651796a702ae",
+            "version": [0, 0, 1]
+        }
+    ]
+}

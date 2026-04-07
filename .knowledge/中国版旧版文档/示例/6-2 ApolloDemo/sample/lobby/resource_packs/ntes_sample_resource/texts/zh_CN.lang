@@ -1,0 +1,29 @@
+﻿entity.snowball.name=§5爆裂能量块	#
+entity.zombie_horse.name=§5烟雾僵尸
+entity.vindicator.name=§5喋血僵尸
+entity.zombie_villager.name=§5苦力怕娘
+entity.zombie_pigman.name=§5骷髅法老
+entity.spider.name=§5蜘蛛机甲
+entity.stray.name=§5Tank
+entity.husk.name=§5奇行种
+entity.skeleton.name=§5奇行种
+
+
+
+item.spawn_egg.entity.zombie_horse.name=生成烟雾僵尸
+item.spawn_egg.entity.vindicator.name=生成喋血僵尸
+item.spawn_egg.entity.zombie_villager.name=生成苦力怕娘
+item.spawn_egg.entity.zombie_pigman.name=生成骷髅法老
+item.spawn_egg.entity.spider.name=生成蜘蛛机甲
+item.spawn_egg.entity.stray.name=生成Tank
+item.spawn_egg.entity.husk.name=生成奇行种
+item.spawn_egg.entity.skeleton.name=生成奇行种
+
+item.mod.0.name=§5能量手套	#
+item.mod.1.name=§5速射手套	#
+item.mod.2.name=§5散射手套	#
+item.mod.3.name=§5袭扰手套	#
+item.mod.4.name=§5爆裂手套	#
+item.mod.7.name=§5医疗包	#
+item.mod.10.name=§5能量石	#
+item.snowball.name=§5爆裂能量块

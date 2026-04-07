@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By netease",
+        "name": "neteaseChestRes",
+        "uuid": "d54271fc-470f-4265-b5db-a8ebfcd75c1f",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By netease",
+            "type": "resources",
+            "uuid": "c20476fa-bb6b-47cc-b5bc-6fc699cef01b",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "3734745469",
+    "x-format-version": "1.21.110",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:behavior.slime_float",
+    "type": "object",
+    "properties": {
+        "control_flags": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "title": "Goal's control flags",
+                "type": "string",
+                "enum": [
+                    "move",
+                    "look",
+                    "jump"
+                ]
+            }
+        },
+        "jump_chance_percentage": {
+            "type": "number",
+            "default": 0.800000011920929
+        },
+        "priority": {
+            "type": "integer",
+            "default": 0,
+            "minimum": 0.0
+        },
+        "speed_multiplier": {
+            "type": "number",
+            "default": 1.2000000476837159
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    bool "broadcast" : opt // If true, celebration will be broadcasted to other entities in the radius.
+    float "radius" : opt // If broadcast is enabled, specifies the radius in which it will notify other entities for celebration.
+    int "duration" : opt // Duration, in seconds, of celebration.
+     "celebration_targets" : opt // The list of conditions that target of hunt must satisfy to initiate celebration.
+    string "celebrate_sound" : opt // The sound event to play when the mob is celebrating
+    float_range "sound_interval" : opt // The range of time in seconds to randomly wait before playing the sound again
+}
+

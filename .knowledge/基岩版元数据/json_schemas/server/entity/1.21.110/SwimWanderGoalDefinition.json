@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "2087775710",
+    "x-format-version": "1.21.110",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:behavior.swim_wander",
+    "type": "object",
+    "properties": {
+        "control_flags": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "title": "Goal's control flags",
+                "type": "string",
+                "enum": [
+                    "move",
+                    "look",
+                    "jump"
+                ]
+            }
+        },
+        "interval": {
+            "type": "number",
+            "default": 0.008329999633133412
+        },
+        "look_ahead": {
+            "type": "number",
+            "default": 5.0
+        },
+        "priority": {
+            "type": "integer",
+            "default": 0,
+            "minimum": 0.0
+        },
+        "speed_multiplier": {
+            "type": "number",
+            "default": 1.0
+        },
+        "wander_time": {
+            "type": "number",
+            "default": 5.0
+        }
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "558946417",
+    "x-format-version": "1.21.80",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "1649996674": {
+            "title": "Identifier",
+            "type": "string"
+        },
+        "2305420650": {
+            "title": "CameraAimAssistCommandPresetDefinition",
+            "type": "object",
+            "properties": {
+                "angle": {
+                    "$ref": "#/definitions/742152213"
+                },
+                "distance": {
+                    "type": "number"
+                },
+                "preset": {
+                    "$ref": "#/definitions/2897196339"
+                },
+                "target_mode": {
+                    "title": "Aim-Assist Target Mode",
+                    "type": "string",
+                    "enum": [
+                        "angle",
+                        "distance"
+                    ]
+                }
+            }
+        },
+        "3905427926": {
+            "title": "Reference",
+            "type": "string"
+        },
+        "742152213": {
+            "title": "Vec2",
+            "oneOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "number"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "x": {
+                            "type": "number",
+                            "default": 0.0
+                        },
+                        "y": {
+                            "type": "number",
+                            "default": 0.0
+                        }
+                    }
+                }
+            ]
+        },
+        "2897196339": {
+            "title": "Reference",
+            "type": "string"
+        }
+    },
+    "title": "Camera Preset",
+    "type": "object",
+    "properties": {
+        "aim_assist": {
+            "$ref": "#/definitions/2305420650"
+        },
+        "continue_targeting": {
+            "type": "boolean"
+        },
+        "control_scheme": {
+            "title": "Control Scheme",
+            "type": "string",
+            "enum": [
+                "locked_player_relative_strafe",
+                "camera_relative",
+                "camera_relative_strafe",
+                "player_relative",
+                "player_relative_strafe"
+            ]
+        },
+        "entity_offset": {
+            "type": "array",
+            "items": {
+                "type": "number",
+                "minimum": -64.0,
+                "maximum": 64.0
+            },
+            "minItems": 3,
+            "maxItems": 3
+        },
+        "horizontal_rotation_limit": {
+            "type": "array",
+            "items": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 360.0
+            },
+            "minItems": 2,
+            "maxItems": 2
+        },
+        "identifier": {
+            "$ref": "#/definitions/1649996674",
+            "pattern": "^(\\w+:\\w+)?$"
+        },
+        "inherit_from": {
+            "default": "",
+            "$ref": "#/definitions/3905427926",
+            "pattern": "^(\\w+:\\w+)?$"
+        },
+        "listener": {
+            "title": "AudioListener",
+            "type": "string",
+            "enum": [
+                "camera",
+                "player"
+            ]
+        },
+        "player_effects": {
+            "type": "boolean"
+        },
+        "pos_x": {
+            "type": "number"
+        },
+        "pos_y": {
+            "type": "number"
+        },
+        "pos_z": {
+            "type": "number"
+        },
+        "radius": {
+            "type": "number",
+            "minimum": 0.10000000149011612,
+            "maximum": 64.0
+        },
+        "rot_x": {
+            "type": "number",
+            "minimum": -90.0,
+            "maximum": 90.0
+        },
+        "rot_y": {
+            "type": "number"
+        },
+        "rotation_speed": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 360.0
+        },
+        "snap_to_target": {
+            "type": "boolean"
+        },
+        "tracking_radius": {
+            "type": "number"
+        },
+        "vertical_rotation_limit": {
+            "type": "array",
+            "items": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 180.0
+            },
+            "minItems": 2,
+            "maxItems": 2
+        },
+        "view_offset": {
+            "type": "array",
+            "items": {
+                "type": "number",
+                "minimum": -64.0,
+                "maximum": 64.0
+            },
+            "minItems": 2,
+            "maxItems": 2
+        },
+        "yaw_limits_max": {
+            "type": "number",
+            "minimum": -179.89999389648438,
+            "maximum": 180.0
+        },
+        "yaw_limits_min": {
+            "type": "number",
+            "minimum": -180.0,
+            "maximum": 179.89999389648438
+        }
+    },
+    "required": [
+        "identifier"
+    ]
+}

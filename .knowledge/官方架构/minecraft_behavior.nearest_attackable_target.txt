@@ -1,0 +1,22 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    bool "attack_owner" : opt
+    bool "must_reach" : opt
+    bool "must_see" : opt
+    float "within_radius" : opt
+    float "must_see_forget_duration" : opt
+    float "persist_time" : opt
+    entity_types "entity_types" : opt
+    bool "reselect_targets" : opt
+    int "attack_interval|attack_interval_min" : opt
+    int "scan_interval" : opt
+    float "target_search_height" : opt
+    float "target_invisible_multiplier" : opt
+    float "target_sneak_visibility_multiplier" : opt
+    bool "set_persistent" : opt
+}
+

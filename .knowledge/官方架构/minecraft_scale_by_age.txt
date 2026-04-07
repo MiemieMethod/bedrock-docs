@@ -1,0 +1,5 @@
+{
+    float "start_scale" : opt
+    float "end_scale" : opt
+}
+

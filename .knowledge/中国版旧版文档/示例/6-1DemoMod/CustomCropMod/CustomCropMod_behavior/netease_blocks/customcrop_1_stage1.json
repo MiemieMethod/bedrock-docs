@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+   "description": {
+     "identifier": "customcrop:customcrop_1_stage1",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:block_light_absorption": {
+        "value": 0
+      },
+      "netease:render_layer": {
+        "value": "alpha"
+      },
+      "netease:aabb": {
+        "collision": {
+          "min": [0.0, 0.0, 0.0],
+          "max": [0.0, 0.0, 0.0]
+        },
+        "clip": {
+          "min": [0.0, 0.0, 0.0],
+          "max": [1.0, 0.625, 1.0]
+        }
+      },
+      "netease:random_tick": {
+        "enable": true,
+        "tick_to_script": true
+      },
+      "netease:redstone_property": {
+        "value": "break_on_push"
+      },
+      "netease:neighborchanged_sendto_script": {
+        "value": true
+      },
+      "netease:block_entity": {
+        "tick": false,
+        "movable": true
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "top",
+  "type": {
+    "name": "variant",
+    "variant_types": [
+      {
+        "name": "array",
+        "additional_element_type": {
+          "name": "integer"
+        },
+        "min_items": 3,
+        "max_items": 3
+      },
+      {
+        "name": "string",
+        "pattern": "^(0|[1-9][0-9]*)(\\.(0|[1-9][0-9]*)(\\.(0|[1-9][0-9]*)(?:-((?:(?:(?:(?:0[0-9]*[A-Za-z-])|[1-9A-Za-z-])[0-9A-Za-z-]*)|0)(?:\\.(?:(?:(?:(?:0[0-9]*[A-Za-z-])|[1-9A-Za-z-])[0-9A-Za-z-]*)|0))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?)?)?$"
+      }
+    ],
+    "common_type": {}
+  }
+}

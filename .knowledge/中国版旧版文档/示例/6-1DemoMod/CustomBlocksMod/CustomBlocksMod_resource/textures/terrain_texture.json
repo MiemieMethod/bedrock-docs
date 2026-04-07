@@ -1,0 +1,75 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "customblocks:customblocks_test0_up": {
+      "textures": "textures/blocks/customblocks_test0_up"
+    },
+	"customblocks:customblocks_test0_other": {
+      "textures": "textures/blocks/customblocks_test0_other"
+    },
+
+	"customblocks:customblocks_test_ore": {
+      "textures": "textures/blocks/customblocks_ore"
+    },
+
+	"customblocks:customblocks_test_face4_front":{
+	  "textures": "textures/blocks/customblocks_face4_front"
+	},
+	"customblocks:customblocks_test_face4_side":{
+	  "textures": "textures/blocks/customblocks_face4_side"
+	},
+	"customblocks:customblocks_test_face4_top":{
+	  "textures": "textures/blocks/customblocks_face4_top"
+	},
+	
+	"customblocks:customblocks_test_face6_front":{
+	  "textures": "textures/blocks/customblocks_face6_front"
+	},
+	"customblocks:customblocks_test_face6_back":{
+	  "textures": "textures/blocks/customblocks_face6_back"
+	},
+	"customblocks:customblocks_test_face6_side":{
+	  "textures": "textures/blocks/customblocks_face6_side"
+	},
+	"customblocks:customblocks_test_face6_top":{
+	  "textures": "textures/blocks/customblocks_face6_top"
+	},
+	"customblocks:customblocks_test_face6_down":{
+	  "textures": "textures/blocks/customblocks_face6_down"
+	},
+	"customblocks:customblocks_test_portal_blue":{
+      "textures": "textures/blocks/customblocks_portal_blue"
+    },
+	"customblocks:customblocks_test_block_entity":{
+	  "textures": "textures/blocks/customblocks_test_block_entity"
+	},
+	"customblocks:customblocks_model_decoration0":{
+      "textures": "textures/blocks/customblocks_model_decoration0"
+    },
+	"customblocks:customblocks_model_decoration1":{
+      "textures": "textures/blocks/customblocks_model_decoration1"
+    },
+	"customblocks:customblocks_model_wire":{
+      "textures": "textures/blocks/customblocks_model_wire"
+    },
+	"customblocks:customblocks_model_wire_item":{
+      "textures": "textures/blocks/customblocks_model_wire_item"
+    },
+	"customblocks:customblocks_model_flower":{
+      "textures": "textures/blocks/customblocks_model_flower"
+	},
+	"customblocks:customblocks_redstone_block": {
+		"textures": "textures/blocks/customblocks_redstone_block"
+	},
+	"customblocks:customblocks_redstone_consumer_up": {
+		"textures": [
+			"textures/blocks/customblocks_consumer_off",
+			"textures/blocks/customblocks_consumer_on"
+		]
+	},
+	"customblocks:customblocks_consumer_stone_slab": {
+		"textures": "textures/blocks/customblocks_stone_slab_top"
+	}
+  }
+}

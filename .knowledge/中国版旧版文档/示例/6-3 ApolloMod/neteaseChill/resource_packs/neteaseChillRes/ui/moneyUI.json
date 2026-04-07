@@ -1,0 +1,868 @@
+{
+  "close_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_money/icon08@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_money/icon08_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_money/icon08_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.46875,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "44.7876453%+0 px",
+      "-45.1035768%+0px"
+    ],
+    "size": [
+      "4.942085%+0 px",
+      "6.02636524%+0px"
+    ],
+    "visible": true
+  },
+  "interact_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 69,
+    "$nine_slice_left": 50,
+    "$nine_slice_right": 69,
+    "$nine_slice_top": 50,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+          "texture": "textures/ui/netease_money/btn01@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+          "texture": "textures/ui/netease_money/btn01_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+          "texture": "textures/ui/netease_money/btn01_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.46875,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      },
+      {
+        "prize_status_text@moneyUI.prize_status_text": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "38.4180784%+0px"
+    ],
+    "size": [
+      "42.4710423%+0 px",
+      "11.299435%+0px"
+    ],
+    "visible": true
+  },
+  "main@common.base_screen": {
+    "controls": [
+      {
+        "money_panel@moneyUI.money_panel": {}
+      }
+    ]
+  },
+  "mask_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_money/mask_bg",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "money_banner": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "-16.1016956%+0px"
+    ],
+    "size": [
+      "92.8185344%+0 px",
+      "47.2693026%+0px"
+    ],
+    "texture": "textures/ui/netease_money/img01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "money_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "money_title@moneyUI.money_title": {}
+      },
+      {
+        "money_banner@moneyUI.money_banner": {}
+      },
+      {
+        "prize_bg_1@moneyUI.prize_bg_1": {}
+      },
+      {
+        "prize_bg_2@moneyUI.prize_bg_2": {}
+      },
+      {
+        "prize_bg_3@moneyUI.prize_bg_3": {}
+      },
+      {
+        "prize_bg_4@moneyUI.prize_bg_4": {}
+      },
+      {
+        "prize_bg_5@moneyUI.prize_bg_5": {}
+      },
+      {
+        "prize_text@moneyUI.prize_text": {}
+      },
+      {
+        "close_btn@moneyUI.close_btn": {}
+      },
+      {
+        "interact_btn@moneyUI.interact_btn": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 2,
+    "nine_slice_buttom": 36,
+    "nine_slice_left": 8,
+    "nine_slice_right": 8,
+    "nine_slice_top": 32,
+    "nineslice_size" : [ 8.0, 32.0, 8.0, 36.0 ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "256.0734463276836px",
+      "210.0px"
+    ],
+    "texture": "textures/ui/netease_money/dialog_01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "money_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "mask_bg@moneyUI.mask_bg": {}
+      },
+      {
+        "money_bg@moneyUI.money_bg": {}
+      }
+    ],
+    "layer": 16,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.000000%+0 px",
+      "100.000000%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "money_title": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 1.0714285714285714,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "-44.35028%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "23.1660232%+0 px",
+      "5.64971752%+0px"
+    ],
+    "text": "首次充值奖励",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "namespace": "moneyUI",
+  "prize_1": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_money/img_reward_01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_2": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_money/img_reward_01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_3": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_money/img_reward_01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_4": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_money/img_reward_01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_5": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_money/img_reward_01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_bg_1": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "prize_1@moneyUI.prize_1": {}
+      },
+      {
+        "prize_count_1@moneyUI.prize_count_1": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-23.0115831%+0 px",
+      "16.3841814%+0px"
+    ],
+    "size": [
+      "10.8108111%+0 px",
+      "13.1826743%+0px"
+    ],
+    "texture": "textures/ui/netease_money/bg02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_bg_2": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "prize_2@moneyUI.prize_2": {}
+      },
+      {
+        "prize_count_2@moneyUI.prize_count_2": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-11.5057915%+0 px",
+      "16.3841814%+0px"
+    ],
+    "size": [
+      "10.8108111%+0 px",
+      "13.1826743%+0px"
+    ],
+    "texture": "textures/ui/netease_money/bg02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_bg_3": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "prize_3@moneyUI.prize_3": {}
+      },
+      {
+        "prize_count_3@moneyUI.prize_count_3": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "0%+0 px",
+      "16.3841814%+0px"
+    ],
+    "size": [
+      "10.8108111%+0 px",
+      "13.1826743%+0px"
+    ],
+    "texture": "textures/ui/netease_money/bg02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_bg_4": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "prize_4@moneyUI.prize_4": {}
+      },
+      {
+        "prize_count_4@moneyUI.prize_count_4": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "11.4285715%+0 px",
+      "16.3841814%+0px"
+    ],
+    "size": [
+      "10.8108111%+0 px",
+      "13.1826743%+0px"
+    ],
+    "texture": "textures/ui/netease_money/bg02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_bg_5": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "prize_5@moneyUI.prize_5": {}
+      },
+      {
+        "prize_count_5@moneyUI.prize_count_5": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "22.857143%+0 px",
+      "16.3841814%+0px"
+    ],
+    "size": [
+      "10.8108111%+0 px",
+      "13.1826743%+0px"
+    ],
+    "texture": "textures/ui/netease_money/bg02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "prize_count_1": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.2053571428571428,
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      "5.0%+0 px",
+      "35.7142866%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "71.4285731%+0 px",
+      "42.8571433%+0px"
+    ],
+    "text": "1",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "prize_count_2": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.2053571428571428,
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      "5.0%+0 px",
+      "35.7142866%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "71.4285731%+0 px",
+      "42.8571433%+0px"
+    ],
+    "text": "1",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "prize_count_3": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.2053571428571428,
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      "5.0%+0 px",
+      "35.7142866%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "71.4285731%+0 px",
+      "42.8571433%+0px"
+    ],
+    "text": "1",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "prize_count_4": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.2053571428571428,
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      "5.0%+0 px",
+      "35.7142866%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "71.4285731%+0 px",
+      "42.8571433%+0px"
+    ],
+    "text": "1",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "prize_count_5": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.2053571428571428,
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      "5.0%+0 px",
+      "35.7142866%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "71.4285731%+0 px",
+      "42.8571433%+0px"
+    ],
+    "text": "1",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "prize_status_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 1.0714285714285714,
+    "font_size": "normal",
+    "layer": 6,
+    "offset": [
+      "0%+0 px",
+      "36.6666675%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "前往兑换",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "prize_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.0714285714285714,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "28.34275%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "69.49807%+0 px",
+      "5.64971752%+0px"
+    ],
+    "text": "单次兑换600钻石网游币即可领取活动奖励",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  }
+}

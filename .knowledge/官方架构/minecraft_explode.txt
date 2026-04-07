@@ -1,0 +1,11 @@
+{
+    float_range "fuseLength|fuse_length" : opt
+    float "power" : opt
+    float "maxResistance|max_resistance" : opt
+    bool "fuseLit|fuse_lit" : opt
+    bool "causesFire|causes_fire" : opt
+    bool "breaks_blocks" : opt
+    bool "fireAffectedByGriefing|fire_affected_by_griefing" : opt
+    bool "destroyAffectedByGriefing|destroy_affected_by_griefing" : opt
+}
+

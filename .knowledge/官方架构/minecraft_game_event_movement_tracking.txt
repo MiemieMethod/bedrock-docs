@@ -1,0 +1,6 @@
+{
+    bool "emit_move" : opt
+    bool "emit_swim" : opt
+    bool "emit_flap" : opt
+}
+

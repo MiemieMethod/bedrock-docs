@@ -1,0 +1,7 @@
+{
+    "ui_defs": [
+        "ui/netease_label_headUI.json",
+        "ui/netease_label_mainUI.json",
+        "ui/netease_label_popUI.json"
+    ]
+}

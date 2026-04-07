@@ -1,0 +1,485 @@
+{
+   "btn_bottom_0@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_InputBoard/bnt01",
+      "$hover_texture" : "textures/ui/netease_InputBoard/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.1647058823529412, 0.1647058823529412, 0.1647058823529412 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%netease_commonInterfaceUI.click",
+      "$pressed_texture" : "textures/ui/netease_InputBoard/btn01_click",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_inputboard_screen.default" : {}
+         },
+         {
+            "hover@netease_inputboard_screen.hover" : {}
+         },
+         {
+            "pressed@netease_inputboard_screen.pressed" : {}
+         },
+         {
+            "button_label@netease_inputboard_screen.button_label" : {}
+         },
+         {
+            "label" : {
+               "alpha" : 1.0,
+               "anchor_from" : "center",
+               "anchor_to" : "center",
+               "clip_offset" : [ 0, 0 ],
+               "clips_children" : false,
+               "color" : [ 0.0, 0.0, 0.0 ],
+               "enabled" : true,
+               "font_scale_factor" : 0.9399999976158142,
+               "font_size" : "normal",
+               "font_type" : "smooth",
+               "layer" : 13,
+               "line_padding" : 0.0,
+               "max_size" : [ 63.0, 18.0 ],
+               "min_size" : [ 0, 0 ],
+               "offset" : [ 0.0, 0 ],
+               "propagate_alpha" : false,
+               "shadow" : false,
+               "size" : [ "default", "default" ],
+               "text" : "§4取消\n",
+               "text_alignment" : "center",
+               "type" : "label",
+               "visible" : true
+            }
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 9,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 63, 24 ],
+      "visible" : true
+   },
+   "btn_bottom_1@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_InputBoard/bnt01",
+      "$hover_texture" : "textures/ui/netease_InputBoard/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.1647058823529412, 0.1647058823529412, 0.1647058823529412 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%netease_commonInterfaceUI.click",
+      "$pressed_texture" : "textures/ui/netease_InputBoard/btn01_click",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_inputboard_screen.default" : {}
+         },
+         {
+            "label" : {
+               "alpha" : 1.0,
+               "anchor_from" : "center",
+               "anchor_to" : "center",
+               "clip_offset" : [ 0, 0 ],
+               "clips_children" : false,
+               "color" : [ 0.0, 0.0, 0.0 ],
+               "enabled" : true,
+               "font_scale_factor" : 0.9399999976158142,
+               "font_size" : "normal",
+               "font_type" : "smooth",
+               "layer" : 18,
+               "line_padding" : 0.0,
+               "max_size" : [ 63.0, 18.0 ],
+               "min_size" : [ 0, 0 ],
+               "offset" : [ 0, 0 ],
+               "propagate_alpha" : false,
+               "shadow" : false,
+               "size" : [ "default", "default" ],
+               "text" : "§4确认",
+               "text_alignment" : "center",
+               "type" : "label",
+               "visible" : true
+            }
+         },
+         {
+            "hover@netease_inputboard_screen.hover" : {}
+         },
+         {
+            "pressed@netease_inputboard_screen.pressed" : {}
+         },
+         {
+            "button_label@netease_inputboard_screen.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 14,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 63, 24 ],
+      "visible" : true
+   },
+   "btn_close@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_InputBoard/icon_close",
+      "$hover_texture" : "textures/ui/netease_InputBoard/icon_close_click",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_commonInterfaceUI.click",
+      "$pressed_texture" : "textures/ui/netease_InputBoard/icon_close_click",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_inputboard_screen.default" : {}
+         },
+         {
+            "hover@netease_inputboard_screen.hover" : {}
+         },
+         {
+            "pressed@netease_inputboard_screen.pressed" : {}
+         },
+         {
+            "button_label@netease_inputboard_screen.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -5, 6 ],
+      "propagate_alpha" : false,
+      "size" : [ 15, 15 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "alpha" : "$control_alpha",
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "edit_box_background_default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$edit_box_default_texture",
+      "type" : "image"
+   },
+   "edit_box_background_hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$edit_box_hover_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "img_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_top_title@netease_inputboard_screen.lb_top_title" : {}
+         },
+         {
+            "btn_close@netease_inputboard_screen.btn_close" : {}
+         },
+         {
+            "lb_middle_content@netease_inputboard_screen.lb_middle_content" : {}
+         },
+         {
+            "pnl_bottom@netease_inputboard_screen.pnl_bottom" : {}
+         },
+         {
+            "text_edit_input@netease_inputboard_screen.text_edit_input" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : false,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 36,
+      "nine_slice_left" : 8,
+      "nine_slice_right" : 8,
+      "nine_slice_top" : 26,
+      "nineslice_size" : [ 8.0, 26.0, 8.0, 36.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 142, "100.0%cm+90.0px" ],
+      "texture" : "textures/ui/netease_InputBoard/panel01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 32, 64 ],
+      "visible" : true
+   },
+   "lb_middle_content" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 7,
+      "line_padding" : 0.0,
+      "max_size" : [ 0.0, 80.0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 28 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 115, "default" ],
+      "text" : "搜索\n",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_top_title" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.1647058823529412, 0.1647058823529412, 0.1647058823529412 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 8 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 34, 8 ],
+      "text" : "搜索好友",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_inputboard@netease_inputboard_screen.pnl_inputboard" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "namespace" : "netease_inputboard_screen",
+   "pnl_bottom" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "btn_bottom_0@netease_inputboard_screen.btn_bottom_0" : {}
+         },
+         {
+            "btn_bottom_1@netease_inputboard_screen.btn_bottom_1" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 8,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, -8 ],
+      "propagate_alpha" : false,
+      "size" : [ 129, 20 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_inputboard" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "img_bg@netease_inputboard_screen.img_bg" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pressed" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "text_edit_input@common.text_edit_box" : {
+      "$edit_box_default_texture" : "textures/ui/netease_InputBoard/input01",
+      "$edit_box_hover_texture" : "textures/ui/netease_InputBoard/input01",
+      "$font_scale_factor" : 1.0,
+      "$is_new_nine_slice" : false,
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 1,
+      "$nine_slice_right" : 1,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 1.0, 1.0, 1.0, 1.0 ],
+      "$place_holder_text" : "",
+      "$place_holder_text_color" : [ 0.6980392156862745, 0.6980392156862745, 0.6980392156862745 ],
+      "$text_background_default" : "netease_inputboard_screen.edit_box_background_default",
+      "$text_background_hover" : "netease_inputboard_screen.edit_box_background_hover",
+      "$text_box_name" : "%netease_commonInterfaceUI.message_text_edit_box0",
+      "$text_box_text_color" : [ 0.6980392156862745, 0.6980392156862745, 0.6980392156862745 ],
+      "$text_edit_box_content_binding_name" : "#netease_commonInterfaceUI.message_content_text_edit_box0",
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "enabled_newline" : false,
+      "layer" : 19,
+      "max_length" : 512,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, -40 ],
+      "propagate_alpha" : true,
+      "size" : [ 113, 20 ],
+      "visible" : true
+   }
+}

@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/dialogueUI.json",
+    "ui/semaphoreUI.json"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    object "items" : opt
+    {
+         "item" : opt
+        int "heal_amount" : opt
+        object "effects" : opt
+        {
+            string "name" : opt
+            float "duration" : opt
+            int "amplifier" : opt
+            float "chance" : opt
+        }
+        array "effects" : opt
+        {
+            object "<any array element>" : opt
+            {
+                string "name" : opt
+                float "duration" : opt
+                int "amplifier" : opt
+                float "chance" : opt
+            }
+        }
+    }
+    string "items" : opt
+    array "items" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "item" : opt
+            int "heal_amount" : opt
+            object "effects" : opt
+            {
+                string "name" : opt
+                float "duration" : opt
+                int "amplifier" : opt
+                float "chance" : opt
+            }
+            array "effects" : opt
+            {
+                object "<any array element>" : opt
+                {
+                    string "name" : opt
+                    float "duration" : opt
+                    int "amplifier" : opt
+                    float "chance" : opt
+                }
+            }
+        }
+        string "<any array element>" : opt
+    }
+    bool "force_use" : opt
+     "filters" : opt
+}
+

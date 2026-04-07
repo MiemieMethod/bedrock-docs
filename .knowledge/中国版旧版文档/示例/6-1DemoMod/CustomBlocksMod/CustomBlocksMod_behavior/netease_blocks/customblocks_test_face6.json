@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+   "description": {
+     "identifier": "customblocks:customblocks_test_face6",
+	 "register_to_creative_menu": true,
+	 "is_experimental": false,
+	 "category": "custom"
+   },
+   "components": {
+	  "netease:face_directional": {
+	    "type": "facing_direction"
+	  },
+	  "minecraft:explosion_resistance": {
+	    "value": 100
+	  },
+	  "minecraft:block_light_absorption": {
+	    "value": 3
+	  }
+    }
+  }
+}

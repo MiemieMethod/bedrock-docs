@@ -1,0 +1,34 @@
+{
+    float "passenger_max_width" : opt // The max width a mob can be to be a passenger. A value of 0 ignores this parameter.
+    int "seat_count" : opt // The number of entities that can ride this entity at the same time
+    bool "crouching_skip_interact" : opt
+    string "interact_text" : opt
+    string "family_types" : opt
+    array "family_types" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "controlling_seat" : opt
+    bool "pull_in_entities" : opt
+    bool "rider_can_interact" : opt
+    array "seats" : opt // The list of positions and number of riders for each position for entities riding this entity
+    {
+        seat_description "<any array element>" : opt
+        {
+            vec3 "position" : opt
+            int "min_rider_count" : opt
+            int "max_rider_count" : opt
+            molang "rotate_rider_by" : opt
+            float "lock_rider_rotation" : opt
+        }
+    }
+    seat_description "seats" : opt // The list of positions and number of riders for each position for entities riding this entity
+    {
+        vec3 "position" : opt
+        int "min_rider_count" : opt
+        int "max_rider_count" : opt
+        molang "rotate_rider_by" : opt
+        float "lock_rider_rotation" : opt
+    }
+}
+

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm5_frozen_river", 
+            "inherits": "frozen_river"
+        }, 
+        "components": {
+            "minecraft:overworld_surface": {
+                "floor_depth": 7, 
+                "floor_material": "minecraft:emerald_block", 
+                "foundation_material": "minecraft:iron_block", 
+                "mid_material": "customblocks:customblocks_test_ore", 
+                "top_material": "customblocks:customblocks_test0"
+            }, 
+            "dm5": {}
+        }
+    }
+}

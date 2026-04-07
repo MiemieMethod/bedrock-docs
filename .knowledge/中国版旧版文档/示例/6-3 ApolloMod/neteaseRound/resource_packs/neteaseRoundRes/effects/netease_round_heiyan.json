@@ -1,0 +1,113 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "1.0"
+        },
+        "colorfade": [
+            {
+                "color": "0.3255 0.0000 0.4902 1.0000",
+                "time": "0.0"
+            },
+            {
+                "color": "1.0000 0.0000 1.0000 1.0000",
+                "time": "0.11315789473684211"
+            },
+            {
+                "color": "0.3020 0.0000 0.0000 1.0000",
+                "time": "0.32105263157894737"
+            },
+            {
+                "color": "0.0000 0.0000 0.0000 1.0000",
+                "time": "0.7447368421052631"
+            },
+            {
+                "color": "0.0000 0.0000 0.0000 0.0000",
+                "time": "1.0"
+            }
+        ],
+        "constantforce": {
+            "value": "-0.2 0.0 0.30000000000000004"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.08 0.0 0.0",
+            "min": "0.02 0.0 0.0",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "15.0",
+            "min": "15.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterpath": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "0.0 0.0 0.0"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "inactivetime": {
+            "value": "1.0"
+        },
+        "numparticles": {
+            "value": "7"
+        },
+        "particlesize": {
+            "max": "0.85 0.85",
+            "min": "1.0 1.0"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "rotation": {
+            "max": "360.0",
+            "min": "0.0"
+        },
+        "rotationspeed": {
+            "max": "10.0",
+            "min": "0.0"
+        },
+        "sizedelta": [
+            {
+                "scale": "1.05 1.05",
+                "time": "0.00"
+            },
+            {
+                "scale": "1.56 1.56",
+                "time": "0.50"
+            },
+            {
+                "scale": "1.96 1.96",
+                "time": "1.30"
+            },
+            {
+                "scale": "2.01 2.01",
+                "time": "2.00"
+            }
+        ],
+        "texture": {
+            "ani": {
+                "fps": "15",
+                "name": "textures/sfxs/netease_round_debuff_heiyan2",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/netease_round_debuff_heiyan2"
+        },
+        "thickness": {
+            "value": "0.9999999999999999"
+        },
+        "velocity": {
+            "max": "0.0",
+            "min": "0.2"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseChillDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.3",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.16.0.release20200220",
+  "_comment": "插件实现的功能",
+  "description": "活动奖励",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，活动奖励插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseChill",
+  "_comment": "以下为可配置项",
+  "_comment": "活动奖励配置",
+  "Rewards": {
+    "_comment": "活动物品奖励列表",
+    "_comment": "列表中配置活动物品奖励，达成活动条件时给予玩家的物品就是在这里配置",
+    "rewards": [
+      {
+        "_comment": "格式必须为道具的identifier + : + auxValue，若无auxValue，则填0",
+        "reward_item_id": "minecraft:wool:1",
+        "_comment": "数量不得超过物品的最大堆叠上限",
+        "reward_item_count": 1
+      },
+      {
+        "reward_item_id": "minecraft:wool:2",
+        "reward_item_count": 2
+      }
+    ],
+    "_comment": "界面物品显示列表，最多显示五个，最少配置一个",
+    "exhibits": [
+      {
+        "_comment": "奖励显示在界面的图标",
+        "display_icon": "textures/ui/netease_money/img_reward_01@3x",
+        "_comment": "奖励显示在界面的数量",
+        "display_count": 1
+      },
+      {
+        "_comment": "奖励显示在界面的图标",
+        "display_icon": "textures/ui/netease_money/img_reward_01@3x",
+        "_comment": "奖励显示在界面的数量",
+        "display_count": 2
+      },
+      {
+        "_comment": "奖励显示在界面的图标",
+        "display_icon": "textures/ui/netease_money/img_reward_01@3x",
+        "_comment": "奖励显示在界面的数量",
+        "display_count": 3
+      },
+      {
+        "_comment": "奖励显示在界面的图标",
+        "display_icon": "textures/ui/netease_money/img_reward_01@3x",
+        "_comment": "奖励显示在界面的数量",
+        "display_count": 4
+      },
+      {
+        "_comment": "奖励显示在界面的图标",
+        "display_icon": "textures/ui/netease_money/img_reward_01@3x",
+        "_comment": "奖励显示在界面的数量",
+        "display_count": 5
+      }
+    ],
+    "_comment": "界面提示文本",
+    "desc": "单次兑换600钻石网游币即可领取活动奖励",
+    "_comment": "界面标题",
+    "title": "首次充值奖励"
+  }
+}

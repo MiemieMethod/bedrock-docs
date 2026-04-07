@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "customitems:test0"
+		},
+
+		"tags": ["crafting_table"],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "customitems:test0"
+			},
+			"X": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": {
+			"item": "customitems:test1"
+		}
+	}
+}

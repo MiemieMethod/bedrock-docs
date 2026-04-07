@@ -1,0 +1,8 @@
+{
+    "ui_defs": [
+        "ui/netease_friend_confirmUI.json",
+        "ui/netease_friend_inviteUI.json",
+        "ui/netease_friend_invite_popUI.json",
+        "ui/netease_friend_listUI.json"
+    ]
+}

@@ -1,0 +1,2138 @@
+{
+   "beforeBtn@common.button" : {
+      "$default_texture" : "textures/ui/netease_rank/btn01",
+      "$hover_texture" : "textures/ui/netease_rank/btn01",
+      "$is_new_nine_slice" : true,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "%RankUI.click",
+      "$pressed_texture" : "textures/ui/netease_rank/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@RankUI.default" : {}
+         },
+         {
+            "hover@RankUI.hover" : {}
+         },
+         {
+            "pressed@RankUI.pressed" : {}
+         },
+         {
+            "button_label@RankUI.button_label" : {}
+         },
+         {
+            "beforeImg@RankUI.beforeImg" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ -19.0, 67.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 13.0, 13.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "beforeImg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 5,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ 7.0, 7.0 ],
+      "texture" : "textures/ui/netease_rank/btn07",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "closeButton@common.button" : {
+      "$default_texture" : "textures/ui/netease_rank/btn05",
+      "$hover_texture" : "textures/ui/netease_rank/btn05",
+      "$is_new_nine_slice" : true,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "%RankUI.click",
+      "$pressed_texture" : "textures/ui/netease_rank/btn05_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@RankUI.default" : {}
+         },
+         {
+            "hover@RankUI.hover" : {}
+         },
+         {
+            "pressed@RankUI.pressed" : {}
+         },
+         {
+            "button_label@RankUI.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "offset" : [ 144.0, -87.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 11.0, 11.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "rankPanel@RankUI.rankPanel" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "messagelabel1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -110.0, -67.0 ],
+      "shadow" : false,
+      "size" : [ 47.0, 8.0 ],
+      "text" : "信息1",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "messagelabel2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -61.0, -67.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 8.0 ],
+      "text" : "信息2",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "messagelabel3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -17.0, -67.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 8.0 ],
+      "text" : "信息3",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "messagelabel4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 27.0, -67.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 8.0 ],
+      "text" : "信息4",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "messagelabel5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 71.0, -67.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 8.0 ],
+      "text" : "信息5",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "messagelabel6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 115.0, -67.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 8.0 ],
+      "text" : "信息6",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "namespace" : "RankUI",
+   "nextBtn@common.button" : {
+      "$default_texture" : "textures/ui/netease_rank/btn01",
+      "$hover_texture" : "textures/ui/netease_rank/btn01",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "%RankUI.click",
+      "$pressed_texture" : "textures/ui/netease_rank/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@RankUI.default" : {}
+         },
+         {
+            "hover@RankUI.hover" : {}
+         },
+         {
+            "pressed@RankUI.pressed" : {}
+         },
+         {
+            "button_label@RankUI.button_label" : {}
+         },
+         {
+            "nextImg@RankUI.nextImg" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ 18.0, 67.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 13.0, 13.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "nextImg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 4,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ 7.0, 7.0 ],
+      "texture" : "textures/ui/netease_rank/btn06",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 7, 7 ],
+      "visible" : true
+   },
+   "pageNum" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 3,
+      "offset" : [ -1.0, 67.0 ],
+      "shadow" : false,
+      "size" : [ 26.0, 10.0 ],
+      "text" : "1/12",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "pressed" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+  "rank10Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank10Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank10Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank10Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank10Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank10Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank1Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字吧吧",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank1Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank1Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank1Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank1Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank1Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank2Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank2Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank2Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank2Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank2Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank2Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank3Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank3Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank3Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank3Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank3Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank3Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank4Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank4Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank4Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank4Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank4Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank4Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank5Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank5Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank5Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank5Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank5Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank5Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank6Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank6Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank6Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank6Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank6Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank6Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank7Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank7Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank7Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank7Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank7Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank7Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank8Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank8Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank8Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank8Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank8Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank8Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank9Message1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -101.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 42.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank9Message2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -57.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank9Message3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -16.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank9Message4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank9Message5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 79.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rank9Message6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.5899999737739563,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 123.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 10.0 ],
+      "text" : "信息共六个字",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankBack" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "messagelabel5@RankUI.messagelabel5" : {}
+         },
+         {
+            "messagelabel6@RankUI.messagelabel6" : {}
+         },
+         {
+            "messagelabel4@RankUI.messagelabel4" : {}
+         },
+         {
+            "messagelabel3@RankUI.messagelabel3" : {}
+         },
+         {
+            "messagelabel2@RankUI.messagelabel2" : {}
+         },
+         {
+            "messagelabel1@RankUI.messagelabel1" : {}
+         },
+         {
+            "ranklabel@RankUI.ranklabel" : {}
+         },
+         {
+            "rankNum1@RankUI.rankNum1" : {}
+         },
+         {
+            "rankNum2@RankUI.rankNum2" : {}
+         },
+         {
+            "rankNum3@RankUI.rankNum3" : {}
+         },
+         {
+            "rankNum4@RankUI.rankNum4" : {}
+         },
+         {
+            "rankNum5@RankUI.rankNum5" : {}
+         },
+         {
+            "rankNum6@RankUI.rankNum6" : {}
+         },
+         {
+            "rankNum7@RankUI.rankNum7" : {}
+         },
+         {
+            "rankNum8@RankUI.rankNum8" : {}
+         },
+         {
+            "rankNum9@RankUI.rankNum9" : {}
+         },
+         {
+            "rankNum10@RankUI.rankNum10" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "offset" : [ 0.0, 2.0 ],
+      "size" : [ 306.0, 142.0 ],
+      "texture" : "textures/ui/netease_rank/panel03",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 30, 30 ],
+      "visible" : true
+   },
+   "rankImage" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "pageNum@RankUI.pageNum" : {}
+         },
+         {
+            "nextBtn@RankUI.nextBtn" : {}
+         },
+         {
+            "beforeBtn@RankUI.beforeBtn" : {}
+         },
+         {
+            "closeButton@RankUI.closeButton" : {}
+         },
+         {
+            "rankTitleText@RankUI.rankTitleText" : {}
+         },
+         {
+            "rankTitle@RankUI.rankTitle" : {}
+         },
+         {
+            "rankBack@RankUI.rankBack" : {}
+         },
+         {
+            "remarksText@RankUI.remarksText" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 2,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 2.0, 1.0 ],
+      "size" : [ 309.0, 191.0 ],
+      "texture" : "textures/ui/netease_rank/panel04",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 30, 30 ],
+      "visible" : true
+   },
+   "rankNum1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "ranktag1@RankUI.ranktag1" : {}
+         },
+         {
+            "rankText1@RankUI.rankText1" : {}
+         },
+         {
+            "rank1Message1@RankUI.rank1Message1" : {}
+         },
+         {
+            "rank1Message2@RankUI.rank1Message2" : {}
+         },
+         {
+            "rank1Message3@RankUI.rank1Message3" : {}
+         },
+         {
+            "rank1Message4@RankUI.rank1Message4" : {}
+         },
+         {
+            "rank1Message5@RankUI.rank1Message5" : {}
+         },
+         {
+            "rank1Message6@RankUI.rank1Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, -57.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum10" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankText10@RankUI.rankText10" : {}
+         },
+         {
+            "rank10Message1@RankUI.rank10Message1" : {}
+         },
+         {
+            "rank10Message2@RankUI.rank10Message2" : {}
+         },
+         {
+            "rank10Message3@RankUI.rank10Message3" : {}
+         },
+         {
+            "rank10Message4@RankUI.rank10Message4" : {}
+         },
+         {
+            "rank10Message5@RankUI.rank10Message5" : {}
+         },
+         {
+            "rank10Message6@RankUI.rank10Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, 51.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "ranktag2@RankUI.ranktag2" : {}
+         },
+         {
+            "rankText2@RankUI.rankText2" : {}
+         },
+         {
+            "rank2Message1@RankUI.rank2Message1" : {}
+         },
+         {
+            "rank2Message2@RankUI.rank2Message2" : {}
+         },
+         {
+            "rank2Message3@RankUI.rank2Message3" : {}
+         },
+         {
+            "rank2Message4@RankUI.rank2Message4" : {}
+         },
+         {
+            "rank2Message5@RankUI.rank2Message5" : {}
+         },
+         {
+            "rank2Message6@RankUI.rank2Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, -45.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "ranktag3@RankUI.ranktag3" : {}
+         },
+         {
+            "rankText3@RankUI.rankText3" : {}
+         },
+         {
+            "rank3Message1@RankUI.rank3Message1" : {}
+         },
+         {
+            "rank3Message2@RankUI.rank3Message2" : {}
+         },
+         {
+            "rank3Message3@RankUI.rank3Message3" : {}
+         },
+         {
+            "rank3Message4@RankUI.rank3Message4" : {}
+         },
+         {
+            "rank3Message5@RankUI.rank3Message5" : {}
+         },
+         {
+            "rank3Message6@RankUI.rank3Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, -33.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankText4@RankUI.rankText4" : {}
+         },
+         {
+            "rank4Message1@RankUI.rank4Message1" : {}
+         },
+         {
+            "rank4Message2@RankUI.rank4Message2" : {}
+         },
+         {
+            "rank4Message3@RankUI.rank4Message3" : {}
+         },
+         {
+            "rank4Message4@RankUI.rank4Message4" : {}
+         },
+         {
+            "rank4Message5@RankUI.rank4Message5" : {}
+         },
+         {
+            "rank4Message6@RankUI.rank4Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, -21.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankText5@RankUI.rankText5" : {}
+         },
+         {
+            "rank5Message1@RankUI.rank5Message1" : {}
+         },
+         {
+            "rank5Message2@RankUI.rank5Message2" : {}
+         },
+         {
+            "rank5Message3@RankUI.rank5Message3" : {}
+         },
+         {
+            "rank5Message4@RankUI.rank5Message4" : {}
+         },
+         {
+            "rank5Message5@RankUI.rank5Message5" : {}
+         },
+         {
+            "rank5Message6@RankUI.rank5Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, -9.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankText6@RankUI.rankText6" : {}
+         },
+         {
+            "rank6Message1@RankUI.rank6Message1" : {}
+         },
+         {
+            "rank6Message2@RankUI.rank6Message2" : {}
+         },
+         {
+            "rank6Message3@RankUI.rank6Message3" : {}
+         },
+         {
+            "rank6Message4@RankUI.rank6Message4" : {}
+         },
+         {
+            "rank6Message5@RankUI.rank6Message5" : {}
+         },
+         {
+            "rank6Message6@RankUI.rank6Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, 3.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum7" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankText7@RankUI.rankText7" : {}
+         },
+         {
+            "rank7Message1@RankUI.rank7Message1" : {}
+         },
+         {
+            "rank7Message2@RankUI.rank7Message2" : {}
+         },
+         {
+            "rank7Message3@RankUI.rank7Message3" : {}
+         },
+         {
+            "rank7Message4@RankUI.rank7Message4" : {}
+         },
+         {
+            "rank7Message5@RankUI.rank7Message5" : {}
+         },
+         {
+            "rank7Message6@RankUI.rank7Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, 15.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum8" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankText8@RankUI.rankText8" : {}
+         },
+         {
+            "rank8Message1@RankUI.rank8Message1" : {}
+         },
+         {
+            "rank8Message2@RankUI.rank8Message2" : {}
+         },
+         {
+            "rank8Message3@RankUI.rank8Message3" : {}
+         },
+         {
+            "rank8Message4@RankUI.rank8Message4" : {}
+         },
+         {
+            "rank8Message5@RankUI.rank8Message5" : {}
+         },
+         {
+            "rank8Message6@RankUI.rank8Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, 27.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankNum9" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankText9@RankUI.rankText9" : {}
+         },
+         {
+            "rank9Message1@RankUI.rank9Message1" : {}
+         },
+         {
+            "rank9Message2@RankUI.rank9Message2" : {}
+         },
+         {
+            "rank9Message3@RankUI.rank9Message3" : {}
+         },
+         {
+            "rank9Message4@RankUI.rank9Message4" : {}
+         },
+         {
+            "rank9Message5@RankUI.rank9Message5" : {}
+         },
+         {
+            "rank9Message6@RankUI.rank9Message6" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, 39.0 ],
+      "size" : [ 304.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 13, 13 ],
+      "visible" : true
+   },
+   "rankPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "rankImage@RankUI.rankImage" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "size" : [ 320.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "rankText1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 5,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "1",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText10" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "10",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 5,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "2",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 5,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "3",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "4",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText5" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "5",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "6",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText7" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "7",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText8" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "8",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankText9" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -145.0, 1.0 ],
+      "shadow" : false,
+      "size" : [ 13.0, 11.0 ],
+      "text" : "9",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "rankTitle" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : true,
+      "layer" : 3,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0.0, -84.0 ],
+      "size" : [ 308.0, 21.0 ],
+      "texture" : "textures/ui/netease_rank/panel01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 22, 25 ],
+      "visible" : true
+   },
+   "rankTitleText" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 0.0, 0.0, 0.0 ],
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 4,
+      "offset" : [ 1.0, -85.0 ],
+      "shadow" : false,
+      "size" : [ 100.0, 15.0 ],
+      "text" : "排行榜",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "ranklabel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ -146.0, -67.0 ],
+      "shadow" : false,
+      "size" : [ 21.0, 8.0 ],
+      "text" : "排名",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "ranktag1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ -144.0, 0.0 ],
+      "size" : [ 13.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/tag01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 19, 13 ],
+      "visible" : true
+   },
+   "ranktag2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ -144.0, 0.0 ],
+      "size" : [ 13.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/tag02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 19, 13 ],
+      "visible" : true
+   },
+   "ranktag3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ -144.0, 0.0 ],
+      "size" : [ 13.0, 11.0 ],
+      "texture" : "textures/ui/netease_rank/tag03",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 19, 13 ],
+      "visible" : true
+   },
+   "remarksText" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 1.0, 83.0 ],
+      "shadow" : false,
+      "size" : [ 304.0, 20.0 ],
+      "text" : "备注信息：1232132143",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   }
+}

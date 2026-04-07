@@ -1,0 +1,78 @@
+[submodule ".knowledge/Microsoft Learn"]
+	path = .knowledge/Microsoft Learn
+	url = https://github.com/MicrosoftDocs/minecraft-creator
+[submodule ".knowledge/官方自动导出的文档"]
+	path = .knowledge/官方自动导出的文档
+	url = https://github.com/bedrock-dot-dev/docs
+[submodule ".knowledge/Bedrock Wiki"]
+	path = .knowledge/Bedrock Wiki
+	url = https://github.com/Bedrock-OSS/bedrock-wiki
+[submodule ".knowledge/旧版Bedrock Wiki"]
+	path = .knowledge/旧版Bedrock Wiki
+	url = https://github.com/Bedrock-OSS/bedrock-wiki-legacy
+[submodule ".knowledge/中国版API文档"]
+	path = .knowledge/中国版API文档
+	url = https://github.com/MCNeteaseDevs/netease-bedrock-wiki
+[submodule ".knowledge/中国版API参考"]
+	path = .knowledge/中国版API参考
+	url = https://github.com/MCNeteaseDevs/mc-netease-sdk
+[submodule ".knowledge/EaseCation Wiki"]
+	path = .knowledge/EaseCation Wiki
+	url = https://github.com/EaseCation/netease-modsdk-wiki
+[submodule ".knowledge/基岩版国际版开发教程"]
+	path = .knowledge/基岩版国际版开发教程
+	url = https://github.com/MiemieMethod/bedrock-international-development-tutorial
+[submodule ".knowledge/基岩版附加包教程"]
+	path = .knowledge/基岩版附加包教程
+	url = https://github.com/MiemieMethod/bedrock-addon-tutorial
+[submodule ".knowledge/基岩版开发wiki主页站"]
+	path = .knowledge/基岩版开发wiki主页站
+	url = https://github.com/MCBE-Development-Wiki/mcbe-dev-home
+[submodule ".knowledge/基岩架构"]
+	path = .knowledge/基岩架构
+	url = https://github.com/MCBE-Development-Wiki/bedrock-schemas
+[submodule ".knowledge/Blockception架构"]
+	path = .knowledge/Blockception架构
+	url = https://github.com/Blockception/Minecraft-bedrock-json-schemas
+[submodule ".knowledge/基岩版命令更新记录"]
+	path = .knowledge/基岩版命令更新记录
+	url = https://github.com/XeroAlpha/Minecraft-Bedrock-Command-Log
+[submodule ".knowledge/LeviLamina源码及文档"]
+	path = .knowledge/LeviLamina源码及文档
+	url = https://github.com/LiteLDev/LeviLamina
+[submodule ".knowledge/Endstone源码及文档"]
+	path = .knowledge/Endstone源码及文档
+	url = https://github.com/EndstoneMC/endstone
+[submodule ".knowledge/Allay源码及文档"]
+	path = .knowledge/Allay源码及文档
+	url = https://github.com/AllayMC/Allay
+[submodule ".knowledge/Serenity源码及其文档"]
+	path = .knowledge/Serenity源码及其文档
+	url = https://github.com/SerenityJS/serenity
+[submodule ".knowledge/bridge.文档"]
+	path = .knowledge/bridge.文档
+	url = https://github.com/bridge-core/docs
+[submodule ".knowledge/blockbench文档"]
+	path = .knowledge/blockbench文档
+	url = https://github.com/JannisX11/blockbench.net
+[submodule ".knowledge/chunky文档"]
+	path = .knowledge/chunky文档
+	url = https://github.com/chunky-dev/docs
+[submodule ".knowledge/基岩版协议库"]
+	path = .knowledge/基岩版协议库
+	url = https://github.com/Mojang/bedrock-protocol-docs
+[submodule ".knowledge/基岩版编辑器"]
+	path = .knowledge/基岩版编辑器
+	url = https://github.com/Mojang/minecraft-editor
+[submodule ".knowledge/Ore UI及其文档"]
+	path = .knowledge/Ore UI及其文档
+	url = https://github.com/Mojang/ore-ui
+[submodule ".knowledge/Nernar维护的InnerCore开发文档"]
+	path = .knowledge/Nernar维护的InnerCore开发文档
+	url = https://github.com/nernar/nernar.github.io
+[submodule ".knowledge/官方帮助中心"]
+	path = .knowledge/官方帮助中心
+	url = https://github.com/XeroAlpha/MinecraftHelpCenterArchive
+[submodule ".knowledge/Nukkit-MOT文档"]
+	path = .knowledge/Nukkit-MOT文档
+	url = https://github.com/MemoriesOfTime/Nukkit-MOT-Wiki

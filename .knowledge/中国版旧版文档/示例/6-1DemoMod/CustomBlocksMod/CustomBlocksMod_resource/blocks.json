@@ -1,0 +1,98 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+
+  "customblocks:customblocks_test0": {
+    "isotropic": {
+      "up": true
+    },
+    "textures": {
+      "up": "customblocks:customblocks_test0_up",
+      "down": "customblocks:customblocks_test0_other",
+      "side": "customblocks:customblocks_test0_other"
+    },
+    "carried_textures": {
+      "up": "customblocks:customblocks_test0_up",
+      "down": "customblocks:customblocks_test0_other",
+      "side": "customblocks:customblocks_test0_other"
+    },
+    "sound": "stone"
+  },
+  
+  "customblocks:customblocks_test_ore": {
+    "textures": "customblocks:customblocks_test_ore",
+    "sound": "stone"
+  },
+  "customblocks:customblocks_test_face4":{
+    "textures": {
+      "up": "customblocks:customblocks_test_face4_top",
+      "down": "customblocks:customblocks_test_face4_top",
+      "north": "customblocks:customblocks_test_face4_front",
+      "south": "customblocks:customblocks_test_face4_side",
+      "west": "customblocks:customblocks_test_face4_side",
+      "east": "customblocks:customblocks_test_face4_side"
+    },
+    "sound": "stone"
+  },
+  
+  "customblocks:customblocks_test_face6":{
+    "textures": {
+      "up": "customblocks:customblocks_test_face6_top",
+      "down": "customblocks:customblocks_test_face6_down",
+      "north": "customblocks:customblocks_test_face6_front",
+      "south": "customblocks:customblocks_test_face6_back",
+      "west": "customblocks:customblocks_test_face6_side",
+      "east": "customblocks:customblocks_test_face6_side"
+    },
+    "sound": "stone"
+  },
+  
+  "customblocks:customblocks_test_mobspawner":{
+    "textures": "mob_spawner",
+    "sound": "metal"
+  },
+  
+  "customblocks:customblocks_test_mobspawner1":{
+    "textures": "mob_spawner",
+    "sound": "metal"
+  },
+  "customblocks:customblocks_redstone": {
+    "textures": "customblocks:customblocks_redstone_block",
+    "sound": "stone"
+  },
+  "customblocks:customblocks_redstone_consumer": {
+    "isotropic": {
+      "up": true
+    },
+    "textures": {
+      "up": "customblocks:customblocks_redstone_consumer_up",
+      "down": "customblocks:customblocks_consumer_stone_slab",
+      "side": "customblocks:customblocks_consumer_stone_slab"
+    },
+    "sound": "stone"
+  },
+  "customblocks:customblocks_test_portal_blue":{
+    "textures": "customblocks:customblocks_test_portal_blue",
+    "sound": "glass"
+  },
+  "customblocks:customblocks_test_block_entity": {
+    "textures": "customblocks:customblocks_test_block_entity",
+    "sound": "stone"
+  },
+
+  "customblocks:customblocks_model_decoration": {
+    "sound": "grass",
+	"netease_model": "customblocks:customblocks_model_decoration"
+  },
+  "customblocks:customblocks_model_wire": {
+    "sound": "glass",
+	"netease_model": "customblocks:customblocks_model_wire"
+  },
+  "customblocks:customblocks_model_flower": {
+    "sound": "grass",
+	"netease_model": "customblocks:customblocks_model_flower"
+  }
+}

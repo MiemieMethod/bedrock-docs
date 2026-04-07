@@ -1,0 +1,46 @@
+{
+  "_comment": "mod的名字",
+  "netgame_mod_name": "neteaseChatDev",
+  "_comment": "mod的版本号",
+  "netgame_mod_version": "1.0.5",
+  "_comment": "适用最低的引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+  "_comment": "该服务器Mod隶属于“聊天”插件",
+  "description": "聊天 mod插件",
+  "_comment": "适用的服务器类型",
+  "support_server_type": [
+    "Lobby",
+    "Game"
+  ],
+  "_comment": "作者名字",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseChat",
+  "_comment": "允许本服发言间隔时间",
+  "localeCD": 2,
+  "_comment": "允许全服发言间隔时间",
+  "worldCD": 4,
+  "_comment": "额外的按钮配置区域，界面上已经实现功能的按钮有三个，第一个是聊天，第二个是加为好友，第三个是加入黑名单，剩下若有需要按钮，则需要在此配置",
+  "_comment": "额外的按钮会排布于三个固定按钮之下，点击这些按钮需要开发者监听事件自行实现，详见readme",
+  "_comment": "配置结构为列表中嵌套字典，不宜设置过多按钮，因为屏幕未必能显示过多的按钮",
+  "_comment": "字典中必须配置label字段，已表示该按钮的名称，排布顺序即列表中的顺序，除了label字段还可以添加其他kv形式的数据，点击该按钮时会将此按钮所属的字典当作事件的响应参数传递",
+  "_comment": "面对面交易为示范按钮，当配置有交易插件时该按钮生效",
+  "exBtnList": [
+    {
+      "label": "面对面交易",
+      "key": "transaction"
+    },
+    {
+      "label": "额外功能2",
+      "k": "v",
+      "l": [
+        1,
+        2,
+        3
+      ],
+      "d": {
+        "k1": "v1"
+      }
+    }
+  ]
+}

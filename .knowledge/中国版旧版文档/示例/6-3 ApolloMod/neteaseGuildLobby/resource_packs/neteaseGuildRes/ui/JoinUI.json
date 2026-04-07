@@ -1,0 +1,592 @@
+{
+   "JoinPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "joinparty_img@JoinUI.joinparty_img" : {}
+         }
+      ],
+      "layer" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ 320.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "button_label" : {
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "close_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/icon08@3x",
+      "$hover_texture" : "textures/ui/netease_guild/icon08@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_guild/icon08_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@JoinUI.default" : {}
+         },
+         {
+            "hover@JoinUI.hover" : {}
+         },
+         {
+            "pressed@JoinUI.pressed" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "46.5896%+0 px", "-45.0%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ "16.0 px", "16.0px" ],
+      "type" : "button",
+      "visible" : true
+   },
+   "create_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/btn01@3x",
+      "$hover_texture" : "textures/ui/netease_guild/btn01@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 0.0, 0.0, 0.0 ],
+      "$label_font_scale_factor" : 1.289999961853027,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "创建公会",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_guild/btn01_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@JoinUI.default" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "hover@JoinUI.hover" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "pressed@JoinUI.pressed" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "button_label@JoinUI.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ -8.0, "-31.42%+-1.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 61.0, 23.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "join_scroll_base@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$box_nine_slice_buttom" : 0,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 0,
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "JoinUI.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_bar_right_padding_size" : [ 0, 0 ],
+      "$scroll_box_mouse_image_control" : "JoinUI.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/newTouchScrollBox",
+      "$scroll_box_touch_image_control" : "JoinUI.scroll_box_image",
+      "$scroll_size" : [ 4, "100.000000%+0px" ],
+      "$scroll_track_image_control" : "JoinUI.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/ScrollRail",
+      "$scroll_view_name" : "scroll_view",
+      "$scrolling_content" : "JoinUI.partylist_pnl",
+      "$scrolling_pane_offset" : [ 0, 0 ],
+      "$scrolling_pane_size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 0,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 0,
+      "$track_nine_slice_top" : 0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 4,
+      "offset" : [ 0.0, "16.53%+-4.0px" ],
+      "size" : [ 292.0, 108.0 ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "joinparty_backimg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : true,
+      "layer" : 5,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "size" : [ "16.0 px", "16.0px" ],
+      "texture" : "textures/ui/netease_guild/icon05@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "joinparty_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@JoinUI.default" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "hover@JoinUI.hover" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "pressed@JoinUI.pressed" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "joinparty_backimg@JoinUI.joinparty_backimg" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "36.4241683%+0 px", "0%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ "25.0 px", "25.0px" ],
+      "type" : "button",
+      "visible" : true
+   },
+   "joinparty_img" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "joinparty_title_lbl@JoinUI.joinparty_title_lbl" : {}
+         },
+         {
+            "create_btn@JoinUI.create_btn" : {}
+         },
+         {
+            "close_btn@JoinUI.close_btn" : {}
+         },
+         {
+            "party_title_lbl@JoinUI.party_title_lbl" : {}
+         },
+         {
+            "president_title_lbl@JoinUI.president_title_lbl" : {}
+         },
+         {
+            "partynumber_title_lbl@JoinUI.partynumber_title_lbl" : {}
+         },
+         {
+            "partyactive_title_lbl@JoinUI.partyactive_title_lbl" : {}
+         },
+         {
+            "tip_lbl@JoinUI.tip_lbl" : {}
+         },
+         {
+            "join_scroll_base@JoinUI.join_scroll_base" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 8,
+      "nine_slice_left" : 8,
+      "nine_slice_right" : 8,
+      "nine_slice_top" : 15,
+      "nineslice_size" : [ 8, 15, 8, 8 ],
+      "offset" : [ -1.0, -8.0 ],
+      "size" : [ 304.0, 164.0 ],
+      "texture" : "textures/ui/netease_guild/dialog_05@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "joinparty_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 0.3019607843137255, 0.3019607843137255, 0.3019607843137255 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-39.08%+8.0px", "-44.06%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "75.0 px", "15.0px" ],
+      "text" : "加入公会",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "main@common.base_screen" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "JoinPanel@JoinUI.JoinPanel" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "namespace" : "JoinUI",
+   "party" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-48.102344%+0 px", "-21.4876026%+0px" ],
+      "shadow" : false,
+      "size" : [ "75.0 px", "15.0px" ],
+      "text" : "啊实打实飞扬の家",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "party_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-44.05%+-6.0px", "-21.32%+-5.0px" ],
+      "shadow" : false,
+      "size" : [ "37.5 px", "12.5px" ],
+      "text" : "公会",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partyactive" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "15.2897656%+0 px", "-21.4876026%+0px" ],
+      "shadow" : false,
+      "size" : [ "75.0 px", "15.0px" ],
+      "text" : "1800",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partyactive_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "14.34%+-5.0px", "-21.32%+-5.0px" ],
+      "shadow" : false,
+      "size" : [ "37.5 px", "12.5px" ],
+      "text" : "活跃度",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partylist_img_1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "party@JoinUI.party" : {}
+         },
+         {
+            "partypresident@JoinUI.partypresident" : {}
+         },
+         {
+            "partynumber@JoinUI.partynumber" : {}
+         },
+         {
+            "partyactive@JoinUI.partyactive" : {}
+         },
+         {
+            "joinparty_btn@JoinUI.joinparty_btn" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,"nineslice_size" : [ 2, 2, 2, 2 ],
+      "offset" : [ "-14.5%+0 px", "-33.42857%+0px" ],
+      "size" : [ "277.5 px", "25.25px" ],
+      "texture" : "textures/ui/netease_guild/panel02@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "partylist_pnl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "partylist_img_1@JoinUI.partylist_img_1" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "0%+0 px", "-11.5320756%+0px" ],
+      "size" : [ "406.0 px", "175.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "partynumber" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-3.41800251%+0 px", "-21.4876026%+0px" ],
+      "shadow" : false,
+      "size" : [ "75.0 px", "15.0px" ],
+      "text" : "18/36",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partynumber_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-1.04%+-12.0px", "-21.32%+-5.0px" ],
+      "shadow" : false,
+      "size" : [ "37.5 px", "12.5px" ],
+      "text" : "人数",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partypresident" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-20.8113443%+0 px", "-21.4876026%+0px" ],
+      "shadow" : false,
+      "size" : [ "75.0 px", "15.0px" ],
+      "text" : "小艾",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "president_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ "-21.68%+3.0px", "-21.32%+-5.0px" ],
+      "shadow" : false,
+      "size" : [ "37.5 px", "12.5px" ],
+      "text" : "会长",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "pressed" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   },
+   "tip_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 0.8019607843137254, 0.8019607843137254, 0.8019607843137254 ],
+      "font_scale_factor" : 1.805357098579407,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ 3.0, "20.53%+-7.0px" ],
+      "shadow" : false,
+      "size" : [ 288.0, 100.0 ],
+      "text" : "当前还没有公会，快去创建公会吧",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   }
+}

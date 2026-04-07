@@ -1,0 +1,18 @@
+{
+    "datiangou": {
+        "skeleton": "skeleton/datiangou_skeleton.json",
+        "mesh": "mesh/datiangou_mesh.json",
+        "animation": {
+            "fengxi": "animation/datiangou_animation_fengxi.json",
+            "run": "animation/datiangou_animation_run.json"
+        }
+    },
+    "qd_shilaimu_0_0": {
+        "animation": {
+            "qd_shilaimu_jump": "animation/qd_shilaimu_0_0_animation_qd_shilaimu_jump.json"
+        },
+        "mesh": "mesh/qd_shilaimu_0_0_mesh.json",
+        "skeleton": "skeleton/qd_shilaimu_0_0_skeleton.json",
+        "material": "ne_model_alpha"
+    }
+}

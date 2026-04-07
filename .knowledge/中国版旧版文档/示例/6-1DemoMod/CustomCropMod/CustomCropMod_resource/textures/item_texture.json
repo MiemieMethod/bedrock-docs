@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "vanillna",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "customcrop:custom_wheat_seeds": {
+      "textures": "textures/items/customcrop_custom_wheat_seeds"
+    },
+    "customcrop:custom_item": {
+      "textures": "textures/items/customcrop_custom_item"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "2743734287",
+    "x-format-version": "1.21.40",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "2902448198": {
+            "title": "Reference",
+            "type": "string"
+        }
+    },
+    "title": "minecraft:fog_appearance",
+    "type": "object",
+    "properties": {
+        "fog_identifier": {
+            "$ref": "#/definitions/2902448198"
+        }
+    },
+    "required": [
+        "fog_identifier"
+    ]
+}

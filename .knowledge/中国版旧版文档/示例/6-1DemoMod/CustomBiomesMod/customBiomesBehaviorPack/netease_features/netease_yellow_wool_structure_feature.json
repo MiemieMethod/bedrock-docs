@@ -1,0 +1,9 @@
+{
+  "format_version": "1.14.0",
+  "netease:structure_feature": {
+    "description": {
+      "identifier": "custombiomes:netease_yellow_wool_structure_feature"
+    },
+    "places_structure": "test:yellowWool"
+  }
+}

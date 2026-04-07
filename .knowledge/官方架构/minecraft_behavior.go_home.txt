@@ -1,0 +1,20 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "speed_multiplier" : opt
+    int "interval" : opt
+    float "goal_radius" : opt
+    float "calculate_new_path_radius" : opt
+    array "on_home" : opt
+    {
+         "<any array element>" : opt
+    }
+    array "on_failed" : opt
+    {
+         "<any array element>" : opt
+    }
+}
+

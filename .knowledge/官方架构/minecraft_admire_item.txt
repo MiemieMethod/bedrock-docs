@@ -1,0 +1,5 @@
+{
+    int "duration" : opt // Duration, in seconds, that the mob admires an item.
+    int "cooldown_after_being_attacked" : opt // Duration, in seconds, for which mob won't admire items if it was hurt
+}
+

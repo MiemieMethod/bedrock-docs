@@ -1,0 +1,1479 @@
+{
+   "base_screen0" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_rewards@netease_addup_consumeUI.pnl_rewards" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "btn_close@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/icon09",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/btn06_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 15,
+      "offset" : [ -5.0, 2.0 ],
+      "size" : [ 14.0, 14.0 ],
+      "visible" : true
+   },
+   "btn_consume@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/btn01",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "前往消费",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 9,
+      "$nine_slice_right" : 9,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 9.0, 1.0, 9.0, 1.0 ],
+      "$pressed_button_name" : "%consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         },
+         {
+            "img_consume_unuse@netease_addup_consumeUI.img_consume_unuse" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 2,
+      "offset" : [ 0.0, -7.0 ],
+      "size" : [ 249.0, 23.0 ],
+      "visible" : true
+   },
+   "btn_get_bonus@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/btn01",
+      "$hover_texture" : "textures/ui/netease_addup/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "领取",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "offset" : [ -19.0, 0.0 ],
+      "size" : [ 50.0, 20.0 ],
+      "visible" : false
+   },
+   "btn_qual_0@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/panel02",
+      "$hover_texture" : "textures/ui/netease_addup/panel02",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_addup_consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/panel02",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "offset" : [ 0, 0 ],
+      "size" : [ 30.0, 30.0 ],
+      "visible" : true
+   },
+   "btn_qual_1@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/panel02",
+      "$hover_texture" : "textures/ui/netease_addup/panel02",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_addup_consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/panel02",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "offset" : [ 0, 0 ],
+      "size" : [ 30.0, 30.0 ],
+      "visible" : true
+   },
+   "btn_qual_2@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/panel02",
+      "$hover_texture" : "textures/ui/netease_addup/panel02",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_addup_consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/panel02",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "offset" : [ 0, 0 ],
+      "size" : [ 30.0, 30.0 ],
+      "visible" : true
+   },
+   "btn_qual_3@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/panel02",
+      "$hover_texture" : "textures/ui/netease_addup/panel02",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_addup_consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/panel02",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "offset" : [ 0, 0 ],
+      "size" : [ 30.0, 30.0 ],
+      "visible" : true
+   },
+   "btn_qual_4@common.button" : {
+      "$default_texture" : "textures/ui/netease_addup/panel02",
+      "$hover_texture" : "textures/ui/netease_addup/panel02",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_addup_consumeUI.click",
+      "$pressed_texture" : "textures/ui/netease_addup/panel02",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@netease_addup_consumeUI.default" : {}
+         },
+         {
+            "hover@netease_addup_consumeUI.hover" : {}
+         },
+         {
+            "pressed@netease_addup_consumeUI.pressed" : {}
+         },
+         {
+            "button_label@netease_addup_consumeUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "offset" : [ 0, 0 ],
+      "size" : [ 30.0, 30.0 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "img_base_dialog" : {
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "controls" : [
+         {
+            "btn_consume@netease_addup_consumeUI.btn_consume" : {}
+         },
+         {
+            "lb_title@netease_addup_consumeUI.lb_title" : {}
+         },
+         {
+            "lb_indate@netease_addup_consumeUI.lb_indate" : {}
+         },
+         {
+            "lb_accumulation@netease_addup_consumeUI.lb_accumulation" : {}
+         },
+         {
+            "btn_close@netease_addup_consumeUI.btn_close" : {}
+         },
+         {
+            "scroll_rewards@netease_addup_consumeUI.scroll_rewards" : {}
+         },
+         {
+            "img_toast_receiveSucceed@netease_addup_consumeUI.img_toast_receiveSucceed" : {}
+         },
+         {
+            "img_toast_upper@netease_addup_consumeUI.img_toast_upper" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 35,
+      "nine_slice_left" : 11,
+      "nine_slice_right" : 11,
+      "nine_slice_top" : 60,
+      "nineslice_size" : [ 11.0, 60.0, 11.0, 35.0 ],
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+-60.0px", "100.0%+-4.0px" ],
+      "texture" : "textures/ui/netease_addup/panel03",
+      "type" : "image",
+      "uv" : [ 1.0, 0.0 ],
+      "uv_size" : [ 31.0, 128.0 ],
+      "visible" : true
+   },
+   "img_consume_unuse" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "lb_consume_unuse@netease_addup_consumeUI.lb_consume_unuse" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 6,
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1.0, 1.0, 1.0, 1.0 ],
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "texture" : "textures/ui/netease_addup/btn01_unuse",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : false
+   },
+   "img_gray_0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 12,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img05_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : false
+   },
+   "img_gray_1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 12,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img04_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : false
+   },
+   "img_gray_2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 12,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img03_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : false
+   },
+   "img_gray_3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 12,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img02_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : false
+   },
+   "img_gray_4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 12,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img01_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : false
+   },
+   "img_icon_currency" : {
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "is_new_nine_slice" : false,
+      "layer" : 13,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ -1.0, 0.0 ],
+      "size" : [ 10.0, 10.0 ],
+      "texture" : "textures/ui/netease_addup/icon_prize01",
+      "type" : "image",
+      "uv" : [ 0.0, 0.0 ],
+      "uv_size" : [ 64.0, 64.0 ],
+      "visible" : true
+   },
+   "img_process" : {
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "is_new_nine_slice" : false,
+      "layer" : 13,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 8.0, 0.0 ],
+      "size" : [ 12.0, 12.0 ],
+      "texture" : "textures/ui/netease_addup/icon_prize01",
+      "type" : "image",
+      "uv" : [ 0.0, 0.0 ],
+      "uv_size" : [ 64.0, 64.0 ],
+      "visible" : true
+   },
+   "img_qual_0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 9,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img05_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_qual_1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 9,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img05_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_qual_2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 9,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img05_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_qual_3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 9,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img05_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_qual_4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 9,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "textures/ui/netease_addup/img05_disable",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_tatolAccumulation" : {
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "controls" : [
+         {
+            "img_icon_currency@netease_addup_consumeUI.img_icon_currency" : {}
+         },
+         {
+            "lb_200@netease_addup_consumeUI.lb_200" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 12,
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1.0, 1.0, 1.0, 1.0 ],
+      "offset" : [ 65.0, 0.0 ],
+      "size" : [ 50.0, 13.0 ],
+      "texture" : "textures/ui/netease_addup/panel_inside_01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_toast_receiveSucceed" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "lb_success@netease_addup_consumeUI.lb_success" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 100,
+      "nine_slice_buttom" : 5,
+      "nine_slice_left" : 5,
+      "nine_slice_right" : 5,
+      "nine_slice_top" : 5,
+      "nineslice_size" : [ 5.0, 5.0, 5.0, 5.0 ],
+      "offset" : [ 0, 0 ],
+      "size" : [ 38.0, 17.0 ],
+      "texture" : "textures/ui/netease_addup/panel01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "img_toast_upper" : {
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "controls" : [
+         {
+            "lb_desc@netease_addup_consumeUI.lb_desc" : {}
+         }
+      ],
+      "is_new_nine_slice" : true,
+      "layer" : 19,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0.0, 35.0 ],
+      "size" : [ 246.0, 12.0 ],
+      "texture" : "textures/ui/netease_addup/panel02",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "item_0" : {
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "controls" : [
+         {
+            "img_gray_0@netease_addup_consumeUI.img_gray_0" : {}
+         },
+         {
+            "lb_count_0@netease_addup_consumeUI.lb_count_0" : {}
+         },
+         {
+            "item_renderer_0@netease_addup_consumeUI.item_renderer_0" : {}
+         },
+         {
+            "btn_qual_0@netease_addup_consumeUI.btn_qual_0" : {}
+         },
+         {
+            "img_qual_0@netease_addup_consumeUI.img_qual_0" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 6,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 5.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "item_1" : {
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "controls" : [
+         {
+            "img_gray_1@netease_addup_consumeUI.img_gray_1" : {}
+         },
+         {
+            "lb_count_1@netease_addup_consumeUI.lb_count_1" : {}
+         },
+         {
+            "item_renderer_1@netease_addup_consumeUI.item_renderer_1" : {}
+         },
+         {
+            "btn_qual_1@netease_addup_consumeUI.btn_qual_1" : {}
+         },
+         {
+            "img_qual_1@netease_addup_consumeUI.img_qual_1" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 6,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 35.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "item_2" : {
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "controls" : [
+         {
+            "img_gray_2@netease_addup_consumeUI.img_gray_2" : {}
+         },
+         {
+            "lb_count_2@netease_addup_consumeUI.lb_count_2" : {}
+         },
+         {
+            "item_renderer_2@netease_addup_consumeUI.item_renderer_2" : {}
+         },
+         {
+            "btn_qual_2@netease_addup_consumeUI.btn_qual_2" : {}
+         },
+         {
+            "img_qual_2@netease_addup_consumeUI.img_qual_2" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 6,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 65.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "item_3" : {
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "controls" : [
+         {
+            "img_gray_3@netease_addup_consumeUI.img_gray_3" : {}
+         },
+         {
+            "lb_count_3@netease_addup_consumeUI.lb_count_3" : {}
+         },
+         {
+            "item_renderer_3@netease_addup_consumeUI.item_renderer_3" : {}
+         },
+         {
+            "btn_qual_3@netease_addup_consumeUI.btn_qual_3" : {}
+         },
+         {
+            "img_qual_3@netease_addup_consumeUI.img_qual_3" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 6,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 95.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "item_4" : {
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "controls" : [
+         {
+            "img_gray_4@netease_addup_consumeUI.img_gray_4" : {}
+         },
+         {
+            "lb_count_4@netease_addup_consumeUI.lb_count_4" : {}
+         },
+         {
+            "item_renderer_4@netease_addup_consumeUI.item_renderer_4" : {}
+         },
+         {
+            "btn_qual_4@netease_addup_consumeUI.btn_qual_4" : {}
+         },
+         {
+            "img_qual_4@netease_addup_consumeUI.img_qual_4" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 6,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 125.0, 0.0 ],
+      "size" : [ 30.0, 30.0 ],
+      "texture" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "item_renderer_0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 10,
+      "offset" : [ 0, 0 ],
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "item_renderer_1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 10,
+      "offset" : [ 0, 0 ],
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "item_renderer_2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 10,
+      "offset" : [ 0, 0 ],
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "item_renderer_3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 10,
+      "offset" : [ 0, 0 ],
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "item_renderer_4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 10,
+      "offset" : [ 0, 0 ],
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 20.0, 20.0 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "lb_200" : {
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 14,
+      "line_padding" : 0.0,
+      "offset" : [ 5.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 30.0, 7.0 ],
+      "text" : "200",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_accumulation" : {
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "controls" : [
+         {
+            "img_tatolAccumulation@netease_addup_consumeUI.img_tatolAccumulation" : {}
+         }
+      ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 11,
+      "line_padding" : 0.0,
+      "offset" : [ -61.0, 21.0 ],
+      "shadow" : false,
+      "size" : [ 60.0, 7.0 ],
+      "text" : "本次已累计消费",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_consume_unuse" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 7,
+      "line_padding" : 0.0,
+      "offset" : [ 0, 0 ],
+      "shadow" : false,
+      "size" : [ 100.0, 8.0 ],
+      "text" : "前往消费",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_count_0" : {
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 11,
+      "line_padding" : 0.0,
+      "offset" : [ -3.0, -4.0 ],
+      "shadow" : false,
+      "size" : [ 12.0, 7.0 ],
+      "text" : "64",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_count_1" : {
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 11,
+      "line_padding" : 0.0,
+      "offset" : [ -3.0, -4.0 ],
+      "shadow" : false,
+      "size" : [ 12.0, 7.0 ],
+      "text" : "4",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_count_2" : {
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 11,
+      "line_padding" : 0.0,
+      "offset" : [ -3.0, -4.0 ],
+      "shadow" : false,
+      "size" : [ 12.0, 7.0 ],
+      "text" : "64",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_count_3" : {
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 11,
+      "line_padding" : 0.0,
+      "offset" : [ -3.0, -4.0 ],
+      "shadow" : false,
+      "size" : [ 12.0, 7.0 ],
+      "text" : "2",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_count_4" : {
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 11,
+      "line_padding" : 0.0,
+      "offset" : [ -3.0, -4.0 ],
+      "shadow" : false,
+      "size" : [ 12.0, 7.0 ],
+      "text" : "1",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_desc" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 20,
+      "line_padding" : 0.0,
+      "offset" : [ 0, 0 ],
+      "shadow" : false,
+      "size" : [ 240.0, 10.0 ],
+      "text" : "活动活动活动活动活动活动活动活动活动活动活动活动活动活动活动",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_indate" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 9,
+      "line_padding" : 0.0,
+      "offset" : [ 10.0, 21.0 ],
+      "shadow" : false,
+      "size" : [ 140.0, 10.0 ],
+      "text" : "有效期：2020.12.22~2020.12.31",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_process" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "controls" : [
+         {
+            "img_process@netease_addup_consumeUI.img_process" : {}
+         }
+      ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, 11.0 ],
+      "shadow" : false,
+      "size" : [ 60.0, 8.0 ],
+      "text" : "200/2000",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_success" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, -1.0 ],
+      "shadow" : false,
+      "size" : [ 28.0, 7.0 ],
+      "text" : "领取成功",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_title" : {
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 8,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, 4.0 ],
+      "shadow" : false,
+      "size" : [ 100.0, 10.0 ],
+      "text" : "活动名称",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "main_pnl@netease_addup_consumeUI.main_pnl" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "main_pnl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "img_base_dialog@netease_addup_consumeUI.img_base_dialog" : {}
+         }
+      ],
+      "layer" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ 320.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "namespace" : "netease_addup_consumeUI",
+   "pnl_already_get" : {
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "color" : [ 0.6980392156862745, 0.6980392156862745, 0.6980392156862745 ],
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "offset" : [ -33.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 24.0, 8.0 ],
+      "text" : "已领取",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : false
+   },
+   "pnl_doing" : {
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "color" : [ 1, 1, 1 ],
+      "controls" : [
+         {
+            "lb_process@netease_addup_consumeUI.lb_process" : {}
+         }
+      ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "offset" : [ -23.0, 12.0 ],
+      "shadow" : false,
+      "size" : [ 50.0, 8.0 ],
+      "text" : "已累计消费",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "pnl_rewards" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "pnl_scroll_rewards@netease_addup_consumeUI.pnl_scroll_rewards" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "size" : [ 245.0, 122.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_scroll_rewards" : {
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "controls" : [
+         {
+            "single_quest@netease_addup_consumeUI.single_quest" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+2.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pressed" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "nineslice_size" : "$background_nineslice_size",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "nineslice_size" : "$box_nineslice_size",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_rewards@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 2,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 2,
+      "$box_nineslice_size" : [ 0.0, 2.0, 0.0, 2.0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "netease_addup_consumeUI.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "netease_addup_consumeUI.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/newTouchScrollBox",
+      "$scroll_box_touch_image_control" : "netease_addup_consumeUI.scroll_box_image",
+      "$scroll_track_image_control" : "netease_addup_consumeUI.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/netease_addup/progress_bar_01",
+      "$scrolling_content" : "netease_addup_consumeUI.pnl_scroll_rewards",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 1,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 1,
+      "$track_nine_slice_top" : 1,
+      "$track_nineslice_size" : [ 0.0, 1.0, 0.0, 1.0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 21,
+      "offset" : [ 0.0, 7.0 ],
+      "size" : [ 246.0, 122.0 ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "nineslice_size" : "$track_nineslice_size",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   },
+   "single_quest" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "controls" : [
+         {
+            "item_0@netease_addup_consumeUI.item_0" : {}
+         },
+         {
+            "item_1@netease_addup_consumeUI.item_1" : {}
+         },
+         {
+            "pnl_doing@netease_addup_consumeUI.pnl_doing" : {}
+         },
+         {
+            "btn_get_bonus@netease_addup_consumeUI.btn_get_bonus" : {}
+         },
+         {
+            "pnl_already_get@netease_addup_consumeUI.pnl_already_get" : {}
+         },
+         {
+            "item_2@netease_addup_consumeUI.item_2" : {}
+         },
+         {
+            "item_3@netease_addup_consumeUI.item_3" : {}
+         },
+         {
+            "item_4@netease_addup_consumeUI.item_4" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 2,
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1.0, 1.0, 1.0, 1.0 ],
+      "offset" : [ 1.0, 1.0 ],
+      "size" : [ 240.0, 40.0 ],
+      "texture" : "textures/ui/netease_addup/panel_inside_01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   }
+}

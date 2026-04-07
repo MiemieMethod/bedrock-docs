@@ -1,0 +1,9 @@
+{
+    "ui_defs": [
+        "ui/netease_roundUI.json",
+        "ui/netease_round_beginUI.json",
+        "ui/netease_round_headUI.json",
+        "ui/netease_round_loseUi.json",
+        "ui/netease_round_victoryUi.json"
+    ]
+}

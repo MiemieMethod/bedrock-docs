@@ -1,0 +1,239 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseBattleDev",
+   "_comment": "插件版本",
+  "netgame_mod_version": "1.0.13",
+   "_comment": "最低引擎版本",
+  "min_app_version": "1.22.0.release20210513",
+   "_comment": "插件实现的功能",
+  "description": "插件实现4个功能，（注意：插件不支持创造模式）* 可以为实体设置多种属性（可扩展属性种类）；支持一个简单的玩家属性显示界面；* 实现基于插件属性的战斗结算，不走原生的伤害结算；* 投掷物的伤害结算也走统一的插件属性；也就是说，玩家射出一只箭，这只箭对目标造成的伤害是和玩家的近战攻击一样；* 支持装备能够为玩家增加额外属性，且装备的属性会显示在tips中；",
+   "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["lobby", "game"],
+   "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+   "_comment": "所属插件组合的名字，战斗插件由支持game类型的服务器端插件构成",
+  "group": "neteaseBattle",
+
+  "_comment": "支持属性类型列表配置，新增属性需要在这里添加",
+  "extra_attrs":[
+    {
+      "_comment": "属性字符串ID，不允许重复",
+      "key":"health",
+      "_comment": "属性数据类型，【int】代表整数，默认值为0；【float】代表浮点数，默认值为0.0",
+      "style":"int",
+      "_comment": "属性的显示名字",
+      "name":"生命值",
+      "_comment": "属性的图标",
+      "icon":"icon_attribute_02@3x"
+    },
+    {
+      "key":"attack",
+      "style":"int",
+      "name":"攻击",
+      "icon":"icon_attribute_05@3x"
+    },
+    {
+      "key":"defence",
+      "style":"int",
+      "name":"防御",
+      "icon":"icon_attribute_04@3x"
+    },
+    {
+      "_comment": "属性字符串ID，不允许重复",
+      "key":"crit",
+      "_comment": "属性数据类型，【int】代表整数，默认值为0；【float】代表浮点数，默认值为0.0",
+      "style":"float",
+      "_comment": "属性的显示名字",
+      "name":"暴击",
+      "_comment": "属性的图标",
+      "icon":"icon_attribute_06@3x",
+      "_comment": "属性显示方式，当属性数据类型为浮点数时生效，可选类型为【百分数】和【小数】",
+      "view":"百分数",
+      "_comment": "属性显示精确度，当属性数据类型为浮点数时生效，如果设置为1，表示显示到小数点后1位，如0.1、5.1%等。",
+      "view_acc":1
+    },
+    {
+      "key":"hit",
+      "style":"float",
+      "name":"命中",
+      "icon":"icon_attribute_03@3x",
+      "view":"百分数",
+      "view_acc":2
+    },
+    {
+      "key":"dodge",
+      "style":"float",
+      "name":"闪避",
+      "icon":"icon_attribute_01@3x",
+      "view":"百分数",
+      "view_acc":2
+    }
+  ],
+  "_comment": "生命上限属性字符串ID",
+  "hp_key": "health",
+  "_comment": "生命为零时是否杀死实体，【true】当插件中的生命属性为零，杀死玩家或生物；【false】生命属性为0时，由服主自己处理相关逻辑",
+  "destroy_when_hp0": true,
+  "_comment": "是否维持玩家原生血量为满，【true】玩家原生的血量将一直是满的（除非玩家处于死亡状态）",
+  "keep_hp_full": true,
+  "_comment": "是否支持使用【@op showinfo】指令输出范围5以内的实体属性",
+  "canuse_showinfo": true,
+  "_comment": "玩家属性是否与等级相关",
+  "player_status_change_with_level": true,
+  "_comment": "是否在主界面显示打开属性的按钮",
+  "show_status_btn_on_desk": true,
+  "_comment": "配置实体的初始属性",
+  "entity_attrs":{
+    "_comment": "【default】用于没有独立配置的其他生物，default中没有配置的属性，默认值将会是0或者0.0，属性字典的每一个key就是上文【extra_attrs】属性列表中的key",
+    "default":{
+      "health":100,
+      "attack":2,
+      "defence":1,
+      "crit":0.0,
+      "hit":0.95,
+      "dodge":0.05
+    },
+    "_comment": "玩家的key固定为player",
+    "player":{
+      "health":200,
+      "attack":10,
+      "defence":0,
+      "crit":0.1,
+      "hit":0.95,
+      "dodge":0.05
+    },
+    "_comment": "其他实体的key为其字符串ID",
+    "minecraft:sheep":{
+      "health":200,
+      "attack":0,
+      "defence":0,
+      "crit":0.0,
+      "hit":0.0,
+      "dodge":0.0
+    }
+  },
+  "_comment": "装备提供的属性配置，当玩家穿上装备时，将获得相应的属性，玩家脱下装备时，减去相应的属性，假如配置的物品格式为[namespace:name:auxvalue]那么只有符合auxvalue的物品才被认为是装备物品，假如配置物品格式为[namespace:name]，那么任意auxvalue的此类物品均为同种装备物品",
+  "equip_attrs":{
+    "minecraft:diamond_sword":{
+      "_comment": "装备的名字，目前只影响背包界面上的tips",
+      "name": "绝世好剑",
+      "attack":10,
+      "hit":0.2
+    },
+    "minecraft:golden_sword":{
+      "name": "次级绝世好剑",
+      "attack":5,
+      "hit":0.1
+    },
+    "minecraft:diamond_helmet":{
+      "name": "绝世好头",
+      "health":1000,
+      "defence":10
+    },
+    "minecraft:golden_helmet":{
+      "name": "次级绝世好头",
+      "health":500,
+      "defence":5
+    },
+    "minecraft:diamond_chestplate:0":{
+      "name": "绝世好胸",
+      "health":1000,
+      "defence":10
+    },
+    "minecraft:golden_chestplate:0":{
+      "name": "次级绝世好胸",
+      "health":500,
+      "defence":5
+    },
+    "minecraft:wool:2":{
+      "name": "超级羊毛",
+      "health":2,
+      "attack":9,
+      "defence":9,
+      "crit":0.9,
+      "dodge":0.99
+    },
+    "minecraft:diamond_leggings":{
+      "name": "绝世好腿",
+      "health":1000,
+      "defence":10
+    },
+    "minecraft:golden_leggings":{
+      "name": "次级绝世好腿",
+      "health":500,
+      "defence":5
+    },
+    "minecraft:diamond_boots":{
+      "name": "绝世好脚",
+      "health":1000,
+      "defence":10
+    },
+    "minecraft:golden_boots":{
+      "name": "次级绝世好脚",
+      "health":500,
+      "defence":5
+    },
+    "minecraft:shield":{
+      "name": "绝世好盾",
+      "health":1000,
+      "defence":10
+    },
+    "minecraft:apple":{
+      "name": "苹果项链",
+      "health":200,
+      "defence":10
+    },
+    "minecraft:bread":{
+      "name": "面包项链",
+      "health":200,
+      "attack":10
+    },
+    "minecraft:melon":{
+      "name": "甜瓜耳环",
+      "health":200,
+      "defence":10
+    },
+    "minecraft:beef":{
+      "name": "牛肉耳环",
+      "health":200,
+      "attack":10
+    },
+    "minecraft:carrot":{
+      "name": "胡萝卜腰带",
+      "health":200,
+      "defence":10
+    },
+    "minecraft:potato":{
+      "name": "土豆腰带",
+      "health":200,
+      "attack":10
+    },
+    "minecraft:bed":{
+      "name": "床戒指",
+      "health":200,
+      "defence":10
+    },
+    "minecraft:sugar":{
+      "name": "糖戒指",
+      "health":200,
+      "attack":10
+    }
+  },
+  "_comment": "可以装备在头部的装备列表，只有列表中的装备才能在自定义界面中装备到头部位置",
+  "helmet_items":["minecraft:diamond_helmet", "minecraft:golden_helmet"],
+  "_comment": "可以装备在胸部的装备列表，只有列表中的装备才能在自定义界面中装备到胸部位置",
+  "clothes_items":["minecraft:diamond_chestplate:0", "minecraft:golden_chestplate:0"],
+  "_comment": "可以装备在下裤的装备列表，只有列表中的装备才能在自定义界面中装备到下裤位置",
+  "trousers_items":["minecraft:diamond_leggings", "minecraft:golden_leggings"],
+  "_comment": "可以装备在脚部的装备列表，只有列表中的装备才能在自定义界面中装备到脚部位置",
+  "shoes_items":["minecraft:diamond_boots", "minecraft:golden_boots"],
+  "_comment": "可以装备在副手的装备列表，只有列表中的装备才能在自定义界面中装备到副手位置",
+  "offhand_items":["minecraft:shield"],
+  "_comment": "耳环装备位可装备物品列表，只有列表中的装备才能在自定义界面中装备到耳环位置",
+  "earrings_items":["minecraft:melon", "minecraft:beef"],
+  "_comment": "项链装备位可装备物品列表，只有列表中的装备才能在自定义界面中装备到项链位置",
+  "necklace_items":["minecraft:apple", "minecraft:bread"],
+  "_comment": "腰带装备位可装备物品列表，只有列表中的装备才能在自定义界面中装备到腰带位置",
+  "belt_items":["minecraft:carrot", "minecraft:potato"],
+  "_comment": "戒指装备位可装备物品列表，只有列表中的装备才能在自定义界面中装备到戒指位置",
+  "ring_items": ["minecraft:bed", "minecraft:sugar"]
+}

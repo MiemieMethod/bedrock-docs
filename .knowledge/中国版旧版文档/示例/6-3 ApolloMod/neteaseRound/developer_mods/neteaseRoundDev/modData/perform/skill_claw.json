@@ -1,0 +1,81 @@
+{
+    "identifier": "neteaseRound:skill:claw",
+    "actionData": {
+        "_comment": "单个演出效果的key，用于单个技能唯一",
+        "moveTo": {
+            "_comment": "演出效果启动的前提条件，空列表表示从第一帧开始就启动",
+            "condition": [],
+            "_comment": "演出效果的类型，【move】表示模型位移，对应roundPerformAction.RoundActionMove类",
+            "type": "move",
+            "_comment": "移动的对象，【actor】表示当前技能的释放者",
+            "actor": "actor",
+            "_comment": "位移的消耗时间，同时也是演出效果的结束时间",
+            "costTime": 0.7,
+            "_comment": "位移的起点，位置2的【standNow】代表位移行为对象的当前位置坐标，位置3的【x,y,z】代表坐标偏移值",
+            "_comment": "【fixPoint】代表最终的实际坐标等于位置2的坐标加上位置3的偏移",
+            "startPos": ["fixPoint", "standNow", [0.0, 0.0, 0.0]],
+            "_comment": "位移的终点，位置2的【standTarget】代表技能攻击对象的当前位置坐标，位置3的【x,y,z】代表坐标偏移值",
+            "_comment": "【mirrorPoint】代表当位置2的对象是我方单位时，最终坐标是直接加上位置3的偏移，而位置2的对象是敌方单位时，最终坐标需要先对位置3的偏移的x，z取反，再相加",
+            "endPos": ["mirrorPoint", "standTarget", [1.0, 0.0, -1.0]]
+        },
+        "attack": {
+            "condition": [
+                {"type":"finAction", "param":"moveTo"}
+            ],
+            "type": "playAni",
+            "costTime": 1.0,
+            "actor": "actor", 
+            "animate": "skill1"
+        },
+        "attackEffect": {
+            "condition": [
+                {"type":"finAction", "param":"moveTo"}
+            ],
+            "type": "playBindEffect",
+            "costTime": 1.0,
+            "bind": "actor",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_paw_zhuahen.json",
+                    "style": "sfx",
+                    "pos": [1.58, 0.0, 0.92],
+                    "rot": [88.97, 88.85, 1.28],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_paw_lz.json",
+                    "style": "particle",
+                    "pos": [1.53, 0.10, 0.91],
+                    "rot": [0, 0, -26.71],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_paw_lz.json",
+                    "style": "particle",
+                    "pos": [1.53, -0.10, 0.91],
+                    "rot": [0, 0, -153.29],
+                    "bone": "root"
+                }
+            ]
+        },
+        "applySkillResult": {
+            "condition": [
+                {"type":"finAction", "param":"attack"}
+            ],
+            "type": "applySkillResult",
+            "costTime": 0.3,
+            "index": null
+        },
+        "moveBack": {
+            "condition": [
+                {"type":"finAction", "param":"applySkillResult"}
+            ],
+            "type": "move",
+            "actor": "actor", 
+            "costTime": 0.7,
+            "startPos": ["fixPoint", "standNow", [0.0, 0.0, 0.0]],
+            "_comment": "位移的终点，位置2的【standActor】代表技能释放者的原始位置坐标（不是当前所在位置坐标），位置3的【x,y,z】代表坐标偏移值",
+            "endPos": ["fixPoint", "standActor", [0.0, 0.0, 0.0]]
+        }
+    }
+}

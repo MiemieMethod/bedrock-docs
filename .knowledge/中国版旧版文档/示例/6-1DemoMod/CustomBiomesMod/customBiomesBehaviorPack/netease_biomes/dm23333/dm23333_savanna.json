@@ -1,0 +1,22 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm23333_savanna", 
+            "inherits": "savanna"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "hills_transformation": "dm23333_savanna_plateau", 
+                "mutate_transformation": "dm23333_savanna_mutated", 
+                "generate_for_climates": [
+                    [
+                        "medium", 
+                        0
+                    ]
+                ]
+            },
+            "dm23333": {}
+        }
+    }
+}

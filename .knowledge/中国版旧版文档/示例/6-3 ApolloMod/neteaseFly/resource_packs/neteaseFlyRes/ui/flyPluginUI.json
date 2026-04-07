@@ -1,0 +1,191 @@
+{
+    "changeFlyStateBtn@common.button": {
+        "$default_texture": "textures/ui/btn_light_default",
+        "$hover_texture": "textures/ui/btn_hover",
+        "$pressed_texture": "textures/ui/btn_pressed",
+        "$locked_texture" : "textures/ui/btn_unuse",
+        "$nineslice_size": 2,
+        "$default_text_color": [
+            0.26,
+            0.26,
+            0.26
+        ],
+        "$pressed_text_color": [
+            1,
+            1,
+            1
+        ],
+        "$hover_text_color": [
+            1,
+            1,
+            1
+        ],
+        "$locked_text_color": [
+            0.69,
+            0.69,
+            0.69
+        ],
+        "$label_text": "开启飞行",
+        "$pressed_button_name": "",
+        "$texture_layer": 2,
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "controls": [
+            {
+                "default@flyPluginUI.default": {}
+            },
+            {
+                "hover@flyPluginUI.hover": {}
+            },
+            {
+                "pressed@flyPluginUI.pressed": {}
+            },
+            {
+                "locked@flyPluginUI.locked": {}
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "locked_control" : "locked",
+        "layer": 1,
+        "offset": [
+            "-20%",
+            0
+        ],
+        "size": [
+            44,
+            20
+        ],
+        "type": "button",
+        "visible": true
+    },
+    "main": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "changeFlyStateBtn@flyPluginUI.changeFlyStateBtn": {}
+            },
+            {
+                "tipsPanel@flyPluginUI.tipsPanel": {}
+            }
+        ],
+        "type": "panel",
+        "visible": true
+    },
+    "tipsPanel": {
+        "type": "image",
+        "anchor_to": "center",
+        "anchor_from": "center",
+        "size": [
+            "100%c + 24px",
+            "100%c + 8px"
+        ],
+        "offset": [
+            0,
+            0
+        ],
+        "layer": 2,
+        "propagate_alpha": true,
+        "controls": [
+            {
+                "tipsText": {
+                    "type": "label",
+                    "layer": 1,
+                    "text": ""
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_condition": "always_when_visible",
+                "binding_name": "#tipsAlpha",
+                "binding_name_override": "#alpha"
+            }
+        ],
+        "nineslice_size": 4,
+        "texture": "textures/ui/tips_bg",
+        "visible": false
+    },
+    "default": {
+        "$label_color": "$default_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$default_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@flyPluginUI.button_label": {}
+            }
+        ]
+    },
+    "locked": {
+        "$label_color": "$locked_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$locked_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@flyPluginUI.button_label": {}
+            }
+        ]
+    },
+    "pressed": {
+        "$label_color": "$pressed_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$pressed_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@flyPluginUI.button_label": {}
+            }
+        ]
+    },
+    "hover": {
+        "$label_color": "$hover_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$hover_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@flyPluginUI.button_label": {}
+            }
+        ]
+    },
+    "button_label": {
+        "$label_color|default": [
+            1,
+            1,
+            1
+        ],
+        "$label_layer|default": 1,
+        "$label_font_size|default": "normal",
+        "$label_offset|default": [
+            0,
+            0
+        ],
+        "$label_text|default": "",
+        "color": "$label_color",
+        "font_size": "$label_font_size",
+        "font_type": "smooth",
+        "layer": "$label_layer",
+        "max_size": [
+            "100%",
+            "100%"
+        ],
+        "offset": "$label_offset",
+        "shadow": false,
+        "text": "$label_text",
+        "text_alignment": "center",
+        "type": "label"
+    },
+    "namespace": "flyPluginUI"
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customrangedweapon:bow",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "customrangedweapon:bow",
+      "netease:frame_animation": {
+        "frame_count": 3,
+        "texture_name": "customrangedweapon:bow_frame",
+        "animate_in_toolbar": true
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "CustomRangedWeaponMod",
+        "name": "CustomRangedWeaponMod",
+        "uuid": "41bd3e44-7dcb-44e6-ad18-d7fdab8fe422",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CustomRangedWeaponMod",
+            "type": "resources",
+            "uuid": "17794023-27eb-47b0-942e-68af66bccb49",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "particleeffect": {
+        "activetime": {
+            "value": "1.0"
+        },
+        "constantforce": {
+            "value": "0.0 0.5 0.30000000000000004"
+        },
+        "depthtest": {
+            "enable": "true"
+        },
+        "direction": {
+            "max": "0.0 -2.7755575615628914e-17 0.0",
+            "min": "0.0 0.0 0.5",
+            "value": "Direction"
+        },
+        "emissionrate": {
+            "max": "15.0",
+            "min": "10.0"
+        },
+        "emitterScaleCurve": [
+
+        ],
+        "emitterscale": [
+
+        ],
+        "emittersize": {
+            "value": "1.0 1.5 1.5"
+        },
+        "emittertype": {
+            "value": "Sphere"
+        },
+        "enablecolor": {
+            "enable": "false"
+        },
+        "inactivetime": {
+            "value": "1.0"
+        },
+        "numparticles": {
+            "value": "5"
+        },
+        "relative": {
+            "enable": "true"
+        },
+        "rotation": {
+            "max": "360.0",
+            "min": "0.0"
+        },
+        "texture": {
+            "ani": {
+                "fps": "15",
+                "name": "textures/sfxs/netease_round_debuff_heiyan3",
+                "shuffle": false
+            },
+            "name": "textures/sfxs/netease_round_debuff_heiyan3"
+        },
+        "thickness": {
+            "value": "0.0"
+        },
+        "timetolive": {
+            "max": "0.9",
+            "min": "0.3"
+        },
+        "velocity": {
+            "max": "1.0",
+            "min": "0.5000000000000001"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By netease",
+        "name": "neteaseChest",
+        "uuid": "551f51f5-31cd-4238-8324-f758f0de0219",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By netease",
+            "type": "data",
+            "uuid": "a4cd2979-5d20-4ba6-8c45-8aa3bc98a923",
+            "version": [0, 0, 1]
+        }
+    ]
+}

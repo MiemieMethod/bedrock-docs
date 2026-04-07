@@ -1,0 +1,5 @@
+{
+    string "barter_table" : opt // Loot table that's used to drop a random item.
+    int "cooldown_after_being_attacked" : opt // Duration, in seconds, for which mob won't barter items if it was hurt
+}
+

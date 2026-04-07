@@ -1,0 +1,20 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float_range "attack_range" : opt
+    float "attack_cooldown" : opt
+    float "pre_shoot_delay" : opt
+    float "post_shoot_delay" : opt
+    float "max_head_rotation_x" : opt
+    float "max_head_rotation_y" : opt
+    float "ranged_fov" : opt
+    string "projectile_def" : opt
+    int "owner_anchor" : opt
+    vec3 "owner_offset" : opt
+    int "target_anchor" : opt
+    vec3 "target_offset" : opt
+}
+

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By netease",
+        "name": "neteaseGuildRes",
+        "uuid": "50defdc1-fa4b-43a3-8f95-6c5bec2f7772",
+        "version": [0, 0, 4]
+    },
+    "modules": [
+        {
+            "description": "By netease",
+            "type": "resources",
+            "uuid": "6c178ec7-b8a4-4410-a5a6-9a467950f569",
+            "version": [0, 0, 1]
+        }
+    ]
+}

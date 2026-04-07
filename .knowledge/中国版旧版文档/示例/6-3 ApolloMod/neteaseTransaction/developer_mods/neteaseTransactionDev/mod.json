@@ -1,0 +1,31 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseTransactionDev",
+
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.2",
+
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+
+  "_comment": "插件实现的功能",
+  "description": "插件主要实现面对面交易",
+
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["lobby","game"],
+
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+
+  "_comment": "所属插件组合的名字，交易插件由lobby/game插件组合而成，依赖经济插件",
+  "group": "neteaseTransaction",
+
+  "_comment": "默认每日交易次数，为-1时不限制交易次数",
+  "TRANSACTION_TIMES_PER_DAY": -1,
+
+  "_comment": "货币类型，与经济插件中货币对应",
+  "CURRENCY": "MCB",
+
+  "_comment": "货币贴图",
+  "CURRENCY_TEXTURE": "textures/ui/netease_transaction/currency3"
+}

@@ -1,0 +1,557 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "3332715434",
+    "x-format-version": "1.21.20",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "3123009558": {
+            "title": "Identifier",
+            "type": "string"
+        },
+        "3330280218": {
+            "title": "DirectPoolAlias",
+            "type": "object",
+            "properties": {
+                "alias": {
+                    "type": "string"
+                },
+                "target": {
+                    "$ref": "#/definitions/3634282923"
+                }
+            },
+            "required": [
+                "alias",
+                "target"
+            ]
+        },
+        "2789112004": {
+            "title": "Filter Group",
+            "oneOf": [
+                {
+                    "$ref": "#/definitions/2457665045"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/2789112004"
+                    }
+                },
+                {
+                    "$ref": "#/definitions/100089226"
+                }
+            ]
+        },
+        "2457665045": {
+            "title": "Filter Test",
+            "type": "object",
+            "properties": {
+                "domain": {
+                    "oneOf": [
+                        {
+                            "type": "boolean"
+                        },
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "operator": {
+                    "oneOf": [
+                        {
+                            "type": "boolean"
+                        },
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "subject": {
+                    "oneOf": [
+                        {
+                            "type": "boolean"
+                        },
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "test": {
+                    "type": "string"
+                },
+                "value": {
+                    "oneOf": [
+                        {
+                            "type": "boolean"
+                        },
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "test"
+            ]
+        },
+        "1894222866": {
+            "title": "JigsawDescriptionIdentifier",
+            "type": "object",
+            "properties": {
+                "identifier": {
+                    "$ref": "#/definitions/3123009558"
+                }
+            },
+            "required": [
+                "identifier"
+            ]
+        },
+        "2054874732": {
+            "title": "RandomPoolAlias",
+            "type": "object",
+            "properties": {
+                "alias": {
+                    "type": "string"
+                },
+                "targets": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/2866644962"
+                    }
+                }
+            },
+            "required": [
+                "alias",
+                "targets"
+            ]
+        },
+        "100089226": {
+            "title": "Filter Group Map",
+            "type": "object",
+            "properties": {
+                "AND": {
+                    "$ref": "#/definitions/2789112004"
+                },
+                "NOT": {
+                    "$ref": "#/definitions/2789112004"
+                },
+                "OR": {
+                    "$ref": "#/definitions/2789112004"
+                },
+                "all": {
+                    "$ref": "#/definitions/2789112004"
+                },
+                "all_of": {
+                    "$ref": "#/definitions/2789112004"
+                },
+                "any": {
+                    "$ref": "#/definitions/2789112004"
+                },
+                "any_of": {
+                    "$ref": "#/definitions/2789112004"
+                },
+                "none_of": {
+                    "$ref": "#/definitions/2789112004"
+                }
+            }
+        },
+        "3797408210": {
+            "title": "AnchorAbsolute",
+            "type": "object",
+            "properties": {
+                "absolute": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "absolute"
+            ]
+        },
+        "2866675506": {
+            "title": "UniformHeightProviderType",
+            "type": "object",
+            "properties": {
+                "max": {
+                    "oneOf": [
+                        {
+                            "$ref": "#/definitions/3797408210"
+                        },
+                        {
+                            "$ref": "#/definitions/3371907985"
+                        },
+                        {
+                            "$ref": "#/definitions/2476001957"
+                        },
+                        {
+                            "$ref": "#/definitions/1624928242"
+                        }
+                    ]
+                },
+                "min": {
+                    "oneOf": [
+                        {
+                            "$ref": "#/definitions/3797408210"
+                        },
+                        {
+                            "$ref": "#/definitions/3371907985"
+                        },
+                        {
+                            "$ref": "#/definitions/2476001957"
+                        },
+                        {
+                            "$ref": "#/definitions/1624928242"
+                        }
+                    ]
+                },
+                "type": {
+                    "title": "HeightProviderType",
+                    "type": "string",
+                    "const": "uniform",
+                    "enum": [
+                        "uniform",
+                        "constant"
+                    ]
+                }
+            },
+            "required": [
+                "max",
+                "min",
+                "type"
+            ]
+        },
+        "2476001957": {
+            "title": "AnchorBelowTop",
+            "type": "object",
+            "properties": {
+                "below_top": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "below_top"
+            ]
+        },
+        "3371907985": {
+            "title": "AnchorAboveBottom",
+            "type": "object",
+            "properties": {
+                "above_bottom": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "above_bottom"
+            ]
+        },
+        "1624928242": {
+            "title": "AnchorFromSea",
+            "type": "object",
+            "properties": {
+                "from_sea": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "from_sea"
+            ]
+        },
+        "132644959": {
+            "title": "RandomGroupPoolAlias",
+            "type": "object",
+            "properties": {
+                "groups": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/146633914"
+                    }
+                }
+            },
+            "required": [
+                "groups"
+            ]
+        },
+        "146633914": {
+            "title": "RandomGroupBindings",
+            "type": "object",
+            "properties": {
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "oneOf": [
+                            {
+                                "$ref": "#/definitions/3330280218"
+                            },
+                            {
+                                "$ref": "#/definitions/2054874732"
+                            }
+                        ]
+                    }
+                },
+                "weight": {
+                    "type": "integer",
+                    "minimum": 0.0
+                }
+            },
+            "required": [
+                "data",
+                "weight"
+            ]
+        },
+        "3634282923": {
+            "title": "Reference",
+            "type": "string"
+        },
+        "2866644962": {
+            "title": "JigsawTemplatePool",
+            "type": "object",
+            "properties": {
+                "data": {
+                    "$ref": "#/definitions/3634282923"
+                },
+                "weight": {
+                    "type": "integer",
+                    "minimum": 0.0
+                }
+            },
+            "required": [
+                "data",
+                "weight"
+            ]
+        },
+        "3820580155": {
+            "title": "DimensionPaddingRange",
+            "type": "object",
+            "properties": {
+                "bottom": {
+                    "type": "integer",
+                    "default": 0,
+                    "minimum": 0.0
+                },
+                "top": {
+                    "type": "integer",
+                    "default": 0,
+                    "minimum": 0.0
+                }
+            }
+        },
+        "193608700": {
+            "title": "MaxDistanceFromCenter",
+            "oneOf": [
+                {
+                    "type": "integer",
+                    "minimum": 1.0,
+                    "maximum": 128.0
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "horizontal": {
+                            "type": "integer",
+                            "minimum": 1.0,
+                            "maximum": 128.0
+                        },
+                        "vertical": {
+                            "type": "integer",
+                            "default": 2147483647,
+                            "minimum": 1.0,
+                            "maximum": 2147483647.0
+                        }
+                    },
+                    "required": [
+                        "horizontal"
+                    ]
+                }
+            ]
+        },
+        "1058458048": {
+            "title": "ConstantHeightProviderType",
+            "type": "object",
+            "properties": {
+                "type": {
+                    "title": "HeightProviderType",
+                    "type": "string",
+                    "const": "constant",
+                    "enum": [
+                        "uniform",
+                        "constant"
+                    ]
+                },
+                "value": {
+                    "oneOf": [
+                        {
+                            "$ref": "#/definitions/3797408210"
+                        },
+                        {
+                            "$ref": "#/definitions/3371907985"
+                        },
+                        {
+                            "$ref": "#/definitions/2476001957"
+                        },
+                        {
+                            "$ref": "#/definitions/1624928242"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "type",
+                "value"
+            ]
+        }
+    },
+    "title": "JigsawStructure",
+    "type": "object",
+    "properties": {
+        "biome_filters": {
+            "default": {
+                "OR": null,
+                "all": null,
+                "all_of": null,
+                "AND": null,
+                "any_of": null,
+                "none_of": null,
+                "any": null,
+                "NOT": null
+            },
+            "$ref": "#/definitions/2789112004"
+        },
+        "description": {
+            "$ref": "#/definitions/1894222866"
+        },
+        "dimension_padding": {
+            "oneOf": [
+                {
+                    "type": "integer",
+                    "minimum": 0.0
+                },
+                {
+                    "$ref": "#/definitions/3820580155"
+                }
+            ]
+        },
+        "heightmap_projection": {
+            "title": "HeightmapProjection",
+            "type": "string",
+            "default": "none",
+            "enum": [
+                "world_surface",
+                "ocean_floor",
+                "none"
+            ]
+        },
+        "liquid_settings": {
+            "title": "LiquidSettings",
+            "type": "string",
+            "default": "apply_waterlogging",
+            "enum": [
+                "apply_waterlogging",
+                "ignore_waterlogging"
+            ]
+        },
+        "max_depth": {
+            "type": "integer",
+            "minimum": 0.0,
+            "maximum": 20.0
+        },
+        "max_distance_from_center": {
+            "default": {
+                "horizontal": 80,
+                "vertical": 2147483647
+            },
+            "$ref": "#/definitions/193608700"
+        },
+        "pool_aliases": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "oneOf": [
+                    {
+                        "$ref": "#/definitions/3330280218"
+                    },
+                    {
+                        "$ref": "#/definitions/2054874732"
+                    },
+                    {
+                        "$ref": "#/definitions/132644959"
+                    }
+                ]
+            }
+        },
+        "start_height": {
+            "oneOf": [
+                {
+                    "$ref": "#/definitions/2866675506"
+                },
+                {
+                    "$ref": "#/definitions/1058458048"
+                }
+            ]
+        },
+        "start_jigsaw_name": {
+            "type": "string",
+            "default": ""
+        },
+        "start_pool": {
+            "$ref": "#/definitions/3634282923"
+        },
+        "step": {
+            "title": "GenerationStep",
+            "type": "string",
+            "enum": [
+                "raw_generation",
+                "lakes",
+                "local_modifications",
+                "underground_structures",
+                "surface_structures",
+                "strongholds",
+                "underground_ores",
+                "underground_decoration",
+                "fluid_springs",
+                "vegetal_decoration",
+                "top_layer_modification"
+            ]
+        },
+        "terrain_adaptation": {
+            "title": "TerrainAdaptation",
+            "type": "string",
+            "default": "none",
+            "enum": [
+                "none",
+                "bury",
+                "beard_thin",
+                "beard_box",
+                "encapsulate"
+            ]
+        }
+    },
+    "required": [
+        "description",
+        "max_depth",
+        "start_height",
+        "start_pool",
+        "step"
+    ]
+}

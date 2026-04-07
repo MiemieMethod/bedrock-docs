@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By netease",
+        "name": "LobbyGoodDemo",
+        "uuid": "9dc3e244-5e55-490d-a535-b9ea1b199775",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By netease",
+            "type": "data",
+            "uuid": "530b8cbd-fad2-4edd-bc38-6deba793b2cb",
+            "version": [0, 0, 1]
+        }
+    ]
+}

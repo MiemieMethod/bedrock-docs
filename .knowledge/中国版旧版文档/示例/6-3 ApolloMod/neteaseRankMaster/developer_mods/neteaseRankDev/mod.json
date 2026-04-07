@@ -1,0 +1,22 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseRankDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.3",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.21.0.release20210401",
+
+  "_comment":"该服务器Mod隶属于“排行榜”插件",
+  "description":"排行榜 mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["Master"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseRank"
+}

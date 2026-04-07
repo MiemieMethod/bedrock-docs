@@ -1,0 +1,36 @@
+{
+    "netease_round_jmm": {
+        "animation": {
+            "netease_round_jmm_appear": "animation/netease_round_jmm_animation_netease_round_jmm_appear.json",
+            "netease_round_jmm_die": "animation/netease_round_jmm_animation_netease_round_jmm_die.json",
+            "netease_round_jmm_hit": "animation/netease_round_jmm_animation_netease_round_jmm_hit.json",
+            "netease_round_jmm_idle": "animation/netease_round_jmm_animation_netease_round_jmm_idle.json",
+            "netease_round_jmm_skill1": "animation/netease_round_jmm_animation_netease_round_jmm_skill1.json",
+            "netease_round_jmm_skill2": "animation/netease_round_jmm_animation_netease_round_jmm_skill2.json",
+            "netease_round_jmm_win": "animation/netease_round_jmm_animation_netease_round_jmm_win.json"
+        },
+        "arm_model": "netease_round_jmm",
+        "dy_load": false,
+        "mesh": "mesh/netease_round_jmm_mesh.json",
+        "skeleton": "skeleton/netease_round_jmm_skeleton.json"
+    },
+    "netease_round_shilaimu": {
+        "animation": {
+            "qd_shilaimu_jump": "animation/netease_round_shilaimu_animation_jump.json"
+        },
+        "material": "ne_model_alpha",
+        "mesh": "mesh/netease_round_shilaimu_mesh.json",
+        "skeleton": "skeleton/netease_round_shilaimu_skeleton.json"
+    },
+    "netease_round_xn": {
+        "animation": {
+            "netease_round_xn_die": "animation/netease_round_xn_animation_netease_round_xn_die.json",
+            "netease_round_xn_idle": "animation/netease_round_xn_animation_netease_round_xn_idle.json",
+            "netease_round_xn_skill1": "animation/netease_round_xn_animation_netease_round_xn_skill1.json",
+            "netease_round_xn_skill2": "animation/netease_round_xn_animation_netease_round_xn_skill2.json"
+        },
+        "dy_load": false,
+        "mesh": "mesh/netease_round_xn_mesh.json",
+        "skeleton": "skeleton/netease_round_xn_skeleton.json"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    array "excluded_items" : opt
+    {
+         "<any array element>" : opt
+    }
+}
+

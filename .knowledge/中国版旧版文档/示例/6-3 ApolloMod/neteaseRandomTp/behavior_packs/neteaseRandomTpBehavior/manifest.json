@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By Netease",
+      "type": "data",
+      "uuid": "6670061f-2e84-4242-97f2-a81a2fff8bd8",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "header": {
+    "description": "By dev",
+    "name": "RandomTp",
+    "uuid": "0ea9130c-d3ff-4ab0-b08b-025021e84162",
+    "version": [
+      0,
+      0,
+      1
+    ]
+  }
+}

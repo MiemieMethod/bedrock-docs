@@ -1,0 +1,26 @@
+{
+    "header": {
+        "uuid": "af30a62c-92bb-4008-a4e7-7a972369a0b7", 
+        "version": [
+            0, 
+            0, 
+            1
+        ], 
+        "description": "this is description of CustomMap", 
+        "name": "CustomMap"
+    }, 
+    "dependencies": [], 
+    "modules": [
+        {
+            "version": [
+                0, 
+                0, 
+                1
+            ], 
+            "type": "data", 
+            "description": "this is description of CustomMap", 
+            "uuid": "b00313fa-c333-4e3a-bc06-f0b86923bb34"
+        }
+    ], 
+    "format_version": 1
+}

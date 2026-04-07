@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "CustomBlocksMod",
+        "name": "CustomBlocksMod",
+        "uuid": "c5b8ac0b-6a05-4a29-8141-4811c2d908eb",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CustomBlocksMod",
+            "type": "data",
+            "uuid": "bc44fa9c-c401-46b4-901c-22c843b1d976",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+     "description": {
+       "identifier": "customblocks:custom_furnace",
+       "register_to_creative_menu": true,
+       "is_experimental": false
+     },
+     "components": {
+        "netease:block_entity": {
+          "tick": true,
+          "movable": false
+        },
+        "minecraft:explosion_resistance": {
+          "value": 3
+        }
+      }
+    }
+  }

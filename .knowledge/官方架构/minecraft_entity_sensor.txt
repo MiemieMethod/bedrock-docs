@@ -1,0 +1,17 @@
+{
+    bool "relative_range" : opt
+    array "subsensors" : opt
+    {
+        subsensor_descriptor "<any array element>" : opt
+        {
+            string "event" : opt
+            float "cooldown" : opt
+            int "minimum_count" : opt
+            int "maximum_count" : opt
+            vec2 "range" : opt
+            bool "require_all" : opt
+             "event_filters" : opt
+        }
+    }
+}
+

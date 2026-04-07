@@ -1,0 +1,14 @@
+{
+    "format_version": "1.13.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm5_mesa", 
+            "inherits": "mesa"
+        }, 
+        "components": {
+            "minecraft:world_generation_rules": {
+                "mutate_transformation": "dm5_mesa_bryce"
+            }
+        }
+    }
+}

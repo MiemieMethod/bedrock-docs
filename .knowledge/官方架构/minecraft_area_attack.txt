@@ -1,0 +1,9 @@
+{
+    float "damage_range" : opt
+    int "damage_per_tick" : opt
+    string "cause" : opt
+     "entity_filter" : opt
+    float "damage_cooldown" : opt
+    bool "play_attack_sound" : opt
+}
+

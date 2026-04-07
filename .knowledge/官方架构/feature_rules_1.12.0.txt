@@ -1,0 +1,64 @@
+{
+    version "format_version"
+    object "minecraft:feature_rules"
+    {
+        object "description"
+        {
+            string "identifier"
+            feature_reference "places_feature"
+        }
+        object "conditions"
+        {
+            string "placement_pass"
+            biome_filter_group "minecraft:biome_filter" : opt
+        }
+        object "distribution" : opt
+        {
+            molang "iterations"
+            object "scatter_chance" : opt
+            {
+                int "numerator"
+                int "denominator"
+            }
+            molang "scatter_chance" : opt
+            enumerated_value "coordinate_eval_order" : opt
+            molang "x" : opt
+            object "x" : opt
+            {
+                enumerated_value "distribution"
+                int "step_size" : opt
+                int "grid_offset" : opt
+                array "extent"[2]
+                {
+                    molang "[0..0]" : opt
+                    molang "[1..1]" : opt
+                }
+            }
+            molang "z" : opt
+            object "z" : opt
+            {
+                enumerated_value "distribution"
+                int "step_size" : opt
+                int "grid_offset" : opt
+                array "extent"[2]
+                {
+                    molang "[0..0]" : opt
+                    molang "[1..1]" : opt
+                }
+            }
+            molang "y" : opt
+            object "y" : opt
+            {
+                enumerated_value "distribution"
+                int "step_size" : opt
+                int "grid_offset" : opt
+                array "extent"[2]
+                {
+                    molang "[0..0]" : opt
+                    molang "[1..1]" : opt
+                }
+            }
+        }
+    }
+}
+

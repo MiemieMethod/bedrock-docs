@@ -1,0 +1,16 @@
+{
+    "identifier": "neteaseRound:glacier",
+    "showName": "冰川",
+    "icon": "textures/ui/netease_round/skill_02", 
+    "iconDisable": "textures/ui/netease_round/skill_02_unuse", 
+    "desc": "对指定敌人造成300%*攻击力伤害",
+    "perform": "neteaseRound:skill:glacier",
+    "costEnergy": 2,
+    "_comment": "技能的目标类型：0（仅自己）、1（可选1个友方对象）、2（可选1个敌方对象）、3（随机n个友方对象）、4（随机n个敌方对象）",
+    "targetType": 2,
+    "damageList": [
+        {"multi":3.0, "extra":0}
+    ],
+    "effectList": [
+    ]
+}

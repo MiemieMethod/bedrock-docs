@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By HziStudio",
+      "type": "resources",
+      "uuid": "6753e38f-1984-483a-9050-43e00de38838",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "header": {
+    "description": "By HziStudio",
+    "name": "GachaChest",
+    "uuid": "089b3291-771d-43fb-bdd4-f733c5cc7add",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  }
+}

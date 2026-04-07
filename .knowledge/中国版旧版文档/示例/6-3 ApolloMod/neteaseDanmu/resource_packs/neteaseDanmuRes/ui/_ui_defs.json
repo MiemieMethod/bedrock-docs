@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/danmuViewUI.json",
+    "ui/danmuUI.json"
+  ]
+}

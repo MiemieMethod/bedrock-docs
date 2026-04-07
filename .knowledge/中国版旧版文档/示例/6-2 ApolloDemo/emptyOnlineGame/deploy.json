@@ -1,0 +1,105 @@
+{
+    "common": {
+        "nginx": false, 
+        "delay_connect_server_time": 0, 
+        "delay_remove_server_time": 0, 
+    	"rolling_size": 20, 
+    	"internet_ip": false, 
+        "zip_push_mod": false, 
+        "timeout": 30, 
+        "stop_timeout": 30, 
+        "rolling_timeout": 60, 
+        "client_pool_size": 8, 
+        "server_pool_size": 10, 
+        "max_pool_size": 20, 
+        "supervisor": false,
+        "force_kill": true,
+        "unique_levelname": false,
+        "pack_mcp": false,
+        "command_line": "-m 8G",
+        "act_type": 2, 
+        "log_debug_level": true, 
+        "ident": "template", 
+        "developer_switch": "test", 
+        "web_server_url": "https://g79mclobt.nie.netease.com", 
+        "game_id": 0, 
+        "game_key": "game_key", 
+        "gas_server_url": "http://g79gasobt.nie.netease.com:9090", 
+        "machines_dict": {}, 
+        "master": {
+            "app_type": "master", 
+            "app_version": "1.16.0", 
+            "ip": "127.0.0.1", 
+            "mods": "simpleServer", 
+            "type": "master",
+            "keep_alive_period": 30
+        }, 
+        "mongo": {
+            "database": "minecraft", 
+            "host": "127.0.0.1", 
+            "password": "minecraft", 
+            "port": 27017, 
+            "user": "minecraft"
+        }, 
+        "mysql": {
+            "database": "minecraft", 
+            "host": "127.0.0.1", 
+            "password": "minecraft", 
+            "port": 3306, 
+            "user": "minecraft"
+        }, 
+        "netgame_common_url": "http://127.0.0.1:8503/conf/query/get-netgame-common", 
+        "online_mode": false, 
+        "redis": {
+            "host": "127.0.0.1", 
+            "password": "mcnetgame", 
+            "port": 6379
+        },
+        "influxdb": {
+            "host": "10.202.29.137",
+            "port": 8086,
+            "user": "minecraft",
+            "password": "minecraft",
+            "database": "minecraft",
+            "interval": 10,
+            "enabled": false
+        }, 
+        "fluid_control": {
+            "max_login_queue": 1000, 
+            "login_per_tick": 3
+        }
+    }, 
+    "game": [], 
+    "lobby": [
+        {
+            "app_type": "lobby", 
+            "app_version": "1.16.0", 
+            "ip": "127.0.0.1", 
+            "mods": "simpleServer", 
+            "num": 1, 
+            "type": "lobby"
+        }
+    ], 
+    "proxy": [
+        {
+            "app_type": "proxy", 
+            "app_version": "1.16.0", 
+            "ip": "127.0.0.1", 
+            "mods": "", 
+            "num": 1, 
+            "type": "proxy"
+        }
+    ], 
+    "servicelist": [
+    {
+		  "module_names": [
+		  ],
+		  "app_type": "service",
+		  "type": "service",
+		  "app_version": "1.16.0",
+		  "ip": "127.0.0.1",
+		  "gb": 8,
+		  "mods": "simpleService"
+		}
+	]
+}

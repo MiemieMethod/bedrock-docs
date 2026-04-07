@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animation_controllers": {
+		"controller.animation.squirrel.general": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"parameters": [ "query.ground_speed" ],
+					"animations": [
+						{
+							"idle": [
+								{
+									"0.0": 1.0,
+									"1.0": 0.0
+								}
+							]
+						},
+						{
+							"look_at_target": [] 
+						}
+					],
+					"transitions": [
+						{ "move": "query.mod.is_moving" }
+					]
+				},
+				"move": {
+					"parameters": [ "query.ground_speed" ],
+					"animations": [
+						{
+							"move": [
+								{
+									"0.0": 0.0,
+									"1.0": 1.0
+								}
+							]
+						},
+						{
+							"look_at_target": [] 
+						}
+					],
+					"transitions": [
+						{ "default": "!query.mod.is_moving" }
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "walk_speed_modifier" : opt // Modifier for walking speed. 1.0 means keep the regular speed, while higher numbers make the walking speed faster.
+    float "sprint_speed_modifier" : opt // Modifier for sprint speed. 1.0 means keep the regular speed, while higher numbers make the sprint speed faster.
+    int "search_range" : opt // Maximum distance to look for a block in xz.
+    int "search_height" : opt // Maximum distance to look for a block in y.
+    int "tick_interval" : opt // Should start tick interval.
+    string "target_selection_method" : opt // Block search method.
+    array "on_escape" : opt // Escape trigger.
+    {
+         "<any array element>" : opt
+    }
+    array "target_blocks" : opt // List of block types this mob avoids.
+    {
+         "<any array element>" : opt
+    }
+    string "avoid_block_sound" : opt // The sound event to play when the mob is avoiding a block.
+    float_range "sound_interval" : opt // The range of time in seconds to randomly wait before playing the sound again.
+}
+

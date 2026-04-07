@@ -1,0 +1,19 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseShopDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.3",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.21.0.release20210318",
+
+  "_comment":"该服务器Mod隶属于“商城”插件",
+  "description":"Shop mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["master"],
+
+  "_comment":"作者名字",
+  "author": "NetEase"
+}

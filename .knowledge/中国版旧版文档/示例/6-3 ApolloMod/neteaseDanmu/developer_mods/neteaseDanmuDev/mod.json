@@ -1,0 +1,77 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseDanmuDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.3",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.18.0.release20200820",
+  "_comment": "插件实现的功能",
+  "description": "弹幕",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，弹幕插件由Master插件，Service插件，lobby/game插件",
+  "group": "neteaseDanmu",
+  "_comment": "以下为可配置项",
+  "_comment": "弹幕可选头像",
+  "_comment": "列表中的元素均为字典",
+  "_comment": "按照列表中的顺序显示头像排序",
+  "_comment": "字典中icon_id为头像唯一id",
+  "_comment": "字典中icon为该头像路径",
+  "_comment": "字典中lock为该头像是否默认锁定，为1则需要在数据库表中存在记录才能够解锁，为0则不锁定",
+  "_comment": "字典中unlock_text为该头像锁定时点击弹出的解锁提示文字",
+  "_comment": "以下示例配置为icon2默认锁定，icon1不锁定，排序为icon1在前，icon2显示上锁并排在后，当icon2解锁后，将正常排在icon1之前",
+  "icons": [
+    {
+      "icon_id": "icon2",
+      "icon": "textures/ui/netease_danmu/06",
+      "lock": 1,
+      "unlock_text": "活动解锁"
+    },
+    {
+      "icon_id": "icon1",
+      "icon": "textures/ui/netease_danmu/05",
+      "lock": 0,
+      "unlock_text": "活动解锁"
+    }
+  ],
+  "_comment": "弹幕可选颜色",
+  "_comment": "列表中的元素均为字典",
+  "_comment": "按照列表中的顺序显示头像排序",
+  "_comment": "列表中最多十个元素，超过十个的部分将不显示",
+  "_comment": "默认选中列表中的第一个颜色",
+  "_comment": "字典中color为颜色代码",
+  "_comment": "字典中pic为该颜色显示在选择界面中的贴图",
+  "_comment": "颜色代码详情请见https://minecraft-zh.gamepedia.com/index.php?title=%E6%A0%B7%E5%BC%8F%E4%BB%A3%E7%A0%81&variant=zh",
+  "_comment": "以下示例配置为红色和绿色",
+  "colors": [
+    {
+      "color": "§c",
+      "pic": "textures/ui/netease_danmu/text_icon_04"
+    },
+    {
+      "color": "§a",
+      "pic": "textures/ui/netease_danmu/text_icon_02"
+    }
+  ],
+  "_comment": "允许发送间隔秒数",
+  "interval": 4,
+  "_comment": "从右至左的弹幕的移动速度随机区间，以下示例为最少每秒移动16px，最快每秒移动44px",
+  "rr": [
+    16,
+    44
+  ],
+  "_comment": "中部的弹幕的播放时长随机区间，秒数，以下示例为最快4秒消失，最慢7秒消失",
+  "mr": [
+    4,
+    7
+  ],
+  "_comment": "发送一条弹幕为从右至左的弹幕的概率，以下示例为百分之30概率发送一条弹幕在中部固定出现",
+  "p": 70,
+  "_comment": "弹幕可用屏幕范围，1为上四分之一，2为上半，3为上四分之三，4为全部",
+  "partition": 4
+}

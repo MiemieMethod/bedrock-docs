@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "CustomCropMod",
+        "name": "CustomCropMod",
+        "uuid": "ef7c4407-f0c4-4c42-a1b1-b4d2ce67316e",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CustomCropMod",
+            "type": "data",
+            "uuid": "e259e3da-2cb8-4967-9bbc-8064875486f4",
+            "version": [0, 0, 1]
+        }
+    ]
+}

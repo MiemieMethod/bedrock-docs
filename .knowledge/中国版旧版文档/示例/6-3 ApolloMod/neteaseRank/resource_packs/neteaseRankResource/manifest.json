@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By rank",
+        "name": "rank",
+        "uuid": "42b75499-dc52-4a1d-81fe-2757529e3fc6",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "a604c507-a888-4ece-b4e6-6020bff0ff08",
+            "version": [0, 0, 1]
+        }
+    ]
+}

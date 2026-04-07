@@ -1,0 +1,26 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+     "filters" : opt
+    float "jump_cooldown_duration" : opt
+    float "jump_cooldown_when_hurt_duration" : opt
+    float "last_hurt_duration" : opt
+    float "prepare_jump_duration" : opt
+    float "max_jump_velocity" : opt
+    bool "check_collision" : opt
+    float "entity_bounding_box_scale" : opt
+    int "line_of_sight_obstruction_height_ignore" : opt
+    float_range "valid_distance_to_target" : opt
+    int "landing_position_spread_degrees" : opt
+    float_range "landing_distance_from_target" : opt
+    int "required_vertical_space" : opt
+    int "snap_to_surface_block_range" : opt
+    array "jump_angles" : opt
+    {
+        float "<any array element>" : opt
+    }
+}
+

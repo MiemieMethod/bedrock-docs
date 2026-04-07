@@ -1,0 +1,40 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseFlyDev",
+
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.2",
+
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+
+  "_comment": "插件实现的功能",
+  "description": "插件主要实现飞行功能的开启与关闭",
+
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["lobby","game"],
+
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+
+  "_comment": "所属插件组合的名字，飞行插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseFly",
+
+  "_comment": "打开飞行最小饥饿值要求，若配置等于0则无饥饿值要求",
+  "HUNGER_LIMIT": 6,
+
+  "_comment": "取消飞行状态的饥饿值要求，如果处于飞行状态，小于该值将自动关闭飞行",
+  "HUNGER_STOP_FLY": 4,
+
+  "_comment": "飞行消耗的最小单位，开启飞行后每过该秒数计算一次饥饿值，若配置小于等于0则不会消耗饥饿值",
+  "FLY_INTERVAL": 3,
+
+  "_comment": "飞行状态下每次计算饥饿值时消耗该数值",
+  "FLY_COST": 2,
+
+  "_comment": "黑/白名单模式，默认为True，黑名单模式。该模式下配置的区域清单为黑名单，禁飞，其余地区不禁飞。反之白名单区域内允许飞行，其余地区禁飞",
+  "IS_BLACK_LIST_MODE": true,
+
+  "_comment": "区域名单，根据黑/白名单确认用途，格式为[[dimension, minX, minY, minZ, maxX, maxY, maxZ], [dimension, minX, minY, minZ, maxX, maxY, maxZ]]",
+  "AOI_LIST": []
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By netease",
+        "name": "neteaseNpcRes",
+        "uuid": "af9c258b-bdf2-490f-86c0-050ebe163fdf",
+        "version": [0, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "By netease",
+            "type": "resources",
+            "uuid": "1ed0b32a-90d4-491b-aefd-f807c8576e2d",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "top",
+  "type": {
+    "name": "enum",
+    "enum_values": [
+      "solid",
+      "air"
+    ],
+    "version": [
+      {
+        "min": "1.16.100",
+        "max": "*",
+        "min_exclusivity": true,
+        "max_exclusivity": true
+      }
+    ]
+  },
+  "details": {
+    "default_value": "solid"
+  }
+}

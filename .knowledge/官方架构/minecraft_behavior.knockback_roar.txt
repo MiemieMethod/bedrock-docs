@@ -1,0 +1,19 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "duration" : opt
+    float "attack_time" : opt
+    int "knockback_damage" : opt
+    int "knockback_horizontal_strength" : opt
+    int "knockback_vertical_strength" : opt
+    float "knockback_height_cap" : opt
+    int "knockback_range" : opt
+    float "cooldown_time" : opt
+     "knockback_filters" : opt
+     "damage_filters" : opt
+     "on_roar_end" : opt
+}
+

@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/customFurnaceUI.json",
+    "ui/neteaseCommonUI.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Jewel",
+        "uuid": "ebd4170a-ab83-4a3a-b623-23e9d5a6f451",
+        "version": [0, 0, 3]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "58b0c15f-36fb-4bd4-b06e-54f2c66592cf",
+            "version": [0, 0, 1]
+        }
+    ]
+}

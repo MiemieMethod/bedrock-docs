@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.player.drip": {
+		"initial_state": "default",
+		"states": {
+		  "default": {
+			"transitions": [
+			  {
+				"dripping": "query.mod.play_drip"
+			  }
+			]
+		  },
+		  "dripping": {
+			"particle_effects": [
+			  {
+				"effect": "nectar_dripping"
+			  }
+			],
+			"transitions": [
+			  {
+				"default": "!query.mod.play_drip"
+			  }
+			]
+		  }
+		}
+	  }
+	}
+}

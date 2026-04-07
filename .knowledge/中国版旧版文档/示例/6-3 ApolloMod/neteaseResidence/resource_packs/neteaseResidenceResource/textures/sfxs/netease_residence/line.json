@@ -1,0 +1,41 @@
+{
+    "frames": [
+        {
+            "filename": "line.png",
+            "frame": {
+                "h": 1,
+                "w": 1,
+                "x": 0,
+                "y": 0
+            },
+            "rotated": false,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "sourceSize": {
+                "h": 1,
+                "w": 1
+            },
+            "spriteSourceSize": {
+                "h": 1,
+                "w": 1,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        }
+    ],
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "format": "RGBA8888",
+        "image": "line.png",
+        "scale": "1",
+        "size": {
+            "h": 1,
+            "w": 1
+        },
+        "version": "1.0"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "FPS Demo By @SDKTeam",
+        "name": "AwesomeMod",
+        "uuid": "b4af2858-174e-4450-ba0d-75d6e1fe17ae",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "FPS Demo By @SDKTeam",
+            "type": "data",
+            "uuid": "95dcdbf9-fa2f-44bc-90c6-f5c5a568e889",
+            "version": [0, 0, 1]
+        }
+    ],
+	"dependencies" : []
+}

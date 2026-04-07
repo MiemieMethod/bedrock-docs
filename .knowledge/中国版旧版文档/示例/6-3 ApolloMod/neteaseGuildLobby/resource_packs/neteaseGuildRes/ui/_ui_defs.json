@@ -1,0 +1,10 @@
+{
+    "ui_defs" : [
+        "ui/ApplyUI.json",
+        "ui/CreateGuildUI.json",
+        "ui/JoinUI.json",
+        "ui/MyGuildUI.json",
+        "ui/QuitUI.json",
+        "ui/GuildBtnUI.json"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Danmu",
+        "uuid": "20200820-8c3e-499c-a4b3-1ebe222a6ee5",
+        "version": [0, 0, 3]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "20200820-db92-4fdd-9f1b-b44185e27f01",
+            "version": [0, 0, 1]
+        }
+    ]
+}

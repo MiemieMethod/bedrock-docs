@@ -1,0 +1,40 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "custombiomes:overworld_light_blue_wool_feature",
+      "places_feature": "custombiomes:netease_light_blue_wool_structure_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "dm5"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "the_end"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": "math.mod(variable.originx,96)==0 && math.mod(variable.originz-16,96)==0 && query.is_biome(variable.originx + 31, variable.originz + 15, 0, 1, 2, 9, 12, 46)?1:0",
+      "coordinate_eval_order": "xzy",
+      "scatter_chance": 100.0,
+      "x": 0,
+      "y": "query.get_height_at(variable.originx + 16, variable.originz)",
+	  "z": 0
+    }
+  }
+}

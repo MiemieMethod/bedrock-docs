@@ -1,0 +1,18 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "cooldown_time" : opt
+    float "x_max_rotation" : opt
+    float "y_max_head_rotation" : opt
+    float "max_distance" : opt
+    float "max_sneak_range" : opt
+    float "max_sprint_range" : opt
+    float "reach_multiplier" : opt
+    float "sneak_speed_multiplier" : opt
+    float "sprint_speed_multiplier" : opt
+    float "walk_speed_multiplier" : opt
+}
+

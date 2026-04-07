@@ -1,0 +1,16 @@
+{
+    "identifier": "neteaseRound:snowBall",
+    "showName": "雪球",
+    "icon": "textures/ui/netease_round/skill_01", 
+    "iconDisable": "textures/ui/netease_round/skill_01_unuse", 
+    "desc": "对指定敌人造成100%*攻击力伤害",
+    "perform": "neteaseRound:skill:snowBall",
+    "costEnergy": 1,
+    "_comment": "技能的目标类型：0（仅自己）、1（可选1个友方对象）、2（可选1个敌方对象）、3（随机n个友方对象）、4（随机n个敌方对象）",
+    "targetType": 2,
+    "damageList": [
+        {"multi":1.0, "extra":0}
+    ],
+    "effectList": [
+    ]
+}

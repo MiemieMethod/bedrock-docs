@@ -1,0 +1,35 @@
+{
+    object "name_actions" : opt
+    {
+        string "name_filter" : opt
+        array "name_filter" : opt
+        {
+            string "<any array element>" : opt
+            object "<any array element>" : opt
+            {
+                string "name_filter" : opt
+            }
+        }
+         "on_named" : opt
+    }
+    array "name_actions" : opt
+    {
+        object "<any array element>" : opt
+        {
+            string "name_filter" : opt
+            array "name_filter" : opt
+            {
+                string "<any array element>" : opt
+                object "<any array element>" : opt
+                {
+                    string "name_filter" : opt
+                }
+            }
+             "on_named" : opt
+        }
+    }
+     "default_trigger" : opt
+    bool "always_show|alwaysShow" : opt
+    bool "allowNameTagRenaming|allow_name_tag_renaming" : opt
+}
+

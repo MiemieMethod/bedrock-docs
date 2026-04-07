@@ -1,0 +1,14 @@
+{
+    float "run_speed" : opt
+    float "eat_animation_time" : opt
+    float "pull_in_force" : opt
+    float "reach_mob_distance" : opt
+    string "eat_mob_sound" : opt
+    string "loot_table" : opt
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+}
+

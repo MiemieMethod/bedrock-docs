@@ -1,0 +1,458 @@
+{	
+	"label_medical" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1, 1, 1 ],
+      "font_size" : "large",
+      "layer" : 1,
+      "offset" : [ "0.0%+0 px", "15.0%+0px" ],
+      "property_bag" : {
+         "#label_medical.text" : "§f长按空白处使用医疗包\n每秒回复5点血，持续回复4秒"
+      },
+      "shadow" : true,
+      "size" : [ "100.000000%+0 px", "25.000000%+0px" ],
+      "text" : "#label_medical.text",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+    },
+	
+  "menu_panel": {
+    "type": "panel",
+    "size": [ "50%", "50%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "image_menu_bg@mainUi.image_menu_bg": { }
+      },
+	  {
+        "label_menu_title@mainUi.label_menu_title": { }
+      },
+	  {
+        "menu_button_go@mainUi.menu_button_go": { }
+      },
+	  {
+        "menu_button_exit@mainUi.menu_button_exit": { }
+      }
+    ]
+  },
+  "image_menu_bg":{
+	"anchor_from" : "center",
+    "anchor_to" : "center",
+    "layer" : 2,
+    "nineslice_size" : 1,
+    "offset" : [ 0, 0 ],
+    "size" : [ "100%", "100%" ],
+    "texture" : "textures/ui/panel.png",
+    "type" : "image",
+    "uv" : [ 0, 0 ],
+    "uv_size" : [ 778, 414 ],
+    "visible" : true
+  },
+  "label_menu_title" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1, 1, 1 ],
+      "font_size" : "large",
+      "layer" : 3,
+      "offset" : [ "0%", "-25%" ],
+      "property_bag" : {
+         "#label_menu_title.text" : "我是标题"
+      },
+      "shadow" : true,
+      "size" : [ "100.0%", "20.0%" ],
+      "text" : "#label_menu_title.text",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+    },
+  "menu_button_go@common.button" : {
+      "$default_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/btn",
+      "$hover_texture" : "textures/ui/btn_click",
+	  "property_bag" : {
+         "#menu_button_go.labelText" : "123"
+      },
+      "$label_font_size" : "large",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "%mainUi.OnMenuButtonGo",
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "default" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : "$default_color",
+               "font_size" : "$label_font_size",
+               "layer" : 3,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "OK",
+               "type" : "label"
+            }
+         }
+      ],
+      "layer" : 3,
+      "offset" : [ "-25%", "25%" ],
+      "size" : [ "30%", "15%" ],
+      "visible" : true
+  },
+  "menu_button_exit@common.button" : {
+      "$default_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/btn",
+      "$hover_texture" : "textures/ui/btn_click",
+      "$label_font_size" : "large",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "%mainUi.OnMenuButtonExit",
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "default" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : "$default_color",
+               "font_size" : "$label_font_size",
+               "layer" : 3,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "CANCEL",
+               "type" : "label"
+            }
+         }
+      ],
+      "layer" : 3,
+      "offset" : [ "25%", "25%" ],
+      "size" : [ "30%", "15%" ],
+      "visible" : true
+  },
+  
+  "ranking_panel": {
+    "type": "panel",
+    "size": [ "40%", "80%" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "image_menu_bg@mainUi.image_menu_bg": { }
+      },
+	  {
+        "label_ranking_title@mainUi.label_ranking_title": { }
+      },
+	  {
+        "scrolling_scoreboard@mainUi.scrolling_scoreboard": { }
+      },
+	  {
+        "ranking_button_exit@mainUi.ranking_button_exit": { }
+      }
+    ]
+  },
+  "label_ranking_title" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1, 1, 1 ],
+      "font_size" : "large",
+      "layer" : 3,
+      "offset" : [ "0%", "-40%" ],
+      "property_bag" : {
+         "#label_ranking_title.text" : "我是标题"
+      },
+      "shadow" : true,
+      "size" : [ "100.0%", "18.0%" ],
+      "text" : "#label_ranking_title.text",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+    },
+  "ranking_button_exit@common.button" : {
+      "$default_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/btn",
+      "$hover_texture" : "textures/ui/btn_click",
+      "$label_font_size" : "large",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "%mainUi.OnRankingButtonExit",
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "default" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : "$default_color",
+               "font_size" : "$label_font_size",
+               "layer" : 3,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "关闭",
+               "type" : "label"
+            }
+         }
+      ],
+      "layer" : 3,
+      "offset" : [ "0%", "45%" ],
+      "size" : [ "40%", "8%" ],
+      "visible" : true
+  },
+   
+   "scoreboard_grid" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_condition" : "always",
+            "binding_name" : "#scoreboard_grid.item_count",
+            "binding_name_override" : "#StackGridItemsCount"
+         }
+      ],
+      "collection_name" : "scoreboard_stackgrid",
+      "controls" : [
+         {
+            "gradient_renderer@mainUi.gradient_renderer" : {}
+         }
+      ],
+      "item_count" : 1,
+      "layer" : 0,
+      "orientation" : "vertical",
+      "property_bag" : {
+         "#scoreboard_grid.item_count" : 1
+      },
+      "size" : [ "100%", "default" ],
+      "type" : "stack_grid",
+      "visible" : true
+   },
+   "scrolling_scoreboard@common.scrolling_panel" : {
+      "$scroll_bar_right_padding_size" : [ 0, 0 ],
+      "$scroll_box_mouse_image_control" : "common-classic.button_state_default",
+      "$scroll_size" : [ 0, "100.000000%+0px" ],
+      "$scroll_view_name" : "scroll_view",
+      "$scrolling_content" : "mainUi.scoreboard_grid",
+      "$scrolling_pane_offset" : [ 0, 0 ],
+      "$scrolling_pane_size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "$show_background" : false,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 3,
+      "offset" : [ "0%+0px", "0%+0px" ],
+      "size" : [ "80%", "80%" ],
+      "visible" : true
+   },
+    "gradient_renderer" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "scoreboard_stackgrid",
+            "binding_condition" : "always",
+            "binding_name" : "#gradient_renderer.visible",
+            "binding_name_override" : "#visible",
+            "binding_type" : "collection"
+         }
+      ],
+      "color1" : [ 1.0, 1.0, 1.0, 0.0 ],
+      "color2" : [ 1.0, 1.0, 1.0, 0.0 ],
+      "controls" : [
+         {
+            "label_score_board@mainUi.label_score_board" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "property_bag" : {
+         "#gradient_renderer.visible" : true
+      },
+      "renderer" : "gradient_renderer",
+      "size" : [ "100.000000%+0 px", "10.000000%+0px" ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "label_score_board" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "bindings" : [
+         {
+            "binding_collection_name" : "scoreboard_stackgrid",
+            "binding_condition" : "always",
+            "binding_name" : "#label_score_board.text",
+            "binding_type" : "collection"
+         }
+      ],
+      "color" : [ 0.3, 0.3, 0.3 ],
+      "font_size" : "normal",
+      "layer" : 1,
+      "offset" : [ "0%", "0%" ],
+      "property_bag" : {
+         "#label_score_board.text" : "666666666666"
+      },
+      "shadow" : false,
+      "size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "text" : "#label_score_board.text",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "scoreboard_grid1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_condition" : "always",
+            "binding_name" : "#scoreboard_grid1.item_count",
+            "binding_name_override" : "#StackGridItemsCount"
+         }
+      ],
+      "collection_name" : "scoreboard_stackgrid",
+      "controls" : [
+         {
+            "gradient_renderer1@mainUi.gradient_renderer1" : {}
+         }
+      ],
+      "item_count" : 1,
+      "layer" : 0,
+      "orientation" : "vertical",
+      "property_bag" : {
+         "#scoreboard_grid1.item_count" : 1
+      },
+      "size" : [ "100%", "default" ],
+      "type" : "stack_grid",
+      "visible" : true
+   }, 
+	
+   "main@common.base_screen":{
+		"controls" : [
+			 {
+				"label_medical@mainUi.label_medical" : {}
+		     },
+             {
+				"menu_panel@mainUi.menu_panel" : {}
+		     },	 		 
+			 {
+				"ranking_panel@mainUi.ranking_panel" : {}
+			 }
+		 ]
+	},
+	
+	"namespace" : "mainUi"
+}

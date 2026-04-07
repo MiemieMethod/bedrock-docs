@@ -1,0 +1,20 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm4_lukewarm_ocean", 
+            "inherits": "lukewarm_ocean"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "generate_for_climates": [
+                    [
+                        "medium", 
+                        0
+                    ]
+                ]
+            },
+            "dm4": {}
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "_comment": "参战角色的唯一ID",
+    "identifier": "neteaseRound:yuki",
+    "_comment": "角色模型的配置信息",
+    "modelName": "netease_round_xn",
+    "_comment": "角色的名字",
+    "showName": "雪女",
+    "_comment": "角色的头像",
+    "headIcon": "textures/ui/netease_round/xn_icon",
+    "_comment": "角色的战斗属性",
+    "battleAttr": {
+        "_comment": "最大生命值",
+        "health": 200,
+        "_comment": "攻击",
+        "attack": 60,
+        "_comment": "防御",
+        "defence": 30,
+        "_comment": "暴击",
+        "crit": 0.5,
+        "_comment": "暴击抵抗",
+        "tough": 0.05,
+        "_comment": "暴击伤害",
+        "critDamage": 1.8,
+        "_comment": "暴击减伤",
+        "critImmune": 0.0,
+        "_comment": "效果命中",
+        "effectHit": 0.2,
+        "_comment": "效果抵抗",
+        "effectResist": 0.6,
+        "_comment": "速度",
+        "speed": 100,
+        "_comment": "能量",
+        "energy": 8
+    },
+    "_comment": "角色的战斗技能",
+    "skill": [
+        "neteaseRound:snowBall",
+        "neteaseRound:glacier",
+        "neteaseRound:blizzard",
+        "neteaseRound:snowTrap"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "minimum_critical_power",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "projectile_entity",
+        "type": {
+          "name": "string",
+          "min_length": 0,
+          "max_length": 18446744073709551615,
+          "pattern": "^(?:\\w+(?:\\.\\w+)*:(?=\\w))?(?:\\w+(?:\\.\\w+)*)(?:<((?:\\w+(?:\\.\\w+)*:(?=\\w))?\\w+(?:\\.\\w+)*)*>)?$"
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.10",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "ammunition",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "reference",
+            "reference": "#/definition_types/2221989686"
+          }
+        }
+      },
+      {
+        "name": "charge_on_draw",
+        "type": {
+          "name": "boolean"
+        }
+      },
+      {
+        "name": "max_draw_duration",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "scale_power_by_draw_duration",
+        "type": {
+          "name": "boolean"
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.10",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  },
+  "definition_types": {
+    "2221989686": {
+      "name": "object",
+      "properties": [
+        {
+          "name": "item",
+          "type": {
+            "name": "reference",
+            "reference": "../../../../common/definition/item/item_descriptor.json"
+          }
+        },
+        {
+          "name": "search_inventory",
+          "type": {
+            "name": "boolean"
+          }
+        },
+        {
+          "name": "use_in_creative",
+          "type": {
+            "name": "boolean"
+          }
+        },
+        {
+          "name": "use_offhand",
+          "type": {
+            "name": "boolean"
+          }
+        }
+      ]
+    }
+  }
+}

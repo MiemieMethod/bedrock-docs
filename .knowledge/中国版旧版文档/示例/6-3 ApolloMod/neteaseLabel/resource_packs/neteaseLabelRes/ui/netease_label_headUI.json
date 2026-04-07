@@ -1,0 +1,76 @@
+{
+   "label_head_panel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "text@netease_label_headUI.text" : {}
+         }
+      ],
+      "layer" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "label_head_panel@netease_label_headUI.label_head_panel" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "namespace" : "netease_label_headUI",
+   "pic" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : true,
+      "layer" : 3,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 38.0, 13.0 ],
+      "texture" : "textures/ui/netease_label/img01",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "text" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "pic@netease_label_headUI.pic" : {}
+         }
+      ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ 40.0, 8.0 ],
+      "text" : "<人民币战士>",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   }
+}

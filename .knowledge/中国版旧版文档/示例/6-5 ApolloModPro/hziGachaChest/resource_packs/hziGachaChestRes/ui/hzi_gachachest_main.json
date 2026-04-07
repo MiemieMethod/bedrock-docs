@@ -1,0 +1,960 @@
+{
+   "bagPanel" : {
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "controls" : [
+         {
+            "bg" : {
+               "color" : [ 0.360, 0.360, 0.360 ],
+               "texture" : "textures/ui/White",
+               "type" : "image"
+            }
+         }
+      ],
+      "offset" : [ 0, -8 ],
+      "size" : [ "100% - 20px", "100% - 30px" ],
+      "type" : "panel"
+   },
+   "bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "grid@hzi_gachachest_main.grid" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : false,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "default", "default" ],
+      "texture" : "textures/ui/hzi_gachachest/btn_unuse",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "alpha" : "$control_alpha",
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "close_bg@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_text_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/hzi_gachachest/close_btn_bg",
+      "$hover_text_color" : [ 1, 1, 1 ],
+      "$hover_texture" : "textures/ui/hzi_gachachest/close_btn_bg",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : 4,
+      "$pressed_button_name" : "",
+      "$pressed_text_color" : [ 1, 1, 1 ],
+      "$pressed_texture" : "textures/ui/hzi_gachachest/close_btn_bg",
+      "$texture_layer" : 1,
+      "alpha" : 1.0,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@hzi_gachachest_main.default" : {}
+         },
+         {
+            "hover@hzi_gachachest_main.hover" : {}
+         },
+         {
+            "pressed@hzi_gachachest_main.pressed" : {}
+         },
+         {
+            "close_button@hzi_gachachest_main.close_button" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "hover_control" : "default",
+      "is_handle_button_move_event" : true,
+      "layer" : 9,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 28, 0 ],
+      "pressed_control" : "default",
+      "propagate_alpha" : false,
+      "size" : [ 32, 28 ],
+      "visible" : true
+   },
+   "close_button@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/hzi_gachachest/close_button_default",
+      "$hover_texture" : "textures/ui/hzi_gachachest/close_button_default",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%hzi_gachachest_main.click",
+      "$pressed_texture" : "textures/ui/hzi_gachachest/close_button_hover",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@hzi_gachachest_main.default" : {}
+         },
+         {
+            "hover@hzi_gachachest_main.hover" : {}
+         },
+         {
+            "pressed@hzi_gachachest_main.pressed" : {}
+         },
+         {
+            "button_label@hzi_gachachest_main.button_label" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 20,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 20, 20 ],
+      "visible" : true
+   },
+   "common" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "grid_panel@hzi_gachachest_main.grid_panel" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "currencyIcon" : {
+      "bindings" : [
+         {
+            "binding_name" : "#bindCurrencyIcon",
+            "binding_name_override" : "#texture",
+            "binding_type" : "global"
+         }
+      ],
+      "texture" : "#bindCurrencyIcon",
+      "type" : "image"
+   },
+   "default" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "display_frame" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "display_img@hzi_gachachest_main.display_img" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 20,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1, 1, 1, 1 ],
+      "offset" : [ "0.0%+0.0px", "-4.3%+0.0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "86.88%+0.0px", "76.26%+0.0px" ],
+      "texture" : "textures/ui/hzi_gachachest/panel01@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "display_img" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "center",
+      "clip_offset" : [ 1.0, 1.0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : true,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : false,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0.0, 0.0, 0.0, 0.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "default", "default" ],
+      "texture" : "textures/ui/hzi_gachachest/display/default",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 573, 603 ],
+      "visible" : true
+   },
+   "gacha_panel" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "left_panel@hzi_gachachest_main.left_panel" : {}
+         },
+         {
+            "split_line@hzi_gachachest_main.split_line" : {}
+         },
+         {
+            "right_panel@hzi_gachachest_main.right_panel" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "85%", "100%" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "grid" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "collection_name" : "grid",
+      "enabled" : true,
+      "grid_dimensions" : [ 5.0, 5.0 ],
+      "grid_item_template" : "hzi_gachachest_main.item_btn",
+      "grid_rescaling_type" : "none",
+      "layer" : 1,
+      "max_size" : [ 0.0, 0.0 ],
+      "maximum_grid_items" : 36,
+      "min_size" : [ 0.0, 0.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : true,
+      "size" : [ "default", "default" ],
+      "type" : "grid",
+      "visible" : true
+   },
+   "grid_panel" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "item_btn@hzi_gachachest_main.item_btn" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 0.0, 0.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "hover" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "icon" : {
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 3,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "36.0%+0.0px", "-3.0%+0.0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 32, 32 ],
+      "texture" : "textures/ui/hzi_gachachest/currency/currency3",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 64, 64 ],
+      "visible" : true
+   },
+   "inside_panel" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "bg@hzi_gachachest_main.bg" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+-20.0px", "100.0%+-40.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "item_btn@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_text_color" : [ 0.260, 0.260, 0.260 ],
+      "$default_texture" : "textures/ui/hzi_gachachest/item_frame",
+      "$hover_text_color" : [ 1, 1, 1 ],
+      "$hover_texture" : "textures/ui/hzi_gachachest/item_frame",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "",
+      "$pressed_text_color" : [ 1, 1, 1 ],
+      "$pressed_texture" : "textures/ui/hzi_gachachest/item_frame",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "selected_img@hzi_gachachest_main.selected_img" : {}
+         },
+         {
+            "default@hzi_gachachest_main.default" : {}
+         },
+         {
+            "hover@hzi_gachachest_main.hover" : {}
+         },
+         {
+            "pressed@hzi_gachachest_main.pressed" : {}
+         },
+         {
+            "item_render@hzi_gachachest_main.item_render" : {}
+         },
+         {
+            "item_name_bg@hzi_gachachest_main.item_name_bg" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 29, 29 ],
+      "sound_volume" : 0.0,
+      "visible" : true
+   },
+   "item_name" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 5, 0 ],
+      "propagate_alpha" : false,
+      "shadow" : true,
+      "size" : [ "default", "default" ],
+      "text" : "草方块\n第二行",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "item_name_bg" : {
+      "alpha" : 0.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "item_name@hzi_gachachest_main.item_name" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : false,
+      "layer" : 300,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4.0, 4.0, 4.0, 4.0 ],
+      "offset" : [ 30, 21 ],
+      "propagate_alpha" : true,
+      "size" : [ 36, 29 ],
+      "texture" : "textures/ui/hzi_gachachest/purpleBorder",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true
+   },
+   "item_num" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 2, 3 ],
+      "propagate_alpha" : false,
+      "shadow" : true,
+      "size" : [ "55%", "40%" ],
+      "text" : "",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "item_render" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "item_num@hzi_gachachest_main.item_num" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 4,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ "100% - 4px", "100% - 4px" ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "left_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : false,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4.0, 4.0, 4.0, 4.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "default", "default" ],
+      "texture" : "textures/ui/hzi_gachachest/bg",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 57, 64 ],
+      "visible" : true
+   },
+   "left_panel" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "title" : {
+               "alpha" : 1.0,
+               "anchor_from" : "top_middle",
+               "anchor_to" : "top_middle",
+               "clip_offset" : [ 0, 0 ],
+               "clips_children" : false,
+               "color" : [ 0, 0, 0 ],
+               "enabled" : true,
+               "font_scale_factor" : 1.0,
+               "font_size" : "normal",
+               "font_type" : "smooth",
+               "layer" : 3,
+               "line_padding" : 0.0,
+               "max_size" : [ 0, 0 ],
+               "min_size" : [ 0, 0 ],
+               "offset" : [ 0, 6 ],
+               "propagate_alpha" : false,
+               "shadow" : false,
+               "size" : [ "default", "default" ],
+               "text" : "奖 池",
+               "text_alignment" : "center",
+               "type" : "label",
+               "visible" : true
+            }
+         },
+         {
+            "inside_panel@hzi_gachachest_main.inside_panel" : {}
+         },
+         {
+            "left_bg@hzi_gachachest_main.left_bg" : {}
+         },
+         {
+            "bagPanel@hzi_gachachest_main.bagPanel" : {
+               "layer" : 4
+            }
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "50% - 3px", "100%" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "locked" : {
+      "$label_color" : "$locked_text_color",
+      "$locked_text_color|default" : [ 0.6899999999999999, 0.6899999999999999, 0.6899999999999999 ],
+      "$nineslice_size|default" : 0,
+      "controls" : [
+         {
+            "label@hzi_gachachest_main.button_label" : {}
+         }
+      ],
+      "layer" : "$texture_layer",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$locked_texture",
+      "type" : "image"
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "gacha_panel@hzi_gachachest_main.gacha_panel" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "msg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2549019607843137, 0.2549019607843137, 0.2549019607843137 ],
+      "controls" : [
+         {
+            "icon@hzi_gachachest_main.icon" : {}
+         }
+      ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 5,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "-10.0%+0.0px", 0 ],
+      "propagate_alpha" : false,
+      "shadow" : true,
+      "size" : [ "default", "default" ],
+      "text" : "点击抽奖一次, 消耗10",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "namespace" : "hzi_gachachest_main",
+   "pressed" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "right_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : false,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4.0, 4.0, 4.0, 4.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "default", "default" ],
+      "texture" : "textures/ui/hzi_gachachest/bg",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 57, 64 ],
+      "visible" : true
+   },
+   "right_panel" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "title" : {
+               "alpha" : 1.0,
+               "anchor_from" : "top_middle",
+               "anchor_to" : "top_middle",
+               "clip_offset" : [ 0, 0 ],
+               "clips_children" : false,
+               "color" : [ 0, 0, 0 ],
+               "enabled" : true,
+               "font_scale_factor" : 1.0,
+               "font_size" : "normal",
+               "font_type" : "smooth",
+               "layer" : 8,
+               "line_padding" : 0.0,
+               "max_size" : [ 0, 0 ],
+               "min_size" : [ 0, 0 ],
+               "offset" : [ 0, 6 ],
+               "propagate_alpha" : false,
+               "shadow" : false,
+               "size" : [ "default", "default" ],
+               "text" : "抽 奖",
+               "text_alignment" : "center",
+               "type" : "label",
+               "visible" : true
+            }
+         },
+         {
+            "close_bg@hzi_gachachest_main.close_bg" : {}
+         },
+         {
+            "display_frame@hzi_gachachest_main.display_frame" : {}
+         },
+         {
+            "start_button@hzi_gachachest_main.start_button" : {}
+         },
+         {
+            "right_bg@hzi_gachachest_main.right_bg" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 6,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "50% - 3px", "100%" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "selected_img" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 3,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : 4,
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+4.0px", "100.0%+4.0px" ],
+      "texture" : "textures/ui/hzi_gachachest/item_selected",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : false
+   },
+   "split_line" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 5,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 1, 3, 1, 3 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "6px", "100% - 4px" ],
+      "texture" : "textures/ui/hzi_gachachest/split_line",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "start_button@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/hzi_gachachest/btn_default",
+      "$hover_texture" : "textures/ui/hzi_gachachest/btn_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 3,
+      "$nine_slice_left" : 3,
+      "$nine_slice_right" : 3,
+      "$nine_slice_top" : 3,
+      "$nineslice_size" : [ 3.0, 3.0, 3.0, 3.0 ],
+      "$pressed_button_name" : "%hzi_gachachest_main.click",
+      "$pressed_texture" : "textures/ui/hzi_gachachest/btn_click",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@hzi_gachachest_main.default" : {}
+         },
+         {
+            "hover@hzi_gachachest_main.hover" : {}
+         },
+         {
+            "pressed@hzi_gachachest_main.pressed" : {}
+         },
+         {
+            "button_label@hzi_gachachest_main.button_label" : {}
+         },
+         {
+            "msg@hzi_gachachest_main.msg" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 20,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0.0%+0.0px", "-3.5%+0.0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "86.88%+0.0px", "12.0%+0.0px" ],
+      "visible" : true
+   }
+}

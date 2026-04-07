@@ -1,0 +1,15 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm5_mega_taiga_hills", 
+            "inherits": "mega_taiga_hills"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "mutate_transformation": "dm5_redwood_taiga_hills_mutated"
+            },
+            "dm5": {}
+        }
+    }
+}

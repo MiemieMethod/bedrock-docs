@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+   "description": {
+     "identifier": "customcrop:customcrop_stage2",
+      "register_to_creative_menu": true,
+      "is_experimental": false,
+      "base_block": "custom_crop_block"
+    },
+    "components": {
+      "minecraft:block_light_absorption": {
+        "value": 0
+      },
+      "netease:render_layer": {
+        "value": "alpha"
+      },
+      "netease:aabb": {
+        "collision": {
+          "min": [0.0, 0.0, 0.0],
+          "max": [0.0, 0.0, 0.0]
+        },
+        "clip": {
+          "min": [0.0, 0.0, 0.0],
+          "max": [1.0, 0.813, 1.0]
+        }
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/customcrop_stage2.json"
+      },
+      "netease:block_entity": {
+        "tick": false,
+        "movable": true
+      }
+    }
+  }
+}

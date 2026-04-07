@@ -1,0 +1,184 @@
+{
+    "frames": [
+        {
+            "filename": "合成 2_00000.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 262,
+                "y": 132
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        {
+            "filename": "合成 2_00001.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 132,
+                "y": 262
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        {
+            "filename": "合成 2_00002.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 132,
+                "y": 132
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        {
+            "filename": "合成 2_00003.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 262,
+                "y": 2
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        {
+            "filename": "合成 2_00004.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 132,
+                "y": 2
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        {
+            "filename": "合成 2_00005.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 2,
+                "y": 262
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        {
+            "filename": "合成 2_00006.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 2,
+                "y": 132
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        {
+            "filename": "合成 2_00007.png",
+            "frame": {
+                "h": 128,
+                "w": 128,
+                "x": 2,
+                "y": 2
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 128,
+                "w": 128
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 128,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        }
+    ],
+    "meta": {
+        "app": "http://www.texturepacker.com",
+        "format": "RGBA8888",
+        "image": "hengxian01_xq01lsj.png",
+        "scale": "1",
+        "size": {
+            "h": 392,
+            "w": 392
+        },
+        "smartupdate": "$TexturePacker:SmartUpdate:97e013056fe6bd9573706403469cdfcc$",
+        "version": "1.0"
+    }
+}

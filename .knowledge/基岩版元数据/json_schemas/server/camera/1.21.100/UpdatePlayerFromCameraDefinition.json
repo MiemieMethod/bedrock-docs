@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "2957379594",
+    "x-format-version": "1.21.100",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:update_player_from_camera",
+    "type": "object",
+    "properties": {
+        "look_mode": {
+            "title": "look_mode",
+            "type": "string",
+            "default": "along_camera",
+            "enum": [
+                "along_camera",
+                "at_camera"
+            ]
+        }
+    }
+}

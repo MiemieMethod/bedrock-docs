@@ -1,0 +1,59 @@
+{
+    float "mutation_rate" : opt
+    object "genes" : opt
+    {
+        string "name" : opt
+        float "mutation_rate" : opt
+         "allele_range" : opt
+        object "genetic_variants" : opt
+        {
+             "main_allele" : opt
+             "hidden_allele" : opt
+             "either_allele" : opt
+             "both_allele" : opt
+             "birth_event" : opt
+        }
+        array "genetic_variants" : opt
+        {
+            object "<any array element>" : opt
+            {
+                 "main_allele" : opt
+                 "hidden_allele" : opt
+                 "either_allele" : opt
+                 "both_allele" : opt
+                 "birth_event" : opt
+            }
+        }
+        bool "use_simplified_breeding" : opt
+    }
+    array "genes" : opt
+    {
+        object "<any array element>" : opt
+        {
+            string "name" : opt
+            float "mutation_rate" : opt
+             "allele_range" : opt
+            object "genetic_variants" : opt
+            {
+                 "main_allele" : opt
+                 "hidden_allele" : opt
+                 "either_allele" : opt
+                 "both_allele" : opt
+                 "birth_event" : opt
+            }
+            array "genetic_variants" : opt
+            {
+                object "<any array element>" : opt
+                {
+                     "main_allele" : opt
+                     "hidden_allele" : opt
+                     "either_allele" : opt
+                     "both_allele" : opt
+                     "birth_event" : opt
+                }
+            }
+            bool "use_simplified_breeding" : opt
+        }
+    }
+}
+

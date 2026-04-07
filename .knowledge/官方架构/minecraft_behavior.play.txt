@@ -1,0 +1,16 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "speed_multiplier" : opt
+    float "max_play_duration_seconds" : opt
+    float "chance_to_start" : opt
+    entity_types "friend_types" : opt
+    vec3 "friend_search_area" : opt
+    int "random_pos_search_range" : opt
+    int "random_pos_search_height" : opt
+    int "follow_distance" : opt
+}
+

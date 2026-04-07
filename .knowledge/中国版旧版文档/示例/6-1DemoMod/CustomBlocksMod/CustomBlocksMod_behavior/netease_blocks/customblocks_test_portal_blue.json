@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "customblocks:customblocks_test_portal_blue",
+	  "register_to_creative_menu": true,
+	  "is_experimental": false,
+	  "base_block": "portal"
+    },
+    "components": {
+	  "netease:portal": {
+	    "particle_east_west": "minecraft:portal_yellow",
+		"particle_north_south": "minecraft:portal_blue",
+		"target_dimension": 3
+	  }
+    }
+  }
+}

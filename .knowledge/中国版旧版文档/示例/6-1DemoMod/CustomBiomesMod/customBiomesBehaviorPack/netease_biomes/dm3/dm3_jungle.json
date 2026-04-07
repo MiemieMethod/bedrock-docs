@@ -1,0 +1,19 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm3_jungle", 
+            "inherits": "jungle"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "hills_transformation": "dm3_jungle_hills", 
+                "mutate_transformation": "dm3_jungle_mutated", 
+                "generate_for_climates": [
+                    ["medium", 1]
+                ]
+            },
+            "dm3": {}
+        }
+    }
+}

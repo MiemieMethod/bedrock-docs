@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "portalGateDemo:gateProtalBack",
+      "register_to_creative_menu": true,
+      "base_block": "portal"
+    },
+    "components": {
+      "minecraft:destroy_time": {
+        "value": 9999
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:block_light_emission": {
+        "emission": 1.0
+      },
+      "netease:portal": {
+        "target_dimension": 0,
+        "particle_east_west": "minecraft:portal_east_west",
+        "particle_north_south": "minecraft:portal_north_south"
+      },
+      "netease:listen_block_remove": {
+        "value": true
+      }
+    }
+  }
+}

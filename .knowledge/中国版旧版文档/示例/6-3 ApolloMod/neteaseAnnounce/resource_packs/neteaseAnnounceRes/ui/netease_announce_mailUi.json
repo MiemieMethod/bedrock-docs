@@ -1,0 +1,1267 @@
+{
+   "base_screen0" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "panel0@netease_announce_mailUi.panel0" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "base_screen1" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "panel1@netease_announce_mailUi.panel1" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "boardbg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "separator@netease_announce_mailUi.separator" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "92.0%+-1.0px" ],
+      "texture" : "textures/ui/netease_announce/boardbg",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 2, 2 ],
+      "visible" : true
+   },
+   "btn_continue@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_announce/icon04@3x",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%netease_announce_mailUi.click",
+      "$pressed_texture" : "textures/ui/netease_announce/icon04_click@3x",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_announce_mailUi.default" : {}
+         },
+         {
+            "hover@netease_announce_mailUi.hover" : {}
+         },
+         {
+            "pressed@netease_announce_mailUi.pressed" : {}
+         },
+         {
+            "button_label@netease_announce_mailUi.button_label" : {}
+         },
+         {
+            "lb_continue@netease_announce_mailUi.lb_continue" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ 17.0, 17.0 ],
+      "visible" : true
+   },
+   "btn_mail@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_texture" : "textures/ui/netease_announce/btn01@3x",
+      "$hover_texture" : "textures/ui/netease_announce/btn01_hover@3x",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ -27.0, 0.0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%netease_announce_mailUi.click",
+      "$pressed_texture" : "textures/ui/netease_announce/btn01_click@3x",
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default@netease_announce_mailUi.default" : {}
+         },
+         {
+            "hover@netease_announce_mailUi.hover" : {}
+         },
+         {
+            "pressed@netease_announce_mailUi.pressed" : {}
+         },
+         {
+            "button_label@netease_announce_mailUi.button_label" : {}
+         },
+         {
+            "img_mail01_selected@netease_announce_mailUi.img_mail01_selected" : {}
+         },
+         {
+            "lb_title_mail@netease_announce_mailUi.lb_title_mail" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, 8.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "88.5%+0.0px", 25.0 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "alpha" : "$control_alpha",
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "headbar" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "btn_continue@netease_announce_mailUi.btn_continue" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 26,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 2 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "8.61%+0.0px" ],
+      "texture" : "textures/ui/netease_announce/headbar",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 1, 3 ],
+      "visible" : true
+   },
+   "hover" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "img_mail01_selected" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 10,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,
+      "nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "texture" : "textures/ui/netease_announce/btn01_select@3x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : false
+   },
+   "lb_content" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1, 1, 1 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ "100.0%+0.0px", "default" ],
+      "text" : "Hello World!",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_continue" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.169999957084656,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "101.0%+0.0px", 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 22.0, 10.0 ],
+      "text" : "继续",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_title_mail" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 11,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 8.0, -1.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 85.0, 8.0 ],
+      "text" : "邮件标题1",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "mail_annex_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "mail_annex_pic@netease_announce_mailUi.mail_annex_pic" : {}
+         },
+         {
+            "mail_annex_num@netease_announce_mailUi.mail_annex_num" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 22,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1, 1, 1, 1 ],
+      "offset" : [ "-14.91%+0.0px", "30.46%+0.0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "6.04%+0.0px", "99.98%x+0.0px" ],
+      "texture" : "textures/ui/netease_announce/panel04@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "mail_annex_get@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_announce/btn01@3x",
+      "$hover_texture" : "textures/ui/netease_announce/btn01_hover@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "领取附件",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_announce/btn01_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$pressed_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "alpha" : "$control_alpha",
+               "color" : "$label_color",
+               "font_scale_factor" : "$label_font_scale_factor",
+               "font_size" : "$label_font_size",
+               "font_type" : "smooth",
+               "layer" : "$label_layer",
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$label_offset",
+               "shadow" : false,
+               "text" : "$label_text",
+               "text_alignment" : "center",
+               "type" : "label"
+            }
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 16,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "15.3%+0.0px", "43.33%+0.0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "20.8333328%+0 px", "10.1851851%+0px" ],
+      "visible" : true
+   },
+   "mail_annex_num" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.071429014205933,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 24,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0.0, "53.0%+0.0px" ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ "100%+0 px", "100%+0px" ],
+      "text" : "99",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "mail_annex_pic" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 23,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "property_bag" : {
+         "#item_id_aux" : 131072
+      },
+      "renderer" : "inventory_item_renderer",
+      "size" : [ "90.0%+0.0px", "90.0%+0.0px" ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "mail_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "mail_title_bg@netease_announce_mailUi.mail_title_bg" : {}
+         },
+         {
+            "mail_timeleft@netease_announce_mailUi.mail_timeleft" : {}
+         },
+         {
+            "mail_annex_get@netease_announce_mailUi.mail_annex_get" : {}
+         },
+         {
+            "mail_annex_bg@netease_announce_mailUi.mail_annex_bg" : {}
+         },
+         {
+            "headbar@netease_announce_mailUi.headbar" : {}
+         },
+         {
+            "boardbg@netease_announce_mailUi.boardbg" : {}
+         },
+         {
+            "scroll_content@netease_announce_mailUi.scroll_content" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "100%+0 px", "100%+0px" ],
+      "texture" : "textures/ui/netease_announce/empty",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 1, 1 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "mail_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$labelText" : "",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default" : {
+               "color" : "$default_color",
+               "is_new_nine_slice" : false,
+               "layer" : 1,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : [ 2, 2, 2, 2 ],
+               "texture" : "textures/ui/netease_announce/btn01@3x",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "color" : "$default_color",
+               "is_new_nine_slice" : false,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : [ 2, 2, 2, 2 ],
+               "texture" : "textures/ui/netease_announce/btn01_select@3x",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "color" : "$default_color",
+               "is_new_nine_slice" : false,
+               "layer" : 3,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : [ 2, 2, 2, 2 ],
+               "texture" : "textures/ui/netease_announce/btn01_select@3x",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : [ 1.0, 1.0, 1.0 ],
+               "font_scale_factor" : 0.468750,
+               "font_size" : "normal",
+               "layer" : 4,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "",
+               "type" : "label"
+            }
+         },
+         {
+            "mail_btn_title@netease_announce_mailUi.mail_btn_title" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "0%+0 px", "-39.9831653%+0px" ],
+      "size" : [ "90.0%+0 px", "15.0%+0px" ],
+      "visible" : true
+   },
+   "mail_btn_title" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "font_scale_factor" : 1.205357142857143,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 6,
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "shadow" : false,
+      "size" : [ "90.0%+0 px", "60.0%+0px" ],
+      "text" : "邮件",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "mail_del_btn@common.button" : {
+      "$control_alpha" : 1.0,
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_announce/btn01@3x",
+      "$hover_texture" : "textures/ui/netease_announce/btn01_hover@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "default" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "alpha" : "$control_alpha",
+               "is_new_nine_slice" : "$is_new_nine_slice",
+               "layer" : "$texture_layer",
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "nineslice_size" : "$nineslice_size",
+               "texture" : "$pressed_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "alpha" : "$control_alpha",
+               "color" : "$label_color",
+               "font_scale_factor" : "$label_font_scale_factor",
+               "font_size" : "$label_font_size",
+               "font_type" : "smooth",
+               "layer" : "$label_layer",
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$label_offset",
+               "shadow" : false,
+               "text" : "$label_text",
+               "text_alignment" : "center",
+               "type" : "label"
+            }
+         },
+         {
+            "mail_del_icon@netease_announce_mailUi.mail_del_icon" : {}
+         }
+      ],
+      "draggable" : "not_draggable",
+      "enabled" : true,
+      "is_handle_button_move_event" : true,
+      "layer" : 9,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "57.87546%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "16.5750921%+0 px", "100%+0px" ],
+      "visible" : true
+   },
+   "mail_del_icon" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : true,
+      "keep_ratio" : true,
+      "layer" : 13,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "propagate_alpha" : false,
+      "size" : [ 12.0, 12.0 ],
+      "texture" : "textures/ui/netease_announce/icon05@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 70, 70 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "mail_hint_label" : {
+      "alpha" : 1.0,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "right_middle",
+      "auto_expand" : false,
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 25,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "-808.53%+0.0px", 0.0 ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ 64.0, 16.0 ],
+      "text" : "当前没有邮件哦",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "mail_pnl" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "mail_bg@netease_announce_mailUi.mail_bg" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "mail_scroll" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "mail_btn@netease_announce_mailUi.mail_btn" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "0 px", "0px" ],
+      "size" : [ "100.0%+0 px", "100.0%+0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "mail_scroll_base@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 2,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 2,
+      "$box_nineslice_size" : [ 0.0, 2.0, 0.0, 2.0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "netease_announce_mailUi.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "netease_announce_mailUi.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/netease_announce/slide_bar",
+      "$scroll_box_touch_image_control" : "netease_announce_mailUi.scroll_box_image",
+      "$scroll_track_image_control" : "netease_announce_mailUi.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/netease_announce/slide_bar_bg",
+      "$scrolling_content" : "netease_announce_mailUi.pnl_scroll_mail",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 1,
+      "$track_nine_slice_left" : 1,
+      "$track_nine_slice_right" : 1,
+      "$track_nine_slice_top" : 1,
+      "$track_nineslice_size" : [ 1.0, 1.0, 1.0, 1.0 ],
+      "alpha" : 1.0,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -3.0, 0.0 ],
+      "propagate_alpha" : true,
+      "size" : [ "3433.02%+0.0px", "98.99%+0.0px" ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "mail_timeleft" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1.0, 0.0, 0.0 ],
+      "enabled" : true,
+      "font_scale_factor" : 0.93750,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 14,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "-10.43%+0.0px", "-23.52%+0.0px" ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ "15.625%+0 px", "4.62962948%+0px" ],
+      "text" : "剩余103小时",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "mail_title" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "enabled" : true,
+      "font_scale_factor" : 1.169999957084656,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 8,
+      "line_padding" : 0.0,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "0%+0 px", "10.0%+0px" ],
+      "propagate_alpha" : false,
+      "shadow" : false,
+      "size" : [ "45.787546%+0 px", "80.0%+0px" ],
+      "text" : "邮件标题1",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "mail_title_bg" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "mail_title@netease_announce_mailUi.mail_title" : {}
+         },
+         {
+            "mail_del_btn@netease_announce_mailUi.mail_del_btn" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 7,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 1,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 1, 1, 1, 1 ],
+      "offset" : [ "9.89%+0.0px", "-32.69%+0.0px" ],
+      "propagate_alpha" : false,
+      "size" : [ "56.875%+0 px", "9.259259%+0px" ],
+      "texture" : "textures/ui/netease_announce/panel01@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 16, 16 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "mail_pnl@netease_announce_mailUi.mail_pnl" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "namespace" : "netease_announce_mailUi",
+   "panel0" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "pnl_mail@netease_announce_mailUi.pnl_mail" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ 320.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "panel1" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "lb_content@netease_announce_mailUi.lb_content" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "100.0%+0.0px", "100.0%cm+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_mail" : {
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "pnl_scroll_mail@netease_announce_mailUi.pnl_scroll_mail" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ -3.0, 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "40.0%+0.0px", "90.91%+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_scroll_mail" : {
+      "alpha" : 1.0,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "controls" : [
+         {
+            "btn_mail@netease_announce_mailUi.btn_mail" : {}
+         }
+      ],
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "propagate_alpha" : false,
+      "size" : [ "99.76%+0.0px", 316.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pressed" : {
+      "alpha" : "$control_alpha",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "nineslice_size" : "$background_nineslice_size",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "nineslice_size" : "$box_nineslice_size",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_content@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 2,
+      "$box_nine_slice_left" : 2,
+      "$box_nine_slice_right" : 2,
+      "$box_nine_slice_top" : 2,
+      "$box_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : true,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "netease_announce_mailUi.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "netease_announce_mailUi.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/netease_announce/btn01@3x",
+      "$scroll_box_touch_image_control" : "netease_announce_mailUi.scroll_box_image",
+      "$scroll_track_image_control" : "netease_announce_mailUi.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/ScrollRail",
+      "$scrolling_content" : "netease_announce_mailUi.panel1",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 0,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 0,
+      "$track_nine_slice_top" : 0,
+      "$track_nineslice_size" : [ 0, 0, 0, 0 ],
+      "alpha" : 1.0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "clip_offset" : [ 0, 0 ],
+      "clips_children" : false,
+      "enabled" : true,
+      "layer" : 1,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "offset" : [ "15.0%+0.0px", "1.0%+0.0px" ],
+      "propagate_alpha" : true,
+      "size" : [ "66.0%+0.0px", "45.0%+0.0px" ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "nineslice_size" : "$track_nineslice_size",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   },
+   "separator" : {
+      "alpha" : 1.0,
+      "anchor_from" : "left_middle",
+      "anchor_to" : "left_middle",
+      "clip_direction" : "left",
+      "clip_offset" : [ 0, 0 ],
+      "clip_ratio" : 0.0,
+      "clips_children" : false,
+      "controls" : [
+         {
+            "mail_hint_label@netease_announce_mailUi.mail_hint_label" : {}
+         },
+         {
+            "mail_scroll_base@netease_announce_mailUi.mail_scroll_base" : {}
+         }
+      ],
+      "enabled" : true,
+      "fill" : false,
+      "grayscale" : false,
+      "is_new_nine_slice" : false,
+      "keep_ratio" : true,
+      "layer" : 28,
+      "max_size" : [ 0, 0 ],
+      "min_size" : [ 0, 0 ],
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 1,
+      "nine_slice_right" : 1,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 1, 0, 1, 0 ],
+      "offset" : [ "28.07%+0.0px", 0.0 ],
+      "propagate_alpha" : false,
+      "size" : [ "0.81%+0.0px", "100.0%+0.0px" ],
+      "texture" : "textures/ui/netease_announce/separator",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 3, 1 ],
+      "visible" : true
+   }
+}

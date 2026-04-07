@@ -1,0 +1,11 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "add_random_time_range" : opt
+    int "turn_range" : opt
+    float "min_change_direction_time" : opt
+}
+

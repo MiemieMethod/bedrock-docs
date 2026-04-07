@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Idv SuperStar",
+        "name": "IDV",
+        "uuid": "fa665b72-ae78-47cb-ac8e-618cc979e384",
+        "version": [0, 0, 1122]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "3feacf7e-780e-4ecf-9dee-1907a04d043e",
+            "version": [0, 0, 1]
+        }
+    ]
+}

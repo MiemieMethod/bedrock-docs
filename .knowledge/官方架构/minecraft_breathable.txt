@@ -1,0 +1,21 @@
+{
+    int "totalSupply|total_supply" : opt
+    int "suffocateTime|suffocate_time" : opt
+    float "inhaleTime|inhale_time" : opt
+    bool "breathesAir|breathes_air" : opt
+    bool "breathesWater|breathes_water" : opt
+    bool "breathesLava|breathes_lava" : opt
+    bool "breathesSolids|breathes_solids" : opt
+    bool "generatesBubbles|generates_bubbles" : opt
+     "breatheBlocks|breathe_blocks" : opt
+    array "breatheBlocks|breathe_blocks" : opt
+    {
+         "<any array element>" : opt
+    }
+     "nonBreatheBlocks|non_breathe_blocks" : opt
+    array "nonBreatheBlocks|non_breathe_blocks" : opt
+    {
+         "<any array element>" : opt
+    }
+}
+

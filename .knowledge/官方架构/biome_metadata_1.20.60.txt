@@ -1,0 +1,15 @@
+{
+    version "format_version"
+    object "minecraft:biome"[1,*]
+    {
+        object "description"[1,2]
+        {
+            string "identifier"
+        }
+        object "components"
+        {
+            arbitrary_biome_component "<identifier>:<identifier>" : opt
+        }
+    }
+}
+

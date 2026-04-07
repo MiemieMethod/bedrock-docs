@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By @MC",
+        "name": "CustomEffectsMod",
+        "uuid": "b90a56f1-d1ed-4d9c-b484-e4628c0dc57f",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By @MC",
+            "type": "data",
+            "uuid": "3920a67c-7a2e-40e4-8741-a446f7b45d1f",
+            "version": [0, 0, 1]
+        }
+    ]
+}

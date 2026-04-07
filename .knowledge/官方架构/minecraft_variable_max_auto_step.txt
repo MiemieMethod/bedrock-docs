@@ -1,0 +1,6 @@
+{
+    float "jump_prevented_value" : opt
+    float "controlled_value" : opt
+    float "base_value" : opt
+}
+

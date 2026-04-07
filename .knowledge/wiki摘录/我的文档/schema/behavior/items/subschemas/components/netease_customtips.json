@@ -1,0 +1,29 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "value",
+        "type": {
+          "name": "string"
+        }
+      }
+    ],
+    "edition": "china",
+    "version": [
+      {
+        "min": "1.10",
+        "max": "1.16.100",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      },
+      {
+        "min": "1.16.100",
+        "max": "1.17.0",
+        "min_exclusivity": true,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

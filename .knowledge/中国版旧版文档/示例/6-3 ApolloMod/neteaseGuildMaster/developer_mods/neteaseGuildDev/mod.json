@@ -1,0 +1,44 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseGuildDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.4",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.16.0.release20200116",
+
+  "_comment":"该服务器Mod隶属于“公会”插件",
+  "description":"Guild mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["Master"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment":"服务器公会上限",
+  "GuildLimitNum": 3,
+
+  "_comment":"自动解散活跃度",
+  "DismissActivity": 20,
+
+  "_comment":"自动解散天数",
+  "DismissDay": 7,
+
+  "_comment":"公会上限人数",
+  "GuildMaxPeopleNum": 50,
+
+  "_comment":"创建公会消耗的钻石数量",
+  "GuildConsumeDiamond": 10,
+
+  "_comment":"公会地图",
+  "map": {
+    "_comment":"地图对应的game的服务器type,以及对应的坐标范围，从pos1到pos2的坐标范围内属于公会的领地,tranPos是传送的坐标",
+    "gameA": [
+      { "pos1":[0, 70, 0], "pos2":[100,10000,100], "tranPos": [0, 70, 0]},
+      { "pos1":[100, 70, 100], "pos2":[200,10000,200], "tranPos": [200, 1000, 200]},
+      { "pos1":[0, 70, 100], "pos2":[100,10000,200], "tranPos": [0, 70 ,100]}
+    ]
+  }
+}

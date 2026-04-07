@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "300033528",
+    "x-format-version": "1.21.90",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:kinetic_weapon kinetic_effect_conditions",
+    "type": "object",
+    "properties": {
+        "max_duration": {
+            "type": "integer",
+            "default": -1
+        },
+        "min_relative_speed": {
+            "type": "number",
+            "default": 0.0,
+            "minimum": 0.0
+        },
+        "min_speed": {
+            "type": "number",
+            "default": 0.0,
+            "minimum": 0.0
+        }
+    }
+}

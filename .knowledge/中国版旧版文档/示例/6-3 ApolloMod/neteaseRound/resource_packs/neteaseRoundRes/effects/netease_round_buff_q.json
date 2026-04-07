@@ -1,0 +1,26 @@
+{
+    "frameeffect": {
+        "cylinder_enable": false,
+        "depth_test": true,
+        "face_camera": false,
+        "fade_distance": 0,
+        "fps": 13,
+        "loop": true,
+        "rot_speed": [
+            0,
+            0,
+            0
+        ],
+        "scale": [
+            1.1,
+            1.1,
+            1.1
+        ],
+        "shuffle": false,
+        "tex_repeat_num": [
+            1,
+            1
+        ],
+        "texture": "textures/sfxs/netease_round_buff_q"
+    }
+}

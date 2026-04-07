@@ -1,0 +1,1503 @@
+{
+  "close_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn05@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn05_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn05_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.46875,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 3,
+    "offset": [
+      "90.0%+0 px",
+      "6.666667%+0px"
+    ],
+    "size": [
+      "7.5%+0 px",
+      "5.0%+0px"
+    ],
+    "visible": true
+  },
+  "content_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.8035714285714285,
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      "7.5%+0 px",
+      "14.1666666%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "83.25%+0 px",
+      "55.5%+0px"
+    ],
+    "text": "",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "dialogue_board_1_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 34,
+    "nine_slice_left": 8,
+    "nine_slice_right": 8,
+    "nine_slice_top": 19,
+    "nineslice_size": [
+      8,
+      19,
+      8,
+      34
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "84.1666639%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/dialog_05@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "dialogue_board_2_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 60,
+    "nine_slice_left": 8,
+    "nine_slice_right": 8,
+    "nine_slice_top": 19,
+    "nineslice_size": [
+      8,
+      19,
+      8,
+      60
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/dialog_04@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": false,
+    "zip_folder": ""
+  },
+  "dialogue_board_3_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 93,
+    "nine_slice_left": 8,
+    "nine_slice_right": 8,
+    "nine_slice_top": 19,
+    "nineslice_size": [
+      8,
+      19,
+      8,
+      93
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/dialog_06@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": false,
+    "zip_folder": ""
+  },
+  "dialogue_board_panel": {
+    "anchor_from": "center",
+    "anchor_to": "left_middle",
+    "controls": [
+      {
+        "dialogue_board_3_bg@dialogueUI.dialogue_board_3_bg": {}
+      },
+      {
+        "dialogue_board_2_bg@dialogueUI.dialogue_board_2_bg": {}
+      },
+      {
+        "dialogue_board_1_bg@dialogueUI.dialogue_board_1_bg": {}
+      },
+      {
+        "content_text@dialogueUI.content_text": {}
+      },
+      {
+        "title_text@dialogueUI.title_text": {}
+      },
+      {
+        "option_1_btn@dialogueUI.option_1_btn": {}
+      },
+      {
+        "option_2_btn@dialogueUI.option_2_btn": {}
+      },
+      {
+        "option_3_btn@dialogueUI.option_3_btn": {}
+      },
+      {
+        "close_btn@dialogueUI.close_btn": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "16 px",
+      "0 px"
+    ],
+    "size": [
+      "106.4px",
+      "159.6px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "dialogue_panel": {
+    "controls": [
+      {
+        "quest_board_panel@dialogueUI.quest_board_panel": {}
+      },
+      {
+        "dialogue_board_panel@dialogueUI.dialogue_board_panel": {}
+      }
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "panel",
+    "clips_children": false
+  },
+  "fold_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn14@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn14_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn14_click@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.46875,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "57.2727263%+0 px",
+      "-36.6666675%+0px"
+    ],
+    "size": [
+      "14.5454541%+0 px",
+      "26.6666681%+0px"
+    ],
+    "visible": false
+  },
+  "main@common.base_screen": {
+    "$screen_content": "dialogueUI.dialogue_panel"
+  },
+  "namespace": "dialogueUI",
+  "option_1_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 2,
+    "$nine_slice_left": 2,
+    "$nine_slice_right": 2,
+    "$nine_slice_top": 2,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn09@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn12_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn12_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.375,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      },
+      {
+        "option_1_icon@dialogueUI.option_1_icon": {}
+      },
+      {
+        "option_1_text@dialogueUI.option_1_text": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "49.75%+0 px",
+      "72.5%+0px"
+    ],
+    "size": [
+      "92.0%+0 px",
+      "13.333334%+0px"
+    ],
+    "visible": true
+  },
+  "option_1_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-38.0434781%+0 px",
+      "1.24999993%+0px"
+    ],
+    "size": [
+      "16.3043484%+0 px",
+      "75.0%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_1_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.8035714285714285,
+    "font_size": "normal",
+    "layer": 6,
+    "offset": [
+      "13.5869563%+0 px",
+      "6.24999925%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "81.52174%+0 px",
+      "55.0%+0px"
+    ],
+    "text": "",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "option_2_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 2,
+    "$nine_slice_left": 2,
+    "$nine_slice_right": 2,
+    "$nine_slice_top": 2,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn09@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn12_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn12_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.375,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      },
+      {
+        "option_2_icon@dialogueUI.option_2_icon": {}
+      },
+      {
+        "option_2_text@dialogueUI.option_2_text": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "49.75%+0 px",
+      "87.5%+0px"
+    ],
+    "size": [
+      "92.0%+0 px",
+      "13.333334%+0px"
+    ],
+    "visible": false
+  },
+  "option_2_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-38.0434781%+0 px",
+      "1.24999993%+0px"
+    ],
+    "size": [
+      "16.3043484%+0 px",
+      "75.0%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_2_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.8035714285714285,
+    "font_size": "normal",
+    "layer": 6,
+    "offset": [
+      "13.5869563%+0 px",
+      "6.24999925%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "81.52174%+0 px",
+      "55.0%+0px"
+    ],
+    "text": "",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "option_3_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 2,
+    "$nine_slice_left": 2,
+    "$nine_slice_right": 2,
+    "$nine_slice_top": 2,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn09@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn12_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": false,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "nineslice_size": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "texture": "textures/ui/netease_quest/btn12_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.375,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      },
+      {
+        "option_3_icon@dialogueUI.option_3_icon": {}
+      },
+      {
+        "option_3_text@dialogueUI.option_3_text": {}
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      "49.75%+0 px",
+      "57.5%+0px"
+    ],
+    "size": [
+      "92.0%+0 px",
+      "13.333334%+0px"
+    ],
+    "visible": false
+  },
+  "option_3_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 5,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-38.0434781%+0 px",
+      "1.24999993%+0px"
+    ],
+    "size": [
+      "16.3043484%+0 px",
+      "75.0%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "option_3_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.8035714285714285,
+    "font_size": "normal",
+    "layer": 6,
+    "offset": [
+      "13.5869563%+0 px",
+      "6.24999925%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "81.52174%+0 px",
+      "55.0%+0px"
+    ],
+    "text": "",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "quest_1_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "quest_1_text@dialogueUI.quest_1_text": {}
+      },
+      {
+        "quest_1_status_icon@dialogueUI.quest_1_status_icon": {}
+      }
+    ],
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "-36.6666675%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "16.6666672%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "quest_1_status_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-41.81818%+0 px",
+      "4.0%+0px"
+    ],
+    "size": [
+      "9.090909%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "quest_1_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.0044642857142856,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "13.636364%+0 px",
+      "14.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100.90909%+0 px",
+      "100%+0px"
+    ],
+    "text": "击败黑道士（0/1）",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "quest_2_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "quest_2_text@dialogueUI.quest_2_text": {}
+      },
+      {
+        "quest_2_status_icon@dialogueUI.quest_2_status_icon": {}
+      }
+    ],
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "-18.3333337%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "16.6666672%+0px"
+    ],
+    "type": "panel",
+    "visible": false
+  },
+  "quest_2_status_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-41.81818%+0 px",
+      "4.0%+0px"
+    ],
+    "size": [
+      "9.090909%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "quest_2_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.0044642857142856,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "13.636364%+0 px",
+      "14.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100.90909%+0 px",
+      "100%+0px"
+    ],
+    "text": "击败黑道士（0/1）",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "quest_3_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "quest_3_text@dialogueUI.quest_3_text": {}
+      },
+      {
+        "quest_3_status_icon@dialogueUI.quest_3_status_icon": {}
+      }
+    ],
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "16.6666672%+0px"
+    ],
+    "type": "panel",
+    "visible": false
+  },
+  "quest_3_status_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-41.81818%+0 px",
+      "4.0%+0px"
+    ],
+    "size": [
+      "9.090909%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "quest_3_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.0044642857142856,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "13.636364%+0 px",
+      "14.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100.90909%+0 px",
+      "100%+0px"
+    ],
+    "text": "击败黑道士（0/1）",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "quest_4_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "quest_4_text@dialogueUI.quest_4_text": {}
+      },
+      {
+        "quest_4_status_icon@dialogueUI.quest_4_status_icon": {}
+      }
+    ],
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "18.3333337%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "16.6666672%+0px"
+    ],
+    "type": "panel",
+    "visible": false
+  },
+  "quest_4_status_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-41.81818%+0 px",
+      "4.0%+0px"
+    ],
+    "size": [
+      "9.090909%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "quest_4_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.0044642857142856,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "13.636364%+0 px",
+      "14.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100.90909%+0 px",
+      "100%+0px"
+    ],
+    "text": "击败黑道士（0/1）",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "quest_5_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "quest_5_text@dialogueUI.quest_5_text": {}
+      },
+      {
+        "quest_5_status_icon@dialogueUI.quest_5_status_icon": {}
+      }
+    ],
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "36.6666675%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "16.6666672%+0px"
+    ],
+    "type": "panel",
+    "visible": false
+  },
+  "quest_5_status_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "offset": [
+      "-41.81818%+0 px",
+      "4.0%+0px"
+    ],
+    "size": [
+      "9.090909%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/icon01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "quest_5_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.0044642857142856,
+    "font_size": "normal",
+    "layer": 2,
+    "offset": [
+      "13.636364%+0 px",
+      "14.0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100.90909%+0 px",
+      "100%+0px"
+    ],
+    "text": "击败黑道士（0/1）",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "quest_board_full_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 4,
+    "nine_slice_left": 4,
+    "nine_slice_right": 4,
+    "nine_slice_top": 4,
+    "nineslice_size": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/dialog_02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": false,
+    "zip_folder": ""
+  },
+  "quest_board_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "quest_board_full_bg@dialogueUI.quest_board_full_bg": {}
+      },
+      {
+        "unfold_btn@dialogueUI.unfold_btn": {}
+      },
+      {
+        "fold_btn@dialogueUI.fold_btn": {}
+      },
+      {
+        "quest_1_panel@dialogueUI.quest_1_panel": {}
+      },
+      {
+        "quest_2_panel@dialogueUI.quest_2_panel": {}
+      },
+      {
+        "quest_3_panel@dialogueUI.quest_3_panel": {}
+      },
+      {
+        "quest_4_panel@dialogueUI.quest_4_panel": {}
+      },
+      {
+        "quest_5_panel@dialogueUI.quest_5_panel": {}
+      },
+      {
+        "quest_board_single_bg@dialogueUI.quest_board_single_bg": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      "2 px",
+      "12 px"
+    ],
+    "size": [
+      "137.5 px",
+      "75.0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "quest_board_single_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 4,
+    "nine_slice_left": 4,
+    "nine_slice_right": 4,
+    "nine_slice_top": 4,
+    "nineslice_size": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "offset": [
+      "0%+0 px",
+      "-35.0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "30.0%+0px"
+    ],
+    "texture": "textures/ui/netease_quest/dialog_02@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "title_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.25882352941176473,
+      0.25882352941176473,
+      0.25882352941176473
+    ],
+    "font_scale_factor": 0.8035714285714285,
+    "font_size": "normal",
+    "layer": 3,
+    "offset": [
+      "5.0%+0 px",
+      "3.33333351%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "83.25%+0 px",
+      "7.333333%+0px"
+    ],
+    "text": "",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "unfold_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$labelText": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [],
+    "controls": [
+      {
+        "default": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 1,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn13@3x",
+          "type": "image"
+        }
+      },
+      {
+        "hover": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 2,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn13_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "pressed": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 3,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_quest/btn13_select@3x",
+          "type": "image"
+        }
+      },
+      {
+        "button_label": {
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "font_scale_factor": 0.46875,
+          "font_size": "normal",
+          "layer": 4,
+          "max_size": [
+            "100%",
+            "100%"
+          ],
+          "offset": "$text_offset",
+          "shadow": false,
+          "text": "",
+          "type": "label"
+        }
+      }
+    ],
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "57.2727263%+0 px",
+      "-36.6666675%+0px"
+    ],
+    "size": [
+      "14.5454541%+0 px",
+      "26.6666681%+0px"
+    ],
+    "visible": true
+  }
+}

@@ -1,0 +1,3412 @@
+{
+  "back@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/btn08",
+    "$hover_texture": "textures/ui/netease_danmu/btn08_click",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/btn08_click",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      },
+      {
+        "label0@danmuUI.label0": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 3,
+    "offset": [
+      "1.0%+0.0px",
+      "20.0%+0.0px"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      10.0,
+      10.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "board": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "title@danmuUI.title": {}
+      },
+      {
+        "close@danmuUI.close": {}
+      },
+      {
+        "single@danmuUI.single": {}
+      },
+      {
+        "double@danmuUI.double": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 10,
+    "nine_slice_buttom": 10,
+    "nine_slice_left": 8,
+    "nine_slice_right": 8,
+    "nine_slice_top": 19,
+    "nineslice_size": [
+      8,
+      19,
+      8,
+      10
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      160.0,
+      110.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel04",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "button_label": {
+    "color": "$label_color",
+    "font_scale_factor": "$label_font_scale_factor",
+    "font_size": "$label_font_size",
+    "font_type": "smooth",
+    "layer": "$label_layer",
+    "max_size": [
+      "100%",
+      "100%"
+    ],
+    "offset": "$label_offset",
+    "shadow": false,
+    "text": "$label_text",
+    "text_alignment": "center",
+    "type": "label"
+  },
+  "close@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/btn05",
+    "$hover_texture": "textures/ui/netease_danmu/btn06",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/btn06",
+    "$texture_layer": 2,
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "-5.0%+0.0px",
+      "6.0%+0.0px"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      7.0,
+      7.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$default_texture",
+    "type": "image"
+  },
+  "double": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "double_view@danmuUI.double_view": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      -1.0,
+      4.0
+    ],
+    "size": [
+      144.0,
+      80.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "double_color0@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color1@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color2@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color3@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color4@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color5@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color6@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color7@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color8@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color9@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_color_title": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      "2.0%+0.0px",
+      "3.6%+0.0px"
+    ],
+    "shadow": false,
+    "size": [
+      100,
+      100
+    ],
+    "text": "弹幕颜色",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "double_hr": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "2.0%+0.0px",
+      "14.0%+52.0px"
+    ],
+    "size": [
+      "91.0%+0.0px",
+      2.0
+    ],
+    "texture": "textures/ui/netease_danmu/slide_bar",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_icon0@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/img_empty",
+    "$hover_texture": "textures/ui/netease_danmu/img_empty",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/img_empty",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      },
+      {
+        "lock@danmuUI.lock": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "3.0%+0.0px",
+      "2.2%+76.0px"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      20.0,
+      20.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "double_icon_title": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      "2.0%+0.0px",
+      "3.6%+64.0px"
+    ],
+    "shadow": false,
+    "size": [
+      100,
+      100
+    ],
+    "text": "弹幕头像",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "double_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "double_color_title@danmuUI.double_color_title": {}
+      },
+      {
+        "double_slot0@danmuUI.double_slot0": {}
+      },
+      {
+        "double_slot1@danmuUI.double_slot1": {}
+      },
+      {
+        "double_slot2@danmuUI.double_slot2": {}
+      },
+      {
+        "double_slot3@danmuUI.double_slot3": {}
+      },
+      {
+        "double_slot4@danmuUI.double_slot4": {}
+      },
+      {
+        "double_slot5@danmuUI.double_slot5": {}
+      },
+      {
+        "double_slot6@danmuUI.double_slot6": {}
+      },
+      {
+        "double_slot7@danmuUI.double_slot7": {}
+      },
+      {
+        "double_slot8@danmuUI.double_slot8": {}
+      },
+      {
+        "double_slot9@danmuUI.double_slot9": {}
+      },
+      {
+        "double_hr@danmuUI.double_hr": {}
+      },
+      {
+        "double_icon_title@danmuUI.double_icon_title": {}
+      },
+      {
+        "double_icon0@danmuUI.double_icon0": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "double_slot0": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color0@danmuUI.double_color0": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "3.0%+0.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot1": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color1@danmuUI.double_color1": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "7.0%+20.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot2": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color2@danmuUI.double_color2": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "11.0%+40.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot3": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color3@danmuUI.double_color3": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "15.0%+60.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot4": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color4@danmuUI.double_color4": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "19.0%+80.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot5": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color5@danmuUI.double_color5": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "3.0%+0.0px",
+      "9.2%+32.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot6": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color6@danmuUI.double_color6": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "7.0%+20.0px",
+      "9.2%+32.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot7": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color7@danmuUI.double_color7": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "11.0%+40.0px",
+      "9.2%+32.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot8": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color8@danmuUI.double_color8": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "15.0%+60.0px",
+      "9.2%+32.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_slot9": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "double_color9@danmuUI.double_color9": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "19.0%+80.0px",
+      "9.2%+32.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "double_view@common.scrolling_panel": {
+    "$background_nine_slice_buttom": 0,
+    "$background_nine_slice_left": 0,
+    "$background_nine_slice_right": 0,
+    "$background_nine_slice_top": 0,
+    "$background_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$box_nine_slice_buttom": 0,
+    "$box_nine_slice_left": 0,
+    "$box_nine_slice_right": 0,
+    "$box_nine_slice_top": 0,
+    "$box_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$is_background_nine_slice": true,
+    "$is_box_nine_slice": false,
+    "$is_track_nine_slice": false,
+    "$scroll_background_image_control": "danmuUI.scroll_background_image",
+    "$scroll_background_texture": "textures/ui/netease_danmu/panel05",
+    "$scroll_box_mouse_image_control": "danmuUI.scroll_box_image",
+    "$scroll_box_texture": "textures/ui/newTouchScrollBox",
+    "$scroll_box_touch_image_control": "danmuUI.scroll_box_image",
+    "$scroll_track_image_control": "danmuUI.scroll_track_image",
+    "$scroll_track_texture": "textures/ui/ScrollRail",
+    "$scrolling_content": "danmuUI.double_panel",
+    "$show_background": true,
+    "$track_nine_slice_buttom": 0,
+    "$track_nine_slice_left": 0,
+    "$track_nine_slice_right": 0,
+    "$track_nine_slice_top": 0,
+    "$track_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "scroll_view",
+    "visible": true
+  },
+  "edit_box_background_default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$edit_box_default_texture",
+    "type": "image"
+  },
+  "edit_box_background_hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$edit_box_hover_texture",
+    "type": "image"
+  },
+  "image2": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "is_new_nine_slice": false,
+    "layer": 4,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      24.0,
+      24.0
+    ],
+    "texture": "textures/ui/netease_danmu/btn01_unuse",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "image3": {
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "is_new_nine_slice": false,
+    "layer": 4,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      44.0,
+      24.0
+    ],
+    "texture": "textures/ui/netease_danmu/btn01_unuse",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "lame@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/btn01_unuse",
+    "$hover_texture": "textures/ui/netease_danmu/btn01_unuse",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 1,
+    "$nine_slice_left": 1,
+    "$nine_slice_right": 1,
+    "$nine_slice_top": 1,
+    "$nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/btn01_unuse",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      },
+      {
+        "image2@danmuUI.image2": {}
+      },
+      {
+        "image3@danmuUI.image3": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 36,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "100.0%+0.0px",
+      24.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "footbar": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "controls": [
+      {
+        "settings@danmuUI.settings": {}
+      },
+      {
+        "input@danmuUI.input": {}
+      },
+      {
+        "send@danmuUI.send": {}
+      },
+      {
+        "lame@danmuUI.lame": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 13,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      22.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel01",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "headbar": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "back@danmuUI.back": {}
+      },
+      {
+        "switch@danmuUI.switch": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 2,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      22.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel01",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "highlight": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "is_new_nine_slice": true,
+    "layer": 10,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "texture": "textures/ui/netease_danmu/select_01",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$hover_texture",
+    "type": "image"
+  },
+  "image0": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "is_new_nine_slice": false,
+    "layer": 44,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "32.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "texture": "textures/ui/netease_danmu/icon13",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "image1": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "is_new_nine_slice": true,
+    "layer": 44,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "3.0%+0.0px",
+      0.0
+    ],
+    "size": [
+      17.0,
+      17.0
+    ],
+    "texture": "textures/ui/netease_danmu/icon14",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "input@common.text_edit_box": {
+    "$edit_box_default_texture": "textures/ui/edit_box_indent",
+    "$edit_box_hover_texture": "textures/ui/edit_box_indent_hover",
+    "$font_size": "normal",
+    "$is_new_nine_slice": false,
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$place_holder_text": " 弹幕长度不得超过20个字",
+    "$place_holder_text_color": [
+      0.50,
+      0.50,
+      0.50
+    ],
+    "$text_background_default": "danmuUI.edit_box_background_default",
+    "$text_background_hover": "danmuUI.edit_box_background_hover",
+    "$text_box_name": "%danmuUI.set_input_string",
+    "$text_box_text_color": [
+      1,
+      1,
+      1
+    ],
+    "$text_edit_box_content_binding_name": "#danmuUI.get_input_string",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "enabled_newline": false,
+    "layer": 19,
+    "max_length": 20,
+    "offset": [
+      24.0,
+      0.0
+    ],
+    "size": [
+      "100.0% - 24.0px",
+      24.0
+    ],
+    "type": "edit_box",
+    "visible": true
+  },
+  "label0": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 7,
+    "offset": [
+      "145.0%+0.0px",
+      "13.0%+0.0px"
+    ],
+    "shadow": false,
+    "size": [
+      100,
+      100
+    ],
+    "text": "退出",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "label1": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 12,
+    "offset": [
+      "-170.0%+0.0px",
+      "13.0%+0.0px"
+    ],
+    "shadow": false,
+    "size": [
+      100,
+      100
+    ],
+    "text": "弹幕  关",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "lock": {
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "is_new_nine_slice": true,
+    "layer": 20,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      3.0,
+      2.0
+    ],
+    "size": [
+      12.0,
+      12.0
+    ],
+    "texture": "textures/ui/netease_danmu/icon10",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": false
+  },
+  "main@common.base_screen": {
+    "$screen_content": "danmuUI.safe_panel"
+  },
+  "safe_panel": {
+    "controls": [
+      {
+        "op_panel@danmuUI.op_panel": {}
+      }
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "panel"
+  },
+  "mask@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/mask_bg",
+    "$hover_texture": "textures/ui/netease_danmu/mask_bg",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/mask_bg",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      },
+      {
+        "board@danmuUI.board": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 100,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "namespace": "danmuUI",
+  "op_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "headbar@danmuUI.headbar": {}
+      },
+      {
+        "footbar@danmuUI.footbar": {}
+      },
+      {
+        "mask@danmuUI.mask": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "pressed": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$pressed_texture",
+    "type": "image"
+  },
+  "scroll_background_image": {
+    "is_new_nine_slice": "$is_background_nine_slice",
+    "nine_slice_buttom": "$background_nine_slice_buttom",
+    "nine_slice_left": "$background_nine_slice_left",
+    "nine_slice_right": "$background_nine_slice_right",
+    "nine_slice_top": "$background_nine_slice_top",
+    "nineslice_size": "$background_nineslice_size",
+    "texture": "$scroll_background_texture",
+    "type": "image"
+  },
+  "scroll_box_image": {
+    "is_new_nine_slice": "$is_box_nine_slice",
+    "nine_slice_buttom": "$box_nine_slice_buttom",
+    "nine_slice_left": "$box_nine_slice_left",
+    "nine_slice_right": "$box_nine_slice_right",
+    "nine_slice_top": "$box_nine_slice_top",
+    "nineslice_size": "$box_nineslice_size",
+    "texture": "$scroll_box_texture",
+    "type": "image"
+  },
+  "scroll_track_image": {
+    "is_new_nine_slice": "$is_track_nine_slice",
+    "layer": 3,
+    "nine_slice_buttom": "$track_nine_slice_buttom",
+    "nine_slice_left": "$track_nine_slice_left",
+    "nine_slice_right": "$track_nine_slice_right",
+    "nine_slice_top": "$track_nine_slice_top",
+    "nineslice_size": "$track_nineslice_size",
+    "size": [
+      3,
+      "100%"
+    ],
+    "texture": "$scroll_track_texture",
+    "type": "image"
+  },
+  "send@common.button": {
+    "$default_texture": "textures/netease/common/button/default",
+    "$hover_texture": "textures/netease/common/button/hover",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      0.4901960784313725,
+      0.4901960784313725,
+      0.4901960784313725
+    ],
+    "$label_font_scale_factor": 0.8199999928474426,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      -30,
+      0
+    ],
+    "$label_text": "20",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/netease/common/button/pressed",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      },
+      {
+        "image0@danmuUI.image0": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 21,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      44.0,
+      24.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "settings@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/btn01",
+    "$hover_texture": "textures/ui/netease_danmu/btn01_hover",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 1,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/btn01_click",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      },
+      {
+        "image1@danmuUI.image1": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 14,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      24.0,
+      24.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "single": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "single_view@danmuUI.single_view": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      -1.0,
+      4.0
+    ],
+    "size": [
+      144.0,
+      80.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "single_color0@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "single_color1@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "single_color2@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "single_color3@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "single_color4@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$hover_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/text_icon_01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "80.0%+0.0px",
+      "80.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "single_color_title": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      "2.0%+0.0px",
+      "3.6%+0.0px"
+    ],
+    "shadow": false,
+    "size": [
+      100,
+      100
+    ],
+    "text": "弹幕颜色",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "single_hr": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "2.0%+0.0px",
+      "7.0%+32.0px"
+    ],
+    "size": [
+      "91.0%+0.0px",
+      2.0
+    ],
+    "texture": "textures/ui/netease_danmu/slide_bar",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "single_icon0@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/img_empty",
+    "$hover_texture": "textures/ui/netease_danmu/img_empty",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/img_empty",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      },
+      {
+        "lock@danmuUI.lock": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "3.0%+0.0px",
+      "2.2%+50.0px"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      20.0,
+      20.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "single_icon_title": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      "2.0%+0.0px",
+      "3.6%+38.0px"
+    ],
+    "shadow": false,
+    "size": [
+      100,
+      100
+    ],
+    "text": "弹幕头像",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "single_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "single_color_title@danmuUI.single_color_title": {}
+      },
+      {
+        "single_slot0@danmuUI.single_slot0": {}
+      },
+      {
+        "single_slot1@danmuUI.single_slot1": {}
+      },
+      {
+        "single_slot2@danmuUI.single_slot2": {}
+      },
+      {
+        "single_slot3@danmuUI.single_slot3": {}
+      },
+      {
+        "single_slot4@danmuUI.single_slot4": {}
+      },
+      {
+        "single_hr@danmuUI.single_hr": {}
+      },
+      {
+        "single_icon_title@danmuUI.single_icon_title": {}
+      },
+      {
+        "single_icon0@danmuUI.single_icon0": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "single_slot0": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "single_color0@danmuUI.single_color0": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "3.0%+0.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "single_slot1": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "single_color1@danmuUI.single_color1": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "7.0%+20.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "single_slot2": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "single_color2@danmuUI.single_color2": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "11.0%+40.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "single_slot3": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "single_color3@danmuUI.single_color3": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "15.0%+60.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "single_slot4": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "single_color4@danmuUI.single_color4": {}
+      },
+      {
+        "highlight@danmuUI.highlight": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "19.0%+80.0px",
+      "2.2%+12.0px"
+    ],
+    "size": [
+      20.0,
+      20.0
+    ],
+    "texture": "textures/ui/netease_danmu/panel02",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "single_view@common.scrolling_panel": {
+    "$background_nine_slice_buttom": 0,
+    "$background_nine_slice_left": 0,
+    "$background_nine_slice_right": 0,
+    "$background_nine_slice_top": 0,
+    "$background_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$box_nine_slice_buttom": 0,
+    "$box_nine_slice_left": 0,
+    "$box_nine_slice_right": 0,
+    "$box_nine_slice_top": 0,
+    "$box_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$is_background_nine_slice": true,
+    "$is_box_nine_slice": false,
+    "$is_track_nine_slice": false,
+    "$scroll_background_image_control": "danmuUI.scroll_background_image",
+    "$scroll_background_texture": "textures/ui/netease_danmu/panel05",
+    "$scroll_box_mouse_image_control": "danmuUI.scroll_box_image",
+    "$scroll_box_texture": "textures/ui/newTouchScrollBox",
+    "$scroll_box_touch_image_control": "danmuUI.scroll_box_image",
+    "$scroll_track_image_control": "danmuUI.scroll_track_image",
+    "$scroll_track_texture": "textures/ui/ScrollRail",
+    "$scrolling_content": "danmuUI.single_panel",
+    "$show_background": true,
+    "$track_nine_slice_buttom": 0,
+    "$track_nine_slice_left": 0,
+    "$track_nine_slice_right": 0,
+    "$track_nine_slice_top": 0,
+    "$track_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "scroll_view",
+    "visible": true
+  },
+  "switch@common.button": {
+    "$default_texture": "textures/ui/netease_danmu/switch_off",
+    "$hover_texture": "textures/ui/netease_danmu/switch_on",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%danmuUI.click",
+    "$pressed_texture": "textures/ui/netease_danmu/switch_on",
+    "$texture_layer": 2,
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "label1@danmuUI.label1": {}
+      },
+      {
+        "default@danmuUI.default": {}
+      },
+      {
+        "hover@danmuUI.hover": {}
+      },
+      {
+        "pressed@danmuUI.pressed": {}
+      },
+      {
+        "button_label@danmuUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 8,
+    "offset": [
+      "-3.0%+0.0px",
+      "18.0%+0.0px"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      20.0,
+      12.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "title": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      0.0,
+      "1.0%+0.0px"
+    ],
+    "shadow": false,
+    "size": [
+      100,
+      100
+    ],
+    "text": "弹幕设置",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  }
+}

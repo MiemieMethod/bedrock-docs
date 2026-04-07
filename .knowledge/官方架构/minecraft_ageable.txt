@@ -1,0 +1,27 @@
+{
+    float "duration" : opt
+     "interact_filters" : opt
+    object "feedItems|feed_items" : opt
+    {
+         "item" : opt
+        float "growth" : opt
+    }
+    string "feedItems|feed_items" : opt
+    array "feedItems|feed_items" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "item" : opt
+            float "growth" : opt
+        }
+        string "<any array element>" : opt
+    }
+     "drop_items" : opt
+    array "drop_items" : opt
+    {
+         "<any array element>" : opt
+    }
+     "grow_up" : opt
+     "transform_to_item" : opt
+}
+

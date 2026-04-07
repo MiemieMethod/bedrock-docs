@@ -1,0 +1,2764 @@
+{
+   "ExitButton@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "退出",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "bottom_left",
+      "anchor_to" : "bottom_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 43,
+      "offset" : [ 0, 0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 75.0, 50.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "RichTextDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "富文本演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ 182.0, 58.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "RichTextPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "label6@UIDemo.label6" : {}
+         },
+         {
+            "richTextPanel@rich_text.RichTextPanel": {}
+         }
+      ],
+      "layer" : 12,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "addBtn@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "+1",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 40,
+      "offset" : [ "35.0%+0.0px", "-16.0%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 50.0, 50.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button0@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "图片一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 18,
+      "offset" : [ "-18.18%+0.0px", "13.4%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 100, 50 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button1@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "图片二",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 19,
+      "offset" : [ "18.18%+0.0px", "13.4%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 100, 50 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button2@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "模型一",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 23,
+      "offset" : [ "-17.68%+0.0px", "12.4%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 100, 50 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button3@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "模型二",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 24,
+      "offset" : [ "17.68%+0.0px", "12.4%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 100, 50 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button4@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.289999961853027,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "-10",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 31,
+      "offset" : [ "-21.82%+0.0px", 0.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 50.0, 20.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button5@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "+10",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 32,
+      "offset" : [ "21.82%+0.0px", 0.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 50.0, 20.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "buttonDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "按钮控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 4,
+      "offset" : [ 94.0, 96.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button_label" : {
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "demoPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "labelTextPanel@UIDemo.labelTextPanel" : {}
+         },
+         {
+            "imageButtonPanel@UIDemo.imageButtonPanel" : {}
+         },
+         {
+            "dollPanel@UIDemo.dollPanel" : {}
+         },
+         {
+            "scrollViewPanel@UIDemo.scrollViewPanel" : {}
+         },
+         {
+            "progressBarPanel@UIDemo.progressBarPanel" : {}
+         },
+         {
+            "togglePanel@UIDemo.togglePanel" : {}
+         },
+         {
+            "gridPanel@UIDemo.gridPanel" : {}
+         },
+         {
+            "itemRendererPanel@UIDemo.itemRendererPanel" : {}
+         },
+         {
+            "inputPanelPanel@UIDemo.inputPanelPanel" : {}
+         },
+         {
+            "RichTextPanel@UIDemo.RichTextPanel" : {}
+         },
+         {
+            "ExitButton@UIDemo.ExitButton" : {}
+         },
+         {
+            "toggleRadioPanel@UIDemo.toggleRadioPanel": {}
+         },
+         {
+            "SliderPanel@UIDemo.SliderPanel" : {}
+         }
+      ],
+      "layer" : 11,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "dollButtonExplain" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 1.409999966621399,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 25,
+      "offset" : [ 0.0, "40.35%+0.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了纸娃娃控件和按钮控件的使用方法。点击按钮可以改变纸娃娃模型。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "dollDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "布娃娃控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 6,
+      "offset" : [ 5.0, 175.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "dollPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "button2@UIDemo.button2" : {}
+         },
+         {
+            "button3@UIDemo.button3" : {}
+         },
+         {
+            "dollButtonExplain@UIDemo.dollButtonExplain" : {}
+         },
+         {
+            "paper_doll0@UIDemo.paper_doll0" : {}
+         }
+      ],
+      "layer" : 21,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "edit_box_background_default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$edit_box_default_texture",
+      "type" : "image"
+   },
+   "edit_box_background_hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$edit_box_hover_texture",
+      "type" : "image"
+   },
+   "empty_progress_bar" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : 1,
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$progress_bar_empty_texture",
+      "type" : "image"
+   },
+   "filled_progress_bar" : {
+      "clip_direction" : "$clip_direction",
+      "clip_pixelperfect" : false,
+      "clip_ratio" : "$clip_ratio",
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : 2,
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$progress_bar_filled_texture",
+      "type" : "image"
+   },
+   "grid0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "collection_name" : "test_grid",
+      "grid_dimensions" : [ 2, 3 ],
+      "grid_item_template" : "UIDemo.scrollviewBtn",
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "size" : [ 200.0, 300.0 ],
+      "type" : "grid",
+      "visible" : true
+   },
+   "grid1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "collection_name" : "test_grid",
+      "grid_dimensions" : [ 2, 2 ],
+      "grid_item_template" : "UIDemo.scrollviewBtn",
+      "layer" : 39,
+      "offset" : [ 0, 0 ],
+      "size" : [ 200, 200 ],
+      "type" : "grid",
+      "visible" : true
+   },
+   "gridDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "网格控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 10,
+      "offset" : [ 94.0, 18.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "gridExplain" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 1.169999957084656,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 42,
+      "offset" : [ 7.0, 96.0 ],
+      "shadow" : false,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景演示了网格控件的使用方法。网格以其他screen的控件作为模板，复制m*n个相同的控件，并按顺序排列。-1表示减少一个网格内容，+1表示增加一个",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "gridItem" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0, 0 ],
+      "size" : [ 100, 100 ],
+      "texture" : "textures/netease/common/image/default",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 107, 107 ],
+      "visible" : true
+   },
+   "gridItemScreen" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "gridItem@UIDemo.gridItem" : {}
+         },
+         {
+            "gridLabel@UIDemo.gridLabel" : {}
+         },
+         {
+            "scrollviewBtn@UIDemo.scrollviewBtn" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "gridLabel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 0.09411764705882353, 1.0, 0.08235294117647059 ],
+      "font_scale_factor" : 1.289999961853027,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "offset" : [ 0, 0 ],
+      "shadow" : true,
+      "size" : [ 100, 100 ],
+      "text" : "TestGridLabel\n",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "gridPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "grid1@UIDemo.grid1" : {}
+         },
+         {
+            "addBtn@UIDemo.addBtn" : {}
+         },
+         {
+            "reduceBtn@UIDemo.reduceBtn" : {}
+         },
+         {
+            "gridExplain@UIDemo.gridExplain" : {}
+         }
+      ],
+      "layer" : 38,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "gridScreen" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "grid0@UIDemo.grid0" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "image0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 17,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "nineslice_size" : [ 0, 0, 0, 0 ],
+      "offset" : [ 0.0, "-15.35%+0.0px" ],
+      "size" : [ 100, 100 ],
+      "texture" : "textures/netease/common/image/default",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 107, 107 ],
+      "visible" : true
+   },
+   "image1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 1,
+      "nineslice_size" : [ 0, 1, 0, 0 ],
+      "offset" : [ 6.0, -15.0 ],
+      "size" : [ 198.0, 137.0 ],
+      "texture" : "textures/ui/aiming",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 1, 1 ],
+      "visible" : true
+   },
+   "imageButtonExplain" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.7599999904632568,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 20,
+      "offset" : [ 0.0, "42.35%+0.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了图片控件和按钮控件的使用方法。点击按钮可以改变图片。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "imageButtonPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "image0@UIDemo.image0" : {}
+         },
+         {
+            "button0@UIDemo.button0" : {}
+         },
+         {
+            "button1@UIDemo.button1" : {}
+         },
+         {
+            "imageButtonExplain@UIDemo.imageButtonExplain" : {}
+         }
+      ],
+      "layer" : 16,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "imageDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "图片控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "offset" : [ 5.0, 136.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "inputPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "scroll_view2@UIDemo.scroll_view2" : {}
+         },
+         {
+            "inputPanelCloseBtn@UIDemo.inputPanelCloseBtn" : {}
+         },
+         {
+            "image1@UIDemo.image1" : {}
+         }
+      ],
+      "layer" : 10,
+      "modal" : true,
+      "offset" : [ 0.0, 6.0 ],
+      "size" : [ 100.0, 99.0 ],
+      "type" : "input_panel",
+      "visible" : false
+   },
+   "inputPanelCloseBtn@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.049999952316284,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "关闭InputPanel",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ 0.0, -70.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 62.0, 30.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "inputPanelDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "InputPanel演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ 182.0, 18.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "inputPanelOpenBtn@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.049999952316284,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "打开InputPanel",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ 0.0, -114.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 62.0, 30.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "inputPanelPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "scroll_view1@UIDemo.scroll_view1" : {}
+         },
+         {
+            "inputPanelOpenBtn@UIDemo.inputPanelOpenBtn" : {}
+         },
+         {
+            "label4@UIDemo.label4" : {}
+         },
+         {
+            "inputPanel@UIDemo.inputPanel" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 1.0, 0.0 ],
+      "size" : [ 100, 100 ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "inputPanelScreen" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "panel0@UIDemo.panel0" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "itemRendererDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "道具渲染演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 9,
+      "offset" : [ 94.0, 175.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "itemRendererPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "woolRender@UIDemo.woolRender" : {}
+         },
+         {
+            "woodRender@UIDemo.woodRender" : {}
+         },
+         {
+            "label2@UIDemo.label2" : {}
+         },
+         {
+            "itemRendererWidget@UIDemo.itemRendererWidget" : {}
+         }
+      ],
+      "layer" : 21,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "itemRendererWidget" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 22,
+      "offset" : [ 0.0, "-21.6%+0.0px" ],
+      "renderer" : "inventory_item_renderer",
+      "size" : [ 100, 100 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "label0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8799999952316284,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 13,
+      "offset" : [ "0.76%+0.0px", "-16.47%+0.0px" ],
+      "shadow" : false,
+      "size" : [ 300.0, 100.0 ],
+      "text" : "Hello World!",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "label1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.7900000214576721,
+      "font_size" : "extra_large",
+      "font_type" : "smooth",
+      "layer" : 36,
+      "offset" : [ "0.73%+0.0px", "-18.79%+0.0px" ],
+      "shadow" : true,
+      "size" : [ 300.0, 100.0 ],
+      "text" : "开关测试文本",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "label2" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 1.409999966621399,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 25,
+      "offset" : [ 0.0, "40.35%+0.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了道具渲染控件和按钮控件的使用方法。点击按钮可以在场景中渲染出道具。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "label3" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "shadow" : false,
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "text" : "Hello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\nHello World!\n",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "label4" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 1.0,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 1,
+      "offset" : [ 15.0, 152.0 ],
+      "shadow" : false,
+      "size" : [ 213.0, 100.0 ],
+      "text" : "说明：打开modal属性为true的InputPanel后，只有InputPanel内的控件会响应用户操作（即关闭按钮以及里面的ScrollView），其余的控件都不会进行响应",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "label6" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 15,
+      "offset" : [ 0.0, "37.35%+-24.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了富文本控件。富文本控件提供了一个支持文本、图片、按钮、超链接、序列帧的复合文本控件。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "labelDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "文本控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 2,
+      "offset" : [ 5.0, 19.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "labelTextExplain" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 15,
+      "offset" : [ 0.0, "37.35%+0.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了文本输入框控件和文本控件的使用方法。在文本输入框中输入文本可以改变上方文本",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "labelTextPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "label0@UIDemo.label0" : {}
+         },
+         {
+            "text_edit_box0@UIDemo.text_edit_box0" : {}
+         },
+         {
+            "labelTextExplain@UIDemo.labelTextExplain" : {}
+         }
+      ],
+      "layer" : 12,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "welcomePanel@UIDemo.welcomePanel" : {}
+         },
+         {
+            "demoPanel@UIDemo.demoPanel" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "namespace" : "UIDemo",
+   "panel0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "label3@UIDemo.label3" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "size" : [ 100.0, 1000.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "paper_doll0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "animation" : "",
+      "layer" : 22,
+      "modelname" : "",
+      "modelsize" : 1.0,
+      "offset" : [ 0.0, "-21.6%+0.0px" ],
+      "renderer" : "paper_doll_renderer",
+      "size" : [ 100, 100 ],
+      "type" : "custom",
+      "visible" : true
+   },
+   "pressed" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "progressBarDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "进度条控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 8,
+      "offset" : [ 5.0, 97.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "progressBarExplain" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.7599999904632568,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 33,
+      "offset" : [ 0.0, "37.35%+0.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了进度条控件和按钮控件的使用方法。点击+10按钮增加10%的进度，-10按钮减少10%的进度。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "progressBarPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "progress_bar0@UIDemo.progress_bar0" : {}
+         },
+         {
+            "button4@UIDemo.button4" : {}
+         },
+         {
+            "button5@UIDemo.button5" : {}
+         },
+         {
+            "progressBarExplain@UIDemo.progressBarExplain" : {}
+         }
+      ],
+      "layer" : 29,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "progress_bar0" : {
+      "$clip_direction" : "left",
+      "$clip_ratio" : 0.0,
+      "$is_new_nine_slice" : false,
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$progress_bar_empty_texture" : "textures/ui/empty_progress_bar",
+      "$progress_bar_filled_texture" : "textures/ui/filled_progress_bar",
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "empty_progress_bar@UIDemo.empty_progress_bar" : {}
+         },
+         {
+            "filled_progress_bar@UIDemo.filled_progress_bar" : {}
+         }
+      ],
+      "layer" : 30,
+      "offset" : [ 0, 0 ],
+      "size" : [ 100, 10 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "reduceBtn@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "-1",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 41,
+      "offset" : [ "-35.0%+0.0px", "-16.0%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 50.0, 50.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "scrollViewDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "滚动列表演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 7,
+      "offset" : [ 5.0, 58.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "scrollViewExplain" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.7599999904632568,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 28,
+      "offset" : [ 0.0, "34.35%+0.0px" ],
+      "shadow" : true,
+      "size" : [ "60.0%+0.0px", 100.0 ],
+      "text" : "说明：该场景展示了滚动列表控件使用方法。滚动列表可以让被选为模板的控件在滚动列表中上下滑动",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "scrollViewPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "scroll_view0@UIDemo.scroll_view0" : {}
+         },
+         {
+            "scrollViewExplain@UIDemo.scrollViewExplain" : {}
+         }
+      ],
+      "layer" : 26,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "nineslice_size" : "$background_nineslice_size",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "nineslice_size" : "$box_nineslice_size",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "nineslice_size" : "$track_nineslice_size",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   },
+   "scroll_view0@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 0,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 0,
+      "$box_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "UIDemo.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "UIDemo.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/newTouchScrollBox",
+      "$scroll_box_touch_image_control" : "UIDemo.scroll_box_image",
+      "$scroll_track_image_control" : "UIDemo.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/ScrollRail",
+      "$scrolling_content" : "UIDemo.grid0",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 0,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 0,
+      "$track_nine_slice_top" : 0,
+      "$track_nineslice_size" : [ 0, 0, 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 27,
+      "offset" : [ 0.0, "-11.6%+0.0px" ],
+      "size" : [ 200.0, 131.0 ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_view1@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 0,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 0,
+      "$box_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "UIDemo.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "UIDemo.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/newTouchScrollBox",
+      "$scroll_box_touch_image_control" : "UIDemo.scroll_box_image",
+      "$scroll_track_image_control" : "UIDemo.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/ScrollRail",
+      "$scrolling_content" : "UIDemo.panel0",
+      "$show_background" : true,
+      "$track_nine_slice_buttom" : 0,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 0,
+      "$track_nine_slice_top" : 0,
+      "$track_nineslice_size" : [ 0, 0, 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 1,
+      "offset" : [ 3.0, 1.0 ],
+      "size" : [ 327.0, 202.0 ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_view2@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 0,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 0,
+      "$box_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "UIDemo.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "UIDemo.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/newTouchScrollBox",
+      "$scroll_box_touch_image_control" : "UIDemo.scroll_box_image",
+      "$scroll_track_image_control" : "UIDemo.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/ScrollRail",
+      "$scrolling_content" : "UIDemo.panel0",
+      "$show_background" : true,
+      "$track_nine_slice_buttom" : 0,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 0,
+      "$track_nine_slice_top" : 0,
+      "$track_nineslice_size" : [ 0, 0, 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 1,
+      "offset" : [ 5.0, -1.0 ],
+      "size" : [ 199.0, 112.0 ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scrollviewBtn@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemoScreen.onScrollViewBtnClick",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 100, 50 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "switch_toggle0@common_toggles.switch_toggle_collection" : {
+      "$default_texture" : "textures/ui/toggle_off",
+      "$hover_texture" : "textures/ui/toggle_on",
+      "$pressed_no_hover_texture" : "textures/ui/toggle_on_hover",
+      "$pressed_texture" : "textures/ui/toggle_off_hover",
+      "$toggle_name" : "#UIDemoScreen.OnDemoToggleChangeCallback",
+      "$toggle_state_binding_name" : "#UIDemoScreen.ReturnToggleState",
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         },
+         {
+            "binding_condition" : "always_when_visible",
+            "binding_name" : "#tt.ss",
+            "binding_name_override" : "#toggle_state"
+         }
+      ],
+      "layer" : 35,
+      "offset" : [ 0, 0 ],
+      "size" : [ 100, 100 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "textEditorDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "文本输入框演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 5,
+      "offset" : [ 94.0, 58.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "text_edit_box0@common.text_edit_box" : {
+      "$edit_box_default_texture" : "textures/ui/edit_box_indent",
+      "$edit_box_hover_texture" : "textures/ui/edit_box_indent_hover",
+      "$font_size" : "normal",
+      "$is_new_nine_slice" : false,
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$place_holder_text" : "请输入内容",
+      "$place_holder_text_color" : [ 0.50, 0.50, 0.50 ],
+      "$text_background_default" : "UIDemo.edit_box_background_default",
+      "$text_background_hover" : "UIDemo.edit_box_background_hover",
+      "$text_box_name" : "%UIDemoScreen.OnDemoLabelTextOnTextEditCallback",
+      "$text_box_text_color" : [ 1, 1, 1 ],
+      "$text_edit_box_content_binding_name" : "#UIDemoScreen.ReturnTextString",
+      "$text_edit_box_label_anchor_point" : "right_middle",
+      "$text_edit_box_label_min_size" : [ "100%", 0 ],
+      "$text_edit_box_label_size" : [ "default", "default" ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "enabled_newline" : false,
+      "layer" : 14,
+      "max_length" : 512,
+      "offset" : [ 0, 0 ],
+      "size" : [ 300, 27 ],
+      "type" : "edit_box",
+      "visible" : true
+   },
+   "toggleDemo@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "开关控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 9,
+      "offset" : [ 94.0, 136.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "toggleExplain" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.7599999904632568,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 37,
+      "offset" : [ 0.0, "36.35%+0.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了开关控件的使用方法。开关开可以显示“开关测试文本”文本，开关关可隐藏。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "togglePanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "label1@UIDemo.label1" : {}
+         },
+         {
+            "toggleExplain@UIDemo.toggleExplain" : {}
+         },
+         {
+            "switch_toggle0@UIDemo.switch_toggle0" : {}
+         }
+      ],
+      "layer" : 34,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "pushScreenBtn@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "pushscreen",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ 182.0, 96.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 90.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "welcomePanel" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "controls" : [
+         {
+            "labelDemo@UIDemo.labelDemo" : {}
+         },
+         {
+            "imageDemo@UIDemo.imageDemo" : {}
+         },
+         {
+            "buttonDemo@UIDemo.buttonDemo" : {}
+         },
+         {
+            "textEditorDemo@UIDemo.textEditorDemo" : {}
+         },
+         {
+            "dollDemo@UIDemo.dollDemo" : {}
+         },
+         {
+            "scrollViewDemo@UIDemo.scrollViewDemo" : {}
+         },
+         {
+            "progressBarDemo@UIDemo.progressBarDemo" : {}
+         },
+         {
+            "toggleDemo@UIDemo.toggleDemo" : {}
+         },
+         {
+            "gridDemo@UIDemo.gridDemo" : {}
+         },
+         {
+            "itemRendererDemo@UIDemo.itemRendererDemo" : {}
+         },
+         {
+            "inputPanelDemo@UIDemo.inputPanelDemo" : {}
+         },
+         {
+            "RichTextDemo@UIDemo.RichTextDemo" : {}
+         },
+         {
+            "pushScreenBtn@UIDemo.pushScreenBtn": {}
+         },
+         {
+            "toggleRadioBtn@UIDemo.toggleRadioBtn": {}
+         },
+         {
+            "sliderBtn@UIDemo.sliderBtn": {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "woodRender@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "木头",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 24,
+      "offset" : [ "17.68%+0.0px", "12.4%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 100, 50 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "woolRender@common.button" : {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "羊毛",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 23,
+      "offset" : [ "-17.68%+0.0px", "12.4%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 100, 50 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "toggleRadioBtn@common.button": {
+      "$default_texture": "textures/ui/btn_light_default",
+      "$hover_texture": "textures/ui/btn_hover",
+      "$pressed_texture": "textures/ui/btn_pressed",
+      "$locked_texture" : "textures/ui/btn_unuse",
+      "$nineslice_size": 2,
+      "$default_text_color": [ 0.26, 0.26, 0.26 ],
+      "$pressed_text_color": [ 1, 1, 1 ],
+      "$hover_text_color": [ 1, 1, 1 ],
+      "$locked_text_color": [ 0.69, 0.69, 0.69 ],
+      "$label_text": "toggle分页示例",
+      "$pressed_button_name": "",
+      "$texture_layer": 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "controls": [
+         {
+            "default@UIDemoCommon.default": {}
+         },
+         {
+            "hover@UIDemoCommon.hover": {}
+         },
+         {
+            "pressed@UIDemoCommon.pressed": {}
+         },
+         {
+            "locked@UIDemoCommon.locked": {}
+         }
+      ],
+      "default_control": "default",
+      "hover_control": "hover",
+      "pressed_control": "pressed",
+      "locked_control" : "locked",
+      "layer": 1,
+      "offset": [ 188, 136 ],
+      "size" : [ 76.0, 34.0 ],
+      "type": "button",
+      "visible": true
+  },
+  "toggleRadioPanel": {
+      "anchor_from": "left_middle",
+      "anchor_to": "left_middle",
+      "type" : "panel",
+      "size" : [ 90, "default" ],
+      "visible":false,
+      "controls" :[
+         {"testToggleGroup@UIDemo.testToggleGroup": {}}
+      ]
+  },
+  "testToggleGroup": {
+      "type": "stack_panel",
+      "$default_selector_toggle_index": 0,
+      "controls": [
+         {
+            "@UIDemo.tab_toggle_button": {
+               "$buttonLabel": "文本控件演示",
+               "$toggle_group_forced_index": 0
+            }
+         },
+         {
+            "@UIDemo.tab_toggle_button": {
+               "$buttonLabel": "图片控件演示",
+               "$toggle_group_forced_index": 1
+            }
+         },
+         {
+            "@UIDemo.tab_toggle_button": {
+               "$buttonLabel": "布娃娃控件演示",
+               "$toggle_group_forced_index": 2
+            }
+         }
+      ]
+   },
+   "tab_toggle_button": {
+      "type": "panel",
+      "anchor_from": "top_left",
+      "anchor_to": "top_left",
+      "size": [ "100%", "30px" ],
+      "controls": [
+         {
+            "tab_toggle_button@common_toggles.light_ui_toggle": {
+               "anchor_from": "top_left",
+               "anchor_to": "top_left",
+               "size": [ "100%", "30px" ],
+               "$button_type_panel": "UIDemo.toggle_button_control",
+               "$checked_control": "common_toggles.toggle_unchecked",
+               "$radio_toggle_group": true,
+               "$toggle_name": "#toggle_radio_tab",
+               "$toggle_group_default_selected": "$default_selector_toggle_index"
+            }
+         }
+      ]
+   },
+   "toggle_button_control": {
+      "type": "panel",
+      "layer": 2,
+      "controls": [
+         {
+            "tab_button_text": {
+               "type": "label",
+               "$buttonLabel|default": "测试",
+               "color": [ 0, 0, 0 ],
+               "text": "$buttonLabel",
+               "layer": 3
+            }
+         }
+      ]
+   },
+   "sliderBtn@common.button": {
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.169999957084656,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "滑动条控件演示",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%UIDemo.click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@UIDemo.default" : {}
+         },
+         {
+            "hover@UIDemo.hover" : {}
+         },
+         {
+            "pressed@UIDemo.pressed" : {}
+         },
+         {
+            "button_label@UIDemo.button_label" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 4,
+      "offset" : [ 188.0, 175.0 ],
+      "pressed_control" : "pressed",
+      "size" : [ 76.0, 34.0 ],
+      "type" : "button",
+      "visible" : true
+  },
+   "SliderPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "label7@UIDemo.label7" : {}
+         },
+         {
+            "slider0@UIDemo.slider0": {}
+         },
+         {
+            "slider1@UIDemo.slider1": {}
+         },
+         {
+            "slider_label0@UIDemo.slider_label0": {}
+         },
+         {
+            "slider_label1@UIDemo.slider_label1": {}
+         }
+      ],
+      "layer" : 12,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : false
+   },
+   "label7" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 15,
+      "offset" : [ 0.0, "37.35%+-24.0px" ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "说明：该场景展示了滑动条控件，可使用滑动条控件进行一定范围内的属性设置。",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "slider_label0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 15,
+      "offset" : [ -70, -70 ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "5.0",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "slider_label1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "large",
+      "font_type" : "smooth",
+      "layer" : 15,
+      "offset" : [ 70, -70 ],
+      "shadow" : true,
+      "size" : [ 249.60, 100.0 ],
+      "text" : "0.5",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "slider0@common.slider": {
+      "$slider_tts_text_value": "#netease_tts_text_value",
+      "$slider_name": "#UIDemoScreen.OnAbsSliderChange",
+      "$slider_value_binding_name":"#UIDemoScreen.ReturnAbsSliderValue",
+      "$slider_steps_binding_name": "#UIDemoScreen.ReturnAbsSliderStep",
+      "$slider_direction": "vertical",
+      "$progress_default_clip_direction": "up",
+      "$progress_hover_clip_direction": "up",
+      "$slider_box_size": [ 10, 16 ],
+      "size": [ 10, 100 ],
+      "$slider_step_factory_control_ids": {
+         "slider_step": "@common.slider_step",
+         "slider_step_hover": "@common.slider_step_hover",
+         "slider_step_progress": "@common.slider_step_progress",
+         "slider_step_progress_hover": "@common.slider_step_progress_hover"
+      },
+      "offset": [ -70, -50 ]
+   },
+   "spilt0@common.slider_step": {
+      "size": [ 6, 2 ]
+   },
+   "spilt0Over@common.slider_step_hover": {
+      "size": [ 6, 2 ]
+   },
+   "spilt0Progress@common.slider_step_progress": {
+      "size": [ 6, 2 ]
+   },
+   "spilt0ProgressHover@common.slider_step_progress_hover": {
+      "size": [ 6, 2 ]
+   },
+   "slider1@common.slider": {
+      "$slider_tts_text_value": "#netease_tts_text_value",
+      "$slider_name": "#UIDemoScreen.OnSliderChange",
+      "$slider_value_binding_name":"#UIDemoScreen.ReturnSliderValue",
+      "$slider_steps_binding_name": "#UIDemoScreen.ReturnSliderStep",
+      "$background_default_control": "UIDemo.SfxItem",
+      "$background_hover_control": "UIDemo.SfxItem",
+      "$slider_box_size": [ 10, 35 ],
+      "size": [ 100, 32 ],
+      "offset": [ 70, -50 ]
+   },
+   "img_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 36,
+    "frame_step": 1,
+    "fps": 10,
+    "reversible": false,
+    "easing": "linear"
+  },
+   "SfxItem" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "texture" : "textures/ui/my_eating_apple",
+      "type" : "image",
+      "uv" : "@UIDemo.img_animation",
+	  "disable_anim_fast_forward": true,
+      "size": [ 100, 32 ],
+      "uv_size" : [ 64, 64 ],
+      "visible" : true
+   }
+},

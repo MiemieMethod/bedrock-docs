@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "portalGate",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "portalGateDemo:gateProtal": {
+      "textures": "textures/blocks/gateProtal"
+    },
+    "portalGateDemo:gateProtalBack": {
+      "textures": "textures/blocks/gateProtalBack"
+    }
+  }
+}

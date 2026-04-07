@@ -1,0 +1,33 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+
+  "customcrop:customcrop_stage0": {
+    "netease_model": "customcrop:customcrop_stage0",
+    "sound": "grass"
+  },
+  
+  "customcrop:customcrop_stage1": {
+    "netease_model": "customcrop:customcrop_stage1",
+    "sound": "grass"
+  },
+  "customcrop:customcrop_stage2": {
+    "netease_model": "customcrop:customcrop_stage2",
+    "sound": "grass"
+  },
+  "customcrop:customcrop_1_stage0": {
+    "netease_model": "customcrop:customcrop_1_stage0",
+    "sound": "grass"
+  },
+  "customcrop:customcrop_1_stage1": {
+    "netease_model": "customcrop:customcrop_1_stage1",
+    "sound": "grass"
+  },
+  "customcrop:customcrop_1_stage2": {
+    "netease_model": "customcrop:customcrop_1_stage2",
+    "sound": "grass"
+  }
+}

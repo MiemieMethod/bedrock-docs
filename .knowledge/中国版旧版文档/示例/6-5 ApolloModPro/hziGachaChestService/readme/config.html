@@ -1,0 +1,1449 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2, mkdocs-material-7.1.7">
+    
+    
+      
+        <title>配置 - HziGachaChest | 抽奖插件</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.f1a3b89f.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modjson" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="HziGachaChest | 抽奖插件" class="md-header__button md-logo" aria-label="HziGachaChest | 抽奖插件" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5A2.5 2.5 0 0 0 10.5 1 2.5 2.5 0 0 0 8 3.5V5H4a2 2 0 0 0-2 2v3.8h1.5c1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7H2V20a2 2 0 0 0 2 2h3.8v-1.5c0-1.5 1.2-2.7 2.7-2.7 1.5 0 2.7 1.2 2.7 2.7V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HziGachaChest | 抽奖插件
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              配置
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="index.html" class="md-tabs__link">
+      开始
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="api.html" class="md-tabs__link">
+        二次开发
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="config.html" class="md-tabs__link md-tabs__link--active">
+      配置
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="operation.html" class="md-tabs__link">
+      运营指令
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="HziGachaChest | 抽奖插件" class="md-nav__button md-logo" aria-label="HziGachaChest | 抽奖插件" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5A2.5 2.5 0 0 0 10.5 1 2.5 2.5 0 0 0 8 3.5V5H4a2 2 0 0 0-2 2v3.8h1.5c1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7H2V20a2 2 0 0 0 2 2h3.8v-1.5c0-1.5 1.2-2.7 2.7-2.7 1.5 0 2.7 1.2 2.7 2.7V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    HziGachaChest | 抽奖插件
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        开始
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        二次开发
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="二次开发" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          二次开发
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="api.html" class="md-nav__link">
+        接口
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="event.html" class="md-nav__link">
+        事件
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="error.html" class="md-nav__link">
+        错误码
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          配置
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="config.html" class="md-nav__link md-nav__link--active">
+        配置
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mysql_pool_size" class="md-nav__link">
+    mysql_pool_size
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#card_pool" class="md-nav__link">
+    card_pool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifier" class="md-nav__link">
+    identifier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neteasemenus" class="md-nav__link">
+    neteaseMenus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#righttitle" class="md-nav__link">
+    rightTitle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lefttitle" class="md-nav__link">
+    leftTitle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#startmsg" class="md-nav__link">
+    startMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#greetingsmsg" class="md-nav__link">
+    greetingsMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openmsg" class="md-nav__link">
+    openMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servertype" class="md-nav__link">
+    serverType
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable" class="md-nav__link">
+    enable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enabletime" class="md-nav__link">
+    enableTime
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#costcurrency" class="md-nav__link">
+    costCurrency
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#costitem" class="md-nav__link">
+    costItem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notenoughmsg" class="md-nav__link">
+    notEnoughMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#displayframe" class="md-nav__link">
+    displayFrame
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#currencyicon" class="md-nav__link">
+    currencyIcon
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#winaudioname" class="md-nav__link">
+    winAudioName
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selectedaudioname" class="md-nav__link">
+    selectedAudioName
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speedstepsize" class="md-nav__link">
+    speedStepSize
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maxroundspeed" class="md-nav__link">
+    maxRoundSpeed
+  </a>
+  
+</li>
+      
+<li class="md-nav__item">
+<a href="#trystopspeed" class="md-nav__link">
+tryStopSpeed
+</a>
+
+</li>
+
+<li class="md-nav__item">
+<a href="#animationstopstaytime" class="md-nav__link">
+animationStopStayTime
+</a>
+
+</li>
+
+<li class="md-nav__item">
+<a href="#animationstopclose" class="md-nav__link">
+  animationStopClose
+</a>
+
+</li>
+
+<li class="md-nav__item">
+<a href="#griddimension" class="md-nav__link">
+gridDimension
+</a>
+
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#centerslot" class="md-nav__link">
+    centerSlot
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#centerdefault" class="md-nav__link">
+    centerDefault
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adornmentslot" class="md-nav__link">
+    adornmentSlot
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adornmentitem" class="md-nav__link">
+    adornmentItem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prizelist" class="md-nav__link">
+    prizeList
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="operation.html" class="md-nav__link">
+        运营指令
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mysql_pool_size" class="md-nav__link">
+    mysql_pool_size
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#card_pool" class="md-nav__link">
+    card_pool
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifier" class="md-nav__link">
+    identifier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#neteasemenus" class="md-nav__link">
+    neteaseMenus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#righttitle" class="md-nav__link">
+    rightTitle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lefttitle" class="md-nav__link">
+    leftTitle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#startmsg" class="md-nav__link">
+    startMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#greetingsmsg" class="md-nav__link">
+    greetingsMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openmsg" class="md-nav__link">
+    openMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servertype" class="md-nav__link">
+    serverType
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable" class="md-nav__link">
+    enable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enabletime" class="md-nav__link">
+    enableTime
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#costcurrency" class="md-nav__link">
+    costCurrency
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#costitem" class="md-nav__link">
+    costItem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notenoughmsg" class="md-nav__link">
+    notEnoughMsg
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#displayframe" class="md-nav__link">
+    displayFrame
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#currencyicon" class="md-nav__link">
+    currencyIcon
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#winaudioname" class="md-nav__link">
+    winAudioName
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selectedaudioname" class="md-nav__link">
+    selectedAudioName
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speedstepsize" class="md-nav__link">
+    speedStepSize
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maxroundspeed" class="md-nav__link">
+    maxRoundSpeed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trystopspeed" class="md-nav__link">
+    tryStopSpeed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#animationstopstaytime" class="md-nav__link">
+    animationStopStayTime
+  </a>
+  
+</li>
+      
+      
+        <li class="md-nav__item">
+  <a href="#animationstopclose" class="md-nav__link">
+    animationStopClose
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#griddimension" class="md-nav__link">
+    gridDimension
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#centerslot" class="md-nav__link">
+    centerSlot
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#centerdefault" class="md-nav__link">
+    centerDefault
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adornmentslot" class="md-nav__link">
+    adornmentSlot
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adornmentitem" class="md-nav__link">
+    adornmentItem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prizelist" class="md-nav__link">
+    prizeList
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="modjson"><strong>mod.json 的配置</strong></h1>
+<p>这一章深入讲解如何自定义奖池</p>
+<details class="warning" open="open"><summary>警告</summary><p>注意，所有配置的读取逻辑都以 <strong>服主正确填写格式 </strong> 为前提</p>
+<p>请认真参考文档中的格式，漏一个空格或字母都有可能导致无法正常运行，且不会有明确的error日志</p>
+</details>
+<h2 id="mysql_pool_size"><strong>mysql_pool_size</strong></h2>
+<ul>
+<li>含义：功能服的数据库连接池大小，请根据实际需求和性能调整</li>
+<li>类型：int</li>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;mysql_pool_size&quot;: 20
+</code></pre>
+<h2 id="card_pool"><strong>card_pool</strong></h2>
+<ul>
+<li>含义：奖池列表</li>
+<li>类型：list(dict(一个奖池数据))</li>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">{
+    ...
+
+    &quot;card_pool&quot;: [
+        {
+            //奖池1数据
+        },
+        {
+            //奖池2数据
+        }
+    ]
+    ...
+}
+</code></pre>
+<h2 id="identifier"><strong>identifier</strong></h2>
+<ul>
+<li>含义：奖池的标识符，参照物品/方块标识符规范</li>
+<li>类型：str</li>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;identifier&quot;: &quot;hzi:test_pool&quot;
+</code></pre>
+<h2 id="neteasemenus"><strong>neteaseMenus</strong></h2>
+<ul>
+<li>含义：官方菜单插件的联动按钮名称列表</li>
+<li>类型：list(str)</li>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">// 启用
+&quot;neteaseMenus&quot;: [&quot;GachaChest&quot;, &quot;Button2&quot;],
+// 不启用
+&quot;neteaseMenus&quot;: null,
+</code></pre>
+<h2 id="righttitle"><strong>rightTitle</strong></h2>
+<ul>
+<li>
+<p>含义：界面右边标题</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609151838356.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;rightTitle&quot;: &quot;抽 奖&quot;
+</code></pre>
+<h2 id="lefttitle"><strong>leftTitle</strong></h2>
+<ul>
+<li>
+<p>含义：界面左边标题</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609152003779.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;leftTitle&quot;: &quot;奖 池&quot;
+</code></pre>
+<h2 id="startmsg"><strong>startMsg</strong></h2>
+<ul>
+<li>
+<p>含义：开始按钮文案，建议标注消耗货币/物品</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609152132494.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;startMsg&quot;: &quot;点击抽奖一次, 消耗10&quot;
+</code></pre>
+<h2 id="greetingsmsg"><strong>greetingsMsg</strong></h2>
+<ul>
+<li>
+<p>含义：点击开始抽奖后按钮锁死文案</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609152237192.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;greetingsMsg&quot;: &quot;天使降临中...q(≧▽≦q)&quot;
+</code></pre>
+<h2 id="openmsg"><strong>openMsg</strong></h2>
+<ul>
+<li>
+<p>含义：打开奖池后调用 <code>neteaseAlert</code> 弹出的提示，如果没有就不会弹</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609152357706.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">// 弹出
+&quot;openMsg&quot;: &quot;wow!恭喜发现宝藏!&quot;
+// 不弹出
+&quot;openMsg&quot;: null
+</code></pre>
+<h2 id="servertype"><strong>serverType</strong></h2>
+<ul>
+<li>
+<p>含义：热更时功能服下发数据的类型列表，建议写上所有实装此奖池的服务器类型，如果此条配置不正确会导致这个<a href="operation.html#hzigacha-reprocess-order">运营指令</a>失败</p>
+</li>
+<li>
+<p>类型：list(str)</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">&quot;serverType&quot;: [&quot;lobby&quot;]
+</code></pre>
+<h2 id="enable"><strong>enable</strong></h2>
+<ul>
+<li>
+<p>含义：启用此奖池，可以用运营指令临时更改此状态</p>
+</li>
+<li>
+<p>类型：bool</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">// 启用
+&quot;enable&quot;: true
+// 不启用
+&quot;enable&quot;: false
+</code></pre>
+<h2 id="enabletime"><strong>enableTime</strong></h2>
+<ul>
+<li>
+<p>含义：设定此奖池为限时活动奖池，严格按照示例格式输入开始时间到结束时间</p>
+</li>
+<li>
+<p>类型：list</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">// 是限时活动奖池
+&quot;enableTime&quot;: [&quot;2020-06-08 00:00:00&quot;, &quot;2021-06-30 00:00:00&quot;]
+// 一直开放
+&quot;enableTime&quot;: []
+</code></pre>
+<h2 id="costcurrency"><strong>costCurrency</strong></h2>
+<ul>
+<li>
+<p>含义：抽奖1次耗费 <code>neteaseTrade</code> 中的货币，可以设置多个，与 <code>costItem</code> 不冲突但优先级比 <code>costItem</code> 高</p>
+</li>
+<li>
+<p>类型：list(str)</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">// 假设抽一次扣除名为RMB的货币10个
+&quot;costCurrency&quot;: [&quot;RMB*10&quot;]
+// 假设抽一次扣除名为RMB的货币10个, 同时扣除USD货币2个
+&quot;costCurrency&quot;: [&quot;RMB*10&quot;, &quot;USD*2&quot;]
+// 假设抽此奖池不耗费任何货币
+&quot;costCurrency&quot;: []
+</code></pre>
+<h2 id="costitem"><strong>costItem</strong></h2>
+<ul>
+<li>含义：抽奖1次耗费背包中的物品，可以设置多个</li>
+<li>暂时仅依据<code>newItemName</code>和<code>newAuxValue</code>扣除和回滚（即无法指定扣除玩家的附魔弓，可以指定扣除弓；扣除了附魔弓如果回滚仅会给回弓）</li>
+<li>统一使用新版的命名，详见<a href="https://mc.163.com/dev/mcmanual/mc-dev/mcguide/2-模组开发/通过Python自定义游戏内容/1-1.23版本物品id变更.html">1.23版本物品id变更</a></li>
+<li>扣除数量支持超过最大堆叠数，扣除和回滚时会自动处理</li>
+<li>类型：list(str)</li>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">// 假设扣除苹果10个
+&quot;costItem&quot;: [&quot;minecraft:apple@0*10&quot;],
+// 假设抽此奖池不扣除任何物品
+&quot;costItem&quot;: []
+</code></pre>
+<h2 id="notenoughmsg"><strong>notEnoughMsg</strong></h2>
+<ul>
+<li>
+<p>含义：当检测到玩家的货币/物品不足时弹出提示文案</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609154204550.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;notEnoughMsg&quot;: &quot;需要10个金币和10个苹果&quot;
+</code></pre>
+<h2 id="displayframe"><strong>displayFrame</strong></h2>
+<ul>
+<li>
+<p>含义：右侧渲染图贴图路径，注意分辨率，参考<a href="https://mc.163.com/mcstudio/mc-dev/MCDocs/2-ModSDK模组开发beta/04-Mod开发规范/2-贴图规范及九宫格使用.html#mc九宫格使用与贴图规范">MC九宫格使用与贴图规范 | MC 开发者文档 (163.com)</a></p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609154401871.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;displayFrame&quot;: &quot;textures/ui/hzi_gachachest/display/default&quot;
+</code></pre>
+<h2 id="currencyicon"><strong>currencyIcon</strong></h2>
+<ul>
+<li>
+<p>含义：按钮旁边的货币图标贴图</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609154426275.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;currencyIcon&quot;: &quot;textures/ui/hzi_gachachest/currency/currency3&quot;
+</code></pre>
+<h2 id="winaudioname"><strong>winAudioName</strong></h2>
+<ul>
+<li>
+<p>含义：抽奖跑马灯动画播放完毕后播放的音效，详情见 <code>sound_definitions.json</code> ，也支持自定义</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">&quot;winAudioName&quot;: &quot;firework.launch&quot;
+</code></pre>
+<h2 id="selectedaudioname"><strong>selectedAudioName</strong></h2>
+<ul>
+<li>
+<p>含义：抽奖跑马灯动画运动时播放的音效，详情见 <code>sound_definitions.json</code> ，也支持自定义</p>
+</li>
+<li>
+<p>类型：str</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">&quot;selectedAudioName&quot;: &quot;random.click&quot;
+</code></pre>
+<h2 id="speedstepsize"><strong>speedStepSize</strong></h2>
+<ul>
+<li>
+<p>含义：动画速度步长</p>
+</li>
+<li>
+<p>类型：float</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">&quot;speedStepSize&quot;: 0.1
+</code></pre>
+<h2 id="maxroundspeed"><strong>maxRoundSpeed</strong></h2>
+<ul>
+<li>
+<p>含义：最大动画速度（速度数值越大实际越慢）</p>
+</li>
+<li>
+<p>类型：float</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">// 达到此速度后不会再减速
+&quot;maxRoundSpeed&quot;: 30.0
+</code></pre>
+<h2 id="trystopspeed"><strong>tryStopSpeed</strong></h2>
+<ul>
+<li>
+<p>含义：实际开停速度</p>
+</li>
+<li>
+<p>类型：float</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">// 达到此速度后遇到奖品槽位停止动画
+&quot;tryStopSpeed&quot;: 6.0
+</code></pre>
+<h2 id="animationstopstaytime"><strong>animationStopStayTime</strong></h2>
+<ul>
+<li>
+<p>含义：跑马灯动画播放完之后，选框停留多少秒(可以写0就是不等待)</p>
+</li>
+<li>
+<p>类型：float</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">// 两秒之后派发奖品
+&quot;animationStopStayTime&quot;: 2.0
+</code></pre>
+<h2 id="animationstopclose"><strong>animationStopClose</strong></h2>
+<ul>
+<li>
+<p>含义：上述等待时间过后是否关闭奖池界面, 不关闭就可以重复抽奖</p>
+</li>
+<li>
+<p>类型：bool</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">// 等待时间过后关闭界面
+&quot;animationStopClose&quot;: true
+</code></pre>
+<h2 id="griddimension"><strong>gridDimension</strong></h2>
+<ul>
+<li>含义：奖池网格规模</li>
+<li>不建议改，但不是不可以改，如果25格位置不够用可以尝试扩大，一般需要配合<code>hziGachaChest/resource_packs/hziGachaChestRes/ui/hzi_gachachest_main.json</code>中<code>item_btn@common.button</code>的<code>size</code>参数</li>
+<li>类型：float</li>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">// 扩大网格大小
+&quot;gridDimension&quot;: &quot;5x6&quot;
+// 保持默认5x5不动, 节约性能
+&quot;gridDimension&quot;: null
+</code></pre>
+<h2 id="centerslot"><strong>centerSlot</strong></h2>
+<ul>
+<li>
+<p>含义：中心点的物品槽位，指跑马灯过程中不断变化为选中槽位物品且带附魔的那个槽位</p>
+</li>
+<li>
+<p>类型：int</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609155907907.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;centerSlot&quot;: 13
+</code></pre>
+<h2 id="centerdefault"><strong>centerDefault</strong></h2>
+<ul>
+<li>
+<p>含义：还没有点击抽奖的时候中心点槽位展示的物品</p>
+</li>
+<li>
+<p>类型：dict</p>
+</li>
+<li>
+<p>格式：参考 <a href="https://mc.163.com/dev/mcmanual/mc-dev/mcguide/2-模组开发/基础知识/名词解释.html#物品信息字典">物品信息字典</a></p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609160119323.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;centerDefault&quot;: {
+    &quot;newItemName&quot;: &quot;minecraft:lever&quot;,
+    &quot;newAuxValue&quot;: 0
+}
+</code></pre>
+<h2 id="adornmentslot"><strong>adornmentSlot</strong></h2>
+<ul>
+<li>
+<p>含义：装饰槽位列表，指从头到尾都不变的为了好看摆在那的工具人槽位</p>
+</li>
+<li>
+<p>类型：list(int)</p>
+</li>
+<li>
+<p>如图</p>
+</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609160450329.png" /></p>
+<ul>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">&quot;adornmentSlot&quot;: [7, 8, 9, 12, 14, 17, 18, 19]
+</code></pre>
+<h2 id="adornmentitem"><strong>adornmentItem</strong></h2>
+<ul>
+<li>含义：装饰槽位物品数据，如果数量和 <code>adornmentSlot</code> 一致，那么装饰槽位将按照的顺序依次排布，如果数量不一致，将会从列表里随机抽取物品排列</li>
+<li>类型：list(itemDict)</li>
+<li>格式：参考 <a href="https://mc.163.com/dev/mcmanual/mc-dev/mcguide/2-模组开发/基础知识/名词解释.html#物品信息字典">物品信息字典</a></li>
+<li>示例</li>
+</ul>
+<pre><code class="language-json">// 所有装饰都固定一个物品
+&quot;adornmentItem&quot;: [
+    {
+        &quot;newItemName&quot;: &quot;minecraft:stained_glass&quot;,
+        &quot;newAuxValue&quot;: 0,
+        &quot;count&quot;: 1
+    }
+]
+// 每个装饰槽位一半概率是苹果, 一半概率是白色玻璃
+&quot;adornmentItem&quot;: [
+    {
+        &quot;newItemName&quot;: &quot;minecraft:stained_glass&quot;,
+        &quot;newAuxValue&quot;: 0,
+        &quot;count&quot;: 1
+    },
+    {
+        &quot;newItemName&quot;: &quot;minecraft:apple&quot;,
+        &quot;newAuxValue&quot;: 0,
+        &quot;count&quot;: 1
+    }
+]
+// 每个槽位都要固定是某个物品, 按照 adornmentSlot 顺序排位
+&quot;adornmentItem&quot;: [
+    {
+        // adornmentSlot 中第一个物品
+    },
+    ...
+    {
+        // adornmentSlot 中最后一个物品
+    }
+]
+</code></pre>
+<h2 id="prizelist"><strong>prizeList</strong></h2>
+<ul>
+<li>含义：奖池里的奖品列表</li>
+<li>类型：list(prize) <strong>列表的顺序即为跑马灯轮换的顺序</strong></li>
+<li>
+<p>格式：奖品信息字典可视为继承了 <a href="https://mc.163.com/dev/mcmanual/mc-dev/mcguide/2-模组开发/基础知识/名词解释.html#物品信息字典">物品信息字典</a>，在此基础上添加了几个键，这几个键只影响奖池中的显示效果和抽取时的计算，不会影响玩家到手的物品，也不会写入数据库</p>
+</li>
+<li>
+<p>示例</p>
+</li>
+</ul>
+<pre><code class="language-json">&quot;prizeList&quot;: [
+    {
+        // 槽位, 必填
+        &quot;slot&quot;: 1,
+        // 抽取权重, 也就是相对概率, 必填
+        &quot;weights&quot;: 1,
+        // 物品信息面板停留时间(秒), 不填默认0.63秒
+        &quot;borderStayTime&quot;: 1.0,
+        // 物品信息面板文案, 不填默认取此物品的中文名
+        // 但不包括附魔等数据, 和customTips不冲突
+        &quot;showTips&quot;: &quot;&amp;e啦啦啦&quot;,
+        // 如果要二次开发建议带上, 用于识别特殊物品
+        &quot;tag&quot;: &quot;hzi:vip_test&quot;,
+        // 后面就是常规的物品数据
+        &quot;newItemName&quot;: &quot;minecraft:ink_sac&quot;,
+        &quot;newAuxValue&quot;: 0,
+        &quot;count&quot;: 1
+    },
+    ...
+  ]
+</code></pre>
+<ul>
+<li>权重的含义</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609162539227.png" /></p>
+<p>说人话就是当所有物品权重都相同时，大家均分概率</p>
+<p>假设有两个物品，物品1权重1，物品2权重9，那么抽中物品1的期望概率是10%，物品2是90%</p>
+<p><del class="critic"><em>说实话我也不太懂，建议甩给数值策划</em></del></p>
+<ul>
+<li>物品信息面板</li>
+</ul>
+<p><img alt="Screenshot" src="img/image-20210609162315619.png" /></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" title="Back to top" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="error.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: 错误码" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              错误码
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="operation.html" class="md-footer__link md-footer__link--next" aria-label="下一页: 运营指令" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              运营指令
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.indexes"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.76f349be.min.js"></script>
+      
+    
+  </body>
+</html>

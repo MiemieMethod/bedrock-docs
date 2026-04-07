@@ -1,0 +1,22 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "run_speed" : opt
+    float "ram_speed" : opt
+    int "ram_distance" : opt
+    int "min_ram_distance" : opt
+    float "baby_knockback_modifier" : opt
+    float "knockback_force" : opt
+    float "knockback_height" : opt
+    string "pre_ram_sound" : opt
+    string "ram_impact_sound" : opt
+    array "on_start" : opt
+    {
+         "<any array element>" : opt
+    }
+    float_range "cooldown_range" : opt
+}
+

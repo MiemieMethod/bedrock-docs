@@ -1,0 +1,16 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "speed_multiplier" : opt
+     "filters" : opt
+    float "min_wait_time" : opt
+    float "max_wait_time" : opt
+    vec3 "search_area" : opt
+    float "max_rotation_x" : opt
+    float "max_head_rotation_y" : opt
+    float "min_distance_to_target" : opt
+}
+

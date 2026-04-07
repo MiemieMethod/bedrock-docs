@@ -1,0 +1,24 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "search_width" : opt
+    int "search_height" : opt
+    int "minimum_path_length" : opt
+    int "minimum_distance" : opt
+    float "scale_factor" : opt
+    float "max_velocity" : opt
+    float_range "cooldown_range" : opt
+    array "preferred_blocks" : opt
+    {
+         "<any array element>" : opt
+    }
+    float "preferred_blocks_chance" : opt
+    array "forbidden_blocks" : opt
+    {
+         "<any array element>" : opt
+    }
+}
+

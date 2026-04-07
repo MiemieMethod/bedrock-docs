@@ -1,0 +1,122 @@
+{
+    "GuildBtnPanel": {
+        "anchor_from": "center", 
+        "anchor_to": "center", 
+        "controls": [
+            {
+                "party_btn@GuildBtnUI.party_btn": {}
+            }
+        ], 
+        "layer": 0, 
+        "offset": [
+            0, 
+            0
+        ], 
+        "size": [
+            "100.000000%+0 px", 
+            "100.000000%+0px"
+        ], 
+        "type": "panel", 
+        "visible": true
+    }, 
+    "main@common.base_screen": {
+        "controls": [
+            {
+                "GuildBtnPanel@GuildBtnUI.GuildBtnPanel": {}
+            }
+        ]
+    }, 
+    "namespace": "GuildBtnUI", 
+    "party_btn@common.button": {
+        "$default_color": [
+            1.0, 
+            1.0, 
+            1.0
+        ], 
+        "$labelText": "", 
+        "$nine_slice_buttom": 0, 
+        "$nine_slice_left": 0, 
+        "$nine_slice_right": 0, 
+        "$nine_slice_top": 0, 
+        "$pressed_button_name": "click", 
+        "$text_offset": [
+            0, 
+            0
+        ], 
+        "anchor_from": "center", 
+        "anchor_to": "center", 
+        "button_mappings": [], 
+        "controls": [
+            {
+                "default": {
+                    "color": "$default_color", 
+                    "is_new_nine_slice": true, 
+                    "layer": 1, 
+                    "nine_slice_buttom": "$nine_slice_buttom", 
+                    "nine_slice_left": "$nine_slice_left", 
+                    "nine_slice_right": "$nine_slice_right", 
+                    "nine_slice_top": "$nine_slice_top", 
+                    "texture": "textures/ui/netease_guild/icon02@3x", 
+                    "type": "image"
+                }
+            }, 
+            {
+                "hover": {
+                    "color": "$default_color", 
+                    "is_new_nine_slice": true, 
+                    "layer": 2, 
+                    "nine_slice_buttom": "$nine_slice_buttom", 
+                    "nine_slice_left": "$nine_slice_left", 
+                    "nine_slice_right": "$nine_slice_right", 
+                    "nine_slice_top": "$nine_slice_top", 
+                    "texture": "textures/ui/netease_guild/icon02@3x", 
+                    "type": "image"
+                }
+            }, 
+            {
+                "pressed": {
+                    "color": "$default_color", 
+                    "is_new_nine_slice": true, 
+                    "layer": 3, 
+                    "nine_slice_buttom": "$nine_slice_buttom", 
+                    "nine_slice_left": "$nine_slice_left", 
+                    "nine_slice_right": "$nine_slice_right", 
+                    "nine_slice_top": "$nine_slice_top", 
+                    "texture": "textures/ui/netease_guild/icon02@3x", 
+                    "type": "image"
+                }
+            }, 
+            {
+                "button_label": {
+                    "color": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ], 
+                    "font_scale_factor": 0.46875, 
+                    "font_size": "normal", 
+                    "layer": 4, 
+                    "max_size": [
+                        "100%", 
+                        "100%"
+                    ], 
+                    "offset": "$text_offset", 
+                    "shadow": false, 
+                    "text": "", 
+                    "type": "label"
+                }
+            }
+        ], 
+        "is_handle_button_move_event": true, 
+        "layer": 2, 
+        "offset": [
+            "13.1770834%+0 px", 
+            "-45.64815%+0px"
+        ], 
+        "size": [
+            "20.0 px", 
+            "20.0px"
+        ], 
+        "visible": true
+    }
+}

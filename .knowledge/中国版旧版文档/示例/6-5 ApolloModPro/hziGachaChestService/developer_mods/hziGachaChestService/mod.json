@@ -1,0 +1,170 @@
+{
+    "netgame_mod_name": "hziGachaChestService",
+    "netgame_mod_version": "1.0.0",
+    "min_app_version": "1.23.0.beta20210602",
+    "description": "提供类似开盲盒的简单抽奖功能",
+    "support_server_type": [
+        "service"
+    ],
+    "author": "HziStudio",
+    "group": "hziGachaChest",
+    "module_names": ["hziGachaChest"],
+    "mysql_pool_size": 20,
+    "card_pool": [
+        {
+            "identifier": "hzi:test_pool",
+            "neteaseMenus": ["GachaChest"],
+            "rightTitle": "抽 奖",
+            "leftTitle": "奖 池",
+            "startMsg": "点击抽奖一次, 消耗10",
+            "greetingsMsg": "天使降临中...q(≧▽≦q)",
+            "openMsg": "wow!恭喜发现宝藏!",
+            "serverType": ["lobby"],
+            "enable": true,
+            "enableTime": ["2021-06-08 00:00:00", "2021-06-30 00:00:00"],
+            "costCurrency": ["RMB*6"],
+            "costItem": ["minecraft:apple@0*10"],
+            "notEnoughMsg": "需要10个金币和10个苹果",
+            "displayFrame": "textures/ui/hzi_gachachest/display/default",
+            "currencyIcon": "textures/ui/hzi_gachachest/currency/currency3",
+            "winAudioName": "firework.launch",
+            "selectedAudioName": "random.click",
+            "speedStepSize": 0.1,
+            "maxRoundSpeed": 30.0,
+            "tryStopSpeed": 6.0,
+            "animationStopClose": true,
+            "animationStopStayTime": 2.0,
+            "gridDimension": "5x5",
+            "centerSlot": 13,
+            "centerDefault": {
+                "newItemName": "minecraft:lever",
+                "newAuxValue": 0
+            },
+            "adornmentSlot": [7, 8, 9, 12, 14, 17, 18, 19],
+            "adornmentItem": [
+                {
+                    "newItemName": "minecraft:stained_glass",
+                    "newAuxValue": 0,
+                    "count": 1
+                }
+            ],
+            "prizeList": [
+                {
+                    "slot": 1,
+                    "newItemName": "minecraft:ink_sac",
+                    "weights": 1,
+                    "newAuxValue": 0,
+                    "borderStayTime": 1,
+                    "showTips": "&e啦啦啦",
+                    "count": 1
+                },
+                {
+                    "slot": 2,
+                    "weights": 1,
+                    "newItemName": "minecraft:red_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 3,
+                    "weights": 1,
+                    "newItemName": "minecraft:green_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 4,
+                    "weights": 1,
+                    "newItemName": "minecraft:cocoa_beans",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 5,
+                    "weights": 1,
+                    "newItemName": "minecraft:lapis_lazuli",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 10,
+                    "weights": 1,
+                    "newItemName": "minecraft:purple_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 15,
+                    "weights": 1,
+                    "newItemName": "minecraft:cyan_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 20,
+                    "weights": 1,
+                    "newItemName": "minecraft:light_gray_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 25,
+                    "weights": 1,
+                    "newItemName": "minecraft:pink_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 24,
+                    "weights": 1,
+                    "newItemName": "minecraft:lime_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 23,
+                    "weights": 1,
+                    "newItemName": "minecraft:yellow_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 22,
+                    "weights": 1,
+                    "newItemName": "minecraft:light_blue_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 21,
+                    "weights": 1,
+                    "newItemName": "minecraft:magenta_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 16,
+                    "weights": 1,
+                    "newItemName": "minecraft:orange_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 11,
+                    "weights": 1,
+                    "newItemName": "minecraft:bone_meal",
+                    "newAuxValue": 0,
+                    "count": 1
+                },
+                {
+                    "slot": 6,
+                    "weights": 1,
+                    "newItemName": "minecraft:black_dye",
+                    "newAuxValue": 0,
+                    "count": 1
+                }
+            ]
+
+        }
+    ]
+}

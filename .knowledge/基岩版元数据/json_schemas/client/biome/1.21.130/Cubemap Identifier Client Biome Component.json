@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "2175791496",
+    "x-format-version": "1.21.130",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "40428720": {
+            "title": "Reference",
+            "type": "string"
+        }
+    },
+    "title": "minecraft:cubemap_identifier",
+    "type": "object",
+    "properties": {
+        "cubemap_identifier": {
+            "$ref": "#/definitions/40428720"
+        }
+    },
+    "required": [
+        "cubemap_identifier"
+    ]
+}

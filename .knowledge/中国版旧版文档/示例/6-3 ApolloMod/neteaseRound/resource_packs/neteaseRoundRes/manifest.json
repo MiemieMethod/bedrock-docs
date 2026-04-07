@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Round",
+        "uuid": "1fd33b5d-366a-413f-9ba8-5041c99530f5",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "3c25a4f2-f03f-4069-8633-c1faffe04532",
+            "version": [0, 0, 1]
+        }
+    ]
+}

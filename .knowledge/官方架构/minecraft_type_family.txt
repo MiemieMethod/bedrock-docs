@@ -1,0 +1,8 @@
+{
+    string "family" : opt
+    array "family" : opt
+    {
+        string "<any array element>" : opt
+    }
+}
+

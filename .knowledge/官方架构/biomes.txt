@@ -1,0 +1,250 @@
+{
+    object "minecraft:climate"[0,7] : opt
+    {
+        float "temperature" : opt
+        float "downfall" : opt
+        float "red_spores" : opt
+        float "blue_spores" : opt
+        float "ash" : opt
+        float "white_ash" : opt
+        array "snow_accumulation"[2] : opt
+        {
+            float "[0..0]"
+            float "[1..1]"
+        }
+    }
+    object "minecraft:overworld_height"[0,2] : opt
+    {
+        array "noise_params"[2] : opt
+        {
+            float "[0..0]"
+            float "[1..1]"
+        }
+        string "noise_type" : opt
+    }
+    object "minecraft:forced_features"[0,1] : opt
+    {
+        array "<identifier>" : opt
+        {
+            object "<any array element>" : opt
+            {
+                molang "iterations"
+                object "scatter_chance" : opt
+                {
+                    int "numerator"
+                    int "denominator"
+                }
+                molang "scatter_chance" : opt
+                enumerated_value "coordinate_eval_order" : opt
+                molang "x" : opt
+                object "x" : opt
+                {
+                    enumerated_value "distribution"
+                    int "step_size" : opt
+                    int "grid_offset" : opt
+                    array "extent"[2]
+                    {
+                        molang "[0..0]" : opt
+                        molang "[1..1]" : opt
+                    }
+                }
+                molang "z" : opt
+                object "z" : opt
+                {
+                    enumerated_value "distribution"
+                    int "step_size" : opt
+                    int "grid_offset" : opt
+                    array "extent"[2]
+                    {
+                        molang "[0..0]" : opt
+                        molang "[1..1]" : opt
+                    }
+                }
+                molang "y" : opt
+                object "y" : opt
+                {
+                    enumerated_value "distribution"
+                    int "step_size" : opt
+                    int "grid_offset" : opt
+                    array "extent"[2]
+                    {
+                        molang "[0..0]" : opt
+                        molang "[1..1]" : opt
+                    }
+                }
+                feature_reference "places_feature"
+                string "identifier"
+            }
+        }
+    }
+    object "minecraft:ignore_automatic_features" : opt
+    object "minecraft:consolidated_features" : opt
+    object "minecraft:surface_parameters"[0,6] : opt
+    {
+         "top_material"
+         "mid_material"
+         "sea_floor_material"
+         "foundation_material"
+         "sea_material"
+        int "sea_floor_depth"
+    }
+    object "minecraft:surface_material_adjustments"[0,1] : opt
+    {
+        array "adjustments" : opt
+        {
+            object "<any array element>"
+            {
+                object "materials"
+                {
+                     "top_material" : opt
+                     "mid_material" : opt
+                     "sea_floor_material" : opt
+                     "foundation_material" : opt
+                     "sea_material" : opt
+                }
+                array "noise_range"[2] : opt
+                {
+                    float "[0..0]"
+                    float "[1..1]"
+                }
+                array "height_range"[2] : opt
+                {
+                    molang "[0..0]"
+                    molang "[1..1]"
+                }
+                float "noise_frequency_scale" : opt
+            }
+        }
+    }
+    object "minecraft:swamp_surface"[0,6] : opt
+    {
+         "top_material"
+         "mid_material"
+         "sea_floor_material"
+         "foundation_material"
+         "sea_material"
+        int "sea_floor_depth"
+    }
+    object "minecraft:frozen_ocean_surface"[0,6] : opt
+    {
+         "top_material"
+         "mid_material"
+         "sea_floor_material"
+         "foundation_material"
+         "sea_material"
+        int "sea_floor_depth"
+    }
+    object "minecraft:mesa_surface"[0,10] : opt
+    {
+         "top_material"
+         "mid_material"
+         "sea_floor_material"
+         "foundation_material"
+         "sea_material"
+        int "sea_floor_depth"
+         "clay_material"
+         "hard_clay_material"
+        bool "bryce_pillars"
+        bool "has_forest"
+    }
+    object "minecraft:nether_surface" : opt
+    object "minecraft:the_end_surface" : opt
+    object "minecraft:capped_surface"[0,5] : opt
+    {
+        array "floor_materials"[1,*]
+        {
+            block_reference "<any array element>"
+        }
+        array "ceiling_materials"[1,*]
+        {
+            block_reference "<any array element>"
+        }
+        block_reference "sea_material"
+        block_reference "foundation_material"
+        block_reference "beach_material" : opt
+    }
+    object "minecraft:mountain_parameters"[0,3] : opt
+    {
+        float "peaks_factor" : opt
+        object "steep_material_adjustment" : opt // Defines surface material for steep slopes
+        {
+             "material" : opt
+            bool "north_slopes" : opt
+            bool "south_slopes" : opt
+            bool "west_slopes" : opt
+            bool "east_slopes" : opt
+        }
+        object "top_slide" : opt // Controls the density tapering that happens at the top of the world to prevent terrain from reaching too high
+        {
+            bool "enabled"
+        }
+    }
+    object "minecraft:overworld_generation_rules"[0,5] : opt
+    {
+        biome_reference "hills_transformation" : opt
+        array "hills_transformation"[1,*] : opt
+        {
+            biome_reference "<any array element>" : opt
+            array "<any array element>"[2] : opt
+            {
+                biome_reference "[0..0]"
+                int "[1..1]"
+            }
+        }
+        biome_reference "mutate_transformation" : opt
+        array "mutate_transformation"[1,*] : opt
+        {
+            biome_reference "<any array element>" : opt
+            array "<any array element>"[2] : opt
+            {
+                biome_reference "[0..0]"
+                int "[1..1]"
+            }
+        }
+        array "generate_for_climates" : opt
+        {
+            array "<any array element>"[2]
+            {
+                enumerated_value "[0..0]"
+                int "[1..1]"
+            }
+        }
+        biome_reference "river_transformation" : opt
+        array "river_transformation"[1,*] : opt
+        {
+            biome_reference "<any array element>" : opt
+            array "<any array element>"[2] : opt
+            {
+                biome_reference "[0..0]"
+                int "[1..1]"
+            }
+        }
+        biome_reference "shore_transformation" : opt
+        array "shore_transformation"[1,*] : opt
+        {
+            biome_reference "<any array element>" : opt
+            array "<any array element>"[2] : opt
+            {
+                biome_reference "[0..0]"
+                int "[1..1]"
+            }
+        }
+    }
+    object "minecraft:multinoise_generation_rules"[0,5] : opt
+    {
+        float "target_temperature" : opt
+        float "target_humidity" : opt
+        float "target_altitude" : opt
+        float "target_weirdness" : opt
+        float "weight" : opt
+    }
+    object "minecraft:legacy_world_generation_rules" : opt
+    object "minecraft:tags"[0,1] : opt
+    {
+        array "tags"[0,18446744073709551615]
+        {
+            string "<any array element>" : opt
+        }
+    }
+}
+

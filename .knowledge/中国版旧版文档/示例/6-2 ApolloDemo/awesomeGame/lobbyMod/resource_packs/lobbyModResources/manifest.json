@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "lobbyMod",
+        "name": "lobbyMod",
+        "uuid": "cca4e5a5-3d6d-4f50-b3f2-76e9f28590a5",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "lobbyMod",
+            "type": "resources",
+            "uuid": "099ca34b-0d92-4f5c-8b02-2062a65e4e24",
+            "version": [0, 0, 1]
+        }
+    ]
+}

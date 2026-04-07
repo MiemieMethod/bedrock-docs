@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Custom Biomes Demo By @SDKTeam",
+        "name": "Custom Biomes Demo",
+        "uuid": "880165e7-7c7a-47a0-b52f-4a700ec6864f",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "Custom Biomes Demo By @SDKTeam",
+            "type": "data",
+            "uuid": "2e720dd5-eb46-4aab-8428-8ac86e4f560e",
+            "version": [0, 0, 1]
+        }
+    ],
+	"dependencies" : []
+}

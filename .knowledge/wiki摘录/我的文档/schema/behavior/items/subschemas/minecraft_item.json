@@ -1,0 +1,593 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "description",
+        "type": {
+          "name": "object",
+          "properties": [
+            {
+              "name": "identifier",
+              "type": {
+                "name": "string"
+              }
+            },
+            {
+              "name": "category",
+              "type": {
+                "name": "enum",
+                "enum_values": [
+                  "construction",
+                  "nature",
+                  "equipment",
+                  "items",
+                  "commands",
+                  "none"
+                ],
+                "version": [
+                  {
+                    "value": "1.10"
+                  },
+                  {
+                    "value": "1.16.100"
+                  },
+                  {
+                    "min": "1.17.0",
+                    "max": "1.20.20",
+                    "min_exclusivity": false,
+                    "max_exclusivity": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "menu_category",
+              "type": {
+                "name": "object",
+                "properties": [
+                  {
+                    "name": "category",
+                    "type": {
+                      "name": "enum",
+                      "enum_values": [
+                        "construction",
+                        "nature",
+                        "equipment",
+                        "items",
+                        "none"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "group",
+                    "type": {
+                      "name": "string"
+                    }
+                  },
+                  {
+                    "name": "is_hidden_in_commands",
+                    "type": {
+                      "name": "boolean"
+                    },
+                    "details": {
+                      "default_value": false
+                    }
+                  }
+                ],
+                "version": [
+                  {
+                    "min": "1.20.20",
+                    "max": "*",
+                    "min_exclusivity": false,
+                    "max_exclusivity": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "custom_item_type",
+              "type": {
+                "name": "enum",
+                "enum_values": [
+                  "weapon",
+                  "armor",
+                  "egg",
+                  "ranged_weapon",
+                  "projectile_item"
+                ],
+                "edition": "china",
+                "version": [
+                  {
+                    "min": "1.10",
+                    "max": "1.16.100",
+                    "min_exclusivity": false,
+                    "max_exclusivity": true
+                  },
+                  {
+                    "min": "1.16.100",
+                    "max": "1.17.0",
+                    "min_exclusivity": true,
+                    "max_exclusivity": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "register_to_create_menu",
+              "type": {
+                "name": "boolean",
+                "edition": "china",
+                "version": [
+                  {
+                    "min": "1.10",
+                    "max": "1.16.100",
+                    "min_exclusivity": false,
+                    "max_exclusivity": true
+                  },
+                  {
+                    "min": "1.16.100",
+                    "max": "1.17.0",
+                    "min_exclusivity": true,
+                    "max_exclusivity": true
+                  }
+                ]
+              },
+              "details": {
+                "default_value": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "components",
+        "type": {
+          "name": "object",
+          "properties": [
+            {
+              "name": "minecraft:max_damage",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_max_damage.json"
+              }
+            },
+            {
+              "name": "minecraft:seed",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_seed.json"
+              }
+            },
+            {
+              "name": "minecraft:camera",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_camera.json"
+              }
+            },
+            {
+              "name": "minecraft:block",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_block.json"
+              }
+            },
+            {
+              "name": "minecraft:can_destroy_in_creative",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_can_destroy_in_creative.json"
+              }
+            },
+            {
+              "name": "minecraft:max_stack_size",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_max_stack_size.json"
+              }
+            },
+            {
+              "name": "minecraft:hover_text_color",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_hover_text_color.json"
+              }
+            },
+            {
+              "name": "minecraft:stacked_by_data",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_stacked_by_data.json"
+              }
+            },
+            {
+              "name": "minecraft:hand_equipped",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_hand_equipped.json"
+              }
+            },
+            {
+              "name": "minecraft:liquid_clipped",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_liquid_clipped.json"
+              }
+            },
+            {
+              "name": "minecraft:allow_off_hand",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_allow_off_hand.json"
+              }
+            },
+            {
+              "name": "minecraft:damage",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_damage.json"
+              }
+            },
+            {
+              "name": "minecraft:should_despawn",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_should_despawn.json"
+              }
+            },
+            {
+              "name": "minecraft:use_animation",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_use_animation.json"
+              }
+            },
+            {
+              "name": "minecraft:use_duration",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_use_duration.json"
+              }
+            },
+            {
+              "name": "minecraft:use_modifiers",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_use_modifiers.json"
+              }
+            },
+            {
+              "name": "minecraft:foil",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_foil.json"
+              }
+            },
+            {
+              "name": "minecraft:mining_speed",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_mining_speed.json"
+              }
+            },
+            {
+              "name": "minecraft:enchantable",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_enchantable.json"
+              }
+            },
+            {
+              "name": "minecraft:frame_count",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_frame_count.json"
+              }
+            },
+            {
+              "name": "minecraft:creative_category",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_creative_category.json"
+              }
+            },
+            {
+              "name": "minecraft:render_offsets",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_render_offsets.json"
+              }
+            },
+            {
+              "name": "minecraft:glint",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_glint.json"
+              }
+            },
+            {
+              "name": "minecraft:interact_button",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_interact_button.json"
+              }
+            },
+            {
+              "name": "minecraft:icon",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_icon.json"
+              }
+            },
+            {
+              "name": "minecraft:armor",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_armor.json"
+              }
+            },
+            {
+              "name": "minecraft:item_storage",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_item_storage.json"
+              }
+            },
+            {
+              "name": "minecraft:chargeable",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_chargeable.json"
+              }
+            },
+            {
+              "name": "minecraft:cooldown",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_cooldown.json"
+              }
+            },
+            {
+              "name": "minecraft:durability",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_durability.json"
+              }
+            },
+            {
+              "name": "minecraft:digger",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_digger.json"
+              }
+            },
+            {
+              "name": "minecraft:display_name",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_display_name.json"
+              }
+            },
+            {
+              "name": "minecraft:entity_placer",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_entity_placer.json"
+              }
+            },
+            {
+              "name": "minecraft:food",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_food.json"
+              }
+            },
+            {
+              "name": "minecraft:fuel",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_fuel.json"
+              }
+            },
+            {
+              "name": "minecraft:on_use",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_on_use.json"
+              }
+            },
+            {
+              "name": "minecraft:on_use_on",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_on_use_on.json"
+              }
+            },
+            {
+              "name": "minecraft:block_placer",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_block_placer.json"
+              }
+            },
+            {
+              "name": "minecraft:projectile",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_projectile.json"
+              }
+            },
+            {
+              "name": "minecraft:repairable",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_repairable.json"
+              }
+            },
+            {
+              "name": "minecraft:shooter",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_shooter.json"
+              }
+            },
+            {
+              "name": "minecraft:throwable",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_throwable.json"
+              }
+            },
+            {
+              "name": "minecraft:weapon",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_weapon.json"
+              }
+            },
+            {
+              "name": "minecraft:wearable",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_wearable.json"
+              }
+            },
+            {
+              "name": "minecraft:record",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_record.json"
+              }
+            },
+            {
+              "name": "minecraft:custom_components",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_custom_components.json"
+              }
+            },
+            {
+              "name": "minecraft:tags",
+              "type": {
+                "name": "reference",
+                "reference": "./components/minecraft_tags.json"
+              }
+            },
+            {
+              "name": "netease:show_in_hand",
+              "type": {
+                "name": "reference",
+                "reference": "./components/netease_show_in_hand.json"
+              }
+            },
+            {
+              "name": "netease:fire_resistant",
+              "type": {
+                "name": "reference",
+                "reference": "./components/netease_fire_resistant.json"
+              }
+            },
+            {
+              "name": "netease:allow_offhand",
+              "type": {
+                "name": "reference",
+                "reference": "./components/netease_allow_offhand.json"
+              }
+            },
+            {
+              "name": "netease:enchant_material",
+              "type": {
+                "name": "reference",
+                "reference": "./components/netease_enchant_material.json"
+              }
+            },
+            {
+              "name": "netease:fuel",
+              "type": {
+                "name": "reference",
+                "reference": "./components/netease_fuel.json"
+              }
+            },
+            {
+              "name": "netease:cooldown",
+              "type": {
+                "name": "reference",
+                "reference": "./components/netease_cooldown.json"
+              }
+            },
+            {
+              "name": "netease:customtips",
+              "type": {
+                "name": "reference",
+                "reference": "./components/netease_customtips.json"
+              }
+            }
+          ],
+          "pattern_property_types": [
+            {
+              "name": "^tag:[a-zA-Z0-9_.:-]+$",
+              "type": {
+                "name": "const",
+                "const_type": {},
+                "version": [
+                  {
+                    "value": "1.16.100"
+                  },
+                  {
+                    "min": "1.17.0",
+                    "max": "1.20.50",
+                    "min_exclusivity": false,
+                    "max_exclusivity": true
+                  }
+                ],
+                "deprecated": [
+                  {
+                    "min": "1.20.50",
+                    "max": "*",
+                    "min_exclusivity": false,
+                    "max_exclusivity": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "^[a-zA-Z0-9_.:-]+$",
+              "type": {
+                "name": "object"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "events",
+        "type": {
+          "name": "object",
+          "properties": [
+            {
+              "name": "on_fertilized",
+              "type": {}
+            },
+            {
+              "name": "on_tool_used",
+              "type": {
+                "name": "reference",
+                "reference": "../../../common/definition/definition_event.json"
+              }
+            }
+          ],
+          "additional_property_type": {
+            "name": "reference",
+            "reference": "../../../common/definition/definition_event.json"
+          }
+        }
+      }
+    ],
+    "additional_property_type": {
+      "name": "tautology",
+      "correctness": false
+    }
+  }
+}

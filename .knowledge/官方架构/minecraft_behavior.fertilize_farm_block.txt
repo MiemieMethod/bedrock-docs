@@ -1,0 +1,15 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "max_fertilizer_usage" : opt
+    float "search_cooldown_max_seconds" : opt
+    int "search_count" : opt
+    int "search_height" : opt
+    int "search_range" : opt
+    float "goal_radius" : opt
+    float "speed_multiplier" : opt
+}
+

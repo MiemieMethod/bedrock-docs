@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "CustomFurnaceMod",
+        "name": "CustomFurnaceMod",
+        "uuid": "7cba44b2-ffd7-4ad0-b0ec-dbae85ab3438",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CustomFurnaceMod",
+            "type": "data",
+            "uuid": "50a5aec8-62b7-4c54-8739-db921c7a84fd",
+            "version": [0, 0, 1]
+        }
+    ]
+}

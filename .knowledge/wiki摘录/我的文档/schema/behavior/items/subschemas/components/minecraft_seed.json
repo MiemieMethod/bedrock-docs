@@ -1,0 +1,61 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "crop_result",
+        "type": {
+          "name": "string"
+        }
+      },
+      {
+        "name": "plant_at",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "reference",
+            "reference": "../../../../common/definition/block/block_descriptor.json"
+          }
+        }
+      },
+      {
+        "name": "plant_at_any_solid_surface",
+        "type": {
+          "name": "boolean"
+        },
+        "details": {
+          "default_value": false
+        }
+      },
+      {
+        "name": "plant_at_face",
+        "type": {
+          "name": "enum",
+          "enum_values": [
+            "up",
+            "down",
+            "east",
+            "west",
+            "north",
+            "south"
+          ]
+        }
+      }
+    ],
+    "version": [
+      {
+        "min": "1.10.0",
+        "max": "1.16.100",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      },
+      {
+        "min": "1.16.100",
+        "max": "1.17.0",
+        "min_exclusivity": true,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

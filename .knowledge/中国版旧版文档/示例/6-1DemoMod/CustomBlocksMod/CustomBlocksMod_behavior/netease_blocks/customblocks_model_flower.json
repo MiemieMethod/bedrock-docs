@@ -1,0 +1,56 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "customblocks:customblocks_model_flower",
+			"register_to_creative_menu": true,
+			"is_experimental": false,
+			"category": "custom"
+		},
+		"components": {
+			"minecraft:block_light_absorption":{
+				"value": 0
+			},
+			"minecraft:block_light_emission": {
+				"emission": 1.0
+			},
+			"netease:aabb": {
+				"collision": {
+					"min": [0.0, 0.0, 0.0],
+					"max": [0.0, 0.0, 0.0]
+				},
+				"clip": {
+					"min": [0.3, 0.0, 0.3],
+					"max": [0.7, 0.63, 0.7]
+				}
+			},
+			"netease:may_place_on": {
+				"block": ["minecraft:dirt", "minecraft:grass"],
+				"block_state": [
+					{
+						"name": "minecraft:wool",
+						"states": {
+							"color": "orange"
+						}
+					},
+					{
+						"name": "minecraft:wool",
+						"states": {
+							"color": "red"
+						}
+					}
+				],
+				"spawn_resources": true
+			},
+			"netease:render_layer": {
+				"value": "alpha"
+			},
+			"netease:solid": {
+				"value": false
+			},
+			"netease:pathable": {
+				"value": true
+			}
+		}
+	}
+}

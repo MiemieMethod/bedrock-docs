@@ -1,0 +1,22 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm4_plains", 
+            "inherits": "plains"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "hills_transformation": "dm4_plains", 
+                "mutate_transformation": "dm4_sunflower_plains", 
+                "generate_for_climates": [
+                    [
+                        "medium", 
+                        0
+                    ]
+                ]
+            },
+            "dm4": {}
+        }
+    }
+}

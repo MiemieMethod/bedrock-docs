@@ -1,0 +1,29 @@
+{
+	"main" : {
+		"absorbs_input" : true,
+		"always_accepts_input" : false,
+		"controls" : [
+			{
+				"mainPanel@mini_map.mini_map_wrapper" : {
+					"anchor_from" : "top_right",
+					"anchor_to" : "top_right",
+					"layer" : 1,
+					"offset": [-4, 4],
+					"size": [100, 100],
+					"$enable_live_update": true,
+					"$live_update_interval": 5,
+					"$use_default_face_icon": false,
+					"$face_icon_size": [4,4],
+					"$face_icon_bg_color": "white"
+				}
+			}
+		],
+		"force_render_below" : false,
+		"is_showing_menu" : true,
+		"render_game_behind" : true,
+		"render_only_when_topmost" : true,
+		"should_steal_mouse" : false,
+		"type" : "screen"
+	},
+	"namespace" : "UIMiniMap"
+}

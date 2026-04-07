@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Trade",
+        "uuid": "cded8b1e-f71c-4002-a036-adb98f3cf450",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "d41d43fb-9004-4dba-b6d0-052fad7e742f",
+            "version": [0, 0, 1]
+        }
+    ]
+}

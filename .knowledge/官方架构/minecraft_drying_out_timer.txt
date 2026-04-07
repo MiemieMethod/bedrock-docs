@@ -1,0 +1,8 @@
+{
+    float "total_time" : opt
+    float "water_bottle_refill_time" : opt
+     "dried_out_event" : opt
+     "stopped_drying_out_event" : opt
+     "recover_after_dried_out_event" : opt
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "top",
+  "type": {
+    "name": "integer",
+    "version": [
+      {
+        "min": "1.10.0",
+        "max": "1.16.100",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      },
+      {
+        "min": "1.16.100",
+        "max": "1.17.0",
+        "min_exclusivity": true,
+        "max_exclusivity": true
+      }
+    ]
+  },
+  "details": {
+    "default_value": 0
+  }
+}

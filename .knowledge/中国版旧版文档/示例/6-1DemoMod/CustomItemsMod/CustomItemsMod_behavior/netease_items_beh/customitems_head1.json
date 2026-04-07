@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customitems:head1",
+      "register_to_create_menu":true,
+      "category": "Custom"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:max_damage": 10,
+      "netease:show_in_hand": {
+        "value": true
+      }
+    }
+  }
+}

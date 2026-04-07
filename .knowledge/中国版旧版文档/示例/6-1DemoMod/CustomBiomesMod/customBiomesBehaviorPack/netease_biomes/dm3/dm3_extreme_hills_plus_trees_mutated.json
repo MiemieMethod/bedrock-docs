@@ -1,0 +1,12 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm3_extreme_hills_plus_trees_mutated", 
+            "inherits": "extreme_hills_plus_trees_mutated"
+        },
+        "components": {
+            "dm3": {}
+        }
+    }
+}

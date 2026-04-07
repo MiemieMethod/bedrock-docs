@@ -1,0 +1,26 @@
+{
+    object "triggers" : opt
+    {
+         "items" : opt
+        array "items" : opt
+        {
+             "<any array element>" : opt
+        }
+         "on_give" : opt
+        float "cooldown" : opt
+    }
+    array "triggers" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "items" : opt
+            array "items" : opt
+            {
+                 "<any array element>" : opt
+            }
+             "on_give" : opt
+            float "cooldown" : opt
+        }
+    }
+}
+

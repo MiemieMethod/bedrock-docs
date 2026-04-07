@@ -1,0 +1,8 @@
+{
+    string "control_items" : opt
+    array "control_items" : opt
+    {
+        string "<any array element>" : opt
+    }
+}
+

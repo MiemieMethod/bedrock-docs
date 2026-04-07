@@ -1,0 +1,128 @@
+{
+    "identifier": "neteaseRound:skill:snowTrap",
+    "actionData": {
+        "attack": {
+            "condition": [],
+            "type": "playAni",
+            "costTime": 1.0,
+            "actor": "actor", 
+            "animate": "skill1"
+        },
+        "createMissile": {
+            "condition": [
+                {"type":"finAction", "param":"attack"}
+            ],
+            "type": "createModel",
+            "costTime": 0.1,
+            "modelName": "v_unvisible_bind",
+            "animate": "stand",
+            "scale": [1.0, 1.0, 1.0],
+            "pos": ["fixPoint", "standActor", [0.0, 1.0, 0.0]],
+            "saveName": "missile"
+        },
+        "createMissileEffect": {
+            "condition": [
+                {"type":"finAction", "param":"createMissile"}
+            ],
+            "type": "createBindEffect",
+            "costTime": 0.1,
+            "bind": "missile",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_snowball_01.json",
+                    "style": "sfx",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowball_02.json",
+                    "style": "particle",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowball_04.json",
+                    "style": "particle",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_yanwu_03.json",
+                    "style": "sfx",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                }
+            ],
+            "saveName": "missileEffect"
+        },
+        "missileFly": {
+            "condition": [
+                {"type":"finAction", "param":"createMissileEffect"}
+            ],
+            "type": "move",
+            "costTime": 1.0,
+            "actor": "missile",
+            "startPos": ["fixPoint", "standNow", [0.0, 0.0, 0.0]],
+            "endPos": ["fixPoint", "standTarget", [0.0, 0.0, 0.0]]
+        },
+        "destroyMissileEffect": {
+            "condition": [
+                {"type":"finAction", "param":"missileFly"}
+            ],
+            "type": "destroyBindEffect",
+            "costTime": 0.1,
+            "actor": "missileEffect"
+        },
+        "missleDie": {
+            "condition": [
+                {"type":"finAction", "param":"destroyMissileEffect"}
+            ],
+            "type": "destroyModel",
+            "costTime": 0.1,
+            "actor": "missile"
+        },
+        "snowEffect": {
+            "condition": [
+                {"type":"finAction", "param":"missleDie"}
+            ],
+            "type": "playBindEffect",
+            "costTime": 1.8,
+            "bind": "target",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_heilizi.json",
+                    "style": "particle",
+                    "pos": [0.02, 0, 0.55],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_trap2.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.09],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_glow.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.17],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                }
+            ]
+        },
+        "applySkillResult": {
+            "condition": [
+                {"type":"finAction", "param":"snowEffect"}
+            ],
+            "type": "applySkillResult",
+            "costTime": 0.3,
+            "index": null
+        }
+    }
+}

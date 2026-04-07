@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+   "description": {
+     "identifier": "customblocks:customblocks_model_decoration",
+	 "register_to_creative_menu": true,
+	 "is_experimental": false
+   },
+   "components": {
+	  "minecraft:block_light_absorption":{
+		"value": 0
+	  },
+	  "netease:aabb": {
+	    "collision": {
+	      "min": [0.0, 0.0, 0.0],
+		  "max": [0.0, 0.0, 0.0]
+		}
+	  },
+	  "netease:render_layer": {
+	    "value": "alpha"
+	  },
+	  "netease:solid": {
+	    "value": false
+	  },
+	  "netease:pathable": {
+	    "value": true
+	  },
+	  "netease:face_directional": {
+	    "type": "direction"
+	  }
+    }
+  }
+}

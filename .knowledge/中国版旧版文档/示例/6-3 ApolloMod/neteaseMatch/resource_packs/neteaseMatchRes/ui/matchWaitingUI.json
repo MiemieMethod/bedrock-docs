@@ -1,0 +1,718 @@
+{
+   "base_scroll" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "pnl_scroll@matchWaitingUI.pnl_scroll" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "btn_cancel_match@common.button" : {
+      "$default_texture" : "textures/ui/btn01",
+      "$hover_texture" : "textures/ui/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.0, 0.0, 0.0 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "取消报名（10s）",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%signupwaitingUI.click",
+      "$pressed_texture" : "textures/ui/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "bottom_right",
+      "anchor_to" : "bottom_right",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@matchWaitingUI.default" : {}
+         },
+         {
+            "hover@matchWaitingUI.hover" : {}
+         },
+         {
+            "pressed@matchWaitingUI.pressed" : {}
+         },
+         {
+            "button_label@matchWaitingUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 12,
+      "offset" : [ "-4.51%+0.0px", "-3.78%+0.0px" ],
+      "size" : [ "45.11%+0.0px", "22.22%+0.0px" ],
+      "visible" : true
+   },
+   "btn_cancel_waiting@common.button" : {
+      "$default_texture" : "textures/ui/btn01",
+      "$hover_texture" : "textures/ui/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.0, 0.0, 0.0 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "取消报名",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%signupwaitingUI.click",
+      "$pressed_texture" : "textures/ui/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "right_middle",
+      "anchor_to" : "left_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@matchWaitingUI.default" : {}
+         },
+         {
+            "hover@matchWaitingUI.hover" : {}
+         },
+         {
+            "pressed@matchWaitingUI.pressed" : {}
+         },
+         {
+            "button_label@matchWaitingUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 2,
+      "offset" : [ 0, 0 ],
+      "size" : [ 38.0, 25.0 ],
+      "visible" : true
+   },
+   "btn_close@common.button" : {
+      "$default_texture" : "textures/ui/icon09",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%signupwaitingUI.click",
+      "$pressed_texture" : "textures/ui/icon09_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@matchWaitingUI.default" : {}
+         },
+         {
+            "hover@matchWaitingUI.hover" : {}
+         },
+         {
+            "pressed@matchWaitingUI.pressed" : {}
+         },
+         {
+            "button_label@matchWaitingUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 18,
+      "offset" : [ "-5.26%+0.0px", "4.67%+0.0px" ],
+      "size" : [ "6.77%+0.0px", "10.0%+0.0px" ],
+      "visible" : true
+   },
+   "btn_close_activity@common.button" : {
+      "$default_texture" : "textures/ui/icon09",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$nineslice_size" : [ 0, 0, 0, 0 ],
+      "$pressed_button_name" : "%signupUI.click",
+      "$pressed_texture" : "textures/ui/icon09_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "top_right",
+      "anchor_to" : "top_right",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@matchWaitingUI.default" : {}
+         },
+         {
+            "hover@matchWaitingUI.hover" : {}
+         },
+         {
+            "pressed@matchWaitingUI.pressed" : {}
+         },
+         {
+            "button_label@matchWaitingUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 41,
+      "offset" : [ "-5.26%+0.0px", "4.67%+0.0px" ],
+      "size" : [ "6.77%+0.0px", "10.0%+0.0px" ],
+      "visible" : true
+   },
+   "btn_continue@common.button" : {
+      "$default_texture" : "textures/ui/btn01",
+      "$hover_texture" : "textures/ui/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.0, 0.0, 0.0 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "继续等待",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$nineslice_size" : [ 2.0, 2.0, 2.0, 2.0 ],
+      "$pressed_button_name" : "%signupwaitingUI.click",
+      "$pressed_texture" : "textures/ui/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "bottom_left",
+      "anchor_to" : "bottom_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@matchWaitingUI.default" : {}
+         },
+         {
+            "hover@matchWaitingUI.hover" : {}
+         },
+         {
+            "pressed@matchWaitingUI.pressed" : {}
+         },
+         {
+            "button_label@matchWaitingUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 8,
+      "offset" : [ "4.51%+0.0px", "-3.78%+0.0px" ],
+      "size" : [ "45.11%+0.0px", "22.22%+0.0px" ],
+      "visible" : true
+   },
+   "btn_match@common.button" : {
+      "$default_texture" : "textures/ui/btn01",
+      "$hover_texture" : "textures/ui/btn01_hover",
+      "$is_new_nine_slice" : false,
+      "$label_color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "$label_font_scale_factor" : 0.9399999976158142,
+      "$label_font_size" : "normal",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "立即报名",
+      "$nine_slice_buttom" : 1,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 1,
+      "$nineslice_size" : [ 2.0, 1.0, 2.0, 1.0 ],
+      "$pressed_button_name" : "%signupUI.click",
+      "$pressed_texture" : "textures/ui/btn01_click",
+      "$texture_layer" : 2,
+      "anchor_from" : "bottom_middle",
+      "anchor_to" : "bottom_middle",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@matchWaitingUI.default" : {}
+         },
+         {
+            "hover@matchWaitingUI.hover" : {}
+         },
+         {
+            "pressed@matchWaitingUI.pressed" : {}
+         },
+         {
+            "button_label@matchWaitingUI.button_label" : {}
+         }
+      ],
+      "is_handle_button_move_event" : true,
+      "layer" : 26,
+      "offset" : [ 0.0, -4.0 ],
+      "size" : [ 120.0, 23.0 ],
+      "visible" : true
+   },
+   "button_label" : {
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "image_base" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "btn_match@matchWaitingUI.btn_match" : {}
+         },
+         {
+            "lb_name@matchWaitingUI.lb_name" : {}
+         },
+         {
+            "scroll_activity_detail@matchWaitingUI.scroll_activity_detail" : {}
+         },
+         {
+            "btn_close_activity@matchWaitingUI.btn_close_activity" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 25,
+      "nine_slice_buttom" : 32,
+      "nine_slice_left" : 8,
+      "nine_slice_right" : 8,
+      "nine_slice_top" : 19,
+      "nineslice_size" : [ 8.0, 19.0, 8.0, 32.0 ],
+      "offset" : [ 2.50, -0.50 ],
+      "size" : [ "41.56%+40.0px", "42.86%+12.0px" ],
+      "texture" : "textures/ui/panel03",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "img_cancel_tips" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "lb_cancel_tips@matchWaitingUI.lb_cancel_tips" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 1000,
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 4,
+      "nine_slice_right" : 4,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 4.0, 4.0, 4.0, 4.0 ],
+      "offset" : [ 0, 0 ],
+      "size" : [ "27.37%+0.0px", "9.62%+0.0px" ],
+      "texture" : "textures/ui/panel01",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "img_tips" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "btn_continue@matchWaitingUI.btn_continue" : {}
+         },
+         {
+            "btn_cancel_match@matchWaitingUI.btn_cancel_match" : {}
+         },
+         {
+            "lb_tipscontent@matchWaitingUI.lb_tipscontent" : {}
+         },
+         {
+            "lb_tips@matchWaitingUI.lb_tips" : {}
+         },
+         {
+            "btn_close@matchWaitingUI.btn_close" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 7,
+      "nine_slice_buttom" : 32,
+      "nine_slice_left" : 8,
+      "nine_slice_right" : 8,
+      "nine_slice_top" : 19,
+      "nineslice_size" : [ 8.0, 19.0, 8.0, 32.0 ],
+      "offset" : [ "0.63%+0.0px", 0.0 ],
+      "size" : [ "41.56%+42.0px", "42.86%+13.0px" ],
+      "texture" : "textures/ui/panel03",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "img_waiting0" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "controls" : [
+         {
+            "btn_cancel_waiting@matchWaitingUI.btn_cancel_waiting" : {}
+         },
+         {
+            "lb_waiting@matchWaitingUI.lb_waiting" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 4,
+      "nine_slice_left" : 5,
+      "nine_slice_right" : 5,
+      "nine_slice_top" : 4,
+      "nineslice_size" : [ 5.0, 4.0, 5.0, 4.0 ],
+      "offset" : [ "17.5%+0.0px", "6.67%+0.0px" ],
+      "size" : [ "64.81%+0.0px", "12.0%+0.0px" ],
+      "texture" : "textures/ui/panel10",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "lb_activity" : {
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 2,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, "14.63%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "83.19%+0.0px", 80.0 ],
+      "text" : "这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒的活动这是一个超棒",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_cancel_tips" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 23,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, -0.50 ],
+      "shadow" : false,
+      "size" : [ "102.96%+0.0px", "51.25%+0.0px" ],
+      "text" : "你已取消报名",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_name" : {
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 30,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, 5.0 ],
+      "shadow" : false,
+      "size" : [ 73.0, 8.0 ],
+      "text" : "【活动名称是八个字】",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_tips" : {
+      "anchor_from" : "top_middle",
+      "anchor_to" : "top_middle",
+      "color" : [ 0.2588235294117647, 0.2588235294117647, 0.2588235294117647 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 17,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, "4.78%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "42.02%+0.0px", "9.78%+0.0px" ],
+      "text" : "提示",
+      "text_alignment" : "center",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_tipscontent" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 16,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, "-7.78%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "84.96%+0.0px", "38.89%+0.0px" ],
+      "text" : "匹配时间过长，是否继续等待？",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "lb_waiting" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1, 1, 1 ],
+      "font_scale_factor" : 0.9399999976158142,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 6,
+      "line_padding" : 0.0,
+      "offset" : [ 0.0, 0.0 ],
+      "shadow" : false,
+      "size" : [ "115.5%+-44.0px", "42.86%+0.0px" ],
+      "text" : "活动名字是八个字    已报名：118/200     已等待：01：29：11",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "main" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "main_waiting@matchWaitingUI.main_waiting" : {}
+         },
+         {
+            "main_activity@matchWaitingUI.main_activity" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "main_activity" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "image_base@matchWaitingUI.image_base" : {}
+         }
+      ],
+      "layer" : 24,
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 322.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "main_waiting" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "img_waiting0@matchWaitingUI.img_waiting0" : {}
+         },
+         {
+            "img_tips@matchWaitingUI.img_tips" : {}
+         },
+         {
+            "img_cancel_tips@matchWaitingUI.img_cancel_tips" : {}
+         }
+      ],
+      "layer" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ 320.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "namespace" : "matchWaitingUI",
+   "pnl_activity" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "lb_activity@matchWaitingUI.lb_activity" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.0%+0.0px", "100.0%+0.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pnl_scroll" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "pnl_activity@matchWaitingUI.pnl_activity" : {}
+         }
+      ],
+      "layer" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ 149.0, 40.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "pressed" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "nineslice_size" : "$nineslice_size",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "scroll_activity_detail@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$background_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$box_nine_slice_buttom" : 0,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 0,
+      "$box_nineslice_size" : [ 0, 0, 0, 0 ],
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "matchWaitingUI.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_box_mouse_image_control" : "matchWaitingUI.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/progress_bar_01_bg",
+      "$scroll_box_touch_image_control" : "matchWaitingUI.scroll_box_image",
+      "$scroll_track_image_control" : "matchWaitingUI.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/progress_bar_01",
+      "$scrolling_content" : "matchWaitingUI.pnl_scroll",
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 0,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 0,
+      "$track_nine_slice_top" : 0,
+      "$track_nineslice_size" : [ 0, 0, 0, 0 ],
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 31,
+      "offset" : [ 0.0, "-7.0%+-1.0px" ],
+      "size" : [ 149.0, 41.0 ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "nineslice_size" : "$background_nineslice_size",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "nineslice_size" : "$box_nineslice_size",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "nineslice_size" : "$track_nineslice_size",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   }
+}

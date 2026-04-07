@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customitems:test_offhand",
+      "register_to_create_menu":true,
+      "category": "Items"
+    },
+
+    "components": {
+    "netease:allow_offhand":{
+      "value": true
+    }
+    }
+  }
+}

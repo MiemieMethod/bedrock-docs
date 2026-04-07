@@ -1,0 +1,25 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseChestDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.5",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.18.0.release20200723",
+
+  "_comment":"不支持的引擎版本",
+  "unsupport_app_version":["1.18.0.beta20200610"],
+
+  "_comment":"该服务器Mod隶属于“箱子”插件",
+  "description":"Chest mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["Lobby", "Game"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment":"是否让放置箱子的玩家成为拥有者。true:玩家都会成为自己放下箱子的拥有者;false:放置的箱子和普通箱子无异",
+  "is_placed_owner": true
+}

@@ -1,0 +1,52 @@
+{
+    object "description" : opt
+    object "components" : opt
+    {
+        string "minecraft:block" : opt
+        int "minecraft:max_stack_size" : opt
+        object "minecraft:max_stack_size" : opt
+        bool "minecraft:can_destroy_in_creative" : opt
+        object "minecraft:can_destroy_in_creative" : opt
+        string "minecraft:hover_text_color" : opt
+        object "minecraft:hover_text_color" : opt
+        bool "minecraft:allow_off_hand" : opt
+        object "minecraft:allow_off_hand" : opt
+        string "minecraft:use_animation" : opt
+        object "minecraft:use_animation" : opt
+        bool "minecraft:stacked_by_data" : opt
+        object "minecraft:stacked_by_data" : opt
+        bool "minecraft:hand_equipped" : opt
+        object "minecraft:hand_equipped" : opt
+        bool "minecraft:liquid_clipped" : opt
+        object "minecraft:liquid_clipped" : opt
+        int "minecraft:damage" : opt
+        object "minecraft:damage" : opt
+        bool "minecraft:should_despawn" : opt
+        object "minecraft:should_despawn" : opt
+        object "minecraft:use_modifiers" : opt
+        bool "minecraft:foil" : opt
+        int "minecraft:mining_speed" : opt
+        object "minecraft:enchantable" : opt
+        {
+            int "value" : opt
+            string "slot"
+        }
+        int "minecraft:frame_count" : opt
+        object "minecraft:creative_category" : opt
+        {
+            string "parent" : opt
+            string "category" : opt
+        }
+        string "minecraft:render_offsets" : opt
+        object "minecraft:render_offsets" : opt
+        bool "minecraft:glint" : opt
+        object "minecraft:glint" : opt
+        bool "minecraft:interact_button" : opt
+        string "minecraft:interact_button" : opt
+        string "minecraft:icon" : opt
+        object "minecraft:icon" : opt
+        object "tag:<scope_identifier>" : opt
+        object "<scope_identifier>" : opt
+    }
+}
+

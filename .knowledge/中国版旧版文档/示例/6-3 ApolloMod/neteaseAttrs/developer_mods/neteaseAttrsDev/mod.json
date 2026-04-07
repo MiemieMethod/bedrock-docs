@@ -1,0 +1,17 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseAttrsDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.0",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.19.0.release20200929",
+  "_comment": "插件实现的功能",
+  "description": "可以按需显示装备属性或描述相关",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "author": "NetEase",
+  "group": "neteaseAttrs"
+}

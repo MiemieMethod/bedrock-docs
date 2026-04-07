@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "header":
+  {
+    "description": "This is a testmod behavior_pack by @Hugo",
+    "name": "TestMod",
+    "uuid": "dc87ccf8-5f4e-4905-adc1-1b76d996f204",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "This is a test mod behavior_pack by @Hugo",
+      "type": "data",
+      "uuid": "e385db8f-5ef0-422d-8ff6-adecf065f0ae",
+      "version": [0, 0, 1]
+    }
+  ]
+}

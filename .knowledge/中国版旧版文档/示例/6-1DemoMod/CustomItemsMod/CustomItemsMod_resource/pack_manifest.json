@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "CustomItemsMod",
+        "name": "CustomItemsMod",
+        "uuid": "1e7adae5-092b-46d8-b44d-d63ee1e7be76",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CustomItemsMod",
+            "type": "resources",
+            "uuid": "ab6a6950-c049-4e68-a6e1-c1831f6d6c05",
+            "version": [0, 0, 1]
+        }
+    ]
+}

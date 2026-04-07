@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Chill",
+        "uuid": "af705db9-77c1-42c1-8b01-973549d38907",
+        "version": [0, 0, 3]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "93496b78-08d8-4374-838d-59d9b3a50106",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,516 @@
+{
+  "attr": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 10,
+    "offset": [
+      3.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "闪避",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "attrv": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 11,
+    "offset": [
+      -3.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "+996",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "baoshi@attrsUI.shuxing": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 12,
+    "offset": [
+      0.0,
+      58.0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      6.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "fumo": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 5,
+    "offset": [
+      3.0,
+      69.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "汉字汉字汉字汉字汉字汉字汉字汉",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "name@attrsUI.name": {}
+      },
+      {
+        "pinzhi@attrsUI.pinzhi": {}
+      },
+      {
+        "desc@attrsUI.desc": {}
+      },
+      {
+        "naijiu@attrsUI.naijiu": {}
+      },
+      {
+        "shuxing@attrsUI.shuxing": {}
+      },
+      {
+        "baoshi@attrsUI.baoshi": {}
+      },
+      {
+        "fumo@attrsUI.fumo": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 654321,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      100.0,
+      80.0
+    ],
+    "texture": "textures/ui/netease_attrs/panel05",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "button_label": {
+    "color": "$label_color",
+    "font_scale_factor": "$label_font_scale_factor",
+    "font_size": "$label_font_size",
+    "font_type": "smooth",
+    "layer": "$label_layer",
+    "max_size": [
+      "100%",
+      "100%"
+    ],
+    "offset": "$label_offset",
+    "shadow": false,
+    "text": "$label_text",
+    "text_alignment": "center",
+    "type": "label"
+  },
+  "default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$default_texture",
+    "type": "image"
+  },
+  "desc": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 5,
+    "offset": [
+      3.0,
+      25.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "汉字汉字汉字汉字汉字汉字汉字汉",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "durability": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 7,
+    "offset": [
+      3.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "耐久",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "empty@common.button": {
+    "$default_texture": "textures/ui/netease_attrs/empty01",
+    "$hover_texture": "textures/ui/netease_attrs/empty01",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 0.2300000041723251,
+    "$label_font_size": "small",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%attrsUI.click",
+    "$pressed_texture": "textures/ui/netease_attrs/empty01",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@attrsUI.default": {}
+      },
+      {
+        "hover@attrsUI.hover": {}
+      },
+      {
+        "pressed@attrsUI.pressed": {}
+      },
+      {
+        "button_label@attrsUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 123456,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$hover_texture",
+    "type": "image"
+  },
+  "main": {
+    "absorbs_input": true,
+    "always_accepts_input": false,
+    "controls": [
+      {
+        "empty@attrsUI.empty": {}
+      },
+      {
+        "bg@attrsUI.bg": {}
+      }
+    ],
+    "force_render_below": false,
+    "is_showing_menu": true,
+    "render_game_behind": true,
+    "render_only_when_topmost": true,
+    "should_steal_mouse": false,
+    "type": "screen"
+  },
+  "naijiu": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "durability@attrsUI.durability": {}
+      },
+      {
+        "value@attrsUI.value": {}
+      }
+    ],
+    "layer": 6,
+    "offset": [
+      0.0,
+      36.0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      6.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "name": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      3.0,
+      3.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "钻石剑",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "namespace": "attrsUI",
+  "part": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 4,
+    "offset": [
+      -3.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "武器",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "pinzhi": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "quality@attrsUI.quality": {}
+      },
+      {
+        "part@attrsUI.part": {}
+      }
+    ],
+    "layer": 2,
+    "offset": [
+      0.0,
+      14.0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      6.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "pressed": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$pressed_texture",
+    "type": "image"
+  },
+  "quality": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 3,
+    "offset": [
+      3.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "钻石剑",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "shuxing": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "attr@attrsUI.attr": {}
+      },
+      {
+        "attrv@attrsUI.attrv": {}
+      }
+    ],
+    "layer": 9,
+    "offset": [
+      0.0,
+      47.0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      6.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "value": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 8,
+    "offset": [
+      -3.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "6",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  }
+}

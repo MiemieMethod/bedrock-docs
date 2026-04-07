@@ -1,0 +1,8 @@
+{
+    "ui_defs": [
+        "ui/UIDemo.json",
+        "ui/MainScreen.json",
+        "ui/PushScreenDemo.json",
+        "ui/UIDemoCommon.json"
+    ]
+}

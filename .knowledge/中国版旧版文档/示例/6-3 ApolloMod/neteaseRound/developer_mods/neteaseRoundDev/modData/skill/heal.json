@@ -1,0 +1,25 @@
+{
+    "identifier": "neteaseRound:heal",
+    "showName": "恢复",
+    "icon": "textures/ui/netease_round/skill_07", 
+    "iconDisable": "textures/ui/netease_round/skill_07_unuse", 
+    "desc": "使指定友方立刻恢复120%*攻击力的生命值，并获得每回合恢复120%*攻击力的生命值的效果1回合",
+    "perform": "neteaseRound:skill:heal",
+    "_comment": "技能消耗的能量",
+    "costEnergy": 2,
+    "_comment": "技能的目标类型：0（仅自己）、1（可选1个友方对象）、2（可选1个敌方对象）、3（随机n个友方对象）、4（随机n个敌方对象）",
+    "targetType": 1,
+    "_comment": "技能的普通伤害，单次技能伤害 = 攻击*技能伤害系数multi + 技能伤害系数extra，技能没有普通伤害的话，配置为一个空列表",
+    "damageList": [
+        {"multi":1.2, "extra":0}
+    ],
+    "_comment": "技能的特殊效果，每个效果独立计算命中，技能没有特殊效果的话，配置为一个空列表",
+    "effectList": [
+        {
+            "_comment": "持续效果的唯一ID",
+            "identifier":"neteaseRound:regain",
+            "_comment": "命中判定的形式，0（必定命中）、1（需要判定命中，技能命中 = 效果命中*命中系数multi + 命中系数extra）",
+            "hitStyle": 0
+        }
+    ]
+}

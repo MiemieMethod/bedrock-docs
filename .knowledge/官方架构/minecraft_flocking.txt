@@ -1,0 +1,21 @@
+{
+    bool "in_water" : opt
+    bool "match_variants" : opt
+    bool "use_center_of_mass" : opt
+    int "low_flock_limit" : opt
+    int "high_flock_limit" : opt
+    float "goal_weight" : opt
+    float "loner_chance" : opt
+    float "influence_radius" : opt
+    float "breach_influence" : opt
+    float "separation_weight" : opt
+    float "separation_threshold" : opt
+    float "cohesion_weight" : opt
+    float "cohesion_threshold" : opt
+    float "innner_cohesion_threshold" : opt
+    float "min_height" : opt
+    float "max_height" : opt
+    float "block_distance" : opt
+    float "block_weight" : opt
+}
+

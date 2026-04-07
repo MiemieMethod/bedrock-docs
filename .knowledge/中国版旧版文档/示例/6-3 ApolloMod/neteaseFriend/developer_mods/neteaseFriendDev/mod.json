@@ -1,0 +1,37 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseFriendDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.11",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.22.0.release20210513",
+
+  "_comment":"该服务器Mod隶属于“好友”插件",
+  "description":"好友 mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["Lobby", "Game"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseFriend",
+
+  "_comment":"好友上限",
+  "FRIENDS_MAX_NUM": 40,
+
+  "_comment":"临时好友上限",
+  "TEMP_MAX_NUM": 50,
+
+  "_comment":"聊天记录存储上限",
+  "RECORD_MAX_NUM": 100,
+
+  "_comment":"聊天最大长度",
+  "RECORD_MAX_LENGTH": 50,
+
+  "_comment": "客户端缓存状态的时间（如已发送申请和已处理申请等）",
+  "CLIENT_CACHE_TIME": 300
+}

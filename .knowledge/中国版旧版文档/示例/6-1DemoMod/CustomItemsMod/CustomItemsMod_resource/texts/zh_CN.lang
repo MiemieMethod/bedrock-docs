@@ -1,0 +1,17 @@
+﻿item.customitems:test0.name=测试物品苹果	#
+item.customitems:test_offhand.name=可以放在副手的苹果	#
+item.customitems:test1.name=测试物品空白	#
+
+item.customitems:modarmor1.name=测试头盔	#
+item.customitems:modarmor2.name=测试鞋子	#
+
+item.customitems:test_sword.name=王者之剑	#
+
+
+item.customitems:head1.name=蜘蛛头盔	#
+
+item.customitems:test_egg.name=生成自定义生物鸡	#
+
+entity.minecraft:mod{customitems:chicken}.name=自定义生物鸡	#
+
+craftingScreen.tab.custom=英雄头盔	#

@@ -1,0 +1,138 @@
+{
+  "name": "top",
+  "type": {
+    "name": "variant",
+    "variant_types": [
+      {
+        "name": "enum",
+        "enum_values": [
+          "escape",
+          "black",
+          "dark_blue",
+          "dark_green",
+          "dark_aqua",
+          "dark_purple",
+          "gold",
+          "gray",
+          "dark_gray",
+          "blue",
+          "green",
+          "aqua",
+          "red",
+          "light_purple",
+          "yellow",
+          "white",
+          "minecoin_gold",
+          "material_quartz",
+          "material_iron",
+          "material_netherite",
+          "material_redstone",
+          "material_copper",
+          "material_gold",
+          "material_emerald",
+          "material_diamond",
+          "material_lapis",
+          "material_amethyst",
+          "obfuscated",
+          "bold",
+          "italic",
+          "reset"
+        ],
+        "version": [
+          {
+            "value": "1.16.100"
+          },
+          {
+            "min": "1.17.0",
+            "max": "1.20.10",
+            "min_exclusivity": false,
+            "max_exclusivity": true
+          }
+        ],
+        "deprecated": [
+          {
+            "min": "1.20.10",
+            "max": "*",
+            "min_exclusivity": false,
+            "max_exclusivity": true
+          }
+        ]
+      },
+      {
+        "name": "object",
+        "properties": [
+          {
+            "name": "value",
+            "type": {
+              "name": "enum",
+              "enum_values": [
+                "escape",
+                "black",
+                "dark_blue",
+                "dark_green",
+                "dark_aqua",
+                "dark_purple",
+                "gold",
+                "gray",
+                "dark_gray",
+                "blue",
+                "green",
+                "aqua",
+                "red",
+                "light_purple",
+                "yellow",
+                "white",
+                "minecoin_gold",
+                "material_quartz",
+                "material_iron",
+                "material_netherite",
+                "material_redstone",
+                "material_copper",
+                "material_gold",
+                "material_emerald",
+                "material_diamond",
+                "material_lapis",
+                "material_amethyst",
+                "obfuscated",
+                "bold",
+                "italic",
+                "reset"
+              ]
+            }
+          }
+        ],
+        "version": [
+          {
+            "min": "1.20.10",
+            "max": "*",
+            "min_exclusivity": false,
+            "max_exclusivity": true
+          }
+        ]
+      }
+    ],
+    "common_type": {},
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.10",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+    int "damagePerHurt|damage_per_hurt" : opt
+    float "timeBetweenHurt|time_between_hurt" : opt
+}
+

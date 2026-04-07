@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "4045178061",
+    "x-format-version": "1.20.60",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:multinoise_generation_rules",
+    "type": "object",
+    "properties": {
+        "target_altitude": {
+            "type": "number"
+        },
+        "target_humidity": {
+            "type": "number"
+        },
+        "target_temperature": {
+            "type": "number"
+        },
+        "target_weirdness": {
+            "type": "number"
+        },
+        "weight": {
+            "type": "number"
+        }
+    }
+}

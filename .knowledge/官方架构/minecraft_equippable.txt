@@ -1,0 +1,20 @@
+{
+    array "slots" : opt
+    {
+        object "<any array element>" : opt
+        {
+            int "slot" : opt
+             "accepted_items" : opt
+            array "accepted_items" : opt
+            {
+                 "<any array element>" : opt
+                 "item" : opt
+            }
+             "item" : opt
+            string "interact_text" : opt
+             "on_equip" : opt
+             "on_unequip" : opt
+        }
+    }
+}
+

@@ -1,0 +1,25 @@
+{
+    "header": {
+        "uuid": "65b6d9fa-4f64-484d-bbb8-360207972232", 
+        "version": [
+            0, 
+            0, 
+            1
+        ], 
+        "description": "this is description of CustomMap", 
+        "name": "CustomMap"
+    }, 
+    "modules": [
+        {
+            "version": [
+                0, 
+                0, 
+                1
+            ], 
+            "type": "resources", 
+            "description": "this is description of CustomMap", 
+            "uuid": "abf8d34d-e84c-47c3-841e-ad8f7266d707"
+        }
+    ], 
+    "format_version": 1
+}

@@ -1,0 +1,199 @@
+{
+    "default": {
+        "$default_text_color|default": [ 0.26, 0.26, 0.26 ],
+        "$label_color": "$default_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$default_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@transactionCommonUI.button_label": {}
+            }
+        ]
+    },
+    "locked": {
+        "$locked_text_color|default": [ 0.69, 0.69, 0.69 ],
+        "$label_color": "$locked_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$locked_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@transactionCommonUI.button_label": {}
+            }
+        ]
+    },
+    "pressed": {
+        "$pressed_text_color|default": [ 1, 1, 1 ],
+        "$label_color": "$pressed_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$pressed_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@transactionCommonUI.button_label": {}
+            }
+        ]
+    },
+    "hover": {
+        "$hover_text_color|default" : [ 1, 1, 1],
+        "$label_color": "$hover_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$hover_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@transactionCommonUI.button_label": {}
+            }
+        ]
+    },
+    "button_label": {
+        "$label_color|default": [ 1, 1, 1 ],
+        "$label_layer|default": 1,
+        "$label_font_size|default": "normal",
+        "$label_offset|default": [ 0, 0 ],
+        "$label_text|default": "",
+        "$label_shadow|default": false,
+        "color": "$label_color",
+        "font_size": "$label_font_size",
+        "font_type": "smooth",
+        "layer": "$label_layer",
+        "max_size": [ "100%", "100%" ],
+        "size": [ "default", "default" ],
+        "offset": "$label_offset",
+        "shadow": "$label_shadow",
+        "text": "$label_text",
+        "text_alignment": "center",
+        "type": "label"
+    },
+    "bagContent": {
+        "type": "panel",
+        "anchor_to": "center",
+        "anchor_from": "center",
+        "controls": [
+            {
+                "scrollingPanel@transactionCommonUI.scrollingPanel": {}
+            }
+        ]
+    },
+    "scrollingPanel@common.scrolling_panel": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "layer": 1,
+        "$scrolling_pane_size": [ "100%", "100%" ],
+        "$scrolling_content": "transactionCommonUI.bagGrid",
+        "$scroll_background_image_control": "transactionCommonUI.scrollViewBg",
+        "$scroll_background_texture" : "textures/ui/scrollview_bg",
+        "$scroll_box_mouse_image_control": "common-classic.button_state_default",
+        "$scroll_size": [ "8px", "100%" ],
+        "visible": true
+    },
+    "scrollViewBg": {
+        "type": "image",
+        "color": [ 0.3647, 0.3647, 0.3647],
+        "texture": "textures/ui/White",
+        "nineslice_size": 1
+    },
+    "bagGrid": {
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "grid_rescaling_type": "horizontal",
+        "collection_name": "bag_grid",
+        "grid_item_template": "transactionCommonUI.itemBtn",
+        "layer": 4,
+        "maximum_grid_items": 36,
+        "size": [ "100%", "default" ],
+        "type": "grid",
+        "visible": true
+    },
+    "itemBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/item_frame",
+        "$hover_texture": "textures/ui/netease_transaction/item_frame",
+        "$pressed_button_name": "",
+        "$pressed_texture": "textures/ui/netease_transaction/item_frame",
+        "$texture_layer": 2,
+        "$default_text_color" : [ 0.26, 0.26, 0.26 ],
+        "$pressed_text_color" : [ 1, 1, 1 ],
+        "$hover_text_color" : [ 1, 1, 1],
+        "is_handle_button_move_event": true,
+        "button_mappings": [],
+        "controls": [
+            {
+                "selectedImg@transactionCommonUI.selectedImg": {}
+            },
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "itemImg@transactionCommonUI.itemImg": {}
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "layer": 1,
+        "pressed_control": "pressed",
+        "size": [ 28, 28 ],
+        "type": "button",
+        "visible": true
+    },
+    "itemImg": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "itemNum@transactionCommonUI.itemNum": {}
+            }
+        ],
+        "layer": 4,
+        "offset": [ 0, 0 ],
+        "size": [ "100% - 4px", "100% - 4px"],
+        "type": "custom",
+        "visible": true,
+        "renderer": "inventory_item_renderer"
+    },
+    "itemNum": {
+        "anchor_from": "bottom_right",
+        "anchor_to": "bottom_right",
+        "font_size": "normal",
+        "font_type": "smooth",
+        "layer": 1,
+        "offset": [ 2, 3 ],
+        "shadow": true,
+        "size": [ "55%", "40%" ],
+        "text": "",
+        "type": "label",
+        "text_alignment" : "right",
+        "visible": true
+    },
+    "selectedImg": {
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "layer": 3,
+        "offset": [ 0, 0 ],
+        "size": [ "100.0%+4.0px", "100.0%+4.0px" ],
+        "texture": "textures/ui/netease_transaction/item_selected",
+        "type": "image",
+        "nineslice_size": 4,
+        "visible": false
+    },
+    "transactionPanelBg": {
+        "texture": "textures/ui/netease_transaction/transaction_bg",
+        "nineslice_size": 4,
+        "type": "image"
+    },
+    "namespace": "transactionCommonUI"
+}

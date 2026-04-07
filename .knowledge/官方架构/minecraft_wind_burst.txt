@@ -1,0 +1,7 @@
+{
+    float "radius" : opt
+    float "knockback_scaling" : opt
+    string "particle_effect" : opt
+    string "sound_effect" : opt
+}
+

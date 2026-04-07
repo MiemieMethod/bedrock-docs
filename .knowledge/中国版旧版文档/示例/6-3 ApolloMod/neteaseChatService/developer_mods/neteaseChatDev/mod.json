@@ -1,0 +1,22 @@
+{
+  "_comment": "mod的名字",
+  "netgame_mod_name": "neteaseChatDev",
+  "_comment": "mod的版本号",
+  "netgame_mod_version": "1.0.5",
+  "_comment": "适用最低的引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+  "_comment": "该服务器Mod隶属于“聊天”插件",
+  "description": "聊天 mod插件",
+  "_comment": "适用的服务器类型",
+  "support_server_type": [
+    "Service"
+  ],
+  "_comment": "作者名字",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseChat",
+  "_comment": "配置service使用到的module_names，对应deploy.json中service下module_names配置",
+  "module_names": [
+    "neteaseChat"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+    "identifier": "neteaseRound:skill:glacier",
+    "actionData": {
+        "attack": {
+            "condition": [],
+            "type": "playAni",
+            "costTime": 1.0,
+            "actor": "actor", 
+            "animate": "skill2"
+        },
+        "attackEffect": {
+            "condition": [],
+            "type": "playBindEffect",
+            "costTime": 1.0,
+            "bind": "actor",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_xue01.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 1.52],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_xue02.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 1.52],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_baodian03.json",
+                    "style": "particle",
+                    "pos": [0.05, 0.01, 1.31],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_ring04.json",
+                    "style": "particle",
+                    "pos": [0, -0.11, 1.32],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_baodian01.json",
+                    "style": "particle",
+                    "pos": [0, 0.25, -0.04],
+                    "rot": [0, 0, 0],
+                    "bone": "spine"
+                },
+                {
+                    "path": "effects/netease_round_baodian02.json",
+                    "style": "particle",
+                    "pos": [0, 0.25, -0.04],
+                    "rot": [0, 0, 0],
+                    "bone": "spine"
+                },
+                {
+                    "path": "effects/netease_round_ring08.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 1.27],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                }
+            ]
+        },
+        "snowEffect": {
+            "condition": [
+                {"type":"finAction", "param":"attack"}
+            ],
+            "type": "playBindEffect",
+            "costTime": 2.0,
+            "_comment": "播放动画的对象，【target】表示技能的释放目标（单个，当有多个目标时，选择第一个目标）",
+            "bind": "target",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_blizzard_di.json",
+                    "style": "sfx",
+                    "pos": [0, 0.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_bfxlz.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 2.90],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_bklz.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_xhlz.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 2.90],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_dimian.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_xhlz_02.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 2.90],
+                    "rot": [90, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_yw_03.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.19],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_blizzard_bklz_02.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.19],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                }
+            ]
+        },
+        "applySkillResult": {
+            "condition": [
+                {"type":"finAction", "param":"snowEffect"}
+            ],
+            "type": "applySkillResult",
+            "costTime": 0.3,
+            "index": null
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Alert",
+        "uuid": "ec067043-97dc-49a2-b366-9578bb1b8053",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "7e2016b9-5ae6-4a36-a5df-d05db0f48eb4",
+            "version": [0, 0, 1]
+        }
+    ]
+}

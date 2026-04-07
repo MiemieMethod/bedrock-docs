@@ -1,0 +1,12 @@
+{
+    string "table" : opt
+    array "slot_drop_chance" : opt
+    {
+        object "<any array element>" : opt
+        {
+            string "slot" : opt
+            float "drop_chance" : opt
+        }
+    }
+}
+

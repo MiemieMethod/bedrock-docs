@@ -1,0 +1,4 @@
+entity.navigationmod:zombie.name=walk寻路测试-僵尸
+entity.navigationmod:drowned.name=generic寻路测试-溺尸
+entity.navigationmod:spider.name=climb寻路测试-蜘蛛
+entity.navigationmod:parrot.name=fly寻路测试-鹦鹉

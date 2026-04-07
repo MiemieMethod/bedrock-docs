@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm5_mushroom_island_shore", 
+            "inherits": "mushroom_island_shore"
+        }, 
+        "components": {
+            "minecraft:overworld_surface": {
+                "floor_depth": 7, 
+                "floor_material": "minecraft:emerald_block", 
+                "foundation_material": "minecraft:iron_block", 
+                "mid_material": "minecraft:gold_block", 
+                "top_material": "minecraft:diamond_block"
+            }
+        }
+    }
+}

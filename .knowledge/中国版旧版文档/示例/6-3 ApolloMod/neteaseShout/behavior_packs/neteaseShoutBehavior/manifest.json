@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Shout",
+        "uuid": "1cda577d-8c3e-499c-a4b3-1ebe222a6ee5",
+        "version": [0, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "6edf5db1-db92-4fdd-9f1b-b44185e27f01",
+            "version": [0, 0, 1]
+        }
+    ]
+}

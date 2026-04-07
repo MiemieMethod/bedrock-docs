@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Menus",
+        "uuid": "dffd5e35-5c7b-4c52-b419-fad32ec64ac0",
+        "version": [1, 0, 4]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "a06bf43e-357a-41a8-9638-f813c766358e",
+            "version": [1, 0, 4]
+        }
+    ]
+}

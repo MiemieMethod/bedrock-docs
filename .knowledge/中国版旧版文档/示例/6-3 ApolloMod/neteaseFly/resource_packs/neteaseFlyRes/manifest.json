@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease lioneldy",
+        "name": "IDV",
+        "uuid": "bdfb4e2e-a59e-49df-804c-e3f530545f0f",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease lioneldy",
+            "type": "resources",
+            "uuid": "aeb8efee-f9b8-4554-b1f2-4bf5b0e50f5f",
+            "version": [0, 0, 1]
+        }
+    ]
+}

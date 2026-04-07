@@ -1,0 +1,15 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm5_mesa", 
+            "inherits": "mesa"
+        }, 
+        "components": {
+            "minecraft:overworld_generation_rules": {
+                "mutate_transformation": "dm5_mesa_bryce"
+            },
+            "dm5": {}
+        }
+    }
+}

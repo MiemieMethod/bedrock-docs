@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customitems:test_sword",
+      "register_to_create_menu": true,
+      "custom_item_type": "weapon"
+    },
+
+    "components": {
+      "minecraft:max_stack_size":1,
+      "minecraft:max_damage":153,
+      "netease:weapon":{
+        "type":"sword",
+        "level":3,
+        "speed":8,
+        "attack_damage":7,
+        "enchantment":10
+      },
+      "netease:fire_resistant":{
+        "value": true
+      }
+    }
+  }
+}

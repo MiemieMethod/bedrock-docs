@@ -1,0 +1,31 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseJewelDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.7",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.22.0.release20210513",
+  "_comment": "插件实现的功能",
+  "description": "扩展战斗属性系统，提供为装备镶嵌宝石功能",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "宝石插件为lobby/game插件",
+  "group": "neteaseJewel",
+  "_comment": "以下为可配置项",
+  "_comment": "装备格子可放入的物品类型，须在战斗插件中配置物品属性，值为该装备可镶嵌宝石的槽位数量，合法值为[1-3]，若设定某装备无法镶嵌宝石，则无需出现在下字典中",
+  "_comment": "装备类物品不要出现在宝石类中，否则判断将会错乱",
+  "Arms": {
+    "minecraft:diamond_sword": 3,
+    "minecraft:golden_sword": 2
+  },
+  "_comment": "槽位格子可放入的物品类型，须在战斗插件中配置物品属性",
+  "_comment": "宝石类物品不要出现在装备类中，否则判断将会错乱",
+  "Gems": {
+    "minecraft:wool:2": {}
+  }
+}

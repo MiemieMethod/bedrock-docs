@@ -1,0 +1,443 @@
+{
+  "button0@common.button": {
+    "$default_texture": "textures/netease/common/button/default",
+    "$hover_texture": "textures/netease/common/button/hover",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "$label_font_scale_factor": 0.6999999880790710,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "取消",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "click",
+    "$pressed_texture": "textures/netease/common/button/pressed",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@shoutUI.default": {}
+      },
+      {
+        "hover@shoutUI.hover": {}
+      },
+      {
+        "pressed@shoutUI.pressed": {}
+      },
+      {
+        "button_label@shoutUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "-23.45%",
+      "30.1%"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "43.83%",
+      "25.24%"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "button1@common.button": {
+    "$default_texture": "textures/netease/common/button/default",
+    "$hover_texture": "textures/netease/common/button/hover",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "$label_font_scale_factor": 0.6999999880790710,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "发送",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$pressed_button_name": "click",
+    "$pressed_texture": "textures/netease/common/button/pressed",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@shoutUI.default": {}
+      },
+      {
+        "hover@shoutUI.hover": {}
+      },
+      {
+        "pressed@shoutUI.pressed": {}
+      },
+      {
+        "button_label@shoutUI.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "23.45%",
+      "30.1%"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "43.83%",
+      "25.24%"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "button_label": {
+    "color": "$label_color",
+    "font_scale_factor": "$label_font_scale_factor",
+    "font_size": "$label_font_size",
+    "font_type": "smooth",
+    "layer": "$label_layer",
+    "max_size": [
+      "100%",
+      "100%"
+    ],
+    "offset": "$label_offset",
+    "shadow": false,
+    "text": "$label_text",
+    "text_alignment": "center",
+    "type": "label"
+  },
+  "default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$default_texture",
+    "type": "image"
+  },
+  "edit_box_background_default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$edit_box_default_texture",
+    "type": "image"
+  },
+  "edit_box_background_hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$edit_box_hover_texture",
+    "type": "image"
+  },
+  "hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$hover_texture",
+    "type": "image"
+  },
+  "image0": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "button0@shoutUI.button0": {}
+      },
+      {
+        "button1@shoutUI.button1": {}
+      },
+      {
+        "label0@shoutUI.label0": {}
+      },
+      {
+        "label1@shoutUI.label1": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 40,
+    "nine_slice_left": 8,
+    "nine_slice_right": 8,
+    "nine_slice_top": 20,
+    "nineslice_size" : [ 8.0, 20.0, 8.0, 40.0 ],
+    "offset": [
+      15.880,
+      -10.0
+    ],
+    "size": [
+      162.0,
+      103.0
+    ],
+    "texture": "textures/ui/netease_shout/panel01",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      32,
+      64
+    ],
+    "visible": true
+  },
+  "image1": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": false,
+    "controls": [
+      {
+        "label3@shoutUI.label3": {}
+      },
+      {
+        "label2@shoutUI.label2": {}
+      }
+    ],
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 14,
+    "nine_slice_right": 10,
+    "nine_slice_top": 0,
+    "nineslice_size" : [ 14.0, 0.0, 10.0, 0.0 ],
+    "offset": [
+      15.0,
+      -94.0
+    ],
+    "size": [
+      204.0,
+      30.0
+    ],
+    "texture": "textures/ui/netease_shout/panel02",
+    "texture_file_system": "",
+    "type": "image",
+    "visible": true,
+    "zip_folder": ""
+  },
+  "label0": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "controls": [
+      {
+        "text_edit_box0@shoutUI.text_edit_box0": {}
+      }
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      0,
+      -10
+    ],
+    "shadow": false,
+    "size": [
+      150,
+      50
+    ],
+    "text": "请输入你要发送的喇叭内容",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "label1": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      -0.0,
+      -42.0
+    ],
+    "shadow": false,
+    "size": [
+      88.0,
+      8.0
+    ],
+    "text": "喇叭",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "label2": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      0.9960784313725490,
+      1.0,
+      0.5607843137254902
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 8,
+    "offset": [
+      -72.0,
+      5.0
+    ],
+    "shadow": false,
+    "size": [
+      50.0,
+      10.0
+    ],
+    "text": "名字醉最多八个字：",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "label3": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      23.0,
+      6.0
+    ],
+    "shadow": false,
+    "size": [
+      142.0,
+      12.0
+    ],
+    "text": "文字这是一段公告文字这是一段公告文字这是一段公字这",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "main": {
+    "absorbs_input": true,
+    "always_accepts_input": false,
+    "controls": [
+      {
+        "image1@shoutUI.image1": {}
+      },
+      {
+        "image0@shoutUI.image0": {}
+      }
+    ],
+    "force_render_below": false,
+    "is_showing_menu": true,
+    "render_game_behind": true,
+    "render_only_when_topmost": true,
+    "should_steal_mouse": false,
+    "type": "screen"
+  },
+  "namespace": "shoutUI",
+  "pressed": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "texture": "$pressed_texture",
+    "type": "image"
+  },
+  "text_edit_box0@common.text_edit_box": {
+    "$edit_box_default_texture": "textures/ui/edit_box_indent",
+    "$edit_box_hover_texture": "textures/ui/edit_box_indent_hover",
+    "$font_size": "normal",
+    "$is_new_nine_slice": false,
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$place_holder_text": "请输入你要发送的喇叭内容",
+    "$place_holder_text_color": [
+      0.50,
+      0.50,
+      0.50
+    ],
+    "$text_background_default": "shoutUI.edit_box_background_default",
+    "$text_background_hover": "shoutUI.edit_box_background_hover",
+    "$text_box_name": "%shoutUI.set_input_string",
+    "$text_box_text_color": [
+      1,
+      1,
+      1
+    ],
+    "$text_edit_box_content_binding_name": "#shoutUI.get_input_string",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "enabled_newline": false,
+    "layer": 1,
+    "max_length": 100,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "edit_box",
+    "visible": true
+  }
+}

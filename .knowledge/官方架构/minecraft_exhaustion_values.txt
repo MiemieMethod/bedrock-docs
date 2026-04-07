@@ -1,0 +1,12 @@
+{
+    float "heal" : opt // Amount of exhaustion applied when healed through food regeneration.
+    float "jump" : opt // Amount of exhaustion applied when jumping.
+    float "sprint_jump" : opt // Amount of exhaustion applied when sprint jumping.
+    float "mine" : opt // Amount of exhaustion applied when mining.
+    float "attack" : opt // Amount of exhaustion applied when attacking.
+    float "damage" : opt // Amount of exhaustion applied when taking damage.
+    float "walk" : opt // Amount of exhaustion applied when walking.
+    float "sprint" : opt // Amount of exhaustion applied when sprinting.
+    float "swim" : opt // Amount of exhaustion applied when swimming.
+}
+

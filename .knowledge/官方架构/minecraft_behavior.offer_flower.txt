@@ -1,0 +1,14 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "max_offer_flower_duration" : opt
+    float "chance_to_start" : opt
+     "filters" : opt
+    vec3 "search_area" : opt
+    float "max_rotation_x" : opt
+    float "max_head_rotation_y" : opt
+}
+

@@ -1,0 +1,15 @@
+{
+    float "duration" : opt
+    float "speed_multiplier" : opt
+    array "boost_items" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "item" : opt
+             "replaceItem|replace_item" : opt
+            int "damage" : opt
+            int "item_damage" : opt
+        }
+    }
+}
+

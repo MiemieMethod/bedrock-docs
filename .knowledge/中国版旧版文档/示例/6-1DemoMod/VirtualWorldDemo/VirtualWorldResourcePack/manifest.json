@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+     "header": {
+        "description": "This is a test mod resource_pack by @Hugo",
+         "name": "TestMod",
+        "uuid": "20e283b0-e0a1-4c08-a547-0a9a8c7488f4",
+       "version": [0, 0, 1]
+     },
+       "modules": [
+    {
+      "description": "This is a test mod resource_pack by @Hugo",
+      "type": "resources",
+      "uuid": "bfd96160-b79e-44fd-ad04-3f996526a0ff",
+      "version": [0, 0, 1]
+    }
+  ]
+}

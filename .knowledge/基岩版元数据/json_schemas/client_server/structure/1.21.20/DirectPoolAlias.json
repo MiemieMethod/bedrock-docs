@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "3330280218",
+    "x-format-version": "1.21.20",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "3634282923": {
+            "title": "Reference",
+            "type": "string"
+        }
+    },
+    "title": "DirectPoolAlias",
+    "type": "object",
+    "properties": {
+        "alias": {
+            "type": "string"
+        },
+        "target": {
+            "$ref": "#/definitions/3634282923"
+        }
+    },
+    "required": [
+        "alias",
+        "target"
+    ]
+}

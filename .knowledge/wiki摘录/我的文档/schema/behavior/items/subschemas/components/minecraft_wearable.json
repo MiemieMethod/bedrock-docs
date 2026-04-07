@@ -1,0 +1,58 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "protection",
+        "type": {
+          "name": "integer",
+          "minimum": 0,
+          "version": [
+            {
+              "min": "1.20.20",
+              "max": "*",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "slot",
+        "type": {
+          "name": "enum",
+          "enum_values": [
+            "slot.weapon.offhand",
+            "slot.armor.head",
+            "slot.armor.chest",
+            "slot.armor.legs",
+            "slot.armor.feet"
+          ]
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.20",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

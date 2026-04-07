@@ -1,0 +1,11 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "fractional_rotation" : opt
+    float "fractional_rotation_limit" : opt
+    float "mount_speed_multiplier" : opt
+}
+

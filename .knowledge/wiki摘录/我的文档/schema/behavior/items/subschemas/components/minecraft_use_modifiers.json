@@ -1,0 +1,31 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "movement_modifier",
+        "type": {
+          "name": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        }
+      },
+      {
+        "name": "use_duration",
+        "type": {
+          "name": "number",
+          "minimum": 0.0
+        }
+      }
+    ],
+    "version": [
+      {
+        "min": "1.20.50",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

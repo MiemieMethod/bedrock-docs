@@ -1,0 +1,179 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseMatchDev",
+   "_comment": "插件版本",
+  "netgame_mod_version": "1.0.1",
+   "_comment": "最低引擎版本",
+  "min_app_version": "1.20.0.release20201123",
+   "_comment": "插件实现的功能",
+  "description": "提供完整的报名、匹配流程。玩家从报名界面中报名，最终产出是匹配好的n个uid列表。",
+   "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["service"],
+   "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+   "_comment": "所属插件组合的名字，报名匹配插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseMatch",
+
+  "_comment": "配置service使用到的module_names，对应deploy.json中service下module_names配置",
+  "module_names": [
+	"neteaseMatch"
+  ],
+
+  "_comment":"匹配活动列表",
+  "activity_list": [
+	{
+	  "_comment":"活动唯一id，要求唯一，不能重复",
+	  "id" : 1,
+
+	  "_comment": "活动名，要求最多8个字",
+	  "name": "测试活动1",
+
+	  "_comment":"活动具体描述，字数没有限制",
+	  "detail": "活动1具体描述，具体描述，test1 test1",
+
+	  "_comment":"报名方式，1：表示单人报名，2：表示组队报名，队长报名则队员也会自动报名，3：表示单人或组队",
+	  "apply_mode": 1,
+
+	  "_comment":"报名方式不匹配错误提示。比如活动要求组队报名，但是玩家却是单人报名，则会提示下面错误",
+	  "not_match_mode_error_message": "需要单人匹配",
+
+	  "_comment":"首次匹配超时时间，单位是秒，超时后客户端会有超时提示。is_match_by_segment为true时不生效",
+	  "first_match_timeout":12,
+
+	  "_comment":"再次匹配超时时间，单位是秒，超时后客户端会有超时提示。is_match_by_segment为true时不生效",
+	  "_comment":"本配置含义是：第一次匹配超时时间为12s，第二次以及后续匹配超时时间为20s",
+	  "again_match_timeout":20,
+
+	  "_comment":"每个阵营需要人数个数。本配置表示：活动有两个阵营，第一个阵营需要1个人，第二个阵营需要2个人",
+	  "group_player_num": [1,2],
+
+	  "_comment":"true：表示分段匹配，要求玩家在同一分段内才匹配，要求配置match_segment。false：不用按照段位值匹配",
+	  "is_match_by_segment":false
+	},
+	{
+	  "_comment":"活动唯一id，要求唯一，不能重复",
+	  "id" : 2,
+
+	  "_comment": "活动名，要求最多8个字",
+	  "name": "测试活动2",
+
+	  "_comment":"活动具体描述，字数没有限制",
+	  "detail": "这是第二个互动，具体描述，haha2 haha2",
+
+	  "_comment":"报名方式，1：表示单人报名，2：表示组队报名，队长报名则队员也会自动报名，3：表示单人或组队",
+	  "apply_mode": 2,
+
+	  "_comment":"报名方式不匹配错误提示。比如活动要求组队报名，但是玩家却是单人报名，则会提示下面错误",
+	  "not_match_mode_error_message": "需要组队匹配",
+
+	  "_comment":"apply_mode为2或3时生效。True表示组队报名的人要求在一个阵营，否则可以在不同阵营",
+	  "is_team_same_group":true,
+
+	  "_comment":"每个阵营需要人数个数",
+	  "group_player_num": [2,3, 4],
+
+	  "_comment":"true：表示分段匹配，要求玩家在同一分段内才匹配，要求配置match_segment。false：不用按照段位值匹配。",
+	  "is_match_by_segment":true,
+
+	  "_comment":"分段列表，按照分段进行匹配，同一分段内的玩家才会匹配在一起。要求is_match_by_segment配置为true",
+	  "match_segment": [
+		{
+		  "_comment":"分段id，要求唯一",
+		  "id":1,
+
+		  "_comment":"最小匹配值",
+		  "min":-10000000,
+
+		  "_comment":"最大匹配值，小于这个值则",
+		  "_comment":"本配置含义，玩家匹配值a，若满足-1000 <= a <= 1000，则玩家会匹配到这个分段值内的其他玩家",
+		  "max":1000,
+
+		  "_comment":"首次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "first_match_timeout":30,
+
+		  "_comment":"再次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "again_match_timeout":60
+		},
+		{
+		  "_comment":"分段id，要求唯一",
+		  "id":2,
+
+		  "_comment":"最小匹配值",
+		  "min":1001,
+
+		  "_comment":"最大匹配值",
+		  "max":100000000000,
+
+		  "_comment":"首次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "first_match_timeout":30,
+
+		  "_comment":"再次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "again_match_timeout":60
+		}
+	  ]
+	},
+
+	{
+	  "_comment":"活动唯一id，要求唯一，不能重复",
+	  "id" : 3,
+
+	  "_comment": "活动名，要求最多8个字",
+	  "name": "测试活动3",
+
+	  "_comment":"活动具体描述，字数没有限制",
+	  "detail": "活动3具体描述，具体描述，huodong3 huodong3",
+
+	  "_comment":"报名方式，1：表示单人报名，2：表示组队报名，队长报名则队员也会自动报名，3：表示单人或组队",
+	  "apply_mode": 3,
+
+	  "_comment":"报名方式不匹配错误提示。比如活动要求组队报名，但是玩家却是单人报名，则会提示下面错误",
+	  "not_match_mode_error_message": "自定义错误",
+
+	  "_comment":"apply_mode为2或3时生效。True表示组队报名的人要求在一个阵营，否则可以在不同阵营",
+	  "is_team_same_group":false,
+
+	  "_comment":"每个阵营需要人数个数。本配置表示：活动有两个阵营，第一个阵营需要1个人，第二个阵营需要2个人",
+	  "group_player_num": [1,2],
+
+	  "_comment":"true：表示分段匹配，要求玩家在同一分段内才匹配，要求配置match_segment。false：不用按照段位值匹配",
+	  "is_match_by_segment":true,
+
+		"_comment":"分段列表，按照分段进行匹配，同一分段内的玩家才会匹配在一起。要求is_match_by_segment配置为true",
+	  "match_segment": [
+		{
+		  "_comment":"分段id，要求唯一",
+		  "id":1,
+
+		  "_comment":"最小匹配值",
+		  "min":0,
+
+		  "_comment":"最大匹配值，小于这个值则",
+		  "_comment":"本配置含义，玩家匹配值a，若满足0 <= a <= 10，则玩家会匹配到这个分段值内的其他玩家",
+		  "max":10,
+
+		  "_comment":"首次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "first_match_timeout":60,
+
+		  "_comment":"再次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "again_match_timeout":20
+		},
+		{
+		  "_comment":"分段id，要求唯一",
+		  "id":2,
+
+		  "_comment":"最小匹配值",
+		  "min":11,
+
+		  "_comment":"最大匹配值",
+		  "max":100,
+
+		  "_comment":"首次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "first_match_timeout":30,
+
+		  "_comment":"再次匹配超时时间，单位是秒，超时后客户端会有超时提示",
+		  "again_match_timeout":10
+		}
+	  ]
+	}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    molang "on_bred" : opt
+    array "on_bred" : opt
+    {
+        molang "<any array element>" : opt
+    }
+    molang "on_death" : opt
+    array "on_death" : opt
+    {
+        molang "<any array element>" : opt
+    }
+}
+

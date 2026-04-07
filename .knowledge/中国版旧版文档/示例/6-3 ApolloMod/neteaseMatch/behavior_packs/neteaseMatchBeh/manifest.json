@@ -1,0 +1,18 @@
+{
+	"header": {
+		"uuid": "54fd00fc-769c-4e22-9e22-8d7d00fe9287",
+		"version": [ 0, 0, 1 ],
+		"description": "By Netease",
+		"name": "neteaseMatch"
+	},
+	"dependencies": [],
+	"modules": [
+		{
+			"version": [  0, 0, 1 ],
+			"type": "data",
+			"description": "By Netease",
+			"uuid": "fa040199-6787-44b9-9923-52101b54daff"
+		}
+	],
+	"format_version": 1
+}

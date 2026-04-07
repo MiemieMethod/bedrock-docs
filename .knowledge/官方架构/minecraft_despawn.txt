@@ -1,0 +1,15 @@
+{
+     "filters" : opt
+    bool "remove_child_entities" : opt
+    int "min_range_inactivity_timer" : opt
+    bool "despawn_from_inactivity" : opt
+    int "min_range_random_chance" : opt
+    bool "despawn_from_chance" : opt
+    bool "despawn_from_simulation_edge" : opt
+    object "despawn_from_distance" : opt
+    {
+        int "min_distance" : opt
+        int "max_distance" : opt
+    }
+}
+

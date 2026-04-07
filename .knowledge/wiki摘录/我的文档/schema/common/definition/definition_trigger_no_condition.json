@@ -1,0 +1,44 @@
+{
+  "name": "top",
+  "type": {
+    "name": "variant",
+    "variant_types": [
+      {
+        "name": "string"
+      },
+      {
+        "name": "object",
+        "properties": [
+          {
+            "name": "event",
+            "type": {
+              "name": "string"
+            }
+          },
+          {
+            "name": "target",
+            "type": {
+              "name": "enum",
+              "enum_values": [
+                "self",
+                "other",
+                "player",
+                "target",
+                "parent",
+                "baby",
+                "block",
+                "damager",
+                "holder",
+                "item"
+              ]
+            },
+            "details": {
+              "default_value": "self"
+            }
+          }
+        ]
+      }
+    ],
+    "common_type": {}
+  }
+}

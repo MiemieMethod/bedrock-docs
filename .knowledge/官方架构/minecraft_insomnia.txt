@@ -1,0 +1,4 @@
+{
+    float "days_until_insomnia" : opt
+}
+

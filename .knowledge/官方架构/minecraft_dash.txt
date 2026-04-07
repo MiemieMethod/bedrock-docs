@@ -1,0 +1,6 @@
+{
+    float "cooldown_time" : opt
+    float "horizontal_momentum" : opt
+    float "vertical_momentum" : opt
+}
+

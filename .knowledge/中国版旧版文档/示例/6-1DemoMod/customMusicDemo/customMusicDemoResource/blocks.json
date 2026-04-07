@@ -1,0 +1,10 @@
+{
+  "portalGateDemo:gateProtal": {
+    "textures": "portalGateDemo:gateProtal",
+    "sound": "glass"
+  },
+  "portalGateDemo:gateProtalBack": {
+    "textures": "portalGateDemo:gateProtalBack",
+    "sound": "glass"
+  }
+}

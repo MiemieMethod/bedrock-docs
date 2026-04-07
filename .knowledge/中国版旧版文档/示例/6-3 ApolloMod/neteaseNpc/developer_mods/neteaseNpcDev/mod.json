@@ -1,0 +1,141 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseNpcDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.4",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.15.0.release20191226",
+
+  "_comment":"该服务器Mod隶属于“功能NPC”插件",
+  "description":"Npc mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["lobby","game"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment":"NPC类型参数配置",
+  "NPCS_TYPE": {
+    "_comment":"typeId，和NPCS_DISTRIBUTE中的typeId对应",
+    "1001":{
+      "_comment":"显示在头顶的名字。长度限制15",
+      "name": "游戏A",
+
+      "_comment":"npc使用哪个实体作为基础模板",
+      "identifier": "minecraft:npc",
+
+      "_comment":"敲击npc仅触发转服询问与转服逻辑",
+      "simpleStyle": true,
+
+      "_comment":"是否显示对话框。",
+      "isTalk": true,
+
+      "_comment":"对话框内容，文本。如果字段isTalk是False，那么本字段不生效。长度限制70",
+      "talkContent": "即将前往gameA玩法，是否确定",
+
+      "_comment":"转服参数，对应netgame_common.json中服务器的type类型。本参数不允许使用中文",
+      "transferServerArgs": "gameA"
+    },
+    "1002":{
+      "_comment":"显示在头顶的名字。长度限制15",
+      "name": "游戏B",
+
+      "_comment":"npc使用哪个实体作为基础模板",
+      "identifier": "minecraft:npc",
+
+      "_comment":"敲击npc触发自定义的server端回调函数",
+      "simpleStyle": false,
+
+      "_comment":"用于定位npc被敲击时，触发哪个回调函数，会调用modName的systemName的system对象的funcName成员函数，回调函数的前两个参数固定为npc的entityId和敲击动作的playerId，后面的参数为funcArgs中的参数",
+      "modName": "neteaseNpc",
+      "systemName": "npcServer",
+      "funcName": "OnNpcBeKnocked",
+      "funcArgs": ["gameB"]
+    },
+    "1003":{
+      "name": "NPC-C",
+      "identifier": "minecraft:npc",
+      "simpleStyle": false,
+      "modName": "Minecraft",
+      "systemName": "AwesomeLobby",
+      "funcName": "OnNpcTouched",
+      "funcArgs": ["gameC"]
+    },
+    "1004":{
+      "name": "返回大厅NPC",
+      "identifier": "minecraft:npc",
+      "simpleStyle": false,
+      "modName": "AwesomeGame",
+      "systemName": "FpsServerSystem",
+      "funcName": "OnNpcTouched",
+      "funcArgs": ["lobby"]
+    },
+    "1005":{
+      "name": "返回大厅NPC",
+      "identifier": "minecraft:npc",
+      "simpleStyle": false,
+      "modName": "Minecraft",
+      "systemName": "TutorialGame",
+      "funcName": "OnNpcTouched",
+      "funcArgs": ["lobby"]
+    },
+    "1006":{
+      "name": "返回大厅NPC",
+      "identifier": "minecraft:npc",
+      "simpleStyle": false,
+      "modName": "Minecraft",
+      "systemName": "gameMod",
+      "funcName": "OnNpcTouched",
+      "funcArgs": ["lobby"]
+    }
+  },
+  "_comment":"NPC分布列表",
+  "NPCS_DISTRIBUTE": [
+    {
+      "typeId" : "1001",
+      "server" : "lobby",
+      "pos" : [1396, 4, 57],
+      "orientations" : [0, 180],
+      "dimensionId" : 4
+    },
+    {
+      "typeId" : "1002",
+      "server" : "lobby",
+      "pos" : [1403, 4, 57],
+      "orientations" : [0, 180],
+      "dimensionId" : 4
+    },
+    {
+      "typeId" : "1003",
+      "server" : "lobby",
+      "pos" : [1410, 4, 57],
+      "orientations" : [0, 180],
+      "dimensionId" : 4
+    },
+    {
+      "typeId" : "1004",
+      "server" : "gameA",
+      "pos" : [5, 4, 5],
+      "orientations" : [0, 180],
+      "dimensionId" : 0
+    },
+    {
+      "typeId" : "1005",
+      "server" : "gameB",
+      "pos" : [5, 4, 5],
+      "orientations" : [0, 180],
+      "dimensionId" : 0
+    },
+    {
+      "typeId" : "1006",
+      "server" : "gameC",
+      "pos" : [5, 4, 5],
+      "orientations" : [0, 180],
+      "dimensionId" : 0
+    }
+  ]
+}
+

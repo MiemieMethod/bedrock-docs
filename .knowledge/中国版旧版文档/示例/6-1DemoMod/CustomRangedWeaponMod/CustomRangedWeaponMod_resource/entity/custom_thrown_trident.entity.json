@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "customrangedweapon:custom_thrown_trident",
+		"materials": { "default": "entity_loyalty_rope" },
+		"textures": {
+		  "default": "textures/entity/custom_thrown_trident"
+		},
+		"geometry": {
+		  "default": "geometry.custom_thrown_trident"
+		},
+		"animations": {
+			"move": "animation.custom_thrown_trident.move"
+		},
+		"scripts": {
+			"animate": [
+			  "move"
+			]
+		},
+		"render_controllers": [ "controller.render.custom_thrown_trident" ]
+	  }
+	}
+  }
+  

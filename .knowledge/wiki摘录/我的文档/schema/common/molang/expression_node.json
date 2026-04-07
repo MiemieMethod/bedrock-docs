@@ -1,0 +1,32 @@
+{
+  "name": "top",
+  "type": {
+    "name": "variant",
+    "variant_types": [
+      {
+        "name": "string"
+      },
+      {
+        "name": "number"
+      },
+      {
+        "name": "object",
+        "properties": [
+          {
+            "name": "expression",
+            "type": {
+              "name": "string"
+            }
+          },
+          {
+            "name": "version",
+            "type": {
+              "name": "integer"
+            }
+          }
+        ]
+      }
+    ],
+    "common_type": {}
+  }
+}

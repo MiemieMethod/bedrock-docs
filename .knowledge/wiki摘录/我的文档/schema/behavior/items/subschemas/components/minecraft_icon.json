@@ -1,0 +1,108 @@
+{
+  "name": "top",
+  "type": {
+    "name": "variant",
+    "variant_types": [
+      {
+        "name": "string",
+        "deprecated": [
+          {
+            "min": "1.20.0",
+            "max": "*",
+            "min_exclusivity": false,
+            "max_exclusivity": true
+          }
+        ]
+      },
+      {
+        "name": "object",
+        "properties": [
+          {
+            "name": "texture",
+            "type": {
+              "name": "string",
+              "version": [
+                {
+                  "value": "1.16.100"
+                },
+                {
+                  "min": "1.17.0",
+                  "max": "1.20.60",
+                  "min_exclusivity": false,
+                  "max_exclusivity": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "textures",
+            "type": {
+              "name": "object",
+              "properties": [
+                {
+                  "name": "textures",
+                  "type": {
+                    "name": "object",
+                    "properties": [
+                      {
+                        "name": "default",
+                        "type": {
+                          "name": "string"
+                        }
+                      }
+                    ],
+                    "additional_property_type": {
+                      "name": "string"
+                    }
+                  }
+                }
+              ],
+              "version": [
+                {
+                  "min": "1.20.60",
+                  "max": "*",
+                  "min_exclusivity": false,
+                  "max_exclusivity": true
+                }
+              ]
+            }
+          }
+        ],
+        "version": [
+          {
+            "value": "1.16.100"
+          },
+          {
+            "min": "1.17.0",
+            "max": "*",
+            "min_exclusivity": false,
+            "max_exclusivity": true
+          }
+        ]
+      }
+    ],
+    "common_type": {},
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.0",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

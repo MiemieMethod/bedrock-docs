@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "residence description",
+        "name": "residence",
+        "uuid": "1bb3aad7-ce1f-4e2b-97fc-814170fc2f0b",
+        "version": [0, 0, 9]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "235d4f2d-a62b-410a-a047-7dd4c79e9246",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "navigationmod:zombie",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "components": {
+    
+      "minecraft:follow_range": {
+        "value": 48,
+        "max": 48
+      },
+      
+      "minecraft:movement": {
+        "value": 0.23
+      },      
+
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+
+      "minecraft:movement.basic": {
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:behavior.float": {
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+
+    }
+  }
+}

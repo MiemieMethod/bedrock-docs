@@ -1,0 +1,26 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseShoutDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.2",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.17.0.release20200709",
+  "_comment": "插件实现的功能",
+  "description": "喇叭",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，喇叭插件由Master插件，Service插件，lobby/game插件",
+  "group": "neteaseShout",
+  "_comment": "以下为可配置项",
+  "_comment": "喇叭内容背景框，是个列表，使用者可将多个背景框资源配置于此，修改小部分代码参数值取得不同的背景框用于显示，具体请以关键字“mContentFrameTextures”搜索shoutServerSystem.py文件的内容",
+  "kinds": [
+    "textures/ui/netease_shout/panel02"
+  ],
+  "_comment": "单次内容字数限制",
+  "wc": 100
+}

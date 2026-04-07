@@ -1,0 +1,15 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "ground_flame_count" : opt
+    float "cooldown_time" : opt
+    float "flame_time" : opt
+    float "roar_time" : opt
+    float "smoke_radius" : opt
+    float "smoke_time" : opt
+    string "smoke_color" : opt
+}
+

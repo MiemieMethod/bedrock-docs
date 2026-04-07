@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customcrop:custom_wheat_seeds",
+	    "register_to_create_menu":true,
+	    "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:seed": {
+        "crop_result": "customcrop:customcrop_stage0",
+        "plant_at": "minecraft:sand"
+      }
+    }
+  }
+}

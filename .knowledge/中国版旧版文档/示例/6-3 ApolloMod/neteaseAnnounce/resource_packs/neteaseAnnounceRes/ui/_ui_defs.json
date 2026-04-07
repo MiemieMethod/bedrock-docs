@@ -1,0 +1,8 @@
+{
+    "ui_defs": [
+        "ui/netease_announce_carouselUI.json",
+        "ui/netease_announce_mailbtnUi.json",
+        "ui/netease_announce_mailUi.json",
+        "ui/netease_announce_noticeUi.json"
+    ]
+}

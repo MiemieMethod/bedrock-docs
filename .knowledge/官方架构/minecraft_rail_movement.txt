@@ -1,0 +1,4 @@
+{
+    float "max_speed" : opt
+}
+

@@ -1,0 +1,3726 @@
+{
+  "back@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$default_texture": "textures/ui/netease_trade/icon09",
+    "$hover_texture": "textures/ui/netease_trade/icon09_click",
+    "$is_new_nine_slice": false,
+    "$labelText": "",
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 1,
+    "$nine_slice_left": 1,
+    "$nine_slice_right": 1,
+    "$nine_slice_top": 1,
+    "$nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "$pressed_button_name": "click",
+    "$pressed_texture": "textures/ui/netease_trade/icon09_click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "$texture_layer": 2,
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      -10.0,
+      7.0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      7.0,
+      7.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "board": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "label0@netease_trade_ui.label0": {}
+      },
+      {
+        "back@netease_trade_ui.back": {}
+      },
+      {
+        "desc@netease_trade_ui.desc": {}
+      },
+      {
+        "confirm@netease_trade_ui.confirm": {}
+      },
+      {
+        "subtotal@netease_trade_ui.subtotal": {}
+      },
+      {
+        "minus@netease_trade_ui.minus": {}
+      },
+      {
+        "plus@netease_trade_ui.plus": {}
+      },
+      {
+        "input@netease_trade_ui.input": {}
+      },
+      {
+        "up@netease_trade_ui.up": {}
+      },
+      {
+        "good_1_bg@netease_trade_ui.good_1_bg": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "layer": 1,
+          "offset": [
+            0.0,
+            27.0
+          ]
+        }
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 10,
+    "nine_slice_buttom": 32,
+    "nine_slice_left": 8,
+    "nine_slice_right": 8,
+    "nine_slice_top": 19,
+    "nineslice_size": [
+      8,
+      19,
+      8,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      173.0,
+      162.0
+    ],
+    "texture": "textures/ui/netease_trade/panel03",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "button_label": {
+    "color": "$label_color",
+    "font_scale_factor": "$label_font_scale_factor",
+    "font_size": "$label_font_size",
+    "font_type": "smooth",
+    "layer": "$label_layer",
+    "max_size": [
+      "100%",
+      "100%"
+    ],
+    "offset": "$label_offset",
+    "shadow": false,
+    "text": "$label_text",
+    "text_alignment": "center",
+    "type": "label"
+  },
+  "c0": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "cost_coin@netease_trade_ui.cost_coin": {}
+      },
+      {
+        "demand@netease_trade_ui.demand": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      53.0,
+      25.0
+    ],
+    "size": [
+      100.0,
+      6.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "close_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$default_texture": "textures/ui/netease_trade/icon09",
+    "$hover_texture": "textures/ui/netease_trade/icon09_click",
+    "$is_new_nine_slice": false,
+    "$labelText": "",
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 1,
+    "$nine_slice_left": 1,
+    "$nine_slice_right": 1,
+    "$nine_slice_top": 1,
+    "$nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "$pressed_button_name": "click",
+    "$pressed_texture": "textures/ui/netease_trade/icon09_click",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "$texture_layer": 2,
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      -6.0,
+      4.0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      8.0,
+      8.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "coin_1_bg": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "coin_1_icon@netease_trade_ui.coin_1_icon": {}
+      },
+      {
+        "coin_1_text@netease_trade_ui.coin_1_text": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 4,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      -25.0,
+      3.0
+    ],
+    "size": [
+      38.0,
+      10.0
+    ],
+    "texture": "textures/ui/netease_trade/balance_frame",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "coin_1_icon": {
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      -3.0,
+      0.0
+    ],
+    "size": [
+      6.0,
+      6.0
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "coin_1_text": {
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.5899999737739563,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      -10.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      6.0
+    ],
+    "text": "666666",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "coin_2_bg": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "coin_2_icon@netease_trade_ui.coin_2_icon": {}
+      },
+      {
+        "coin_2_text@netease_trade_ui.coin_2_text": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 4,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      -66.0,
+      3.0
+    ],
+    "size": [
+      38.0,
+      10.0
+    ],
+    "texture": "textures/ui/netease_trade/balance_frame",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "coin_2_icon": {
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      -3.0,
+      0.0
+    ],
+    "size": [
+      6.0,
+      6.0
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "coin_2_text": {
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.5899999737739563,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      -10.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      6.0
+    ],
+    "text": "666666",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "confirm@common.button": {
+    "$default_texture": "textures/ui/netease_trade/btn01",
+    "$hover_texture": "textures/ui/netease_trade/btn01_hover",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "$label_font_scale_factor": 0.8199999928474426,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "购买",
+    "$nine_slice_buttom": 2,
+    "$nine_slice_left": 2,
+    "$nine_slice_right": 2,
+    "$nine_slice_top": 2,
+    "$nineslice_size": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/btn01_click",
+    "$texture_layer": 2,
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0.0,
+      -6.0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      159.0,
+      23.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "cost_coin": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      6.0,
+      6.0
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "default": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$default_texture",
+    "type": "image"
+  },
+  "demand": {
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.5899999737739563,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      8.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      7.0
+    ],
+    "text": "666666666",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "desc": {
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      0.0,
+      75.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      7.0
+    ],
+    "text": "木炭木炭木炭木炭木炭木炭",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "detail@common.button": {
+    "$default_texture": "textures/ui/netease_trade/mask_bg",
+    "$hover_texture": "textures/ui/netease_trade/mask_bg",
+    "$is_new_nine_slice": true,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/mask_bg",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      },
+      {
+        "board@netease_trade_ui.board": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 44,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "qty": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      7.0
+    ],
+    "text": "1",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "good_1_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_1_pic@netease_trade_ui.good_1_pic": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      4.0,
+      4.0
+    ],
+    "size": [
+      45.0,
+      45.0
+    ],
+    "texture": "textures/ui/netease_trade/panel_inside_02",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_1_limit_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_1_limit_text@netease_trade_ui.good_1_limit_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "-40.5286342%+0px"
+    ],
+    "size": [
+      "100%",
+      "17.6211447%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/panel_inside_09",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_1_limit_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.7031250,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "限购1次（0/1）",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "good_1_pic": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_1_limit_bg@netease_trade_ui.good_1_limit_bg": {}
+      },
+      {
+        "count@netease_trade_ui.count": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100.0%+-2.0px",
+      "100.0%+-2.0px"
+    ],
+    "texture": "textures/ui/netease_trade/img05",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_1_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "12.7753451%+0 px",
+      "41.409716%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "66.0792947%+0 px",
+      "22.0264316%+0px"
+    ],
+    "text": "15",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "good_2_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_2_pic@netease_trade_ui.good_2_pic": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      4.0,
+      4.0
+    ],
+    "size": [
+      45.0,
+      45.0
+    ],
+    "texture": "textures/ui/netease_trade/panel_inside_02",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_2_limit_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_2_limit_text@netease_trade_ui.good_2_limit_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "-40.5286342%+0px"
+    ],
+    "size": [
+      "100%",
+      "17.6211447%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/panel_inside_09",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_2_limit_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.7031250,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "限购1次（0/1）",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "good_2_pic": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_2_limit_bg@netease_trade_ui.good_2_limit_bg": {}
+      },
+      {
+        "count@netease_trade_ui.count": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100.0%+-2.0px",
+      "100.0%+-2.0px"
+    ],
+    "texture": "textures/ui/netease_trade/img05",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_2_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "12.77533%+0 px",
+      "41.409716%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "66.0792947%+0 px",
+      "22.0264316%+0px"
+    ],
+    "text": "15",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "good_3_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_3_pic@netease_trade_ui.good_3_pic": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      4.0,
+      4.0
+    ],
+    "size": [
+      45.0,
+      45.0
+    ],
+    "texture": "textures/ui/netease_trade/panel_inside_02",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_3_limit_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_3_limit_text@netease_trade_ui.good_3_limit_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "-40.5286342%+0px"
+    ],
+    "size": [
+      "100%",
+      "17.6211447%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/panel_inside_09",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_3_limit_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.7031250,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "限购1次（0/1）",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "good_3_pic": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_3_limit_bg@netease_trade_ui.good_3_limit_bg": {}
+      },
+      {
+        "count@netease_trade_ui.count": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100.0%+-2.0px",
+      "100.0%+-2.0px"
+    ],
+    "texture": "textures/ui/netease_trade/img05",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_3_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "12.77533%+0 px",
+      "41.409716%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "66.0792947%+0 px",
+      "22.0264316%+0px"
+    ],
+    "text": "15",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "good_4_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_4_pic@netease_trade_ui.good_4_pic": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "-4.032258%+0px"
+    ],
+    "size": [
+      "87.9844964%+0 px",
+      "61.0215068%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/bg01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_4_limit_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_4_limit_text@netease_trade_ui.good_4_limit_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "-40.5286342%+0px"
+    ],
+    "size": [
+      "98.237884%+0 px",
+      "17.6211447%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/bg06@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_4_limit_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.7031250,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "限购1次（0/1）",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "good_4_pic": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_4_text@netease_trade_ui.good_4_text": {}
+      },
+      {
+        "good_4_limit_bg@netease_trade_ui.good_4_limit_bg": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/example_goods@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_4_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "12.77533%+0 px",
+      "41.409716%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "66.0792947%+0 px",
+      "22.0264316%+0px"
+    ],
+    "text": "15",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "good_5_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_5_pic@netease_trade_ui.good_5_pic": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "-4.032258%+0px"
+    ],
+    "size": [
+      "87.9844964%+0 px",
+      "61.0215068%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/bg01@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_5_limit_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_5_limit_text@netease_trade_ui.good_5_limit_text": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "-40.5286342%+0px"
+    ],
+    "size": [
+      "98.237884%+0 px",
+      "17.6211447%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/bg06@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_5_limit_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2588235294117647,
+      0.2588235294117647,
+      0.2588235294117647
+    ],
+    "font_scale_factor": 0.7031250,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "text": "限购1次（0/1）",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "good_5_pic": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "good_5_text@netease_trade_ui.good_5_text": {}
+      },
+      {
+        "good_5_limit_bg@netease_trade_ui.good_5_limit_bg": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100%+0 px",
+      "100%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/example_goods@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "good_5_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "12.77533%+0 px",
+      "41.4096922%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "66.0792947%+0 px",
+      "22.0264316%+0px"
+    ],
+    "text": "15",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "grocery_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "coin_2_bg@netease_trade_ui.coin_2_bg": {}
+      },
+      {
+        "coin_1_bg@netease_trade_ui.coin_1_bg": {}
+      },
+      {
+        "close_btn@netease_trade_ui.close_btn": {}
+      },
+      {
+        "grocery_desc_text@netease_trade_ui.grocery_desc_text": {}
+      },
+      {
+        "merch_view@netease_trade_ui.merch_view": {}
+      },
+      {
+        "headbar@netease_trade_ui.headbar": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "0%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "texture": "textures/ui/netease_trade/panel_inside_09",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      4,
+      4
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "grocery_desc_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      7.0,
+      4.0
+    ],
+    "shadow": false,
+    "size": [
+      "50.0%+0.0px",
+      "3.2%+0.0px"
+    ],
+    "text": "装备商店",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "headbar": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 3,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      18.0
+    ],
+    "texture": "textures/ui/netease_trade/panel17",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "hover": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$hover_texture",
+    "type": "image"
+  },
+  "image0": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "is_new_nine_slice": false,
+    "layer": 4,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      7.0,
+      7.0
+    ],
+    "texture": "textures/ui/netease_trade/icon30",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "input": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "qty@netease_trade_ui.qty": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 2,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 2,
+    "nineslice_size": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "offset": [
+      64.0,
+      87.0
+    ],
+    "size": [
+      28.0,
+      15.0
+    ],
+    "texture": "textures/ui/netease_trade/panel_input_01",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "label0": {
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "auto_expand": false,
+    "color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      0.0,
+      6.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      7.0
+    ],
+    "text": "购买",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "main@common.base_screen": {
+    "$screen_content": "netease_trade_ui.dual_panel"
+  },
+  "dual_panel": {
+    "controls": [
+      {
+        "trade_panel@netease_trade_ui.trade_panel": {}
+      }
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "panel",
+    "clips_children": false
+  },
+  "merch_1_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "merch_1_name_text@netease_trade_ui.merch_1_name_text": {}
+      },
+      {
+        "good_1_bg@netease_trade_ui.good_1_bg": {}
+      },
+      {
+        "merch_1_buy_btn@netease_trade_ui.merch_1_buy_btn": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      3.0,
+      3.0
+    ],
+    "size": [
+      "32.0%+0.0px",
+      53.0
+    ],
+    "texture": "textures/ui/netease_trade/balance_frame",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_1_buy_btn@common.button": {
+    "$default_texture": "textures/ui/netease_trade/empty",
+    "$hover_texture": "textures/ui/netease_trade/empty",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/empty",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      },
+      {
+        "unit_cost@netease_trade_ui.unit_cost": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "merch_1_coin_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 6,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "-32.4561417%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "17.54386%+0 px",
+      "53.3333361%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_1_coin_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 7,
+    "offset": [
+      "10.0877196%+0 px",
+      "10.6666669%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "65.7894731%+0 px",
+      "66.66667%+0px"
+    ],
+    "text": "123",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_1_name_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      53.0,
+      4.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+-57.0px",
+      15.0
+    ],
+    "text": "木炭木炭木炭木炭木炭木炭",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_2_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "merch_2_name_text@netease_trade_ui.merch_2_name_text": {}
+      },
+      {
+        "good_2_bg@netease_trade_ui.good_2_bg": {}
+      },
+      {
+        "merch_2_buy_btn@netease_trade_ui.merch_2_buy_btn": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      "32.0%+6.0px",
+      3.0
+    ],
+    "size": [
+      "32.0%+0.0px",
+      53.0
+    ],
+    "texture": "textures/ui/netease_trade/balance_frame",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_2_buy_btn@common.button": {
+    "$default_texture": "textures/ui/netease_trade/empty",
+    "$hover_texture": "textures/ui/netease_trade/empty",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/empty",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      },
+      {
+        "unit_cost@netease_trade_ui.unit_cost": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "merch_2_coin_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 6,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "-32.4561417%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "17.54386%+0 px",
+      "53.3333361%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_2_coin_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 7,
+    "offset": [
+      "10.0877196%+0 px",
+      "10.6666669%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "65.7894731%+0 px",
+      "66.66667%+0px"
+    ],
+    "text": "123",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_2_name_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      53.0,
+      4.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+-57.0px",
+      15.0
+    ],
+    "text": "木炭木炭木炭木炭木炭木炭",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_3_bg": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "merch_3_name_text@netease_trade_ui.merch_3_name_text": {}
+      },
+      {
+        "good_3_bg@netease_trade_ui.good_3_bg": {}
+      },
+      {
+        "merch_3_buy_btn@netease_trade_ui.merch_3_buy_btn": {}
+      }
+    ],
+    "is_new_nine_slice": false,
+    "layer": 1,
+    "nine_slice_buttom": 1,
+    "nine_slice_left": 1,
+    "nine_slice_right": 1,
+    "nine_slice_top": 1,
+    "nineslice_size": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      "64.0%+9.0px",
+      3.0
+    ],
+    "size": [
+      "32.0%+0.0px",
+      53.0
+    ],
+    "texture": "textures/ui/netease_trade/balance_frame",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_3_buy_btn@common.button": {
+    "$default_texture": "textures/ui/netease_trade/empty",
+    "$hover_texture": "textures/ui/netease_trade/empty",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/empty",
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      },
+      {
+        "unit_cost@netease_trade_ui.unit_cost": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "merch_3_coin_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 6,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "-32.4561417%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "17.54386%+0 px",
+      "53.3333361%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_3_coin_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 7,
+    "offset": [
+      "10.0877196%+0 px",
+      "10.6666669%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "65.7894731%+0 px",
+      "66.66667%+0px"
+    ],
+    "text": "123",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_3_name_text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 0.8199999928474426,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      53.0,
+      4.0
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+-57.0px",
+      15.0
+    ],
+    "text": "木炭木炭木炭木炭木炭木炭",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_4_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "merch_4_name_text@netease_trade_ui.merch_4_name_text": {}
+      },
+      {
+        "good_4_bg@netease_trade_ui.good_4_bg": {}
+      },
+      {
+        "merch_4_buy_btn@netease_trade_ui.merch_4_buy_btn": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "19.3333328%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "19.1111118%+0 px",
+      "93.0%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/bg03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_4_buy_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$default_texture": "textures/netease/common/button/default",
+    "$hover_texture": "textures/netease/common/button/hover",
+    "$is_new_nine_slice": false,
+    "$labelText": "",
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "Button",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "click",
+    "$pressed_texture": "textures/netease/common/button/pressed",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      },
+      {
+        "merch_4_coin_icon@netease_trade_ui.merch_4_coin_icon": {}
+      },
+      {
+        "merch_4_coin_text@netease_trade_ui.merch_4_coin_text": {}
+      },
+      {
+        "pretender": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 4,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_trade/btn02@3x",
+          "type": "image"
+        }
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "37.6344085%+0px"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "88.3720934%+0 px",
+      "20.16129%+0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "merch_4_coin_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 6,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "-32.4561417%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "17.54386%+0 px",
+      "53.3333361%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_4_coin_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 7,
+    "offset": [
+      "10.0877196%+0 px",
+      "10.6666669%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "65.7894731%+0 px",
+      "66.66667%+0px"
+    ],
+    "text": "123",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_4_name_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "-0.3875969%+0 px",
+      "-40.5913979%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "96.8992233%+0 px",
+      "13.4408608%+0px"
+    ],
+    "text": "木炭",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "merch_5_bg": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "merch_5_name_text@netease_trade_ui.merch_5_name_text": {}
+      },
+      {
+        "good_5_bg@netease_trade_ui.good_5_bg": {}
+      },
+      {
+        "merch_5_buy_btn@netease_trade_ui.merch_5_buy_btn": {}
+      }
+    ],
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "38.7407422%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "19.1111118%+0 px",
+      "93.0%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/bg03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_5_buy_btn@common.button": {
+    "$default_color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "$default_texture": "textures/netease/common/button/default",
+    "$hover_texture": "textures/netease/common/button/hover",
+    "$is_new_nine_slice": false,
+    "$labelText": "",
+    "$label_color": [
+      1,
+      1,
+      1
+    ],
+    "$label_font_scale_factor": 1.0,
+    "$label_font_size": "large",
+    "$label_layer": 3,
+    "$label_offset": [
+      0,
+      0
+    ],
+    "$label_text": "Button",
+    "$nine_slice_buttom": 0,
+    "$nine_slice_left": 0,
+    "$nine_slice_right": 0,
+    "$nine_slice_top": 0,
+    "$nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$pressed_button_name": "click",
+    "$pressed_texture": "textures/netease/common/button/pressed",
+    "$text_offset": [
+      0,
+      0
+    ],
+    "$texture_layer": 2,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      },
+      {
+        "merch_5_coin_icon@netease_trade_ui.merch_5_coin_icon": {}
+      },
+      {
+        "merch_5_coin_text@netease_trade_ui.merch_5_coin_text": {}
+      },
+      {
+        "pretender": {
+          "color": "$default_color",
+          "is_new_nine_slice": true,
+          "layer": 4,
+          "nine_slice_buttom": "$nine_slice_buttom",
+          "nine_slice_left": "$nine_slice_left",
+          "nine_slice_right": "$nine_slice_right",
+          "nine_slice_top": "$nine_slice_top",
+          "texture": "textures/ui/netease_trade/btn02@3x",
+          "type": "image"
+        }
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 1,
+    "offset": [
+      "0%+0 px",
+      "37.6344085%+0px"
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      "88.3720934%+0 px",
+      "20.16129%+0px"
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "merch_5_coin_icon": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "is_new_nine_slice": true,
+    "layer": 6,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      "-32.4561417%+0 px",
+      "0%+0px"
+    ],
+    "size": [
+      "17.54386%+0 px",
+      "53.3333361%+0px"
+    ],
+    "texture": "textures/ui/netease_trade/icon03@3x",
+    "texture_file_system": "",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true,
+    "zip_folder": ""
+  },
+  "merch_5_coin_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 7,
+    "offset": [
+      "10.0877196%+0 px",
+      "10.6666669%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "65.7894731%+0 px",
+      "66.66667%+0px"
+    ],
+    "text": "123",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "merch_5_name_text": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "auto_expand": false,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "font_scale_factor": 1.071428537368774,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      "-0.3875969%+0 px",
+      "-40.5913979%+0px"
+    ],
+    "shadow": false,
+    "size": [
+      "96.8992233%+0 px",
+      "13.4408608%+0px"
+    ],
+    "text": "木炭",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "merch_bar_panel": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "merch_1_bg@netease_trade_ui.merch_1_bg": {}
+      },
+      {
+        "merch_2_bg@netease_trade_ui.merch_2_bg": {}
+      },
+      {
+        "merch_3_bg@netease_trade_ui.merch_3_bg": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      56.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "merch_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "merch_bar_panel@netease_trade_ui.merch_bar_panel": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "merch_view@common.scrolling_panel": {
+    "$background_nine_slice_buttom": 0,
+    "$background_nine_slice_left": 0,
+    "$background_nine_slice_right": 0,
+    "$background_nine_slice_top": 0,
+    "$background_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$box_nine_slice_buttom": 0,
+    "$box_nine_slice_left": 0,
+    "$box_nine_slice_right": 0,
+    "$box_nine_slice_top": 0,
+    "$box_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "$is_background_nine_slice": false,
+    "$is_box_nine_slice": false,
+    "$is_track_nine_slice": false,
+    "$scroll_background_image_control": "netease_trade_ui.scroll_background_image",
+    "$scroll_background_texture": "textures/ui/ScrollRail",
+    "$scroll_bar_right_padding_size": [
+      0,
+      0
+    ],
+    "$scroll_box_mouse_image_control": "netease_trade_ui.scroll_box_image",
+    "$scroll_box_texture": "",
+    "$scroll_box_touch_image_control": "netease_trade_ui.scroll_box_image",
+    "$scroll_size": [
+      4,
+      "100.000000%+0px"
+    ],
+    "$scroll_track_image_control": "netease_trade_ui.scroll_track_image",
+    "$scroll_track_texture": "",
+    "$scroll_view_name": "scroll_view",
+    "$scrolling_content": "netease_trade_ui.merch_panel",
+    "$scrolling_pane_offset": [
+      0,
+      0
+    ],
+    "$scrolling_pane_size": [
+      "100.000000%+0 px",
+      "100.000000%+0px"
+    ],
+    "$show_background": false,
+    "$track_nine_slice_buttom": 0,
+    "$track_nine_slice_left": 0,
+    "$track_nine_slice_right": 0,
+    "$track_nine_slice_top": 0,
+    "$track_nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "offset": [
+      0.0,
+      18.0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+-18.0px"
+    ],
+    "type": "scroll_view",
+    "visible": true
+  },
+  "minus@common.button": {
+    "$default_texture": "textures/ui/netease_trade/btn01",
+    "$hover_texture": "textures/ui/netease_trade/btn01_hover",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "$label_font_scale_factor": 1.169999957084656,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      1,
+      1
+    ],
+    "$label_text": "-",
+    "$nine_slice_buttom": 2,
+    "$nine_slice_left": 2,
+    "$nine_slice_right": 2,
+    "$nine_slice_top": 2,
+    "$nineslice_size": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/btn01_click",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      50.0,
+      87.0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      15.0,
+      15.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "namespace": "netease_trade_ui",
+  "plus@common.button": {
+    "$default_texture": "textures/ui/netease_trade/btn01",
+    "$hover_texture": "textures/ui/netease_trade/btn01_hover",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "$label_font_scale_factor": 1.169999957084656,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      1,
+      1
+    ],
+    "$label_text": "+",
+    "$nine_slice_buttom": 2,
+    "$nine_slice_left": 2,
+    "$nine_slice_right": 2,
+    "$nine_slice_top": 2,
+    "$nineslice_size": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/btn01_click",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      91.0,
+      87.0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      15.0,
+      15.0
+    ],
+    "type": "button",
+    "visible": true
+  },
+  "pressed": {
+    "is_new_nine_slice": "$is_new_nine_slice",
+    "layer": "$texture_layer",
+    "nine_slice_buttom": "$nine_slice_buttom",
+    "nine_slice_left": "$nine_slice_left",
+    "nine_slice_right": "$nine_slice_right",
+    "nine_slice_top": "$nine_slice_top",
+    "nineslice_size": "$nineslice_size",
+    "texture": "$pressed_texture",
+    "type": "image"
+  },
+  "count": {
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 0.6999999880790710,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      0.0,
+      -1.0
+    ],
+    "shadow": true,
+    "size": [
+      100.0,
+      6.0
+    ],
+    "text": "16",
+    "text_alignment": "right",
+    "type": "label",
+    "visible": true
+  },
+  "scroll_background_image": {
+    "is_new_nine_slice": "$is_background_nine_slice",
+    "nine_slice_buttom": "$background_nine_slice_buttom",
+    "nine_slice_left": "$background_nine_slice_left",
+    "nine_slice_right": "$background_nine_slice_right",
+    "nine_slice_top": "$background_nine_slice_top",
+    "nineslice_size": "$background_nineslice_size",
+    "texture": "$scroll_background_texture",
+    "type": "image"
+  },
+  "scroll_box_image": {
+    "is_new_nine_slice": "$is_box_nine_slice",
+    "nine_slice_buttom": "$box_nine_slice_buttom",
+    "nine_slice_left": "$box_nine_slice_left",
+    "nine_slice_right": "$box_nine_slice_right",
+    "nine_slice_top": "$box_nine_slice_top",
+    "nineslice_size": "$box_nineslice_size",
+    "texture": "$scroll_box_texture",
+    "type": "image"
+  },
+  "scroll_track_image": {
+    "is_new_nine_slice": "$is_track_nine_slice",
+    "layer": 3,
+    "nine_slice_buttom": "$track_nine_slice_buttom",
+    "nine_slice_left": "$track_nine_slice_left",
+    "nine_slice_right": "$track_nine_slice_right",
+    "nine_slice_top": "$track_nine_slice_top",
+    "nineslice_size": "$track_nineslice_size",
+    "size": [
+      3,
+      "100%"
+    ],
+    "texture": "$scroll_track_texture",
+    "type": "image"
+  },
+  "cost@rich_text.RichTextPanel": {
+    "$rich_panel_bg": "textures/ui/netease_trade/empty",
+    "$rich_panel_nineslice_size": 0.010,
+    "$rich_panel_font_size" : "normal",
+    "$rich_panel_font_scale_factor" : 1.0,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "visible": true
+  },
+  "subtotal": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "controls": [
+      {
+        "cost@netease_trade_ui.cost": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      14.0,
+      -43.0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      7.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "suck@common.base_screen": {
+    "absorbs_input": true,
+    "always_accepts_input": false,
+    "controls": [
+      {
+        "merch_panel@netease_trade_ui.merch_panel": {}
+      }
+    ],
+    "force_render_below": false,
+    "is_showing_menu": true,
+    "render_game_behind": true,
+    "render_only_when_topmost": true,
+    "should_steal_mouse": false,
+    "type": "screen"
+  },
+  "trade_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "grocery_bg@netease_trade_ui.grocery_bg": {}
+      },
+      {
+        "detail_input_panel": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "controls": [
+            {
+              "detail@netease_trade_ui.detail": {}
+            }
+          ],
+          "layer": 0,
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "type": "input_panel",
+          "modal": true,
+          "visible": false
+        }
+      }
+    ],
+    "layer": 16,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.000000%+0 px",
+      "100.000000%+0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "unit_cost": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "c0@netease_trade_ui.c0": {}
+      },
+      {
+        "c1@netease_trade_ui.c0": {
+          "offset": [
+            53.0,
+            33.0
+          ]
+        }
+      },
+      {
+        "c2@netease_trade_ui.c0": {
+          "offset": [
+            53.0,
+            41.0
+          ]
+        }
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100.0%+0.0px",
+      "100.0%+0.0px"
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "up@common.button": {
+    "$default_texture": "textures/ui/netease_trade/btn01",
+    "$hover_texture": "textures/ui/netease_trade/btn01_hover",
+    "$is_new_nine_slice": false,
+    "$label_color": [
+      0.2901960784313726,
+      0.2901960784313726,
+      0.2901960784313726
+    ],
+    "$label_font_scale_factor": 1.169999957084656,
+    "$label_font_size": "normal",
+    "$label_layer": 3,
+    "$label_offset": [
+      1,
+      1
+    ],
+    "$label_text": "",
+    "$nine_slice_buttom": 2,
+    "$nine_slice_left": 2,
+    "$nine_slice_right": 2,
+    "$nine_slice_top": 2,
+    "$nineslice_size": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "$pressed_button_name": "%netease_trade_ui.click",
+    "$pressed_texture": "textures/ui/netease_trade/btn01_click",
+    "$texture_layer": 2,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_collection_name": "",
+        "binding_condition": "always_when_visible",
+        "binding_type": "collection_details"
+      }
+    ],
+    "button_mappings": [],
+    "controls": [
+      {
+        "default@netease_trade_ui.default": {}
+      },
+      {
+        "hover@netease_trade_ui.hover": {}
+      },
+      {
+        "pressed@netease_trade_ui.pressed": {}
+      },
+      {
+        "button_label@netease_trade_ui.button_label": {}
+      },
+      {
+        "image0@netease_trade_ui.image0": {}
+      }
+    ],
+    "default_control": "default",
+    "hover_control": "hover",
+    "is_handle_button_move_event": true,
+    "layer": 2,
+    "offset": [
+      109.0,
+      87.0
+    ],
+    "pressed_control": "pressed",
+    "size": [
+      15.0,
+      15.0
+    ],
+    "type": "button",
+    "visible": true
+  }
+}

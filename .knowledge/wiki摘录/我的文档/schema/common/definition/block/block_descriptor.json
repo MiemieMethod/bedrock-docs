@@ -1,0 +1,59 @@
+{
+  "name": "top",
+  "type": {
+    "name": "variant",
+    "variant_types": [
+      {
+        "name": "reference",
+        "reference": "#/definition_types/2836600109"
+      },
+      {
+        "name": "string",
+        "min_length": 1
+      }
+    ],
+    "common_type": {}
+  },
+  "definition_types": {
+    "2836600109": {
+      "name": "object",
+      "properties": [
+        {
+          "name": "name",
+          "type": {
+            "name": "string"
+          }
+        },
+        {
+          "name": "states",
+          "type": {
+            "name": "object",
+            "additional_property_type": {
+              "name": "reference",
+              "reference": "#/definition_types/1290538044"
+            }
+          }
+        },
+        {
+          "name": "tags",
+          "type": {
+            "name": "reference",
+            "reference": "../../molang/expression_node_string.json"
+          }
+        }
+      ]
+    },
+    "1290538044": {
+      "name": "variant",
+      "variant_types": [
+        {
+          "name": "string"
+        },
+        {
+          "name": "integer"
+        }
+      ],
+      "common_type": {}
+    }
+  }
+}

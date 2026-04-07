@@ -1,0 +1,24 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "customcrop:customcrop_stage0": {
+      "textures": "textures/blocks/customcrop_stage0"
+    },
+	"customcrop:customcrop_stage1": {
+      "textures": "textures/blocks/customcrop_stage1"
+    },
+    "customcrop:customcrop_stage2": {
+      "textures": "textures/blocks/customcrop_stage2"
+    },
+    "customcrop:customcrop_1_stage0": {
+      "textures": "textures/blocks/customcrop_1_stage0"
+    },
+	  "customcrop:customcrop_1_stage1": {
+      "textures": "textures/blocks/customcrop_1_stage1"
+    },
+    "customcrop:customcrop_1_stage2": {
+      "textures": "textures/blocks/customcrop_1_stage2"
+    }
+	}
+}

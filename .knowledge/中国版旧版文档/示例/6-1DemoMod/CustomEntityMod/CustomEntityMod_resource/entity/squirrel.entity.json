@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "netease:squirrel",
+			"spawn_egg":{
+                "base_color":"#1778D2",
+                "overlay_color":"#1778D2"
+            },
+			"render_controllers": [ "controller.render.squirrel" ],
+			"geometry": {
+				"default": "geometry.squirrel"
+			},
+			"textures": {
+				"red": "textures/entity/squirrel/red",
+				"gray": "textures/entity/squirrel/gray"
+			},
+			"materials": {
+				"red": "entity_alphatest",
+				"gray": "custom_entity"
+			},
+			"animations": {
+				"move": "animation.squirrel.move",
+				"idle": "animation.squirrel.idle",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{ "general": "controller.animation.squirrel.general"}
+			]
+		}
+	}
+}

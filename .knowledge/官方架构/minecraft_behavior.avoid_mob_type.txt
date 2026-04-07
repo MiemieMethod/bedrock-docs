@@ -1,0 +1,23 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    bool "ignore_visibility" : opt
+    int "avoid_target_xz" : opt
+    int "avoid_target_y" : opt
+    float "max_dist" : opt
+    float "max_flee" : opt
+    float "probability_per_strength" : opt
+    float "river_speed_multiplier" : opt
+    float "sprint_distance" : opt
+    float "sprint_speed_multiplier" : opt
+    float "walk_speed_multiplier" : opt
+    entity_types "entity_types" : opt
+    bool "remove_target" : opt
+     "on_escape_event" : opt
+    string "avoid_mob_sound" : opt
+    float_range "sound_interval" : opt
+}
+

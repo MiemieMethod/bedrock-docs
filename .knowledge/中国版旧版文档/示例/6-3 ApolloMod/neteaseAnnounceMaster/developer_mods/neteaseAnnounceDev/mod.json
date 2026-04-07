@@ -1,0 +1,16 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseAnnounceMaster",
+   "_comment": "插件版本",
+  "netgame_mod_version": "1.0.13",
+   "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+   "_comment": "插件实现的功能",
+  "description": "插件实现3个功能，1个是登录弹窗，1个是公告功能，1个是邮件",
+   "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["master"],
+   "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+   "_comment": "所属插件组合的名字，公告插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseAnnounce"
+}

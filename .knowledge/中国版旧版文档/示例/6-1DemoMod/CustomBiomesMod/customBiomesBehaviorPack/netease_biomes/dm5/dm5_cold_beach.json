@@ -1,0 +1,20 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm5_cold_beach", 
+            "inherits": "cold_beach"
+        },
+        "components": {
+            "minecraft:surface_parameters": {
+                "sea_floor_depth": 7, 
+                "sea_floor_material": "minecraft:emerald_block",
+                "foundation_material": "minecraft:iron_block",
+                "mid_material": "minecraft:gold_block",
+                "top_material": "minecraft:diamond_block",
+                "sea_material": "minecraft:water"
+            },
+            "dm5": {}
+        }
+    }
+}

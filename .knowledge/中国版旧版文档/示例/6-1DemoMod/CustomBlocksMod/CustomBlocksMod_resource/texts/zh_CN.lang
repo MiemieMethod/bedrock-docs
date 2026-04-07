@@ -1,0 +1,14 @@
+﻿tile.customblocks:customblocks_test0.name=上表面随机旋转的自定义方块	#
+tile.customblocks:customblocks_test_ore.name=矿物自定义方块	#
+tile.customblocks:customblocks_test_face4.name=四面向自定义方块	#
+tile.customblocks:customblocks_test_face6.name=六面向自定义方块	#
+tile.customblocks:customblocks_test_mobspawner.name=自定义刷怪箱方块-原生生物	#
+tile.customblocks:customblocks_test_mobspawner1.name=自定义刷怪箱方块-微软自定义生物	#
+tile.customblocks:customblocks_test_portal_blue.name=自定义传送门方块-蓝-前往维度3	#
+tile.customblocks:customblocks_test_block_entity.name=含自定义方块实体的方块	#
+tile.customblocks:customblocks_model_decoration.name=方块模型-四面向装饰品	#
+tile.customblocks:customblocks_model_wire.name=方块模型-可连接电线	#
+tile.customblocks:customblocks_model_flower.name=方块模型-花	#
+tile.customblocks:customblocks_redstone.name=自定义红石	#
+tile.customblocks:customblocks_redstone_consumer.name=自定义红石机械元件	#
+item.spawn_egg.entity.neteasebiomes:dm5_polar_bear.name=生成微软自定义生物	#

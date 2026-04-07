@@ -1,0 +1,16 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    bool "attack_owner" : opt
+    bool "must_reach" : opt
+    bool "must_see" : opt
+    float "within_radius" : opt
+    float "must_see_forget_duration" : opt
+    float "persist_time" : opt
+    entity_types "entity_types" : opt
+    float "attack_chance" : opt
+}
+

@@ -1,0 +1,46 @@
+{
+    "format_version": "1.14.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm23333_ice_plains", 
+            "inherits": "ice_plains"
+        }, 
+        "components": {
+            "minecraft:surface_parameters": {
+                "sea_floor_depth": 7,
+                "sea_floor_material": "minecraft:emerald_block",
+                "foundation_material": "minecraft:iron_block",
+                "mid_material": "minecraft:gold_block",
+                "top_material": "minecraft:diamond_block",
+                "sea_material": "minecraft:water"
+            },
+            "minecraft:overworld_generation_rules": {
+                "hills_transformation": "dm23333_ice_plains", 
+                "mutate_transformation": "dm23333_ice_plains", 
+                "generate_for_climates": [
+                    [
+                        "medium", 
+                        1
+                    ], 
+                    [
+                        "warm", 
+                        1
+                    ], 
+                    [
+                        "lukewarm", 
+                        1
+                    ], 
+                    [
+                        "cold", 
+                        1
+                    ], 
+                    [
+                        "frozen", 
+                        1
+                    ]
+                ]
+            },
+            "dm23333": {}
+        }
+    }
+}

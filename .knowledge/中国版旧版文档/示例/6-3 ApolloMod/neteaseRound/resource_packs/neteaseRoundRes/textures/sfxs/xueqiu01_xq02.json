@@ -1,0 +1,250 @@
+{
+  "frames": [
+    {
+      "filename": "xueqiu_00000.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 260,
+        "y": 260
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00001.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 260,
+        "y": 130
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00002.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 130,
+        "y": 260
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00003.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 130,
+        "y": 130
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00004.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 260,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00005.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 130,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00006.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 260
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00007.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 130
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "xueqiu_00008.png",
+      "frame": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "sourceSize": {
+        "h": 130,
+        "w": 130
+      },
+      "spriteSourceSize": {
+        "h": 130,
+        "w": 130,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "format": "RGBA8888",
+    "image": "xueqiu01_xq02.png",
+    "scale": "1",
+    "size": {
+      "h": 390,
+      "w": 390
+    },
+    "smartupdate": "$TexturePacker:SmartUpdate:0a7087f2391e1e91b1709b96d032619e$",
+    "version": "1.0"
+  }
+}

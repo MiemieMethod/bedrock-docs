@@ -1,0 +1,59 @@
+{
+    version "format_version"
+    object "animation_controllers"
+    {
+        object "controller\.animation\.<identifier>"
+        {
+            object "states"
+            {
+                object "<identifier>"
+                {
+                    array "parameters" : opt
+                    {
+                        string "<any array element>"
+                    }
+                    array "animations" : opt
+                    {
+                        object "<any array element>"[1]
+                        {
+                            array "<identifier>"
+                            {
+                                object "<any array element>" : opt
+                                {
+                                    float "<time_stamp>" : opt
+                                }
+                            }
+                        }
+                    }
+                    array "transitions" : opt
+                    {
+                        object "<any array element>"[1] : opt
+                        {
+                            molang "<identifier>"
+                        }
+                    }
+                    array "particle_effects" : opt
+                    {
+                        object "<any array element>" : opt
+                        {
+                            string "effect" // The name of a particle effect that should be played
+                            string "locator" : opt // The name of a locator on the actor where the effect should be located
+                            string "pre_effect_script" : opt // A Molang script that will be run when the particle emitter is initialized
+                            bool "bind_to_actor" : opt // Set to false to have the effect spawned in the world without being bound to an actor (by default an effect is bound to the actor).
+                        }
+                    }
+                    array "on_entry" : opt
+                    {
+                        string "<any array element>" : opt
+                    }
+                    array "on_exit" : opt
+                    {
+                        string "<any array element>" : opt
+                    }
+                }
+            }
+            string "initial_state" : opt
+        }
+    }
+}
+

@@ -1,0 +1,1488 @@
+本页面介绍基岩版'''LevelDB中存储的键值对记录'''的数据结构。若无特殊说明，涉及到端序时默认为小端序。若无特殊说明，区块中三个坐标的读取顺序均为X、Z、Y。
+
+== 区块 ==
+
+键名的格式为{{code|<int32_t: x><int32_t: y><int32_t: dimension runtime id><int8_t: level chunk tag><int8_t: subchunk index>}}，其中{{cd|dimension runtime id}}仅当区块所在维度不是主世界时才存在，{{cd|subchunk index}}仅当{{cd|level chunk tag}}为{{cd|SubChunkPrefix}}（47）时才存在，这意味着对于区块的绝大多数记录，其键名为一个9或13个字节长度的字符串，而对于该区块内子区块的记录，其键名字符串的长度为10或14个字节。以下为'''存档区块标签（Level Chunk Tag）'''的类型表格。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 存档区块标签
+! colspan=3 | 标签字节
+! rowspan=2 | 名称
+! rowspan=2 | 描述
+|-
+! <abbr title="Decimal">Dec</abbr> !! <abbr title="Hexadecimal">Hex</abbr> !! ASCII
+|-
+|43||2B||<code>+</code>||Data3D||当前区块的[[高度图]]和三维[[生物群系]]数据
+|-
+|44||2C||<code>,</code>||Version||当前区块的格式版本
+|-
+|45||2D||<code>-</code>||Data2D||当前区块的[[高度图]]和二维[[生物群系]]数据
+|-
+|46||2E||<code>.</code>||Data2DLegacy||当前区块的[[高度图]]和旧版[[生物群系]]数据
+|-
+|47||2F||<code>/</code>||SubChunkPrefix||当前区块中一个16×16×16子区块的地形数据
+|-
+|48||30||<code>0</code>||LegacyTerrain||当前整个区块的旧版地形数据
+|-
+|49||31||<code>1</code>||BlockEntity||当前区块的[[方块实体]]数据
+|-
+|50||32||<code>2</code>||Entity||当前区块的旧版[[实体]]数据
+|-
+|51||33||<code>3</code>||PendingTicks||当前区块的[[计划刻]]数据
+|-
+|52||34||<code>4</code>||LegacyBlockExtraData||当前区块的旧版方块额外数据
+|-
+|53||35||<code>5</code>||BiomeState||当前区块的生物群系状态
+|-
+|54||36||<code>6</code>||FinalizedState||当前区块的最终化状态
+|-
+|55||37||<code>7</code>||ConversionData||当前区块的地形转换数据
+|-
+|56||38||<code>8</code>||BorderBlocks||当前区块的[[边界]]方块数据
+|-
+|57||39||<code>9</code>||HardcodedSpawners||当前区块的硬编码生成区域
+|-
+|58||3A||<code>:</code>||RandomTicks||当前区块的[[随机刻]]数据
+|-
+|59||3B||<code>;</code>||Checksums||当前区块中某些标签所存储数据的xxHash校验和
+|-
+|60||3C||<code><</code>||GenerationSeed||当前区块的生成[[种子]]
+|-
+|61||3D||<code>=</code>||GeneratedPreCavesAndCliffsBlending||当前区块是否使用了[[洞穴与山崖]]之前的区块融合
+|-
+|62||3E||<code>></code>||BlendingBiomeHeight||当前区块的融合生物群系高度图
+|-
+|63||3F||<code>?</code>||MetaDataHash||当前区块元数据NBT复合标签的哈希值
+|-
+|64||40||<code>@</code>||BlendingData||当前区块的无缝融合数据
+|-
+|65||41||<code>A</code>||ActorDigestVersion||当前区块的新版实体存储格式下的实体摘要版本
+|-
+|110||6E||<code>n</code>||VersionEnchant||当前区块的附魔版本{{only|china}}
+|-
+|111||6F||<code>o</code>||VersionMarkInsert||当前区块的维度版本标记{{only|china}}
+|-
+|118||76||<code>v</code>||LegacyVersion||当前区块的格式版本旧版数据
+|-
+|119||77||<code>w</code>||AabbVolumes||当前区块的AABB区域数据
+|}
+
+以下为各个标签的值的存储格式。
+
+=== Data3D ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid|existonsave=1}}：负载。
+** '''int16_t[256]'''{{/Asteroid|required=1|existonsave=1}}''Heightmap''：当前区块16×16范围的高度图。
+** '''blob[''DimensionHeightInSubchunks'']'''{{/Asteroid|required=1|existonsave=1}}''Biomes''：当前区块的所有生物群系数据，其中每个元素为一个子区块的存储单元，从最低的子区块向高排列。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''TypeAndNetwork''：当前子区块存储单元的存储类型，只有最高的7个比特位有意义，代表类型的取值，最低比特位始终为1。子区块非空时，存储类型可取值{{cd|0|1|2|3|4|5|6|8|16|d=、|fd=或}}，同时代表当前存储单元中生物群系调色板的元素数量的比特数上限，子区块为空时，存储类型取值{{cd|127}}。因此该位置实际存储的值为类型的2倍加1，即{{cd|1|3|5|7|9|11|13|17|33|255|d=、|fd=或}}。
+*** '''当''TypeAndNetwork''为{{cd|1}}，即类型为{{cd|0}}时：'''
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''Palette''：整个子区块使用的唯一生物群系的数字ID。
+*** '''当''TypeAndNetwork''不为{{cd|255}}且不为{{cd|1}}，即子区块非空且类型不为{{cd|0}}时：'''
+**** '''uint32_t[<math>\left\lceil\frac{4096}{\left\lfloor\frac{32}{\text{类型}}\right\rfloor}\right\rceil</math>]'''{{/Asteroid|required=1|existonsave=1}}''Element''：当前子区块存储单元使用的生物群系数据。整个数据区域被划分为16×16×16＝4096个槽位，每个槽位的长度等于当前单元的存储类型，其内存储的值是当前方块使用的生物群系在调色板内的索引。对于无法将32除尽的槽位长度，uint32_t多出的高比特位将不会使用。同一个uint32_t中存有多个槽位时，槽位按照从低比特位到高比特位的顺序访问。
+**** '''blob'''{{/Asteroid|required=1|existonsave=1}}''Palette''：当前子区块存储单元的调色板。
+***** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''Size''：调色板实际包含的生物群系数量，不会超过存储类型的数值。游戏在读取时，会将其值钳制在1到<math>2^\text{类型}</math>之间，特别地，如果类型为16，只会钳制在1到16×16×16＝4096之间。
+***** '''int32_t[''Size'']'''{{/Asteroid|required=1|existonsave=1}}''Array''：调色板数组，其中每个元素是一个生物群系的数字ID。
+</div>
+
+=== Version ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid|required=1|existonsave=1}}：负载。
+** '''int8_t'''{{/Asteroid|required=1|existonsave=1}}''LevelChunkFormat''：当前区块持久化时的存档区块格式版本。
+</div>
+
+'''存档区块格式（Level Chunk Format）'''用于确定该区块内的数据如何解析，并在必要时用于兼容旧版本生成的世界，具体表现为在检测到旧版本的存档区块格式后，会按照旧版本的格式解析，并重新按照新版本的格式保存。以下为存档区块格式的表格。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 存档区块格式
+! 值
+! 名称
+! 描述
+|-
+|0||v9_00||[[携带版0.9.0]]之后的存档
+|-
+|1||v9_02||[[携带版0.9.2]]之后的存档
+|-
+|2||v9_05||[[携带版0.9.5]]之后的存档
+|-
+|3||v17_0||[[携带版0.17.0.1]]之后的存档
+|-
+|4||v18_0||[[携带版1.1.0]]存档
+|-
+|5||vConsole1_to_v18_0||由原主机版存档转换而来的[[携带版1.1.0]]存档
+|-
+|6||v1_2_0||[[基岩版1.2.0.2]]之后的存档
+|-
+|7||v1_2_0_bis||[[基岩版1.2.0]]之后的存档
+|-
+|8||v1_3_0||[[基岩版1.2.13]]存档
+|-
+|9||v1_8_0||[[基岩版1.8.0]]存档
+|-
+|10||v1_9_0||[[基岩版1.9.0]]存档
+|-
+|11||v1_10_0||[[基岩版1.11.0.1]]之后的存档
+|-
+|12||v1_11_0||[[基岩版1.11.0.3]]之后的存档
+|-
+|13||v1_11_1||[[基岩版1.11.0.4]]之后的存档
+|-
+|14||v1_11_2||[[基岩版1.11.1]]之后的存档
+|-
+|15||v1_12_0||[[基岩版1.12.0.4]]之后的存档
+|-
+|16||v1_14_0||[[基岩版1.14.0]]某次{{info needed|哪次？}}更新之后的的存档
+|-
+|17||v1_15_0||[[基岩版1.15.0]]某次{{info needed|哪次？}}更新之后的的存档
+|-
+|18||v1_16_0||[[基岩版1.16.0.51]]之后的存档
+|-
+|19||v1_16_0_bis||[[基岩版1.16.0]]之后的存档
+|-
+|20||v1_16_100||[[基岩版1.16.100.52]]之后的存档
+|-
+|21||v1_16_100_bis||[[基岩版1.16.100.57]]之后的存档
+|-
+|22||v1_16_210||[[基岩版1.16.210]]之后的存档
+|-
+|23||v1_16_300_caves_cliffs_part_1||[[基岩版1.16.220.50]]之后开启{{Experiment|caves_and_cliffs_en|exg=1}}实验性玩法的存档
+|-
+|24||v1_16_300_caves_cliffs_internal_v1||[[基岩版1.16.220.50]]之后开启{{Experiment|caves_and_cliffs_en|exg=1}}实验性玩法对应的开发构建的存档
+|-
+|25||v1_16_300_caves_cliffs_part_2||[[基岩版1.16.230.50]]之后开启{{Experiment|caves_and_cliffs_en|exg=1}}实验性玩法的存档
+|-
+|26||v1_16_300_caves_cliffs_internal_v2||[[基岩版1.16.230.50]]之后开启{{Experiment|caves_and_cliffs_en|exg=1}}实验性玩法对应的开发构建的存档
+|-
+|27||v1_16_300_caves_cliffs_part_3||[[基岩版1.17.30.23]]之后开启{{Experiment|CnC_|exg=1}}实验性玩法的存档
+|-
+|28||v1_16_300_caves_cliffs_internal_v3||[[基岩版1.17.30.23]]之后开启{{Experiment|CnC_|exg=1}}实验性玩法对应的开发构建的存档
+|-
+|29||v1_16_300_caves_cliffs_part_4||[[基岩版1.17.30.25]]之后开启{{Experiment|CnC_|exg=1}}实验性玩法的存档
+|-
+|30||v1_16_300_caves_cliffs_internal_v4||[[基岩版1.17.30.25]]之后开启{{Experiment|CnC_|exg=1}}实验性玩法对应的开发构建的存档
+|-
+|31||v1_16_300_caves_cliffs_part_5||[[基岩版1.17.40.20]]之后开启{{Experiment|CnC_|exg=1}}实验性玩法的存档
+|-
+|32||v1_16_300_caves_cliffs_internal_v5||[[基岩版1.17.40.20]]之后开启{{Experiment|CnC_|exg=1}}实验性玩法对应的开发构建的存档
+|-
+|33||v1_18_0||[[基岩版1.18.0.20]]之后的存档
+|-
+|34||V1_18_0_internal||[[基岩版1.18.0.20]]之后对应的开发构建的存档
+|-
+|35||v1_18_1||[[基岩版1.18.0.22]]之后的存档
+|-
+|36||v1_18_1_internal||[[基岩版1.18.0.22]]之后对应的开发构建的存档
+|-
+|37||v1_18_2||[[基岩版1.18.0.24]]之后的存档
+|-
+|38||v1_18_2_internal||[[基岩版1.18.0.24]]之后对应的开发构建的存档
+|-
+|39||v1_18_3||[[基岩版1.18.0.25]]之后的存档
+|-
+|40||v1_18_3_individual_actor_storage||[[基岩版1.18.30]]实体升级为独立存储之后的存档
+|-
+|41||v1_21_4||[[基岩版1.21.40]]之后的存档
+|-
+|42||v1_21_120||[[基岩版1.21.120]]之后的存档
+|}
+
+=== Data2D ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid|existonsave=1}}：负载。
+** '''int16_t[256]'''{{/Asteroid|required=1|existonsave=1}}''Heightmap''：当前区块16×16范围的高度图。
+** '''当剩余字节数大于或等于512时：'''
+*** '''uint16_t[256]'''{{/Asteroid|required=1|existonsave=1}}''Biomes''：当前区块16×16范围的所有生物群系数据，其中每个元素是一个生物群系的数字ID。
+** '''当剩余字节数不足512时：'''
+*** '''uint8_t[256]'''{{/Asteroid|required=1|existonsave=1}}''Biomes''：当前区块16×16范围的所有生物群系数据，其中每个元素是一个生物群系的数字ID。
+</div>
+
+=== Data2DLegacy ===
+
+目前，该键会被正常读取，但在游戏重新保存当前区块时，该键会被删除。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int16_t[256]'''{{/Asteroid|required=1|existonsave=1}}''Heightmap''：当前区块16×16范围的高度图。
+** '''blob[256]'''{{/Asteroid|required=1|existonsave=1}}''Biomes''：当前区块16×16范围的所有生物群系数据，其中每个元素是一个生物群系的记录，包括一个生物群系ID以及一组RGB。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Biome''：生物群系的数字ID。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''R''：R通道值，当前已弃用。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''G''：G通道值，当前已弃用。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''B''：B通道值，当前已弃用。
+</div>
+
+=== SubChunkPrefix ===
+
+当存档区块格式从{{cd|v1_16_300_caves_cliffs_internal_v1}}（24）到{{cd|v1_16_300_caves_cliffs_internal_v3}}（28）时，键名中读取到的{{cd|subchunk index}}需要减4才是子区块正确的绝对索引值，在超平坦世界的某些{{info needed|哪些？}}特殊情形下，{{cd|subchunk index}}需要加4才是子区块正确的绝对索引值，其他情形下读取到的{{cd|subchunk index}}就是子区块绝对索引值。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Format''：当前子区块持久化时的子区块格式版本。
+** '''当''Format''为{{cd|v17_0}}（0）或从{{cd|v17_0_badly_converted1}}（2）到{{cd|v17_0_badly_converted6}}（7）时：'''
+*** '''uint8_t[4096]'''{{/Asteroid|required=1|existonsave=1}}''BlockIDs''：当前区块16×16×16范围的方块数字ID。
+*** '''uint8_t[2048]'''{{/Asteroid|required=1|existonsave=1}}''Data''：当前区块16×16×16范围的方块数据值，每两个位置存储于同一个uint8_t中，其中偶数位置存于低半字节，奇数位置存于高半字节。
+*** '''uint8_t[2048]'''{{/Asteroid|required=1|existonsave=1}}''SkyLights''：当前区块16×16×128范围的天空光照，存储方式与''Data''相同，当前已弃用。
+*** '''uint8_t[2048]'''{{/Asteroid|required=1|existonsave=1}}''BlockLights''：当前区块16×16×128范围的方块光照，存储方式与''Data''相同，当前已弃用。
+** '''当''Format''为{{cd|v1_3_0}}（1）或大于或等于{{cd|v1_3_0_2}}（8）时：'''
+*** '''当''Format''大于或等于{{cd|v1_3_0_2}}（8）时：'''
+**** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''LayerCount''：当前子区块的图层数，大于2时会在区块加载时被强制设置为2。如果未读到该值，图层数默认为1层。
+*** '''当''Format''大于或等于{{cd|v1_3_0_3}}（9）时：'''
+**** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''AbsoluteIndex''：当前子区块的绝对索引值。
+*** '''blob[''LayerCount'']'''{{/Asteroid|required=1|existonsave=1}}''Layers''：当前子区块的所有图层，其中第0层为主方块，第1层为额外方块，额外方块用于[[含水]]、[[含雪]]等。
+**** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''TypeAndNetwork''：当前子区块存储单元的存储类型以及当前数据流是否正在用于网络通信，后者用于决定调色板是数字值的还是复合标签值的。最低比特位代表是否用于网络通信，剩下的7个高比特位代表存储单元的存储类型。存储类型的取值与3D生物群系相同，见[[#Data3D|§Data3D]]。
+**** '''当类型为{{cd|0}}时：'''
+***** '''当用于网络通信时：'''
+****** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''Palette''：整个子区块使用的唯一的方块运行时ID。
+***** '''当不是用于网络通信时：'''
+****** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Palette''：整个子区块使用的唯一的方块序列化复合标签。
+******* {{bedrock nbt|方块|others}}
+**** '''当子区块非空且类型不为{{cd|0}}时：'''
+***** '''uint32_t[<math>\left\lceil\frac{4096}{\left\lfloor\frac{32}{\text{类型}}\right\rfloor}\right\rceil</math>]'''{{/Asteroid|required=1|existonsave=1}}''Element''：当前子区块存储单元使用的方块数据。数据的格式与3D生物群系相同，见[[#Data3D|§Data3D]]。
+***** '''blob'''{{/Asteroid|required=1|existonsave=1}}''Palette''：当前子区块存储单元的调色板。
+****** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''Size''：调色板实际包含的方块数量，不会超过存储类型的数值。游戏在读取时，会将其值钳制在1到<math>2^\text{类型}</math>之间，特别地，如果类型为16，只会钳制在1到16×16×16＝4096之间。
+****** '''当用于网络通信时：'''
+******* '''uint32_t[''Size'']'''{{/Asteroid|required=1|existonsave=1}}''Array''：调色板数组，其中每个元素是一个方块运行时ID。
+****** '''当不是用于网络通信时：'''
+******* '''{{nbt|compound}}[''Size'']'''{{/Asteroid|required=1|existonsave=1}}''Array''：调色板数组，其中每个元素是一个方块序列化复合标签。
+******** {{bedrock nbt|方块|others}}
+</div>
+
+'''子区块格式（Subchunk Format）'''用于确定当前子区块内的数据如何解析。以下为子区块格式的表格。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 子区块格式
+! 值
+! 名称
+! 描述
+|-
+|0||v17_0||[[携带版0.17.0.1]]之后的格式
+|-
+|1||v1_3_0||[[基岩版1.2.13]]的格式
+|-
+|2||v17_0_badly_converted1||通过MCEdit等工具由旧版本转换为新版本出错时保存的格式其一
+|-
+|3||v17_0_badly_converted2||通过MCEdit等工具由旧版本转换为新版本出错时保存的格式其二
+|-
+|4||v17_0_badly_converted3||通过MCEdit等工具由旧版本转换为新版本出错时保存的格式其三
+|-
+|5||v17_0_badly_converted4||通过MCEdit等工具由旧版本转换为新版本出错时保存的格式其四
+|-
+|6||v17_0_badly_converted5||通过MCEdit等工具由旧版本转换为新版本出错时保存的格式其五
+|-
+|7||v17_0_badly_converted6||通过MCEdit等工具由旧版本转换为新版本出错时保存的格式其六
+|-
+|8||v1_3_0_2||[[基岩版1.2.14.2]]之后的格式
+|-
+|9||v1_3_0_3||[[基岩版1.16.230.50]]之后开启{{Experiment|caves_and_cliffs_en|exg=1}}实验性玩法以及[[基岩版1.18.0.20]]之后的格式
+|}
+
+=== LegacyTerrain ===
+
+当存档区块格式小于{{cd|v17_0}}（3）时，该键会在游戏加载区块并重新保存区块时被删除。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''uint8_t[32768]'''{{/Asteroid|required=1|existonsave=1}}''BlockIDs''：当前区块16×16×128范围的方块数字ID。
+** '''uint8_t[16384]'''{{/Asteroid|required=1|existonsave=1}}''Data''：当前区块16×16×128范围的方块数据值，每两个位置存储于同一个uint8_t中，其中偶数位置存于低半字节，奇数位置存于高半字节。
+** '''uint8_t[16384]'''{{/Asteroid|required=1|existonsave=1}}''SkyLights''：当前区块16×16×128范围的天空光照，存储方式与''Data''相同，当前已弃用。
+** '''uint8_t[16384]'''{{/Asteroid|required=1|existonsave=1}}''BlockLights''：当前区块16×16×128范围的方块光照，存储方式与''Data''相同，当前已弃用。
+** '''int8_t[256]'''{{/Asteroid|required=1|existonsave=1}}''Heightmap''：当前区块16×16范围的高度图。
+** '''blob[256]'''{{/Asteroid|required=1|existonsave=1}}''Biomes''：当前区块16×16范围的所有生物群系数据，其中每个元素是一个生物群系的记录，包括一个生物群系ID以及一组RGB。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Biome''：生物群系的数字ID。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''R''：R通道值，当前已弃用。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''G''：G通道值，当前已弃用。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''B''：B通道值，当前已弃用。
+</div>
+
+=== BlockEntity ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}[]'''{{/Asteroid|required=1|existonsave=1}}''BlockEntities''：当前区块内的方块实体。
+*** {{bedrock nbt|方块实体|block}}
+</div>
+
+=== Entity ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}[]'''{{/Asteroid|required=1|existonsave=1}}''Entities''：当前区块内的实体。
+*** {{bedrock nbt|实体|entity}}
+</div>
+
+=== PendingTicks ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''TickQueue''：当前区块内的计划刻。
+*** {{nbt|list|tickList|required=1|existonsave=1}}：计划的方块刻队列，执行顺序是从前到后。
+**** {{nbt|compound}}：一个计划刻。
+***** {{nbt|int|x|required=1|existonsave=1}}：X坐标。
+***** {{nbt|int|y|required=1|existonsave=1}}：Y坐标。
+***** {{nbt|int|z|required=1|existonsave=1}}：Z坐标。
+***** {{nbt|compound|blockState|existonsave=1}}：当前位置的方块置换。
+****** {{bedrock nbt|方块|others}}
+***** {{nbt|byte|tileID}}：当前位置的方块数字ID，旧版本的存储方式，只有当{{nbt|compound|blockState}}不存在时才会尝试读取，读取后会以数据值0加载。
+***** {{nbt|long|time|required=1|existonsave=1}}：计划时间。
+*** {{nbt|int|currentTick|existonsave=1}}：当前世界时间。
+</div>
+
+=== LegacyBlockExtraData ===
+
+当存档区块格式小于{{cd|v1_3_0}}（8）时，该键会在游戏加载区块并重新保存区块时被删除。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''Count''：该区块具有额外数据的方块的数量。
+** '''当''Count''为正数时：'''
+*** '''blob[''Count'']'''{{/Asteroid|required=1|existonsave=1}}''BlockExtraData''：所有具有额外数据的方块。
+**** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''Index''：当前方块的索引，索引的最低的两个字节存储方块的坐标，公式为{{cd|(x << 4 + z) << 8 + y}}，其中x、z为无符号半字节，y为无符号单字节，最高的两个字节未使用。
+**** '''uint16_t'''{{/Asteroid|required=1|existonsave=1}}''ExtraData''：当前方块的额外数据，分别存有方块的数字ID和宽型数据值，公式为{{cd|data << 8 + id}}，其中id、data均为无符号单字节。
+</div>
+
+=== BiomeState ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''当存档区块格式大于或等于{{cd|v1_21_4}}（41）时：'''
+** '''uint16_t'''{{/Asteroid|required=1|existonsave=1}}''Count''：该区块具有的生物群系状态的数量。
+** '''blob[''Count'']'''{{/Asteroid|required=1|existonsave=1}}''BiomeStates''：生物群系状态。
+*** '''uint16_t'''{{/Asteroid|required=1|existonsave=1}}''ID''：生物群系的数字ID。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''SnowLevel''：生物群系的降雪级别。
+** '''当存档区块格式小于{{cd|v1_21_4}}（41）时：'''
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Count''：该区块具有的生物群系状态的数量。
+** '''blob[''Count'']'''{{/Asteroid|required=1|existonsave=1}}''BiomeStates''：生物群系状态。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''ID''：生物群系的数字ID。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''SnowLevel''：生物群系的降雪级别。
+</div>
+
+=== FinalizedState ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''Finalized''：该区块的最终化状态。
+</div>
+
+区块的'''最终化（Finalization）'''指区块加载过程的最后一个阶段。以下为最终化取值的表格。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 最终化
+! 值
+! 名称
+! 描述
+|-
+|0||NeedsInstaticking||需要立刻滴答
+|-
+|1||NeedsPopulation||需要填充
+|-
+|2||Done||已完成
+|}
+
+=== ConversionData ===
+
+目前，该键会被正常读取，但在游戏重新保存当前区块时，该键会被删除。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}：{{info needed}}，当前已弃用。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}：{{info needed}}，当前已弃用。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}：{{info needed}}，当前已弃用。
+** '''float'''{{/Asteroid|required=1|existonsave=1}}''ChunkInterpolants[1][1]''：区块插值点。
+** '''float'''{{/Asteroid|required=1|existonsave=1}}''ChunkInterpolants[1][0]''：区块插值点。
+** '''float'''{{/Asteroid|required=1|existonsave=1}}''ChunkInterpolants[0][0]''：区块插值点。
+** '''float'''{{/Asteroid|required=1|existonsave=1}}''ChunkInterpolants[0][1]''：区块插值点。
+</div>
+
+=== BorderBlocks ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Count''：该区块具有的边界方块的数量。
+** '''uint8_t[''Count'']'''{{/Asteroid|required=1|existonsave=1}}''BorderBlocks''：该区块中的边界，其中每个元素是边界存在的位置在区块内的相对(X, Z)坐标，取值公式是{{cd|x << 4 + z}}。
+</div>
+
+=== HardcodedSpawners ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Count''：该区块具有的硬编码生成区域的数量。
+** '''blob[''Count'']'''{{/Asteroid|required=1|existonsave=1}}''HardcodedSpawningAreas''：该区块中硬编码生成区域。
+*** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMinX''：该硬编码生成区域最小X坐标。
+*** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMinY''：该硬编码生成区域最小Y坐标。
+*** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMinZ''：该硬编码生成区域最小Z坐标。
+*** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMaxX''：该硬编码生成区域最大X坐标。
+*** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMaxY''：该硬编码生成区域最大Y坐标。
+*** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMaxZ''：该硬编码生成区域最大Z坐标。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Type''：该硬编码生成区域的类型。
+</div>
+
+'''硬编码生成区域（Hardcoded Spawning Area）'''是一些特殊[[结构]]中用于固定生成某些特殊生物的区域。以下为硬编码生成区域类型的表格。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 硬编码生成区域类型
+! 值
+! 名称
+! 描述
+! 对应的结构标识符
+|-
+|0||None||无||{{tc|none}}
+|-
+|1||NetherFortress||下界要塞||{{cd|minecraft:fortress}}
+|-
+|2||WitchHut||沼泽小屋||{{cd|minecraft:swamp_hut}}
+|-
+|3||OceanMonument||海底神殿||{{cd|minecraft:monument}}
+|-
+|4||Village_Deprecated||旧版村庄，当前已弃用||{{cd|minecraft:village}}
+|-
+|5||PillagerOutpost||掠夺者前哨站||{{cd|minecraft:pillager_outpost}}
+|-
+|6||NewVillage_Deprecated||新版村庄，当前已弃用||{{cd|minecraft:village}}
+|}
+
+=== RandomTicks ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''RandomTickQueue''：当前区块内的随机刻。
+*** {{nbt|list|tickList|required=1|existonsave=1}}：随机刻队列，执行顺序是从前到后。
+**** {{nbt|compound}}：一个随机刻。
+***** {{nbt|int|x|required=1|existonsave=1}}：X坐标。
+***** {{nbt|int|y|required=1|existonsave=1}}：Y坐标。
+***** {{nbt|int|z|required=1|existonsave=1}}：Z坐标。
+***** {{nbt|compound|blockState|existonsave=1}}：当前位置的方块置换。
+****** {{bedrock nbt|方块|others}}
+***** {{nbt|byte|tileID}}：当前位置的方块数字ID，旧版本的存储方式，只有当{{nbt|compound|blockState}}不存在时才会尝试读取，读取后会以数据值0加载。
+***** {{nbt|long|time|required=1|existonsave=1}}：计划时间。
+*** {{nbt|int|currentTick|existonsave=1}}：当前世界时间。
+</div>
+
+=== Checksums ===
+
+游戏只会存储{{cd|Data2D}}（45）、{{cd|SubChunkPrefix}}（47）、{{cd|BlockEntity}}（49）、{{cd|Entity}}（50）四类键的校验和。该键已完全弃用，当存档区块格式小于或等于{{cd|v1_16_300_caves_cliffs_internal_v3}}（28）时，该键会在游戏加载区块并重新保存区块时被删除。
+
+<div class="treeview">
+* '''root'''{{/Asteroid|existonsave=1}}：负载。
+** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''Count''：该区块具有的校验和的数量。
+** '''blob[''Count'']'''{{/Asteroid|required=1|existonsave=1}}''LevelChunkChecksums''：该区块的校验和。
+*** '''uint16_t'''{{/Asteroid|required=1|existonsave=1}}''Tag''：该校验和针对的存档区块标签。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Index''：该校验和的子区块索引，如果当前针对的标签非{{cd|SubChunkPrefix}}，保持为0。
+*** '''uint64_t'''{{/Asteroid|required=1|existonsave=1}}''XXHash''：该校验和的哈希值。
+</div>
+
+=== GenerationSeed ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid|existonsave=1}}：负载。
+** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''GenerationSeed''：该区块使用的生成种子。
+</div>
+
+=== GeneratedPreCavesAndCliffsBlending ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid|existonsave=1}}：负载。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''GeneratedPreCavesAndCliffsBlending''：实际为布尔值，该区块是否使用了[[洞穴与山崖]]之前的区块融合。如果该区块在[[基岩版1.18.0]]{{info needed|具体开始于哪次测试版？}}更新之后，[[基岩版1.19.0]]{{info needed|具体结束于哪次测试版？}}更新之前被基岩版游戏加载过，且加载时的存档区块格式小于或等于{{cd|v1_16_300_caves_cliffs_internal_v1}}（24），该值会被设置为{{cd|true}}。当前游戏内不再有设置该值的逻辑，只留有读取的逻辑。
+</div>
+
+=== BlendingBiomeHeight ===
+
+该键已完全弃用，当前游戏不会对该键作任何响应。
+
+{{incomplete section|序列化结构}}
+
+=== MetaDataHash ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid|existonsave=1}}：负载。
+** '''uint64_t'''{{/Asteroid|required=1|existonsave=1}}''LoadedMetaDataHash''：将区块的元数据复合标签序列化之后对该二进制数据计算哈希得到的值。
+</div>
+
+一个区块的'''元数据（Meta Data）'''是如下方所示的一个NBT复合标签。
+
+<div class="treeview">
+* {{nbt|compound}}：根标签。
+** {{nbt|string|LastSavedBaseGameVersion}}：最后一次保存的基游戏版本，会在保存时设置为存档当前使用的基游戏版本。
+** {{nbt|string|OriginalBaseGameVersion}}：原始基游戏版本，会在元数据初始化时被设置为存档当前使用的基游戏版本。
+** {{nbt|string|BiomeBaseGameVersion}}：生物群系使用的基游戏版本，如果存档当前使用的基游戏版本大于或等于{{cd|1.16.0}}，该值会被设置为{{cd|1.16.0}}，否则，会使用游戏旧版生成器最后一次更新的基游戏版本，为{{cd|1.17.40}}。
+** {{nbt|string|DimensionName}}：该区块所在的维度。
+** {{nbt|long|GenerationSeed}}：生成该区块的种子。
+** {{nbt|int|GeneratorType}}：生成该区块的世界生成器类型。
+** {{nbt|bool|WorldGen1_18AppliedBelow0}}：世界生成器是否已经利用[[基岩版1.18.0]]之后更新的世界高度扩展功能为在Y<0的坐标范围内填充方块，当前已弃用。
+** {{nbt|bool|Overworld1_18HeightExtended}}：主世界是否应用[[基岩版1.18.0]]之后更新的世界高度扩展功能。如果存档当前使用的基游戏版本大于{{cd|1.17.40}}，设置为{{cd|true}}，否则设置为{{cd|false}}。非主世界区块永远为{{cd|false}}。
+** {{nbt|short|BlendingVersion}}：该区块当前使用的无缝区块融合的版本，见[[#BlendingData|§BlendingData]]。
+** {{nbt|compound|OriginalDimensionHeightRange}}：原始的维度高度范围，会在元数据初始化时被设置。
+*** {{nbt|short|min}}：范围的最小值。
+*** {{nbt|short|max}}：范围的最小值。
+** {{nbt|compound|LastSavedDimensionHeightRange}}：最后一次保存的维度高度范围，会在保存时被设置。
+*** {{nbt|short|min}}：范围的最小值。
+*** {{nbt|short|max}}：范围的最小值。
+** {{nbt|bool|UnderwaterLavaLakeFixed}}：水下熔岩湖其交界是否已被修复为黑曜石。如果为{{cd|false}}，在存档加载时会触发升级并进行修复。目前保存时一定会被设置为{{cd|true}}。
+** {{nbt|bool|WorldGenBelowZeroFixed}}：在Y<0的坐标范围内是否已被修复填充为空气或者按照世界生成器进行填充。如果为{{cd|false}}，在存档加载时会触发升级并进行修复。如果存档当前使用的基游戏版本大于{{cd|1.16.0}}，该值会被设置为{{cd|true}}，否则设置为{{cd|false}}。
+** {{nbt|bool|SkullFlatteningPerformed}}：是否已扁平化头颅，当前未使用{{verify}}。
+** {{nbt|int|NeighborAwareBlockUpgradeVersion}}：{{info needed}}。
+</div>
+
+=== BlendingData ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''UsedForBlending''：实际为布尔值，当前区块是否用于融合。
+** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''BlendVersionWhenSaved''：当前区块持久化时的融合版本。
+** '''当''UsedForBlending''为{{cd|true}}时：'''
+*** '''int16_t[16]'''{{/Asteroid|required=1|existonsave=1}}''Heights''：融合的高度。
+*** '''uint8_t'''{{/Asteroid|required=1|existonsave=1}}''Neighbors''：相邻区块的数量。
+</div>
+
+'''融合版本（Blending Version）'''是游戏用于记录'''无缝区块融合（Seamless Chunk Blending）'''功能产生的融合数据格式的一个数字。以下为融合版本的表格。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 融合版本
+! 值
+! 名称
+! 描述
+|-
+|0||v1_19_0||[[基岩版1.19.0]]融合数据
+|-
+|1||v1_19_0_1||[[基岩版1.19.0]]某次{{info needed|哪次？}}小更新的融合数据
+|-
+|2||v1_19_0_2||[[基岩版1.19.0]]某次{{info needed|哪次？}}小更新的融合数据
+|-
+|3||v1_19_0_3||[[基岩版1.19.0]]某次{{info needed|哪次？}}小更新的融合数据
+|-
+|4||v1_20_0||[[基岩版1.20.0]]融合数据
+|-
+|5||v1_20_0_1||[[基岩版1.20.0]]某次{{info needed|哪次？}}小更新的融合数据
+|-
+|6||v1_21_50||[[基岩版1.20.50]]融合数据
+|-
+|7||v1_21_60||[[基岩版1.20.60]]融合数据
+|-
+|8||v1_21_100||[[基岩版1.21.100]]融合数据
+|}
+
+=== ActorDigestVersion ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int8_t'''{{/Asteroid|required=1|existonsave=1}}''FormatVersion''：该区块的实体摘要格式版本。
+</div>
+
+实体摘要格式版本用于判断新版的独立实体存储格式中实体摘要的格式。以下为实体摘要格式的表格。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 实体摘要格式
+! 值
+! 名称
+! 描述
+|-
+|0||v1_18_30||[[基岩版1.18.30]]的格式
+|}
+
+=== VersionEnchant ===
+
+该标签键名较为特殊，键名的格式为{{code|<int32_t: x><int32_t: y><int32_t: dimension runtime id><int8_t: level chunk tag><varint32_t: dimension version>}}，其中{{cd|dimension runtime id}}仅当区块所在维度不是主世界时才存在，{{cd|dimension version}}是一个可变长有符号整数，游戏实际接受的取值范围为从1至999，因此当其小于128时，只有一个字节长，否则将有两个字节长。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int8_t'''{{/Asteroid|required=1|existonsave=1}}''LevelChunkFormat''：当前区块持久化时的存档区块格式版本。
+</div>
+
+=== VersionMarkInsert ===
+
+该标签键名较为特殊，键名的格式为{{code|<int32_t: x><int32_t: y><int32_t: dimension runtime id><int8_t: level chunk tag><varint32_t: dimension version plus 10000>}}，其中{{cd|dimension runtime id}}仅当区块所在维度不是主世界时才存在，{{cd|dimension version plus 10000}}是一个可变长有符号整数，游戏实际接受的取值范围为从10001至10999，因此其实际上始终有两个字节长。
+
+该标签用于判定当前维度的所有数据是否需要被丢弃。区块在开始序列化之前会判定当前维度的版本是否与已存在的该标签键中存储的版本吻合，当开发者在运行时通过[[模组SDK]]等手段提升了当前维度对应的维度版本，从而导致版本不吻合时，游戏会先丢弃当前区块已经持久化的所有数据并重新序列化。该标签负载中实际存储的值没有意义。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int8_t'''{{/Asteroid|required=1|existonsave=1}}''LevelChunkFormat''：当前区块持久化时的存档区块格式版本。
+</div>
+
+=== LegacyVersion ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int8_t'''{{/Asteroid|required=1|existonsave=1}}''LevelChunkFormat''：当前区块持久化时的存档区块格式版本。
+</div>
+
+=== AabbVolumes ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''UseAabbVolumes''：实际为布尔值，当前区块是否具有AABB区域数据。
+** '''当''UseAabbVolumes''为{{cd|true}}时：'''
+*** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''StructureTypeCount''：当前AABB区域具有的拼图结构种类的数量。
+*** '''blob[''StructureTypeCount'']'''{{/Asteroid|required=1|existonsave=1}}''StructureTypes''：具有的拼图结构类型。
+**** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''Index''：该拼图结构类型的索引，用于其他对象引用该类型。
+**** '''string'''{{/Asteroid|required=1|existonsave=1}}''Type''：该拼图结构类型的字符串标识符，可能的取值为{{cd|minecraft:trial_chambers|minecraft:trail_ruins|minecraft:fortress|minecraft:pillager_outpost|minecraft:monument|minecraft:igloo|minecraft:jungle_pyramid|d=、}}。
+***** '''int16_t'''{{/Asteroid|required=1|existonsave=1}}''Length''：字符串长度，以字节为单位。
+***** '''当''Length''为正数时：'''
+****** '''char[''Length'']'''{{/Asteroid|required=1|existonsave=1}}''Data''：字符串数据。
+*** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''ChunkBoundingBoxCount''：当前AABB区域具有的包围盒的数量。
+*** '''blob[''ChunkBoundingBoxCount'']'''{{/Asteroid|required=1|existonsave=1}}''ChunkBoundingBoxes''：具有的包围盒。
+**** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''Index''：该包围盒的索引，用于其他对象引用该包围盒。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMinX''：该包围盒最小X坐标。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMinY''：该包围盒最小Y坐标。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMinZ''：该包围盒最小Z坐标。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMaxX''：该包围盒最大X坐标。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMaxY''：该包围盒最大Y坐标。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''AABBMaxZ''：该包围盒最大Z坐标。
+*** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''DynamicSpawnAreaCount''：当前AABB区域具有的动态生成区域的数量。
+*** '''blob[''DynamicSpawnAreaCount'']'''{{/Asteroid|required=1|existonsave=1}}''DynamicSpawnAreas''：具有的动态生成区域。
+**** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''BoundingBoxIndex''：该动态生成区域使用包围盒索引。
+**** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''StructureIndex''：该动态生成区域使用拼图结构索引。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}：实际为布尔值{{info needed}}。
+*** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''StaticSpawnAreaCount''：当前AABB区域具有的静态生成区域的数量。
+*** '''blob[''StaticSpawnAreaCount'']'''{{/Asteroid|required=1|existonsave=1}}''StaticSpawnAreas''：具有的静态生成区域。
+**** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''BoundingBoxIndex''：该静态生成区域使用包围盒索引。
+**** '''uint32_t'''{{/Asteroid|required=1|existonsave=1}}''StructureIndex''：该静态生成区域使用拼图结构索引。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}''Offset''：该静态生成区域的偏移量。
+**** '''int32_t'''{{/Asteroid|required=1|existonsave=1}}：实际为布尔值{{info needed}}。
+</div>
+
+拼图结构是[[基岩版1.21.10]]更新拼图系统之后被纳入拼图生成过程的结构，以下是拼图结构的表格，并非所有拼图结构都会生成AABB区域，只有具有生成区域的拼图结构才会具有对应的AABB区域。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 拼图结构
+! 结构标识符
+! 描述
+! 是否是结构集
+|-
+|{{cd|minecraft:ancient_city}}||远古城市||{{tc|no}}
+|-
+|{{cd|minecraft:bastion_remnant}}||堡垒遗迹||{{tc|no}}
+|-
+|{{cd|minecraft:buried_treasure}}||埋藏的宝藏||{{tc|no}}
+|-
+|{{cd|minecraft:end_city}}||末地城||{{tc|no}}
+|-
+|{{cd|minecraft:mineshaft}}||废弃矿井||{{tc|no}}
+|-
+|{{cd|minecraft:fortress}}||下界要塞||{{tc|no}}
+|-
+|{{cd|minecraft:monument}}||海底神殿||{{tc|no}}
+|-
+|{{cd|minecraft:ocean_ruin}}||海底废墟||{{tc|no}}
+|-
+|{{cd|minecraft:pillager_outpost}}||掠夺者前哨站||{{tc|no}}
+|-
+|{{cd|minecraft:jungle_pyramid}}||丛林神庙||{{tc|no}}
+|-
+|{{cd|minecraft:swamp_hut}}||沼泽小屋||{{tc|no}}
+|-
+|{{cd|minecraft:desert_pyramid}}||沙漠神殿||{{tc|no}}
+|-
+|{{cd|minecraft:igloo}}||雪屋||{{tc|no}}
+|-
+|{{cd|minecraft:ruined_portal}}||废弃传送门||{{tc|no}}
+|-
+|{{cd|minecraft:shipwreck}}||沉船||{{tc|no}}
+|-
+|{{cd|minecraft:stronghold}}||要塞||{{tc|no}}
+|-
+|{{cd|minecraft:village}}||村庄||{{tc|no}}
+|-
+|{{cd|minecraft:mansion}}||林地府邸||{{tc|no}}
+|-
+|{{cd|minecraft:trail_ruins}}||古迹废墟||{{tc|yes}}
+|-
+|{{cd|minecraft:trial_chambers}}||试炼密室||{{tc|yes}}
+|}
+
+== 实体 ==
+
+在新版存储格式下，实体相关的LevelDB键分为两类，分别是以{{cd|digp}}开头的存储每个区块的实体摘要的键和以{{cd|actorprefix}}开头的存储每个实体自身的数据的键。
+
+=== 实体摘要数据 ===
+
+实体摘要数据的键名格式为{{code|digp<int32_t: x><int32_t: y><int32_t: dimension runtime id>}}，其中{{cd|dimension runtime id}}仅当对应区块所在维度不是主世界时才存在。序列化结构如下。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载，字节长度一定是8的倍数，否则无法被正确读取。
+** '''uint64_t[]'''{{/Asteroid|required=1|existonsave=1}}''StorageKeys''：对应区块中所有的实体的存储键，其中每个存储键的计算方法为{{cd|(ActorUniqueID ^ 0xFFFFFFFF00000000) + 0x100000000}}收拾收拾，并按照大端序序列化，其中{{cd|ActorUniqueID}}为实体的唯一ID。
+</div>
+
+=== 实体数据 ===
+
+实体数据的键名格式为{{code|actorprefix<uint64_t: storage key>}}，用于存储一个实体自身的数据，其中{{cd|storage key}}对应实体摘要数据中记录的存储键，按照大端序序列化。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Entity''：当前实体的NBT数据。
+*** {{bedrock nbt|实体|entity}}
+</div>
+
+== 玩家 ==
+
+在本地存档中，本地玩家的数据存储在{{cd|~local_player}}LevelDB键中，见[[#本地玩家数据|§本地玩家数据]]，在联机存档中，玩家的数据被分别存储在多个键中。
+
+=== 玩家ID数据 ===
+
+一个玩家可能同时具有多种类型的ID，分别为{{only|for=网易UUID、|china}}微软账号ID、客户端平台ID、客户端平台在线ID、客户端平台离线ID、自登陆ID、随机客户端ID以及用于索引玩家自身实体数据的服务器端ID，其中网易UUID是数字格式的字符串，其他的ID均是{{verify}}版本4的UUID格式的字符串。玩家ID数据的键名格式为{{code|player_<char[]: id>}}，用于存储一个玩家所有可能的ID字符串，其中{{cd|id}}可能是{{only|for=网易UUID、|china}}微软账号ID、客户端平台ID、客户端平台在线ID、客户端平台离线ID、自登陆ID、随机客户端ID中的任意一种，这取决于该玩家持久化时的网络状态和平台状态。游戏在读取一个玩家的ID数据时，会按{{only|for=网易UUID、|china}}微软账号ID、客户端平台在线ID、客户端平台离线ID、自登陆ID的顺序检查该玩家当前是否存在这种类型的ID，然后将第一个检测到的ID作为{{cd|id}}去读取LevelDB中存储的玩家ID持久化数据。如果玩家不存在上述所有类型的ID，或者LevelDB中为检查到预期的键名，则会尝试将随机客户端ID作为{{cd|id}}去读取。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''PlayerIDs''：当前玩家的ID数据。
+*** {{nbt|string|ServerId|required=1|existonsave=1}}：当前玩家的服务器端ID。
+*** {{nbt|string|MsaId}}：当前玩家的微软账号ID。
+*** {{nbt|string|PlatformOnlineId}}：当前玩家的客户端平台在线ID。
+*** {{nbt|string|PlatformOfflineId}}：当前玩家的客户端平台离线ID。
+*** {{nbt|string|SelfSignedId}}：当前玩家的自登陆ID。
+*** {{nbt|string|NeteaseUUID}}：当前玩家的网易UUID。
+</div>
+
+=== 原主机版玩家ID数据 ===
+
+一些由原主机版转换而来的存档中存在这类键名，键名格式为{{code|legacy_console_player_<char[]: id>}}，其中{{cd|id}}可能是客户端平台ID、客户端平台离线ID中的一种，其序列化格式与玩家ID数据完全相同。当游戏未在LevelDB中检测到新版的玩家ID数据时，会先检查旧版的以独立的文件存储在存档中的玩家ID数据，最后以客户端平台ID、客户端平台离线ID的顺序检查LevelDB中是否存在原主机版的玩家ID数据。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''PlayerIDs''：当前玩家的ID数据。
+*** {{nbt|string|ServerId|required=1|existonsave=1}}：当前玩家的服务器端ID。
+*** {{nbt|string|MsaId}}：当前玩家的微软账号ID。
+*** {{nbt|string|PlatformOnlineId}}：当前玩家的客户端平台在线ID。
+*** {{nbt|string|PlatformOfflineId}}：当前玩家的客户端平台离线ID。
+*** {{nbt|string|SelfSignedId}}：当前玩家的自登陆ID。
+*** {{nbt|string|NeteaseUUID}}：当前玩家的网易UUID。
+</div>
+
+=== 服务器端玩家数据 ===
+
+服务器端玩家数据的键名格式为{{code|player_server_<char[]: server id>}}，其中{{cd|server id}}是玩家ID数据中存储的玩家服务器端ID。{{in|china}}在一些情形下{{info needed|哪些情形？}}，也会用玩家的网易UUID作为玩家的服务器端ID。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''ServerPlayer''：当前玩家的ID数据。
+*** {{bedrock nbt|实体|entity}}
+*** {{bedrock nbt|生物|entity}}
+*** {{bedrock nbt|玩家|entity}}
+</div>
+
+== 村庄 ==
+
+村庄的键名格式为{{code|VILLAGE_<char[]: dimension><char[]: uuid><char[]: type suffix>}}，其中{{cd|dimension}}是村庄当前所在维度的维度字符串，{{cd|uuid}}是一个版本4的UUID，{{cd|type suffix}}控制了这是村庄中的哪一种对象存储。旧版游戏保存的存档中不存在{{cd|dimension}}部分，游戏在读取时会直接通过检测键名中有无当前维度对应的维度字符串来判断是否应该读取或跳过这一部分。维度字符串和类型后缀可能取值的表格如下。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 维度字符串
+! 维度数字ID
+! 描述
+! 维度字符串
+|-
+|0||主世界||{{cd|Overworld_}}
+|-
+|1||下界||{{cd|Nether_}}
+|-
+|2||末地||{{cd|End_}}
+|-
+|''N''≥3||自定义维度{{only|china}}||<code>''N''_</code>
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 类型后缀
+! 值
+! 描述
+|-
+|{{cd|_INFO}}||村庄自身信息
+|-
+|{{cd|_PLAYERS}}||村庄玩家信息
+|-
+|{{cd|_DWELLERS}}||村庄居民信息
+|-
+|{{cd|_POI}}||村庄[[兴趣点]]信息
+|-
+|{{cd|_RAID}}||村庄[[劫掠]]信息
+|}
+
+=== 村庄信息数据 ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Info''：当前村庄的信息数据。
+*** {{nbt|long|Tick|required=1|existonsave=1}}：村庄持久化时的游戏刻。
+*** {{nbt|long|MTick|required=1|existonsave=1}}：村庄停止[[村民繁殖|繁殖]]计时器。
+*** {{nbt|long|PDTick|required=1|existonsave=1}}：被动居民（即[[猫]]）的生成计时器。
+*** {{nbt|long|BDTime|required=1|existonsave=1}}：坏[[声望]]衰退计时器。
+*** {{nbt|long|GDTime|required=1|existonsave=1}}：好声望衰退计时器。
+*** {{nbt|bool|Initialized|required=1|existonsave=1}}：村庄是否已初始化
+*** {{nbt|int|X0|required=1|existonsave=1}}：村庄包围盒最小X坐标。
+*** {{nbt|int|Y0|required=1|existonsave=1}}：村庄包围盒最小Y坐标。
+*** {{nbt|int|Z0|required=1|existonsave=1}}：村庄包围盒最小Z坐标。
+*** {{nbt|int|X1|required=1|existonsave=1}}：村庄包围盒最大X坐标。
+*** {{nbt|int|Y1|required=1|existonsave=1}}：村庄包围盒最大Y坐标。
+*** {{nbt|int|Z1|required=1|existonsave=1}}：村庄包围盒最大Z坐标。
+*** {{nbt|int|RX0|required=1|existonsave=1}}：村庄[[劫掠]]包围盒最小X坐标。
+*** {{nbt|int|RY0|required=1|existonsave=1}}：村庄劫掠包围盒最小Y坐标。
+*** {{nbt|int|RZ0|required=1|existonsave=1}}：村庄劫掠包围盒最小Z坐标。
+*** {{nbt|int|RX1|required=1|existonsave=1}}：村庄劫掠包围盒最大X坐标。
+*** {{nbt|int|RY1|required=1|existonsave=1}}：村庄劫掠包围盒最大Y坐标。
+*** {{nbt|int|RZ1|required=1|existonsave=1}}：村庄劫掠包围盒最大Z坐标。
+*** {{nbt|byte|Version|required=1|existonsave=1}}：村庄版本，见下表。
+</div>
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 村庄版本
+! 值
+! 名称
+! 描述
+|-
+|0||Base||最初的村庄版本
+|-
+|1||WorksiteInitEventFix||工作站点初始化事件修复的版本
+|}
+
+=== 村庄玩家数据 ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Players''：当前村庄的玩家数据。
+*** {{nbt|list|Players|existonsave=1}}：村庄中具有[[声望]]的玩家。
+**** {{nbt|compound}}：一个玩家的数据。
+***** {{nbt|long|ID|required=1|existonsave=1}}：该玩家的唯一ID。
+***** {{nbt|int|S|required=1|existonsave=1}}：该玩家的声望。
+</div>
+
+=== 村庄居民数据 ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Dwellers''：当前村庄的居民数据。
+*** {{nbt|list|Dwellers|existonsave=1}}：村庄中的居民，根据居民的职能进行分组记录。
+**** {{nbt|compound|0|existonsave=1}}：栖居职能的居民，即[[村民]]。
+***** {{nbt|list|actors|existonsave=1}}：该村庄该职能居民的实体。
+****** {{nbt|compound}}：一个实体的数据。
+******* {{nbt|long|ID|required=1|existonsave=1}}：该实体的唯一ID。
+******* {{nbt|long|TS|required=1|existonsave=1}}：该实体最后一次滴答的时间。
+******* {{nbt|list|last_saved_pos|required=1|existonsave=1}}：该实体最后一次保存的位置。
+******** {{nbt|int|0|required=1|existonsave=1}}：X坐标。
+******** {{nbt|int|1|required=1|existonsave=1}}：Y坐标。
+******** {{nbt|int|2|required=1|existonsave=1}}：Z坐标。
+******* {{nbt|long|last_worked}}：该实体最后一次工作的时间。
+**** {{nbt|compound|1|existonsave=1}}：抵御职能的居民，即[[铁傀儡]]。
+***** {{nbt|list|actors|existonsave=1}}：该村庄该职能居民的实体，结构与之前相同。
+**** {{nbt|compound|2|existonsave=1}}：敌对职能的居民，即[[唤魔者]]。
+***** {{nbt|list|actors|existonsave=1}}：该村庄该职能居民的实体，结构与之前相同。
+**** {{nbt|compound|3|existonsave=1}}：被动职能的居民，即[[猫]]。
+***** {{nbt|list|actors|existonsave=1}}：该村庄该职能居民的实体，结构与之前相同。
+</div>
+
+=== 村庄兴趣点数据 ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''POIs''：当前村庄的兴趣点数据。
+*** {{bedrock nbt|兴趣点|others}}
+</div>
+
+=== 村庄袭击数据 ===
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Raids''：当前村庄的袭击数据。
+*** {{nbt|compound|Raid|existonsave=1}}：村庄遭遇的袭击。
+**** {{nbt|int|State|required=1|existonsave=1}}：当前袭击的阶段，见下表。
+**** {{nbt|int|Status|required=1|existonsave=1}}：当前袭击的状态，见下表。
+**** {{nbt|byte|GroupNum|required=1|existonsave=1}}：当前袭击的波次。
+**** {{nbt|byte|NumGroups|required=1|existonsave=1}}：袭击的总波次数。
+**** {{nbt|long|GameTick|required=1|existonsave=1}}：持久化时的游戏刻。
+**** {{nbt|long|Ticks|required=1|existonsave=1}}：当前袭击阶段已持续的时间。
+**** {{nbt|float|SpawnX|required=1|existonsave=1}}：当前波次的生成X坐标。
+**** {{nbt|float|SpawnY|required=1|existonsave=1}}：当前波次的生成Y坐标。
+**** {{nbt|float|SpawnZ|required=1|existonsave=1}}：当前波次的生成Z坐标。
+**** {{nbt|list|Raiders|existonsave=1}}：所有袭击者。
+***** {{nbt|long}}：一位袭击者实体的唯一ID。
+**** {{nbt|byte|NumRaiders|required=1|existonsave=1}}：当前波次已生成的袭击者的数量。
+**** {{nbt|float|TotalMaxHealth|required=1|existonsave=1}}：当前波次袭击的所有袭击者的总生命值。
+**** {{nbt|byte|SpawnFails|required=1|existonsave=1}}：尝试生成袭击失败的次数。
+</div>
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 袭击阶段
+! 值
+! 名称
+! 描述
+|-
+|0||PreparingGroup||正在准备波次
+|-
+|1||PickingSpawnPoint||正在选择生成点
+|-
+|2||SpawningGroup||正在生成波次
+|-
+|3||GroupInPlay||正在遭遇波次
+|-
+|4||AwardingRewards||正在颁发奖励
+|-
+|5||Finished||已完成
+|-
+|6||Stopped||已终止
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 袭击状态
+! 值
+! 名称
+! 描述
+|-
+|0||Ongoing||正在进行
+|-
+|1||Victory||胜利
+|-
+|2||Defeat||失败
+|}
+
+=== 地图 ===
+
+地图的键名格式为{{cd|map_<char[]: map id>}}，其中{{cd|map id}}是一个可能为负的整数，是当前地图的活动对象唯一ID。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Map''：当前地图数据。
+*** {{nbt|long|mapId|required=1|existonsave=1}}：地图的唯一ID。
+*** {{nbt|long|parentMapId|required=1|existonsave=1}}：父地图的唯一ID，若无父地图则为-1。
+*** {{nbt|byte|dimension|required=1|existonsave=1}}：地图所属维度的数字ID。
+*** {{nbt|int|xCenter|required=1|existonsave=1}}：地图中心X坐标。
+*** {{nbt|int|zCenter|required=1|existonsave=1}}：地图中心Z坐标。
+*** {{nbt|byte|scale|required=1|existonsave=1}}：地图缩放等级。
+*** {{nbt|short|width|required=1|existonsave=1}}：地图宽度，目前原版默认为128。
+*** {{nbt|short|height|required=1|existonsave=1}}：地图高度，目前原版默认为128。
+*** {{nbt|byte array|colors|required=1|existonsave=1}}：地图像素颜色数据，长度为width×height×4，读取顺序V、U，即{{cd|v * width + u}}，每个像素占据4字节，用来存储RGBA。
+*** {{nbt|bool|unlimitedTracking|required=1|existonsave=1}}：是否为无限追踪地图。
+*** {{nbt|bool|fullyExplored|existonsave=1}}：地图是否已完全探索。
+*** {{nbt|bool|previewIncomplete|required=1}}：地图预览是否未完成，仅当为{{cd|true}}时该标签才会被存储。
+*** {{nbt|list|decorations|existonsave=1}}：地图上的装饰物列表。
+**** {{nbt|compound}}：一个装饰物条目。
+***** {{nbt|compound|key|required=1|existonsave=1}}：装饰物的唯一标识。
+****** {{nbt|int|type|required=1|existonsave=1}}：装饰物的地图物品受追踪活动对象类型，见下表。
+****** {{nbt condition|当{{nbt|int|type}}为0时：}}
+****** {{nbt|long|entityId|required=1|existonsave=1}}：实体唯一ID。
+****** {{nbt condition|当{{nbt|int|type}}为1时：}}
+****** {{nbt|int|blockX|required=1|existonsave=1}}：方块X坐标。
+****** {{nbt|int|blockY|required=1|existonsave=1}}：方块Y坐标。
+****** {{nbt|int|blockZ|required=1|existonsave=1}}：方块Z坐标。
+***** {{nbt|compound|data|required=1|existonsave=1}}：装饰物具体数据。
+****** {{nbt|int|type|required=1|existonsave=1}}：装饰物类型，见下表。
+****** {{nbt|int|x|required=1|existonsave=1}}：装饰物在地图上的U坐标。
+****** {{nbt|int|y|required=1|existonsave=1}}：装饰物在地图上的V坐标。
+****** {{nbt|int|rot|required=1|existonsave=1}}：装饰物的旋转角度。
+*** {{nbt|bool|mapLocked|existonsave=1}}：地图是否被锁定。
+</div>
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 地图物品受追踪活动对象类型
+! 值
+! 名称
+! 描述
+|-
+|0||Entity||实体
+|-
+|1||BlockEntity||方块实体
+|-
+|2||Other||其他
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 装饰物类型
+! 值
+! 名称
+! 描述
+|-
+|0||MarkerWhite<br>Player||白色标记<br>普通玩家
+|-
+|1||MarkerGreen<br>ItemFrame||绿色标记<br>物品展示框
+|-
+|2||MarkerRed||红色标记
+|-
+|3||MarkerBlue||蓝色标记
+|-
+|4||XWhite||白色叉号
+|-
+|5||TriangleRed||红色三角
+|-
+|6||SquareWhite<br>PlayerOffMap||白色方块<br>地图外玩家
+|-
+|7||MarkerSign||记号标记
+|-
+|8||MarkerPink||粉色标记
+|-
+|9||MarkerOrange||橙色标记
+|-
+|10||MarkerYellow||黄色标记
+|-
+|11||MarkerTeal||青色标记
+|-
+|12||TriangleGreen||绿色三角
+|-
+|13||SmallSquareWhite<br>PlayerOffLimits||小型白色方块<br>地图极限外玩家
+|-
+|14||Mansion||林地府邸
+|-
+|15||Monument||海底神殿
+|-
+|16||NoDraw<br>PlayerHidden||不绘制<br>隐身玩家
+|-
+|17||VillageDesert||沙漠村庄
+|-
+|18||VillagePlains||平原村庄
+|-
+|19||VillageSavanna||热带草原村庄
+|-
+|20||VillageSnowy||雪原村庄
+|-
+|21||VillageTaiga||针叶林村庄
+|-
+|22||JungleTemple||丛林神庙
+|-
+|23||WitchHut||沼泽小屋
+|-
+|24||TrialChambers||试炼密室
+|}
+
+=== 常加载区域 ===
+
+常加载区域的键名格式为{{cd|tickingarea_<char[]: area uid>}}，其中{{cd|area uid}}是一个版本4的UUID。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''TickingArea''：当前挂起的常加载区域的数据。
+*** {{nbt|int|Dimension|required=1|existonsave=1}}：区域所属维度的数字ID。
+*** {{nbt|string|Name|required=1|existonsave=1}}：区域名称。
+*** {{nbt|bool|IsCircle|required=1|existonsave=1}}：区域是否为圆形，否则为矩形。
+*** {{nbt|int|MinX|required=1|existonsave=1}}：区域最小X坐标，通常为16的倍数，如果不是16的倍数，读取后将向下修正为16的倍数。
+*** {{nbt|int|MinZ|required=1|existonsave=1}}：区域最小Z坐标，通常为16的倍数，如果不是16的倍数，读取后将向下修正为16的倍数。
+*** {{nbt|int|MaxX|required=1|existonsave=1}}：区域最大X坐标，通常为16的倍数，如果不是16的倍数，读取后将向下修正为16的倍数。
+*** {{nbt|int|MaxZ|required=1|existonsave=1}}：区域最大Z坐标，通常为16的倍数，如果不是16的倍数，读取后将向下修正为16的倍数。
+*** {{nbt|bool|Preload}}：是否为预加载区域，仅当为{{cd|true}}时该标签才会被存储。
+*** {{nbt|long|EntityId}}：绑定的实体的唯一ID，仅当绑定了实体时该标签才会被存储。
+*** {{nbt|bool|IsAlwaysActive}}：区域是否总是激活，仅当绑定了实体时该标签才会被存储，仅当{{nbt|long|EntityId}}存在时才会被读取。
+*** {{nbt|float|MaxDistToPlayers}}：与玩家最大距离，仅当绑定了实体时该标签才会被存储，仅当{{nbt|long|EntityId}}存在时才会被读取。
+</div>
+
+=== 结构 ===
+
+==== 结构模板 ====
+
+结构模板的键名格式为{{cd|structuretemplate_<char[]: namespaced identifier>}}。游戏会先在行为包中查找结构模板，之后才会在LevelDB中查找，这意味着对于同名的结构模板，行为包中的会被优先应用。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''StructureTemplate''：当前结构模板的数据。
+*** {{nbt|int|format_version|required=1|existonsave=1}}：结构模板的格式版本，当前只能为1。
+*** {{nbt|list|size|required=1|existonsave=1}}：方块结构的大小。
+**** {{nbt|int|0|required=1|existonsave=1}}：方块结构在X轴上的长度，必须为正。
+**** {{nbt|int|1|required=1|existonsave=1}}：方块结构在Y轴上的长度，必须为正。
+**** {{nbt|int|2|required=1|existonsave=1}}：方块结构在Z轴上的长度，必须为正。
+*** {{nbt|list|structure_world_origin|required=1|existonsave=1}}：结构在世界中的原点坐标。
+**** {{nbt|int|0|required=1|existonsave=1}}：X坐标。
+**** {{nbt|int|1|required=1|existonsave=1}}：Y坐标。
+**** {{nbt|int|2|required=1|existonsave=1}}：Z坐标。
+*** {{nbt|compound|structure|required=1|existonsave=1}}：结构主体数据。
+**** {{nbt|list|block_indices|required=1|existonsave=1}}：方块索引数据。
+***** {{nbt|list|0|required=1|existonsave=1}}：主方块索引数组，长度为X×Y×Z，每个元素为调色板的索引。
+****** {{nbt|int}}：调色板索引。
+***** {{nbt|list|1|required=1|existonsave=1}}：额外方块索引数组，长度与主方块索引一致，每个元素为调色板的索引。
+****** {{nbt|int}}：调色板索引。
+**** {{nbt|compound|palette|required=1|existonsave=1}}：调色板数据，每个键为调色板名称，对应值为一个复合标签。
+***** {{nbt|compound|<palette_name>|required=1|existonsave=1}}：一个调色板，键名默认为{{cd|default}}。
+****** {{nbt|list|block_palette|required=1|existonsave=1}}：方块调色板数据，每个索引处的值是一个方块置换的序列化复合标签。
+******* {{nbt|compound}}：一个方块置换。
+******** {{bedrock nbt|方块|others}}
+****** {{nbt|compound|block_position_data|required=1|existonsave=1}}：方块位置数据。
+******* {{nbt|compound|<index>}}：一条位置数据。键名必须是一个整数，代表对应索引处的数据。
+******** {{nbt|compound|block_entity_data}}：该位置的方块实体数据。
+********* {{bedrock nbt|方块实体|block}}
+******** {{nbt|compound|tick_queue_data}}：该位置的计划刻数据。
+********* {{nbt|int|tick_delay}}：下一次方块更新的延时（游戏刻）。
+**** {{nbt|list|entities|existonsave=1}}：实体数据。
+***** {{nbt|compound}}：一个实体的NBT数据。
+****** {{bedrock nbt|实体|entity}}
+</div>
+
+==== 结构动画 ====
+
+结构动画的键名格式为{{cd|structureplacement_<char[]: dimension><char[]: queue id>}}，其中{{cd|dimension}}与[[#村庄|村庄键名]]格式相同，{{cd|queue id}}是结构动画放置队列的队列ID。队列ID本身是一个32位无符号整数，在序列化时会在数字前方补0补足10位作为{{cd|queue id}}的值。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''StructureAnimation''：当前结构动画的数据。
+*** {{nbt|long|TickQueued|required=1|existonsave=1}}：动画队列计划的游戏刻。
+*** {{nbt|int|BlocksPlaced|required=1|existonsave=1}}：已放置的方块数量。
+*** {{nbt|string|Name|required=1|existonsave=1}}：结构名称。
+*** {{nbt|int|SizeX|required=1|existonsave=1}}：结构X轴尺寸。
+*** {{nbt|int|SizeY|required=1|existonsave=1}}：结构Y轴尺寸。
+*** {{nbt|int|SizeZ|required=1|existonsave=1}}：结构Z轴尺寸。
+*** {{nbt|int|OffsetX|required=1|existonsave=1}}：结构放置时的X轴偏移。
+*** {{nbt|int|OffsetY|required=1|existonsave=1}}：结构放置时的Y轴偏移。
+*** {{nbt|int|OffsetZ|required=1|existonsave=1}}：结构放置时的Z轴偏移。
+*** {{nbt|int|PosX|required=1|existonsave=1}}：动画实际放置时的X坐标。
+*** {{nbt|int|PosY|required=1|existonsave=1}}：动画实际放置时的Y坐标。
+*** {{nbt|int|PosZ|required=1|existonsave=1}}：动画实际放置时的Z坐标。
+*** {{nbt|bool|IncludeEntities|required=1|existonsave=1}}：是否包含实体。
+*** {{nbt|bool|IncludeBlocks|required=1|existonsave=1}}：是否包含方块。
+*** {{nbt|byte|Rotation|required=1|existonsave=1}}：结构旋转角度，见下表。
+*** {{nbt|byte|Mirror|required=1|existonsave=1}}：结构镜像方式，见下表。
+*** {{nbt|byte|AnimationMode|required=1|existonsave=1}}：动画模式，见下表。
+*** {{nbt|float|AnimationSeconds|required=1|existonsave=1}}：动画时长（秒）。
+*** {{nbt|int|AnimationTicks|required=1}}：动画时长（游戏刻）。游戏会将该标签存储值与{{nbt|float|AnimationSeconds}}作比较，取相同单位下时间较长者作为最终时长。
+*** {{nbt|float|Integrity|required=1|existonsave=1}}：结构完整性（0.0～1.0）。
+*** {{nbt|int|IntegritySeed|required=1|existonsave=1}}：完整性种子。
+</div>
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 旋转角度
+! 值
+! 名称
+! 描述
+|-
+|0||None||不旋转
+|-
+|1||Rotate90<br>Clockwise90||顺时针旋转90度
+|-
+|2||Rotate180<br>Clockwise180||顺时针旋转180度
+|-
+|3||Rotate270<br>CounterClockwise90||顺时针旋转270度
+|-
+|4||Total||顺时针旋转360度
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 镜像方式
+! 值
+! 名称
+! 描述
+|-
+|0||None||不镜像
+|-
+|1||X||关于X轴镜像
+|-
+|2||Z||关于Z轴镜像
+|-
+|3||Xz||关于两个方向都镜像
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 动画模式
+! 值
+! 名称
+! 描述
+|-
+|0||None||不作动画
+|-
+|1||Layers||逐层作动画
+|-
+|2||Blocks||逐方块作动画
+|}
+
+=== 区块加载请求 ===
+
+区块加载请求的键名格式为{{cd|chunk_loaded_request_<char[]: dimension><char[]: save id>}}，其中{{cd|dimension}}与[[#村庄|村庄键名]]格式相同，{{cd|save id}}是该请求的保存ID，每有一次保存，该ID计数器自增。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''ChunkLoadedRequest''：区块加载请求的数据。
+*** {{nbt|bool|AllowNonTickingChunks|required=1|existonsave=1}}：是否允许非滴答区块和玩家区块被加载。
+*** {{nbt|byte|AreaType|required=1|existonsave=1}}：区域类型，见下表。
+*** {{nbt|byte|ChunkRequestListType|required=1|existonsave=1}}：区块请求列表类型，见下表。
+*** {{nbt|byte|ActionType|required=1|existonsave=1}}：请求动作类型，见下表。
+*** {{nbt condition|当{{nbt|byte|AreaType}}为2时：}}
+*** {{nbt|string|TickingArea|required=1|existonsave=1}}：常加载区域的名称。
+*** {{nbt condition|当{{nbt|byte|AreaType}}不为2时：}}
+*** {{nbt|int|MinX|required=1|existonsave=1}}：加载区块的最小区块X坐标。
+*** {{nbt|int|MinZ|required=1|existonsave=1}}：加载区块的最小区块Z坐标。
+*** {{nbt|int|MaxX|required=1|existonsave=1}}：加载区块的最大区块X坐标。
+*** {{nbt|int|MaxZ|required=1|existonsave=1}}：加载区块的最大区块Z坐标。
+*** {{nbt condition|当{{nbt|byte|ActionType}}为0时：}}
+*** {{nbt|compound|Origin|required=1|existonsave=1}}：函数执行的命令起点。
+**** {{nbt|byte|OriginType|required=1|existonsave=1}}：命令起点的类型，见下表。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为0时：}}
+**** {{nbt|long|PlayerId|required=1|existonsave=1}}：玩家的唯一ID。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为1或2时：}}
+**** {{nbt|int|PosX|required=1|existonsave=1}}：X坐标。
+**** {{nbt|int|PosY|required=1|existonsave=1}}：Y坐标。
+**** {{nbt|int|PosZ|required=1|existonsave=1}}：Z坐标。
+**** {{nbt|string|Name|required=1|existonsave=1}}：名称。
+**** {{nbt|string|DimensionId|required=1|existonsave=1}}：所在维度ID。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为2时，额外有：}}
+**** {{nbt|long|MinecartId|required=1|existonsave=1}}：矿车实体的唯一ID。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为7时：}}
+**** {{nbt|string|RequestId|required=1|existonsave=1}}：服务器请求ID。
+**** {{nbt|byte|CommandPermissionLevel|required=1|existonsave=1}}：此次请求的命令权限等级，见下表。
+**** {{nbt|string|DimensionId|required=1}}：命令来自于的维度的ID。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为8、11或13时：}}
+**** {{nbt|long|EntityId|required=1|existonsave=1}}：实体的唯一ID。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为9时：}}
+**** {{nbt|compound|Origin|required=1}}：该虚拟起点伪装的命令起点。
+***** {{bedrock nbt|命令起点|others}}
+**** {{nbt|compound|OutputReceiver|required=1}}：该虚拟起点指定的命令输出接受者，可以和起点不一致。
+***** {{bedrock nbt|命令起点|others}}
+**** {{nbt|compound|CommandPosition|required=1|existonsave=1}}：该虚拟起点伪装的命令执行位置信息。
+***** {{nbt|float|OffsetX|required=1|existonsave=1}}：X相对坐标的偏移量。
+***** {{nbt|float|OffsetY|required=1|existonsave=1}}：Y相对坐标的偏移量。
+***** {{nbt|float|OffsetZ|required=1|existonsave=1}}：Z相对坐标的偏移量。
+***** {{nbt|bool|RelativeX|required=1|existonsave=1}}：是否在X轴使用相对坐标。
+***** {{nbt|bool|RelativeY|required=1|existonsave=1}}：是否在Y轴使用相对坐标。
+***** {{nbt|bool|RelativeZ|required=1|existonsave=1}}：是否在Z轴使用相对坐标。
+***** {{nbt|bool|Local|required=1|existonsave=1}}：是否使用局部坐标系。
+**** {{nbt|int|Version|required=1|existonsave=1}}：该虚拟起点伪装的命令执行版本。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为11时，额外有：}}
+**** {{nbt|long|TargetOther|required=1|existonsave=1}}：命令执行的对立实体的唯一ID。
+**** {{nbt condition|当{{nbt|byte|OriginType}}为15时：}}
+**** {{nbt|long|ExecutionEntityActorId|required=1|existonsave=1}}：当前上下文中命令执行实体的唯一ID。
+**** {{nbt|float|PositionX|required=1|existonsave=1}}：当前上下文中命令执行的X坐标。
+**** {{nbt|float|PositionY|required=1|existonsave=1}}：当前上下文中命令执行的Y坐标。
+**** {{nbt|float|PositionZ|required=1|existonsave=1}}：当前上下文中命令执行的Z坐标。
+**** {{nbt|float|RotationX|required=1}}：当前上下文中命令执行的俯仰角。
+**** {{nbt|float|RotationY|required=1}}：当前上下文中命令执行的偏航角。
+**** {{nbt|long|RotationActorId|required=1|existonsave=1}}：当前上下文中命令采样旋转角的实体的唯一ID。
+**** {{nbt|long|PositionActorId|required=1|existonsave=1}}：当前上下文中命令采样位置信息的实体的唯一ID。
+**** {{nbt|int|Anchor|required=1|existonsave=1}}：当前上下文中命令锚定的活动对象位置，见下表。
+**** {{nbt|string|DimensionId|required=1|existonsave=1}}：当前上下文中命令执行的维度ID。
+*** {{nbt|string|FilePath|required=1|existonsave=1}}：函数文件的路径。
+*** {{nbt condition|当{{nbt|byte|ActionType}}为2时：}}
+*** {{nbt|bool|AnimatePlacement|required=1|existonsave=1}}：是否在结构放置时作动画，加载时会以{{cd|4294967295}}为队列ID加载以下结构动画。
+*** {{bedrock nbt|结构动画|others}}
+</div>
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 区域类型
+! 值
+! 名称
+! 描述
+|-
+|0||Bounds||边界
+|-
+|1||Circle||圆形
+|-
+|2||TickingArea||常加载区域
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 区块请求列表类型
+! 值
+! 名称
+! 描述
+|-
+|0||Async||异步
+|-
+|1||Ticking||滴答
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 请求动作类型
+! 值
+! 名称
+! 描述
+|-
+|0||FunctionAction||函数动作
+|-
+|1||TestAction||测试动作
+|-
+|2||StructureAnimationAction||结构动画动作
+|-
+|3||JigsawStructurePostprocessAction||拼图结构后处理动作
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 命令起点类型
+! 值
+! 名称
+! 描述
+|-
+|0||Player||玩家
+|-
+|1||CommandBlock||命令方块
+|-
+|2||MinecartCommandBlock||命令方块矿车
+|-
+|3||DevConsole||开发控制台，仅在开发构建中可用
+|-
+|4||Test||测试
+|-
+|5||AutomationPlayer||自动化玩家
+|-
+|6||ClientAutomation||客户端自动化
+|-
+|7||DedicatedServer||[[BDS|专用服务器]]
+|-
+|8||Entity||实体
+|-
+|9||Virtual||虚拟
+|-
+|10||GameArgument||游戏参数
+|-
+|11||EntityServer||服务器实体
+|-
+|12||Precompiled||预编译
+|-
+|13||GameDirectorEntityServer||游戏管理员服务器实体
+|-
+|14||Scripting||脚本，在脚本API中使用
+|-
+|15||ExecuteContext||执行上下文，在{{cmd|execute}}执行链中使用
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 命令权限等级
+! 值
+! 名称
+! 描述
+|-
+|0||Any||任何人可执行
+|-
+|1||GameDirectors||游戏管理员与命令方块可执行
+|-
+|2||Admin||游戏管理员可执行，但命令方块不可执行
+|-
+|3||Host||任何游戏主机可执行
+|-
+|4||Owner||专用服务器可执行
+|-
+|5||Internal||游戏内部可执行
+|}
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 活动对象位置
+! 值
+! 名称
+! 描述
+|-
+|0||Feet||足部
+|-
+|1||Body||身体
+|-
+|2||WeaponAttachPoint||武器挂接点
+|-
+|3||Head||头部
+|-
+|4||DropAttachPoint||掉落挂节点
+|-
+|5||ExplosionPoint||爆炸点
+|-
+|6||Eyes||眼部
+|-
+|7||BreathingPoint||呼吸点
+|-
+|8||Mouth||嘴部
+|}
+
+== 独立键名 ==
+
+很多键是零散独立地存储在LeveDB缓冲区的不同位置。
+
+=== 本地玩家数据 ===
+
+本地玩家数据的键名为{{cd|~local_player}}。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''LocalPlayer''：当前玩家的ID数据。
+*** {{bedrock nbt|实体|entity}}
+*** {{bedrock nbt|生物|entity}}
+*** {{bedrock nbt|玩家|entity}}
+</div>
+
+=== 旧版村庄数据 ===
+
+{{incomplete section|序列化结构可能不完整}}
+
+旧版村庄数据的键名为{{cd|mVillages}}，此类数据当前已完全弃用。
+
+<div class="treeview">
+* '''root'''{{/Asteroid}}：负载。
+** '''{{nbt|compound}}'''{{/Asteroid|required=1|existonsave=1}}''Villages''：当前世界中所有的村庄。
+*** {{nbt|compound|data|required=1|existonsave=1}}：所有村庄数据。
+**** {{nbt|int|Tick|required=1|existonsave=1}}：持久化时的游戏刻。
+**** {{nbt|list|Villages|existonsave=1}}：所有的村庄。
+***** {{nbt|compound}}：一个村庄。
+****** {{nbt|int|Tick|required=1|existonsave=1}}：村庄持久化时的游戏刻。
+****** {{nbt|int|MTick|required=1|existonsave=1}}：村庄停止[[村民繁殖|繁殖]]计时器。
+****** {{nbt|int|Stable|required=1|existonsave=1}}：一个时间戳{{info needed}}。
+****** {{nbt|int|CX|required=1|existonsave=1}}：村庄中心的X坐标。
+****** {{nbt|int|CY|required=1|existonsave=1}}：村庄中心的Y坐标。
+****** {{nbt|int|CZ|required=1|existonsave=1}}：村庄中心的Z坐标。
+****** {{nbt|int|ACX|required=1|existonsave=1}}：{{info needed}}。
+****** {{nbt|int|ACY|required=1|existonsave=1}}：{{info needed}}。
+****** {{nbt|int|ACZ|required=1|existonsave=1}}：{{info needed}}。
+****** {{nbt|int|Radius|required=1|existonsave=1}}：{{info needed}}。
+****** {{nbt|int|Golems|required=1|existonsave=1}}：当前村庄内铁傀儡数量。
+****** {{nbt|list|Villagers|existonsave=1}}：当前村庄内的所有村民。
+******* {{nbt|compound}}：一个村民。
+******** {{nbt|long|ID|required=1|existonsave=1}}：当前村民实体的唯一ID。
+****** {{nbt|list|Players|existonsave=1}}：当前村庄内的所有玩家{{info needed}}。
+****** {{nbt|list|Doors|existonsave=1}}：当前村庄内的所有门。
+******* {{nbt|compound}}：一个门。
+******** {{nbt|int|TS|required=1|existonsave=1}}：当前门最后一次滴答的时间。
+******** {{nbt|int|X|required=1|existonsave=1}}：当前门的X坐标。
+******** {{nbt|int|Y|required=1|existonsave=1}}：当前门的Y坐标。
+******** {{nbt|int|Z|required=1|existonsave=1}}：当前门的Z坐标。
+******** {{nbt|int|IDX|required=1|existonsave=1}}：{{info needed}}。
+******** {{nbt|int|IDY|required=1|existonsave=1}}：{{info needed}}。
+</div>
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.9.0|dev=build 1|加入了采用Zlib压缩格式的LevelDB存档存储。
+|加入了区块的{{cd|LegacyTerrain}}（48，{{cd|0}}，曾用名：{{cd|Terrain}}）、{{cd|BlockEntity}}（49，{{cd|1}}）、{{cd||Entity}}（50，{{cd|2}}）、{{cd||PendingTicks}}（51，{{cd|3}}）、{{cd||LegacyVersion}}（118，{{cd|v}}，曾用名：{{cd|Version}}）标签。
+|方块ID、数据值、天空光照、方块光照、高度图、生物群系ID及其颜色数据存入{{cd|LegacyTerrain}}对应的键。
+|方块实体数据存入{{cd|BlockEntity}}对应的键。
+|实体数据存入{{cd|Entity}}对应的键。
+|计划刻数据存入{{cd|PendingTicks}}对应的键。
+|存档区块版本存入{{cd|LegacyVersion}}对应的键。}}
+|{{HistoryLine||?|dev=?|加入了区块的{{cd|LegacyBlockExtraData}}（52，{{cd|4}}，曾用名：{{cd|BlockExtraData}}）标签。
+|如果一个方块具有的数据值上限大于或等于16，则将这种宽型数据值数据存入{{cd|LegacyBlockExtraData}}对应的键。}}
+|{{HistoryLine||?|dev=?|加入了区块的{{cd|BiomeState}}（53，{{cd|5}}）标签。
+|生物群系的降雪级别数据存入{{cd|BiomeState}}对应的键。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|现在区块被分为高度为16的若干个子区块进行存储。
+|加入了区块的{{cd|SubChunkPrefix}}（47）、{{cd|Data2DLegacy}}（48，曾用名：{{cd|Data2D}}）标签。
+|废弃了区块的{{cd|LegacyTerrain}}标签。
+|现在方块ID、数据值、天空光照、方块光照数据存入{{cd|SubChunkPrefix}}对应的键。
+|现在高度图、生物群系ID及其颜色数据存入{{cd|Data2DLegacy}}对应的键。}}
+|{{HistoryLine|||dev=0.17.0.2|加入了区块的{{cd|Data2D}}（49）标签。
+|废弃了生物群系颜色数据，现在高度图和生物群系ID存入{{cd|Data2D}}对应的键。}}
+|{{HistoryLine|||dev=?|加入了区块的{{cd|FinalizedState}}（54）标签。
+|最终化数据存入{{cd|FinalizedState}}对应的键。}}
+|{{HistoryLine|||dev=?|加入了区块的{{cd|ConversionData}}（55）标签。
+|来自原主机板的世界转换数据存入{{cd|ConversionData}}对应的键。}}
+|{{HistoryLine|||dev=?|加入了区块的{{cd|BorderBlocks}}（56）标签。
+|教育版边界方块数据存入{{cd|BorderBlocks}}对应的键。}}
+|{{HistoryLine|||dev=?|加入了区块的{{cd|HardcodedSpawners}}（57）标签。
+|硬编码生成区域数据存入{{cd|HardcodedSpawners}}对应的键。}}
+|{{HistoryLine|||dev=?|加入了区块的{{cd|RandomTicks}}（58）标签。
+|随机刻数据存入{{cd|RandomTicks}}对应的键。}}
+|{{HistoryLine|||dev=?|加入了区块的{{cd|Checksums}}（59）标签。
+|校验和数据存入{{cd|Checksums}}对应的键。}}
+|{{HistoryLine|||dev=?|加入了区块的{{cd|GenerationSeed}}（60）标签。
+|区块生成种子存入{{cd|GenerationSeed}}对应的键。}}
+|{{HistoryLine||1.1.0|dev=?|废弃了方块光照的存储，现在{{cd|SubChunkPrefix}}中不再读取和保存方块光照数据，方块光照在运行时生成。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.2.0|dev=?|废弃了天空光照的存储，现在{{cd|SubChunkPrefix}}中不再读取和保存天空光照数据，天空光照在运行时生成。}}
+|{{HistoryLine||1.2.13|dev=?|子区块现在采用新的调色板格式存储。
+|废弃了区块的{{cd|LegacyBlockExtraData}}标签，现在使用带有4字节整数或方块状态的调色板存储方块的额外数据。}}
+|{{HistoryLine||?|dev=?|加入了新版村庄的存储系统，废弃了{{cd|mVillages}}键，改用在缓冲区的一段位置集中存储。}}
+|{{HistoryLine||1.16.100|dev=?|加入了区块的{{cd|Version}}（44）标签。
+|废弃了区块的{{cd|LegacyVersion}}标签，现在使用{{cd|Version}}标签存储存档区块版本。}}
+|{{HistoryLine||?|exg=caves_and_cliffs_en|dev=?|加入了区块的{{cd|Data3D}}（43）标签。
+|新版的三维生物群系数据存入{{cd|Data3D}}对应的键。}}
+|{{HistoryLine||1.17.0|exg=caves_and_cliffs_en|dev=1.16.230.50|现在所有子区块的索引会在参与生成键名时加4，以适配Y{{=}}0以下世界高度的提升。}}
+|{{HistoryLine||1.17.30|exg=CnC_|dev=1.17.30.23|废弃了区块的{{cd|Checksums}}标签。}}
+|{{HistoryLine|||dev=1.17.30.25|现在重新允许负值的子区块索引参与生成键名，因此索引不再加4。}}
+|{{HistoryLine||?|exg=CnC_|dev=?|加入了区块的{{cd|GeneratedPreCavesAndCliffsBlending}}（61）标签。}}
+|{{HistoryLine||?|exg=CnC_|dev=?|加入了区块的{{cd|BlendingBiomeHeight}}（62）标签。}}
+|{{HistoryLine||?|exg=CnC_|dev=?|废弃了区块的{{cd|BlendingBiomeHeight}}标签。}}
+|{{HistoryLine||?|dev=?|加入了区块的{{cd|MetaDataHash}}（63）标签。
+|区块元数据复合标签的哈希值数据存入{{cd|MetaDataHash}}对应的键。}}
+|{{HistoryLine||?|dev=?|加入了区块的{{cd|BlendingData}}（64）标签。
+|现在新版的区块融合数据存入{{cd|BlendingData}}对应的键。}}
+|{{HistoryLine||1.18.30|dev=?|加入了新版的实体存储系统，实体不再存储在各个区块相关的键下，而是集中存储在缓冲区中的相邻位置，以加速实体访问速度。
+|加入了区块的{{cd|ActorDigestVersion}}（65）标签。
+|实体摘要版本存入{{cd|ActorDigestVersion}}对应的键。}}
+|{{HistoryLine||?|dev=?|现在村庄的键名中额外会表示维度。}}
+|{{HistoryLine||1.21.10|dev=?|废弃了区块的{{cd|HardcodedSpawners}}标签，硬编码生成区域不再持久化。
+|加入了区块的{{cd|AabbVolumes}}（119）标签。
+|拼图结构及其生成区域数据存入{{cd|AabbVolumes}}对应的键。}}
+|{{HistoryLine||1.21.40|dev=1.21.40.23|增大了生物群系数字ID的取值范围，因此拓宽了区块的{{cd|Data2D}}标签的存储格式，以适配低基游戏版本的世界。}}
+|{{HistoryLine|china}}
+|{{HistoryLine||?|dev=?|加入了区块的{{cd|VersionMarkInsert}}（111）标签。}}
+|{{HistoryLine||?|dev=?|加入了区块的{{cd|VersionEnchant}}（110）标签。}}
+}}

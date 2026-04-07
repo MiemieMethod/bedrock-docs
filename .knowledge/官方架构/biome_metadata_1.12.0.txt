@@ -1,0 +1,8 @@
+{
+    object "<scope_identifier>"
+    {
+        version "format_version"
+        arbitrary_biome_component "<scope_identifier>" : opt
+    }
+}
+

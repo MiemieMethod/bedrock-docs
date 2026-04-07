@@ -1,0 +1,18 @@
+{
+    object "damage_conditions" : opt
+    {
+         "filters" : opt
+        string "cause" : opt
+        int "damage_per_tick" : opt
+    }
+    array "damage_conditions" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "filters" : opt
+            string "cause" : opt
+            int "damage_per_tick" : opt
+        }
+    }
+}
+

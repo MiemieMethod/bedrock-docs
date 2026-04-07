@@ -1,0 +1,22 @@
+{
+    "_comment": "效果的唯一ID",
+    "identifier":"neteaseRound:stun",
+    "_comment": "效果的名字",
+    "showName": "晕眩", 
+    "_comment": "效果的图标",
+    "icon": "textures/ui/netease_round/debuff_01", 
+    "_comment": "是否是正面效果",
+    "positive": false,
+    "_comment": "效果的描述",
+    "desc": "不能行动", 
+    "_comment": "效果的演出效果的identifier",
+    "perform": "neteaseRound:effect:stun",
+    "_comment": "效果的数值计算，0（无数值效果）、1（有数值效果，效果数值 = 攻击*数值系数multi + 数值系数extra）",
+    "damage": {"style":0},
+    "_comment": "效果的持续回合数",
+    "round": 1,
+    "_comment": "效果添加到某个角色身上时，会顶替掉的效果列表，一般至少会顶替掉identifier相同的效果",
+    "replaceList": [
+        "neteaseRound:stun"
+    ]
+}

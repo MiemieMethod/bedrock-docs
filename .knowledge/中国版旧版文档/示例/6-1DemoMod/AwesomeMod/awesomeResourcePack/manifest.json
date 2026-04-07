@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "FPS Demo By @SDKTeam",
+        "name": "AwesomeDemo",
+        "uuid": "fabf9552-04f6-4683-b73e-d706086317b2",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "FPS Demo By @SDKTeam",
+            "type": "resources",
+            "uuid": "bd3df61b-61e2-4d73-8eb6-b527e0494cf2",
+            "version": [0, 0, 1]
+        }
+    ]
+}

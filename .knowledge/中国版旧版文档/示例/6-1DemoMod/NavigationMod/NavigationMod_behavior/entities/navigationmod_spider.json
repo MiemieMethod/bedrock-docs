@@ -1,0 +1,46 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "navigationmod:spider",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "components": {
+    
+      "minecraft:follow_range": {
+        "value": 48,
+        "max": 48
+      },
+
+      "minecraft:collision_box": {
+        "width": 1.4,
+        "height": 0.9
+      },
+      "minecraft:health": {
+        "value": 16,
+        "max": 16
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:navigation.climb": {
+        "can_path_over_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_comment":"mod的名字",
+  "netgame_mod_name":"neteaseShopDev",
+
+  "_comment":"mod的版本号",
+  "netgame_mod_version":"1.0.3",
+
+  "_comment":"适用最低的引擎版本",
+  "min_app_version":"1.21.0.release20210318",
+
+  "_comment":"该服务器Mod隶属于“商城”插件",
+  "description":"Shop mod插件",
+
+  "_comment":"适用的服务器类型",
+  "support_server_type":["lobby","game"],
+
+  "_comment":"作者名字",
+  "author": "NetEase",
+
+  "_comment":"是否自动驱动订单查询，true：插件会主动驱动订单查询，无需主动调用API【StartShipProcess】；false：插件不会主动查询订单，需要外部逻辑调用API【StartShipProcess】驱动订单查询",
+  "auto_detect": true
+}

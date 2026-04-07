@@ -1,0 +1,388 @@
+{
+   "default": {
+      "is_new_nine_slice": "$is_new_nine_slice",
+      "layer": "$texture_layer",
+      "nine_slice_buttom": "$nine_slice_buttom",
+      "nine_slice_left": "$nine_slice_left",
+      "nine_slice_right": "$nine_slice_right",
+      "nine_slice_top": "$nine_slice_top",
+      "nineslice_size": "$nineslice_size",
+      "texture": "$default_texture",
+      "type": "image"
+   },
+   "hover": {
+      "is_new_nine_slice": "$is_new_nine_slice",
+      "layer": "$texture_layer",
+      "nine_slice_buttom": "$nine_slice_buttom",
+      "nine_slice_left": "$nine_slice_left",
+      "nine_slice_right": "$nine_slice_right",
+      "nine_slice_top": "$nine_slice_top",
+      "nineslice_size": "$nineslice_size",
+      "texture": "$hover_texture",
+      "type": "image"
+   },
+   "pressed": {
+      "is_new_nine_slice": "$is_new_nine_slice",
+      "layer": "$texture_layer",
+      "nine_slice_buttom": "$nine_slice_buttom",
+      "nine_slice_left": "$nine_slice_left",
+      "nine_slice_right": "$nine_slice_right",
+      "nine_slice_top": "$nine_slice_top",
+      "nineslice_size": "$nineslice_size",
+      "texture": "$pressed_texture",
+      "type": "image"
+   },
+   "button_label": {
+      "color": "$label_color",
+      "font_scale_factor": "$label_font_scale_factor",
+      "font_size": "$label_font_size",
+      "font_type": "smooth",
+      "layer": "$label_layer",
+      "max_size": ["100%", "100%"],
+      "offset": "$label_offset",
+      "shadow": false,
+      "text": "$label_text",
+      "text_alignment": "center",
+      "type": "label"
+   },
+   "closeBtn@common.button": {
+      "$label_color": [1, 1, 1],
+      "$label_font_scale_factor": 1.0,
+      "$label_font_size": "normal",
+      "$label_layer": 10,
+      "$label_offset": [0, 0],
+      "$label_text": "pop screen",
+      "$default_texture": "textures/netease/common/button/default",
+      "$hover_texture": "textures/netease/common/button/hover",
+      "$is_new_nine_slice": true,
+      "$nineslice_size": [0, 0, 0, 0],
+      "$nine_slice_buttom": 0,
+      "$nine_slice_left": 0,
+      "$nine_slice_right": 0,
+      "$nine_slice_top": 0,
+      "$pressed_button_name": "",
+      "$default_text_color": [0.26, 0.26, 0.26],
+      "$pressed_text_color": [1, 1, 1],
+      "$hover_text_color": [1, 1, 1],
+      "$pressed_texture": "textures/netease/common/button/pressed",
+      "$texture_layer": 2,
+      "anchor_from": "top_right",
+      "anchor_to": "top_right",
+      "controls": [{
+            "default@PushScreenDemo.default": {}
+         },
+         {
+            "hover@PushScreenDemo.hover": {}
+         },
+         {
+            "pressed@PushScreenDemo.pressed": {}
+         },
+         {
+            "button_label@PushScreenDemo.button_label": {}
+         }
+      ],
+      "default_control": "default",
+      "hover_control": "hover",
+      "is_handle_button_move_event": true,
+      "layer": 5,
+      "offset": [-4, 2],
+      "pressed_control": "pressed",
+      "size": [80.0, 24.0],
+      "type": "button",
+      "visible": true
+   },
+   "newlabel": {
+      "anchor_from": "center",
+      "anchor_to": "center",
+      "color": [1, 1, 1],
+      "font_scale_factor": 0.8799999952316284,
+      "font_size": "large",
+      "font_type": "smooth",
+      "layer": 13,
+      "offset": [0, 50],
+      "shadow": false,
+      "size": [300.0, 100.0],
+      "text": "I am datiangou!",
+      "text_alignment": "center",
+      "type": "label",
+      "visible": true
+   },
+   "edit_box_background_default": {
+      "is_new_nine_slice": "$is_new_nine_slice",
+      "nine_slice_buttom": "$nine_slice_buttom",
+      "nine_slice_left": "$nine_slice_left",
+      "nine_slice_right": "$nine_slice_right",
+      "nine_slice_top": "$nine_slice_top",
+      "nineslice_size": "$nineslice_size",
+      "texture": "$edit_box_default_texture",
+      "type": "image"
+   },
+   "edit_box_background_hover": {
+      "is_new_nine_slice": "$is_new_nine_slice",
+      "nine_slice_buttom": "$nine_slice_buttom",
+      "nine_slice_left": "$nine_slice_left",
+      "nine_slice_right": "$nine_slice_right",
+      "nine_slice_top": "$nine_slice_top",
+      "nineslice_size": "$nineslice_size",
+      "texture": "$edit_box_hover_texture",
+      "type": "image"
+   },
+   "text_edit_box1@common.text_edit_box": {
+      "$edit_box_default_texture": "textures/ui/edit_box_indent",
+      "$edit_box_hover_texture": "textures/ui/edit_box_indent_hover",
+      "$font_size": "normal",
+      "$is_new_nine_slice": false,
+      "$nine_slice_buttom": 0,
+      "$nine_slice_left": 0,
+      "$nine_slice_right": 0,
+      "$nine_slice_top": 0,
+      "$nineslice_size": [0, 0, 0, 0],
+      "$place_holder_text": "请输入内容",
+      "$place_holder_text_color": [0.50, 0.50, 0.50],
+      "$text_background_default": "PushScreenDemo.edit_box_background_default",
+      "$text_background_hover": "PushScreenDemo.edit_box_background_hover",
+      "$text_box_name": "%PushScreenDemo.OnTextEditCallback",
+      "$text_box_text_color": [1, 1, 1],
+      "$text_edit_box_content_binding_name": "#PushScreenDemo.ReturnTextFunc",
+      "$text_edit_box_label_anchor_point": "right_middle",
+      "$text_edit_box_label_min_size": ["100%", 0],
+      "$text_edit_box_label_size": ["default", "default"],
+      "anchor_from": "center",
+      "anchor_to": "center",
+      "enabled_newline": false,
+      "layer": 14,
+      "max_length": 512,
+      "offset": [0, 68],
+      "size": [200, 27],
+      "type": "edit_box",
+      "visible": true
+   },
+   "reduceBtn@common.button": {
+      "$label_color": [1, 1, 1],
+      "$label_font_scale_factor": 1.0,
+      "$label_font_size": "normal",
+      "$label_layer": 10,
+      "$label_offset": [0, 0],
+      "$label_text": "Decrease",
+      "$default_texture": "textures/netease/common/button/default",
+      "$hover_texture": "textures/netease/common/button/hover",
+      "$is_new_nine_slice": true,
+      "$nineslice_size": [0, 0, 0, 0],
+      "$nine_slice_buttom": 0,
+      "$nine_slice_left": 0,
+      "$nine_slice_right": 0,
+      "$nine_slice_top": 0,
+      "$pressed_button_name": "",
+      "$default_text_color": [0.26, 0.26, 0.26],
+      "$pressed_text_color": [1, 1, 1],
+      "$hover_text_color": [1, 1, 1],
+      "$pressed_texture": "textures/netease/common/button/pressed",
+      "$texture_layer": 2,
+      "anchor_from": "center",
+      "anchor_to": "center",
+      "controls": [{
+            "default@PushScreenDemo.default": {}
+         },
+         {
+            "hover@PushScreenDemo.hover": {}
+         },
+         {
+            "pressed@PushScreenDemo.pressed": {}
+         },
+         {
+            "button_label@PushScreenDemo.button_label": {}
+         }
+      ],
+      "default_control": "default",
+      "hover_control": "hover",
+      "is_handle_button_move_event": true,
+      "layer": 5,
+      "offset": [-60, 35],
+      "pressed_control": "pressed",
+      "size": [60.0, 24.0],
+      "type": "button",
+      "visible": true
+   },
+   "addBtn@common.button": {
+      "$label_color": [1, 1, 1],
+      "$label_font_scale_factor": 1.0,
+      "$label_font_size": "normal",
+      "$label_layer": 10,
+      "$label_offset": [0, 0],
+      "$label_text": "Increase",
+      "$default_texture": "textures/netease/common/button/default",
+      "$hover_texture": "textures/netease/common/button/hover",
+      "$is_new_nine_slice": true,
+      "$nineslice_size": [0, 0, 0, 0],
+      "$nine_slice_buttom": 0,
+      "$nine_slice_left": 0,
+      "$nine_slice_right": 0,
+      "$nine_slice_top": 0,
+      "$pressed_button_name": "",
+      "$default_text_color": [0.26, 0.26, 0.26],
+      "$pressed_text_color": [1, 1, 1],
+      "$hover_text_color": [1, 1, 1],
+      "$pressed_texture": "textures/netease/common/button/pressed",
+      "$texture_layer": 2,
+      "anchor_from": "center",
+      "anchor_to": "center",
+      "controls": [{
+            "default@PushScreenDemo.default": {}
+         },
+         {
+            "hover@PushScreenDemo.hover": {}
+         },
+         {
+            "pressed@PushScreenDemo.pressed": {}
+         },
+         {
+            "button_label@PushScreenDemo.button_label": {}
+         }
+      ],
+      "default_control": "default",
+      "hover_control": "hover",
+      "is_handle_button_move_event": true,
+      "layer": 5,
+      "offset": [60, 35],
+      "pressed_control": "pressed",
+      "size": [60.0, 24.0],
+      "type": "button",
+      "visible": true
+   },
+   "ensureBtn@common.button": {
+      "$label_color": [1, 1, 1],
+      "$label_font_scale_factor": 1.0,
+      "$label_font_size": "normal",
+      "$label_layer": 10,
+      "$label_offset": [0, 0],
+      "$label_text": "修改",
+      "$default_texture": "textures/netease/common/button/default",
+      "$hover_texture": "textures/netease/common/button/hover",
+      "$is_new_nine_slice": true,
+      "$nineslice_size": [0, 0, 0, 0],
+      "$nine_slice_buttom": 0,
+      "$nine_slice_left": 0,
+      "$nine_slice_right": 0,
+      "$nine_slice_top": 0,
+      "$pressed_button_name": "",
+      "$default_text_color": [0.26, 0.26, 0.26],
+      "$pressed_text_color": [1, 1, 1],
+      "$hover_text_color": [1, 1, 1],
+      "$pressed_texture": "textures/netease/common/button/pressed",
+      "$texture_layer": 2,
+      "anchor_from": "bottom_middle",
+      "anchor_to": "bottom_middle",
+      "controls": [{
+            "default@PushScreenDemo.default": {}
+         },
+         {
+            "hover@PushScreenDemo.hover": {}
+         },
+         {
+            "pressed@PushScreenDemo.pressed": {}
+         },
+         {
+            "button_label@PushScreenDemo.button_label": {}
+         }
+      ],
+      "default_control": "default",
+      "hover_control": "hover",
+      "is_handle_button_move_event": true,
+      "layer": 5,
+      "offset": ["20.00%+0px", "-10.00%+0px"],
+      "pressed_control": "pressed",
+      "size": [60.0, 24.0],
+      "type": "button",
+      "visible": true
+   },
+   "paper_doll0": {
+      "anchor_from": "center",
+      "anchor_to": "center",
+      "bindings": [{
+            "binding_type": "view",
+            "source_control_name": "paper_doll0_skin_viewer_panel",
+            "source_property_name": "#gesture_delta_source",
+            "target_property_name": "#gesture_delta_source"
+         },
+         {
+            "binding_type": "view",
+            "source_control_name": "paper_doll0_skin_viewer_panel",
+            "source_property_name": "#gesture_mouse_delta_x",
+            "target_property_name": "#gesture_mouse_delta_x"
+         }
+      ],
+      "controls": [{
+         "paper_doll0_skin_viewer_panel": {
+            "anchor_from": "bottom_middle",
+            "anchor_to": "bottom_middle",
+            "button_mappings": [{
+               "button_up_right_of_first_refusal": true,
+               "from_button_id": "button.menu_select",
+               "mapping_type": "pressed",
+               "to_button_id": "button.turn_doll"
+            }],
+            "gesture_tracking_button": "button.turn_doll",
+            "layer": 3,
+            "offset": [0, 0],
+            "size": ["30%+0px", "50%+0px"],
+            "type": "input_panel",
+            "visible": true
+         }
+      }],
+      "property_bag": {
+         "#skin_rotation": true,
+         "#custom_rot_y": 90
+      },
+      "animation": "",
+      "layer": 22,
+      "modelname": "datiangou",
+      "modelsize": 1.0,
+      "offset": [0.0, "-18.0%+0.0px"],
+      "renderer": "paper_doll_renderer",
+      "rotation": "gesture_x",
+      "size": [100, 100],
+      "type": "custom",
+      "visible": true
+   },
+   "pushScreenPanel": {
+      "layer": 1000,
+      "type": "panel",
+      "size": ["100%", "100.0%"],
+      "controls": [{
+            "closeBtn@PushScreenDemo.closeBtn": {}
+         },
+         {
+            "text_edit_box1@PushScreenDemo.text_edit_box1": {}
+         },
+         {
+            "newlabel@PushScreenDemo.newlabel": {}
+         },
+         {
+            "paper_doll0@PushScreenDemo.paper_doll0": {}
+         },
+         {
+            "addBtn@PushScreenDemo.addBtn": {}
+         },
+         {
+            "reduceBtn@PushScreenDemo.reduceBtn": {}
+         },
+         {
+            "ensureBtn@PushScreenDemo.ensureBtn": {}
+         }
+      ]
+   },
+   "main": {
+      "absorbs_input": true,
+      "always_accepts_input": false,
+      "controls": [{
+         "pushScreenPanel@PushScreenDemo.pushScreenPanel": {}
+      }],
+      "force_render_below": false,
+      "is_showing_menu": true,
+      "render_game_behind": true,
+      "render_only_when_topmost": true,
+      "should_steal_mouse": false,
+      "type": "screen"
+   },
+   "namespace": "PushScreenDemo"
+}

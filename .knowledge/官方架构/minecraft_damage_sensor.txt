@@ -1,0 +1,24 @@
+{
+    object "triggers" : opt
+    {
+         "on_damage" : opt
+        bool "deals_damage" : opt
+        string "cause" : opt
+        float "damage_multiplier" : opt
+        float "damage_modifier" : opt
+        string "on_damage_sound_event" : opt
+    }
+    array "triggers" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "on_damage" : opt
+            bool "deals_damage" : opt
+            string "cause" : opt
+            float "damage_multiplier" : opt
+            float "damage_modifier" : opt
+            string "on_damage_sound_event" : opt
+        }
+    }
+}
+

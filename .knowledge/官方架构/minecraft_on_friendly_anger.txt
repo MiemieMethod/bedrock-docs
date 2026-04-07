@@ -1,0 +1,6 @@
+{
+    string "event" : opt
+    enumerated_value "target" : opt
+     "filters" : opt
+}
+

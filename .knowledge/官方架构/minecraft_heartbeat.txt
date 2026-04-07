@@ -1,0 +1,5 @@
+{
+    molang "interval" : opt
+    string "sound_event" : opt
+}
+

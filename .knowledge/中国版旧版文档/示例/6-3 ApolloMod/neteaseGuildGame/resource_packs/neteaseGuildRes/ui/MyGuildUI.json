@@ -1,0 +1,1216 @@
+{
+   "MyGuildPanel" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "myparty_img@MyGuildUI.myparty_img" : {}
+         }
+      ],
+      "layer" : 10,
+      "offset" : [ 0, 0 ],
+      "size" : [ 320.0, 210.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "applylist_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 69,
+      "$nine_slice_left" : 50,
+      "$nine_slice_right" : 69,
+      "$nine_slice_top" : 50,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {}
+         },
+         {
+            "hover@MyGuildUI.hover" : {}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {}
+         },
+         {
+            "tips_new_img@MyGuildUI.tips_new_img" : {}
+         },
+          {
+                "button_label": {
+                    "color": [
+                        0.25882352941176473,
+                        0.25882352941176473,
+                        0.25882352941176473
+                    ],
+                    "font_scale_factor": 0.8,
+                    "font_size": "normal",
+                    "layer": 14,
+                    "max_size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "offset": "$text_offset",
+                    "shadow": false,
+                    "text": "申请列表",
+                    "type": "label"
+                }
+            }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "23.41%+-10.0px", "41.04%+-1.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 46.0, 22.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "bowout_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 69,
+      "$nine_slice_left" : 50,
+      "$nine_slice_right" : 69,
+      "$nine_slice_top" : 50,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {}
+         },
+         {
+            "hover@MyGuildUI.hover" : {}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {}
+         },
+         {
+                "button_label": {
+                    "color": [
+                        0.25882352941176473,
+                        0.25882352941176473,
+                        0.25882352941176473
+                    ],
+                    "font_scale_factor": 0.8,
+                    "font_size": "normal",
+                    "layer": 14,
+                    "max_size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "offset": "$text_offset",
+                    "shadow": false,
+                    "text": "退出公会",
+                    "type": "label"
+                }
+            }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "-39.94%+1.0px", "41.04%+0.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 46.0, 22.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "button_label" : {
+      "color" : "$label_color",
+      "font_scale_factor" : "$label_font_scale_factor",
+      "font_size" : "$label_font_size",
+      "font_type" : "smooth",
+      "layer" : "$label_layer",
+      "max_size" : [ "100%", "100%" ],
+      "offset" : "$label_offset",
+      "shadow" : false,
+      "text" : "$label_text",
+      "text_alignment" : "center",
+      "type" : "label"
+   },
+   "close_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/icon08@3x",
+      "$hover_texture" : "textures/ui/netease_guild/icon08_click@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_guild/icon08@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {}
+         },
+         {
+            "hover@MyGuildUI.hover" : {}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 11,
+      "offset" : [ "46.5895951%+0 px", "-45.0%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ "12.8 px", "12.8 px" ],
+      "type" : "button",
+      "visible" : true
+   },
+   "default" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$default_texture",
+      "type" : "image"
+   },
+   "hover" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$hover_texture",
+      "type" : "image"
+   },
+   "job_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-19.6473482%+0 px", "-21.4876026%+0px" ],
+      "shadow" : false,
+      "size" : [ "60.0 px", "12.0px" ],
+      "text" : "长老",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "job_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-24.19%+9.0px", "-24.14%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "30 px", "10 px" ],
+      "text" : "职务",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "joinparty_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 0.3019607843137255, 0.3019607843137255, 0.3019607843137255 ],
+      "font_scale_factor" : 1.205357193946838,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-39.08%+7.0px", "-44.06%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "60.0 px", "12.0px" ],
+      "text" : "我的公会",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "level_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-4.001233%+0 px", "-21.4876026%+0px" ],
+      "shadow" : false,
+      "size" : [ "60.0 px", "12.0px" ],
+      "text" : "20",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "level_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-8.58%+5.0px", "-24.23%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "30 px", "10 px" ],
+      "text" : "等级",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "main@common.base_screen" : {
+      "absorbs_input" : true,
+      "always_accepts_input" : false,
+      "controls" : [
+         {
+            "MyGuildPanel@MyGuildUI.MyGuildPanel" : {}
+         }
+      ],
+      "force_render_below" : false,
+      "is_showing_menu" : true,
+      "render_game_behind" : true,
+      "render_only_when_topmost" : true,
+      "should_steal_mouse" : false,
+      "type" : "screen"
+   },
+   "member_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-49.102344%+0 px", "-21.4876026%+0px" ],
+      "shadow" : false,
+      "size" : [ "60.0 px", "12.0px" ],
+      "text" : "小艾小艾小艾小艾",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "member_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-44.1907436%+0 px", "-24.2250577%+0px" ],
+      "shadow" : false,
+      "size" : [ "30 px", "10 px" ],
+      "text" : "成员",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "memberlist_img_1" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "job_lbl@MyGuildUI.job_lbl" : {}
+         },
+         {
+            "member_lbl@MyGuildUI.member_lbl" : {}
+         },
+         {
+            "status_lbl@MyGuildUI.status_lbl" : {}
+         },
+         {
+            "partyactive_lbl@MyGuildUI.partyactive_lbl" : {}
+         },
+         {
+            "more_btn@MyGuildUI.more_btn" : {}
+         },
+         {
+            "level_lbl@MyGuildUI.level_lbl" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,"nineslice_size" : [ 2, 2, 2, 2 ],
+      "offset" : [ "-16%+0 px", "-1%+0px" ],
+      "size" : [ "222 px", "22.2 px" ],
+      "texture" : "textures/ui/netease_guild/panel02@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "memberlist_pnl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "controls" : [
+         {
+            "memberlist_img_1@MyGuildUI.memberlist_img_1" : {}
+         }
+      ],
+      "layer" : 11,
+      "offset" : [ "0%+0 px", "-50%+0px" ],
+      "size" : [ "325.0 px", "108.0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "more_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+       "$default_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "hover@MyGuildUI.hover" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "more_img@MyGuildUI.more_img" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "43.4241683%+0 px", "0%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ "22.0 px", "22.0px" ],
+      "type" : "button",
+      "visible" : true
+   },
+   "more_btn_1@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$hover_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_guild/btn01_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "hover@MyGuildUI.hover" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "more_lbl_1@MyGuildUI.more_lbl_1" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 46.0, 22.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "more_btn_2@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$hover_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_guild/btn01_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "hover@MyGuildUI.hover" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "more_lbl_2@MyGuildUI.more_lbl_2" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "offset" : [ "0%+0 px", "25.2%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 46.0, 22.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "more_btn_3@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$hover_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_guild/btn01_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "hover@MyGuildUI.hover" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "more_lbl_3@MyGuildUI.more_lbl_3" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "offset" : [ "0%+0 px", "50.4%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 46.0, 22.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "more_btn_4@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$hover_texture" : "textures/ui/netease_guild/btn02@3x",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 2,
+      "$nine_slice_left" : 2,
+      "$nine_slice_right" : 2,
+      "$nine_slice_top" : 2,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/ui/netease_guild/btn01_click@3x",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "hover@MyGuildUI.hover" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {"nineslice_size" : [ 2, 2, 2, 2 ]}
+         },
+         {
+            "more_lbl_4@MyGuildUI.more_lbl_4" : {}
+         }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 3,
+      "offset" : [ "0%+0 px", "75.6%+0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 46.0, 22.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "more_img" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : true,
+      "layer" : 15,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ "0%+0 px", "0%+0px" ],
+      "size" : [ "12.8 px", "12.8 px" ],
+      "texture" : "textures/ui/netease_guild/icon03@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "more_lbl_1" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 16,
+      "offset" : [ "40.83%+10.0px", "54.62%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "50 px", "12 px" ],
+      "text" : "升职",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "more_lbl_2" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 16,
+      "offset" : [ "40.83%+10.0px", "53.08%+0.0px" ],
+      "shadow" : false,
+      "size" : [ 50.0, 12.0 ],
+      "text" : "降职",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "more_lbl_3" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 16,
+      "offset" : [ "40.83%+10.0px", "53.08%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "50 px", "12.0px" ],
+      "text" : "踢出公会",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "more_lbl_4" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "center",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 1.071428537368774,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 16,
+      "offset" : [ "40.83%+10.0px", "53.08%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "50 px", "12.0px" ],
+      "text" : "转让会长",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "more_pnl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "controls" : [
+         {
+            "more_btn_1@MyGuildUI.more_btn_1" : {}
+         },
+         {
+            "more_btn_2@MyGuildUI.more_btn_2" : {}
+         },
+         {
+            "more_btn_3@MyGuildUI.more_btn_3" : {}
+         },
+         {
+            "more_btn_4@MyGuildUI.more_btn_4" : {}
+         }
+      ],
+      "layer" : 11,
+      "offset" : [ "49.33526%+0 px", "0.896229%+0px" ],
+      "size" : [ 68.0, 77.0 ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "myguild_scroll_base@common.scrolling_panel" : {
+      "$background_nine_slice_buttom" : 0,
+      "$background_nine_slice_left" : 0,
+      "$background_nine_slice_right" : 0,
+      "$background_nine_slice_top" : 0,
+      "$box_nine_slice_buttom" : 0,
+      "$box_nine_slice_left" : 0,
+      "$box_nine_slice_right" : 0,
+      "$box_nine_slice_top" : 0,
+      "$is_background_nine_slice" : false,
+      "$is_box_nine_slice" : false,
+      "$is_track_nine_slice" : false,
+      "$scroll_background_image_control" : "MyGuildUI.scroll_background_image",
+      "$scroll_background_texture" : "textures/ui/ScrollRail",
+      "$scroll_bar_right_padding_size" : [ 0, 0 ],
+      "$scroll_box_mouse_image_control" : "MyGuildUI.scroll_box_image",
+      "$scroll_box_texture" : "textures/ui/newTouchScrollBox",
+      "$scroll_box_touch_image_control" : "MyGuildUI.scroll_box_image",
+      "$scroll_size" : [ 4, "100.000000%+0px" ],
+      "$scroll_track_image_control" : "MyGuildUI.scroll_track_image",
+      "$scroll_track_texture" : "textures/ui/ScrollRail",
+      "$scroll_view_name" : "scroll_view",
+      "$scrolling_content" : "MyGuildUI.memberlist_pnl",
+      "$scrolling_pane_offset" : [ 0, 0 ],
+      "$scrolling_pane_size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "$show_background" : false,
+      "$track_nine_slice_buttom" : 0,
+      "$track_nine_slice_left" : 0,
+      "$track_nine_slice_right" : 0,
+      "$track_nine_slice_top" : 0,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 4,
+      "offset" : [ 0.0, "6.04%+1.0px" ],
+      "size" : [ 229.0, 81.0 ],
+      "type" : "scroll_view",
+      "visible" : true
+   },
+   "myparty_bg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "partynumber_1_0@MyGuildUI.partynumber_1_0" : {}
+         },
+         {
+            "party_1_0@MyGuildUI.party_1_0" : {}
+         },
+         {
+            "partyactive_1_0@MyGuildUI.partyactive_1_0" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 1,
+      "nine_slice_buttom" : 2,
+      "nine_slice_left" : 2,
+      "nine_slice_right" : 2,
+      "nine_slice_top" : 2,"nineslice_size" : [ 2, 2, 2, 2 ],
+      "offset" : [ 0.0, "-32.26%+0.0px" ],
+      "size" : [ 229.0, 24.0 ],
+      "texture" : "textures/ui/netease_guild/panel03@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "myparty_img" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "controls" : [
+         {
+            "joinparty_title_lbl@MyGuildUI.joinparty_title_lbl" : {}
+         },
+         {
+            "close_btn@MyGuildUI.close_btn" : {}
+         },
+         {
+            "more_pnl@MyGuildUI.more_pnl" : {}
+         },
+         {
+            "myparty_bg@MyGuildUI.myparty_bg" : {}
+         },
+         {
+            "bowout_btn@MyGuildUI.bowout_btn" : {}
+         },
+         {
+            "applylist_btn@MyGuildUI.applylist_btn" : {}
+         },
+         {
+            "return_btn@MyGuildUI.return_btn" : {}
+         },
+         {
+            "member_title_lbl@MyGuildUI.member_title_lbl" : {}
+         },
+         {
+            "job_title_lbl@MyGuildUI.job_title_lbl" : {}
+         },
+         {
+            "level_title_lbl@MyGuildUI.level_title_lbl" : {}
+         },
+         {
+            "partyactive_title_lbl@MyGuildUI.partyactive_title_lbl" : {}
+         },
+         {
+            "status_title_lbl@MyGuildUI.status_title_lbl" : {}
+         },
+         {
+            "myguild_scroll_base@MyGuildUI.myguild_scroll_base" : {}
+         },
+         {
+            "boardbg@MyGuildUI.boardbg" : {}
+         }
+      ],
+      "is_new_nine_slice" : false,
+      "layer" : 11,
+      "nine_slice_buttom" : 25,
+      "nine_slice_left" : 8,
+      "nine_slice_right" : 8,
+      "nine_slice_top" : 14,
+      "nineslice_size" : [ 8, 14, 8, 25 ],
+      "offset" : [ -25.0, -18.0 ],
+      "size" : [ 237.0, 156.0 ],
+      "texture" : "textures/ui/netease_guild/empty",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "boardbg" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "is_new_nine_slice" : false,
+      "layer" : 0,
+      "nine_slice_buttom" : 25,
+      "nine_slice_left" : 8,
+      "nine_slice_right" : 8,
+      "nine_slice_top" : 14,
+      "nineslice_size" : [ 8, 14, 8, 25 ],
+      "offset" : [ 0.0, 0.0 ],
+      "size" : [ 248.0, 154.0 ],
+      "texture" : "textures/ui/netease_guild/dialog_02@3x",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true
+   },
+   "namespace" : "MyGuildUI",
+   "party_1_0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-46.98276%+0 px", "-20.6611574%+0px" ],
+      "shadow" : false,
+      "size" : [ "100.0 px", "12.0px" ],
+      "text" : "公会：飞扬之家飞扬之家",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partyactive_1_0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "22.11%+-16.0px", "-20.66%+0.0px" ],
+      "shadow" : false,
+      "size" : [ 77.0, 12.0 ],
+      "text" : "本月活跃度：1800",
+      "text_alignment" : "right",
+      "type" : "label",
+      "visible" : true
+   },
+   "partyactive_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "24.8594323%+0 px", "-23.140496%+0px" ],
+      "shadow" : false,
+      "size" : [ "60.0 px", "12.0px" ],
+      "text" : "1800",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partyactive_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "22.23%+-10.0px", "-24.23%+0.0px" ],
+      "shadow" : false,
+      "size" : [ "50 px", "10 px" ],
+      "text" : "本月活跃度",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "partynumber_1_0" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.6999999880790710,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "-13.9778331%+0 px", "-20.6611574%+0px" ],
+      "shadow" : false,
+      "size" : [ "60.0 px", "12.0px" ],
+      "text" : "人数：18/36",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "pressed" : {
+      "is_new_nine_slice" : "$is_new_nine_slice",
+      "layer" : "$texture_layer",
+      "nine_slice_buttom" : "$nine_slice_buttom",
+      "nine_slice_left" : "$nine_slice_left",
+      "nine_slice_right" : "$nine_slice_right",
+      "nine_slice_top" : "$nine_slice_top",
+      "texture" : "$pressed_texture",
+      "type" : "image"
+   },
+   "return_btn@common.button" : {
+      "$default_color" : [ 1.0, 1.0, 1.0 ],
+      "$default_texture" : "textures/netease/common/button/default",
+      "$hover_texture" : "textures/netease/common/button/hover",
+      "$is_new_nine_slice" : false,
+      "$labelText" : "",
+      "$label_color" : [ 1, 1, 1 ],
+      "$label_font_scale_factor" : 1.0,
+      "$label_font_size" : "large",
+      "$label_layer" : 3,
+      "$label_offset" : [ 0, 0 ],
+      "$label_text" : "Button",
+      "$nine_slice_buttom" : 69,
+      "$nine_slice_left" : 50,
+      "$nine_slice_right" : 69,
+      "$nine_slice_top" : 50,
+      "$pressed_button_name" : "click",
+      "$pressed_texture" : "textures/netease/common/button/pressed",
+      "$text_offset" : [ 0, 0 ],
+      "$texture_layer" : 2,
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "bindings" : [
+         {
+            "binding_collection_name" : "",
+            "binding_condition" : "always_when_visible",
+            "binding_type" : "collection_details"
+         }
+      ],
+      "button_mappings" : [],
+      "controls" : [
+         {
+            "default@MyGuildUI.default" : {}
+         },
+         {
+            "hover@MyGuildUI.hover" : {}
+         },
+         {
+            "pressed@MyGuildUI.pressed" : {}
+         },
+          {
+                "button_label": {
+                    "color": [
+                        0.25882352941176473,
+                        0.25882352941176473,
+                        0.25882352941176473
+                    ],
+                    "font_scale_factor": 0.8,
+                    "font_size": "normal",
+                    "layer": 14,
+                    "max_size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "offset": "$text_offset",
+                    "shadow": false,
+                    "text": "退出领地",
+                    "type": "label"
+                }
+            }
+      ],
+      "default_control" : "default",
+      "hover_control" : "hover",
+      "is_handle_button_move_event" : true,
+      "layer" : 1,
+      "offset" : [ "40.29%+-3.0px", "41.04%+-1.0px" ],
+      "pressed_control" : "pressed",
+      "size" : [ 46.0, 22.0 ],
+      "type" : "button",
+      "visible" : true
+   },
+   "scroll_background_image" : {
+      "is_new_nine_slice" : "$is_background_nine_slice",
+      "nine_slice_buttom" : "$background_nine_slice_buttom",
+      "nine_slice_left" : "$background_nine_slice_left",
+      "nine_slice_right" : "$background_nine_slice_right",
+      "nine_slice_top" : "$background_nine_slice_top",
+      "texture" : "$scroll_background_texture",
+      "type" : "image"
+   },
+   "scroll_box_image" : {
+      "is_new_nine_slice" : "$is_box_nine_slice",
+      "nine_slice_buttom" : "$box_nine_slice_buttom",
+      "nine_slice_left" : "$box_nine_slice_left",
+      "nine_slice_right" : "$box_nine_slice_right",
+      "nine_slice_top" : "$box_nine_slice_top",
+      "texture" : "$scroll_box_texture",
+      "type" : "image"
+   },
+   "scroll_track_image" : {
+      "is_new_nine_slice" : "$is_track_nine_slice",
+      "layer" : 3,
+      "nine_slice_buttom" : "$track_nine_slice_buttom",
+      "nine_slice_left" : "$track_nine_slice_left",
+      "nine_slice_right" : "$track_nine_slice_right",
+      "nine_slice_top" : "$track_nine_slice_top",
+      "size" : [ 3, "100%" ],
+      "texture" : "$scroll_track_texture",
+      "type" : "image"
+   },
+   "status_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 0.3725490196078431, 1.0, 0.09803921568627451 ],
+      "font_scale_factor" : 0.8000000119209290,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "9.068188%+0 px", "-23.140496%+0px" ],
+      "shadow" : false,
+      "size" : [ "60.0 px", "12.0px" ],
+      "text" : "在线",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "status_title_lbl" : {
+      "anchor_from" : "center",
+      "anchor_to" : "top_left",
+      "auto_expand" : false,
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "font_scale_factor" : 0.8199999928474426,
+      "font_size" : "normal",
+      "font_type" : "smooth",
+      "layer" : 12,
+      "offset" : [ "7.13873%+0 px", "-24.2250577%+0px" ],
+      "shadow" : false,
+      "size" : [ "30 px", "10 px" ],
+      "text" : "状态",
+      "text_alignment" : "left",
+      "type" : "label",
+      "visible" : true
+   },
+   "tips_new_img" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "color" : [ 1.0, 1.0, 1.0 ],
+      "is_new_nine_slice" : true,
+      "layer" : 15,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ "34.6428573%+0 px", "-55.8333337%+0px" ],
+      "size" : [ "11 px", "12.8px" ],
+      "texture" : "textures/ui/netease_guild/tag01@3x",
+      "texture_file_system" : "",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 0, 0 ],
+      "visible" : true,
+      "zip_folder" : ""
+   }
+}

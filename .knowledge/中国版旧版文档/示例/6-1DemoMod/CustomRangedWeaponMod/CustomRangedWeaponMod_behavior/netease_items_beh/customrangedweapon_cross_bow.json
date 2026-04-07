@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customrangedweapon_cross:bow",
+      "register_to_create_menu":true,
+      "custom_item_type": "ranged_weapon"
+    },
+
+    "components": {
+    }
+  }
+}

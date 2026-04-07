@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By netease",
+        "name": "neteaseGuildBehavior",
+        "uuid": "179d33da-c886-4902-8209-6f1633a61897",
+        "version": [0, 0, 4]
+    },
+    "modules": [
+        {
+            "description": "By netease",
+            "type": "data",
+            "uuid": "a62dee0c-e2a5-48f1-b5f1-6810ac6bbaf0",
+            "version": [0, 0, 1]
+        }
+    ]
+}

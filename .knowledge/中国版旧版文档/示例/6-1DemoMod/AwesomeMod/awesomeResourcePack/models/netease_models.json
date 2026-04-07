@@ -1,0 +1,15 @@
+{
+    "datiangou" : {
+        "skeleton" : "skeleton/datiangou_skeleton.json",
+        "mesh" : "mesh/datiangou_mesh.json",
+        "animation":{
+            "fengxi":"animation/datiangou_animation_fengxi.json",
+            "run": "animation/datiangou_animation_run.json"
+        },
+        "arm_model": "datiangou_arm"
+    },
+    "datiangou_arm" : {
+        "mesh": "mesh/hand_mesh.json",
+        "skeleton": "skeleton/hand_skeleton.json"
+    }
+}

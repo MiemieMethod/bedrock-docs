@@ -1,0 +1,1963 @@
+{
+  "icon": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "is_new_nine_slice": true,
+    "layer": 1,
+    "nine_slice_buttom": 0,
+    "nine_slice_left": 0,
+    "nine_slice_right": 0,
+    "nine_slice_top": 0,
+    "nineslice_size": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0.0,
+      -1.0
+    ],
+    "size": [
+      10.0,
+      10.0
+    ],
+    "texture": "textures/ui/netease_danmu/steve",
+    "type": "image",
+    "uv": [
+      0,
+      0
+    ],
+    "uv_size": [
+      0,
+      0
+    ],
+    "visible": true
+  },
+  "main": {
+    "absorbs_input": true,
+    "always_accepts_input": false,
+    "controls": [
+      {
+        "scope_panel@danmuViewUI.scope_panel": {}
+      }
+    ],
+    "force_render_below": false,
+    "is_showing_menu": true,
+    "render_game_behind": true,
+    "render_only_when_topmost": true,
+    "should_steal_mouse": false,
+    "type": "screen"
+  },
+  "namespace": "danmuViewUI",
+  "scope_panel": {
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "clips_children": true,
+    "controls": [
+      {
+        "top_middle0@danmuViewUI.top_middle": {}
+      },
+      {
+        "top_middle1@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_middle2@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_middle3@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_middle4@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_middle5@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_middle6@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_middle7@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_middle8@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_middle9@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_middle10@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_middle11@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_middle12@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_middle13@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_middle14@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_middle15@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_middle16@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_middle17@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_middle18@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_middle19@danmuViewUI.top_middle": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right0@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right1@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right2@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right3@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right4@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right5@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right6@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right7@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right8@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right9@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "0%"
+          ]
+        }
+      },
+      {
+        "top_right10@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right11@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right12@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right13@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right14@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right15@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right16@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right17@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right18@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right19@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "5%"
+          ]
+        }
+      },
+      {
+        "top_right20@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right21@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right22@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right23@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right24@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right25@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right26@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right27@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right28@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right29@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "10%"
+          ]
+        }
+      },
+      {
+        "top_right30@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right31@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right32@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right33@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right34@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right35@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right36@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right37@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right38@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right39@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "15%"
+          ]
+        }
+      },
+      {
+        "top_right40@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right41@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right42@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right43@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right44@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right45@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right46@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right47@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right48@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right49@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "20%"
+          ]
+        }
+      },
+      {
+        "top_right50@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right51@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right52@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right53@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right54@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right55@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right56@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right57@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right58@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right59@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "25%"
+          ]
+        }
+      },
+      {
+        "top_right60@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right61@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right62@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right63@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right64@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right65@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right66@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right67@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right68@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right69@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "30%"
+          ]
+        }
+      },
+      {
+        "top_right70@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right71@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right72@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right73@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right74@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right75@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right76@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right77@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right78@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right79@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "35%"
+          ]
+        }
+      },
+      {
+        "top_right80@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right81@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right82@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right83@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right84@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right85@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right86@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right87@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right88@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right89@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "40%"
+          ]
+        }
+      },
+      {
+        "top_right90@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right91@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right92@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right93@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right94@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right95@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right96@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right97@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right98@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right99@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "45%"
+          ]
+        }
+      },
+      {
+        "top_right100@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right101@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right102@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right103@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right104@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right105@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right106@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right107@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right108@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right109@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "50%"
+          ]
+        }
+      },
+      {
+        "top_right110@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right111@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right112@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right113@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right114@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right115@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right116@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right117@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right118@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right119@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "55%"
+          ]
+        }
+      },
+      {
+        "top_right120@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right121@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right122@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right123@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right124@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right125@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right126@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right127@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right128@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right129@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "60%"
+          ]
+        }
+      },
+      {
+        "top_right130@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right131@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right132@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right133@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right134@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right135@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right136@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right137@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right138@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right139@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "65%"
+          ]
+        }
+      },
+      {
+        "top_right140@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right141@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right142@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right143@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right144@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right145@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right146@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right147@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right148@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right149@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "70%"
+          ]
+        }
+      },
+      {
+        "top_right150@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right151@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right152@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right153@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right154@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right155@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right156@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right157@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right158@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right159@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "75%"
+          ]
+        }
+      },
+      {
+        "top_right160@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right161@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right162@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right163@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right164@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right165@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right166@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right167@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right168@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right169@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "80%"
+          ]
+        }
+      },
+      {
+        "top_right170@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right171@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right172@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right173@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right174@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right175@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right176@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right177@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right178@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right179@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "85%"
+          ]
+        }
+      },
+      {
+        "top_right180@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right181@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right182@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right183@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right184@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right185@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right186@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right187@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right188@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right189@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "90%"
+          ]
+        }
+      },
+      {
+        "top_right190@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right191@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right192@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right193@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right194@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right195@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right196@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right197@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right198@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      },
+      {
+        "top_right199@danmuViewUI.top_right": {
+          "offset": [
+            0.0,
+            "95%"
+          ]
+        }
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0,
+      0
+    ],
+    "size": [
+      "100%",
+      210.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "text": {
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "controls": [
+      {
+        "tru@danmuViewUI.tru": {}
+      }
+    ],
+    "font_scale_factor": 1.049999952316284,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      11.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      180.0,
+      10.0
+    ],
+    "text": "二十个汉字二十个汉字二十个汉字二十个汉字",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  },
+  "tmu": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 1.049999952316284,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      0.0,
+      -6.6
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      10.0
+    ],
+    "text": "——————————————————————————————————————",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": true
+  },
+  "top_middle": {
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "controls": [
+      {
+        "tmu@danmuViewUI.tmu": {}
+      }
+    ],
+    "font_scale_factor": 1.049999952316284,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 2,
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "shadow": false,
+    "size": [
+      180.0,
+      10.0
+    ],
+    "text": "二十个汉字对应假的下划线需要三十八个小横",
+    "text_alignment": "center",
+    "type": "label",
+    "visible": false
+  },
+  "top_right": {
+    "anchor_from": "top_right",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "icon@danmuViewUI.icon": {}
+      },
+      {
+        "text@danmuViewUI.text": {}
+      }
+    ],
+    "layer": 1,
+    "offset": [
+      0.0,
+      0.0
+    ],
+    "size": [
+      100.0,
+      10.0
+    ],
+    "type": "panel",
+    "visible": true
+  },
+  "tru": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "top_left",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "font_scale_factor": 1.049999952316284,
+    "font_size": "normal",
+    "font_type": "smooth",
+    "layer": 1,
+    "offset": [
+      0.0,
+      -6.6
+    ],
+    "shadow": false,
+    "size": [
+      "100.0%+0.0px",
+      10.0
+    ],
+    "text": "——————————————————————————————————————",
+    "text_alignment": "left",
+    "type": "label",
+    "visible": true
+  }
+}

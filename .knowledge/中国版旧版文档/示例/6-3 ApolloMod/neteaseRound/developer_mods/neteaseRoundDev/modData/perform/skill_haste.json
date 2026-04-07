@@ -1,0 +1,94 @@
+{
+    "identifier": "neteaseRound:skill:haste",
+    "actionData": {
+        "attack": {
+            "condition": [],
+            "type": "playAni",
+            "costTime": 1.0,
+            "actor": "actor", 
+            "animate": "skill1"
+        },
+        "attackEffect": {
+            "condition": [],
+            "type": "playBindEffect",
+            "costTime": 1.0,
+            "bind": "actor",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_paw_zhuahen.json",
+                    "style": "sfx",
+                    "pos": [1.58, 0.0, 0.92],
+                    "rot": [88.97, 88.85, 1.28],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_paw_lz.json",
+                    "style": "particle",
+                    "pos": [1.53, 0.10, 0.91],
+                    "rot": [0, 0, -26.71],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_paw_lz.json",
+                    "style": "particle",
+                    "pos": [1.53, -0.10, 0.91],
+                    "rot": [0, 0, -153.29],
+                    "bone": "root"
+                }
+            ]
+        },
+        "hitEffect": {
+            "condition": [
+                {"type":"finAction", "param":"attack"}
+            ],
+            "type": "playBindEffect",
+            "costTime": 1.8,
+            "bind": "allTarget",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_buff_kslz.json",
+                    "style": "particle",
+                    "pos": [-0.15, -0.09, 0.77],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_buff_kslz_02.json",
+                    "style": "particle",
+                    "pos": [-0.15, 0.11, 0.77],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_buff_gy.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.85],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_buff_gy_02.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.85],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_buff_q.json",
+                    "style": "sfx",
+                    "pos": [0, 0.0, 0.93],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                }
+            ]
+        },
+        "applySkillResult": {
+            "condition": [
+                {"type":"finAction", "param":"hitEffect"}
+            ],
+            "type": "applySkillResult",
+            "costTime": 0.3,
+            "index": null
+        }
+    }
+}

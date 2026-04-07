@@ -1,0 +1,6 @@
+{
+    "modName": "neteaseStatistics",
+    "modRequire": [
+		"neteaseMonitor"
+    ]
+}

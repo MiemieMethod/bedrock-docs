@@ -1,0 +1,23 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "time_until_eat" : opt
+     "on_eat" : opt
+    molang "success_chance" : opt
+    array "success_chance" : opt
+    {
+        molang "<any array element>" : opt
+    }
+    array "eat_and_replace_block_pairs" : opt
+    {
+        object "<any array element>" : opt
+        {
+            string "eat_block"
+            string "replace_block"
+        }
+    }
+}
+

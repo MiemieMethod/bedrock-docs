@@ -1,0 +1,9 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "speed_multiplier" : opt
+}
+

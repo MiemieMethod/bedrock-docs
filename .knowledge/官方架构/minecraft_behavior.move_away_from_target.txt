@@ -1,0 +1,12 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float_range "destination_position_range" : opt
+    float "movement_speed" : opt
+    float "destination_pos_spread_degrees" : opt
+     "filters" : opt
+}
+

@@ -1,0 +1,17 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseCloudDev",
+   "_comment": "插件版本",
+  "netgame_mod_version": "1.0.5",
+   "_comment": "最低引擎版本",
+  "min_app_version": "1.17.0.release20200528",
+   "_comment": "插件实现的功能",
+  "description": "实现云端玩家信息功能，可以将本服背包、装备、状态效果、左右手物品同步到其他服",
+   "_comment": "列表，支持的服务器类型，包括game/lobby/master几种类型",
+  "support_server_type": ["master"],
+   "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+   "_comment": "所属插件组合的名字，云端玩家信息插件由Master插件，lobby/game插件组合而成",
+  "group": "neteaseCloud"
+
+}

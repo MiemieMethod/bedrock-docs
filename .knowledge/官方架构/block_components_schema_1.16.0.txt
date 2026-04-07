@@ -1,0 +1,47 @@
+{
+    object "minecraft:on_player_destroyed" : opt // Describes the event component description.
+    {
+        string "event" // The name of the event to execute.
+        enumerated_value "target" : opt
+        string "condition" : opt // The condition of the event.
+    }
+    object "minecraft:on_fall_on" : opt // Describes the event component description.
+    {
+        string "event" // The name of the event to execute.
+        enumerated_value "target" : opt
+        string "condition" : opt // The condition of the event.
+        float "min_fall_distance" : opt
+    }
+    object "minecraft:on_interact" : opt // Describes the event component description.
+    {
+        string "event" // The name of the event to execute.
+        enumerated_value "target" : opt
+        string "condition" : opt // The condition of the event.
+    }
+    object "minecraft:on_placed" : opt // Describes the event component description.
+    {
+        string "event" // The name of the event to execute.
+        enumerated_value "target" : opt
+        string "condition" : opt // The condition of the event.
+    }
+    object "minecraft:on_step_on" : opt // Describes the event component description.
+    {
+        string "event" // The name of the event to execute.
+        enumerated_value "target" : opt
+        string "condition" : opt // The condition of the event.
+    }
+    object "minecraft:on_player_placing" : opt // Describes the event component description.
+    {
+        string "event" // The name of the event to execute.
+        enumerated_value "target" : opt
+        string "condition" : opt // The condition of the event.
+    }
+    object "minecraft:on_step_off" : opt // Describes the event component description.
+    {
+        string "event" // The name of the event to execute.
+        enumerated_value "target" : opt
+        string "condition" : opt // The condition of the event.
+    }
+    object "tag:<scope_identifier>" : opt // You can add arbitrary tags to a block in the base components or the permutations by starting the name with "tag:". These tags can be used for generic queries in recipes and any other components that take a block as a parameter.
+}
+

@@ -1,0 +1,8 @@
+{
+    float "effect_range" : opt
+    string "mob_effect" : opt
+    int "effect_time" : opt
+     "entity_filter" : opt
+    int "cooldown_time" : opt
+}
+

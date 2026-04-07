@@ -1,0 +1,25 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "MixedBoard",
+        "uuid": "7fe1a66d-7270-4d55-a18a-56e5d6a6bda5",
+        "version": [
+            0,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "0af8eede-8078-448f-8852-f06b266be8d7",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

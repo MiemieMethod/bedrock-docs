@@ -1,0 +1,51 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "custombiomes:overworld_pumpkins_feature",
+      "places_feature": "custombiomes:netease_pumpkins_structure_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "dm4"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "dm5"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "the_end"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": "math.mod(variable.originx-48,96)==0 && math.mod(variable.originz-48,96)==0 && query.is_biome(variable.originx - 17, variable.originz - 17, 0, 1, 2, 9, 12, 46)?3:0",
+      "coordinate_eval_order": "xzy",
+      "scatter_chance": 100.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": "query.get_height_at(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

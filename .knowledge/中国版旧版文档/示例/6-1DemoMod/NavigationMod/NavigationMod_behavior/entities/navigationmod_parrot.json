@@ -1,0 +1,47 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "navigationmod:parrot",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "components": {
+    
+      "minecraft:follow_range": {
+        "value": 48,
+        "max": 48
+      },
+
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 1
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_fly": {
+        "value": true
+      },
+      "minecraft:navigation.fly": {
+        "can_path_over_water": true
+      },
+      "minecraft:movement.fly": {
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:variant": { "value": 0 }
+    }
+  }
+}

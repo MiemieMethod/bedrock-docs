@@ -1,0 +1,8 @@
+{
+    float "soft_distance" : opt
+    float "max_distance" : opt
+     "on_balloon" : opt
+     "on_unballoon" : opt
+    float "mass" : opt
+}
+

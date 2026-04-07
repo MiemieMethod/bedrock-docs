@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "netease_trade:stall_down": {
+      "textures": "textures/blocks/brah"
+    },
+    "netease_trade:stall_up": {
+      "textures": "textures/blocks/brah"
+    },
+    "netease_trade:stall_side": {
+      "textures": "textures/blocks/brah"
+    }
+  },
+  "texture_name": "atlas.terrain"
+}

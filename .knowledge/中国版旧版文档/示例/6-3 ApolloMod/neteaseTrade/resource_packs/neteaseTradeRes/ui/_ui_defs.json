@@ -1,0 +1,7 @@
+{
+  "ui_defs": [
+    "ui/netease_trade_ui.json",
+    "ui/netease_trade_sale_ui.json",
+    "ui/netease_trade_bag_ui.json"
+  ]
+}

@@ -1,0 +1,1185 @@
+{
+    version "format_version"
+    object "minecraft:aggregate_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        array "features"[1,*]
+        {
+            feature_reference "<any array element>" : opt
+        }
+        enumerated_value "early_out" : opt
+    }
+    object "minecraft:sequence_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        array "features"[1,*]
+        {
+            feature_reference "<any array element>" : opt
+        }
+    }
+    object "minecraft:beards_and_shavers" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        feature_reference "places_feature"
+        array "bounding_box_min" // Dimensions of the Bounding Box
+        {
+            float "[0..0]"
+            float "[1..1]"
+            float "[2..2]"
+        }
+        array "bounding_box_max" // Dimensions of the Bounding Box
+        {
+            float "[0..0]"
+            float "[1..1]"
+            float "[2..2]"
+        }
+        float "y_delta" // Y Delta for BAS
+         "surface_block_type"
+         "subsurface_block_type"
+        float "beard_raggedness_min" : opt // Y Delta for BAS
+        float "beard_raggedness_max" : opt // Y Delta for BAS
+    }
+    object "minecraft:cave_carver_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        block_reference "fill_with" : opt
+        molang "width_modifier" : opt
+        int "skip_carve_chance" : opt
+        int "height_limit" : opt
+        float_range "y_scale" : opt
+        float_range "horizontal_radius_multiplier" : opt
+        float_range "vertical_radius_multiplier" : opt
+        float_range "floor_level" : opt
+    }
+    object "minecraft:conditional_list" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        array "conditional_features" // Array of Features, and their associated Conditions, for attempted placement. These features will be evaluated as ordered.
+        {
+            object "<any array element>" : opt
+            {
+                feature_reference "places_feature" // Feature to be placed.
+                molang "condition" // Condition for placing associated Feature
+            }
+        }
+        enumerated_value "early_out_scheme" : opt // Denote whether placement should end on first successful placement or first passed condition.
+    }
+    object "minecraft:fossil_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+         "ore_block"
+        int "max_empty_corners"
+    }
+    object "minecraft:geode_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+         "filler"
+         "inner_layer"
+         "alternate_inner_layer"
+         "middle_layer"
+         "outer_layer"
+        array "inner_placements"[1,*] : opt
+        {
+             "<any array element>"
+        }
+        int "min_outer_wall_distance"
+        int "max_outer_wall_distance"
+        int "min_distribution_points"
+        int "max_distribution_points"
+        int "min_point_offset"
+        int "max_point_offset"
+        int "max_radius"
+        int "crack_point_offset"
+        float "generate_crack_chance"
+        float "base_crack_size"
+        float "noise_multiplier"
+        float "use_potential_placements_chance"
+        float "use_alternate_layer0_chance"
+        bool "placements_require_layer0_alternate"
+        int "invalid_blocks_threshold"
+    }
+    object "minecraft:growing_plant_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        array "height_distribution"[1,*]
+        {
+            array "<any array element>"[2]
+            {
+                 "[0..0]"
+                float "[1..1]"
+            }
+        }
+        string "growth_direction"
+         "age" : opt
+        array "body_blocks"[1,*]
+        {
+            array "<any array element>"[2]
+            {
+                 "[0..0]"
+                float "[1..1]"
+            }
+        }
+        array "head_blocks"[1,*]
+        {
+            array "<any array element>"[2]
+            {
+                 "[0..0]"
+                float "[1..1]"
+            }
+        }
+        bool "allow_water" : opt
+    }
+    object "minecraft:nether_cave_carver_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        block_reference "fill_with" : opt
+        molang "width_modifier" : opt
+        int "skip_carve_chance" : opt
+        int "height_limit" : opt
+        float_range "y_scale" : opt
+        float_range "horizontal_radius_multiplier" : opt
+        float_range "vertical_radius_multiplier" : opt
+        float_range "floor_level" : opt
+    }
+    object "minecraft:multiface_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+         "places_block"
+        int "search_range"
+        bool "can_place_on_floor"
+        bool "can_place_on_ceiling"
+        bool "can_place_on_wall"
+        float "chance_of_spreading"
+        array "can_place_on"[1,*] : opt
+        {
+             "<any array element>" : opt
+        }
+    }
+    object "minecraft:ore_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        int "count"
+        float "discard_chance_on_air_exposure" : opt
+        array "replace_rules"[1,*] : opt
+        {
+            object "<any array element>"
+            {
+                 "places_block"
+                array "may_replace"[1,*] : opt
+                {
+                     "<any array element>" : opt
+                }
+            }
+        }
+    }
+    object "minecraft:partially_exposed_blob_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        int "placement_radius_around_floor"
+        float "placement_probability_per_valid_position"
+        string "exposed_face" : opt
+         "places_block"
+    }
+    object "minecraft:rect_layout" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        float "ratio_of_empty_space" : opt // Ratio of a Chunk to be filled with empty space rather than features.
+        array "feature_areas"[1,18446744073709551615]
+        {
+            object "<any array element>" : opt
+            {
+                feature_reference "feature" // Feature to be placed.
+                array "area_dimensions" // Dimensions (size) of the associated Feature.
+                {
+                    int "[0..0]"
+                    int "[1..1]"
+                }
+            }
+        }
+    }
+    object "minecraft:scan_surface" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        feature_reference "scan_surface_feature"
+    }
+    object "minecraft:scatter_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        feature_reference "places_feature"
+        bool "project_input_to_floor" : opt
+        molang "iterations"
+        object "scatter_chance" : opt
+        {
+            int "numerator"
+            int "denominator"
+        }
+        molang "scatter_chance" : opt
+        enumerated_value "coordinate_eval_order" : opt
+        molang "x" : opt
+        object "x" : opt
+        {
+            enumerated_value "distribution"
+            int "step_size" : opt
+            int "grid_offset" : opt
+            array "extent"[2]
+            {
+                molang "[0..0]" : opt
+                molang "[1..1]" : opt
+            }
+        }
+        molang "z" : opt
+        object "z" : opt
+        {
+            enumerated_value "distribution"
+            int "step_size" : opt
+            int "grid_offset" : opt
+            array "extent"[2]
+            {
+                molang "[0..0]" : opt
+                molang "[1..1]" : opt
+            }
+        }
+        molang "y" : opt
+        object "y" : opt
+        {
+            enumerated_value "distribution"
+            int "step_size" : opt
+            int "grid_offset" : opt
+            array "extent"[2]
+            {
+                molang "[0..0]" : opt
+                molang "[1..1]" : opt
+            }
+        }
+    }
+    object "minecraft:sculk_patch_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        array "can_place_sculk_patch_on"
+        {
+             "<any array element>" : opt
+        }
+         "central_block" : opt
+        float "central_block_placement_chance" : opt
+        int "cursor_count"
+        int "charge_amount"
+        int "spread_attempts"
+        int "growth_rounds"
+        int "spread_rounds"
+         "extra_growth_chance" : opt
+    }
+    object "minecraft:search_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        feature_reference "places_feature"
+        object "search_volume"
+        {
+            array "min"[3]
+            {
+                int "[0..0]"
+                int "[1..1]"
+                int "[2..2]"
+            }
+            array "max"[3]
+            {
+                int "[0..0]"
+                int "[1..1]"
+                int "[2..2]"
+            }
+        }
+        enumerated_value "search_axis"
+        int "required_successes" : opt
+    }
+    object "minecraft:single_block_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+         "places_block"
+        bool "enforce_placement_rules"
+        bool "enforce_survivability_rules"
+        object "may_attach_to" : opt
+        {
+            int "min_sides_must_attach" : opt
+            bool "auto_rotate" : opt
+             "top" : opt
+            array "top" : opt
+            {
+                 "<any array element>"
+            }
+             "bottom" : opt
+            array "bottom" : opt
+            {
+                 "<any array element>"
+            }
+             "north" : opt
+            array "north" : opt
+            {
+                 "<any array element>"
+            }
+             "east" : opt
+            array "east" : opt
+            {
+                 "<any array element>"
+            }
+             "south" : opt
+            array "south" : opt
+            {
+                 "<any array element>"
+            }
+             "west" : opt
+            array "west" : opt
+            {
+                 "<any array element>"
+            }
+             "all" : opt
+            array "all" : opt
+            {
+                 "<any array element>"
+            }
+             "sides" : opt
+            array "sides" : opt
+            {
+                 "<any array element>"
+            }
+        }
+        array "may_replace" : opt
+        {
+             "<any array element>" : opt
+        }
+    }
+    object "minecraft:snap_to_surface_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        feature_reference "feature_to_snap"
+        int "vertical_search_range"
+        string "surface" : opt
+        bool "allow_air_placement" : opt
+        bool "allow_underwater_placement" : opt
+    }
+    object "minecraft:structure_template_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        structure_reference "structure_name"
+        int "adjustment_radius" : opt
+        enumerated_value "facing_direction" : opt
+        object "constraints"
+        {
+            object "grounded" : opt
+            object "unburied" : opt
+            object "block_intersection" : opt
+            {
+                array "block_allowlist|block_whitelist"
+                {
+                     "<any array element>" : opt
+                }
+            }
+        }
+    }
+    object "minecraft:surface_relative_threshold_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        feature_reference "feature_to_place"
+        int "minimum_distance_below_surface" : opt
+    }
+    object "minecraft:underwater_cave_carver_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        block_reference "fill_with" : opt
+        molang "width_modifier" : opt
+        int "skip_carve_chance" : opt
+        int "height_limit" : opt
+        float_range "y_scale" : opt
+        float_range "horizontal_radius_multiplier" : opt
+        float_range "vertical_radius_multiplier" : opt
+        float_range "floor_level" : opt
+        block_reference "replace_air_with" : opt
+    }
+    object "minecraft:tree_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+         "base_block" : opt
+        array "base_block" : opt
+        {
+             "<any array element>"
+        }
+        object "base_cluster" : opt
+        {
+            array "may_replace"
+            {
+                 "<any array element>" : opt
+            }
+            int "num_clusters"
+            int "cluster_radius"
+        }
+        array "may_grow_on" : opt
+        {
+             "<any array element>"
+        }
+        array "may_replace" : opt
+        {
+             "<any array element>"
+        }
+        array "may_grow_through" : opt
+        {
+             "<any array element>"
+        }
+        object "acacia_trunk" : opt
+        {
+            int "trunk_width"
+            object "trunk_height"
+            {
+                int "base"
+                array "intervals" : opt
+                {
+                    int "<any array element>" : opt
+                }
+                int "min_height_for_canopy" : opt
+            }
+            object "trunk_lean"
+            {
+                bool "allow_diagonal_growth"
+                 "lean_height"
+                 "lean_steps"
+                 "lean_length" : opt
+            }
+             "trunk_block"
+            object "branches" : opt
+            {
+                 "branch_length"
+                 "branch_position"
+                chance_information "branch_chance"
+                object "branch_canopy" : opt
+                {
+                    object "acacia_canopy" : opt
+                    {
+                        int "canopy_size"
+                         "leaf_block"
+                        bool "simplify_canopy" : opt
+                    }
+                    object "canopy" : opt
+                    {
+                        object "canopy_offset"
+                        {
+                            int "min"
+                            int "max"
+                        }
+                        int "min_width" : opt
+                        object "canopy_slope" : opt
+                        {
+                            int "rise" : opt
+                            int "run" : opt
+                        }
+                        chance_information "variation_chance" : opt
+                        array "variation_chance" : opt
+                        {
+                            chance_information "<any array element>" : opt
+                        }
+                         "leaf_block"
+                        object "canopy_decoration" : opt
+                        {
+                            chance_information "decoration_chance"
+                             "decoration_block" : opt
+                            int "num_steps" : opt
+                            enumerated_value "step_direction" : opt
+                        }
+                    }
+                    object "cherry_canopy" : opt
+                    {
+                         "leaf_block"
+                         "height"
+                         "radius"
+                        int "trunk_width" : opt
+                        chance_information "wide_bottom_layer_hole_chance"
+                        chance_information "corner_hole_chance"
+                        chance_information "hanging_leaves_chance"
+                        chance_information "hanging_leaves_extension_chance"
+                    }
+                    object "fancy_canopy" : opt
+                    {
+                        int "height"
+                        int "radius"
+                         "leaf_block"
+                    }
+                    object "mangrove_canopy" : opt
+                    {
+                         "canopy_height"
+                         "canopy_radius"
+                        int "leaf_placement_attempts"
+                        array "leaf_blocks"
+                        {
+                            array "<any array element>"[2]
+                            {
+                                 "[0..0]"
+                                float "[1..1]"
+                            }
+                        }
+                        object "canopy_decoration" : opt
+                        {
+                            chance_information "decoration_chance"
+                             "decoration_block" : opt
+                            int "num_steps" : opt
+                            enumerated_value "step_direction" : opt
+                        }
+                         "hanging_block"
+                        chance_information "hanging_block_placement_chance"
+                    }
+                    object "mega_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                        int "core_width" : opt
+                        bool "simplify_canopy" : opt
+                         "leaf_block"
+                    }
+                    object "mega_pine_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                        float "radius_step_modifier"
+                        int "core_width" : opt
+                         "leaf_block"
+                    }
+                    object "pine_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                         "leaf_block"
+                    }
+                    object "roofed_canopy" : opt
+                    {
+                        int "canopy_height"
+                        int "core_width"
+                        int "outer_radius"
+                        int "inner_radius"
+                         "leaf_block"
+                    }
+                    object "spruce_canopy" : opt
+                    {
+                         "lower_offset"
+                         "upper_offset"
+                         "max_radius"
+                         "leaf_block"
+                    }
+                }
+            }
+            object "trunk_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+        }
+        object "cherry_trunk" : opt
+        {
+             "trunk_block"
+            object "trunk_height"
+            {
+                int "base"
+                array "intervals" : opt
+                {
+                    int "<any array element>" : opt
+                }
+            }
+            object "branches"
+            {
+                object "tree_type_weights" : opt
+                {
+                    int "one_branch"
+                    int "two_branches"
+                    int "two_branches_and_trunk"
+                }
+                 "branch_horizontal_length"
+                 "branch_start_offset_from_top"
+                 "branch_end_offset_from_top"
+                object "branch_canopy" : opt
+                {
+                    object "acacia_canopy" : opt
+                    {
+                        int "canopy_size"
+                         "leaf_block"
+                        bool "simplify_canopy" : opt
+                    }
+                    object "canopy" : opt
+                    {
+                        object "canopy_offset"
+                        {
+                            int "min"
+                            int "max"
+                        }
+                        int "min_width" : opt
+                        object "canopy_slope" : opt
+                        {
+                            int "rise" : opt
+                            int "run" : opt
+                        }
+                        chance_information "variation_chance" : opt
+                        array "variation_chance" : opt
+                        {
+                            chance_information "<any array element>" : opt
+                        }
+                         "leaf_block"
+                        object "canopy_decoration" : opt
+                        {
+                            chance_information "decoration_chance"
+                             "decoration_block" : opt
+                            int "num_steps" : opt
+                            enumerated_value "step_direction" : opt
+                        }
+                    }
+                    object "cherry_canopy" : opt
+                    {
+                         "leaf_block"
+                         "height"
+                         "radius"
+                        int "trunk_width" : opt
+                        chance_information "wide_bottom_layer_hole_chance"
+                        chance_information "corner_hole_chance"
+                        chance_information "hanging_leaves_chance"
+                        chance_information "hanging_leaves_extension_chance"
+                    }
+                    object "fancy_canopy" : opt
+                    {
+                        int "height"
+                        int "radius"
+                         "leaf_block"
+                    }
+                    object "mangrove_canopy" : opt
+                    {
+                         "canopy_height"
+                         "canopy_radius"
+                        int "leaf_placement_attempts"
+                        array "leaf_blocks"
+                        {
+                            array "<any array element>"[2]
+                            {
+                                 "[0..0]"
+                                float "[1..1]"
+                            }
+                        }
+                        object "canopy_decoration" : opt
+                        {
+                            chance_information "decoration_chance"
+                             "decoration_block" : opt
+                            int "num_steps" : opt
+                            enumerated_value "step_direction" : opt
+                        }
+                         "hanging_block"
+                        chance_information "hanging_block_placement_chance"
+                    }
+                    object "mega_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                        int "core_width" : opt
+                        bool "simplify_canopy" : opt
+                         "leaf_block"
+                    }
+                    object "mega_pine_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                        float "radius_step_modifier"
+                        int "core_width" : opt
+                         "leaf_block"
+                    }
+                    object "pine_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                         "leaf_block"
+                    }
+                    object "roofed_canopy" : opt
+                    {
+                        int "canopy_height"
+                        int "core_width"
+                        int "outer_radius"
+                        int "inner_radius"
+                         "leaf_block"
+                    }
+                    object "spruce_canopy" : opt
+                    {
+                         "lower_offset"
+                         "upper_offset"
+                         "max_radius"
+                         "leaf_block"
+                    }
+                }
+            }
+        }
+        object "fallen_trunk" : opt
+        {
+             "log_length"
+             "stump_height" : opt
+             "height_modifier" : opt
+             "trunk_block"
+            feature_reference "log_decoration_feature" : opt
+            object "trunk_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+        }
+        object "fancy_trunk" : opt
+        {
+            object "trunk_height"
+            {
+                int "base"
+                int "variance"
+                float "scale"
+            }
+            int "trunk_width"
+            object "branches"
+            {
+                float "slope"
+                float "density"
+                float "min_altitude_factor"
+            }
+             "trunk_block"
+            float "width_scale"
+            float "foliage_altitude_factor"
+        }
+        object "mangrove_trunk" : opt
+        {
+            int "trunk_width"
+            object "trunk_height"
+            {
+                int "base"
+                int "height_rand_a"
+                int "height_rand_b"
+            }
+             "trunk_block"
+            object "branches" : opt
+            {
+                 "branch_length"
+                 "branch_steps"
+                chance_information "branch_chance"
+            }
+            object "trunk_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+        }
+        object "mega_trunk" : opt
+        {
+            int "trunk_width"
+            object "trunk_height"
+            {
+                int "base"
+                array "intervals" : opt
+                {
+                    int "<any array element>" : opt
+                }
+            }
+             "trunk_block"
+            object "trunk_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+            object "branches" : opt
+            {
+                int "branch_length"
+                float "branch_slope"
+                 "branch_interval"
+                object "branch_altitude_factor"
+                {
+                    float "min"
+                    float "max"
+                }
+                object "branch_canopy" : opt
+                {
+                    object "acacia_canopy" : opt
+                    {
+                        int "canopy_size"
+                         "leaf_block"
+                        bool "simplify_canopy" : opt
+                    }
+                    object "canopy" : opt
+                    {
+                        object "canopy_offset"
+                        {
+                            int "min"
+                            int "max"
+                        }
+                        int "min_width" : opt
+                        object "canopy_slope" : opt
+                        {
+                            int "rise" : opt
+                            int "run" : opt
+                        }
+                        chance_information "variation_chance" : opt
+                        array "variation_chance" : opt
+                        {
+                            chance_information "<any array element>" : opt
+                        }
+                         "leaf_block"
+                        object "canopy_decoration" : opt
+                        {
+                            chance_information "decoration_chance"
+                             "decoration_block" : opt
+                            int "num_steps" : opt
+                            enumerated_value "step_direction" : opt
+                        }
+                    }
+                    object "cherry_canopy" : opt
+                    {
+                         "leaf_block"
+                         "height"
+                         "radius"
+                        int "trunk_width" : opt
+                        chance_information "wide_bottom_layer_hole_chance"
+                        chance_information "corner_hole_chance"
+                        chance_information "hanging_leaves_chance"
+                        chance_information "hanging_leaves_extension_chance"
+                    }
+                    object "fancy_canopy" : opt
+                    {
+                        int "height"
+                        int "radius"
+                         "leaf_block"
+                    }
+                    object "mangrove_canopy" : opt
+                    {
+                         "canopy_height"
+                         "canopy_radius"
+                        int "leaf_placement_attempts"
+                        array "leaf_blocks"
+                        {
+                            array "<any array element>"[2]
+                            {
+                                 "[0..0]"
+                                float "[1..1]"
+                            }
+                        }
+                        object "canopy_decoration" : opt
+                        {
+                            chance_information "decoration_chance"
+                             "decoration_block" : opt
+                            int "num_steps" : opt
+                            enumerated_value "step_direction" : opt
+                        }
+                         "hanging_block"
+                        chance_information "hanging_block_placement_chance"
+                    }
+                    object "mega_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                        int "core_width" : opt
+                        bool "simplify_canopy" : opt
+                         "leaf_block"
+                    }
+                    object "mega_pine_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                        float "radius_step_modifier"
+                        int "core_width" : opt
+                         "leaf_block"
+                    }
+                    object "pine_canopy" : opt
+                    {
+                         "canopy_height"
+                        int "base_radius"
+                         "leaf_block"
+                    }
+                    object "roofed_canopy" : opt
+                    {
+                        int "canopy_height"
+                        int "core_width"
+                        int "outer_radius"
+                        int "inner_radius"
+                         "leaf_block"
+                    }
+                    object "spruce_canopy" : opt
+                    {
+                         "lower_offset"
+                         "upper_offset"
+                         "max_radius"
+                         "leaf_block"
+                    }
+                }
+            }
+        }
+        object "trunk" : opt
+        {
+             "trunk_height"
+             "height_modifier" : opt
+            object "can_be_submerged" : opt
+            {
+                int "max_depth"
+            }
+            bool "can_be_submerged" : opt
+             "trunk_block"
+            object "trunk_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+        }
+        object "acacia_canopy" : opt
+        {
+            int "canopy_size"
+             "leaf_block"
+            bool "simplify_canopy" : opt
+        }
+        object "canopy" : opt
+        {
+            object "canopy_offset"
+            {
+                int "min"
+                int "max"
+            }
+            int "min_width" : opt
+            object "canopy_slope" : opt
+            {
+                int "rise" : opt
+                int "run" : opt
+            }
+            chance_information "variation_chance" : opt
+            array "variation_chance" : opt
+            {
+                chance_information "<any array element>" : opt
+            }
+             "leaf_block"
+            object "canopy_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+        }
+        object "cherry_canopy" : opt
+        {
+             "leaf_block"
+             "height"
+             "radius"
+            int "trunk_width" : opt
+            chance_information "wide_bottom_layer_hole_chance"
+            chance_information "corner_hole_chance"
+            chance_information "hanging_leaves_chance"
+            chance_information "hanging_leaves_extension_chance"
+        }
+        object "fancy_canopy" : opt
+        {
+            int "height"
+            int "radius"
+             "leaf_block"
+        }
+        object "mangrove_canopy" : opt
+        {
+             "canopy_height"
+             "canopy_radius"
+            int "leaf_placement_attempts"
+            array "leaf_blocks"
+            {
+                array "<any array element>"[2]
+                {
+                     "[0..0]"
+                    float "[1..1]"
+                }
+            }
+            object "canopy_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+             "hanging_block"
+            chance_information "hanging_block_placement_chance"
+        }
+        object "mega_canopy" : opt
+        {
+             "canopy_height"
+            int "base_radius"
+            int "core_width" : opt
+            bool "simplify_canopy" : opt
+             "leaf_block"
+        }
+        object "mega_pine_canopy" : opt
+        {
+             "canopy_height"
+            int "base_radius"
+            float "radius_step_modifier"
+            int "core_width" : opt
+             "leaf_block"
+        }
+        object "pine_canopy" : opt
+        {
+             "canopy_height"
+            int "base_radius"
+             "leaf_block"
+        }
+        object "roofed_canopy" : opt
+        {
+            int "canopy_height"
+            int "core_width"
+            int "outer_radius"
+            int "inner_radius"
+             "leaf_block"
+        }
+        object "spruce_canopy" : opt
+        {
+             "lower_offset"
+             "upper_offset"
+             "max_radius"
+             "leaf_block"
+        }
+        object "random_spread_canopy" : opt
+        {
+             "canopy_height"
+             "canopy_radius"
+            int "leaf_placement_attempts"
+            array "leaf_blocks"
+            {
+                array "<any array element>"[2]
+                {
+                     "[0..0]"
+                    float "[1..1]"
+                }
+            }
+        }
+        object "mangrove_roots" : opt
+        {
+            int "max_root_width"
+            int "max_root_length"
+             "root_block"
+            object "above_root" : opt
+            {
+                chance_information "above_root_chance" : opt
+                 "above_root_block" : opt
+            }
+             "muddy_root_block"
+             "mud_block"
+             "y_offset"
+            array "roots_may_grow_through"
+            {
+                 "<any array element>"
+            }
+            object "root_decoration" : opt
+            {
+                chance_information "decoration_chance"
+                 "decoration_block" : opt
+                int "num_steps" : opt
+                enumerated_value "step_direction" : opt
+            }
+        }
+    }
+    object "minecraft:vegetation_patch_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        array "replaceable_blocks"
+        {
+             "<any array element>" : opt
+        }
+         "ground_block"
+        feature_reference "vegetation_feature"
+        string "surface" : opt
+         "depth"
+        float "extra_deep_block_chance" : opt
+        int "vertical_range"
+        float "vegetation_chance" : opt
+         "horizontal_radius"
+        float "extra_edge_column_chance" : opt
+        bool "waterlogged" : opt
+    }
+    object "minecraft:weighted_random_feature" : opt
+    {
+        object "description"
+        {
+            string "identifier"
+        }
+        array "features"[1,*]
+        {
+            array "<any array element>"[2] : opt
+            {
+                feature_reference "[0..0]"
+                float "[1..1]"
+            }
+        }
+    }
+}
+

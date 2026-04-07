@@ -1,0 +1,113 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.725490 0.329412 0.062745 0.821429",
+        "time": "0.0"
+      },
+      {
+        "color": "1.000000 0.964706 0.439216 1.000000",
+        "time": "0.008084210526315791"
+      },
+      {
+        "color": "0.854902 0.250980 0.145098 1.000000",
+        "time": "0.01953684210526316"
+      },
+      {
+        "color": "0.474510 0.121569 0.086275 1.000000",
+        "time": "0.06400000000000002"
+      }
+    ],
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 0.5 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "30.0",
+      "min": "30.0"
+    },
+    "emitterscale": [
+
+    ],
+    "emittersize": {
+      "value": "0.5 1.0 0.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "inactivetime": {
+      "value": "0.2"
+    },
+    "numparticles": {
+      "value": "30"
+    },
+    "particlesize": {
+      "max": "0.03 0.14",
+      "min": "0.03 0.14"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.0 0.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "13.7%"
+      },
+      {
+        "scale": "1.1099999999999999 1.1099999999999999",
+        "time": "41.3%"
+      },
+      {
+        "scale": "0.20999999999999985 0.20999999999999985",
+        "time": "63.3%"
+      },
+      {
+        "scale": "0.06000000000000005 0.06000000000000005",
+        "time": "79.3%"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "",
+        "shuffle": false
+      },
+      "name": "textures/sfxs/cs_mffgzuoqi_02"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.4",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "2.0"
+    }
+  }
+}

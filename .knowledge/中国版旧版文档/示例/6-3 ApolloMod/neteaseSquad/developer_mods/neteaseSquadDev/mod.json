@@ -1,0 +1,22 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseSquadDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.8",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+  "_comment": "插件实现的功能",
+  "description": "组队系统",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseSquad",
+  "_comment": "以下为可配置项",
+  "_comment": "是否显示本插件所有UI，若为false，则会屏蔽全部UI逻辑",
+  "EnableUI": true
+}

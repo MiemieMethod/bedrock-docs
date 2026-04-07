@@ -1,0 +1,13 @@
+{
+    float "base_buoyancy" : opt
+    bool "apply_gravity" : opt
+    bool "simulate_waves" : opt
+    float "big_wave_probability" : opt
+    float "big_wave_speed" : opt
+    array "liquid_blocks"[1,*]
+    {
+         "<any array element>" : opt
+    }
+    float "drag_down_on_buoyancy_removed" : opt
+}
+

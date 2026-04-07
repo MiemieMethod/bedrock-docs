@@ -1,0 +1,25 @@
+{
+  "name": "top",
+  "type": {
+    "name": "integer",
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.30",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "deprecated": [
+      {
+        "min": "1.20.30",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

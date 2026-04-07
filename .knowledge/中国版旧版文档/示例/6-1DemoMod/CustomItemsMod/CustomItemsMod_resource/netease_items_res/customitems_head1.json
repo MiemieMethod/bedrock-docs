@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customitems:head1"
+    },
+    "components": {
+      "minecraft:icon": "customitems:modarmor1"
+    }
+  }
+}

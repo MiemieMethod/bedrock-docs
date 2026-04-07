@@ -1,0 +1,9 @@
+{
+    float "inside_range" : opt
+    float "outside_range" : opt
+    bool "must_see" : opt
+     "on_inside_range" : opt
+     "on_outside_range" : opt
+     "on_vision_lost_inside_range" : opt
+}
+

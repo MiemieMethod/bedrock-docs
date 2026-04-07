@@ -1,0 +1,21 @@
+{
+    "format_version": "1.13.0", 
+    "minecraft:biome": {
+        "description": {
+            "identifier": "dm5_taiga", 
+            "inherits": "taiga"
+        }, 
+        "components": {
+            "minecraft:world_generation_rules": {
+                "hills_transformation": "dm5_taiga_hills", 
+                "mutate_transformation": "dm5_taiga_mutated", 
+                "generate_for_climates": [
+                    [
+                        "medium", 
+                        0
+                    ]
+                ]
+            }
+        }
+    }
+}

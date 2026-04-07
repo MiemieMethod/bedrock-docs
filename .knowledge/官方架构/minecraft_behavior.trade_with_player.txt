@@ -1,0 +1,10 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+     "filters" : opt
+    float "max_distance_from_player" : opt
+}
+

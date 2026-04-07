@@ -1,0 +1,499 @@
+{{exclusive|bedrock}}
+这是基岩版中方块实体NBT结构文件的页面。
+
+方块实体是与各类方块关联的附加数据，作为方块的各种状态有限组合的补充。
+__TOC__
+<div class="treeview">
+
+== 方块实体 ==
+{{#if:{{#var:isIncluded}}||
+所有方块实体的共通数据：
+*{{nbt|compound}}：方块实体的根标签。}}
+**{{nbt|string|id}}：方块实体的命名空间ID。
+** {{nbt|int|x}}：方块实体的X轴位置。
+** {{nbt|int|y}}：方块实体的Y轴位置。
+** {{nbt|int|z}}：方块实体的Z轴位置。
+** {{nbt|boolean|isMovable}}：方块实体可以被[[活塞]]移动时为true。
+** {{nbt|string|CustomName}}：（可能不存在）方块实体的自定义名称。
+
+== 方块实体种类的附加字段 ==
+=== 旗帜 ===
+{{#if:{{#var:isIncluded}}||
+旗帜的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|Base}}：旗帜的底色。参见{{slink|旗帜|方块实体}}。
+** {{nbt|int|Type}}：旗帜的类型。0为普通旗帜，1为不祥旗帜。
+** {{nbt|list|Patterns}}：（可能不存在）旗帜所有的图案组合。
+*** {{nbt|compound}}：单个图案。
+**** {{nbt|string|Pattern}}：图案的ID。参见{{slink|旗帜|方块实体}}。
+**** {{nbt|int|Color}}：图案的颜色。参见{{slink|旗帜|方块实体}}。
+
+=== 信标 ===
+{{#if:{{#var:isIncluded}}||
+信标的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|primary}}：信标设定的主要效果，参见{{slink|状态效果|状态效果列表}}来获取具体数据。0表示未设定。
+** {{nbt|int|secondary}}：信标设定的次要效果，参见{{slink|状态效果|状态效果列表}}来获取具体数据。0表示未设定。当没有设定主要效果时，次要效果无法使用。当设定为与主要效果相同时，会产生II级效果（5个效果的正常可用行为）。当设置为与主要值不同的值（通常只有[[生命恢复]]）时，会产生I级的效果。{{needs testing}}
+
+=== 床 ===
+{{#if:{{#var:isIncluded}}||
+床的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|byte|color}}：床的被子颜色。当床被破坏时，床头的方块实体的颜色会变成床物品掉落时的颜色。
+
+=== 蜂巢和蜂箱 ===
+{{#if:{{#var:isIncluded}}||
+蜂箱的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|boolean|ShouldSpawnBees}}：生成新蜜蜂时值为true。
+** {{nbt|list|Occupants}}：（可能不存在）蜂巢或蜂箱内的实体。
+*** {{nbt|compound}}：蜂巢或蜂箱内的具体实体。
+**** {{nbt|string|ActorIdentifier}}：蜂巢或蜂箱内的具体单个实体。在原版游戏下总会是<code>minecraft:bee&lt;&gt;</code>。{{more info}}
+**** {{nbt|int|TicksLeftToStay}}：实体离开蜂巢或蜂箱前的时间（刻）。
+**** {{nbt|compound|SaveData}}：蜂巢或蜂箱内实体的NBT数据。
+***** {{bedrock nbt|实体|entity}}
+***** 此实体种类独有的标签。
+
+=== 钟 ===
+{{#if:{{#var:isIncluded}}||
+钟的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|boolean|Ringing}}：钟在敲响时为true。
+** {{nbt|int|Ticks}}：钟在敲响后持续摆动的时间（刻）。
+** {{nbt|int|Direction}}：钟的放置方式。0表示放在地上，1表示挂在左边墙上，2表示挂在右边墙上，3表示挂在墙壁中间，4表示悬挂。{{verify|实际测试时始终为255。}}
+
+=== 酿造台 ===
+{{#if:{{#var:isIncluded}}||
+酿造台的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|short|FuelTotal}}：燃料的最大值。
+** {{nbt|short|CookTime}}：完成酿造前的剩余时间（刻）。
+** {{nbt|short|FuelAmount}}：燃料的剩余量。
+** {{nbt|list|Items}}：放进酿造台内的物品列表。
+*** {{nbt|compound}}：酿造台内的物品，以及其槽位标签。
+**** {{nbt|byte|Slot}}：物品所在的槽位编号。
+**** {{bedrock nbt|物品堆叠|item}}
+
+=== 营火和灵魂营火 ===
+{{#if:{{#var:isIncluded}}||
+营火和灵魂营火的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|ItemTime<''num''>}}：每个物品的烹饪时间，<''num''>为1-4。
+** {{nbt|compound|Item<''num''>}}：（可能不存在）具体烹饪的物品的列表，<''num''>为1-4。
+*** {{bedrock nbt|物品堆叠|item}}
+
+=== 炼药锅 ===
+{{#if:{{#var:isIncluded}}||
+炼药锅的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|short|PotionId}}：如果炼药锅中含有药水，则此标签存储该药水的ID。如果没有储存药水，则被设置为-1。
+** {{nbt|short|PotionType}}：如果炼药锅中含有药水，则此标签存储该药水的类型。0是常规药水，1是喷溅药水，2是滞留药水。如果没有储存药水，则被设置为-1。
+** {{nbt|int|CustomColor}}：（可能不存在）此标签仅在炼药锅储存染色的水时存在，储存了32位ARGB编码颜色。
+** {{nbt|list|Items}}：容器内的物品。
+*** {{nbt|compound}}：物品以及其槽位标签。
+**** {{nbt|byte|Slot}}：物品所在的槽位编号。
+**** {{bedrock nbt|物品堆叠|item}}
+
+=== 黑板 ===
+{{#if:{{#var:isIncluded}}||
+黑板的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|BaseX}}：底部的X轴坐标。
+** {{nbt|int|BaseY}}：底部的Y轴坐标。
+** {{nbt|int|BaseZ}}：底部的Z轴坐标。
+** {{nbt|int|Size}}：黑板的大小。
+** {{nbt|boolean|OnGround}}：放置在地面时为true。
+** {{nbt|boolean|Locked}}：黑板内容被锁定时为true。
+** {{nbt|long|Owner}}：黑板拥有者的唯一ID。
+** {{nbt|string|Text}}：黑板上的文本信息。
+
+=== 化学设备 ===
+{{#if:{{#var:isIncluded}}||
+化学设备（化合物创建器、元素构造器、试验台、材料分解器）的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|itemId}}：物品的ID。
+** {{nbt|short|itemAux}}：物品的次级ID。
+** {{nbt|byte|itemStack}}：物品的堆叠数。
+
+=== 箱子 ===
+{{#if:{{#var:isIncluded}}||
+箱子、陷阱箱、木桶和末影箱的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|boolean|IsOpened}}：箱子是否开启（播放箱子开关动画时也为true）。
+** {{nbt|boolean|forceunpair}}：（可能不存在）箱子并排放置时不合并成大箱子时为true。
+** {{nbt|boolean|pairlead}}：（可能不存在）配对后形成的大箱子的前部。
+** {{nbt|int|pairx}}：（可能不存在）箱子的X轴位置配对。
+** {{nbt|int|pairz}}：（可能不存在）箱子的Z轴位置配对。
+** {{nbt|boolean|Findable}}：未知。
+** {{nbt|boolean|IsIgnoreShuffle}}：未知。
+** {{nbt|string|LootTable}}：（可能不存在）用于在下次打开时填充物品栏的战利品表，或者以其他方式与之交互的物品。
+** {{nbt|int|LootTableSeed}}：生成战利品表所需的种子号，0表示随机生成。
+** {{nbt|list|Items}}：容器内物品的列表。
+*** {{nbt|compound}}：单个物品及其槽位标签。
+**** {{nbt|byte|Slot}}：物品所在槽位的编号。
+**** {{bedrock nbt|物品堆叠|item}}
+
+=== 雕纹书架 ===
+{{#if:{{#var:isIncluded}}||
+雕纹书架的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|list|Items}}：书架里放有的书的列表。
+*** {{nbt|compound}}：单个物品。
+**** {{bedrock nbt|物品堆叠|item}}
+** {{nbt|int|LastInteractedSlot}}：最后一个交互过的槽位编号（1-6），值为0时表示没有进行过交互。
+
+=== 命令方块 ===
+{{#if:{{#var:isIncluded}}||
+命令方块的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|boolean|powered}}：命令方块是否被红石激活。
+** {{nbt|boolean|auto}}：命令方块是否不需要红石而被激活。
+** {{nbt|boolean|conditionMet}}：命令方块是否受条件制约，不受制约时为true。
+** {{nbt|boolean|LPCondionalMode}}：命令方块条件选项是否开启。
+** {{nbt|boolean|LPRedstoneMode}}：命令方块的红石激活选项是否开启。
+** {{nbt|int|LPCommandMode}}：命令方块的模式，0：脉冲，1：循环，2：连锁。
+** {{nbt|boolean|conditionalMode}}：是否处于条件制约模式下。
+** {{bedrock nbt|命令方块}}
+
+=== 红石比较器 ===
+{{#if:{{#var:isIncluded}}||
+红石比较器的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|OutputSignal}}：表示此红石比较器的模拟信号输出强度。
+
+=== 潮涌核心 ===
+{{#if:{{#var:isIncluded}}||
+潮涌核心的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|long|Target}}：潮涌核心正在攻击的实体的唯一ID。没有攻击目标时为-1。
+** {{nbt|boolean|Active}}：潮涌核心被激活时为true。
+
+=== 发射器和投掷器 ===
+{{#if:{{#var:isIncluded}}||
+发射器和投掷器的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|string|LootTable}}：（可能不存在）用于在下次打开时填充物品栏的战利品表，或者以其他方式与之交互的物品。
+** {{nbt|int|LootTableSeed}}：生成战利品表所需的种子号，0表示随机生成。
+** {{nbt|list|Items}}：容器内物品的列表。
+*** {{nbt|compound}}：物品及其槽位标签。
+**** {{nbt|byte|Slot}}：物品所在槽位的编号。
+**** {{bedrock nbt|物品堆叠|item}}
+
+=== 附魔台 ===
+{{#if:{{#var:isIncluded}}||
+附魔台的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|string|CustomName}}：（可能不存在）附魔台的自定义名称。
+** {{nbt|float|rott}}：附魔台上的书本的旋转角度。{{more info}}
+
+=== 末地折跃门方块 ===
+{{#if:{{#var:isIncluded}}||
+末地折跃门方块的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|Age}}：末地折跃门的“年龄”（刻），用于控制光柱的产生，超过200时不会产生光柱。
+** {{nbt|bool|EndGatewayBadPosChecked}}：可能表示是否检查过{{nbt|list|ExitPortal}}所指代坐标是否符合条件。{{more info}}
+** {{nbt|list|ExitPortal}}：实体进入折跃门后传送的地点坐标。
+*** {{nbt|int}}：X轴坐标。
+*** {{nbt|int}}：Y轴坐标。
+*** {{nbt|int}}：Z轴坐标。
+
+=== 花盆 ===
+{{#if:{{#var:isIncluded}}||
+花盆的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|compound|PlantBlock}}：花盆内展示的方块。
+*** {{bedrock nbt|方块}}
+
+=== 熔炉 ===
+{{#if:{{#var:isIncluded}}||
+熔炉、高炉和烟熏炉的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|short|BurnTime}}：燃料在耗尽前的时间（刻）。
+** {{nbt|short|CookTime}}：烹饪时间（刻）。在值达到200刻（10秒）时烹饪完成，且在<code>BurnTime</code>达到0时自动设置为0。{{needs testing}}
+** {{nbt|short|BurnDuration}}：使用的燃料允许的总燃烧时间（刻）。
+** {{nbt|int|StoredXPInt}}：储存的经验值数量。
+** {{nbt|list|Items}}：容器内物品的列表。
+*** {{nbt|compound}}：物品及其槽位标签。
+**** {{nbt|byte|Slot}}：物品所在槽位的编号。
+**** {{bedrock nbt|物品堆叠|item}}
+
+=== 漏斗 ===
+{{#if:{{#var:isIncluded}}||
+漏斗的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|TransferCooldown}}：在进行下次物品传输时剩余时间（刻），0-8的值表示不会传送。
+** {{nbt|list|Items}}：容器内物品的列表。
+*** {{nbt|compound}}：物品及其槽位标签。
+**** {{nbt|byte|Slot}}：物品所在槽位的编号。
+**** {{bedrock nbt|物品堆叠|item}}
+
+=== 物品展示框 ===
+{{#if:{{#var:isIncluded}}||
+物品展示框的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|float|ItemRotation}}：（可能不存在）所展示的物品的旋转角度。
+** {{nbt|float|ItemDropChance}}：（可能不存在）在物品展示框被破坏后掉落所展示物品的概率。
+** {{nbt|compound|Item}}：所展示的物品。
+*** {{bedrock nbt|物品堆叠|item}}
+
+=== 拼图方块 ===
+{{#if:{{#var:isIncluded}}||
+拼图方块的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|string|name}}：拼图方块的名称。此拼图方块会和其他结构中目标标签里具有此值的拼图方块对齐。
+** {{nbt|string|target}}：拼图方块的目标名称。此拼图方块会和其他结构中目标标签里具有此值的拼图方块对齐。
+** {{nbt|string|target_pool}}：拼图方块的目标池，用于从中选择结构。
+** {{nbt|string|final_state}}：这个拼图方块将变成的方块。
+** {{nbt|string|joint}}：拼图方块所展示的一个结构的连接类型，只能是<code>rollable</code>和<code>aligned</code>。
+
+=== 唱片机 ===
+{{#if:{{#var:isIncluded}}||
+唱片机的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|compound|RecordItem}}：唱片机装载的音乐唱片。
+*** {{bedrock nbt|物品堆叠|item}}
+
+=== 讲台 ===
+{{#if:{{#var:isIncluded}}||
+讲台的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|boolean|hasBook}}：放置书本后值为true。
+** {{nbt|int|page}}：（可能不存在）书本目前的页码。
+** {{nbt|int|totalPages}}：（可能不存在）书本的总页码数。
+** {{nbt|compound|book}}：（可能不存在）讲台上的具体物品。
+*** {{bedrock nbt|物品堆叠|item}}
+
+=== 磁石 ===
+{{#if:{{#var:isIncluded}}||
+磁石的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|int|trackingHandle}}：（可能不存在）磁石的ID。
+
+=== 刷怪笼 ===
+{{#if:{{#var:isIncluded}}||
+刷怪笼的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{bedrock nbt|刷怪笼}}
+
+=== 移动的方块 ===
+{{#if:{{#var:isIncluded}}||
+移动的方块的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|compound|movingBlock}}：被移动的方块。
+*** {{bedrock nbt|方块}}
+** {{nbt|compound|movingBlockExtra}}：被移动的方块（[[充水|额外值]]）。
+*** {{bedrock nbt|方块}}
+** {{nbt|int|pistonPosX}}：活塞基底的X轴坐标。
+** {{nbt|int|pistonPosY}}：活塞基底的Y轴坐标。
+** {{nbt|int|pistonPosZ}}：活塞基底的Z轴坐标。
+** {{nbt|compound|movingEntity}}：该移动的方块储存的方块实体数据。
+*** {{bedrock nbt|方块实体|block}}
+
+=== 音符盒 ===
+{{#if:{{#var:isIncluded}}||
+音符盒的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|byte|note}}：音符盒的音高。
+
+=== 下界反应核 ===
+{{#if:{{#var:isIncluded}}||
+下界反应核的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|boolean|HasFinished}}：在反应核运作结束后为true，并且变成黑色纹理。
+** {{nbt|boolean|IsInitialized}}：在反应核被激活后为true，并且变成红色纹理。
+** {{nbt|short|Progress}}：反应核的运作时间，在经过900刻（45秒）后自动设为0。
+
+=== 活塞 ===
+{{#if:{{#var:isIncluded}}||
+活塞的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|float|Progress}}：方块被移动的距离，值为0.0、0.5或1.0。
+** {{nbt|float|LastProgress}}：未知。
+** {{nbt|byte|State}}：活塞当前状态，0表示活塞处于未伸出状态，1表示活塞处于不完全伸出状态，2表示活塞处于完全伸出状态，3表示活塞处于不完全收回状态。
+** {{nbt|byte|NewState}}：未知。
+** {{nbt|boolean|Sticky}}：是黏性活塞时为true。
+** {{nbt|list|AttachedBlocks}}：需要移动的方块的坐标。
+*** {{nbt|int}}：第一个方块的X轴坐标。
+*** {{nbt|int}}：第一个方块的Y轴坐标。
+*** {{nbt|int}}：第一个方块的Z轴坐标。
+*** {{nbt|int}}：第二个方块的X轴坐标。
+*** {{nbt|int}}：第二个方块的Y轴坐标。
+*** {{nbt|int}}：第二个方块的Z轴坐标。
+*** {{nbt|int}}：以此类推。
+** {{nbt|list|BreakBlocks}}：需要被破坏（而不能被正常移动）的方块的坐标。
+*** {{nbt|int}}：第一个方块的X轴坐标。
+*** {{nbt|int}}：第一个方块的Y轴坐标。
+*** {{nbt|int}}：第一个方块的Z轴坐标。
+*** {{nbt|int}}：第二个方块的X轴坐标。
+*** {{nbt|int}}：第二个方块的Y轴坐标。
+*** {{nbt|int}}：第二个方块的Z轴坐标。
+*** {{nbt|int}}：以此类推。
+
+=== 幽匿催发体 ===
+幽匿催发体的附加字段：
+* {{nbt|compound}}：方块实体的根标签。
+** {{nbt|list|cursors}}：包含储存蔓延信号的列表。
+*** {{nbt|compound}}：一个信号。
+**** {{nbt|short|charge}}：该信号拥有的能量。
+**** {{nbt|short|decay}}：（0或1）信号经过了幽匿块或幽匿脉络后为1，否则为0。为1时，信号可以自由蔓延；为0时，若蔓延至非幽匿类方块，则信号中的所有能量丢失。{{needs testing}}
+**** {{nbt|short|facing}}：{{info needed}}
+**** {{nbt|short|update}}：距离下一次蔓延的时间。{{needs testing}}
+**** {{nbt|int|x}}：信号的 X 坐标。
+**** {{nbt|int|y}}：信号的 Y 坐标。
+**** {{nbt|int|z}}：信号的 Z 坐标。
+
+=== 幽匿尖啸体、幽匿感测体和校频幽匿感测体 ===
+幽匿尖啸体、幽匿感测体和校频幽匿感测体的附加字段：
+* {{nbt|compound}}：方块实体的根标签。
+** {{nbt|compound|VibrationListener}}：振动监听器的数据。
+*** {{nbt|int|event}}：振动监听器上一次监听的游戏事件，采用数字ID。
+*** {{nbt|compound|pending}}：本次监听的振动。
+**** {{nbt|float|distance}}：振动源距振动接收者的距离。
+**** {{nbt|long|projectile}}：若引起振动的实体为弹射物，则为抛出此弹射物的实体。
+**** {{nbt|long|source}}：若振动由实体引起，则为引起此振动的实体。
+**** {{nbt|int|vibration}}：产生此振动的游戏事件。
+**** {{nbt|int|x}}：振动源的X坐标。
+**** {{nbt|int|y}}：振动源的Y坐标。
+**** {{nbt|int|z}}：振动源的Z坐标。
+*** {{nbt|compound|selector}}：振动选择器的数据。
+**** {{nbt|compound|context}}：候选的振动数据，与上文{{nbt|compound|pending}}结构相同。
+**** {{nbt|int|tick}}：未知。
+*** {{nbt|int|ticks}}：振动到达振动接收者的剩余时间。
+
+=== 潜影盒 ===
+{{#if:{{#var:isIncluded}}||
+潜影盒的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{bedrock nbt|箱子|block}}
+** {{nbt|byte|facing}}：潜影盒的朝向。{{more info}}
+
+=== 告示牌 ===
+{{#if:{{#var:isIncluded}}||
+告示牌的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|compound|BackText}}：告示牌背面所携带的数据。它的结构与 {{nbt|compound|FrontText}} 的结构是相同的。
+** {{nbt|compound|FrontText}}：告示牌正面所携带的数据。
+*** {{nbt|boolean|HideGlowOutline}}：如果告示牌的这一面的文字在发光时不显示外框的轮廓，则为true。
+*** {{nbt|boolean|IgnoreLighting}}：如果告示牌的这一面的文字发光（或该面被使用了荧光墨囊），则为true。
+*** {{nbt|byte|PersistFormatting}}：未知。默认为1。{{more info}}
+*** {{nbt|int|SignTextColor}}：告示牌文本使用的颜色，是32位的小端序整数编码。对于一个{{Code|RGBA}}颜色，可以通过{{Code|int((r<<16){{!}}(g<<8){{!}}b{{!}}(a<<24))}}来编码得到，其中{{Code|r, g, b}}和{{Code|a}}都是0到255的整数。黑色是该字段的默认值，通过编码{{Code|(r{{=}}0, g{{=}}0, b{{=}}0, a{{=}}255)}}得到，即-16777216。
+*** {{nbt|string|Text}}：告示牌上的文本信息。
+*** {{nbt|string|TextOwner}}：写下告示牌文本的玩家的ID。
+** {{nbt|boolean|IsWaxed}}：告示牌是否被使用蜜脾涂蜡。
+
+=== 生物头颅 ===
+{{#if:{{#var:isIncluded}}||
+生物头颅的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|byte|SkullType}}：头颅的类型。自[[基岩版1.21.40|1.21.40]]拆分头颅的方块ID后，该字段总是保持为-1的值。
+** {{nbt|float|Rotation}}：头颅的朝向。{{more info}}
+** {{nbt|boolean|DoingAnimation}}：头颅是否正在播放动画。如猪灵头颅在扇动耳朵或龙首的嘴巴在动时。
+** {{nbt|int|MouthTickCount}}：头颅播放动画的总游戏刻数。
+
+=== 可疑的方块 ===
+{{#if:{{#var:isIncluded}}||
+可疑的方块的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|string|LootTable}}：所调用的战利品表json文件的路径。
+** {{nbt|int|LootTableSeed}}：战利品表的种子码。
+** {{nbt|int|brush_count}}：刷扫次数。
+** {{nbt|byte|brush_direction}}：清刷的方向，决定物品渲染的位置。可选值1-6，分别对应下上北南西东。{{needs testing}}值大于6时，渲染位置固定为上。
+** {{nbt|string|type}}：用于指示该可疑的方块的种类，值为{{cd|minecraft:suspicious_gravel}}（可疑的沙砾）或{{cd|minecraft:suspicious_sand}}（可疑的沙子）。
+
+=== 结构方块 ===
+{{#if:{{#var:isIncluded}}||
+结构方块的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+** {{nbt|boolean|isPowered}}：结构方块被红石信号激活时为true。
+** {{nbt|int|data}}：储存的数据。
+** {{nbt|int|redstoneSaveMode}}：结构方块的模式。0表示保存在内存中，1表示保存至硬盘。
+** {{nbt|int|xStructureOffset}}：结构的X轴偏移量坐标。
+** {{nbt|int|yStructureOffset}}：结构的Y轴偏移量坐标。
+** {{nbt|int|zStructureOffset}}：结构的Z轴偏移量坐标。
+** {{nbt|int|xStructureSize}}：结构的X轴大小坐标。
+** {{nbt|int|yStructureSize}}：结构的Y轴大小坐标。
+** {{nbt|int|zStructureSize}}：结构的Z轴大小坐标。
+** {{nbt|string|structureName}}：结构的名称。
+** {{nbt|string|dataField}}：未知。
+** {{nbt|boolean|ignoreEntities}}：结构内的实体是否被忽略。
+** {{nbt|boolean|includePlayers}}：结构内的玩家是否被显示（但不保存玩家实体）。
+** {{nbt|boolean|removeBlocks}}：结构内的方块是否被忽略。
+** {{nbt|boolean|showBoundingBox}}：结构方块是否为创造模式下的玩家展示边界框。
+** {{nbt|byte|rotation}}：结构的旋转角度。{{more info}}
+** {{nbt|byte|mirror}}：结构的对称情况。{{more info}}
+** {{nbt|byte|animationMode}}：动画模式。{{more info}}
+** {{nbt|float|animationSeconds}}：动画的持续时间。{{more info}}
+** {{nbt|float|integrity}}：放置的结构的完整度。
+** {{nbt|long|seed}}：用于结构完整性的种子，0表示随机。{{needs testing}}
+
+=== 试炼刷怪笼 ===
+试炼刷怪笼的附加字段：
+* {{nbt|compound}}：方块实体的根标签。
+** {{nbt|int|required_player_range}}：（1≤值≤128，默认为14）检测加入试炼玩家的范围。
+** {{nbt|compound|normal_config}}：正常变种的试炼刷怪笼使用的试炼刷怪笼配置数据。
+*** {{nbt|int|spawn_range}}：（1≤值≤128，默认为4）生成生物的范围。
+*** {{nbt|float|total_mobs}}：（值≥0，默认为6）生成生物的最少总数量，即仅一个玩家加入试炼时生成的总生物数量。
+*** {{nbt|float|simultaneous_mobs}}：（值≥0，默认为2）同时存活的生成生物的最少数量，即仅一个玩家加入试炼时同时存活的生物数量。
+*** {{nbt|float|total_mobs_added_per_player}}：（值≥0，默认为2）每增加一个加入试炼玩家，生成生物总数量的增加值。
+*** {{nbt|float|simultaneous_mobs_added_per_player}}：（值≥0，默认为1）每增加一个加入试炼玩家，同时存活生物数量的增加值。
+*** {{nbt|int|ticks_between_spawn}}：默认为20。两次尝试生成生物的最小间隔时间。
+*** {{nbt|int|target_cooldown_length}}：（值≥0，默认为36000游戏刻（30分））从试炼刷怪笼生成的所有生物被杀死开始，到下一次可以进行试炼的冷却时间。
+*** {{nbt|list|spawn_potentials}}：可能生成的实体列表。在试炼刷怪笼进行一次尝试生成后，游戏将会随机从中选择一项用于下次生成。
+**** {{nbt|compound}}：一次可能的生成。
+***** {{nbt|int|Weight}}：与其他生成权重相比，该生成被选中的概率。必须为正数且至少为1。
+***** {{nbt|string|TypeID}}：实体ID。
+***** {{nbt|string|equipment_loot_table}}：战利品表。设置生成生物的装备。
+*** {{nbt|list|loot_tables_to_eject}}：试炼刷怪笼喷出的奖励物品列表。
+**** {{nbt|compound}}：一项战利品项。
+***** {{nbt|int|weight}}：与其他生成权重相比，该生成被选中的概率。必须为正数且至少为1。
+***** {{nbt|string|data}}：战利品表。
+*** {{nbt|string|items_to_drop_when_ominous}}：（默认为<code>loot_tables/spawners/trial_chamber/items_to_drop_when_ominous.json</code>）战利品表，控制不祥状态的试炼刷怪笼激活状态时生成的不祥之物生成器实体内的物品。
+** {{nbt|compound|ominous_config}}：不祥变种的试炼刷怪笼使用的试炼刷怪笼配置数据，格式与{{nbt|compound|normal_config}}相同。
+** {{nbt|list|registered_players}}：加入试炼的玩家列表。
+*** {{nbt|compound}}：玩家的UUID。
+**** {{nbt|long|uuid}}：UUID。
+** {{nbt|list|current_mobs}}：当前还存活的由试炼刷怪笼生成的生物。
+*** {{nbt|compound}}：生物的UUID。
+**** {{nbt|long|uuid}}：UUID。
+** {{nbt|long|cooldown_end_at}}：冷却的结束时间。不存在此项时默认为0。
+** {{nbt|long|next_mob_spawns_at}}：下一次生物生成的最早时间。不存在此项时默认为0。
+** {{nbt|compound|spawn_data}}：下一次生成生物的数据。在决定生成一次生物后，此项数据会从配置字段的{{nbt|list|spawn_potentials}}中随机挑选一项作为自身的数据，并覆盖之前的数据。
+*** {{nbt|int|Weight}}：未知。
+*** {{nbt|string|TypeID}}：实体ID。
+*** {{nbt|string|equipment_loot_table}}：战利品表。设置生成生物的装备。
+** {{nbt|string|selected_loot_table}}：正在喷出物品的战利品表。
+
+=== 宝库 ===
+宝库的附加字段：
+* {{nbt|compound}}：方块实体的根标签。
+** {{nbt|compound|config}}：宝库的配置数据。
+*** {{nbt|float|activation_range}}：（默认为4）激活宝库的玩家检测范围。
+*** {{nbt|float|deactivation_range}}：（默认为4.5）取消激活宝库的玩家检测范围。
+*** {{nbt|string|loot_table}}：（普通宝库默认为<code>loot_tables/chests/trial_chambers/reward.json</code>，不祥宝库默认为<code>loot_tables/chests/trial_chambers/reward_ominous.json</code>）宝库使用的战利品表。
+*** {{nbt|string|override_loot_table_to_display}}：覆盖奖励战利品表，设置用于展示物品的战利品表。
+*** {{nbt|compound|key_item}}：（普通宝库默认为试炼钥匙，不祥宝库默认为不祥试炼钥匙）解锁宝库所需的物品。
+**** {{bedrock nbt|物品堆叠|item}}
+** {{nbt|compound|data}}：用于计算宝库行为和渲染的数据。
+*** {{nbt|compound|display_item}}：宝库内渲染的物品。
+**** {{bedrock nbt|物品堆叠|item}}
+*** {{nbt|list|items_to_eject}}：将要喷出的奖励物品。
+**** {{nbt|compound}}：一项奖励物品。
+***** {{bedrock nbt|物品堆叠|item}}
+*** {{nbt|list|rewarded_players}}：已经接受奖励的玩家列表。
+**** {{nbt|long}}：玩家的UUID。
+*** {{nbt|long|state_updating_resumes_at}}：下一次更新宝库状态的时间。
+*** {{nbt|long|total_ejections_needed}}：本次奖励中将要喷出的奖励物品总数。
+
+=== 铜傀儡像 ===
+{{#if:{{#var:isIncluded}}||
+铜傀儡像的附加字段：
+*{{nbt|compound}}：方块实体的根标签。}}
+**{{nbt|compound|Actor}}：铜傀儡像内存储的实体。
+***{{nbt|string|ActorIdentifier}}：铜傀儡像内存储的单个实体。在原版游戏下总会是<code>minecraft:copper_golem&lt;&gt;</code>。{{more info}}
+*** {{nbt|compound|SaveData}}：铜傀儡像内实体的NBT数据。
+**** {{bedrock nbt|实体|entity}}
+**{{nbt|int|Pose}}：铜傀儡像的姿势。0为站立，1为坐下，2为奔跑，3为大字。当其值不是以上值中的任何一个时会导致游戏崩溃。{{needs testing}}
+{{#if:{{#var:isIncluded}}||</div>}}<noinclude>
+[[en:Bedrock Edition level format/Block entity format]]
+[[pt:Formato de nível da Edição Bedrock/Formatos de bloco-entidade]]
+</noinclude>

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customitems:test1",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "customitems:test1"
+    }
+  }
+}

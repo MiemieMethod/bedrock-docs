@@ -1,0 +1,91 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "repair_items",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "reference",
+            "reference": "#/definition_types/2122767410"
+          }
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.10",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  },
+  "definition_types": {
+    "2122767410": {
+      "name": "variant",
+      "variant_types": [
+        {
+          "name": "array",
+          "additional_element_type": {
+            "name": "reference",
+            "reference": "../../../../common/definition/item/item_descriptor.json"
+          }
+        },
+        {
+          "name": "object",
+          "properties": [
+            {
+              "name": "items",
+              "type": {
+                "name": "array",
+                "additional_element_type": {
+                  "name": "reference",
+                  "reference": "../../../../common/definition/item/item_descriptor.json"
+                }
+              }
+            },
+            {
+              "name": "repair_amount",
+              "type": {
+                "name": "reference",
+                "reference": "../../../../common/molang/expression_node.json"
+              }
+            }
+          ]
+        },
+        {
+          "name": "string",
+          "experiment": [
+            {
+              "value": "1.16.100"
+            },
+            {
+              "min": "1.17.0",
+              "max": "1.18.0",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      ],
+      "common_type": {}
+    }
+  }
+}

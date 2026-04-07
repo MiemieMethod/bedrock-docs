@@ -1,0 +1,80 @@
+{
+    object "remove_mob_effect" : opt
+    {
+        string "effect"
+        enumerated_value "target" : opt
+    }
+    object "run_command" : opt
+    {
+        string "command" : opt
+        array "command" : opt
+        {
+            string "<any array element>" : opt
+        }
+        enumerated_value "target" : opt
+    }
+    object "damage" : opt
+    {
+        enumerated_value "target" : opt
+        string "type"
+        int "amount" : opt
+        int "mob_amount" : opt
+    }
+    object "die" : opt
+    {
+        enumerated_value "target" : opt
+    }
+    object "swing" : opt
+    object "decrement_stack" : opt
+    {
+        bool "ignore_game_mode" : opt
+    }
+    object "add_mob_effect" : opt
+    {
+        string "effect"
+        enumerated_value "target" : opt
+        float "duration"
+        int "amplifier"
+    }
+    object "play_effect" : opt
+    {
+        enumerated_value "target" : opt
+        int "data" : opt
+        string "effect"
+    }
+    object "play_sound" : opt
+    {
+        string "sound"
+        enumerated_value "target" : opt
+    }
+    object "set_block" : opt
+    {
+         "block_type" : opt
+    }
+    object "set_block_at_pos" : opt
+    {
+         "block_type" : opt
+        vec3 "block_offset" : opt
+    }
+    object "set_block_state" : opt
+    {
+        molang "<scope_identifier>" : opt
+    }
+    object "spawn_loot" : opt
+    {
+        string "table" : opt
+    }
+    object "teleport" : opt
+    {
+        enumerated_value "target" : opt
+        vec3 "max_range" : opt
+        vec3 "destination" : opt
+        bool "land_on_block" : opt
+        bool "avoid_water" : opt
+    }
+    object "transform_item" : opt
+    {
+        string "transform"
+    }
+}
+

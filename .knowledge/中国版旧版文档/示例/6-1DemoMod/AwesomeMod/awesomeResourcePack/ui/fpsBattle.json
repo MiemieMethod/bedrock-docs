@@ -1,0 +1,363 @@
+{
+   "aimButton@common.button" : {
+      "$default_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/aim",
+      "$hover_texture" : "textures/ui/aim_click",
+      "$labelText" : "",
+      "$label_font_size" : "large",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "is_handle_button_move_event": true, 
+      "button_mappings": [], 
+      "controls" : [
+         {
+            "default" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : "$default_color",
+               "font_size" : "$label_font_size",
+               "layer" : 3,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "$labelText",
+               "type" : "label"
+            }
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "85.38733%+0px", "34.06250%+0px" ],
+      "size" : [ "7.88732%+0px", "13.43750%+0px" ],
+      "visible" : true
+   },
+   "aimImage" : {
+      "anchor_from" : "center",
+      "anchor_to" : "center",
+      "layer" : 1,
+      "nineslice_size" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ "5.28169%+0px", "9.37500%+0px" ],
+      "texture" : "textures/ui/cross_hair",
+      "type" : "image",
+      "uv" : [ 0, 0 ],
+      "uv_size" : [ 26, 26 ],
+      "visible" : true
+   },
+   "aimPanel" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "controls" : [
+         {
+            "aimingImage@fpsBattle.aimingImage" : {}
+         },
+         {
+            "aimImage@fpsBattle.aimImage" : {}
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "aimingImage" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "is_new_nine_slice" : true,
+      "layer" : 1,
+      "nine_slice_buttom" : 0,
+      "nine_slice_left" : 0,
+      "nine_slice_right" : 0,
+      "nine_slice_top" : 0,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "texture" : "textures/ui/aiming",
+      "texture_file_system" : "",
+      "type" : "image",
+      "visible" : true,
+      "zip_folder" : ""
+   },
+   "buttonPanel" : {
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "controls" : [
+         {
+            "aimButton@fpsBattle.aimButton" : {}
+         },
+         {
+            "shootButtonRight@fpsBattle.shootButtonRight" : {}
+         },
+         {
+            "changeButton@fpsBattle.changeButton" : {}
+         },
+         {
+            "shootButtonLeft@fpsBattle.shootButtonLeft" : {}
+         }
+      ],
+      "layer" : 2,
+      "offset" : [ 0, 0 ],
+      "size" : [ "100.000000%+0 px", "100.000000%+0px" ],
+      "type" : "panel",
+      "visible" : true
+   },
+   "changeButton@common.button" : {
+      "$default_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/change_bullet",
+      "$hover_texture" : "textures/ui/change_bullet_click",
+      "$labelText" : "",
+      "$label_font_size" : "large",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "is_handle_button_move_event": true, 
+      "button_mappings": [], 
+      "controls" : [
+         {
+            "default" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : "$default_color",
+               "font_size" : "$label_font_size",
+               "layer" : 3,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "$labelText",
+               "type" : "label"
+            }
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "85.38733%+0px", "62.18750%+0px" ],
+      "size" : [ "7.88732%+0px", "13.43750%+0px" ],
+      "visible" : true
+   },
+   "main@common.base_screen" : {
+      "controls" : [
+         {
+            "buttonPanel@fpsBattle.buttonPanel" : {}
+         },
+         {
+            "aimPanel@fpsBattle.aimPanel" : {}
+         }
+      ]
+   },
+   "namespace" : "fpsBattle",
+   "shootButtonLeft@common.button" : {
+      "$default_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/shoot",
+      "$hover_texture" : "textures/ui/shoot_click",
+      "$labelText" : "",
+      "$label_font_size" : "large",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "is_handle_button_move_event": true, 
+      "button_mappings": [], 
+      "controls" : [
+         {
+            "default" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : "$default_color",
+               "font_size" : "$label_font_size",
+               "layer" : 3,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "$labelText",
+               "type" : "label"
+            }
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "9.15493%+0px", "32.18750%+0px" ],
+      "size" : [ "7.88732%+0px", "13.43750%+0px" ],
+      "visible" : true
+   },
+   "shootButtonRight@common.button" : {
+      "$default_color" : [ 1, 1, 1 ],
+      "$default_texture" : "textures/ui/shoot",
+      "$hover_texture" : "textures/ui/shoot_click",
+      "$labelText" : "",
+      "$label_font_size" : "large",
+      "$nine_slice_buttom" : 0,
+      "$nine_slice_left" : 0,
+      "$nine_slice_right" : 0,
+      "$nine_slice_top" : 0,
+      "$text_offset" : [ 0, 0 ],
+      "anchor_from" : "top_left",
+      "anchor_to" : "top_left",
+      "is_handle_button_move_event": true, 
+      "button_mappings": [], 
+      "controls" : [
+         {
+            "default" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$default_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "hover" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "pressed" : {
+               "is_new_nine_slice" : true,
+               "layer" : 2,
+               "nine_slice_buttom" : "$nine_slice_buttom",
+               "nine_slice_left" : "$nine_slice_left",
+               "nine_slice_right" : "$nine_slice_right",
+               "nine_slice_top" : "$nine_slice_top",
+               "texture" : "$hover_texture",
+               "type" : "image"
+            }
+         },
+         {
+            "button_label" : {
+               "color" : "$default_color",
+               "font_size" : "$label_font_size",
+               "layer" : 3,
+               "max_size" : [ "100%", "100%" ],
+               "offset" : "$text_offset",
+               "shadow" : false,
+               "text" : "$labelText",
+               "type" : "label"
+            }
+         }
+      ],
+      "layer" : 1,
+      "offset" : [ "72.35915%+0px", "49.06250%+0px" ],
+      "size" : [ "7.88732%+0px", "13.43750%+0px" ],
+      "visible" : true
+   }
+}

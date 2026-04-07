@@ -1,0 +1,155 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseAddupDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.1",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+  "_comment": "插件实现的功能",
+  "description": "累计消费活动插件",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "通用提示插件为lobby/game插件",
+  "group": "neteaseAddup",
+
+  "_comment": "超时多久的活动，活动信息就不再保留，同时也不再补偿发送未发送的奖励",
+  "activityExpireTime": 2592000,
+
+  "_comment": "商品的价值配置，配置指定item_id的商品，每购入一个，视为消费多少钻石（即增长多少当前消费累积活动的进度）",
+  "itemPriceData": [
+    {
+      "_comment": "商品的唯一ID，用于区分商品的类型",
+      "item_id": 90027446413343740,
+      "_comment": "此商品对应的钻石价格，因为商品订单中没有具体的价格信息，需要手动填写",
+      "plusProcess": 64
+    },
+    {
+      "item_id": 90027446413343741,
+      "plusProcess": 98
+    }
+  ],
+  "_comment": "活动字典，每个活动都需要一个唯一的key",
+  "activityData": {
+    "christmas2020": {
+      "_comment": "活动标题，客户端显示用",
+      "title": "圣诞活动",
+      "_comment": "活动描述，客户端显示用",
+      "desc": "圣诞活动描述",
+      "_comment": "活动开始时间戳，活动包含此时刻，即当前时间等于活动开始时间时，活动已经开始了",
+      "startTp": 1608307200,
+      "_comment": "活动结束时间戳，活动不包含此时刻，即当前时间等于活动结束时间时，活动已经结束了",
+      "endTp": 1609430400,
+      "_comment": "所有的累积消费奖励条目字典，每个条目都对应一个消费积累的值",
+      "quests": {
+        "_comment": "单个累积消费奖励条目，对应界面上的一个可以领取的奖励",
+        "q01": {
+          "_comment": "条目显示的优先级，值越小的显示越靠前",
+          "showIdx": 1,
+          "_comment": "领取本条目对应奖励需要累积消费的钻石值，活动期间累积消费的钻石总数大于等于此值时才能领取本条目对应的奖励",
+          "process": 100,
+          "_comment": "本条目奖励的物品列表，支持自定义物品，qual的取值从1-6，越大越珍稀，item的值为物品的信息字典，格式与服务端组件接口【SpawnItemToPlayerInv】中的物品信息字典一致，单个条目最多支持5个奖励（多于5个奖励不能保证正常发奖）,此外单个物品的count不要超过此物品的堆叠上限，否则无法保证发奖的时候能够不遗漏",
+          "reward": [
+            {"qual":1, "item":{"itemName":"minecraft:diamond", "auxValue":0, "count":1}}
+          ]
+        },
+        "q02": {
+          "showIdx": 2,
+          "process": 200,
+          "reward": [
+            {"qual":1, "item":{"itemName":"minecraft:diamond", "auxValue":0, "count":1}},
+            {"qual":2, "item":{"itemName":"minecraft:emerald", "auxValue":0, "count":1}}
+          ]
+        },
+        "q03": {
+          "showIdx": 3,
+          "process": 300,
+          "reward": [
+            {"qual":1, "item":{"itemName":"minecraft:diamond", "auxValue":0, "count":1}},
+            {"qual":2, "item":{"itemName":"minecraft:emerald", "auxValue":0, "count":1}},
+            {"qual":3, "item":{"itemName":"minecraft:gold_ingot", "auxValue":0, "count":1}}
+          ]
+        },
+        "q04":{
+          "showIdx": 4,
+          "process": 400,
+          "reward": [
+            {"qual":1, "item":{"itemName":"minecraft:diamond", "auxValue":0, "count":1}},
+            {"qual":2, "item":{"itemName":"minecraft:emerald", "auxValue":0, "count":1}},
+            {"qual":3, "item":{"itemName":"minecraft:gold_ingot", "auxValue":0, "count":1}},
+            {"qual":4, "item":{"itemName":"minecraft:apple", "auxValue":0, "count":1}}
+          ]
+        },
+        "q05": {
+          "showIdx": 5,
+          "process": 500,
+          "reward": [
+            {"qual":1, "item":{"itemName":"minecraft:diamond", "auxValue":0, "count":1}},
+            {"qual":2, "item":{"itemName":"minecraft:emerald", "auxValue":0, "count":1}},
+            {"qual":3, "item":{"itemName":"minecraft:gold_ingot", "auxValue":0, "count":1}},
+            {"qual":4, "item":{"itemName":"minecraft:apple", "auxValue":0, "count":1}},
+            {"qual":5, "item":{"itemName":"minecraft:bread", "auxValue":0, "count":1}}
+          ]
+        }
+      }
+    },
+    "newyear2021": {
+      "title": "累计消费活动",
+      "desc": "累计消费钻石好礼不停。",
+      "startTp": 1609430400,
+      "endTp": 1619920611,
+      "quests": {
+        "q01": {
+          "showIdx": 1,
+          "process": 100,
+          "reward": [
+            {"qual":1, "item":{"itemName":"minecraft:apple", "auxValue":0, "count":1}},
+            {"qual":1, "item":{"itemName":"minecraft:bread", "auxValue":0, "count":1}}
+          ]
+        },
+        "q02": {
+          "showIdx": 2,
+          "process": 200,
+          "reward": [
+            {"qual":2, "item":{"itemName":"minecraft:coal", "auxValue":0, "count":10}},
+            {"qual":2, "item":{"itemName":"minecraft:iron_ingot", "auxValue":0, "count":10}},
+            {"qual":2, "item":{"itemName":"minecraft:redstone", "auxValue":0, "count":10}}
+          ]
+        },
+        "q03": {
+          "showIdx": 3,
+          "process": 500,
+          "reward": [
+            {"qual":3, "item":{"itemName":"minecraft:gold_ingot", "auxValue":0, "count":10}}
+          ]
+        },
+        "q04":{
+          "showIdx": 4,
+          "process": 1000,
+          "reward": [
+            {"qual":4, "item":{"itemName":"minecraft:diamond_sword", "auxValue":0, "count":1}},
+            {"qual":4, "item":{"itemName":"minecraft:diamond_chestplate", "auxValue":0, "count":1}},
+            {"qual":4, "item":{"itemName":"minecraft:diamond_leggings", "auxValue":0, "count":1}},
+            {"qual":4, "item":{"itemName":"minecraft:diamond_boots", "auxValue":0, "count":1}},
+            {"qual":4, "item":{"itemName":"minecraft:diamond_helmet", "auxValue":0, "count":1}}
+          ]
+        },
+        "q05": {
+          "showIdx": 5,
+          "process": 2000,
+          "reward": [
+            {"qual":5, "item":{"itemName":"minecraft:obsidian", "auxValue":0, "count":10}},
+            {"qual":5, "item":{"itemName":"minecraft:elytra", "auxValue":0, "count":1}},
+            {"qual":5, "item":{"itemName":"minecraft:blaze_rod", "auxValue":0, "count":10}},
+            {"qual":5, "item":{"itemName":"minecraft:dragon_breath", "auxValue":0, "count":10}},
+            {"qual":5, "item":{"itemName":"minecraft:ender_pearl", "auxValue":0, "count":10}}
+          ]
+        }
+      }
+    }
+  }
+}

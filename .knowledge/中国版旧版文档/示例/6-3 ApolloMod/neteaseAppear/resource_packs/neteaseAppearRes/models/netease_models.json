@@ -1,0 +1,48 @@
+{
+    "netease_appear_chibang": {
+        "animation": {
+            "idle": "animation\/netease_appear_chibang_animation_idle.json"
+        },
+        "dy_load": false,
+        "mesh": "mesh\/netease_appear_chibang_mesh.json",
+        "skeleton": "skeleton\/netease_appear_chibang_skeleton.json"
+    },
+    "netease_appear_mffgnnv": {
+        "animation": {
+            "attack": "animation\/netease_appear_mffgnnv_animation_attack.json",
+            "die": "animation\/netease_appear_mffgnnv_animation_die.json",
+            "ride": "animation\/netease_appear_mffgnnv_animation_ride.json",
+            "run": "animation\/netease_appear_mffgnnv_animation_run.json",
+            "stand": "animation\/netease_appear_mffgnnv_animation_stand.json",
+            "walk": "animation\/netease_appear_mffgnnv_animation_walk.json"
+        },
+        "dy_load": false,
+        "mesh": "mesh\/netease_appear_mffgnnv_mesh.json",
+        "skeleton": "skeleton\/netease_appear_mffgnnv_skeleton.json"
+    },
+    "netease_appear_qilin": {
+        "animation": {
+            "die": "animation\/netease_appear_qilin_animation_die.json",
+            "idle": "animation\/netease_appear_qilin_animation_idle.json",
+            "jump": "animation\/netease_appear_qilin_animation_jump.json",
+            "run": "animation\/netease_appear_qilin_animation_run.json",
+            "walk": "animation\/netease_appear_qilin_animation_walk.json"
+        },
+        "dy_load": false,
+        "mesh": "mesh\/netease_appear_qilin_mesh.json",
+        "skeleton": "skeleton\/netease_appear_qilin_skeleton.json"
+    },
+    "netease_appear_steve": {
+        "animation": {
+            "attack": "animation\/netease_appear_steve_animation_attack.json",
+            "die": "animation\/netease_appear_steve_animation_die.json",
+            "ride": "animation\/netease_appear_steve_animation_ride.json",
+            "run": "animation\/netease_appear_steve_animation_run.json",
+            "stand": "animation\/netease_appear_steve_animation_stand.json",
+            "walk": "animation\/netease_appear_steve_animation_walk.json"
+        },
+        "dy_load": false,
+        "mesh": "mesh\/netease_appear_steve_mesh.json",
+        "skeleton": "skeleton\/netease_appear_steve_skeleton.json"
+    }
+}

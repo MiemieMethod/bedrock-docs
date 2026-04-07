@@ -1,0 +1,210 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseAppearDev",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.3",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.19.0.release20201119",
+  "_comment": "插件实现的功能",
+  "description": "外观管理",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "lobby",
+    "game"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "所属插件组合的名字，每日登录奖励插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseAppear",
+  
+  "_comment": "以下为可配置项",
+  "_comment": "所有用到的模型的配置，主要是模型与对应的动作的名字",
+  "propModels": {
+    "_comment": "翅膀模型，因为是装饰用外观，所有需要配置的是path和aniName（为绑定需要的参数）",
+    "netease_appear_chibang": {
+      "_comment": "模型的名字",
+      "modelName": "netease_appear_chibang",
+      "_comment": "模型绑定的骨骼",
+      "bindBone": "root",
+      "_comment": "绑定的偏移参数",
+      "pos": [0, 8.0, 0],
+      "_comment": "绑定的旋转参数",
+      "rot": [0, 90, 90],
+      "_comment": "选择使用哪个模型动作的特效",
+      "aniName": "idle"
+    },
+    "_comment": "人物模型，用于整体替换玩家的外观，配置各种动作对应的动作名",
+    "netease_appear_hatman": {
+      "modelName": "netease_appear_mffgnnv",
+      "attack":"attack",
+      "die":"die",
+      "ride":"ride",
+      "run":"run",
+      "idle":"stand",
+      "walk":"walk"
+    },
+    "netease_appear_steve": {
+      "modelName": "netease_appear_steve",
+      "attack":"attack",
+      "die":"die",
+      "ride":"ride",
+      "run":"run",
+      "idle":"stand",
+      "walk":"walk"
+    },
+    "_comment": "坐骑模型，用于整体替换坐骑的外观，相对人物模型，动作会少一点",
+    "netease_appear_qilin":{
+      "modelName": "netease_appear_qilin",
+      "die":"die",
+      "run":"run",
+      "idle":"idle",
+      "walk":"walk",
+      "jump":"jump"
+    }
+  },
+  "_comment": "所有用到的特效的配置，主要是特效的类型与生成，绑定需要的参数",
+  "propEffects":{
+    "sample_effect_1" : {
+      "_comment": "特效类型，sfx指编辑器生成的序列帧动画，particle指粒子特效",
+      "type": "sfx",
+      "_comment": "资源加载的路径",
+      "path": "effects/netease_appear_guanghuan_01.json",
+      "_comment": "绑定的骨骼名",
+      "bindBone": "root",
+      "_comment": "绑定的偏移参数",
+      "pos": [0, 0, -0.15],
+      "_comment": "绑定的旋转参数",
+      "rot": [0, 0, 0],
+      "_comment": "paperdoll上，绑定的偏移参数",
+      "pos4ui": [0, 0, -0.15],
+      "_comment": "paperdoll上，绑定的旋转参数",
+      "rot4ui": [0, 90, 0],
+      "_comment": "有坐骑时，绑定的偏移参数，假如是否有坐骑不影响绑定参数，那么不需要配置此项",
+      "pos4mount": [0, 0, 0.4],
+      "_comment": "有坐骑时，绑定的旋转参数，假如是否有坐骑不影响绑定参数，那么不需要配置此项",
+      "rot4mount": [0, 0, 0]
+    },
+    "sample_effect_2": {
+      "type": "particle",
+      "path": "effects/netease_appear_guanghuan_lizi01.json",
+      "bindBone": "root",
+      "pos": [0, 0, -0.15],
+      "rot": [0, 0, 0],
+      "pos4ui": [0, 0, -0.15],
+      "rot4ui": [0, 90, 0],
+      "pos4mount": [0, 0, 0.4],
+      "rot4mount": [0, 0, 0]
+    }
+  },
+  "_comment": "外观的配置信息",
+  "propAppears":{
+    "_comment": "外观的关键字",
+    "hatman": {
+      "_comment": "外观的类型，同类型的外观只能同时激活其中一种，body代表替换玩家本体模型，mount代表召唤坐骑，剩余的外观类型可任意自定义",
+      "type": "body",
+      "_comment": "外观的对应的资源，每两个元素为一组，第一个元素代表资源的类型，分model（模型）和特效（effect）两类，第二个元素代表资源的配置关键字（玩家本体模型和坐骑仅支持使用一个模型），分别对应propModels和propEffects中的配置关键字",
+      "src": ["model", "netease_appear_hatman"],
+      "_comment": "商店界面上显示的名字",
+      "showName": "魔法师",
+      "_comment": "商店界面上显示的描述",
+      "desc": "传说中大法师的装扮！",
+      "_comment": "商店界面上显示的图标",
+      "icon": "textures/ui/netease_appear/img02",
+      "_comment": "商店界面上的显示顺序",
+      "showIndex": 1,
+      "_comment": "购入此外观的消耗（购入行为需要交易插件的支持）",
+      "cost": {
+        "_comment": "消耗代币的图标，用于界面显示",
+        "icon": "textures/ui/netease_trade/icon03@3x.png",
+        "_comment": "消耗代币的关键字，需要在交易插件中有对应代币的配置",
+        "type": "RMB",
+        "_comment": "消耗代币的数量",
+        "num": 10
+      }
+    },
+    "steveman": {
+      "type": "body",
+      "src": ["model", "netease_appear_steve"],
+      "showName": "史蒂夫",
+      "desc": "最初始的打扮，虽然朴实但能创造世界。",
+      "_comment": "商店界面上显示的图标",
+      "icon": "textures/ui/netease_appear/img02",
+      "showIndex": 0,
+      "cost": {
+        "_comment": "消耗代币的图标，用于界面显示",
+        "icon": "textures/ui/netease_trade/icon03@3x.png",
+        "_comment": "消耗代币的关键字，需要在交易插件中有对应代币的配置",
+        "type": "RMB",
+        "_comment": "消耗代币的数量",
+        "num": 0
+      }
+    },
+    "qilin":{
+      "type": "mount",
+      "src": ["model", "netease_appear_qilin"],
+      "showName": "麒麟",
+      "desc": "比四圣兽还要珍稀的坐骑！",
+      "icon": "textures/ui/netease_appear/img02",
+      "showIndex": 1,
+      "cost": {
+        "icon": "textures/ui/netease_trade/icon03@3x.png",
+        "type": "RMB",
+        "num": 10
+      }
+    },
+    "chibang": {
+      "type": "wing",
+      "src": ["model", "netease_appear_chibang"],
+      "showName": "魔法之翼",
+      "desc": "大魔法师常用的交通工具。",
+      "icon": "textures/ui/netease_appear/img02",
+      "showIndex": 1,
+      "cost": {
+        "icon": "textures/ui/netease_trade/icon03@3x.png",
+        "type": "RMB",
+        "num": 10
+      }
+    },
+    "guanghuan":{
+      "type": "aura",
+      "src": ["effect", "sample_effect_1", "effect", "sample_effect_2"],
+      "showName": "三元素",
+      "desc": "脚踩三种元素的结晶。",
+      "icon": "textures/ui/netease_appear/img02",
+      "showIndex": 1,
+      "cost": {
+        "icon": "textures/ui/netease_trade/icon03@3x.png",
+        "type": "RMB",
+        "num": 10
+      }
+    }
+  },
+  "_comment": "默认的人物模型，注意：默认的人物模型必须属于默认解锁的外观",
+  "defaultBody": "steveman",
+  "_comment": "其他部位的默认外观配置，用于界面预览时候的表现和描述，在逻辑上对应相应部位【没有使用任何外观】",
+  "emptyAppearData" : {
+    "mount": {
+      "showName": "解除坐骑",
+      "desc": "11路公交，你值得拥有",
+      "icon": "textures/ui/netease_appear/img02",
+      "showIndex": 0,
+      "key": "empty"
+    },
+    "wing": {
+      "showName": "脱下翅膀",
+      "desc": "梦想的翅膀，在梦里",
+      "icon": "textures/ui/netease_appear/img02",
+      "showIndex": 0,
+      "key": "empty"
+    },
+    "aura": {
+      "showName": "取消光环",
+      "desc": "有那么一点点小透明",
+      "icon": "textures/ui/netease_appear/img02",
+      "showIndex": 0,
+      "key": "empty"
+    }
+  },
+  "_comment": "默认解锁的外观",
+  "freeAppears": ["steveman"]
+}

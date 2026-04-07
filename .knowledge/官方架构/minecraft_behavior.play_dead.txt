@@ -1,0 +1,18 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "duration" : opt
+    float "random_start_chance" : opt
+    int "force_below_health" : opt
+     "random_damage_range" : opt
+    array "damage_sources" : opt
+    {
+        string "<any array element>" : opt
+    }
+    bool "apply_regeneration" : opt
+     "filters" : opt
+}
+

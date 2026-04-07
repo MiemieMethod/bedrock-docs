@@ -1,0 +1,6 @@
+{
+    "ui_defs": [
+        "ui/netease_battle_battleDeskUi.json",
+        "ui/netease_battle_battleUi.json"
+    ]
+}

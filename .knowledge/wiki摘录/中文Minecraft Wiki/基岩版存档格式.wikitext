@@ -1,0 +1,321 @@
+{{about|自[[基岩版1.2.13]]以来的存档格式|以前的版本的存档格式|基岩版存档格式/历史|Java版的存档格式|Java版存档格式}}
+{{exclusive|bedrock}}
+
+基岩版使用了修改后的Google的LevelDB（Zlib压缩格式）来储存存档格式资料。
+
+== 基于LevelDB的格式 ==
+=== Mojang的LevelDB格式 ===
+Mojang修改了谷歌的[https://github.com/google/leveldb 原始LevelDB]以加入对Zlib压缩格式的支持。代码可以在[https://github.com/Mojang/leveldb Github页面]的main分支访问，且编写指引由Tommaso在[https://twitter.com/_tomcc/status/477950809427427328 此处]提供。
+
+对于Java版的LevelDB + Zlib，请见[https://github.com/tinfoiled/leveldb 此Github页面]。
+
+Google的leveldb库自从Mojang在发布Minecraft后得到了极大的改变，但Mojang自己修改后的版本仍然可以独立运作，但代码需要一些小修改来实现兼容性：
+
+数据库储存在db或基岩版世界的子目录。传递给LevelDB API的数据库路径是这个路径，而不是其中任何文件的路径。这似乎也是存储世界地形的位置，因为可以通过将其db文件夹替换为来自无限世界类型的文件夹来将[[旧世界类型]]变为无限。
+
+=== 区块键值格式 ===
+有关区块数据的数据库键是以下内容的并列：
+* 两个带符号的32位小端序<!-- little-endian -->整数（x和z分别位于区块坐标中）。
+* 可选的第三个32位小端序整数（1为[[下界]]，2为[[末地]]，忽略掉则为[[主世界]]）。
+* 一个单字节标签，指定键所代表的记录类型（见表），以及……
+* （对于SubChunkPrefix记录）一个字节的子区块索引（从0到15）。
+
+因此，这些键值应当为9、10、13或14字节长度。对于指定的区块而言，并非所有子区块都需要存在。
+
+{{cd|BlockEntity}}、{{cd|Entity}}和{{cd|PendingTicks}}记录代表了[[NBT]]变种中的串联根标签序列，它以短整数格式存储长度和多字节整数类型，而不是{{el|je}}或原始NBT规范使用的大端序<!-- big-endian -->格式。
+
+{{cd|Version}}中的零值用于记录旧世界格式，更高的值被无限世界类型使用。
+
+{| class="wikitable" style="text-align:center" data-description=""
+|+ 键值类型标签
+! colspan=3 | 标签字节
+! rowspan=2 | 名称
+! rowspan=2 | 描述
+|-
+! <abbr title="Decimal">Dec</abbr> !! <abbr title="Hexadecimal">Hex</abbr> !! ASCII
+|-
+|43||2B||<code>+</code>||Data3D||新版的三维[[生物群系]]和海拔[[高度]]
+|-
+|44||2C||<code>,</code>||Version|| 一个字节
+|-
+|45||2D||<code>-</code>||Data2D||[[生物群系]]和海拔[[高度]]
+|-
+|46||2E||<code>.</code>||Data2DLegacy||旧版[[生物群系]]和海拔[[高度]]
+|-
+|47||2F||<code>/</code>||SubChunkPrefix||16×16×16子区块的地形
+|-
+|48||30||<code>0</code>||LegacyTerrain||整个区块的地形
+|-
+|49||31||<code>1</code>||BlockEntity||[[方块实体]]数据（小端序NBT）
+|-
+|50||32||<code>2</code>||Entity||旧版[[实体]]数据（小端序NBT）
+|-
+|51||33||<code>3</code>||PendingTicks||计划刻数据（小端序NBT）
+|-
+|52||34||<code>4</code>||LegacyBlockExtraData||旧版方块额外数据
+|-
+|53||35||<code>5</code>||BiomeState||生物群系状态
+|-
+|54||36||<code>6</code>||FinalizedState||32位小端序整数
+|-
+|55||37||<code>7</code>||ConversionData||转换器提供的数据，用于运行时中的融合等操作
+|-
+|56||38||<code>8</code>||BorderBlocks||教育版独有
+|-
+|57||39||<code>9</code>||HardcodedSpawners||以二进制格式存储的结构生成的边界框
+|-
+|58||3A||<code>:</code>||RandomTicks||随机刻数据（小端序NBT）
+|-
+|59||3B||<code>;</code>||Checksums||其他区块记录的xxHash校验码
+|-
+|60||3C||<code><</code>||GenerationSeed||
+|-
+|61||3D||<code>=</code>||GeneratedPreCavesAndCliffsBlending||不再使用
+|-
+|62||3E||<code>></code>||BlendingBiomeHeight||不再使用
+|-
+|63||3F||<code>?</code>||MetaDataHash||
+|-
+|64||40||<code>@</code>||BlendingData||
+|-
+|65||41||<code>A</code>||ActorDigestVersion||1.18.30之后新版实体存储格式下的实体摘要版本
+|-
+|118||76||<code>v</code>||LegacyVersion||一个字节。1.16.100为44。
+|-
+|119||77||<code>w</code>||AabbVolumes||[[试炼密室]]相关内容。
+|}
+
+=== 其余键值 ===
+实体数据存在特殊键值{{cd|~local_player}}来储存本地玩家实体数据。如果这里存在实体数据，则它优先于存储在level.dat中的玩家数据。与{{cd|~local_player}}关联的数据值使用NBT格式在父级根目录里有且只有一个复合标签。
+
+同时存在一个用于远程控制玩家的特殊键值，它由两个部分组成。第一个部分是前缀{{cd|player_}}，第二部分是客户端ID，包含了远程遥控玩家的clientid.txt文件。例如，{{cd|player_-12345678}}是使用客户端ID为{{cd|-12345678}}的控制远程客户端的键值。与前缀{{cd|player_}}键值关联的值是一个NBT结构文件，并且在根级别只有一个复合标签。
+
+对于保存的结构，键值以{{code|structuretemplate_}}为前缀，结构的命名空间及名字附加在其后，例如{{code|structuretemplate_mystructure:aaa}}便是{{code|mystructure}}即默认命名空间下的{{code|aaa}}结构。
+
+此外，也有一个名为{{cd|game_flatworldlayers}}的长度为20的键值，被超平坦世界使用。与此键关联的值是一组ASCII文本格式的数字。与{{cd|game_flatworldlayers}}键关联的值的例子是{{cd|[7,3,3,2]}}，值长度为9。
+
+一些键值与村民有关：
+* VILLAGE_[0-9a-f\\-]+_DWELLERS
+** 主要由实体/生物ID组成。包括村民、铁傀儡和猫。
+* VILLAGE_[0-9a-f\\-]+_INFO
+** 包含了村庄边界。
+* VILLAGE_[0-9a-f\\-]+_POI
+** 包含了村民和工作站点之间的映射，以及村民在认领职业时的初始化事件{{code|InitEvent}}、与工作方块交互时的碰撞箱模式{{code|UseAABB}}和声音事件{{code|SoundEvent}}等等，声音事件默认为{{code|undefined}}。床位分配似乎没有被存储。
+* VILLAGE_[0-9a-f\\-]+_PLAYERS
+** 包含了村庄对于单个玩家的声望值，对应玩家ID和声望值S。
+
+=== 基岩版leveldb解析器示例 ===
+基岩版存档数据库解析器的例子可以在[https://github.com/mmccoo/minecraft_mmccoo/blob/master/parse_bedrock.cpp minecraft_mmccoo]找到。用于实现遍历所有方块、实体或生物、海拔和村庄相关项目的NBT文件。
+
+=== NBT结构 ===
+下列页面记录了方块实体和实体的NBT结构文档：
+* [[基岩版存档格式/实体格式]]
+* [[基岩版存档格式/实体格式/组件]]
+* [[基岩版存档格式/方块实体格式]]
+* [[基岩版存档格式/物品格式]]
+* [[基岩版存档格式/其他数据格式]]
+
+== level.dat ==
+level.dat为NBT格式。相比于其他NBT，level.dat在开头多出了两个4字节整数。第一个整数是基岩版存储工具版本，当前为10。第二个整数是level.dat的大小。
+
+=== NBT结构 ===
+<div class="treeview">
+* {{nbt|compound}}：存档格式根目录。
+** {{nbt|compound|abilities}}：玩家权限或能力。
+*** {{nbt|byte|attackmobs}}：玩家是否能攻击生物。
+*** {{nbt|byte|attackplayers}}：玩家是否能攻击其他玩家。
+*** {{nbt|byte|build}}：玩家是否能放置方块。
+*** {{nbt|byte|doorsandswitches}}：玩家是否能打开或关闭[[门]]、打开或关闭[[拉杆]]等方块。
+*** {{nbt|byte|flying}}：玩家是否处于飞行状态。
+*** {{nbt|byte|instabuild}}：玩家是否能瞬间破坏方块。
+*** {{nbt|byte|invulnerable}}：玩家是否无敌。
+*** {{nbt|byte|lightning}}：玩家是否能被闪电劈中。
+*** {{nbt|byte|mayfly}}：玩家是否能飞行。
+*** {{nbt|byte|mine}}：玩家是否能挖掘方块。
+*** {{nbt|byte|mute}}：玩家是否被禁言。
+*** {{nbt|byte|noclip}}：玩家是否拥有自由视角。
+*** {{nbt|byte|op}}：玩家是否拥有管理员权限。
+*** {{nbt|byte|opencontainers}}：玩家是否能打开容器（例如[[箱子]]）。
+*** {{nbt|byte|teleport}}：玩家是否能传送。
+*** {{nbt|float|flySpeed}}：玩家的飞行速度。
+*** {{nbt|float|walkSpeed}}：玩家的移动速度。
+*** {{nbt|float|verticalFlySpeed}}：玩家的垂直飞行速度。
+** {{nbt|list|lastOpenedWithVersion}}：最后一次打开的游戏版本。格式为{{cd|x.x.x.x.x}}，x为下列整数的值，例如[[基岩版26.0.25]]为{{cd|1.26.0.25.1}}。
+*** {{nbt|int|0}}：默认为1。
+*** {{nbt|int|1}}：主版本号。
+*** {{nbt|int|2}}：次版本号。
+*** {{nbt|int|3}}：修订版本序号。
+*** {{nbt|int|4}}：开发版本标识。
+** {{nbt|list|MinimumCompatibleClientVersion}}：最小可兼容的客户端版本。若游戏客户端版本低于此值，则不能打开目标存档。格式为{{cd|x.x.x.x.x}}，x为下列整数的值，例如[[基岩版26.0]]为{{cd|1.26.0.0.0}}。
+*** {{nbt|int|0}}：默认为1。
+*** {{nbt|int|1}}：主版本号。
+*** {{nbt|int|2}}：次版本号。
+*** {{nbt|int|3}}：修订版本序号。
+*** {{nbt|int|4}}：开发版本标识。
+** {{nbt|byte|allowdestructiveobjects}}：在教育版中是否允许破坏性物体（如[[TNT]]）出现。
+** {{nbt|byte|allowmobs}}：在教育版中是否允许生物生成。
+** {{nbt|byte|bonusChestEnabled}}：是否允许生成[[奖励箱]]。
+** {{nbt|byte|bonusChestSpawned}}：是否在出生点处生成奖励箱。
+** {{nbt|byte|CenterMapsToOrigin}}：玩家创建的地图是否总是以玩家为中心，0表示对齐[[区块]]。
+** {{nbt|byte|cheatsEnabled}}：是否启用过作弊。
+** {{nbt|byte|codebuilder}}：在教育版中是否开启Code Builder权限。
+** {{nbt|byte|commandblockoutput}}：是否展示命令方块输出信息。
+** {{nbt|byte|commandblocksenabled}}：是否允许使用[[命令方块]]。
+** {{nbt|byte|commandsEnabled}}：是否允许使用管理员权限的[[命令]]。
+** {{nbt|byte|ConfirmedPlatformLockedContent}}：是否已经确认平台锁定的内容。{{verify}}
+** {{nbt|byte|dodaylightcycle}}：是否启用昼夜更替。
+** {{nbt|byte|doentitiydrops}}：非生物实体是否有掉落物。
+** {{nbt|byte|dofiretick}}：火是否蔓延及自然熄灭。
+** {{nbt|byte|doimmediaterespawn}}：玩家死后是否瞬间重生。
+** {{nbt|byte|doinsomnia}}：[[幻翼]]是否生成。
+** {{nbt|byte|domobloot}}：生物是否携带战利品表生成。
+** {{nbt|byte|domobspawning}}：是否可以生成生物。不影响刷怪笼生成生物。
+** {{nbt|byte|dotiledrops}}：方块被破坏时是否掉落物品。
+** {{nbt|byte|doweathercycle}}：天气是否变化。
+** {{nbt|byte|drowningdamage}}：玩家是否承受窒息伤害。
+** {{nbt|byte|educationFeaturesEnabled}}：是否启用[[教育版]]特性。
+** {{nbt|byte|<s>experimentalgameplay</s>}}：是否启用[[实验性玩法]]特性。在[[基岩版1.16.100.55|1.16.100.55]]及之后版本中会被替换为{{nbt|compound|experiments}}。
+** {{nbt|compound|experiments}}：[[实验性玩法]]选项。
+*** {{nbt|byte|data_driven_biomes}}：自定义生物群系。
+*** {{nbt|byte|data_driven_vanilla_blocks_and_items}}：数据驱动原版方块和物品。
+*** {{nbt|byte|deferred_technical_preview}}：通过[[RenderDragon]]启用延迟渲染管线。
+*** {{nbt|byte|experimental_creator_cameras}}: 创建者照相机的实验性功能。
+*** {{nbt|byte|experiments_creator_cameras}}：是否启用与相机视角相关的实验性功能。
+*** {{nbt|byte|experiments_ever_used}}：存档是否使用过实验性功能。
+*** {{nbt|byte|gametest}}：{{cd|-beta}}版本的API模块。
+*** {{nbt|byte|jigsaw_structures}}: 数据驱动拼图结构。
+*** {{nbt|byte|locator_bar}}：是否启用多人游戏定位栏功能。
+*** {{nbt|byte|saved_with_toggled_experiments}}：是否使用了自定义的实验性功能储存的世界。{{verify}}
+*** {{nbt|byte|third_person_cameras}}：新的第三人称相机预设。
+*** {{nbt|byte|upcoming_creator_features}}：即将到来的创作者功能。
+*** {{nbt|byte|villager_trades_rebalance}}：对[[交易#交易选项（村民交易的平衡性调整）|交易]]做出平衡性调整。
+** {{nbt|byte|falldamage}}：是否受到坠落伤害。
+** {{nbt|byte|firedamage}}：是否受到火焰伤害。
+** {{nbt|byte|freezedamage}}：是否受到冰冻伤害。
+** {{nbt|byte|ForceGameType}}：强制使用的游戏模式。0为生存模式，1为创造模式，2为冒险模式。
+** {{nbt|byte|globalmute}}：在教育版中是否全体玩家禁言。
+** {{nbt|byte|hasBeenLoadedInCreative}}：是否已经在创造模式打开过存档。主要用于控制是否可以获得[[成就]]。
+** {{nbt|byte|hasLockedBehaviorPack}}：是否包含已经锁定的[[行为包]]。
+** {{nbt|byte|hasLockedResourcePack}}：是否包含已经锁定的[[资源包]]。
+** {{nbt|byte|HasUncompleteWorldFileOnDisk}}：磁盘内的存档文件是否有缺失。{{cn}}
+** {{nbt|byte|immutableWorld}}：是否开启无World Builder权限玩家不能放置或破坏方块的世界。
+** {{nbt|byte|isExportedFromEditor}}：存档是用[[基岩版编辑器]]保存。
+** {{nbt|byte|isFromLockedTemplate}}：存档是否为锁定的模板世界。
+** {{nbt|byte|isFromWorldTemplate}}：存档是否为世界模板。
+** {{nbt|byte|IsHardcore}}：存档是否为极限模式。
+** {{nbt|byte|isRandomSeedAllowed}}：是否允许使用随机种子以生成世界。{{cn}}
+** {{nbt|byte|isSingleUseWorld}}：教育版中是否为单学生游戏。
+** {{nbt|byte|isWorldTemplateOptionLocked}}：该模板世界是否解锁全部选项。
+** {{nbt|byte|keepinventory}}：玩家死后是否保留物品栏。
+** {{nbt|byte|LANBroadcast}}：是否允许开放局域网联机。
+** {{nbt|byte|LANBroadcastIntent}}：是否开启局域网联机。
+** {{nbt|byte|mobgriefing}}：生物是否能够进行破坏性行为。详见[[游戏规则]]。
+** {{nbt|byte|MultiplayerGame}}：是否允许进行多人联机游戏。
+** {{nbt|byte|MultiplayerGameIntent}}：是否开启局域网和Xbox多人游戏。
+** {{nbt|byte|naturalRegeneration}}：玩家是否能在饥饿值足够时自然恢复生命值（不影响外部治疗效果，如[[金苹果]]、[[生命恢复]]状态效果等）。
+** {{nbt|byte|projectilescanbreakblocks}}：[[弹射物]]能否破坏[[紫颂花]]、[[滴水石锥]]和[[饰纹陶罐]]。
+** {{nbt|byte|pvp}}：是否允许玩家互相攻击。
+** {{nbt|byte|recipesunlock}}：配方是否需要解锁。
+** {{nbt|byte|requiresCopiedPackRemovalCheck}}：是否需要去除复制过的资源包/行为包才能加载世界。{{verify}}
+** {{nbt|byte|respawnblocksexplode}}：重生方块是否爆炸。
+** {{nbt|byte|sendcommandfeedback}}：玩家执行命令的返回信息是否在聊天框中显示。
+** {{nbt|byte|showbordereffect}}：[[边界]]是否发出红色粒子。
+** {{nbt|byte|showcoordinates}}：是否在[[GUI]]左上角显示坐标。
+** {{nbt|byte|showdaysplayed}}：是否在[[GUI]]左上角显示游玩的游戏日。
+** {{nbt|byte|showdeathmessages}}：是否展示死亡消息。
+** {{nbt|byte|showrecipemessages}}：是否在解锁新配方时显示消息。
+** {{nbt|byte|showtags}}：是否展示物品的物品组件。
+** {{nbt|byte|spawnMobs}}：控制生物生成。
+** {{nbt|byte|SpawnV1Villagers}}：是否生成[[旧版村民]]。
+** {{nbt|byte|startWithMapEnabled}}：玩家是否携带[[地图]]首次生成。
+** {{nbt|byte|texturePacksRequired}}：是否需要携带特定纹理包生成。
+** {{nbt|byte|tntexplodes}}：[[TNT]]是否能够破坏地形。
+** {{nbt|byte|tntexplosiondropdecay}}：[[TNT]]爆炸炸毁的方块是否有概率不掉落。
+** {{nbt|byte|useMsaGamertagsOnly}}：是否在仅在游戏中使用玩家的Xbox代号。本地存档默认为0，[[Realms]]世界默认为1。
+** {{nbt|int|daylightCycle}}：控制昼夜更替的时间数值（单位：[[刻]]）。{{cn}}
+** {{nbt|int|Difficulty}}：世界难度。0为和平，1为简单，2为普通，3为困难。
+** {{nbt|int|editorWorldType}}：世界编辑器所使用的世界类型。{{cn}}
+** {{nbt|int|eduOffer}}：是否为[[教育版]]独有世界。设置为1时只能由教育版客户端打开。
+** {{nbt|int|functioncommandlimit}}：[[数据包]]的命令限制数量。
+** {{nbt|int|Dimension}}：玩家所在的维度。0为主世界，1为下界，2为末地。
+** {{nbt|int|GameType}}：玩家的游戏模式。0为生存模式，1为创造模式，2为冒险模式。
+** {{nbt|int|Generator}}：世界格式。0为旧世界，1为无限，2为[[超平坦]]。
+** {{nbt|int|lightningTime}}：下一次[[闪电]]出现前的剩余时间（刻）。
+** {{nbt|int|limitedWorldDepth}}：有限（旧）世界X轴方向的区块长度。
+** {{nbt|int|limitedWorldWidth}}：有限（旧）世界Y轴方向的区块长度。
+** {{nbt|int|LimitedWorldOriginX}}：有限（旧）世界生成开始的X坐标。
+** {{nbt|int|LimitedWorldOriginY}}：有限（旧）世界生成开始的Y坐标。
+** {{nbt|int|LimitedWorldOriginZ}}：有限（旧）世界生成开始的Z坐标。
+** {{nbt|int|maxcommandchainlength}}：[[连锁型命令方块]]执行命令的数量限制。默认值为65535。
+** {{nbt|int|NetherScale}}：下界与主世界的比例尺。默认值为8。
+** {{nbt|int|NetworkVersion}}：网络[[协议版本]]号。用于控制联机时其余玩家是否可以加入该世界。
+** {{nbt|int|permissionsLevel}}：世界主人的权限等级。
+** {{nbt|int|playerPermissionsLevel}}：其他玩家的权限等级。
+** {{nbt|int|playersleepingpercentage}}：跳过夜晚所需的入睡玩家所占百分比。设置为0时，1个玩家入睡即可跳过夜晚。设置为大于100的值会使玩家无法通过入睡跳过夜晚。
+** {{nbt|int|Platform}}：世界时使用何种平台保存的，值总为2。
+** {{nbt|int|PlatformBroadcastIntent}}：在平台间开放游戏。
+** {{nbt|int|rainTime}}：下一次进入下雨或下雪天气前的剩余时间（刻）。
+** {{nbt|int|randomtickspeed}}: 随机刻速度。默认值为1。
+** {{nbt|int|serverChunkTickRange}}：模拟距离。
+** {{nbt|int|spawnradius}}：玩家的重生半径。
+** {{nbt|int|SpawnX}}: 玩家出生点坐标X轴，默认值为0。
+** {{nbt|int|SpawnY}}：玩家出生点坐标Y轴，默认值为32767。
+** {{nbt|int|SpawnZ}}: 玩家出生点坐标Z轴，默认值为0。
+** {{nbt|int|StorageVersion}}：基岩版存储工具版本，目前为10。
+** {{nbt|int|WorldVersion}}：基岩版存档的版本，默认值为1。{{more info}}
+** {{nbt|int|XBLBroadcastIntent}}：允许什么用户进行Xbox联机。1为仅邀请，2为仅好友，3为好友的好友。
+** {{nbt|long|currentTick}}：当前的游戏[[刻]]。
+** {{nbt|long|LastPlayed}}：玩家在最后一次退出游戏时的Unix时间戳（秒）。
+** {{nbt|long|RandomSeed}}：世界的[[种子（世界生成）|种子号]]。
+** {{nbt|long|Time}}：以刻数形式储存的游戏内时间（游戏日）。1秒20刻，完成一次昼夜更替需要14400刻（12分钟，比标准情况下20分钟还要快）。0为早晨时间，7200为日落时间，8280为晚上时间，13320为日出时间，14400是下一次早晨的时间。level.dat内储存的数值会持续增加，且可以大于14400，但“游戏日”始终是{{cd|Time}}字段值整除14400的结果。
+** {{nbt|long|worldStartCount}}：自世界创建以来度过的时间计数。{{more info}}
+** {{nbt|float|lightningLevel}}：雷暴天气的强度。
+** {{nbt|float|rainLevel}}：下雨天气的强度。
+** {{nbt|string|baseGameVersion}}：世界模板使用的基础客户端版本。默认值为{{cd|*}}。
+** {{nbt|string|BiomeOverride}}：单一生物群系的名称。值无效或为空时会生成正常的世界。参见[[生物群系/ID/基岩版]]。
+** {{nbt|string|FlatWorldLayers}}：控制平坦世界生成的JSON。预设值：<syntaxhighlight lang="json">{"biome_id":1,"block_layers":[{"block_name":"minecraft:bedrock","count":1},{"block_name":"minecraft:dirt","count":2},{"block_name":"minecraft:grass_block","count":1}],"encoding_version":6,"structure_options":null,"world_version":"version.post_1_18"}</syntaxhighlight>
+** {{nbt|string|InventoryVersion}}：物品栏使用的游戏版本。若游戏客户端版本低于此值，则不能打开目标存档。例如在[[基岩版1.18.10.26]]中创建的世界为{{cd|1.18.10-beta26}}。
+** {{nbt|string|LevelName}}：存档的名称。
+** {{nbt|string|prid}}：世界模板的产品ID，由[[市场]]自动分配。{{verify}}
+** {{nbt|string|worldTemplateUUID}}：世界模板的UUID。
+** {{nbt|string|worldTemplateVersion}}：世界模板的版本号。
+** {{nbt|compound|world_policies}}：世界的使用政策。{{verify}}
+</div>
+
+== LOG ==
+LOG日志文件位于存档的/db路径里，并且是leveldb格式的一部分，用于在LDB压缩文件之间使用。类似于程序的日志文件：
+
+{{fc|blue|YYYY/MM/DD-Hour:Minute:Second.StepName "Info"}}
+
+示例：
+
+{{fc|blue|2014/07/24-22:20:08.400488 4a3638 Recovering log #3}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.2.0|level.dat现在是一个NBT格式文件。
+|player.dat被合并到level.dat里。
+|加入了entities.dat文件。}}
+|{{HistoryLine||0.3.2|Entities.dat现在用于储存[[方块实体]]数据。}}
+|{{HistoryLine||0.9.0|dev=build 1|加入了新的世界储存格式和基于LevelDB 1.17的Zlib压缩格式支持。旧世界在新版本打开后会自动转换。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|现在每个子区块会被分别储存在不同的leveldb键中。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.2.13|dev=?|子区块现在使用托管<!-- palleted -->。<ref>https://gist.github.com/Tomcc/a96af509e275b1af483b25c543cfbf37#the-new-subchunk-format</ref>}}
+}}
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox Bedrock Edition}}
+
+[[Category:开发]]
+
+[[de:Spielstand-Speicherung (Bedrock)]]
+[[en:Bedrock Edition level format]]
+[[es:Formato de nivel de Bedrock Edition]]
+[[ja:Levelフォーマット/Bedrock Edition]]
+[[nl:Bedrockeditie level format]]
+[[pt:Formato de nível da Edição Bedrock]]

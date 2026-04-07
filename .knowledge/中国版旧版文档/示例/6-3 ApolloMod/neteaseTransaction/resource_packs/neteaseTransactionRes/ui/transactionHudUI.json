@@ -1,0 +1,187 @@
+{
+    "main" : {
+        "controls": [
+            {
+                "tipsPanel@transactionHudUI.tipsPanel": {}
+            },
+            {
+                "confirmPanel@transactionHudUI.confirmPanel": {}
+            }
+        ],
+        "type": "panel"
+     },
+    "tipsPanel": {
+        "type": "image",
+        "anchor_to": "center",
+        "anchor_from": "center",
+        "size": [
+            "100%c + 24px",
+            "100%c + 8px"
+        ],
+        "offset": [
+            0,
+            -20
+        ],
+        "layer": 2,
+        "propagate_alpha": true,
+        "controls": [
+            {
+                "tipsText": {
+                    "type": "label",
+                    "layer": 1,
+                    "size":[ "default", 14 ],
+                    "offset": [ 0, 2 ],
+                    "text": "已发起面对面交易"
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_condition": "always_when_visible",
+                "binding_name": "#tipsAlpha",
+                "binding_name_override": "#alpha"
+            }
+        ],
+        "nineslice_size": 4,
+        "texture": "textures/ui/netease_transaction/tips_bg",
+        "visible": false
+    },
+    "confirmPanel": {
+        "type": "stack_panel",
+        "orientation": "horizontal",
+        "anchor_to": "top_middle",
+        "anchor_from": "top_middle",
+        "size": [ "default", 24 ],
+        "offset": [ 0, 36 ],
+        "visible": false,
+        "layer": 100,
+        "controls": [
+            {
+                "confirmInfo@transactionHudUI.confirmInfo": {}
+            },
+            {
+                "refuseBtn@transactionHudUI.refuseBtn": {}
+            },
+            {
+                "confirmBtn@transactionHudUI.confirmBtn": {}
+            }
+        ]
+    },
+    "confirmInfo": {
+        "type": "panel",
+        "size": [ "100%c", 24],
+        "controls": [
+            {
+                "confirmImg": {
+                    "type": "image",
+                    "nineslice_size": 6,
+                    "texture": "textures/ui/netease_transaction/confirm_bg",
+                    "size": [ "100%c + 14px", 24 ],
+                    "controls": [
+                        {
+                            "confirmLabel": {
+                                "anchor_to": "left_middle",
+                                "anchor_from": "left_middle",
+                                "size": [ "default", "default" ],
+                                "offset": [ 6, 0 ],
+                                "type": "label",
+                                "text": "名字最长是八个字向你发起面对面交易，是否同意？",
+                                "layer": 5
+                            }
+                        }
+                    ],
+                    "layer": 1
+                }
+            }
+        ]
+    },
+    "refuseBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$nineslice_size": 4,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$label_text": "拒绝",
+        "$label_offset": [ 8, 0 ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "img": {
+                    "anchor_to": "left_middle",
+                    "anchor_from": "left_middle",
+                    "layer": 2,
+                    "size": [ 14, 14 ],
+                    "offset": [ 4, 0 ],
+                    "texture": "textures/ui/netease_transaction/cancel_icon",
+                    "type": "image"
+                }
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "layer": 1,
+        "size": [ 46, "100%" ],
+        "type": "button",
+        "visible": true
+    },
+    "confirmBtn@common.button": {
+        "$default_texture": "textures/ui/netease_transaction/btn_default",
+        "$hover_texture": "textures/ui/netease_transaction/btn_hover",
+        "$pressed_texture": "textures/ui/netease_transaction/btn_click",
+        "$nineslice_size": 4,
+        "$default_text_color": [ 0.3255, 0.3255, 0.3255 ],
+        "$pressed_text_color": [ 1, 1, 1 ],
+        "$hover_text_color": [ 1, 1, 1 ],
+        "$pressed_button_name": "",
+        "$texture_layer": 1,
+        "$label_text": "同意",
+        "$label_offset": [ 8, 0 ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "controls": [
+            {
+                "default@transactionCommonUI.default": {}
+            },
+            {
+                "hover@transactionCommonUI.hover": {}
+            },
+            {
+                "pressed@transactionCommonUI.pressed": {}
+            },
+            {
+                "img": {
+                    "anchor_to": "left_middle",
+                    "anchor_from": "left_middle",
+                    "layer": 2,
+                    "size": [ 14, 14 ],
+                    "offset": [ 4, 0 ],
+                    "texture": "textures/ui/netease_transaction/confirm_icon",
+                    "type": "image"
+                }
+            }
+        ],
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "layer": 1,
+        "size": [ 46, "100%" ],
+        "type": "button",
+        "visible": true
+    },
+    "namespace": "transactionHudUI"
+}

@@ -1,0 +1,8 @@
+{
+    string "display_name" : opt
+    string "table" : opt
+    bool "new_screen" : opt
+    bool "persist_trades" : opt
+    bool "convert_trades_economy" : opt
+}
+

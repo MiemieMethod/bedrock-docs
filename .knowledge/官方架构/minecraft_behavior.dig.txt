@@ -1,0 +1,15 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "duration" : opt
+    float "idle_time" : opt
+    bool "allow_dig_when_named" : opt
+    bool "vibration_is_disturbance" : opt
+    bool "suspicion_is_disturbance" : opt
+    bool "digs_in_daylight" : opt
+     "on_start" : opt
+}
+

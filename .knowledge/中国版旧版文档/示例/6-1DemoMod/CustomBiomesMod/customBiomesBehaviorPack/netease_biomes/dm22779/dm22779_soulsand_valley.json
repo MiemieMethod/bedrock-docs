@@ -1,0 +1,13 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "dm22779_soulsand_valley",
+      "inherits": "soulsand_valley"
+    },
+    "components": {
+      "dm22779":{}
+
+    }
+  }
+}

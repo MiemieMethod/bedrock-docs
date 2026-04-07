@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "customrangedweapon_cross:bow",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "customrangedweapon:cross_bow",
+      "netease:frame_animation": {
+        "frame_count": 5,
+        "texture_name": "customrangedweapon:cross_bow_frame",
+        "animate_in_toolbar": true
+      }
+    }
+  }
+}

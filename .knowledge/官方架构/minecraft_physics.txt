@@ -1,0 +1,6 @@
+{
+    bool "has_gravity" : opt
+    bool "has_collision" : opt
+    bool "push_towards_closest_space" : opt
+}
+

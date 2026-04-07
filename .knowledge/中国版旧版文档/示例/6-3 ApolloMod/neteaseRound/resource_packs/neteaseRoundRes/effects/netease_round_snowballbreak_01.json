@@ -1,0 +1,97 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.2"
+    },
+    "colorfade": [
+      {
+        "color": "1.000000 1.000000 1.000000 0.535714",
+        "time": "0.0"
+      },
+      {
+        "color": "0.960784 0.960784 0.960784 0.901786",
+        "time": "0.0023447368421052627"
+      },
+      {
+        "color": "0.658824 0.658824 0.658824 0.526786",
+        "time": "0.027"
+      }
+    ],
+    "dampingforce": {
+      "value": "5.0"
+    },
+    "depthtest": {
+      "enable": "false"
+    },
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Outwards"
+    },
+    "emissionrate": {
+      "max": "300.0",
+      "min": "200.0"
+    },
+    "emitterscale": [
+
+    ],
+    "emittersize": {
+      "value": "1.0 1.0 0.5"
+    },
+    "emittertype": {
+      "value": "Hemisphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "inactivetime": {
+      "value": "0.2"
+    },
+    "numparticles": {
+      "value": "500"
+    },
+    "particlesize": {
+      "max": "0.5 0.5",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "180.0",
+      "min": "0.0"
+    },
+    "rotationspeed": {
+      "max": "540.0",
+      "min": "180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "2.0 2.0",
+        "time": "0.0"
+      },
+      {
+        "scale": "0.5699999999999998 0.5699999999999998",
+        "time": "0.3"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "2.0"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/yanwu02_xq01lsj"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.3",
+      "min": "0.2"
+    },
+    "velocity": {
+      "max": "11.0",
+      "min": "7.0"
+    }
+  }
+}

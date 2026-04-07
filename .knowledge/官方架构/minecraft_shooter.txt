@@ -1,0 +1,19 @@
+{
+    float "power" : opt
+    array "projectiles" : opt
+    {
+        object "<any array element>" : opt
+        {
+            string "def" : opt
+            int "aux_val" : opt
+             "filters" : opt
+            float "chance" : opt
+            bool "lose_target" : opt
+        }
+    }
+    string "def" : opt
+    int "aux_val|auxVal" : opt
+    string "sound" : opt
+    bool "magic" : opt
+}
+

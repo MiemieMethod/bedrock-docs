@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.squirrel": {
+			"arrays": {
+				"textures": {
+				  "Array.base": [
+					"Texture.red",
+					"Texture.gray"
+				  ]
+				},
+				"materials": {
+					"Array.skin": [
+					  "Material.red",
+					  "Material.gray"
+				  ]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [ { "*": "Array.skin[query.variant]" }],
+			"textures": ["Array.base[query.variant]"]
+		},
+		"controller.render.squirrel_more": {
+			"geometry": "Geometry.default",
+			"materials": [ { "*": "Material.red" } ],
+			"textures": [ "query.mod.is_enchanted ? Texture.gray : Texture.red" ]
+		},
+		"controller.render.squirrel_multi": {
+			"geometry": "Geometry.default",
+			 "materials": [
+				{ "*": "Material.gray" },
+				{ "head": "Material.red" }
+			 ],
+			 "textures": ["Texture.red"]
+		}
+	}
+}

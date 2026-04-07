@@ -1,0 +1,95 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.0"
+    },
+    "animlodbias": {
+      "value": "0.0"
+    },
+    "blend": {
+      "name": "blend"
+    },
+    "colorfade": [],
+    "constantforce": {
+      "value": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "0.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0"
+    },
+    "emissionrate": {
+      "max": "20.0",
+      "min": "10.0"
+    },
+    "emittersize": {
+      "value": "1.2 1.0 1.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "false"
+    },
+    "faceCameraMode": {
+      "value": "Rotate XYZ"
+    },
+    "fixedscreensize": {
+      "enable": "false"
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "material": {
+      "name": "materials/particles.material"
+    },
+    "numparticles": {
+      "value": "20"
+    },
+    "particlesize": {
+      "max": "0.45 0.45",
+      "min": "0.3 0.3"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "360.0",
+      "min": "0.0"
+    },
+    "rotationspeed": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "scaled": {
+      "enable": "true"
+    },
+    "sizedelta": {
+      "add": "0.0",
+      "mul": "1.0"
+    },
+    "sorted": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "20.0",
+        "name": "textures/particle/spell1_1_5_fire_chenghuang"
+      },
+      "name": "textures/particle/spell1_1_5_fire_chenghuang"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "3.0",
+      "min": "1.0"
+    }
+  }
+}

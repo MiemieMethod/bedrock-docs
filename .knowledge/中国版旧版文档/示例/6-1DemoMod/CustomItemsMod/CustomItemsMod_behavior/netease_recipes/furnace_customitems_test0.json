@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "minecraft:furnace_customitems_test0"
+		},
+
+		"tags": ["furnace"],
+		"input": "customitems:test1",
+		"output": "customitems:test0"
+	}
+
+}

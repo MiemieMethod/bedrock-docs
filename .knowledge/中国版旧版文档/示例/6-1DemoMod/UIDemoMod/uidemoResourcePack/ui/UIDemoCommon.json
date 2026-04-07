@@ -1,0 +1,72 @@
+{
+    "default": {
+        "$label_color": "$default_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$default_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@UIDemoCommon.button_label": {}
+            }
+        ]
+    },
+    "locked": {
+        "$label_color": "$locked_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$locked_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@UIDemoCommon.button_label": {}
+            }
+        ]
+    },
+    "pressed": {
+        "$label_color": "$pressed_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$pressed_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@UIDemoCommon.button_label": {}
+            }
+        ]
+    },
+    "hover": {
+        "$label_color": "$hover_text_color",
+        "$nineslice_size|default": 0,
+        "nineslice_size": "$nineslice_size",
+        "layer": "$texture_layer",
+        "texture": "$hover_texture",
+        "type": "image",
+        "controls": [
+            {
+                "label@UIDemoCommon.button_label": {}
+            }
+        ]
+    },
+    "button_label": {
+        "$label_color|default": [ 1, 1, 1 ],
+        "$label_layer|default": 1,
+        "$label_font_size|default": "normal",
+        "$label_offset|default": [ 0, 0 ],
+        "$label_text|default": "",
+        "color": "$label_color",
+        "font_size": "$label_font_size",
+        "font_type": "smooth",
+        "layer": "$label_layer",
+        "max_size": [ "100%", "100%" ],
+        "offset": "$label_offset",
+        "shadow": false,
+        "text": "$label_text",
+        "text_alignment": "center",
+        "type": "label"
+    },
+    "namespace": "UIDemoCommon"
+}

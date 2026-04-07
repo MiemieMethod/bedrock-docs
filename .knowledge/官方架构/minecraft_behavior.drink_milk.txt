@@ -1,0 +1,10 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "cooldown_seconds" : opt
+     "filters" : opt
+}
+

@@ -1,0 +1,13 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "duration" : opt
+    string "celebration_sound" : opt
+    float_range "sound_interval" : opt
+    float_range "jump_interval" : opt
+     "on_celebration_end_event" : opt
+}
+

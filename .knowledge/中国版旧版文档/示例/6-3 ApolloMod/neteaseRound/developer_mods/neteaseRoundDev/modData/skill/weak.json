@@ -1,0 +1,22 @@
+{
+    "identifier": "neteaseRound:weak",
+    "showName": "虚弱",
+    "icon": "textures/ui/netease_round/skill_06", 
+    "iconDisable": "textures/ui/netease_round/skill_06_unuse", 
+    "desc": "对指定敌人造成250%*攻击力伤害，并使其攻击力降低15点，持续2回合。",
+    "perform": "neteaseRound:skill:weak",
+    "costEnergy": 3,
+    "_comment": "技能的目标类型：0（仅自己）、1（可选1个友方对象）、2（可选1个敌方对象）、3（随机n个友方对象）、4（随机n个敌方对象）",
+    "targetType": 2,
+    "damageList": [
+        {"multi":2.5, "extra":0}
+    ],
+    "effectList": [
+        {
+            "_comment": "持续效果的唯一ID",
+            "identifier":"neteaseRound:weak",
+            "_comment": "命中判定的形式，0（必定命中）、1（需要判定命中，技能命中 = 效果命中*命中系数multi + 命中系数extra）",
+            "hitStyle": 0
+        }
+    ]
+}

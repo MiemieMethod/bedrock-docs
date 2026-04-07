@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "",
+        "name": "gameMod",
+        "uuid": "ddebdc93-4310-4a6c-b25f-f1c0ce60976d",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "data",
+            "uuid": "38c7912d-f3ac-4f8f-9415-792415250e27",
+            "version": [0, 0, 1]
+        }
+    ]
+}

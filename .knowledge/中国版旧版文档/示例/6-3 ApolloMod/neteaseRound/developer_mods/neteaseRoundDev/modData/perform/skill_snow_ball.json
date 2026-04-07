@@ -1,0 +1,161 @@
+{
+    "identifier": "neteaseRound:skill:snowBall",
+    "actionData": {
+        "attack": {
+            "condition": [],
+            "type": "playAni",
+            "costTime": 1.0,
+            "actor": "actor", 
+            "animate": "skill1"
+        },
+        "createMissile": {
+            "condition": [
+                {"type":"finAction", "param":"attack"}
+            ],
+            "_comment": "演出效果的类型，【createModel】表示创建一个新模型，对应roundPerformAction.RoundActionCreateModel类",
+            "type": "createModel",
+            "_comment": "演出效果持续时间，当前演出效果的最短持续时间为0.1秒",
+            "costTime": 0.1,
+            "_comment": "需要创建的模型的名字，这里使用【v_unvisible_bind】是要创建一个不可见的模型，实际显示的效果是绑定在模型上面的特效",
+            "modelName": "v_unvisible_bind",
+            "_comment": "播放的模型动画名称，具体动画名字通过模型的名字和动画名称定位，见【neteaseRoundScript.battleClient.roundViewConst.ModelAnimateToName】",
+            "animate": "stand",
+            "_comment": "模型的缩放比例",
+            "scale": [1.0, 1.0, 1.0],
+            "_comment": "模型的出现坐标点",
+            "pos": ["fixPoint", "standActor", [0.0, 1.0, 0.0]],
+            "_comment": "最终成功创建的对象的缓存的key，可以用这个key来指代这个action创建的模型对象",
+            "saveName": "missile"
+        },
+        "createMissileEffect": {
+            "_comment": "演出效果启动的前提条件，列表中全部条件满足即可启动演出效果",
+            "condition": [
+                {"type":"finAction", "param":"createMissile"}
+            ],
+            "_comment": "演出效果的类型，【createBindEffect】表示在模型上循环播放绑定特效，演出效果终结时，也不销毁对应特效，而是缓存起来，对应roundPerformAction.RoundActionCreateBindEffect类",
+            "type": "createBindEffect",
+            "_comment": "演出效果持续时间，因为演出终结时不会销毁特效，而是缓存起来，所以只需要持续最短的时间间隔0.1秒",
+            "costTime": 0.1,
+            "_comment": "特效需要绑定的对象，这里的目标对象就是上一步的演出效果中，临时创建的模型【missile】",
+            "bind": "missile",
+            "_comment": "需要绑定的特效的列表",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_snowball_01.json",
+                    "style": "sfx",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowball_02.json",
+                    "style": "particle",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowball_04.json",
+                    "style": "particle",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_yanwu_03.json",
+                    "style": "sfx",
+                    "pos": [0, 2.0, 0],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                }
+            ],
+            "_comment": "最终成功创建的对象的缓存的key，可以用这个key来指代这个action创建的全部特效对象（视为一个整体）",
+            "saveName": "missileEffect"
+        },
+        "missileFly": {
+            "condition": [
+                {"type":"finAction", "param":"createMissileEffect"}
+            ],
+            "type": "move",
+            "costTime": 1.0,
+            "actor": "missile",
+            "startPos": ["fixPoint", "standNow", [0.0, 0.0, 0.0]],
+            "endPos": ["fixPoint", "standTarget", [0.0, 0.0, 0.0]]
+        },
+        "destroyMissileEffect": {
+            "condition": [
+                {"type":"finAction", "param":"missileFly"}
+            ],
+            "_comment": "演出效果的类型，【destroyBindEffect】表示销毁之前创建并缓存的特效对象，对应roundPerformAction.RoundActionDestroyBindEffect类",
+            "type": "destroyBindEffect",
+            "_comment": "演出效果持续时间，当前演出效果的最短持续时间为0.1秒",
+            "costTime": 0.1,
+            "_comment": "需要销毁的特效对象名字",
+            "actor": "missileEffect"
+        },
+        "missleDie": {
+            "condition": [
+                {"type":"finAction", "param":"destroyMissileEffect"}
+            ],
+            "_comment": "演出效果的类型，【destroyModel】表示销毁之前创建并缓存的模型对象，对应roundPerformAction.RoundActionDestroyModel类",
+            "type": "destroyModel",
+            "_comment": "演出效果持续时间，当前演出效果的最短持续时间为0.1秒",
+            "costTime": 0.1,
+            "_comment": "需要销毁的模型对象名字",
+            "actor": "missile"
+        },
+        "snowEffect": {
+            "condition": [
+                {"type":"finAction", "param":"missleDie"}
+            ],
+            "type": "playBindEffect",
+            "costTime": 1.0,
+            "bind": "target",
+            "effectList": [
+                {
+                    "path": "effects/netease_round_snowballbreak_01.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.70],
+                    "rot": [0, 180, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowball_xiantiaolz.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 1.02],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowballbreak_03.json",
+                    "style": "particle",
+                    "pos": [0, 0.0, 0.84],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowballbreak_02.json",
+                    "style": "sfx",
+                    "pos": [0, 0.0, 0.80],
+                    "rot": [-90, 90, -180],
+                    "bone": "root"
+                },
+                {
+                    "path": "effects/netease_round_snowbreak_guangyun2.json",
+                    "style": "particle",
+                    "pos": [0.39, 0.00, 0.97],
+                    "rot": [0, 0, 0],
+                    "bone": "root"
+                }
+            ]
+        },
+        "applySkillResult": {
+            "condition": [
+                {"type":"finAction", "param":"missleDie"}
+            ],
+            "type": "applySkillResult",
+            "costTime": 0.3,
+            "index": null
+        }
+    }
+}

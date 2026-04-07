@@ -1,0 +1,75 @@
+{
+    bool "requireTame|require_tame" : opt
+    bool "blend_attributes" : opt
+    array "parent_centric_attribute_blending" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "extraBabyChance|extra_baby_chance" : opt
+    float "breedCooldown|breed_cooldown" : opt
+    bool "inheritTamed|inherit_tamed" : opt
+    bool "allowSitting|allow_sitting" : opt
+    object "mutation_factor" : opt
+    {
+        float "variant" : opt
+        float "extra_variant" : opt
+        float "color" : opt
+    }
+    string "mutation_strategy" : opt
+     "random_variant_mutation_interval" : opt
+     "random_extra_variant_mutation_interval" : opt
+    object "deny_parents_variant" : opt
+    {
+        float "chance" : opt
+        int "min_variant" : opt
+        int "max_variant" : opt
+    }
+     "breedItems|breed_items" : opt
+    array "breedItems|breed_items" : opt
+    {
+         "<any array element>" : opt
+    }
+    object "environment_requirements" : opt
+    {
+         "blocks" : opt
+        array "blocks" : opt
+        {
+             "<any array element>" : opt
+        }
+        int "count" : opt
+        int "radius" : opt
+    }
+    array "environment_requirements" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "blocks" : opt
+            array "blocks" : opt
+            {
+                 "<any array element>" : opt
+            }
+            int "count" : opt
+            int "radius" : opt
+        }
+    }
+    object "breedsWith|breeds_with" : opt
+    {
+         "mateType|mate_type" : opt
+         "babyType|baby_type" : opt
+         "breed_event" : opt
+    }
+    array "breedsWith|breeds_with" : opt
+    {
+        object "<any array element>" : opt
+        {
+             "mateType|mate_type" : opt
+             "babyType|baby_type" : opt
+             "breed_event" : opt
+        }
+    }
+    bool "causes_pregnancy" : opt
+     "love_filters" : opt
+    bool "require_full_health" : opt
+     "transform_to_item" : opt
+}
+

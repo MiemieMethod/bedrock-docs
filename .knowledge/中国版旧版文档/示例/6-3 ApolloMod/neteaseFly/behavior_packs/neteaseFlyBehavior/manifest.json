@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease lioneldy",
+        "name": "fly",
+        "uuid": "dde1127b-3c3e-4dd4-a68d-7468527f7ac7",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease lioneldy",
+            "type": "data",
+            "uuid": "b5170a8f-8699-40de-85b0-f410a5f28cb0",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "radius_change" : opt
+    float "radius_adjustment_chance" : opt
+    float "height_adjustment_chance" : opt
+    float "goal_radius" : opt
+    float "speed_multiplier" : opt
+    float "angle_change" : opt
+    float_range "radius_range" : opt
+    float_range "height_offset_range" : opt
+    float_range "height_above_target_range" : opt
+}
+

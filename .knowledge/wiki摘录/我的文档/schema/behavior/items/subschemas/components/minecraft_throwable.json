@@ -1,0 +1,78 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "default_offset_scale",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "do_swing_animation",
+        "type": {
+          "name": "boolean"
+        }
+      },
+      {
+        "name": "inside_block_offset_scale",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "launch_power_scale",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "max_draw_duration",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "max_launch_power",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "min_draw_duration",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "scale_power_by_draw_duration",
+        "type": {
+          "name": "boolean"
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.10",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+    float "probability" : opt
+    string "trust_items" : opt
+    array "trust_items" : opt
+    {
+        string "<any array element>" : opt
+    }
+     "trust_event" : opt
+}
+

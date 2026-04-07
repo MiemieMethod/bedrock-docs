@@ -1,0 +1,90 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "1.000000 1.000000 1.000000 1.000000",
+        "time": "0.0"
+      },
+      {
+        "color": "0.564706 0.564706 0.564706 0.294643",
+        "time": "0.046655999999999996"
+      }
+    ],
+    "dampingforce": {
+      "value": "0.5"
+    },
+    "depthtest": {
+      "enable": "true"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "5.0",
+      "min": "5.0"
+    },
+    "emitterscale": [
+
+    ],
+    "emittersize": {
+      "value": "0.8 0.8 0.7"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "numparticles": {
+      "value": "50"
+    },
+    "particlesize": {
+      "max": "0.07 0.07",
+      "min": "0.04 0.04"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "180.0",
+      "min": "0.0"
+    },
+    "rotationspeed": {
+      "max": "360.0",
+      "min": "0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.2000000000000002 1.2000000000000002",
+        "time": "0.0"
+      },
+      {
+        "scale": "1.1099999999999999 1.1099999999999999",
+        "time": "0.9"
+      },
+      {
+        "scale": "0.45000000000000007 0.45000000000000007",
+        "time": "2.0"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/m_mc_star09"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.6",
+      "min": "0.4"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.5"
+    }
+  }
+}

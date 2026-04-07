@@ -1,0 +1,9 @@
+{
+    object "default_values" : opt
+    object "conditional_values" : opt
+    array "conditional_values" : opt
+    {
+        object "<any array element>" : opt
+    }
+}
+

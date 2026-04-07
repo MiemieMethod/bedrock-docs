@@ -1,0 +1,15 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "magic_damage" : opt
+    int "hard_mode_extra_magic_damage" : opt
+    int "elder_extra_magic_damage" : opt
+    float "sound_delay_time" : opt
+    float "x_max_rotation" : opt
+    float "y_max_head_rotation" : opt
+    float "min_distance" : opt
+}
+

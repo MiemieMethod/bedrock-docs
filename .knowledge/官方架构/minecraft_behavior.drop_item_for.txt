@@ -1,0 +1,25 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "seconds_before_pickup" : opt
+    float "cooldown" : opt
+    float "drop_item_chance" : opt
+    float "offering_distance" : opt
+    float "minimum_teleport_distance" : opt
+    float "max_head_look_at_height" : opt
+    string "loot_table" : opt
+     "on_drop_attempt" : opt
+    float_range "time_of_day_range" : opt
+    vec3 "target_range" : opt
+    vec3 "teleport_offset" : opt
+    entity_types "entity_types" : opt
+    int "search_count" : opt
+    int "search_height" : opt
+    int "search_range" : opt
+    float "goal_radius" : opt
+    float "speed_multiplier" : opt
+}
+

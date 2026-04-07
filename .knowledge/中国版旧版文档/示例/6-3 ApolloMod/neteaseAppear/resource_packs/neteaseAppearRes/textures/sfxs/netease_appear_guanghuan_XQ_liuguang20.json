@@ -1,0 +1,268 @@
+{
+  "frames": [
+    {
+      "filename": "\u5408\u6210 5_0000.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 968,
+        "y": 646
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0001.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 968,
+        "y": 324
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0002.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 646,
+        "y": 646
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0003.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 646,
+        "y": 324
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0004.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 968,
+        "y": 2
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0005.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 646,
+        "y": 2
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0006.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 324,
+        "y": 646
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0007.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 324,
+        "y": 324
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0008.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 324,
+        "y": 2
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0009.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 2,
+        "y": 646
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0010.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 2,
+        "y": 324
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "filename": "\u5408\u6210 5_0011.png",
+      "frame": {
+        "h": 320,
+        "w": 320,
+        "x": 2,
+        "y": 2
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 320,
+        "w": 320
+      },
+      "spriteSourceSize": {
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "format": "RGBA8888",
+    "image": "XQ_liuguang20.png",
+    "scale": "1",
+    "size": {
+      "h": 968,
+      "w": 1290
+    },
+    "smartupdate": "$TexturePacker:SmartUpdate:5d6314d329c186599044801d65d69aeb$",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseResidence",
+
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.13",
+
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.22.0.release20210513",
+
+  "_comment": "插件不支持的引擎版本",
+  "unsupport_app_version":["1.18.0.beta20200610"],
+
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["game"],
+
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+
+  "_comment": "所属插件组合的名字",
+  "group": "neteaseResidence",
+
+  "_comment": "领地相关的配置字典，【服务器类型】作为一级的key，部署在不同服务器的领地插件，会优先读取【服务器类型】下的配置信息作为当前服务器的配置",
+  "_comment": "当对应的【服务器类型】的配置项不存在时，会读取【default】下的对应配置项，作为当前服务器的配置",
+  "typeDefineConfig": {
+    "default": {
+      "_comment": "可对方块使用物品列表，限制哪些物品可以放在方块上，仅仅限制非领地所有者对领地内部地块使用物品",
+      "place_on_block_items_limit": ["minecraft:planks:0", "minecraft:planks:1"],
+      "_comment": "玩家可破坏方块列表，限制哪些方块可以被破坏，仅仅限制非领地所有者对领地内部地块的破坏",
+      "can_destroy_block_limit": ["minecraft:planks:0", "minecraft:planks:1"],
+      "_comment": "不可交互方块列表, 由于性能限制，只有特殊注册过的方块，才会从脚本层接收到交互行为的回调，所以需要配置【不可交互的方块】，无法通过配置【可交互方块】实现禁用的功能，由于领地权限可以分开设置，所以必须在此配置全部的需要关注的方块",
+      "cannot_interact_block_list": ["minecraft:chest:*", "minecraft:wooden_door:*"],
+      "_comment": "领地外的爆炸是否可破坏方块，源头来自非领地所有者的爆炸（包括生物），无法影响领地",
+      "can_block_be_exploded": false,
+      "_comment": "是否可影响物理方块，主要影响玩家脚踩压力板、踩红石矿、踩拌线钩三种行为。如果配置为否，非领地所有者这三种行为不会生效",
+      "can_block_be_stepon": false,
+      "_comment": "非领地所有者（包括非玩家的生物）是否可使方块变化，包括踩踏耕地、破门而入、捡起方块、破坏方块等",
+      "can_block_be_mobgriefing": false,
+      "_comment": "是否可攻击玩家",
+      "can_attack_player": false,
+      "_comment": "是否可攻击生物，不包含玩家。用于控制玩家是否能够对领地内的生物（如圈养的牛羊等等）造成伤害，包括直接伤害、抛射物伤害、爆炸伤害。",
+      "can_attack_mob": false,
+      "_comment": "投掷物是否在领地内生效，用于防止玩家在领地外投掷喷溅药水/鸡蛋/弓箭/三叉戟等到领地内，影响领地内的生物",
+      "can_projectile_take_effect": false,
+      "_comment": "可交互实体列表",
+      "can_interact_entity_list": ["minecraft:sheep", "minecraft:horse"],
+      "_comment": "是否可骑乘坐骑, 假如被骑乘的坐骑不在可交互实体列表中，那么就算开放了骑乘功能，也是无法骑乘的",
+      "can_ride": false,
+      "_comment": "流体是否可流入领地",
+      "can_flow_into": false,
+      "_comment": "是否可进入领地",
+      "can_other_player_enter": false,
+      "_comment": "是否可传送进入领地",
+      "can_other_player_teleport": false,
+      "_comment": "龙蛋是否可传入领地",
+      "can_dragon_egg_teleport_into": false,
+      "_comment": "活塞是否可影响领地内方块",
+      "can_piston_effect_into": false,
+      "_comment": "领地大小限制，包括每个层级的领地的大小",
+      "size_limit": {
+        "lv0": {"x":[16, 32], "y":[10, 32], "z":[16, 32]},
+        "lv1": {"x":[8, 16], "y":[8, 16], "z":[8, 16]},
+        "lv2": {"x":[4, 8], "y":[4, 8], "z":[4, 8]}
+      },
+      "_comment": "最大领地深度，如果为0，则相当于不能设置子领地",
+      "sub_lv_limit": 2,
+      "_comment": "最大子领地数量，每个层级0的领地内可拥有的子领地数量上限（包括所有层级的子领地）",
+      "sub_num_limit": 10,
+      "_comment": "玩家可拥有的层级为0的领地数量上限",
+      "lv0_residence_num_limit": 100,
+      "_comment": "领地区域是否支持配置Y坐标",
+      "residence_support_y_axis": false,
+      "_comment": "假如不支持配置Y坐标时，默认的领地Y坐标上下限",
+      "residence_y_size": [-64, 64],
+      "_comment": "圈地道具",
+      "residence_baton":"minecraft:diamond_sword",
+      "_comment": "领地区域特效显示距离",
+      "residence_view_range": 64,
+      "_comment": "新建领地和转移领地坐标操作消耗对应的经济插件中配置的商店类型，唯一字符串ID",
+      "_comment": "需要在经济插件中配置对应的商店，以及固定名称【RESIDENCE_OPEN和RESIDENCE_CHANGE】的商品",
+      "grocery_id": "RESIDENCE",
+      "_comment": "商店消耗的金币数量，这里的配置仅用于客户端UI界面的显示和预检查，需要和经济插件中对应的商品【RESIDENCE_OPEN和RESIDENCE_CHANGE】配置一致",
+      "goods_id_to_price": {
+        "RESIDENCE_OPEN": 0,
+        "RESIDENCE_CHANGE": 0
+      }
+    },
+    "gameA": {
+      "place_on_block_items_limit":[],
+      "grocery_id": "RESIDENCE_A",
+      "goods_id_to_price": {
+        "RESIDENCE_OPEN": 10,
+        "RESIDENCE_CHANGE": 10
+      }
+    },
+    "gameB": {
+      "can_destroy_block_limit":[],
+      "grocery_id": "RESIDENCE_B",
+      "goods_id_to_price": {
+        "RESIDENCE_OPEN": 100,
+        "RESIDENCE_CHANGE": 100
+      }
+    }
+  }
+}

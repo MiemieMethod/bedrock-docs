@@ -1,0 +1,5 @@
+{
+    float_range "attack_cooldown_time" : opt // Amount of time in seconds for the cooldown. Can be specified as a number or a pair of numbers (min and max).
+     "attack_cooldown_complete_event" : opt // Event to be runned when the cooldown is complete.
+}
+

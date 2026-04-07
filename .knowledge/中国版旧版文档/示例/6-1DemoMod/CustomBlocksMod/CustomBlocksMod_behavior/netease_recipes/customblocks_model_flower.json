@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "customblocks:customblocks_model_flower"
+		},
+
+		"tags": ["crafting_table"],
+		"pattern": [
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "customblocks:customblocks_test0"
+			},
+			"X": {
+				"item": "minecraft:dirt"
+			}
+		},
+		"result": {
+			"item": "customblocks:customblocks_model_flower"
+		}
+	}
+}

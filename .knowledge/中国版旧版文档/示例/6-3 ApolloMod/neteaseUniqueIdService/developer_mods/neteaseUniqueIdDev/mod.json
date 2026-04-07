@@ -1,0 +1,21 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseUniqueIdService",
+   "_comment": "插件版本",
+  "netgame_mod_version": "1.0.0",
+   "_comment": "最低引擎版本",
+  "min_app_version": "1.15.0.release20191226",
+   "_comment": "插件实现的功能",
+  "description": "生成可自定义分组，整组服务器、全运行周期唯一的ID",
+   "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": ["service"],
+   "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+   "_comment": "所属插件组合的名字，公告插件由Master插件，Service插件，lobby/game插件组合而成",
+  "group": "neteaseUniqueId",
+
+  "_comment": "是否使用Mysql数据库支持存储逻辑，1代表使用mysql数据库，0代表使用Mongo数据库",
+  "TryUseMysqlFirst": 1,
+  "_comment": "每个关键字单次从数据库申请ID会占用多少个",
+  "DefaultPlusSize": 100
+}

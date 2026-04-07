@@ -1,0 +1,18 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    float "success_rate" : opt
+    float "chance_to_stop" : opt
+    float "state_check_interval" : opt
+    float "catch_up_threshold" : opt
+    float "match_direction_threshold" : opt
+    float "catch_up_multiplier" : opt
+    float "speed_multiplier" : opt
+    float "search_range" : opt
+    float "stop_distance" : opt
+    entity_types "entity_types" : opt
+}
+

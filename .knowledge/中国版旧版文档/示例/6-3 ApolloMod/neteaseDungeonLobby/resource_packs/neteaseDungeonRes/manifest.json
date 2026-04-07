@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "netease dungeon",
+        "name": "neteaseDungeonRes",
+        "uuid": "fb565903-14ef-42cc-9c3c-b794ddcc0721",
+        "version": [0, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "fddf5ab6-8e18-408c-8db8-f85236ea5cc9",
+            "version": [0, 0, 1]
+        }
+    ]
+}

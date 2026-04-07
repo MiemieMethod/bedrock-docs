@@ -1,0 +1,277 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "can_always_eat",
+        "type": {
+          "name": "boolean"
+        }
+      },
+      {
+        "name": "nutrition",
+        "type": {
+          "name": "integer"
+        }
+      },
+      {
+        "name": "saturation_modifier",
+        "type": {
+          "name": "variant",
+          "variant_types": [
+            {
+              "name": "number",
+              "minimum": 0.0,
+              "version": [
+                {
+                  "min": "1.10.0",
+                  "max": "1.16.100",
+                  "min_exclusivity": false,
+                  "max_exclusivity": true
+                },
+                {
+                  "min": "1.16.100",
+                  "max": "1.17.0",
+                  "min_exclusivity": true,
+                  "max_exclusivity": true
+                },
+                {
+                  "min": "1.18.0",
+                  "max": "*",
+                  "min_exclusivity": false,
+                  "max_exclusivity": true
+                }
+              ]
+            },
+            {
+              "name": "enum",
+              "enum_values": [
+                "poor",
+                "low",
+                "normal",
+                "good",
+                "max",
+                "supernatural",
+                "high"
+              ],
+              "version": [
+                {
+                  "min": "1.10.0",
+                  "max": "1.18.0",
+                  "min_exclusivity": false,
+                  "max_exclusivity": true
+                }
+              ]
+            }
+          ],
+          "common_type": {}
+        }
+      },
+      {
+        "name": "using_converts_to",
+        "type": {
+          "name": "reference",
+          "reference": "../../../../common/definition/item/item_descriptor.json"
+        }
+      },
+      {
+        "name": "on_use_action",
+        "type": {
+          "name": "enum",
+          "enum_values": [
+            "chorus_teleport",
+            "suspicious_stew_effect"
+          ],
+          "version": [
+            {
+              "min": "1.10.0",
+              "max": "1.16.100",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            },
+            {
+              "min": "1.16.100",
+              "max": "1.17.0",
+              "min_exclusivity": true,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "on_use_range",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "number"
+          },
+          "version": [
+            {
+              "min": "1.10.0",
+              "max": "1.16.100",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            },
+            {
+              "min": "1.16.100",
+              "max": "1.17.0",
+              "min_exclusivity": true,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "cooldown_type",
+        "type": {
+          "name": "string",
+          "version": [
+            {
+              "min": "1.10.0",
+              "max": "1.16.100",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            },
+            {
+              "min": "1.16.100",
+              "max": "1.17.0",
+              "min_exclusivity": true,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "cooldown_time",
+        "type": {
+          "name": "integer",
+          "version": [
+            {
+              "min": "1.10.0",
+              "max": "1.16.100",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            },
+            {
+              "min": "1.16.100",
+              "max": "1.17.0",
+              "min_exclusivity": true,
+              "max_exclusivity": true
+            }
+          ]
+        },
+        "details": {
+          "default_value": 0
+        }
+      },
+      {
+        "name": "effects",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "object",
+            "properties": [
+              {
+                "name": "name",
+                "type": {
+                  "name": "string"
+                }
+              },
+              {
+                "name": "duration",
+                "type": {
+                  "name": "integer"
+                },
+                "details": {
+                  "default_value": 1
+                }
+              },
+              {
+                "name": "amplifier",
+                "type": {
+                  "name": "integer"
+                },
+                "details": {
+                  "default_value": 1
+                }
+              },
+              {
+                "name": "chance",
+                "type": {
+                  "name": "number"
+                },
+                "details": {
+                  "default_value": 1.0
+                }
+              }
+            ]
+          },
+          "version": [
+            {
+              "min": "1.10.0",
+              "max": "1.16.100",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            },
+            {
+              "min": "1.16.100",
+              "max": "1.17.0",
+              "min_exclusivity": true,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "remove_effects",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "string"
+          },
+          "version": [
+            {
+              "min": "1.10.0",
+              "max": "1.16.100",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            },
+            {
+              "min": "1.16.100",
+              "max": "1.17.0",
+              "min_exclusivity": true,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "on_consume",
+        "type": {
+          "name": "reference",
+          "reference": "../../../../common/definition/definition_trigger.json",
+          "version": [
+            {
+              "value": "1.16.100"
+            },
+            {
+              "min": "1.17.0",
+              "max": "1.20.30",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            }
+          ],
+          "deprecated": [
+            {
+              "min": "1.20.30",
+              "max": "*",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

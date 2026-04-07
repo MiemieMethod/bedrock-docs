@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "3744581296",
+    "x-format-version": "1.21.100",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "minecraft:camera_orbit",
+    "type": "object",
+    "properties": {
+        "azimuth_smoothing_spring": {
+            "type": "number",
+            "default": 4.0,
+            "minimum": 0.0
+        },
+        "distance_smoothing_spring": {
+            "type": "number",
+            "default": 4.0,
+            "minimum": 0.0
+        },
+        "invert_x_input": {
+            "type": "boolean",
+            "default": false
+        },
+        "invert_y_input": {
+            "type": "boolean",
+            "default": false
+        },
+        "polar_angle_max": {
+            "type": "number",
+            "default": 65.0,
+            "minimum": 0.0,
+            "maximum": 180.0
+        },
+        "polar_angle_min": {
+            "type": "number",
+            "default": 4.999999523162842,
+            "minimum": 0.0,
+            "maximum": 180.0
+        },
+        "polar_angle_smoothing_spring": {
+            "type": "number",
+            "default": 4.0,
+            "minimum": 0.0
+        },
+        "radius": {
+            "type": "number",
+            "default": 1.0,
+            "minimum": 0.10000000149011612,
+            "maximum": 64.0
+        },
+        "yaw_angle_max": {
+            "type": "number",
+            "default": 180.0,
+            "minimum": -180.0,
+            "maximum": 180.0
+        },
+        "yaw_angle_min": {
+            "type": "number",
+            "default": -180.0,
+            "minimum": -180.0,
+            "maximum": 180.0
+        }
+    }
+}

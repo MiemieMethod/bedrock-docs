@@ -1,0 +1,18 @@
+{
+  "_comment": "当前插件名字",
+  "netgame_mod_name": "neteaseAddupMaster",
+  "_comment": "插件版本",
+  "netgame_mod_version": "1.0.1",
+  "_comment": "最低引擎版本",
+  "min_app_version": "1.21.0.release20210401",
+  "_comment": "插件实现的功能",
+  "description": "累计消费活动插件",
+  "_comment": "列表，支持的服务器类型，包括game/lobby/master/service几种类型",
+  "support_server_type": [
+    "master"
+  ],
+  "_comment": "作者，官方插件作者统一是NetEase",
+  "author": "NetEase",
+  "_comment": "通用提示插件为lobby/game插件",
+  "group": "neteaseAddup"
+}

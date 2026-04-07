@@ -1,0 +1,8 @@
+{
+     "triggers" : opt
+    array "triggers" : opt
+    {
+         "<any array element>" : opt
+    }
+}
+

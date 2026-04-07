@@ -1,0 +1,13 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "dm559_the_end",
+      "inherits": "the_end"
+    },
+    "components": {
+      "dm559":{},
+      "netease:no_spawn_end_dragon":{}
+    }
+  }
+}

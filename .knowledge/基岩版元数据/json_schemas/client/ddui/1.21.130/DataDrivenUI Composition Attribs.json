@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "72258718",
+    "x-format-version": "1.21.130",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "title": "Composition.Attribs",
+    "type": "object",
+    "properties": {
+        "extension_point": {
+            "type": "string",
+            "minLength": 1
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    float "sensor_radius" : opt
+    array "on_break" : opt
+    {
+         "<any array element>" : opt
+    }
+    array "sources" : opt
+    {
+         "<any array element>" : opt
+    }
+}
+

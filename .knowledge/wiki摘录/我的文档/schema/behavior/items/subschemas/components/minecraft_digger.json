@@ -1,0 +1,92 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "destroy_speeds",
+        "type": {
+          "name": "array",
+          "additional_element_type": {
+            "name": "reference",
+            "reference": "#/definition_types/3421086714"
+          }
+        }
+      },
+      {
+        "name": "use_efficiency",
+        "type": {
+          "name": "boolean"
+        }
+      },
+      {
+        "name": "on_consume",
+        "type": {
+          "name": "reference",
+          "reference": "../../../../common/definition/definition_trigger.json",
+          "version": [
+            {
+              "value": "1.16.100"
+            },
+            {
+              "min": "1.17.0",
+              "max": "1.20.30",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            }
+          ],
+          "deprecated": [
+            {
+              "min": "1.20.30",
+              "max": "*",
+              "min_exclusivity": false,
+              "max_exclusivity": true
+            }
+          ]
+        }
+      }
+    ],
+    "version": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "*",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ],
+    "experiment": [
+      {
+        "value": "1.16.100"
+      },
+      {
+        "min": "1.17.0",
+        "max": "1.20.20",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      }
+    ]
+  },
+  "definition_types": {
+    "3421086714": {
+      "name": "object",
+      "properties": [
+        {
+          "name": "block",
+          "type": {
+            "name": "reference",
+            "reference": "../../../../common/definition/block/block_descriptor.json"
+          }
+        },
+        {
+          "name": "speed",
+          "type": {
+            "name": "integer"
+          }
+        }
+      ]
+    }
+  }
+}

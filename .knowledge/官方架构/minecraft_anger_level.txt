@@ -1,0 +1,19 @@
+{
+    int "max_anger" : opt
+    float "anger_decrement_interval" : opt
+    int "default_annoyingness" : opt
+    int "default_projectile_annoyingness" : opt
+    int "angry_threshold" : opt
+    bool "remove_targets_below_angry_threshold" : opt
+    int "angry_boost" : opt
+    array "on_increase_sounds" : opt
+    {
+        object "<any array element>" : opt
+        {
+            string "sound" : opt
+            molang "condition" : opt
+        }
+    }
+     "nuisance_filter" : opt
+}
+

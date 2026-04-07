@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By dev",
+        "name": "idv",
+        "uuid": "d09c6ae2-e9b7-4640-b850-942678294b72",
+        "version": [0, 0, 1122]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "data",
+            "uuid": "25244987-eb72-459f-9011-696d8835ff69",
+            "version": [0, 0, 1]
+        }
+    ]
+}

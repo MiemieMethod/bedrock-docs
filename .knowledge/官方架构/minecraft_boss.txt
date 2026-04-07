@@ -1,0 +1,6 @@
+{
+    string "name" : opt
+    bool "should_darken_sky" : opt
+    int "hud_range" : opt
+}
+

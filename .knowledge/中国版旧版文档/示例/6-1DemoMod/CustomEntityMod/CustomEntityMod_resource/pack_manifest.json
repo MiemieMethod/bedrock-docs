@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "CustomEntityMod",
+        "name": "CustomEntityMod",
+        "uuid": "483a3487-dfa4-4909-a746-c14566aad1ae",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CustomEntityMod",
+            "type": "resources",
+            "uuid": "0c4a5315-ee12-49f5-bf6f-63dea78ad696",
+            "version": [0, 0, 1]
+        }
+    ]
+}

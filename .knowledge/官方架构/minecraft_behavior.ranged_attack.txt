@@ -1,0 +1,24 @@
+{
+    int "priority" : opt
+    array "control_flags" : opt
+    {
+        string "<any array element>" : opt
+    }
+    int "burst_shots" : opt
+    float "target_in_sight_time" : opt
+    float "burst_interval" : opt
+    float "charge_charged_trigger" : opt
+    float "charge_shoot_trigger" : opt
+    float "attack_interval_min" : opt
+    float "attack_interval_max" : opt
+    float "attack_interval" : opt
+    float "attack_radius" : opt
+    float "attack_radius_min" : opt
+    float "x_max_rotation" : opt
+    float "y_max_head_rotation" : opt
+    float "ranged_fov" : opt
+    float "speed_multiplier" : opt
+    bool "set_persistent" : opt
+    bool "swing" : opt
+}
+

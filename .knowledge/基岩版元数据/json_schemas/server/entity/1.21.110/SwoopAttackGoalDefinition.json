@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "551321829",
+    "x-format-version": "1.21.110",
+    "x-minecraft-version": "1.26.20-beta.24",
+    "definitions": {
+        "2566306602": {
+            "title": "FloatRange",
+            "type": "object",
+            "properties": {
+                "max": {
+                    "type": "number",
+                    "default": 0.0
+                },
+                "min": {
+                    "type": "number",
+                    "default": 0.0
+                }
+            }
+        }
+    },
+    "title": "minecraft:behavior.swoop_attack",
+    "type": "object",
+    "properties": {
+        "control_flags": {
+            "type": "array",
+            "default": [],
+            "items": {
+                "title": "Goal's control flags",
+                "type": "string",
+                "enum": [
+                    "move",
+                    "look",
+                    "jump"
+                ]
+            }
+        },
+        "damage_reach": {
+            "type": "number",
+            "default": 0.20000000298023225
+        },
+        "delay_range": {
+            "default": {
+                "min": 10.0,
+                "max": 20.0
+            },
+            "$ref": "#/definitions/2566306602"
+        },
+        "priority": {
+            "type": "integer",
+            "default": 0,
+            "minimum": 0.0
+        },
+        "speed_multiplier": {
+            "type": "number",
+            "default": 1.0
+        }
+    }
+}

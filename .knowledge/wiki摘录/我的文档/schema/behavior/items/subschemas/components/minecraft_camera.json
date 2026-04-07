@@ -1,0 +1,58 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "black_bars_duration",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "black_bars_screen_ratio",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "shutter_duration",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "shutter_screen_ratio",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "picture_duration",
+        "type": {
+          "name": "number"
+        }
+      },
+      {
+        "name": "slide_away_duration",
+        "type": {
+          "name": "number"
+        }
+      }
+    ],
+    "version": [
+      {
+        "min": "1.10.0",
+        "max": "1.16.100",
+        "min_exclusivity": false,
+        "max_exclusivity": true
+      },
+      {
+        "min": "1.16.100",
+        "max": "1.17.0",
+        "min_exclusivity": true,
+        "max_exclusivity": true
+      }
+    ]
+  }
+}

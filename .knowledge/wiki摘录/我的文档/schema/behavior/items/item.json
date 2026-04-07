@@ -1,0 +1,22 @@
+{
+  "name": "top",
+  "type": {
+    "name": "object",
+    "properties": [
+      {
+        "name": "format_version",
+        "type": {
+          "name": "reference",
+          "reference": "../../common/semver/format_version_no_number.json"
+        }
+      },
+      {
+        "name": "minecraft:item",
+        "type": {
+          "name": "reference",
+          "reference": "./subschemas/minecraft_item.json"
+        }
+      }
+    ]
+  }
+}

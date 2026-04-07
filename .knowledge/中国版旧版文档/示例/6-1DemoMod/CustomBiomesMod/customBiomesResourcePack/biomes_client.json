@@ -1,0 +1,14 @@
+{
+  "biomes": {
+    "dm22779_hell": {
+      "water_surface_color": "#905957",
+      "water_fog_color": "#905957",
+      "fog_color": "#4B0082"
+    },
+    "dm559_the_end": {
+      "water_surface_color": "#62529e",
+      "water_fog_color": "#62529e",
+      "fog_color": "#0B080C"
+    }
+  }
+}

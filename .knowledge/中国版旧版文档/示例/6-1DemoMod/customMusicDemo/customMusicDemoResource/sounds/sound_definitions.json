@@ -1,0 +1,57 @@
+{
+  "dy_load_list":[
+    "sounds/music/game/creative/1",
+    "sounds/customSound/2",
+    "sounds/customSound/3",
+    "sounds/customSound/4",
+    "sounds/customSound/5"
+],
+  "music.game.creative": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/game/creative/1",
+        "volume": 0.1,
+        "stream": true,
+        "load_on_low_memory": true
+      }
+     
+    ]
+  },
+  "music.global0": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/customSound/2",
+        "pitch": 1,
+        "volume": 1,
+        "stream": true,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "music.global1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/customSound/3",
+        "pitch": 1,
+        "volume": 1,
+        "stream": true,
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "music.custom": {
+    "min_distance": 0.0,
+    "max_distance": 5.0,
+    "sounds": [
+      {
+        "name": "sounds/customSound/4",
+        "pitch": 1,
+        "volume": 1,
+        "load_on_low_memory": true
+      }
+    ]
+  }
+}

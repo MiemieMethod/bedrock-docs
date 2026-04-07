@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Netease",
+        "name": "Daily",
+        "uuid": "7a78fa0e-9f4b-473d-9504-0b236f8dfa09",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "By Netease",
+            "type": "resources",
+            "uuid": "d5daa2bd-9664-412c-8b15-c860e862ee1d",
+            "version": [0, 0, 1]
+        }
+    ]
+}

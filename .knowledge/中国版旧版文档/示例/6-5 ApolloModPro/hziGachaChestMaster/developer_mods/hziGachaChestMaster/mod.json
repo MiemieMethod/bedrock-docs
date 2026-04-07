@@ -1,0 +1,12 @@
+{
+    "netgame_mod_name": "hziGachaChestMaster",
+    "netgame_mod_version": "1.0.0",
+    "min_app_version": "1.23.0.beta20210602",
+    "description": "提供类似开盲盒的简单抽奖功能",
+    "support_server_type": [
+        "master"
+    ],
+    "author": "HziStudio",
+    "group": "hziGachaChest",
+    "module_names": ["hziGachaChest"]
+}

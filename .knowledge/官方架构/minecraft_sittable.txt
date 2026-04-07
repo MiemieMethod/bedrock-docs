@@ -1,0 +1,5 @@
+{
+     "sit_event" : opt
+     "stand_event" : opt
+}
+
