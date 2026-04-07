@@ -24,6 +24,21 @@
     --md-accent-fg-color:#ff4281;
     --md-accent-fg-color--transparent:#e920631a
 }
+.md-typeset .mdx-badge--edu{
+    --md-typeset-a-color:#ffcc00;
+    --md-accent-fg-color:#ffd633;
+    --md-accent-fg-color--transparent:#ffcc001a
+}
+.md-typeset .mdx-badge--vanilla{
+    --md-typeset-a-color:#28a745;
+    --md-accent-fg-color:#34ce57;
+    --md-accent-fg-color--transparent:#28a7451a
+}
+.md-typeset .mdx-badge--dev{
+    --md-typeset-a-color:#2c2c2c;
+    --md-accent-fg-color:#4a4a4a;
+    --md-accent-fg-color--transparent:#2c2c2c1a
+}
 .md-typeset .mdx-badge--heart .twemoji{
     animation:heart 1s infinite
 }
