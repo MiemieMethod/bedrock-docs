@@ -17,6 +17,10 @@
   处理绑定字符串与数值比较、数值转文本显示。
 - :material-filmstrip-box-multiple: __[使用Aseprite序列帧动画](aseprite-flipbook.md)__
   导出精灵表并在JSON UI中使用`aseprite_flip_book`。
+- :material-toggle-switch-outline: __[按钮与开关](buttons-and-toggles.md)__
+  使用原版模板快速创建可交互的按钮和开关控件。
+- :material-form-select: __[修改服务器表单](modifying-server-forms.md)__
+  通过`server_form_factory`为行动表单和模态表单添加自定义UI面板。
 ///
 
 ## 学习前提

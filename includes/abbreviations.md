@@ -111,3 +111,5 @@
 *[ESM]: ECMAScript Module System
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[TTS]: Text-to-Speech
+*[IK]: Inverse Kinematics
+*[POI]: Point of Interest

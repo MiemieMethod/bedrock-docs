@@ -506,6 +506,25 @@ nav:
           - 创建NPC: guides/addons/data-driven/entities/adding-npc.md
           - 添加交易行为: guides/addons/data-driven/entities/adding-trading-behavior.md
           - 实体属性: guides/addons/data-driven/entities/entity-properties.md
+          - 虚拟实体: guides/addons/data-driven/entities/dummy-entities.md
+          - 无敌实体: guides/addons/data-driven/entities/invulnerable-entities.md
+          - 固体实体: guides/addons/data-driven/entities/solid-entities.md
+          - 实体计时器: guides/addons/data-driven/entities/timers.md
+          - 注视实体检测: guides/addons/data-driven/entities/look-at-entity.md
+          - 禁用队伍伤害: guides/addons/data-driven/entities/disabling-team-damage.md
+          - 实体移动: guides/addons/data-driven/entities/entity-movement.md
+          - 实体攻击: guides/addons/data-driven/entities/entity-attack.md
+          - 睡眠实体: guides/addons/data-driven/entities/sleeping-entities.md
+          - 实体持物: guides/addons/data-driven/entities/holding-items.md
+          - 检测其他实体: guides/addons/data-driven/entities/detecting-other-entities.md
+          - 飞行实体的骑乘控制: guides/addons/data-driven/entities/flying-entities.md
+          - 船型实体: guides/addons/data-driven/entities/boat-entities.md
+          - 区域效果云: guides/addons/data-driven/entities/area-effect-clouds.md
+          - NPC对话进阶: guides/addons/data-driven/entities/npc-dialogue.md
+          - 生成已驯服实体: guides/addons/data-driven/entities/spawning-tamed-entities.md
+          - 仿村庄机制: guides/addons/data-driven/entities/village-mechanic.md
+          - 弹射物: guides/addons/data-driven/entities/projectiles.md
+          - 坐标空间变换: guides/addons/data-driven/entities/coordinate-space-conversion.md
         - 自定义方块:
           - guides/addons/data-driven/blocks/index.md
           - 第一个方块: guides/addons/data-driven/blocks/adding-custom-blocks.md
