@@ -113,3 +113,14 @@
 *[TTS]: Text-to-Speech
 *[IK]: Inverse Kinematics
 *[POI]: Point of Interest
+*[MEF]: Multiplicative Execution Forking
+*[MBE]: Max's Block Entity
+*[FMBE]: Fox MBE
+*[MNT]: Multiple Nested Translates
+*[AND]: AND
+*[OR]: OR
+*[NOT]: NOT
+*[NAND]: NOT AND
+*[NOR]: NOT OR
+*[XOR]: Exclusive OR
+*[XNOR]: Exclusive NOR

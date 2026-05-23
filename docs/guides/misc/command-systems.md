@@ -77,6 +77,37 @@ scoreboard players set @a respawn 1
 scoreboard players set @e[type=player] respawn 0
 ```
 
+## 二·五、世界首次加载事件
+
+除了玩家事件，还有一类常见需求：在整包应用后**世界第一次加载时**执行一次性初始化逻辑（例如生成出生点结构、初始化全局记分板、给世界创建者发放礼包等）。这个模板依赖`tick.json`每刻执行主函数，并用记分板标记"已初始化"状态。
+
+```mcfunction title="BP/functions/wiki/main.mcfunction"
+# 世界首次加载时调用初始化函数
+execute unless score .World wiki:q.is_initialised matches 1 run function wiki/event/worlds/on_initialise
+```
+
+```mcfunction title="BP/functions/wiki/event/worlds/on_initialise.mcfunction"
+## 在此处放置你的初始化命令（示例）
+say 世界初始化完成，附加包已首次加载。
+
+## 初始化收尾
+### 添加状态记分项
+scoreboard objectives add wiki:q.is_initialised dummy
+### 标记为已初始化，防止下次加载重复触发
+scoreboard players set .World wiki:q.is_initialised 1
+```
+
+一旦`on_initialise`函数执行完毕，记分板中`.World`的`wiki:q.is_initialised`分数被设为`1`，此后每次世界加载时`execute unless score`条件都会失败，初始化逻辑就永远不会再运行。
+
+/// html | div.treeview
+- `BP/functions/wiki`
+    - `main.mcfunction`
+    - `event`
+        - `worlds`
+            - `on_initialise.mcfunction`
+- `BP/functions/tick.json`
+///
+
 ## 三、周期计时模板
 
 先建记分项：

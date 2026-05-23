@@ -15,9 +15,11 @@
 
 | 枚举值 | 语义说明 |
 |---|---|
+| `all` | 匹配所有来源类型（用于过滤而非施加损伤）。 |
 | `anvil` | 铁砧损伤。 |
 | `attack` | 普通攻击损伤。 |
 | `block_explosion` | 方块爆炸损伤。 |
+| `campfire` | 营火损伤。 |
 | `charging` | 冲锋类损伤。 |
 | `contact` | 接触类损伤。 |
 | `drowning` | 溺水损伤。 |
@@ -37,9 +39,12 @@
 | `magma` | 岩浆块损伤。 |
 | `none` | 无来源类型。 |
 | `override` | 覆盖型损伤。 |
+| `ram_attack` | 山羊撞击类损伤。 |
 | `piston` | 活塞相关损伤。 |
 | `projectile` | 弹射物损伤。 |
+| `self_destruct` | 自爆类损伤（主要用于爬行者等）。 |
 | `sonic_boom` | 音爆损伤。 |
+| `soul_campfire` | 灵魂营火损伤。 |
 | `stalactite` | 钟乳石损伤。 |
 | `stalagmite` | 石笋损伤。 |
 | `starve` | 饥饿损伤。 |
@@ -55,3 +60,4 @@
 - [国际版命令清单](command-list.md)
 - [命令版本](version.md)
 - [附加包实体损伤来源](../tables/entities/addon_entity_damage_sources.md)
+

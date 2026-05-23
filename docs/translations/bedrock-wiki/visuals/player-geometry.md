@@ -1,0 +1,32 @@
+---
+title: 玩家几何体
+description: 用于制作玩家型实体的几何体结构。
+category: 教程
+---
+
+/// details-info | 署名信息
+- 该页面内容翻译自[Player Geometry](https://wiki.bedrock.dev/visuals/player-geometry.html)
+- 原文版权归原作者所有
+///
+
+本文展示的是玩家型实体的几何体写法。它的核心不是“教你画模型”，而是说明如何组织一个可用于玩家NPC的骨骼结构。
+
+## 结构要点
+
+玩家几何体通常至少包含：
+
+- `root`
+- `waist`
+- `body`
+- `head`
+- 双臂与双腿
+- `hat`、`jacket`、`sleeve`、`pants`等外层部件
+- `leftItem`、`rightItem`和`lead`等定位器
+
+## 为什么要这样做
+
+这样组织的好处是可以直接复用原版玩家的动画逻辑，并让不同部件分别响应动作、装备和显示切换。
+
+## 实际使用
+
+如果只是想做一个“像玩家”的NPC，通常不需要从零重写所有动画。更稳妥的做法是先复用原版玩家骨架，再逐步替换外观和少量部件。

@@ -157,6 +157,45 @@ Molang变量按生命周期和来源分为三类。
 
 客户端实体定义可以声明公开变量，使其他活动对象以只读方式访问该变量。公开变量应在初始化脚本中提供默认值，以避免表达式读取未初始化数据。
 
+### 预置实体变量
+
+游戏在特定上下文中会自动为实体设置一些预置的`variable.`变量，这些变量通常无需手动初始化即可读取：
+
+| 变量 | 描述 |
+| --- | --- |
+| `variable.attack_time` | 攻击动画进度（0.0至0.7） |
+| `variable.bob_animation` | 闲置或移动时的摆动效果振荡值 |
+| `variable.charge_amount` | 蓄力量（用于附着物） |
+| `variable.damage_nearby_mobs` | 是否正在对附近生物造成伤害 |
+| `variable.gliding_speed_value` | 滑翔时的速度值 |
+| `variable.has_target` | 实体当前是否有目标 |
+| `variable.is_brandishing_spear` | 实体是否举着三叉戟 |
+| `variable.is_first_person` | 是否处于第一人称视角 |
+| `variable.is_holding_left` | 左手是否持有物品 |
+| `variable.is_holding_right` | 右手是否持有物品 |
+| `variable.is_paperdoll` | 纸娃娃当前是否可见 |
+| `variable.is_sneaking` | 玩家是否正在潜行 |
+| `variable.is_using_vr` | 玩家是否使用VR头显 |
+| `variable.player_arm_height` | 手臂高度偏移（通常在第一人称视角中调整） |
+| `variable.swim_amount` | 游泳动画的总体进度 |
+| `variable.use_item_interval_progress` | 物品使用时间轴的中间阶段进度 |
+| `variable.use_item_startup_progress` | 物品使用动画启动阶段进度 |
+
+其他预置变量（如角色皮肤相关的`variable.animation_frames_128x128`、`variable.animation_frames_32x32`等）仅在特定渲染上下文中有效。
+
+### 常见上下文变量
+
+上下文变量由游戏在调用位置提供，不同系统可用的上下文变量不同：
+
+| 上下文变量 | 可用上下文 | 描述 |
+| --------- | --------- | ---- |
+| `context.count` | 配方 | 当前上下文中的数量 |
+| `context.is_first_person` | 动画、实体、渲染控制器 | 实体是否在第一人称视角中渲染 |
+| `context.item_slot` | 模型 | 当前物品的槽位索引 |
+| `context.other` | 物品 | 用于修复目标的"另一个"物品 |
+| `context.owning_entity` | 附着物 | 拥有当前上下文的实体（用于读取其查询函数） |
+| `context.player_offhand_arm_height` | 模型 | 渲染副手时的手臂高度偏移值 |
+
 ## 查询函数
 
 **查询函数（Query Function）**是Molang读取游戏运行时状态的主要方式，使用`query.`或`q.`前缀。查询函数可以返回实体状态、动画时间、移动状态、方块状态、物品状态或渲染相关信息。无参数查询不使用括号，有参数查询使用括号并以逗号分隔参数：

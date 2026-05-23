@@ -19,6 +19,16 @@
 ///
 
 /// html | div.grid.cards
+-   :material-eye-outline: __视觉__
+
+    ---
+
+    实体外观、材质、动画、结构展示与皮肤相关内容。
+
+    [:octicons-arrow-right-24: 开始阅读](./visuals/index.md)
+///
+
+/// html | div.grid.cards
 -   :material-wrench-cog: __元信息__
 
     ---

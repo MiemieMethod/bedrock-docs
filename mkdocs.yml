@@ -551,7 +551,19 @@ nav:
           - 多方块结构: guides/addons/data-driven/blocks/multi-blocks.md
         - 自定义物品:
           - guides/addons/data-driven/items/index.md
-          - 第一个物品: guides/addons/data-driven/items/adding-custom-items.md
+          - 添加自定义物品: guides/addons/data-driven/items/adding-custom-items.md
+          - 物品组件总览: guides/addons/data-driven/items/item-components.md
+          - 物品标签: guides/addons/data-driven/items/item-tags.md
+          - 物品事件: guides/addons/data-driven/items/item-events.md
+          - 自定义食物: guides/addons/data-driven/items/custom-food.md
+          - 自定义武器: guides/addons/data-driven/items/custom-weapons.md
+          - 物品耐久: guides/addons/data-driven/items/item-durability.md
+          - 自定义盔甲: guides/addons/data-driven/items/custom-armor.md
+          - 物品附着物: guides/addons/data-driven/items/item-attachables.md
+          - 可投掷物品: guides/addons/data-driven/items/throwable-items.md
+          - 装备物品效果: guides/addons/data-driven/items/equipped-item-effects.md
+          - 在世界中生成物品: guides/addons/data-driven/items/spawning-items.md
+          - 自定义陶片: guides/addons/data-driven/items/custom-pottery-sherds.md
         - 自定义粒子: guides/addons/data-driven/adding-custom-particles.md
         - 自定义声音: guides/addons/data-driven/adding-custom-sounds.md
         - 自定义配方: guides/addons/data-driven/adding-custom-recipes.md
@@ -875,6 +887,24 @@ nav:
         - Blockbench建模: translations/bedrock-wiki/guide/blockbench.md
         - 进阶清单文件: translations/bedrock-wiki/guide/advancedmanifest.md
         - 战利品表与配方: translations/bedrock-wiki/guide/loot-table.md
+      - 视觉:
+        - translations/bedrock-wiki/visuals/index.md
+        - 简介: translations/bedrock-wiki/visuals/introduction.md
+        - 皮肤包: translations/bedrock-wiki/visuals/skin-packs.md
+        - 重绘刷怪蛋纹理: translations/bedrock-wiki/visuals/retexturing-spawn-eggs.md
+        - 移除实体阴影: translations/bedrock-wiki/visuals/remove-shadows.md
+        - 玩家几何体: translations/bedrock-wiki/visuals/player-geometry.md
+        - 基于数学的动画: translations/bedrock-wiki/visuals/math-based-animations.md
+        - 材质: translations/bedrock-wiki/visuals/materials.md
+        - 材质示例: translations/bedrock-wiki/visuals/material-creations.md
+        - 牵引绳位置: translations/bedrock-wiki/visuals/leash-position.md
+        - 发光纹理: translations/bedrock-wiki/visuals/glowing-texture.md
+        - 死亡动画: translations/bedrock-wiki/visuals/death-animations.md
+        - 自定义受伤动画: translations/bedrock-wiki/visuals/custom-hurt-animations.md
+        - 基岩建模: translations/bedrock-wiki/visuals/bedrock-modeling.md
+        - 动画中的特效: translations/bedrock-wiki/visuals/animation-effects.md
+        - 实体纹理动画: translations/bedrock-wiki/visuals/animated-entity-texture.md
+        - 结构展示: translations/bedrock-wiki/visuals/structure-presentation.md
       - 元信息:
         - translations/bedrock-wiki/meta/index.md
         - 实用链接: translations/bedrock-wiki/meta/useful-links.md
