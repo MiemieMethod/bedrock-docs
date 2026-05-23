@@ -20,7 +20,7 @@ BDS提供以下核心功能：
 
 ## 配置
 
-BDS的行为通过{{file|server.properties}}文件进行配置。主要配置项包括：
+BDS的行为通过{{file|server.properties|txt}}文件进行配置。主要配置项包括：
 
 | 配置项 | 说明 |
 |--------|------|

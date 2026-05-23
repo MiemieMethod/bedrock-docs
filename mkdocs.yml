@@ -370,11 +370,17 @@ nav:
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4zm11 3h5.5L15 1.5zM8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2zm3-4v-2H8v2z"></path></svg></span><span class="md-ellipsis">文档</span></span>':
     - docs/index.md
     - 通识:
-      - 版本: docs/general/version.md
-      - 日志: docs/general/log.md
-      - 模组: docs/general/mod.md
-      - 模型: docs/general/model.md
-      - NBT: docs/general/nbt.md
+      - 技术性概念:
+        - 模组: docs/general/mod.md
+        - 版本: docs/general/version.md
+        - 日志: docs/general/log.md
+        - 模型: docs/general/model.md
+        - NBT: docs/general/nbt.md
+      - 游戏玩法:
+        - 实体: docs/general/entity.md
+        - 方块: docs/general/block.md
+        - 物品: docs/general/item.md
+
       - Molang: docs/general/molang.md
       - 标识符: docs/general/identifier.md
       - 数据驱动: docs/general/data-driven.md
@@ -383,14 +389,11 @@ nav:
       - 命令: docs/general/command.md
       - 记分板: docs/general/scoreboard.md
       - 坐标: docs/general/coordinate.md
-      - 实体: docs/general/entity.md
       - 组件: docs/general/component.md
       - 事件: docs/general/event.md
       - 过滤器: docs/general/filter.md
       - AI意向: docs/general/ai-goal.md
-      - 方块: docs/general/block.md
       - 方块实体: docs/general/block-entity.md
-      - 物品: docs/general/item.md
       - 容器: docs/general/container.md
       - 生物群系: docs/general/biome.md
       - 维度: docs/general/dimension.md
