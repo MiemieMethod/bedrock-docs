@@ -215,18 +215,18 @@ pack.description=本附加包由Wiki贡献者制作！
 - com.mojang/
     - development_resource_packs/
         - guide_RP/
-            - {file|manifest.json}
-            - {file|pack_icon.png}
+            - {{file|manifest.json}}
+            - {{file|pack_icon.png}}
             - texts/
-                - {file|en_US.lang}
-                - {file|languages.json}
+                - {{file|en_US.lang}}
+                - {{file|languages.json}}
     - development_behavior_packs/
         - guide_BP/
-            - {file|manifest.json}
-            - {file|pack_icon.png}
+            - {{file|manifest.json}}
+            - {{file|pack_icon.png}}
             - texts/
-                - {file|en_US.lang}
-                - {file|languages.json}
+                - {{file|en_US.lang}}
+                - {{file|languages.json}}
 ///
 
 ## 学习总结

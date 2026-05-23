@@ -124,7 +124,7 @@
 - RP/
     - textures/
         - items/
-            - {file|ectoplasm.png}
+            - {{file|ectoplasm.png}}
 ///
 
 ### 纹理短名
@@ -173,22 +173,22 @@ item.wiki:ectoplasm=灵质
 /// html | div.treeview
 - RP/
     - textures/
-        - {file|item_texture.json}
+        - {{file|item_texture.json}}
         - items/
-            - {file|ectoplasm.png}
+            - {{file|ectoplasm.png}}
     - texts/
-        - {file|en_US.lang}
-        - {file|languages.json}
-    - {file|manifest.json}
-    - {file|pack_icon.png}
+        - {{file|en_US.lang}}
+        - {{file|languages.json}}
+    - {{file|manifest.json}}
+    - {{file|pack_icon.png}}
 - BP/
     - items/
-        - {file|ectoplasm.json}
+        - {{file|ectoplasm.json}}
     - texts/
-        - {file|en_US.lang}
-        - {file|languages.json}
-    - {file|manifest.json}
-    - {file|pack_icon.png}
+        - {{file|en_US.lang}}
+        - {{file|languages.json}}
+    - {{file|manifest.json}}
+    - {{file|pack_icon.png}}
 ///
 
 /// details | 完整ectoplasm.json

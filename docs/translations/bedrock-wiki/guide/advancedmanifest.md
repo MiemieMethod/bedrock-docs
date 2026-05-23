@@ -23,8 +23,6 @@ Minecraft使用完全随机生成的版本4变体1。这是构成您资源包在
 
 您可以使用在线工具如[UUID生成器](https://www.uuidgenerator.net/version4/)和[UUID工具](https://www.uuidtools.com/generate/v4)来生成符合Minecraft要求的正确版本。
 
-##
-
 ### UUID常见问题
 
 -   **UUID是否区分大小写？**

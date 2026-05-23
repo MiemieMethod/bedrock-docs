@@ -50,7 +50,7 @@ Android 12及更新版本：`手机存储 > Android > data > com.mojang.minecraf
 Android平台的项目设置与其他平台有所不同，建议参考我们的Android专用指南。
 ///
 
-[Android指南](./project-setup-android){ .md-button .md-button--primary }
+[Android指南](./project-setup-android.md){ .md-button .md-button--primary }
 
 /// tip | 提示
 本指南中：
@@ -80,7 +80,7 @@ Android平台的项目设置与其他平台有所不同，建议参考我们的A
 
 清单文件（manifest）是Minecraft识别附加包的核心文件。每个包都必须包含一个格式正确的清单文件，这是附加包能被识别的最低要求。
 
-清单文件使用`json`格式编写。如需了解json格式，请参考[此文档](./understanding-json.md)。
+清单文件使用`JSON`格式编写。如需了解JSON格式，请参考[此文档](./understanding-json.md)。
 
 在BP文件夹中右键新建文件，命名为`manifest.json`。初始内容可复制以下代码：
 
@@ -229,18 +229,18 @@ pack.description=幽灵指南
 - com.mojang/
     - development_resource_packs/
         - guide_RP/
-            - {file|manifest.json}
-            - {file|pack_icon.png}
+            - {{file|manifest.json}}
+            - {{file|pack_icon.png}}
             - texts/
-                - {file|en_US.lang}
-                - {file|languages.json}
+                - {{file|en_US.lang}}
+                - {{file|languages.json}}
     - development_behavior_packs/
         - guide_BP/
-            - {file|manifest.json}
-            - {file|pack_icon.png}
+            - {{file|manifest.json}}
+            - {{file|pack_icon.png}}
             - texts/
-                - {file|en_US.lang}
-                - {file|languages.json}
+                - {{file|en_US.lang}}
+                - {{file|languages.json}}
 ///
 
 ## 知识总结
