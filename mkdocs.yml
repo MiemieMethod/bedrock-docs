@@ -529,6 +529,26 @@ nav:
           - guides/addons/data-driven/blocks/index.md
           - 第一个方块: guides/addons/data-driven/blocks/adding-custom-blocks.md
           - 自定义工作台: guides/addons/data-driven/blocks/adding-custom-crafting-table.md
+          - 方块外观: guides/addons/data-driven/blocks/block-visuals.md
+          - 方块状态与置换: guides/addons/data-driven/blocks/block-states.md
+          - 自定义组件与事件: guides/addons/data-driven/blocks/block-events.md
+          - 方块声音: guides/addons/data-driven/blocks/block-sounds.md
+          - 方块萃取: guides/addons/data-driven/blocks/block-traits.md
+          - 方块着色: guides/addons/data-driven/blocks/block-tinting.md
+          - 方块标签: guides/addons/data-driven/blocks/block-tags.md
+          - 方块剔除: guides/addons/data-driven/blocks/block-culling.md
+          - 方块朝向: guides/addons/data-driven/blocks/block-orientation.md
+          - 翻书动画纹理: guides/addons/data-driven/blocks/flipbook-textures.md
+          - 纹理变种: guides/addons/data-driven/blocks/texture-variation.md
+          - 工具破坏与战利品: guides/addons/data-driven/blocks/tool-based-destruction.md
+          - 红石联动: guides/addons/data-driven/blocks/redstone-blocks.md
+          - 方块效果: guides/addons/data-driven/blocks/applying-effects.md
+          - 矿石战利品表: guides/addons/data-driven/blocks/ore-loot-tables.md
+          - 16向朝向: guides/addons/data-driven/blocks/intercardinal-orientation.md
+          - 自定义玻璃: guides/addons/data-driven/blocks/custom-glass.md
+          - 自定义活板门: guides/addons/data-driven/blocks/custom-trapdoors.md
+          - 自定义农作物: guides/addons/data-driven/blocks/custom-crops.md
+          - 多方块结构: guides/addons/data-driven/blocks/multi-blocks.md
         - 自定义物品:
           - guides/addons/data-driven/items/index.md
           - 第一个物品: guides/addons/data-driven/items/adding-custom-items.md
@@ -630,6 +650,28 @@ nav:
       - guides/misc/index.md
       - 命令系统实践模板: guides/misc/command-systems.md
       - 新版execute命令: guides/misc/execute-command.md
+      - 乘法执行分叉: guides/misc/execution-forking.md
+      - execute逻辑门: guides/misc/logic-gates.md
+      - 记分板运算: guides/misc/scoreboard-operations.md
+      - 记分板计时器: guides/misc/scoreboard-timers.md
+      - 实体计数器: guides/misc/entity-counter.md
+      - 分数比较: guides/misc/comparing-scores.md
+      - 移动状态检测: guides/misc/detect-movements.md
+      - 注视检测: guides/misc/detect-looking.md
+      - 降雨检测: guides/misc/detect-rain.md
+      - 掉落来源检测: guides/misc/detect-item-drop.md
+      - 轨道摄像机: guides/misc/orbital-camera.md
+      - 在方块位置执行命令: guides/misc/execute-at-block.md
+      - 二进制逻辑: guides/misc/binary-logic.md
+      - 单命令球体生成: guides/misc/sphere-command.md
+      - MBE方块实体: guides/misc/block-entities.md
+      - FMBE显示实体: guides/misc/display-entities.md
+      - playanimation命令: guides/misc/playanimation.md
+      - 自定义合成器: guides/misc/custom-crafting.md
+      - 罗盘方位显示: guides/misc/compass-display.md
+      - 动态文本显示: guides/misc/dynamic-displays.md
+      - 发放NBT物品: guides/misc/giving-nbt-items.md
+      - 多人位置错排: guides/misc/rearrange-positions.md
     - 过时教程:
       - guides/outdated/index.md
       - '1.16.100': 
