@@ -8,6 +8,8 @@
 
 渲染控制器定义文件位于资源包的`render_controllers/`目录中。
 
+渲染控制器内部使用的`Geometry.`、`Texture.`和`Material.`短名称来自同一客户端实体定义中的`geometry`、`textures`和`materials`映射。渲染控制器本身不声明资源文件路径，而是组合客户端实体已经注册的渲染资源。
+
 ## 基本结构
 
 一个渲染控制器的定义通常包含以下核心字段：
@@ -82,3 +84,7 @@
   {"cape": "query.has_cape"}
 ]
 ```
+
+## 相关参考
+
+- [渲染控制器](../../refs/addon/render-controller.md)

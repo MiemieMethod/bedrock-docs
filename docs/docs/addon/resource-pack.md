@@ -14,7 +14,10 @@
 
 /// html | div.treeview
 - {{file|manifest.json}}：清单文件。
+- {{file|contents.json}}：内容文件。
 - {{file|pack_icon.png}}：包图标。
+- {{file|json}}**loading_messages.json**：加载消息。
+- {{file|json}}**splashes.json**：闪烁标语。
 - {{file|folder}}**textures/**：纹理文件。
     - {{file|folder}}**blocks/**：方块纹理。
     - {{file|folder}}**entity/**：实体纹理。
@@ -39,6 +42,9 @@
 - {{file|json}}**sounds.json**：音效事件映射。
 - {{file|folder}}**texts/**：本地化文件。
 - {{file|folder}}**ui/**：JSON UI文件。
+    - {{file|json}}**_ui_defs.json**：需要加载的UI屏幕文件列表。
+    - {{file|json}}**_global_variables.json**：JSON UI全局变量。
+    - {{file|json}}**\*.json**：具体屏幕与控件定义文件。
 - {{file|folder}}**fogs/**：迷雾定义文件。
 - {{file|folder}}**materials/**：材质文件。
 - {{file|json}}**blocks.json**：方块渲染信息。

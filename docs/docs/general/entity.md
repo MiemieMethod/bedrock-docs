@@ -89,3 +89,7 @@
 ## 附着物
 
 **附着物（Attachable）**是一种特殊的客户端实体，用于定义物品在手持、穿戴等场景下的渲染方式。附着物将物品与几何体模型、纹理、动画等渲染资源关联，使物品在第一人称、第三人称和GUI等不同场景中具有不同的显示效果。
+
+## 参考
+
+实体数据驱动的具体字段与标识符属于参考信息，详见[实体定义](../../refs/addon/entity.md)、[实体组件](../../refs/addon/entity-component.md)、[实体AI意向](../../refs/addon/entity-ai-goal.md)、[实体过滤器](../../refs/addon/entity-filter.md)、[实体事件与触发器](../../refs/addon/entity-event.md)、[客户端实体定义](../../refs/addon/client-entity.md)和[生成规则](../../refs/addon/spawn-rule.md)。

@@ -376,6 +376,7 @@ nav:
         - 日志: docs/general/log.md
         - 模型: docs/general/model.md
         - NBT: docs/general/nbt.md
+        - JSON: docs/general/json.md
         - Molang: docs/general/molang.md
         - 标识符: docs/general/identifier.md
         - 命名空间: docs/general/namespace.md
@@ -390,7 +391,7 @@ nav:
         - 方块: docs/general/block.md
         - 方块状态: docs/general/block-state.md
         - 方块置换: docs/general/block-permutation.md
-        - 方块特质: docs/general/block-trait.md
+        - 方块萃取: docs/general/block-trait.md
         - 方块实体: docs/general/block-entity.md
         - 物品: docs/general/item.md
         - 容器: docs/general/container.md
@@ -408,6 +409,7 @@ nav:
       - 逻辑系统:
         - 组件: docs/general/component.md
         - 事件: docs/general/event.md
+        - 定义事件: docs/general/definition-event.md
         - 过滤器: docs/general/filter.md
         - AI意向: docs/general/ai-goal.md
       - 命令与文本:
@@ -422,10 +424,12 @@ nav:
         - 调试屏幕: docs/general/debug-screen.md
         - 编辑器: docs/general/editor.md
         - JSON UI: docs/general/json-ui.md
+        - Ore UI: docs/general/ore-ui.md
     - 附加包:
       - 包与加载:
         - 附加包: docs/addon/addon.md
         - 清单文件: docs/addon/manifest.md
+        - 内容文件: docs/addon/content-file.md
         - 模块: docs/addon/module.md
         - 资源包: docs/addon/resource-pack.md
         - 行为包: docs/addon/behavior-pack.md
@@ -438,12 +442,14 @@ nav:
         - 纹理: docs/addon/texture.md
         - 翻书动画: docs/addon/flipbook-texture.md
         - 本地化: docs/addon/localization.md
+        - 字体: docs/addon/font.md
         - 声音: docs/addon/sound.md
         - 渲染控制器: docs/addon/render-controller.md
         - 附着物: docs/addon/attachable.md
         - 动画: docs/addon/animation.md
         - 动画控制器: docs/addon/animation-controller.md
         - 粒子: docs/addon/particle.md
+        - 粒子发射器: docs/addon/particle-emitter.md
         - 迷雾: docs/addon/fog.md
       - 服务端数据:
         - 脚本API: docs/addon/script-api.md
@@ -456,10 +462,15 @@ nav:
     - 服务器:
       - 服务端软件:
         - 基岩版专用服务器: docs/server/bds.md
+        - Nukkit-MOT: docs/server/nukkit-mot.md
         - 网络协议: docs/server/protocol.md
       - 插件生态:
         - 插件: docs/server/plugin.md
         - 插件加载器: docs/server/plugin-loader.md
+        - LeviLamina: docs/server/levilamina.md
+        - Endstone: docs/server/endstone.md
+        - Allay: docs/server/allay.md
+        - SerenityJS: docs/server/serenity.md
     - 存档:
       - 存档: docs/save/save.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1zm6-10h3v2h-3zM1 11h3v2H1zM13 1v3h-2V1zM4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93zm12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12z"></path></svg></span><span class="md-ellipsis">教程</span></span>':
@@ -506,10 +517,18 @@ nav:
         - 使用TypeScript构建包: guides/addons/script-api/building-packs-with-typescript.md
       - 模组SDK:
         - guides/addons/modsdk/index.md
+        - 第一个Python脚本模组: guides/addons/modsdk/first-python-mod.md
+        - 系统、事件与组件: guides/addons/modsdk/systems-events-components.md
+        - 中国版数据驱动维度与地形: guides/addons/modsdk/custom-dimensions-and-terrain.md
+        - 制作自定义书本: guides/addons/modsdk/custom-books.md
     - 社区模组:
       - guides/community-mods/index.md
       - ICMod:
         - guides/community-mods/icmod/index.md
+        - 准备环境与项目结构: guides/community-mods/icmod/environment-and-structure.md
+        - 物品、方块与配方: guides/community-mods/icmod/items-blocks-and-recipes.md
+        - 事件、存储与多人: guides/community-mods/icmod/events-storage-and-multiplayer.md
+        - 界面、环境与库: guides/community-mods/icmod/ui-environment-and-libraries.md
       - ModPE:
         - guides/community-mods/modpe/index.md
     - 软件工具:
@@ -517,10 +536,27 @@ nav:
       - Blockbench:
         - guides/tools/blockbench/index.md
         - 使用指南: guides/tools/blockbench/how-to-use.md
+        - 选择项目格式: guides/tools/blockbench/formats.md
+        - 界面与工作流: guides/tools/blockbench/workflow-and-tips.md
+        - 动画表达式: guides/tools/blockbench/animation-expressions.md
+        - 粒子与音效关键帧: guides/tools/blockbench/effects-keyframes.md
+        - Minecraft美术风格: guides/tools/blockbench/minecraft-style.md
         - 制作Minecraft风格标题: guides/tools/blockbench/creating-minecraft-style-title.md
       - 编辑器: guides/tools/editor.md
+      - Chunker: guides/tools/chunker.md
+      - bridge.:
+        - guides/tools/bridge.md
+        - 进阶功能: guides/tools/bridge-advanced.md
+      - 配置JSON架构: guides/tools/json-schemas.md
+      - Chunky: guides/tools/chunky.md
     - 服务端:
       - guides/servers/index.md
+      - 搭建BDS: guides/servers/bds.md
+      - LeviLamina入门: guides/servers/levilamina.md
+      - Endstone入门: guides/servers/endstone.md
+      - Allay入门: guides/servers/allay.md
+      - SerenityJS入门: guides/servers/serenity.md
+      - Nukkit、PocketMine与旧生态: guides/servers/nukkit-pocketmine.md
     - 着色器:
       - guides/shaders/index.md
       - 认识着色器: guides/shaders/understanding-shaders.md
@@ -535,16 +571,62 @@ nav:
       - guides/outdated/index.md
       - '1.16.100': 
         - guides/outdated/1.16.100/index.md
+        - 物品与方块格式迁移: guides/outdated/1.16.100/item-block-format-migration.md
       - '1.10':
         - guides/outdated/1.10/index.md
+      - 旧版Bedrock Wiki资料辨析: guides/outdated/legacy-bedrock-wiki.md
+      - 旧版中国版模组SDK制作规范: guides/outdated/china-legacy-modsdk-guidelines.md
+      - 旧版中国版MC Studio工具链: guides/outdated/china-legacy-mc-studio.md
+      - 旧版中国版特效编辑器: guides/outdated/china-legacy-mc-studio-effects.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.368 1.01a.75.75 0 0 1 .623.859L6.57 4.5h3.98l.46-2.868a.75.75 0 0 1 1.48.237L12.07 4.5h2.18a.75.75 0 0 1 0 1.5h-2.42l-.64 4h2.56a.75.75 0 0 1 0 1.5h-2.8l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H5.45l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H1.75a.75.75 0 0 1 0-1.5h2.42l.64-4H2.25a.75.75 0 0 1 0-1.5h2.8l.46-2.868a.75.75 0 0 1 .858-.622M9.67 10l.64-4H6.33l-.64 4Z"></path></svg></span><span class="md-ellipsis">话题</span></span>':
     - topics/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96m0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32m32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16m16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16"></path></svg></span><span class="md-ellipsis">参考</span></span>':
     - refs/index.md
+    - 服务器:
+      - BDS的server.properties: refs/server/bds-server-properties.md
+      - LeviLamina API模块: refs/server/levilamina-api.md
+      - Endstone命令与文本格式: refs/server/endstone-command-format.md
+      - Allay API概览: refs/server/allay-api.md
+      - SerenityJS API概览: refs/server/serenity-api.md
+      - Nukkit-MOT API概览: refs/server/nukkit-mot-api.md
+    - 命令:
+      - 命令版本: refs/commands/version.md
+    - 附加包:
+      - 实体:
+        - 实体定义: refs/addon/entity.md
+        - 客户端实体定义: refs/addon/client-entity.md
+        - 动画定义: refs/addon/animation.md
+        - 动画控制器: refs/addon/animation-controller.md
+        - 渲染控制器: refs/addon/render-controller.md
+        - 粒子定义: refs/addon/particle.md
+        - 实体组件: refs/addon/entity-component.md
+        - 实体AI意向: refs/addon/entity-ai-goal.md
+        - 实体过滤器: refs/addon/entity-filter.md
+        - 实体事件与触发器: refs/addon/entity-event.md
+        - 生成规则: refs/addon/spawn-rule.md
+      - 生物群系定义: refs/addon/biome.md
+      - 地物定义: refs/addon/feature.md
+      - 地物规则: refs/addon/feature-rule.md
+      - 方块定义: refs/addon/block.md
+      - 方块组件: refs/addon/block-component.md
+      - 方块状态与置换: refs/addon/block-state.md
+      - 方块萃取: refs/addon/block-trait.md
+      - 物品定义: refs/addon/item.md
+      - 物品组件: refs/addon/item-component.md
+      - JSON UI文件: refs/addon/json-ui.md
+      - 相机定义: refs/addon/camera.md
+      - 迷雾定义: refs/addon/fog-settings.md
+      - 战利品表: refs/addon/loot-table.md
+      - 交易表: refs/addon/trade-table.md
+    - 中国版模组SDK:
+      - 世界控制接口: refs/modsdk/world-control.md
+      - 自定义书本格式与接口: refs/modsdk/custom-book.md
     - 附表:
       - refs/tables/index.md
       - 方块:
         - 原版方块标签: refs/tables/blocks/vanilla_tags.md
+        - 原版方块状态: refs/tables/blocks/block_states.md
+        - 附加值到方块状态映射: refs/tables/blocks/aux_value_to_block_state_map.md
       - 物品:
         - 原版物品标签: refs/tables/items/vanilla_tags.md
       - 生物群系:
@@ -585,6 +667,13 @@ nav:
     - help/index.md
     - Minecraft基岩版:
       - help/minecraft/index.md
+      - 存档与内容文件: help/minecraft/world-and-content-files.md
+      - 导入与启用内容: help/minecraft/importing-and-activating-content.md
+      - 预览版、测试版与更新日志: help/minecraft/preview-beta-changelogs.md
+      - 启动Minecraft编辑器: help/minecraft/launching-editor.md
+      - 复制坐标UI: help/minecraft/copy-coordinate-ui.md
+      - 多人游戏与服务器入口: help/minecraft/multiplayer-and-servers.md
+      - Minecraft教育版: help/minecraft/education.md
     - 基岩文档:
       - help/docs/index.md
       - 贡献: help/docs/contributing.md

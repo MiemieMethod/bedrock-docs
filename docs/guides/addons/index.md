@@ -1,51 +1,93 @@
 # 附加包系列教程
 
-__附加包（Add-on）__ 是一种Mojang官方支持的能够改变游戏运行规则的文件，其本质是一个压缩包。附加包一般由 __资源包（Resource Pack）__ 和 __行为包（Behavior Pack）__ 组成，资源包储存了音频、贴图、模型、动画、语言文件等，行为包储存了实体、方块、物品、配方、战利品表等。
+欢迎来到附加包教程。这个系列会带你从一个空文件夹出发，逐步做出能导入、能调试、能发布的Minecraft基岩版附加包。你不需要一次读完所有页面；建议先完成“认识附加包”“制作纹理包”“数据驱动”三部分，再按自己要做的内容选择实体、方块、物品、世界生成等专题。
 
-本系列教程将从附加包基础开始引导，到附加包高级内容的教学。在正式开始学习附加包结构并尝试制作之前，你需要准备好开发所需的软件工具和基本知识。若你已经具备开发附加包的基础，你可以根据需要在左侧导航栏选择性查看教程。
+## 你会做出什么
 
-## 搭建开发环境
+在这个系列中，我们会反复使用一组简单的示例命名：命名空间使用`demo`，资源包文件夹使用`demo_RP`，行为包文件夹使用`demo_BP`。你可以换成自己的项目名，但请保持同一个附加包中所有标识符、文件路径和本地化键一致。
 
-附加包的开发环境比较简单，一般我们选择在桌面端进行附加包开发，移动端不方便对文件进行编辑操作，但也可以完成开发。下面将介绍不同平台的开发环境搭建方法。
+完整的附加包通常由这些部分组成：
 
-### 选择正确的游戏版本
-
-/// note
-旧版本的接口可能已经被弃用或移除，此处的教程仅针对最新正式版的游戏引擎，若想了解旧版本的开发教程，请前往[过时教程](../outdated/index.md)查看。
+/// html | div.treeview
+- `demo_BP`
+    - `manifest.json`
+    - `blocks`
+    - `entities`
+    - `features`
+    - `feature_rules`
+    - `functions`
+    - `items`
+    - `loot_tables`
+    - `recipes`
+    - `structures`
+    - `texts`
+- `demo_RP`
+    - `manifest.json`
+    - `animations`
+    - `animation_controllers`
+    - `attachables`
+    - `entity`
+    - `fogs`
+    - `models`
+    - `particles`
+    - `render_controllers`
+    - `sounds`
+    - `texts`
+    - `textures`
 ///
 
-测试版/预览版的接口并不稳定，且更新频繁，因此我们建议非必要的情况下选择最新正式版游戏进行开发。你可以在设备的系统设置或游戏主界面的右下角查看当前游戏版本，然后前往[Minecraft Wiki](https://zh.minecraft.wiki/)查看已发布的最新游戏版本。
+不是每个项目都需要所有文件夹。官方资料明确指出，资源包和行为包中唯一共同必需的文件是`manifest.json`；其他目录只在你使用对应功能时创建。
 
-### 准备软件
+## 先准备环境
 
-#### 桌面端
+建议在Windows版Minecraft基岩版上学习本系列，因为桌面版更方便查看`com.mojang`目录、编辑文件和导入导出世界。正式版路径通常是：
 
-- __Visual Studio Code__：
-- __Blockbench__：
-- __Snowstorm（网页）__：
-- __NbtStudio__：
-- __Adobe Photoshop__：
+```text
+%appdata%\Minecraft Bedrock\users\shared\games\com.mojang
+```
 
-#### 移动端
+其中最常用的目录如下：
 
-- __MT管理器__：
-- __Blockbench（网页）__：
-- __Pixel Studio__：
+| 目录 | 用途 |
+|---|---|
+| `development_resource_packs` | 放正在开发的资源包。 |
+| `development_behavior_packs` | 放正在开发的行为包。 |
+| `minecraftWorlds` | 存放已创建的世界。 |
+| `world_templates` | 存放已导入的世界模板。 |
+| `skin_packs` | 存放已导入的皮肤包。 |
 
-## 导入、调试与打包
+推荐准备这些工具：
 
-### 导入方式
+- Visual Studio Code：编辑JSON、Molang、函数和语言文件。
+- Blockbench：制作模型、纹理和动画。
+- Snowstorm：制作粒子特效。
+- Audacity或其他音频工具：导出OGG声音文件。
+- 一个UUID生成器：给每个清单文件生成不会冲突的UUID。
 
-### 内容日志
+/// warning | 不要共用UUID
+`manifest.json`的`header.uuid`和每个`modules[].uuid`都应当不同。行为包依赖资源包时，行为包`dependencies`中填写的是资源包`header.uuid`，不是资源包模块UUID。
+///
 
-### 合并打包
+## 建议的学习顺序
 
-## 基础知识
+1. 先读[认识附加包](understanding-addons.md)，弄清资源包、行为包、清单文件和导入目录。
+2. 完成[制作纹理包](creating-texture-packs.md)，确认游戏能加载你的资源包。
+3. 学习[本地化](localization.md)，把游戏内显示名称从硬编码改成语言键。
+4. 进入[数据驱动](data-driven/index.md)，开始创建实体、方块、物品、配方和世界生成内容。
+5. 最后学习函数、世界模板、皮肤包和结构包，让附加包更适合发布或复用。
 
-## 错误解决方案
+## 调试习惯
 
-### 导入失败
+每次修改后，都请按下面的顺序检查：
 
-### 清单错误
+1. JSON能否被编辑器正确解析。
+2. 文件夹名称是否与游戏约定完全一致，例如`functions`不能写成`function`。
+3. 标识符是否都带命名空间，例如`demo:coin`。
+4. 世界是否同时激活了资源包和行为包。
+5. 内容日志中是否出现路径、格式版本或组件名称错误。
 
-<!-- 系列教程索引页 -->
+部分内容支持`/reload`重新加载，例如函数通常可以直接重载；脚本和数据驱动定义的热重载能力会随版本、模块和内容类型变化。纹理、模型和声音通常需要退出世界后重新进入才能可靠看到变化。
+
+## 打包发布
+
+开发时使用文件夹最方便；发布时可以把资源包或行为包根目录中的文件选中后压缩，再把扩展名改为`.mcpack`。如果同时发布资源包和行为包，可以把两个`.mcpack`再打包成`.mcaddon`。世界模板则使用`.mctemplate`。压缩时不要把外层文件夹本身压进去，否则Minecraft可能找不到根目录下的`manifest.json`。

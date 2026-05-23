@@ -23,6 +23,8 @@
   {
     "flipbook_texture": "textures/blocks/custom_animated",
     "atlas_tile": "custom_animated",
+    "atlas_index": 0,
+    "atlas_tile_variant": 0,
     "ticks_per_frame": 10,
     "frames": [0, 1, 2, 3, 2, 1],
     "replicate": 3,
@@ -42,6 +44,14 @@
 
 - 此动画在地形图集或物品图集中对应的短名称。该名称需要与{{file|terrain_texture.json}}或{{file|item_texture.json}}中定义的名称匹配。
 
+`atlas_index`
+
+- 可选。指定同一纹理短名称中要应用动画的纹理索引。用于`textures`字段定义了多个纹理路径的图集条目。
+
+`atlas_tile_variant`
+
+- 可选。指定同一纹理短名称中要应用动画的变种索引。用于图集条目通过`variations`定义多个变种的情况。
+
 `ticks_per_frame`
 
 - 每一帧的持续时间，以游戏刻为单位。值越大，动画播放越慢。
@@ -56,6 +66,6 @@
 
 `blend_frames`
 
-- 可选。是否在帧之间进行插值平滑过渡。默认为`false`。
+- 可选。是否在帧之间进行插值平滑过渡。默认为`true`。
 
 ///
