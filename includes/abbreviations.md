@@ -1,6 +1,7 @@
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 *[API]: Application Programming Interface
+*[BOM]: Byte Order Mark
 *[GTK]: GIMP Toolkit
 *[MTPE]: Machine Translation Post-Editing
 *[GPT]: Generative Pre-Trained Transformer
@@ -22,6 +23,7 @@
 *[JS]: JavaScript
 *[TS]: TypeScript
 *[UI]: User Interface
+*[HUD]: Heads-Up Display
 *[UX]: User Experience
 *[CLI]: Command Line Interface
 *[GUI]: Graphical User Interface
@@ -96,7 +98,12 @@
 *[SGA]: Standard Galactic Alphabet
 *[PUA]: Private Use Area
 *[OBJ]: Wavefront Object
+*[HLSL]: High Level Shading Language
+*[MSAA]: Multisample Anti-Aliasing
 *[FBX]: Filmbox
 *[DAE]: Digital Asset Exchange
 *[AABB]: Axis-Aligned Bounding Box
 *[RGB]: Red, Green, Blue
+*[PC]: Personal Computer
+*[PVP]: Player versus Player
+*[RPG]: Role-Playing Game

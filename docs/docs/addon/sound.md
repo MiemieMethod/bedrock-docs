@@ -6,17 +6,34 @@
 
 基岩版的声音系统围绕**声音事件（Sound Event）**组织。游戏中的各种行为（如方块放置、实体受伤、环境音等）触发对应的声音事件，引擎根据资源包中的声音定义查找该事件应播放的音频文件及其播放参数。
 
-声音定义文件为资源包根目录下的{{file|sound_definitions.json}}。
+资源包中与声音相关的主要文件有两个：`sounds/sound_definitions.json`用于定义声音事件与音频文件的对应关系，`sounds.json`用于将声音事件绑定到实体、方块和交互行为的自动触发逻辑上。
 
 ## 声音定义文件
 
-`sound_definitions.json`以JSON格式定义所有声音事件及其关联的音频文件。每个声音事件的定义包括：
+{{file|sounds/sound_definitions.json}}以JSON格式定义所有自定义声音事件。通过此文件定义声音短名称后，即可通过`/playsound`命令或`sounds.json`引用。
 
-- **`sounds`**：一个音频文件路径列表。当声音事件触发时，从中随机选取一个播放。每个条目可以是简单的字符串路径，也可以是一个包含详细参数的对象。
-- **`category`**：声音所属的分类，影响其受哪个音量滑块控制。可选值包括`master`、`music`、`record`、`weather`、`block`、`hostile`、`neutral`、`player`、`ambient`、`ui`等。
-- **`min_distance`**和**`max_distance`**：声音可被听到的最小和最大距离。
+每个声音事件的顶层字段包括：
 
-```json title="声音定义示例"
+/// define
+`category`
+
+- 声音所属的分类，影响其受哪个音量滑块控制。可选值详见下方分类表。
+
+`min_distance`
+
+- 声音开始衰减的最小距离（浮点数），默认`0.0`。
+
+`max_distance`
+
+- 声音衰减至最弱的最大距离（浮点数）。若未设置，则可听范围由`/playsound`音量参数决定，计算式为`playsound_volume × 16`（最小16）。
+
+`sounds`
+
+- 音频文件路径的数组。触发时从中随机选取一个播放。每项可以是字符串路径，也可以是包含详细参数的对象。
+
+///
+
+```json title="sound_definitions.json示例"
 {
   "format_version": "1.14.0",
   "sound_definitions": {
@@ -35,9 +52,117 @@
 }
 ```
 
+### 分类
+
+`category`字段控制声音所受的音量设置影响：
+
+| 分类 | 说明 |
+|------|------|
+| `weather` | 天气音效 |
+| `block` | 方块交互音效 |
+| `bucket` | 桶类操作音效 |
+| `bottle` | 玻璃瓶操作音效 |
+| `ui` | 界面音效（不受距离限制） |
+| `player` | 玩家相关音效 |
+| `hostile` | 敌对生物音效 |
+| `music` | 背景音乐 |
+| `record` | 唱片机音效 |
+| `neutral` | 中立生物音效 |
+
+### `sounds`数组的对象式参数
+
+当`sounds`数组中的条目为对象时，支持以下参数：
+
+/// define
+`name`
+
+- 音频文件路径，如`"sounds/music/game/creative/creative1"`，不含扩展名。
+
+`stream`
+
+- 启用流式加载。适用于较长音频，可降低内存占用。
+
+`volume`
+
+- 音量比例（0.0–1.0，可超过1.0）。
+
+`pitch`
+
+- 音调倍率，如`2.3`表示以2.3倍速播放。可指定为`[min, max]`格式以随机化。
+
+`is3D`
+
+- 是否启用3D空间音效。音乐和界面分类会自动禁用。
+
+`weight`
+
+- 随机权重。权重为10的条目被选中的概率是权重为2的条目的5倍。
+
+`interruptible`
+
+- 是否可被其他声音中断，默认`true`。
+
+///
+
+## sounds.json
+
+{{file|sounds.json}}位于资源包根目录，用于将声音事件绑定到游戏内的自动触发逻辑。它包含以下分类：
+
+| 分类 | 说明 |
+|------|------|
+| `individual_event_sounds` | 独立事件音效，如信标激活 |
+| `block_sounds` | 方块交互音效 |
+| `entity_sounds` | 实体生命周期音效，包括自定义实体 |
+| `interactive_sounds` | 玩家交互音效 |
+
+### 实体音效
+
+`entity_sounds`下的常见生命周期事件：
+
+| 事件 | 触发时机 |
+|------|----------|
+| `ambient` | 随机环境音（如生物低鸣） |
+| `hurt` | 受伤时 |
+| `death` | 死亡时 |
+| `step` | 移动时 |
+| `fall.big` | 高处跌落 |
+| `fall.small` | 低处跌落 |
+| `splash` | 溅水 |
+| `attack` | 近战攻击 |
+| `shoot` | 远程射击 |
+
+```json title="sounds.json实体音效示例"
+{
+  "entity_sounds": {
+    "entities": {
+      "wiki:elephant": {
+        "volume": 1,
+        "pitch": [0.9, 1.0],
+        "events": {
+          "step": {
+            "sound": "elephant.step",
+            "volume": 0.18,
+            "pitch": 1.1
+          },
+          "ambient": {
+            "sound": "elephant.trumpet",
+            "volume": 0.11,
+            "pitch": 0.9
+          }
+        }
+      }
+    }
+  }
+}
+```
+
 ## 音频文件格式
 
-基岩版支持的音频文件格式为`.ogg`（Ogg Vorbis）、`.wav`和`.fsb`（FMOD Sound Bank）。自定义音效通常使用`.ogg`或`.wav`格式。音频文件位于资源包的`sounds/`目录中，在声音定义中引用时不需要包含文件扩展名。
+基岩版支持的音频文件格式为`.ogg`（Ogg Vorbis）、`.wav`和`.fsb`（FMOD音频库）。自定义音效通常使用`.ogg`或`.wav`格式。音频文件位于资源包的`sounds/`目录中，在声音定义中引用时不需要包含文件扩展名。
+
+/// warning | 新增声音文件需完整重启
+新增声音文件后需要完全重启客户端才能生效。仅重新加载世界不足以使新音频被加载。
+///
 
 ## 声音播放
 
@@ -45,7 +170,8 @@
 
 - **游戏内部**：引擎在执行特定逻辑时自动触发关联的声音事件，如方块交互、实体行为、界面操作等。
 - **`/playsound`命令**：通过命令播放指定的声音事件，可以指定目标玩家、位置、音量和音调参数。
-- **动画和动画控制器**：在动画时间轴或状态转移中触发音效。
+- **动画**：在客户端实体定义中声明`sound_effects`短名称，再在动画文件的时间轴中绑定音效触发点。
+- **动画控制器**：在状态的`sound_effects`数组中指定短名称，当控制器进入该状态时触发。
 - **粒子特效**：粒子系统中可以关联声音事件。
 - **脚本API**：通过脚本在世界中播放声音。<!-- md:flag vanilla -->
 
