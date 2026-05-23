@@ -388,6 +388,7 @@ nav:
         - 坐标: docs/general/coordinate.md
       - 游戏玩法:
         - 实体: docs/general/entity.md
+        - 弹射物: docs/general/projectile.md
         - 方块: docs/general/block.md
         - 方块状态: docs/general/block-state.md
         - 方块置换: docs/general/block-permutation.md
@@ -430,6 +431,7 @@ nav:
         - 附加包: docs/addon/addon.md
         - 清单文件: docs/addon/manifest.md
         - 内容文件: docs/addon/content-file.md
+        - 文件类型: docs/addon/file-type.md
         - 模块: docs/addon/module.md
         - 资源包: docs/addon/resource-pack.md
         - 行为包: docs/addon/behavior-pack.md
@@ -484,8 +486,10 @@ nav:
       - 制作纹理包: guides/addons/creating-texture-packs.md
       - 本地化: guides/addons/localization.md
       - 使用子包: guides/addons/utilizing-sub-packs.md
+      - 附加包故障排除: guides/addons/troubleshooting.md
       - 数据驱动:
         - guides/addons/data-driven/index.md
+        - 认识格式版本: guides/addons/data-driven/format-version.md
         - 制作模型: guides/addons/data-driven/creating-models.md
         - 认识Molang: guides/addons/data-driven/understanding-molang.md
         - 自定义实体:

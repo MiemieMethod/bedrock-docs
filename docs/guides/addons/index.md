@@ -34,17 +34,37 @@
     - `sounds`
     - `texts`
     - `textures`
+    - `ui`
 ///
 
 不是每个项目都需要所有文件夹。官方资料明确指出，资源包和行为包中唯一共同必需的文件是`manifest.json`；其他目录只在你使用对应功能时创建。
 
 ## 先准备环境
 
-建议在Windows版Minecraft基岩版上学习本系列，因为桌面版更方便查看`com.mojang`目录、编辑文件和导入导出世界。正式版路径通常是：
+建议在Windows版Minecraft基岩版上学习本系列，因为桌面版更方便查看`com.mojang`目录、编辑文件和导入导出世界。各平台的路径如下：
 
+/// tab | Windows
 ```text
-%appdata%\Minecraft Bedrock\users\shared\games\com.mojang
+%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang
 ```
+在Windows资源管理器地址栏或运行框（++win+r++）中直接粘贴这段路径即可跳转。
+///
+/// tab | Android 11及更早版本
+```text
+手机存储/games/com.mojang
+```
+///
+/// tab | Android 12及更新版本
+```text
+手机存储/Android/data/com.mojang.minecraftpe/files/games/com.mojang
+```
+Android 12以上系统对`Android/data`目录有访问限制，可能需要借助支持访问该目录的文件管理器（如X-Plore）。
+///
+/// tab | iOS
+```text
+我的设备/Minecraft/games/com.mojang
+```
+///
 
 其中最常用的目录如下：
 
@@ -74,7 +94,10 @@
 2. 完成[制作纹理包](creating-texture-packs.md)，确认游戏能加载你的资源包。
 3. 学习[本地化](localization.md)，把游戏内显示名称从硬编码改成语言键。
 4. 进入[数据驱动](data-driven/index.md)，开始创建实体、方块、物品、配方和世界生成内容。
-5. 最后学习函数、世界模板、皮肤包和结构包，让附加包更适合发布或复用。
+5. 学习[JSON UI进阶技巧](json-ui/index.md)，掌握HUD改造、绑定技巧和界面兼容实践。<!-- md:flag vanilla -->
+6. 最后学习函数、世界模板、皮肤包和结构包，让附加包更适合发布或复用。
+
+遇到问题时，参考[附加包故障排除](troubleshooting.md)。
 
 ## 调试习惯
 
