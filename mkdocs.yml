@@ -537,6 +537,14 @@ nav:
         - guides/addons/script-api/index.md
         - 构建第一个脚本: guides/addons/script-api/building-your-first-scripts.md
         - 使用TypeScript构建包: guides/addons/script-api/building-packs-with-typescript.md
+        - 脚本执行权限: guides/addons/script-api/privileges.md
+        - 脚本核心功能: guides/addons/script-api/script-core-features.md
+        - 服务端表单: guides/addons/script-api/server-forms.md
+        - 自定义命令: guides/addons/script-api/custom-commands.md
+        - 服务端HTTP请求: guides/addons/script-api/script-net.md
+        - 方块放置拦截: guides/addons/script-api/placement-prevention.md
+        - GameTest框架: guides/addons/script-api/game-tests.md
+        - 脚本错误排查: guides/addons/script-api/troubleshooting.md
       - 模组SDK:
         - guides/addons/modsdk/index.md
         - 第一个Python脚本模组: guides/addons/modsdk/first-python-mod.md
