@@ -35,3 +35,29 @@
 ## 调试原则
 
 如果实体无法生成，先看行为包；如果能生成但看不见，先看资源包。实体问题很容易同时出现在两边，因此建议每一步都进游戏测试，不要一次写完所有文件再排错。
+
+## 进阶专题
+
+掌握基础之后，可以继续探索以下专题：
+
+/// html | div.grid.cards
+- :material-ghost: [**虚拟实体**](dummy-entities.md)：无视觉、无行为的标记实体，常用于区域检测
+- :material-shield: [**无敌实体**](invulnerable-entities.md)：使实体完全免疫所有伤害
+- :material-cube: [**固体实体**](solid-entities.md)：让实体具有碰撞阻挡效果
+- :material-timer: [**实体计时器**](timers.md)：基于时间触发事件的多种方法
+- :material-eye: [**注视实体检测**](look-at-entity.md)：检测实体是否正在注视你
+- :material-sword-off: [**禁用队伍伤害**](disabling-team-damage.md)：防止同族实体互相伤害
+- :material-run-fast: [**实体移动**](entity-movement.md)：完整的移动系统配置指南
+- :material-sword: [**实体攻击**](entity-attack.md)：目标选择与多种攻击类型
+- :material-bed: [**睡眠实体**](sleeping-entities.md)：让实体使用床睡觉
+- :material-hand-back-right: [**实体持物**](holding-items.md)：让实体在手中显示物品
+- :material-radar: [**检测其他实体**](detecting-other-entities.md)：感知并响应附近的实体
+- :material-airplane: [**飞行实体的骑乘控制**](flying-entities.md)：可骑乘的飞行实体实现方案
+- :material-ferry: [**船型实体**](boat-entities.md)：在液体中漂浮的可骑乘实体
+- :material-cloud: [**区域效果云**](area-effect-clouds.md)：高性能的静态标记与状态效果云
+- :material-chat: [**NPC对话进阶**](npc-dialogue.md)：完整的多场景对话系统
+- :material-heart-plus: [**生成已驯服实体**](spawning-tamed-entities.md)：预先与玩家绑定的驯服实体
+- :material-village: [**仿村庄机制**](village-mechanic.md)：模拟居住、工作、聚集等村民行为
+- :material-arrow-projectile: [**弹射物**](projectiles.md)：`minecraft:projectile`组件完整参考
+- :material-axis-arrow: [**坐标空间变换**](coordinate-space-conversion.md)：世界、实体与骨骼空间的坐标转换
+///

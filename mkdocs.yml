@@ -538,6 +538,12 @@ nav:
         - 自定义战利品表: guides/addons/data-driven/adding-custom-loot-tables.md
         - 自定义迷雾: guides/addons/data-driven/adding-custom-fogs.md
         - 自定义地物与生成技巧: guides/addons/data-driven/adding-custom-features.md
+        - 世界生成实战:
+          - 生成自定义矿石: guides/addons/data-driven/generating-custom-ores.md
+          - 生成地表斑块: guides/addons/data-driven/surface-patches.md
+          - 通过结构模板地物生成结构: guides/addons/data-driven/generating-structures.md
+          - 利用方块条件控制地物放置: guides/addons/data-driven/feature-block-conditions.md
+          - 使用噪声高度图生成地形: guides/addons/data-driven/heightmap-noise.md
         - 自定义生物群系: guides/addons/data-driven/adding-custom-biomes.md
         - 自定义维度: guides/addons/data-driven/adding-custom-dimensions.md
         - 自定义功能域: guides/addons/data-driven/adding-custom-volumes.md

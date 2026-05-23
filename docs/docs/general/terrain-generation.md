@@ -30,6 +30,8 @@
 
 **地物（Feature）**系统在地形生成的最后阶段放置各种装饰性内容，包括树木、花草、矿脉、水潭、结构等。地物通过地物规则与生物群系关联，按照**放置阶段（Placement Pass）**的顺序依次放置。
 
+行为包中常见的世界生成目录包括`biomes`、`features`、`feature_rules`、`structures`和`worldgen`。前四者分别对应生物群系、地物、地物规则和结构模板；`worldgen`则主要用于拼图结构相关定义。
+
 ## 自定义地形生成<!-- md:flag vanilla -->
 
 国际版通过附加包的数据驱动系统支持自定义地形生成的部分环节。开发者可以在行为包中定义：
@@ -37,6 +39,8 @@
 - **自定义生物群系**：定义新的生物群系及其地表方块、气候参数和地物配置。
 - **自定义地物和地物规则**：定义新的地物类型和放置规则，控制世界中生成的内容。
 - **自定义维度**：创建拥有独立地形生成配置的维度。
+
+具体实践可参考[生成自定义矿石](../../guides/addons/data-driven/generating-custom-ores.md)、[生成地表斑块](../../guides/addons/data-driven/surface-patches.md)、[通过结构模板地物生成结构](../../guides/addons/data-driven/generating-structures.md)、[利用方块条件控制地物放置](../../guides/addons/data-driven/feature-block-conditions.md)与[使用噪声高度图生成地形](../../guides/addons/data-driven/heightmap-noise.md)。
 
 ## 地形生成器
 
