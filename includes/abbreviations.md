@@ -108,3 +108,5 @@
 *[PC]: Personal Computer
 *[PVP]: Player versus Player
 *[RPG]: Role-Playing Game
+*[ESM]: ECMAScript Module System
+*[HTTPS]: Hypertext Transfer Protocol Secure

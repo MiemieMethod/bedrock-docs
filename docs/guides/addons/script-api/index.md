@@ -9,6 +9,22 @@
   从`manifest.json`中的脚本模块开始，创建`scripts/main.js`，用`system.runInterval`让世界每隔一段时间执行一次代码。
 - :material-language-typescript: __[使用TypeScript构建包](building-packs-with-typescript.md)__
   使用Node.js、NPM和官方TypeScript启动项目，把`main.ts`编译并部署为Minecraft可加载的JavaScript。
+- :material-shield-lock: __[脚本执行权限](privileges.md)__
+  了解受限执行模式与早期执行模式，学习如何用`system.run()`和`worldLoad`事件安全地绕过权限限制。
+- :material-cog: __[脚本核心功能](script-core-features.md)__
+  事件订阅与取消、任务调度（`runInterval`、`runTimeout`、`runJob`）、动态属性持久化存储，以及`runCommand`的用法与限制。
+- :material-form-select: __[服务端表单](server-forms.md)__
+  使用`@minecraft/server-ui`向玩家弹出动作表单、消息表单和模态表单，处理玩家的选择和输入。
+- :material-hammer-wrench: __[自定义命令](custom-commands.md)__
+  通过`system.beforeEvents.startup`注册自定义命令，配置参数类型和权限级别。
+- :material-web: __[服务端HTTP请求](script-net.md)__
+  在BDS上使用`@minecraft/server-net`模块发出GET/POST HTTP请求，与外部服务集成。
+- :material-block-helper: __[方块放置拦截](placement-prevention.md)__
+  使用`world.beforeEvents.playerPlaceBlock`拦截并取消玩家的方块放置操作，实现区域保护。
+- :material-test-tube: __[GameTest框架](game-tests.md)__
+  用`@minecraft/server-gametest`模块编写自动化测试用例，通过`/gametest`命令运行。
+- :material-bug: __[脚本错误排查](troubleshooting.md)__
+  常见JavaScript错误类型解析、脚本API特有错误（权限不足、实体失效等），以及读取内容日志调用栈的技巧。
 ///
 
 ## 开始前要知道什么
