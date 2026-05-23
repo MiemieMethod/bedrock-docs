@@ -110,3 +110,4 @@
 *[RPG]: Role-Playing Game
 *[ESM]: ECMAScript Module System
 *[HTTPS]: Hypertext Transfer Protocol Secure
+*[TTS]: Text-to-Speech

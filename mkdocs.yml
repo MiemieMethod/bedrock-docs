@@ -529,6 +529,8 @@ nav:
         - 通过Title保留并更新HUD文本: guides/addons/json-ui/preserve-title-texts.md
         - 字符串转数值: guides/addons/json-ui/string-to-number.md
         - 使用Aseprite序列帧动画: guides/addons/json-ui/aseprite-flipbook.md
+        - 按钮与开关: guides/addons/json-ui/buttons-and-toggles.md
+        - 修改服务器表单: guides/addons/json-ui/modifying-server-forms.md
       - 使用函数: guides/addons/utilizing-functions.md
       - 创建世界模板: guides/addons/create-a-world-template.md
       - 制作皮肤包: guides/addons/creating-skin-packs.md
