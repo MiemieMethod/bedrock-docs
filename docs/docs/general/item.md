@@ -20,6 +20,18 @@
 
 **附加值（Aux Value）**是损坏值的别称，在早期文档和社区中较为常用。附加值与损坏值指代完全相同的概念。
 
+## 数值ID
+
+**数值ID（Numerical Item ID）**是旧系统中用于标识物品和方块的整数值。在当前版本中，数值ID主要用于兼容性场景，例如JSON UI中的`item_id_aux`渲染参数、旧内容迁移和调试核对。
+
+数值ID会随游戏版本和内容变更而变化，不应作为新内容逻辑的唯一依据。自定义内容中应优先使用赋命名空间标识符。原版物品数值ID附表见[原版物品列表](../../refs/tables/items/vanilla_items.md)。
+
+## 物品标签
+
+**物品标签（Item Tag）**是附加在物品上的字符串标记，可用于配方输入匹配、行为筛选和Molang查询。多个系统都会使用物品标签，例如配方中的标签输入、`minecraft:tags`组件以及`q.equipped_item_any_tag`等查询函数。
+
+原版标签及其物品映射见[原版物品标签](../../refs/tables/items/vanilla_tags.md)。
+
 ## 物品组件
 
 在数据驱动系统中，自定义物品通过**组件（Component）**定义其属性和行为。常见的物品组件包括：
@@ -41,6 +53,49 @@
 - **组件（Components）**：定义物品的各项属性和行为。
 
 物品的图标纹理通过资源包中的{{file|item_texture.json}}文件进行映射。该文件定义了纹理短名称与实际纹理文件路径之间的对应关系。
+
+### 菜单分类
+
+**菜单分类（Menu Category）**是物品描述中的`menu_category`字段，用于控制物品在创造模式物品栏和配方书中的显示位置。若省略该字段，物品将不会出现在任何标签页或配方书中，只能通过命令获取。
+
+/// define
+`category`
+
+- 字符串。指定物品所在的创造模式标签页。可用值如下：
+
+  | 分类值 | 对应标签页 |
+  |--------|-----------|
+  | `construction` | 建筑 |
+  | `equipment` | 装备 |
+  | `items` | 物品 |
+  | `nature` | 自然 |
+  | `none` | 不显示在任何标签页中，仅可通过命令获取 |
+
+`group`
+
+- 字符串，可选。指定物品归属的可展开分组。填入自定义值时不会创建新分组，但拥有相同`group`值的物品会在创造模式物品栏中相邻排列。填入原版分组标识符（如`itemGroup.name.door`）时，物品会出现在对应的可展开折叠项中。
+
+`is_hidden_in_commands`
+
+- 布尔值，可选，默认为`false`。设为`true`时，该物品无法通过`/give`等命令获取。
+
+///
+
+```json
+"menu_category": {
+  "category": "nature",
+  "group": "itemGroup.name.wood",
+  "is_hidden_in_commands": false
+}
+```
+
+/// bug | 已知问题（MCPE-177866）
+当前版本中，将自定义物品（非方块）的`category`设为`none`会覆盖`is_hidden_in_commands`的设置，导致该物品无法通过命令使用。此问题不影响方块类物品。
+///
+
+/// note | 自定义刷怪蛋
+自定义刷怪蛋的菜单分类不可修改，如需类似效果，应使用`minecraft:entity_placer`组件创建专用物品。
+///
 
 ## 物品实体
 
