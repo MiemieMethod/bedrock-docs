@@ -453,6 +453,7 @@ nav:
         - 迷雾: docs/addon/fog.md
       - 服务端数据:
         - 脚本API: docs/addon/script-api.md
+        - 实体定义: docs/addon/entity.md
         - 维度: docs/addon/dimension.md
         - 配方: docs/addon/recipe.md
         - 战利品表: docs/addon/loot-table.md
@@ -504,7 +505,7 @@ nav:
         - 自定义配方: guides/addons/data-driven/adding-custom-recipes.md
         - 自定义战利品表: guides/addons/data-driven/adding-custom-loot-tables.md
         - 自定义迷雾: guides/addons/data-driven/adding-custom-fogs.md
-        - 自定义地物: guides/addons/data-driven/adding-custom-features.md
+        - 自定义地物与生成技巧: guides/addons/data-driven/adding-custom-features.md
         - 自定义生物群系: guides/addons/data-driven/adding-custom-biomes.md
         - 自定义维度: guides/addons/data-driven/adding-custom-dimensions.md
         - 自定义功能域: guides/addons/data-driven/adding-custom-volumes.md
@@ -522,6 +523,7 @@ nav:
         - 系统、事件与组件: guides/addons/modsdk/systems-events-components.md
         - 中国版数据驱动维度与地形: guides/addons/modsdk/custom-dimensions-and-terrain.md
         - 制作自定义书本: guides/addons/modsdk/custom-books.md
+        - 模组SDK调试与热更新: guides/addons/modsdk/debugging-and-hot-reload.md
     - 社区模组:
       - guides/community-mods/index.md
       - ICMod:
@@ -568,6 +570,7 @@ nav:
       - BetterRTX: guides/shaders/betterrtx.md
     - 杂项教程:
       - guides/misc/index.md
+      - 命令系统实践模板: guides/misc/command-systems.md
     - 过时教程:
       - guides/outdated/index.md
       - '1.16.100': 
@@ -584,6 +587,7 @@ nav:
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96m0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32m32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16m16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16"></path></svg></span><span class="md-ellipsis">参考</span></span>':
     - refs/index.md
     - 服务器:
+      - 基岩版服务端软件生态: refs/server/server-software-ecosystem.md
       - BDS的server.properties: refs/server/bds-server-properties.md
       - LeviLamina API模块: refs/server/levilamina-api.md
       - Endstone命令与文本格式: refs/server/endstone-command-format.md
@@ -594,7 +598,12 @@ nav:
       - 命令参考: refs/commands/index.md
       - 国际版命令清单: refs/commands/command-list.md
       - 命令参数类型: refs/commands/command-argument-type.md
+      - 选择器参数: refs/commands/selector-parameter.md
+      - 伤害原因枚举: refs/commands/damage-cause.md
       - 命令版本: refs/commands/version.md
+    - 开发工具:
+      - refs/tools/index.md
+      - 创作者工具内容校验规则: refs/tools/mctools-validation-rules.md
     - 附加包:
       - 清单与配置:
         - 清单文件架构: refs/addon/manifest-schema.md
@@ -606,6 +615,7 @@ nav:
         - 原生模块依赖: refs/addon/manifest-native-module-dependency.md
         - 子包配置: refs/addon/manifest-subpack.md
         - 版本格式: refs/addon/semversion.md
+        - 皮肤包架构: refs/addon/skin-pack.md
         - 世界设置: refs/addon/world-setting.md
         - 切换设置: refs/addon/world-setting-toggle.md
         - 滑块设置: refs/addon/world-setting-slider.md
@@ -614,7 +624,9 @@ nav:
         - 标签设置: refs/addon/world-setting-label.md
       - 实体:
         - 实体定义: refs/addon/entity.md
+        - 运行时标识符: refs/addon/runtime-identifier.md
         - 客户端实体定义: refs/addon/client-entity.md
+        - 附着物定义: refs/addon/attachable.md
         - 动画定义: refs/addon/animation.md
         - 动画控制器: refs/addon/animation-controller.md
         - 渲染控制器: refs/addon/render-controller.md
@@ -624,33 +636,76 @@ nav:
         - 实体过滤器: refs/addon/entity-filter.md
         - 实体事件与触发器: refs/addon/entity-event.md
         - 生成规则: refs/addon/spawn-rule.md
+      - Molang:
+        - Molang数学函数: refs/addon/molang-math-function.md
+        - Molang查询函数: refs/addon/molang-query-function.md
       - 生物群系定义: refs/addon/biome.md
+      - 客户端生物群系定义: refs/addon/client-biome.md
       - 维度定义: refs/addon/dimension.md
       - 地物定义: refs/addon/feature.md
       - 地物规则: refs/addon/feature-rule.md
+      - 拼图结构: refs/addon/jigsaw-structure.md
+      - 模板池: refs/addon/jigsaw-template-pool.md
+      - 处理器列表: refs/addon/jigsaw-processor-list.md
+      - 结构集: refs/addon/jigsaw-structure-set.md
       - 方块定义: refs/addon/block.md
       - 方块组件: refs/addon/block-component.md
       - 方块状态与置换: refs/addon/block-state.md
       - 方块萃取: refs/addon/block-trait.md
+      - 体素形状文档: refs/addon/voxel-shape.md
       - 物品定义: refs/addon/item.md
       - 物品组件: refs/addon/item-component.md
       - JSON UI文件: refs/addon/json-ui.md
       - 相机定义: refs/addon/camera.md
+      - 几何体定义: refs/addon/geometry.md
+      - 纹理集: refs/addon/texture-set.md
+      - 光照设置: refs/addon/lighting-settings.md
+      - 大气散射设置: refs/addon/atmosphere-settings.md
+      - 色彩分级设置: refs/addon/color-grading-settings.md
+      - PBR回退设置: refs/addon/pbr-fallback-settings.md
+      - 点光设置: refs/addon/point-light-settings.md
+      - 阴影风格设置: refs/addon/shadow-settings.md
+      - 水体设置: refs/addon/water-settings.md
       - 迷雾定义: refs/addon/fog-settings.md
       - 战利品表: refs/addon/loot-table.md
       - 交易表: refs/addon/trade-table.md
       - 对话定义: refs/addon/dialogue-document.md
     - 中国版模组SDK:
+      - refs/modsdk/index.md
+      - 中国版ModAPI接口域索引: refs/modsdk/modapi-interface-index.md
+      - 中国版ModAPI事件域索引: refs/modsdk/modapi-event-index.md
+      - 中国版ModAPI枚举值索引: refs/modsdk/modapi-enum-index.md
       - 世界控制接口: refs/modsdk/world-control.md
+      - 通用接口: refs/modsdk/modapi-common-api.md
+      - 实体接口: refs/modsdk/modapi-entity-api.md
+      - 玩家接口: refs/modsdk/modapi-player-api.md
+      - 方块与世界接口: refs/modsdk/modapi-block-api.md
+      - 特效接口: refs/modsdk/modapi-effects-api.md
+      - UI与交互接口: refs/modsdk/modapi-ui-api.md
       - 自定义书本格式与接口: refs/modsdk/custom-book.md
+      - 模组SDK版本更新索引: refs/modsdk/version-update.md
+      - Apollo网络服事件: refs/modsdk/apollo-events.md
+      - Apollo控制服接口: refs/modsdk/apollo-control-api.md
+      - Apollo功能服接口: refs/modsdk/apollo-service-api.md
+      - Apollo大厅与游戏服接口: refs/modsdk/apollo-lobby-game-api.md
+      - Apollo公共接口: refs/modsdk/apollo-common-api.md
+      - Apollo服务器通信接口: refs/modsdk/apollo-communication-api.md
+      - Apollo运营指令: refs/modsdk/apollo-op-commands.md
+      - Apollo启动器信息接口: refs/modsdk/apollo-launcher-api.md
+      - Apollo插件生态: refs/modsdk/apollo-plugin-ecosystem.md
     - 附表:
       - refs/tables/index.md
       - 方块:
+        - 原版方块列表: refs/tables/blocks/vanilla_blocks.md
         - 原版方块标签: refs/tables/blocks/vanilla_tags.md
         - 原版方块状态: refs/tables/blocks/block_states.md
         - 附加值到方块状态映射: refs/tables/blocks/aux_value_to_block_state_map.md
       - 物品:
+        - 原版物品列表: refs/tables/items/vanilla_items.md
         - 原版物品标签: refs/tables/items/vanilla_tags.md
+      - 实体:
+        - 原版实体列表: refs/tables/entities/vanilla_entities.md
+        - 附加包实体损伤来源: refs/tables/entities/addon_entity_damage_sources.md
       - 生物群系:
         - 原版生物群系标签: refs/tables/biomes/vanilla_tags.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 64C0 28.7 28.7 0 64 0h320c35.3 0 64 28.7 64 64v384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm183 214.8c-27.9-13.2-48.4-39.4-53.7-70.8h39.1c1.6 30.4 7.7 53.8 14.6 70.8m41.3 9.2h-.6c-2.4-3.5-5.7-8.9-9.1-16.5-6-13.6-12.4-34.3-14.2-63.5h47.1c-1.8 29.2-8.1 49.9-14.2 63.5-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8h39.1c-5.3 31.4-25.8 57.6-53.7 70.8M279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8 27.9 13.2 48.4 39.4 53.7 70.8zm-55.9-80h.6c2.4 3.5 5.7 8.9 9.1 16.5 6 13.6 12.4 34.3 14.2 63.5h-47.1c1.8-29.2 8.1-49.9 14.2-63.5 3.4-7.6 6.7-13 9.1-16.5zm-40.7 9.2c-6.8 17.1-12.9 40.4-14.6 70.8h-39.1c5.3-31.4 25.8-57.6 53.7-70.8M352 192a128 128 0 1 0-256 0 128 128 0 1 0 256 0M112 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h224c8.8 0 16-7.2 16-16s-7.2-16-16-16z"></path></svg></span><span class="md-ellipsis">翻译</span></span>':
