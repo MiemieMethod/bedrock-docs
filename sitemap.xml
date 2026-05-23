@@ -49,6 +49,10 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/dimension/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/feature/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
@@ -765,6 +769,10 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/animation-controller/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
@@ -798,6 +806,14 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/client-entity/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/dialogue-document/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/dimension/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
@@ -849,6 +865,38 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-dependency/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-header/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-metadata/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-module/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-native-module-dependency/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-pack-dependency/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-schema/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/manifest-subpack/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/particle/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
@@ -857,11 +905,51 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/semversion/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/spawn-rule/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/trade-table/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/world-setting-dropdown-option/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/world-setting-dropdown/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/world-setting-label/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/world-setting-slider/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/world-setting-toggle/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/world-setting/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/commands/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/commands/command-argument-type/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/commands/command-list/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
