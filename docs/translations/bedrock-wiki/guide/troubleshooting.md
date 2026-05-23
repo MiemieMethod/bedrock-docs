@@ -51,7 +51,7 @@
 
 ## JSON模式校验
 
-JSON模式是验证文件有效性的重要工具。了解更多关于JSON模式的使用方法，请参阅[模式校验文档](https://wiki.bedrock.dev/meta/using-schemas)。
+JSON模式是验证文件有效性的重要工具。了解更多关于JSON模式的使用方法，请参阅[配置JSON架构校验](../../../guides/tools/json-schemas.md)。
 
 # 附加包故障排查
 

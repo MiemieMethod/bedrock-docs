@@ -82,6 +82,7 @@
 *[FoV]: Field of View
 *[VR]: Virtual Reality
 *[MR]: Mixed Reality
+*[OpenXR]: OpenXR
 *[JVM]: Java Virtual Machine
 *[LTS]: Long Term Support
 *[LSP]: Language Server Protocol

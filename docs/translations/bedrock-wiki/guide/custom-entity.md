@@ -27,7 +27,7 @@
 
 与物品类似，我们需要一个文件来定义实体行为，通过标识符关联到具体的行为组件。这个文件的结构与物品行为文件非常相似，但包含更多组件。
 
-我们在行为包的`BP/entities/`文件夹下创建服务端文件，命名为`ghost.se.json`。这里的`.se`代表 _server entity_ （服务端实体），这是为了清晰起见，符合[样式指南](https://wiki.bedrock.dev/meta/style-guide)的推荐。
+我们在行为包的`BP/entities/`文件夹下创建服务端文件，命名为`ghost.se.json`。这里的`.se`代表 _server entity_（服务端实体），这是为了清晰起见，符合[样式指南](../meta/style-guide.md)的推荐。
 
 文件基本结构如下：
 

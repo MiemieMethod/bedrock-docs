@@ -1,12 +1,12 @@
 # 翻书动画
 
-**翻书动画（Flipbook Animation）**是Minecraft基岩版资源包中用于实现方块和物品纹理逐帧动画的机制。翻书动画通过在一张包含所有帧的纵向拼接纹理图片中逐帧切换来产生动画效果。
+**翻书动画（Flipbook Animation）**是Minecraft基岩版资源包中用于实现方块和物品纹理逐帧动画的机制。翻书动画通过在一张包含所有帧的纵向拼接纹理图片中逐帧切换来产生动画效果。在中国版中，翻书动画亦称作**序列帧动画（Frame Animation）**。<!-- md:flag china -->
 
 ## 概述
 
 基岩版中许多原版方块和物品的纹理具有动画效果，如水面、岩浆、海带、紫水晶方块和传送门等。这些动画通过翻书动画机制实现：一张纹理文件中纵向排列所有动画帧，引擎按照指定的播放速度依次显示每一帧。
 
-翻书动画的定义文件为资源包根目录下的{{file|textures/flipbook_textures.json}}。
+翻书动画的定义文件为资源包根目录下的{{file|textures/flipbook_textures.json}}。中国版另有专门用于物品翻书动画的{{file|textures/flipbook_textures_items.json}}文件，与前者共享相同的文件格式。<!-- md:flag china -->
 
 ## 纹理文件格式
 

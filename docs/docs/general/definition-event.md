@@ -64,9 +64,11 @@
 }
 ```
 
-同一层级不应同时依赖`sequence`和`randomize`表达同一组响应。维护旧文件时，如发现二者并列，应通过内容日志和实际测试确认引擎采用了哪一种解释。
+同一层级同时出现`sequence`和`randomize`时，引擎会优先采用`randomize`并忽略`sequence`，同时在内容日志中报告错误。维护旧文件时，如发现二者并列，应通过内容日志和实际测试确认实际行为，并删除多余的字段。
 
 ## 条件
+
+定义事件中的条件通过事件的执行上下文（调用者类型）来确定：实体事件使用过滤器（`filters`字段），物品和方块事件使用Molang表达式（`condition`字段）。早期版本中二者共享同一套解析逻辑，导致物品/方块事件中的`filters`无法生效；此后实体定义事件单独分离为**活动对象定义事件（Actor Definition Event）**，使用专属过滤器系统。
 
 实体定义事件通常通过**过滤器（Filter）**限制响应是否生效。过滤器可以使用`all_of`、`any_of`和`none_of`组合多个测试，以表达逻辑与、逻辑或和逻辑非。
 
@@ -89,7 +91,7 @@
 定义事件的基础概念仍然是实体数据驱动系统的重要组成部分，但旧资料中的部分事件响应具有明确的历史语境：
 
 - 早期实体事件响应侧重`add`、`remove`、`trigger`、`sequence`和`randomize`。
-- 旧版实验性物品和方块事件响应曾包含`run_command`、`damage`、`decrement_stack`、`play_effect`、`play_sound`、`teleport`、`transform_item`等字段。
+- 旧版实验性物品和方块事件响应曾包含`run_command`、`damage`、`decrement_stack`、`play_effect`、`play_sound`、`teleport`、`transform_item`等字段，完整列表参见[旧版物品和方块事件响应](../../../refs/addon/legacy-event-response.md)。
 - 现代自定义方块和自定义物品通常通过脚本API注册自定义组件，并在组件事件回调中实现逻辑。
 
 维护旧附加包时，可以利用定义事件资料理解旧JSON为什么能够触发行为；编写新附加包时，应优先查阅当前实体参考、方块自定义组件、物品自定义组件和脚本API文档。

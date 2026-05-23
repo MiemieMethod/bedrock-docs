@@ -35,9 +35,17 @@
 
 -   <span class="twemoji lg middle"><img src="../assets/images/brands/bridge.svg" width="24" height="24" style="width: var(--md-icon-size); height: auto;"></span> __bridge.__
 
-    ---
+    --- 
 
     bridge.是一款Minecraft基岩版附加包开发工具。
 
     [:octicons-arrow-right-24: 开始阅读](./bridge/index.md)
+
+-   :material-headset:{ .lg .middle } __EaseCation Wiki__
+
+    ---
+
+    主要收录与Minecraft基岩版VR相关的中文整理内容。
+
+    [:octicons-arrow-right-24: 开始阅读](./easecation/index.md)
 </div>

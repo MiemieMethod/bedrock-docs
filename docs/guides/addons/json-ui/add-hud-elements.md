@@ -4,7 +4,7 @@
 
 ## 基本思路
 
-HUD根容器通常是`root_panel`。向HUD新增元素时，推荐在`root_panel.controls`上使用`modifications`插入自定义控件。
+HUD根容器通常是`root_panel`。向HUD新增元素时，推荐在`root_panel.modifications`里对`controls`数组做插入，而不是直接改写整份界面。
 
 ## 方式一：直接插入多个控件
 

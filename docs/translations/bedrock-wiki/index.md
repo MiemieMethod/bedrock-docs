@@ -17,3 +17,13 @@
 
     [:octicons-arrow-right-24: 开始阅读](./guide/index.md)
 ///
+
+/// html | div.grid.cards
+-   :material-wrench-cog: __元信息__
+
+    ---
+
+    站点说明、样式指南、性能建议与实用资源索引。
+
+    [:octicons-arrow-right-24: 开始阅读](./meta/index.md)
+///

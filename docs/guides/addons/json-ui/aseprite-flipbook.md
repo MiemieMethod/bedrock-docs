@@ -1,6 +1,6 @@
 # 使用Aseprite序列帧动画<!-- md:flag vanilla -->
 
-本页介绍如何把Aseprite导出的精灵表动画接入JSON UI的`image`控件。
+本页介绍如何把Aseprite导出的精灵表动画接入JSON UI的`image`控件，并说明`aseprite_flip_book`的最小接入方式。
 
 ## 准备工具
 

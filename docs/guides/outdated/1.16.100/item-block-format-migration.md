@@ -114,6 +114,52 @@
 | `minecraft:geometry` | `geometry` | 直接使用几何体标识符。 |
 | `minecraft:map_color` | `map_color` | 直接使用颜色值。 |
 
+### `minecraft:part_visibility`
+
+旧版本中，`minecraft:part_visibility`组件使用`rules`数组来描述各部分的显示条件：
+
+```json title="旧写法"
+"minecraft:part_visibility": {
+  "rules": [
+    { "bone": "wing", "value": "q.is_flying" }
+  ]
+}
+```
+
+较新格式将`rules`更名为`conditions`，并改为对象形式：
+
+```json title="迁移后"
+"minecraft:part_visibility": {
+  "conditions": {
+    "wing": "q.is_flying"
+  }
+}
+```
+
+### `minecraft:crafting_table`
+
+1.19.10前，自定义工作台使用`custom_description`字段描述界面标题：
+
+```json title="旧写法"
+"minecraft:crafting_table": {
+  "custom_description": "我的工作台",
+  "crafting_tags": ["my_table"]
+}
+```
+
+1.19.10起，`custom_description`更名为`table_name`：
+
+```json title="迁移后"
+"minecraft:crafting_table": {
+  "table_name": "我的工作台",
+  "crafting_tags": ["my_table"]
+}
+```
+
+### `minecraft:friction`的取值方向
+
+旧版方块格式中，`minecraft:friction`的值含义与1.19.20之后发生了反转。旧格式的值表示**摩擦力本身**（值越大越滑），而1.19.20起，值表示**阻力系数**（值越小越滑，与Java版语义对齐）。原版冰块在旧格式中为约`0.98`，迁移后约为`0.02`。迁移时务必通过实际游戏测试验证效果，而不能直接照搬旧数值。
+
 ## 不建议自动批量替换
 
 旧字段名称和新字段名称之间并不总是一一等价。某些字段还伴随单位、默认值、实验性状态或取值范围变化。自动批量替换可能让文件通过语法检查，却在游戏内表现不同。
