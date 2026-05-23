@@ -33,6 +33,10 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/base-pack/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/behavior-pack/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
@@ -65,6 +69,10 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/module/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/particle/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
@@ -78,6 +86,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/resource-pack/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/resource-stack/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
@@ -125,11 +137,27 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/block-permutation/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/block-state/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/block-trait/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/block/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/chunk/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/command-block/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
@@ -189,6 +217,10 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/function/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/game-rule/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
@@ -221,7 +253,19 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/namespace/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/nbt/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/pending-tick/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/random-tick/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
@@ -245,11 +289,23 @@
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/subchunk/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/target-selector/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/terrain-generation/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/tick/</loc>
+         <lastmod>2026-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/ticking-area/</loc>
          <lastmod>2026-05-23</lastmod>
     </url>
     <url>
