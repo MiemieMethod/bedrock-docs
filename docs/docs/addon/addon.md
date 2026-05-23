@@ -83,4 +83,5 @@
 - {{file|folder}}**features/**：地物定义。
 - {{file|folder}}**feature_rules/**：地物规则。
 - {{file|folder}}**biomes/**：生物群系定义。
+- {{file|folder}}**dimensions/**：维度定义。
 ///

@@ -9,8 +9,31 @@
 - [Endstone命令与文本格式](server/endstone-command-format.md)：列出Endstone插件命令参数、权限默认值和颜色格式代码。
 - [Allay API概览](server/allay-api.md)：概述Allay插件描述文件、命令、事件、调度器、方块、物品、容器、表单和高级自定义内容接口。
 
+## 命令
+
+- [命令参考](commands/index.md)：汇总国际版命令清单、参数类型和命令版本。
+- [国际版命令清单](commands/command-list.md)：按官方分类列出82条命令的权限、作弊要求和语法入口。
+- [命令参数类型](commands/command-argument-type.md)：列出54种命令参数类型、格式和示例值。
+- [命令版本](commands/version.md)：整理命令语法变更线索和兼容性注意事项。
+
 ## 附加包
 
+- [清单文件架构](addon/manifest-schema.md)：列出清单文件根结构、所有顶层属性、标头、元数据、模块和依赖。
+- [清单标头](addon/manifest-header.md)：列出标头部分的身份信息字段、UUID、版本和最低版本要求。
+- [清单元数据](addon/manifest-metadata.md)：列出可选元数据字段，包括作者、许可证、URL和生成工具信息。
+- [清单模块](addon/manifest-module.md)：列出模块声明字段、模块类型、脚本语言和入口文件。
+- [清单依赖](addon/manifest-dependency.md)：列出依赖声明方式，包括包依赖和脚本模块依赖。
+- [包依赖](addon/manifest-pack-dependency.md)：列出通过UUID和版本引用其他包的方式。
+- [原生模块依赖](addon/manifest-native-module-dependency.md)：列出对内置脚本API模块的依赖声明。
+- [子包配置](addon/manifest-subpack.md)：列出子包定义字段，用于提供不同质量等级的资源。
+- [版本格式](addon/semversion.md)：说明语义版本号格式和版本对象属性。
+- [世界设置](addon/world-setting.md)：汇总清单世界设置结构和类型集合。
+- [切换设置](addon/world-setting-toggle.md)：列出切换设置结构字段和类型可选值。
+- [滑块设置](addon/world-setting-slider.md)：列出滑块设置结构字段和类型可选值。
+- [下拉菜单设置](addon/world-setting-dropdown.md)：列出下拉菜单设置字段、选项子结构和类型可选值。
+- [下拉菜单选项](addon/world-setting-dropdown-option.md)：列出下拉菜单选项结构字段。
+- [标签设置](addon/world-setting-label.md)：列出标签设置结构字段和类型可选值。
+- [维度定义](addon/dimension.md)：列出国际版维度定义文件的根对象形态、描述字段、组件字段和命名差异说明。
 - [实体定义](addon/entity.md)：列出行为包实体定义文件的主要结构、描述字段、组件、组件组和事件关系。
 - [客户端实体定义](addon/client-entity.md)：列出资源包客户端实体定义的渲染资源绑定、脚本字段和刷怪蛋字段。
 - [动画定义](addon/animation.md)：列出资源包和行为包动画定义文件的根字段、动画对象、骨骼变换和挂接位置。
@@ -32,10 +55,11 @@
 - [物品定义](addon/item.md)：列出行为包物品定义文件的主要结构、常用组件、使用优先级和原版物品标签。
 - [物品组件](addon/item-component.md)：列出行为包物品定义可用组件、主要字段、依赖关系和已弃用项。
 - [JSON UI文件](addon/json-ui.md)：列出国际版资源包JSON UI的`_ui_defs.json`、`_global_variables.json`、屏幕文件、控件字段、绑定和按钮映射。
-- [相机定义](addon/camera.md)：列出国际版相机瞄准辅助分类和瞄准辅助预设的JSON根对象与主要字段。
+- [相机定义](addon/camera.md)：列出国际版相机瞄准辅助分类、分类优先级与瞄准辅助预设的JSON结构和字段。
 - [迷雾定义](addon/fog-settings.md)：列出资源包迷雾定义文件的主要字段、距离迷雾类别和体积迷雾类别。
 - [战利品表](addon/loot-table.md)：列出行为包战利品表文件的主要字段、池、条目、条件和函数。
 - [交易表](addon/trade-table.md)：列出行为包交易表文件的主要字段、层级结构、交易组、交易项目和交易物品。
+- [对话定义](addon/dialogue-document.md)：列出行为包NPC对话定义文件的主要结构、场景字段、按钮字段和命令用法。
 
 ## 中国版模组SDK
 

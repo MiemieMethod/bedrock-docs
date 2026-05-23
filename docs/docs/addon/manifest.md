@@ -24,23 +24,33 @@
         - {{json|array|min_engine_version}}：最低引擎版本。
         - {{json|string|pack_scope}}：包作用域，可选`world`、`global`或`any`（仅资源包）。
         - {{json|array|base_game_version}}：基游戏版本（仅世界模板）。
+        - {{json|array|pack_optimization_version}}：包优化版本。
+        - {{json|boolean|platform_locked}}：是否平台锁定。
+        - {{json|boolean|lock_template_options}}：是否锁定模板选项。
+        - {{json|boolean|allow_random_seed}}：是否允许随机种子。
     - {{json|array|modules|required=1}}：模块列表。
         - {{json|object|}}：一个模块。
             - {{json|string|type|required=1}}：模块类型。
             - {{json|string|uuid|required=1}}：模块的UUID。
             - {{json|array|version|required=1}}：模块版本。
+            - {{json|string|description}}：模块描述。
             - {{json|string|language}}：脚本语言（仅脚本模块）。
+            - {{json|string|entry}}：脚本入口文件路径（仅脚本模块）。
     - {{json|array|dependencies}}：依赖列表。
         - {{json|object|}}：一个依赖。
             - {{json|string|uuid}}：所依赖的附加包或模块的UUID。
             - {{json|string|module_name}}：所依赖的脚本API模块名称。
-            - {{json|array|version|required=1}}：所依赖的版本。
+            - {{json|array|version}}：所依赖的版本。
     - {{json|array|capabilities}}：声明附加包需要的特殊功能。
     - {{json|object|metadata}}：附加包的元数据。
         - {{json|array|authors}}：作者列表。
         - {{json|string|license}}：许可证。
         - {{json|string|url}}：项目网址。
         - {{json|object|generated_with}}：生成工具信息。
+        - {{json|string|product_type}}：产品类型。
+    - {{json|array|settings}}：世界设置列表。
+    - {{json|array|subpacks}}：子包列表。
+    - {{json|boolean|has_education_metadata}}：是否包含教育版元数据。<!-- md:flag edu -->
 ///
 
 ## UUID
@@ -75,3 +85,11 @@
 - `editorExtension`：编辑器扩展功能。
 - `experimental_custom_ui`：实验性自定义UI。
 - `raytraced`：光线追踪支持。
+
+## 参考阅读
+
+- [清单文件架构参考](../../refs/addon/manifest-schema.md)
+- [清单标头参考](../../refs/addon/manifest-header.md)
+- [清单模块参考](../../refs/addon/manifest-module.md)
+- [清单依赖参考](../../refs/addon/manifest-dependency.md)
+- [世界设置参考](../../refs/addon/world-setting.md)

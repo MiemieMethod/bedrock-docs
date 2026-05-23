@@ -16,6 +16,19 @@
 | `minecraft:aim_assist_categories` | 对象 | 未设置 | 单个相机瞄准辅助分类定义。 |
 | `minecraft:aim_assist_preset` | 对象 | 未设置 | 单个相机瞄准辅助预设定义。 |
 
+## 定义结构对应关系
+
+以下名称来自Microsoft Learn的Camera Definitions页面，用于对应本页后续结构。
+
+| Camera Definitions名称 | 对应结构 |
+| --- | --- |
+| CameraAimAssistCategoriesDefinition | `minecraft:aim_assist_categories`根对象中的`categories`字段。 |
+| CameraAimAssistCategoryDefinition | `categories`数组中的单个分类项。 |
+| CameraAimAssistCategoryPriorities | 分类项中的`priorities`对象。 |
+| CameraAimAssistPresetDefinition | `minecraft:aim_assist_preset`对象。 |
+| Aim Assist Categories | `minecraft:aim_assist_categories`文件根对象。 |
+| Aim Assist Preset | `minecraft:aim_assist_preset`文件根对象。 |
+
 ## `minecraft:aim_assist_categories`
 
 `minecraft:aim_assist_categories`定义供`minecraft:aim_assist_preset`引用的瞄准辅助分类集合。
@@ -52,8 +65,8 @@
 | `default_item_settings` | 字符串 | 未设置 | 可选。`item_settings`未匹配到的物品使用的默认瞄准辅助分类。 |
 | `hand_settings` | 字符串 | 未设置 | 可选。空手时使用的瞄准辅助分类。 |
 | `item_settings` | 对象 | 未设置 | 可选。物品标识符到瞄准辅助分类名称的映射；分类名称应存在于指定的分类定义中。 |
-| `exclusion_list` | 数组 | 未设置 | 可选。需要从瞄准辅助目标中排除的方块或实体标识符列表。 |
-| `liquid_targeting_list` | 数组 | 未设置 | 可选。手持时允许通过瞄准辅助选中液体方块的物品标识符列表。 |
+| `exclusion_list` | 对象数组 | 未设置 | 可选。需要从瞄准辅助目标中排除的方块或实体标识符列表。 |
+| `liquid_targeting_list` | 对象数组 | 未设置 | 可选。手持时允许通过瞄准辅助选中液体方块的物品标识符列表。 |
 
 /// note | 版本差异
 本批次Microsoft Learn页面列出`exclusion_list`字段。官方导出的较新架构还可见`exclusion_settings`结构，用于分别列出方块、方块标签、实体和实体族排除项。编写内容时应以目标游戏版本的架构、内容日志和实际测试结果为准。

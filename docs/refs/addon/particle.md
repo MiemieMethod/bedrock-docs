@@ -44,9 +44,9 @@
 
 | 材质 | 描述 |
 | --- | --- |
-| `particles_alpha` | Alpha为`0`的像素完全透明，其余有色像素保持不透明。 |
-| `particles_blend` | 启用普通混合模式下的颜色混合和透明度。 |
-| `particles_add` | 启用加法混合模式下的颜色混合和透明度，常用于需要发光感的粒子。 |
+| `particles_alpha` | Alpha为`0`的像素完全透明，其余有色像素保持不透明。此模式不支持透明度渐变，适合剪影类粒子如树叶、纸片。 |
+| `particles_blend` | 启用普通（Alpha）混合模式下的颜色混合和透明度，支持半透明渐变。适合烟雾、水花、血液等需要模糊边界的粒子。 |
+| `particles_add` | 启用加法混合模式下的颜色混合和透明度。新像素颜色与后台叠加而不是覆盖，常用于需要发光感的粒子如魔法、闪电、发光尘埃。 |
 
 ## 组件概览
 
@@ -253,28 +253,44 @@
 
 ## 曲线
 
-`curves`对象用于定义插值曲线。每条曲线在每个粒子的每个渲染帧求值，结果写入与曲线键同名的Molang变量。官方文档要求曲线变量名以`variable.`开头，例如`variable.size_curve`。
+`curves`对象用于定义插值曲线。每条曲线在每个粒子的每个渲染帧求值，结果写入与曲线键同名的Molang变量。曲线允许通过时间或其他Molang表达式平滑地改变粒子属性，例如从创建到消亡时改变粒子大小、颜色或速度。官方文档要求曲线变量名以`variable.`开头，例如`variable.size_curve`。
 
 | 字段 | 类型 | 默认值 | 描述 |
 | --- | --- | --- | --- |
-| `type` | 字符串 | 未设置 | 曲线类型。可为`linear`、`bezier`、`bezier_chain`或`catmull_rom`。 |
-| `input` | 数值或Molang表达式 | 未设置 | 曲线输入值。常见写法为`variable.particle_age / variable.particle_lifetime`。 |
+| `type` | 字符串 | 未设置 | 曲线类型。可为`linear`、`bezier`、`bezier_chain`或`catmull_rom`。不同类型提供不同的光滑程度和控制精度。 |
+| `input` | 数值或Molang表达式 | 未设置 | 曲线输入值。常见写法为`variable.particle_age / variable.particle_lifetime`（从`0`到`1`的归一化粒子生命周期）。也可使用`variable.particle_age`（秒为单位的绝对时间）或其他表达式。 |
 | `horizontal_range` | 数值或Molang表达式 | `1` | 将输入映射到`0`至该值之间。该字段对`bezier_chain`无效，且官方文档标记为已弃用。 |
-| `nodes` | 数组或对象 | 未设置 | 曲线控制节点。`linear`、`bezier`和`catmull_rom`可使用均匀分布的节点数组；`bezier_chain`使用按输入值索引的节点对象。 |
+| `nodes` | 数组或对象 | 未设置 | 曲线控制节点。`linear`、`bezier`和`catmull_rom`可使用均匀分布的节点数组；`bezier_chain`使用按输入值索引的节点对象，键值为输入值（`0.0`至`1.0`）。 |
 
-| 曲线类型 | 描述 |
-| --- | --- |
-| `linear` | 分段线性曲线，节点在应用`input`和`horizontal_range`后均匀分布于`0`至`1`。 |
-| `bezier` | 四节点贝塞尔曲线，首末节点为`0`和`1`处的取值，中间两个节点形成斜率控制。 |
-| `catmull_rom` | 通过除首末节点外所有节点的曲线，首末节点用于形成第二个和倒数第二个点的斜率。 |
-| `bezier_chain` | 多段贝塞尔链。每个节点可声明取值和左右斜率，节点会在解析前按键排序。 |
+| 曲线类型 | 描述 | 用途 |
+| --- | --- | --- |
+| `linear` | 分段线性曲线，节点在应用`input`和`horizontal_range`后均匀分布于`0`至`1`。相邻节点之间为直线插值。 | 简单的分段动画，如粒子大小突然变化。 |
+| `bezier` | 四节点贝塞尔曲线，首末节点为`0`和`1`处的取值，中间两个节点形成斜率控制点。提供平滑的三次样条曲线。 | 自然的曲线变化，如加速减速动画。 |
+| `catmull_rom` | 通过除首末节点外所有节点的曲线。首末节点不作为曲线经过点，而用于形成相邻点的斜率。 | 多点平滑曲线，适合多段控制。 |
+| `bezier_chain` | 多段贝塞尔链。每个节点可声明取值（`value`）、左斜率（`left_slope`）、右斜率（`right_slope`）或统一斜率（`slope`）。节点会在解析前按键排序。 | 复杂的渐变，如多段颜色渐变或分段动画。 |
 
-```json title="曲线示例"
+### 曲线示例
+
+```json title="线性曲线"
 "curves": {
   "variable.size_curve": {
     "type": "linear",
     "input": "variable.particle_age / variable.particle_lifetime",
-    "nodes": [0.0, 1.0, 0.0]
+    "nodes": [0.1, 0.5, 0.1]
+  }
+}
+```
+
+```json title="贝塞尔链曲线"
+"curves": {
+  "variable.color_curve": {
+    "type": "bezier_chain",
+    "input": "variable.particle_age / variable.particle_lifetime",
+    "nodes": {
+      "0.0": { "value": 1.0, "slope": 0.0 },
+      "0.5": { "value": 2.0, "slope": 1.0 },
+      "1.0": { "value": 0.0, "slope": -1.0 }
+    }
   }
 }
 ```
@@ -315,42 +331,148 @@
 
 ## 粒子Molang变量
 
-粒子系统允许大多数字段使用Molang表达式。除通用Molang能力外，粒子上下文提供以下变量：
+粒子系统允许大多数字段使用Molang表达式。除通用Molang能力外，粒子上下文提供以下变量。这些变量对发射器和粒子的Molang表达式均可访问，但在不同上下文中代表不同的值。
 
-| 变量 | 描述 |
-| --- | --- |
-| `variable.emitter_age` | 当前发射器循环开始后经过的时间。 |
-| `variable.emitter_lifetime` | 当前发射器循环持续的时间。 |
-| `variable.emitter_random_1` | 当前发射器循环内保持不变的`0.0`至`1.0`随机数。 |
-| `variable.emitter_random_2` | 当前发射器循环内保持不变的第二个随机数。 |
-| `variable.emitter_random_3` | 当前发射器循环内保持不变的第三个随机数。 |
-| `variable.emitter_random_4` | 当前发射器循环内保持不变的第四个随机数。 |
-| `variable.entity_scale` | 粒子特效挂接到实体时，该值为实体缩放。 |
-| `variable.particle_age` | 粒子已存活的时间。 |
-| `variable.particle_lifetime` | 粒子的总寿命。 |
-| `variable.particle_random_1` | 粒子生命周期内保持不变的`0.0`至`1.0`随机数。 |
-| `variable.particle_random_2` | 粒子生命周期内保持不变的第二个随机数。 |
-| `variable.particle_random_3` | 粒子生命周期内保持不变的第三个随机数。 |
-| `variable.particle_random_4` | 粒子生命周期内保持不变的第四个随机数。 |
+| 变量 | 类型 | 描述 |
+| --- | --- | --- |
+| `variable.emitter_age` | 数值 | 当前发射器循环开始后经过的时间（秒）。 |
+| `variable.emitter_lifetime` | 数值 | 当前发射器循环持续的时间（秒）。发射器寿命组件决定该值。 |
+| `variable.emitter_random_1` | 数值 | 当前发射器循环内保持不变的`0.0`至`1.0`随机数。整个循环期间该值固定，不随帧变化。 |
+| `variable.emitter_random_2` | 数值 | 当前发射器循环内保持不变的第二个随机数。 |
+| `variable.emitter_random_3` | 数值 | 当前发射器循环内保持不变的第三个随机数。 |
+| `variable.emitter_random_4` | 数值 | 当前发射器循环内保持不变的第四个随机数。 |
+| `variable.entity_scale` | 数值 | 粒子特效挂接到实体时，该值为实体的缩放系数。未挂接时该值为`1.0`。 |
+| `variable.particle_age` | 数值 | 粒子已存活的时间（秒）。粒子生成时为`0.0`，每帧递增。 |
+| `variable.particle_lifetime` | 数值 | 粒子的总寿命（秒）。粒子寿命组件决定该值。 |
+| `variable.particle_random_1` | 数值 | 粒子生命周期内保持不变的`0.0`至`1.0`随机数。 |
+| `variable.particle_random_2` | 数值 | 粒子生命周期内保持不变的第二个随机数。 |
+| `variable.particle_random_3` | 数值 | 粒子生命周期内保持不变的第三个随机数。 |
+| `variable.particle_random_4` | 数值 | 粒子生命周期内保持不变的第四个随机数。 |
+
+### 自定义Molang变量
+
+可以通过`minecraft:emitter_initialization`和`minecraft:particle_initialization`组件设置自定义变量。这些组件允许使用`creation_expression`和`per_update_expression`来初始化和维护自定义变量。例如：
+
+```json
+"minecraft:emitter_initialization": {
+  "creation_expression": "variable.my_speed = 2.0; variable.my_color = 1.0;"
+},
+"minecraft:particle_initialization": {
+  "creation_expression": "variable.particle_color_variance = variable.particle_random_1 * 0.2;"
+}
+```
+
+### 曲线变量
+
+曲线定义在`curves`对象中的变量会在每个渲染帧被求值并写入对应的Molang变量。例如，如果定义了`variable.size_gradient`曲线，该变量可在`minecraft:particle_appearance_billboard`的`size`字段中直接使用。
 
 ## 实体挂接
 
-实体可在资源包客户端实体定义中声明粒子短名称，并在动画或动画控制器中使用该短名称触发粒子特效。
+粒子特效可以与实体关联，从而跟随实体运动并响应实体的动画和状态。实体挂接粒子通常用于角色增强效果、伤害反馈、法术效果、周期环境效果等场景。
 
-| 位置 | 字段 | 描述 |
-| --- | --- | --- |
-| 客户端实体定义`minecraft:client_entity.description` | `particle_effects` | 将实体内部短名称映射到粒子特效标识符。该映射本身不会播放粒子。 |
-| 客户端实体定义`minecraft:client_entity.description` | `locators` | 将定位器短名称映射到几何体中的定位器名称，粒子可跟随定位器运动。 |
-| 动画控制器状态对象 | `particle_effects` | 状态进入时启动粒子特效，状态退出时终止仍在持续的粒子特效。 |
-| 动画对象 | `particle_effects` | 在动画时间轴指定时间点触发即发即忘粒子特效。 |
+### 定位器
 
-动画和动画控制器中的粒子效果项通常包含以下字段：
+**定位器（Locator）**是粒子特效绑定到几何体中的具体位置。实体可在几何体中声明定位器，粒子发射器可跟随指定定位器的位置和方向。定位器随几何体动画而改变位置，从而实现粒子跟随手部、头部、特定部位的效果。
+
+### 实体资源定义中的粒子
+
+| 位置 | 字段 | 类型 | 描述 |
+| --- | --- | --- | --- |
+| 客户端实体定义`minecraft:client_entity.description` | `particle_effects` | 对象 | 将实体内部短名称映射到粒子特效标识符。例如`{ "flame_effect": "minecraft:flame_particle" }`。该映射本身不会播放粒子；粒子需由动画或动画控制器触发。 |
+| 客户端实体定义`minecraft:client_entity.description` | `locators` | 对象 | 将定位器短名称映射到几何体中的定位器名称。例如`{ "left_hand": "geometry.humanoid.left_hand" }`。粒子可使用这些短名称在指定位置生成。 |
+
+### 动画控制器中的粒子
+
+动画控制器状态可在进入时启动粒子效果，在退出时终止效果。这用于状态相关的效果，如攻击时的冲击波、施法时的光环等。
+
+```json
+"states": {
+  "attack": {
+    "particle_effects": [
+      {
+        "effect": "attack_effect"
+      }
+    ],
+    "transitions": [
+      { "idle": "!query.is_attacking" }
+    ]
+  }
+}
+```
+
+### 动画时间线中的粒子
+
+动画可在时间轴的特定时间点触发即发即忘粒子特效。这用于特定动作瞬间的效果，如剑击时的刀光、脚步着地时的尘埃等。
+
+```json
+"animations": {
+  "attack": {
+    "animation_length": 1.0,
+    "particle_effects": {
+      "0.3": [
+        { "effect": "sword_slash" }
+      ],
+      "0.7": [
+        { "effect": "impact_spark" }
+      ]
+    }
+  }
+}
+```
+
+### 粒子效果事件
+
+粒子效果项通常包含以下字段：
 
 | 字段 | 类型 | 默认值 | 描述 |
 | --- | --- | --- | --- |
 | `effect` | 字符串 | 未设置 | 客户端实体`description.particle_effects`中声明的粒子短名称。 |
-| `locator` | 字符串 | 未设置 | 可选。粒子发射器跟随的定位器短名称。未设置时位于实体原点。 |
-| `pre_effect_script` | Molang表达式 | 未设置 | 可选。发射器启动时执行的Molang表达式，可为粒子定义设置后续会读取的变量。 |
+| `locator` | 字符串 | 未设置 | 可选。粒子发射器跟随的定位器短名称。未设置时粒子在实体原点生成。 |
+| `pre_effect_script` | Molang表达式 | 未设置 | 可选。发射器启动时执行的Molang表达式。常用于根据实体状态设置粒子颜色、缩放等变量。 |
+
+### 示例
+
+以下为火焰型生物的粒子挂接示例：
+
+```json
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:blaze",
+      "particle_effects": {
+        "flame": "minecraft:mobflame_emitter",
+        "attack_spark": "minecraft:attack_spark"
+      },
+      "locators": {
+        "left_hand": "geometry.humanoid.left_hand",
+        "right_hand": "geometry.humanoid.right_hand"
+      }
+    }
+  }
+}
+```
+
+```json
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.blaze.flame": {
+      "states": {
+        "default": {
+          "transitions": [ { "attacking": "query.is_charged" } ]
+        },
+        "attacking": {
+          "particle_effects": [
+            { "effect": "flame" }
+          ],
+          "transitions": [ { "default": "!query.is_charged" } ]
+        }
+      }
+    }
+  }
+}
+```
 
 ## 示例
 

@@ -453,6 +453,7 @@ nav:
         - 迷雾: docs/addon/fog.md
       - 服务端数据:
         - 脚本API: docs/addon/script-api.md
+        - 维度: docs/addon/dimension.md
         - 配方: docs/addon/recipe.md
         - 战利品表: docs/addon/loot-table.md
         - 交易表: docs/addon/trade-table.md
@@ -590,8 +591,27 @@ nav:
       - SerenityJS API概览: refs/server/serenity-api.md
       - Nukkit-MOT API概览: refs/server/nukkit-mot-api.md
     - 命令:
+      - 命令参考: refs/commands/index.md
+      - 国际版命令清单: refs/commands/command-list.md
+      - 命令参数类型: refs/commands/command-argument-type.md
       - 命令版本: refs/commands/version.md
     - 附加包:
+      - 清单与配置:
+        - 清单文件架构: refs/addon/manifest-schema.md
+        - 清单标头: refs/addon/manifest-header.md
+        - 清单元数据: refs/addon/manifest-metadata.md
+        - 清单模块: refs/addon/manifest-module.md
+        - 清单依赖: refs/addon/manifest-dependency.md
+        - 包依赖: refs/addon/manifest-pack-dependency.md
+        - 原生模块依赖: refs/addon/manifest-native-module-dependency.md
+        - 子包配置: refs/addon/manifest-subpack.md
+        - 版本格式: refs/addon/semversion.md
+        - 世界设置: refs/addon/world-setting.md
+        - 切换设置: refs/addon/world-setting-toggle.md
+        - 滑块设置: refs/addon/world-setting-slider.md
+        - 下拉菜单设置: refs/addon/world-setting-dropdown.md
+        - 下拉菜单选项: refs/addon/world-setting-dropdown-option.md
+        - 标签设置: refs/addon/world-setting-label.md
       - 实体:
         - 实体定义: refs/addon/entity.md
         - 客户端实体定义: refs/addon/client-entity.md
@@ -605,6 +625,7 @@ nav:
         - 实体事件与触发器: refs/addon/entity-event.md
         - 生成规则: refs/addon/spawn-rule.md
       - 生物群系定义: refs/addon/biome.md
+      - 维度定义: refs/addon/dimension.md
       - 地物定义: refs/addon/feature.md
       - 地物规则: refs/addon/feature-rule.md
       - 方块定义: refs/addon/block.md
@@ -618,6 +639,7 @@ nav:
       - 迷雾定义: refs/addon/fog-settings.md
       - 战利品表: refs/addon/loot-table.md
       - 交易表: refs/addon/trade-table.md
+      - 对话定义: refs/addon/dialogue-document.md
     - 中国版模组SDK:
       - 世界控制接口: refs/modsdk/world-control.md
       - 自定义书本格式与接口: refs/modsdk/custom-book.md

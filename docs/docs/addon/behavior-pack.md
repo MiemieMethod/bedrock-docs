@@ -29,7 +29,7 @@
 - {{file|folder}}**features/**：地物定义。
 - {{file|folder}}**feature_rules/**：地物规则。
 - {{file|folder}}**biomes/**：生物群系定义。
-- {{file|folder}}**dimensions/**：维度定义。
+- {{file|folder}}**dimensions/**：维度定义。详见[维度](dimension.md)。
 - {{file|folder}}**structures/**：结构文件。
 - {{file|folder}}**dialogue/**：NPC对话定义。
 - {{file|folder}}**texts/**：本地化文件。
