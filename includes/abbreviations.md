@@ -49,3 +49,4 @@
 *[IPv4]: Internet Protocol Version 4
 *[IPv6]: Internet Protocol Version 6
 *[LevelDB]: Level Database
+*[UUID]: Universally Unique Identifier

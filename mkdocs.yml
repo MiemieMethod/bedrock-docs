@@ -376,69 +376,90 @@ nav:
         - 日志: docs/general/log.md
         - 模型: docs/general/model.md
         - NBT: docs/general/nbt.md
+        - Molang: docs/general/molang.md
+        - 标识符: docs/general/identifier.md
+        - 命名空间: docs/general/namespace.md
+        - 数据驱动: docs/general/data-driven.md
+        - 格式版本: docs/general/format-version.md
+        - 刻: docs/general/tick.md
+        - 随机刻: docs/general/random-tick.md
+        - 计划刻: docs/general/pending-tick.md
+        - 坐标: docs/general/coordinate.md
       - 游戏玩法:
         - 实体: docs/general/entity.md
         - 方块: docs/general/block.md
+        - 方块状态: docs/general/block-state.md
+        - 方块置换: docs/general/block-permutation.md
+        - 方块特质: docs/general/block-trait.md
+        - 方块实体: docs/general/block-entity.md
         - 物品: docs/general/item.md
-
-      - Molang: docs/general/molang.md
-      - 标识符: docs/general/identifier.md
-      - 数据驱动: docs/general/data-driven.md
-      - 格式版本: docs/general/format-version.md
-      - 刻: docs/general/tick.md
-      - 命令: docs/general/command.md
-      - 记分板: docs/general/scoreboard.md
-      - 坐标: docs/general/coordinate.md
-      - 组件: docs/general/component.md
-      - 事件: docs/general/event.md
-      - 过滤器: docs/general/filter.md
-      - AI意向: docs/general/ai-goal.md
-      - 方块实体: docs/general/block-entity.md
-      - 容器: docs/general/container.md
-      - 生物群系: docs/general/biome.md
-      - 维度: docs/general/dimension.md
-      - 区块: docs/general/chunk.md
-      - 地形生成: docs/general/terrain-generation.md
-      - 结构: docs/general/structure.md
-      - 游戏规则: docs/general/game-rule.md
-      - 红石电路: docs/general/redstone.md
-      - 状态效果: docs/general/status-effect.md
-      - 魔咒: docs/general/enchantment.md
-      - 原始文本: docs/general/raw-text.md
-      - 内容日志: docs/general/content-log.md
-      - 调试屏幕: docs/general/debug-screen.md
-      - 编辑器: docs/general/editor.md
-      - JSON UI: docs/general/json-ui.md
+        - 容器: docs/general/container.md
+        - 生物群系: docs/general/biome.md
+        - 维度: docs/general/dimension.md
+        - 区块: docs/general/chunk.md
+        - 子区块: docs/general/subchunk.md
+        - 常加载区域: docs/general/ticking-area.md
+        - 地形生成: docs/general/terrain-generation.md
+        - 结构: docs/general/structure.md
+        - 游戏规则: docs/general/game-rule.md
+        - 红石电路: docs/general/redstone.md
+        - 状态效果: docs/general/status-effect.md
+        - 魔咒: docs/general/enchantment.md
+      - 逻辑系统:
+        - 组件: docs/general/component.md
+        - 事件: docs/general/event.md
+        - 过滤器: docs/general/filter.md
+        - AI意向: docs/general/ai-goal.md
+      - 命令与文本:
+        - 命令: docs/general/command.md
+        - 命令方块: docs/general/command-block.md
+        - 目标选择器: docs/general/target-selector.md
+        - 函数: docs/general/function.md
+        - 记分板: docs/general/scoreboard.md
+        - 原始文本: docs/general/raw-text.md
+      - 诊断与界面:
+        - 内容日志: docs/general/content-log.md
+        - 调试屏幕: docs/general/debug-screen.md
+        - 编辑器: docs/general/editor.md
+        - JSON UI: docs/general/json-ui.md
     - 附加包:
-      - 附加包: docs/addon/addon.md
-      - 清单文件: docs/addon/manifest.md
-      - 资源包: docs/addon/resource-pack.md
-      - 行为包: docs/addon/behavior-pack.md
-      - 子包: docs/addon/sub-pack.md
-      - 纹理: docs/addon/texture.md
-      - 翻书动画: docs/addon/flipbook-texture.md
-      - 本地化: docs/addon/localization.md
-      - 声音: docs/addon/sound.md
-      - 渲染控制器: docs/addon/render-controller.md
-      - 附着物: docs/addon/attachable.md
-      - 脚本API: docs/addon/script-api.md
-      - 动画: docs/addon/animation.md
-      - 动画控制器: docs/addon/animation-controller.md
-      - 粒子: docs/addon/particle.md
-      - 配方: docs/addon/recipe.md
-      - 战利品表: docs/addon/loot-table.md
-      - 交易表: docs/addon/trade-table.md
-      - NPC对话: docs/addon/dialogue.md
-      - 迷雾: docs/addon/fog.md
-      - 地物: docs/addon/feature.md
-      - 生成规则: docs/addon/spawn-rule.md
-      - 世界模板: docs/addon/world-template.md
-      - 皮肤包: docs/addon/skin-pack.md
+      - 包与加载:
+        - 附加包: docs/addon/addon.md
+        - 清单文件: docs/addon/manifest.md
+        - 模块: docs/addon/module.md
+        - 资源包: docs/addon/resource-pack.md
+        - 行为包: docs/addon/behavior-pack.md
+        - 资源栈: docs/addon/resource-stack.md
+        - 基包: docs/addon/base-pack.md
+        - 子包: docs/addon/sub-pack.md
+        - 世界模板: docs/addon/world-template.md
+        - 皮肤包: docs/addon/skin-pack.md
+      - 客户端资源:
+        - 纹理: docs/addon/texture.md
+        - 翻书动画: docs/addon/flipbook-texture.md
+        - 本地化: docs/addon/localization.md
+        - 声音: docs/addon/sound.md
+        - 渲染控制器: docs/addon/render-controller.md
+        - 附着物: docs/addon/attachable.md
+        - 动画: docs/addon/animation.md
+        - 动画控制器: docs/addon/animation-controller.md
+        - 粒子: docs/addon/particle.md
+        - 迷雾: docs/addon/fog.md
+      - 服务端数据:
+        - 脚本API: docs/addon/script-api.md
+        - 配方: docs/addon/recipe.md
+        - 战利品表: docs/addon/loot-table.md
+        - 交易表: docs/addon/trade-table.md
+        - NPC对话: docs/addon/dialogue.md
+        - 地物: docs/addon/feature.md
+        - 生成规则: docs/addon/spawn-rule.md
     - 服务器:
-      - 插件: docs/server/plugin.md
-      - 插件加载器: docs/server/plugin-loader.md
-      - 基岩版专用服务器: docs/server/bds.md
-      - 网络协议: docs/server/protocol.md
+      - 服务端软件:
+        - 基岩版专用服务器: docs/server/bds.md
+        - 网络协议: docs/server/protocol.md
+      - 插件生态:
+        - 插件: docs/server/plugin.md
+        - 插件加载器: docs/server/plugin-loader.md
     - 存档:
       - 存档: docs/save/save.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1zm6-10h3v2h-3zM1 11h3v2H1zM13 1v3h-2V1zM4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93zm12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12z"></path></svg></span><span class="md-ellipsis">教程</span></span>':
