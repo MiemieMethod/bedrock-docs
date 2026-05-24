@@ -65,6 +65,14 @@
 
     [:octicons-arrow-right-24: 开始阅读](./china-legacy/index.md)
 
+-   :material-book-search-outline:{ .lg .middle } __中国版API参考归档__
+
+    ---
+
+    收录“.knowledge/中国版API参考”目录的脉络映射，并将接口内容落位到中国版模组SDK参考分区。
+
+    [:octicons-arrow-right-24: 开始阅读](./china-api-reference/index.md)
+
 -   :material-home-city-outline:{ .lg .middle } __基岩版开发wiki主页站__
 
     ---
@@ -105,6 +113,14 @@
 
     [:octicons-arrow-right-24: 开始阅读](./command-log/index.md)
 
+-   :material-lan-connect:{ .lg .middle } __基岩版协议库__
+
+    ---
+
+    收录官方基岩版协议仓库README、补充文档脉络与协议变更日志索引整理。
+
+    [:octicons-arrow-right-24: 开始阅读](./protocol/index.md)
+
 -   :material-file-document-multiple:{ .lg .middle } __官方自动导出的文档__
 
     ---
@@ -112,6 +128,14 @@
     收录自动导出的基岩版文档仓库说明翻译与来源说明。
 
     [:octicons-arrow-right-24: 开始阅读](./official-export/index.md)
+
+-   :material-microsoft:{ .lg .middle } __Microsoft Learn文档__
+
+    ---
+
+    收录Minecraft官方创作者文档仓库的中文整理译文与来源脉络说明。
+
+    [:octicons-arrow-right-24: 开始阅读](./microsoft-learn/index.md)
 
 -   :material-file-code-outline:{ .lg .middle } __基岩架构__
 

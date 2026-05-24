@@ -7,6 +7,7 @@
 - [中国版ModAPI接口域索引](modapi-interface-index.md)：按目录归纳中国版ModAPI接口域与覆盖范围。
 - [中国版ModAPI事件域索引](modapi-event-index.md)：按事件域汇总中国版ModAPI事件条目数量与用途。
 - [中国版ModAPI枚举值索引](modapi-enum-index.md)：汇总中国版ModAPI枚举值分组与完整名录。
+- [中国版ModAPI特化接口](modapi-specialized-api.md)：汇总虚拟世界、物理、自由模型、联机大厅、商城与平台特化接口。
 - [世界控制接口](world-control.md)：世界时间、天气、游戏规则、消息和指令接口。
 - [通用接口](modapi-common-api.md)：系统注册、组件框架、事件通信、定时器、工具函数、数学工具、本地设备与本地存储接口。
 - [实体接口](modapi-entity-api.md)：实体属性、位置变换、类型与名称、行为与AI意向、运动器、物品栏、状态效果、维度传送及世界实体管理接口。
@@ -15,6 +16,7 @@
 - [特效接口](modapi-effects-api.md)：粒子特效创建与控制、序列帧特效、文字面板及后处理效果接口。
 - [UI与交互接口](modapi-ui-api.md)：自定义UI创建管理、原生界面附加、原生HUD控制、音效播放、按键控制及游戏设置接口。
 - [自定义书本格式与接口](custom-book.md)：`customBooks`目录、预置页面与扩展组件接口。
+- [中国版PresetAPI参考](preset-api.md)：预设管理入口、对象模型与版本更新概览。
 - [模组SDK版本更新索引](version-update.md)：历史ModAPI版本入口与Apollo更新日期索引。
 
 ## Apollo网络服

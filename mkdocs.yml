@@ -466,6 +466,7 @@ nav:
         - JSON共用构件: docs/addon/json-construct.md
       - 服务端数据:
         - 脚本API: docs/addon/script-api.md
+        - 模组SDK: docs/addon/modsdk.md
         - 实体定义: docs/addon/entity.md
         - 维度: docs/addon/dimension.md
         - 配方: docs/addon/recipe.md
@@ -504,6 +505,7 @@ nav:
       - guides/addons/index.md
       - 认识JSON: guides/addons/understanding-json.md
       - 认识附加包: guides/addons/understanding-addons.md
+      - 附加包开发工作流: guides/addons/addon-development-workflow.md
       - 制作纹理包: guides/addons/creating-texture-packs.md
       - 本地化: guides/addons/localization.md
       - 使用子包: guides/addons/utilizing-sub-packs.md
@@ -730,6 +732,7 @@ nav:
     - refs/index.md
     - 服务器:
       - 基岩版服务端软件生态: refs/server/server-software-ecosystem.md
+      - 基岩版协议变更索引: refs/server/bedrock-protocol-changelog.md
       - BDS的server.properties: refs/server/bds-server-properties.md
       - LeviLamina API模块: refs/server/levilamina-api.md
       - Endstone命令与文本格式: refs/server/endstone-command-format.md
@@ -820,6 +823,7 @@ nav:
       - 中国版ModAPI接口域索引: refs/modsdk/modapi-interface-index.md
       - 中国版ModAPI事件域索引: refs/modsdk/modapi-event-index.md
       - 中国版ModAPI枚举值索引: refs/modsdk/modapi-enum-index.md
+      - 中国版ModAPI特化接口: refs/modsdk/modapi-specialized-api.md
       - 世界控制接口: refs/modsdk/world-control.md
       - 通用接口: refs/modsdk/modapi-common-api.md
       - 实体接口: refs/modsdk/modapi-entity-api.md
@@ -828,6 +832,7 @@ nav:
       - 特效接口: refs/modsdk/modapi-effects-api.md
       - UI与交互接口: refs/modsdk/modapi-ui-api.md
       - 自定义书本格式与接口: refs/modsdk/custom-book.md
+      - 中国版PresetAPI参考: refs/modsdk/preset-api.md
       - 模组SDK版本更新索引: refs/modsdk/version-update.md
       - Apollo网络服事件: refs/modsdk/apollo-events.md
       - Apollo控制服接口: refs/modsdk/apollo-control-api.md
@@ -971,6 +976,11 @@ nav:
       - ModSDK旧版教程目录: translations/china-legacy/modsdk.md
       - Apollo网络服旧版目录: translations/china-legacy/apollo.md
       - 示例与DEMO旧版目录: translations/china-legacy/demos.md
+    - 中国版API参考归档:
+      - translations/china-api-reference/index.md
+      - 中国版API参考概述: translations/china-api-reference/overview.md
+      - Apollo官方插件目录归档: translations/china-api-reference/apollo-official-plugins.md
+      - Apollo第三方插件目录归档: translations/china-api-reference/apollo-third-party-plugins.md
     - 基岩版开发wiki主页站:
       - translations/dev-home/index.md
       - 仓库README: translations/dev-home/repository-readme.md
@@ -1036,6 +1046,9 @@ nav:
         - Minecraft基岩版26.23修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md
     - 官方自动导出的文档:
       - translations/official-export/index.md
+    - Microsoft Learn文档:
+      - translations/microsoft-learn/index.md
+      - 仓库README译文: translations/microsoft-learn/source-readme.md
     - 基岩架构:
       - translations/bedrock-schema/index.md
     - Minecraft编辑器:
@@ -1043,6 +1056,11 @@ nav:
       - README译文: translations/editor/source-readme.md
     - 基岩版命令更新记录:
       - translations/command-log/index.md
+    - 基岩版协议库:
+      - translations/protocol/index.md
+      - 仓库README译文: translations/protocol/source-readme.md
+      - 补充文档脉络: translations/protocol/additional-docs-outline.md
+      - 变更日志索引: translations/protocol/changelog-index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17V5H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5v2H8v-2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM5 7h6v4H5zm0 6h6v2H5zm8-6h6v2h-6zm0 4h6v4h-6z"></path></svg></span><span class="md-ellipsis">专栏</span></span>':
     - blog/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 20v2H4c-1.1 0-2-.9-2-2V7h2v13zm4-18H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m-5 12h-2v-2h2zm1.8-5.2c-.3.4-.7.7-1.1.9-.2.2-.4.3-.5.5-.2.2-.2.5-.2.8h-2q0-.75.3-1.2c.2-.3.5-.6 1-.9q.45-.3.6-.6c.2-.2.2-.5.2-.8s-.1-.6-.3-.8-.4-.3-.8-.3c-.3 0-.5.1-.7.2-.2.2-.3.4-.3.7h-1.9c0-.8.2-1.4.8-1.8.7-.3 1.4-.5 2.3-.5s1.7.2 2.2.7.8 1.1.8 1.8c0 .5-.2.9-.4 1.3"></path></svg></span><span class="md-ellipsis">帮助</span></span>':

@@ -1,6 +1,6 @@
 # 中国版ModAPI接口域索引<!-- md:flag china -->
 
-本页根据知识库`.knowledge\EaseCation Wiki\docs\mcdocs\1-ModAPI\接口`目录整理中国版ModAPI接口域。该目录共101个Markdown文件，用于描述中国版模组SDK客户端与服务端接口。以下内容仅适用于中国版模组SDK环境，不适用于国际版`@minecraft/server`脚本API。
+本页根据知识库`.knowledge\中国版API参考\1-ModAPI\接口`目录整理中国版ModAPI接口域。该目录共101个Markdown文件，用于描述中国版模组SDK客户端与服务端接口。以下内容仅适用于中国版模组SDK环境，不适用于国际版`@minecraft/server`脚本API。
 
 /// warning | 使用边界
 中国版ModAPI接口文档与国际版脚本API、国际版数据驱动JSON架构是两套独立体系。维护文档时，应分别落到中国版模组SDK参考页或国际版附加包参考页，不应混写。
@@ -51,8 +51,10 @@
 | 方块与世界接口：方块读写、方块状态、方块实体、容器、红石、记分板与配方 | [方块与世界接口](modapi-block-api.md) |
 | 特效接口：粒子特效、序列帧特效、文字面板与后处理效果 | [特效接口](modapi-effects-api.md) |
 | UI与交互接口：自定义UI、原生HUD控制、按键控制、音效与游戏设置 | [UI与交互接口](modapi-ui-api.md) |
+| 特化接口：虚拟世界、物理、自由模型、联机大厅与商城 | [中国版ModAPI特化接口](modapi-specialized-api.md) |
 | 事件域清单 | [中国版ModAPI事件域索引](modapi-event-index.md) |
 | 枚举值清单 | [中国版ModAPI枚举值索引](modapi-enum-index.md) |
+| 预设架构接口 | [中国版PresetAPI参考](preset-api.md) |
 | Apollo网络服事件与服务接口 | [Apollo网络服事件](apollo-events.md)及Apollo系列页面 |
 
 ## 维护建议

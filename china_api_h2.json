@@ -1,0 +1,1222 @@
+[
+  {
+    "Path": "0-概述\\0-概述.md",
+    "H2Count": 3,
+    "H2Sample": "ModSdk技术手册 | Apollo技术手册 | 预设架构技术手册"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\成就.md",
+    "H2Count": 2,
+    "H2Sample": "LobbyGetAchievementStorage | LobbySetAchievementStorage"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\床.md",
+    "H2Count": 2,
+    "H2Sample": "GetBedColor | SetBedColor"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\方块调色板.md",
+    "H2Count": 8,
+    "H2Sample": "DeleteBlockInBlockPalette | DeserializeBlockPalette | GetBlockCountInBlockPalette | GetLocalPosListOfBlocks | GetVolumeOfBlockPalette | ReplaceAirByStructureVoid | ReplaceBlockInBlockPalette | SerializeBlockPalette"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\方块几何体模型.md",
+    "H2Count": 9,
+    "H2Sample": "CombineBlockBetweenPosToGeometry | CombineBlockFromPosListToGeometry | CombineBlockPaletteToGeometry | EnableActorBlockGeometryTransparent | GetActorBlockGeometryScale | SetActorBlockGeometryOffset | SetActorBlockGeometryRotation | SetActorBlockGeometryScale"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\方块实体.md",
+    "H2Count": 26,
+    "H2Sample": "CleanBlockTileEntityCustomData | CreateFrameEffectForBlockEntity | CreateParticleEffectForBlockEntity | ExecuteCommandBlock | GetBlockEntityData | GetBlockEntityMolangValue | GetBlockTileEntityCustomData | GetBlockTileEntityWholeCustomData"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\方块状态与附加值.md",
+    "H2Count": 4,
+    "H2Sample": "GetBlockAuxValueFromStates | GetBlockStates | GetBlockStatesFromAuxValue | SetBlockStates"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\告示牌.md",
+    "H2Count": 4,
+    "H2Sample": "GetSignBlockText | GetSignTextStyle | SetSignBlockText | SetSignTextStyle"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\红石.md",
+    "H2Count": 2,
+    "H2Sample": "GetBlockPoweredState | GetStrength"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\容器.md",
+    "H2Count": 17,
+    "H2Sample": "GetBrewingStandSlotItem | GetChestBoxSize | GetChestPairedPosition | GetContainerItem | GetContainerSize | GetEnderChestItem | GetInputSlotItem | GetOpenContainerItem"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\属性.md",
+    "H2Count": 5,
+    "H2Sample": "GetBlockBasicInfo | GetBlockTags | GetLoadBlocks | SetBlockBasicInfo | SetChestLootTable"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\方块\\渲染.md",
+    "H2Count": 17,
+    "H2Sample": "AddDropItemToWorld | ChangeBlockTextures | DeleteClientDropItemEntity | DestroyCrackFrame | GetBlockEntityExtraUniforms | GetBlockRenderDistance | GetBlockTextures | GetClientDropItemEntityIdList"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\后处理\\渐晕.md",
+    "H2Count": 6,
+    "H2Sample": "CheckVignetteEnabled | SetEnableVignette | SetVignetteCenter | SetVignetteRGB | SetVignetteRadius | SetVignetteSmoothness"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\后处理\\镜头效果.md",
+    "H2Count": 13,
+    "H2Sample": "CheckDepthOfFieldEnabled | CheckLensStainEnabled | ResetLensStainTexture | SetDepthOfFieldBlurRadius | SetDepthOfFieldFarBlurScale | SetDepthOfFieldFocusDistance | SetDepthOfFieldNearBlurScale | SetDepthOfFieldUseCenterFocus"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\后处理\\模糊.md",
+    "H2Count": 3,
+    "H2Sample": "CheckGaussianBlurEnabled | SetEnableGaussianBlur | SetGaussianBlurRadius"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\后处理\\色彩.md",
+    "H2Count": 6,
+    "H2Sample": "CheckColorAdjustmentEnabled | SetColorAdjustmentBrightness | SetColorAdjustmentContrast | SetColorAdjustmentSaturation | SetColorAdjustmentTint | SetEnableColorAdjustment"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\后处理\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\后处理\\自定义.md",
+    "H2Count": 11,
+    "H2Sample": "AddPostProcess | CheckEnabledByName | GetParameter | GetPostProcessOrder | InsertPassToPostprocess | PopBackPassInPostprocess | PostPassResultToOtherPass | PushBackPassToPostprocess"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\控制.md",
+    "H2Count": 48,
+    "H2Sample": "AddPickBlacklist | ClearPickBlacklist | GetChosen | GetChosenEntity | GetHoldTimeThresholdInMs | GetInputVector | GetMousePosition | GetTouchPos"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\联机大厅.md",
+    "H2Count": 5,
+    "H2Sample": "GetPlayerUid | LobbyGetStorage | LobbyGetStorageBySort | LobbySetStorageAndUserItem | QueryLobbyUserItem"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\模型.md",
+    "H2Count": 76,
+    "H2Sample": "BindItemToBone | BindModelToEntity | BindModelToModel | CancelAllBoneMask | 当需要自由模型时，建议使用LevelId | CreateFreeModel | 当需要自由模型时，建议使用LevelId | GetAllBindModelToEntity"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\山头服务器.md",
+    "H2Count": 1,
+    "H2Sample": "GetHostPlayerUid"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\商城.md",
+    "H2Count": 5,
+    "H2Sample": "CloseShopWindow | HideShopGate | OpenItemDetailWindow | OpenShopWindow | ShowShopGate"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\背包.md",
+    "H2Count": 4,
+    "H2Sample": "GetEntityItem | GetEquItemEnchant | GetEquItemModEnchant | SetEntityItem"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\标签.md",
+    "H2Count": 4,
+    "H2Sample": "AddEntityTag | EntityHasTag | GetEntityTags | RemoveEntityTag"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\附加值.md",
+    "H2Count": 1,
+    "H2Sample": "GetAuxValue"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\官方伙伴.md",
+    "H2Count": 2,
+    "H2Sample": "Disable | Enable"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\官方聊天扩展.md",
+    "H2Count": 7,
+    "H2Sample": "AddCommonPhrases | Disable | Enable | RegisterChatPrefix | RemoveCommonPhrases | SetShowOfficialPhrases | SetShowSocialNearbyInfo"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\经验球.md",
+    "H2Count": 2,
+    "H2Sample": "GetOrbExperience | SetOrbExperience"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\魔法指令.md",
+    "H2Count": 2,
+    "H2Sample": "Disable | Enable"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\抛射物.md",
+    "H2Count": 1,
+    "H2Sample": "GetSourceEntityId"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\实体类型.md",
+    "H2Count": 4,
+    "H2Sample": "GetEngineType | GetEngineTypeStr | GetEntityDefinitions | GetEntityNBTTags"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\属性.md",
+    "H2Count": 83,
+    "H2Sample": "AddModifier | ChangeEntityDimension | GetAllComponentsName | GetAllModifiers | GetAttrMaxValue | GetAttrValue | GetBodyRot | GetCurrentAirSupply"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\行为.md",
+    "H2Count": 61,
+    "H2Sample": "AddActorComponent | AddActorComponentGroup | AddEntityAroundEntityMotion | AddEntityAroundPointMotion | AddEntitySeat | AddEntityTrackMotion | AddEntityVelocityMotion | ChangeRiderSeat"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\渲染.md",
+    "H2Count": 64,
+    "H2Sample": "AddActorAnimation | AddActorAnimationController | AddActorBlockGeometry | AddActorGeometry | AddActorParticleEffect | AddActorRenderController | AddActorRenderControllerArray | AddActorRenderMaterial"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\状态效果.md",
+    "H2Count": 5,
+    "H2Sample": "AddEffectToEntity | GetAllEffects | GetLoadEffects | HasEffect | RemoveEffectFromEntity"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\自定义属性.md",
+    "H2Count": 5,
+    "H2Sample": "GetAttr | RegisterUpdateFunc | SaveAttr | SetAttr | UnRegisterUpdateFunc"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\自定义数据.md",
+    "H2Count": 5,
+    "H2Sample": "CleanExtraData | GetExtraData | GetWholeExtraData | SaveExtraData | SetExtraData"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\实体\\molang.md",
+    "H2Count": 9,
+    "H2Sample": "EvalMolangExpression | Get | GetAllProperties | GetMolangValue | GetStringHash64 | Register | Set | SetPropertyValue"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\地图.md",
+    "H2Count": 48,
+    "H2Sample": "CanSee | CheckBlockToPos | CheckChunkState | CreateDimension | CreateExplosion | DeleteAllArea | DeleteArea | DetectStructure"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\方块管理.md",
+    "H2Count": 11,
+    "H2Sample": "GetBlock | GetBlockClip | GetBlockCollision | GetBlockNew | GetDestroyTotalTime | GetLiquidBlock | GetTopBlockHeight | SetBlockNew"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\方块组合.md",
+    "H2Count": 6,
+    "H2Sample": "CreateMicroBlockResStr | GetBlankBlockPalette | GetBlockPaletteBetweenPos | GetBlockPaletteFromPosList | RegisterBlockPatterns | SetBlockByBlockPalette"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\记分板.md",
+    "H2Count": 2,
+    "H2Sample": "GetAllPlayerScoreboardObjects | GetAllScoreboardObjects"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\配方.md",
+    "H2Count": 7,
+    "H2Sample": "AddBrewingRecipes | AddRecipe | GetRecipeByRecipeId | GetRecipeResult | GetRecipesByInput | GetRecipesByResult | RemoveRecipe"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\生物生成.md",
+    "H2Count": 3,
+    "H2Sample": "GetEntityLimit | SetEntityLimit | SpawnCustomModule"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\时间.md",
+    "H2Count": 10,
+    "H2Sample": "GetLocalDoDayNightCycle | GetLocalTime | GetTime | GetUseLocalTime | SetLocalDoDayNightCycle | SetLocalTime | SetLocalTimeOfDay | SetTime"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\实体管理.md",
+    "H2Count": 23,
+    "H2Sample": "CreateClientEntityByTypeStr | CreateEngineEntityByNBT | CreateEngineEntityByTypeStr | CreateEngineItemEntity | CreateEntityAOI | CreateExperienceOrb | CreateProjectileEntity | DeleteEntityAOI"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\天气.md",
+    "H2Count": 10,
+    "H2Sample": "GetDimensionLocalWeatherInfo | GetDimensionUseLocalWeather | IsRaining | IsThunder | SetDimensionLocalDoWeatherCycle | SetDimensionLocalRain | SetDimensionLocalThunder | SetDimensionUseLocalWeather"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\消息.md",
+    "H2Count": 10,
+    "H2Sample": "NotifyOneMessage | SendMsg | SendMsgToPlayer | SetLeftCornerNotify | SetNotifyMsg | SetOnePopupNotice | SetOneTipMessage | SetPopupNotice"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\行为.md",
+    "H2Count": 3,
+    "H2Sample": "UseItemAttackEntity | UseItemToEntity | UseItemToPos"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\渲染.md",
+    "H2Count": 38,
+    "H2Sample": "AddTerrainDestroyParticleEffect | AddUseItemParticleEffect | GetAmbientBrightness | GetFogColor | GetFogLength | GetMoonRot | GetSkyColor | GetSkyTextures"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\游戏规则.md",
+    "H2Count": 36,
+    "H2Sample": "AddBannedItem | AddBlockProtectField | CleanBlockProtectField | ClearBannedItems | DisableVineBlockSpread | ForbidLiquidFlow | GetBannedItemList | GetGameDiffculty"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\指令.md",
+    "H2Count": 5,
+    "H2Sample": "GetCommandPermissionLevel | GetDefaultPlayerPermissionLevel | SetCommand | SetCommandPermissionLevel | SetDefaultPlayerPermissionLevel"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\世界\\自定义数据.md",
+    "H2Count": 5,
+    "H2Sample": "CleanExtraData | GetExtraData | GetWholeExtraData | SaveExtraData | SetExtraData"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\特效\\粒子.md",
+    "H2Count": 23,
+    "H2Sample": "Bind | CreateEngineParticle | GetParticleEmissionRate | GetParticleMaxNum | GetParticleMaxSize | GetParticleMinSize | GetParticleVolumeSize | GetPos"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\特效\\模型特效.md",
+    "H2Count": 3,
+    "H2Sample": "CreateEngineEffectBind | Pause | Resume"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\特效\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\特效\\通用.md",
+    "H2Count": 1,
+    "H2Sample": "DestroyEntity"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\特效\\微软粒子.md",
+    "H2Count": 36,
+    "H2Sample": "BindEntity | BindModel | Create | CreateBindEntityNew | EmitManually | Exist | GetActiveDuration | GetBindingID"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\特效\\文字面板.md",
+    "H2Count": 11,
+    "H2Sample": "CreateTextBoardInWorld | RemoveTextBoard | SetBoardBackgroundColor | SetBoardBindEntity | SetBoardDepthTest | SetBoardFaceCamera | SetBoardPos | SetBoardRot"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\特效\\序列帧.md",
+    "H2Count": 21,
+    "H2Sample": "Bind | CreateEngineSfx | CreateEngineSfxFromEditor | GetPos | GetRot | GetScale | Pause | Play"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\本地存储.md",
+    "H2Count": 2,
+    "H2Sample": "GetConfigData | SetConfigData"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\本地设备.md",
+    "H2Count": 6,
+    "H2Sample": "GetEngineVersion | GetIP | GetMinecraftVersion | GetPlatform | IsInApollo | IsInServer"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\调试.md",
+    "H2Count": 22,
+    "H2Sample": "GetEnableReconnectNetgame | GetKeepResourceWhenTransfer | GetMcpModLogCanPostDump | GetResourceFastload | PostMcpModDump | ReloadAllMaterials | ReloadAllShaders | ReloadOneShader"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\工具.md",
+    "H2Count": 16,
+    "H2Sample": "AddRepeatedTimer | AddTimer | CancelTimer | CheckNameValid | CheckWordsValid | GetChinese | GetClipboardContent | GetFps"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\事件.md",
+    "H2Count": 11,
+    "H2Sample": "BroadcastEvent | BroadcastToAllClient | CreateEventData | GetEngineNamespace | GetEngineSystemName | ListenForEvent | NotifyToClient | NotifyToMultiClients"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\数学.md",
+    "H2Count": 5,
+    "H2Sample": "GetDirFromRot | GetIntPos | GetLocalPosFromWorld | GetRotFromDir | GetWorldPosFromLocal"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\Component.md",
+    "H2Count": 6,
+    "H2Sample": "CreateComponent | DestroyComponent | GetComponent | GetComponentCls | GetEngineCompFactory | RegisterComponent"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\通用\\System.md",
+    "H2Count": 4,
+    "H2Sample": "GetClientSystemCls | GetServerSystemCls | GetSystem | RegisterSystem"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\背包.md",
+    "H2Count": 21,
+    "H2Sample": "AddEnchantToInvItem | AddModEnchantToInvItem | ChangePlayerItemTipsAndExtraId | ChangeSelectSlot | GetCarriedItem | GetInvItemEnchantData | GetInvItemModEnchantData | GetOffhandItem"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\导航.md",
+    "H2Count": 3,
+    "H2Sample": "GetNavPath | StartNavTo | StopNav"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\动画.md",
+    "H2Count": 2,
+    "H2Sample": "PlayTpAnimation | StopAnimation"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\权限.md",
+    "H2Count": 12,
+    "H2Sample": "GetPlayerAbilities | GetPlayerOperation | SetAttackMobsAbility | SetAttackPlayersAbility | SetBuildAbility | SetMineAbility | SetOpenContainersAbility | SetOperateDoorsAndSwitchesAbility"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\摄像机.md",
+    "H2Count": 39,
+    "H2Sample": "AddCameraAroundEntityMotion | AddCameraAroundPointMotion | AddCameraTrackMotion | AddCameraVelocityMotion | DepartCamera | GetCameraAnchor | GetCameraMotions | GetCameraOffset"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\属性.md",
+    "H2Count": 36,
+    "H2Sample": "AddPlayerExperience | AddPlayerLevel | CollectOnlineClientData | GetArmorValue | GetEnchantmentSeed | GetPlayerCurLevelExp | GetPlayerCurrentExhaustionValue | GetPlayerExp"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\行为.md",
+    "H2Count": 59,
+    "H2Sample": "AddPlayerAroundEntityMotion | AddPlayerAroundPointMotion | AddPlayerTrackMotion | AddPlayerVelocityMotion | BeginSprinting | ChangePlayerDimension | ChangePlayerFlyState | EnableKeepInventory"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\渲染.md",
+    "H2Count": 17,
+    "H2Sample": "AddPlayerAnimation | AddPlayerAnimationController | AddPlayerAnimationIntoState | AddPlayerGeometry | AddPlayerParticleEffect | AddPlayerRenderController | AddPlayerRenderMaterial | AddPlayerScriptAnimate"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\玩家\\游戏模式.md",
+    "H2Count": 2,
+    "H2Sample": "GetPlayerGameType | SetPlayerGameType"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\物理.md",
+    "H2Count": 15,
+    "H2Sample": "AddBoxGeometry | AddBoxTrigger | AddCapsuleGeometry | AddForce | AddForceAtPos | AddForceAtPosLocal | AddSphereGeometry | CreatePxActor"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\物品.md",
+    "H2Count": 43,
+    "H2Sample": "BindItemToMinecraftModel | BindItemToSkeletonModel | CancelShearsDestroyBlockSpeed | CancelShearsDestroyBlockSpeedAll | ChangeArmorTextures | ChangeItemTexture | GetAllEnchantsInfo | GetBindBoneForBindItem"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\物品\\钓鱼线.md",
+    "H2Count": 4,
+    "H2Sample": "GetFishingLineColor | GetFishingLineMax | SetFishingLineColor | SetFishingLineMax"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\虚拟世界\\模型.md",
+    "H2Count": 24,
+    "H2Sample": "ModelCancelAllBoneMask | ModelCreateMinecraftObject | ModelCreateObject | ModelGetPos | ModelGetRot | ModelIsVisible | ModelMoveTo | ModelPlayAnimation"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\虚拟世界\\其它对象.md",
+    "H2Count": 2,
+    "H2Sample": "BindModel | MoveToVirtualWorld"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\虚拟世界\\世界.md",
+    "H2Count": 6,
+    "H2Sample": "VirtualWorldCreate | VirtualWorldDestroy | VirtualWorldSetCollidersVisible | VirtualWorldSetSkyBgColor | VirtualWorldSetSkyTexture | VirtualWorldToggleVisibility"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\虚拟世界\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\虚拟世界\\相机.md",
+    "H2Count": 10,
+    "H2Sample": "CameraGetClickModel | CameraGetFov | CameraGetPos | CameraGetZoom | CameraLookAt | CameraMoveTo | CameraSetFov | CameraSetPos"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\渲染.md",
+    "H2Count": 29,
+    "H2Sample": "AddArrowShape | AddBoxShape | AddCircleShape | AddLineShape | AddSphereShape | AddTextShape | GetBoxScale | GetColor"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\音效.md",
+    "H2Count": 8,
+    "H2Sample": "DisableOriginMusic | PlayCustomMusic | PlayCustomUIMusic | PlayGlobalCustomMusic | SetCustomMusicLoop | SetCustomMusicLoopById | StopCustomMusic | StopCustomMusicById"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\游戏设置.md",
+    "H2Count": 13,
+    "H2Sample": "GetControllerLayout | GetGamepadKeyMappings | GetKeyMappings | GetSliderOption | GetToggleOption | GetUIProfile | HighlightBoxSelection | RegisterCustomGamepadMapping"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\原生UI.md",
+    "H2Count": 42,
+    "H2Sample": "ChangeSneakState | ClickInteractGUI | GetOriginAreaOffset | GetScreenSize | GetScreenViewInfo | GetWalkState | HideAirSupplyGUI | HideArmorGui"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\自定义UI\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\接口\\自定义UI\\通用.md",
+    "H2Count": 22,
+    "H2Sample": "CheckCanBindUI | CreateUI | EnableFontBatchRender | GetCustomUIControlProxyCls | GetMiniMapScreenNodeCls | GetNativeScreenManagerCls | GetScreenNodeCls | GetTopScreen"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\自定义UI\\通用设置.md",
+    "H2Count": 5,
+    "H2Sample": "CloseSettingUI | GetSettingInst | OpenSettingUI | RegisterSettingInst | SettingInst 下的方法"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\自定义UI\\自定义成就系统.md",
+    "H2Count": 6,
+    "H2Sample": "AddNodeProgress | GetAchievementGatePosition | GetChildrenNode | GetNodeDetailInfo | SetAchievementGatePosition | SetNodeFinish"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\自定义UI\\自定义书本.md",
+    "H2Count": 1,
+    "H2Sample": "GetBookManager"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\自定义UI\\UI界面.md",
+    "H2Count": 34,
+    "H2Sample": "BindVirtualWorldModel | ChangeBindAutoScale | ChangeBindEntityId | ChangeBindOffset | Clone | Create | CreateChildControl | Destroy"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\自定义UI\\UI控件.md",
+    "H2Count": 161,
+    "H2Sample": "AddEntityMarker | AddEntityTextMarker | AddHoverEventParams | AddOption | AddStaticMarker | AddStaticTextMarker | AddTouchEventParams | ClearOptions"
+  },
+  {
+    "Path": "1-ModAPI\\接口\\Api索引表.md",
+    "H2Count": 21,
+    "H2Sample": "物理 | 通用 | 世界 | 实体 | 玩家 | 方块 | 物品 | 特效"
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\索引.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ActorDamageCause.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AniCheatBlockBreak.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AniCheatConsts.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AniCheatMove.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AniCheatMoveRewind.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AnimationModeType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ArmorSlotType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AttributeBuffType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AttributeModifierOperation.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AttributeOperands.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\AttrType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\BiomeType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\BlockBreathability.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\BrewingStandSlotType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ButtonEventType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ButtonState.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\CatVariantType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\Change.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ColorCode.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\CommandBlockType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ConditionType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ContainerType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\EffectType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\EnchantSlotType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\EnchantType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\EntityColorType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\EntityComponentType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\EntityTeleportCause.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\EntityType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\Facing.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\FoxType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\GameDiffculty.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\GamepadKeyType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\GameType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\HorseSpotType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\HorseType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\InputMode.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\InventoryType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ItemAcquisitionMethod.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ItemCategory.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ItemColor.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ItemPosType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ItemUseMethodEnum.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\KeyBoardType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\MirrorModeType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\OpenContainerId.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\OptionId.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\OriginGUIName.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PermissionChangeCause.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PlayerActionType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PlayerExhauseRatioType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PlayerUISlot.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PxActorFlag.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PxEventMask.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PxForceMode.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PxRigidBodyFlag.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\PxRigidDynamicLockFlag.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\RayFilterType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\RedstoneModeType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\RenderControllerArrayType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\RenderLayer.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\SetBlockType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\ShapeType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\SliderOptionId.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\StructureFeatureType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\TimeEaseType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\TouchEvent.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\TradeLevelType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\TransferServerFailReason.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\UiBaseLayer.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\UICategory.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\UseAnimation.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\VillagerClothingType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\VirtualWorldObjectType.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\枚举值\\WalkState.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "1-ModAPI\\事件\\方块.md",
+    "H2Count": 52,
+    "H2Sample": "BlockAnimateRandomTickEvent | BlockDestroyByLiquidServerEvent | BlockLiquidStateChangeAfterServerEvent | BlockLiquidStateChangeServerEvent | BlockNeighborChangedServerEvent | BlockRandomTickServerEvent | BlockRemoveServerEvent | BlockSnowStateChangeAfterServerEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\控制.md",
+    "H2Count": 23,
+    "H2Sample": "ClientJumpButtonPressDownEvent | ClientJumpButtonReleaseEvent | GetEntityByCoordEvent | GetEntityByCoordReleaseClientEvent | GyroSensorChangedClientEvent | HoldBeforeClientEvent | LeftClickBeforeClientEvent | LeftClickReleaseClientEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\联机大厅.md",
+    "H2Count": 1,
+    "H2Sample": "lobbyGoodBuySucServerEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\模型.md",
+    "H2Count": 9,
+    "H2Sample": "AttackAnimBeginClientEvent | AttackAnimBeginServerEvent | AttackAnimEndClientEvent | AttackAnimEndServerEvent | JumpAnimBeginServerEvent | WalkAnimBeginClientEvent | WalkAnimBeginServerEvent | WalkAnimEndClientEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\实体.md",
+    "H2Count": 42,
+    "H2Sample": "ActorHurtServerEvent | ActuallyHurtServerEvent | AddEffectServerEvent | ApproachEntityClientEvent | ChangeSwimStateServerEvent | DamageEvent | EntityChangeDimensionServerEvent | EntityDefinitionsEventServerEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\世界.md",
+    "H2Count": 44,
+    "H2Sample": "AchievementCompleteEvent | AddEntityClientEvent | AddEntityServerEvent | AddPlayerAOIClientEvent | AddPlayerCreatedClientEvent | AddServerPlayerEvent | ChunkAcquireDiscardedClientEvent | ChunkAcquireDiscardedServerEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\事件索引表.md",
+    "H2Count": 12,
+    "H2Sample": "物理 | 世界 | 实体 | 玩家 | 方块 | 物品 | 模型 | UI"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\玩家.md",
+    "H2Count": 45,
+    "H2Sample": "AddExpEvent | AddLevelEvent | CameraMotionStartClientEvent | CameraMotionStopClientEvent | ChangeLevelUpCostServerEvent | DimensionChangeClientEvent | DimensionChangeFinishClientEvent | DimensionChangeFinishServerEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\物理.md",
+    "H2Count": 4,
+    "H2Sample": "PhysxTouchClientEvent | PhysxTouchServerEvent | PhysxTriggerClientEvent | PhysxTriggerServerEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\物品.md",
+    "H2Count": 52,
+    "H2Sample": "ActorAcquiredItemClientEvent | ActorAcquiredItemServerEvent | ActorUseItemClientEvent | ActorUseItemServerEvent | AnvilCreateResultItemAfterClientEvent | ClientItemTryUseEvent | ClientItemUseOnEvent | ClientShapedRecipeTriggeredEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\音效.md",
+    "H2Count": 3,
+    "H2Sample": "OnMusicStopClientEvent | PlayMusicClientEvent | PlaySoundClientEvent"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\游戏设置.md",
+    "H2Count": 4,
+    "H2Sample": "OnCustomGamepadChangedEvent | OnCustomGamepadPressInGame | OnCustomKeyChangedEvent | OnCustomKeyPressInGame"
+  },
+  {
+    "Path": "1-ModAPI\\事件\\UI.md",
+    "H2Count": 17,
+    "H2Sample": "AchievementButtonMovedClientEvent | ClientChestCloseEvent | ClientChestOpenEvent | ClientPlayerInventoryCloseEvent | ClientPlayerInventoryOpenEvent | CloseNeteaseShopEvent | GridComponentSizeChangedClientEvent | HudButtonChangedClientEvent"
+  },
+  {
+    "Path": "2-Apollo\\0-Apollo更新信息.md",
+    "H2Count": 139,
+    "H2Sample": "2026.04.22 更新内容 | 2026.03.25 更新内容 | 2026.01.28 更新内容 | 2025.12.31 更新内容 | 2025.11.19 更新内容 | 2025.10.24 更新内容 | 2025.09.12 更新内容 | 2025.08.20 更新内容"
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\1-大厅与游戏服事件.md",
+    "H2Count": 3,
+    "H2Sample": "服务器 | 配置 | 玩家"
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\10-启动器信息API.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\2-控制服事件.md",
+    "H2Count": 3,
+    "H2Sample": "服务器 | 配置 | 玩家"
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\3-功能服事件.md",
+    "H2Count": 2,
+    "H2Sample": "服务器 | 配置"
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\4-控制服API.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\5-功能服API.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\6-大厅与游戏服API.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\7-公共API.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\8-服务器通信.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "2-Apollo\\4-SDK\\9-运营指令.md",
+    "H2Count": 11,
+    "H2Sample": "查询UID | 在线人数 | 日志等级 | 服务器 | 禁言，解除禁言 | 踢出玩家 | 封禁，解除封禁 | 强制解除玩家在线标识"
+  },
+  {
+    "Path": "2-Apollo\\5-官方插件简介.md",
+    "H2Count": 4,
+    "H2Sample": "游戏玩法 | 游戏系统 | 基础功能 | 活动和运营"
+  },
+  {
+    "Path": "2-Apollo\\6-第三方插件简介.md",
+    "H2Count": 3,
+    "H2Sample": "概述 | 下载说明 | 简介"
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.23.0.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.23.1.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.23.2.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.23.3.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.23.4.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.24.0.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.24.1.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\1.25.0.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\2.0.1.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\2.0.2.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\2.0.3.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\2.2.0.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\更新信息\\2.4.0.md",
+    "H2Count": 0,
+    "H2Sample": ""
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\触发器零件TriggerPart.md",
+    "H2Count": 3,
+    "H2Sample": "概述 | 索引 | GetEntitiesInTrigger"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\传送门零件PortalPart.md",
+    "H2Count": 1,
+    "H2Sample": "概述"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\导航路径零件NavPointsPart.md",
+    "H2Count": 4,
+    "H2Sample": "概述 | 索引 | GetNavigationPoints | GetNavigationRadius"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\零件事件PartEvent.md",
+    "H2Count": 4,
+    "H2Sample": "索引 | OnTriggerEntityEnter | OnTriggerEntityExit | OnTriggerEntityStay"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\零件PartBase.md",
+    "H2Count": 45,
+    "H2Sample": "概述 | 索引 | InitClient | InitServer | TickClient | TickServer | UnloadClient | UnloadServer"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\实体零件EntityBasePart.md",
+    "H2Count": 4,
+    "H2Sample": "概述 | 索引 | CreateVirtualEntity | DestroyVirtualEntity"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\世界属性零件WorldPart.md",
+    "H2Count": 1,
+    "H2Sample": "概述"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\玩家基础属性零件PlayerBasicPart.md",
+    "H2Count": 1,
+    "H2Sample": "概述"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\零件\\相机轨迹CameraTrackPart.md",
+    "H2Count": 6,
+    "H2Sample": "概述 | 索引 | PlayFromStart | Pause | Continue | Stop"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\通用\\变换对象TransformObject.md",
+    "H2Count": 46,
+    "H2Sample": "概述 | 索引 | GetDimension | SetDimension | GetChildTransformObjects | GetTransformObjects | GetChildGameObjects | GetGameObjects"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\通用\\素材数据BoxData.md",
+    "H2Count": 1,
+    "H2Sample": "概述"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\通用\\游戏对象GameObject.md",
+    "H2Count": 4,
+    "H2Sample": "概述 | 索引 | LoadFile | fromDict"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\通用\\坐标变换Transform.md",
+    "H2Count": 7,
+    "H2Sample": "概述 | 索引 | AddOffset | AddRotation | AddScale | AddTransform | GetMatrix"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\通用\\SDK接口封装SdkInterface.md",
+    "H2Count": 332,
+    "H2Sample": "概述 | 索引 | GetEntityId | ToPlayerPreset | ToEntityPreset | ToEffectPreset | ToBlockPreset | ToUIPreset"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\方块预设BlockPreset.md",
+    "H2Count": 3,
+    "H2Sample": "概述 | 索引 | GetEngineTypeStr"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\界面预设UIPreset.md",
+    "H2Count": 7,
+    "H2Sample": "概述 | 索引 | SetUiActive | GetUiActive | SetUiVisible | GetUiVisible | GetScreenNode"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\实体对象EntityObject.md",
+    "H2Count": 96,
+    "H2Sample": "概述 | 索引 | GetPos | GetFootPos | SetPos | SetFootPos | GetRot | SetRot"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\实体预设EntityPreset.md",
+    "H2Count": 1,
+    "H2Sample": "概述"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\特效对象EffectObject.md",
+    "H2Count": 9,
+    "H2Sample": "概述 | 索引 | Play | Stop | BindToEntity | BindToSkeleton | SetLoop | SetDeepTest"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\特效预设EffectPreset.md",
+    "H2Count": 4,
+    "H2Sample": "概述 | 索引 | GetResource | SetResource"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\玩家对象PlayerObject.md",
+    "H2Count": 40,
+    "H2Sample": "概述 | 索引 | GetPlayerId | IsLocalPlayer | IsSneaking | GetHunger | SetHunger | SetStepHeight"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\玩家预设PlayerPreset.md",
+    "H2Count": 1,
+    "H2Sample": "概述"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\文字面板对象TextboardObject.md",
+    "H2Count": 11,
+    "H2Sample": "概述 | 索引 | SetBindEntity | SetPos | SetRot | SetScale | SetText | SetColor"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\文字面板预设TextboardPreset.md",
+    "H2Count": 1,
+    "H2Sample": "概述"
+  },
+  {
+    "Path": "3-PresetAPI\\预设对象\\预设\\预设基类PresetBase.md",
+    "H2Count": 24,
+    "H2Sample": "概述 | 索引 | GetIsAlive | GetGameObjectById | GetGameObjectByEntityId | GetChildPresets | GetChildPresetsByName | GetChildPresetsByType"
+  },
+  {
+    "Path": "3-PresetAPI\\预设管理\\PresetApi.md",
+    "H2Count": 18,
+    "H2Sample": "索引 | CreateTransform | GetAllPresets | GetBlockPresetByPosition | GetGameObjectByEntityId | GetGameObjectById | GetGameObjectByTypeName | GetGameObjectsByTypeName"
+  }
+]

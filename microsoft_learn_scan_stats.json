@@ -1,0 +1,27 @@
+{
+  "root": "E:\\bedrock-docs\\.knowledge\\Microsoft Learn",
+  "read_total": 4057,
+  "decision_stats": {
+    "无需更新": 4053,
+    "新增": 1,
+    "修改": 2,
+    "翻译": 1
+  },
+  "reason_stats": {
+    "参考字段与API已由docs/refs体系承接，本轮不手工镜像迁移": 3701,
+    "现有中文文档已覆盖核心概念，当前文件暂无增量吸收价值": 216,
+    "命令主题已由docs/docs与docs/refs命令分层覆盖": 90,
+    "版本日志类内容已由官方帮助中心更新日志链路覆盖": 29,
+    "仓库元文档或贡献规范，不进入站点正文": 11,
+    "面向轻量活动的休闲内容，当前不属于站点核心收录范围": 6,
+    "新增附加包开发流程教程并接入教程导航": 1,
+    "补充内容日志级别与GUI/文件查看机制": 1,
+    "吸收官方故障排查清单与高频症状修复策略": 1,
+    "新增官方仓库README译文并保留来源脉络": 1
+  },
+  "historical_recheck": {
+    "rechecked": true,
+    "note": "本轮重新逐文件读取并复核全部Markdown文件，覆盖历史已处理与未处理条目。"
+  },
+  "report_file": "E:\\bedrock-docs\\microsoft_learn_scan_decisions.tsv"
+}
