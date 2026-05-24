@@ -3,8 +3,8 @@
 这里收录旧版或社区维护的基岩版客户端模组生态。它们通常不属于Mojang当前官方支持的附加包体系，也不等同于服务器插件。阅读这一部分时，请先接受一个现实：很多旧生态依赖特定Android版本、特定Minecraft版本或已经停止维护的加载器，更适合作为历史资料、旧模组维护资料或迁移参考。
 
 /// html | div.grid.cards
-- :material-cellphone-cog: __[ICMod](icmod/index.md)__
-  以InnerCore/CoreEngine为代表的Android客户端模组体系，使用JavaScript/TypeScript和资源目录组织模组。
+- :material-cellphone-cog: __[InnerCore客户端模组](../clients/innercore/index.md)__
+  以InnerCore/CoreEngine为代表的Android客户端模组体系，已迁移到“教程-客户端模组”分区。
 - :material-history: __[ModPE](modpe/index.md)__
   以BlockLauncher脚本为代表的旧生态。知识库中缺少独立ModPE教程资料，本页只根据已有资料讲迁移和辨析。
 ///

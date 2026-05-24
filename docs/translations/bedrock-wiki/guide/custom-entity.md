@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/custom-entity](https://wiki.bedrock.dev/guide/custom-entity)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/guide/custom-entity)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/custom-entity)提供镜像翻译
 ///
 
 与自定义物品类似，我们也可以创建具有与游戏中原版实体相似机制的自定义实体。这些实体可以非常强大，允许你制作可繁殖驯养的动物，或是会攻击所见一切的敌对生物。

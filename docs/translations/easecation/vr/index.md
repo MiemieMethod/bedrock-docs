@@ -1,7 +1,7 @@
 # 虚拟现实
 
 /// details-info | 署名信息
-- 该页面整理自[EaseCation Wiki](https://wiki.easecation.net/wiki/vr)
+- 该页面整理自[EaseCation Wiki](https://mcwiki.easecation.net/wiki/vr)
 - 本分区主要对应该站VR目录中的内容
 ///
 

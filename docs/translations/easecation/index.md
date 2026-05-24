@@ -1,7 +1,7 @@
 # EaseCation Wiki
 
 /// details-info | 署名信息
-- 这里收录来自[EaseCation Wiki](https://wiki.easecation.net/)的中文整理内容。
+- 这里收录来自[EaseCation Wiki](https://mcwiki.easecation.net/)的中文整理内容。
 - 当前主要收录VR相关资料。
 ///
 

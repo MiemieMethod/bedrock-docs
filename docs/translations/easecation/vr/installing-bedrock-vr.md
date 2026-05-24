@@ -1,7 +1,7 @@
 # 启用VR模式
 
 /// details-info | 署名信息
-- 该页面整理自[EaseCation Wiki](https://wiki.easecation.net/wiki/vr/installing-bedrock-vr)
+- 该页面整理自[EaseCation Wiki](https://mcwiki.easecation.net/wiki/vr/installing-bedrock-vr)
 ///
 
 在Windows上，最新版本Minecraft的VR入口通常通过`minecraft://Mode/?OpenXR=true`启动。旧版Oculus商店客户端不再是当前方案，因此本文只说明通用的Windows启动方式。

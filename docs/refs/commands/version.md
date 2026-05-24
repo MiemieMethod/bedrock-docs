@@ -19,6 +19,7 @@
 | 26.10.25 | `camera attach_to_entity`、`camera detach_from_entity`和`camera play_spline`不再需要特定实验性玩法。 |
 | 26.0.27 | `camera play_spline`加入实验性语法。 |
 | 26.0.23 | 新增`packstack`命令。 |
+| 1.21.120.24 | `camera`新增`attach_to_entity`和`detach_from_entity`子命令（实验性）。 |
 | 1.21.100.25 | `camera fov_clear`和`camera fov_set`不再需要特定实验性玩法。 |
 | 1.21.90.23 | `controlscheme`命令不再需要特定实验性玩法。 |
 | 1.21.90.21 | `place jigsaw`和`place structure`新增`liquidSettings`参数。 |
@@ -40,6 +41,11 @@
 | 1.8.0.10 | 新增`function`命令。 |
 | 1.7.0.2 | 新增`scoreboard`命令。 |
 | 0.15.90.0 | 早期基岩版命令系统加入多项基础命令。 |
+
+## 数据来源
+
+- [基岩版命令更新记录（翻译）](../../translations/command-log/index.md)
+- [官方帮助中心更新日志翻译](../../translations/help-center/changelogs/index.md)
 
 ## 当前命令列表
 

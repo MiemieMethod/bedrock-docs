@@ -486,6 +486,11 @@ nav:
         - Endstone: docs/server/endstone.md
         - Allay: docs/server/allay.md
         - SerenityJS: docs/server/serenity.md
+    - 客户端模组:
+      - docs/client/index.md
+      - InnerCore: docs/client/innercore.md
+      - Horizon启动器: docs/client/horizon.md
+      - CoreEngine: docs/client/coreengine.md
     - 存档:
       - 存档: docs/save/save.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1zm6-10h3v2h-3zM1 11h3v2H1zM13 1v3h-2V1zM4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93zm12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12z"></path></svg></span><span class="md-ellipsis">教程</span></span>':
@@ -622,14 +627,15 @@ nav:
         - 中国版数据驱动维度与地形: guides/addons/modsdk/custom-dimensions-and-terrain.md
         - 制作自定义书本: guides/addons/modsdk/custom-books.md
         - 模组SDK调试与热更新: guides/addons/modsdk/debugging-and-hot-reload.md
+    - 客户端模组:
+      - InnerCore:
+        - guides/clients/innercore/index.md
+        - 准备环境与项目结构: guides/clients/innercore/environment-and-structure.md
+        - 物品、方块与配方: guides/clients/innercore/items-blocks-and-recipes.md
+        - 事件、存储与多人: guides/clients/innercore/events-storage-and-multiplayer.md
+        - 界面、环境与库: guides/clients/innercore/ui-environment-and-libraries.md
     - 社区模组:
       - guides/community-mods/index.md
-      - ICMod:
-        - guides/community-mods/icmod/index.md
-        - 准备环境与项目结构: guides/community-mods/icmod/environment-and-structure.md
-        - 物品、方块与配方: guides/community-mods/icmod/items-blocks-and-recipes.md
-        - 事件、存储与多人: guides/community-mods/icmod/events-storage-and-multiplayer.md
-        - 界面、环境与库: guides/community-mods/icmod/ui-environment-and-libraries.md
       - ModPE:
         - guides/community-mods/modpe/index.md
     - 软件工具:
@@ -657,7 +663,10 @@ nav:
       - guides/servers/index.md
       - 搭建BDS: guides/servers/bds.md
       - LeviLamina入门: guides/servers/levilamina.md
-      - Endstone入门: guides/servers/endstone.md
+      - Endstone:
+        - guides/servers/endstone/index.md
+        - Python插件工作流: guides/servers/endstone/python-plugin-workflow.md
+        - 命令、事件与调度实战: guides/servers/endstone/command-event-task.md
       - Allay入门: guides/servers/allay.md
       - SerenityJS入门: guides/servers/serenity.md
       - Nukkit、PocketMine与旧生态: guides/servers/nukkit-pocketmine.md
@@ -877,6 +886,7 @@ nav:
         - translations/bridge/bridge-core-app/index.md
     - Endstone:
       - translations/endstone/index.md
+      - 更新日志: translations/endstone/changelog.md
       - 入门指南:
         - translations/endstone/getting-started/installation.md
         - translations/endstone/getting-started/start-your-server.md
@@ -923,6 +933,24 @@ nav:
         - 启用VR模式: translations/easecation/vr/installing-bedrock-vr.md
         - 设置资源包: translations/easecation/vr/pack-setup.md
         - 编辑你的第一个模型: translations/easecation/vr/editing-your-first-model.md
+    - InnerCore:
+      - translations/innercore/index.md
+      - 介绍: translations/innercore/intro.md
+      - 入门指南:
+        - translations/innercore/getting-started/index.md
+        - 方法论: translations/innercore/getting-started/methodology.md
+        - 安装引擎: translations/innercore/getting-started/installing-pack.md
+        - 支持的集成开发环境: translations/innercore/getting-started/supporting-ides.md
+        - 继续前进: translations/innercore/getting-started/going-forward.md
+      - 基础知识:
+        - translations/innercore/basics/index.md
+        - 模组结构: translations/innercore/basics/mod-structure.md
+      - 物品:
+        - translations/innercore/items/index.md
+        - 第一个物品: translations/innercore/items/first-item.md
+      - 事件:
+        - translations/innercore/events/index.md
+        - 回调: translations/innercore/events/callbacks.md
     - 基岩维基:
       - translations/bedrock-wiki/index.md
       - 入门指南:
@@ -972,11 +1000,19 @@ nav:
           - 脚本与编辑器问答: translations/bedrock-wiki/meta/scripting-editor-qna.md
           - 延迟技术预览问答: translations/bedrock-wiki/meta/deferred-qna.md
           - 方块与物品问答: translations/bedrock-wiki/meta/blocks-items-qna.md
+    - 官方帮助中心:
+      - translations/help-center/index.md
+      - 更新日志:
+        - translations/help-center/changelogs/index.md
+        - Minecraft - 1.21.132（基岩版）: translations/help-center/changelogs/Minecraft-1-21-132-Bedrock.md
+        - Minecraft - 1.21.131（基岩版）: translations/help-center/changelogs/Minecraft-1-21-131-Bedrock.md
+        - Minecraft基岩版26.20更新日志（开发向节选）: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-20-Changelog.md
+        - Minecraft基岩版26.21修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog.md
+        - Minecraft基岩版26.23修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md
+    - 基岩版命令更新记录:
+      - translations/command-log/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17V5H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5v2H8v-2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM5 7h6v4H5zm0 6h6v2H5zm8-6h6v2h-6zm0 4h6v4h-6z"></path></svg></span><span class="md-ellipsis">专栏</span></span>':
     - blog/index.md
-     - 官方帮助中心:
-       - translations/help-center/index.md
-       - 更新日志: translations/help-center/changelogs/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 20v2H4c-1.1 0-2-.9-2-2V7h2v13zm4-18H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m-5 12h-2v-2h2zm1.8-5.2c-.3.4-.7.7-1.1.9-.2.2-.4.3-.5.5-.2.2-.2.5-.2.8h-2q0-.75.3-1.2c.2-.3.5-.6 1-.9q.45-.3.6-.6c.2-.2.2-.5.2-.8s-.1-.6-.3-.8-.4-.3-.8-.3c-.3 0-.5.1-.7.2-.2.2-.3.4-.3.7h-1.9c0-.8.2-1.4.8-1.8.7-.3 1.4-.5 2.3-.5s1.7.2 2.2.7.8 1.1.8 1.8c0 .5-.2.9-.4 1.3"></path></svg></span><span class="md-ellipsis">帮助</span></span>':
     - help/index.md
     - Minecraft基岩版:
@@ -993,7 +1029,4 @@ nav:
       - help/docs/index.md
       - 贡献: help/docs/contributing.md
       - 赞助: help/docs/sponsor.md
-
-
-
 

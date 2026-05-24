@@ -2,13 +2,15 @@
 comments: true
 ---
 
-颜色代码用于自定义游戏中的文本颜色和格式，例如在标志、聊天、标题、表单等中。这些颜色代码由部分符号(`§`)后跟一个字符表示。每个字符代表不同的颜色或格式选项。Endstone想让使用它们变得容易，这就是为什么提供了易于使用的api。
+# 使用颜色代码
+
+颜色代码用于自定义游戏中的文本颜色和格式，例如在标牌、聊天、标题、表单等位置。这些颜色代码由节符号`§`加一个字符组成。每个字符都代表一种颜色或格式选项。Endstone提供了易用的API来处理这类文本。
 
 ## 用法
 
 === ":fontawesome-brands-python: Python"
 
-    此代码显示在endstone中使用彩色文本有多容易：
+    此代码展示了在Endstone中使用彩色文本的基本方式：
 
     ```python
     from endstone import ColorFormat
@@ -26,7 +28,7 @@ comments: true
 
 === ":simple-cplusplus: C++"
 
-    此代码显示在endstone中使用彩色文本有多容易：
+    此代码展示了在Endstone中使用彩色文本的基本方式：
     
     ```cpp
     #include <endstone/endstone.hpp>

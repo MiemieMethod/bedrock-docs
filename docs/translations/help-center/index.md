@@ -14,8 +14,11 @@ title: 官方帮助中心
 
 最新的版本日志可以在下方找到。每个日志包含该版本的所有新功能、改进和修复。
 
-- [Minecraft：基岩版 26.23 修复版](Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md)
-- [Minecraft - 1.21.132 （基岩版）](Minecraft-1-21-132-Bedrock.md)
+- [Minecraft：基岩版26.23修复版](changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md)
+- [Minecraft：基岩版26.21修复版](changelogs/Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog.md)
+- [Minecraft：基岩版26.20更新日志（开发向节选）](changelogs/Minecraft-Bedrock-Edition-26-20-Changelog.md)
+- [Minecraft-1.21.132（基岩版）](changelogs/Minecraft-1-21-132-Bedrock.md)
+- [Minecraft-1.21.131（基岩版）](changelogs/Minecraft-1-21-131-Bedrock.md)
 
 ### 完整日志列表
 

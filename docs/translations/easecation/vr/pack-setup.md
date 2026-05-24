@@ -1,7 +1,7 @@
 # 设置资源包
 
 /// details-info | 署名信息
-- 该页面整理自[EaseCation Wiki](https://wiki.easecation.net/wiki/vr/pack_setup)
+- 该页面整理自[EaseCation Wiki](https://mcwiki.easecation.net/wiki/vr/pack_setup)
 ///
 
 VR资源包负责提供全息模型与对应纹理。制作VR内容前，通常需要先获取一个基础模板，再将其并入自己的资源包结构中。

@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/scripting-editor-qna](https://wiki.bedrock.dev/meta/scripting-editor-qna)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/meta/scripting-editor-qna)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/scripting-editor-qna)提供镜像翻译
 ///
 
 /// warning | 说明

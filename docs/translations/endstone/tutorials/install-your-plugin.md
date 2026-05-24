@@ -2,6 +2,8 @@
 comments: true
 ---
 
+# 安装您的插件
+
 在安装您的第一个插件之前，您需要构建它。
 
 === ":fontawesome-brands-python: Python"
@@ -17,7 +19,7 @@ comments: true
 
     ![PyCharm构建插件](screenshots/pycharm-build-plugin.png)
 
-    然后，将构建的wheel包`endstone_my_plugin.whl`从`dist`文件夹复制到plugins文件夹`path/to/bedrock_server/plugins`。
+    然后，将构建的wheel包`endstone_my_plugin.whl`从`dist`文件夹复制到{{file|plugins}}目录`path/to/bedrock_server/plugins`。
 
     现在，[再次启动您的服务器]。您应该看到您的插件已成功加载。
     
@@ -61,7 +63,7 @@ comments: true
 
     ![CLion构建插件](screenshots/clion-build-plugin.png)
     
-    然后，将构建的共享库`endstone_my_plugin.dll`复制到plugins文件夹`path/to/bedrock_server/plugins`。
+    然后，将构建的共享库`endstone_my_plugin.dll`复制到{{file|plugins}}目录`path/to/bedrock_server/plugins`。
 
     现在，[再次启动您的服务器]。您应该看到您的插件已成功加载。
     

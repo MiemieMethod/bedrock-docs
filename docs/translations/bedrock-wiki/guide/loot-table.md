@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/loot-table](https://wiki.bedrock.dev/guide/loot-table)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/guide/loot-table)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/loot-table)提供镜像翻译
 ///
 
 接下来我们将为自定义的幽灵实体添加更多基础机制：

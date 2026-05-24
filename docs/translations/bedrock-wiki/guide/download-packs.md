@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/download-packs](https://wiki.bedrock.dev/guide/download-packs)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/guide/download-packs)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/download-packs)提供镜像翻译
 ///
 
 /// tip | 提示

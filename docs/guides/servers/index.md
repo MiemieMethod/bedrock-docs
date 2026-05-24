@@ -7,7 +7,7 @@
   下载、启动、开放端口、连接本机服务器，并理解`server.properties`、世界目录和包目录。
 - :material-language-cpp: __[LeviLamina入门](levilamina.md)__
   使用lip安装LeviLamina，了解C++模组开发的工具链和模板。
-- :material-language-python: __[Endstone入门](endstone.md)__
+- :material-language-python: __[Endstone入门](endstone/index.md)__
   用pip或Docker启动Endstone，并创建第一个Python/C++插件。
 - :material-language-java: __[Allay入门](allay.md)__
   安装Java21，启动Allay，并使用Java插件模板。

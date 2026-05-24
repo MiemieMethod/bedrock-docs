@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/project-setup](https://wiki.bedrock.dev/guide/project-setup)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/guide/project-setup)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/project-setup)提供镜像翻译
 ///
 
 ## com.mojang文件夹

@@ -48,4 +48,28 @@
     主要收录与Minecraft基岩版VR相关的中文整理内容。
 
     [:octicons-arrow-right-24: 开始阅读](./easecation/index.md)
+
+-   :material-cellphone-cog:{ .lg .middle } __InnerCore文档__
+
+    ---
+
+    Nernar维护的InnerCore旧客户端模组文档翻译，主要用于历史项目维护与生态研究。
+
+    [:octicons-arrow-right-24: 开始阅读](./innercore/index.md)
+
+-   :material-update:{ .lg .middle } __官方帮助中心__
+
+    ---
+
+    收录官方帮助中心中的基岩版更新日志翻译。
+
+    [:octicons-arrow-right-24: 开始阅读](./help-center/index.md)
+
+-   :material-console-network:{ .lg .middle } __基岩版命令更新记录__
+
+    ---
+
+    收录命令语法变更时间线的中文整理，用于版本迁移与兼容性校验。
+
+    [:octicons-arrow-right-24: 开始阅读](./command-log/index.md)
 </div>

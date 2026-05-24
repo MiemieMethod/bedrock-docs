@@ -2,8 +2,13 @@
 
 Endstone为官方BDS提供第三方插件API，支持Python和C++插件。它适合想保留BDS行为，又希望用较高层接口扩展服务器的人。本文只说明Endstone生态的使用方式，不把Endstone能力视为BDS原生能力。
 
+/// info | 本系列后续页面
+- [EndstonePython插件工作流](python-plugin-workflow.md)
+- [Endstone命令、事件与调度实战](command-event-task.md)
+///
+
 /// tip | 先理解定位
-如果还不熟悉BDS目录、{{file|server.properties|txt}}和服务端端口，请先阅读[搭建BDS](bds.md)。Endstone仍以BDS为基础，客户端版本、世界目录、资源包和行为包规则不会因此变成另一套系统。
+如果还不熟悉BDS目录、{{file|server.properties|txt}}和服务端端口，请先阅读[搭建BDS](../bds.md)。Endstone仍以BDS为基础，客户端版本、世界目录、资源包和行为包规则不会因此变成另一套系统。
 ///
 
 ## 安装
@@ -151,7 +156,7 @@ class MyPlugin(Plugin):
         return True
 ```
 
-`[msg: message]`表示可选的消息参数。Endstone支持的命令参数类型和权限默认值见[Endstone命令与文本格式](../../refs/server/endstone-command-format.md)。
+`[msg: message]`表示可选的消息参数。Endstone支持的命令参数类型和权限默认值见[Endstone命令与文本格式](../../../refs/server/endstone-command-format.md)。
 
 ## 监听事件
 

@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/blockbench](https://wiki.bedrock.dev/guide/blockbench)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/guide/blockbench)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/blockbench)提供镜像翻译
 ///
 
 Blockbench是一款专为Minecraft设计的免费建模、纹理绘制和动画制作软件，支持移动端浏览器、Windows 10和macOS。请访问[blockbench.net](https://blockbench.net/)下载安装。

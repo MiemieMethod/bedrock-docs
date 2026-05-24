@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/troubleshooting](https://wiki.bedrock.dev/guide/troubleshooting)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/guide/troubleshooting)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/troubleshooting)提供镜像翻译
 ///
 
 为Minecraft基岩版创建附加包是一个相对直接的过程——_一旦掌握窍门后_。但初次尝试通常充满挫折，极易出现各种错误。本文档包含修复这些棘手问题的技巧与最佳实践建议。

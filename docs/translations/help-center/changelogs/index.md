@@ -13,7 +13,10 @@ title: 版本更新日志
 最新的版本日志：
 
 - [Minecraft：基岩版 26.23 修复版](Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md)
+- [Minecraft：基岩版 26.21 修复版](Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog.md)
+- [Minecraft：基岩版 26.20 更新日志（开发向节选）](Minecraft-Bedrock-Edition-26-20-Changelog.md)
 - [Minecraft - 1.21.132 （基岩版）](Minecraft-1-21-132-Bedrock.md)
+- [Minecraft - 1.21.131 （基岩版）](Minecraft-1-21-131-Bedrock.md)
 
 ## 主版本系列
 
@@ -49,11 +52,11 @@ title: 版本更新日志
 
 ## 处理进度
 
-该分类的翻译工作正在进行中。共有259个Release-Changelogs文件需要翻译。
+该分类的翻译工作正在进行中。共有259个Release-Changelogs文件需要翻译，当前已收录5篇。
 
 | 分类 | 文件数 | 处理进度 |
 |-----|-------|--------|
-| Release-Changelogs（国际版） | 259 | 进行中... |
+| Release-Changelogs（国际版） | 259 | 已翻译5篇 |
 
 ## 贡献
 

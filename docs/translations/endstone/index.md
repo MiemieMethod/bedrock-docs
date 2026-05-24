@@ -64,6 +64,9 @@ comments: true
 - [Python API](reference/python/server.md) - Python API完整参考
 - [C++ API](reference/index.md) - C++ API文档入口
 
+### 版本与更新
+- [更新日志](changelog.md) - 跟踪Endstone版本变化与破坏性变更摘要
+
 ## 🎮 寻求托管支持？
 
 尝试[Bisect Hosting](https://bisecthosting.com/endstone)，并使用促销代码**`endstone`**获得**25% 折扣**。

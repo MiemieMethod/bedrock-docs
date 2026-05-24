@@ -2,7 +2,7 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/useful-links](https://wiki.bedrock.dev/meta/useful-links)
-- 该页面由[EaseCation Wiki](https://wiki.easecation.net/wiki/meta/useful-links)提供镜像翻译
+- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/useful-links)提供镜像翻译
 ///
 
 网络上存在大量关于基岩版开发的实用信息，但它们并不总是容易被找到。下面这份清单汇总了常用的社区、工具与参考资源。

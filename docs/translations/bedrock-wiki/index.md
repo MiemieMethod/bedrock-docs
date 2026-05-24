@@ -3,7 +3,7 @@
 /// details-info | 署名信息
 - 该页面内容翻译自[基岩维基（Bedrock Wiki）](https://wiki.bedrock.dev/)
 - 基岩维基采用[知识共享署名-相同方式共享4.0国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/)（CC BY-SA 4.0）授权
-- 原始翻译由[EaseCation Wiki](https://wiki.easecation.net/)提供，本站在其基础上进行了格式适配
+- 原始翻译由[EaseCation Wiki](https://mcwiki.easecation.net/)提供，本站在其基础上进行了格式适配
 ///
 
 基岩维基（**Bedrock Wiki**）是一个由社区维护的Minecraft基岩版开发文档网站，涵盖附加包开发、脚本API、实体行为、游戏机制等方方面面。本站从中精选了若干实用的教程与指引进行翻译与收录。

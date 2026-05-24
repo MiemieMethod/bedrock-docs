@@ -1,7 +1,7 @@
 # 编辑你的第一个模型
 
 /// details-info | 署名信息
-- 该页面整理自[EaseCation Wiki](https://wiki.easecation.net/wiki/vr/editing-your-first-model)
+- 该页面整理自[EaseCation Wiki](https://mcwiki.easecation.net/wiki/vr/editing-your-first-model)
 ///
 
 本教程以右手模型为例，说明如何把VR手部模型改造成可用于前臂表现的模型。操作流程主要分为导入、贴图、UV调整和导出四个阶段。
