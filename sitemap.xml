@@ -413,6 +413,10 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/server/apollo/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/server/bds/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -1106,6 +1110,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/outdated/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/outdated/china-legacy-apollo/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -2281,6 +2289,22 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-legacy/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-legacy/apollo/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-legacy/mc-studio/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-legacy/modsdk/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/command-log/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -2490,6 +2514,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/basics/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/basics/mod-lifecycle/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
