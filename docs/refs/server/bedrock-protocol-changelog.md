@@ -1,23 +1,19 @@
 # 基岩版协议变更索引
 
-本文用于汇总官方协议仓库变更日志文件的结构与使用方式，便于在版本迁移时快速定位高风险兼容性变化。
+本文用于汇总基岩版协议变更日志的结构与使用方式，便于在版本迁移时快速定位高风险兼容性变化。
 
-## 来源
+## 常看文件
 
-- 主仓库：<https://github.com/Mojang/bedrock-protocol-docs>
+| 类别 | 路径 | 作用 |
+|---|---|---|
+| 当前变更日志 | `changelog_1001_05_18_26.md` | 记录最新一段协议版本变更。 |
+| 历史变更日志 | `previous_changelogs\*.md` | 按协议版本持续记录增删改。 |
+| 补充机制文档 | `additional_docs\*.md`与子目录 | 解释服务端权威运动、方块破坏、子区块请求、缓存校验、物品栏迁移等机制。 |
+| 说明页 | `README.md` | 简述该协议仓库的用途与边界。 |
 
-## 文件结构
+## 补充机制文档
 
-| 类别 | 路径 | 本轮扫描数量 | 作用 |
-|---|---|---:|---|
-| 当前变更日志 | `changelog_1001_05_18_26.md` | 1 | 记录最新原始协议版本变更。 |
-| 历史变更日志 | `previous_changelogs\*.md` | 60 | 按协议版本持续记录增删改。 |
-| 补充机制文档 | `additional_docs\*.md`与子目录 | 10 | 解释服务端权威运动、方块破坏、子区块请求、缓存校验、物品栏迁移等机制。 |
-| 仓库说明 | `README.md` | 1 | 说明该仓库用途与基本边界。 |
-
-## 补充机制文档落点
-
-| 来源文件 | 主题 | 站内落点 |
+| 文件 | 主题 | 站内落点 |
 |---|---|---|
 | `additional_docs\ConfiguringAntiCheat.md` | 运动修正阈值与反作弊配置 | [网络协议](../../docs/server/protocol.md) |
 | `additional_docs\PlayerMovementOverview.md` | 回退、重放与带滴答修正 | [网络协议](../../docs/server/protocol.md) |
@@ -39,9 +35,9 @@
 - 服务端权威迁移相关改动：运动输入、方块破坏与物品栏请求—响应路径发生替换。
 - 字段表示扩张：字段可能从固定枚举演进为枚举或字符串变体，也可能新增可选字段与读写顺序修正。
 
-## 近期重点文件与兼容性关注点
+## 近期重点版本链路
 
-| 来源文件 | 关键变化 | 兼容性关注点 |
+| 文件 | 关键变化 | 兼容性关注点 |
 |---|---|---|
 | `previous_changelogs\changelog_893_11_07_25.md` | 首轮显性Cereal迁移，涉及`CommandRequestPacket`、`CommandOutputPacket`、`AnimatePacket`、`InteractPacket`、`AvailableCommandsPacket`、`LegacyTelemetryEventPacket`、`ClientboundControlSchemeSetPacket`等；`TextPacket`调整消息体判别方式；`StartGamePacket`移除`mTickDeathSystemsEnabled`。 | 旧解析器不能再假定文本包与若干命令类数据包沿用原布局，登录阶段字段也需要按目标版本复核。 |
 | `previous_changelogs\changelog_924_01_21_26.md` | `ServerboundDiagnosticsPacket`新增客户端内存分类数据；`StartGamePacket`新增服务端遥测数据与加入信息；数据存储包开始跟踪路径更新；同时引入纹理偏移、体素形状、相机样条等新协议面。 | 登录元数据与诊断负载继续扩大，服务端若忽略新字段，可能导致诊断或会话配置能力失配。 |
@@ -49,9 +45,9 @@
 | `previous_changelogs\changelog_975_04_22_26.md` | `PlayerEnchantOptionsPacket`与`MobEquipmentPacket`转为Cereal；`ServerboundDiagnosticsPacket`继续扩大到实体系统诊断；`ServerStoreInfoPacket`与`ServerPresenceInfoPacket`用于下发`ClientStoreEntryPointConfiguration`与`PresenceConfiguration`。 | 诊断、商店入口与存在信息已经成为运行期协议的一部分，不再只是外围平台功能。 |
 | `changelog_1001_05_18_26.md` | `SubChunkRequestPacket`、`BossEventPacket`、`InventoryTransactionPacket`、`MobArmorEquipmentPacket`、`ClientCacheBlobStatusPacket`、`InventoryContentPacket`继续转向Cereal；`LevelSoundEventPacket`将`mSoundEvent`改为`SoundEventIdentifier`；`StartGamePacket`新增`isChatLogging`；`PresenceConfiguration`新增`richPresenceId`并将`mExperienceName`、`mWorldName`改为可选。 | 区块请求、缓存状态、物品栏与声音事件路径均出现破坏性变化，登录阶段还增加了聊天记录与存在信息字段，宜作为最新适配的最高优先级。 |
 
-## 当前1.26.30快照中的结构信号
+## 1.26.30中的结构信号
 
-当前JSON与HTML快照（`x-minecraft-version = 1.26.30`，`x-protocol-version = 1001`）进一步表明，协议范围已经覆盖传统玩法同步之外的创作、界面、呈现与诊断通道：
+1.26.30对应的协议1001进一步表明，协议范围已经覆盖传统玩法同步之外的创作、界面、呈现与诊断通道：
 
 - `EditorNetworkPacket`（190）是编辑器专用的通用载荷包，字段由`Route To Manager`、`Raw Variant Name`与`Raw Variant Data`组成。
 - `ClientboundDataDrivenUIShowScreenPacket`（333）允许服务端要求客户端显示数据驱动界面屏幕，并以`ScreenId`、`FormId`和可选`DataInstanceId`跟踪实例。
