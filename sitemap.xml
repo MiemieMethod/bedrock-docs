@@ -113,6 +113,10 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/modsdk/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/addon/module/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -486,6 +490,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/addons/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/addons/addon-development-workflow/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1905,7 +1913,15 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/modsdk/modapi-specialized-api/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/modsdk/modapi-ui-api/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/modsdk/preset-api/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1922,6 +1938,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/bds-server-properties/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/bedrock-protocol-changelog/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -2333,6 +2353,22 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-api-reference/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-api-reference/apollo-official-plugins/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-api-reference/apollo-third-party-plugins/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-api-reference/overview/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-legacy/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -2637,7 +2673,31 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/microsoft-learn/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/microsoft-learn/source-readme/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/official-export/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/protocol/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/protocol/additional-docs-outline/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/protocol/changelog-index/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/protocol/source-readme/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
