@@ -1289,6 +1289,10 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/endstone/color-codes/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/endstone/command-event-task/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -1945,7 +1949,103 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-actor/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-api/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-attribute/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-ban/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-block/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-boss/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-command-format/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-command/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-damage/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-enchantments/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-event/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-form/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-inventory/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-lang/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-level/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-map/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-misc/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-nbt/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-permissions/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-player/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-plugin/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-potion/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-scheduler/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-scoreboard/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/server/endstone-server/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -2685,6 +2785,10 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/levilamina/cpp-style-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/levilamina/faq/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -2702,6 +2806,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/levilamina/troubleshooting/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/levilamina/usage-guidelines/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
