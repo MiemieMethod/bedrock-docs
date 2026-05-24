@@ -29,6 +29,7 @@
 - [旧版中国版模组SDK制作规范](china-legacy-modsdk-guidelines.md)：用于维护旧版中国版模组SDK项目时检查命名、清单、资源目录、贴图和九切片历史要求。
 - [旧版中国版MC Studio工具链](china-legacy-mc-studio.md)：用于辨析旧版MC Studio启动器、地图编辑器、关卡编辑器、逻辑编辑器、界面编辑器和调试工具的历史语境。
 - [旧版中国版特效编辑器](china-legacy-mc-studio-effects.md)：用于维护旧版MC Studio特效编辑器生成的模型、粒子、序列帧和挂接文件。
+- [旧版中国版Apollo网络服流程](china-legacy-apollo.md)：用于维护旧版Apollo网络服项目时梳理入驻、部署、调试、提审、上架和运维流程。
 
 ## 迁移原则
 

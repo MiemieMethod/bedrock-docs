@@ -57,6 +57,14 @@
 
     [:octicons-arrow-right-24: 开始阅读](./innercore/index.md)
 
+-   :material-archive-outline:{ .lg .middle } __中国版旧版文档归档__
+
+    ---
+
+    收录中国版旧版开发文档的目录脉络整理，用于旧项目维护与历史语境核对。
+
+    [:octicons-arrow-right-24: 开始阅读](./china-legacy/index.md)
+
 -   :material-update:{ .lg .middle } __官方帮助中心__
 
     ---
@@ -81,4 +89,3 @@
 
     [:octicons-arrow-right-24: 开始阅读](./official-export/index.md)
 </div>
-

@@ -10,4 +10,6 @@
 /// html | div.grid.cards
 - :material-folder-cog-outline: __[模组结构](./mod-structure.md)__
   认识模板目录、配置文件以及`build.config`中的关键字段。
+- :material-timer-cog-outline: __[模组生命周期](./mod-lifecycle.md)__
+  了解预加载、启动脚本、主脚本与自定义脚本在运行阶段的职责。
 ///
