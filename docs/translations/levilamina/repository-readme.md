@@ -17,7 +17,7 @@ title: 仓库README
 [![937236109](https://img.shields.io/badge/937236109-red?style=for-the-badge&logo=qq)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1u0nmmUIZOB716neFTlbyj_2aOQn_TV-&authKey=1lBqM20oOfdKjDnxkq09DjR729fqFfWVnaLQ7VjrDB%2FAg6qwvw6QCwdwYoRUrewU&noverify=0&group_code=937236109)
 [![850517473](https://img.shields.io/badge/850517473-red?style=for-the-badge&logo=qq)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3Fxt0gwMYkoLPani_vQ9tsNfYrnVy4hK&authKey=2A%2BNk3jmRaK%2FO1FBQSjTIbStAU1kbZWkjEkyh2RTVA015eTg6c4CvVhfByc1BtGZ&noverify=0&group_code=850517473)
 
-中文README原文中的语言入口以“英语页可切换、简体中文为当前页”的状态显示；英文README则相反。为避免在站内镜像中制造伪造的相对链接，本页仅保留这一镜像关系说明，而不直接复刻原始按钮跳转。
+中文自述文件原文中的语言入口以“英语页可切换、简体中文为当前页”的状态显示；英文自述文件则相反。为避免在站内镜像中制造伪造的相对链接，本页仅保留这一镜像关系说明，而不直接复刻原始按钮跳转。
 
 轻量级、模块化和多功能的基岩版模组加载器，LiteLoaderBDS的后继者。
 
@@ -44,16 +44,16 @@ LeviLamina仓库同时提供`README.zh.md`和`README.md`两份首页说明。两
 
 ## 从README继续阅读
 
-README原文只给出安装入口标题，不展开兼容矩阵和具体步骤。若按站内链路继续阅读，建议直接分流到对应页面：
+自述文件原文只给出安装入口标题，不展开兼容矩阵和具体步骤。若按站内链路继续阅读，建议直接分流到对应页面：
 
 - 需要先确认版本匹配时，查看[支持的版本](versions.md)。
 - 需要安装与升级时，查看[在服务器上安装](install-server.md)与[在客户端上安装](install-client.md)。
 - 需要理解官方首页承担的门户与鸣谢职责时，查看[官方文档首页](official-docs-home.md)。
 - 需要提交问题、拉取请求或核对协作约束时，查看[拉取请求模板](pull-request-template.md)与[行为准则](code-of-conduct.md)。
-- 需要追溯许可证、EULA和使用限制时，查看[法律与发布说明](legal-release-notes.md)、[许可证](license.md)与[最终用户许可协议](eula.md)。
+- 需要追溯许可证、最终用户许可协议和使用限制时，查看[法律与发布说明](legal-release-notes.md)、[许可证](license.md)与[最终用户许可协议](eula.md)。
 
-/// warning | EULA和使用准则
-你应该仔细阅读并遵守我们的[EULA](eula.md)与[使用准则](usage-guidelines.md)。
+/// warning | 最终用户许可协议和使用准则
+你应该仔细阅读并遵守我们的[最终用户许可协议](eula.md)与[使用准则](usage-guidelines.md)。
 ///
 
 ## 安装和使用

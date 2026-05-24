@@ -39,9 +39,9 @@ title: 官方文档首页
 
 - Discord：<https://discord.gg/v5R5P4vRZk>
 - Telegram：<https://t.me/LiteLoader>
-- QQ群`656669024`
-- QQ群`937236109`
-- QQ群`850517473`
+- [QQ群`656669024`](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ndxRXO1HARA8ing7OunMClOz3cQTogL0&authKey=D7QTcqnzhBzuh3zc%2F70FjgklsVvkCImTjSRqHMwYGCLwIFpxzp%2FflC97Y7AUG%2Fpy&noverify=0&group_code=656669024)
+- [QQ群`937236109`](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1u0nmmUIZOB716neFTlbyj_2aOQn_TV-&authKey=1lBqM20oOfdKjDnxkq09DjR729fqFfWVnaLQ7VjrDB%2FAg6qwvw6QCwdwYoRUrewU&noverify=0&group_code=937236109)
+- [QQ群`850517473`](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3Fxt0gwMYkoLPani_vQ9tsNfYrnVy4hK&authKey=2A%2BNk3jmRaK%2FO1FBQSjTIbStAU1kbZWkjEkyh2RTVA015eTg6c4CvVhfByc1BtGZ&noverify=0&group_code=850517473)
 
 这些入口更适合用于获取社区支持、讨论或关注项目动态；具体技术资料仍应以下列页面为主：
 

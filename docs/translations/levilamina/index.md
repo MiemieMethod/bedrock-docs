@@ -4,11 +4,12 @@ title: LeviLamina文档归档
 
 # LeviLamina文档归档
 
-本页收录`.knowledge\LeviLamina源码及文档\`中的LeviLamina官方资料脉络，用于说明这些内容在本站的落位方式，并作为顶层入口、用户指南、开发者指南与仓库补充材料的索引。
+本页收录`.knowledge\LeviLamina源码及文档\`中的LeviLamina官方资料脉络，用于说明这些内容在本站的落位方式，并作为站点入口、版本兼容、用户指南、开发者指南与仓库补充材料的索引。
 
 ## 处理策略
 
-- **文档站顶层入口**：官方文档站中的`Home`、`FAQ`和`Supported Versions`分别保留为[官方文档首页](official-docs-home.md)、[常见问题](faq.md)和[支持的版本](versions.md)，用于追溯站点入口、项目起源与版本兼容矩阵。
+- **站点入口**：官方文档站中的`Home`和`FAQ`分别保留为[官方文档首页](official-docs-home.md)和[常见问题](faq.md)，用于追溯站点门户、项目定位与更名缘由。
+- **版本兼容矩阵**：官方导航末尾的`Supported Versions`保留为[支持的版本](versions.md)，用于追溯LeviLamina与BDS、客户端之间的兼容关系。
 - **用户指南**：官方`User Guides`中的安装、Docker、客户端、问题排除与使用指南按原始顺序保留在本归档下。
 - **开发者指南**：官方`Developer Guides`中的教程与`How-to Guides`主要并入[LeviLamina入门](../../guides/servers/levilamina.md)和[LeviLamina开发者指南](../../guides/servers/levilamina/index.md)；其中[官方项目架构](architecture.md)与[官方构建指南](build-guide.md)仍保留原始摘要。
 - **API模块概览**：官方`API Reference`已并入[LeviLamina API模块](../../refs/server/levilamina-api.md)。
@@ -20,11 +21,10 @@ title: LeviLamina文档归档
 
 ## 归档条目
 
-### 顶层入口
+### 站点入口
 
 - [官方文档首页](official-docs-home.md)
 - [常见问题](faq.md)
-- [支持的版本](versions.md)
 
 ### 用户指南
 
@@ -42,6 +42,10 @@ title: LeviLamina文档归档
 ### 维护者指南
 
 - [C++风格指南](cpp-style-guide.md)
+
+### 版本兼容
+
+- [支持的版本](versions.md)
 
 ### 仓库补充材料
 
