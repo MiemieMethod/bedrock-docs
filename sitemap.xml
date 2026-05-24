@@ -185,10 +185,6 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/</loc>
-         <lastmod>2026-05-24</lastmod>
-    </url>
-    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/coreengine/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -201,7 +197,19 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/levilamina-client/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/modpe/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/ai-goal/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/atlas/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -322,6 +330,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/log/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/micro-block/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -469,6 +481,10 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/international-getting-started/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/addons/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -486,6 +502,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/addons/creating-texture-packs/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/addons/creator-guidelines/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -898,6 +918,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/addons/modsdk/custom-dimensions-and-terrain/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/addons/modsdk/custom-ui/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -2297,6 +2321,10 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-legacy/demos/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/china-legacy/mc-studio/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -2306,6 +2334,22 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/command-log/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/dev-home/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/dev-home/data-driven-overview/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/dev-home/repository-readme/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/dev-home/site-home/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -2558,6 +2602,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/items/first-item/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/international-tutorial/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
