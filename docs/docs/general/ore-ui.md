@@ -2,6 +2,10 @@
 
 **Ore UI**是Mojang Studios公开源代码的**用户界面（User Interface）**构建块集合，用于使用网页技术构建电子游戏界面。其公开仓库说明该技术被Minecraft基岩版和Minecraft Legends等项目使用，并以React与TypeScript为主要基础。
 
+/// info | 
+本页面介绍Ore UI的核心概念。如需详细的API参考，请参见[Ore UI API参考](../../refs/tools/ore-ui-api.md)。
+///
+
 ## 概述
 
 Ore UI不是Minecraft基岩版向附加包、资源包或脚本开放的界面接口。它更接近Mojang内部和相关项目使用的界面技术栈：界面可以借助嵌入式网页运行环境在游戏中显示，并使用React组织组件结构，同时通过专门的状态管理机制减少频繁界面更新造成的性能成本。

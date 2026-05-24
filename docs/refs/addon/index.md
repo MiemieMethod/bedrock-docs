@@ -79,6 +79,7 @@
 - [水体设置](water-settings.md) - `minecraft:water_settings`中的焦散、粒子浓度和水波参数
 - [迷雾定义](fog-settings.md)
 - [战利品表](loot-table.md) - 汇总池、分层抽取、条件、函数参数与掉落场景兼容性
+- [物品函数](item-function.md) - 汇总战利品表与交易表共享的物品函数及其适用边界
 - [交易表](trade-table.md) - 汇总层级解锁、交易组抽样、交易物品字段与函数兼容性边界
 - [配方](recipe.md) - 汇总所有配方类型的字段架构，含有序、无序、烧炼、酿造、锻造配方
 - [对话定义](dialogue-document.md)

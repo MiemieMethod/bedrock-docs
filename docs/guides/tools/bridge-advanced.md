@@ -115,3 +115,78 @@ bridge.扩展可以全局安装，也可以安装到项目的`.bridge/extensions
 ## 何时谨慎使用
 
 如果项目必须能被任意代码编辑器直接维护，或者发布前不希望依赖专门构建流程，就应减少Dash自定义语法的使用。相反，如果团队统一使用bridge.，并且项目已经使用版本管理和固定构建配置，Dash和扩展系统可以显著减少重复工作。
+
+## 扩展开发入门
+
+如果要创建bridge.扩展，每个扩展需要一个清单文件（extension.json或manifest.json），其中必须包含：
+
+- `name`：扩展名称，显示在扩展商店中
+- `description`：详细描述，显示在扩展商店中
+- `author`：作者名称
+- `version`：版本号，格式为`主版本.次版本.修订版本`
+- `id`：唯一标识符，通常为`作者名-扩展名`的格式
+
+### 发布扩展
+
+完成的扩展可以提交到[bridge.官方扩展仓库](https://github.com/bridge-core/plugins)，通过审核后会出现在bridge.的扩展商店中供所有用户下载。
+
+## 扩展的三个关键能力
+
+### 1. 预设（Presets）
+
+预设是bridge.中最常见的扩展功能。一个预设通常：
+- 位于扩展的`presets/`目录中
+- 包含自己的清单，声明名称、图标、分类等
+- 提供表单化的输入字段供用户填写
+- 根据用户输入生成一组完整的文件（例如整个实体定义）
+- 支持复杂逻辑，如条件字段、动态列表、跳过某些字段等
+
+### 2. 代码片段（Snippets）
+
+代码片段是轻量级的快捷插入功能。片段定义包含：
+- `name`和`description`：片段名称和描述
+- `fileTypes`：支持的文件类型ID（如`json`、`mcfunction`等）
+- `locations`：能插入的JSON路径（使用glob模式）
+- `data`：要插入的内容
+
+### 3. 脚本模块（Script Modules）
+
+高级扩展可以使用`@bridge/*`模块访问bridge.的功能：
+- `@bridge/env`：环境信息
+- `@bridge/fs`：文件系统读写
+- `@bridge/project`：当前项目数据
+- `@bridge/tab`：标签页管理
+- `@bridge/notifications`：发送通知
+- `@bridge/windows`：弹出窗口
+- `@bridge/command-bar`：命令栏集成
+
+## 查看示例和获取帮助
+
+bridge.官方维护了一个活跃的[示例扩展仓库](https://github.com/bridge-core/plugins)。在开发自己的扩展时，查看这些源代码是学习各种扩展能力的最好方式。
+
+bridge.社区的Discord服务器（https://discord.gg/uj8K2S9）有专门的#扩展开发频道，可以在那里提问和讨论开发问题。
+
+## 官方扩展开发API文档
+
+bridge.官方文档详细介绍了以下API模块和系统：
+
+### 脚本模块API
+- `@bridge/project` - 项目访问和编译控制
+- `@bridge/fs` - 文件系统操作
+- `@bridge/env` - 环境信息
+- `@bridge/tab` - 标签页管理
+- `@bridge/sidebar` - 侧边栏操作
+- `@bridge/windows` - 窗口管理
+- `@bridge/ui` - UI组件和交互
+- `@bridge/notifications` - 通知系统
+- `@bridge/command-bar` - 命令栏集成
+- `@bridge/json5` - JSON5解析
+- `@bridge/import` - 模块导入
+- 其他工具模块
+
+### 扩展系统
+- 扩展清单格式和配置选项
+- iframe API - 嵌入外部网页工具
+- 编译器插件系统
+
+> **提示**：详细的API文档请查阅[bridge.官方文档](https://docs.bridge-core.app)，这些API属于bridge.工具特定的扩展系统，与基岩版游戏API不同。

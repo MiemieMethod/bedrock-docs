@@ -34,6 +34,39 @@
 
 运行时标识符适合用于受控场景验证，不适合作为跨版本稳定能力的唯一依赖。详见[运行时标识符参考](../../refs/addon/runtime-identifier.md)。
 
+## 虚拟组件
+
+**虚拟组件（Dummy Component）**是指仅用于存储数据的组件。此类组件本身不产生任何游戏行为，但其携带的值可通过Molang查询函数读取，从而驱动动画、渲染控制器或过滤器中的条件逻辑。虚拟组件是在不使用脚本的情况下为实体附加可查询状态的常用手段。
+
+虚拟组件分为两类：
+
+- **整数型**：存储一个整数值，适合表达变种、皮肤编号等多状态信息。
+- **布尔型（位型）**：通过该组件是否被添加到实体上来表达真/假状态。
+
+下表列出了常见的虚拟组件及其对应的Molang查询：
+
+| 类型 | 查询函数 | 组件 | 备注 |
+| --- | --- | --- | --- |
+| 整数 | `query.variant` | `minecraft:variant` | |
+| 整数 | `query.mark_variant` | `minecraft:mark_variant` | |
+| 整数 | `query.skin_id` | `minecraft:skin_id` | |
+| 整数 | 过滤器测试`is_color` | `minecraft:color` | 同时影响材质颜色通道 |
+| 整数 | 无已知查询（可用`has_component`检测） | `minecraft:color2` | 同时影响材质颜色通道 |
+| 布尔 | `query.is_illager_captain` | `minecraft:is_illager_captain` | |
+| 布尔 | `query.is_baby` | `minecraft:is_baby` | 添加后会禁用`minecraft:breedable`组件 |
+| 布尔 | `query.is_sheared` | `minecraft:is_sheared` | |
+| 布尔 | `query.is_saddled` | `minecraft:is_saddled` | |
+| 布尔 | `query.is_tamed` | `minecraft:is_tamed` | |
+| 布尔 | `query.is_chested` | `minecraft:is_chested` | 实体死亡时会掉落箱子 |
+| 布尔 | `query.is_powered` | `minecraft:is_charged` | |
+| 布尔 | `query.is_stunned` | `minecraft:is_stunned` | |
+| 布尔 | `query.can_climb` | `minecraft:can_climb` | 允许实体攀爬梯子 |
+| 布尔 | `query.can_fly` | `minecraft:can_fly` | 寻路器不限制实体必须沿有地面的路径 |
+| 布尔 | `query.can_power_jump` | `minecraft:can_power_jump` | 允许实体像马一样蓄力跳跃 |
+| 布尔 | `query.is_ignited` | `minecraft:is_ignited` | |
+
+`minecraft:color`与`minecraft:color2`的合法值为颜色名称字符串：`black`、`blue`、`brown`、`cyan`、`gray`、`green`、`light_blue`、`light_green`、`magenta`、`orange`、`pink`、`purple`、`red`、`silver`、`white`、`yellow`。
+
 ## 实体属性与动态置换
 
 实体可通过`description.properties`声明**实体属性（Entity Property）**，并在事件、过滤器和Molang表达式中读写。属性常用于表达实体的阶段状态、变种状态和脚本协同状态。

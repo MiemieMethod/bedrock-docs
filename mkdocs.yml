@@ -730,6 +730,7 @@ nav:
     - 开发工具:
       - refs/tools/index.md
       - 创作者工具内容校验规则: refs/tools/mctools-validation-rules.md
+      - Ore UI API参考: refs/tools/ore-ui-api.md
     - 附加包:
       - 清单与配置:
         - 清单文件架构: refs/addon/manifest-schema.md
@@ -875,6 +876,47 @@ nav:
           - 主题: translations/bridge/bridge-core-github-io/extension/json/themes.md
       - <samp>bridge-core.app</samp>:
         - translations/bridge/bridge-core-app/index.md
+    - Endstone:
+      - translations/endstone/index.md
+      - 入门指南:
+        - translations/endstone/getting-started/installation.md
+        - translations/endstone/getting-started/start-your-server.md
+        - translations/endstone/getting-started/project-structure.md
+        - translations/endstone/getting-started/contributing.md
+      - 教程:
+        - translations/endstone/tutorials/create-your-first-plugin.md
+        - translations/endstone/tutorials/register-commands.md
+        - translations/endstone/tutorials/register-event-listeners.md
+        - translations/endstone/tutorials/schedule-tasks.md
+        - translations/endstone/tutorials/install-your-plugin.md
+        - translations/endstone/tutorials/publish-your-plugin.md
+        - translations/endstone/tutorials/use-color-codes.md
+      - API参考:
+        - translations/endstone/reference/index.md
+        - Python API:
+          - translations/endstone/reference/python/server.md
+          - translations/endstone/reference/python/player.md
+          - translations/endstone/reference/python/command.md
+          - translations/endstone/reference/python/event.md
+          - translations/endstone/reference/python/actor.md
+          - translations/endstone/reference/python/plugin.md
+          - translations/endstone/reference/python/attribute.md
+          - translations/endstone/reference/python/ban.md
+          - translations/endstone/reference/python/block.md
+          - translations/endstone/reference/python/boss.md
+          - translations/endstone/reference/python/damage.md
+          - translations/endstone/reference/python/enchantments.md
+          - translations/endstone/reference/python/form.md
+          - translations/endstone/reference/python/inventory.md
+          - translations/endstone/reference/python/lang.md
+          - translations/endstone/reference/python/level.md
+          - translations/endstone/reference/python/map.md
+          - translations/endstone/reference/python/misc.md
+          - translations/endstone/reference/python/nbt.md
+          - translations/endstone/reference/python/permissions.md
+          - translations/endstone/reference/python/potion.md
+          - translations/endstone/reference/python/scheduler.md
+          - translations/endstone/reference/python/scoreboard.md
     - EaseCation Wiki:
       - translations/easecation/index.md
       - 虚拟现实:
@@ -949,3 +991,6 @@ nav:
       - help/docs/index.md
       - 贡献: help/docs/contributing.md
       - 赞助: help/docs/sponsor.md
+
+
+

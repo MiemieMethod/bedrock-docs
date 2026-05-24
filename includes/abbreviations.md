@@ -131,3 +131,5 @@
 *[JWT]: JSON Web Token
 *[MTU]: Maximum Transmission Unit
 *[WebRTC]: Web Real-Time Communication
+*[PyPI]: Python Package Index
+*[LLVM]: Low Level Virtual Machine

@@ -252,7 +252,7 @@
 | `exploration_map` | 设置藏宝图目的地 |
 | `explosion_decay` | 爆炸时有概率不掉落 |
 
-各函数的详细用法参见[战利品函数](loot-item-functions.md)页面。
+各函数的详细用法参见[物品函数](/refs/addon/item-function/)页面。
 
 ## 条件
 

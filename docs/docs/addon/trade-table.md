@@ -127,7 +127,7 @@
 
 以下函数在交易表中**无效**，不应使用：`set_count`、`furnace_smelt`、`looting_enchant`。以下函数可以出现在`wants`物品上，但不会限制玩家提供物品的属性，因此对限定要求物品无效：`set_name`、`set_lore`、`set_damage`、`set_book_contents`、`random_dye`、`fill_container`。
 
-完整函数说明参见[战利品函数](item-function.md)。
+完整函数说明参见[物品函数](/refs/addon/item-function/)。
 
 ## 覆盖
 
