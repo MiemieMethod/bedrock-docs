@@ -60,7 +60,7 @@
 
 访问[levilamina-mod-template](https://github.com/LiteLDev/levilamina-mod-template)，点击`Use this template`以使用这个模板初始化你的模组仓库。
 
-![Create from template](levilamina-mod-template.png)
+![在GitHub上以模板创建LeviLamina模组仓库的界面](../../../assets/images/guides/servers/levilamina/create-your-first-mod/levilamina-mod-template.png)
 
 将模组仓库使用Git克隆到本地，然后使用VSCode打开。你需要修改其中的一些文件，填写你的模组信息。
 
@@ -674,7 +674,7 @@ form.sendTo(player);
 
 ## 下一步？
 
-你可以[公开发布你的模组](./publish_your_first_mod.zh.md)，让更多的人使用你的模组。
+你可以[公开发布你的模组](publish-your-first-mod.md)，让更多的人使用你的模组。
 
 ## 更进一步的练习
 

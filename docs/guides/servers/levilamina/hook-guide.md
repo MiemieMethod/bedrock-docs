@@ -67,14 +67,30 @@ LL_AUTO_TYPE_INSTANCE_HOOK(
 
 你可以查阅LeviLamina提供的[Fake Headers](https://github.com/LiteLDev/LeviLamina/tree/develop/src/mc)来获取你想要Hook的函数的定义。
 
+## Hook的注册和卸载
+
+### 注册
+
+针对非自动注册的Hook，需要在需要注册Hook的时机调用`hook()`函数进行注册。
+
+### 卸载
+
+所有的Hook都会在BDS卸载时自动卸载，你也可以在需要卸载Hook时调用`unhook()`函数进行卸载。
+
 ## 最佳实践
 
 /// note | 优先级建议
 一般不是特殊需求，我们不推荐过高的优先级，`Normal`即可。
 ///
 
+## 写在最后
+
+Hook是一种非常强大的技术，但也是一把双刃剑。如果使用不当，可能会导致BDS本体崩溃、模组崩溃，甚至影响存档。
+
+因此，在使用Hook时务必谨慎，仔细检查代码，避免引入不必要的错误。
+
 ## 下一步
 
 - 了解更多关于[协程使用](coro-guide.md)
-- 查看[LeviLamina API参考](../../refs/server/levilamina-api.md)中的内存&钩子模块
+- 查看[LeviLamina API参考](../../../refs/server/levilamina-api.md)中的内存&钩子模块
 - 参考[官方Hook示例](https://github.com/LiteLDev/LeviLamina/blob/develop/src/ll/api/memory/Hook.h)

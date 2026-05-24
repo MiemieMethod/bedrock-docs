@@ -52,5 +52,5 @@ void registerCommand() {
 ## 下一步
 
 - 了解更多关于[事件系统](event-guide.md)
-- 查看[LeviLamina API参考](../../refs/server/levilamina-api.md)中的命令模块
+- 查看[LeviLamina API参考](../../../refs/server/levilamina-api.md)中的命令模块
 - 参考[创建第一个模组](../levilamina.md#创建第一个模组)获得更多上下文

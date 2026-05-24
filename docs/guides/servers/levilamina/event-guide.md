@@ -128,5 +128,5 @@ static std::unique_ptr<EmitterBase> emitterFactory() { return std::make_unique<S
 ## 下一步
 
 - 了解更多关于[表单开发](form-guide.md)
-- 查看[LeviLamina API参考](../../refs/server/levilamina-api.md)中的事件模块
+- 查看[LeviLamina API参考](../../../refs/server/levilamina-api.md)中的事件模块
 - 参考[创建第一个模组](../levilamina.md#创建第一个模组)获得完整示例

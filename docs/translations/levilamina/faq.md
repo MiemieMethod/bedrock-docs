@@ -4,18 +4,27 @@ title: 常见问题
 
 # 常见问题
 
+/// info | 来源信息
+- 原文仓库：[`LiteLDev/LeviLamina`](https://github.com/LiteLDev/LeviLamina)
+- 对应来源：`.knowledge\LeviLamina源码及文档\docs\main\contents\faq.zh.md`、`.knowledge\LeviLamina源码及文档\docs\main\contents\faq.md`
+///
+
 ## LeviLamina来自哪里？
 
-LeviLamina源自Minecraft基岩版服务端的逆向分析与注入式模组加载生态，最初继承自LiteLoaderBDS。
+LeviLamina源自Minecraft基岩版服务端的逆向分析与注入式模组加载生态，最初由LiteLoaderBDS发展而来。
+
+官方FAQ将其起源概括为三段连续演变：
+
+1. 早期Minecraft基岩版缺乏类似Java版那样成熟的模组与服务端插件生态，一批熟悉BDS内部实现的C++开发者因此开始通过逆向分析与钩子注入扩展服务端。
+2. LiteLoaderBDS阶段提供了注入式模组加载引擎、模组开发框架与类型信息，显著降低了基岩版原生模组开发门槛。
+3. 随着旧框架逐渐暴露出过时设计、性能下降与紧耦合带来的适配负担，LeviMC最终决定以既有经验为基础，从头重构为LeviLamina。
 
 ## 为什么LiteLoaderBDS更名为LeviLamina？
 
-因为旧项目逐渐膨胀、耦合度提高，维护成本上升，所以项目从头重构，并保留`ll`缩写后更名为LeviLamina。
+官方FAQ对更名原因给出的核心脉络如下：
 
-## LeviLamina属于官方BDS吗？
+- `LiteLoaderBDS`最初带有实验性质，名称也与Java版既有项目相近，因此曾以追加`BDS`后缀的方式区分自身。
+- 到LiteLoaderBDS 2.0阶段后，项目规模扩大、性能问题显现，旧名称也不再适合承载重构后的新框架。
+- 团队在从头重建项目时保留了开发者熟悉的`ll`缩写，并以此引出了新的名称`LeviLamina`。
 
-不属于。它是运行在BDS进程内的第三方模组加载器，依赖BDS版本、平台、网络协议和二进制接口，但并不是Mojang提供的原生插件系统。
-
-## 为什么要先看版本支持表？
-
-因为LeviLamina与BDS或客户端版本强绑定。版本不匹配通常会直接表现为启动失败、依赖诊断报错或连接兼容性错误。
+安装或升级前，先查看[支持的版本](versions.md)，可以先排除最常见的兼容性问题。

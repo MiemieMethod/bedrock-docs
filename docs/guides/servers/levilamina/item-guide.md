@@ -24,13 +24,13 @@ ItemStack{"diamond", 1};
 // 通过物品名称和NBT创建物品栈：
 ItemStack::fromTag(tag);
 ```
-更多的请自行查看 LeviLamina 提供的 头文件 [ItemStack.h](https://github.com/LiteLDev/LeviLamina/blob/develop/src/mc/world/item/registry/ItemStack.h#L12)
+更多的请自行查看LeviLamina提供的头文件[ItemStack.h](https://github.com/LiteLDev/LeviLamina/blob/develop/src/mc/world/item/registry/ItemStack.h#L12)
 
 ## 物品
 
 物品是物品栈的基本信息，包括物品的名称，物品的最大堆叠数量等等。
 
-LeviLmaina 目前还未提供自定义物品的注册接口，此部分内容将在后续版本中提供。
+LeviLamina目前还未提供自定义物品的注册接口，此部分内容将在后续版本中提供。
 
 ## 一些注意事项
 

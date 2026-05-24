@@ -2,6 +2,8 @@
 *[CSS]: Cascading Style Sheets
 *[API]: Application Programming Interface
 *[README]: Read Me
+*[EULA]: End User License Agreement
+*[LGPL]: GNU Lesser General Public License
 *[BOM]: Byte Order Mark
 *[GTK]: GIMP Toolkit
 *[MTPE]: Machine Translation Post-Editing
@@ -67,6 +69,10 @@
 *[OS]: Operating System
 *[RAM]: Random Access Memory
 *[VRAM]: Video Random Access Memory
+*[CI/CD]: Continuous Integration and Continuous Delivery
+*[DLL]: Dynamic Link Library
+*[GTest]: GoogleTest
+*[MSVC]: Microsoft Visual C++
 *[JAR]: Java Archive
 *[JRE]: Java Runtime Environment
 *[JDK]: Java Development Kit

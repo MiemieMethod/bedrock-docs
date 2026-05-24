@@ -61,8 +61,9 @@ lip update github.com/LiteLDev/LeviLamina
 lip update github.com/LiteLDev/LeviLamina@x.y.z
 ```
 
-!!! warning
-    为确保数据安全，请勿在同一目录内更新LeviLamina。建议在独立文件夹内安装新版本，然后复制`worlds`目录并按需更新配置。
+/// warning | 升级前先备份
+为确保数据安全，请勿在同一目录内更新LeviLamina。建议在独立文件夹内安装新版本，然后复制`worlds`目录并按需更新配置。
+///
 
 ## 手动安装
 
@@ -102,11 +103,11 @@ plugins\
 
 ## 搜寻模组
 
-安装模组前，建议先了解可用来源。官方文档提到的首选来源是[Bedrinth](https://pkg.levimc.org)，其他站点也可能提供更多模组。
+安装模组前，建议先了解可用来源。官方文档提到的首选来源是模组包索引[Bedrinth](https://pkg.levimc.org)，其他站点也可能提供更多模组包。
 
 ## 安装模组
 
-模组通常通过lip安装，例如：
+模组包通常通过lip安装，例如：
 
 ```powershell
 lip install github.com/LiteLDev/LeviAntiCheat

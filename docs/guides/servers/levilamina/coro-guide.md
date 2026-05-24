@@ -101,5 +101,5 @@ ll::coro::CoroTask<void> errorHandlingTask() {
 ## 下一步
 
 - 了解更多关于[国际化支持](i18n-guide.md)
-- 查看[LeviLamina API参考](../../refs/server/levilamina-api.md)中的协程模块
-- 参考[游戏时间](../../refs/server/levilamina-api.md)用于时间相关操作
+- 查看[LeviLamina API参考](../../../refs/server/levilamina-api.md)中的协程模块
+- 参考[游戏时间](../../../refs/server/levilamina-api.md)用于时间相关操作

@@ -147,5 +147,5 @@ LeviLamina支持Minecraft支持的所有语言，包括但不限于：
 ## 下一步
 
 - 回顾[表单开发](form-guide.md)
-- 查看[LeviLamina API参考](../../refs/server/levilamina-api.md)中的i18n模块
+- 查看[LeviLamina API参考](../../../refs/server/levilamina-api.md)中的i18n模块
 - 参考[LeviLamina官方示例](https://github.com/LiteLDev/LeviLamina)获得更多实现细节

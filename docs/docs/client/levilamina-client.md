@@ -33,7 +33,7 @@ LeviLamina客户端模组不属于官方附加包体系，也不等同于Android
 
 ## 安装方式
 
-客户端侧通常先通过LeviLauncher安装受支持的Minecraft基岩版客户端版本，再通过启动器的插件管理功能安装LeviLamina。若需要手动安装，也可以在客户端目录中执行lip命令，例如：
+客户端侧通常先通过LeviLauncher安装受支持的Minecraft基岩版客户端版本，再通过启动器中名为“插件”的管理界面安装LeviLamina。若需要手动安装，也可以在客户端目录中执行lip命令，例如：
 
 ```shell
 lip install github.com/LiteLDev/LeviLamina#client@26.10.3
@@ -61,5 +61,5 @@ LeviLamina客户端模组的可用性受LeviLamina版本、目标客户端版本
 - [在客户端上安装](../../translations/levilamina/install-client.md)
 - [支持的版本](../../translations/levilamina/versions.md)
 - [LeviLamina](../server/levilamina.md)
-- [LeviLamina详细指南](../../guides/servers/levilamina/index.md)
+- [LeviLamina开发者指南](../../guides/servers/levilamina/index.md)
 - [LeviLamina API模块](../../refs/server/levilamina-api.md)

@@ -204,5 +204,5 @@ void openStatusWindow(Player& player) {
 ## 下一步
 
 - 了解更多关于[钩子系统](hook-guide.md)
-- 查看[LeviLamina API参考](../../refs/server/levilamina-api.md)中的表单模块
+- 查看[LeviLamina API参考](../../../refs/server/levilamina-api.md)中的表单模块
 - 参考[创建第一个模组](../levilamina.md#创建第一个模组)获得完整示例

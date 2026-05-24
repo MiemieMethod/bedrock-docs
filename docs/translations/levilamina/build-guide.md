@@ -1,8 +1,15 @@
 ---
-title: 构建指南
+title: 官方构建指南
 ---
 
-# 构建指南
+# 官方构建指南
+
+/// info | 来源信息
+- 原文仓库：[`LiteLDev/LeviLamina`](https://github.com/LiteLDev/LeviLamina)
+- 对应来源：`.knowledge\LeviLamina源码及文档\docs\main\contents\developer_guides\how_to_guides\build_guide.zh.md`、`.knowledge\LeviLamina源码及文档\docs\main\contents\developer_guides\how_to_guides\build_guide.md`
+///
+
+本页保留LeviLamina官方构建说明的原始脉络摘要。若需要结合本站术语、互链和实践顺序阅读，可优先查看[项目构建指南](../../guides/servers/levilamina/build-guide.md)。
 
 ## 前置要求
 

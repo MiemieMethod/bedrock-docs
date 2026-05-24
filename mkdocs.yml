@@ -672,21 +672,23 @@ nav:
       - guides/servers/index.md
       - 搭建BDS: guides/servers/bds.md
       - LeviLamina入门: guides/servers/levilamina.md
-      - LeviLamina详细指南:
+      - LeviLamina开发者指南:
         - guides/servers/levilamina/index.md
-        - 构建指南: guides/servers/levilamina/build-guide.md
-        - 命令注册: guides/servers/levilamina/command-guide.md
-        - 事件系统: guides/servers/levilamina/event-guide.md
-        - 找函数指南: guides/servers/levilamina/find-function-guide.md
-        - 接口导出指南: guides/servers/levilamina/interface-export-guide.md
-        - 物品相关指南: guides/servers/levilamina/item-guide.md
-        - 表单开发: guides/servers/levilamina/form-guide.md
-        - 钩子系统: guides/servers/levilamina/hook-guide.md
-        - 协程使用: guides/servers/levilamina/coro-guide.md
-        - 国际化: guides/servers/levilamina/i18n-guide.md
-        - 创建你的第一个模组: guides/servers/levilamina/create-your-first-mod.md
-        - 发布你的第一个模组: guides/servers/levilamina/publish-your-first-mod.md
-        - 发布你的第一个整合包: guides/servers/levilamina/publish-your-first-pack.md
+        - 教程:
+          - 创建你的第一个模组: guides/servers/levilamina/create-your-first-mod.md
+          - 发布你的第一个模组: guides/servers/levilamina/publish-your-first-mod.md
+          - 发布你的第一个整合包: guides/servers/levilamina/publish-your-first-pack.md
+        - 如何做到……:
+          - 事件系统: guides/servers/levilamina/event-guide.md
+          - 接口导出指南: guides/servers/levilamina/interface-export-guide.md
+          - 找函数指南: guides/servers/levilamina/find-function-guide.md
+          - 表单开发: guides/servers/levilamina/form-guide.md
+          - 钩子系统: guides/servers/levilamina/hook-guide.md
+          - 国际化: guides/servers/levilamina/i18n-guide.md
+          - 物品相关指南: guides/servers/levilamina/item-guide.md
+          - 命令注册: guides/servers/levilamina/command-guide.md
+          - 协程使用: guides/servers/levilamina/coro-guide.md
+          - 项目构建指南: guides/servers/levilamina/build-guide.md
       - Endstone:
         - guides/servers/endstone/index.md
         - Python插件工作流: guides/servers/endstone/python-plugin-workflow.md
@@ -940,20 +942,30 @@ nav:
     - 国际版开发教程归档: translations/international-tutorial/index.md
     - LeviLamina文档归档:
       - translations/levilamina/index.md
-      - 仓库README: translations/levilamina/repository-readme.md
-      - 安装与运维:
-        - 支持的版本: translations/levilamina/versions.md
-        - 在服务器上安装: translations/levilamina/install-server.md
-        - 在客户端上安装: translations/levilamina/install-client.md
-        - 在Docker上安装: translations/levilamina/install-docker.md
-        - 问题排除: translations/levilamina/troubleshooting.md
-      - 开发与维护:
+      - 顶层入口:
+        - 官方文档首页: translations/levilamina/official-docs-home.md
         - 常见问题: translations/levilamina/faq.md
-        - 项目架构: translations/levilamina/architecture.md
-        - 构建指南: translations/levilamina/build-guide.md
-      - 规范与指南:
+        - 支持的版本: translations/levilamina/versions.md
+      - 用户指南:
+        - 在服务器上安装: translations/levilamina/install-server.md
+        - 在Docker上安装: translations/levilamina/install-docker.md
+        - 在客户端上安装: translations/levilamina/install-client.md
+        - 问题排除: translations/levilamina/troubleshooting.md
         - 使用指南: translations/levilamina/usage-guidelines.md
+      - 开发者指南:
+        - 官方项目架构: translations/levilamina/architecture.md
+        - 官方构建指南: translations/levilamina/build-guide.md
+      - 维护者指南:
         - C++风格指南: translations/levilamina/cpp-style-guide.md
+      - 仓库补充材料:
+        - 仓库README: translations/levilamina/repository-readme.md
+        - 拉取请求模板: translations/levilamina/pull-request-template.md
+        - 更新日志: translations/levilamina/changelog.md
+      - 法律与协议:
+        - 法律与发布说明: translations/levilamina/legal-release-notes.md
+        - 最终用户许可协议: translations/levilamina/eula.md
+        - 行为准则: translations/levilamina/code-of-conduct.md
+        - 许可证: translations/levilamina/license.md
     - 附加包教程归档:
       - translations/addon-tutorial/index.md
       - 章节目录映射: translations/addon-tutorial/chapter-outline.md
