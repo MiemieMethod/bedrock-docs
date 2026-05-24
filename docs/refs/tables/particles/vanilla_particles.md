@@ -166,3 +166,54 @@
 | `minecraft:portal_north_south` |
 | `minecraft:vibration_signal` |
 | `minecraft:colored_flame_particle` |
+
+## 组件短名称
+
+以下是部分原版粒子的组件短名称，可在实体行为组件（如`minecraft:particle_on_jump`等）的`particle_type`字段中使用，无需写出完整赋命名空间标识符。
+
+/// note | 说明
+此列表经社区实测证实可正常使用，但不保证完整。部分短名称的实际颜色或外观受组件上下文（如药水ID）影响。
+///
+
+| 短名称 | 备注 |
+| --- | --- |
+| `mobspellambient` | 颜色由组件中存在的药水ID决定 |
+| `villagerangry` | |
+| `bubble` | 仅水下可见 |
+| `evaporation` | |
+| `crit` | |
+| `dragonbreath` | 仅对弹射物的AoE组件有效 |
+| `driplava` | |
+| `dripwater` | |
+| `reddust` | |
+| `enchantingtable` | |
+| `endrod` | |
+| `mobspell` | 颜色由组件中存在的药水ID决定 |
+| `largeexplode` | |
+| `hugeexplosion` | |
+| `fallingdust` | 颜色由组件中存在的药水ID决定 |
+| `waterwake` | |
+| `flame` | |
+| `villagerhappy` | |
+| `heart` | |
+| `mobspellinstantaneous` | |
+| `iconcrack` | |
+| `slime` | |
+| `snowballpoof` | |
+| `largesmoke` | |
+| `lava` | |
+| `mobflame` | |
+| `townaura` | |
+| `note` | |
+| `explode` | |
+| `portal` | |
+| `rainsplash` | |
+| `smoke` | |
+| `watersplash` | |
+| `ink` | |
+| `terrain` | 纹理取自地形图集 |
+| `totem` | |
+| `witchspell` | |
+| `soul` | |
+| `spit` | |
+| `sneeze` | |

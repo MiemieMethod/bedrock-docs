@@ -502,6 +502,10 @@ nav:
           - guides/addons/data-driven/entities/index.md
           - 第一个实体: guides/addons/data-driven/entities/adding-custom-entities.md
           - 动画与动画控制器: guides/addons/data-driven/entities/animations-and-animation-controllers.md
+          - 实体触发命令: guides/addons/data-driven/entities/entity-commands.md
+          - 死亡触发命令: guides/addons/data-driven/entities/death-commands.md
+          - 复活触发命令: guides/addons/data-driven/entities/respawn-commands.md
+          - AFK检测: guides/addons/data-driven/entities/afk-detector.md
           - 添加附着物: guides/addons/data-driven/entities/adding-attachables.md
           - 创建NPC: guides/addons/data-driven/entities/adding-npc.md
           - 添加交易行为: guides/addons/data-driven/entities/adding-trading-behavior.md
@@ -564,7 +568,9 @@ nav:
           - 装备物品效果: guides/addons/data-driven/items/equipped-item-effects.md
           - 在世界中生成物品: guides/addons/data-driven/items/spawning-items.md
           - 自定义陶片: guides/addons/data-driven/items/custom-pottery-sherds.md
-        - 自定义粒子: guides/addons/data-driven/adding-custom-particles.md
+        - 自定义粒子:
+          - 自定义粒子: guides/addons/data-driven/adding-custom-particles.md
+          - 禁用原版粒子: guides/addons/data-driven/disabling-particles.md
         - 自定义声音: guides/addons/data-driven/adding-custom-sounds.md
         - 自定义配方: guides/addons/data-driven/adding-custom-recipes.md
         - 自定义战利品表: guides/addons/data-driven/adding-custom-loot-tables.md
@@ -684,6 +690,7 @@ nav:
       - 动态文本显示: guides/misc/dynamic-displays.md
       - 发放NBT物品: guides/misc/giving-nbt-items.md
       - 多人位置错排: guides/misc/rearrange-positions.md
+      - Molang值转记分板: guides/misc/molang-to-scoreboard.md
     - 过时教程:
       - guides/outdated/index.md
       - '1.16.100': 

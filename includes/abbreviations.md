@@ -124,3 +124,7 @@
 *[NOR]: NOT OR
 *[XOR]: Exclusive OR
 *[XNOR]: Exclusive NOR
+*[AFK]: Away From Keyboard
+*[FSM]: Finite State Machine
+*[RPAC]: Resource Pack Animation Controller
+*[BPAC]: Behavior Pack Animation Controller
