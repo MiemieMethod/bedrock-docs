@@ -9,34 +9,50 @@ title: 在服务器上安装
 - Windows 10、Windows 11、Windows Server 2019或Windows Server 2022。
 - [Visual C++ Redistributable for Visual Studio 2015、2017、2019和2022](https://aka.ms/vs/17/release/vc_redist.x64.exe)。
 
+## 安装方法
+
+可以按需求选择不同的安装方式：
+
+- [通过lip安装](#通过lip安装)，便于安装与升级，是官方推荐方式。
+- [手动安装](#手动安装)，适用于需要完全手动管理文件，或无法直接联网安装的环境。
+
 ## 通过lip安装
 
-1. 下载并安装lip。
-2. 创建服务器目录并进入该目录。
-3. 如有需要，可以先设置镜像：
+1. 前往[lip发布页](https://github.com/futrime/lip/releases)，下载文件名以`setup.exe`结尾的安装程序并执行。
+2. 如有需要，可以先设置镜像：
 
 ```powershell
 lip config set go_module_proxy https://goproxy.cn
-lip config set github_proxy <GitHub镜像地址>
+lip config set github_proxy https://github.bibk.top
 ```
 
-4. 运行：
+3. 如有需要，可以通过定义`BDSDOWN_MIRROR_URL`环境变量来自定义BDS下载镜像站，例如`https://www.minecraft.net`。也可以手动从Minecraft官网下载BDS压缩包，再将压缩包放入{{file|.cache\bdsdown}}目录；如果该目录不存在，则需要手动创建。该目录位于BDS安装路径下，例如`C:\Users\YourName\BDS\.cache\bdsdown`。
+4. 创建服务器目录并进入该目录：
+
+```powershell
+mkdir myserver
+cd myserver
+```
+
+5. 运行：
 
 ```powershell
 lip install github.com/LiteLDev/LeviLamina
 ```
 
-5. 如需指定版本，可在包名后追加版本号：
+6. 如需指定版本，可在包名后追加版本号：
 
 ```powershell
 lip install github.com/LiteLDev/LeviLamina@x.y.z
 ```
 
-6. 启动服务器：
+7. 启动服务器：
 
 ```powershell
 .\bedrock_server_mod.exe
 ```
+
+可用版本号可在[LeviLamina releases](https://github.com/LiteLDev/LeviLamina/releases)查看。
 
 如果需要升级，建议使用：
 
@@ -52,21 +68,15 @@ lip update github.com/LiteLDev/LeviLamina@x.y.z
 
 手动安装时通常需要以下组件：
 
-- LeviLamina。
-- PreLoader。
-- PeEditor。
-- bedrock-runtime-data。
-- CrashLogger。
-- 对应版本的BDS。
-- 可选的levilamina-loc本地化文件。
+- [LeviLamina](https://github.com/LiteLDev/LeviLamina/releases)。
+- 根据目标版本[tooth.json](https://github.com/LiteLDev/LeviLamina/blob/main/tooth.json)下载的[PreLoader](https://github.com/LiteLDev/PreLoader/releases)。
+- 最新版[PeEditor](https://github.com/LiteLDev/PeEditor/releases)。
+- 根据`tooth.json`下载的[bedrock-runtime-data](https://github.com/LiteLDev/bedrock-runtime-data/releases)。
+- 最新版[CrashLogger](https://github.com/LiteLDev/CrashLogger/releases)。
+- 根据[支持的版本](versions.md)选择并下载的BDS。
+- 可选的[levilamina-loc](https://github.com/LiteLDev/levilamina-loc/releases)本地化文件。
 
-常见目录结构会包含`bedrock_server_mod.exe`和`plugins\LeviLamina\`。完成解压后，通常还需要运行PeEditor生成处理后的启动程序：
-
-```pwsh
-.\PeEditor.exe -mb
-```
-
-典型布局会类似于：
+完成下载后，先创建一个Minecraft服务器目录，并将各文件按下列结构解压。未列出的文件或文件夹同样可以存在：
 
 ```text
 bedrock_runtime_data
@@ -84,7 +94,17 @@ plugins\
             zh_CN.json
 ```
 
-## 模组安装
+然后运行以下命令生成{{file|bedrock_server_mod.exe}}：
+
+```pwsh
+.\PeEditor.exe -mb
+```
+
+## 搜寻模组
+
+安装模组前，建议先了解可用来源。官方文档提到的首选来源是[Bedrinth](https://pkg.levimc.org)，其他站点也可能提供更多模组。
+
+## 安装模组
 
 模组通常通过lip安装，例如：
 
@@ -92,6 +112,4 @@ plugins\
 lip install github.com/LiteLDev/LeviAntiCheat
 ```
 
-## 备注
-
-安装与升级时，建议先核对[支持的版本](versions.md)。如果遇到启动失败、依赖诊断报错或连接兼容性错误，通常应优先检查BDS版本、LeviLamina版本和模组版本是否匹配。
+如有需要，还应继续遵循各模组开发者提供的附加说明。

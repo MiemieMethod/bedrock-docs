@@ -6,7 +6,7 @@
 
 - [BDS的server.properties](server/bds-server-properties.md)：列出基岩版专用服务器主要配置项、默认值和取值范围。
 - [基岩版协议变更索引](server/bedrock-protocol-changelog.md)：汇总官方协议仓库变更日志文件结构、阅读方式与近期高风险兼容性变更。
-- [LeviLamina API模块](server/levilamina-api.md)：概述LeviLamina官方API参考中的模块、适用范围和兼容性提示。
+- [LeviLamina API模块](server/levilamina-api.md)：概述LeviLamina官方API参考中的模块、适用范围、文档约定和兼容性提示。
 - [Endstone API总览](server/endstone-api.md)：汇总Endstone插件API的主要模块，并链接到各模块参考。
 - [Endstone命令与文本格式](server/endstone-command-format.md)：列出Endstone插件命令参数、权限默认值和颜色格式代码。
 - [Allay API概览](server/allay-api.md)：概述Allay插件描述文件、命令、事件、调度器、方块、物品、容器、表单和高级自定义内容接口。

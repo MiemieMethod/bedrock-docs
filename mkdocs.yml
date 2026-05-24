@@ -940,16 +940,20 @@ nav:
     - 国际版开发教程归档: translations/international-tutorial/index.md
     - LeviLamina文档归档:
       - translations/levilamina/index.md
-      - 支持的版本: translations/levilamina/versions.md
-      - 在服务器上安装: translations/levilamina/install-server.md
-      - 在客户端上安装: translations/levilamina/install-client.md
-      - 在Docker上安装: translations/levilamina/install-docker.md
-      - 问题排除: translations/levilamina/troubleshooting.md
-      - 常见问题: translations/levilamina/faq.md
-      - 项目架构: translations/levilamina/architecture.md
-      - 构建指南: translations/levilamina/build-guide.md
-      - 使用指南: translations/levilamina/usage-guidelines.md
-      - C++风格指南: translations/levilamina/cpp-style-guide.md
+      - 仓库README: translations/levilamina/repository-readme.md
+      - 安装与运维:
+        - 支持的版本: translations/levilamina/versions.md
+        - 在服务器上安装: translations/levilamina/install-server.md
+        - 在客户端上安装: translations/levilamina/install-client.md
+        - 在Docker上安装: translations/levilamina/install-docker.md
+        - 问题排除: translations/levilamina/troubleshooting.md
+      - 开发与维护:
+        - 常见问题: translations/levilamina/faq.md
+        - 项目架构: translations/levilamina/architecture.md
+        - 构建指南: translations/levilamina/build-guide.md
+      - 规范与指南:
+        - 使用指南: translations/levilamina/usage-guidelines.md
+        - C++风格指南: translations/levilamina/cpp-style-guide.md
     - 附加包教程归档:
       - translations/addon-tutorial/index.md
       - 章节目录映射: translations/addon-tutorial/chapter-outline.md
