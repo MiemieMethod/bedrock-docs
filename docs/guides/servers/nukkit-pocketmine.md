@@ -78,6 +78,15 @@ motd=A Nukkit Server
 
 `netease-client-support`是Nukkit-MOT对中国版客户端连接的兼容配置，不是BDS原生能力，也不代表其他社区服务端支持相同开关<!-- md:flag china -->。
 
+除`server.properties`外，Nukkit-MOT首次启动后还会生成以下管理文件：
+
+| 文件名 | 用途 |
+|--------|------|
+| `ops.txt` | 管理员（OP）玩家列表 |
+| `white-list.txt` | 白名单玩家列表 |
+| `banned-players.txt` | 封禁玩家列表 |
+| `banned-ips.txt` | 封禁IP列表 |
+
 ## 连接服务器
 
 如果客户端和服务端在同一台电脑上，可以在Minecraft基岩版的服务器列表中添加地址`127.0.0.1`，端口使用`19132`或你在配置中设置的端口。
@@ -98,7 +107,16 @@ sudo ufw allow 19132/udp
 
 ## 安装插件
 
-Nukkit插件通常是`.jar`文件。安装步骤如下：
+Nukkit插件通常是`.jar`文件。可以从以下渠道获取插件：
+
+- [Cloudburst（Nukkit官方论坛）](https://cloudburstmc.org/resources/categories/nukkit-plugins.1/) — 官方插件库，主要面向国际版用户。
+- [Nukkit-MOT论坛](https://bbs.nukkit-mot.com/resources/) — 面向Nukkit-MOT的插件资源站。
+- [MineBBS](https://www.minebbs.com/resources/categories/nukkit.40/) — 中文社区插件库。
+- GitHub — 搜索开源Nukkit插件项目。
+
+下载插件时请注意确认插件支持的Nukkit版本，并查看其依赖说明。
+
+安装步骤如下：
 
 1. 下载插件，并确认它支持目标Nukkit-MOT版本。
 2. 检查插件是否依赖其他插件。
@@ -155,6 +173,14 @@ Could not reserve enough space for object heap
 ### 世界或数据损坏
 
 服务器无法加载世界时，先停止服务器并备份`worlds`文件夹，再尝试处理具体错误。不要在服务器运行时直接编辑世界数据库。日常运维中应定期备份`worlds`文件夹，并使用`stop`命令正常关闭服务器。
+
+### 控制台乱码
+
+Windows系统下控制台可能显示乱码。在启动脚本的第一行添加以下命令后重新运行即可解决：
+
+```bat title="start.bat"
+chcp 65001
+```
 
 ## PocketMine-MP资料缺口
 
