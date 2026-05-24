@@ -29,6 +29,7 @@
 *[HUD]: Heads-Up Display
 *[UX]: User Experience
 *[CLI]: Command Line Interface
+*[CLA]: Contributor License Agreement
 *[GUI]: Graphical User Interface
 *[BDS]: Bedrock Dedicated Server
 *[NPC]: Non-Player Character
@@ -133,6 +134,7 @@
 *[NOR]: NOT OR
 *[XOR]: Exclusive OR
 *[XNOR]: Exclusive NOR
+*[XXHash64]: XXHash64
 *[AFK]: Away From Keyboard
 *[FSM]: Finite State Machine
 *[RPAC]: Resource Pack Animation Controller

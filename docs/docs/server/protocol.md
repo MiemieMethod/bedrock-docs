@@ -74,7 +74,17 @@ RakNet的数据类型、握手数据包格式和MOTD格式详见[RakNet](raknet.
 
 许多系统不是由单个数据包独立完成，而是由一组数据包共同维护。以玩家移动为例，现代协议主要通过`PlayerAuthInputPacket`从客户端向服务端提交输入、预测位置和相关动作；服务端可以使用`CorrectPlayerMovePredictionPacket`修正客户端预测，也可以在带有滴答标识的数据包中让客户端回退至指定历史帧后重新模拟。以方块破坏为例，客户端会预测挥动动画、方块破坏和工具耐久变化，而服务端负责校验进度、广播裂纹与粒子效果，并在预测不一致时通过`UpdateBlockPacket`、`InventorySlotPacket`或`ItemStackResponsePacket`纠正客户端。
 
-除玩法同步外，近年的协议变更还持续把诊断、呈现配置、商店入口、存在信息和数据驱动界面等元数据通道纳入游戏层。例如，`ServerBoundDiagnosticsPacket`已逐步承载客户端内存分类、实体系统和分析器范围等诊断数据；`GraphicsOverrideParameterPacket`开始支持按玩家下发图形覆盖；`ServerStoreInfoPacket`与`ServerPresenceInfoPacket`则用于传递商店入口与`PresenceConfiguration`。这意味着第三方服务端在追踪协议兼容性时，不能只关注移动、区块和物品栏，还需要同时关注登录期与运行期的配置分发路径。
+除玩法同步外，近年的协议变更还持续把诊断、呈现配置、商店入口、存在信息和数据驱动界面等元数据通道纳入游戏层。例如，`ServerboundDiagnosticsPacket`已逐步承载客户端内存分类、实体系统和分析器范围等诊断数据；`GraphicsOverrideParameterPacket`开始支持按玩家下发图形覆盖；`ServerStoreInfoPacket`与`ServerPresenceInfoPacket`则用于传递商店入口与`PresenceConfiguration`。这意味着第三方服务端在追踪协议兼容性时，不能只关注移动、区块和物品栏，还需要同时关注登录期与运行期的配置分发路径。
+
+### 当前协议中的创作与呈现通道
+
+当前1.26.30对应的协议1001快照还表明，协议层已经直接承载创作工具、界面和声音控制等更高层能力，而不只是传统的世界同步。
+
+- `EditorNetworkPacket`是编辑器专用的通用载荷包，使用“路由到管理器+变体名+变体数据”的结构传输编辑器侧消息。这说明编辑器会话并非只依赖本地工具状态，而是已经拥有独立的游戏层消息通道。
+- `ClientboundDataDrivenUIShowScreenPacket`、`ClientboundDataDrivenUICloseScreenPacket`与`ClientboundDataDrivenUIReloadPacket`表明，服务端可以要求客户端显示、关闭或重载数据驱动界面实例。这一方向与资源包覆写JSON UI不同，更接近运行期界面调度。
+- `ServerPresenceInfoPacket`当前直接下发`PresenceConfiguration`，其中包括`experienceName`、`worldName`与`richPresenceId`。这说明“世界叫什么、体验如何在存在信息中呈现”也已进入会话级协议配置。
+- `GraphicsOverrideParameterPacket`当前不仅可以按生物群系覆盖图形参数，还带有`Player Identifier`字段，说明图形覆盖已具备更细粒度的目标范围。
+- 声音同步路径也在扩张。`LevelSoundEventPacket`中的声音标识已不再局限于旧式固定枚举，而是以`SoundEventIdentifier`形式承载；同时，`ClientboundUpdateSoundDataPacket`又提供了基于服务器声音句柄的更新路径。
 
 ## 数据编码
 

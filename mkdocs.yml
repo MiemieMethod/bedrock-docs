@@ -828,6 +828,7 @@ nav:
       - 选择器参数: refs/commands/selector-parameter.md
       - 伤害原因枚举: refs/commands/damage-cause.md
       - 命令版本: refs/commands/version.md
+      - 基岩版命令更新记录: refs/commands/command-log.md
     - 开发工具:
       - refs/tools/index.md
       - 创作者工具内容校验规则: refs/tools/mctools-validation-rules.md
@@ -1144,33 +1145,22 @@ nav:
           - 脚本与编辑器问答: translations/bedrock-wiki/meta/scripting-editor-qna.md
           - 延迟技术预览问答: translations/bedrock-wiki/meta/deferred-qna.md
           - 方块与物品问答: translations/bedrock-wiki/meta/blocks-items-qna.md
-    - 官方帮助中心:
-      - translations/help-center/index.md
-      - 更新日志:
-        - translations/help-center/changelogs/index.md
-        - Minecraft - 1.21.132（基岩版）: translations/help-center/changelogs/Minecraft-1-21-132-Bedrock.md
-        - Minecraft - 1.21.131（基岩版）: translations/help-center/changelogs/Minecraft-1-21-131-Bedrock.md
-        - Minecraft基岩版26.20更新日志（开发向节选）: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-20-Changelog.md
-        - Minecraft基岩版26.21修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog.md
-        - Minecraft基岩版26.23修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md
+    - 官方帮助中心更新日志:
+      - Minecraft - 1.21.132（基岩版）: translations/help-center/changelogs/Minecraft-1-21-132-Bedrock.md
+      - Minecraft - 1.21.131（基岩版）: translations/help-center/changelogs/Minecraft-1-21-131-Bedrock.md
+      - Minecraft基岩版26.20更新日志（开发向节选）: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-20-Changelog.md
+      - Minecraft基岩版26.21修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog.md
+      - Minecraft基岩版26.23修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md
     - 官方自动导出的文档:
-      - translations/official-export/index.md
+      - 仓库README译文: translations/official-export/source-readme.md
     - Microsoft Learn文档:
-      - translations/microsoft-learn/index.md
       - 仓库README译文: translations/microsoft-learn/source-readme.md
     - 基岩架构:
       - translations/bedrock-schema/index.md
     - Minecraft编辑器:
-      - translations/editor/index.md
       - README译文: translations/editor/source-readme.md
-    - 基岩版命令更新记录:
-      - translations/command-log/index.md
     - 基岩版协议库:
-      - translations/protocol/index.md
       - 仓库README译文: translations/protocol/source-readme.md
-      - 补充文档脉络: translations/protocol/additional-docs-outline.md
-      - 变更日志索引: translations/protocol/changelog-index.md
-      - 近期变更摘录: translations/protocol/recent-changelog-highlights.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17V5H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5v2H8v-2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM5 7h6v4H5zm0 6h6v2H5zm8-6h6v2h-6zm0 4h6v4h-6z"></path></svg></span><span class="md-ellipsis">专栏</span></span>':
     - blog/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 20v2H4c-1.1 0-2-.9-2-2V7h2v13zm4-18H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m-5 12h-2v-2h2zm1.8-5.2c-.3.4-.7.7-1.1.9-.2.2-.4.3-.5.5-.2.2-.2.5-.2.8h-2q0-.75.3-1.2c.2-.3.5-.6 1-.9q.45-.3.6-.6c.2-.2.2-.5.2-.8s-.1-.6-.3-.8-.4-.3-.8-.3c-.3 0-.5.1-.7.2-.2.2-.3.4-.3.7h-1.9c0-.8.2-1.4.8-1.8.7-.3 1.4-.5 2.3-.5s1.7.2 2.2.7.8 1.1.8 1.8c0 .5-.2.9-.4 1.3"></path></svg></span><span class="md-ellipsis">帮助</span></span>':
@@ -1181,6 +1171,7 @@ nav:
       - 导入与启用内容: help/minecraft/importing-and-activating-content.md
       - 开启实验性玩法: help/minecraft/enabling-experimental-features.md
       - 预览版、测试版与更新日志: help/minecraft/preview-beta-changelogs.md
+      - 官方更新日志归档: help/minecraft/official-changelog-archive.md
       - 启动Minecraft编辑器: help/minecraft/launching-editor.md
       - 复制坐标UI: help/minecraft/copy-coordinate-ui.md
       - 多人游戏与服务器入口: help/minecraft/multiplayer-and-servers.md

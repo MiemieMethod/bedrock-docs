@@ -1,13 +1,10 @@
----
-title: 基岩版命令更新记录
----
-
 # 基岩版命令更新记录
 
-本页基于ProjectXero维护的《Minecraft基岩版命令更新日志》进行中文整理，面向命令迁移、函数兼容性校验与教程版本标注。
+本页整理ProjectXero维护的《Minecraft基岩版命令更新日志》可直接用于开发判断的部分，用于命令迁移、函数兼容性校验与教程版本标注。
 
 - 原始项目：<https://github.com/XeroAlpha/Minecraft-Bedrock-Command-Log>
-- 当前整理来源：`.knowledge\基岩版命令更新记录\README.md`
+- 知识库来源：`.knowledge\基岩版命令更新记录\README.md`
+- 最新版本命令列表核验：`.knowledge\基岩版命令更新记录\versions\vanilla\26.10.25.txt`与`.knowledge\基岩版命令更新记录\versions\vanilla\26.1.1.txt`
 
 ## 最新收录版本
 
@@ -84,7 +81,8 @@ title: 基岩版命令更新记录
 
 ## 相关页面
 
-- [命令版本参考](../../refs/commands/version.md)
+- [命令版本](version.md)
+- [命令参考](index.md)
 - [命令](../../docs/general/command.md)
 - [版本](../../docs/general/version.md#命令版本)
 - [如何判断命令能否在目标版本运行](../../topics/command-compatibility.md)

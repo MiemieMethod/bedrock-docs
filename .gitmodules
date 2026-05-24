@@ -76,3 +76,9 @@
 [submodule ".knowledge/Nukkit-MOT文档"]
 	path = .knowledge/Nukkit-MOT文档
 	url = https://github.com/MemoriesOfTime/Nukkit-MOT-Wiki
+[submodule ".knowledge/PMMP文档"]
+	path = .knowledge/PMMP文档
+	url = https://github.com/pmmp/doc.pmmp.io
+[submodule ".knowledge/BetterRTX文档"]
+	path = .knowledge/BetterRTX文档
+	url = https://github.com/BetterRTX/.github

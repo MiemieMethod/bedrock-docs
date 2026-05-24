@@ -44,8 +44,8 @@
 
 ## 数据来源
 
-- [基岩版命令更新记录（翻译）](../../translations/command-log/index.md)
-- [官方帮助中心更新日志翻译](../../translations/help-center/changelogs/index.md)
+- [基岩版命令更新记录](command-log.md)
+- [官方更新日志归档](../../help/minecraft/official-changelog-archive.md)
 
 ## 当前命令列表
 

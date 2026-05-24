@@ -17,6 +17,7 @@
 - [国际版命令清单](commands/command-list.md)：按官方分类列出82条命令的权限、作弊要求和语法入口。
 - [命令参数类型](commands/command-argument-type.md)：列出54种命令参数类型、格式和示例值。
 - [命令版本](commands/version.md)：整理命令语法变更线索和兼容性注意事项。
+- [基岩版命令更新记录](commands/command-log.md)：整理命令更新时间线的范围、近期关键变更和使用方式。
 
 ## 附加包
 

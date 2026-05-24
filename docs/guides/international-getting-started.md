@@ -15,12 +15,12 @@
 ### 官方渠道
 
 - [Microsoft Learn基岩版创作者文档](https://learn.microsoft.com/zh-cn/minecraft/creator/)
-- 官方帮助中心更新日志（可结合本站[翻译版更新日志](../translations/help-center/changelogs/index.md)）
+- 官方帮助中心更新日志（可结合本站[官方更新日志归档](../help/minecraft/official-changelog-archive.md)）
 
 ### 社区渠道
 
 - [基岩维基（翻译）](../translations/bedrock-wiki/index.md)
-- [基岩版命令更新记录（翻译）](../translations/command-log/index.md)
+- [基岩版命令更新记录](../refs/commands/command-log.md)
 - [《我的世界》基岩版开发维基](https://wiki.mcbe-dev.net/)
 
 ## 阶段1：完成初级目标

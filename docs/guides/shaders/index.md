@@ -19,7 +19,7 @@
 | Vibrant Visuals/延迟渲染<!-- md:flag vanilla --> | `*.texture_set.json`、`lighting/global.json`、`water/water.json`等 | 支持该图形模式的国际版设备 | 新项目优先 |
 | RTX光线追踪<!-- md:flag vanilla --> | `*.texture_set.json`和PBR纹理 | Windows、支持硬件光线追踪的GPU | 维护旧RTX包时使用 |
 | 中国版材质与着色器<!-- md:flag china --> | `materials/*.material`、`shaders/glsl/*.vertex`、`*.fragment` | 中国版OpenGL材质管线 | 中国版项目使用 |
-| BetterRTX<!-- md:flag vanilla --> | 知识库未收录具体资料 | 依赖社区方案和玩家环境 | 仅作为兼容性话题记录 |
+| BetterRTX<!-- md:flag vanilla --> | 第三方RTX着色器模组与效果增强 | 依赖Windows版RTX环境和玩家本地安装 | 仅作为兼容性与效果辨析路线 |
 
 ## 学习建议
 

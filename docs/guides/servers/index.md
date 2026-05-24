@@ -14,7 +14,7 @@
 - :material-language-javascript: __[SerenityJS入门](serenity.md)__
   使用Node.js创建SerenityJS项目，了解事件、命令、自定义方块和插件模板。
 - :material-coffee: __[Nukkit、PocketMine与旧生态](nukkit-pocketmine.md)__
-  了解Nukkit-MOT安装、插件放置和PocketMine-MP资料缺口。
+  了解Nukkit-MOT安装、插件放置，以及PocketMine-MP的启动方式和插件生态定位。
 ///
 
 ## 先选哪一个
@@ -24,7 +24,7 @@
 - 会Python，想写BDS插件：读Endstone。
 - 会Java、Kotlin或其他JVM语言，想研究社区服务端：读Allay或Nukkit-MOT。
 - 会TypeScript/JavaScript，想把基岩版服务端嵌入Node.js项目：读SerenityJS。
-- 维护PHP服务端或旧PocketMine插件：先看本系列的旧生态说明，并继续补充外部资料。
+- 维护PHP服务端或旧PocketMine插件：先看本系列的旧生态说明，并结合PocketMine-MP官方文档核对安装、配置和插件要求。
 
 /// warning | 不同服务端的插件不能直接通用
 BDS脚本、LeviLamina模组、Endstone插件、Allay插件、SerenityJS插件、Nukkit插件和PocketMine-MP插件面向的运行时不同。不要把一个生态的API名称直接复制到另一个生态中。

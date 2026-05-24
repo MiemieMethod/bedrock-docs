@@ -58,7 +58,7 @@
 
 ## 相关页面
 
-- [基岩版命令更新记录](../translations/command-log/index.md)
-- [官方帮助中心翻译](../translations/help-center/index.md)
+- [基岩版命令更新记录](../refs/commands/command-log.md)
+- [官方更新日志归档](../help/minecraft/official-changelog-archive.md)
 - [命令版本](../refs/commands/version.md)
 - [预览版、测试版与更新日志](../help/minecraft/preview-beta-changelogs.md)

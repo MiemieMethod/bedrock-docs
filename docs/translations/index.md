@@ -109,41 +109,33 @@
 
     ---
 
-    收录官方帮助中心中的基岩版更新日志翻译。
+    收录官方帮助中心中的基岩版更新日志翻译，并由帮助页提供归档导航。
 
-    [:octicons-arrow-right-24: 开始阅读](./help-center/index.md)
-
--   :material-console-network:{ .lg .middle } __基岩版命令更新记录__
-
-    ---
-
-    收录命令语法变更时间线的中文整理，用于版本迁移与兼容性校验。
-
-    [:octicons-arrow-right-24: 开始阅读](./command-log/index.md)
+    [:octicons-arrow-right-24: 查看归档](../help/minecraft/official-changelog-archive.md)
 
 -   :material-lan-connect:{ .lg .middle } __基岩版协议库__
 
     ---
 
-    收录官方基岩版协议仓库README、补充文档脉络与协议变更日志索引整理。
+    收录官方基岩版协议仓库README的中文整理译文；协议结构与变更分析已分别落位到文档与参考分区。
 
-    [:octicons-arrow-right-24: 开始阅读](./protocol/index.md)
+    [:octicons-arrow-right-24: 开始阅读](./protocol/source-readme.md)
 
 -   :material-file-document-multiple:{ .lg .middle } __官方自动导出的文档__
 
     ---
 
-    收录自动导出的基岩版文档仓库说明翻译与来源说明。
+    收录bedrock-dot-dev仓库README的中文整理译文，用于来源追溯与使用边界核对。
 
-    [:octicons-arrow-right-24: 开始阅读](./official-export/index.md)
+    [:octicons-arrow-right-24: 开始阅读](./official-export/source-readme.md)
 
 -   :material-microsoft:{ .lg .middle } __Microsoft Learn文档__
 
     ---
 
-    收录Minecraft官方创作者文档仓库的中文整理译文与来源脉络说明。
+    收录Minecraft官方创作者文档仓库README的中文整理译文。
 
-    [:octicons-arrow-right-24: 开始阅读](./microsoft-learn/index.md)
+    [:octicons-arrow-right-24: 开始阅读](./microsoft-learn/source-readme.md)
 
 -   :material-file-code-outline:{ .lg .middle } __基岩架构__
 
@@ -157,7 +149,7 @@
 
     ---
 
-    收录官方minecraft-editor仓库README的中文整理译文与来源脉络说明。
+    收录官方minecraft-editor仓库README的中文整理译文。
 
-    [:octicons-arrow-right-24: 开始阅读](./editor/index.md)
+    [:octicons-arrow-right-24: 开始阅读](./editor/source-readme.md)
 </div>
