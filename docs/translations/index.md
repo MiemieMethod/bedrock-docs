@@ -46,14 +46,6 @@
 
     [:octicons-arrow-right-24: 开始阅读](./bridge/index.md)
 
--   :material-headset:{ .lg .middle } __EaseCation Wiki__
-
-    ---
-
-    主要收录与Minecraft基岩版VR相关的中文整理内容。
-
-    [:octicons-arrow-right-24: 开始阅读](./easecation/index.md)
-
 -   :material-cellphone-cog:{ .lg .middle } __InnerCore文档__
 
     ---

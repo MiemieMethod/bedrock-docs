@@ -681,6 +681,11 @@ nav:
         - 材质属性: guides/tools/chunky-materials.md
         - 降噪技术: guides/tools/chunky-denoising.md
         - 无头渲染: guides/tools/chunky-headless.md
+    - 虚拟现实:
+      - guides/vr/index.md
+      - 启用VR模式: guides/vr/enable-vr.md
+      - 设置VR资源包: guides/vr/pack-setup.md
+      - 编辑第一个VR模型: guides/vr/editing-your-first-model.md
     - 服务端:
       - guides/servers/index.md
       - 搭建BDS: guides/servers/bds.md
@@ -1065,13 +1070,6 @@ nav:
           - translations/endstone/reference/python/potion.md
           - translations/endstone/reference/python/scheduler.md
           - translations/endstone/reference/python/scoreboard.md
-    - EaseCation Wiki:
-      - translations/easecation/index.md
-      - 虚拟现实:
-        - translations/easecation/vr/index.md
-        - 启用VR模式: translations/easecation/vr/installing-bedrock-vr.md
-        - 设置资源包: translations/easecation/vr/pack-setup.md
-        - 编辑你的第一个模型: translations/easecation/vr/editing-your-first-model.md
     - InnerCore:
       - translations/innercore/index.md
       - 介绍: translations/innercore/intro.md

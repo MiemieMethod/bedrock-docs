@@ -36,6 +36,14 @@
 
     [:octicons-arrow-right-24: 尝试使用这些软件](tools/index.md)
 
+-   :material-headset:{ .lg .middle } __虚拟现实__
+
+    ---
+
+    从启动VR模式到准备资源包、调整模型，逐步完成基岩版VR内容的基础配置。
+
+    [:octicons-arrow-right-24: 开始配置VR内容](vr/index.md)
+
 -   :material-server:{ .lg .middle } __服务端__
 
     ---

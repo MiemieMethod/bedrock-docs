@@ -137,15 +137,50 @@ class UIDemoProxy(CustomUIControlProxy):
 | `HideSneakGui(hide)` | 客户端 | `hide:bool` | 无 | 隐藏潜行按钮，隐藏后点击原位置不再响应。 |
 | `HideInteractGui(hide)` | 客户端 | `hide:bool` | 无 | 隐藏交互按钮（如喂食、交易等场景中的按钮），隐藏后不响应。 |
 | `HideChatGUI(hide)` | 客户端 | `hide:bool` | 无 | 隐藏聊天按钮（新版聊天模式下不生效）。 |
+| `HideVoiceGUI(hide)` | 客户端 | `hide:bool` | 无 | 隐藏语音按钮；开启新版聊天时不生效。 |
+| `HideWalkGui(hide)` | 客户端 | `hide:bool` | 无 | 隐藏跑/走切换按钮，隐藏后原位置不再响应。 |
 | `HidePauseGUI(hide)` | 客户端 | `hide:bool` | 无 | 隐藏暂停按钮。 |
-| `OpenInventoryGui()` | 客户端 | 无 | 无 | 打开原版背包界面。 |
-| `OpenChatGui()` | 客户端 | 无 | 无 | 打开原版聊天栏。 |
+| `OpenInventoryGui(categoryName=None,isForce=False)` | 客户端 | `categoryName:str`（可选，背包分页名）、`isForce:bool`（可选） | 无 | 打开原版背包界面；支持直接定位到指定分页。 |
+| `OpenChatGui(isForce=False)` | 客户端 | `isForce:bool`（可选） | 无 | 打开原版聊天栏；若当前已打开`is_showing_menu=true`的界面，通常需要强制模式。调用后会触发`PlayerChatButtonClickClientEvent`。 |
+| `OpenEmoteGui()` | 客户端 | 无 | 无 | 打开原版表情界面。 |
+| `OpenFoldGui()` | 客户端 | 无 | 无 | 打开原版下拉界面。 |
+| `OpenNeteaseStoreGui(categoryName,itemName)` | 客户端 | `categoryName:str`、`itemName:str` | 无 | 打开网易商店中的指定商品界面。 |
+| `OpenPauseGui(isForce=False)` | 客户端 | `isForce:bool`（可选） | 无 | 打开原版暂停界面。 |
+| `OpenReportGui()` | 客户端 | 无 | 无 | 打开原版举报界面。 |
+| `OpenVoiceGui()` | 客户端 | 无 | 无 | 打开原版语音界面。 |
 | `GetScreenSize()` | 客户端 | 无 | `tuple(int,int)` | 获取游戏当前分辨率`(宽,高)`，单位像素。 |
 | `GetScreenViewInfo()` | 客户端 | 无 | `tuple(float,float,float,float)` | 获取当前游戏视角信息（视角宽、高及偏移），用于UI精确适配计算。 |
 | `SetResponse(uiName,enable)` | 客户端 | `uiName:str`、`enable:bool` | 无 | 设置指定原生UI是否响应触摸/点击操作。 |
 | `ChangeSneakState()` | 客户端 | 无 | 无 | 切换玩家潜行状态（等同按下潜行键）。 |
 | `SimulateJump()` | 客户端 | 无 | 无 | 模拟玩家跳跃操作。 |
 | `PlayHudHeartBlinkAnim()` | 客户端 | 无 | 无 | 播放原版受伤时血量变化的动效（心跳动画）。 |
+
+## 界面与HUD事件
+
+除了直接调用界面接口外，中国版模组SDK还提供一组与原生界面、自定义界面和HUD变化相关的事件，适合用于处理布局适配、界面联动和输入拦截。
+
+| 事件 | 端 | 参数 | 说明 |
+| --- | --- | --- | --- |
+| `UiInitFinished` | 客户端 | 无 | UI框架初始化完成后触发；切换维度后会再次触发，适合在此之后创建界面。 |
+| `PushScreenEvent` | 客户端 | `screenName`、`screenDef` | 某个界面刚被创建时触发。 |
+| `PopScreenEvent` | 客户端 | `screenName`、`screenDef` | 某个界面开始弹出时触发。 |
+| `PopScreenAfterClientEvent` | 客户端 | `screenName`、`screenDef` | 某个界面完全弹出后触发；更适合获取弹出后的最顶层界面状态。 |
+| `ScreenSizeChangedClientEvent` | 客户端 | `beforeX`、`beforeY`、`afterX`、`afterY` | 屏幕尺寸变化时触发，仅支持PC。 |
+| `GridComponentSizeChangedClientEvent` | 客户端 | `path` | 自定义UI中`grid`组件的格子数量发生变化时触发。 |
+| `HudButtonChangedClientEvent` | 客户端 | `changedList` | 原生HUD按钮位置或大小变化时触发，可用于避免自定义按钮与原生按钮重叠。 |
+| `AchievementButtonMovedClientEvent` | 客户端 | `oldPosition`、`newPosition` | 使用自定义成就系统时，成就入口拖动结束后触发。 |
+| `PlayerChatButtonClickClientEvent` | 客户端 | 无 | 玩家点击聊天按钮或按回车呼出聊天窗口时触发。 |
+| `OnItemSlotButtonClickedEvent` | 客户端 | `slotIndex` | 点击快捷栏、背包栏、盔甲栏或副手栏物品槽时触发。 |
+| `ClientPlayerInventoryOpenEvent` | 客户端 | `isCreative`、`cancel` | 客户端打开背包界面时触发，可直接取消打开。 |
+| `ClientPlayerInventoryCloseEvent` | 客户端 | 无 | 客户端关闭背包界面时触发。 |
+| `ClientChestOpenEvent` | 客户端 | `playerId`、`x`、`y`、`z` | 客户端打开箱子界面时触发。 |
+| `ClientChestCloseEvent` | 客户端 | 无 | 客户端关闭箱子界面时触发。 |
+| `CloseNeteaseShopEvent` | 客户端 | 无 | 商城界面关闭时触发，脚本商城与Apollo插件商城都会进入此事件。 |
+| `PlayerInventoryOpenScriptServerEvent` | 服务端 | `playerId`、`isCreative` | 某个客户端打开背包界面时由服务端接收，可用于服务器侧判定创造背包状态。 |
+
+/// note | `HudButtonChangedClientEvent`返回值结构
+`changedList`中的每一项都会给出按钮标识以及变化前后的区域信息。常见字段包括`areaEnum`、`beforeSize`和`afterSize`，分别表示原生HUD枚举名、变化前区域和变化后区域。
+///
 
 ## 音效
 
