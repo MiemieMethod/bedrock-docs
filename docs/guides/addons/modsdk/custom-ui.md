@@ -85,6 +85,19 @@ class MyClientSystem(clientApi.GetClientSystemCls()):
 
 例如开镜按钮按下后隐藏准心、显示瞄准镜，或者点击按钮后切换弹匣图标，这些都更适合在脚本里做。这样布局与逻辑分离，后面替换贴图或微调位置时不会牵一发而动全身。
 
+## 第七步：需要挂到原生界面时
+
+如果目标不是单独弹出一个自定义界面，而是把自己的控件附加到背包、箱子或熔炉等原生界面上，旧版中国版资料建议改用`NativeScreenManager`与`CustomUIControlProxy`这一套框架。
+
+这种做法的思路是：
+
+1. 先选定一个允许附加的原生界面枚举；
+2. 用`RegisterCustomControl`把自定义控件注册到该原生界面；
+3. 继承`CustomUIControlProxy`，在`OnCreate`里拿到`BaseUIControl`根节点并写初始化逻辑；
+4. 在`OnDestroy`和`OnTick`里处理清理或逐帧更新。
+
+它更适合做“在原生界面上补一块额外信息区、按钮区或提示区”，而不是重写整套原生界面逻辑。
+
 ## 常见问题
 
 ### 界面创建不出来

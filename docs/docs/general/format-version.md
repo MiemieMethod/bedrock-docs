@@ -34,6 +34,15 @@
 - **方块定义**：格式版本`1.19.70`后的方块定义采用了新的组件命名规范（从驼峰命名改为蛇形命名），此前的格式仍被接受但不再推荐使用。
 - **物品定义**：格式版本`1.16.100`引入了全新的物品定义架构，与之前的物品格式存在较大差异。`1.20.50`后进一步更新了组件结构。
 
+某些版本迁移不仅是“字段新增”，还会出现字段重命名、组件重组与数值语义变化。例如：
+
+- 旧方块组件`minecraft:aim_collision`在后续版本中迁移为`minecraft:selection_box`。
+- 旧方块组件`minecraft:block_collision`在后续版本中迁移为`minecraft:collision_box`。
+- 旧方块组件`minecraft:explosion_resistance`在后续版本中迁移为`minecraft:destructible_by_explosion`，且字段结构发生变化。
+- 旧物品`minecraft:food`中的字符串型`saturation_modifier`在后续版本中迁移为浮点数写法。
+
+这些变化说明“同一功能”在不同格式版本下可能需要完全不同的JSON结构。维护历史附加包时，应按目标版本逐项核对字段，而非只替换`format_version`数字。
+
 ## 格式版本的书写
 
 格式版本的值为字符串类型，可以有以下几种写法：

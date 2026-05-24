@@ -65,6 +65,14 @@
 
     [:octicons-arrow-right-24: 开始阅读](./china-legacy/index.md)
 
+-   :material-home-city-outline:{ .lg .middle } __基岩版开发wiki主页站__
+
+    ---
+
+    收录mcbe-dev-home仓库的目录脉络整理与关键页面转录，用于历史资料核对与来源追溯。
+
+    [:octicons-arrow-right-24: 开始阅读](./dev-home/index.md)
+
 -   :material-map-search:{ .lg .middle } __国际版开发教程归档__
 
     ---
@@ -72,6 +80,14 @@
     收录“基岩版国际版开发教程”知识库的章节脉络映射，用于来源核对与后续转录。
 
     [:octicons-arrow-right-24: 开始阅读](./international-tutorial/index.md)
+
+-   :material-book-open-variant:{ .lg .middle } __附加包教程归档__
+
+    ---
+
+    收录“基岩版附加包教程”知识库的章节脉络索引与来源前言摘录，用于历史语境核对与后续转录。
+
+    [:octicons-arrow-right-24: 开始阅读](./addon-tutorial/index.md)
 
 -   :material-update:{ .lg .middle } __官方帮助中心__
 

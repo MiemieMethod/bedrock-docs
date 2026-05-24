@@ -83,6 +83,20 @@ aux = blockStateComp.GetBlockAuxValueFromStates("minecraft:stone_slab", {'stone_
 | `CleanBlockTileEntityCustomData(pos,dimensionId)` | 服务端 | `pos:tuple(int,int,int)`、`dimensionId:int` | `bool` | 清空指定位置方块实体绑定的全部自定义数据。 |
 | `CreateFrameEffectForBlockEntity(pos,path,frameKeyName,effectPos)` | 客户端 | `pos:tuple(int,int,int)`、`path:str`、`frameKeyName:str`、`effectPos:tuple(float,float,float)` | `int`或`None` | 在自定义方块实体上创建序列帧特效，返回特效ID。`path`以`textures/`开头时不需扩展名，以`effects/`开头时需`.json`后缀。 |
 
+## 微缩方块资源生成
+
+旧版中国版资料还记录了一组面向**微缩方块**的资源导出接口。它们用于把世界中的一个已加载区域转换为微缩方块资源字符串，再由开发者自行保存为资源文件。
+
+/// warning | 旧版资料存在命名差异
+同一份旧版资料同时出现了`CreateMicroBlockResStr`与`CreateMicroBlockResJsonStr`两种写法。下表按资料能确认的参数语义整理，不对其历史命名差异作进一步外推。
+///
+
+| 接口 | 端 | 参数 | 返回值 | 说明 |
+| --- | --- | --- | --- | --- |
+| `CreateMicroBlockResStr(...)`/`CreateMicroBlockResJsonStr(...)` | 服务端 | `identifier:str`、`start:tuple(int,int,int)`、`end:tuple(int,int,int)`、`colorMap:dict|None`、`isMerge:bool`、`icon:str` | `str` | 根据选区生成微缩方块资源JSON字符串。`identifier`不含`micro_block:`前缀；`colorMap`可覆盖特定方块颜色；`isMerge`用于合并同类方块降低复杂度；`icon`引用已注册到图集中的图标名。 |
+
+旧版资料指出，这组接口只会导出选区中的方块数据，不会把实体数据一并导出；若选区包含未加载区域，则只能得到已加载部分的数据。对于朝向，`start`与`end`的先后顺序也会影响最终渲染方向。
+
 ## 容器
 
 容器接口包含箱子和酿造台等。通过`CreateChestBlock(levelId)`获取`ChestContainerCompServer`，通过`CreateItem(playerId)`获取`ItemCompServer`。

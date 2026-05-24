@@ -41,6 +41,83 @@ class MyClientSystem(clientApi.GetClientSystemCls()):
             })
 ```
 
+## 原生界面附加
+
+旧版中国版资料还提供了一套“把自定义UI附加到原生界面上”的框架。它不是简单覆盖原版JSON UI文件，而是在指定原生界面创建时，额外挂接一个自定义控件树，并由代理类负责其生命周期。
+
+### 可选原生界面枚举
+
+原生界面附加能力依赖`clientApi.GetMinecraftEnum().NativeScreenDataType`。旧版资料明确列出的常用枚举包括：
+
+| 枚举值 | 说明 |
+| --- | --- |
+| `INVENTORY_CONTENT_PANEL` | 背包界面 |
+| `POCKET_INVENTORY_CONTENT_PANEL` | 口袋版背包界面 |
+| `CRAFTING_CONTENT_PANEL` | 合成台界面 |
+| `POCKET_CRAFTING_CONTENT_PANEL` | 口袋版合成台界面 |
+| `SMALL_CHEST_PANEL` | 小箱子界面 |
+| `POCKET_SMALL_CHEST_PANEL` | 口袋版小箱子界面 |
+| `LARGE_CHEST_PANEL` | 大箱子界面 |
+| `POCKET_LARGE_CHEST_PANEL` | 口袋版大箱子界面 |
+| `ENDER_CHEST_PANEL` | 末影箱界面 |
+| `POCKET_ENDER_CHEST_PANEL` | 口袋版末影箱界面 |
+| `FURNACE_PANEL` | 熔炉界面 |
+| `POCKET_FURNACE_PANEL` | 口袋版熔炉界面 |
+
+### NativeScreenManager
+
+`NativeScreenManager`是一个单例管理类，可通过`extraClientApi.GetNativeScreenManagerCls()`获得。它用于在原生界面创建和销毁时注册或移除额外的自定义控件。
+
+| 接口 | 端 | 参数 | 返回值 | 说明 |
+| --- | --- | --- | --- | --- |
+| `instance()` | 客户端 | 无 | `NativeScreenManager` | 获取单例实例。 |
+| `RegisterCustomControl(nativeScreenType,customControlName,proxyClassName)` | 客户端 | `nativeScreenType:NativeScreenDataType`、`customControlName:str`、`proxyClassName:str` | `bool` | 在指定原生界面创建时附加自定义控件，并指定代理类模块路径。 |
+| `UnRegisterCustomControl(nativeScreenType,customControlName)` | 客户端 | `nativeScreenType:NativeScreenDataType`、`customControlName:str` | 无 | 取消指定原生界面的自定义控件附加。 |
+
+```python
+import mod.client.extraClientApi as clientApi
+
+NativeScreenManager = clientApi.GetNativeScreenManagerCls()
+NativeScreenDataType = clientApi.GetMinecraftEnum().NativeScreenDataType
+
+NativeScreenManager.instance().RegisterCustomControl(
+    NativeScreenDataType.INVENTORY_CONTENT_PANEL,
+    "UIDemo.image0",
+    "uidemoScripts.modClient.ui.UIDemoProxy.UIDemoProxy"
+)
+```
+
+### CustomUIControlProxy
+
+`CustomUIControlProxy`可通过`extraClientApi.GetCustomUIControlProxyCls()`获得。该类本身保存附加到原生界面的`BaseUIControl`根节点，并暴露生命周期函数；开发者通常继承它并重写回调。
+
+| 成员 | 端 | 参数 | 返回值 | 说明 |
+| --- | --- | --- | --- | --- |
+| `GetCustomUIControl()` | 客户端 | 无 | `BaseUIControl` | 获取附加在原生界面上的自定义UI根控件。 |
+| `OnCreate()` | 客户端 | 无 | 无 | 自定义UI在原生界面创建完成后调用。 |
+| `OnDestroy()` | 客户端 | 无 | 无 | 原生界面关闭、自定义UI销毁后调用。 |
+| `OnTick()` | 客户端 | 无 | 无 | 每帧调用一次。 |
+
+```python
+import mod.client.extraClientApi as clientApi
+
+CustomUIControlProxy = clientApi.GetCustomUIControlProxyCls()
+
+class UIDemoProxy(CustomUIControlProxy):
+    def __init__(self, customData, customUIControl):
+        CustomUIControlProxy.__init__(self, customData, customUIControl)
+
+    def OnCreate(self):
+        root = self.GetCustomUIControl()
+        label = root.GetChildByName("label0").asLabel()
+        if label:
+            label.SetText("10")
+```
+
+### 使用边界
+
+原生界面附加的设计目标是“在原生界面上叠加少量自定义内容”，而不是完全接管原生界面逻辑。旧版资料特别强调，这套能力只开放给少数经过筛选的原生界面，以避免过度改写原版交互。
+
 ## 原生HUD控制
 
 原生UI控制接口均为`mod.client.extraClientApi`的直接方法，全部为客户端接口，可控制原版HUD各元素的显示与隐藏。
