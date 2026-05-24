@@ -1,6 +1,5 @@
 # Apollo网络服旧版目录
 
-本页用于保留`.knowledge/中国版旧版文档/3-Apollo网络服开发`目录的原文脉络。为便于旧工程维护，目录按“入门→开发→SDK→发布→运维”顺序列出。
 
 ## 顶层条目
 
@@ -54,4 +53,3 @@
 - 概念辨析：[Apollo网络服](../../docs/server/apollo.md)
 - 流程维护：[旧版中国版Apollo网络服流程](../../guides/outdated/china-legacy-apollo.md)
 - 参考索引：[中国版模组SDK参考](../../refs/modsdk/index.md)
-

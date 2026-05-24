@@ -123,4 +123,3 @@ int serverPort = config.getInt("server.port");
 
 - [国际化](i18n-guide.md) - 多语言支持
 - [权限系统](permission-guide.md) - 管理权限
-

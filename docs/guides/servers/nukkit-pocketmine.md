@@ -184,13 +184,13 @@ chcp 65001
 
 ## PocketMine-MP资料现状
 
-知识库现已收录PocketMine-MP官方文档。当前能够直接核对到的内容包括安装条件、首次启动流程、配置文件、插件分发方式以及插件开发入口。
+当前版本信息已覆盖PocketMine-MP文档。当前能够直接核对到的内容包括安装条件、首次启动流程、配置文件、插件分发方式以及插件开发入口。
 
 可以先把PocketMine-MP理解为一条面向PHP插件生态的独立服务端路线：
 
-- 环境要求方面，官方文档要求64位CPU、64位操作系统和至少1GB内存，并说明Windows、Linux和macOS都在官方尽量支持的范围内。
+- 环境要求方面，文档要求64位CPU、64位操作系统和至少1GB内存，并说明Windows、Linux和macOS都在官方尽量支持的范围内。
 - 启动方式方面，Windows可使用`start.cmd`或`start.ps1`，Linux与macOS使用`start.sh`。首次启动会进入设置向导，也可以通过`--no-wizard`跳过。
 - 配置方面，`server.properties`负责名称、端口和视距等基础设置，`pocketmine.yml`负责更进阶的内存、线程和多世界相关设置。
-- 插件方面，官方文档说明插件通常以`.phar`文件分发，放入`plugins`目录即可加载；公开插件主要集中在Poggit。插件描述文件是`plugin.yml`，关键字段包括`name`、`version`、`main`和`api`。
+- 插件方面，文档说明插件通常以`.phar`文件分发，放入`plugins`目录即可加载；公开插件主要集中在Poggit。插件描述文件是`plugin.yml`，关键字段包括`name`、`version`、`main`和`api`。
 
-PocketMine-MP官方文档也明确提醒：它不是原版生存服务器实现，原版世界生成、红石、生物AI等能力并不完整。因此，如果目标是尽量贴近原版生存服，应优先考虑BDS；如果目标是PHP插件生态和高度定制能力，则PocketMine-MP仍然有独立价值。
+PocketMine-MP文档也明确提醒：它不是原版生存服务器实现，原版世界生成、红石、生物AI等能力并不完整。因此，如果目标是尽量贴近原版生存服，应优先考虑BDS；如果目标是PHP插件生态和高度定制能力，则PocketMine-MP仍然有独立价值。

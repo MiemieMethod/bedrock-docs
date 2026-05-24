@@ -25,7 +25,7 @@
 
 - [1.16.100](1.16.100/index.md)：用于解释1.16.100附近的格式遗留价值，尤其是纹理集、旧物品格式和早期方块组件迁移语境。
 - [1.10](1.10/index.md)：用于解释动画、动画控制器、渲染控制器和客户端实体文件中仍常见的`1.10.0`。
-- [旧版Bedrock Wiki资料辨析](legacy-bedrock-wiki.md)：用于判断旧版Bedrock Wiki资料中哪些内容仍有迁移价值，哪些内容只适合作为历史对照。
+- [旧版Bedrock Wiki资料辨析](legacy-bedrock-wiki.md)：用于判断旧版Bedrock Wiki哪些内容仍有迁移价值，哪些内容只适合作为历史对照。
 - [旧版中国版模组SDK制作规范](china-legacy-modsdk-guidelines.md)：用于维护旧版中国版模组SDK项目时检查命名、清单、资源目录、贴图和九切片历史要求。
 - [旧版中国版MC Studio工具链](china-legacy-mc-studio.md)：用于辨析旧版MC Studio启动器、地图编辑器、关卡编辑器、逻辑编辑器、界面编辑器和调试工具的历史语境。
 - [旧版中国版特效编辑器](china-legacy-mc-studio-effects.md)：用于维护旧版MC Studio特效编辑器生成的模型、粒子、序列帧和挂接文件。

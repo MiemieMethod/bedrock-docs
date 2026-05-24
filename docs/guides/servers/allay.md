@@ -18,7 +18,7 @@ java --version
 
 ## 安装Allay
 
-官方文档推荐使用AllayLauncher下载、更新和管理服务器。Windows可以在PowerShell中运行官方安装脚本：
+文档推荐使用AllayLauncher下载、更新和管理服务器。Windows可以在PowerShell中运行官方安装脚本：
 
 ```powershell
 Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/AllayMC/AllayLauncher/refs/heads/main/scripts/install_windows.ps1").Content
@@ -46,7 +46,7 @@ java -jar allay-server-*-shaded.jar
 
 ## 认识服务器目录
 
-Allay会在工作目录下生成配置、世界和插件相关文件。资料中反复出现的几个路径如下：
+Allay会在工作目录下生成配置、世界和插件相关文件。反复出现的几个路径如下：
 
 | 路径 | 作用 |
 |------|------|

@@ -27,7 +27,7 @@
 ```
 
 /// note | 关于此组件
-`minecraft:dweller`是让实体具备睡床能力的必要组件，目前官方文档中记录不完整。
+`minecraft:dweller`是让实体具备睡床能力的必要组件，目前文档中记录不完整。
 ///
 
 ```json title="BP/entities/sleeping_entity.json > components"

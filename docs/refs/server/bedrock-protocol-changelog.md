@@ -4,7 +4,6 @@
 
 ## 来源
 
-- 来源目录：`.knowledge\基岩版协议库`
 - 主仓库：<https://github.com/Mojang/bedrock-protocol-docs>
 
 ## 文件结构

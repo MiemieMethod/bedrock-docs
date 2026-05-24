@@ -2,7 +2,6 @@
 
 本文整理Minecraft Creator Tools官方“内容校验规则参考”中的全部规则组，用于在开发附加包、皮肤包与世界模板时快速定位规则ID、严重性和自动修复能力。
 
-数据来源：`Microsoft Learn/creator/Reference/Content/MCToolsValReference`。
 
 ## 严重性标记
 
@@ -1014,4 +1013,3 @@
 | `WPACKREFS205` | Invalid Version | 🔴 Error<br/>错误 | 无 |
 | `WPACKREFS206` | Pack Not Found | 🔴 Error<br/>错误 | 无 |
 | `WPACKREFS207` | Processing Error | 🔴 Error<br/>错误 | 无 |
-

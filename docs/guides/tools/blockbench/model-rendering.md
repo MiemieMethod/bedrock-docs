@@ -1,7 +1,7 @@
 # 模型渲染
 
 /// details-info | 源文档
-该页面翻译自[Blockbench官方文档](https://blockbench.net/wiki/guides/model-rendering)
+该页面翻译自[Blockbench文档](https://blockbench.net/wiki/guides/model-rendering)
 ///
 
 要获得Blockbench模型具有逼真光照的图像，需要在外部程序中渲染它。本文将介绍最流行的渲染程序，并解释如何创建模型的渲染。

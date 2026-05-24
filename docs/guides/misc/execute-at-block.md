@@ -3,7 +3,7 @@
 这套技巧用“满堆肥桶掉落骨粉”的机制，把任意方块位置临时转成可被选择器捕获的掉落物位置。
 
 ![系统演示1](../../../assets/images/guides/misc/execute-at-block/demo_1.gif)
-<!-- 图片获取方式：从知识库源文件execute-at-block.md中的demo_1.gif提取。 -->
+<!-- 图片获取方式：从资料源文件execute-at-block.md中的demo_1.gif提取。 -->
 
 /// warning | 使用注意
 该系统会临时生成大量掉落物。扫描范围太大时会产生明显卡顿。
@@ -42,7 +42,7 @@ kill @e[type=item,tag=!wiki:ignored.item]
 ```
 
 ![系统演示2](../../../assets/images/guides/misc/execute-at-block/demo_2.gif)
-<!-- 图片获取方式：从知识库源文件execute-at-block.md中的demo_2.gif提取。 -->
+<!-- 图片获取方式：从资料源文件execute-at-block.md中的demo_2.gif提取。 -->
 
 ## 继续阅读
 

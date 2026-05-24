@@ -4,12 +4,6 @@ title: 更新日志
 
 # 更新日志
 
-/// info | 来源信息
-- 原文仓库：[`LiteLDev/LeviLamina`](https://github.com/LiteLDev/LeviLamina)
-- 对应来源：`.knowledge\LeviLamina源码及文档\CHANGELOG.md`
-- 原始更新日志：<https://github.com/LiteLDev/LeviLamina/blob/HEAD/CHANGELOG.md>
-- 发布页：<https://github.com/LiteLDev/LeviLamina/releases>
-///
 
 该页面用于记录LeviLamina项目的近期版本变更。由于原始更新日志较长，本站仅摘录最近版本摘要；完整历史请参阅原始文件。
 

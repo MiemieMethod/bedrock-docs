@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/](https://wiki.bedrock.dev/meta/)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/)提供镜像翻译
 ///
 
 基岩维基的元信息类文章通常用于收录站点说明、开发建议、工具提示和资源索引。本站仅保留其中与Minecraft基岩版开发直接相关、且适合长期查阅的条目。

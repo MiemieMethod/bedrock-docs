@@ -1,6 +1,5 @@
 # 中国版ModAPI事件域索引<!-- md:flag china -->
 
-本页根据知识库`.knowledge\EaseCation Wiki\docs\mcdocs\1-ModAPI\事件`目录整理中国版ModAPI事件域。该目录共13个Markdown文件，事件索引表当前收录287条事件条目（含客户端与服务端重载条目）。
 
 /// warning | 使用边界
 以下事件属于中国版模组SDK事件系统，通过中国版系统监听接口订阅。不要将这些事件名直接套用到国际版`@minecraft/server`事件对象，也不要与Apollo网络服事件名混用。

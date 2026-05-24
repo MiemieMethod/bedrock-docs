@@ -26,4 +26,3 @@ Blockbench的新建窗口会要求选择项目格式。这里的“格式”是B
 /// warning | 不要用通用导出替代资源包导出
 把`Bedrock Model`导出为`glTF`或`OBJ`只会得到通用三维文件。Minecraft基岩版实体仍然需要`.geo.json`、纹理、客户端实体文件和必要的动画或动画控制器配置。
 ///
-

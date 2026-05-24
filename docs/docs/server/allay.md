@@ -20,7 +20,7 @@ Allay资料也多次提到其他项目对其实现的参考价值。例如，All
 
 Allay将API和服务端实现分开维护。插件通常只依赖`org.allaymc.allay:api`模块；`allay-server`中的接口属于服务端实现内部接口，可能在未通知插件开发者的情况下变更、移动或删除。需要使用高级自定义方块、物品等功能时，Allay资料要求通过AllayGradle关闭`apiOnly`，这相当于直接接触服务端模块，应理解为更高风险的内部API使用方式。
 
-Allay的核心对象采用组件化设计。开发资料中的组件注入系统使用`Component`、`ComponentProvider`和`ComponentInitInfo`创建组件实例，并通过`@Dependency`、`@ComponentObject`、`@Manager`和`@OnInitFinish`等注解处理依赖、所有者对象、管理器和初始化回调。该系统主要用于物品、方块、方块实体和实体的服务端实现。
+Allay的核心对象采用组件化设计。开发组件注入系统使用`Component`、`ComponentProvider`和`ComponentInitInfo`创建组件实例，并通过`@Dependency`、`@ComponentObject`、`@Manager`和`@OnInitFinish`等注解处理依赖、所有者对象、管理器和初始化回调。该系统主要用于物品、方块、方块实体和实体的服务端实现。
 
 ## 线程模型
 
@@ -64,7 +64,7 @@ Allay插件API覆盖以下常见能力：
 - 自定义方块和自定义物品的客户端定义生成。
 - 调试形状、迷雾、相机、地图、网络接口和世界生成等较新的或高级的接口。
 
-这些能力会随Allay版本和API版本变化。具体接口名称、参数和可用性应以当前Javadoc、Allay官方文档和发行版为准。概览可参见[Allay API概览](../../refs/server/allay-api.md)。
+这些能力会随Allay版本和API版本变化。具体接口名称、参数和可用性应以当前Javadoc、Allay文档和发行版为准。概览可参见[Allay API概览](../../refs/server/allay-api.md)。
 
 ## 版本
 
@@ -74,7 +74,7 @@ Allay只按协议版本判断客户端兼容范围。Minecraft基岩版的多个
 
 ## 世界生成
 
-Allay支持插件介入世界生成。官方资料中给出Terra插件示例：安装`Terra-allay-<version>-shaded.jar`后，可以在`worlds/world-settings.yml`中将维度的`generator-type`设置为`TERRA`，并通过`generator-preset`指定元包和种子。Allay变更记录还显示，项目在后续版本中加入了自定义维度、自定义生物群系以及世界生成扩展事件等能力。
+Allay支持插件介入世界生成。官方给出Terra插件示例：安装`Terra-allay-<version>-shaded.jar`后，可以在`worlds/world-settings.yml`中将维度的`generator-type`设置为`TERRA`，并通过`generator-preset`指定元包和种子。Allay变更记录还显示，项目在后续版本中加入了自定义维度、自定义生物群系以及世界生成扩展事件等能力。
 
 这些能力属于Allay服务端和Allay插件生态。它们不表示BDS原生支持相同的世界生成器插件接口。
 
@@ -86,4 +86,4 @@ Allay作为自实现服务端具有以下限制：
 - 基岩版协议更新可能要求Allay更新协议库、运行时数据、方块和物品数据以及状态更新逻辑。
 - 插件API快速演进时，服务端模块、`@MinecraftVersionSensitive`接口和高级自定义内容接口可能出现破坏性变更。
 - 自实现服务端的世界格式、配置文件和插件模型通常不能与BDS、LeviLamina、Endstone、Nukkit或PocketMine-MP直接互换。
-- 原始资料中的部分旧文档和抓包研究基于较早游戏版本，只能作为实现参考，不应直接视为当前稳定行为。
+- 原始部分旧文档和抓包研究基于较早游戏版本，只能作为实现参考，不应直接视为当前稳定行为。

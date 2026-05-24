@@ -167,6 +167,6 @@ system.beforeEvents.beforeWatchdogTerminate.subscribe((event) => {
 
 ## 早期GameTest写法<!-- md:flag deprecated -->
 
-早期GameTest实验性资料中可能出现`type`为`javascript`的清单文件模块、以UUID声明的`Minecraft`和`GameTest`模块依赖，以及`import * as GameTest from "GameTest"`、`import { BlockLocation } from "Minecraft"`等导入方式。这些写法属于1.16.210附近的历史API形态，不应作为当前脚本API教程使用。
+早期GameTest实验性可能出现`type`为`javascript`的清单文件模块、以UUID声明的`Minecraft`和`GameTest`模块依赖，以及`import * as GameTest from "GameTest"`、`import { BlockLocation } from "Minecraft"`等导入方式。这些写法属于1.16.210附近的历史API形态，不应作为当前脚本API教程使用。
 
 当前脚本API使用`type`为`script`的清单文件模块，并通过`@minecraft/server`、`@minecraft/server-gametest`等模块名声明依赖和导入功能。维护旧包时若遇到早期GameTest写法，应按当前模块系统重新迁移。

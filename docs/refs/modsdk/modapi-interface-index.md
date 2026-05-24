@@ -1,6 +1,5 @@
 # 中国版ModAPI接口域索引<!-- md:flag china -->
 
-本页根据知识库`.knowledge\中国版API参考\1-ModAPI\接口`目录整理中国版ModAPI接口域。该目录共101个Markdown文件，用于描述中国版模组SDK客户端与服务端接口。以下内容仅适用于中国版模组SDK环境，不适用于国际版`@minecraft/server`脚本API。
 
 /// warning | 使用边界
 中国版ModAPI接口文档与国际版脚本API、国际版数据驱动JSON架构是两套独立体系。维护文档时，应分别落到中国版模组SDK参考页或国际版附加包参考页，不应混写。

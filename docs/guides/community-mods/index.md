@@ -6,7 +6,7 @@
 - :material-cellphone-cog: __[InnerCore客户端模组](../clients/innercore/index.md)__
   以InnerCore/CoreEngine为代表的Android客户端模组体系。
 - :material-history: __[ModPE](modpe/index.md)__
-  以BlockLauncher脚本为代表的旧生态。知识库中缺少独立ModPE教程资料，本页只根据已有资料讲迁移和辨析。
+  以BlockLauncher脚本为代表的旧生态。缺少独立ModPE教程资料，本页只根据已有资料讲迁移和辨析。
 ///
 
 ## 什么时候还需要读这一组
@@ -19,4 +19,4 @@
 
 ## 资料完整性说明
 
-知识库中有Nernar维护的InnerCore开发文档，包含模组结构、物品、方块、回调、维度、界面和发布等内容。知识库中没有检索到独立、系统的ModPE教程资料，只检索到InnerCore文档中对BlockLauncher和ModPE的比较、替代和兼容提及。因此，ModPE页面会明确标出资料缺口，不会编造具体API教程。
+有Nernar维护的InnerCore开发文档，包含模组结构、物品、方块、回调、维度、界面和发布等内容。没有确认到独立、系统的ModPE教程资料，只确认到InnerCore文档中对BlockLauncher和ModPE的比较、替代和兼容提及。因此，ModPE页面会明确标出当前限制，不会编造具体API教程。

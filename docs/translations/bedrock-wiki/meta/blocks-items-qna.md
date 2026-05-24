@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/blocks-items-qna](https://wiki.bedrock.dev/meta/blocks-items-qna)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/blocks-items-qna)提供镜像翻译
 ///
 
 /// warning | 说明
@@ -78,4 +77,3 @@
 
 - **Q**：会支持更灵活的贴图变化、方块标签、不可推动方块、硅镐控制、更多材质、更多声音吗？
 - **A**：很多都在待办或长期路线图中，但短期不会全部落地。
-

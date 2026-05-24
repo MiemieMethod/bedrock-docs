@@ -4,10 +4,6 @@ title: 在客户端上安装
 
 # 在客户端上安装
 
-/// info | 来源信息
-- 原文仓库：[`LiteLDev/LeviLamina`](https://github.com/LiteLDev/LeviLamina)
-- 对应来源：`.knowledge\LeviLamina源码及文档\docs\main\contents\user_guides\install_on_client.zh.md`、`.knowledge\LeviLamina源码及文档\docs\main\contents\user_guides\install_on_client.md`、`.knowledge\LeviLamina源码及文档\tooth.json`
-///
 
 本页保留官方客户端安装说明。若需要先理解整个服务端与客户端生态的阅读顺序，可先看[LeviLamina入门](../../guides/servers/levilamina.md)。
 

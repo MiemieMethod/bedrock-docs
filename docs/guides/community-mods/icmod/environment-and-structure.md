@@ -3,7 +3,7 @@
 ICMod开发以Android设备上的Horizon启动器为入口。Nernar维护的InnerCore文档把整体关系描述为“Horizon加载InnerCore包，InnerCore包加载CoreEngine，模组再通过CoreEngine与Minecraft交互”。这个体系属于第三方旧客户端模组生态，不是当前国际版原生支持的开发方式。
 
 /// warning | 先确认目标环境
-资料中提到的InnerCore主线长期围绕Android版Minecraft、Horizon启动器和特定游戏版本运行。维护旧项目时，应先确认目标设备的Android版本、CPU架构、InnerCore包版本、模组依赖库版本和目标Minecraft版本。
+提到的InnerCore主线长期围绕Android版Minecraft、Horizon启动器和特定游戏版本运行。维护旧项目时，应先确认目标设备的Android版本、CPU架构、InnerCore包版本、模组依赖库版本和目标Minecraft版本。
 ///
 
 ## 安装与包
@@ -82,7 +82,7 @@ Horizon目录下的核心内容大致如下：
 
 ## 构建配置
 
-`build.config`描述资源、脚本、构建目录、库目录、Java目录和原生目录。资料中给出的常见字段包括：
+`build.config`描述资源、脚本、构建目录、库目录、Java目录和原生目录。给出的常见字段包括：
 
 /// define
 `defaultConfig`

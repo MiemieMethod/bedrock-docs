@@ -57,7 +57,7 @@
 
 遇到问题？请查阅：
 - [Allay框架说明中的FAQ](../../docs/server/allay.md#常见问题与限制)
-- [Allay官方文档](https://docs.allaymc.org/)
+- [Allay文档](https://docs.allaymc.org/)
 - [GitHub Discussions](https://github.com/AllayMC/Allay/discussions)
 
 ## 相关资源

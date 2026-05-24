@@ -1,12 +1,11 @@
 ---
-title: 仓库README译文
+title: 项目说明页译文
 ---
 
-# 仓库README译文
+# 项目说明页译文
 
 ## 原文
 
-- 来源：`.knowledge\官方自动导出的文档\README.md`
 
 ## 中文整理译文
 

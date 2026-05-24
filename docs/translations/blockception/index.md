@@ -11,4 +11,4 @@
 Blockception是一个社区项目，维护了全面的Minecraft基岩版JSON架构库，用于帮助开发者在开发附加包时获得代码补全、验证和错误检查。
 
 - [GitHub仓库](https://github.com/Blockception/Minecraft-bedrock-json-schemas)
-- [官方文档](https://github.com/Blockception/Minecraft-bedrock-json-schemas/tree/main/docs)
+- [文档](https://github.com/Blockception/Minecraft-bedrock-json-schemas/tree/main/docs)

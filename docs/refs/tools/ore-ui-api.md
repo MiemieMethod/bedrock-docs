@@ -8,7 +8,7 @@ comments: true
 
 ## 概述
 
-React Facet基于**方面**（Facet）的概念进行状态管理，旨在避免React传统状态管理的性能开销。完整的官方文档请参见[Ore UI官方仓库](https://github.com/Mojang/ore-ui)。
+React Facet基于**方面**（Facet）的概念进行状态管理，旨在避免React传统状态管理的性能开销。完整的文档请参见[Ore UI项目仓库](https://github.com/Mojang/ore-ui)。
 
 ## 核心包
 
@@ -181,6 +181,6 @@ Ore UI特别针对游戏UI优化：
 
 ## 相关资源
 
-- [Ore UI官方仓库](https://github.com/Mojang/ore-ui)
+- [Ore UI项目仓库](https://github.com/Mojang/ore-ui)
 - [网站中的Ore UI概念文档](../../docs/general/ore-ui.md)
-- 官方文档：[Goals](https://github.com/Mojang/ore-ui/blob/main/docs/docs/goals.md) | [Getting Started](https://github.com/Mojang/ore-ui/blob/main/docs/docs/getting-started.md)
+- 文档：[Goals](https://github.com/Mojang/ore-ui/blob/main/docs/docs/goals.md) | [Getting Started](https://github.com/Mojang/ore-ui/blob/main/docs/docs/getting-started.md)

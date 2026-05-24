@@ -4,10 +4,6 @@ title: 拉取请求模板
 
 # 拉取请求模板
 
-/// info | 来源信息
-- 原文仓库：[`LiteLDev/LeviLamina`](https://github.com/LiteLDev/LeviLamina)
-- 对应来源：`.knowledge\LeviLamina源码及文档\.github\PULL_REQUEST_TEMPLATE.md`
-///
 
 本页整理LeviLamina仓库用于提交拉取请求时的模板。该文件不是面向终端用户的技术文档，而是仓库协作时的辅助说明，用于提示贡献者在合并前自查构建、测试、代码风格与许可证合规性。
 
@@ -31,7 +27,7 @@ title: 拉取请求模板
 - 没有使用缺乏许可证的代码。
 - 已为第三方代码补充声明。
 
-这些条目与[仓库README](repository-readme.md)中的贡献说明、[行为准则](code-of-conduct.md)以及[C++风格指南](cpp-style-guide.md)共同构成了LeviLamina仓库的协作约束：不仅关注功能实现，也关注代码来源、许可证边界与可维护性。
+这些条目与[项目说明页](repository-readme.md)中的贡献说明、[行为准则](code-of-conduct.md)以及[C++风格指南](cpp-style-guide.md)共同构成了LeviLamina仓库的协作约束：不仅关注功能实现，也关注代码来源、许可证边界与可维护性。
 
 ## 站内理解
 
@@ -41,4 +37,4 @@ title: 拉取请求模板
 - 它把“无错误无警告构建”“已测试”“第三方代码声明”列为提交前条件，反映出项目对质量与合规性的最低门槛。
 - 它还说明，阅读LeviLamina资料时，除面向用户和开发者的正文外，仓库级辅助文件同样可以补充理解其协作方式。
 
-如果需要从仓库首页脉络继续追溯，可参阅[仓库README](repository-readme.md)；如需查看行为约束与风格约束，可继续参阅[行为准则](code-of-conduct.md)与[C++风格指南](cpp-style-guide.md)。
+如果需要从仓库首页脉络继续追溯，可参阅[项目说明页](repository-readme.md)；如需查看行为约束与风格约束，可继续参阅[行为准则](code-of-conduct.md)与[C++风格指南](cpp-style-guide.md)。

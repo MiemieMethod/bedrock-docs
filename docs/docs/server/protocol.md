@@ -159,7 +159,7 @@ NetworkSettings数据包中的压缩标识符以`u16`存储，其余位置以`u8
 自实现服务端和协议库往往还会通过抓包验证客户端的真实行为。Allay旧协议研究资料给出了一些具有代表性的例子：
 
 - 丢弃物品时，客户端会发送`InventoryTransactionPacket`并伴随`MobEquipmentPacket`；服务端接受后，掉落物通常以`AddItemEntityPacket`形式出现在世界中。
-- 现代合成流程通常围绕`ItemStackRequestPacket`和`ItemStackResponsePacket`展开；资料中的合成示例包含`CraftRecipeAction`、`ConsumeAction`、`CreateAction`和`TakeAction`等动作。
+- 现代合成流程通常围绕`ItemStackRequestPacket`和`ItemStackResponsePacket`展开；合成示例包含`CraftRecipeAction`、`ConsumeAction`、`CreateAction`和`TakeAction`等动作。
 - 放置方块时，客户端会先经过`START_ITEM_USE_ON`与`STOP_ITEM_USE_ON`之类的交互阶段，成功放置后再表现为`ITEM_USE(action=0)`路径。
 - 创造模式破坏方块与生存模式破坏方块的上行路径并不相同。旧研究中，创造模式快速破坏使用`DIMENSION_CHANGE_REQUEST_OR_CREATIVE_DESTROY_BLOCK`，而生存模式会额外伴随裂纹进度、更新与校正相关流程。
 - 同一种物品栏操作在不同平台上也可能有不同动作组合。Allay旧研究曾记录到移动端与Windows版在物品栈请求中分别偏向`SwapAction`与`PlaceAction`、`DestroyAction`等不同组合。
@@ -203,7 +203,7 @@ Mojang在GitHub上维护的[基岩版网络协议文档仓库](https://github.co
 
 ### 数据包结构
 
-官方仓库中的数据包分为以下几大类：
+项目仓库中的数据包分为以下几大类：
 
 - **登录与握手**：`LoginPacket`、`ServerToClientHandshakePacket`、`ClientToServerHandshakePacket`、`PlayStatusPacket`
 - **资源包**：`ResourcePackDataInfoPacket`、`ResourcePackStackPacket`、`ResourcePacksReadyForValidationPacket`
@@ -218,11 +218,11 @@ Mojang在GitHub上维护的[基岩版网络协议文档仓库](https://github.co
 
 ### 查询协议文档
 
-访问官方仓库的HTML视图，可以直接查看：
+访问项目仓库的HTML视图，可以直接查看：
 
 1. **数据包列表**：检查`/docs`文件夹下按名称按字母序排列的HTML文件
 2. **树状结构**：展开树状图查看字段定义、类型引用和枚举值
-3. **变更记录**：查阅`previous_changelogs`或主README中列出的版本变更，了解协议在各版本的演变
+3. **变更记录**：查阅`previous_changelogs`或主说明页中列出的版本变更，了解协议在各版本的演变
 
 ### 版本兼容性
 

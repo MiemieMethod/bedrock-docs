@@ -4,7 +4,7 @@ comments: true
 
 # 数据持久化
 
-如果你想把插件自定义数据挂到世界、实体、方块实体或物品栈上，Allay推荐使用PDC，而不是直接碰内部NBT或把数据塞进描述文本。本指南只讲资料里已经明确支持的做法。
+如果你想把插件自定义数据挂到世界、实体、方块实体或物品栈上，Allay推荐使用PDC，而不是直接碰内部NBT或把数据塞进描述文本。本指南只讲已经明确支持的做法。
 
 ## PDC适合解决什么问题
 
@@ -63,7 +63,7 @@ if (pdc.has(key, PersistentDataType.STRING)) {
 
 ## 支持哪些类型
 
-Allay资料中明确列出的原生类型包括：
+Allay明确列出的原生类型包括：
 
 - `Byte`、`Byte Array`
 - `Short`
@@ -102,7 +102,7 @@ List<String> strings = container.get(key, PersistentDataType.LIST.strings());
 
 ## 自定义类型
 
-如果原生类型不够用，你可以自己实现`PersistentDataType`，把复杂对象拆成原生类型再存。资料里给出的示例是把`UUID`拆成`byte[]`：
+如果原生类型不够用，你可以自己实现`PersistentDataType`，把复杂对象拆成原生类型再存。给出的示例是把`UUID`拆成`byte[]`：
 
 ```java linenums="1"
 import org.allaymc.api.pdc.PersistentDataAdapterContext;

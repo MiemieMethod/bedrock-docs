@@ -90,5 +90,4 @@ dimension.setBlockState(x, y, z, stoneState);
 
 ## 更多信息
 
-详细的方块API参考，请访问[Allay官方文档](https://docs.allaymc.org/)。
-
+详细的方块API参考，请访问[Allay文档](https://docs.allaymc.org/)。

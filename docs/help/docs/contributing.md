@@ -1691,4 +1691,3 @@ HTML规范由W3C维护。
 #### {{samp|video}}
 
 `{/{video}}`用于显示一个视频播放器，目前只支持YouTube视频，格式为`{/{video|youtube|视频ID}}`。
-

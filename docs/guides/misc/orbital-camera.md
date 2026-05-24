@@ -56,7 +56,7 @@ camera @a clear
 ## 示意图
 
 ![轨道摄像机二维示意图](../../../assets/images/guides/misc/orbital-camera/2d-visualization.gif)
-<!-- 图片获取方式：从知识库源文件orbital-camera.md引用的2d-visualization.gif提取并放入指定目录。 -->
+<!-- 图片获取方式：从资料源文件orbital-camera.md引用的2d-visualization.gif提取并放入指定目录。 -->
 
 ## 继续阅读
 

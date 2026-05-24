@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/world-gen-qna](https://wiki.bedrock.dev/meta/world-gen-qna)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/world-gen-qna)提供镜像翻译
 ///
 
 /// warning | 说明
@@ -75,4 +74,3 @@
 
 - **Q**：世界生成整体会怎么推进？
 - **A**：大致顺序是先完善方块特征和相关能力，再扩展特征与jigsaw结构，之后逐步走向生物群系能力。团队会分阶段发布，并持续根据反馈调整方向。
-

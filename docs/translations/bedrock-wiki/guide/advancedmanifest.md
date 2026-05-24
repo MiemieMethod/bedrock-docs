@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/advancedmanifest](https://wiki.bedrock.dev/guide/advancedmanifest)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/advancedmanifest)提供镜像翻译
 ///
 
 /// tip | 提示

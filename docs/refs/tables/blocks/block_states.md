@@ -134,4 +134,3 @@
 | `wood_type` | 字符串 | `oak`、`spruce`、`birch`、`jungle`、`acacia`、`dark_oak` | `fence`<br/>`double wooden slab`<br/>`planks`<br/>`wood`<br/>`wooden slab` |
 
 <!-- md:sortable -->
-

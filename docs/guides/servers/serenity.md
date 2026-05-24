@@ -182,7 +182,7 @@ world.blockPalette.registerTrait(ExampleBlockTrait);
 
 ## 创建插件项目
 
-SerenityJS提供`sample-plugin`模板仓库。创建插件时，通常先使用模板生成自己的仓库，再在其中编写TypeScript或JavaScript代码。资料中提到创建模板项目时可以选择仓库名称、描述，并可按需包含模板中的不同分支。
+SerenityJS提供`sample-plugin`模板仓库。创建插件时，通常先使用模板生成自己的仓库，再在其中编写TypeScript或JavaScript代码。提到创建模板项目时可以选择仓库名称、描述，并可按需包含模板中的不同分支。
 
 插件适合分发可复用的服务端扩展；直接嵌入`Serenity`实例的代码则适合把服务器作为应用程序的一部分。两种组织方式都属于SerenityJS生态，选择时应看项目是否需要独立发布和安装。
 

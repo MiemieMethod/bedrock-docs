@@ -35,7 +35,7 @@
 
 ### `minecraft:food`
 
-旧资料中可能使用字符串形式的`saturation_modifier`，例如`"poor"`、`"normal"`或`"supernatural"`。较新的物品组件使用数值表达饱和度修饰符。迁移时不要机械替换为任意数字，应根据当前物品组件参考重新确认设计目标。
+旧可能使用字符串形式的`saturation_modifier`，例如`"poor"`、`"normal"`或`"supernatural"`。较新的物品组件使用数值表达饱和度修饰符。迁移时不要机械替换为任意数字，应根据当前物品组件参考重新确认设计目标。
 
 ### `minecraft:repairable`
 
@@ -59,7 +59,7 @@
 
 ### 碰撞与选择框
 
-旧资料中常见以下名称迁移链：
+旧常见以下名称迁移链：
 
 | 旧名称 | 中间名称 | 较新名称 | 用途 |
 |--------|----------|----------|------|
@@ -98,7 +98,7 @@
 | `minecraft:block_light_absorption` | `minecraft:block_light_filter`，后为`minecraft:light_dampening` | 控制光线穿过方块时被阻挡的程度。 |
 | `minecraft:block_light_emission` | `minecraft:light_emission` | 控制方块发出的光照。 |
 
-迁移时还要注意数值单位变化。旧资料中发光强度可能使用`0.0`至`1.0`的小数，而较新组件通常使用`0`至`15`的光照等级。
+迁移时还要注意数值单位变化。旧发光强度可能使用`0.0`至`1.0`的小数，而较新组件通常使用`0`至`15`的光照等级。
 
 ### 其他常见压平
 

@@ -32,7 +32,7 @@
 ```
 
 /// warning | `pbr`和`raytraced`
-官方文档建议Vibrant Visuals资源包使用`"pbr"`。带`"raytraced"`能力的旧RTX包也能激活Vibrant Visuals，但RTX受设备限制更大，新包不建议只按RTX思路制作。
+文档建议Vibrant Visuals资源包使用`"pbr"`。带`"raytraced"`能力的旧RTX包也能激活Vibrant Visuals，但RTX受设备限制更大，新包不建议只按RTX思路制作。
 ///
 
 ## 给一个方块添加PBR纹理
@@ -132,7 +132,7 @@ Microsoft Learn说明，自基岩版1.21.90起，`lighting\global.json`不会覆
 
 ## 用关键帧控制一天变化
 
-支持`optkeyframe`的字段可以从单个值改成按时间插值的对象。关键帧键从`0`到`1`，官方文档中`0.0`和`1.0`代表正午，`0.25`代表日落，`0.5`代表午夜，`0.75`代表日出。
+支持`optkeyframe`的字段可以从单个值改成按时间插值的对象。关键帧键从`0`到`1`，文档中`0.0`和`1.0`代表正午，`0.25`代表日落，`0.5`代表午夜，`0.75`代表日出。
 
 ```json
 "illuminance": {

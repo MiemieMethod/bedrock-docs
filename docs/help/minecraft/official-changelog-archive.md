@@ -40,5 +40,4 @@
 
 ## 原始来源
 
-- 官方帮助中心知识库目录：`.knowledge\官方帮助中心\feedback\Release-Changelogs`
 - 当前站内译文目录：`docs\translations\help-center\changelogs`

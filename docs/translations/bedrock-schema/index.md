@@ -4,10 +4,9 @@ title: 基岩架构
 
 # 基岩架构翻译
 
-本页收录“基岩架构”知识库目录中的Markdown说明文件翻译与整理，用于记录该来源在本项目中的采纳范围与落位决策。
+本页收录“基岩架构”资料目录中的Markdown说明文件翻译与整理，用于记录该来源在本项目中的采纳范围与落位决策。
 
 - 原始仓库：<https://github.com/MCBE-Development-Wiki/bedrock-schemas>
-- 当前整理来源：`.knowledge\基岩架构\README.md`
 - 扫描范围：Markdown文件1个（递归）
 
 ## 来源原文摘录
@@ -23,7 +22,7 @@ title: 基岩架构
 - `docs/refs/`：暂无可新增字段条目。
 - `docs/docs/addon/`：暂无可新增概念条目。
 - `docs/docs/general/`：暂无可新增机制条目。
-- `docs/translations/bedrock-schema/`：保留来源脉络页。
+- `docs/translations/bedrock-schema/`：保留资料结构页。
 
 ## 相关页面
 

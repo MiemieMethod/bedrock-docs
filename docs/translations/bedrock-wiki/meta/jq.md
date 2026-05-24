@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/jq](https://wiki.bedrock.dev/meta/jq)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/jq)提供镜像翻译
 ///
 
 > “jq就像处理JSON数据的sed工具。你可以用它来切片、过滤、映射和转换结构化数据，其便捷程度如同用sed、awk、grep等工具处理文本一般。”

@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/addons](https://wiki.bedrock.dev/guide/addons)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/addons)提供镜像翻译
 ///
 
 ## 什么是附加包？

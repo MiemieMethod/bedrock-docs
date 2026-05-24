@@ -1,8 +1,7 @@
-# 仓库README
+# 项目说明页
 
 /// info | 来源
 - 原文仓库：[`MiemieMethod/mcbe-dev-home`](https://github.com/MCBE-Development-Wiki/mcbe-dev-home)
-- 原文路径：`README.md`
 ///
 
 ## 转录内容

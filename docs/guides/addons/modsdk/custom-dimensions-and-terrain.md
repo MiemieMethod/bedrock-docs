@@ -400,4 +400,3 @@
 | `No definition found for feature xxx` | 地物规则引用的地物文件不存在或标识符不匹配。 |
 | `The feature name XXX did not match the expected name of YYY` | 地物文件名和地物标识符不一致。 |
 | `Failed to load feature XXX` | `places_structure`对应的结构路径或结构文件位置错误。 |
-

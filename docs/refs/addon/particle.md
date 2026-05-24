@@ -253,13 +253,13 @@
 
 ## 曲线
 
-`curves`对象用于定义插值曲线。每条曲线在每个粒子的每个渲染帧求值，结果写入与曲线键同名的Molang变量。曲线允许通过时间或其他Molang表达式平滑地改变粒子属性，例如从创建到消亡时改变粒子大小、颜色或速度。官方文档要求曲线变量名以`variable.`开头，例如`variable.size_curve`。
+`curves`对象用于定义插值曲线。每条曲线在每个粒子的每个渲染帧求值，结果写入与曲线键同名的Molang变量。曲线允许通过时间或其他Molang表达式平滑地改变粒子属性，例如从创建到消亡时改变粒子大小、颜色或速度。文档要求曲线变量名以`variable.`开头，例如`variable.size_curve`。
 
 | 字段 | 类型 | 默认值 | 描述 |
 | --- | --- | --- | --- |
 | `type` | 字符串 | 未设置 | 曲线类型。可为`linear`、`bezier`、`bezier_chain`或`catmull_rom`。不同类型提供不同的光滑程度和控制精度。 |
 | `input` | 数值或Molang表达式 | 未设置 | 曲线输入值。常见写法为`variable.particle_age / variable.particle_lifetime`（从`0`到`1`的归一化粒子生命周期）。也可使用`variable.particle_age`（秒为单位的绝对时间）或其他表达式。 |
-| `horizontal_range` | 数值或Molang表达式 | `1` | 将输入映射到`0`至该值之间。该字段对`bezier_chain`无效，且官方文档标记为已弃用。 |
+| `horizontal_range` | 数值或Molang表达式 | `1` | 将输入映射到`0`至该值之间。该字段对`bezier_chain`无效，且文档标记为已弃用。 |
 | `nodes` | 数组或对象 | 未设置 | 曲线控制节点。`linear`、`bezier`和`catmull_rom`可使用均匀分布的节点数组；`bezier_chain`使用按输入值索引的节点对象，键值为输入值（`0.0`至`1.0`）。 |
 
 | 曲线类型 | 描述 | 用途 |

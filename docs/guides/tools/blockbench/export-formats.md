@@ -1,7 +1,7 @@
 # 三维导出格式
 
 /// details-info | 源文档
-该页面翻译自[Blockbench官方文档](https://blockbench.net/wiki/guides/export-formats)
+该页面翻译自[Blockbench文档](https://blockbench.net/wiki/guides/export-formats)
 ///
 
 ## 介绍

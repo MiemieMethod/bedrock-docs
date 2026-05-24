@@ -1,7 +1,7 @@
 # 自发光纹理与渲染
 
 /// details-info | 源文档
-该页面翻译自[Blockbench官方文档](https://blockbench.net/wiki/guides/emissive-textures-renders)
+该页面翻译自[Blockbench文档](https://blockbench.net/wiki/guides/emissive-textures-renders)
 ///
 
 ## 介绍

@@ -7,7 +7,7 @@
 ///
 
 ![球体命令演示](../../../assets/images/guides/misc/sphere-command/sphere-command-demo.png)
-<!-- 图片获取方式：从知识库源文件sphere-command.md中的sphere-command-demo.png提取。 -->
+<!-- 图片获取方式：从资料源文件sphere-command.md中的sphere-command-demo.png提取。 -->
 
 ## 准备旋转锚点
 
@@ -31,19 +31,19 @@ execute positioned 0 0 0 rotated as @e[tag=wiki:r] positioned ^1^^ rotated as @e
 3. 回看中心：`facing 0 0 0 positioned 0 0 0`确保半径方向统一。
 
 ![分段示意1](../../../assets/images/guides/misc/sphere-command/segment-1.png)
-<!-- 图片获取方式：从知识库源文件sphere-command.md中的segment-1.png提取。 -->
+<!-- 图片获取方式：从资料源文件sphere-command.md中的segment-1.png提取。 -->
 
 ![分段示意2](../../../assets/images/guides/misc/sphere-command/segment-2.png)
-<!-- 图片获取方式：从知识库源文件sphere-command.md中的segment-2.png提取。 -->
+<!-- 图片获取方式：从资料源文件sphere-command.md中的segment-2.png提取。 -->
 
 ![分段示意3](../../../assets/images/guides/misc/sphere-command/segment-3.png)
-<!-- 图片获取方式：从知识库源文件sphere-command.md中的segment-3.png提取。 -->
+<!-- 图片获取方式：从资料源文件sphere-command.md中的segment-3.png提取。 -->
 
 ![分段示意3.1](../../../assets/images/guides/misc/sphere-command/segment-3.1.png)
-<!-- 图片获取方式：从知识库源文件sphere-command.md中的segment-3.1.png提取。 -->
+<!-- 图片获取方式：从资料源文件sphere-command.md中的segment-3.1.png提取。 -->
 
 ![分段示意4](../../../assets/images/guides/misc/sphere-command/segment-4.png)
-<!-- 图片获取方式：从知识库源文件sphere-command.md中的segment-4.png提取。 -->
+<!-- 图片获取方式：从资料源文件sphere-command.md中的segment-4.png提取。 -->
 
 ## 自定义
 

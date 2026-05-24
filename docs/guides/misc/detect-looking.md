@@ -26,13 +26,15 @@ execute as @a at @s anchored eyes facing 10 20 30 positioned ~~-1.62~ positioned
 若希望按角度反推半径容差，可用：
 
 $$
-r=2\sin\left(rac{lpha}{2}ight)
+r=2\sin\left(rac{lpha}{2}
+ight)
 $$
 
 反向计算角度：
 
 $$
-lpha=2rcsin\left(rac{r}{2}ight)
+lpha=2rcsin\left(rac{r}{2}
+ight)
 $$
 
 当`r=0.2`时，容差角大约在12°左右。

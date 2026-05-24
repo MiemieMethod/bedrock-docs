@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/deferred-qna](https://wiki.bedrock.dev/meta/deferred-qna)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/deferred-qna)提供镜像翻译
 ///
 
 /// warning | 说明
@@ -75,4 +74,3 @@
 
 - **Q**：延迟渲染开放后能改到什么程度？
 - **A**：不会开放全部内容，但会继续增加创作者可控项。
-

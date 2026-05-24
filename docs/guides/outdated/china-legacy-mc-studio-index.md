@@ -1,6 +1,5 @@
 # MC Studio工具链旧版目录
 
-本页用于保留`.knowledge/中国版旧版文档/1-MC Studio开发工具`目录的原文脉络。以下条目保持旧版主题划分，便于按原教程路径回溯。
 
 ## 顶层条目
 
@@ -27,4 +26,3 @@
 - 概念先读：[编辑器](../../docs/general/editor.md)
 - 旧链路总览：[旧版中国版MC Studio工具链](../../guides/outdated/china-legacy-mc-studio.md)
 - 旧特效重点：[旧版中国版特效编辑器](../../guides/outdated/china-legacy-mc-studio-effects.md)
-

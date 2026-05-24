@@ -13,7 +13,7 @@ Endstone为官方BDS提供第三方插件API，支持Python和C++插件。它适
 
 ## 安装
 
-Endstone官方文档推荐Python3.10或更高版本。Windows需要Windows10或更新系统；Linux发行版以Ubuntu22.04或Debian12等较新的环境为宜。若准备开发Python插件，建议始终使用虚拟环境：
+Endstone文档推荐Python3.10或更高版本。Windows需要Windows10或更新系统；Linux发行版以Ubuntu22.04或Debian12等较新的环境为宜。若准备开发Python插件，建议始终使用虚拟环境：
 
 ```powershell
 python -m venv venv

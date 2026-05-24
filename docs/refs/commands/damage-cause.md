@@ -60,4 +60,3 @@
 - [国际版命令清单](command-list.md)
 - [命令版本](version.md)
 - [附加包实体损伤来源](../tables/entities/addon_entity_damage_sources.md)
-

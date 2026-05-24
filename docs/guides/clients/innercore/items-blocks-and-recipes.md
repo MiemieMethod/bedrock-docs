@@ -29,7 +29,7 @@ assets/resources/items-opaque/oxidized_stick_0.png
 
 ## 注册物品
 
-资料中的第一个物品先注册翻译，再生成数值ID，最后创建物品。
+第一个物品先注册翻译，再生成数值ID，最后创建物品。
 
 ```javascript title="dev/oxidized_stick.js"
 Translation.addTranslation("item.oxidized_stick.name", {

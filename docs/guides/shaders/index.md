@@ -24,6 +24,6 @@
 ## 学习建议
 
 1. 先读概念页，不要直接复制完整着色器。渲染管线错误往往比JSON语法错误更难排查。
-2. 国际版新资源包优先学习PBR和Vibrant Visuals。官方文档已经提示RTX仍受支持，但很大程度上被Vibrant Visuals取代。
+2. 国际版新资源包优先学习PBR和Vibrant Visuals。文档已经提示RTX仍受支持，但很大程度上被Vibrant Visuals取代。
 3. 中国版GLSL教程只面向中国版工作流。不要把中国版`materials`和`shaders/glsl`直接放进国际版资源包。
 4. 第三方方案只用于理解生态和兼容性，不作为本站最新版主线教程的基础。

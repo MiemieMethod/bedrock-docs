@@ -1,7 +1,7 @@
 # 粒子与音效关键帧
 
 /// details-info | 源文档
-该页面翻译自[Blockbench官方文档](https://blockbench.net/wiki/guides/minecraft-particles-sounds)
+该页面翻译自[Blockbench文档](https://blockbench.net/wiki/guides/minecraft-particles-sounds)
 ///
 
 Blockbench允许用户向动画添加粒子效果和音效，预览它们，并将它们导出到Minecraft：基岩版。本指南将教你如何做到这一点。

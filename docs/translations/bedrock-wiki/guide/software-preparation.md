@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/software-preparation](https://wiki.bedrock.dev/guide/software-preparation)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/software-preparation)提供镜像翻译
 ///
 
 在开始制作附加包之前，您需要先安装必要的工具和软件。虽然在Windows 10上进行开发最为便捷，我们也为Android和iOS用户提供了适用的移动端替代方案。
@@ -138,7 +137,7 @@ Minecraft原版文件是绝佳的参考素材，建议下载并妥善保存：
 
 -   [bedrock.dev](https://bedrock.dev/)：技术参考文档
 -   [wiki.bedrock.dev](https://wiki.bedrock.dev/)：教程与指南
--   [微软官方文档](https://docs.microsoft.com/en-us/minecraft/creator/)：微软官方附加包门户
+-   [微软文档](https://docs.microsoft.com/en-us/minecraft/creator/)：微软官方附加包门户
 
 ### 故障排除
 

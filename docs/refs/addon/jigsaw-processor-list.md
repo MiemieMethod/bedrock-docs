@@ -54,7 +54,7 @@ JigsawReference不同子页面对`minecraft:protected_blocks`和`minecraft:cappe
 - `minecraft:nop`
 
 /// note | 可确认范围
-知识库中仅提供了`minecraft:rule`、`minecraft:block_ignore`、`minecraft:protected_blocks`和`minecraft:capped`的字段细节。其余类型在本批次知识库中缺少字段说明。
+仅提供了`minecraft:rule`、`minecraft:block_ignore`、`minecraft:protected_blocks`和`minecraft:capped`的字段细节。其余类型在本批次缺少字段说明。
 ///
 
 ## `minecraft:rule`规则对象

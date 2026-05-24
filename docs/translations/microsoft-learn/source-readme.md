@@ -1,12 +1,7 @@
-# Minecraft基岩版文档仓库README译文
+# Minecraft基岩版文档项目说明页译文
 
-/// details-info | 来源信息
-- 原文标题：README
-- 原始仓库：<https://github.com/MicrosoftDocs/minecraft-creator>
-- 对应来源：`.knowledge\Microsoft Learn\README.md`
-///
 
-本文为来源README的中文整理译文，保留原始信息顺序，并按本站术语习惯做最小化本地化处理。
+本文为来源说明页的中文整理译文，保留原始信息顺序，并按本站术语习惯做最小化本地化处理。
 
 ## 概述
 

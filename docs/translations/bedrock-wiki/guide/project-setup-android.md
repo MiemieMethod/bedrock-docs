@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面翻译自[https://wiki.bedrock.dev/guide/project-setup-android](https://wiki.bedrock.dev/guide/project-setup-android)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/guide/project-setup-android)提供镜像翻译
 ///
 
 ## 工具选择

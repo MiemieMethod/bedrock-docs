@@ -1,7 +1,7 @@
 # 自定义主题
 
 /// details-info | 源文档
-该页面翻译自[Blockbench官方文档](https://blockbench.net/wiki/blockbench/themes)
+该页面翻译自[Blockbench文档](https://blockbench.net/wiki/blockbench/themes)
 ///
 
 主题允许你改变Blockbench的视觉外观。你可以将`.bbtheme`文件拖放到Blockbench中来加载它们。

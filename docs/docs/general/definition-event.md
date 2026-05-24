@@ -88,7 +88,7 @@
 
 ## 兼容性
 
-定义事件的基础概念仍然是实体数据驱动系统的重要组成部分，但旧资料中的部分事件响应具有明确的历史语境：
+定义事件的基础概念仍然是实体数据驱动系统的重要组成部分，但旧部分事件响应具有明确的历史语境：
 
 - 早期实体事件响应侧重`add`、`remove`、`trigger`、`sequence`和`randomize`。
 - 旧版实验性物品和方块事件响应曾包含`run_command`、`damage`、`decrement_stack`、`play_effect`、`play_sound`、`teleport`、`transform_item`等字段，完整列表参见[旧版物品和方块事件响应](../../../refs/addon/legacy-event-response.md)。

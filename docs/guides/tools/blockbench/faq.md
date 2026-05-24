@@ -1,7 +1,7 @@
 # 常见问题
 
 /// details-info | 源文档
-该页面翻译自[Blockbench官方文档](https://blockbench.net/wiki/blockbench/faq)
+该页面翻译自[Blockbench文档](https://blockbench.net/wiki/blockbench/faq)
 ///
 
 ## Blockbench是免费的吗？

@@ -36,7 +36,7 @@ dimension.removeAllPrimitiveShapes();
 
 如果你把这些形状当作临时调试标记，用完后记得主动清掉。
 
-## Allay资料里列出的形状类型
+## Allay列出的形状类型
 
 ### 盒体
 

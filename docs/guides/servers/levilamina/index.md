@@ -8,7 +8,7 @@
 
 1. 在[支持的版本](../../../translations/levilamina/versions.md)中确认BDS、客户端和LeviLamina版本匹配。
 2. 按目标环境完成[在服务器上安装](../../../translations/levilamina/install-server.md)或[在客户端上安装](../../../translations/levilamina/install-client.md)。
-3. 需要理解官方首页与仓库首页分工时，再对照[官方文档首页](../../../translations/levilamina/official-docs-home.md)和[仓库README](../../../translations/levilamina/repository-readme.md)。
+3. 需要理解首页与仓库首页分工时，再对照[文档首页](../../../translations/levilamina/official-docs-home.md)和[项目说明页](../../../translations/levilamina/repository-readme.md)。
 4. 环境可启动后，再回到本页选择构建、命令、事件或发布等专题。
 
 ## 快速导航
@@ -33,10 +33,10 @@
 ### 相关资源
 - [LeviLamina](../../../docs/server/levilamina.md) - 概念和架构说明。
 - [LeviLamina API模块](../../../refs/server/levilamina-api.md) - 模块级API概览。
-- [官方文档首页](../../../translations/levilamina/official-docs-home.md) - 查看官方文档站首页承担的入口职责。
+- [文档首页](../../../translations/levilamina/official-docs-home.md) - 查看文档站首页承担的入口职责。
 - [常见问题](../../../translations/levilamina/faq.md) - 查看项目起源与更名缘由。
 - [支持的版本](../../../translations/levilamina/versions.md) - 兼容的LeviLamina和BDS版本。
-- [仓库README](../../../translations/levilamina/repository-readme.md) - 查看仓库落地页承担的安装、贡献与许可证入口职责。
+- [项目说明页](../../../translations/levilamina/repository-readme.md) - 查看仓库落地页承担的安装、贡献与许可证入口职责。
 - [法律与发布说明](../../../translations/levilamina/legal-release-notes.md) - 区分许可证、EULA与更新风险。
 - [LeviLamina文档归档](../../../translations/levilamina/index.md) - 原始资料脉络索引。
 
@@ -47,4 +47,4 @@
 1. 先查阅[问题排除](../../../translations/levilamina/troubleshooting.md)。
 2. 再对照[常见问题](../../../translations/levilamina/faq.md)与[支持的版本](../../../translations/levilamina/versions.md)。
 3. 检查[常见错误码](../levilamina.md#常见错误码)。
-4. 前往[LeviLamina官方文档](https://levilamina.liteldev.com)或[GitHub讨论区](https://github.com/LiteLDev/LeviLamina/discussions)寻求帮助。
+4. 前往[LeviLamina文档](https://levilamina.liteldev.com)或[GitHub讨论区](https://github.com/LiteLDev/LeviLamina/discussions)寻求帮助。

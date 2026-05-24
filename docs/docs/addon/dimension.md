@@ -12,7 +12,7 @@
 
 ### 数据驱动维度定义
 
-国际版行为包可在`dimensions/`目录放置维度定义文件。当前知识库可确认的字段集中在以下范围：
+国际版行为包可在`dimensions/`目录放置维度定义文件。当前资料可确认的字段集中在以下范围：
 
 - `description.identifier`：维度赋命名空间标识符。
 - `components.minecraft:dimension_bounds`：维度垂直边界。

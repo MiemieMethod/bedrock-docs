@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/scripting-editor-qna](https://wiki.bedrock.dev/meta/scripting-editor-qna)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/scripting-editor-qna)提供镜像翻译
 ///
 
 /// warning | 说明
@@ -77,4 +76,3 @@
 
 - **Q**：会有自动重载、回放、体力/速度、命令并行等更强能力吗？
 - **A**：这些都属于正在讨论或长期方向的能力，很多都还没有明确时间表。
-

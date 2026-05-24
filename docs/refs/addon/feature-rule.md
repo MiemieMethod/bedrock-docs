@@ -3,7 +3,7 @@
 本页列出行为包`feature_rules/`目录中地物规则文件的主要字段。地物规则用于把一个地物挂接到满足条件的生物群系，并指定该地物在世界生成流程中的放置阶段和初始散植参数。
 
 /// note | 字段类型说明
-Microsoft Learn的`FeatureRulesReference`自动生成字段表将`description.identifier`和`description.places_feature`列为布尔值；同一官方资料中的地物规则架构、示例和表单定义均将二者说明为字符串或地物引用。本页按后者记录。
+Microsoft Learn的`FeatureRulesReference`自动生成字段表将`description.identifier`和`description.places_feature`列为布尔值；同一官方地物规则架构、示例和表单定义均将二者说明为字符串或地物引用。本页按后者记录。
 ///
 
 ## 根对象

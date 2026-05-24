@@ -4,10 +4,6 @@ title: 法律与发布说明
 
 # 法律与发布说明
 
-/// info | 来源信息
-- 原文仓库：[`LiteLDev/LeviLamina`](https://github.com/LiteLDev/LeviLamina)
-- 对应来源：`.knowledge\LeviLamina源码及文档\README.zh.md`、`.knowledge\LeviLamina源码及文档\README.md`、`.knowledge\LeviLamina源码及文档\EULA.zh.md`、`.knowledge\LeviLamina源码及文档\EULA.en.md`、`.knowledge\LeviLamina源码及文档\CODE_OF_CONDUCT.md`、`.knowledge\LeviLamina源码及文档\CHANGELOG.md`、`.knowledge\LeviLamina源码及文档\docs\main\contents\common_guides\usage_guidelines.zh.md`、`.knowledge\LeviLamina源码及文档\docs\main\contents\versions.zh.md`
-///
 
 本页不是单一源文件的逐段翻译，而是根据LeviLamina仓库中的法律、许可、行为规范、版本与发布资料所做的站内整理，用于说明这些资料对阅读、安装、分发和升级LeviLamina意味着什么。
 

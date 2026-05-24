@@ -184,7 +184,7 @@ bcf = bookManager.GetBookConfig()
 | `Images` | 预设图片路径。 | `blank`、`categoryDefaultIcon`、`lockBtn_dark`、`sqrtPanel_light`、`progressBar_light`、`progressBar_dark` |
 
 /// note | 官方字段拼写
-官方资料中的图片缩放枚举名写作`ImageReszieRule`。编写脚本时应以实际接口名称为准，不要按英文习惯自行改为`ImageResizeRule`。
+官方图片缩放枚举名写作`ImageReszieRule`。编写脚本时应以实际接口名称为准，不要按英文习惯自行改为`ImageResizeRule`。
 ///
 
 ## `BookManager`
@@ -427,4 +427,3 @@ bookManager = clientApi.GetBookManager()
 | `SetTextAlpha(alpha)` | `alpha:float` | `ButtonComp` | 设置按钮文字透明度。 |
 
 `pressCallBack`和`moveInCallBack`均为字典，通常包含`func`和可选的`args`。
-

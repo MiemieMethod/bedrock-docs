@@ -3,7 +3,7 @@
 这是一个很轻量的动作栏罗盘模板，通过`ry`和`rym`把朝向映射成8个方位文本。
 
 ![罗盘演示](../../../assets/images/guides/misc/compass-display/demo.gif)
-<!-- 图片获取方式：从知识库源文件compass-display.md中的demo.gif提取。 -->
+<!-- 图片获取方式：从资料源文件compass-display.md中的demo.gif提取。 -->
 
 ## 命令模板
 

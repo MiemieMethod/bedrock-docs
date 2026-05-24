@@ -44,7 +44,7 @@
 | `minecraft:food` | 对象 | 使物品可被玩家食用。 | 需要配合`minecraft:use_modifiers`才能正常工作；`nutrition`增加饥饿值；`saturation_modifier`参与饱和度计算；`can_always_eat`允许满饥饿时食用；`using_converts_to`设置食用后转换为的物品；`remove_effects`已弃用且在较新版本中不再工作。 |
 | `minecraft:fuel` | 数值或对象 | 使物品可作为熔炉燃料。 | 对象形态使用`duration`，单位为秒，值必须不小于0.05。 |
 | `minecraft:glint` | 布尔值或对象 | 控制物品是否显示附魔光效。 | 对象形态使用`value`布尔值。 |
-| `minecraft:hand_equipped` | 布尔值或对象 | 控制物品在玩家手中是否按工具方式渲染。 | 对象形态使用`value`布尔值。官方资料中还存在拼写错误的`minecraft:hand_equippped`页面，其语义与本组件相同，不应作为新组件名使用。 |
+| `minecraft:hand_equipped` | 布尔值或对象 | 控制物品在玩家手中是否按工具方式渲染。 | 对象形态使用`value`布尔值。官方还存在拼写错误的`minecraft:hand_equippped`页面，其语义与本组件相同，不应作为新组件名使用。 |
 | `minecraft:hover_text_color` | 字符串或对象 | 设置鼠标悬停时物品名的颜色。 | 对象形态使用`value`字符串。 |
 | `minecraft:icon` | 字符串或对象 | 设置物品在界面等位置使用的图标。 | 字符串形态直接写纹理键；对象形态优先使用`textures.default`等映射。旧字段`texture`仍可见于示例，但官方已标注为已弃用。`minecraft:block_placer`也可用目标方块渲染图标。 |
 | `minecraft:interact_button` | 布尔值或字符串 | 控制触摸控制中的交互按钮是否显示及其文本。 | 值为`true`时显示默认“使用物品”文本；字符串值可指定按钮文本。 |

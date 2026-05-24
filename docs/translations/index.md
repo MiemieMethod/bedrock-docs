@@ -69,7 +69,6 @@
 
     ---
 
-    收录“.knowledge/中国版API参考”目录的脉络映射，并将接口内容落位到中国版模组SDK参考分区。
 
     [:octicons-arrow-right-24: 开始阅读](./china-api-reference/index.md)
 
@@ -85,7 +84,7 @@
 
     ---
 
-    收录“基岩版国际版开发教程”知识库的章节脉络映射，用于来源核对与后续转录。
+    收录“基岩版国际版开发教程”资料的章节脉络映射，用于来源核对与后续转录。
 
     [:octicons-arrow-right-24: 开始阅读](./international-tutorial/index.md)
 
@@ -93,7 +92,7 @@
 
     ---
 
-    收录LeviLamina官方文档的来源脉络与本站落位结果，用于概念、安装、架构、构建以及使用与风格资料的持续补充。
+    收录LeviLamina文档的资料结构与本站落位结果，用于概念、安装、架构、构建以及使用与风格资料的持续补充。
 
     [:octicons-arrow-right-24: 开始阅读](./levilamina/index.md)
 
@@ -101,7 +100,7 @@
 
     ---
 
-    收录“基岩版附加包教程”知识库的章节脉络索引与来源前言摘录，用于历史语境核对与后续转录。
+    收录“基岩版附加包教程”资料的章节脉络索引与来源前言摘录，用于历史语境核对与后续转录。
 
     [:octicons-arrow-right-24: 开始阅读](./addon-tutorial/index.md)
 
@@ -117,7 +116,7 @@
 
     ---
 
-    收录官方基岩版协议仓库README的中文整理译文；协议结构与变更分析已分别落位到文档与参考分区。
+    收录官方基岩版协议项目说明页的中文整理译文；协议结构与变更分析已分别落位到文档与参考分区。
 
     [:octicons-arrow-right-24: 开始阅读](./protocol/source-readme.md)
 
@@ -125,7 +124,7 @@
 
     ---
 
-    收录bedrock-dot-dev仓库README的中文整理译文，用于来源追溯与使用边界核对。
+    收录bedrock-dot-dev项目说明页的中文整理译文，用于来源追溯与使用边界核对。
 
     [:octicons-arrow-right-24: 开始阅读](./official-export/source-readme.md)
 
@@ -133,7 +132,7 @@
 
     ---
 
-    收录Minecraft官方创作者文档仓库README的中文整理译文。
+    收录Minecraft官方创作者文档项目说明页的中文整理译文。
 
     [:octicons-arrow-right-24: 开始阅读](./microsoft-learn/source-readme.md)
 
@@ -141,7 +140,7 @@
 
     ---
 
-    收录MCBE-Development-Wiki维护的bedrock-schemas仓库README翻译与落位策略记录。
+    收录MCBE-Development-Wiki维护的bedrock-schemas项目说明页翻译与落位策略记录。
 
     [:octicons-arrow-right-24: 开始阅读](./bedrock-schema/index.md)
 
@@ -149,7 +148,7 @@
 
     ---
 
-    收录官方minecraft-editor仓库README的中文整理译文。
+    收录官方minecraft-editor项目说明页的中文整理译文。
 
     [:octicons-arrow-right-24: 开始阅读](./editor/source-readme.md)
 </div>

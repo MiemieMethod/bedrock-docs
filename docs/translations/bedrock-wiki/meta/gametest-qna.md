@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/gametest-qna](https://wiki.bedrock.dev/meta/gametest-qna)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/gametest-qna)提供镜像翻译
 ///
 
 /// warning | 说明
@@ -73,4 +72,3 @@
 
 - **Q**：团队希望社区如何帮助？
 - **A**：持续反馈、提交测试、帮助改善文档与样例，都是很重要的支持。
-

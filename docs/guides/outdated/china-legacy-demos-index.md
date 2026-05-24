@@ -1,6 +1,5 @@
 # 示例与DEMO旧版目录
 
-本页用于保留`.knowledge/中国版旧版文档/4-DEMO示例`与`.knowledge/中国版旧版文档/示例`中的原文脉络。它主要用于回答“旧版教程里提到的Demo到底是哪一个”。
 
 ## 示例索引页
 
@@ -16,7 +15,7 @@
 
 ## 已扫描到的单独示例说明
 
-- `示例/6-1DemoMod/CustomEntityMod/Readme`
+- `示例/6-1DemoMod/CustomEntityMod/说明页`
 
 该文件是`CustomEntityMod`的简要说明，记录了自定义材质、重写原版猪、自定义生物`netease:squirrel`以及用Python修改玩家材质等演示点。
 

@@ -10,7 +10,7 @@
 
 ## 迷雾设置
 
-迷雾定义文件的根键为`minecraft:fog_settings`，其`description.identifier`字段给出该迷雾定义的赋命名空间标识符。`format_version`用于声明该文件依据的格式版本；当前官方资料中迷雾文件的最低格式版本为`1.16.100`。
+迷雾定义文件的根键为`minecraft:fog_settings`，其`description.identifier`字段给出该迷雾定义的赋命名空间标识符。`format_version`用于声明该文件依据的格式版本；当前官方迷雾文件的最低格式版本为`1.16.100`。
 
 `minecraft:fog_settings`主要包含距离迷雾与体积迷雾两类设置。字段结构参考见[迷雾定义参考](../../refs/addon/fog-settings.md)。
 

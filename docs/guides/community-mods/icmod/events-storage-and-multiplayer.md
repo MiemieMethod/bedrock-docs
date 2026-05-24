@@ -103,8 +103,8 @@ Saver.addSavesScope("AbstractMod.Tanks", function(data) {
 
 保存函数返回的对象可以包含嵌套对象和数组。读取函数收到的对象可能为空对象，因此不能只用`data != null`判断是否有数据。复杂实例可通过`Saver.registerObjectSaver`和`Saver.registerObject`保存，并在对象销毁时忽略它，避免无效实例继续写入存档。
 
-/// note | 方块实体资料缺口
-知识库中的英文`storage/tile-entities.md`和`blocks/block-entities.md`只是“未本地化”占位。俄文翻译中有对应标题和概要，但本次没有足够英文正文可核验。因此这里不展开旧InnerCore方块实体API，只记录保存系统和多人资料中对方块实体客户端/服务端拆分的原则。
+/// note | 方块实体当前限制
+英文`storage/tile-entities.md`和`blocks/block-entities.md`只是“未本地化”占位。俄文翻译中有对应标题和概要，但本次没有足够英文正文可核验。因此这里不展开旧InnerCore方块实体API，只记录保存系统和多人对方块实体客户端/服务端拆分的原则。
 ///
 
 ## 客户端与服务端
@@ -154,7 +154,7 @@ Network.addServerPacket("packet.example.wall_break_learning", function(client, d
 ```
 
 /// danger | 永远保护服务端包
-资料中的示例展示了错误的客户端包可被滥用。每个服务端包都应验证发送者、距离、目标方块、状态、权限和数据范围。对恶意请求可以忽略，严重时可断开客户端。
+示例展示了错误的客户端包可被滥用。每个服务端包都应验证发送者、距离、目标方块、状态、权限和数据范围。对恶意请求可以忽略，严重时可断开客户端。
 ///
 
 包的数量不是问题，关键是每个包只处理必要任务。把许多行为混在一个包中会增加验证难度，也更容易引入安全漏洞。

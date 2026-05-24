@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/style-guide](https://wiki.bedrock.dev/meta/style-guide)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/style-guide)提供镜像翻译
 ///
 
 本文档介绍基岩维基官方推荐的附加包开发样式指南。其目标是推广附加包开发中的最佳实践，并为项目提供统一的格式规范。

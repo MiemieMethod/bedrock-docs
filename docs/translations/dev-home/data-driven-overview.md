@@ -2,7 +2,6 @@
 
 /// info | 来源
 - 原文仓库：[`MiemieMethod/mcbe-dev-home`](https://github.com/MCBE-Development-Wiki/mcbe-dev-home)
-- 原文路径：`docs/data-driven/README.md`
 ///
 
 该页面保留原始数据驱动目录的分类脉络，用于历史资料索引与旧文档术语对照。

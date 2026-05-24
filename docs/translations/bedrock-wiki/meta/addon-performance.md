@@ -2,7 +2,6 @@
 
 /// details-info | 署名信息
 - 该页面内容翻译自[https://wiki.bedrock.dev/meta/addon-performance](https://wiki.bedrock.dev/meta/addon-performance)
-- 该页面由[EaseCation Wiki](https://mcwiki.easecation.net/wiki/meta/addon-performance)提供镜像翻译
 ///
 
 /// warning | 说明

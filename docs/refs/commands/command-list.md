@@ -166,4 +166,3 @@
 |---|---|---|---|---|---|
 | `/locate` | `Game Directors`（游戏指导者） | 是 | `/locate <subcommand: locatesubcommandstructure> <structure: structurefeature> [useNewChunksOnly: Boolean]` | — | Finds the nearest specified biome or structure if it exists in the current dimension. |
 | `/project` | `Game Directors`（游戏指导者） | 否 | `/project <subcommand: subcommandexport> <exportType: exporttypes>` | 编辑器相关命令 | This command contains additional tools for managing an Editor project. |
-

@@ -1,7 +1,7 @@
 # 标志与品牌资产
 
 /// details-info | 源文档
-该页面翻译自[Blockbench官方文档](https://blockbench.net/wiki/blockbench/logos)
+该页面翻译自[Blockbench文档](https://blockbench.net/wiki/blockbench/logos)
 ///
 
 ## 字体与颜色

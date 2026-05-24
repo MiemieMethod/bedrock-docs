@@ -1,9 +1,9 @@
 # Allay API概览
 
-本文列出Allay官方资料中出现的主要插件API主题、常用配置字段和能力边界。Allay是第三方自实现服务端，以下内容均为Allay项目公开或讨论的接口，不是BDS原生能力。
+本文列出Allay官方出现的主要插件API主题、常用配置字段和能力边界。Allay是第三方自实现服务端，以下内容均为Allay项目公开或讨论的接口，不是BDS原生能力。
 
 /// warning | 版本提示
-Allay的服务端版本、API版本和Minecraft基岩版协议版本相互关联。具体接口签名、类名和可用性应以当前Allay发行版、Javadoc和官方文档为准。
+Allay的服务端版本、API版本和Minecraft基岩版协议版本相互关联。具体接口签名、类名和可用性应以当前Allay发行版、Javadoc和文档为准。
 ///
 
 ## 插件描述文件
@@ -224,7 +224,7 @@ Allay记分板可以设置行内容并添加或移除查看者。显示槽位包
 | `LIST` | 在线玩家列表。 |
 | `BELOW_NAME` | 玩家名称标签下方。 |
 
-资料中的示例提醒，玩家离开后应显式调用`removeViewer(...)`；`Scoreboard#setLines(...)`会自动把新内容重发给现有查看者。
+示例提醒，玩家离开后应显式调用`removeViewer(...)`；`Scoreboard#setLines(...)`会自动把新内容重发给现有查看者。
 
 ## 配置API
 
