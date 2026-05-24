@@ -36,6 +36,10 @@ title: 变更日志索引
 | 975 | `.knowledge\基岩版协议库\previous_changelogs\changelog_975_04_22_26.md` |
 | 1001 | `.knowledge\基岩版协议库\changelog_1001_05_18_26.md` |
 
+## 重点摘录
+
+- [近期变更摘录](recent-changelog-highlights.md)：按893、924、944、975与1001五个关键来源文件整理Cereal迁移、诊断字段扩张、存在信息和声音标识变化等高风险信号。
+
 ## 阅读建议
 
 1. 先确定目标协议版本。

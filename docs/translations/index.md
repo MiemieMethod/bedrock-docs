@@ -89,6 +89,14 @@
 
     [:octicons-arrow-right-24: 开始阅读](./international-tutorial/index.md)
 
+-   :material-lan-connect:{ .lg .middle } __LeviLamina文档归档__
+
+    ---
+
+    收录LeviLamina官方文档的来源脉络与本站落位结果，用于概念、安装、架构和构建资料的持续补充。
+
+    [:octicons-arrow-right-24: 开始阅读](./levilamina/index.md)
+
 -   :material-book-open-variant:{ .lg .middle } __附加包教程归档__
 
     ---

@@ -2,6 +2,8 @@
 
 本页概述LeviLamina官方API参考中列出的主要模块。下列接口仅适用于LeviLamina模组开发，不属于BDS原生API。
 
+LeviLamina的官方API按`ll/api`组织，覆盖基础设施、核心系统、输入输出、异步与线程、数据与工具、底层能力和仅客户端模块。相关的细分资料当前已折入本站的概念页、教程页和归档页，后续如需逐模块细化，可在此基础上继续拆分。
+
 ## 模块总览
 
 | 类别 | 模块 | 说明 | 适用范围 |
@@ -41,3 +43,6 @@
 - Coroutine和Thread可用于异步任务，但对游戏对象的访问仍应遵守服务器线程和生命周期要求。
 - Input只适用于LeviLamina客户端构建，不适用于BDS服务端。
 
+## 参考脉络
+
+当前API参考页以模块总览为主，适合快速定位能力边界。若需要从官方文档脉络理解相关模块，可参考[LeviLamina文档归档](../../translations/levilamina/index.md)；若需要直接对照开发流程，则可查看[LeviLamina入门](../../guides/servers/levilamina.md)。
