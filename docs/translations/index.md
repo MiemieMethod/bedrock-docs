@@ -113,6 +113,14 @@
 
     [:octicons-arrow-right-24: 开始阅读](./official-export/index.md)
 
+-   :material-file-code-outline:{ .lg .middle } __基岩架构__
+
+    ---
+
+    收录MCBE-Development-Wiki维护的bedrock-schemas仓库README翻译与落位策略记录。
+
+    [:octicons-arrow-right-24: 开始阅读](./bedrock-schema/index.md)
+
 -   :material-hammer-wrench:{ .lg .middle } __Minecraft编辑器__
 
     ---

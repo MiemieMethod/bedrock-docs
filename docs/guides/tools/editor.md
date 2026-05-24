@@ -95,6 +95,7 @@ minecraft-preview://creator/?Editor=true
 - [Editor API文档](https://aka.ms/EditorAPI)：编辑器专用接口说明。
 - [Editor Extension Starter Kit](https://github.com/Mojang/minecraft-editor-extension-starter-kit)：扩展工程模板与构建管线。
 - [Editor Extension Samples](https://github.com/Mojang/minecraft-editor-extension-samples)：可运行示例。
+- [minecraft-editor讨论区](https://github.com/Mojang/minecraft-editor/discussions)：问题反馈与路线讨论。
 
 另外，如果你做的是“编辑器外”的普通脚本测试，记得在实验性玩法中开启Beta APIs开关；这是官方README给出的前置提醒。
 

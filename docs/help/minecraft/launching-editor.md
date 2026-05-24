@@ -60,6 +60,10 @@ minecraft-preview://creator/?Editor=true
 预览版可能包含尚未稳定的编辑器功能。编辑正式项目之前，应先备份项目或导出世界副本。
 ///
 
+## 与普通脚本测试的关系
+
+若当前工作并不在编辑器中运行，而是在普通世界中测试脚本功能，应在实验性玩法中按需开启Beta APIs开关。编辑器入口本身不替代实验性开关管理。
+
 ## 相关资源
 
 - [Minecraft Bedrock Editor概览（Microsoft Learn）](https://learn.microsoft.com/en-us/minecraft/creator/documents/bedrockeditor/editoroverview?view=minecraft-bedrock-stable)

@@ -1036,6 +1036,8 @@ nav:
         - Minecraft基岩版26.23修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md
     - 官方自动导出的文档:
       - translations/official-export/index.md
+    - 基岩架构:
+      - translations/bedrock-schema/index.md
     - Minecraft编辑器:
       - translations/editor/index.md
       - README译文: translations/editor/source-readme.md
