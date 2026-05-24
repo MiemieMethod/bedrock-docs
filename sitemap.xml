@@ -185,6 +185,22 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/coreengine/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/horizon/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/docs/client/innercore/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/docs/general/ai-goal/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -438,6 +454,14 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/china-getting-started/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/china-network-games/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -929,6 +953,26 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/clients/innercore/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/clients/innercore/environment-and-structure/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/clients/innercore/events-storage-and-multiplayer/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/clients/innercore/items-blocks-and-recipes/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/clients/innercore/ui-environment-and-libraries/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/community-mods/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -1105,10 +1149,6 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
-         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/endstone/</loc>
-         <lastmod>2026-05-24</lastmod>
-    </url>
-    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -1118,6 +1158,142 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/serenity/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/block-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/bossbars-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/command-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/config-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/container-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/custom-block-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/custom-item-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/event-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/first-plugin/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/form-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/i18n-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/installation/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/item-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/permission-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/persistent-data-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/primitive-shapes-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/schedule-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/scoreboard-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/allay/terra-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/endstone/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/endstone/command-event-task/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/endstone/python-plugin-workflow/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/build-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/command-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/coro-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/event-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/form-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/hook-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/levilamina/i18n-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/serenity/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/serenity/custom-block/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/servers/serenity/custom-command/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1161,6 +1337,18 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/chunky-denoising/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/chunky-materials/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/chunky-path-tracing/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/chunky/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -1193,7 +1381,19 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/emissive-textures/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/entity-wizard/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/export-formats/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/faq/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1205,11 +1405,27 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/logos/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/minecraft-particles-sounds/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/minecraft-style/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/model-rendering/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/skin-tool/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/guides/tools/blockbench/themes/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1234,6 +1450,18 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/help/minecraft/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/help/minecraft/china-developer-guide/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/help/minecraft/china-faq/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/help/minecraft/china-publishing-guide/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1378,6 +1606,10 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/item-component/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/addon/item-function/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1757,7 +1989,15 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/refs/tools/ore-ui-api/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/topics/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/topics/addon-performance/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
@@ -1941,6 +2181,14 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/blockception/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/blockception/ide-setup/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/bridge/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -2033,6 +2281,10 @@
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/command-log/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/easecation/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
@@ -2050,6 +2302,238 @@
     </url>
     <url>
          <loc>https://miemiemethod.github.io/bedrock-docs/translations/easecation/vr/pack-setup/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/changelog/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/getting-started/contributing/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/getting-started/installation/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/getting-started/project-structure/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/getting-started/start-your-server/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/actor/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/attribute/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/ban/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/block/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/boss/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/command/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/damage/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/enchantments/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/event/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/form/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/inventory/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/lang/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/level/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/map/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/misc/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/nbt/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/permissions/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/player/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/plugin/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/potion/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/scheduler/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/scoreboard/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/reference/python/server/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/tutorials/create-your-first-plugin/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/tutorials/install-your-plugin/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/tutorials/publish-your-plugin/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/tutorials/register-commands/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/tutorials/register-event-listeners/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/tutorials/schedule-tasks/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/endstone/tutorials/use-color-codes/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/help-center/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/help-center/changelogs/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/help-center/changelogs/Minecraft-1-21-131-Bedrock/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/help-center/changelogs/Minecraft-1-21-132-Bedrock/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-20-Changelog/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/intro/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/basics/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/basics/mod-structure/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/events/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/events/callbacks/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/getting-started/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/getting-started/going-forward/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/getting-started/installing-pack/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/getting-started/methodology/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/getting-started/supporting-ides/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/items/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/innercore/items/first-item/</loc>
+         <lastmod>2026-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://miemiemethod.github.io/bedrock-docs/translations/official-export/</loc>
          <lastmod>2026-05-24</lastmod>
     </url>
     <url>
