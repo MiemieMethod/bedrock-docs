@@ -1,4 +1,11 @@
 # 进阶清单文件
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/advancedmanifest](https://wiki.bedrock.dev/guide/advancedmanifest)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 /// tip | 提示
 本页为附录章节。您可以从[这里](./index.md)开始完整阅读指南。
 ///

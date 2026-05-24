@@ -1,4 +1,11 @@
 # 入门指南
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/introduction](https://wiki.bedrock.dev/guide/introduction)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 ## 什么是附加包？
 
 "附加包"（Addon）是《我的世界》基岩版（_Windows 10/iOS/Android/主机平台_）中与Java版模组（Mod）相对应的内容扩展形式。与Java版不同的是，基岩版的API由Mojang官方维护而非社区驱动。

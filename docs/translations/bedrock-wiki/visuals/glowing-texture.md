@@ -3,6 +3,13 @@ title: 发光纹理
 description: 通过纹理和材质制作发光效果。
 category: 教程
 ---
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/visuals/glowing-texture](https://wiki.bedrock.dev/visuals/glowing-texture)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 这个技巧的目标是做出类似末影人眼睛那样的发光纹理。
 
 ## 纹理

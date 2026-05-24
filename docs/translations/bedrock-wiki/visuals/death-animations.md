@@ -3,6 +3,13 @@ title: 死亡动画
 description: 修改或取消实体死亡时的视觉表现。
 category: 教程
 ---
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/visuals/death-animations](https://wiki.bedrock.dev/visuals/death-animations)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 实体死亡时通常会先出现红色覆盖色、旋转和粒子，然后才消失。若你想改掉这套表现，可以从三个方向下手。
 
 ## 直接取消

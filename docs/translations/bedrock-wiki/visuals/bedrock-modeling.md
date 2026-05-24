@@ -3,6 +3,13 @@ title: 基岩建模
 description: 建模时需要注意的几个常见问题。
 category: 说明
 ---
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/visuals/bedrock-modeling](https://wiki.bedrock.dev/visuals/bedrock-modeling)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 这篇文章主要讲建模时容易踩的坑，而不是建模软件本身的操作。
 
 ## 常见问题

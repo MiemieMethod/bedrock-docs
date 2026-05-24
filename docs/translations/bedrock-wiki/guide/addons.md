@@ -1,4 +1,11 @@
 # 附加包
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/addons](https://wiki.bedrock.dev/guide/addons)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 ## 什么是附加包？
 
 附加包允许我们通过 _修改_ 或 _移除_ 现有内容以及_添加_自定义内容来改变Minecraft的游戏体验。它们功能强大，可以创建自定义实体、物品、方块，以及自定义战利品表和合成配方等。你的想象力就是唯一的限制！

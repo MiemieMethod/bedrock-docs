@@ -1,4 +1,11 @@
 # jq
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/meta/jq](https://wiki.bedrock.dev/meta/jq)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 > “jq就像处理JSON数据的sed工具。你可以用它来切片、过滤、映射和转换结构化数据，其便捷程度如同用sed、awk、grep等工具处理文本一般。”
 >
 > —https://stedolan.github.io/jq/

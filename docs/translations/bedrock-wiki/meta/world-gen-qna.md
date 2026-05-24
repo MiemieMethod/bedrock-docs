@@ -1,4 +1,11 @@
 # 世界生成问答（2024/11/15）
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/meta/world-gen-qna](https://wiki.bedrock.dev/meta/world-gen-qna)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 /// warning | 说明
 原始记录并未完整收录所有消息，部分内容也经过整理。这里保留的是整理后的要点，而不是完整聊天记录。
 ///

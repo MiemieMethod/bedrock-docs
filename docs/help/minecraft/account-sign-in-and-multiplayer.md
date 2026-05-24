@@ -13,7 +13,7 @@
 
 ## 先登录Xbox应用
 
-官方帮助中心当前建议，在Windows设备或其他需要Microsoft账号联动的环境中，若游戏内登录异常，可先登录Xbox应用，再重新进入Minecraft。
+在Windows设备或其他需要Microsoft账号联动的环境中，若游戏内登录异常，可先登录Xbox应用，再重新进入Minecraft。
 
 1. 安装并打开Xbox应用。
 2. 使用拥有Minecraft的Microsoft账号登录。

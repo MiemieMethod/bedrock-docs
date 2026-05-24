@@ -1,4 +1,11 @@
 # 下载示例包
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/download-packs](https://wiki.bedrock.dev/guide/download-packs)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 /// tip | 提示
 这是附录页面。你可以从[这里](./index.md)重新开始本指南。
 ///

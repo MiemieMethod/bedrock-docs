@@ -7,6 +7,8 @@
 - 正式版：`26.1.1`
 - 预览版：`26.10.25`
 
+这两个版本的命令表并不相同。`26.10.25`预览版已经出现`camera attach_to_entity`、`camera detach_from_entity`和`camera play_spline`，而`26.1.1`正式版命令表中尚未出现这三条语法。因此，阅读“当前命令”时，必须先分清自己面对的是正式版还是预览版。
+
 ## 记录范围与局限
 
 这份时间线主要按Android平台可取得的版本整理，因此不覆盖所有平台上的全部构建。对于`1.2`以下版本，部分命令又无法通过早期WebSocket服务器观察到，所以记录并不完整。
@@ -31,13 +33,15 @@
 
 ## 当前命令清单特征
 
-以`26.10.25`的命令列表为例，当前构建除常见管理与世界编辑命令外，还包含以下较新的创作相关语法：
+以`26.10.25`预览版的命令列表为例，当前测试构建除常见管理与世界编辑命令外，还包含以下较新的创作相关语法：
 
 - `packstack`命令，可用于输出客户端或服务端包栈。
 - `controlscheme`命令，用于控制相机控制方案。
 - `inputpermission`命令，用于查询或设置输入权限。
 - `script diagnostics startcapture`与`script diagnostics stopcapture`，用于脚本诊断捕获。
 - `camera attach_to_entity`、`detach_from_entity`与`play_spline`等较新的相机子命令。
+
+若目标是当前正式版，则应先以`26.1.1`命令表为准。该版本已经包含`packstack`、`controlscheme`、`inputpermission`和`schedule delay`等较新的语法，但尚未包含`camera attach_to_entity`、`camera detach_from_entity`和`camera play_spline`。
 
 启用教育版选项后，还会额外提供`ability`、`immutableworld`、`wb`和`worldbuilder`等语法<!-- md:flag edu -->。
 

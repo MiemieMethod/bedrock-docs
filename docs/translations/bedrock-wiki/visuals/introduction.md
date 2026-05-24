@@ -3,6 +3,13 @@ title: 简介
 description: 基岩版实体视觉章节的概览。
 category: 教程
 ---
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/visuals/introduction](https://wiki.bedrock.dev/visuals/introduction)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 ## 这一章讲什么
 
 这里讨论的是实体、皮肤、材质、动画与结构展示一类“看得见”的内容。重点不在机制本身，而在如何让内容更好看、更容易展示，也更容易在资源包里被整理和复用。

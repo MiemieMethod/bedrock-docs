@@ -1,4 +1,11 @@
 # 项目配置（Android）
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/project-setup-android](https://wiki.bedrock.dev/guide/project-setup-android)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 ## 工具选择
 
 为Android平台寻找合适的附加包开发工具并非易事，但我们已尽力为您收集了Google Play上的优质应用。Android开发需要以下三类工具组合使用：

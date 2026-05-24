@@ -3,6 +3,13 @@ title: 结构展示
 description: 展示结构的几种常见方式。
 category: 话题
 ---
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/visuals/structure-presentation](https://wiki.bedrock.dev/visuals/structure-presentation)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 结构展示的目标不是生成结构，而是把结构“拍好看”。常见做法有三种：
 
 - 直接在世界里截图。

@@ -1,4 +1,11 @@
 # 战利品表、生成规则与合成配方
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/loot-table](https://wiki.bedrock.dev/guide/loot-table)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 接下来我们将为自定义的幽灵实体添加更多基础机制：
 
 ## 战利品表

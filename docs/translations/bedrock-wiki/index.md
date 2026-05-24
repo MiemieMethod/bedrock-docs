@@ -1,4 +1,11 @@
 # 基岩维基
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/](https://wiki.bedrock.dev/)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 基岩维基（**Bedrock Wiki**）汇集了大量面向Minecraft基岩版开发的教程、实践说明与经验整理。这里收录适合长期查阅的几个方向，便于按主题进入学习。
 
 /// html | div.grid.cards

@@ -1,4 +1,11 @@
 # 创建自定义实体
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/custom-entity](https://wiki.bedrock.dev/guide/custom-entity)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 与自定义物品类似，我们也可以创建具有与游戏中原版实体相似机制的自定义实体。这些实体可以非常强大，允许你制作可繁殖驯养的动物，或是会攻击所见一切的敌对生物。
 
 本文将创建一个幽灵实体，它会漂浮移动、攻击玩家，并在死亡时掉落我们之前制作的灵质物品。

@@ -49,7 +49,9 @@
 
 ## 当前命令列表
 
-以26.10.25的命令语法为例，当前命令集合包含常规管理命令、世界编辑命令、实体与物品命令、相机命令、脚本诊断命令、结构放置命令、记分板命令和教育版命令等。启用教育版选项后，还会额外提供`ability`、`immutableworld`、`wb`和`worldbuilder`等语法<!-- md:flag edu -->。
+以`26.10.25`预览版的命令语法为例，当前测试构建的命令集合包含常规管理命令、世界编辑命令、实体与物品命令、相机命令、脚本诊断命令、结构放置命令、记分板命令和教育版命令等。启用教育版选项后，还会额外提供`ability`、`immutableworld`、`wb`和`worldbuilder`等语法<!-- md:flag edu -->。
+
+若目标是当前正式版，则应先以`26.1.1`命令表判断可用语法。`packstack`、`controlscheme`、`inputpermission`和`schedule delay`已经进入正式版；`camera attach_to_entity`、`camera detach_from_entity`和`camera play_spline`则仍应按预览版语法看待，不能直接当作正式版默认可用。
 
 完整命令语法会频繁随预览版和正式版更新而变化。编写教程或参考页时，应优先依据目标游戏版本的实际导出命令表或官方更新日志校验语法。
 

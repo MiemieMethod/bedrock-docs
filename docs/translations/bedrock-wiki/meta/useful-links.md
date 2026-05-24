@@ -1,4 +1,11 @@
 # 实用链接
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/meta/useful-links](https://wiki.bedrock.dev/meta/useful-links)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 网络上存在大量关于基岩版开发的实用信息，但它们并不总是容易被找到。下面这份清单汇总了常用的社区、工具与参考资源。
 
 重要链接以⭐标记。

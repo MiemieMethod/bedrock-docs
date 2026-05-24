@@ -1,4 +1,11 @@
 # 软件准备
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/software-preparation](https://wiki.bedrock.dev/guide/software-preparation)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 在开始制作附加包之前，您需要先安装必要的工具和软件。虽然在Windows 10上进行开发最为便捷，我们也为Android和iOS用户提供了适用的移动端替代方案。
 
 ## 下载Minecraft基岩版

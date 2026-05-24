@@ -3,6 +3,13 @@ title: 材质示例
 description: 社区整理的几个可复用材质片段。
 category: 参考
 ---
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/visuals/material-creations](https://wiki.bedrock.dev/visuals/material-creations)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 这一页收录几个常见的材质思路，重点在“能做什么”而不是“为什么这样设计”。
 
 ## 发光+半透明

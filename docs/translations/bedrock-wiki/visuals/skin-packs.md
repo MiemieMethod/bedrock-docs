@@ -3,6 +3,13 @@ title: 皮肤包
 description: 皮肤包的基本结构与常见注意事项。
 category: 教程
 ---
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/visuals/skin-packs](https://wiki.bedrock.dev/visuals/skin-packs)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 皮肤包用于分发玩家皮肤。它本质上仍然是一个附加包，只是模块类型不同，重点放在`skins.json`、本地化文件和皮肤纹理上。
 
 ## 需要什么

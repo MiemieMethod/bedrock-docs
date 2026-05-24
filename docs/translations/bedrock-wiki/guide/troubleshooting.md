@@ -1,4 +1,11 @@
 # 故障排除
+
+/// details-info | 译文信息
+- 原文：[https://wiki.bedrock.dev/guide/troubleshooting](https://wiki.bedrock.dev/guide/troubleshooting)
+- 作者或组织：Bedrock OSS
+- 许可：[知识共享署名-相同方式共享4.0国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/)
+///
+
 为Minecraft基岩版创建附加包是一个相对直接的过程——_一旦掌握窍门后_。但初次尝试通常充满挫折，极易出现各种错误。本文档包含修复这些棘手问题的技巧与最佳实践建议。
 
 在深入特定领域的故障排除之前，请完整阅读本页内容。
