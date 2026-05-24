@@ -160,7 +160,6 @@ plugins:
          - skip-image
        auto_caption: true
        background: gainsboro
-  - typeset
 
 # Extensions
 markdown_extensions:
@@ -975,6 +974,9 @@ nav:
           - 方块与物品问答: translations/bedrock-wiki/meta/blocks-items-qna.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17V5H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5v2H8v-2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM5 7h6v4H5zm0 6h6v2H5zm8-6h6v2h-6zm0 4h6v4h-6z"></path></svg></span><span class="md-ellipsis">专栏</span></span>':
     - blog/index.md
+     - 官方帮助中心:
+       - translations/help-center/index.md
+       - 更新日志: translations/help-center/changelogs/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 20v2H4c-1.1 0-2-.9-2-2V7h2v13zm4-18H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m-5 12h-2v-2h2zm1.8-5.2c-.3.4-.7.7-1.1.9-.2.2-.4.3-.5.5-.2.2-.2.5-.2.8h-2q0-.75.3-1.2c.2-.3.5-.6 1-.9q.45-.3.6-.6c.2-.2.2-.5.2-.8s-.1-.6-.3-.8-.4-.3-.8-.3c-.3 0-.5.1-.7.2-.2.2-.3.4-.3.7h-1.9c0-.8.2-1.4.8-1.8.7-.3 1.4-.5 2.3-.5s1.7.2 2.2.7.8 1.1.8 1.8c0 .5-.2.9-.4 1.3"></path></svg></span><span class="md-ellipsis">帮助</span></span>':
     - help/index.md
     - Minecraft基岩版:
@@ -991,6 +993,7 @@ nav:
       - help/docs/index.md
       - 贡献: help/docs/contributing.md
       - 赞助: help/docs/sponsor.md
+
 
 
 

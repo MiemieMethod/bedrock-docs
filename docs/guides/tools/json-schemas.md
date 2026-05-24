@@ -172,3 +172,7 @@ Sublime Text通常通过LSP和`LSP-json`获得JSON架构支持。安装Package C
 JSON架构只能描述静态结构，不能完全判断游戏运行时行为。例如，架构可以提示`minecraft:entity`中某个组件的字段类型，却不能保证该组件在当前游戏版本、实验性开关、目标平台或中国版环境下确实可用。发布前仍然需要在目标版本中测试，并查看内容日志。
 
 另外，Blockception贡献说明要求架构描述尽量与Microsoft原文保持一致；没有官方描述或未公开的功能可能会被标注为`UNDOCUMENTED`，或由维护者补写概述。看到这类提示时，不要把它当作完整机制说明，应继续查阅官方文档、导出资料或本站对应页面。
+
+## 完整架构参考
+
+Blockception维护的仓库提供了完整的JSON架构列表和IDE配置指南。如需查看所有可用的架构及其URL，或了解更多IDE和编辑器的配置方法，请参阅[IDE设置指南](../../translations/blockception/ide-setup.md)。
