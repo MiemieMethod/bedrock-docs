@@ -14,26 +14,39 @@
 
 /// html | div.treeview
 - {{file|manifest.json}}：清单文件。
+- {{file|contents.json}}：内容文件，列出包内所有资源文件的校验信息。
 - {{file|pack_icon.png}}：包图标。
-- {{file|folder}}**entities/**：实体行为定义。
-- {{file|folder}}**blocks/**：方块定义。
-- {{file|folder}}**items/**：物品定义。
-- {{file|folder}}**recipes/**：配方定义。
-- {{file|folder}}**loot_tables/**：战利品表。
-- {{file|folder}}**trading/**：交易表。
-- {{file|folder}}**spawn_rules/**：生成规则。
-- {{file|folder}}**functions/**：函数文件。
-- {{file|folder}}**scripts/**：脚本文件。
+- {{file|folder}}**aim_assist/**：瞄准辅助配置。
+    - {{file|folder}}**presets/**：瞄准辅助预设定义文件。
 - {{file|folder}}**animation_controllers/**：服务端动画控制器。
 - {{file|folder}}**animations/**：服务端动画。
-- {{file|folder}}**features/**：地物定义。
-- {{file|folder}}**feature_rules/**：地物规则。
 - {{file|folder}}**biomes/**：生物群系定义。
-- {{file|folder}}**dimensions/**：维度定义。详见[维度](dimension.md)。
-- {{file|folder}}**structures/**：结构文件。
+- {{file|folder}}**blocks/**：方块定义。
+- {{file|folder}}**cameras/**：摄像机预设。
+    - {{file|folder}}**presets/**：摄像机预设定义文件。
 - {{file|folder}}**dialogue/**：NPC对话定义。
+- {{file|folder}}**dimensions/**：维度定义。详见[维度](dimension.md)。
+- {{file|folder}}**entities/**：实体行为定义。
+- {{file|folder}}**feature_rules/**：地物规则。
+- {{file|folder}}**features/**：地物定义。
+- {{file|folder}}**functions/**：函数文件。
+    - {{file|json}}**tick.json**：每刻自动执行的函数列表。
+- {{file|folder}}**item_catalog/**：合成物品目录。
+    - {{file|json}}**crafting_item_catalog.json**：合成界面物品目录配置。
+- {{file|folder}}**items/**：物品定义。
+- {{file|folder}}**loot_tables/**：战利品表。
+- {{file|folder}}**recipes/**：配方定义。
+- {{file|folder}}**scripts/**：脚本文件。
+- {{file|folder}}**shapes/**：自定义碰撞与交互形状定义。
+- {{file|folder}}**spawn_rules/**：生成规则。
+- {{file|folder}}**structures/**：结构文件。
 - {{file|folder}}**texts/**：本地化文件。
-- {{file|json}}**tick.json**：每刻自动执行的函数列表。
+- {{file|folder}}**trading/**：交易表。
+- {{file|folder}}**worldgen/**：世界生成相关文件。
+    - {{file|folder}}**processors/**：结构处理器定义。
+    - {{file|folder}}**structure_sets/**：结构集定义。
+    - {{file|folder}}**structures/**：拼图结构定义。
+    - {{file|folder}}**template_pools/**：拼图模板池定义。
 ///
 
 ## 与资源包的关系

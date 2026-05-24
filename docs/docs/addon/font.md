@@ -6,6 +6,13 @@
 
 字体资源通常位于资源包的{{file|font}}目录中。原版资源包含多种字体资源，例如ASCII字形、标准银河字母字形、Unicode字形页、TTF字体文件和MSDF字体文件。
 
+Ore UI使用`Minecraft-Seven.ttf`和`Minecraft-Seven-v4.ttf`，其可用字形范围与游戏内常见的JSON UI字体并不完全相同。
+
+## 相关页面
+
+- [表情符号](emojis.md)
+- [输入键](input-keys.md)
+
 在资源包中修改字体通常有两类目标：
 
 - 替换原版字体资源，使游戏内已有文本呈现为新的字形风格。

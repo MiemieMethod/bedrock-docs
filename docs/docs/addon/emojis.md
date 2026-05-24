@@ -1,6 +1,6 @@
 # 表情符号
 
-**表情符号（Emoji）**是基岩版内置的一组私有使用区字符。游戏会把这些字符渲染为图标或符号，而不是普通文字，因此它们可以在告示牌、书与笔、聊天、物品名称和部分界面文本中充当装饰性或提示性字符。
+**表情符号（Emoji）**是基岩版内置的一组Unicode私有使用区（Private Use Area，PUA）字符。游戏会把这些字符渲染为图标或符号，而不是普通文字，因此它们可以在告示牌、书与笔、聊天、物品名称和部分界面文本中充当装饰性或提示性字符。
 
 ## 概述
 
@@ -37,7 +37,7 @@
 | Minecoin | `:minecoin:` | `` |
 | Token | `:token:` | `` |
 
-在非PlayStation设备上，` :minecoin:` 和 `:token:`通常都会显示为Minecoin表情符号；在PlayStation设备上，两者都会显示为Token表情符号。
+在非PlayStation设备上，`:minecoin:`和`:token:`通常都会显示为Minecoin表情符号；在PlayStation设备上，两者都会显示为Token表情符号。
 
 ### 配方书
 

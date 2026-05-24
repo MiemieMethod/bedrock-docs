@@ -51,7 +51,117 @@
 
 材质系统在不同渲染时代存在明显差异。旧版社区资料中部分可行做法在RenderDragon渲染路径下可能失效，或仅在特定版本、特定平台生效。维护跨版本内容时，应始终以目标版本的内容日志和实际设备测试结果为准。
 
-## 相关页面
+### 质量分级控制文件
+
+在旧版着色器系统中，`materials/`目录可包含以下质量分级配置文件：
+
+/// define
+{{file|json|sad.json}}
+
+- 低画质分级的材质覆盖定义，对应游戏画面设置中的"低"档位。
+
+{{file|json|fancy.json}}
+
+- 高画质分级的材质覆盖定义，对应游戏画面设置中的"高"或以上档位。
+
+{{file|json|common.json}}
+
+- 所有质量等级共用的通用材质定义。
+
+///
+
+### `+states`可选值
+
+`+states`字段用于启用渲染状态，其可选值如下：
+
+| 值 | 说明 |
+|---|---|
+| `EnableAlphaToCoverage` | 启用Alpha覆盖度（MSAA环境下将Alpha值映射为覆盖率） |
+| `Blending` | 启用Alpha混合 |
+| `DisableAlphaWrite` | 禁止写入Alpha通道 |
+| `DisableColorWrite` | 禁止写入颜色通道 |
+| `DisableDepthWrite` | 禁止写入深度缓冲 |
+| `DisableCulling` | 禁用面剔除（双面渲染） |
+| `InvertCulling` | 反转剔除方向（渲染背面） |
+| `Wireframe` | 线框模式渲染 |
+| `StencilWrite` | 写入模板缓冲 |
+| `InvertStencil` | 反转模板测试逻辑 |
+
+### 混合因子可选值
+
+`blendSrc`与`blendDst`字段控制Alpha混合的源因子与目标因子。常见可选值如下：
+
+| 值 | 说明 |
+|---|---|
+| `Zero` | 因子为`0` |
+| `One` | 因子为`1` |
+| `SourceColor` | 使用源片段的颜色值 |
+| `OneMinusSourceColor` | 使用`1 - 源颜色` |
+| `DestColor` | 使用目标缓冲区的颜色值 |
+| `OneMinusDestColor` | 使用`1 - 目标颜色` |
+| `SourceAlpha` | 使用源片段的Alpha值 |
+| `OneMinusSourceAlpha` | 使用`1 - 源Alpha` |
+| `DestAlpha` | 使用目标缓冲区的Alpha值 |
+| `OneMinusDestAlpha` | 使用`1 - 目标Alpha` |
+| `SourceAlphaSaturate` | 取源Alpha与`1 - 目标Alpha`中的较小值 |
+
+启用混合时，游戏默认使用`blendSrc: SourceAlpha`、`blendDst: OneMinusSourceAlpha`的标准Alpha混合模式。
+
+### `+samplerStates`详情
+
+`+samplerStates`字段为数组，每项描述一个采样器。常用字段如下：
+
+| 字段 | 说明 |
+|---|---|
+| `samplerIndex` | 采样器索引，通常为`0`（漫反射纹理）或`1`（自发光/叠加纹理） |
+| `textureFilter` | 纹理过滤模式 |
+| `textureWrap` | 纹理寻址模式 |
+
+`textureFilter`可选值：
+
+| 值 | 说明 |
+|---|---|
+| `Point` | 邻近点采样，无过滤（像素风格） |
+| `Bilinear` | 双线性过滤 |
+| `Trilinear` | 三线性过滤（含Mipmap混合） |
+| `MipMapBilinear` | Mipmap双线性过滤 |
+| `MipMapLinear` | Mipmap线性过滤 |
+| `TexelAA` | 纹素抗锯齿过滤 |
+| `PCF` | 百分比邻近过滤（主要用于阴影贴图） |
+
+`textureWrap`可选值：
+
+| 值 | 说明 |
+|---|---|
+| `Repeat` | 平铺重复（默认） |
+| `Clamp` | 边缘拉伸（夹紧） |
+| `Mirror` | 镜像重复 |
+| `Border` | 超出范围使用边框颜色（不常用） |
+| `MirrorOnce` | 仅镜像一次后夹紧 |
+
+### `msaaSupport`可选值
+
+`msaaSupport`字段控制材质在多重采样抗锯齿（MSAA）环境下的行为：
+
+| 值 | 说明 |
+|---|---|
+| `NonMSAA` | 仅在非MSAA渲染路径中使用此材质变体 |
+| `MSAA` | 仅在MSAA渲染路径中使用此材质变体 |
+| `Both` | 在所有路径中通用（默认） |
+
+### `primitiveMode`可选值
+
+`primitiveMode`字段指定几何体的图元装配方式：
+
+| 值 | 说明 |
+|---|---|
+| `TriangleList` | 三角形列表（默认，每三个顶点组成一个独立三角形） |
+| `TriangleStrip` | 三角形条带 |
+| `LineList` | 线段列表 |
+| `Line` | 线段条带 |
+| `QuadList` | 四边形列表（每四个顶点组成一个四边形） |
+
+
 
 - [纹理](texture.md)
 - [渲染控制器](render-controller.md)

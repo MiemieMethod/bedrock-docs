@@ -20,6 +20,14 @@
 
     [:octicons-arrow-right-24: 查看导入说明](importing-and-activating-content.md)
 
+-   :material-flash:{ .lg .middle } __开启实验性玩法__
+
+    ---
+
+    了解如何在世界设置中或通过编辑`level.dat`启用实验性玩法。
+
+    [:octicons-arrow-right-24: 查看开启说明](enabling-experimental-features.md)
+
 -   :material-update:{ .lg .middle } __预览版、测试版与更新日志__
 
     ---
