@@ -1,0 +1,3193 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="zh">
+  <siteinfo>
+    <sitename>Minecraft基岩版开发Wiki</sitename>
+    <dbname>bedw</dbname>
+    <base>https://wiki.mcbe-dev.net/p/Minecraft%E5%9F%BA%E5%B2%A9%E7%89%88%E5%BC%80%E5%8F%91Wiki</base>
+    <generator>MediaWiki 1.45.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Minecraft基岩版开发Wiki</namespace>
+      <namespace key="5" case="first-letter">Minecraft基岩版开发Wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="274" case="first-letter">Widget</namespace>
+      <namespace key="275" case="first-letter">Widget talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="3000" case="first-letter">Manual</namespace>
+      <namespace key="3001" case="first-letter">Manual talk</namespace>
+      <namespace key="3002" case="first-letter">Mineprogramming</namespace>
+      <namespace key="3003" case="first-letter">Mineprogramming talk</namespace>
+      <namespace key="3004" case="first-letter">Mod</namespace>
+      <namespace key="3005" case="first-letter">Mod talk</namespace>
+      <namespace key="3006" case="first-letter">Data</namespace>
+      <namespace key="3007" case="first-letter">Data talk</namespace>
+      <namespace key="3008" case="first-letter">Documentation</namespace>
+      <namespace key="3009" case="first-letter">Documentation talk</namespace>
+      <namespace key="3010" case="first-letter">Tutorial</namespace>
+      <namespace key="3011" case="first-letter">Tutorial talk</namespace>
+      <namespace key="5500" case="first-letter">Newsletter</namespace>
+      <namespace key="5501" case="first-letter">Newsletter talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:SimpleNavbox</title>
+    <ns>10</ns>
+    <id>1434</id>
+    <revision>
+      <id>24133</id>
+      <parentid>24132</parentid>
+      <timestamp>2024-03-24T03:29:02Z</timestamp>
+      <contributor>
+        <username>Armelidy</username>
+        <id>542</id>
+      </contributor>
+      <comment>更正[[User:Armelidy|Armelidy]]上一个版本的操作。</comment>
+      <origin>24133</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="416" sha1="qv5mfxji1ogzroeeehvwhhcxiwauncm" xml:space="preserve">&lt;includeonly&gt;class="navbox hlist collapsible {{{class|}}}"
+! class="navbox-{{{position|top}}}" {{#if: {{{topstyle|}}} | style="{{{topstyle}}}" }} colspan="2" | {{
+#if: {{{navbar|}}} | &lt;div class="navbox-navbar"&gt;{{navbar|{{{navbar|}}}|mini={{{mini|}}}|plain=1}}&lt;/div&gt;
+}}&lt;span class="navbox-title"&gt;{{{1}}}&lt;/span&gt;
+|-&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- 在文档页放置分类/语言链接 --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>qv5mfxji1ogzroeeehvwhhcxiwauncm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AutoPagenav</title>
+    <ns>10</ns>
+    <id>6342</id>
+    <revision>
+      <id>19944</id>
+      <timestamp>2022-12-27T12:51:42Z</timestamp>
+      <contributor>
+        <username>2190303755</username>
+        <id>43</id>
+      </contributor>
+      <comment>创建页面，内容为“&lt;includeonly&gt;&lt;div id="topicpath" title="catnav" class="catnav"&gt;{{#invoke:breadcrumb|auto}}&lt;/div&gt;&lt;/includeonly&gt;&lt;noinclude&gt; {{Documentation}} [[分类:导航模板]] &lt;/noinclude&gt;”</comment>
+      <origin>19944</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="176" sha1="0hg5gohlp45xrac66g0h5l9qggly7lt" xml:space="preserve">&lt;includeonly&gt;&lt;div id="topicpath" title="catnav" class="catnav"&gt;{{#invoke:breadcrumb|auto}}&lt;/div&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+{{Documentation}}
+[[分类:导航模板]]
+&lt;/noinclude&gt;</text>
+      <sha1>0hg5gohlp45xrac66g0h5l9qggly7lt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Catnav</title>
+    <ns>10</ns>
+    <id>5860</id>
+    <revision>
+      <id>19960</id>
+      <parentid>17816</parentid>
+      <timestamp>2022-12-28T04:22:22Z</timestamp>
+      <contributor>
+        <username>2190303755</username>
+        <id>43</id>
+      </contributor>
+      <comment>已移除至[[Template:Pagenav]]的重定向</comment>
+      <origin>19960</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="201" sha1="l4omdk4piy3kgixddw7nnxb2a2zebfr" xml:space="preserve">&lt;includeonly&gt;&lt;div id="topicpath" title="catnav" class="catnav"&gt;{{#invoke:breadcrumb|breadcrumb|namespace=Category}}&lt;/div&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+{{Documentation}}
+[[分类:导航模板]]
+&lt;/noinclude&gt;</text>
+      <sha1>l4omdk4piy3kgixddw7nnxb2a2zebfr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Gameplay</title>
+    <ns>10</ns>
+    <id>2791</id>
+    <revision>
+      <id>10447</id>
+      <timestamp>2021-08-29T10:25:06Z</timestamp>
+      <contributor>
+        <username>Miemie Method</username>
+        <id>3</id>
+      </contributor>
+      <comment>创建页面，内容为“&lt;includeonly&gt;{{LoadBox |class=loadbox-navbox |float=none |page=Template:Gameplay/content |title=[[游戏内容]] }}{{#if: {{NAMESPACE}} || [[Category:游戏内容]]…”</comment>
+      <origin>10447</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="289" sha1="5cbxcoqvpfs6z5kklx3oxk9urr9kyc7" xml:space="preserve">&lt;includeonly&gt;{{LoadBox
+|class=loadbox-navbox
+|float=none
+|page=Template:Gameplay/content
+|title=[[游戏内容]]
+}}{{#if: {{NAMESPACE}} || [[Category:游戏内容]] }}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{/content}}
+{{documentation}}
+&lt;!-- 请将分类/语言链接放在文档页面 --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>5cbxcoqvpfs6z5kklx3oxk9urr9kyc7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Minecraft</title>
+    <ns>10</ns>
+    <id>1431</id>
+    <revision>
+      <id>16865</id>
+      <parentid>6361</parentid>
+      <timestamp>2022-05-05T02:08:55Z</timestamp>
+      <contributor>
+        <username>PexEric</username>
+        <id>202</id>
+      </contributor>
+      <comment>[InPageEdit]  没有编辑摘要</comment>
+      <origin>16865</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3477" sha1="1jew6vhp41ipz1rkguscvlh3ynae4dw" xml:space="preserve">&lt;div style="clear:both"&gt;
+{| {{SimpleNavbox|由[[wzh:Mojang Studios|Mojang Studios]]与[[wzh:网易|网易]]等开发的[[mcwzh:Minecraft|Minecraft]]}}
+&lt;!-- ! 帮助
+|
+* [[菜单界面]]
+* [[控制]]
+* [[选项]]
+* [[教程]]
+
+|-
+! 游戏定制
+|
+* [[皮肤]]
+* [[披风]]
+* [[资源包]]
+* [[材质包]]
+** &lt;samp&gt;[[terrain.png]]&lt;/samp&gt;
+* [[数据包]]
+* [[附加包]]
+|-
+! 版本
+|
+{|
+! [[File:Java.png|14px|]] [[Java版]]
+|
+* [[演示模式|演示版]]
+** [[演示模式/地点|地点]]
+* [[PC Gamer演示版]]
+|-
+! {{BlockSprite|bedrock}} [[基岩版]]
+|
+{|
+! 已合并
+|
+* [[File:Smartphone.svg|11px|link=wikipedia:zh:智能手机|智能手机]] [[携带版]]
+* {{OS|win10}} [[Windows 10版]]
+* {{OS|firetv}} [[Fire TV版]]
+|-
+! 移植到主机
+|
+* {{OS|Xbox One}} {{w|Xbox One}}
+* {{OS|NSwitch}} {{w|Nintendo Switch}}
+* {{OS|PS4}} {{w|PlayStation 4}}
+** {{w|PlayStation VR|PS VR}}
+|-
+! {{BlockSprite|barrier}} 已终止
+|
+* {{OS|appletv}} [[Apple TV版]]
+* {{OS|gearvr}} [[Gear VR版]]
+|}
+|-
+! 其他版本
+|
+* [[教育版]]
+* [[Minecraft：中国版|中国版]]
+|-
+! {{BlockSprite|barrier}} 已终止
+|
+{|
+! [[File:ConsoleOnly.png|link=wikipedia:zh:游戏主机|游戏主机]] [[原主机版]]
+|
+* {{OS|Xbox 360}} [[Xbox 360版]]
+* {{OS|Xbox One}} [[Xbox One版]]
+* {{OS|PS3}} [[PlayStation 3版]]
+* {{OS|PS4}} [[PlayStation 4版]]
+* {{OS|PSVita}} [[PlayStation Vita版]]
+* {{OS|WiiU}} [[Wii U版]]
+* {{OS|NSwitch}} [[Nintendo Switch版]]
+|}
+* {{OS|N3DS}} [[New Nintendo 3DS版]]
+* {{OS|Pi}} [[树莓派版]]
+* [[Minecraft 4k]]
+* [[MinecraftEdu]]
+|}
+|-
+! 游戏
+|
+* [[Minecraft Dungeons]]
+* [[Minecraft Earth]]
+{|
+! {{BlockSprite|barrier}} 已终止
+|
+* [[Minecraft: Story Mode]]
+** [[Minecraft: Story Mode - Season Two|第二季]]
+|}
+|-
+! 影片
+|
+* [[Minecraft: The Story of Mojang]]
+{|
+! 即将到来
+|
+* [[Minecraft: The Movie]]
+|}
+|-
+! 书籍
+|
+{|
+|-
+! 小说
+|
+* [[我的世界：海岛]]
+* [[我的世界：破碎]]
+* [[我的世界：失落的日记]]
+* [[我的世界：末地]]
+* [[我的世界：远航]]
+* [[我的世界：沉船]]
+{|
+! 即将到来
+|
+* [[Minecraft: The Mountain]]
+|}
+|-
+! 儿童读物
+|
+* [[我的世界：伍德斯沃德历险记]]
+{|
+! 即将到来
+|
+* [[Minecraft: Stonesword Saga]]
+|}
+|}
+|-
+! 其他媒介
+|
+* [[Minecraft Mini-Series]]
+* [[Minecraft杂志]]
+* [[Minecraft（黑马漫画）|连载黑马漫画]]
+* [[Minecraft: Builders &amp; Biomes]]
+|-
+! 活动
+|
+{|
+! [[MINECON]]
+|
+* [[MINECON 2010|2010]]
+* [[MINECON 2011|2011]]
+* [[MINECON 2012|2012]]
+* [[MINECON 2013|2013]]
+* [[MINECON 2015|2015]]
+* [[MINECON 2016|2016]]
+|-
+! [[MINECON#2017|MINECON Earth]]
+|
+* [[MINECON Earth 2017|2017]]
+* [[MINECON Earth 2018|2018]]
+|-
+! [[MINECON#2019|MINECON Live]]
+|
+* [[MINECON Live 2019|2019]]
+|-
+! [[MINECON#2020|Minecraft Live]]
+|
+* [[Minecraft Live 2020|2020]]
+|-
+! [[MINECON#2022|Minecraft Festival]]
+|
+* [[Minecraft Festival 2022|2022]]
+|}
+|-
+! 官方周边
+|
+* [https://www.minecraftshop.com/ 官方Minecraft商店]（[https://www.jinx.com/pages/minecraft_shop J!NX商店]）
+* [[乐高Minecraft]]
+* [https://shop.mattel.com/shop/en-us/ms/minecraft-toys Mattel商店]
+* [https://adventurechest.net AdventureChest商店]
+* [[Minecraft丛书]]
+|-
+! 杂项
+|
+* [[彩蛋]]
+* [[终末之诗]]
+* [[Herobrine]]
+* [[官方页面]]
+* [[版本格式]]--&gt;
+|}
+&lt;/div&gt;&lt;includeonly&gt;{{ #if: {{NAMESPACE}}{{{nocat|}}} || [[Category:Minecraft]] }}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- 请将分类/语言链接放在文档页面  --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>1jew6vhp41ipz1rkguscvlh3ynae4dw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox</title>
+    <ns>10</ns>
+    <id>1608</id>
+    <revision>
+      <id>5052</id>
+      <timestamp>2021-03-08T06:38:03Z</timestamp>
+      <contributor>
+        <username>Miemie Method</username>
+        <id>3</id>
+      </contributor>
+      <comment>创建页面，内容为“&lt;includeonly&gt;{{#invoke: navbox | box }}&lt;/includeonly&gt;&lt;noinclude&gt;&lt;!-- categories/interwikis on the /doc subpage --&gt;{{Documentation}}&lt;/noinclude&gt;”</comment>
+      <origin>5052</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="143" sha1="12820wziqgq7jkx7yme4kn4jm36y6n8" xml:space="preserve">&lt;includeonly&gt;{{#invoke: navbox | box }}&lt;/includeonly&gt;&lt;noinclude&gt;&lt;!-- categories/interwikis on the /doc subpage --&gt;{{Documentation}}&lt;/noinclude&gt;</text>
+      <sha1>12820wziqgq7jkx7yme4kn4jm36y6n8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox Bedrock Edition changelog</title>
+    <ns>10</ns>
+    <id>5030</id>
+    <revision>
+      <id>15359</id>
+      <parentid>15332</parentid>
+      <timestamp>2022-02-03T09:52:41Z</timestamp>
+      <contributor>
+        <username>Miemie Method</username>
+        <id>3</id>
+      </contributor>
+      <minor/>
+      <origin>15359</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="36914" sha1="4hb39udeczyx0rsqz2wb3mxal6ddz8y" xml:space="preserve">&lt;div style="clear: both"&gt;
+{| {{SimpleNavbox|[[Minecraft]]更新日志}}
+|-
+! 日志网站
+|
+* [[Mojang (网站)|Mojang]]&lt;small&gt;（2011－2016）&lt;/small&gt;
+* [[Minecraft: Beta Changelogs]]&lt;small&gt;（2015-2017）&lt;/small&gt;
+* [[Minecraft Feedback]]&lt;small&gt;（2016至今）&lt;/small&gt;
+|-
+! {{ItemSprite|book-and-quill}} 开发周期
+|
+* {{InvLink|id=Grass Block|link=Manual:基岩版版本记录#携带版Alpha|Alpha}}&lt;small&gt;（2011－2016）&lt;/small&gt;
+* {{EntityLink|id=ender-dragon|Manual:基岩版版本记录#携带版|正式版}}&lt;small&gt;（2016至今）&lt;/small&gt;
+* {{BlockLink|id=Bedrock|Manual:基岩版版本记录|基岩版}}&lt;small&gt;（2017至今）&lt;/small&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|[[Mojang (网站)|Mojang]]|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | Mojang || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+! {{LegacyBlockSprite|rose-be1}} 0.1
+|
+|-
+! [[File:Heart.svg|16px|link=]] 0.2
+|
+|-
+! {{LegacyBlockSprite|crafting-table}} 0.3
+|
+|-
+! {{BlockSprite|chest}} 0.4
+|
+|-
+! {{EnvSprite|nether-reactor}} 0.5
+|
+|-
+! {{ItemSprite|diamond-chestplate-pre-texture-update}} 0.6
+|
+|-
+! {{ItemSprite|flint-and-steel-pre-texture-update}} 0.7
+|
+|-
+! {{ItemSprite|beetroot-pre-texture-update}} 0.8
+|
+|-
+! {{LegacyBlockSprite|paeonia}} 0.9
+|
+|-
+! {{EnvSprite|badlands-mineshaft}} 0.10
+|
+|-
+! {{ItemSprite|oak-boat-pre-texture-update}} 0.11
+|
+|-
+! {{EnvSprite|nether-portal}} 0.12
+|
+|-
+! {{ItemSprite|redstone-dust-pre-texture-update}} 0.13
+|
+|-
+! {{ItemSprite|redstone-comparator-pre-texture-update}} 0.14&lt;br&gt;&lt;small&gt;[[主世界更新]]&lt;/small&gt;
+|
+|-
+! {{EntitySprite|horse}} 0.15&lt;br&gt;&lt;small&gt;[[友好更新]]&lt;/small&gt;
+|
+|-
+! {{ItemSprite|nether-star-pre-texture-update}} 0.16&lt;br&gt;&lt;small&gt;[[Boss更新]]&lt;/small&gt;
+|
+|}
+&lt;/div&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|[[Minecraft: Beta Changelogs]]|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | Blogger || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+| colspan="2" class="navbox-thru" |
+* [[Documentation:主页 (Minecraft: Beta Changelogs)|主页]]
+* [[Documentation:常见问题解答 (Minecraft: Beta Changelogs)|常见问题解答]]
+* [[Documentation:如何加入或退出测试版测试计划？|如何加入或退出测试版测试计划？]]
+* [[Documentation:如何报告一个漏洞？|如何报告一个漏洞？]]
+* [[Documentation:如何进行一个备份？|如何进行一个备份？]]
+|-
+! {{ItemSprite|redstone-dust-pre-texture-update}} 0.13
+|
+|-
+! {{ItemSprite|redstone-comparator-pre-texture-update}} 0.14&lt;br&gt;&lt;small&gt;[[主世界更新]]&lt;/small&gt;
+|
+|-
+! {{EntitySprite|horse}} 0.15&lt;br&gt;&lt;small&gt;[[友好更新]]&lt;/small&gt;
+|
+|-
+! {{ItemSprite|nether-star-pre-texture-update}} 0.16&lt;br&gt;&lt;small&gt;[[Boss更新]]&lt;/small&gt;
+|
+|-
+! {{EntitySprite|Ender Dragon}} 1.0&lt;br&gt;&lt;small&gt;[[末影更新]]&lt;/small&gt;
+|
+|-
+! {{ItemSprite|Woodland Explorer Map Pre-Texture-Update}} 1.1&lt;br&gt;&lt;small&gt;[[探索更新]]&lt;/small&gt;
+|
+|-
+! [[File:Xbox One.svg|15px|link=]] 1.2&lt;br&gt;&lt;small&gt;[[独乐不如众乐更新|独乐不如&lt;br&gt;众乐更新]]&lt;/small&gt;
+|
+|}
+&lt;/div&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|[[Minecraft Feedback]]|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | Feedback || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+| colspan="2" class="navbox-thru" |
+* [[Documentation:欢迎来到反馈网站！|欢迎来到反馈网站！]]
+* [[Documentation:服务条款 (Minecraft Feedback)|服务条款]]
+* [[Documentation:我如何加入（或退出）Minecraft测试版？|我如何加入（或退出）Minecraft测试版？]]
+* [[Documentation:提交一个漏洞报告|提交一个漏洞报告]]
+* [[Documentation:您最喜欢的问题的超级常见问题解答！|您最喜欢的问题的超级常见问题解答！]]
+|-
+! {{EntitySprite|horse}} 0.15&lt;br&gt;&lt;small&gt;[[友好更新]]&lt;/small&gt;
+|
+  {|
+  ! 0.15.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 0.15构建2|0.14.99.2]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.15.2|0.15.2.1]]
+* [[Documentation:仅适用于Google Play的MCPE - 0.15.3|0.15.3.2]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.15.4|0.15.4.0]]
+* [[Documentation:仅WIN 10 - 0.15.5|0.15.6.0]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.15.6|0.15.7.2]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.15.7|0.15.8.0]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.15.8|0.15.8.1]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.15.9|0.15.9.0]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.15.10|0.15.10.0]]
+    |}
+  |}
+|-
+! {{ItemSprite|nether-star-pre-texture-update}} 0.16&lt;br&gt;&lt;small&gt;[[Boss更新]]&lt;/small&gt;
+|
+  {|
+  ! 0.16.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 0.16构建1|0.15.90.0]]
+* [[Documentation:MCPE Android测试版 - 0.16构建5|0.15.90.8]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.16|0.16.0.5]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.16.1|0.16.1.0]]
+* [[Documentation:MCPE/WIN 10/Gear VR - 0.16.2|0.16.2.2]]
+    |}
+  |}
+|-
+! {{EntitySprite|Ender Dragon}} 1.0&lt;br&gt;&lt;small&gt;[[末影更新]]&lt;/small&gt;
+  |
+  {|
+  ! 1.0.0.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.0构建1|0.17.0.1]]
+* [[Documentation:MCPE Android测试版 - 1.0构建2|0.17.0.2]]
+* [[Documentation:MCPE Android测试版 - 1.0构建3|1.0.0.0]]
+* [[Documentation:MCPE Android测试版 - 1.0构建4|1.0.0.1]]
+* [[Documentation:MCPE Android测试版 - 1.0构建5|1.0.0.2]]
+* [[Documentation:MCPE Android测试版 - 1.0构建6|1.0.0.7]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0|1.0]]
+    |}
+  |-
+  ! 1.0.1.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE仅iOS - 1.0.1|1.0.1]]
+    |}
+  |-
+  ! 1.0.2.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0.2|1.0.2]]
+    |}
+  |-
+  ! 1.0.3.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.0.3|1.0.3.0]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0.3|1.0.3]]
+    |}
+  |-
+  ! 1.0.4.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.0.4构建1|1.0.4.0]]
+* [[Documentation:MCPE Android测试版 - 1.0.4构建2|1.0.4.1]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0.4|1.0.4]]
+    |}
+  |-
+  ! 1.0.5.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.0.5构建1|1.0.5.0]]
+* [[Documentation:MCPE Android测试版 - 1.0.5构建2|1.0.5.3]]
+* [[Documentation:MCPE Android测试版 - 1.0.5构建3|1.0.5.13]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0.5|1.0.5]]
+    |}
+  |-
+  ! 1.0.6.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.0.6|1.0.6.0]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0.6|1.0.6]]
+    |}
+  |-
+  ! 1.0.7.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0.7|1.0.7]]
+    |}
+  |-
+  ! 1.0.8.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN 10/Gear VR - 1.0.8|1.0.8]]
+    |}
+  |-
+  ! 1.0.9.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN10/Gear VR - 1.0.9|1.0.9]]
+    |}
+  |}
+|-
+! {{ItemSprite|Woodland Explorer Map Pre-Texture-Update}} 1.1&lt;br&gt;&lt;small&gt;[[探索更新]]&lt;/small&gt;
+|
+  {|
+  ! 1.1.0.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.1构建1|1.1.0.0]]
+* [[Documentation:MCPE Android测试版 - 1.1构建2|1.1.0.1]]
+* [[Documentation:MCPE Android测试版 - 1.1构建3|1.1.0.3]]
+* [[Documentation:MCPE Android测试版 - 1.1构建4|1.1.0.4]]
+* [[Documentation:MCPE Android测试版 - 1.1构建5|1.1.0.5]]
+* [[Documentation:MCPE Android测试版 - 1.1构建6|1.1.0.8]]
+* [[Documentation:MCPE Android测试版 - 1.1构建7|1.1.0.9]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN10/GEAR VR - 1.1|1.1]]
+    |}
+  |-
+  ! 1.1.1.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.1.1构建1|1.1.1.0]]
+* [[Documentation:MCPE Android测试版 - 1.1.1构建2|1.1.1.1]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN10/GEAR VR - 1.1.1|1.1.1]]
+    |}
+  |-
+  ! 1.1.2.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN10/GEAR VR - 1.1.2|1.1.2]]
+    |}
+  |-
+  ! 1.1.3.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:MCPE Android测试版 - 1.1.3构建1|1.1.3.0]]
+* [[Documentation:MCPE Android测试版 - 1.1.3构建2|1.1.3.1]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN10/GEAR VR - 1.1.3|1.1.3]]
+    |}
+  |-
+  ! 1.1.4.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN10/GEAR VR - 1.1.4|1.1.4]]
+    |}
+  |-
+  ! 1.1.5.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:MCPE/WIN10/GEAR VR - 1.1.5|1.1.5]]
+    |}
+  |}
+|-
+! [[File:Xbox One.svg|15px|link=]] 1.2&lt;br&gt;&lt;small&gt;[[独乐不如众乐更新|独乐不如&lt;br&gt;众乐更新]]&lt;/small&gt;
+|
+  {|
+  ! 1.2.0.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft Win10/Android测试版 - 1.2构建1|1.2.0.2]]
+* [[Documentation:Minecraft Win10/Android测试版 - 1.2构建2|1.2.0.7]]
+* [[Documentation:Minecraft Win 10/Android测试版 - 1.2构建3|1.2.0.9]]
+* [[Documentation:Minecraft Win 10/Android测试版 - 1.2构建4|1.2.0.11]]
+* [[Documentation:Minecraft Win 10/Android测试版 - 1.2构建5|1.2.0.15]]
+* [[Documentation:Minecraft Win 10/Android测试版 - 1.2构建6|1.2.0.18]]
+* [[Documentation:Minecraft Win 10/Android测试版 - 1.2构建7|1.2.0.22]]
+* [[Documentation:Minecraft Xbox One/Win 10/Android测试版 - 1.2构建8|1.2.0.25]]
+* [[Documentation:Minecraft Xbox One/Win 10/Android测试版 - 1.2构建9|1.2.0.31]]
+    |}
+  |-
+  ! 1.2.3.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft Xbox One/Win 10/Android测试版 - 1.2.3构建1|1.2.3.3]]
+    |}
+  |-
+  ! 1.2.5.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft Android测试版 - 1.2.5构建1|1.2.5.0]]
+* [[Documentation:Minecraft Xbox One/Win 10/Android测试版 - 1.2.5构建2|1.2.5.12]]
+* [[Documentation:Minecraft Xbox One/Win 10/Android测试版 - 1.2.5构建3|1.2.5.15]]
+    |}
+  |-
+  ! 1.2.6.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft Xbox One/Win 10/Android测试版 - 1.2.6|1.2.6.2]]
+    |}
+  |-
+  ! 1.2.10.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft Xbox One/Windows 10/Android测试版 - 1.2.10|1.2.10.1]]
+    |}
+  |}
+|-
+| colspan="2" class="navbox-thru" | '''日志改版后'''
+|-
+! [[File:Xbox One.svg|15px|link=]] 1.2&lt;br&gt;&lt;small&gt;[[独乐不如众乐更新|独乐不如&lt;br&gt;众乐更新]]&lt;/small&gt;
+|
+  {|
+  ! 1.2.0.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2（基岩）|1.2]]
+    |}
+  |-
+  ! 1.2.1.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.1（基岩）|1.2.1]]
+    |}
+  |-
+  ! 1.2.2.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.2（基岩）|1.2.2]]
+    |}
+  |-
+  ! 1.2.3.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.3（基岩）|1.2.3]]
+    |}
+  |-
+  ! 1.2.5.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.5（基岩）|1.2.5]]
+    |}
+  |-
+  ! 1.2.6.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.6（基岩）|1.2.6]]
+    |}
+  |-
+  ! 1.2.7.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.7（基岩）|1.2.7]]
+    |}
+  |-
+  ! 1.2.8.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.8（基岩）|1.2.8]]
+    |}
+  |-
+  ! 1.2.9.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.9（基岩）|1.2.9]]
+    |}
+  |-
+  ! 1.2.10.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.10（基岩）|1.2.10]]
+    |}
+  |-
+  ! 1.2.11.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.11（基岩）|1.2.11]]
+    |}
+  |-
+  ! 1.2.13.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.2.13.5（Xbox One/Windows 10/Android）|1.2.13.5]]
+* [[Documentation:Minecraft测试版 - 1.2.13.6（Xbox One/Windows 10/Android）|1.2.13.6]]
+* [[Documentation:Minecraft测试版 - 1.2.13.10（Xbox One/Windows 10/Android）|1.2.13.10]]
+* [[Documentation:Minecraft测试版 - 1.2.13.11（Xbox One/Windows 10/Android）|1.2.13.11]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.13（基岩）|1.2.13]]
+    |}
+  |-
+  ! 1.2.14.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.2.14.3（Xbox One/Windows 10/Android）|1.2.14.3]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.14（仅iOS）|1.2.14]]
+    |}
+  |-
+  ! 1.2.15.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.15（仅iOS）|1.2.15]]
+    |}
+  |-
+  ! 1.2.16.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.2.13.60 / 1.2.16 iOS|1.2.13.60 / 1.2.16]]
+    |}
+  |}
+|-
+! {{ItemSprite|Trident}} 1.4&lt;br&gt;&lt;small&gt;[[水域更新]]&lt;br&gt;（第一阶段）&lt;/small&gt;
+|
+  {|
+  ! 1.4.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.2.20.1（Xbox One/Windows 10/Android）|1.2.20.1]]
+* [[Documentation:Minecraft测试版 - 1.2.20.2（Xbox One/Windows 10/Android）|1.2.20.2]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.4.0（基岩）|1.4.0]]
+* [[Documentation:Minecraft - 1.4.1（仅Android）|1.4.1]]
+** [[Documentation:Minecraft - 1.4.1（Switch首发更新）|Switch]]
+* [[Documentation:Minecraft - 1.4.2（基岩）|1.4.2]]
+* [[Documentation:Minecraft - 1.4.3（仅iOS）|1.4.3]]
+* [[Documentation:Minecraft - 1.4.4（仅Android）|1.4.4]]
+    |}
+  |}
+|-
+! {{BlockSprite|Conduit}} 1.5&lt;br&gt;&lt;small&gt;[[水域更新]]&lt;br&gt;（第二阶段）&lt;/small&gt;
+|
+  {|
+  ! 1.5.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.5.0.0（Xbox One/Windows 10/Android）|1.5.0.0]]
+* [[Documentation:Minecraft测试版 - 1.5.0.1（Xbox One/Windows 10/Android）|1.5.0.1]]
+* [[Documentation:Minecraft测试版 - 1.5.0.4（Xbox One/Windows 10/Android）|1.5.0.4]]
+* [[Documentation:Minecraft测试版 - 1.5.0.7（Xbox One/Windows 10/Android）|1.5.0.7]]
+* [[Documentation:Minecraft测试版 - 1.5.0.10（Xbox One/Windows 10/Android）|1.5.0.10]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.5.0（基岩）|1.5.0]]
+* [[Documentation:Minecraft - 1.5.1（基岩）|1.5.1]]
+* [[Documentation:Minecraft - 1.5.2（基岩）|1.5.2]]
+* [[Documentation:Minecraft - 1.5.3（基岩）|1.5.3]]
+    |}
+  |}
+|-
+! {{EntitySprite|phantom}} 1.6
+|
+  {|
+  ! 1.6.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.6.0.1（Xbox One/Windows 10/Android）|1.6.0.1]]
+* [[Documentation:Minecraft测试版 - 1.6.0.5（Xbox One/Windows 10/Android）|1.6.0.5]]
+* [[Documentation:Minecraft测试版 - 1.6.0.6（Xbox One/Windows 10/Android）|1.6.0.6]]
+* [[Documentation:Minecraft测试版 - 1.6.0.8（Xbox One/Windows 10/Android）|1.6.0.8]]
+* [[Documentation:Minecraft测试版 - 1.6.0.30（Xbox One/Windows 10/Android）|1.6.0.30]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.6.0（基岩）|1.6.0]]
+* [[Documentation:Minecraft - 1.6.1（基岩）|1.6.1]]
+* [[Documentation:Minecraft - 1.6.2（基岩）|1.6.2]]
+    |}
+  |}
+|-
+! {{BlockSprite|command-block}} 1.7
+|
+  {|
+  ! 1.7.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.7.0.2（Xbox One/Windows 10/Android）|1.7.0.2]]
+* [[Documentation:Minecraft测试版 - 1.7.0.3（Xbox One/Windows 10/Android）|1.7.0.3]]
+* [[Documentation:Minecraft测试版 - 1.7.0.5（Xbox One/Windows 10/Android）|1.7.0.5]]
+* [[Documentation:Minecraft测试版 - 1.7.0.7（Xbox One/Windows 10/Android）|1.7.0.7]]
+* [[Documentation:Minecraft测试版 - 1.7.0.9（Xbox One/Windows 10/Android）|1.7.0.9]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.7.0（基岩）|1.7.0]]
+* [[Documentation:Minecraft - 1.7.1（基岩）|1.7.1]]
+    |}
+  |}
+|-
+! {{EntitySprite|panda}} 1.8
+|
+  {|
+  ! 1.8.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.8.0.8（Xbox One/Windows 10/Android）|1.8.0.8]]
+* [[Documentation:Minecraft测试版 - 1.8.0.10（Xbox One/Windows 10/Android）|1.8.0.10]]
+* [[Documentation:Minecraft测试版 - 1.8.0.11（Xbox One/Windows 10/Android）|1.8.0.11]]
+* [[Documentation:Minecraft测试版 - 1.8.0.13（Xbox One/Windows 10/Android）|1.8.0.13]]
+* [[Documentation:Minecraft测试版 - 1.8.0.14（Xbox One/Windows 10/Android）|1.8.0.14]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.8.0（基岩）|1.8.0]]
+* [[Documentation:Minecraft - 1.8.1（基岩）|1.8.1]]
+    |}
+  |}
+|-
+! {{EntitySprite|pillager}} 1.9
+|
+  {|
+  ! 1.9.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.9.0.0（Xbox One/Windows 10/Android）|1.9.0.0]]
+* [[Documentation:Minecraft测试版 - 1.9.0.2（Xbox One/Windows 10/Android）|1.9.0.2]]
+* [[Documentation:Minecraft测试版 - 1.9.0.3（Xbox One/Windows 10/Android）|1.9.0.3]]
+* [[Documentation:Minecraft测试版 - 1.9.0.5（Xbox One/Windows 10/Android）|1.9.0.5]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.9.0（基岩）|1.9.0]]
+    |}
+  |}
+|- 
+! {{ItemSprite|campfire}} 1.10
+|
+  {|
+  ! 1.10.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.10.0.3（Xbox One/Windows 10/Android）|1.10.0.3]]
+* [[Documentation:Minecraft测试版 - 1.10.0.4（Xbox One/Windows 10/Android）|1.10.0.4]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.10.0（基岩）|1.10.0]]
+* [[Documentation:Minecraft - 1.10.1（仅Windows 10）|1.10.1]]
+    |}
+  |}
+|-
+!{{EffectSprite|hero-of-the-village}} 1.11&lt;br&gt;&lt;small&gt;[[村庄与掠夺]]&lt;/small&gt;
+|
+  {|
+  ! 1.11.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.11.0.1（Xbox One/Windows 10/Android）|1.11.0.1]]
+* [[Documentation:Minecraft测试版 - 1.11.0.3（Xbox One/Windows 10/Android）|1.11.0.3]]
+* [[Documentation:Minecraft测试版 - 1.11.0.4（Xbox One/Windows 10/Android）|1.11.0.4]]
+* [[Documentation:Minecraft测试版 - 1.11.0.5（Xbox One/Windows 10/Android）|1.11.0.5]]
+* [[Documentation:Minecraft测试版 - 1.11.0.7（Xbox One/Windows 10/Android）|1.11.0.7]]
+* [[Documentation:Minecraft测试版 - 1.11.0.8（Xbox One/Windows 10/Android）|1.11.0.8]]
+* [[Documentation:Minecraft测试版 - 1.11.0.9（Xbox One/Windows 10/Android）|1.11.0.9]]
+* [[Documentation:Minecraft测试版 - 1.11.0.10（Xbox One/Windows 10/Android）|1.11.0.10]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 村庄与掠夺 - 1.11.0（基岩）|1.11.0]]
+* [[Documentation:Minecraft - 1.11.1（基岩）|1.11.1]]
+* [[Documentation:Minecraft - 1.11.2（仅Xbox One）|1.11.2]]
+* [[Documentation:Minecraft - 1.11.3（基岩）|1.11.3]]
+* [[Documentation:Minecraft - 1.11.4（基岩）|1.11.4]]
+    |}
+  |}
+|-
+!{{BlockSprite|Camera}} 1.12
+|
+  {|
+  ! 1.12.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.12.0.2（Xbox One/Windows 10/Android）|1.12.0.2]]
+* [[Documentation:Minecraft测试版 - 1.12.0.3（Xbox One/Windows 10/Android）|1.12.0.3]]
+* [[Documentation:Minecraft测试版 - 1.12.0.4（Xbox One/Windows 10/Android）|1.12.0.4]]
+* [[Documentation:Minecraft测试版 - 1.12.0.6（Xbox One/Windows 10/Android）|1.12.0.6]]
+* [[Documentation:Minecraft测试版 - 1.12.0.9（Xbox One/Windows 10/Android）|1.12.0.9]]
+* [[Documentation:Minecraft测试版 - 1.12.0.10（Xbox One/Windows 10/Android）|1.12.0.10]]
+* [[Documentation:Minecraft测试版 - 1.12.0.11（Xbox One/Windows 10/Android）|1.12.0.11]]
+* [[Documentation:Minecraft测试版 - 1.12.0.12（Xbox One/Windows 10/Android）|1.12.0.12]]
+* [[Documentation:Minecraft测试版 - 1.12.0.13（Xbox One/Windows 10/Android）|1.12.0.13]]
+* [[Documentation:Minecraft测试版 - 1.12.0.14（Xbox One/Windows 10/Android）|1.12.0.14]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.12.0（基岩）|1.12.0]]
+* [[Documentation:Minecraft - 1.12.1（基岩）|1.12.1]]
+    |}
+  |}
+|-
+!{{EntitySprite|Fox}} 1.13
+|
+  {|
+  ! 1.13.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.13.0.1（Xbox One/Windows 10/Android）|1.13.0.1]]
+* [[Documentation:Minecraft测试版 - 1.13.0.2（Xbox One/Windows 10/Android）|1.13.0.2]]
+* [[Documentation:Minecraft测试版 - 1.13.0.4（Xbox One/Windows 10/Android）|1.13.0.4]]
+* [[Documentation:Minecraft测试版 - 1.13.0.5（Xbox One/Windows 10/Android）|1.13.0.5]]
+* [[Documentation:Minecraft测试版 - 1.13.0.6（Xbox One/Windows 10/Android）|1.13.0.6]]
+* [[Documentation:Minecraft测试版 - 1.13.0.9（Xbox One/Windows 10/Android）|1.13.0.9]]
+* [[Documentation:Minecraft测试版 - 1.13.0.13（Xbox One/Windows 10/Android）|1.13.0.13]]
+* [[Documentation:Minecraft测试版 - 1.13.0.15（Xbox One/Windows 10/Android）|1.13.0.15]]
+* [[Documentation:Minecraft测试版 - 1.13.0.17（Xbox One/Windows 10/Android）|1.13.0.17]]
+* [[Documentation:Minecraft测试版 - 1.13.0.18（Xbox One/Windows 10/Android）|1.13.0.18]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.13.0（基岩）|1.13.0]]
+* [[Documentation:Minecraft - 1.13.1（基岩）|1.13.1]]
+* [[Documentation:Minecraft - 1.13.2（仅iOS）|1.13.2]]
+* [[Documentation:Minecraft - 1.13.3（仅iOS）|1.13.3]]
+    |}
+  |}
+|-
+! {{EntitySprite|bee}} 1.14&lt;br&gt;&lt;small&gt;[[嗡嗡蜂群]]&lt;/small&gt;
+|
+  {|
+  ! 1.14.0.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.14.0.1（Xbox One/Windows 10/Android）|1.14.0.1]]
+* [[Documentation:Minecraft测试版 - 1.14.0.2（Xbox One/Windows 10/Android）|1.14.0.2]]
+* [[Documentation:Minecraft测试版 - 1.14.0.3（Xbox One/Windows 10/Android）|1.14.0.3]]
+* [[Documentation:Minecraft测试版 - 1.14.0.4（Xbox One/Windows 10/Android）|1.14.0.4]]
+* [[Documentation:Minecraft测试版 - 1.14.0.6（Xbox One/Windows 10/Android）|1.14.0.6]]
+* [[Documentation:Minecraft测试版 - 1.14.0.50（Xbox One/Windows 10/Android）|1.14.0.50]]
+* [[Documentation:Minecraft测试版 - 1.14.0.51（Xbox One/Windows 10/Android）|1.14.0.51]]
+* [[Documentation:Minecraft测试版 - 1.14.0.52（Xbox One/Windows 10/Android）|1.14.0.52]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 嗡嗡蜂群 - 1.14.0（基岩）|1.14.0]]
+* [[Documentation:Minecraft - 1.14.0.12（仅PS4）|1.14.0.12]]
+    |}
+  |-
+  ! 1.14.1.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.14.1.2（Xbox One/Windows 10/Android）|1.14.1.2]]
+* [[Documentation:Minecraft测试版 - 1.14.1.3（Xbox One/Windows 10/Android）|1.14.1.3]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.14.1（基岩）|1.14.1]]
+    |}
+  |-
+  ! 1.14.2x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.14.2.50（Xbox One/Windows 10/Android）|1.14.2.50]]
+* [[Documentation:Minecraft测试版 - 1.14.2.51（Xbox One/Windows 10/Android）|1.14.2.51]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.14.20（基岩）|1.14.20]]
+    |-
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.14.25.1（Xbox One/Windows 10/Android）|1.14.25.1]]
+    |}
+  |-
+  ! 1.14.3x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.14.30.51（Xbox One/Windows 10/Android）|1.14.30.51]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.14.30（基岩）|1.14.30]]
+    |}
+  |-
+  ! 1.14.4x.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.14.41（仅PS4）|1.14.41]]
+    |}
+  |-
+  ! 1.14.6x.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.14.60（基岩）|1.14.60]]
+    |}
+  |}
+|-
+! [[File:RenderDragon logo.png|16px|link=]] 1.15&lt;br&gt;&lt;small&gt;RTX测试&lt;/small&gt;
+|
+  {|
+  ! 1.15.0x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:带有RTX的Minecraft测试版 - 1.15.0.9（Windows 10）|1.15.0.9]]
+    |}
+  |}
+|-
+! {{ItemSprite|netherite-ingot}} 1.16&lt;br&gt;&lt;small&gt;[[下界更新]]&lt;/small&gt;
+|
+  {|
+  ! 1.16.0x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.15.0.51（Xbox One/Windows 10/Android）|1.15.0.51]]
+* [[Documentation:Minecraft测试版 - 1.15.0.53（Xbox One/Windows 10/Android）|1.15.0.53]]
+* [[Documentation:Minecraft测试版 - 1.15.0.54（Xbox One/Windows 10/Android）|1.15.0.54]]
+* [[Documentation:Minecraft测试版 - 1.15.0.55（Xbox One/Windows 10/Android）|1.15.0.55]]
+* [[Documentation:Minecraft测试版 - 1.15.0.56（Xbox One/Windows 10/Android）|1.15.0.56]]
+* [[Documentation:Minecraft测试版 - 1.16.0.51（Xbox One/Windows 10/Android）|1.16.0.51]]
+* [[Documentation:Minecraft测试版 - 1.16.0.53（Xbox One/Windows 10/Android）|1.16.0.53]]
+* [[Documentation:Minecraft测试版 - 1.16.0.55（Xbox One/Windows 10/Android）|1.16.0.55]]
+* [[Documentation:Minecraft测试版 - 1.16.0.57（Xbox One/Windows 10/Android）|1.16.0.57]]
+* [[Documentation:Minecraft测试版 - 1.16.0.58（Xbox One/Windows 10/Android）|1.16.0.58]]
+* [[Documentation:Minecraft测试版 - 1.16.0.59（Xbox One/Windows 10/Android）|1.16.0.59]]
+* [[Documentation:Minecraft测试版 - 1.16.0.60（Xbox One/Windows 10/Android）|1.16.0.60]]
+* [[Documentation:Minecraft测试版 - 1.16.0.61（Xbox One/Windows 10/Android）|1.16.0.61]]
+* [[Documentation:Minecraft测试版 - 1.16.0.63（Xbox One/Windows 10/Android）|1.16.0.63]]
+* [[Documentation:Minecraft测试版 - 1.16.0.64（Xbox One/Windows 10/Android）|1.16.0.64]]
+* [[Documentation:Minecraft测试版 - 1.16.0.66（Xbox One/Windows 10/Android）|1.16.0.66]]
+* [[Documentation:Minecraft测试版 - 1.16.0.68（Xbox One/Windows 10/Android）|1.16.0.68]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 下界更新 - 1.16.0（基岩）|1.16.0]]
+* [[Documentation:Minecraft - 1.16.1（基岩）|1.16.1]]
+    |}
+  |-
+  ! 1.16.1x.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.10（基岩）|1.16.10]]
+    |}
+  |-
+  ! 1.16.2x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.16.20.50（Xbox One/Windows 10/Android）|1.16.20.50]]
+* [[Documentation:Minecraft测试版 - 1.16.20.52（Xbox One/Windows 10/Android）|1.16.20.52]]
+* [[Documentation:Minecraft测试版 - 1.16.20.53（Xbox One/Windows 10/Android）|1.16.20.53]]
+* [[Documentation:Minecraft测试版 - 1.16.20.54（Xbox One/Windows 10/Android）|1.16.20.54]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.20（基岩）|1.16.20]]
+* [[Documentation:Minecraft - 1.16.21（仅Switch）|1.16.21]]
+    |}
+  |-
+  ! [[File:RenderDragon logo.png|16px|link=]] 1.16.3x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:带有RTX的Minecraft测试版 - 1.16.30.52（Windows 10）|1.16.30.52]]
+* [[Documentation:带有RTX的Minecraft测试版 - 1.16.30.53（Windows 10）|1.16.30.53]]
+* [[Documentation:带有RTX的Minecraft测试版 - 1.16.30.57（Windows 10）|1.16.30.57]]
+    |}
+  |-
+  ! 1.16.4x.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.40（基岩）|1.16.40]]
+* [[Documentation:Minecraft - 1.16.42（PlayStation®VR）|1.16.42]]
+    |}
+  |-
+  ! 1.16.5x.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.50（仅iOS）|1.16.50]]
+    |}
+  |-
+  ! 1.16.6x.x
+  |
+    {|
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.60（仅PS4）|1.16.60]]
+* [[Documentation:Minecraft - 1.16.61（仅PS4）|1.16.61]]
+    |}
+  |-
+  ! 1.16.10x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.16.100.50（Xbox One/Windows 10/Android）|1.16.100.50]]
+* [[Documentation:Minecraft测试版 - 1.16.100.51（Xbox One/Windows 10/Android）|1.16.100.51]]
+* [[Documentation:Minecraft测试版 - 1.16.100.52（Xbox One/Windows 10/Android）|1.16.100.52]]
+* [[Documentation:Minecraft测试版 - 1.16.100.53（Xbox One/Windows 10/Android）|1.16.100.53]]
+* [[Documentation:Minecraft测试版 - 1.16.100.54（Xbox One/Windows 10/Android）|1.16.100.54]]
+* [[Documentation:Minecraft测试版 - 1.16.100.55（Xbox One/Windows 10/Android）|1.16.100.55]]
+* [[Documentation:Minecraft测试版 - 1.16.100.56（Xbox One/Windows 10/Android）|1.16.100.56]]
+* [[Documentation:Minecraft测试版 - 1.16.100.57（Xbox One/Windows 10/Android）|1.16.100.57]]
+* [[Documentation:Minecraft测试版 - 1.16.100.58（Xbox One/Windows 10/Android）|1.16.100.58]]
+* [[Documentation:Minecraft测试版 - 1.16.100.59（Xbox One/Windows 10/Android）|1.16.100.59]]
+* [[Documentation:Minecraft测试版 - 1.16.100.60（Xbox One/Windows 10/Android）|1.16.100.60]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.100（基岩）|1.16.100]]
+* [[Documentation:Minecraft - 1.16.101（基岩）|1.16.101]]
+    |}
+  |-
+  ! 1.16.20x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.16.200.51（Xbox One/Windows 10/Android）|1.16.200.51]]
+* [[Documentation:Minecraft测试版 - 1.16.200.52（Xbox One/Windows 10/Android）|1.16.200.52]]
+* [[Documentation:Minecraft测试版 - 1.16.200.53（Xbox One/Windows 10/Android）|1.16.200.53]]
+* [[Documentation:Minecraft测试版 - 1.16.200.55（Xbox One/Windows 10/Android）|1.16.200.55]]
+* [[Documentation:Minecraft测试版 - 1.16.200.56（Xbox One/Windows 10/Android）|1.16.200.56]]
+* [[Documentation:Minecraft测试版 - 1.16.200.57（Xbox One/Windows 10/Android）|1.16.200.57]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.200（基岩）|1.16.200]]
+* [[Documentation:Minecraft - 1.16.201（基岩）|1.16.201]]
+    |}
+  |-
+  ! 1.16.21x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.16.210.50（Xbox One/Windows 10/Android）|1.16.210.50]]
+* [[Documentation:Minecraft测试版 - 1.16.210.51（Xbox One/Windows 10/Android）|1.16.210.51]]
+* [[Documentation:Minecraft测试版 - 1.16.210.53（Xbox One/Windows 10/Android）|1.16.210.53]]
+* [[Documentation:Minecraft测试版 - 1.16.210.54（Xbox One/Windows 10/Android）|1.16.210.54]]
+* [[Documentation:Minecraft测试版 - 1.16.210.55（Xbox One/Windows 10/Android）|1.16.210.55]]
+* [[Documentation:Minecraft测试版 - 1.16.210.56（Xbox One/Windows 10/Android）|1.16.210.56]]
+* [[Documentation:Minecraft测试版 - 1.16.210.57（Xbox One/Windows 10/Android）|1.16.210.57]]
+* [[Documentation:Minecraft测试版 - 1.16.210.58（Xbox One/Windows 10/Android）|1.16.210.58]]
+* [[Documentation:Minecraft测试版 - 1.16.210.59（Xbox One/Windows 10/Android）|1.16.210.59]]
+* [[Documentation:Minecraft测试版 - 1.16.210.60（Xbox One/Windows 10/Android）|1.16.210.60]]
+* [[Documentation:Minecraft测试版 - 1.16.210.61（Xbox One/Windows 10/Android）|1.16.210.61]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.210（基岩）|1.16.210]]
+    |}
+  |-
+  ! 1.16.22x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.16.220.50（Xbox One/Windows 10/Android）|1.16.220.50]]
+* [[Documentation:Minecraft测试版 - 1.16.220.51（Xbox One/Windows 10/Android）|1.16.220.51]]
+* [[Documentation:Minecraft测试版 - 1.16.220.52（Xbox One/Windows 10/Android）|1.16.220.52]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.16.220（基岩）|1.16.220]]
+* [[Documentation:Minecraft - 1.16.221（基岩）|1.16.221]]
+    |}
+  |}
+|-
+! {{BlockSprite|amethyst-cluster}} 1.17&lt;br&gt;&lt;small&gt;[[洞穴与山崖]]&lt;br&gt;（第一部分）&lt;/small&gt;
+|
+  {|
+  ! 1.17.0x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.16.230.50（Xbox One/Windows 10/Android）|1.16.230.50]]
+* [[Documentation:Minecraft测试版 - 1.16.230.52（Xbox One/Windows 10/Android）|1.16.230.52]]
+* [[Documentation:Minecraft测试版 - 1.16.230.54（Xbox One/Windows 10/Android）|1.16.230.54]]
+* [[Documentation:Minecraft测试版 - 1.16.230.56（Xbox One/Windows 10/Android）|1.16.230.56]]
+* [[Documentation:Minecraft测试版 - 1.17.0.50（Xbox One/Windows 10/Android）|1.17.0.50]]
+* [[Documentation:Minecraft测试版 - 1.17.0.52（Xbox One/Windows 10/Android）|1.17.0.52]]
+* [[Documentation:Minecraft测试版 - 1.17.0.54（Xbox One/Windows 10/Android）|1.17.0.54]]
+* [[Documentation:Minecraft测试版 - 1.17.0.56（Xbox One/Windows 10/Android）|1.17.0.56]]
+* [[Documentation:Minecraft测试版 - 1.17.0.58（Xbox One/Windows 10/Android）|1.17.0.58]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 洞穴与山崖：第一部分 - 1.17.0（基岩）|1.17.0]]
+* [[Documentation:Minecraft - 1.17.1（仅Switch）|1.17.1]]
+* [[Documentation:Minecraft - 1.17.2（基岩）|1.17.2]]
+    |}
+  |-
+  ! 1.17.1x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.17.10.20（Xbox One/Windows 10/Android）|1.17.10.20]]
+* [[Documentation:Minecraft测试版 - 1.17.10.21（Xbox One/Windows 10）|1.17.10.21]]
+* [[Documentation:Minecraft测试版 - 1.17.10.22（Xbox One/Windows 10/Android）|1.17.10.22]]
+* [[Documentation:Minecraft测试版 - 1.17.10.23（Xbox One/Windows 10/Android）|1.17.10.23]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.17.10（基岩）|1.17.10]]
+* [[Documentation:Minecraft - 1.17.11（基岩）|1.17.11]]
+    |}
+  |-
+  ! 1.17.3x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.17.20.20（Xbox One/Windows 10/Android）|1.17.20.20]]
+* [[Documentation:Minecraft测试版 - 1.17.20.21（Xbox One/Windows 10/Android）|1.17.20.21]]
+* [[Documentation:Minecraft测试版 - 1.17.20.22（Xbox One/Windows 10/Android）|1.17.20.22]]
+* [[Documentation:Minecraft测试版 - 1.17.20.23（Xbox One/Windows 10/Android）|1.17.20.23]]
+* [[Documentation:Minecraft测试版 - 1.17.30.20（Xbox One/Windows 10/Android）|1.17.30.20]]
+* [[Documentation:Minecraft测试版 - 1.17.30.21（Xbox One/Windows 10/Android）|1.17.30.21]]
+* [[Documentation:Minecraft测试版 - 1.17.30.22（Xbox One/Windows 10/Android）|1.17.30.22]]
+* [[Documentation:Minecraft测试版 - 1.17.30.23（Xbox One/Windows 10/Android）|1.17.30.23]]
+* [[Documentation:Minecraft测试版 - 1.17.30.24（Xbox One/Windows 10/Android）|1.17.30.24]]
+* [[Documentation:Minecraft测试版 - 1.17.30.25（Xbox One/Windows 10/Android）|1.17.30.25]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.17.30（基岩）|1.17.30]]
+* [[Documentation:Minecraft - 1.17.32（基岩）|1.17.32]]
+* [[Documentation:Minecraft - 1.17.33（Amazon）|1.17.33]]
+* [[Documentation:Minecraft - 1.17.34（基岩）|1.17.34]]
+    |}
+  |-
+  ! 1.17.4x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.17.40.20（Xbox One/Windows 10/Android）|1.17.40.20]]
+* [[Documentation:Minecraft测试版 - 1.17.40.21（Xbox One/Windows 10/Android）|1.17.40.21]]
+* [[Documentation:Minecraft测试版 - 1.17.40.23（Xbox One/Windows 10/Android）|1.17.40.23]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 1.17.40（基岩）|1.17.40]]
+* [[Documentation:Minecraft - 1.17.41（基岩）|1.17.41]]
+    |}
+  |}
+|-
+! {{EnvSprite|cave}} 1.18&lt;br&gt;&lt;small&gt;[[洞穴与山崖]]&lt;br&gt;（第二部分）&lt;/small&gt;
+|
+  {|
+  ! 1.18.0x.x
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.18.0.20（Xbox One/Windows 10/Android）|1.18.0.20]]
+* [[Documentation:Minecraft测试版 - 1.18.0.21（Xbox One/Windows 10/Android）|1.18.0.21]]
+* [[Documentation:Minecraft测试版 - 1.18.0.22（Xbox One/Windows 10/Android）|1.18.0.22]]
+* [[Documentation:Minecraft测试版 - 1.18.0.23（Android）|1.18.0.23]]
+* [[Documentation:Minecraft测试版 - 1.18.0.24（Xbox One/Windows 10/Android）|1.18.0.24]]
+* [[Documentation:Minecraft测试版 - 1.18.0.25（Xbox One/Windows 10/Android）|1.18.0.25]]
+* [[Documentation:Minecraft测试版 - 1.18.0.27（Xbox One/Windows 10/Android）|1.18.0.27]]
+    |-
+    ! 零售构建
+    |
+* [[Documentation:Minecraft - 洞穴与山崖：第二部分 - 1.18.0（基岩）|1.18.0]]
+* [[Documentation:Minecraft - 1.18.1（基岩）|1.18.1]]
+* [[Documentation:Minecraft - 1.18.2（基岩）|1.18.2]]
+    |}
+  |-
+  ! 1.18.10.x+
+  |
+    {|
+    ! 测试构建
+    |
+* [[Documentation:Minecraft测试版 - 1.18.10.20（Xbox One/Windows 10/Android）|1.18.10.20]]
+* [[Documentation:Minecraft测试版 - 1.18.10.21（Xbox One/Windows 10/Android）|1.18.10.21]]
+* [[Documentation:Minecraft测试版 - 1.18.10.22（Xbox/Android）|1.18.10.22]]
+* [[Documentation:Minecraft测试版 - 1.18.10.24（Xbox/Windows/Android）|1.18.10.24]]
+* [[Documentation:Minecraft测试版 - 1.18.10.26（Xbox/Windows/Android）|1.18.10.26]]
+* [[Documentation:Minecraft测试版 - 1.18.10.27（Xbox/Windows/Android）|1.18.10.27]]
+* [[Documentation:Minecraft测试版 - 1.18.10.28（Xbox/Windows/Android）|1.18.10.28]]
+* [[Documentation:Minecraft测试版 - 1.18.20.21（Xbox/Windows/Android）|1.18.20.21]]
+* [[Documentation:Minecraft测试版 - 1.18.20.23（Xbox/Windows/Android）|1.18.20.23]]
+    |}
+  |}
+|}
+&lt;/div&gt;
+|}
+&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- 请将分类/语言链接放在文档页面 --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>4hb39udeczyx0rsqz2wb3mxal6ddz8y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox Bedrock Edition version</title>
+    <ns>10</ns>
+    <id>2944</id>
+    <revision>
+      <id>14997</id>
+      <parentid>14994</parentid>
+      <timestamp>2022-01-16T11:17:33Z</timestamp>
+      <contributor>
+        <username>Miemie Method</username>
+        <id>3</id>
+      </contributor>
+      <minor/>
+      <comment>Miemie Method移动页面[[Template:Navbox Bedrock Edition versions]]至[[Template:Navbox Bedrock Edition version]]</comment>
+      <origin>14994</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="26148" sha1="oxrf219117m3suny6jnr2w5965zxm0m" xml:space="preserve">&lt;div style="clear: both"&gt;
+{| {{SimpleNavbox|[[Minecraft]][[基岩版]]版本}}
+|-
+! 版本
+| 
+* [[演示模式#携带版（已过时）|Alpha演示版]]
+|-
+! {{ItemSprite|book-and-quill}} 开发周期
+|
+* {{InvLink|id=Grass Block|link=Manual:基岩版版本记录#携带版Alpha|Alpha}}&lt;small&gt;（2011－2016）&lt;/small&gt;
+* {{EntityLink|id=ender-dragon|Manual:基岩版版本记录#携带版|正式版}}&lt;small&gt;（2016至今）&lt;/small&gt;
+* {{BlockLink|id=Bedrock|Manual:基岩版版本记录|基岩版}}&lt;small&gt;（2017至今）&lt;/small&gt;
+|-
+! {{EnvSprite|sounds}} 资源更新
+|
+* [[纹理更新]]&lt;small&gt;（2019）&lt;/small&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|{{InvLink|id=Grass Block|携带版Alpha|Alpha}}|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | Alpha || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+| colspan="2" class="navbox-thru" | 
+* {{itemLink|id=book|Manual:携带版版本记录#Alpha|版本记录}}
+* {{BlockLink|id=crafting-table|Manual:基岩版版本记录/测试版本#Alpha|测试版本}}
+|-
+! {{BlockSprite|grass-block-top}} Demo
+|
+* [[Manual:携带版Demo|Demo]]
+|-
+! {{LegacyBlockSprite|rose-be1}} 0.1
+|
+* '''[[Manual:携带版0.1.0|0.1.0]]'''
+* [[Manual:携带版0.1.1|0.1.1]]
+** [[Manual:携带版0.1.1#J版本|j]]
+* [[Manual:携带版0.1.2|0.1.2]]
+** [[Manual:携带版0.1.1#J版本|j]]
+* [[Manual:携带版0.1.3|0.1.3]]
+** [[Manual:携带版0.1.1#J版本|j]]
+|-
+! [[File:Heart.svg|16px|link=]] 0.2
+|
+* '''[[Manual:携带版0.2.0|0.2.0]]'''
+**[[Manual:携带版0.2.0#J版本|j]]
+* [[Manual:携带版0.2.1|0.2.1]]
+** [[Manual:携带版0.2.1_Rev2|rev 2]]
+* [[Manual:携带版0.2.2|0.2.2]]
+|-
+! {{LegacyBlockSprite|crafting-table}} 0.3
+|
+* '''[[Manual:携带版0.3.0|0.3.0]]'''
+&lt;!-- 0.3.1不存在 --&gt;
+* [[Manual:携带版0.3.2|0.3.2]]
+* [[Manual:携带版0.3.3|0.3.3]]
+|-
+! {{BlockSprite|chest}} 0.4
+|
+* '''[[Manual:携带版0.4.0|0.4.0]]'''
+** [[Manual:携带版0.4.0#J版本|j]]
+** [[Manual:携带版0.4.0_Rev2|rev 2]]
+** [[Manual:携带版0.4.0_Rev3|rev 3]]
+|-
+! {{EnvSprite|nether-reactor}} 0.5
+|
+* '''[[Manual:携带版0.5.0|0.5.0]]'''
+** [[Manual:携带版0.5.0#J版本|j]]
+|-
+! {{ItemSprite|diamond-chestplate-pre-texture-update}} 0.6
+|
+* '''[[Manual:携带版0.6.0|0.6.0]]'''
+* [[Manual:携带版0.6.1|0.6.1]]
+|-
+! {{ItemSprite|flint-and-steel-pre-texture-update}} 0.7&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/0.7版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.7.0|0.7.0]]
+  |
+* [[Manual:携带版0.6.2|0.6.2]]
+  |}
+* [[Manual:携带版0.7.1|0.7.1]]
+* [[Manual:携带版0.7.2|0.7.2]]
+* [[Manual:携带版0.7.3|0.7.3]]
+* [[Manual:携带版0.7.4|0.7.4]]
+* [[Manual:携带版0.7.5|0.7.5]]
+* [[Manual:携带版0.7.6|0.7.6]]
+|-
+! {{ItemSprite|beetroot-pre-texture-update}} 0.8&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/0.8版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.8.0|0.8.0]]
+  |
+&lt;!--0.8.0.b1不存在 --&gt;
+* [[Manual:携带版0.8.0.b2|build 2]]
+* [[Manual:携带版0.8.0.b3|build 3]]
+* [[Manual:携带版0.8.0.b4|build 4]]
+* [[Manual:携带版0.8.0.b5|build 5]]
+* [[Manual:携带版0.8.0.b6|build 6]]
+* [[Manual:携带版0.8.0.b7|build 7]]
+* [[Manual:携带版0.8.0.b8|build 8]]
+  |}
+* '''[[Manual:携带版0.8.1|0.8.1]]'''
+* '''[[Manual:携带版0.8.2|0.8.2]]'''
+|-
+! {{LegacyBlockSprite|paeonia}} 0.9&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/0.9版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.9.0|0.9.0]]
+  |
+* [[Manual:携带版0.9.0.b1|build 1]]
+* [[Manual:携带版0.9.0.b2|build 2]]
+* [[Manual:携带版0.9.0.b3|build 3]]
+* [[Manual:携带版0.9.0.b4|build 4]]
+* [[Manual:携带版0.9.0.b5|build 5]]
+* [[Manual:携带版0.9.0.b6|build 6]]
+* [[Manual:携带版0.9.0.b7|build 7]]
+* [[Manual:携带版0.9.0.b8|build 8]]
+* [[Manual:携带版0.9.0.b9|build 9（RC1）]]
+* [[Manual:携带版0.9.0.b10|build 10（RC2）]]
+* [[Manual:携带版0.9.0.b11|build 11（RC3）]]
+* [[Manual:携带版0.9.0.b12|build 12（RC4）]]
+  |}
+* '''[[Manual:携带版0.9.1|0.9.1]]'''
+* '''[[Manual:携带版0.9.2|0.9.2]]'''
+* '''[[Manual:携带版0.9.3|0.9.3]]'''
+* '''[[Manual:携带版0.9.4|0.9.4]]'''
+* '''[[Manual:携带版0.9.5|0.9.5]]'''
+|-
+! {{EnvSprite|badlands-mineshaft}} 0.10&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/0.10版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.10.0|0.10.0]]
+  |
+* [[Manual:携带版0.10.0.b1|build 1]]
+* [[Manual:携带版0.10.0.b2|build 2]]
+* [[Manual:携带版0.10.0.b3|build 3]]
+* [[Manual:携带版0.10.0.b4|build 4]]
+* [[Manual:携带版0.10.0.b5|build 5]]
+* [[Manual:携带版0.10.0.b6|build 6]]
+* [[Manual:携带版0.10.0.b7|build 7]]
+* [[Manual:携带版0.10.0.b8|build 8]]
+* [[Manual:携带版0.10.0.b9|build 9]]
+ |}
+* '''[[Manual:携带版0.10.1|0.10.1]]'''
+* '''[[Manual:携带版0.10.2|0.10.2]]'''
+* '''[[Manual:携带版0.10.3|0.10.3]]'''
+* '''[[Manual:携带版0.10.4|0.10.4]]'''
+* '''[[Manual:携带版0.10.5|0.10.5]]'''
+|-
+! {{ItemSprite|oak-boat-pre-texture-update}} 0.11&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/0.11版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.11.0|0.11.0]]
+  |
+* [[Manual:携带版0.11.0.b1|build 1]]
+* [[Manual:携带版0.11.0.b2|build 2]]
+* [[Manual:携带版0.11.0.b3|build 3]]
+* [[Manual:携带版0.11.0.b4|build 4]]
+* [[Manual:携带版0.11.0.b5|build 5]]
+* [[Manual:携带版0.11.0.b6|build 6]]
+* [[Manual:携带版0.11.0.b7|build 7]]
+* [[Manual:携带版0.11.0.b8|build 8]]
+* [[Manual:携带版0.11.0.b9|build 9]]
+* [[Manual:携带版0.11.0.b10|build 10]]
+* [[Manual:携带版0.11.0.b11|build 11]]
+* [[Manual:携带版0.11.0.b12|build 12]]
+* [[Manual:携带版0.11.0.b13|build 13]]
+* [[Manual:携带版0.11.0.b14|build 14（RC）]]
+  |}
+* '''[[Manual:携带版0.11.1|0.11.1]]'''
+* '''[[Manual:携带版0.11.2|0.11.2]]'''
+|-
+! {{EnvSprite|nether-portal}} 0.12&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/0.12版本|指南]]）&lt;/small&gt;
+|
+* '''[[Manual:携带版0.12.0|0.12.0]]'''
+* '''[[Manual:携带版0.12.0.1|0.12.0.1]]'''
+  {|
+  ! [[Manual:携带版0.12.1|0.12.1]]
+  |
+* [[Manual:携带版0.12.1.b1|build 1]]
+* [[Manual:携带版0.12.1.b2|build 2]]
+* [[Manual:携带版0.12.1.b3|build 3]]
+* [[Manual:携带版0.12.1.b4|build 4]]
+* [[Manual:携带版0.12.1.b5|build 5]]
+* [[Manual:携带版0.12.1.b6|build 6]]
+* [[Manual:携带版0.12.1.b7|build 7]]
+* [[Manual:携带版0.12.1.b8|build 8]]
+* [[Manual:携带版0.12.1.b9|build 9]]
+* [[Manual:携带版0.12.1.b10|build 10]]
+* [[Manual:携带版0.12.1.b11|build 11]]
+* [[Manual:携带版0.12.1.b12|build 12]]
+* [[Manual:携带版0.12.1.b13|build 13]]
+  |}
+* '''[[Manual:携带版0.12.2|0.12.2]]'''
+* '''[[Manual:携带版0.12.3|0.12.3]]'''
+|-
+! {{ItemSprite|redstone-dust-pre-texture-update}} 0.13&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/0.13版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.13.0|0.13.0]]
+  |
+* [[Manual:携带版0.13.0.b1|build 1]]
+* [[Manual:携带版0.13.0.b2|build 2]]
+* [[Manual:携带版0.13.0.b3|build 3]]
+* [[Manual:携带版0.13.0.b4|build 4]]
+* [[Manual:携带版0.13.0.b5|build 5]]
+  |}
+* '''[[Manual:携带版0.13.1|0.13.1]]'''
+* '''[[Manual:携带版0.13.2|0.13.2]]'''
+|-
+! {{ItemSprite|redstone-comparator-pre-texture-update}} 0.14&lt;br&gt;&lt;small&gt;[[主世界更新]]&lt;/small&gt;&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/主世界更新|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.14.0|0.14.0]]
+  |
+* [[Manual:携带版0.14.0.b1|build 1]]
+* [[Manual:携带版0.14.0.b2|build 2]]
+* [[Manual:携带版0.14.0.b3|build 3]]
+* [[Manual:携带版0.14.0.b4|build 4]]
+* [[Manual:携带版0.14.0.b5|build 5]]
+* [[Manual:携带版0.14.0.b6|build 6]]
+* [[Manual:携带版0.14.0.b7|build 7]]
+  |}
+* '''[[Manual:携带版0.14.1|0.14.1]]'''
+* '''[[Manual:携带版0.14.2|0.14.2]]'''
+* '''[[Manual:携带版0.14.3|0.14.3]]'''
+|-
+! {{EntitySprite|horse}} 0.15&lt;br&gt;&lt;small&gt;[[友好更新]]&lt;/small&gt;&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/友好更新|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.15.0|0.15.0]]
+  |
+* [[Manual:携带版0.15.0.b1|build 1]]
+* [[Manual:携带版0.15.0.b2|build 2]]
+* [[Manual:携带版0.15.0.b3|build 3]]
+    {|
+    ! [[Realms]]
+    |
+* [[Manual:携带版0.15.0.a2|build 1]]
+* [[Manual:携带版0.15.0.a3|build 2]]
+&lt;!--.b3不存在 --&gt;
+* [[Manual:携带版0.15.0.a4|build 4]]
+    |}
+  |-
+  ! [[Manual:携带版0.15.1|0.15.1]]
+  | 
+* [[Manual:携带版0.15.1.b1|build 1]]
+  |}
+* '''[[Manual:携带版0.15.2|0.15.2]]'''
+* '''[[Manual:携带版0.15.3|0.15.3]]'''
+* '''[[Manual:携带版0.15.4|0.15.4]]'''
+&lt;!-- 0.15.5不存在 --&gt;
+* '''[[Manual:携带版0.15.6|0.15.6]]'''
+* '''[[Manual:携带版0.15.7|0.15.7]]'''
+* '''[[Manual:携带版0.15.8|0.15.8]]'''
+* '''[[Manual:携带版0.15.9|0.15.9]]'''
+* '''[[Manual:携带版0.15.10|0.15.10]]'''
+|-
+! {{ItemSprite|nether-star-pre-texture-update}} 0.16&lt;br&gt;&lt;small&gt;[[Boss更新]]&lt;/small&gt;&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/Boss更新|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版0.16.0|0.16.0]]
+  |
+* [[Manual:携带版0.16.0.b1|build 1]]
+* [[Manual:携带版0.16.0.b2|build 2]]
+* [[Manual:携带版0.16.0.b3|build 3]]
+* [[Manual:携带版0.16.0.b4|build 4]]
+* [[Manual:携带版0.16.0.b5|build 5]]
+  |}
+* '''[[Manual:携带版0.16.1|0.16.1]]'''
+* '''[[Manual:携带版0.16.2|0.16.2]]'''
+|}
+&lt;/div&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|{{EntityLink|id=ender-dragon|Manual:基岩版版本记录#正式版|正式版}}|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | 1.0 || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+| colspan="2" class="navbox-thru" |
+* {{ItemLink|id=book|Manual:基岩版版本记录|版本记录}}
+* {{BlockLink|id=crafting-table|Manual:基岩版版本记录/测试版本|测试版本}}
+|-
+! {{EntitySprite|Ender Dragon}} 1.0&lt;br&gt;&lt;small&gt;[[末影更新]]&lt;/small&gt;&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/末影更新|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版1.0.0|1.0.0]]
+  |
+* [[Manual:携带版0.17.0.1|0.17.0.1]]
+* [[Manual:携带版0.17.0.2|0.17.0.2]]
+* [[Manual:携带版1.0.0.0|1.0.0.0]]
+* [[Manual:携带版1.0.0.1|1.0.0.1]]
+* [[Manual:携带版1.0.0.2|1.0.0.2]]
+* [[Manual:携带版1.0.0.7|1.0.0.7]]
+  |}
+* '''[[Manual:携带版1.0.1|1.0.1]]'''
+* '''[[Manual:携带版1.0.2|1.0.2]]'''
+  {|
+  ! [[Manual:携带版1.0.3|1.0.3]]
+  | 
+* [[Manual:携带版1.0.3.0|1.0.3.0]]
+  |-
+  ! [[Manual:携带版1.0.4|1.0.4]]
+  |
+* [[Manual:携带版1.0.4.0|1.0.4.0]]
+* [[Manual:携带版1.0.4.1|1.0.4.1]]
+  |-
+  ! [[Manual:携带版1.0.5|1.0.5]]
+  |
+* [[Manual:携带版1.0.5.0|1.0.5.0]]
+* [[Manual:携带版1.0.5.3|1.0.5.3]]
+* [[Manual:携带版1.0.5.11|1.0.5.11]]
+  |-
+  ! [[Manual:携带版1.0.6|1.0.6]]
+  |
+* [[Manual:携带版1.0.6.0|1.0.6.0]]
+  |}
+* '''[[Manual:携带版1.0.7|1.0.7]]'''
+* '''[[Manual:携带版1.0.8|1.0.8]]'''
+* '''[[Manual:携带版1.0.9|1.0.9]]'''
+|-
+! {{ItemSprite|Woodland Explorer Map Pre-Texture-Update}} 1.1&lt;br&gt;&lt;small&gt;[[探索更新]]&lt;/small&gt;&lt;br&gt;&lt;small&gt;（[[Manual:携带版指南/探索更新|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:携带版1.1.0|1.1.0]]
+  |
+* [[Manual:携带版1.1.0.0|1.1.0.0]]
+* [[Manual:携带版1.1.0.1|1.1.0.1]]
+* [[Manual:携带版1.1.0.3|1.1.0.3]]
+* [[Manual:携带版1.1.0.4|1.1.0.4]]
+* [[Manual:携带版1.1.0.5|1.1.0.5]]
+* [[Manual:携带版1.1.0.8|1.1.0.8]]
+* [[Manual:携带版1.1.0.9|1.1.0.9]]
+  |-
+  ! [[Manual:携带版1.1.1|1.1.1]]
+  |
+* [[Manual:携带版1.1.1.0|1.1.1.0]]
+* [[Manual:携带版1.1.1.1|1.1.1.1]]
+  |}
+* '''[[Manual:携带版1.1.2|1.1.2]]'''
+  {|
+  ! [[Manual:携带版1.1.3|1.1.3]]
+  |
+* [[Manual:携带版1.1.3.0|1.1.3.0]]
+* [[Manual:携带版1.1.3.1|1.1.3.1]]
+  |}
+* '''[[Manual:携带版1.1.4|1.1.4]]'''
+* '''[[Manual:携带版1.1.5|1.1.5]]'''
+&lt;!-- 1.1.6不存在 --&gt;
+* '''[[Manual:携带版1.1.7|1.1.7]]'''
+|-
+| colspan="2" class="navbox-thru" | '''{{BlockLink|id=bedrock|Manual:基岩版版本记录|基岩版}}'''
+|-
+! [[File:Xbox One.svg|15px|link=]] 1.2&lt;br&gt;&lt;small&gt;[[独乐不如众乐更新|独乐不如&lt;br&gt;众乐更新]]&lt;/small&gt;&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/独乐不如众乐更新|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.2.0|1.2.0]]
+  |
+* [[Manual:基岩版1.2.0.2|1.2.0.2]]
+* [[Manual:基岩版1.2.0.7|1.2.0.7]]
+* [[Manual:基岩版1.2.0.9|1.2.0.9]]
+* [[Manual:基岩版1.2.0.11|1.2.0.11]]
+* [[Manual:基岩版1.2.0.15|1.2.0.15]]
+* [[Manual:基岩版1.2.0.18|1.2.0.18]]
+* [[Manual:基岩版1.2.0.22|1.2.0.22]]
+* [[Manual:基岩版1.2.0.25|1.2.0.25]]
+* [[Manual:基岩版1.2.0.31|1.2.0.31]]
+|}
+* '''[[Manual:基岩版1.2.1|1.2.1]]'''
+* '''[[Manual:基岩版1.2.2|1.2.2]]'''
+  {|
+  ! [[Manual:基岩版1.2.3|1.2.3]]
+  |
+* [[Manual:基岩版1.2.3.3|1.2.3.3]]
+  |-
+  ! [[Manual:基岩版1.2.5|1.2.5]]
+  |
+* [[Manual:基岩版1.2.5.0|1.2.5.0]]
+* [[Manual:基岩版1.2.5.12|1.2.5.12]]
+* [[Manual:基岩版1.2.5.15|1.2.5.15]]
+  |-
+  ! [[Manual:基岩版1.2.6|1.2.6]]
+  |
+* [[Manual:基岩版1.2.6.2|1.2.6.2]]
+  |}
+* '''[[Manual:基岩版1.2.6.60|1.2.6.60]]'''
+* '''[[Manual:基岩版1.2.7|1.2.7]]'''
+* '''[[Manual:基岩版1.2.8|1.2.8]]'''
+* '''[[Manual:基岩版1.2.9|1.2.9]]'''
+  {|
+  ! [[Manual:基岩版1.2.10|1.2.10]]
+  |
+* [[Manual:基岩版1.2.10.1|1.2.10.1]]
+  |}
+* '''[[Manual:基岩版1.2.11|1.2.11]]'''
+&lt;!-- 1.2.12不存在 --&gt;
+  {|
+  ! [[Manual:基岩版1.2.13|1.2.13]]
+  |
+* [[Manual:基岩版1.2.13.5|1.2.13.5]]
+* [[Manual:基岩版1.2.13.6|1.2.13.6]]
+  |}
+* '''[[Manual:基岩版1.2.14|1.2.14]]'''
+* '''[[Manual:基岩版1.2.15|1.2.15]]'''
+* '''[[Manual:基岩版1.2.13.60|1.2.16]]'''
+|-
+! {{ItemSprite|Trident}} 1.4&lt;br&gt;&lt;small&gt;[[水域更新]]&lt;br&gt;（第一阶段）&lt;br&gt;（[[Manual:基岩版指南/水域更新（第一阶段）|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.4.0|1.4.0]]
+  |
+* [[Manual:基岩版1.2.13.8|1.2.13.8]]
+* [[Manual:基岩版1.2.13.10|1.2.13.10]]
+* [[Manual:基岩版1.2.13.11|1.2.13.11]]
+* [[Manual:基岩版1.2.13.12|1.2.13.12]]
+* [[Manual:基岩版1.2.14.2|1.2.14.2]]
+* [[Manual:基岩版1.2.14.3|1.2.14.3]]
+* [[Manual:基岩版1.2.20.1|1.2.20.1]]
+* [[Manual:基岩版1.2.20.2|1.2.20.2]]
+  |}
+* '''[[Manual:基岩版1.4.1|1.4.1]]'''
+* '''[[Manual:基岩版1.4.2|1.4.2]]'''
+* '''[[Manual:基岩版1.4.3|1.4.3]]'''
+* '''[[Manual:基岩版1.4.4|1.4.4]]'''
+|-
+! {{BlockSprite|Conduit}} 1.5&lt;br&gt;&lt;small&gt;[[水域更新]]&lt;br&gt;（第二阶段）&lt;br&gt;（[[Manual:基岩版指南/水域更新（第二阶段）|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.5.0|1.5.0]]
+  |
+* [[Manual:基岩版1.5.0.0|1.5.0.0]]
+* [[Manual:基岩版1.5.0.1|1.5.0.1]]
+* [[Manual:基岩版1.5.0.4|1.5.0.4]]
+* [[Manual:基岩版1.5.0.7|1.5.0.7]]
+* [[Manual:基岩版1.5.0.10|1.5.0.10]]
+  |}
+* '''[[Manual:基岩版1.5.1|1.5.1]]'''
+* '''[[Manual:基岩版1.5.2|1.5.2]]'''
+* '''[[Manual:基岩版1.5.3|1.5.3]]'''
+|-
+! {{EntitySprite|phantom}} 1.6&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/1.6版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.6.0|1.6.0]]
+  |
+* [[Manual:基岩版1.6.0.1|1.6.0.1]]
+* [[Manual:基岩版1.6.0.5|1.6.0.5]]
+* [[Manual:基岩版1.6.0.6|1.6.0.6]]
+* [[Manual:基岩版1.6.0.8|1.6.0.8]]
+* [[Manual:基岩版1.6.0.30|1.6.0.30]]
+  |}
+* '''[[Manual:基岩版1.6.1|1.6.1]]'''
+* '''[[Manual:基岩版1.6.2|1.6.2]]'''
+|-
+! {{BlockSprite|command-block}} 1.7 &lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/1.7版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.7.0|1.7.0]]
+  |
+* [[Manual:基岩版1.7.0.2|1.7.0.2]]
+* [[Manual:基岩版1.7.0.3|1.7.0.3]]
+* [[Manual:基岩版1.7.0.5|1.7.0.5]]
+* [[Manual:基岩版1.7.0.7|1.7.0.7]]
+* [[Manual:基岩版1.7.0.9|1.7.0.9]]
+  |}
+* '''[[Manual:基岩版1.7.1|1.7.1]]'''
+|-
+! {{EntitySprite|panda}} 1.8&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/1.8版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.8.0|1.8.0]]
+  |
+* [[Manual:基岩版1.8.0.8|1.8.0.8]]
+* [[Manual:基岩版1.8.0.10|1.8.0.10]]
+* [[Manual:基岩版1.8.0.11|1.8.0.11]]
+* [[Manual:基岩版1.8.0.13|1.8.0.13]]
+* [[Manual:基岩版1.8.0.14|1.8.0.14]]
+  |}
+* '''[[Manual:基岩版1.8.1|1.8.1]]'''
+|-
+! {{EntitySprite|pillager}} 1.9&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/1.9版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.9.0|1.9.0]]
+  |
+* [[Manual:基岩版1.9.0.0|1.9.0.0]]
+* [[Manual:基岩版1.9.0.2|1.9.0.2]]
+* [[Manual:基岩版1.9.0.3|1.9.0.3]]
+* [[Manual:基岩版1.9.0.5|1.9.0.5]]
+  |}
+|- 
+! {{ItemSprite|campfire}} 1.10&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/1.10版本|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.10.0|1.10.0]]
+  |
+* [[Manual:基岩版1.10.0.3|1.10.0.3]]
+* [[Manual:基岩版1.10.0.4|1.10.0.4]]
+  |}
+* '''[[Manual:基岩版1.10.1|1.10.1]]'''
+|-
+!{{EffectSprite|hero-of-the-village}} 1.11&lt;br&gt;&lt;small&gt;[[村庄与掠夺]]&lt;/small&gt;&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/村庄与掠夺|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.11.0|1.11.0]]
+  |
+* [[Manual:基岩版1.11.0.1|1.11.0.1]]
+* [[Manual:基岩版1.11.0.3|1.11.0.3]]
+* [[Manual:基岩版1.11.0.4|1.11.0.4]]
+* [[Manual:基岩版1.11.0.5|1.11.0.5]]
+* [[Manual:基岩版1.11.0.7|1.11.0.7]]
+* [[Manual:基岩版1.11.0.8|1.11.0.8]]
+* [[Manual:基岩版1.11.0.9|1.11.0.9]]
+* [[Manual:基岩版1.11.0.10|1.11.0.10]]
+  |}
+* '''[[Manual:基岩版1.11.1|1.11.1]]'''
+* '''[[Manual:基岩版1.11.2|1.11.2]]'''
+* '''[[Manual:基岩版1.11.3|1.11.3]]'''
+* '''[[Manual:基岩版1.11.4|1.11.4]]'''
+|-
+!{{BlockSprite|Camera}} 1.12&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/1.12版本|指南]]）&lt;/small&gt;
+|
+    {|
+    ! [[Manual:基岩版1.12.0|1.12.0]]
+    |
+* [[Manual:基岩版1.12.0.2|1.12.0.2]]
+* [[Manual:基岩版1.12.0.3|1.12.0.3]]
+* [[Manual:基岩版1.12.0.4|1.12.0.4]]
+* [[Manual:基岩版1.12.0.6|1.12.0.6]]
+* [[Manual:基岩版1.12.0.9|1.12.0.9]]
+* [[Manual:基岩版1.12.0.10|1.12.0.10]]
+* [[Manual:基岩版1.12.0.11|1.12.0.11]]
+* [[Manual:基岩版1.12.0.12|1.12.0.12]]
+* [[Manual:基岩版1.12.0.13|1.12.0.13]]
+* [[Manual:基岩版1.12.0.14|1.12.0.14]]
+    |}
+* '''[[Manual:基岩版1.12.1|1.12.1]]'''
+|-
+!{{EntitySprite|Fox}} 1.13&lt;br&gt;&lt;small&gt;（[[Manual:基岩版指南/1.13版本|指南]]）&lt;/small&gt;
+|
+  {|
+   ! [[Manual:基岩版1.13.0|1.13.0]]
+   |
+* [[Manual:基岩版1.13.0.1|1.13.0.1]]
+* [[Manual:基岩版1.13.0.2|1.13.0.2]]
+* [[Manual:基岩版1.13.0.4|1.13.0.4]]
+* [[Manual:基岩版1.13.0.5|1.13.0.5]]
+* [[Manual:基岩版1.13.0.6|1.13.0.6]]
+* [[Manual:基岩版1.13.0.9|1.13.0.9]]
+* [[Manual:基岩版1.13.0.13|1.13.0.13]]
+* [[Manual:基岩版1.13.0.15|1.13.0.15]]
+* [[Manual:基岩版1.13.0.16|1.13.0.16]]
+* [[Manual:基岩版1.13.0.17|1.13.0.17]]
+* [[Manual:基岩版1.13.0.18|1.13.0.18]]
+   |}
+* '''[[Manual:基岩版1.13.1|1.13.1]]'''
+* '''[[Manual:基岩版1.13.2|1.13.2]]'''
+* '''[[Manual:基岩版1.13.3|1.13.3]]'''
+|-
+! {{EntitySprite|bee}} 1.14&lt;br&gt;&lt;small&gt;[[嗡嗡蜂群]]&lt;br&gt;（[[Manual:基岩版指南/嗡嗡蜂群|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.14.0|1.14.0]]
+  |
+* [[Manual:基岩版1.14.0.1|1.14.0.1]]
+* [[Manual:基岩版1.14.0.2|1.14.0.2]]
+* [[Manual:基岩版1.14.0.3|1.14.0.3]]
+* [[Manual:基岩版1.14.0.4|1.14.0.4]]
+* [[Manual:基岩版1.14.0.6|1.14.0.6]]
+  |}
+* '''[[Manual:基岩版1.14.0.12|1.14.0.12]]'''
+  {|
+  ! [[Manual:基岩版1.14.1|1.14.1]]
+  |
+* [[Manual:基岩版1.14.0.50|1.14.0.50]]
+* [[Manual:基岩版1.14.0.51|1.14.0.51]]
+* [[Manual:基岩版1.14.0.52|1.14.0.52]]
+* [[Manual:基岩版1.14.1.2|1.14.1.2]]
+* [[Manual:基岩版1.14.1.3|1.14.1.3]]
+  |-
+  ! [[Manual:基岩版1.14.20|1.14.20]]
+  |
+* [[Manual:基岩版1.14.2.50|1.14.2.50]]
+* [[Manual:基岩版1.14.2.51|1.14.2.51]]
+* [[Manual:基岩版1.14.25.1|1.14.25.1]]
+  |-
+  ! [[Manual:基岩版1.14.30|1.14.30]]
+  |
+* [[Manual:基岩版1.14.30.51|1.14.30.51]]
+  |}
+* '''[[Manual:基岩版1.14.41|1.14.41]]'''
+* '''[[Manual:基岩版1.14.60|1.14.60]]'''
+|-
+! {{ItemSprite|netherite-ingot}} 1.16&lt;br&gt;&lt;small&gt;[[下界更新]]&lt;br&gt;（[[Manual:基岩版指南/下界更新|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.16.0|1.16.0]]
+  |
+* [[Manual:基岩版1.15.0.51|1.15.0.51]]
+* [[Manual:基岩版1.15.0.53|1.15.0.53]]
+* [[Manual:基岩版1.15.0.54|1.15.0.54]]
+* [[Manual:基岩版1.15.0.55|1.15.0.55]]
+* [[Manual:基岩版1.15.0.56|1.15.0.56]]
+* [[Manual:基岩版1.16.0.51|1.16.0.51]]
+* ''[[Manual:基岩版1.16.0.52|1.16.0.52]]''
+* [[Manual:基岩版1.16.0.53|1.16.0.53]]
+* ''[[Manual:基岩版1.16.0.54|1.16.0.54]]''
+* [[Manual:基岩版1.16.0.55|1.16.0.55]]
+* [[Manual:基岩版1.16.0.57|1.16.0.57]]
+* [[Manual:基岩版1.16.0.58|1.16.0.58]]
+* [[Manual:基岩版1.16.0.59|1.16.0.59]]
+* [[Manual:基岩版1.16.0.60|1.16.0.60]]
+* [[Manual:基岩版1.16.0.61|1.16.0.61]]
+* [[Manual:基岩版1.16.0.63|1.16.0.63]]
+* [[Manual:基岩版1.16.0.64|1.16.0.64]]
+* [[Manual:基岩版1.16.0.66|1.16.0.66]]
+* [[Manual:基岩版1.16.0.67|1.16.0.67]]
+* [[Manual:基岩版1.16.0.68|1.16.0.68]]
+  |}
+* '''[[Manual:基岩版1.16.1|1.16.1]]'''
+* '''[[Manual:基岩版1.16.1.03|1.16.1.03]]'''
+* '''[[Manual:基岩版1.16.1.04|1.16.1.04]]'''
+* '''[[Manual:基岩版1.16.10|1.16.10]]'''
+  {|
+  ! [[Manual:基岩版1.16.20|1.16.20]]
+  |
+* [[Manual:基岩版1.16.20.50|1.16.20.50]]
+* [[Manual:基岩版1.16.20.52|1.16.20.52]]
+* [[Manual:基岩版1.16.20.53|1.16.20.53]]
+* [[Manual:基岩版1.16.20.54|1.16.20.54]]
+  |}
+* '''[[Manual:基岩版1.16.21|1.16.21]]'''
+* '''[[Manual:基岩版1.16.40|1.16.40]]'''
+* '''[[Manual:基岩版1.16.42|1.16.42]]'''
+* '''[[Manual:基岩版1.16.50|1.16.50]]'''
+* '''[[Manual:基岩版1.16.60|1.16.60]]'''
+* '''[[Manual:基岩版1.16.61|1.16.61]]'''
+  {|
+  ! [[Manual:基岩版1.16.100|1.16.100]]
+  |
+* [[Manual:基岩版1.16.100.50|1.16.100.50]]
+* [[Manual:基岩版1.16.100.51|1.16.100.51]]
+* [[Manual:基岩版1.16.100.52|1.16.100.52]]
+* [[Manual:基岩版1.16.100.53|1.16.100.53]]
+* [[Manual:基岩版1.16.100.54|1.16.100.54]]
+* [[Manual:基岩版1.16.100.55|1.16.100.55]]
+* [[Manual:基岩版1.16.100.56|1.16.100.56]]
+* [[Manual:基岩版1.16.100.57|1.16.100.57]]
+* [[Manual:基岩版1.16.100.58|1.16.100.58]]
+* [[Manual:基岩版1.16.100.59|1.16.100.59]]
+* [[Manual:基岩版1.16.100.60|1.16.100.60]]
+  |}
+* '''[[Manual:基岩版1.16.101|1.16.101]]'''
+  {|
+  ! [[Manual:基岩版1.16.200|1.16.200]]
+  |
+* [[Manual:基岩版1.16.200.51|1.16.200.51]]
+* [[Manual:基岩版1.16.200.52|1.16.200.52]]
+* [[Manual:基岩版1.16.200.53|1.16.200.53]]
+* [[Manual:基岩版1.16.200.55|1.16.200.55]]
+* [[Manual:基岩版1.16.200.56|1.16.200.56]]
+* [[Manual:基岩版1.16.200.57|1.16.200.57]]
+    {|
+    ! RTX Beta
+    |
+* [[Manual:基岩版1.15.0.8|1.15.0.8]]
+* [[Manual:基岩版1.15.0.9|1.15.0.9]]
+* [[Manual:基岩版1.15.0.11|1.15.0.11]]
+* [[Manual:基岩版1.16.30.52|1.16.30.52]]
+* [[Manual:基岩版1.16.30.53|1.16.30.53]]
+* [[Manual:基岩版1.16.30.56|1.16.30.56]]
+* [[Manual:基岩版1.16.30.57|1.16.30.57]]
+    |}
+  |}
+* '''[[Manual:基岩版1.16.201|1.16.201]]'''
+  {|
+  ! [[Manual:基岩版1.16.210|1.16.210]]
+  |
+* [[Manual:基岩版1.16.210.50|1.16.210.50]]
+* [[Manual:基岩版1.16.210.51|1.16.210.51]]
+* [[Manual:基岩版1.16.210.53|1.16.210.53]]
+* [[Manual:基岩版1.16.210.54|1.16.210.54]]
+* [[Manual:基岩版1.16.210.55|1.16.210.55]]
+* [[Manual:基岩版1.16.210.56|1.16.210.56]]
+* [[Manual:基岩版1.16.210.57|1.16.210.57]]
+* [[Manual:基岩版1.16.210.58|1.16.210.58]]
+* [[Manual:基岩版1.16.210.59|1.16.210.59]]
+* [[Manual:基岩版1.16.210.60|1.16.210.60]]
+* [[Manual:基岩版1.16.210.61|1.16.210.61]]
+  |-
+  ! [[Manual:基岩版1.16.220|1.16.220]]
+  |
+* [[Manual:基岩版1.16.220.50|1.16.220.50]]
+* [[Manual:基岩版1.16.220.51|1.16.220.51]]
+* [[Manual:基岩版1.16.220.52|1.16.220.52]]
+  |}
+* '''[[Manual:基岩版1.16.221|1.16.221]]'''
+|-
+! {{BlockSprite|amethyst-cluster}} 1.17 &lt;br&gt;&lt;small&gt;[[洞穴与山崖]]&lt;br&gt;（第一部分）&lt;br&gt;（[[Manual:基岩版指南/洞穴与山崖|指南]]）&lt;/small&gt;
+|
+  {|
+  |-
+  ! [[Manual:基岩版1.17.0|1.17.0]]
+  |
+* [[Manual:基岩版1.16.230.50|1.16.230.50]]
+* [[Manual:基岩版1.16.230.52|1.16.230.52]]
+* [[Manual:基岩版1.16.230.54|1.16.230.54]]
+* [[Manual:基岩版1.16.230.56|1.16.230.56]]
+* [[Manual:基岩版1.17.0.50|1.17.0.50]]
+* [[Manual:基岩版1.17.0.52|1.17.0.52]]
+* [[Manual:基岩版1.17.0.54|1.17.0.54]]
+* [[Manual:基岩版1.17.0.56|1.17.0.56]]
+* [[Manual:基岩版1.17.0.58|1.17.0.58]]
+  |}
+* '''[[Manual:基岩版1.17.1|1.17.1]]'''
+* '''[[Manual:基岩版1.17.2|1.17.2]]'''
+  {|
+  ! [[Manual:基岩版1.17.10|1.17.10]]
+  |
+* [[Manual:基岩版1.17.10.20|1.17.10.20]]
+* [[Manual:基岩版1.17.10.21|1.17.10.21]]
+* [[Manual:基岩版1.17.10.22|1.17.10.22]]
+* [[Manual:基岩版1.17.10.23|1.17.10.23]]
+  |}
+* '''[[Manual:基岩版1.17.11|1.17.11]]'''
+  {|
+  ! [[Manual:基岩版1.17.30|1.17.30]]
+  |
+* [[Manual:基岩版1.17.20.20|1.17.20.20]]
+* [[Manual:基岩版1.17.20.21|1.17.20.21]]
+* [[Manual:基岩版1.17.20.22|1.17.20.22]]
+* [[Manual:基岩版1.17.20.23|1.17.20.23]]
+* [[Manual:基岩版1.17.30.20|1.17.30.20]]
+* [[Manual:基岩版1.17.30.21|1.17.30.21]]
+* [[Manual:基岩版1.17.30.22|1.17.30.22]]
+* [[Manual:基岩版1.17.30.23|1.17.30.23]]
+* [[Manual:基岩版1.17.30.24|1.17.30.24]]
+* [[Manual:基岩版1.17.30.25|1.17.30.25]]
+  |}
+* '''[[Manual:基岩版1.17.32|1.17.32]]'''
+* '''[[Manual:基岩版1.17.33|1.17.33]]'''
+* '''[[Manual:基岩版1.17.34|1.17.34]]'''
+  {|
+  ! [[Manual:基岩版1.17.40|1.17.40]]
+  |
+* [[Manual:基岩版1.17.40.20|1.17.40.20]]
+* [[Manual:基岩版1.17.40.21|1.17.40.21]]
+* [[Manual:基岩版1.17.40.23|1.17.40.23]]
+  |}
+* '''[[Manual:基岩版1.17.41|1.17.41]]'''
+|-
+! {{EnvSprite|cave}} 1.18 &lt;br&gt;&lt;small&gt;[[洞穴与山崖]]&lt;br&gt;（第二部分）&lt;br&gt;（[[Manual:基岩版指南/洞穴与山崖|指南]]）&lt;/small&gt;
+|
+  {|
+  ! [[Manual:基岩版1.18.0|1.18.0]]
+  |
+* [[Manual:基岩版1.18.0.20|1.18.0.20]]
+* [[Manual:基岩版1.18.0.21|1.18.0.21]]
+* [[Manual:基岩版1.18.0.22|1.18.0.22]]
+* [[Manual:基岩版1.18.0.23|1.18.0.23]]
+* [[Manual:基岩版1.18.0.24|1.18.0.24]]
+* [[Manual:基岩版1.18.0.25|1.18.0.25]]
+* [[Manual:基岩版1.18.0.27|1.18.0.27]]
+  |}
+* '''[[Manual:基岩版1.18.1|1.18.1]]'''
+* '''[[Manual:基岩版1.18.2|1.18.2]]'''
+  {|
+  ! [[Manual:基岩版1.18.10|1.18.10]]
+  |
+* [[Manual:基岩版1.18.10.20|1.18.10.20]]
+* [[Manual:基岩版1.18.10.21|1.18.10.21]]
+* [[Manual:基岩版1.18.10.22|1.18.10.22]]
+* [[Manual:基岩版1.18.10.24|1.18.10.24]]
+* [[Manual:基岩版1.18.10.26|1.18.10.26]]
+* [[Manual:基岩版1.18.10.27|1.18.10.27]]
+  |}
+|-
+! 1.19 &lt;br&gt;&lt;small&gt;[[荒野更新]]&lt;/small&gt;
+|
+  {|
+  |-
+  ! [[Manual:基岩版1.19.0|1.19.0]]
+  |}
+|}
+&lt;/div&gt;
+|}
+&lt;/div&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- 请将分类/语言链接放在文档页面 --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>oxrf219117m3suny6jnr2w5965zxm0m</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox block</title>
+    <ns>10</ns>
+    <id>1440</id>
+    <revision>
+      <id>20026</id>
+      <parentid>15006</parentid>
+      <timestamp>2022-12-30T03:42:18Z</timestamp>
+      <contributor>
+        <username>2190303755</username>
+        <id>43</id>
+      </contributor>
+      <minor/>
+      <origin>20026</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14165" sha1="6yzjde4yxuncydyfdshvti9vx6xcaex" xml:space="preserve">&lt;div style="overflow-x:hidden; clear:both"&gt;
+{| {{SimpleNavbox|[[方块]]}}
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|{{BlockLink|id=bricks|建筑方块|link=none}}|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | building blocks || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+! {{tooltip|{{ItemSprite|Iron Pickaxe}}|可使用镐来加速破坏的方块}}
+|
+* {{BlockLink|Bone Block}}
+* {{BlockLink|Concrete}}
+* {{BlockLink|Terracotta|{{BlockLink|id=colored-terracotta|Terracotta|link=none}}}}
+* {{BlockLink|Coral Blocks}}
+** {{BlockLink|Dead Coral Blocks|失活}}
+* {{BlockLink|Gilded Blackstone}}
+* {{BlockLink|Ice}}
+&lt;!-- Ice --&gt;* {{BlockLink|Packed Ice}}
+&lt;!-- Ice --&gt;* {{BlockLink|Blue Ice}}
+* {{BlockLink|Magma Block}}
+    {|
+    ! [[岩石]]
+    |
+* {{BlockLink|Crying Obsidian}}
+* {{BlockLink|Obsidian}}
+        {|
+        ! [[主世界]]
+        |
+* {{BlockLink|Andesite}}
+** {{BlockLink|Polished Andesite|磨制}}
+* {{BlockLink|Block of Amethyst}}
+* {{BlockLink|Budding Amethyst}}
+* {{BlockLink|Calcite}}
+* {{BlockLink|Cobblestone}}
+** {{BlockLink|Mossy Cobblestone}}
+* {{BlockLink|Dripstone Block}}
+* {{BlockLink|Diorite}}
+** {{BlockLink|Polished Diorite|磨制}}
+* {{BlockLink|Granite}}
+** {{BlockLink|Polished Granite|磨制}}
+* {{BlockLink|Sandstone|{{BlockLink|id=red-sandstone|砂岩|link=none}}}}
+** {{BlockLink|Chiseled Sandstone|{{BlockLink|id=chiseled-red-sandstone|錾制|link=none}}}}
+** {{BlockLink|Cut Sandstone|{{BlockLink|id=cut-red-sandstone|切制|link=none}}}}
+** {{BlockLink|Smooth Sandstone|{{BlockLink|id=smooth-red-sandstone|平滑|link=none}}}}
+* {{BlockLink|Stone}}
+* {{BlockLink|Tuff}}
+        |-
+        ! [[下界]]
+        |
+* {{BlockLink|Basalt}}
+** {{BlockLink|Polished Basalt|磨制}}
+* {{BlockLink|Blackstone}}
+* {{BlockLink|Netherrack}}
+* {{BlockLink|Nylium|{{BlockLink|id=warped nylium|菌岩|link=none}}}}
+        |-
+        ! [[末地]]
+        |
+* {{BlockLink|End Stone}}
+        |}
+    |-
+    ! [[矿石]]
+    |
+        {|
+        ! 主世界
+        |
+* {{BlockLink|Coal Ore}}
+* {{BlockLink|Copper Ore}}
+* {{BlockLink|Diamond Ore}}
+* {{BlockLink|Emerald Ore}}
+* {{BlockLink|Gold Ore}}
+* {{BlockLink|Iron Ore}}
+* {{BlockLink|Lapis Lazuli Ore}}
+* {{BlockLink|Redstone Ore}}
+        |-
+        ! 下界
+        |
+* {{BlockLink|Ancient Debris}}
+* {{BlockLink|Nether Gold Ore}}
+* {{BlockLink|Nether Quartz Ore}}
+        |}
+    |-
+    ! {{tooltip|矿物块|仅限可合成为原矿物的方块，不包括红石块}}
+    |
+* {{BlockLink|Block of Coal}}
+* {{BlockLink|Block of Diamond}}
+* {{BlockLink|Block of Emerald}}
+* {{BlockLink|Block of Gold}}
+* {{BlockLink|Block of Iron}}
+* {{BlockLink|Block of Netherite}}
+* {{BlockLink|Copper Block}}
+* {{BlockLink|Lapis Lazuli Block}}
+    |-
+    ! 砖类
+    |
+* {{BlockLink|Block of Quartz}}
+** {{BlockLink|Chiseled Quartz Block|錾制}}
+** {{BlockLink|Quartz Bricks}}
+** {{BlockLink|Quartz Pillar}}
+** {{BlockLink|Smooth Quartz|平滑}}
+* {{BlockLink|Bricks}}
+* {{BlockLink|id=all-cut-copper-blocks|Cut Copper}}
+** {{BlockLink|id=all-copper-blocks|Copper Block|涂蜡/锈蚀铜块}}
+* {{BlockLink|End Stone Bricks}}
+* {{BlockLink|Nether Bricks}}
+** {{BlockLink|Chiseled Nether Bricks|錾制}}
+** {{BlockLink|Cracked Nether Bricks|裂纹}}
+** {{BlockLink|Red Nether Bricks|红色}}
+* {{BlockLink|Polished Blackstone}}
+** {{BlockLink|Chiseled Polished Blackstone|錾制}}
+* {{BlockLink|Polished Blackstone Bricks}}
+** {{BlockLink|Cracked Polished Blackstone Bricks|裂纹}}
+* {{BlockLink|Prismarine}}
+** {{BlockLink|Prismarine Bricks}}
+** {{BlockLink|Dark Prismarine}}
+* {{BlockLink|Purpur Block}}
+** {{BlockLink|Purpur Pillar}}
+* {{BlockLink|Smooth Stone}}
+* {{BlockLink|Stone Bricks}}
+** {{BlockLink|Chiseled Stone Bricks|錾制}}
+** {{BlockLink|Cracked Stone Bricks}}
+** {{BlockLink|Mossy Stone Bricks}}
+    |}
+|-
+! {{tooltip|{{ItemSprite|Iron Axe}}|可使用斧来加速破坏的方块}}
+|
+* {{BlockLink|Jack o'Lantern}}
+* {{BlockLink|Melon}}
+* {{BlockLink|Pumpkin}}
+** {{BlockLink|Carved Pumpkin}}
+    {|
+    ! 木材
+    |
+* {{BlockLink|Bookshelf}}
+* {{BlockLink|Logs|{{BlockLink|id=stems|原木/菌柄|link=none}}}}
+** {{BlockLink|Stripped Logs|{{BlockLink|id=stripped-stems|去皮|link=none}}}}
+* {{BlockLink|Planks}}
+* {{BlockLink|Wood|{{BlockLink|id=hyphae|木头/菌核|link=none}}}}
+** {{BlockLink|Stripped Wood|{{BlockLink|id=stripped-hyphae|去皮|link=none}}}}
+    |}
+|-
+! {{tooltip|{{ItemSprite|Iron Shovel}}|可使用锹来加速破坏的方块}}
+|
+* {{BlockLink|Clay}}
+* {{BlockLink|Coarse Dirt}}
+* {{BlockLink|Concrete Powder}}
+* {{BlockLink|Dirt}}
+* {{BlockLink|Grass Block}}
+* {{BlockLink|Gravel}}
+* {{BlockLink|Mycelium}}
+* {{BlockLink|Podzol}}
+* {{BlockLink|Sand}}
+** {{BlockLink|Red Sand}}
+* {{BlockLink|Snow Block}}
+* {{BlockLink|Soul Sand}}
+* {{BlockLink|Soul Soil}}
+|-
+! {{tooltip|{{ItemSprite|Iron Hoe}}|可使用锄来加速破坏的方块}}
+|
+* {{BlockLink|Dried Kelp Block}}
+* {{BlockLink|Hay Bale}}
+* {{BlockLink|Nether Wart Block}}
+** {{BlockLink|Warped Wart Block|诡异}}
+* {{BlockLink|Sponge}}
+** {{BlockLink|Wet Sponge}}
+|-
+! 其他
+|
+* {{BlockLink|Bedrock}}
+* {{BlockLink|Glass|{{BlockLink|id=stained-glass|玻璃|link=none}}}}
+* {{BlockLink|Glowstone}}
+* {{BlockLink|Sea Lantern}}
+* {{BlockLink|Slabs}}
+* {{BlockLink|Stairs}}
+* {{BlockLink|Tinted Glass}}
+* {{BlockLink|Wool}}
+|-
+|}
+&lt;/div&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|{{BlockLink|id=peony|装饰性方块|link=none}}|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | decoration blocks || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+! 生物
+|
+* {{BlockLink|Mushrooms}}
+    {|
+    ! [[主世界]]
+    |
+* {{BlockLink|Azalea}}
+** {{BlockLink|Flowering Azalea|Flowering|link=Azalea}}
+* {{BlockLink|Bamboo}}
+** {{BlockLink|Bamboo Sapling}}
+* {{BlockLink|Beetroots}}
+* {{BlockLink|Cactus}}
+* {{BlockLink|Carrots}}
+* {{BlockLink|Cave Vines}}
+* {{BlockLink|Cocoa}}
+* {{BlockLink|Coral}}
+** {{BlockLink|Dead Coral|失活}}
+* {{BlockLink|Coral Fans}}
+** {{BlockLink|Dead Coral Fans|失活}}
+* {{BlockLink|Dead Bush}}
+&lt;!-- Dripleaf --&gt;* {{BlockLink|Small Dripleaf}}
+&lt;!-- Dripleaf --&gt;* {{BlockLink|Big Dripleaf}}
+* {{BlockLink|Fern}}
+** {{BlockLink|Large Fern}}
+* {{BlockLink|Flowers}}
+* {{BlockLink|Grass}}
+** {{BlockLink|Tall Grass}}
+* {{BlockLink|Glow Lichen}}
+* {{BlockLink|Hanging Roots}}
+* {{BlockLink|Kelp}}
+* {{BlockLink|Leaves}}
+* {{BlockLink|Lily Pad}}
+* {{BlockLink|Melon Stem}}
+* {{BlockLink|Moss Block}}
+* {{BlockLink|Moss Carpet}}
+* {{BlockLink|Mushroom Blocks}}
+** {{BlockLink|Mushroom Stem}}
+* {{BlockLink|Potatoes}}
+* {{BlockLink|Pumpkin Stem}}
+* {{BlockLink|Saplings}}
+* {{BlockLink|Sea Pickle}}
+* {{BlockLink|Seagrass}}
+** {{BlockLink|Tall Seagrass}}
+* {{BlockLink|Spore Blossom}}
+* {{BlockLink|Sugar Cane}}
+* {{BlockLink|Sweet Berry Bush}}
+* {{BlockLink|Turtle Eggs}}&lt;!--原属于杂项--&gt;
+* {{BlockLink|Vines}}
+* {{BlockLink|Wheat}}
+    |-
+    ! [[下界]]
+    |
+* {{BlockLink|Crimson Fungus|{{BlockLink|id=warped-fungus|菌类|link=none}}}}
+* {{BlockLink|Nether Sprouts}}
+* {{BlockLink|Nether Wart}}
+* {{BlockLink|Roots|{{BlockLink|id=warped-roots|菌索|link=none}}}}
+* {{BlockLink|Shroomlight}}
+* {{BlockLink|Twisting Vines Plant|缠怨藤}}
+* {{BlockLink|Weeping Vines Plant|垂泪藤}}
+    |-
+    ! [[末地]]
+    |
+* {{BlockLink|Chorus Flower}}
+* {{BlockLink|Chorus Plant}}
+    |}
+|-
+! 效用型
+|
+* {{BlockLink|Beds}}
+* {{BlockLink|Bell}}
+* {{BlockLink|Cauldron}}
+* {{BlockLink|Fletching Table}}
+* {{BlockLink|Jukebox}}
+* {{BlockLink|Ladder}}
+* {{BlockLink|Lectern}}&lt;!--原属于红石--&gt;
+* {{BlockLink|Lodestone}}
+* {{BlockLink|Respawn Anchor}}
+* {{BlockLink|Scaffolding}}
+* {{ItemLink|Signs}}
+    {|
+    ! 纯光源
+    |
+* {{BlockLink|Candle}}
+* {{BlockLink|End Rod}}
+* {{BlockLink|Lantern}}
+** {{BlockLink|Soul Lantern}}
+* {{BlockLink|Torch}}
+** {{BlockLink|Soul Torch}}
+    |-
+    ! 物品加工
+    |
+* {{BlockLink|Anvil}}
+* {{BlockLink|Blast Furnace}}
+* {{BlockLink|Brewing Stand}}&lt;!--原属于酿造--&gt;
+* {{BlockLink|Campfire}}
+** {{BlockLink|Soul Campfire}}
+* {{BlockLink|Cartography Table}}
+* {{BlockLink|Composter}}
+* {{BlockLink|Crafting Table}}
+* {{BlockLink|Enchanting Table}}
+* {{BlockLink|Furnace|{{BlockLink|id=lit-furnace|Furnace|link=none}}}}
+* {{BlockLink|Grindstone}}
+* {{BlockLink|Loom}}
+* {{BlockLink|Smithing Table}}
+* {{BlockLink|Smoker}}
+* {{BlockLink|Stonecutter}}
+    |-
+    ! 种植与养殖
+    |
+* {{BlockLink|Bee Nest}}
+** {{BlockLink|Beehive}}
+* {{BlockLink|Farmland|{{BlockLink|id=farmland-wet|Farmland|link=none}}}}
+* {{BlockLink|Flower Pot}}
+    |-
+    ! 容器
+    |
+* {{BlockLink|Barrel}}
+* {{BlockLink|Chest}}
+* {{BlockLink|Ender Chest}}
+* {{BlockLink|Shulker Box|{{BlockLink|id=shulker-boxes|潜影盒|link=none}}}}
+    |-
+    ! 增益
+    |
+* {{BlockLink|Beacon}}&lt;!--原属于杂项--&gt;
+* {{BlockLink|Cake}}&lt;!--原属于食物--&gt;
+* {{BlockLink|Conduit}}&lt;!--原属于杂项--&gt;
+    |}
+|-
+! 其他
+|
+* {{BlockLink|Amethyst Cluster}}
+** {{BlockLink|Amethyst Bud}}
+* {{BlockLink|Banners}}
+* {{BlockLink|Carpets}}
+* {{BlockLink|Chain}}
+* {{BlockLink|Cobweb}}
+* {{BlockLink|Dragon Egg}}&lt;!--未出现在创造模式物品栏中--&gt;
+* {{BlockLink|End Portal Frame}}
+* {{BlockLink|Fences}}
+* {{BlockLink|Glass Pane|{{BlockLink|id=stained-glass-panes|玻璃板|link=none}}}}
+* {{BlockLink|Glazed Terracotta}}
+* {{BlockLink|Grass Path}}
+* {{BlockLink|Heads}}
+* {{BlockLink|Honey Block}}
+* {{BlockLink|Honeycomb Block}}
+* {{BlockLink|Infested Blocks}}
+* {{BlockLink|Iron Bars}}
+* {{BlockLink|Pointed Dripstone}}
+* {{BlockLink|Rooted Dirt}}
+* {{BlockLink|Slime Block}}
+* {{BlockLink|Snow}}
+* {{BlockLink|Walls}}
+|-
+|}
+&lt;/div&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|{{ItemLink|id=redstone-dust|红石|link=none}}|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | redstone || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+! 电源
+|
+* {{BlockLink|Block of Redstone}}
+* {{BlockLink|Buttons}}
+* {{BlockLink|Daylight Detectors}}
+* {{BlockLink|Lever}}
+* {{BlockLink|Lightning Rod}}
+* {{BlockLink|Observer}}
+* {{BlockLink|Pressure Plates}}
+* {{BlockLink|Redstone Torch|{{BlockLink|id=redstone-torch-off|Redstone Torch|link=none}}}}
+* {{BlockLink|Sculk Sensor}}
+* {{BlockLink|Trapped Chest}}
+* {{BlockLink|Target}}
+* {{BlockLink|Tripwire Hook}}
+** {{BlockLink|Tripwire}}
+|-
+! 传输元件
+|
+* {{BlockLink|Redstone Dust}}
+* {{BlockLink|Redstone Comparator|{{BlockLink|id=redstone-comparator-off|Redstone Comparator|link=none}}}}
+* {{BlockLink|Redstone Repeater|{{BlockLink|id=redstone-repeater-off|Redstone Repeater|link=none}}}}
+|-
+! 机械元件
+|
+* {{BlockLink|Dispenser}}
+* {{BlockLink|Doors}}
+* {{BlockLink|Dropper}}
+* {{BlockLink|Fence Gates}}
+* {{BlockLink|Hopper}}
+* {{BlockLink|Note Block}}
+* {{BlockLink|Piston}}
+** {{BlockLink|Sticky Piston}}
+* {{BlockLink|Redstone Lamp|{{BlockLink|id=lit-redstone-lamp|Redstone Lamp|link=none}}}}
+* {{BlockLink|TNT}}
+* {{BlockLink|Trapdoors}}
+|-
+! 交通运输
+|
+* {{BlockLink|Rail}}
+* {{BlockLink|Activator Rail}}
+* {{BlockLink|Detector Rail}}
+* {{BlockLink|Powered Rail}}
+|}
+&lt;/div&gt;
+|-
+| colspan="2" |
+&lt;div style="margin-right: -6px"&gt;
+{| style="border: 0" {{SimpleNavbox|{{ItemLink|id=lava-bucket|其他|link=none}}|class=&lt;includeonly&gt;{{#ifeq: {{{1}}} | others || collapsed }}&lt;/includeonly&gt;|position=middle}}
+|-
+! 杂项
+|
+* {{BlockLink|Air}}
+* {{BlockLink|Bubble Column}}
+* {{BlockLink|End Gateway}}
+* {{BlockLink|End Portal}}
+* {{BlockLink|Fire}}
+** {{BlockLink|Soul Fire}}
+* {{BlockLink|Frosted Ice}}
+* {{BlockLink|Lava}}
+* {{BlockLink|Nether Portal}}
+* {{BlockLink|Powder Snow}}
+* {{BlockLink|Spawner}}
+* {{BlockLink|Water}}
+|-
+! 仅[[命令]]
+|
+* {{BlockLink|Barrier}}
+* {{BlockLink|Command Blocks}}
+* {{BlockLink|Jigsaw Block}}
+* {{BlockLink|Structure Block}}
+* {{BlockLink|Structure Void}}
+|-
+! [[Java版]]方块
+|
+* {{BlockLink|Cave Air}}
+* {{BlockLink|Void Air}}
+* {{BlockLink|Petrified Oak Slab}}
+    {|
+    ! [[Java版已移除特性#方块|已移除]]
+    |
+* {{BlockLink|Cog}}
+    |-
+    ! 其他
+    |
+见[[Java版未使用特性#方块]]、[[Java版提及特性#方块]]
+    |}
+|-
+! [[基岩版]]方块
+|
+* {{ItemLink|Item Frame}}{{tooltip|*|在基岩版中以方块形式存在}}
+    {|
+    ! 仅命令
+    |
+* {{BlockLink|link=基岩版未使用特性#紫珀块|錾制紫珀块|id=purpur-block}}
+* {{BlockLink|id=Fake Wood Slab|基岩版未使用特性#伪木台阶|伪木台阶}}
+* {{BlockLink|id=Light Block|光源方块}}
+* {{BlockLink|id=stone-bricks|link=石砖#ID|平滑石砖}}
+* {{BlockLink|link=基岩版未使用特性#紫珀块|tile.purpur_block.smooth.name|id=purpur-block}}
+    |-
+    ! [[基岩版未使用特性#方块|未使用]]
+    |
+* {{BlockLink|Glowing Obsidian}}
+* {{BlockLink|Invisible Bedrock}}
+* {{BlockLink|Nether Reactor Core|{{BlockLink|Initialized Nether Reactor Core|link=none|{{BlockLink|id=Finished Nether Reactor Core|Nether Reactor Core|link=none}}}}}}
+* {{BlockLink|reserved6}}
+* {{BlockLink|切石机/旧版|旧版切石机|id=stonecutter-3ds}}
+    |-
+    ! 其他
+    |
+见[[基岩版已移除特性#方块]]、[[基岩版提及特性#方块]]
+    |}
+|-
+! [[教育版]]方块
+|
+* {{BlockLink|Chalkboard}}
+    {|
+    ! 基岩版共有
+    |
+* {{BlockLink|Allow|{{BlockLink|id=deny|允许和拒绝方块|link=none}}}}
+* {{BlockLink|Border}}
+&lt;!-- Colored Torch --&gt;* {{BlockLink|Colored Torches}}
+* {{BlockLink|Compound Creator}}
+&lt;!-- Element --&gt;* {{BlockLink|id=unknown-element|元素}}
+* {{BlockLink|Element Constructor}}
+* {{BlockLink|Hardened Glass|{{BlockLink|Hardened Stained Glass|强化玻璃|link=none}}}}
+* {{BlockLink|Hardened Glass Pane|{{BlockLink|Hardened Stained Glass Panes|强化玻璃板|link=none}}}}
+* {{BlockLink|Lab Table}}
+* {{BlockLink|Material Reducer}}
+* {{BlockLink|Heat Block}}
+* {{BlockLink|Underwater Torch}}
+* {{BlockLink|Underwater TNT}}
+    |}
+|-
+! 愚人节玩笑
+|
+* {{BlockLink|Locked Chest}}
+    {|
+    ! 其他
+    |
+见[[Java版2.0#方块]]、[[Java版1.RV-Pre1#方块]]、[[20w14infinite#方块]]
+    |}
+|}
+&lt;/div&gt;
+|-
+|}
+&lt;/div&gt;{{#if: {{NAMESPACE}}{{#pos: {{PAGENAME}} | / }} || [[Category:方块]] }}&lt;noinclude&gt;
+&lt;!-- 请将分类/语言链接放在文档页面 --&gt;
+{{documentation}}
+&lt;/noinclude&gt;</text>
+      <sha1>6yzjde4yxuncydyfdshvti9vx6xcaex</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox server side</title>
+    <ns>10</ns>
+    <id>3352</id>
+    <revision>
+      <id>25314</id>
+      <parentid>25105</parentid>
+      <timestamp>2026-05-24T03:16:18Z</timestamp>
+      <contributor>
+        <username>Windows114514</username>
+        <id>749</id>
+      </contributor>
+      <comment>清理无意义编辑。</comment>
+      <origin>25314</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2207" sha1="s5hiey45y8x5k211yhzajrv8aipgbp4" xml:space="preserve">&lt;div style="clear:both"&gt;&lt;/div&gt;
+{| {{SimpleNavbox|[[服务端]]}}
+! {{BlockSprite|Grass Block}} 官方服务端
+|
+{|
+! [[基岩版专用服务器]]&lt;br&gt;（BDS）
+|
+{|
+! DLL插件加载器/注入器
+|
+{|
+! C++
+|
+* [[LiteLoaderBDS]]
+* [[BedrockX]]
+* [[BDXCore]]
+* [[DTconsole]]
+* [[ElementZero]]
+* [[BDLauncher]]
+* [[EndStone]]
+|-
+! Node.js
+|
+* [[BDSX]]
+|-
+! Nim
+|
+* [[ElementZeroRedesigned]]
+|}
+|-
+! 基于DLL插件加载器/注入器&lt;br&gt;的插件加载器
+|
+{|
+! .NET
+|
+* [[BDSNetRunner]]
+|-
+! JavaScript
+|
+* [[LiteLoaderBDS]]
+* [[BDSJSRunner]]
+|-
+! Python
+|
+* [[BDSpyrunner]]
+* [[EndStone]]
+|-
+! Lua
+|
+* [[LiteLoaderBDS]]
+* [[BDXLua]]
+* [[LiteLuaLoader]]
+|-
+! BrainFuck
+|
+* [[BrainFuckLoader]]
+|}
+|-
+! 基于[[CSR]]和&lt;br&gt;DLL插件加载器/注入器的&lt;br&gt;插件加载器
+|
+{|
+! JavaScript
+|
+* [[PFJSRunner|PFJSR]]
+* [[BDSJSRunner2|BDSJSR2]]
+|-
+! Python
+|
+* [[IronPythonRunner]]
+* [[IronPythonRunner2]]
+|-
+! Lua
+|
+* [[IronLuaRunner]]
+* [[NetLuaRunner]]
+|-
+! Java
+|
+* [[BDSJavaRunner]]
+|}
+|}
+|-
+! [[网络游戏开服工具]]&lt;br&gt;（Apollo）
+|
+{|
+! 开发环境
+|
+* [[我的世界开发工作台]]
+|-
+! 模组格式
+|
+* [[模组SDK]]
+* [[Manual:数据驱动 (网易)|组件列表]]
+|}
+|}
+|-
+! {{BlockSprite|Grass Path}} 社区服务端
+|
+{|
+! [[PocketMine-MP|PocketMine]]
+|
+{|
+! 衍生分支
+|
+*[[Genisys]]
+*[[GenisysPro]]
+*[[GenisysPlus]]
+*[[MagicalMine]]
+*[[ClearSky]]
+*[[Elywing]]
+*[[Leveryl]]
+*[[Nebzz]]
+*[[Turanic]]
+*[[Altay]]
+*[[Apollo-Legacy]]
+*[[Bluelight]]
+*[http://www.axe.ink SCAXE]
+|}
+|-
+! [[Nukkit]]
+|
+{|
+! 衍生分支
+|
+* [[NukkitX]]
+* [[Cloudburst]]（NukkitX 2.0）
+* [[PowerNukkit]]
+* [[PowerNukkitX]]
+* [[NukkitPetteriM1Edition|PM1E]]
+* [[Nukkit (中国版)|中国版]]（[https://github.com/NeteasePE/Nukkit 网易]、[https://github.com/EaseCation/Nukkit EaseCation]）
+|-
+! 插件制作
+|
+{|
+! IDE
+|
+* [[BlocklyNukkit]]
+** [[BlocklyNukkit Loader|Loader]]
+|-
+! 教程
+|
+* [[Manual:制作Nukkit插件|手册]]
+* [[NukkitLearn]]项目
+|}
+|}
+|-
+! [[Allay]]
+|-
+! [[代理端]]
+|
+* [[Nemisys]]
+* [[WaterdogPE]]
+* [[Geyser]]
+* [[EZ4H]]
+|-
+! {{BlockSprite|barrier}} 已终止
+|
+* [[MCPEServer]]
+|}
+|}
+&lt;noinclude&gt;{{documentation}}
+&lt;!-- 请将分类/语言链接放在文档页面 --&gt;&lt;/noinclude&gt;</text>
+      <sha1>s5hiey45y8x5k211yhzajrv8aipgbp4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Navbox software</title>
+    <ns>10</ns>
+    <id>1848</id>
+    <revision>
+      <id>24362</id>
+      <parentid>23123</parentid>
+      <timestamp>2024-07-01T10:58:32Z</timestamp>
+      <contributor>
+        <username>TripleCamera</username>
+        <id>79</id>
+      </contributor>
+      <comment>+Bedrock Launcher</comment>
+      <origin>24362</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1999" sha1="mjo9vbgzk8y3u7c2f4g5obixjbi3qyr" xml:space="preserve">&lt;div style="clear:both"&gt;
+{| {{SimpleNavbox|软件与应用程序}}
+! [[启动器]]
+|
+{|
+! {{BlockSprite|Grass Block}} 官方启动器
+|
+* [[我的世界中国版]]
+|-
+! {{BlockSprite|Grass Path}} 社区启动器
+|
+{|
+! 外置型
+|
+* [[Toolbox]]
+* [[ModdedPE]]
+* [[ModdedBE]]
+* [[Minecraft Bedrock Launcher]]
+* [[MCLauncher]]
+* [[Bedrock Launcher]]
+|-
+! 实例型
+|
+* [[Horizon]]
+** [[Inner Core]]
+|-
+! {{BlockSprite|barrier}} 已终止
+|
+* [[GenericLauncher]]
+* [[BlockLauncher]]
+* [[MCPEMaster]]
+* [[多玩我的世界盒子]]
+* [[葫芦侠我的世界]]
+|}
+|}
+|-
+! 集成开发环境
+|
+{|
+! {{BlockSprite|Crafting Table}} 官方环境
+|
+* [[我的世界开发工作台]]
+|-
+! {{BlockSprite|Fletching Table}} 社区环境
+|
+{|
+! 模组制作
+|
+* [[bridge.]]
+* [[CoreCoder Studio|CoreCoder: Studio]]
+* [[NIDE]]
+* [[ModMaster]]
+* [[WIDE]]
+* [[Pocket Coder Lite]]
+* [[JSIDE]]
+|-
+! 插件制作
+|
+* [[BlocklyNukkit]]
+* [[Blockly-LXL]]
+|-
+! 扩展程序
+|
+* [[Bedrock Definitions]]
+* [[Blockception's Minecraft Bedrock Development]]
+* [[Snowstorm]]
+* [[LXLDevHelper]]
+* [[NBT Viewer]]
+|}
+|}
+|-
+! 工具链或软件包
+|
+*[[Minecraft Addon toolchain]]
+*[[Inner Core for Horizon toolchain]]
+*[[Generator Minecraft Addon]]
+*[[MCAddon Start]]
+*[[Create MCWorld]]
+|-
+! 模组管理器
+|
+* [[Horizon管理器]]
+|-
+! 纹理转换器
+|
+* [[Resource Pack Converter]]
+|-
+! 存档修改器
+|
+{|
+! {{EnvSprite|Chorus Tree}} [[NBT]]浏览器
+|
+* [[MCPETool]]
+* [[NBT Studio]]
+* [[Universal Minecraft Editor]]
+|-
+! {{EnvSprite|map}} 地图转换器
+|
+* [[Universal Minecraft Converter]]
+* [[Chunker]]
+|-
+! {{EnvSprite|Chunk}} 综合修改器
+|
+* [[MCC Tool Chest]]
+* [[MCC Tool Chest PE]]
+* [[Blocktopograph]]
+* [[Universal Minecraft Tool]]
+|-
+! {{BlockSprite|barrier}} 已终止
+|
+* [[WorldToPE]]
+* [[PocketInvEditor]]
+|}
+|}
+&lt;/div&gt;&lt;includeonly&gt;{{ #if: {{NAMESPACE}}{{{nocat|}}} || [[Category:Minecraft]] }}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{documentation}}
+&lt;!-- 请将分类/语言链接放在文档页面  --&gt;
+&lt;/noinclude&gt;</text>
+      <sha1>mjo9vbgzk8y3u7c2f4g5obixjbi3qyr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Pagenav</title>
+    <ns>10</ns>
+    <id>5593</id>
+    <revision>
+      <id>19945</id>
+      <parentid>17815</parentid>
+      <timestamp>2022-12-27T12:53:15Z</timestamp>
+      <contributor>
+        <username>2190303755</username>
+        <id>43</id>
+      </contributor>
+      <minor/>
+      <origin>19945</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="182" sha1="29ueonsl00pq9xhck541muuhqs9qmg1" xml:space="preserve">&lt;includeonly&gt;&lt;div id="topicpath" title="catnav" class="catnav"&gt;{{#invoke:breadcrumb|breadcrumb}}&lt;/div&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+{{Documentation}}
+[[分类:导航模板]]
+&lt;/noinclude&gt;</text>
+      <sha1>29ueonsl00pq9xhck541muuhqs9qmg1</sha1>
+    </revision>
+  </page>
+</mediawiki>

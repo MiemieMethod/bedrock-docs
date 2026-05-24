@@ -83,3 +83,58 @@
 <!-- 这个图片应显示Blockbench中的橡皮擦设置 -->
 
 提示：为了更好地看到对自发光纹理的更改，请在`File > Preferences > Settings`中降低Blockbench预览的亮度。
+
+如果前面的设置正确，模型中需要发光的部分现在应该会比其他部分更亮。
+
+![Blockbench中的自发光预览](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-bb-emissive.png)
+<!-- 该图片应为Blockbench里应用自发光纹理后的台灯截图，发光区域明显更亮 -->
+
+最后，右键自发光纹理并选择`Export Emission Map`导出发射贴图。其余设置通常保持默认即可，但要额外勾选`Flip Y-Axis`，因为Sketchfab会对常规纹理自动执行这一翻转。
+
+![导出发射贴图](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-export-emission.png)
+<!-- 该图片应为Blockbench中右键纹理并选择导出发射贴图的截图 -->
+
+![发射贴图导出设置](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-emission-settings.png)
+<!-- 该图片应为Emission Map导出设置对话框，并突出显示Flip Y-Axis选项 -->
+
+### 2. 导出到Sketchfab
+
+此时模型仍然应用着自发光纹理。上传到Sketchfab前，需要把模型重新切回原始纹理，否则常规底色也会被错误替换。做法与前面相同：按++ctrl+a++选中整个模型，右键大纲中的立方体，然后选择`Texture > [原始纹理名]`。
+
+![切回原始纹理](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-apply-default.png)
+<!-- 该图片应为Blockbench中把模型从自发光纹理切回原始纹理的截图 -->
+
+接下来即可直接从Blockbench上传：打开**File**→**Export**→**Upload to Sketchfab**，填写标题、描述等必填信息后点击**Confirm**。完成后，Blockbench会给出一个跳转提示，用于在Sketchfab网页中继续配置模型。
+
+![上传到Sketchfab](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-export.png)
+<!-- 该图片应为Blockbench的Upload to Sketchfab对话框或确认界面截图 -->
+
+### 3. 在Sketchfab中配置
+
+进入Sketchfab后，先点击右上角的**Edit 3D Settings**。这里会看到模型预览以及大量渲染面板。自发光相关设置主要位于**Materials**页签中。
+
+![Sketchfab中的模型](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-model-uploaded.png)
+<!-- 该图片应为模型刚上传到Sketchfab后的默认预览界面截图 -->
+
+在**Materials**面板里向下找到**Emission**分类。点击颜色选择器，切换到**Texture**页签，再选择**Manage Textures**，导入刚才从Blockbench导出的发射贴图。
+
+![自发光设置入口](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-emissive-feature.png)
+<!-- 该图片应为Sketchfab的Materials面板，并标出Emission分类位置 -->
+
+![管理纹理](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-manage-textures.png)
+<!-- 该图片应为Sketchfab中Manage Textures按钮和导入纹理界面的截图 -->
+
+导入完成后，模型就会按照发射贴图发光。之后可以继续调整背景、泛光、阴影等效果。示例中给发光材质额外加入了Bloom，因此灯光边缘会更柔和。
+
+![启用自发光与Bloom后的结果](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-bloom.png)
+<!-- 该图片应为Sketchfab中导入发射贴图并启用Bloom后的效果截图 -->
+
+如果想保留像素风边缘，可以把默认的三线性过滤改成最近邻过滤。这样发光区域边缘会更接近Minecraft常见的像素观感。
+
+![不同过滤模式的效果](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-nearest.png)
+<!-- 该图片应为Sketchfab中把发射纹理过滤方式从trilinear切换为nearest的对比截图 -->
+
+最后导出或截图即可得到成品。
+
+![Sketchfab最终效果](/assets/images/guides/tools/blockbench/emissive-textures-renders/sketchfab-finished.png)
+<!-- 该图片应为Sketchfab中完成全部设置后的最终渲染截图 -->

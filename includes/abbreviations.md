@@ -125,6 +125,7 @@
 *[MBE]: Max's Block Entity
 *[FMBE]: Fox MBE
 *[MNT]: Multiple Nested Translates
+*[semver]: Semantic Versioning
 *[AND]: AND
 *[OR]: OR
 *[NOT]: NOT
@@ -141,3 +142,7 @@
 *[WebRTC]: Web Real-Time Communication
 *[PyPI]: Python Package Index
 *[LLVM]: Low Level Virtual Machine
+*[YAML]: YAML Ain't Markup Language
+*[NEE]: Next Event Estimation
+*[ESS]: Emitter Sampling Strategy
+*[SSS]: Sunlight Sampling Strategy

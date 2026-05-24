@@ -655,7 +655,9 @@ nav:
         - 选择项目格式: guides/tools/blockbench/formats.md
         - 界面与工作流: guides/tools/blockbench/workflow-and-tips.md
         - 动画表达式: guides/tools/blockbench/animation-expressions.md
+        - 插件开发: guides/tools/blockbench/plugin-development.md
         - 粒子与音效关键帧: guides/tools/blockbench/effects-keyframes.md
+        - 自发光纹理与渲染: guides/tools/blockbench/emissive-textures.md
         - Minecraft美术风格: guides/tools/blockbench/minecraft-style.md
         - 制作Minecraft风格标题: guides/tools/blockbench/creating-minecraft-style-title.md
         - 绘制皮肤: guides/tools/blockbench/skin-tool.md
@@ -666,8 +668,17 @@ nav:
       - bridge.:
         - guides/tools/bridge.md
         - 进阶功能: guides/tools/bridge-advanced.md
+        - 脚本模块: guides/tools/bridge-script-modules.md
+        - iframe API: guides/tools/bridge-iframe-api.md
       - 配置JSON架构: guides/tools/json-schemas.md
-      - Chunky: guides/tools/chunky.md
+      - Chunky:
+        - guides/tools/chunky.md
+        - 路径追踪原理: guides/tools/chunky-path-tracing.md
+        - 采样与噪点: guides/tools/chunky-sampling.md
+        - 光源估计优化: guides/tools/chunky-nee.md
+        - 材质属性: guides/tools/chunky-materials.md
+        - 降噪技术: guides/tools/chunky-denoising.md
+        - 无头渲染: guides/tools/chunky-headless.md
     - 服务端:
       - guides/servers/index.md
       - 搭建BDS: guides/servers/bds.md
@@ -746,6 +757,7 @@ nav:
       - 旧版中国版Apollo网络服流程: guides/outdated/china-legacy-apollo.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.368 1.01a.75.75 0 0 1 .623.859L6.57 4.5h3.98l.46-2.868a.75.75 0 0 1 1.48.237L12.07 4.5h2.18a.75.75 0 0 1 0 1.5h-2.42l-.64 4h2.56a.75.75 0 0 1 0 1.5h-2.8l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H5.45l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H1.75a.75.75 0 0 1 0-1.5h2.42l.64-4H2.25a.75.75 0 0 1 0-1.5h2.8l.46-2.868a.75.75 0 0 1 .858-.622M9.67 10l.64-4H6.33l-.64 4Z"></path></svg></span><span class="md-ellipsis">话题</span></span>':
     - topics/index.md
+    - 如何判断命令能否在目标版本运行: topics/command-compatibility.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96m0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32m32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16m16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16"></path></svg></span><span class="md-ellipsis">参考</span></span>':
     - refs/index.md
     - 服务器:
@@ -1172,6 +1184,8 @@ nav:
       - 启动Minecraft编辑器: help/minecraft/launching-editor.md
       - 复制坐标UI: help/minecraft/copy-coordinate-ui.md
       - 多人游戏与服务器入口: help/minecraft/multiplayer-and-servers.md
+      - 账号登录与多人权限: help/minecraft/account-sign-in-and-multiplayer.md
+      - 辅助功能设置: help/minecraft/accessibility-settings.md
       - Minecraft教育版: help/minecraft/education.md
     - 基岩文档:
       - help/docs/index.md

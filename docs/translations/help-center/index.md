@@ -41,6 +41,15 @@ title: 官方帮助中心
 
 包含早期MCPE（Minecraft Pocket Edition）和其他遗留平台的日志。
 
+## 已吸收为帮助页的官方主题
+
+除逐篇翻译更新日志外，部分官方帮助中心主题已被整理为本站的帮助页面，用于直接服务开发与测试场景：
+
+- [预览版、测试版与更新日志](../../help/minecraft/preview-beta-changelogs.md)
+- [多人游戏与服务器入口](../../help/minecraft/multiplayer-and-servers.md)
+- [账号登录与多人权限](../../help/minecraft/account-sign-in-and-multiplayer.md)
+- [辅助功能设置](../../help/minecraft/accessibility-settings.md)
+
 ## 处理说明
 
 本分类的翻译工作正在进行中。由于文件数量庞大（259个版本日志），翻译过程采用分批处理的方式。

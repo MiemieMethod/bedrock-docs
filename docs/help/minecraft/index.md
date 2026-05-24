@@ -60,6 +60,22 @@
 
     [:octicons-arrow-right-24: 查看多人说明](multiplayer-and-servers.md)
 
+-   :material-account-key:{ .lg .middle } __账号登录与多人权限__
+
+    ---
+
+    了解如何核对购买账号、排查登录异常，以及检查儿童账号和主机平台的联机权限。
+
+    [:octicons-arrow-right-24: 查看排查说明](account-sign-in-and-multiplayer.md)
+
+-   :material-human-wheelchair:{ .lg .middle } __辅助功能设置__
+
+    ---
+
+    了解基岩版中的界面朗读、聊天朗读、文本背景、镜头晃动和输入重映射等辅助功能。
+
+    [:octicons-arrow-right-24: 查看辅助功能说明](accessibility-settings.md)
+
 -   :material-school:{ .lg .middle } __Minecraft教育版__
 
     ---

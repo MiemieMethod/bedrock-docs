@@ -46,7 +46,7 @@ Endstone项目大致由以下部分组成：
 | Endstone Python Bindings | 将Endstone API暴露给Python插件使用的绑定层。 |
 | Endstone Core | API的核心实现层，将插件侧调用转化为对BDS对象和系统的操作。 |
 | Endstone Runtime | 对BDS可执行文件和运行时对象进行挂钩的部分，用于注入事件、命令和修正逻辑。 |
-| Endstone DevTools | 用于从原版服务端导出数据的开发工具，目前主要面向高级使用场景。 |
+| Endstone DevTools | 用于从原版服务端导出数据的开发工具。知识库中的项目结构文档将其描述为带图形界面的高级工具，目前仅在Windows上启用，并要求系统具备OpenGL功能。 |
 | Python包 | 提供`endstone`命令行入口、Python插件加载器、绑定库和相关工具。 |
 
 这种分层使插件开发者通常只需要面对API层，而不必直接依赖BDS内部结构。与此同时，Endstone自身仍需要维护与BDS二进制接口之间的适配。

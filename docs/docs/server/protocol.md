@@ -126,6 +126,8 @@ NetworkSettings数据包中的压缩标识符以`u16`存储，其余位置以`u8
 
 是否发送修正由服务端“实算结果与客户端预测结果”的差值阈值决定。阈值由服务端反作弊配置控制，不同服务端实现暴露的具体键名可能不同。
 
+在官方专用服务器相关补充文档中，这套反作弊与回退修正机制默认处于关闭状态，需要通过`server.properties`开启；客户端是否进入该模式，则由服务端在`StartGamePacket`中明确告知。
+
 ### 方块交互
 
 服务端权威方块破坏启用后，客户端仍负责采集目标方块并提交输入，服务端则根据玩家状态、物品状态和方块破坏进度验证结果。目标方块本身仍带有客户端权威性质，但服务端会进行距离等检查。创造模式是重要例外，其快速破坏路径仍具有较强客户端权威特征。
@@ -141,6 +143,18 @@ NetworkSettings数据包中的压缩标识符以`u16`存储，其余位置以`u8
 物品栏协议引入了`ItemStackNetManager`一类请求—响应式机制。客户端可以先本地预测容器操作、合成、交易或工具耐久变化，服务端再按请求作出接受或拒绝。请求通常引用物品栈网络ID，而不是只提交完整物品栈。服务端接受请求时可以返回新的网络ID或修正后的耐久，拒绝请求时客户端丢弃相应预测。
 
 玩家界面容器用于表示光标、玩家合成栏、铁砧输入、织布机输入、信标支付槽等玩家专属界面槽位。该容器使服务端能够获知客户端正在使用的界面槽位，是物品栏逐步服务端权威化的基础设施之一。历史实现中，容器ID`124`被复用于玩家界面容器，槽位总数为51，索引`50`为统一的新建物品输出槽位。
+
+### 第三方实现中的抓包经验
+
+自实现服务端和协议库往往还会通过抓包验证客户端的真实行为。Allay旧协议研究资料给出了一些具有代表性的例子：
+
+- 丢弃物品时，客户端会发送`InventoryTransactionPacket`并伴随`MobEquipmentPacket`；服务端接受后，掉落物通常以`AddItemEntityPacket`形式出现在世界中。
+- 现代合成流程通常围绕`ItemStackRequestPacket`和`ItemStackResponsePacket`展开；资料中的合成示例包含`CraftRecipeAction`、`ConsumeAction`、`CreateAction`和`TakeAction`等动作。
+- 放置方块时，客户端会先经过`START_ITEM_USE_ON`与`STOP_ITEM_USE_ON`之类的交互阶段，成功放置后再表现为`ITEM_USE(action=0)`路径。
+- 创造模式破坏方块与生存模式破坏方块的上行路径并不相同。旧研究中，创造模式快速破坏使用`DIMENSION_CHANGE_REQUEST_OR_CREATIVE_DESTROY_BLOCK`，而生存模式会额外伴随裂纹进度、更新与校正相关流程。
+- 同一种物品栏操作在不同平台上也可能有不同动作组合。Allay旧研究曾记录到移动端与Windows版在物品栈请求中分别偏向`SwapAction`与`PlaceAction`、`DestroyAction`等不同组合。
+
+这些例子说明，协议字段表之外还存在大量“由客户端行为决定的顺序和组合”。第三方实现只照抄单个数据包结构，往往仍不足以完全复现真实交互。
 
 物品栏从旧协议向`ItemStackNetManager`迁移时，存在一个“系统禁用但协议字段已上线”的过渡期：服务端会在`StartGamePacket`中显式关闭该系统，同时仍需为`InventoryContentPacket`、`InventorySlotPacket`、`CreativeContentPacket`和`CraftingDataPacket`等数据包写入网络ID字段，以满足客户端校验。
 
@@ -214,7 +228,7 @@ Mojang在GitHub上维护的[基岩版网络协议文档仓库](https://github.co
 对于第三方服务器和协议库，以下开源项目提供了基岩版协议的参考实现：
 
 - **LeviLamina**：面向服务器的模组加载框架，包含完整的协议实现
-- **Endstone**：使用Python的服务器框架
-- **Allay**：基于Rust的服务器框架
-- **Serenity**：使用TypeScript的服务器框架
+- **Endstone**：基于BDS的插件加载器，面向Python与C++插件
+- **Allay**：面向Java与Kotlin等JVM语言的自实现服务端
+- **SerenityJS**：面向TypeScript与JavaScript生态的自实现服务端
 - **Nukkit**：Java生态的服务器软件

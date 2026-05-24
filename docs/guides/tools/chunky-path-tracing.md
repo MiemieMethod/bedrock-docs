@@ -1,6 +1,6 @@
 # Chunky路径追踪渲染原理
 
-Chunky使用**路径追踪（Path Tracing）** 算法进行渲染。理解这个算法的基本原理，能帮助您做出更好的渲染决策，并解释为什么某些场景需要更长的渲染时间。
+Chunky使用**路径追踪（Path Tracing）**算法进行渲染。理解这个算法的基本原理，能帮助您做出更好的渲染决策，并解释为什么某些场景需要更长的渲染时间。
 
 <!-- 本文档基于Chunky官方文档翻译与补充 -->
 
@@ -103,9 +103,9 @@ Chunky为了加快渲染速度，使用了两种高效的数据结构：
 - 从64→128 SPP：噪声再减半，总时间4倍
 - 从256→512 SPP：噪声再减半，总时间8倍
 
-:::warning | 收益递减
+/// warning | 收益递减
 由于这个指数关系，后期提高SPP会带来明显的时间增加。例如，从256 SPP到4096 SPP（16倍），渲染时间会增加16倍。
-:::
+///
 
 ## 光源的影响
 
@@ -156,7 +156,7 @@ Chunky为了加快渲染速度，使用了两种高效的数据结构：
 
 ## 数学概览（可选）
 
-如果您对数学细节感兴趣，路径追踖本质上是在解决**渲染方程**：
+如果您对数学细节感兴趣，路径追踪本质上是在解决**渲染方程**：
 
 $$L_o(p, \omega_o) = L_e(p, \omega_o) + \int_{\Omega} L_i(p, \omega_i) f(p, \omega_i, \omega_o) |\cos \theta| d\omega_i$$
 
@@ -171,7 +171,7 @@ $$L_o(p, \omega_o) = L_e(p, \omega_o) + \int_{\Omega} L_i(p, \omega_i) f(p, \ome
 
 ## 相关链接
 
-- [采样与噪声详解](chunky-sampling.md)
+- [采样与噪点详解](chunky-sampling.md)
 - [光源估计优化](chunky-nee.md)
 - [材质属性系统](chunky-materials.md)
 - [官方路径追踪解释](https://chunky.llbit.se/)
