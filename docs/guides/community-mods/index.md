@@ -4,7 +4,7 @@
 
 /// html | div.grid.cards
 - :material-cellphone-cog: __[InnerCore客户端模组](../clients/innercore/index.md)__
-  以InnerCore/CoreEngine为代表的Android客户端模组体系，已迁移到“教程-客户端模组”分区。
+  以InnerCore/CoreEngine为代表的Android客户端模组体系。
 - :material-history: __[ModPE](modpe/index.md)__
   以BlockLauncher脚本为代表的旧生态。知识库中缺少独立ModPE教程资料，本页只根据已有资料讲迁移和辨析。
 ///
