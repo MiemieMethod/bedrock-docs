@@ -32,5 +32,12 @@
     保留旧版Apollo网络服入门、开发、发布与运维文档目录脉络，便于网络服历史项目维护。
 
     [:octicons-arrow-right-24: 查看目录](./apollo.md)
-///
 
+-   :material-flask-outline: __示例与DEMO旧版目录__
+
+    ---
+
+    保留旧版中国版文档中的示例索引与示例说明，便于对照历史Demo名称、用途与关联教程。
+
+    [:octicons-arrow-right-24: 查看目录](./demos.md)
+///

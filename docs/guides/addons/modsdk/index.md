@@ -7,6 +7,8 @@
   从“入门脚本模板”开始，认识`modMain.py`、脚本目录和一次简单的方块交互。
 - :material-lan: __[系统、事件与组件](systems-events-components.md)__
   学会注册服务端系统和客户端系统，监听引擎事件，并调用组件接口完成逻辑。
+- :material-monitor-dashboard: __[制作中国版模组SDK界面](custom-ui.md)__
+  从UI编辑器、JSON界面文件到`ScreenNode`脚本类，走通中国版自定义UI的基本工作流。
 - :material-image-filter-hdr: __[中国版数据驱动维度与地形](custom-dimensions-and-terrain.md)__
   使用中国版专有的`netease_dimension`、`netease_biomes`和地物目录创建维度、生物群系与地形内容。
 - :material-book-open-page-variant: __[制作自定义书本](custom-books.md)__

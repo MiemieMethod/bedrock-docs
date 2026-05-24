@@ -405,6 +405,7 @@ nav:
         - 结构: docs/general/structure.md
         - 游戏规则: docs/general/game-rule.md
         - 红石电路: docs/general/redstone.md
+        - 微缩方块: docs/general/micro-block.md
         - 状态效果: docs/general/status-effect.md
         - 魔咒: docs/general/enchantment.md
       - 逻辑系统:
@@ -629,6 +630,7 @@ nav:
         - guides/addons/modsdk/index.md
         - 第一个Python脚本模组: guides/addons/modsdk/first-python-mod.md
         - 系统、事件与组件: guides/addons/modsdk/systems-events-components.md
+        - 制作中国版模组SDK界面: guides/addons/modsdk/custom-ui.md
         - 中国版数据驱动维度与地形: guides/addons/modsdk/custom-dimensions-and-terrain.md
         - 制作自定义书本: guides/addons/modsdk/custom-books.md
         - 模组SDK调试与热更新: guides/addons/modsdk/debugging-and-hot-reload.md
@@ -963,6 +965,7 @@ nav:
       - MC Studio工具链旧版目录: translations/china-legacy/mc-studio.md
       - ModSDK旧版教程目录: translations/china-legacy/modsdk.md
       - Apollo网络服旧版目录: translations/china-legacy/apollo.md
+      - 示例与DEMO旧版目录: translations/china-legacy/demos.md
     - 基岩版开发wiki主页站:
       - translations/dev-home/index.md
       - 仓库README: translations/dev-home/repository-readme.md
