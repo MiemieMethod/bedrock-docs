@@ -128,3 +128,6 @@
 *[FSM]: Finite State Machine
 *[RPAC]: Resource Pack Animation Controller
 *[BPAC]: Behavior Pack Animation Controller
+*[JWT]: JSON Web Token
+*[MTU]: Maximum Transmission Unit
+*[WebRTC]: Web Real-Time Communication

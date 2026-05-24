@@ -12,6 +12,8 @@
 
 **BDS**即Bedrock Dedicated Server，是Mojang官方发布的基岩版专用服务端软件。基于BDS的插件加载器通过各种技术手段（如函数hook、内存修改、符号注入等）拦截和扩展BDS的原生功能。
 
+值得注意的是，BDS自1.21.10版本起移除了符号（即映射表），使基于符号注入和静态分析的BDS-Based方案的开发和维护难度大幅上升，导致部分此类项目停止维护，社区生态中自实现服务端的比例因此有所提升。
+
 ### LeviLamina
 
 LeviLamina是当前活跃的基于BDS的第三方模组加载器。它是LiteLoaderBDS的继任项目，核心面向C++原生模组开发，通过预加载、钩子和公共API接入BDS或受支持的Windows客户端。LeviLamina生态使用lip包管理器进行安装、分发和版本管理。关于其定位、架构和限制，见[LeviLamina](levilamina.md)。

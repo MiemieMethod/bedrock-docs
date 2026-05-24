@@ -451,6 +451,8 @@ nav:
         - 翻书动画: docs/addon/flipbook-texture.md
         - 本地化: docs/addon/localization.md
         - 字体: docs/addon/font.md
+        - 表情符号: docs/addon/emojis.md
+        - 输入键: docs/addon/input-keys.md
         - 声音: docs/addon/sound.md
         - 渲染控制器: docs/addon/render-controller.md
         - 附着物: docs/addon/attachable.md
@@ -474,6 +476,8 @@ nav:
         - 基岩版专用服务器: docs/server/bds.md
         - Nukkit-MOT: docs/server/nukkit-mot.md
         - 网络协议: docs/server/protocol.md
+        - RakNet: docs/server/raknet.md
+        - NetherNet: docs/server/nethernet.md
       - 插件生态:
         - 插件: docs/server/plugin.md
         - 插件加载器: docs/server/plugin-loader.md
