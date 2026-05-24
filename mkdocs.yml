@@ -380,6 +380,7 @@ nav:
         - 标识符: docs/general/identifier.md
         - 命名空间: docs/general/namespace.md
         - 数据驱动: docs/general/data-driven.md
+        - 图集: docs/general/atlas.md
         - 格式版本: docs/general/format-version.md
         - 刻: docs/general/tick.md
         - 随机刻: docs/general/random-tick.md
@@ -488,14 +489,16 @@ nav:
         - Allay: docs/server/allay.md
         - SerenityJS: docs/server/serenity.md
     - 客户端模组:
-      - docs/client/index.md
+      - ModPE: docs/client/modpe.md
       - InnerCore: docs/client/innercore.md
       - Horizon启动器: docs/client/horizon.md
       - CoreEngine: docs/client/coreengine.md
+      - LeviLamina客户端模组: docs/client/levilamina-client.md
     - 存档:
       - 存档: docs/save/save.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1zm6-10h3v2h-3zM1 11h3v2H1zM13 1v3h-2V1zM4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93zm12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12z"></path></svg></span><span class="md-ellipsis">教程</span></span>':
     - guides/index.md
+    - 国际版开发入门: guides/international-getting-started.md
     - 附加包:
       - guides/addons/index.md
       - 认识JSON: guides/addons/understanding-json.md
@@ -504,6 +507,7 @@ nav:
       - 本地化: guides/addons/localization.md
       - 使用子包: guides/addons/utilizing-sub-packs.md
       - 附加包故障排除: guides/addons/troubleshooting.md
+      - 创作者方针与发布规范: guides/addons/creator-guidelines.md
       - 数据驱动:
         - guides/addons/data-driven/index.md
         - 认识格式版本: guides/addons/data-driven/format-version.md
@@ -628,15 +632,14 @@ nav:
         - 中国版数据驱动维度与地形: guides/addons/modsdk/custom-dimensions-and-terrain.md
         - 制作自定义书本: guides/addons/modsdk/custom-books.md
         - 模组SDK调试与热更新: guides/addons/modsdk/debugging-and-hot-reload.md
-    - 客户端模组:
+    - 社区模组:
+      - guides/community-mods/index.md
       - InnerCore:
         - guides/clients/innercore/index.md
         - 准备环境与项目结构: guides/clients/innercore/environment-and-structure.md
         - 物品、方块与配方: guides/clients/innercore/items-blocks-and-recipes.md
         - 事件、存储与多人: guides/clients/innercore/events-storage-and-multiplayer.md
         - 界面、环境与库: guides/clients/innercore/ui-environment-and-libraries.md
-    - 社区模组:
-      - guides/community-mods/index.md
       - ModPE:
         - guides/community-mods/modpe/index.md
     - 软件工具:
@@ -858,6 +861,7 @@ nav:
         - 原版生物群系标签: refs/tables/biomes/vanilla_tags.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 64C0 28.7 28.7 0 64 0h320c35.3 0 64 28.7 64 64v384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm183 214.8c-27.9-13.2-48.4-39.4-53.7-70.8h39.1c1.6 30.4 7.7 53.8 14.6 70.8m41.3 9.2h-.6c-2.4-3.5-5.7-8.9-9.1-16.5-6-13.6-12.4-34.3-14.2-63.5h47.1c-1.8 29.2-8.1 49.9-14.2 63.5-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8h39.1c-5.3 31.4-25.8 57.6-53.7 70.8M279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8 27.9 13.2 48.4 39.4 53.7 70.8zm-55.9-80h.6c2.4 3.5 5.7 8.9 9.1 16.5 6 13.6 12.4 34.3 14.2 63.5h-47.1c1.8-29.2 8.1-49.9 14.2-63.5 3.4-7.6 6.7-13 9.1-16.5zm-40.7 9.2c-6.8 17.1-12.9 40.4-14.6 70.8h-39.1c5.3-31.4 25.8-57.6 53.7-70.8M352 192a128 128 0 1 0-256 0 128 128 0 1 0 256 0M112 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h224c8.8 0 16-7.2 16-16s-7.2-16-16-16z"></path></svg></span><span class="md-ellipsis">翻译</span></span>':
     - translations/index.md
+    - 国际版开发教程归档: translations/international-tutorial/index.md
     - bridge.:
       - translations/bridge/index.md
       - <samp>bridge-core.github.io</samp>:
@@ -959,6 +963,11 @@ nav:
       - MC Studio工具链旧版目录: translations/china-legacy/mc-studio.md
       - ModSDK旧版教程目录: translations/china-legacy/modsdk.md
       - Apollo网络服旧版目录: translations/china-legacy/apollo.md
+    - 基岩版开发wiki主页站:
+      - translations/dev-home/index.md
+      - 仓库README: translations/dev-home/repository-readme.md
+      - 站点首页: translations/dev-home/site-home.md
+      - 数据驱动目录总览: translations/dev-home/data-driven-overview.md
     - 基岩维基:
       - translations/bedrock-wiki/index.md
       - 入门指南:

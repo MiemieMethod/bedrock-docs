@@ -4,6 +4,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-earth:{ .lg .middle } __国际版开发入门__
+
+    ---
+
+    面向准备从中国版工作流切换到国际版生态的开发者，提供一条可执行的学习路线图。
+
+    [:octicons-arrow-right-24: 按路线开始学习](international-getting-started.md)
+
 -   :material-code-json:{ .lg .middle } __附加包__
 
     ---
@@ -12,13 +20,13 @@
 
     [:octicons-arrow-right-24: 制作第一个附加包](addons/index.md)
 
--   :material-cellphone-cog:{ .lg .middle } __客户端模组__
+-   :material-cellphone-cog:{ .lg .middle } __社区模组__
 
     ---
 
-    以InnerCore为代表的旧客户端模组生态，适用于历史项目维护与迁移学习。
+    以InnerCore与ModPE为代表的社区生态，适用于历史项目维护与迁移学习。
 
-    [:octicons-arrow-right-24: 开始学习客户端模组](clients/innercore/index.md)
+    [:octicons-arrow-right-24: 开始学习社区模组](community-mods/index.md)
 
 -   :material-tools:{ .lg .middle } __软件工具__
 
@@ -60,9 +68,9 @@
 
 附加包中最重要的部分就是**数据驱动（Data-Driven）**，其指通过某些特定的数据格式来驱动游戏内容。在Minecraft基岩版中，最常用的数据格式是[JSON](https://zh.wikipedia.org/wiki/JSON)。将各种对游戏的修改数据以JSON等形式打包成附加包，并加载到游戏中，即可实现对游戏内容的定义和修改。
 
-### 客户端模组
+### 社区模组
 
-除官方提供的附加包和脚本体系外，玩家社区曾长期维护多种客户端模组格式，例如InnerCore与ModPE。学习旧客户端模组内容有助于维护历史项目、理解技术演进并完成迁移规划。
+除官方提供的附加包和脚本体系外，玩家社区曾长期维护多种模组格式，例如InnerCore与ModPE。学习这些社区路线有助于维护历史项目、理解技术演进并完成迁移规划。
 
 ### 软件工具
 

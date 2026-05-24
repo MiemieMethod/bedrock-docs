@@ -65,6 +65,14 @@
 
     [:octicons-arrow-right-24: 开始阅读](./china-legacy/index.md)
 
+-   :material-map-search:{ .lg .middle } __国际版开发教程归档__
+
+    ---
+
+    收录“基岩版国际版开发教程”知识库的章节脉络映射，用于来源核对与后续转录。
+
+    [:octicons-arrow-right-24: 开始阅读](./international-tutorial/index.md)
+
 -   :material-update:{ .lg .middle } __官方帮助中心__
 
     ---

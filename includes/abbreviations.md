@@ -42,6 +42,7 @@
 *[SDK]: Software Development Kit
 *[MoLang]: Mojang Language
 *[MCPE]: Minecraft Pocket Edition
+*[ModPE]: Modification for Pocket Edition
 *[PHP]: PHP: Hypertext Preprocessor
 *[CFB]: Cipher Feedback
 *[FPS]: Frames Per Second
