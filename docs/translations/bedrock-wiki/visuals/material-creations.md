@@ -4,6 +4,12 @@ description: 社区整理的几个可复用材质片段。
 category: 参考
 ---
 
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
 /// details-info | 译文信息
 - 原文：[https://wiki.bedrock.dev/visuals/material-creations](https://wiki.bedrock.dev/visuals/material-creations)
 - 作者或组织：Bedrock OSS

@@ -1,5 +1,11 @@
 # 延迟技术预览问答（2024/02/23）
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 /// details-info | 译文信息
 - 原文：[https://wiki.bedrock.dev/meta/deferred-qna](https://wiki.bedrock.dev/meta/deferred-qna)
 - 作者或组织：Bedrock OSS
