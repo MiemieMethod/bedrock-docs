@@ -4,7 +4,7 @@ title: LeviLamina文档归档
 
 # LeviLamina文档归档
 
-本页收录`.knowledge\LeviLamina源码及文档\`中的LeviLamina官方资料脉络，用于说明这些内容在本站的落位方式。
+本页收录`.knowledge\LeviLamina源码及文档\`中的LeviLamina官方资料脉络，用于说明这些内容在本站的落位方式，并作为使用指南、风格规范与维护者资料的索引。
 
 ## 处理策略
 
@@ -24,10 +24,14 @@ title: LeviLamina文档归档
 - [项目架构](architecture.md)
 - [构建指南](build-guide.md)
 
+## 规范与指南
+
+- [使用指南](usage-guidelines.md)
+- [C++风格指南](cpp-style-guide.md)
+
 ## 相关页面
 
 - [LeviLamina](../../docs/server/levilamina.md)
 - [LeviLamina客户端模组](../../docs/client/levilamina-client.md)
 - [LeviLamina入门](../../guides/servers/levilamina.md)
 - [LeviLamina API模块](../../refs/server/levilamina-api.md)
-

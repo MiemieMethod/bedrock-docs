@@ -880,6 +880,8 @@ nav:
       - 常见问题: translations/levilamina/faq.md
       - 项目架构: translations/levilamina/architecture.md
       - 构建指南: translations/levilamina/build-guide.md
+      - 使用指南: translations/levilamina/usage-guidelines.md
+      - C++风格指南: translations/levilamina/cpp-style-guide.md
     - 附加包教程归档:
       - translations/addon-tutorial/index.md
       - 章节目录映射: translations/addon-tutorial/chapter-outline.md

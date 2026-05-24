@@ -45,9 +45,11 @@ lip install github.com/LiteLDev/LeviLamina#client@26.10.3
 lip update github.com/LiteLDev/LeviLamina#client@26.10.3 github.com/LiteLDev/bedrock-runtime-data@1.21.132-client.3
 ```
 
+具体支持的客户端版本与LeviLamina版本对应关系，请查看[支持的版本](../../translations/levilamina/versions.md)。
+
 ## 与服务端模组的关系
 
-LeviLamina客户端模组与LeviLamina服务端模组共享部分通用API与工程体系，但目标进程、可用模块和兼容边界不同。服务端相关背景见[LeviLamina](../server/levilamina.md)，构建细节见[项目构建指南](../../guides/servers/levilamina/build-guide.md)。
+LeviLamina客户端模组与LeviLamina服务端模组共享部分通用API与工程体系，但目标进程、可用模块和兼容边界不同。服务端相关背景见[LeviLamina](../server/levilamina.md)，构建细节见[构建指南](../../translations/levilamina/build-guide.md)。
 
 ## 兼容性边界
 
@@ -57,5 +59,6 @@ LeviLamina客户端模组的可用性受LeviLamina版本、目标客户端版本
 
 - [LeviLamina文档归档](../../translations/levilamina/index.md)
 - [在客户端上安装](../../translations/levilamina/install-client.md)
+- [支持的版本](../../translations/levilamina/versions.md)
 - [LeviLamina](../server/levilamina.md)
 - [LeviLamina API模块](../../refs/server/levilamina-api.md)

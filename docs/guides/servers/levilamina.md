@@ -97,7 +97,7 @@ lip install github.com/LiteLDev/LeviLamina#client@26.10.3
 ```
 
 /// warning | 客户端模组不是服务器插件
-客户端侧LeviLamina用于受支持的Windows版Minecraft客户端环境。不要把客户端输入、渲染或界面相关API写入服务端模组，也不要假定普通基岩版客户端可以加载这些模组。
+客户端侧LeviLamina用于受支持的Windows版Minecraft客户端环境。不要把客户端输入、渲染或界面相关API写入服务端模组，也不要假定普通基岩版客户端可以加载这些模组。如果目标是客户端模组开发，构建时应优先查看`client`目标与`src-client/`中的专用代码。
 
 客户端构建与客户端模组的概念、目录和接口范围，可继续查看[LeviLamina客户端模组](../../docs/client/levilamina-client.md)与[项目构建指南](levilamina/build-guide.md)。
 ///

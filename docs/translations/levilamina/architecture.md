@@ -20,7 +20,8 @@ title: 项目架构
 - `ll/core/`：内部实现。
 - `ll/api/`：公开API。
 
+在官方架构中，`mc`头文件来自对基岩版专用服务器与客户端的分析，用于描述引擎内部C++接口；它们不是官方稳定SDK。`ll/core`负责模组注册、原生模组加载、内置命令、崩溃记录和内部调整等核心功能，`ll/api`则向开发者公开事件、命令、表单、配置、服务、协程、日志、数据、反射、网络和钩子等接口。
+
 ## 构建差异
 
-LeviLamina通过`--target_type`区分服务端与客户端构建。服务端构建加载到`bedrock_server_mod.exe`，客户端构建加载到`Minecraft.Windows.exe`。
-
+LeviLamina通过`--target_type`区分服务端与客户端构建。服务端构建加载到`bedrock_server_mod.exe`，客户端构建加载到`Minecraft.Windows.exe`。两者共享部分通用API，但并非所有模块都能在两个环境中同时使用。
