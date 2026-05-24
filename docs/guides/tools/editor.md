@@ -33,6 +33,16 @@ minecraft-preview://creator/?Editor=true
 
 这段地址区分大小写。如果快捷方式打开了普通游戏而不是编辑器，先检查协议是否写错，再检查Windows默认应用是否把`minecraft:`协议绑定到了你想使用的版本。
 
+## 参考README的三步快启流程
+
+如果你希望按官方仓库README的最短路径启动，可以直接按这三步执行：
+
+1. 在启动器中安装Minecraft基岩版预览版。
+2. 在Windows桌面创建快捷方式，目标填写`minecraft-preview://creator/?Editor=true`。
+3. 通过该快捷方式启动，并确认看到“创建项目/打开项目”界面。
+
+这个流程适合快速验证设备环境是否可用。若你平时同时维护正式版和预览版，建议把两个协议快捷方式都创建好，避免误开错版本。
+
 ## 创建项目
 
 启动后会看到创建新项目的界面。项目不是普通可游玩的世界本身，而是编辑器保存编辑状态和导出设置的工作空间。创建时需要设置项目名、世界选项和导出选项。导出时，编辑器会根据这些设置生成可游玩的`.mcworld`。
@@ -76,6 +86,17 @@ minecraft-preview://creator/?Editor=true
 /// tip | 编辑器适合地图，不适合替代资源包编辑器
 编辑器擅长处理世界内容，例如建筑、地形、结构和测试路线。行为包、资源包、脚本和纹理仍建议在bridge.、Visual Studio Code或其他文件编辑器中维护。
 ///
+
+## 扩展开发入口
+
+如果你想在编辑器里做自定义工具，不要只停留在内置面板，建议直接接入扩展生态：
+
+- [Script API文档](https://learn.microsoft.com/minecraft/creator/scriptapi/)：通用脚本接口说明。
+- [Editor API文档](https://aka.ms/EditorAPI)：编辑器专用接口说明。
+- [Editor Extension Starter Kit](https://github.com/Mojang/minecraft-editor-extension-starter-kit)：扩展工程模板与构建管线。
+- [Editor Extension Samples](https://github.com/Mojang/minecraft-editor-extension-samples)：可运行示例。
+
+另外，如果你做的是“编辑器外”的普通脚本测试，记得在实验性玩法中开启Beta APIs开关；这是官方README给出的前置提醒。
 
 ## 与基岩版专用服务器配合
 

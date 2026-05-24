@@ -40,7 +40,7 @@
 
     ---
 
-    了解通过启动器或Windows快捷方式打开Minecraft编辑器的方法。
+    了解通过启动器或Windows快捷方式打开Minecraft编辑器的方法，以及启动后检查与常见排障流程。
 
     [:octicons-arrow-right-24: 查看启动说明](launching-editor.md)
 

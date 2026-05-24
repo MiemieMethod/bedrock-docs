@@ -1,6 +1,7 @@
 *[HTML]: Hyper Text Markup Language
 *[CSS]: Cascading Style Sheets
 *[API]: Application Programming Interface
+*[README]: Read Me
 *[BOM]: Byte Order Mark
 *[GTK]: GIMP Toolkit
 *[MTPE]: Machine Translation Post-Editing

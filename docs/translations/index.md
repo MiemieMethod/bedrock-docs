@@ -112,4 +112,12 @@
     收录自动导出的基岩版文档仓库说明翻译与来源说明。
 
     [:octicons-arrow-right-24: 开始阅读](./official-export/index.md)
+
+-   :material-hammer-wrench:{ .lg .middle } __Minecraft编辑器__
+
+    ---
+
+    收录官方minecraft-editor仓库README的中文整理译文与来源脉络说明。
+
+    [:octicons-arrow-right-24: 开始阅读](./editor/index.md)
 </div>

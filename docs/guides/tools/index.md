@@ -9,7 +9,7 @@
 ## 推荐学习顺序
 
 1. 如果你还不会做模型，先读[Blockbench](blockbench/index.md)，再读[使用指南](blockbench/how-to-use.md)。
-2. 如果你正在做地图或世界模板，读[编辑器](editor.md)；它更像游戏内的多方块编辑环境，而不是通用文本编辑器。
+2. 如果你正在做地图或世界模板，读[编辑器](editor.md)；它更像游戏内的多方块编辑环境，而不是通用文本编辑器，页面也包含官方README三步快启与扩展资源入口。
 3. 如果你需要转换、修剪或调整世界设置，读[Chunker](chunker.md)。
 4. 如果你希望从创建项目、补全字段到打包都在一个应用里完成，读[bridge.](bridge.md)。
 5. 如果你打算使用Dash、扩展、预设或代码片段，读[bridge.进阶功能](bridge-advanced.md)。
