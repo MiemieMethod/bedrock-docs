@@ -15,7 +15,7 @@
 ### 官方渠道
 
 - [Microsoft Learn基岩版创作者文档](https://learn.microsoft.com/zh-cn/minecraft/creator/)
-- 官方帮助中心更新日志（可结合本站[官方更新日志归档](../help/minecraft/official-changelog-archive.md)）
+- 官方帮助中心更新日志（可结合本站[官方更新日志](../help/minecraft/official-changelog-archive.md)）
 
 ### 社区渠道
 
@@ -82,6 +82,6 @@
 ## 建议的学习节奏
 
 - 每周固定1次“版本差异复盘”：只看变更，不盲目追新。
-- 每完成一个阶段，做一个最小可运行示例包并归档。
+- 每完成一个阶段，做一个最小可运行示例包留作版本对照。
 - 形成“概念文档→教程实践→参考检索”的闭环：  
   先看[文档](../docs/index.md)理解概念，再看教程做落地，最后去[参考](../refs/index.md)查字段和参数。

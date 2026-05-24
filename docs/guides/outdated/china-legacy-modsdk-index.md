@@ -1,4 +1,4 @@
-# ModSDK旧版教程目录
+# ModSDK旧版教程目录<!-- md:flag china -->
 
 
 ## 顶层主题
@@ -88,4 +88,4 @@
 
 - 旧规范维护：[旧版中国版模组SDK制作规范](../../guides/outdated/china-legacy-modsdk-guidelines.md)
 - 现代实践入口：[模组SDK教程](../../guides/addons/modsdk/index.md)
-- 示例索引：[示例与DEMO旧版目录](demos.md)
+- 示例索引：[示例与DEMO旧版目录](china-legacy-demos-index.md)

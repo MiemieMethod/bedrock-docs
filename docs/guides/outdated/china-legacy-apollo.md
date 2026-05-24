@@ -99,4 +99,4 @@
 - 概念辨析： [Apollo网络服](../../docs/server/apollo.md)
 - 接口参考： [中国版模组SDK参考](../../refs/modsdk/index.md)
 - 旧版工具链： [旧版中国版MC Studio工具链](china-legacy-mc-studio.md)
-- 旧版资料目录： [中国版旧版文档归档](../../translations/china-legacy/index.md)
+- 旧版资料目录：[中国版旧版文档归档](china-legacy-archive.md)

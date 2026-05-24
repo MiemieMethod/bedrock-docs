@@ -12,7 +12,7 @@
 
 下载地址：
 
-[下载附加包](https://github.com/Bedrock-OSS/wiki-addon/releases/download/download/legacy_guide.mcaddon){ .md-button }
+[下载附加包](https://github.com/Bedrock-OSS/bedrock-examples/releases/download/download/guide.mcaddon){ .md-button }
 
 安装时，只需将行为包解压到Minecraft的以下目录：`com.mojang\development_behavior_packs`或`com.mojang\development_*_packs`（具体路径取决于你下载的包类型）。
 

@@ -1,4 +1,4 @@
-# 中国版API参考归档
+# 中国版API参考归档<!-- md:flag china -->
 
 /// details-info | 署名信息
 - 原始内容为中国版模组开发参考文档历史快照。
@@ -23,9 +23,9 @@
 
 ## 归档页面
 
-- [中国版API参考概述](overview.md)
-- [Apollo官方插件目录归档](apollo-official-plugins.md)
-- [Apollo第三方插件目录归档](apollo-third-party-plugins.md)
+- [中国版API参考概述](china-api-reference-overview.md)
+- [Apollo官方插件目录归档](apollo-official-plugins-archive.md)
+- [Apollo第三方插件目录归档](apollo-third-party-plugins-archive.md)
 
 ## 推荐阅读路径
 

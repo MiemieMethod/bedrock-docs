@@ -105,7 +105,7 @@ minecraft-preview://creator/?Editor=true
 - [Editor Extension Samples](https://github.com/Mojang/minecraft-editor-extension-samples)：可运行示例。
 - [minecraft-editor讨论区](https://github.com/Mojang/minecraft-editor/discussions)：问题反馈与路线讨论。
 
-另外，如果你做的是“编辑器外”的普通脚本测试，记得在实验性玩法中开启Beta APIs开关；这是相关说明页给出的前置提醒。
+另外，如果你做的是“编辑器外”的普通脚本测试，记得在实验性玩法中开启Beta APIs开关；这是当前文档给出的前置提醒。
 
 ## 与基岩版专用服务器配合
 

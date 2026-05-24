@@ -1,4 +1,4 @@
-# MC Studio工具链旧版目录
+# MC Studio工具链旧版目录<!-- md:flag china -->
 
 
 ## 顶层条目

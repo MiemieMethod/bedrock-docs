@@ -71,27 +71,30 @@
 | `minecraft:wood_tier` | 木质工具 |
 | `minecraft:stone_tier` | 石质工具 |
 | `minecraft:iron_tier` | 铁质工具 |
-| `minecraft:gold_tier` | 金质工具 |
+| `minecraft:golden_tier` | 金质工具 |
 | `minecraft:diamond_tier` | 钻石工具 |
 | `minecraft:netherite_tier` | 下界合金工具 |
 
 ## 用于方块的可摧毁标签
 
-方块可以通过添加方块标签来让特定工具获得挖掘加速，从而使该工具对方块特别有效。以下6个标签对应6种破坏方式：
+根据Microsoft Learn当前方块标签参考，较新的原版破坏逻辑通常由“工具类别标签”与“品质标签”组合表达。
 
-| 标签 | 合适工具 |
-|------|---------|
-| `minecraft:is_pickaxe_item_tier_1` ～ `minecraft:is_pickaxe_item_tier_4` | 对应品质的镐 |
-| `minecraft:is_axe_item_tier_1` ～ `minecraft:is_axe_item_tier_4` | 对应品质的斧 |
-| `minecraft:is_shovel_item_tier_1` ～ `minecraft:is_shovel_item_tier_4` | 对应品质的铲 |
-
-品质层级：1=木/金，2=石，3=铁，4=钻石/下界合金。
+| 标签 | 作用 |
+|------|------|
+| `minecraft:is_pickaxe_item_destructible` | 指定该方块适合被镐类工具高效破坏。 |
+| `minecraft:is_axe_item_destructible` | 指定该方块适合被斧类工具高效破坏。 |
+| `minecraft:is_shovel_item_destructible` | 指定该方块适合被铲类工具高效破坏。 |
+| `minecraft:stone_tier_destructible` | 要求石质及以上品质才能按原版规则有效开采。 |
+| `minecraft:iron_tier_destructible` | 要求铁质及以上品质才能按原版规则有效开采。 |
+| `minecraft:diamond_tier_destructible` | 要求钻石质及以上品质才能按原版规则有效开采。 |
+| `minecraft:netherite_tier_destructible` | 用于少量需要下界合金品质的场景。 |
 
 ```json title="BP/blocks/my_ore.json > components"
-"tag:minecraft:is_pickaxe_item_tier_3": {}
+"tag:minecraft:is_pickaxe_item_destructible": {},
+"tag:minecraft:iron_tier_destructible": {}
 ```
 
-这让铁镐及以上品质的镐对该方块更有效（不用合适工具时，破坏速度会乘以约0.3倍的惩罚系数）。
+这表示铁镐及以上品质的镐对该方块更有效。不满足工具类别或品质要求时，破坏速度会明显下降，且相关战利品表条件通常也不会通过。
 
 ## 奖励经验值
 

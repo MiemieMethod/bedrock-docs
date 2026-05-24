@@ -61,12 +61,12 @@
 
     ---
 
-    收录中国版旧版开发文档的目录脉络整理，用于旧项目维护与历史语境核对。
+    面向旧项目维护的中国版历史资料整理。
 
     [:octicons-arrow-right-24: 开始阅读](./china-legacy/index.md)
 
 -   :material-book-search-outline:{ .lg .middle } __中国版API参考归档__
-
+    中国版模组SDK接口与插件目录的翻译入口。
     ---
 
 
@@ -76,7 +76,7 @@
 
     ---
 
-    收录mcbe-dev-home仓库的目录脉络整理与关键页面转录，用于历史资料核对与来源追溯。
+    开发wiki主页站关键页面的翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./dev-home/index.md)
 
@@ -84,7 +84,7 @@
 
     ---
 
-    收录“基岩版国际版开发教程”资料的章节脉络映射，用于来源核对与后续转录。
+    国际版开发教程的章节化翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./international-tutorial/index.md)
 
@@ -92,7 +92,7 @@
 
     ---
 
-    收录LeviLamina文档的资料结构与本站落位结果，用于概念、安装、架构、构建以及使用与风格资料的持续补充。
+    LeviLamina相关页面的翻译入口与导航。
 
     [:octicons-arrow-right-24: 开始阅读](./levilamina/index.md)
 
@@ -100,7 +100,7 @@
 
     ---
 
-    收录“基岩版附加包教程”资料的章节脉络索引与来源前言摘录，用于历史语境核对与后续转录。
+    附加包教程内容的翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./addon-tutorial/index.md)
 
@@ -108,15 +108,15 @@
 
     ---
 
-    收录官方帮助中心中的基岩版更新日志翻译，并由帮助页提供归档导航。
+    基岩版更新日志与帮助文章的翻译入口。
 
-    [:octicons-arrow-right-24: 查看归档](../help/minecraft/official-changelog-archive.md)
+    [:octicons-arrow-right-24: 查看说明](../help/minecraft/official-changelog-archive.md)
 
 -   :material-lan-connect:{ .lg .middle } __基岩版协议库__
 
     ---
 
-    收录官方基岩版协议项目说明页的中文整理译文；协议结构与变更分析已分别落位到文档与参考分区。
+    基岩版协议相关页面的翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./protocol/source-readme.md)
 
@@ -124,7 +124,7 @@
 
     ---
 
-    收录bedrock-dot-dev项目说明页的中文整理译文，用于来源追溯与使用边界核对。
+    自动导出文档相关页面的翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./official-export/source-readme.md)
 
@@ -132,7 +132,7 @@
 
     ---
 
-    收录Minecraft官方创作者文档项目说明页的中文整理译文。
+    Minecraft创作者文档的翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./microsoft-learn/source-readme.md)
 
@@ -140,7 +140,7 @@
 
     ---
 
-    收录MCBE-Development-Wiki维护的bedrock-schemas项目说明页翻译与落位策略记录。
+    架构说明相关页面的翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./bedrock-schema/index.md)
 
@@ -148,7 +148,7 @@
 
     ---
 
-    收录官方minecraft-editor项目说明页的中文整理译文。
+    Minecraft编辑器相关页面的翻译入口。
 
     [:octicons-arrow-right-24: 开始阅读](./editor/source-readme.md)
 </div>

@@ -1,6 +1,6 @@
 ﻿# 物品标签
 
-物品标签（item tag）是附加在物品上的字符串标记，用于在过滤器、配方、Molang查询等场景中批量匹配一类物品。基岩版内置了若干原版标签，同时允许附加包定义自定义标签。
+物品标签是附加在物品上的字符串标记，用于在过滤器、配方、Molang查询等场景中批量匹配一类物品。基岩版内置了一批原版标签，同时允许附加包定义自定义标签。
 
 ## 添加标签
 
@@ -25,7 +25,7 @@
 }
 ```
 
-自定义标签建议使用命名空间前缀（如`wiki:`）避免与原版标签冲突。
+自定义标签建议使用命名空间前缀（如`wiki:`）避免与原版标签冲突。根据Microsoft Learn当前物品标签参考，只有原版内置标签可以使用`minecraft:`命名空间。
 
 ## 使用标签过滤
 
@@ -94,25 +94,33 @@
 
 ## 常用原版标签
 
-以下是一些常见的原版物品标签及其功能：
+以下是一些常见的原版物品标签及其功能。表中名称已按Microsoft Learn当前“Vanilla Item Tags”页校正：
 
 | 标签 | 说明 |
 |------|------|
-| `minecraft:is_food` | 标记为食物，影响某些AI意向 |
-| `minecraft:is_meat` | 标记为肉类食物 |
-| `minecraft:is_fish` | 标记为鱼类食物 |
-| `minecraft:is_cooked` | 标记为熟食 |
-| `minecraft:is_tool` | 标记为工具 |
-| `minecraft:is_pickaxe` | 具有镐的功能（配合`on_tool_used`） |
-| `minecraft:is_axe` | 具有斧的功能（可去除木头表皮） |
-| `minecraft:is_hoe` | 具有锄的功能（可耕地） |
-| `minecraft:is_sword` | 具有剑的特性 |
-| `minecraft:is_armor` | 标记为盔甲 |
-| `minecraft:diamond_tier` | 钻石品质 |
-| `minecraft:netherite_tier` | 下界合金品质 |
-| `minecraft:iron_tier` | 铁品质 |
-| `minecraft:gold_tier` | 金品质 |
-| `minecraft:planks` | 各种木板 |
-| `minecraft:decorated_pot_sherds` | 可用于陶罐合成的陶片 |
+| `minecraft:is_food` | 标记为食物。 |
+| `minecraft:is_meat` | 标记为肉类食物。 |
+| `minecraft:is_fish` | 标记为鱼类物品。 |
+| `minecraft:is_cooked` | 标记为熟食。 |
+| `minecraft:is_tool` | 标记为工具总类。 |
+| `minecraft:is_pickaxe` | 标记为镐类工具。 |
+| `minecraft:is_axe` | 标记为斧类工具。 |
+| `minecraft:is_hoe` | 标记为锄类工具。 |
+| `minecraft:is_sword` | 标记为剑类武器。 |
+| `minecraft:is_armor` | 标记为盔甲。 |
+| `minecraft:copper_tier` | 铜品质。 |
+| `minecraft:diamond_tier` | 钻石品质。 |
+| `minecraft:golden_tier` | 金品质。 |
+| `minecraft:iron_tier` | 铁品质。 |
+| `minecraft:netherite_tier` | 下界合金品质。 |
+| `minecraft:planks` | 各种木板。 |
+| `minecraft:decorated_pot_sherds` | 可用于饰纹陶罐配方的陶片。 |
+| `minecraft:spawn_egg` | 刷怪蛋总类。 |
 
 完整的原版标签列表及其适用物品，参见[原版物品标签](../../../../refs/tables/items/vanilla_tags.md)。
+
+## 最新确认
+
+- `q.equipped_item_any_tag`与`q.equipped_item_all_tags`仍在Microsoft Learn的最新版Molang查询文档中保留。
+- `minecraft:tags`仍是Microsoft Learn当前物品组件参考中的正式组件。
+- 原版标签表已经包含`minecraft:copper_tier`、`minecraft:golden_tier`等较新的标签名称；编写教程时不应继续使用`minecraft:gold_tier`这类过时写法。

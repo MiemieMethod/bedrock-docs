@@ -36,7 +36,7 @@
 - [文档首页](../../../translations/levilamina/official-docs-home.md) - 查看文档站首页承担的入口职责。
 - [常见问题](../../../translations/levilamina/faq.md) - 查看项目起源与更名缘由。
 - [支持的版本](../../../translations/levilamina/versions.md) - 兼容的LeviLamina和BDS版本。
-- [项目说明页](../../../translations/levilamina/repository-readme.md) - 查看仓库落地页承担的安装、贡献与许可证入口职责。
+- [项目说明页](../../../translations/levilamina/repository-readme.md) - 查看安装、贡献与许可证入口说明。
 - [法律与发布说明](../../../translations/levilamina/legal-release-notes.md) - 区分许可证、EULA与更新风险。
 - [LeviLamina文档归档](../../../translations/levilamina/index.md) - 原始资料脉络索引。
 

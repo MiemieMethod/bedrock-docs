@@ -1,16 +1,16 @@
-# 官方更新日志归档<!-- md:flag vanilla -->
+# 官方更新日志<!-- md:flag vanilla -->
 
-本页用于说明本站如何整理Minecraft官方帮助中心中的基岩版更新日志译文，以及在开发工作流中应如何使用这些资料。
+开发时如果需要核对版本修复内容、热修复影响范围或某项改动是否已经进入正式版，可以直接查官方更新日志。
 
-## 当前归档内容
+## 适合用来确认什么
 
-本站当前收录的官方帮助中心译文以基岩版正式版更新日志为主，适合用来核对：
+这里的译文目前以基岩版正式版更新日志为主，适合用来确认：
 
 - 某个版本是否修复了命令、附加包或多人相关问题。
 - 某个热修复是否只改行为、不改语法。
 - 某次更新的开发者相关改动是否已经进入正式版。
 
-## 最新已收录译文
+## 当前可直接查看的译文
 
 - [Minecraft：基岩版26.23修复版](../../translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md)
 - [Minecraft：基岩版26.21修复版](../../translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog.md)
@@ -37,7 +37,3 @@
 - [预览版、测试版与更新日志](preview-beta-changelogs.md)：说明发布通道与阅读顺序。
 - [如何判断命令能否在目标版本运行](../../topics/command-compatibility.md)：说明如何把命令更新时间线与官方日志结合使用。
 - [命令版本](../../refs/commands/version.md)：整理近期命令语法变化节点。
-
-## 原始来源
-
-- 当前站内译文目录：`docs\translations\help-center\changelogs`

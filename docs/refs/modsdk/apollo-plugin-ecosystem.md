@@ -9,8 +9,8 @@
 
 若需要保留原始分类脉络，可参阅：
 
-- [Apollo官方插件目录归档](../../translations/china-api-reference/apollo-official-plugins.md)
-- [Apollo第三方插件目录归档](../../translations/china-api-reference/apollo-third-party-plugins.md)
+- [Apollo官方插件目录归档](apollo-official-plugins-archive.md)
+- [Apollo第三方插件目录归档](apollo-third-party-plugins-archive.md)
 
 ## 获取路径
 

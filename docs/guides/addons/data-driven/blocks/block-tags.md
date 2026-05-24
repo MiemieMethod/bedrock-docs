@@ -1,39 +1,92 @@
 # 方块标签
 
-方块标签是附加到方块上的字符串标记，可用于在命令、战利品表、配方和Molang查询中按类别批量引用方块。
+方块标签是附加到方块上的字符串标记，可用于在方块描述符、物品组件和Molang查询中按类别批量匹配方块，也可直接启用部分原版交互逻辑。
 
 ## 添加标签
 
-在方块JSON的 `components` 中，使用 `tag:` 前缀添加标签：
+### `1.26.20`及以上格式版本
+
+自`1.26.20`起，方块标签应写入`minecraft:tags`组件。根据Microsoft Learn的`1.26.20`更新说明，旧式直接写在`components`下的`tag:`键在这一格式版本起不再是推荐写法。
 
 ```json title="BP/blocks/my_ore.json > components"
-"tag:minecraft:is_pickaxe_item_tier_4": {},
+"minecraft:tags": [
+    "minecraft:is_pickaxe_item_destructible",
+    "wiki:custom_ore",
+    "wiki:mineable_with_diamond"
+]
+```
+
+标签值必须使用`命名空间:标签名`格式。
+
+### 旧式写法
+
+较低格式版本的历史工程仍可能使用`tag:`前缀：
+
+```json title="BP/blocks/my_ore.json > components"
+"tag:minecraft:is_pickaxe_item_destructible": {},
 "tag:wiki:custom_ore": {},
 "tag:wiki:mineable_with_diamond": {}
 ```
 
-每个标签组件是一个空对象，标签标识符即为键名的 `tag:` 后面的部分。
+维护旧包时，这种写法仍常用于识别历史资料；但新写法应优先采用`minecraft:tags`组件。
 
 ## 查询方块标签
 
-### 在Molang中查询
+### 在方块描述符中查询
 
-在Molang表达式（如置换条件、动画等）中，可以查询方块是否具有某个标签：
+方块描述符的`tags`字段可用`q.all_tags`与`q.any_tag`表达式匹配标签：
+
+```json title="方块描述符"
+{
+    "tags": "q.any_tag('wiki:glowing') && q.all_tags('wiki:custom_ore', 'minecraft:stone')"
+}
+```
+
+/// define
+`q.any_tag(...tags)`
+
+- 当前方块是否拥有列出的任意一个标签。
+
+`q.all_tags(...tags)`
+
+- 当前方块是否同时拥有列出的全部标签。
+///
+
+### 在实体Molang中查询
+
+在实体客户端定义、动画控制器等位置，可以查询绝对坐标或相对坐标处的方块标签：
 
 ```molang
-q.any_tag('wiki:custom_ore', 'wiki:mineable_with_diamond')
+q.relative_block_has_any_tag(0, -1, 0, 'minecraft:crop', 'minecraft:wood')
 ```
 
 ```molang
-q.all_tags('minecraft:is_pickaxe_item_tier_4', 'wiki:custom_ore')
+q.block_has_all_tags(v.target_x, v.target_y, v.target_z, 'minecraft:stone')
 ```
 
-- `q.any_tag(...)` — 方块拥有其中**任意一个**标签时为真
-- `q.all_tags(...)` — 方块拥有**所有**列出的标签时为真
+Microsoft Learn当前仍记录以下查询函数：
+
+/// define
+`q.block_has_any_tag(x, y, z, ...tags)`
+
+- 检查指定坐标处方块是否拥有任意一个标签。
+
+`q.block_has_all_tags(x, y, z, ...tags)`
+
+- 检查指定坐标处方块是否拥有全部标签。
+
+`q.relative_block_has_any_tag(x, y, z, ...tags)`
+
+- 检查相对实体偏移位置的方块是否拥有任意一个标签。
+
+`q.relative_block_has_all_tags(x, y, z, ...tags)`
+
+- 检查相对实体偏移位置的方块是否拥有全部标签。
+///
 
 ### 在物品挖掘组件中查询
 
-物品的 `minecraft:digger` 组件可以根据方块标签定义挖掘速度和适合性：
+物品的`minecraft:digger`组件可以根据方块标签定义挖掘速度和适合性：
 
 ```json title="BP/items/diamond_pickaxe.json（示意）"
 "minecraft:digger": {
@@ -41,7 +94,7 @@ q.all_tags('minecraft:is_pickaxe_item_tier_4', 'wiki:custom_ore')
     "destroy_speeds": [
         {
             "block": {
-                "tags": "q.any_tag('minecraft:stone', 'wiki:custom_ore')"
+                "tags": "q.any_tag('minecraft:is_pickaxe_item_destructible', 'wiki:custom_ore')"
             },
             "speed": 8.0
         }
@@ -49,41 +102,22 @@ q.all_tags('minecraft:is_pickaxe_item_tier_4', 'wiki:custom_ore')
 }
 ```
 
-### 在实体Molang中查询
-
-实体的Molang可以通过 `q.relative_block_has_any_tag` 查询相邻方块的标签：
-
-```molang
-q.relative_block_has_any_tag(0, -1, 0, 'minecraft:dirt', 'minecraft:sand')
-```
-
-参数含义：`(x偏移, y偏移, z偏移, 标签列表...)`。
-
 ## 原版常用标签
 
-原版游戏预定义了大量方块标签，可以直接在自定义方块中使用以获得相应行为：
+原版游戏预定义了大量方块标签。根据最新版Bedrock Wiki标签表与Microsoft Learn当前查询文档，以下几类最常用于附加包：
 
 | 标签 | 作用 |
 |------|------|
-| `minecraft:crop` | 标记为农作物，可被特定物品收割 |
-| `minecraft:wood` | 标记为木材，影响斧的挖掘加速 |
-| `minecraft:stone` | 标记为石头，影响镐的挖掘加速 |
-| `minecraft:dirt` | 标记为泥土类方块 |
+| `minecraft:crop` | 允许带有`minecraft:grows_crops`组件的实体对其授粉或促进生长。 |
+| `minecraft:is_axe_item_destructible` | 使带有斧类标签的物品按原版逻辑更快破坏此方块。 |
+| `minecraft:is_pickaxe_item_destructible` | 使带有镐类标签的物品按原版逻辑更快破坏此方块。 |
+| `wood` | 用于木质方块的通用分类，常与破坏、合成和过滤逻辑一起出现。 |
+| `stone` | 用于石质方块的通用分类，可在描述符和过滤表达式中复用。 |
 
 完整的原版方块标签列表见[参考表](../../../refs/tables/blocks/vanilla_tags.md)。
 
-## 用tags组件（1.26.20+）<!-- md:flag experimental -->
+## 兼容提示
 
-从格式版本 `1.26.20` 起（需启用"即将推出的创作者功能"实验性开关），可以使用 `minecraft:tags` 组件集中声明多个标签：
-
-```json title="BP/blocks/my_block.json > components"
-"minecraft:tags": {
-    "tags": [
-        "wiki:custom_ore",
-        "wiki:mineable_with_diamond",
-        "minecraft:is_pickaxe_item_tier_4"
-    ]
-}
-```
-
-这与分别写 `"tag:wiki:custom_ore": {}` 等价，只是写法更集中。
+- Bedrock Wiki当前仍使用旧式`tag:`示例，是因为该写法便于解释历史工程。
+- Microsoft Learn的`1.26.20`更新说明已明确：面向较新方块格式版本时，应改用`minecraft:tags`数组写法。
+- 旧资料中部分“按工具品质”标签已经被标为弃用。若遇到这类标签，应优先查阅当前原版标签表，而不要只照抄旧教程中的名字。

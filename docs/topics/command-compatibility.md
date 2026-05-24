@@ -17,7 +17,7 @@
 - 某项参数是否在后续版本中追加、移除或调整顺序。
 - 某些旧版写法何时被新语法取代。
 
-例如，来源记录表明：
+例如，当前可核对到的时间线显示：
 
 - `packstack`命令在`26.0.23`加入。
 - `camera play_spline`在`26.0.27`先以实验性形式加入，在`26.10.25`解除实验性要求。
@@ -59,6 +59,6 @@
 ## 相关页面
 
 - [基岩版命令更新记录](../refs/commands/command-log.md)
-- [官方更新日志归档](../help/minecraft/official-changelog-archive.md)
+- [官方更新日志](../help/minecraft/official-changelog-archive.md)
 - [命令版本](../refs/commands/version.md)
 - [预览版、测试版与更新日志](../help/minecraft/preview-beta-changelogs.md)

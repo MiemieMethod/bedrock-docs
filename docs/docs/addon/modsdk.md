@@ -37,7 +37,7 @@
 
 这种分法反映的是历史文档编排方式，而不是三个彼此独立的产品。实际工程中，三者常被组合使用：ModAPI负责基础运行时调用，Apollo负责网络服场景，PresetAPI负责预设玩法对象。
 
-若需要保留旧版原文目录脉络，可参阅[中国版API参考归档概述](../../translations/china-api-reference/overview.md)。
+若需要保留旧版原文目录脉络，可参阅[中国版API参考归档概述](../../refs/modsdk/china-api-reference-overview.md)。
 
 ## 与附加包体系的关系
 

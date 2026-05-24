@@ -752,6 +752,11 @@ nav:
       - '1.10':
         - guides/outdated/1.10/index.md
       - 旧版Bedrock Wiki资料辨析: guides/outdated/legacy-bedrock-wiki.md
+      - 中国版旧版文档归档: guides/outdated/china-legacy-archive.md
+      - MC Studio工具链旧版目录: guides/outdated/china-legacy-mc-studio-index.md
+      - ModSDK旧版教程目录: guides/outdated/china-legacy-modsdk-index.md
+      - Apollo网络服旧版目录: guides/outdated/china-legacy-apollo-index.md
+      - 示例与DEMO旧版目录: guides/outdated/china-legacy-demos-index.md
       - 旧版中国版模组SDK制作规范: guides/outdated/china-legacy-modsdk-guidelines.md
       - 旧版中国版MC Studio工具链: guides/outdated/china-legacy-mc-studio.md
       - 旧版中国版特效编辑器: guides/outdated/china-legacy-mc-studio-effects.md
@@ -904,6 +909,8 @@ nav:
       - 对话定义: refs/addon/dialogue-document.md
     - 中国版模组SDK:
       - refs/modsdk/index.md
+      - 中国版API参考归档: refs/modsdk/china-api-reference-archive.md
+      - 中国版API参考概述: refs/modsdk/china-api-reference-overview.md
       - 中国版ModAPI接口域索引: refs/modsdk/modapi-interface-index.md
       - 中国版ModAPI事件域索引: refs/modsdk/modapi-event-index.md
       - 中国版ModAPI枚举值索引: refs/modsdk/modapi-enum-index.md
@@ -918,6 +925,8 @@ nav:
       - 自定义书本格式与接口: refs/modsdk/custom-book.md
       - 中国版PresetAPI参考: refs/modsdk/preset-api.md
       - 模组SDK版本更新索引: refs/modsdk/version-update.md
+      - Apollo官方插件目录归档: refs/modsdk/apollo-official-plugins-archive.md
+      - Apollo第三方插件目录归档: refs/modsdk/apollo-third-party-plugins-archive.md
       - Apollo网络服事件: refs/modsdk/apollo-events.md
       - Apollo控制服接口: refs/modsdk/apollo-control-api.md
       - Apollo功能服接口: refs/modsdk/apollo-service-api.md
@@ -1081,17 +1090,6 @@ nav:
       - 事件:
         - translations/innercore/events/index.md
         - 回调: translations/innercore/events/callbacks.md
-    - 中国版旧版文档归档:
-      - translations/china-legacy/index.md
-      - MC Studio工具链旧版目录: translations/china-legacy/mc-studio.md
-      - ModSDK旧版教程目录: translations/china-legacy/modsdk.md
-      - Apollo网络服旧版目录: translations/china-legacy/apollo.md
-      - 示例与DEMO旧版目录: translations/china-legacy/demos.md
-    - 中国版API参考归档:
-      - translations/china-api-reference/index.md
-      - 中国版API参考概述: translations/china-api-reference/overview.md
-      - Apollo官方插件目录归档: translations/china-api-reference/apollo-official-plugins.md
-      - Apollo第三方插件目录归档: translations/china-api-reference/apollo-third-party-plugins.md
     - 基岩版开发wiki主页站:
       - translations/dev-home/index.md
       - 项目说明页: translations/dev-home/repository-readme.md
@@ -1172,7 +1170,7 @@ nav:
       - 导入与启用内容: help/minecraft/importing-and-activating-content.md
       - 开启实验性玩法: help/minecraft/enabling-experimental-features.md
       - 预览版、测试版与更新日志: help/minecraft/preview-beta-changelogs.md
-      - 官方更新日志归档: help/minecraft/official-changelog-archive.md
+      - 官方更新日志: help/minecraft/official-changelog-archive.md
       - 启动Minecraft编辑器: help/minecraft/launching-editor.md
       - 复制坐标UI: help/minecraft/copy-coordinate-ui.md
       - 多人游戏与服务器入口: help/minecraft/multiplayer-and-servers.md

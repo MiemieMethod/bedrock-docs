@@ -1,4 +1,4 @@
-# 示例与DEMO旧版目录
+# 示例与DEMO旧版目录<!-- md:flag china -->
 
 
 ## 示例索引页
@@ -23,4 +23,4 @@
 
 - 中国版概念与接口：见[中国版模组SDK参考](../../refs/modsdk/index.md)
 - 中国版教程主线：见[模组SDK教程](../../guides/addons/modsdk/index.md)
-- 旧版目录总入口：见[中国版旧版文档归档](index.md)
+- 旧版目录总入口：见[中国版旧版文档归档](china-legacy-archive.md)

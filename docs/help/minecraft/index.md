@@ -36,13 +36,13 @@
 
     [:octicons-arrow-right-24: 查看版本说明](preview-beta-changelogs.md)
 
--   :material-book-clock:{ .lg .middle } __官方更新日志归档__
+-   :material-book-clock:{ .lg .middle } __官方更新日志__
 
     ---
 
-    了解本站如何整理官方帮助中心更新日志译文，以及在开发排障时如何使用这些日志。
+    了解这些更新日志在版本核对、问题排查和兼容性判断中的用法。
 
-    [:octicons-arrow-right-24: 查看归档说明](official-changelog-archive.md)
+    [:octicons-arrow-right-24: 查看使用说明](official-changelog-archive.md)
 
 -   :material-hammer-wrench:{ .lg .middle } __启动Minecraft编辑器__
 
