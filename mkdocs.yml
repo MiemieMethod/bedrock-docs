@@ -753,7 +753,7 @@ nav:
       - '1.10':
         - guides/outdated/1.10/index.md
       - 旧版Bedrock Wiki资料辨析: guides/outdated/legacy-bedrock-wiki.md
-      - 中国版旧版文档归档: guides/outdated/china-legacy-archive.md
+      - 中国版旧版文档目录: guides/outdated/china-legacy-archive.md
       - MC Studio工具链旧版目录: guides/outdated/china-legacy-mc-studio-index.md
       - ModSDK旧版教程目录: guides/outdated/china-legacy-modsdk-index.md
       - Apollo网络服旧版目录: guides/outdated/china-legacy-apollo-index.md
@@ -910,8 +910,8 @@ nav:
       - 对话定义: refs/addon/dialogue-document.md
     - 中国版模组SDK:
       - refs/modsdk/index.md
-      - 中国版API参考归档: refs/modsdk/china-api-reference-archive.md
-      - 中国版API参考概述: refs/modsdk/china-api-reference-overview.md
+      - 中国版API参考目录: refs/modsdk/china-api-reference-archive.md
+      - 中国版API参考概览: refs/modsdk/china-api-reference-overview.md
       - 中国版ModAPI接口域索引: refs/modsdk/modapi-interface-index.md
       - 中国版ModAPI事件域索引: refs/modsdk/modapi-event-index.md
       - 中国版ModAPI枚举值索引: refs/modsdk/modapi-enum-index.md
@@ -926,8 +926,8 @@ nav:
       - 自定义书本格式与接口: refs/modsdk/custom-book.md
       - 中国版PresetAPI参考: refs/modsdk/preset-api.md
       - 模组SDK版本更新索引: refs/modsdk/version-update.md
-      - Apollo官方插件目录归档: refs/modsdk/apollo-official-plugins-archive.md
-      - Apollo第三方插件目录归档: refs/modsdk/apollo-third-party-plugins-archive.md
+      - Apollo官方插件目录: refs/modsdk/apollo-official-plugins-archive.md
+      - Apollo第三方插件目录: refs/modsdk/apollo-third-party-plugins-archive.md
       - Apollo网络服事件: refs/modsdk/apollo-events.md
       - Apollo控制服接口: refs/modsdk/apollo-control-api.md
       - Apollo功能服接口: refs/modsdk/apollo-service-api.md

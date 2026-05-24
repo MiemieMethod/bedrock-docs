@@ -1,5 +1,7 @@
 # ModSDK旧版教程目录<!-- md:flag china -->
 
+想按旧版ModSDK教程的章节顺序找内容时，可以先看这一页。
+
 
 ## 顶层主题
 
@@ -73,7 +75,7 @@
 
 ## 已并入参考分区的目录
 
-以下目录以“接口索引/事件索引/枚举索引”为主，已落位到中国版模组SDK参考页面：
+以下目录主要对应接口索引、事件索引和枚举值，现在更适合直接去参考分区阅读：
 
 - `00-ModSDK更新信息`
 - `02-Python脚本开发/99-ModAPI`
@@ -84,7 +86,7 @@
 - [中国版模组SDK参考](../../refs/modsdk/index.md)
 - [模组SDK版本更新索引](../../refs/modsdk/version-update.md)
 
-## 迁移阅读建议
+## 继续阅读
 
 - 旧规范维护：[旧版中国版模组SDK制作规范](../../guides/outdated/china-legacy-modsdk-guidelines.md)
 - 现代实践入口：[模组SDK教程](../../guides/addons/modsdk/index.md)

@@ -1,11 +1,4 @@
 # 战利品表、生成规则与合成配方
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
-
 接下来我们将为自定义的幽灵实体添加更多基础机制：
 
 ## 战利品表

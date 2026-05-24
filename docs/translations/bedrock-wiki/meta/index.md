@@ -1,11 +1,4 @@
 # 元信息
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
-
 基岩维基的元信息类文章通常用于收录站点说明、开发建议、工具提示和资源索引。本站仅保留其中与Minecraft基岩版开发直接相关、且适合长期查阅的条目。
 
 如果你正在寻找编辑器中的JSON校验说明，可以直接阅读本站的[配置JSON架构校验](../../../guides/tools/json-schemas.md)。

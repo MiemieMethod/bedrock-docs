@@ -1,5 +1,7 @@
 # MC Studio工具链旧版目录<!-- md:flag china -->
 
+想从旧版MC Studio的栏目名称反查资料时，可以先看这一页。
+
 
 ## 顶层条目
 
@@ -21,7 +23,7 @@
 - `5-特效编辑器/5-第一人称模型修改`
 - `5-特效编辑器/99-属性详细说明`
 
-## 迁移阅读建议
+## 继续阅读
 
 - 概念先读：[编辑器](../../docs/general/editor.md)
 - 旧链路总览：[旧版中国版MC Studio工具链](../../guides/outdated/china-legacy-mc-studio.md)

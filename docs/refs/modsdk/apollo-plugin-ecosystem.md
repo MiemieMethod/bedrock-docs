@@ -2,17 +2,14 @@
 
 本页整理Apollo生态中公开介绍的官方插件与第三方插件，用于快速建立功能选型索引。插件能力会随版本变化，请在实际接入前结合对应插件说明再次确认。
 
-## 资料来源
+## 配套目录
 
-- `2-Apollo\5-官方插件简介.md`
-- `2-Apollo\6-第三方插件简介.md`
+如果想先按旧目录浏览插件分类，可以继续看：
 
-若需要保留原始分类脉络，可参阅：
+- [Apollo官方插件目录](apollo-official-plugins-archive.md)
+- [Apollo第三方插件目录](apollo-third-party-plugins-archive.md)
 
-- [Apollo官方插件目录归档](apollo-official-plugins-archive.md)
-- [Apollo第三方插件目录归档](apollo-third-party-plugins-archive.md)
-
-## 获取路径
+## 旧版获取路径
 
 - 官方插件：旧版资料说明可通过MC Studio中基岩版服务器分页的“官方插件”入口下载。
 - 第三方插件：旧版资料说明可通过MC Studio中基岩版服务器的“更多插件”入口下载。

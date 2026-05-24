@@ -3,13 +3,6 @@ title: 发光纹理
 description: 通过纹理和材质制作发光效果。
 category: 教程
 ---
-
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
 这个技巧的目标是做出类似末影人眼睛那样的发光纹理。
 
 ## 纹理

@@ -1,11 +1,4 @@
 # 项目配置
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
-
 ## com.mojang文件夹
 
 `com.mojang`文件夹是Minecraft存储数据（附加包、世界、玩家信息等）的特殊位置。Minecraft能够识别这个路径，所有我们访问或创建的文件都将存放在这个文件夹中！

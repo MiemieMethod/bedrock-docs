@@ -62,22 +62,6 @@
 
     [:octicons-arrow-right-24: 开始阅读](./innercore/index.md)
 
--   :material-archive-outline:{ .lg .middle } __中国版旧版文档归档__
-
-    ---
-
-    面向旧项目维护的中国版历史资料整理。
-
-    [:octicons-arrow-right-24: 开始阅读](./china-legacy/index.md)
-
--   :material-book-search-outline:{ .lg .middle } __中国版API参考归档__
-    中国版模组SDK接口与插件目录的翻译入口。
-    ---
-
-
-    [:octicons-arrow-right-24: 开始阅读](./china-api-reference/index.md)
-
-
 -   :material-map-search:{ .lg .middle } __国际版开发教程归档__
 
     ---

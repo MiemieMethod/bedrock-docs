@@ -3,13 +3,6 @@ title: 玩家几何体
 description: 用于制作玩家型实体的几何体结构。
 category: 教程
 ---
-
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
 本文展示的是玩家型实体的几何体写法。它的核心不是“教你画模型”，而是说明如何组织一个可用于玩家NPC的骨骼结构。
 
 ## 结构要点

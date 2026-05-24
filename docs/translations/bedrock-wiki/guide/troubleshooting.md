@@ -1,11 +1,4 @@
 # 故障排除
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
-
 为Minecraft基岩版创建附加包是一个相对直接的过程——_一旦掌握窍门后_。但初次尝试通常充满挫折，极易出现各种错误。本文档包含修复这些棘手问题的技巧与最佳实践建议。
 
 在深入特定领域的故障排除之前，请完整阅读本页内容。

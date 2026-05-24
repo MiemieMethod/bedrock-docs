@@ -1,9 +1,6 @@
-# 中国版API参考归档<!-- md:flag china -->
+# 中国版API参考目录<!-- md:flag china -->
 
-/// details-info | 署名信息
-- 原始内容为中国版模组开发参考文档历史快照。
-- 本分区目标是保留目录脉络，并将接口型内容落位到“参考→中国版模组SDK”分区。
-///
+这一页用于快速浏览旧版中国版API参考的整体结构。想直接查接口、事件和枚举值时，可以从这里跳到已经整理好的参考页。
 
 ## 目录概览
 
@@ -14,18 +11,15 @@
 | `2-Apollo` | 13 | Apollo网络服SDK、插件生态与更新说明。 |
 | `3-PresetAPI` | 39 | 预设管理、预设对象与更新信息。 |
 
-## 落位策略执行结果
+## 内容范围
 
-1. `1-ModAPI`与`2-Apollo\4-SDK`中的接口资料优先并入[中国版模组SDK参考](../../refs/modsdk/index.md)。
-2. `3-PresetAPI`新增落位到[中国版PresetAPI参考](../../refs/modsdk/preset-api.md)。
-3. 平台特化接口（虚拟世界、联机大厅、商城、物理与自由模型）新增落位到[中国版ModAPI特化接口](../../refs/modsdk/modapi-specialized-api.md)。
-4. 目录与历史语境资料（概述、Apollo插件目录）保留在本归档分区。
+`1-ModAPI`和`2-Apollo\4-SDK`里的接口资料已经拆分到参考分区，`3-PresetAPI`也有独立的汇总页。这里保留的内容更适合用来按旧目录找页面、对照旧教程中的栏目名称，或确认某一类内容当年放在哪个分组里。
 
-## 归档页面
+## 可继续阅读的页面
 
 - [中国版API参考概述](china-api-reference-overview.md)
-- [Apollo官方插件目录归档](apollo-official-plugins-archive.md)
-- [Apollo第三方插件目录归档](apollo-third-party-plugins-archive.md)
+- [Apollo官方插件目录](apollo-official-plugins-archive.md)
+- [Apollo第三方插件目录](apollo-third-party-plugins-archive.md)
 
 ## 推荐阅读路径
 

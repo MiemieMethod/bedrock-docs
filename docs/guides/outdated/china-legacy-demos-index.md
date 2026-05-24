@@ -1,5 +1,7 @@
 # 示例与DEMO旧版目录<!-- md:flag china -->
 
+想确认旧教程里提到的Demo名称、用途和对应章节时，可以先看这一页。
+
 
 ## 示例索引页
 
@@ -13,14 +15,14 @@
 - UI示例、联机大厅商品示例与虚拟世界示例；
 - 微缩方块示例。
 
-## 已扫描到的单独示例说明
+## 已整理出的单独示例说明
 
 - `示例/6-1DemoMod/CustomEntityMod/说明页`
 
 该文件是`CustomEntityMod`的简要说明，记录了自定义材质、重写原版猪、自定义生物`netease:squirrel`以及用Python修改玩家材质等演示点。
 
-## 迁移阅读建议
+## 继续阅读
 
 - 中国版概念与接口：见[中国版模组SDK参考](../../refs/modsdk/index.md)
 - 中国版教程主线：见[模组SDK教程](../../guides/addons/modsdk/index.md)
-- 旧版目录总入口：见[中国版旧版文档归档](china-legacy-archive.md)
+- 旧版目录总入口：见[中国版旧版文档目录](china-legacy-archive.md)

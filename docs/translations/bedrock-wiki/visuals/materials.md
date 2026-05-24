@@ -3,13 +3,6 @@ title: 材质
 description: 资源包材质的作用与常见结构。
 category: 说明
 ---
-
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
 **材质（Material）**决定模型如何被渲染。它控制着色器、渲染状态、顶点字段和采样器状态，属于资源包视觉管线中的底层部分。
 
 ## 基本认识

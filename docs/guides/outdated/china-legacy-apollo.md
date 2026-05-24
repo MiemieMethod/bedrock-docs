@@ -1,6 +1,6 @@
 # 旧版中国版Apollo网络服流程<!-- md:flag china -->
 
-这是一篇面向旧版中国版Apollo网络服项目维护的归档教程。它对应旧版MC Studio与Apollo文档中的“入驻开服→开发调试→提审发布→运营维护”链路，主要用于接手历史项目时快速定位流程节点。
+这篇教程适合在维护旧版中国版Apollo网络服项目时使用。它对应旧版MC Studio与Apollo文档中的“入驻开服→开发调试→提审发布→运营维护”链路，方便快速定位各个流程节点。
 
 /// warning | 仅用于旧版中国版生态
 本页中的角色划分、平台审核、运维入口和工具按钮来自旧版中国版资料，不适用于国际版BDS、Realm或国际版脚本API工作流。
@@ -99,4 +99,4 @@
 - 概念辨析： [Apollo网络服](../../docs/server/apollo.md)
 - 接口参考： [中国版模组SDK参考](../../refs/modsdk/index.md)
 - 旧版工具链： [旧版中国版MC Studio工具链](china-legacy-mc-studio.md)
-- 旧版资料目录：[中国版旧版文档归档](china-legacy-archive.md)
+- 旧版资料目录：[中国版旧版文档目录](china-legacy-archive.md)

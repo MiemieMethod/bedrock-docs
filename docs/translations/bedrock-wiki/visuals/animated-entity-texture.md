@@ -3,13 +3,6 @@ title: 实体纹理动画
 description: 让实体纹理像方块翻书动画一样播放。
 category: 教程
 ---
-
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
 这个技巧的思路很简单：把多帧纹理竖着排，再让材质与渲染控制器按时间去切换UV。
 
 ## 纹理

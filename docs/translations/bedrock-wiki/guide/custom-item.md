@@ -1,11 +1,4 @@
 # 创建自定义物品
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
-
 在Minecraft中，我们可以创建自定义物品，这些物品可以像普通物品一样被丢弃、交易、合成和使用。该系统具有强大的功能，包括制作食物、燃料和工具的能力。
 
 在本教程中，我们将学习如何创建一个简单的"灵质"（ectoplasm）物品，后续将作为幽灵实体的战利品掉落。

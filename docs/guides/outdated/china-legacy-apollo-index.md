@@ -1,5 +1,7 @@
 # Apollo网络服旧版目录<!-- md:flag china -->
 
+想按旧版Apollo教程的原始顺序查流程时，可以先看这一页。
+
 
 ## 顶层条目
 
@@ -31,11 +33,11 @@
 - `3-开发自己的网络服/1-从零开始服务器Mod开发`
 - `3-开发自己的网络服/2-网络服开发进阶/*`
 
-## SDK目录（已并入参考分区）
+## SDK目录
 
 - `4-SDK/*`
 
-对应入口：
+现在可以直接从下面几页继续查：
 
 - [Apollo网络服事件](../../refs/modsdk/apollo-events.md)
 - [Apollo控制服接口](../../refs/modsdk/apollo-control-api.md)
@@ -48,7 +50,7 @@
 - `6-发布网络服/*`
 - `7-其他/*`
 
-## 迁移阅读建议
+## 继续阅读
 
 - 概念辨析：[Apollo网络服](../../docs/server/apollo.md)
 - 流程维护：[旧版中国版Apollo网络服流程](../../guides/outdated/china-legacy-apollo.md)

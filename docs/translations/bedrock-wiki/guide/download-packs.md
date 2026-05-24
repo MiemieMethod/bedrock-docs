@@ -1,11 +1,4 @@
 # 下载示例包
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
-
 /// tip | 提示
 这是附录页面。你可以从[这里](./index.md)重新开始本指南。
 ///

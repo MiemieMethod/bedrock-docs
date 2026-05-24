@@ -1,11 +1,4 @@
 # 项目配置（Android）
-
-/// details-info | 来源信息
-- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
-- 许可说明：以原仓库或原站点公开许可声明为准。
-///
-
-
 ## 工具选择
 
 为Android平台寻找合适的附加包开发工具并非易事，但我们已尽力为您收集了Google Play上的优质应用。Android开发需要以下三类工具组合使用：
