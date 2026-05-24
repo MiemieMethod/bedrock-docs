@@ -9,6 +9,12 @@
 
 这两个版本的命令表并不相同。`26.10.25`预览版已经出现`camera attach_to_entity`、`camera detach_from_entity`和`camera play_spline`，而`26.1.1`正式版命令表中尚未出现这三条语法。因此，阅读“当前命令”时，必须先分清自己面对的是正式版还是预览版。
 
+## 当前命令表的观察口径
+
+按当前可核对的两份命令表，`26.1.1`正式版与`26.10.25`预览版都能整理出78个命令标签。两者共同包含`packstack`、`controlscheme`、`inputpermission`和`schedule delay`等较新的语法，差异主要集中在`camera attach_to_entity`、`camera detach_from_entity`和`camera play_spline`这类仍处于预览版领先阶段的子命令。
+
+这份记录反映的是对应游戏构建里可直接观察到的命令表，不适合直接当作BDS管理命令的完整清单使用。以`26.1.1`正式版命令表为例，可以看到`/stop`，但看不到`/allowlist`、`/reloadconfig`和`/sendshowstoreoffer`等更偏向专用服务端运维的语法。需要核对这类命令时，还应结合专门的服务端参考资料一起判断。
+
 ## 记录范围与局限
 
 这份时间线主要按Android平台可取得的版本整理，因此不覆盖所有平台上的全部构建。对于`1.2`以下版本，部分命令又无法通过早期WebSocket服务器观察到，所以记录并不完整。
