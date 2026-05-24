@@ -8,7 +8,7 @@ SerenityJS的事件、命令、自定义方块和插件系统都属于SerenityJS
 
 ## 准备环境
 
-使用SerenityJS前，先安装Node.js的LTS版本，并准备一个代码编辑器。SerenityJS资料推荐Visual Studio Code。若只运行预构建服务器，可从项目发行页下载对应版本；若希望创建可编程项目，使用包管理器创建项目更合适。
+使用SerenityJS前，先准备Node.js或Bun运行时，并准备一个代码编辑器。当前仓库根工作区声明的门槛是Node.js25及以上或Bun1.3.0及以上；若只运行预构建服务器，可从项目发行页下载对应版本；若希望创建可编程项目，使用包管理器创建项目更合适。
 
 ```bash
 npm create serenity
@@ -182,7 +182,7 @@ world.blockPalette.registerTrait(ExampleBlockTrait);
 
 ## 创建插件项目
 
-SerenityJS提供`sample-plugin`模板仓库。创建插件时，通常先使用模板生成自己的仓库，再在其中编写TypeScript或JavaScript代码。提到创建模板项目时可以选择仓库名称、描述，并可按需包含模板中的不同分支。
+SerenityJS当前工作区单独提供`@serenityjs/plugins`包。创建插件项目时，通常需要先准备一个Node.js或Bun项目，再安装插件包以及它依赖的核心包，然后在项目中编写TypeScript或JavaScript代码。
 
 插件适合分发可复用的服务端扩展；直接嵌入`Serenity`实例的代码则适合把服务器作为应用程序的一部分。两种组织方式都属于SerenityJS生态，选择时应看项目是否需要独立发布和安装。
 
