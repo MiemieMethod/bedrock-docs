@@ -83,7 +83,6 @@ Allay插件可以使用Java、Kotlin、Scala以及其他JVM语言编写。官方
   "entrance": "your.group.name.myplugin.MyPlugin",
   "authors": ["yourname"],
   "version": "0.1.0",
-  "api_version": ">=0.1.0",
   "description": "The description of your plugin",
   "website": "The website of your plugin",
   "dependencies": [
@@ -99,7 +98,7 @@ Allay插件可以使用Java、Kotlin、Scala以及其他JVM语言编写。官方
 }
 ```
 
-其中`version`必须是合法语义化版本，否则插件不会加载。`api_version`和依赖版本可以写版本表达式；不确定时先使用模板给出的默认写法。
+其中`version`必须是合法语义化版本，否则插件不会加载。当前公开的插件描述文件架构还列出了`description`、`website`和`dependencies`等可选字段；`dependencies`中的每一项可填写`name`、`version`和`optional`。
 
 ## 运行和构建
 

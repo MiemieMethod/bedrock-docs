@@ -16,12 +16,11 @@ Allay插件通常使用`plugin.json`描述元数据。
 | `entrance` | 字符串 | 必要 | 插件入口类的全限定名。 |
 | `authors` | 字符串数组 | 建议 | 插件作者列表。 |
 | `version` | 字符串 | 必要 | 插件版本，必须是合法语义化版本。 |
-| `api_version` | 字符串 | 可选 | 目标Allay API版本或版本表达式。 |
 | `description` | 字符串 | 可选 | 插件描述。 |
 | `website` | 字符串 | 可选 | 插件网站。 |
-| `dependencies` | 对象数组 | 可选 | 依赖插件名称、版本表达式和是否可选。 |
+| `dependencies` | 对象数组 | 可选 | 依赖插件名称、版本字符串和是否可选。 |
 
-`api_version`和依赖版本支持常见版本表达式，例如单一版本、NPM风格、CocoaPods风格和Ivy风格表达式。
+当前公开的`plugin_descriptor_json_scheme.json`只列出了这些字段；`dependencies`中的条目包含`name`、`optional`和`version`三个键。
 
 ## 生命周期
 
@@ -38,7 +37,7 @@ Allay插件通常使用`plugin.json`描述元数据。
 |------|------|
 | `PluginSource` | 提供本地或远程插件路径。 |
 | `PluginLoader`与`PluginLoaderFactory` | 判断插件文件是否可加载，并创建对应加载器实例。 |
-| `PluginDescriptor` | 保存插件名称、入口、版本、依赖和API版本等描述信息。 |
+| `PluginDescriptor` | 保存插件名称、入口、版本、依赖等描述信息。 |
 | `PluginManager` | 管理插件发现、依赖检查、加载、启用和禁用。 |
 | `PluginContainer` | 保存运行中的插件主体、描述符、加载器和数据目录。 |
 | `Plugin` | 插件逻辑主体。 |

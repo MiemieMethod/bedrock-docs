@@ -32,7 +32,7 @@ Allay是使用Java语言从头实现的基岩版服务端软件，支持Java、K
 
 ### SerenityJS
 
-SerenityJS是使用Rust和TypeScript从头实现的基岩版服务端软件，面向Node.js和Bun生态的开发者。SerenityJS可以作为预构建服务器运行，也可以通过`@serenityjs/core`嵌入到Node.js项目中；其插件、事件、命令、自定义方块和协议相关接口均属于SerenityJS生态。关于其定位、架构和限制，见[SerenityJS](serenity.md)。
+SerenityJS是以TypeScript工作区和多包结构组织的基岩版自实现服务端软件，面向Node.js和Bun生态的开发者。SerenityJS可以作为预构建服务器运行，也可以通过`@serenityjs/core`嵌入到Node.js项目中；其插件、事件、命令、自定义方块和协议相关接口均属于SerenityJS生态。关于其定位、架构和限制，见[SerenityJS](serenity.md)。
 
 ### Nukkit系列
 

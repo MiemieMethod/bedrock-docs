@@ -170,7 +170,7 @@ const permutation = blockType.createPermutation({
 
 ## 插件模板
 
-SerenityJS插件资料提到官方`sample-plugin`模板仓库。创建插件时，需要准备Node.js的LTS版本、代码编辑器，并可选安装Rust。模板仓库提供TypeScript和JavaScript分支，适合创建可分发的SerenityJS服务端扩展。
+SerenityJS当前工作区单独提供`@serenityjs/plugins`包。创建插件时，至少需要准备Node.js或Bun运行时与代码编辑器，并确认项目安装了插件包及其依赖的核心包。
 
 插件模板只适用于SerenityJS插件生态；它不是BDS、LeviLamina、Endstone、Allay、Nukkit或PocketMine-MP插件模板。
 

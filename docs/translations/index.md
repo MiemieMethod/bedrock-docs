@@ -90,9 +90,9 @@
 
     ---
 
-    基岩版协议相关页面的翻译入口。
+    基岩版协议导览与说明页的翻译入口。
 
-    [:octicons-arrow-right-24: 开始阅读](./protocol/source-readme.md)
+    [:octicons-arrow-right-24: 开始阅读](./protocol/index.md)
 
 -   :material-file-document-multiple:{ .lg .middle } __官方自动导出的文档__
 

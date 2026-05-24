@@ -51,7 +51,6 @@ cd MyPlugin
   "entrance": "your.group.name.myplugin.MyPlugin",
   "authors": ["yourname"],
   "version": "0.1.0",
-  "api_version": ">=0.1.0",
   "description": "你的插件描述",
   "website": "你的插件网站",
   "dependencies": [
@@ -69,25 +68,9 @@ cd MyPlugin
 
 编辑`plugin.json`时，有几点需要注意：
 
-- 字段`api_version`、`description`、`website`和`dependencies`可以省略
+- 字段`description`、`website`和`dependencies`可以省略
 - 插件的`version`必须是有效的[语义版本](https://semver.org/spec/v2.0.0.html)，否则插件不会被加载
-- 插件的`api_version`和`dependencies`中的条目`version`可以是表达式，以下是一些示例：
-  - **单一版本**
-    - `1.2.3`
-  - **NPM风格**
-    - `>1.2.2`
-    - `1.1.1 || 1.2.3 - 2.0.0`
-    - `1.1.*`
-    - `~1.2.1`
-    - `^1.1.1`
-  - **COCOAPODS风格**
-    - `> 1.2.2`
-    - `~> 1.2.1`
-    - `<= 1.1.1`
-  - **IVY风格**
-    - `1.2.+`
-    - `(,1.8.9]`
-    - `[0.2,1.4]`
+- 当前公开的插件描述文件架构中，`dependencies`里的每一项可以填写`name`、`version`和`optional`
 ///
 
 ## 运行包含插件的服务器
