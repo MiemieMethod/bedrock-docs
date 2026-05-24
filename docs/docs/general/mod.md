@@ -16,5 +16,5 @@ Minecraft基岩版的模组种类繁多，包括但不限于：
 - **WebSocket模组（WebSocket Mod）**：通过WebSocket协议与服务端通信的模组，用于实现一些复杂的功能，例如跨服聊天、服群互通、中央控制等。有特殊的监听接口和独特的命令。
 - **ModPE脚本（ModPE Script）**：早期移动端客户端模组路线，通常依赖BlockLauncher等启动器，以脚本方式扩展客户端行为。
 - **ICMod（InnerCore Mod）**：通过InnerCore加载的模组，通过JavaScript、Java和C++原生层与游戏交互，可以实现更多的功能。仅在Android上可用，正在式微。
-- **LeviLamina客户端模组（LeviLamina Client Mod）**：通过LeviLamina客户端构建加载到受支持Windows客户端进程的原生模组路线，与服务端LeviLamina模组共享部分体系但目标环境不同。
+- **LeviLamina客户端模组（LeviLamina Client Mod）**：通过LeviLamina客户端构建加载到受支持Windows客户端进程的原生模组路线，与服务端LeviLamina模组共享部分体系但目标环境不同。它依赖客户端构建目标、客户端专用头文件和输入、渲染、界面等仅客户端可用的接口。
 - **原生模组（Native Mod）**：通过C++原生地修改游戏代码的模组，通常需要注入代码到游戏中，可以实现更多的功能，但是风险更大，编写也更困难。

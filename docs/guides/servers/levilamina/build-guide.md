@@ -49,6 +49,8 @@ xmake f --target_type=client
 xmake
 ```
 
+客户端构建会编译`src-client/`中的专用代码，并面向Windows版Minecraft客户端进程输出模组。它可以使用输入、客户端事件和渲染相关接口，但不能直接替代服务端构建。
+
 ### 构建并启用测试
 
 ```powershell
