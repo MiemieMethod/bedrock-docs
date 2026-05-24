@@ -9,13 +9,9 @@
 | 位置 | 类型 | 描述 |
 | --- | --- | --- |
 | `minecraft:block.description.states` | 对象 | 自定义方块状态集合。 |
-| `<namespace:state_name>` | 数组或范围对象 | 单个状态允许的取值。取值可以是布尔值、数字或字符串。 |
+| `<namespace:state_name>` | 数组或范围对象 | 单个状态允许的取值。键名必须带命名空间；取值可以是布尔值、数字或字符串。 |
 
 数字范围可以写为范围对象。例如，`"example:integer_state":{"values":{"min":0,"max":3}}`等价于`"example:integer_state":[0,1,2,3]`。
-
-/// warning | 实验性要求
-Microsoft Learn的该参考页仍说明，自定义方块状态需要启用“Holiday Creator Features”实验性开关。实际项目应同时以目标游戏版本、`format_version`和内容日志校验结果为准。
-///
 
 ## 方块置换
 
@@ -23,7 +19,7 @@ Microsoft Learn的该参考页仍说明，自定义方块状态需要启用“Ho
 
 | 字段 | 类型 | 默认值 | 描述 |
 | --- | --- | --- | --- |
-| `condition` | Molang表达式字符串 | 未设置 | 决定该置换是否生效。Microsoft Learn说明，方块置换条件中只应使用`query.block_state()`查询方块状态。 |
+| `condition` | Molang表达式字符串 | 未设置 | 决定该置换是否生效。置换条件通常通过`query.block_state()`读取方块状态。 |
 | `components` | 对象 | 未设置 | 当条件为真时应用的方块组件集合。 |
 
 `/setblock`命令可以在放置方块时指定一个或多个方块状态值。例如：
@@ -32,9 +28,9 @@ Microsoft Learn的该参考页仍说明，自定义方块状态需要启用“Ho
 setblock ~ ~ ~ example:lamp_block ["example:is_lit"=true]
 ```
 
-## 置换数量限制
+## 置换规模控制
 
-Microsoft Learn说明，一个世界中的所有方块最多可生成`65536`个方块置换。超过该数量时，游戏会产生性能警告；该警告也会阻止市场内容摄取。因此，自定义方块应避免用大量状态组合表达不必要的外观或行为差异。
+方块状态值域的笛卡尔积决定该方块可能产生的置换数量。状态越多、每个状态的可选值越多，置换组合就越大，定义、测试和维护成本也越高。因此，自定义方块应只保留确有必要参与外观或行为分支的状态。
 
 ## 原版方块状态
 

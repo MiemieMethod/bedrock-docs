@@ -12,12 +12,12 @@
 
 基岩版公开的方块萃取会随版本扩展。常见萃取包括：
 
-| 萃取 | 作用 |
-|------|------|
-| `minecraft:placement_direction` | 根据玩家放置方块时的朝向设置方向相关状态 |
-| `minecraft:placement_position` | 根据方块相对于相邻方块的放置位置设置附着面、上下半部等状态 |
-| `minecraft:connection` | 根据相邻方块关系设置水平连接方向状态<!-- md:flag experimental --> |
-| `minecraft:multi_block` | 使一个定义表示跨越多个方块位置的多方块结构<!-- md:flag experimental --> |
+| 萃取 | 主要启用状态 | 作用 |
+|------|------|------|
+| `minecraft:placement_direction` | `minecraft:cardinal_direction`、`minecraft:facing_direction`、`minecraft:corner`、`minecraft:sixteen_way_rotation` | 根据玩家放置方块时的朝向设置方向相关状态 |
+| `minecraft:placement_position` | `minecraft:block_face`、`minecraft:vertical_half` | 根据方块相对于相邻方块的放置位置设置附着面、上下半部等状态 |
+| `minecraft:connection` | `minecraft:connection_north`、`minecraft:connection_east`、`minecraft:connection_south`、`minecraft:connection_west` | 根据相邻方块关系设置水平连接状态 |
+| `minecraft:multi_block` | `minecraft:multi_block_part` | 使一个定义表示跨越多个方块位置的多方块结构<!-- md:flag experimental --> |
 
 具体可用萃取、可启用状态和实验性要求应以对应游戏版本的官方参考为准。
 
@@ -29,17 +29,29 @@
 
 ### 放置方向
 
-`minecraft:placement_direction`记录玩家放置方块时面对的方向。该萃取可以启用`minecraft:cardinal_direction`、`minecraft:facing_direction`或`minecraft:corner_and_cardinal_direction`。其中，`minecraft:cardinal_direction`提供`north`、`south`、`east`和`west`四个水平取值；`minecraft:facing_direction`在水平四向之外增加`up`和`down`；`minecraft:corner_and_cardinal_direction`还会使`minecraft:corner`提供`inner_left`、`inner_right`、`outer_left`、`outer_right`和`none`等角部取值。
+`minecraft:placement_direction`记录玩家放置方块时面对的方向。该萃取可以启用`minecraft:cardinal_direction`、`minecraft:facing_direction`、`minecraft:corner_and_cardinal_direction`或`minecraft:sixteen_way_rotation`。其中，`minecraft:cardinal_direction`提供`north`、`south`、`east`和`west`四个水平取值；`minecraft:facing_direction`在水平四向之外增加`up`和`down`；`minecraft:corner_and_cardinal_direction`还会使`minecraft:corner`提供`none`、`inner_left`、`inner_right`、`outer_left`和`outer_right`等角部取值；`minecraft:sixteen_way_rotation`则提供十六向的旋转状态。
 
-该萃取还可以使用`y_rotation_offset`改变记录的水平朝向偏移。偏移值以逆时针方向计，可使用`0.0`、`90.0`、`180.0`或`270.0`。
+该萃取还可以使用`y_rotation_offset`改变记录的水平朝向偏移。偏移值以逆时针方向计，可使用`0.0`、`90.0`、`180.0`或`270.0`。当启用`minecraft:corner_and_cardinal_direction`时，还可以通过`blocks_to_corner_with`限定哪些方块会参与转角判定；未显式指定时，默认只与同名方块形成转角。
+
+在较新的格式版本中，`minecraft:placement_direction`已不再要求实验性开关；较低格式版本仍可能要求启用“Upcoming Creator Features”实验性玩法。
 
 ### 放置位置
 
 `minecraft:placement_position`记录方块相对于其他方块被放置的位置。该萃取可以启用`minecraft:block_face`或`minecraft:vertical_half`。`minecraft:block_face`表示该方块附着的相邻方块面，取值为`north`、`south`、`east`、`west`、`up`或`down`。`minecraft:vertical_half`表示方块被放置在相邻方块的上半或下半，取值为`top`或`bottom`。
 
+该萃取在较新的格式版本中已不再要求实验性开关；较低格式版本仍可能要求启用“Upcoming Creator Features”实验性玩法。
+
 ### 连接关系
 
-`minecraft:connection`记录方块是否与相邻方块连接。该萃取目前要求`format_version`不低于`1.21.130`，并需要启用“Upcoming Creator Features”实验性开关。该萃取目前只能启用`minecraft:cardinal_connections`，并由此提供`minecraft:connection_north`、`minecraft:connection_south`、`minecraft:connection_east`和`minecraft:connection_west`四个可查询布尔状态。
+`minecraft:connection`记录方块是否与相邻方块连接。该萃取目前只能启用`minecraft:cardinal_connections`，并由此提供`minecraft:connection_north`、`minecraft:connection_south`、`minecraft:connection_east`和`minecraft:connection_west`四个可查询布尔状态。当方块本身或相邻方块发生变化时，这些状态会由引擎重新计算。
+
+在较新的格式版本中，`minecraft:connection`已不再要求实验性开关；较低格式版本仍可能要求启用“Upcoming Creator Features”实验性玩法。
+
+### 多方块
+
+`minecraft:multi_block`用于把一个方块定义扩展为沿单一方向展开的多方块结构。该萃取会启用`minecraft:multi_block_part`状态，用于记录当前方块在整组结构中的部件位置。
+
+该萃取可以使用`parts`指定结构的部件数量，当前有效范围为`2`至`4`；还可以使用`direction`指定结构展开方向，目前只支持`up`和`down`。与放置方向、放置位置等较早稳定的萃取不同，多方块萃取目前仍与实验性玩法密切相关。
 
 ## 与组件和事件
 
