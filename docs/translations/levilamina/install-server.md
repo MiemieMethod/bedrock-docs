@@ -4,6 +4,12 @@ title: 在服务器上安装
 
 # 在服务器上安装
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 ## 前提条件
 
 - Windows 10、Windows 11、Windows Server 2019或Windows Server 2022。

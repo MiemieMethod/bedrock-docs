@@ -1,5 +1,11 @@
 # bridge-core.app文档
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/bridge-core/docs](https://github.com/bridge-core/docs)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 bridge-core.app是bridge.当前官方网站。其文档覆盖bridge.安装、入门、项目类型、`com.mojang`同步、Dash编译器、扩展API、预设、代码片段、iframe API和脚本模块等内容。
 
 本站已根据该资料源补充以下页面，并以本站教程体例重写原始内容：

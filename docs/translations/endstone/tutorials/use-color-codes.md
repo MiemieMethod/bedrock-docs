@@ -4,6 +4,12 @@ comments: true
 
 # 使用颜色代码
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 颜色代码用于自定义游戏中的文本颜色和格式，例如在标牌、聊天、标题、表单等位置。这些颜色代码由节符号`§`加一个字符组成。每个字符都代表一种颜色或格式选项。Endstone提供了易用的API来处理这类文本。
 
 ## 用法

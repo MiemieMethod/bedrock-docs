@@ -1,5 +1,11 @@
 # 国际版开发教程归档
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/MiemieMethod/bedrock-international-development-tutorial](https://github.com/MiemieMethod/bedrock-international-development-tutorial)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 /// details-info | 来源说明
 - 定位：历史教程归档（原文为中文）
 - 处理策略：优先合并到本站现有“文档/教程”，仅保留章节脉络索引

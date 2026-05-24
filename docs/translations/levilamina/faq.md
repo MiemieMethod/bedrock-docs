@@ -4,6 +4,12 @@ title: 常见问题
 
 # 常见问题
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 ## LeviLamina来自哪里？
 

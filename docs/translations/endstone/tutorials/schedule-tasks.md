@@ -1,5 +1,11 @@
 # 调度任务
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 Endstone提供了一个任务调度系统，允许插件为将来的执行安排任务，可能在定期间隔。在本教程中，我们将指导您安排一个简单的任务。
 
 这里，我们想要一个显示"Hi!"的屏幕弹出窗口每隔1秒钟为每个在线玩家出现。

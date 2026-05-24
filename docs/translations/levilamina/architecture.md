@@ -4,6 +4,12 @@ title: 官方项目架构
 
 # 官方项目架构
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本页保留LeviLamina官方架构说明的原始脉络摘要。若需要站内术语统一后的概念总览，应优先阅读[LeviLamina](../../docs/server/levilamina.md)；若需要实践性的开发步骤，则继续阅读[LeviLamina开发者指南](../../guides/servers/levilamina/index.md)。
 

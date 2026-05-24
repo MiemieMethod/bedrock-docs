@@ -90,4 +90,5 @@
 - [插件加载器](../../docs/server/plugin-loader.md)
 - [基岩版专用服务器](../../docs/server/bds.md)
 - [Nukkit-MOT](../../docs/server/nukkit-mot.md)
+- [PocketMine-MP](../../docs/server/pocketmine-mp.md)
 - [网络协议](../../docs/server/protocol.md)

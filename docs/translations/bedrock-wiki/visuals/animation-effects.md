@@ -4,9 +4,10 @@ description: 在动画里直接触发粒子和音效。
 category: 教程
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Effects in Animations](https://wiki.bedrock.dev/visuals/animation-effects.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 有些时候，把粒子和音效直接写进动画里，比放在动画控制器里更简单。

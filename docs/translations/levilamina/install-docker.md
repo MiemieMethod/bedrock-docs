@@ -4,6 +4,12 @@ title: 在Docker上安装
 
 # 在Docker上安装
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 ## 安装
 
 要在Linux容器中启动服务器，请运行以下命令：

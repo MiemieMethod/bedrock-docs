@@ -1,8 +1,10 @@
 # 软件准备
 
-/// details-info | 署名信息
-- 该页面翻译自[https://wiki.bedrock.dev/guide/software-preparation](https://wiki.bedrock.dev/guide/software-preparation)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 在开始制作附加包之前，您需要先安装必要的工具和软件。虽然在Windows 10上进行开发最为便捷，我们也为Android和iOS用户提供了适用的移动端替代方案。
 

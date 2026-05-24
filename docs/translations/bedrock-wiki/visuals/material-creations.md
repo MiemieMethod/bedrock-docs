@@ -4,9 +4,10 @@ description: 社区整理的几个可复用材质片段。
 category: 参考
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Material Creations](https://wiki.bedrock.dev/visuals/material-creations.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 这一页收录几个常见的材质思路，重点在“能做什么”而不是“为什么这样设计”。

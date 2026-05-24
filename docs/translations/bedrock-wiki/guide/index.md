@@ -1,5 +1,11 @@
 # 入门指南
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 基岩维基的入门指南系列面向Minecraft基岩版附加包开发的新手，按照从准备环境到完成第一个可运行附加包的顺序编排。建议依次阅读。
 
 ## 阅读顺序

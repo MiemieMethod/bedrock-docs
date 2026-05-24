@@ -6,6 +6,12 @@ categories: 发布日志
 original_link: https://feedback.minecraft.net/hc/en-us/articles/45844706302221-Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog
 ---
 
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/XeroAlpha/MinecraftHelpCenterArchive](https://github.com/XeroAlpha/MinecraftHelpCenterArchive)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
 **发布时间**：2026年5月14日
 
 新的修复版正在逐平台推送，用于处理上一次更新中发现的问题。由于各平台审核节奏不同，更新时间可能存在延迟。

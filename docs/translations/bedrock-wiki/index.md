@@ -1,11 +1,12 @@
 # 基岩维基
 
-/// details-info | 署名信息
-- 该页面内容翻译自[基岩维基（Bedrock Wiki）](https://wiki.bedrock.dev/)
-- 基岩维基采用[知识共享署名-相同方式共享4.0国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/)（CC BY-SA 4.0）授权
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
-基岩维基（**Bedrock Wiki**）是一个由社区维护的Minecraft基岩版开发文档网站，涵盖附加包开发、脚本API、实体行为、游戏机制等方方面面。本站从中精选了若干实用的教程与指引进行翻译与收录。
+
+基岩维基（**Bedrock Wiki**）汇集了大量面向Minecraft基岩版开发的教程、实践说明与经验整理。这里收录适合长期查阅的几个方向，便于按主题进入学习。
 
 /// html | div.grid.cards
 -   :material-book-open-page-variant: __入门指南__

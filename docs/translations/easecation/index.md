@@ -1,5 +1,11 @@
 # EaseCation Wiki
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EaseCation/netease-modsdk-wiki](https://github.com/EaseCation/netease-modsdk-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 /// details-info | 署名信息
 - 这里收录来自[EaseCation Wiki](https://mcwiki.easecation.net/)的中文整理内容。
 - 当前主要收录VR相关资料。

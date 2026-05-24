@@ -15,6 +15,12 @@ hash:
   user-content-graphical: 图形
 ---
 
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/XeroAlpha/MinecraftHelpCenterArchive](https://github.com/XeroAlpha/MinecraftHelpCenterArchive)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
 **发布时间**：2025年12月16日
 
 该修复版用于处理上一版本中发现的问题，将按平台逐步推送。

@@ -1,5 +1,11 @@
 # 项目结构
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 本章提供了项目的高级概览，以便更轻松地进行导航、构建和使用。
 
 ## CMake项目和依赖关系

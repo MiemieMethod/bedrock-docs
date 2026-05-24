@@ -4,6 +4,12 @@ title: 问题排除
 
 # 问题排除
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 ## 常见错误码
 
 | 错误码 | 含义 | 处理方向 |

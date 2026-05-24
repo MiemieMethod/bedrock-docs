@@ -1,8 +1,10 @@
 # 创建自定义实体
 
-/// details-info | 署名信息
-- 该页面翻译自[https://wiki.bedrock.dev/guide/custom-entity](https://wiki.bedrock.dev/guide/custom-entity)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 与自定义物品类似，我们也可以创建具有与游戏中原版实体相似机制的自定义实体。这些实体可以非常强大，允许你制作可繁殖驯养的动物，或是会攻击所见一切的敌对生物。
 

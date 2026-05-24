@@ -1,11 +1,12 @@
 # 视觉
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Bedrock Wiki视觉章节](https://wiki.bedrock.dev/visuals/)
-- 原文版权归原作者所有
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
-这一组文章主要翻译自Bedrock Wiki的视觉、模型、材质与实体表现相关内容。它们更偏向资源包外观制作、实体渲染与展示技巧，可与本站的[模型](../../../docs/general/model.md)、[材质](../../../docs/addon/material.md)、[渲染控制器](../../../docs/addon/render-controller.md)和[动画](../../../docs/addon/animation.md)配合阅读。
+
+这一组文章围绕实体外观、材质、动画、结构展示与皮肤制作展开，更偏向资源包外观制作、实体渲染与展示技巧，可与本站的[模型](../../../docs/general/model.md)、[材质](../../../docs/addon/material.md)、[渲染控制器](../../../docs/addon/render-controller.md)和[动画](../../../docs/addon/animation.md)配合阅读。
 
 ## 阅读顺序
 

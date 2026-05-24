@@ -1,5 +1,11 @@
 # 来源前言摘录
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/MiemieMethod/bedrock-addon-tutorial](https://github.com/MiemieMethod/bedrock-addon-tutorial)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 本页保留来源`docs/README.md`中的核心说明，用于历史语境核对。
 
 ## 资料定位

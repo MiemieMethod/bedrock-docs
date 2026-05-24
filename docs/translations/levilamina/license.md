@@ -4,6 +4,12 @@ title: 许可证
 
 # 许可证
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 LeviLamina的非闭源部分采用GNU宽通用公共许可证第3版（GNU Lesser General Public License Version 3，LGPL-3.0）发行。
 

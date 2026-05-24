@@ -4,9 +4,10 @@ description: 使用Molang表达式驱动平滑动画。
 category: 教程
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Math-Based Animations](https://wiki.bedrock.dev/visuals/math-based-animations.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 基于数学的动画，指的是用Molang表达式直接控制骨骼变换。它的优点是循环自然、参数连续、可与游戏状态直接联动。

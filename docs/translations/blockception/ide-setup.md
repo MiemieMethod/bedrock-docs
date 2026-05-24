@@ -1,5 +1,11 @@
 # IDE设置指南
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/Blockception/Minecraft-bedrock-json-schemas](https://github.com/Blockception/Minecraft-bedrock-json-schemas)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 本指南提供了在各种IDE和编辑器中配置Minecraft基岩版JSON架构的说明。
 
 /// note | 翻译来源

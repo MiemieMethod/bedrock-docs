@@ -15,6 +15,12 @@ hash:
   h_01KEFB8PEY2A51WDFZ1WY8MVQT: 图形-1
 ---
 
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/XeroAlpha/MinecraftHelpCenterArchive](https://github.com/XeroAlpha/MinecraftHelpCenterArchive)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
 **发布时间**：2026年1月8日
 
 新的修复版本已经发布，以解决最新更新中发现的问题。此更新将在各平台可用时推出，所以请耐心等待更新到达您的设备。

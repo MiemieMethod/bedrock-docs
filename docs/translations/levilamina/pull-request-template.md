@@ -4,6 +4,12 @@ title: 拉取请求模板
 
 # 拉取请求模板
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本页整理LeviLamina仓库用于提交拉取请求时的模板。该文件不是面向终端用户的技术文档，而是仓库协作时的辅助说明，用于提示贡献者在合并前自查构建、测试、代码风格与许可证合规性。
 

@@ -1,5 +1,11 @@
 # bridge. v2迁移
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/bridge-core/docs](https://github.com/bridge-core/docs)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 /// details-info | 署名信息
 - 该页面翻译自[https://bridge-core.github.io/editor-docs/migration-guide/](https://bridge-core.github.io/editor-docs/migration-guide/)
 - 该页面仓库地址为[https://github.com/bridge-core/bridge-core.github.io/blob/master/content/docs/editor-docs/migration-guide/index.md](https://github.com/bridge-core/bridge-core.github.io/blob/master/content/docs/editor-docs/migration-guide/index.md)

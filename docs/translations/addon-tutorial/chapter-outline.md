@@ -1,5 +1,11 @@
 # 章节目录映射
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/MiemieMethod/bedrock-addon-tutorial](https://github.com/MiemieMethod/bedrock-addon-tutorial)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 本页按来源`docs/CONTENTS.md`保留“基岩版附加包教程”原始章节脉络。标注为“WIP”的章节表示来源文件仅有占位文本，暂不具备转录条件。
 
 ## 入门教程

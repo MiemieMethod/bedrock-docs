@@ -4,9 +4,10 @@ description: 建模时需要注意的几个常见问题。
 category: 说明
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Bedrock Modeling](https://wiki.bedrock.dev/visuals/bedrock-modeling.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 这篇文章主要讲建模时容易踩的坑，而不是建模软件本身的操作。

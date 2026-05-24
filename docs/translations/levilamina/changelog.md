@@ -4,6 +4,12 @@ title: 更新日志
 
 # 更新日志
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 该页面用于记录LeviLamina项目的近期版本变更。由于原始更新日志较长，本站仅摘录最近版本摘要；完整历史请参阅原始文件。
 

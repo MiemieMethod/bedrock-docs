@@ -1,8 +1,8 @@
-# Nukkit、PocketMine与旧生态
+# Nukkit与PocketMine服务端
 
-这一页用于整理基岩版社区自实现服务端中的旧生态入口。这里的“Nukkit”主要指Nukkit-MOT。它是第三方服务端，不是BDS，也不是Mojang提供的官方服务器软件；它的插件、配置项和中国版客户端兼容能力都只应放在Nukkit-MOT语境中理解。
+这一页用于整理两条常见的自实现服务端路线：Nukkit-MOT和PocketMine-MP。两者都不是BDS，也不是Mojang提供的官方服务器软件；它们的配置项、插件文件和兼容边界都应放在各自生态中理解。
 
-想先了解概念定位，可以阅读[Nukkit-MOT](../../docs/server/nukkit-mot.md)。本页只讲怎样搭建一个最小可用服务器。
+想先了解概念定位，可以阅读[Nukkit-MOT](../../docs/server/nukkit-mot.md)与[PocketMine-MP](../../docs/server/pocketmine-mp.md)。本页只讲怎样先把服务器跑起来，再完成最基本的配置与插件安装。
 
 ## 准备环境
 
@@ -126,7 +126,7 @@ Nukkit插件通常是`.jar`文件。可以从以下渠道获取插件：
 
 绿色插件名表示加载成功，红色插件名表示加载失败。加载失败时先检查版本兼容、缺少依赖和控制台报错。
 
-大多数插件会在首次加载后生成配置文件，通常位于`plugins/插件名称/config.yml`。修改插件配置后，优先重启服务器。Nukkit-MOT文档提示，频繁使用`reload`可能导致内存泄漏或其他问题，因此不建议把它当成日常重载方式。
+大多数插件会在首次加载后生成配置文件，通常位于`plugins/插件名称/config.yml`。修改插件配置后，优先重启服务器。频繁使用`reload`可能导致内存泄漏或其他问题，因此不建议把它当成日常重载方式。
 
 如果你想编写插件，而不是只安装插件，可以继续阅读[Nukkit-MOT API概览](../../refs/server/nukkit-mot-api.md)。
 
@@ -184,13 +184,72 @@ chcp 65001
 
 ## PocketMine-MP
 
-如果准备维护PHP插件生态，可以先把PocketMine-MP按下面理解：它已经具备清晰的安装条件、启动流程、配置方式、插件分发方式和插件开发入口。
+PocketMine-MP适合需要PHP插件生态的场景。与Nukkit-MOT的JAR启动方式不同，它是一条围绕PHP、`.phar`插件包和`plugin.yml`清单展开的独立路线。
 
-可以先把PocketMine-MP理解为一条面向PHP插件生态的独立服务端路线：
+### 准备环境
 
-- 环境要求方面，需要64位CPU、64位操作系统和至少1GB内存；Windows、Linux和macOS都在可用范围内。
-- 启动方式方面，Windows可使用`start.cmd`或`start.ps1`，Linux与macOS使用`start.sh`。首次启动会进入设置向导，也可以通过`--no-wizard`跳过。
-- 配置方面，`server.properties`负责名称、端口和视距等基础设置，`pocketmine.yml`负责更进阶的内存、线程和多世界相关设置。
-- 插件方面，插件通常以`.phar`文件分发，放入`plugins`目录即可加载；公开插件主要集中在Poggit。插件描述文件是`plugin.yml`，关键字段包括`name`、`version`、`main`和`api`。
+PocketMine-MP要求64位CPU、64位操作系统和至少1GB内存。Windows、Linux和macOS都在支持范围内。硬件选择上，较高的单核性能通常比单纯堆更多核心更有帮助。
 
-PocketMine-MP并不是原版生存服务器实现，原版世界生成、红石、生物AI等能力并不完整。因此，如果目标是尽量贴近原版生存服，应优先考虑BDS；如果目标是PHP插件生态和高度定制能力，则PocketMine-MP仍然有独立价值。
+### 下载与启动
+
+进入PocketMine-MP下载页后，选择适合当前平台的安装包或启动脚本。常见启动入口如下：
+
+- Windows：`start.cmd`或`start.ps1`
+- Linux与macOS：`start.sh`
+
+首次启动通常会进入设置向导；如果想跳过向导，可以在启动参数中添加`--no-wizard`。启动完成后，PocketMine-MP会生成`server.properties`、`pocketmine.yml`和插件目录等基础文件。
+
+### 配置服务器
+
+PocketMine-MP最常改的两个配置文件是：
+
+- `server.properties`：基础设置，例如服务器名称、端口和视距。
+- `pocketmine.yml`：更进阶的运行设置，例如内存、线程和多世界相关选项。
+
+如果只是先把服务器开起来，优先改`server.properties`即可。`pocketmine.yml`中的选项更靠近运行时行为，不理解含义时最好先保持默认值。
+
+资源包相关配置位于`resource_packs/resource_packs.yml`。权限与封禁相关文件则包括：
+
+- `ops.txt`
+- `banned-players.txt`
+- `banned-ips.txt`
+
+这些名单既可以直接编辑，也可以通过命令维护。
+
+### 安装插件
+
+PocketMine-MP插件通常放在`plugins`目录中，公开分发时常见格式是`.phar`。常见获取渠道包括：
+
+- [Poggit](https://poggit.pmmp.io/plugins)
+- GitHub
+- 社区论坛或插件发布帖
+
+插件清单文件是`plugin.yml`。至少需要注意以下字段：
+
+- `name`
+- `version`
+- `main`
+- `api`
+
+其中，`api`决定插件是否会被目标服务端加载。它不是随便改一个数字就能兼容的开关；如果插件实际没有覆盖对应版本，就算强行改清单也仍然可能崩溃或行为异常。
+
+`plugin.yml`还常见这些附加字段：
+
+- `load`
+- `depend`
+- `softdepend`
+- `loadbefore`
+- `commands`
+- `permissions`
+
+看到插件无法加载时，先检查服务端版本、`api`字段、依赖插件和控制台报错，再决定是否更换版本。
+
+### 何时选PocketMine-MP
+
+如果目标是尽量贴近原版生存服，应优先考虑BDS或基于BDS的插件加载器。PocketMine-MP更适合下面这些情况：
+
+- 需要PHP插件生态。
+- 已经维护PocketMine-MP插件或插件包。
+- 需要独立于BDS的跨平台自实现服务端。
+
+在上线前，仍应单独测试生物、红石、矿车和维度等机制，而不要默认把PocketMine-MP视为完整原版生存服替代品。

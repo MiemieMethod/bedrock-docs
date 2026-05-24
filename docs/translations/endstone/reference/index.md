@@ -1,5 +1,11 @@
 # 参考
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 在插件开发过程中，您可以选择Python API或C++ API。如果您寻求快速入门并更喜欢更灵活的语言，Python API文档可能是您的起点。但是，如果您需要实现性能更高、高度优化的代码，您可能想深入研究C++ API文档。
 
 <div class="grid cards" markdown>

@@ -8,6 +8,12 @@ hash:
   user-content-fixes: 修复
 ---
 
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/XeroAlpha/MinecraftHelpCenterArchive](https://github.com/XeroAlpha/MinecraftHelpCenterArchive)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
 **发布时间**：2026年5月21日
 
 Android和Realm的新修复版本正在推出，以解决最新更新中发现的问题。由于需要在各个平台获得批准，所以请耐心等待该版本到达您的设备。

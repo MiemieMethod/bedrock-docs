@@ -4,6 +4,12 @@ title: 支持的版本
 
 # 支持的版本
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 LeviLamina版本与BDS或客户端版本强绑定。安装或升级前，应先核对服务端版本、客户端版本和LeviLamina版本是否彼此匹配。
 

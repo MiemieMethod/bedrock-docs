@@ -1,8 +1,10 @@
 # 格式版本
 
-/// details-info | 署名信息
-- 该页面翻译自[https://wiki.bedrock.dev/guide/format-version](https://wiki.bedrock.dev/guide/format-version)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 格式版本是Minecraft基岩版附加包系统的重要组成部分。它们通常以`"format_version": "1.16.100"`的形式出现在文件头部。你可以将其视为文件的"版本号"，所选用的数值至关重要！格式版本决定了该文件可用的语法和功能特性。
 

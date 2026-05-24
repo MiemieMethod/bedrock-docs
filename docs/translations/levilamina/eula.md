@@ -4,6 +4,12 @@ title: 最终用户许可协议
 
 # 最终用户许可协议
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 版本0.2.0  
 日期2025/1/20  

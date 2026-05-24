@@ -4,9 +4,10 @@ description: 基岩版实体视觉章节的概览。
 category: 教程
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Introduction to Entity Visuals](https://wiki.bedrock.dev/visuals/introduction.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 ## 这一章讲什么

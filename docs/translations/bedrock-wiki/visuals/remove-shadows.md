@@ -4,9 +4,10 @@ description: 介绍几种移除实体阴影的方法及其副作用。
 category: 教程
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Remove Entity Shadows](https://wiki.bedrock.dev/visuals/remove-shadows.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 实体阴影并不容易“完美删除”。大多数方法都会带来副作用，所以这里更适合把它理解为“按目标选择代价最小的方案”。

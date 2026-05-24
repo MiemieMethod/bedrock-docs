@@ -1,5 +1,11 @@
 # Blockception架构翻译
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/Blockception/Minecraft-bedrock-json-schemas](https://github.com/Blockception/Minecraft-bedrock-json-schemas)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 本目录包含Blockception维护的Minecraft基岩版JSON架构相关文档的翻译。
 
 ## 可用文档

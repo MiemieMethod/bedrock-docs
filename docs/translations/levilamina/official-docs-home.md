@@ -4,6 +4,12 @@ title: 文档首页
 
 # 文档首页
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本页整理LeviLamina文档首页中的门户信息。该首页主要承担项目定位、社区入口与首页鸣谢展示的作用，本身并不提供安装步骤、版本矩阵或API参考正文。
 

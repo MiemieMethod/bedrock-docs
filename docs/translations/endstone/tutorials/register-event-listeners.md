@@ -1,5 +1,11 @@
 # 注册事件监听器
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 Endstone提供了一个强大的事件系统，允许插件监听在服务器中发生的各种事件。让我们引导您注册一个简单的事件监听器。
 
 ## 添加事件处理器

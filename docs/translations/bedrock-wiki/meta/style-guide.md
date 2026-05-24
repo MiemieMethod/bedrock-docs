@@ -1,8 +1,10 @@
 # 样式指南
 
-/// details-info | 署名信息
-- 该页面内容翻译自[https://wiki.bedrock.dev/meta/style-guide](https://wiki.bedrock.dev/meta/style-guide)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 本文档介绍基岩维基官方推荐的附加包开发样式指南。其目标是推广附加包开发中的最佳实践，并为项目提供统一的格式规范。
 

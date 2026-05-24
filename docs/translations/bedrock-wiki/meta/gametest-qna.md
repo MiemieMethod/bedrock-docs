@@ -1,8 +1,10 @@
 # GameTest问答（2021/08/06）
 
-/// details-info | 署名信息
-- 该页面内容翻译自[https://wiki.bedrock.dev/meta/gametest-qna](https://wiki.bedrock.dev/meta/gametest-qna)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 /// warning | 说明
 原始记录并未完整收录所有消息，部分内容也经过整理。这里保留的是整理后的要点，而不是完整聊天记录。

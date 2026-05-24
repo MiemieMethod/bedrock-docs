@@ -4,6 +4,12 @@ title: 在客户端上安装
 
 # 在客户端上安装
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本页保留官方客户端安装说明。若需要先理解整个服务端与客户端生态的阅读顺序，可先看[LeviLamina入门](../../guides/servers/levilamina.md)。
 

@@ -4,6 +4,12 @@ title: 基岩架构
 
 # 基岩架构翻译
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/MCBE-Development-Wiki/bedrock-schemas](https://github.com/MCBE-Development-Wiki/bedrock-schemas)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 本页收录“基岩架构”资料目录中的Markdown说明文件翻译与整理，用于记录该来源在本项目中的采纳范围与落位决策。
 
 - 原始仓库：<https://github.com/MCBE-Development-Wiki/bedrock-schemas>

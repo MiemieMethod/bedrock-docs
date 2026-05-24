@@ -4,9 +4,10 @@ description: 在实体受伤时播放自定义动画。
 category: 教程
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Hurt Animations](https://wiki.bedrock.dev/visuals/custom-hurt-animations.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 这个技巧的核心思路是：用一个同步到客户端的布尔属性记录“是否受伤”，再让动画控制器根据这个属性切换状态。

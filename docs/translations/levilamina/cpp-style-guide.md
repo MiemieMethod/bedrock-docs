@@ -4,6 +4,12 @@ title: C++风格指南
 
 # C++风格指南
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 !!! note "关于此页面"
     本文整理自LeviLamina官方C++风格指南。若与原文存在冲突，以原文为准。
 

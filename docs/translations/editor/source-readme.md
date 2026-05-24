@@ -1,5 +1,11 @@
 # 欢迎使用Minecraft基岩版编辑器
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/Mojang/minecraft-editor](https://github.com/Mojang/minecraft-editor)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本文为来源说明页的中文整理译文，保留原始段落结构与信息重心，用于资料追溯与历史语境核对。
 

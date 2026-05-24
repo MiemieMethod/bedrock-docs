@@ -2,6 +2,12 @@
 comments: true
 ---
 
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
 ![endstone](https://socialify.git.ci/endstonemc/endstone/image?description=1&font=Jost&forks=1&issues=1&logo=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F4%2F43%2FEnd_Stone_JE3_BE2.png&name=1&owner=1&pulls=1&stargazers=1&theme=Light#only-light)
 ![endstone](https://socialify.git.ci/endstonemc/endstone/image?description=1&font=Jost&forks=1&issues=1&logo=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F4%2F43%2FEnd_Stone_JE3_BE2.png&name=1&owner=1&pulls=1&stargazers=1&theme=Dark#only-dark)
 

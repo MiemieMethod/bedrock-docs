@@ -1,5 +1,11 @@
 # 虚拟现实
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EaseCation/netease-modsdk-wiki](https://github.com/EaseCation/netease-modsdk-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 /// details-info | 署名信息
 - 该页面整理自[EaseCation Wiki](https://mcwiki.easecation.net/wiki/vr)
 - 本分区主要对应该站VR目录中的内容

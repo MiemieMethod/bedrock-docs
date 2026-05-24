@@ -4,6 +4,12 @@ comments: true
 
 # 快速开始
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 Endstone为基岩版专用服务器提供了强大的插件API，这是Minecraft：基岩版的官方服务器软件。如果您熟悉Python，可以使用Python包管理器[`pip`](#with-pip)来安装Endstone。如果没有，我们建议使用[`docker`](#with-docker)。
 
 ## 安装

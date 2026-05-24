@@ -1,8 +1,10 @@
 # 附加包性能优化
 
-/// details-info | 署名信息
-- 该页面内容翻译自[https://wiki.bedrock.dev/meta/addon-performance](https://wiki.bedrock.dev/meta/addon-performance)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 /// warning | 说明
 本文内容主要基于多方社区反馈整理，因此可能存在概括性、主观性或彼此矛盾之处。优化附加包时应始终结合实际测试判断，本文不能替代在多种设备上的真机验证。

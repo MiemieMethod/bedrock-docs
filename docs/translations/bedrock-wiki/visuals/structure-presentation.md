@@ -4,9 +4,10 @@ description: 展示结构的几种常见方式。
 category: 话题
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Structure Presentation](https://wiki.bedrock.dev/visuals/structure-presentation.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 结构展示的目标不是生成结构，而是把结构“拍好看”。常见做法有三种：

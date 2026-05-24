@@ -5,6 +5,12 @@ toc_depth: 2
 
 # 更新日志
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 该页面用于跟踪Endstone项目的版本变更。为避免构建时的snippet路径解析错误，本站不再通过`--8<--`直接内嵌外部文件。
 
 - 官方原始更新日志：<https://github.com/EndstoneMC/endstone/blob/main/CHANGELOG.md>

@@ -4,6 +4,12 @@ comments: true
 
 # 安装您的插件
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 在安装您的第一个插件之前，您需要构建它。
 
 === ":fontawesome-brands-python: Python"

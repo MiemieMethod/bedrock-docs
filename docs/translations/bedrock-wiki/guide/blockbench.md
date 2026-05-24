@@ -1,8 +1,10 @@
 # Blockbench建模、纹理与动画
 
-/// details-info | 署名信息
-- 该页面翻译自[https://wiki.bedrock.dev/guide/blockbench](https://wiki.bedrock.dev/guide/blockbench)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 Blockbench是一款专为Minecraft设计的免费建模、纹理绘制和动画制作软件，支持移动端浏览器、Windows 10和macOS。请访问[blockbench.net](https://blockbench.net/)下载安装。
 

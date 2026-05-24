@@ -480,6 +480,7 @@ nav:
       - 服务端软件:
         - 基岩版专用服务器: docs/server/bds.md
         - Nukkit-MOT: docs/server/nukkit-mot.md
+        - PocketMine-MP: docs/server/pocketmine-mp.md
         - Apollo网络服: docs/server/apollo.md
         - 网络协议: docs/server/protocol.md
         - RakNet: docs/server/raknet.md
@@ -708,7 +709,7 @@ nav:
         - 颜色代码: guides/servers/endstone/color-codes.md
       - Allay入门: guides/servers/allay.md
       - SerenityJS入门: guides/servers/serenity.md
-      - Nukkit、PocketMine与旧生态: guides/servers/nukkit-pocketmine.md
+      - Nukkit与PocketMine服务端: guides/servers/nukkit-pocketmine.md
     - 着色器:
       - guides/shaders/index.md
       - 认识着色器: guides/shaders/understanding-shaders.md
@@ -1090,11 +1091,6 @@ nav:
       - 事件:
         - translations/innercore/events/index.md
         - 回调: translations/innercore/events/callbacks.md
-    - 基岩版开发wiki主页站:
-      - translations/dev-home/index.md
-      - 项目说明页: translations/dev-home/repository-readme.md
-      - 站点首页: translations/dev-home/site-home.md
-      - 数据驱动目录总览: translations/dev-home/data-driven-overview.md
     - 基岩维基:
       - translations/bedrock-wiki/index.md
       - 入门指南:

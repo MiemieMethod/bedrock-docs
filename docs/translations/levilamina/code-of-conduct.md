@@ -4,6 +4,12 @@ title: 行为准则
 
 # 行为准则
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本页为LeviLamina仓库行为准则的中文整理版本。若与原文存在冲突，以原文为准。
 

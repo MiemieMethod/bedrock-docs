@@ -1,5 +1,11 @@
 # 发布您的插件
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/EndstoneMC/endstone](https://github.com/EndstoneMC/endstone)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 假设您已完成新版本的所有工作，编写了发布说明，增加了版本号，标记了发布，并准备发布。
 
 ## 安装`twine`

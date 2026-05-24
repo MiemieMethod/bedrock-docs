@@ -1,5 +1,11 @@
 # bridge.
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/bridge-core/docs](https://github.com/bridge-core/docs)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 bridge.是一款Minecraft基岩版附加包开发工具，它具有两个不同的官方网站。这两个网站分别是：
 
 <div class="grid cards" markdown>

@@ -4,9 +4,10 @@ description: 调整实体牵引绳连接点的位置。
 category: 教程
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Leash Position](https://wiki.bedrock.dev/visuals/leash-position.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 如果你想改变牵引绳拴在实体身上的位置，最直接的方法就是在Blockbench里调整`lead`定位器。

@@ -4,6 +4,12 @@ title: 官方构建指南
 
 # 官方构建指南
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本页保留LeviLamina官方构建说明的原始脉络摘要。若需要结合本站术语、互链和实践顺序阅读，可优先查看[项目构建指南](../../guides/servers/levilamina/build-guide.md)。
 

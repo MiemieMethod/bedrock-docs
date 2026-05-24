@@ -1,8 +1,10 @@
 # 理解JSON
 
-/// details-info | 署名信息
-- 该页面翻译自[https://wiki.bedrock.dev/guide/understanding-json](https://wiki.bedrock.dev/guide/understanding-json)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 /// tip | 提示
 这是一个附录页面。您可以从[这里](./index.md)开始完整阅读教程。

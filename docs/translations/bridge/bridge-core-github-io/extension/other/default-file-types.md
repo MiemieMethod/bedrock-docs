@@ -1,5 +1,11 @@
 # 默认文件类型
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/bridge-core/docs](https://github.com/bridge-core/docs)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 /// details-info | 署名信息
 - 该页面翻译自[https://bridge-core.github.io/extension-docs/other/default-file-types/](https://bridge-core.github.io/extension-docs/other/default-file-types/)
 - 该页面仓库地址为[https://github.com/bridge-core/bridge-core.github.io/blob/master/content/docs/extension-docs/other/default-file-types.md](https://github.com/bridge-core/bridge-core.github.io/blob/master/content/docs/extension-docs/other/default-file-types.md)

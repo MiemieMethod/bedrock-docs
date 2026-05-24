@@ -1,5 +1,11 @@
 # 第一个物品
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/nernar/nernar.github.io](https://github.com/nernar/nernar.github.io)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 /// details-info | 署名信息
 - 该页面内容翻译自[nernar.github.io](https://nernar.github.io/docs/items/first-item)
 - 原文档采用[GNU通用公共许可证第3版](https://www.gnu.org/licenses/gpl-3.0.html)（GPL-3.0）授权

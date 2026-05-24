@@ -4,9 +4,10 @@ description: 为自定义实体刷怪蛋更换纹理。
 category: 教程
 ---
 
-/// details-info | 署名信息
-- 该页面内容翻译自[Retexturing Spawn Eggs](https://wiki.bedrock.dev/visuals/retexturing-spawn-eggs.html)
-- 原文版权归原作者所有
+
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
 
 自定义实体会自动获得刷怪蛋。若希望它在创造模式物品栏中更像实体本身，可以为这个刷怪蛋重新指定纹理。

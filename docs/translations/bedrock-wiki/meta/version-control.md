@@ -1,8 +1,10 @@
 # 版本控制
 
-/// details-info | 署名信息
-- 该页面内容翻译自[https://wiki.bedrock.dev/meta/version-control](https://wiki.bedrock.dev/meta/version-control)
+/// details-info | 来源信息
+- 原文仓库：[github.com/Bedrock-OSS/bedrock-wiki](https://github.com/Bedrock-OSS/bedrock-wiki)
+- 许可说明：以原仓库或原站点公开许可声明为准。
 ///
+
 
 版本控制的核心概念，是定期备份代码迭代版本，以便在需要时回滚到特定版本。最基础的版本控制，可以通过每天把附加包打包成`.zip`并上传到网盘来实现。这并非不合理，但存在三个显著缺陷，而专业的版本控制系统能够有效解决：
 

@@ -4,6 +4,12 @@ title: 法律与发布说明
 
 # 法律与发布说明
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/LiteLDev/LeviLamina](https://github.com/LiteLDev/LeviLamina)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本页不是单一源文件的逐段翻译，而是根据LeviLamina仓库中的法律、许可、行为规范、版本与发布资料所做的站内整理，用于说明这些资料对阅读、安装、分发和升级LeviLamina意味着什么。
 

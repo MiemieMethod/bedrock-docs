@@ -4,6 +4,12 @@ title: 项目说明页译文
 
 # 项目说明页译文
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/Mojang/bedrock-protocol-docs](https://github.com/Mojang/bedrock-protocol-docs)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 ## 原文
 
 

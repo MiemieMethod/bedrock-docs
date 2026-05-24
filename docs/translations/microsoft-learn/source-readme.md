@@ -1,5 +1,11 @@
 # Minecraft基岩版文档项目说明页译文
 
+/// details-info | 来源信息
+- 原文仓库：[github.com/MicrosoftDocs/minecraft-creator](https://github.com/MicrosoftDocs/minecraft-creator)
+- 许可说明：以原仓库或原站点公开许可声明为准。
+///
+
+
 
 本文为来源说明页的中文整理译文，保留原始信息顺序，并按本站术语习惯做最小化本地化处理。
 
