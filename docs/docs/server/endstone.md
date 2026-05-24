@@ -93,3 +93,22 @@ Endstone并不等同于完全可控的自实现服务端。它依赖BDS的封闭
 - 低层网络、NBT、方块实体、世界生成等接口可能具有更高的兼容风险。
 
 知识库中的路线图还列出了若干尚待完善的方向，例如插件配置、持久化数据容器、状态效果管理、实体特性访问、配方、方块实体、富文本、区块控制、结构、相机和世界生成等。这些内容代表项目规划或讨论，不应写作已经稳定可用的能力。
+
+## 教程
+
+- [Endstone入门](../../guides/servers/endstone/index.md)
+- [Python插件工作流](../../guides/servers/endstone/python-plugin-workflow.md)
+- [命令、事件与调度实战](../../guides/servers/endstone/command-event-task.md)
+- [颜色代码](../../guides/servers/endstone/color-codes.md)
+
+## 参考
+
+- [Endstone API总览](../../refs/server/endstone-api.md)
+- [Endstone命令与文本格式](../../refs/server/endstone-command-format.md)
+
+## 原文脉络
+
+- [Endstone文档首页](../../translations/endstone/index.md)
+- [Endstone参考目录](../../translations/endstone/reference/index.md)
+- [注册命令（Endstone翻译）](../../translations/endstone/tutorials/register-commands.md)
+- [使用颜色代码（Endstone翻译）](../../translations/endstone/tutorials/use-color-codes.md)

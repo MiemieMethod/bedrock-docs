@@ -254,3 +254,12 @@ twine upload -r pypi dist/*
 /// tip | 先从Python开始
 如果你的目标是快速验证服务器玩法，Python插件的上手成本通常更低。确认API模型后，再决定是否为了性能或二进制集成转向C++。
 ///
+
+## 进一步阅读
+
+- [EndstonePython插件工作流](python-plugin-workflow.md)
+- [Endstone命令、事件与调度实战](command-event-task.md)
+- [颜色代码](color-codes.md)
+- [Endstone API总览](../../../refs/server/endstone-api.md)
+- [Endstone命令与文本格式](../../../refs/server/endstone-command-format.md)
+- [Endstone原文目录](../../../translations/endstone/index.md)

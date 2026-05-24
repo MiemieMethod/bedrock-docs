@@ -676,6 +676,7 @@ nav:
         - guides/servers/endstone/index.md
         - Python插件工作流: guides/servers/endstone/python-plugin-workflow.md
         - 命令、事件与调度实战: guides/servers/endstone/command-event-task.md
+        - 颜色代码: guides/servers/endstone/color-codes.md
       - Allay入门: guides/servers/allay.md
       - SerenityJS入门: guides/servers/serenity.md
       - Nukkit、PocketMine与旧生态: guides/servers/nukkit-pocketmine.md
@@ -735,6 +736,31 @@ nav:
       - 基岩版协议变更索引: refs/server/bedrock-protocol-changelog.md
       - BDS的server.properties: refs/server/bds-server-properties.md
       - LeviLamina API模块: refs/server/levilamina-api.md
+      - Endstone:
+        - Endstone API总览: refs/server/endstone-api.md
+        - 服务端: refs/server/endstone-server.md
+        - 插件: refs/server/endstone-plugin.md
+        - 命令: refs/server/endstone-command.md
+        - 事件: refs/server/endstone-event.md
+        - 玩家: refs/server/endstone-player.md
+        - 活动对象: refs/server/endstone-actor.md
+        - 特性: refs/server/endstone-attribute.md
+        - 封禁: refs/server/endstone-ban.md
+        - 方块: refs/server/endstone-block.md
+        - Boss栏: refs/server/endstone-boss.md
+        - 伤害: refs/server/endstone-damage.md
+        - 魔咒: refs/server/endstone-enchantments.md
+        - 表单: refs/server/endstone-form.md
+        - 物品栏: refs/server/endstone-inventory.md
+        - 语言: refs/server/endstone-lang.md
+        - 存档: refs/server/endstone-level.md
+        - 地图: refs/server/endstone-map.md
+        - 杂项: refs/server/endstone-misc.md
+        - NBT: refs/server/endstone-nbt.md
+        - 权限: refs/server/endstone-permissions.md
+        - 药水: refs/server/endstone-potion.md
+        - 调度器: refs/server/endstone-scheduler.md
+        - 记分板: refs/server/endstone-scoreboard.md
       - Endstone命令与文本格式: refs/server/endstone-command-format.md
       - Allay API概览: refs/server/allay-api.md
       - SerenityJS API概览: refs/server/serenity-api.md
