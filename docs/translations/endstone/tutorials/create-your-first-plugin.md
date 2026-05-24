@@ -63,7 +63,7 @@ toc_depth: 2
     您应该看到类似这样的内容：
     ```
     Name: endstone
-    Version: {{ git.short_tag[1:] }}
+    Version: 0.11.3
     Summary: Endstone offers a plugin API for Bedrock Dedicated Servers, supporting both Python and C++.
     Home-page:
     Author:
@@ -135,7 +135,7 @@ toc_depth: 2
     FetchContent_Declare(
         endstone
         GIT_REPOSITORY https://github.com/EndstoneMC/endstone.git
-        GIT_TAG v{{ git.short_tag[1:].rsplit('.', 1)[0] }} #(1)!
+        GIT_TAG v0.11 #(1)!
     )
     FetchContent_MakeAvailable(endstone)
     ```
@@ -197,7 +197,7 @@ toc_depth: 2
     FetchContent_Declare(
         endstone
         GIT_REPOSITORY https://github.com/EndstoneMC/endstone.git
-        GIT_TAG v{{ git.short_tag[1:].rsplit('.', 1)[0] }}
+        GIT_TAG v0.11
     )
     FetchContent_MakeAvailable(endstone)
 
@@ -290,7 +290,7 @@ toc_depth: 2
     from endstone.plugin import Plugin
 
     class MyPlugin(Plugin):
-        api_version = "{{ git.short_tag[1:].rsplit('.', 1)[0] }}"
+        api_version = "0.11"
 
         def on_load(self) -> None:
             self.logger.info("on_load is called!")

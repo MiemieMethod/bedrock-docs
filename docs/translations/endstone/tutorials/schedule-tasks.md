@@ -10,7 +10,7 @@ Endstone提供了一个任务调度系统，允许插件为将来的执行安排
     from endstone.plugin import Plugin
 
     class MyPlugin(Plugin):
-        api_version = "{{ git.short_tag[1:].rsplit('.', 1)[0] }}"
+        api_version = "0.11"
 
         # ...
 

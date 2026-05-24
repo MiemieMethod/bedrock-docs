@@ -1009,6 +1009,8 @@ nav:
         - Minecraft基岩版26.20更新日志（开发向节选）: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-20-Changelog.md
         - Minecraft基岩版26.21修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-21-Hotfix-Changelog.md
         - Minecraft基岩版26.23修复版: translations/help-center/changelogs/Minecraft-Bedrock-Edition-26-23-Hotfix-Changelog.md
+    - 官方自动导出的文档:
+      - translations/official-export/index.md
     - 基岩版命令更新记录:
       - translations/command-log/index.md
   - '<span class="md-nav__link md-nav__link--active"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17V5H3v12zm0-14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5v2H8v-2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM5 7h6v4H5zm0 6h6v2H5zm8-6h6v2h-6zm0 4h6v4h-6z"></path></svg></span><span class="md-ellipsis">专栏</span></span>':
@@ -1029,4 +1031,5 @@ nav:
       - help/docs/index.md
       - 贡献: help/docs/contributing.md
       - 赞助: help/docs/sponsor.md
+
 

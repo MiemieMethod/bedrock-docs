@@ -72,4 +72,13 @@
     收录命令语法变更时间线的中文整理，用于版本迁移与兼容性校验。
 
     [:octicons-arrow-right-24: 开始阅读](./command-log/index.md)
+
+-   :material-file-document-multiple:{ .lg .middle } __官方自动导出的文档__
+
+    ---
+
+    收录自动导出的基岩版文档仓库说明翻译与来源说明。
+
+    [:octicons-arrow-right-24: 开始阅读](./official-export/index.md)
 </div>
+

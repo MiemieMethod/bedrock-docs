@@ -16,8 +16,8 @@
 
     ---
 
-    使用C++ API编写您的插件以获得最大性能。
+    使用C++ API编写您的插件以获得最大性能。当前仓库未镜像`cpp/`目录，请改用官方站点查看完整参考。
 
-    [**:octicons-arrow-right-24: 了解更多**](cpp/annotated.md)
+    [**:octicons-arrow-right-24: 了解更多**](https://endstone.dev/latest/reference/cpp/annotated/)
 
 </div>

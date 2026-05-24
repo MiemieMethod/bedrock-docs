@@ -14,7 +14,7 @@ Endstone提供了一个强大的事件系统，允许插件监听在服务器中
     from endstone.plugin import Plugin
 
     class MyPlugin(Plugin):
-        api_version = "{{ git.short_tag[1:].rsplit('.', 1)[0] }}"
+        api_version = "0.11"
 
         # ...
 
@@ -59,7 +59,7 @@ Endstone提供了一个强大的事件系统，允许插件监听在服务器中
     from endstone.plugin import Plugin
 
     class MyPlugin(Plugin):
-        api_version = "{{ git.short_tag[1:].rsplit('.', 1)[0] }}"
+        api_version = "0.11"
 
         # ...
 
