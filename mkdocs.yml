@@ -672,6 +672,21 @@ nav:
       - guides/servers/index.md
       - 搭建BDS: guides/servers/bds.md
       - LeviLamina入门: guides/servers/levilamina.md
+      - LeviLamina详细指南:
+        - guides/servers/levilamina/index.md
+        - 构建指南: guides/servers/levilamina/build-guide.md
+        - 命令注册: guides/servers/levilamina/command-guide.md
+        - 事件系统: guides/servers/levilamina/event-guide.md
+        - 找函数指南: guides/servers/levilamina/find-function-guide.md
+        - 接口导出指南: guides/servers/levilamina/interface-export-guide.md
+        - 物品相关指南: guides/servers/levilamina/item-guide.md
+        - 表单开发: guides/servers/levilamina/form-guide.md
+        - 钩子系统: guides/servers/levilamina/hook-guide.md
+        - 协程使用: guides/servers/levilamina/coro-guide.md
+        - 国际化: guides/servers/levilamina/i18n-guide.md
+        - 创建你的第一个模组: guides/servers/levilamina/create-your-first-mod.md
+        - 发布你的第一个模组: guides/servers/levilamina/publish-your-first-mod.md
+        - 发布你的第一个整合包: guides/servers/levilamina/publish-your-first-pack.md
       - Endstone:
         - guides/servers/endstone/index.md
         - Python插件工作流: guides/servers/endstone/python-plugin-workflow.md
@@ -735,7 +750,34 @@ nav:
       - 基岩版服务端软件生态: refs/server/server-software-ecosystem.md
       - 基岩版协议变更索引: refs/server/bedrock-protocol-changelog.md
       - BDS的server.properties: refs/server/bds-server-properties.md
-      - LeviLamina API模块: refs/server/levilamina-api.md
+      - LeviLamina API模块:
+        - refs/server/levilamina-api.md
+        - 基础设施:
+          - Base: refs/server/levilamina-api/base.md
+          - Expected: refs/server/levilamina-api/expected.md
+          - Config: refs/server/levilamina-api/config.md
+          - Reflection: refs/server/levilamina-api/reflection.md
+        - 核心系统:
+          - Mod: refs/server/levilamina-api/mod.md
+          - Event: refs/server/levilamina-api/event.md
+          - Command: refs/server/levilamina-api/command.md
+          - Service: refs/server/levilamina-api/service.md
+          - Form: refs/server/levilamina-api/form.md
+        - 输入输出:
+          - IO & Logger: refs/server/levilamina-api/io.md
+          - I18n: refs/server/levilamina-api/i18n.md
+        - 异步与线程:
+          - Coroutine: refs/server/levilamina-api/coro.md
+          - Thread: refs/server/levilamina-api/thread.md
+          - Chrono: refs/server/levilamina-api/chrono.md
+        - 数据与工具:
+          - Data: refs/server/levilamina-api/data.md
+          - Utils: refs/server/levilamina-api/utils.md
+        - 底层:
+          - Memory & Hook: refs/server/levilamina-api/memory.md
+          - Network: refs/server/levilamina-api/network.md
+        - 客户端:
+          - Input: refs/server/levilamina-api/input.md
       - Endstone:
         - Endstone API总览: refs/server/endstone-api.md
         - 服务端: refs/server/endstone-server.md

@@ -2,33 +2,59 @@
 
 本页概述LeviLamina官方API参考中列出的主要模块。下列接口仅适用于LeviLamina模组开发，不属于BDS原生API。
 
-LeviLamina的官方API按`ll/api`组织，覆盖基础设施、核心系统、输入输出、异步与线程、数据与工具、底层能力和仅客户端模块。相关的细分资料当前已折入本站的概念页、教程页和归档页，后续如需逐模块细化，可在此基础上继续拆分。
+LeviLamina的官方API按`ll/api`组织，覆盖基础设施、核心系统、输入输出、异步与线程、数据与工具、底层能力和仅客户端模块。各模块的细分参考页已拆分为独立页面，便于按需查阅。
 
 ## 模块总览
 
-| 类别 | 模块 | 说明 | 适用范围 |
-|------|------|------|----------|
-| 基础设施 | Base | 导出宏、基础类型、C++20概念、类型萃取、定长字符串和元编程工具。 | 通用 |
-| 基础设施 | Expected | `Expected<T>`、多态错误容器和错误传播辅助函数。 | 通用 |
-| 基础设施 | Config | 基于JSON和反射的配置加载、保存与版本迁移。 | 通用 |
-| 基础设施 | Reflection | 聚合类型的编译期反射，以及JSON序列化和反序列化辅助能力。 | 通用 |
-| 核心系统 | Mod | 模组生命周期、清单、目录结构、日志器、配置目录和数据目录。 | 通用 |
-| 核心系统 | Event | 事件总线、监听器、优先级、可取消事件，以及玩家、世界、实体、服务端和客户端事件。 | 通用、服务端、客户端 |
-| 核心系统 | Command | 自定义命令注册、重载、类型化参数、枚举、软枚举、运行时枚举、别名和权限等级。 | 通用 |
-| 核心系统 | Service | 服务注册与发现，以及对`Minecraft`、`Level`、`ServerInstance`和`CommandRegistry`等Bedrock对象的访问器。 | 通用、服务端、客户端 |
-| 核心系统 | Form | SimpleForm、ModalForm和CustomForm三类交互式表单。 | 通用 |
-| 输入输出 | IO&Logger | 线程安全日志器、日志级别、输出目标、格式化器、文件工具和流重定向。 | 通用 |
-| 输入输出 | I18n | 键值翻译文件加载、运行时翻译更新和用户自定义字面量。 | 通用 |
-| 异步与线程 | Coroutine | C++20协程任务、生成器、执行器、休眠和让出执行的等待器。 | 通用 |
-| 异步与线程 | Thread | 线程池执行器、服务器线程执行器和并发同步工具。 | 通用 |
-| 异步与线程 | Chrono | 游戏刻时长、游戏时间时钟、服务器时钟和时间字面量。 | 通用 |
-| 数据与工具 | Data | LevelDB键值存储、依赖图、语义版本类型、可取消回调和线程安全容器。 | 通用 |
-| 数据与工具 | Utils | 系统信息、字符串、文件、哈希、随机数、Base64和错误处理工具函数。 | 通用 |
-| 底层 | Memory&Hook | 内存操作、函数钩子、签名扫描、符号解析和钩子优先级。 | 通用 |
-| 底层 | Network | 客户端与服务端之间的自定义网络数据包注册、处理和发送。 | 通用 |
-| 客户端 | Input | 键盘、鼠标输入绑定和输入事件。 | 仅客户端 |
+| 类别 | 模块 | 说明 | 参考页 | 适用范围 |
+|------|------|------|--------|----------|
+| 基础设施 | Base | 导出宏、基础类型、C++20概念、类型萃取、定长字符串和元编程工具。 | [Base](levilamina-api/base.md) | 通用 |
+| 基础设施 | Expected | `Expected<T>`、多态错误容器和错误传播辅助函数。 | [Expected](levilamina-api/expected.md) | 通用 |
+| 基础设施 | Config | 基于JSON和反射的配置加载、保存与版本迁移。 | [Config](levilamina-api/config.md) | 通用 |
+| 基础设施 | Reflection | 聚合类型的编译期反射，以及JSON序列化和反序列化辅助能力。 | [Reflection](levilamina-api/reflection.md) | 通用 |
+| 核心系统 | Mod | 模组生命周期、清单、目录结构、日志器、配置目录和数据目录。 | [Mod](levilamina-api/mod.md) | 通用 |
+| 核心系统 | Event | 事件总线、监听器、优先级、可取消事件，以及玩家、世界、实体、服务端和客户端事件。 | [Event](levilamina-api/event.md) | 通用、服务端、客户端 |
+| 核心系统 | Command | 自定义命令注册、重载、类型化参数、枚举、软枚举、运行时枚举、别名和权限等级。 | [Command](levilamina-api/command.md) | 通用 |
+| 核心系统 | Service | 服务注册与发现，以及对`Minecraft`、`Level`、`ServerInstance`和`CommandRegistry`等Bedrock对象的访问器。 | [Service](levilamina-api/service.md) | 通用、服务端、客户端 |
+| 核心系统 | Form | SimpleForm、ModalForm和CustomForm三类交互式表单。 | [Form](levilamina-api/form.md) | 通用 |
+| 输入输出 | IO&Logger | 线程安全日志器、日志级别、输出目标、格式化器、文件工具和流重定向。 | [IO & Logger](levilamina-api/io.md) | 通用 |
+| 输入输出 | I18n | 键值翻译文件加载、运行时翻译更新和用户自定义字面量。 | [I18n](levilamina-api/i18n.md) | 通用 |
+| 异步与线程 | Coroutine | C++20协程任务、生成器、执行器、休眠和让出执行的等待器。 | [Coroutine](levilamina-api/coro.md) | 通用 |
+| 异步与线程 | Thread | 线程池执行器、服务器线程执行器和并发同步工具。 | [Thread](levilamina-api/thread.md) | 通用 |
+| 异步与线程 | Chrono | 游戏刻时长、游戏时间时钟、服务器时钟和时间字面量。 | [Chrono](levilamina-api/chrono.md) | 通用 |
+| 数据与工具 | Data | LevelDB键值存储、依赖图、语义版本类型、可取消回调和线程安全容器。 | [Data](levilamina-api/data.md) | 通用 |
+| 数据与工具 | Utils | 系统信息、字符串、文件、哈希、随机数、Base64和错误处理工具函数。 | [Utils](levilamina-api/utils.md) | 通用 |
+| 底层 | Memory&Hook | 内存操作、函数钩子、签名扫描、符号解析和钩子优先级。 | [Memory & Hook](levilamina-api/memory.md) | 通用 |
+| 底层 | Network | 客户端与服务端之间的自定义网络数据包注册、处理和发送。 | [Network](levilamina-api/network.md) | 通用 |
+| 客户端 | Input | 键盘、鼠标输入绑定和输入事件。 | [Input](levilamina-api/input.md) | 仅客户端 |
 
 其中，`Mod`、`Command`、`Event`、`Form`、`I18n`和`Coroutine`通常是服务端模组最常接触的入口；`Service`、`Memory&Hook`和`Network`则更靠近底层能力与版本适配。
+
+## 头文件速查
+
+下表列出各模块在官方文档中最常见的入口头文件，便于快速定位源码与参考页。
+
+| 模块 | 常用头文件 |
+|------|------------|
+| Base | `ll/api/base/Macro.h`、`ll/api/base/Concepts.h`、`ll/api/base/TypeTraits.h`、`ll/api/base/StdInt.h` |
+| Expected | `ll/api/Expected.h` |
+| Config | `ll/api/Config.h` |
+| Reflection | `ll/api/reflection/Reflection.h`、`ll/api/reflection/Serialization.h`、`ll/api/reflection/Deserialization.h` |
+| Mod | `ll/api/mod/Mod.h`、`ll/api/mod/Manifest.h`、`ll/api/mod/ModManager.h`、`ll/api/mod/ModManagerRegistry.h` |
+| Event | `ll/api/event/EventBus.h`、`ll/api/event/Event.h`、`ll/api/event/EventId.h`、`ll/api/event/Listener.h` |
+| Command | `ll/api/command/CommandRegistrar.h`、`ll/api/command/CommandHandle.h`、`ll/api/command/Command.h`、`ll/api/command/Overload.h` |
+| Service | `ll/api/service/Service.h`、`ll/api/service/ServiceManager.h`、`ll/api/service/Bedrock.h` |
+| Form | `ll/api/form/SimpleForm.h`、`ll/api/form/ModalForm.h`、`ll/api/form/CustomForm.h`、`ll/api/form/FormBase.h` |
+| IO & Logger | `ll/api/io/Logger.h`、`ll/api/io/LogLevel.h`、`ll/api/io/LoggerRegistry.h`、`ll/api/io/Sink.h` |
+| I18n | `ll/api/i18n/I18n.h` |
+| Coroutine | `ll/api/coro/CoroTask.h`、`ll/api/coro/CoroPromise.h`、`ll/api/coro/CoroTaskAwaiter.h`、`ll/api/coro/Generator.h` |
+| Thread | `ll/api/thread/ThreadPoolExecutor.h`、`ll/api/thread/ServerThreadExecutor.h`、`ll/api/thread/GlobalThreadPauser.h`、`ll/api/thread/ThreadName.h` |
+| Chrono | `ll/api/chrono/GameChrono.h` |
+| Data | `ll/api/data/KeyValueDB.h`、`ll/api/data/DependencyGraph.h`、`ll/api/data/Version.h`、`ll/api/data/AnyFunction.h` |
+| Utils | `ll/api/utils/SystemUtils.h`、`ll/api/utils/StringUtils.h`、`ll/api/utils/HashUtils.h`、`ll/api/utils/RandomUtils.h`、`ll/api/utils/FileUtils.h` |
+| Memory & Hook | `ll/api/memory/Hook.h`、`ll/api/memory/Memory.h`、`ll/api/memory/Signature.h`、`ll/api/memory/Symbol.h` |
+| Network | `ll/api/network/packet/PacketBase.h`、`ll/api/network/packet/PacketHandlerBase.h` |
+| Input | `ll/api/KeyRegistry.h`、`ll/api/KeyHandle.h`、`ll/api/event/input/KeyInputEvent.h`、`ll/api/event/input/MouseInputEvent.h` |
 
 ## 适用范围
 
