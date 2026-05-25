@@ -9,6 +9,7 @@
 *[MTPE]: Machine Translation Post-Editing
 *[GPT]: Generative Pre-Trained Transformer
 *[PWA]: Progressive Web App
+*[WebGL]: Web Graphics Library
 *[MC]: Minecraft
 *[MCJE]: Minecraft Java Edition
 *[MCBE]: Minecraft Bedrock Edition
@@ -93,6 +94,7 @@
 *[MR]: Mixed Reality
 *[OpenXR]: OpenXR
 *[JVM]: Java Virtual Machine
+*[OpenJFX]: Open JavaFX
 *[LTS]: Long Term Support
 *[LSP]: Language Server Protocol
 *[NPM]: Node Package Manager

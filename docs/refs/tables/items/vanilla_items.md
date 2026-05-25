@@ -3,7 +3,7 @@
 > 文档版本：2025-02-11
 
 /// abstract | 描述
-本页列出Microsoft Learn“Default Minecraft Item Listings”公开的原版物品名称与数值ID。名称保持官方标识符形式，适用于命令测试、旧内容迁移与资源核对。
+本页列出原版物品名称与数值ID，主要来源为Microsoft Learn"Default Minecraft Item Listings"，并以官方游戏元数据（版本1.26.20-beta.24）补充收录了尚未正式公开的预览版物品（含各色收纳袋、各材质长矛、风弹等）。名称保持官方标识符形式，适用于命令测试、旧内容迁移与资源核对。
 ///
 
 |物品名|数值ID|
@@ -124,6 +124,7 @@
 |`birch_trapdoor`|`-146`|
 |`birch_wall_sign`|`-187`|
 |`birch_wood`|`-815`|
+|`black_bundle`|`264`|
 |`black_candle`|`-428`|
 |`black_candle_cake`|`-445`|
 |`black_carpet`|`-611`|
@@ -148,6 +149,7 @@
 |`blaze_rod`|`426`|
 |`blaze_spawn_egg`|`460`|
 |`bleach`|`611`|
+|`blue_bundle`|`265`|
 |`blue_candle`|`-424`|
 |`blue_candle_cake`|`-441`|
 |`blue_carpet`|`-607`|
@@ -192,6 +194,7 @@
 |`brick_slab`|`-874`|
 |`brick_stairs`|`108`|
 |`brick_wall`|`-976`|
+|`brown_bundle`|`266`|
 |`brown_candle`|`-425`|
 |`brown_candle_cake`|`-442`|
 |`brown_carpet`|`-608`|
@@ -216,6 +219,7 @@
 |`bubble_coral_wall_fan`|`-136`|
 |`bucket`|`363`|
 |`budding_amethyst`|`-328`|
+|`bundle`|`267`|
 |`burn_pottery_sherd`|`676`|
 |`bush`|`-1023`|
 |`cactus`|`81`|
@@ -375,6 +379,7 @@
 |`copper_ore`|`-311`|
 |`copper_pickaxe`|`747`|
 |`copper_shovel`|`746`|
+|`copper_spear`|`257`|
 |`copper_sword`|`745`|
 |`copper_torch`|`-1082`|
 |`copper_trapdoor`|`-792`|
@@ -427,6 +432,7 @@
 |`cut_sandstone`|`-945`|
 |`cut_sandstone_double_slab`|`-927`|
 |`cut_sandstone_slab`|`-900`|
+|`cyan_bundle`|`268`|
 |`cyan_candle`|`-422`|
 |`cyan_candle_cake`|`-439`|
 |`cyan_carpet`|`-605`|
@@ -530,6 +536,7 @@
 |`diamond_ore`|`56`|
 |`diamond_pickaxe`|`320`|
 |`diamond_shovel`|`319`|
+|`diamond_spear`|`258`|
 |`diamond_sword`|`318`|
 |`diorite`|`-592`|
 |`diorite_double_slab`|`-921`|
@@ -771,6 +778,7 @@
 |`glass_pane`|`102`|
 |`glistering_melon_slice`|`438`|
 |`globe_banner_pattern`|`598`|
+|`glow_berries`|`844`|
 |`glow_frame`|`637`|
 |`glow_ink_sac`|`514`|
 |`glow_lichen`|`-411`|
@@ -799,6 +807,7 @@
 |`golden_pickaxe`|`327`|
 |`golden_rail`|`27`|
 |`golden_shovel`|`326`|
+|`golden_spear`|`259`|
 |`golden_sword`|`325`|
 |`granite`|`-590`|
 |`granite_double_slab`|`-923`|
@@ -808,6 +817,7 @@
 |`grass_block`|`2`|
 |`grass_path`|`198`|
 |`gravel`|`13`|
+|`gray_bundle`|`269`|
 |`gray_candle`|`-420`|
 |`gray_candle_cake`|`-437`|
 |`gray_carpet`|`-603`|
@@ -821,6 +831,7 @@
 |`gray_stained_glass_pane`|`-649`|
 |`gray_terracotta`|`-730`|
 |`gray_wool`|`-553`|
+|`green_bundle`|`270`|
 |`green_candle`|`-426`|
 |`green_candle_cake`|`-443`|
 |`green_carpet`|`-609`|
@@ -930,6 +941,7 @@
 |`iron_ore`|`15`|
 |`iron_pickaxe`|`299`|
 |`iron_shovel`|`298`|
+|`iron_spear`|`260`|
 |`iron_sword`|`309`|
 |`iron_trapdoor`|`167`|
 |`item.bed`|`26`|
@@ -1012,6 +1024,7 @@
 |`light_block_7`|`-935`|
 |`light_block_8`|`-936`|
 |`light_block_9`|`-937`|
+|`light_blue_bundle`|`271`|
 |`light_blue_candle`|`-416`|
 |`light_blue_candle_cake`|`-433`|
 |`light_blue_carpet`|`-599`|
@@ -1025,6 +1038,7 @@
 |`light_blue_stained_glass_pane`|`-645`|
 |`light_blue_terracotta`|`-726`|
 |`light_blue_wool`|`-562`|
+|`light_gray_bundle`|`272`|
 |`light_gray_candle`|`-421`|
 |`light_gray_candle_cake`|`-438`|
 |`light_gray_carpet`|`-604`|
@@ -1041,6 +1055,7 @@
 |`lightning_rod`|`-312`|
 |`lilac`|`-863`|
 |`lily_of_the_valley`|`-839`|
+|`lime_bundle`|`273`|
 |`lime_candle`|`-418`|
 |`lime_candle_cake`|`-435`|
 |`lime_carpet`|`-601`|
@@ -1069,6 +1084,7 @@
 |`log2`|`792`|
 |`loom`|`-204`|
 |`mace`|`322`|
+|`magenta_bundle`|`274`|
 |`magenta_candle`|`-415`|
 |`magenta_candle_cake`|`-432`|
 |`magenta_carpet`|`-598`|
@@ -1197,6 +1213,7 @@
 |`netherite_pickaxe`|`620`|
 |`netherite_scrap`|`628`|
 |`netherite_shovel`|`619`|
+|`netherite_spear`|`261`|
 |`netherite_sword`|`618`|
 |`netherite_upgrade_smithing_template`|`695`|
 |`netherrack`|`87`|
@@ -1225,7 +1242,9 @@
 |`ocelot_spawn_egg`|`455`|
 |`ochre_froglight`|`-471`|
 |`ominous_bottle`|`606`|
+|`ominous_trial_key`|`282`|
 |`open_eyeblossom`|`-1018`|
+|`orange_bundle`|`275`|
 |`orange_candle`|`-414`|
 |`orange_candle_cake`|`-431`|
 |`orange_carpet`|`-597`|
@@ -1300,6 +1319,7 @@
 |`piglin_head`|`-970`|
 |`piglin_spawn_egg`|`502`|
 |`pillager_spawn_egg`|`496`|
+|`pink_bundle`|`276`|
 |`pink_candle`|`-419`|
 |`pink_candle_cake`|`-436`|
 |`pink_carpet`|`-602`|
@@ -1403,6 +1423,7 @@
 |`pumpkin_pie`|`284`|
 |`pumpkin_seeds`|`292`|
 |`pumpkin_stem`|`104`|
+|`purple_bundle`|`277`|
 |`purple_candle`|`-423`|
 |`purple_candle_cake`|`-440`|
 |`purple_carpet`|`-606`|
@@ -1445,6 +1466,7 @@
 |`raw_iron`|`516`|
 |`raw_iron_block`|`-451`|
 |`recovery_compass`|`660`|
+|`red_bundle`|`278`|
 |`red_candle`|`-427`|
 |`red_candle_cake`|`-444`|
 |`red_carpet`|`-610`|
@@ -1630,6 +1652,7 @@
 |`stone_pickaxe`|`316`|
 |`stone_pressure_plate`|`70`|
 |`stone_shovel`|`315`|
+|`stone_spear`|`262`|
 |`stone_stairs`|`67`|
 |`stone_sword`|`314`|
 |`stonebrick`|`771`|
@@ -1702,6 +1725,7 @@
 |`trader_llama_spawn_egg`|`662`|
 |`trapdoor`|`96`|
 |`trapped_chest`|`146`|
+|`trial_key`|`283`|
 |`trial_spawner`|`-315`|
 |`trident`|`556`|
 |`trip_wire`|`132`|
@@ -1858,6 +1882,7 @@
 |`wet_sponge`|`-984`|
 |`wheat`|`337`|
 |`wheat_seeds`|`291`|
+|`white_bundle`|`279`|
 |`white_candle`|`-413`|
 |`white_candle_cake`|`-430`|
 |`white_carpet`|`171`|
@@ -1874,6 +1899,7 @@
 |`white_wool`|`35`|
 |`wild_armor_trim_smithing_template`|`699`|
 |`wildflowers`|`-1024`|
+|`wind_charge`|`284`|
 |`witch_spawn_egg`|`456`|
 |`wither_rose`|`-216`|
 |`wither_skeleton_skull`|`-965`|
@@ -1890,10 +1916,12 @@
 |`wooden_pressure_plate`|`72`|
 |`wooden_shovel`|`311`|
 |`wooden_slab`|`786`|
+|`wooden_spear`|`263`|
 |`wooden_sword`|`310`|
 |`wool`|`767`|
 |`writable_book`|`521`|
 |`written_book`|`522`|
+|`yellow_bundle`|`280`|
 |`yellow_candle`|`-417`|
 |`yellow_candle_cake`|`-434`|
 |`yellow_carpet`|`-600`|

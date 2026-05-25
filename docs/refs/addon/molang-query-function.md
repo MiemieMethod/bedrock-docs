@@ -4,7 +4,7 @@
 
 ## 常规查询函数
 
-当前共收录303个常规查询函数。
+当前共收录316个常规查询函数。
 
 | 函数 | 说明（官方原文） |
 | --- | --- |
@@ -30,6 +30,7 @@
 | `query.block_has_any_tag` | Takes a world-origin-relative position and one or more tag names, and returns either 0 or 1 based on if the block at that position has any of the tags provided. |
 | `query.block_neighbor_has_all_tags` | Takes a block-relative position and one or more tag names, and returns either 0 or 1 based on if the block at that position has all of the tags provided. |
 | `query.block_neighbor_has_any_tag` | Takes a block-relative position and one or more tag names, and returns either 0 or 1 based on if the block at that position has any of the tags provided. |
+| `query.block_property` | Returns the value of the associated block's Block State. |
 | `query.block_state` | Returns the value of the associated block's block state. |
 | `query.blocking` | Returns 1.0 if the entity is blocking, else it returns 0.0. |
 | `query.body_x_rotation` | Returns the body pitch rotation if called on an entity, else it returns 0.0. |
@@ -49,6 +50,7 @@
 | `query.can_swim` | Returns 1.0 if the entity can swim, else it returns 0.0. |
 | `query.can_walk` | Returns 1.0 if the entity can walk, else it returns 0.0. |
 | `query.cape_flap_amount` | Returns value between 0.0 and 1.0 with 0.0 meaning cape is fully down and 1.0 is cape is fully up. |
+| `query.cardinal_block_face_placed_on` | DEPRECATED (please use query.block_face instead) Returns the block face for this (only valid for on_placed_by_player trigger) (Down=0.0, Up=1.0, North=2.0, South=3.0, West=4.0, East=5.0, Undefined=6.0). |
 | `query.cardinal_facing` | Returns the current facing of the player (Down=0.0, Up=1.0, North=2.0, South=3.0, West=4.0, East=5.0, Undefined=6.0). |
 | `query.cardinal_facing_2d` | Returns the current facing of the player ignoring up/down part of the direction (North=2.0, South=3.0, West=4.0, East=5.0, Undefined=6.0). |
 | `query.cardinal_player_facing` | Returns the current facing of the player (Down=0.0, Up=1.0, North=2.0, South=3.0, West=4.0, East=5.0, Undefined=6.0). |
@@ -59,8 +61,10 @@
 | `query.cooldown_time_remaining` | Returns the cooldown time remaining in seconds for specified cooldown type or the item held or worn by the specified equipment slot name (and if required second numerical slot id), otherwise returns 0. |
 | `query.count` | Counts the number of things passed to it (arrays are counted as the number of elements they contain; non-arrays count as 1). |
 | `query.current_squish_value` | Returns the squish value for the current entity, or 0.0 if this doesn't make sense. |
+| `query.dash_cooldown_progress` | DEPRECATED. DO NOT USE AFTER 1.20.40. Please see camel.entity.json script.pre_animation for example of how to now process dash cooldown. Returns dash cooldown progress if the entity can dash, else it returns 0.0. |
 | `query.day` | Returns the day of the current world. |
 | `query.death_ticks` | Returns the elapsed ticks since the mob started dying. |
+| `query.debug_output` | debug log a value to the output debug window for builds that have one |
 | `query.delta_time` | Returns the time in seconds since the previous frame. |
 | `query.distance_from_camera` | Returns the distance of the root of this entity or particle emitter from the camera. |
 | `query.effect_emitter_count` | Returns the total number of active emitters of the callee's particle effect type. |
@@ -80,8 +84,10 @@
 | `query.get_actor_info_id` | Returns the integer id of an entity (actor) by its string name. |
 | `query.get_animation_frame` | Returns the current texture of an item whose appearance can change (such as a drawn bow). |
 | `query.get_default_bone_pivot` | Gets specified axis of the specified bone orientation pivot. |
+| `query.get_equipped_item_name` | DEPRECATED (Use query.is_item_name_any instead if possible so names can be changed later without breaking content.) Takes one optional hand slot as a parameter (0 or 'main_hand' for main hand, 1 or 'off_hand' for off hand), and a second parameter (0=default) if you would like the equipped item or any non-zero number for the currently rendered item, and returns the name of the item in the requested slot (defaulting to the main hand if no parameter is supplied) if there is one, otherwise returns ''. |
 | `query.get_level_seed_based_fraction` | Returns a value in range [0.0, 1.0] based on the level seed. |
 | `query.get_locator_offset` | Gets specified axis of the specified locator offset. |
+| `query.get_name` | DEPRECATED (Use query.is_name_any instead if possible so names can be changed later without breaking content.) Get the name of the mob if there is one, otherwise return ''. |
 | `query.get_pack_setting` | Returns value of Pack Setting slider, parameter is name of slider. |
 | `query.get_root_locator_offset` | Gets specified axis of the specified locator offset of the root model. |
 | `query.graphics_mode_is_any` | If the graphics mode of the client matches any of the arguments, return 1.0. |
@@ -91,6 +97,7 @@
 | `query.has_any_leashed_entity_of_type` | Returns whether or not the entity is currently leashing other entities of the designated types. |
 | `query.has_armor_slot` | Takes the armor slot index as a parameter, and returns 1.0 if the entity has armor in the requested slot, else it returns 0.0. |
 | `query.has_biome_tag` | Returns whether or not a block placement target has a specific biome tag. |
+| `query.has_block_property` | Returns 1.0 if the associated block has the given block state or 0.0 if not. |
 | `query.has_block_state` | Returns 1.0 if the associated block has the given block state or 0.0 if not. |
 | `query.has_cape` | Returns 1.0 if the player has a cape, else it returns 0.0. |
 | `query.has_collision` | Returns 1.0 if the entity has collisions enabled, else it returns 0.0. |
@@ -143,6 +150,7 @@
 | `query.is_emerging` | Returns 1.0 if the entity is emerging, else it returns 0.0. |
 | `query.is_emoting` | Returns 1.0 if the entity is emoting, else it returns 0.0. |
 | `query.is_enchanted` | Returns 1.0 if the entity is enchanted, else it returns 0.0. |
+| `query.is_feeling_happy` | DEPRECATED after 1.20.40. Returns 1.0 if behavior.timer_flag_2 is running, else it returns 0.0. |
 | `query.is_fire_immune` | Returns 1.0 if the entity is immune to fire (has the `fire_immune` component), else it returns 0.0. |
 | `query.is_first_person` | Returns 1.0 if the entity is being rendered in first person mode, else it returns 0.0. |
 | `query.is_ghost` | Returns 1.0 if an entity is a ghost, else it returns 0.0. |
@@ -234,6 +242,7 @@
 | `query.lie_amount` | Returns the lie down amount for the entity. |
 | `query.life_span` | Returns the limited life span of an entity, or 0.0 if it lives forever. |
 | `query.life_time` | Returns the time in seconds since the current animation started, else 0.0 if not called within an animation. |
+| `query.lod_index` | Takes an array of distances and returns the zero-based index of which range the actor is in based on distance from the camera. For example, 'query.lod_index(10, 20, 30)' will return 0, 1, or 2 based on whether the mob is less than 10, 20, or 30 units away from the camera, or it will return 3 if it is greater than 30. |
 | `query.log` | Debug log a value to the content file. |
 | `query.main_hand_item_max_duration` | Returns the use time maximum duration for the main hand item if it makes sense, else it returns 0.0. |
 | `query.main_hand_item_use_duration` | Returns the use time for the main hand item. |
@@ -253,6 +262,8 @@
 | `query.noise` | Queries a Perlin Noise Map. |
 | `query.on_fire_time` | Returns the time that the entity is on fire, else it returns 0.0. |
 | `query.out_of_control` | Returns 1.0 if the entity is out of control (has the `out_of_control` component), else it returns 0.0. |
+| `query.overlay_alpha` | DEPRECATED (Do not use - this function is deprecated and will be removed). |
+| `query.owner_identifier` | DEPRECATED (Use query.is_owner_identifier_any instead if possible so names can be changed later without breaking content.) Returns the root actor identifier. |
 | `query.player_level` | Returns the players level if the entity is a player, otherwise returns 0. |
 | `query.position` | Returns the absolute position of an entity. |
 | `query.position_delta` | Returns the position delta for an entity. |
@@ -294,6 +305,7 @@
 | `query.tail_angle` | Returns the angle of the tail of the entity if it makes sense, else it returns 0.0. |
 | `query.target_x_rotation` | Returns the x rotation required to aim at the entity's current target if it has one, else it returns 0.0. |
 | `query.target_y_rotation` | Returns the y rotation required to aim at the entity's current target if it has one, else it returns 0.0. |
+| `query.texture_frame_index` | Returns the icon index of the experience orb. |
 | `query.ticks_since_last_kinetic_weapon_hit` | Returns the number of ticks elapsed since the user last hit something while using a kinetic weapon. |
 | `query.time_of_day` | Returns the time of day (midnight=0.0, sunrise=0.25, noon=0.5, sunset=0.75) of the dimension the entity is in. |
 | `query.time_since_last_vibration_detection` | Returns the time in seconds since the last vibration detected by the entity. |
@@ -305,6 +317,7 @@
 | `query.total_particle_count` | Returns the total number of active particles in the world. |
 | `query.touch_only_affects_hotbar` | Returns 1.0 if the touch input only affects the touchbar, otherwise returns 0.0. |
 | `query.trade_tier` | Returns the trade tier of the entity if it makes sense, else it returns 0.0. |
+| `query.unhappy_counter` | Always returns zero. (Was originally meant to indicate Panda unhappiness but due to an early code change it has always only returned zero) |
 | `query.variant` | Returns the entity's variant index. |
 | `query.vertical_speed` | Returns the speed of the entity up or down in meters/second, where positive is up. |
 | `query.walk_distance` | Returns the total distance traveled by an entity while on the ground and not sneaking. |

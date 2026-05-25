@@ -40,7 +40,7 @@ cd MyPlugin
 
 ## 初始化项目
 
-在IntelliJ IDEA中打开项目，然后打开`README.md`。按照文件中的说明初始化项目，之后重新加载gradle项目。
+在IntelliJ IDEA中打开项目后，按模板仓库给出的初始化步骤完成项目设置，然后重新加载Gradle项目。
 
 /// tip
 如果你没有使用`JavaPluginTemplate`，则需要手动编写`plugin.json`文件：

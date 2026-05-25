@@ -2,7 +2,8 @@
 
 /// details-info | 来源信息
 - 原文仓库：[github.com/bridge-core/docs](https://github.com/bridge-core/docs)
-- 许可说明：以原仓库或原站点公开许可声明为准。
+- 原项目署名：bridge.项目维护者包括solvedDev、Joel ant 05、OuterCloudStudio，贡献者包括Chikorita Lover、Pascal、Tschipp、Jason、7dev7urandom、montudor、ENDERZOMBI102等。
+- 许可说明：仓库许可字段为MIT；如原站点或具体页面另有声明，以其声明为准。
 ///
 
 

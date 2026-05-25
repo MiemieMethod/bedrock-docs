@@ -51,13 +51,15 @@ title: 基岩版协议库
 ## 建议的阅读顺序
 
 1. 先看[项目说明页译文](source-readme.md)，了解协议库的用途和版本视角。
-2. 再看[网络协议](../../docs/server/protocol.md)，先建立协议层次、登录流程和服务端权威机制的整体概念。
-3. 需要追版本差异时，继续看[基岩版协议变更索引](../../refs/server/bedrock-protocol-changelog.md)。
-4. 已经锁定具体数据包后，再回到来源仓库中的HTML页面逐字段核对。
+2. 如果当前关注创作工具、运行期界面、图形覆盖、存在信息或声音控制，接着看[创作与呈现数据包译文](runtime-configuration-packets.md)。
+3. 再看[网络协议](../../docs/server/protocol.md)，先建立协议层次、登录流程和服务端权威机制的整体概念。
+4. 需要追版本差异时，继续看[基岩版协议变更索引](../../refs/server/bedrock-protocol-changelog.md)。
+5. 已经锁定具体数据包后，再回到来源仓库中的HTML页面逐字段核对。
 
 ## 相关页面
 
 - [项目说明页译文](source-readme.md)
+- [创作与呈现数据包译文](runtime-configuration-packets.md)
 - [网络协议](../../docs/server/protocol.md)
 - [基岩版协议变更索引](../../refs/server/bedrock-protocol-changelog.md)
 - [RakNet](../../docs/server/raknet.md)

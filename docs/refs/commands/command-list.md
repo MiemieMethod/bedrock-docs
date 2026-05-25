@@ -1,9 +1,9 @@
 # 国际版命令清单
 
-本页基于Microsoft Learn的CommandsReference目录整理国际版命令参考，覆盖2025-02-11版本文档中的82条命令。内容仅描述国际版默认命令集合，不将中国版模组SDK专有指令与旧版废弃语法作为默认结论。
+本页基于Microsoft Learn的CommandsReference目录整理国际版命令参考，覆盖2025-02-11版本文档中的82条命令，并补充了元数据收录的3条新增命令，合计85条。内容仅描述国际版默认命令集合，不将中国版模组SDK专有指令与旧版废弃语法作为默认结论。
 
 /// note | 范围说明
-- 教育版专有命令（如`/ability`、`/immutableworld`、`/wb`）未纳入本清单。<!-- md:flag edu -->
+- 教育版专有命令（如`/ability`、`/immutableworld`）未纳入本清单。<!-- md:flag edu -->
 - `gametest`等命令仍依赖实验性能力，版本迁移时应结合[命令版本](version.md)和目标版本更新日志复核。
 - 命令名称、语法参数名和权限枚举保持官方英文原样，以降低跨版本比对歧义。
 ///
@@ -61,6 +61,7 @@
 | `/hud` | `Game Directors`（游戏指导者） | 是 | `/hud <target: target> <visible: hudvisibility> [hud_element: hudelement]` | — | Configures whether elements of the on-screen display (alternately known as the 'heads up display', or 'HUD') are visible on the screen. |
 | `/inputpermission` | `Game Directors`（游戏指导者） | 是 | `/inputpermission <option: option_set> <targets: target> <permission: permission> <state: state>` | — | Optionally enables or disables input permissions for a player. |
 | `/teleport` | `Game Directors`（游戏指导者） | 是 | `/teleport <destination: x y z> [checkForBlocks: Boolean]` | — | Teleports entities to specific locations. |
+| `/worldbuilder` | `Game Directors`（游戏指导者） | 是 | `/worldbuilder` | 可用别名`/wb` | Toggle World Builder status of caller. |
 | `/xp` | `Game Directors`（游戏指导者） | 是 | `/xp <amount: int> [player: target]` | — | Adds or removes player experience. |
 
 ### 相机
@@ -69,6 +70,7 @@
 |---|---|---|---|---|---|
 | `/camera` | `Game Directors`（游戏指导者） | 是 | `/camera <players: target> attach_to_entity <entity: target>` | — | Transforms the camera for the selected player(s) to a different perspective. |
 | `/camerashake` | `Game Directors`（游戏指导者） | 是 | `/camerashake add <player: target> [intensity: float] [seconds: float] [shakeType: camerashaketype]` | — | Applies shaking to the players' camera with specified intensity and duration. |
+| `/takepicture` | `Game Directors`（游戏指导者） | 是 | `/takepicture <targetCamera: target> <targetPlayer: target>` | — | Takes a photograph using a camera entity targeting a player. |
 
 ### 世界设置
 
@@ -166,3 +168,4 @@
 |---|---|---|---|---|---|
 | `/locate` | `Game Directors`（游戏指导者） | 是 | `/locate <subcommand: locatesubcommandstructure> <structure: structurefeature> [useNewChunksOnly: Boolean]` | — | Finds the nearest specified biome or structure if it exists in the current dimension. |
 | `/project` | `Game Directors`（游戏指导者） | 否 | `/project <subcommand: subcommandexport> <exportType: exporttypes>` | 编辑器相关命令 | This command contains additional tools for managing an Editor project. |
+| `/resourceuri` | `Game Directors`（游戏指导者） | 是 | `/resourceuri clear` | — | Sets or clears server resource pack URIs. |
