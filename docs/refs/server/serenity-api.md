@@ -127,7 +127,7 @@ const blockType = new CustomBlockType("serenity:example_block", {
 | 方法 | 说明 |
 |------|------|
 | `components.setLightEmission(level)` | 设置发光等级。`0`表示不发光，`15`表示最大发光等级。 |
-| `components.setIsInteractable(value)` | 设置方块是否可交互。交互型方块才能触发示例中的交互方块萃取。 |
+| `components.setIsInteractable(value)` | 设置方块是否可交互。交互型方块才能触发示例中的交互方块特质。 |
 | `components.getGeometry()` | 获取几何体组件。 |
 | `geometry.setModelIdentifier(identifier)` | 设置几何体标识符。 |
 | `components.getMaterialInstances()` | 获取材质实例组件。 |
@@ -152,13 +152,13 @@ const permutation = blockType.createPermutation({
 
 方块置换的状态值可以是字符串、数字或布尔值。置换可以覆盖基础方块组件，例如为不同`powered`状态设置不同发光等级。
 
-### 方块萃取
+### 方块特质
 
-方块萃取通过继承`BlockTrait`定义。
+方块特质通过继承`BlockTrait`定义。
 
 | 成员 | 说明 |
 |------|------|
-| `static identifier` | 方块萃取的唯一标识符。 |
+| `static identifier` | 方块特质的唯一标识符。 |
 | `onInteract()` | 交互回调。常见用法是在其中读取并切换`powered`状态。 |
 | `this.block.getState(name)` | 读取方块状态值。 |
 | `this.block.setState(name, value)` | 设置方块状态值。 |
@@ -168,7 +168,7 @@ const permutation = blockType.createPermutation({
 | 方法 | 说明 |
 |------|------|
 | `world.blockPalette.registerType(blockType)` | 将自定义方块类型注册到世界方块调色板。 |
-| `world.blockPalette.registerTrait(traitClass)` | 注册方块萃取类。 |
+| `world.blockPalette.registerTrait(traitClass)` | 注册方块特质类。 |
 
 ## 插件模板
 

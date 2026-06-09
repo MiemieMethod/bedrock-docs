@@ -34,7 +34,7 @@ setblock ~ ~ ~ example:lamp_block ["example:is_lit"=true]
 
 ## 原版方块状态
 
-原版方块状态由游戏引擎定义，可在命令、方块置换条件和部分API中出现。完整列表见[原版方块状态](../tables/blocks/block_states.md)。自定义方块通常不应直接复制原版状态名称，除非该状态由[方块萃取](block-trait.md)明确启用或文档明确允许。
+原版方块状态由游戏引擎定义，可在命令、方块置换条件和部分API中出现。完整列表见[原版方块状态](../tables/blocks/block_states.md)。自定义方块通常不应直接复制原版状态名称，除非该状态由[方块特质](block-trait.md)明确启用或文档明确允许。
 
 ## 附加值映射
 

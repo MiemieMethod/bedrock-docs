@@ -1,7 +1,7 @@
 # 多方块结构 <!-- md:flag experimental -->
 
 /// warning | 实验性功能
-多方块萃取目前仍处于实验性阶段，需要在世界设置中启用"即将推出的创作者功能"实验性开关，且方块定义的 `format_version` 不低于 `1.26.20`。
+多方块特质目前仍处于实验性阶段，需要在世界设置中启用"即将推出的创作者功能"实验性开关，且方块定义的 `format_version` 不低于 `1.26.20`。
 ///
 
 多方块结构允许一个方块定义横跨多个方块位置，例如原版的门（2格高）、向日葵（2格高）或大型装置。
@@ -10,9 +10,9 @@
 
 多方块结构由一个**主方块**（part_index 0）和若干**附属方块**（part_index 1、2……）组成。主方块定义整个结构的逻辑，附属方块只是占位方块，在主方块被破坏时会自动移除。
 
-## 配置多方块萃取
+## 配置多方块特质
 
-使用 `minecraft:multi_block` 萃取，并声明结构中每个方块部分的相对坐标和索引：
+使用 `minecraft:multi_block` 特质，并声明结构中每个方块部分的相对坐标和索引：
 
 ```json title="BP/blocks/tall_block.json"
 {
@@ -54,7 +54,7 @@
 ```
 
 /// warning | 必须包含 minecraft:movable
-多方块萃取的方块**必须**包含 `minecraft:movable` 组件，且 `movement_type` 必须设置为 `"immovable"` 或 `"popped"`。省略此组件会导致方块注册失败。
+多方块特质的方块**必须**包含 `minecraft:movable` 组件，且 `movement_type` 必须设置为 `"immovable"` 或 `"popped"`。省略此组件会导致方块注册失败。
 ///
 
 ## 状态约束

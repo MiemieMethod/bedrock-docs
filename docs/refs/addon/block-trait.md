@@ -1,13 +1,13 @@
-# 方块萃取
+# 方块特质
 
-本页列出行为包方块定义中`minecraft:block.description.traits`对象可用的主要方块萃取、可启用状态和附加字段。方块萃取用于使自定义方块复用由引擎维护的放置方向、放置位置或连接关系状态；相关概念说明见[方块萃取](../../docs/general/block-trait.md)。
+本页列出行为包方块定义中`minecraft:block.description.traits`对象可用的主要方块特质、可启用状态和附加字段。方块特质用于使自定义方块复用由引擎维护的放置方向、放置位置或连接关系状态；相关概念说明见[方块特质](../../docs/general/block-trait.md)。
 
 ## 位置
 
 | 字段 | 类型 | 描述 |
 | --- | --- | --- |
-| `minecraft:block.description.traits` | 对象 | 方块萃取集合。每个键为一个萃取标识符，值为该萃取的配置对象。 |
-| `enabled_states` | 字符串数组 | 启用该萃取维护的一个或多个方块状态。不同萃取允许的状态不同。 |
+| `minecraft:block.description.traits` | 对象 | 方块特质集合。每个键为一个特质标识符，值为该特质的配置对象。 |
+| `enabled_states` | 字符串数组 | 启用该特质维护的一个或多个方块状态。不同特质允许的状态不同。 |
 
 ## `minecraft:placement_direction`
 

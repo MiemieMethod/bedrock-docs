@@ -60,9 +60,9 @@ const permutation2 = exampleBlockType.createPermutation({ powered: true });
 permutation2.components.setLightEmission(15); // 级别15将发出光线
 ```
 
-## 方块萃取
+## 方块特质
 
-方块萃取是一种为方块定义额外属性的方式。这些萃取可用于定义方块在游戏中的行为。例如，你可以定义一个萃取，使方块在与之交互时发出光线。要创建萃取，需要创建一个扩展`BlockTrait`类的新类。下面是创建简单方块萃取的示例，该萃取使方块在与之交互时发出光线。
+方块特质是一种为方块定义额外属性的方式。这些特质可用于定义方块在游戏中的行为。例如，你可以定义一个特质，使方块在与之交互时发出光线。要创建特质，需要创建一个扩展`BlockTrait`类的新类。下面是创建简单方块特质的示例，该特质使方块在与之交互时发出光线。
 
 首先，我们需要扩展上面的代码，我们需要使基础方块类型可交互。这通过在方块类型的`components`属性内调用`setIsInteractable`方法来完成。这将允许我们在游戏中正确与方块交互。
 
@@ -71,13 +71,13 @@ permutation2.components.setLightEmission(15); // 级别15将发出光线
 exampleBlockType.components.setIsInteractable(true);
 ```
 
-接下来，我们可以创建一个扩展`BlockTrait`类的新类。此类将定义方块在与之交互时的行为。在本例中，我们将创建一个萃取，使方块在与之交互时切换其发光状态。萃取增加了代码的可重用性，因为它们可以用于多个方块。这类似于如何在方块类型中使用组件。
+接下来，我们可以创建一个扩展`BlockTrait`类的新类。此类将定义方块在与之交互时的行为。在本例中，我们将创建一个特质，使方块在与之交互时切换其发光状态。特质增加了代码的可重用性，因为它们可以用于多个方块。这类似于如何在方块类型中使用组件。
 
 ```typescript
 import { BlockTrait } from '@serenityjs/core';
 
 class ExampleBlockTrait extends BlockTrait {
-  // 每个萃取都必须有一个唯一的标识符
+  // 每个特质都必须有一个唯一的标识符
   public static readonly identifier = "serenity:example_block_trait";
 
   public onInteract(): void {
@@ -90,21 +90,21 @@ class ExampleBlockTrait extends BlockTrait {
 }
 ```
 
-一旦萃取被定义，你可以将其注册到方块类型。这意味着当方块初始时，它将应用该萃取。你可以通过在方块类型实例上调用`registerTrait`方法来注册萃取。
+一旦特质被定义，你可以将其注册到方块类型。这意味着当方块初始时，它将应用该特质。你可以通过在方块类型实例上调用`registerTrait`方法来注册特质。
 
 ```typescript
-// 方块类型现在将应用该萃取
+// 方块类型现在将应用该特质
 exampleBlockType.registerTrait(ExampleBlockTrait);
 ```
 
 ## 总结
 
-在本指南中，我们介绍了在Serenity中创建自定义方块的基础知识。我们定义了一个自定义方块类型、创建了置换，并添加了萃取来定义方块的行为。完成这些步骤后，你还需要将方块类型注册到世界实例。这通过在世界实例的`blockPalette`属性上调用`registerType`方法来完成。
+在本指南中，我们介绍了在Serenity中创建自定义方块的基础知识。我们定义了一个自定义方块类型、创建了置换，并添加了特质来定义方块的行为。完成这些步骤后，你还需要将方块类型注册到世界实例。这通过在世界实例的`blockPalette`属性上调用`registerType`方法来完成。
 
 ```typescript
 world.blockPalette.registerType(exampleBlockType);
 
-// 可选地，你也可以注册方块萃取
+// 可选地，你也可以注册方块特质
 world.blockPalette.registerTrait(ExampleBlockTrait);
 ```
 

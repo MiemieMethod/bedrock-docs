@@ -41,7 +41,7 @@
 | `minecraft:redstone_producer` | 对象 | 未设置 | 表示方块产生红石信号。`power`为`0`到`15`；`connected_faces`指定参与电路连接的面；`strongly_powered_face`指定被强充能的面；`transform_relative`为真时会随`minecraft:transformation`旋转相关面。 |
 | `minecraft:replaceable` | 空对象 | 未设置 | 表示其他方块可放置到同一位置并替换该方块<!-- md:flag experimental -->。在`1.21.60`之前的格式版本中需要“Upcoming Creator Features”。 |
 | `minecraft:selection_box` | 布尔值或对象 | 完整选取箱 | 定义玩家准星选中方块时显示的选取箱。`true`使用完整方块，`false`使方块不可被准星选中；对象形态使用`origin`和`size`，两者相加必须落在`[-8,0,-8]`到`[8,16,8]`范围内。 |
-| `minecraft:support` | 对象 | 单位立方体支撑 | 定义方块的支撑形状。`shape`为必填字段，目前官方列出`fence`和`stair`。自定义楼梯支撑通常还需要通过方块萃取启用`minecraft:vertical_half`和`minecraft:cardinal_direction`或`minecraft:facing_direction`。 |
+| `minecraft:support` | 对象 | 单位立方体支撑 | 定义方块的支撑形状。`shape`为必填字段，目前官方列出`fence`和`stair`。自定义楼梯支撑通常还需要通过方块特质启用`minecraft:vertical_half`和`minecraft:cardinal_direction`或`minecraft:facing_direction`。 |
 | `tag:<标签名>` | 空对象 | 未设置 | 为方块添加标签。创作者可以创建自己的标签，但只有原版方块标签可使用`minecraft:`命名空间。原版标签表见[原版方块标签](../tables/blocks/vanilla_tags.md)。 |
 | `minecraft:tick` | 对象 | 未设置 | 使方块按随机选取的固定间隔触发脚本自定义组件`onTick`事件。`interval_range`为刻数范围，默认`[0,0]`；`looping`默认`true`。监听`onTick`的自定义组件若添加到没有该组件的方块上，会产生内容错误。 |
 | `minecraft:transformation` | 对象 | 未设置 | 设置方块相对世界位置中心的平移、旋转和缩放。字段包括`translation`、`rotation`、`scale`、`rotation_pivot`和`scale_pivot`；`rotation`使用`90`度增量。 |

@@ -133,7 +133,7 @@ function register(world: World): void {
 
 ## 创建自定义方块
 
-SerenityJS可以用`CustomBlockType`定义自定义方块类型，并用组件、方块置换和方块萃取描述表现与行为。
+SerenityJS可以用`CustomBlockType`定义自定义方块类型，并用组件、方块置换和方块特质描述表现与行为。
 
 ```typescript
 import { BlockTrait, CustomBlockType } from "@serenityjs/core";

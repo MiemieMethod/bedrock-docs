@@ -85,7 +85,7 @@
 
     [:octicons-arrow-right-24: 阅读](block-states.md)
 
-- :material-puzzle: **方块萃取**
+- :material-puzzle: **方块特质**
 
     ---
 
@@ -201,7 +201,7 @@
 
     ---
 
-    使用 `minecraft:multi_block` 萃取创建跨多格的方块。
+    使用 `minecraft:multi_block` 特质创建跨多格的方块。
 
     [:octicons-arrow-right-24: 阅读](multi-blocks.md)
 ///

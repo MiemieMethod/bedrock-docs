@@ -26,7 +26,7 @@
 
 `subject`
 
-- 测试的目标对象。可选值包括`self`（自身）、`other`（交互的另一方）、`parent`（父实体）、`player`（玩家）、`target`（当前目标）、`baby`（幼体）等。默认为`self`。
+- 测试的目标对象。可选值包括`self`（自身）、`other`（交互的另一方）、`parent`（父实体）、`player`（玩家）、`target`（当前目标）、`damager`（造成伤害者）、`block`（涉及的方块）等。默认为`self`。
 
 `operator`
 

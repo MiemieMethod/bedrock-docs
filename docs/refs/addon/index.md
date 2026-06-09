@@ -62,7 +62,7 @@
 - [方块定义](block.md) - 列出行为包方块结构、资源包`blocks.json`、方块引用对象与剔除规则
 - [方块组件](block-component.md)
 - [方块状态与置换](block-state.md)
-- [方块萃取](block-trait.md)
+- [方块特质](block-trait.md)
 - [体素形状文档](voxel-shape.md)
 - [物品定义](item.md)
 - [物品组件](item-component.md)

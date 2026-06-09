@@ -44,7 +44,7 @@
 | `night_vision` | 夜视 | 提高在黑暗中的可见度 |
 | `absorption` | 吸收 | 提供额外的吸收生命值 |
 | `saturation` | 饱和 | 回复饥饿值和饱和度 |
-| `conduit_power` | 潮涌能量 | 提供水下夜视和急迫效果 |
+| `conduit_power` | 潮涌能量 | 提供水下呼吸、水下夜视和急迫效果 |
 
 ### 减益效果
 

@@ -54,7 +54,7 @@
 - [方块定义](addon/block.md)：列出行为包方块定义文件、资源包`blocks.json`、方块剔除规则和方块物品表现相关字段。
 - [方块组件](addon/block-component.md)：列出行为包方块定义可用组件、关键字段、版本要求和内部或已弃用项。
 - [方块状态与置换](addon/block-state.md)：列出自定义方块状态、方块置换条件、置换数量限制和原版状态附表入口。
-- [方块萃取](addon/block-trait.md)：列出行为包方块定义可用方块萃取、可启用状态和附加字段。
+- [方块特质](addon/block-trait.md)：列出行为包方块定义可用方块特质、可启用状态和附加字段。
 - [物品定义](addon/item.md)：列出行为包物品定义文件的主要结构、常用组件、使用优先级和原版物品标签。
 - [物品组件](addon/item-component.md)：列出行为包物品定义可用组件、主要字段、依赖关系和已弃用项。
 - [JSON UI文件](addon/json-ui.md)：列出国际版资源包JSON UI的`_ui_defs.json`、`_global_variables.json`、屏幕文件、控件字段、绑定和按钮映射。

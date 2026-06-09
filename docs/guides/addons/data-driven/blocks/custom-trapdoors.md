@@ -6,7 +6,7 @@
 
 活板门的逻辑需要：
 
-1. 两个萃取：`minecraft:placement_direction`（记录面对方向）和 `minecraft:placement_position`（记录上/下半）。
+1. 两个特质：`minecraft:placement_direction`（记录面对方向）和 `minecraft:placement_position`（记录上/下半）。
 2. 一个 `wiki:open` 自定义状态（布尔值）。
 3. 一个处理右键交互的自定义组件。
 4. 完整的置换矩阵：4方向 × 2位置 × 开/关 = 16个置换。

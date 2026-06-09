@@ -393,7 +393,7 @@ nav:
         - 方块: docs/general/block.md
         - 方块状态: docs/general/block-state.md
         - 方块置换: docs/general/block-permutation.md
-        - 方块萃取: docs/general/block-trait.md
+        - 方块特质: docs/general/block-trait.md
         - 方块实体: docs/general/block-entity.md
         - 物品: docs/general/item.md
         - 容器: docs/general/container.md
@@ -558,7 +558,7 @@ nav:
           - 方块状态与置换: guides/addons/data-driven/blocks/block-states.md
           - 自定义组件与事件: guides/addons/data-driven/blocks/block-events.md
           - 方块声音: guides/addons/data-driven/blocks/block-sounds.md
-          - 方块萃取: guides/addons/data-driven/blocks/block-traits.md
+          - 方块特质: guides/addons/data-driven/blocks/block-traits.md
           - 方块着色: guides/addons/data-driven/blocks/block-tinting.md
           - 方块标签: guides/addons/data-driven/blocks/block-tags.md
           - 方块剔除: guides/addons/data-driven/blocks/block-culling.md
@@ -894,7 +894,7 @@ nav:
       - 方块组件: refs/addon/block-component.md
       - 方块组件（中国版）: refs/addon/block-component-china.md
       - 方块状态与置换: refs/addon/block-state.md
-      - 方块萃取: refs/addon/block-trait.md
+      - 方块特质: refs/addon/block-trait.md
       - 体素形状文档: refs/addon/voxel-shape.md
       - 物品定义: refs/addon/item.md
       - 物品组件: refs/addon/item-component.md

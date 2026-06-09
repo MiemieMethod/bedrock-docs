@@ -39,19 +39,9 @@
 
 ## 方块事件
 
-自定义方块可以通过`events`字段定义方块事件，由方块的**触发器（Trigger）**组件触发。方块触发器组件在满足条件时触发关联的事件，事件可以执行的响应包括：
+与实体不同，自定义方块并没有长期稳定的数据驱动事件系统。早期版本中，自定义方块曾通过`events`字段定义方块事件，并由`minecraft:on_interact`、`minecraft:on_step_on`、`minecraft:on_placed`等**触发器（Trigger）**组件触发，事件可执行`set_block_state`、`run_command`、`damage`、`decrement_stack`、`die`、`play_effect`、`play_sound`、`teleport`、`transform`等响应。但这套机制始终属于实验性的**假日创作者功能（Holiday Creator Features）**，从未进入稳定接口，并已随格式版本`1.20.80`整体移除。
 
-- **`set_block_state`**：改变方块的方块状态属性值。
-- **`set_block_property`**：旧版写法，功能同上。
-- **`run_command`**：执行命令。
-- **`damage`**：对实体造成伤害。
-- **`decrement_stack`**：减少玩家手持物品的堆叠数量。
-- **`die`**：摧毁方块。
-- **`play_effect`**：播放粒子特效。
-- **`play_sound`**：播放音效。
-- **`remove_mob_effect`**：移除实体的状态效果。
-- **`teleport`**：传送实体。
-- **`transform_item`**：转换物品。
+在现行版本中，自定义方块的事件逻辑改由[脚本API](../addon/script-api.md)承担。方块定义通过`minecraft:custom_components`组件声明其使用的自定义组件，由脚本在`onPlayerInteract`、`onStepOn`、`onPlace`、`onTick`等事件钩子中实现对应行为。换言之，方块的事件响应已从数据驱动的JSON定义迁移到了脚本注册的自定义组件中。<!-- md:flag vanilla -->
 
 ## 脚本事件<!-- md:flag vanilla -->
 
