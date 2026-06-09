@@ -58,14 +58,14 @@
 | 布尔 | `query.is_saddled` | `minecraft:is_saddled` | |
 | 布尔 | `query.is_tamed` | `minecraft:is_tamed` | |
 | 布尔 | `query.is_chested` | `minecraft:is_chested` | 实体死亡时会掉落箱子 |
-| 布尔 | `query.is_powered` | `minecraft:is_charged` | |
+| 布尔 | `query.is_charged` | `minecraft:is_charged` | |
 | 布尔 | `query.is_stunned` | `minecraft:is_stunned` | |
 | 布尔 | `query.can_climb` | `minecraft:can_climb` | 允许实体攀爬梯子 |
 | 布尔 | `query.can_fly` | `minecraft:can_fly` | 寻路器不限制实体必须沿有地面的路径 |
 | 布尔 | `query.can_power_jump` | `minecraft:can_power_jump` | 允许实体像马一样蓄力跳跃 |
 | 布尔 | `query.is_ignited` | `minecraft:is_ignited` | |
 
-`minecraft:color`与`minecraft:color2`的合法值为颜色名称字符串：`black`、`blue`、`brown`、`cyan`、`gray`、`green`、`light_blue`、`light_green`、`magenta`、`orange`、`pink`、`purple`、`red`、`silver`、`white`、`yellow`。
+`minecraft:color`与`minecraft:color2`组件的值为整数，表示实体的调色板颜色索引（仅对绵羊、羊驼、潜影贝等具有预定义颜色的原版实体生效）。而`minecraft:is_color`过滤器接受的则是颜色名称字符串：`black`、`blue`、`brown`、`cyan`、`gray`、`green`、`light_blue`、`light_green`、`magenta`、`orange`、`pink`、`purple`、`red`、`silver`、`white`、`yellow`。
 
 ## 实体属性与动态置换
 

@@ -6,9 +6,7 @@
 
 输入键通常写在语言文件中，再由游戏在显示时替换为具体图标或按键名称。例如，在过山车结束提示里，可以根据平台自动显示“SHIFT”“B”或对应触摸按钮。
 
-<CodeHeader>RP/texts/en_US.lang</CodeHeader>
-
-```lang
+```lang title="RP/texts/en_US.lang"
 action.hint.exit.rollercoaster=Press :_input_key.sneak: to end the ride
 ```
 

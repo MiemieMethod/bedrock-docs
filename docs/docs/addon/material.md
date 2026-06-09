@@ -80,12 +80,14 @@
 | `Blending` | 启用Alpha混合 |
 | `DisableAlphaWrite` | 禁止写入Alpha通道 |
 | `DisableColorWrite` | 禁止写入颜色通道 |
+| `DisableRGBWrite` | 禁止写入RGB通道（允许写入Alpha） |
 | `DisableDepthWrite` | 禁止写入深度缓冲 |
+| `DisableDepthTest` | 关闭深度测试 |
 | `DisableCulling` | 禁用面剔除（双面渲染） |
 | `InvertCulling` | 反转剔除方向（渲染背面） |
 | `Wireframe` | 线框模式渲染 |
-| `StencilWrite` | 写入模板缓冲 |
-| `InvertStencil` | 反转模板测试逻辑 |
+| `StencilWrite` | 启用模板缓冲写入 |
+| `EnableStencilTest` | 启用模板测试 |
 
 ### 混合因子可选值
 

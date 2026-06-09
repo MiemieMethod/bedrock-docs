@@ -154,7 +154,7 @@ system.beforeEvents.beforeWatchdogTerminate.subscribe((event) => {
 
 ### JavaScript引擎更新历史
 
-自1.21（繁茂洞穴更新）起，引擎新增了以下全局支持：
+自1.21（诡异试炼更新）起，引擎新增了以下全局支持：
 
 - `BigInt` — 任意精度整数（如`123n`）。
 - `Object.hasOwn(obj, prop)` — 检查对象是否拥有自有属性。

@@ -52,9 +52,9 @@
 
 - 所有JSON UI文件
 - 所有语言文件（`.lang`）
-- `item_textures.json`
+- `item_texture.json`
 - `flipbook_textures.json`
-- `terrain_textures.json`
+- `terrain_texture.json`
 - `sounds.json`
 - `music_definitions.json`
 - `sound_definitions.json`

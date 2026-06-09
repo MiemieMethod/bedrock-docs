@@ -15,7 +15,8 @@
 /// html | div.treeview
 - {{file|manifest.json}}：皮肤包的清单文件。
 - {{file|skins.json}}：皮肤列表定义文件。
-- {{file|en_US.lang}}等：本地化文件，用于皮肤名称的多语言翻译。
+- texts
+    - {{file|en_US.lang}}等：本地化文件，用于皮肤名称的多语言翻译。
 - 各皮肤的纹理图片文件（PNG格式）。
 ///
 
@@ -26,11 +27,11 @@
 - **本地化名称（Localization Name）**：皮肤名称的本地化键，对应语言文件中的翻译条目。
 - **纹理（Texture）**：皮肤纹理图片的文件名。
 - **类型（Type）**：皮肤类型，`free`表示免费皮肤。
-- **几何体（Geometry）**：皮肤使用的模型几何体标识符，默认为标准体型或纤细体型。
+- **几何体（Geometry）**：皮肤使用的模型几何体标识符，只能取`geometry.humanoid.custom`（标准体型）或`geometry.humanoid.customSlim`（纤细体型）。
 
-## 自定义几何体皮肤
+## 几何体限制
 
-皮肤包支持使用自定义几何体模型，使玩家角色不再局限于默认的方块人形体型。自定义几何体皮肤在`skins.json`中引用几何体定义文件中的模型标识符。几何体定义文件使用与实体模型相同的格式。
+皮肤包早期曾允许引入自定义几何体模型，使玩家角色不再局限于默认的人形体型。但由于该能力被滥用，Mojang已将其移除。现今皮肤包中的`geometry`字段只能取`geometry.humanoid.custom`或`geometry.humanoid.customSlim`两个固定值，分别对应标准体型与纤细体型，无法再挂接任意自定义几何体。
 
 ## 角色创建器
 
